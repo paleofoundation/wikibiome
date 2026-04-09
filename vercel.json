@@ -1,0 +1,6 @@
+{
+  "buildCommand": "node scripts/build-content.cjs && npx vite build",
+  "outputDirectory": "wikibiome-v7h",
+  "installCommand": "npm install",
+  "framework": null
+}

@@ -1,0 +1,73 @@
+---
+title: Arsenic
+type: entity
+created: 2026-04-09
+updated: 2026-04-09
+sources: [salnikov-2008-metal-carcinogenesis.md]
+tags: [metalloid, carcinogen, toxicology, drinking-water]
+---
+
+# Arsenic (As)
+
+A metalloid and potent carcinogen, primarily encountered through contaminated drinking water. Unlike [[nickel]] (epigenetic) and [[chromium]] (genotoxic), arsenic's carcinogenic mechanisms center on **increased cellular proliferation** and **epigenetic disruption**, while also acting as a powerful **cocarcinogen** through DNA repair inhibition.
+
+## Chemical Forms
+
+- Exists as trivalent (As^III) and pentavalent (As^V) inorganic forms.
+- Metabolized via methylation: As → MMA (monomethylarsonic acid) → DMA (dimethylarsinic acid).
+- **Methylation is paradoxical**: it is the detoxification pathway (methylated forms are excreted faster), but methylated intermediates (especially DMA^III) are **more reactive and potentially more carcinogenic** than inorganic arsenic.
+- Methylation consumes S-adenosylmethionine (SAM), depleting the universal methyl donor.
+
+## Human Exposure
+
+- **Drinking water contamination** is the primary route — affects millions worldwide.
+- Also found in food, soil, and ambient particulate matter.
+- Cancers: skin, lung, bladder, kidney, liver.
+- **Very few animal models**: DMA^V causes rat urinary bladder cancer; arsenic-induced bladder cancer in mice is possible but difficult.
+
+## Carcinogenic Mechanisms [[[salnikov-2008-metal-carcinogenesis]]]
+
+### Cellular Proliferation
+- Activates signal transduction: EGFR, ERK activation.
+- Upregulates Cyclin D1 even at low doses (12h exposure).
+- Disrupts p53 function at low concentrations → downregulates p21.
+- Induces growth factors in keratinocytes (GM-CSF, TGFα).
+
+### NF-κB and Apoptotic Signaling
+- **Low-dose arsenic activates NF-κB** (unlike high doses, which inhibit it).
+- This activation may be key to tumor promotion activity.
+- Arsenic is used therapeutically (APL treatment with arsenic trioxide) — exploiting its apoptosis-inducing effects at pharmacological doses.
+
+### Epigenetic Changes
+- Both **hypo- and hypermethylation** observed — depending on dose, duration, and tissue.
+- Mechanism: arsenic methylation **depletes SAM**, reducing availability for DNA/histone methylation.
+- Low dietary methionine or folate exacerbates effects.
+- Since methylated arsenic is excreted faster than inorganic forms, methylation represents a **detoxification-bioactivation trade-off**.
+
+### Cocarcinogenesis
+- **Potent cocarcinogen with UV radiation**: dramatically increases UV-induced skin tumors in mice.
+- Mechanism: **inhibition of DNA repair** — specifically nucleotide excision repair (NER) and likely base excision repair.
+- This may be more important for human cancer risk than direct carcinogenesis.
+
+## Comparison with Other Metals
+
+| Feature | Arsenic | [[nickel]] | [[chromium]] |
+|---------|---------|--------|----------|
+| Direct DNA damage | No | No | Yes |
+| Epigenetic effects | Strong | Strong | Moderate |
+| Proliferative signaling | Primary mechanism | Not central | Not central |
+| Repair inhibition | NER, BER | NER | MMR |
+| Key metabolic feature | SAM depletion | Fe(II) mimicry | Ascorbate-driven reduction |
+
+## Open Questions
+
+1. **Which methylated form is the proximate carcinogen?** DMA^III is highly reactive but transient.
+2. **Interaction with dietary factors**: folate/methionine status may modulate cancer risk significantly.
+3. **Low-dose, long-term exposure effects** in non-occupational populations.
+
+## Connections
+
+- [[nickel]], [[chromium]] — co-reviewed carcinogenic metals
+- [[epigenetic-modifications]] — shared mechanism with nickel
+- [[oxidative-stress]] — implicated but debated as primary mechanism
+- [[metal-carcinogenesis]] — overarching framework

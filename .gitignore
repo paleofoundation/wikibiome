@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Raw source documents (PDFs, papers — too large for git)
+raw/
+
+# Build output directories
+dist/
+dist-preview/
+preview/
+wikibiome-build/
+wikibiome-final/
+wikibiome-preview/
+wikibiome-v7b/
+wikibiome-v7c/
+wikibiome-v7d/
+wikibiome-v7e/
+wikibiome-v7f/
+wikibiome-v7g/
+wikibiome-v7h/
+
+# Vite timestamp files
+vite.config.js.timestamp-*
+
+# Old JSX versions (keeping only v7)
+wikibiome-poc.jsx
+wikibiome-v5.jsx
+wikibiome-v6.jsx
+wikibiome-v7 2.jsx
+
+# Auto-memory (session data)
+.auto-memory/
+
+# Intermediate lookup data
+doi-lookup-results.json
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Claude project config
+.claude/
