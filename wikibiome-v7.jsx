@@ -1217,18 +1217,16 @@ const ArticleView = ({ pageId, onNavigate }) => {
         </div>
       </div>
 
-      {/* ─── FUTURISTIC SIGNATURE SLIDE-OUT OVERLAY ─── */}
+      {/* ─── SIGNATURE SLIDE-OUT OVERLAY — white/copper on-brand ─── */}
       {signature && (
         <>
           {/* Inject keyframe animations */}
           <style>{`
-            @keyframes sigPulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
-            @keyframes sigScanline { 0%{transform:translateY(-100%)} 100%{transform:translateY(100vh)} }
-            @keyframes sigGlow { 0%,100%{box-shadow:0 0 4px rgba(184,115,51,0.3)} 50%{box-shadow:0 0 16px rgba(184,115,51,0.6)} }
             @keyframes sigBarGrow { 0%{transform:scaleX(0)} 100%{transform:scaleX(1)} }
-            @keyframes sigFadeUp { 0%{opacity:0;transform:translateY(8px)} 100%{opacity:1;transform:translateY(0)} }
-            @keyframes sigDotPulse { 0%,100%{r:1.5;opacity:0.15} 50%{r:2.5;opacity:0.35} }
+            @keyframes sigFadeUp { 0%{opacity:0;transform:translateY(6px)} 100%{opacity:1;transform:translateY(0)} }
             @keyframes sigLineTrace { 0%{stroke-dashoffset:200} 100%{stroke-dashoffset:0} }
+            @keyframes sigShimmer { 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+            @keyframes sigNodePulse { 0%,100%{r:3.5;opacity:0.7} 50%{r:5;opacity:1} }
           `}</style>
 
           {/* Backdrop */}
@@ -1236,8 +1234,8 @@ const ArticleView = ({ pageId, onNavigate }) => {
             onClick={() => { setSigPanelOpen(false); setSelectedTaxon(null); }}
             style={{
               position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
-              backgroundColor: 'rgba(10, 8, 6, 0.55)',
-              backdropFilter: 'blur(6px)',
+              backgroundColor: 'rgba(26, 23, 20, 0.2)',
+              backdropFilter: 'blur(4px)',
               zIndex: 900,
               opacity: sigPanelOpen ? 1 : 0,
               pointerEvents: sigPanelOpen ? 'auto' : 'none',
@@ -1245,53 +1243,41 @@ const ArticleView = ({ pageId, onNavigate }) => {
             }}
           />
 
-          {/* Panel */}
+          {/* Panel — clean white with copper accents */}
           <div style={{
             position: 'fixed', top: 0, right: 0, bottom: 0,
             width: '520px', maxWidth: '94vw',
-            background: 'linear-gradient(180deg, #0f0d0b 0%, #1a1714 40%, #141210 100%)',
+            backgroundColor: '#ffffff',
             zIndex: 910,
             transform: sigPanelOpen ? 'translateX(0)' : 'translateX(100%)',
             transition: 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
             display: 'flex', flexDirection: 'column',
-            boxShadow: sigPanelOpen ? '-12px 0 60px rgba(0, 0, 0, 0.5), -2px 0 0 rgba(184,115,51,0.3)' : 'none',
-            borderLeft: '1px solid rgba(184,115,51,0.2)',
+            boxShadow: sigPanelOpen ? '-16px 0 60px rgba(26, 23, 20, 0.12), -1px 0 0 rgba(184,115,51,0.15)' : 'none',
             overflow: 'hidden',
           }}>
 
-            {/* Animated left-edge glow line */}
+            {/* Thin metallic gradient accent line along left edge */}
             <div style={{
-              position: 'absolute', top: 0, left: 0, bottom: 0, width: '2px',
-              backgroundImage: 'linear-gradient(180deg, transparent 0%, rgba(184,115,51,0.8) 30%, rgba(196,163,90,0.6) 50%, rgba(184,115,51,0.8) 70%, transparent 100%)',
-              animation: 'sigPulse 3s ease-in-out infinite',
+              position: 'absolute', top: 0, left: 0, bottom: 0, width: '3px',
+              backgroundImage: metallicGradient,
               zIndex: 2,
             }} />
 
-            {/* Subtle dot grid background */}
-            <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', opacity: 0.12, pointerEvents: 'none', zIndex: 0 }}>
+            {/* Subtle shimmer background — very faint copper grid */}
+            <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', opacity: 0.025, pointerEvents: 'none', zIndex: 0 }}>
               <defs>
-                <pattern id="sigDotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-                  <circle cx="12" cy="12" r="1" fill="rgba(184,115,51,0.5)">
-                    <animate attributeName="r" values="0.8;1.5;0.8" dur="4s" repeatCount="indefinite" />
-                  </circle>
+                <pattern id="sigGridPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke={P.copper} strokeWidth="0.5" />
                 </pattern>
               </defs>
-              <rect width="100%" height="100%" fill="url(#sigDotGrid)" />
+              <rect width="100%" height="100%" fill="url(#sigGridPattern)" />
             </svg>
-
-            {/* Slow scan line */}
-            <div style={{
-              position: 'absolute', top: 0, left: 0, right: 0, height: '1px',
-              background: 'linear-gradient(90deg, transparent, rgba(184,115,51,0.15), transparent)',
-              animation: 'sigScanline 8s linear infinite',
-              zIndex: 1,
-            }} />
 
             {/* ── Panel header ── */}
             <div style={{
-              padding: '28px 32px 24px',
-              borderBottom: '1px solid rgba(184,115,51,0.15)',
-              background: 'linear-gradient(135deg, rgba(184,115,51,0.08) 0%, transparent 60%)',
+              padding: '28px 32px 24px', paddingLeft: '35px',
+              borderBottom: `1px solid ${P.border}`,
+              background: 'linear-gradient(135deg, rgba(184,115,51,0.04) 0%, rgba(255,255,255,1) 50%)',
               flexShrink: 0, position: 'relative', zIndex: 5,
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
@@ -1304,25 +1290,25 @@ const ArticleView = ({ pageId, onNavigate }) => {
                   }}>
                     Microbiome Signature
                   </div>
-                  <h2 style={{ fontSize: '24px', fontWeight: 800, color: '#f0ebe4', margin: 0, lineHeight: 1.2 }}>
+                  <h2 style={{ fontSize: '24px', fontWeight: 800, color: P.ink, margin: 0, lineHeight: 1.2 }}>
                     {signature.name}
                   </h2>
                   <div style={{ display: 'flex', gap: '8px', marginTop: '12px', flexWrap: 'wrap' }}>
                     {signature.paperCount && (
                       <span style={{
                         display: 'inline-flex', alignItems: 'center', gap: '5px',
-                        backgroundColor: 'rgba(184,115,51,0.12)', color: P.copper,
+                        backgroundColor: P.bgWarm, color: P.copper,
                         padding: '5px 12px', borderRadius: '14px', fontSize: '10px', fontWeight: 600,
-                        border: '1px solid rgba(184,115,51,0.2)',
+                        border: `1px solid ${P.border}`,
                       }}>
                         <BookOpen size={10} /> {signature.paperCount} papers
                       </span>
                     )}
                     <span style={{
                       display: 'inline-flex', alignItems: 'center', gap: '5px',
-                      backgroundColor: 'rgba(90,138,122,0.12)', color: P.patinaLight,
+                      backgroundColor: 'rgba(90,138,122,0.06)', color: P.patina,
                       padding: '5px 12px', borderRadius: '14px', fontSize: '10px', fontWeight: 600,
-                      border: '1px solid rgba(90,138,122,0.2)',
+                      border: '1px solid rgba(90,138,122,0.12)',
                     }}>
                       <Layers size={10} /> 5 layers
                     </span>
@@ -1331,15 +1317,15 @@ const ArticleView = ({ pageId, onNavigate }) => {
                 <button
                   onClick={() => { setSigPanelOpen(false); setSelectedTaxon(null); }}
                   style={{
-                    backgroundColor: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)',
+                    backgroundColor: P.bgWarm, border: `1px solid ${P.border}`,
                     borderRadius: '8px', width: '34px', height: '34px',
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     cursor: 'pointer', flexShrink: 0, transition: 'all 0.2s ease',
                   }}
-                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.12)'; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.06)'; }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = P.border; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = P.bgWarm; }}
                 >
-                  <X size={15} color="rgba(240,235,228,0.7)" />
+                  <X size={15} color={P.textMuted} />
                 </button>
               </div>
             </div>
@@ -1347,40 +1333,39 @@ const ArticleView = ({ pageId, onNavigate }) => {
             {/* ── Scrollable body ── */}
             <div style={{ flex: 1, overflowY: 'auto', position: 'relative', zIndex: 5 }}>
 
-              {/* ── LAYER 1: Metallomic — glowing horizontal bars ── */}
+              {/* ── LAYER 1: Metallomic — animated bar visualization ── */}
               {signature.metallomicSignature && (() => {
                 const elevated = (signature.metallomicSignature.elevated || []);
                 const depleted = (signature.metallomicSignature.depleted || []);
                 const total = elevated.length + depleted.length;
                 return (
-                  <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
+                  <div style={{ padding: '24px 32px', paddingLeft: '35px', borderBottom: `1px solid ${P.border}` }}>
                     <div
                       onClick={() => toggleLayer('metallomic')}
                       style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.metallomic ? '20px' : 0 }}
                     >
                       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.copper, boxShadow: '0 0 8px rgba(184,115,51,0.5)', animation: 'sigGlow 2s ease-in-out infinite' }} />
-                        <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Metallomic Signature</span>
-                        <span style={{ fontSize: '10px', color: 'rgba(184,115,51,0.7)', fontWeight: 600, backgroundColor: 'rgba(184,115,51,0.1)', padding: '2px 8px', borderRadius: '10px' }}>{total}</span>
+                        <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundImage: metallicGradient, boxShadow: '0 0 6px rgba(184,115,51,0.3)' }} />
+                        <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink, letterSpacing: '0.3px' }}>Metallomic Signature</span>
+                        <span style={{ fontSize: '10px', color: P.copper, fontWeight: 700, backgroundColor: 'rgba(184,115,51,0.08)', padding: '2px 8px', borderRadius: '10px', border: '1px solid rgba(184,115,51,0.12)' }}>{total}</span>
                       </div>
-                      <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.metallomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                      <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.metallomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                     </div>
                     {expandedLayers.metallomic && (
                       <div>
                         {elevated.length > 0 && (
                           <div style={{ marginBottom: '16px' }}>
-                            <div style={{ fontSize: '9px', fontWeight: 700, color: '#e04040', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
-                              &#9650; Elevated
+                            <div style={{ fontSize: '9px', fontWeight: 700, color: P.crimson, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                              <span style={{ fontSize: '7px' }}>&#9650;</span> Elevated
                             </div>
                             {elevated.map((metal, idx) => (
-                              <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '6px', animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both` }}>
-                                <span style={{ fontSize: '11px', color: 'rgba(240,235,228,0.8)', fontWeight: 500, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
-                                <div style={{ flex: 1, height: '6px', backgroundColor: 'rgba(255,255,255,0.04)', borderRadius: '3px', overflow: 'hidden' }}>
+                              <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px', animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both` }}>
+                                <span style={{ fontSize: '11px', color: P.text, fontWeight: 600, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
+                                <div style={{ flex: 1, height: '8px', backgroundColor: 'rgba(139,32,32,0.06)', borderRadius: '4px', overflow: 'hidden', border: '1px solid rgba(139,32,32,0.08)' }}>
                                   <div style={{
-                                    height: '100%', borderRadius: '3px',
-                                    background: 'linear-gradient(90deg, #8b2020, #e04040, #ff6b6b)',
-                                    boxShadow: '0 0 10px rgba(224,64,64,0.4)',
-                                    animation: `sigBarGrow 0.6s ease ${idx * 0.08}s both`,
+                                    height: '100%', borderRadius: '4px',
+                                    background: `linear-gradient(90deg, ${P.crimson}, ${P.crimsonLight}, rgba(176,48,48,0.6))`,
+                                    animation: `sigBarGrow 0.5s ease ${idx * 0.07}s both`,
                                     transformOrigin: 'left',
                                     width: `${60 + Math.random() * 40}%`,
                                   }} />
@@ -1391,18 +1376,17 @@ const ArticleView = ({ pageId, onNavigate }) => {
                         )}
                         {depleted.length > 0 && (
                           <div>
-                            <div style={{ fontSize: '9px', fontWeight: 700, color: P.patinaLight, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
-                              &#9660; Depleted
+                            <div style={{ fontSize: '9px', fontWeight: 700, color: P.patina, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                              <span style={{ fontSize: '7px' }}>&#9660;</span> Depleted
                             </div>
                             {depleted.map((metal, idx) => (
-                              <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '6px', animation: `sigFadeUp 0.3s ease ${(elevated.length + idx) * 0.05}s both` }}>
-                                <span style={{ fontSize: '11px', color: 'rgba(240,235,228,0.8)', fontWeight: 500, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
-                                <div style={{ flex: 1, height: '6px', backgroundColor: 'rgba(255,255,255,0.04)', borderRadius: '3px', overflow: 'hidden' }}>
+                              <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px', animation: `sigFadeUp 0.3s ease ${(elevated.length + idx) * 0.05}s both` }}>
+                                <span style={{ fontSize: '11px', color: P.text, fontWeight: 600, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
+                                <div style={{ flex: 1, height: '8px', backgroundColor: 'rgba(90,138,122,0.06)', borderRadius: '4px', overflow: 'hidden', border: '1px solid rgba(90,138,122,0.08)' }}>
                                   <div style={{
-                                    height: '100%', borderRadius: '3px',
-                                    background: 'linear-gradient(90deg, #3d6858, #5a8a7a, #7aaa98)',
-                                    boxShadow: '0 0 10px rgba(90,138,122,0.4)',
-                                    animation: `sigBarGrow 0.6s ease ${(elevated.length + idx) * 0.08}s both`,
+                                    height: '100%', borderRadius: '4px',
+                                    background: `linear-gradient(90deg, ${P.patinaDark}, ${P.patina}, ${P.patinaLight})`,
+                                    animation: `sigBarGrow 0.5s ease ${(elevated.length + idx) * 0.07}s both`,
                                     transformOrigin: 'left',
                                     width: `${50 + Math.random() * 40}%`,
                                   }} />
@@ -1419,27 +1403,25 @@ const ArticleView = ({ pageId, onNavigate }) => {
 
               {/* ── LAYER 2: Taxonomic ── */}
               {signature.taxonomicSignature && (
-                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
+                <div style={{ padding: '24px 32px', paddingLeft: '35px', borderBottom: `1px solid ${P.border}` }}>
                   <div
                     onClick={() => toggleLayer('taxonomic')}
                     style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.taxonomic ? '20px' : 0 }}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#e04040', boxShadow: '0 0 8px rgba(224,64,64,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 0.3s' }} />
-                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Taxonomic Signature</span>
-                      <span style={{ fontSize: '10px', color: 'rgba(224,64,64,0.7)', fontWeight: 600, backgroundColor: 'rgba(224,64,64,0.1)', padding: '2px 8px', borderRadius: '10px' }}>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.crimson, boxShadow: '0 0 6px rgba(139,32,32,0.25)' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink, letterSpacing: '0.3px' }}>Taxonomic Signature</span>
+                      <span style={{ fontSize: '10px', color: P.crimson, fontWeight: 700, backgroundColor: 'rgba(139,32,32,0.06)', padding: '2px 8px', borderRadius: '10px', border: '1px solid rgba(139,32,32,0.1)' }}>
                         {(signature.taxonomicSignature.enriched?.length || 0) + (signature.taxonomicSignature.depleted?.length || 0)}
                       </span>
                     </div>
-                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.taxonomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.taxonomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.taxonomic && (
                     <div>
                       {signature.taxonomicSignature.enriched?.length > 0 && (
                         <div style={{ marginBottom: '16px' }}>
-                          <div style={{ fontSize: '9px', fontWeight: 700, color: '#e04040', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
-                            Enriched
-                          </div>
+                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.crimson, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Enriched</div>
                           {signature.taxonomicSignature.enriched.map((taxon, i) => {
                             const taxonName = taxon.taxon?.replace(/\[\[|\]\]/g, '') || 'Unknown';
                             const isOpen = selectedTaxon === taxon;
@@ -1450,20 +1432,20 @@ const ArticleView = ({ pageId, onNavigate }) => {
                                 style={{
                                   padding: '10px 14px', marginBottom: '4px', borderRadius: '8px',
                                   cursor: 'pointer', transition: 'all 0.2s ease',
-                                  backgroundColor: isOpen ? 'rgba(224,64,64,0.08)' : 'transparent',
-                                  border: `1px solid ${isOpen ? 'rgba(224,64,64,0.2)' : 'rgba(255,255,255,0.04)'}`,
-                                  animation: `sigFadeUp 0.3s ease ${i * 0.04}s both`,
+                                  backgroundColor: isOpen ? 'rgba(139,32,32,0.04)' : 'transparent',
+                                  border: `1px solid ${isOpen ? 'rgba(139,32,32,0.12)' : 'transparent'}`,
+                                  animation: `sigFadeUp 0.25s ease ${i * 0.04}s both`,
                                 }}
-                                onMouseEnter={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.03)'; e.currentTarget.style.borderColor = 'rgba(184,115,51,0.15)'; } }}
-                                onMouseLeave={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.04)'; } }}
+                                onMouseEnter={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = P.bgWarm; } }}
+                                onMouseLeave={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'transparent'; } }}
                               >
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                  <span style={{ color: '#e04040', fontSize: '7px', flexShrink: 0 }}>&#9650;</span>
-                                  <span style={{ fontSize: '12px', fontWeight: 600, color: '#f0ebe4', fontStyle: 'italic', flex: 1 }}>{taxonName}</span>
-                                  <ChevronRight size={11} style={{ color: 'rgba(240,235,228,0.3)', transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
+                                  <span style={{ color: P.crimson, fontSize: '7px', flexShrink: 0 }}>&#9650;</span>
+                                  <span style={{ fontSize: '12px', fontWeight: 600, color: P.ink, fontStyle: 'italic', flex: 1 }}>{taxonName}</span>
+                                  <ChevronRight size={11} style={{ color: P.textMuted, transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
                                 </div>
                                 {isOpen && taxon.role && (
-                                  <div style={{ fontSize: '11px', color: 'rgba(240,235,228,0.6)', marginTop: '8px', lineHeight: 1.6, paddingLeft: '17px', borderLeft: '2px solid rgba(224,64,64,0.2)' }}>
+                                  <div style={{ fontSize: '11px', color: P.text, marginTop: '8px', lineHeight: 1.6, paddingLeft: '17px', borderLeft: `2px solid ${P.copper}` }}>
                                     {taxon.role}
                                   </div>
                                 )}
@@ -1474,9 +1456,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
                       )}
                       {signature.taxonomicSignature.depleted?.length > 0 && (
                         <div>
-                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.patinaLight, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
-                            Depleted
-                          </div>
+                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.patina, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Depleted</div>
                           {signature.taxonomicSignature.depleted.map((taxon, i) => {
                             const taxonName = taxon.taxon?.replace(/\[\[|\]\]/g, '') || 'Unknown';
                             const isOpen = selectedTaxon === taxon;
@@ -1487,20 +1467,20 @@ const ArticleView = ({ pageId, onNavigate }) => {
                                 style={{
                                   padding: '10px 14px', marginBottom: '4px', borderRadius: '8px',
                                   cursor: 'pointer', transition: 'all 0.2s ease',
-                                  backgroundColor: isOpen ? 'rgba(90,138,122,0.08)' : 'transparent',
-                                  border: `1px solid ${isOpen ? 'rgba(90,138,122,0.2)' : 'rgba(255,255,255,0.04)'}`,
-                                  animation: `sigFadeUp 0.3s ease ${i * 0.04}s both`,
+                                  backgroundColor: isOpen ? 'rgba(90,138,122,0.04)' : 'transparent',
+                                  border: `1px solid ${isOpen ? 'rgba(90,138,122,0.12)' : 'transparent'}`,
+                                  animation: `sigFadeUp 0.25s ease ${i * 0.04}s both`,
                                 }}
-                                onMouseEnter={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.03)'; e.currentTarget.style.borderColor = 'rgba(90,138,122,0.15)'; } }}
-                                onMouseLeave={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.04)'; } }}
+                                onMouseEnter={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = P.bgWarm; } }}
+                                onMouseLeave={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'transparent'; } }}
                               >
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                  <span style={{ color: P.patinaLight, fontSize: '7px', flexShrink: 0 }}>&#9660;</span>
-                                  <span style={{ fontSize: '12px', fontWeight: 600, color: '#f0ebe4', fontStyle: 'italic', flex: 1 }}>{taxonName}</span>
-                                  <ChevronRight size={11} style={{ color: 'rgba(240,235,228,0.3)', transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
+                                  <span style={{ color: P.patina, fontSize: '7px', flexShrink: 0 }}>&#9660;</span>
+                                  <span style={{ fontSize: '12px', fontWeight: 600, color: P.ink, fontStyle: 'italic', flex: 1 }}>{taxonName}</span>
+                                  <ChevronRight size={11} style={{ color: P.textMuted, transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
                                 </div>
                                 {isOpen && taxon.role && (
-                                  <div style={{ fontSize: '11px', color: 'rgba(240,235,228,0.6)', marginTop: '8px', lineHeight: 1.6, paddingLeft: '17px', borderLeft: '2px solid rgba(90,138,122,0.2)' }}>
+                                  <div style={{ fontSize: '11px', color: P.text, marginTop: '8px', lineHeight: 1.6, paddingLeft: '17px', borderLeft: `2px solid ${P.patina}` }}>
                                     {taxon.role}
                                   </div>
                                 )}
@@ -1516,16 +1496,16 @@ const ArticleView = ({ pageId, onNavigate }) => {
 
               {/* ── LAYER 3: Nutritional Immunity ── */}
               {signature.nutritionalImmunity && (
-                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
+                <div style={{ padding: '24px 32px', paddingLeft: '35px', borderBottom: `1px solid ${P.border}` }}>
                   <div
                     onClick={() => toggleLayer('immunity')}
                     style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.immunity ? '20px' : 0 }}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.gold, boxShadow: '0 0 8px rgba(196,163,90,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 0.6s' }} />
-                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Nutritional Immunity</span>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.gold, boxShadow: '0 0 6px rgba(196,163,90,0.25)' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink, letterSpacing: '0.3px' }}>Nutritional Immunity</span>
                     </div>
-                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.immunity ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.immunity ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.immunity && (
                     <div>
@@ -1535,11 +1515,10 @@ const ArticleView = ({ pageId, onNavigate }) => {
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
                             {signature.nutritionalImmunity.elevated.map((marker, idx) => (
                               <span key={marker} style={{
-                                backgroundColor: 'rgba(184,115,51,0.08)', color: P.copperLight,
+                                backgroundColor: 'rgba(184,115,51,0.06)', color: P.copper,
                                 padding: '6px 14px', borderRadius: '20px', fontSize: '10px', fontWeight: 600,
-                                border: '1px solid rgba(184,115,51,0.2)',
-                                boxShadow: '0 0 6px rgba(184,115,51,0.1)',
-                                animation: `sigFadeUp 0.3s ease ${idx * 0.04}s both`,
+                                border: '1px solid rgba(184,115,51,0.15)',
+                                animation: `sigFadeUp 0.25s ease ${idx * 0.04}s both`,
                               }}>{marker}</span>
                             ))}
                           </div>
@@ -1547,15 +1526,14 @@ const ArticleView = ({ pageId, onNavigate }) => {
                       )}
                       {signature.nutritionalImmunity.depleted?.length > 0 && (
                         <div>
-                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.patinaLight, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Compromised &#8595;</div>
+                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.patina, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Compromised &#8595;</div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
                             {signature.nutritionalImmunity.depleted.map((marker, idx) => (
                               <span key={marker} style={{
-                                backgroundColor: 'rgba(90,138,122,0.08)', color: P.patinaLight,
+                                backgroundColor: 'rgba(90,138,122,0.06)', color: P.patina,
                                 padding: '6px 14px', borderRadius: '20px', fontSize: '10px', fontWeight: 600,
-                                border: '1px solid rgba(90,138,122,0.2)',
-                                boxShadow: '0 0 6px rgba(90,138,122,0.1)',
-                                animation: `sigFadeUp 0.3s ease ${idx * 0.04}s both`,
+                                border: '1px solid rgba(90,138,122,0.15)',
+                                animation: `sigFadeUp 0.25s ease ${idx * 0.04}s both`,
                               }}>{marker}</span>
                             ))}
                           </div>
@@ -1568,27 +1546,26 @@ const ArticleView = ({ pageId, onNavigate }) => {
 
               {/* ── LAYER 4: Ecological Features ── */}
               {signature.ecologicalFeatures?.length > 0 && (
-                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
+                <div style={{ padding: '24px 32px', paddingLeft: '35px', borderBottom: `1px solid ${P.border}` }}>
                   <div
                     onClick={() => toggleLayer('ecological')}
                     style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.ecological ? '20px' : 0 }}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.patina, boxShadow: '0 0 8px rgba(90,138,122,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 0.9s' }} />
-                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Ecological Features</span>
-                      <span style={{ fontSize: '10px', color: 'rgba(90,138,122,0.7)', fontWeight: 600, backgroundColor: 'rgba(90,138,122,0.1)', padding: '2px 8px', borderRadius: '10px' }}>{signature.ecologicalFeatures.length}</span>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.patina, boxShadow: '0 0 6px rgba(90,138,122,0.25)' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink, letterSpacing: '0.3px' }}>Ecological Features</span>
+                      <span style={{ fontSize: '10px', color: P.patina, fontWeight: 700, backgroundColor: 'rgba(90,138,122,0.06)', padding: '2px 8px', borderRadius: '10px', border: '1px solid rgba(90,138,122,0.1)' }}>{signature.ecologicalFeatures.length}</span>
                     </div>
-                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.ecological ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.ecological ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.ecological && (
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                       {signature.ecologicalFeatures.map((feature, idx) => (
                         <span key={feature} style={{
-                          backgroundColor: 'rgba(90,138,122,0.06)', color: 'rgba(240,235,228,0.75)',
+                          backgroundColor: P.bgWarm, color: P.text,
                           padding: '7px 16px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
-                          border: '1px solid rgba(90,138,122,0.15)',
-                          boxShadow: '0 0 6px rgba(90,138,122,0.08)',
-                          animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both`,
+                          border: `1px solid ${P.border}`,
+                          animation: `sigFadeUp 0.25s ease ${idx * 0.05}s both`,
                         }}>{feature}</span>
                       ))}
                     </div>
@@ -1598,27 +1575,26 @@ const ArticleView = ({ pageId, onNavigate }) => {
 
               {/* ── LAYER 5: Virulence Enzymes ── */}
               {signature.virulenceEnzymes?.length > 0 && (
-                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
+                <div style={{ padding: '24px 32px', paddingLeft: '35px', borderBottom: `1px solid ${P.border}` }}>
                   <div
                     onClick={() => toggleLayer('virulence')}
                     style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.virulence ? '20px' : 0 }}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#e04040', boxShadow: '0 0 8px rgba(224,64,64,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 1.2s' }} />
-                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Virulence Enzymes</span>
-                      <span style={{ fontSize: '10px', color: 'rgba(224,64,64,0.7)', fontWeight: 600, backgroundColor: 'rgba(224,64,64,0.1)', padding: '2px 8px', borderRadius: '10px' }}>{signature.virulenceEnzymes.length}</span>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.crimson, boxShadow: '0 0 6px rgba(139,32,32,0.25)' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink, letterSpacing: '0.3px' }}>Virulence Enzymes</span>
+                      <span style={{ fontSize: '10px', color: P.crimson, fontWeight: 700, backgroundColor: 'rgba(139,32,32,0.05)', padding: '2px 8px', borderRadius: '10px', border: '1px solid rgba(139,32,32,0.08)' }}>{signature.virulenceEnzymes.length}</span>
                     </div>
-                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.virulence ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.virulence ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.virulence && (
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                       {signature.virulenceEnzymes.map((enzyme, idx) => (
                         <span key={enzyme} style={{
-                          backgroundColor: 'rgba(224,64,64,0.06)', color: '#ff8a8a',
+                          backgroundColor: 'rgba(139,32,32,0.04)', color: P.crimson,
                           padding: '7px 16px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
-                          border: '1px solid rgba(224,64,64,0.15)',
-                          boxShadow: '0 0 6px rgba(224,64,64,0.08)',
-                          animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both`,
+                          border: '1px solid rgba(139,32,32,0.1)',
+                          animation: `sigFadeUp 0.25s ease ${idx * 0.05}s both`,
                         }}>{enzyme}</span>
                       ))}
                     </div>
@@ -1630,47 +1606,51 @@ const ArticleView = ({ pageId, onNavigate }) => {
               {signature.metallomicSignature && signature.taxonomicSignature && (() => {
                 const metals = (signature.metallomicSignature.elevated || []).slice(0, 6);
                 const taxa = (signature.taxonomicSignature.enriched || []).slice(0, 6).map(t => t.taxon?.replace(/\[\[|\]\]/g, '') || '?');
-                const w = 420, h = 180;
-                const metalY = metals.map((_, i) => 30 + (i * (h - 60)) / Math.max(metals.length - 1, 1));
-                const taxaY = taxa.map((_, i) => 30 + (i * (h - 60)) / Math.max(taxa.length - 1, 1));
+                if (metals.length === 0 || taxa.length === 0) return null;
+                const w = 420, h = Math.max(metals.length, taxa.length) * 30 + 40;
+                const metalY = metals.map((_, i) => 28 + (i * (h - 56)) / Math.max(metals.length - 1, 1));
+                const taxaY = taxa.map((_, i) => 28 + (i * (h - 56)) / Math.max(taxa.length - 1, 1));
                 return (
-                  <div style={{ padding: '24px 32px' }}>
-                    <div style={{ fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '14px',
+                  <div style={{ padding: '24px 32px', paddingLeft: '35px', borderBottom: `1px solid ${P.border}` }}>
+                    <div style={{
+                      fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '14px',
                       backgroundImage: metallicGradient, backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
                     }}>
                       Metal — Taxon Network
                     </div>
-                    <svg width="100%" viewBox={`0 0 ${w} ${h}`} style={{ overflow: 'visible' }}>
-                      {/* Connection lines */}
-                      {metals.map((metal, mi) => taxa.map((taxon, ti) => (
-                        <line
-                          key={`${mi}-${ti}`}
-                          x1={90} y1={metalY[mi]} x2={w - 120} y2={taxaY[ti]}
-                          stroke="rgba(184,115,51,0.12)" strokeWidth="1"
-                          strokeDasharray="200" style={{ animation: `sigLineTrace 2s ease ${(mi * taxa.length + ti) * 0.08}s both` }}
-                        />
-                      )))}
-                      {/* Metal nodes */}
-                      {metals.map((metal, i) => (
-                        <g key={`m-${i}`}>
-                          <circle cx={90} cy={metalY[i]} r="4" fill="#e04040" opacity="0.7">
-                            <animate attributeName="opacity" values="0.5;0.9;0.5" dur={`${2 + i * 0.3}s`} repeatCount="indefinite" />
-                          </circle>
-                          <circle cx={90} cy={metalY[i]} r="8" fill="none" stroke="rgba(224,64,64,0.2)" strokeWidth="1" />
-                          <text x={82} y={metalY[i] + 1} textAnchor="end" fill="rgba(240,235,228,0.7)" fontSize="9" fontWeight="600" style={{ textTransform: 'capitalize' }}>{metal}</text>
-                        </g>
-                      ))}
-                      {/* Taxa nodes */}
-                      {taxa.map((taxon, i) => (
-                        <g key={`t-${i}`}>
-                          <circle cx={w - 120} cy={taxaY[i]} r="4" fill={P.patina} opacity="0.7">
-                            <animate attributeName="opacity" values="0.5;0.9;0.5" dur={`${2.5 + i * 0.3}s`} repeatCount="indefinite" />
-                          </circle>
-                          <circle cx={w - 120} cy={taxaY[i]} r="8" fill="none" stroke="rgba(90,138,122,0.2)" strokeWidth="1" />
-                          <text x={w - 108} y={taxaY[i] + 1} textAnchor="start" fill="rgba(240,235,228,0.7)" fontSize="8" fontWeight="500" fontStyle="italic">{taxon.length > 18 ? taxon.slice(0, 16) + '...' : taxon}</text>
-                        </g>
-                      ))}
-                    </svg>
+                    <div style={{ backgroundColor: P.bg, borderRadius: '10px', padding: '12px 8px', border: `1px solid ${P.border}` }}>
+                      <svg width="100%" viewBox={`0 0 ${w} ${h}`} style={{ overflow: 'visible' }}>
+                        {/* Connection lines — copper gradient */}
+                        {metals.map((metal, mi) => taxa.map((taxon, ti) => (
+                          <line
+                            key={`${mi}-${ti}`}
+                            x1={95} y1={metalY[mi]} x2={w - 130} y2={taxaY[ti]}
+                            stroke={P.copper} strokeWidth="0.7" opacity="0.1"
+                            strokeDasharray="200" style={{ animation: `sigLineTrace 1.5s ease ${(mi * taxa.length + ti) * 0.06}s both` }}
+                          />
+                        )))}
+                        {/* Metal nodes */}
+                        {metals.map((metal, i) => (
+                          <g key={`m-${i}`}>
+                            <circle cx={95} cy={metalY[i]} r="4" fill={P.crimson} opacity="0.8">
+                              <animate attributeName="r" values="3.5;4.5;3.5" dur={`${2.5 + i * 0.4}s`} repeatCount="indefinite" />
+                            </circle>
+                            <circle cx={95} cy={metalY[i]} r="8" fill="none" stroke={P.crimson} strokeWidth="0.5" opacity="0.2" />
+                            <text x={86} y={metalY[i] + 1} textAnchor="end" fill={P.text} fontSize="9" fontWeight="600" style={{ textTransform: 'capitalize' }}>{metal}</text>
+                          </g>
+                        ))}
+                        {/* Taxa nodes */}
+                        {taxa.map((taxon, i) => (
+                          <g key={`t-${i}`}>
+                            <circle cx={w - 130} cy={taxaY[i]} r="4" fill={P.patina} opacity="0.8">
+                              <animate attributeName="r" values="3.5;4.5;3.5" dur={`${2.8 + i * 0.4}s`} repeatCount="indefinite" />
+                            </circle>
+                            <circle cx={w - 130} cy={taxaY[i]} r="8" fill="none" stroke={P.patina} strokeWidth="0.5" opacity="0.2" />
+                            <text x={w - 118} y={taxaY[i] + 1} textAnchor="start" fill={P.text} fontSize="8" fontWeight="500" fontStyle="italic">{taxon.length > 20 ? taxon.slice(0, 18) + '...' : taxon}</text>
+                          </g>
+                        ))}
+                      </svg>
+                    </div>
                   </div>
                 );
               })()}
@@ -1678,10 +1658,9 @@ const ArticleView = ({ pageId, onNavigate }) => {
 
             {/* ── Panel footer ── */}
             <div style={{
-              padding: '18px 32px',
-              borderTop: '1px solid rgba(184,115,51,0.15)',
-              background: 'linear-gradient(180deg, rgba(26,23,20,0.8) 0%, rgba(15,13,11,1) 100%)',
-              flexShrink: 0, position: 'relative', zIndex: 5,
+              padding: '18px 32px', paddingLeft: '35px',
+              borderTop: `1px solid ${P.border}`,
+              backgroundColor: P.bgWarm, flexShrink: 0, position: 'relative', zIndex: 5,
             }}>
               <button
                 onClick={() => { setSigPanelOpen(false); onNavigate({ view: 'signatures', disease: pageId }); }}
@@ -1692,11 +1671,11 @@ const ArticleView = ({ pageId, onNavigate }) => {
                   padding: '14px 16px', borderRadius: '10px',
                   fontSize: '13px', fontWeight: 700,
                   cursor: 'pointer', transition: 'all 0.25s ease',
-                  boxShadow: '0 4px 20px rgba(184,115,51,0.3), inset 0 1px 0 rgba(255,255,255,0.15)',
+                  boxShadow: '0 4px 16px rgba(184,115,51,0.25), inset 0 1px 0 rgba(255,255,255,0.15)',
                   letterSpacing: '0.5px',
                 }}
-                onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 6px 28px rgba(184,115,51,0.5), inset 0 1px 0 rgba(255,255,255,0.2)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 20px rgba(184,115,51,0.3), inset 0 1px 0 rgba(255,255,255,0.15)'; e.currentTarget.style.transform = 'translateY(0)'; }}
+                onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 6px 24px rgba(184,115,51,0.4), inset 0 1px 0 rgba(255,255,255,0.2)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 16px rgba(184,115,51,0.25), inset 0 1px 0 rgba(255,255,255,0.15)'; e.currentTarget.style.transform = 'translateY(0)'; }}
               >
                 View Full Signature Page &rarr;
               </button>
