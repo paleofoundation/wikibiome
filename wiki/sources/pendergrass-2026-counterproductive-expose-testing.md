@@ -1,5 +1,5 @@
 ---
-title: "The Counterproductive Consequences of Public Expose Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction"
+title: "The Counterproductive Consequences of Public Exposé Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction"
 type: source
 created: 2026-04-09
 updated: 2026-04-09
