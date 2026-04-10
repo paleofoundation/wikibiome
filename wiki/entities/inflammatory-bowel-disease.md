@@ -78,3 +78,4 @@ IBD patients have significantly increased [[cardiovascular-disease]] risk:
 - [[inflammation]] -- chronic NF-kB-driven inflammation is the hallmark of IBD
 - [[cardiovascular-disease]] -- IBD patients at significantly increased CVD risk via shared inflammatory mechanisms
 - [[nutritional-immunity]] -- calprotectin and lactoferrin are nutritional immunity effectors elevated in IBD
+- [[metal-disease-matrix]] -- IBD is a key disease in the metal-disease interaction landscape

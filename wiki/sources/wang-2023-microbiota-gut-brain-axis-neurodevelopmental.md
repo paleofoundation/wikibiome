@@ -94,7 +94,7 @@ Comprehensive review of the **microbiota–gut–brain axis in neurodevelopmenta
 - **Immune tolerance (Treg, IL-10, TGF-β)**: [[zinc]], [[iron]]-dependent signaling
 - **Tryptophan metabolism (IDO, kynurenine pathway)**: [[iron]]-dependent (IDO), [[zinc]]-dependent (KAT)
 - **SCFA production**: [[iron]]-dependent pyruvate dehydrogenase, acetyl-CoA production
-- **BBB integrity**: [[zinc]]-dependent tight junctions (occludin, claudins), [[iron]]-dependent hypoxia response
+- **BBB integrity**: [[zinc]]-dependent tight junctions (occludin, claudins), [[iron]]-dependent [[hypoxia]] response
 - **Microglial function**: [[iron]]-dependent enzymes, [[zinc]]-dependent signaling
 - **Vagal signaling**: unclear but likely metal-dependent (neurotransmitter synthesis, neuropeptide release)
 

@@ -21,7 +21,7 @@ This review from Oxford proposes a paradigm shift in understanding [[multiple-sc
 - BBB disruption has long been recognized as an early feature of MS pathology
 - Global BBB disruption predicts conversion of optic neuritis to MS
 - In mouse models, BBB disruption occurs *before* immune cell infiltration in focal lesions
-- Vascular pathology in genetically predisposed individuals, influenced by environmental factors (pathogens, vitamin D deficiency, smoking), may initiate a cascade of hypoxia, protein deposition, and immune cell egress
+- Vascular pathology in genetically predisposed individuals, influenced by environmental factors (pathogens, vitamin D deficiency, smoking), may initiate a cascade of [[hypoxia]], protein deposition, and immune cell egress
 - This model is not mutually exclusive with current autoimmune hypotheses
 
 ## Environmental Factors and BBB

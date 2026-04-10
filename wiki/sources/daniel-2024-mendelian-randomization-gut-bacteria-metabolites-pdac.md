@@ -12,7 +12,7 @@ doi: "10.1038/s41598-024-77431-5"
 
 # Key Claims
 
-- Mannitol (OR 0.97, p=0.006) and methionine (OR 0.97, p=0.006) are causally associated with decreased PDAC risk; stearic acid (OR 0.93, p=0.031) also protective
+- Mannitol (OR 0.97, p=0.006) and methionine (OR 0.97, p=0.006) are causally associated with decreased [[pancreatic-cancer]] (PDAC) risk; stearic acid (OR 0.93, p=0.031) also protective
 - Carnitine (OR 1.01, p=0.027), hippuric acid (OR 1.02, p=0.027), and 3-methylhistidine (OR 1.05, p=0.02) are causally associated with increased PDAC risk
 - Romboutsia genus (OR 0.87, p=0.004) and Clostridium sensu stricto 1 (OR 0.88, p=0.027) are causally associated with decreased PDAC risk
 - This is the largest MR study to date investigating gut bacteria and bacteria-associated metabolites in PDAC, using 8,769 cases and 7,055 controls

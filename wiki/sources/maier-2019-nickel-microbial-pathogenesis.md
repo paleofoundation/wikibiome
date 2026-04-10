@@ -35,7 +35,7 @@ Comprehensive review of how **[[nickel]]** functions as an essential cofactor fo
 - **Eukaryotic pathogens**: *Cryptococcus neoformans* (brain invasion), *C. posadasii* (pulmonary infection severity), *C. gattii*.
 
 ### Hydrogenase
-- [NiFe] hydrogenases catalyze H₂ oxidation, providing energy (PMF) for the pathogen.
+- [[nife-hydrogenase]] enzymes catalyze H₂ oxidation, providing energy (PMF) for the pathogen.
 - **[[helicobacter-pylori]]**: single H₂-uptake hydrogenase (*hydABCDE* operon).
   - H₂ is chronically available in the stomach (~80 μM in human stomachs, well above the enzyme Km of ~1.8 μM).
   - Powers **CagA translocation** — the carcinogenic effector protein. Hydrogenase deletion mutants cannot translocate CagA or induce gastric cancer in gerbils.

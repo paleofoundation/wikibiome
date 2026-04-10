@@ -32,7 +32,7 @@ doi: "10.1007/s10620-014-3060-3"
 
 The dramatic improvement in eradication rates (84% vs 46%) with dietary nickel restriction can be explained through the specific biochemistry of H. pylori's nickel dependence:
 
-**Urease -- acid survival enzyme.** H. pylori's [[urease]] is a nickel-dependent metalloenzyme that hydrolyzes urea to ammonia and CO2, buffering the gastric acid environment. Without functional urease, H. pylori cannot survive the stomach's low pH. Dietary nickel restriction depletes the substrate needed to metallate urease, undermining the bacterium's primary acid defense.
+**Urease -- acid survival enzyme.** H. pylori's [[urease]] is a nickel-dependent metalloenzyme that hydrolyzes urea to ammonia and CO2, buffering the gastric [[acidic-microenvironment]]. Without functional urease, H. pylori cannot survive the stomach's low pH. Dietary nickel restriction depletes the substrate needed to metallate urease, undermining the bacterium's primary acid defense.
 
 **Hydrogenase -- energy and virulence.** H. pylori's NiFe [[hydrogenase]] oxidizes molecular hydrogen for energy production and is linked to full activation of the CagA virulence factor. Nickel starvation impairs this enzyme, reducing both the bacterium's metabolic fitness and its virulence potential.
 

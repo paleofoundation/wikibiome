@@ -15,7 +15,7 @@ A gastric pathogen that is arguably the **most nickel-dependent human pathogen k
 
 ### Urease
 - Up to **10% of total proteome**.
-- Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the acidic stomach.
+- Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
 - **Roles beyond acid neutralization** [[[maier-2019-nickel-microbial-pathogenesis]]]:
   - Required for persistence even at neutral gastric pH.
   - Promotes angiogenesis.

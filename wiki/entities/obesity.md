@@ -78,3 +78,4 @@ The Pendergrass framework proposes a seven-step causal pathway from agricultural
 - [[cardiovascular-disease]] -- obesity is a major CVD risk factor; shared microbiome mechanisms
 - [[type-2-diabetes]] -- obesity-T2D continuum; shared insulin resistance and dysbiosis pathways
 - [[gut-metal-microbiome]] -- the ecosystem where metal-driven obesogenic dysbiosis originates
+- [[metal-disease-matrix]] -- obesity is a key disease in the metal-disease interaction landscape

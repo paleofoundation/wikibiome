@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Catalog of all pages in this wiki. Updated 2026-04-10. Total: 743 sources, 95 entities (17 metals, 60 microbes, 18 diseases), 44 concepts, 2 analyses, 6 signatures, 5 interventions, 7 STOPs.
+> Catalog of all pages in this wiki. Updated 2026-04-09. Total: 973 sources, 122 entities (17 metals, 86 microbes, 19 diseases), 80 concepts, 2 analyses, 14 signatures, 6 interventions, 8 STOPs.
 
 ---
 

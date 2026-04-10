@@ -14,7 +14,7 @@ tags: [hashimotos-thyroiditis, thyroid, autoimmune, autoimmune-protocol-diet, pa
 
 ## Key Claims
 
-- A 10-week online Autoimmune Protocol (AIP) diet and lifestyle intervention significantly improved health-related quality of life (HRQL) in middle-aged women with [[Hashimotos thyroiditis]], as measured by all 8 subscales of the SF-36
+- A 10-week online Autoimmune Protocol (AIP) diet and lifestyle intervention significantly improved health-related quality of life (HRQL) in middle-aged women with [[hashimotos-thyroiditis]], as measured by all 8 subscales of the SF-36
 - Clinical symptom burden (MSQ) decreased significantly from a mean of 92 (SD 25) pre-intervention to 29 (SD 20) post-intervention (p=0.0003, g=2.81)
 - [[Inflammation]] as measured by hs-CRP decreased by 29% (p=0.0219) from 1.63 mg/L pre-intervention to 1.15 mg/L post-intervention
 - No statistically significant changes were noted in thyroid function (TSH, T3, T4) or thyroid antibodies (TPO, TGA), suggesting AIP improves symptoms without directly altering thyroid hormones

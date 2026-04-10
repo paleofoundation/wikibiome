@@ -20,7 +20,7 @@ A genus of Gram-negative intracellular pathogens causing **brucellosis**, the mo
 
 - Urease is essential for **survival during gastrointestinal passage** and initial intestinal colonization [[[maier-2019-nickel-microbial-pathogenesis]]].
 - *Brucella* is typically acquired through ingestion of contaminated dairy products or direct contact with infected animals. The oral route demands acid resistance during gastric transit.
-- Urease-generated ammonia and bicarbonate buffer the acidic gastric environment, enabling bacteria to reach the intestinal mucosa intact.
+- Urease-generated ammonia and bicarbonate buffer the [[acidic-microenvironment]] of the stomach, enabling bacteria to reach the intestinal mucosa intact.
 - Once past the GI barrier, *Brucella* establishes intracellular infection in macrophages, where it resides in a modified phagosome.
 
 ### Urease as Vaccine Target

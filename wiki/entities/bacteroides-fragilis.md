@@ -18,7 +18,7 @@ A Gram-negative obligate anaerobe that occupies a unique dual position in the [[
 
 ### Bacteroides fragilis Toxin (BFT/Fragilysin)
 
-- BFT is a **Zn-dependent metalloprotease** (EC 3.4.24.-) that requires a zinc ion in its active site for catalytic activity.
+- BFT is a **Zn-dependent [[zinc-metalloprotease]]** (EC 3.4.24.-) that requires a zinc ion in its active site for catalytic activity.
 - Cleaves **E-cadherin**, the intercellular adhesion molecule of intestinal epithelial cells. E-cadherin cleavage disrupts cell-cell junctions, increases paracellular permeability, and activates beta-catenin/Wnt signaling -- a pro-tumorigenic pathway.
 - Triggers NF-kB activation, IL-8 secretion, and neutrophil recruitment, driving chronic intestinal inflammation.
 - Three isoforms exist (BFT-1, BFT-2, BFT-3); BFT-2 is the most biologically active.
