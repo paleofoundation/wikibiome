@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [M. Firoze Khan, Hui Wang]
 journal: Frontiers in Immunology
 year: 2020
-tags: [autoimmune-diseases, environmental-exposures, gut-microbiome, mercury, silica, pesticides, trichloroethene, pristane, oxidative-stress, SLE, dysbiosis, SCFAs, FMT, probiotics, intestinal-permeability]
+tags: [autoimmune-diseases, hashimotos-thyroiditis, thyroid, autoimmune, environmental-exposures, gut-microbiome, mercury, silica, pesticides, trichloroethene, pristane, oxidative-stress, SLE, dysbiosis, SCFAs, FMT, probiotics, intestinal-permeability]
 doi: "10.3389/fimmu.2019.03094"
 ---
 
