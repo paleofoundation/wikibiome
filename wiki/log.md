@@ -2,6 +2,35 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-10] build-signature | Multiple Sclerosis — Complete 5-Layer Microbiome Signature
+
+**Status**: COMPLETE
+
+**Signature page created**: `wiki/signatures/multiple-sclerosis.md`
+- 17 peer-reviewed sources synthesized (2015-2025)
+- Full 5-layer structure: Metallomic (10 elevated metals), Taxonomic (15 enriched, 13 depleted taxa), Nutritional immunity (10 elevated, 6 depleted markers), Ecological features (10 categories), Virulence enzymes (9 types)
+- All 9 Karen's Brain primitives mapped to MS dysbiosis
+- Sex-specific differences explained (3:1 female predominance)
+- Cureva_status: partial (complete mechanistic data; limited clinical intervention data)
+
+**Intervention pages created**:
+1. `wiki/interventions/ketogenic-diet-ms.md` — Dietary dysbiosis reversal (promise status)
+   - Landmark Swidsinski et al. 2017 quantitative FISH study showing bacterial recovery at 6 months
+   - Biphasic microbiota response with SCFA producer restoration
+2. `wiki/interventions/b-cell-depletion-therapy-ms.md` — Pharmaceutical dysbiosis reversal (validated status)
+   - FDA-approved DMT (ocrelizumab) with documented dysbiosis reversal via Firmicutes recovery
+   - Demonstrates dysbiosis is therapeutically reversible and driven by inflammatory immune environment
+
+**STOP pages created**:
+1. `wiki/stops/stop-iron-supplementation-ms.md` — Functional anemia vs. deficiency
+   - Low serum iron = hepcidin-mediated host defense against pathogenic siderophore producers
+   - Iron supplementation feeds Fusobacterium and Akkermansia; worsens neuroinflammation
+2. `wiki/stops/stop-scfa-replacement-without-dysbiosis-restoration-ms.md` — Metabolite vs. ecological engineering
+   - SCFA supplementation is metabolic band-aid without dysbiosis reversal
+   - Clostridia restoration required for durable benefit; dysbiosis reversal superior to exogenous SCFA
+
+**Index updated**: Total pages now 5 signatures, 5 interventions, 7 STOPs (was 4 signatures, 3 interventions, 5 STOPs)
+
 ## [2026-04-09] init | Wiki created
 
 Initialized wiki structure: `raw/`, `wiki/`, CLAUDE.md schema, index, and log. Ready for first ingest.

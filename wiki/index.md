@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Catalog of all pages in this wiki. Updated 2026-04-10. Total: 743 sources, 95 entities (17 metals, 60 microbes, 18 diseases), 44 concepts, 2 analyses, 4 signatures, 3 interventions, 5 STOPs.
+> Catalog of all pages in this wiki. Updated 2026-04-10. Total: 743 sources, 95 entities (17 metals, 60 microbes, 18 diseases), 44 concepts, 2 analyses, 5 signatures, 5 interventions, 7 STOPs.
 
 ---
 
@@ -200,10 +200,11 @@
 
 ---
 
-## Disease Signatures (4)
+## Disease Signatures (5)
 
 | Signature | Description |
 |-----------|-------------|
+| [[multiple-sclerosis]] | 17-paper signature (partial cureva_status). Metallomic: Ni, Cd, Pb, Al, As elevated. Neuroinflammatory demyelinating disease driven by metal-dependent dysbiosis with 3:1 female predominance. All 9 primitives active. Validated interventions: ketogenic diet, B-cell depletion therapy. STOPs: iron supplementation, SCFA replacement without dysbiosis restoration. |
 | [[endometriosis]] | First complete signature (28 papers). All 9 primitives active. Metallomic: Ni (77.8%), Fe (70.4%), Pb (59.3%) elevated. Validated interventions: low-Ni diet, EcN 1917, lactoferrin, NAC. |
 | [[crohns-disease]] | Built from 129 papers. Metal dyshomeostasis drives ecological collapse. ZIP8 A391T demonstrates dysbiosis precedes inflammation. F. prausnitzii depletion most consistent. STOPs: oral iron, broad-spectrum antibiotics. |
 | [[graves-disease]] | Built from 21 papers. Pb (76%), I (67%), Se depleted (43%). Bacteroides-Proteobacteria-Streptococcus consortium. Estrobolome drives 3:1 female predominance. 7 of 9 primitives active. |
@@ -211,20 +212,24 @@
 
 ---
 
-## Interventions (3)
+## Interventions (5)
 
 | Intervention | Class | Conditions |
 |-------------|-------|------------|
+| [[ketogenic-diet-ms]] | Dietary | MS (promising) -- normalizes colonic bacterial diversity; restores SCFA-producing Clostridia at 6 months |
+| [[b-cell-depletion-therapy-ms]] | Pharmaceutical | MS (validated) -- reverses dysbiosis by reducing pro-inflammatory B-cell cytokine environment; restores Firmicutes/SCFA producers |
 | [[low-nickel-diet]] | Dietary | Endometriosis (validated) -- disables Ni-glyoxalase, urease, hydrogenase |
 | [[ecoli-nissle-1917]] | Probiotic | Endometriosis (validated) -- competitive exclusion via superior siderophores |
 | [[probiotics-asd-dysbiosis]] | Probiotic | ASD dysbiosis -- Lactobacillus/Bifidobacterium supplementation for gut-brain axis modulation |
 
 ---
 
-## STOPs (5)
+## STOPs (7)
 
 | STOP | Condition | Why Counterproductive |
 |------|-----------|----------------------|
+| [[stop-iron-supplementation-ms]] | MS | Low serum iron = hepcidin-mediated host defense against pathogenic siderophore producers (Fusobacterium, Akkermansia); iron supplementation feeds dysbiotic bacteria and worsens neuroinflammation |
+| [[stop-scfa-replacement-without-dysbiosis-restoration-ms]] | MS | SCFA supplementation bypasses ecological root cause (Clostridia depletion); restores metabolite but not commensal bacteria; dysbiosis perpetuates; benefit temporary without dysbiosis reversal |
 | [[stop-iron-supplementation-endometriosis]] | Endometriosis | Hepcidin elevation = functional anemia (host defense), not true deficiency |
 | [[stop-zinc-supplementation-endometriosis]] | Endometriosis | Calprotectin is actively sequestering zinc; supplementation arms pathogens |
 | [[stop-iron-supplementation-crohns]] | Crohn's Disease | Hepcidin/lactoferrin elevation = functional anemia; oral iron feeds AIEC siderophore systems |
