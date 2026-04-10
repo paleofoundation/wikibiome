@@ -7,7 +7,7 @@ authors: [Karen Pendergrass]
 journal: Microbiome Medicine
 year: 2026
 tags: [nickel, necrotizing-enterocolitis, NEC, infant-formula, microbial-metallomics, urease, NiFe-hydrogenase, glyoxalase, E-coli, preterm-infant, soy-formula, nutritional-immunity]
-doi: "10.1097/MD.0000000000015352"
+doi: "10.5281/zenodo.18200348"
 ---
 
 # Nickel as a Catalytic Driver of Necrotizing Enterocolitis

@@ -1,0 +1,86 @@
+---
+title: "Strati 2017 — New Evidences on the Altered Gut Microbiota in Autism Spectrum Disorders"
+type: source
+created: 2026-04-09
+updated: 2026-04-09
+authors: [Francesco Strati, Duccio Cavalieri, Davide Albanese, Claudio De Felice, Claudio Donati, Joussef Hayek, Olivier Jousson, Silvia Leoncini, Daniela Renzi, Antonio Calabro, Carlotta De Filippo]
+year: 2017
+journal: "Microbiome"
+doi: "10.1186/s40168-017-0242-1"
+tags: [autism-spectrum-disorder, dysbiosis, mycobiome, Candida, Firmicutes-Bacteroidetes-ratio, constipation, Lactobacillus, Collinsella, Corynebacterium, fungal-microbiota, metataxonomy]
+library_category: microbiome-signature
+platform: amplicon-16S-ITS1
+condition: "autism spectrum disorder"
+---
+
+# Overview
+
+Characterization of both **bacterial and fungal (mycobiota) gut communities** in 40 autistic vs 40 neurotypical Italian subjects using amplicon-based metataxonomic sequencing of 16S rRNA (V3-V5) and fungal ITS1. Found altered Firmicutes/Bacteroidetes ratio, enrichment of [[Lactobacillus]], [[Collinsella]], [[Corynebacterium]], and notably a trend toward doubled [[Candida]] abundance in ASD. First study to characterize gut mycobiota in ASD.
+
+# Key Findings
+
+## Bacterial Microbiota
+
+### Phylum-Level Shifts
+- **Higher Firmicutes/Bacteroidetes ratio** in ASD (p < 0.005, Wilcoxon)
+- Bacteroidetes reduced: 9.2% ASD vs 19.4% NT (FDR p < 0.05)
+
+### Enriched in ASD (LEfSe, LDA > 2.0)
+- **[[Lactobacillus]]**
+- **[[Collinsella]]**
+- **[[Corynebacterium]]**
+- **[[Dorea]]**
+
+### Depleted in ASD
+- **[[Alistipes]]**
+- **[[Bilophila]]**
+- **[[Dialister]]**
+- **[[Parabacteroides]]**
+- **[[Veillonella]]**
+
+### Constipation Effects
+- [[Escherichia/Shigella]] and [[Clostridium cluster XVIII]] significantly more abundant in constipated ASD (FDR p < 0.05)
+- [[Gemmiger]] anticorrelated with constipation (Spearman's r = -0.39, FDR p < 0.05)
+- [[Ruminococcus]] also anticorrelated with constipation (r = -0.36, FDR p < 0.05)
+- Constipation had significant effect on beta diversity in NT (p = 0.046) but not within ASD subjects
+
+## Fungal Mycobiota (First in ASD)
+
+- **No significant alpha diversity difference** between AD and NT for fungi
+- **Beta diversity significantly different** (PCoA, PERMANOVA p < 0.05 on weighted UniFrac and Bray-Curtis)
+- Constipation significantly affected fungal beta diversity in NT but not ASD
+
+### Key Fungal Genera
+- **[[Aspergillus]]**: 24.2% AD vs 28% NT
+- **[[Candida]]**: 37.7% AD vs 23.5% NT (>2x in ASD, but high dispersion; uncorrected p = 0.006, FDR p = 0.09)
+- **[[Penicillium]]**: 13.2% AD vs 23.5% NT
+- **[[Malassezia]]**: 3.05% AD vs 3.3% NT
+
+### Candida Correlations
+- [[Candida]] abundance positively correlated with fungal genera [[Aspergillus]] and [[Malassezia]]
+- Negative correlation with [[Bifidobacterium]] in neurotypical individuals (Spearman's r = 0.6, FDR p = 0.004)
+
+## Severity Findings
+- CARS scores did not affect bacterial community structure (PERMANOVA p > 0.05)
+- CARS scores did not affect fungal mycobiota structure (p > 0.05)
+- No significant inflammation differences (calprotectin, IgA, ESR) between constipated and non-constipated ASD
+
+# Relevance to Metallomic Framework
+
+**High relevance** — fungal-bacterial interactions and metal metabolism:
+
+- **[[Candida]]** is a potent [[iron]] scavenger via siderophore-like mechanisms and can sequester [[zinc]]
+- Elevated Candida in ASD may contribute to host metal depletion
+- [[Candida]] overgrowth shifts indoleamine 2,3-dioxygenase activity, reducing [[kynurenine]] (a neuroprotective agent) — this enzyme is [[iron]]-dependent
+- [[Lactobacillus]] enrichment — this genus binds heavy metals on cell surfaces
+- Firmicutes/Bacteroidetes ratio shift linked to altered [[SCFA]] production
+- [[Collinsella]] enrichment — associated with altered [[bile acid]] metabolism
+
+# Methodological Notes
+
+- 90% of ASD subjects classified as severe (CARS >= 37)
+- Italian population — Mediterranean diet context
+- First ASD study to include fungal ITS1 sequencing
+- No significant age or gender differences between groups
+- Cross-sectional design
+- Candida finding borderline significant after FDR correction (p = 0.09) — requires replication

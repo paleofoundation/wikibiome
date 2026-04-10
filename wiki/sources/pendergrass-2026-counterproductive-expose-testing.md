@@ -7,6 +7,7 @@ authors: [Karen Pendergrass]
 journal: Journal of Food Metallomics
 year: 2026
 tags: [heavy-metals, food-safety, public-disclosure, naming-and-shaming, compliance-theory, game-theory, third-party-certification, supply-chain, litigation, consumer-protection]
+doi: "10.5281/zenodo.19470572"
 ---
 
 ## Summary

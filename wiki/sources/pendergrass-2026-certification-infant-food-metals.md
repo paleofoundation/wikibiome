@@ -7,6 +7,7 @@ authors: [Karen Pendergrass]
 journal: Journal of Food Metallomics
 year: 2026
 tags: [heavy-metals, infant-food-safety, certification, ALARA, regulatory-compliance, lead, arsenic, cadmium, mercury, food-contamination, litigation, third-party-certification]
+doi: "10.5281/zenodo.18905821"
 ---
 
 ## Summary

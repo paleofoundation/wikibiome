@@ -7,7 +7,7 @@ authors: [Karen Pendergrass]
 journal: Microbial Metallomics
 year: 2026
 tags: [obesity, heavy-metals, microbial-metallomics, gut-microbiome, insulin-resistance, cadmium, nickel, phosphate-fertilizers, SCFA, dysbiosis, metabolic-syndrome, environmental-obesogens]
-doi: "10.2169/internalmedicine.2415-18"
+doi: "10.5281/zenodo.18434951"
 ---
 
 # Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic

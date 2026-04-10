@@ -7,7 +7,7 @@ authors: [Karen Pendergrass]
 year: 2026
 journal: "Conference Presentation"
 tags: [endometriosis, nickel, microbiome, metallomics, conference]
-doi: "10.4103/0378-6323.25635"
+doi: ""
 ---
 
 # Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)

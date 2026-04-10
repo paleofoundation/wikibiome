@@ -23,6 +23,7 @@ targets:
   ecological: [disables-immune-evasion, reduces-hypoxia, disrupts-biofilm-biomass, restores-pH]
 ---
 
+
 ## Mechanism of Action
 
 A low-nickel diet restricts dietary nickel intake, removing the critical cofactor for multiple virulence enzymes across the endometriosis signature (Primitive 4: Microbial Metal Dependencies as Achilles' Heels).
