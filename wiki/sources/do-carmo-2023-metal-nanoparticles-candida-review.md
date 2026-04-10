@@ -26,3 +26,15 @@ A comprehensive review of metal nanoparticles (silver, gold, iron, and other met
 ## Relevance to Wiki
 
 Demonstrates the antimicrobial properties of metal ions and nanoparticles against C. albicans, including nickel-containing formulations, relevant to understanding how metal availability in the host environment may influence Candida pathogenicity and how metals could be harnessed therapeutically.
+
+## Connections
+
+- [[candida-albicans]] -- primary target organism for all nanoparticle formulations reviewed
+- [[copper]] -- copper nanoparticles and Cu-containing bimetallics show antifungal activity
+- [[zinc]] -- Zn-containing bimetallic nanoparticles (Ni-Cu-Zn-IONPs) caused complete yeast cell lysis
+- [[silver]] -- AgNPs are the most extensively studied antifungal nanoparticles; synergistic with fluconazole
+- [[biofilm]] -- nanoparticles disrupt C. albicans biofilm formation; chitosan-functionalized AuNPs inhibit biofilm
+- [[nickel]] -- Ag-NiNPs showed potent activity at sub-microgram concentrations; Ni-containing bimetallics show multiple antifungal mechanisms
+- [[iron]] -- ferumoxytol (FDA-approved iron oxide NPs) disrupts oral biofilms; AMB-IONPs 16-25x more effective than amphotericin B alone
+- [[oxidative-stress]] -- ROS production is a primary antifungal mechanism of metal nanoparticles
+- [[gut-metal-microbiome]] -- metal nanoparticle interactions with mucosal fungi relevant to host metal-microbe dynamics

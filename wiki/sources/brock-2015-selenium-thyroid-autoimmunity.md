@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Brock M]
 journal: Journal of Restorative Medicine
 year: 2015
-tags: [selenium, thyroid, autoimmunity, Hashimotos-thyroiditis, Graves-disease, selenoproteins, anti-TPO, supplementation]
+tags: [selenium, thyroid, autoimmunity, Hashimotos-thyroiditis, graves-disease, selenoproteins, anti-TPO, supplementation]
 ---
 
 # The Role of Selenium in Thyroid Autoimmunity: A Review

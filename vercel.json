@@ -1,6 +1,9 @@
 {
   "buildCommand": "node scripts/build-content.cjs && npx vite build",
-  "outputDirectory": "wikibiome-v7h",
+  "outputDirectory": "dist-v8",
   "installCommand": "npm install",
-  "framework": null
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }

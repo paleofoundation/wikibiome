@@ -36,9 +36,11 @@ doi: "10.32394/rpzh.2020.0142"
 
 ## Connections
 
-- [[Nickel in food]] -- quantitative data on cereal sources of dietary nickel
-- [[Low-nickel diet]] -- identifies which cereal products to avoid (buckwheat, millet, oat flakes, bran)
-- [[Dietary nickel exposure]] -- contributes to cumulative intake calculations
-- [[flyvholm-1984-nickel-food-content]] -- earlier Danish data on nickel content of foods
+- [[nickel]] -- primary metal analyzed; concentrations ranged from 0.10 mg/kg (rye) to 4.80 mg/kg (millet)
+- [[dietary-nickel-exposure]] -- cereal grains contribute 1.1-13.4% of TDI; significant cumulative source
+- [[environmental-metal-exposure]] -- nickel in grains reflects soil contamination and agricultural practices
+- [[nickel-allergy]] -- high-nickel cereals (buckwheat, millet, oat flakes, bran) are relevant triggers for nickel-sensitive individuals
+- [[low-nickel-diet]] -- identifies which cereal products to avoid (buckwheat, millet, oat flakes, bran) and safer alternatives (rye, refined flour, pasta)
+- [[flyvholm-1984-nickel-food-content]] -- earlier Danish data on nickel content of foods for comparison
 - [[rebelytics-2023-nickel-in-foods-summary]] -- comprehensive database of nickel per serving
 - [[Tolerable Daily Intake]] -- uses EFSA 2020 TDI of 13 ug/kg bw/day

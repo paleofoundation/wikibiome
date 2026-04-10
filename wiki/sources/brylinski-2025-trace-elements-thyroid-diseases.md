@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Brylinski L, Kostelecka K, Wolinski F, Komar O, Milosz A, Michalczyk J, Bilogras J, Machrowska A, Karpinski R, Maciejewski M, Garruti G, Flieger J, Baj J]
 journal: Nutrients
 year: 2025
-tags: [trace-elements, thyroid, iron, copper, cobalt, iodine, manganese, zinc, cadmium, mercury, lead, selenium, Graves-disease, Hashimotos, hypothyroidism, thyroid-cancer, thyroid-nodules]
+tags: [trace-elements, thyroid, iron, copper, cobalt, iodine, manganese, zinc, cadmium, mercury, lead, selenium, graves-disease, Hashimotos, hypothyroidism, thyroid-cancer, thyroid-nodules]
 ---
 
 # Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases - A Literature Review

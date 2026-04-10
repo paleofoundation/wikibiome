@@ -8,7 +8,7 @@ journal: Cardiovascular Toxicology
 year: 2025
 volume: "25(7):944-954"
 doi: "10.1007/s12012-025-10014-6"
-tags: [nickel, cardiovascular, metabolic-syndrome, NHANES, oxidative-stress, epidemiology]
+tags: [nickel, cardiovascular-disease, metabolic-syndrome, NHANES, oxidative-stress, epidemiology]
 ---
 
 # Cardio-Metabolic Effects of Nickel: A Narrative Review

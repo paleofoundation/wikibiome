@@ -45,5 +45,16 @@ This novel perspective on **oral-gut-brain axis** extends metallomic framework t
 - **Sequential colonization model**: Dysbiotic oral → seeding dysbiotic gut → systemic dysbiosis → metal homeostasis failure
 - **Diagnostic opportunity**: Oral swabs cheaper and non-invasive compared to stool sampling—potential screening biomarker for ASD risk
 
-Suggests **oral microbiome as early intervention target**—correct oral dysbiosis before it establishes permanent gut dysbiosis.
+Suggests **oral microbiome as early intervention target**--correct oral dysbiosis before it establishes permanent gut dysbiosis.
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- systematic review of oral microbiome alterations in ASD children
+- [[gut-brain-axis]] -- oral-gut-brain axis model where oral dysbiosis seeds gut dysbiosis and neurological effects
+- [[dysbiosis]] -- reduced oral microbial diversity; enriched pathogenic taxa and depleted commensals
+- [[zinc]] -- oral zinc levels influence bacterial community composition in biofilms
+- [[lead]] -- oral cavity as primary ingestion route for lead exposure affecting oral microbiome
+- [[mercury]] -- dental amalgam mercury exposure directly contacts oral microbiome
+- [[developmental-metal-vulnerability]] -- early oral metal exposure during development may initiate dysbiotic cascades
+- [[probiotics]] -- oral probiotic application as early, non-invasive intervention target for ASD
 

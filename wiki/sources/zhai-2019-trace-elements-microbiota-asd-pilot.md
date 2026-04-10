@@ -56,3 +56,14 @@ Pilot study of 136 Chinese children (78 ASD, 58 controls), ages 3-7 years:
 
 This study should be **foundational reference** for building ASD disease signatures in the knowledge base.
 
+## Connections
+
+- [[autism-spectrum-disorder]] -- foundational pilot validating co-occurrence of trace element burden and gut dysbiosis in ASD
+- [[gut-brain-axis]] -- dysbiotic microbiota may mediate neurotoxic effects of elevated metals via gut-brain signaling
+- [[dysbiosis]] -- nine genera significantly enriched in ASD; dysbiotic shift toward pathogenic taxa
+- [[zinc]] -- significantly elevated in ASD hair samples; zinc homeostasis disruption as metallome feature
+- [[lead]] -- elevated lead in ASD children; co-varies with dysbiotic taxa enrichment
+- [[mercury]] -- elevated mercury in hair analysis; amalgam and dietary sources relevant
+- [[developmental-metal-vulnerability]] -- multi-metal elevation pattern in ages 3-7 reflects early developmental exposure window
+- [[probiotics]] -- dysbiotic signature suggests probiotic intervention to counteract metal-driven microbial shifts
+

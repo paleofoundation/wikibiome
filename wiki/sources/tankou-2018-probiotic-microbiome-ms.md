@@ -12,7 +12,9 @@ doi: "10.1002/ana.25244"
 
 # A Probiotic Modulates the Microbiome and Immunity in Multiple Sclerosis
 
-**NOTE**: The PDF for this paper could not be read due to special characters in the filename. This summary is based on the citation information and abstract content available from the other papers in this collection that reference it.
+**NOTE**: The PDF for this paper could not be read due to special characters in the filename (Unicode ellipsis and en-dashes). The file exists at `raw/Tankou, S. K., Regev, K., ...` but the Read tool cannot resolve the path. The summary below is based on citation information and cross-references from other papers in this collection.
+
+**Action needed**: Rename the PDF file to use only ASCII characters (replace the ellipsis `...` with `...`, en-dashes with hyphens, and remove colons from the DOI portion), then re-process this source page with actual trial data including exact sample sizes, specific taxa changes, and quantified Treg results.
 
 ## Key Claims
 

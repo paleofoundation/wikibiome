@@ -35,6 +35,11 @@ doi: "10.3389/fonc.2021.650488"
 
 ## Connections
 
+- [[nickel-allergy]] -- the core condition treated; 1086 nickel-allergic patients screened, 290 with systemic symptoms selected
+- [[nickel]] -- graduated oral administration of nickel sulphate (0.1 ng to 0.1 mg) induces immune tolerance
+- [[dietary-nickel-exposure]] -- the protocol ultimately reintroduces nickel-containing foods, restoring normal dietary tolerance
+- [[inflammation]] -- hyposensitization modulates the inflammatory response to nickel; clinical remission in 69.1% of completers
+- [[nf-kappa-b]] -- nickel activates NF-kB-dependent inflammatory cascades in sensitized individuals; tolerance induction likely downregulates this pathway
 - Foundational hyposensitization trial referenced by [[di-gioacchino-2018-snas-chapter]] and [[minelli-2010-nioh-cytokines-snas]]
 - Treatment approach alternative to the dietary management in [[braga-2013-snas-nosologic-framework]]
 - Food nickel content table provided aligns with [[flyvholm-1984-nickel-food-content]]

@@ -1,0 +1,27 @@
+raw/
+node_modules/
+.git/
+.claude/
+.auto-memory/
+.obsidian/
+wikibiome-build/
+wikibiome-final/
+wikibiome-preview/
+wikibiome-v7b/
+wikibiome-v7c/
+wikibiome-v7d/
+wikibiome-v7e/
+wikibiome-v7f/
+wikibiome-v7g/
+dist/
+dist-preview/
+preview/
+*.pdf
+*.PDF
+doi-lookup-results.json
+wikibiome-poc.jsx
+wikibiome-v5.jsx
+wikibiome-v6.jsx
+wikibiome-v7 2.jsx
+vite.config.js.timestamp-*
+.DS_Store

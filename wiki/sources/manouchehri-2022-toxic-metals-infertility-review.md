@@ -28,3 +28,16 @@ A literature review examining the effects of lead, cadmium, and copper on male a
 ## Relevance to Wiki
 
 Provides a comprehensive overview of how dietary and environmental heavy metal exposure (particularly lead, cadmium, and copper) impairs fertility in both sexes, connecting environmental contamination to reproductive health outcomes.
+
+## Connections
+
+- [[lead]] -- disrupts hypothalamic-pituitary axis, reduces sperm parameters, delays conception, increases miscarriage risk
+- [[cadmium]] -- IARC Group 1 carcinogen; accumulates in reproductive tissues; damages testes via oxidative stress
+- [[copper]] -- excessive levels have destructive effects on reproductive system
+- [[mercury]] -- disrupts normal sperm motility and activity
+- [[oxidative-stress]] -- primary mechanism by which cadmium and lead damage reproductive tissues
+- [[nickel-reproductive-toxicity]] -- relevant to the broader theme of metal-induced reproductive harm
+- [[zinc]] -- cadmium depletes zinc in reproductive tissues, compounding damage
+- [[nickel]] -- environmental metal with potential reproductive effects not covered in this review
+- [[environmental-metal-exposure]] -- rising global infertility rates (10-35%) linked to environmental pollution
+- [[developmental-metal-vulnerability]] -- reproductive toxicity can affect offspring development

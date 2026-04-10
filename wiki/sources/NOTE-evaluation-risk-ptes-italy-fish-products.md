@@ -11,18 +11,22 @@ tags: [heavy-metals, food-safety, fish-products, PTEs, Italy, dietary-exposure, 
 
 # Note
 
-This source page is a **placeholder**. The PDF file exists in the raw folder but could not be read due to special character encoding in the filename (likely a Unicode curly apostrophe in "Italy's"). The file was confirmed present via Glob search but all Read attempts failed.
+This source page is a **placeholder**. The PDF file exists in the raw folder but cannot be read programmatically due to a Unicode curly apostrophe (U+2019) in the filename ("Italy\u2019s"). The Glob tool confirms the file at `raw/Evaluation of the Risk from Potentially Toxic Elements (PTEs) in Italy\u2019s Most Consumed Processed Fish Products.pdf` but the Read tool cannot resolve the path.
 
-**Action needed**: Rename the file to replace the special apostrophe character with a standard ASCII apostrophe, then re-process this source.
+**Action needed**: Rename the PDF file to replace the curly apostrophe with a standard ASCII apostrophe (`'`), then re-process this source page with actual content.
 
 # Expected Content (based on title)
 
-- Likely evaluates concentrations of potentially toxic elements (As, Cd, Hg, Pb, Ni, Cr, and/or other metals) in commercially processed fish products consumed in Italy
-- Probably includes health risk assessment using hazard quotients or similar methodology
-- Relevant to [[dietary heavy metal exposure]] and [[nickel in food]] topics
+- Evaluates concentrations of potentially toxic elements (likely As, Cd, Hg, Pb, Ni, Cr, and/or other metals) in commercially processed fish products consumed in Italy
+- Probably includes health risk assessment using hazard quotients, target hazard quotients (THQ), or similar methodology
+- Relevant to [[dietary-nickel-exposure]] and [[environmental-metal-exposure]] topics
 
 # Connections
 
-- Would connect to [[Agboola 2023 - Heavy Metals Leafy Vegetables Lagos]] as another dietary exposure study
-- Relevant to [[Briffa 2020 - Heavy Metal Pollution Environment Toxicology]] on food chain contamination
-- Fish products are a significant source of [[mercury]] and potentially [[nickel]] exposure
+- [[cadmium]] -- likely measured in fish products
+- [[mercury]] -- fish products are a primary dietary source
+- [[lead]] -- commonly assessed PTE in seafood
+- [[nickel]] -- potential contributor to dietary nickel load from processed fish
+- [[environmental-metal-exposure]] -- dietary route of metal intake
+- [[dietary-nickel-exposure]] -- fish as a nickel source
+- Comparable to [[mania-2020-nickel-cereal-grains-poland]] as a food-category metal exposure study

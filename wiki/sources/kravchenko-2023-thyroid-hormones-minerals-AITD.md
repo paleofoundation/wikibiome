@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Kravchenko V, Zakharchenko T]
 journal: Frontiers in Endocrinology
 year: 2023
-tags: [autoimmune-thyroid-disease, thyroid-hormones, minerals, immunocorrection, selenium, iodine, zinc, iron, copper, magnesium, calcium, Hashimotos, Graves-disease, immunomodulation]
+tags: [autoimmune-thyroid-disease, thyroid-hormones, minerals, immunocorrection, selenium, iodine, zinc, iron, copper, magnesium, calcium, Hashimotos, graves-disease, immunomodulation]
 doi: "10.3389/fendo.2023.1225494"
 ---
 

@@ -25,3 +25,16 @@ This book chapter studied the resistance and biosorption capacity of a Candida a
 ## Relevance to Wiki
 
 Demonstrates C. albicans' remarkable tolerance and biosorption capacity for multiple heavy metals, relevant to understanding how this opportunistic pathogen thrives in metal-contaminated environments and how metal-microbe interactions may influence pathogenesis in the human host.
+
+## Connections
+
+- [[candida-albicans]] -- the study organism, shown to tolerate extreme metal concentrations
+- [[cadmium]] -- C. albicans tolerates up to 200 ppm; 46% biosorption removal by modified biomass
+- [[copper]] -- tolerated up to 2000 ppm; 31% removal efficiency
+- [[zinc]] -- tolerated up to 2000 ppm; 22% removal efficiency
+- [[nickel]] -- relevant to broader metal tolerance profile of pathogenic fungi
+- [[gut-metal-microbiome]] -- metal biosorption by gut-resident fungi may modulate metal bioavailability in the host
+- [[biofilm]] -- biosorption mechanisms relate to how C. albicans sequesters metals in host niches
+- [[mercury]] -- tolerated up to 200 ppm; 36% removal efficiency
+- [[lead]] -- tolerated up to 2000 ppm; 57% biosorption removal
+- [[kukde-2019-heavy-metals-candida-hiv]] -- complementary study on metal susceptibility of clinical Candida isolates

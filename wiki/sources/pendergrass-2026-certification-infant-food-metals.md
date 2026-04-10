@@ -26,3 +26,14 @@ This paper outlines design principles for an independent staged-compliance certi
 ## Relevance to Wiki
 
 Provides a comprehensive framework for addressing heavy metal contamination in infant foods through third-party certification, directly relevant to the wiki's themes of dietary metal exposure, food safety standards, and vulnerable population protection.
+
+## Connections
+
+- [[developmental-metal-vulnerability]] -- infants face disproportionate risk from metal exposure due to body weight, rapid development, and immature detoxification
+- [[environmental-metal-exposure]] -- food supply contamination originates from soil geochemistry, irrigation water, and agricultural land
+- [[nickel]] -- relevant as a PTE in infant foods though not yet subject to FDA action levels
+- [[cadmium]] -- classified as carcinogenic; FDA action levels still in development for infant foods
+- [[lead]] -- FDA action levels exist for baby foods (10 ppb) and rice cereal; exposure math shows ~3.8 ug/day possible for infants
+- [[mercury]] -- methylmercury classified as carcinogenic; warranting zero-tolerance for exceedance
+- [[arsenic]] -- inorganic arsenic in rice cereal subject to FDA action level of 100 ppb
+- [[pendergrass-2026-counterproductive-expose-testing]] -- companion paper arguing against unstructured public testing in favor of certification frameworks

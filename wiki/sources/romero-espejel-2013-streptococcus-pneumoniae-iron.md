@@ -28,3 +28,14 @@ This study is the first to attempt to explain the mechanism of iron acquisition 
 ## Relevance to Wiki
 
 Reveals that S. pneumoniae depends on hemoglobin and haem (not transferrin) as iron sources, relevant to understanding how iron status and metal availability in the host affects susceptibility to pneumococcal infection and how bacterial metal acquisition intersects with host nutritional immunity.
+
+## Connections
+
+- [[streptococcus-pneumoniae]] -- the study organism; first characterization of its iron acquisition mechanism
+- [[iron]] -- essential for S. pneumoniae viability; iron starvation reduces viability to ~50% within 5 hours
+- [[nutritional-immunity]] -- host sequestration of iron as an antimicrobial defense; S. pneumoniae circumvents this via hemoglobin/haem binding
+- [[pathogen-metal-acquisition]] -- identifies two novel membrane proteins (22 and 37 kDa) that bind hemoglobin and haem
+- [[metal-dependent-virulence]] -- iron acquisition is essential for pneumococcal survival and pathogenesis in the host
+- [[nickel]] -- S. pneumoniae iron acquisition parallels how other pathogens (e.g., H. pylori) depend on specific metals for virulence
+- [[manganese]] -- another metal critical for pneumococcal virulence (complement to iron findings)
+- [[zinc]] -- host zinc sequestration is another nutritional immunity strategy against pneumococci

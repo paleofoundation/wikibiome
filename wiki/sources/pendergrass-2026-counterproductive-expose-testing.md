@@ -27,3 +27,14 @@ This preprint argues that the growing practice of unstructured public expose tes
 ## Relevance to Wiki
 
 Critically examines the food safety disclosure landscape for heavy metals, arguing that structural approaches (certification programs, supply chain intelligence) are more effective than public shaming for actually driving contamination reduction in the food supply.
+
+## Connections
+
+- [[environmental-metal-exposure]] -- contamination originates from soil geochemistry and agricultural land, not brand-level decisions
+- [[developmental-metal-vulnerability]] -- infant and child foods are the primary focus of expose testing campaigns
+- [[lead]] -- most commonly targeted metal in public expose testing
+- [[cadmium]] -- frequently tested alongside lead in consumer food products
+- [[arsenic]] -- rice-based infant products are a common expose target
+- [[mercury]] -- included in multi-metal consumer testing panels
+- [[pendergrass-2026-certification-infant-food-metals]] -- companion paper proposing the structured certification alternative
+- [[nickel]] -- relevant to the broader food metal contamination landscape though less commonly targeted by expose actors

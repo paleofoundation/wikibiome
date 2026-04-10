@@ -71,5 +71,16 @@ This comprehensive intervention review needs metallomic integration:
 - **Diet interventions should quantify metal content**: Low-nickel, low-cadmium diets may synergize with FMT
 - **Antibiotic use risk**: Non-targeted antibiotics may inadvertently suppress protective metal-scavenging bacteria—targeted approach (target dysbiotic pathogens based on metal dependencies) preferred
 
-**Cureva opportunity**: Build **metal-informed intervention protocols**—FMT + nickel-restricted diet as first-line, tailored to individual's metallome signature.
+**Cureva opportunity**: Build **metal-informed intervention protocols**--FMT + nickel-restricted diet as first-line, tailored to individual's metallome signature.
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- comprehensive review of FMT, probiotics, prebiotics, antibiotics, and diet interventions for ASD
+- [[gut-brain-axis]] -- microbiota restoration improves both GI symptoms and core autism behaviors via gut-brain signaling
+- [[dysbiosis]] -- modulation toward neurotypical microbiota composition as primary therapeutic goal
+- [[zinc]] -- zinc-dependent peptidases lost in dysbiotic state; restoration may require metal-informed probiotic selection
+- [[lead]] -- lead-exposed microbiomes may resist standard probiotic engraftment; metal restriction needed
+- [[mercury]] -- mercury-tolerant pathobionts may persist despite FMT; targeted antimicrobials needed
+- [[developmental-metal-vulnerability]] -- early intervention timing critical; metal exposure window overlaps with microbiome establishment
+- [[probiotics]] -- Lactobacillus and Bifidobacterium strains show benefit but variable efficacy; strain selection matters
 

@@ -45,3 +45,15 @@ This review emphasizes neuroimmunomodulation but lacks explicit metal analysis. 
 
 The review provides mechanistic foundation for hypothesis that dysbiosis in ASD reflects **metal-selective pressure on bacterial communities**, not random compositional change.
 
+## Connections
+
+- [[autism-spectrum-disorder]] -- comprehensive review of microbiome-gut-brain axis dysfunction in ASD and schizophrenia
+- [[gut-brain-axis]] -- vagal, HPA axis, and humoral pathways for gut-brain communication detailed
+- [[dysbiosis]] -- dysbiotic shift toward pro-inflammatory taxa drives LPS translocation and blood-brain barrier disruption
+- [[zinc]] -- AhR signaling requires zinc; zinc deficiency impairs tryptophan metabolism and intestinal barrier
+- [[lead]] -- lead-induced microbiome disruption may amplify LPS-driven neuroinflammation via gut-brain axis
+- [[mercury]] -- mercury burden compounds SCFA depletion and histone deacetylase inhibition failure
+- [[iron]] -- iron-dependent electron transport lost in dysbiotic state; Clostridium depletion reduces butyrate
+- [[developmental-metal-vulnerability]] -- neuroimmune mechanisms in neurodevelopmental disorders linked to early metal exposure
+- [[probiotics]] -- SCFA restoration via probiotic intervention may correct histone deacetylase and barrier deficits
+

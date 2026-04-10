@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Puthiyavalappil Rasin, Ashwathi A V, Sabeel M Basheer, Jebiti Haribabu, Juan F. Santibanez, Claudio Allard Garrote, Arunachalam Arulraj, Ramalinga Viswanathan Mangalaraja]
 journal: Journal of Hazardous Materials Advances
 year: 2025
-tags: [cadmium, review, kidney-toxicity, lung-toxicity, neurotoxicity, cardiovascular, cancer, metallothionein, itai-itai-disease, safety-protocols]
+tags: [cadmium, review, kidney-toxicity, lung-toxicity, neurotoxicity, cardiovascular-disease, cancer, metallothionein, itai-itai-disease, safety-protocols]
 doi: "10.1016/j.fct.2020.111813"
 ---
 

@@ -25,3 +25,16 @@ This study examined the effect of heavy metal ions (lead, zinc, silver, mercury,
 ## Relevance to Wiki
 
 Demonstrates differential heavy metal susceptibility of Candida species in immunocompromised patients, suggesting that certain metals (silver, mercury) could have antifungal applications while others (zinc) permit Candida resistance, relevant to understanding metal-pathogen interactions.
+
+## Connections
+
+- [[candida-albicans]] -- primary pathogen studied; oral isolates from HIV patients
+- [[zinc]] -- all 26 Candida strains resistant to zinc at 100 mM, suggesting zinc tolerance as a virulence-related trait
+- [[cadmium]] -- 100% susceptibility at 1 mM; potent antifungal effect through ATPase inhibition
+- [[copper]] -- relevant to the broader metal susceptibility profile of Candida
+- [[oxidative-stress]] -- metal ions induce membrane potential loss and oxidative damage as antifungal mechanisms
+- [[silver]] -- 77% susceptibility at 10 mM; potential therapeutic metal
+- [[mercury]] -- 100% susceptibility at 10 mM; inhibits plasma membrane ATPase
+- [[nickel]] -- noted as an inhibitor of eukaryotic plasma membrane ATPase
+- [[gut-metal-microbiome]] -- metal availability shapes fungal survival in immunocompromised hosts
+- [[acosta-rodriguez-2018-biosorption-candida-albicans]] -- complementary study on C. albicans metal tolerance from environmental isolates

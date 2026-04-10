@@ -1,15 +1,12 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { viteSingleFile } from 'vite-plugin-singlefile';
 
 export default defineConfig({
-  plugins: [react(), viteSingleFile()],
+  plugins: [react()],
   build: {
     target: 'esnext',
-    assetsInlineLimit: 100000000,
-    chunkSizeWarningLimit: 100000,
-    cssCodeSplit: false,
-    outDir: 'wikibiome-v7h',
+    chunkSizeWarningLimit: 2000,
+    outDir: 'dist-v8',
   },
   server: { port: 5173, host: true },
 });

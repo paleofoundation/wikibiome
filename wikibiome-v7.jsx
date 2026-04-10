@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { BrowserRouter, Routes, Route, useNavigate, useParams, useSearchParams, useLocation, Link } from 'react-router-dom';
 import * as d3 from 'd3';
 import { RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import { Search, Home, Zap, Layers, BookOpen, Atom, Bug, Dna, Activity, Shield, ChevronRight, X, Microscope, Share2, Menu } from 'lucide-react';
@@ -1401,8 +1402,13 @@ const SignaturesView = ({ onNavigate, selectedDisease }) => {
   const metallomic = sig.metallomicSignature || {};
   const taxonomic = sig.taxonomicSignature || {};
   const nutritional = sig.nutritionalImmunity || {};
-  const ecological = sig.ecologicalFeatures || [];
-  const virulence = sig.virulenceEnzymes || [];
+  // ecologicalFeatures and virulenceEnzymes may be arrays (simple) or objects (ASD-style detailed)
+  const rawEcological = sig.ecologicalFeatures || [];
+  const ecological = Array.isArray(rawEcological) ? rawEcological : Object.keys(rawEcological);
+  const rawVirulence = sig.virulenceEnzymes || [];
+  const virulence = Array.isArray(rawVirulence)
+    ? rawVirulence
+    : Object.values(rawVirulence).flat().map(e => typeof e === 'object' ? (e.enzyme || '') : e).filter(Boolean);
 
   // Build radar data: elevated gets positive values scaled by count, depleted gets lower values
   const elevatedMetals = metallomic.elevated || [];
@@ -1802,31 +1808,76 @@ const MatrixView = () => {
 };
 
 // Main App
-export default function App() {
-  const [view, setView] = useState('home');
-  const [pageId, setPageId] = useState(null);
-  const [category, setCategory] = useState(null);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedDisease, setSelectedDisease] = useState(null);
+// Route-aware wrapper components
+const ArticleRoute = ({ onNavigate }) => {
+  const { id } = useParams();
+  return <ArticleView pageId={id} onNavigate={onNavigate} />;
+};
 
+const CategoryRoute = ({ onNavigate }) => {
+  const { category } = useParams();
+  return <CategoryView category={category} onNavigate={onNavigate} />;
+};
+
+const SearchRoute = ({ onNavigate }) => {
+  const [searchParams] = useSearchParams();
+  const q = searchParams.get('q') || '';
+  return <SearchView searchQuery={q} onNavigate={onNavigate} />;
+};
+
+const SignaturesRoute = ({ onNavigate }) => {
+  const [searchParams] = useSearchParams();
+  const disease = searchParams.get('disease') || null;
+  return <SignaturesView onNavigate={onNavigate} selectedDisease={disease} />;
+};
+
+// Inner app that has access to router hooks
+function AppInner() {
+  const nav = useNavigate();
+  const location = useLocation();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Derive current view from the URL path
+  const currentView = useMemo(() => {
+    const path = location.pathname;
+    if (path.startsWith('/article/')) return 'article';
+    if (path.startsWith('/category/')) return 'category';
+    if (path === '/search') return 'search';
+    if (path === '/explore') return 'explore';
+    if (path === '/signatures') return 'signatures';
+    if (path === '/matrix') return 'matrix';
+    return 'home';
+  }, [location.pathname]);
+
+  // Navigate function that maps the old API to real URL navigation
   const navigate = useCallback(({ view: v, id, category: c, disease }) => {
-    setView(v);
-    if (id) setPageId(id);
-    if (c) setCategory(c);
-    if (disease) setSelectedDisease(disease);
-  }, []);
+    switch (v) {
+      case 'home': nav('/'); break;
+      case 'article': nav(`/article/${id}`); break;
+      case 'category': nav(`/category/${c}`); break;
+      case 'search': nav(`/search?q=${encodeURIComponent(searchQuery)}`); break;
+      case 'explore': nav('/explore'); break;
+      case 'signatures': nav(disease ? `/signatures?disease=${encodeURIComponent(disease)}` : '/signatures'); break;
+      case 'matrix': nav('/matrix'); break;
+      default: nav('/');
+    }
+    window.scrollTo(0, 0);
+  }, [nav, searchQuery]);
 
   return (
     <div style={{ fontFamily: 'system-ui, -apple-system, sans-serif', backgroundColor: P.white, color: P.text }}>
-      <Nav currentView={view} onNavigate={navigate} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-      
-      {view === 'home' && <HomeView onNavigate={navigate} />}
-      {view === 'article' && pageId && <ArticleView pageId={pageId} onNavigate={navigate} />}
-      {view === 'category' && category && <CategoryView category={category} onNavigate={navigate} />}
-      {view === 'search' && searchQuery && <SearchView searchQuery={searchQuery} onNavigate={navigate} />}
-      {view === 'explore' && <ExploreView onNavigate={navigate} />}
-      {view === 'signatures' && <SignaturesView onNavigate={navigate} selectedDisease={selectedDisease} />}
-      {view === 'matrix' && <MatrixView />}
+      <Nav currentView={currentView} onNavigate={navigate} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+
+      <Routes>
+        <Route path="/" element={<HomeView onNavigate={navigate} />} />
+        <Route path="/article/:id" element={<ArticleRoute onNavigate={navigate} />} />
+        <Route path="/category/:category" element={<CategoryRoute onNavigate={navigate} />} />
+        <Route path="/search" element={<SearchRoute onNavigate={navigate} />} />
+        <Route path="/explore" element={<ExploreView onNavigate={navigate} />} />
+        <Route path="/signatures" element={<SignaturesRoute onNavigate={navigate} />} />
+        <Route path="/matrix" element={<MatrixView />} />
+        <Route path="*" element={<HomeView onNavigate={navigate} />} />
+      </Routes>
 
       {/* Footer */}
       <div style={{
@@ -1846,5 +1897,13 @@ export default function App() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppInner />
+    </BrowserRouter>
   );
 }
