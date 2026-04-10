@@ -35,7 +35,9 @@ const GA_SNIPPET = `
 
 // Read the built index.html to get the actual script/asset references
 const indexHtml = fs.readFileSync(path.join(DIST_DIR, 'index.html'), 'utf8');
-const scriptTag = indexHtml.match(/<script[^>]*src="([^"]+)"[^>]*>/)?.[0] || '';
+const scriptTag = indexHtml.match(/<script[^>]*type="module"[^>]*src="([^"]+)"[^>]*>/)?.[0] || '';
+// Add closing tag if we captured only the opening tag
+const scriptTagFull = scriptTag ? scriptTag + '</script>' : '';
 const cssLink = indexHtml.match(/<link[^>]*rel="stylesheet"[^>]*href="([^"]+)"[^>]*\/?>/)?.[0] || '';
 
 console.log('=== WikiBiome Static HTML Generator ===');
@@ -290,7 +292,7 @@ function generatePageHtml(page, urlPath) {
       </footer>
     </article>
   </div>
-  ${scriptTag}
+  ${scriptTagFull}
 </body>
 </html>`;
 }
@@ -391,7 +393,7 @@ function generateHomepageHtml() {
       <p style="margin-top:40px;font-size:13px;color:#888;">WikiBiome contains ${CONTENT.pages.length} articles across ${Object.keys(categories).length} categories. <a href="/explore">Explore the knowledge graph</a> or <a href="/signatures">view disease signatures</a>.</p>
     </div>
   </div>
-  ${scriptTag}
+  ${scriptTagFull}
 </body>
 </html>`;
 }
@@ -446,7 +448,7 @@ function generateCategoryHtml(category, pages) {
       <ul>${articleLinks}</ul>
     </div>
   </div>
-  ${scriptTag}
+  ${scriptTagFull}
 </body>
 </html>`;
 }

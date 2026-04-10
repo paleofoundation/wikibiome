@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-04-10T14:25:23.577Z",
+  "_generated": "2026-04-10T17:23:41.880Z",
   "_platform": "all",
   "_stats": {
-    "sources": 861,
-    "entities": 118,
+    "sources": 915,
+    "entities": 119,
     "concepts": 74,
     "signatures": 13,
     "interventions": 5,
     "stops": 7,
     "analyses": 2,
-    "totalPages": 220
+    "totalPages": 221
   },
   "pages": [
     {
@@ -432,6 +432,7 @@
         "coprococcus",
         "eggerthella-lenta",
         "faecalibacterium-prausnitzii",
+        "hashimotos-thyroiditis",
         "lactobacillus",
         "methanobrevibacter",
         "prevotella-copri",
@@ -452,19 +453,19 @@
       "related": [
         {
           "id": "iron",
-          "score": 33
+          "score": 35
         },
         {
           "id": "bifidobacterium",
           "score": 29
         },
         {
-          "id": "roseburia",
-          "score": 26
+          "id": "zinc",
+          "score": 27
         },
         {
-          "id": "zinc",
-          "score": 25
+          "id": "roseburia",
+          "score": 26
         },
         {
           "id": "lachnospiraceae",
@@ -476,11 +477,11 @@
         },
         {
           "id": "prevotella",
-          "score": 19
+          "score": 21
         },
         {
           "id": "metal-disease-matrix",
-          "score": 18
+          "score": 20
         }
       ]
     },
@@ -3066,6 +3067,7 @@
         "collinsella",
         "dialister",
         "eggerthella-lenta",
+        "hashimotos-thyroiditis",
         "inflammatory-bowel-disease",
         "lachnospiraceae",
         "butyrate",
@@ -3075,16 +3077,16 @@
       ],
       "related": [
         {
+          "id": "akkermansia-muciniphila",
+          "score": 16
+        },
+        {
           "id": "bifidobacterium",
           "score": 15
         },
         {
-          "id": "akkermansia-muciniphila",
-          "score": 14
-        },
-        {
           "id": "prevotella",
-          "score": 13
+          "score": 15
         },
         {
           "id": "clostridium",
@@ -3767,6 +3769,7 @@
         "faecalibacterium-prausnitzii",
         "gardnerella",
         "graves-disease",
+        "hashimotos-thyroiditis",
         "hypertension",
         "iron",
         "lachnospiraceae",
@@ -3800,27 +3803,27 @@
       "related": [
         {
           "id": "iron",
-          "score": 69
+          "score": 71
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 54
+          "score": 56
         },
         {
           "id": "copper",
-          "score": 48
+          "score": 50
         },
         {
           "id": "mercury",
-          "score": 44
+          "score": 46
         },
         {
           "id": "dysbiosis",
-          "score": 42
+          "score": 44
         },
         {
           "id": "inflammation",
-          "score": 35
+          "score": 37
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -4852,7 +4855,7 @@
           "score": 9
         },
         {
-          "id": "manganese",
+          "id": "hashimotos-thyroiditis",
           "score": 9
         }
       ]
@@ -6270,6 +6273,7 @@
         "endometriosis",
         "enterococcus",
         "graves-disease",
+        "hashimotos-thyroiditis",
         "iron",
         "lead",
         "mercury",
@@ -6295,23 +6299,23 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 72
+          "score": 74
         },
         {
           "id": "mercury",
-          "score": 42
+          "score": 44
         },
         {
           "id": "manganese",
           "score": 34
         },
         {
-          "id": "ferroptosis",
-          "score": 29
+          "id": "nutritional-immunity",
+          "score": 30
         },
         {
-          "id": "nutritional-immunity",
-          "score": 28
+          "id": "ferroptosis",
+          "score": 29
         },
         {
           "id": "dietary-metal-paradoxes",
@@ -6323,7 +6327,7 @@
         },
         {
           "id": "inflammation",
-          "score": 22
+          "score": 24
         }
       ]
     },
@@ -6813,6 +6817,10 @@
           "score": 18
         },
         {
+          "id": "hashimotos-thyroiditis",
+          "score": 15
+        },
+        {
           "id": "inflammatory-bowel-disease",
           "score": 15
         },
@@ -6827,10 +6835,6 @@
         {
           "id": "lactoferrin",
           "score": 13
-        },
-        {
-          "id": "candida-albicans",
-          "score": 12
         }
       ]
     },
@@ -9966,9 +9970,14 @@
       ],
       "sourceDir": "entities",
       "backlinks": [
+        "hashimotos-thyroiditis",
         "selenium"
       ],
       "related": [
+        {
+          "id": "hashimotos-thyroiditis",
+          "score": 34
+        },
         {
           "id": "colorectal-cancer",
           "score": 17
@@ -9996,10 +10005,234 @@
         {
           "id": "rheumatoid-arthritis",
           "score": 11
+        }
+      ]
+    },
+    {
+      "id": "hashimotos-thyroiditis",
+      "title": "Hashimoto's Thyroiditis",
+      "type": "entity",
+      "category": "disease",
+      "tags": [
+        "hashimotos-thyroiditis",
+        "autoimmune",
+        "thyroid",
+        "selenium",
+        "iron",
+        "zinc",
+        "copper",
+        "iodine",
+        "cadmium",
+        "mercury",
+        "lead",
+        "nickel",
+        "gut-thyroid-axis",
+        "microbiome",
+        "anti-TPO",
+        "anti-Tg",
+        "dysbiosis",
+        "SCFAs",
+        "tryptophan",
+        "diet",
+        "probiotics",
+        "comorbidities"
+      ],
+      "sources": [
+        "li-2025-trace-elements-autoimmune-thyroid-disease",
+        "brock-2015-selenium-thyroid-autoimmunity",
+        "gong-2024-iodine-gut-microbiota-hashimotos",
+        "pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian",
+        "liu-2024-causal-gut-microbiota-metabolites-hypothyroidism-mendelian",
+        "zhang-2025-tryptophan-metabolism-hashimotos",
+        "karimi-2025-probiotics-synbiotics-thyroid-meta-analysis",
+        "zhao-2025-comorbidity-patterns-hashimotos",
+        "liu-2022-gut-microbiota-diversity-hashimotos",
+        "ruggeri-2021-dietary-habits-oxidative-stress-hashimotos",
+        "abbott-2019-aip-diet-hashimotos-lifestyle-intervention",
+        "wang-2025-plasma-metabolomics-lipidomics-hashimotos",
+        "bastos-2023-metabolomic-follicular-fluid-hashimotos",
+        "maric-2023-nickel-thyroid-function",
+        "street-2024-environmental-factors-thyroid-function"
+      ],
+      "created": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-04-09T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Hashimoto's Thyroiditis",
+        "type": "entity",
+        "subtype": "disease",
+        "created": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-04-09T00:00:00.000Z",
+        "sources": [
+          "li-2025-trace-elements-autoimmune-thyroid-disease",
+          "brock-2015-selenium-thyroid-autoimmunity",
+          "gong-2024-iodine-gut-microbiota-hashimotos",
+          "pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian",
+          "liu-2024-causal-gut-microbiota-metabolites-hypothyroidism-mendelian",
+          "zhang-2025-tryptophan-metabolism-hashimotos",
+          "karimi-2025-probiotics-synbiotics-thyroid-meta-analysis",
+          "zhao-2025-comorbidity-patterns-hashimotos",
+          "liu-2022-gut-microbiota-diversity-hashimotos",
+          "ruggeri-2021-dietary-habits-oxidative-stress-hashimotos",
+          "abbott-2019-aip-diet-hashimotos-lifestyle-intervention",
+          "wang-2025-plasma-metabolomics-lipidomics-hashimotos",
+          "bastos-2023-metabolomic-follicular-fluid-hashimotos",
+          "maric-2023-nickel-thyroid-function",
+          "street-2024-environmental-factors-thyroid-function"
+        ],
+        "tags": [
+          "hashimotos-thyroiditis",
+          "autoimmune",
+          "thyroid",
+          "selenium",
+          "iron",
+          "zinc",
+          "copper",
+          "iodine",
+          "cadmium",
+          "mercury",
+          "lead",
+          "nickel",
+          "gut-thyroid-axis",
+          "microbiome",
+          "anti-TPO",
+          "anti-Tg",
+          "dysbiosis",
+          "SCFAs",
+          "tryptophan",
+          "diet",
+          "probiotics",
+          "comorbidities"
+        ]
+      },
+      "overview": "",
+      "sections": [
+        {
+          "heading": "Overview",
+          "level": 2,
+          "body": "Hashimoto's thyroiditis (HT) is the most common autoimmune disease globally and the leading cause of hypothyroidism. Chronic lymphocytic infiltration of the thyroid gland progressively destroys follicular architecture, reducing thyroid hormone output. Prevalence is 5-10% with a striking 10:1 female-to-male ratio. Diagnosis rests on elevated anti-TPO and anti-Tg antibodies, often with rising TSH and declining free T4. Concordance in monozygotic twins (~35%) indicates shared genetic susceptibility (HLA-DRB1, PTPN22) with environmental triggers. Unlike [[graves-disease]], which causes hyperthyroidism via stimulatory TRAb, HT produces destructive autoimmunity -- yet both are autoimmune thyroid diseases (AITD) with overlapping genetic architecture and mineral dependencies."
         },
         {
-          "id": "breast-cancer",
-          "score": 9
+          "heading": "Metallomic Signature",
+          "level": 2,
+          "body": ""
+        },
+        {
+          "heading": "Selenium -- The Critical Protector",
+          "level": 3,
+          "body": "The thyroid has the highest [[selenium]] concentration of any organ, owing to selenoprotein-dependent hormone synthesis and antioxidant defense (GPx, TrxR, DIO1-3). Se supplementation at 200 ug/day reduces anti-TPO antibodies by up to 40% in patients with levels >1200 IU/mL. Se modulates Th1/Th2/Th17/Treg balance, increases regulatory T cells, and protects against [[oxidative-stress]] generated by H2O2 during thyroid hormone synthesis. Se also antagonizes [[cadmium]] and [[mercury]] toxicity through direct binding and biliary excretion."
+        },
+        {
+          "heading": "Iron Deficiency",
+          "level": 3,
+          "body": "58% of HT patients have [[iron]] deficiency anemia. Fe is essential for TPO (thyroid peroxidase) activity; deficiency impairs T4 synthesis and elevates TSH. Meta-analysis of 47 studies (53,152 pregnant women) shows Fe deficiency associates with higher TSH (2.31 vs 1.75 mIU/L) and lower free T4. Fe also modulates M1/M2 macrophage polarization relevant to autoimmune regulation, connecting to [[nutritional-immunity]] dynamics."
+        },
+        {
+          "heading": "Zinc and Copper",
+          "level": 3,
+          "body": "[[zinc]] is a cofactor for >300 metalloenzymes including those in the TRH-TSH pathway and deiodinases. Low Zn prevalence reaches 49.1% in hypothyroid patients (OR 5.926). Zn mediates IL-1, IL-6, and TNF-alpha synthesis and is required for thymulin activation. [[copper]] serves as cofactor for superoxide dismutase (SOD) and stimulates T4 production; the Cu/Zn ratio is characteristically altered in thyroid autoimmunity."
+        },
+        {
+          "heading": "Iodine Excess Paradox",
+          "level": 3,
+          "body": "[[iodine]] has a U-shaped dose-response with AITD. Excess iodine inhibits TPO activity via the Wolff-Chaikoff effect, activates the NLRP3 inflammasome, promotes Th17 proliferation, and generates ROS in thyroid cells. Autoimmune thyroiditis prevalence increases after salt iodization programs. In combined Se and I deficiency, normalizing Se without iodine worsens hypothyroidism -- the elements must be balanced together."
+        },
+        {
+          "heading": "Heavy Metals and Nickel",
+          "level": 3,
+          "body": "Cd inhibits hepatic 5'-monodeiodinase (T4-to-T3 conversion); Pb prevents deiodination; Hg inhibits TPO and Tg iodination. Nickel shows a dose-response relationship with thyroid function parameters: at blood Ni levels of 1.36-60.9 ug/L, 78.7% of men may face 10% higher risk of thyroid dysfunction, operating through [[oxidative-stress]] and apoptotic disruption in thyroid tissue. See [[gut-metal-microbiome]] and [[metal-disease-matrix]]."
+        },
+        {
+          "heading": "Gut-Thyroid Axis",
+          "level": 2,
+          "body": "HT patients show significantly reduced alpha diversity (Shannon, Chao1; p<0.001) and distinct microbiome composition vs controls. Iodine-driven [[dysbiosis]] reduces [[butyrate]] and disrupts Th17/Treg balance -- sodium butyrate supplementation partially rescues this phenotype in mouse models. The relationship is bidirectional: dysbiosis impairs mineral absorption (I, Se, Fe) while thyroid hormones (FT3, FT4) regulate specific taxa. Molecular mimicry between gut bacterial antigens and thyroid proteins provides a mechanistic bridge. Gender intensifies microbial differences as HT progresses, with Bifidobacterium much more abundant in females."
+        },
+        {
+          "heading": "Microbiome Signature",
+          "level": 2,
+          "body": "Enriched in HT: Proteobacteria, Actinobacteria, [[blautia|Blautia]], Dorea, Lachnospira, Bifidobacterium, Akkermansia. Depleted: Faecalibacterium, Roseburia, [[short-chain-fatty-acids|SCFA]]-producing Firmicutes. Mendelian randomization provides causal evidence: [[akkermansia-muciniphila|Akkermansia]] is strongly protective (OR=0.71, p=9.9E-14) mediated through effector memory CD4+ T cells and IL-6/TNF-alpha modulation. [[prevotella|Prevotella]] associations are context-dependent. Intestinimonas and Turicibacter increase HT risk. Altered bile acid and [[tryptophan-metabolism]] characterize the HT metabolome."
+        },
+        {
+          "heading": "Key Metabolites",
+          "level": 2,
+          "body": "Indolelactate is the only gut metabolite causally associated with autoimmune hypothyroidism after FDR correction (OR=1.592, MR evidence). Tryptophan levels are significantly lower in HT (p<0.0001); supplementation alleviates thyroid damage and rebalances T cell subsets via the IDO1-Kyn-AhR axis and PI3K-Akt pathway suppression. Methylmalonic acid is elevated. Phospholipid and sphingolipid metabolism is disrupted, with altered phosphatidylcholine species in follicular fluid affecting fertility. [[butyrate]] and valeric acid are significantly decreased (p<0.01). See [[inflammation]] and [[nf-kappa-b]]."
+        },
+        {
+          "heading": "Diet and Probiotics",
+          "level": 2,
+          "body": "AIP diet pilot (n=16): significant QoL improvement across all SF-36 subscales and 29% hs-CRP reduction, but no change in thyroid antibodies or hormones. Mediterranean diet traits are protective; meat consumption increases HT odds via AGE accumulation and selenoenzyme suppression. Selenium 200 ug/day + vitamin D supplementation is the best-evidenced mineral intervention. Gluten-free diet alters the microbiome but may paradoxically increase Desulfobacterota/Proteobacteria without improving thyroid markers. Fiber intake of 30g/day supports SCFA production.\n\n[[probiotics|Probiotic]] meta-analysis (9 RCTs, 395 participants) shows significant TSH reduction (SMD: -1.10) and increased free T3/T4. Probiotics alone outperform synbiotics for TSH reduction. Shorter interventions (<=8 weeks) show stronger effects. B. longum + methimazole synergy demonstrated for [[graves-disease]]. Strain-specific effects and high heterogeneity across trials mean probiotic prescriptions remain evolving."
+        },
+        {
+          "heading": "Comorbidities",
+          "level": 2,
+          "body": "81% of HT patients have [[comorbidities]]: thyroid nodules (53%), breast hyperplasia (47%), uterine leiomyomas (24%). Female patients are 6.2x more likely to have comorbidities than males. Depression and anxiety occur even in euthyroid HT through neuroinflammation mechanisms. IBS is common. Fertility is impaired -- follicular fluid metabolomics reveal altered sphingolipid/phospholipid profiles. Levothyroxine therapy reduces comorbidity risk by correcting TSH-driven tissue overstimulation."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[graves-disease]] -- sister AITD with shared genetics but opposite functional outcome\n- [[selenium]], [[iron]], [[zinc]], [[copper]], [[iodine]] -- the essential mineral quintet\n- [[dysbiosis]], [[gut-metal-microbiome]], [[oxidative-stress]], [[inflammation]], [[nf-kappa-b]]\n- [[short-chain-fatty-acids]], [[butyrate]], [[tryptophan-metabolism]]\n- [[akkermansia-muciniphila]], [[blautia]], [[prevotella]], [[probiotics]]\n- [[metal-disease-matrix]], [[comorbidities]], [[nutritional-immunity]]"
+        }
+      ],
+      "wikilinks": [
+        "graves-disease",
+        "selenium",
+        "oxidative-stress",
+        "cadmium",
+        "mercury",
+        "iron",
+        "nutritional-immunity",
+        "zinc",
+        "copper",
+        "iodine",
+        "gut-metal-microbiome",
+        "metal-disease-matrix",
+        "dysbiosis",
+        "butyrate",
+        "blautia",
+        "short-chain-fatty-acids",
+        "akkermansia-muciniphila",
+        "prevotella",
+        "tryptophan-metabolism",
+        "inflammation",
+        "nf-kappa-b",
+        "probiotics",
+        "comorbidities"
+      ],
+      "sourceDir": "entities",
+      "backlinks": [
+        "selenium"
+      ],
+      "related": [
+        {
+          "id": "cardiovascular-disease",
+          "score": 19
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 17
+        },
+        {
+          "id": "crohns-disease",
+          "score": 15
+        },
+        {
+          "id": "alzheimers-disease",
+          "score": 13
+        },
+        {
+          "id": "autism-spectrum-disorder",
+          "score": 13
+        },
+        {
+          "id": "pcos",
+          "score": 13
+        },
+        {
+          "id": "rheumatoid-arthritis",
+          "score": 13
+        },
+        {
+          "id": "type-2-diabetes",
+          "score": 11
         }
       ]
     },
@@ -10494,11 +10727,11 @@
           "score": 7
         },
         {
-          "id": "inflammatory-bowel-disease",
+          "id": "hashimotos-thyroiditis",
           "score": 7
         },
         {
-          "id": "mycobiome",
+          "id": "inflammatory-bowel-disease",
           "score": 7
         }
       ]
@@ -11108,6 +11341,7 @@
         "gardnerella",
         "gordonibacter-urolithinfaciens",
         "graves-disease",
+        "hashimotos-thyroiditis",
         "klebsiella-pneumoniae",
         "lachnospiraceae",
         "lactobacillus",
@@ -11181,19 +11415,19 @@
       "related": [
         {
           "id": "zinc",
-          "score": 125
+          "score": 127
         },
         {
           "id": "dysbiosis",
-          "score": 89
+          "score": 91
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 74
+          "score": 76
         },
         {
           "id": "inflammation",
-          "score": 70
+          "score": 72
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -11201,11 +11435,11 @@
         },
         {
           "id": "oxidative-stress",
-          "score": 62
+          "score": 64
         },
         {
           "id": "metal-disease-matrix",
-          "score": 58
+          "score": 60
         },
         {
           "id": "colorectal-cancer",
@@ -13318,6 +13552,7 @@
         "enterococcus",
         "gardnerella",
         "graves-disease",
+        "hashimotos-thyroiditis",
         "lachnospiraceae",
         "lead",
         "nickel",
@@ -13337,11 +13572,11 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 38
+          "score": 40
         },
         {
           "id": "iron",
-          "score": 36
+          "score": 38
         },
         {
           "id": "ferroptosis",
@@ -13349,11 +13584,15 @@
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 24
+          "score": 26
         },
         {
           "id": "mis-metallation",
           "score": 24
+        },
+        {
+          "id": "inflammation",
+          "score": 23
         },
         {
           "id": "alzheimers-disease",
@@ -13361,10 +13600,6 @@
         },
         {
           "id": "developmental-metal-vulnerability",
-          "score": 21
-        },
-        {
-          "id": "inflammation",
           "score": 21
         }
       ]
@@ -16938,6 +17173,10 @@
           "score": 14
         },
         {
+          "id": "hashimotos-thyroiditis",
+          "score": 13
+        },
+        {
           "id": "parkinsons-disease",
           "score": 13
         },
@@ -16952,10 +17191,6 @@
         {
           "id": "metabolic-syndrome",
           "score": 12
-        },
-        {
-          "id": "cardiovascular-disease",
-          "score": 11
         }
       ]
     },
@@ -18004,6 +18239,10 @@
           "score": 9
         },
         {
+          "id": "hashimotos-thyroiditis",
+          "score": 9
+        },
+        {
           "id": "parkinsons-disease",
           "score": 9
         },
@@ -18013,10 +18252,6 @@
         },
         {
           "id": "breast-cancer",
-          "score": 7
-        },
-        {
-          "id": "type-2-diabetes",
           "score": 7
         }
       ]
@@ -18332,6 +18567,7 @@
       "sourceDir": "entities",
       "backlinks": [
         "alloprevotella",
+        "hashimotos-thyroiditis",
         "methanobrevibacter-smithii",
         "ruminococcus-gnavus",
         "fermentative-metabolism",
@@ -18346,7 +18582,7 @@
       "related": [
         {
           "id": "akkermansia-muciniphila",
-          "score": 19
+          "score": 21
         },
         {
           "id": "roseburia",
@@ -18358,7 +18594,15 @@
         },
         {
           "id": "zinc",
-          "score": 16
+          "score": 18
+        },
+        {
+          "id": "metal-disease-matrix",
+          "score": 17
+        },
+        {
+          "id": "blautia",
+          "score": 15
         },
         {
           "id": "clostridium",
@@ -18367,14 +18611,6 @@
         {
           "id": "escherichia-coli",
           "score": 15
-        },
-        {
-          "id": "metal-disease-matrix",
-          "score": 15
-        },
-        {
-          "id": "bifidobacterium",
-          "score": 13
         }
       ]
     },
@@ -18859,6 +19095,10 @@
           "score": 13
         },
         {
+          "id": "hashimotos-thyroiditis",
+          "score": 13
+        },
+        {
           "id": "autism-spectrum-disorder",
           "score": 11
         },
@@ -18880,10 +19120,6 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 9
-        },
-        {
-          "id": "crohns-disease",
           "score": 9
         }
       ]
@@ -20395,6 +20631,7 @@
         "alzheimers-disease",
         "copper",
         "graves-disease",
+        "hashimotos-thyroiditis",
         "intestinibacter",
         "iron",
         "magnesium",
@@ -20407,11 +20644,11 @@
       "related": [
         {
           "id": "zinc",
-          "score": 44
+          "score": 46
         },
         {
           "id": "metal-disease-matrix",
-          "score": 36
+          "score": 38
         },
         {
           "id": "nickel",
@@ -22917,6 +23154,7 @@
         "copper",
         "crohns-disease",
         "graves-disease",
+        "hashimotos-thyroiditis",
         "lactococcus",
         "lead",
         "magnesium",
@@ -22973,15 +23211,15 @@
       "related": [
         {
           "id": "iron",
-          "score": 125
+          "score": 127
         },
         {
           "id": "metal-disease-matrix",
-          "score": 73
+          "score": 75
         },
         {
           "id": "nutritional-immunity",
-          "score": 60
+          "score": 62
         },
         {
           "id": "manganese",
@@ -22989,19 +23227,19 @@
         },
         {
           "id": "dysbiosis",
-          "score": 45
+          "score": 47
         },
         {
           "id": "selenium",
-          "score": 44
+          "score": 46
         },
         {
           "id": "bacteroides-fragilis",
           "score": 31
         },
         {
-          "id": "faecalibacterium-prausnitzii",
-          "score": 30
+          "id": "inflammation",
+          "score": 31
         }
       ]
     },
@@ -24294,7 +24532,7 @@
           "score": 8
         },
         {
-          "id": "ferroptosis",
+          "id": "hashimotos-thyroiditis",
           "score": 8
         }
       ]
@@ -24407,6 +24645,7 @@
       "sourceDir": "concepts",
       "backlinks": [
         "fusobacterium-varium",
+        "hashimotos-thyroiditis",
         "oscillospiraceae",
         "ruminococcus-albus",
         "atherosclerosis",
@@ -24421,36 +24660,36 @@
       ],
       "related": [
         {
+          "id": "iron",
+          "score": 17
+        },
+        {
           "id": "hepcidin",
           "score": 17
         },
         {
-          "id": "iron",
-          "score": 15
+          "id": "gut-metal-microbiome",
+          "score": 14
         },
         {
           "id": "indoles",
           "score": 13
         },
         {
+          "id": "probiotics",
+          "score": 13
+        },
+        {
+          "id": "akkermansia-muciniphila",
+          "score": 12
+        },
+        {
           "id": "bacteroides-fragilis",
           "score": 12
         },
         {
-          "id": "gut-metal-microbiome",
+          "id": "zinc",
           "score": 12
-        },
-        {
-          "id": "probiotics",
-          "score": 11
-        },
-        {
-          "id": "akkermansia-muciniphila",
-          "score": 10
-        },
-        {
-          "id": "inflammatory-bowel-disease",
-          "score": 10
         }
       ]
     },
@@ -24752,11 +24991,17 @@
         "fecal-microbiota-transplant"
       ],
       "sourceDir": "concepts",
-      "backlinks": [],
+      "backlinks": [
+        "hashimotos-thyroiditis"
+      ],
       "related": [
         {
           "id": "atherosclerosis",
           "score": 11
+        },
+        {
+          "id": "gut-metal-microbiome",
+          "score": 7
         },
         {
           "id": "gut-microbiome",
@@ -24767,7 +25012,7 @@
           "score": 5
         },
         {
-          "id": "gut-metal-microbiome",
+          "id": "nf-kappa-b",
           "score": 5
         },
         {
@@ -24779,11 +25024,7 @@
           "score": 4
         },
         {
-          "id": "inflammatory-bowel-disease",
-          "score": 4
-        },
-        {
-          "id": "obesity",
+          "id": "copper",
           "score": 4
         }
       ]
@@ -25347,6 +25588,7 @@
         "fusobacterium",
         "gardnerella",
         "gordonibacter-urolithinfaciens",
+        "hashimotos-thyroiditis",
         "hungatella",
         "hypertension",
         "inflammatory-bowel-disease",
@@ -25405,7 +25647,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 89
+          "score": 91
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -25413,7 +25655,7 @@
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 73
+          "score": 75
         },
         {
           "id": "cardiovascular-disease",
@@ -27597,6 +27839,7 @@
         "eubacterium",
         "faecalibacterium-prausnitzii",
         "fusobacterium",
+        "hashimotos-thyroiditis",
         "klebsiella-pneumoniae",
         "lachnospiraceae",
         "lactobacillus",
@@ -27640,7 +27883,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 95
+          "score": 97
         },
         {
           "id": "nickel",
@@ -27648,15 +27891,15 @@
         },
         {
           "id": "iron",
-          "score": 74
+          "score": 76
         },
         {
           "id": "inflammation",
-          "score": 57
+          "score": 59
         },
         {
           "id": "cadmium",
-          "score": 54
+          "score": 56
         },
         {
           "id": "lead",
@@ -27664,7 +27907,7 @@
         },
         {
           "id": "zinc",
-          "score": 51
+          "score": 53
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -28912,6 +29155,7 @@
         "eubacterium",
         "faecalibacterium-prausnitzii",
         "fusobacterium",
+        "hashimotos-thyroiditis",
         "hypertension",
         "inflammatory-bowel-disease",
         "lachnospiraceae",
@@ -28953,7 +29197,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 70
+          "score": 72
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -28969,7 +29213,7 @@
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 47
+          "score": 49
         },
         {
           "id": "colorectal-cancer",
@@ -32229,6 +32473,7 @@
       "backlinks": [
         "butyricimonas",
         "crohns-disease",
+        "hashimotos-thyroiditis",
         "methanobrevibacter",
         "obesity",
         "peptostreptococcus",
@@ -32247,11 +32492,15 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 30
+          "score": 32
         },
         {
           "id": "iron",
-          "score": 23
+          "score": 25
+        },
+        {
+          "id": "copper",
+          "score": 18
         },
         {
           "id": "alzheimers-disease",
@@ -32262,20 +32511,16 @@
           "score": 17
         },
         {
-          "id": "copper",
-          "score": 16
-        },
-        {
           "id": "ferroptosis",
           "score": 16
         },
         {
-          "id": "cardiovascular-disease",
-          "score": 14
+          "id": "zinc",
+          "score": 15
         },
         {
-          "id": "glutathione",
-          "score": 14
+          "id": "nutritional-immunity",
+          "score": 15
         }
       ]
     },
@@ -33142,6 +33387,7 @@
         "enterobacteriaceae",
         "enterococcus",
         "escherichia-coli",
+        "hashimotos-thyroiditis",
         "helicobacter-pylori",
         "inflammatory-bowel-disease",
         "iron",
@@ -33200,11 +33446,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 98
+          "score": 100
         },
         {
           "id": "zinc",
-          "score": 60
+          "score": 62
         },
         {
           "id": "metal-dependent-virulence",
@@ -33216,7 +33462,7 @@
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 39
+          "score": 41
         },
         {
           "id": "urease",
@@ -33227,8 +33473,8 @@
           "score": 33
         },
         {
-          "id": "candida-albicans",
-          "score": 29
+          "id": "copper",
+          "score": 30
         }
       ]
     },
@@ -33630,6 +33876,7 @@
         "crohns-disease",
         "desulfovibrio",
         "fusobacterium",
+        "hashimotos-thyroiditis",
         "lead",
         "magnesium",
         "malassezia",
@@ -33668,19 +33915,19 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 50
+          "score": 52
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 43
+          "score": 45
+        },
+        {
+          "id": "inflammation",
+          "score": 39
         },
         {
           "id": "mis-metallation",
           "score": 38
-        },
-        {
-          "id": "inflammation",
-          "score": 37
         },
         {
           "id": "glutathione",
@@ -33688,7 +33935,7 @@
         },
         {
           "id": "dysbiosis",
-          "score": 31
+          "score": 33
         },
         {
           "id": "gut-brain-axis",
@@ -34254,6 +34501,7 @@
         "alzheimers-disease",
         "autism-spectrum-disorder",
         "crohns-disease",
+        "hashimotos-thyroiditis",
         "lactococcus",
         "multiple-sclerosis",
         "nickel",
@@ -34268,19 +34516,23 @@
       ],
       "related": [
         {
+          "id": "iron",
+          "score": 20
+        },
+        {
           "id": "bifidobacterium",
           "score": 18
         },
         {
-          "id": "iron",
+          "id": "metal-disease-matrix",
           "score": 18
         },
         {
-          "id": "lactobacillus",
+          "id": "akkermansia-muciniphila",
           "score": 16
         },
         {
-          "id": "metal-disease-matrix",
+          "id": "lactobacillus",
           "score": 16
         },
         {
@@ -34288,16 +34540,12 @@
           "score": 15
         },
         {
-          "id": "dietary-metal-paradoxes",
+          "id": "short-chain-fatty-acids",
           "score": 15
         },
         {
-          "id": "akkermansia-muciniphila",
-          "score": 14
-        },
-        {
-          "id": "manganese",
-          "score": 14
+          "id": "dietary-metal-paradoxes",
+          "score": 15
         }
       ]
     },
@@ -34464,6 +34712,7 @@
         "dialister",
         "dorea",
         "gordonibacter-urolithinfaciens",
+        "hashimotos-thyroiditis",
         "hypertension",
         "inflammatory-bowel-disease",
         "intestinibacter",
@@ -34499,7 +34748,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 37
+          "score": 39
         },
         {
           "id": "multiple-sclerosis",
@@ -34511,7 +34760,11 @@
         },
         {
           "id": "butyrate",
-          "score": 28
+          "score": 30
+        },
+        {
+          "id": "cadmium",
+          "score": 22
         },
         {
           "id": "roseburia",
@@ -34522,12 +34775,8 @@
           "score": 21
         },
         {
-          "id": "cadmium",
+          "id": "zinc",
           "score": 20
-        },
-        {
-          "id": "lachnospiraceae",
-          "score": 18
         }
       ]
     },
@@ -35316,6 +35565,7 @@
       ],
       "sourceDir": "concepts",
       "backlinks": [
+        "hashimotos-thyroiditis",
         "indoles",
         "neuroinflammation",
         "tryptophan"
@@ -35330,28 +35580,28 @@
           "score": 9
         },
         {
+          "id": "dysbiosis",
+          "score": 7
+        },
+        {
           "id": "fecal-microbiota-transplant",
           "score": 7
         },
         {
-          "id": "dysbiosis",
+          "id": "gut-metal-microbiome",
           "score": 5
         },
         {
-          "id": "alzheimers-disease",
-          "score": 4
+          "id": "nf-kappa-b",
+          "score": 5
         },
         {
-          "id": "parkinsons-disease",
-          "score": 4
+          "id": "oxidative-stress",
+          "score": 5
         },
         {
-          "id": "insulin-resistance",
-          "score": 4
-        },
-        {
-          "id": "microbial-biomarkers",
-          "score": 4
+          "id": "metal-disease-matrix",
+          "score": 5
         }
       ]
     },
@@ -38953,40 +39203,41 @@
       ],
       "sourceDir": "signatures",
       "backlinks": [
+        "hashimotos-thyroiditis",
         "selenium"
       ],
       "related": [
         {
-          "id": "crohns-disease",
-          "score": 3
-        },
-        {
-          "id": "endometriosis",
-          "score": 3
-        },
-        {
-          "id": "multiple-sclerosis",
-          "score": 3
-        },
-        {
-          "id": "pcos",
-          "score": 3
+          "id": "hashimotos-thyroiditis",
+          "score": 6
         },
         {
           "id": "cadmium",
-          "score": 2
+          "score": 4
         },
         {
           "id": "copper",
-          "score": 2
+          "score": 4
         },
         {
-          "id": "crohns-disease",
-          "score": 2
+          "id": "iron",
+          "score": 4
         },
         {
-          "id": "endometriosis",
-          "score": 2
+          "id": "mercury",
+          "score": 4
+        },
+        {
+          "id": "selenium",
+          "score": 4
+        },
+        {
+          "id": "nutritional-immunity",
+          "score": 4
+        },
+        {
+          "id": "oxidative-stress",
+          "score": 4
         }
       ]
     },
@@ -41999,6 +42250,10 @@
           "score": 5
         },
         {
+          "id": "hashimotos-thyroiditis",
+          "score": 4
+        },
+        {
           "id": "inflammatory-bowel-disease",
           "score": 4
         },
@@ -42012,10 +42267,6 @@
         },
         {
           "id": "fecal-microbiota-transplant",
-          "score": 4
-        },
-        {
-          "id": "metal-dependent-virulence",
           "score": 4
         }
       ]
@@ -42625,7 +42876,7 @@
           "score": 2
         },
         {
-          "id": "inflammatory-bowel-disease",
+          "id": "hashimotos-thyroiditis",
           "score": 2
         }
       ]
@@ -43539,6 +43790,7 @@
         "crohns-disease",
         "endometriosis",
         "graves-disease",
+        "hashimotos-thyroiditis",
         "multiple-sclerosis",
         "parkinsons-disease",
         "pcos",
@@ -43549,20 +43801,20 @@
       ],
       "related": [
         {
+          "id": "oxidative-stress",
+          "score": 52
+        },
+        {
           "id": "dietary-metal-paradoxes",
           "score": 52
         },
         {
-          "id": "oxidative-stress",
-          "score": 50
-        },
-        {
           "id": "mercury",
-          "score": 38
+          "score": 40
         },
         {
           "id": "selenium",
-          "score": 36
+          "score": 38
         },
         {
           "id": "glutathione",
@@ -43902,6 +44154,12 @@
         "label": "Graves' Disease",
         "category": "disease",
         "sourceCount": 10
+      },
+      {
+        "id": "hashimotos-thyroiditis",
+        "label": "Hashimoto's Thyroiditis",
+        "category": "disease",
+        "sourceCount": 15
       },
       {
         "id": "helicobacter-pylori",
@@ -47134,6 +47392,94 @@
       {
         "source": "graves-disease",
         "target": "metal-disease-matrix"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "graves-disease"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "selenium"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "cadmium"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "mercury"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "iron"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "nutritional-immunity"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "zinc"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "copper"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "metal-disease-matrix"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "butyrate"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "blautia"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "akkermansia-muciniphila"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "prevotella"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "tryptophan-metabolism"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "inflammation"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "nf-kappa-b"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "probiotics"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "comorbidities"
       },
       {
         "source": "helicobacter-pylori",
@@ -54842,6 +55188,17 @@
       "journal": "Unknown",
       "doi": ""
     },
+    "abbott-2019-aip-diet-hashimotos-lifestyle-intervention": {
+      "title": "Efficacy of the Autoimmune Protocol Diet as Part of a Multi-disciplinary, Supported Lifestyle Intervention for Hashimoto's Thyroiditis",
+      "authors": [
+        "Abbott RD",
+        "Sadowski A",
+        "Alt AG"
+      ],
+      "year": 2019,
+      "journal": "Cureus",
+      "doi": "10.7759/cureus.4556"
+    },
     "abdel-azim-2018-heavy-metals-vfas-methanococcus": {
       "title": "The physiological effect of heavy metals and volatile fatty acids on Methanococcus maripaludis S2",
       "authors": [
@@ -54935,6 +55292,17 @@
       "year": 1997,
       "journal": "The Journal of Dermatology",
       "doi": "10.1111/j.1346-8138.1997.tb02732.x"
+    },
+    "adapa-2023-microbiome-thyroid-link-gut-microbiota-review": {
+      "title": "The Microbiome-Thyroid Link: A Review of the Role of the Gut Microbiota in Thyroid Function and Disease",
+      "authors": [
+        "Adapa V",
+        "Kada VA",
+        "Nunna JSG"
+      ],
+      "year": 2023,
+      "journal": "Journal of Clinical and Pharmaceutical Research",
+      "doi": ""
     },
     "agboola-2023-heavy-metals-leafy-vegetables-lagos": {
       "title": "Levels of Heavy Metals and Potential Human Health Risks via Consumption of Leafy Vegetables Purchased in Popular Local Market in Lagos, Nigeria",
@@ -55123,6 +55491,30 @@
       "year": 2022,
       "journal": "Research Ideas and Outcomes",
       "doi": "10.3897/rio.8.e91179"
+    },
+    "alkader-2023-gut-microbiota-autoimmune-thyroid-systematic-review": {
+      "title": "Exploring the Role of Gut Microbiota in Autoimmune Thyroid Disorders: A Systematic Review and Meta-Analysis",
+      "authors": [
+        "Alkader DAA",
+        "Asadi N",
+        "Solangi U",
+        "Singh R",
+        "Rasuli SF",
+        "Farooq MJ",
+        "Raheela FNU",
+        "Waseem R",
+        "Gilani SM",
+        "Abbas K",
+        "Ahmed M",
+        "Tanoh DB",
+        "Shah HH",
+        "Dulal A",
+        "Hussain MS",
+        "Talpur AS"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2023.1238146"
     },
     "alkuwaiti-2025-microbiota-gut-brain-axis-pediatric-ndd": {
       "title": "Alkuwaiti 2025 — Microbiota-Gut-Brain Axis in Pediatric Neurodevelopmental Disorders",
@@ -55617,6 +56009,17 @@
       "journal": "International Journal of Molecular Sciences",
       "doi": ""
     },
+    "bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review": {
+      "title": "Gut Microbiota and Thyroid Diseases: A Comprehensive Review of Mechanisms and Clinical Implications",
+      "authors": [
+        "Bao K",
+        "Lin H",
+        "Guo S"
+      ],
+      "year": 2025,
+      "journal": "X-Disciplinarity",
+      "doi": "10.63174/xdi.BDAP6489"
+    },
     "barnard-2023-nutrition-prevention-treatment-endometriosis": {
       "title": "Nutrition in the prevention and treatment of endometriosis: A review",
       "authors": [
@@ -55704,6 +56107,26 @@
       "year": 2020,
       "journal": "Basal Ganglia",
       "doi": "10.1016/j.baga.2020.100142"
+    },
+    "bastos-2023-metabolomic-follicular-fluid-hashimotos": {
+      "title": "Metabolomic analysis of follicular fluid from women with Hashimoto thyroiditis",
+      "authors": [
+        "Bastos DC",
+        "Chiamolera MI",
+        "Silva RE",
+        "Souza MC",
+        "Antunes RA",
+        "Souza MM",
+        "Mancebo AC",
+        "Aréas F",
+        "Reis FM",
+        "Lo Turco EG",
+        "Bloise FF",
+        "Ortiga-Carvalho TM"
+      ],
+      "year": 2023,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-023-39514-7"
     },
     "becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility": {
       "title": "Short-chain fatty acids and intestinal inflammation in multiple sclerosis: modulation of female susceptibility by microbial products?",
@@ -56121,6 +56544,24 @@
       "year": 2026,
       "journal": "Molecular Neurobiology",
       "doi": "10.1007/s12035-026-05748-5"
+    },
+    "cai-2018-hashimotos-neuroinflammation-emotional-alterations-mice": {
+      "title": "Hashimoto's Thyroiditis Induces Neuroinflammation and Emotional Alterations in Euthyroid Mice",
+      "authors": [
+        "Cai YJ",
+        "Wang F",
+        "Chen ZX",
+        "Li L",
+        "Fan H",
+        "Wu ZB",
+        "Ge JF",
+        "Hu W",
+        "Wang QN",
+        "Zhu DF"
+      ],
+      "year": 2018,
+      "journal": "Journal of Neuroinflammation",
+      "doi": "10.1186/s12974-018-1341-z"
     },
     "calabrese-2025-ketogenic-diet-ocd-uc-remission": {
       "title": "Remission of OCD and Ulcerative Colitis with a Ketogenic Diet: Case Report",
@@ -56859,6 +57300,21 @@
       "journal": "Food Science & Nutrition",
       "doi": "10.1002/fsn3.977"
     },
+    "dagar-2023-bacteriome-mycobiome-virome-rheumatoid-arthritis": {
+      "title": "Gut Bacteriome, Mycobiome and Virome Alterations in Rheumatoid Arthritis",
+      "authors": [
+        "Dagar S",
+        "Singh J",
+        "Saini A",
+        "Kumar Y",
+        "Chhabra S",
+        "Minz RW",
+        "Rani L"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2022.1044673"
+    },
     "dahan-2018-arsenic-alters-microbiome-larval-zebrafish": {
       "title": "Exposure to arsenic alters the microbiome of larval zebrafish",
       "authors": [
@@ -57280,6 +57736,27 @@
       "journal": "Acta Sci Pol Technol Aliment",
       "doi": ""
     },
+    "docimo-2020-human-microbiota-endocrinology-thyroid": {
+      "title": "The Human Microbiota in Endocrinology: Implications for Pathophysiology, Treatment, and Prognosis in Thyroid Diseases",
+      "authors": [
+        "Docimo G",
+        "Cangiano A",
+        "Romano RM",
+        "Pignatelli MF",
+        "Offi C",
+        "Paglionico VA",
+        "Galdiero M",
+        "Donnarumma G",
+        "Nigro V",
+        "Esposito D",
+        "Rotondi M",
+        "Candela G",
+        "Pasquali D"
+      ],
+      "year": 2020,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2020.586529"
+    },
     "doenyas-2018-gut-microbiota-inflammation-probiotics-asd": {
       "title": "Doenyas 2018 -- Gut Microbiota, Inflammation, and Probiotics on Neural Development in Autism Spectrum Disorder",
       "authors": [
@@ -57288,6 +57765,38 @@
       "year": 2018,
       "journal": "Neuroscience",
       "doi": "10.1016/j.neuroscience.2018.01.060"
+    },
+    "dong-2021-salivary-microbiome-tsh-shifts": {
+      "title": "Association Between Serum Thyroid-Stimulating Hormone Levels and Salivary Microbiome Shifts",
+      "authors": [
+        "Dong T",
+        "Zhao F",
+        "Yuan K",
+        "Zhu X",
+        "Wang N",
+        "Xia F",
+        "Lu Y",
+        "Huang Z"
+      ],
+      "year": 2021,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2021.603291"
+    },
+    "dong-2021-tsh-salivary-microbiome-shifts": {
+      "title": "Association Between Serum Thyroid-Stimulating Hormone Levels and Salivary Microbiome Shifts",
+      "authors": [
+        "Dong T",
+        "Zhao F",
+        "Yuan K",
+        "Zhu X",
+        "Wang N",
+        "Xia F",
+        "Lu Y",
+        "Huang Z"
+      ],
+      "year": 2021,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2021.603291"
     },
     "donovan-2017-mediterranean-diet-crc-prevention": {
       "title": "Mediterranean Diet: Prevention of Colorectal Cancer",
@@ -57564,6 +58073,29 @@
       "year": 2025,
       "journal": "Microbiome",
       "doi": ""
+    },
+    "fang-2024-gut-microbiota-autoimmune-thyroid-mendelian": {
+      "title": "Gut microbiota and autoimmune thyroid disease: a bidirectional Mendelian randomization study and mediation analysis",
+      "authors": [
+        "Fang Y",
+        "Zhang X",
+        "Huang R",
+        "Liu J",
+        "Li Z"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2024.1443643"
+    },
+    "fang-2024-gut-microbiota-thyroid-disease-advances": {
+      "title": "Recent Advances in Gut Microbiota and Thyroid Disease: Pathogenesis and Therapeutics in Autoimmune, Neoplastic, and Nodular Conditions",
+      "authors": [
+        "Fang L",
+        "Ning J"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2024.1465928"
     },
     "fang-2024-immune-cells-asd-mr": {
       "title": "Fang 2024 — The Relationship of Immune Cells with Autism Spectrum Disorder: A Bidirectional Mendelian Randomization Study",
@@ -58274,6 +58806,21 @@
       "journal": "Frontiers in Psychiatry",
       "doi": "10.3389/fpsyt.2019.00647"
     },
+    "gong-2024-iodine-gut-microbiota-hashimotos": {
+      "title": "Effects of iodine intake on gut microbiota and gut metabolites in Hashimoto thyroiditis-diseased humans and mice",
+      "authors": [
+        "Gong B",
+        "Meng F",
+        "Wang X",
+        "Han Y",
+        "Yang W",
+        "Wang C",
+        "Shan Z"
+      ],
+      "year": 2024,
+      "journal": "Communications Biology",
+      "doi": "10.1038/s42003-024-05813-6"
+    },
     "gonzalez-henao-2021-heavy-metals-soil-remediation-plant-microbiome": {
       "title": "Heavy metals in soils and the remediation potential of bacteria associated with the plant microbiome",
       "authors": [
@@ -58542,6 +59089,16 @@
       "journal": "Frontiers in Immunology",
       "doi": "10.3389/fimmu.2021.612826"
     },
+    "harbi-2024-lactobacillus-candida-thyroid-disorders": {
+      "title": "The Occurrence of Lactobacillus and Candida albicans in Patients with Thyroid Disorders",
+      "authors": [
+        "Harbi RH",
+        "Mahmood MA"
+      ],
+      "year": 2024,
+      "journal": "Misan Journal for Academic Studies",
+      "doi": "10.54633/2333-049-016"
+    },
     "harbige-2007-pufa-pathogenesis-treatment-ms": {
       "title": "Polyunsaturated Fatty Acids in the Pathogenesis and Treatment of Multiple Sclerosis",
       "authors": [
@@ -58563,6 +59120,15 @@
       "year": 2018,
       "journal": "Human Reproduction",
       "doi": "10.1038/s44439-024-00009-w"
+    },
+    "hashimoto-2023-host-microbiome-neuropsychiatric-disorders": {
+      "title": "Emerging Role of the Host Microbiome in Neuropsychiatric Disorders: Overview and Future Directions",
+      "authors": [
+        "Hashimoto K"
+      ],
+      "year": 2023,
+      "journal": "Molecular Psychiatry",
+      "doi": "10.1038/s41380-023-02287-6"
     },
     "hatton-2022-diet-parkinsons-critical-role-microbiome": {
       "title": "Hatton 2022 -- Diet in Parkinson's Disease: Critical Role for the Microbiome",
@@ -58720,6 +59286,20 @@
       "year": 2024,
       "journal": "npj Parkinson's Disease",
       "doi": "10.1038/s41531-024-00802-2"
+    },
+    "hellmann-2023-amino-acid-profile-ptc-hashimotos": {
+      "title": "Alterations in the amino acid profile in patients with papillary thyroid carcinoma with and without Hashimoto's thyroiditis",
+      "authors": [
+        "Hellmann A",
+        "Turyn J",
+        "Zwara A",
+        "Korczynska J",
+        "Taciak A",
+        "Mika A"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2023.1199291"
     },
     "hernandes-2020-microbiome-deep-endometriosis-vaginal-lesion": {
       "title": "Microbiome Profile of Deep Endometriosis Patients: Comparison of Vaginal Fluid, Endometrium and Lesion",
@@ -59126,6 +59706,22 @@
       "journal": "BMC Pediatrics",
       "doi": "10.1186/s12887-025-05922-z"
     },
+    "huo-2021-bifidobacterium-longum-methimazole-graves": {
+      "title": "Probiotic Bifidobacterium longum Supplied with Methimazole Improved the Thyroid Function of Graves' Disease Patients Through the Gut-Thyroid Axis",
+      "authors": [
+        "Huo D",
+        "Cen C",
+        "Chang H",
+        "Ou Q",
+        "Jiang S",
+        "Pan Y",
+        "Dong C",
+        "Zhang J"
+      ],
+      "year": 2021,
+      "journal": "Communications Biology",
+      "doi": "10.1038/s42003-021-02587-z"
+    },
     "ibrahim-2022-aluminum-exposure-infant-formulas-lebanon": {
       "title": "Pediatric Health Risk Assessment for Exposure to Aluminum from Infant Formulas and Children under the Age of Five's Food Products among Arab Infants: Experience from Lebanon",
       "authors": [
@@ -59188,6 +59784,24 @@
       "year": 2017,
       "journal": "Iranian Journal of Public Health",
       "doi": "10.1002/mnfr.202400571"
+    },
+    "ishaq-2017-gut-microbial-composition-hashimotos": {
+      "title": "Molecular Estimation of Alteration in Intestinal Microbial Composition in Hashimoto's Thyroiditis Patients",
+      "authors": [
+        "Ishaq HM",
+        "Mohammad IS",
+        "Guo H",
+        "Shahzad M",
+        "Hou YJ",
+        "Ma C",
+        "Naseem Z",
+        "Wu X",
+        "Shi P",
+        "Xu J"
+      ],
+      "year": 2017,
+      "journal": "Biomedicine and Pharmacotherapy",
+      "doi": "10.1016/j.biopha.2017.08.101"
     },
     "islam-2022-metal-toxicity-alzheimers-extensive-review": {
       "title": "Exposure of metal toxicity in Alzheimer's disease: An extensive review",
@@ -59590,6 +60204,19 @@
       "year": 2023,
       "journal": "BMC Microbiology",
       "doi": "10.1186/s12866-023-03084-5"
+    },
+    "karimi-2025-probiotics-synbiotics-thyroid-meta-analysis": {
+      "title": "Effects of Probiotics and Synbiotics Oral Supplementation on Thyroid Function in Adults: A Grade-Assessed Systematic Review and Meta-Analysis",
+      "authors": [
+        "Karimi M",
+        "Rabiei R",
+        "Kazemi K",
+        "Bagheri Motlagh R",
+        "Asbaghi O"
+      ],
+      "year": 2025,
+      "journal": "Thyroid Research",
+      "doi": "10.1186/s13044-025-00257-4"
     },
     "kashtanova-2017-gut-microbiota-vascular-biomarkers-subclinical-cvd": {
       "title": "Gut microbiota and vascular biomarkers in patients without clinical cardiovascular diseases",
@@ -60135,6 +60762,17 @@
       "journal": "International Journal of Molecular Sciences",
       "doi": "10.3390/ijms22094608"
     },
+    "legakis-2023-thyroid-diseases-intestinal-microbiome": {
+      "title": "Thyroid Diseases and Intestinal Microbiome",
+      "authors": [
+        "Legakis I",
+        "Chrousos GP",
+        "Chatzipanagiotou S"
+      ],
+      "year": 2023,
+      "journal": "Hormone and Metabolic Research",
+      "doi": "10.1055/a-2190-3847"
+    },
     "lehmler-2018-tin-exposure-nhanes-us-population": {
       "title": "Environmental Tin Exposure in a Nationally Representative Sample of U.S. Adults and Children: the National Health and Nutrition Examination Survey 2011-2014",
       "authors": [
@@ -60387,6 +61025,27 @@
       "journal": "Frontiers in Cellular and Infection Microbiology",
       "doi": "10.3389/fcimb.2023.1267721"
     },
+    "li-2024-integrative-gut-microbiome-transcriptome-hashimotos": {
+      "title": "Integrative analysis of gut microbiome and host transcriptome reveal novel molecular signatures in Hashimoto's thyroiditis",
+      "authors": [
+        "Li M",
+        "Chen K",
+        "Chen Y",
+        "Zhang L",
+        "Cui Y",
+        "Xiao F",
+        "Liu Z",
+        "Zhang W",
+        "Jiang J",
+        "Zhou Q",
+        "Yan J",
+        "Sun Y",
+        "Guan F"
+      ],
+      "year": 2024,
+      "journal": "Journal of Translational Medicine",
+      "doi": "10.1186/s12967-024-05876-3"
+    },
     "li-2024-microbiome-targeted-therapy-parkinsons": {
       "title": "Li 2024 -- Microbiome-Targeted Therapies for Parkinson's Disease",
       "authors": [
@@ -60415,6 +61074,24 @@
       "year": 2024,
       "journal": "Frontiers in Pediatrics",
       "doi": "10.3389/fped.2024.1369823"
+    },
+    "li-2025-acupuncture-autoimmune-thyroiditis-microbiota-palmitic-acid": {
+      "title": "Acupuncture Attenuates Experimental Autoimmune Thyroiditis by Modulating Intestinal Microbiota and Palmitic Acid Metabolism",
+      "authors": [
+        "Li H",
+        "Qi F",
+        "Li D",
+        "Fan Y",
+        "Liu J",
+        "Li C",
+        "Chen J",
+        "Wu X",
+        "Zhang X",
+        "Xu F"
+      ],
+      "year": 2025,
+      "journal": "Frontiers in Immunology",
+      "doi": "10.3389/fimmu.2025.1541728"
     },
     "li-2025-amino-acid-levels-asd-severity": {
       "title": "Li 2025 — Associations Between Amino Acid Levels and ASD Severity",
@@ -60452,6 +61129,29 @@
       "year": 2025,
       "journal": "BMC Cancer",
       "doi": "10.1186/s12885-025-13574-6"
+    },
+    "li-2025-trace-elements-autoimmune-thyroid-disease": {
+      "title": "Recent advances of trace elements in autoimmune thyroid disease",
+      "authors": [
+        "Li S",
+        "Xu Q",
+        "Wang S",
+        "Peng H",
+        "Liu Y"
+      ],
+      "year": 2025,
+      "journal": "Frontiers in Immunology",
+      "doi": "10.3389/fimmu.2025.1662521"
+    },
+    "li-2025-viral-infection-thyroid-disorders-review": {
+      "title": "Viral Infection and Thyroid Disorders: A Narrative Review",
+      "authors": [
+        "Li Y",
+        "Li W"
+      ],
+      "year": 2025,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2025.1625179"
     },
     "libbey-2018-diet-microbiota-eae": {
       "title": "Variations in diet cause alterations in microbiota and metabolites that follow changes in disease severity in a multiple sclerosis model",
@@ -60757,6 +61457,21 @@
       "journal": "Frontiers in Microbiology",
       "doi": ""
     },
+    "liu-2022-gut-microbiota-diversity-hashimotos": {
+      "title": "Analysis of gut microbiota diversity in Hashimoto's thyroiditis patients",
+      "authors": [
+        "Liu J",
+        "Qin X",
+        "Lin B",
+        "Cui J",
+        "Liao J",
+        "Zhang F",
+        "Lin Q"
+      ],
+      "year": 2022,
+      "journal": "BMC Microbiology",
+      "doi": "10.1186/s12866-022-02739-z"
+    },
     "liu-2022-heavy-metals-breast-cancer-meta-analysis": {
       "title": "Relationships Between Biological Heavy Metals and Breast Cancer: A Systematic Review and Meta-Analysis",
       "authors": [
@@ -60855,6 +61570,28 @@
       "year": 2023,
       "journal": "Oncology Letters",
       "doi": "10.3892/ol.2023.14128"
+    },
+    "liu-2024-causal-gut-microbiota-metabolites-hypothyroidism-mendelian": {
+      "title": "Investigating causal associations among gut microbiota, metabolites and autoimmune hypothyroidism: a univariable and multivariable Mendelian randomization study",
+      "authors": [
+        "Liu X",
+        "Yuan J",
+        "Liu S",
+        "Tang M",
+        "Meng X",
+        "Wang Y",
+        "Li Y",
+        "Chai Y",
+        "Kou L",
+        "Yang J",
+        "Li Z",
+        "Zhang L",
+        "Guan Q",
+        "Zhang H"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Immunology",
+      "doi": "10.3389/fimmu.2023.1213159"
     },
     "liu-2024-copper-pcos-ivf": {
       "title": "Serum Copper Assessment in Patients with Polycystic Ovary Syndrome and Tubal Infertility: A Retrospective 5-Year Study",
@@ -61103,6 +61840,21 @@
       "year": 2022,
       "journal": "Frontiers in Nutrition",
       "doi": "10.3389/fnut.2022.899746"
+    },
+    "luo-2025-serum-metabolomics-hashimotos-tgab-tpoab": {
+      "title": "Serum metabolomic analysis in patients with Hashimoto's thyroiditis positive for TgAb or TPOAb: a preliminary study",
+      "authors": [
+        "Luo T",
+        "Zhao X",
+        "Jiang X",
+        "Li P",
+        "Gu X",
+        "Xie X",
+        "Liu H"
+      ],
+      "year": 2025,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-025-90467-5"
     },
     "luqman-2024-intestinal-microbiome-cvd-intervention": {
       "title": "Role of the intestinal microbiome and its therapeutic intervention in cardiovascular disorder",
@@ -61666,6 +62418,28 @@
       "year": 2025,
       "journal": "Cellular and Molecular Neurobiology",
       "doi": "10.1007/s10571-025-01609-2"
+    },
+    "mendoza-leon-2023-scfas-thyroid-function": {
+      "title": "Gut microbiota short-chain fatty acids and their impact on the host thyroid function and diseases",
+      "authors": [
+        "Mendoza-Leon MJ",
+        "Mangalam AK",
+        "Regaldiz A",
+        "Gonzalez-Madrid E",
+        "Rangel-Ramirez MA",
+        "Alvarez-Mardonez O",
+        "Vallejos OP",
+        "Mendez C",
+        "Bueno SM",
+        "Melo-Gonzalez F",
+        "Duarte Y",
+        "Opazo MC",
+        "Kalergis AM",
+        "Riedel CA"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2023.1192216"
     },
     "mermans-2019-nsaids-gut-microbiome-chronic-inflammation": {
       "title": "Nonsteroidal Anti-Inflammatory Drugs as Therapeutic Allies of the Gut Microbiome on Chronic Inflammation",
@@ -62356,6 +63130,15 @@
       "journal": "Frontiers in Immunology",
       "doi": "10.3389/fimmu.2021.661493"
     },
+    "onofrijchuk-2025-ibs-rifaximin-autoimmune-thyroiditis-hypothyroidism": {
+      "title": "Efficiency of Management of Patients with Irritable Bowel Syndrome with Constipation and Autoimmune Thyroiditis with Hypothyroidism Using Rifaximin",
+      "authors": [
+        "Onofrijchuk YA"
+      ],
+      "year": 2025,
+      "journal": "International Journal of Endocrinology (Ukraine)",
+      "doi": "10.22141/2224-0721.21.2.2025.1502"
+    },
     "onyeneto-2015-trace-metals-fruit-juices-nigeria": {
       "title": "Trace Metals and Contaminants in Commercial Fruit Juices Sold in South Eastern States, Nigeria",
       "authors": [
@@ -62505,6 +63288,17 @@
       "journal": "Frontiers in Immunology",
       "doi": "10.3389/fimmu.2021.718220"
     },
+    "parrish-2025-blood-dna-virome-autoimmune-diseases": {
+      "title": "Blood DNA Virome Associates with Autoimmune Diseases and COVID-19",
+      "authors": [
+        "Parrish NF",
+        "Okada Y",
+        "et al."
+      ],
+      "year": 2025,
+      "journal": "Nature Genetics",
+      "doi": "10.1038/s41588-024-02022-z"
+    },
     "passeri-2024-recent-advances-therapeutics-alzheimers": {
       "title": "Recent Advances in Therapeutics for the Treatment of Alzheimer's Disease",
       "authors": [
@@ -62548,6 +63342,21 @@
       "year": 2019,
       "journal": "Cold Spring Harbor Perspectives in Medicine",
       "doi": "10.1101/cshperspect.a029058"
+    },
+    "pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian": {
+      "title": "Role of immune cells in mediating the effect of gut microbiota on Hashimoto's thyroiditis: a 2-sample Mendelian randomization study",
+      "authors": [
+        "Pei XQ",
+        "Wang WH",
+        "Gao YH",
+        "Zhang TX",
+        "Liu JY",
+        "Zhao ZD",
+        "Zhang HW"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2024.1463394"
     },
     "pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic": {
       "title": "Pendergrass 2025 — From Dysbiosis to Dyshomeostasis: Why Parkinson's Requires a Metallomic–Microbiome Lens",
@@ -62900,6 +63709,18 @@
       "journal": "Scientific Reports",
       "doi": "10.1038/s41598-017-11237-6"
     },
+    "puszkarz-2018-food-nutrition-hashimotos-prevention": {
+      "title": "Role of Food and Nutrition in Pathogenesis and Prevention of Hashimoto's Thyroiditis",
+      "authors": [
+        "Puszkarz I",
+        "Guty E",
+        "Stefaniak I",
+        "Bonarek A"
+      ],
+      "year": 2018,
+      "journal": "Journal of Education, Health and Sport",
+      "doi": "10.5281/zenodo.1320419"
+    },
     "qin-2020-smoking-dysmenorrhea-meta-analysis": {
       "title": "Association between cigarette smoking and the risk of dysmenorrhea: A meta-analysis of observational studies",
       "authors": [
@@ -63034,6 +63855,17 @@
       "year": 2022,
       "journal": "Frontiers in Cellular and Infection Microbiology",
       "doi": "10.3389/fcimb.2022.903570"
+    },
+    "ramezani-2023-synbiotic-hypothyroidism-rct": {
+      "title": "The Effect of Synbiotic Supplementation on Hypothyroidism: A Randomized Double-Blind Placebo Controlled Clinical Trial",
+      "authors": [
+        "Ramezani M",
+        "Reisian M",
+        "Sajadi Hezaveh Z"
+      ],
+      "year": 2023,
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0277213"
     },
     "rappaport-2018-exposome-environmental-exposure-disease": {
       "title": "Redefining environmental exposure for disease etiology",
@@ -63464,6 +64296,28 @@
       "journal": "Microorganisms",
       "doi": "None"
     },
+    "ruggeri-2021-dietary-habits-oxidative-stress-hashimotos": {
+      "title": "Influence of Dietary Habits on Oxidative Stress Markers in Hashimoto's Thyroiditis",
+      "authors": [
+        "Ruggeri RM",
+        "Giovinazzo S",
+        "Barbalace MC",
+        "Cristani M",
+        "Alibrandi A",
+        "Vicchio TM",
+        "Giuffrida G",
+        "Aguennouz MH",
+        "Malaguti M",
+        "Angeloni C",
+        "Trimarchi F",
+        "Hrelia S",
+        "Campenni A",
+        "Cannavo S"
+      ],
+      "year": 2021,
+      "journal": "Thyroid",
+      "doi": "10.1089/thy.2020.0299"
+    },
     "rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental": {
       "title": "Risk factors in autism spectrum disorders: the role of genetic, epigenetic, immune and environmental interactions",
       "authors": [
@@ -63725,6 +64579,22 @@
       "year": 2022,
       "journal": "World Journal of Clinical Cases",
       "doi": "10.12998/wjcc.v10.iXX.XXXX"
+    },
+    "sarandi-2025-metabolic-profile-hashimotos-methap": {
+      "title": "Identifying the metabolic profile of Hashimoto's thyroiditis from the METHAP clinical study",
+      "authors": [
+        "Sarandi E",
+        "Tsoukalas D",
+        "Rudofsky G",
+        "Liapi C",
+        "Paramera E",
+        "Papakonstantinou E",
+        "Krasagakis SK",
+        "Tsatsakis A"
+      ],
+      "year": 2025,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-025-89600-1"
     },
     "saresella-2017-diet-microbiome-immunology-ms": {
       "title": "Immunological and Clinical Effect of Diet Modulation of the Gut Microbiome in Multiple Sclerosis Patients: A Pilot Study",
@@ -64045,6 +64915,20 @@
       "journal": "Oncogene",
       "doi": "10.1038/s41388-022-02569-3"
     },
+    "shi-2024-gut-microbiota-hypothyroidism-mendelian-randomization": {
+      "title": "Cross-Talk Between the Gut Microbiota and Hypothyroidism: A Bidirectional Two-Sample Mendelian Randomization Study",
+      "authors": [
+        "Shi C",
+        "Chen J",
+        "He S",
+        "Zhang Y",
+        "Zhang Y",
+        "Yu L"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Nutrition",
+      "doi": "10.3389/fnut.2024.1286593"
+    },
     "shin-2023-chromium-toxicogenomics": {
       "title": "Adverse Human Health Effects of Chromium by Exposure Route: A Comprehensive Review Based on Toxicogenomic Approach",
       "authors": [
@@ -64080,6 +64964,21 @@
       "year": 2010,
       "journal": "The Open Nutraceuticals Journal",
       "doi": "10.2174/1876396001003010227"
+    },
+    "shu-2024-probiotics-prebiotics-thyroid-function-meta-analysis": {
+      "title": "Effect of Probiotics or Prebiotics on Thyroid Function: A Meta-Analysis of Eight Randomized Controlled Trials",
+      "authors": [
+        "Shu Q",
+        "Kang C",
+        "Li J",
+        "Hou Z",
+        "Xiong M",
+        "Wang X",
+        "Peng H"
+      ],
+      "year": 2024,
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0296733"
     },
     "siegmann-2020-graves-disease-depression-mechanistic": {
       "title": "Graves' disease as a driver of depression: a mechanistic insight",
@@ -64248,6 +65147,15 @@
       "journal": "Microbiome",
       "doi": "10.1186/s40168-020-0792-5"
     },
+    "somppi-2017-non-thyroidal-illness-dampness-microbiota-t3": {
+      "title": "Non-Thyroidal Illness Syndrome in Patients Exposed to Indoor Air Dampness Microbiota Treated Successfully with Triiodothyronine",
+      "authors": [
+        "Somppi TL"
+      ],
+      "year": 2017,
+      "journal": "Frontiers in Immunology",
+      "doi": "10.3389/fimmu.2017.00919"
+    },
     "song-2023-anti-pdl1-estradiol-mc38-colon-microbiome": {
       "title": "Anti-PD-L1 Antibody and/or 17beta-Estradiol Treatment Induces Changes in the Gut Microbiome in MC38 Colon Tumor Model",
       "authors": [
@@ -64262,6 +65170,22 @@
       "year": 2023,
       "journal": "Cancer Research and Treatment",
       "doi": "10.4143/crt.2022.1427"
+    },
+    "song-2023-graves-depression-mechanistic-insight": {
+      "title": "Graves' Disease as a Driver of Depression: A Mechanistic Insight",
+      "authors": [
+        "Song Y",
+        "Wang X",
+        "Ma W",
+        "Yang Y",
+        "Yan S",
+        "Sun J",
+        "Zhu X",
+        "Tang Y"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2023.1162445"
     },
     "song-2025-microbiome-targeted-therapies-nafld-meta-analysis": {
       "title": "The effect of gut microbiome-targeted therapies in nonalcoholic fatty liver disease: a systematic review and network meta-analysis",
@@ -64324,6 +65248,17 @@
         "Igor Spivak",
         "Leviel Fluhr",
         "Eran Elinav"
+      ],
+      "year": 2023,
+      "journal": "EMBO Reports",
+      "doi": "10.15252/embr.202255664"
+    },
+    "spivak-2023-microbiome-derived-metabolites-local-systemic-effects": {
+      "title": "Local and Systemic Effects of Microbiome-Derived Metabolites",
+      "authors": [
+        "Spivak I",
+        "Fluhr L",
+        "Elinav E"
       ],
       "year": 2023,
       "journal": "EMBO Reports",
@@ -64422,6 +65357,27 @@
       "year": 2017,
       "journal": "Microbiome",
       "doi": "10.1186/s40168-017-0242-1"
+    },
+    "street-2024-environmental-factors-thyroid-function": {
+      "title": "The impact of environmental factors and contaminants on thyroid function and disease from fetal to adult life: current evidence and future directions",
+      "authors": [
+        "Street ME",
+        "Shulhai A",
+        "Petraroli M",
+        "Patianna V",
+        "Giudice A",
+        "Gnocchi M",
+        "Masetti M",
+        "Montani AG",
+        "Rotondo R",
+        "Bernasconi S",
+        "Iughetti L",
+        "Esposito SM",
+        "Predieri B"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2024.1429884"
     },
     "su-2020-gut-microbiota-immune-imbalance-graves": {
       "title": "Alteration in gut microbiota is associated with immune imbalance in Graves' disease",
@@ -65477,6 +66433,38 @@
       "journal": "Food & Function",
       "doi": ""
     },
+    "virili-2024-thyroid-human-microbiota-systematic-review-reviews": {
+      "title": "The Relationship Between Thyroid and Human-Associated Microbiota: A Systematic Review of Reviews",
+      "authors": [
+        "Virili C",
+        "Stramazzo I",
+        "Bagaglini MF",
+        "Carretti AL",
+        "Capriello S",
+        "Romanelli F",
+        "Trimboli P",
+        "Centanni M"
+      ],
+      "year": 2024,
+      "journal": "Reviews in Endocrine and Metabolic Disorders",
+      "doi": "10.1007/s11154-023-09839-9"
+    },
+    "virili-2024-thyroid-microbiota-systematic-review": {
+      "title": "The relationship between thyroid and human-associated microbiota: A systematic review of reviews",
+      "authors": [
+        "Virili C",
+        "Stramazzo I",
+        "Bagaglini MF",
+        "Carretti AL",
+        "Capriello S",
+        "Romanelli F",
+        "Trimboli P",
+        "Centanni M"
+      ],
+      "year": 2024,
+      "journal": "Reviews in Endocrine and Metabolic Disorders",
+      "doi": "10.1007/s11154-023-09839-9"
+    },
     "virome-2022-parkinsons-gut-virome-phageome": {
       "title": "2022 -- Gut Virome and Phageome in Parkinson's Disease",
       "authors": [],
@@ -65754,6 +66742,16 @@
       "journal": "Brain Research Bulletin",
       "doi": "None"
     },
+    "wang-2025-gut-microbiome-thyroid-cancer-review": {
+      "title": "Gut Microbiome Versus Thyroid Cancer: Association and Clinical Implications (Review)",
+      "authors": [
+        "Wang M",
+        "Zhu Y"
+      ],
+      "year": 2025,
+      "journal": "Oncology Letters",
+      "doi": "10.3892/ol.2025.15114"
+    },
     "wang-2025-multi-omics-mr-gut-microbiota-optic-neuritis-vitamin-b6": {
       "title": "Multi-omics Mendelian Randomization Reveals Immunometabolic Signatures of the Gut Microbiota in Optic Neuritis and the Potential Therapeutic Role of Vitamin B6",
       "authors": [
@@ -65763,6 +66761,20 @@
       "year": 2025,
       "journal": "Molecular Neurobiology",
       "doi": "10.1007/s12035-025-04923-4"
+    },
+    "wang-2025-plasma-metabolomics-lipidomics-hashimotos": {
+      "title": "Integrated plasma metabolomics and lipidomics profiling highlight distinctive signatures with Hashimoto's thyroiditis",
+      "authors": [
+        "Wang G",
+        "Ye X",
+        "Lu T",
+        "Yang Y",
+        "Sun B",
+        "Xiao H"
+      ],
+      "year": 2025,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-025-07905-7"
     },
     "wang-2026-fecal-metabolomics-ms": {
       "title": "Research on Metabolic Characteristics of Multiple Sclerosis",
@@ -65856,6 +66868,21 @@
       "journal": "Frontiers in Neurology",
       "doi": "10.3389/fneur.2017.00577"
     },
+    "weider-2022-viruses-thyroid-tissue": {
+      "title": "High Prevalence of Common Human Viruses in Thyroid Tissue",
+      "authors": [
+        "Weider T",
+        "Genoni A",
+        "Broccolo F",
+        "Paulsen TH",
+        "Dahl-Jorgensen K",
+        "Toniolo A",
+        "Hammerstad SS"
+      ],
+      "year": 2022,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2022.938633"
+    },
     "weir-2013-stool-microbiome-metabolome-crc-healthy": {
       "title": "Stool Microbiome and Metabolome Differences between Colorectal Cancer Patients and Healthy Adults",
       "authors": [
@@ -65892,6 +66919,16 @@
       "year": 2022,
       "journal": "npj Parkinson's Disease",
       "doi": "10.1038/s41531-021-00213-7"
+    },
+    "wentz-2015-hashimotos-root-cause-lifestyle-interventions": {
+      "title": "Hashimoto's Thyroiditis: Lifestyle Interventions for Finding and Treating the Root Cause",
+      "authors": [
+        "Wentz I",
+        "Nowosadzka M"
+      ],
+      "year": 2015,
+      "journal": "Book (Self-published)",
+      "doi": ""
     },
     "west-2014-metabolomics-biomarkers-asd-blood-plasma": {
       "title": "West 2014 — Metabolomics as a Tool for Discovery of Biomarkers of Autism Spectrum Disorder in the Blood Plasma of Children",
@@ -66355,6 +67392,21 @@
       "journal": "Journal of the Formosan Medical Association",
       "doi": "10.1016/j.neuro.2023.04.013"
     },
+    "yang-2017-ketamine-gut-microbiota-brain-axis-antidepressant": {
+      "title": "Possible Role of the Gut Microbiota-Brain Axis in the Antidepressant Effects of (R)-Ketamine in a Social Defeat Stress Model",
+      "authors": [
+        "Yang C",
+        "Qu Y",
+        "Fujita Y",
+        "Ren Q",
+        "Ma M",
+        "Dong C",
+        "Hashimoto K"
+      ],
+      "year": 2017,
+      "journal": "Translational Psychiatry",
+      "doi": "10.1038/s41398-017-0031-4"
+    },
     "yang-2022-intestinal-flora-graves-methimazole": {
       "title": "Preliminary Observation of the Changes in the Intestinal Flora of Patients With Graves' Disease Before and After Methimazole Treatment",
       "authors": [
@@ -66409,6 +67461,22 @@
       "year": 2024,
       "journal": "Digestive Diseases and Sciences",
       "doi": "10.3389/fimmu.2023.1183914"
+    },
+    "yang-2025-tryptophan-metabolites-graves-orbitopathy": {
+      "title": "Tryptophan metabolites exert potential therapeutic activity in Graves' orbitopathy by ameliorating orbital fibroblasts inflammation and proliferation",
+      "authors": [
+        "Yang W",
+        "Xu X",
+        "Xie R",
+        "Lin J",
+        "Hou Z",
+        "Xin Z",
+        "Cao X",
+        "Shi T"
+      ],
+      "year": 2025,
+      "journal": "Journal of Endocrinological Investigation",
+      "doi": "10.1007/s40618-025-02593-6"
     },
     "yao-2018-compound-k-ginseng-inflammation-colon-cancer": {
       "title": "Effects of Compound K, an Enteric Microbiome Metabolite of Ginseng, in the Treatment of Inflammation Associated Colon Cancer",
@@ -67023,6 +68091,21 @@
       "journal": "Journal of Translational Medicine",
       "doi": "10.1186/s12967-025-06404-7"
     },
+    "zhang-2025-tryptophan-metabolism-hashimotos": {
+      "title": "Dysregulated tryptophan metabolism: driving T cell subsets and PI3K-Akt pathway alterations in Hashimoto's thyroiditis",
+      "authors": [
+        "Zhang L",
+        "Zhou X",
+        "Cheng T",
+        "Wang Q",
+        "Pei X",
+        "Yu L",
+        "Jin G"
+      ],
+      "year": 2025,
+      "journal": "Frontiers in Immunology",
+      "doi": "10.3389/fimmu.2025.1605739"
+    },
     "zhang-2026-metagenomic-gut-microbiome-diabetes-mi": {
       "title": "A metagenomic study of the gut microbiome in patients with type 2 diabetes mellitus and myocardial infarction",
       "authors": [
@@ -67046,6 +68129,34 @@
       "year": 2021,
       "journal": "Frontiers in Genetics",
       "doi": "10.3389/fgene.2021.787176"
+    },
+    "zhao-2022-gut-microbiota-graves-disease-hashimotos": {
+      "title": "Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis",
+      "authors": [
+        "Zhao H",
+        "Yuan L",
+        "Zhu D",
+        "Sun B",
+        "Du J",
+        "Wang J"
+      ],
+      "year": 2022,
+      "journal": "Polish Journal of Microbiology",
+      "doi": "10.33073/pjm-2022-016"
+    },
+    "zhao-2022-gut-microbiota-graves-hashimotos": {
+      "title": "Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis",
+      "authors": [
+        "Zhao H",
+        "Yuan L",
+        "Zhu D",
+        "Sun B",
+        "Du J",
+        "Wang J"
+      ],
+      "year": 2022,
+      "journal": "Polish Journal of Microbiology",
+      "doi": "10.33073/pjm-2022-016"
     },
     "zhao-2022-high-fiber-diet-myocardial-infarction-microbiota": {
       "title": "High fiber diet attenuate the inflammation and adverse remodeling of myocardial infarction via modulation of gut microbiota and metabolites",
@@ -67094,6 +68205,26 @@
       "year": 2023,
       "journal": "npj Parkinson's Disease",
       "doi": "10.1038/s41531-022-00327-6"
+    },
+    "zhao-2025-comorbidity-patterns-hashimotos": {
+      "title": "An Investigation of the Pattern and Mechanism of Comorbidity in Patients with Hashimoto's Thyroiditis",
+      "authors": [
+        "Zhao C",
+        "Xiong H",
+        "Zhu L",
+        "Adali A",
+        "Yu W",
+        "Tan S",
+        "Wang S",
+        "Zhao C",
+        "Lin Y",
+        "Wei Z",
+        "Huang H",
+        "Peng X"
+      ],
+      "year": 2025,
+      "journal": "Frontiers in Endocrinology",
+      "doi": "10.3389/fendo.2025.1615095"
     },
     "zhen-2023-tmao-cardiovascular-diseases-review": {
       "title": "The gut microbial metabolite trimethylamine N-oxide and cardiovascular diseases",
@@ -67266,6 +68397,19 @@
       "year": 2023,
       "journal": "Frontiers in Microbiology",
       "doi": "10.3389/fmicb.2023.1272479"
+    },
+    "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos": {
+      "title": "Intestinal microbiota regulates the gut-thyroid axis: the new dawn of improving Hashimoto thyroiditis",
+      "authors": [
+        "Zhu X",
+        "Zhang C",
+        "Feng S",
+        "He R",
+        "Zhang S"
+      ],
+      "year": 2024,
+      "journal": "Clinical and Experimental Medicine",
+      "doi": "10.1007/s10238-024-01304-4"
     },
     "zhu-2024-toxic-essential-metals-gut-microbiota": {
       "title": "Toxic and Essential Metals: Metabolic Interactions with the Gut Microbiota and Health Implications",
