@@ -33,3 +33,4 @@ doi: "10.1371/journal.pone.0212406"
 - Early-stage (intramucosal) CRC profiling complements [[microbiome-and-disease-progression]] from adenoma to carcinoma
 - Colonoscopy aspirate methodology provides alternative to stool and tissue approaches reviewed in [[osman-2018-16s-rrna-crc-protocols-workflows]]
 - *Peptostreptococcus* and *Parvimonas* enrichment in CRC aligns with [[microbial-biomarkers]] panels
+- [[colorectal-cancer]]

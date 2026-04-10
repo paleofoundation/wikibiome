@@ -38,3 +38,4 @@ doi: "10.3389/fmolb.2023.1218497"
 - Metabolomics approaches complement microbiome profiling in [[gut-metal-microbiome|gut microbiome and metal exposure]] studies
 - Biomarker discovery relevant to [[li-2019-heavy-metal-metabolic-health-gut-microbiome]] metabolic health findings
 - Methodological framework applicable to the multi-omics approaches reviewed in [[phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]]
+- [[cardiovascular-disease]]

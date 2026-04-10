@@ -32,7 +32,7 @@ doi: "10.1038/srep37344"
 
 - Demonstrates that [[brain-microbiota]] may directly contribute to MS pathogenesis beyond the [[gut-brain-axis]] paradigm
 - The [[NF-kB]] pathway activation by bacterial PGN connects to inflammatory cascades also modulated by [[probiotics]] in [[tamtaji-2017-probiotic-gene-expression-ms]]
-- Proteobacteria dominance in MS brain tissue complements gut studies showing Proteobacteria shifts in [[jangi-2016-gut-microbiome-ms]] and [[miyake-2015-dysbiosis-clostridia-ms]]
+- Proteobacteria dominance in MS brain tissue complements gut studies showing Proteobacteria shifts in [[jangi-2016-gut-microbiome-alterations-ms]] and [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - The finding of bacterial components in demyelinating lesions is relevant to [[molecular-mimicry]] hypotheses and [[microbiome-targeted-therapy]]
 - PGN as a PAMP (pathogen-associated molecular pattern) activating innate immunity links to [[RIPK2]] and [[NOD2]]/NLRP3 inflammasome pathways
 - Suggests that [[minocycline]] and other CNS-penetrating antibiotics may have therapeutic relevance through reducing brain bacterial burden

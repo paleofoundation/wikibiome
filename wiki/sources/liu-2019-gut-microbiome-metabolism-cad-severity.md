@@ -41,3 +41,4 @@ Multi-omic study of 161 CAD patients (44 SCAD, 80 UA, 37 MI) and 40 controls com
 2. **Taurine metabolism disruption** - Taurine/hypotaurine pathway alterations link to [[selenium]]-dependent antioxidant pathways and [[oxidative-stress]]
 3. **Sphingolipid changes** - Altered sphingolipid metabolism connects [[dysbiosis]] to [[metabolic-syndrome]] progression
 4. **Multi-omic diagnostic potential** - Integration of microbiome and metabolomics could detect metal-induced CVD risk earlier
+- [[cardiovascular-disease]]

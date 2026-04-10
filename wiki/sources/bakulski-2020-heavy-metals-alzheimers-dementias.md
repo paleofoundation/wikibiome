@@ -58,3 +58,4 @@ doi: "10.3233/JAD-200282"
 - Supports need for mixed-exposure studies discussed in [[althomali-2024-heavy-metals-neurocognitive-systematic-review]]
 - Links to [[cadmium]] exposure from smoking and diet
 - Relevant to [[manganese]] neurotoxicity distinct from AD patterns
+- [[cardiovascular-disease]]

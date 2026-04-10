@@ -21,7 +21,7 @@ Randomized, placebo-controlled, double-blind study in 40 treatment-naive T2D ind
 ### Metformin-Induced Microbiome Changes
 - Only one bacterial strain altered over 4-month placebo period vs. significant alterations with metformin
 - 2 months of metformin: 81 bacterial strains significantly altered; 4 months: 86 strains
-- Increased *Escherichia coli* and decreased *Intestinibacter* at genus level
+- Increased *Escherichia coli* and decreased *[[intestinibacter|Intestinibacter]]* at genus level
 - Metformin-induced increase in *Bifidobacterium adolescentis* (peak-to-trough ratio significantly increased)
 - *A. muciniphila* increased in both DNA and RNA abundance in response to metformin
 

@@ -33,3 +33,4 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, systematic-review, Ascomycota
 - *Malassezia* enrichment in cancer relates to [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]] pan-cancer analysis
 - *Candida* and *Aspergillus* findings consistent with [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]] Chinese cohort data
 - ITS vs. metagenomics comparison relates to [[contreras-2016-host-microbiome-cancer-precision-medicine]] sequencing platform review
+- [[colorectal-cancer]]

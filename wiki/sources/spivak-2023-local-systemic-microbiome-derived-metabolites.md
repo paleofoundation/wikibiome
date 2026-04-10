@@ -47,3 +47,7 @@ Comprehensive review from the Weizmann Institute examining the differential role
 ## Relevance to the Wiki
 
 Provides a systems-level framework for understanding how [[microbiome-derived-metabolites]] act both locally and systemically across organ systems including the cardiovascular system. The metabolite classification table is a valuable reference connecting specific metabolites to disease contexts. Extends the CVD-specific metabolite coverage from [[wang-2022-gut-microbiota-health-cvd-review]] to a broader multi-organ perspective.
+
+## Connections
+
+- [[cardiovascular-disease]]

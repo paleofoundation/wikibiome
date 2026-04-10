@@ -33,3 +33,4 @@ doi: "10.1136/gutjnl-2023-331587"
 - Complements [[Serrano Fernandez et al. 2023|serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis]] and [[Abreu et al. 2024|abreu-2024-high-fiber-low-fat-diet-crohns]]
 - Olive oil and fish oil components relevant to [[inflammation]] modulation
 - CD-specificity of protection mirrors disease-specific microbiome differences between CD and UC
+- [[crohns-disease]]

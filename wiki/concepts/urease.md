@@ -92,10 +92,10 @@ Critically, only **2-25% of H. pylori urease is actually nickel-activated**. The
 - *C. neoformans* causes cryptococcal meningitis -- a leading killer of HIV/AIDS patients.
 - **C. gattii** and **Coccidioides posadasii** also depend on Ni-urease (pulmonary infection severity for the latter).
 
-### Brucella species -- Intestinal colonization
+### [[brucella|*Brucella*]] species -- Intestinal colonization
 
 - Urease enables survival during gastrointestinal passage and intestinal colonization.
-- **Immunization with urease protects against Brucella infection** -- direct evidence that urease is a targetable virulence factor and a viable vaccine antigen.
+- **Immunization with urease protects against [[brucella|*Brucella*]] infection** -- direct evidence that urease is a targetable virulence factor and a viable vaccine antigen.
 
 ### Klebsiella pneumoniae -- GI stress resistance
 

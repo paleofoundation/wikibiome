@@ -45,6 +45,10 @@ Animal study investigating how inhaled diesel exhaust particles (DEP) alter the 
 - Probiotics mitigated circulating cytokines (IL-3, IL-13, G-CSF, RANTES, TNF-alpha)
 - Probiotics mitigated CVD biomarker alterations (sICAM, PAI-1, sP-Selectin, thrombomodulin, PECAM)
 
+## Connections
+
+- [[cardiovascular-disease]]
+
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Environmental exposure-microbiome-CVD pathway** - Demonstrates a complete pathway from inhaled pollutant exposure through gut [[dysbiosis]] to systemic [[inflammation]] and CVD biomarker alteration, paralleling [[lead]] and [[cadmium]] exposure pathways

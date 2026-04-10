@@ -21,7 +21,7 @@ This review examines the role of [[probiotics]] in managing autoimmune CNS disor
 ### Probiotics Mechanisms in Autoimmune CNS Disorders
 - Probiotics influence immune function by activating signaling pathways that increase anti-inflammatory cytokines and growth factors
 - Facilitate Treg differentiation and engage with the [[gut-brain-axis]] through endocrine regulation
-- Bacterial (*Bacillus*, *Streptococcus*, *Lactobacillus*, *Enterococcus*, *Pediococcus*) and fungal (*Saccharomyces cerevisiae*, *Kluyveromyces*) probiotic sources are reviewed
+- Bacterial (*[[bacillus|Bacillus]]*, *Streptococcus*, *Lactobacillus*, *Enterococcus*, *Pediococcus*) and fungal (*Saccharomyces cerevisiae*, *Kluyveromyces*) probiotic sources are reviewed
 
 ### Nanotechnology for Probiotic Delivery
 - Clinical effectiveness of probiotics is limited by viability loss during GI transit

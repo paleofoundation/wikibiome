@@ -33,3 +33,4 @@ doi: "10.3389/fcimb.2023.1159822"
 - Oral-fecal microbiome axis connects to diagnostic approaches in [[rezasoltani-2024-16s-oral-fecal-microbiota-crc-iran]]
 - *F. nucleatum* as a prognostic and therapeutic target relates to [[choi-2021-microbiome-prognosis-crc-16s]] and [[microbiome-modulating-drugs]]
 - Biofilm discussion connects to findings on biofilm prevalence in [[loke-2018-metabolomics-16s-crc-mucosa]]
+- [[colorectal-cancer]]

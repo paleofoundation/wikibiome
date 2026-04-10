@@ -35,3 +35,4 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, dysbiosis, Fusobac
 - [[dysbiosis]] -- CRC-associated dysbiosis is characterized by consistent depletion of normal microbiota (Clostridiales) and enrichment of oral pathogens
 - [[metal-carcinogenesis]] -- environmental factors including metals may contribute to the microbiome shifts enabling CRC progression
 - [[oxidative-stress]] -- oral pathogen enrichment in tumor microenvironment promotes chronic inflammatory signaling
+- [[colorectal-cancer]]

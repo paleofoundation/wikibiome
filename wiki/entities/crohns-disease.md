@@ -174,3 +174,7 @@ Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 month
 - Can hepcidin-guided iron management (IV iron when hepcidin is low, treat inflammation when hepcidin is high) become standard of care?
 - Does prenatal cadmium/lead screening predict later IBD risk, given lasting microbiome effects?
 - Would combined E. coli Nissle 1917 (siderophore competition) plus targeted prebiotics (F. prausnitzii restoration) represent an optimal two-sided ecological intervention?
+
+## Connections
+
+- [[metal-disease-matrix]]

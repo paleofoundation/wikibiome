@@ -36,3 +36,4 @@ doi: "10.1186/s13073-014-0107-1"
 - Complements [[Yang et al. 2024|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]] on SLC39A8/ZIP8 as another microbiome quantitative trait locus
 - IL12B associations with Desulfovibrionaceae relevant to sulfate-reducing bacteria and [[iron]] metabolism in the gut
 - [[gut-metal-microbiome]] implications through metal-dependent innate immune mechanisms (defensins, calprotectin)
+- [[crohns-disease]]

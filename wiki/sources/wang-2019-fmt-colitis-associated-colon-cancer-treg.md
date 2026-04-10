@@ -36,3 +36,4 @@ tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colitis-associated-c
 - NF-kB inhibition parallels [[Zhu 2022 - Berberine UC Cancer Therapy]] berberine's NF-kB pathway suppression
 - Colitis-to-cancer progression model relevant to [[Simin 2020 - Antibiotic Use CRC Risk]] discussion of inflammation as CRC driver
 - The CAC model (AOM/DSS) is the same used across multiple studies in this batch, enabling direct comparison
+- [[colorectal-cancer]]

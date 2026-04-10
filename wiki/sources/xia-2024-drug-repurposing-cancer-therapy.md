@@ -37,3 +37,4 @@ tags: [colon-cancer, drug-repurposing, cancer-therapy, hallmarks-of-cancer, cell
 - Organoid screening platforms applicable to testing microbiome-targeted therapies discussed in [[Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]]
 - Ferroptosis and cell death pathways connect to iron-dependent mechanisms discussed in broader cancer metabolism literature
 - Disulfiram for CRC connects to [[Simon-Soro 2021 - Thonzonium Bromide Oral-Gut Microbiomes]] concept of repurposed antimicrobials affecting microbiome
+- [[colorectal-cancer]]

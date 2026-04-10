@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, PD-1, immunotherapy, MSS-type, CT26, gut
 - *Akkermansia* role in immunotherapy connects to [[gao-2026-ketogenic-diet-fxr-nfkb-crc]] and [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]]
 - MSS-type CRC immunotherapy challenge relates to [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] comprehensive review
 - Metabolic pathway mechanism extends [[cao-2025-metabolic-interactions-microbial-metabolites-crc]] metabolite coverage
+- [[colorectal-cancer]]

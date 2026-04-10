@@ -37,3 +37,4 @@ doi: "10.1002/ncp.10489"
 - Links to [[iron]] and [[zinc]] through antibiotic effects on metal-handling commensals
 - FMT as microbiome reset connects to [[gut-metal-microbiome]] restoration
 - Complements [[Haag & Siegmund 2015|haag-2015-intestinal-microbiota-innate-immunity-crohns]] on mechanistic basis
+- [[crohns-disease]]

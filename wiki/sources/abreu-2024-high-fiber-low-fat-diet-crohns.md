@@ -34,3 +34,4 @@ doi: "10.1101/2024.08.30.24312853"
 - Low-fat component reduces TLR4 activation by saturated fatty acids, decreasing [[inflammation]]
 - Relevant to [[gut-metal-microbiome]] through fiber's effect on mineral binding and bioavailability
 - Oxidative stress marker improvements connect to [[ferroptosis]] pathway modulation
+- [[crohns-disease]]

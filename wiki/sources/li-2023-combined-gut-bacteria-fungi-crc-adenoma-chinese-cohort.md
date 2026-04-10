@@ -36,3 +36,4 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, fungal-dysbiosis, bacteria-fu
 - [[gut-metal-microbiome]] -- bacterial-fungal antagonistic interactions may be disrupted by environmental exposures including heavy metals
 - [[oxidative-stress]] -- *Fusobacterium nucleatum* enrichment promotes inflammatory and oxidative tumor microenvironment
 - [[cadmium]] -- heavy metal exposure may differentially affect bacterial vs fungal communities, disrupting cross-kingdom balance
+- [[colorectal-cancer]]

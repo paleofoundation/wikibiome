@@ -13,7 +13,7 @@ tags: [colon-cancer, Mediterranean-diet, bile-acids, gut-microbiome, weight-loss
 
 - This is the first randomized controlled trial to examine effects of [[Mediterranean diet]], weight loss, or both on [[bile acid]] metabolism, the [[gut microbiome]], and intestinal epithelial markers associated with carcinogenesis in CRC
 - African American/Black (AA/B) populations have the second highest CRC incidence and mortality in the USA, linked to higher obesity rates, lower fiber consumption, and higher saturated fat/animal protein intake
-- The bile acid-gut microbiome axis is a key unexplored mechanism: high saturated fat, low fiber diets, and obesity promote tumor-promoting secondary bile acids (DCA, deoxycholic acid) via Bilophila wadsworthia and Clostridium scindens
+- The bile acid-gut microbiome axis is a key unexplored mechanism: high saturated fat, low fiber diets, and obesity promote tumor-promoting secondary bile acids (DCA, deoxycholic acid) via [[bilophila|*Bilophila wadsworthia*]] and Clostridium scindens
 - B. wadsworthia is significantly more abundant in uninvolved mucosa of CRC cases vs controls among AA/Bs but not non-Hispanic Whites; H2S produced by B. wadsworthia dampens butyrate production
 - Mediterranean diet may reduce CRC risk by decreasing DCA production, increasing butyrate-producing bacteria, and reducing fecal DCA levels via modulation of bile acid conjugation patterns
 
@@ -35,3 +35,4 @@ tags: [colon-cancer, Mediterranean-diet, bile-acids, gut-microbiome, weight-loss
 - B. wadsworthia and C. scindens as CRC-relevant bacteria connect to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] microbiome biomarker research
 - SCFA/butyrate outcomes connect to [[Rafter 2004 - Probiotics Colon Cancer Development]] and [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] butyrate-Treg mechanisms
 - Health disparities focus provides unique equity lens applicable to all microbiome-CRC intervention research
+- [[colorectal-cancer]]

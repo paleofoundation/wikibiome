@@ -16,7 +16,7 @@ tags: [graves-disease, thyroid, autoimmune, berberine, methimazole, gut-microbio
 
 - [[Berberine]] combined with [[methimazole]] (MI) is more effective than methimazole alone in treating [[Graves' disease]], significantly improving thyroid function and restoring TSH, FT3, and FT3 to healthy thresholds by 6 months
 - Methimazole alone restored only FT3 and failed to modulate the gut microbiota, while berberine addition significantly altered microbiota structure
-- Berberine supplementation increased beneficial bacteria [[Lactococcus lactis]] and [[Enterococcus hirae]] while decreasing pathogenic [[Enterobacter hormaechei]] and [[Chryseobacterium indologenes]]
+- Berberine supplementation increased beneficial bacteria [[lactococcus|*Lactococcus lactis*]] and [[Enterococcus hirae]] while decreasing pathogenic [[Enterobacter hormaechei]] and [[Chryseobacterium indologenes]]
 - Berberine resulted in significant upregulation of [[enterobactin]] biosynthesis, which is essential for [[iron]] uptake and may help improve thyroid function given iron's role in thyroid hormone synthesis
 - [[Faecalibacterium prausnitzii]] and Lactococcus lactis were negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH, indicating their role in thyroid homeostasis
 - The combination provides evidence for effectiveness of integrating Chinese and Western medicine via gut microbiota modulation

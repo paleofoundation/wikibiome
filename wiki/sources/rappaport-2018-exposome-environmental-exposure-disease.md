@@ -42,3 +42,4 @@ Perspectives article outlining how environmental exposure can be defined by the 
 2. **Blood as integration site** - Blood captures both exogenous metal exposures and endogenous microbiome metabolites, making it ideal for studying the [[gut-metal-microbiome]] axis
 3. **Multi-pollutant approach** - Figures show how heavy metals (Pb, As, Cd, Hg) lead to [[oxidative-stress]] and [[inflammation]] as markers of effect, with downstream CVD outcomes
 4. **Microbiome as endogenous exposure** - Microbial metabolites are part of the exposome, linking [[dysbiosis]] to disease through the same framework as chemical exposures
+- [[cardiovascular-disease]]

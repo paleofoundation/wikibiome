@@ -30,7 +30,7 @@ doi: "10.1371/journal.pone.0260384"
 
 ## Connections
 
-- Complements gut microbiome studies like [[miyake-2015-dysbiosis-clostridia-ms]] and [[jangi-2016-gut-microbiome-ms]] by extending dysbiosis analysis to the oral cavity
+- Complements gut microbiome studies like [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and [[jangi-2016-gut-microbiome-alterations-ms]] by extending dysbiosis analysis to the oral cavity
 - The finding that [[Prevotella]] is elevated in MS oral microbiota contrasts with gut studies showing decreased Prevotella in MS, suggesting site-specific microbiome differences
 - The protective role of [[Lactobacillus]] aligns with findings in [[tamtaji-2017-probiotic-gene-expression-ms]] and [[tankou-2018-probiotic-microbiome-ms]] regarding probiotic Lactobacillus supplementation benefits
 - Connects to the broader [[oral-microbiome]] and [[gut-brain-axis]] relationship in autoimmune neurological disease

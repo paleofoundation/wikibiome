@@ -33,3 +33,4 @@ tags: [colon-cancer, gut-microbiome, radiotherapy, immunotherapy, FMT, colorecta
 - dMMR vs pMMR microbiome signatures connect to [[Liu 2021 - ARGs Colorectal Cancer Microbiome]] species-level analysis
 - Dysbiosis mechanisms parallel [[Yu 2023 - FMT Inhibits CRC Progression]] and [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] experimental findings
 - F. nucleatum and B. fragilis pathogenesis discussed here directly relevant to [[Metz 2019 - Drug Discovery BFT Inhibition]] drug targeting
+- [[colorectal-cancer]]

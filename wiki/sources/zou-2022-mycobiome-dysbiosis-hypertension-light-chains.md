@@ -42,3 +42,4 @@ Original research examining the gut mycobiome in 38 pre-hypertension (pre-HTN), 
 2. **[[Inflammation]] via immunoglobulin** - Light chain dysregulation connecting to fungal dysbiosis provides a novel immune mechanism linking [[dysbiosis]] to hypertension
 3. ***Malassezia* as pathobiont** - Known to produce inflammatory lipases and activate immune cells; its enrichment in hypertension may compound [[lead]] and [[cadmium]]-driven [[inflammation]]
 4. ***Mortierella* depletion** - Loss of this potentially protective fungus parallels loss of protective bacterial taxa with metal exposure
+- [[cardiovascular-disease]]

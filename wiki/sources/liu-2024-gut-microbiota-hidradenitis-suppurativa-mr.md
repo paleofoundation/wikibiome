@@ -32,3 +32,4 @@ doi: "10.3389/fmicb.2024.1302822"
 - SCFA depletion theme consistent with [[faecalibacterium-prausnitzii]] loss in CD
 - Relevant to understanding extraintestinal manifestations of IBD
 - Complements [[Lu et al. 2024|lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]] on IBD-associated conditions
+- [[crohns-disease]]

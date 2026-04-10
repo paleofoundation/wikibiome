@@ -33,3 +33,4 @@ doi: "10.3389/fnut.2021.718389"
 - SCFA production from dietary fiber relates to [[short-chain-fatty-acids]] and [[microbiome-derived-metabolites]] in CRC prevention
 - Polyphenol prebiotic effects connect to [[microbiome-modulating-drugs]] therapeutic approaches
 - Red meat/heme iron mechanisms connect to environmental factors in CRC risk discussed in [[wolin-2009-physical-activity-colon-cancer-meta-analysis]]
+- [[colorectal-cancer]]

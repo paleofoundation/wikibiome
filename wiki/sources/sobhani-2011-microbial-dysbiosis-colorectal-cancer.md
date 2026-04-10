@@ -35,3 +35,4 @@ tags: [colon-cancer, colorectal-cancer, dysbiosis, microbiome, Bacteroides, Prev
 - [[dysbiosis]] -- first large-series demonstration of compositional change in colon cancer microbiota with possible impact on mucosal immune response
 - [[metal-carcinogenesis]] -- environmental factors including diet and pollutants contribute to CRC-associated dysbiosis
 - [[oxidative-stress]] -- IL-17 overexpression in mucosa linked to inflammatory/oxidative tumor microenvironment
+- [[colorectal-cancer]]

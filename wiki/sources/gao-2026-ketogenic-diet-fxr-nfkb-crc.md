@@ -33,3 +33,4 @@ tags: [colon-cancer, colorectal-cancer, ketogenic-diet, bile-acids, FXR, NF-kB, 
 - FXR pathway relates to [[cao-2025-metabolic-interactions-microbial-metabolites-crc]] bile acid coverage
 - *Akkermansia* enrichment parallels findings in [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]]
 - NF-kB modulation connects to [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]] anti-inflammatory signaling
+- [[colorectal-cancer]]

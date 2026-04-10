@@ -34,3 +34,4 @@ doi: "10.3389/fmicb.2019.03117"
 - KEGG pathway-level analysis connects to [[metabolic-pathways]] in CRC microbiome research
 - Adenoma-to-carcinoma progression tracking relates to [[microbiome-and-disease-progression]]
 - Cross-study bacterial genera compilation (Table 2) validates [[microbial-biomarkers]] consistency across populations
+- [[colorectal-cancer]]

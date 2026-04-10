@@ -35,3 +35,4 @@ doi: "10.3390/nu15143114"
 - Complements [[Abreu et al. 2024|abreu-2024-high-fiber-low-fat-diet-crohns]] clinical trial evidence
 - Fiber's mineral-binding properties relevant to [[iron]], [[zinc]], and [[copper]] bioavailability in the gut
 - Challenges prevailing clinical practice of fiber restriction in CD management
+- [[crohns-disease]]

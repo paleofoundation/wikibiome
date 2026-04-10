@@ -36,3 +36,4 @@ doi: "10.3389/fmicb.2018.00767"
 - The primer selection and hypervariable region choices discussed here directly affect comparability with [[shotgun-metagenomics]] approaches
 - CRC-associated taxa identified in this review overlap substantially with [[microbial-biomarkers]] reported in later meta-analyses
 - The emphasis on *F. nucleatum* as a key CRC pathogen connects to virulence factor discussions in [[kudra-2023-oral-microbiome-crc-perspectives]]
+- [[colorectal-cancer]]

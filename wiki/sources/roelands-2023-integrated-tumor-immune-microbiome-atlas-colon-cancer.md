@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, multi-omics, immun
 - [[dysbiosis]] -- tumor microbiome composition correlates with immune infiltration and clinical outcomes in colon cancer
 - [[oxidative-stress]] -- immune-stroma infiltration and reactive oxygen species production linked to microbiome-immune crosstalk
 - [[metal-carcinogenesis]] -- mutational burden and somatic alterations interact with microbiome composition in tumor evolution
+- [[colorectal-cancer]]

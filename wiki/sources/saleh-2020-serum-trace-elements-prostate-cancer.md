@@ -40,3 +40,4 @@ doi: "10.1111/gwao.12766"
 - [[manganese]] decrease may impair Mn-SOD (SOD2) antioxidant activity, reducing protection against mitochondrial superoxide
 - The Cu/Zn ratio imbalance connects to similar findings in colorectal, breast, and other cancers, reinforcing its potential as a pan-cancer biomarker
 - Results support the broader paradigm that essential metal dyshomeostasis in cancer involves simultaneous Cu accumulation and Zn/Se depletion
+- [[colorectal-cancer]]

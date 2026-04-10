@@ -42,6 +42,7 @@ doi: "10.1016/j.fct.2020.111813"
 - [[Cardiovascular Disease]] - endothelial damage, atherosclerosis promotion
 - [[Cancer]] - epigenetic carcinogenesis mechanism; prostate and kidney cancers
 - [[oxidative-stress|oxidative stress]] - ROS generation via mitochondrial dysfunction
+- [[cardiovascular-disease]]
 - [[blood-brain-barrier]] - Cd and Pb disrupt BBB integrity
 - [[lead]] - co-mentioned in BBB disruption context
 - [[nickel]] - Cd used in Ni-Cd batteries; industrial co-exposure

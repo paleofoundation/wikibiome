@@ -33,3 +33,4 @@ doi: "10.1038/s41467-021-23265-y"
 - Cross-population validation strengthens evidence for universal [[microbial-biomarkers]] panels summarized in [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]]
 - Functional pathway changes (ADP-heptose, menaquinone) connect to [[metabolic-pathways]] and [[microbiome-derived-metabolites]]
 - *Parvimonas micra* consistency across populations aligns with [[bars-cortina-2024-16s-vs-shotgun-crc]] findings
+- [[colorectal-cancer]]

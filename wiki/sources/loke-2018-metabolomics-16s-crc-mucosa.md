@@ -35,3 +35,4 @@ doi: "10.1371/journal.pone.0208584"
 - SAH elevation in tumors relates to epigenetic methylation changes relevant to [[metabolic-pathways]] in CRC
 - Paired tissue approach complements stool-based studies like [[bars-cortina-2024-16s-vs-shotgun-crc]] and [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]]
 - Biofilm prevalence differences by tumor sidedness connect to [[microbiome-composition]] variations between right- and left-sided CRC as explored in [[suga-2022-gut-microbiota-sided-crc-colectomy]]
+- [[colorectal-cancer]]

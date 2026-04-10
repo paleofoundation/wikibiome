@@ -35,3 +35,4 @@ doi: "10.1186/s12864-024-10621-7"
 - The COLSCREEN cohort data complements population-based screening approaches using [[microbial-biomarkers]]
 - *Parvimonas micra* detection by both methods reinforces its role as a consistent CRC biomarker across methodologies
 - ML classification approaches connect to diagnostic [[microbial-biomarkers]] panel development efforts
+- [[colorectal-cancer]]

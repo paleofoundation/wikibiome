@@ -37,3 +37,4 @@ tags: [colon-cancer, dietary-fiber, fecal-weight, NSP, transit-time, epidemiolog
 - Transit time findings relevant to [[Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] discussion of dietary fat transit effects
 - Stool weight as a biomarker connects to [[prebiotics]] research on increasing fecal bulk
 - The Burkitt hypothesis (high-fiber diets protect against colon cancer) frames much of the subsequent [[Mediterranean diet]] and [[probiotics]] research in CRC prevention
+- [[colorectal-cancer]]

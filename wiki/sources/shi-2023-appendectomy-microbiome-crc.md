@@ -34,3 +34,4 @@ doi: "10.1038/s41388-022-02569-3"
 - *B. fragilis* centrality supports its pathogenic role found in [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] and [[choi-2021-microbiome-prognosis-crc-16s]]
 - Intestinal barrier dysfunction connects to [[microbiome-and-inflammation]] and [[microbiome-host-interactions]]
 - Metagenomic functional pathway changes relate to [[metabolic-pathways]] in CRC development
+- [[colorectal-cancer]]

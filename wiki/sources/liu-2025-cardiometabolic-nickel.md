@@ -78,3 +78,4 @@ Eight studies used this same database with different designs and reached varying
 - [[oxidative-stress]] as shared mechanism with [[arsenic]] and [[chromium]] carcinogenicity
 - [[metabolic-syndrome]] as an endpoint
 - [[NHANES]] as primary epidemiological data source
+- [[cardiovascular-disease]]

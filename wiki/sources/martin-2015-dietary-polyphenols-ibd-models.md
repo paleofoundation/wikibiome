@@ -35,3 +35,4 @@ doi: "10.1039/c5fo00202h"
 - Oxidative stress reduction relevant to [[ferroptosis]] and [[iron]]-mediated tissue damage
 - Microbiota-dependent metabolism links to [[gut-metal-microbiome]] through shared biotransformation pathways
 - Metal-chelating properties of polyphenols (especially catechins) relevant to [[iron]], [[copper]], and [[zinc]] bioavailability
+- [[crohns-disease]]

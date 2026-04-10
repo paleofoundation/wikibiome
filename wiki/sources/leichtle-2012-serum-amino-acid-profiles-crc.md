@@ -33,3 +33,4 @@ tags: [colon-cancer, amino-acids, metabolomics, biomarkers, serum-profiling, mas
 - Glycine and tyrosine alterations connect to [[Lieu 2020 - Amino Acids in Cancer]] review of amino acid metabolism reprogramming in tumors
 - Metabolomics approach parallels [[gut microbiota]] metabolite profiling research for CRC biomarker discovery
 - CEA limitations discussed here relevant to rationale for microbiome-based [[biomarkers]] in CRC
+- [[colorectal-cancer]]

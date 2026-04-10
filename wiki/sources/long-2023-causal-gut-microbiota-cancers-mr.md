@@ -34,3 +34,4 @@ doi: "10.1186/s12916-023-02761-6"
 - *Verrucomicrobia* association with CRC connects to *Akkermansia* findings in [[rezasoltani-2024-16s-oral-fecal-microbiota-crc-iran]]
 - Bidirectional causality supports the concept of cancer-microbiome feedback loops discussed in [[microbiome-and-disease-progression]]
 - Methodological approach parallels [[devos-2012-intestinal-microbiome-health-disease-causation]] causation framework
+- [[colorectal-cancer]]

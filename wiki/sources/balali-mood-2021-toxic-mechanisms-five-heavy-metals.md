@@ -45,6 +45,7 @@ doi: "10.3389/fphar.2021.643972"
   - Cd produces dispositional tolerance via metallothionein (MT) binding
   - Beta-2 microglobulin in urine as biomarker for Cd-induced tubular toxicity (as low as 360 ug/L)
   - Cd induces renal dysfunction through overexpression of p-cadherin leading to carcinogenesis
+- [[cardiovascular-disease]]
 - **Arsenic (As)**:
   - GI discomfort, skin/hair changes, CNS injury, liver damage
   - Inhibits pyruvate dehydrogenase (blocks Krebs cycle), uncouples oxidative phosphorylation

@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, anti-PD-L1, estradiol, immunotherapy, MC
 - Anti-PD-L1 microbiome modulation connects to [[reens-2021-immunomodulation-microbiome-checkpoint-inhibitors]] ICI-microbiome interaction
 - *Muribaculaceae* enrichment patterns relate to [[gao-2026-ketogenic-diet-fxr-nfkb-crc]] KD microbiome changes
 - Sex differences in CRC connect to [[wu-2024-sex-differences-crc-hormone-microbiome-axis]]
+- [[colorectal-cancer]]

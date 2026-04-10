@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, indole-3-carbinol, I3C, genistein, apopt
 - Phytochemical synergy relates to [[appunni-2021-dietary-factors-gut-microbiome-crc]] dietary factor effects on CRC
 - Autophagy-apoptosis crosstalk in CRC relevant to [[xia-2024-drug-repurposing-cancer-therapy]] therapeutic mechanisms
 - Cruciferous vegetable compounds connect broadly to [[donovan-2017-mediterranean-diet-crc-prevention]] dietary prevention strategies
+- [[colorectal-cancer]]

@@ -33,3 +33,4 @@ doi: "10.1186/1479-7364-7-24"
 - Microbiota normalization by diet supports the [[dysbiosis]] correction framework
 - [[inflammation]] reduction through dietary modulation of gene expression
 - Connects to [[gut-metal-microbiome]] through diet-mediated changes in mineral absorption and microbial composition
+- [[crohns-disease]]

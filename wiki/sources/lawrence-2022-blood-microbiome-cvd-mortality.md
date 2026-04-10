@@ -42,3 +42,4 @@ Case-cohort study based on the Oslo II study (9.5-year follow-up) analyzing bact
 1. **Blood microbiome as CVD biomarker** - Circulating bacterial DNA levels and specific genera may serve as non-invasive [[microbial-biomarkers]] for cardiovascular mortality risk
 2. **Bacterial translocation** - Supports the concept that gut barrier dysfunction permits bacterial migration into circulation, contributing to [[atherosclerosis]]
 3. **Comorbidity interactions** - Demonstrates the interplay between [[comorbidities]] (diabetes, heart failure) and blood microbial burden in CVD
+- [[cardiovascular-disease]]

@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, protein-protein-interactions, metagenomi
 - PPI approach extends [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] multi-omic integration
 - Bile acid pathway enrichment relates to [[ajouz-2014-secondary-bile-acids-colon-cancer]] and [[cao-2025-metabolic-interactions-microbial-metabolites-crc]]
 - *F. nucleatum* Fap2 protein binding TIGIT connects to [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] immune evasion mechanisms
+- [[colorectal-cancer]]

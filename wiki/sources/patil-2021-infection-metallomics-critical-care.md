@@ -23,13 +23,13 @@ tags: [infection-metallomics, metallophores, siderophores, mass-spectrometry, ir
 - **Key metallophore types**:
   - **Bacterial siderophores**: Escherichielin, yersiniabactin (binds Fe and Cu), aerobactin, enterobactin from E. coli and Enterobacteriaceae; pyoverdine from P. aeruginosa; staphyloferrin A and B from S. aureus
   - **Mycobacterial siderophores**: Mycobactins (hydrophobic, intracellular) and carboxymycobactins (extracellular) from M. tuberculosis; species-specific structural variations in side chains
-  - **Fungal siderophores**: TAFC (triacetylfusarinine C), ferricrocin, and coprogen from Aspergillus fumigatus; detected in urine within 4.5h of inoculation in animal models
+  - **Fungal siderophores**: TAFC (triacetylfusarinine C), ferricrocin, and coprogen from [[aspergillus|*Aspergillus fumigatus*]]; detected in urine within 4.5h of inoculation in animal models
   - **Yersiniabactin (Ybt)**: Binds both Fe and Cu; secreted by multiple uropathogenic strains (Table 4); Cu-binding ability helps resist copper toxicity and converts Cu(II) to Cu(I) under low-copper conditions
 - **Analytical workflow**: LC-ESI-MS or MALDI-MS with isotope data filtering to selectively detect metal-containing species; FTICR for unequivocal identification; ICP-MS for metal quantitation
 - **Clinical applications**:
   - **Lung infections**: TAFC detected in human serum and urine of aspergillosis patients; siderophore monitoring can track fungal infection in real time; galactomannan (current standard) has limited sensitivity
   - **Urinary tract infections**: Siderocalin levels increase during UTI; enterobactin production detectable during E. coli infections; yersiniabactin copper complex detected in patient urine
-  - **CNS infections**: Neisseria meningitidis, S. aureus, S. pneumoniae, C. neoformans cross BBB using transcellular, paracellular, and Trojan horse mechanisms; metallophore imaging could track pathogen routing
+  - **CNS infections**: [[neisseria-meningitidis|*Neisseria meningitidis*]], S. aureus, S. pneumoniae, C. neoformans cross BBB using transcellular, paracellular, and Trojan horse mechanisms; metallophore imaging could track pathogen routing
 - **COVID-19 relevance**: Secondary bacterial and fungal superinfections in critically ill COVID patients; aspergillosis incidence 19.4% mortality; SARS-CoV-2 proteins analyzed by MS from gargle solutions at 10^7-10^8 RNA equivalents/ml
 - **Viral metal metabolism**: Viruses exploit host metal metabolism for replication; Zn exhibits antiviral activity against several viruses including HIV, influenza, and rhinovirus; Cu also shows antiviral properties through ROS generation
 
@@ -42,3 +42,4 @@ tags: [infection-metallomics, metallophores, siderophores, mass-spectrometry, ir
 - The metallophore-based diagnostic approach is complementary to concentration-based [[metallomics]] used in cancer and cardiovascular biomarker studies
 - Aspergillus siderophore detection in immunocompromised patients connects to [[metal-carcinogenesis]] contexts where cancer treatment-induced immunosuppression increases infection risk
 - The "frenemy" concept (microbes cooperating then competing based on host health status) illustrates how metal metabolism governs host-microbe dynamics in critical illness
+- [[cardiovascular-disease]]

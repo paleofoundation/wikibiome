@@ -32,3 +32,4 @@ doi: "10.3389/fimmu.2023.1296889"
 - PSC association connects to bile acid metabolism and [[iron]] homeostasis in the liver
 - ILD association relevant to understanding systemic [[inflammation]] in Crohn's disease
 - Complements [[Xu et al. 2022|xu-2022-causal-gut-microbiota-autoimmune-mr]] on causal framework
+- [[crohns-disease]]

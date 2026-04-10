@@ -32,6 +32,6 @@ doi: "10.3389/fmicb.2024.1337632"
 
 - Extends [[xu-2022-causal-microbiota-autoimmune-mr]] by specifically focusing on neurological autoimmune conditions and using larger MS GWAS data (IMSGC)
 - The *Roseburia* risk association is notable since this genus is typically considered beneficial (SCFA producer) -- depleted in MS in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]] -- suggesting complex species/strain-level effects
-- Protective role of *Ruminiclostridium5* aligns with Clostridia cluster depletion in [[miyake-2015-dysbiosis-clostridia-ms]]
-- Complements observational gut dysbiosis studies ([[jangi-2016-gut-microbiome-ms]], [[thirion-2023-gut-microbiota-ms-disease-activity]]) with genetic causal evidence
+- Protective role of *Ruminiclostridium5* aligns with Clostridia cluster depletion in [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
+- Complements observational gut dysbiosis studies ([[jangi-2016-gut-microbiome-alterations-ms]], [[thirion-2023-gut-microbiota-ms-disease-activity]]) with genetic causal evidence
 - Supports the rationale for [[microbiome-targeted-therapy]] and [[dietary-fiber]] interventions to boost protective SCFA-producing taxa

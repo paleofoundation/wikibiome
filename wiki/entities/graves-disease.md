@@ -126,7 +126,7 @@ Se (200 ug/day) combined with vitamin D and methimazole represents the best-stud
 
 - Restored TSH and FT3 to healthy thresholds (methimazole alone restored only FT3)
 - Significantly altered microbiota structure (methimazole alone did not)
-- Increased *Lactococcus lactis* and *Enterococcus hirae*; decreased *Enterobacter hormaechei*
+- Increased *[[lactococcus|Lactococcus]] lactis* and *Enterococcus hirae*; decreased *Enterobacter hormaechei*
 - Upregulated enterobactin biosynthesis (iron uptake) and TCA cycle pathways
 - *F. prausnitzii* and *L. lactis* negatively correlated with FT3/FT4 and TRAb
 
@@ -137,3 +137,7 @@ Se (200 ug/day) combined with vitamin D and methimazole represents the best-stud
 ### Fish and Mercury Balance
 
 Omega-3 PUFA from fish is beneficial for thyroid autoimmunity, but fish consumption also exposes to mercury and other heavy metals that impair thyroid function. Selenium co-supplementation may mitigate this risk through Se-Hg antagonism.
+
+## Connections
+
+- [[metal-disease-matrix]]

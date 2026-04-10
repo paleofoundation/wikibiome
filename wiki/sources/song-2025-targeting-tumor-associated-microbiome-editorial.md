@@ -31,3 +31,4 @@ tags: [colon-cancer, colorectal-cancer, tumor-associated-bacteria, Fusobacterium
 - *F. nucleatum* intracellular residence connects to [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] and [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]]
 - Bacterial metabolite targeting relates to [[cao-2025-metabolic-interactions-microbial-metabolites-crc]]
 - Drug delivery to tumor microbiome connects to [[reens-2021-immunomodulation-microbiome-checkpoint-inhibitors]] ICI-microbiome synergy
+- [[colorectal-cancer]]

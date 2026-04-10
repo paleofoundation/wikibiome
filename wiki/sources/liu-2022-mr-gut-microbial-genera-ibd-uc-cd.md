@@ -32,3 +32,4 @@ doi: "10.3389/fimmu.2022.921546"
 - Oxalobacter association with CD risk relevant to hyperoxaluria frequently observed in IBD
 - Coprococcus as a butyrate producer paradoxically increasing UC risk -- may relate to strain-level variation
 - Complements [[Knights et al. 2014|knights-2014-host-genetics-microbiome-ibd]] on genotype-microbiome specificity
+- [[crohns-disease]]

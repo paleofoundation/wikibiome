@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, immune-checkpoint-inhibitors, anti-PD-1,
 - FMT to enhance ICI connects to [[xu-2022-fmt-antitumor-cancer-immunotherapy]] and [[yu-2023-fmt-inhibits-crc-progression]]
 - SCFA-ICI interaction relates to [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]] butyrate signaling
 - *Akkermansia* and ICI response connects to [[gao-2026-ketogenic-diet-fxr-nfkb-crc]] KD enriching *Akkermansia*
+- [[colorectal-cancer]]

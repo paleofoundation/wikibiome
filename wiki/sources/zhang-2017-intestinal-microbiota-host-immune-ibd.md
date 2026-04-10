@@ -36,3 +36,4 @@ doi: "10.3389/fimmu.2017.00942"
 - [[probiotics]] and FMT as microbiome-targeting therapies for IBD
 - Links to [[gut-metal-microbiome]] through altered nutrient metabolism in dysbiotic states
 - Connects to [[calprotectin]] as a marker of intestinal inflammation in IBD
+- [[crohns-disease]]

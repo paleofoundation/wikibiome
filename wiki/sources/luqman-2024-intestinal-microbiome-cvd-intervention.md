@@ -26,7 +26,7 @@ Comprehensive review covering how gut [[dysbiosis]] promotes CVD risk factors in
 ### Microbial Diversity Changes in CVD
 - Table 1 catalogues species changes across atherosclerosis/CAD, hypertension, and heart failure
 - Atherosclerosis: decreased *Bacteroides*, *Prevotella*; increased *Streptococcus*, *Escherichia*
-- Hypertension: increased *Prevotella*, *Klebsiella*; decreased butyrate-producing *Odoribacter*
+- Hypertension: increased *Prevotella*, *Klebsiella*; decreased butyrate-producing *[[odoribacter|Odoribacter]]*
 - Heart failure: decreased *Blautia*, *Collinsella*; increased *Campylobacter*, *Shigella*
 
 ### Gut Barrier and Inflammation
@@ -45,3 +45,4 @@ Comprehensive review covering how gut [[dysbiosis]] promotes CVD risk factors in
 1. **Multi-metabolite framework** - Integrates TMAO, SCFAs, bile acids, tryptophan, and indole derivatives as parallel gut-heart axis pathways
 2. **Heavy metals and dysbiosis** - Environmental factors including xenobiotics and heavy metals identified as causes of gut dysbiosis (Figure 3B)
 3. **Therapeutic potential** - Microbiome-targeted interventions represent promising strategies for CVD prevention
+- [[cardiovascular-disease]]

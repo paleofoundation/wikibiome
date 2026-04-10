@@ -31,3 +31,4 @@ tags: [colon-cancer, colorectal-cancer, phage-therapy, M13-phage, photodynamic-t
 - Phage engineering approach differs from diagnostic phage display in [[hou-2018-phage-display-peptide-colon-cancer-imaging]] and [[ferreira-2019-phage-display-crc-targeting-peptide-mct1]]
 - Photodynamic therapy with ROS generation relates to oxidative stress mechanisms in [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]]
 - Targeted nanovector concept connects to [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer]] broader nanotechnology approach
+- [[colorectal-cancer]]

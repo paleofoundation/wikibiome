@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, pan-cancer, Candida, Saccharo
 - Cancer-specific fungal signatures relate to [[szklenarik-2024-cancer-mycobiome-gi-systematic-review]] systematic findings
 - *Candida* in colon cancer connects to [[liu-2023-tumor-mycobiome-cancer-pathogenesis]] mechanistic review
 - Hallmarks of cancer extension relates broadly to [[roelands-2023-integrated-tumor-immune-microbiome-atlas-colon-cancer]]
+- [[colorectal-cancer]]

@@ -52,3 +52,4 @@ Comprehensive review of two specific microbiota-derived host metabolites -- **p-
 - p-Cresol biomarker data validated in [[serrano-tomas-2025-p-cresol-asd-meta-analysis]]
 - *Clostridioides* enrichment connects to [[coretti-2018-gut-microbiota-young-asd-children]]
 - Metabolite-target interactions mapped in [[zhang-2025-gut-microbiota-metabolites-asd-network-pharmacology]]
+- [[cardiovascular-disease]]

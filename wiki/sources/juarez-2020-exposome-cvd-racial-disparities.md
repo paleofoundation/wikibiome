@@ -47,3 +47,4 @@ Review applying the exposome approach to understanding CVD disparities, covering
 3. **Epigenetic mediation** - Metal-induced DNA methylation changes provide a mechanism by which [[cadmium]] and [[lead]] exposure can persistently alter CVD risk beyond acute toxicity
 4. **Multi-omics integration** - The exposome framework provides the conceptual model for integrating [[gut-metal-microbiome]] data with other -omics layers
 5. **Racial disparities** - Environmental justice considerations relevant to understanding differential metal exposure burdens in CVD
+- [[cardiovascular-disease]]

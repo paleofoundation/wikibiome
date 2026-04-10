@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, bile-acids, cancer-stem-cells, DCA, LCA,
 - [[oxidative-stress]] -- bile acid-induced DNA damage and oxidative stress drive stemness acquisition in colonic epithelial cells
 - [[dysbiosis]] -- microbial conversion of primary to secondary bile acids directly promotes cancer stem cell generation
 - [[metal-carcinogenesis]] -- Wnt/beta-catenin pathway activation by bile acids parallels metal-induced carcinogenic signaling; EMT induction relevant to metastasis
+- [[colorectal-cancer]]

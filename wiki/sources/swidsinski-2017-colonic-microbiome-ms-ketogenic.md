@@ -31,7 +31,7 @@ doi: "10.3389/fmicb.2017.01141"
 ## Connections
 
 - Provides the foundational microbiome data cited in [[kakde-2025-ketogenic-diet-ms-systematic-review]] as the key study demonstrating KD-microbiome normalization
-- The FISH-based quantitative approach complements 16S sequencing studies like [[miyake-2015-dysbiosis-clostridia-ms]] and [[jangi-2016-gut-microbiome-ms]] by measuring absolute bacterial concentrations rather than relative abundances
+- The FISH-based quantitative approach complements 16S sequencing studies like [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and [[jangi-2016-gut-microbiome-alterations-ms]] by measuring absolute bacterial concentrations rather than relative abundances
 - *Faecalibacterium prausnitzii* depletion aligns with findings in [[thirion-2023-gut-microbiota-ms-disease-activity]] and [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]
 - The biphasic KD response (initial reduction then recovery) has implications for timing of [[microbiome-targeted-therapy]] interventions
 - The concept of impaired "biofermentative function" connects to [[short-chain-fatty-acids]] deficiency measured in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]

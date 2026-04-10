@@ -33,3 +33,4 @@ doi: "10.1371/journal.pone.0020447"
 - *Coriobacteriaceae* enrichment connects to MR findings in [[li-2025-gut-microbiota-immune-cell-crc-mr-mediation]] showing *Coriobacteriaceae* protective effects
 - Butyrate-producer enrichment in tumors creates an apparent paradox addressed by the dual role of butyrate in [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
 - Metabolomic context for bacterial recruitment connects to [[loke-2018-metabolomics-16s-crc-mucosa]] and [[microbiome-derived-metabolites]]
+- [[colorectal-cancer]]

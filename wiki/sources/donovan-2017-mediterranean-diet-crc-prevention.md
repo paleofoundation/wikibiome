@@ -36,3 +36,4 @@ tags: [colon-cancer, Mediterranean-diet, colorectal-cancer, prevention, olive-oi
 - MD effects on microbiome composition foreshadow [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] bile acid-gut microbiome axis hypothesis
 - Polyphenol/resveratrol anti-inflammatory effects connect to phenolic compound research applicable to [[gut microbiota]] modulation
 - IBD-CRC connection relevant to [[Simin 2020 - Antibiotic Use CRC Risk]] inflammation-driven carcinogenesis discussion
+- [[colorectal-cancer]]

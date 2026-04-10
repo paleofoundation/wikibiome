@@ -33,3 +33,4 @@ doi: "10.3389/fimmu.2021.746998"
 - Relevant to [[inflammation]] pathways through Th17 polarization by specific Bifidobacterium strains
 - Links to [[gut-metal-microbiome]] through Bifidobacterium's known metal-binding capabilities
 - Complements [[Zhang et al. 2021|zhang-2021-causal-direction-microbiota-ibd-mr]] on causal directionality
+- [[crohns-disease]]

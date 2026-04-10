@@ -34,3 +34,4 @@ tags: [colon-cancer, amino-acids, biomarkers, AminoIndex, early-detection, scree
 - Isoleucine elevation in CRC patients connects to [[Lieu 2020 - Amino Acids in Cancer]] discussion of branched-chain amino acids as alternative fuels for cancer cells
 - Non-invasive screening approaches relevant to [[gut microbiota]] metabolomics research in CRC detection
 - The metabolomics approach links to broader [[biomarkers]] research across the colon cancer microbiome field
+- [[colorectal-cancer]]

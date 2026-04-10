@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, SCFAs, FFAR2, FFAR3, HCAR2, GPR43, GPR41
 - [[oxidative-stress]] -- SCFAs counteract oxidative stress by suppressing NF-kB activation and promoting anti-inflammatory cytokine production
 - [[metal-carcinogenesis]] -- heavy metal-induced dysbiosis reduces SCFA-producing taxa, potentially removing a protective mechanism against carcinogenesis
 - [[gut-metal-microbiome]] -- metal exposure depletes butyrate-producing Firmicutes, reducing SCFA availability for receptor-mediated tumor suppression
+- [[colorectal-cancer]]

@@ -33,3 +33,4 @@ doi: "10.3389/fgene.2021.631061"
 - SLC39A8 locus (encoding ZIP8 [[zinc]] transporter) near Verrucomicrobiaceae IV -- connects to [[Yang et al. 2024|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]
 - Dorea depletion links to reduced butyrate production, paralleling [[faecalibacterium-prausnitzii]] loss
 - [[gut-metal-microbiome]] implications through SLC14A1 and metal transporter gene proximity
+- [[crohns-disease]]

@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, synbiotics, probiotics, prebiotics, Lact
 - IL-6/STAT3 suppression connects to inflammatory mechanisms in [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]]
 - Colitis-cancer axis relates to [[wang-2019-fmt-colitis-associated-colon-cancer-treg]] and [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]]
 - COX-2 suppression connects to [[mermans-2019-nsaids-gut-microbiome-chronic-inflammation]] and [[wang-2021-gut-microbiota-nsaid-enteropathy]]
+- [[colorectal-cancer]]

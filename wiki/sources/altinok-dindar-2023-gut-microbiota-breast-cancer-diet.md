@@ -47,3 +47,4 @@ tags: [breast-cancer, gut-microbiome, diet, Acidaminococcus, Hungatella, Tyzzere
 - The concept of using gut microbiome signatures as biomarkers has parallels in the MS probiotic literature: [[tankou-2018-probiotic-microbiome-ms]]
 - The role of short-chain fatty acids (SCFAs) from gut bacteria in cancer connects to the anti-inflammatory mechanisms of [[probiotics]] studied in MS trials
 - Higher BMI as a BCa risk factor may relate to altered gut metal handling and [[metal-homeostasis]], since adipose tissue accumulates metals including [[nickel]] and [[cadmium]]
+- [[cardiovascular-disease]]

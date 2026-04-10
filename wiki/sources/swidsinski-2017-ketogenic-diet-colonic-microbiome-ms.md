@@ -34,3 +34,4 @@ doi: "10.3389/fmicb.2017.01141"
 - Complements [[Kong et al. 2021|kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] on KD mechanisms in colitis
 - Biofermentation restoration connects to SCFA production and [[dysbiosis]] correction
 - [[gut-metal-microbiome]] implications through restored microbial metabolic capacity
+- [[crohns-disease]]

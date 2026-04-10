@@ -46,3 +46,7 @@ Prospective study comparing gut microbiome composition and circulating microbiom
 ## Relevance to the Wiki
 
 First study to characterize both gut microbiome and circulating metabolites across the decompensated and compensated phases of [[heart-failure]]. The *Escherichia/Shigella*-TMAO-indoxyl sulfate axis in HF provides mechanistic links between gut [[dysbiosis]], uremic toxin production, and cardiac decompensation. Complements [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on the HF stage of the cardiometabolic disease spectrum.
+
+## Connections
+
+- [[cardiovascular-disease]]

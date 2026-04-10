@@ -34,3 +34,4 @@ doi: "10.3389/fcimb.2016.00179"
 - *B. fragilis* enrichment supports its known role as a CRC-associated pathogen discussed in [[shi-2023-appendectomy-microbiome-crc]]
 - Tissue vs. stool methodology differences are central to comparisons in [[osman-2018-16s-rrna-crc-protocols-workflows]]
 - Enterotype classification approach connects to broader [[microbiome-composition]] characterization efforts
+- [[colorectal-cancer]]

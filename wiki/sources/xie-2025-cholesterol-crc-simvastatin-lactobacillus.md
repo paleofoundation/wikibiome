@@ -17,7 +17,7 @@ tags: [colon-cancer, colorectal-cancer, cholesterol, LDL, simvastatin, statins, 
 - Ldlr-/- mice on high-cholesterol diet developed significantly larger tumors (p<0.05) with exacerbated malignancy; LDLR deficiency elevated LDL/VLDL levels confirming the cholesterol-CRC progression link
 - *Lactobacillus plantarum* supplementation reduced tumor growth (p<0.05), lowered serum cholesterol, and altered gut microbiota composition increasing beneficial bacterial taxa (*Eubacterium coprostanoligenes*, *Muribaculum*)
 - Simvastatin treatment reduced PD-L1 expression in CRC cells by lowering cholesterol, associated with decreased CRC proliferation, reduced serum LDL levels, and enhanced T cell infiltration in the tumor microenvironment
-- *Lactobacillus* supplementation increased *Campylobacterota*, *Gammaproteobacteria*, and *Clostridia* at the class level; decreased *Bacteroides* and *Parasutterella* and increased *Lactobacillus* abundance confirmed by qPCR
+- *Lactobacillus* supplementation increased *Campylobacterota*, *Gammaproteobacteria*, and *Clostridia* at the class level; decreased *Bacteroides* and *[[parasutterella|Parasutterella]]* and increased *Lactobacillus* abundance confirmed by qPCR
 - Inflammatory markers IL-2, TNF-alpha, and IFN-gamma expression levels significantly increased with *Lactobacillus plantarum* supplementation, indicating enhanced antitumor immune response
 
 ## Methods/Findings
@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, cholesterol, LDL, simvastatin, statins, 
 - PD-L1 modulation connects to [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]] and [[reens-2021-immunomodulation-microbiome-checkpoint-inhibitors]]
 - *Lactobacillus* probiotic intervention relates to [[rafter-2004-probiotics-colon-cancer-development]] and [[reddy-1998-prebiotics-probiotics-colon-cancer-prevention]]
 - Statin-microbiome interaction extends [[liu-2018-rosuvastatin-gut-microbiome-lipid-lowering]]
+- [[colorectal-cancer]]

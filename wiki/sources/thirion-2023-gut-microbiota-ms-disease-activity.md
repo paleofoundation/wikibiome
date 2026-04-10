@@ -31,9 +31,9 @@ doi: "10.1186/s13073-022-01148-1"
 
 ## Connections
 
-- The enrichment of [[Faecalibacterium-prausnitzii]] in non-active MS cases supports its role as a protective commensal, consistent with depletion findings in [[miyake-2015-dysbiosis-clostridia-ms]]
+- The enrichment of [[Faecalibacterium-prausnitzii]] in non-active MS cases supports its role as a protective commensal, consistent with depletion findings in [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - The [[Caudovirales]] bacteriophage finding connects to [[phage-therapy]] approaches and suggests the MS gut virome warrants further investigation
-- Cytokine correlations with specific bacteria provide mechanistic links between [[gut-dysbiosis]] and systemic inflammation in MS, extending immune profiling from [[jangi-2016-gut-microbiome-ms]]
+- Cytokine correlations with specific bacteria provide mechanistic links between [[gut-dysbiosis]] and systemic inflammation in MS, extending immune profiling from [[jangi-2016-gut-microbiome-alterations-ms]]
 - The disease activity correlation suggests [[microbiome]] monitoring could serve as a [[biomarker]] for relapse prediction
-- Methanogenesis enrichment in MS aligns with elevated [[Methanobrevibacter]] and breath methane in [[jangi-2016-gut-microbiome-ms]]
+- Methanogenesis enrichment in MS aligns with elevated [[Methanobrevibacter]] and breath methane in [[jangi-2016-gut-microbiome-alterations-ms]]
 - [[Gordonibacter-urolithinfaciens]] produces urolithins from dietary polyphenols, connecting to [[dietary-polyphenols]] research in MS

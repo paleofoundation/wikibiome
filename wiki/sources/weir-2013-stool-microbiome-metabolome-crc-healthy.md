@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, stool-microbiome, metabolome, GC-MS, SCF
 - Butyrate depletion in CRC connects to [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]] and [[cao-2025-metabolic-interactions-microbial-metabolites-crc]]
 - Metabolome approach complements [[loke-2018-metabolomics-16s-crc-mucosa]] tissue-level metabolomics
 - Species-level differences without community-level shifts relate to [[norouzi-beirami-2020-functional-microbiome-crc]] functional approach
+- [[colorectal-cancer]]

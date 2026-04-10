@@ -33,3 +33,4 @@ doi: "10.3389/fcimb.2024.1452392"
 - JAK-STAT pathway findings connect to [[immune-response]] and [[microbiome-and-immune-system]] mechanisms
 - Drug prediction component relates to [[microbiome-modulating-drugs]] therapeutic strategies
 - East Asian population focus provides ethnic diversity to predominantly European [[mendelian-randomization]] studies like [[long-2023-causal-gut-microbiota-cancers-mr]]
+- [[colorectal-cancer]]

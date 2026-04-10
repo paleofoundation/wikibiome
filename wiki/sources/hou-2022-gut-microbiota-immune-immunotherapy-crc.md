@@ -33,3 +33,4 @@ doi: "10.3389/fimmu.2022.1030745"
 - Immunotherapy modulation relates to [[microbiome-modulating-drugs]] therapeutic strategies
 - Stage-dependent microbial shifts (Table 1) inform [[microbiome-and-disease-progression]] understanding
 - T cell exhaustion and checkpoint mechanisms link to [[immune-response]] pathways in cancer
+- [[colorectal-cancer]]

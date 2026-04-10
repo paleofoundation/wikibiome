@@ -30,7 +30,7 @@ doi: "10.3389/fimmu.2021.746998"
 
 ## Connections
 
-- Provides genetic evidence framework for the observational gut dysbiosis findings in [[jangi-2016-gut-microbiome-ms]] and [[miyake-2015-dysbiosis-clostridia-ms]]
+- Provides genetic evidence framework for the observational gut dysbiosis findings in [[jangi-2016-gut-microbiome-alterations-ms]] and [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - The Bifidobacterium findings are particularly relevant to [[probiotics]] research: [[tamtaji-2017-probiotic-gene-expression-ms]] used *Bifidobacterium bifidum* as part of a probiotic intervention in MS
 - Connects to the broader [[causal-microbiome-relationships]] literature and the question of whether [[gut-dysbiosis]] is a cause or consequence of MS
 - The Ruminococcus-MS association (albeit unreplicated) aligns with Ruminococcaceae changes observed in MS cohorts

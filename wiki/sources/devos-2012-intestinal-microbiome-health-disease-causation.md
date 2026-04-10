@@ -34,3 +34,4 @@ doi: "10.1111/j.1753-4887.2012.00505.x"
 - Common core microbiota discussed here serves as baseline for understanding [[dysbiosis]] in CRC
 - FMT evidence connects to therapeutic approaches in [[microbiome-modulating-drugs]] and fecal microbiota transplant studies
 - The enterotype classification system relates to findings in [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]]
+- [[colorectal-cancer]]

@@ -31,3 +31,4 @@ tags: [colon-cancer, colorectal-cancer, precision-medicine, microbiome, next-gen
 - Technical methods overview complements [[osman-2018-16s-rrna-crc-protocols-workflows]] CRC-specific protocols
 - Sequencing platform comparison relates to [[bars-cortina-2024-16s-vs-shotgun-crc]] direct comparison study
 - Systems biology approach extends to [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] multi-omic integration
+- [[colorectal-cancer]]

@@ -36,3 +36,4 @@ tags: [colon-cancer, colorectal-cancer, SCFAs, GPR43, FFAR2, butyrate, propionat
 - [[dysbiosis]] -- reduced SCFA-producing bacteria in CRC leads to loss of GPR43 tumor suppressive signaling
 - [[oxidative-stress]] -- SCFAs via GPR43 counteract oxidative carcinogenic mechanisms through apoptosis induction and cell cycle control
 - [[metal-carcinogenesis]] -- epigenetic silencing of GPR43 by promoter hypermethylation parallels metal-induced epigenetic changes in carcinogenesis
+- [[colorectal-cancer]]

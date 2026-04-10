@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, fungal-dysbiosis, Candida-alb
 - [[oxidative-stress]] -- *C. albicans* infection and NF-kB activation promote oxidative inflammatory damage to colonic epithelium
 - [[cadmium]] -- environmental toxins may alter the balance of commensal and pathogenic fungi in the gut
 - [[arsenic]] -- arsenic exposure affects both bacterial and fungal components of the gut microbiome
+- [[colorectal-cancer]]

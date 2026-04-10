@@ -31,7 +31,7 @@ doi: "10.3389/fnut.2023.1146748"
 ## Connections
 
 - Provides the dietary intervention framework connecting [[dietary-fiber]], [[Mediterranean-diet]], and [[ketogenic-diet]] approaches to MS via [[gut-microbiome]] modulation
-- The SCFA-Treg connection links to clostridial depletion in [[miyake-2015-dysbiosis-clostridia-ms]] and butyrate-producing bacteria loss in [[jangi-2016-gut-microbiome-ms]]
+- The SCFA-Treg connection links to clostridial depletion in [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and butyrate-producing bacteria loss in [[jangi-2016-gut-microbiome-alterations-ms]]
 - Relevant to [[microbiome-targeted-therapy]] as a complement or alternative to pharmacological disease-modifying therapy
 - The isoflavone findings connect to [[dietary-polyphenols]] research in MS
 - The intermittent fasting data showing *Faecalibacterium*, *Lachnospiracea Incertae sedis*, and *Blautia* changes complements [[thirion-2023-gut-microbiota-ms-disease-activity]] findings on disease activity correlations

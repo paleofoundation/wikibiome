@@ -94,7 +94,7 @@ A distinct branch of metallomics focuses on detecting microbial metallophores --
 ### Metallophore Types
 - **Bacterial siderophores**: Enterobactin, yersiniabactin (binds Fe and Cu), aerobactin, pyoverdine
 - **Mycobacterial siderophores**: Mycobactins and carboxymycobactins from M. tuberculosis
-- **Fungal siderophores**: TAFC (triacetylfusarinine C), ferricrocin from Aspergillus fumigatus
+- **Fungal siderophores**: TAFC (triacetylfusarinine C), ferricrocin from [[aspergillus|*Aspergillus fumigatus*]]
 
 ### Clinical Applications
 - TAFC detected in human serum and urine of aspergillosis patients, enabling real-time fungal infection tracking

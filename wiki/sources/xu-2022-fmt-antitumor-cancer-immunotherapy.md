@@ -34,3 +34,4 @@ tags: [colon-cancer, FMT, fecal-microbiota-transplantation, immunotherapy, immun
 - F. nucleatum pathogenesis connects to [[Metz 2019 - Drug Discovery BFT Inhibition]] on B. fragilis toxin targeting
 - Immunotherapy enhancement by FMT relevant to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] detailed review of radiation/ICB-microbiome interactions
 - Metabolite-mediated tumorigenesis links to [[Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] bile acid discussion and [[Rafter 2004 - Probiotics Colon Cancer Development]] SCFA/butyrate mechanisms
+- [[colorectal-cancer]]

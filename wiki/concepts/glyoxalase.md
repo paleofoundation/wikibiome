@@ -55,7 +55,7 @@ The following pathogens have been experimentally confirmed or strongly predicted
 
 **Bacterial pathogens:**
 - **[[pseudomonas-aeruginosa]]**: Ni-GloI characterized biochemically; detoxifies methylglyoxal during rapid growth in the CF lung and wound infections.
-- **Neisseria meningitidis**: Ni-GloI confirmed; relevant to meningococcal meningitis.
+- **[[neisseria-meningitidis|*Neisseria meningitidis*]]**: Ni-GloI confirmed; relevant to meningococcal meningitis.
 - **Neisseria gonorrhoeae**: Ni-GloI; relevant to gonorrhea pathogenesis.
 - **Yersinia pestis**: Ni-GloI; the plague agent must maintain glycolytic flux during explosive growth in the host.
 - **Clostridium acetobutylicum**: Ni-GloI **co-crystallized with nickel** -- providing direct structural evidence for the Ni active site.

@@ -37,3 +37,4 @@ doi: "10.3389/fimmu.2015.00489"
 - [[iron]] availability in the gut may influence AIEC colonization capacity
 - Connects to [[gut-metal-microbiome]] through nutrient competition at the mucosal-luminal interface
 - Complements [[Zhang et al. 2017|zhang-2017-intestinal-microbiota-host-immune-ibd]] with deeper focus on innate immunity
+- [[crohns-disease]]

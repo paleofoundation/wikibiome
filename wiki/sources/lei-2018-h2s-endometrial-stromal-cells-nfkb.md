@@ -44,3 +44,4 @@ doi: "10.1186/s13287-018-1015-x"
 - [[inflammation]] -- NF-kB pathway is a master regulator of inflammatory cytokines (IL-6, IL-8, TNF-alpha) that are elevated in peritoneal fluid of endometriosis patients; proinflammatory cytokines in turn activate NF-kB, creating a positive feedback loop
 - [[endocrine-disruption]] -- endometriosis is an estrogen-dependent disease; H2S signaling interacts with hormonal regulation of endometrial tissue
 - [[metabolic-syndrome]] -- H2S homeostasis affects cardiovascular, neuronal, gastrointestinal, respiratory, immune, and endocrine systems; disrupted H2S may link metabolic and reproductive pathology
+- [[cardiovascular-disease]]

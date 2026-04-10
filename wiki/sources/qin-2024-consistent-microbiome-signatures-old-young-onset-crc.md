@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, young-onset-CRC, m
 - [[dysbiosis]] -- CRC-associated dysbiosis is consistent across age groups, challenging the assumption that young-onset CRC has distinct microbial etiology
 - [[metal-carcinogenesis]] -- *E. coli* colibactin (pks operon) induces DNA damage and double-strand breaks; relevant to metal-enhanced genotoxicity
 - [[oxidative-stress]] -- bile acid operon (bai) enrichment in CRC links microbial bile acid metabolism to oxidative carcinogenesis
+- [[colorectal-cancer]]

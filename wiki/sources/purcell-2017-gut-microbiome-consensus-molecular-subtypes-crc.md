@@ -36,3 +36,4 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, consensus-molecula
 - [[dysbiosis]] -- CRC molecular subtypes have distinct bacterial communities; CMS1 subtype linked to oral pathogen colonization of tumors
 - [[metal-carcinogenesis]] -- CMS classification integrates molecular features that may interact with environmental exposures
 - [[oxidative-stress]] -- CMS1 subtype has strong immunological and inflammatory signatures; oral pathogens promote chronic inflammation
+- [[colorectal-cancer]]

@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, NSAIDs, gut-microbiome, COX-1, COX-2, xe
 - COX-2 in CRC connects to [[simin-2020-antibiotic-use-crc-risk]] drug-CRC risk associations
 - Colon-targeted delivery concept relates to [[xia-2024-drug-repurposing-cancer-therapy]] drug repurposing strategies
 - Pharmacomicrobiomics framework connects to [[guthrie-2017-microbiome-consensus-molecular-subtypes-crc]] drug metabolism
+- [[colorectal-cancer]]

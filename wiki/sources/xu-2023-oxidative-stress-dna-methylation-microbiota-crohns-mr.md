@@ -37,3 +37,4 @@ doi: "10.1186/s12916-023-02878-8"
 - MUC1 as barrier gene connecting host genetics to microbial metabolism
 - GPX3 protective effect relevant to [[iron]]-dependent oxidative damage and [[ferroptosis]]
 - [[copper]] and [[zinc]] as cofactors for antioxidant enzymes (SOD) in the oxidative stress framework
+- [[crohns-disease]]

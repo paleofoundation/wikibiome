@@ -33,3 +33,4 @@ tags: [colon-cancer, colorectal-cancer, estrogen, androgen, sex-hormones, gut-mi
 - Estrogen-microbiota-CRC axis extends [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]] experimental findings
 - Immunotherapy implications relate to [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] and [[reens-2021-immunomodulation-microbiome-checkpoint-inhibitors]]
 - Beta-glucuronidase activity connects to [[cao-2025-metabolic-interactions-microbial-metabolites-crc]] metabolite interactions
+- [[colorectal-cancer]]

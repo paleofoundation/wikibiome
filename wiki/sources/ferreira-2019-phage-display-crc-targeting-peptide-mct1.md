@@ -31,3 +31,4 @@ tags: [colon-cancer, colorectal-cancer, phage-display, peptide, MCT1, monocarbox
 - MCT1 as therapeutic target connects to lactate/metabolite transport in [[cao-2025-metabolic-interactions-microbial-metabolites-crc]] metabolic pathways
 - Phage display peptide approach complements [[hou-2018-phage-display-peptide-colon-cancer-imaging]] Glypican-3 targeting
 - CRC targeting for early detection relates to [[wu-2021-microbial-markers-populations-early-crc]] and [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]]
+- [[colorectal-cancer]]

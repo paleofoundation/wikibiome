@@ -36,3 +36,4 @@ tags: [colon-cancer, antibiotics, colorectal-cancer, meta-analysis, systematic-r
 - Inflammation-cancer link reinforced here supports [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] colitis-to-cancer model
 - Broad-spectrum vs narrow-spectrum distinction relevant to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] antibiotic effects on radiotherapy microbiome
 - Long latency period suggests chronic microbiome disruption, connecting to [[Rafter 2004 - Probiotics Colon Cancer Development]] rationale for probiotic restoration
+- [[colorectal-cancer]]

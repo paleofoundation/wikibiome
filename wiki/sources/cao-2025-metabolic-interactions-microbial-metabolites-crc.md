@@ -33,3 +33,4 @@ doi: "10.3389/fmicb.2025.1611698"
 - DCA/butyrate ratio as biomarker connects to [[microbial-biomarkers]] and [[microbiome-derived-metabolites]] diagnostic approaches
 - Dietary modulation strategies relate to [[appunni-2021-dietary-factors-gut-microbiome-crc]] and [[microbiome-diet]] interventions
 - Tryptophan pathway disruption connects to findings in [[loke-2018-metabolomics-16s-crc-mucosa]]
+- [[colorectal-cancer]]

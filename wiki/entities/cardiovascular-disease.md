@@ -116,11 +116,11 @@ Cadmium exposure upregulates indoxyl sulfate production, directly connecting met
 The fungal microbiome is an underexplored but increasingly recognized contributor to CVD:
 
 ### Hypertension
-- [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]]: *Malassezia* enrichment increases from normotensive to pre-hypertension to hypertension, positively correlated with immunoglobulin light chains; fungal dysbiosis detected already at the pre-hypertension stage
+- [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]]: *[[malassezia|Malassezia]]* enrichment increases from normotensive to pre-hypertension to hypertension, positively correlated with immunoglobulin light chains; fungal dysbiosis detected already at the pre-hypertension stage
 - [[qiu-2023-gut-mycobiome-hypertension-ckd]]: HTN+CKD patients show distinct mycobiome with increased *Apiotrichum*, *Cystobasidium*, *Saccharomyces* and decreased *Candida*; cytokine associations with fungal genera
 
 ### Atherosclerosis
-- *C. albicans*, *Exophiala*, *Malassezia*, *Penicillium*, *Wallemia* increased in ACVD
+- *C. albicans*, *Exophiala*, *[[malassezia|Malassezia]]*, *Penicillium*, *Wallemia* increased in ACVD
 - *Mucor racemosus* and *Fusarium* decreased in CHD (potentially protective)
 
 ### Heart Failure
@@ -149,3 +149,7 @@ Dietary fiber increases SCFA production, maintaining gut barrier integrity and r
 
 ### Polyamines
 Bacterially synthesized polyamines (cadaverine, putrescine, spermidine) have cardioprotective effects. Spermidine reduces cardiac hypertrophy, improves echocardiographic parameters, and modifies intestinal microbiota toward anti-inflammatory composition.
+
+## Connections
+
+- [[metal-disease-matrix]]

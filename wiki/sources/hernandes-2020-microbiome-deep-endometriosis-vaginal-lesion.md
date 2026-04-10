@@ -12,7 +12,7 @@ doi: "10.3390/diagnostics10030163"
 
 # Key Claims
 
-- Deep endometriotic lesions harbor a diverse bacterial community including *Lactobacillus*, *Enterococcus*, *Gardnerella*, *Pseudomonas*, *Alishewanella*, *Ureaplasma*, and *Aerococcus*
+- Deep endometriotic lesions harbor a diverse bacterial community including *Lactobacillus*, *Enterococcus*, *[[gardnerella|Gardnerella]]*, *Pseudomonas*, *Alishewanella*, *Ureaplasma*, and *Aerococcus*
 - Vaginal fluid and eutopic endometrium share similar microorganism profiles dominated by *Lactobacillus*, *Gardnerella*, *Streptococcus*, and *Prevotella*
 - Endometriotic lesion samples had the most microorganism diversity and significantly different beta diversity (PERMANOVA p=0.036)
 - No significant differences in diversity were found between control and endometriotic patients for vaginal fluid or endometrium

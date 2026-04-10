@@ -35,3 +35,4 @@ doi: "10.5604/01.3001.0010.5493"
 - FXR/GPBAR-1 signaling connects to metabolic outcomes of heavy metal exposure including altered lipid and glucose metabolism seen in [[akash-2023-metabolomics-heavy-metal-toxicities]]
 - Diet-BA-microbiome interactions relevant to [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]] findings on HFD increasing metal toxicity
 - BA biosynthesis disruption connects to [[oxidative-stress|oxidative stress]] pathways and liver damage from [[heavy metals]]
+- [[colorectal-cancer]]

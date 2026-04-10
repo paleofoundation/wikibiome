@@ -24,7 +24,7 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, immuno-oncology-microbiome, C
 
 - **Type**: Comprehensive review (26 pages) covering tumor-specific fungal ecologies, gut mycobiome dysbiosis, oral/intratumoral mycobiome, analytical methods, molecular mechanisms, and therapeutic implications
 - **Figure 1**: Pan-cancer analysis of intratumoral mycobiome using WIS and TCGA data, showing cancer-specific fungi and immune signatures
-- **Key therapeutic directions**: Antifungal therapy (targeting *Malassezia* in PDAC); synergy with immunotherapy; fungi as biomarkers for diagnosis and prognosis
+- **Key therapeutic directions**: Antifungal therapy (targeting *[[malassezia|Malassezia]]* in PDAC); synergy with immunotherapy; fungi as biomarkers for diagnosis and prognosis
 
 ## Connections
 
@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, immuno-oncology-microbiome, C
 - *Candida* survival impact relates to [[szklenarik-2024-cancer-mycobiome-gi-systematic-review]] systematic findings
 - Fungal-bacterial trans-kingdom interactions connect to [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]]
 - IOM axis concept relates to [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] immune-microbiome-CRC triad
+- [[colorectal-cancer]]

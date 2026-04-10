@@ -35,3 +35,4 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, RNA-seq, TCGA, tum
 - [[dysbiosis]] -- tumour microbiome composition varies by molecular subtype and is associated with clinical outcomes
 - [[metal-carcinogenesis]] -- bacterial metabolic pathways enriched in tumour colon tissue include pathways relevant to environmental toxin processing
 - [[oxidative-stress]] -- immune infiltration patterns correlate with bacterial composition, linking microbiome to inflammatory tumor microenvironment
+- [[colorectal-cancer]]

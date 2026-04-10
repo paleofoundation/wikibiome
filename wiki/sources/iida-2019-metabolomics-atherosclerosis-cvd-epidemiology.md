@@ -47,5 +47,6 @@ Review article summarizing epidemiological metabolomics studies applied to ather
 
 1. **TMAO as [[gut-metal-microbiome]] biomarker** - TMAO, a microbially-produced metabolite, is a validated CVD risk factor that may be elevated by metal-induced [[dysbiosis]]
 2. **BCAAs and metal metabolism** - BCAA alterations in CVD may connect to [[iron]] and [[selenium]]-dependent metabolic pathways
+- [[cardiovascular-disease]]
 3. **Exposome integration** - The review highlights how metabolomics can capture gene-environment interactions, directly relevant to understanding [[lead]] and [[cadmium]] effects on CVD through microbiome disruption
 4. **[[Oxidative-stress]] metabolites** - Lipid peroxidation products and antioxidant metabolites in CVD metabolomics reflect the oxidative burden that metals impose

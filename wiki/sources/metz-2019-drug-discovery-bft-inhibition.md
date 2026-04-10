@@ -36,3 +36,4 @@ tags: [colon-cancer, drug-repurposing, Bacteroides-fragilis, BFT-toxin, ETBF, CD
 - Drug repurposing approach complements [[Zhu 2022 - Berberine UC Cancer Therapy]] and [[Xia 2024 - Drug Repurposing Cancer Therapy]]
 - E-cadherin cleavage/Wnt-beta-catenin disruption connects to [[Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]] F. nucleatum FadA/E-cadherin mechanism
 - FXR agonism by CDCA links to bile acid metabolism research in [[Donovan 2017 - Mediterranean Diet CRC Prevention]]
+- [[colorectal-cancer]]

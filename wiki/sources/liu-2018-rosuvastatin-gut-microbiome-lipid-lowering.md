@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, statins, rosuvastatin, gut-microbiome, h
 - *Fusobacteria* negative correlation with LDL-C connects to CRC literature where *Fusobacterium* is enriched in tumors [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]]
 - Drug-microbiome pharmacokinetics relates to [[mermans-2019-nsaids-gut-microbiome-chronic-inflammation]] pharmacomicrobiomics
 - Lipid metabolism-microbiome axis connects to [[cao-2025-metabolic-interactions-microbial-metabolites-crc]] metabolite interactions
+- [[colorectal-cancer]]

@@ -37,3 +37,4 @@ doi: "10.1186/s13073-022-01099-7"
 - Bile acid metabolism alterations connect to [[gut-metal-microbiome]] through shared microbial metabolic pathways
 - Obesity-CD microbiome overlap relevant to understanding comorbidity burden in IBD
 - Complements [[Yang et al. 2024|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]] on genetic risk modulating CD microbiome
+- [[crohns-disease]]

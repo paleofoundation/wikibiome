@@ -27,7 +27,7 @@ This narrative review from the MS COMPLETE Project -- a multidisciplinary group 
 
 ### Fecal Microbiota Transplantation
 - Mouse studies: FMT from MS-twin-derived microbiota transplanted into transgenic mice increased autoimmune incidence
-- *Sutterella* was reduced in mice colonized with MS-twin microbiota
+- *[[sutterella|Sutterella]]* was reduced in mice colonized with MS-twin microbiota
 - FMT from healthy donors to MS model mice showed marked reduction in *Sutterella* and protective immunoregulatory activity
 - Preliminary human FMT studies in MS showed benefit but data remain very limited
 

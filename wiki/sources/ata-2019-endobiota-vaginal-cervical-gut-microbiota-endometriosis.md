@@ -37,7 +37,7 @@ This tri-compartment microbiome study reveals subtle but potentially important m
 ## Connections
 
 - [[endometriosis]] -- tri-compartment (vaginal, cervical, gut) microbiome profiling in stage 3/4 disease
-- [[dysbiosis]] -- Atopobium absent in endometriosis; Gardnerella and Escherichia/Shigella enriched in cervix
+- [[dysbiosis]] -- Atopobium absent in endometriosis; [[gardnerella|*Gardnerella*]] and Escherichia/Shigella enriched in cervix
 - [[inflammation]] -- Escherichia/Shigella gut dominance in patients requiring bowel resection suggests inflammatory driver role
 - [[iron]] -- Escherichia species are strong iron scavengers; iron availability may drive their gut dominance
 - [[gut-metal-microbiome]] -- multi-site dysbiosis pattern suggests systemic metal-microbiome disruption across body compartments

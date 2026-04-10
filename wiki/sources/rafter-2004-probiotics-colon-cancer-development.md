@@ -36,3 +36,4 @@ tags: [colon-cancer, probiotics, prebiotics, synbiotics, lactic-acid-bacteria, L
 - Immune modulation by probiotics parallels [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] findings on microbiota-immune interactions
 - Fecal enzyme modulation relevant to [[bile acid]] metabolism discussed in [[Donovan 2017 - Mediterranean Diet CRC Prevention]] and [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
 - The SYNCAN trial concept foreshadows modern synbiotic interventions in CRC prevention research
+- [[colorectal-cancer]]

@@ -50,3 +50,4 @@ tags: [heavy-metals, diet, neurodegeneration, mercury, cadmium, arsenic, lead, c
 - Treatment strategies link to [[chelation-therapy]] and [[dietary-interventions]] for metal toxicity
 - Discusses [[nickel]] alongside other metals in sweat excretion studies
 - Connects to [[blood-brain-barrier]] permeability mechanisms
+- [[cardiovascular-disease]]

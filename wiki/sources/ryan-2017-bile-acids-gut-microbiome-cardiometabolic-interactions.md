@@ -50,3 +50,7 @@ Review focusing on bile acid-mediated signaling pathways through which the gut m
 ## Relevance to the Wiki
 
 Provides the most detailed treatment of [[bile-acids]] as mediators of gut [[microbiome-host-interactions]] in cardiometabolic disease of papers in this collection. The FXR/TGR5 receptor framework connects gut microbial bile acid modification to specific cardiovascular outcomes. Complements the metabolite-focused reviews in [[wang-2022-gut-microbiota-health-cvd-review]] and [[herrema-2020-microbiome-cardiovascular-disease-ascvd]].
+
+## Connections
+
+- [[cardiovascular-disease]]

@@ -35,3 +35,4 @@ doi: "10.1038/s41392-021-00549-9"
 - [[escherichia-coli]] expansion by LCD parallels pathogenic expansion seen in Crohn's disease
 - ILC3 reduction mechanism relevant to understanding innate immunity in IBD, complementing [[Haag & Siegmund 2015|haag-2015-intestinal-microbiota-innate-immunity-crohns]]
 - FMT proof-of-concept connects to [[probiotics]] and microbiome restoration strategies
+- [[crohns-disease]]

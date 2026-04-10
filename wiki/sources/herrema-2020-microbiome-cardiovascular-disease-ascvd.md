@@ -48,3 +48,7 @@ Book chapter providing a critical overview of the role of the microbiome (gut an
 ## Relevance to the Wiki
 
 Comprehensive overview connecting oral and gut microbiome to [[atherosclerosis]] through metabolite production, [[inflammation]], and immune pathways. Summarizes animal model evidence for causal microbiome role in ASCVD, complementing human observational data from [[jie-2017-gut-microbiome-acvd]] and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]].
+
+## Connections
+
+- [[cardiovascular-disease]]

@@ -32,6 +32,6 @@ doi: "10.1080/1028415X.2022.2146843"
 
 - Complements the mechanistic review in [[katzsand-2018-diet-ms-mechanistic-review]] with updated clinical trial evidence
 - The ketogenic diet's NLRP3 inhibition mechanism connects to inflammasome pathways relevant to [[gut-brain-axis]] and neuroinflammation in MS
-- IF-induced microbiome changes (*Faecalibacterium*, *Blautia*) align with protective species identified in [[thirion-2023-gut-microbiota-ms-disease-activity]] and [[miyake-2015-dysbiosis-clostridia-ms]]
+- IF-induced microbiome changes (*Faecalibacterium*, *Blautia*) align with protective species identified in [[thirion-2023-gut-microbiota-ms-disease-activity]] and [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - The gluten-free diet section connects to [[gut-barrier-integrity]] and intestinal transglutaminase-2 pathways that may link celiac-like responses to MS neuroinflammation
 - Highlights the gap in [[microbiome]]-focused dietary trials: most included studies did not incorporate gut microbiome analysis as an outcome measure

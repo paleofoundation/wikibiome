@@ -36,3 +36,4 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, drug-metabolism, i
 - [[dysbiosis]] -- microbiome composition determines drug metabolism efficiency and adverse drug responses in CRC chemotherapy
 - [[gut-metal-microbiome]] -- microbial enzymatic capacity relevant to both drug and metal biotransformation in the gut
 - [[oxidative-stress]] -- SN-38 reactivation causes intestinal epithelial cell damage and severe diarrhea; ROS-mediated toxicity
+- [[colorectal-cancer]]

@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, virome, gut-virome, colorectal-adenoma, 
 - [[dysbiosis]] -- gut virome alterations are an early feature of colorectal adenoma, preceding frank carcinoma; viral dysbiosis parallels bacterial dysbiosis
 - [[gut-metal-microbiome]] -- bacteriophages modulate bacterial community composition; metal-induced bacterial shifts could cascade to virome changes
 - [[oxidative-stress]] -- phage-mediated bacterial lysis releases intracellular contents that may contribute to inflammatory microenvironment
+- [[colorectal-cancer]]

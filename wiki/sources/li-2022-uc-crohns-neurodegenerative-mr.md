@@ -30,3 +30,4 @@ doi: "10.3389/fgene.2022.846005"
 - Shared risk factor hypothesis implicates [[gut-metal-microbiome]] and [[dysbiosis]] as potential confounders
 - LRRK2 gene links both CD and PD, relevant to understanding shared genetic architecture
 - Informs the broader gut-brain axis hypothesis in the context of Crohn's disease
+- [[crohns-disease]]

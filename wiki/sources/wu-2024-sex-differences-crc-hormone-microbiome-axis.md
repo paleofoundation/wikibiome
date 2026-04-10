@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, sex-differences, sex-hormones, estrogen,
 - ERbeta-NF-kB connection relates to [[gao-2026-ketogenic-diet-fxr-nfkb-crc]] FXR/NF-kB pathway
 - Sex-specific immunotherapy responses connect to [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]] and [[reens-2021-immunomodulation-microbiome-checkpoint-inhibitors]]
 - Testosterone-CRC risk links to [[he-2021-gut-microbiome-sex-hormone-related-diseases]] broader hormone-disease review
+- [[colorectal-cancer]]

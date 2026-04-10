@@ -35,3 +35,4 @@ tags: [colon-cancer, berberine, drug-repurposing, ulcerative-colitis, NF-kB, AMP
 - Microbiome modulation by BBR relevant to [[probiotics]] research in [[Rafter 2004 - Probiotics Colon Cancer Development]]
 - UC-to-CRC progression context connects to [[Simin 2020 - Antibiotic Use CRC Risk]] inflammation-cancer axis
 - Wnt/beta-catenin pathway targeting links to [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] F. nucleatum FadA/Wnt discussion
+- [[colorectal-cancer]]

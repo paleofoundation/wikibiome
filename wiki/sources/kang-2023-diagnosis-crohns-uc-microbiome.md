@@ -36,3 +36,4 @@ doi: "10.1186/s12866-023-03084-5"
 - Links to [[calprotectin]] through disease activity monitoring approaches
 - Enterotype analysis relevant to [[gut-metal-microbiome]] -- Bacteroides-dominated enterotype may have different metal handling
 - Complements [[Jacobs et al. 2022|jacobs-2022-crohns-remission-obesity-mli-microbiome]] on mucosal microbiome in CD
+- [[crohns-disease]]

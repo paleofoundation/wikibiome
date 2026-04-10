@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, bile-acids, deoxycholic-acid, lithocholi
 - [[metal-carcinogenesis]] -- bile acid-induced oxidative damage parallels metal-induced ROS; both converge on NF-kB and DNA repair pathway disruption
 - [[iron]] -- heme iron from red meat and bile acid pathways interact to increase CRC risk through parallel oxidative mechanisms
 - [[ferroptosis]] -- mitochondrial membrane disruption by bile acids overlaps with ferroptotic cell death mechanisms
+- [[colorectal-cancer]]

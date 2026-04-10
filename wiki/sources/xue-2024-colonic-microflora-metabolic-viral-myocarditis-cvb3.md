@@ -28,7 +28,7 @@ Mouse model study examining gut microflora and metabolic changes during acute vi
 - 198 differential metabolites identified (79 upregulated, 119 downregulated)
 - Lipids and lipid-like molecules accounted for largest proportion
 - Lipid metabolism pathway significantly enriched: Traumatic acid (TA), Alpha-Linolenic acid (ALA), EPA, and DHA as key differential metabolites
-- Positive correlations between TA levels and *Anaerotruncus* and *Bilophila* abundance
+- Positive correlations between TA levels and *Anaerotruncus* and *[[bilophila|Bilophila]]* abundance
 - Positive correlations between EPA levels and *Clostridium_sensu_stricto_1* abundance
 
 ### Gut-Heart Axis in Viral Myocarditis

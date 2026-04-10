@@ -29,3 +29,7 @@ A comprehensive review of clinical/epidemiological evidence linking low zinc lev
 ## Relevance to Wiki
 
 Demonstrates that zinc deficiency is a hallmark of multiple cancers, relevant to understanding how heavy metal exposure (particularly cadmium, which competes with zinc for binding sites) may contribute to cancer risk by disrupting zinc homeostasis.
+
+## Connections
+
+- [[colorectal-cancer]]

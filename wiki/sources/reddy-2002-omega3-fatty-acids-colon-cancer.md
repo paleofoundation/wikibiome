@@ -35,3 +35,4 @@ tags: [colon-cancer, omega-3-fatty-acids, dietary-fat, n-3-PUFAs, n-6-PUFAs, col
 - Dietary fat-microbiome interactions link to [[Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of olive oil and phenolic compounds
 - ras-p21 modulation connects to Wnt/beta-catenin signaling pathway disrupted by [[Fusobacterium nucleatum]] in CRC
 - The n-6/n-3 PUFA ratio concept relevant to [[SCFAs]] production and [[gut microbiota]] composition shifts
+- [[colorectal-cancer]]

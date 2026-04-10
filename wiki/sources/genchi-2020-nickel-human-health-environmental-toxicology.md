@@ -42,6 +42,10 @@ doi: "10.3390/ijerph17030679"
 - **Carcinogenicity**: Insoluble NiS particles remain in lungs long-term as primary carcinogenic concern; epidemiological studies show increased nasal and lung cancer in nickel refinery workers
 - **Phytoremediation**: Hyperaccumulator plants (Alyssum murale, Sebertia acuminata, Rinorea niccolifera) accumulate >1000 mg Ni/kg dry weight
 
+## Connections
+
+- [[cardiovascular-disease]]
+
 # Connections
 
 - Core reference for [[nickel-toxicity]] -- the primary focus metal of the wiki

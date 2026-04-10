@@ -23,8 +23,8 @@ Large-scale bidirectional MR study using genetic instruments from 14,306 individ
 - Risk: *Fusicatenibacter* (OR=1.097), *Lachnospiraceae UCG008* (OR=1.062), *Paraprevotella* (OR=1.062), *Ruminococcaceae UCG014* (OR=1.106), *Streptococcus* (OR=1.106)
 
 ### Coronary Artery Disease
-- Protective: *Coprococcus1* (OR=0.867), *Intestinibacter* (OR=0.919), *Marvinbryantia* (OR=0.901), *Parasutterella* (OR=0.936), *Ruminiclostridium6* (OR=0.883)
-- Risk: *Eisenbergiella* (OR=1.075), *Odoribacter* (OR=1.206), *Oxalobacter* (OR=1.059)
+- Protective: *Coprococcus1* (OR=0.867), *[[intestinibacter|Intestinibacter]]* (OR=0.919), *Marvinbryantia* (OR=0.901), *[[parasutterella|Parasutterella]]* (OR=0.936), *Ruminiclostridium6* (OR=0.883)
+- Risk: *Eisenbergiella* (OR=1.075), *[[odoribacter|Odoribacter]]* (OR=1.206), *[[oxalobacter|Oxalobacter]]* (OR=1.059)
 
 ### Myocardial Infarction
 - Multiple genera associated including *Ruminococcus torques group*, *Sellimonas*, *Odoribacter*

@@ -34,3 +34,4 @@ tags: [colon-cancer, drug-repurposing, microbiome, oral-gut-axis, thonzonium-bro
 - Oral-gut microbial axis findings connect to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] discussion of oral bacteria (F. nucleatum) colonizing CRC tumors
 - Nanoparticle drug delivery system parallels [[Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]] NP-based microbiome modulation
 - Sutterella enrichment in gut after oral treatment raises questions about distant microbiome effects of orally administered drugs
+- [[colorectal-cancer]]

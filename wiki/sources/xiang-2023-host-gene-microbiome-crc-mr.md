@@ -34,3 +34,4 @@ doi: "10.1186/s12967-023-04335-9"
 - Host gene identification extends [[microbiome-host-interactions]] understanding in CRC
 - Validates and extends taxa identified in [[long-2023-causal-gut-microbiota-cancers-mr]] using East Asian populations
 - SNP-gene-microbiome mapping provides molecular targets for [[microbiome-modulating-drugs]] development
+- [[colorectal-cancer]]

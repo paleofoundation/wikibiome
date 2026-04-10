@@ -31,3 +31,4 @@ tags: [colon-cancer, colorectal-cancer, phage-display, peptide, molecular-probe,
 - Phage-based diagnostic approach complements [[ferreira-2019-phage-display-crc-targeting-peptide-mct1]] targeting strategy
 - Molecular imaging for early CRC detection relates to [[wu-2021-microbial-markers-populations-early-crc]] biomarker approaches
 - Glypican-3 targeting connects broadly to [[roelands-2023-integrated-tumor-immune-microbiome-atlas-colon-cancer]] tumor characterization
+- [[colorectal-cancer]]

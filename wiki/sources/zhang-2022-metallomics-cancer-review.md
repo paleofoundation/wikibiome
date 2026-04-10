@@ -39,3 +39,4 @@ doi: "10.1007/s10653-023-01737-y"
 - [[selenium]] decreases across cancers relate to impaired selenoprotein-mediated antioxidant defense
 - [[zinc]] dysregulation connects to its roles in >300 metalloenzymes, DNA repair, and immune function
 - The metalloprotein genetics findings bridge [[metallomics]] with genomics, offering integrated diagnostic approaches for [[metal-carcinogenesis]]
+- [[colorectal-cancer]]

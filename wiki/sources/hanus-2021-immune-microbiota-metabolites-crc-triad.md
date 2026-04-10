@@ -33,3 +33,4 @@ doi: "10.3389/fimmu.2021.612826"
 - Colibactin genotoxicity from pks+ *E. coli* relates to [[microbiome-host-interactions]] and DNA damage pathways
 - *F. nucleatum* immune evasion mechanisms extend [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] and [[kudra-2023-oral-microbiome-crc-perspectives]]
 - Polyamine metabolism connects to [[metabolic-pathways]] in CRC progression and potential therapeutic targeting
+- [[colorectal-cancer]]

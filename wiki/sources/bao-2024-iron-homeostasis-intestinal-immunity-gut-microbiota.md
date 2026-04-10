@@ -38,3 +38,4 @@ tags: [iron, iron-homeostasis, gut-microbiota, intestinal-immunity, ferroptosis,
 - SCFA and immune findings connect to [[Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on barrier-immune axis
 - Gut-brain axis discussion links to [[manganese neurotoxicity]] and [[Racette 2017 - Manganese Parkinsonism Welders]]
 - Probiotic immune modulation connects to [[Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]]
+- [[cardiovascular-disease]]

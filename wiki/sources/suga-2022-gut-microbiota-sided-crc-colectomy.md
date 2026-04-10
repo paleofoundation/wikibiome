@@ -33,3 +33,4 @@ doi: "10.1186/s12876-022-02382-y"
 - Metabolic functional predictions connect to [[metabolic-pathways]] in CRC microbiome research
 - Post-colectomy microbiome changes have implications for understanding [[comorbidities]] like diabetes that may develop after surgery
 - *Firmicutes* dominance in RCC aligns with broader [[microbiome-composition]] patterns in CRC
+- [[colorectal-cancer]]

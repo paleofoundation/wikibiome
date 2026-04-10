@@ -36,3 +36,4 @@ tags: [colon-cancer, colorectal-cancer, dysbiosis, microbiome, Fusobacterium, mu
 - [[dysbiosis]] -- mucosa-associated microbiota shows distinct dysbiosis patterns in CRC with reduced diversity and enrichment of specific pathogens
 - [[metal-carcinogenesis]] -- environmental factors alter the normal microbial balance contributing to carcinogenesis
 - [[oxidative-stress]] -- *Fusobacterium* enrichment in tumor microenvironment promotes chronic inflammation and oxidative damage
+- [[colorectal-cancer]]

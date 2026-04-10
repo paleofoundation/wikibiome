@@ -34,3 +34,4 @@ tags: [colon-cancer, antibiotic-resistance-genes, ARGs, gut-microbiome, colorect
 - E. coli as primary ARG reservoir connects to [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of E. coli colibactin as a CRC-promoting genotoxin
 - Butyrate-producing species (F. prausnitzii, Anaerobutyricum) depleted in CRC link to [[Rafter 2004 - Probiotics Colon Cancer Development]] and [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] probiotic/FMT restoration strategies
 - Species-level analysis complements [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] microbiome-as-biomarker discussion
+- [[colorectal-cancer]]

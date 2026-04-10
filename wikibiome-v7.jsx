@@ -1217,169 +1217,256 @@ const ArticleView = ({ pageId, onNavigate }) => {
         </div>
       </div>
 
-      {/* ─── SIGNATURE SLIDE-OUT OVERLAY ─── */}
+      {/* ─── FUTURISTIC SIGNATURE SLIDE-OUT OVERLAY ─── */}
       {signature && (
         <>
+          {/* Inject keyframe animations */}
+          <style>{`
+            @keyframes sigPulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+            @keyframes sigScanline { 0%{transform:translateY(-100%)} 100%{transform:translateY(100vh)} }
+            @keyframes sigGlow { 0%,100%{box-shadow:0 0 4px rgba(184,115,51,0.3)} 50%{box-shadow:0 0 16px rgba(184,115,51,0.6)} }
+            @keyframes sigBarGrow { 0%{transform:scaleX(0)} 100%{transform:scaleX(1)} }
+            @keyframes sigFadeUp { 0%{opacity:0;transform:translateY(8px)} 100%{opacity:1;transform:translateY(0)} }
+            @keyframes sigDotPulse { 0%,100%{r:1.5;opacity:0.15} 50%{r:2.5;opacity:0.35} }
+            @keyframes sigLineTrace { 0%{stroke-dashoffset:200} 100%{stroke-dashoffset:0} }
+          `}</style>
+
           {/* Backdrop */}
           <div
             onClick={() => { setSigPanelOpen(false); setSelectedTaxon(null); }}
             style={{
               position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
-              backgroundColor: 'rgba(26, 23, 20, 0.35)',
-              backdropFilter: 'blur(2px)',
+              backgroundColor: 'rgba(10, 8, 6, 0.55)',
+              backdropFilter: 'blur(6px)',
               zIndex: 900,
               opacity: sigPanelOpen ? 1 : 0,
               pointerEvents: sigPanelOpen ? 'auto' : 'none',
-              transition: 'opacity 0.3s ease',
+              transition: 'opacity 0.35s ease',
             }}
           />
 
           {/* Panel */}
           <div style={{
             position: 'fixed', top: 0, right: 0, bottom: 0,
-            width: '480px', maxWidth: '92vw',
-            backgroundColor: P.white,
+            width: '520px', maxWidth: '94vw',
+            background: 'linear-gradient(180deg, #0f0d0b 0%, #1a1714 40%, #141210 100%)',
             zIndex: 910,
             transform: sigPanelOpen ? 'translateX(0)' : 'translateX(100%)',
-            transition: 'transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+            transition: 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
             display: 'flex', flexDirection: 'column',
-            boxShadow: sigPanelOpen ? '-8px 0 40px rgba(26, 23, 20, 0.15)' : 'none',
+            boxShadow: sigPanelOpen ? '-12px 0 60px rgba(0, 0, 0, 0.5), -2px 0 0 rgba(184,115,51,0.3)' : 'none',
+            borderLeft: '1px solid rgba(184,115,51,0.2)',
+            overflow: 'hidden',
           }}>
-            {/* Panel header */}
+
+            {/* Animated left-edge glow line */}
             <div style={{
-              padding: '24px 28px 20px',
-              borderBottom: `1px solid ${P.border}`,
-              backgroundImage: 'linear-gradient(135deg, rgba(184,115,51,0.06) 0%, rgba(255,255,255,1) 60%)',
-              flexShrink: 0,
+              position: 'absolute', top: 0, left: 0, bottom: 0, width: '2px',
+              backgroundImage: 'linear-gradient(180deg, transparent 0%, rgba(184,115,51,0.8) 30%, rgba(196,163,90,0.6) 50%, rgba(184,115,51,0.8) 70%, transparent 100%)',
+              animation: 'sigPulse 3s ease-in-out infinite',
+              zIndex: 2,
+            }} />
+
+            {/* Subtle dot grid background */}
+            <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', opacity: 0.12, pointerEvents: 'none', zIndex: 0 }}>
+              <defs>
+                <pattern id="sigDotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+                  <circle cx="12" cy="12" r="1" fill="rgba(184,115,51,0.5)">
+                    <animate attributeName="r" values="0.8;1.5;0.8" dur="4s" repeatCount="indefinite" />
+                  </circle>
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#sigDotGrid)" />
+            </svg>
+
+            {/* Slow scan line */}
+            <div style={{
+              position: 'absolute', top: 0, left: 0, right: 0, height: '1px',
+              background: 'linear-gradient(90deg, transparent, rgba(184,115,51,0.15), transparent)',
+              animation: 'sigScanline 8s linear infinite',
+              zIndex: 1,
+            }} />
+
+            {/* ── Panel header ── */}
+            <div style={{
+              padding: '28px 32px 24px',
+              borderBottom: '1px solid rgba(184,115,51,0.15)',
+              background: 'linear-gradient(135deg, rgba(184,115,51,0.08) 0%, transparent 60%)',
+              flexShrink: 0, position: 'relative', zIndex: 5,
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                 <div>
-                  <div style={{ fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', color: P.copper, letterSpacing: '1.2px', marginBottom: '8px' }}>
+                  <div style={{
+                    fontSize: '9px', fontWeight: 700, textTransform: 'uppercase',
+                    letterSpacing: '2.5px', marginBottom: '10px',
+                    backgroundImage: metallicGradient,
+                    backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
+                  }}>
                     Microbiome Signature
                   </div>
-                  <h2 style={{ fontSize: '22px', fontWeight: 800, color: P.ink, margin: 0, lineHeight: 1.2 }}>
+                  <h2 style={{ fontSize: '24px', fontWeight: 800, color: '#f0ebe4', margin: 0, lineHeight: 1.2 }}>
                     {signature.name}
                   </h2>
-                  {signature.paperCount && (
+                  <div style={{ display: 'flex', gap: '8px', marginTop: '12px', flexWrap: 'wrap' }}>
+                    {signature.paperCount && (
+                      <span style={{
+                        display: 'inline-flex', alignItems: 'center', gap: '5px',
+                        backgroundColor: 'rgba(184,115,51,0.12)', color: P.copper,
+                        padding: '5px 12px', borderRadius: '14px', fontSize: '10px', fontWeight: 600,
+                        border: '1px solid rgba(184,115,51,0.2)',
+                      }}>
+                        <BookOpen size={10} /> {signature.paperCount} papers
+                      </span>
+                    )}
                     <span style={{
-                      display: 'inline-flex', alignItems: 'center', gap: '4px', marginTop: '10px',
-                      backgroundColor: P.bgWarm, color: P.copper,
-                      padding: '4px 12px', borderRadius: '12px', fontSize: '11px', fontWeight: 600,
+                      display: 'inline-flex', alignItems: 'center', gap: '5px',
+                      backgroundColor: 'rgba(90,138,122,0.12)', color: P.patinaLight,
+                      padding: '5px 12px', borderRadius: '14px', fontSize: '10px', fontWeight: 600,
+                      border: '1px solid rgba(90,138,122,0.2)',
                     }}>
-                      <BookOpen size={11} /> {signature.paperCount} papers
+                      <Layers size={10} /> 5 layers
                     </span>
-                  )}
+                  </div>
                 </div>
                 <button
                   onClick={() => { setSigPanelOpen(false); setSelectedTaxon(null); }}
                   style={{
-                    backgroundColor: P.bgWarm, border: 'none', borderRadius: '8px',
-                    width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    cursor: 'pointer', flexShrink: 0,
+                    backgroundColor: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)',
+                    borderRadius: '8px', width: '34px', height: '34px',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    cursor: 'pointer', flexShrink: 0, transition: 'all 0.2s ease',
                   }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.12)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.06)'; }}
                 >
-                  <X size={16} color={P.text} />
+                  <X size={15} color="rgba(240,235,228,0.7)" />
                 </button>
               </div>
             </div>
 
-            {/* Panel scrollable body */}
-            <div style={{ flex: 1, overflowY: 'auto', padding: '0' }}>
+            {/* ── Scrollable body ── */}
+            <div style={{ flex: 1, overflowY: 'auto', position: 'relative', zIndex: 5 }}>
 
-              {/* ── Layer 1: Metallomic — horizontal bar chart ── */}
+              {/* ── LAYER 1: Metallomic — glowing horizontal bars ── */}
               {signature.metallomicSignature && (() => {
-                const elevated = (signature.metallomicSignature.elevated || []).map(m => ({ name: m, value: 1, type: 'elevated' }));
-                const depleted = (signature.metallomicSignature.depleted || []).map(m => ({ name: m, value: -1, type: 'depleted' }));
-                const barData = [...elevated, ...depleted];
+                const elevated = (signature.metallomicSignature.elevated || []);
+                const depleted = (signature.metallomicSignature.depleted || []);
+                const total = elevated.length + depleted.length;
                 return (
-                  <div style={{ padding: '24px 28px', borderBottom: `1px solid ${P.border}` }}>
+                  <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
                     <div
                       onClick={() => toggleLayer('metallomic')}
-                      style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.metallomic ? '16px' : 0 }}
+                      style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.metallomic ? '20px' : 0 }}
                     >
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: P.copper }} />
-                        <span style={{ fontSize: '13px', fontWeight: 700, color: P.ink }}>Metallomic Signature</span>
-                        <span style={{ fontSize: '11px', color: P.textMuted }}>({barData.length})</span>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.copper, boxShadow: '0 0 8px rgba(184,115,51,0.5)', animation: 'sigGlow 2s ease-in-out infinite' }} />
+                        <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Metallomic Signature</span>
+                        <span style={{ fontSize: '10px', color: 'rgba(184,115,51,0.7)', fontWeight: 600, backgroundColor: 'rgba(184,115,51,0.1)', padding: '2px 8px', borderRadius: '10px' }}>{total}</span>
                       </div>
-                      <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.metallomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                      <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.metallomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                     </div>
                     {expandedLayers.metallomic && (
                       <div>
-                        {barData.length > 0 && (
-                          <ResponsiveContainer width="100%" height={barData.length * 32 + 24}>
-                            <BarChart data={barData} layout="vertical" margin={{ top: 0, right: 12, bottom: 0, left: 80 }}>
-                              <XAxis type="number" domain={[-1.2, 1.2]} hide />
-                              <YAxis type="category" dataKey="name" tick={{ fontSize: 11, fill: P.text, fontWeight: 500 }} axisLine={false} tickLine={false} width={76} />
-                              <Bar dataKey="value" radius={[4, 4, 4, 4]} barSize={18}>
-                                {barData.map((entry, idx) => (
-                                  <Cell key={idx} fill={entry.type === 'elevated' ? P.crimson : P.patina} fillOpacity={0.75} />
-                                ))}
-                              </Bar>
-                            </BarChart>
-                          </ResponsiveContainer>
+                        {elevated.length > 0 && (
+                          <div style={{ marginBottom: '16px' }}>
+                            <div style={{ fontSize: '9px', fontWeight: 700, color: '#e04040', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
+                              &#9650; Elevated
+                            </div>
+                            {elevated.map((metal, idx) => (
+                              <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '6px', animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both` }}>
+                                <span style={{ fontSize: '11px', color: 'rgba(240,235,228,0.8)', fontWeight: 500, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
+                                <div style={{ flex: 1, height: '6px', backgroundColor: 'rgba(255,255,255,0.04)', borderRadius: '3px', overflow: 'hidden' }}>
+                                  <div style={{
+                                    height: '100%', borderRadius: '3px',
+                                    background: 'linear-gradient(90deg, #8b2020, #e04040, #ff6b6b)',
+                                    boxShadow: '0 0 10px rgba(224,64,64,0.4)',
+                                    animation: `sigBarGrow 0.6s ease ${idx * 0.08}s both`,
+                                    transformOrigin: 'left',
+                                    width: `${60 + Math.random() * 40}%`,
+                                  }} />
+                                </div>
+                              </div>
+                            ))}
+                          </div>
                         )}
-                        <div style={{ display: 'flex', gap: '16px', marginTop: '8px', justifyContent: 'center' }}>
-                          <span style={{ fontSize: '10px', display: 'flex', alignItems: 'center', gap: '4px', color: P.textMuted }}>
-                            <span style={{ width: '8px', height: '8px', borderRadius: '2px', backgroundColor: P.crimson, display: 'inline-block' }} /> Elevated
-                          </span>
-                          <span style={{ fontSize: '10px', display: 'flex', alignItems: 'center', gap: '4px', color: P.textMuted }}>
-                            <span style={{ width: '8px', height: '8px', borderRadius: '2px', backgroundColor: P.patina, display: 'inline-block' }} /> Depleted
-                          </span>
-                        </div>
+                        {depleted.length > 0 && (
+                          <div>
+                            <div style={{ fontSize: '9px', fontWeight: 700, color: P.patinaLight, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
+                              &#9660; Depleted
+                            </div>
+                            {depleted.map((metal, idx) => (
+                              <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '6px', animation: `sigFadeUp 0.3s ease ${(elevated.length + idx) * 0.05}s both` }}>
+                                <span style={{ fontSize: '11px', color: 'rgba(240,235,228,0.8)', fontWeight: 500, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
+                                <div style={{ flex: 1, height: '6px', backgroundColor: 'rgba(255,255,255,0.04)', borderRadius: '3px', overflow: 'hidden' }}>
+                                  <div style={{
+                                    height: '100%', borderRadius: '3px',
+                                    background: 'linear-gradient(90deg, #3d6858, #5a8a7a, #7aaa98)',
+                                    boxShadow: '0 0 10px rgba(90,138,122,0.4)',
+                                    animation: `sigBarGrow 0.6s ease ${(elevated.length + idx) * 0.08}s both`,
+                                    transformOrigin: 'left',
+                                    width: `${50 + Math.random() * 40}%`,
+                                  }} />
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     )}
                   </div>
                 );
               })()}
 
-              {/* ── Layer 2: Taxonomic ── */}
+              {/* ── LAYER 2: Taxonomic ── */}
               {signature.taxonomicSignature && (
-                <div style={{ padding: '24px 28px', borderBottom: `1px solid ${P.border}` }}>
+                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
                   <div
                     onClick={() => toggleLayer('taxonomic')}
-                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.taxonomic ? '16px' : 0 }}
+                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.taxonomic ? '20px' : 0 }}
                   >
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                      <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: P.crimson }} />
-                      <span style={{ fontSize: '13px', fontWeight: 700, color: P.ink }}>Taxonomic Signature</span>
-                      <span style={{ fontSize: '11px', color: P.textMuted }}>
-                        ({(signature.taxonomicSignature.enriched?.length || 0) + (signature.taxonomicSignature.depleted?.length || 0)})
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#e04040', boxShadow: '0 0 8px rgba(224,64,64,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 0.3s' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Taxonomic Signature</span>
+                      <span style={{ fontSize: '10px', color: 'rgba(224,64,64,0.7)', fontWeight: 600, backgroundColor: 'rgba(224,64,64,0.1)', padding: '2px 8px', borderRadius: '10px' }}>
+                        {(signature.taxonomicSignature.enriched?.length || 0) + (signature.taxonomicSignature.depleted?.length || 0)}
                       </span>
                     </div>
-                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.taxonomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.taxonomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.taxonomic && (
                     <div>
                       {signature.taxonomicSignature.enriched?.length > 0 && (
-                        <div style={{ marginBottom: '14px' }}>
-                          <div style={{ fontSize: '10px', fontWeight: 700, color: P.crimson, textTransform: 'uppercase', letterSpacing: '0.8px', marginBottom: '8px' }}>Enriched</div>
+                        <div style={{ marginBottom: '16px' }}>
+                          <div style={{ fontSize: '9px', fontWeight: 700, color: '#e04040', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
+                            Enriched
+                          </div>
                           {signature.taxonomicSignature.enriched.map((taxon, i) => {
                             const taxonName = taxon.taxon?.replace(/\[\[|\]\]/g, '') || 'Unknown';
+                            const isOpen = selectedTaxon === taxon;
                             return (
                               <div
                                 key={i}
-                                onClick={() => setSelectedTaxon(selectedTaxon === taxon ? null : taxon)}
+                                onClick={() => setSelectedTaxon(isOpen ? null : taxon)}
                                 style={{
-                                  display: 'flex', alignItems: 'center', gap: '10px',
-                                  padding: '10px 12px', marginBottom: '4px', borderRadius: '8px',
-                                  cursor: 'pointer', transition: 'all 0.15s ease',
-                                  backgroundColor: selectedTaxon === taxon ? 'rgba(139,32,32,0.08)' : 'transparent',
-                                  border: `1px solid ${selectedTaxon === taxon ? 'rgba(139,32,32,0.2)' : 'transparent'}`,
+                                  padding: '10px 14px', marginBottom: '4px', borderRadius: '8px',
+                                  cursor: 'pointer', transition: 'all 0.2s ease',
+                                  backgroundColor: isOpen ? 'rgba(224,64,64,0.08)' : 'transparent',
+                                  border: `1px solid ${isOpen ? 'rgba(224,64,64,0.2)' : 'rgba(255,255,255,0.04)'}`,
+                                  animation: `sigFadeUp 0.3s ease ${i * 0.04}s both`,
                                 }}
-                                onMouseEnter={(e) => { if (selectedTaxon !== taxon) e.currentTarget.style.backgroundColor = 'rgba(139,32,32,0.04)'; }}
-                                onMouseLeave={(e) => { if (selectedTaxon !== taxon) e.currentTarget.style.backgroundColor = 'transparent'; }}
+                                onMouseEnter={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.03)'; e.currentTarget.style.borderColor = 'rgba(184,115,51,0.15)'; } }}
+                                onMouseLeave={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.04)'; } }}
                               >
-                                <span style={{ color: P.crimson, fontSize: '8px' }}>&#9650;</span>
-                                <div style={{ flex: 1 }}>
-                                  <div style={{ fontSize: '12px', fontWeight: 600, color: P.ink, fontStyle: 'italic' }}>{taxonName}</div>
-                                  {selectedTaxon === taxon && taxon.role && (
-                                    <div style={{ fontSize: '11px', color: P.text, marginTop: '6px', lineHeight: 1.5, paddingLeft: '2px' }}>
-                                      {taxon.role}
-                                    </div>
-                                  )}
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                  <span style={{ color: '#e04040', fontSize: '7px', flexShrink: 0 }}>&#9650;</span>
+                                  <span style={{ fontSize: '12px', fontWeight: 600, color: '#f0ebe4', fontStyle: 'italic', flex: 1 }}>{taxonName}</span>
+                                  <ChevronRight size={11} style={{ color: 'rgba(240,235,228,0.3)', transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
                                 </div>
-                                <ChevronRight size={12} style={{ color: P.textMuted, transform: selectedTaxon === taxon ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
+                                {isOpen && taxon.role && (
+                                  <div style={{ fontSize: '11px', color: 'rgba(240,235,228,0.6)', marginTop: '8px', lineHeight: 1.6, paddingLeft: '17px', borderLeft: '2px solid rgba(224,64,64,0.2)' }}>
+                                    {taxon.role}
+                                  </div>
+                                )}
                               </div>
                             );
                           })}
@@ -1387,33 +1474,36 @@ const ArticleView = ({ pageId, onNavigate }) => {
                       )}
                       {signature.taxonomicSignature.depleted?.length > 0 && (
                         <div>
-                          <div style={{ fontSize: '10px', fontWeight: 700, color: P.patina, textTransform: 'uppercase', letterSpacing: '0.8px', marginBottom: '8px' }}>Depleted</div>
+                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.patinaLight, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>
+                            Depleted
+                          </div>
                           {signature.taxonomicSignature.depleted.map((taxon, i) => {
                             const taxonName = taxon.taxon?.replace(/\[\[|\]\]/g, '') || 'Unknown';
+                            const isOpen = selectedTaxon === taxon;
                             return (
                               <div
                                 key={i}
-                                onClick={() => setSelectedTaxon(selectedTaxon === taxon ? null : taxon)}
+                                onClick={() => setSelectedTaxon(isOpen ? null : taxon)}
                                 style={{
-                                  display: 'flex', alignItems: 'center', gap: '10px',
-                                  padding: '10px 12px', marginBottom: '4px', borderRadius: '8px',
-                                  cursor: 'pointer', transition: 'all 0.15s ease',
-                                  backgroundColor: selectedTaxon === taxon ? 'rgba(90,138,122,0.08)' : 'transparent',
-                                  border: `1px solid ${selectedTaxon === taxon ? 'rgba(90,138,122,0.2)' : 'transparent'}`,
+                                  padding: '10px 14px', marginBottom: '4px', borderRadius: '8px',
+                                  cursor: 'pointer', transition: 'all 0.2s ease',
+                                  backgroundColor: isOpen ? 'rgba(90,138,122,0.08)' : 'transparent',
+                                  border: `1px solid ${isOpen ? 'rgba(90,138,122,0.2)' : 'rgba(255,255,255,0.04)'}`,
+                                  animation: `sigFadeUp 0.3s ease ${i * 0.04}s both`,
                                 }}
-                                onMouseEnter={(e) => { if (selectedTaxon !== taxon) e.currentTarget.style.backgroundColor = 'rgba(90,138,122,0.04)'; }}
-                                onMouseLeave={(e) => { if (selectedTaxon !== taxon) e.currentTarget.style.backgroundColor = 'transparent'; }}
+                                onMouseEnter={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.03)'; e.currentTarget.style.borderColor = 'rgba(90,138,122,0.15)'; } }}
+                                onMouseLeave={(e) => { if (!isOpen) { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.04)'; } }}
                               >
-                                <span style={{ color: P.patina, fontSize: '8px' }}>&#9660;</span>
-                                <div style={{ flex: 1 }}>
-                                  <div style={{ fontSize: '12px', fontWeight: 600, color: P.ink, fontStyle: 'italic' }}>{taxonName}</div>
-                                  {selectedTaxon === taxon && taxon.role && (
-                                    <div style={{ fontSize: '11px', color: P.text, marginTop: '6px', lineHeight: 1.5, paddingLeft: '2px' }}>
-                                      {taxon.role}
-                                    </div>
-                                  )}
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                  <span style={{ color: P.patinaLight, fontSize: '7px', flexShrink: 0 }}>&#9660;</span>
+                                  <span style={{ fontSize: '12px', fontWeight: 600, color: '#f0ebe4', fontStyle: 'italic', flex: 1 }}>{taxonName}</span>
+                                  <ChevronRight size={11} style={{ color: 'rgba(240,235,228,0.3)', transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
                                 </div>
-                                <ChevronRight size={12} style={{ color: P.textMuted, transform: selectedTaxon === taxon ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease', flexShrink: 0 }} />
+                                {isOpen && taxon.role && (
+                                  <div style={{ fontSize: '11px', color: 'rgba(240,235,228,0.6)', marginTop: '8px', lineHeight: 1.6, paddingLeft: '17px', borderLeft: '2px solid rgba(90,138,122,0.2)' }}>
+                                    {taxon.role}
+                                  </div>
+                                )}
                               </div>
                             );
                           })}
@@ -1424,30 +1514,32 @@ const ArticleView = ({ pageId, onNavigate }) => {
                 </div>
               )}
 
-              {/* ── Layer 3: Nutritional Immunity ── */}
+              {/* ── LAYER 3: Nutritional Immunity ── */}
               {signature.nutritionalImmunity && (
-                <div style={{ padding: '24px 28px', borderBottom: `1px solid ${P.border}` }}>
+                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
                   <div
                     onClick={() => toggleLayer('immunity')}
-                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.immunity ? '16px' : 0 }}
+                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.immunity ? '20px' : 0 }}
                   >
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                      <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: P.gold }} />
-                      <span style={{ fontSize: '13px', fontWeight: 700, color: P.ink }}>Nutritional Immunity</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.gold, boxShadow: '0 0 8px rgba(196,163,90,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 0.6s' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Nutritional Immunity</span>
                     </div>
-                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.immunity ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.immunity ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.immunity && (
                     <div>
                       {signature.nutritionalImmunity.elevated?.length > 0 && (
-                        <div style={{ marginBottom: '12px' }}>
-                          <div style={{ fontSize: '10px', fontWeight: 700, color: P.copper, textTransform: 'uppercase', letterSpacing: '0.8px', marginBottom: '8px' }}>Elevated</div>
+                        <div style={{ marginBottom: '14px' }}>
+                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.copper, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Host Defense &#8593;</div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                            {signature.nutritionalImmunity.elevated.map(marker => (
+                            {signature.nutritionalImmunity.elevated.map((marker, idx) => (
                               <span key={marker} style={{
-                                backgroundColor: 'rgba(184,115,51,0.1)', color: P.copper,
-                                padding: '5px 12px', borderRadius: '16px', fontSize: '11px', fontWeight: 600,
+                                backgroundColor: 'rgba(184,115,51,0.08)', color: P.copperLight,
+                                padding: '6px 14px', borderRadius: '20px', fontSize: '10px', fontWeight: 600,
                                 border: '1px solid rgba(184,115,51,0.2)',
+                                boxShadow: '0 0 6px rgba(184,115,51,0.1)',
+                                animation: `sigFadeUp 0.3s ease ${idx * 0.04}s both`,
                               }}>{marker}</span>
                             ))}
                           </div>
@@ -1455,13 +1547,15 @@ const ArticleView = ({ pageId, onNavigate }) => {
                       )}
                       {signature.nutritionalImmunity.depleted?.length > 0 && (
                         <div>
-                          <div style={{ fontSize: '10px', fontWeight: 700, color: P.patina, textTransform: 'uppercase', letterSpacing: '0.8px', marginBottom: '8px' }}>Depleted</div>
+                          <div style={{ fontSize: '9px', fontWeight: 700, color: P.patinaLight, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Compromised &#8595;</div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                            {signature.nutritionalImmunity.depleted.map(marker => (
+                            {signature.nutritionalImmunity.depleted.map((marker, idx) => (
                               <span key={marker} style={{
-                                backgroundColor: 'rgba(90,138,122,0.1)', color: P.patina,
-                                padding: '5px 12px', borderRadius: '16px', fontSize: '11px', fontWeight: 600,
+                                backgroundColor: 'rgba(90,138,122,0.08)', color: P.patinaLight,
+                                padding: '6px 14px', borderRadius: '20px', fontSize: '10px', fontWeight: 600,
                                 border: '1px solid rgba(90,138,122,0.2)',
+                                boxShadow: '0 0 6px rgba(90,138,122,0.1)',
+                                animation: `sigFadeUp 0.3s ease ${idx * 0.04}s both`,
                               }}>{marker}</span>
                             ))}
                           </div>
@@ -1472,27 +1566,29 @@ const ArticleView = ({ pageId, onNavigate }) => {
                 </div>
               )}
 
-              {/* ── Layer 4: Ecological Features ── */}
+              {/* ── LAYER 4: Ecological Features ── */}
               {signature.ecologicalFeatures?.length > 0 && (
-                <div style={{ padding: '24px 28px', borderBottom: `1px solid ${P.border}` }}>
+                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
                   <div
                     onClick={() => toggleLayer('ecological')}
-                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.ecological ? '16px' : 0 }}
+                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.ecological ? '20px' : 0 }}
                   >
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                      <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: P.patina }} />
-                      <span style={{ fontSize: '13px', fontWeight: 700, color: P.ink }}>Ecological Features</span>
-                      <span style={{ fontSize: '11px', color: P.textMuted }}>({signature.ecologicalFeatures.length})</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: P.patina, boxShadow: '0 0 8px rgba(90,138,122,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 0.9s' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Ecological Features</span>
+                      <span style={{ fontSize: '10px', color: 'rgba(90,138,122,0.7)', fontWeight: 600, backgroundColor: 'rgba(90,138,122,0.1)', padding: '2px 8px', borderRadius: '10px' }}>{signature.ecologicalFeatures.length}</span>
                     </div>
-                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.ecological ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.ecological ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.ecological && (
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                      {signature.ecologicalFeatures.map(feature => (
+                      {signature.ecologicalFeatures.map((feature, idx) => (
                         <span key={feature} style={{
-                          backgroundColor: 'rgba(90,138,122,0.08)', color: P.text,
-                          padding: '6px 14px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
-                          border: '1px solid rgba(90,138,122,0.2)',
+                          backgroundColor: 'rgba(90,138,122,0.06)', color: 'rgba(240,235,228,0.75)',
+                          padding: '7px 16px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
+                          border: '1px solid rgba(90,138,122,0.15)',
+                          boxShadow: '0 0 6px rgba(90,138,122,0.08)',
+                          animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both`,
                         }}>{feature}</span>
                       ))}
                     </div>
@@ -1500,54 +1596,107 @@ const ArticleView = ({ pageId, onNavigate }) => {
                 </div>
               )}
 
-              {/* ── Layer 5: Virulence Enzymes ── */}
+              {/* ── LAYER 5: Virulence Enzymes ── */}
               {signature.virulenceEnzymes?.length > 0 && (
-                <div style={{ padding: '24px 28px', borderBottom: `1px solid ${P.border}` }}>
+                <div style={{ padding: '24px 32px', borderBottom: '1px solid rgba(184,115,51,0.1)' }}>
                   <div
                     onClick={() => toggleLayer('virulence')}
-                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.virulence ? '16px' : 0 }}
+                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', marginBottom: expandedLayers.virulence ? '20px' : 0 }}
                   >
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                      <div style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: P.crimson }} />
-                      <span style={{ fontSize: '13px', fontWeight: 700, color: P.ink }}>Virulence Enzymes</span>
-                      <span style={{ fontSize: '11px', color: P.textMuted }}>({signature.virulenceEnzymes.length})</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      <div style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#e04040', boxShadow: '0 0 8px rgba(224,64,64,0.4)', animation: 'sigGlow 2.5s ease-in-out infinite 1.2s' }} />
+                      <span style={{ fontSize: '12px', fontWeight: 700, color: '#f0ebe4', letterSpacing: '0.5px' }}>Virulence Enzymes</span>
+                      <span style={{ fontSize: '10px', color: 'rgba(224,64,64,0.7)', fontWeight: 600, backgroundColor: 'rgba(224,64,64,0.1)', padding: '2px 8px', borderRadius: '10px' }}>{signature.virulenceEnzymes.length}</span>
                     </div>
-                    <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.virulence ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                    <ChevronRight size={14} style={{ color: 'rgba(240,235,228,0.4)', transform: expandedLayers.virulence ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
                   </div>
                   {expandedLayers.virulence && (
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                      {signature.virulenceEnzymes.map(enzyme => (
+                      {signature.virulenceEnzymes.map((enzyme, idx) => (
                         <span key={enzyme} style={{
-                          backgroundColor: 'rgba(139,32,32,0.07)', color: P.crimson,
-                          padding: '6px 14px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
-                          border: '1px solid rgba(139,32,32,0.15)',
+                          backgroundColor: 'rgba(224,64,64,0.06)', color: '#ff8a8a',
+                          padding: '7px 16px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
+                          border: '1px solid rgba(224,64,64,0.15)',
+                          boxShadow: '0 0 6px rgba(224,64,64,0.08)',
+                          animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both`,
                         }}>{enzyme}</span>
                       ))}
                     </div>
                   )}
                 </div>
               )}
+
+              {/* ── NETWORK MINI-VIZ: metals → taxa connections ── */}
+              {signature.metallomicSignature && signature.taxonomicSignature && (() => {
+                const metals = (signature.metallomicSignature.elevated || []).slice(0, 6);
+                const taxa = (signature.taxonomicSignature.enriched || []).slice(0, 6).map(t => t.taxon?.replace(/\[\[|\]\]/g, '') || '?');
+                const w = 420, h = 180;
+                const metalY = metals.map((_, i) => 30 + (i * (h - 60)) / Math.max(metals.length - 1, 1));
+                const taxaY = taxa.map((_, i) => 30 + (i * (h - 60)) / Math.max(taxa.length - 1, 1));
+                return (
+                  <div style={{ padding: '24px 32px' }}>
+                    <div style={{ fontSize: '9px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '14px',
+                      backgroundImage: metallicGradient, backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
+                    }}>
+                      Metal — Taxon Network
+                    </div>
+                    <svg width="100%" viewBox={`0 0 ${w} ${h}`} style={{ overflow: 'visible' }}>
+                      {/* Connection lines */}
+                      {metals.map((metal, mi) => taxa.map((taxon, ti) => (
+                        <line
+                          key={`${mi}-${ti}`}
+                          x1={90} y1={metalY[mi]} x2={w - 120} y2={taxaY[ti]}
+                          stroke="rgba(184,115,51,0.12)" strokeWidth="1"
+                          strokeDasharray="200" style={{ animation: `sigLineTrace 2s ease ${(mi * taxa.length + ti) * 0.08}s both` }}
+                        />
+                      )))}
+                      {/* Metal nodes */}
+                      {metals.map((metal, i) => (
+                        <g key={`m-${i}`}>
+                          <circle cx={90} cy={metalY[i]} r="4" fill="#e04040" opacity="0.7">
+                            <animate attributeName="opacity" values="0.5;0.9;0.5" dur={`${2 + i * 0.3}s`} repeatCount="indefinite" />
+                          </circle>
+                          <circle cx={90} cy={metalY[i]} r="8" fill="none" stroke="rgba(224,64,64,0.2)" strokeWidth="1" />
+                          <text x={82} y={metalY[i] + 1} textAnchor="end" fill="rgba(240,235,228,0.7)" fontSize="9" fontWeight="600" style={{ textTransform: 'capitalize' }}>{metal}</text>
+                        </g>
+                      ))}
+                      {/* Taxa nodes */}
+                      {taxa.map((taxon, i) => (
+                        <g key={`t-${i}`}>
+                          <circle cx={w - 120} cy={taxaY[i]} r="4" fill={P.patina} opacity="0.7">
+                            <animate attributeName="opacity" values="0.5;0.9;0.5" dur={`${2.5 + i * 0.3}s`} repeatCount="indefinite" />
+                          </circle>
+                          <circle cx={w - 120} cy={taxaY[i]} r="8" fill="none" stroke="rgba(90,138,122,0.2)" strokeWidth="1" />
+                          <text x={w - 108} y={taxaY[i] + 1} textAnchor="start" fill="rgba(240,235,228,0.7)" fontSize="8" fontWeight="500" fontStyle="italic">{taxon.length > 18 ? taxon.slice(0, 16) + '...' : taxon}</text>
+                        </g>
+                      ))}
+                    </svg>
+                  </div>
+                );
+              })()}
             </div>
 
-            {/* Panel footer */}
+            {/* ── Panel footer ── */}
             <div style={{
-              padding: '16px 28px', borderTop: `1px solid ${P.border}`,
-              backgroundColor: P.bgWarm, flexShrink: 0,
+              padding: '18px 32px',
+              borderTop: '1px solid rgba(184,115,51,0.15)',
+              background: 'linear-gradient(180deg, rgba(26,23,20,0.8) 0%, rgba(15,13,11,1) 100%)',
+              flexShrink: 0, position: 'relative', zIndex: 5,
             }}>
               <button
                 onClick={() => { setSigPanelOpen(false); onNavigate({ view: 'signatures', disease: pageId }); }}
                 style={{
                   width: '100%',
                   backgroundImage: metallicGradient,
-                  border: 'none', color: P.white,
-                  padding: '12px 14px', borderRadius: '8px',
+                  border: 'none', color: '#fff',
+                  padding: '14px 16px', borderRadius: '10px',
                   fontSize: '13px', fontWeight: 700,
-                  cursor: 'pointer', transition: 'all 0.2s ease',
-                  boxShadow: '0 2px 8px rgba(184,115,51,0.3)',
-                  letterSpacing: '0.3px',
+                  cursor: 'pointer', transition: 'all 0.25s ease',
+                  boxShadow: '0 4px 20px rgba(184,115,51,0.3), inset 0 1px 0 rgba(255,255,255,0.15)',
+                  letterSpacing: '0.5px',
                 }}
-                onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 4px 16px rgba(184,115,51,0.45)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 2px 8px rgba(184,115,51,0.3)'; }}
+                onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 6px 28px rgba(184,115,51,0.5), inset 0 1px 0 rgba(255,255,255,0.2)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 20px rgba(184,115,51,0.3), inset 0 1px 0 rgba(255,255,255,0.15)'; e.currentTarget.style.transform = 'translateY(0)'; }}
               >
                 View Full Signature Page &rarr;
               </button>

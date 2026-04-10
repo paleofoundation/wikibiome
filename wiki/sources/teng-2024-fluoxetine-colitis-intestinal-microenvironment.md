@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, antidepressants, fluoxetine, SSRIs, coli
 - Intestinal barrier restoration relates to [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]] barrier integrity mechanisms
 - Macrophage polarization relevant to [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] tumor immune microenvironment
 - Colitis-cancer progression pathway connects to [[wang-2019-fmt-colitis-associated-colon-cancer-treg]]
+- [[colorectal-cancer]]

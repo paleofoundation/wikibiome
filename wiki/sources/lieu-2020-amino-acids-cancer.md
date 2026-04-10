@@ -36,3 +36,4 @@ tags: [colon-cancer, amino-acids, cancer-metabolism, glutamine, serine, glycine,
 - Polyamine metabolism links to [[microbiome-derived metabolites]] as gut bacteria produce polyamines that influence CRC progression
 - Methionine cycle and epigenetic regulation connects to [[Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of folate and one-carbon metabolism in CRC prevention
 - LAT1/ASCT2 transporter upregulation relevant to amino acid-based diagnostic approaches in [[Leichtle 2012 - Serum Amino Acid Profiles CRC]] and [[Yatabe 2013 - Amino Acid Profiling Colon Cancer Detection]]
+- [[colorectal-cancer]]

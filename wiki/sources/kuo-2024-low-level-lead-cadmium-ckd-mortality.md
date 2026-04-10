@@ -36,4 +36,4 @@ tags: [lead, cadmium, chronic-kidney-disease, mortality, NHANES, nephrotoxicity,
 - Synergistic effect supports [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]] on cumulative nephrotoxicity
 - Links to [[chronic kidney disease]] progression and [[all-cause mortality]]
 - Socioeconomic disparities connect to [[environmental justice]] in metal exposure
-- Cadmium-mortality link operates through [[cardiovascular disease]], cancer, and [[immune dysfunction]]
+- Cadmium-mortality link operates through [[cardiovascular-disease]], cancer, and [[immune dysfunction]]

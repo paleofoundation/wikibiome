@@ -34,3 +34,4 @@ doi: "10.1038/sj.bjc.6604917"
 - Anti-inflammatory mechanisms of exercise relate to [[microbiome-and-inflammation]] in CRC prevention
 - Insulin and metabolic pathways connect to [[metabolic-pathways]] in CRC development
 - Provides epidemiological context for understanding lifestyle factors that shape the CRC-associated [[gut-microbiome]]
+- [[colorectal-cancer]]

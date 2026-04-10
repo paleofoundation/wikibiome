@@ -34,3 +34,4 @@ tags: [colon-cancer, breast-cancer, microbiome-targeted-therapy, nanoparticles, 
 - Beta-glucuronidase activity connects to [[Rafter 2004 - Probiotics Colon Cancer Development]] discussion of fecal enzyme modulation by probiotics
 - BFT toxin pathogenesis directly relevant to [[Metz 2019 - Drug Discovery BFT Inhibition]] CDCA targeting of BFT
 - Nanoplatform drug delivery concepts applicable to [[Xia 2024 - Drug Repurposing Cancer Therapy]] nanotechnology integration discussion
+- [[colorectal-cancer]]

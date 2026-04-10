@@ -115,7 +115,7 @@ This mis-metallation event likely contributes to the initial ecological disrupti
 
 ## Taxonomic Analysis
 
-Paper-validated consensus from 27 studies confirms the conference transcript findings. Enriched taxa frequencies: Proteobacteria (22.2%), Streptococcus (22.2%), Firmicutes (14.8%), Gardnerella (11.1%), Candida (7.4%), Bacteroides (7.4%), Fusobacterium (7.4%). Depleted: Lactobacillus (11.1% — specifically vaginal depletion). The multi-site nature of endometriosis dysbiosis is confirmed across gut, vaginal, cervical, and peritoneal compartments.
+Paper-validated consensus from 27 studies confirms the conference transcript findings. Enriched taxa frequencies: Proteobacteria (22.2%), Streptococcus (22.2%), Firmicutes (14.8%), [[gardnerella|Gardnerella]] (11.1%), Candida (7.4%), Bacteroides (7.4%), Fusobacterium (7.4%). Depleted: Lactobacillus (11.1% — specifically vaginal depletion). The multi-site nature of endometriosis dysbiosis is confirmed across gut, vaginal, cervical, and peritoneal compartments.
 
 ### Enriched Taxa
 

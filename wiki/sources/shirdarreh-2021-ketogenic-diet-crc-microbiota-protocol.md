@@ -31,3 +31,4 @@ tags: [colon-cancer, colorectal-cancer, ketogenic-diet, gut-microbiota, 16S-rRNA
 - Protocol design complements actual experimental data in [[gao-2026-ketogenic-diet-fxr-nfkb-crc]] and [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]]
 - *Fusobacterium* enrichment in CRC connects to findings in [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]]
 - Th17 cytokine focus relates to immune mechanisms in [[hou-2022-gut-microbiota-immune-immunotherapy-crc]]
+- [[colorectal-cancer]]

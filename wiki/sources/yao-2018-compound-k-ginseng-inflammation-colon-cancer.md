@@ -33,3 +33,4 @@ doi: "10.3892/ol.2018.8414"
 - Anti-inflammatory IL-8 suppression connects to [[microbiome-and-inflammation]] in CRC prevention
 - Microbiome biotransformation of dietary compounds relates to [[metabolic-pathways]] and [[microbiome-diet]] interactions
 - p53/p21 pathway activation connects to host gene expression changes in [[microbiome-host-interactions]]
+- [[colorectal-cancer]]

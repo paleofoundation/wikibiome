@@ -44,3 +44,4 @@ This study contributes to the [[gut-metal-microbiome]] model by:
 1. **Bacterial translocation biomarker** - Elevated circDNA and 16S rRNA in blood provides measurable evidence of increased bacterial translocation in CVD, a process that may be exacerbated by [[lead]] and [[cadmium]] exposure through intestinal barrier disruption
 2. **Circulating [[dysbiosis]]** - The shift from Proteobacteria to Actinobacteria dominance in CVD blood suggests a disease-specific blood microbiome signature
 3. **[[Inflammation]] link** - Increased Actinobacteria and decreased Proteobacteria in CVD circulation may reflect differential bacterial translocation through a compromised gut barrier, directly relevant to systemic [[inflammation]]
+- [[cardiovascular-disease]]

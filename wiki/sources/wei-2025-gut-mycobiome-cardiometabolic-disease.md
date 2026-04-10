@@ -46,6 +46,8 @@ Comprehensive review consolidating evidence on the gut mycobiome's role in cardi
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
+- [[cardiovascular-disease]]
+
 1. **Cross-kingdom [[dysbiosis]]** - Heavy metals affect both bacterial and fungal communities; this review demonstrates that both kingdoms contribute to CMD progression
 2. **Fungal metabolites** - Enzymatic derivatives, alcohols, and other fungal metabolites may interact with metal toxicity pathways to amplify [[oxidative-stress]] and [[inflammation]]
 3. **[[Cadmium]] and fungal resistance** - Some fungi like *Candida* have metal-binding capabilities that could shift competitive dynamics in the gut under metal exposure

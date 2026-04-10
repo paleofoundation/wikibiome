@@ -34,3 +34,4 @@ doi: "10.3389/fpsyt.2025.1541414"
 - Complements [[Kong et al. 2021|kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] on ketogenic diet mechanisms in colitis
 - TLR4 inhibition connects to [[dysbiosis]]-driven endotoxemia in IBD
 - Calprotectin as monitoring biomarker connects to [[calprotectin]] in IBD tracking
+- [[crohns-disease]]

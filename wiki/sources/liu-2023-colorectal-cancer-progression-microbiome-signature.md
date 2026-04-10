@@ -36,3 +36,4 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, CRC-progression, s
 - [[dysbiosis]] -- CRC progression is associated with progressive loss of beneficial bacteria and enrichment of pathogenic genera
 - [[oxidative-stress]] -- ER stress and unfolded protein response pathways linked to *Alistipes indistinctus* in advanced CRC
 - [[metal-carcinogenesis]] -- inorganic ion transport and metabolism pathways significantly different between CRC stages
+- [[colorectal-cancer]]

@@ -33,3 +33,5 @@ doi: "10.1007/s00253-018-9447-x"
 - Donor microbiota engraftment including [[faecalibacterium-prausnitzii]] is time-limited, requiring reinforcement
 - TMAO elevation connects to cardiovascular risk and [[inflammation]] pathways
 - Sequential FMT protocol addresses the transient nature of [[dysbiosis]] correction
+- [[cardiovascular-disease]]
+- [[crohns-disease]]

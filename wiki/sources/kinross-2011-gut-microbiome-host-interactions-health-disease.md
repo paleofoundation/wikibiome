@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, gut-microbiome, host-interactions, metag
 - Colon cancer mechanism via bile acids connects to [[ajouz-2014-secondary-bile-acids-colon-cancer]] and [[cao-2025-metabolic-interactions-microbial-metabolites-crc]]
 - Core microbiome concept relates to [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]] cross-cohort consistency
 - Drug metabolism implications connect to [[guthrie-2017-microbiome-consensus-molecular-subtypes-crc]]
+- [[colorectal-cancer]]

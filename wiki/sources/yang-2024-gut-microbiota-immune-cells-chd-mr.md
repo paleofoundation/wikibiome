@@ -41,3 +41,4 @@ First mediated MR study investigating the causal pathway from gut microbiota thr
 2. **Sulfate-reducing bacteria** - *Desulfovibrio* species are sensitive to heavy metals; [[cadmium]] and [[lead]] exposure could deplete this protective taxon, removing CHD protection
 3. **H2S signaling** - Metal-induced depletion of H2S-producing bacteria may reduce cardioprotective H2S signaling
 4. **DN T cell immunology** - Provides a specific immune mechanism by which metal-induced [[dysbiosis]] could increase CHD risk through altered T cell populations
+- [[cardiovascular-disease]]

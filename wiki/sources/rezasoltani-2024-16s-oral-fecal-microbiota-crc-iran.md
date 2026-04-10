@@ -33,3 +33,4 @@ doi: "10.1186/s13099-024-00604-0"
 - Oral microbiome as CRC biomarker complements [[kudra-2023-oral-microbiome-crc-perspectives]] on oral-gut axis in CRC
 - ML-based diagnostic models contribute to [[microbial-biomarkers]] panel development for CRC screening
 - *Lachnospiraceae* enrichment in CRC stool aligns with findings in [[suga-2022-gut-microbiota-sided-crc-colectomy]]
+- [[colorectal-cancer]]

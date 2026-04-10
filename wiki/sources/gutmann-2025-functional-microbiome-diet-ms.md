@@ -32,7 +32,7 @@ doi: "10.21203/rs.3.rs-7434844/v1"
   - Ratio of indole metabolites to tryptophan significantly higher in KD (q_I3A = 0.002, q_ILA = 0.004)
 - **Microbiome findings**: No significant change in alpha or beta diversity across diets; KD enriched gut microbial modules for glycerol degradation III (MF0062) and propionate production II (MF0094)
 - **Lesion associations**: Propionate production II (MF0094) enrichment in KD associated with steeper decrease in lesion volume; starch degradation (MF0005) changes in FD associated with lesion count decreases
-- **Species-level**: *R. timonensis*, *R. intestinalis*, *B. thetaiotaomicron* showed time- and group-dependent relationships with lesion volume (q < 0.1) in KD; *Intestinibacter bartlettii* linked to starch degradation in FD
+- **Species-level**: *R. timonensis*, *R. intestinalis*, *B. thetaiotaomicron* showed time- and group-dependent relationships with lesion volume (q < 0.1) in KD; *[[intestinibacter|Intestinibacter]] bartlettii* linked to starch degradation in FD
 - **Mediation analysis**: Propionate production II abundance showed patterns consistent with mediating KD's effect on lesion volume
 - **Limitations**: Preprint (not yet peer-reviewed); no significant change in primary endpoint (T2 lesion count); relatively small per-group sample sizes
 

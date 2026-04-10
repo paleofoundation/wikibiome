@@ -161,3 +161,7 @@ Iron intersects with CRC through multiple pathways:
 ### Geographic Diet Contrasts
 
 The starkest evidence comes from African American vs rural African comparisons: CRC rates of 65 vs <5 per 100,000, with *Prevotella* predominant in native Africans (high fiber) and *Bacteroides* predominant in African Americans (high fat/protein). This dietary selection of the microbiome mediates the majority of CRC risk.
+
+## Connections
+
+- [[metal-disease-matrix]]

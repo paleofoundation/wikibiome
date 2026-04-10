@@ -44,3 +44,4 @@ doi: "10.1109/TCYB.2021.3131292"
 - ATP7A Cu transporter overexpression in PDAC connects [[copper]] metabolism to cancer-specific metalloprotein biology
 - Mg and Ca decreases may relate to disrupted cell signaling and S100 protein dysregulation, connecting to [[calcium]] and [[magnesium]] roles in cellular homeostasis
 - The combined biomarker panel approach mirrors multi-element strategies used in other cancers and cardiovascular disease [[metallomics]]
+- [[cardiovascular-disease]]

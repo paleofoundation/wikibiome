@@ -42,4 +42,5 @@ doi: "10.31744/einstein_journal/2021CE6773"
 - [[arsenic]] - also IARC Group 1; co-occurs in environmental contamination
 - [[oxidative-stress|oxidative stress]] - Cr induces ROS via multiple pathways
 - [[drinking-water-quality]] - Cr(VI) in drinking water linked to GI cancers
+- [[colorectal-cancer]]
 - [[Occupational Exposure]] - tanneries, chrome plating, ferrochrome production

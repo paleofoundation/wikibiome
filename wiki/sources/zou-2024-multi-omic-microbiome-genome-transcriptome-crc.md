@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, metagenomics, exome-sequencing, transcri
 - *F. nucleatum* enrichment consistent with [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]] and [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]]
 - Somatic mutation-microbiome interaction relates to [[xiang-2023-host-gene-microbiome-crc-mr]] causal analysis
 - *F. prausnitzii* depletion in CRC aligns with [[wu-2021-microbial-markers-populations-early-crc]] biomarker findings
+- [[colorectal-cancer]]

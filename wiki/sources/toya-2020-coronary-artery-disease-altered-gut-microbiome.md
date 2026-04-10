@@ -46,3 +46,7 @@ Case-control study at Mayo Clinic comparing gut microbiome composition between 5
 ## Relevance to the Wiki
 
 Provides direct evidence linking reduced gut microbial diversity and depletion of butyrate-producing [[Lachnospiraceae]] family members to [[coronary-artery-disease]]. The enrichment of *Ruminococcus gnavus* (a pro-inflammatory species) in CAD parallels findings from [[jie-2017-gut-microbiome-acvd]] and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]].
+
+## Connections
+
+- [[cardiovascular-disease]]

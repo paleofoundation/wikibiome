@@ -34,3 +34,4 @@ doi: "10.1039/D0FO00713G"
 - [[escherichia-coli]] AIEC inhibition by polyphenols as therapeutic mechanism
 - Nrf2 activation relevant to [[ferroptosis]] defense and oxidative stress management
 - Metal chelation by polyphenols (catechins bind [[iron]], [[copper]]) affects both bioavailability and oxidative potential
+- [[crohns-disease]]

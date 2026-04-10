@@ -32,3 +32,4 @@ tags: [colon-cancer, colorectal-cancer, gut-microbiome, sex-hormones, estrogen, 
 - Gonadectomy-microbiome studies relate to [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]] experimental estrogen effects
 - PCOS connections parallel [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]] and [[barrea-2019-mediterranean-diet-pcos]]
 - *Akkermansia* depletion pattern parallels findings in [[gao-2026-ketogenic-diet-fxr-nfkb-crc]] where KD enriches *Akkermansia*
+- [[colorectal-cancer]]

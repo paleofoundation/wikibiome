@@ -34,3 +34,4 @@ tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colorectal-cancer, i
 - Immune cell infiltration findings connect to [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of FMT enhancing ICB therapy
 - Bacterial correlations with cytokines provide specific therapeutic targets relevant to [[Zhu 2022 - Berberine UC Cancer Therapy]] microbiome modulation
 - The Firmicutes/Bacteroidetes ratio normalization parallels dysbiosis patterns in [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[colorectal-cancer]]

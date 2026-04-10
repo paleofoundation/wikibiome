@@ -37,3 +37,4 @@ tags: [colon-cancer, colorectal-cancer, virome, bacteriophage, Enterobacteria-ph
 - [[dysbiosis]] -- virome dysbiosis in CRC is characterized by increased phage network connectivity and altered trans-kingdom interactions that partially persist after surgery
 - [[gut-metal-microbiome]] -- bacteriophages that target metal-sensitive or metal-resistant bacteria may be affected by environmental metal exposure
 - [[oxidative-stress]] -- phage-mediated lysis of commensal bacteria releases inflammatory contents; persistent virome dysbiosis post-surgery may contribute to ongoing inflammation
+- [[colorectal-cancer]]
