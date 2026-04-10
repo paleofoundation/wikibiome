@@ -1,9 +1,21 @@
 {
-  "buildCommand": "node scripts/build-content.cjs && npx vite build",
-  "outputDirectory": "dist-v18",
+  "buildCommand": "node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs",
+  "outputDirectory": "dist-v19",
   "installCommand": "npm install",
   "framework": null,
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+    }
+  ],
   "rewrites": [
+    { "source": "/article/:id", "destination": "/article/:id/index.html" },
+    { "source": "/category/:cat", "destination": "/category/:cat/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
