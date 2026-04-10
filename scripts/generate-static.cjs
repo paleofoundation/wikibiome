@@ -22,6 +22,16 @@ const distMatch = viteConfig.match(/outDir:\s*['"]([^'"]+)['"]/);
 const DIST_DIR = path.join(__dirname, '..', distMatch ? distMatch[1] : 'dist');
 
 const DOMAIN = 'https://wikibiome.com';
+const GA_MEASUREMENT_ID = 'G-H480L4E9JF';
+const GA_SNIPPET = `
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${GA_MEASUREMENT_ID}');
+  </script>`;
 
 // Read the built index.html to get the actual script/asset references
 const indexHtml = fs.readFileSync(path.join(DIST_DIR, 'index.html'), 'utf8');
@@ -215,6 +225,7 @@ function generatePageHtml(page, urlPath) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  ${GA_SNIPPET}
   <title>${escapeHtml(fullTitle)}</title>
   <meta name="description" content="${escapeHtml(description)}" />
   <link rel="canonical" href="${canonicalUrl}" />
@@ -330,6 +341,7 @@ function generateHomepageHtml() {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  ${GA_SNIPPET}
   <title>WikiBiome — The Microbiome Metallomics Encyclopedia</title>
   <meta name="description" content="The open encyclopedia of microbiome metallomics. Explore how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. ${CONTENT.pages.length} articles on metals, microbes, disease signatures, and mechanisms." />
   <link rel="canonical" href="${DOMAIN}/" />
@@ -403,6 +415,7 @@ function generateCategoryHtml(category, pages) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  ${GA_SNIPPET}
   <title>${escapeHtml(catTitle)} — WikiBiome</title>
   <meta name="description" content="${escapeHtml(description)}" />
   <link rel="canonical" href="${DOMAIN}/category/${category}" />
