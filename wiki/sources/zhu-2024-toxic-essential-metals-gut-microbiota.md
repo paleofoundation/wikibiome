@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Qinheng Zhu, Boyan Chen, Fu Zhang, Baodan Zhang, Yujie Guo, Mengtao Pang, Liang Huang, Tianjiao Wang]
 journal: Frontiers in Nutrition
 year: 2024
-tags: [heavy-metals, gut-microbiota, metabolites, arsenic, mercury, lead, cadmium, copper, manganese, iron, nickel, chromium, silicon, bidirectional-interaction, SCFAs, bile-acids, review]
+tags: [pancreatic-cancer, heavy-metals, gut-microbiota, metabolites, arsenic, mercury, lead, cadmium, copper, manganese, iron, nickel, chromium, silicon, bidirectional-interaction, SCFAs, bile-acids, review]
 doi: "10.1016/j.biopha.2023.115602"
 ---
 

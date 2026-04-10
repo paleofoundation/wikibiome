@@ -83,14 +83,113 @@ function getPageTitle(page) {
   return capitalized;
 }
 
-// Convert markdown-ish text to basic HTML for crawlers
+// Category descriptions for richer homepage/category page content
+function getCategoryDescription(cat) {
+  const descs = {
+    microbe: 'Bacteria, fungi, and archaea — their metal dependencies, virulence enzymes, and ecological roles in the human microbiome',
+    mechanism: 'Biological mechanisms connecting heavy metals to microbiome disruption, including nutritional immunity, mis-metallation, and siderophore competition',
+    disease: 'Conditions linked to heavy metal exposure and microbiome disruption, from autoimmune to neurodegenerative disorders',
+    metal: 'Essential and toxic metals — their biological roles, exposure routes, and impact on microbial ecology',
+    defense: 'Host defense systems including calprotectin, lactoferrin, hepcidin, and other nutritional immunity proteins',
+    signature: 'Multi-layer disease signatures mapping metallomic, taxonomic, ecological, and virulence features',
+    stop: 'Interventions that are counterproductive despite conventional wisdom — where standard-of-care may feed the disease',
+    intervention: 'Evidence-based therapeutic approaches validated through the Triangle Test framework',
+    analysis: 'Cross-cutting comparisons and syntheses across conditions, metals, and mechanisms',
+  };
+  return descs[cat] || '';
+}
+
+// Convert markdown-ish text to rich HTML for crawlers
 function markdownToHtml(text) {
   if (!text) return '';
-  let html = escapeHtml(text);
+
+  // Process block-level elements first, then inline
+  const lines = text.split('\n');
+  const blocks = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    // Blank line — skip
+    if (line.trim() === '') { i++; continue; }
+
+    // Table detection: line with | characters, followed by separator row
+    if (line.includes('|') && i + 1 < lines.length && /^\|?\s*[-:]+[-| :]*$/.test(lines[i + 1]?.trim())) {
+      const tableLines = [];
+      while (i < lines.length && lines[i].trim().includes('|')) {
+        tableLines.push(lines[i]);
+        i++;
+      }
+      blocks.push(renderTable(tableLines));
+      continue;
+    }
+
+    // Unordered list item
+    if (/^[-*]\s+/.test(line.trim())) {
+      const listItems = [];
+      while (i < lines.length && /^[-*]\s+/.test(lines[i].trim())) {
+        listItems.push(lines[i].trim().replace(/^[-*]\s+/, ''));
+        i++;
+      }
+      blocks.push('<ul>' + listItems.map(li => `<li>${inlineMarkdown(escapeHtml(li))}</li>`).join('') + '</ul>');
+      continue;
+    }
+
+    // Ordered list item
+    if (/^\d+[.)]\s+/.test(line.trim())) {
+      const listItems = [];
+      while (i < lines.length && /^\d+[.)]\s+/.test(lines[i].trim())) {
+        listItems.push(lines[i].trim().replace(/^\d+[.)]\s+/, ''));
+        i++;
+      }
+      blocks.push('<ol>' + listItems.map(li => `<li>${inlineMarkdown(escapeHtml(li))}</li>`).join('') + '</ol>');
+      continue;
+    }
+
+    // Regular paragraph — collect consecutive non-blank, non-special lines
+    const paraLines = [];
+    while (i < lines.length && lines[i].trim() !== '' &&
+           !/^[-*]\s+/.test(lines[i].trim()) &&
+           !/^\d+[.)]\s+/.test(lines[i].trim()) &&
+           !(lines[i].includes('|') && i + 1 < lines.length && /^\|?\s*[-:]+/.test(lines[i + 1]?.trim()))) {
+      paraLines.push(lines[i]);
+      i++;
+    }
+    if (paraLines.length) {
+      blocks.push(`<p>${inlineMarkdown(escapeHtml(paraLines.join(' ')))}</p>`);
+    }
+  }
+
+  return blocks.join('\n');
+}
+
+// Render a markdown table to HTML
+function renderTable(tableLines) {
+  if (tableLines.length < 2) return '';
+  const parseRow = (line) => line.replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+  const headers = parseRow(tableLines[0]);
+  // Skip separator row (index 1)
+  const rows = tableLines.slice(2).map(parseRow);
+
+  let html = '<table><thead><tr>';
+  html += headers.map(h => `<th>${inlineMarkdown(escapeHtml(h))}</th>`).join('');
+  html += '</tr></thead><tbody>';
+  for (const row of rows) {
+    html += '<tr>' + row.map(c => `<td>${inlineMarkdown(escapeHtml(c))}</td>`).join('') + '</tr>';
+  }
+  html += '</tbody></table>';
+  return html;
+}
+
+// Process inline markdown: bold, italic, wikilinks, source refs, em dashes
+function inlineMarkdown(html) {
   // Bold
   html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   // Italic
   html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  // Triple-bracket source citations → remove brackets, keep as plain text
+  html = html.replace(/\[\[\[([^\]]+)\]\]\]/g, '($1)');
   // Wikilinks with display text
   html = html.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, (_, target, display) => {
     const slug = target.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
@@ -102,10 +201,9 @@ function markdownToHtml(text) {
     const display = target.replace(/-/g, ' ');
     return `<a href="/article/${slug}">${display}</a>`;
   });
-  // Line breaks
-  html = html.replace(/\n\n/g, '</p><p>');
-  html = html.replace(/\n/g, '<br/>');
-  return `<p>${html}</p>`;
+  // Double-dash to em-dash
+  html = html.replace(/--/g, '&mdash;');
+  return html;
 }
 
 // Generate JSON-LD structured data
@@ -261,6 +359,10 @@ function generatePageHtml(page, urlPath) {
     .static-content nav a { color: #b87333; }
     .static-content ul, .static-content ol { margin: 12px 0 12px 24px; }
     .static-content li { margin-bottom: 6px; }
+    .static-content table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 14px; }
+    .static-content th, .static-content td { border: 1px solid #e0dcd7; padding: 8px 12px; text-align: left; }
+    .static-content th { background: #f8f6f3; font-weight: 600; color: #333; }
+    .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
   </style>
@@ -310,19 +412,26 @@ function generateHomepageHtml() {
   let categoryLinks = '';
   for (const [cat, pages] of Object.entries(categories).sort((a, b) => b[1].length - a[1].length)) {
     const catTitle = cat.charAt(0).toUpperCase() + cat.slice(1);
-    categoryLinks += `<li><a href="/category/${cat}">${catTitle}</a> (${pages.length} articles)</li>\n`;
+    const catDesc = getCategoryDescription(cat);
+    categoryLinks += `<li><a href="/category/${cat}"><strong>${catTitle}</strong></a> (${pages.length} articles)${catDesc ? ` — ${catDesc}` : ''}</li>\n`;
   }
 
   let recentPages = CONTENT.pages
     .filter(p => p.updated || p.created)
     .sort((a, b) => (b.updated || b.created || '').localeCompare(a.updated || a.created || ''))
     .slice(0, 20)
-    .map(p => `<li><a href="/article/${p.id}">${escapeHtml(getPageTitle(p))}</a></li>`)
+    .map(p => {
+      const desc = getPageDescription(p);
+      return `<li><a href="/article/${p.id}">${escapeHtml(getPageTitle(p))}</a>${desc ? ` — ${escapeHtml(truncate(desc, 120))}` : ''}</li>`;
+    })
     .join('\n');
 
   const signatureLinks = CONTENT.pages
     .filter(p => p.type === 'signature')
-    .map(p => `<li><a href="/article/${p.id}">${escapeHtml(getPageTitle(p))}</a></li>`)
+    .map(p => {
+      const desc = getPageDescription(p);
+      return `<li><a href="/article/${p.id}"><strong>${escapeHtml(getPageTitle(p))}</strong></a>${desc ? `<br/><span style="font-size:14px;color:#555;">${escapeHtml(truncate(desc, 160))}</span>` : ''}</li>`;
+    })
     .join('\n');
 
   const jsonLd = JSON.stringify({
@@ -380,8 +489,12 @@ function generateHomepageHtml() {
       <p><strong>The open encyclopedia of microbiome metallomics.</strong></p>
       <p>WikiBiome explores how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. A project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
 
+      <h2>What is Microbiome Metallomics?</h2>
+      <p>Microbiome metallomics is the study of how metals — both essential (iron, zinc, manganese) and toxic (lead, cadmium, mercury, arsenic) — shape the composition and behavior of human-associated microbial communities. Heavy metals act as selective pressures on the microbiome, favoring metal-tolerant or metal-dependent organisms and suppressing sensitive beneficial species. This field integrates toxicology, microbial ecology, nutritional immunology, and clinical medicine to reveal how environmental metal exposures contribute to chronic disease through microbial mechanisms.</p>
+      <p>WikiBiome currently contains <strong>${CONTENT.pages.length} articles</strong> covering ${CONTENT.pages.filter(p => p.category === 'microbe').length} microorganisms, ${CONTENT.pages.filter(p => p.category === 'metal').length} metals, ${CONTENT.pages.filter(p => p.category === 'mechanism').length} biological mechanisms, and ${CONTENT.pages.filter(p => p.type === 'signature').length} disease signatures — all sourced from peer-reviewed research.</p>
+
       <h2>Disease Signatures</h2>
-      <p>Multi-layer microbiome signatures mapping metallomic, taxonomic, and ecological features of disease.</p>
+      <p>Each disease signature maps five layers of evidence: the metallomic profile (which metals are elevated or depleted), the taxonomic signature (which microbes are enriched or lost), the nutritional immunity response (how the host fights back), the ecological state (oxygen, pH, biofilm), and the virulence enzymes that connect metal availability to pathogenic function.</p>
       <ul>${signatureLinks}</ul>
 
       <h2>Browse by Category</h2>
@@ -390,7 +503,9 @@ function generateHomepageHtml() {
       <h2>Recent Articles</h2>
       <ul>${recentPages}</ul>
 
-      <p style="margin-top:40px;font-size:13px;color:#888;">WikiBiome contains ${CONTENT.pages.length} articles across ${Object.keys(categories).length} categories. <a href="/explore">Explore the knowledge graph</a> or <a href="/signatures">view disease signatures</a>.</p>
+      <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
+        <p>WikiBiome is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>, advancing microbiome medicine through open scientific education. <a href="/explore">Explore the knowledge graph</a> or <a href="/signatures">view disease signatures</a>.</p>
+      </footer>
     </div>
   </div>
   ${scriptTagFull}
@@ -402,13 +517,16 @@ function generateHomepageHtml() {
 
 function generateCategoryHtml(category, pages) {
   const catTitle = category.charAt(0).toUpperCase() + category.slice(1);
-  const description = `Browse ${pages.length} WikiBiome articles about ${catTitle.toLowerCase()} — microbiome metallomics research on ${catTitle.toLowerCase()}.`;
+  const catDesc = getCategoryDescription(category);
+  const description = catDesc
+    ? `${catTitle} — ${catDesc}. Browse ${pages.length} WikiBiome articles.`
+    : `Browse ${pages.length} WikiBiome articles about ${catTitle.toLowerCase()} — microbiome metallomics research.`;
 
   const articleLinks = pages
     .sort((a, b) => (a.title || a.id).localeCompare(b.title || b.id))
     .map(p => {
       const desc = getPageDescription(p);
-      return `<li><a href="/article/${p.id}">${escapeHtml(getPageTitle(p))}</a>${desc ? ` — ${escapeHtml(truncate(desc, 100))}` : ''}</li>`;
+      return `<li><a href="/article/${p.id}"><strong>${escapeHtml(getPageTitle(p))}</strong></a>${desc ? `<br/><span style="font-size:14px;color:#555;">${escapeHtml(truncate(desc, 160))}</span>` : ''}</li>`;
     })
     .join('\n');
 
@@ -444,8 +562,11 @@ function generateCategoryHtml(category, pages) {
     <div class="static-content">
       <nav><a href="/">WikiBiome</a> &rsaquo; <span>${escapeHtml(catTitle)}</span></nav>
       <h1>${escapeHtml(catTitle)}</h1>
-      <p>${pages.length} articles in this category.</p>
+      <p>${catDesc ? escapeHtml(catDesc) + '. ' : ''}${pages.length} articles in this category.</p>
       <ul>${articleLinks}</ul>
+      <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
+        <p><a href="/">WikiBiome</a> is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
+      </footer>
     </div>
   </div>
   ${scriptTagFull}

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Elizabeth L. Lieu, Tu Nguyen, Shawn Rhyne, Jiyeon Kim]
 journal: Experimental & Molecular Medicine
 year: 2020
-tags: [colon-cancer, amino-acids, cancer-metabolism, glutamine, serine, glycine, methionine, tryptophan, kynurenine, BCAAs, epigenetic-regulation, immunosuppression, review, colorectal-cancer]
+tags: [pancreatic-cancer, colon-cancer, amino-acids, cancer-metabolism, glutamine, serine, glycine, methionine, tryptophan, kynurenine, BCAAs, epigenetic-regulation, immunosuppression, review, colorectal-cancer]
 ---
 
 # Key Claims

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [McDermott TR, Stolz JF, Oremland RS]
 journal: Environmental Microbiology Reports
 year: 2020
-tags: [arsenic, gut-microbiome, arsenic-resistance, arsenic-methylation, arsenic-biotransformation, GIT-microbiome, heavy-metals]
+tags: [pancreatic-cancer, arsenic, gut-microbiome, arsenic-resistance, arsenic-methylation, arsenic-biotransformation, GIT-microbiome, heavy-metals]
 doi: "10.1111/1758-2229.12814"
 ---
 
