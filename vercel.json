@@ -1,6 +1,6 @@
 {
   "buildCommand": "node scripts/build-content.cjs && npx vite build",
-  "outputDirectory": "dist-v8",
+  "outputDirectory": "dist-v9",
   "installCommand": "npm install",
   "framework": null,
   "rewrites": [

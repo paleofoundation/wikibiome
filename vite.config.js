@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
     chunkSizeWarningLimit: 2000,
-    outDir: 'dist-v8',
+    outDir: 'dist-v9',
   },
   server: { port: 5173, host: true },
 });

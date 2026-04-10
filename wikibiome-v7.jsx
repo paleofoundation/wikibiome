@@ -682,6 +682,19 @@ const ArticleView = ({ pageId, onNavigate }) => {
   const sections = (page.sections || []).filter(s => s.heading && s.body);
   const [activeSection, setActiveSection] = useState(0);
 
+  // Signature sidebar state
+  const [expandedLayers, setExpandedLayers] = useState({ metallomic: true, taxonomic: false, immunity: false, ecological: false, virulence: false });
+  const [selectedTaxon, setSelectedTaxon] = useState(null);
+
+  // Try to find signature for this page
+  const signatureId = CONTENT.signatures ? Object.keys(CONTENT.signatures).find(key =>
+    key.startsWith(pageId.replace(/-/g, '-').toLowerCase())
+  ) : null;
+  const signature = signatureId ? CONTENT.signatures[signatureId] : null;
+
+  // Determine grid columns based on whether we have a signature
+  const gridCols = signature ? '200px 1fr 380px' : '200px 1fr 280px';
+
   // Build citation map from inline references AND the page's sources array
   const { citationMap, allReferences } = useMemo(() => {
     const map = {};
@@ -729,27 +742,65 @@ const ArticleView = ({ pageId, onNavigate }) => {
   // Filter wikilinks to only show browsable article links (not source citations)
   const articleLinks = (page.wikilinks || []).filter(link => PAGE_IDS.has(link));
 
+  // Signature radar data
+  const radarData = signature?.metallomicSignature ? [
+    { name: 'Elevated', value: signature.metallomicSignature.elevated?.length || 0 },
+    { name: 'Depleted', value: signature.metallomicSignature.depleted?.length || 0 },
+  ] : [];
+
+  const toggleLayer = (layer) => {
+    setExpandedLayers(prev => ({ ...prev, [layer]: !prev[layer] }));
+  };
+
   return (
-    <div style={{ backgroundColor: P.bg, minHeight: 'calc(100vh - 70px)' }}>
-      {/* Breadcrumbs */}
-      <div style={{ backgroundColor: P.white, borderBottom: `1px solid ${P.border}`, padding: '12px 24px' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', fontSize: '13px', color: P.textMuted }}>
-          <span style={{ cursor: 'pointer', color: P.copper }} onClick={() => onNavigate({ view: 'home' })}>
+    <div style={{
+      backgroundColor: P.bg,
+      minHeight: 'calc(100vh - 70px)',
+      backgroundImage: 'radial-gradient(ellipse at 100% 0%, rgba(184, 115, 51, 0.02) 0%, transparent 60%)',
+    }}>
+      {/* Breadcrumbs - modern sleek style */}
+      <div style={{
+        backgroundColor: P.white,
+        borderBottom: `1px solid ${P.border}`,
+        padding: '12px 24px',
+        backgroundImage: 'linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(245,243,239,0.3) 100%)',
+      }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', fontSize: '13px', color: P.textMuted, display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <span style={{ cursor: 'pointer', color: P.copper, fontWeight: 500 }} onClick={() => onNavigate({ view: 'home' })}>
             Home
           </span>
-          {' / '}
-          <span style={{ cursor: 'pointer', color: P.copper }} onClick={() => onNavigate({ view: 'category', category: page.category })}>
+          <span style={{ color: P.border }}>·</span>
+          <span style={{ cursor: 'pointer', color: P.copper, fontWeight: 500 }} onClick={() => onNavigate({ view: 'category', category: page.category })}>
             {catLabel}
           </span>
-          {' / '}
-          <span style={{ color: P.text }}>{page.title}</span>
+          <span style={{ color: P.border }}>·</span>
+          <span style={{ color: P.text, fontWeight: 500 }}>{page.title}</span>
         </div>
       </div>
 
-      <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: '200px 1fr 280px', gap: '24px', padding: '40px 24px' }}>
-        {/* TOC */}
-        <div style={{ backgroundColor: P.white, borderRadius: '8px', padding: '20px', height: 'fit-content', position: 'sticky', top: '100px', border: `1px solid ${P.border}` }}>
-          <div style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', color: P.textMuted, marginBottom: '16px' }}>
+      <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: gridCols, gap: '24px', padding: '40px 24px' }}>
+        {/* TOC - enhanced style */}
+        <div style={{
+          backgroundColor: P.white,
+          borderRadius: '12px',
+          padding: '20px',
+          height: 'fit-content',
+          position: 'sticky',
+          top: '100px',
+          border: `1px solid ${P.border}`,
+          boxShadow: '0 2px 8px rgba(26, 23, 20, 0.04)',
+          backdropFilter: 'blur(4px)',
+        }}>
+          <div style={{
+            fontSize: '11px',
+            fontWeight: 700,
+            textTransform: 'uppercase',
+            color: P.textMuted,
+            marginBottom: '16px',
+            letterSpacing: '0.5px',
+            borderLeft: `3px solid ${P.copper}`,
+            paddingLeft: '12px',
+          }}>
             Contents
           </div>
           {sections.map((s, i) => (
@@ -768,7 +819,12 @@ const ArticleView = ({ pageId, onNavigate }) => {
                 color: i === activeSection ? P.copper : P.text,
                 fontWeight: i === activeSection ? 600 : 400,
                 paddingBottom: '8px',
-                borderBottom: i === activeSection ? `2px solid ${P.copper}` : 'none',
+                paddingRight: '8px',
+                borderRadius: '4px',
+                transition: 'all 0.2s ease',
+                backgroundColor: i === activeSection ? 'rgba(184, 115, 51, 0.08)' : 'transparent',
+                borderLeft: i === activeSection ? `3px solid ${P.copper}` : '3px solid transparent',
+                paddingLeft: `${(s.level - 2) * 12 + (i === activeSection ? 0 : 3)}px`,
               }}
             >
               {s.heading}
@@ -780,24 +836,70 @@ const ArticleView = ({ pageId, onNavigate }) => {
                 const el = document.getElementById('references-section');
                 if (el) el.scrollIntoView({ behavior: 'smooth' });
               }}
-              style={{ fontSize: '13px', marginBottom: '8px', cursor: 'pointer', color: P.text, paddingBottom: '8px', marginTop: '8px', borderTop: `1px solid ${P.border}`, paddingTop: '8px' }}
+              style={{
+                fontSize: '13px',
+                marginBottom: '8px',
+                cursor: 'pointer',
+                color: P.text,
+                paddingBottom: '8px',
+                marginTop: '8px',
+                borderTop: `1px solid ${P.border}`,
+                paddingTop: '8px',
+                paddingRight: '8px',
+                transition: 'color 0.2s ease',
+              }}
+              onMouseEnter={(e) => e.target.style.color = P.copper}
+              onMouseLeave={(e) => e.target.style.color = P.text}
             >
               References ({allReferences.length})
             </div>
           )}
         </div>
 
-        {/* Main content */}
-        <div style={{ backgroundColor: P.white, borderRadius: '8px', padding: '40px', border: `1px solid ${P.border}` }}>
-          <div style={{ fontSize: '10px', textTransform: 'uppercase', color: P.copper, fontWeight: 600, marginBottom: '8px' }}>
+        {/* Main content - premium design */}
+        <div style={{
+          backgroundColor: P.white,
+          borderRadius: '12px',
+          padding: '40px',
+          border: `1px solid ${P.border}`,
+          boxShadow: '0 4px 12px rgba(26, 23, 20, 0.06)',
+          backgroundImage: 'linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(245,243,239,0.2) 100%)',
+        }}>
+          <div style={{
+            fontSize: '10px',
+            textTransform: 'uppercase',
+            color: P.copper,
+            fontWeight: 700,
+            marginBottom: '12px',
+            letterSpacing: '1px',
+          }}>
             {catLabel}
           </div>
-          <h1 style={{ fontSize: '42px', fontWeight: 800, marginBottom: '24px', color: P.ink }}>
+          <h1 style={{
+            fontSize: '48px',
+            fontWeight: 900,
+            marginBottom: '28px',
+            color: P.ink,
+            lineHeight: 1.1,
+            backgroundImage: page.category === 'disease' ? 'none' : 'none',
+          }}>
             {page.title}
           </h1>
 
           {page.overview && (
-            <div style={{ fontSize: '16px', lineHeight: 1.8, marginBottom: '32px', color: P.text, fontStyle: 'italic', borderLeft: `3px solid ${P.copper}`, paddingLeft: '16px' }}>
+            <div style={{
+              fontSize: '16px',
+              lineHeight: 1.8,
+              marginBottom: '32px',
+              color: P.text,
+              fontStyle: 'italic',
+              borderLeft: `4px solid ${P.copper}`,
+              paddingLeft: '20px',
+              backgroundColor: 'rgba(184, 115, 51, 0.04)',
+              padding: '20px',
+              paddingLeft: '20px',
+              borderRadius: '4px',
+            }}>
               {renderMarkdown(page.overview, onNavigate, citationMap)}
             </div>
           )}
@@ -808,17 +910,21 @@ const ArticleView = ({ pageId, onNavigate }) => {
             return (
               <div key={i} id={`section-${i}`}>
                 <HeadingTag style={{
-                  fontSize: isH3 ? '20px' : '28px',
-                  fontWeight: isH3 ? 600 : 700,
-                  marginTop: isH3 ? '28px' : '40px',
-                  marginBottom: isH3 ? '12px' : '16px',
+                  fontSize: isH3 ? '20px' : '32px',
+                  fontWeight: isH3 ? 600 : 800,
+                  marginTop: isH3 ? '28px' : '48px',
+                  marginBottom: isH3 ? '14px' : '20px',
                   color: isH3 ? P.text : P.ink,
-                  paddingBottom: isH3 ? '0' : '8px',
-                  borderBottom: isH3 ? 'none' : `1px solid ${P.border}`,
+                  paddingBottom: isH3 ? '0' : '12px',
+                  borderBottom: isH3 ? 'none' : `2px solid ${P.border}`,
+                  backgroundImage: isH3 ? 'none' : 'linear-gradient(to right, transparent 0%, rgba(184, 115, 51, 0.1) 100%)',
+                  backgroundSize: '100% 1px',
+                  backgroundPosition: '0 bottom',
+                  backgroundRepeat: 'no-repeat',
                 }}>
                   {section.heading}
                 </HeadingTag>
-                <div style={{ color: P.text, lineHeight: 1.7 }}>
+                <div style={{ color: P.text, lineHeight: 1.8, fontSize: '15px' }}>
                   {renderMarkdown(section.body, onNavigate, citationMap)}
                 </div>
               </div>
@@ -827,13 +933,13 @@ const ArticleView = ({ pageId, onNavigate }) => {
 
           {/* References section */}
           {allReferences.length > 0 && (
-            <div id="references-section" style={{ marginTop: '48px', paddingTop: '24px', borderTop: `2px solid ${P.copper}` }}>
-              <h2 style={{ fontSize: '24px', fontWeight: 700, marginBottom: '20px', color: P.ink }}>
+            <div id="references-section" style={{ marginTop: '56px', paddingTop: '32px', borderTop: `2px solid ${P.copper}` }}>
+              <h2 style={{ fontSize: '28px', fontWeight: 800, marginBottom: '24px', color: P.ink }}>
                 References ({allReferences.length})
               </h2>
-              <ol style={{ margin: 0, paddingLeft: '24px', lineHeight: 1.8 }}>
+              <ol style={{ margin: 0, paddingLeft: '24px', lineHeight: 1.9 }}>
                 {allReferences.map((ref) => (
-                  <li key={ref.number} id={`ref-${ref.number}`} style={{ fontSize: '13px', color: P.text, marginBottom: '10px' }}>
+                  <li key={ref.number} id={`ref-${ref.number}`} style={{ fontSize: '13px', color: P.text, marginBottom: '12px' }}>
                     {ref.authors.length > 0 && (
                       <span style={{ fontWeight: 500 }}>
                         {ref.authors.length <= 3
@@ -864,12 +970,12 @@ const ArticleView = ({ pageId, onNavigate }) => {
           )}
 
           {/* Wiki link structure */}
-          <div style={{ marginTop: '48px', paddingTop: '24px', borderTop: `1px solid ${P.border}` }}>
+          <div style={{ marginTop: '56px', paddingTop: '32px', borderTop: `1px solid ${P.border}` }}>
 
             {/* Mentioned in this article (outbound links) */}
             {articleLinks.length > 0 && (
               <div style={{ marginBottom: '32px' }}>
-                <h3 style={{ fontSize: '16px', fontWeight: 600, marginBottom: '12px', color: P.ink }}>
+                <h3 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '14px', color: P.ink }}>
                   Mentioned in this article ({articleLinks.length})
                 </h3>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
@@ -881,10 +987,10 @@ const ArticleView = ({ pageId, onNavigate }) => {
                         key={link}
                         onClick={() => onNavigate({ view: 'article', id: link })}
                         style={{
-                          backgroundColor: P.bg,
-                          border: `1px solid ${P.border}`,
-                          borderRadius: '4px',
-                          padding: '6px 12px',
+                          backgroundColor: P.white,
+                          border: `1.5px solid ${linkedCat?.color || P.copper}`,
+                          borderRadius: '6px',
+                          padding: '6px 14px',
                           fontSize: '12px',
                           color: linkedCat?.color || P.copper,
                           cursor: 'pointer',
@@ -892,6 +998,15 @@ const ArticleView = ({ pageId, onNavigate }) => {
                           display: 'flex',
                           alignItems: 'center',
                           gap: '6px',
+                          transition: 'all 0.2s ease',
+                        }}
+                        onMouseEnter={(e) => {
+                          e.target.style.backgroundColor = linkedCat?.color || P.copper;
+                          e.target.style.color = P.white;
+                        }}
+                        onMouseLeave={(e) => {
+                          e.target.style.backgroundColor = P.white;
+                          e.target.style.color = linkedCat?.color || P.copper;
                         }}
                       >
                         {linkedCat && React.createElement(linkedCat.icon, { size: 12 })}
@@ -906,7 +1021,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
             {/* Pages that reference this article (backlinks) */}
             {(page.backlinks || []).length > 0 && (
               <div style={{ marginBottom: '32px' }}>
-                <h3 style={{ fontSize: '16px', fontWeight: 600, marginBottom: '4px', color: P.ink }}>
+                <h3 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '4px', color: P.ink }}>
                   Pages that reference this article ({page.backlinks.length})
                 </h3>
                 <p style={{ fontSize: '13px', color: P.textMuted, marginBottom: '12px' }}>
@@ -922,9 +1037,9 @@ const ArticleView = ({ pageId, onNavigate }) => {
                         onClick={() => onNavigate({ view: 'article', id: blId })}
                         style={{
                           backgroundColor: P.white,
-                          border: `1px solid ${blCat?.color || P.border}`,
-                          borderRadius: '4px',
-                          padding: '6px 12px',
+                          border: `1.5px solid ${blCat?.color || P.border}`,
+                          borderRadius: '6px',
+                          padding: '6px 14px',
                           fontSize: '12px',
                           color: blCat?.color || P.text,
                           cursor: 'pointer',
@@ -932,6 +1047,17 @@ const ArticleView = ({ pageId, onNavigate }) => {
                           display: 'flex',
                           alignItems: 'center',
                           gap: '6px',
+                          transition: 'all 0.2s ease',
+                        }}
+                        onMouseEnter={(e) => {
+                          if (blCat?.color) {
+                            e.target.style.backgroundColor = blCat.color;
+                            e.target.style.color = P.white;
+                          }
+                        }}
+                        onMouseLeave={(e) => {
+                          e.target.style.backgroundColor = P.white;
+                          e.target.style.color = blCat?.color || P.text;
                         }}
                       >
                         {blCat && React.createElement(blCat.icon, { size: 12 })}
@@ -946,7 +1072,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
             {/* Related by topic (algorithmically discovered) */}
             {(page.related || []).length > 0 && (
               <div>
-                <h3 style={{ fontSize: '16px', fontWeight: 600, marginBottom: '4px', color: P.ink }}>
+                <h3 style={{ fontSize: '16px', fontWeight: 700, marginBottom: '4px', color: P.ink }}>
                   Related by topic
                 </h3>
                 <p style={{ fontSize: '13px', color: P.textMuted, marginBottom: '12px' }}>
@@ -965,22 +1091,32 @@ const ArticleView = ({ pageId, onNavigate }) => {
                         style={{
                           backgroundColor: P.white,
                           border: `1px solid ${P.border}`,
-                          borderRadius: '4px',
-                          padding: '12px 16px',
+                          borderRadius: '8px',
+                          padding: '14px 16px',
                           cursor: 'pointer',
                           fontSize: '13px',
+                          transition: 'all 0.2s ease',
+                          boxShadow: '0 1px 3px rgba(26, 23, 20, 0.04)',
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.boxShadow = '0 4px 12px rgba(26, 23, 20, 0.08)';
+                          e.currentTarget.style.borderColor = P.copper;
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.boxShadow = '0 1px 3px rgba(26, 23, 20, 0.04)';
+                          e.currentTarget.style.borderColor = P.border;
                         }}
                       >
-                        <div style={{ fontWeight: 600, color: relCat?.color || P.ink, marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <div style={{ fontWeight: 700, color: relCat?.color || P.ink, marginBottom: '6px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                           {relCat && React.createElement(relCat.icon, { size: 14 })}
                           {relPage.title}
                         </div>
                         {sharedTags.length > 0 && (
-                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '6px' }}>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '8px' }}>
                             {sharedTags.slice(0, 4).map(t => (
                               <span key={t} style={{
                                 backgroundColor: P.bgWarm, color: P.textMuted,
-                                padding: '2px 6px', borderRadius: '3px', fontSize: '10px',
+                                padding: '3px 8px', borderRadius: '3px', fontSize: '10px',
                               }}>{t}</span>
                             ))}
                           </div>
@@ -994,47 +1130,531 @@ const ArticleView = ({ pageId, onNavigate }) => {
           </div>
         </div>
 
-        {/* Sidebar infobox */}
-        <div style={{ backgroundColor: P.white, borderRadius: '8px', padding: '20px', height: 'fit-content', position: 'sticky', top: '100px', border: `1px solid ${P.border}` }}>
-          <div style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', color: P.textMuted, marginBottom: '16px' }}>
-            Info
-          </div>
-          <div style={{ fontSize: '13px', marginBottom: '16px' }}>
-            <div style={{ color: P.textMuted, marginBottom: '4px' }}>Category</div>
-            <div style={{ color: P.text, fontWeight: 600 }}>{catLabel}</div>
-          </div>
-          <div style={{ fontSize: '13px', marginBottom: '16px' }}>
-            <div style={{ color: P.textMuted, marginBottom: '4px' }}>Sources</div>
-            <div style={{ color: P.copper, fontWeight: 600 }}>{(page.sources || []).length}</div>
-          </div>
-          {allReferences.length > 0 && (
-            <div style={{ fontSize: '13px', marginBottom: '16px' }}>
-              <div style={{ color: P.textMuted, marginBottom: '4px' }}>Citations</div>
-              <div style={{ color: P.copper, fontWeight: 600 }}>{allReferences.length}</div>
-            </div>
-          )}
-          {(page.tags || []).length > 0 && (
-            <div style={{ fontSize: '13px' }}>
-              <div style={{ color: P.textMuted, marginBottom: '8px' }}>Tags</div>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                {page.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    style={{
-                      backgroundColor: P.bgWarm,
-                      color: P.text,
-                      padding: '4px 8px',
-                      borderRadius: '4px',
-                      fontSize: '11px',
-                    }}
-                  >
-                    {tag}
-                  </span>
-                ))}
+        {/* Sidebar - signature or info box */}
+        {signature ? (
+          // Signature sidebar for disease pages
+          <div style={{
+            backgroundColor: P.white,
+            borderRadius: '12px',
+            padding: '0',
+            height: 'fit-content',
+            position: 'sticky',
+            top: '100px',
+            maxHeight: 'calc(100vh - 120px)',
+            overflowY: 'auto',
+            border: `1px solid ${P.border}`,
+            boxShadow: '0 4px 12px rgba(26, 23, 20, 0.06)',
+          }}>
+            {/* Header */}
+            <div style={{
+              padding: '20px',
+              borderBottom: `1px solid ${P.border}`,
+              backgroundColor: 'linear-gradient(135deg, rgba(184, 115, 51, 0.04) 0%, rgba(192, 161, 122, 0.04) 100%)',
+            }}>
+              <div style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', color: P.textMuted, marginBottom: '6px', letterSpacing: '0.5px' }}>
+                Microbiome Signature
               </div>
+              <div style={{ fontSize: '14px', fontWeight: 700, color: P.ink, marginBottom: '8px' }}>
+                {signature.name}
+              </div>
+              {signature.paperCount && (
+                <span style={{
+                  display: 'inline-flex', alignItems: 'center', gap: '4px',
+                  backgroundColor: P.bgWarm, color: P.copper,
+                  padding: '4px 10px', borderRadius: '12px', fontSize: '11px', fontWeight: 600,
+                }}>
+                  <BookOpen size={11} /> {signature.paperCount} papers
+                </span>
+              )}
             </div>
-          )}
-        </div>
+
+            {/* Radar chart */}
+            {radarData.length > 0 && (
+              <div style={{ padding: '16px', borderBottom: `1px solid ${P.border}`, textAlign: 'center' }}>
+                <ResponsiveContainer width="100%" height={180}>
+                  <RadarChart data={radarData}>
+                    <PolarGrid strokeDasharray="0" stroke={P.border} />
+                    <PolarAngleAxis dataKey="name" tick={{ fontSize: 11, fill: P.textMuted }} />
+                    <PolarRadiusAxis tick={{ fontSize: 10, fill: P.textMuted }} />
+                    <Radar name="Count" dataKey="value" stroke={P.copper} fill={P.copper} fillOpacity={0.3} />
+                  </RadarChart>
+                </ResponsiveContainer>
+              </div>
+            )}
+
+            {/* Layer sections */}
+            {/* Layer 1: Metallomic */}
+            {signature.metallomicSignature && (
+              <div style={{ borderBottom: `1px solid ${P.border}` }}>
+                <div
+                  onClick={() => toggleLayer('metallomic')}
+                  style={{
+                    padding: '12px 16px',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    backgroundColor: expandedLayers.metallomic ? 'rgba(184, 115, 51, 0.04)' : 'transparent',
+                    transition: 'background-color 0.2s ease',
+                  }}
+                >
+                  <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink }}>Metallomic</span>
+                  <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.metallomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                </div>
+                {expandedLayers.metallomic && (
+                  <div style={{ padding: '12px 16px', backgroundColor: 'rgba(255,255,255,0.5)' }}>
+                    {signature.metallomicSignature.elevated?.length > 0 && (
+                      <div style={{ marginBottom: '10px' }}>
+                        <div style={{ fontSize: '10px', fontWeight: 600, color: P.textMuted, marginBottom: '6px', textTransform: 'uppercase' }}>Elevated</div>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                          {signature.metallomicSignature.elevated.map(metal => (
+                            <span key={metal} style={{
+                              backgroundColor: 'rgba(139, 32, 32, 0.15)',
+                              color: P.crimson,
+                              padding: '3px 8px',
+                              borderRadius: '3px',
+                              fontSize: '11px',
+                              fontWeight: 500,
+                            }}>{metal}</span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {signature.metallomicSignature.depleted?.length > 0 && (
+                      <div>
+                        <div style={{ fontSize: '10px', fontWeight: 600, color: P.textMuted, marginBottom: '6px', textTransform: 'uppercase' }}>Depleted</div>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                          {signature.metallomicSignature.depleted.map(metal => (
+                            <span key={metal} style={{
+                              backgroundColor: 'rgba(90, 138, 122, 0.15)',
+                              color: P.patina,
+                              padding: '3px 8px',
+                              borderRadius: '3px',
+                              fontSize: '11px',
+                              fontWeight: 500,
+                            }}>{metal}</span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Layer 2: Taxonomic */}
+            {signature.taxonomicSignature && (
+              <div style={{ borderBottom: `1px solid ${P.border}` }}>
+                <div
+                  onClick={() => toggleLayer('taxonomic')}
+                  style={{
+                    padding: '12px 16px',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    backgroundColor: expandedLayers.taxonomic ? 'rgba(184, 115, 51, 0.04)' : 'transparent',
+                    transition: 'background-color 0.2s ease',
+                  }}
+                >
+                  <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink }}>Taxonomic</span>
+                  <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.taxonomic ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                </div>
+                {expandedLayers.taxonomic && (
+                  <div style={{ padding: '12px 16px', backgroundColor: 'rgba(255,255,255,0.5)' }}>
+                    {signature.taxonomicSignature.enriched?.length > 0 && (
+                      <div style={{ marginBottom: '10px' }}>
+                        <div style={{ fontSize: '10px', fontWeight: 600, color: P.textMuted, marginBottom: '6px', textTransform: 'uppercase' }}>Enriched</div>
+                        {signature.taxonomicSignature.enriched.map((taxon, i) => (
+                          <div
+                            key={i}
+                            onClick={() => setSelectedTaxon(taxon)}
+                            style={{
+                              display: 'flex',
+                              alignItems: 'flex-start',
+                              gap: '6px',
+                              marginBottom: '6px',
+                              padding: '6px',
+                              borderRadius: '4px',
+                              cursor: 'pointer',
+                              backgroundColor: 'rgba(255,255,255,0.5)',
+                              transition: 'all 0.2s ease',
+                              border: '1px solid transparent',
+                            }}
+                            onMouseEnter={(e) => {
+                              e.currentTarget.style.backgroundColor = 'rgba(139, 32, 32, 0.1)';
+                              e.currentTarget.style.borderColor = 'rgba(139, 32, 32, 0.3)';
+                            }}
+                            onMouseLeave={(e) => {
+                              e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.5)';
+                              e.currentTarget.style.borderColor = 'transparent';
+                            }}
+                          >
+                            <span style={{ color: P.crimson, fontWeight: 700, marginTop: '2px' }}>●</span>
+                            <span style={{ fontSize: '11px', color: P.text, fontWeight: 500 }}>
+                              {taxon.taxon?.replace(/\[\[|\]\]/g, '') || 'Unknown'}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                    {signature.taxonomicSignature.depleted?.length > 0 && (
+                      <div>
+                        <div style={{ fontSize: '10px', fontWeight: 600, color: P.textMuted, marginBottom: '6px', textTransform: 'uppercase' }}>Depleted</div>
+                        {signature.taxonomicSignature.depleted.map((taxon, i) => (
+                          <div
+                            key={i}
+                            onClick={() => setSelectedTaxon(taxon)}
+                            style={{
+                              display: 'flex',
+                              alignItems: 'flex-start',
+                              gap: '6px',
+                              marginBottom: '6px',
+                              padding: '6px',
+                              borderRadius: '4px',
+                              cursor: 'pointer',
+                              backgroundColor: 'rgba(255,255,255,0.5)',
+                              transition: 'all 0.2s ease',
+                              border: '1px solid transparent',
+                            }}
+                            onMouseEnter={(e) => {
+                              e.currentTarget.style.backgroundColor = 'rgba(90, 138, 122, 0.1)';
+                              e.currentTarget.style.borderColor = 'rgba(90, 138, 122, 0.3)';
+                            }}
+                            onMouseLeave={(e) => {
+                              e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.5)';
+                              e.currentTarget.style.borderColor = 'transparent';
+                            }}
+                          >
+                            <span style={{ color: P.patina, fontWeight: 700, marginTop: '2px' }}>●</span>
+                            <span style={{ fontSize: '11px', color: P.text, fontWeight: 500 }}>
+                              {taxon.taxon?.replace(/\[\[|\]\]/g, '') || 'Unknown'}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Layer 3: Nutritional Immunity */}
+            {signature.nutritionalImmunity && (
+              <div style={{ borderBottom: `1px solid ${P.border}` }}>
+                <div
+                  onClick={() => toggleLayer('immunity')}
+                  style={{
+                    padding: '12px 16px',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    backgroundColor: expandedLayers.immunity ? 'rgba(184, 115, 51, 0.04)' : 'transparent',
+                    transition: 'background-color 0.2s ease',
+                  }}
+                >
+                  <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink }}>Immunity</span>
+                  <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.immunity ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                </div>
+                {expandedLayers.immunity && (
+                  <div style={{ padding: '12px 16px', backgroundColor: 'rgba(255,255,255,0.5)' }}>
+                    {signature.nutritionalImmunity.elevated?.length > 0 && (
+                      <div style={{ marginBottom: '10px' }}>
+                        <div style={{ fontSize: '10px', fontWeight: 600, color: P.textMuted, marginBottom: '6px', textTransform: 'uppercase' }}>Elevated</div>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                          {signature.nutritionalImmunity.elevated.map(marker => (
+                            <span key={marker} style={{
+                              backgroundColor: 'rgba(184, 115, 51, 0.15)',
+                              color: P.copper,
+                              padding: '3px 8px',
+                              borderRadius: '3px',
+                              fontSize: '10px',
+                              fontWeight: 500,
+                            }}>{marker}</span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {signature.nutritionalImmunity.depleted?.length > 0 && (
+                      <div>
+                        <div style={{ fontSize: '10px', fontWeight: 600, color: P.textMuted, marginBottom: '6px', textTransform: 'uppercase' }}>Depleted</div>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                          {signature.nutritionalImmunity.depleted.map(marker => (
+                            <span key={marker} style={{
+                              backgroundColor: 'rgba(90, 138, 122, 0.15)',
+                              color: P.patina,
+                              padding: '3px 8px',
+                              borderRadius: '3px',
+                              fontSize: '10px',
+                              fontWeight: 500,
+                            }}>{marker}</span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Layer 4: Ecological Features */}
+            {signature.ecologicalFeatures?.length > 0 && (
+              <div style={{ borderBottom: `1px solid ${P.border}` }}>
+                <div
+                  onClick={() => toggleLayer('ecological')}
+                  style={{
+                    padding: '12px 16px',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    backgroundColor: expandedLayers.ecological ? 'rgba(184, 115, 51, 0.04)' : 'transparent',
+                    transition: 'background-color 0.2s ease',
+                  }}
+                >
+                  <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink }}>Ecology</span>
+                  <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.ecological ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                </div>
+                {expandedLayers.ecological && (
+                  <div style={{ padding: '12px 16px', backgroundColor: 'rgba(255,255,255,0.5)' }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                      {signature.ecologicalFeatures.map(feature => (
+                        <span key={feature} style={{
+                          backgroundColor: 'rgba(184, 115, 51, 0.12)',
+                          color: P.text,
+                          padding: '4px 9px',
+                          borderRadius: '4px',
+                          fontSize: '10px',
+                          fontWeight: 500,
+                          border: `0.5px solid rgba(184, 115, 51, 0.3)`,
+                        }}>{feature}</span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Layer 5: Virulence Enzymes */}
+            {signature.virulenceEnzymes?.length > 0 && (
+              <div style={{ borderBottom: `1px solid ${P.border}` }}>
+                <div
+                  onClick={() => toggleLayer('virulence')}
+                  style={{
+                    padding: '12px 16px',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    backgroundColor: expandedLayers.virulence ? 'rgba(184, 115, 51, 0.04)' : 'transparent',
+                    transition: 'background-color 0.2s ease',
+                  }}
+                >
+                  <span style={{ fontSize: '12px', fontWeight: 700, color: P.ink }}>Virulence</span>
+                  <ChevronRight size={14} style={{ color: P.textMuted, transform: expandedLayers.virulence ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s ease' }} />
+                </div>
+                {expandedLayers.virulence && (
+                  <div style={{ padding: '12px 16px', backgroundColor: 'rgba(255,255,255,0.5)' }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                      {signature.virulenceEnzymes.map(enzyme => (
+                        <span key={enzyme} style={{
+                          backgroundColor: 'rgba(139, 32, 32, 0.1)',
+                          color: P.crimson,
+                          padding: '4px 9px',
+                          borderRadius: '4px',
+                          fontSize: '10px',
+                          fontWeight: 500,
+                          border: `0.5px solid rgba(139, 32, 32, 0.2)`,
+                        }}>{enzyme}</span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Footer link */}
+            <div style={{ padding: '12px 16px', borderTop: `1px solid ${P.border}` }}>
+              <button
+                onClick={() => onNavigate({ view: 'article', id: signatureId })}
+                style={{
+                  width: '100%',
+                  backgroundColor: P.bgWarm,
+                  border: 'none',
+                  color: P.copper,
+                  padding: '8px 12px',
+                  borderRadius: '6px',
+                  fontSize: '11px',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease',
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.backgroundColor = P.copper;
+                  e.target.style.color = P.white;
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.backgroundColor = P.bgWarm;
+                  e.target.style.color = P.copper;
+                }}
+              >
+                View Full Signature →
+              </button>
+            </div>
+          </div>
+        ) : (
+          // Info sidebar for non-disease pages
+          <div style={{
+            backgroundColor: P.white,
+            borderRadius: '12px',
+            padding: '20px',
+            height: 'fit-content',
+            position: 'sticky',
+            top: '100px',
+            border: `1px solid ${P.border}`,
+            boxShadow: '0 4px 12px rgba(26, 23, 20, 0.06)',
+          }}>
+            <div style={{
+              fontSize: '11px',
+              fontWeight: 700,
+              textTransform: 'uppercase',
+              color: P.textMuted,
+              marginBottom: '16px',
+              letterSpacing: '0.5px',
+              borderLeft: `3px solid ${P.copper}`,
+              paddingLeft: '12px',
+            }}>
+              Info
+            </div>
+            <div style={{ fontSize: '13px', marginBottom: '16px' }}>
+              <div style={{ color: P.textMuted, marginBottom: '4px', fontWeight: 600 }}>Category</div>
+              <div style={{ color: P.text, fontWeight: 600 }}>{catLabel}</div>
+            </div>
+            <div style={{ fontSize: '13px', marginBottom: '16px' }}>
+              <div style={{ color: P.textMuted, marginBottom: '4px', fontWeight: 600 }}>Sources</div>
+              <div style={{ color: P.copper, fontWeight: 700, fontSize: '16px' }}>{(page.sources || []).length}</div>
+            </div>
+            {allReferences.length > 0 && (
+              <div style={{ fontSize: '13px', marginBottom: '16px' }}>
+                <div style={{ color: P.textMuted, marginBottom: '4px', fontWeight: 600 }}>Citations</div>
+                <div style={{ color: P.copper, fontWeight: 700, fontSize: '16px' }}>{allReferences.length}</div>
+              </div>
+            )}
+            {(page.tags || []).length > 0 && (
+              <div style={{ fontSize: '13px' }}>
+                <div style={{ color: P.textMuted, marginBottom: '8px', fontWeight: 600 }}>Tags</div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                  {page.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      style={{
+                        backgroundColor: P.bgWarm,
+                        color: P.text,
+                        padding: '4px 8px',
+                        borderRadius: '4px',
+                        fontSize: '11px',
+                        fontWeight: 500,
+                      }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Taxon detail overlay - slides out when a taxon is selected */}
+        {selectedTaxon && (
+          <div style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(26, 23, 20, 0.3)',
+            display: 'flex',
+            alignItems: 'flex-start',
+            justifyContent: 'flex-end',
+            zIndex: 50,
+            padding: '60px 24px 24px 24px',
+          }}
+          onClick={() => setSelectedTaxon(null)}
+          >
+            <div style={{
+              backgroundColor: P.white,
+              borderRadius: '12px',
+              padding: '24px',
+              width: '100%',
+              maxWidth: '360px',
+              maxHeight: '80vh',
+              overflowY: 'auto',
+              boxShadow: '0 20px 60px rgba(26, 23, 20, 0.2)',
+            }}
+            onClick={(e) => e.stopPropagation()}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
+                <div>
+                  <div style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', color: P.textMuted, marginBottom: '6px', letterSpacing: '0.5px' }}>
+                    Taxon
+                  </div>
+                  <h3 style={{ fontSize: '18px', fontWeight: 800, color: P.ink, margin: 0 }}>
+                    {selectedTaxon.taxon?.replace(/\[\[|\]\]/g, '') || 'Unknown'}
+                  </h3>
+                </div>
+                <button
+                  onClick={() => setSelectedTaxon(null)}
+                  style={{
+                    backgroundColor: 'transparent',
+                    border: 'none',
+                    cursor: 'pointer',
+                    padding: '4px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <X size={18} color={P.textMuted} />
+                </button>
+              </div>
+
+              <div style={{ fontSize: '13px', lineHeight: 1.6, color: P.text, marginBottom: '16px' }}>
+                <strong>Role:</strong> {selectedTaxon.role || 'Role description not available'}
+              </div>
+
+              {selectedTaxon.taxon && PAGE_IDS.has(selectedTaxon.taxon.replace(/\[\[|\]\]/g, '')) && (
+                <button
+                  onClick={() => {
+                    onNavigate({ view: 'article', id: selectedTaxon.taxon.replace(/\[\[|\]\]/g, '') });
+                    setSelectedTaxon(null);
+                  }}
+                  style={{
+                    width: '100%',
+                    backgroundColor: P.copper,
+                    border: 'none',
+                    color: P.white,
+                    padding: '10px 14px',
+                    borderRadius: '6px',
+                    fontSize: '12px',
+                    fontWeight: 600,
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.backgroundColor = P.copperDark;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.backgroundColor = P.copper;
+                  }}
+                >
+                  View Taxon Article →
+                </button>
+              )}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
