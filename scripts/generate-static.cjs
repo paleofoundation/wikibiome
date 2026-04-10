@@ -152,7 +152,7 @@ function markdownToHtml(text) {
     while (i < lines.length && lines[i].trim() !== '' &&
            !/^[-*]\s+/.test(lines[i].trim()) &&
            !/^\d+[.)]\s+/.test(lines[i].trim()) &&
-           !(lines[i].includes('|') && i + 1 < lines.length && /^\|?\s*[-:]+/.test(lines[i + 1]?.trim()))) {
+           !(lines[i].includes('|') && i + 1 < lines.length && /^\|?\s*[-:]+[-| :]*$/.test(lines[i + 1]?.trim()))) {
       paraLines.push(lines[i]);
       i++;
     }

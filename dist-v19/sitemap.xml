@@ -325,6 +325,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://wikibiome.com/article/hashimotos-thyroiditis</loc>
+    <lastmod>2026-04-09T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://wikibiome.com/article/helicobacter-pylori</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,6 +359,12 @@
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wikibiome.com/article/iodine</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://wikibiome.com/article/iron</loc>
@@ -489,6 +501,12 @@
   <url>
     <loc>https://wikibiome.com/article/oxalobacter</loc>
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wikibiome.com/article/pancreatic-cancer</loc>
+    <lastmod>2026-04-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -733,6 +751,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://wikibiome.com/article/alpha-synuclein</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://wikibiome.com/article/antimicrobial-resistance</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://wikibiome.com/article/atherosclerosis</loc>
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -787,6 +817,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://wikibiome.com/article/co-selection</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://wikibiome.com/article/comorbidities</loc>
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -807,6 +843,12 @@
   <url>
     <loc>https://wikibiome.com/article/dysbiosis</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://wikibiome.com/article/dyshomeostasis</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1011,6 +1053,18 @@
   <url>
     <loc>https://wikibiome.com/article/microbial-biomarkers</loc>
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://wikibiome.com/article/microbiome-derived-metabolites</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://wikibiome.com/article/microbiome</loc>
+    <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

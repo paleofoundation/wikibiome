@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-04-10T18:07:26.720Z",
+  "_generated": "2026-04-10T21:23:52.185Z",
   "_platform": "all",
   "_stats": {
-    "sources": 961,
+    "sources": 981,
     "entities": 120,
     "concepts": 74,
     "signatures": 13,
     "interventions": 5,
     "stops": 7,
     "analyses": 2,
-    "totalPages": 222
+    "totalPages": 229
   },
   "pages": [
     {
@@ -476,12 +476,12 @@
           "score": 22
         },
         {
-          "id": "prevotella",
-          "score": 21
+          "id": "metal-disease-matrix",
+          "score": 22
         },
         {
-          "id": "metal-disease-matrix",
-          "score": 20
+          "id": "prevotella",
+          "score": 21
         }
       ]
     },
@@ -1586,6 +1586,9 @@
         "pcos",
         "zinc",
         "DNA-damage",
+        "antimicrobial-resistance",
+        "co-selection",
+        "dyshomeostasis",
         "epigenetic-modifications",
         "glutathione",
         "heavy-metals",
@@ -1593,41 +1596,43 @@
         "inflammation",
         "insulin-resistance",
         "metal-carcinogenesis",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "nf-kappa-b",
         "oxidative-stress"
       ],
       "related": [
         {
           "id": "cadmium",
-          "score": 39
+          "score": 49
         },
         {
           "id": "lead",
-          "score": 37
+          "score": 45
         },
         {
           "id": "mercury",
-          "score": 29
-        },
-        {
-          "id": "iron",
-          "score": 28
+          "score": 39
         },
         {
           "id": "zinc",
-          "score": 25
+          "score": 35
         },
         {
-          "id": "copper",
-          "score": 21
+          "id": "iron",
+          "score": 34
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 18
+          "score": 28
         },
         {
-          "id": "manganese",
-          "score": 13
+          "id": "copper",
+          "score": 27
+        },
+        {
+          "id": "dysbiosis",
+          "score": 20
         }
       ]
     },
@@ -2247,7 +2252,7 @@
         {
           "heading": "Bacteroides fragilis Toxin (BFT/Fragilysin)",
           "level": 3,
-          "body": "- BFT is a **Zn-dependent metalloprotease** (EC 3.4.24.-) that requires a zinc ion in its active site for catalytic activity.\n- Cleaves **E-cadherin**, the intercellular adhesion molecule of intestinal epithelial cells. E-cadherin cleavage disrupts cell-cell junctions, increases paracellular permeability, and activates beta-catenin/Wnt signaling -- a pro-tumorigenic pathway.\n- Triggers NF-kB activation, IL-8 secretion, and neutrophil recruitment, driving chronic intestinal inflammation.\n- Three isoforms exist (BFT-1, BFT-2, BFT-3); BFT-2 is the most biologically active.\n- Only **enterotoxigenic B. fragilis (ETBF)** strains carry the *bft* gene (~20% of colonizing strains). Non-toxigenic B. fragilis (NTBF) lack *bft* and are commensal."
+          "body": "- BFT is a **Zn-dependent [[zinc-metalloprotease]]** (EC 3.4.24.-) that requires a zinc ion in its active site for catalytic activity.\n- Cleaves **E-cadherin**, the intercellular adhesion molecule of intestinal epithelial cells. E-cadherin cleavage disrupts cell-cell junctions, increases paracellular permeability, and activates beta-catenin/Wnt signaling -- a pro-tumorigenic pathway.\n- Triggers NF-kB activation, IL-8 secretion, and neutrophil recruitment, driving chronic intestinal inflammation.\n- Three isoforms exist (BFT-1, BFT-2, BFT-3); BFT-2 is the most biologically active.\n- Only **enterotoxigenic B. fragilis (ETBF)** strains carry the *bft* gene (~20% of colonizing strains). Non-toxigenic B. fragilis (NTBF) lack *bft* and are commensal."
         },
         {
           "heading": "Metal Context",
@@ -2278,6 +2283,7 @@
       "wikilinks": [
         "gut-metal-microbiome",
         "zinc",
+        "zinc-metalloprotease",
         "calprotectin",
         "[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome",
         "[khatoon-2023-gut-microbiota-neurodegenerative",
@@ -2445,7 +2451,7 @@
         {
           "heading": "Zinc-Dependent Enzymes",
           "level": 3,
-          "body": "- *B. vulgatus* requires zinc for metalloproteases, the zinc-finger transcription factors that regulate virulence gene expression, and numerous metabolic enzymes.\n- However, *B. vulgatus* is **relatively resistant** to zinc starvation compared to some commensals ([[akkermansia-muciniphila]])."
+          "body": "- *B. vulgatus* requires zinc for [[zinc-metalloprotease]]s, the zinc-finger transcription factors that regulate virulence gene expression, and numerous metabolic enzymes.\n- However, *B. vulgatus* is **relatively resistant** to zinc starvation compared to some commensals ([[akkermansia-muciniphila]])."
         },
         {
           "heading": "Zinc Sequestration and Dysbiosis",
@@ -2553,6 +2559,7 @@
         "depression",
         "prevotella-copri",
         "fusobacterium-nucleatum",
+        "zinc-metalloprotease",
         "akkermansia-muciniphila",
         "estrobolome",
         "eggerthella-lenta",
@@ -2761,6 +2768,10 @@
           "score": 16
         },
         {
+          "id": "metal-disease-matrix",
+          "score": 16
+        },
+        {
           "id": "blautia",
           "score": 15
         },
@@ -2770,10 +2781,6 @@
         },
         {
           "id": "escherichia-coli",
-          "score": 14
-        },
-        {
-          "id": "hepcidin",
           "score": 14
         }
       ]
@@ -3356,7 +3363,7 @@
         {
           "heading": "Ni-Urease -- Gateway to Infection",
           "level": 3,
-          "body": "- Urease is essential for **survival during gastrointestinal passage** and initial intestinal colonization [[[maier-2019-nickel-microbial-pathogenesis]]].\n- *Brucella* is typically acquired through ingestion of contaminated dairy products or direct contact with infected animals. The oral route demands acid resistance during gastric transit.\n- Urease-generated ammonia and bicarbonate buffer the acidic gastric environment, enabling bacteria to reach the intestinal mucosa intact.\n- Once past the GI barrier, *Brucella* establishes intracellular infection in macrophages, where it resides in a modified phagosome."
+          "body": "- Urease is essential for **survival during gastrointestinal passage** and initial intestinal colonization [[[maier-2019-nickel-microbial-pathogenesis]]].\n- *Brucella* is typically acquired through ingestion of contaminated dairy products or direct contact with infected animals. The oral route demands acid resistance during gastric transit.\n- Urease-generated ammonia and bicarbonate buffer the [[acidic-microenvironment]] of the stomach, enabling bacteria to reach the intestinal mucosa intact.\n- Once past the GI barrier, *Brucella* establishes intracellular infection in macrophages, where it resides in a modified phagosome."
         },
         {
           "heading": "Urease as Vaccine Target",
@@ -3388,6 +3395,7 @@
         "nickel",
         "urease",
         "[maier-2019-nickel-microbial-pathogenesis",
+        "acidic-microenvironment",
         "helicobacter-pylori",
         "nutritional-immunity",
         "metal-dependent-virulence",
@@ -3772,6 +3780,7 @@
         "graves-disease",
         "hashimotos-thyroiditis",
         "hypertension",
+        "iodine",
         "iron",
         "lachnospiraceae",
         "lactobacillus",
@@ -3790,10 +3799,15 @@
         "tin",
         "type-2-diabetes",
         "zinc",
+        "antimicrobial-resistance",
+        "co-selection",
+        "dyshomeostasis",
         "glutathione",
         "heavy-metals",
         "inflammation",
         "insulin-resistance",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "neuroinflammation",
         "nf-kappa-b",
         "oxidative-stress",
@@ -3805,27 +3819,27 @@
       "related": [
         {
           "id": "iron",
-          "score": 73
+          "score": 81
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 58
+          "score": 70
         },
         {
           "id": "copper",
-          "score": 52
+          "score": 58
         },
         {
           "id": "mercury",
-          "score": 46
+          "score": 58
         },
         {
           "id": "dysbiosis",
-          "score": 46
+          "score": 58
         },
         {
           "id": "inflammation",
-          "score": 37
+          "score": 41
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -4423,6 +4437,7 @@
         "saccharomyces",
         "atherosclerosis",
         "bile-acid-metabolism",
+        "dyshomeostasis",
         "short-chain-fatty-acids",
         "tmao",
         "tryptophan-metabolism"
@@ -4430,27 +4445,27 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 64
+          "score": 66
         },
         {
           "id": "colorectal-cancer",
-          "score": 57
+          "score": 59
         },
         {
           "id": "inflammation",
-          "score": 52
+          "score": 54
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 46
+        },
+        {
+          "id": "iron",
+          "score": 45
         },
         {
           "id": "short-chain-fatty-acids",
           "score": 44
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 44
-        },
-        {
-          "id": "iron",
-          "score": 43
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -4458,7 +4473,7 @@
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 34
+          "score": 36
         }
       ]
     },
@@ -5991,10 +6006,12 @@
         "saccharomyces",
         "acidic-microenvironment",
         "bile-acid-metabolism",
+        "dyshomeostasis",
         "fermentative-metabolism",
         "hypoxia",
         "lipocalin-2",
         "microbial-biomarkers",
+        "microbiome",
         "nickel-glyoxalase",
         "short-chain-fatty-acids",
         "transferrin",
@@ -6003,35 +6020,35 @@
       "related": [
         {
           "id": "iron",
+          "score": 63
+        },
+        {
+          "id": "cardiovascular-disease",
           "score": 59
         },
         {
-          "id": "cardiovascular-disease",
-          "score": 57
-        },
-        {
           "id": "dysbiosis",
-          "score": 54
+          "score": 58
         },
         {
           "id": "inflammation",
-          "score": 42
+          "score": 44
         },
         {
           "id": "cardiovascular-disease",
-          "score": 42
+          "score": 44
         },
         {
           "id": "faecalibacterium-prausnitzii",
           "score": 40
         },
         {
-          "id": "bacteroides-fragilis",
-          "score": 32
+          "id": "zinc",
+          "score": 34
         },
         {
           "id": "multiple-sclerosis",
-          "score": 31
+          "score": 33
         }
       ]
     },
@@ -6295,6 +6312,10 @@
         "streptococcus-pneumoniae",
         "yersinia-pestis",
         "zinc",
+        "alpha-synuclein",
+        "antimicrobial-resistance",
+        "co-selection",
+        "dyshomeostasis",
         "heavy-metals",
         "neurodegeneration",
         "oxidative-stress",
@@ -6304,35 +6325,35 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 76
+          "score": 78
         },
         {
           "id": "mercury",
-          "score": 44
+          "score": 50
         },
         {
           "id": "manganese",
-          "score": 34
-        },
-        {
-          "id": "ferroptosis",
-          "score": 31
+          "score": 38
         },
         {
           "id": "nutritional-immunity",
-          "score": 30
+          "score": 36
         },
         {
-          "id": "dietary-metal-paradoxes",
-          "score": 26
-        },
-        {
-          "id": "pcos",
-          "score": 24
+          "id": "ferroptosis",
+          "score": 35
         },
         {
           "id": "inflammation",
-          "score": 24
+          "score": 28
+        },
+        {
+          "id": "pcos",
+          "score": 26
+        },
+        {
+          "id": "gut-metal-microbiome",
+          "score": 26
         }
       ]
     },
@@ -8211,12 +8232,12 @@
           "score": 11
         },
         {
-          "id": "fusobacterium",
-          "score": 10
+          "id": "metal-disease-matrix",
+          "score": 11
         },
         {
-          "id": "metal-disease-matrix",
-          "score": 9
+          "id": "fusobacterium",
+          "score": 10
         },
         {
           "id": "akkermansia-muciniphila",
@@ -8526,6 +8547,7 @@
         "yersinia-pestis",
         "acidic-microenvironment",
         "beta-glucuronidase",
+        "co-selection",
         "enterohepatic-circulation",
         "estrobolome",
         "estrogen-recirculation",
@@ -8571,15 +8593,15 @@
         },
         {
           "id": "zinc",
-          "score": 26
+          "score": 28
         },
         {
           "id": "colorectal-cancer",
           "score": 24
         },
         {
-          "id": "colorectal-cancer",
-          "score": 22
+          "id": "metal-disease-matrix",
+          "score": 23
         }
       ]
     },
@@ -10205,6 +10227,7 @@
       ],
       "sourceDir": "entities",
       "backlinks": [
+        "iodine",
         "selenium"
       ],
       "related": [
@@ -10287,7 +10310,7 @@
         {
           "heading": "Urease",
           "level": 3,
-          "body": "- Up to **10% of total proteome**.\n- Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the acidic stomach.\n- **Roles beyond acid neutralization** [[[maier-2019-nickel-microbial-pathogenesis]]]:\n  - Required for persistence even at neutral gastric pH.\n  - Promotes angiogenesis.\n  - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).\n  - Binds Class II MHC on gastric epithelial cells → induces apoptosis.\n  - Disrupts epithelial tight junctions (via ammonia production → myosin activation).\n  - Activates blood platelets (lipoxygenase-mediated pathway).\n  - Alters mucin gene expression.\n- **Dual enzymatic/non-enzymatic function**: \n  - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).\n  - Apo-urease (Ni-free): retains only oxidant-quenching activity.\n  - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role."
+          "body": "- Up to **10% of total proteome**.\n- Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.\n- **Roles beyond acid neutralization** [[[maier-2019-nickel-microbial-pathogenesis]]]:\n  - Required for persistence even at neutral gastric pH.\n  - Promotes angiogenesis.\n  - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).\n  - Binds Class II MHC on gastric epithelial cells → induces apoptosis.\n  - Disrupts epithelial tight junctions (via ammonia production → myosin activation).\n  - Activates blood platelets (lipoxygenase-mediated pathway).\n  - Alters mucin gene expression.\n- **Dual enzymatic/non-enzymatic function**: \n  - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).\n  - Apo-urease (Ni-free): retains only oxidant-quenching activity.\n  - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role."
         },
         {
           "heading": "[NiFe] Hydrogenase",
@@ -10332,6 +10355,7 @@
       ],
       "wikilinks": [
         "nickel",
+        "acidic-microenvironment",
         "[maier-2019-nickel-microbial-pathogenesis",
         "metal-dependent-virulence",
         "nutritional-immunity",
@@ -10872,7 +10896,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[crohns-disease]] -- transmural IBD subtype; ZIP8 variant links metal transport to pathogenesis\n- [[calprotectin]] -- gold-standard IBD biomarker; metal-sequestering antimicrobial protein\n- [[hepcidin]] -- iron-regulatory hormone elevated in IBD, driving the anemia-of-inflammation paradox\n- [[ferroptosis]] -- intracellular iron trapping during hepcidin elevation may promote ferroptotic cell death\n- [[short-chain-fatty-acids]] -- SCFA producer depletion is the functional consequence of IBD dysbiosis\n- [[dysbiosis]] -- IBD has the most characterized dysbiosis signature in the literature\n- [[inflammation]] -- chronic NF-kB-driven inflammation is the hallmark of IBD\n- [[cardiovascular-disease]] -- IBD patients at significantly increased CVD risk via shared inflammatory mechanisms\n- [[nutritional-immunity]] -- calprotectin and lactoferrin are nutritional immunity effectors elevated in IBD"
+          "body": "- [[crohns-disease]] -- transmural IBD subtype; ZIP8 variant links metal transport to pathogenesis\n- [[calprotectin]] -- gold-standard IBD biomarker; metal-sequestering antimicrobial protein\n- [[hepcidin]] -- iron-regulatory hormone elevated in IBD, driving the anemia-of-inflammation paradox\n- [[ferroptosis]] -- intracellular iron trapping during hepcidin elevation may promote ferroptotic cell death\n- [[short-chain-fatty-acids]] -- SCFA producer depletion is the functional consequence of IBD dysbiosis\n- [[dysbiosis]] -- IBD has the most characterized dysbiosis signature in the literature\n- [[inflammation]] -- chronic NF-kB-driven inflammation is the hallmark of IBD\n- [[cardiovascular-disease]] -- IBD patients at significantly increased CVD risk via shared inflammatory mechanisms\n- [[nutritional-immunity]] -- calprotectin and lactoferrin are nutritional immunity effectors elevated in IBD\n- [[metal-disease-matrix]] -- IBD is a key disease in the metal-disease interaction landscape"
         }
       ],
       "wikilinks": [
@@ -10894,7 +10918,8 @@
         "[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome",
         "[sokol-2020-fmt-remission-crohns-pilot-rct",
         "[li-2019-timing-second-fmt-crohns",
-        "[shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis"
+        "[shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis",
+        "metal-disease-matrix"
       ],
       "sourceDir": "entities",
       "backlinks": [
@@ -11077,6 +11102,95 @@
         {
           "id": "oxalobacter",
           "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iodine",
+      "title": "Iodine",
+      "type": "element",
+      "category": "other",
+      "tags": [
+        "iodine",
+        "thyroid",
+        "selenium",
+        "essential-element",
+        "halogen"
+      ],
+      "sources": [],
+      "frontmatter": {
+        "title": "Iodine",
+        "category": "entity",
+        "type": "element",
+        "tags": [
+          "iodine",
+          "thyroid",
+          "selenium",
+          "essential-element",
+          "halogen"
+        ]
+      },
+      "overview": "An essential halogen required for thyroid hormone synthesis (T3 and T4). The thyroid gland is the primary iodine-concentrating organ, containing 70-80% of total body iodine. Deficiency causes goiter, hypothyroidism, and neurodevelopmental impairment; excess can trigger autoimmune thyroiditis in susceptible individuals.",
+      "sections": [
+        {
+          "heading": "Relevance to This Wiki",
+          "level": 2,
+          "body": "- **Thyroid-metal interactions**: Iodine status modulates the toxicity of [[selenium]] (required for deiodinase enzymes that convert T4 to T3), [[iron]] (required for thyroid peroxidase), and heavy metals ([[cadmium]], [[mercury]], [[lead]]) that compete with iodine uptake via the sodium-iodide symporter (NIS).\n- **Selenium-iodine axis**: Combined deficiency of both elements produces more severe thyroid dysfunction than either alone; selenoprotein-dependent deiodinases are the critical link.\n- **Microbiome connections**: Thyroid hormone status affects gut motility and microbiome composition; [[dysbiosis]] may impair enterohepatic recycling of thyroid hormones."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[selenium]] -- selenoproteins (deiodinases, GPx) protect the thyroid during iodine-mediated H2O2 generation\n- [[iron]] -- thyroid peroxidase is iron-dependent; iron deficiency impairs iodine utilization\n- [[hashimotos-thyroiditis]] -- excess iodine intake is a trigger for autoimmune thyroiditis\n- [[gut-metal-microbiome]] -- thyroid-gut axis mediates bidirectional effects on microbiome composition\n- [[metal-disease-matrix]] -- iodine interacts with multiple metals in thyroid and systemic disease"
+        }
+      ],
+      "wikilinks": [
+        "selenium",
+        "iron",
+        "cadmium",
+        "mercury",
+        "lead",
+        "dysbiosis",
+        "hashimotos-thyroiditis",
+        "gut-metal-microbiome",
+        "metal-disease-matrix"
+      ],
+      "sourceDir": "entities",
+      "backlinks": [
+        "graves-disease",
+        "hashimotos-thyroiditis"
+      ],
+      "related": [
+        {
+          "id": "graves-disease",
+          "score": 8
+        },
+        {
+          "id": "copper",
+          "score": 6
+        },
+        {
+          "id": "zinc",
+          "score": 6
+        },
+        {
+          "id": "akkermansia-muciniphila",
+          "score": 4
+        },
+        {
+          "id": "prevotella",
+          "score": 4
+        },
+        {
+          "id": "probiotics",
+          "score": 4
+        },
+        {
+          "id": "graves-disease",
+          "score": 4
+        },
+        {
+          "id": "bifidobacterium",
+          "score": 2
         }
       ]
     },
@@ -11348,6 +11462,7 @@
         "gordonibacter-urolithinfaciens",
         "graves-disease",
         "hashimotos-thyroiditis",
+        "iodine",
         "klebsiella-pneumoniae",
         "lachnospiraceae",
         "lactobacillus",
@@ -11392,8 +11507,10 @@
         "type-2-diabetes",
         "yersinia-pestis",
         "acidic-microenvironment",
+        "alpha-synuclein",
         "beta-glucuronidase",
         "developmental-metal-vulnerability",
+        "dyshomeostasis",
         "estrobolome",
         "fermentative-metabolism",
         "gut-microbiome",
@@ -11404,6 +11521,8 @@
         "lactoferrin",
         "lipocalin-2",
         "metal-dependent-virulence",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "neurodegeneration",
         "neuroinflammation",
         "nickel-urease",
@@ -11422,35 +11541,35 @@
       "related": [
         {
           "id": "zinc",
-          "score": 129
+          "score": 135
         },
         {
           "id": "dysbiosis",
-          "score": 93
+          "score": 103
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 78
+          "score": 86
         },
         {
           "id": "inflammation",
-          "score": 72
+          "score": 78
+        },
+        {
+          "id": "oxidative-stress",
+          "score": 70
         },
         {
           "id": "faecalibacterium-prausnitzii",
           "score": 67
         },
         {
-          "id": "oxidative-stress",
+          "id": "metal-disease-matrix",
           "score": 66
         },
         {
-          "id": "metal-disease-matrix",
-          "score": 62
-        },
-        {
           "id": "colorectal-cancer",
-          "score": 59
+          "score": 63
         }
       ]
     },
@@ -11576,11 +11695,17 @@
       "backlinks": [
         "enterobacteriaceae",
         "yersinia-pestis",
+        "antimicrobial-resistance",
+        "co-selection",
         "nickel-urease",
         "siderophores",
         "alzheimers-disease"
       ],
       "related": [
+        {
+          "id": "pseudomonas-aeruginosa",
+          "score": 12
+        },
         {
           "id": "neisseria-meningitidis",
           "score": 11
@@ -11594,24 +11719,20 @@
           "score": 10
         },
         {
+          "id": "staphylococcus-aureus",
+          "score": 10
+        },
+        {
+          "id": "zinc",
+          "score": 10
+        },
+        {
           "id": "biofilm",
           "score": 10
         },
         {
           "id": "inter-kingdom-metal-shielding",
           "score": 10
-        },
-        {
-          "id": "cryptococcus-neoformans",
-          "score": 9
-        },
-        {
-          "id": "mycobacterium-tuberculosis",
-          "score": 9
-        },
-        {
-          "id": "pathogen-metal-acquisition",
-          "score": 9
         }
       ]
     },
@@ -11902,11 +12023,11 @@
           "score": 23
         },
         {
-          "id": "ruminococcus",
-          "score": 21
+          "id": "metal-disease-matrix",
+          "score": 23
         },
         {
-          "id": "metal-disease-matrix",
+          "id": "ruminococcus",
           "score": 21
         },
         {
@@ -12506,6 +12627,7 @@
         "gardnerella",
         "graves-disease",
         "hypertension",
+        "iodine",
         "lachnospiraceae",
         "lactobacillus",
         "mercury",
@@ -12519,11 +12641,16 @@
         "saccharomyces",
         "tin",
         "zinc",
+        "alpha-synuclein",
+        "co-selection",
         "developmental-metal-vulnerability",
+        "dyshomeostasis",
         "glutathione",
         "heavy-metals",
         "inflammation",
         "insulin-resistance",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "neurodegeneration",
         "neuroinflammation",
         "nf-kappa-b",
@@ -12533,35 +12660,35 @@
       "related": [
         {
           "id": "iron",
-          "score": 53
+          "score": 63
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 53
+          "score": 63
         },
         {
           "id": "dysbiosis",
-          "score": 44
+          "score": 56
         },
         {
           "id": "inflammation",
-          "score": 40
+          "score": 46
         },
         {
           "id": "metal-disease-matrix",
-          "score": 34
+          "score": 38
         },
         {
-          "id": "faecalibacterium-prausnitzii",
-          "score": 25
+          "id": "gut-brain-axis",
+          "score": 30
         },
         {
-          "id": "autism-spectrum-disorder",
-          "score": 24
+          "id": "ferroptosis",
+          "score": 27
         },
         {
           "id": "cardiovascular-disease",
-          "score": 24
+          "score": 26
         }
       ]
     },
@@ -13299,7 +13426,9 @@
         "streptococcus-thermophilus",
         "streptococcus",
         "torulaspora",
+        "alpha-synuclein",
         "calprotectin",
+        "dyshomeostasis",
         "gut-microbiome",
         "heavy-metals",
         "neurodegeneration",
@@ -13309,22 +13438,26 @@
       "related": [
         {
           "id": "zinc",
-          "score": 52
+          "score": 54
         },
         {
           "id": "copper",
-          "score": 34
+          "score": 38
         },
         {
           "id": "metal-disease-matrix",
-          "score": 32
+          "score": 34
         },
         {
           "id": "selenium",
-          "score": 29
+          "score": 31
         },
         {
           "id": "dysbiosis",
+          "score": 28
+        },
+        {
+          "id": "lead",
           "score": 24
         },
         {
@@ -13333,11 +13466,7 @@
         },
         {
           "id": "cadmium",
-          "score": 21
-        },
-        {
-          "id": "lead",
-          "score": 20
+          "score": 23
         }
       ]
     },
@@ -13560,6 +13689,7 @@
         "gardnerella",
         "graves-disease",
         "hashimotos-thyroiditis",
+        "iodine",
         "lachnospiraceae",
         "lead",
         "nickel",
@@ -13567,10 +13697,15 @@
         "pcos",
         "selenium",
         "zinc",
+        "antimicrobial-resistance",
+        "co-selection",
         "developmental-metal-vulnerability",
+        "dyshomeostasis",
         "glutathione",
         "heavy-metals",
         "inflammation",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "neuroinflammation",
         "nf-kappa-b",
         "oxidative-stress",
@@ -13578,36 +13713,36 @@
       ],
       "related": [
         {
-          "id": "metal-disease-matrix",
-          "score": 40
-        },
-        {
           "id": "iron",
-          "score": 38
+          "score": 46
         },
         {
-          "id": "ferroptosis",
-          "score": 28
+          "id": "metal-disease-matrix",
+          "score": 44
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 26
+          "score": 38
+        },
+        {
+          "id": "dysbiosis",
+          "score": 31
+        },
+        {
+          "id": "ferroptosis",
+          "score": 30
+        },
+        {
+          "id": "inflammation",
+          "score": 27
         },
         {
           "id": "mis-metallation",
           "score": 24
         },
         {
-          "id": "inflammation",
-          "score": 23
-        },
-        {
           "id": "alzheimers-disease",
           "score": 22
-        },
-        {
-          "id": "developmental-metal-vulnerability",
-          "score": 21
         }
       ]
     },
@@ -14273,6 +14408,7 @@
         "sutterella",
         "veillonella",
         "bile-acid-metabolism",
+        "microbiome",
         "neuroinflammation",
         "probiotics",
         "tryptophan-metabolism",
@@ -14284,23 +14420,23 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 44
+          "score": 46
         },
         {
           "id": "inflammation",
           "score": 38
         },
         {
+          "id": "short-chain-fatty-acids",
+          "score": 34
+        },
+        {
           "id": "cardiovascular-disease",
           "score": 33
         },
         {
-          "id": "short-chain-fatty-acids",
-          "score": 32
-        },
-        {
           "id": "colorectal-cancer",
-          "score": 31
+          "score": 33
         },
         {
           "id": "cardiovascular-disease",
@@ -14308,11 +14444,11 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 28
+          "score": 30
         },
         {
-          "id": "faecalibacterium-prausnitzii",
-          "score": 22
+          "id": "gut-brain-axis",
+          "score": 24
         }
       ]
     },
@@ -15270,6 +15406,7 @@
         "metabolic-syndrome",
         "metal-carcinogenesis",
         "metal-dependent-virulence",
+        "microbiome",
         "nf-kappa-b",
         "nickel-allergy",
         "nickel-glyoxalase",
@@ -15291,7 +15428,7 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 104
+          "score": 106
         },
         {
           "id": "low-nickel-diet",
@@ -15319,7 +15456,7 @@
         },
         {
           "id": "dysbiosis",
-          "score": 47
+          "score": 49
         }
       ]
     },
@@ -15439,7 +15576,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[insulin-resistance]] -- convergent metabolic endpoint of metal toxicity, dysbiosis, and inflammation\n- [[short-chain-fatty-acids]] -- SCFA depletion is the mechanistic bridge between metal exposure and metabolic dysfunction\n- [[nickel-allergy]] -- 59.7% prevalence in overweight women; low-Ni diet produces dramatic weight loss\n- [[low-nickel-diet]] -- normocaloric intervention producing BMI reduction of 4.2 without caloric restriction\n- [[tmao]] -- elevated in obesity; contributes to CVD comorbidity\n- [[inflammation]] -- adipose tissue inflammation driven by LPS translocation and metal exposure\n- [[metalloestrogens]] -- nickel and cadmium mimic estrogen signaling, promoting adiposity\n- [[cardiovascular-disease]] -- obesity is a major CVD risk factor; shared microbiome mechanisms\n- [[type-2-diabetes]] -- obesity-T2D continuum; shared insulin resistance and dysbiosis pathways\n- [[gut-metal-microbiome]] -- the ecosystem where metal-driven obesogenic dysbiosis originates"
+          "body": "- [[insulin-resistance]] -- convergent metabolic endpoint of metal toxicity, dysbiosis, and inflammation\n- [[short-chain-fatty-acids]] -- SCFA depletion is the mechanistic bridge between metal exposure and metabolic dysfunction\n- [[nickel-allergy]] -- 59.7% prevalence in overweight women; low-Ni diet produces dramatic weight loss\n- [[low-nickel-diet]] -- normocaloric intervention producing BMI reduction of 4.2 without caloric restriction\n- [[tmao]] -- elevated in obesity; contributes to CVD comorbidity\n- [[inflammation]] -- adipose tissue inflammation driven by LPS translocation and metal exposure\n- [[metalloestrogens]] -- nickel and cadmium mimic estrogen signaling, promoting adiposity\n- [[cardiovascular-disease]] -- obesity is a major CVD risk factor; shared microbiome mechanisms\n- [[type-2-diabetes]] -- obesity-T2D continuum; shared insulin resistance and dysbiosis pathways\n- [[gut-metal-microbiome]] -- the ecosystem where metal-driven obesogenic dysbiosis originates\n- [[metal-disease-matrix]] -- obesity is a key disease in the metal-disease interaction landscape"
         }
       ],
       "wikilinks": [
@@ -15461,7 +15598,8 @@
         "bifidobacterium",
         "[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions",
         "bile-acid-metabolism",
-        "type-2-diabetes"
+        "type-2-diabetes",
+        "metal-disease-matrix"
       ],
       "sourceDir": "entities",
       "backlinks": [
@@ -16771,6 +16909,9 @@
         "manganese",
         "prevotella",
         "roseburia",
+        "alpha-synuclein",
+        "dyshomeostasis",
+        "microbiome",
         "neuroinflammation",
         "oxidative-stress",
         "short-chain-fatty-acids"
@@ -16782,26 +16923,26 @@
         },
         {
           "id": "dysbiosis",
-          "score": 22
+          "score": 28
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 21
-        },
-        {
-          "id": "cardiovascular-disease",
-          "score": 20
+          "score": 25
         },
         {
           "id": "colorectal-cancer",
-          "score": 19
+          "score": 23
         },
         {
-          "id": "autism-spectrum-disorder",
-          "score": 17
+          "id": "cardiovascular-disease",
+          "score": 22
         },
         {
           "id": "inflammation",
+          "score": 21
+        },
+        {
+          "id": "autism-spectrum-disorder",
           "score": 17
         },
         {
@@ -17387,6 +17528,7 @@
         "molybdenum",
         "postpartum-depression",
         "type-2-diabetes",
+        "dyshomeostasis",
         "estrobolome",
         "insulin-resistance",
         "mediterranean-diet",
@@ -17396,22 +17538,26 @@
       "related": [
         {
           "id": "iron",
-          "score": 18
+          "score": 20
         },
         {
           "id": "alzheimers-disease",
           "score": 17
         },
         {
+          "id": "parkinsons-disease",
+          "score": 15
+        },
+        {
           "id": "magnesium",
           "score": 14
         },
         {
-          "id": "hashimotos-thyroiditis",
+          "id": "cardiovascular-disease",
           "score": 13
         },
         {
-          "id": "parkinsons-disease",
+          "id": "hashimotos-thyroiditis",
           "score": 13
         },
         {
@@ -17420,10 +17566,6 @@
         },
         {
           "id": "glutathione",
-          "score": 12
-        },
-        {
-          "id": "metabolic-syndrome",
           "score": 12
         }
       ]
@@ -19133,6 +19275,8 @@
         "enterococcus",
         "neisseria-meningitidis",
         "acidic-microenvironment",
+        "antimicrobial-resistance",
+        "co-selection",
         "functional-shielding",
         "glyoxalase",
         "metal-dependent-virulence",
@@ -19144,7 +19288,7 @@
       "related": [
         {
           "id": "escherichia-coli",
-          "score": 20
+          "score": 22
         },
         {
           "id": "candida-albicans",
@@ -19152,6 +19296,10 @@
         },
         {
           "id": "salmonella-typhimurium",
+          "score": 16
+        },
+        {
+          "id": "zinc",
           "score": 16
         },
         {
@@ -19163,15 +19311,11 @@
           "score": 14
         },
         {
+          "id": "klebsiella-pneumoniae",
+          "score": 12
+        },
+        {
           "id": "yersinia-pestis",
-          "score": 12
-        },
-        {
-          "id": "zinc",
-          "score": 12
-        },
-        {
-          "id": "inter-kingdom-metal-shielding",
           "score": 12
         }
       ]
@@ -20555,7 +20699,7 @@
           "typhoid"
         ]
       },
-      "overview": "A Gram-negative enteric pathogen that possesses **four distinct [NiFe] hydrogenases** -- the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is **100% avirulent** in mouse typhoid models, making nickel-dependent hydrogen metabolism a central pillar of Salmonella virulence.",
+      "overview": "A Gram-negative enteric pathogen that possesses **four distinct [NiFe] hydrogenases** -- the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is **100% avirulent** in mouse typhoid models, making nickel-dependent hydrogen metabolism (via [[nife-hydrogenase]]) a central pillar of Salmonella virulence.",
       "sections": [
         {
           "heading": "Metal-Dependent Virulence Factors",
@@ -20624,6 +20768,7 @@
         }
       ],
       "wikilinks": [
+        "nife-hydrogenase",
         "[maier-2019-nickel-microbial-pathogenesis",
         "metal-dependent-virulence",
         "nickel",
@@ -20868,10 +21013,12 @@
         "graves-disease",
         "hashimotos-thyroiditis",
         "intestinibacter",
+        "iodine",
         "iron",
         "magnesium",
         "mercury",
         "parkinsons-disease",
+        "dyshomeostasis",
         "glutathione",
         "oxidative-stress",
         "probiotics"
@@ -20879,11 +21026,11 @@
       "related": [
         {
           "id": "zinc",
-          "score": 46
+          "score": 48
         },
         {
           "id": "metal-disease-matrix",
-          "score": 38
+          "score": 42
         },
         {
           "id": "nickel",
@@ -20891,23 +21038,23 @@
         },
         {
           "id": "manganese",
-          "score": 29
+          "score": 31
         },
         {
           "id": "lead",
+          "score": 19
+        },
+        {
+          "id": "arsenic",
           "score": 15
+        },
+        {
+          "id": "parkinsons-disease",
+          "score": 14
         },
         {
           "id": "glutathione",
           "score": 14
-        },
-        {
-          "id": "arsenic",
-          "score": 13
-        },
-        {
-          "id": "alzheimers-disease",
-          "score": 12
         }
       ]
     },
@@ -21200,8 +21347,10 @@
         "pseudomonas-aeruginosa",
         "salmonella-typhimurium",
         "streptococcus-pneumoniae",
+        "antimicrobial-resistance",
         "biofilm",
         "calprotectin",
+        "co-selection",
         "functional-shielding",
         "inter-kingdom-metal-shielding",
         "metal-dependent-virulence",
@@ -21217,20 +21366,20 @@
           "score": 24
         },
         {
+          "id": "pseudomonas-aeruginosa",
+          "score": 24
+        },
+        {
+          "id": "escherichia-coli",
+          "score": 22
+        },
+        {
           "id": "salmonella-typhimurium",
           "score": 22
         },
         {
           "id": "urease",
           "score": 22
-        },
-        {
-          "id": "escherichia-coli",
-          "score": 20
-        },
-        {
-          "id": "pseudomonas-aeruginosa",
-          "score": 20
         },
         {
           "id": "inter-kingdom-metal-shielding",
@@ -22101,6 +22250,10 @@
           "score": 9
         },
         {
+          "id": "metal-disease-matrix",
+          "score": 8
+        },
+        {
           "id": "akkermansia-muciniphila",
           "score": 7
         },
@@ -22118,10 +22271,6 @@
         },
         {
           "id": "butyrate",
-          "score": 6
-        },
-        {
-          "id": "glutathione",
           "score": 6
         }
       ]
@@ -23420,9 +23569,12 @@
         "type-2-diabetes",
         "yersinia-pestis",
         "acidic-microenvironment",
+        "antimicrobial-resistance",
         "beta-glucuronidase",
         "calprotectin",
+        "co-selection",
         "developmental-metal-vulnerability",
+        "dyshomeostasis",
         "estrobolome",
         "fermentative-metabolism",
         "glyoxalase",
@@ -23432,6 +23584,8 @@
         "insulin-resistance",
         "matrix-metalloproteases",
         "metal-dependent-virulence",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "neurodegeneration",
         "nickel-urease",
         "nife-hydrogenase",
@@ -23447,35 +23601,35 @@
       "related": [
         {
           "id": "iron",
-          "score": 129
+          "score": 135
         },
         {
           "id": "metal-disease-matrix",
-          "score": 77
+          "score": 79
         },
         {
           "id": "nutritional-immunity",
-          "score": 62
-        },
-        {
-          "id": "manganese",
-          "score": 52
+          "score": 68
         },
         {
           "id": "dysbiosis",
-          "score": 49
+          "score": 59
+        },
+        {
+          "id": "manganese",
+          "score": 54
         },
         {
           "id": "selenium",
-          "score": 46
+          "score": 48
         },
         {
-          "id": "bacteroides-fragilis",
-          "score": 31
+          "id": "inflammation",
+          "score": 35
         },
         {
-          "id": "ferroptosis",
-          "score": 31
+          "id": "colorectal-cancer",
+          "score": 34
         }
       ]
     },
@@ -23692,9 +23846,15 @@
       ],
       "sourceDir": "concepts",
       "backlinks": [
+        "brucella",
+        "helicobacter-pylori",
         "fermentative-metabolism"
       ],
       "related": [
+        {
+          "id": "metal-dependent-virulence",
+          "score": 4
+        },
         {
           "id": "obesity",
           "score": 4
@@ -23716,16 +23876,210 @@
           "score": 3
         },
         {
-          "id": "nf-kappa-b",
+          "id": "metal-carcinogenesis",
           "score": 3
         },
         {
-          "id": "allisonella",
+          "id": "nf-kappa-b",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "alpha-synuclein",
+      "title": "Alpha-Synuclein",
+      "type": "concepts",
+      "category": "other",
+      "tags": [
+        "alpha-synuclein",
+        "parkinsons-disease",
+        "neurodegeneration",
+        "protein-aggregation",
+        "gut-brain-axis",
+        "iron",
+        "copper",
+        "manganese"
+      ],
+      "sources": [],
+      "frontmatter": {
+        "title": "Alpha-Synuclein",
+        "category": "concept",
+        "tags": [
+          "alpha-synuclein",
+          "parkinsons-disease",
+          "neurodegeneration",
+          "protein-aggregation",
+          "gut-brain-axis",
+          "iron",
+          "copper",
+          "manganese"
+        ]
+      },
+      "overview": "A 140-amino-acid presynaptic protein whose misfolding and aggregation into Lewy bodies is the pathological hallmark of [[parkinsons-disease]] and other synucleinopathies. The \"gut-first\" hypothesis proposes that alpha-synuclein pathology originates in the enteric nervous system and propagates to the brain via the vagus nerve.",
+      "sections": [
+        {
+          "heading": "Metal Interactions",
+          "level": 2,
+          "body": "- **[[Iron]]**: Fe(III) directly accelerates alpha-synuclein fibrillization; iron accumulates in the substantia nigra of PD patients. [[Ferroptosis]] (iron-dependent cell death) is implicated in dopaminergic neuron loss.\n- **[[Copper]]**: Cu(II) binds alpha-synuclein at the N-terminus and promotes oligomerization. Copper dyshomeostasis is documented in PD brain tissue.\n- **[[Manganese]]**: Chronic manganese exposure causes manganism (parkinsonism); Mn promotes alpha-synuclein aggregation and mitochondrial dysfunction.\n- **[[Lead]]**: Developmental lead exposure upregulates alpha-synuclein expression decades later (epigenetic programming)."
+        },
+        {
+          "heading": "Gut-Brain Connection",
+          "level": 2,
+          "body": "- Alpha-synuclein is expressed in enteric neurons; [[dysbiosis]] and [[inflammation]] in the gut may trigger its misfolding.\n- Gut microbiome composition (specifically [[short-chain-fatty-acids]] producers) modulates alpha-synuclein aggregation in animal models.\n- The [[gut-brain-axis]] provides the anatomical route for prion-like spread from gut to brain."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[parkinsons-disease]] -- alpha-synuclein aggregation is the defining pathology\n- [[ferroptosis]] -- iron-dependent cell death pathway in dopaminergic neurons\n- [[neuroinflammation]] -- microglial activation by aggregated alpha-synuclein\n- [[gut-brain-axis]] -- vagal transmission of pathological alpha-synuclein\n- [[oxidative-stress]] -- metal-catalyzed ROS generation promotes misfolding"
+        }
+      ],
+      "wikilinks": [
+        "parkinsons-disease",
+        "iron",
+        "ferroptosis",
+        "copper",
+        "manganese",
+        "lead",
+        "dysbiosis",
+        "inflammation",
+        "short-chain-fatty-acids",
+        "gut-brain-axis",
+        "neuroinflammation",
+        "oxidative-stress"
+      ],
+      "sourceDir": "concepts",
+      "backlinks": [
+        "parkinsons-disease"
+      ],
+      "related": [
+        {
+          "id": "neurodegeneration",
+          "score": 12
+        },
+        {
+          "id": "alzheimers-disease",
+          "score": 8
+        },
+        {
+          "id": "candida-albicans",
+          "score": 6
+        },
+        {
+          "id": "streptococcus-pneumoniae",
+          "score": 6
+        },
+        {
+          "id": "metal-dependent-virulence",
+          "score": 6
+        },
+        {
+          "id": "autism-spectrum-disorder",
+          "score": 4
+        },
+        {
+          "id": "breast-cancer",
+          "score": 4
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "antimicrobial-resistance",
+      "title": "Antimicrobial Resistance",
+      "type": "concepts",
+      "category": "other",
+      "tags": [
+        "antimicrobial-resistance",
+        "antibiotic-resistance",
+        "co-selection",
+        "metal-resistance",
+        "ESKAPE",
+        "mobile-genetic-elements"
+      ],
+      "sources": [],
+      "frontmatter": {
+        "title": "Antimicrobial Resistance",
+        "category": "concept",
+        "tags": [
+          "antimicrobial-resistance",
+          "antibiotic-resistance",
+          "co-selection",
+          "metal-resistance",
+          "ESKAPE",
+          "mobile-genetic-elements"
+        ]
+      },
+      "overview": "The ability of microorganisms to withstand antimicrobial agents (antibiotics, antifungals, antivirals) at concentrations that would normally kill or inhibit them. In the context of this wiki, the critical insight is that **heavy metal exposure drives antimicrobial resistance** through [[co-selection]] -- metal resistance genes and antibiotic resistance genes frequently co-locate on mobile genetic elements.",
+      "sections": [
+        {
+          "heading": "Metal-Driven Resistance",
+          "level": 2,
+          "body": "- **[[Arsenic]]**, **[[mercury]]**, **[[cadmium]]**, **[[copper]]**, and **[[zinc]]** resistance operons are commonly linked to antibiotic resistance genes on plasmids and transposons.\n- ESKAPE pathogens ([[staphylococcus-aureus]], [[klebsiella-pneumoniae]], [[pseudomonas-aeruginosa]]) exhibit metal-antibiotic co-resistance.\n- Environmental metal pollution (mining, agriculture, industrial waste) creates selection pressure that enriches resistant organisms before they enter the human [[gut-metal-microbiome]]."
+        },
+        {
+          "heading": "Microbiome Impact",
+          "level": 2,
+          "body": "- Antibiotic use disrupts gut microbiome composition, depleting [[short-chain-fatty-acids]] producers and enabling pathobiont expansion.\n- Metal exposure in food and water may sustain resistance genes in the gut even without antibiotic use.\n- [[Probiotics]] and microbiome restoration strategies may help counteract resistance-driven [[dysbiosis]]."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[co-selection]] -- the mechanistic link between metal and antibiotic resistance\n- [[dysbiosis]] -- antibiotic-driven dysbiosis compounds metal-driven dysbiosis\n- [[gut-metal-microbiome]] -- the environment where co-selection operates in humans\n- [[nutritional-immunity]] -- host metal sequestration intersects with resistance mechanisms"
+        }
+      ],
+      "wikilinks": [
+        "co-selection",
+        "arsenic",
+        "mercury",
+        "cadmium",
+        "copper",
+        "zinc",
+        "staphylococcus-aureus",
+        "klebsiella-pneumoniae",
+        "pseudomonas-aeruginosa",
+        "gut-metal-microbiome",
+        "short-chain-fatty-acids",
+        "probiotics",
+        "dysbiosis",
+        "nutritional-immunity"
+      ],
+      "sourceDir": "concepts",
+      "backlinks": [],
+      "related": [
+        {
+          "id": "enterococcus",
+          "score": 6
+        },
+        {
+          "id": "inter-kingdom-metal-shielding",
+          "score": 4
+        },
+        {
+          "id": "acinetobacter",
           "score": 2
         },
         {
-          "id": "bacteroides-vulgatus",
+          "id": "bacillus",
           "score": 2
+        },
+        {
+          "id": "enterobacteriaceae",
+          "score": 2
+        },
+        {
+          "id": "biofilm",
+          "score": 2
+        },
+        {
+          "id": "desulfovibrio",
+          "score": 1
+        },
+        {
+          "id": "iodine",
+          "score": 1
         }
       ]
     },
@@ -24169,20 +24523,25 @@
         "obesity",
         "pancreatic-cancer",
         "bile-acids",
-        "enterohepatic-circulation"
+        "enterohepatic-circulation",
+        "microbiome-derived-metabolites"
       ],
       "related": [
+        {
+          "id": "tmao",
+          "score": 10
+        },
         {
           "id": "tryptophan-metabolism",
           "score": 9
         },
         {
-          "id": "tmao",
-          "score": 8
-        },
-        {
           "id": "type-2-diabetes",
           "score": 7
+        },
+        {
+          "id": "cadmium",
+          "score": 6
         },
         {
           "id": "clostridium",
@@ -24197,12 +24556,8 @@
           "score": 6
         },
         {
-          "id": "estrobolome",
-          "score": 5
-        },
-        {
-          "id": "estrogen-recirculation",
-          "score": 5
+          "id": "iron",
+          "score": 6
         }
       ]
     },
@@ -24889,6 +25244,7 @@
         "comorbidities",
         "fecal-microbiota-transplant",
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "prebiotics",
         "alzheimers-disease",
         "cardiovascular-disease",
@@ -24898,7 +25254,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 17
+          "score": 19
         },
         {
           "id": "hepcidin",
@@ -24906,6 +25262,10 @@
         },
         {
           "id": "gut-metal-microbiome",
+          "score": 16
+        },
+        {
+          "id": "zinc",
           "score": 14
         },
         {
@@ -24922,10 +25282,6 @@
         },
         {
           "id": "bacteroides-fragilis",
-          "score": 12
-        },
-        {
-          "id": "zinc",
           "score": 12
         }
       ]
@@ -25107,6 +25463,102 @@
         {
           "id": "siderophores-metallophores",
           "score": 20
+        }
+      ]
+    },
+    {
+      "id": "co-selection",
+      "title": "Co-Selection",
+      "type": "concepts",
+      "category": "other",
+      "tags": [
+        "co-selection",
+        "antibiotic-resistance",
+        "metal-resistance",
+        "horizontal-gene-transfer",
+        "mobile-genetic-elements"
+      ],
+      "sources": [],
+      "frontmatter": {
+        "title": "Co-Selection",
+        "category": "concept",
+        "tags": [
+          "co-selection",
+          "antibiotic-resistance",
+          "metal-resistance",
+          "horizontal-gene-transfer",
+          "mobile-genetic-elements"
+        ]
+      },
+      "overview": "The process by which selection pressure from one agent (e.g., a heavy metal) simultaneously selects for resistance to another agent (e.g., an antibiotic) because the resistance determinants are genetically linked -- typically on the same mobile genetic element (plasmid, transposon, integron).",
+      "sections": [
+        {
+          "heading": "Mechanisms",
+          "level": 2,
+          "body": "1. **Co-resistance**: Distinct resistance genes for different agents on the same genetic element (e.g., a plasmid carrying both a mercury reductase and a beta-lactamase).\n2. **Cross-resistance**: A single mechanism confers resistance to both agents (e.g., efflux pumps that export both metals and antibiotics).\n3. **Co-regulatory**: A single regulatory system controls expression of resistance to both agents."
+        },
+        {
+          "heading": "Relevance to This Wiki",
+          "level": 2,
+          "body": "- Heavy metal contamination in the environment ([[arsenic]], [[mercury]], [[cadmium]], [[lead]], [[copper]], [[zinc]]) drives co-selection for antibiotic resistance in gut and environmental microbiomes.\n- Metal-antibiotic co-resistance is documented in [[staphylococcus-aureus]] (MRSA), [[escherichia-coli]], [[pseudomonas-aeruginosa]], and [[klebsiella-pneumoniae]].\n- Agricultural and industrial metal pollution creates reservoirs of co-selected resistance genes that enter the human [[gut-metal-microbiome]]."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[dysbiosis]] -- co-selected resistant organisms may dominate dysbiotic communities\n- [[nutritional-immunity]] -- host metal sequestration could inadvertently select for co-resistant strains\n- [[gut-metal-microbiome]] -- the primary site where metal-driven co-selection affects human health"
+        }
+      ],
+      "wikilinks": [
+        "arsenic",
+        "mercury",
+        "cadmium",
+        "lead",
+        "copper",
+        "zinc",
+        "staphylococcus-aureus",
+        "escherichia-coli",
+        "pseudomonas-aeruginosa",
+        "klebsiella-pneumoniae",
+        "gut-metal-microbiome",
+        "dysbiosis",
+        "nutritional-immunity"
+      ],
+      "sourceDir": "concepts",
+      "backlinks": [
+        "antimicrobial-resistance"
+      ],
+      "related": [
+        {
+          "id": "antimicrobial-resistance",
+          "score": 9
+        },
+        {
+          "id": "enterococcus",
+          "score": 6
+        },
+        {
+          "id": "inter-kingdom-metal-shielding",
+          "score": 4
+        },
+        {
+          "id": "bacillus",
+          "score": 2
+        },
+        {
+          "id": "enterobacteriaceae",
+          "score": 2
+        },
+        {
+          "id": "biofilm",
+          "score": 2
+        },
+        {
+          "id": "probiotics",
+          "score": 2
+        },
+        {
+          "id": "short-chain-fatty-acids",
+          "score": 2
         }
       ]
     },
@@ -25831,6 +26283,7 @@
         "hypertension",
         "inflammatory-bowel-disease",
         "intestinibacter",
+        "iodine",
         "klebsiella-pneumoniae",
         "lachnospiraceae",
         "lactobacillus",
@@ -25860,13 +26313,17 @@
         "sutterella",
         "torulaspora",
         "veillonella",
+        "alpha-synuclein",
+        "antimicrobial-resistance",
         "atherosclerosis",
         "bile-acid-metabolism",
         "biomarkers",
         "blood-brain-barrier",
         "butyrate",
         "calprotectin",
+        "co-selection",
         "comorbidities",
+        "dyshomeostasis",
         "fecal-microbiota-transplant",
         "gut-brain-axis",
         "gut-microbiome",
@@ -25875,6 +26332,8 @@
         "inflammation",
         "insulin-resistance",
         "mediterranean-diet",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "mycobiome",
         "neurodegeneration",
         "neuroinflammation",
@@ -25886,35 +26345,136 @@
       "related": [
         {
           "id": "iron",
-          "score": 93
+          "score": 103
+        },
+        {
+          "id": "short-chain-fatty-acids",
+          "score": 83
         },
         {
           "id": "faecalibacterium-prausnitzii",
           "score": 78
         },
         {
-          "id": "short-chain-fatty-acids",
-          "score": 75
+          "id": "cardiovascular-disease",
+          "score": 66
         },
         {
           "id": "cardiovascular-disease",
-          "score": 64
-        },
-        {
-          "id": "cardiovascular-disease",
-          "score": 60
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 54
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 52
+          "score": 62
         },
         {
           "id": "zinc",
-          "score": 49
+          "score": 59
+        },
+        {
+          "id": "cadmium",
+          "score": 58
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 58
+        }
+      ]
+    },
+    {
+      "id": "dyshomeostasis",
+      "title": "Dyshomeostasis",
+      "type": "concepts",
+      "category": "other",
+      "tags": [
+        "dyshomeostasis",
+        "metal-imbalance",
+        "homeostasis",
+        "trace-elements",
+        "disease-mechanism"
+      ],
+      "sources": [],
+      "frontmatter": {
+        "title": "Dyshomeostasis",
+        "category": "concept",
+        "tags": [
+          "dyshomeostasis",
+          "metal-imbalance",
+          "homeostasis",
+          "trace-elements",
+          "disease-mechanism"
+        ]
+      },
+      "overview": "The pathological disruption of normal metal homeostasis -- the tightly regulated balance of essential trace elements ([[iron]], [[zinc]], [[copper]], [[manganese]], [[selenium]]) and exclusion of toxic metals ([[cadmium]], [[lead]], [[mercury]], [[arsenic]]). Dyshomeostasis is a convergent mechanism underlying nearly every disease in this wiki.",
+      "sections": [
+        {
+          "heading": "Manifestations",
+          "level": 2,
+          "body": "- **Excess**: iron overload ([[ferroptosis]]), copper accumulation (Wilson disease), manganese toxicity (manganism).\n- **Deficiency**: zinc deficiency (immune dysfunction, growth retardation), selenium deficiency (thyroid dysfunction, Keshan disease), iron deficiency (anemia).\n- **Redistribution**: metals may be globally adequate but locally mislocalized (e.g., iron accumulation in substantia nigra during [[parkinsons-disease]] despite systemic adequacy).\n- **Ratio disruption**: Cu:Zn ratio elevation is documented in [[colorectal-cancer]], [[cardiovascular-disease]], [[pcos]], and [[inflammation]]."
+        },
+        {
+          "heading": "Microbiome Connections",
+          "level": 2,
+          "body": "- Gut bacteria modulate metal absorption, speciation, and systemic distribution.\n- [[Dysbiosis]] both causes and results from metal dyshomeostasis -- a bidirectional feedback loop.\n- The [[gut-metal-microbiome]] axis is where dietary metal exposure first encounters microbial modifiers."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[gut-metal-microbiome]] -- the ecosystem where dyshomeostasis originates\n- [[nutritional-immunity]] -- host-imposed metal restriction as antimicrobial defense\n- [[oxidative-stress]] -- dyshomeostasis drives ROS generation via Fenton/Haber-Weiss chemistry\n- [[metal-disease-matrix]] -- maps dyshomeostasis patterns across diseases\n- [[inflammation]] -- bidirectional relationship with metal imbalance"
+        }
+      ],
+      "wikilinks": [
+        "iron",
+        "zinc",
+        "copper",
+        "manganese",
+        "selenium",
+        "cadmium",
+        "lead",
+        "mercury",
+        "arsenic",
+        "ferroptosis",
+        "parkinsons-disease",
+        "colorectal-cancer",
+        "cardiovascular-disease",
+        "pcos",
+        "inflammation",
+        "dysbiosis",
+        "gut-metal-microbiome",
+        "nutritional-immunity",
+        "oxidative-stress",
+        "metal-disease-matrix"
+      ],
+      "sourceDir": "concepts",
+      "backlinks": [],
+      "related": [
+        {
+          "id": "postpartum-depression",
+          "score": 2
+        },
+        {
+          "id": "desulfovibrio",
+          "score": 1
+        },
+        {
+          "id": "iodine",
+          "score": 1
+        },
+        {
+          "id": "alpha-synuclein",
+          "score": 1
+        },
+        {
+          "id": "antimicrobial-resistance",
+          "score": 1
+        },
+        {
+          "id": "co-selection",
+          "score": 1
+        },
+        {
+          "id": "microbiome-derived-metabolites",
+          "score": 1
+        },
+        {
+          "id": "microbiome",
+          "score": 1
         }
       ]
     },
@@ -27130,7 +27690,9 @@
         "pancreatic-cancer",
         "parkinsons-disease",
         "selenium",
+        "alpha-synuclein",
         "developmental-metal-vulnerability",
+        "dyshomeostasis",
         "environmental-metal-exposure",
         "glutathione",
         "gut-brain-axis",
@@ -27150,35 +27712,35 @@
       "related": [
         {
           "id": "iron",
-          "score": 58
+          "score": 62
         },
         {
           "id": "parkinsons-disease",
-          "score": 37
+          "score": 41
+        },
+        {
+          "id": "metal-disease-matrix",
+          "score": 36
+        },
+        {
+          "id": "copper",
+          "score": 35
+        },
+        {
+          "id": "zinc",
+          "score": 33
         },
         {
           "id": "nickel",
           "score": 32
         },
         {
-          "id": "metal-disease-matrix",
-          "score": 32
-        },
-        {
-          "id": "copper",
-          "score": 31
-        },
-        {
-          "id": "zinc",
-          "score": 31
-        },
-        {
           "id": "cadmium",
-          "score": 28
+          "score": 30
         },
         {
-          "id": "mercury",
-          "score": 28
+          "id": "manganese",
+          "score": 30
         }
       ]
     },
@@ -27449,7 +28011,7 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 35
+          "score": 37
         },
         {
           "id": "nickel",
@@ -27830,11 +28392,14 @@
         "parkinsons-disease",
         "prevotella",
         "sutterella",
+        "alpha-synuclein",
         "blood-brain-barrier",
         "comorbidities",
         "dysbiosis",
         "gut-microbiome",
         "indoles",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "neurodegeneration",
         "neuroinflammation",
         "probiotics",
@@ -27844,35 +28409,35 @@
       "related": [
         {
           "id": "parkinsons-disease",
-          "score": 40
+          "score": 44
         },
         {
           "id": "iron",
-          "score": 32
+          "score": 38
+        },
+        {
+          "id": "short-chain-fatty-acids",
+          "score": 34
         },
         {
           "id": "alzheimers-disease",
           "score": 31
         },
         {
-          "id": "autism-spectrum-disorder",
-          "score": 29
+          "id": "oxidative-stress",
+          "score": 31
         },
         {
-          "id": "oxidative-stress",
-          "score": 29
+          "id": "lead",
+          "score": 30
         },
         {
           "id": "neuroinflammation",
-          "score": 28
+          "score": 30
         },
         {
-          "id": "short-chain-fatty-acids",
-          "score": 28
-        },
-        {
-          "id": "alzheimers-disease",
-          "score": 25
+          "id": "autism-spectrum-disorder",
+          "score": 29
         }
       ]
     },
@@ -28080,6 +28645,7 @@
         "faecalibacterium-prausnitzii",
         "fusobacterium",
         "hashimotos-thyroiditis",
+        "iodine",
         "klebsiella-pneumoniae",
         "lachnospiraceae",
         "lactobacillus",
@@ -28097,9 +28663,12 @@
         "shigella-flexneri",
         "type-2-diabetes",
         "zinc",
+        "antimicrobial-resistance",
         "bile-acid-metabolism",
+        "co-selection",
         "developmental-metal-vulnerability",
         "dysbiosis",
+        "dyshomeostasis",
         "environmental-metal-exposure",
         "ferroptosis",
         "gut-brain-axis",
@@ -28113,6 +28682,8 @@
         "metal-dependent-virulence",
         "metalloestrogens",
         "metallomics",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "mis-metallation",
         "nf-kappa-b",
         "pathogen-metal-acquisition",
@@ -28124,31 +28695,31 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 99
+          "score": 111
         },
         {
           "id": "nickel",
-          "score": 91
+          "score": 93
         },
         {
           "id": "iron",
-          "score": 78
-        },
-        {
-          "id": "inflammation",
-          "score": 59
+          "score": 86
         },
         {
           "id": "cadmium",
-          "score": 58
+          "score": 70
         },
         {
           "id": "zinc",
-          "score": 55
+          "score": 65
         },
         {
           "id": "lead",
-          "score": 53
+          "score": 63
+        },
+        {
+          "id": "inflammation",
+          "score": 63
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -28612,6 +29183,10 @@
           "score": 28
         },
         {
+          "id": "metal-disease-matrix",
+          "score": 28
+        },
+        {
           "id": "candida-albicans",
           "score": 25
         },
@@ -28621,10 +29196,6 @@
         },
         {
           "id": "oxidative-stress",
-          "score": 24
-        },
-        {
-          "id": "metal-disease-matrix",
           "score": 24
         },
         {
@@ -29417,16 +29988,19 @@
         "sutterella",
         "veillonella",
         "acidic-microenvironment",
+        "alpha-synuclein",
         "atherosclerosis",
         "bile-acid-metabolism",
         "butyrate",
         "comorbidities",
         "dysbiosis",
+        "dyshomeostasis",
         "fecal-microbiota-transplant",
         "gut-brain-axis",
         "gut-microbiome",
         "heavy-metals",
         "mediterranean-diet",
+        "microbiome-derived-metabolites",
         "neurodegeneration",
         "neuroinflammation",
         "nf-kappa-b",
@@ -29438,7 +30012,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 72
+          "score": 78
+        },
+        {
+          "id": "cardiovascular-disease",
+          "score": 54
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -29446,23 +30024,19 @@
         },
         {
           "id": "cardiovascular-disease",
-          "score": 52
-        },
-        {
-          "id": "cardiovascular-disease",
-          "score": 52
+          "score": 54
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 49
+          "score": 53
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 46
         },
         {
           "id": "colorectal-cancer",
           "score": 44
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 42
         },
         {
           "id": "multiple-sclerosis",
@@ -29606,15 +30180,15 @@
           "score": 20
         },
         {
+          "id": "metal-disease-matrix",
+          "score": 16
+        },
+        {
           "id": "nickel",
           "score": 15
         },
         {
           "id": "metalloestrogens",
-          "score": 14
-        },
-        {
-          "id": "metal-disease-matrix",
           "score": 14
         },
         {
@@ -30152,6 +30726,10 @@
           "score": 11
         },
         {
+          "id": "metal-disease-matrix",
+          "score": 10
+        },
+        {
           "id": "helicobacter-pylori",
           "score": 8
         },
@@ -30165,10 +30743,6 @@
         },
         {
           "id": "zinc",
-          "score": 8
-        },
-        {
-          "id": "metal-disease-matrix",
           "score": 8
         },
         {
@@ -31419,7 +31993,7 @@
         },
         {
           "id": "metal-disease-matrix",
-          "score": 23
+          "score": 25
         },
         {
           "id": "cadmium",
@@ -31847,6 +32421,194 @@
         {
           "id": "indoles",
           "score": 4
+        }
+      ]
+    },
+    {
+      "id": "microbiome-derived-metabolites",
+      "title": "Microbiome-Derived Metabolites",
+      "type": "concepts",
+      "category": "other",
+      "tags": [
+        "metabolites",
+        "SCFAs",
+        "bile-acids",
+        "TMAO",
+        "tryptophan",
+        "microbiome",
+        "gut-metal-microbiome"
+      ],
+      "sources": [],
+      "frontmatter": {
+        "title": "Microbiome-Derived Metabolites",
+        "category": "concept",
+        "tags": [
+          "metabolites",
+          "SCFAs",
+          "bile-acids",
+          "TMAO",
+          "tryptophan",
+          "microbiome",
+          "gut-metal-microbiome"
+        ]
+      },
+      "overview": "Small molecules produced or modified by gut microbiota that serve as key mediators of microbiome-host interactions. These metabolites translate microbial community composition into functional effects on host physiology, and their profiles are altered by metal exposure and [[dysbiosis]].",
+      "sections": [
+        {
+          "heading": "Major Classes",
+          "level": 2,
+          "body": "- **[[Short-chain-fatty-acids]]** (butyrate, propionate, acetate): anti-inflammatory, barrier-protective, energy substrates for colonocytes.\n- **[[Bile-acid-metabolism]]**: microbial bile salt hydrolases (BSH) and 7-alpha-dehydroxylases convert primary to secondary bile acids; metal exposure depletes BSH-expressing bacteria.\n- **[[TMAO]]**: trimethylamine N-oxide, produced from dietary choline/carnitine by gut bacteria; pro-atherogenic.\n- **Tryptophan metabolites**: indoles, kynurenines; modulate [[inflammation]] and [[gut-brain-axis]] signaling.\n- **[[Butyrate]]**: the single most-studied SCFA; histone deacetylase inhibitor with anti-cancer and anti-inflammatory properties."
+        },
+        {
+          "heading": "Metal Interactions",
+          "level": 2,
+          "body": "- Heavy metals ([[cadmium]], [[lead]], [[arsenic]], [[mercury]]) deplete SCFA-producing bacteria, reducing butyrate output.\n- [[Iron]] supplementation shifts metabolite profiles by favoring siderophore-producing pathogens over fermenters.\n- [[Zinc]] deficiency alters bile acid metabolism and tryptophan catabolism."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[gut-metal-microbiome]] -- metals reshape the metabolite landscape\n- [[short-chain-fatty-acids]] -- the most studied class of microbiome-derived metabolites\n- [[dysbiosis]] -- metabolite profile shifts are the functional readout of dysbiosis\n- [[inflammation]] -- metabolites mediate anti- and pro-inflammatory effects"
+        }
+      ],
+      "wikilinks": [
+        "dysbiosis",
+        "short-chain-fatty-acids",
+        "bile-acid-metabolism",
+        "tmao",
+        "inflammation",
+        "gut-brain-axis",
+        "butyrate",
+        "cadmium",
+        "lead",
+        "arsenic",
+        "mercury",
+        "iron",
+        "zinc",
+        "gut-metal-microbiome"
+      ],
+      "sourceDir": "concepts",
+      "backlinks": [],
+      "related": [
+        {
+          "id": "cardiovascular-disease",
+          "score": 10
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 6
+        },
+        {
+          "id": "hashimotos-thyroiditis",
+          "score": 6
+        },
+        {
+          "id": "graves-disease",
+          "score": 4
+        },
+        {
+          "id": "hypertension",
+          "score": 4
+        },
+        {
+          "id": "gut-microbiome",
+          "score": 4
+        },
+        {
+          "id": "microbial-biomarkers",
+          "score": 4
+        },
+        {
+          "id": "microbiome",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "microbiome",
+      "title": "Microbiome",
+      "type": "concepts",
+      "category": "other",
+      "tags": [
+        "microbiome",
+        "gut-microbiota",
+        "microbial-ecology",
+        "dysbiosis"
+      ],
+      "sources": [],
+      "frontmatter": {
+        "title": "Microbiome",
+        "category": "concept",
+        "tags": [
+          "microbiome",
+          "gut-microbiota",
+          "microbial-ecology",
+          "dysbiosis"
+        ]
+      },
+      "overview": "The collective genomes of all microorganisms (bacteria, archaea, fungi, viruses) inhabiting a defined environment -- most commonly the human gastrointestinal tract. Distinguished from \"microbiota\" (the organisms themselves) by referring to the genetic content.",
+      "sections": [
+        {
+          "heading": "Key Aspects in This Wiki",
+          "level": 2,
+          "body": "- **Gut microbiome composition** is shaped by diet, metals, antibiotics, and host genetics.\n- Metal exposure ([[iron]], [[zinc]], [[nickel]], [[cadmium]], [[lead]], [[arsenic]], [[mercury]]) restructures the microbiome in ways that promote [[dysbiosis]] and disease.\n- The [[gut-metal-microbiome]] axis is the central organizing concept of this wiki.\n- Microbiome disruption contributes to virtually every disease entity catalogued here, from [[colorectal-cancer]] to [[parkinsons-disease]] to [[multiple-sclerosis]]."
+        },
+        {
+          "heading": "See Also",
+          "level": 2,
+          "body": "- [[dysbiosis]] -- the pathological state of microbiome imbalance\n- [[gut-metal-microbiome]] -- the metal-microbiome interaction framework\n- [[short-chain-fatty-acids]] -- key functional output of a healthy microbiome\n- [[probiotics]] -- interventions to restore microbiome balance\n- [[gut-brain-axis]] -- microbiome-brain communication pathway"
+        }
+      ],
+      "wikilinks": [
+        "iron",
+        "zinc",
+        "nickel",
+        "cadmium",
+        "lead",
+        "arsenic",
+        "mercury",
+        "dysbiosis",
+        "gut-metal-microbiome",
+        "colorectal-cancer",
+        "parkinsons-disease",
+        "multiple-sclerosis",
+        "short-chain-fatty-acids",
+        "probiotics",
+        "gut-brain-axis"
+      ],
+      "sourceDir": "concepts",
+      "backlinks": [],
+      "related": [
+        {
+          "id": "cardiovascular-disease",
+          "score": 4
+        },
+        {
+          "id": "crohns-disease",
+          "score": 4
+        },
+        {
+          "id": "hashimotos-thyroiditis",
+          "score": 4
+        },
+        {
+          "id": "gut-microbiome",
+          "score": 4
+        },
+        {
+          "id": "microbiome-derived-metabolites",
+          "score": 3
+        },
+        {
+          "id": "alzheimers-disease",
+          "score": 2
+        },
+        {
+          "id": "breast-cancer",
+          "score": 2
+        },
+        {
+          "id": "endometriosis",
+          "score": 2
         }
       ]
     },
@@ -32345,16 +33107,16 @@
           "score": 14
         },
         {
+          "id": "alpha-synuclein",
+          "score": 12
+        },
+        {
           "id": "blood-brain-barrier",
           "score": 12
         },
         {
           "id": "metal-disease-matrix",
           "score": 12
-        },
-        {
-          "id": "metal-dependent-virulence",
-          "score": 11
         }
       ]
     },
@@ -32509,6 +33271,7 @@
       ],
       "sourceDir": "concepts",
       "backlinks": [
+        "alpha-synuclein",
         "bile-acid-metabolism",
         "blood-brain-barrier",
         "comorbidities",
@@ -33492,6 +34255,7 @@
       ],
       "sourceDir": "concepts",
       "backlinks": [
+        "salmonella-typhimurium",
         "nickel-glyoxalase",
         "nickel-urease",
         "low-nickel-diet"
@@ -33510,7 +34274,15 @@
           "score": 4
         },
         {
+          "id": "escherichia-coli",
+          "score": 4
+        },
+        {
           "id": "proteus-mirabilis",
+          "score": 4
+        },
+        {
+          "id": "staphylococcus-aureus",
           "score": 4
         },
         {
@@ -33519,14 +34291,6 @@
         },
         {
           "id": "dietary-nickel-exposure",
-          "score": 3
-        },
-        {
-          "id": "fermentative-metabolism",
-          "score": 3
-        },
-        {
-          "id": "hydrogenase",
           "score": 3
         }
       ]
@@ -33653,11 +34417,14 @@
         "streptococcus",
         "yersinia-pestis",
         "acidic-microenvironment",
+        "antimicrobial-resistance",
         "beta-glucuronidase",
         "biofilm",
         "calprotectin",
+        "co-selection",
         "developmental-metal-vulnerability",
         "dysbiosis",
+        "dyshomeostasis",
         "estrobolome",
         "estrogen-recirculation",
         "fermentative-metabolism",
@@ -33689,11 +34456,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 100
+          "score": 102
         },
         {
           "id": "zinc",
-          "score": 62
+          "score": 68
         },
         {
           "id": "metal-dependent-virulence",
@@ -33701,11 +34468,15 @@
         },
         {
           "id": "escherichia-coli",
-          "score": 47
+          "score": 49
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 41
+          "score": 47
+        },
+        {
+          "id": "copper",
+          "score": 36
         },
         {
           "id": "urease",
@@ -33714,10 +34485,6 @@
         {
           "id": "lactoferrin",
           "score": 33
-        },
-        {
-          "id": "copper",
-          "score": 30
         }
       ]
     },
@@ -34134,9 +34901,11 @@
         "selenium",
         "zinc",
         "DNA-damage",
+        "alpha-synuclein",
         "atherosclerosis",
         "comorbidities",
         "developmental-metal-vulnerability",
+        "dyshomeostasis",
         "epigenetic-modifications",
         "ferroptosis",
         "glutathione",
@@ -34159,14 +34928,18 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 54
+          "score": 56
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 47
+          "score": 49
         },
         {
           "id": "inflammation",
+          "score": 43
+        },
+        {
+          "id": "dysbiosis",
           "score": 39
         },
         {
@@ -34178,12 +34951,8 @@
           "score": 36
         },
         {
-          "id": "dysbiosis",
-          "score": 35
-        },
-        {
           "id": "gut-brain-axis",
-          "score": 29
+          "score": 31
         },
         {
           "id": "dietary-metal-paradoxes",
@@ -34752,16 +35521,22 @@
         "oxalobacter",
         "pcos",
         "streptococcus-thermophilus",
+        "antimicrobial-resistance",
         "comorbidities",
         "fecal-microbiota-transplant",
         "gut-microbiome",
+        "microbiome",
         "oxidative-stress",
         "prebiotics"
       ],
       "related": [
         {
           "id": "iron",
-          "score": 20
+          "score": 22
+        },
+        {
+          "id": "short-chain-fatty-acids",
+          "score": 19
         },
         {
           "id": "bifidobacterium",
@@ -34780,15 +35555,11 @@
           "score": 16
         },
         {
+          "id": "mercury",
+          "score": 16
+        },
+        {
           "id": "autism-spectrum-disorder",
-          "score": 15
-        },
-        {
-          "id": "short-chain-fatty-acids",
-          "score": 15
-        },
-        {
-          "id": "dietary-metal-paradoxes",
           "score": 15
         }
       ]
@@ -34975,6 +35746,8 @@
         "streptococcus-thermophilus",
         "sutterella",
         "veillonella",
+        "alpha-synuclein",
+        "antimicrobial-resistance",
         "atherosclerosis",
         "bile-acid-metabolism",
         "blood-brain-barrier",
@@ -34982,6 +35755,8 @@
         "gut-microbiome",
         "indoles",
         "microbial-biomarkers",
+        "microbiome-derived-metabolites",
+        "microbiome",
         "neuroinflammation",
         "prebiotics",
         "tmao",
@@ -34992,35 +35767,35 @@
       "related": [
         {
           "id": "iron",
-          "score": 39
+          "score": 45
         },
         {
           "id": "multiple-sclerosis",
-          "score": 32
+          "score": 34
         },
         {
           "id": "multiple-sclerosis",
-          "score": 32
+          "score": 34
         },
         {
           "id": "butyrate",
-          "score": 30
+          "score": 32
         },
         {
           "id": "cadmium",
-          "score": 22
-        },
-        {
-          "id": "roseburia",
-          "score": 22
-        },
-        {
-          "id": "tmao",
-          "score": 21
+          "score": 28
         },
         {
           "id": "zinc",
-          "score": 20
+          "score": 26
+        },
+        {
+          "id": "tmao",
+          "score": 23
+        },
+        {
+          "id": "lead",
+          "score": 22
         }
       ]
     },
@@ -35505,9 +36280,14 @@
         "butyrate",
         "comorbidities",
         "gut-microbiome",
-        "microbial-biomarkers"
+        "microbial-biomarkers",
+        "microbiome-derived-metabolites"
       ],
       "related": [
+        {
+          "id": "butyrate",
+          "score": 11
+        },
         {
           "id": "bifidobacterium",
           "score": 10
@@ -35521,6 +36301,10 @@
           "score": 10
         },
         {
+          "id": "bile-acid-metabolism",
+          "score": 10
+        },
+        {
           "id": "calprotectin",
           "score": 10
         },
@@ -35529,16 +36313,8 @@
           "score": 10
         },
         {
-          "id": "hepcidin",
+          "id": "gut-brain-axis",
           "score": 10
-        },
-        {
-          "id": "porphyromonas",
-          "score": 9
-        },
-        {
-          "id": "butyrate",
-          "score": 9
         }
       ]
     },
@@ -35648,6 +36424,10 @@
           "score": 9
         },
         {
+          "id": "metal-disease-matrix",
+          "score": 8
+        },
+        {
           "id": "siderophores",
           "score": 7
         },
@@ -35657,10 +36437,6 @@
         },
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 6
-        },
-        {
-          "id": "nickel",
           "score": 6
         }
       ]
@@ -36278,12 +37054,18 @@
       ],
       "sourceDir": "concepts",
       "backlinks": [
+        "bacteroides-fragilis",
+        "bacteroides-vulgatus",
         "nickel-urease"
       ],
       "related": [
         {
           "id": "nife-hydrogenase",
           "score": 7
+        },
+        {
+          "id": "dysbiosis",
+          "score": 5
         },
         {
           "id": "nickel-glyoxalase",
@@ -36294,24 +37076,20 @@
           "score": 5
         },
         {
+          "id": "beta-glucuronidase",
+          "score": 3
+        },
+        {
+          "id": "estrobolome",
+          "score": 3
+        },
+        {
           "id": "functional-shielding",
           "score": 3
         },
         {
-          "id": "fusobacterium",
-          "score": 2
-        },
-        {
-          "id": "helicobacter-pylori",
-          "score": 2
-        },
-        {
-          "id": "klebsiella-pneumoniae",
-          "score": 2
-        },
-        {
-          "id": "nickel",
-          "score": 2
+          "id": "gut-metal-microbiome",
+          "score": 3
         }
       ]
     },
@@ -37758,6 +38536,7 @@
         "saccharomyces",
         "atherosclerosis",
         "bile-acid-metabolism",
+        "dyshomeostasis",
         "short-chain-fatty-acids",
         "tmao",
         "tryptophan-metabolism"
@@ -37765,11 +38544,15 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 60
+          "score": 62
         },
         {
           "id": "inflammation",
-          "score": 52
+          "score": 54
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 47
         },
         {
           "id": "short-chain-fatty-acids",
@@ -37777,19 +38560,15 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 45
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 42
+          "score": 44
         },
         {
           "id": "iron",
-          "score": 40
+          "score": 42
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 32
+          "score": 34
         },
         {
           "id": "multiple-sclerosis",
@@ -38208,10 +38987,12 @@
         "saccharomyces",
         "acidic-microenvironment",
         "bile-acid-metabolism",
+        "dyshomeostasis",
         "fermentative-metabolism",
         "hypoxia",
         "lipocalin-2",
         "microbial-biomarkers",
+        "microbiome",
         "nickel-glyoxalase",
         "short-chain-fatty-acids",
         "transferrin",
@@ -38220,35 +39001,35 @@
       "related": [
         {
           "id": "iron",
-          "score": 54
+          "score": 58
         },
         {
           "id": "dysbiosis",
-          "score": 52
+          "score": 56
         },
         {
           "id": "cardiovascular-disease",
-          "score": 45
+          "score": 47
         },
         {
           "id": "cardiovascular-disease",
-          "score": 44
+          "score": 46
         },
         {
           "id": "inflammation",
-          "score": 44
+          "score": 46
         },
         {
           "id": "multiple-sclerosis",
-          "score": 29
+          "score": 31
         },
         {
           "id": "multiple-sclerosis",
-          "score": 28
+          "score": 30
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 26
+          "score": 30
         }
       ]
     },
@@ -39465,6 +40246,10 @@
           "score": 4
         },
         {
+          "id": "iodine",
+          "score": 4
+        },
+        {
           "id": "iron",
           "score": 4
         },
@@ -39478,10 +40263,6 @@
         },
         {
           "id": "nutritional-immunity",
-          "score": 4
-        },
-        {
-          "id": "oxidative-stress",
           "score": 4
         }
       ]
@@ -39929,6 +40710,7 @@
         "sutterella",
         "veillonella",
         "bile-acid-metabolism",
+        "microbiome",
         "neuroinflammation",
         "probiotics",
         "tryptophan-metabolism",
@@ -39940,7 +40722,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 40
+          "score": 42
         },
         {
           "id": "inflammation",
@@ -39951,24 +40733,24 @@
           "score": 31
         },
         {
+          "id": "colorectal-cancer",
+          "score": 31
+        },
+        {
           "id": "cardiovascular-disease",
           "score": 30
         },
         {
           "id": "colorectal-cancer",
-          "score": 29
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 28
+          "score": 30
         },
         {
           "id": "iron",
-          "score": 28
+          "score": 30
         },
         {
           "id": "gut-brain-axis",
-          "score": 20
+          "score": 22
         }
       ]
     },
@@ -40631,6 +41413,9 @@
         "manganese",
         "prevotella",
         "roseburia",
+        "alpha-synuclein",
+        "dyshomeostasis",
+        "microbiome",
         "neuroinflammation",
         "oxidative-stress",
         "short-chain-fatty-acids"
@@ -40638,35 +41423,35 @@
       "related": [
         {
           "id": "iron",
-          "score": 30
+          "score": 36
         },
         {
           "id": "ferroptosis",
-          "score": 26
+          "score": 30
         },
         {
           "id": "gut-brain-axis",
-          "score": 21
-        },
-        {
-          "id": "alzheimers-disease",
-          "score": 18
-        },
-        {
-          "id": "cadmium",
-          "score": 18
+          "score": 25
         },
         {
           "id": "dysbiosis",
-          "score": 17
+          "score": 23
         },
         {
-          "id": "alzheimers-disease",
-          "score": 17
+          "id": "cadmium",
+          "score": 22
         },
         {
           "id": "lead",
-          "score": 16
+          "score": 22
+        },
+        {
+          "id": "gut-metal-microbiome",
+          "score": 19
+        },
+        {
+          "id": "oxidative-stress",
+          "score": 19
         }
       ]
     },
@@ -40979,6 +41764,7 @@
         "molybdenum",
         "postpartum-depression",
         "type-2-diabetes",
+        "dyshomeostasis",
         "estrobolome",
         "insulin-resistance",
         "mediterranean-diet",
@@ -40987,11 +41773,15 @@
       ],
       "related": [
         {
+          "id": "metal-disease-matrix",
+          "score": 28
+        },
+        {
           "id": "nickel",
           "score": 26
         },
         {
-          "id": "metal-disease-matrix",
+          "id": "zinc",
           "score": 26
         },
         {
@@ -40999,23 +41789,19 @@
           "score": 25
         },
         {
-          "id": "zinc",
+          "id": "copper",
           "score": 24
         },
         {
-          "id": "copper",
-          "score": 22
-        },
-        {
           "id": "iron",
-          "score": 18
+          "score": 20
         },
         {
           "id": "oxidative-stress",
-          "score": 18
+          "score": 20
         },
         {
-          "id": "mediterranean-diet",
+          "id": "cadmium",
           "score": 14
         }
       ]
@@ -41348,7 +42134,7 @@
         },
         {
           "id": "metal-disease-matrix",
-          "score": 15
+          "score": 17
         },
         {
           "id": "zinc",
@@ -42285,7 +43071,7 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 14
+          "score": 16
         },
         {
           "id": "calprotectin",
@@ -44036,19 +44822,23 @@
         "endometriosis",
         "graves-disease",
         "hashimotos-thyroiditis",
+        "inflammatory-bowel-disease",
+        "iodine",
         "multiple-sclerosis",
+        "obesity",
         "pancreatic-cancer",
         "parkinsons-disease",
         "pcos",
         "postpartum-depression",
         "rheumatoid-arthritis",
         "type-2-diabetes",
+        "dyshomeostasis",
         "dietary-metal-paradoxes"
       ],
       "related": [
         {
           "id": "oxidative-stress",
-          "score": 54
+          "score": 56
         },
         {
           "id": "dietary-metal-paradoxes",
@@ -44056,27 +44846,27 @@
         },
         {
           "id": "mercury",
-          "score": 40
+          "score": 44
         },
         {
           "id": "selenium",
-          "score": 38
+          "score": 42
         },
         {
           "id": "glutathione",
-          "score": 35
-        },
-        {
-          "id": "manganese",
-          "score": 32
+          "score": 37
         },
         {
           "id": "ferroptosis",
-          "score": 32
+          "score": 36
         },
         {
-          "id": "pcos",
-          "score": 29
+          "id": "manganese",
+          "score": 34
+        },
+        {
+          "id": "gut-metal-microbiome",
+          "score": 34
         }
       ]
     }
@@ -44436,6 +45226,12 @@
         "label": "Intestinibacter",
         "category": "microbe",
         "sourceCount": 4
+      },
+      {
+        "id": "iodine",
+        "label": "Iodine",
+        "category": "other",
+        "sourceCount": 0
       },
       {
         "id": "iron",
@@ -44822,6 +45618,18 @@
         "sourceCount": 0
       },
       {
+        "id": "alpha-synuclein",
+        "label": "Alpha-Synuclein",
+        "category": "other",
+        "sourceCount": 0
+      },
+      {
+        "id": "antimicrobial-resistance",
+        "label": "Antimicrobial Resistance",
+        "category": "other",
+        "sourceCount": 0
+      },
+      {
         "id": "atherosclerosis",
         "label": "Atherosclerosis",
         "category": "mechanism",
@@ -44876,6 +45684,12 @@
         "sourceCount": 4
       },
       {
+        "id": "co-selection",
+        "label": "Co-Selection",
+        "category": "other",
+        "sourceCount": 0
+      },
+      {
         "id": "comorbidities",
         "label": "Comorbidities",
         "category": "mechanism",
@@ -44898,6 +45712,12 @@
         "label": "Dysbiosis",
         "category": "mechanism",
         "sourceCount": 11
+      },
+      {
+        "id": "dyshomeostasis",
+        "label": "Dyshomeostasis",
+        "category": "other",
+        "sourceCount": 0
       },
       {
         "id": "enterohepatic-circulation",
@@ -45102,6 +45922,18 @@
         "label": "Microbial Biomarkers",
         "category": "mechanism",
         "sourceCount": 3
+      },
+      {
+        "id": "microbiome-derived-metabolites",
+        "label": "Microbiome-Derived Metabolites",
+        "category": "other",
+        "sourceCount": 0
+      },
+      {
+        "id": "microbiome",
+        "label": "Microbiome",
+        "category": "other",
+        "sourceCount": 0
       },
       {
         "id": "mis-metallation",
@@ -45939,6 +46771,10 @@
       },
       {
         "source": "bacteroides-fragilis",
+        "target": "zinc-metalloprotease"
+      },
+      {
+        "source": "bacteroides-fragilis",
         "target": "calprotectin"
       },
       {
@@ -45980,6 +46816,10 @@
       {
         "source": "bacteroides-vulgatus",
         "target": "fusobacterium-nucleatum"
+      },
+      {
+        "source": "bacteroides-vulgatus",
+        "target": "zinc-metalloprotease"
       },
       {
         "source": "bacteroides-vulgatus",
@@ -46232,6 +47072,10 @@
       {
         "source": "brucella",
         "target": "urease"
+      },
+      {
+        "source": "brucella",
+        "target": "acidic-microenvironment"
       },
       {
         "source": "brucella",
@@ -47635,6 +48479,10 @@
       },
       {
         "source": "graves-disease",
+        "target": "iodine"
+      },
+      {
+        "source": "graves-disease",
         "target": "lead"
       },
       {
@@ -47680,6 +48528,10 @@
       {
         "source": "hashimotos-thyroiditis",
         "target": "copper"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "iodine"
       },
       {
         "source": "hashimotos-thyroiditis",
@@ -47736,6 +48588,10 @@
       {
         "source": "helicobacter-pylori",
         "target": "nickel"
+      },
+      {
+        "source": "helicobacter-pylori",
+        "target": "acidic-microenvironment"
       },
       {
         "source": "helicobacter-pylori",
@@ -47870,6 +48726,10 @@
         "target": "tmao"
       },
       {
+        "source": "inflammatory-bowel-disease",
+        "target": "metal-disease-matrix"
+      },
+      {
         "source": "intestinibacter",
         "target": "cardiovascular-disease"
       },
@@ -47896,6 +48756,38 @@
       {
         "source": "intestinibacter",
         "target": "selenium"
+      },
+      {
+        "source": "iodine",
+        "target": "selenium"
+      },
+      {
+        "source": "iodine",
+        "target": "iron"
+      },
+      {
+        "source": "iodine",
+        "target": "cadmium"
+      },
+      {
+        "source": "iodine",
+        "target": "mercury"
+      },
+      {
+        "source": "iodine",
+        "target": "lead"
+      },
+      {
+        "source": "iodine",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "iodine",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "iodine",
+        "target": "metal-disease-matrix"
       },
       {
         "source": "iron",
@@ -48718,6 +49610,10 @@
         "target": "type-2-diabetes"
       },
       {
+        "source": "obesity",
+        "target": "metal-disease-matrix"
+      },
+      {
         "source": "odoribacter",
         "target": "short-chain-fatty-acids"
       },
@@ -48996,6 +49892,10 @@
       {
         "source": "parkinsons-disease",
         "target": "ferroptosis"
+      },
+      {
+        "source": "parkinsons-disease",
+        "target": "alpha-synuclein"
       },
       {
         "source": "parkinsons-disease",
@@ -49847,6 +50747,10 @@
       },
       {
         "source": "salmonella-typhimurium",
+        "target": "nife-hydrogenase"
+      },
+      {
+        "source": "salmonella-typhimurium",
         "target": "metal-dependent-virulence"
       },
       {
@@ -50430,6 +51334,106 @@
         "target": "nickel"
       },
       {
+        "source": "alpha-synuclein",
+        "target": "iron"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "ferroptosis"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "copper"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "manganese"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "lead"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "inflammation"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "gut-brain-axis"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "alpha-synuclein",
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "co-selection"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "arsenic"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "mercury"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "cadmium"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "copper"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "zinc"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "staphylococcus-aureus"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "klebsiella-pneumoniae"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "pseudomonas-aeruginosa"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "probiotics"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "antimicrobial-resistance",
+        "target": "nutritional-immunity"
+      },
+      {
         "source": "atherosclerosis",
         "target": "inflammation"
       },
@@ -50730,6 +51734,58 @@
         "target": "lactoferrin"
       },
       {
+        "source": "co-selection",
+        "target": "arsenic"
+      },
+      {
+        "source": "co-selection",
+        "target": "mercury"
+      },
+      {
+        "source": "co-selection",
+        "target": "cadmium"
+      },
+      {
+        "source": "co-selection",
+        "target": "lead"
+      },
+      {
+        "source": "co-selection",
+        "target": "copper"
+      },
+      {
+        "source": "co-selection",
+        "target": "zinc"
+      },
+      {
+        "source": "co-selection",
+        "target": "staphylococcus-aureus"
+      },
+      {
+        "source": "co-selection",
+        "target": "escherichia-coli"
+      },
+      {
+        "source": "co-selection",
+        "target": "pseudomonas-aeruginosa"
+      },
+      {
+        "source": "co-selection",
+        "target": "klebsiella-pneumoniae"
+      },
+      {
+        "source": "co-selection",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "co-selection",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "co-selection",
+        "target": "nutritional-immunity"
+      },
+      {
         "source": "comorbidities",
         "target": "dysbiosis"
       },
@@ -50888,6 +51944,86 @@
       {
         "source": "dysbiosis",
         "target": "nutritional-immunity"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "iron"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "zinc"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "copper"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "manganese"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "selenium"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "cadmium"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "lead"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "mercury"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "arsenic"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "ferroptosis"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "parkinsons-disease"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "colorectal-cancer"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "cardiovascular-disease"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "pcos"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "inflammation"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "nutritional-immunity"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "dyshomeostasis",
+        "target": "metal-disease-matrix"
       },
       {
         "source": "enterohepatic-circulation",
@@ -52142,6 +53278,122 @@
         "target": "hepcidin"
       },
       {
+        "source": "microbiome-derived-metabolites",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "bile-acid-metabolism"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "tmao"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "inflammation"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "gut-brain-axis"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "butyrate"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "cadmium"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "lead"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "arsenic"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "mercury"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "iron"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "zinc"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "microbiome",
+        "target": "iron"
+      },
+      {
+        "source": "microbiome",
+        "target": "zinc"
+      },
+      {
+        "source": "microbiome",
+        "target": "nickel"
+      },
+      {
+        "source": "microbiome",
+        "target": "cadmium"
+      },
+      {
+        "source": "microbiome",
+        "target": "lead"
+      },
+      {
+        "source": "microbiome",
+        "target": "arsenic"
+      },
+      {
+        "source": "microbiome",
+        "target": "mercury"
+      },
+      {
+        "source": "microbiome",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "microbiome",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "microbiome",
+        "target": "colorectal-cancer"
+      },
+      {
+        "source": "microbiome",
+        "target": "parkinsons-disease"
+      },
+      {
+        "source": "microbiome",
+        "target": "multiple-sclerosis"
+      },
+      {
+        "source": "microbiome",
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "microbiome",
+        "target": "probiotics"
+      },
+      {
+        "source": "microbiome",
+        "target": "gut-brain-axis"
+      },
+      {
         "source": "mycobiome",
         "target": "dysbiosis"
       },
@@ -52928,10 +54180,6 @@
       {
         "source": "urease",
         "target": "gut-metal-microbiome"
-      },
-      {
-        "source": "zinc-metalloprotease",
-        "target": "bacteroides-fragilis"
       },
       {
         "source": "zinc-metalloprotease",
@@ -55628,6 +56876,20 @@
       "journal": "Journal of Clinical and Pharmaceutical Research",
       "doi": ""
     },
+    "agarwal-2024-airborne-arg-mrg-ewaste-recycling": {
+      "title": "Airborne antibiotic and metal resistance genes - A neglected potential risk at e-waste recycling facilities",
+      "authors": [
+        "Agarwal V",
+        "Meier B",
+        "Schreiner C",
+        "Figi R",
+        "Tao Y",
+        "Wang J"
+      ],
+      "year": 2024,
+      "journal": "Science of the Total Environment",
+      "doi": "10.1016/j.scitotenv.2024.170991"
+    },
     "agboola-2023-heavy-metals-leafy-vegetables-lagos": {
       "title": "Levels of Heavy Metals and Potential Human Health Risks via Consumption of Leafy Vegetables Purchased in Popular Local Market in Lagos, Nigeria",
       "authors": [
@@ -56254,6 +57516,18 @@
       "journal": "European Journal of Endocrinology",
       "doi": "10.1530/EJE-16-0888"
     },
+    "baker-austin-2006-co-selection-antibiotic-metal-resistance": {
+      "title": "Co-selection of antibiotic and metal resistance",
+      "authors": [
+        "Baker-Austin C",
+        "Wright MS",
+        "Stepanauskas R",
+        "McArthur JV"
+      ],
+      "year": 2006,
+      "journal": "Trends in Microbiology",
+      "doi": "10.1016/j.tim.2006.02.006"
+    },
     "bakulski-2020-heavy-metals-alzheimers-dementias": {
       "title": "Heavy Metals Exposure and Alzheimer's Disease and Related Dementias",
       "authors": [
@@ -56490,6 +57764,17 @@
       "year": 2018,
       "journal": "Journal of Pediatrics and Pediatric Medicine",
       "doi": "Not available"
+    },
+    "benoit-2021-nickel-chelator-dmg-amyloid-beta": {
+      "title": "The nickel-chelator dimethylglyoxime inhibits human amyloid beta peptide in vitro aggregation",
+      "authors": [
+        "Benoit SL",
+        "Bhatt RJ",
+        "Maier RJ"
+      ],
+      "year": 2021,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-021-86060-1"
     },
     "bent-2009-omega3-fatty-acids-asd-systematic-review": {
       "title": "Bent 2009 — Omega-3 Fatty Acids for ASD: Systematic Review",
@@ -56795,6 +58080,17 @@
       "journal": "Scientific Reports",
       "doi": "10.1038/srep19200"
     },
+    "briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans": {
+      "title": "Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans",
+      "authors": [
+        "Briffa J",
+        "Sinagra E",
+        "Blundell R"
+      ],
+      "year": 2020,
+      "journal": "Heliyon",
+      "doi": "10.1016/j.heliyon.2020.e04691"
+    },
     "briffa-2020-heavy-metal-pollution-environment-toxicology": {
       "title": "Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans",
       "authors": [
@@ -56956,6 +58252,17 @@
       "year": 2023,
       "journal": "International Journal of Molecular Sciences",
       "doi": "10.3390/ijms241814250"
+    },
+    "cameron-2011-nickel-genotoxicity-carcinogenicity": {
+      "title": "Exploring the Molecular Mechanisms of Nickel-Induced Genotoxicity and Carcinogenicity: A Literature Review",
+      "authors": [
+        "Cameron KS",
+        "Buchner V",
+        "Tchounwou PB"
+      ],
+      "year": 2011,
+      "journal": "Reviews on Environmental Health",
+      "doi": "10.1515/reveh.2011.012"
     },
     "campanale-2014-nickel-free-diet-h-pylori": {
       "title": "Nickel Free-Diet Enhances the Helicobacter pylori Eradication Rate: A Pilot Study",
@@ -57127,6 +58434,17 @@
       "journal": "Current Nutrition Reports",
       "doi": "10.1007/s13668-018-0248-8"
     },
+    "chandravanshi-2021-developmental-cadmium-toxicity-children": {
+      "title": "Developmental Toxicity of Cadmium in Infants and Children: A Review",
+      "authors": [
+        "Chandravanshi L",
+        "Shiv K",
+        "Kumar S"
+      ],
+      "year": 2021,
+      "journal": "Environmental Analysis Health and Toxicology",
+      "doi": "10.5620/eaht.2021003"
+    },
     "chang-2024-gut-microbiome-metabolome-asd": {
       "title": "Gut microbiome and serum amino acid metabolome alterations in autism spectrum disorder",
       "authors": [
@@ -57174,6 +58492,23 @@
       "year": 2021,
       "journal": "Annals of Translational Medicine",
       "doi": "10.21037/atm-20-4586"
+    },
+    "chen-2020-heavy-metal-selective-pressure-composting-microbiome": {
+      "title": "Selective pressures of heavy metals on microbial community determine microbial functional roles during composting: Sensitive, resistant and actor",
+      "authors": [
+        "Chen X",
+        "Zhao Y",
+        "Zhao X",
+        "Wu J",
+        "Zhu L",
+        "Zhang X",
+        "Wei Z",
+        "Liu Y",
+        "He P"
+      ],
+      "year": 2020,
+      "journal": "Journal of Hazardous Materials",
+      "doi": "10.1016/j.jhazmat.2020.122858"
     },
     "chen-2020-microbiome-lower-genital-tract-endometriosis-chinese": {
       "title": "Microbiome of the lower genital tract in Chinese women with endometriosis by 16s-rRNA sequencing technique: a pilot study",
@@ -57572,6 +58907,16 @@
       "journal": "Frontiers in Microbiology",
       "doi": "10.3389/fmicb.2018.03146"
     },
+    "corkins-2019-aluminum-effects-infants-children": {
+      "title": "Aluminum Effects in Infants and Children",
+      "authors": [
+        "Corkins MR",
+        "AAP Committee on Nutrition"
+      ],
+      "year": 2019,
+      "journal": "Pediatrics",
+      "doi": "10.1542/peds.2019-3148"
+    },
     "correale-2021-amino-acid-catabolizing-enzymes-ms": {
       "title": "Immunosuppressive Amino-Acid Catabolizing Enzymes in Multiple Sclerosis",
       "authors": [
@@ -57606,6 +58951,16 @@
       "year": 2018,
       "journal": "Nature Communications",
       "doi": "10.1038/s41467-018-07803-9"
+    },
+    "costa-1982-specific-nickel-compounds-carcinogens": {
+      "title": "Specific Nickel Compounds as Carcinogens",
+      "authors": [
+        "Costa M",
+        "Heck JD"
+      ],
+      "year": 1982,
+      "journal": "Trends in Pharmacological Sciences (TIPS)",
+      "doi": ""
     },
     "crick-2017-oxysterols-bile-acid-precursors-ms": {
       "title": "Reduced Plasma Levels of 25-Hydroxycholesterol and Increased Cerebrospinal Fluid Levels of Bile Acid Precursors in Multiple Sclerosis Patients",
@@ -60097,6 +61452,21 @@
       "journal": "Nutrients",
       "doi": "10.3390/nu16234116"
     },
+    "hu-2016-nickel-contamination-antibiotic-resistance-soils": {
+      "title": "Long-term nickel contamination increases the occurrence of antibiotic resistance genes in agricultural soils",
+      "authors": [
+        "Hu HW",
+        "Wang JT",
+        "Li J",
+        "Shi XZ",
+        "Ma YB",
+        "Chen D",
+        "He JZ"
+      ],
+      "year": 2016,
+      "journal": "Environmental Science and Technology",
+      "doi": "10.1021/acs.est.6b03383"
+    },
     "hu-2023-amino-acids-cvd-mendelian-randomization": {
       "title": "Causal relationships of circulating amino acids with cardiovascular disease: a trans-ancestry Mendelian randomization analysis",
       "authors": [
@@ -60310,6 +61680,17 @@
       "year": 2019,
       "journal": "Journal of Atherosclerosis and Thrombosis",
       "doi": "10.5551/jat.RV17036"
+    },
+    "imran-2019-co-selection-antibiotic-resistance-metal-microplastic": {
+      "title": "Co-selection of multi-antibiotic resistance in bacterial pathogens in metal and microplastic contaminated environments: an emerging health threat",
+      "authors": [
+        "Imran M",
+        "Das KR",
+        "Naik MM"
+      ],
+      "year": 2019,
+      "journal": "Chemosphere",
+      "doi": "10.1016/j.chemosphere.2018.10.114"
     },
     "irfan-2017-comparative-heavy-metals-ra": {
       "title": "Comparative Evaluation of Heavy Metals in Patients with Rheumatoid Arthritis and Healthy Control in Pakistani Population",
@@ -60875,6 +62256,18 @@
       "year": 2024,
       "journal": "Gut",
       "doi": "10.1136/gutjnl-2023-331587"
+    },
+    "khan-2011-novel-approach-enterobacteriaceae-identification-clinical": {
+      "title": "A Novel Approach for Identification of Members of Enterobacteriaceae Isolated from Clinical Samples",
+      "authors": [
+        "Khan F",
+        "Rizvi M",
+        "Shukla I",
+        "Malik A"
+      ],
+      "year": 2011,
+      "journal": "Biology and Medicine",
+      "doi": ""
     },
     "khan-2014-metals-type2-diabetes": {
       "title": "Metals in the pathogenesis of type 2 diabetes",
@@ -62978,6 +64371,18 @@
       "journal": "Cureus",
       "doi": "10.7759/cureus.28505"
     },
+    "maurya-2020-arg-soil-microbiomes-co-selection": {
+      "title": "Development, spread and persistence of antibiotic resistance genes (ARGs) in the soil microbiomes through co-selection",
+      "authors": [
+        "Maurya AP",
+        "Rajkumari J",
+        "Bhattacharjee A",
+        "Pandey P"
+      ],
+      "year": 2020,
+      "journal": "Reviews on Environmental Health",
+      "doi": "10.1515/reveh-2020-0035"
+    },
     "mavropoulos-2005-ketogenic-diet-pcos": {
       "title": "The effects of a low-carbohydrate, ketogenic diet on the polycystic ovary syndrome: A pilot study",
       "authors": [
@@ -63813,6 +65218,22 @@
       "journal": "Research in Developmental Disabilities",
       "doi": "Not available"
     },
+    "novelli-2000-toxic-mechanism-nickel-cardiac-tissue": {
+      "title": "Toxic Mechanism of Nickel Exposure on Cardiac Tissue",
+      "authors": [
+        "Novelli ELB",
+        "Diniz YS",
+        "Almeida JA",
+        "Machado T",
+        "Proenca V",
+        "Tibirica T",
+        "Faine L",
+        "Ribas BO"
+      ],
+      "year": 2000,
+      "journal": "Toxic Substance Mechanisms",
+      "doi": ""
+    },
     "novikova-2025-microbiome-derived-metabolites-parkinsons-thesis": {
       "title": "Novikova 2025 -- Microbiome-Derived Metabolites in Parkinson's Disease (Thesis)",
       "authors": [
@@ -64146,13 +65567,13 @@
     "patil-2021-infection-metallomics-critical-care": {
       "title": "Infection metallomics for critical care in the post-COVID era",
       "authors": [
-        "Rutuja H. Patil",
-        "Dominika Luptakova",
-        "Vladimir Havlicek"
+        "Patil RH",
+        "Luptakova D",
+        "Havlicek V"
       ],
       "year": 2021,
       "journal": "Mass Spectrometry Reviews",
-      "doi": ""
+      "doi": "10.1002/mas.21755"
     },
     "paul-2019-biomarkers-ms": {
       "title": "Biomarkers in Multiple Sclerosis",
@@ -64164,6 +65585,20 @@
       "year": 2019,
       "journal": "Cold Spring Harbor Perspectives in Medicine",
       "doi": "10.1101/cshperspect.a029058"
+    },
+    "pavlic-2021-nickel-bacterial-adhesion-biofilm-orthodontic": {
+      "title": "Bacterial Exposure to Nickel: Influence on Adhesion and Biofilm Formation on Orthodontic Archwires and Sensitivity to Antimicrobial Agents",
+      "authors": [
+        "Pavlic A",
+        "Begic G",
+        "Tota M",
+        "Abram M",
+        "Spalj S",
+        "Gobin I"
+      ],
+      "year": 2021,
+      "journal": "Materials",
+      "doi": "10.3390/ma14164603"
     },
     "pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian": {
       "title": "Role of immune cells in mediating the effect of gut microbiota on Hashimoto's thyroiditis: a 2-sample Mendelian randomization study",
@@ -64653,6 +66088,18 @@
       "journal": "Arhiv za farmaciju",
       "doi": "10.5937/arhfarm73-46986"
     },
+    "rafati-rahimzadeh-2025-nickel-intoxication-mechanisms": {
+      "title": "Nickel; A Metal with Threats to Human Health, Focusing on Its Intoxication Mechanisms",
+      "authors": [
+        "Rafati Rahimzadeh M",
+        "Rafati Rahimzadeh M",
+        "Kazemi S",
+        "Moghadamnia AA"
+      ],
+      "year": 2025,
+      "journal": "Human and Experimental Toxicology",
+      "doi": "10.1177/09603271251361197"
+    },
     "rafter-2004-probiotics-colon-cancer-development": {
       "title": "The Effects of Probiotics on Colon Cancer Development",
       "authors": [
@@ -64938,6 +66385,19 @@
       "year": 2018,
       "journal": "Scientific Reports",
       "doi": "10.1038/s41598-018-24931-w"
+    },
+    "riederer-2021-iron-concert-master-parkinsons": {
+      "title": "Iron as the concert master in the pathogenic orchestra playing in sporadic Parkinson's disease",
+      "authors": [
+        "Riederer P",
+        "Monoranu C",
+        "Strobel S",
+        "Iordache T",
+        "Sian-Hulsmann J"
+      ],
+      "year": 2021,
+      "journal": "Journal of Neural Transmission",
+      "doi": "10.1007/s00702-021-02414-z"
     },
     "rizzi-2017-ibs-nickel-diet": {
       "title": "Irritable Bowel Syndrome and Nickel Allergy: What Is the Role of the Low Nickel Diet?",
@@ -66107,6 +67567,18 @@
       "year": 2023,
       "journal": "EMBO Reports",
       "doi": "10.15252/embr.202255664"
+    },
+    "srivastava-2016-environmental-resistance-microbes-review": {
+      "title": "Understanding the Development of Environmental Resistance Among Microbes: A Review",
+      "authors": [
+        "Srivastava J",
+        "Chandra H",
+        "Singh N",
+        "Kalra SJS"
+      ],
+      "year": 2016,
+      "journal": "Clean - Soil, Air, Water",
+      "doi": "10.1002/clen.201300975"
     },
     "stagaman-2024-oral-gut-microbiome-profiles-early-parkinsons": {
       "title": "Stagaman 2024 -- Oral and Gut Microbiome Profiles in People with Early Idiopathic Parkinson's Disease",
@@ -67375,6 +68847,16 @@
       "year": 2022,
       "journal": "Virology",
       "doi": ""
+    },
+    "wales-2015-co-selection-resistance-antibiotics-biocides-metals": {
+      "title": "Co-Selection of Resistance to Antibiotics, Biocides and Heavy Metals, and Its Relevance to Foodborne Pathogens",
+      "authors": [
+        "Wales AD",
+        "Davies RH"
+      ],
+      "year": 2015,
+      "journal": "Antibiotics",
+      "doi": "10.3390/antibiotics4040567"
     },
     "walker-2021-framingham-gut-microbiome-cardiometabolic": {
       "title": "Population Study of the Gut Microbiome: Associations with Diet, Lifestyle, and Cardiometabolic Disease",
@@ -69156,6 +70638,20 @@
       "year": 2026,
       "journal": "Acta Diabetologica",
       "doi": "10.1007/s00592-026-02648-x"
+    },
+    "zhao-2020-arsenic-cadmium-arg-paddy-soils": {
+      "title": "Arsenic and cadmium as predominant factors shaping the distribution patterns of antibiotic resistance genes in polluted paddy soils",
+      "authors": [
+        "Zhao X",
+        "Shen JP",
+        "Zhang LM",
+        "Du S",
+        "Hu HW",
+        "He JZ"
+      ],
+      "year": 2020,
+      "journal": "Journal of Hazardous Materials",
+      "doi": "10.1016/j.jhazmat.2019.121838"
     },
     "zhao-2021-colorectal-cancer-microbiome-patterns-signatures": {
       "title": "Colorectal cancer-associated microbiome patterns and signatures",
