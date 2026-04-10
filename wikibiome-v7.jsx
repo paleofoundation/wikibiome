@@ -747,6 +747,40 @@ const ArticleView = ({ pageId, onNavigate }) => {
     setExpandedLayers(prev => ({ ...prev, [layer]: !prev[layer] }));
   };
 
+  // Check if a term has a matching wiki page (entity or concept) and return its ID, or null
+  const findPageForTerm = (term) => {
+    const slug = term.toLowerCase().replace(/\s+/g, '-');
+    if (PAGE_IDS.has(slug)) return slug;
+    // Try common alternate names (e.g., "siderophores" → "siderophores-metallophores")
+    const match = CONTENT.pages.find(p =>
+      p.id.startsWith(slug) || p.id === slug.replace(/-/g, '')
+    );
+    return match ? match.id : null;
+  };
+
+  // Render a tag that links to its page if one exists
+  const SigTag = ({ term, bg, color, border, style: extraStyle = {} }) => {
+    const pageId = findPageForTerm(term);
+    const baseStyle = {
+      padding: '6px 14px', borderRadius: '20px', fontSize: '10px', fontWeight: 600,
+      backgroundColor: bg, color, border: `1px solid ${border}`,
+      display: 'inline-block', transition: 'all 0.2s ease',
+      ...extraStyle,
+    };
+    if (pageId) {
+      return (
+        <span
+          onClick={(e) => { e.stopPropagation(); setSigPanelOpen(false); onNavigate({ view: 'article', id: pageId }); }}
+          style={{ ...baseStyle, cursor: 'pointer', textDecoration: 'underline', textDecorationColor: border, textUnderlineOffset: '3px' }}
+          onMouseEnter={(e) => { e.currentTarget.style.boxShadow = `0 2px 8px ${border}`; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'translateY(0)'; }}
+          title={`View ${term} article`}
+        >{term}</span>
+      );
+    }
+    return <span style={baseStyle}>{term}</span>;
+  };
+
   return (
     <div style={{
       backgroundColor: P.bg,
@@ -1358,9 +1392,14 @@ const ArticleView = ({ pageId, onNavigate }) => {
                             <div style={{ fontSize: '9px', fontWeight: 700, color: P.crimson, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                               <span style={{ fontSize: '7px' }}>&#9650;</span> Elevated
                             </div>
-                            {elevated.map((metal, idx) => (
+                            {elevated.map((metal, idx) => {
+                              const metalPageId = findPageForTerm(metal);
+                              return (
                               <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px', animation: `sigFadeUp 0.3s ease ${idx * 0.05}s both` }}>
-                                <span style={{ fontSize: '11px', color: P.text, fontWeight: 600, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
+                                <span
+                                  onClick={metalPageId ? (e) => { e.stopPropagation(); setSigPanelOpen(false); onNavigate({ view: 'article', id: metalPageId }); } : undefined}
+                                  style={{ fontSize: '11px', color: metalPageId ? P.copper : P.text, fontWeight: 600, width: '80px', textAlign: 'right', textTransform: 'capitalize', cursor: metalPageId ? 'pointer' : 'default', textDecoration: metalPageId ? 'underline' : 'none', textDecorationColor: 'rgba(184,115,51,0.3)', textUnderlineOffset: '2px' }}
+                                >{metal}</span>
                                 <div style={{ flex: 1, height: '8px', backgroundColor: 'rgba(139,32,32,0.06)', borderRadius: '4px', overflow: 'hidden', border: '1px solid rgba(139,32,32,0.08)' }}>
                                   <div style={{
                                     height: '100%', borderRadius: '4px',
@@ -1371,7 +1410,8 @@ const ArticleView = ({ pageId, onNavigate }) => {
                                   }} />
                                 </div>
                               </div>
-                            ))}
+                            );
+                            })}
                           </div>
                         )}
                         {depleted.length > 0 && (
@@ -1379,9 +1419,14 @@ const ArticleView = ({ pageId, onNavigate }) => {
                             <div style={{ fontSize: '9px', fontWeight: 700, color: P.patina, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '6px' }}>
                               <span style={{ fontSize: '7px' }}>&#9660;</span> Depleted
                             </div>
-                            {depleted.map((metal, idx) => (
+                            {depleted.map((metal, idx) => {
+                              const metalPageId = findPageForTerm(metal);
+                              return (
                               <div key={metal} style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px', animation: `sigFadeUp 0.3s ease ${(elevated.length + idx) * 0.05}s both` }}>
-                                <span style={{ fontSize: '11px', color: P.text, fontWeight: 600, width: '80px', textAlign: 'right', textTransform: 'capitalize' }}>{metal}</span>
+                                <span
+                                  onClick={metalPageId ? (e) => { e.stopPropagation(); setSigPanelOpen(false); onNavigate({ view: 'article', id: metalPageId }); } : undefined}
+                                  style={{ fontSize: '11px', color: metalPageId ? P.patina : P.text, fontWeight: 600, width: '80px', textAlign: 'right', textTransform: 'capitalize', cursor: metalPageId ? 'pointer' : 'default', textDecoration: metalPageId ? 'underline' : 'none', textDecorationColor: 'rgba(90,138,122,0.3)', textUnderlineOffset: '2px' }}
+                                >{metal}</span>
                                 <div style={{ flex: 1, height: '8px', backgroundColor: 'rgba(90,138,122,0.06)', borderRadius: '4px', overflow: 'hidden', border: '1px solid rgba(90,138,122,0.08)' }}>
                                   <div style={{
                                     height: '100%', borderRadius: '4px',
@@ -1392,7 +1437,8 @@ const ArticleView = ({ pageId, onNavigate }) => {
                                   }} />
                                 </div>
                               </div>
-                            ))}
+                            );
+                            })}
                           </div>
                         )}
                       </div>
@@ -1514,12 +1560,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
                           <div style={{ fontSize: '9px', fontWeight: 700, color: P.copper, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Host Defense &#8593;</div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
                             {signature.nutritionalImmunity.elevated.map((marker, idx) => (
-                              <span key={marker} style={{
-                                backgroundColor: 'rgba(184,115,51,0.06)', color: P.copper,
-                                padding: '6px 14px', borderRadius: '20px', fontSize: '10px', fontWeight: 600,
-                                border: '1px solid rgba(184,115,51,0.15)',
-                                animation: `sigFadeUp 0.25s ease ${idx * 0.04}s both`,
-                              }}>{marker}</span>
+                              <SigTag key={marker} term={marker} bg="rgba(184,115,51,0.06)" color={P.copper} border="rgba(184,115,51,0.15)" style={{ animation: `sigFadeUp 0.25s ease ${idx * 0.04}s both` }} />
                             ))}
                           </div>
                         </div>
@@ -1529,12 +1570,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
                           <div style={{ fontSize: '9px', fontWeight: 700, color: P.patina, textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '10px' }}>Compromised &#8595;</div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
                             {signature.nutritionalImmunity.depleted.map((marker, idx) => (
-                              <span key={marker} style={{
-                                backgroundColor: 'rgba(90,138,122,0.06)', color: P.patina,
-                                padding: '6px 14px', borderRadius: '20px', fontSize: '10px', fontWeight: 600,
-                                border: '1px solid rgba(90,138,122,0.15)',
-                                animation: `sigFadeUp 0.25s ease ${idx * 0.04}s both`,
-                              }}>{marker}</span>
+                              <SigTag key={marker} term={marker} bg="rgba(90,138,122,0.06)" color={P.patina} border="rgba(90,138,122,0.15)" style={{ animation: `sigFadeUp 0.25s ease ${idx * 0.04}s both` }} />
                             ))}
                           </div>
                         </div>
@@ -1561,12 +1597,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
                   {expandedLayers.ecological && (
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                       {signature.ecologicalFeatures.map((feature, idx) => (
-                        <span key={feature} style={{
-                          backgroundColor: P.bgWarm, color: P.text,
-                          padding: '7px 16px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
-                          border: `1px solid ${P.border}`,
-                          animation: `sigFadeUp 0.25s ease ${idx * 0.05}s both`,
-                        }}>{feature}</span>
+                        <SigTag key={feature} term={feature} bg={P.bgWarm} color={P.text} border={P.border} style={{ borderRadius: '6px', fontSize: '11px', fontWeight: 500, padding: '7px 16px', animation: `sigFadeUp 0.25s ease ${idx * 0.05}s both` }} />
                       ))}
                     </div>
                   )}
@@ -1590,12 +1621,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
                   {expandedLayers.virulence && (
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                       {signature.virulenceEnzymes.map((enzyme, idx) => (
-                        <span key={enzyme} style={{
-                          backgroundColor: 'rgba(139,32,32,0.04)', color: P.crimson,
-                          padding: '7px 16px', borderRadius: '6px', fontSize: '11px', fontWeight: 500,
-                          border: '1px solid rgba(139,32,32,0.1)',
-                          animation: `sigFadeUp 0.25s ease ${idx * 0.05}s both`,
-                        }}>{enzyme}</span>
+                        <SigTag key={enzyme} term={enzyme} bg="rgba(139,32,32,0.04)" color={P.crimson} border="rgba(139,32,32,0.1)" style={{ borderRadius: '6px', fontSize: '11px', fontWeight: 500, padding: '7px 16px', animation: `sigFadeUp 0.25s ease ${idx * 0.05}s both` }} />
                       ))}
                     </div>
                   )}
