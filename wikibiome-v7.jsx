@@ -375,15 +375,49 @@ const renderInline = (text, onNavigate, citationMap) => {
   const wikiRegex = /\[?\[\[([^\]|]+)(?:\|([^\]]+))?\]\]\]?/g;
   let match;
   while ((match = wikiRegex.exec(text)) !== null) {
-    const id = match[1];
+    const rawId = match[1].replace(/\\\\/g, '');
     const display = match[2] || match[1];
     if (lastIndex < match.index) {
       const plain = text.substring(lastIndex, match.index);
       parts.push(...renderTextWithFormatting(plain));
     }
+
+    // Normalize ID: lowercase, strip path prefixes, strip leading brackets, handle aliases
+    const normalizeId = (raw) => {
+      let id = raw.toLowerCase().trim();
+      // Strip any leading [ that leaked from markdown
+      id = id.replace(/^\[+/, '');
+      // Strip trailing backslashes from escaped markdown
+      id = id.replace(/\\+$/, '');
+      // Strip directory prefixes (signatures/, entities/, concepts/)
+      if (id.includes('/')) id = id.split('/').pop();
+      // Normalize spaces and special chars to hyphens
+      id = id.replace(/['']/g, '').replace(/\s+/g, '-');
+      return id;
+    };
+
+    let id = normalizeId(rawId);
+    // Fuzzy match: if not found, try common aliases
+    if (!PAGE_IDS.has(id) && !citationMap?.[rawId] && !citationMap?.[id]) {
+      // Try appending common suffixes for genus-level links
+      const genusFallbacks = {
+        'bacteroides': 'bacteroides-fragilis',
+        'candida': 'candida-albicans',
+        'faecalibacterium': 'faecalibacterium-prausnitzii',
+        'akkermansia': 'akkermansia-muciniphila',
+        'proteobacteria': 'enterobacteriaceae',
+        'clostridioides': 'clostridioides-difficile',
+      };
+      if (genusFallbacks[id]) id = genusFallbacks[id];
+    }
+
     // Check if this is a source citation (not a browsable page)
-    if (citationMap && citationMap[id] !== undefined) {
-      const num = citationMap[id];
+    // Try both raw and normalized for citation matching
+    const citationNum = citationMap && (citationMap[rawId] !== undefined ? citationMap[rawId]
+      : citationMap[id] !== undefined ? citationMap[id] : undefined);
+
+    if (citationNum !== undefined) {
+      const num = citationNum;
       parts.push(
         <sup
           key={`cite-${match.index}`}
@@ -404,7 +438,7 @@ const renderInline = (text, onNavigate, citationMap) => {
         </sup>
       );
     } else if (PAGE_IDS.has(id)) {
-      // Browsable article link
+      // Browsable article link — Wikipedia-style internal link
       parts.push(
         <span
           key={`wiki-${match.index}`}
@@ -412,11 +446,16 @@ const renderInline = (text, onNavigate, citationMap) => {
           style={{
             color: P.copper,
             textDecoration: 'underline',
+            textDecorationColor: `${P.copper}66`,
+            textUnderlineOffset: '2px',
             cursor: 'pointer',
             fontWeight: 500,
+            transition: 'color 0.15s ease',
           }}
+          onMouseEnter={(e) => { e.currentTarget.style.color = '#96572a'; e.currentTarget.style.textDecorationColor = '#96572a'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.color = P.copper; e.currentTarget.style.textDecorationColor = `${P.copper}66`; }}
         >
-          {display.replace(/-/g, ' ')}
+          {display.replace(/-/g, ' ').replace(/\\\\/g, '')}
         </span>
       );
     } else {
@@ -432,7 +471,7 @@ const renderInline = (text, onNavigate, citationMap) => {
       } else {
         parts.push(
           <span key={`wiki-${match.index}`} style={{ color: P.copper, fontWeight: 500 }}>
-            {display.replace(/-/g, ' ')}
+            {display.replace(/-/g, ' ').replace(/\\\\/g, '')}
           </span>
         );
       }

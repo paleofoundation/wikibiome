@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-04-10T14:11:18.621Z",
+  "_generated": "2026-04-10T14:25:23.577Z",
   "_platform": "all",
   "_stats": {
     "sources": 861,
     "entities": 118,
-    "concepts": 73,
+    "concepts": 74,
     "signatures": 13,
     "interventions": 5,
     "stops": 7,
     "analyses": 2,
-    "totalPages": 219
+    "totalPages": 220
   },
   "pages": [
     {
@@ -2308,6 +2308,7 @@
         "acidic-microenvironment",
         "beta-glucuronidase",
         "enterohepatic-circulation",
+        "estrobolome",
         "estrogen-recirculation",
         "fermentative-metabolism",
         "gut-microbiome",
@@ -2331,7 +2332,7 @@
         },
         {
           "id": "escherichia-coli",
-          "score": 35
+          "score": 37
         },
         {
           "id": "colorectal-cancer",
@@ -5347,6 +5348,7 @@
         "lachnospiraceae",
         "methanobrevibacter-smithii",
         "streptococcus-thermophilus",
+        "estrobolome",
         "hypoxia",
         "cardiovascular-disease",
         "depression"
@@ -5369,20 +5371,20 @@
           "score": 12
         },
         {
-          "id": "akkermansia-muciniphila",
-          "score": 10
+          "id": "bacteroides-fragilis",
+          "score": 11
         },
         {
-          "id": "bacteroides-fragilis",
-          "score": 9
+          "id": "akkermansia-muciniphila",
+          "score": 10
         },
         {
           "id": "bifidobacterium",
           "score": 9
         },
         {
-          "id": "eubacterium",
-          "score": 8
+          "id": "escherichia-coli",
+          "score": 9
         }
       ]
     },
@@ -5680,9 +5682,14 @@
       "backlinks": [
         "methanobrevibacter-smithii",
         "bile-acid-metabolism",
+        "estrobolome",
         "crohns-disease"
       ],
       "related": [
+        {
+          "id": "bacteroides-fragilis",
+          "score": 7
+        },
         {
           "id": "bilophila",
           "score": 6
@@ -5696,7 +5703,11 @@
           "score": 6
         },
         {
-          "id": "bacteroides-fragilis",
+          "id": "clostridium",
+          "score": 5
+        },
+        {
+          "id": "escherichia-coli",
           "score": 5
         },
         {
@@ -5706,14 +5717,6 @@
         {
           "id": "prevotella",
           "score": 5
-        },
-        {
-          "id": "atherosclerosis",
-          "score": 5
-        },
-        {
-          "id": "alistipes",
-          "score": 4
         }
       ]
     },
@@ -7795,15 +7798,24 @@
       "backlinks": [
         "bacteroides-vulgatus",
         "beta-glucuronidase",
+        "estrobolome",
         "multiple-sclerosis"
       ],
       "related": [
         {
           "id": "zinc",
+          "score": 8
+        },
+        {
+          "id": "nutritional-immunity",
           "score": 6
         },
         {
           "id": "candida-albicans",
+          "score": 5
+        },
+        {
+          "id": "escherichia-coli",
           "score": 5
         },
         {
@@ -7815,20 +7827,12 @@
           "score": 5
         },
         {
-          "id": "mediterranean-diet",
+          "id": "nickel",
           "score": 4
         },
         {
-          "id": "nutritional-immunity",
+          "id": "obesity",
           "score": 4
-        },
-        {
-          "id": "short-chain-fatty-acids",
-          "score": 4
-        },
-        {
-          "id": "alloprevotella",
-          "score": 3
         }
       ]
     },
@@ -8010,6 +8014,7 @@
         "acidic-microenvironment",
         "beta-glucuronidase",
         "enterohepatic-circulation",
+        "estrobolome",
         "estrogen-recirculation",
         "fermentative-metabolism",
         "functional-shielding",
@@ -8026,7 +8031,7 @@
       "related": [
         {
           "id": "nickel",
-          "score": 42
+          "score": 44
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -8038,6 +8043,10 @@
         },
         {
           "id": "nutritional-immunity",
+          "score": 24
+        },
+        {
+          "id": "bacteroides-fragilis",
           "score": 22
         },
         {
@@ -8045,16 +8054,12 @@
           "score": 21
         },
         {
-          "id": "inflammation",
+          "id": "zinc",
           "score": 21
         },
         {
-          "id": "bacteroides-fragilis",
-          "score": 20
-        },
-        {
-          "id": "lachnospiraceae",
-          "score": 20
+          "id": "inflammation",
+          "score": 21
         }
       ]
     },
@@ -8513,6 +8518,7 @@
         "acidic-microenvironment",
         "beta-glucuronidase",
         "enterohepatic-circulation",
+        "estrobolome",
         "estrogen-recirculation",
         "fermentative-metabolism",
         "functional-shielding",
@@ -8540,7 +8546,7 @@
         },
         {
           "id": "bacteroides-fragilis",
-          "score": 35
+          "score": 37
         },
         {
           "id": "lachnospiraceae",
@@ -8555,11 +8561,11 @@
           "score": 29
         },
         {
-          "id": "colorectal-cancer",
-          "score": 24
+          "id": "zinc",
+          "score": 26
         },
         {
-          "id": "zinc",
+          "id": "colorectal-cancer",
           "score": 24
         },
         {
@@ -10112,6 +10118,7 @@
         "shigella-flexneri",
         "staphylococcus-aureus",
         "streptococcus-pneumoniae",
+        "estrobolome",
         "hydrogenase",
         "hypoxia",
         "metal-dependent-virulence",
@@ -10127,7 +10134,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 40
+          "score": 42
         },
         {
           "id": "staphylococcus-aureus",
@@ -10135,18 +10142,18 @@
         },
         {
           "id": "escherichia-coli",
-          "score": 28
+          "score": 30
         },
         {
           "id": "salmonella-typhimurium",
           "score": 26
         },
         {
-          "id": "proteus-mirabilis",
-          "score": 24
+          "id": "zinc",
+          "score": 26
         },
         {
-          "id": "zinc",
+          "id": "proteus-mirabilis",
           "score": 24
         },
         {
@@ -11146,6 +11153,7 @@
         "acidic-microenvironment",
         "beta-glucuronidase",
         "developmental-metal-vulnerability",
+        "estrobolome",
         "fermentative-metabolism",
         "gut-microbiome",
         "heavy-metals",
@@ -11173,7 +11181,7 @@
       "related": [
         {
           "id": "zinc",
-          "score": 123
+          "score": 125
         },
         {
           "id": "dysbiosis",
@@ -13850,12 +13858,17 @@
         "bilophila",
         "breast-cancer",
         "desulfovibrio",
-        "eggerthella-lenta"
+        "eggerthella-lenta",
+        "estrobolome"
       ],
       "related": [
         {
           "id": "nickel",
-          "score": 17
+          "score": 19
+        },
+        {
+          "id": "zinc",
+          "score": 13
         },
         {
           "id": "cobalt",
@@ -13864,10 +13877,6 @@
         {
           "id": "mercury",
           "score": 12
-        },
-        {
-          "id": "zinc",
-          "score": 11
         },
         {
           "id": "metal-disease-matrix",
@@ -15005,6 +15014,7 @@
         "calprotectin",
         "dietary-nickel-exposure",
         "epigenetic-modifications",
+        "estrobolome",
         "fermentative-metabolism",
         "glyoxalase",
         "gut-microbiome",
@@ -15219,6 +15229,7 @@
         "ruminococcus-albus",
         "torulaspora",
         "beta-glucuronidase",
+        "estrobolome",
         "fermentative-metabolism",
         "hypoxia",
         "lipocalin-2",
@@ -15228,11 +15239,11 @@
       "related": [
         {
           "id": "bacteroides-fragilis",
-          "score": 20
+          "score": 22
         },
         {
           "id": "iron",
-          "score": 20
+          "score": 22
         },
         {
           "id": "colorectal-cancer",
@@ -15251,12 +15262,12 @@
           "score": 14
         },
         {
-          "id": "inflammatory-bowel-disease",
-          "score": 13
+          "id": "zinc",
+          "score": 14
         },
         {
-          "id": "zinc",
-          "score": 12
+          "id": "inflammatory-bowel-disease",
+          "score": 13
         }
       ]
     },
@@ -16907,6 +16918,7 @@
         "molybdenum",
         "postpartum-depression",
         "type-2-diabetes",
+        "estrobolome",
         "insulin-resistance",
         "mediterranean-diet",
         "oxidative-stress",
@@ -16914,12 +16926,12 @@
       ],
       "related": [
         {
-          "id": "alzheimers-disease",
-          "score": 17
+          "id": "iron",
+          "score": 18
         },
         {
-          "id": "iron",
-          "score": 16
+          "id": "alzheimers-disease",
+          "score": 17
         },
         {
           "id": "magnesium",
@@ -16928,6 +16940,10 @@
         {
           "id": "parkinsons-disease",
           "score": 13
+        },
+        {
+          "id": "endometriosis",
+          "score": 12
         },
         {
           "id": "glutathione",
@@ -16939,10 +16955,6 @@
         },
         {
           "id": "cardiovascular-disease",
-          "score": 11
-        },
-        {
-          "id": "graves-disease",
           "score": 11
         }
       ]
@@ -18211,7 +18223,7 @@
           "score": 4
         },
         {
-          "id": "colorectal-cancer",
+          "id": "estrobolome",
           "score": 4
         }
       ]
@@ -19467,6 +19479,10 @@
           "score": 4
         },
         {
+          "id": "estrobolome",
+          "score": 4
+        },
+        {
           "id": "nutritional-immunity",
           "score": 4
         },
@@ -19476,10 +19492,6 @@
         },
         {
           "id": "blautia",
-          "score": 3
-        },
-        {
-          "id": "candida-albicans",
           "score": 3
         }
       ]
@@ -22937,6 +22949,7 @@
         "beta-glucuronidase",
         "calprotectin",
         "developmental-metal-vulnerability",
+        "estrobolome",
         "fermentative-metabolism",
         "glyoxalase",
         "gut-microbiome",
@@ -22960,7 +22973,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 123
+          "score": 125
         },
         {
           "id": "metal-disease-matrix",
@@ -22968,7 +22981,7 @@
         },
         {
           "id": "nutritional-immunity",
-          "score": 58
+          "score": 60
         },
         {
           "id": "manganese",
@@ -22983,12 +22996,12 @@
           "score": 44
         },
         {
-          "id": "faecalibacterium-prausnitzii",
-          "score": 30
+          "id": "bacteroides-fragilis",
+          "score": 31
         },
         {
-          "id": "bacteroides-fragilis",
-          "score": 29
+          "id": "faecalibacterium-prausnitzii",
+          "score": 30
         }
       ]
     },
@@ -23482,13 +23495,18 @@
         "eggerthella-lenta",
         "streptococcus-agalactiae",
         "enterohepatic-circulation",
+        "estrobolome",
         "estrogen-recirculation",
         "hypoxia"
       ],
       "related": [
         {
           "id": "estrogen-recirculation",
-          "score": 11
+          "score": 13
+        },
+        {
+          "id": "enterohepatic-circulation",
+          "score": 9
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -23499,8 +23517,12 @@
           "score": 7
         },
         {
-          "id": "enterohepatic-circulation",
-          "score": 7
+          "id": "clostridium",
+          "score": 6
+        },
+        {
+          "id": "lactoferrin",
+          "score": 6
         },
         {
           "id": "akkermansia-muciniphila",
@@ -23508,14 +23530,6 @@
         },
         {
           "id": "bifidobacterium",
-          "score": 4
-        },
-        {
-          "id": "clostridium",
-          "score": 4
-        },
-        {
-          "id": "colorectal-cancer",
           "score": 4
         }
       ]
@@ -23708,11 +23722,11 @@
           "score": 6
         },
         {
-          "id": "estrogen-recirculation",
+          "id": "estrobolome",
           "score": 5
         },
         {
-          "id": "insulin-resistance",
+          "id": "estrogen-recirculation",
           "score": 5
         }
       ]
@@ -25504,39 +25518,40 @@
       "sourceDir": "concepts",
       "backlinks": [
         "eggerthella-lenta",
+        "estrobolome",
         "estrogen-recirculation"
       ],
       "related": [
+        {
+          "id": "nutritional-immunity",
+          "score": 5
+        },
+        {
+          "id": "clostridium",
+          "score": 4
+        },
+        {
+          "id": "eggerthella-lenta",
+          "score": 4
+        },
+        {
+          "id": "iron",
+          "score": 4
+        },
+        {
+          "id": "molybdenum",
+          "score": 4
+        },
         {
           "id": "dysbiosis",
           "score": 3
         },
         {
-          "id": "nutritional-immunity",
+          "id": "functional-shielding",
           "score": 3
         },
         {
           "id": "akkermansia-muciniphila",
-          "score": 2
-        },
-        {
-          "id": "alistipes",
-          "score": 2
-        },
-        {
-          "id": "bacteroides-vulgatus",
-          "score": 2
-        },
-        {
-          "id": "bifidobacterium",
-          "score": 2
-        },
-        {
-          "id": "blautia",
-          "score": 2
-        },
-        {
-          "id": "clostridium-symbiosum",
           "score": 2
         }
       ]
@@ -25931,6 +25946,137 @@
       ]
     },
     {
+      "id": "estrobolome",
+      "title": "Estrobolome",
+      "type": "concept",
+      "category": "mechanism",
+      "tags": [
+        "estrogen-metabolism",
+        "microbiome",
+        "enterohepatic-circulation",
+        "hormone-recirculation"
+      ],
+      "sources": [],
+      "created": "2026-04-10T00:00:00.000Z",
+      "updated": "2026-04-10T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Estrobolome",
+        "type": "concept",
+        "created": "2026-04-10T00:00:00.000Z",
+        "updated": "2026-04-10T00:00:00.000Z",
+        "sources": [],
+        "tags": [
+          "estrogen-metabolism",
+          "microbiome",
+          "enterohepatic-circulation",
+          "hormone-recirculation"
+        ],
+        "karen_brain_primitive": "Primitive 7: Estrobolome and Hormone Recirculation"
+      },
+      "overview": "",
+      "sections": [
+        {
+          "heading": "Overview",
+          "level": 2,
+          "body": "The **estrobolome** is the aggregate of enteric bacterial genes whose products are capable of metabolizing estrogens. First proposed by **Plottel and Blaser (2011)**, the concept describes how the gut microbiome acts as an endocrine organ, modulating circulating estrogen levels through enzymatic deconjugation.\n\nThis concept is central to understanding why gut dysbiosis contributes to estrogen-dependent conditions including [[endometriosis]], breast cancer, and [[pcos]]."
+        },
+        {
+          "heading": "Mechanism",
+          "level": 2,
+          "body": "Estrogen metabolism follows a recycling loop through the [[enterohepatic-circulation]]:\n\n1. The liver conjugates estrogens (estradiol, estrone, estriol) with glucuronic acid, rendering them water-soluble for excretion in bile.\n2. Conjugated estrogens enter the intestine via bile.\n3. Gut bacteria possessing [[beta-glucuronidase]] (EC 3.2.1.31) cleave the glucuronic acid tag, freeing active estrogen.\n4. Free estrogen is reabsorbed through the intestinal epithelium back into systemic circulation.\n5. This creates an [[estrogen-recirculation]] loop that amplifies estrogen exposure.\n\nIn a healthy microbiome, this process is balanced — some estrogen is recycled, some is excreted. In dysbiosis enriched for beta-glucuronidase-producing taxa, the recycling rate increases dramatically, leading to **hyperestrogenism**."
+        },
+        {
+          "heading": "Key Bacterial Players",
+          "level": 2,
+          "body": "The estrobolome is not a single organism but a functional guild. Key contributors include:\n\n| Taxon | Role | Metal Dependency |\n|-------|------|------------------|\n| [[escherichia-coli]] | High beta-glucuronidase activity | [[iron]], [[zinc]] |\n| [[bacteroides-fragilis]] | Beta-glucuronidase, bile acid metabolism | [[iron]], [[zinc]] |\n| [[eggerthella-lenta]] | Steroid hormone metabolism, beta-glucuronidase | [[iron]], [[molybdenum]] |\n| [[clostridium]] | Multiple species with glucuronidase activity | [[iron]] |\n| [[collinsella]] | Estrogen hydroxylation | [[iron]] |"
+        },
+        {
+          "heading": "Metal Connections",
+          "level": 2,
+          "body": "The estrobolome is fundamentally metal-dependent:\n\n**[[Iron]]** is the primary driver. Most beta-glucuronidase-producing taxa are iron-dependent organisms. Iron overload in the gut selectively enriches these taxa, amplifying estrogen recirculation. This creates a feed-forward loop: [[iron]] → pathogen enrichment → beta-glucuronidase → estrogen recirculation → tissue proliferation → inflammation → more iron release.\n\n**[[Zinc]]** is required by several metalloprotease-producing estrobolome members for tissue invasion.\n\n**[[Nickel]]** dependency in [[helicobacter-pylori]] connects gastric infection to altered estrogen metabolism through systemic inflammation."
+        },
+        {
+          "heading": "Role in Disease",
+          "level": 2,
+          "body": "The estrobolome concept explains why gut dysbiosis contributes to conditions far removed from the GI tract:\n\n- **[[Endometriosis]]** — Enriched estrobolome drives estrogen recirculation, fueling ectopic endometrial growth. The endometriosis metallomic signature shows elevated iron and nickel, which select for beta-glucuronidase producers.\n- **Breast cancer** — Elevated circulating estrogen from enhanced estrobolome activity is an established risk factor for estrogen receptor-positive breast cancer.\n- **[[PCOS]]** — Altered estrobolome contributes to hormonal imbalance and hyperandrogenism through disrupted estrogen clearance.\n- **[[Obesity]]** — Bidirectional relationship: adipose tissue produces estrogen via aromatase, while enriched estrobolome recirculates it."
+        },
+        {
+          "heading": "Therapeutic Implications",
+          "level": 2,
+          "body": "Understanding the estrobolome reframes intervention strategy:\n\nRather than targeting estrogen directly (e.g., aromatase inhibitors), the metallomics approach targets the **metal dependencies** of estrobolome bacteria. Restricting [[iron]] availability through [[lactoferrin]] or dietary modification reduces the competitive advantage of beta-glucuronidase producers, allowing beneficial taxa to recover and estrogen excretion to normalize.\n\nThis represents Karen's Brain **Primitive 4** (Microbial Metal Dependencies as Achilles' Heels) applied to hormone-dependent disease."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[beta-glucuronidase]] — The key enzyme enabling estrogen deconjugation\n- [[estrogen-recirculation]] — The recycling loop amplified by the estrobolome\n- [[enterohepatic-circulation]] — The broader physiological system\n- [[functional-shielding]] — Biofilm protection of estrobolome members\n- [[nutritional-immunity]] — Host defense that restricts metals from estrobolome pathogens"
+        }
+      ],
+      "wikilinks": [
+        "endometriosis",
+        "pcos",
+        "enterohepatic-circulation",
+        "beta-glucuronidase",
+        "estrogen-recirculation",
+        "escherichia-coli",
+        "iron",
+        "zinc",
+        "bacteroides-fragilis",
+        "eggerthella-lenta",
+        "molybdenum",
+        "clostridium",
+        "collinsella",
+        "nickel",
+        "helicobacter-pylori",
+        "obesity",
+        "lactoferrin",
+        "functional-shielding",
+        "nutritional-immunity"
+      ],
+      "sourceDir": "concepts",
+      "backlinks": [
+        "bacteroides-vulgatus",
+        "eggerthella-lenta",
+        "streptococcus-agalactiae",
+        "beta-glucuronidase",
+        "enterohepatic-circulation",
+        "estrogen-recirculation"
+      ],
+      "related": [
+        {
+          "id": "dysbiosis",
+          "score": 9
+        },
+        {
+          "id": "breast-cancer",
+          "score": 8
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
+          "score": 8
+        },
+        {
+          "id": "hepcidin",
+          "score": 6
+        },
+        {
+          "id": "bile-acid-metabolism",
+          "score": 5
+        },
+        {
+          "id": "akkermansia-muciniphila",
+          "score": 4
+        },
+        {
+          "id": "bifidobacterium",
+          "score": 4
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 4
+        }
+      ]
+    },
+    {
       "id": "estrogen-recirculation",
       "title": "Estrogen Recirculation",
       "type": "concept",
@@ -26014,40 +26160,41 @@
       "backlinks": [
         "streptococcus-agalactiae",
         "enterohepatic-circulation",
+        "estrobolome",
         "hypoxia"
       ],
       "related": [
+        {
+          "id": "iron",
+          "score": 6
+        },
+        {
+          "id": "zinc",
+          "score": 6
+        },
+        {
+          "id": "lactoferrin",
+          "score": 6
+        },
         {
           "id": "bile-acid-metabolism",
           "score": 5
         },
         {
-          "id": "iron",
+          "id": "clostridium",
           "score": 4
         },
         {
-          "id": "zinc",
+          "id": "eggerthella-lenta",
           "score": 4
         },
         {
-          "id": "biofilm",
+          "id": "helicobacter-pylori",
           "score": 4
         },
         {
-          "id": "hepcidin",
+          "id": "nickel",
           "score": 4
-        },
-        {
-          "id": "lactoferrin",
-          "score": 4
-        },
-        {
-          "id": "dysbiosis",
-          "score": 3
-        },
-        {
-          "id": "nickel-urease",
-          "score": 3
         }
       ]
     },
@@ -26638,8 +26785,22 @@
         "n-acetylcysteine"
       ],
       "sourceDir": "concepts",
-      "backlinks": [],
+      "backlinks": [
+        "estrobolome"
+      ],
       "related": [
+        {
+          "id": "beta-glucuronidase",
+          "score": 3
+        },
+        {
+          "id": "enterohepatic-circulation",
+          "score": 3
+        },
+        {
+          "id": "estrogen-recirculation",
+          "score": 3
+        },
         {
           "id": "urease",
           "score": 3
@@ -26649,28 +26810,16 @@
           "score": 3
         },
         {
-          "id": "fusobacterium",
+          "id": "bacteroides-fragilis",
           "score": 2
         },
         {
-          "id": "leptotrichia",
+          "id": "clostridium",
           "score": 2
         },
         {
-          "id": "proteus-mirabilis",
+          "id": "collinsella",
           "score": 2
-        },
-        {
-          "id": "biofilm",
-          "score": 2
-        },
-        {
-          "id": "inter-kingdom-metal-shielding",
-          "score": 2
-        },
-        {
-          "id": "DNA-damage",
-          "score": 1
         }
       ]
     },
@@ -29371,6 +29520,7 @@
         "biofilm",
         "calprotectin",
         "enterohepatic-circulation",
+        "estrobolome",
         "hepcidin",
         "inflammation",
         "lipocalin-2",
@@ -29390,19 +29540,19 @@
         },
         {
           "id": "escherichia-coli",
-          "score": 19
+          "score": 21
         },
         {
           "id": "zinc",
-          "score": 19
+          "score": 21
         },
         {
           "id": "bacteroides-fragilis",
-          "score": 18
+          "score": 20
         },
         {
           "id": "nickel",
-          "score": 18
+          "score": 20
         },
         {
           "id": "staphylococcus-aureus",
@@ -33019,6 +33169,7 @@
         "calprotectin",
         "developmental-metal-vulnerability",
         "dysbiosis",
+        "estrobolome",
         "estrogen-recirculation",
         "fermentative-metabolism",
         "functional-shielding",
@@ -33049,11 +33200,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 96
+          "score": 98
         },
         {
           "id": "zinc",
-          "score": 58
+          "score": 60
         },
         {
           "id": "metal-dependent-virulence",
@@ -33061,7 +33212,7 @@
         },
         {
           "id": "escherichia-coli",
-          "score": 45
+          "score": 47
         },
         {
           "id": "gut-metal-microbiome",
@@ -33073,7 +33224,7 @@
         },
         {
           "id": "lactoferrin",
-          "score": 31
+          "score": 33
         },
         {
           "id": "candida-albicans",
@@ -38481,6 +38632,7 @@
         "acidic-microenvironment",
         "beta-glucuronidase",
         "enterohepatic-circulation",
+        "estrobolome",
         "estrogen-recirculation",
         "fermentative-metabolism",
         "functional-shielding",
@@ -38497,18 +38649,18 @@
       "related": [
         {
           "id": "iron",
-          "score": 32
+          "score": 34
         },
         {
           "id": "faecalibacterium-prausnitzii",
           "score": 24
         },
         {
-          "id": "dysbiosis",
-          "score": 22
+          "id": "nutritional-immunity",
+          "score": 24
         },
         {
-          "id": "nutritional-immunity",
+          "id": "dysbiosis",
           "score": 22
         },
         {
@@ -38520,12 +38672,12 @@
           "score": 18
         },
         {
-          "id": "inflammation",
+          "id": "zinc",
           "score": 18
         },
         {
-          "id": "cardiovascular-disease",
-          "score": 17
+          "id": "inflammation",
+          "score": 18
         }
       ]
     },
@@ -39646,6 +39798,7 @@
         "ruminococcus-albus",
         "torulaspora",
         "beta-glucuronidase",
+        "estrobolome",
         "fermentative-metabolism",
         "hypoxia",
         "lipocalin-2",
@@ -39654,20 +39807,20 @@
       ],
       "related": [
         {
+          "id": "iron",
+          "score": 25
+        },
+        {
           "id": "colorectal-cancer",
           "score": 25
         },
         {
-          "id": "iron",
-          "score": 23
+          "id": "nickel",
+          "score": 20
         },
         {
           "id": "dysbiosis",
           "score": 19
-        },
-        {
-          "id": "nickel",
-          "score": 18
         },
         {
           "id": "cardiovascular-disease",
@@ -40330,12 +40483,17 @@
         "molybdenum",
         "postpartum-depression",
         "type-2-diabetes",
+        "estrobolome",
         "insulin-resistance",
         "mediterranean-diet",
         "oxidative-stress",
         "probiotics"
       ],
       "related": [
+        {
+          "id": "nickel",
+          "score": 26
+        },
         {
           "id": "metal-disease-matrix",
           "score": 26
@@ -40345,7 +40503,7 @@
           "score": 25
         },
         {
-          "id": "nickel",
+          "id": "zinc",
           "score": 24
         },
         {
@@ -40353,16 +40511,12 @@
           "score": 22
         },
         {
-          "id": "zinc",
-          "score": 22
+          "id": "iron",
+          "score": 18
         },
         {
           "id": "oxidative-stress",
           "score": 18
-        },
-        {
-          "id": "iron",
-          "score": 16
         },
         {
           "id": "mediterranean-diet",
@@ -44254,6 +44408,12 @@
         "sourceCount": 1
       },
       {
+        "id": "estrobolome",
+        "label": "Estrobolome",
+        "category": "mechanism",
+        "sourceCount": 0
+      },
+      {
         "id": "estrogen-recirculation",
         "label": "Estrogen Recirculation",
         "category": "mechanism",
@@ -45314,6 +45474,10 @@
       {
         "source": "bacteroides-vulgatus",
         "target": "akkermansia-muciniphila"
+      },
+      {
+        "source": "bacteroides-vulgatus",
+        "target": "estrobolome"
       },
       {
         "source": "bacteroides-vulgatus",
@@ -46482,6 +46646,10 @@
       {
         "source": "eggerthella-lenta",
         "target": "molybdenum"
+      },
+      {
+        "source": "eggerthella-lenta",
+        "target": "estrobolome"
       },
       {
         "source": "eggerthella-lenta",
@@ -49149,6 +49317,10 @@
       },
       {
         "source": "streptococcus-agalactiae",
+        "target": "estrobolome"
+      },
+      {
+        "source": "streptococcus-agalactiae",
         "target": "estrogen-recirculation"
       },
       {
@@ -49629,6 +49801,10 @@
       },
       {
         "source": "beta-glucuronidase",
+        "target": "estrobolome"
+      },
+      {
+        "source": "beta-glucuronidase",
         "target": "escherichia-coli"
       },
       {
@@ -50049,6 +50225,10 @@
       },
       {
         "source": "enterohepatic-circulation",
+        "target": "estrobolome"
+      },
+      {
+        "source": "enterohepatic-circulation",
         "target": "endometriosis"
       },
       {
@@ -50126,6 +50306,70 @@
       {
         "source": "epigenetic-modifications",
         "target": "oxidative-stress"
+      },
+      {
+        "source": "estrobolome",
+        "target": "endometriosis"
+      },
+      {
+        "source": "estrobolome",
+        "target": "pcos"
+      },
+      {
+        "source": "estrobolome",
+        "target": "estrogen-recirculation"
+      },
+      {
+        "source": "estrobolome",
+        "target": "escherichia-coli"
+      },
+      {
+        "source": "estrobolome",
+        "target": "iron"
+      },
+      {
+        "source": "estrobolome",
+        "target": "zinc"
+      },
+      {
+        "source": "estrobolome",
+        "target": "bacteroides-fragilis"
+      },
+      {
+        "source": "estrobolome",
+        "target": "molybdenum"
+      },
+      {
+        "source": "estrobolome",
+        "target": "clostridium"
+      },
+      {
+        "source": "estrobolome",
+        "target": "collinsella"
+      },
+      {
+        "source": "estrobolome",
+        "target": "nickel"
+      },
+      {
+        "source": "estrobolome",
+        "target": "helicobacter-pylori"
+      },
+      {
+        "source": "estrobolome",
+        "target": "obesity"
+      },
+      {
+        "source": "estrobolome",
+        "target": "lactoferrin"
+      },
+      {
+        "source": "estrobolome",
+        "target": "functional-shielding"
+      },
+      {
+        "source": "estrobolome",
+        "target": "nutritional-immunity"
       },
       {
         "source": "estrogen-recirculation",
