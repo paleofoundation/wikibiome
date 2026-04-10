@@ -1,0 +1,132 @@
+---
+title: "NiFe-Hydrogenase"
+type: concept
+created: 2026-04-10
+updated: 2026-04-10
+sources: []
+tags: [virulence-enzyme, nickel-biology, iron-biology, metal-cofactor, anaerobic-metabolism]
+karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels; Primitive 9: Oxygen State as Ecological Determinant"
+---
+
+## Overview
+
+**NiFe-hydrogenase** (also called [Ni-Fe] hydrogenase or nickel-iron hydrogenase) is a class of enzymes that catalyze reversible hydrogen (H₂) oxidation. The active site contains both **nickel (Ni)** and **iron (Fe)** metal atoms arranged in a sophisticated bimetallic cluster. The reaction catalyzed is:
+
+```
+H₂ ↔ 2H⁺ + 2e⁻
+```
+
+In the forward direction, H₂ is oxidized to protons and electrons, releasing energy that powers ATP synthesis (in some bacteria). In the reverse direction, protons are reduced to H₂ (used for energy storage or stress relief).
+
+NiFe-hydrogenases are found in:
+- [[Helicobacter-pylori|H. pylori]] (survival in the microaerophilic gastric niche)
+- [[Methanobrevibacter-smithii|Methanobrevibacter smithii]] (methane production; H₂ consumption)
+- **Sulfate-reducing bacteria** ([[Desulfovibrio]], [[Desulfomonas]]) — H₂ is the preferred electron donor in sulfate reduction
+
+NiFe-hydrogenases are virulence factors enabling **anaerobic persistence** and **interkingdom cooperation** (H₂ produced by one organism consumed by another in the same biofilm).
+
+## Mechanism
+
+**Active site structure:**
+
+The NiFe-hydrogenase active site is a bi-metallic cluster containing:
+- **Nickel (Ni)** — the main catalytic site
+- **Iron (Fe)** — coordinates the substrate and facilitates electron transfer
+- **Bridging ligands**: cyanide (CN⁻) and carbonyl (CO) groups stabilize the Fe center
+- **Nickel coordination**: Histidine and cysteine residues
+
+The bimetallic arrangement is critical: neither metal alone is sufficient; both Ni and Fe are required for catalysis.
+
+**Catalytic cycle:**
+
+```
+H₂ binding → heterolytic cleavage of H-H → H⁺ released to solvent
+           → 2e⁻ transferred to electron transport chain (quinone, NAD⁺, etc.)
+```
+
+This is energetically favorable under anaerobic or microaerophilic conditions (when dissolved O₂ is low).
+
+**Nickel and iron acquisition:**
+
+- Bacteria must acquire both Ni and Fe from the environment
+- [[Helicobacter-pylori|H. pylori]]: Uses NixA (nickel permease) and iron transporters; competes with host [[transferrin]] and [[lactoferrin]] for iron
+- **Sulfate-reducing bacteria**: Acquire metals from sediment or gut contents; highly dependent on [[iron]] and [[nickel]] availability
+
+## Role in Disease
+
+**H. pylori persistence in the microaerophilic gastric niche:**
+
+[[Helicobacter-pylori|H. pylori]] lives in the mucus layer where O₂ is scarce but not zero (microaerophilic, ~1–5% O₂). Under these conditions:
+
+- **Oxidative phosphorylation is insufficient** (not enough O₂ for efficient ATP synthesis)
+- **H₂ oxidation via NiFe-hydrogenase becomes critical** — provides additional ATP and electrons for reducing O₂ via cytochrome c oxidase
+- Without NiFe-hydrogenase: H. pylori cannot thrive in low-O₂ niches; burden is reduced
+
+**Related conditions:**
+
+- [[Gastric-ulcer]], [[gastric-adenocarcinoma]] — H. pylori NiFe-hydrogenase enables persistent colonization
+- **Methane-predominant SIBO** (small intestinal bacterial overgrowth): [[Methanobrevibacter-smithii|M. smithii]] NiFe-hydrogenase consumes H₂ produced by fermentative bacteria; enables overgrowth by reducing H₂-induced inhibition
+
+**Interkingdom cooperation in biofilms:**
+
+In polymicrobial biofilms (e.g., cystic fibrosis lung, diabetic foot ulcers):
+- Fermentative bacteria (e.g., [[Bacteroides]]) produce H₂ as a metabolic byproduct
+- [[Methanobrevibacter-smithii|M. smithii]] or sulfate-reducers (via NiFe-hydrogenase) consume H₂
+- This removes H₂ (which inhibits fermentation), enabling primary fermenters to proliferate
+- The biofilm becomes self-sustaining; difficult to eradicate
+
+## Metal Connections
+
+NiFe-hydrogenase is a paradigm for **Primitive 4: Metal Dependencies as Achilles' Heels**:
+
+**Dual metal requirement:**
+- Bacteria cannot substitute monometallic hydrogenases if both Ni and Fe are depleted
+- **Simultaneous Ni and Fe starvation is more potent than either metal alone**
+- This is clinically relevant for [[Helicobacter-pylori|H. pylori]] and dysbiotic methanogens
+
+**Nickel availability in the stomach:**
+
+- [[Helicobacter-pylori|H. pylori]] gastric infection depends on both NiFe-hydrogenase AND [[nickel-urease]]
+- Both enzymes require Ni; nickel-limited conditions → both virulence pathways compromised
+- **Therapeutic target**: Nickel chelation or dietary nickel restriction in H. pylori-infected patients
+
+**Iron availability and bacterial competition:**
+
+- [[Helicobacter-pylori|H. pylori]] must compete with host [[transferrin]], [[lactoferrin]], and [[lipocalin-2]] for iron
+- In dysbiotic states with [[iron]] overload (e.g., [[Crohns-disease]], [[hemochromatosis]]), H. pylori thrives
+- [[Iron]] sequestration via nutritional immunity limits H. pylori burden
+
+**Sulfate-reducer ecology:**
+
+- Sulfate-reducing bacteria (via NiFe-hydrogenase) thrive in [[iron]]-rich, anaerobic environments
+- They produce H₂S, which precipitates bioavailable [[zinc]] and [[iron]], creating further metal dysbiosis
+- This is a self-amplifying pathological cycle: [[iron]] overload → H₂S production → further metal dysbiosis
+
+## Connections
+
+**Related enzymes:**
+- [[Nickel-urease]] — complementary H. pylori virulence factor; both require nickel
+- **[FeFe]-hydrogenases** — simpler hydrogenases containing only iron; less common in pathogens
+- **Cytochrome c oxidase** — uses H₂ electrons; works in tandem with NiFe-hydrogenase in H. pylori
+
+**Related organisms:**
+- [[Helicobacter-pylori|H. pylori]] — primary pathogen expressing NiFe-hydrogenase; microaerophilic survival
+- [[Methanobrevibacter-smithii|M. smithii]] — methane-producing archaeon; H₂ consumer in the gut
+- **Sulfate-reducing bacteria** ([[Desulfovibrio]], [[Desulfomonas]]) — H₂-dependent sulfate reducers in anaerobic environments
+- [[Bacteroides]] — H₂ producers in fermentation; work synergistically with H₂-consuming methanogens
+
+**Related concepts:**
+- [[Hypoxia]]/[[Microaerophilic-environment]] — low-O₂ niches where NiFe-hydrogenase enables survival
+- [[Nutritional-immunity]] — nickel and [[iron]] sequestration as defenses against NiFe-hydrogenase-dependent pathogens
+- [[Biofilm]] — interkingdom cooperation via H₂ consumption
+- [[Interkingdom-relationships]] — H. pylori NiFe-hydrogenase enables co-persistence with other microaerophiles
+- [[Metal-cofactor-dependency]] — dual-metal requirement is a strategic vulnerability
+
+**Related metals and proteins:**
+- [[Nickel]] — essential cofactor; nickel depletion disables NiFe-hydrogenase
+- [[Iron]] — essential cofactor; iron sequestration limits H. pylori persistence
+- [[Hydrogen-sulfide]] — product of sulfate-reducer NiFe-hydrogenase coupled to sulfate reduction; dysbiotic byproduct
+
+**Disease pages:**
+- [[Gastric-ulcer]], [[gastric-adenocarcinoma]] — H. pylori-driven diseases where NiFe-hydrogenase enables microaerophilic survival
+- **SIBO**, **methane-predominant dysbiosis** — conditions with elevated [[Methanobrevibacter-smithii|M. smithii]] and H₂-consuming activity

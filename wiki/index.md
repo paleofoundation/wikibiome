@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Catalog of all pages in this wiki. Updated 2026-04-10. Total: 743 sources, 95 entities (17 metals, 60 microbes, 18 diseases), 44 concepts, 2 analyses, 5 signatures, 5 interventions, 7 STOPs.
+> Catalog of all pages in this wiki. Updated 2026-04-10. Total: 743 sources, 95 entities (17 metals, 60 microbes, 18 diseases), 44 concepts, 2 analyses, 6 signatures, 5 interventions, 7 STOPs.
 
 ---
 
@@ -200,10 +200,11 @@
 
 ---
 
-## Disease Signatures (5)
+## Disease Signatures (6)
 
 | Signature | Description |
 |-----------|-------------|
+| [[major-depressive-disorder]] | 18-paper signature (partial cureva_status). Gut-brain axis neuropsychiatric disease driven by tryptophan metabolism dysregulation and SCFA depletion. Metallomic: Cd/Pb/Hg elevated; Zn/Mg/Fe/Se depleted. Enriched taxa: Candida (biofilm, barrier disruption), Clostridium (pro-inflammatory metabolites), Bacteroides/E. coli (LPS); Depleted: Faecalibacterium, Bifidobacterium, Lachnospiraceae (SCFA producers). All 9 primitives active. |
 | [[multiple-sclerosis]] | 17-paper signature (partial cureva_status). Metallomic: Ni, Cd, Pb, Al, As elevated. Neuroinflammatory demyelinating disease driven by metal-dependent dysbiosis with 3:1 female predominance. All 9 primitives active. Validated interventions: ketogenic diet, B-cell depletion therapy. STOPs: iron supplementation, SCFA replacement without dysbiosis restoration. |
 | [[endometriosis]] | First complete signature (28 papers). All 9 primitives active. Metallomic: Ni (77.8%), Fe (70.4%), Pb (59.3%) elevated. Validated interventions: low-Ni diet, EcN 1917, lactoferrin, NAC. |
 | [[crohns-disease]] | Built from 129 papers. Metal dyshomeostasis drives ecological collapse. ZIP8 A391T demonstrates dysbiosis precedes inflammation. F. prausnitzii depletion most consistent. STOPs: oral iron, broad-spectrum antibiotics. |
