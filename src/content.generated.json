@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-04-10T17:23:41.880Z",
+  "_generated": "2026-04-10T18:07:26.720Z",
   "_platform": "all",
   "_stats": {
-    "sources": 915,
-    "entities": 119,
+    "sources": 961,
+    "entities": 120,
     "concepts": 74,
     "signatures": 13,
     "interventions": 5,
     "stops": 7,
     "analyses": 2,
-    "totalPages": 221
+    "totalPages": 222
   },
   "pages": [
     {
@@ -1752,6 +1752,7 @@
       ],
       "sourceDir": "entities",
       "backlinks": [
+        "pancreatic-cancer",
         "metallomics"
       ],
       "related": [
@@ -1768,19 +1769,19 @@
           "score": 8
         },
         {
+          "id": "fusobacterium",
+          "score": 7
+        },
+        {
+          "id": "porphyromonas",
+          "score": 7
+        },
+        {
           "id": "cardiovascular-disease",
           "score": 5
         },
         {
-          "id": "fusobacterium",
-          "score": 5
-        },
-        {
           "id": "peptostreptococcus",
-          "score": 5
-        },
-        {
-          "id": "porphyromonas",
           "score": 5
         },
         {
@@ -3289,6 +3290,10 @@
           "score": 16
         },
         {
+          "id": "pancreatic-cancer",
+          "score": 14
+        },
+        {
           "id": "alzheimers-disease",
           "score": 12
         },
@@ -3298,10 +3303,6 @@
         },
         {
           "id": "type-2-diabetes",
-          "score": 12
-        },
-        {
-          "id": "oxidative-stress",
           "score": 12
         }
       ]
@@ -3777,6 +3778,7 @@
         "lead",
         "mercury",
         "nickel",
+        "pancreatic-cancer",
         "parkinsons-disease",
         "pcos",
         "prevotella",
@@ -3803,15 +3805,15 @@
       "related": [
         {
           "id": "iron",
-          "score": 71
+          "score": 73
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 56
+          "score": 58
         },
         {
           "id": "copper",
-          "score": 50
+          "score": 52
         },
         {
           "id": "mercury",
@@ -3819,7 +3821,7 @@
         },
         {
           "id": "dysbiosis",
-          "score": 44
+          "score": 46
         },
         {
           "id": "inflammation",
@@ -4108,6 +4110,7 @@
         "leptotrichia",
         "malassezia",
         "oscillospiraceae",
+        "pancreatic-cancer",
         "proteus-mirabilis",
         "saccharomyces-cerevisiae",
         "torulaspora",
@@ -4159,8 +4162,8 @@
           "score": 21
         },
         {
-          "id": "roseburia",
-          "score": 19
+          "id": "colorectal-cancer",
+          "score": 20
         }
       ]
     },
@@ -5976,6 +5979,7 @@
         "leptotrichia",
         "odoribacter",
         "oscillospiraceae",
+        "pancreatic-cancer",
         "parabacteroides",
         "parvimonas-micra",
         "parvimonas",
@@ -5998,16 +6002,16 @@
       ],
       "related": [
         {
+          "id": "iron",
+          "score": 59
+        },
+        {
           "id": "cardiovascular-disease",
           "score": 57
         },
         {
-          "id": "iron",
-          "score": 57
-        },
-        {
           "id": "dysbiosis",
-          "score": 52
+          "score": 54
         },
         {
           "id": "inflammation",
@@ -6280,6 +6284,7 @@
         "methanobrevibacter",
         "molybdenum",
         "mycobacterium-tuberculosis",
+        "pancreatic-cancer",
         "parkinsons-disease",
         "pcos",
         "postpartum-depression",
@@ -6299,7 +6304,7 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 74
+          "score": 76
         },
         {
           "id": "mercury",
@@ -6310,12 +6315,12 @@
           "score": 34
         },
         {
-          "id": "nutritional-immunity",
-          "score": 30
+          "id": "ferroptosis",
+          "score": 31
         },
         {
-          "id": "ferroptosis",
-          "score": 29
+          "id": "nutritional-immunity",
+          "score": 30
         },
         {
           "id": "dietary-metal-paradoxes",
@@ -9416,6 +9421,7 @@
       "sourceDir": "entities",
       "backlinks": [
         "dorea",
+        "pancreatic-cancer",
         "parvimonas-micra",
         "peptostreptococcus",
         "porphyromonas",
@@ -9429,7 +9435,11 @@
         },
         {
           "id": "porphyromonas",
-          "score": 10
+          "score": 12
+        },
+        {
+          "id": "aspergillus",
+          "score": 7
         },
         {
           "id": "escherichia-coli",
@@ -9449,10 +9459,6 @@
         },
         {
           "id": "nf-kappa-b",
-          "score": 6
-        },
-        {
-          "id": "short-chain-fatty-acids",
           "score": 6
         }
       ]
@@ -10231,7 +10237,7 @@
           "score": 13
         },
         {
-          "id": "type-2-diabetes",
+          "id": "pancreatic-cancer",
           "score": 11
         }
       ]
@@ -11358,6 +11364,7 @@
         "nickel",
         "oscillospiraceae",
         "oxalobacter",
+        "pancreatic-cancer",
         "parkinsons-disease",
         "parvimonas-micra",
         "peptostreptococcus-stomatis",
@@ -11415,15 +11422,15 @@
       "related": [
         {
           "id": "zinc",
-          "score": 127
+          "score": 129
         },
         {
           "id": "dysbiosis",
-          "score": 91
+          "score": 93
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 76
+          "score": 78
         },
         {
           "id": "inflammation",
@@ -11435,15 +11442,15 @@
         },
         {
           "id": "oxidative-stress",
-          "score": 64
+          "score": 66
         },
         {
           "id": "metal-disease-matrix",
-          "score": 60
+          "score": 62
         },
         {
           "id": "colorectal-cancer",
-          "score": 57
+          "score": 59
         }
       ]
     },
@@ -16017,6 +16024,233 @@
       ]
     },
     {
+      "id": "pancreatic-cancer",
+      "title": "Pancreatic Cancer",
+      "type": "entity",
+      "category": "disease",
+      "tags": [
+        "cancer",
+        "pancreatic-cancer",
+        "PDAC",
+        "copper",
+        "zinc",
+        "calcium",
+        "magnesium",
+        "cadmium",
+        "metallomics",
+        "microbiome",
+        "oral-microbiome",
+        "mycobiome",
+        "virome",
+        "metabolomics",
+        "Mendelian-randomization",
+        "probiotics",
+        "synbiotics",
+        "ferroptosis",
+        "metal-carcinogenesis"
+      ],
+      "sources": [
+        "schilling-2020-urine-metallomics-pancreatic-cancer",
+        "zhang-2022-metallomics-cancer-review",
+        "meng-2025-oral-bacterial-fungal-microbiome-pancreatic-cancer-risk",
+        "guo-2021-tumor-microbiome-basal-like-pdac",
+        "luo-2025-microbiome-metabolome-interplay-pancreatic-cancer",
+        "kita-2020-ferrichrome-probiotics-pancreatic-cancer",
+        "daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac",
+        "jiang-2023-mendelian-randomization-gut-microbiota-pancreatic-cancer",
+        "wei-2022-oral-mycobiota-pancreatic-adenocarcinoma",
+        "zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis",
+        "maher-2024-synbiotics-immunomodulation-pdac-resection",
+        "liu-2026-gut-virome-anti-pd1-nsclc",
+        "li-2020-gut-microbiota-roles-pancreatic-cancer",
+        "kobayashi-2013-serum-metabolomics-pancreatic-cancer",
+        "lee-2019-bcaa-pancreatic-cancer-lipid-metabolism",
+        "li-2023-phage-based-peptides-pancreatic-cancer",
+        "berrington-2003-obesity-pancreatic-cancer-meta-analysis",
+        "huxley-2005-diabetes-pancreatic-cancer-meta-analysis",
+        "wang-2015-dietary-fiber-pancreatic-cancer-risk-meta-analysis",
+        "zhou-2010-quercetin-pancreatic-cancer-stem-cells",
+        "yamamura-2025-fmt-therapeutic-strategy-pancreatic-cancer",
+        "han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer"
+      ],
+      "created": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-04-09T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Pancreatic Cancer",
+        "type": "entity",
+        "subtype": "disease",
+        "created": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-04-09T00:00:00.000Z",
+        "sources": [
+          "schilling-2020-urine-metallomics-pancreatic-cancer",
+          "zhang-2022-metallomics-cancer-review",
+          "meng-2025-oral-bacterial-fungal-microbiome-pancreatic-cancer-risk",
+          "guo-2021-tumor-microbiome-basal-like-pdac",
+          "luo-2025-microbiome-metabolome-interplay-pancreatic-cancer",
+          "kita-2020-ferrichrome-probiotics-pancreatic-cancer",
+          "daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac",
+          "jiang-2023-mendelian-randomization-gut-microbiota-pancreatic-cancer",
+          "wei-2022-oral-mycobiota-pancreatic-adenocarcinoma",
+          "zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis",
+          "maher-2024-synbiotics-immunomodulation-pdac-resection",
+          "liu-2026-gut-virome-anti-pd1-nsclc",
+          "li-2020-gut-microbiota-roles-pancreatic-cancer",
+          "kobayashi-2013-serum-metabolomics-pancreatic-cancer",
+          "lee-2019-bcaa-pancreatic-cancer-lipid-metabolism",
+          "li-2023-phage-based-peptides-pancreatic-cancer",
+          "berrington-2003-obesity-pancreatic-cancer-meta-analysis",
+          "huxley-2005-diabetes-pancreatic-cancer-meta-analysis",
+          "wang-2015-dietary-fiber-pancreatic-cancer-risk-meta-analysis",
+          "zhou-2010-quercetin-pancreatic-cancer-stem-cells",
+          "yamamura-2025-fmt-therapeutic-strategy-pancreatic-cancer",
+          "han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer"
+        ],
+        "tags": [
+          "cancer",
+          "pancreatic-cancer",
+          "PDAC",
+          "copper",
+          "zinc",
+          "calcium",
+          "magnesium",
+          "cadmium",
+          "metallomics",
+          "microbiome",
+          "oral-microbiome",
+          "mycobiome",
+          "virome",
+          "metabolomics",
+          "Mendelian-randomization",
+          "probiotics",
+          "synbiotics",
+          "ferroptosis",
+          "metal-carcinogenesis"
+        ]
+      },
+      "overview": "",
+      "sections": [
+        {
+          "heading": "Overview",
+          "level": 2,
+          "body": "Pancreatic cancer is the fifth leading cause of cancer death in Western nations, with rising incidence globally. Pancreatic ductal adenocarcinoma (PDAC) accounts for over 90% of cases. Five-year survival remains approximately 12%, owing to late-stage diagnosis, aggressive biology, and therapeutic resistance. Risk factors include obesity, type 2 diabetes, chronic pancreatitis, smoking, and periodontal disease. The convergence of [[metallomics]], microbiome, and metabolomic evidence now positions pancreatic cancer as a paradigm case for multi-omic biomarker discovery within the [[gut-metal-microbiome]] axis."
+        },
+        {
+          "heading": "Metallomic Signature",
+          "level": 2,
+          "body": "The landmark study by Schilling et al. (2020) demonstrated that a combined urinary panel of [[copper|Ca]], Mg, [[zinc|Zn]], and [[copper|Cu]] achieves AUC 0.99 (sensitivity 95.2%, specificity 97.8%) for PDAC detection -- among the highest metallomic diagnostic performances reported for any cancer.\n\n| Metal | Direction | Key Evidence |\n|-------|-----------|-------------|\n| **[[copper\\|Cu]]** | Elevated (urine, serum) | ATP7A overexpression in PDAC; Cu increased across cancer types as a near-universal biomarker |\n| **[[zinc\\|Zn]]** | Elevated (urine), depleted (tissue) | Disrupted ZnT/ZIP transporters (ZIP3, SLC30A); Zn isotope fractionation as novel biomarker |\n| **Ca** | Decreased (urine) | S100 protein dysregulation; AUC 0.796 individually |\n| **Mg** | Decreased (urine) | Disrupted cell proliferation and protein synthesis; AUC 0.783 individually |\n| **[[cadmium\\|Cd]]** | Elevated | Zhang 2022 review confirms Cd increase in pancreatic cancer tissue |\n| **Se** | Depleted | Impaired selenoprotein antioxidant defense |\n\nZinc isotope fractionation represents a novel biomarker dimension: PDAC patients excrete isotopically light Zn (median delta-66/64-Zn = -0.15 per mille vs +0.02 in controls, p=0.002), reflecting metalloprotein dysregulation. The healthy Zn concentration-to-Cu ratio correlation (r2=0.66) is completely abolished in PDAC (r2=0.0002), indicating fundamental disruption of metal homeostasis relevant to [[metal-carcinogenesis]] and [[oxidative-stress]]."
+        },
+        {
+          "heading": "Tumor Microbiome",
+          "level": 2,
+          "body": "PDAC tumors harbor intratumoral bacteria, confirmed by 16S rRNA FISH and LPS immunohistochemistry. Gammaproteobacteria dominate, with *Pseudomonas* as the predominant genus. Tumor microbiome composition varies by PDAC molecular subtype: basal-like tumors are enriched in *Acinetobacter*, *Pseudomonas*, and *Sphingopyxis*, predicting significantly worse survival. Bacterial CDD (cytidine deaminase) enzyme metabolizes gemcitabine into its inactive form, mediating chemotherapy resistance -- a direct mechanism linking [[dysbiosis]] to treatment failure."
+        },
+        {
+          "heading": "Oral Microbiome Connection",
+          "level": 2,
+          "body": "The JAMA Oncology study by Meng et al. (2025) -- a nested case-control within 122,000 individuals (445 PC cases, median 8.8-year follow-up) -- established the oral microbiome as a prospective predictor of pancreatic cancer. A microbial risk score (MRS) combining 27 bacterial and fungal species conferred 3.44-fold increased PC risk per 1-SD increase (95% CI 2.63-4.51). Key pathogens include [[porphyromonas|P. gingivalis]], [[fusobacterium|E. nodatum]], P. micra (red/orange complex periodontal pathogens), and [[candida-albicans|Candida tropicalis]]. This oral-pancreatic axis may operate through hematogenous or biliary translocation of pathobionts and their inflammatory mediators."
+        },
+        {
+          "heading": "Gut Microbiome",
+          "level": 2,
+          "body": "Gut [[dysbiosis]] drives pancreatic carcinogenesis through persistent low-grade inflammation. LPS from Gram-negative bacteria activates NF-kB and MAPK signaling, while SCFA imbalance removes protective anti-inflammatory signals. [[bile-acid-metabolism]] alterations are central: deoxycholic acid promotes DNA damage via EGFR ligand amphiregulin. Obesity and type 2 diabetes -- both established PC risk factors -- converge on gut dysbiosis with decreased microbial diversity, increased Firmicutes/Bacteroidetes ratio, and procarcinogenic metabolite production."
+        },
+        {
+          "heading": "Mendelian Randomization Evidence",
+          "level": 2,
+          "body": "Two-sample MR studies provide causal evidence for microbiome-PC relationships. Jiang et al. (2023) identified *Senegalimassilia* as protective (OR 0.635) and *Odoribacter* (OR 1.899), *Streptococcus* (OR 1.712), and *Ruminiclostridium9* (OR 1.976) as risk-increasing. Daniel et al. (2024) -- the largest MR study to date (8,769 cases) -- found mannitol (OR 0.97) and methionine (OR 0.97) as causally protective metabolites, while carnitine and hippuric acid increased risk. *Romboutsia* (OR 0.87) was confirmed as protective across multiple sensitivity analyses."
+        },
+        {
+          "heading": "Mycobiome",
+          "level": 2,
+          "body": "Oral and gut fungal communities are markedly altered in PDAC. [[aspergillus|Aspergillus]] achieves AUC 0.983 as a salivary biomarker for PDAC, with Cladosporium at AUC 0.969. PDAC patients show dramatically expanded oral fungal diversity (5,022 vs 830 OTUs) with decreased Shannon diversity. In acute pancreatitis -- a PC precursor -- [[candida-albicans|Candida]] dominates the fecal mycobiome at 61%, with Aspergillus-WBC correlations suggesting fungal-driven inflammatory amplification. These findings from the [[gut-metal-microbiome]] framework connect fungal [[iron]] dependence to metal-driven mycobiome shifts."
+        },
+        {
+          "heading": "Metabolomics",
+          "level": 2,
+          "body": "Serum metabolomics achieves AUC 0.93 for PC detection using four metabolites (xylitol, 1,5-anhydro-D-glucitol, histidine, inositol), outperforming CA19-9 in early-stage disease (sensitivity 77.8% vs 55.6%). Amino acid metabolism is profoundly disrupted in PDAC tumors: BCAAs (leucine, isoleucine, valine) sustain PDAC growth by fueling lipogenesis through BCAT2/BCKDHA, independent of glycolysis. Intratumoral metabolomics identifies 298 significantly altered metabolites, with amino acid dipeptides and arginine metabolism pathways most dysregulated -- correlating with *Pseudomonas* abundance."
+        },
+        {
+          "heading": "Virome",
+          "level": 2,
+          "body": "Gut virome composition predicts immunotherapy response with AUC 0.768 (outperforming bacterium-only models at AUC 0.664). Responder-enriched bacteriophages target *Faecalibacterium* and *Roseburia* (SCFA producers), while non-responder phages target *Clostridium* and *Bacteroides*. Phage-based therapeutic peptides targeting PDAC represent an emerging strategy."
+        },
+        {
+          "heading": "Diet and Risk Factors",
+          "level": 2,
+          "body": "Obesity increases PC risk (meta-analysis by Berrington et al. 2003), and diabetes confers significant additional risk (Huxley et al. 2005 meta-analysis: RR 1.82). Dietary fiber is protective (Wang et al. 2015 meta-analysis). Polyphenols -- particularly quercetin -- inhibit pancreatic cancer stem cell self-renewal and attenuate sonic hedgehog and beta-catenin signaling. These dietary factors operate partly through modulation of the [[gut-metal-microbiome]] and [[bile-acid-metabolism]]."
+        },
+        {
+          "heading": "Therapeutics",
+          "level": 2,
+          "body": "- **Probiotics**: Ferrichrome from *Lactobacillus casei* induces p53-mediated apoptosis in PDAC cells including 5-FU-resistant lines; 10 mg/kg reduces xenograft tumor volume significantly. Connects to [[iron]] biology through siderophore-mediated metal chelation and [[ferroptosis]] pathways.\n- **Synbiotics RCT**: Maher et al. (2024) demonstrated synbiotics (probiotics + inulin) elevated CD8+ T cells to 61.5% (vs 15.8% placebo) and reduced postoperative bacteremia in a 90-patient RCT (NCT06199752).\n- **FMT**: Fecal microbiota transplantation from long-term PDAC survivors enhances anti-tumor immunity in preclinical models.\n- **Gallium-polyphenol nanoparticles**: LGG-loaded gallium-polyphenol constructs reprogram intratumoral microbiota and tumor immune microenvironment.\n- **Phage therapy**: Phage-based peptides show selective PDAC targeting in preclinical models."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[metallomics]] | [[metal-disease-matrix]] | [[metal-carcinogenesis]]\n- [[iron]] | [[zinc]] | [[copper]] | [[cadmium]] | [[ferroptosis]] | [[oxidative-stress]]\n- [[dysbiosis]] | [[gut-metal-microbiome]] | [[bile-acid-metabolism]]\n- [[fusobacterium]] | [[porphyromonas]] | [[candida-albicans]] | [[aspergillus]]\n- [[colorectal-cancer]] | [[comorbidities]]"
+        }
+      ],
+      "wikilinks": [
+        "metallomics",
+        "gut-metal-microbiome",
+        "copper",
+        "zinc",
+        "copper\\",
+        "zinc\\",
+        "cadmium\\",
+        "metal-carcinogenesis",
+        "oxidative-stress",
+        "dysbiosis",
+        "porphyromonas",
+        "fusobacterium",
+        "candida-albicans",
+        "bile-acid-metabolism",
+        "aspergillus",
+        "iron",
+        "ferroptosis",
+        "metal-disease-matrix",
+        "cadmium",
+        "colorectal-cancer",
+        "comorbidities"
+      ],
+      "sourceDir": "entities",
+      "backlinks": [],
+      "related": [
+        {
+          "id": "breast-cancer",
+          "score": 14
+        },
+        {
+          "id": "cardiovascular-disease",
+          "score": 13
+        },
+        {
+          "id": "crohns-disease",
+          "score": 11
+        },
+        {
+          "id": "hashimotos-thyroiditis",
+          "score": 11
+        },
+        {
+          "id": "alzheimers-disease",
+          "score": 9
+        },
+        {
+          "id": "graves-disease",
+          "score": 9
+        },
+        {
+          "id": "pcos",
+          "score": 9
+        },
+        {
+          "id": "postpartum-depression",
+          "score": 9
+        }
+      ]
+    },
+    {
       "id": "parabacteroides",
       "title": "Parabacteroides",
       "type": "entity",
@@ -18025,6 +18259,7 @@
       ],
       "sourceDir": "entities",
       "backlinks": [
+        "pancreatic-cancer",
         "peptostreptococcus",
         "veillonella",
         "atherosclerosis",
@@ -18032,6 +18267,10 @@
         "microbial-biomarkers"
       ],
       "related": [
+        {
+          "id": "dysbiosis",
+          "score": 10
+        },
         {
           "id": "actinomyces",
           "score": 9
@@ -18045,24 +18284,20 @@
           "score": 8
         },
         {
-          "id": "dysbiosis",
+          "id": "oxidative-stress",
           "score": 8
+        },
+        {
+          "id": "aspergillus",
+          "score": 7
         },
         {
           "id": "veillonella",
           "score": 7
         },
         {
-          "id": "oxidative-stress",
-          "score": 6
-        },
-        {
           "id": "short-chain-fatty-acids",
           "score": 6
-        },
-        {
-          "id": "aspergillus",
-          "score": 5
         }
       ]
     },
@@ -18243,15 +18478,15 @@
           "score": 9
         },
         {
+          "id": "pancreatic-cancer",
+          "score": 9
+        },
+        {
           "id": "parkinsons-disease",
           "score": 9
         },
         {
           "id": "autism-spectrum-disorder",
-          "score": 7
-        },
-        {
-          "id": "breast-cancer",
           "score": 7
         }
       ]
@@ -23164,6 +23399,7 @@
         "nickel",
         "oscillospiraceae",
         "oxalobacter",
+        "pancreatic-cancer",
         "parkinsons-disease",
         "pcos",
         "porphyromonas-gingivalis",
@@ -23211,11 +23447,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 127
+          "score": 129
         },
         {
           "id": "metal-disease-matrix",
-          "score": 75
+          "score": 77
         },
         {
           "id": "nutritional-immunity",
@@ -23227,7 +23463,7 @@
         },
         {
           "id": "dysbiosis",
-          "score": 47
+          "score": 49
         },
         {
           "id": "selenium",
@@ -23238,7 +23474,7 @@
           "score": 31
         },
         {
-          "id": "inflammation",
+          "id": "ferroptosis",
           "score": 31
         }
       ]
@@ -23931,6 +24167,7 @@
         "alloprevotella",
         "hypertension",
         "obesity",
+        "pancreatic-cancer",
         "bile-acids",
         "enterohepatic-circulation"
       ],
@@ -24347,6 +24584,10 @@
           "score": 5
         },
         {
+          "id": "pancreatic-cancer",
+          "score": 4
+        },
+        {
           "id": "developmental-metal-vulnerability",
           "score": 4
         },
@@ -24360,10 +24601,6 @@
         },
         {
           "id": "inflammation",
-          "score": 4
-        },
-        {
-          "id": "matrix-metalloproteases",
           "score": 4
         }
       ]
@@ -24992,7 +25229,8 @@
       ],
       "sourceDir": "concepts",
       "backlinks": [
-        "hashimotos-thyroiditis"
+        "hashimotos-thyroiditis",
+        "pancreatic-cancer"
       ],
       "related": [
         {
@@ -25001,10 +25239,18 @@
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 7
+          "score": 9
+        },
+        {
+          "id": "copper",
+          "score": 6
         },
         {
           "id": "gut-microbiome",
+          "score": 6
+        },
+        {
+          "id": "colorectal-cancer",
           "score": 6
         },
         {
@@ -25018,14 +25264,6 @@
         {
           "id": "cardiovascular-disease",
           "score": 5
-        },
-        {
-          "id": "allisonella",
-          "score": 4
-        },
-        {
-          "id": "copper",
-          "score": 4
         }
       ]
     },
@@ -25601,6 +25839,7 @@
         "odoribacter",
         "oscillospiraceae",
         "oxalobacter",
+        "pancreatic-cancer",
         "parabacteroides",
         "parasutterella",
         "parvimonas-micra",
@@ -25647,7 +25886,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 91
+          "score": 93
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -25667,15 +25906,15 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 52
+          "score": 54
         },
         {
           "id": "colorectal-cancer",
-          "score": 50
+          "score": 52
         },
         {
-          "id": "nickel",
-          "score": 47
+          "id": "zinc",
+          "score": 49
         }
       ]
     },
@@ -26888,6 +27127,7 @@
         "inflammatory-bowel-disease",
         "iron",
         "manganese",
+        "pancreatic-cancer",
         "parkinsons-disease",
         "selenium",
         "developmental-metal-vulnerability",
@@ -26910,7 +27150,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 56
+          "score": 58
         },
         {
           "id": "parkinsons-disease",
@@ -26922,23 +27162,23 @@
         },
         {
           "id": "metal-disease-matrix",
-          "score": 30
+          "score": 32
         },
         {
           "id": "copper",
-          "score": 29
+          "score": 31
         },
         {
           "id": "zinc",
-          "score": 29
+          "score": 31
+        },
+        {
+          "id": "cadmium",
+          "score": 28
         },
         {
           "id": "mercury",
           "score": 28
-        },
-        {
-          "id": "cadmium",
-          "score": 26
         }
       ]
     },
@@ -27849,6 +28089,7 @@
         "nickel",
         "obesity",
         "oxalobacter",
+        "pancreatic-cancer",
         "postpartum-depression",
         "rheumatoid-arthritis",
         "roseburia",
@@ -27883,7 +28124,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 97
+          "score": 99
         },
         {
           "id": "nickel",
@@ -27891,7 +28132,7 @@
         },
         {
           "id": "iron",
-          "score": 76
+          "score": 78
         },
         {
           "id": "inflammation",
@@ -27899,14 +28140,14 @@
         },
         {
           "id": "cadmium",
-          "score": 56
-        },
-        {
-          "id": "lead",
-          "score": 53
+          "score": 58
         },
         {
           "id": "zinc",
+          "score": 55
+        },
+        {
+          "id": "lead",
           "score": 53
         },
         {
@@ -30523,6 +30764,7 @@
         "lead",
         "mercury",
         "nickel",
+        "pancreatic-cancer",
         "zinc",
         "DNA-damage",
         "epigenetic-modifications",
@@ -30537,15 +30779,15 @@
       "related": [
         {
           "id": "cadmium",
-          "score": 16
+          "score": 18
         },
         {
           "id": "zinc",
-          "score": 16
+          "score": 18
         },
         {
           "id": "iron",
-          "score": 15
+          "score": 17
         },
         {
           "id": "lead",
@@ -30560,11 +30802,11 @@
           "score": 13
         },
         {
-          "id": "mercury",
-          "score": 10
+          "id": "gut-metal-microbiome",
+          "score": 11
         },
         {
-          "id": "metal-dependent-virulence",
+          "id": "colorectal-cancer",
           "score": 10
         }
       ]
@@ -31417,6 +31659,7 @@
         "aluminum",
         "copper",
         "nickel",
+        "pancreatic-cancer",
         "selenium",
         "zinc",
         "biomarkers",
@@ -31433,10 +31676,18 @@
       "related": [
         {
           "id": "iron",
-          "score": 31
+          "score": 33
         },
         {
           "id": "zinc",
+          "score": 31
+        },
+        {
+          "id": "copper",
+          "score": 29
+        },
+        {
+          "id": "metal-disease-matrix",
           "score": 29
         },
         {
@@ -31444,23 +31695,15 @@
           "score": 28
         },
         {
-          "id": "copper",
-          "score": 27
-        },
-        {
-          "id": "metal-disease-matrix",
-          "score": 27
-        },
-        {
           "id": "oxidative-stress",
-          "score": 23
+          "score": 25
         },
         {
           "id": "selenium",
           "score": 22
         },
         {
-          "id": "manganese",
+          "id": "cadmium",
           "score": 17
         }
       ]
@@ -31590,6 +31833,10 @@
           "score": 5
         },
         {
+          "id": "pancreatic-cancer",
+          "score": 4
+        },
+        {
           "id": "blood-brain-barrier",
           "score": 4
         },
@@ -31599,10 +31846,6 @@
         },
         {
           "id": "indoles",
-          "score": 4
-        },
-        {
-          "id": "matrix-metalloproteases",
           "score": 4
         }
       ]
@@ -33884,6 +34127,7 @@
         "mercury",
         "molybdenum",
         "nickel",
+        "pancreatic-cancer",
         "parkinsons-disease",
         "pcos",
         "peptostreptococcus",
@@ -33915,11 +34159,11 @@
       "related": [
         {
           "id": "metal-disease-matrix",
-          "score": 52
+          "score": 54
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 45
+          "score": 47
         },
         {
           "id": "inflammation",
@@ -33935,7 +34179,7 @@
         },
         {
           "id": "dysbiosis",
-          "score": 33
+          "score": 35
         },
         {
           "id": "gut-brain-axis",
@@ -37952,6 +38196,7 @@
         "leptotrichia",
         "odoribacter",
         "oscillospiraceae",
+        "pancreatic-cancer",
         "parabacteroides",
         "parvimonas-micra",
         "parvimonas",
@@ -37975,11 +38220,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 52
+          "score": 54
         },
         {
           "id": "dysbiosis",
-          "score": 50
+          "score": 52
         },
         {
           "id": "cardiovascular-disease",
@@ -38002,8 +38247,8 @@
           "score": 28
         },
         {
-          "id": "obesity",
-          "score": 25
+          "id": "gut-metal-microbiome",
+          "score": 26
         }
       ]
     },
@@ -43792,6 +44037,7 @@
         "graves-disease",
         "hashimotos-thyroiditis",
         "multiple-sclerosis",
+        "pancreatic-cancer",
         "parkinsons-disease",
         "pcos",
         "postpartum-depression",
@@ -43802,7 +44048,7 @@
       "related": [
         {
           "id": "oxidative-stress",
-          "score": 52
+          "score": 54
         },
         {
           "id": "dietary-metal-paradoxes",
@@ -43826,7 +44072,7 @@
         },
         {
           "id": "ferroptosis",
-          "score": 30
+          "score": 32
         },
         {
           "id": "pcos",
@@ -44328,6 +44574,12 @@
         "label": "Oxalobacter",
         "category": "microbe",
         "sourceCount": 6
+      },
+      {
+        "id": "pancreatic-cancer",
+        "label": "Pancreatic Cancer",
+        "category": "disease",
+        "sourceCount": 22
       },
       {
         "id": "parabacteroides",
@@ -48572,6 +48824,78 @@
       {
         "source": "oxalobacter",
         "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "metallomics"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "gut-metal-microbiome"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "copper"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "zinc"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "metal-carcinogenesis"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "dysbiosis"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "porphyromonas"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "fusobacterium"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "candida-albicans"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "bile-acid-metabolism"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "aspergillus"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "iron"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "ferroptosis"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "metal-disease-matrix"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "cadmium"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "colorectal-cancer"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "comorbidities"
       },
       {
         "source": "parabacteroides",
@@ -56190,6 +56514,17 @@
       "journal": "Journal of Clinical and Experimental Dermatology Research",
       "doi": "10.4172/2155-9554.1000356"
     },
+    "berrington-2003-obesity-pancreatic-cancer-meta-analysis": {
+      "title": "A meta-analysis of obesity and the risk of pancreatic cancer",
+      "authors": [
+        "A. Berrington de Gonzalez",
+        "S. Sweetland",
+        "E. Spencer"
+      ],
+      "year": 2003,
+      "journal": "British Journal of Cancer",
+      "doi": "10.1038/sj.bjc.6601140"
+    },
     "bezawada-2020-asd-gut-microbiota-children-systematic-review": {
       "title": "Bezawada 2020 — Autism Spectrum Disorder and the Gut Microbiota in Children: A Systematic Review",
       "authors": [
@@ -56953,6 +57288,35 @@
       "journal": "npj Parkinson's Disease",
       "doi": "10.1038/s41531-024-00816-w"
     },
+    "chen-2025-inflammation-microbiota-pancreatic-cancer": {
+      "title": "Inflammation, microbiota, and pancreatic cancer",
+      "authors": [
+        "XiaoLiang Chen",
+        "Feixia Sun",
+        "Xuqin Wang",
+        "Xiaoqiang Feng",
+        "Amir Reza Aref",
+        "Yu Tian",
+        "Milad Ashrafizadeh",
+        "Dengfeng Wu"
+      ],
+      "year": 2025,
+      "journal": "Cancer Cell International",
+      "doi": "10.1186/s12935-025-03673-6"
+    },
+    "chen-2025-mendelian-randomization-gut-microbiome-pnets": {
+      "title": "A systematic Mendelian randomized study of the effects of the gut microbiome and immune cells on pancreatic neuroendocrine tumors",
+      "authors": [
+        "Fangsheng Chen",
+        "Yuan Zhou",
+        "Xinwen Mao",
+        "Ronggui Lin",
+        "Heguang Huang"
+      ],
+      "year": 2025,
+      "journal": "Discover Oncology",
+      "doi": "10.1007/s12672-025-02761-3"
+    },
     "cheng-2021-cadmium-enterococcus-metabolic": {
       "title": "Cadmium stress triggers significant metabolic reprogramming in Enterococcus faecium CX 2-6",
       "authors": [
@@ -57355,6 +57719,26 @@
       "year": 2024,
       "journal": "BioData Mining",
       "doi": "10.1186/s13040-024-00356-2"
+    },
+    "daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac": {
+      "title": "Genetically predicted gut bacteria, circulating bacteria-associated metabolites and pancreatic ductal adenocarcinoma: a Mendelian randomisation study",
+      "authors": [
+        "Neil Daniel",
+        "Riccardo Farinella",
+        "Anastasia Chrysovalantou Chatziioannou",
+        "Mazda Jenab",
+        "Ana-Lucia Mayen",
+        "Cosmeri Rizzato",
+        "Flavia Belluomini",
+        "Federico Canzian",
+        "Arianna Tavanti",
+        "Pekka Keski-Rahkonen",
+        "David J. Hughes",
+        "Daniele Campa"
+      ],
+      "year": 2024,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-024-77431-5"
     },
     "danziger-2022-susceptibility-heavy-metal-toxicity-ckd": {
       "title": "Susceptibility to Environmental Heavy Metal Toxicity among Americans with Kidney Disease",
@@ -58170,6 +58554,18 @@
       "journal": "Master's Thesis, University of Lisbon, Faculty of Pharmacy",
       "doi": ""
     },
+    "feitelson-2023-scfas-cancer-pathogenesis": {
+      "title": "Short-chain fatty acids in cancer pathogenesis",
+      "authors": [
+        "Mark A. Feitelson",
+        "Alla Arzumanyan",
+        "Arvin Medhat",
+        "Ira Spector"
+      ],
+      "year": 2023,
+      "journal": "Cancer and Metastasis Reviews",
+      "doi": "10.1007/s10555-023-10117-y"
+    },
     "feng-2023-probiotics-asd-gut-brain-axis-review": {
       "title": "Feng 2023 — Probiotics in Treatment of ASD: Gut-Brain Axis Perspectives",
       "authors": [
@@ -58504,6 +58900,27 @@
       "journal": "Inflammation and Regeneration",
       "doi": "10.1186/s41232-022-00218-6"
     },
+    "fukutake-2015-amino-acid-profile-pancreatic-cancer-detection": {
+      "title": "A Novel Multivariate Index for Pancreatic Cancer Detection Based On the Plasma Free Amino Acid Profile",
+      "authors": [
+        "Nobuyasu Fukutake",
+        "Makoto Ueno",
+        "Nobuyoshi Hiraoka",
+        "Kazuaki Shimada",
+        "Koichi Shiraishi",
+        "Nobuhiro Saruki",
+        "Toshifumi Ito",
+        "Minoru Yamakado",
+        "Nobukazu Ono",
+        "Akira Imaizumi",
+        "Shinya Kikuchi",
+        "Hiroshi Yamamoto",
+        "Kazuhiro Katayama"
+      ],
+      "year": 2015,
+      "journal": "PLOS ONE",
+      "doi": "10.1371/journal.pone.0132223"
+    },
     "gaetani-2020-tryptophan-metabolic-profiling-ms": {
       "title": "Host and Microbial Tryptophan Metabolic Profiling in Multiple Sclerosis",
       "authors": [
@@ -58709,6 +59126,27 @@
       "journal": "International Journal of Molecular Sciences",
       "doi": "10.3390/ijms21207471"
     },
+    "genton-2021-fmt-pancreatic-cancer-germ-free-mice": {
+      "title": "Metataxonomic and Metabolic Impact of Fecal Microbiota Transplantation From Patients With Pancreatic Cancer Into Germ-Free Mice: A Pilot Study",
+      "authors": [
+        "Laurence Genton",
+        "Vladimir Lazarevic",
+        "Ozren Stojanovic",
+        "Martina Spiljar",
+        "Souad Djaafar",
+        "Thibaud Koessler",
+        "Valerie Dutoit",
+        "Nadia Gaïa",
+        "Julie Mareschal",
+        "Andrew James Macpherson",
+        "Francois Herrmann",
+        "Mirko Trajkovski",
+        "Jacques Schrenzel"
+      ],
+      "year": 2021,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2021.752889"
+    },
     "gevi-2016-urinary-metabolomics-italian-autistic-tryptophan-purine": {
       "title": "Gevi 2016 — Urinary Metabolomics of Young Italian Autistic Children Supports Abnormal Tryptophan and Purine Metabolism",
       "authors": [
@@ -58831,6 +59269,16 @@
       "journal": "Frontiers in Environmental Science",
       "doi": "10.3389/fenvs.2021.604216"
     },
+    "gonzalez-sanchez-2021-microbiome-cancer-know-thy-neighbors": {
+      "title": "The microbiome(s) and cancer: know thy neighbor(s)",
+      "authors": [
+        "Paloma Gonzalez-Sanchez",
+        "Gina M. DeNicola"
+      ],
+      "year": 2021,
+      "journal": "Journal of Pathology",
+      "doi": "10.1002/path.5661"
+    },
     "gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements": {
       "title": "Baby Food Jars as a Dietary Source of Essential (K, Na, Ca, Mg, Fe, Zn, Cu, Co, Mo, Mn) and Toxic Elements (Al, Cd, Pb, B, Ba, V, Sr, Li, Ni)",
       "authors": [
@@ -58949,6 +59397,28 @@
       "journal": "International Research Journal of Public and Environmental Health",
       "doi": "10.15739/irjpeh.18.015"
     },
+    "guo-2021-tumor-microbiome-basal-like-pdac": {
+      "title": "Tumor microbiome contributes to an aggressive phenotype in the basal-like subtype of pancreatic cancer",
+      "authors": [
+        "Wei Guo",
+        "Yuchao Zhang",
+        "Shiwei Guo",
+        "Zi Mei",
+        "Huiping Liao",
+        "Hang Dong",
+        "Kai Wu",
+        "Haocheng Ye",
+        "Yuhang Zhang",
+        "Yufei Zhu",
+        "Jingyu Lang",
+        "Landian Hu",
+        "Gang Jin",
+        "Xiangyin Kong"
+      ],
+      "year": 2021,
+      "journal": "Communications Biology",
+      "doi": "10.1038/s42003-021-02557-5"
+    },
     "guthrie-2017-microbiome-signatures-crc-drug-metabolism": {
       "title": "Human microbiome signatures of differential colorectal cancer drug metabolism",
       "authors": [
@@ -59028,6 +59498,26 @@
       "journal": "Frontiers in Cellular Neuroscience",
       "doi": "10.3389/fncel.2024.1495224"
     },
+    "half-2019-fecal-microbiome-signatures-pancreatic-cancer": {
+      "title": "Fecal microbiome signatures of pancreatic cancer patients",
+      "authors": [
+        "Elizabeth Half",
+        "Nirit Keren",
+        "Leah Reshef",
+        "Tatiana Dorfman",
+        "Ishai Lachter",
+        "Yoram Kluger",
+        "Naama Reshef",
+        "Hilla Knobler",
+        "Yaakov Maor",
+        "Assaf Stein",
+        "Fred M. Konikoff",
+        "Uri Gophna"
+      ],
+      "year": 2019,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-019-53041-4"
+    },
     "han-2022-berberine-methimazole-graves-microbiome": {
       "title": "The Potential Prebiotic Berberine Combined With Methimazole Improved the Therapeutic Effect of Graves' Disease Patients Through Regulating the Intestinal Microbiome",
       "authors": [
@@ -59042,6 +59532,33 @@
       "year": 2022,
       "journal": "Frontiers in Immunology",
       "doi": "10.3389/fimmu.2021.826067"
+    },
+    "han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer": {
+      "title": "Probiotics functionalized with a gallium-polyphenol network modulate the intratumor microbiota and promote anti-tumor immune responses in pancreatic cancer",
+      "authors": [
+        "Zi-Yi Han",
+        "Zhuang-Jiong Fu",
+        "Yu-Zhang Wang",
+        "Cheng Zhang",
+        "Qi-Wen Chen",
+        "Jia-Xin An",
+        "Xian-Zheng Zhang"
+      ],
+      "year": 2024,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-024-51534-z"
+    },
+    "han-2025-multi-omics-gut-microbiota-pancreatic-cancer": {
+      "title": "A comprehensive multi-omics analysis uncovers the associations between gut microbiota and pancreatic cancer",
+      "authors": [
+        "Yang Han",
+        "Biyang Cao",
+        "Jiayue Tang",
+        "Jing Wang"
+      ],
+      "year": 2025,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2025.1592549"
     },
     "handel-2011-smoking-ms-meta-analysis": {
       "title": "Smoking and Multiple Sclerosis: An Updated Meta-Analysis",
@@ -59354,6 +59871,15 @@
       "year": 2025,
       "journal": "BJOG",
       "doi": "10.1111/1471-0528.17979"
+    },
+    "hidalgo-2010-pancreatic-cancer-nejm-review": {
+      "title": "Pancreatic Cancer",
+      "authors": [
+        "Manuel Hidalgo"
+      ],
+      "year": 2010,
+      "journal": "New England Journal of Medicine",
+      "doi": "10.1056/NEJMra0901557"
     },
     "hiremath-2021-zinc-ppd-case-control": {
       "title": "Correlation of Serum Zinc Levels with Postpartum Depression - A Case-control Study in North Karnataka",
@@ -59722,6 +60248,19 @@
       "journal": "Communications Biology",
       "doi": "10.1038/s42003-021-02587-z"
     },
+    "huxley-2005-diabetes-pancreatic-cancer-meta-analysis": {
+      "title": "Type-II diabetes and pancreatic cancer: a meta-analysis of 36 studies",
+      "authors": [
+        "R. Huxley",
+        "A. Ansary-Moghaddam",
+        "A. Berrington de Gonzalez",
+        "F. Barzi",
+        "M. Woodward"
+      ],
+      "year": 2005,
+      "journal": "British Journal of Cancer",
+      "doi": "10.1038/sj.bjc.6602619"
+    },
     "ibrahim-2022-aluminum-exposure-infant-formulas-lebanon": {
       "title": "Pediatric Health Risk Assessment for Exposure to Aluminum from Infant Formulas and Children under the Age of Five's Food Products among Arab Infants: Experience from Lebanon",
       "authors": [
@@ -60041,6 +60580,22 @@
       "year": 2023,
       "journal": "Frontiers in Immunology",
       "doi": "10.3389/fimmu.2023.1218678"
+    },
+    "jiang-2023-mendelian-randomization-gut-microbiota-pancreatic-cancer": {
+      "title": "Causal effect between gut microbiota and pancreatic cancer: a two-sample Mendelian randomization study",
+      "authors": [
+        "Zhichen Jiang",
+        "Yiping Mou",
+        "Huiju Wang",
+        "Li Li",
+        "Tianyu Jin",
+        "He Wang",
+        "Mingyang Liu",
+        "Weiwei Jin"
+      ],
+      "year": 2023,
+      "journal": "BMC Cancer",
+      "doi": "10.1186/s12885-023-11493-y"
     },
     "jie-2017-gut-microbiome-acvd": {
       "title": "The gut microbiome in atherosclerotic cardiovascular disease",
@@ -60430,6 +60985,28 @@
       "journal": "Biological Trace Element Research",
       "doi": "10.1007/s12011-020-02220-w"
     },
+    "kita-2020-ferrichrome-probiotics-pancreatic-cancer": {
+      "title": "Probiotic-derived ferrichrome inhibits the growth of refractory pancreatic cancer cells",
+      "authors": [
+        "Akemi Kita",
+        "Mikihiro Fujiya",
+        "Hiroaki Konishi",
+        "Hiroki Tanaka",
+        "Shin Kashima",
+        "Takuya Iwama",
+        "Masami Ijiri",
+        "Yuki Murakami",
+        "Shuhei Takauji",
+        "Takuma Goto",
+        "Aki Sakatani",
+        "Katsuyoshi Ando",
+        "Nobuhiro Ueno",
+        "Toshikatsu Okumura"
+      ],
+      "year": 2020,
+      "journal": "International Journal of Oncology",
+      "doi": "10.3892/ijo.2020.5096"
+    },
     "klann-2022-microbiome-mitochondria-prodromal-parkinsons": {
       "title": "Klann 2022 -- The Microbiome-Mitochondria Dance in Prodromal Parkinson's Disease",
       "authors": [
@@ -60440,6 +61017,25 @@
       "year": 2022,
       "journal": "Frontiers in Cellular and Infection Microbiology",
       "doi": "10.3389/fcimb.2022.XXXXXX"
+    },
+    "kleeff-2016-pancreatic-cancer-primer": {
+      "title": "Pancreatic cancer",
+      "authors": [
+        "Jorg Kleeff",
+        "Murray Korc",
+        "Minoti Apte",
+        "Carlo La Vecchia",
+        "Colin D. Johnson",
+        "Andrew V. Biankin",
+        "Rachel Neale",
+        "Margaret Tempero",
+        "David A. Tuveson",
+        "Ralph H. Hruban",
+        "John P. Neoptolemos"
+      ],
+      "year": 2016,
+      "journal": "Nature Reviews Disease Primers",
+      "doi": "10.1038/nrdp.2016.22"
     },
     "klotz-2017-aluminum-health-effects-review": {
       "title": "The Health Effects of Aluminum Exposure",
@@ -60481,6 +61077,31 @@
       "year": 2014,
       "journal": "Genome Medicine",
       "doi": "10.1186/s13073-014-0107-1"
+    },
+    "kobayashi-2013-serum-metabolomics-pancreatic-cancer": {
+      "title": "A novel serum metabolomics-based diagnostic approach to pancreatic cancer",
+      "authors": [
+        "Takashi Kobayashi",
+        "Shin Nishiumi",
+        "Atsuki Ikeda",
+        "Tomoo Yoshie",
+        "Aya Sakai",
+        "Atsuki Matsubara",
+        "Yoshihiro Izumi",
+        "Hidetaka Tsumura",
+        "Masahiro Tsuda",
+        "Hogara Nishisaki",
+        "Nobuhide Hayashi",
+        "Seiji Kawano",
+        "Yuta Fujiwara",
+        "Hironobu Minami",
+        "Tadaomi Takenawa",
+        "Takeshi Azuma",
+        "Masaru Yoshida"
+      ],
+      "year": 2013,
+      "journal": "Cancer Epidemiology, Biomarkers & Prevention",
+      "doi": "10.1158/1055-9965.EPI-12-1033"
     },
     "kong-2021-ketogenic-diet-colitis-ilc3-microbiome": {
       "title": "Ketogenic Diet Alleviates Colitis by Reduction of Colonic Group 3 Innate Lymphoid Cells Through Altering Gut Microbiome",
@@ -60735,6 +61356,21 @@
       "journal": "Best Practice & Research Clinical Endocrinology & Metabolism",
       "doi": "10.1016/j.beem.2023.101800"
     },
+    "lee-2019-bcaa-pancreatic-cancer-lipid-metabolism": {
+      "title": "Branched-chain amino acids sustain pancreatic cancer growth by regulating lipid metabolism",
+      "authors": [
+        "Ji Hyeon Lee",
+        "Young-ra Cho",
+        "Ji Hye Kim",
+        "Jongwook Kim",
+        "Hae Yun Nam",
+        "Seong Who Kim",
+        "Jaekyoung Son"
+      ],
+      "year": 2019,
+      "journal": "Experimental & Molecular Medicine",
+      "doi": "10.1038/s12276-019-0350-z"
+    },
     "lee-2020-female-infertility-blood-lead-cadmium": {
       "title": "Female Infertility Associated with Blood Lead and Cadmium Levels",
       "authors": [
@@ -60896,6 +61532,18 @@
       "journal": "Applied Microbiology and Biotechnology",
       "doi": "10.1007/s00253-018-9447-x"
     },
+    "li-2020-gut-microbiota-roles-pancreatic-cancer": {
+      "title": "Gut microbiota: its potential roles in pancreatic cancer",
+      "authors": [
+        "Quanxiao Li",
+        "Meng Jin",
+        "Yahui Liu",
+        "Limin Jin"
+      ],
+      "year": 2020,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2020.572492"
+    },
     "li-2020-polyphenols-gut-microbiota-ibd-synergy": {
       "title": "Synergic Interactions between Polyphenols and Gut Microbiota in Mitigating Inflammatory Bowel Diseases",
       "authors": [
@@ -61024,6 +61672,19 @@
       "year": 2023,
       "journal": "Frontiers in Cellular and Infection Microbiology",
       "doi": "10.3389/fcimb.2023.1267721"
+    },
+    "li-2023-phage-based-peptides-pancreatic-cancer": {
+      "title": "Phage-based peptides for pancreatic cancer diagnosis and treatment: alternative approach",
+      "authors": [
+        "Yang Li",
+        "Kai-di Yang",
+        "Hao-yu Duan",
+        "Ya-nan Du",
+        "Jun-feng Ye"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2023.1231503"
     },
     "li-2024-integrative-gut-microbiome-transcriptome-hashimotos": {
       "title": "Integrative analysis of gut microbiome and host transcriptome reveal novel molecular signatures in Hashimoto's thyroiditis",
@@ -61264,6 +61925,20 @@
       "year": 2024,
       "journal": "Genome Medicine",
       "doi": "10.1186/s13073-024-01364-x"
+    },
+    "lindahl-2017-lcms-metabolomics-pancreatic-cancer": {
+      "title": "Discrimination of pancreatic cancer and pancreatitis by LC-MS metabolomics",
+      "authors": [
+        "Anna Lindahl",
+        "Rainer Heuchel",
+        "Jenny Forshed",
+        "Janne Lehtio",
+        "Matthias Lohr",
+        "Anders Nordstrom"
+      ],
+      "year": 2017,
+      "journal": "Metabolomics",
+      "doi": "10.1007/s11306-017-1199-6"
     },
     "ling-2020-fecal-fungal-dysbiosis-alzheimers": {
       "title": "Ling 2020 -- Fecal Fungal Dysbiosis in Chinese Patients with Alzheimer's Disease",
@@ -61666,6 +62341,29 @@
       "journal": "Scientific Reports",
       "doi": "10.1038/s44439-024-00009-w"
     },
+    "liu-2026-gut-virome-anti-pd1-nsclc": {
+      "title": "Distinct gut virome profiles are associated with response to anti-PD-1 therapy in non-small cell lung cancer",
+      "authors": [
+        "Zhuo Liu",
+        "Meihong Liu",
+        "Huixiang Chen",
+        "Shenghui Li",
+        "Ning Zheng",
+        "Guorui Xing",
+        "Yue Zhang",
+        "Jie Xu",
+        "Min Li",
+        "Chenghaotian Xiao",
+        "Tong Lu",
+        "Qiulong Yan",
+        "Zhixin Lei",
+        "Min Feng",
+        "Yanxia Li"
+      ],
+      "year": 2026,
+      "journal": "Journal of Translational Medicine",
+      "doi": "10.1186/s12967-026-07900-0"
+    },
     "loke-2018-metabolomics-16s-crc-mucosa": {
       "title": "Metabolomics and 16S rRNA Sequencing of Human Colorectal Cancers and Adjacent Mucosa",
       "authors": [
@@ -61840,6 +62538,21 @@
       "year": 2022,
       "journal": "Frontiers in Nutrition",
       "doi": "10.3389/fnut.2022.899746"
+    },
+    "luo-2025-microbiome-metabolome-interplay-pancreatic-cancer": {
+      "title": "Microbiome-metabolome interplay in pancreatic cancer progression: insights from multi-omics analysis",
+      "authors": [
+        "Dong Luo",
+        "Qizhen Chen",
+        "Yixiong Li",
+        "Jianbo Yang",
+        "Yongguang Tao",
+        "Liandong Ji",
+        "Xuejun Gong"
+      ],
+      "year": 2025,
+      "journal": "Molecular Cancer",
+      "doi": "10.1186/s12943-025-02458-9"
     },
     "luo-2025-serum-metabolomics-hashimotos-tgab-tpoab": {
       "title": "Serum metabolomic analysis in patients with Hashimoto's thyroiditis positive for TgAb or TPOAb: a preliminary study",
@@ -62045,6 +62758,22 @@
       "year": 2018,
       "journal": "Human Reproduction",
       "doi": "10.1093/humrep/dey005"
+    },
+    "maher-2024-synbiotics-immunomodulation-pdac-resection": {
+      "title": "Synergistic immunomodulatory effect of synbiotics pre- and postoperative resection of pancreatic ductal adenocarcinoma: a randomized controlled study",
+      "authors": [
+        "Sara Maher",
+        "Hesham A. Elmeligy",
+        "Tarek Aboushousha",
+        "Noha Said Helal",
+        "Yousra Ossama",
+        "Mahmoud Rady",
+        "Ahmed Mohamed A. Hassan",
+        "Manal Kamel"
+      ],
+      "year": 2024,
+      "journal": "Cancer Immunology, Immunotherapy",
+      "doi": "10.1007/s00262-024-03686-6"
     },
     "maier-2019-nickel-microbial-pathogenesis": {
       "title": "Role of Nickel in Microbial Pathogenesis",
@@ -62441,6 +63170,27 @@
       "journal": "Frontiers in Endocrinology",
       "doi": "10.3389/fendo.2023.1192216"
     },
+    "meng-2025-oral-bacterial-fungal-microbiome-pancreatic-cancer-risk": {
+      "title": "Oral bacterial and fungal microbiome and subsequent risk for pancreatic cancer",
+      "authors": [
+        "Yixuan Meng",
+        "Feng Wu",
+        "Soyoung Kwak",
+        "Chan Wang",
+        "Mykhaylo Usyk",
+        "Neal D. Freedman",
+        "Wen-Yi Huang",
+        "Caroline Y. Um",
+        "Tamas A. Gonda",
+        "Paul E. Oberstein",
+        "Huilin Li",
+        "Jiyoung Ahn",
+        "Richard B. Hayes"
+      ],
+      "year": 2025,
+      "journal": "JAMA Oncology",
+      "doi": "10.1001/jamaoncol.2025.3377"
+    },
     "mermans-2019-nsaids-gut-microbiome-chronic-inflammation": {
       "title": "Nonsteroidal Anti-Inflammatory Drugs as Therapeutic Allies of the Gut Microbiome on Chronic Inflammation",
       "authors": [
@@ -62656,6 +63406,32 @@
       "year": 2015,
       "journal": "PLoS ONE",
       "doi": "10.1371/journal.pone.0137429"
+    },
+    "mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca": {
+      "title": "Biliary microbiome profiling via 16 S rRNA amplicon sequencing in patients with cholangiocarcinoma, pancreatic carcinoma and choledocholithiasis",
+      "authors": [
+        "Hiroki Mizutani",
+        "Shunsuke Fukui",
+        "Kazuki Oosuka",
+        "Kohei Ikeda",
+        "Mayu Kobayashi",
+        "Yasuaki Shimada",
+        "Yuuichi Nakazawa",
+        "Yuuki Nishiura",
+        "Daisuke Suga",
+        "Isao Moritani",
+        "Yutaka Yamanaka",
+        "Hidekazu Inoue",
+        "Hayato Nakagawa",
+        "Kaoru Dohi",
+        "Hiroyuki Kaiju",
+        "Kei Takaba",
+        "Hideo Wada",
+        "Katsuya Shiraki"
+      ],
+      "year": 2025,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-025-00976-6"
     },
     "mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd": {
       "title": "Mohamed 2023 -- Unveiling the Interplay Between NSAID-Induced Dysbiosis and Autoimmune Liver Disease in Children: Insights into the Hidden Gateway to ASD",
@@ -62955,6 +63731,18 @@
       "journal": "Frontiers in Neurology",
       "doi": "10.3389/fneur.2019.01084"
     },
+    "nkondjock-2005-fatty-acids-pancreatic-cancer-risk": {
+      "title": "Specific fatty acid intake and the risk of pancreatic cancer in Canada",
+      "authors": [
+        "A. Nkondjock",
+        "D. Krewski",
+        "KC Johnson",
+        "P. Ghadirian"
+      ],
+      "year": 2005,
+      "journal": "British Journal of Cancer",
+      "doi": "10.1038/sj.bjc.6602380"
+    },
     "noga-2012-csf-metabolomics-eae-rat-model": {
       "title": "Metabolomics of cerebrospinal fluid reveals changes in the central nervous system metabolism in a rat model of multiple sclerosis",
       "authors": [
@@ -63052,6 +63840,18 @@
       "year": 2024,
       "journal": "Scientific Reports",
       "doi": "10.1038/s41598-024-74400-w"
+    },
+    "ocal-2025-gut-brain-axis-pancreatic-cystic-neoplasms": {
+      "title": "Gut Microbiota-Brain Axis in Pancreatic Cystic Neoplasms: An Observational Analysis",
+      "authors": [
+        "Ibrahim Halil Ocal",
+        "Omer Basol",
+        "Abdullah Oguz",
+        "Huseyin Bilge"
+      ],
+      "year": 2025,
+      "journal": "Pakistan Journal of Medical Sciences",
+      "doi": "10.12669/pjms.41.12.12010"
     },
     "ochoa-reparaz-2018-gut-microbiome-ms": {
       "title": "The Gut Microbiome and Multiple Sclerosis",
@@ -63277,6 +64077,28 @@
       "year": 2021,
       "journal": "Scientific Reports",
       "doi": "10.1038/s41598-021-86378-w"
+    },
+    "panebianco-2023-gemcitabine-probiotics-pancreatic-cancer-dysbiosis": {
+      "title": "Counteracting gemcitabine+nab-paclitaxel induced dysbiosis in KRAS wild type and KRASG12D mutated pancreatic cancer in vivo model",
+      "authors": [
+        "Concetta Panebianco",
+        "Federica Pisati",
+        "Annacandida Villani",
+        "Annapaola Andolfo",
+        "Marynka Ulaszewska",
+        "Edoardo Bellini",
+        "Carmelapia Ferro",
+        "Renato Lombardi",
+        "Fabrizio Orsenigo",
+        "Tiziana Pia Latiano",
+        "Beatrice Belmonte",
+        "Claudio Tripodo",
+        "Francesco Perri",
+        "Valerio Pazienza"
+      ],
+      "year": 2023,
+      "journal": "Cell Death Discovery",
+      "doi": "10.1038/s41420-023-01397-y"
     },
     "parodi-2021-gut-brain-axis-ms-trigger-or-consequence": {
       "title": "The Gut-Brain Axis in Multiple Sclerosis. Is Its Dysfunction a Pathological Trigger or a Consequence of the Disease?",
@@ -63665,6 +64487,28 @@
       "year": 2022,
       "journal": "International Journal of Environmental Research and Public Health",
       "doi": "10.1007/s13361-019-02310-7"
+    },
+    "pourali-2024-microbiome-biomarker-therapeutic-target-pancreatic-cancer": {
+      "title": "Microbiome as a biomarker and therapeutic target in pancreatic cancer",
+      "authors": [
+        "Ghazaleh Pourali",
+        "Danial Kazemi",
+        "Amir Shayan Chadeganipour",
+        "Mahshid Arastonejad",
+        "Sara Naghizadeh Kashani",
+        "Roozbeh Pourali",
+        "Mina Maftooh",
+        "Hamed Akbarzade",
+        "Hamid Fiuji",
+        "Seyed Mahdi Hassanian",
+        "Majid Ghayour-Mobarhan",
+        "Gordon A. Ferns",
+        "Majid Khazaei",
+        "Amir Avan"
+      ],
+      "year": 2024,
+      "journal": "BMC Microbiology",
+      "doi": "10.1186/s12866-023-03166-4"
     },
     "pourmirzaiee-2024-ppd-magnesium-infant-development": {
       "title": "Association of Postpartum Depression with Maternal Serum Magnesium Levels, Infant Growth, and Neurodevelopmental Indices",
@@ -65339,6 +66183,24 @@
       "journal": "BMC Neurology",
       "doi": "10.1186/s12883-021-02544-7"
     },
+    "stocken-2005-adjuvant-therapy-pancreatic-cancer-meta-analysis": {
+      "title": "Meta-analysis of randomised adjuvant therapy trials for pancreatic cancer",
+      "authors": [
+        "D.D. Stocken",
+        "M.W. Buchler",
+        "C. Dervenis",
+        "C. Bassi",
+        "H. Jeekel",
+        "J.H.G. Klinkenbijl",
+        "K.E. Bakkevold",
+        "T. Takada",
+        "H. Amano",
+        "J.P. Neoptolemos"
+      ],
+      "year": 2005,
+      "journal": "British Journal of Cancer",
+      "doi": "10.1038/sj.bjc.6602513"
+    },
     "strati-2017-altered-gut-microbiota-mycobiota-asd": {
       "title": "Strati 2017 — New Evidences on the Altered Gut Microbiota in Autism Spectrum Disorders",
       "authors": [
@@ -65475,6 +66337,22 @@
       "year": 2019,
       "journal": "BMC Pediatrics",
       "doi": "10.1186/s12887-019-1896-6"
+    },
+    "sun-2023-pancreatic-infections-16s-rrna-pancreatitis": {
+      "title": "Identification and characterization of pancreatic infections in severe and critical acute pancreatitis patients using 16S rRNA gene next generation sequencing",
+      "authors": [
+        "Ning Sun",
+        "Yong Chen",
+        "Jiaxun Zhang",
+        "Jin Cao",
+        "Hongjuan Huang",
+        "Jie Wang",
+        "Wentao Guo",
+        "Xiaojun Li"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2023.1185216"
     },
     "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest": {
       "title": "Sodium Butyrate Attenuates Microglia-Mediated Neuroinflammation by Modulating the TLR4/MyD88/NF-kB Pathway and Microbiome-Gut-Brain Axis in Cardiac Arrest Mice",
@@ -65819,6 +66697,19 @@
       "journal": "Reproductive Endocrinology",
       "doi": "10.1007/s11356-022-23620-6"
     },
+    "tavanaeian-2025-oral-fecal-microbiome-pancreatic-cancer-biomarkers": {
+      "title": "Oral and fecal microbiome alterations in pancreatic cancer: insights into potential diagnostic biomarkers",
+      "authors": [
+        "Sogol Tavanaeian",
+        "Mohammad Mehdi Feizabadi",
+        "Sarvenaz Falsafi",
+        "Hamid Asadzadeh Aghdaei",
+        "Hamidreza Houri"
+      ],
+      "year": 2025,
+      "journal": "BMC Microbiology",
+      "doi": "10.1186/s12866-025-04344-2"
+    },
     "teimoori-2016-zinc-dysmenorrhea-treatment": {
       "title": "The Efficacy of Zinc Administration in the Treatment of Primary Dysmenorrhea",
       "authors": [
@@ -66008,6 +66899,19 @@
       "year": 2016,
       "journal": "Frontiers in Cellular and Infection Microbiology",
       "doi": "10.3389/fcimb.2016.00179"
+    },
+    "tian-2018-prebiotics-probiotics-synbiotics-severe-acute-pancreatitis-meta-analysis": {
+      "title": "Supplemented Use of Pre-, Pro-, and Synbiotics in Severe Acute Pancreatitis: An Updated Systematic Review and Meta-Analysis of 13 Randomized Controlled Trials",
+      "authors": [
+        "Xu Tian",
+        "Yuan-Ping Pi",
+        "Xiao-Ling Liu",
+        "Hui Chen",
+        "Wei-Qing Chen"
+      ],
+      "year": 2018,
+      "journal": "Frontiers in Pharmacology",
+      "doi": "10.3389/fphar.2018.00690"
     },
     "tian-2020-iron-supplementation-ppd-protocol": {
       "title": "The effectiveness of iron supplementation for postpartum depression: A protocol for systematic review and meta-analysis",
@@ -66524,6 +67428,18 @@
       "journal": "Journal of Autism and Developmental Disorders",
       "doi": "10.1007/s40489-021-00279-2"
     },
+    "wang-2015-dietary-fiber-pancreatic-cancer-risk-meta-analysis": {
+      "title": "Dietary fiber intake and pancreatic cancer risk: a meta-analysis of epidemiologic studies",
+      "authors": [
+        "Chun-Hui Wang",
+        "Chong Qiao",
+        "Ruo-Chen Wang",
+        "Wen-Ping Zhou"
+      ],
+      "year": 2015,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/srep10834"
+    },
     "wang-2018-inflammatory-cytokines-peritoneal-flora-endometriosis-infertility": {
       "title": "Inflammatory cytokines IL-6, IL-10, IL-13, TNF-alpha and peritoneal fluid flora were associated with infertility in patients with endometriosis",
       "authors": [
@@ -66601,6 +67517,26 @@
       "year": 2019,
       "journal": "Frontiers in Microbiology",
       "doi": ""
+    },
+    "wang-2019-microbiome-occurrence-development-treatment-pancreatic-cancer": {
+      "title": "Role of the microbiome in occurrence, development and treatment of pancreatic cancer",
+      "authors": [
+        "Yicheng Wang",
+        "Gang Yang",
+        "Lei You",
+        "Jinshou Yang",
+        "Mengyu Feng",
+        "Jiangdong Qiu",
+        "Fangyu Zhao",
+        "Yueze Liu",
+        "Zhe Cao",
+        "Lianfang Zheng",
+        "Taiping Zhang",
+        "Yupei Zhao"
+      ],
+      "year": 2019,
+      "journal": "Molecular Cancer",
+      "doi": "10.1186/s12943-019-1103-2"
     },
     "wang-2021-gut-microbiota-nsaid-enteropathy": {
       "title": "Gut Microbiota in NSAID Enteropathy: New Insights From Inside",
@@ -66697,6 +67633,29 @@
       "journal": "BMC Pediatrics",
       "doi": "10.1186/s12887-023-04292-8"
     },
+    "wang-2023-mendelian-randomization-gut-microbiota-pancreatitis": {
+      "title": "Causal link between gut microbiota and four types of pancreatitis: a genetic association and bidirectional Mendelian randomization study",
+      "authors": [
+        "Kui Wang",
+        "Xianzheng Qin",
+        "Taojing Ran",
+        "Yundi Pan",
+        "Yu Hong",
+        "Jiawei Wang",
+        "Xianda Zhang",
+        "XiaoNan Shen",
+        "Chenxiao Liu",
+        "Xinchen Lu",
+        "Yifei Chen",
+        "Yaya Bai",
+        "Yao Zhang",
+        "Chunhua Zhou",
+        "Duowu Zou"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2023.1290202"
+    },
     "wang-2023-microbiota-gut-brain-axis-neurodevelopmental": {
       "title": "Wang 2023 — The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders",
       "authors": [
@@ -66792,6 +67751,24 @@
       "journal": "Scientific Reports",
       "doi": "10.1038/s41598-026-42501-3"
     },
+    "wei-2019-microbiota-microbiome-pancreatic-cancer": {
+      "title": "The microbiota and microbiome in pancreatic cancer: more influential than expected",
+      "authors": [
+        "Miao-Yan Wei",
+        "Si Shi",
+        "Chen Liang",
+        "Qing-Cai Meng",
+        "Jie Hua",
+        "Yi-Yin Zhang",
+        "Jiang Liu",
+        "Bo Zhang",
+        "Jin Xu",
+        "Xian-Jun Yu"
+      ],
+      "year": 2019,
+      "journal": "Molecular Cancer",
+      "doi": "10.1186/s12943-019-1008-0"
+    },
     "wei-2020-microbiota-composition-distribution-reproductive-tract-endometriosis": {
       "title": "Microbiota composition and distribution along the female reproductive tract of women with endometriosis",
       "authors": [
@@ -66815,6 +67792,27 @@
       "year": 2020,
       "journal": "Frontiers in Molecular Neuroscience",
       "doi": "10.3389/fnmol.2020.00236"
+    },
+    "wei-2022-oral-mycobiota-pancreatic-adenocarcinoma": {
+      "title": "Oral mycobiota and pancreatic ductal adenocarcinoma",
+      "authors": [
+        "Ailin Wei",
+        "Huiling Zhao",
+        "Xue Cong",
+        "Linyao Wang",
+        "Yiyang Chen",
+        "Juxiang Gou",
+        "Ziyi Hu",
+        "Xiuying Hu",
+        "Yali Tian",
+        "Ka Li",
+        "Yufeng Deng",
+        "Haojiang Zuo",
+        "Mei Rosemary Fu"
+      ],
+      "year": 2022,
+      "journal": "BMC Cancer",
+      "doi": "10.1186/s12885-022-10329-5"
     },
     "wei-2022-oxidative-stress-parkinsons-meta-analysis": {
       "title": "Wei 2022 -- Oxidative Stress in Parkinson's Disease: A Systematic Review and Meta-Analysis",
@@ -67357,6 +68355,16 @@
       "journal": "PLOS ONE",
       "doi": "10.1371/journal.pone.0264556"
     },
+    "yamamura-2025-fmt-therapeutic-strategy-pancreatic-cancer": {
+      "title": "Fecal microbiota transplantation as a novel therapeutic strategy for pancreatic cancer",
+      "authors": [
+        "Ryodai Yamamura",
+        "Masahiro Sonoshita"
+      ],
+      "year": 2025,
+      "journal": "Translational and Regulatory Sciences",
+      "doi": "10.33611/trs.2025-003"
+    },
     "yan-2025-infant-serum-metals-gut-microbiota-china": {
       "title": "Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China",
       "authors": [
@@ -67406,6 +68414,23 @@
       "year": 2017,
       "journal": "Translational Psychiatry",
       "doi": "10.1038/s41398-017-0031-4"
+    },
+    "yang-2022-fungal-microbiota-dysbiosis-gastric-cancer": {
+      "title": "Fungal microbiota dysbiosis and ecological alterations in gastric cancer",
+      "authors": [
+        "Ping Yang",
+        "Xiaoshan Zhang",
+        "Rui Xu",
+        "Khan Adeel",
+        "Xiaofeng Lu",
+        "Min Chen",
+        "Han Shen",
+        "Zhiyang Li",
+        "Zhipeng Xu"
+      ],
+      "year": 2022,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2022.889694"
     },
     "yang-2022-intestinal-flora-graves-methimazole": {
       "title": "Preliminary Observation of the Changes in the Intestinal Flora of Patients With Graves' Disease Before and After Methimazole Treatment",
@@ -67968,6 +68993,19 @@
       "journal": "Frontiers in Cardiovascular Medicine",
       "doi": "10.3389/fcvm.2022.971376"
     },
+    "zhang-2022-gut-dysbiosis-pancreatic-diseases-therapeutic-target": {
+      "title": "Gut Dysbiosis in Pancreatic Diseases: A Causative Factor and a Novel Therapeutic Target",
+      "authors": [
+        "Tao Zhang",
+        "Guangqi Gao",
+        "Hafiz Arbab Sakandar",
+        "Lai-Yu Kwok",
+        "Zhihong Sun"
+      ],
+      "year": 2022,
+      "journal": "Frontiers in Nutrition",
+      "doi": "10.3389/fnut.2022.814269"
+    },
     "zhang-2022-metallomics-cancer-review": {
       "title": "Recent advances in the application of metallomics in diagnosis and prognosis of human cancer",
       "authors": [
@@ -68226,6 +69264,21 @@
       "journal": "Frontiers in Endocrinology",
       "doi": "10.3389/fendo.2025.1615095"
     },
+    "zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis": {
+      "title": "Profile of intestinal fungal microbiota in acute pancreatitis patients and healthy individuals",
+      "authors": [
+        "Meng-Qi Zhao",
+        "Miao-Yan Fan",
+        "Meng-Yan Cui",
+        "Su-Min Chen",
+        "Jing-Jing Wang",
+        "Ying-Ying Lu",
+        "Qiao-Li Jiang"
+      ],
+      "year": 2025,
+      "journal": "Gut Pathogens",
+      "doi": "10.1186/s13099-024-00675-z"
+    },
     "zhen-2023-tmao-cardiovascular-diseases-review": {
       "title": "The gut microbial metabolite trimethylamine N-oxide and cardiovascular diseases",
       "authors": [
@@ -68274,6 +69327,45 @@
       "year": 2021,
       "journal": "Frontiers in Neuroscience",
       "doi": "10.3389/fnins.2021.738220"
+    },
+    "zhou-2010-quercetin-pancreatic-cancer-stem-cells": {
+      "title": "Dietary polyphenol quercetin targets pancreatic cancer stem cells",
+      "authors": [
+        "Wei Zhou",
+        "Georgios Kallifatidis",
+        "Bernd Baumann",
+        "Vanessa Rausch",
+        "Jurgen Mattern",
+        "Jury Gladkich",
+        "Nathalia Giese",
+        "Gerhard Moldenhauer",
+        "Thomas Wirth",
+        "Markus W. Buchler",
+        "Alexei V. Salnikov",
+        "Ingrid Herr"
+      ],
+      "year": 2010,
+      "journal": "International Journal of Oncology",
+      "doi": "10.3892/ijo_00000704"
+    },
+    "zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics": {
+      "title": "The fecal microbiota of patients with pancreatic ductal adenocarcinoma and autoimmune pancreatitis characterized by metagenomic sequencing",
+      "authors": [
+        "Wenli Zhou",
+        "De Zhang",
+        "Zhengpeng Li",
+        "Huiqing Jiang",
+        "Jingnan Li",
+        "Rongrong Ren",
+        "Xuefeng Gao",
+        "Jianfeng Li",
+        "Xin Wang",
+        "Weifeng Wang",
+        "Yunsheng Yang"
+      ],
+      "year": 2021,
+      "journal": "Journal of Translational Medicine",
+      "doi": "10.1186/s12967-021-02882-7"
     },
     "zhou-2022-host-microbiome-protein-protein-interactions-disease": {
       "title": "Host-microbiome protein-protein interactions capture disease-relevant pathways",
