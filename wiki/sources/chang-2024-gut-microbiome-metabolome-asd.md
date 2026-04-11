@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbiome and serum amino acid metabolome alterations in autism spectrum disorder"
 type: source
 created: 2026-04-09
@@ -7,6 +8,8 @@ authors: [Xuening Chang, Yuchen Zhang, Xue Chen, Shihan Li, Hong Mei, Han Xiao, 
 journal: Scientific Reports
 year: 2024
 tags: [autism, gut-microbiome, metabolomics, nickel-transport, amino-acids, metagenomics, peptide-nickel-transport]
+doi: "10.1038/s41598-024-54717-2"
+platform: wikibiome
 ---
 
 # Chang et al. 2024 -- Gut Microbiome and Serum Amino Acid Metabolome in ASD

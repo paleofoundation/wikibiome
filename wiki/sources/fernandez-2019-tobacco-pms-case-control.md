@@ -1,4 +1,5 @@
 ---
+
 title: "Tobacco consumption and premenstrual syndrome: A case-control study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2019
 tags: [smoking, PMS, PMDD, tobacco, case-control, dose-response, pack-years, menstrual-disorders, serotonin, MAO]
 doi: "10.1371/journal.pone.0218794"
+platform: wikibiome
 ---
 
 # Key Claims

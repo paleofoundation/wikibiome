@@ -1,10 +1,12 @@
 ---
+
 title: Hydrogenase
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md, campanale-2014-nickel-free-diet-h-pylori.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md]
 tags: [nickel-enzyme, hydrogenase, NiFe, virulence, hydrogen-metabolism, CagA, cancer, energy-metabolism, H-pylori, Salmonella]
+platform: wikibiome
 ---
 
 # Hydrogenase
@@ -39,13 +41,13 @@ The maturation pathway is elaborate and requires dedicated accessory proteins:
 - **HypE/HypF**: synthesize the CN- ligands from carbamoyl phosphate.
 - Endopeptidase: cleaves the C-terminal extension after Ni insertion, locking the metal in place.
 
-**Key interconnection with urease**: In [[helicobacter-pylori]], HypA and HypB are **shared** between hydrogenase and urease maturation pathways. Nickel transfer from HypA to UreE demonstrates that the two enzyme systems are coordinately metalated from a common nickel pool. This means nickel allocation between energy metabolism (hydrogenase) and acid survival (urease) is a regulated decision for the bacterium [[[maier-2019-nickel-microbial-pathogenesis]]].
+**Key interconnection with urease**: In [[helicobacter-pylori]], HypA and HypB are **shared** between hydrogenase and urease maturation pathways. Nickel transfer from HypA to UreE demonstrates that the two enzyme systems are coordinately metalated from a common nickel pool. This means nickel allocation between energy metabolism (hydrogenase) and acid survival (urease) is a regulated decision for the bacterium [[maier-2019-nickel-microbial-pathogenesis]].
 
 ## Virulence Roles by Pathogen
 
 ### [[helicobacter-pylori]] -- Hydrogenase powers the cancer pathway
 
-*H. pylori* possesses a single H2-uptake [NiFe] hydrogenase encoded by the *hydABCDE* operon [[[maier-2019-nickel-microbial-pathogenesis]]]:
+*H. pylori* possesses a single H2-uptake [NiFe] hydrogenase encoded by the *hydABCDE* operon [[maier-2019-nickel-microbial-pathogenesis]]:
 
 **Substrate availability**: H2 is chronically available in the human stomach at ~**80 uM** (produced by fermentative gut microbiota), well above the enzyme Km of ~**1.8 uM**. This means the hydrogenase is **always saturated** -- it operates at Vmax continuously during colonization.
 
@@ -62,7 +64,7 @@ The maturation pathway is elaborate and requires dedicated accessory proteins:
 
 ### [[salmonella-typhimurium]] -- Four hydrogenases, total avirulence without them
 
-*S.* Typhimurium encodes **four distinct [NiFe] hydrogenases** -- the most of any well-characterized human pathogen [[[maier-2019-nickel-microbial-pathogenesis]]]:
+*S.* Typhimurium encodes **four distinct [NiFe] hydrogenases** -- the most of any well-characterized human pathogen [[maier-2019-nickel-microbial-pathogenesis]]:
 
 | Hydrogenase | Type | Function | Virulence role |
 |---|---|---|---|
@@ -71,7 +73,7 @@ The maturation pathway is elaborate and requires dedicated accessory proteins:
 | **Hyc (Hyd-3)** | Cytoplasmic, H2-evolving | Part of formate hydrogenlyase (FHL) complex | Anaerobic gut survival; fermentative H2 production |
 | **Hyd (Hyd-4/Hyd-5)** | FHL-associated | Second FHL complex | Expressed under aerobic conditions and in macrophages |
 
-**Avirulence of triple mutant**: The **DeltahyaDeltahybDeltahyd** triple mutant shows **100% survival in a mouse typhoid fever model** -- completely avirulent [[[maier-2019-nickel-microbial-pathogenesis]]]. This demonstrates that H2 metabolism is not merely advantageous but **essential** for Salmonella systemic virulence.
+**Avirulence of triple mutant**: The **DeltahyaDeltahybDeltahyd** triple mutant shows **100% survival in a mouse typhoid fever model** -- completely avirulent [[maier-2019-nickel-microbial-pathogenesis]]. This demonstrates that H2 metabolism is not merely advantageous but **essential** for Salmonella systemic virulence.
 
 **Macrophage survival**: After phagocytosis, *S.* Typhimurium resides in the Salmonella-containing vacuole (SCV). Hyb-mediated H2 oxidation provides electrons to the respiratory chain, generating PMF for ATP synthesis in the nutrient-limited SCV. H2 serves as a carbon/energy lifeline when conventional substrates are scarce.
 
@@ -104,7 +106,7 @@ The maturation pathway is elaborate and requires dedicated accessory proteins:
 - **Hyd-3 is part of the formate hydrogenlyase (FHL) system**: formate --> CO2 + H2. This is critical for mixed-acid fermentation under anaerobic conditions.
 - Provides **respiratory flexibility** in the oxygen-variable gut environment.
 - In pathogenic *E. coli*, H2 metabolism supports acid resistance and energy generation in nutrient-limited intracellular niches (for UPEC inside bladder epithelial cells).
-- In the preterm gut, [NiFe] hydrogenase enables NEC-associated *E. coli* to use H2 as an energy source in the inflamed anaerobic environment [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- In the preterm gut, [NiFe] hydrogenase enables NEC-associated *E. coli* to use H2 as an energy source in the inflamed anaerobic environment [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Bilophila wadsworthia -- H2-fueled taurine metabolism
 
@@ -125,13 +127,13 @@ This is one of the most consequential pathways in the wiki, linking dietary nick
 Evidence supporting this chain:
 - Hydrogenase deletion mutants cannot translocate CagA and do not cause cancer in animal models.
 - Cancer-patient strains have higher hydrogenase activity than gastritis-only strains.
-- The nickel-free diet (Campanale 2014) that enhanced *H. pylori* eradication likely works partly by depleting hydrogenase [[[campanale-2014-nickel-free-diet-h-pylori]]].
+- The nickel-free diet (Campanale 2014) that enhanced *H. pylori* eradication likely works partly by depleting hydrogenase [[campanale-2014-nickel-free-diet-h-pylori]].
 
 **Implication**: Nickel availability indirectly influences gastric cancer risk through hydrogenase activity. This means environmental and dietary nickel exposure has oncogenic potential not through direct metal toxicity (as with nickel compound carcinogenesis via epigenetic mechanisms) but through **enabling a pathogen's carcinogenic machinery**.
 
 ## Maturation Pathway Overlap with Urease
 
-In [[helicobacter-pylori]], the nickel insertion pathways for hydrogenase and [[urease]] share critical components [[[maier-2019-nickel-microbial-pathogenesis]]]:
+In [[helicobacter-pylori]], the nickel insertion pathways for hydrogenase and [[urease]] share critical components [[maier-2019-nickel-microbial-pathogenesis]]:
 
 - **HypA** delivers nickel to both HypB (for hydrogenase) and UreE (for urease).
 - **HypB** is a GTPase/nickel chaperone shared between both pathways.
@@ -155,6 +157,11 @@ A key factor in hydrogenase relevance is substrate availability:
 | Macrophage SCV | Low but present | Unknown | ~5-10 uM (estimated) | Partially saturated |
 
 The consistently high H2:Km ratios mean that for gastric and hepatic pathogens, **nickel availability -- not H2 availability -- is the rate-limiting factor** for hydrogenase activity.
+
+
+## Key Sources
+
+- [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]
 
 ## Connections
 

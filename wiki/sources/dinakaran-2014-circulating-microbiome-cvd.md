@@ -1,4 +1,5 @@
 ---
+
 title: "Elevated Levels of Circulating DNA in Cardiovascular Disease Patients: Metagenomic Profiling of Microbiome in the Circulation"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1371/journal.pone.0105221"
 tags: [cardiovascular-disease, circulating-microbiome, circDNA, 16S-rRNA-sequencing, shotgun-metagenomics, virome, blood-microbiome, Actinobacteria, Proteobacteria, bacteriophages]
 source_pdf: "raw/cardiovascular disease/16S rRNA sequencing cardiovascular disease/Elevated levels of circulating DNA in cardiovascular disease patients- metagenomic profiling of microbiome in the circul.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

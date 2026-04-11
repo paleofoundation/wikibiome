@@ -1,4 +1,5 @@
 ---
+
 title: "Immune System, Microbiota, and Microbial Metabolites: The Unresolved Triad in Colorectal Cancer Microenvironment"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2021
 tags: [colon-cancer, tumor-microenvironment, SCFAs, butyrate, polyamines, pks-E-coli, Fusobacterium-nucleatum, colibactin, Warburg-effect, immune-escape, colorectal-cancer, microbial-metabolites]
 doi: "10.3389/fimmu.2021.612826"
+platform: wikibiome
 ---
 
 # Immune System, Microbiota, and Microbial Metabolites: The Unresolved Triad in Colorectal Cancer Microenvironment

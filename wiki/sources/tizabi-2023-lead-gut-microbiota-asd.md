@@ -1,4 +1,5 @@
 ---
+
 title: "Interaction of Heavy Metal Lead with Gut Microbiota: Implications for Autism Spectrum Disorder"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biomolecules
 year: 2023
 tags: [lead, gut-microbiota, autism, gut-brain-axis, neurotoxicity, dysbiosis, probiotics, SCFAs, neuroinflammation]
 doi: "10.1590/0001-37652022202294S4"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Non-Thyroidal Illness Syndrome in Patients Exposed to Indoor Air Dampness Microbiota Treated Successfully with Triiodothyronine"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2017
 doi: "10.3389/fimmu.2017.00919"
 tags: [hashimotos-thyroiditis, thyroid, fungal-dysbiosis, mold-exposure, non-thyroidal-illness-syndrome, triiodothyronine, T3-therapy, DIO2-polymorphism, mycotoxins, adrenal-insufficiency, gluten-free-diet]
+platform: wikibiome
 ---
 
 # Non-Thyroidal Illness Syndrome in Patients Exposed to Indoor Air Dampness Microbiota Treated Successfully with Triiodothyronine

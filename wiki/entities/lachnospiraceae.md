@@ -1,4 +1,5 @@
 ---
+
 title: Lachnospiraceae
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, toya-2020-coronary-artery-disease-altered-gut-microbiome, gao-2026-ketogenic-diet-fxr-nfkb-crc, jie-2017-gut-microbiome-acvd, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis enzymes; sensitive to heavy metal perturbation]
 tags: [family-level, sentinel-family, SCFA-producers, depleted-in-disease, butyrate-producers, dysbiosis-marker]
+platform: wikibiome
 ---
 
 # Lachnospiraceae
@@ -18,10 +20,10 @@ A family within the Firmicutes phylum (order Clostridiales, formerly Clostridium
 Lachnospiraceae depletion recurs across an extraordinary range of diseases, making it a universal marker of [[dysbiosis]]:
 
 - **Multiple sclerosis**: depleted in MS patients; loss reduces anti-inflammatory SCFA signaling to the CNS via the [[gut-brain-axis]].
-- **Parkinson's disease**: consistently reduced alongside Prevotellaceae; their loss increases gut permeability and facilitates alpha-synuclein propagation [[[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]].
+- **Parkinson's disease**: consistently reduced alongside Prevotellaceae; their loss increases gut permeability and facilitates alpha-synuclein propagation [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - **Inflammatory bowel disease**: depleted in both Crohn's disease and ulcerative colitis; inversely correlated with disease activity.
-- **Colorectal cancer**: depleted in CRC patients, with lifestyle factors (smoking, alcohol) further reducing abundance [[[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]]. Ketogenic diet intervention restores Lachnospiraceae NK4A136 [[[gao-2026-ketogenic-diet-fxr-nfkb-crc]]].
-- **Cardiovascular disease**: 12 of 23 differentially abundant taxa in CAD belonged to Lachnospiraceae, including *Anaerosporobacter* and NK4B4 group [[[toya-2020-coronary-artery-disease-altered-gut-microbiome]]]. Butyrate-producing members depleted in ACVD [[[jie-2017-gut-microbiome-acvd]]].
+- **Colorectal cancer**: depleted in CRC patients, with lifestyle factors (smoking, alcohol) further reducing abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. Ketogenic diet intervention restores Lachnospiraceae NK4A136 [[gao-2026-ketogenic-diet-fxr-nfkb-crc]].
+- **Cardiovascular disease**: 12 of 23 differentially abundant taxa in CAD belonged to Lachnospiraceae, including *Anaerosporobacter* and NK4B4 group [[toya-2020-coronary-artery-disease-altered-gut-microbiome]]. Butyrate-producing members depleted in ACVD [[jie-2017-gut-microbiome-acvd]].
 - **Autism spectrum disorder**: depleted in ASD children, correlating with reduced SCFA levels.
 - **Type 2 diabetes**: reduced in T2D; inversely correlated with HbA1c.
 
@@ -37,7 +39,7 @@ Lachnospiraceae depletion recurs across an extraordinary range of diseases, maki
 
 ## Metal Sensitivity
 
-- Lachnospiraceae members are **sensitive to heavy metal stress**. [[Cadmium]], [[lead]], and [[mercury]] exposure depletes the family disproportionately compared to metal-tolerant taxa.
+- Lachnospiraceae members are **sensitive to heavy metal stress**. [[cadmium]], [[lead]], and [[mercury]] exposure depletes the family disproportionately compared to metal-tolerant taxa.
 - Iron-sulfur cluster enzymes required for butyrate production are vulnerable to disruption by toxic metals that compete for iron binding sites.
 - Siderophore-producing [[enterobacteriaceae]] outcompete Lachnospiraceae for [[iron]] under metal-stressed conditions, compounding the depletion.
 - This metal sensitivity positions Lachnospiraceae as a biomarker for metal-induced [[dysbiosis]] within the [[gut-metal-microbiome]] framework.

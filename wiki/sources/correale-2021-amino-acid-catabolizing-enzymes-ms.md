@@ -1,4 +1,5 @@
 ---
+
 title: "Immunosuppressive Amino-Acid Catabolizing Enzymes in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2021
 tags: [amino-acids, multiple-sclerosis, tryptophan, arginine, IDO1, ARG1, kynurenine, mTOR, GCN2K, Treg, Th17, immune-regulation]
 doi: "10.3389/fimmu.2020.600428"
+platform: wikibiome
 ---
 
 # Immunosuppressive Amino-Acid Catabolizing Enzymes in Multiple Sclerosis

@@ -1,4 +1,5 @@
 ---
+
 title: Eggerthella lenta
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, molybdenum]
 key_enzymes: [beta-glucuronidase, cardiac-glycoside-inactivating-enzyme, iron-acquisition-systems, molybdenum-containing-oxidoreductases]
 tags: [estrobolome, endometriosis, cardiac-glycoside-metabolism, hormone-recirculation, beta-glucuronidase-producer]
+platform: wikibiome
 ---
 
 # Eggerthella lenta
@@ -148,4 +150,4 @@ Endometriosis is characterized by:
 - [[dysbiosis]] -- enriched in endometriosis; depletes commensal barrier-protective taxa
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *E. lenta* enrichment; loss of butyrate-mediated tight junction support
 - [[cardiac-glycoside-metabolism]] -- *E. lenta* inactivates digoxin; clinical pharmacokinetic implications
-- [[barrier-function]] -- dysbiosis with *E. lenta* enrichment compromises tight junctions via loss of SCFA
+- [[nutritional-immunity|barrier-function]] -- dysbiosis with *E. lenta* enrichment compromises tight junctions via loss of SCFA

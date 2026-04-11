@@ -1,4 +1,5 @@
 ---
+
 title: "Branched-chain amino acids sustain pancreatic cancer growth by regulating lipid metabolism"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Experimental & Molecular Medicine
 year: 2019
 tags: [pancreatic-cancer, amino-acids, BCAAs, lipogenesis, BCAT2, BCKDHA, PDAC-metabolism, fatty-acid-biosynthesis]
 doi: "10.1038/s12276-019-0350-z"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Low-Nickel Diet"
 type: intervention
 created: 2026-04-09
@@ -130,6 +131,7 @@ targets:
   enzymes: [urease, NiFe-hydrogenase, nickel-glyoxalase, acireductone-dioxygenase, Ni-superoxide-dismutase]
   metals: [nickel]
   ecological: [disables-acid-survival, disrupts-energy-metabolism, disables-immune-evasion, reduces-hypoxia, disrupts-biofilm-biomass, restores-pH, restores-intestinal-permeability, reduces-metalloestrogen-load]
+platform: cureva
 ---
 
 
@@ -156,7 +158,7 @@ Restricting dietary nickel is a clinical application of **[[nutritional-immunity
 | Enzyme | Function | Pathogens Affected | Clinical Impact |
 |--------|----------|-------------------|----------------|
 | **[[urease]]** | Hydrolyzes urea to ammonia + CO2; buffers acid environments; disrupts tight junctions; activates platelets | H. pylori, S. aureus, P. mirabilis, Ureaplasma, C. neoformans | Acid survival destroyed; biofilm formation impaired; pH regulation restored |
-| **[[NiFe-hydrogenase]]** | Oxidizes H2 for energy; powers CagA translocation in H. pylori | H. pylori, H. hepaticus, Salmonella, Campylobacter, Shigella | Energy metabolism impaired; virulence factor translocation blocked |
+| **[[nife-hydrogenase]]** | Oxidizes H2 for energy; powers CagA translocation in H. pylori | H. pylori, H. hepaticus, Salmonella, Campylobacter, Shigella | Energy metabolism impaired; virulence factor translocation blocked |
 | **[[nickel-glyoxalase]]** (GloI) | Detoxifies methylglyoxal; enables immune evasion | P. aeruginosa, N. meningitidis, Y. pestis, Clostridia, L. donovani | Pathogens become susceptible to neutrophil killing |
 | **Acireductone dioxygenase (ARD)** | Methionine salvage pathway | All pathogenic gamma-proteobacteriaceae | Methionine metabolism disrupted |
 | **Ni-SOD** | Superoxide detoxification | Streptomyces spp. | Oxidative stress defense impaired |
@@ -177,7 +179,7 @@ Removing dietary nickel withdraws the antigenic stimulus, allowing the immune ca
 
 ### 3. Metalloestrogen Removal
 
-[[Nickel]] acts as a **metalloestrogen** -- it binds estrogen receptors and can induce proliferation of ERa+ cells [[borghini-2020-endometriosis-nickel-ibs]]. In estrogen-dependent conditions (endometriosis, PCOS), dietary nickel restriction removes this estrogenic stimulus in addition to the immunological and antimicrobial benefits.
+[[nickel]] acts as a **metalloestrogen** -- it binds estrogen receptors and can induce proliferation of ERa+ cells [[borghini-2020-endometriosis-nickel-ibs]]. In estrogen-dependent conditions (endometriosis, PCOS), dietary nickel restriction removes this estrogenic stimulus in addition to the immunological and antimicrobial benefits.
 
 ---
 

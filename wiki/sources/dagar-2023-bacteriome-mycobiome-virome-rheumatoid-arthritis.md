@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Bacteriome, Mycobiome and Virome Alterations in Rheumatoid Arthritis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 doi: "10.3389/fendo.2022.1044673"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, mycobiome, virome, rheumatoid-arthritis, autoimmune, Prevotella-copri, Candida-albicans, bacteriophage, inter-kingdom-interactions, dysbiosis]
+platform: wikibiome
 ---
 
 # Gut Bacteriome, Mycobiome and Virome Alterations in Rheumatoid Arthritis

@@ -1,4 +1,5 @@
 ---
+
 title: "Effect of heavy metals and sialic acid in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Research Journal of Public and Environmental Health
 year: 2018
 doi: 10.15739/irjpeh.18.015
 tags: [multiple-sclerosis, heavy-metals, sialic-acid, nickel, cadmium, lead, iron, trace-metals, environmental-exposure]
+platform: wikibiome
 ---
 
 # Effect of Heavy Metals and Sialic Acid in Multiple Sclerosis

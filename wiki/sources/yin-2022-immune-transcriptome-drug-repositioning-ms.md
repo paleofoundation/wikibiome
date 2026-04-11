@@ -1,4 +1,5 @@
 ---
+
 title: "Immune cells transcriptome-based drug repositioning for multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 doi: 10.3389/fimmu.2022.1020721
 tags: [multiple-sclerosis, drug-repurposing, transcriptomics, bioinformatics, PI3K-Akt, chemokine-signaling, fostamatinib, copper, zinc, aspirin]
+platform: wikibiome
 ---
 
 # Immune Cells Transcriptome-Based Drug Repositioning for Multiple Sclerosis

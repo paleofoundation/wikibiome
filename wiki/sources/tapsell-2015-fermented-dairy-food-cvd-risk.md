@@ -1,4 +1,5 @@
 ---
+
 title: "Fermented dairy food and CVD risk"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Linda C. Tapsell]
 journal: British Journal of Nutrition
 year: 2015
 tags: [cardiovascular-disease, fermented-foods, dairy, yoghurt, cheese, Mediterranean-diet, PREDIMED, cholesterol]
+platform: wikibiome
 ---
 
 # Tapsell 2015 -- Fermented Dairy Food and CVD Risk

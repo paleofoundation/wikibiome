@@ -1,4 +1,5 @@
 ---
+
 title: "Crohn's Disease — Microbiome Signature"
 type: signature
 created: 2026-04-09
@@ -55,6 +56,7 @@ virulence_enzymes: [siderophores, zinc-metalloprotease, iron-dependent-hydrogena
 cureva_status: partial
 validated_interventions: [high-fiber-prebiotics, mediterranean-diet, faecalibacterium-restoration, lactoferrin-supplementation, nac-supplementation]
 stops: [stop-iron-supplementation-crohns, stop-broad-spectrum-antibiotics-crohns]
+platform: cureva
 ---
 
 ## Overview
@@ -242,3 +244,11 @@ The metabolite dysmetabolism in Crohn's is profound:
 7. **Estrobolome and Hormone Recirculation** — Not primary driver (unlike endometriosis) but bile acid metabolism is disrupted
 8. **Siderophore Competition and Iron Ecology** — Central to AIEC pathogenesis; EcN 1917 outcompetes via superior siderophores
 9. **Oxygen State as Ecological Determinant** — SCFA depletion → loss of anaerobic niche maintenance → pathobiont expansion
+
+## Key Sources
+
+- [[xu-2023-oxidative-stress-cd]]
+- [[breton-2016-cd-pb-colitis]]
+- [[pascal-2017-cd-microbial-signature]]
+- [[brusaferro-2018-pediatric-cd-dysbiosis]]
+- [[wang-2024-ibd-virulence-factors]]

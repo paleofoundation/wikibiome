@@ -1,4 +1,5 @@
 ---
+
 title: "The effect of gut microbiome and plasma metabolome on systemic sclerosis: a bidirectional two-sample Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2024
 doi: 10.3389/fmicb.2024.1427195
 tags: [systemic-sclerosis, gut-microbiome, plasma-metabolome, Mendelian-randomization, Prevotella, Lachnospiraceae, autoimmune]
+platform: wikibiome
 ---
 
 # The Effect of Gut Microbiome and Plasma Metabolome on Systemic Sclerosis: A Bidirectional Two-Sample Mendelian Randomization Study

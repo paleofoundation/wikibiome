@@ -1,4 +1,5 @@
 ---
+
 title: "Probiotics functionalized with a gallium-polyphenol network modulate the intratumor microbiota and promote anti-tumor immune responses in pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Communications
 year: 2024
 tags: [pancreatic-cancer, probiotics, Lactobacillus-rhamnosus, gallium, polyphenols, intratumor-microbiota, immunotherapy, PD-L1, LPS, immune-checkpoint, tumor-microenvironment]
 doi: "10.1038/s41467-024-51534-z"
+platform: wikibiome
 ---
 
 # Key Claims

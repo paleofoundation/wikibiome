@@ -1,4 +1,5 @@
 ---
+
 title: "Causality of gut microbiome and hypertension: A bidirectional mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cardiovascular Medicine
 year: 2023
 doi: 10.3389/fcvm.2023.1167346
 tags: [cardiovascular-disease, CVD, hypertension, Mendelian-randomization, bidirectional, causality, Allisonella, Senegalimassilia, Clostridiaceae, SCFAs, gut-microbiome]
+platform: wikibiome
 ---
 
 # Causality of Gut Microbiome and Hypertension: A Bidirectional Mendelian Randomization Study

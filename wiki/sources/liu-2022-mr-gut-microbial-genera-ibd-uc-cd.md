@@ -1,4 +1,5 @@
 ---
+
 title: "Two-Sample Mendelian Randomization Analysis Investigates Causal Associations Between Gut Microbial Genera and Inflammatory Bowel Disease, and Specificity Causal Associations in Ulcerative Colitis or Crohn's Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 tags: [crohns-disease, IBD, ulcerative-colitis, Mendelian-randomization, Eubacterium-ventriosum, Coprococcus, Oxalobacter, Lachnospiraceae, gut-microbiome, causal-inference]
 doi: "10.3389/fimmu.2022.921546"
+platform: wikibiome
 ---
 
 # Key Claims

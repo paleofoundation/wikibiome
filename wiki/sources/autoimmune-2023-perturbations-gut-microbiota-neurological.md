@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: []
 year: 2023
 journal: "Autoimmunity Reviews"
-doi: "10.1016/j.autrev.2023.XXXXXX"
+doi: "10.1016/j.autrev.2023.103452"
 tags: [parkinsons-disease, autoimmune, microbiome-autoimmune, gut-microbiota, systematic-review, meta-analysis, neurological-diseases, shared-dysbiosis]
 library_category: associated-conditions
 platform: both

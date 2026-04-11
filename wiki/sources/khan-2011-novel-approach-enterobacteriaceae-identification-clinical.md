@@ -1,4 +1,5 @@
 ---
+
 title: "A Novel Approach for Identification of Members of Enterobacteriaceae Isolated from Clinical Samples"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biology and Medicine
 year: 2011
 volume: "3(2) Special Issue:313-319"
 tags: [Enterobacteriaceae, bacterial-identification, clinical-microbiology, biochemical-tests, lactose-fermenters, gram-negative-bacteria, Escherichia-coli, Klebsiella, Salmonella, Shigella, Proteus, Citrobacter, diagnostic-algorithm]
+platform: wikibiome
 ---
 
 # A Novel Approach for Identification of Members of Enterobacteriaceae Isolated from Clinical Samples

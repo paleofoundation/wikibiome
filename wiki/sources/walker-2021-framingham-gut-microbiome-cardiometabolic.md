@@ -1,4 +1,5 @@
 ---
+
 title: "Population Study of the Gut Microbiome: Associations with Diet, Lifestyle, and Cardiometabolic Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s13073-021-01007-5"
 tags: [cardiovascular-disease, Framingham-Heart-Study, 16S-rRNA-sequencing, microbiome-composition, diet, metabolic-syndrome, type-2-diabetes, comorbidities, microbial-diversity, lifestyle, cardiometabolic-disease]
 source_pdf: "raw/cardiovascular disease/Comorbidities cardiovascular disease microbiome/s13073-021-01007-5.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

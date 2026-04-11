@@ -1,4 +1,5 @@
 ---
+
 title: "Meta-analysis of randomised adjuvant therapy trials for pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Cancer
 year: 2005
 tags: [pancreatic-cancer, meta-analysis, adjuvant-therapy, chemotherapy, chemoradiation, survival, clinical-trials]
 doi: "10.1038/sj.bjc.6602513"
+platform: wikibiome
 ---
 
 # Key Claims

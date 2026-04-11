@@ -1,4 +1,5 @@
 ---
+
 title: "Cadmium and breast cancer - Current state and research gaps in the underlying mechanisms"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Tarhonska K, Lesicka M, Janasik B, Roszak J, Reszka E, Braun M, Kolaci
 journal: Toxicology Letters
 year: 2022
 tags: [cadmium, breast-cancer, metalloestrogens, epigenetics, oxidative-stress, DNA-methylation, estrogen-receptor, mechanisms]
-doi: "10.1097/HNP.0000000000000554"
+doi: "10.1016/j.toxlet.2022.03.003"
+platform: wikibiome
 ---
 
 # Cadmium and breast cancer - Current state and research gaps in the underlying mechanisms

@@ -1,4 +1,5 @@
 ---
+
 title: "Arsenic and the gastrointestinal tract microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Environmental Microbiology Reports
 year: 2020
 tags: [pancreatic-cancer, arsenic, gut-microbiome, arsenic-resistance, arsenic-methylation, arsenic-biotransformation, GIT-microbiome, heavy-metals]
 doi: "10.1111/1758-2229.12814"
+platform: wikibiome
 ---
 
 # Key Claims

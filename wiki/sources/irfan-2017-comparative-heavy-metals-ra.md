@@ -1,4 +1,5 @@
 ---
+
 title: "Comparative Evaluation of Heavy Metals in Patients with Rheumatoid Arthritis and Healthy Control in Pakistani Population"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Iranian Journal of Public Health"
 year: 2017
 tags: [rheumatoid-arthritis, lead, cadmium, chromium, nickel, heavy-metals, serum-levels, Pakistan]
 doi: "10.1002/mnfr.202400571"
+platform: wikibiome
 ---
 
 # Key Claims

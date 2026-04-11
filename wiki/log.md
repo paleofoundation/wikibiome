@@ -482,3 +482,60 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - Bridge between clinical observation (66% probiotic efficacy) and mechanistic explanation (metal-dependent metabolite production)
 - Research agenda for Karen's Brain framework validation in ASD cohorts
 
+
+## 2026-04-11 — Integrity Fixes + Metallomic Diet Pages
+
+### Wikilink Fixes
+- Fixed 85 files with capitalization/spacing normalization
+- Fixed 126 files with triple-bracket `[[[...]]]` formatting errors (1,152 instances)
+- Fixed 50 files with backslash links, path-based links, and alias mismatches
+- Added `subtype: microbe` to 7 uncategorized entity pages (E. coli, H. pylori, P. mirabilis, P. aeruginosa, S. typhimurium, S. aureus, S. pneumoniae)
+
+### Index Regeneration
+- Regenerated index.md from filesystem: 981 sources, 122 entities (19 metals, 83 microbes, 20 diseases), 87 concepts, 13 signatures, 5 interventions, 11 STOPs, 2 analyses
+- Previous index was stale (claimed 973 sources, 86 microbes, 17 metals)
+
+### New STOP Pages (4 created)
+- stop-iodine-supplementation-graves.md — Iodine excess alters TPO epitope presentation; U-shaped dose-response; disrupts gut microbiota
+- stop-iron-supplementation-graves.md — Functional anemia; hepcidin as host defense; oral iron feeds Proteobacteria enriched in Graves' signature
+- stop-iron-supplementation-pcos.md — Functional anemia; iron feeds siderophore-producing E. coli and Bacteroides; perpetuates estrogen recirculation
+- stop-isolated-zinc-supplementation-pcos.md — Inconsistent zinc data; feeds zinc-dependent metalloproteinases; copper antagonism
+
+### STOP Naming Fixes
+- Renamed iron-supplementation-asd-dysbiosis.md → stop-iron-supplementation-asd.md
+- Updated PCOS signature frontmatter stops references
+- Updated ASD signature stops references
+
+### New Metallomic Diet Concept Pages (7 created)
+- dietary-cadmium-exposure.md — Cadmium in rice, leafy greens, chocolate; BCF >1.0 in hyperaccumulators; infant vulnerability (178% TWI)
+- dietary-arsenic-exposure.md — Inorganic vs organic arsenic; rice as dominant source via silicon transporters; infant rice cereal as primary iAs source
+- dietary-lead-exposure.md — No safe level; water infrastructure, spice adulteration; calcium channel mis-metallation; children absorb 40-50% vs 3-10% adults
+- heavy-metals-infant-foods.md — Convergence of maximum vulnerability + maximum exposure at 6-24 months; regulatory gaps (no FDA limits for Cd, Hg, Ni, Al); organic ≠ lower metals
+- plant-metal-hyperaccumulation.md — BCF concept; 700+ hyperaccumulator species; molecular biology of metal tolerance; soil-plant-microbiome axis
+- dietary-iron-gut-ecology.md — Heme vs non-heme iron; siderophore arms race; dietary patterns create distinct iron ecologies; probiotics as competitive exclusion
+- dietary-metal-microbiome-interactions.md — Bidirectional relationship; HFD amplifies metal toxicity; metal-antibiotic co-selection; microbial metal detoxification as ecosystem service
+
+### Platform Tags
+- Added `platform:` frontmatter tag to 976 files (230 content pages + 746 source pages)
+- Entities, concepts, analyses: wikibiome
+- Signatures, interventions, STOPs: cureva
+- Sources: wikibiome (default) or cureva (drug-repurposing, interventions, diet categories)
+
+### New Analysis Pages (3 created)
+- iron-supplementation-stops-across-conditions.md — Cross-condition pattern: iron supplementation is counterproductive in 6 diseases with dysbiotic signatures (endometriosis, Crohn's, MS, Graves', PCOS, ASD); all share hepcidin elevation + siderophore-producing pathobionts; Primitive 2 unifies them
+- shared-pathobionts-across-signatures.md — E. coli appears in all 13 signatures; pathobionts grouped by metal dependency clusters (iron, nickel, zinc); depleted taxa are uniformly iron-poor competitors
+- dietary-metal-exposure-by-life-stage.md — 6-24 month window = maximum vulnerability + maximum exposure; regulatory gaps across life stages; microbiome colonization during metal perturbation
+
+### Orphan Source Connection
+- Added Key Sources sections to 103 content pages
+- Connected 348 previously orphaned source pages through body-text wikilinks
+
+### Final Counts
+- Sources: 981
+- Entities: 122 (19 metals, 83 microbes, 20 diseases)
+- Concepts: 87 (up from 80)
+- Signatures: 13
+- Interventions: 5
+- STOPs: 11 (up from 7)
+- Analyses: 5 (up from 2)
+- Platform-tagged: 976 files

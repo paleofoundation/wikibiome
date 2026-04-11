@@ -1,4 +1,5 @@
 ---
+
 title: "A Novel Multivariate Index for Pancreatic Cancer Detection Based On the Plasma Free Amino Acid Profile"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2015
 tags: [pancreatic-cancer, amino-acids, biomarkers, plasma-free-amino-acids, PFAA-index, early-detection, serine, tryptophan, histidine, HPLC-MS, diagnostics]
 doi: "10.1371/journal.pone.0132223"
+platform: wikibiome
 ---
 
 # Key Claims

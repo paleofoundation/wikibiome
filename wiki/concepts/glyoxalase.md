@@ -1,10 +1,12 @@
 ---
+
 title: Glyoxalase I
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md]
 tags: [nickel-enzyme, glyoxalase, methylglyoxal, detoxification, drug-target, Leishmania, Pseudomonas, virulence, mis-metallation]
+platform: wikibiome
 ---
 
 # Glyoxalase I (GloI)
@@ -51,7 +53,7 @@ The Ni2+-dependent GloI class is activated by nickel or cobalt but **not by zinc
 
 ### Confirmed Ni-GloI pathogens
 
-The following pathogens have been experimentally confirmed or strongly predicted to possess Ni-dependent GloI [[[maier-2019-nickel-microbial-pathogenesis]]]:
+The following pathogens have been experimentally confirmed or strongly predicted to possess Ni-dependent GloI [[maier-2019-nickel-microbial-pathogenesis]]:
 
 **Bacterial pathogens:**
 - **[[pseudomonas-aeruginosa]]**: Ni-GloI characterized biochemically; detoxifies methylglyoxal during rapid growth in the CF lung and wound infections.
@@ -79,7 +81,7 @@ The Ni-dependent GloI class is not restricted to prokaryotes. It has been identi
 
 - **Leishmania major**: Ni-GloI characterized.
 - **Trypanosoma cruzi**: Ni-GloI identified (Chagas disease agent).
-- **Leishmania donovani**: the *glo-I* gene is **ESSENTIAL** -- glo-I mutants show reduced methylglyoxal detoxification and are **not viable**. This makes GloI a validated and proposed **drug target for visceral leishmaniasis** [[[maier-2019-nickel-microbial-pathogenesis]]].
+- **Leishmania donovani**: the *glo-I* gene is **ESSENTIAL** -- glo-I mutants show reduced methylglyoxal detoxification and are **not viable**. This makes GloI a validated and proposed **drug target for visceral leishmaniasis** [[maier-2019-nickel-microbial-pathogenesis]].
 
 The presence of Ni-GloI in both prokaryotic and eukaryotic pathogens suggests this metal preference predates the prokaryote-eukaryote split or arose through horizontal gene transfer in parasitic lineages.
 
@@ -97,7 +99,7 @@ Ni-GloI maintains the pathogen's metabolic flux by preventing methylglyoxal from
 
 ### NEC-associated pathogens
 
-In the preterm gut, Ni-activated GloI helps NEC-associated *E. coli* survive metabolic stress during the inflammatory cascade of necrotizing enterocolitis [[[pendergrass-2026-nickel-nec-preterm-gut]]]. Dietary nickel from infant formula provides the cofactor that activates this survival enzyme.
+In the preterm gut, Ni-activated GloI helps NEC-associated *E. coli* survive metabolic stress during the inflammatory cascade of necrotizing enterocolitis [[pendergrass-2026-nickel-nec-preterm-gut]]. Dietary nickel from infant formula provides the cofactor that activates this survival enzyme.
 
 ### Potassium efflux
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Graves Disease and Inflammatory Bowel Disease: A Bidirectional Mendelian Randomization"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Clinical Endocrinology & Metabolism
 year: 2023
 doi: "10.1210/clinem/dgac683"
 tags: [graves-disease, thyroid, autoimmune, inflammatory-bowel-disease, Crohns-disease, ulcerative-colitis, mendelian-randomization, GWAS, comorbidity, HLA, JAK-STAT]
+platform: wikibiome
 ---
 
 # Graves Disease and Inflammatory Bowel Disease: A Bidirectional Mendelian Randomization

@@ -1,4 +1,5 @@
 ---
+
 title: "Predicting cancer-related mycobiome aspects in gastrointestinal cancers: a systematic review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Medicine
 year: 2024
 doi: "10.3389/fmed.2024.1488377"
 tags: [colon-cancer, colorectal-cancer, mycobiome, systematic-review, Ascomycota, Basidiomycota, Malassezia, Candida, Saccharomyces, Shannon-diversity, ITS-sequencing, metagenomics, PRISMA]
+platform: wikibiome
 ---
 
 # Szklenarik 2024 -- Cancer-Related Mycobiome in GI Cancers: Systematic Review

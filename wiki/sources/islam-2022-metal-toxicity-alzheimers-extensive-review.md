@@ -1,4 +1,5 @@
 ---
+
 title: "Exposure of metal toxicity in Alzheimer's disease: An extensive review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Pharmacology
 year: 2022
 tags: [metal-toxicity, Alzheimers-disease, iron, copper, zinc, aluminum, lead, cadmium, mercury, amyloid-beta, tau-protein, oxidative-stress, chelation-therapy]
 doi: "10.1038/s44439-024-00009-w"
+platform: wikibiome
 ---
 
 # Key Claims

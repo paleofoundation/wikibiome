@@ -1,4 +1,5 @@
 ---
+
 title: "Identification of commensal gut microbiota signatures as predictors of clinical severity and disease progression in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2024
 doi: 10.1038/s41598-024-64369-x
 tags: [multiple-sclerosis, microbiome-signature, disease-progression, Akkermansia, Prevotella, SCFAs, vitamin-K, oxidative-stress, dysbiosis, biomarkers]
+platform: wikibiome
 ---
 
 # Identification of Commensal Gut Microbiota Signatures as Predictors of Clinical Severity and Disease Progression in Multiple Sclerosis

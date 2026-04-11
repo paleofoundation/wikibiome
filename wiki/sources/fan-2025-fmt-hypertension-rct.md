@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal microbiota transplantation for hypertension: an exploratory, multicenter, randomized, blinded, placebo-controlled trial"
 type: source
 created: 2026-04-09
@@ -7,6 +8,8 @@ authors: [Luyun Fan, Junru Chen, Qi Zhang, Jie Ren, Youren Chen, Jinfeng Yang, L
 journal: Microbiome
 year: 2025
 tags: [cardiovascular-disease, FMT, fecal-microbiota-transplant, hypertension, blood-pressure, RCT, microbiome, metabolome, placebo-controlled]
+doi: "10.1186/s40168-025-02118-6"
+platform: wikibiome
 ---
 
 # Fan et al. 2025 -- FMT for Hypertension: Multicenter RCT

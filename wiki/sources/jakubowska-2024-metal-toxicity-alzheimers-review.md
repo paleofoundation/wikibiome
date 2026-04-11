@@ -1,4 +1,5 @@
 ---
+
 title: "Metal toxicity exposure in Alzheimer's disease - literature review"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Jakubowska E, Hoppe-Mitera E, Sionek I, Slemp J, Pakula A, Kuzma K, Bi
 journal: Journal of Education, Health and Sport
 year: 2024
 tags: [Alzheimers-disease, aluminum, lead, zinc, copper, metal-toxicity, neurodegeneration, amyloid-beta, tau-protein]
+platform: wikibiome
 ---
 
 # Key Claims

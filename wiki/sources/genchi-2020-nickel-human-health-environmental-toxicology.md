@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel: Human Health and Environmental Toxicology"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Environmental Research and Public Health
 year: 2020
 tags: [nickel, toxicity, carcinogenicity, allergy, epigenetics, apoptosis, phytoremediation, oxidative-stress, contact-dermatitis, occupational-exposure, teratogenicity]
 doi: "10.3390/ijerph17030679"
+platform: wikibiome
 ---
 
 # Key Claims

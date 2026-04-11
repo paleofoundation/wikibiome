@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: []
 year: 2024
 journal: "Frontiers in Microbiology"
-doi: "10.3389/fmicb.2024.XXXXXX"
+doi: "10.3389/fmicb.2024.1445325"
 tags: [parkinsons-disease, mendelian-randomization, cognitive-impairment, gut-microbiota, causal-analysis, dementia, microbiome-causality]
 library_category: causal
 platform: both

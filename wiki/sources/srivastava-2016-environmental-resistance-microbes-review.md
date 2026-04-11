@@ -1,4 +1,5 @@
 ---
+
 title: "Understanding the Development of Environmental Resistance Among Microbes: A Review"
 type: source
 created: 2026-04-09
@@ -11,6 +12,7 @@ issue: 9
 pages: "1-8"
 doi: "10.1002/clen.201300975"
 tags: [antimicrobial-resistance, environmental-resistance, heavy-metals, co-selection, efflux-pumps, horizontal-gene-transfer, plasmids, integrons, multidrug-resistance, environmental-pollution, wastewater, developing-countries]
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Dysregulated tryptophan metabolism: driving T cell subsets and PI3K-Akt pathway alterations in Hashimoto's thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, tryptophan, indoles, kynurenine, t-cell-subsets, pi3k-akt, immune-regulation, inflammation, metabolomics]
 doi: "10.3389/fimmu.2025.1605739"
+platform: wikibiome
 ---
 
 # Dysregulated tryptophan metabolism: driving T cell subsets and PI3K-Akt pathway alterations in Hashimoto's thyroiditis

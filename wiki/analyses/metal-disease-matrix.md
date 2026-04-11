@@ -1,4 +1,5 @@
 ---
+
 title: "Metal-Disease Matrix: A Cross-Source Synthesis"
 type: analysis
 created: 2026-04-09
@@ -50,6 +51,7 @@ sources:
   - rasin-2025-cadmium-exposure-health-review
   - kravchenko-2023-thyroid-hormones-minerals-AITD
 tags: [synthesis, metals, disease, diagnostics, therapeutics]
+platform: wikibiome
 ---
 
 # Metal-Disease Matrix: A Cross-Source Synthesis
@@ -64,7 +66,7 @@ The matrix below reports the predominant direction of association found across t
 
 **Legend**: ↑ = elevated in disease, ↓ = depleted in disease, ↑↓ = dysregulated (evidence in both directions or context-dependent), -- = no significant change or insufficient data, ? = not studied or data lacking.
 
-| Disease | [[Nickel\|Ni]] | [[Copper\|Cu]] | [[Zinc\|Zn]] | [[Iron\|Fe]] | [[Selenium\|Se]] | [[Manganese\|Mn]] | [[Lead\|Pb]] | [[Cadmium\|Cd]] | [[Mercury\|Hg]] | [[Arsenic\|As]] | [[Chromium\|Cr]] | [[Aluminum\|Al]] |
+| Disease | [[nickel|Ni]] | [[copper|Cu]] | [[zinc|Zn]] | [[iron|Fe]] | [[selenium|Se]] | [[manganese|Mn]] | [[lead|Pb]] | [[cadmium|Cd]] | [[mercury|Hg]] | [[arsenic|As]] | [[chromium|Cr]] | [[aluminum|Al]] |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **PCOS** | ↑ (erythrocytes, obese) | ↑ (meta-analysis) | ↑↓ (conflicting) | ↑ | -- | -- | ↑ | ↑ | ↑ | ↑ | -- | ? |
 | **Breast cancer** | ↑ (tissue) | ↑ (serum, tissue) | ↓ (serum, hair) | ↑↓ | ↓ | ↓ (serum) | ↑ | ↑ (metalloestrogen) | -- | -- | -- | ? |

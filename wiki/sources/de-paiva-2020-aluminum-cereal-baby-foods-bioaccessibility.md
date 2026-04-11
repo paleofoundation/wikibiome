@@ -1,4 +1,5 @@
 ---
+
 title: "Aluminum content and effect of in vitro digestion on bioaccessible fraction in cereal-based baby foods"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [de Paiva EL, Medeiros C, Milani RF, Morgano MA, Pallone JAL, Arisseto-
 journal: Food Research International
 year: 2020
 tags: [aluminum, cereal, baby-food, bioaccessibility, in-vitro-digestion, infant-formula, Brazil, ICP-OES]
+platform: wikibiome
 ---
 
 ## Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ year: 2026
 journal: "Conference Presentation"
 tags: [endometriosis, nickel, microbiome, metallomics, conference]
 doi: ""
+platform: wikibiome
 ---
 
 # Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)

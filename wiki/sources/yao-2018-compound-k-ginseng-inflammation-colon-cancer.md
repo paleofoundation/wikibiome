@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of Compound K, an Enteric Microbiome Metabolite of Ginseng, in the Treatment of Inflammation Associated Colon Cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Oncology Letters
 year: 2018
 tags: [colon-cancer, compound-K, ginsenoside-Rb1, ginseng, microbiome-metabolite, anti-proliferative, apoptosis, IL-8, inflammation, p21, p53, colorectal-cancer]
 doi: "10.3892/ol.2018.8414"
+platform: wikibiome
 ---
 
 # Effects of Compound K, an Enteric Microbiome Metabolite of Ginseng, in the Treatment of Inflammation Associated Colon Cancer

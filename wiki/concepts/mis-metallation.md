@@ -1,10 +1,12 @@
 ---
+
 title: Mis-Metallation
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis, jaishankar-2014-heavy-metal-toxicity-mechanisms, ogrady-2025-metal-dyshomeostasis-asd, aquino-2012-cadmium-nickel-metalloestrogens, blazewicz-2023-metal-profiles-asd, briffa-2020-heavy-metal-pollution-environment-toxicology, maier-2019-nickel-microbial-pathogenesis, brylinski-2025-trace-elements-thyroid-diseases, tarhonska-2022-cadmium-breast-cancer-mechanisms]
 tags: [mis-metallation, metal-displacement, ionic-mimicry, zinc-finger, calcium-signaling, iron-replacement, enzyme-inhibition, metal-toxicity-mechanism]
+platform: wikibiome
 ---
 
 # Mis-Metallation
@@ -100,6 +102,19 @@ The mis-metallation framework has practical implications:
 - **Metal ratios** (e.g., Cu/Zn, Fe/Cu) may be more diagnostically useful than absolute concentrations
 - **Zinc supplementation** can partially protect against Cd and Pb toxicity by restoring the competitive balance
 - **Iron status assessment** alongside toxic metal screening is essential because iron deficiency increases absorption of Cd, Pb, and Ni via shared transporters (DMT1)
+
+
+## Key Sources
+
+- [[salnikov-2008-metal-carcinogenesis]]
+- [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
+- [[ogrady-2025-metal-dyshomeostasis-asd]]
+- [[aquino-2012-cadmium-nickel-metalloestrogens]]
+- [[blazewicz-2023-metal-profiles-asd]]
+- [[briffa-2020-heavy-metal-pollution-environment-toxicology]]
+- [[maier-2019-nickel-microbial-pathogenesis]]
+- [[brylinski-2025-trace-elements-thyroid-diseases]]
+- [[tarhonska-2022-cadmium-breast-cancer-mechanisms]]
 
 ## Connections to Other Concepts
 

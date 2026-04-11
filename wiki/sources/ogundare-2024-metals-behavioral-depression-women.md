@@ -1,4 +1,5 @@
 ---
+
 title: "Association of Combined Effect of Metals Exposure and Behavioral Factors on Depressive Symptoms in Women"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Toxics
 year: 2024
 tags: [depression, heavy-metals, lead, cadmium, mercury, women, NHANES, BKMR, alcohol, smoking, mental-health]
 doi: "10.3390/toxics12120879"
+platform: wikibiome
 ---
 
 # Association of Combined Effect of Metals Exposure and Behavioral Factors on Depressive Symptoms in Women

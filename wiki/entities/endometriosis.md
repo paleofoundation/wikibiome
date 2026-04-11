@@ -1,4 +1,5 @@
 ---
+
 title: Endometriosis
 type: entity
 subtype: disease
@@ -16,28 +17,29 @@ sources:
   - microbiome-diet-endometriosis-food-tables
   - aquino-2012-cadmium-nickel-metalloestrogens
 tags: [gynecological, nickel-allergy, metalloestrogens, microbiome, dietary-paradox, estrogen-dependent, chronic-inflammatory]
+platform: wikibiome
 ---
 
 # Endometriosis
 
 ## Overview
 
-Endometriosis is a chronic estrogen-dependent inflammatory condition affecting approximately 10% of reproductive-age women, characterized by the growth of endometrial-like tissue outside the uterus. The conventional framing treats it as a hormonal or immune disorder. The metallomic and microbiome perspective -- developed most comprehensively in the companion [[signatures/endometriosis|signature page]] -- reveals it as an ecological disease driven by metal-dependent microbial communities. This entity page provides the broader metallomics context: the systemic metal exposures, dietary paradoxes, and environmental links that feed the disease ecology described in the signature.
+Endometriosis is a chronic estrogen-dependent inflammatory condition affecting approximately 10% of reproductive-age women, characterized by the growth of endometrial-like tissue outside the uterus. The conventional framing treats it as a hormonal or immune disorder. The metallomic and microbiome perspective -- developed most comprehensively in the companion [[endometriosis|signature page]] -- reveals it as an ecological disease driven by metal-dependent microbial communities. This entity page provides the broader metallomics context: the systemic metal exposures, dietary paradoxes, and environmental links that feed the disease ecology described in the signature.
 
 The pioneering finding is the extraordinary prevalence of nickel allergy in endometriosis patients: **90.3% tested positive for nickel allergic contact mucositis (Ni ACM)** in the [[borghini-2020-endometriosis-nickel-ibs|Borghini et al. (2020)]] study -- a prevalence far exceeding the general population rate of approximately 30%.
 
 ## Metallomic Signature
 
-The tissue metallomic signature from the [[signatures/endometriosis|endometriosis signature page]] shows elevated zinc, iron, cadmium, lead, and nickel with depleted glutathione. From the peritoneal fluid data:
+The tissue metallomic signature from the [[endometriosis|endometriosis signature page]] shows elevated zinc, iron, cadmium, lead, and nickel with depleted glutathione. From the peritoneal fluid data:
 
 | Metal | Peritoneal Fluid Finding | Systemic Relevance |
 |-------|-------------------------|-------------------|
-| **[[nickel\|Ni]]** | 40.4 ug/L vs. <LOD in control (4:1 ratio); 77.8% literature consensus | Cofactor for urease, glyoxalase, hydrogenase in pathogenic taxa; Ni ACM prevalence 90.3% in symptomatic patients |
-| **[[iron\|Fe]]** | Elevated in peritoneal fluid via retrograde menstruation | 70.4% literature consensus; siderophore competition; functional anemia via hepcidin (host defense, NOT deficiency) |
-| **[[lead\|Pb]]** | 75 ug/L vs. 0.72 ug/L in control (90:1 ratio) | 59.3% consensus; mis-metallation via Ca channels; synergistic with Cd for oxidative stress |
-| **[[cadmium\|Cd]]** | Elevated in peritoneal environment | 18.5% consensus; metalloestrogen (ERa binding); synergistic with Pb |
-| **[[zinc\|Zn]]** | Elevated locally (lesion microenvironment) | 14.8% consensus; MMP cofactor enabling tissue invasion; calprotectin target |
-| **[[copper\|Cu]]** | Elevated | 14.8% consensus; microbial virulence cofactor |
+| **[[nickel|Ni]]** | 40.4 ug/L vs. <LOD in control (4:1 ratio); 77.8% literature consensus | Cofactor for urease, glyoxalase, hydrogenase in pathogenic taxa; Ni ACM prevalence 90.3% in symptomatic patients |
+| **[[iron|Fe]]** | Elevated in peritoneal fluid via retrograde menstruation | 70.4% literature consensus; siderophore competition; functional anemia via hepcidin (host defense, NOT deficiency) |
+| **[[lead|Pb]]** | 75 ug/L vs. 0.72 ug/L in control (90:1 ratio) | 59.3% consensus; mis-metallation via Ca channels; synergistic with Cd for oxidative stress |
+| **[[cadmium|Cd]]** | Elevated in peritoneal environment | 18.5% consensus; metalloestrogen (ERa binding); synergistic with Pb |
+| **[[zinc|Zn]]** | Elevated locally (lesion microenvironment) | 14.8% consensus; MMP cofactor enabling tissue invasion; calprotectin target |
+| **[[copper|Cu]]** | Elevated | 14.8% consensus; microbial virulence cofactor |
 
 ### The Hepcidin Signal: Functional Anemia vs. True Deficiency
 
@@ -45,7 +47,7 @@ A critical clinical insight from the signature analysis: hepcidin is elevated in
 
 ## Gut Microbiome Connection
 
-The microbiome dimension of endometriosis is extensively documented in the [[signatures/endometriosis|signature page]]. Key elements relevant to the metallomic context:
+The microbiome dimension of endometriosis is extensively documented in the [[endometriosis|signature page]]. Key elements relevant to the metallomic context:
 
 **Metal-dependent pathogenic consortium.** The enriched taxa (E. coli, B. fragilis, S. agalactiae, F. nucleatum, C. albicans) share a common feature: dependence on nickel, iron, and zinc for virulence enzymes. Nickel-dependent glyoxalase enables immune evasion across all glyoxalase-positive pathogens. Iron-dependent siderophores power biofilm formation. Zinc-dependent metalloproteases enable tissue invasion.
 
@@ -127,7 +129,7 @@ Endometriosis onset typically occurs during adolescence and early reproductive y
 ## Connections
 
 - [[metal-disease-matrix]] -- Cross-disease metallomic comparison; endometriosis signature mapped
-- [[signatures/endometriosis]] -- Companion signature page with full taxonomic, virulence enzyme, and ecological analysis
+- [[endometriosis]] -- Companion signature page with full taxonomic, virulence enzyme, and ecological analysis
 - [[dietary-metal-paradoxes]] -- Plant-based diet paradox and zinc-MMP paradox documented here
 - [[nickel-allergy]] -- 90.3% Ni ACM prevalence; Ni as metalloestrogen; SNAS overlap
 - [[metalloestrogens]] -- Cd ERa binding (Kd 4.5x10^-10 M); Ni noncompetitive ERa binding

@@ -1,4 +1,5 @@
 ---
+
 title: "Oral mycobiota and pancreatic ductal adenocarcinoma"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Cancer
 year: 2022
 tags: [pancreatic-cancer, mycobiome, oral-mycobiota, fungal-dysbiosis, Aspergillus, Cladosporium, Basidiomycota, Ascomycota, ITS-sequencing, biomarkers]
 doi: "10.1186/s12885-022-10329-5"
+platform: wikibiome
 ---
 
 # Key Claims

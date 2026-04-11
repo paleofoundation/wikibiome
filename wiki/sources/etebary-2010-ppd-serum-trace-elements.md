@@ -1,4 +1,5 @@
 ---
+
 title: "Postpartum Depression and Role of Serum Trace Elements"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Etebary S, Nikseresht S, Sadeghipour HR, Zarrindast MR]
 journal: Iranian Journal of Psychiatry
 year: 2010
 tags: [postpartum-depression, trace-elements, zinc, magnesium, iron, copper, review, neurotransmitters, HPA-axis]
+platform: wikibiome
 ---
 
 # Key Claims

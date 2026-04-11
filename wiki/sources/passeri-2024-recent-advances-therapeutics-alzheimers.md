@@ -1,4 +1,5 @@
 ---
+
 title: "Recent Advances in Therapeutics for the Treatment of Alzheimer's Disease"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Passeri E, et al.]
 journal: (Brain Sciences / related journal)
 year: 2024
 tags: [Alzheimers-disease, therapeutics, drug-development, amyloid-beta, tau-protein, cholinesterase-inhibitors, immunotherapy, clinical-trials, neuroprotection]
+platform: wikibiome
 ---
 
 # Key Claims

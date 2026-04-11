@@ -1,4 +1,5 @@
 ---
+
 title: "Exploring the oral-gut microbiota during thyroid cancer: Factors affecting the thyroid functions and cancer development"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Food Science and Nutrition
 year: 2023
 tags: [thyroid-cancer, gut-microbiota, oral-microbiota, probiotics, gut-thyroid-axis, lifestyle-factors, iodine, selenium, heavy-metals, dysbiosis]
 doi: "10.1002/fsn3.3538"
+platform: wikibiome
 ---
 
 # Exploring the oral-gut microbiota during thyroid cancer: Factors affecting the thyroid functions and cancer development

@@ -1,4 +1,5 @@
 ---
+
 title: "The association between anemia and postpartum depression: A systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Caspian Journal of Internal Medicine
 year: 2019
 tags: [anemia, postpartum-depression, meta-analysis, systematic-review, iron-deficiency, hemoglobin, ferritin, EPDS]
 doi: "10.22088/cjim.10.2.115"
+platform: wikibiome
 ---
 
 # Key Claims

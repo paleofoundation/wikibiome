@@ -1,4 +1,5 @@
 ---
+
 title: "Role of Cadmium and Nickel in Estrogen Receptor Signaling and Breast Cancer: Metalloestrogens or Not?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Environmental Science and Health Part C - Environmental Carc
 year: 2012
 tags: [cadmium, nickel, metalloestrogens, estrogen-receptor, breast-cancer, ERa, GPR30, chromatin-modifications, aneuploidy, endocrine-disruption]
 doi: "10.1080/10590501.2012.705159"
+platform: wikibiome
 ---
 
 # Role of Cadmium and Nickel in Estrogen Receptor Signaling and Breast Cancer: Metalloestrogens or Not?

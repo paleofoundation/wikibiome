@@ -1,4 +1,5 @@
 ---
+
 title: "Ketogenic diet enhances neurovascular function with altered gut microbiome in young healthy mice"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [David Ma, Amy C. Wang, Ishita Parikh, Stefan J. Green, Jared D. Hoffma
 journal: Scientific Reports
 year: 2018
 tags: [cardiovascular-disease, ketogenic-diet, gut-microbiome, neurovascular-function, cerebral-blood-flow, Akkermansia, Lactobacillus, mTOR, eNOS, BBB]
+platform: wikibiome
 ---
 
 # Ma et al. 2018 -- Ketogenic Diet Enhances Neurovascular Function via Gut Microbiome

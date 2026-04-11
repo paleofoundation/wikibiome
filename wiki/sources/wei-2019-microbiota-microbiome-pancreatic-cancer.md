@@ -1,4 +1,5 @@
 ---
+
 title: "The microbiota and microbiome in pancreatic cancer: more influential than expected"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Cancer
 year: 2019
 tags: [pancreatic-cancer, microbiome, microbiome-review, oral-microbiota, gut-microbiome, H-pylori, Fusobacterium, tumor-microenvironment, inflammation, metabolism, immunotherapy]
 doi: "10.1186/s12943-019-1008-0"
+platform: wikibiome
 ---
 
 # Key Claims

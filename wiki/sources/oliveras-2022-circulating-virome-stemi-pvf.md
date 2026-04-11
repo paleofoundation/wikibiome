@@ -1,4 +1,5 @@
 ---
+
 title: "Circulating virome and inflammatory proteome in patients with ST-elevation myocardial infarction and primary ventricular fibrillation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2022
 doi: 10.1038/s41598-022-12075-x
 tags: [cardiovascular-disease, virome, viral-microbiota, STEMI, ventricular-fibrillation, Herpesviridae, Anelloviridae, circulating-virome, inflammation]
+platform: wikibiome
 ---
 
 # Circulating Virome and Inflammatory Proteome in Patients with STEMI and Primary Ventricular Fibrillation

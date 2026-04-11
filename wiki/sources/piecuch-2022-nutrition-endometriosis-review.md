@@ -1,4 +1,5 @@
 ---
+
 title: "I Am the 1 in 10 -- What Should I Eat? A Research Review of Nutrition in Endometriosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrients
 year: 2022
 tags: [endometriosis, nutrition, dietary-intervention, low-nickel-diet, anti-inflammatory-diet, polyphenols, antioxidants, review]
 doi: "10.3390/nu14245283"
+platform: wikibiome
 ---
 
 # Key Claims

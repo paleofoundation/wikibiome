@@ -1,4 +1,5 @@
 ---
+
 title: "Pheomelanin, Eumelanin, and Neuromelanin: A Metal-Linked Hypothesis for Parkinson's Risk in Redheads"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Microbiome Medicine Roundtable, Limassol, Cyprus"
 year: 2025
 tags: [Parkinsons-disease, pheomelanin, eumelanin, neuromelanin, iron, copper, redheads, MC1R, melanin, dopamine, substantia-nigra, oxidative-stress, ferroptosis, metal-binding, neurodegeneration]
 doi: "10.5281/zenodo.17976306"
+platform: wikibiome
 ---
 
 # Pheomelanin, Eumelanin, and Neuromelanin: A Metal-Linked Hypothesis for Parkinson's Risk in Redheads

@@ -1,4 +1,5 @@
 ---
+
 title: "Effect of Probiotics or Prebiotics on Thyroid Function: A Meta-Analysis of Eight Randomized Controlled Trials"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2024
 doi: "10.1371/journal.pone.0296733"
 tags: [hashimotos-thyroiditis, thyroid, probiotics, prebiotics, synbiotics, meta-analysis, RCT, TSH, TRAb, thyroid-hormones, Lactobacillus, Bifidobacterium, berberine, fructo-oligosaccharides, gut-microbiota, Graves-disease, hypothyroidism]
+platform: wikibiome
 ---
 
 # Effect of Probiotics or Prebiotics on Thyroid Function: A Meta-Analysis of Eight Randomized Controlled Trials

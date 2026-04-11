@@ -1,4 +1,5 @@
 ---
+
 title: "Dietary fiber intake and pancreatic cancer risk: a meta-analysis of epidemiologic studies"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2015
 tags: [pancreatic-cancer, dietary-fiber, meta-analysis, risk-factors, epidemiology, high-fiber-diet, cancer-prevention]
 doi: "10.1038/srep10834"
+platform: wikibiome
 ---
 
 # Key Claims

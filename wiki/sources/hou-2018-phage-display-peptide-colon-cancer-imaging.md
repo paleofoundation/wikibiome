@@ -1,4 +1,5 @@
 ---
+
 title: "Identification of a specific peptide binding to colon cancer cells from a phage-displayed peptide library"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Cancer
 year: 2018
 doi: "10.1038/bjc.2017.366"
 tags: [colon-cancer, colorectal-cancer, phage-display, peptide, molecular-probe, imaging, CBP-DWS, Glypican-3, COLO320HSR, HCT116, diagnostic]
+platform: wikibiome
 ---
 
 # Hou 2018 -- Phage Display Peptide for Colon Cancer Imaging

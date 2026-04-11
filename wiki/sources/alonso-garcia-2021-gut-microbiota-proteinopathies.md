@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbial imbalance and neurodegenerative proteinopathies: from molecular mechanisms to prospects of clinical applications"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Alonso-Garcia P, Martin R, Martinez-Pinilla E]
 journal: Exploration of Neuroprotective Therapy
 year: 2021
 tags: [gut-microbiota, proteinopathies, neurodegeneration, Parkinsons-disease, Alzheimers-disease, Huntingtons-disease, gut-brain-axis, dysbiosis, probiotics, FMT]
+platform: wikibiome
 ---
 
 # Key Claims

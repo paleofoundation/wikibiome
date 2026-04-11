@@ -1,4 +1,5 @@
 ---
+
 title: "The gut microbial metabolite trimethylamine N-oxide and cardiovascular diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 doi: 10.3389/fendo.2023.1085041
 tags: [cardiovascular-disease, CVD, TMAO, trimethylamine-N-oxide, gut-microbiota, atherosclerosis, heart-failure, hypertension, arrhythmia, coronary-artery-disease, metabolite, FMO3, choline, L-carnitine, review]
+platform: wikibiome
 ---
 
 # The Gut Microbial Metabolite Trimethylamine N-Oxide and Cardiovascular Diseases

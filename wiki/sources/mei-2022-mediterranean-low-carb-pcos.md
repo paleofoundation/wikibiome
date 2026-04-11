@@ -1,4 +1,5 @@
 ---
+
 title: "Mediterranean Diet Combined With a Low-Carbohydrate Dietary Pattern in the Treatment of Overweight Polycystic Ovary Syndrome Patients"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Mei S, Ding J, Wang K, Ni Z, Yu J]
 journal: Frontiers in Nutrition
 year: 2022
 tags: [PCOS, Mediterranean-diet, low-carbohydrate, RCT, insulin-resistance, weight-loss, testosterone, lipid-metabolism]
-doi: "10.3390/nu11030691"
+doi: "10.3389/fnut.2022.876620"
+platform: wikibiome
 ---
 
 # Key Claims

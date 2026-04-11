@@ -1,4 +1,5 @@
 ---
+
 title: "Co-selection of multi-antibiotic resistance in bacterial pathogens in metal and microplastic contaminated environments: an emerging health threat"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ volume: 215
 pages: "846-857"
 doi: "10.1016/j.chemosphere.2018.10.114"
 tags: [co-selection, antimicrobial-resistance, heavy-metals, microplastics, mercury, lead, copper, zinc, cadmium, nickel, chromium, horizontal-gene-transfer, marine-environment, multidrug-resistance, efflux-pumps, biofilm, metallothionein]
+platform: wikibiome
 ---
 
 # Key Claims

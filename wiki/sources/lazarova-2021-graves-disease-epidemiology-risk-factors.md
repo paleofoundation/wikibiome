@@ -1,4 +1,5 @@
 ---
+
 title: "Graves' disease: Epidemiology, genetic and environmental risk factors and viruses"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Best Practice & Research Clinical Endocrinology & Metabolism
 year: 2023
 doi: "10.1016/j.beem.2023.101800"
 tags: [graves-disease, thyroid, autoimmune, epidemiology, genetic-risk, environmental-risk, viruses, HLA, smoking, selenium, iodine, stress, infection, immune-dysregulation]
+platform: wikibiome
 ---
 
 # Graves' disease: Epidemiology, genetic and environmental risk factors and viruses

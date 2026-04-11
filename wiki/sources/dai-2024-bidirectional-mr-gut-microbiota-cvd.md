@@ -1,4 +1,5 @@
 ---
+
 title: "Assessment of the Causal Relationship between Gut Microbiota and Cardiovascular Diseases: A Bidirectional Mendelian Randomization Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s13040-024-00356-2"
 tags: [cardiovascular-disease, Mendelian-randomization, bidirectional, atrial-fibrillation, coronary-artery-disease, myocardial-infarction, ischemic-stroke, hypertension, Howardella, Intestinibacter, Coprococcus, Parasutterella]
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/s13040-024-00356-2.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

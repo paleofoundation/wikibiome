@@ -1,4 +1,5 @@
 ---
+
 title: "Relationships Between Biological Heavy Metals and Breast Cancer: A Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Liu L, Chen J, Liu C, Liu Y, Luo J, Chen J, Fu Y, Xu Y, Wu H, Li X, Wa
 journal: Frontiers in Nutrition
 year: 2022
 tags: [heavy-metals, breast-cancer, meta-analysis, systematic-review, copper, cadmium, zinc, manganese, lead, nickel, biomarkers]
-doi: "10.3390/ijms25042080"
+doi: "10.3389/fnut.2022.838869"
+platform: wikibiome
 ---
 
 # Relationships Between Biological Heavy Metals and Breast Cancer: A Systematic Review and Meta-Analysis

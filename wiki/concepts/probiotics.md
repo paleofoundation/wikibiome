@@ -1,10 +1,12 @@
 ---
+
 title: Probiotics
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhai-2016-probiotics-cadmium, lombardi-2020-snas-probiotics-dysbiosis, ostadmohammadi-2019-vitamin-d-probiotic-pcos, angoorani-2023-probiotics-prebiotics-synbiotics-pcos, kouchaki-2017-clinical-metabolic-probiotic-ms, dargahi-2020-streptococcus-thermophilus-ms, tankou-2018-probiotic-microbiome-ms, kun-2023-microbiota-thyroid-cancer, chen-2022-living-microorganisms-detoxification-heavy-metals, calcaterra-2023-probiotics-pcos-adolescents, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]
 tags: [probiotics, gut-microbiome, heavy-metals, detoxification, dysbiosis, PCOS, multiple-sclerosis, thyroid, GEMs, metal-binding]
+platform: wikibiome
 ---
 
 # Probiotics
@@ -70,6 +72,13 @@ Traditional probiotics have limited metal-resistance properties, motivating deve
 - **Limitations**: Gene migration risk (40-65% plasmid loss in gut), safety concerns, lack of chronic exposure models, and regulatory hurdles
 
 The NixA transporter is particularly relevant to nickel-targeted engineered probiotics, potentially applicable to SNAS or occupational nickel exposure.
+
+
+## Key Sources
+
+- [[calcaterra-2023-probiotics-pcos-adolescents]]
+- [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
+- [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Exploring the Mycobiota in Multiple Sclerosis: Its Influence on Disease Development and Progression"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2025
 tags: [multiple-sclerosis, mycobiome, Saccharomyces, Torulaspora, Malassezia, Cladosporium, Meyerozyma, HLA-DRB1, chitotriosidase, calprotectin, DMF, dietary-fats, ITS-sequencing, disability]
 doi: "10.3389/fimmu.2025.1625794"
+platform: wikibiome
 ---
 
 # Exploring the Mycobiota in Multiple Sclerosis: Its Influence on Disease Development and Progression

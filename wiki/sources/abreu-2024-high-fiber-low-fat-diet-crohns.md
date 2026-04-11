@@ -1,4 +1,5 @@
 ---
+
 title: "A High-Fiber, Low-Fat Diet Improves the Symptoms and Metabolic Profile of Patients with Crohn's Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: medRxiv (preprint)
 year: 2024
 tags: [crohns-disease, IBD, dietary-intervention, high-fiber-diet, low-fat-diet, SCFAs, proteomics, metabolomics, inflammation, clinical-trial]
 doi: "10.1101/2024.08.30.24312853"
+platform: wikibiome
 ---
 
 # Key Claims

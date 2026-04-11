@@ -1,4 +1,5 @@
 ---
+
 title: "Impact of the Repurposed Drug Thonzonium Bromide on Host Oral-Gut Microbiomes"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Aurea Simon-Soro, Dongyeop Kim, Yong Li, Yuan Liu, Tatsuro Ito, Kennet
 journal: npj Biofilms and Microbiomes
 year: 2021
 tags: [colon-cancer, drug-repurposing, microbiome, oral-gut-axis, thonzonium-bromide, nanoparticle-carrier, Rothia, Veillonella, Sutterella, dental-caries, colorectal-cancer]
+platform: wikibiome
 ---
 
 # Key Claims

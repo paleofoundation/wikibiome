@@ -1,7 +1,9 @@
 ---
+
 title: "Co-Selection"
 category: concept
 tags: [co-selection, antibiotic-resistance, metal-resistance, horizontal-gene-transfer, mobile-genetic-elements]
+platform: wikibiome
 ---
 
 # Co-Selection

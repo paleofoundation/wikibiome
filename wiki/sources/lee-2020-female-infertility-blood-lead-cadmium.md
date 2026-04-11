@@ -1,4 +1,5 @@
 ---
+
 title: "Female Infertility Associated with Blood Lead and Cadmium Levels"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "International Journal of Environmental Research and Public Health"
 year: 2020
 tags: [female-infertility, lead, cadmium, NHANES, reproductive-health, blood-metals]
 doi: "10.5772/intechopen.89462"
+platform: wikibiome
 ---
 
 # Key Claims

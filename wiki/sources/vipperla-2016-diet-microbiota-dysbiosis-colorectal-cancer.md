@@ -1,4 +1,5 @@
 ---
+
 title: "Diet, microbiota, and dysbiosis: a 'recipe' for colorectal cancer"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Kishore Vipperla, Stephen J. O'Keefe]
 journal: Food & Function
 year: 2016
 tags: [colon-cancer, colorectal-cancer, dysbiosis, diet, microbiome, butyrate, bile-acids, hydrogen-sulfide, SCFAs, red-meat, fiber, metabolome]
+platform: wikibiome
 ---
 
 # Vipperla 2016 -- Diet, Microbiota, and Dysbiosis: A Recipe for Colorectal Cancer

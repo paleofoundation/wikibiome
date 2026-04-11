@@ -1,4 +1,5 @@
 ---
+
 title: "Levels of Trace Elements in Erythrocytes as Endocrine Disruptors in Obese and Nonobese Women with Polycystic Ovary Syndrome"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Kamila Pokorska-Niewiada, Agnieszka Brodowska, Jacek Brodowski, Malgor
 journal: International Journal of Environmental Research and Public Health
 year: 2022
 tags: [PCOS, trace-elements, nickel, zinc, iron, manganese, copper, magnesium, erythrocytes, endocrine-disruption, obesity]
-doi: "10.1007/s13361-019-02310-7"
+doi: "10.3390/ijerph19137998"
+platform: wikibiome
 ---
 
 ## Summary

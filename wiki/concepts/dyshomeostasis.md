@@ -1,7 +1,9 @@
 ---
+
 title: "Dyshomeostasis"
 category: concept
 tags: [dyshomeostasis, metal-imbalance, homeostasis, trace-elements, disease-mechanism]
+platform: wikibiome
 ---
 
 # Dyshomeostasis
@@ -18,7 +20,7 @@ The pathological disruption of normal metal homeostasis -- the tightly regulated
 ## Microbiome Connections
 
 - Gut bacteria modulate metal absorption, speciation, and systemic distribution.
-- [[Dysbiosis]] both causes and results from metal dyshomeostasis -- a bidirectional feedback loop.
+- [[dysbiosis]] both causes and results from metal dyshomeostasis -- a bidirectional feedback loop.
 - The [[gut-metal-microbiome]] axis is where dietary metal exposure first encounters microbial modifiers.
 
 ## Connections

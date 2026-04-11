@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2020
 volume: "6:e04691"
 doi: "10.1016/j.heliyon.2020.e04691"
 tags: [heavy-metals, environmental-pollution, toxicology, carcinogenicity, oxidative-stress, nickel, cadmium, arsenic, chromium, lead, mercury, aluminum, manganese, copper, zinc, cobalt, vanadium, selenium, molybdenum, silver, pharmacokinetics, bioaccumulation, soil-pollution, water-pollution, air-pollution, food-contamination]
+platform: wikibiome
 ---
 
 # Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans

@@ -1,4 +1,5 @@
 ---
+
 title: "Susceptibility to Environmental Heavy Metal Toxicity among Americans with Kidney Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Kidney360"
 year: 2022
 tags: [lead, cadmium, chronic-kidney-disease, NHANES, racial-disparities, urinary-excretion, eGFR]
 doi: "10.1097/MNH.0000000000000991"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Metal Homeostasis in Pathogenic Streptococci"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microorganisms
 year: 2022
 tags: [Streptococcus, metal-homeostasis, zinc, manganese, iron, copper, nickel, virulence, metal-transport, ABC-transporter, CDF-pump, P-type-ATPase, nutritional-immunity]
 doi: "10.3390/microorganisms10081501"
+platform: wikibiome
 ---
 
 # Metal Homeostasis in Pathogenic Streptococci

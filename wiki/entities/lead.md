@@ -1,10 +1,12 @@
 ---
+
 title: Lead
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, tizabi-2023-lead-gut-microbiota-asd.md, eggers-2023-prenatal-lead-gut-microbiome-childhood.md, gao-2017-lead-exposure-multi-omics-gut-microbiome.md, breton-2016-cadmium-lead-oral-exposure-colitis.md, danziger-2022-susceptibility-heavy-metal-toxicity-ckd.md, moody-2018-toxic-metals-ckd-systematic-review.md, kuo-2024-low-level-lead-cadmium-ckd-mortality.md, bakulski-2025-heavy-metals-late-onset-alzheimers.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, sabath-2012-renal-health-heavy-metal-nephrotoxicity.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, kirmizi-2020-heavy-metals-pcos.md, lin-2023-heavy-metals-infertility-nhanes.md, blazewicz-2023-metal-profiles-asd.md, haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia.md, liu-2022-heavy-metals-breast-cancer-meta-analysis.md, rokoff-2023-metal-mixtures-maternal-depression.md]
 tags: [heavy-metal, neurotoxin, nephrotoxin, heme-disruption, calcium-mimicry, purely-toxic]
+platform: wikibiome
 ---
 
 # Lead (Pb)
@@ -126,5 +128,5 @@ Pb, Cd, and Cr significantly elevated in both RA and fibromyalgia patients. Pb i
 - [[nickel]] -- co-measured in RA and cancer studies
 - [[chromium]] -- co-elevated in RA patients
 - [[oxidative-stress]] -- central mechanism across all organ systems
-- [[gut-microbiota]] -- Pb-induced dysbiosis and barrier disruption
+- [[gut-microbiome|gut-microbiota]] -- Pb-induced dysbiosis and barrier disruption
 - [[metal-carcinogenesis]] -- metalloestrogen activity in breast cancer

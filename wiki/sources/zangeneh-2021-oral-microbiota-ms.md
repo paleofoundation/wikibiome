@@ -1,4 +1,5 @@
 ---
+
 title: "Bacterial Variation in the Oral Microbiota in Multiple Sclerosis Patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2021
 tags: [oral-microbiome, multiple-sclerosis, 16S-rRNA, DGGE, dysbiosis, Lactobacillus, Peptostreptococcus, Prevotella, Fusobacterium]
 doi: "10.1371/journal.pone.0260384"
+platform: wikibiome
 ---
 
 # Bacterial Variation in the Oral Microbiota in Multiple Sclerosis Patients

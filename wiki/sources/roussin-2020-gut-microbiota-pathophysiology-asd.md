@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Léa Roussin, Naika Prince, Paula Perez-Pardo, Aletta D. Kraneveld, Sylvie Rabot, Laurent Naudon]
 year: 2020
 journal: "Microorganisms"
-doi: None
+doi: "10.3390/microorganisms8071605"
 tags: [autism, microbiota, pathophysiology, immune-system, tryptophan-metabolism, interventions]
 library_category: causal
 platform: both

@@ -1,4 +1,5 @@
 ---
+
 title: "16S rRNA Gene Sequencing for Deciphering the Colorectal Cancer Gut Microbiome: Current Protocols and Workflows"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2018
 tags: [colon-cancer, 16S-rRNA, sequencing-protocols, microbiome-methods, colorectal-cancer, gut-microbiome, QIIME, MOTHUR, biomarkers]
 doi: "10.3389/fmicb.2018.00767"
+platform: wikibiome
 ---
 
 # 16S rRNA Gene Sequencing for Deciphering the Colorectal Cancer Gut Microbiome: Current Protocols and Workflows

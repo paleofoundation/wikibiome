@@ -1,4 +1,5 @@
 ---
+
 title: "A systematic review and meta-analysis of optical coherence tomography in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Neurology, Neurosurgery and Psychiatry
 year: 2010
 doi: 10.1136/jnnp-2010-219576
 tags: [multiple-sclerosis, OCT, optical-coherence-tomography, RNFL, neurodegeneration, biomarker, optic-neuritis, meta-analysis]
+platform: wikibiome
 ---
 
 # A Systematic Review and Meta-analysis of Optical Coherence Tomography in Multiple Sclerosis

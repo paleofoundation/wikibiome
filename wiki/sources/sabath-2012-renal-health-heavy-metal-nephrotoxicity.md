@@ -1,4 +1,5 @@
 ---
+
 title: "Renal health and the environment: heavy metal nephrotoxicity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Nefrologia"
 year: 2012
 tags: [nephrotoxicity, cadmium, lead, arsenic, kidney-disease, proximal-tubule, metallothionein, review]
 doi: "10.1212/WNL.0000000000013121"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Intestinal microbiota regulates the gut-thyroid axis: the new dawn of improving Hashimoto thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Clinical and Experimental Medicine
 year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-thyroid-axis, dysbiosis, microbiome, intestinal-permeability, immune-regulation, probiotics, short-chain-fatty-acids, selenium, iodine, inflammation]
 doi: "10.1007/s10238-024-01304-4"
+platform: wikibiome
 ---
 
 # Intestinal microbiota regulates the gut-thyroid axis: the new dawn of improving Hashimoto thyroiditis

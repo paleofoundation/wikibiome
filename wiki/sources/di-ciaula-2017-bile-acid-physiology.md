@@ -1,4 +1,5 @@
 ---
+
 title: "Bile acid physiology"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Annals of Hepatology
 year: 2017
 tags: [bile-acids, FXR, GPBAR-1, enterohepatic-circulation, gut-microbiota, cholesterol-metabolism, lipid-metabolism, signaling]
 doi: "10.5604/01.3001.0010.5493"
+platform: wikibiome
 ---
 
 # Key Claims

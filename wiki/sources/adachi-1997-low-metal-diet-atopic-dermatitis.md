@@ -1,4 +1,5 @@
 ---
+
 title: "Potential Efficacy of Low Metal Diets and Dental Metal Elimination in the Management of Atopic Dermatitis: An Open Clinical Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: The Journal of Dermatology
 year: 1997
 tags: [atopic-dermatitis, low-metal-diet, dental-metal-elimination, nickel, chromium, cobalt, metal-allergy]
 doi: "10.1111/j.1346-8138.1997.tb02732.x"
+platform: wikibiome
 ---
 
 ## Key Claims

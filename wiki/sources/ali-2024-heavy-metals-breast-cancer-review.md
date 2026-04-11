@@ -1,4 +1,5 @@
 ---
+
 title: "Impact of heavy metals on breast cancer (Review)"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Ali AS, Nazar ME, Mustafa RM, Hussein S, Qurbani K, Ahmed SK]
 journal: World Academy of Sciences Journal
 year: 2024
 tags: [heavy-metals, breast-cancer, copper, cadmium, zinc, manganese, nickel, lead, biomarkers, review]
+platform: wikibiome
 ---
 
 # Impact of heavy metals on breast cancer (Review)

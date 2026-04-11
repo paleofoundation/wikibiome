@@ -1,4 +1,5 @@
 ---
+
 title: "Current Updates on the Role of Microbiome in Endometriosis: A Narrative Review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microorganisms
 year: 2023
 tags: [endometriosis, microbiome, review, vaginal-microbiome, gut-microbiome, community-state-types, estrobolome, precision-medicine, microbiome-therapeutics]
 doi: "10.3390/microorganisms11020360"
+platform: wikibiome
 ---
 
 # Key Claims

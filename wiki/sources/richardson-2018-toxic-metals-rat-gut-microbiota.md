@@ -1,4 +1,5 @@
 ---
+
 title: "Exposure to toxic metals triggers unique responses from the rat gut microbiota"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2018
 tags: [heavy-metals, arsenic, cadmium, cobalt, chromium, nickel, gut-microbiota, dose-response, 16S-rRNA, iron-transport, PICRUSt, rats]
 doi: "10.1038/s41598-018-24931-w"
+platform: wikibiome
 ---
 
 # Key Claims

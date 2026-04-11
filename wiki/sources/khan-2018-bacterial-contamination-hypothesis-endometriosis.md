@@ -1,4 +1,5 @@
 ---
+
 title: "Bacterial contamination hypothesis: a new concept in endometriosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Reproductive Medicine and Biology
 year: 2018
 tags: [endometriosis, bacterial-contamination-hypothesis, LPS, TLR4, E-coli, NF-kB, menstrual-blood, endotoxin, oxidative-stress, iron, GnRHa, intrauterine-microbial-colonization]
 doi: "10.1002/rmb2.12083"
+platform: wikibiome
 ---
 
 # Key Claims

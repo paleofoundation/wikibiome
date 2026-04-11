@@ -1,4 +1,5 @@
 ---
+
 title: "Dietary Metal Paradoxes: When Healthy Foods and Good Intentions Backfire"
 type: analysis
 created: 2026-04-09
@@ -36,6 +37,7 @@ sources:
   - smovrsnik-2025-trace-elements-pcos
   - kirmizi-2020-heavy-metals-pcos
 tags: [synthesis, paradox, diet, clinical-decision-making, metals]
+platform: wikibiome
 ---
 
 # Dietary Metal Paradoxes: When Healthy Foods and Good Intentions Backfire

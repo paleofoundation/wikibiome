@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel-Glyoxalase"
 type: concept
 created: 2026-04-10
@@ -6,13 +7,14 @@ updated: 2026-04-10
 sources: []
 tags: [virulence-enzyme, nickel-biology, metal-cofactor, detoxification]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels"
+platform: wikibiome
 ---
 
 ## Overview
 
 **Nickel-glyoxalase** (Ni-GlxI) is a bacterial variant of the **glyoxalase I** enzyme system that depends on **nickel** as its essential metal cofactor. This enzyme detoxifies **methylglyoxal** (MG), a toxic glycolysis byproduct that accumulates under glucose fermentation. Unlike the human cytoplasmic **zinc-glyoxalase** (Zn-GlxI), the bacterial Ni-dependent form creates a targeting opportunity: inhibiting Ni-GlxI disables pathogenic nickel-dependent bacteria without harming the host's zinc-dependent enzyme.
 
-This is a core example of [[Primitive 4|primitive-4-metal-dependencies]]: pathogens depend on metals for essential detoxification, and depriving them of that metal is lethal.
+This is a core example of [[primitive-4|primitive-4-metal-dependencies]]: pathogens depend on metals for essential detoxification, and depriving them of that metal is lethal.
 
 ## Mechanism
 
@@ -27,11 +29,11 @@ In bacteria like [[escherichia-coli]], some **Vibrio** species, and certain path
 
 ## Role in Disease
 
-[[Escherichia-coli]] with active Ni-GlxI is especially prominent in dysbiosis-driven conditions:
+[[escherichia-coli]] with active Ni-GlxI is especially prominent in dysbiosis-driven conditions:
 
-- **[[Endometriosis]]** — Ni-rich, estrogen-dependent E. coli proliferation; Ni-GlxI enables rapid growth under fermentative stress.
-- **[[Inflammatory Bowel Disease]]** — Dysbiotic E. coli with Ni-dependent detoxification; low-oxygen environments favor MG accumulation.
-- **[[Colorectal Cancer]]** — Genotoxic stress from MG increases reliance on Ni-GlxI.
+- **[[endometriosis]]** — Ni-rich, estrogen-dependent E. coli proliferation; Ni-GlxI enables rapid growth under fermentative stress.
+- **[[inflammatory-bowel-disease]]** — Dysbiotic E. coli with Ni-dependent detoxification; low-oxygen environments favor MG accumulation.
+- **[[colorectal-cancer]]** — Genotoxic stress from MG increases reliance on Ni-GlxI.
 
 Bacteria without functional Ni-GlxI (or starved of nickel) accumulate MG, triggering DNA damage, oxidative stress, and growth arrest.
 
@@ -46,22 +48,22 @@ Bacteria without functional Ni-GlxI (or starved of nickel) accumulate MG, trigge
 **Zinc antagonism**: Some evidence suggests pharmacological zinc supplementation may compete for the Ni binding site, though this mechanism is not yet definitively proven in vivo.
 
 **Related enzymes with Ni cofactors**:
-- [[Nickel-urease]] (H. pylori, some gut commensals) — ammonia production, pH buffering
-- [[NiFe-hydrogenase]] (anaerobic bacteria) — H₂ metabolism under hypoxia
+- [[nickel-urease]] (H. pylori, some gut commensals) — ammonia production, pH buffering
+- [[nife-hydrogenase]] (anaerobic bacteria) — H₂ metabolism under hypoxia
 - Ni-superoxide dismutase — oxidative stress defense
 
 ## Connections
 
 **Linked concepts**:
-- [[Metallic-toxicity]] — How excess nickel itself causes damage; Ni-GlxI is an adaptation to tolerate high Ni.
-- [[Methylglyoxal-stress]] — The substrate and cellular damage context.
-- [[Fermentative-metabolism]] — High glycolytic flux under anaerobiosis drives MG production.
+- [[metallic-toxicity]] — How excess nickel itself causes damage; Ni-GlxI is an adaptation to tolerate high Ni.
+- [[methylglyoxal-stress]] — The substrate and cellular damage context.
+- [[fermentative-metabolism]] — High glycolytic flux under anaerobiosis drives MG production.
 
 **Linked entities**:
-- [[Escherichia-coli]] — Primary pathogenic carrier of Ni-GlxI in gut dysbiosis.
-- [[Vibrio-species]] — Marine pathogens with strong Ni-GlxI dependence.
-- [[Nickel]] — The essential cofactor and selective pressure.
-- [[Glutathione]] — Substrate cofactor; depletion impairs MG detoxification.
+- [[escherichia-coli]] — Primary pathogenic carrier of Ni-GlxI in gut dysbiosis.
+- [[vibrio-species]] — Marine pathogens with strong Ni-GlxI dependence.
+- [[nickel]] — The essential cofactor and selective pressure.
+- [[glutathione]] — Substrate cofactor; depletion impairs MG detoxification.
 
 **Intervention relevance**: 
 - Nickel restriction (low-Ni diet, nickel chelation) may selectively suppress Ni-GlxI-dependent pathogens.

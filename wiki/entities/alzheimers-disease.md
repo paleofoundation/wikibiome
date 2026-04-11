@@ -1,4 +1,5 @@
 ---
+
 title: Alzheimer's Disease
 type: entity
 subtype: disease
@@ -6,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [ahmed-2025-metals-alzheimers-mechanistic-review.md, scholefield-2024-brain-metallomics-dementia.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, bakulski-2025-heavy-metals-late-onset-alzheimers.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, jakubowska-2024-metal-toxicity-alzheimers-review.md, armstrong-2024-alzheimers-extrinsic-factors-development.md, passeri-2024-recent-advances-therapeutics-alzheimers.md, zhang-2024-recent-advances-alzheimers-mechanisms-trials.md, chin-chan-2015-environmental-pollutants-ad-pd.md, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration.md, althomali-2024-heavy-metals-neurocognitive-systematic-review.md, gentile-2020-diet-microbiota-brain-health.md, khatoon-2023-gut-microbiota-neurodegenerative.md, alonso-garcia-2021-gut-microbiota-proteinopathies.md, gao-2023-microglia-neurodegenerative-diseases.md, klotz-2017-aluminum-health-effects-review.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, rasin-2025-cadmium-exposure-health-review.md]
 tags: [neurodegenerative-disease, copper, iron, lead, aluminum, cadmium, mercury, arsenic, amyloid-beta, ferroptosis, gut-brain-axis, microbiome, epigenetics]
+platform: wikibiome
 ---
 
 # Alzheimer's Disease (AD)
@@ -87,7 +89,7 @@ The gut-brain axis is a major emerging pathway in AD metallomic research:
 - AD patients show reduced Bacteroidetes diversity, decreased Firmicutes, and increased Gram-negative bacteria [[gentile-2020-diet-microbiota-brain-health]].
 - Increased H. pylori, Escherichia/Shigella, K. pneumoniae, B. fragilis; decreased Eubacterium rectale and Bacteroides in AD [[khatoon-2023-gut-microbiota-neurodegenerative]].
 - LPS enhances amyloid-beta fibrillization and triggers NF-kB signaling [[gentile-2020-diet-microbiota-brain-health]].
-- Bacterial amyloids (curli from [[Escherichia coli]]) can **cross-seed** with cerebral amyloid-beta, providing a direct microbial-to-neurodegeneration pathway [[gentile-2020-diet-microbiota-brain-health]], [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
+- Bacterial amyloids (curli from [[escherichia-coli]]) can **cross-seed** with cerebral amyloid-beta, providing a direct microbial-to-neurodegeneration pathway [[gentile-2020-diet-microbiota-brain-health]], [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
 - TMAO (trimethylamine N-oxide) from gut bacteria traverses the BBB and is found at increased levels in CSF of cognitively impaired AD patients [[khatoon-2023-gut-microbiota-neurodegenerative]].
 - FMT from wild-type to AD mice alleviated cognitive impairment and reduced A-beta plaque burden [[gentile-2020-diet-microbiota-brain-health]].
 - SCFAs are reduced in AD; sodium butyrate curbs cholesterol-induced neuronal amyloidosis [[gentile-2020-diet-microbiota-brain-health]].
@@ -141,11 +143,25 @@ See [[dietary-metal-paradoxes]] for the broader pattern. AD-specific paradoxes i
 6. **Can metallomic brain profiling become an in vivo diagnostic?** Post-mortem data is extensive [[scholefield-2024-brain-metallomics-dementia]]; translating to MRI-based or biofluid-based diagnostics is the challenge.
 7. **APOE4 gene-metal interactions**: Does APOE genotype modify susceptibility to metal-driven AD pathways?
 
+
+## Key Sources
+
+- [[bakulski-2025-heavy-metals-late-onset-alzheimers]]
+- [[islam-2022-metal-toxicity-alzheimers-extensive-review]]
+- [[jakubowska-2024-metal-toxicity-alzheimers-review]]
+- [[armstrong-2024-alzheimers-extrinsic-factors-development]]
+- [[passeri-2024-recent-advances-therapeutics-alzheimers]]
+- [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]
+- [[althomali-2024-heavy-metals-neurocognitive-systematic-review]]
+- [[gao-2023-microglia-neurodegenerative-diseases]]
+- [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
+- [[rasin-2025-cadmium-exposure-health-review]]
+
 ## Connections
 
 - **Metals**: [[copper]], [[iron]], [[lead]], [[zinc]], [[aluminum]], [[cadmium]], [[mercury]], [[arsenic]], [[manganese]], [[selenium]]
 - **Concepts**: [[ferroptosis]], [[amyloid-beta]], [[tau-hyperphosphorylation]], [[blood-brain-barrier]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[mis-metallation]], [[gut-brain-axis]]
 - **Analyses**: [[metal-disease-matrix]], [[dietary-metal-paradoxes]]
 - **Related diseases**: [[parkinsons-disease]] (shared Fe/Cu brain dysregulation, ferroptosis, gut-brain axis), [[chronic-kidney-disease]] (shared ferroptosis pathway), [[type-2-diabetes]] ("type-3 diabetes" hypothesis)
-- **Pathogens**: [[Helicobacter pylori]] (increased in AD gut), [[Escherichia coli]] (curli cross-seeding with A-beta)
+- **Pathogens**: [[helicobacter-pylori]] (increased in AD gut), [[escherichia-coli]] (curli cross-seeding with A-beta)
 - **Interventions**: [[iron-chelation]], [[mediterranean-diet]], [[probiotics]], [[selenium-supplementation]]

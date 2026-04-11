@@ -1,4 +1,5 @@
 ---
+
 title: "Recent Advances in Gut Microbiota and Thyroid Disease: Pathogenesis and Therapeutics in Autoimmune, Neoplastic, and Nodular Conditions"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2024
 doi: "10.3389/fcimb.2024.1465928"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, thyroid-cancer, thyroid-nodules, probiotics, FMT, SCFAs, Bifidobacterium, Bacteroides, Lactiplantibacillus, review]
+platform: wikibiome
 ---
 
 # Recent Advances in Gut Microbiota and Thyroid Disease: Pathogenesis and Therapeutics in Autoimmune, Neoplastic, and Nodular Conditions

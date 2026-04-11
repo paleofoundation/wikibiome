@@ -1,4 +1,5 @@
 ---
+
 title: "Gut dysbiosis in animals due to environmental chemical exposures"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2017
 tags: [dysbiosis, environmental-chemicals, heavy-metals, arsenic, lead, cadmium, endocrine-disruptors, nanoparticles, gut-microbiome, gut-brain-axis]
 doi: "10.3389/fcimb.2017.00396"
+platform: wikibiome
 ---
 
 # Key Claims

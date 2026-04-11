@@ -1,4 +1,5 @@
 ---
+
 title: "Oxidative Stress Gene Expression, DNA Methylation, and Gut Microbiota Interaction Trigger Crohn's Disease: a Multi-Omics Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Medicine
 year: 2023
 tags: [crohns-disease, oxidative-stress, DNA-methylation, STAT3, GPX3, MUC1, Escherichia-coli, ferroptosis, gut-microbiome, multi-omics, Mendelian-randomization, gene-microbiome-interaction]
 doi: "10.1186/s12916-023-02878-8"
+platform: wikibiome
 ---
 
 # Key Claims

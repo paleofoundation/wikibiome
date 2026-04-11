@@ -1,10 +1,15 @@
 ---
+
 title: Streptococcus pneumoniae
 type: entity
+subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 sources: [romero-espejel-2013-streptococcus-pneumoniae-iron.md, akbari-2022-metal-homeostasis-streptococci.md]
 tags: [pathogen, iron, manganese, zinc, copper, meningitis, pneumonia, otitis-media, nutritional-immunity]
+metal_dependencies: [manganese, zinc, iron]
+key_enzymes: [PsaA (Mn-binding lipoprotein — essential for virulence), AdcABC (zinc uptake), PiaA/PiuA (iron uptake), Mn-SOD, IgA1 protease (Zn-metalloprotease)]
+platform: wikibiome
 ---
 
 # Streptococcus pneumoniae
@@ -14,13 +19,13 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 ## Metal-Dependent Virulence Factors
 
 ### Iron -- Required for Viability
-- *S. pneumoniae* **requires iron for growth and viability** [[[romero-espejel-2013-streptococcus-pneumoniae-iron]]].
+- *S. pneumoniae* **requires iron for growth and viability** [[romero-espejel-2013-streptococcus-pneumoniae-iron]].
 - Iron starvation arrested growth and reduced viability to ~50% within 5 hours.
 - Supplementation with hemoglobin restored viability to ~90% within 5 hours.
 - Can use **hemoglobin and heme** as sole iron sources, but **not** holo-transferrin or holo-lactoferrin -- indicating it has evolved to scavenge iron from damaged red blood cells rather than competing for host iron-binding proteins.
 
 ### Mn-Dependent Superoxide Dismutase (Mn-SOD)
-- **SodA**: Mn-dependent superoxide dismutase, the primary defense against reactive oxygen species [[[akbari-2022-metal-homeostasis-streptococci]]].
+- **SodA**: Mn-dependent superoxide dismutase, the primary defense against reactive oxygen species [[akbari-2022-metal-homeostasis-streptococci]].
 - Essential for surviving the **neutrophil oxidative burst** during pneumonia and bacteremia.
 - Mn acquisition via PsaA/MtsABC is therefore directly linked to oxidative stress survival.
 - Cadmium can disrupt Mn uptake/efflux, indirectly increasing oxidative stress susceptibility -- a vulnerability that could be exploited therapeutically.
@@ -32,10 +37,10 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 ## Metal Acquisition Systems
 
 ### Iron Acquisition
-- **PiaA/PiuA**: ABC-type iron uptake lipoproteins [[[akbari-2022-metal-homeostasis-streptococci]]].
+- **PiaA/PiuA**: ABC-type iron uptake lipoproteins [[akbari-2022-metal-homeostasis-streptococci]].
   - PiaA and PiuA are independently important for virulence; double mutants are severely attenuated.
   - Part of iron-regulated operons induced under iron limitation.
-- **22 kDa and 37 kDa membrane proteins**: the first characterized hemoglobin/heme-binding proteins in *S. pneumoniae* [[[romero-espejel-2013-streptococcus-pneumoniae-iron]]].
+- **22 kDa and 37 kDa membrane proteins**: the first characterized hemoglobin/heme-binding proteins in *S. pneumoniae* [[romero-espejel-2013-streptococcus-pneumoniae-iron]].
   - Both bind hemoglobin AND free heme.
   - Compete for the tetrapyrrole ring (shared binding with vitamin B12).
   - Contain the **KVAFDH motif** essential for heme binding, conserved with the Shr protein of *S. pyogenes*.
@@ -43,18 +48,18 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 - Notably, *S. pneumoniae* does **not** produce classical siderophores -- it relies on direct heme/hemoglobin binding and ABC transporters.
 
 ### Manganese Acquisition
-- **PsaA/PsaBCA (MtsABC/SloABC)**: the primary Mn ABC transporter [[[akbari-2022-metal-homeostasis-streptococci]]].
+- **PsaA/PsaBCA (MtsABC/SloABC)**: the primary Mn ABC transporter [[akbari-2022-metal-homeostasis-streptococci]].
   - PsaA is a surface-exposed lipoprotein and vaccine candidate.
   - PsaA mutants are severely attenuated in colonization, pneumonia, and bacteremia models.
   - Also transports Zn at lower affinity.
 - **MntH (NRAMP family)**: secondary Mn importer.
 
 ### Manganese Export
-- **MntE**: CDF-family Mn exporter to prevent manganese toxicity [[[akbari-2022-metal-homeostasis-streptococci]]].
+- **MntE**: CDF-family Mn exporter to prevent manganese toxicity [[akbari-2022-metal-homeostasis-streptococci]].
 - Balances Mn import via PsaA; mntE mutants accumulate toxic Mn levels.
 
 ### Zinc Homeostasis
-- **AdcABC/AdcAII**: ABC-type zinc import system [[[akbari-2022-metal-homeostasis-streptococci]]].
+- **AdcABC/AdcAII**: ABC-type zinc import system [[akbari-2022-metal-homeostasis-streptococci]].
   - AdcA and AdcAII are two distinct solute-binding proteins with different zinc affinities.
   - **Pht (polyhistidine triad) proteins**: surface-exposed zinc-binding/storage proteins that feed zinc to AdcAII.
   - Adc mutants show attenuated nasopharyngeal colonization and meningitis.
@@ -63,12 +68,12 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
   - Essential when host neutrophils pump zinc into phagosomes as an antimicrobial strategy.
 
 ### Copper Homeostasis
-- **CopA**: P-type ATPase for copper efflux [[[akbari-2022-metal-homeostasis-streptococci]]].
+- **CopA**: P-type ATPase for copper efflux [[akbari-2022-metal-homeostasis-streptococci]].
 - **CopY**: copper-responsive repressor regulating copA expression.
 - Copper intoxication by macrophages is a key host defense; CopA enables survival.
 
 ### Nickel
-- Largely uncharacterized in *S. pneumoniae* [[[akbari-2022-metal-homeostasis-streptococci]]].
+- Largely uncharacterized in *S. pneumoniae* [[akbari-2022-metal-homeostasis-streptococci]].
 - A **LarA homolog** (Ni-dependent lactate racemase) is present in the genome, suggesting some nickel utilization.
 - No characterized Ni transporter; the UreMQO system known in *S. salivarius* has not been identified in pneumococcus.
 

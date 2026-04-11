@@ -1,4 +1,5 @@
 ---
+
 title: Yersinia pestis
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallo
 metal_dependencies: [nickel, iron, copper]
 key_enzymes: [Ni-GloI, yersiniabactin]
 tags: [pathogen, plague, bioweapon, siderophore, Tier-1-select-agent]
+platform: wikibiome
 ---
 
 # Yersinia pestis
@@ -18,7 +20,7 @@ The causative agent of **plague** -- one of the most devastating infectious dise
 
 ### Ni-Glyoxalase I (GloI)
 
-- *Y. pestis* possesses a confirmed Ni-dependent [[glyoxalase]] that detoxifies **methylglyoxal**, the reactive and mutagenic byproduct of glycolysis [[[maier-2019-nickel-microbial-pathogenesis]]].
+- *Y. pestis* possesses a confirmed Ni-dependent [[glyoxalase]] that detoxifies **methylglyoxal**, the reactive and mutagenic byproduct of glycolysis [[maier-2019-nickel-microbial-pathogenesis]].
 - During explosive growth in the host bloodstream (bacteremia can reach >10^8 CFU/mL in septicemic plague), high glycolytic flux generates toxic methylglyoxal concentrations.
 - Without Ni-GloI, the pathogen's own metabolism becomes self-poisoning -- nickel availability is thus essential for sustained bacteremic growth.
 - Human GloI uses [[zinc]], not nickel. This metal selectivity difference creates a potential target for selective inhibitors that would not affect host GloI.
@@ -27,9 +29,9 @@ The causative agent of **plague** -- one of the most devastating infectious dise
 
 ### Yersiniabactin (Ybt)
 
-- *Y. pestis* produces **yersiniabactin**, the founding member of this [[siderophores-metallophores|siderophore/metallophore]] family [[[patil-2021-infection-metallomics-critical-care]]].
+- *Y. pestis* produces **yersiniabactin**, the founding member of this [[siderophores-metallophores|siderophore/metallophore]] family [[patil-2021-infection-metallomics-critical-care]].
 - Ybt binds Fe3+ with high affinity for classical iron acquisition during infection.
-- Also chelates extracellular **nickel** and **copper** -- a true multi-metal metallophore [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Also chelates extracellular **nickel** and **copper** -- a true multi-metal metallophore [[maier-2019-nickel-microbial-pathogenesis]].
 - The Ybt biosynthesis locus resides on the **High Pathogenicity Island (HPI)**, which has been horizontally transferred to [[klebsiella-pneumoniae]], UPEC ([[escherichia-coli]]), and other Enterobacteriaceae -- spreading multi-metal acquisition capability across pathogen families.
 - Cu-Ybt complexes may help *Y. pestis* resist copper toxicity encountered in macrophage phagosomes.
 

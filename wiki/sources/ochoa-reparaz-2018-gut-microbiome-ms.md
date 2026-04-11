@@ -1,4 +1,5 @@
 ---
+
 title: "The Gut Microbiome and Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cold Spring Harbor Perspectives in Medicine
 year: 2018
 tags: [multiple-sclerosis, gut-microbiome, EAE, Tregs, Bacteroides-fragilis, PSA, blood-brain-barrier, dysbiosis, immunomodulation, SCFAs]
 doi: "10.1101/cshperspect.a029017"
+platform: wikibiome
 ---
 
 # The Gut Microbiome and Multiple Sclerosis

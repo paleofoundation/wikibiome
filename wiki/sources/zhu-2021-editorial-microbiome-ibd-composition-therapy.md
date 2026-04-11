@@ -1,4 +1,5 @@
 ---
+
 title: "Editorial: Microbiome in IBD: From Composition to Therapy"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Pharmacology
 year: 2021
 tags: [crohns-disease, IBD, microbiome, therapy, drug-repurposing, metformin, FMT, Akkermansia-muciniphila, berberine, editorial]
 doi: "10.3389/fphar.2021.721992"
+platform: wikibiome
 ---
 
 # Key Claims

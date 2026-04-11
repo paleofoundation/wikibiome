@@ -1,4 +1,5 @@
 ---
+
 title: Ruminococcus albus
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, zinc]
 key_enzymes: [cellulosome-complex, glycoside-hydrolases, endoglucanases, exoglucanases]
+platform: wikibiome
 ---
 
 # Ruminococcus albus
@@ -169,7 +171,7 @@ Ruminococcus albus restoration is among the **most important therapeutic targets
 - [[colorectal-cancer]] – butyrate-mediated protection against neoplastic progression
 - [[obesity]] – associated with healthy body weight in population studies
 - [[depression]] – butyrate crosses BBB; low R. albus associated with depression risk
-- [[intestinal-barrier-function]] – butyrate maintains tight junctions via HDAC inhibition
+- [[nutritional-immunity|intestinal-barrier-function]] – butyrate maintains tight junctions via HDAC inhibition
 - [[iron]] – iron-sulfur clusters essential for fermentation efficiency
 - [[zinc]] – zinc metalloproteases and enzyme cofactor roles
 - [[westernization]] – dramatically depleted in low-fiber Western diets

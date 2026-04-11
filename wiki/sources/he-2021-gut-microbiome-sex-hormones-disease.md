@@ -1,4 +1,5 @@
 ---
+
 title: "The Gut Microbiome and Sex Hormone-Related Diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.3389/fmicb.2021.711137"
 tags: [cardiovascular-disease, gut-microbiome, sex-hormones, hormonal-therapy, estrogen, androgen, PCOS, ovarian-cancer, osteoporosis, type-1-diabetes, beta-glucuronidase, microbiome-host-interactions]
 source_pdf: "raw/cardiovascular disease/Hormonal therapy cardiovascular disease microbiome/The gut microbiome and sex hormone-related diseases.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

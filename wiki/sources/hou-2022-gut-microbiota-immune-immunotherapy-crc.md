@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of Gut Microbiota on Immune Responses and Immunotherapy in Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 tags: [colon-cancer, immune-response, immunotherapy, Fusobacterium-nucleatum, checkpoint-inhibitors, PD-1, CTLA-4, innate-immunity, adaptive-immunity, metastatic-niche, colorectal-cancer, T-cells, MDSCs]
 doi: "10.3389/fimmu.2022.1030745"
+platform: wikibiome
 ---
 
 # Effects of Gut Microbiota on Immune Responses and Immunotherapy in Colorectal Cancer

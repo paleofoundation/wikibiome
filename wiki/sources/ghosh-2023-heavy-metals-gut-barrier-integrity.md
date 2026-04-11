@@ -1,4 +1,5 @@
 ---
+
 title: "Effect of Heavy Metals on Gut Barrier Integrity and Gut Microbiota"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Sweta Ghosh, Syam P. Nukavarpu, Venkatakrishna Rao Jala]
 journal: Metal ions in Life Sciences (Accepted Manuscript)
 year: 2023
 tags: [heavy-metals, gut-barrier, tight-junctions, gut-microbiota, arsenic, lead, mercury, cadmium, chromium, intestinal-permeability, IBD, probiotics, review]
+platform: wikibiome
 ---
 
 # Key Claims

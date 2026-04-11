@@ -1,4 +1,5 @@
 ---
+
 title: "Elevated Lead, Nickel, and Bismuth Levels in the Peritoneal Fluid of a Peritoneal Endometriosis Patient without Toxic Habits or Occupational Exposure following a Vegetarian Diet"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Toxics
 year: 2023
 tags: [nickel, lead, bismuth, peritoneal-fluid, endometriosis, vegetarian-diet, heavy-metals, potentially-toxic-elements, case-report]
 doi: "10.3390/toxics11040389"
+platform: wikibiome
 ---
 
 # Key Claims

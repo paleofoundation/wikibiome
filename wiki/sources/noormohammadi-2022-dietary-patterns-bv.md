@@ -1,4 +1,5 @@
 ---
+
 title: "Association between dietary patterns and bacterial vaginosis: a case-control study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2022
 tags: [bacterial-vaginosis, dietary-patterns, case-control, vegetarian-diet, unhealthy-diet, vaginal-flora, Iran]
 doi: "10.1038/s41598-022-16505-8"
+platform: wikibiome
 ---
 
 # Key Claims

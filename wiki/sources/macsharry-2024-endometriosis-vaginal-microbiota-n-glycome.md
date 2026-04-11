@@ -1,4 +1,5 @@
 ---
+
 title: "Endometriosis specific vaginal microbiota links to urine and serum N-glycome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2024
 tags: [endometriosis, vaginal-microbiome, N-glycome, biomarkers, Lactobacillus-iners, Anaerococcus, Prevotella, dysbiosis, glycosylation, metabolites]
 doi: "10.1038/s41598-024-76125-2"
+platform: wikibiome
 ---
 
 # Key Claims

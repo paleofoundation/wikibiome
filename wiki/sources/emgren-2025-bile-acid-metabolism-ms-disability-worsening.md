@@ -1,4 +1,5 @@
 ---
+
 title: "Bile acid metabolism in multiple sclerosis is perturbed and associated with the risk of confirmed disability worsening"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Medicine
 year: 2025
 doi: 10.1186/s12916-025-04041-x
 tags: [multiple-sclerosis, bile-acids, GCDCA, disability-worsening, EDSS, sex-differences, Swedish-cohort, metabolomics, longitudinal]
+platform: wikibiome
 ---
 
 # Bile Acid Metabolism in Multiple Sclerosis Is Perturbed and Associated with the Risk of Confirmed Disability Worsening

@@ -1,10 +1,12 @@
 ---
+
 title: Prebiotics
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [luqman-2024-intestinal-microbiome-cvd-intervention, reddy-1998-prebiotics-probiotics-colon-cancer-prevention, li-2020-polyphenols-gut-microbiota-ibd-synergy]
 tags: [prebiotics, FOS, GOS, inulin, resistant-starch, fiber, Bifidobacterium, SCFA-production, gut-barrier, dietary-intervention]
+platform: wikibiome
 ---
 
 # Prebiotics
@@ -30,7 +32,7 @@ Non-digestible food substrates that selectively stimulate the growth and/or acti
 ### Polyphenols (Emerging Prebiotic)
 - Plant compounds (flavonoids, tannins, anthocyanins) from tea, berries, cocoa, wine.
 - Poorly absorbed in small intestine; metabolized by colonic bacteria into bioactive phenolic acids.
-- Promote Akkermansia, Bifidobacterium, and Lactobacillus growth [[[li-2020-polyphenols-gut-microbiota-ibd-synergy]]].
+- Promote Akkermansia, Bifidobacterium, and Lactobacillus growth [[li-2020-polyphenols-gut-microbiota-ibd-synergy]].
 
 ## Mechanisms of Action
 
@@ -41,10 +43,10 @@ Non-digestible food substrates that selectively stimulate the growth and/or acti
 
 ## Disease Evidence
 
-- **CVD**: Prebiotic fiber increases SCFA production and may reduce TMAO by shifting microbial metabolism away from choline/carnitine fermentation [[[luqman-2024-intestinal-microbiome-cvd-intervention]]].
+- **CVD**: Prebiotic fiber increases SCFA production and may reduce TMAO by shifting microbial metabolism away from choline/carnitine fermentation [[luqman-2024-intestinal-microbiome-cvd-intervention]].
 - **PCOS**: Synbiotic (prebiotic + probiotic) interventions improve hormonal profiles and insulin sensitivity.
 - **ASD**: B-GOS RCT showed improvements in anti-social behavior; prebiotics may modify the microbial metabolite profile (reducing p-cresol, increasing SCFAs).
-- **CRC**: Dietary fiber consistently inversely associated with colorectal cancer risk; prebiotic fermentation products (butyrate) are anti-proliferative [[[reddy-1998-prebiotics-probiotics-colon-cancer-prevention]]].
+- **CRC**: Dietary fiber consistently inversely associated with colorectal cancer risk; prebiotic fermentation products (butyrate) are anti-proliferative [[reddy-1998-prebiotics-probiotics-colon-cancer-prevention]].
 - **IBD**: High-fiber diets show benefit in some Crohn's cohorts, though individual tolerance varies.
 
 ## Metal Angle

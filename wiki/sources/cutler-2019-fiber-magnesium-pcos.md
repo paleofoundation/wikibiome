@@ -1,4 +1,5 @@
 ---
+
 title: "Low intakes of dietary fiber and magnesium are associated with insulin resistance and hyperandrogenism in polycystic ovary syndrome: A cohort study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Food Science & Nutrition
 year: 2019
 tags: [PCOS, dietary-fiber, magnesium, insulin-resistance, hyperandrogenism, cohort-study, diet]
 doi: "10.1002/fsn3.977"
+platform: wikibiome
 ---
 
 # Key Claims

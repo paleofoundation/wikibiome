@@ -1,4 +1,5 @@
 ---
+
 title: Bacteroides fragilis
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [khatoon-2023-gut-microbiota-neurodegenerative, yang-2024-zip8-a391t-cr
 metal_dependencies: [zinc, iron]
 key_enzymes: [Zn-metalloprotease-BFT, Zn-dependent-DNases]
 tags: [commensal-pathobiont, Crohns-disease, colorectal-cancer, PSA-immunomodulatory, Zn-BFT-toxin]
+platform: wikibiome
 ---
 
 # Bacteroides fragilis
@@ -42,10 +44,10 @@ A Gram-negative obligate anaerobe that occupies a unique dual position in the [[
 
 ## Disease Associations
 
-- **Crohn's disease**: *Bacteroides* is depleted in some Crohn's microbiome signatures, but ETBF strains are enriched in others -- the direction depends on toxigenic vs. non-toxigenic strain composition [[[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]].
+- **Crohn's disease**: *Bacteroides* is depleted in some Crohn's microbiome signatures, but ETBF strains are enriched in others -- the direction depends on toxigenic vs. non-toxigenic strain composition [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 - **Colorectal cancer**: ETBF is significantly enriched in CRC tumor tissue. BFT-mediated E-cadherin cleavage and beta-catenin activation provide a mechanistic link to carcinogenesis. ETBF colonization promotes colonic tumorigenesis in APC-Min mice.
 - **Intra-abdominal abscess**: *B. fragilis* is the most common anaerobic isolate from intra-abdominal infections, where its capsular polysaccharide promotes abscess formation.
-- **Neurodegenerative disease**: altered *Bacteroides* abundance reported in Parkinson's and Alzheimer's disease microbiome profiles [[[khatoon-2023-gut-microbiota-neurodegenerative]]].
+- **Neurodegenerative disease**: altered *Bacteroides* abundance reported in Parkinson's and Alzheimer's disease microbiome profiles [[khatoon-2023-gut-microbiota-neurodegenerative]].
 
 ## Iron Biology
 

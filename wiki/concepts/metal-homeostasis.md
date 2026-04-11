@@ -1,10 +1,12 @@
 ---
+
 title: Metal Homeostasis
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, akbari-2022-metal-homeostasis-streptococci, cassat-2012-metal-acquisition-staphylococcus-aureus]
 tags: [metal-homeostasis, iron, zinc, copper, hepcidin, ferroportin, ZIP, ZnT, CTR1, ATP7A, ATP7B, Fur, NikR, nutritional-immunity]
+platform: wikibiome
 ---
 
 # Metal Homeostasis
@@ -14,7 +16,7 @@ The biological processes by which organisms maintain proper intracellular and sy
 ## Host Metal Homeostasis
 
 ### Iron (Fe)
-The most tightly regulated metal in the body, controlled by the [[hepcidin]]-ferroportin axis [[[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]]:
+The most tightly regulated metal in the body, controlled by the [[hepcidin]]-ferroportin axis [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]:
 - **Import**: Dietary non-heme iron reduced to Fe2+ by DcytB, transported into enterocytes via DMT1 (SLC11A2). Heme iron imported via HCP1.
 - **Storage**: Intracellular ferritin sequesters excess iron as a mineralized core; liver is the primary storage organ.
 - **Regulation**: Hepcidin (hepatic peptide hormone) binds ferroportin, causing its internalization and degradation, blocking iron export from enterocytes and macrophages. Hepcidin is increased by inflammation (IL-6/STAT3) and iron loading; decreased by iron deficiency, erythropoietic demand, and hypoxia.
@@ -35,7 +37,7 @@ The most tightly regulated metal in the body, controlled by the [[hepcidin]]-fer
 
 ## Pathogen Metal Homeostasis
 
-Microbes face a dual challenge: acquiring essential metals from a host that actively withholds them ([[nutritional-immunity]]), while defending against metal toxicity weaponized by immune cells [[[cassat-2012-metal-acquisition-staphylococcus-aureus]]]:
+Microbes face a dual challenge: acquiring essential metals from a host that actively withholds them ([[nutritional-immunity]]), while defending against metal toxicity weaponized by immune cells [[cassat-2012-metal-acquisition-staphylococcus-aureus]]:
 
 - **Fur (ferric uptake regulator)**: Master Fe-sensing transcription factor in most bacteria; represses siderophore genes when Fe is sufficient.
 - **NikR**: Nickel-responsive regulator in H. pylori; controls [[urease]] and nickel transporter expression.
@@ -59,3 +61,7 @@ Disruption of metal homeostasis drives disease through:
 - [[mis-metallation]] -- toxic metal displacement of essential metals
 - [[metallomics]] -- systems-level metal measurement
 - [[pathogen-metal-acquisition]] -- microbial strategies to overcome host defenses
+
+## Key Sources
+
+- [[akbari-2022-metal-homeostasis-streptococci]]

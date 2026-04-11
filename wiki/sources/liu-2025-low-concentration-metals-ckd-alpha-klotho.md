@@ -1,4 +1,5 @@
 ---
+
 title: "The association between low-concentration heavy metal exposure and chronic kidney disease risk through alpha-klotho"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Scientific Reports"
 year: 2025
 tags: [chronic-kidney-disease, cadmium, mercury, lead, thallium, alpha-klotho, NHANES, machine-learning, BKMR, mediation]
 doi: "10.1038/s44439-024-00009-w"
+platform: wikibiome
 ---
 
 # Key Claims

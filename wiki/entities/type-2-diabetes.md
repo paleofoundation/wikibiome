@@ -1,4 +1,5 @@
 ---
+
 title: Type 2 Diabetes
 type: entity
 subtype: disease
@@ -19,6 +20,7 @@ sources:
   - zhu-2024-toxic-essential-metals-gut-microbiota
   - li-2019-heavy-metal-metabolic-health-gut-microbiome
 tags: [disease, diabetes, metabolic, metabolic-disease, metals, zinc, chromium, iron, nickel, cadmium, insulin-resistance, microbiome, obesogens]
+platform: wikibiome
 ---
 
 # Type 2 Diabetes
@@ -33,15 +35,15 @@ The metallomic profile of T2D from the [[metal-disease-matrix]] is:
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[zinc\|Zn]]** | Depleted | Increased urinary Zn excretion is a hallmark; ZnT8 transporter mutations associated with T2D risk |
-| **[[iron\|Fe]]** | Elevated (ferritin) | Strong correlation between ferritin and insulin resistance at preclinical stages; Fe oxidizes biomolecules decreasing insulin secretion |
-| **[[chromium\|Cr]]** | Depleted (Cr3+) | Cr(III) stimulates insulin signaling and GLUT4 translocation in muscle cells; deficiency elevates blood glucose |
-| **[[copper\|Cu]]** | Dysregulated | Required for SOD catalytic activity; imbalance linked to cholesterol disruption and mitochondrial dysfunction in pancreatic acinar cells |
-| **[[nickel\|Ni]]** | Weakly elevated (urinary) | Meta-analysis of 20 studies: urinary Ni SMD 0.16 (95% CI 0.07-0.25); blood Ni non-significant |
-| **[[cadmium\|Cd]]** | Elevated | Accumulates in kidney; may down-regulate GLUT4 translocation; disrupts pancreatic beta-cell function |
-| **[[lead\|Pb]]** | Elevated | Found in blood/plasma/urine of diabetics; interferes with renal function |
-| **[[arsenic\|As]]** | Elevated | Disrupts glucose metabolism via TNF-alpha, MAPK, and GLUT4 translocation interference |
-| **[[manganese\|Mn]]** | Depleted | Cofactor for pyruvate carboxylase and gluconeogenesis enzymes |
+| **[[zinc|Zn]]** | Depleted | Increased urinary Zn excretion is a hallmark; ZnT8 transporter mutations associated with T2D risk |
+| **[[iron|Fe]]** | Elevated (ferritin) | Strong correlation between ferritin and insulin resistance at preclinical stages; Fe oxidizes biomolecules decreasing insulin secretion |
+| **[[chromium|Cr]]** | Depleted (Cr3+) | Cr(III) stimulates insulin signaling and GLUT4 translocation in muscle cells; deficiency elevates blood glucose |
+| **[[copper|Cu]]** | Dysregulated | Required for SOD catalytic activity; imbalance linked to cholesterol disruption and mitochondrial dysfunction in pancreatic acinar cells |
+| **[[nickel|Ni]]** | Weakly elevated (urinary) | Meta-analysis of 20 studies: urinary Ni SMD 0.16 (95% CI 0.07-0.25); blood Ni non-significant |
+| **[[cadmium|Cd]]** | Elevated | Accumulates in kidney; may down-regulate GLUT4 translocation; disrupts pancreatic beta-cell function |
+| **[[lead|Pb]]** | Elevated | Found in blood/plasma/urine of diabetics; interferes with renal function |
+| **[[arsenic|As]]** | Elevated | Disrupts glucose metabolism via TNF-alpha, MAPK, and GLUT4 translocation interference |
+| **[[manganese|Mn]]** | Depleted | Cofactor for pyruvate carboxylase and gluconeogenesis enzymes |
 
 ### The Zinc-Insulin Nexus
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Development, spread and persistence of antibiotic resistance genes (ARGs) in the soil microbiomes through co-selection"
 type: source
 created: 2026-04-09
@@ -11,6 +12,7 @@ issue: 4
 pages: "371-378"
 doi: "10.1515/reveh-2020-0035"
 tags: [antibiotic-resistance-genes, co-selection, co-resistance, cross-resistance, co-regulation, heavy-metals, poly-aromatic-hydrocarbons, soil-microbiome, efflux-pumps, intI1, systems-biology, gene-network]
+platform: wikibiome
 ---
 
 # Key Claims

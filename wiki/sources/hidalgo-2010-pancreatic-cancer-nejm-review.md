@@ -1,4 +1,5 @@
 ---
+
 title: "Pancreatic Cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: New England Journal of Medicine
 year: 2010
 tags: [pancreatic-cancer, PDAC, review, KRAS, tumor-microenvironment, CA-19-9, chemotherapy, staging]
 doi: "10.1056/NEJMra0901557"
+platform: wikibiome
 ---
 
 # Key Claims

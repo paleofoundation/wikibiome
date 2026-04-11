@@ -1,4 +1,5 @@
 ---
+
 title: "Investigation of the impact of commonly used medications on the oral microbiome of individuals living without major chronic conditions"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2021
 doi: 10.1371/journal.pone.0261032
 tags: [oral-microbiome, medications, statins, PPIs, thyroid-hormones, drug-microbiome-interaction, 16S-rRNA, multiple-sclerosis]
+platform: wikibiome
 ---
 
 # Investigation of the Impact of Commonly Used Medications on the Oral Microbiome of Individuals Living Without Major Chronic Conditions

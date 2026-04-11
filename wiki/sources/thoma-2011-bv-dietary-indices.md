@@ -1,4 +1,5 @@
 ---
+
 title: "Bacterial Vaginosis Is Associated with Variation in Dietary Indices"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Thoma ME, Klebanoff MA, Rovner AJ, Nansel TR, Neggers Y, Andrews WW, S
 journal: The Journal of Nutrition
 year: 2011
 tags: [bacterial-vaginosis, glycemic-index, glycemic-load, healthy-eating-index, diet-quality, dietary-indices, vaginal-flora]
-doi: "10.3390/nano12234206"
+doi: "10.3945/jn.110.128181"
+platform: wikibiome
 ---
 
 # Key Claims

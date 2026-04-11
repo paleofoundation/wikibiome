@@ -1,4 +1,5 @@
 ---
+
 title: "Antidepressants Fluoxetine and Amitriptyline Induce Alterations in Intestinal Microbiota and Gut Microbiome Function in Rats Exposed to Chronic Unpredictable Mild Stress"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1038/s41398-021-01254-5"
 tags: [cardiovascular-disease, antidepressants, fluoxetine, amitriptyline, gut-microbiome, depression, CUMS, Firmicutes-Bacteroidetes-ratio, Porphyromonadaceae, antibiotic-resistance, microbiome-modulating-drugs, 16S-rRNA-sequencing, shotgun-metagenomics]
 source_pdf: "raw/cardiovascular disease/Antidepressants cardiovascular disease microbiome/s41398-021-01254-5.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

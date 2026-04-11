@@ -1,4 +1,5 @@
 ---
+
 title: "Serum Levels of Selenium, Zinc, Copper, Manganese, and Iron in Prostate Cancer Patients"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Saleh A. K. Saleh, Heba M. Adly, Altaf A. Abdelkhaliq, Anmar M. Nassir
 journal: Current Urology
 year: 2020
 tags: [prostate-cancer, trace-elements, selenium, zinc, copper, manganese, iron, biomarkers, oxidative-stress, ICP-MS]
-doi: "10.1111/gwao.12766"
+doi: "10.1159/000499261"
+platform: wikibiome
 ---
 
 # Key Claims

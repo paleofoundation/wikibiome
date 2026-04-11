@@ -1,4 +1,5 @@
 ---
+
 title: "A Systematic Review of Microbial Markers for Risk Prediction of Colorectal Neoplasia"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Cancer
 year: 2022
 tags: [colon-cancer, systematic-review, microbial-biomarkers, Fusobacterium-nucleatum, prediction-models, AUROC, colorectal-neoplasia, screening, qFIT, gFOBT, colorectal-cancer]
 doi: "10.1038/s41416-022-01740-7"
+platform: wikibiome
 ---
 
 # A Systematic Review of Microbial Markers for Risk Prediction of Colorectal Neoplasia

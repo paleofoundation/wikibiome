@@ -1,4 +1,5 @@
 ---
+
 title: "Exposure to nickel through commercial premade baby foods: Is there any risk?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Food Composition and Analysis
 year: 2020
 tags: [baby-food, nickel-exposure, dietary-nickel, children, food-safety, EDI, risk-assessment]
 doi: "10.1097/JOM.0000000000001634"
+platform: wikibiome
 ---
 
 ## Key Claims

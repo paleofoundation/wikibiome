@@ -1,4 +1,5 @@
 ---
+
 title: "A comprehensive multi-omics analysis uncovers the associations between gut microbiota and pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2025
 tags: [pancreatic-cancer, shotgun-metagenomics, metabolomics, multi-omics, microbial-SNPs, metagenome-assembled-genomes, Lactobacillus, Streptococcus, metabolic-pathways]
 doi: "10.3389/fmicb.2025.1592549"
+platform: wikibiome
 ---
 
 # Key Claims

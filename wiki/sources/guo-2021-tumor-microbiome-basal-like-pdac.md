@@ -1,4 +1,5 @@
 ---
+
 title: "Tumor microbiome contributes to an aggressive phenotype in the basal-like subtype of pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Communications Biology
 year: 2021
 tags: [pancreatic-cancer, tumor-microbiome, microbiome-signature, basal-like-subtype, Acinetobacter, Pseudomonas, Sphingopyxis, metagenomics, inflammation, PDAC-subtypes]
 doi: "10.1038/s42003-021-02557-5"
+platform: wikibiome
 ---
 
 # Key Claims

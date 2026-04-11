@@ -1,4 +1,5 @@
 ---
+
 title: "Association of Trace Elements with Polycystic Ovary Syndrome in Women -- A Case-Control Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Metabolites
 year: 2025
 tags: [PCOS, trace-elements, copper, molybdenum, case-control, oxidative-stress, diet, kidney-function, liver-function]
 doi: "10.1111/ijlh.13883"
+platform: wikibiome
 ---
 
 # Key Claims

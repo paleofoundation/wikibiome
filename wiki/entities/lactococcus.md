@@ -1,4 +1,5 @@
 ---
+
 title: Lactococcus
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [han-2022-berberine-methimazole-graves-microbiome, fujimoto-2022-human-gut-virome-metabolic-autoimmune, gao-2015-microbiota-disbiosis-colorectal-cancer, wang-2023-gut-microbiota-signature-asd-gi-symptoms-china, mirza-2024-mediterranean-diet-pediatric-ms-microbiota, khatoon-2023-gut-microbiota-neurodegenerative]
 metal_dependencies: [manganese -- Mn-dependent superoxide dismutase; zinc -- Zn-dependent peptidases for casein degradation]
 tags: [probiotic, food-grade, GRAS, nisin-producer, fermented-foods, therapeutic-delivery-vehicle]
+platform: wikibiome
 ---
 
 # Lactococcus
@@ -23,24 +25,24 @@ tags: [probiotic, food-grade, GRAS, nisin-producer, fermented-foods, therapeutic
 ## Metal Dependencies
 
 - **Manganese**: *L. lactis* relies on Mn-superoxide dismutase (MnSOD) for oxidative stress defense, unlike most bacteria that use Fe-SOD. This Mn-dependency reduces its vulnerability to [[iron]]-limitation strategies of [[nutritional-immunity]].
-- **Zinc**: Zn-dependent cell-envelope proteinases (PrtP) are essential for casein degradation during dairy fermentation. [[Zinc]] availability thus directly influences the proteolytic capacity and growth rate of *L. lactis*.
+- **Zinc**: Zn-dependent cell-envelope proteinases (PrtP) are essential for casein degradation during dairy fermentation. [[zinc]] availability thus directly influences the proteolytic capacity and growth rate of *L. lactis*.
 
 ## Disease-Associated Microbiome Findings
 
 ### Autoimmune Thyroid Disease
-- Berberine supplementation in Graves' disease patients increased *L. lactis* abundance alongside clinical improvement. *L. lactis* was negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH, suggesting a role in thyroid homeostasis [[[han-2022-berberine-methimazole-graves-microbiome]]].
+- Berberine supplementation in Graves' disease patients increased *L. lactis* abundance alongside clinical improvement. *L. lactis* was negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH, suggesting a role in thyroid homeostasis [[han-2022-berberine-methimazole-graves-microbiome]].
 
 ### Colorectal Cancer
-- Relatively higher abundance of *Lactococcus* observed in CRC patients in some cohorts, though its role in CRC pathogenesis is unclear and may reflect dietary confounders [[[gao-2015-microbiota-disbiosis-colorectal-cancer]]].
+- Relatively higher abundance of *Lactococcus* observed in CRC patients in some cohorts, though its role in CRC pathogenesis is unclear and may reflect dietary confounders [[gao-2015-microbiota-disbiosis-colorectal-cancer]].
 
 ### Neurodegenerative Disease
-- Depleted in Parkinson's disease patients, consistent with loss of beneficial lactic acid bacteria in neurodegenerative conditions [[[khatoon-2023-gut-microbiota-neurodegenerative]]].
+- Depleted in Parkinson's disease patients, consistent with loss of beneficial lactic acid bacteria in neurodegenerative conditions [[khatoon-2023-gut-microbiota-neurodegenerative]].
 
 ### Multiple Sclerosis
-- Associated with diet and MS status in pediatric cohorts, particularly in the context of Mediterranean dietary patterns [[[mirza-2024-mediterranean-diet-pediatric-ms-microbiota]]].
+- Associated with diet and MS status in pediatric cohorts, particularly in the context of Mediterranean dietary patterns [[mirza-2024-mediterranean-diet-pediatric-ms-microbiota]].
 
 ### Autism Spectrum Disorder
-- Altered abundance in ASD children with GI symptoms, sharing evolutionary lineage with *Streptococcus* within the Lactobacillales order [[[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]]].
+- Altered abundance in ASD children with GI symptoms, sharing evolutionary lineage with *Streptococcus* within the Lactobacillales order [[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]].
 
 ## Therapeutic Delivery Vehicle
 
@@ -49,6 +51,11 @@ tags: [probiotic, food-grade, GRAS, nisin-producer, fermented-foods, therapeutic
 - Engineered strains can secrete anti-inflammatory cytokines (IL-10), trefoil factors, and antigenic proteins directly in the gut lumen.
 - Its inability to colonize the gut permanently is actually advantageous for controlled, transient therapeutic delivery.
 - Investigational applications include mucosal vaccine delivery and local treatment of [[inflammatory-bowel-disease]].
+
+
+## Key Sources
+
+- [[fujimoto-2022-human-gut-virome-metabolic-autoimmune]]
 
 ## Connections
 

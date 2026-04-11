@@ -1,4 +1,5 @@
 ---
+
 title: "The Gut Microbiota (Microbiome) in Cardiovascular Disease and Its Therapeutic Regulation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2022
 doi: 10.3389/fcimb.2022.903570
 tags: [cardiovascular-disease, CVD, gut-microbiome, TMAO, SCFAs, atherosclerosis, heart-failure, coronary-artery-disease, review, therapeutic-regulation, bile-acids]
+platform: wikibiome
 ---
 
 # The Gut Microbiota (Microbiome) in Cardiovascular Disease and Its Therapeutic Regulation

@@ -1,4 +1,5 @@
 ---
+
 title: "Clinical and inflammatory biomarkers of inflammatory bowel diseases are linked to plasma trace elements and toxic metals; new insights into an old concept"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Nutrition
 year: 2022
 tags: [IBD, Crohns-disease, ulcerative-colitis, trace-elements, toxic-metals, inflammation, biomarkers, nickel, chromium, copper, thallium, iron]
 doi: "10.3389/fnut.2022.997356"
+platform: wikibiome
 ---
 
 # Key Claims

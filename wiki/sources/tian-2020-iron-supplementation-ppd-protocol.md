@@ -1,4 +1,5 @@
 ---
+
 title: "The effectiveness of iron supplementation for postpartum depression: A protocol for systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Medicine
 year: 2020
 tags: [iron, supplementation, postpartum-depression, systematic-review-protocol, meta-analysis-protocol, RCT, EPDS]
 doi: "10.1097/MNM.0000000000001640"
+platform: wikibiome
 ---
 
 # Key Claims

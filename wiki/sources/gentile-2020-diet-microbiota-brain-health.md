@@ -1,4 +1,5 @@
 ---
+
 title: "Diet, Microbiota and Brain Health: Unraveling the Network Intersecting Metabolism and Neurodegeneration"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Molecular Sciences
 year: 2020
 tags: [diet, gut-microbiota, neurodegeneration, Alzheimers-disease, Parkinsons-disease, ALS, metabolism, gut-brain-axis, dysbiosis, Mediterranean-diet]
 doi: "10.3390/ijms21207471"
+platform: wikibiome
 ---
 
 # Key Claims

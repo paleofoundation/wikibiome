@@ -1,4 +1,5 @@
 ---
+
 title: "Sodium Butyrate Attenuates Microglia-Mediated Neuroinflammation by Modulating the TLR4/MyD88/NF-kB Pathway and Microbiome-Gut-Brain Axis in Cardiac Arrest Mice"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s13041-025-01179-w"
 tags: [cardiovascular-disease, sodium-butyrate, neuroinflammation, cardiac-arrest, TLR4-MyD88-NF-kB, microbiome-gut-brain-axis, microglia, SCFAs, cerebral-ischemia, gut-barrier, M1-M2-polarization]
 source_pdf: "raw/cardiovascular disease/Microbiome and neuroinflammation cardiovascular disease/s13041-025-01179-w.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

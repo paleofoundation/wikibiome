@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of Ulcerative Colitis and Crohn's Disease on Neurodegenerative Diseases: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Genetics
 year: 2022
 tags: [crohns-disease, IBD, ulcerative-colitis, Mendelian-randomization, Alzheimers-disease, Parkinsons-disease, ALS, neurodegeneration, gut-brain-axis]
 doi: "10.3389/fgene.2022.846005"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: Bilophila
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [mcleod-2023-bridge-crc-mediterranean-diet-trial, montgomery-2024-microbiota-signatures-ms-progression, xue-2024-colonic-microflora-metabolic-viral-myocarditis-cvb3, zhu-2024-toxic-essential-metals-gut-microbiota, li-2023-gut-microbiome-hypertension-bidirectional-mr, strati-2017-altered-gut-microbiota-mycobiota-asd, khatoon-2023-gut-microbiota-neurodegenerative]
 metal_dependencies: [iron -- Fe-S clusters in dissimilatory sulfite reductase (dsrAB); molybdenum -- Mo-cofactor in taurine dehydrogenase]
 tags: [pathobiont, sulfate-reducing, H2S-producer, taurine-metabolizer, high-fat-diet-enriched, IBD-associated, CVD-associated]
+platform: wikibiome
 ---
 
 # Bilophila
@@ -31,27 +33,27 @@ tags: [pathobiont, sulfate-reducing, H2S-producer, taurine-metabolizer, high-fat
 ## Disease Associations
 
 ### Colorectal Cancer
-- Significantly more abundant in uninvolved colonic mucosa of CRC cases versus controls among African American/Black individuals [[[mcleod-2023-bridge-crc-mediterranean-diet-trial]]].
+- Significantly more abundant in uninvolved colonic mucosa of CRC cases versus controls among African American/Black individuals [[mcleod-2023-bridge-crc-mediterranean-diet-trial]].
 - H2S production dampens butyrate metabolism in colonocytes, creating a pro-tumorigenic environment.
 - Mediterranean diet intervention aims to reduce *B. wadsworthia* abundance by shifting bile acid conjugation patterns away from taurine.
 
 ### Multiple Sclerosis
-- Enriched in MS progressors (patients with worsening disability) and significantly stratifies disease progression risk in Kaplan-Meier analysis [[[montgomery-2024-microbiota-signatures-ms-progression]]].
+- Enriched in MS progressors (patients with worsening disability) and significantly stratifies disease progression risk in Kaplan-Meier analysis [[montgomery-2024-microbiota-signatures-ms-progression]].
 - As a sulfate-reducing bacterium producing H2S, it may drive [[oxidative-stress]] and [[inflammation]] in the [[gut-brain-axis]].
 - May thrive in metal-rich environments, connecting MS progression to environmental metal exposure.
 
 ### Cardiovascular Disease
-- Correlated with altered lipid metabolites (traumatic acid) in viral myocarditis models [[[xue-2024-colonic-microflora-metabolic-viral-myocarditis-cvb3]]].
-- Hypertension MR studies show decreased *Bilophila* in hypertensive individuals [[[li-2023-gut-microbiome-hypertension-bidirectional-mr]]].
+- Correlated with altered lipid metabolites (traumatic acid) in viral myocarditis models [[xue-2024-colonic-microflora-metabolic-viral-myocarditis-cvb3]].
+- Hypertension MR studies show decreased *Bilophila* in hypertensive individuals [[li-2023-gut-microbiome-hypertension-bidirectional-mr]].
 
 ### IBD
 - Enriched in [[inflammatory-bowel-disease]], where its H2S production exacerbates mucosal inflammation.
 - Taurine-rich diets (high in animal protein) promote *B. wadsworthia* expansion and colitis in susceptible hosts.
 
 ### Other Conditions
-- Arsenic exposure increases *Bilophila* abundance and perturbs bile acid homeostasis [[[zhu-2024-toxic-essential-metals-gut-microbiota]]].
-- Altered in [[autism-spectrum-disorder]] gut mycobiome-bacteriome interaction studies [[[strati-2017-altered-gut-microbiota-mycobiota-asd]]].
-- Decreased in Huntington's disease [[[khatoon-2023-gut-microbiota-neurodegenerative]]].
+- Arsenic exposure increases *Bilophila* abundance and perturbs bile acid homeostasis [[zhu-2024-toxic-essential-metals-gut-microbiota]].
+- Altered in [[autism-spectrum-disorder]] gut mycobiome-bacteriome interaction studies [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
+- Decreased in Huntington's disease [[khatoon-2023-gut-microbiota-neurodegenerative]].
 
 ## Dietary Modulation
 

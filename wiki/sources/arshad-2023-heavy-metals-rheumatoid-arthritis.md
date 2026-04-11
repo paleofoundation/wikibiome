@@ -1,4 +1,5 @@
 ---
+
 title: "Role of Some Heavy Metals in Rheumatoid Arthritis"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Arshad M, Riaz N, Bashir R, Irfan S, Khan SY, Tahir HM]
 journal: "Research Developments in Medicine and Medical Science Vol. 7"
 year: 2023
 tags: [rheumatoid-arthritis, copper, zinc, lead, cobalt, nickel, heavy-metals, serum-levels]
+platform: wikibiome
 ---
 
 # Key Claims

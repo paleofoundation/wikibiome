@@ -1,4 +1,5 @@
 ---
+
 title: "Drug Repurposing for Cancer Therapy"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Ying Xia, Ming Sun, Hai Huang, Wei-Lin Jin]
 journal: Signal Transduction and Targeted Therapy
 year: 2024
 tags: [colon-cancer, drug-repurposing, cancer-therapy, hallmarks-of-cancer, cell-death, apoptosis, ferroptosis, pyroptosis, autophagy, metformin, statins, disulfiram, organoids, colorectal-cancer, review]
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "The Gut Microbiota in Multiple Sclerosis Varies with Disease Activity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Genome Medicine
 year: 2023
 tags: [gut-microbiome, multiple-sclerosis, shotgun-metagenomics, disease-activity, Faecalibacterium-prausnitzii, Gordonibacter-urolithinfaciens, inflammation, Caudovirales, bacteriophage, SCFA]
 doi: "10.1186/s13073-022-01148-1"
+platform: wikibiome
 ---
 
 # The Gut Microbiota in Multiple Sclerosis Varies with Disease Activity

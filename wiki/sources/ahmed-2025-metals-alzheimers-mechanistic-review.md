@@ -1,4 +1,5 @@
 ---
+
 title: "Associations of Environmental Exposure to Arsenic, Manganese, Lead and Cadmium on Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Giasuddin Ahmed, Md. Shiblur Rahaman, Enrique Perez, Khalid M. Khan]
 journal: Preprints.org (not peer-reviewed)
 year: 2025
 tags: [Alzheimers-disease, arsenic, manganese, lead, cadmium, neurotoxicity, mechanistic-studies, oxidative-stress, tau-phosphorylation, amyloid-beta, blood-brain-barrier, preprint]
+platform: wikibiome
 ---
 
 # Metals and Alzheimer's Disease: Mechanistic Review

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Jeffrey M Boertien, Pedro A B Pereira, Velma T E Aho, Filip Scheperjans]
 year: 2019
 journal: "Frontiers in Neurology"
-doi: "10.3389/fneur.2019.XXXXXX"
+doi: "10.3389/fneur.2019.01174"
 tags: [parkinsons-disease, microbiome-composition, covariates, confounders, medication, functional-microbiome-shifts, study-design]
 library_category: signatures
 platform: both

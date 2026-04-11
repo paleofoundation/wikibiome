@@ -1,4 +1,5 @@
 ---
+
 title: "Estrobolome"
 type: concept
 created: 2026-04-10
@@ -6,6 +7,7 @@ updated: 2026-04-10
 sources: []
 tags: [estrogen-metabolism, microbiome, enterohepatic-circulation, hormone-recirculation]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
+platform: wikibiome
 ---
 
 ## Overview
@@ -42,20 +44,20 @@ The estrobolome is not a single organism but a functional guild. Key contributor
 
 The estrobolome is fundamentally metal-dependent:
 
-**[[Iron]]** is the primary driver. Most beta-glucuronidase-producing taxa are iron-dependent organisms. Iron overload in the gut selectively enriches these taxa, amplifying estrogen recirculation. This creates a feed-forward loop: [[iron]] → pathogen enrichment → beta-glucuronidase → estrogen recirculation → tissue proliferation → inflammation → more iron release.
+**[[iron]]** is the primary driver. Most beta-glucuronidase-producing taxa are iron-dependent organisms. Iron overload in the gut selectively enriches these taxa, amplifying estrogen recirculation. This creates a feed-forward loop: [[iron]] → pathogen enrichment → beta-glucuronidase → estrogen recirculation → tissue proliferation → inflammation → more iron release.
 
-**[[Zinc]]** is required by several metalloprotease-producing estrobolome members for tissue invasion.
+**[[zinc]]** is required by several metalloprotease-producing estrobolome members for tissue invasion.
 
-**[[Nickel]]** dependency in [[helicobacter-pylori]] connects gastric infection to altered estrogen metabolism through systemic inflammation.
+**[[nickel]]** dependency in [[helicobacter-pylori]] connects gastric infection to altered estrogen metabolism through systemic inflammation.
 
 ## Role in Disease
 
 The estrobolome concept explains why gut dysbiosis contributes to conditions far removed from the GI tract:
 
-- **[[Endometriosis]]** — Enriched estrobolome drives estrogen recirculation, fueling ectopic endometrial growth. The endometriosis metallomic signature shows elevated iron and nickel, which select for beta-glucuronidase producers.
+- **[[endometriosis]]** — Enriched estrobolome drives estrogen recirculation, fueling ectopic endometrial growth. The endometriosis metallomic signature shows elevated iron and nickel, which select for beta-glucuronidase producers.
 - **Breast cancer** — Elevated circulating estrogen from enhanced estrobolome activity is an established risk factor for estrogen receptor-positive breast cancer.
-- **[[PCOS]]** — Altered estrobolome contributes to hormonal imbalance and hyperandrogenism through disrupted estrogen clearance.
-- **[[Obesity]]** — Bidirectional relationship: adipose tissue produces estrogen via aromatase, while enriched estrobolome recirculates it.
+- **[[pcos]]** — Altered estrobolome contributes to hormonal imbalance and hyperandrogenism through disrupted estrogen clearance.
+- **[[obesity]]** — Bidirectional relationship: adipose tissue produces estrogen via aromatase, while enriched estrobolome recirculates it.
 
 ## Therapeutic Implications
 

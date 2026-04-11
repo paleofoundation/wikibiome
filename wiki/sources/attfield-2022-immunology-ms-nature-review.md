@@ -1,4 +1,5 @@
 ---
+
 title: "The immunology of multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Reviews Immunology
 year: 2022
 doi: 10.1038/s41577-022-00718-z
 tags: [multiple-sclerosis, immunology, HLA, T-cells, B-cells, EBV, gut-microbiome, environmental-triggers, drug-repurposing, neuroimmunology]
+platform: wikibiome
 ---
 
 # The Immunology of Multiple Sclerosis

@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel as a potential disruptor of thyroid function: benchmark modelling of human data"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 tags: [nickel, thyroid-function, endocrine-disruption, benchmark-dose, SPINA-GT, fT3, fT4]
 doi: "10.3389/fendo.2023.1145153"
+platform: wikibiome
 ---
 
 ## Key Claims

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Ruth Alonso, Diana Pisa, Luis Carrasco]
 year: 2021
 journal: "Frontiers in Microbiology"
-doi: "10.3389/fmicb.2021.XXXXXX"
+doi: "10.3389/fmicb.2019.02622"
 tags: [parkinsons-disease, huntingtons-disease, brain-microbiota, fungal-microbiota, Candida, brain-infection, neurodegeneration]
 library_category: mechanistic-insights
 platform: both

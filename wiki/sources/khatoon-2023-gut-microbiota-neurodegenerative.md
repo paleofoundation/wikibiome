@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of gut microbiota on neurodegenerative diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Aging Neuroscience
 year: 2023
 tags: [gut-microbiota, neurodegeneration, Alzheimers-disease, Parkinsons-disease, ALS, Huntingtons-disease, gut-brain-axis, BBB, probiotics, FMT, tryptophan, SCFAs]
 doi: "10.2147/DDDT.S580330"
+platform: wikibiome
 ---
 
 # Key Claims

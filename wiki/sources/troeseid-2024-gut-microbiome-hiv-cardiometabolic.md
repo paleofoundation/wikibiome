@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiome and Cardiometabolic Comorbidities in People Living with HIV"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s40168-024-01815-y"
 tags: [cardiovascular-disease, HIV, gut-microbiome, comorbidities, TMAO, SCFAs, microbial-translocation, dysbiosis, cardiometabolic-disease, tryptophan, indole-3-propionic-acid, bile-acids, uremic-toxins]
 source_pdf: "raw/cardiovascular disease/Comorbidities cardiovascular disease microbiome/s40168-024-01815-y.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

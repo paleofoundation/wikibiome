@@ -1,4 +1,5 @@
 ---
+
 title: "Correlation of fecal metabolomics and gut microbiota in mice with endometriosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: American Journal of Reproductive Immunology
 year: 2020
 tags: [endometriosis, gut-microbiome, metabolomics, bile-acids, mouse-model, dysbiosis, CDCA, UDCA, alpha-linolenic-acid, metabolites]
 doi: "10.1111/aji.13307"
+platform: wikibiome
 ---
 
 # Key Claims

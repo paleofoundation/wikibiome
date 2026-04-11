@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal Weight, Colon Cancer Risk, and Dietary Intake of Nonstarch Polysaccharides (Dietary Fiber)"
 type: source
 created: 2026-04-09
@@ -7,6 +8,8 @@ authors: [John H. Cummings, Sheila A. Bingham, Kenneth W. Heaton, Martin A. East
 journal: Gastroenterology
 year: 1992
 tags: [colon-cancer, dietary-fiber, fecal-weight, NSP, transit-time, epidemiology, colorectal-cancer, prevention]
+doi: "10.1016/0016-5085(92)91357-A"
+platform: wikibiome
 ---
 
 # Key Claims

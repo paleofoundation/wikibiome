@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel essentiality, toxicity, and carcinogenicity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Critical Reviews in Oncology/Hematology
 year: 2002
 tags: [nickel-toxicity, nickel-carcinogenicity, nickel-essentiality, review, molecular-mechanisms, oxidative-stress]
 doi: "10.1016/s1040-8428(01)00214-1"
+platform: wikibiome
 ---
 
 ## Key Claims

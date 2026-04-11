@@ -1,4 +1,5 @@
 ---
+
 title: "Biliary microbiome profiling via 16 S rRNA amplicon sequencing in patients with cholangiocarcinoma, pancreatic carcinoma and choledocholithiasis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2025
 tags: [pancreatic-cancer, 16S-rRNA, biliary-microbiome, cholangiocarcinoma, choledocholithiasis, fungal-microbiota, Malassezia, metabolic-pathways, KEGG]
 doi: "10.1038/s41598-025-00976-6"
+platform: wikibiome
 ---
 
 # Key Claims

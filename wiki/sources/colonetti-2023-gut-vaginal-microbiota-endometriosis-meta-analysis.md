@@ -1,4 +1,5 @@
 ---
+
 title: "Gut and Vaginal Microbiota in the Endometriosis: Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BioMed Research International
 year: 2023
 tags: [endometriosis, gut-microbiome, vaginal-microbiome, meta-analysis, systematic-review, alpha-diversity, Shannon-index, Simpson-index, dysbiosis]
 doi: "10.1155/2023/2675966"
+platform: wikibiome
 ---
 
 # Key Claims

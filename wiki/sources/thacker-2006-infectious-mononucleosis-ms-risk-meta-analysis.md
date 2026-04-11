@@ -1,4 +1,5 @@
 ---
+
 title: "Infectious Mononucleosis and Risk for Multiple Sclerosis: A Meta-analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Annals of Neurology
 year: 2006
 doi: 10.1002/ana.20820
 tags: [multiple-sclerosis, EBV, Epstein-Barr-virus, infectious-mononucleosis, meta-analysis, risk-factor, viral-infection]
+platform: wikibiome
 ---
 
 # Infectious Mononucleosis and Risk for Multiple Sclerosis: A Meta-analysis

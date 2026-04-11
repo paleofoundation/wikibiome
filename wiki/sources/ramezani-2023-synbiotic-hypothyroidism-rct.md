@@ -1,4 +1,5 @@
 ---
+
 title: "The Effect of Synbiotic Supplementation on Hypothyroidism: A Randomized Double-Blind Placebo Controlled Clinical Trial"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2023
 doi: "10.1371/journal.pone.0277213"
 tags: [hashimotos-thyroiditis, thyroid, synbiotics, probiotics, prebiotics, hypothyroidism, RCT, quality-of-life, blood-pressure, depression, fructo-oligosaccharides, Lactobacillus, Bifidobacterium, Streptococcus-thermophilus, TSH, FT4, gut-microbiota]
+platform: wikibiome
 ---
 
 # The Effect of Synbiotic Supplementation on Hypothyroidism: A Randomized Double-Blind Placebo Controlled Clinical Trial

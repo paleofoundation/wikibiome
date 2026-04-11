@@ -1,4 +1,5 @@
 ---
+
 title: "Transcriptomics to Study the Effect of a Mediterranean-Inspired Diet on Inflammation in Crohn's Disease Patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Human Genomics
 year: 2013
 tags: [crohns-disease, IBD, Mediterranean-diet, transcriptomics, gene-expression, inflammation, microbiome, IRF2, STAT3, dietary-intervention]
 doi: "10.1186/1479-7364-7-24"
+platform: wikibiome
 ---
 
 # Key Claims

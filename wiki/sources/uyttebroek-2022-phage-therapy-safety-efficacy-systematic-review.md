@@ -1,4 +1,5 @@
 ---
+
 title: "Safety and efficacy of phage therapy in difficult-to-treat infections: a systematic review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: The Lancet Infectious Diseases
 year: 2022
 doi: 10.1016/S1473-3099(21)00612-5
 tags: [cardiovascular-disease, phage-therapy, antimicrobial-resistance, systematic-review, safety, efficacy, Pseudomonas, Staphylococcus, LVAD, endocarditis]
+platform: wikibiome
 ---
 
 # Safety and Efficacy of Phage Therapy in Difficult-to-Treat Infections: A Systematic Review

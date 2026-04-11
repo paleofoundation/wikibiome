@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome Profile of Deep Endometriosis Patients: Comparison of Vaginal Fluid, Endometrium and Lesion"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Diagnostics
 year: 2020
 tags: [endometriosis, deep-endometriosis, vaginal-microbiome, endometrial-microbiome, Lactobacillus, Alishewanella, Enterococcus, Pseudomonas, lesion-microbiome, 16S-rRNA]
 doi: "10.3390/diagnostics10030163"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome-Drug Interactions: A Critical Review of Pharmacokinetic and Pharmacodynamic Modulation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Tropical Journal of Pharmaceutical and Life Sciences
 year: 2025
 doi: 10.61280/tjpls.v12i3.185
 tags: [cardiovascular-disease, microbiome-modulating-drugs, pharmacokinetics, pharmacodynamics, drug-metabolism, beta-glucuronidase, digoxin, pharmacomicrobiomics, drug-repurposing]
+platform: wikibiome
 ---
 
 # Microbiome-Drug Interactions: A Critical Review of Pharmacokinetic and Pharmacodynamic Modulation

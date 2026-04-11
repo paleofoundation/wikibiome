@@ -1,4 +1,5 @@
 ---
+
 title: Clostridium
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [bronzini-2023-feeding-gut-microbiome-ms, perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort, liu-2019-gut-microbiome-metabolism-cad-severity, wang-2021-gut-microbiota-nsaid-enteropathy, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]
 metal_dependencies: [iron -- iron-sulfur clusters in ferredoxins; cobalt -- B12-dependent enzymes in some species; zinc -- botulinum toxin is a Zn-metalloprotease]
 tags: [mixed-genus, butyrate-producers, pathogens, commensal, context-dependent, depleted-in-disease]
+platform: wikibiome
 ---
 
 # Clostridium
@@ -17,7 +19,7 @@ A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming 
 
 ### Clusters IV and XIVa (Reclassified)
 - The **dominant butyrate-producing communities** in the healthy human colon, representing up to 40% of total fecal bacteria.
-- Depleted in [[multiple-sclerosis]]: loss reduces SCFA production, impairs Treg differentiation and anti-inflammatory cytokine output [[[bronzini-2023-feeding-gut-microbiome-ms]]].
+- Depleted in [[multiple-sclerosis]]: loss reduces SCFA production, impairs Treg differentiation and anti-inflammatory cytokine output [[bronzini-2023-feeding-gut-microbiome-ms]].
 - Depleted across [[crohns-disease]], IBD broadly, [[colorectal-cancer]], and [[cardiovascular-disease]].
 - Induce colonic Tregs via butyrate-HDAC inhibition, a cornerstone of mucosal immune tolerance.
 
@@ -31,7 +33,7 @@ A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming 
 
 ### C. perfringens
 - Produces at least 20 toxins including alpha-toxin (phospholipase C), beta-toxin, epsilon-toxin, and enterotoxin.
-- Causes gas gangrene, food poisoning, and necrotizing enteritis. [[Iron]]-dependent virulence.
+- Causes gas gangrene, food poisoning, and necrotizing enteritis. [[iron]]-dependent virulence.
 
 ### C. botulinum
 - Produces botulinum neurotoxin, the most potent biological toxin known.
@@ -51,14 +53,14 @@ A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming 
 ## Key Metabolites
 
 - **Butyrate** -- primary SCFA from clusters IV/XIVa; HDAC inhibitor, colonocyte fuel, anti-inflammatory.
-- **Secondary bile acids** -- 7-alpha-dehydroxylation by *C. scindens* and related species converts primary to secondary bile acids (DCA, LCA), influencing [[cardiovascular-disease]] and CRC risk [[[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]].
+- **Secondary bile acids** -- 7-alpha-dehydroxylation by *C. scindens* and related species converts primary to secondary bile acids (DCA, LCA), influencing [[cardiovascular-disease]] and CRC risk [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 - **Indole derivatives** -- tryptophan metabolism by some Clostridium species produces AHR ligands with immune-modulatory activity.
 
 ## Disease Associations
 
-- *Clostridium* sp. CAG:307 enriched in [[endometriosis]] [[[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]]].
-- CAG9 (*Clostridium*) negatively correlated with glycerophospholipids in CAD severity analysis [[[liu-2019-gut-microbiome-metabolism-cad-severity]]].
-- NSAID-induced enteropathy disrupts clostridial communities, reducing protective SCFA output [[[wang-2021-gut-microbiota-nsaid-enteropathy]]].
+- *Clostridium* sp. CAG:307 enriched in [[endometriosis]] [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]].
+- CAG9 (*Clostridium*) negatively correlated with glycerophospholipids in CAD severity analysis [[liu-2019-gut-microbiome-metabolism-cad-severity]].
+- NSAID-induced enteropathy disrupts clostridial communities, reducing protective SCFA output [[wang-2021-gut-microbiota-nsaid-enteropathy]].
 
 ## Connections
 

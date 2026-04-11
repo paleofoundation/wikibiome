@@ -1,4 +1,5 @@
 ---
+
 title: "An emerging potential of metabolomics in multiple sclerosis: a comprehensive overview"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cellular and Molecular Life Sciences
 year: 2021
 doi: 10.1007/s00018-020-03733-2
 tags: [multiple-sclerosis, metabolomics, biomarkers, lipid-metabolism, tryptophan, kynurenine, amino-acids, oxidative-stress, energy-metabolism, CSF, review]
+platform: wikibiome
 ---
 
 # An Emerging Potential of Metabolomics in Multiple Sclerosis: A Comprehensive Overview

@@ -1,4 +1,5 @@
 ---
+
 title: Rheumatoid Arthritis
 type: entity
 subtype: disease
@@ -13,6 +14,7 @@ sources:
   - elbeialy-2024-environmental-pollution-rheumatic-diseases
   - zhou-2024-urinary-vocs-rheumatoid-arthritis
 tags: [autoimmune, copper, zinc, nickel, lead, cadmium, chromium, environmental-pollution, vitamin-D, machine-learning]
+platform: wikibiome
 ---
 
 # Rheumatoid Arthritis
@@ -27,13 +29,13 @@ The metallomic profile of RA from the [[metal-disease-matrix]] and primary sourc
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[copper\|Cu]]** | Elevated (conflicting) | Blood Cu positively correlated with WBC, ESR, platelets, RF-IgM in Taiwan study; RA patients had highest blood Cu among disease groups; BUT Pakistani study found Cu significantly *lower* in RA |
-| **[[zinc\|Zn]]** | Not significantly changed | No significant difference in Pakistani study (p=0.22); not a primary marker |
-| **[[lead\|Pb]]** | Elevated | 5.73 vs. 2.19 ug/L in Pakistani RA vs. controls (p<0.01); inversely correlated with vitamin D |
-| **[[cadmium\|Cd]]** | Elevated | 1.77 vs. 0.28 ug/L in RA vs. controls (p<0.01); positively correlated with DAS28 disease activity; r=-0.901 with vitamin D |
-| **[[chromium\|Cr]]** | Elevated | 3.08 vs. 0.26 ug/L in RA vs. controls (p<0.01); generated through ROS-producing Cr(VI)-to-Cr(III) reduction |
-| **[[nickel\|Ni]]** | Decreased (conflicting) | Significantly lower in RA (41.19 vs. 112.53 ug/L) in Pakistani study; BUT correlated with ESR in Taiwanese study |
-| **[[arsenic\|As]]** | Elevated (metabolites) | Arsenic metabolites were top positive predictors for RA in NHANES ML analysis (SHAP 0.02) |
+| **[[copper|Cu]]** | Elevated (conflicting) | Blood Cu positively correlated with WBC, ESR, platelets, RF-IgM in Taiwan study; RA patients had highest blood Cu among disease groups; BUT Pakistani study found Cu significantly *lower* in RA |
+| **[[zinc|Zn]]** | Not significantly changed | No significant difference in Pakistani study (p=0.22); not a primary marker |
+| **[[lead|Pb]]** | Elevated | 5.73 vs. 2.19 ug/L in Pakistani RA vs. controls (p<0.01); inversely correlated with vitamin D |
+| **[[cadmium|Cd]]** | Elevated | 1.77 vs. 0.28 ug/L in RA vs. controls (p<0.01); positively correlated with DAS28 disease activity; r=-0.901 with vitamin D |
+| **[[chromium|Cr]]** | Elevated | 3.08 vs. 0.26 ug/L in RA vs. controls (p<0.01); generated through ROS-producing Cr(VI)-to-Cr(III) reduction |
+| **[[nickel|Ni]]** | Decreased (conflicting) | Significantly lower in RA (41.19 vs. 112.53 ug/L) in Pakistani study; BUT correlated with ESR in Taiwanese study |
+| **[[arsenic|As]]** | Elevated (metabolites) | Arsenic metabolites were top positive predictors for RA in NHANES ML analysis (SHAP 0.02) |
 
 ### The Copper Paradox in RA
 

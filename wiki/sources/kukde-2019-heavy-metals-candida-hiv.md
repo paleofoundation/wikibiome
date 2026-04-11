@@ -1,4 +1,5 @@
 ---
+
 title: "Effect of Heavy Metal Ions on Candida Isolated from HIV Positive Patients"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Monal M. Kukde, Silpi Basak, Deepak P. Selkar]
 journal: Journal of Clinical and Diagnostic Research
 year: 2019
 tags: [Candida, heavy-metals, HIV, silver, mercury, cadmium, zinc, antifungal, oral-candidiasis, metal-resistance]
+platform: wikibiome
 ---
 
 ## Summary

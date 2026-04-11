@@ -1,4 +1,5 @@
 ---
+
 title: Pancreatic Cancer
 type: entity
 subtype: disease
@@ -28,6 +29,7 @@ sources:
   - yamamura-2025-fmt-therapeutic-strategy-pancreatic-cancer
   - han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer
 tags: [cancer, pancreatic-cancer, PDAC, copper, zinc, calcium, magnesium, cadmium, metallomics, microbiome, oral-microbiome, mycobiome, virome, metabolomics, Mendelian-randomization, probiotics, synbiotics, ferroptosis, metal-carcinogenesis]
+platform: wikibiome
 ---
 
 # Pancreatic Cancer
@@ -42,11 +44,11 @@ The landmark study by Schilling et al. (2020) demonstrated that a combined urina
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[copper\|Cu]]** | Elevated (urine, serum) | ATP7A overexpression in PDAC; Cu increased across cancer types as a near-universal biomarker |
-| **[[zinc\|Zn]]** | Elevated (urine), depleted (tissue) | Disrupted ZnT/ZIP transporters (ZIP3, SLC30A); Zn isotope fractionation as novel biomarker |
+| **[[copper|Cu]]** | Elevated (urine, serum) | ATP7A overexpression in PDAC; Cu increased across cancer types as a near-universal biomarker |
+| **[[zinc|Zn]]** | Elevated (urine), depleted (tissue) | Disrupted ZnT/ZIP transporters (ZIP3, SLC30A); Zn isotope fractionation as novel biomarker |
 | **Ca** | Decreased (urine) | S100 protein dysregulation; AUC 0.796 individually |
 | **Mg** | Decreased (urine) | Disrupted cell proliferation and protein synthesis; AUC 0.783 individually |
-| **[[cadmium\|Cd]]** | Elevated | Zhang 2022 review confirms Cd increase in pancreatic cancer tissue |
+| **[[cadmium|Cd]]** | Elevated | Zhang 2022 review confirms Cd increase in pancreatic cancer tissue |
 | **Se** | Depleted | Impaired selenoprotein antioxidant defense |
 
 Zinc isotope fractionation represents a novel biomarker dimension: PDAC patients excrete isotopically light Zn (median delta-66/64-Zn = -0.15 per mille vs +0.02 in controls, p=0.002), reflecting metalloprotein dysregulation. The healthy Zn concentration-to-Cu ratio correlation (r2=0.66) is completely abolished in PDAC (r2=0.0002), indicating fundamental disruption of metal homeostasis relevant to [[metal-carcinogenesis]] and [[oxidative-stress]].

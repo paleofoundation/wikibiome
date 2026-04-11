@@ -1,4 +1,5 @@
 ---
+
 title: "Identifying the metabolic profile of Hashimoto's thyroiditis from the METHAP clinical study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, metabolomics, organic-acids, fatty-acids, biomarkers, mitochondrial-dysfunction, insulin-resistance, microbiome, selenium, iron, zinc, copper, oxidative-stress]
 doi: "10.1038/s41598-025-89600-1"
+platform: wikibiome
 ---
 
 # Identifying the metabolic profile of Hashimoto's thyroiditis from the METHAP clinical study

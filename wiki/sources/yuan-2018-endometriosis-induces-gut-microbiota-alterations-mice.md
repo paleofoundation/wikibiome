@@ -1,4 +1,5 @@
 ---
+
 title: "Endometriosis induces gut microbiota alterations in mice"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Human Reproduction
 year: 2018
 tags: [endometriosis, gut-microbiome, mouse-model, Firmicutes-Bacteroidetes-ratio, dysbiosis, Bifidobacterium, 16S-rRNA, beta-diversity]
 doi: "10.1093/humrep/dex372"
+platform: wikibiome
 ---
 
 # Key Claims

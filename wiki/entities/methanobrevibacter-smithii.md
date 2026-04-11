@@ -1,4 +1,5 @@
 ---
+
 title: "Methanobrevibacter smithii"
 type: entity
 subtype: archaea
@@ -9,6 +10,7 @@ tags: [methanogen, hydrogen-consumer, nickel-dependent, obesity, constipation, i
 oxygen_requirement: "anaerobic"
 metal_dependencies: [nickel, iron, cobalt]
 key_enzymes: [NiFe-hydrogenase, methyl-coenzyme-M-reductase, methyltransferase]
+platform: wikibiome
 ---
 
 # Methanobrevibacter smithii
@@ -89,9 +91,9 @@ via sequential reduction of CO2:
 
 | Taxon | Primary Fermentation | H2 Yield |
 |-------|---------------------|----------|
-| [[Bacteroides-fragilis]] | Starch/pectin → acetate + propionate | Low |
-| [[Faecalibacterium-prausnitzii]] | Carbohydrates → butyrate | High |
-| [[Prevotella]] spp | Pectin, mucin → acetate | Medium |
+| [[bacteroides-fragilis]] | Starch/pectin → acetate + propionate | Low |
+| [[faecalibacterium-prausnitzii]] | Carbohydrates → butyrate | High |
+| [[prevotella]] spp | Pectin, mucin → acetate | Medium |
 | *Clostridium* (cluster IV) | Plant polysaccharides → butyrate + H2 | High |
 
 When H2-producing taxa are depleted, *M. smithii* starves. This creates an intervention strategy: **suppress fermenters OR restrict nickel supply**.
@@ -99,7 +101,7 @@ When H2-producing taxa are depleted, *M. smithii* starves. This creates an inter
 ## Ecological Transitions and Biofilm Formation
 
 - *M. smithii* does not form biofilms alone but **integrates into mixed anaerobic biofilms** with bacteria and fungi.
-- In **slow-transit dysbiosis** (constipation, megacolon), *M. smithii* aggregates densely with [[Bacteroides]], [[Prevotella]], and [[Clostridium]] spp.
+- In **slow-transit dysbiosis** (constipation, megacolon), *M. smithii* aggregates densely with [[bacteroides-fragilis|bacteroides]], [[prevotella]], and [[clostridium]] spp.
 - Reduced peristalsis creates **anaerobic microenvironments** (lower pO2, more stratified layers), favoring methanogen abundance.
 - This is distinct from acute dysbiosis (e.g., *C. difficile* overgrowth), where *M. smithii* may be secondary to pathogenic dominance.
 

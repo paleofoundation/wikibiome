@@ -1,15 +1,17 @@
 ---
+
 title: Metabolic Syndrome and Metal Exposure
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [liu-2025-cardiometabolic-nickel.md]
 tags: [metabolic-syndrome, nickel, epidemiology, NHANES]
+platform: wikibiome
 ---
 
 # Metabolic Syndrome (MetS) and Metal Exposure
 
-A cluster of conditions — high blood pressure, impaired fasting glucose, insulin resistance, abdominal obesity (BMI ≥25), high triglycerides, low HDL-C — defined by the presence of ≥3 components. Emerging evidence links MetS to environmental [[nickel]] exposure, though findings remain **inconclusive** [[[liu-2025-cardiometabolic-nickel]]].
+A cluster of conditions — high blood pressure, impaired fasting glucose, insulin resistance, abdominal obesity (BMI ≥25), high triglycerides, low HDL-C — defined by the presence of ≥3 components. Emerging evidence links MetS to environmental [[nickel]] exposure, though findings remain **inconclusive** [[liu-2025-cardiometabolic-nickel]].
 
 ## Evidence for Nickel-MetS Association
 

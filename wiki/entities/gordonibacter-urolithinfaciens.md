@@ -1,4 +1,5 @@
 ---
+
 title: Gordonibacter urolithinfaciens
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [urolithin-synthesis-pathway, lactonase]
+platform: wikibiome
 ---
 
 # Gordonibacter urolithinfaciens
@@ -100,4 +102,4 @@ Humans cannot directly metabolize ellagic acid; all urolithin production depends
 - [[aging]] – urolithin pathway implicated in healthy aging and longevity
 - [[iron]] – iron-dependent urolithin synthesis pathway
 - [[dysbiosis]] – depleted in Western diets lacking polyphenol diversity
-- [[Eggerthellaceae]] – family-level link; other members also produce urolithin metabolites
+- [[eggerthellaceae]] – family-level link; other members also produce urolithin metabolites

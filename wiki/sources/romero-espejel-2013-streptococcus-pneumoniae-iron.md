@@ -1,4 +1,5 @@
 ---
+
 title: "Streptococcus pneumoniae Requires Iron for Its Viability and Expresses Two Membrane Proteins That Bind Haemoglobin and Haem"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Metallomics
 year: 2013
 tags: [Streptococcus-pneumoniae, iron, haemoglobin, haem, membrane-proteins, iron-acquisition, bacterial-virulence, nutritional-immunity]
 doi: "10.1039/c3mt20244e"
+platform: wikibiome
 ---
 
 ## Summary

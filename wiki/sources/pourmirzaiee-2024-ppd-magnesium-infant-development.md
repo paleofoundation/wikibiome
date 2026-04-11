@@ -1,4 +1,5 @@
 ---
+
 title: "Association of Postpartum Depression with Maternal Serum Magnesium Levels, Infant Growth, and Neurodevelopmental Indices"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Pourmirzaiee MA, Daniali S, Riahi R, Majidi S, Kelishadi R]
 journal: International Journal of Preventive Medicine
 year: 2024
 tags: [postpartum-depression, magnesium, infant-development, neurodevelopment, communication-skills, EPDS, trace-elements, PERSIAN-Birth-Cohort, Iran]
-doi: "10.1038/s41419-019-2040-0"
+doi: "10.4103/ijpvm.ijpvm_131_23"
+platform: wikibiome
 ---
 
 # Key Claims

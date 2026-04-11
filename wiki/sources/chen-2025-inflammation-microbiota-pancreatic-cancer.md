@@ -1,4 +1,5 @@
 ---
+
 title: "Inflammation, microbiota, and pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cancer Cell International
 year: 2025
 tags: [pancreatic-cancer, inflammation, microbiota, NF-kB, TLRs, TGF-beta, interleukins, chemokines, tumor-microenvironment, pancreatitis]
 doi: "10.1186/s12935-025-03673-6"
+platform: wikibiome
 ---
 
 # Key Claims

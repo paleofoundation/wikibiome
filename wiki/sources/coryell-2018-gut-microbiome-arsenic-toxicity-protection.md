@@ -1,4 +1,5 @@
 ---
+
 title: "The gut microbiome is required for full protection against acute arsenic toxicity in mouse models"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Communications
 year: 2018
 tags: [arsenic, gut-microbiome, detoxification, Faecalibacterium-prausnitizii, germ-free-mice, As3mt, fecal-transplant, microbiome-protection]
 doi: "10.1038/s41467-018-07803-9"
+platform: wikibiome
 ---
 
 # Key Claims

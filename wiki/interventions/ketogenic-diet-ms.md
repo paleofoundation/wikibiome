@@ -1,4 +1,5 @@
 ---
+
 title: "Ketogenic Diet for Multiple Sclerosis"
 type: intervention
 created: 2026-04-10
@@ -22,6 +23,7 @@ targets:
   enzymes: [short-chain-fatty-acid-biosynthesis, butyrate-production, propionate-production]
   metals: []
   ecological: [reduced-dysbiosis, improved-biofermentative-function, restored-diversity, metabolic-shift-to-oxidative-pathways]
+platform: cureva
 ---
 
 ## Mechanism of Action

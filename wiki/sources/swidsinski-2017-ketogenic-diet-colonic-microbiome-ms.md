@@ -1,4 +1,5 @@
 ---
+
 title: "Reduced Mass and Diversity of the Colonic Microbiome in Patients with Multiple Sclerosis and Their Improvement with Ketogenic Diet"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2017
 tags: [crohns-disease, IBD, ketogenic-diet, multiple-sclerosis, colonic-microbiome, FISH, Faecalibacterium-prausnitzii, Roseburia, Bacteroides, biofermentation, dysbiosis]
 doi: "10.3389/fmicb.2017.01141"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: Prevotella
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [bronzini-2023-feeding-gut-microbiome-ms, svensson-2021-endometriosis-gut-microbiota-associations, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort, ross-2024-diet-gut-microbiome-interplay-health-disease]
 metal_dependencies: [iron -- some species are iron-dependent for heme acquisition]
 tags: [commensal, pathobiont, context-dependent, fiber-fermenter, depleted-in-MS, depleted-in-PD]
+platform: wikibiome
 ---
 
 # Prevotella
@@ -24,8 +26,8 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum that e
 
 *Prevotella* depletion is a consistent finding across several autoimmune and neurodegenerative conditions:
 
-- **Multiple sclerosis**: decreased in MS patients; negatively associated with Th17 cell frequency. Its loss may reduce anti-inflammatory SCFA signaling to the CNS via the [[gut-brain-axis]] [[[bronzini-2023-feeding-gut-microbiome-ms]]].
-- **Parkinson's disease**: Prevotellaceae consistently reduced in PD patients. Depletion correlates with reduced SCFA production and increased gut permeability, potentially facilitating alpha-synuclein propagation [[[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]].
+- **Multiple sclerosis**: decreased in MS patients; negatively associated with Th17 cell frequency. Its loss may reduce anti-inflammatory SCFA signaling to the CNS via the [[gut-brain-axis]] [[bronzini-2023-feeding-gut-microbiome-ms]].
+- **Parkinson's disease**: Prevotellaceae consistently reduced in PD patients. Depletion correlates with reduced SCFA production and increased gut permeability, potentially facilitating alpha-synuclein propagation [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - **Colorectal cancer**: often depleted in CRC cohorts, with its niche occupied by [[fusobacterium]] and other pathobionts.
 - **Cardiovascular disease**: reduced in some CVD cohorts, though less consistently than [[lachnospiraceae]] members.
 
@@ -35,7 +37,7 @@ Despite its commensal reputation, *Prevotella* has pathobiont potential in speci
 
 - **Periodontitis**: *P. intermedia* is a classic "orange complex" periodontal pathogen. Oral-to-systemic translocation may contribute to [[cardiovascular-disease]] risk via chronic [[inflammation]] and bacteremia.
 - **Rheumatoid arthritis**: *P. copri* is paradoxically enriched in new-onset RA, where it may drive Th17-mediated joint inflammation. This contrasts with its protective role in healthy gut ecology.
-- **Endometriosis**: *Prevotella* abundance correlates with constipation and GI symptoms in endometriosis patients [[[svensson-2021-endometriosis-gut-microbiota-associations]]].
+- **Endometriosis**: *Prevotella* abundance correlates with constipation and GI symptoms in endometriosis patients [[svensson-2021-endometriosis-gut-microbiota-associations]].
 
 ## Metal Dependencies
 
@@ -48,6 +50,12 @@ Despite its commensal reputation, *Prevotella* has pathobiont potential in speci
 - **Propionate and succinate** -- primary fermentation end-products from complex carbohydrates.
 - **Branched-chain amino acids (BCAAs)** -- *P. copri* possesses biosynthetic capacity for BCAAs, which may link to insulin resistance in some metabolic contexts.
 - **Bile acid transformation** -- participates in primary-to-secondary bile acid conversion via bile salt hydrolase activity.
+
+
+## Key Sources
+
+- [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]]
+- [[ross-2024-diet-gut-microbiome-interplay-health-disease]]
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: "The contribution of environmental exposure to the etiology of autism spectrum disorder"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Sven Bolte, Sonya Girdler, Peter B. Marschik]
 journal: Cellular and Molecular Life Sciences
 year: 2019
 tags: [autism, environmental-risk-factors, heavy-metals, zinc, copper, iron, lead, mercury, prenatal-exposure, nutrition, vaccination]
+platform: wikibiome
 ---
 
 # Bolte et al. 2019 -- Environmental Exposure and ASD Etiology

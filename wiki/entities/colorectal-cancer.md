@@ -1,4 +1,5 @@
 ---
+
 title: Colorectal Cancer
 type: entity
 subtype: disease
@@ -24,6 +25,7 @@ sources:
   - appunni-2021-dietary-factors-gut-microbiome-crc
   - mcleod-2023-bridge-crc-mediterranean-diet-trial
 tags: [cancer, colorectal-cancer, copper, zinc, selenium, cadmium, arsenic, chromium, iron, ferroptosis, Fusobacterium-nucleatum, Bacteroides-fragilis, bile-acids, SCFAs, butyrate, GPR43, microbiome, mycobiome, virome, diet, Mediterranean-diet, Cu-Zn-ratio, metal-carcinogenesis]
+platform: wikibiome
 ---
 
 # Colorectal Cancer
@@ -38,14 +40,14 @@ The metallomic profile of CRC from [[zhang-2022-metallomics-cancer-review]] and 
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[copper\|Cu]]** | Elevated | Increased in serum/plasma across multiple studies; Cu/Zn ratio first proposed as a CRC marker |
-| **[[zinc\|Zn]]** | Depleted | European study of 58,221 participants confirmed significant association; Zn deficiency is a general cancer feature across multiple meta-analyses |
-| **[[selenium\|Se]]** | Depleted | Decreased across cancer types; impairs glutathione peroxidase defense |
-| **[[iron\|Fe]]** | Elevated (tissue) | Heme iron from red meat drives N-nitroso compound formation and oxidative DNA damage; Fe dysregulation via ferroptosis pathways |
-| **[[cadmium\|Cd]]** | Exposure risk | IARC Group 1 carcinogen; disrupts DNA repair and epigenetic modification |
-| **[[arsenic\|As]]** | Exposure risk | IARC Group 1 carcinogen; environmental contamination source |
-| **[[chromium\|Cr]]** | Exposure risk (Cr VI) | Ingestion route associated with CRC and GI tract diseases; hub genes include VEGFA and EGFR |
-| **[[nickel\|Ni]]** | Elevated (inconsistent) | Increased in some studies; IARC Group 1 carcinogen alongside Cr and Cd |
+| **[[copper|Cu]]** | Elevated | Increased in serum/plasma across multiple studies; Cu/Zn ratio first proposed as a CRC marker |
+| **[[zinc|Zn]]** | Depleted | European study of 58,221 participants confirmed significant association; Zn deficiency is a general cancer feature across multiple meta-analyses |
+| **[[selenium|Se]]** | Depleted | Decreased across cancer types; impairs glutathione peroxidase defense |
+| **[[iron|Fe]]** | Elevated (tissue) | Heme iron from red meat drives N-nitroso compound formation and oxidative DNA damage; Fe dysregulation via ferroptosis pathways |
+| **[[cadmium|Cd]]** | Exposure risk | IARC Group 1 carcinogen; disrupts DNA repair and epigenetic modification |
+| **[[arsenic|As]]** | Exposure risk | IARC Group 1 carcinogen; environmental contamination source |
+| **[[chromium|Cr]]** | Exposure risk (Cr VI) | Ingestion route associated with CRC and GI tract diseases; hub genes include VEGFA and EGFR |
+| **[[nickel|Ni]]** | Elevated (inconsistent) | Increased in some studies; IARC Group 1 carcinogen alongside Cr and Cd |
 
 ### The Cu/Zn Ratio
 

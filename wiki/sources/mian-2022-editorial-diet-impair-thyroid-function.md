@@ -1,4 +1,5 @@
 ---
+
 title: "Editorial: How can diet impair thyroid function?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2022
 doi: "10.3389/fendo.2022.1006547"
 tags: [graves-disease, thyroid, autoimmune, diet, selenium, vitamin-D, PFAS, trans-fatty-acids, methimazole, endocrine-disruptors, omega-3, thyroid-cancer, gut-microbiota]
+platform: wikibiome
 ---
 
 # Editorial: How can diet impair thyroid function?

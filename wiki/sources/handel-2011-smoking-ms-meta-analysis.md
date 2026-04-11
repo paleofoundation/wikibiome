@@ -1,4 +1,5 @@
 ---
+
 title: "Smoking and Multiple Sclerosis: An Updated Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2011
 doi: 10.1371/journal.pone.0016149
 tags: [multiple-sclerosis, smoking, risk-factor, meta-analysis, environmental-exposure, secondary-progression]
+platform: wikibiome
 ---
 
 # Smoking and Multiple Sclerosis: An Updated Meta-Analysis

@@ -1,4 +1,5 @@
 ---
+
 title: "Local and Systemic Effects of Microbiome-Derived Metabolites"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: EMBO Reports
 year: 2023
 doi: "10.15252/embr.202255664"
 tags: [hashimotos-thyroiditis, thyroid, microbiome-derived-metabolites, SCFAs, bile-acids, tryptophan, LPS, amino-acids, postbiotics, gut-barrier, systemic-effects, review]
+platform: wikibiome
 ---
 
 # Local and Systemic Effects of Microbiome-Derived Metabolites

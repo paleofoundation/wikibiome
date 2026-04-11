@@ -1,4 +1,5 @@
 ---
+
 title: "Low nickel diet: An open, prospective trial"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Veien NK, Hattel T, Laurberg G]
 journal: Journal of the American Academy of Dermatology
 year: 1993
 tags: [low-nickel-diet, hand-eczema, prospective-trial, oral-nickel-challenge, long-term-outcomes]
-doi: "10.1177/10711007221144046"
+doi: "10.1016/0190-9622(93)70154-L"
+platform: wikibiome
 ---
 
 ## Key Claims

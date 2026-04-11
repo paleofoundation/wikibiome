@@ -1,4 +1,5 @@
 ---
+
 title: "Brain Microbiota Disruption Within Inflammatory Demyelinating Lesions in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2016
 tags: [brain-microbiota, multiple-sclerosis, 16S-rRNA, RNAseq, Proteobacteria, peptidoglycan, demyelination, neuroinflammation, NF-kB]
 doi: "10.1038/srep37344"
+platform: wikibiome
 ---
 
 # Brain Microbiota Disruption Within Inflammatory Demyelinating Lesions in Multiple Sclerosis

@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metals in Fertilizers: A Historical Analysis of Contamination Trends (1960-2025)"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Food Metallomics
 year: 2026
 tags: [heavy-metals, fertilizers, cadmium, nickel, lead, chromium, phosphate-fertilizers, urea, agricultural-soils, food-chain-contamination, soil-bioaccumulation]
 doi: "10.5281/zenodo.18439158"
+platform: wikibiome
 ---
 
 ## Summary

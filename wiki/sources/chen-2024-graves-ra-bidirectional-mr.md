@@ -1,4 +1,5 @@
 ---
+
 title: "Graves' Disease and Rheumatoid Arthritis: A Bidirectional Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2024
 doi: "10.3389/fendo.2023.1283698"
 tags: [graves-disease, thyroid, autoimmune, rheumatoid-arthritis, mendelian-randomization, GWAS, HLA, comorbidity, JAK-STAT, immune-dysregulation]
+platform: wikibiome
 ---
 
 # Graves' Disease and Rheumatoid Arthritis: A Bidirectional Mendelian Randomization Study

@@ -1,4 +1,5 @@
 ---
+
 title: "Alterations in colorectal cancer virome and its persistence after surgery"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2024
 doi: "10.1038/s41598-024-53041-z"
 tags: [colon-cancer, colorectal-cancer, virome, bacteriophage, Enterobacteria-phage, trans-kingdom-interactions, network-analysis, post-surgery-persistence, Escherichia-virus, Salmonella-virus]
+platform: wikibiome
 ---
 
 # Ho 2024 -- Alterations in Colorectal Cancer Virome and Its Persistence After Surgery

@@ -1,10 +1,12 @@
 ---
+
 title: Metallomics
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhang-2022-metallomics-cancer-review, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd, scholefield-2024-brain-metallomics-dementia, schilling-2020-urine-metallomics-pancreatic-cancer, lim-2023-plasma-metallomics-ami, patil-2021-infection-metallomics-critical-care, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, brylinski-2025-trace-elements-thyroid-diseases, saleh-2020-serum-trace-elements-prostate-cancer, blazewicz-2023-metal-profiles-asd]
 tags: [metallomics, biomarkers, ICP-MS, cancer-diagnostics, metal-profiling, copper-zinc-ratio, selenoproteins, infection-metallomics, brain-metallomics, precision-medicine]
+platform: wikibiome
 ---
 
 # Metallomics
@@ -113,14 +115,14 @@ A key insight emerging from the convergence of these studies: **diseases have me
 The evidence across this wiki demonstrates three tiers of metallomic diagnostic power:
 
 ### Tier 1: Disease Detection (Is disease present?)
-- **Pancreatic cancer**: Ca+Mg+Zn+Cu urine panel achieves AUC 0.99 [[[schilling-2020-urine-metallomics-pancreatic-cancer]]]
-- **AMI**: Cu/Se ratio with random forest achieves AUC 0.942 [[[lim-2023-plasma-metallomics-ami]]]
-- **Lung cancer**: Al and Mn achieve near-perfect AUC [[[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]]
+- **Pancreatic cancer**: Ca+Mg+Zn+Cu urine panel achieves AUC 0.99 [[schilling-2020-urine-metallomics-pancreatic-cancer]]
+- **AMI**: Cu/Se ratio with random forest achieves AUC 0.942 [[lim-2023-plasma-metallomics-ami]]
+- **Lung cancer**: Al and Mn achieve near-perfect AUC [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
 
 ### Tier 2: Disease Differentiation (Which disease is it?)
-- **DLB vs AD vs PDD**: PCA/PLS-DA on brain metals from 3 regions separates all three dementias with 94% sensitivity/specificity [[[scholefield-2024-brain-metallomics-dementia]]]
-- **Lung cancer vs COPD**: Distinct serum metallomic profiles despite overlapping symptoms [[[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]]
-- **ASD severity grading**: Hair metal patterns correlate with autism severity [[[zhou-2025-hair-heavy-metals-asd-severity]]]
+- **DLB vs AD vs PDD**: PCA/PLS-DA on brain metals from 3 regions separates all three dementias with 94% sensitivity/specificity [[scholefield-2024-brain-metallomics-dementia]]
+- **Lung cancer vs COPD**: Distinct serum metallomic profiles despite overlapping symptoms [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
+- **ASD severity grading**: Hair metal patterns correlate with autism severity [[zhou-2025-hair-heavy-metals-asd-severity]]
 
 ### Tier 3: Mechanistic Insight (Why does this pattern exist?)
 - Metal-metal correlation disruption reveals systemic dyshomeostasis (loss of Zn-Se correlation in cancer, Cu-Fe decoupling in DLB)
@@ -140,6 +142,16 @@ Single-element measurements are giving way to integrated multi-element panels an
 
 ### Integration with Other -Omics
 Metallomics combined with genomics (metalloprotein gene variants), metabolomics (metal-dependent metabolic pathways), and microbiomics (gut metal ecology) promises a systems-level understanding of metal biology in health and disease.
+
+
+## Key Sources
+
+- [[zhang-2022-metallomics-cancer-review]]
+- [[patil-2021-infection-metallomics-critical-care]]
+- [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]
+- [[brylinski-2025-trace-elements-thyroid-diseases]]
+- [[saleh-2020-serum-trace-elements-prostate-cancer]]
+- [[blazewicz-2023-metal-profiles-asd]]
 
 ## Connections to Other Concepts
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Saccharomyces cerevisiae"
 type: entity
 subtype: fungus
@@ -9,11 +10,12 @@ tags: [fungus, yeast, probiotic, s-boulardii, zinc-dependent, candida-antagonist
 oxygen_requirement: "facultative"
 metal_dependencies: [zinc, manganese, copper, iron]
 key_enzymes: [alcohol-dehydrogenase, pyruvate-dehydrogenase, cytochrome-c-oxidase]
+platform: wikibiome
 ---
 
 # Saccharomyces cerevisiae
 
-**Saccharomyces cerevisiae** is a **unicellular budding fungus (ascomycete)** ubiquitous in fermentation, brewing, bread-making, and increasingly used as a **pharmaceutical probiotic**. The strain *S. boulardii* (also called *S. cerevisiae* var. *boulardii*) is the most clinically studied variant and is marketed as a live biotherapeutic for diarrhea, traveler's diarrhea, and *Clostridioides difficile*–associated disease (CDAD). Unlike pathogenic *[[Candida-albicans]]*, *S. cerevisiae* competes with pathogenic fungi, produces antimicrobial metabolites, and is rapidly cleared by the host—making it a model commensal and a key candidate for dysbiosis intervention in [[crohns-disease]], [[multiple-sclerosis]], and other conditions involving pathogenic fungal overgrowth.
+**Saccharomyces cerevisiae** is a **unicellular budding fungus (ascomycete)** ubiquitous in fermentation, brewing, bread-making, and increasingly used as a **pharmaceutical probiotic**. The strain *S. boulardii* (also called *S. cerevisiae* var. *boulardii*) is the most clinically studied variant and is marketed as a live biotherapeutic for diarrhea, traveler's diarrhea, and *Clostridioides difficile*–associated disease (CDAD). Unlike pathogenic *[[candida-albicans]]*, *S. cerevisiae* competes with pathogenic fungi, produces antimicrobial metabolites, and is rapidly cleared by the host—making it a model commensal and a key candidate for dysbiosis intervention in [[crohns-disease]], [[multiple-sclerosis]], and other conditions involving pathogenic fungal overgrowth.
 
 ## Taxonomy and Basic Properties
 
@@ -114,7 +116,7 @@ key_enzymes: [alcohol-dehydrogenase, pyruvate-dehydrogenase, cytochrome-c-oxidas
 - High-dose *S. boulardii* supplementation improves remission rates in CD cohorts; likely via *Candida* suppression and barrier strengthening.
 
 ### Multiple Sclerosis
-- Dysbiotic MS signatures include elevated *[[Candida-albicans]]* and reduced beneficial fungi.
+- Dysbiotic MS signatures include elevated *[[candida-albicans]]* and reduced beneficial fungi.
 - *S. boulardii* suppresses *Candida* overgrowth, reducing LPS translocation and systemic inflammation.
 - Yeast fermentation metabolites (butyrate-like effects from lactate) support SCFA-producing bacteria.
 
@@ -131,7 +133,7 @@ key_enzymes: [alcohol-dehydrogenase, pyruvate-dehydrogenase, cytochrome-c-oxidas
 
 ### Why S. cerevisiae Antagonizes Candida
 
-| Feature | *S. cerevisiae* | *[[Candida-albicans]]* |
+| Feature | *S. cerevisiae* | *[[candida-albicans]]* |
 |---------|-----------------|------------------------|
 | **Fermentation Rate** | Very fast (Crabtree effect) | Slower; prefers glucose via glycolysis |
 | **Ethanol Tolerance** | High (8–16% w/v) | Low (3–4% w/v) |
@@ -173,19 +175,19 @@ key_enzymes: [alcohol-dehydrogenase, pyruvate-dehydrogenase, cytochrome-c-oxidas
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[Candida-albicans]]** – Primary antagonist; *S. cerevisiae* suppresses *Candida* overgrowth
-- **[[Clostridioides-difficile]]** – Antagonized by *S. boulardii* via biofilm disruption and barrier enhancement
+- **[[candida-albicans]]** – Primary antagonist; *S. cerevisiae* suppresses *Candida* overgrowth
+- **[[clostridioides-difficile]]** – Antagonized by *S. boulardii* via biofilm disruption and barrier enhancement
 - **[[ethanol]]** – Primary fermentation product; antimicrobial weapon
 - **[[acetic-acid]]** – Fermentation byproduct; pathogenic suppression
 - **[[zinc]]** – Required for alcohol dehydrogenase, pyruvate dehydrogenase, metalloproteases
 - **[[iron]]** – Required for cytochrome c oxidase and iron-sulfur cluster enzymes
 - **[[manganese]]** – Required for superoxide dismutase (antioxidant)
 - **[[copper]]** – Required for cytochrome c oxidase assembly
-- **[[Crohns-disease]]** – ASCA+ marker; *S. boulardii* supplementation improves remission
+- **[[crohns-disease]]** – ASCA+ marker; *S. boulardii* supplementation improves remission
 - **[[multiple-sclerosis]]** – Dysbiotic MS involves Candida overgrowth; *S. boulardii* suppression beneficial
 - **[[dysbiosis]]** – Antagonizes pathogenic fungi; restores commensal/probiotic balance
 - **[[inflammation]]** – *S. boulardii* reduces IL-8, increases IL-10; barrier-protective
-- **[[gut-barrier-integrity]]** – Increases mucin and tight junction proteins
+- **[[nutritional-immunity|gut-barrier-integrity]]** – Increases mucin and tight junction proteins
 
 ## Storage and Bioavailability
 

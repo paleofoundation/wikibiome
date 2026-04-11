@@ -1,10 +1,12 @@
 ---
+
 title: Nickel and Reproductive/Developmental Toxicity
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhang-2019-nickel-congenital-heart-defects.md, ding-2021-nickel-pregnancy-complications.md, dobrzynska-2025-nickel-children-food.md]
 tags: [nickel, reproductive-toxicity, pregnancy, congenital-heart-defects, placental-barrier]
+platform: wikibiome
 ---
 
 # Nickel and Reproductive/Developmental Toxicity
@@ -13,7 +15,7 @@ Emerging evidence links maternal [[nickel]] exposure to adverse pregnancy outcom
 
 ## Congenital Heart Defects (CHDs)
 
-A Chinese case-control study (n=889) found **dose-dependent association between maternal nickel exposure and CHD risk** [[[zhang-2019-nickel-congenital-heart-defects]]]:
+A Chinese case-control study (n=889) found **dose-dependent association between maternal nickel exposure and CHD risk** [[zhang-2019-nickel-congenital-heart-defects]]:
 
 - Hair nickel: median 0.629 ng/mg in CHD cases vs 0.443 ng/mg in controls (P<.001)
 - Placental nickel: 0.178 ng/mg in cases vs 0.148 ng/mg (P=.039)
@@ -25,7 +27,7 @@ Proposed mechanisms: ROS generation, epigenetic alterations (DNA methylation, hi
 
 ## Placental Barrier Dysfunction
 
-The placenta normally acts as a barrier to nickel transfer, but **pregnancy complications weaken this barrier** [[[ding-2021-nickel-pregnancy-complications]]]:
+The placenta normally acts as a barrier to nickel transfer, but **pregnancy complications weaken this barrier** [[ding-2021-nickel-pregnancy-complications]]:
 
 - Cord blood Ni was elevated in women with gestational diabetes (GDM) and hypertensive disorders (HDCP) vs controls
 - Barrier function ranking: **Control > GDM > Disease combination > HDCP** (weakest)
@@ -35,7 +37,7 @@ The placenta normally acts as a barrier to nickel transfer, but **pregnancy comp
 
 ## Effects on Growth and Development
 
-High nickel in placenta negatively correlated with birth weight [[[dobrzynska-2025-nickel-children-food]]]:
+High nickel in placenta negatively correlated with birth weight [[dobrzynska-2025-nickel-children-food]]:
 - Nickel targets endocrine system: hypothalamus, pituitary, adrenal gland, thyroid, gonads
 - Can cause dysfunction of hormone secretion (growth, cortisol, thyroid hormones)
 - Associated with depression, autism, schizophrenia in animal models at high doses

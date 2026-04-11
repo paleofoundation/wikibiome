@@ -1,4 +1,5 @@
 ---
+
 title: "Blood DNA Virome Associates with Autoimmune Diseases and COVID-19"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Genetics
 year: 2025
 doi: "10.1038/s41588-024-02022-z"
 tags: [hashimotos-thyroiditis, thyroid, virome, autoimmune, eHHV-6, anellovirus, SLE, rheumatoid-arthritis, COVID-19, GWAS, endoimmunity, whole-genome-sequencing]
+platform: wikibiome
 ---
 
 # Blood DNA Virome Associates with Autoimmune Diseases and COVID-19

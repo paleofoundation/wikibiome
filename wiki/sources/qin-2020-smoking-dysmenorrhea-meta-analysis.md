@@ -1,4 +1,5 @@
 ---
+
 title: "Association between cigarette smoking and the risk of dysmenorrhea: A meta-analysis of observational studies"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2020
 tags: [smoking, dysmenorrhea, meta-analysis, menstrual-pain, tobacco, prostaglandins, vasoconstriction, menstrual-disorders]
 doi: "10.1038/s41467-019-12848-5"
+platform: wikibiome
 ---
 
 # Key Claims

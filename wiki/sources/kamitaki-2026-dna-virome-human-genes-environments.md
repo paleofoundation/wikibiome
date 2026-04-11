@@ -1,4 +1,5 @@
 ---
+
 title: "The DNA virome varies with human genes and environments"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature
 year: 2026
 doi: 10.1038/s41586-026-10288-y
 tags: [virome, EBV, HHV-6, HHV-7, human-genetics, MHC, HLA, ERAP1, viral-load, UK-Biobank, multiple-sclerosis]
+platform: wikibiome
 ---
 
 # The DNA Virome Varies with Human Genes and Environments

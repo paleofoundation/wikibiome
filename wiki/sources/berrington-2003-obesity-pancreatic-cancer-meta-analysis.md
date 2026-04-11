@@ -1,4 +1,5 @@
 ---
+
 title: "A meta-analysis of obesity and the risk of pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Cancer
 year: 2003
 tags: [pancreatic-cancer, meta-analysis, obesity, BMI, risk-factors, epidemiology]
 doi: "10.1038/sj.bjc.6601140"
+platform: wikibiome
 ---
 
 # Key Claims

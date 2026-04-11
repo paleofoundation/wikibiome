@@ -1,12 +1,14 @@
 ---
+
 title: Parvimonas
 type: entity
 subtype: microbe
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-11
 sources: [qin-2024-consistent-microbiome-signatures-old-young-onset-crc, saito-2019-metagenomic-gut-microbiota-colorectal-adenoma, wu-2021-microbial-markers-populations-early-crc, zhao-2021-colorectal-cancer-microbiome-patterns-signatures, liu-2021-args-colorectal-cancer-microbiome, hou-2022-gut-microbiota-immune-immunotherapy-crc, bars-cortina-2024-16s-vs-shotgun-crc, osman-2018-16s-rrna-crc-protocols-workflows]
-metal_dependencies: [not well characterized]
+metal_dependencies: [iron, zinc]
 tags: [pathobiont, oral-origin, CRC-enriched, anaerobe, microbial-biomarker, oral-gut-translocation]
+platform: wikibiome
 ---
 
 # Parvimonas
@@ -17,11 +19,11 @@ tags: [pathobiont, oral-origin, CRC-enriched, anaerobe, microbial-biomarker, ora
 
 *P. micra* appears across virtually every major CRC microbiome study as a robust, cross-cohort biomarker:
 
-- Significantly enriched in both old-onset and young-onset CRC, demonstrating that its association is age-independent [[[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]]].
-- Present in intramucosal CRC tissue alongside *Peptostreptococcus*, *Actinomyces*, and *Fusobacterium*, suggesting involvement from early carcinogenesis stages [[[saito-2019-metagenomic-gut-microbiota-colorectal-adenoma]]].
-- Identified as a population-wide early CRC marker across geographically diverse cohorts [[[wu-2021-microbial-markers-populations-early-crc]]].
-- Part of the core CRC microbiome signature that is reproducible across 16S and shotgun metagenomic approaches [[[bars-cortina-2024-16s-vs-shotgun-crc]]].
-- Enriched alongside antibiotic resistance genes in the CRC microbiome, raising questions about co-selection in the tumor microenvironment [[[liu-2021-args-colorectal-cancer-microbiome]]].
+- Significantly enriched in both old-onset and young-onset CRC, demonstrating that its association is age-independent [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
+- Present in intramucosal CRC tissue alongside *Peptostreptococcus*, *Actinomyces*, and *Fusobacterium*, suggesting involvement from early carcinogenesis stages [[saito-2019-metagenomic-gut-microbiota-colorectal-adenoma]].
+- Identified as a population-wide early CRC marker across geographically diverse cohorts [[wu-2021-microbial-markers-populations-early-crc]].
+- Part of the core CRC microbiome signature that is reproducible across 16S and shotgun metagenomic approaches [[bars-cortina-2024-16s-vs-shotgun-crc]].
+- Enriched alongside antibiotic resistance genes in the CRC microbiome, raising questions about co-selection in the tumor microenvironment [[liu-2021-args-colorectal-cancer-microbiome]].
 
 ## Oral-Gut Translocation
 
@@ -31,14 +33,20 @@ tags: [pathobiont, oral-origin, CRC-enriched, anaerobe, microbial-biomarker, ora
 
 ## Immunotherapy and Immune Context
 
-- The presence of *P. micra* and other CRC-enriched taxa may influence the tumor immune microenvironment and response to immunotherapy [[[hou-2022-gut-microbiota-immune-immunotherapy-crc]]].
+- The presence of *P. micra* and other CRC-enriched taxa may influence the tumor immune microenvironment and response to immunotherapy [[hou-2022-gut-microbiota-immune-immunotherapy-crc]].
 - As a Gram-positive anaerobe, *P. micra* may modulate local immune responses through peptidoglycan-mediated pathways distinct from Gram-negative taxa like *F. nucleatum*.
 
 ## Diagnostic Biomarker Potential
 
 - *P. micra* is among the most reliable fecal biomarkers for non-invasive CRC screening.
 - Its detection in stool, combined with *F. nucleatum* and *Clostridium symbiosum*, achieves high diagnostic accuracy for CRC.
-- Microbiome-based classification models incorporating *P. micra* achieve AUROC values of 0.75-0.90 across validation cohorts [[[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]]].
+- Microbiome-based classification models incorporating *P. micra* achieve AUROC values of 0.75-0.90 across validation cohorts [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
+
+
+## Key Sources
+
+- [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]]
+- [[osman-2018-16s-rrna-crc-protocols-workflows]]
 
 ## Connections
 

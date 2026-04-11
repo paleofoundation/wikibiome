@@ -1,4 +1,5 @@
 ---
+
 title: "Association between urinary heavy metal/trace element concentrations and kidney function: a prospective study"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Xie S, Perrais M, Golshayan D, Wuerzner G, Vaucher J, Thomas A, Marque
 journal: "Clinical Kidney Journal"
 year: 2025
 tags: [heavy-metals, trace-elements, kidney-function, eGFR, prospective, cobalt, nickel, vanadium, copper, selenium, molybdenum, Switzerland]
-doi: "10.1007/s00203-023-03455-6"
+doi: "10.1093/ckj/sfae399"
+platform: wikibiome
 ---
 
 # Key Claims

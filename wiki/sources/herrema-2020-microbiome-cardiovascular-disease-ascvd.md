@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome and Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Handbook of Experimental Pharmacology (Prevention and Treatment of Ath
 year: 2020
 doi: 10.1007/164_2020_356
 tags: [cardiovascular-disease, CVD, ASCVD, atherosclerosis, gut-microbiome, oral-microbiome, TMAO, imidazole-propionate, SCFAs, bile-acids, bacteriophage, virome, review]
+platform: wikibiome
 ---
 
 # Microbiome and Cardiovascular Disease

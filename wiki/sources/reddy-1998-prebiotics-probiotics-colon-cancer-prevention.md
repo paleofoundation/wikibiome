@@ -1,4 +1,5 @@
 ---
+
 title: "Prevention of Colon Cancer by Pre- and Probiotics: Evidence from Laboratory Studies"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Bandaru S. Reddy]
 journal: British Journal of Nutrition
 year: 1998
 tags: [colon-cancer, prebiotics, probiotics, oligofructose, inulin, Bifidobacterium-longum, aberrant-crypt-foci, ODC, ras-p21, colorectal-cancer, prevention, Raftilose, Raftiline]
+platform: wikibiome
 ---
 
 # Key Claims

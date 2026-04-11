@@ -1,4 +1,5 @@
 ---
+
 title: Campylobacter jejuni
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, zhu-2024-toxic-essential-met
 metal_dependencies: [nickel, iron]
 key_enzymes: [NiFe-hydrogenase]
 tags: [pathogen, diarrheal-disease, foodborne, chicken-colonization, no-urease]
+platform: wikibiome
 ---
 
 # Campylobacter jejuni
@@ -18,7 +20,7 @@ The leading bacterial cause of diarrheal disease worldwide, with an estimated 40
 
 ### [NiFe] Hydrogenase -- No Urease
 
-- Possesses a **membrane-bound [NiFe] uptake-type hydrogenase** that oxidizes H2 to generate proton motive force (PMF) for ATP synthesis [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Possesses a **membrane-bound [NiFe] uptake-type hydrogenase** that oxidizes H2 to generate proton motive force (PMF) for ATP synthesis [[maier-2019-nickel-microbial-pathogenesis]].
 - Hydrogenase is **essential for chicken colonization** -- the primary animal reservoir and food safety concern. *hydB* deletion mutants show impaired cell division and reduced host cell interaction.
 - H2 is abundant in the intestinal lumen (produced by fermentative gut microbiota), providing a reliable energy source in the microaerobic environment of the intestinal mucus layer.
 - **C. concisus** (a related species) has the **highest H2-uptake activity** of any pathogenic bacterium characterized to date.
@@ -47,6 +49,12 @@ The leading bacterial cause of diarrheal disease worldwide, with an estimated 40
 ## The Hydrogenase-Only Model
 
 *C. jejuni* demonstrates that [NiFe] hydrogenase alone -- without urease -- can be sufficient for nickel-dependent pathogenesis when the ecological niche does not require acid neutralization. This contrasts with [[helicobacter-pylori]] (urease + hydrogenase), [[salmonella-typhimurium]] (four hydrogenases), and [[shigella-flexneri]] (hydrogenase for phagolysosomal acid combat). The pathogen's niche determines which Ni-enzymes are essential.
+
+
+## Key Sources
+
+- [[zhu-2024-toxic-essential-metals-gut-microbiota]]
+- [[tao-2024-cadmium-gut-microbiota-dwarf-hamsters]]
 
 ## Connections
 

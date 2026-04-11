@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel as a Catalytic Driver of Necrotizing Enterocolitis: Dietary Nickel, Microbial Metallomics, and the Activation of Nickel-Dependent Virulence Pathways in the Preterm Gut"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microbiome Medicine
 year: 2026
 tags: [nickel, necrotizing-enterocolitis, NEC, infant-formula, microbial-metallomics, urease, NiFe-hydrogenase, glyoxalase, E-coli, preterm-infant, soy-formula, nutritional-immunity]
 doi: "10.5281/zenodo.18200348"
+platform: wikibiome
 ---
 
 # Nickel as a Catalytic Driver of Necrotizing Enterocolitis

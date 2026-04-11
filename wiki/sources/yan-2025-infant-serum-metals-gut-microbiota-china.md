@@ -1,4 +1,5 @@
 ---
+
 title: "Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2025
 tags: [infants, metals-mixture, gut-microbiota, arsenic, copper, cadmium, manganese, Mendelian-randomization, BKMR, metal-interactions, alpha-diversity, preterm]
 doi: "10.3389/fmicb.2025.1669475"
+platform: wikibiome
 ---
 
 # Key Claims

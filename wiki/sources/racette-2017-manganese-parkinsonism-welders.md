@@ -1,4 +1,5 @@
 ---
+
 title: "Dose-Dependent Progression of Parkinsonism in Manganese-Exposed Welders"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Brad A. Racette, Susan Searles Nielsen, Susan R. Criswell, Lianne Shep
 journal: Neurology
 year: 2017
 tags: [manganese, parkinsonism, welders, occupational-exposure, neurotoxicity, dose-response, UPDRS3, longitudinal-cohort, original-research]
-doi: "10.1371/journal.pone.0231201"
+doi: "10.1212/WNL.0000000000003533"
+platform: wikibiome
 ---
 
 # Key Claims

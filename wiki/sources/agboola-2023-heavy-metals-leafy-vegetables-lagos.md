@@ -1,4 +1,5 @@
 ---
+
 title: "Levels of Heavy Metals and Potential Human Health Risks via Consumption of Leafy Vegetables Purchased in Popular Local Market in Lagos, Nigeria"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [O. O. Agboola, S. Oyedeji, T. A. Olawoyin, I. E. Unazi, K. A. Bolarinw
 journal: Journal of Applied Sciences and Environmental Management
 year: 2023
 tags: [heavy-metals, food-safety, leafy-vegetables, copper, zinc, chromium, nickel, hazard-quotient, Lagos, Nigeria, dietary-exposure, ICP-MS, original-research]
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Mediterranean Diet and Associations with the Gut Microbiota and Pediatric-Onset Multiple Sclerosis Using Trivariate Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Communications Medicine
 year: 2024
 tags: [Mediterranean-diet, pediatric-MS, gut-microbiome, trivariate-analysis, Methanobrevibacter, Clostridiales, fiber, iron, dietary-mediation]
 doi: "10.1038/s43856-024-00565-0"
+platform: wikibiome
 ---
 
 # Mediterranean Diet and Associations with the Gut Microbiota and Pediatric-Onset Multiple Sclerosis Using Trivariate Analysis

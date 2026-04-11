@@ -1,4 +1,5 @@
 ---
+
 title: "Short-chain fatty acids and intestinal inflammation in multiple sclerosis: modulation of female susceptibility by microbial products?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Autoimmunity Highlights
 year: 2021
 doi: 10.1186/s13317-021-00149-1
 tags: [multiple-sclerosis, SCFAs, calprotectin, intestinal-inflammation, sex-differences, female-susceptibility, fecal-SCFAs]
+platform: wikibiome
 ---
 
 # Short-Chain Fatty Acids and Intestinal Inflammation in Multiple Sclerosis: Modulation of Female Susceptibility by Microbial Products?

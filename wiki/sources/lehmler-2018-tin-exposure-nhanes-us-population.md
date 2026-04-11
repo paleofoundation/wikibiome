@@ -1,4 +1,5 @@
 ---
+
 title: "Environmental Tin Exposure in a Nationally Representative Sample of U.S. Adults and Children: the National Health and Nutrition Examination Survey 2011-2014"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Environmental Pollution
 year: 2018
 tags: [tin, NHANES, urinary-biomarker, exposure-assessment, demographics, heavy-metals, population-study, ICP-MS]
 doi: "10.1016/j.envpol.2024.124238"
+platform: wikibiome
 ---
 
 # Key Claims

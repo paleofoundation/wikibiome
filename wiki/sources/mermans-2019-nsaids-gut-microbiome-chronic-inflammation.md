@@ -1,4 +1,5 @@
 ---
+
 title: "Nonsteroidal Anti-Inflammatory Drugs as Therapeutic Allies of the Gut Microbiome on Chronic Inflammation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Facta Universitatis Series Medicine and Biology
 year: 2019
 doi: "10.22190/FUMB201222013M"
 tags: [colon-cancer, colorectal-cancer, NSAIDs, gut-microbiome, COX-1, COX-2, xenobiotic-metabolism, chronic-inflammation, drug-microbiome-interactions, colon-drug-delivery, pharmacomicrobiomics]
+platform: wikibiome
 ---
 
 # Mermans 2019 -- NSAIDs as Therapeutic Allies of the Gut Microbiome

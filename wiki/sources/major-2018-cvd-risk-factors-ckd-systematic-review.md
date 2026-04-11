@@ -1,4 +1,5 @@
 ---
+
 title: "Cardiovascular Disease Risk Factors in Chronic Kidney Disease: A Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1371/journal.pone.0192895"
 tags: [cardiovascular-disease, chronic-kidney-disease, meta-analysis, systematic-review, risk-factors, albumin, haemoglobin, phosphate, urate, left-ventricular-hypertrophy, uremia, comorbidities]
 source_pdf: "raw/cardiovascular disease/Meta-analysis cardiovascular disease/Cardiovascular disease risk factors in chronic kidney disease- a systematic review and meta-analysis.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

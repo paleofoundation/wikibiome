@@ -1,4 +1,5 @@
 ---
+
 title: "Molecular detection of microbial colonization in cervical mucus of women with and without endometriosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: American Journal of Reproductive Immunology
 year: 2019
 tags: [endometriosis, cervical-mucus, microbiome, Enterobacteriaceae, Streptococcus, Corynebacterium, Pseudomonas, Flavobacterium, dysmenorrhea, NGS, qPCR]
 doi: "10.1111/aji.13147"
+platform: wikibiome
 ---
 
 # Key Claims

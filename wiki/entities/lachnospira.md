@@ -1,17 +1,19 @@
 ---
+
 title: Lachnospira
 type: entity
 subtype: microbe
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-11
 sources: [gao-2020-gut-microbial-biomarkers-acs-post-stemi, shan-2021-gut-microbiota-hormone-inflammatory-endometriosis, chen-2024-gut-microbiota-six-thyroid-diseases-mr, ma-2024-gut-microbiota-inflammatory-factors-crc-mr, liu-2024-gut-microbiota-hidradenitis-suppurativa-mr, sobhani-2011-microbial-dysbiosis-colorectal-cancer, niu-2019-intestinal-microbiota-probiotics-asd-china, peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning]
-metal_dependencies: [not well characterized -- iron-dependent ferredoxins likely involved in fermentation]
+metal_dependencies: [iron]
 tags: [commensal, SCFA-producer, Lachnospiraceae, pectin-fermenter, depleted-in-disease, context-dependent]
+platform: wikibiome
 ---
 
 # Lachnospira
 
-*Lachnospira* is a genus of Gram-positive, obligate anaerobic bacteria within the [[Lachnospiraceae]] family (Firmicutes). *L. pectinoschiza*, the type species, is a specialist **pectin fermenter** that produces [[short-chain-fatty-acids]] from plant-derived polysaccharides. The genus appears across a wide range of disease association studies with both protective and risk-associated profiles depending on context.
+*Lachnospira* is a genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospiraceae]] family (Firmicutes). *L. pectinoschiza*, the type species, is a specialist **pectin fermenter** that produces [[short-chain-fatty-acids]] from plant-derived polysaccharides. The genus appears across a wide range of disease association studies with both protective and risk-associated profiles depending on context.
 
 ## SCFA Production and Fiber Fermentation
 
@@ -23,17 +25,17 @@ tags: [commensal, SCFA-producer, Lachnospiraceae, pectin-fermenter, depleted-in-
 
 Several studies report reduced *Lachnospira* in disease states:
 
-- **Acute coronary syndrome**: depleted in ACS patients post-STEMI compared to healthy controls, while pathobionts like *Escherichia-Shigella* and [[acinetobacter]] were enriched [[[gao-2020-gut-microbial-biomarkers-acs-post-stemi]]].
-- **Endometriosis**: significantly decreased (p=0.00008) in women with [[endometriosis]], consistent with loss of SCFA-producing commensals in inflammatory gynecological conditions [[[shan-2021-gut-microbiota-hormone-inflammatory-endometriosis]]].
-- **Thyroid disease**: MR evidence identifies *Lachnospira* as protective against Graves' disease and Plummer disease, likely through SCFA-mediated immune regulation [[[chen-2024-gut-microbiota-six-thyroid-diseases-mr]]].
+- **Acute coronary syndrome**: depleted in ACS patients post-STEMI compared to healthy controls, while pathobionts like *Escherichia-Shigella* and [[acinetobacter]] were enriched [[gao-2020-gut-microbial-biomarkers-acs-post-stemi]].
+- **Endometriosis**: significantly decreased (p=0.00008) in women with [[endometriosis]], consistent with loss of SCFA-producing commensals in inflammatory gynecological conditions [[shan-2021-gut-microbiota-hormone-inflammatory-endometriosis]].
+- **Thyroid disease**: MR evidence identifies *Lachnospira* as protective against Graves' disease and Plummer disease, likely through SCFA-mediated immune regulation [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]].
 
 ## Risk Associations
 
 Conversely, *Lachnospira* shows risk associations in other contexts:
 
-- **Colorectal cancer**: strong MR-identified risk association (OR=4.43) through inflammatory mediators [[[ma-2024-gut-microbiota-inflammatory-factors-crc-mr]]].
-- **Hidradenitis suppurativa**: causal risk factor (OR=2.45) via MR analysis, suggesting a role in skin-gut axis inflammation [[[liu-2024-gut-microbiota-hidradenitis-suppurativa-mr]]].
-- **Autism spectrum disorder**: significantly more abundant in ASD children in some cohorts [[[niu-2019-intestinal-microbiota-probiotics-asd-china]]], part of the robust ASD microbiome signature [[[peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning]]].
+- **Colorectal cancer**: strong MR-identified risk association (OR=4.43) through inflammatory mediators [[ma-2024-gut-microbiota-inflammatory-factors-crc-mr]].
+- **Hidradenitis suppurativa**: causal risk factor (OR=2.45) via MR analysis, suggesting a role in skin-gut axis inflammation [[liu-2024-gut-microbiota-hidradenitis-suppurativa-mr]].
+- **Autism spectrum disorder**: significantly more abundant in ASD children in some cohorts [[niu-2019-intestinal-microbiota-probiotics-asd-china]], part of the robust ASD microbiome signature [[peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning]].
 
 ## Context-Dependent Effects
 
@@ -43,6 +45,11 @@ The dual nature of *Lachnospira* -- depleted in cardiovascular and endocrine con
 - Host immune context (immunosuppressive vs. hyperactivated states)
 - Interactions with co-occurring microbiota in the Lachnospiraceae network
 
+
+## Key Sources
+
+- [[sobhani-2011-microbial-dysbiosis-colorectal-cancer]]
+
 ## Connections
 
 - [[short-chain-fatty-acids]] -- pectin fermentation to acetate, formate, and ethanol
@@ -51,4 +58,4 @@ The dual nature of *Lachnospira* -- depleted in cardiovascular and endocrine con
 - [[colorectal-cancer]] -- paradoxical MR risk association despite SCFA production
 - [[autism-spectrum-disorder]] -- part of robust ASD microbiome signature
 - [[faecalibacterium-prausnitzii]] -- co-member of the SCFA-producing commensal consortium
-- [[Lachnospiraceae]] -- family-level context for understanding its ecological role
+- [[lachnospiraceae]] -- family-level context for understanding its ecological role

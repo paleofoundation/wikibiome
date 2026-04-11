@@ -1,4 +1,5 @@
 ---
+
 title: "Associations between gut microbiota and thyroidal function status in Chinese patients with Graves' disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Endocrinological Investigation
 year: 2021
 doi: "10.1007/s40618-021-01507-6"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, 16S-rRNA, TRAb, Lactobacillus, Phascolarctobacterium, Synergistetes, Ruminococcus, dysbiosis, methimazole, thyroid-antibodies]
+platform: wikibiome
 ---
 
 # Associations between gut microbiota and thyroidal function status in Chinese patients with Graves' disease

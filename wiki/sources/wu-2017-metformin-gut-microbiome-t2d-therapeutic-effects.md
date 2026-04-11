@@ -1,4 +1,5 @@
 ---
+
 title: "Metformin alters the gut microbiome of individuals with treatment-naive type 2 diabetes, contributing to the therapeutic effects of the drug"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Hao Wu, Eduardo Esteve, Valentina Tremaroli, Muhammad Tanweer Khan, Ro
 journal: Nature Medicine
 year: 2017
 tags: [cardiovascular-disease, metformin, gut-microbiome, type-2-diabetes, Bifidobacterium-adolescentis, Akkermansia-muciniphila, SCFAs, bile-acids, metagenomics]
+platform: wikibiome
 ---
 
 # Wu et al. 2017 -- Metformin Alters Gut Microbiome Contributing to T2D Therapeutic Effects

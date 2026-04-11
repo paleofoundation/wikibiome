@@ -1,4 +1,5 @@
 ---
+
 title: "Elevated Levels of Circulating DNA in Cardiovascular Disease Patients: Metagenomic Profiling of Microbiome in the Circulation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2014
 doi: 10.1371/journal.pone.0105221
 tags: [cardiovascular-disease, CVD, circulating-DNA, blood-microbiome, metagenomics, bacterial-translocation, shotgun-sequencing, biomarker]
+platform: wikibiome
 ---
 
 # Elevated Levels of Circulating DNA in Cardiovascular Disease Patients: Metagenomic Profiling of Microbiome in the Circulation

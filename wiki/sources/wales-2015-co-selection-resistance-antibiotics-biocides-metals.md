@@ -1,4 +1,5 @@
 ---
+
 title: "Co-Selection of Resistance to Antibiotics, Biocides and Heavy Metals, and Its Relevance to Foodborne Pathogens"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ volume: 4
 pages: "567-604"
 doi: "10.3390/antibiotics4040567"
 tags: [co-selection, co-resistance, cross-resistance, antimicrobial-resistance, heavy-metals, biocides, foodborne-pathogens, copper, zinc, livestock, efflux-pumps, biofilm, Salmonella, E-coli, MRSA, triclosan, quaternary-ammonium-compounds, food-chain, zoonoses]
+platform: wikibiome
 ---
 
 # Key Claims

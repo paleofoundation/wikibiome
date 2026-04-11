@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiota composition and distribution along the female reproductive tract of women with endometriosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Annals of Clinical Microbiology and Antimicrobials
 year: 2020
 tags: [endometriosis, reproductive-tract-microbiome, Lactobacillus, Sphingobium, Pseudomonas-viridiflava, vaginal-microbiome, cervical-microbiome, endometrial-microbiome, peritoneal-fluid]
 doi: "10.1186/s12941-020-00356-0"
+platform: wikibiome
 ---
 
 # Key Claims

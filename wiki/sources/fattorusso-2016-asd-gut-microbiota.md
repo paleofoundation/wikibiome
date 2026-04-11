@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Antonella Fattorusso, Lorenza Di Genova, Giovanni Battista Dell'Isola, Elisabetta Mencaroni, Susanna Esposito]
 year: 2016
 journal: "Nutrients"
-doi: None
+doi: "10.3390/nu11030521"
 tags: [autism, microbiota, dysbiosis, probiotics, gut-brain-axis, interventions]
 library_category: associated-conditions
 platform: both

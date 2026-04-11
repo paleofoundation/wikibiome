@@ -1,4 +1,5 @@
 ---
+
 title: "The nasal microbiome in patients suffering from non-steroidal anti-inflammatory drugs-exacerbated respiratory disease in absence of corticosteroids"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2023
 doi: 10.3389/fimmu.2023.1112345
 tags: [nasal-microbiome, NSAIDs, chronic-rhinosinusitis, N-ERD, Staphylococcus, Corynebacteria, 16S-rRNA, inflammation, multiple-sclerosis]
+platform: wikibiome
 ---
 
 # The Nasal Microbiome in Patients Suffering from Non-Steroidal Anti-Inflammatory Drugs-Exacerbated Respiratory Disease in Absence of Corticosteroids

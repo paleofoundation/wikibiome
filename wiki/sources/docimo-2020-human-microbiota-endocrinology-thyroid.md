@@ -1,4 +1,5 @@
 ---
+
 title: "The Human Microbiota in Endocrinology: Implications for Pathophysiology, Treatment, and Prognosis in Thyroid Diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2020
 doi: "10.3389/fendo.2020.586529"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, thyroid-cancer, probiotics, Lactobacillus, Bifidobacterium, NLRP3, intestinal-permeability, review]
+platform: wikibiome
 ---
 
 # The Human Microbiota in Endocrinology: Implications for Pathophysiology, Treatment, and Prognosis in Thyroid Diseases

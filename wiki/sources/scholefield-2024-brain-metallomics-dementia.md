@@ -1,4 +1,5 @@
 ---
+
 title: "Scholefield et al. 2024 — Brain Metallomic Signatures Distinguish DLB from AD and PDD"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2024
 volume: "18:1412356"
 doi: "10.3389/fnins.2024.1412356"
 tags: [metallomics, neurodegeneration, dementia, copper, iron, selenium, brain-metals, ICP-MS, DLB, Alzheimers, Parkinsons, Lewy-bodies, diagnostic-signature, PCA, PLS-DA]
+platform: wikibiome
 ---
 
 # Metallomic Analysis of Brain Tissues Distinguishes Between Cases of Dementia with Lewy Bodies, Alzheimer's Disease, and Parkinson's Disease Dementia

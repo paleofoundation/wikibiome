@@ -1,4 +1,5 @@
 ---
+
 title: "Mediterranean Diet: Prevention of Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -7,6 +8,8 @@ authors: [Micah G. Donovan, Ornella I. Selmin, Tom C. Doetschman, Donato F. Roma
 journal: Frontiers in Nutrition
 year: 2017
 tags: [colon-cancer, Mediterranean-diet, colorectal-cancer, prevention, olive-oil, omega-3-fatty-acids, fiber, polyphenols, resveratrol, butyrate, IBD, inflammation, epigenetics, microbiome, review]
+doi: "10.3389/fnut.2017.00059"
+platform: wikibiome
 ---
 
 # Key Claims

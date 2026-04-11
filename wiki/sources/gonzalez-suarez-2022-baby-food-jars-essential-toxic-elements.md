@@ -1,4 +1,5 @@
 ---
+
 title: "Baby Food Jars as a Dietary Source of Essential (K, Na, Ca, Mg, Fe, Zn, Cu, Co, Mo, Mn) and Toxic Elements (Al, Cd, Pb, B, Ba, V, Sr, Li, Ni)"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Gonzalez-Suarez S, Paz-Montelongo S, Niebla-Canelo D, Alejandro-Vega S
 journal: Applied Sciences
 year: 2022
 tags: [baby-food, heavy-metals, aluminum, nickel, cadmium, lead, dietary-exposure, risk-assessment, infant-safety]
+platform: wikibiome
 ---
 
 ## Key Claims

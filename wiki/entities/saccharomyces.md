@@ -1,4 +1,5 @@
 ---
+
 title: Saccharomyces
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [huang-2024-gut-fungi-ibd-colorectal-cancer, wei-2025-gut-mycobiome-cardiometabolic-disease, qiu-2023-gut-mycobiome-hypertension-ckd, strati-2017-altered-gut-microbiota-mycobiota-asd, li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]
 metal_dependencies: [zinc -- Zn-dependent alcohol dehydrogenase; copper -- Cu/Zn-SOD for oxidative stress defense; metal biosorption capacity]
 tags: [fungus, probiotic, pathobiont, CRC-mycobiome, metal-biosorption, ASCA-antibodies]
+platform: wikibiome
 ---
 
 # Saccharomyces
@@ -26,12 +28,12 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 ## S. cerevisiae in Disease
 
 ### Colorectal Cancer Mycobiome
-- *S. cerevisiae* is enriched in the CRC mycobiome in multiple cohorts. Saccharomycetaceae showed significant reductions in CRC in some studies, suggesting context-dependent effects [[[huang-2024-gut-fungi-ibd-colorectal-cancer]]].
-- Interacts with bacterial communities: *Saccharomyces* abundance positively correlated with *Bifidobacterium*, *Roseburia*, and *Ruminococcus* in IBD patients [[[huang-2024-gut-fungi-ibd-colorectal-cancer]]].
+- *S. cerevisiae* is enriched in the CRC mycobiome in multiple cohorts. Saccharomycetaceae showed significant reductions in CRC in some studies, suggesting context-dependent effects [[huang-2024-gut-fungi-ibd-colorectal-cancer]].
+- Interacts with bacterial communities: *Saccharomyces* abundance positively correlated with *Bifidobacterium*, *Roseburia*, and *Ruminococcus* in IBD patients [[huang-2024-gut-fungi-ibd-colorectal-cancer]].
 
 ### Cardiometabolic Disease
-- *Saccharomyces* enriched in HTN+CKD comorbidity patients; positively associated with IFN-gamma, IL-4, and eGFR [[[qiu-2023-gut-mycobiome-hypertension-ckd]]].
-- Present in hypertensive cohorts (8.46% of fungal community in HTN vs lower in normotensive controls) [[[wei-2025-gut-mycobiome-cardiometabolic-disease]]].
+- *Saccharomyces* enriched in HTN+CKD comorbidity patients; positively associated with IFN-gamma, IL-4, and eGFR [[qiu-2023-gut-mycobiome-hypertension-ckd]].
+- Present in hypertensive cohorts (8.46% of fungal community in HTN vs lower in normotensive controls) [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
 - *S. boulardii* supplementation failed to improve cardiac function in the GutHeart trial for heart failure.
 
 ### Crohn's Disease and ASCA
@@ -43,14 +45,20 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 - Saccharomyces species have significant **metal biosorption capacity**, binding heavy metals to cell wall components (mannoproteins, glucans, chitin).
 - *S. cerevisiae* cell walls bind [[cadmium]], [[lead]], [[copper]], [[zinc]], and [[chromium]] from solution, a property exploited in industrial bioremediation.
 - In the gut context, dietary or supplemental yeast may reduce bioavailable metal concentrations, potentially mitigating metal-induced [[dysbiosis]].
-- [[Zinc]]-dependent alcohol dehydrogenase and Cu/Zn-superoxide dismutase are key metalloenzymes in Saccharomyces biology.
+- [[zinc]]-dependent alcohol dehydrogenase and Cu/Zn-superoxide dismutase are key metalloenzymes in Saccharomyces biology.
 
 ## Key Metabolites
 
 - **Ethanol** -- primary fermentation product of S. cerevisiae; small amounts produced in the gut may affect hepatic metabolism.
-- **Beta-glucans** -- cell wall polysaccharides that stimulate Dectin-1 immune receptor, upregulating tight junction proteins and modulating macrophage function [[[huang-2024-gut-fungi-ibd-colorectal-cancer]]].
+- **Beta-glucans** -- cell wall polysaccharides that stimulate Dectin-1 immune receptor, upregulating tight junction proteins and modulating macrophage function [[huang-2024-gut-fungi-ibd-colorectal-cancer]].
 - **Proteases** -- S. boulardii secretes serine proteases that degrade bacterial toxins and pro-inflammatory signaling molecules.
 - **Short-chain fatty acids** -- indirect contribution via cross-kingdom metabolic interactions with SCFA-producing bacteria.
+
+
+## Key Sources
+
+- [[strati-2017-altered-gut-microbiota-mycobiota-asd]]
+- [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]]
 
 ## Connections
 

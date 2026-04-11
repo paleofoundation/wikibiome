@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota and Cardiovascular Disease: Opportunities and Challenges"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s40168-020-00821-0"
 tags: [cardiovascular-disease, gut-microbiota, cholesterol, bile-acids, coprostanol, SCFAs, TMAO, LPS, immune-response, demographics, aging, sex-differences, ethnicity, coronary-artery-disease, review, immune-response, viral-microbiota]
 source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease microbiome/s40168-020-00821-0.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

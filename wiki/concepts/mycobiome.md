@@ -1,10 +1,12 @@
 ---
+
 title: Mycobiome
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [wei-2025-gut-mycobiome-cardiometabolic-disease, ding-2025-mycobiome-human-cancer-mechanisms-therapeutics, zou-2022-mycobiome-dysbiosis-hypertension-light-chains]
 tags: [mycobiome, fungi, Candida, Saccharomyces, Malassezia, Aspergillus, cross-kingdom, ITS-sequencing, fungal-dysbiosis]
+platform: wikibiome
 ---
 
 # Mycobiome
@@ -15,8 +17,8 @@ The fungal component of the human microbiome, comprising ~0.1-1% of the total gu
 
 ### Candida
 - Most abundant and best-studied gut fungus; *C. albicans* is the dominant species.
-- Enriched in obesity (contributes to elevated intestinal free fatty acids), T2DM, coronary artery disease, and heart failure [[[wei-2025-gut-mycobiome-cardiometabolic-disease]]].
-- In colon cancer, Candida-dominant tumors show reduced survival via IL-22, TP53, and CD44 pathways [[[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]]].
+- Enriched in obesity (contributes to elevated intestinal free fatty acids), T2DM, coronary artery disease, and heart failure [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
+- In colon cancer, Candida-dominant tumors show reduced survival via IL-22, TP53, and CD44 pathways [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
 - Capable of yeast-to-hyphal transition, forming biofilms and invading epithelium when immune surveillance is compromised.
 
 ### Saccharomyces
@@ -26,12 +28,12 @@ The fungal component of the human microbiome, comprising ~0.1-1% of the total gu
 
 ### Malassezia
 - Lipophilic yeast; primarily skin-associated but detected in gut.
-- Significantly enriched in hypertension cohorts, positively correlated with immunoglobulin light chains [[[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]]].
+- Significantly enriched in hypertension cohorts, positively correlated with immunoglobulin light chains [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]].
 - *M. restricta* increased in obesity; *Malassezia* spp. enriched in pancreatic ductal adenocarcinoma (PDAC), where antifungal therapy shows therapeutic promise.
 
 ### Aspergillus
 - Environmental mold; *A. fumigatus* is a major opportunistic pathogen.
-- Produces siderophores (TAFC, ferricrocin) for iron acquisition -- detectable in urine as infection biomarkers [[[patil-2021-infection-metallomics-critical-care]]].
+- Produces siderophores (TAFC, ferricrocin) for iron acquisition -- detectable in urine as infection biomarkers [[patil-2021-infection-metallomics-critical-care]].
 - *A. dublinensis* cell wall components induce islet-resident macrophage infiltration in diabetes models.
 
 ## Cross-Kingdom Interactions
@@ -45,8 +47,8 @@ The mycobiome does not exist in isolation. Fungi and bacteria interact through:
 ## Disease Associations
 
 - **IBD**: Increased Candida, decreased Saccharomyces; anti-*S. cerevisiae* antibodies (ASCA) are a diagnostic marker for Crohn's disease.
-- **CRC**: Intratumoral mycobiome detectable; oral fungi can reach the colon within 30 minutes via the sphincter of Oddi [[[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]]].
-- **CVD/Hypertension**: Malassezia and Candida enrichment; Mortierella appears protective in normotensive populations [[[wei-2025-gut-mycobiome-cardiometabolic-disease]]].
+- **CRC**: Intratumoral mycobiome detectable; oral fungi can reach the colon within 30 minutes via the sphincter of Oddi [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
+- **CVD/Hypertension**: Malassezia and Candida enrichment; Mortierella appears protective in normotensive populations [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
 - **MS**: Altered fungal diversity; cross-kingdom shifts under dietary intervention.
 
 ## Metal Connections

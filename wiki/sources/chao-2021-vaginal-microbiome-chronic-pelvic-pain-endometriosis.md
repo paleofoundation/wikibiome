@@ -1,4 +1,5 @@
 ---
+
 title: "The role of the vaginal microbiome in distinguishing female chronic pelvic pain caused by endometriosis/adenomyosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Annals of Translational Medicine
 year: 2021
 tags: [endometriosis, adenomyosis, chronic-pelvic-pain, vaginal-microbiome, Clostridium-butyricum, Alloscardovia, Lactobacillus-jensenii, diagnostic-biomarker, CA125]
 doi: "10.21037/atm-20-4586"
+platform: wikibiome
 ---
 
 # Key Claims

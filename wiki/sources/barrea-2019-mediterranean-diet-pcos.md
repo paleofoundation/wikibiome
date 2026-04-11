@@ -1,4 +1,5 @@
 ---
+
 title: "Adherence to the Mediterranean Diet, Dietary Patterns and Body Composition in Women with Polycystic Ovary Syndrome (PCOS)"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Barrea L, Arnone A, Annunziata G, Muscogiuri G, Laudisio D, Salzano C,
 journal: Nutrients
 year: 2019
 tags: [PCOS, Mediterranean-diet, dietary-patterns, body-composition, testosterone, CRP, inflammation, PREDIMED, bioelectrical-impedance]
-doi: "10.1007/s13668-023-00456-1"
+doi: "10.3390/nu11061594"
+platform: wikibiome
 ---
 
 # Key Claims

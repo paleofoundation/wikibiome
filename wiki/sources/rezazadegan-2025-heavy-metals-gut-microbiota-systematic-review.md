@@ -1,4 +1,5 @@
 ---
+
 title: "Major heavy metals and human gut microbiota composition: a systematic review with nutritional approach"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Rezazadegan M, Forootani B, Hoveyda Y, Rezazadegan N, Amani R]
 journal: Journal of Health, Population and Nutrition
 year: 2025
 tags: [heavy-metals, gut-microbiota, systematic-review, arsenic, lead, mercury, cadmium, dysbiosis, probiotics, nutrition]
-doi: "10.1007/s12072-021-10262-y"
+doi: "10.1186/s41043-025-00774-4"
+platform: wikibiome
 ---
 
 # Key Claims

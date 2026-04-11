@@ -1,4 +1,5 @@
 ---
+
 title: "Serum Trace Elements and Heavy Metals in Polycystic Ovary Syndrome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Human & Experimental Toxicology
 year: 2012
 tags: [PCOS, copper, zinc, manganese, lead, cobalt, cadmium, magnesium, trace-elements, oxidative-stress, testosterone]
 doi: "10.1177/0960327111424299"
+platform: wikibiome
 ---
 
 # Key Claims

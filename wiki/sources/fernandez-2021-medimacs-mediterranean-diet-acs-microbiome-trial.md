@@ -1,4 +1,5 @@
 ---
+
 title: "The impact of Mediterranean diet on coronary plaque vulnerability, microvascular function, inflammation and microbiome after an acute coronary syndrome: study protocol for the MEDIMACS randomized, controlled, mechanistic clinical trial"
 type: source
 created: 2026-04-09
@@ -7,6 +8,8 @@ authors: [Ana I. Fernandez, Javier Bermejo, Raquel Yotti, Miguel Angel Martinez-
 journal: Trials
 year: 2021
 tags: [cardiovascular-disease, Mediterranean-diet, acute-coronary-syndrome, atherosclerosis, microbiome, RCT, plaque-vulnerability, OCT, inflammation]
+doi: "10.1186/s13063-021-05746-z"
+platform: wikibiome
 ---
 
 # Fernandez et al. 2021 -- MEDIMACS Trial: Mediterranean Diet, Microbiome, and ACS

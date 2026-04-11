@@ -1,4 +1,5 @@
 ---
+
 title: "The impact of environmental factors and contaminants on thyroid function and disease from fetal to adult life: current evidence and future directions"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, environmental-exposures, heavy-metals, cadmium, lead, arsenic, nickel, endocrine-disruptors, air-pollution, climate-change, thyroid-cancer, oxidative-stress]
 doi: "10.3389/fendo.2024.1429884"
+platform: wikibiome
 ---
 
 # The impact of environmental factors and contaminants on thyroid function and disease from fetal to adult life

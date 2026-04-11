@@ -1,4 +1,5 @@
 ---
+
 title: "A metagenomic study of the gut microbiome in patients with type 2 diabetes mellitus and myocardial infarction"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Acta Diabetologica
 year: 2026
 doi: 10.1007/s00592-026-02648-x
 tags: [cardiovascular-disease, shotgun-metagenomics, type-2-diabetes, myocardial-infarction, comorbidities, microbial-biomarkers, KEGG, random-forest, Bacteroidales, Prevotellaceae]
+platform: wikibiome
 ---
 
 # A Metagenomic Study of the Gut Microbiome in Patients with Type 2 Diabetes Mellitus and Myocardial Infarction

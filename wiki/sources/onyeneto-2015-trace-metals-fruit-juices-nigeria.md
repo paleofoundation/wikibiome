@@ -1,4 +1,5 @@
 ---
+
 title: "Trace Metals and Contaminants in Commercial Fruit Juices Sold in South Eastern States, Nigeria"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Onyeneto T.C., Nwachukwu I.N., Nwogwugwu N.U.]
 journal: Annals of Biological Research
 year: 2015
 tags: [fruit-juice, heavy-metals, food-contamination, lead, zinc, copper, iron, Nigeria, AAS]
+platform: wikibiome
 ---
 
 # Trace Metals and Contaminants in Commercial Fruit Juices Sold in South Eastern States, Nigeria

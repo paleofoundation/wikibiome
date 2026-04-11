@@ -1,4 +1,5 @@
 ---
+
 title: "A microbially produced AhR ligand promotes a Tph1-driven tolerogenic program in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2024
 doi: 10.1038/s41598-024-57400-8
 tags: [multiple-sclerosis, indoles, aryl-hydrocarbon-receptor, 3-IAld, mast-cells, serotonin, Tph1, EAE, gut-microbiome, tryptophan, tolerance]
+platform: wikibiome
 ---
 
 # A Microbially Produced AhR Ligand Promotes a Tph1-Driven Tolerogenic Program in Multiple Sclerosis

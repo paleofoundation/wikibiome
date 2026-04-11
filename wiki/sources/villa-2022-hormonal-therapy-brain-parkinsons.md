@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Alessandro Villa, Adriana Maggi, Elisabetta Bhatt]
 year: 2022
 journal: "Frontiers in Neuroendocrinology"
-doi: "10.1016/j.yfrne.2022.XXXXXX"
+doi: "10.1016/j.yfrne.2022.100998"
 tags: [parkinsons-disease, hormonal-therapy, estrogen, neuroprotection, sex-differences, neuroinflammation, iron-homeostasis]
 library_category: interventions
 platform: both

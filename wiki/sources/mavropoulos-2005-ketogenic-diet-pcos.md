@@ -1,4 +1,5 @@
 ---
+
 title: "The effects of a low-carbohydrate, ketogenic diet on the polycystic ovary syndrome: A pilot study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrition & Metabolism
 year: 2005
 tags: [PCOS, ketogenic-diet, low-carbohydrate, insulin-resistance, pilot-study, weight-loss, testosterone]
 doi: "10.1186/1743-7075-2-35"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome as a biomarker and therapeutic target in pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Microbiology
 year: 2024
 tags: [pancreatic-cancer, microbiome, microbial-biomarkers, probiotics, prebiotics, antibiotics, FMT, 16S-rRNA, metagenomics, therapeutic-target]
 doi: "10.1186/s12866-023-03166-4"
+platform: wikibiome
 ---
 
 # Key Claims

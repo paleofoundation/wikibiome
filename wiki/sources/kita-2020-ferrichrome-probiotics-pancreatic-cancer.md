@@ -1,4 +1,5 @@
 ---
+
 title: "Probiotic-derived ferrichrome inhibits the growth of refractory pancreatic cancer cells"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Oncology
 year: 2020
 tags: [pancreatic-cancer, probiotics, ferrichrome, Lactobacillus-casei, p53, apoptosis, 5-FU-resistance, cancer-stem-cells, cell-cycle]
 doi: "10.3892/ijo.2020.5096"
+platform: wikibiome
 ---
 
 # Key Claims

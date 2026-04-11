@@ -1,4 +1,5 @@
 ---
+
 title: "The way to a man's heart is through his gut microbiota - dietary pro- and prebiotics for the management of cardiovascular risk"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Proceedings of the Nutrition Society
 year: 2014
 doi: 10.1017/S0029665113003911
 tags: [cardiovascular-disease, prebiotics, probiotics, diet, gut-microbiota, cholesterol, TMAO, bile-acids, polyphenols, fermentable-fibers, Lactobacillus, Bifidobacterium]
+platform: wikibiome
 ---
 
 # Dietary Pro- and Prebiotics for the Management of Cardiovascular Risk

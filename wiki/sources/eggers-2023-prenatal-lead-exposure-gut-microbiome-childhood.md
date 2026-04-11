@@ -1,4 +1,5 @@
 ---
+
 title: "Prenatal Lead Exposure is Negatively Associated with the Gut Microbiome in Childhood"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2023
 tags: [crohns-disease, IBD, lead-exposure, heavy-metals, gut-microbiome, prenatal-exposure, Bacteroides-caccae, Bifidobacterium, Ruminococcus-gnavus, Alistipes-indistinctus, dysbiosis]
 doi: "10.3389/fmicb.2023.1193919"
+platform: wikibiome
 ---
 
 # Key Claims

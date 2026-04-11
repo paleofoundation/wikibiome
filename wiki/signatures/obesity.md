@@ -1,4 +1,5 @@
 ---
+
 title: "Obesity — Microbiome Signature"
 type: signature
 created: 2026-04-10
@@ -51,6 +52,7 @@ virulence_enzymes: [TMA-lyase, siderophores, nickel-urease, nickel-hydrogenase, 
 cureva_status: partial
 validated_interventions: []
 stops: []
+platform: cureva
 ---
 
 ## Overview
@@ -278,3 +280,15 @@ The obesity signature engages **8 of the 9 Karen's Brain primitives**:
 8. **Siderophore Competition and Iron Ecology** — E. coli siderophore dominance in hepcidin-elevated state; SCFA-producer suppression in iron-competition niche
 
 **Primitive 9 (Oxygen State as Ecological Determinant)** is not fully developed; hypoxia is present but therapeutic oxygen manipulation (HBOT) is not addressed in obesity literature reviewed.
+
+## Key Sources
+
+- [[jacobs-2022-crohns-remission-obesity-mli-microbiome]]
+- [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]]
+- [[boussamet-2024-oral-microbiota-metabolite-signature-ms]]
+- [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]
+- [[hauer-2021-comorbidity-ms-systematic-review]]
+- [[almeida-2023-gut-microbiota-cardiovascular-axis]]
+- [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]
+- [[gentile-2020-diet-microbiota-brain-health]]
+- [[altinok-dindar-2023-gut-microbiota-breast-cancer-diet]]

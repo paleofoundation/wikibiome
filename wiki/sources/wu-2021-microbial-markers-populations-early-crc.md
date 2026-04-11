@@ -1,4 +1,5 @@
 ---
+
 title: "Identification of Microbial Markers across Populations in Early Detection of Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Communications
 year: 2021
 tags: [colon-cancer, microbial-biomarkers, adenoma-detection, cross-population, random-forest, ADP-heptose-biosynthesis, menaquinone-10, Lachnoclostridium, Fusobacterium, colorectal-cancer]
 doi: "10.1038/s41467-021-23265-y"
+platform: wikibiome
 ---
 
 # Identification of Microbial Markers across Populations in Early Detection of Colorectal Cancer

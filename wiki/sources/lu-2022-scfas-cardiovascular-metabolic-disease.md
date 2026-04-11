@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiota-derived short-chain fatty acids: Implications for cardiovascular and metabolic disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cardiovascular Medicine
 year: 2022
 doi: 10.3389/fcvm.2022.900381
 tags: [cardiovascular-disease, CVD, SCFAs, butyrate, propionate, acetate, atherosclerosis, hypertension, myocardial-infarction, stroke, inflammation, gut-brain-axis, review]
+platform: wikibiome
 ---
 
 # Microbiota-Derived Short-Chain Fatty Acids: Implications for Cardiovascular and Metabolic Disease

@@ -1,4 +1,5 @@
 ---
+
 title: "Supplemented Use of Pre-, Pro-, and Synbiotics in Severe Acute Pancreatitis: An Updated Systematic Review and Meta-Analysis of 13 Randomized Controlled Trials"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Pharmacology
 year: 2018
 tags: [pancreatic-cancer, prebiotics, probiotics, synbiotics, severe-acute-pancreatitis, meta-analysis, hospital-stay, enteral-nutrition, RCT]
 doi: "10.3389/fphar.2018.00690"
+platform: wikibiome
 ---
 
 # Key Claims

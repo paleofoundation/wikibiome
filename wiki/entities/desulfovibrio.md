@@ -1,4 +1,5 @@
 ---
+
 title: Desulfovibrio
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, appunni-2021-dietary-factors-gut-microbiome-crc, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, almeida-2023-gut-microbiota-cardiovascular-axis, svensson-2021-endometriosis-gut-microbiota-associations]
 metal_dependencies: [iron -- iron-sulfur clusters central to sulfate reduction; nickel -- [NiFe]-hydrogenase in some species; molybdenum -- in some sulfate reductases]
 tags: [pathobiont, sulfate-reducer, H2S-producer, metal-dependent, enriched-in-disease, barrier-disruptor]
+platform: wikibiome
 ---
 
 # Desulfovibrio
@@ -28,13 +30,13 @@ A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) th
 - **Iron**: Iron-sulfur clusters are central to the dissimilatory sulfate reduction pathway. Desulfovibrio requires substantial iron for its [Fe]-hydrogenase and ferredoxin electron carriers.
 - **Nickel**: Some species possess [NiFe]-hydrogenase for hydrogen-dependent sulfate reduction, linking their metabolism to [[nickel]] availability in the gut.
 - **Molybdenum**: Certain sulfate reductases use [[molybdenum]] cofactors.
-- **Mercury**: Desulfovibrio species are enriched by [[mercury]] exposure in the gut, and some SRB can methylate inorganic mercury to neurotoxic methylmercury [[[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]].
+- **Mercury**: Desulfovibrio species are enriched by [[mercury]] exposure in the gut, and some SRB can methylate inorganic mercury to neurotoxic methylmercury [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
 
 ## Disease Associations
 
 - **Endometriosis**: H2S/NF-kB pathway activation promotes endometrial inflammation and lesion progression. Desulfovibrio enrichment may contribute to the inflammatory milieu driving [[endometriosis]].
-- **Cardiovascular disease**: enriched in CVD; H2S can promote atherosclerotic plaque instability. Spermidine supplementation paradoxically increases Desulfovibrionaceae while improving cardiovascular outcomes, suggesting dose-dependent or context-dependent H2S effects [[[almeida-2023-gut-microbiota-cardiovascular-axis]]].
-- **Colorectal cancer**: H2S-mediated DNA damage and NF-kB activation contribute to carcinogenesis. Desulfovibrio showed opposite directionality -- increased in cancer, decreased in autoimmune disease [[[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]]].
+- **Cardiovascular disease**: enriched in CVD; H2S can promote atherosclerotic plaque instability. Spermidine supplementation paradoxically increases Desulfovibrionaceae while improving cardiovascular outcomes, suggesting dose-dependent or context-dependent H2S effects [[almeida-2023-gut-microbiota-cardiovascular-axis]].
+- **Colorectal cancer**: H2S-mediated DNA damage and NF-kB activation contribute to carcinogenesis. Desulfovibrio showed opposite directionality -- increased in cancer, decreased in autoimmune disease [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
 - **Parkinson's disease**: enriched in PD gut; H2S may compound mitochondrial dysfunction in the enteric nervous system.
 - **Bilophila wadsworthia** (related SRB): metabolizes taurine-conjugated bile acids to produce H2S, linking high-fat diet (which increases taurine-conjugated bile acids) to sulfide-driven inflammation.
 
@@ -49,6 +51,12 @@ A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) th
 - **Hydrogen sulfide (H2S)** -- primary output; cytochrome c oxidase inhibitor, DNA damaging agent, NF-kB activator.
 - **Acetate** -- secondary fermentation product from incomplete oxidation of organic substrates.
 - **Methylmercury** -- some species convert inorganic Hg to neurotoxic MeHg.
+
+
+## Key Sources
+
+- [[appunni-2021-dietary-factors-gut-microbiome-crc]]
+- [[svensson-2021-endometriosis-gut-microbiota-associations]]
 
 ## Connections
 

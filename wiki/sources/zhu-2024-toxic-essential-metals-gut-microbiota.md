@@ -1,4 +1,5 @@
 ---
+
 title: "Toxic and Essential Metals: Metabolic Interactions with the Gut Microbiota and Health Implications"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Nutrition
 year: 2024
 tags: [pancreatic-cancer, heavy-metals, gut-microbiota, metabolites, arsenic, mercury, lead, cadmium, copper, manganese, iron, nickel, chromium, silicon, bidirectional-interaction, SCFAs, bile-acids, review]
 doi: "10.1016/j.biopha.2023.115602"
+platform: wikibiome
 ---
 
 # Key Claims

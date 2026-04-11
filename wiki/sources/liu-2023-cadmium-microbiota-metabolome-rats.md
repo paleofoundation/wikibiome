@@ -1,4 +1,5 @@
 ---
+
 title: "Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Veterinary Science
 year: 2023
 doi: 10.3389/fvets.2023.1219729
 tags: [cardiovascular-disease, CVD, cadmium, gut-microbiome, blood-microbiome, metabolomics, bacterial-translocation, serum-metabolites, dysbiosis, animal-model]
+platform: wikibiome
 ---
 
 # Environmental Cadmium Exposure Alters the Internal Microbiota and Metabolome of Sprague-Dawley Rats

@@ -1,4 +1,5 @@
 ---
+
 title: "Metal Dyshomeostasis as a Driver of Gut Pathology in Autism Spectrum Disorders"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Neurochemistry
 year: 2025
 tags: [autism, metals, gut-pathology, zinc-deficiency, mercury, cadmium, lead, gut-microbiota, intestinal-permeability, systematic-review]
 doi: "10.1111/jnc.70041"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Characteristics of the gut virome in patients with premalignant colorectal adenoma"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Translational Medicine
 year: 2025
 doi: "10.1186/s12967-025-06404-7"
 tags: [colon-cancer, colorectal-cancer, virome, gut-virome, colorectal-adenoma, bacteriophage, Siphoviridae, Myoviridae, Podoviridae, Microviridae, viral-signatures, metagenomics]
+platform: wikibiome
 ---
 
 # Zhang 2025 -- Characteristics of the Gut Virome in Premalignant Colorectal Adenoma

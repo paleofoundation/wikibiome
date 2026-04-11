@@ -1,7 +1,9 @@
 ---
+
 title: "Alpha-Synuclein"
 category: concept
 tags: [alpha-synuclein, parkinsons-disease, neurodegeneration, protein-aggregation, gut-brain-axis, iron, copper, manganese]
+platform: wikibiome
 ---
 
 # Alpha-Synuclein
@@ -10,10 +12,10 @@ A 140-amino-acid presynaptic protein whose misfolding and aggregation into Lewy 
 
 ## Metal Interactions
 
-- **[[Iron]]**: Fe(III) directly accelerates alpha-synuclein fibrillization; iron accumulates in the substantia nigra of PD patients. [[Ferroptosis]] (iron-dependent cell death) is implicated in dopaminergic neuron loss.
-- **[[Copper]]**: Cu(II) binds alpha-synuclein at the N-terminus and promotes oligomerization. Copper dyshomeostasis is documented in PD brain tissue.
-- **[[Manganese]]**: Chronic manganese exposure causes manganism (parkinsonism); Mn promotes alpha-synuclein aggregation and mitochondrial dysfunction.
-- **[[Lead]]**: Developmental lead exposure upregulates alpha-synuclein expression decades later (epigenetic programming).
+- **[[iron]]**: Fe(III) directly accelerates alpha-synuclein fibrillization; iron accumulates in the substantia nigra of PD patients. [[ferroptosis]] (iron-dependent cell death) is implicated in dopaminergic neuron loss.
+- **[[copper]]**: Cu(II) binds alpha-synuclein at the N-terminus and promotes oligomerization. Copper dyshomeostasis is documented in PD brain tissue.
+- **[[manganese]]**: Chronic manganese exposure causes manganism (parkinsonism); Mn promotes alpha-synuclein aggregation and mitochondrial dysfunction.
+- **[[lead]]**: Developmental lead exposure upregulates alpha-synuclein expression decades later (epigenetic programming).
 
 ## Gut-Brain Connection
 

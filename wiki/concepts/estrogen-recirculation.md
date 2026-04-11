@@ -1,4 +1,5 @@
 ---
+
 title: "Estrogen Recirculation"
 type: concept
 created: 2026-04-10
@@ -6,13 +7,14 @@ updated: 2026-04-10
 sources: []
 tags: [estrobolome, estrogen-metabolism, enterohepatic-circulation, hormone-biology]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
+platform: wikibiome
 ---
 
 ## Overview
 
-**Estrogen recirculation** is the recycling loop by which conjugated estrogens excreted in bile are deconjugated by gut bacterial [[beta-glucuronidase]], reabsorbed across the intestinal epithelium, and returned to systemic circulation. This process, driven by the **estrobolome** (estrogen-metabolizing bacterial community), effectively amplifies circulating estrogen levels and duration. Dysbiosis-induced overgrowth of high-glucuronidase taxa (especially [[escherichia-coli]] and [[bacteroides-fragilis]]) hyperactivates this loop, driving estrogen-dependent diseases including [[endometriosis]], [[breast-cancer]], and [[polycystic-ovary-syndrome]].
+**Estrogen recirculation** is the recycling loop by which conjugated estrogens excreted in bile are deconjugated by gut bacterial [[beta-glucuronidase]], reabsorbed across the intestinal epithelium, and returned to systemic circulation. This process, driven by the **estrobolome** (estrogen-metabolizing bacterial community), effectively amplifies circulating estrogen levels and duration. Dysbiosis-induced overgrowth of high-glucuronidase taxa (especially [[escherichia-coli]] and [[bacteroides-fragilis]]) hyperactivates this loop, driving estrogen-dependent diseases including [[endometriosis]], [[breast-cancer]], and [[pcos]].
 
-This exemplifies [[Primitive 7|primitive-7-estrobolome]]: the bacterial metabolic capacity to recirculate hormones is a controllable lever in hormone-dependent disease.
+This exemplifies [[primitive-7|primitive-7-estrobolome]]: the bacterial metabolic capacity to recirculate hormones is a controllable lever in hormone-dependent disease.
 
 ## Mechanism
 
@@ -36,11 +38,11 @@ This exemplifies [[Primitive 7|primitive-7-estrobolome]]: the bacterial metaboli
 
 Estrogen recirculation is mechanistically linked to:
 
-- **[[Endometriosis]]** — Amplified local estrogen via high β-glucuronidase in dysbiotic microbiota; sustained estrogen drives ectopic endometrial growth and inflammation.
-- **[[Breast Cancer]]** — Elevated systemic estrogen from hyperactive recirculation is a major risk factor; estrogen promotes proliferation of ER+ tumor cells.
-- **[[Polycystic Ovary Syndrome]]** — Elevated androgens + recirculated estrogen drive irregular ovulation and metabolic dysfunction.
-- **[[Uterine Fibroids]]** — Estrogen-driven smooth muscle proliferation amplified by dysbiotic recirculation.
-- **[[Menstrual Migraine]]** — Estrogen fluctuations trigger migraine; dysbiotic recirculation flattens normal cycle dynamics and shifts trigger thresholds.
+- **[[endometriosis]]** — Amplified local estrogen via high β-glucuronidase in dysbiotic microbiota; sustained estrogen drives ectopic endometrial growth and inflammation.
+- **[[breast-cancer]]** — Elevated systemic estrogen from hyperactive recirculation is a major risk factor; estrogen promotes proliferation of ER+ tumor cells.
+- **[[pcos]]** — Elevated androgens + recirculated estrogen drive irregular ovulation and metabolic dysfunction.
+- **[[uterine-fibroids]]** — Estrogen-driven smooth muscle proliferation amplified by dysbiotic recirculation.
+- **[[menstrual-migraine]]** — Estrogen fluctuations trigger migraine; dysbiotic recirculation flattens normal cycle dynamics and shifts trigger thresholds.
 
 ## Metal Connections
 
@@ -57,16 +59,16 @@ Estrogen recirculation is mechanistically linked to:
 ## Connections
 
 **Linked concepts**:
-- [[Beta-glucuronidase]] — The bacterial enzyme driving deconjugation; inhibiting or reducing this is a direct intervention target.
-- [[Enterohepatic-circulation]] — The broader recycling process of which estrogen recirculation is one example.
-- [[Estrobolome]] — Collective term for the estrogen-metabolizing bacterial community.
-- [[Dysbiosis-and-inflammation]] — The microbial composition shift that hyperactivates recirculation.
+- [[beta-glucuronidase]] — The bacterial enzyme driving deconjugation; inhibiting or reducing this is a direct intervention target.
+- [[enterohepatic-circulation]] — The broader recycling process of which estrogen recirculation is one example.
+- [[estrobolome]] — Collective term for the estrogen-metabolizing bacterial community.
+- [[dysbiosis-and-inflammation]] — The microbial composition shift that hyperactivates recirculation.
 
 **Linked entities**:
-- [[Escherichia-coli]] — Major high-glucuronidase dysbiotic overgrowth species.
-- [[Bacteroides-fragilis]] — High β-glucuronidase; BFT toxin-producing strains correlate with dysbiosis severity.
-- [[Lachnospiraceae]] — Healthy, low-glucuronidase commensals; reduced in dysbiosis.
-- [[Estradiol]] — The primary hormone being recirculated.
+- [[escherichia-coli]] — Major high-glucuronidase dysbiotic overgrowth species.
+- [[bacteroides-fragilis]] — High β-glucuronidase; BFT toxin-producing strains correlate with dysbiosis severity.
+- [[lachnospiraceae]] — Healthy, low-glucuronidase commensals; reduced in dysbiosis.
+- [[estradiol]] — The primary hormone being recirculated.
 
 **Intervention targets**:
 - Reducing β-glucuronidase-producing taxa via [[targeted-antimicrobials]] or specific [[dietary-exclusions]].

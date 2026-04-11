@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbiome in endometriosis: a cohort study on 1000 individuals"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Medicine
 year: 2024
 tags: [endometriosis, gut-microbiome, shotgun-metagenomics, estrobolome, Clostridium, Ruminococcus, Estonian-Microbiome-cohort, large-cohort, KEGG, beta-glucuronidase]
 doi: "10.1186/s12916-024-03503-y"
+platform: wikibiome
 ---
 
 # Key Claims

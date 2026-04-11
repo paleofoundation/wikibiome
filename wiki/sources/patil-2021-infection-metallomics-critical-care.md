@@ -1,4 +1,5 @@
 ---
+
 title: "Infection metallomics for critical care in the post-COVID era"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ volume: 42
 pages: "1221-1243"
 doi: "10.1002/mas.21755"
 tags: [infection-metallomics, metallophores, siderophores, mass-spectrometry, iron, copper, zinc, nickel, cobalt, virulence-factors, critical-care, COVID-19, antimicrobial-resistance, nutritional-immunity, aspergillosis, urinary-tract-infection, meningitis, FTICR-MS, ICP-MS, biofilm]
+platform: wikibiome
 ---
 
 # Key Claims

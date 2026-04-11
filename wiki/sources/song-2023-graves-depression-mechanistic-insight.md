@@ -1,4 +1,5 @@
 ---
+
 title: "Graves' Disease as a Driver of Depression: A Mechanistic Insight"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 doi: "10.3389/fendo.2023.1162445"
 tags: [hashimotos-thyroiditis, thyroid, Graves-disease, depression, neuroinflammation, gut-brain-axis, serotonin, dopamine, HPA-axis, cytokines, tryptophan, BBB-disruption, review]
+platform: wikibiome
 ---
 
 # Graves' Disease as a Driver of Depression: A Mechanistic Insight

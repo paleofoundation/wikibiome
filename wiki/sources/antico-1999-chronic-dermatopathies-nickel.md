@@ -1,4 +1,5 @@
 ---
+
 title: "Chronic Allergic-Like Dermatopathies in Nickel-Sensitive Patients. Results of Dietary Restrictions and Challenge with Nickel Salts"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Allergy and Asthma Proceedings
 year: 1999
 tags: [dietary-nickel, oral-nickel-challenge, chronic-dermatopathies, urticaria, angioedema, elimination-diet]
 doi: "10.2500/108854199778338991"
+platform: wikibiome
 ---
 
 ## Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Pediatric Health Risk Assessment for Exposure to Aluminum from Infant Formulas and Children under the Age of Five's Food Products among Arab Infants: Experience from Lebanon"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Ibrahim C, Kammouni Z, Barake M, Kassir M, Al-Jawaldeh A, Matta J, Sac
 journal: Foods
 year: 2022
 tags: [aluminum, infant-formula, baby-food, risk-assessment, Lebanon, FAAS, dietary-exposure, hazard-quotient]
-doi: "10.1177/0148607108316187"
+doi: "10.3390/foods11091177"
+platform: wikibiome
 ---
 
 ## Key Claims

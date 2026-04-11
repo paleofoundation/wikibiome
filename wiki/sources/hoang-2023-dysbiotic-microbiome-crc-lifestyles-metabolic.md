@@ -1,4 +1,5 @@
 ---
+
 title: "Dysbiotic microbiome variation in colorectal cancer patients is linked to lifestyles and metabolic diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Microbiology
 year: 2023
 doi: "10.1186/s12866-023-02771-7"
 tags: [colon-cancer, colorectal-cancer, dysbiosis, lifestyle, metabolic-disease, Anna-Karenina-principle, smoking, alcohol, obesity, hypertension, diabetes, network-analysis, COZINE, 16S-rRNA]
+platform: wikibiome
 ---
 
 # Hoang 2023 -- Dysbiotic Microbiome Variation in CRC Linked to Lifestyles and Metabolic Diseases

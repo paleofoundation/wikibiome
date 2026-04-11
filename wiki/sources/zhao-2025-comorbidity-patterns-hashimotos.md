@@ -1,4 +1,5 @@
 ---
+
 title: "An Investigation of the Pattern and Mechanism of Comorbidity in Patients with Hashimoto's Thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2025
 doi: "10.3389/fendo.2025.1615095"
 tags: [hashimotos-thyroiditis, thyroid, comorbidities, thyroid-nodules, breast-hyperplasia, uterine-leiomyomas, network-pharmacology, AKT1, TP53, EGFR, PI3K-Akt-pathway, levothyroxine]
+platform: wikibiome
 ---
 
 # An Investigation of the Pattern and Mechanism of Comorbidity in Patients with Hashimoto's Thyroiditis

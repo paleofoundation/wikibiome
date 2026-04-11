@@ -1,4 +1,5 @@
 ---
+
 title: "Association of low-level heavy metal exposure with risk of chronic kidney disease and long-term mortality"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Kuo PF, Huang YT, Chuang MH, Jiang MY]
 journal: "PLOS ONE"
 year: 2024
 tags: [lead, cadmium, chronic-kidney-disease, mortality, NHANES, nephrotoxicity, low-level-exposure]
+platform: wikibiome
 ---
 
 # Key Claims

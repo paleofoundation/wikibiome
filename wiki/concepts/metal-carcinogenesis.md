@@ -1,10 +1,12 @@
 ---
+
 title: Metal Carcinogenesis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md, liu-2025-cardiometabolic-nickel.md]
 tags: [carcinogenesis, toxicology, nickel, arsenic, chromium]
+platform: wikibiome
 ---
 
 # Metal Carcinogenesis
@@ -13,7 +15,7 @@ The ability of certain metals to cause cancer has been known since the 19th cent
 
 ## Core Principle
 
-Despite well-recognized carcinogenic potential, **the molecular mechanisms underlying metal carcinogenesis remain incompletely understood** [[[salnikov-2008-metal-carcinogenesis]]]. A key insight: carcinogenic metals are typically **weak mutagens** (with the exception of Cr(VI)), and they do not form DNA adducts in the conventional sense (again, except Cr). Instead, they rely on:
+Despite well-recognized carcinogenic potential, **the molecular mechanisms underlying metal carcinogenesis remain incompletely understood** [[salnikov-2008-metal-carcinogenesis]]. A key insight: carcinogenic metals are typically **weak mutagens** (with the exception of Cr(VI)), and they do not form DNA adducts in the conventional sense (again, except Cr). Instead, they rely on:
 - Epigenetic reprogramming
 - Signaling pathway activation
 - DNA repair inhibition
@@ -59,6 +61,11 @@ Perhaps the most unifying concept: all three metals **inhibit DNA repair**, whic
 | Chromium | MMR | Suppresses hMLH1 expression |
 
 This means environmental exposures to these metals could amplify the carcinogenic effects of **other agents** (UV, tobacco, dietary carcinogens) — a critical public health consideration.
+
+
+## Key Sources
+
+- [[liu-2025-cardiometabolic-nickel]]
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Physical Activity, Immune System, and the Microbiome in Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.3389/fphys.2018.00763"
 tags: [cardiovascular-disease, physical-activity, immune-response, microbiome, atherosclerosis, inflammation, cytokines, exercise, Collinsella, TMAO, T-cells, NK-cells]
 source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease microbiome/Physical activity, immune system, and the microbiome in cardiovascular disease.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Personal View: Food for Thought - Western Lifestyle and Susceptibility to Crohn's Disease. The FODMAP Hypothesis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Alimentary Pharmacology & Therapeutics
 year: 2005
 tags: [crohns-disease, IBD, FODMAP, diet, fructose, intestinal-permeability, western-diet, fermentation, bacterial-overgrowth]
 doi: "10.1111/j.1365-2036.2005.02506.x"
+platform: wikibiome
 ---
 
 # Key Claims

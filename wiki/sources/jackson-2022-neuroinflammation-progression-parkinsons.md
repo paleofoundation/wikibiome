@@ -7,6 +7,7 @@ authors: [Abigail Jackson, Amrutha Bagavathi, Kyle Schmitt, Donald Bhatt]
 year: 2022
 journal: "Current Neurology and Neuroscience Reports"
 doi: "10.1007/s11910-022-01207-5"
+doi_note: "Same DOI as heidari-2022 -- verify which attribution is correct"
 tags: [parkinsons-disease, neuroinflammation, microglia, astrocytes, alpha-synuclein, gut-brain-axis, blood-brain-barrier, immune-system, cytokines]
 library_category: reviews
 platform: both

@@ -1,4 +1,5 @@
 ---
+
 title: "Anti-PD-L1 Antibody and/or 17beta-Estradiol Treatment Induces Changes in the Gut Microbiome in MC38 Colon Tumor Model"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cancer Research and Treatment
 year: 2023
 doi: "10.4143/crt.2022.1427"
 tags: [colon-cancer, colorectal-cancer, anti-PD-L1, estradiol, immunotherapy, MC38, gut-microbiome, 16S-rRNA, Muribaculaceae, sex-differences, metagenomics]
+platform: wikibiome
 ---
 
 # Song 2023 -- Anti-PD-L1 and Estradiol Effects on MC38 Colon Tumor Microbiome

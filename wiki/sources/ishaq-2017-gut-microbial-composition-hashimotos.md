@@ -1,4 +1,5 @@
 ---
+
 title: "Molecular Estimation of Alteration in Intestinal Microbial Composition in Hashimoto's Thyroiditis Patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biomedicine and Pharmacotherapy
 year: 2017
 doi: "10.1016/j.biopha.2017.08.101"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, 16S-rRNA, DGGE, pyrosequencing, dysbiosis, Prevotella, Escherichia-Shigella, Parasutterella, Proteobacteria]
+platform: wikibiome
 ---
 
 # Molecular Estimation of Alteration in Intestinal Microbial Composition in Hashimoto's Thyroiditis Patients

@@ -1,4 +1,5 @@
 ---
+
 title: "Application of Metabolomics to Epidemiological Studies of Atherosclerosis and Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Atherosclerosis and Thrombosis
 year: 2019
 doi: 10.5551/jat.RV17036
 tags: [cardiovascular-disease, CVD, metabolomics, atherosclerosis, epidemiology, biomarker, NMR, LC-MS, TMAO, BCAAs, bile-acids, review]
+platform: wikibiome
 ---
 
 # Application of Metabolomics to Epidemiological Studies of Atherosclerosis and Cardiovascular Disease

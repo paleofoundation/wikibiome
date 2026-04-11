@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Zuzanna Lewandowska-Pietruszka, Magdalena Figlerowicz, Katarzyna Mazur-Melewska]
 year: 2022
 journal: "International Journal of Molecular Sciences"
-doi: None
+doi: "10.3390/ijms24010552"
 tags: [autism, microbiota, dysbiosis, signatures, interventions, probiotics]
 library_category: signatures
 platform: both

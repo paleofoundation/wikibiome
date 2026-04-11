@@ -1,4 +1,5 @@
 ---
+
 title: "Polyunsaturated Fatty Acids in the Pathogenesis and Treatment of Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Nutrition
 year: 2007
 tags: [fatty-acids, PUFA, multiple-sclerosis, linoleic-acid, arachidonic-acid, gamma-linolenic-acid, TGF-beta, cytokines, clinical-trial, n-6-fatty-acids]
 doi: "10.1017/S0007114507833010"
+platform: wikibiome
 ---
 
 # Polyunsaturated Fatty Acids in the Pathogenesis and Treatment of Multiple Sclerosis

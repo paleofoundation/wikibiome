@@ -1,4 +1,5 @@
 ---
+
 title: "Metabolomic analysis of follicular fluid from women with Hashimoto thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2023
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, metabolomics, follicular-fluid, female-fertility, phospholipids, sphingolipids, arachidonic-acid, tgab, tpoab]
 doi: "10.1038/s41598-023-39514-7"
+platform: wikibiome
 ---
 
 # Metabolomic analysis of follicular fluid from women with Hashimoto thyroiditis

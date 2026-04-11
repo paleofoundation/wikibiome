@@ -1,4 +1,5 @@
 ---
+
 title: "STOP: Zinc Supplementation for Endometriosis"
 type: stop
 created: 2026-04-09
@@ -12,6 +13,7 @@ conventional_rationale: "Patient presents with low serum zinc — standard pract
 why_counterproductive: "Calprotectin is already elevated, actively sequestering zinc as host defense. Zinc supplementation feeds zinc-metalloprotease-producing pathogens (E. coli, B. fragilis BFT) that use zinc as a critical cofactor for enzymes that degrade host tissues and inhibit the immune system."
 evidence: [pendergrass-2026-endometriosis-conference]
 alternative: "Address the underlying microbial ecology; support nutritional immunity rather than supplementing the metal being deliberately withheld"
+platform: cureva
 ---
 
 ## Conventional Rationale

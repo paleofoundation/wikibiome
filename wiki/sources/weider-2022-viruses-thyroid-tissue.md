@@ -1,4 +1,5 @@
 ---
+
 title: "High Prevalence of Common Human Viruses in Thyroid Tissue"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2022
 doi: "10.3389/fendo.2022.938633"
 tags: [hashimotos-thyroiditis, thyroid, virome, enterovirus, HHV-6, parvovirus-B19, Graves-disease, viral-infection, EBV, CMV, thyroid-tissue]
+platform: wikibiome
 ---
 
 # High Prevalence of Common Human Viruses in Thyroid Tissue

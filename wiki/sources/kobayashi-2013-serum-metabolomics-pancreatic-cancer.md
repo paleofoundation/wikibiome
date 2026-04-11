@@ -1,4 +1,5 @@
 ---
+
 title: "A novel serum metabolomics-based diagnostic approach to pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cancer Epidemiology, Biomarkers & Prevention
 year: 2013
 tags: [pancreatic-cancer, metabolomics, serum-biomarkers, GC-MS, diagnostics, early-detection, chronic-pancreatitis]
 doi: "10.1158/1055-9965.EPI-12-1033"
+platform: wikibiome
 ---
 
 # Key Claims

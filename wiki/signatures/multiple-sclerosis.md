@@ -1,4 +1,5 @@
 ---
+
 title: "Multiple Sclerosis — Microbiome Signature"
 type: signature
 created: 2026-04-10
@@ -60,7 +61,7 @@ taxonomic_signature:
       role: "SCFA producer — reduced in MS; restored after B-cell depletion"
     - taxon: "[[roseburia]]"
       role: "Essential butyrate producer — quantitatively reduced in MS colonic microbiota"
-    - taxon: "[[bacteroides]]"
+    - taxon: "[[bacteroides-fragilis|bacteroides]]"
       role: "Mixed dysbiotic pattern — some species reduced, involved in secondary bile acid metabolism disruption"
     - taxon: "[[prevotella]]"
       role: "Complex pattern — some increases in disease-active, depletion in some contexts; restored after immunotherapy"
@@ -88,6 +89,7 @@ virulence_enzymes: [lipopolysaccharide-LPS, siderophores, iron-acquisition-syste
 cureva_status: partial
 validated_interventions: [ketogenic-diet-ms, b-cell-depletion-therapy-ms]
 stops: [stop-iron-supplementation-ms, stop-scfa-replacement-without-dysbiosis-restoration-ms]
+platform: cureva
 ---
 
 ## Overview
@@ -124,19 +126,19 @@ The host immune system is actively responding to the metal/microbial imbalance. 
 
 | Factor | Function in MS |
 |--------|---|
-| **[[Calprotectin]]** | Chelates and sequesters zinc and nickel — marker of intestinal inflammation |
-| **[[Chitotriosidase]]** | Fungal burden marker — elevated in response to Candida and other fungal overgrowth [[otaegui-chivite-2025-mycobiota-ms-progression]] |
-| **[[Sialic acid]]** | Acute phase response; binds Cd and Pb; elevation suggests ongoing metal toxicity |
+| **[[calprotectin]]** | Chelates and sequesters zinc and nickel — marker of intestinal inflammation |
+| **[[chitotriosidase]]** | Fungal burden marker — elevated in response to Candida and other fungal overgrowth [[otaegui-chivite-2025-mycobiota-ms-progression]] |
+| **[[sialic-acid]]** | Acute phase response; binds Cd and Pb; elevation suggests ongoing metal toxicity |
 | **Pro-inflammatory cytokines (IL-6, TNF-α, IL-17A, IL-22, IL-23, IFN-β, IL-33)** | T cell and B cell activation; dysbiosis-associated microbial products drive these responses [[thirion-2023-gut-microbiota-ms-disease-activity]] |
 
 **Depleted markers** indicate failure of protective pathways:
 
 | Factor | Function |
 |--------|----------|
-| **[[Short-chain-fatty acids]] (butyrate, propionate, acetate)** | Dramatically depleted in MS — median butyrate 77% reduced, acetate 72% reduced; [[becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility]] requires intact Clostridia, which are depleted by metals |
-| **[[Secondary bile acids]]** | Depleted in both RRMS and pediatric-onset MS [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]]; these require bacterial deconjugation and dehydroxylation by Clostridia and Bacteroides |
-| **[[Glutathione]]** | The only nutritional immunity factor capable of neutralizing Cd and Pb; its depletion creates vulnerability to metal-induced oxidative stress |
-| **[[Tryptophan metabolites]]** | Altered kynurenine pathway; decreased kynurenic acid (KYNA); increased inflammatory 3-hydroxyanthranilic acid (3HAA) [[zahoor-2021-metabolomics-ms-comprehensive-overview]] |
+| **[[short-chain-fatty-acids]] (butyrate, propionate, acetate)** | Dramatically depleted in MS — median butyrate 77% reduced, acetate 72% reduced; [[becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility]] requires intact Clostridia, which are depleted by metals |
+| **[[secondary-bile-acids]]** | Depleted in both RRMS and pediatric-onset MS [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]]; these require bacterial deconjugation and dehydroxylation by Clostridia and Bacteroides |
+| **[[glutathione]]** | The only nutritional immunity factor capable of neutralizing Cd and Pb; its depletion creates vulnerability to metal-induced oxidative stress |
+| **[[tryptophan-metabolites]]** | Altered kynurenine pathway; decreased kynurenic acid (KYNA); increased inflammatory 3-hydroxyanthranilic acid (3HAA) [[zahoor-2021-metabolomics-ms-comprehensive-overview]] |
 
 The depletion of secondary bile acids is particularly critical: these metabolites activate the farnesoid X receptor (FXR) and TGR5 (GPBAR1) on astrocytes and microglia, preventing their neurotoxic polarization. TUDCA supplementation reverses EAE severity through GPBAR1 signaling [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]], demonstrating that loss of bacterial secondary bile acid production directly contributes to CNS inflammation.
 
@@ -154,19 +156,19 @@ The MS dysbiosis is characterized by consistent expansion of taxa that either to
 
 | Taxon | Metal Dependencies | Key Metabolites | Pathogenic Role in MS |
 |-------|-------------------|-----------------|----------------------|
-| **[[Methanobrevibacter]]** | Archaeal methanogen; Ni-dependent methanogenesis | LPS, methane | Recruits dendritic cells, activates interferon signaling and NF-kB pathways; elevated breath methane in MS [[jangi-2016-gut-microbiome-alterations-ms]] |
-| **[[Akkermansia-muciniphila]]** | Mucin-degrading; [[cadmium]]-responsive | Degradation products, LPS | Cadmium specifically upregulates *A. muciniphila*; correlates with interferon signaling and pro-inflammatory gene expression in MS [[jangi-2016-gut-microbiome-alterations-ms]] |
-| **[[Candida-albicans]]** | High metal tolerance; Ni-dependent biofilm enhancement | Ergotamine, LPS-like cell walls, immunogenic proteins | Fungal overgrowth in MS fecal and oral samples (388 isolates from 27 MS patients vs 30 from 21 controls); activates MAIT cells via IL-23-producing monocytes [[gargano-2022-mait-cells-gut-yeasts-ms-brain]]; interkingdom dysbiosis driver |
-| **[[Saccharomyces-cerevisiae]]** | Yeast pathobiont in dysbiosis | Immunogenic antigens | Enriched in MS samples (99 isolates); MAIT cell activator; twin study concordance [[gargano-2022-mait-cells-gut-yeasts-ms-brain]] |
-| **[[Fusobacterium-nucleatum]]** | Fe-dependent siderophores; high metal tolerance | LPS, metalloproteases, siderophores | Gram-negative pathobiont enriched in MS oral cavity [[boussamet-2024-oral-microbiota-metabolite-signature-ms]]; oxygen consumption; blood-brain barrier penetration capability; found in MS lesions |
-| **[[Leptotrichia]]** | Pro-inflammatory oral pathobiont | LPS, inflammation mediators | Enriched in MS saliva; decreased commensal *Streptococcus* and *Aggregatibacter* clearance [[boussamet-2024-oral-microbiota-metabolite-signature-ms]] |
-| **[[Alloprevotella]]** | Metal-tolerant opportunist | LPS | Enriched in MS progressors; independent predictor of disease progression over 4+ years [[montgomery-2024-microbiota-signatures-ms-progression]] |
-| **[[Bilophila]]** | Sulfate-reducing pathobiont | H₂S, oxidative stress metabolites | Enriched in progressors; associated with aerobic respiration and oxidative stress pathways [[montgomery-2024-microbiota-signatures-ms-progression]] |
-| **[[Eggerthella-lenta]]** | Metal-tolerant gram-positive | Metal-dependent metabolism | Increased in MS; exploits dysbiotic niche [[miyake-2015-dysbiosis-ms-clostridia-depletion]] |
-| **[[Streptococcus-thermophilus]]** | Opportunistic exploiter | Fermentation products | Increased in MS; lactic acid fermentation [[miyake-2015-dysbiosis-ms-clostridia-depletion]] |
-| **[[Malassezia]]** | Fungal pathobiont | Lipid-dependent growth | Strongly associated with increased EDSS disability; fungal dysbiosis marker [[otaegui-chivite-2025-mycobiota-ms-progression]] |
-| **[[Torulaspora]]** | Fungal dysbiosis | MS-specific antigens | Enriched compared to controls; variable disability association [[otaegui-chivite-2025-mycobiota-ms-progression]] |
-| **[[Debaryomyces]]** | HLA-DRB1*1501-associated | Fungal metabolites | Enriched in HLA-DRB1*1501 carriers with worse MSFC scores and higher EDSS [[otaegui-chivite-2025-mycobiota-ms-progression]] |
+| **[[methanobrevibacter]]** | Archaeal methanogen; Ni-dependent methanogenesis | LPS, methane | Recruits dendritic cells, activates interferon signaling and NF-kB pathways; elevated breath methane in MS [[jangi-2016-gut-microbiome-alterations-ms]] |
+| **[[akkermansia-muciniphila]]** | Mucin-degrading; [[cadmium]]-responsive | Degradation products, LPS | Cadmium specifically upregulates *A. muciniphila*; correlates with interferon signaling and pro-inflammatory gene expression in MS [[jangi-2016-gut-microbiome-alterations-ms]] |
+| **[[candida-albicans]]** | High metal tolerance; Ni-dependent biofilm enhancement | Ergotamine, LPS-like cell walls, immunogenic proteins | Fungal overgrowth in MS fecal and oral samples (388 isolates from 27 MS patients vs 30 from 21 controls); activates MAIT cells via IL-23-producing monocytes [[gargano-2022-mait-cells-gut-yeasts-ms-brain]]; interkingdom dysbiosis driver |
+| **[[saccharomyces-cerevisiae]]** | Yeast pathobiont in dysbiosis | Immunogenic antigens | Enriched in MS samples (99 isolates); MAIT cell activator; twin study concordance [[gargano-2022-mait-cells-gut-yeasts-ms-brain]] |
+| **[[fusobacterium-nucleatum]]** | Fe-dependent siderophores; high metal tolerance | LPS, metalloproteases, siderophores | Gram-negative pathobiont enriched in MS oral cavity [[boussamet-2024-oral-microbiota-metabolite-signature-ms]]; oxygen consumption; blood-brain barrier penetration capability; found in MS lesions |
+| **[[leptotrichia]]** | Pro-inflammatory oral pathobiont | LPS, inflammation mediators | Enriched in MS saliva; decreased commensal *Streptococcus* and *Aggregatibacter* clearance [[boussamet-2024-oral-microbiota-metabolite-signature-ms]] |
+| **[[alloprevotella]]** | Metal-tolerant opportunist | LPS | Enriched in MS progressors; independent predictor of disease progression over 4+ years [[montgomery-2024-microbiota-signatures-ms-progression]] |
+| **[[bilophila]]** | Sulfate-reducing pathobiont | H₂S, oxidative stress metabolites | Enriched in progressors; associated with aerobic respiration and oxidative stress pathways [[montgomery-2024-microbiota-signatures-ms-progression]] |
+| **[[eggerthella-lenta]]** | Metal-tolerant gram-positive | Metal-dependent metabolism | Increased in MS; exploits dysbiotic niche [[miyake-2015-dysbiosis-ms-clostridia-depletion]] |
+| **[[streptococcus-thermophilus]]** | Opportunistic exploiter | Fermentation products | Increased in MS; lactic acid fermentation [[miyake-2015-dysbiosis-ms-clostridia-depletion]] |
+| **[[malassezia]]** | Fungal pathobiont | Lipid-dependent growth | Strongly associated with increased EDSS disability; fungal dysbiosis marker [[otaegui-chivite-2025-mycobiota-ms-progression]] |
+| **[[torulaspora]]** | Fungal dysbiosis | MS-specific antigens | Enriched compared to controls; variable disability association [[otaegui-chivite-2025-mycobiota-ms-progression]] |
+| **[[debaryomyces]]** | HLA-DRB1*1501-associated | Fungal metabolites | Enriched in HLA-DRB1*1501 carriers with worse MSFC scores and higher EDSS [[otaegui-chivite-2025-mycobiota-ms-progression]] |
 
 ### Depleted Taxa (Loss of Protective Functions)
 
@@ -174,16 +176,16 @@ The striking depletion of **Clostridia clusters XIVa and IV** is one of the most
 
 | Taxon | Normal Function | Why Lost in MS | Consequence |
 |-------|-----------------|---|---|
-| **[[Clostridia-cluster-XIVa]] species** | Induce Tregs via SCFA production; produce butyrate, propionate, acetate | [[Heavy-metals]] (Ni, Cd, Pb) directly inhibit Clostridium growth and SCFA biosynthesis | Loss of Treg induction → uncontrolled Th17/Th1 autoimmunity |
-| **[[Clostridia-cluster-IV]] species** | Induce Tregs via butyrate; produce secondary metabolites | Metal toxicity; lacked defense systems to survive in metal-enriched environment | Same as above; fundamental loss of immune regulation |
-| **[[Faecalibacterium-prausnitzii]]** | Produces butyrate; immunomodulatory short-chain-fatty acids | Metal-induced depletion in disease-active MS | Enriched in non-active MS, supporting its protective role [[thirion-2023-gut-microbiota-ms-disease-activity]] |
-| **[[Lachnospiraceae]]** | SCFA production (especially butyrate) | Metal sensitivity; lost competitive advantage in metal-enriched, inflammatory environment | Restored after B-cell-depletion therapy [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]], showing dysbiosis is partially reversible |
-| **[[Ruminococcus]]** | SCFA production; fiber fermentation | Metal toxicity | Reduced in MS; restored by B-cell depletion [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]] |
-| **[[Roseburia]]** | Butyrate production (essential SCFA) | Metal-induced depletion | Quantitatively reduced in MS colonic microbiota [[swidsinski-2017-colonic-microbiome-ms-ketogenic]] |
-| **[[Oscillospiraceae]]** | SCFA producers; vitamin K synthesis | Metal sensitivity | Depleted in progressors; linked to butyrate and vitamin K2 reduction [[montgomery-2024-microbiota-signatures-ms-progression]] |
-| **[[Gordonibacter-urolithinfaciens]]** | Produces urolithins from dietary polyphenols; anti-inflammatory | Metal-induced depletion | Enriched only in non-disease-active MS [[thirion-2023-gut-microbiota-ms-disease-activity]] |
-| **[[Butyricimonas]]** | SCFA production | Early depletion in MS dysbiosis | Depleted in MS; negative correlations with inflammatory pathways [[jangi-2016-gut-microbiome-alterations-ms]] |
-| **[[Sutterella]]** | SCFA family member | Metal-induced depletion | Restored after immunotherapy [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]] |
+| **[[clostridia-cluster-xiva]] species** | Induce Tregs via SCFA production; produce butyrate, propionate, acetate | [[heavy-metals]] (Ni, Cd, Pb) directly inhibit Clostridium growth and SCFA biosynthesis | Loss of Treg induction → uncontrolled Th17/Th1 autoimmunity |
+| **[[clostridia-cluster-iv]] species** | Induce Tregs via butyrate; produce secondary metabolites | Metal toxicity; lacked defense systems to survive in metal-enriched environment | Same as above; fundamental loss of immune regulation |
+| **[[faecalibacterium-prausnitzii]]** | Produces butyrate; immunomodulatory short-chain-fatty acids | Metal-induced depletion in disease-active MS | Enriched in non-active MS, supporting its protective role [[thirion-2023-gut-microbiota-ms-disease-activity]] |
+| **[[lachnospiraceae]]** | SCFA production (especially butyrate) | Metal sensitivity; lost competitive advantage in metal-enriched, inflammatory environment | Restored after B-cell-depletion therapy [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]], showing dysbiosis is partially reversible |
+| **[[ruminococcus]]** | SCFA production; fiber fermentation | Metal toxicity | Reduced in MS; restored by B-cell depletion [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]] |
+| **[[roseburia]]** | Butyrate production (essential SCFA) | Metal-induced depletion | Quantitatively reduced in MS colonic microbiota [[swidsinski-2017-colonic-microbiome-ms-ketogenic]] |
+| **[[oscillospiraceae]]** | SCFA producers; vitamin K synthesis | Metal sensitivity | Depleted in progressors; linked to butyrate and vitamin K2 reduction [[montgomery-2024-microbiota-signatures-ms-progression]] |
+| **[[gordonibacter-urolithinfaciens]]** | Produces urolithins from dietary polyphenols; anti-inflammatory | Metal-induced depletion | Enriched only in non-disease-active MS [[thirion-2023-gut-microbiota-ms-disease-activity]] |
+| **[[butyricimonas]]** | SCFA production | Early depletion in MS dysbiosis | Depleted in MS; negative correlations with inflammatory pathways [[jangi-2016-gut-microbiome-alterations-ms]] |
+| **[[sutterella]]** | SCFA family member | Metal-induced depletion | Restored after immunotherapy [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]] |
 
 ## Virulence Enzymes and Features
 
@@ -234,24 +236,24 @@ Currently available evidence supports the following interventions for MS-related
 
 | Intervention | Mechanism | Evidence Level |
 |---|---|---|
-| **[[Ketogenic-diet]]** | Normalizes colonic biofermentative function; improves bacterial diversity after 6 months; health-related quality of life improvement at 3 months vs controls [[swidsinski-2017-colonic-microbiome-ms-ketogenic]] | Preliminary — one quantitative FISH intervention study with biphasic microbiota response |
-| **[[Mediterranean-diet]]** | Reduces saturated fat; increases polyphenols and fiber; supports SCFA producers | Preliminary — epidemiologic studies suggest protective effect [[katzsand-2018-diet-ms-mechanistic-review]] |
-| **[[Low-fat-diet]]** | Reduces fermentation substrate for pathogenic Gram-negatives; lowers LPS production | Preliminary |
-| **[[Dietary-fiber]]** | Prebiotic substrate for SCFA producers; requires intact distal-fermenting bacteria (depleted in MS) | Mixed — may require concomitant microbiota restoration |
+| **[[ketogenic-diet]]** | Normalizes colonic biofermentative function; improves bacterial diversity after 6 months; health-related quality of life improvement at 3 months vs controls [[swidsinski-2017-colonic-microbiome-ms-ketogenic]] | Preliminary — one quantitative FISH intervention study with biphasic microbiota response |
+| **[[mediterranean-diet]]** | Reduces saturated fat; increases polyphenols and fiber; supports SCFA producers | Preliminary — epidemiologic studies suggest protective effect [[katzsand-2018-diet-ms-mechanistic-review]] |
+| **[[low-fat-diet]]** | Reduces fermentation substrate for pathogenic Gram-negatives; lowers LPS production | Preliminary |
+| **[[dietary-fiber]]** | Prebiotic substrate for SCFA producers; requires intact distal-fermenting bacteria (depleted in MS) | Mixed — may require concomitant microbiota restoration |
 
 ### Microbial Interventions
 
 | Intervention | Mechanism | Evidence Level |
 |---|---|---|
-| **[[Probiotics]] (specific strains)** | Outcompete dysbiotic taxa; produce SCFA and tryptophan metabolites; IL-10 and Treg induction | Preliminary — multiple trials show variable efficacy; meta-analysis [[zangeneh-2025-probiotics-ms-systematic-review-meta-analysis]] finds efficacy but notes heterogeneity |
-| **[[B-cell-depletion-therapy]] (ocrelizumab)** | Reverses dysbiosis indirectly by reducing B-cell-driven inflammation that perpetuates dysbiosis; restores Firmicutes and Lachnospiraceae [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]] | Validated — clinical therapy with documented microbiome reversal; shows dysbiosis is partially reversible |
+| **[[probiotics]] (specific strains)** | Outcompete dysbiotic taxa; produce SCFA and tryptophan metabolites; IL-10 and Treg induction | Preliminary — multiple trials show variable efficacy; meta-analysis [[zangeneh-2025-probiotics-ms-systematic-review-meta-analysis]] finds efficacy but notes heterogeneity |
+| **[[b-cell-depletion-therapy]] (ocrelizumab)** | Reverses dysbiosis indirectly by reducing B-cell-driven inflammation that perpetuates dysbiosis; restores Firmicutes and Lachnospiraceae [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]] | Validated — clinical therapy with documented microbiome reversal; shows dysbiosis is partially reversible |
 
 ### Supplemental / Supportive
 
 | Intervention | Mechanism | Evidence Level |
 |---|---|---|
-| **[[TUDCA]] (secondary bile acid)** | Restores depleted secondary bile acid function; prevents astrocyte and microglial neurotoxic polarization via GPBAR1; reverses EAE severity [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]] | Validated in EAE; single human MS study (TUDCA therapeutic is not yet standard) |
-| **[[Tryptophan metabolites]] and [[AhR]] agonists** | Restore depleted AhR signaling disrupted by tryptophan-metabolizing Clostridia depletion | Preliminary — mechanism clear; clinical trials pending |
+| **[[tudca]] (secondary bile acid)** | Restores depleted secondary bile acid function; prevents astrocyte and microglial neurotoxic polarization via GPBAR1; reverses EAE severity [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]] | Validated in EAE; single human MS study (TUDCA therapeutic is not yet standard) |
+| **[[tryptophan-metabolites]] and [[ahr]] agonists** | Restore depleted AhR signaling disrupted by tryptophan-metabolizing Clostridia depletion | Preliminary — mechanism clear; clinical trials pending |
 
 ## STOPs
 
@@ -292,3 +294,8 @@ Currently available evidence supports the following interventions for MS-related
 - **Lack of functional metagenomic validation**: Metal-dependent enzyme presence is inferred from taxonomy; direct proteomics or RNA-seq validation of enzyme expression in MS dysbiosis is absent
 - **No TUDCA or other secondary bile acid trials in humans**: Mechanism is validated in EAE, but clinical translation to MS is not yet undertaken
 - **Heterogeneity across studies**: Cohort sizes range from 14 to 148 patients; geographical, ethnic, and treatment-status variability limit reproducibility
+
+## Key Sources
+
+- [[trend-2021-serum-scfas-immune-cells-biomarkers-ms]]
+- [[ignatova-2023-biomarkers-ms-review]]

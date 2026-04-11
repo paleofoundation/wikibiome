@@ -1,4 +1,5 @@
 ---
+
 title: "The physiological effect of heavy metals and volatile fatty acids on Methanococcus maripaludis S2"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biotechnology for Biofuels
 year: 2018
 tags: [methanogens, heavy-metals, volatile-fatty-acids, copper, zinc, acetate, propionate, SCFAs, methanogenesis, archaea]
 doi: "10.1186/s13068-018-1302-x"
+platform: wikibiome
 ---
 
 # Key Claims

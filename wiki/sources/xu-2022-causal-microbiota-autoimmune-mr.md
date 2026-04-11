@@ -1,4 +1,5 @@
 ---
+
 title: "Causal Relationship Between Gut Microbiota and Autoimmune Diseases: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 tags: [Mendelian-randomization, gut-microbiome, autoimmune-diseases, multiple-sclerosis, Bifidobacterium, Ruminococcus, GWAS, causal-inference]
 doi: "10.3389/fimmu.2021.746998"
+platform: wikibiome
 ---
 
 # Causal Relationship Between Gut Microbiota and Autoimmune Diseases: A Two-Sample Mendelian Randomization Study

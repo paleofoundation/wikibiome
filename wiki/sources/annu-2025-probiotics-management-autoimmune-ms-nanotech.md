@@ -1,4 +1,5 @@
 ---
+
 title: "Probiotics in the Management of Autoimmune Disorders (Multiple Sclerosis): A New Approach"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Pharmacological Biomolecules and Therapeutics
 year: 2025
 doi: null
 tags: [multiple-sclerosis, probiotics, nanoparticles, precision-probiotics, nanoencapsulation, autoimmune, gut-brain-axis, Lactobacillus, Bifidobacterium]
+platform: wikibiome
 ---
 
 # Probiotics in the Management of Autoimmune Disorders (Multiple Sclerosis): A New Approach

@@ -1,4 +1,5 @@
 ---
+
 title: "Serum Copper Assessment in Patients with Polycystic Ovary Syndrome and Tubal Infertility: A Retrospective 5-Year Study"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Liu Y, Zhang W, Liu Z, Zheng A, Liang B, Li H, Meng Q]
 journal: Food Science & Nutrition
 year: 2024
 tags: [PCOS, copper, IVF, infertility, lipid-metabolism, trace-elements, iron]
-doi: "10.3390/foods13162536"
+doi: "10.1002/fsn3.4344"
+platform: wikibiome
 ---
 
 # Key Claims

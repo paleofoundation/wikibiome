@@ -1,4 +1,5 @@
 ---
+
 title: "Association between the Gut Microbiota, Inflammatory Factors, and Colorectal Cancer: Evidence from Mendelian Randomization Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2024
 tags: [colon-cancer, mendelian-randomization, inflammatory-factors, IL-10, Lachnospiraceae, Porphyromonadaceae, Sellimonas, colorectal-cancer, gut-microbiota, causal-inference]
 doi: "10.3389/fmicb.2024.1309111"
+platform: wikibiome
 ---
 
 # Association between the Gut Microbiota, Inflammatory Factors, and Colorectal Cancer: Evidence from Mendelian Randomization Analysis

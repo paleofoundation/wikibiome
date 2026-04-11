@@ -1,10 +1,12 @@
 ---
+
 title: Cadmium
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhai-2016-probiotics-cadmium.md, rasin-2025-cadmium-exposure-health-review.md, tarhonska-2022-cadmium-breast-cancer-mechanisms.md, cheng-2021-cadmium-enterococcus-metabolic.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, aquino-2012-cadmium-nickel-metalloestrogens.md, kuo-2024-low-level-lead-cadmium-ckd-mortality.md, rebelo-2021-enterococcus-metal-antibiotic-resistance.md, zhang-2022-metallomics-cancer-review.md]
 tags: [heavy-metal, toxicology, gut-barrier, probiotics, nephrotoxicity, metalloestrogen, breast-cancer, bone, antibiotic-resistance, baby-food]
+platform: wikibiome
 ---
 
 # Cadmium (Cd)
@@ -58,7 +60,7 @@ Epidemiological evidence includes positive correlation between urinary Cd and br
 
 The intestinal tract is the first organ susceptible to Cd contamination via the food chain. Cd disrupts tight junctions, increases gut permeability, and thereby amplifies its own absorption -- another vicious cycle.
 
-### Probiotic Protection Model [[[zhai-2016-probiotics-cadmium]]]
+### Probiotic Protection Model [[zhai-2016-probiotics-cadmium]]
 
 *L. plantarum* CCFM8610 demonstrated four protective mechanisms:
 1. **Intestinal Cd sequestration**: bacterial binding of Cd before absorption

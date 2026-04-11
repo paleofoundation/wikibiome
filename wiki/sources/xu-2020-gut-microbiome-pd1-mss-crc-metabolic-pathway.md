@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiome Influences the Efficacy of PD-1 Antibody Immunotherapy on MSS-Type Colorectal Cancer via Metabolic Pathway"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2020
 doi: "10.3389/fmicb.2020.00814"
 tags: [colon-cancer, colorectal-cancer, PD-1, immunotherapy, MSS-type, CT26, gut-microbiome, antibiotics, Akkermansia, Prevotella, glycerophospholipid, metabolic-pathway, vancomycin, colistin]
+platform: wikibiome
 ---
 
 # Xu 2020 -- Gut Microbiome Influences PD-1 Immunotherapy Efficacy in MSS-Type CRC

@@ -1,4 +1,5 @@
 ---
+
 title: "Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [de Paiva EL, Medeiros C, Fioravanti MAI, Milani RF, Morgano MA, Pallon
 journal: Journal of Food Composition and Analysis
 year: 2020
 tags: [aluminum, baby-food, bioaccessibility, in-vitro-digestion, infant-formula, exposure-assessment, Brazil, ICP-OES]
+platform: wikibiome
 ---
 
 ## Key Claims

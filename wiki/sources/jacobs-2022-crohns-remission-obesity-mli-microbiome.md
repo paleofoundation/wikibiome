@@ -1,4 +1,5 @@
 ---
+
 title: "Crohn's Disease in Endoscopic Remission, Obesity, and Cases of High Genetic Risk Demonstrate Overlapping Shifts in the Colonic Mucosal-Luminal Interface Microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Genome Medicine
 year: 2022
 tags: [crohns-disease, IBD, mucosal-microbiome, obesity, polygenic-risk-score, dysbiosis, metabolomics, Escherichia-Shigella, Fusobacterium, disease-progression, bile-acids]
 doi: "10.1186/s13073-022-01099-7"
+platform: wikibiome
 ---
 
 # Key Claims

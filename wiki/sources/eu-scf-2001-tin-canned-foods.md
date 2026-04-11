@@ -1,4 +1,5 @@
 ---
+
 title: "Opinion of the Scientific Committee on Food on Acute Risks Posed by Tin in Canned Foods"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [European Commission Scientific Committee on Food]
 journal: SCF/CS/CNTM/OTH/18 Final (EU Scientific Opinion)
 year: 2001
 tags: [tin, regulatory, EU, canned-food, food-safety, inorganic-tin, gastric-irritation, JECFA]
+platform: wikibiome
 ---
 
 # EU SCF Opinion on Acute Risks Posed by Tin in Canned Foods

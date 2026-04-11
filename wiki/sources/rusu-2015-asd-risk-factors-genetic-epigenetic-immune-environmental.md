@@ -1,4 +1,5 @@
 ---
+
 title: "Risk factors in autism spectrum disorders: the role of genetic, epigenetic, immune and environmental interactions"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Cristina Rusu, Cristina Preda, Adriana Sireteanu, Carmen Vulpoi]
 journal: Environmental Engineering and Management Journal
 year: 2015
 tags: [autism, risk-factors, genetics, epigenetics, immune-dysfunction, oxidative-stress, heavy-metals, gut-microbiota, mercury, lead, cadmium, zinc]
+platform: wikibiome
 ---
 
 # Rusu et al. 2015 -- Risk Factors in ASD: Genetic, Epigenetic, Immune and Environmental Interactions

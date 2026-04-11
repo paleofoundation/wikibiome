@@ -1,4 +1,5 @@
 ---
+
 title: "From Microbes to Myocardium: A Comprehensive Review of the Impact of the Gut-Brain Axis on Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.7759/cureus.70877"
 tags: [cardiovascular-disease, gut-brain-axis, dysbiosis, TMAO, SCFAs, autonomic-nervous-system, HPA-axis, vagus-nerve, neurotransmitters, stress, depression, psychobiotics, review, microbiome-and-gut-brain-axis]
 source_pdf: "raw/cardiovascular disease/Microbiome and gut-brain axis cardiovascular disease/305565-from-microbes-to-myocardium-a-comprehensive-review-of-the-impact-of-the-gut-brain-axis-on-cardiovascular-disease.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

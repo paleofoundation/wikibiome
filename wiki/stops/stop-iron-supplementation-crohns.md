@@ -1,4 +1,5 @@
 ---
+
 title: "STOP: Iron Supplementation for Crohn's Disease"
 type: stop
 created: 2026-04-09
@@ -12,6 +13,7 @@ conventional_rationale: "CD patients frequently present with iron-deficiency ane
 why_counterproductive: "Hepcidin and lactoferrin are already elevated as host defense (functional anemia). Oral iron feeds siderophore-producing AIEC and other pathobionts, amplifies the iron-rich pro-inflammatory luminal environment, and worsens barrier dysfunction."
 evidence: [yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, amerikanou-2022-ibd-biomarkers-trace-metals]
 alternative: "Support nutritional immunity with [[lactoferrin-supplementation]]; consider IV iron if truly deficient (bypasses luminal pathogen feeding); restore F. prausnitzii to improve iron homeostasis"
+platform: cureva
 ---
 
 ## Conventional Rationale
@@ -33,3 +35,7 @@ The ZIP8 A391T studies demonstrate that metal availability in the lumen directly
 ## Knowledge Primitive
 
 **Primitive 2: Nutritional Immunity as Interpretive Constraint** — Hepcidin elevation = host defense, not deficiency to be corrected.
+
+## Key Sources
+
+- [[amerikanou-2022-ibd-biomarkers-trace-metals]]

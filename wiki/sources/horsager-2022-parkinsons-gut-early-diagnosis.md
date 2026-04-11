@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Jacob Horsager, Per Borghammer]
 year: 2022
 journal: "Lancet Gastroenterology and Hepatology"
-doi: "10.1016/S2468-1253(22)XXXXX-X"
+doi: "unverified"
 tags: [parkinsons-disease, early-diagnosis, gut-brain-axis, prodromal-PD, body-first-PD, brain-first-PD, alpha-synuclein, current-perspectives]
 library_category: mechanistic-insights
 platform: both

@@ -1,4 +1,5 @@
 ---
+
 title: "The blood microbiome and its association to cardiovascular disease mortality: case-cohort study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Cardiovascular Disorders
 year: 2022
 doi: 10.1186/s12872-022-02791-7
 tags: [cardiovascular-disease, blood-microbiome, 16S-rRNA, comorbidities, microbial-biomarkers, case-cohort-study, Kocuria, Enhydrobacter]
+platform: wikibiome
 ---
 
 # The Blood Microbiome and Its Association to Cardiovascular Disease Mortality: Case-Cohort Study

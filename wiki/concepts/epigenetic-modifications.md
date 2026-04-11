@@ -1,10 +1,12 @@
 ---
+
 title: Epigenetic Modifications in Metal Carcinogenesis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [epigenetics, DNA-methylation, histone-modification, carcinogenesis]
+platform: wikibiome
 ---
 
 # Epigenetic Modifications in Metal Carcinogenesis
@@ -54,6 +56,11 @@ This suggests that **nutritional status** (folate, methionine, B12) may signific
 | Histone modifications | Strong (deacetylation, H3K9me2) | Less studied | Less studied |
 | Mechanism | Enzyme inhibition (2OG/Fe(II) dioxygenases) | SAM depletion | Not well defined |
 | Gene silencing | p16, FHIT, others | Various | Various |
+
+
+## Key Sources
+
+- [[salnikov-2008-metal-carcinogenesis]]
 
 ## Connections
 

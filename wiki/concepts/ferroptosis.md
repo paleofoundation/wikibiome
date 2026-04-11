@@ -1,10 +1,12 @@
 ---
+
 title: Ferroptosis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, mishra-2022-molecular-mechanisms-heavy-metals-ckd, brylinski-2025-trace-elements-thyroid-diseases, scholefield-2024-brain-metallomics-dementia, balali-mood-2021-toxic-mechanisms-five-heavy-metals, zhang-2022-metallomics-cancer-review, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]
 tags: [ferroptosis, iron, lipid-peroxidation, cell-death, GPX4, Fenton-reaction, neurodegeneration, cancer, gut-pathology]
+platform: wikibiome
 ---
 
 # Ferroptosis
@@ -86,6 +88,19 @@ Iron homeostasis in the intestinal epithelium directly influences ferroptotic su
 | Hepcidin | Systemic iron regulator; dysregulation alters tissue iron loading |
 | System Xc- | Cystine/glutamate antiporter; provides cysteine for GSH synthesis |
 | Neuromelanin | Iron chelator in substantia nigra; composition affects PD risk |
+
+
+## Key Sources
+
+- [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]
+- [[pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads]]
+- [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+- [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]
+- [[brylinski-2025-trace-elements-thyroid-diseases]]
+- [[scholefield-2024-brain-metallomics-dementia]]
+- [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
+- [[zhang-2022-metallomics-cancer-review]]
+- [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]
 
 ## Connections to Other Concepts
 

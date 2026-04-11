@@ -109,13 +109,13 @@ The host is **actively withholding metals from pathogens**, not failing nutritio
 
 | Factor | Status | Function |
 |--------|--------|----------|
-| **[[Hepcidin]]** | Elevated | Blocks iron absorption into bloodstream; creates functional anemia; signals CVD is a **defended state** |
-| **[[Transferrin]]** | Elevated | Chelates iron; prevents siderophore-dependent pathogens from acquiring iron locally |
-| **[[Lipocalin-2]]** | Elevated | Binds siderophores (enterobactin, yersiniabactin); blocks iron acquisition |
-| **[[Calprotectin]]** | Elevated | Chelates Zn, Mn, Fe; pro-inflammatory signal from activated neutrophils |
-| **[[LPS (Lipopolysaccharide)]]** | Elevated (systemic) | Bacterial cell wall component breaching gut barrier → endotoxemia |
-| **[[Butyrate]]** | Depleted | Lost due to Roseburia, Faecalibacterium depletion; no longer maintaining gut barrier |
-| **[[Glutathione]]** | Depleted | Only defense against Cd/Pb; depletion allows toxic metals to accumulate |
+| **[[hepcidin]]** | Elevated | Blocks iron absorption into bloodstream; creates functional anemia; signals CVD is a **defended state** |
+| **[[transferrin]]** | Elevated | Chelates iron; prevents siderophore-dependent pathogens from acquiring iron locally |
+| **[[lipocalin-2]]** | Elevated | Binds siderophores (enterobactin, yersiniabactin); blocks iron acquisition |
+| **[[calprotectin]]** | Elevated | Chelates Zn, Mn, Fe; pro-inflammatory signal from activated neutrophils |
+| **[[lps-(lipopolysaccharide)]]** | Elevated (systemic) | Bacterial cell wall component breaching gut barrier → endotoxemia |
+| **[[butyrate]]** | Depleted | Lost due to Roseburia, Faecalibacterium depletion; no longer maintaining gut barrier |
+| **[[glutathione]]** | Depleted | Only defense against Cd/Pb; depletion allows toxic metals to accumulate |
 
 **The low serum iron in CVD is NOT a nutritional iron deficiency — it is a host defense response.** Supplementing iron feeds the siderophore-dependent *Enterobacteriaceae* that produce TMAO, directly counteracting the host's defensive effort (Primitive 2: Nutritional Immunity as Interpretive Constraint).
 

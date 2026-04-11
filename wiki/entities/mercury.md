@@ -1,10 +1,12 @@
 ---
+
 title: Mercury
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, althomali-2024-heavy-metals-neurocognitive-systematic-review.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, kirmizi-2020-heavy-metals-pcos.md, lin-2023-heavy-metals-infertility-nhanes.md, rokoff-2023-metal-mixtures-maternal-depression.md, fan-2024-heavy-metal-arthritis-machine-learning.md, NOTE-evaluation-risk-ptes-italy-fish-products.md, smovrsnik-2025-trace-elements-pcos.md]
 tags: [heavy-metal, neurotoxin, nephrotoxin, thiol-binding, methylmercury, purely-toxic]
+platform: wikibiome
 ---
 
 # Mercury (Hg)
@@ -121,5 +123,5 @@ Interestingly, Hg showed negative/protective SHAP values for both general arthri
 - [[nickel]] -- both measured in PCOS and IBD studies
 - [[selenium]] -- key protective interaction; Se sequesters Hg
 - [[oxidative-stress]] -- thiol depletion and ROS as central mechanisms
-- [[gut-microbiota]] -- Hg disrupts barrier integrity and microbial composition
+- [[gut-microbiome|gut-microbiota]] -- Hg disrupts barrier integrity and microbial composition
 - [[metal-carcinogenesis]] -- less directly carcinogenic than Cr, As, Cd, but contributes to oxidative damage

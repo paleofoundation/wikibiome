@@ -1,4 +1,5 @@
 ---
+
 title: Phascolarctobacterium
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [jiang-2023-gut-microbiome-metabolites-graves, su-2020-gut-microbiota-immune-imbalance-graves, chen-2021-gut-microbiota-thyroid-graves, he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese, li-2023-gut-microbiome-hypertension-bidirectional-mr, hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]
 metal_dependencies: [none confirmed]
 tags: [commensal, propionate-producer, protective, Graves-disease, Mediterranean-diet, succinate-utilizer]
+platform: wikibiome
 ---
 
 # Phascolarctobacterium
@@ -23,18 +25,18 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (family A
 ## Disease Associations
 
 ### Graves' Disease -- Protective
-- Identified as a **protective taxon** in [[Graves' disease]] through Mendelian randomization evidence, representing one of the stronger causal associations between a specific gut microbe and thyroid autoimmunity.
-- Propionate production by *Phascolarctobacterium* promotes Treg differentiation via GPR43 signaling, counteracting the Th17/Treg imbalance that drives GD pathogenesis [[[jiang-2023-gut-microbiome-metabolites-graves]]].
-- Depleted in GD patients alongside other SCFA-producing commensals [[[chen-2021-gut-microbiota-thyroid-graves]]].
+- Identified as a **protective taxon** in [[graves-disease]] through Mendelian randomization evidence, representing one of the stronger causal associations between a specific gut microbe and thyroid autoimmunity.
+- Propionate production by *Phascolarctobacterium* promotes Treg differentiation via GPR43 signaling, counteracting the Th17/Treg imbalance that drives GD pathogenesis [[jiang-2023-gut-microbiome-metabolites-graves]].
+- Depleted in GD patients alongside other SCFA-producing commensals [[chen-2021-gut-microbiota-thyroid-graves]].
 
 ### Hypertension
-- MR evidence supports associations between *Phascolarctobacterium* and blood pressure regulation, consistent with propionate's known effects on renin-angiotensin system modulation [[[li-2023-gut-microbiome-hypertension-bidirectional-mr]]].
+- MR evidence supports associations between *Phascolarctobacterium* and blood pressure regulation, consistent with propionate's known effects on renin-angiotensin system modulation [[li-2023-gut-microbiome-hypertension-bidirectional-mr]].
 
 ### Autism Spectrum Disorder
-- Altered abundance in ASD, with some studies showing depletion in constipation-predominant ASD children, consistent with the broader loss of SCFA producers in [[autism-spectrum-disorder]] [[[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]]].
+- Altered abundance in ASD, with some studies showing depletion in constipation-predominant ASD children, consistent with the broader loss of SCFA producers in [[autism-spectrum-disorder]] [[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]].
 
 ### Endometriosis
-- Identified among differentially abundant taxa in [[endometriosis]] stool microbiome signatures [[[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]]].
+- Identified among differentially abundant taxa in [[endometriosis]] stool microbiome signatures [[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]].
 
 ## Key Metabolites
 
@@ -47,9 +49,14 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (family A
 - High-fiber diets generally support the succinate cross-feeding network that sustains this genus.
 - Western diet patterns (high fat, low fiber) deplete the upstream succinate producers, indirectly starving *Phascolarctobacterium*.
 
+
+## Key Sources
+
+- [[su-2020-gut-microbiota-immune-imbalance-graves]]
+
 ## Connections
 
-- [[Graves' disease]] -- protective via Mendelian randomization; propionate supports Treg differentiation
+- [[graves-disease]] -- protective via Mendelian randomization; propionate supports Treg differentiation
 - [[bacteroides-fragilis]] -- upstream cross-feeding partner; provides succinate substrate
 - [[parabacteroides]] -- another succinate source in the cross-feeding network
 - [[short-chain-fatty-acids]] -- specialized propionate producer via succinate pathway

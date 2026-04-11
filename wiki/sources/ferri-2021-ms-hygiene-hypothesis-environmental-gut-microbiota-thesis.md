@@ -1,4 +1,5 @@
 ---
+
 title: "Multiple Sclerosis and the Hygiene Hypothesis: From the Outdoor Exposure to the Indoor Effector -- Evidence from Epidemiological Surveys and an Experimental Study on the Gut Microbiota"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Doctoral Thesis, University of Ferrara / IIT
 year: 2021
 doi: null
 tags: [multiple-sclerosis, hygiene-hypothesis, gut-microbiota, environmental-exposure, DMT, allergy, sibling-effect, dysbiosis, Italy]
+platform: wikibiome
 ---
 
 # Multiple Sclerosis and the Hygiene Hypothesis: From the Outdoor Exposure to the Indoor Effector

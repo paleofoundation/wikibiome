@@ -1,4 +1,5 @@
 ---
+
 title: "Exploring the Role of Gut Microbiota in Autoimmune Thyroid Disorders: A Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 doi: "10.3389/fendo.2023.1238146"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, autoimmune, meta-analysis, systematic-review, Graves-disease, alpha-diversity, Bacteroidetes, Prevotella, Bifidobacterium, SCFAs]
+platform: wikibiome
 ---
 
 # Exploring the Role of Gut Microbiota in Autoimmune Thyroid Disorders: A Systematic Review and Meta-Analysis

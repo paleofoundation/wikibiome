@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: []
 year: 2024
 journal: "Nutritional Neuroscience"
-doi: "10.1080/XXXXXXX"
+doi: "10.1080/1028415X.2024.2303950"
 tags: [parkinsons-disease, mendelian-randomization, dietary-factors, causal-inference, microbiome-causality, nutrition, genetic-instruments]
 library_category: causal
 platform: both

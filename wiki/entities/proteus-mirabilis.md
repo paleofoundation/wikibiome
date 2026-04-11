@@ -1,10 +1,15 @@
 ---
+
 title: Proteus mirabilis
 type: entity
+subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
 tags: [pathogen, nickel, urease, urinary-tract-infection, catheter, biofilm, struvite, CAUTI]
+metal_dependencies: [nickel, iron, zinc, manganese]
+key_enzymes: [urease (Ni-dependent — major virulence factor), zinc-metalloprotease (ZapA), siderophores (proteobactin, yersiniabactin-like)]
+platform: wikibiome
 ---
 
 # Proteus mirabilis
@@ -14,7 +19,7 @@ A Gram-negative uropathogen whose **Ni-dependent urease** is the central driver 
 ## Metal-Dependent Virulence Factors
 
 ### Ni-Dependent Urease -- The Master Virulence Factor
-- Urease is **essential** for CAUTI pathogenesis and urinary stone formation [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Urease is **essential** for CAUTI pathogenesis and urinary stone formation [[maier-2019-nickel-microbial-pathogenesis]].
 - Catalyzes: urea -> ammonia + bicarbonate.
 - Ammonia production **raises urine pH** from ~5-6 to >7, causing precipitation of:
   - **Struvite** (MgNH4PO4): the primary stone mineral.
@@ -28,7 +33,7 @@ A Gram-negative uropathogen whose **Ni-dependent urease** is the central driver 
 
 ### Urease Maturation -- The HypB Accessory Protein
 - **HypB** (also called UreG in some nomenclature): a GTPase required for nickel insertion into the urease active site.
-- The *P. mirabilis* HypB is remarkable: **39% histidine content** in its histidine-rich region [[[maier-2019-nickel-microbial-pathogenesis]]].
+- The *P. mirabilis* HypB is remarkable: **39% histidine content** in its histidine-rich region [[maier-2019-nickel-microbial-pathogenesis]].
 - This extreme His-richness creates a high-capacity nickel-binding domain that likely serves as a **nickel reservoir** for urease metalation, ensuring urease is fully activated even under nickel-limited conditions.
 - Parallels the Hpn storage protein of [[helicobacter-pylori]] (47% histidine) -- convergent evolution of His-rich nickel buffers in urease-dependent pathogens.
 
@@ -40,7 +45,7 @@ A Gram-negative uropathogen whose **Ni-dependent urease** is the central driver 
 - Nickel transport genes are co-regulated with urease genes, ensuring coordinated expression.
 
 ### Nickel Export -- PMI1518
-- **PMI1518**: a nickel export protein essential for CAUTI pathogenesis [[[maier-2019-nickel-microbial-pathogenesis]]].
+- **PMI1518**: a nickel export protein essential for CAUTI pathogenesis [[maier-2019-nickel-microbial-pathogenesis]].
 - Required for nickel homeostasis: prevents nickel toxicity under conditions of high nickel availability.
 - PMI1518 mutants are attenuated in CAUTI models, demonstrating that nickel export (not just import) is critical.
 - This highlights the importance of **balanced nickel flux** -- too little nickel means inactive urease; too much is toxic.

@@ -1,4 +1,5 @@
 ---
+
 title: "Microbial Metabolites in Multiple Sclerosis: Implications for Pathogenesis and Treatment"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Neuroscience
 year: 2022
 tags: [multiple-sclerosis, SCFAs, acetate, propionate, butyrate, polyamines, spermidine, urolithins, gut-metabolites, EAE, Tregs, Th17, gut-brain-axis, therapeutic-targets]
 doi: "10.3389/fnins.2022.885031"
+platform: wikibiome
 ---
 
 # Microbial Metabolites in Multiple Sclerosis: Implications for Pathogenesis and Treatment

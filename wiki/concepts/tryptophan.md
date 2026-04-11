@@ -1,10 +1,12 @@
 ---
+
 title: Tryptophan
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
 tags: [tryptophan, redirect]
+platform: wikibiome
 ---
 
 # Tryptophan

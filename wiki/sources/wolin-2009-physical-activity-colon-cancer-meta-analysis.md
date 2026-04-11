@@ -1,4 +1,5 @@
 ---
+
 title: "Physical Activity and Colon Cancer Prevention: A Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Cancer
 year: 2009
 tags: [colon-cancer, physical-activity, meta-analysis, cancer-prevention, risk-reduction, exercise, colorectal-cancer]
 doi: "10.1038/sj.bjc.6604917"
+platform: wikibiome
 ---
 
 # Physical Activity and Colon Cancer Prevention: A Meta-Analysis

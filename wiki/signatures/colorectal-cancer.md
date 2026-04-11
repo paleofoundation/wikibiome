@@ -1,4 +1,5 @@
 ---
+
 title: "Colorectal Cancer — Microbiome Signature"
 type: signature
 created: 2026-04-10
@@ -64,6 +65,7 @@ virulence_enzymes: [FadA, Fap2, LPS-TLR4, BFT-toxin, colibactin-pks, siderophore
 cureva_status: partial
 validated_interventions: []
 stops: []
+platform: cureva
 ---
 
 ## Overview
@@ -341,3 +343,9 @@ CRC pathogenesis engages multiple Karen's Brain primitives:
 ---
 
 **Note**: This signature is marked as `cureva_status: partial` because robust clinical intervention data (validated interventions with human RCT evidence and mechanistic triangle closure) is limited for CRC. The signature integrates strong mechanistic evidence but awaits larger clinical trials to validate interventions similar to endometriosis. Key gaps: no human clinical P-M-D triangles for dietary interventions; no FMT human trial results yet published; no HBOT or chelation therapy data specific to CRC.
+
+## Key Sources
+
+- [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]
+- [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]]
+- [[liu-2025-immune-gut-microbiota-crc-mr-mediation]]

@@ -1,4 +1,5 @@
 ---
+
 title: Polycystic Ovary Syndrome
 type: entity
 subtype: disease
@@ -6,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [jiang-2021-copper-pcos-meta-analysis.md, liu-2024-copper-pcos-ivf.md, smovrsnik-2025-trace-elements-pcos.md, abudawood-2021-antioxidant-heavy-metals-pcos.md, kirmizi-2020-heavy-metals-pcos.md, tatarchuk-2016-micro-macroelements-pcos.md, pokorska-niewiada-2022-trace-elements-erythrocytes-pcos.md, kurdoglu-2012-trace-elements-pcos.md, mhaibes-2017-blood-metals-pcos-obese.md, aquino-2012-cadmium-nickel-metalloestrogens.md, barrea-2019-mediterranean-diet-pcos.md, angoorani-2023-probiotics-prebiotics-synbiotics-pcos.md, ostadmohammadi-2019-vitamin-d-probiotic-pcos.md, calcaterra-2023-probiotics-pcos-adolescents.md, wang-2022-high-fiber-acarbose-pcos.md, mei-2022-mediterranean-low-carb-pcos.md, cutler-2019-fiber-magnesium-pcos.md, leung-2022-lower-fiber-pcos-meta-analysis.md, tsushima-2024-ketogenic-diet-pcos-fertility.md, mavropoulos-2005-ketogenic-diet-pcos.md, smovrsnik-2023-heavy-metals-oxidative-stress-pcos.md]
 tags: [endocrine-disease, copper, zinc, nickel, cadmium, lead, metalloestrogens, insulin-resistance, oxidative-stress, microbiome, dietary-intervention]
+platform: wikibiome
 ---
 
 # Polycystic Ovary Syndrome (PCOS)
@@ -30,7 +32,7 @@ The [[metal-disease-matrix]] identifies PCOS's metallomic profile as: Ni ↑, Cu
 
 - All four major toxic metals (As, Cd, Pb, Hg) significantly elevated in PCOS patients (p < 0.001 for all) [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 - Strong positive intercorrelations among all four metals suggest co-exposure patterns [[abudawood-2021-antioxidant-heavy-metals-pcos]].
-- Antimony (Sb) also elevated, with positive correlation to HOMA-IR and fasting glucose, suggesting a role as [[endocrine disruptor]] [[kirmizi-2020-heavy-metals-pcos]].
+- Antimony (Sb) also elevated, with positive correlation to HOMA-IR and fasting glucose, suggesting a role as [[endocrine-disruptor]] [[kirmizi-2020-heavy-metals-pcos]].
 - Cd correlates positively with fasting glucose, insulin, and HOMA-IR [[kirmizi-2020-heavy-metals-pcos]].
 
 ### Nickel Elevation
@@ -127,6 +129,16 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 4. **Does antimony (Sb) deserve more attention?** Only one study measured it [[kirmizi-2020-heavy-metals-pcos]], but its correlation with HOMA-IR is provocative.
 5. **What is the optimal probiotic strain for metal-burdened PCOS patients?** Metal-sequestering Lactobacillus strains exist but have not been tested specifically in PCOS.
 6. **Causal direction**: Are elevated metals a cause of PCOS, a consequence of metabolic dysfunction, or both? Longitudinal and Mendelian randomization studies are needed.
+
+
+## Key Sources
+
+- [[kurdoglu-2012-trace-elements-pcos]]
+- [[mhaibes-2017-blood-metals-pcos-obese]]
+- [[calcaterra-2023-probiotics-pcos-adolescents]]
+- [[mei-2022-mediterranean-low-carb-pcos]]
+- [[cutler-2019-fiber-magnesium-pcos]]
+- [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]
 
 ## Connections
 

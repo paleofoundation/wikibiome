@@ -1,4 +1,5 @@
 ---
+
 title: "Hashimoto's Thyroiditis Induces Neuroinflammation and Emotional Alterations in Euthyroid Mice"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Neuroinflammation
 year: 2018
 doi: "10.1186/s12974-018-1341-z"
 tags: [hashimotos-thyroiditis, thyroid, neuroinflammation, depression, anxiety, serotonin, microglia, astroglia, IL-1beta, TNF-alpha, IDO1, SERT, frontal-cortex, euthyroid]
+platform: wikibiome
 ---
 
 # Hashimoto's Thyroiditis Induces Neuroinflammation and Emotional Alterations in Euthyroid Mice

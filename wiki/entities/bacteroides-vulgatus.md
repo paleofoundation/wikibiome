@@ -1,4 +1,5 @@
 ---
+
 title: Bacteroides vulgatus
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, zinc]
 key_enzymes: [beta-glucuronidase, iron-acquisition-siderophores, zinc-metalloproteases]
 tags: [commensal-pathobiont, colorectal-cancer, depression, dysbiosis-marker, beta-glucuronidase, iron-siderophores]
+platform: wikibiome
 ---
 
 # Bacteroides vulgatus
@@ -167,7 +169,7 @@ The key distinction between commensal and dysbiotic *B. vulgatus*:
 - [[estrobolome]] -- core member alongside [[eggerthella-lenta]] and [[bacteroides-fragilis]]
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *B. vulgatus* enrichment; loss of butyrate-mediated protection
 - [[short-chain-fatty-acids]] -- *B. vulgatus* produces acetate/propionate (not anti-inflammatory butyrate)
-- [[barrier-disruption]] -- produces metalloproteases and pro-inflammatory metabolites
+- [[nutritional-immunity|barrier-disruption]] -- produces metalloproteases and pro-inflammatory metabolites
 - [[dysbiosis]] -- *B. vulgatus* enrichment is a hallmark of dysbiotic states in CRC, depression, IBD
 - [[nutritional-immunity]] -- actively circumvents iron sequestration via siderophores
 - [[commensal-pathobiont-spectrum]] -- prototype of context-dependent pathogenic potential

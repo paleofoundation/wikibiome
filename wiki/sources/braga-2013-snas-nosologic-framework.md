@@ -1,4 +1,5 @@
 ---
+
 title: "Systemic Nickel Allergy Syndrome: Nosologic Framework and Usefulness of Diet Regimen for Diagnosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Immunopathology and Pharmacology
 year: 2013
 tags: [SNAS, low-nickel-diet, diagnosis, oral-nickel-challenge, BraMa-Ni-diet]
 doi: "10.1177/039463201302600314"
+platform: wikibiome
 ---
 
 ## Key Claims

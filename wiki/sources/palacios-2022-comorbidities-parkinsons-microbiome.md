@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Natalia Palacios, Alberto Ascherio]
 year: 2022
 journal: "Lancet Neurology"
-doi: "10.1016/XXXXXXX"
+doi: "10.1016/S1474-4422(22)00044-2"
 tags: [parkinsons-disease, comorbidities, diabetes, depression, cardiovascular-disease, microbiome, shared-pathogenesis]
 library_category: associated-conditions
 platform: both

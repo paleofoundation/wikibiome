@@ -1,4 +1,5 @@
 ---
+
 title: "Cadmium stress triggers significant metabolic reprogramming in Enterococcus faecium CX 2-6"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Computational and Structural Biotechnology Journal
 year: 2021
 tags: [cadmium, Enterococcus-faecium, metabolic-reprogramming, heavy-metal-resistance, RNA-seq, pan-genome, ncRNA, gene-expression, nucleotide-metabolism, ribosome]
 doi: "10.1016/j.csbj.2021.10.021"
+platform: wikibiome
 ---
 
 # Cadmium Stress Triggers Significant Metabolic Reprogramming in Enterococcus faecium CX 2-6

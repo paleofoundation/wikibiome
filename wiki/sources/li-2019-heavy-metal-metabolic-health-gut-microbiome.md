@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metal Exposure Causes Changes in the Metabolic Health-Associated Gut Microbiome and Metabolites"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Environment International
 year: 2019
 tags: [arsenic, cadmium, gut-microbiota, metabolomics, 16S-rRNA, LC-MS, bile-acids, amino-acids, mice, dysbiosis, metabolic-health, T2DM, original-research]
 doi: "10.1016/j.envint.2019.05.048"
+platform: wikibiome
 ---
 
 # Key Claims

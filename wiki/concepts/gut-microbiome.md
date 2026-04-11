@@ -1,10 +1,12 @@
 ---
+
 title: Gut Microbiome
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, luqman-2024-intestinal-microbiome-cvd-intervention, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]
 tags: [gut-microbiome, gut-microbiota, microbiome, Firmicutes, Bacteroidetes, commensals, pathobionts, metabolites, colonization-resistance]
+platform: wikibiome
 ---
 
 # Gut Microbiome
@@ -31,7 +33,7 @@ Minor but functionally important phyla include Actinobacteria ([[bifidobacterium
 
 This wiki focuses specifically on how the gut microbiome interacts with metals -- both essential and toxic. For the detailed treatment, see [[gut-metal-microbiome]]. Key principles:
 
-- **Metals reshape the microbiome**: Toxic metals (Pb, Cd, Hg, As, Ni) selectively eliminate SCFA-producing commensals while enriching metal-tolerant, LPS-producing pathobionts [[[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]].
+- **Metals reshape the microbiome**: Toxic metals (Pb, Cd, Hg, As, Ni) selectively eliminate SCFA-producing commensals while enriching metal-tolerant, LPS-producing pathobionts [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 - **The microbiome modulates metal handling**: Bacteria biosorb, bioaccumulate, biotransform, and precipitate metals, altering their bioavailability and toxicity.
 - **Essential metals feed the microbiome**: [[iron]], [[zinc]], [[manganese]], [[nickel]], and [[cobalt]] are required cofactors for microbial enzymes including [[urease]], [[hydrogenase]], and [[siderophores-metallophores|siderophore]] biosynthesis.
 
@@ -47,3 +49,8 @@ When the microbiome's composition or function is disrupted -- by metals, antibio
 - [[probiotics]] -- therapeutic restoration
 - [[fecal-microbiota-transplant]] -- community-level restoration
 - [[mycobiome]] -- the fungal component
+
+## Key Sources
+
+- [[luqman-2024-intestinal-microbiome-cvd-intervention]]
+- [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]

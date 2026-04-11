@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Timothy R Sampson, Andrew S Neish]
 year: 2024
 journal: "Communications Medicine"
-doi: "10.1038/s43856-024-00630-8"
+doi: "unverified"
 tags: [parkinsons-disease, microbiome-signature, multi-cohort, diagnostic-biomarkers, cross-validation, reproducible-signature, dysbiosis]
 library_category: signatures
 platform: both

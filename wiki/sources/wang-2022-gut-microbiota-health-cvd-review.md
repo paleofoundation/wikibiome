@@ -1,4 +1,5 @@
 ---
+
 title: "The role of the gut microbiota in health and cardiovascular diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Biomedicine
 year: 2022
 doi: 10.1186/s43556-022-00091-2
 tags: [cardiovascular-disease, CVD, gut-microbiome, TMAO, SCFAs, bile-acids, BCAAs, indoles, atherosclerosis, hypertension, heart-failure, dysbiosis, metabolites, neuroendocrine, review]
+platform: wikibiome
 ---
 
 # The Role of the Gut Microbiota in Health and Cardiovascular Diseases

@@ -1,4 +1,5 @@
 ---
+
 title: "Gut-oriented interventions in patients with multiple sclerosis: fact or fiction?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: European Review for Medical and Pharmacological Sciences
 year: 2022
 doi: 10.26355/eurrev_202202_28007
 tags: [multiple-sclerosis, gut-brain-axis, dietary-intervention, FMT, probiotics, bile-acids, gut-microbiome, neuroinflammation, Italian-expert-panel]
+platform: wikibiome
 ---
 
 # Gut-Oriented Interventions in Patients with Multiple Sclerosis: Fact or Fiction?

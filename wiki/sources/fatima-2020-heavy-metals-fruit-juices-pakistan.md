@@ -1,4 +1,5 @@
 ---
+
 title: "Evaluation of Heavy Metals Content in the Canned/Packed Fruit Juices from Local and Imported Origin in Lahore, Pakistan"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Nazeefa Fatima, Munazza Khan, Muhammad Shuaib Kabeer]
 journal: Journal of Food Safety and Hygiene
 year: 2020
 tags: [fruit-juice, heavy-metals, nickel, lead, chromium, iron, selenium, manganese, food-contamination, WHO-limits, Pakistan]
+platform: wikibiome
 ---
 
 # Evaluation of Heavy Metals Content in the Canned/Packed Fruit Juices from Local and Imported Origin in Lahore, Pakistan

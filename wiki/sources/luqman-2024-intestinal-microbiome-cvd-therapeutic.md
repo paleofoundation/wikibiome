@@ -1,4 +1,5 @@
 ---
+
 title: "Role of the Intestinal Microbiome and Its Therapeutic Intervention in Cardiovascular Disorder"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.3389/fimmu.2024.1321395"
 tags: [cardiovascular-disease, gut-microbiome, TMAO, SCFAs, dysbiosis, atherosclerosis, heart-failure, hypertension, FMT, prebiotics, probiotics, antibiotics, functional-microbiome-shifts, microbiome-in-chronic-disease, microbiome-and-inflammation, review]
 source_pdf: "raw/cardiovascular disease/Functional microbiome shifts cardiovascular disease/Role of the intestinal microbiome and its therapeutic intervention in cardiovascular disorder.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

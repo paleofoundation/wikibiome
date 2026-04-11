@@ -1,4 +1,5 @@
 ---
+
 title: "Inhaled diesel exhaust particles result in microbiome-related systemic inflammation and altered cardiovascular disease biomarkers in C57Bl/6 male mice"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Particle and Fibre Toxicology
 year: 2022
 doi: 10.1186/s12989-022-00452-3
 tags: [cardiovascular-disease, CVD, diesel-exhaust-particles, particulate-matter, environmental-exposure, gut-microbiome, LPS, inflammation, high-fat-diet, probiotics, air-pollution]
+platform: wikibiome
 ---
 
 # Inhaled Diesel Exhaust Particles Result in Microbiome-Related Systemic Inflammation and Altered Cardiovascular Disease Biomarkers in C57Bl/6 Male Mice

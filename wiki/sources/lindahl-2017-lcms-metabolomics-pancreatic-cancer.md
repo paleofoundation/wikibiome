@@ -1,4 +1,5 @@
 ---
+
 title: "Discrimination of pancreatic cancer and pancreatitis by LC-MS metabolomics"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Metabolomics
 year: 2017
 tags: [pancreatic-cancer, metabolomics, LC-MS, biomarkers, chronic-pancreatitis, glycocholic-acid, hexanoylcarnitine, diagnostics]
 doi: "10.1007/s11306-017-1199-6"
+platform: wikibiome
 ---
 
 # Key Claims

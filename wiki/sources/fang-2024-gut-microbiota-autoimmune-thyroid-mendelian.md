@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbiota and autoimmune thyroid disease: a bidirectional Mendelian randomization study and mediation analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, mendelian-randomization, gut-microbiota, graves-disease, immune-cells, mediation-analysis, causality, cd4-t-cells, dendritic-cells]
 doi: "10.3389/fmicb.2024.1443643"
+platform: wikibiome
 ---
 
 # Gut microbiota and autoimmune thyroid disease: a bidirectional Mendelian randomization study and mediation analysis

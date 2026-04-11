@@ -1,4 +1,5 @@
 ---
+
 title: "Plasma metallomics reveals potential biomarkers and insights into the ambivalent associations of elements with acute myocardial infarction"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Trace Elements in Medicine and Biology
 year: 2023
 tags: [metallomics, cardiovascular-disease, biomarkers, ICP-MS, copper, selenium, iron, acute-myocardial-infarction]
 doi: "10.1016/j.jtemb.2023.127148"
+platform: wikibiome
 ---
 
 # Key Claims

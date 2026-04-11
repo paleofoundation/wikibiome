@@ -1,4 +1,5 @@
 ---
+
 title: "Molecular engineering of a spheroid-penetrating phage nanovector for photodynamic treatment of colon cancer cells"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cellular and Molecular Life Sciences
 year: 2024
 doi: "10.1007/s00018-024-05174-7"
 tags: [colon-cancer, colorectal-cancer, phage-therapy, M13-phage, photodynamic-therapy, PDT, nanovector, Rose-Bengal, ROS, HT29, DLD1, spheroids, EGFR, targeted-therapy]
+platform: wikibiome
 ---
 
 # Turrini 2024 -- M13 Phage Nanovector for Photodynamic Treatment of CRC

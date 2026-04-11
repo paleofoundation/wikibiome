@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Sungyang Jo, Wooyoung Jang, Eungseok Oh]
 year: 2022
 journal: "Journal of Movement Disorders"
-doi: "10.14802/jmd.22XXXX"
+doi: "unverified"
 tags: [parkinsons-disease, oral-dysbiosis, oral-microbiome, systematic-review, Prevotella, Streptococcus, periodontal-disease, dysbiosis]
 library_category: signatures
 platform: both

@@ -1,4 +1,5 @@
 ---
+
 title: "Phage-based peptides for pancreatic cancer diagnosis and treatment: alternative approach"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2023
 tags: [pancreatic-cancer, phage-therapy, phage-display, peptide-therapy, cancer-targeting, early-detection, M13-phage, T7-phage, biopanning, drug-delivery]
 doi: "10.3389/fmicb.2023.1231503"
+platform: wikibiome
 ---
 
 # Key Claims

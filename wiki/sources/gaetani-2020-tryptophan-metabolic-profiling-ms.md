@@ -1,4 +1,5 @@
 ---
+
 title: "Host and Microbial Tryptophan Metabolic Profiling in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2020
 tags: [multiple-sclerosis, tryptophan, kynurenine, indole-3-propionic-acid, metabolomics, urine-biomarkers, RRMS, AhR, microbiome-metabolites, EDSS]
 doi: "10.3389/fimmu.2020.00157"
+platform: wikibiome
 ---
 
 # Host and Microbial Tryptophan Metabolic Profiling in Multiple Sclerosis

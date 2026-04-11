@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [E Ray Dorsey, Todd Sherer, Michael S Okun, Bastiaan R Bloem]
 year: 2018
 journal: "Lancet Neurology"
-doi: "10.1016/S1474-4422(18)XXXXX-X"
+doi: "10.1212/WNL.0000000000006258"
 tags: [parkinsons-disease, incidence, meta-analysis, systematic-review, epidemiology, prevalence, aging, geographic-variation]
 library_category: associated-conditions
 platform: wikibiome

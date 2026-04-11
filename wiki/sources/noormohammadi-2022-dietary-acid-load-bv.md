@@ -1,4 +1,5 @@
 ---
+
 title: "Dietary acid load, alternative healthy eating index score, and bacterial vaginosis: is there any association? A case-control study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Infectious Diseases
 year: 2022
 tags: [bacterial-vaginosis, dietary-acid-load, healthy-eating-index, AHEI, case-control, diet-quality, plant-based-diet, Iran]
 doi: "10.1186/s12879-022-07788-3"
+platform: wikibiome
 ---
 
 # Key Claims

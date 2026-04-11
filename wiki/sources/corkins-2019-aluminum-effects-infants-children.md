@@ -1,4 +1,5 @@
 ---
+
 title: "Aluminum Effects in Infants and Children"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2019
 volume: "144(6):e20193148"
 doi: "10.1542/peds.2019-3148"
 tags: [aluminum, infants, children, parenteral-nutrition, infant-formula, vaccines, Alzheimers-disease, developmental-neurotoxicity, renal-disease, bone-effects, antiperspirants, pediatric-nutrition]
+platform: wikibiome
 ---
 
 # Aluminum Effects in Infants and Children

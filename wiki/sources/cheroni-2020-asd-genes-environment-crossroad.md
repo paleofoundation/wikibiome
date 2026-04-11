@@ -1,4 +1,5 @@
 ---
+
 title: "Autism spectrum disorder at the crossroad between genes and environment: contributions, convergences, and interactions in ASD developmental pathophysiology"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Cristina Cheroni, Nicolo Caporale, Giuseppe Testa]
 journal: Molecular Autism
 year: 2020
 tags: [autism, gene-environment-interaction, endocrine-disruptors, heavy-metals, neurodevelopment, epigenetics, stem-cells, organoids]
+platform: wikibiome
 ---
 
 # Cheroni et al. 2020 -- ASD at the Crossroad Between Genes and Environment

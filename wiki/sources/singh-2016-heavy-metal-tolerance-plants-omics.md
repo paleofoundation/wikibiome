@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy metal tolerance in plants: role of transcriptomics, proteomics, metabolomics, and ionomics"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Plant Science
 year: 2016
 tags: [heavy-metals, metabolomics, ionomics, transcriptomics, proteomics, plant-tolerance, oxidative-stress, metallophytes, ROS]
 doi: "10.3389/fpls.2015.01143"
+platform: wikibiome
 ---
 
 # Key Claims

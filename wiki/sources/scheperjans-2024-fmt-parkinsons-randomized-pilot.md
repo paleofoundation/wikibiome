@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Filip Scheperjans, Reetta Satokari, Pedro A B Pereira, Velma T E Aho, Eero Mertsalmi, Kalle Airas, Valtteri Kaasinen]
 year: 2024
 journal: "npj Parkinson's Disease"
-doi: "10.1038/s41531-025-01061-5"
+doi: "10.1016/j.eclinm.2023.102352"
 tags: [parkinsons-disease, fecal-microbiota-transplant, randomized-controlled-trial, clinical-trial, dysbiosis, gut-brain-axis, motor-symptoms, constipation, microbiome-composition]
 library_category: therapeutics
 platform: gut

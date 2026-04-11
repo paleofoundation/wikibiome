@@ -1,10 +1,12 @@
 ---
+
 title: Urease
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md, campanale-2014-nickel-free-diet-h-pylori.md, pendergrass-2026-fertilizers-heavy-metals-historical.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, akbari-2022-metal-homeostasis-streptococci.md]
 tags: [nickel-enzyme, urease, virulence, acid-resistance, biofilm, urinary-stones, NEC, H-pylori, nickel, metalloenzyme]
+platform: wikibiome
 ---
 
 # Urease
@@ -28,12 +30,12 @@ The net effect is a **rise in local pH** due to ammonia production, plus generat
 ### Maturation and nickel insertion
 
 - Urease maturation requires a dedicated set of **accessory proteins**: UreD (scaffold), UreE (nickel metallochaperone), UreF (conformational gatekeeper), UreG (GTPase that drives nickel insertion), and UreH (in some species).
-- In [[helicobacter-pylori]], the maturation pathway shares components with [[hydrogenase]] maturation -- HypA and HypB deliver nickel to both urease (via UreE) and hydrogenase, creating a coordinated nickel allocation system [[[maier-2019-nickel-microbial-pathogenesis]]].
+- In [[helicobacter-pylori]], the maturation pathway shares components with [[hydrogenase]] maturation -- HypA and HypB deliver nickel to both urease (via UreE) and hydrogenase, creating a coordinated nickel allocation system [[maier-2019-nickel-microbial-pathogenesis]].
 - In [[proteus-mirabilis]], the HypB accessory protein is **39% histidine** -- one of the most histidine-enriched proteins known -- creating a high-capacity nickel reservoir for urease metalation.
 
 ### Dual catalytic and antioxidant function
 
-A key discovery in *H. pylori*: urease has **two distinct activities** [[[maier-2019-nickel-microbial-pathogenesis]]]:
+A key discovery in *H. pylori*: urease has **two distinct activities** [[maier-2019-nickel-microbial-pathogenesis]]:
 
 1. **Holo-urease (Ni-bound)**: catalytic urea hydrolysis + non-catalytic oxidant quenching via a Met/Met-sulfoxide cycle repaired by methionine sulfoxide reductase (MSR).
 2. **Apo-urease (Ni-free)**: retains only the antioxidant/oxidant-quenching activity.
@@ -58,14 +60,14 @@ Critically, only **2-25% of H. pylori urease is actually nickel-activated**. The
 
 ### [[staphylococcus-aureus]] -- Skin and biofilm survival
 
-- Human sweat contains ~**22 mM urea**; urease-mediated hydrolysis provides ammonia for acid neutralization and nitrogen acquisition on the skin surface [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Human sweat contains ~**22 mM urea**; urease-mediated hydrolysis provides ammonia for acid neutralization and nitrogen acquisition on the skin surface [[maier-2019-nickel-microbial-pathogenesis]].
 - Required for **kidney colonization** in systemic infection models.
 - Urease genes are **upregulated in biofilm-embedded cells**, directly linking nickel metabolism to chronic and device-associated infections.
 - Calprotectin at abscess sites sequesters nickel, inhibiting urease activity -- but staphylopine (the *S. aureus* metallophore) counteracts this by scavenging nickel from the host environment.
 
 ### [[proteus-mirabilis]] -- Crystalline biofilms and urinary stones
 
-- Urease is the **master virulence factor** for catheter-associated urinary tract infection (CAUTI) [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Urease is the **master virulence factor** for catheter-associated urinary tract infection (CAUTI) [[maier-2019-nickel-microbial-pathogenesis]].
 - Ammonia production raises urine pH from ~5-6 to >7, causing precipitation of:
   - **Struvite** (MgNH4PO4) -- the primary stone mineral.
   - **Apatite** (Ca10(PO4)6(OH)2) -- secondary mineral deposition.
@@ -76,14 +78,14 @@ Critically, only **2-25% of H. pylori urease is actually nickel-activated**. The
 
 ### [[escherichia-coli]] -- STEC acid survival
 
-- Shiga toxin-producing *E. coli* (STEC/EHEC) use urease for **acid survival during gastric transit** [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Shiga toxin-producing *E. coli* (STEC/EHEC) use urease for **acid survival during gastric transit** [[maier-2019-nickel-microbial-pathogenesis]].
 - Urease-mediated ammonia production buffers pH, enabling survival through the stomach to reach the intestinal colonization site.
 - Not all *E. coli* pathotypes carry urease -- it is primarily found in STEC and some UPEC strains.
-- In the preterm gut, Ni-activated urease in *E. coli* raises gut pH, favoring Proteobacteria over acid-producing commensals [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- In the preterm gut, Ni-activated urease in *E. coli* raises gut pH, favoring Proteobacteria over acid-producing commensals [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Cryptococcus neoformans (and related fungi) -- Brain invasion
 
-- Note: this is distinct from [[candida-albicans]]. *Cryptococcus neoformans* uses Ni-dependent urease for **CNS invasion** [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Note: this is distinct from [[candida-albicans]]. *Cryptococcus neoformans* uses Ni-dependent urease for **CNS invasion** [[maier-2019-nickel-microbial-pathogenesis]].
 - Urease activity promotes crossing of the blood-brain barrier.
 - Urease-negative mutants show dramatically reduced brain colonization.
 - Ammonia may damage endothelial tight junctions (paralleling *H. pylori* urease disruption of gastric tight junctions).
@@ -100,8 +102,8 @@ Critically, only **2-25% of H. pylori urease is actually nickel-activated**. The
 ### Klebsiella pneumoniae -- GI stress resistance
 
 - Urease supports intestinal colonization and gastrointestinal stress resistance.
-- Host calprotectin sequesters nickel from *K. pneumoniae*, inhibiting urease activity [[[maier-2019-nickel-microbial-pathogenesis]]].
-- A key NEC-associated pathogen whose urease is fueled by dietary nickel in infant formula [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- Host calprotectin sequesters nickel from *K. pneumoniae*, inhibiting urease activity [[maier-2019-nickel-microbial-pathogenesis]].
+- A key NEC-associated pathogen whose urease is fueled by dietary nickel in infant formula [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Ureaplasma spp. -- The genus defined by urease
 
@@ -138,7 +140,7 @@ Critically, only **2-25% of H. pylori urease is actually nickel-activated**. The
 
 ### Clinical evidence: nickel-free diet enhances H. pylori eradication
 
-The Campanale 2014 pilot study provides **direct clinical evidence** that dietary nickel feeds urease-dependent pathogenesis [[[campanale-2014-nickel-free-diet-h-pylori]]]:
+The Campanale 2014 pilot study provides **direct clinical evidence** that dietary nickel feeds urease-dependent pathogenesis [[campanale-2014-nickel-free-diet-h-pylori]]:
 
 - Patients receiving a **nickel-free diet + standard triple therapy** achieved an **84% eradication rate** vs. **46% with triple therapy alone** (p<0.01).
 - The nickel-free diet likely works by depleting the metalloenzymes urease (acid resistance) and [[hydrogenase]] (energy production) that are critical for *H. pylori* survival in the stomach.
@@ -146,7 +148,7 @@ The Campanale 2014 pilot study provides **direct clinical evidence** that dietar
 
 ### Nickel in infant formula and NEC
 
-Pendergrass 2026 proposes that dietary nickel from infant formula activates urease-positive pathogens in the preterm gut [[[pendergrass-2026-nickel-nec-preterm-gut]]]:
+Pendergrass 2026 proposes that dietary nickel from infant formula activates urease-positive pathogens in the preterm gut [[pendergrass-2026-nickel-nec-preterm-gut]]:
 
 - Soy-based formula contains **~10x more nickel** than cow's milk formula (0.45 vs. 0.03 mg/L) and orders of magnitude more than human breast milk (0.005-0.016 mg/L).
 - Key NEC-associated pathogens (*E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, *Ureaplasma*) all deploy Ni-dependent urease.
@@ -156,7 +158,7 @@ Pendergrass 2026 proposes that dietary nickel from infant formula activates urea
 
 ### Environmental nickel in agriculture
 
-Nickel in urea fertilizers (peaking at 3.5-4.2 mg/kg during the 1990s-2000s) enters the food chain through soil bioaccumulation, contributing to dietary nickel exposure that may ultimately feed urease-positive pathogens [[[pendergrass-2026-fertilizers-heavy-metals-historical]]].
+Nickel in urea fertilizers (peaking at 3.5-4.2 mg/kg during the 1990s-2000s) enters the food chain through soil bioaccumulation, contributing to dietary nickel exposure that may ultimately feed urease-positive pathogens [[pendergrass-2026-fertilizers-heavy-metals-historical]].
 
 ## Therapeutic Targeting of Urease
 
@@ -170,19 +172,25 @@ Nickel in urea fertilizers (peaking at 3.5-4.2 mg/kg during the 1990s-2000s) ent
 
 - The nickel-free diet approach demonstrated by Campanale 2014 represents a **non-antibiotic anti-virulence strategy**: reduce dietary nickel to deplete pathogen metalloenzymes.
 - Applicable beyond *H. pylori*: any urease-dependent pathogen is theoretically susceptible to nickel restriction.
-- Dietary nickel restriction for formula-fed preterm infants is proposed as a NEC prevention strategy [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- Dietary nickel restriction for formula-fed preterm infants is proposed as a NEC prevention strategy [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Nickel sequestration (host defense)
 
-- **Calprotectin (S100A8/A9)**: coordinates Ni(II) preferentially over Zn(II) at the hexahistidine site; sequesters nickel from *S. aureus* and *K. pneumoniae*, directly inhibiting urease [[[maier-2019-nickel-microbial-pathogenesis]]].
+- **Calprotectin (S100A8/A9)**: coordinates Ni(II) preferentially over Zn(II) at the hexahistidine site; sequesters nickel from *S. aureus* and *K. pneumoniae*, directly inhibiting urease [[maier-2019-nickel-microbial-pathogenesis]].
 - **Lactoferrin**: can bind nickel via histidine/tyrosine ligands -- nickel-sequestering effect plausible but underexplored.
 - **NRAMP1**: exports Ni(II) from macrophage phagolysosomes, restricting availability to engulfed pathogens.
-- **Aspergillomarasmine A**: a proposed nickel chelation therapy that could disarm pathogens without killing them (anti-virulence approach) [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- **Aspergillomarasmine A**: a proposed nickel chelation therapy that could disarm pathogens without killing them (anti-virulence approach) [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Urease-based vaccines
 
-- **HspA in H. pylori**: a GroES homolog with a unique His-rich C-terminus for nickel binding. Intranasal administration provides partial protection in mouse models. Candidate for anti-*H. pylori* vaccine [[[maier-2019-nickel-microbial-pathogenesis]]].
+- **HspA in H. pylori**: a GroES homolog with a unique His-rich C-terminus for nickel binding. Intranasal administration provides partial protection in mouse models. Candidate for anti-*H. pylori* vaccine [[maier-2019-nickel-microbial-pathogenesis]].
 - **Urease immunization for Brucella**: urease-based vaccination protects against Brucella infection, demonstrating the antigen's viability as a vaccine target.
+
+
+## Key Sources
+
+- [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]
+- [[akbari-2022-metal-homeostasis-streptococci]]
 
 ## Connections
 

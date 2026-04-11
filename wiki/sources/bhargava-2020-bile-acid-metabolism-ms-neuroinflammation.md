@@ -1,4 +1,5 @@
 ---
+
 title: "Bile acid metabolism is altered in multiple sclerosis and supplementation ameliorates neuroinflammation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Clinical Investigation
 year: 2020
 doi: 10.1172/JCI129401
 tags: [multiple-sclerosis, bile-acids, TUDCA, GPBAR1, FXR, neuroinflammation, astrocytes, microglia, gut-microbiome, metabolomics, EAE]
+platform: wikibiome
 ---
 
 # Bile Acid Metabolism Is Altered in Multiple Sclerosis and Supplementation Ameliorates Neuroinflammation

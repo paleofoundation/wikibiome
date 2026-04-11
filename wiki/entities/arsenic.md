@@ -1,10 +1,12 @@
 ---
+
 title: Arsenic
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [metalloid, carcinogen, toxicology, drinking-water]
+platform: wikibiome
 ---
 
 # Arsenic (As)
@@ -25,7 +27,7 @@ A metalloid and potent carcinogen, primarily encountered through contaminated dr
 - Cancers: skin, lung, bladder, kidney, liver.
 - **Very few animal models**: DMA^V causes rat urinary bladder cancer; arsenic-induced bladder cancer in mice is possible but difficult.
 
-## Carcinogenic Mechanisms [[[salnikov-2008-metal-carcinogenesis]]]
+## Carcinogenic Mechanisms [[salnikov-2008-metal-carcinogenesis]]
 
 ### Cellular Proliferation
 - Activates signal transduction: EGFR, ERK activation.

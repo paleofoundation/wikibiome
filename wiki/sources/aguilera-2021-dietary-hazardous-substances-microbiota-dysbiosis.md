@@ -1,4 +1,5 @@
 ---
+
 title: "Editorial: Risk of dietary hazardous substances and impact on human microbiota: possible role in several dysbiosis phenotypes"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2021
 tags: [editorial, xenobiotics, endocrine-disruptors, microbiota, dysbiosis, probiotics, heavy-metals, dietary-exposures]
 doi: "10.3389/fmicb.2021.669480"
+platform: wikibiome
 ---
 
 # Key Claims

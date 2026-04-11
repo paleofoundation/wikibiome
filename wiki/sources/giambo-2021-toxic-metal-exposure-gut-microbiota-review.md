@@ -1,4 +1,5 @@
 ---
+
 title: "Influence of Toxic Metal Exposure on the Gut Microbiota (Review)"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Federica Giambo, Sebastiano Italia, Michele Teodoro, Giusi Briguglio, 
 journal: World Academy of Sciences Journal
 year: 2021
 tags: [heavy-metals, gut-microbiota, arsenic, cadmium, mercury, lead, zinc, copper, chromium, manganese, nickel, nanoparticles, review]
+platform: wikibiome
 ---
 
 # Key Claims

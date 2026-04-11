@@ -1,4 +1,5 @@
 ---
+
 title: "Thyroid Diseases and Intestinal Microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Hormone and Metabolic Research
 year: 2023
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-microbiota, graves-disease, thyroid-cancer, thyroid-nodules, intestinal-microbiome, dysbiosis, probiotics, selenium, iodine, butyrate]
 doi: "10.1055/a-2190-3847"
+platform: wikibiome
 ---
 
 # Thyroid Diseases and Intestinal Microbiome

@@ -1,10 +1,12 @@
 ---
+
 title: Comorbidities
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [luqman-2024-intestinal-microbiome-cvd-intervention, herrema-2020-microbiome-cardiovascular-disease-ascvd, spivak-2023-local-systemic-microbiome-derived-metabolites]
 tags: [comorbidities, multi-morbidity, shared-mechanisms, metal-exposure, dysbiosis, inflammation, metabolic-syndrome, gut-microbiome, systems-biology]
+platform: wikibiome
 ---
 
 # Comorbidities
@@ -26,7 +28,7 @@ Because metals accumulate over a lifetime and affect multiple tissues simultaneo
 
 [[dysbiosis]] is the common denominator linking disparate diseases:
 - The same pattern of microbial disruption -- loss of SCFA producers, enrichment of pathobionts, barrier breakdown, endotoxemia -- appears in IBD, CVD, neurodegeneration, metabolic syndrome, autoimmune disease, and cancer.
-- Because the microbiome produces metabolites that affect every organ (via portal circulation to liver, systemic circulation to heart and brain, vagal signaling to CNS), a single dysbiotic event radiates pathology system-wide [[[spivak-2023-local-systemic-microbiome-derived-metabolites]]].
+- Because the microbiome produces metabolites that affect every organ (via portal circulation to liver, systemic circulation to heart and brain, vagal signaling to CNS), a single dysbiotic event radiates pathology system-wide [[spivak-2023-local-systemic-microbiome-derived-metabolites]].
 
 ## Documented Comorbidity Clusters
 
@@ -71,3 +73,8 @@ This framework predicts that interventions targeting the shared mediator (microb
 - [[dysbiosis]] -- shared microbial mediator
 - [[inflammation]] -- shared pathological mechanism
 - [[gut-brain-axis]] -- mediator of neuro-metabolic comorbidity
+
+## Key Sources
+
+- [[luqman-2024-intestinal-microbiome-cvd-intervention]]
+- [[herrema-2020-microbiome-cardiovascular-disease-ascvd]]

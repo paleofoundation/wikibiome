@@ -1,4 +1,5 @@
 ---
+
 title: "Role of Nickel in Microbial Pathogenesis"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2019
 volume: "7(7):80"
 doi: "10.3390/inorganics7070080"
 tags: [nickel, microbial-pathogenesis, urease, hydrogenase, H-pylori, virulence, nickel-enzymes, nickel-transport]
+platform: wikibiome
 ---
 
 # Role of Nickel in Microbial Pathogenesis

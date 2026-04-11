@@ -1,4 +1,5 @@
 ---
+
 title: "Carcinogenicity Assessment of Selected Nickel Compounds"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Toxicology and Applied Pharmacology
 year: 1997
 tags: [nickel-carcinogenesis, inhalation-toxicology, epigenetics, particle-clearance, risk-assessment]
 doi: "10.1006/taap.1996.8075"
+platform: wikibiome
 ---
 
 # Carcinogenicity Assessment of Selected Nickel Compounds

@@ -1,4 +1,5 @@
 ---
+
 title: "Alzheimer's disease: the role of extrinsic factors in its development, an investigation of the evidence"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Armstrong RA, et al.]
 journal: (Journal of Alzheimer's Disease / related journal)
 year: 2024
 tags: [Alzheimers-disease, extrinsic-factors, environmental-risk-factors, heavy-metals, diet, lifestyle, aluminum, lead, mercury, air-pollution, pesticides]
+platform: wikibiome
 ---
 
 # Key Claims

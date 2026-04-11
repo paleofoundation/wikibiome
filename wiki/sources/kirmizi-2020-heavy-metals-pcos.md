@@ -1,4 +1,5 @@
 ---
+
 title: "Are Heavy Metal Exposure and Trace Element Levels Related to Metabolic and Endocrine Problems in Polycystic Ovary Syndrome?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biological Trace Element Research
 year: 2020
 tags: [PCOS, heavy-metals, antimony, cadmium, lead, mercury, oxidative-stress, insulin-resistance, inflammation]
 doi: "10.1007/s12011-020-02220-w"
+platform: wikibiome
 ---
 
 # Key Claims

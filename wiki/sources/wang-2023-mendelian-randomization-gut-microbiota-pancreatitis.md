@@ -1,4 +1,5 @@
 ---
+
 title: "Causal link between gut microbiota and four types of pancreatitis: a genetic association and bidirectional Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2023
 tags: [pancreatic-cancer, mendelian-randomization, gut-microbiota, pancreatitis, GWAS, causality, MiBioGen, FinnGen]
 doi: "10.3389/fmicb.2023.1290202"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbiome-host interactions in health and disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Genome Medicine
 year: 2011
 doi: "10.1186/gm228"
 tags: [colon-cancer, colorectal-cancer, gut-microbiome, host-interactions, metagenomics, metabolomics, drug-metabolism, core-microbiome, IBD, obesity, precision-medicine]
+platform: wikibiome
 ---
 
 # Kinross 2011 -- Gut Microbiome-Host Interactions in Health and Disease

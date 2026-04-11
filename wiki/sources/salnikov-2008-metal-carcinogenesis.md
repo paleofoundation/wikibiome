@@ -1,4 +1,5 @@
 ---
+
 title: "Genetic and Epigenetic Mechanisms in Metal Carcinogenesis and Cocarcinogenesis: Nickel, Arsenic, and Chromium"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2008
 volume: "21(1):28-44"
 doi: "10.1021/tx700198a"
 tags: [nickel, arsenic, chromium, carcinogenesis, epigenetics, DNA-damage, oxidative-stress, HIF-1alpha]
+platform: wikibiome
 ---
 
 # Genetic and Epigenetic Mechanisms in Metal Carcinogenesis and Cocarcinogenesis

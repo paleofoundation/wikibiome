@@ -1,4 +1,5 @@
 ---
+
 title: "High-fat diet affects heavy metal accumulation and toxicity to mice liver and kidney probably via gut microbiota"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2020
 tags: [high-fat-diet, heavy-metals, gut-microbiota, arsenic, cadmium, lead, liver-toxicity, kidney-toxicity, SCFAs, dysbiosis]
 doi: "10.3389/fmicb.2020.01604"
+platform: wikibiome
 ---
 
 # Key Claims

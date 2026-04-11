@@ -1,4 +1,5 @@
 ---
+
 title: "Serum Copper Level and Polycystic Ovarian Syndrome: A Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Gynecologic and Obstetric Investigation
 year: 2021
 tags: [PCOS, copper, meta-analysis, serum, oxidative-stress]
 doi: "10.3346/jkms.2021.36.15.e120"
+platform: wikibiome
 ---
 
 # Key Claims

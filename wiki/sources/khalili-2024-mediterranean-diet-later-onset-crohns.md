@@ -1,4 +1,5 @@
 ---
+
 title: "Adherence to a Mediterranean Diet is Associated with a Lower Risk of Later-Onset Crohn's Disease: Results From Two Large Prospective Cohort Studies"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Gut
 year: 2024
 tags: [crohns-disease, IBD, Mediterranean-diet, prospective-cohort, dietary-pattern, disease-prevention, population-attributable-risk, ulcerative-colitis]
 doi: "10.1136/gutjnl-2023-331587"
+platform: wikibiome
 ---
 
 # Key Claims

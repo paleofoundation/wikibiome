@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Virome Profiling Identifies a Widespread Bacteriophage Family Associated with Metabolic Syndrome"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1038/s41467-022-31390-5"
 tags: [cardiovascular-disease, virome, bacteriophages, metabolic-syndrome, Candidatus-Heliusviridae, Crassvirales, Streptococcaceae, Bacteroidaceae, Bifidobacteriaceae, phage-bacteria-interactions, metagenomics]
 source_pdf: "raw/cardiovascular disease/Virome cardiovascular disease/s41467-022-31390-5.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

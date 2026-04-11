@@ -1,10 +1,12 @@
 ---
+
 title: Environmental Metal Exposure
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [briffa-2020-heavy-metal-pollution-environment-toxicology, jaishankar-2014-heavy-metal-toxicity-mechanisms, pendergrass-2026-fertilizers-heavy-metals-historical, pendergrass-2026-age-window-vulnerability-vegetable-baby-foods, pendergrass-2026-certification-infant-food-metals, shearston-2024-tampons-metal-exposure, jackson-2012-arsenic-infant-formulas-first-foods, hopfner-2025-infant-formula-dietary-exposure-elements-germany, garuba-2024-heavy-metals-commercial-baby-foods, de-almeida-2022-toxic-metals-infant-formula-brazil, su-2020-toxic-elements-infant-formulas-china, meli-2024-chemical-characterization-baby-food-italy, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements, pereira-2020-nickel-baby-foods, genchi-2020-nickel-human-health-environmental-toxicology, genchi-2020-cadmium-toxicity, racette-2017-manganese-parkinsonism-welders, agboola-2023-heavy-metals-leafy-vegetables-lagos, fatima-2020-heavy-metals-fruit-juices-pakistan, lehmler-2018-tin-exposure-nhanes-us-population, mahalingaiah-2018-air-pollution-menstrual-disorders, rebelytics-2023-nickel-in-foods-summary, flyvholm-1984-nickel-food-content, dobrzynska-2025-nickel-children-food]
 tags: [exposure-routes, dietary-exposure, occupational-exposure, food-contamination, baby-food, infant-formula, tampons, fertilizers, soil-contamination, air-pollution, consumer-products, risk-assessment]
+platform: wikibiome
 ---
 
 # Environmental Metal Exposure
@@ -130,6 +132,25 @@ A patchwork of regulations exists:
 - **Food**: Variable by country; the US has no regulations governing arsenic concentration in foodstuffs (as of 2012); China set a limit of 150 ng/g inorganic As for rice
 - **Baby food**: The FDA "Closer to Zero" action plan (2021) addresses metals in baby food but implementation is ongoing; no infant-specific maximum residue limits accounting for higher bioavailability
 - **Consumer products**: Tampons not required to be tested for metals in the US; no harmonized standards for metals in menstrual products
+
+
+## Key Sources
+
+- [[briffa-2020-heavy-metal-pollution-environment-toxicology]]
+- [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
+- [[pendergrass-2026-fertilizers-heavy-metals-historical]]
+- [[pendergrass-2026-age-window-vulnerability-vegetable-baby-foods]]
+- [[pendergrass-2026-certification-infant-food-metals]]
+- [[shearston-2024-tampons-metal-exposure]]
+- [[jackson-2012-arsenic-infant-formulas-first-foods]]
+- [[hopfner-2025-infant-formula-dietary-exposure-elements-germany]]
+- [[garuba-2024-heavy-metals-commercial-baby-foods]]
+- [[de-almeida-2022-toxic-metals-infant-formula-brazil]]
+- [[su-2020-toxic-elements-infant-formulas-china]]
+- [[meli-2024-chemical-characterization-baby-food-italy]]
+- [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]]
+- [[pereira-2020-nickel-baby-foods]]
+- [[genchi-2020-nickel-human-health-environmental-toxicology]]
 
 ## Connections to Other Concepts
 

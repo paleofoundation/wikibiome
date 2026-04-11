@@ -1,4 +1,5 @@
 ---
+
 title: "Irritable Bowel Syndrome-Like Disorders in Endometriosis: Prevalence of Nickel Sensitivity and Effects of a Low-Nickel Diet. An Open-Label Pilot Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrients
 year: 2020
 tags: [nickel-allergy, endometriosis, low-nickel-diet, IBS, allergic-contact-mucositis, nickel-sensitivity, pilot-study]
 doi: "10.3390/nu12082277"
+platform: wikibiome
 ---
 
 # Key Claims

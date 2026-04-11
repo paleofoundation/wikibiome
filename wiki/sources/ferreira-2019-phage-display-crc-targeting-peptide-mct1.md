@@ -1,4 +1,5 @@
 ---
+
 title: "Rational Identification of a Colorectal Cancer Targeting Peptide through Phage Display"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2019
 doi: "10.1038/s41598-019-40562-1"
 tags: [colon-cancer, colorectal-cancer, phage-display, peptide, MCT1, monocarboxylate-transporter, RKO, targeted-therapy, biomarker, BRASIL-method]
+platform: wikibiome
 ---
 
 # Ferreira 2019 -- CRC Targeting Peptide Through Phage Display Targeting MCT1

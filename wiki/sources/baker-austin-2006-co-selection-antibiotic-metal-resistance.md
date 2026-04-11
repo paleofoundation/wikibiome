@@ -1,4 +1,5 @@
 ---
+
 title: "Co-selection of antibiotic and metal resistance"
 type: source
 created: 2026-04-09
@@ -11,6 +12,7 @@ issue: 4
 pages: "176-182"
 doi: "10.1016/j.tim.2006.02.006"
 tags: [co-selection, co-resistance, cross-resistance, antimicrobial-resistance, heavy-metals, mobile-genetic-elements, integrons, transposons, plasmids, mercury, copper, zinc, nickel, cadmium, efflux-pumps, horizontal-gene-transfer]
+platform: wikibiome
 ---
 
 # Key Claims

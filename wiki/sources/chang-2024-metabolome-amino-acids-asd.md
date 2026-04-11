@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Xuening Chang, Yuchen Zhang, Xue Chen, Shihan Li, Hong Mei, Han Xiao, Xinyu Ma, Zhisheng Liu, Ruizhen Li]
 year: 2024
 journal: "Nature Scientific Reports"
-doi: "Not available"
+doi: "10.1038/s41598-024-54717-2"
 tags: [autism, microbiota, metabolome, amino-acids, nickel, metabolic-pathways]
 library_category: signatures
 platform: cureva

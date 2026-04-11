@@ -1,4 +1,5 @@
 ---
+
 title: "Disulfiram and low nickel diet in the management of hand eczema: A clinical study"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Sharma AD]
 journal: Indian Journal of Dermatology, Venereology and Leprology
 year: 2006
 tags: [disulfiram, low-nickel-diet, hand-eczema, nickel-chelation, clinical-trial]
-doi: "10.1111/cod.14027"
+doi: "10.4103/0378-6323.25777"
+platform: wikibiome
 ---
 
 ## Key Claims

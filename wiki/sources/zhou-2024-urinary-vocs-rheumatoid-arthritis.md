@@ -1,4 +1,5 @@
 ---
+
 title: "Association between urinary volatile organic compounds metabolites and rheumatoid arthritis among the adults from NHANES 2011-2018"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Scientific Reports"
 year: 2024
 tags: [VOCs, volatile-organic-compounds, rheumatoid-arthritis, NHANES, environmental-exposure, CYMC, CEMC, AMCC]
 doi: "10.1038/s41598-023-44606-5"
+platform: wikibiome
 ---
 
 # Key Claims

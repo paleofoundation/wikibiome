@@ -1,4 +1,5 @@
 ---
+
 title: "STOP: Iron Supplementation for Multiple Sclerosis Anemia"
 type: stop
 created: 2026-04-10
@@ -12,6 +13,7 @@ conventional_rationale: "MS patients present with low serum iron and anemia; iro
 why_counterproductive: "Low serum iron in MS reflects hepcidin elevation — an active host defense mechanism to restrict iron availability to pathogenic siderophore-producing bacteria (Fusobacterium, Akkermansia, other Gram-negatives). Iron supplementation bypasses this defense, feeds pathogenic bacteria, and amplifies the dysbiotic metal-enriched pro-inflammatory environment"
 evidence: [jangi-2016-gut-microbiome-alterations-ms, thirion-2023-gut-microbiota-ms-disease-activity]
 alternative: "Support nutritional immunity with [[lactoferrin]] or transferrin support; address underlying dysbiosis via [[ketogenic-diet-ms]] or [[b-cell-depletion-therapy-ms]]; if iron absolutely required, co-administer with iron-restricting agents (hepcidin inducers) only in monitored setting"
+platform: cureva
 ---
 
 ## Conventional Rationale
@@ -97,7 +99,7 @@ Instead of iron supplementation:
    - **Microbiota tracking**: Serial fecal analysis to detect dysbiosis amplification
 
 4. **Support nutritional immunity directly:**
-   - **[[Lactoferrin]]** (iron-binding protein): Delivers bioavailable iron to host cells while chelating iron from bacteria; maintains iron sequestration while providing functional iron
+   - **[[lactoferrin]]** (iron-binding protein): Delivers bioavailable iron to host cells while chelating iron from bacteria; maintains iron sequestration while providing functional iron
    - **Transferrin support**: Enhance host iron recycling and sequestration
    - **Hepcidin activation**: Dietary polyphenols (from Mediterranean diet, quercetin) upregulate FXR/TGR5 signaling, which elevates hepcidin and locks in iron sequestration
 

@@ -1,4 +1,5 @@
 ---
+
 title: "An integrated tumor, immune and microbiome atlas of colon cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Medicine
 year: 2023
 doi: "10.1038/s41591-023-02324-5"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, multi-omics, immune-infiltration, TCR-clonality, microsatellite-instability, Ruminococcus-bromii, mICRoScore, survival]
+platform: wikibiome
 ---
 
 # Roelands 2023 -- An Integrated Tumor, Immune and Microbiome Atlas of Colon Cancer

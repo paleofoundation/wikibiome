@@ -1,4 +1,5 @@
 ---
+
 title: "Nonalcoholic Fatty Liver Disease and Risk of Incident Cardiovascular Disease: A Meta-Analysis of Observational Studies"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1016/j.jhep.2016.05.013"
 tags: [cardiovascular-disease, NAFLD, meta-analysis, CVD-risk, atherosclerosis, liver-disease, metabolic-syndrome, observational-studies]
 source_pdf: "raw/cardiovascular disease/Meta-analysis cardiovascular disease/DO_20NOT_20DELETE_20-_20396811_201-s2.0-S0168827816301994-main.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

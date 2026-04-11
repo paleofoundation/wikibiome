@@ -1,4 +1,5 @@
 ---
+
 title: "Body Mass Index, Interleukin-6 Signaling and Multiple Sclerosis: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 doi: 10.3389/fimmu.2022.834644
 tags: [multiple-sclerosis, Mendelian-randomization, BMI, obesity, IL-6, inflammation, CRP, risk-factor]
+platform: wikibiome
 ---
 
 # Body Mass Index, Interleukin-6 Signaling and Multiple Sclerosis: A Mendelian Randomization Study

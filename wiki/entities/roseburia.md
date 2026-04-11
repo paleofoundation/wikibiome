@@ -1,4 +1,5 @@
 ---
+
 title: Roseburia
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [jie-2017-gut-microbiome-acvd, liu-2019-gut-microbiome-metabolism-cad-severity, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, almeida-2023-gut-microbiota-cardiovascular-axis, perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis pathway; sensitive to heavy metal stress]
 tags: [commensal, butyrate-producer, SCFA-producer, depleted-in-disease, metal-sensitive, anti-inflammatory]
+platform: wikibiome
 ---
 
 # Roseburia
@@ -26,13 +28,13 @@ A genus of Gram-positive, obligate anaerobic, flagellated bacteria within the [[
 
 Roseburia depletion is among the most reproducible microbiome findings in human disease:
 
-- **Cardiovascular disease**: depleted in ACVD patients in the landmark Jie et al. study; CAG4 containing *Faecalibacterium* and *Roseburia* was closely related to 10 serum metabolite modules and important for maintaining normal coronary physiology [[[jie-2017-gut-microbiome-acvd]], [[liu-2019-gut-microbiome-metabolism-cad-severity]]].
+- **Cardiovascular disease**: depleted in ACVD patients in the landmark Jie et al. study; CAG4 containing *Faecalibacterium* and *Roseburia* was closely related to 10 serum metabolite modules and important for maintaining normal coronary physiology [[jie-2017-gut-microbiome-acvd]], [[liu-2019-gut-microbiome-metabolism-cad-severity]]].
 - **IBD**: reduced in both Crohn's disease and ulcerative colitis; inversely correlated with disease activity scores.
 - **Multiple sclerosis**: depleted alongside other [[lachnospiraceae]] members; loss reduces SCFA-mediated immune modulation.
 - **Colorectal cancer**: reduced; butyrate loss diminishes anti-tumorigenic HDAC inhibition in colonocytes.
 - **Type 2 diabetes**: depleted; inversely correlated with HbA1c and insulin resistance.
-- **Endometriosis**: *Roseburia* sp. CAG:45 decreased in endometriosis [[[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]]].
-- **Parkinson's disease**: depleted alongside other SCFA producers as part of the metal-driven dysbiosis framework [[[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]].
+- **Endometriosis**: *Roseburia* sp. CAG:45 decreased in endometriosis [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]].
+- **Parkinson's disease**: depleted alongside other SCFA producers as part of the metal-driven dysbiosis framework [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
 ## Metal Sensitivity
 
@@ -47,6 +49,11 @@ Roseburia depletion is among the most reproducible microbiome findings in human 
 - **Acetate** -- secondary fermentation product; feeds acetogenic pathways.
 - **Formate** -- minor product; serves as electron carrier in anaerobic cross-feeding.
 - **Flagellin** -- immunostimulatory protein from *R. hominis* that promotes beneficial TLR5 signaling.
+
+
+## Key Sources
+
+- [[almeida-2023-gut-microbiota-cardiovascular-axis]]
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of Different Dietary Interventions in Multiple Sclerosis: A Systematic Review of Evidence from 2018 to 2022"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutritional Neuroscience
 year: 2022
 tags: [systematic-review, dietary-interventions, multiple-sclerosis, ketogenic-diet, Mediterranean-diet, intermittent-fasting, caloric-restriction, Paleolithic-diet, gluten-free-diet, MIND-diet]
 doi: "10.1080/1028415X.2022.2146843"
+platform: wikibiome
 ---
 
 # Effects of Different Dietary Interventions in Multiple Sclerosis: A Systematic Review of Evidence from 2018 to 2022

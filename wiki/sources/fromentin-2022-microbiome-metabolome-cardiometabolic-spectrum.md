@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome and metabolome features of the cardiometabolic disease spectrum"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Medicine
 year: 2022
 doi: 10.1038/s41591-022-01688-4
 tags: [cardiovascular-disease, CVD, ischemic-heart-disease, metabolomics, metagenomics, multi-omics, MetaCardis, heart-failure, dysmetabolism, biomarker, microbiome-signature]
+platform: wikibiome
 ---
 
 # Microbiome and Metabolome Features of the Cardiometabolic Disease Spectrum

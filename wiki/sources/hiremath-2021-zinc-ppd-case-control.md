@@ -1,4 +1,5 @@
 ---
+
 title: "Correlation of Serum Zinc Levels with Postpartum Depression - A Case-control Study in North Karnataka"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Hiremath KM, Dharambhat S, Mutalik N, Chandrashekarwa S, Kashyap KV]
 journal: Journal of Clinical and Diagnostic Research
 year: 2021
 tags: [zinc, postpartum-depression, case-control, serum-zinc, EPDS, trace-elements, India]
-doi: "10.3390/life15101566"
+doi: "10.7860/JCDR/2021/48341.14649"
+platform: wikibiome
 ---
 
 # Key Claims

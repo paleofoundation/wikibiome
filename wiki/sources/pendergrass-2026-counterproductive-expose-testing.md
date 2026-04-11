@@ -1,4 +1,5 @@
 ---
+
 title: "The Counterproductive Consequences of Public Exposé Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Food Metallomics
 year: 2026
 tags: [heavy-metals, food-safety, public-disclosure, naming-and-shaming, compliance-theory, game-theory, third-party-certification, supply-chain, litigation, consumer-protection]
 doi: "10.5281/zenodo.19470572"
+platform: wikibiome
 ---
 
 ## Summary

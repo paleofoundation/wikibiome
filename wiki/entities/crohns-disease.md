@@ -1,4 +1,5 @@
 ---
+
 title: Crohn's Disease
 type: entity
 subtype: disease
@@ -6,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, amerikanou-2022-ibd-biomarkers-trace-metals, khalili-2024-mediterranean-diet-later-onset-crohns, haag-2015-intestinal-microbiota-innate-immunity-crohns, knights-2014-host-genetics-microbiome-ibd, serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis, abreu-2024-high-fiber-low-fat-diet-crohns, jacobs-2022-crohns-remission-obesity-mli-microbiome, kang-2023-diagnosis-crohns-uc-microbiome, zhang-2017-intestinal-microbiota-host-immune-ibd, xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr, lu-2024-ibd-extraintestinal-manifestations-microbiota-mr, liu-2022-mr-gut-microbial-genera-ibd-uc-cd, li-2020-polyphenols-gut-microbiota-ibd-synergy, vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]
 tags: [inflammatory-bowel-disease, autoimmune, gastrointestinal, iron, zinc, copper, cadmium, dysbiosis, microbiome, ferroptosis, nutritional-immunity, siderophores, gut-barrier]
+platform: wikibiome
 ---
 
 # Crohn's Disease (CD)
@@ -18,19 +20,19 @@ The metallomic profile in Crohn's disease is defined not by simple deficiency or
 
 ### Iron Dysregulation
 
-[[Iron]] status in CD is complex because two distinct mechanisms coexist. **True iron deficiency** arises from chronic blood loss (ulceration, fistulae) and malabsorption (especially with ileal disease). **Anemia of chronic disease** results from [[hepcidin]] elevation as part of the acute-phase response, which blocks iron absorption and sequesters iron in macrophages. Hepcidin is the key differentiator: elevated hepcidin indicates functional iron withholding (the body is deliberately restricting iron from pathogens via [[nutritional-immunity]]), while low hepcidin with low ferritin indicates true deficiency. This distinction is clinically critical because iron supplementation in the setting of high hepcidin feeds siderophore-producing pathogens without correcting the underlying problem.
+[[iron]] status in CD is complex because two distinct mechanisms coexist. **True iron deficiency** arises from chronic blood loss (ulceration, fistulae) and malabsorption (especially with ileal disease). **Anemia of chronic disease** results from [[hepcidin]] elevation as part of the acute-phase response, which blocks iron absorption and sequesters iron in macrophages. Hepcidin is the key differentiator: elevated hepcidin indicates functional iron withholding (the body is deliberately restricting iron from pathogens via [[nutritional-immunity]]), while low hepcidin with low ferritin indicates true deficiency. This distinction is clinically critical because iron supplementation in the setting of high hepcidin feeds siderophore-producing pathogens without correcting the underlying problem.
 
 ### Zinc Depletion
 
-[[Zinc]] is depleted in CD patients, contributing to a cascade of downstream effects. Zinc is required for tight junction integrity (claudins and occludins are zinc-dependent), so depletion directly impairs the gut barrier. Zinc deficiency also dysregulates matrix metalloproteinase (MMP) activity -- MMP-1, MMP-3, and MMP-9 are zinc-dependent enzymes upregulated in inflamed CD tissue [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]]. Paneth cell antimicrobial peptides (alpha-defensins) require zinc for function, and their impairment through NOD2 mutations is compounded by zinc depletion [[haag-2015-intestinal-microbiota-innate-immunity-crohns]]. [[Calprotectin]], the gold-standard fecal biomarker for IBD monitoring, works by sequestering zinc (and manganese) from pathogens -- its elevation in CD reflects both neutrophil infiltration and active [[nutritional-immunity]].
+[[zinc]] is depleted in CD patients, contributing to a cascade of downstream effects. Zinc is required for tight junction integrity (claudins and occludins are zinc-dependent), so depletion directly impairs the gut barrier. Zinc deficiency also dysregulates matrix metalloproteinase (MMP) activity -- MMP-1, MMP-3, and MMP-9 are zinc-dependent enzymes upregulated in inflamed CD tissue [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]]. Paneth cell antimicrobial peptides (alpha-defensins) require zinc for function, and their impairment through NOD2 mutations is compounded by zinc depletion [[haag-2015-intestinal-microbiota-innate-immunity-crohns]]. [[calprotectin]], the gold-standard fecal biomarker for IBD monitoring, works by sequestering zinc (and manganese) from pathogens -- its elevation in CD reflects both neutrophil infiltration and active [[nutritional-immunity]].
 
 ### Copper Elevation
 
-[[Copper]] is positively associated with CRP in CD patients, consistent with its role as an acute-phase reactant [[amerikanou-2022-ibd-biomarkers-trace-metals]]. Ceruloplasmin (a copper-carrying protein) rises during inflammation, elevating circulating copper. This copper elevation supports [[oxidative-stress]] through Fenton-like chemistry while simultaneously being deployed by macrophages as an antimicrobial weapon against intracellular pathogens.
+[[copper]] is positively associated with CRP in CD patients, consistent with its role as an acute-phase reactant [[amerikanou-2022-ibd-biomarkers-trace-metals]]. Ceruloplasmin (a copper-carrying protein) rises during inflammation, elevating circulating copper. This copper elevation supports [[oxidative-stress]] through Fenton-like chemistry while simultaneously being deployed by macrophages as an antimicrobial weapon against intracellular pathogens.
 
 ### Cadmium as Risk Factor
 
-[[Cadmium]] exposure independently induces dysbiosis patterns consistent with CD. Cadmium enters cells through calcium channels, displacing correct metal cofactors (mis-metallation) and driving [[oxidative-stress]]. The ZIP8 A391T variant affects cadmium handling at the colonic mucosa, with MUT mice showing higher cadmium in bulk colon tissue [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]. Glutathione depletion in CD removes the primary neutralization pathway for cadmium, creating a vulnerability loop.
+[[cadmium]] exposure independently induces dysbiosis patterns consistent with CD. Cadmium enters cells through calcium channels, displacing correct metal cofactors (mis-metallation) and driving [[oxidative-stress]]. The ZIP8 A391T variant affects cadmium handling at the colonic mucosa, with MUT mice showing higher cadmium in bulk colon tissue [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]. Glutathione depletion in CD removes the primary neutralization pathway for cadmium, creating a vulnerability loop.
 
 ### Calprotectin as Biomarker
 
@@ -71,7 +73,7 @@ Adherent-invasive [[escherichia-coli]] depends on [[siderophores-metallophores]]
 
 ### B. fragilis BFT Toxin
 
-[[Bacteroides-fragilis]] enterotoxigenic strains produce fragilysin (BFT), a zinc-dependent metalloprotease that cleaves E-cadherin at the epithelial surface, directly disrupting tight junctions and increasing intestinal permeability. BFT activates [[nf-kappa-b]] signaling and triggers IL-8 secretion. The zinc dependency of this toxin means its activity is modulated by luminal zinc availability -- another intersection of metal homeostasis and virulence. Not all B. fragilis strains are pathogenic; non-toxigenic strains producing polysaccharide A (PSA) actually suppress IL-17 and enhance IL-10, demonstrating commensal protective mechanisms [[zhang-2017-intestinal-microbiota-host-immune-ibd]].
+[[bacteroides-fragilis]] enterotoxigenic strains produce fragilysin (BFT), a zinc-dependent metalloprotease that cleaves E-cadherin at the epithelial surface, directly disrupting tight junctions and increasing intestinal permeability. BFT activates [[nf-kappa-b]] signaling and triggers IL-8 secretion. The zinc dependency of this toxin means its activity is modulated by luminal zinc availability -- another intersection of metal homeostasis and virulence. Not all B. fragilis strains are pathogenic; non-toxigenic strains producing polysaccharide A (PSA) actually suppress IL-17 and enhance IL-10, demonstrating commensal protective mechanisms [[zhang-2017-intestinal-microbiota-host-immune-ibd]].
 
 ## Gut Barrier Disruption
 
@@ -135,7 +137,7 @@ FMT shows mixed results in CD -- more effective than in UC but with highly varia
 
 Infliximab (anti-TNF) alters microbiome composition as a secondary effect of reducing inflammation. By suppressing [[inflammation]], anti-TNF therapy may partially restore the luminal environment to conditions more favorable for SCFA-producing commensals. The combination of infliximab with high-fiber diet achieved the strongest remission data (84% clinical remission), suggesting that reducing inflammation AND providing prebiotic substrate together is more effective than either alone [[serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis]].
 
-### [[Probiotics]]
+### [[probiotics]]
 
 Evidence for probiotics in CD is notably weaker than in UC. VSL#3 and Lactobacillus strains show pre-clinical promise but inconsistent clinical results [[vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]]. E. coli Nissle 1917 is an exception -- it achieves competitive exclusion of AIEC through superior siderophore systems, directly applying the [[siderophores-metallophores]] competition framework. The most impactful restoration target would be [[faecalibacterium-prausnitzii]] itself, but it is not yet commercially available as a therapeutic probiotic.
 
@@ -158,12 +160,12 @@ CD is causally associated with 8 extraintestinal manifestations including primar
 The metal-microbiome framework reveals Crohn's disease as a self-amplifying ecological collapse:
 
 1. **Initiating event**: Metal dyshomeostasis (genetic via ZIP8 A391T, environmental via [[cadmium]]/lead exposure, or dietary)
-2. **SCFA producer depletion**: [[Faecalibacterium-prausnitzii]], Roseburia, Lachnospiraceae cannot compete in metal-restricted or metal-toxic environments
+2. **SCFA producer depletion**: [[faecalibacterium-prausnitzii]], Roseburia, Lachnospiraceae cannot compete in metal-restricted or metal-toxic environments
 3. **Butyrate collapse**: Colonocyte starvation, tight junction loss, increased permeability
 4. **Pathobiont bloom**: AIEC, Fusobacterium, Enterococcus expand using [[siderophores-metallophores]] and metal resistance systems
 5. **Barrier failure**: Bacterial translocation triggers innate immune activation via [[nf-kappa-b]]
-6. **Inflammation reinforces dysbiosis**: [[Hepcidin]] elevation, [[calprotectin]] release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals
-7. **[[Ferroptosis]]**: Iron accumulation in inflamed tissue drives lipid peroxidation and mucosal cell death
+6. **Inflammation reinforces dysbiosis**: [[hepcidin]] elevation, [[calprotectin]] release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals
+7. **[[ferroptosis]]**: Iron accumulation in inflamed tissue drives lipid peroxidation and mucosal cell death
 
 Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 months but inflammation only at 10 months -- [[dysbiosis]] is the cause, not the consequence [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 

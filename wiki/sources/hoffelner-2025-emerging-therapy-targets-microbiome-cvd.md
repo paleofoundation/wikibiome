@@ -1,4 +1,5 @@
 ---
+
 title: "Emerging therapy targets to modulate microbiome-mediated effects evident in cardiovascular disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cardiovascular Medicine
 year: 2025
 doi: 10.3389/fcvm.2025.1631841
 tags: [cardiovascular-disease, microbiome-modulating-drugs, probiotics, prebiotics, antibiotics, SCFAs, TMAO, bile-acids, tryptophan, imidazole-propionate, succinate, cholesterol, atherosclerosis]
+platform: wikibiome
 ---
 
 # Emerging Therapy Targets to Modulate Microbiome-Mediated Effects Evident in Cardiovascular Disease

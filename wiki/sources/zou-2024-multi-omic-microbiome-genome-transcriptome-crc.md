@@ -1,4 +1,5 @@
 ---
+
 title: "Multi-omic profiling reveals associations between the gut microbiome, host genome and transcriptome in patients with colorectal cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Translational Medicine
 year: 2024
 doi: "10.1186/s12967-024-04984-4"
 tags: [colon-cancer, colorectal-cancer, metagenomics, exome-sequencing, transcriptomics, multi-omics, Fusobacterium-nucleatum, TP53, APC, KRAS, SMAD4, TNFSF9, biomarkers, somatic-mutations]
+platform: wikibiome
 ---
 
 # Zou 2024 -- Multi-omic Profiling of Microbiome, Genome, and Transcriptome in CRC

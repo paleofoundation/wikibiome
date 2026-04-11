@@ -1,4 +1,5 @@
 ---
+
 title: "The Metallome as a Link Between the 'Omes' in Autism Spectrum Disorders"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Janelle E. Stanton, Sigita Malijauskaite, Kieran McGourty, Andreas M. 
 journal: Frontiers in Molecular Neuroscience
 year: 2021
 tags: [autism, metallome, multi-omics, zinc, copper, iron, proteome, transcriptome, microbiome, lipidome, metal-dyshomeostasis]
+platform: wikibiome
 ---
 
 # Stanton et al. 2021 -- The Metallome as a Link Between the "Omes" in ASD

@@ -1,4 +1,5 @@
 ---
+
 title: "Hashimoto's Thyroiditis: Lifestyle Interventions for Finding and Treating the Root Cause"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Book (Self-published)
 year: 2015
 doi: ""
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, diet, lifestyle-intervention, probiotics, fermented-foods, dietary-fiber, intestinal-permeability, gluten-free-diet, selenium, zinc, vitamin-B12, ferritin, adaptogens, curcumin, functional-medicine]
+platform: wikibiome
 ---
 
 # Hashimoto's Thyroiditis: Lifestyle Interventions for Finding and Treating the Root Cause

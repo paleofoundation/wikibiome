@@ -1,4 +1,5 @@
 ---
+
 title: "Preliminary Observation of the Changes in the Intestinal Flora of Patients With Graves' Disease Before and After Methimazole Treatment"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2022
 doi: "10.3389/fcimb.2022.794711"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, methimazole, intestinal-flora, 16S-rRNA, Bifidobacterium, Collinsella, dysbiosis, TRAb, Th17-Treg, short-chain-fatty-acids]
+platform: wikibiome
 ---
 
 # Preliminary Observation of the Changes in the Intestinal Flora of Patients With Graves' Disease Before and After Methimazole Treatment

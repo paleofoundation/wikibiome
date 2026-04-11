@@ -1,4 +1,5 @@
 ---
+
 title: "Local and systemic effects of microbiome-derived metabolites"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: EMBO Reports
 year: 2023
 doi: 10.15252/embr.202255664
 tags: [cardiovascular-disease, CVD, microbiome-derived-metabolites, SCFAs, bile-acids, TMAO, BCAAs, tryptophan, LPS, indoles, gut-barrier, immune-system, postbiotics, review]
+platform: wikibiome
 ---
 
 # Local and Systemic Effects of Microbiome-Derived Metabolites

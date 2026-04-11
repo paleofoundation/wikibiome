@@ -1,4 +1,5 @@
 ---
+
 title: "Association of metformin administration with gut microbiome dysbiosis in healthy volunteers"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Ilze Elbere, Ineta Kalnina, Ivars Silamikelis, Ilze Konrade, Linda Zah
 journal: PLOS ONE
 year: 2018
 tags: [cardiovascular-disease, metformin, gut-microbiome, dysbiosis, Escherichia-Shigella, Peptostreptococcaceae, Clostridiaceae, alpha-diversity]
+platform: wikibiome
 ---
 
 # Elbere et al. 2018 -- Metformin and Gut Microbiome Dysbiosis in Healthy Volunteers

@@ -1,4 +1,5 @@
 ---
+
 title: "Causal Relationship Between Gut Microbiota and Hidradenitis Suppurativa: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2024
 tags: [crohns-disease, IBD, hidradenitis-suppurativa, Mendelian-randomization, gut-skin-axis, Clostridium-innocuum, Lachnospira, SCFAs, dysbiosis, gut-microbiome]
 doi: "10.3389/fmicb.2024.1302822"
+platform: wikibiome
 ---
 
 # Key Claims

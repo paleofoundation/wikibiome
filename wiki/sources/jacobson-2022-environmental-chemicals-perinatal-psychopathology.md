@@ -1,4 +1,5 @@
 ---
+
 title: "Exposure to environmental chemicals and perinatal psychopathology"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Jacobson MH, Ghassabian A, Gore AC, Trasande L]
 journal: Biochemical Pharmacology
 year: 2022
 tags: [environmental-chemicals, perinatal-depression, postpartum-depression, antenatal-depression, heavy-metals, POPs, PBDEs, PFAS, phthalates, bisphenols, tobacco-smoke, VOCs, EDCs, scoping-review]
-doi: "10.1039/d5ay02083b"
+doi: "10.1016/j.bcp.2022.115005"
+platform: wikibiome
 ---
 
 # Key Claims

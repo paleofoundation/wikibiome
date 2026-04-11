@@ -1,4 +1,5 @@
 ---
+
 title: "Altered colonic microflora and its metabolic profile in mice with acute viral myocarditis induced by coxsackievirus B3"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Virology Journal
 year: 2024
 doi: 10.1186/s12985-024-02571-z
 tags: [cardiovascular-disease, viral-microbiota, coxsackievirus-B3, acute-viral-myocarditis, gut-heart-axis, 16S-rRNA, metabolomics, dysbiosis, Proteobacteria]
+platform: wikibiome
 ---
 
 # Altered Colonic Microflora and Its Metabolic Profile in Mice with Acute Viral Myocarditis Induced by Coxsackievirus B3

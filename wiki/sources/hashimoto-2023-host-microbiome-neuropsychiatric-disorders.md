@@ -1,4 +1,5 @@
 ---
+
 title: "Emerging Role of the Host Microbiome in Neuropsychiatric Disorders: Overview and Future Directions"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Psychiatry
 year: 2023
 doi: "10.1038/s41380-023-02287-6"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, neuropsychiatric-disorders, gut-brain-axis, oral-microbiome, nasal-microbiome, skin-microbiome, depression, schizophrenia, autism, Parkinson-disease, Alzheimer-disease, review]
+platform: wikibiome
 ---
 
 # Emerging Role of the Host Microbiome in Neuropsychiatric Disorders: Overview and Future Directions

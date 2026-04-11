@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota and Risk of Coronary Heart Disease: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.3389/fcvm.2024.1273666"
 tags: [cardiovascular-disease, Mendelian-randomization, coronary-heart-disease, Bifidobacterium, Oxalobacter, Butyricoccus, Clostridium-innocuum, Actinobacteria, Lentisphaeria, causality]
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/Gut microbiota and risk of coronary heart disease- a two-sample Mendelian randomization study.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

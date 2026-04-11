@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of a high-fiber diet on gut microbiota and the risk of cardiovascular disease: a systematic review"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Mutahar Ahmad Mehmood, Ayush Suri]
 journal: iScientist
 year: 2020
 tags: [cardiovascular-disease, high-fiber-diet, gut-microbiome, SCFA, TMAO, atherosclerosis, hypertension, systematic-review]
+platform: wikibiome
 ---
 
 # Mehmood & Suri 2020 -- High-Fiber Diet, Gut Microbiota, and CVD Risk

@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of iodine intake on gut microbiota and gut metabolites in Hashimoto thyroiditis-diseased humans and mice"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Communications Biology
 year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, iodine, gut-microbiota, metabolomics, butyrate, short-chain-fatty-acids, dysbiosis, th17-treg-balance, bile-acids]
 doi: "10.1038/s42003-024-05813-6"
+platform: wikibiome
 ---
 
 # Effects of iodine intake on gut microbiota and gut metabolites in Hashimoto thyroiditis-diseased humans and mice

@@ -1,10 +1,12 @@
 ---
+
 title: Butyrate
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, spivak-2023-local-systemic-microbiome-derived-metabolites, luqman-2024-intestinal-microbiome-cvd-intervention]
 tags: [butyrate, SCFA, HDAC-inhibition, GPR109A, colonocyte-energy, Treg, gut-barrier, Roseburia, Faecalibacterium, anti-inflammatory, epigenetics]
+platform: wikibiome
 ---
 
 # Butyrate
@@ -44,7 +46,7 @@ Butyrate activates GPR109A on colonocytes, macrophages, and dendritic cells:
 
 Butyrate depletion is documented in:
 - **IBD**: F. prausnitzii loss is both diagnostic and mechanistic; butyrate enemas show therapeutic benefit.
-- **Cardiovascular disease**: Reduced butyrate production correlates with increased [[tmao]] and endotoxemia [[[luqman-2024-intestinal-microbiome-cvd-intervention]]].
+- **Cardiovascular disease**: Reduced butyrate production correlates with increased [[tmao]] and endotoxemia [[luqman-2024-intestinal-microbiome-cvd-intervention]].
 - **Neurodegeneration**: Butyrate modulates microglial activation; shifts microglia from M1 (pro-inflammatory) to M2 phenotype.
 - **ASD**: Fecal butyrate reduced; correlates with GI symptoms and behavioral severity.
 - **Colorectal cancer**: Butyrate's anti-proliferative effect is protective; its loss removes a tumor suppressor.
@@ -64,3 +66,8 @@ Heavy metals (Cd, Pb, Hg, As, Ni) selectively eliminate butyrate-producing bacte
 - [[dysbiosis]] -- the consequence of butyrate producer loss
 - [[epigenetic-modifications]] -- HDAC inhibition as epigenetic mechanism
 - [[hypoxic-signaling]] -- butyrate's role in maintaining colonic hypoxia
+
+## Key Sources
+
+- [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+- [[spivak-2023-local-systemic-microbiome-derived-metabolites]]

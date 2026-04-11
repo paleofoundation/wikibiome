@@ -1,4 +1,5 @@
 ---
+
 title: "Tampons as a Source of Exposure to Metal(loid)s"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Jenni A. Shearston, Kristen Upson, Milo Gordon, Vivian Do, Olgica Bala
 journal: Environment International
 year: 2024
 tags: [tampons, heavy-metals, lead, cadmium, arsenic, nickel, zinc, calcium, menstrual-products, vaginal-absorption, environmental-exposure, ICP-MS]
-doi: "10.1136/ijgc-2021-003065"
+doi: "10.1016/j.envint.2024.108899"
+platform: wikibiome
 ---
 
 # Tampons as a Source of Exposure to Metal(loid)s

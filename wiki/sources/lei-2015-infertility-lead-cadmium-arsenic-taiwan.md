@@ -1,4 +1,5 @@
 ---
+
 title: "Relationship between risk factors for infertility in women and lead, cadmium, and arsenic blood levels: a cross-sectional study from Taiwan"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Lei HL, Wei HJ, Ho HY, Liao KW, Chien LC]
 journal: "BMC Public Health"
 year: 2015
 tags: [female-infertility, lead, cadmium, arsenic, Chinese-herbal-medicine, Taiwan, reproductive-health]
+platform: wikibiome
 ---
 
 # Key Claims

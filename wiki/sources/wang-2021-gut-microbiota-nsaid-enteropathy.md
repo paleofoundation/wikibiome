@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota in NSAID Enteropathy: New Insights From Inside"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2021
 doi: 10.3389/fcimb.2021.679396
 tags: [cardiovascular-disease, NSAIDs, gut-microbiota, enteropathy, TLR4, bile-acids, bacterial-translocation, SIBO, dysbiosis, probiotics, FMT]
+platform: wikibiome
 ---
 
 # Gut Microbiota in NSAID Enteropathy: New Insights From Inside

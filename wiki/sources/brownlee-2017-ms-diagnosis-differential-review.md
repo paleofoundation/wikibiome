@@ -1,4 +1,5 @@
 ---
+
 title: "The diagnosis and differential diagnosis of multiple sclerosis: progress and challenges"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: The Lancet
 year: 2017
 doi: 10.1016/S0140-6736(16)30959-X
 tags: [multiple-sclerosis, diagnosis, MRI, differential-diagnosis, McDonald-criteria, oligoclonal-bands, clinically-isolated-syndrome]
+platform: wikibiome
 ---
 
 # The Diagnosis and Differential Diagnosis of Multiple Sclerosis: Progress and Challenges

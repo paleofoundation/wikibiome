@@ -1,4 +1,5 @@
 ---
+
 title: "Assessment of Exposure to Nickel Intake with Selected Cereal Grains and Cereal-Based Products"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Roczniki Panstwowego Zakladu Higieny
 year: 2020
 tags: [nickel, cereal-grains, dietary-exposure, food-contamination, TDI, Poland, GFAAS]
 doi: "10.32394/rpzh.2020.0142"
+platform: wikibiome
 ---
 
 # Assessment of Exposure to Nickel Intake with Selected Cereal Grains and Cereal-Based Products

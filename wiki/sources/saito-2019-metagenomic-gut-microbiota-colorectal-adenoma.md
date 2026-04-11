@@ -1,4 +1,5 @@
 ---
+
 title: "Metagenomic Analyses of the Gut Microbiota Associated with Colorectal Adenoma"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2019
 tags: [colon-cancer, metagenomics, colorectal-adenoma, Fusobacterium-varium, Fusobacterium-nucleatum, early-carcinogenesis, colonoscopy-aspirates, LEfSe, colorectal-cancer]
 doi: "10.1371/journal.pone.0212406"
+platform: wikibiome
 ---
 
 # Metagenomic Analyses of the Gut Microbiota Associated with Colorectal Adenoma

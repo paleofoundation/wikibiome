@@ -1,4 +1,5 @@
 ---
+
 title: "Metals and Breast Cancer Risk: A Prospective Study Using Toenail Biomarkers"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: American Journal of Epidemiology
 year: 2021
 tags: [metals, breast-cancer, toenail-biomarkers, prospective-study, molybdenum, metalloestrogens, Sister-Study, epidemiology]
 doi: "10.3390/cancers13123045"
+platform: wikibiome
 ---
 
 # Metals and Breast Cancer Risk: A Prospective Study Using Toenail Biomarkers

@@ -1,4 +1,5 @@
 ---
+
 title: "The contribution of infant formula to the food survey-based dietary exposure of nine selected elements"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Hopfner T, Wollenberg M, Jager A, Stadion M, Jung C, Klook AL, Lindtne
 journal: Journal of Environmental Exposure Assessment
 year: 2025
 tags: [infant-formula, dietary-exposure, total-diet-study, Germany, arsenic, cadmium, lead, nickel, manganese, zinc, chromium, mercury, selenium, risk-assessment]
+platform: wikibiome
 ---
 
 ## Key Claims

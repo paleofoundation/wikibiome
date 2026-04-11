@@ -1,4 +1,5 @@
 ---
+
 title: "Advantages and Limitations of Experimental Autoimmune Encephalomyelitis in Breaking Down the Role of the Gut Microbiome in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Molecular Neuroscience
 year: 2022
 tags: [EAE, multiple-sclerosis, gut-microbiome, antibiotics, probiotics, FMT, diet, alcohol, animal-models, translational-limitations, review]
 doi: "10.3389/fnmol.2022.1019877"
+platform: wikibiome
 ---
 
 # Advantages and Limitations of Experimental Autoimmune Encephalomyelitis in Breaking Down the Role of the Gut Microbiome in Multiple Sclerosis

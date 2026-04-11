@@ -1,4 +1,5 @@
 ---
+
 title: "Alzheimer's Disease — Microbiome Signature"
 type: signature
 created: 2026-04-10
@@ -26,7 +27,7 @@ taxonomic_signature:
       role: "Specific biomarker upregulated by cadmium in ApoE4 mice; pro-inflammatory phenotype; associated with neuroinflammation"
     - taxon: "[[akkermansia-muciniphila]]"
       role: "Paradoxically upregulated in AD and Cd-exposed mice; mucin-degrading; barrier disruption; pro-inflammatory in disease context"
-    - taxon: "[[candida]]"
+    - taxon: "[[candida-albicans|candida]]"
       role: "Fungal dysbiosis in AD; functional shielding of bacterial pathogens; oxygen depletion creating anaerobic niches; metal-dependent biofilm formation"
     - taxon: "[[saccharomyces]]"
       role: "DEPLETED in AD; loss of probiotic properties and metal-binding capacity"
@@ -55,6 +56,7 @@ virulence_enzymes: [curli-fibers, lipopolysaccharide, bacterial-amyloids, sidero
 cureva_status: partial
 validated_interventions: []
 stops: []
+platform: cureva
 ---
 
 ## Overview
@@ -104,8 +106,8 @@ The host is mounting a **defensive response that paradoxically exacerbates neuro
 | **[[hepcidin]]** | Iron-sequestering peptide | Signals iron withholding from pathogens BUT traps iron in macrophages/microglia → ferroptosis risk; drives neuroinflammation |
 | **[[lipocalin-2]]** | Siderophore-binding protein | Blocks microbial iron acquisition but creates iron-depleted microenvironment favoring Cd/Pb accumulation |
 | **[[calprotectin]]** | Zn/Mn-chelating protein | Sequesters minerals from pathogens but amplifies pro-inflammatory state (source: neutrophil activation) |
-| **[[TNF-alpha]], [[IL-1beta]], [[IL-6]]** | Pro-inflammatory cytokines | Activated by microbial LPS and bacterial amyloids (curli); drive NLRP3 inflammasome and neuroinflammation [[gao-2023-microglia-neurodegenerative-diseases]] |
-| **[[CD4+ T cells]], [[Th1 cells]]** | Adaptive immune | Elevated in AD; CCL2-CCR2 axis drives monocyte infiltration into brain |
+| **[[tnf-alpha]], [[il-1beta]], [[il-6]]** | Pro-inflammatory cytokines | Activated by microbial LPS and bacterial amyloids (curli); drive NLRP3 inflammasome and neuroinflammation [[gao-2023-microglia-neurodegenerative-diseases]] |
+| **[[cd4+-t-cells]], [[th1-cells]]** | Adaptive immune | Elevated in AD; CCL2-CCR2 axis drives monocyte infiltration into brain |
 
 **DEPLETED** factors that are protective:
 

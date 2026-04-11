@@ -1,4 +1,5 @@
 ---
+
 title: Sutterella
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [jangi-2016-gut-microbiome-alterations-ms, bronzini-2023-feeding-gut-microbiome-ms, dai-2024-gut-microbiota-cvd-bidirectional-mr, teng-2024-gut-microbiome-lipids-mr, martinelli-2022-gut-oriented-interventions-ms, bezawada-2020-asd-gut-microbiota-children-systematic-review]
 metal_dependencies: [none confirmed]
 tags: [pathobiont, IgA-degrading, enriched-in-ASD, IBD-associated, mucosal-immunity, contradictory-findings]
+platform: wikibiome
 ---
 
 # Sutterella
@@ -23,19 +25,19 @@ A Gram-negative, microaerophilic genus within the Proteobacteria phylum (family 
 ## Disease Associations
 
 ### Autism Spectrum Disorder
-- Consistently **enriched in ASD** across multiple studies, making it one of the more reproducible ASD-associated taxa [[[bezawada-2020-asd-gut-microbiota-children-systematic-review]]].
+- Consistently **enriched in ASD** across multiple studies, making it one of the more reproducible ASD-associated taxa [[bezawada-2020-asd-gut-microbiota-children-systematic-review]].
 - IgA degradation may contribute to the increased gut permeability ("leaky gut") reported in ASD children, potentially allowing microbial metabolites and bacterial products to cross the gut barrier and affect the CNS via the [[gut-brain-axis]].
 
 ### Multiple Sclerosis
-- **Increased in MS patients on immunomodulatory therapy** (treatment effect rather than disease effect), suggesting that immune suppression may create a niche for *Sutterella* expansion [[[jangi-2016-gut-microbiome-alterations-ms]]].
+- **Increased in MS patients on immunomodulatory therapy** (treatment effect rather than disease effect), suggesting that immune suppression may create a niche for *Sutterella* expansion [[jangi-2016-gut-microbiome-alterations-ms]].
 - May benefit from reduced IgA pressure under immunomodulatory treatment, consistent with its IgA-degrading phenotype.
 
 ### Inflammatory Bowel Disease
 - **Contradictory findings**: enriched in some IBD cohorts (particularly in mucosal biopsies) but depleted in others (stool-based studies). This inconsistency may reflect differences between mucosal and luminal sampling, disease phase, or IBD subtype.
-- Detected in intestinal biopsies of patients with [[Crohn's disease]] and ulcerative colitis, suggesting mucosal colonization preference.
+- Detected in intestinal biopsies of patients with [[crohns-disease]] and ulcerative colitis, suggesting mucosal colonization preference.
 
 ### Cardiovascular and Metabolic Disease
-- Identified in MR analyses examining gut microbiota-lipid and gut microbiota-CVD relationships, though effect sizes are modest [[[teng-2024-gut-microbiome-lipids-mr]], [[dai-2024-gut-microbiota-cvd-bidirectional-mr]]].
+- Identified in MR analyses examining gut microbiota-lipid and gut microbiota-CVD relationships, though effect sizes are modest [[teng-2024-gut-microbiome-lipids-mr]], [[dai-2024-gut-microbiota-cvd-bidirectional-mr]]].
 
 ## Key Metabolites
 
@@ -48,11 +50,17 @@ A Gram-negative, microaerophilic genus within the Proteobacteria phylum (family 
 - The increase under immunomodulatory therapy in MS suggests *Sutterella* is normally kept in check by robust mucosal immunity, and its expansion may be a consequence rather than cause of immune dysregulation.
 - As a Proteobacteria member, its enrichment may reflect the broader "Proteobacteria bloom" seen in inflammatory conditions.
 
+
+## Key Sources
+
+- [[bronzini-2023-feeding-gut-microbiome-ms]]
+- [[martinelli-2022-gut-oriented-interventions-ms]]
+
 ## Connections
 
 - [[autism-spectrum-disorder]] -- enriched in ASD; IgA degradation may contribute to gut barrier dysfunction
 - [[multiple-sclerosis]] -- increased under immunomodulatory therapy
-- [[Crohn's disease]] -- detected in intestinal biopsies; contradictory enrichment/depletion findings
+- [[crohns-disease]] -- detected in intestinal biopsies; contradictory enrichment/depletion findings
 - [[gut-brain-axis]] -- mucosal immune impairment may allow neuroactive metabolite translocation
 - [[inflammation]] -- IgA degradation disrupts mucosal homeostasis
 - [[dysbiosis]] -- Proteobacteria expansion as marker of inflammatory dysbiosis

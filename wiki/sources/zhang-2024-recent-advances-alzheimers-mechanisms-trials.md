@@ -1,4 +1,5 @@
 ---
+
 title: "Recent advances in Alzheimer's disease: mechanisms, clinical trials and new drug development strategies"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: (Signal Transduction and Targeted Therapy / related journal)
 year: 2024
 tags: [Alzheimers-disease, amyloid-beta, tau-protein, clinical-trials, drug-development, neuroinflammation, biomarkers, immunotherapy]
 doi: "10.1002/14651858.CD007388.pub3"
+platform: wikibiome
 ---
 
 # Key Claims

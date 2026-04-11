@@ -1,4 +1,5 @@
 ---
+
 title: "Identification of Host Gene-Microbiome Associations in Colorectal Cancer Patients Using Mendelian Randomization"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Translational Medicine
 year: 2023
 tags: [colon-cancer, mendelian-randomization, host-gene-microbiome, Porphyromonadaceae, Anaerotruncs, Intestinibacter, Slackia, SNP-annotation, colorectal-cancer]
 doi: "10.1186/s12967-023-04335-9"
+platform: wikibiome
 ---
 
 # Identification of Host Gene-Microbiome Associations in Colorectal Cancer Patients Using Mendelian Randomization

@@ -1,4 +1,5 @@
 ---
+
 title: "Metal Nanoparticles to Combat Candida albicans Infections: An Update"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microorganisms
 year: 2023
 tags: [metal-nanoparticles, Candida-albicans, antifungal, silver-nanoparticles, gold-nanoparticles, iron-nanoparticles, biofilm, drug-resistance, nanotechnology]
 doi: "10.3390/microorganisms11010138"
+platform: wikibiome
 ---
 
 ## Summary

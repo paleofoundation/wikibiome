@@ -1,4 +1,5 @@
 ---
+
 title: "The Vaginal Microbiome as a Tool to Predict rASRM Stage of Disease in Endometriosis: a Pilot Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Reproductive Sciences
 year: 2020
 tags: [endometriosis, vaginal-microbiome, rASRM-staging, Anaerococcus, machine-learning, community-state-types, diagnostic-biomarker, menstrual-cycle]
 doi: "10.1007/s43032-019-00113-5"
+platform: wikibiome
 ---
 
 # Key Claims

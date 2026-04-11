@@ -1,4 +1,5 @@
 ---
+
 title: "Parvimonas micra"
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, nickel]
 key_enzymes: [adhesins, proteases, siderophore-receptors, biofilm-matrix-proteins]
+platform: wikibiome
 ---
 
 # Parvimonas micra
@@ -53,7 +55,7 @@ Epidemiologically, patients with severe periodontitis have 2–3× higher CRC ri
 
 - **Siderophore synthesis**: Encodes genes for dihydroxybenzoic acid (DHBA) biosynthesis and iron-catecholate receptors.
 - **Mechanism**: Secreted siderophores form tight Fe3+ complexes; the Fe-siderophore complex is transported back via TonB-dependent receptors (similar to enterobactin piracy in *E. coli*).
-- **Competitive effect**: *P. micra* siderophores compete with host hepcidin-controlled iron, driving a **local iron-scavenging microenvironment** that advantages other iron-dependent pathogens (*[[Fusobacterium]]*, *[[Bacteroides-fragilis]]*) while suppressing iron-sensitive commensals.
+- **Competitive effect**: *P. micra* siderophores compete with host hepcidin-controlled iron, driving a **local iron-scavenging microenvironment** that advantages other iron-dependent pathogens (*[[fusobacterium]]*, *[[bacteroides-fragilis]]*) while suppressing iron-sensitive commensals.
 
 ### Adhesins and Epithelial Attachment
 
@@ -73,7 +75,7 @@ These adhesins are **particularly effective at sites of epithelial disruption** 
 
 ### Biofilm Architecture
 - Produces polysaccharide matrix (exopolysaccharides; EPSs) that entraps other bacteria, creating a **multi-species biofilm scaffold**.
-- Small cell size (0.5–1 µm) enables dense packing within biofilms; acts as a "nucleating core" for larger bacteria like *[[Fusobacterium-nucleatum]]* and *[[Bacteroides-fragilis]]*.
+- Small cell size (0.5–1 µm) enables dense packing within biofilms; acts as a "nucleating core" for larger bacteria like *[[fusobacterium-nucleatum]]* and *[[bacteroides-fragilis]]*.
 - Biofilm protects *P. micra* and partners from:
   - Oxygen penetration (enabling strict anaerobes in micro-aerophilic colonic zones)
   - Antibiotic and antimicrobial peptide penetration
@@ -85,11 +87,11 @@ In CRC biofilms, *P. micra* integrates with:
 
 | Partner | Role | Synergy |
 |---------|------|---------|
-| **[[Fusobacterium-nucleatum]]** | FadA adhesin; invasin | *F. nucleatum* aggregates to *P. micra* biofilm core; together they breach epithelium |
-| **[[Parvimonas-micra]]** (above; listed for clarity) | Biofilm core; iron piracy | Nucleates polymicrobial biofilm; scavenges iron for all partners |
-| **[[Clostridium-symbiosum]]** | Bile acid metabolism; butyrate production | DCA/LCA-driven inflammation; muted butyrate in biofilm lowers pH |
-| **[[Peptostreptococcus-stomatis]]** | Colibactin (pks+ operon); genotoxin | DNA damage synergizes with *P. micra* adhesin-driven inflammation |
-| **Toxigenic [[Bacteroides-fragilis]]** (BFT+) | BFT toxin; barrier disruption | Synergistic epithelial damage; enable deeper biofilm invasion |
+| **[[fusobacterium-nucleatum]]** | FadA adhesin; invasin | *F. nucleatum* aggregates to *P. micra* biofilm core; together they breach epithelium |
+| **[[parvimonas-micra]]** (above; listed for clarity) | Biofilm core; iron piracy | Nucleates polymicrobial biofilm; scavenges iron for all partners |
+| **[[clostridium-symbiosum]]** | Bile acid metabolism; butyrate production | DCA/LCA-driven inflammation; muted butyrate in biofilm lowers pH |
+| **[[peptostreptococcus-stomatis]]** | Colibactin (pks+ operon); genotoxin | DNA damage synergizes with *P. micra* adhesin-driven inflammation |
+| **Toxigenic [[bacteroides-fragilis]]** (BFT+) | BFT toxin; barrier disruption | Synergistic epithelial damage; enable deeper biofilm invasion |
 
 ## Pathogenic Mechanisms in Colorectal Cancer
 
@@ -102,7 +104,7 @@ In CRC biofilms, *P. micra* integrates with:
 
 ### Integration with Colibactin and other Genotoxins
 
-- **Does not produce colibactin** itself, but biofilm-integrated [[Peptostreptococcus-stomatis]] (pks+) and [[Escherichia-coli]] (pks+) strains do.
+- **Does not produce colibactin** itself, but biofilm-integrated [[peptostreptococcus-stomatis]] (pks+) and [[escherichia-coli]] (pks+) strains do.
 - *P. micra* biofilm acts as a **delivery system** for colibactin-producing partners, enabling direct epithelial contact with genotoxins.
 - Colibactin → double-strand breaks in colonocytes → p53 activation, aberrant crypt formation, dysplasia.
 
@@ -110,8 +112,8 @@ In CRC biofilms, *P. micra* integrates with:
 
 - *P. micra* iron siderophore production → local iron scarcity.
 - Host responds with hepcidin elevation (systemic iron-withholding defense).
-- Iron-dependent *[[Faecalibacterium-prausnitzii]]* and butyrate producers → suppressed.
-- Iron-dependent pathogens (*P. micra*, *[[Fusobacterium]]*, *[[Bacteroides-fragilis]]*) → enriched.
+- Iron-dependent *[[faecalibacterium-prausnitzii]]* and butyrate producers → suppressed.
+- Iron-dependent pathogens (*P. micra*, *[[fusobacterium]]*, *[[bacteroides-fragilis]]*) → enriched.
 - **Result**: Functional iron anemia (low hepcidin paradoxically present with high circulating iron in heme/enterocyte-bound forms) drives CRC risk.
 
 ## Disease Specificity and Biomarker Strength
@@ -148,7 +150,7 @@ In CRC biofilms, *P. micra* integrates with:
 
 ### Biofilm Detection
 - **FISH (fluorescence in situ hybridization)**: Directly visualize *P. micra* within colorectal mucosal biofilms using species-specific probes.
-- **Confocal microscopy**: Reveals *P. micra* biofilm structure and integration with *[[Fusobacterium]]* and other partners.
+- **Confocal microscopy**: Reveals *P. micra* biofilm structure and integration with *[[fusobacterium]]* and other partners.
 
 ## Typical Abundance Ranges
 
@@ -162,23 +164,23 @@ In CRC biofilms, *P. micra* integrates with:
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[Iron]]** – Absolute requirement; produces siderophores for iron piracy
-- **[[Siderophores]]** – Catecholate-type iron-chelating compounds; compete with hepcidin
-- **[[Hepcidin]]** – Host iron-withholding defense; elevated in response to *P. micra* siderophore signaling
-- **[[Adhesins]]** – Type IV pili, LTA; direct epithelial attachment
-- **[[Lipopolysaccharide-LPS]]** – PAMP; TLR4 signaling
-- **[[Lipoteichoic-acid]]** – PAMP; TLR2 signaling (Gram-positive)
-- **[[Biofilm]]** – Major biofilm nucleator; core structural component of polymicrobial CRC biofilms
-- **[[Colorectal-cancer]]** – One of the strongest single-taxon biomarkers; present in 70–95% of CRC cases
-- **[[Oral-colorectal-axis]]** – Originates in oral cavity; translocates to colon; member of oral pathobiont consortium
-- **[[Periodontitis]]** – Enriched in periodontal disease; periodontal disease patients have 2–3× higher CRC risk
-- **[[Fusobacterium-nucleatum]]** – Co-enriched with *P. micra*; biofilm integration
-- **[[Peptostreptococcus-stomatis]]** – Co-enriched; synergistic genotoxin delivery
-- **[[Clostridium-symbiosum]]** – Co-enriched; synergistic inflammation
-- **[[Bacteroides-fragilis]]** (especially BFT+ strains) – Co-enriched; synergistic barrier disruption
-- **[[Inflammation]]** – TLR2-driven NF-κB activation; Th17 polarization
-- **[[Dysbiosis]]** – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
-- **[[Faecalibacterium-prausnitzii]]** – Inverse relationship; suppressed where *P. micra* iron-scavenging dominates
+- **[[iron]]** – Absolute requirement; produces siderophores for iron piracy
+- **[[siderophores]]** – Catecholate-type iron-chelating compounds; compete with hepcidin
+- **[[hepcidin]]** – Host iron-withholding defense; elevated in response to *P. micra* siderophore signaling
+- **[[adhesins]]** – Type IV pili, LTA; direct epithelial attachment
+- **[[lipopolysaccharide-lps]]** – PAMP; TLR4 signaling
+- **[[lipoteichoic-acid]]** – PAMP; TLR2 signaling (Gram-positive)
+- **[[biofilm]]** – Major biofilm nucleator; core structural component of polymicrobial CRC biofilms
+- **[[colorectal-cancer]]** – One of the strongest single-taxon biomarkers; present in 70–95% of CRC cases
+- **[[oral-colorectal-axis]]** – Originates in oral cavity; translocates to colon; member of oral pathobiont consortium
+- **[[periodontitis]]** – Enriched in periodontal disease; periodontal disease patients have 2–3× higher CRC risk
+- **[[fusobacterium-nucleatum]]** – Co-enriched with *P. micra*; biofilm integration
+- **[[peptostreptococcus-stomatis]]** – Co-enriched; synergistic genotoxin delivery
+- **[[clostridium-symbiosum]]** – Co-enriched; synergistic inflammation
+- **[[bacteroides-fragilis]]** (especially BFT+ strains) – Co-enriched; synergistic barrier disruption
+- **[[inflammation]]** – TLR2-driven NF-κB activation; Th17 polarization
+- **[[dysbiosis]]** – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
+- **[[faecalibacterium-prausnitzii]]** – Inverse relationship; suppressed where *P. micra* iron-scavenging dominates
 
 ---
 

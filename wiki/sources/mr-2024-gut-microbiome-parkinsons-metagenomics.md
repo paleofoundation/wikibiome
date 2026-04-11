@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: []
 year: 2024
 journal: "Frontiers in Neuroscience"
-doi: "10.3389/fnins.2024.XXXXXX"
+doi: "10.3389/fnins.2024.1372740"
 tags: [parkinsons-disease, mendelian-randomization, metagenomics, gut-microbiome, causal-inference, bidirectional-MR, microbiome-causality]
 library_category: causal
 platform: both

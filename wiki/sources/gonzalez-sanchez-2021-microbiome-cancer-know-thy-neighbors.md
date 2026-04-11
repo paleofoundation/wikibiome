@@ -1,4 +1,5 @@
 ---
+
 title: "The microbiome(s) and cancer: know thy neighbor(s)"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Pathology
 year: 2021
 tags: [pancreatic-cancer, microbiome-host-interactions, intratumoral-microbiota, dysbiosis, DNA-damage, inflammation, microbial-metabolites, tumor-microenvironment]
 doi: "10.1002/path.5661"
+platform: wikibiome
 ---
 
 # Key Claims

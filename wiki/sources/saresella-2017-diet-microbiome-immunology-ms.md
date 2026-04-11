@@ -1,4 +1,5 @@
 ---
+
 title: "Immunological and Clinical Effect of Diet Modulation of the Gut Microbiome in Multiple Sclerosis Patients: A Pilot Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2017
 tags: [multiple-sclerosis, diet, gut-microbiome, Lachnospiraceae, Tregs, Th17, HV/LP-diet, Western-diet, EDSS, relapse-rate, butyrate, immunomodulation]
 doi: "10.3389/fimmu.2017.01391"
+platform: wikibiome
 ---
 
 # Immunological and Clinical Effect of Diet Modulation of the Gut Microbiome in MS Patients: A Pilot Study

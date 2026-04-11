@@ -1,4 +1,5 @@
 ---
+
 title: "Ketogenic diets and cardio-metabolic diseases"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Weiyue Zhang, Xin Guo, Lulu Chen, Ting Chen, Jiayu Yu, Chaodong Wu, Ju
 journal: Frontiers in Endocrinology
 year: 2021
 tags: [cardiovascular-disease, ketogenic-diet, obesity, hypertension, heart-failure, diabetes, dyslipidemia, NAFLD, ketone-bodies, cardiac-function]
+platform: wikibiome
 ---
 
 # Zhang et al. 2021 -- Ketogenic Diets and Cardio-Metabolic Diseases

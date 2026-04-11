@@ -1,4 +1,5 @@
 ---
+
 title: Fusobacterium nucleatum
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, manganese]
 key_enzymes: [FadA-adhesin, hemin-dependent-peroxidase, siderophore-uptake-systems]
 tags: [colorectal-cancer, inflammatory-bowel-disease, CRC-pathogen, iron-dependent, biofilm-former, Fusobacterium]
+platform: wikibiome
 ---
 
 # Fusobacterium nucleatum
@@ -93,6 +95,6 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 - [[colorectal-cancer]] -- major CRC pathogen, FadA-E-cadherin signaling drives tumorigenesis
 - [[inflammatory-bowel-disease]] -- enriched in IBD lesions, perpetuates bleeding and iron-driven dysbiosis
 - [[e-cadherin]] -- FadA target; E-cadherin cleavage activates oncogenic Wnt signaling
-- [[barrier-disruption]] -- produces collagenase and matrix-degrading proteases
+- [[nutritional-immunity|barrier-disruption]] -- produces collagenase and matrix-degrading proteases
 - [[biofilm]] -- prolific biofilm former; resistant to clearance in tissue lesions
 - [[metal-carcinogenesis]] -- illustrative example of how metal elevation (iron, Mn) selects for carcinogenic pathobiont

@@ -1,10 +1,15 @@
 ---
+
 title: Escherichia coli
 type: entity
+subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
 tags: [pathogen, nickel, iron, hydrogenase, urease, UPEC, UTI, yersiniabactin, NikABCDE]
+metal_dependencies: [nickel, iron, zinc, manganese, cobalt]
+key_enzymes: [NiFe-hydrogenase (Hyd-1/2/3/4), urease (STEC), enterobactin/aerobactin/yersiniabactin (siderophores), zinc-metalloproteinase, MnSOD]
+platform: wikibiome
 ---
 
 # Escherichia coli
@@ -14,7 +19,7 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 ## Metal-Dependent Virulence Factors
 
 ### [NiFe] Hydrogenases
-*E. coli* encodes multiple [NiFe] hydrogenases [[[maier-2019-nickel-microbial-pathogenesis]]]:
+*E. coli* encodes multiple [NiFe] hydrogenases [[maier-2019-nickel-microbial-pathogenesis]]:
 
 - **Hyd-1 (HyaABC)**: membrane-bound, H2-uptake. Expressed under aerobic/microaerobic conditions.
 - **Hyd-2 (HybOABC)**: membrane-bound, H2-uptake. Most active under anaerobic conditions with alternative electron acceptors.
@@ -27,7 +32,7 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
   - **Energy generation** in nutrient-limited intracellular niches (for UPEC inside bladder epithelial cells).
 
 ### Urease (in Shiga Toxin-Producing E. coli)
-- STEC/EHEC strains use urease for **acid survival** during gastric transit [[[maier-2019-nickel-microbial-pathogenesis]]].
+- STEC/EHEC strains use urease for **acid survival** during gastric transit [[maier-2019-nickel-microbial-pathogenesis]].
 - Urease-mediated ammonia production buffers pH, enabling survival through the stomach to reach the intestinal colonization site.
 - Not all *E. coli* pathotypes carry urease -- it is primarily found in STEC and some UPEC strains.
 
@@ -45,7 +50,7 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 ## Metal Acquisition Systems
 
 ### NikABCDE -- The Model Nickel Transporter
-- First characterized Ni-specific ABC transporter [[[maier-2019-nickel-microbial-pathogenesis]]].
+- First characterized Ni-specific ABC transporter [[maier-2019-nickel-microbial-pathogenesis]].
 - **NikA**: periplasmic Ni-binding protein.
 - **NikB/NikC**: integral membrane permease subunits.
 - **NikD/NikE**: ATP-binding cassette subunits providing energy.
@@ -53,7 +58,7 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 - This system is the paradigm for understanding nickel import across all bacteria; homologs found in [[salmonella-typhimurium]], [[helicobacter-pylori]] (NiuBDE), and many other pathogens.
 
 ### Yersiniabactin -- A Dual Iron/Nickel Metallophore
-- Originally characterized as an iron siderophore in *Yersinia pestis*, but the **UPEC yersiniabactin also binds extracellular nickel** [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Originally characterized as an iron siderophore in *Yersinia pestis*, but the **UPEC yersiniabactin also binds extracellular nickel** [[maier-2019-nickel-microbial-pathogenesis]].
 - In uropathogenic *E. coli*, yersiniabactin serves a dual role:
   - Iron acquisition for growth.
   - **Nickel import** for hydrogenase/urease metalation during UTI.

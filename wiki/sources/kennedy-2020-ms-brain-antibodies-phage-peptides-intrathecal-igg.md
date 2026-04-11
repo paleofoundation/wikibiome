@@ -1,4 +1,5 @@
 ---
+
 title: "Recombinant antibodies derived from laser captured single plasma cells of multiple sclerosis brain identified phage peptides which may be used as tools for characterizing intrathecal IgG response"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Neuroimmunology
 year: 2020
 doi: 10.1016/j.jneuroim.2020.577319
 tags: [multiple-sclerosis, phage-display, oligoclonal-bands, IgG, EBV, intrathecal-antibodies, biomarker, plasma-cells, laser-capture-microdissection]
+platform: wikibiome
 ---
 
 # Recombinant Antibodies from MS Brain Plasma Cells Identified Phage Peptides for Characterizing Intrathecal IgG Response

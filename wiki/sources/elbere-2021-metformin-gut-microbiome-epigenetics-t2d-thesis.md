@@ -1,4 +1,5 @@
 ---
+
 title: "Metformin Effects on Gut Microbiome and Epigenetics in Type 2 Diabetes Patients and Healthy Individuals"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Doctoral Thesis, University of Latvia
 year: 2021
 doi: null
 tags: [metformin, gut-microbiome, epigenetics, type-2-diabetes, DNA-methylation, precision-medicine, drug-repurposing, multiple-sclerosis]
+platform: wikibiome
 ---
 
 # Metformin Effects on Gut Microbiome and Epigenetics in Type 2 Diabetes Patients and Healthy Individuals

@@ -1,4 +1,5 @@
 ---
+
 title: Brucella
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis]
 metal_dependencies: [nickel, iron]
 key_enzymes: [Ni-urease]
 tags: [pathogen, zoonotic, brucellosis, urease-vaccine-target]
+platform: wikibiome
 ---
 
 # Brucella
@@ -18,14 +20,14 @@ A genus of Gram-negative intracellular pathogens causing **brucellosis**, the mo
 
 ### Ni-Urease -- Gateway to Infection
 
-- Urease is essential for **survival during gastrointestinal passage** and initial intestinal colonization [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Urease is essential for **survival during gastrointestinal passage** and initial intestinal colonization [[maier-2019-nickel-microbial-pathogenesis]].
 - *Brucella* is typically acquired through ingestion of contaminated dairy products or direct contact with infected animals. The oral route demands acid resistance during gastric transit.
 - Urease-generated ammonia and bicarbonate buffer the [[acidic-microenvironment]] of the stomach, enabling bacteria to reach the intestinal mucosa intact.
 - Once past the GI barrier, *Brucella* establishes intracellular infection in macrophages, where it resides in a modified phagosome.
 
 ### Urease as Vaccine Target
 
-- **Immunization with urease protects against Brucella infection** -- one of the clearest demonstrations that a Ni-dependent virulence factor can serve as a protective antigen [[[maier-2019-nickel-microbial-pathogenesis]]].
+- **Immunization with urease protects against Brucella infection** -- one of the clearest demonstrations that a Ni-dependent virulence factor can serve as a protective antigen [[maier-2019-nickel-microbial-pathogenesis]].
 - This validates urease as a targetable vulnerability, paralleling the HspA vaccine candidate approach for [[helicobacter-pylori]].
 - The finding has broader implications: any pathogen whose colonization depends on urease-mediated acid survival could be targeted with urease-based immunization strategies.
 

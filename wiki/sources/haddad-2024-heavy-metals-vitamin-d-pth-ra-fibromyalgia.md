@@ -1,4 +1,5 @@
 ---
+
 title: "Impact of heavy metals on serum vitamin D3 and PTH in fibromyalgia and rheumatoid arthritis and their correlation to disease activity"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Haddad R, Elbeialy A, El Sawy S, Elzomor H]
 journal: "Research Square (Preprint)"
 year: 2024
 tags: [heavy-metals, vitamin-D, parathyroid-hormone, rheumatoid-arthritis, fibromyalgia, lead, cadmium, chromium, aluminium]
+platform: wikibiome
 ---
 
 # Key Claims

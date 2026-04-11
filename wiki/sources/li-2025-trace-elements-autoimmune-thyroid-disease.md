@@ -1,4 +1,5 @@
 ---
+
 title: "Recent advances of trace elements in autoimmune thyroid disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, trace-elements, selenium, iodine, zinc, iron, copper, magnesium, vitamin-d, oxidative-stress, immune-regulation, graves-disease]
 doi: "10.3389/fimmu.2025.1662521"
+platform: wikibiome
 ---
 
 # Recent advances of trace elements in autoimmune thyroid disease

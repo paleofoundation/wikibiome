@@ -1,10 +1,12 @@
 ---
+
 title: Calprotectin (S100A8/A9)
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, amerikanou-2022-ibd-biomarkers-trace-metals, akbari-2022-metal-homeostasis-streptococci, pendergrass-2026-nickel-nec-preterm-gut]
 tags: [nutritional-immunity, metal-sequestration, neutrophil, zinc, manganese, nickel, biomarker, IBD, inflammation]
+platform: wikibiome
 ---
 
 # Calprotectin (S100A8/A9)
@@ -16,7 +18,7 @@ A heterodimer of S100A8 and S100A9 calcium-binding proteins that constitutes app
 ### Multi-Metal Sequestration
 Calprotectin possesses two distinct metal-binding sites:
 - **Site I (His3Asp)**: binds Zn(II) with high affinity.
-- **Site II (hexahistidine, His6)**: unique among S100 proteins. This site binds Zn(II), Mn(II), Fe(II), AND Ni(II). Critically, the hexahistidine site coordinates **Ni(II) preferentially over Zn(II)**, making calprotectin the first identified host protein with preferential nickel-sequestering activity [[[maier-2019-nickel-microbial-pathogenesis]]].
+- **Site II (hexahistidine, His6)**: unique among S100 proteins. This site binds Zn(II), Mn(II), Fe(II), AND Ni(II). Critically, the hexahistidine site coordinates **Ni(II) preferentially over Zn(II)**, making calprotectin the first identified host protein with preferential nickel-sequestering activity [[maier-2019-nickel-microbial-pathogenesis]].
 
 ### Functional Implications
 - Calprotectin simultaneously restricts multiple metals at infection sites, creating a multi-metal "desert" that pathogens must overcome to establish infection.
@@ -32,21 +34,21 @@ Calprotectin possesses two distinct metal-binding sites:
 ## Pathogen Targets
 
 ### Staphylococcus aureus
-- Calprotectin sequesters Zn, Mn, and Ni from *S. aureus* in abscess environments, directly inhibiting urease activity and Mn-SOD function [[[maier-2019-nickel-microbial-pathogenesis]]].
-- *S. aureus* counters with staphylopine, a broad-spectrum metallophore that scavenges metals even in the calprotectin-rich abscess environment [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Calprotectin sequesters Zn, Mn, and Ni from *S. aureus* in abscess environments, directly inhibiting urease activity and Mn-SOD function [[maier-2019-nickel-microbial-pathogenesis]].
+- *S. aureus* counters with staphylopine, a broad-spectrum metallophore that scavenges metals even in the calprotectin-rich abscess environment [[maier-2019-nickel-microbial-pathogenesis]].
 
 ### Streptococcus pneumoniae
-- Calprotectin Mn sequestration limits streptococcal Mn-dependent virulence, including Mn-SOD activity [[[akbari-2022-metal-homeostasis-streptococci]]].
+- Calprotectin Mn sequestration limits streptococcal Mn-dependent virulence, including Mn-SOD activity [[akbari-2022-metal-homeostasis-streptococci]].
 
 ### Klebsiella pneumoniae
-- Calprotectin inhibits urease activity by restricting nickel availability to *K. pneumoniae* [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Calprotectin inhibits urease activity by restricting nickel availability to *K. pneumoniae* [[maier-2019-nickel-microbial-pathogenesis]].
 
 ## Fecal Calprotectin as a Biomarker
 
 Calprotectin shed into the gut lumen is measurable in stool as **fecal calprotectin (FC)**, which has become a standard non-invasive biomarker:
 
-- **IBD**: Fecal calprotectin distinguishes inflammatory bowel disease from irritable bowel syndrome and monitors disease activity [[[amerikanou-2022-ibd-biomarkers-trace-metals]]].
-- **NEC**: Elevated in necrotizing enterocolitis in preterm infants, where it reflects neutrophil infiltration and mucosal damage [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- **IBD**: Fecal calprotectin distinguishes inflammatory bowel disease from irritable bowel syndrome and monitors disease activity [[amerikanou-2022-ibd-biomarkers-trace-metals]].
+- **NEC**: Elevated in necrotizing enterocolitis in preterm infants, where it reflects neutrophil infiltration and mucosal damage [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Elevated FC reflects neutrophil-driven inflammation anywhere in the GI tract.
 
 ## The Dual Role

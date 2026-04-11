@@ -1,4 +1,5 @@
 ---
+
 title: "The Effects of Cadmium Toxicity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Environmental Research and Public Health
 year: 2020
 tags: [cadmium, toxicology, review, oxidative-stress, mitochondria, metallothionein, cancer, chelation, phytoremediation]
 doi: "10.3390/ijerph17113782"
+platform: wikibiome
 ---
 
 # The Effects of Cadmium Toxicity

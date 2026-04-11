@@ -1,4 +1,5 @@
 ---
+
 title: "Role of Food and Nutrition in Pathogenesis and Prevention of Hashimoto's Thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Education, Health and Sport
 year: 2018
 doi: "10.5281/zenodo.1320419"
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, diet, nutrition, iodine, iron, selenium, zinc, vitamin-D, vitamin-B12, dietary-fiber, fatty-acids, goitrogens, hypothyroidism, prevention]
+platform: wikibiome
 ---
 
 # Role of Food and Nutrition in Pathogenesis and Prevention of Hashimoto's Thyroiditis

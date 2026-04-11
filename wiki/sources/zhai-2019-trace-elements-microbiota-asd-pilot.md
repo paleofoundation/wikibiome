@@ -8,7 +8,7 @@ year: 2019
 journal: "Environmental Research"
 journal_volume: 171
 pages: "501-509"
-doi: "Not available"
+doi: "10.1016/j.envres.2019.01.016"
 tags: [autism, trace-elements, heavy-metals, gut-microbiota, metallome, dysbiosis]
 library_category: signatures
 platform: both

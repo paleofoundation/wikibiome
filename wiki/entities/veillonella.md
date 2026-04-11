@@ -1,4 +1,5 @@
 ---
+
 title: Veillonella
 type: entity
 subtype: microbe
@@ -7,11 +8,12 @@ updated: 2026-04-10
 sources: [su-2020-gut-microbiota-immune-imbalance-graves, zangeneh-2021-oral-microbiota-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes, fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms, thirion-2023-gut-microbiota-ms-disease-activity]
 metal_dependencies: [none confirmed]
 tags: [mixed, lactate-utilizer, oral-microbiome, enriched-in-MS, enriched-in-Graves, oral-gut-translocation, cross-feeder]
+platform: wikibiome
 ---
 
 # Veillonella
 
-A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Negativicutes, family Veillonellaceae). The primary species *V. parvula* is a specialized **lactate utilizer** that occupies a unique metabolic niche by cross-feeding with lactate-producing bacteria, particularly [[Streptococcus]]. *Veillonella* is abundant in both the oral cavity and gut, making it a central player in the **oral-gut translocation** story that connects oral dysbiosis to systemic disease.
+A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Negativicutes, family Veillonellaceae). The primary species *V. parvula* is a specialized **lactate utilizer** that occupies a unique metabolic niche by cross-feeding with lactate-producing bacteria, particularly [[streptococcus]]. *Veillonella* is abundant in both the oral cavity and gut, making it a central player in the **oral-gut translocation** story that connects oral dysbiosis to systemic disease.
 
 ## Role in Gut Ecosystem
 
@@ -29,15 +31,15 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Ne
 ## Disease Associations
 
 ### Multiple Sclerosis
-- **Enriched in MS** patients in multiple studies. Found exclusively in the MS patient group (absent in controls) in the oral microbiome study by Zangeneh 2021 [[[zangeneh-2021-oral-microbiota-ms]]].
+- **Enriched in MS** patients in multiple studies. Found exclusively in the MS patient group (absent in controls) in the oral microbiome study by Zangeneh 2021 [[zangeneh-2021-oral-microbiota-ms]].
 - Elevated in both oral and gut compartments of MS patients, consistent with increased oral-gut translocation under inflammatory conditions.
 - Part of the Negativicutes expansion seen in MS alongside other propionate-producing genera.
 
 ### Graves' Disease
-- **Enriched in [[Graves' disease]]** patients, alongside *Prevotella* and *Megasphaera*, contributing to the pro-inflammatory gut signature that characterizes thyroid autoimmunity [[[su-2020-gut-microbiota-immune-imbalance-graves]]].
+- **Enriched in [[graves-disease]]** patients, alongside *Prevotella* and *Megasphaera*, contributing to the pro-inflammatory gut signature that characterizes thyroid autoimmunity [[su-2020-gut-microbiota-immune-imbalance-graves]].
 
 ### Autism Spectrum Disorder
-- Decreased in ASD youth in the Romano 2023 umbrella review, contrasting with its enrichment in autoimmune conditions [[[romano-2023-gut-microbiome-children-mental-health-umbrella-review]]].
+- Decreased in ASD youth in the Romano 2023 umbrella review, contrasting with its enrichment in autoimmune conditions [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]].
 
 ## Key Metabolites
 
@@ -52,10 +54,17 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Ne
 - Lactate utilization could be beneficial (preventing lactate accumulation) or detrimental (removing substrate from beneficial lactate-utilizing butyrate producers like *Anaerostipes*).
 - The H2 produced by *Veillonella* could support the expansion of [[methanobrevibacter]], which is also elevated in MS, suggesting a metabolic cascade.
 
+
+## Key Sources
+
+- [[simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes]]
+- [[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]]
+- [[thirion-2023-gut-microbiota-ms-disease-activity]]
+
 ## Connections
 
 - [[multiple-sclerosis]] -- enriched in MS oral and gut microbiome; oral-gut translocation marker
-- [[Graves' disease]] -- enriched in GD; part of pro-inflammatory gut signature
+- [[graves-disease]] -- enriched in GD; part of pro-inflammatory gut signature
 - [[methanobrevibacter]] -- H2 cross-feeding; both elevated in MS
 - [[dorea]] -- both enriched in MS; potential metabolic network via H2 production
 - [[short-chain-fatty-acids]] -- propionate and acetate producer from lactate

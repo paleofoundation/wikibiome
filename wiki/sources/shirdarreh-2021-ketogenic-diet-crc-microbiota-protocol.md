@@ -1,4 +1,5 @@
 ---
+
 title: "The Impact of Ketogenic Diet on Colorectal Cancer Progression and the Co-evolution of Gut Microbiota: A Research Protocol"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: URNCST Journal
 year: 2021
 doi: "10.26685/urncst.223"
 tags: [colon-cancer, colorectal-cancer, ketogenic-diet, gut-microbiota, 16S-rRNA, Fusobacterium, Porphyromonas, APC-Min, alpha-diversity, research-protocol]
+platform: wikibiome
 ---
 
 # Shirdarreh 2021 -- KD Impact on CRC Progression and Gut Microbiota Co-evolution Protocol

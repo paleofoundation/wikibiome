@@ -1,4 +1,5 @@
 ---
+
 title: "Microbial dysbiosis in colorectal cancer (CRC) patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2011
 doi: "10.1371/journal.pone.0016393"
 tags: [colon-cancer, colorectal-cancer, dysbiosis, microbiome, Bacteroides, Prevotella, IL-17, pyrosequencing, biomarker]
+platform: wikibiome
 ---
 
 # Sobhani 2011 -- Microbial Dysbiosis in Colorectal Cancer (CRC) Patients

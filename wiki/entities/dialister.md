@@ -1,4 +1,5 @@
 ---
+
 title: Dialister
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [succinate-synthase, formate-acetyltransferase, lactate-permease]
+platform: wikibiome
 ---
 
 # Dialister

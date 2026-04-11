@@ -1,4 +1,5 @@
 ---
+
 title: "Arsenic concentration and speciation in infant formulas and first foods"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Pure and Applied Chemistry
 year: 2012
 tags: [arsenic, infant-formula, baby-food, speciation, rice, dietary-exposure, ICP-MS]
 doi: "10.1351/PAC-CON-11-07-39"
+platform: wikibiome
 ---
 
 ## Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Biomarkers in Multiple Sclerosis: Analysis of the Present Advantages and Look to the Future"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Psychology and Neuroscience
 year: 2023
 tags: [multiple-sclerosis, biomarkers, neurofilament-light-chain, chitinase-3-like-1, GFAP, tryptophan, kynurenine, SCFAs, gut-microbiome, MRI, oligoclonal-bands, metabolomics, transcriptomics]
 doi: "10.47485/2693-2490.1072"
+platform: wikibiome
 ---
 
 # Biomarkers in Multiple Sclerosis: Analysis of the Present Advantages and Look to the Future

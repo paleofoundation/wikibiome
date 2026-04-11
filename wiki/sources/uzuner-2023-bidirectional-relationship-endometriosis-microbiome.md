@@ -1,4 +1,5 @@
 ---
+
 title: "The bidirectional relationship between endometriosis and microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 tags: [endometriosis, microbiome, review, bidirectional-relationship, dysbiosis, estrobolome, bacterial-contamination-hypothesis, oxidative-stress, iron, probiotics, antibiotics, omega-3]
 doi: "10.3389/fendo.2023.1110824"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Counteracting gemcitabine+nab-paclitaxel induced dysbiosis in KRAS wild type and KRASG12D mutated pancreatic cancer in vivo model"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cell Death Discovery
 year: 2023
 tags: [pancreatic-cancer, probiotics, dysbiosis, gemcitabine, chemotherapy, KRAS, gut-microbiome, SCFAs, metabolomics, mouse-model]
 doi: "10.1038/s41420-023-01397-y"
+platform: wikibiome
 ---
 
 # Key Claims

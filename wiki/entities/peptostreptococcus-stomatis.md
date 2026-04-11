@@ -1,4 +1,5 @@
 ---
+
 title: "Peptostreptococcus stomatis"
 type: entity
 subtype: microbe
@@ -10,11 +11,12 @@ gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [polyketide-synthase, colibactin-biosynthesis-enzymes, proteases]
+platform: wikibiome
 ---
 
 # Peptostreptococcus stomatis
 
-**Peptostreptococcus stomatis** is a Gram-positive, obligately anaerobic coccus originally isolated from the human **oral cavity** (oral streptococcal species) that has emerged as a **carcinogenic oral pathobiont enriched in colorectal cancer**, particularly in advanced stages. Unlike commensal oral streptococci, *P. stomatis* carries a **polyketide synthase (pks) gene cluster homologous to colibactin biosynthesis operon** found in pathogenic *[[Escherichia-coli]]* strains, enabling it to produce **colibactin and related genotoxic metabolites** that cause DNA double-strand breaks in colonocytes. This makes *P. stomatis* a direct contributor to the molecular carcinogenesis pathway in CRC, operating as a member of the **oral-colorectal carcinogenic consortium** alongside [[fusobacterium-nucleatum]], [[parvimonas-micra]], and [[clostridium-symbiosum]]. Its abundance correlates with **advanced adenoma stage** and presence of colibactin-associated DNA lesions (γH2AX foci in colonocyte nuclei).
+**Peptostreptococcus stomatis** is a Gram-positive, obligately anaerobic coccus originally isolated from the human **oral cavity** (oral streptococcal species) that has emerged as a **carcinogenic oral pathobiont enriched in colorectal cancer**, particularly in advanced stages. Unlike commensal oral streptococci, *P. stomatis* carries a **polyketide synthase (pks) gene cluster homologous to colibactin biosynthesis operon** found in pathogenic *[[escherichia-coli]]* strains, enabling it to produce **colibactin and related genotoxic metabolites** that cause DNA double-strand breaks in colonocytes. This makes *P. stomatis* a direct contributor to the molecular carcinogenesis pathway in CRC, operating as a member of the **oral-colorectal carcinogenic consortium** alongside [[fusobacterium-nucleatum]], [[parvimonas-micra]], and [[clostridium-symbiosum]]. Its abundance correlates with **advanced adenoma stage** and presence of colibactin-associated DNA lesions (γH2AX foci in colonocyte nuclei).
 
 ## Taxonomy and Basic Properties
 
@@ -26,7 +28,7 @@ key_enzymes: [polyketide-synthase, colibactin-biosynthesis-enzymes, proteases]
 - **Species**: *Peptostreptococcus stomatis*
 - **Cell Type**: Coccus (round); obligate anaerobe; non-motile
 - **Gram Stain**: Positive (thick peptidoglycan; no outer membrane)
-- **Cell Size**: 0.5–1.0 µm diameter (similar to *[[Parvimonas-micra]]*; small for Gram-positive cocci)
+- **Cell Size**: 0.5–1.0 µm diameter (similar to *[[parvimonas-micra]]*; small for Gram-positive cocci)
 - **Genome**: ~3.2 Mb (complete genome available)
 - **pks Cluster Status**: **Carries homologous pks gene cluster** (53–55 kb) nearly identical to *E. coli* enterobacteria-specific pathogenicity island (ECPAT)
 
@@ -79,18 +81,18 @@ The **combination of direct genotoxicity + inflammatory amplification** makes co
   - Cytochrome biosynthesis (anaerobic electron transport)
   - Iron-sulfur cluster assembly
   - Polyketide synthase cofactor maturation (some PKS enzymes require Fe-coordination)
-- **No siderophore production** (unlike *[[Parvimonas-micra]]*); relies on scavenging ferrous iron from the colonic lumen and competing with host hepcidin.
+- **No siderophore production** (unlike *[[parvimonas-micra]]*); relies on scavenging ferrous iron from the colonic lumen and competing with host hepcidin.
 
 ### Growth in the CRC Microenvironment
 - **Obligate anaerobe**: Inhibited by O2 >5 ppm; thrives in biofilms and mucin-rich colonic crypts.
-- **Biofilm-integrated**: Does not form independent biofilms but **integrates into polymicrobial biofilms** nucleated by *[[Parvimonas-micra]]* and *[[Fusobacterium-nucleatum]]*.
+- **Biofilm-integrated**: Does not form independent biofilms but **integrates into polymicrobial biofilms** nucleated by *[[parvimonas-micra]]* and *[[fusobacterium-nucleatum]]*.
 - **Slow grower**: Doubling time ~6–8 hours; slower than *E. coli* but faster than methanogens. In dense biofilms, growth is limited by nutrient/oxygen flux.
 
 ## Role in Colorectal Cancer and Carcinogenic Consortium
 
 ### Stage-Dependent Enrichment
 
-Unlike *[[Parvimonas-micra]]* and *[[Fusobacterium-nucleatum]]* which enrich early (in adenomas), *P. stomatis* shows **stage-dependent enrichment**:
+Unlike *[[parvimonas-micra]]* and *[[fusobacterium-nucleatum]]* which enrich early (in adenomas), *P. stomatis* shows **stage-dependent enrichment**:
 
 - **Healthy adults**: <10^3 copies/g feces; minimal
 - **Advanced adenoma (AJCC stage III)**: 10^4–10^6 copies/g feces (emerging enrichment)
@@ -101,7 +103,7 @@ This **stage-specific enrichment pattern** suggests *P. stomatis* accelerates th
 
 ### Oral-Colorectal Translocation and Pathobiont Consortium
 
-*P. stomatis* follows the same **oral-colorectal axis** as *[[Parvimonas-micra]]*:
+*P. stomatis* follows the same **oral-colorectal axis** as *[[parvimonas-micra]]*:
 
 1. **Oral origin**: Normal oral microbiota; enriched in periodontal disease.
 2. **Periodontitis → intestinal dysbiosis**: Periodontal pathogens (including *P. stomatis*) → chronic inflammation → intestinal barrier disruption.
@@ -110,11 +112,11 @@ This **stage-specific enrichment pattern** suggests *P. stomatis* accelerates th
 
 | Partner | Synergistic Role |
 |---------|------------------|
-| **[[Parvimonas-micra]]** | Biofilm nucleator; iron scavenger; direct epithelial adhesin; supports *P. stomatis* microaerophilic niche |
-| **[[Fusobacterium-nucleatum]]** | FadA invasin; barrier breacher; further enables colibactin penetration to epithelium |
-| **[[Clostridium-symbiosum]]** | Bile acid metabolism → chronic inflammation; suppressed butyrate → lower pH → favors anaerobic *P. stomatis* growth |
-| **Toxigenic [[Bacteroides-fragilis]]** (BFT+) | BFT toxin → epithelial barrier disruption; reduced epithelial integrity enables colibactin access to nuclei |
-| **pks+ [[Escherichia-coli]]** (AIEC, EAEC) | Synergistic colibactin production; redundant genotoxicity |
+| **[[parvimonas-micra]]** | Biofilm nucleator; iron scavenger; direct epithelial adhesin; supports *P. stomatis* microaerophilic niche |
+| **[[fusobacterium-nucleatum]]** | FadA invasin; barrier breacher; further enables colibactin penetration to epithelium |
+| **[[clostridium-symbiosum]]** | Bile acid metabolism → chronic inflammation; suppressed butyrate → lower pH → favors anaerobic *P. stomatis* growth |
+| **Toxigenic [[bacteroides-fragilis]]** (BFT+) | BFT toxin → epithelial barrier disruption; reduced epithelial integrity enables colibactin access to nuclei |
+| **pks+ [[escherichia-coli]]** (AIEC, EAEC) | Synergistic colibactin production; redundant genotoxicity |
 
 ### Colibactin-Mediated Carcinogenesis
 
@@ -155,7 +157,7 @@ This **stage-specific enrichment pattern** suggests *P. stomatis* accelerates th
 - **γH2AX Immunohistochemistry**: Stain colonic biopsies with anti-γH2AX antibodies; visualize DNA damage foci in epithelium of *P. stomatis*-colonized patients.
 
 ### Culture-Based Methods
-- **Anaerobic culture**: Grows on Brucella agar + blood under 85% N2 / 10% H2 / 5% CO2; slower than *[[Parvimonas-micra]]*.
+- **Anaerobic culture**: Grows on Brucella agar + blood under 85% N2 / 10% H2 / 5% CO2; slower than *[[parvimonas-micra]]*.
 - **Colony morphology**: Small (0.5–1 mm), translucent, mucoid colonies; similar to other *Peptostreptococcus* spp.
 - **16S rRNA sequencing or MALDI-TOF mass spectrometry**: Confirms identity.
 - **pks PCR**: Determines genotoxigenic potential.
@@ -173,24 +175,24 @@ This **stage-specific enrichment pattern** suggests *P. stomatis* accelerates th
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[Colibactin]]** – Product; polyketide genotoxin; directly causes DNA double-strand breaks
-- **[[Polyketide-synthase]]** – Gene cluster (pks); encodes colibactin biosynthesis
+- **[[colibactin]]** – Product; polyketide genotoxin; directly causes DNA double-strand breaks
+- **[[polyketide-synthase]]** – Gene cluster (pks); encodes colibactin biosynthesis
 - **[[DNA-damage]]** – Primary mechanistic output; γH2AX foci, mutations in APC/KRAS/TP53
-- **[[Genotoxin]]** – Colibactin acts as a genotoxin; mutagen and carcinogen
-- **[[Colorectal-cancer]]** – Dramatically enriched; carcinogenic consortium member
-- **[[Adenoma]]** – Enriched in advanced adenomas; drives adenoma-to-carcinoma transition
-- **[[Iron]]** – Required for growth; iron-dependent; no siderophores produced
-- **[[Oral-colorectal-axis]]** – Originates in oral cavity; translocates to colon
-- **[[Periodontitis]]** – Enriched in periodontal disease; periodontal disease correlates with CRC risk
-- **[[Inflammation]]** – Colibactin-induced DSBs trigger TLR9/cGAS-STING; Th17 polarization
-- **[[Biofilm]]** – Integrates into polymicrobial CRC biofilms (nucleated by *[[Parvimonas-micra]]*); does not form independent biofilms
-- **[[Parvimonas-micra]]** – Biofilm partner; nucleates structure that houses *P. stomatis*
-- **[[Fusobacterium-nucleatum]]** – Biofilm partner; FadA invasin facilitates colibactin epithelial penetration
-- **[[Clostridium-symbiosum]]** – Biofilm partner; bile acid metabolism amplifies inflammation
-- **[[Bacteroides-fragilis]]** (BFT+ strains) – Biofilm partner; toxin-driven barrier disruption enables colibactin access
-- **[[Escherichia-coli]]** (pks+ strains) – Evolutionary source of pks cluster; synergistic genotoxicity if both present
-- **[[Dysbiosis]]** – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
-- **[[Th17-polarization]]** – IL-17-driven immune response to colibactin-induced DSBs
+- **[[genotoxin]]** – Colibactin acts as a genotoxin; mutagen and carcinogen
+- **[[colorectal-cancer]]** – Dramatically enriched; carcinogenic consortium member
+- **[[adenoma]]** – Enriched in advanced adenomas; drives adenoma-to-carcinoma transition
+- **[[iron]]** – Required for growth; iron-dependent; no siderophores produced
+- **[[oral-colorectal-axis]]** – Originates in oral cavity; translocates to colon
+- **[[periodontitis]]** – Enriched in periodontal disease; periodontal disease correlates with CRC risk
+- **[[inflammation]]** – Colibactin-induced DSBs trigger TLR9/cGAS-STING; Th17 polarization
+- **[[biofilm]]** – Integrates into polymicrobial CRC biofilms (nucleated by *[[parvimonas-micra]]*); does not form independent biofilms
+- **[[parvimonas-micra]]** – Biofilm partner; nucleates structure that houses *P. stomatis*
+- **[[fusobacterium-nucleatum]]** – Biofilm partner; FadA invasin facilitates colibactin epithelial penetration
+- **[[clostridium-symbiosum]]** – Biofilm partner; bile acid metabolism amplifies inflammation
+- **[[bacteroides-fragilis]]** (BFT+ strains) – Biofilm partner; toxin-driven barrier disruption enables colibactin access
+- **[[escherichia-coli]]** (pks+ strains) – Evolutionary source of pks cluster; synergistic genotoxicity if both present
+- **[[dysbiosis]]** – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
+- **[[th17-polarization]]** – IL-17-driven immune response to colibactin-induced DSBs
 - **[[p53-activation]]** – Downstream of colibactin-induced DNA damage; tumor suppressor response
 
 ---

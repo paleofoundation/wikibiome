@@ -1,4 +1,5 @@
 ---
+
 title: "Metabolomics of cerebrospinal fluid reveals changes in the central nervous system metabolism in a rat model of multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Metabolomics
 year: 2012
 doi: 10.1007/s11306-011-0306-3
 tags: [multiple-sclerosis, EAE, metabolomics, CSF, amino-acids, putrescine, arginine, nitric-oxide, oxidative-stress, GABA, taurine, glutamate]
+platform: wikibiome
 ---
 
 # Metabolomics of Cerebrospinal Fluid Reveals Changes in the Central Nervous System Metabolism in a Rat Model of Multiple Sclerosis

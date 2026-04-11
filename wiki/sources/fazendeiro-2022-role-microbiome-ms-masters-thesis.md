@@ -1,4 +1,5 @@
 ---
+
 title: "Role of Microbiome in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Master's Thesis, University of Lisbon, Faculty of Pharmacy
 year: 2022
 doi: null
 tags: [multiple-sclerosis, gut-microbiome, review, masters-thesis, dysbiosis, gut-brain-axis, probiotics, FMT]
+platform: wikibiome
 ---
 
 # Role of Microbiome in Multiple Sclerosis

@@ -1,4 +1,5 @@
 ---
+
 title: "High-Fiber Diet or Combined With Acarbose Alleviates Heterogeneous Phenotypes of Polycystic Ovary Syndrome by Regulating Gut Microbiota"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2022
 tags: [PCOS, dietary-fiber, gut-microbiota, acarbose, clinical-trial, dysbiosis, brain-gut-peptides, short-chain-fatty-acids]
 doi: "10.1016/j.eats.2022.11.005"
+platform: wikibiome
 ---
 
 # Key Claims

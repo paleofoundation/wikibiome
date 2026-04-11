@@ -1,4 +1,5 @@
 ---
+
 title: "Low Nickel Diet: A Patient-Centered Review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Clinical and Experimental Dermatology Research
 year: 2016
 tags: [low-nickel-diet, SNAS, systemic-contact-dermatitis, patient-education, review]
 doi: "10.4172/2155-9554.1000356"
+platform: wikibiome
 ---
 
 ## Key Claims

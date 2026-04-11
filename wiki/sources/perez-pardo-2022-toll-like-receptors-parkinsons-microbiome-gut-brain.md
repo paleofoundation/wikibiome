@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Paula Perez-Pardo, Mitch Hartog, Aletta D Kraneveld]
 year: 2022
 journal: "Frontiers in Immunology"
-doi: "10.3389/fimmu.2022.XXXXXX"
+doi: "10.3389/fimmu.2022.1154626"
 tags: [parkinsons-disease, toll-like-receptors, gut-brain-axis, microbiome-host-interactions, innate-immunity, neuroinflammation, TLR2, TLR4]
 library_category: mechanistic-insights
 platform: both

@@ -1,4 +1,5 @@
 ---
+
 title: "Association between Gut Microbiota and Breast Cancer: Diet as a Potential Modulating Factor"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Altinok Dindar D, Chun B, Palma A, Cheney J, Krieger M, Kasschau K, St
 journal: Nutrients
 year: 2023
 tags: [breast-cancer, gut-microbiome, diet, Acidaminococcus, Hungatella, Tyzzerella, alpha-diversity, beta-diversity, case-control, 16S-rRNA, HEI-2015]
+platform: wikibiome
 ---
 
 # Association between Gut Microbiota and Breast Cancer: Diet as a Potential Modulating Factor

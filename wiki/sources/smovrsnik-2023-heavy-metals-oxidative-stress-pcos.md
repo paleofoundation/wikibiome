@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metals and Essential Elements in Association with Oxidative Stress in Women with Polycystic Ovary Syndrome -- A Systematic Review"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Smovrsnik T, Virant-Klun I, Pinter B]
 journal: Antioxidants
 year: 2023
 tags: [PCOS, heavy-metals, oxidative-stress, cadmium, lead, mercury, zinc, selenium, chromium, magnesium, copper, systematic-review, endocrine-disruptors]
-doi: "10.3390/ijerph19020976"
+doi: "10.3390/antiox12010049"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Toxicity, Mechanism and Health Effects of Some Heavy Metals"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Interdisciplinary Toxicology
 year: 2014
 tags: [heavy-metals, toxicity, arsenic, lead, mercury, cadmium, chromium, aluminum, iron, oxidative-stress, free-radicals, mechanisms, chelation, mis-metallation, nephrotoxicity, neurotoxicity]
 doi: "10.2478/intox-2014-0009"
+platform: wikibiome
 ---
 
 # Toxicity, Mechanism and Health Effects of Some Heavy Metals

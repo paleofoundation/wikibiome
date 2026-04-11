@@ -1,4 +1,5 @@
 ---
+
 title: Prevotella copri
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron]
 key_enzymes: [iron-acquisition-siderophores, glycoside-hydrolases, fiber-degrading-carbohydrate-active-enzymes]
 tags: [rheumatoid-arthritis, metabolic-syndrome, context-dependent-pathobiont, fiber-degrader, iron-acquisition]
+platform: wikibiome
 ---
 
 # Prevotella copri
@@ -124,6 +126,6 @@ The *P. copri*-dominant dysbiosis in RA involves:
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *P. copri* elevation in dysbiotic RA
 - [[metabolic-syndrome]] -- *P. copri* dominance associated with insulin resistance and obesity
 - [[short-chain-fatty-acids]] -- *P. copri* produces acetate and propionate; dysbiotic overflow leads to pro-inflammatory Th17 promotion
-- [[barrier-function]] -- *P. copri* dysbiosis correlates with reduced butyrate-driven tight junction maintenance
+- [[nutritional-immunity|barrier-function]] -- *P. copri* dysbiosis correlates with reduced butyrate-driven tight junction maintenance
 - [[commensal-pathobiont-spectrum]] -- prototype organism showing context-dependent behavior
 - [[dysbiosis]] -- dominance defines dysbiotic state in RA and metabolic syndrome

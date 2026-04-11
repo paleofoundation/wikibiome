@@ -1,4 +1,5 @@
 ---
+
 title: "Fungal microbiota dysbiosis and ecological alterations in gastric cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2022
 tags: [pancreatic-cancer, fungal-dysbiosis, gastric-cancer, mycobiome, Ascomycota, Basidiomycota, Apiotrichum, Cutaneotrichosporon, Malassezia, ITS2-sequencing, inflammatory-cytokines]
 doi: "10.3389/fmicb.2022.889694"
+platform: wikibiome
 ---
 
 # Key Claims

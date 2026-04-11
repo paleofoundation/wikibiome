@@ -1,4 +1,5 @@
 ---
+
 title: "The way to a man's heart is through his gut microbiota -- dietary pro- and prebiotics for the management of cardiovascular risk"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Kieran M. Tuohy, Francesca Fava, Roberto Viola]
 journal: Proceedings of the Nutrition Society
 year: 2014
 tags: [cardiovascular-disease, probiotics, prebiotics, gut-microbiome, cholesterol, bile-acids, TMAO, SCFAs, beta-glucan, oats]
+platform: wikibiome
 ---
 
 # Tuohy et al. 2014 -- Dietary Pro- and Prebiotics for CVD Risk Management

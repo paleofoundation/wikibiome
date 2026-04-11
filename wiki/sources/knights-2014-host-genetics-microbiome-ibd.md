@@ -1,4 +1,5 @@
 ---
+
 title: "Complex Host Genetics Influence the Microbiome in Inflammatory Bowel Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Genome Medicine
 year: 2014
 tags: [crohns-disease, IBD, ulcerative-colitis, host-genetics, NOD2, microbiome, genotype-microbiome-association, Enterobacteriaceae, JAK-STAT, innate-immunity, dysbiosis]
 doi: "10.1186/s13073-014-0107-1"
+platform: wikibiome
 ---
 
 # Key Claims

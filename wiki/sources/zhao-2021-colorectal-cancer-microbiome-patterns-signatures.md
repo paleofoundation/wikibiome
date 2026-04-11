@@ -1,4 +1,5 @@
 ---
+
 title: "Colorectal cancer-associated microbiome patterns and signatures"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Genetics
 year: 2021
 doi: "10.3389/fgene.2021.787176"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, dysbiosis, Fusobacterium-nucleatum, biclustering, interaction-networks, oral-pathogens, meta-analysis]
+platform: wikibiome
 ---
 
 # Zhao 2021 -- Colorectal Cancer-Associated Microbiome Patterns and Signatures

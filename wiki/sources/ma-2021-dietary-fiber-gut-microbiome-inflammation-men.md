@@ -1,4 +1,5 @@
 ---
+
 title: "Dietary fiber intake, the gut microbiome, and chronic systemic inflammation in a cohort of adult men"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Wenjie Ma, Long H. Nguyen, Mingyang Song, Dong D. Wang, Eric A. Franzo
 journal: Genome Medicine
 year: 2021
 tags: [cardiovascular-disease, dietary-fiber, gut-microbiome, CRP, inflammation, Prevotella-copri, metagenomics, Clostridiales, pectin]
+platform: wikibiome
 ---
 
 # Ma et al. 2021 -- Dietary Fiber, Gut Microbiome, and Chronic Systemic Inflammation

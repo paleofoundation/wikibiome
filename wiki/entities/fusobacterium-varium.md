@@ -1,4 +1,5 @@
 ---
+
 title: Fusobacterium varium
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [hemolysins, proteases, siderophore-uptake, butyrate-synthesis]
 tags: [gram-negative, anaerobe, iron-dependent, gut-pathobiont, inflammatory-bowel-disease, ulcerative-colitis, epithelial-invasion, butyrate-producer]
+platform: wikibiome
 ---
 
 # Fusobacterium varium
@@ -96,7 +98,7 @@ A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut m
 - [[hepcidin]] -- upregulated in UC; sequesters systemic iron but increases luminal iron availability
 - [[epithelial-barrier]] -- hemolysins and proteases disrupt tight junctions
 - [[inflammatory-bowel-disease]] -- enriched in UC; drives mucosal inflammation
-- [[lipopolysaccharide]] -- TLR4-mediated pro-inflammatory signaling
+- [[inflammation|lipopolysaccharide]] -- TLR4-mediated pro-inflammatory signaling
 - [[butyrate]] -- paradoxically capable of SCFA production, but pathogenic phenotype dominates in inflammation
 - [[fusobacterium-nucleatum]] -- related but distinct species; oral pathogenic vs. gut-UC pathobiont
 - [[dysbiosis]] -- iron-rich, low-SCFA producing community state characteristic of active UC

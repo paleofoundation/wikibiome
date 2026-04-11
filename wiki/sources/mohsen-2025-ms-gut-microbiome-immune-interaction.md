@@ -1,4 +1,5 @@
 ---
+
 title: "Multiple Sclerosis: A Story of the Interaction Between Gut Microbiome and Components of the Immune System"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Neurobiology
 year: 2025
 tags: [multiple-sclerosis, gut-microbiome, immune-system, Th17, Tregs, B-cells, dendritic-cells, microglia, SCFAs, tryptophan, TMAO, gut-brain-axis, dysbiosis, mycobiome, virome]
 doi: "10.1007/s12035-025-04728-5"
+platform: wikibiome
 ---
 
 # Multiple Sclerosis: A Story of the Interaction Between Gut Microbiome and Components of the Immune System

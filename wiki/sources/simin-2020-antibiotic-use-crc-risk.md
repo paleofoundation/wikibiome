@@ -1,4 +1,5 @@
 ---
+
 title: "Antibiotic Use and Risk of Colorectal Cancer: A Systematic Review and Dose-Response Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Johanna Simin, Romina Fornes, Qing Liu, Renate Slind Olsen, Steven Cal
 journal: British Journal of Cancer
 year: 2020
 tags: [colon-cancer, antibiotics, colorectal-cancer, meta-analysis, systematic-review, dose-response, gut-microbiome, dysbiosis, risk-factor, epidemiology]
+platform: wikibiome
 ---
 
 # Key Claims

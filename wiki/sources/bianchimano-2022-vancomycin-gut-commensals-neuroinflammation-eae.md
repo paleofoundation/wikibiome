@@ -1,4 +1,5 @@
 ---
+
 title: "Mining the microbiota to identify gut commensals modulating neuroinflammation in a mouse model of multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microbiome
 year: 2022
 doi: 10.1186/s40168-022-01364-2
 tags: [multiple-sclerosis, EAE, neuroinflammation, vancomycin, Clostridia, Tregs, Anaerotruncus-colihominis, gut-microbiome, fecal-transplant, ROR-gamma-t]
+platform: wikibiome
 ---
 
 # Mining the Microbiota to Identify Gut Commensals Modulating Neuroinflammation in a Mouse Model of Multiple Sclerosis

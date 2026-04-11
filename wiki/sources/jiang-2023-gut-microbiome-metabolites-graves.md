@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiome and the Role of Metabolites in the Study of Graves' Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2023
 doi: "10.3389/fimmu.2023.1218678"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, metabolomics, short-chain-fatty-acids, bile-acids, tryptophan, SCFA, butyrate, dysbiosis, immune-regulation, gut-thyroid-axis, metabolites]
+platform: wikibiome
 ---
 
 # Gut Microbiome and the Role of Metabolites in the Study of Graves' Disease

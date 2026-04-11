@@ -1,4 +1,5 @@
 ---
+
 title: "Environmental factors in the development of autism spectrum disorders"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [L.A. Sealey, B.W. Hughes, A.N. Sriskanda, J.R. Guest, A.D. Gibson, L. 
 journal: Environment International
 year: 2016
 tags: [autism, environmental-factors, neurotoxins, heavy-metals, mercury, aluminum, glyphosate, fragrances, endocrine-disruptors, vaccines, maternal-antibodies]
+platform: wikibiome
 ---
 
 # Sealey et al. 2016 -- Environmental Factors in the Development of ASD

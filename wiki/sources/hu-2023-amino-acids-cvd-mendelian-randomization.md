@@ -1,4 +1,5 @@
 ---
+
 title: "Causal relationships of circulating amino acids with cardiovascular disease: a trans-ancestry Mendelian randomization analysis"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Song Hu, Zhennan Lin, Meng-Jin Hu, Jiang-Shan Tan, Ting-Ting Guo, Xin 
 journal: Journal of Translational Medicine
 year: 2023
 tags: [cardiovascular-disease, amino-acids, mendelian-randomization, glycine, serine, leucine, tyrosine, alanine, BCAAs, causal-inference]
+platform: wikibiome
 ---
 
 # Hu et al. 2023 -- Causal Amino Acid-CVD Relationships via Mendelian Randomization

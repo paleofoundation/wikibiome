@@ -1,4 +1,5 @@
 ---
+
 title: "The Gut-Brain Axis in Multiple Sclerosis. Is Its Dysfunction a Pathological Trigger or a Consequence of the Disease?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2021
 doi: 10.3389/fimmu.2021.718220
 tags: [multiple-sclerosis, gut-brain-axis, dysbiosis, leaky-gut, vagus-nerve, EAE, intestinal-permeability, SCFAs, tryptophan, bile-acids, Lactobacillus, neuroinflammation, review]
+platform: wikibiome
 ---
 
 # The Gut-Brain Axis in Multiple Sclerosis: Is Its Dysfunction a Pathological Trigger or a Consequence of the Disease?

@@ -1,4 +1,5 @@
 ---
+
 title: "Emerging Evidence on the Effects of Dietary Factors on the Gut Microbiome in Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Nutrition
 year: 2021
 tags: [colon-cancer, diet, microbiome-diet, dietary-fiber, SCFAs, red-meat, polyphenols, curcumin, Fusobacterium-nucleatum, epigenetics, colorectal-cancer, cancer-prevention]
 doi: "10.3389/fnut.2021.718389"
+platform: wikibiome
 ---
 
 # Emerging Evidence on the Effects of Dietary Factors on the Gut Microbiome in Colorectal Cancer

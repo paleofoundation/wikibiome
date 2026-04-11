@@ -1,4 +1,5 @@
 ---
+
 title: "Secondary bile acids: an underrecognized cause of colon cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: World Journal of Surgical Oncology
 year: 2014
 doi: "10.1186/1477-7819-12-164"
 tags: [colon-cancer, colorectal-cancer, bile-acids, deoxycholic-acid, lithocholic-acid, ROS, NF-kB, DNA-damage, apoptosis, vitamin-D, oxidative-stress]
+platform: wikibiome
 ---
 
 # Ajouz 2014 -- Secondary Bile Acids: An Underrecognized Cause of Colon Cancer

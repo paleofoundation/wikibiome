@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Amani Alharthi, Safiah Alhazmi, Najla Alburae, Ahmed Bahieldin]
 year: 2021
 journal: "International Journal of Molecular Sciences"
-doi: None
+doi: "10.3390/ijms23031363"
 tags: [autism, microbiota, gut-brain-axis, permeability, epigenetics, interventions]
 library_category: causal
 platform: both

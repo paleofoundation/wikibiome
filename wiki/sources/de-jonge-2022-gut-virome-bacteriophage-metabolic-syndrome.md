@@ -1,4 +1,5 @@
 ---
+
 title: "Gut virome profiling identifies a widespread bacteriophage family associated with metabolic syndrome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Communications
 year: 2022
 doi: 10.1038/s41467-022-31390-5
 tags: [cardiovascular-disease, virome, metabolic-syndrome, bacteriophage, Heliusviridae, Crassvirales, gut-phage, shotgun-metagenomics, viral-dysbiosis]
+platform: wikibiome
 ---
 
 # Gut Virome Profiling Identifies a Widespread Bacteriophage Family Associated with Metabolic Syndrome

@@ -1,4 +1,5 @@
 ---
+
 title: "Probiotics for ASD Dysbiosis"
 type: intervention
 created: 2026-04-09
@@ -16,7 +17,7 @@ intervention_class: probiotic
 # Triangle Validation
 triangles:
   - condition: "[[autism-spectrum-disorder]]"
-    I_to_f: "Probiotics (Lactobacillus, Bifidobacterium, Streptococcus) restore SCFA-producing bacteria and immune-educating taxa (e.g., [[Faecalibacterium prausnitzii]], Bacteroidetes). Strain-dependent restoration of butyrate production restores epigenetic regulation, barrier tightness, and immune tolerance. Probiotic inoculation competes with dysbiotic pathogens (E. coli, Bacteroides fragilis) for ecological niche and metal resources."
+    I_to_f: "Probiotics (Lactobacillus, Bifidobacterium, Streptococcus) restore SCFA-producing bacteria and immune-educating taxa (e.g., [[faecalibacterium-prausnitzii]], Bacteroidetes). Strain-dependent restoration of butyrate production restores epigenetic regulation, barrier tightness, and immune tolerance. Probiotic inoculation competes with dysbiotic pathogens (E. coli, Bacteroides fragilis) for ecological niche and metal resources."
     I_to_f_evidence: "moderate"
     I_to_D: "66% improvement in behavioral and GI symptoms in ASD children (Lewandowska 2022 systematic review, 44 studies). Juvenile fermented milk supplement showed microbiota normalization and symptom improvement in RCT (Hrnciarova 2021, n=20 ASD vs. 12 controls, 3-month intervention). Most effective in mixed-strain formulations (2-3 strains) vs. single strain."
     I_to_D_evidence: "quasi-experimental"
@@ -35,8 +36,8 @@ triangles:
 # Intervention Details
 targets:
   taxa: [
-    "Restores: [[Faecalibacterium prausnitzii]], [[Roseburia]], [[Bifidobacterium]], [[Lactobacillus]], [[Streptococcus thermophilus]]",
-    "Suppresses (competitive exclusion): [[E. coli]], [[Bacteroides fragilis]], [[Clostridium difficile]]"
+    "Restores: [[faecalibacterium-prausnitzii]], [[roseburia]], [[bifidobacterium]], [[lactobacillus]], [[streptococcus-thermophilus]]",
+    "Suppresses (competitive exclusion): [[e.-coli]], [[bacteroides-fragilis]], [[clostridium-difficile]]"
   ]
   enzymes: [
     "Restores: Butyrate synthase (iron-dependent pyruvate dehydrogenase, zinc-dependent dehydrogenases)",
@@ -119,7 +120,7 @@ Probiotics restore dysbiosis-lost functions through competitive exclusion and me
 - Barrier restoration (butyrate) → reduced systemic endotoxemia → reduced neuroinflammation → behavioral improvement
 - Immune tolerance (Treg expansion) → reduced Th17-driven intestinal/CNS inflammation → behavioral/GI improvement
 - Metabolite restoration (tryptophan metabolites, SCFA) → direct synaptic function improvement → behavioral improvement
-
+platform: cureva
 ---
 
 # Efficacy Data Summary

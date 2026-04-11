@@ -1,4 +1,5 @@
 ---
+
 title: "Association between heavy metal exposure and bacterial vaginosis: A cross-sectional study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2025
 tags: [heavy-metals, bacterial-vaginosis, lead, cadmium, mercury, NHANES, vaginal-microbiome, cross-sectional, reproductive-health]
 doi: "10.1371/journal.pone.0316927"
+platform: wikibiome
 ---
 
 # Key Claims

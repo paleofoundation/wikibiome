@@ -1,10 +1,12 @@
 ---
+
 title: Hypoxic Signaling (HIF-1α Pathway)
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [HIF-1alpha, nickel, carcinogenesis, signaling]
+platform: wikibiome
 ---
 
 # Hypoxic Signaling (HIF-1α Pathway)
@@ -23,7 +25,7 @@ Under hypoxia, hydroxylation doesn't occur → HIF-1α accumulates → dimerizes
 
 ## How Nickel Activates HIF-1α
 
-Ni(II) causes **"pseudo-hypoxia"** through multiple converging mechanisms [[[salnikov-2008-metal-carcinogenesis]]]:
+Ni(II) causes **"pseudo-hypoxia"** through multiple converging mechanisms [[salnikov-2008-metal-carcinogenesis]]:
 
 1. **Direct inhibition of HIF-prolyl hydroxylases**: Ni(II) may replace Fe(II) in the active site.
 2. **Ascorbate depletion**: nickel depletes intracellular ascorbate, which is a critical cofactor for the hydroxylases. Without ascorbate, Fe(II) cannot be maintained in its reduced state.

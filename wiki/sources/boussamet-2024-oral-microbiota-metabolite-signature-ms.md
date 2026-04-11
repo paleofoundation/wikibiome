@@ -1,4 +1,5 @@
 ---
+
 title: "Investigating the metabolite signature of an altered oral microbiota as a discriminant factor for multiple sclerosis: a pilot study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2024
 doi: 10.1038/s41598-024-57949-4
 tags: [multiple-sclerosis, oral-microbiome, metabolomics, dysbiosis, microbiome-signature, Fusobacterium, Leptotrichia, biomarkers]
+platform: wikibiome
 ---
 
 # Investigating the Metabolite Signature of an Altered Oral Microbiota as a Discriminant Factor for Multiple Sclerosis

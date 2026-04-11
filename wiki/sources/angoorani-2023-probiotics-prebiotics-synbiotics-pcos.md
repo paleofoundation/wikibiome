@@ -1,4 +1,5 @@
 ---
+
 title: "The effects of probiotics, prebiotics, and synbiotics on polycystic ovarian syndrome: an overview of systematic reviews"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Medicine
 year: 2023
 tags: [PCOS, probiotics, prebiotics, synbiotics, systematic-review, meta-analysis, AMSTAR-2, gut-microbiota, insulin-resistance]
 doi: "10.3389/fmed.2023.1141355"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Opportunities and challenges in phage therapy for cardiometabolic diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Trends in Endocrinology and Metabolism
 year: 2024
 doi: 10.1016/j.tem.2024.03.007
 tags: [cardiovascular-disease, phage-therapy, bacteriophages, cardiometabolic-disease, virome, FMT, fecal-virome-transplantation, MASLD, precision-medicine]
+platform: wikibiome
 ---
 
 # Opportunities and Challenges in Phage Therapy for Cardiometabolic Diseases

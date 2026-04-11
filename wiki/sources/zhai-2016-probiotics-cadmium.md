@@ -1,4 +1,5 @@
 ---
+
 title: "Oral Administration of Probiotics Inhibits Absorption of the Heavy Metal Cadmium by Protecting the Intestinal Barrier"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Appl Environ Microbiol
 year: 2016
 tags: [cadmium, probiotics, intestinal-barrier, oxidative-stress, tight-junctions, heavy-metals, Lactobacillus]
 doi: "10.1038/s41420-023-01587-8"
+platform: wikibiome
 ---
 
 # Oral Administration of Probiotics Inhibits Absorption of the Heavy Metal Cadmium by Protecting the Intestinal Barrier

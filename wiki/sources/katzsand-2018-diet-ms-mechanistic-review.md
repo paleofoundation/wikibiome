@@ -1,4 +1,5 @@
 ---
+
 title: "The Role of Diet in Multiple Sclerosis: Mechanistic Connections and Current Evidence"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Current Nutrition Reports
 year: 2018
 tags: [diet, multiple-sclerosis, fatty-acids, PUFA, saturated-fat, Mediterranean-diet, ketogenic-diet, Paleolithic-diet, caloric-restriction, dietary-fiber, salt, whole-grains, review]
 doi: "10.1007/s13668-018-0236-z"
+platform: wikibiome
 ---
 
 # The Role of Diet in Multiple Sclerosis: Mechanistic Connections and Current Evidence

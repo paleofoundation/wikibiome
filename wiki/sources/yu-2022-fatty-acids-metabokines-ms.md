@@ -1,4 +1,5 @@
 ---
+
 title: "Fatty Acids Role in Multiple Sclerosis as 'Metabokines'"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Neuroinflammation
 year: 2022
 tags: [fatty-acids, multiple-sclerosis, SCFA, MCFA, LCFA, PUFA, metabokines, Treg, Th17, GPR43, HDAC, remyelination, review]
 doi: "10.1186/s12974-022-02502-1"
+platform: wikibiome
 ---
 
 # Fatty Acids Role in Multiple Sclerosis as "Metabokines"

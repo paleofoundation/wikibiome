@@ -1,4 +1,5 @@
 ---
+
 title: "ZIP8 A391T Crohn's Disease-Linked Risk Variant Induces Colonic Metal Ion Dyshomeostasis, Microbiome Compositional Shifts, and Inflammation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Digestive Diseases and Sciences
 year: 2024
 tags: [ZIP8, SLC39A8, Crohns-disease, metal-homeostasis, microbiome, cobalt, manganese, cadmium, trace-metals, gene-environment, IBD, inflammation]
 doi: "10.3389/fimmu.2023.1183914"
+platform: wikibiome
 ---
 
 # Key Claims

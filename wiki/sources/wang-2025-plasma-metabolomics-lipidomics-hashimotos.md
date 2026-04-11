@@ -1,4 +1,5 @@
 ---
+
 title: "Integrated plasma metabolomics and lipidomics profiling highlight distinctive signatures with Hashimoto's thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, metabolomics, lipidomics, phospholipids, eicosanoids, carnitines, sphingolipids, autophagy, ppar-signaling, oxidative-stress]
 doi: "10.1038/s41598-025-07905-7"
+platform: wikibiome
 ---
 
 # Integrated plasma metabolomics and lipidomics profiling highlight distinctive signatures with Hashimoto's thyroiditis

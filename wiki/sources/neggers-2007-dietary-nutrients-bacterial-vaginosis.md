@@ -1,4 +1,5 @@
 ---
+
 title: "Dietary Intake of Selected Nutrients Affects Bacterial Vaginosis in Women"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: The Journal of Nutrition
 year: 2007
 tags: [bacterial-vaginosis, diet, fat-intake, folate, vitamin-E, calcium, micronutrients, vaginal-flora]
 doi: "10.1093/jn/137.9.2128"
+platform: wikibiome
 ---
 
 # Key Claims

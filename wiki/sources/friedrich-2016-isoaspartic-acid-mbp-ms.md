@@ -1,4 +1,5 @@
 ---
+
 title: "Isoaspartic Acid Is Present at Specific Sites in Myelin Basic Protein from Multiple Sclerosis Patients: Could This Represent a Trigger for Disease Onset?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Acta Neuropathologica Communications
 year: 2016
 tags: [amino-acids, multiple-sclerosis, myelin-basic-protein, isoaspartic-acid, racemization, post-translational-modifications, autoimmunity, citrullination, proteomics]
 doi: "10.1186/s40478-016-0348-x"
+platform: wikibiome
 ---
 
 # Isoaspartic Acid Is Present at Specific Sites in Myelin Basic Protein from Multiple Sclerosis Patients

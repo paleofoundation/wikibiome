@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbiota on cardiovascular diseases -- a mini review on current evidence"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Shouhong Zhang, Jing Li, Liping Li, Xingxing Yuan]
 journal: Frontiers in Microbiology
 year: 2025
 tags: [cardiovascular-disease, gut-microbiome, TMAO, SCFAs, bile-acids, therapeutic-strategies, FMT, probiotics, Mediterranean-diet, statins, metformin]
+platform: wikibiome
 ---
 
 # Zhang et al. 2025 -- Gut Microbiota and CVD: Mini Review

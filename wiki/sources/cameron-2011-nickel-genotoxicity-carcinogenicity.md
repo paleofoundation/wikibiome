@@ -1,4 +1,5 @@
 ---
+
 title: "Exploring the Molecular Mechanisms of Nickel-Induced Genotoxicity and Carcinogenicity: A Literature Review"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2011
 volume: "26(2):81-92"
 doi: "10.1515/reveh.2011.012"
 tags: [nickel, genotoxicity, carcinogenicity, oxidative-stress, DNA-damage, epigenetics, HIF-1, hypoxia, 8-hydroxydeoxyguanosine, immunotoxicity, hematotoxicity, occupational-exposure, lung-cancer, nasal-cancer, nickel-refinery, NTP-studies]
+platform: wikibiome
 ---
 
 # Exploring the Molecular Mechanisms of Nickel-Induced Genotoxicity and Carcinogenicity

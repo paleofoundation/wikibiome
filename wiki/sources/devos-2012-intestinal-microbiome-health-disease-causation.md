@@ -1,4 +1,5 @@
 ---
+
 title: "Role of the Intestinal Microbiome in Health and Disease: From Correlation to Causation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrition Reviews
 year: 2012
 tags: [colon-cancer, microbiome-causality, gut-microbiome, IBD, obesity, diabetes, Clostridium-difficile, FMT, enterotypes, Koch-postulates, common-core-microbiota]
 doi: "10.1111/j.1753-4887.2012.00505.x"
+platform: wikibiome
 ---
 
 # Role of the Intestinal Microbiome in Health and Disease: From Correlation to Causation

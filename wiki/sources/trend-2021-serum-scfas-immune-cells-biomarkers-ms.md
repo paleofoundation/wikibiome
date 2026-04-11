@@ -1,4 +1,5 @@
 ---
+
 title: "Associations of serum short-chain fatty acids with circulating immune cells and serum biomarkers in patients with multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2021
 doi: 10.1038/s41598-021-84881-8
 tags: [multiple-sclerosis, SCFAs, propionate, butyrate, B-cells, T-cells, Tfh, Tfr, IDO1, tryptophan, GDF15, immune-regulation, CIS]
+platform: wikibiome
 ---
 
 # Associations of Serum Short-Chain Fatty Acids with Circulating Immune Cells and Serum Biomarkers in Patients with Multiple Sclerosis

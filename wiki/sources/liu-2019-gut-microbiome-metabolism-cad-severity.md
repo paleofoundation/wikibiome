@@ -1,4 +1,5 @@
 ---
+
 title: "Alterations in the gut microbiome and metabolism with coronary artery disease severity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microbiome
 year: 2019
 doi: 10.1186/s40168-019-0683-9
 tags: [cardiovascular-disease, CVD, coronary-artery-disease, gut-microbiome, metabolomics, multi-omics, co-abundance-groups, taurine, sphingolipids, diagnostic-marker]
+platform: wikibiome
 ---
 
 # Alterations in the Gut Microbiome and Metabolism with Coronary Artery Disease Severity

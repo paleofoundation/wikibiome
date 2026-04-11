@@ -1,4 +1,5 @@
 ---
+
 title: Cardiovascular Disease
 type: entity
 subtype: disease
@@ -20,6 +21,7 @@ sources:
   - liu-2025-cardiometabolic-nickel
   - rasin-2025-cadmium-exposure-health-review
 tags: [cardiovascular-disease, CVD, TMAO, copper, selenium, lead, cadmium, nickel, Cu-Se-ratio, SCFAs, bile-acids, microbiome, mycobiome, oral-microbiome, atherosclerosis, hypertension, heart-failure, dysbiosis, tryptophan, indoxyl-sulfate, metabolomics]
+platform: wikibiome
 ---
 
 # Cardiovascular Disease
@@ -34,13 +36,13 @@ Cardiovascular disease (CVD) -- encompassing atherosclerosis, coronary artery di
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[copper\|Cu]]** | Elevated | 0.85 vs 0.73 ug/mL in AMI (p<0.01); remained elevated 1 month post-PCI; ceruloplasmin-mediated acute phase response |
-| **[[selenium\|Se]]** | Depleted | 90.31 vs 99.98 ng/mL in AMI (p<0.01); persistent depression at 6 months; impairs selenoprotein antioxidant defense |
-| **[[iron\|Fe]]** | Decreased | 0.95 vs 1.17 ug/mL in AMI; Fe/Cu ratio significantly decreased |
-| **[[lead\|Pb]]** | CVD risk factor | Chronic low-level exposure drives hypertension and atherosclerosis |
-| **[[cadmium\|Cd]]** | CVD risk factor | Smoking-associated; vascular toxicity and microbiome disruption |
-| **[[arsenic\|As]]** | Decreased in AMI | 1.32 vs 2.12 ng/mL (p<0.001); paradoxically lower in acute events |
-| **[[nickel\|Ni]]** | Cardiometabolic risk | NHANES epidemiological data linking Ni exposure to metabolic syndrome and CVD |
+| **[[copper|Cu]]** | Elevated | 0.85 vs 0.73 ug/mL in AMI (p<0.01); remained elevated 1 month post-PCI; ceruloplasmin-mediated acute phase response |
+| **[[selenium|Se]]** | Depleted | 90.31 vs 99.98 ng/mL in AMI (p<0.01); persistent depression at 6 months; impairs selenoprotein antioxidant defense |
+| **[[iron|Fe]]** | Decreased | 0.95 vs 1.17 ug/mL in AMI; Fe/Cu ratio significantly decreased |
+| **[[lead|Pb]]** | CVD risk factor | Chronic low-level exposure drives hypertension and atherosclerosis |
+| **[[cadmium|Cd]]** | CVD risk factor | Smoking-associated; vascular toxicity and microbiome disruption |
+| **[[arsenic|As]]** | Decreased in AMI | 1.32 vs 2.12 ng/mL (p<0.001); paradoxically lower in acute events |
+| **[[nickel|Ni]]** | Cardiometabolic risk | NHANES epidemiological data linking Ni exposure to metabolic syndrome and CVD |
 
 ### Cu/Se Ratio as Biomarker
 

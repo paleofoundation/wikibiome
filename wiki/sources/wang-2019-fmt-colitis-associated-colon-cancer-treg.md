@@ -1,4 +1,5 @@
 ---
+
 title: "Protective Role of Fecal Microbiota Transplantation on Colitis and Colitis-Associated Colon Cancer in Mice Is Associated With Treg Cells"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Zitao Wang, Wenjie Hua, Chen Li, Hao Chang, Ran Liu, Yangyue Ni, Hongz
 journal: Frontiers in Microbiology
 year: 2019
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colitis-associated-cancer, Treg-cells, NF-kB, inflammation, butyrate, AOM-DSS, mouse-model, colorectal-cancer]
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Zinc Deficiency as a General Feature of Cancer: A Review of the Literature"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Rie Sugimoto, Lingaku Lee, Yuki Tanaka, Yusuke Morita, Masayuki Hijiok
 journal: Biological Trace Element Research
 year: 2024
 tags: [zinc, zinc-deficiency, cancer, biomarker, esophageal-cancer, breast-cancer, liver-cancer, lung-cancer, colon-cancer, trace-elements]
-doi: "10.3390/pharmaceutics14061175"
+doi: "10.1007/s12011-024-04062-w"
+platform: wikibiome
 ---
 
 ## Summary

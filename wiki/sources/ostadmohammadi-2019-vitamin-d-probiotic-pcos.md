@@ -1,4 +1,5 @@
 ---
+
 title: "Vitamin D and probiotic co-supplementation affects mental health, hormonal, inflammatory and oxidative stress parameters in women with polycystic ovary syndrome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Ovarian Research
 year: 2019
 tags: [PCOS, vitamin-D, probiotics, RCT, mental-health, testosterone, inflammation, oxidative-stress, hs-CRP]
 doi: "10.1186/s13048-019-0480-x"
+platform: wikibiome
 ---
 
 # Key Claims

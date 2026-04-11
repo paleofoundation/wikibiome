@@ -1,4 +1,5 @@
 ---
+
 title: "Novel Candidate Drugs in Anti-Tumor Necrosis Factor Refractory Crohn's Diseases: In Silico Study for Drug Repositioning"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2020
 tags: [crohns-disease, IBD, drug-repositioning, anti-TNF-refractory, vorinostat, cyclosporin, HDAC-inhibitors, NF-kB, chemokine-signaling, computational]
 doi: "10.1038/s41598-020-67801-0"
+platform: wikibiome
 ---
 
 # Key Claims

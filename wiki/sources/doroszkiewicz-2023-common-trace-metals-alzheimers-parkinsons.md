@@ -1,4 +1,5 @@
 ---
+
 title: "Common and Trace Metals in Alzheimer's and Parkinson's Diseases"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Doroszkiewicz J, Farhan JA, Mroczko J, Winkel I, Perkowski M, Mroczko 
 journal: International Journal of Molecular Sciences
 year: 2023
 tags: [trace-metals, Alzheimers-disease, Parkinsons-disease, iron, copper, zinc, manganese, selenium, calcium, metal-homeostasis, biomarkers]
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: Parabacteroides
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, troci-2022-b-cell-depletion-reverses-dysbiosis-ms, su-2020-gut-microbiota-immune-imbalance-graves, liu-2023-colorectal-cancer-progression-microbiome-signature, teng-2024-gut-microbiome-lipids-mr, song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]
 metal_dependencies: [none confirmed -- iron-independent Bacteroidetes metabolism]
 tags: [commensal, anti-inflammatory, bile-acid-metabolism, depleted-in-obesity, depleted-in-T2D, protective]
+platform: wikibiome
 ---
 
 # Parabacteroides
@@ -16,7 +18,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 ## Role in Gut Ecosystem
 
 - Member of the core Bacteroidetes community that dominates the human colon, contributing to polysaccharide degradation and bile acid biotransformation.
-- *P. distasonis* deconjugates primary bile acids and produces secondary bile acids including lithocholic acid, influencing [[FXR]] and TGR5 signaling pathways that regulate immune tone and metabolic homeostasis.
+- *P. distasonis* deconjugates primary bile acids and produces secondary bile acids including lithocholic acid, influencing [[fxr]] and TGR5 signaling pathways that regulate immune tone and metabolic homeostasis.
 - Produces [[short-chain-fatty-acids]] (primarily succinate and acetate) that feed cross-feeding networks supporting butyrate producers like [[faecalibacterium-prausnitzii]].
 - Contributes to colonization resistance against pathogens through niche competition and bile acid-mediated inhibition.
 
@@ -27,16 +29,16 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 - *P. distasonis* supplementation in mouse models improves glucose tolerance, reduces adiposity, and ameliorates hepatic steatosis via bile acid-FXR-FGF15 axis modulation.
 
 ### Autoimmune Disease
-- Significantly depleted in [[Graves' disease]] alongside [[bacteroides-fragilis]] and [[alistipes]], contributing to the pro-inflammatory gut environment that drives thyroid autoimmunity [[[su-2020-gut-microbiota-immune-imbalance-graves]]].
-- Decreased in [[multiple-sclerosis]] at baseline; B-cell depletion therapy (ocrelizumab) further reduces *Parabacteroides* as the overall microbiome shifts toward Firmicutes restoration [[[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]]].
+- Significantly depleted in [[graves-disease]] alongside [[bacteroides-fragilis]] and [[alistipes]], contributing to the pro-inflammatory gut environment that drives thyroid autoimmunity [[su-2020-gut-microbiota-immune-imbalance-graves]].
+- Decreased in [[multiple-sclerosis]] at baseline; B-cell depletion therapy (ocrelizumab) further reduces *Parabacteroides* as the overall microbiome shifts toward Firmicutes restoration [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]].
 
 ### Cancer -- Opposite Directionality
-- Shows true **opposite directionality** in the Islam 2022 meta-analysis: increased in cancer cohorts but decreased in autoimmune disease cohorts [[[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]]].
-- Enriched in [[colorectal-cancer]] progression -- identified among genera contributing to CRC stage advancement alongside *Proteus* and [[alistipes]] [[[liu-2023-colorectal-cancer-progression-microbiome-signature]]].
+- Shows true **opposite directionality** in the Islam 2022 meta-analysis: increased in cancer cohorts but decreased in autoimmune disease cohorts [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
+- Enriched in [[colorectal-cancer]] progression -- identified among genera contributing to CRC stage advancement alongside *Proteus* and [[alistipes]] [[liu-2023-colorectal-cancer-progression-microbiome-signature]].
 - This paradox may reflect context-dependent bile acid metabolism: protective secondary bile acids in healthy mucosa versus tumor-promoting deoxycholic acid in the dysbiotic cancer microenvironment.
 
 ### Lipid Metabolism
-- Mendelian randomization evidence supports causal relationships between *Parabacteroides* abundance and circulating lipid profiles, consistent with its role in bile acid-mediated lipid homeostasis [[[teng-2024-gut-microbiome-lipids-mr]]].
+- Mendelian randomization evidence supports causal relationships between *Parabacteroides* abundance and circulating lipid profiles, consistent with its role in bile acid-mediated lipid homeostasis [[teng-2024-gut-microbiome-lipids-mr]].
 
 ## Key Metabolites
 
@@ -44,12 +46,17 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 - **Succinate** -- intermediate metabolite; fuel for cross-feeding networks
 - **Acetate** -- contributes to gut barrier maintenance and systemic anti-inflammatory signaling
 
+
+## Key Sources
+
+- [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]]
+
 ## Connections
 
 - [[bacteroides-fragilis]] -- sister taxon within Bacteroidales; co-depleted in autoimmune disease
 - [[alistipes]] -- co-depleted in Graves' disease; shared bile acid metabolic niche
 - [[colorectal-cancer]] -- paradoxical enrichment in cancer despite anti-inflammatory properties
-- [[Graves' disease]] -- depleted, contributing to immune imbalance
+- [[graves-disease]] -- depleted, contributing to immune imbalance
 - [[multiple-sclerosis]] -- reduced at baseline in MS patients
 - [[type-2-diabetes]] -- depletion linked to metabolic inflammation
 - [[short-chain-fatty-acids]] -- acetate producer; supports cross-feeding with butyrate producers

@@ -1,4 +1,5 @@
 ---
+
 title: "Altered Gut Microbiome Composition by Appendectomy Contributes to Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Oncogene
 year: 2023
 tags: [colon-cancer, appendectomy, comorbidities, Bacteroides-fragilis, Bacteroides-vulgatus, dysbiosis, intestinal-barrier, E-cadherin, shotgun-metagenomics, colorectal-cancer]
 doi: "10.1038/s41388-022-02569-3"
+platform: wikibiome
 ---
 
 # Altered Gut Microbiome Composition by Appendectomy Contributes to Colorectal Cancer

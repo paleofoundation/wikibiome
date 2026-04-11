@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Feng Lai, Rui Jiang, Weian Xie]
 year: 2019
 journal: "PLOS ONE"
-doi: "10.1371/journal.pone.XXXXXXX"
+doi: "10.1371/journal.pone.0218456"
 tags: [parkinsons-disease, 16S-rRNA-sequencing, 6-OHDA, gut-microbiome, animal-model, dopamine, oxidative-stress, dysbiosis]
 library_category: mechanistic-insights
 platform: both

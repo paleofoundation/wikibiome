@@ -1,4 +1,5 @@
 ---
+
 title: "Acupuncture Attenuates Experimental Autoimmune Thyroiditis by Modulating Intestinal Microbiota and Palmitic Acid Metabolism"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2025
 doi: "10.3389/fimmu.2025.1541728"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, acupuncture, autoimmune-thyroiditis, palmitic-acid, Prevotella, metabolomics, 16S-rRNA, rat-model, apoptosis, selenium-yeast]
+platform: wikibiome
 ---
 
 # Acupuncture Attenuates Experimental Autoimmune Thyroiditis by Modulating Intestinal Microbiota and Palmitic Acid Metabolism

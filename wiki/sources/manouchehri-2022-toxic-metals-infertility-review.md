@@ -1,4 +1,5 @@
 ---
+
 title: "The Effects of Toxic Heavy Metals Lead, Cadmium and Copper on the Epidemiology of Male and Female Infertility"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: JBRA Assisted Reproduction
 year: 2022
 tags: [heavy-metals, lead, cadmium, copper, infertility, reproductive-toxicology, sperm-quality, ovarian-function, endocrine-disruption]
 doi: "10.1097/EDE.0000000000001427"
+platform: wikibiome
 ---
 
 ## Summary

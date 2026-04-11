@@ -1,4 +1,5 @@
 ---
+
 title: "Features of combined gut bacteria and fungi from a Chinese cohort of colorectal cancer, colorectal adenoma, and post-operative patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2023
 doi: "10.3389/fmicb.2023.1236583"
 tags: [colon-cancer, colorectal-cancer, mycobiome, fungal-dysbiosis, bacteria-fungi-interactions, Fusobacterium-nucleatum, Candida-albicans, Saccharomyces-cerevisiae, Bifidobacterium-bifidum, biomarker, adenoma-carcinoma-sequence]
+platform: wikibiome
 ---
 
 # Li 2023 -- Combined Gut Bacteria and Fungi in CRC, Adenoma, and Post-Operative Patients

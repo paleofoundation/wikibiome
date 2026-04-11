@@ -1,4 +1,5 @@
 ---
+
 title: "Targeting the Gut to Treat Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Clinical Investigation
 year: 2021
 tags: [gut-brain-axis, multiple-sclerosis, gut-microbiota, intestinal-barrier, SCFA, bile-acids, probiotics, FMT, antibiotics, EAE, review, ENS, HPA-axis]
 doi: "10.1172/JCI143774"
+platform: wikibiome
 ---
 
 # Targeting the Gut to Treat Multiple Sclerosis

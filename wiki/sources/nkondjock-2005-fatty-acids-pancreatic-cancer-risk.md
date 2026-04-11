@@ -1,4 +1,5 @@
 ---
+
 title: "Specific fatty acid intake and the risk of pancreatic cancer in Canada"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Cancer
 year: 2005
 tags: [pancreatic-cancer, fatty-acids, dietary-fat, risk-factors, epidemiology, saturated-fat, monounsaturated-fat, palmitic-acid, stearic-acid, oleic-acid, obesity]
 doi: "10.1038/sj.bjc.6602380"
+platform: wikibiome
 ---
 
 # Key Claims

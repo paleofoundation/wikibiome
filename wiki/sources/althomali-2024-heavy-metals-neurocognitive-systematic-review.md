@@ -1,4 +1,5 @@
 ---
+
 title: "Exposure to heavy metals and neurocognitive function in adults: a systematic review"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Althomali RH, Abbood MA, Saleh EAM, Djuraeva L, Abdullaeva BS, Habash 
 journal: Environmental Sciences Europe
 year: 2024
 tags: [heavy-metals, neurocognitive-function, cadmium, mercury, systematic-review, adults, cognitive-decline]
+platform: wikibiome
 ---
 
 # Key Claims

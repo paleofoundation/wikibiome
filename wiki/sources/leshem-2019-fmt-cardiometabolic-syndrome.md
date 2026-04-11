@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal microbial transplantation and its potential application in cardiometabolic syndrome"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Avner Leshem, Nir Horesh, Eran Elinav]
 journal: Frontiers in Immunology
 year: 2019
 tags: [cardiovascular-disease, FMT, fecal-microbiota-transplant, cardiometabolic-syndrome, insulin-sensitivity, TMAO, atherosclerosis, obesity, donor-selection]
+platform: wikibiome
 ---
 
 # Leshem et al. 2019 -- FMT and Cardiometabolic Syndrome

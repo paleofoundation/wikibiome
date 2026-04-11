@@ -1,4 +1,5 @@
 ---
+
 title: "Targeting tumor-associated microbiome: A new aspect of modulating tumor microenvironment for cancer therapy"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Advanced Drug Delivery Reviews
 year: 2025
 doi: "10.1016/j.addr.2025.115554"
 tags: [colon-cancer, colorectal-cancer, tumor-associated-bacteria, Fusobacterium-nucleatum, intracellular-bacteria, nanoparticles, tumor-microenvironment, drug-delivery, microbiome-modulation, special-issue-editorial]
+platform: wikibiome
 ---
 
 # Song 2025 -- Targeting Tumor-Associated Microbiome for Cancer Therapy (Editorial)

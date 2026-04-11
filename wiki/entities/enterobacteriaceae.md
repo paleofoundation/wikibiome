@@ -1,4 +1,5 @@
 ---
+
 title: Enterobacteriaceae
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, jie-2017-gut-microbiome-acvd, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, hanus-2021-immune-microbiota-metabolites-crc-triad, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]
 metal_dependencies: [iron -- siderophore-mediated acquisition is central to virulence; nickel -- Ni-dependent urease and hydrogenase; zinc -- Zn-dependent metalloproteases]
 tags: [pathogen-family, iron-dependent, siderophore-producers, dysbiosis-bloom, LPS-producers, metal-resistant, antibiotic-resistance]
+platform: wikibiome
 ---
 
 # Enterobacteriaceae
@@ -18,23 +20,23 @@ A family of Gram-negative, facultative anaerobic Gammaproteobacteria that includ
 - Enterobacteriaceae are **avid iron scavengers**, producing multiple siderophore systems (enterobactin, aerobactin, yersiniabactin, salmochelin) to acquire [[iron]] from the host environment.
 - Under [[nutritional-immunity]] conditions (where the host sequesters iron), siderophore production becomes the primary competitive weapon against non-siderophore-producing commensals like [[lachnospiraceae]], [[roseburia]], and [[faecalibacterium-prausnitzii]].
 - Excess dietary iron supplementation paradoxically promotes Enterobacteriaceae expansion by overwhelming host iron sequestration mechanisms.
-- The iron-rich tumor microenvironment in [[colorectal-cancer]] selects for siderophore-producing E. coli strains, including genotoxic pks+ strains that produce colibactin [[[hanus-2021-immune-microbiota-metabolites-crc-triad]]].
+- The iron-rich tumor microenvironment in [[colorectal-cancer]] selects for siderophore-producing E. coli strains, including genotoxic pks+ strains that produce colibactin [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
 ## Nickel-Dependent Enzymes
 
 - All Enterobacteriaceae are predicted to carry **Ni-dependent glyoxalase I (Ni-GloI)**, a metal-dependent detoxification enzyme.
-- [[Nickel]]-dependent urease (in Proteus, Klebsiella, Yersinia) generates ammonia that raises local pH and damages epithelial cells.
-- [NiFe]-hydrogenase enables hydrogen-dependent energy metabolism in the gut, conferring a metabolic advantage in the H2-rich colonic environment [[[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]].
+- [[nickel]]-dependent urease (in Proteus, Klebsiella, Yersinia) generates ammonia that raises local pH and damages epithelial cells.
+- [NiFe]-hydrogenase enables hydrogen-dependent energy metabolism in the gut, conferring a metabolic advantage in the H2-rich colonic environment [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
 ## Dysbiosis Bloom
 
 Enterobacteriaceae expansion is enriched in virtually every disease state:
 
-- **Cardiovascular disease**: enriched in ACVD with increased TMA lyase genes (CutC/D, YeaW/X) for TMAO production. LPS biosynthesis genes also enriched [[[jie-2017-gut-microbiome-acvd]]].
-- **Colorectal cancer**: enriched in CRC patients; alcohol consumption further increases abundance [[[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]]. pks+ E. coli produces colibactin causing DNA double-strand breaks.
-- **Parkinson's disease**: consistently increased in PD; LPS translocation triggers neuroinflammation via TLR4/NF-kB [[[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]].
+- **Cardiovascular disease**: enriched in ACVD with increased TMA lyase genes (CutC/D, YeaW/X) for TMAO production. LPS biosynthesis genes also enriched [[jie-2017-gut-microbiome-acvd]].
+- **Colorectal cancer**: enriched in CRC patients; alcohol consumption further increases abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. pks+ E. coli produces colibactin causing DNA double-strand breaks.
+- **Parkinson's disease**: consistently increased in PD; LPS translocation triggers neuroinflammation via TLR4/NF-kB [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - **IBD**: blooms during flares when oxygen leaks into the lumen through damaged epithelium, favoring facultative anaerobes over obligate anaerobes.
-- **Heavy metal exposure**: enriched with As, Pb, Hg, and Cd exposure, as these bacteria possess metal efflux pumps and siderophores that confer metal tolerance [[[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]].
+- **Heavy metal exposure**: enriched with As, Pb, Hg, and Cd exposure, as these bacteria possess metal efflux pumps and siderophores that confer metal tolerance [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
 
 ## Metal-Antibiotic Co-Resistance
 

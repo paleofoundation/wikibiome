@@ -1,4 +1,5 @@
 ---
+
 title: "Efficiency of Management of Patients with Irritable Bowel Syndrome with Constipation and Autoimmune Thyroiditis with Hypothyroidism Using Rifaximin"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Endocrinology (Ukraine)
 year: 2025
 doi: "10.22141/2224-0721.21.2.2025.1502"
 tags: [hashimotos-thyroiditis, thyroid, IBS, SIBO, rifaximin, gut-microbiome, constipation, anxiety, depression, quality-of-life, antidepressants, gut-thyroid-axis]
+platform: wikibiome
 ---
 
 # Efficiency of Management of Patients with Irritable Bowel Syndrome with Constipation and Autoimmune Thyroiditis with Hypothyroidism Using Rifaximin

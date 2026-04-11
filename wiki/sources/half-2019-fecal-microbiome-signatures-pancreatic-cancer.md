@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal microbiome signatures of pancreatic cancer patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2019
 tags: [pancreatic-cancer, microbiome-signature, fecal-microbiome, 16S-rRNA, microbial-biomarkers, Firmicutes, Bacteroidetes, bile-duct-obstruction, dysbiosis]
 doi: "10.1038/s41598-019-53041-4"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "A systematic Mendelian randomized study of the effects of the gut microbiome and immune cells on pancreatic neuroendocrine tumors"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Discover Oncology
 year: 2025
 tags: [pancreatic-cancer, mendelian-randomization, pNETs, neuroendocrine-tumors, gut-microbiome, immune-cells, Ruminococcus-torques, Paraprevotella, T-cells]
 doi: "10.1007/s12672-025-02761-3"
+platform: wikibiome
 ---
 
 # Key Claims

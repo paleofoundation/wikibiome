@@ -1,4 +1,5 @@
 ---
+
 title: "Diagnosis and Treatment of Multiple Sclerosis: A Review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: JAMA
 year: 2021
 doi: 10.1001/jama.2020.26858
 tags: [multiple-sclerosis, diagnosis, treatment, disease-modifying-therapy, DMT, McDonald-criteria, epidemiology, clinical-review]
+platform: wikibiome
 ---
 
 # Diagnosis and Treatment of Multiple Sclerosis: A Review

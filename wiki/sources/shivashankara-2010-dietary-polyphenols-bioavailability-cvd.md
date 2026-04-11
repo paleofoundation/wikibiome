@@ -1,4 +1,5 @@
 ---
+
 title: "Bioavailability of Dietary Polyphenols and the Cardiovascular Diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: The Open Nutraceuticals Journal
 year: 2010
 doi: 10.2174/1876396001003010227
 tags: [cardiovascular-disease, dietary-polyphenols, bioavailability, flavonoids, LDL-oxidation, vasodilation, platelet-aggregation, gut-microbiota, phenolic-acids, anthocyanins]
+platform: wikibiome
 ---
 
 # Bioavailability of Dietary Polyphenols and the Cardiovascular Diseases

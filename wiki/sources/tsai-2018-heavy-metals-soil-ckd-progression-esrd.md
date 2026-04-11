@@ -1,4 +1,5 @@
 ---
+
 title: "Prospective associations between environmental heavy metal exposure and renal outcomes in adults with chronic kidney disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Nephrology"
 year: 2018
 tags: [chronic-kidney-disease, ESRD, nickel, zinc, copper, chromium, soil-pollution, Taiwan, Changhua]
 doi: "10.1016/j.cct.2022.107065"
+platform: wikibiome
 ---
 
 # Key Claims

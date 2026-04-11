@@ -1,4 +1,5 @@
 ---
+
 title: "Specific Nickel Compounds as Carcinogens"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Trends in Pharmacological Sciences (TIPS)
 year: 1982
 volume: "3:408-410"
 tags: [nickel, carcinogenesis, nickel-subsulfide, nickel-oxide, phagocytosis, cell-transformation, structure-activity, crystalline-NiS, amorphous-NiS, surface-charge, DNA-damage, foundational-paper]
+platform: wikibiome
 ---
 
 # Specific Nickel Compounds as Carcinogens

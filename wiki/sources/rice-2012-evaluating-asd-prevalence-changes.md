@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Catherine E. Rice, Michael Rosanoff, Geraldine Dawson, Maureen S. Durkin, Lisa A. Croen, Alison Singer, Marshalyn Yeargin-Allsopp]
 year: 2012
 journal: "Public Health Reviews"
-doi: ""
+doi: "10.1007/BF03391693"
 tags: [autism-spectrum-disorder, prevalence, epidemiology, CDC, ADDM-network, risk-factors, identification, diagnostic-criteria]
 library_category: "Literature review"
 platform: review

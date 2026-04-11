@@ -1,4 +1,5 @@
 ---
+
 title: "The Microbiome-Thyroid Link: A Review of the Role of the Gut Microbiota in Thyroid Function and Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Clinical and Pharmaceutical Research
 year: 2023
 doi: ""
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiota, dysbiosis, hypothyroidism, autoimmune-thyroiditis, probiotics, prebiotics, fermented-foods, high-fiber-diet, dietary-fiber, SCFAs, Bifidobacterium, Lactobacillus, Faecalibacterium, intestinal-permeability, molecular-mimicry, autoantigen-presentation, tryptophan, microbiome-diet]
+platform: wikibiome
 ---
 
 # The Microbiome-Thyroid Link: A Review of the Role of the Gut Microbiota in Thyroid Function and Disease

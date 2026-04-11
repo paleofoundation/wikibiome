@@ -1,7 +1,9 @@
 ---
+
 title: "Antimicrobial Resistance"
 category: concept
 tags: [antimicrobial-resistance, antibiotic-resistance, co-selection, metal-resistance, ESKAPE, mobile-genetic-elements]
+platform: wikibiome
 ---
 
 # Antimicrobial Resistance
@@ -10,7 +12,7 @@ The ability of microorganisms to withstand antimicrobial agents (antibiotics, an
 
 ## Metal-Driven Resistance
 
-- **[[Arsenic]]**, **[[mercury]]**, **[[cadmium]]**, **[[copper]]**, and **[[zinc]]** resistance operons are commonly linked to antibiotic resistance genes on plasmids and transposons.
+- **[[arsenic]]**, **[[mercury]]**, **[[cadmium]]**, **[[copper]]**, and **[[zinc]]** resistance operons are commonly linked to antibiotic resistance genes on plasmids and transposons.
 - ESKAPE pathogens ([[staphylococcus-aureus]], [[klebsiella-pneumoniae]], [[pseudomonas-aeruginosa]]) exhibit metal-antibiotic co-resistance.
 - Environmental metal pollution (mining, agriculture, industrial waste) creates selection pressure that enriches resistant organisms before they enter the human [[gut-metal-microbiome]].
 
@@ -18,7 +20,7 @@ The ability of microorganisms to withstand antimicrobial agents (antibiotics, an
 
 - Antibiotic use disrupts gut microbiome composition, depleting [[short-chain-fatty-acids]] producers and enabling pathobiont expansion.
 - Metal exposure in food and water may sustain resistance genes in the gut even without antibiotic use.
-- [[Probiotics]] and microbiome restoration strategies may help counteract resistance-driven [[dysbiosis]].
+- [[probiotics]] and microbiome restoration strategies may help counteract resistance-driven [[dysbiosis]].
 
 ## Connections
 

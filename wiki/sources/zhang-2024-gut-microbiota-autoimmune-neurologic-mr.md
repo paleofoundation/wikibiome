@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota and Autoimmune Neurologic Disorders: A Two-Sample Bidirectional Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2024
 tags: [Mendelian-randomization, gut-microbiome, multiple-sclerosis, Guillain-Barre-syndrome, myasthenia-gravis, Ruminococcus, Roseburia, SCFA, causal-inference]
 doi: "10.3389/fmicb.2024.1337632"
+platform: wikibiome
 ---
 
 # Gut Microbiota and Autoimmune Neurologic Disorders: A Two-Sample Bidirectional Mendelian Randomization Study

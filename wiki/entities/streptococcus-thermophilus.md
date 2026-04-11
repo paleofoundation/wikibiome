@@ -1,4 +1,5 @@
 ---
+
 title: Streptococcus thermophilus
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "positive"
 oxygen_requirement: "facultative-anaerobe"
 metal_dependencies: [manganese, zinc]
 key_enzymes: [beta-galactosidase, lactic-acid-synthetase, glucosyltransferase]
+platform: wikibiome
 ---
 
 # Streptococcus thermophilus
@@ -70,7 +72,7 @@ key_enzymes: [beta-galactosidase, lactic-acid-synthetase, glucosyltransferase]
 ### Colonic Effects
 
 - Lactic acid produced by *S. thermophilus* (and other lactic acid bacteria) **acidifies the colon**, lowering pH from ~7 toward 5.5–6.5
-- **Acidification creates selective pressure** favoring acid-tolerant commensals (Bifidobacteria, Lachnospiraceae) and inhibiting pathogens ([[clostridioides-difficile]], [[salmonella]], pathogenic E. coli)
+- **Acidification creates selective pressure** favoring acid-tolerant commensals (Bifidobacteria, Lachnospiraceae) and inhibiting pathogens ([[clostridioides-difficile]], [[salmonella-typhimurium|salmonella]], pathogenic E. coli)
 - Enhanced colonic acidification also improves mineral absorption (especially calcium and magnesium)
 
 ## Anti-Inflammatory and Immunomodulatory Properties
@@ -185,7 +187,7 @@ key_enzymes: [beta-galactosidase, lactic-acid-synthetase, glucosyltransferase]
 - [[lactose-intolerance]] – β-galactosidase enables lactose digestion in dairy products
 - [[dairy-fermentation]] – primary organism in yogurt production; key for food preservation
 - [[lactic-acid]] – primary fermentation product; acidifies colon
-- [[intestinal-barrier-function]] – promotes tight junction protein expression and Treg differentiation
+- [[nutritional-immunity|intestinal-barrier-function]] – promotes tight junction protein expression and Treg differentiation
 - [[immune-tolerance]] – anti-inflammatory; promotes IL-10 and Treg responses
 - [[dysbiosis]] – transient therapeutic intervention; not a permanent colonizer
 - [[antibiotic-associated-diarrhea]] – modest risk reduction when coadministered with antibiotics

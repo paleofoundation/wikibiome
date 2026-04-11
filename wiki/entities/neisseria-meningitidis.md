@@ -1,4 +1,5 @@
 ---
+
 title: Neisseria meningitidis
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallo
 metal_dependencies: [nickel, iron]
 key_enzymes: [Ni-GloI]
 tags: [pathogen, meningitis, sepsis, nasopharyngeal-commensal, Ni-GloI]
+platform: wikibiome
 ---
 
 # Neisseria meningitidis
@@ -18,14 +20,14 @@ A Gram-negative diplococcus that is both a **nasopharyngeal commensal** (carried
 
 ### Ni-Glyoxalase I
 
-- *N. meningitidis* possesses a confirmed Ni-dependent GloI that detoxifies **methylglyoxal**, the toxic byproduct of glycolysis [[[maier-2019-nickel-microbial-pathogenesis]]].
+- *N. meningitidis* possesses a confirmed Ni-dependent GloI that detoxifies **methylglyoxal**, the toxic byproduct of glycolysis [[maier-2019-nickel-microbial-pathogenesis]].
 - During the transition from commensal carriage to invasive disease, *N. meningitidis* undergoes rapid proliferation in the bloodstream and CSF. High glycolytic throughput generates methylglyoxal that must be detoxified to sustain growth.
 - The Ni-dependent GloI is structurally distinct from human Zn-dependent GloI, making it a potential selective drug target -- particularly relevant for a pathogen where rapid treatment is life-or-death.
 - *N. gonorrhoeae* (the gonococcus) also possesses Ni-GloI, extending this nickel dependency across the genus.
 
 ## Iron Acquisition
 
-- Iron is the most critical metal for meningococcal virulence. *N. meningitidis* has multiple iron acquisition systems [[[patil-2021-infection-metallomics-critical-care]]]:
+- Iron is the most critical metal for meningococcal virulence. *N. meningitidis* has multiple iron acquisition systems [[patil-2021-infection-metallomics-critical-care]]:
   - **Transferrin-binding proteins (TbpA/TbpB)**: directly strip iron from host transferrin -- a human-specific adaptation.
   - **Lactoferrin-binding proteins (LbpA/LbpB)**: acquire iron from lactoferrin at mucosal surfaces.
   - **Hemoglobin/haptoglobin receptors (HmbR, HpuAB)**: access iron from hemoglobin.
@@ -36,7 +38,7 @@ A Gram-negative diplococcus that is both a **nasopharyngeal commensal** (carried
 
 - **Nasopharyngeal colonization**: initial attachment via Type IV pili and Opa/Opc adhesins. At this stage, the bacterium lives as a commensal using mucosal iron sources.
 - **Invasion**: breach of the nasopharyngeal epithelium, entry into the bloodstream. Capsular polysaccharide is the primary defense against complement-mediated killing.
-- **Meningitis**: crossing the blood-brain barrier (BBB) via transcellular, paracellular, and possibly Trojan horse mechanisms [[[patil-2021-infection-metallomics-critical-care]]]. The CSF is extremely nutrient-poor, making metal acquisition critical.
+- **Meningitis**: crossing the blood-brain barrier (BBB) via transcellular, paracellular, and possibly Trojan horse mechanisms [[patil-2021-infection-metallomics-critical-care]]. The CSF is extremely nutrient-poor, making metal acquisition critical.
 - **Septicemic shock (purpura fulminans)**: massive endotoxin (LPS) release causes disseminated intravascular coagulation, hemorrhagic skin necrosis, and multi-organ failure.
 
 ## Clinical Significance
@@ -45,6 +47,11 @@ A Gram-negative diplococcus that is both a **nasopharyngeal commensal** (carried
 - **Epidemic potential**: causes large outbreaks, particularly in the African "meningitis belt." Serogroup A epidemics have been partially controlled by MenAfriVac.
 - **Serogroups**: A, B, C, W, X, Y cause most disease. Vaccines exist for A, C, W, Y (conjugate) and B (protein-based).
 - **Rapid progression**: can kill within hours of symptom onset; empiric treatment (ceftriaxone) must begin immediately on clinical suspicion.
+
+
+## Key Sources
+
+- [[kun-2023-microbiota-thyroid-cancer]]
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Metabolomics: a promising tool for deciphering metabolic impairment in heavy metal toxicities"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Molecular Biosciences
 year: 2023
 tags: [metabolomics, heavy-metals, arsenic, lead, cadmium, mercury, oxidative-stress, lipid-metabolism, amino-acid-metabolism, biomarkers]
 doi: "10.3389/fmolb.2023.1218497"
+platform: wikibiome
 ---
 
 # Key Claims

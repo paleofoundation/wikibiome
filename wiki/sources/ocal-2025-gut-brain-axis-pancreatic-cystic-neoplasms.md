@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota-Brain Axis in Pancreatic Cystic Neoplasms: An Observational Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Pakistan Journal of Medical Sciences
 year: 2025
 tags: [pancreatic-cancer, gut-brain-axis, microbiome, pancreatic-cysts, depression, anxiety, Firmicutes-Bacteroidetes-ratio, inflammation, 16S-rRNA]
 doi: "10.12669/pjms.41.12.12010"
+platform: wikibiome
 ---
 
 # Key Claims

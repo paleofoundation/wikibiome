@@ -1,4 +1,5 @@
 ---
+
 title: "Synergistic immunomodulatory effect of synbiotics pre- and postoperative resection of pancreatic ductal adenocarcinoma: a randomized controlled study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cancer Immunology, Immunotherapy
 year: 2024
 tags: [pancreatic-cancer, synbiotics, probiotics, prebiotics, immunomodulation, CD8-T-cells, IFN-gamma, IL-1-beta, IL-10, postoperative-complications, RCT, Whipple-procedure]
 doi: "10.1007/s00262-024-03686-6"
+platform: wikibiome
 ---
 
 # Key Claims

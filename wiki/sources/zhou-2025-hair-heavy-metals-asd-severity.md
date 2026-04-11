@@ -1,4 +1,5 @@
 ---
+
 title: "Evaluation of Heavy Metals and Essential Minerals in the Hair of Children with Autism Spectrum Disorder and Their Association with Symptom Severity"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Xulan Zhou, Xiaochun Xia, Liming Li, Yaohui Ye, Qihui Chen, Mingyue Ke
 journal: Biological Trace Element Research
 year: 2025
 tags: [autism, heavy-metals, hair-analysis, copper, nickel, arsenic, cadmium, lead, vanadium, cobalt, severity, ICP-MS, children]
+platform: wikibiome
 ---
 
 # Zhou et al. 2025 -- Hair Heavy Metals and Essential Minerals in ASD Children by Severity

@@ -1,4 +1,5 @@
 ---
+
 title: "Endometriosis — Microbiome Signature"
 type: signature
 created: 2026-04-09
@@ -48,6 +49,7 @@ virulence_enzymes: [zinc-metalloprotease, NiFe-hydrogenase, nickel-urease, nicke
 cureva_status: complete
 validated_interventions: [low-nickel-diet, low-red-meat-diet, low-fat-diet, citrus-fruits, ecoli-nissle-1917, saccharomyces-boulardii, lactoferrin-supplementation, nac-supplementation, hbot]
 stops: [stop-iron-supplementation-endometriosis, stop-zinc-supplementation-endometriosis]
+platform: cureva
 ---
 
 ## Overview
@@ -260,3 +262,21 @@ All 9 Karen's Brain primitives are active in this signature:
 7. **Estrobolome and Hormone Recirculation** — Beta-glucuronidase drives estrogen-dependent disease progression
 8. **Siderophore Competition and Iron Ecology** — E. coli Nissle 1917 outcompetes via superior siderophores
 9. **Oxygen State as Ecological Determinant** — Hypoxia maintained by hydrogenase + Candida → HBOT as intervention
+
+## Key Sources
+
+- [[zinc-endometriosis-2024]]
+- [[lactoferrin-genital-2019]]
+- [[endo-vaginal-microbiota-glycome]]
+- [[altered-microbiota-ovarian-endometrioma-2021]]
+- [[antibiotics-metronidazole-endo-2019]]
+- [[associations-endo-gut-2020]]
+- [[fecal-metabolomics-endo-2020]]
+- [[effect-endo-fecal-bacteriota-2019]]
+- [[endo-induces-gut-alterations-2018]]
+- [[gut-imbalance-hormone-endo-2020]]
+- [[inflammatory-cytokines-peritoneal-2018]]
+- [[microbiome-deep-endo-2020]]
+- [[microbiome-lower-genital-chinese]]
+- [[microbiota-composition-distribution-2020]]
+- [[molecular-intrauterine-colonization-2016]]

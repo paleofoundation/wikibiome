@@ -1,4 +1,5 @@
 ---
+
 title: "Oral and fecal microbiome alterations in pancreatic cancer: insights into potential diagnostic biomarkers"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Microbiology
 year: 2025
 tags: [pancreatic-cancer, microbial-biomarkers, oral-microbiome, fecal-microbiome, Fusobacterium-nucleatum, Neisseria-elongata, Granulicatella, Roseburia, Bifidobacterium, qPCR, diagnostics]
 doi: "10.1186/s12866-025-04344-2"
+platform: wikibiome
 ---
 
 # Key Claims

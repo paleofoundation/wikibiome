@@ -1,4 +1,5 @@
 ---
+
 title: "Prescription Infant Formulas Are Contaminated with Aluminium"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Redgrove J, Rodriguez I, Mahadevan-Bava S, Exley C]
 journal: International Journal of Environmental Research and Public Health
 year: 2019
 tags: [aluminum, infant-formula, prescription-formula, contamination, preterm-infants, vulnerable-populations, UK]
-doi: "10.2478/prilozi-2021-0020"
+doi: "10.3390/ijerph16050899"
+platform: wikibiome
 ---
 
 ## Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "B-Cell Depletion Therapy for Multiple Sclerosis"
 type: intervention
 created: 2026-04-10
@@ -22,6 +23,7 @@ targets:
   enzymes: [short-chain-fatty-acid-biosynthesis, butyrate-production]
   metals: []
   ecological: [reduced-dysbiosis, restored-firmicutes-predominance, recovered-SCFA-producing-capacity]
+platform: cureva
 ---
 
 ## Mechanism of Action

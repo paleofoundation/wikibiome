@@ -1,4 +1,5 @@
 ---
+
 title: Alloprevotella
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [propionate-synthase, acetic-acid-synthase, glycan-degradation-complex]
+platform: wikibiome
 ---
 
 # Alloprevotella
@@ -117,7 +119,7 @@ Alloprevotella restoration is considered one of the **most important microbiota 
 - [[glucose-metabolism]] – propionate improves hepatic glucose homeostasis and reduces gluconeogenesis
 - [[insulin-resistance]] – Alloprevotella depletion strongly associated with HOMA-IR elevation
 - [[short-chain-fatty-acids]] – primary propionate producer; key SCFA in metabolic disease prevention
-- [[intestinal-barrier-function]] – propionate maintains tight junctions and reduces endotoxemia
+- [[nutritional-immunity|intestinal-barrier-function]] – propionate maintains tight junctions and reduces endotoxemia
 - [[endotoxemia]] – loss increases LPS translocation; propionate-mediated barrier maintenance is key protective mechanism
 - [[periodontitis]] – depleted in active periodontal disease; oral-gut axis shared dysbiosis
 - [[bile-acid-metabolism]] – moderate BSH activity; produces secondary bile acids for metabolic signaling

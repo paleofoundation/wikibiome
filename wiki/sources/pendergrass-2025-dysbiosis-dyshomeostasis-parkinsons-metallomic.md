@@ -1,4 +1,5 @@
 ---
+
 title: "Pendergrass 2025 — From Dysbiosis to Dyshomeostasis: Why Parkinson's Requires a Metallomic–Microbiome Lens"
 type: source
 created: 2026-04-10
@@ -8,6 +9,7 @@ year: 2025
 journal: "Microbiome Medicine Journal"
 doi: "10.5281/zenodo.18068369"
 tags: [parkinsons-disease, metallomics, dysbiosis, ferroptosis, gut-brain-axis, microbiome, iron, nickel, manganese]
+platform: wikibiome
 ---
 
 # From Dysbiosis to Dyshomeostasis: Why Parkinson's Requires a Metallomic–Microbiome Lens

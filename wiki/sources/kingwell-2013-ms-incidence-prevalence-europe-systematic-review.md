@@ -1,4 +1,5 @@
 ---
+
 title: "Incidence and prevalence of multiple sclerosis in Europe: a systematic review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Neurology
 year: 2013
 doi: 10.1186/1471-2377-13-128
 tags: [multiple-sclerosis, epidemiology, incidence, prevalence, Europe, systematic-review, geographical-variation, sex-ratio]
+platform: wikibiome
 ---
 
 # Incidence and Prevalence of Multiple Sclerosis in Europe: A Systematic Review

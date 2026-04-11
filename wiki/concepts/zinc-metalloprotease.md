@@ -1,4 +1,5 @@
 ---
+
 title: "Zinc-Metalloprotease"
 type: concept
 created: 2026-04-10
@@ -6,6 +7,7 @@ updated: 2026-04-10
 sources: []
 tags: [virulence-enzyme, zinc-biology, metal-cofactor, tissue-destruction, immune-evasion]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels"
+platform: wikibiome
 ---
 
 ## Overview
@@ -13,7 +15,7 @@ karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' H
 **Zinc-metalloproteases** are a large and functionally diverse family of proteolytic enzymes requiring **zinc (Zn²⁺)** in the active site for catalytic activity. They cleave peptide bonds in proteins, causing tissue destruction, immune evasion, and bacterial dissemination. Major families include:
 
 - **Matrix metalloproteinases (MMPs)** — host enzymes; MMP-2, MMP-9 degrade collagen and basement membrane
-- **Bacterial metalloproteases** — virulence factors; e.g., **BFT toxin** from [[Bacteroides-fragilis|B. fragilis]], P. aeruginosa elastase, Vibrio metalloproteases
+- **Bacterial metalloproteases** — virulence factors; e.g., **BFT toxin** from [[bacteroides-fragilis|B. fragilis]], P. aeruginosa elastase, Vibrio metalloproteases
 - **Thermolysin-like proteases** — found in Gram-positive and Gram-negative bacteria
 
 In the microbiome context, bacterial zinc-metalloproteases are **critical virulence factors** enabling:
@@ -43,10 +45,10 @@ The mechanism:
 
 **Notable bacterial zinc-metalloproteases:**
 
-**BFT toxin** ([[Bacteroides-fragilis|B. fragilis]] fragilysin):
+**BFT toxin** ([[bacteroides-fragilis|B. fragilis]] fragilysin):
 - Zinc-dependent serine protease (unusual: serine = nucleophile, but zinc still required for activity)
 - Cleaves E-cadherin → disrupts epithelial tight junctions
-- Enables [[Bacteroides-fragilis|B. fragilis]] invasion and immune evasion
+- Enables [[bacteroides-fragilis|B. fragilis]] invasion and immune evasion
 - Expressed primarily by pathogenic (enterotoxigenic) strains of B. fragilis
 
 **Pseudomonas aeruginosa elastase:**
@@ -58,10 +60,10 @@ The mechanism:
 
 **Diseases featuring bacterial zinc-metalloproteases:**
 
-- [[Endometriosis]]: [[Bacteroides-fragilis|B. fragilis]] BFT toxin contributes to peritoneal lesion formation and immune dysfunction
-- [[Crohns-disease]]: BFT-producing B. fragilis strains are enriched; toxin drives barrier disruption and chronic intestinal inflammation
+- [[endometriosis]]: [[bacteroides-fragilis|B. fragilis]] BFT toxin contributes to peritoneal lesion formation and immune dysfunction
+- [[crohns-disease]]: BFT-producing B. fragilis strains are enriched; toxin drives barrier disruption and chronic intestinal inflammation
 - **Cystic fibrosis pulmonary infection**: P. aeruginosa elastase degrades lung elastin and immune proteins; drives progressive lung destruction
-- [[Colorectal-cancer]]: BFT-producing B. fragilis is associated with dysplasia and tumor progression
+- [[colorectal-cancer]]: BFT-producing B. fragilis is associated with dysplasia and tumor progression
 - **Wound infections**: Vibrio and Aeromonas metalloproteases in marine/aquatic wound contamination cause rapid tissue necrosis
 
 **Host metalloprotease elevation:**
@@ -75,11 +77,11 @@ Zinc-metalloproteases are a paradigm for **Primitive 4: Metal Dependencies as Ac
 
 **Zinc starvation as inhibition strategy:**
 - High [[zinc]] availability → high BFT expression and activity → tissue destruction
-- [[Zinc]] sequestration (via [[lactoferrin]], [[calprotectin]]) → low bioavailable [[zinc]] → reduced metalloprotease activity → reduced epithelial damage
+- [[zinc]] sequestration (via [[lactoferrin]], [[calprotectin]]) → low bioavailable [[zinc]] → reduced metalloprotease activity → reduced epithelial damage
 
 **Nutritional immunity against metalloproteases:**
 - Host produces [[calprotectin]] (S100A8/A9 dimer) — binds Zn²⁺ and Mn²⁺, sequestering them in inflamed tissues
-- [[Lactoferrin]] also chelates [[zinc]] (less potent than for [[iron]], but still relevant)
+- [[lactoferrin]] also chelates [[zinc]] (less potent than for [[iron]], but still relevant)
 - High [[calprotectin]] (seen in inflammatory bowel disease, cancer) may partially limit bacterial metalloprotease activity
 
 **Zinc-iron cross-talk:**
@@ -89,32 +91,32 @@ Zinc-metalloproteases are a paradigm for **Primitive 4: Metal Dependencies as Ac
 
 **Zinc and immune function:**
 - Host [[zinc]]-dependent enzymes (e.g., [[zinc-finger]] transcription factors, thymulin) are required for Th1 differentiation and neutrophil recruitment
-- [[Zinc]] deficiency → Th2 shift → reduced IFN-γ → reduced immune pressure on BFT-producing B. fragilis
+- [[zinc]] deficiency → Th2 shift → reduced IFN-γ → reduced immune pressure on BFT-producing B. fragilis
 - This creates a vicious cycle: dysbiosis → [[zinc]] sequestration (nutritional immunity) → [[zinc]] deficiency → impaired Th1 → pathobiont escape
 
 ## Connections
 
 **Related enzymes:**
 - **Matrix metalloproteinases (MMPs)** — host enzymes; elevated in inflammatory disease; can work synergistically with bacterial metalloproteases
-- [[Elastase]] — another protease family; overlaps with metalloproteases in substrate specificity
-- [[BFT-toxin]] — specific to [[Bacteroides-fragilis|B. fragilis]]; major driver of [[endometriosis]] and inflammatory bowel disease
+- [[elastase]] — another protease family; overlaps with metalloproteases in substrate specificity
+- [[bft-toxin]] — specific to [[bacteroides-fragilis|B. fragilis]]; major driver of [[endometriosis]] and inflammatory bowel disease
 
 **Related organisms:**
-- [[Bacteroides-fragilis|B. fragilis]] — primary pathobiont producing BFT toxin
-- [[Pseudomonas-aeruginosa|P. aeruginosa]] — opportunistic pathogen with elastase and other metalloproteases
-- [[Vibrio]] and [[Aeromonas]] — aquatic pathogens with tissue-destructive metalloproteases
+- [[bacteroides-fragilis|B. fragilis]] — primary pathobiont producing BFT toxin
+- [[pseudomonas-aeruginosa|P. aeruginosa]] — opportunistic pathogen with elastase and other metalloproteases
+- [[vibrio]] and [[aeromonas]] — aquatic pathogens with tissue-destructive metalloproteases
 
 **Related concepts:**
-- [[Nutritional-immunity]] — [[zinc]] sequestration as a defense against metalloproteases
-- [[Barrier-disruption]] — metalloproteases degrade tight-junction proteins and extracellular matrix
-- [[Biofilm]] — zinc-metalloproteases enable matrix remodeling and biofilm architectural changes
-- [[Metal-cofactor-dependency]] — general principle; zinc-metalloproteases are a key example
+- [[nutritional-immunity]] — [[zinc]] sequestration as a defense against metalloproteases
+- [[nutritional-immunity|barrier-disruption]] — metalloproteases degrade tight-junction proteins and extracellular matrix
+- [[biofilm]] — zinc-metalloproteases enable matrix remodeling and biofilm architectural changes
+- [[metal-dependent-virulence|metal-cofactor-dependency]] — general principle; zinc-metalloproteases are a key example
 
 **Related metals and proteins:**
-- [[Zinc]] — the essential cofactor; zinc depletion is a therapeutic strategy
-- [[Calprotectin]] — sequesters zinc; elevated in inflammatory disease
-- [[Lactoferrin]] — also chelates zinc (less potently than iron)
-- [[Iron]] — often co-depleted with zinc for synergistic effect
+- [[zinc]] — the essential cofactor; zinc depletion is a therapeutic strategy
+- [[calprotectin]] — sequesters zinc; elevated in inflammatory disease
+- [[lactoferrin]] — also chelates zinc (less potently than iron)
+- [[iron]] — often co-depleted with zinc for synergistic effect
 
 **Disease pages:**
-- [[Endometriosis]], [[Crohns-disease]], [[colorectal-cancer]] — conditions where BFT-producing B. fragilis zinc-metalloproteases drive pathology
+- [[endometriosis]], [[crohns-disease]], [[colorectal-cancer]] — conditions where BFT-producing B. fragilis zinc-metalloproteases drive pathology

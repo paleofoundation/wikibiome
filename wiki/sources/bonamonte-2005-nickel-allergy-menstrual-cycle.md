@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel contact allergy and menstrual cycle"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Contact Dermatitis
 year: 2005
 tags: [nickel-allergy, menstrual-cycle, ovulation, progestinic-phase, patch-testing, hormonal-modulation]
 doi: "10.1111/j.0105-1873.2005.00588.x"
+platform: wikibiome
 ---
 
 ## Key Claims

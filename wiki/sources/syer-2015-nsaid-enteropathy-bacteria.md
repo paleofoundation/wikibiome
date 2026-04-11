@@ -1,4 +1,5 @@
 ---
+
 title: "NSAID Enteropathy and Bacteria: A Complicated Relationship"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Gastroenterology
 year: 2015
 tags: [crohns-disease, IBD, NSAIDs, enteropathy, microbiota, probiotics, Bifidobacterium, Faecalibacterium, hydrogen-sulfide, antibiotics]
 doi: "10.1007/s00535-014-1032-1"
+platform: wikibiome
 ---
 
 # Key Claims

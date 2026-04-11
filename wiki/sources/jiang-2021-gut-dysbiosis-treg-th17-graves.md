@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Dysbiosis Contributes to the Imbalance of Treg and Th17 Cells in Graves' Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2021
 doi: "10.3389/fcimb.2021.739481"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, dysbiosis, Treg, Th17, immune-imbalance, SCFA, short-chain-fatty-acids, Bacteroides, Lactobacillus, Prevotella, 16S-rRNA, butyrate, inflammation]
+platform: wikibiome
 ---
 
 # Gut Dysbiosis Contributes to the Imbalance of Treg and Th17 Cells in Graves' Disease

@@ -1,4 +1,5 @@
 ---
+
 title: "Analyzing the impact of heavy metal exposure on osteoarthritis and rheumatoid arthritis: an approach based on interpretable machine learning"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Frontiers in Nutrition"
 year: 2024
 tags: [heavy-metals, osteoarthritis, rheumatoid-arthritis, machine-learning, NHANES, SHAP, tungsten, cobalt, cadmium, antimony, arsenic]
 doi: "10.3389/fnut.2024.1422617"
+platform: wikibiome
 ---
 
 # Key Claims

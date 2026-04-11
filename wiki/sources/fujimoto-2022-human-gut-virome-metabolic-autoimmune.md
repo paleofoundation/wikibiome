@@ -1,4 +1,5 @@
 ---
+
 title: "Characterization of the human gut virome in metabolic and autoimmune diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Inflammation and Regeneration
 year: 2022
 doi: 10.1186/s41232-022-00218-6
 tags: [cardiovascular-disease, virome, bacteriophage, viral-dysbiosis, metabolic-diseases, autoimmune-diseases, CVD, hypertension, T2DM, NAFLD, crAssphage]
+platform: wikibiome
 ---
 
 # Characterization of the Human Gut Virome in Metabolic and Autoimmune Diseases

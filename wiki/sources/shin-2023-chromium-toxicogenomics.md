@@ -1,4 +1,5 @@
 ---
+
 title: "Adverse Human Health Effects of Chromium by Exposure Route: A Comprehensive Review Based on Toxicogenomic Approach"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Dong Yeop Shin, Sang Min Lee, Yujin Jang, Jun Lee, Cheol Min Lee, Eun-
 journal: International Journal of Molecular Sciences
 year: 2023
 tags: [chromium, toxicogenomics, gene-expression, bioinformatics, dermal-contact, inhalation, ingestion, DNA-damage, cancer, hub-genes]
-doi: "10.31744/einstein_journal/2021CE6773"
+doi: "10.3390/ijms24043410"
+platform: wikibiome
 ---
 
 # Adverse Human Health Effects of Chromium by Exposure Route

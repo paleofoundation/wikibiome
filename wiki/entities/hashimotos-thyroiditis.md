@@ -1,4 +1,5 @@
 ---
+
 title: Hashimoto's Thyroiditis
 type: entity
 subtype: disease
@@ -21,6 +22,7 @@ sources:
   - maric-2023-nickel-thyroid-function
   - street-2024-environmental-factors-thyroid-function
 tags: [hashimotos-thyroiditis, autoimmune, thyroid, selenium, iron, zinc, copper, iodine, cadmium, mercury, lead, nickel, gut-thyroid-axis, microbiome, anti-TPO, anti-Tg, dysbiosis, SCFAs, tryptophan, diet, probiotics, comorbidities]
+platform: wikibiome
 ---
 
 # Hashimoto's Thyroiditis

@@ -1,4 +1,5 @@
 ---
+
 title: "Effect of endometriosis on the fecal bacteriota composition of mice during the acute phase of lesion formation"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2019
 tags: [endometriosis, gut-microbiome, mouse-model, fecal-bacteriota, 16S-rRNA, GFP-model, acute-phase, lesion-formation]
 doi: "10.1371/journal.pone.0226835"
+platform: wikibiome
 ---
 
 # Key Claims

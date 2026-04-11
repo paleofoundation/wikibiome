@@ -1,4 +1,5 @@
 ---
+
 title: "Toxic Mechanisms of Five Heavy Metals: Mercury, Lead, Chromium, Cadmium, and Arsenic"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Pharmacology
 year: 2021
 tags: [mercury, lead, chromium, cadmium, arsenic, heavy-metals, toxic-mechanisms, ROS, oxidative-stress, carcinogenicity, organ-toxicity, DNA-damage, review]
 doi: "10.3389/fphar.2021.643972"
+platform: wikibiome
 ---
 
 # Key Claims

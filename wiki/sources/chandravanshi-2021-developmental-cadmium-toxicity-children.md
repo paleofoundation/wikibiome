@@ -1,4 +1,5 @@
 ---
+
 title: "Developmental Toxicity of Cadmium in Infants and Children: A Review"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2021
 volume: "36(1):e2021003"
 doi: "10.5620/eaht.2021003"
 tags: [cadmium, developmental-toxicity, infants, children, neurodevelopment, kidney-dysfunction, pregnancy-outcomes, IQ, ADHD, carcinogenesis, in-utero-exposure, biomarkers, placental-transfer]
+platform: wikibiome
 ---
 
 # Developmental Toxicity of Cadmium in Infants and Children: A Review

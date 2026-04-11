@@ -1,4 +1,5 @@
 ---
+
 title: "Prenatal lead exposure is negatively associated with the gut microbiome in childhood"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2023
 tags: [lead, prenatal-exposure, gut-microbiome, childhood, PROGRESS-cohort, WQS-regression, Bacteroides-caccae, developmental-toxicology]
 doi: "10.3389/fmicb.2023.1193919"
+platform: wikibiome
 ---
 
 # Key Claims

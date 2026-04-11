@@ -1,4 +1,5 @@
 ---
+
 title: "Role of Microbiome and Antibiotics in Autoimmune Diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrition in Clinical Practice
 year: 2020
 tags: [crohns-disease, IBD, autoimmune-disease, antibiotics, probiotics, FMT, gut-microbiome, dysbiosis, type-1-diabetes, SCFAs, intestinal-permeability]
 doi: "10.1002/ncp.10489"
+platform: wikibiome
 ---
 
 # Key Claims

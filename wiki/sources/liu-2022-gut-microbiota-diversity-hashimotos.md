@@ -1,4 +1,5 @@
 ---
+
 title: "Analysis of gut microbiota diversity in Hashimoto's thyroiditis patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Microbiology
 year: 2022
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-microbiota, 16s-rrna, dysbiosis, gender-differences, thyroid-hormones, biomarkers]
 doi: "10.1186/s12866-022-02739-z"
+platform: wikibiome
 ---
 
 # Analysis of gut microbiota diversity in Hashimoto's thyroiditis patients

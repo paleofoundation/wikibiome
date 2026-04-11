@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal Microbiota Transplantation to Maintain Remission in Crohn's Disease: A Pilot Randomized Controlled Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microbiome
 year: 2020
 tags: [crohns-disease, IBD, fecal-microbiota-transplantation, FMT, randomized-controlled-trial, remission, dysbiosis, colonoscopy, CDEIS]
 doi: "10.1186/s40168-020-0792-5"
+platform: wikibiome
 ---
 
 # Key Claims

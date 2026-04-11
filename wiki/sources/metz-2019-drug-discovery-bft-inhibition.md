@@ -1,4 +1,5 @@
 ---
+
 title: "Drug Discovery and Repurposing Inhibits a Major Gut Pathogen-Derived Oncogenic Toxin"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Paul Metz, Martijn J. H. Tjan, Shaoguang Wu, Mehrosh Pervaiz, Susanne 
 journal: Frontiers in Cellular and Infection Microbiology
 year: 2019
 tags: [colon-cancer, drug-repurposing, Bacteroides-fragilis, BFT-toxin, ETBF, CDCA, chenodeoxycholic-acid, in-silico, drug-discovery, colorectal-cancer, E-cadherin, IL-8]
+platform: wikibiome
 ---
 
 # Key Claims

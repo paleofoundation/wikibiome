@@ -1,4 +1,5 @@
 ---
+
 title: "Cross-Talk Between the Gut Microbiota and Hypothyroidism: A Bidirectional Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Nutrition
 year: 2024
 doi: "10.3389/fnut.2024.1286593"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Mendelian-randomization, hypothyroidism, Akkermansia, Butyrivibrio, Holdemania, causal-inference, MiBioGen, FinnGen]
+platform: wikibiome
 ---
 
 # Cross-Talk Between the Gut Microbiota and Hypothyroidism: A Bidirectional Two-Sample Mendelian Randomization Study

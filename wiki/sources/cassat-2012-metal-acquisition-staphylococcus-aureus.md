@@ -1,4 +1,5 @@
 ---
+
 title: "Metal Ion Acquisition in Staphylococcus aureus: Overcoming Nutritional Immunity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Seminars in Immunopathology
 year: 2012
 tags: [Staphylococcus-aureus, iron, manganese, zinc, copper, nutritional-immunity, siderophores, calprotectin, metal-acquisition, virulence, heme, MRSA, biofilm]
 doi: "10.1007/s00281-011-0294-4"
+platform: wikibiome
 ---
 
 # Metal Ion Acquisition in Staphylococcus aureus: Overcoming Nutritional Immunity

@@ -1,4 +1,5 @@
 ---
+
 title: Porphyromonas
 type: entity
 subtype: microbe
@@ -7,11 +8,12 @@ updated: 2026-04-10
 sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, zangeneh-2021-oral-microbiota-ms, kudra-2023-oral-microbiome-crc-perspectives, fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms, khatoon-2023-gut-microbiota-neurodegenerative, norouzi-beirami-2020-functional-microbiome-crc]
 metal_dependencies: [zinc -- Zn-dependent gingipain proteases; iron -- hemin acquisition for growth and porphyrin ring]
 tags: [pathobiont, periodontal-pathogen, zinc-dependent, iron-dependent, CVD-associated, Alzheimers-linked, oral-gut-axis, CRC-enriched]
+platform: wikibiome
 ---
 
 # Porphyromonas
 
-A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingivalis* at its center. Named for its porphyrin (heme) requirement, *Porphyromonas* is the prototypical **periodontal pathogen** and one of the most important organisms connecting oral health to systemic disease. Its [[zinc]]-dependent gingipain proteases and [[iron]]-acquisition via hemin make it strongly **metal-dependent**, while its associations with [[cardiovascular-disease]], [[Alzheimer's disease]], and [[colorectal-cancer]] position it at the nexus of the oral-gut-systemic disease axis.
+A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingivalis* at its center. Named for its porphyrin (heme) requirement, *Porphyromonas* is the prototypical **periodontal pathogen** and one of the most important organisms connecting oral health to systemic disease. Its [[zinc]]-dependent gingipain proteases and [[iron]]-acquisition via hemin make it strongly **metal-dependent**, while its associations with [[cardiovascular-disease]], [[alzheimers-disease]], and [[colorectal-cancer]] position it at the nexus of the oral-gut-systemic disease axis.
 
 ## Metal Dependencies
 
@@ -38,22 +40,29 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 - Chronic periodontal infection maintains systemic inflammation (elevated CRP, IL-6) that promotes endothelial dysfunction and plaque instability.
 
 ### Alzheimer's Disease
-- *P. gingivalis* and gingipains detected in **brain tissue** of Alzheimer's patients, with gingipain levels correlating with tau and ubiquitin pathology [[[khatoon-2023-gut-microbiota-neurodegenerative]]].
+- *P. gingivalis* and gingipains detected in **brain tissue** of Alzheimer's patients, with gingipain levels correlating with tau and ubiquitin pathology [[khatoon-2023-gut-microbiota-neurodegenerative]].
 - Proposed mechanism: gingipains cleave tau protein and damage neurons; chronic oral infection provides ongoing bacterial seeding to the brain via bacteremia or neural routes.
 - The drug COR388 (atuzaginstat), a gingipain inhibitor, entered clinical trials for Alzheimer's.
 
 ### Colorectal Cancer
-- Among the top consistently enriched genera in CRC across the Islam 2022 meta-analysis (found in 8 cancer studies), alongside [[Fusobacterium]] and [[peptostreptococcus]] [[[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]]].
+- Among the top consistently enriched genera in CRC across the Islam 2022 meta-analysis (found in 8 cancer studies), alongside [[fusobacterium]] and [[peptostreptococcus]] [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
 - Part of the oral-gut translocation story in CRC, where oral pathobionts colonize colorectal tumors.
 
 ### Multiple Sclerosis
-- Significantly more abundant in the oral microbiota of MS patients compared to healthy controls [[[zangeneh-2021-oral-microbiota-ms]]].
+- Significantly more abundant in the oral microbiota of MS patients compared to healthy controls [[zangeneh-2021-oral-microbiota-ms]].
 
 ## Key Metabolites
 
 - **Gingipains (RgpA, RgpB, Kgp)** -- Zn-dependent cysteine proteases; primary virulence factors
 - **LPS** -- atypical lipopolysaccharide that modulates TLR4 and TLR2 signaling
 - **Outer membrane vesicles** -- carry gingipains and LPS to distant sites; potential vehicle for brain colonization
+
+
+## Key Sources
+
+- [[kudra-2023-oral-microbiome-crc-perspectives]]
+- [[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]]
+- [[norouzi-beirami-2020-functional-microbiome-crc]]
 
 ## Connections
 
@@ -64,7 +73,7 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 - [[colorectal-cancer]] -- enriched in CRC; oral-gut translocation pathway
 - [[multiple-sclerosis]] -- enriched in oral microbiome of MS patients
 - [[peptostreptococcus]] -- co-enriched in CRC; shared oral-gut translocation pathway
-- [[Fusobacterium]] -- fellow CRC-enriched oral pathobiont
-- [[NF-kappa-B]] -- LPS and gingipains activate NF-kB inflammatory signaling
+- [[fusobacterium]] -- fellow CRC-enriched oral pathobiont
+- [[nf-kappa-b]] -- LPS and gingipains activate NF-kB inflammatory signaling
 - [[nutritional-immunity]] -- host hemin restriction as defense; P. gingivalis overcomes via gingipain-mediated hemolysis
 - [[inflammation]] -- keystone pathogen driving chronic inflammation across multiple organ systems

@@ -1,4 +1,5 @@
 ---
+
 title: "Interactions between Intestinal Microbiota and Host Immune Response in Inflammatory Bowel Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2017
 tags: [crohns-disease, IBD, intestinal-microbiota, immune-response, barrier-function, dysbiosis, inflammation, probiotics, FMT, epithelial-cells]
 doi: "10.3389/fimmu.2017.00942"
+platform: wikibiome
 ---
 
 # Key Claims

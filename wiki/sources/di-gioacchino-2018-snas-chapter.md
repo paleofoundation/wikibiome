@@ -1,4 +1,5 @@
 ---
+
 title: "Systemic Nickel Allergy Syndrome"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Di Gioacchino M, Gatta A, Della Valle L, Farinelli A, Caruso R, Pini C
 journal: "Metal Allergy (book chapter)"
 year: 2018
 tags: [SNAS, review, nickel-metabolism, oral-tolerance, nickel-hyposensitization, diagnosis]
+platform: wikibiome
 ---
 
 ## Key Claims

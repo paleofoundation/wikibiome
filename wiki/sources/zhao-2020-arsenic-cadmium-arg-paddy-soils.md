@@ -1,4 +1,5 @@
 ---
+
 title: "Arsenic and cadmium as predominant factors shaping the distribution patterns of antibiotic resistance genes in polluted paddy soils"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ volume: 389
 pages: "121838"
 doi: "10.1016/j.jhazmat.2019.121838"
 tags: [arsenic, cadmium, antibiotic-resistance-genes, co-selection, mobile-genetic-elements, paddy-soils, heavy-metals, structural-equation-models, food-security, rice, pollution-index, horizontal-gene-transfer]
+platform: wikibiome
 ---
 
 # Key Claims

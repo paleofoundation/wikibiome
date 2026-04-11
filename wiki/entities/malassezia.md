@@ -1,4 +1,5 @@
 ---
+
 title: Malassezia
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [zou-2022-mycobiome-dysbiosis-hypertension-light-chains, qiu-2023-gut-mycobiome-hypertension-ckd, wei-2025-gut-mycobiome-cardiometabolic-disease, huang-2024-gut-fungi-ibd-colorectal-cancer, strati-2017-altered-gut-microbiota-mycobiota-asd]
 metal_dependencies: [lipid-dependent rather than metal-dependent; possible indirect metal interactions via lipase activity]
 tags: [fungus, skin-commensal, gut-mycobiome, lipid-dependent, CVD-enriched, hypertension-associated, immunomodulatory]
+platform: wikibiome
 ---
 
 # Malassezia
@@ -23,19 +25,19 @@ A genus of lipophilic basidiomycete yeasts that is the **dominant fungus on huma
 ## Gut Mycobiome Presence
 
 - Despite being considered a skin organism, Malassezia is consistently detected in gut mycobiome surveys, likely arriving via ingestion and possibly establishing transient or semi-permanent colonization.
-- In the gut, Malassezia interacts with bacterial communities: negatively correlated with *Bifidobacterium*, [[roseburia]], and [[ruminococcus]] in IBD patients [[[huang-2024-gut-fungi-ibd-colorectal-cancer]]].
-- Positively correlated with [[candida-albicans]] and *Aspergillus* in ASD gut mycobiome [[[strati-2017-altered-gut-microbiota-mycobiota-asd]]].
+- In the gut, Malassezia interacts with bacterial communities: negatively correlated with *Bifidobacterium*, [[roseburia]], and [[ruminococcus]] in IBD patients [[huang-2024-gut-fungi-ibd-colorectal-cancer]].
+- Positively correlated with [[candida-albicans]] and *Aspergillus* in ASD gut mycobiome [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
 
 ## Enrichment in Cardiovascular Disease
 
 ### Hypertension
-- *Malassezia* abundance increases progressively from normotensive to pre-hypertensive to hypertensive subjects (significant between HTN and NT) [[[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]]].
+- *Malassezia* abundance increases progressively from normotensive to pre-hypertensive to hypertensive subjects (significant between HTN and NT) [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]].
 - Positively associated with immunoglobulin light chain kappa in pre-HTN (r=0.510, P=0.044) and both kappa and lambda in HTN, suggesting immune activation by Malassezia antigens.
 - Fungal [[dysbiosis]] detected already at the pre-hypertension stage, suggesting mycobiome changes precede clinical hypertension.
 
 ### Broader Cardiometabolic Disease
-- Enriched in HTN+CKD comorbidity (18.71% of fungal community vs lower in controls) [[[qiu-2023-gut-mycobiome-hypertension-ckd]]].
-- Increased in atherosclerotic CVD alongside *Exophiala*, *Penicillium*, and *Wallemia* [[[wei-2025-gut-mycobiome-cardiometabolic-disease]]].
+- Enriched in HTN+CKD comorbidity (18.71% of fungal community vs lower in controls) [[qiu-2023-gut-mycobiome-hypertension-ckd]].
+- Increased in atherosclerotic CVD alongside *Exophiala*, *Penicillium*, and *Wallemia* [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
 - Also enriched in obesity: *M. restricta* increased in obese individuals.
 
 ## Immunomodulatory Properties

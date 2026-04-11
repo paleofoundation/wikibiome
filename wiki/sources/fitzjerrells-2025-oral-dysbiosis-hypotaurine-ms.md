@@ -1,4 +1,5 @@
 ---
+
 title: "Multiple Sclerosis Patients Exhibit Oral Dysbiosis with Decreased Early Colonizers and Lower Hypotaurine Level"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: npj Biofilms and Microbiomes
 year: 2025
 tags: [multiple-sclerosis, oral-microbiome, oral-metabolome, shotgun-metagenomics, hypotaurine, Streptococcus, Actinomyces, Prevotella, Fusobacterium, L-rhamnose, taurine, RRMS, dysbiosis, biomarkers]
 doi: "10.1038/s41522-025-00787-7"
+platform: wikibiome
 ---
 
 # Multiple Sclerosis Patients Exhibit Oral Dysbiosis with Decreased Early Colonizers and Lower Hypotaurine Level

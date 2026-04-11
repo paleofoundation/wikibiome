@@ -1,4 +1,5 @@
 ---
+
 title: "Identification and characterization of pancreatic infections in severe and critical acute pancreatitis patients using 16S rRNA gene next generation sequencing"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2023
 tags: [pancreatic-cancer, 16S-rRNA, pancreatitis, pancreatic-infections, bacterial-translocation, Klebsiella, Acinetobacter, polymicrobial-infection]
 doi: "10.3389/fmicb.2023.1185216"
+platform: wikibiome
 ---
 
 # Key Claims

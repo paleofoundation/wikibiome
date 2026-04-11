@@ -1,4 +1,5 @@
 ---
+
 title: "Oral Hyposensitization to Nickel Induces Clinical Improvement and a Decrease in TH1 and TH2 Cytokines in Patients with Systemic Nickel Allergy Syndrome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Immunopathology and Pharmacology
 year: 2010
 tags: [oral-hyposensitization, NiOH, cytokines, Th1, Th2, SNAS, immunology]
 doi: "10.1177/039463201002300117"
+platform: wikibiome
 ---
 
 ## Key Claims

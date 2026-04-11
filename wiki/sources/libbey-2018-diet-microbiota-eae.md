@@ -1,4 +1,5 @@
 ---
+
 title: "Variations in diet cause alterations in microbiota and metabolites that follow changes in disease severity in a multiple sclerosis model"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Beneficial Microbes
 year: 2018
 tags: [multiple-sclerosis, EAE, diet, microbiota, metabolomics, Lactobacillus, glycolysis, TCA-cycle, mouse-model, Lactobacillus-paracasei]
 doi: "10.3920/BM2017.0116"
+platform: wikibiome
 ---
 
 # Variations in Diet Cause Alterations in Microbiota and Metabolites That Follow Changes in Disease Severity in a Multiple Sclerosis Model

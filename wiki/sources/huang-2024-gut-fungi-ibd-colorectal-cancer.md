@@ -1,4 +1,5 @@
 ---
+
 title: "Unveiling the overlooked fungi: the vital of gut fungi in inflammatory bowel disease and colorectal cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Gut Pathogens
 year: 2024
 doi: "10.1186/s13099-024-00651-7"
 tags: [colon-cancer, colorectal-cancer, mycobiome, fungal-dysbiosis, Candida-albicans, Aspergillus, Malassezia, gut-barrier, NF-kB, Dectin-1, beta-glucans, IBD, immune-regulation]
+platform: wikibiome
 ---
 
 # Huang 2024 -- Unveiling the Overlooked Fungi: Gut Fungi in IBD and Colorectal Cancer

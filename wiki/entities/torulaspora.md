@@ -1,4 +1,5 @@
 ---
+
 title: Torulaspora
 type: entity
 subtype: fungus
@@ -10,6 +11,7 @@ oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [zinc, manganese, iron]
 key_enzymes: [alcohol-dehydrogenase, glycolytic-enzymes, biofilm-carbohydrates]
 tags: [yeast, fungus, food-associated, mycobiome, fermentation, probiotic-potential, zinc-dependent]
+platform: wikibiome
 ---
 
 # Torulaspora

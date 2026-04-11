@@ -1,4 +1,5 @@
 ---
+
 title: "Biosorption of Heavy Metals by Candida albicans"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Ismael Acosta Rodriguez, Juan Fernando Cardenas-Gonzalez, Victor Manue
 journal: Advances in Bioremediation and Phytoremediation (IntechOpen)
 year: 2018
 tags: [Candida-albicans, biosorption, heavy-metals, chromium, bioremediation, metal-resistance, yeast]
+platform: wikibiome
 ---
 
 ## Summary

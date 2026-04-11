@@ -1,4 +1,5 @@
 ---
+
 title: "Reduced Plasma Levels of 25-Hydroxycholesterol and Increased Cerebrospinal Fluid Levels of Bile Acid Precursors in Multiple Sclerosis Patients"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Neurobiology
 year: 2017
 doi: 10.1007/s12035-016-0281-9
 tags: [multiple-sclerosis, oxysterols, bile-acids, 25-hydroxycholesterol, cholesterol, LXR, demyelination, CSF, plasma, sterol-metabolism]
+platform: wikibiome
 ---
 
 # Reduced Plasma Levels of 25-Hydroxycholesterol and Increased Cerebrospinal Fluid Levels of Bile Acid Precursors in Multiple Sclerosis Patients

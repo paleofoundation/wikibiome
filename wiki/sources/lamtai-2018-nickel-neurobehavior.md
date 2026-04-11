@@ -1,4 +1,5 @@
 ---
+
 title: "Effect of Chronic Administration of Nickel on Affective and Cognitive Behavior in Male and Female Rats"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Brain Sciences
 year: 2018
 tags: [nickel-neurotoxicity, oxidative-stress, anxiety, depression, memory, sex-differences, hippocampus, behavioral-toxicology]
 doi: "10.3390/brainsci8080141"
+platform: wikibiome
 ---
 
 # Effect of Chronic Administration of Nickel on Affective and Cognitive Behavior in Male and Female Rats

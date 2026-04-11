@@ -1,4 +1,5 @@
 ---
+
 title: "Beyond Taxonomic Analysis of Microbiomes: A Functional Approach for Revisiting Microbiome Changes in Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2020
 tags: [colon-cancer, functional-microbiome, KEGG, metagenomics, SVM, enzyme-commission, KO-groups, colorectal-cancer, adenoma, classification]
 doi: "10.3389/fmicb.2019.03117"
+platform: wikibiome
 ---
 
 # Beyond Taxonomic Analysis of Microbiomes: A Functional Approach for Revisiting Microbiome Changes in Colorectal Cancer

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [George Tetz, Victor Tetz]
 year: 2022
 journal: "Pathogens"
-doi: "10.3390/pathogens"
+doi: "10.3390/pathogens11121462"
 tags: [parkinsons-disease, bacteriophages, gut-dysbiosis, phage-bacterial-interactions, virome, lactic-acid-bacteria, phage-therapy]
 library_category: mechanistic-insights
 platform: both

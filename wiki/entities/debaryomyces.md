@@ -1,4 +1,5 @@
 ---
+
 title: Debaryomyces
 type: entity
 subtype: fungus
@@ -10,6 +11,7 @@ gram_stain: "N/A"
 oxygen_requirement: "aerobic"
 metal_dependencies: [none well-characterized; requires growth factors]
 key_enzymes: [cellulase, β-glucosidase, protease]
+platform: wikibiome
 ---
 
 # Debaryomyces
@@ -136,7 +138,7 @@ CD patients with Debaryomyces enrichment and active disease often report **flare
 - [[crohns-disease]] – enriched in inflamed tissue; pro-inflammatory type 1/17 immunity driver
 - [[type-1-immunity]] – Dectin-1 engagement drives Th1/Tc1 and Th17 differentiation via IL-12/IL-23
 - [[type-17-immunity]] – β-glucans activate IL-17 axis; associated with elevated mucosal IL-17A/F
-- [[intestinal-barrier-function]] – extracellular proteases degrade mucin and tight junctions
+- [[nutritional-immunity|intestinal-barrier-function]] – extracellular proteases degrade mucin and tight junctions
 - [[inflammation]] – CCL5 production and immune complex deposition drive acute inflammation
 - [[mycobiota-dysbiosis]] – overgrowth in fungal dysbiosis states; marker of interkingdom dysfunction
 - [[cheese]] and [[fermented-foods]] – dietary sources; consumption may trigger flares in susceptible individuals

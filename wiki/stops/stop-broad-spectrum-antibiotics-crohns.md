@@ -1,4 +1,5 @@
 ---
+
 title: "STOP: Broad-Spectrum Antibiotics for Crohn's Disease"
 type: stop
 created: 2026-04-09
@@ -12,6 +13,7 @@ conventional_rationale: "Reduce bacterial load and infection-driven inflammation
 why_counterproductive: "Broad-spectrum antibiotics destroy remaining F. prausnitzii and SCFA-producing commensals — the exact taxa whose loss drives CD pathogenesis. The microbiome is required for metal detoxification; antibiotic-treated mice accumulate MORE toxic metals in organs. Dysbiosis from antibiotics accelerates the disease cycle."
 evidence: [coryell-2018-gut-microbiome-arsenic-toxicity-protection]
 alternative: "Targeted antimicrobial strategies (e.g., bacteriophage therapy targeting AIEC); competitive exclusion via [[ecoli-nissle-1917]]; restore commensals with distal-fermenting prebiotics"
+platform: cureva
 ---
 
 ## Conventional Rationale
@@ -34,3 +36,7 @@ Critical evidence: the microbiome is **required** for heavy metal detoxification
 ## Knowledge Primitive
 
 **Primitive 5: Two-Sided Ecological Engineering** — You must suppress pathogens AND restore missing beneficial functions. Broad-spectrum antibiotics only do the first (poorly) while actively destroying the second.
+
+## Key Sources
+
+- [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]

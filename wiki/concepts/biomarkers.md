@@ -1,10 +1,12 @@
 ---
+
 title: Biomarkers
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, patil-2021-infection-metallomics-critical-care, akash-2023-metabolomics-heavy-metal-toxicities]
 tags: [biomarkers, metallomics, diagnostics, blood-metals, urine-metals, hair-metals, metabolomics, microbiome-biomarkers, exposure-assessment]
+platform: wikibiome
 ---
 
 # Biomarkers
@@ -20,10 +22,10 @@ Measurable indicators of biological state, exposure, or disease. In the metallom
 - **Ceruloplasmin**: Copper-containing acute-phase protein; elevated in inflammation, low in Wilson's disease.
 
 ### Urine
-- **Urinary Cd**: Reflects long-term body burden (renal accumulation); beta-2 microglobulin co-measurement indicates tubular damage [[[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]].
+- **Urinary Cd**: Reflects long-term body burden (renal accumulation); beta-2 microglobulin co-measurement indicates tubular damage [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
 - **Urinary As**: Speciation (inorganic vs. organic) distinguishes toxic exposure from dietary arsenobetaine (seafood).
 - **8-OHdG**: Urinary oxidative DNA damage marker; elevated with As, Cr, Cd exposure.
-- **Metallophores**: Emerging -- microbial siderophores detectable in urine as infection biomarkers [[[patil-2021-infection-metallomics-critical-care]]].
+- **Metallophores**: Emerging -- microbial siderophores detectable in urine as infection biomarkers [[patil-2021-infection-metallomics-critical-care]].
 
 ### Hair and Toenails
 - **Hair metals**: Reflect months of exposure; used in epidemiological studies of Hg (from fish), As, and Pb. Subject to external contamination.
@@ -52,7 +54,7 @@ See [[microbial-biomarkers]] for detailed treatment. Key examples:
 ## Metallomic Signatures
 
 The [[metallomics]] approach measures the complete metal profile (ionome) rather than individual metals, revealing patterns invisible to single-metal analysis:
-- Multi-metal signatures in pancreatic cancer (urinary Cd, Ni, Co patterns) [[[akash-2023-metabolomics-heavy-metal-toxicities]]].
+- Multi-metal signatures in pancreatic cancer (urinary Cd, Ni, Co patterns) [[akash-2023-metabolomics-heavy-metal-toxicities]].
 - Hair metal ratios (e.g., Zn/Cu, Fe/Pb) as integrative exposure metrics.
 - Serum metallome changes tracking disease progression in Alzheimer's, Parkinson's, and cardiovascular disease.
 

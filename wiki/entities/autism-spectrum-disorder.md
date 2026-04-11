@@ -1,4 +1,5 @@
 ---
+
 title: Autism Spectrum Disorder
 type: entity
 subtype: disease
@@ -6,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, tizabi-2023-lead-gut-microbiota-asd.md, chen-2022-living-microorganisms-detoxification-heavy-metals.md, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors.md, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, khatoon-2023-gut-microbiota-neurodegenerative.md, gentile-2020-diet-microbiota-brain-health.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, salnikov-2008-metal-carcinogenesis.md]
 tags: [neurodevelopmental-disease, zinc, lead, mercury, cadmium, nickel, iron, gut-microbiome, mis-metallation, SHANK3, synaptogenesis, gut-brain-axis, developmental-vulnerability, metal-profiles]
+platform: wikibiome
 ---
 
 # Autism Spectrum Disorder (ASD)
@@ -139,10 +141,22 @@ ASD is the paradigmatic disease of **developmental metal vulnerability**:
 7. **Does nickel exposure contribute to ASD gut pathology?** Ni is elevated in some ASD hair studies but has not been systematically examined for its role in ASD-associated gut dysbiosis or metalloestrogen activity.
 8. **Can metal-driven gut dysbiosis be distinguished from other causes of ASD-associated GI disturbance?** Metal-specific microbiome signatures would strengthen the causal argument.
 
+
+## Key Sources
+
+- [[chen-2022-living-microorganisms-detoxification-heavy-metals]]
+- [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]
+- [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
+- [[ghosh-2023-heavy-metals-gut-barrier-integrity]]
+- [[khatoon-2023-gut-microbiota-neurodegenerative]]
+- [[gentile-2020-diet-microbiota-brain-health]]
+- [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
+- [[salnikov-2008-metal-carcinogenesis]]
+
 ## Connections
 
 - **Metals**: [[zinc]], [[lead]], [[mercury]], [[cadmium]], [[iron]], [[copper]], [[nickel]], [[arsenic]]
-- **Concepts**: [[mis-metallation]], [[gut-brain-axis]], [[gut-barrier-integrity]], [[oxidative-stress|oxidative stress]], [[shank3]], [[synaptogenesis]], [[blood-brain-barrier]], [[metal-profiles]], [[developmental-metal-vulnerability]]
+- **Concepts**: [[mis-metallation]], [[gut-brain-axis]], [[nutritional-immunity|gut-barrier-integrity]], [[oxidative-stress|oxidative stress]], [[shank3]], [[synaptogenesis]], [[blood-brain-barrier]], [[metal-profiles]], [[developmental-metal-vulnerability]]
 - **Analyses**: [[metal-disease-matrix]]
 - **Related diseases**: [[pcos]] (shared Zn depletion, toxic metal burden, oxidative stress), [[alzheimers-disease]] (shared gut-brain axis, metal-driven neuroinflammation), [[parkinsons-disease]] (shared gut-brain axis, Pb neurotoxicity)
 - **Pathogens**: Gut pathobionts enriched by metal-driven dysbiosis (Clostridium, Bacteroides)

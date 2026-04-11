@@ -1,4 +1,5 @@
 ---
+
 title: Clostridioides difficile
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, zhang-2021-cadmium-gut-liver
 metal_dependencies: [nickel, zinc, iron]
 key_enzymes: [Ni-GloI (predicted), Zn-dependent toxins TcdA/TcdB]
 tags: [pathogen, opportunistic, antibiotic-associated, colitis, metal-antibiotic-co-selection, spore-forming]
+platform: wikibiome
 ---
 
 # Clostridioides difficile
@@ -18,7 +20,7 @@ A Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading
 
 ### Predicted Ni-Glyoxalase I
 
-- *Clostridia* (including *C. difficile*) are predicted to possess Ni-dependent [[glyoxalase]] based on the biochemical characterization of *C. acetobutylicum* Ni-GloI, which was **co-crystallized with nickel** -- providing direct structural evidence [[[maier-2019-nickel-microbial-pathogenesis]]].
+- *Clostridia* (including *C. difficile*) are predicted to possess Ni-dependent [[glyoxalase]] based on the biochemical characterization of *C. acetobutylicum* Ni-GloI, which was **co-crystallized with nickel** -- providing direct structural evidence [[maier-2019-nickel-microbial-pathogenesis]].
 - Ni-GloI would detoxify methylglyoxal during the rapid vegetative growth that follows spore germination in the antibiotic-depleted gut.
 - This nickel dependency means that environmental nickel availability may influence *C. difficile* growth competitiveness in the post-antibiotic gut niche.
 
@@ -26,7 +28,7 @@ A Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading
 
 - *C. difficile* produces two large clostridial toxins, **TcdA and TcdB**, which are glucosyltransferases that inactivate Rho GTPases in colonocytes.
 - TcdA/TcdB contain a zinc-dependent metalloprotease domain responsible for **autocatalytic processing**: the toxin cleaves itself inside the host cell to release the catalytic glucosyltransferase domain into the cytoplasm.
-- [[Zinc]] availability may therefore modulate toxin processing efficiency.
+- [[zinc]] availability may therefore modulate toxin processing efficiency.
 - Some evidence suggests that **zinc supplementation may inhibit C. difficile toxin activity** through interference with the metalloprotease domain, though this remains an active area of investigation.
 - Host [[calprotectin]] -- which sequesters zinc at infection sites -- is markedly elevated in *C. difficile* colitis and serves as a clinical biomarker for disease severity.
 
@@ -40,9 +42,9 @@ A Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading
 
 ### Metal-Antibiotic Co-Selection
 
-- Heavy metal exposure and antibiotic use drive **co-selection** of resistance determinants, often co-located on mobile genetic elements [[[zhu-2024-toxic-essential-metals-gut-microbiota]]].
+- Heavy metal exposure and antibiotic use drive **co-selection** of resistance determinants, often co-located on mobile genetic elements [[zhu-2024-toxic-essential-metals-gut-microbiota]].
 - Metal-driven dysbiosis can deplete the same protective commensals that antibiotics destroy, potentially creating CDI-permissive conditions even without antibiotic use.
-- Cadmium exposure decreases *Clostridium cocleatum*, a beneficial commensal that degrades mucin and protects against *C. difficile* colonization [[[zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse]]].
+- Cadmium exposure decreases *Clostridium cocleatum*, a beneficial commensal that degrades mucin and protects against *C. difficile* colonization [[zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse]].
 
 ## Iron Competition
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Does oral exposure to cadmium and lead mediate susceptibility to colitis? The dark-and-bright sides of heavy metals in gut ecology"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2016
 tags: [cadmium, lead, colitis, IBD, gut-ecology, heavy-metals, DSS, TNBS, immunomodulation, intestinal-barrier]
 doi: "10.1038/srep19200"
+platform: wikibiome
 ---
 
 # Key Claims

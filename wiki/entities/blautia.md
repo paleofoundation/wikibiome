@@ -1,4 +1,5 @@
 ---
+
 title: Blautia
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [bronzini-2023-feeding-gut-microbiome-ms, svensson-2021-endometriosis-gut-microbiota-associations, li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis, huang-2025-gut-microbiota-urine-metabolomics-asd-southern-china, zhu-2023-gut-microbiota-metabolic-pathways-cvd]
 metal_dependencies: [iron -- indirect via Fe-S cluster enzymes in SCFA synthesis]
 tags: [commensal, SCFA-producer, bile-acid-metabolizer, context-dependent, depleted-in-IBD]
+platform: wikibiome
 ---
 
 # Blautia
@@ -25,11 +27,11 @@ A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospirace
 ### Depleted in Disease
 - **IBD**: *B. obeum* depleted in Crohn's disease and ulcerative colitis; its loss reduces SCFA-mediated mucosal protection.
 - **Colorectal cancer**: reduced in CRC patients alongside other [[lachnospiraceae]] members.
-- **Carotid atherosclerosis**: part of the depleted SCFA-producing network in subclinical CVD [[[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]]].
+- **Carotid atherosclerosis**: part of the depleted SCFA-producing network in subclinical CVD [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]].
 
 ### Enriched in Disease (Context-Dependent)
-- **Multiple sclerosis**: some Blautia species are paradoxically increased in MS patients, potentially reflecting a compensatory shift or pro-inflammatory capacity in the neuroinflammatory context [[[bronzini-2023-feeding-gut-microbiome-ms]]].
-- **Endometriosis**: *Blautia* abundance altered by hormonal treatment in endometriosis patients, suggesting sensitivity to estrogen-modulating therapies [[[svensson-2021-endometriosis-gut-microbiota-associations]]].
+- **Multiple sclerosis**: some Blautia species are paradoxically increased in MS patients, potentially reflecting a compensatory shift or pro-inflammatory capacity in the neuroinflammatory context [[bronzini-2023-feeding-gut-microbiome-ms]].
+- **Endometriosis**: *Blautia* abundance altered by hormonal treatment in endometriosis patients, suggesting sensitivity to estrogen-modulating therapies [[svensson-2021-endometriosis-gut-microbiota-associations]].
 
 ## Role in Gut Ecosystem
 
@@ -42,13 +44,19 @@ A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospirace
 
 - As a [[lachnospiraceae]] member, Blautia shares the family-wide sensitivity to heavy metal stress.
 - Iron-sulfur cluster enzymes in the Wood-Ljungdahl pathway of acetogenic species are particularly vulnerable to metal disruption.
-- [[Cadmium]] and [[lead]] exposure depletes Blautia alongside other SCFA producers in the [[gut-metal-microbiome]] framework.
+- [[cadmium]] and [[lead]] exposure depletes Blautia alongside other SCFA producers in the [[gut-metal-microbiome]] framework.
 
 ## Key Metabolites
 
 - **Acetate** -- primary fermentation product; substrate for butyrate producers.
 - **Bile acid derivatives** -- BSH-mediated deconjugation and secondary bile acid production.
 - **Hydrogen consumption** -- acetogenic species convert H2/CO2 to acetate, regulating gut gas homeostasis.
+
+
+## Key Sources
+
+- [[huang-2025-gut-microbiota-urine-metabolomics-asd-southern-china]]
+- [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]]
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Directive (EU) 2020/2184 on the Quality of Water Intended for Human Consumption (Recast)"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [European Parliament, Council of the European Union]
 journal: Official Journal of the European Union (L 435/1)
 year: 2020
 tags: [EU-directive, drinking-water, regulatory, lead, chromium, arsenic, water-quality, parametric-values, risk-based-approach, endocrine-disruptors]
+platform: wikibiome
 ---
 
 # EU Drinking Water Directive 2020/2184

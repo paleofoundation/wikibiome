@@ -1,4 +1,5 @@
 ---
+
 title: "Use of an Exposome Approach to Understand the Effects of Exposures From the Natural, Built, and Social Environments on Cardio-Vascular Disease Onset, Progression, and Outcomes"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Public Health
 year: 2020
 doi: 10.3389/fpubh.2020.00379
 tags: [cardiovascular-disease, CVD, exposome, environmental-exposure, heavy-metals, air-pollution, epigenomics, racial-disparities, genomics, transcriptomics, metabolomics, review]
+platform: wikibiome
 ---
 
 # Use of an Exposome Approach to Understand the Effects of Exposures From the Natural, Built, and Social Environments on Cardio-Vascular Disease Onset, Progression, and Outcomes

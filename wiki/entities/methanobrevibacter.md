@@ -1,4 +1,5 @@
 ---
+
 title: Methanobrevibacter
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [jangi-2016-gut-microbiome-alterations-ms, abdel-azim-2018-heavy-metals-vfas-methanococcus, bronzini-2023-feeding-gut-microbiome-ms, thirion-2023-gut-microbiota-ms-disease-activity, mirza-2024-mediterranean-diet-pediatric-ms-microbiota]
 metal_dependencies: [nickel -- Ni-dependent coenzyme F430 in methyl-CoM reductase; cobalt -- corrinoid cofactors; iron -- Fe-S clusters in hydrogenases; zinc -- structural roles; copper -- sensitive to Cu toxicity]
 tags: [archaeon, methanogen, not-bacteria, enriched-in-MS, constipation-IBS, hydrogen-consumer, metal-dependent, NF-kB-activator]
+platform: wikibiome
 ---
 
 # Methanobrevibacter
@@ -27,20 +29,20 @@ The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* i
 - **Cobalt**: Required for corrinoid cofactors involved in methyl group transfer during methanogenesis.
 - **Iron**: Fe-S clusters are essential for hydrogenase enzymes that oxidize H2 -- the first step of hydrogenotrophic methanogenesis.
 - **Zinc**: Structural roles in metalloenzymes.
-- **Copper sensitivity**: Cu is toxic to methanogens at very low concentrations (1.9 umol/L inhibits the related *Methanococcus maripaludis*). Zinc at 1.0 mmol/L can rescue copper toxicity through competitive transporter interactions [[[abdel-azim-2018-heavy-metals-vfas-methanococcus]]].
+- **Copper sensitivity**: Cu is toxic to methanogens at very low concentrations (1.9 umol/L inhibits the related *Methanococcus maripaludis*). Zinc at 1.0 mmol/L can rescue copper toxicity through competitive transporter interactions [[abdel-azim-2018-heavy-metals-vfas-methanococcus]].
 
 ## Role in Gut Ecosystem
 
 - Consumes H2 produced by bacterial fermentation, maintaining low partial pressure of H2 that thermodynamically favors continued bacterial fermentation and SCFA production.
 - Without methanogenic H2 disposal, H2 accumulation would inhibit NADH reoxidation in fermentative bacteria, slowing the entire gut fermentation process.
-- Competes with sulfate-reducing bacteria ([[Desulfovibrio]]) and reductive acetogens for available H2.
+- Competes with sulfate-reducing bacteria ([[desulfovibrio]]) and reductive acetogens for available H2.
 - Methane production slows colonic transit (CH4 inhibits smooth muscle contractility), linking *Methanobrevibacter* abundance to constipation.
 
 ## Disease Associations
 
 ### Multiple Sclerosis
-- **Increased in MS patients** in the landmark Jangi 2016 study, alongside [[akkermansia-muciniphila]] [[[jangi-2016-gut-microbiome-alterations-ms]]].
-- Positively correlated with pro-inflammatory gene expression: dendritic cell maturation, interferon signaling, [[NF-kappa-B]] signaling, CASP1, TRAF5, and STAT5 in circulating T cells and monocytes.
+- **Increased in MS patients** in the landmark Jangi 2016 study, alongside [[akkermansia-muciniphila]] [[jangi-2016-gut-microbiome-alterations-ms]].
+- Positively correlated with pro-inflammatory gene expression: dendritic cell maturation, interferon signaling, [[nf-kappa-b]] signaling, CASP1, TRAF5, and STAT5 in circulating T cells and monocytes.
 - MS patients show **elevated breath methane** consistent with increased gut *Methanobrevibacter* abundance.
 - LPS-like molecules from *Methanobrevibacter* activate inflammatory cells and dendritic cells.
 - Expresses adhesin-like proteins enabling mucosal adhesion, placing it near gut-associated lymphoid tissue where it can stimulate immune responses.
@@ -54,6 +56,13 @@ The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* i
 - **Methane (CH4)** -- inhibits colonic motility; contributes to breath methane as clinical biomarker
 - **Short-chain lipids** -- cell membrane ether lipids unique to archaea
 
+
+## Key Sources
+
+- [[bronzini-2023-feeding-gut-microbiome-ms]]
+- [[thirion-2023-gut-microbiota-ms-disease-activity]]
+- [[mirza-2024-mediterranean-diet-pediatric-ms-microbiota]]
+
 ## Connections
 
 - [[multiple-sclerosis]] -- enriched in MS; positively correlated with inflammatory gene expression
@@ -66,5 +75,5 @@ The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* i
 - [[dorea]] -- H2 cross-feeding; Dorea produces H2 that feeds Methanobrevibacter
 - [[veillonella]] -- another H2 producer whose metabolic output supports methanogenesis
 - [[coprococcus]] -- butyrate producer depleted in MS while Methanobrevibacter increases
-- [[NF-kappa-B]] -- triggers NF-kB activation in immune cells
+- [[nf-kappa-b]] -- triggers NF-kB activation in immune cells
 - [[gut-metal-microbiome]] -- the most metal-dependent organism in the human gut microbiome

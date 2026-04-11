@@ -1,4 +1,5 @@
 ---
+
 title: "Cardio-Metabolic Effects of Nickel: A Narrative Review"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2025
 volume: "25(7):944-954"
 doi: "10.1007/s12012-025-10014-6"
 tags: [nickel, cardiovascular-disease, metabolic-syndrome, NHANES, oxidative-stress, epidemiology]
+platform: wikibiome
 ---
 
 # Cardio-Metabolic Effects of Nickel: A Narrative Review

@@ -20,12 +20,12 @@ taxonomic_signature:
       role: "Fungal overgrowth — biofilm formation, intestinal barrier disruption, neuroinflammatory metabolites, reduced beneficial microbes"
     - taxon: "[[clostridium]]"
       role: "Enriched in MDD — produces pro-inflammatory metabolites (propionic acid, p-cresol), neurotoxic derivatives via tryptophan fermentation"
-    - taxon: "[[bacteroides]]"
+    - taxon: "[[bacteroides-fragilis|bacteroides]]"
       role: "Gram-negative → increased LPS production contributing to leaky gut and endotoxemia"
     - taxon: "[[escherichia-coli]]"
       role: "Opportunistic overgrowth in dysbiotic states, LPS producer, impaired tryptophan metabolism"
   depleted:
-    - taxon: "[[faecalibacterium]]"
+    - taxon: "[[faecalibacterium-prausnitzii|faecalibacterium]]"
       role: "SCFA producer, anti-inflammatory butyrate synthesis — loss impairs colonocyte health and barrier integrity"
     - taxon: "[[bifidobacterium]]"
       role: "Beneficial fermentation (lactate production), barrier support — depleted in depression dysbiosis"
@@ -121,14 +121,14 @@ The dysbiotic community in MDD is characterized by loss of SCFA and metabolite p
 |-------|-------------------|------------------------|-----------------|
 | **[[candida-albicans]]** | Multiple (Ni, Fe) | Biofilm formation, LPS analog production | Fungal dysbiosis (elevated in depression [[hadrich-2025-gut-mycobiome-neuropsychiatric-disorders]]); biofilms disrupt barrier; reduced beneficial fungi |
 | **[[clostridium]]** clusters | Variable (Co-dependent propionyl-CoA) | Propionic acid, p-cresol | Enriched in ASD and potentially MDD [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]]; propionic acid and p-cresol are neurotoxic (ASD) and pro-inflammatory |
-| **[[bacteroides]]** | Fe, Zn | LPS, hydrolytic enzymes | Gram-negative; increased LPS production contributes to endotoxemia and neuroinflammation |
+| **[[bacteroides-fragilis|bacteroides]]** | Fe, Zn | LPS, hydrolytic enzymes | Gram-negative; increased LPS production contributes to endotoxemia and neuroinflammation |
 | **[[escherichia-coli]]** | Fe, Ni, Zn | LPS, beta-glucuronidase | Opportunistic overgrowth in dysbiotic niches; LPS driver; impairs tryptophan metabolism |
 
 ### Depleted Taxa
 
 | Taxon | Normal Function | Why Lost in MDD |
 |-------|-----------------|-----------------|
-| **[[faecalibacterium]]** | SCFA production (butyrate), anti-inflammatory metabolites | **Significantly reduced in ASD, depression** [[yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr]]; loss of butyrate impairs colonocyte health, barrier function, Treg differentiation |
+| **[[faecalibacterium-prausnitzii|faecalibacterium]]** | SCFA production (butyrate), anti-inflammatory metabolites | **Significantly reduced in ASD, depression** [[yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr]]; loss of butyrate impairs colonocyte health, barrier function, Treg differentiation |
 | **[[bifidobacterium]]** | Lactate production, barrier support, beneficial fermentation | **Depleted in depression and neuropsychiatric dysbiosis** [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]]; loss reduces barrier integrity and immune tolerance |
 | **[[lachnospiraceae]]** | SCFA production (butyrate, propionate) | Competitive exclusion by pathogenic bacteria in metal-rich, pro-inflammatory environment |
 | **[[prevotella]]** | Propionate production, tryptophan metabolism toward beneficial indoles | **Depleted in depression** [[ni-2022-gut-microbiota-psychiatric-disorders-mr]]; loss impairs AhR signaling and mucosal immunity |
@@ -269,3 +269,11 @@ The depression microenvironment exhibits:
 7. **Estrobolome and Hormone Recirculation** — Less central to MDD than endometriosis, but beta-glucuronidase-mediated estrogen recirculation may amplify mood dysregulation in women via estrogen-dependent signaling in mood circuits
 8. **Siderophore Competition and Iron Ecology** — Dysbiotic E. coli and Bacteroides compete for iron via siderophore systems; beneficial commensals (Faecalibacterium) lack robust siderophore systems and are outcompeted in iron-rich dysbiotic niches
 9. **Oxygen State as Ecological Determinant** — Candida biofilms and Clostridial overgrowth create anaerobic pockets; hypoxia perpetuates dysbiosis; microaeration (prebiotics that feed facultative anaerobes initially) may restore oscillations that favor beneficial taxa
+
+## Key Sources
+
+- [[campanale-2025-endocannabinoidome-gut-microbiome-brain-asd]]
+- [[mathew-2022-serotoninergic-antidepressants-asd-systematic-review]]
+- [[boeschoten-2017-depression-anxiety-ms-meta-analysis]]
+- [[macer-2017-antidepressants-ibd-systematic-review]]
+- [[parodi-2021-gut-brain-axis-ms-trigger-or-consequence]]

@@ -1,4 +1,5 @@
 ---
+
 title: "Causality of the Gut Microbiome and Atherosclerosis-Related Lipids: A Bidirectional Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s12872-024-03804-3"
 tags: [cardiovascular-disease, Mendelian-randomization, lipids, dyslipidemia, ApoA, ApoB, LDL-C, HDL-C, triglycerides, Desulfovibrionaceae, Ruminococcaceae, Oscillospira, atherosclerosis]
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/s12872-024-03804-3.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

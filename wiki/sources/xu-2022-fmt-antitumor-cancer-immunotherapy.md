@@ -1,4 +1,5 @@
 ---
+
 title: "Antitumor Effects of Fecal Microbiota Transplantation: Implications for Microbiome Modulation in Cancer Treatment"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Hui Xu, Chenxi Cao, Yuqing Ren, Siyuan Weng, Long Liu, Chunguang Guo, 
 journal: Frontiers in Immunology
 year: 2022
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, immunotherapy, immune-checkpoint-blockers, gut-microbiota, dysbiosis, Fusobacterium-nucleatum, colorectal-cancer, review]
+platform: wikibiome
 ---
 
 # Key Claims

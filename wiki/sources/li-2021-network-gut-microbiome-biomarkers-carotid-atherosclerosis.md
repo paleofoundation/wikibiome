@@ -1,4 +1,5 @@
 ---
+
 title: "Network of Interactions Between Gut Microbiome, Host Biomarkers, and Urine Metabolome in Carotid Atherosclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2021
 doi: 10.3389/fcimb.2021.708088
 tags: [cardiovascular-disease, CVD, carotid-atherosclerosis, gut-microbiome, urine-metabolome, trans-omics, integrative-omics, biomarker, network-analysis, shotgun-metagenomics, Chinese-cohort]
+platform: wikibiome
 ---
 
 # Network of Interactions Between Gut Microbiome, Host Biomarkers, and Urine Metabolome in Carotid Atherosclerosis

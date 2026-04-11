@@ -1,4 +1,5 @@
 ---
+
 title: "Antidepressant fluoxetine alleviates colitis by reshaping intestinal microenvironment"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cell Communication and Signaling
 year: 2024
 doi: "10.1186/s12964-024-01538-5"
 tags: [colon-cancer, colorectal-cancer, antidepressants, fluoxetine, SSRIs, colitis, IBD, single-cell-RNA-sequencing, intestinal-barrier, macrophages, goblet-cells, MUC2, ZO-1, Occludin]
+platform: wikibiome
 ---
 
 # Teng 2024 -- Fluoxetine Alleviates Colitis by Reshaping Intestinal Microenvironment

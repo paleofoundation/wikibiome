@@ -1,4 +1,5 @@
 ---
+
 title: "Environmental pollutants as risk factors for neurodegenerative disorders: Alzheimer and Parkinson diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular Neuroscience
 year: 2015
 tags: [environmental-pollutants, Alzheimers-disease, Parkinsons-disease, heavy-metals, pesticides, nanoparticles, amyloid-beta, tau-protein, alpha-synuclein, epigenetics]
 doi: "10.3389/fncel.2015.00170"
+platform: wikibiome
 ---
 
 # Key Claims

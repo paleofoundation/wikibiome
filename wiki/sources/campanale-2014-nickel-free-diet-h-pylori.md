@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel Free-Diet Enhances the Helicobacter pylori Eradication Rate: A Pilot Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Digestive Diseases and Sciences
 year: 2014
 tags: [nickel-free-diet, H-pylori, eradication, triple-therapy, gastric-mucosa]
 doi: "10.1007/s10620-014-3060-3"
+platform: wikibiome
 ---
 
 ## Key Claims

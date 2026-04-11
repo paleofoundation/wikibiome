@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiota-derived tryptophan metabolites in vascular inflammation and cardiovascular disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Amino Acids
 year: 2022
 doi: 10.1007/s00726-022-03161-5
 tags: [cardiovascular-disease, CVD, tryptophan, indoles, indoxyl-sulfate, AHR, vascular-inflammation, atherosclerosis, hypertension, serotonin, kynurenine, endothelium]
+platform: wikibiome
 ---
 
 # Microbiota-Derived Tryptophan Metabolites in Vascular Inflammation and Cardiovascular Disease

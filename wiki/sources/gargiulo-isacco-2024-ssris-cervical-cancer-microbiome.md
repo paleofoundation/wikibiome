@@ -1,4 +1,5 @@
 ---
+
 title: "May the SSRIs play a role in the onset of peri- and post-menopausal cervical cancer?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Discover Applied Sciences
 year: 2024
 doi: "10.1007/s42452-024-06030-w"
 tags: [colon-cancer, colorectal-cancer, antidepressants, SSRIs, cervical-cancer, dysbiosis, antibiotic-resistance, HPV, vaginal-microbiome, menopause, serotonin, inflammation, ROS, oxidative-stress]
+platform: wikibiome
 ---
 
 # Gargiulo Isacco 2024 -- SSRIs and Peri/Post-Menopausal Cervical Cancer Risk

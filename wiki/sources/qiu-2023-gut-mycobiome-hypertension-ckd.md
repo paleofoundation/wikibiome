@@ -1,4 +1,5 @@
 ---
+
 title: "Exploring the gut mycobiome: differential composition and clinical associations in hypertension, chronic kidney disease, and their comorbidity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2023
 doi: 10.3389/fimmu.2023.1317809
 tags: [cardiovascular-disease, CVD, mycobiome, fungal-dysbiosis, hypertension, chronic-kidney-disease, Candida, Aspergillus, Saccharomyces, Apiotrichum, cytokines, renal-function]
+platform: wikibiome
 ---
 
 # Exploring the Gut Mycobiome: Differential Composition and Clinical Associations in Hypertension, Chronic Kidney Disease, and Their Comorbidity

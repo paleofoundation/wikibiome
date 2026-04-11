@@ -1,4 +1,5 @@
 ---
+
 title: "Diagnosis of Crohn's Disease and Ulcerative Colitis Using the Microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Microbiology
 year: 2023
 tags: [crohns-disease, IBD, ulcerative-colitis, gut-microbiome, machine-learning, diagnostic-biomarkers, dysbiosis, 16S-rRNA, WMS-sequencing, disease-severity]
 doi: "10.1186/s12866-023-03084-5"
+platform: wikibiome
 ---
 
 # Key Claims

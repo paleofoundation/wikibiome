@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota: A Target for Heavy Metal Toxicity and a Probiotic Protective Strategy"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Science of the Total Environment
 year: 2020
 tags: [heavy-metals, gut-microbiota, probiotics, dysbiosis, arsenic, cadmium, lead, mercury, bidirectional-interaction, SCFAs, bile-acids, Lactobacillus, review]
 doi: "10.1016/j.scitotenv.2020.140429"
+platform: wikibiome
 ---
 
 # Key Claims

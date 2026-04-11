@@ -1,4 +1,5 @@
 ---
+
 title: "Environmental pollution impact on the severity of some rheumatic diseases: a comparative analytical study on inflammatory and non-inflammatory samples"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "BMC Rheumatology"
 year: 2024
 tags: [heavy-metals, vitamin-D, parathyroid-hormone, rheumatoid-arthritis, fibromyalgia, lead, cadmium, chromium, environmental-pollution]
 doi: "10.1186/s41927-024-00420-8"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metal-Gut Microbiota Interactions: Probiotics Modulation and Biosensors Detection"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biosensors
 year: 2025
 tags: [heavy-metals, gut-microbiota, probiotics, biosensors, arsenic, cadmium, mercury, lead, detoxification, urine-monitoring, electrochemical-sensors, review]
 doi: "10.3390/bios15030188"
+platform: wikibiome
 ---
 
 # Key Claims

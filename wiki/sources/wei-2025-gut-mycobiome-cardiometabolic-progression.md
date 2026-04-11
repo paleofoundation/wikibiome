@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Mycobiome in Cardiometabolic Disease Progression: Current Evidence and Future Directions"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.3389/fmicb.2025.1659654"
 tags: [cardiovascular-disease, mycobiome, fungi, Candida, Saccharomyces, Malassezia, cardiometabolic-disease, obesity, diabetes, atherosclerosis, hypertension, heart-failure, fungal-dysbiosis, fungal-metabolites]
 source_pdf: "raw/cardiovascular disease/Mycobiome cardiovascular disease/Gut mycobiome in cardiometabolic disease progression- current evidence and future directions.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

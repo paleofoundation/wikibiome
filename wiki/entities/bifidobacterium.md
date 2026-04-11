@@ -1,4 +1,5 @@
 ---
+
 title: Bifidobacterium
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, duan-2020-gut-microbiota-hea
 metal_dependencies: [manganese, iron -- for core metabolism; Ni-urease in some species]
 key_enzymes: [Ni-urease (some species), metal-binding surface proteins]
 tags: [commensal, probiotic, infant-colonizer, metal-binding, depleted-in-disease, SCFA-producer]
+platform: wikibiome
 ---
 
 # Bifidobacterium
@@ -16,33 +18,33 @@ A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant g
 
 ## Nickel-Dependent Urease in Select Species
 
-- Some *Bifidobacterium* species carry urease genes and produce active Ni-dependent urease [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Some *Bifidobacterium* species carry urease genes and produce active Ni-dependent urease [[maier-2019-nickel-microbial-pathogenesis]].
 - In the commensal context, urease likely serves for **nitrogen acquisition** (urea is abundant in the gut lumen at ~2-6 mM) rather than as a virulence factor.
-- This commensal urease activity has implications for nickel restriction strategies: dietary nickel limitation aimed at pathogen urease could also affect beneficial *Bifidobacterium* urease, potentially causing unintended dysbiosis [[[maier-2019-nickel-microbial-pathogenesis]]].
+- This commensal urease activity has implications for nickel restriction strategies: dietary nickel limitation aimed at pathogen urease could also affect beneficial *Bifidobacterium* urease, potentially causing unintended dysbiosis [[maier-2019-nickel-microbial-pathogenesis]].
 - This dual-use problem -- pathogen vs. commensal urease -- is a key challenge for anti-nickel therapeutic approaches.
 
 ## Metal Binding and Detoxification
 
-- *Bifidobacterium* species demonstrate **metal-binding capacity** at the cell surface, contributing to heavy metal sequestration in the gut lumen [[[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]].
+- *Bifidobacterium* species demonstrate **metal-binding capacity** at the cell surface, contributing to heavy metal sequestration in the gut lumen [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 - Cell wall peptidoglycan and exopolysaccharides provide carboxyl and phosphoryl groups that chelate divalent metal cations.
-- *B. longum*, *B. breve*, and *B. lactis* have been studied for cadmium, lead, and mercury binding capacity [[[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]].
+- *B. longum*, *B. breve*, and *B. lactis* have been studied for cadmium, lead, and mercury binding capacity [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 - Combined with [[lactobacillus]], *Bifidobacterium* forms the core of traditional probiotic metal detoxification strategies.
 
 ## Infant Gut Colonization
 
 - *Bifidobacterium* (especially *B. infantis*, *B. breve*, *B. longum*) is the dominant genus in breastfed infant guts, comprising up to 90% of the microbiota.
 - Human milk oligosaccharides (HMOs) selectively feed *Bifidobacterium*, establishing early colonization dominance.
-- This dominance creates an **acid-producing, nickel-independent microbial environment** that naturally suppresses Ni-enzyme-dependent pathogens [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- This dominance creates an **acid-producing, nickel-independent microbial environment** that naturally suppresses Ni-enzyme-dependent pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Formula-fed infants have lower *Bifidobacterium* and higher Proteobacteriaceae -- a shift compounded by formula's higher nickel content.
 - The convergence of reduced *Bifidobacterium*, increased dietary nickel, and enrichment of Ni-urease pathogens in formula-fed preterm infants may explain NEC susceptibility.
 
 ## Depletion Across Disease States
 
 - **IBD**: reduced in both Crohn's disease and ulcerative colitis.
-- **Obesity and metabolic syndrome**: inversely correlated with BMI; depleted in metabolic dysfunction [[[pendergrass-2026-heavy-metals-obesity-epidemic]]].
+- **Obesity and metabolic syndrome**: inversely correlated with BMI; depleted in metabolic dysfunction [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - **Autism spectrum disorder**: multiple studies report altered *Bifidobacterium* in ASD.
 - **Allergic disease**: early-life *Bifidobacterium* depletion associated with increased allergy risk.
-- **Iron supplementation effects**: excess iron in infant formula may suppress *Bifidobacterium* while promoting Enterobacteriaceae [[[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]].
+- **Iron supplementation effects**: excess iron in infant formula may suppress *Bifidobacterium* while promoting Enterobacteriaceae [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 
 ## SCFA Production and Immune Modulation
 

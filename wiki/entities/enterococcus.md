@@ -1,10 +1,12 @@
 ---
+
 title: Enterococcus
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [cheng-2021-cadmium-enterococcus-metabolic.md, rebelo-2021-enterococcus-metal-antibiotic-resistance.md]
 tags: [pathogen, cadmium, mercury, arsenic, copper, antibiotic-resistance, co-selection, hospital-acquired, VRE, mobile-genetic-elements]
+platform: wikibiome
 ---
 
 # Enterococcus
@@ -14,7 +16,7 @@ A genus of Gram-positive bacteria (primarily *E. faecalis* and *E. faecium*) tha
 ## Metal-Dependent Biology
 
 ### Cadmium-Triggered Metabolic Reprogramming
-Cadmium stress causes **massive transcriptional reorganization** in *E. faecium* [[[cheng-2021-cadmium-enterococcus-metabolic]]]:
+Cadmium stress causes **massive transcriptional reorganization** in *E. faecium* [[cheng-2021-cadmium-enterococcus-metabolic]]:
 
 - **1,152 differentially expressed genes** (47% of the genome) under cadmium exposure.
 - **Three distinct response groups**:
@@ -27,12 +29,12 @@ Cadmium stress causes **massive transcriptional reorganization** in *E. faecium*
 ### Metal Efflux Systems
 - **P-type ATPases**: primary cadmium and copper efflux pumps.
 - **CDF (cation diffusion facilitator) family**: zinc and cadmium export.
-- These efflux systems are shared with related genera: parallels the CzcD system in [[streptococcus-pneumoniae]] [[[akbari-2022-metal-homeostasis-streptococci]]].
+- These efflux systems are shared with related genera: parallels the CzcD system in [[streptococcus-pneumoniae]] [[akbari-2022-metal-homeostasis-streptococci]].
 
 ## Metal-Antibiotic Resistance Co-Selection
 
 ### The 120-Year Survey
-A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of metal and antibiotic resistance [[[rebelo-2021-enterococcus-metal-antibiotic-resistance]]]:
+A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of metal and antibiotic resistance [[rebelo-2021-enterococcus-metal-antibiotic-resistance]]:
 
 - **Metal tolerance genes surveyed**: arsA (arsenic), merA (mercury), tcrB (copper).
 - **Prevalence**: arsA most frequent (82% of MeT-carrying isolates); merA 97% prevalence; tcrB less common.
@@ -40,7 +42,7 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 - **Temporal acceleration**: co-occurrence of metal tolerance and antibiotic resistance genes increased dramatically since the 1990s, correlating with increased antimicrobial and metal use in agriculture and medicine.
 
 ### Co-Occurrence on Mobile Elements
-- Metal tolerance and antibiotic resistance genes **systematically co-occur** on conjugative plasmids [[[rebelo-2021-enterococcus-metal-antibiotic-resistance]]]:
+- Metal tolerance and antibiotic resistance genes **systematically co-occur** on conjugative plasmids [[rebelo-2021-enterococcus-metal-antibiotic-resistance]]:
   - **vanA** (vancomycin resistance) near mercury/arsenic tolerance regions.
   - **tet(M)** (tetracycline), **erm(B)** (macrolide), **aac6'-Ie-aph2''-Ia** (aminoglycoside) co-located with MeT genes.
   - Flanked by IS elements (IS110, IS256, IS200/605) enabling mobilization.
@@ -48,7 +50,7 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 - This means: **selecting for metal resistance automatically selects for antibiotic resistance** and vice versa.
 
 ### Cross-Phylum Gene Exchange
-- Metal resistance gene variants are shared between *Enterococcus* and distant taxa including *Lactobacillus malefermentans*, *Streptococcus*, and *Staphylococcus* [[[rebelo-2021-enterococcus-metal-antibiotic-resistance]]].
+- Metal resistance gene variants are shared between *Enterococcus* and distant taxa including *Lactobacillus malefermentans*, *Streptococcus*, and *Staphylococcus* [[rebelo-2021-enterococcus-metal-antibiotic-resistance]].
 - Overlapping ecosystems (gut, food production, hospital, agricultural) enable gene flow across bacterial phyla.
 - This has implications for [[staphylococcus-aureus]] MRSA co-resistance evolution and even for probiotic safety (probiotic Lactobacillus may acquire resistance determinants from Enterococcus).
 
@@ -74,7 +76,7 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 - **Hospital environments**: copper-surfaced fittings intended to reduce hospital infections may paradoxically select for copper-tolerant (and therefore antibiotic-resistant) Enterococci.
 - **Food chain**: metal-resistant Enterococci from animal production enter the human food chain, transferring resistance genes to human gut flora.
 - **Wastewater/sewage**: convergence point for antibiotic and metal residues, driving co-selection in environmental Enterococcus populations.
-- *Enterococcus* is proposed as a **bioindicator** for metal pollution across diverse environments [[[rebelo-2021-enterococcus-metal-antibiotic-resistance]]].
+- *Enterococcus* is proposed as a **bioindicator** for metal pollution across diverse environments [[rebelo-2021-enterococcus-metal-antibiotic-resistance]].
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome-metabolome interplay in pancreatic cancer progression: insights from multi-omics analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Cancer
 year: 2025
 tags: [pancreatic-cancer, intratumoral-microbiome, metabolomics, Pseudomonas, amino-acids, metabolic-pathways, microbial-metabolites, arginine-metabolism, multi-omics, 16S-rRNA]
 doi: "10.1186/s12943-025-02458-9"
+platform: wikibiome
 ---
 
 # Key Claims

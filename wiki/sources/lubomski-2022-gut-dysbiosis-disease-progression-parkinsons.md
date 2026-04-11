@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Michal Lubomski, Ryan L Davis, Carolyn M Sue]
 year: 2022
 journal: "Frontiers in Cellular and Infection Microbiology"
-doi: "10.3389/fcimb.2022.XXXXXX"
+doi: "10.3389/fcimb.2022.875135"
 tags: [parkinsons-disease, gut-dysbiosis, disease-progression, longitudinal-study, microbiome-composition, two-year-followup, motor-symptoms]
 library_category: causal
 platform: both

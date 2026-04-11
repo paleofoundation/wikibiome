@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbial taxa as potential predictive biomarkers for acute coronary syndrome and post-STEMI cardiovascular events"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2020
 doi: 10.1038/s41598-020-59235-5
 tags: [cardiovascular-disease, CVD, acute-coronary-syndrome, STEMI, gut-microbiome, TMAO, biomarker, metagenomics, Aerococcaceae, Eubacterium, Lachnospiraceae, MACE, 16S-rRNA]
+platform: wikibiome
 ---
 
 # Gut Microbial Taxa as Potential Predictive Biomarkers for ACS and Post-STEMI Cardiovascular Events

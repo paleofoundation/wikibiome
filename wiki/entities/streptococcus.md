@@ -1,4 +1,5 @@
 ---
+
 title: Streptococcus
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [manganese, zinc, iron]
 key_enzymes: [MnSOD, superoxide-dismutase, hyaluronidase, streptokinase, streptolysins]
 tags: [gram-positive, facultative-anaerobe, manganese-dependent, pathogenic-commensal, oral-gut-microbiome, rheumatic-fever, PIMS]
+platform: wikibiome
 ---
 
 # Streptococcus

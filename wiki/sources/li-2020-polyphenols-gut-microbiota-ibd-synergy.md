@@ -1,4 +1,5 @@
 ---
+
 title: "Synergic Interactions between Polyphenols and Gut Microbiota in Mitigating Inflammatory Bowel Diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Food & Function
 year: 2020
 tags: [crohns-disease, IBD, polyphenols, gut-microbiome, dysbiosis, Faecalibacterium-prausnitzii, Escherichia-coli, NF-kappaB, Nrf2, SCFAs, inflammation]
 doi: "10.1039/D0FO00713G"
+platform: wikibiome
 ---
 
 # Key Claims

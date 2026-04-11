@@ -1,4 +1,5 @@
 ---
+
 title: "Clostridium symbiosum"
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [bile-acid-metabolizing-enzymes, butyrate-CoA-transferase, acetyl-CoA-C-acetyltransferase]
+platform: wikibiome
 ---
 
 # Clostridium symbiosum
@@ -92,11 +94,11 @@ The **7α-dehydroxylase activity is the clinical hallmark** of pathogenic bile a
 
 | Taxon | Primary Role | Synergy with *C. symbiosum* |
 |-------|-------------|---------------------------|
-| **[[Parvimonas-micra]]** | Oral pathogen; adhesion, biofilm nucleation | Biofilm co-aggregation; iron scavenging |
-| **[[Peptostreptococcus-stomatis]]** | Oral pathogen; colibactin genotoxin (pks+ operon) | DCA/LCA-driven inflammation amplifies DNA damage |
-| **[[Fusobacterium-nucleatum]]** | Adhesin-mediated epithelial invasion; immune evasion | Biofilm integration; reduces oxygen availability |
-| **[[Bacteroides-fragilis]]** (especially toxigenic BFT+ strains) | BFT toxin → epithelial damage, barrier disruption | DCA/LCA disrupts barrier repair; promotes LPS translocation |
-| **[[Escherichia-coli]]** (pks+, AIEC strains) | Colibactin genotoxin; LPS endotoxemia | Iron piracy; DCA/LCA promotes AIEC growth |
+| **[[parvimonas-micra]]** | Oral pathogen; adhesion, biofilm nucleation | Biofilm co-aggregation; iron scavenging |
+| **[[peptostreptococcus-stomatis]]** | Oral pathogen; colibactin genotoxin (pks+ operon) | DCA/LCA-driven inflammation amplifies DNA damage |
+| **[[fusobacterium-nucleatum]]** | Adhesin-mediated epithelial invasion; immune evasion | Biofilm integration; reduces oxygen availability |
+| **[[bacteroides-fragilis]]** (especially toxigenic BFT+ strains) | BFT toxin → epithelial damage, barrier disruption | DCA/LCA disrupts barrier repair; promotes LPS translocation |
+| **[[escherichia-coli]]** (pks+, AIEC strains) | Colibactin genotoxin; LPS endotoxemia | Iron piracy; DCA/LCA promotes AIEC growth |
 
 ### Ecological Context: Iron-Rich, Anaerobic, Mucosa-Proximal
 
@@ -149,19 +151,19 @@ This is a critical distinction: *C. symbiosum* in a healthy, diverse microbiome 
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[Bile-acids]]** – Primary substrate; *C. symbiosum* converts PBA to pathogenic SBA
-- **[[Secondary-bile-acids]]** (DCA, LCA) – Direct product; pro-inflammatory and carcinogenic
-- **[[Deoxycholic-acid]]** – Key *C. symbiosum* product; drives CRC progression
-- **[[Lithocholic-acid]]** – Minor secondary bile acid produced by *C. symbiosum*
-- **[[Iron]]** – Absolute requirement; iron supplementation selectively enriches *C. symbiosum*
-- **[[Hepcidin]]** – Host iron-withholding defense; suppresses *C. symbiosum*
-- **[[Inflammation]]** – DCA/LCA-driven chronic inflammation; NF-κB activation
-- **[[Colorectal-cancer]]** – Dramatically enriched in CRC; core driver taxon; member of oncogenic consortium
-- **[[Dysbiosis]]** – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
-- **[[Faecalibacterium-prausnitzii]]** – Inverse relationship; *F. prausnitzii* suppression allows *C. symbiosum* expansion
-- **[[Parvimonas-micra]]** – Co-enriched in CRC; biofilm partner
-- **[[Fusobacterium-nucleatum]]** – Co-enriched in CRC; synergistic inflammation
-- **[[Bacteroides-fragilis]]** – Co-enriched (especially toxigenic strains); synergistic barrier disruption
+- **[[bile-acids]]** – Primary substrate; *C. symbiosum* converts PBA to pathogenic SBA
+- **[[secondary-bile-acids]]** (DCA, LCA) – Direct product; pro-inflammatory and carcinogenic
+- **[[deoxycholic-acid]]** – Key *C. symbiosum* product; drives CRC progression
+- **[[lithocholic-acid]]** – Minor secondary bile acid produced by *C. symbiosum*
+- **[[iron]]** – Absolute requirement; iron supplementation selectively enriches *C. symbiosum*
+- **[[hepcidin]]** – Host iron-withholding defense; suppresses *C. symbiosum*
+- **[[inflammation]]** – DCA/LCA-driven chronic inflammation; NF-κB activation
+- **[[colorectal-cancer]]** – Dramatically enriched in CRC; core driver taxon; member of oncogenic consortium
+- **[[dysbiosis]]** – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
+- **[[faecalibacterium-prausnitzii]]** – Inverse relationship; *F. prausnitzii* suppression allows *C. symbiosum* expansion
+- **[[parvimonas-micra]]** – Co-enriched in CRC; biofilm partner
+- **[[fusobacterium-nucleatum]]** – Co-enriched in CRC; synergistic inflammation
+- **[[bacteroides-fragilis]]** – Co-enriched (especially toxigenic strains); synergistic barrier disruption
 
 ## Clinical and Intervention Implications (Cureva Layer)
 

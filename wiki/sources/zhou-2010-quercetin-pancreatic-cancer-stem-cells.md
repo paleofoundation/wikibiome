@@ -1,4 +1,5 @@
 ---
+
 title: "Dietary polyphenol quercetin targets pancreatic cancer stem cells"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Oncology
 year: 2010
 tags: [pancreatic-cancer, dietary-polyphenols, quercetin, sulforaphane, cancer-stem-cells, NF-kB, EMT, ALDH, apoptosis, chemoprevention]
 doi: "10.3892/ijo_00000704"
+platform: wikibiome
 ---
 
 # Key Claims

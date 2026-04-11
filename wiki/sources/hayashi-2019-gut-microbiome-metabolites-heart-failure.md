@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiome and Plasma Microbiome-Related Metabolites in Patients With Decompensated and Compensated Heart Failure"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Circulation Journal
 year: 2019
 doi: 10.1253/circj.CJ-18-0468
 tags: [cardiovascular-disease, CVD, heart-failure, gut-microbiome, TMAO, indoxyl-sulfate, Actinobacteria, Bifidobacterium, Megamonas, metabolites, decompensated, compensated, 16S-rRNA]
+platform: wikibiome
 ---
 
 # Gut Microbiome and Plasma Microbiome-Related Metabolites in Patients With Decompensated and Compensated Heart Failure

@@ -1,4 +1,5 @@
 ---
+
 title: "Research on Metabolic Characteristics of Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2026
 tags: [multiple-sclerosis, fecal-metabolomics, UHPLC-Q-TOF-MS, amino-acids, fatty-acids, nicotinamide, mTOR, metabolic-pathways, biomarkers, Chinese-cohort]
 doi: "10.1038/s41598-026-42501-3"
+platform: wikibiome
 ---
 
 # Research on Metabolic Characteristics of Multiple Sclerosis

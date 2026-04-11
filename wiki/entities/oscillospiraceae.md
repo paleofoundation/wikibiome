@@ -1,4 +1,5 @@
 ---
+
 title: Oscillospiraceae
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, zinc]
 key_enzymes: [butyrate-synthesis, acetyl-CoA-transferase, butyryl-CoA-dehydrogenase]
 tags: [gram-positive, anaerobe, butyrate-producer, SCFA, probiotic-candidate, oscillospira, next-gen-probiotic, obesity-depleted, IBD-depleted, iron-zinc-dependent]
+platform: wikibiome
 ---
 
 # Oscillospiraceae
@@ -135,9 +137,9 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 ## Connections
 
 - [[butyrate]] -- primary metabolite; essential fuel for colonocytes and HDAC inhibitor
-- [[SCFA]] -- short-chain fatty acid producer; GPR43/GPR109A signaling links to immune homeostasis
-- [[regulatory-T-cells]] -- butyrate-driven IL-10-producing Tregs; Th17 suppression
-- [[barrier-function]] -- SCFA-driven tight junction protein expression and epithelial energetics
+- [[scfa]] -- short-chain fatty acid producer; GPR43/GPR109A signaling links to immune homeostasis
+- [[regulatory-t-cells]] -- butyrate-driven IL-10-producing Tregs; Th17 suppression
+- [[nutritional-immunity|barrier-function]] -- SCFA-driven tight junction protein expression and epithelial energetics
 - [[obesity]] -- consistently depleted; marker and possible contributor to dysbiosis
 - [[inflammatory-bowel-disease]] -- depleted in IBD; disease activity correlates with reduced abundance
 - [[colorectal-cancer]] -- depleted in CRC tissue; reduced SCFA linked to chronic colonic inflammation

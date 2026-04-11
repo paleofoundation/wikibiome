@@ -1,4 +1,5 @@
 ---
+
 title: "The Molecular Basis of Acinetobacter baumannii Cadmium Toxicity and Resistance"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Applied and Environmental Microbiology
 year: 2021
 tags: [cadmium, Acinetobacter-baumannii, metal-resistance, efflux-systems, CDF-transporter, HME-system, metallome, zinc-homeostasis, copper-homeostasis, TraDIS]
 doi: "10.1128/AEM.01718-21"
+platform: wikibiome
 ---
 
 # The Molecular Basis of Acinetobacter baumannii Cadmium Toxicity and Resistance

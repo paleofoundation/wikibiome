@@ -1,4 +1,5 @@
 ---
+
 title: Chronic Kidney Disease
 type: entity
 subtype: disease
@@ -6,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, danziger-2022-susceptibility-heavy-metal-toxicity-ckd.md, atlani-2024-heavy-metals-ckdu-central-india.md, tsai-2018-heavy-metals-soil-ckd-progression-esrd.md, liu-2025-low-concentration-metals-ckd-alpha-klotho.md, rho-2025-heavy-metals-kidney-function-korea.md, xie-2025-urinary-metals-trace-elements-kidney-function.md, moody-2018-toxic-metals-ckd-systematic-review.md, yin-2024-heavy-metals-renal-injury-longitudinal.md, kuo-2024-low-level-lead-cadmium-ckd-mortality.md, sabath-2012-renal-health-heavy-metal-nephrotoxicity.md, khan-2014-metals-type2-diabetes.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy.md]
 tags: [renal-disease, cadmium, lead, mercury, arsenic, chromium, nickel, ferroptosis, alpha-klotho, nephrotoxicity, vicious-cycle, racial-disparities, CKDu, environmental-exposure]
+platform: wikibiome
 ---
 
 # Chronic Kidney Disease (CKD)
@@ -60,7 +62,7 @@ This bidirectional relationship is the defining metallomic feature of CKD:
 
 ### Alpha-Klotho as Mediator
 
-- [[Alpha-klotho]] mediates the Hg-CKD association with 34.55% mediation proportion [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
+- [[alpha-klotho]] mediates the Hg-CKD association with 34.55% mediation proportion [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
 - Mendelian randomization confirmed higher alpha-klotho levels causally associated with reduced CKD risk (OR 0.9842) [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
 - Klotho functions: antioxidant enzyme regulation (SOD, CAT, GPX-4), TLR4 signaling suppression, NF-kappaB inhibition, autophagy promotion, Ca/vitamin D homeostasis [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
 - DNA hypomethylation of the klotho promoter by TGF-beta drives fibrosis in CKD [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
@@ -144,11 +146,20 @@ CKD metallomic research reveals stark health equity issues:
 6. **Optimal chelation in CKD**: Standard chelation agents may be nephrotoxic themselves; kidney-safe chelators are needed.
 7. **Thallium**: Identified as having the highest posterior inclusion probability for CKD risk (PIP = 1.0) in one machine learning analysis [[liu-2025-low-concentration-metals-ckd-alpha-klotho]] -- an understudied nephrotoxicant.
 
+
+## Key Sources
+
+- [[rho-2025-heavy-metals-kidney-function-korea]]
+- [[xie-2025-urinary-metals-trace-elements-kidney-function]]
+- [[moody-2018-toxic-metals-ckd-systematic-review]]
+- [[yin-2024-heavy-metals-renal-injury-longitudinal]]
+- [[khan-2014-metals-type2-diabetes]]
+
 ## Connections
 
 - **Metals**: [[cadmium]], [[lead]], [[mercury]], [[arsenic]], [[chromium]], [[nickel]], [[iron]], [[zinc]], [[copper]]
-- **Concepts**: [[ferroptosis]], [[alpha-klotho]], [[nephrotoxicity]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[gut-barrier-integrity]], [[vicious-cycle]]
+- **Concepts**: [[ferroptosis]], [[alpha-klotho]], [[nephrotoxicity]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[nutritional-immunity|gut-barrier-integrity]], [[vicious-cycle]]
 - **Analyses**: [[metal-disease-matrix]]
 - **Related diseases**: [[parkinsons-disease]] (shared ferroptosis pathway), [[alzheimers-disease]] (shared ferroptosis), [[type-2-diabetes]] (common comorbidity; shared Cd/Pb exposure), [[pcos]] (shared toxic metal burden)
-- **Environmental**: [[Soil Contamination]], [[Water Contamination]], [[Agricultural Exposure]], [[Electroplating Industry]]
+- **Environmental**: [[soil-contamination]], [[water-contamination]], [[agricultural-exposure]], [[electroplating-industry]]
 - **Interventions**: [[metal-sequestering-probiotics]], [[iron-chelation]], [[clean-water-access]]

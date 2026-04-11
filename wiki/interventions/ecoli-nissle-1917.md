@@ -1,4 +1,5 @@
 ---
+
 title: "E. coli Nissle 1917"
 type: intervention
 created: 2026-04-09
@@ -21,6 +22,7 @@ targets:
   enzymes: []
   metals: [iron, nickel]
   ecological: [competitive-exclusion, siderophore-competition, hypoxic-competition]
+platform: cureva
 ---
 
 ## Mechanism of Action

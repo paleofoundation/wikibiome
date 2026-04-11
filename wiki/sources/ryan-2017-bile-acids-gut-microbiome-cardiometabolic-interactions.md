@@ -1,4 +1,5 @@
 ---
+
 title: "Bile acids at the cross-roads of gut microbiome-host cardiometabolic interactions"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Diabetology and Metabolic Syndrome
 year: 2017
 doi: 10.1186/s13098-017-0299-9
 tags: [cardiovascular-disease, CVD, bile-acids, FXR, TGR5, gut-microbiome, metabolic-syndrome, obesity, hypertension, heart-failure, bariatric-surgery, BSH, coprostanol, review]
+platform: wikibiome
 ---
 
 # Bile Acids at the Cross-Roads of Gut Microbiome-Host Cardiometabolic Interactions

@@ -1,4 +1,5 @@
 ---
+
 title: "The Endobiota Study: Comparison of Vaginal, Cervical and Gut Microbiota Between Women with Stage 3/4 Endometriosis and Healthy Controls"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2019
 tags: [endometriosis, vaginal-microbiome, cervical-microbiome, gut-microbiome, Atopobium, Gardnerella, Escherichia-Shigella, dysbiosis, multi-site-microbiome]
 doi: "10.1038/s41598-019-39700-6"
+platform: wikibiome
 ---
 
 # Key Claims

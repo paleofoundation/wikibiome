@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota and Thyroid Diseases: A Comprehensive Review of Mechanisms and Clinical Implications"
 type: source
 created: 2026-04-09
@@ -6,8 +7,9 @@ updated: 2026-04-09
 authors: [Bao K, Lin H, Guo S]
 journal: X-Disciplinarity
 year: 2025
-doi: "10.63174/xdi.BDAP6489"
+doi: "unverified"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiota, Graves-disease, thyroid-cancer, hypothyroidism, hyperthyroidism, SCFAs, LPS, bile-acids, indoles, probiotics, FMT, diet, levothyroxine, drug-microbiome-interaction, Lactobacillus, Bifidobacterium, Bacteroides, Clostridium, Enterobacteriaceae, Firmicutes-Bacteroidetes-ratio, gut-thyroid-axis, microbiome-diet, high-fiber-diet]
+platform: wikibiome
 ---
 
 # Gut Microbiota and Thyroid Diseases: A Comprehensive Review of Mechanisms and Clinical Implications

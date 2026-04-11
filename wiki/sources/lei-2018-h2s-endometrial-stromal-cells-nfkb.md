@@ -1,4 +1,5 @@
 ---
+
 title: "H2S promotes proliferation of endometrial stromal cells via activating the NF-kB pathway in endometriosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: American Journal of Translational Research
 year: 2018
 tags: [endometriosis, hydrogen-sulfide, NF-kB, CBS, CSE, endometrial-stromal-cells, cell-proliferation, inflammation, in-vivo-model]
 doi: "10.1186/s13287-018-1015-x"
+platform: wikibiome
 ---
 
 # Key Claims

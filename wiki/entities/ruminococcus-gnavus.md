@@ -1,4 +1,5 @@
 ---
+
 title: Ruminococcus gnavus
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, zinc]
 key_enzymes: [iron-acquisition-systems, mucin-degrading-glycosidases, polysaccharide-biosynthesis-enzymes]
 tags: [crohns-disease, depression, multiple-sclerosis, inflammatory-polysaccharide-producer, mucin-degrader, dysbiosis-marker]
+platform: wikibiome
 ---
 
 # Ruminococcus gnavus

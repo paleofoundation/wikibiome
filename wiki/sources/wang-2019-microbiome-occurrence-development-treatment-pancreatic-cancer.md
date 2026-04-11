@@ -1,4 +1,5 @@
 ---
+
 title: "Role of the microbiome in occurrence, development and treatment of pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Cancer
 year: 2019
 tags: [pancreatic-cancer, microbiome-review, microbiome-composition, oral-microbiome, H-pylori, Candida, inflammation, NF-kB, LPS-TLR, Wnt-signaling, chemotherapy, immunotherapy, FMT]
 doi: "10.1186/s12943-019-1103-2"
+platform: wikibiome
 ---
 
 # Key Claims

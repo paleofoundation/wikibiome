@@ -1,4 +1,5 @@
 ---
+
 title: "From Microbes to Myocardium: A Comprehensive Review of the Impact of the Gut-Brain Axis on Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cureus
 year: 2024
 doi: 10.7759/cureus.70877
 tags: [cardiovascular-disease, CVD, gut-brain-axis, dysbiosis, TMAO, SCFAs, autonomic-nervous-system, HPA-axis, vagus-nerve, neuroinflammation, review]
+platform: wikibiome
 ---
 
 # From Microbes to Myocardium: A Comprehensive Review of the Impact of the Gut-Brain Axis on Cardiovascular Disease

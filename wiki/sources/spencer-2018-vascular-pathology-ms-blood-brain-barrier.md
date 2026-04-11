@@ -1,4 +1,5 @@
 ---
+
 title: "Vascular Pathology in Multiple Sclerosis: Reframing Pathogenesis Around the Blood-Brain Barrier"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Neurology, Neurosurgery and Psychiatry
 year: 2018
 doi: 10.1136/jnnp-2017-316011
 tags: [multiple-sclerosis, blood-brain-barrier, vascular-pathology, BBB, hypoxia, cerebral-perfusion, environmental-risk-factors, neuroinflammation]
+platform: wikibiome
 ---
 
 # Vascular Pathology in Multiple Sclerosis: Reframing Pathogenesis Around the Blood-Brain Barrier

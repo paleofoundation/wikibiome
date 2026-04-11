@@ -1,4 +1,5 @@
 ---
+
 title: "Metformin alters the gut microbiome of individuals with treatment-naive type 2 diabetes, contributing to the therapeutic effects of the drug"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Medicine
 year: 2017
 doi: 10.1038/nm.4345
 tags: [cardiovascular-disease, metformin, gut-microbiome, type-2-diabetes, shotgun-metagenomics, SCFAs, bile-acids, Akkermansia, Bifidobacterium, randomized-controlled-trial]
+platform: wikibiome
 ---
 
 # Metformin Alters the Gut Microbiome of Individuals with Treatment-Naive Type 2 Diabetes

@@ -1,4 +1,5 @@
 ---
+
 title: "Association between nickel exposure and diabetes risk: an updated meta-analysis of observational studies"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Lu H, Shi X, Han L, Liu X, Jiang Q]
 journal: Frontiers in Public Health
 year: 2024
 tags: [nickel, diabetes, meta-analysis, urinary-nickel, blood-nickel, hyperglycemia, metabolic]
-doi: "10.1016/j.envint.2024.108859"
+doi: "10.3389/fpubh.2024.1463880"
+platform: wikibiome
 ---
 
 ## Key Claims

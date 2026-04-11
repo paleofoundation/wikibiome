@@ -1,4 +1,5 @@
 ---
+
 title: "The interplay between diet and the gut microbiome: implications for health and disease"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Fiona C. Ross, Dhrati Patangia, Ghjuvan Grimaud, Aonghus Lavelle, Euge
 journal: Nature Reviews Microbiology
 year: 2024
 tags: [cardiovascular-disease, gut-microbiome, Mediterranean-diet, high-fiber-diet, ketogenic-diet, Western-diet, plant-based-diet, SCFAs, polyphenols, precision-nutrition]
+platform: wikibiome
 ---
 
 # Ross et al. 2024 -- Diet-Gut Microbiome Interplay: Implications for Health and Disease

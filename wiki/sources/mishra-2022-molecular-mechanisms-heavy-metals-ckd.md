@@ -1,4 +1,5 @@
 ---
+
 title: "Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Manish Mishra, Larry Nichols, Aditi A. Dave, Elizabeth H. Pittman, Joh
 journal: International Journal of Molecular Sciences
 year: 2022
 tags: [chronic-kidney-disease, CKD, arsenic, cadmium, mercury, nephrotoxicity, oxidative-stress, mitochondrial-dysfunction, ferroptosis, epigenetics, fibrosis, inflammation]
-doi: "10.1007/s12975-022-01040-3"
+doi: "10.3390/ijms23063997"
+platform: wikibiome
 ---
 
 # Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease

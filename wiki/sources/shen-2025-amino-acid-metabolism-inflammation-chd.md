@@ -1,4 +1,5 @@
 ---
+
 title: "Relationship between amino acid metabolism and inflammation in coronary heart disease"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Ruxin Shen, Yingying Zhang]
 journal: International Journal of Molecular Medicine
 year: 2025
 tags: [cardiovascular-disease, amino-acids, inflammation, coronary-heart-disease, arginine, glutamate, BCAAs, tryptophan, TMAO, immunometabolic-reprogramming]
+platform: wikibiome
 ---
 
 # Shen & Zhang 2025 -- Amino Acid Metabolism and Inflammation in CHD

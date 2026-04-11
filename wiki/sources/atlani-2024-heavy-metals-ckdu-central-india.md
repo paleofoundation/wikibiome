@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metal Association with Chronic Kidney Disease of Unknown Cause in Central India - Results from a Case-Control Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: BMC Nephrology
 year: 2024
 tags: [CKDu, chronic-kidney-disease, heavy-metals, arsenic, cadmium, lead, chromium, India, nephrotoxicity, biomarkers]
 doi: "10.1186/s12882-024-03564-4"
+platform: wikibiome
 ---
 
 ## Summary

@@ -1,4 +1,5 @@
 ---
+
 title: "The effect of gut microbiome-targeted therapies in nonalcoholic fatty liver disease: a systematic review and network meta-analysis"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Yijia Song, Sutong Liu, Lihui Zhang, Wenxia Zhao, Yuanmei Qin, Minghao
 journal: Frontiers in Nutrition
 year: 2025
 tags: [cardiovascular-disease, microbiome-targeted-therapy, NAFLD, probiotics, synbiotics, prebiotics, FMT, antibiotics, network-meta-analysis, liver-enzymes]
+platform: wikibiome
 ---
 
 # Song et al. 2025 -- Microbiome-Targeted Therapies in NAFLD: Network Meta-Analysis

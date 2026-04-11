@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy metals in soils and the remediation potential of bacteria associated with the plant microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Environmental Science
 year: 2021
 tags: [heavy-metals, bioremediation, phytoremediation, plant-microbiome, arsenic, cadmium, lead, bacterial-metal-resistance, MIC]
 doi: "10.3389/fenvs.2021.604216"
+platform: wikibiome
 ---
 
 # Key Claims

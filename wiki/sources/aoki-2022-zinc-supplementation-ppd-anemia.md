@@ -1,4 +1,5 @@
 ---
+
 title: "The Possible Effects of Zinc Supplementation on Postpartum Depression and Anemia"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Medicina
 year: 2022
 tags: [zinc, supplementation, postpartum-depression, anemia, cesarean-section, EPDS, iron, trace-elements, intervention]
 doi: "10.3390/medicina58060731"
+platform: wikibiome
 ---
 
 # Key Claims

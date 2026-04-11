@@ -1,4 +1,5 @@
 ---
+
 title: "The fecal microbiota of patients with pancreatic ductal adenocarcinoma and autoimmune pancreatitis characterized by metagenomic sequencing"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Translational Medicine
 year: 2021
 tags: [pancreatic-cancer, shotgun-metagenomics, fecal-microbiota, autoimmune-pancreatitis, SCFAs, butyrate, microbial-biomarkers, Firmicutes, Proteobacteria, metabolic-pathways]
 doi: "10.1186/s12967-021-02882-7"
+platform: wikibiome
 ---
 
 # Key Claims

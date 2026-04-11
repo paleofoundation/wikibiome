@@ -1,4 +1,5 @@
 ---
+
 title: "Toxic metals and chronic kidney disease: A systematic review of recent literature"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Current Environmental Health Reports"
 year: 2018
 tags: [arsenic, cadmium, lead, chronic-kidney-disease, systematic-review, nephrotoxicity]
 doi: "10.1007/s40572-018-0212-1"
+platform: wikibiome
 ---
 
 # Key Claims

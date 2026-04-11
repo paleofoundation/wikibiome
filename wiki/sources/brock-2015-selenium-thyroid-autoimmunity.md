@@ -1,4 +1,5 @@
 ---
+
 title: "The Role of Selenium in Thyroid Autoimmunity: A Review"
 type: source
 created: 2026-04-09
@@ -6,7 +7,9 @@ updated: 2026-04-09
 authors: [Brock M]
 journal: Journal of Restorative Medicine
 year: 2015
+doi: "10.14200/jrm.2015.4.0104"
 tags: [selenium, thyroid, autoimmunity, Hashimotos-thyroiditis, graves-disease, selenoproteins, anti-TPO, supplementation]
+platform: wikibiome
 ---
 
 # The Role of Selenium in Thyroid Autoimmunity: A Review

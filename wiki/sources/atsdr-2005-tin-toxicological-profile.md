@@ -1,4 +1,5 @@
 ---
+
 title: "Toxicological Profile for Tin and Tin Compounds"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [ATSDR (Agency for Toxic Substances and Disease Registry), Carolyn Harp
 journal: ATSDR Toxicological Profile (U.S. Department of Health and Human Services)
 year: 2005
 tags: [tin, organotin, inorganic-tin, toxicological-profile, regulatory, ATSDR, CERCLA, occupational-exposure, environmental-health]
+platform: wikibiome
 ---
 
 # ATSDR Toxicological Profile for Tin and Tin Compounds

@@ -1,4 +1,5 @@
 ---
+
 title: "Presence of the siderophores pyoverdine and pyochelin in the extracellular medium reduces toxic metal accumulation in Pseudomonas aeruginosa and increases bacterial metal tolerance"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Environmental Microbiology Reports
 year: 2010
 tags: [siderophores, pyoverdine, pyochelin, Pseudomonas-aeruginosa, metal-tolerance, metal-chelation, iron, nickel, copper, cadmium, extracellular-sequestration]
 doi: "10.1111/j.1758-2229.2009.00126.x"
+platform: wikibiome
 ---
 
 # Presence of the Siderophores Pyoverdine and Pyochelin in the Extracellular Medium Reduces Toxic Metal Accumulation in Pseudomonas aeruginosa and Increases Bacterial Metal Tolerance

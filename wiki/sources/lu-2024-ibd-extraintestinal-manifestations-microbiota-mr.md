@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiota Does Not Play a Mediating Role in the Causal Association Between Inflammatory Bowel Disease and Several Its Associated Extraintestinal Manifestations"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2024
 tags: [crohns-disease, IBD, Mendelian-randomization, extraintestinal-manifestations, sarcoidosis, iridocyclitis, psoriatic-arthritis, primary-sclerosing-cholangitis, gut-microbiome]
 doi: "10.3389/fimmu.2023.1296889"
+platform: wikibiome
 ---
 
 # Key Claims

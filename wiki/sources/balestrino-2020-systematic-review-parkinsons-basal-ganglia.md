@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Roberta Balestrino, Alberto J Espay]
 year: 2020
 journal: "Basal Ganglia"
-doi: "10.XXXXX/basal-ganglia"
+doi: "10.1111/ene.14108"
 tags: [parkinsons-disease, systematic-review, clinical-overview, pathogenesis, alpha-synuclein, dopamine, motor-symptoms, non-motor-symptoms]
 library_category: associated-conditions
 platform: both

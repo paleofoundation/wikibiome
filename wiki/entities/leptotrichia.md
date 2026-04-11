@@ -1,4 +1,5 @@
 ---
+
 title: Leptotrichia
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [siderophore-uptake, proteases, hemolysin, biofilm-matrix-synthesis]
 tags: [gram-negative, anaerobe, iron-dependent, oral-microbiome, gut-pathobiont, biofilm, colorectal-cancer, translocation]
+platform: wikibiome
 ---
 
 # Leptotrichia
@@ -109,9 +111,9 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 - [[oral-microbiome]] -- primary habitat; pathobiont in periodontal disease
 - [[periodontal-disease]] -- enriched in gingivitis/periodontitis; drives tissue destruction
 - [[colorectal-cancer]] -- enriched in CRC tissue; oral-to-gut translocation pathway
-- [[lipopolysaccharide]] -- TLR4-mediated pro-inflammatory signaling
+- [[inflammation|lipopolysaccharide]] -- TLR4-mediated pro-inflammatory signaling
 - [[biofilm]] -- protective polysaccharide matrix; iron-dependent architecture
 - [[translocation]] -- aspiration-mediated oral-to-gut pathway in dysbiosis and IBD
 - [[interkingdom-relationships]] -- fungal-bacterial biofilms in CRC and dysbiotic states
-- [[barrier-function]] -- proteases and hemolysins disrupt epithelial integrity
+- [[nutritional-immunity|barrier-function]] -- proteases and hemolysins disrupt epithelial integrity
 - [[bacteroides-fragilis]] -- co-biofilm member; analogous iron-dependent pathobiont

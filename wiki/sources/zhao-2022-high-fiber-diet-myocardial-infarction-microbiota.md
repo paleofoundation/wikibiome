@@ -1,4 +1,5 @@
 ---
+
 title: "High fiber diet attenuate the inflammation and adverse remodeling of myocardial infarction via modulation of gut microbiota and metabolites"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Jinxuan Zhao, Wei Cheng, He Lu, Anqi Shan, Qi Zhang, Xuan Sun, Lina Ka
 journal: Frontiers in Microbiology
 year: 2022
 tags: [cardiovascular-disease, high-fiber-diet, myocardial-infarction, gut-microbiome, inflammation, macrophage-polarization, metabolomics, SCFAs]
+platform: wikibiome
 ---
 
 # Zhao et al. 2022 -- High Fiber Diet Attenuates MI via Gut Microbiota Modulation

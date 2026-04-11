@@ -1,4 +1,5 @@
 ---
+
 title: "Enterohepatic Circulation"
 type: concept
 created: 2026-04-10
@@ -6,13 +7,14 @@ updated: 2026-04-10
 sources: []
 tags: [estrobolome, bile-acid-metabolism, drug-metabolism, enterohepatic-recycling]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
+platform: wikibiome
 ---
 
 ## Overview
 
 **Enterohepatic circulation** (EHC) is the recycling loop by which compounds—primarily **bile acids**, **conjugated estrogens**, **conjugated glucuronides**, and metabolites of drugs and xenobiotics—are excreted in bile, reach the intestine, undergo deconjugation or dehydroxylation by bacterial enzymes (especially [[beta-glucuronidase]] and bile salt hydrolase), are reabsorbed across the intestinal epithelium, and return to systemic circulation via the portal blood to the liver. This recycling amplifies the bioavailability and lifetime in circulation of these compounds. In a healthy microbiota, the efficiency of EHC is tightly regulated; in dysbiosis, dysbiotic taxa often hyperexpress deconjugating enzymes, causing pathological overrecirculation of estrogens, bile acids, and drug metabolites. The [[estrobolome]] is the best-studied example, but EHC failures drive multiple disease states.
 
-This exemplifies [[Primitive 7|primitive-7-estrobolome]] extended beyond estrogen: the gut microbiota controls the fate of systemically recycled compounds.
+This exemplifies [[primitive-7|primitive-7-estrobolome]] extended beyond estrogen: the gut microbiota controls the fate of systemically recycled compounds.
 
 ## Mechanism
 
@@ -28,7 +30,7 @@ This exemplifies [[Primitive 7|primitive-7-estrobolome]] extended beyond estroge
 3. **Intestinal transit**: Bile flows through the common bile duct, mixes with food in the duodenum, and travels to the terminal ileum and colon. Most bile acids are reabsorbed passively in the terminal ileum (part of selective EHC); conjugated metabolites continue to the colon.
 
 4. **Bacterial deconjugation**: Colonic microbiota express:
-   - **[[Beta-glucuronidase]]** (β-Glu) — cleaves glucuronide bonds; highly upregulated in dysbiosis.
+   - **[[beta-glucuronidase]]** (β-Glu) — cleaves glucuronide bonds; highly upregulated in dysbiosis.
    - **Bile salt hydrolase** (BSH) — removes the taurine or glycine from conjugated bile acids (taurocholic acid → cholic acid), enabling secondary bile acid production.
    - **Sulfatase** — cleaves sulfate conjugates.
    - Result: Free compounds are regenerated in the colon.
@@ -45,15 +47,15 @@ This exemplifies [[Primitive 7|primitive-7-estrobolome]] extended beyond estroge
 
 Dysbiotic hyperactivation of EHC is implicated in multiple conditions:
 
-- **[[Endometriosis]]** — Dysbiotic overgrowth of high-β-Glu taxa (especially [[escherichia-coli]], [[bacteroides-fragilis]]) hyperactivates [[estrogen-recirculation]]; amplified circulating estrogen drives lesion growth and inflammation. See [[estrogen-recirculation]].
+- **[[endometriosis]]** — Dysbiotic overgrowth of high-β-Glu taxa (especially [[escherichia-coli]], [[bacteroides-fragilis]]) hyperactivates [[estrogen-recirculation]]; amplified circulating estrogen drives lesion growth and inflammation. See [[estrogen-recirculation]].
 
-- **[[Breast Cancer]]** — High estrogen from dysbiotic EHC is a major risk factor for ER+ tumors. Aromatase inhibitor (AI) therapy reduces systemic estrogen; dysbiotic EHC partially overcomes this therapeutic blockade.
+- **[[breast-cancer]]** — High estrogen from dysbiotic EHC is a major risk factor for ER+ tumors. Aromatase inhibitor (AI) therapy reduces systemic estrogen; dysbiotic EHC partially overcomes this therapeutic blockade.
 
-- **[[Cholestasis]]** — Dysbiotic hyperactivation of BSH increases secondary bile acid production and reabsorption, exacerbating bile acid–induced liver damage in primary biliary cirrhosis (PBC) and primary sclerosing cholangitis (PSC).
+- **[[cholestasis]]** — Dysbiotic hyperactivation of BSH increases secondary bile acid production and reabsorption, exacerbating bile acid–induced liver damage in primary biliary cirrhosis (PBC) and primary sclerosing cholangitis (PSC).
 
-- **[[Drug-metabolism-variability]]** — High dysbiotic β-Glu causes unpredictable reabsorption of glucuronidated drugs (acetaminophen, irinotecan, morphine), reducing drug clearance and increasing systemic exposure. This explains "slow metabolizer" phenotypes in dysbiotic patients.
+- **[[drug-metabolism-variability]]** — High dysbiotic β-Glu causes unpredictable reabsorption of glucuronidated drugs (acetaminophen, irinotecan, morphine), reducing drug clearance and increasing systemic exposure. This explains "slow metabolizer" phenotypes in dysbiotic patients.
 
-- **[[Inflammatory-bowel-disease]]** — Dysbiotic EHC of inflammatory lipid mediators (e.g., eicosanoids) and estrogens perpetuates systemic inflammation and female-predominant severity.
+- **[[inflammatory-bowel-disease]]** — Dysbiotic EHC of inflammatory lipid mediators (e.g., eicosanoids) and estrogens perpetuates systemic inflammation and female-predominant severity.
 
 ## Metal Connections
 
@@ -70,21 +72,21 @@ Dysbiotic hyperactivation of EHC is implicated in multiple conditions:
 ## Connections
 
 **Linked concepts**:
-- [[Estrogen-recirculation]] — The most well-characterized EHC failure; driven by dysbiotic β-Glu.
-- [[Beta-glucuronidase]] — The bacterial enzyme controlling EHC efficiency for glucuronidated substrates.
-- [[Bile-acid-metabolism]] — A major EHC substrate; dysbiotic BSH hyperactivity worsens bile acid toxicity.
-- [[Drug-metabolism]] — Hepatic Phase II conjugation + bacterial deconjugation determine drug clearance.
+- [[estrogen-recirculation]] — The most well-characterized EHC failure; driven by dysbiotic β-Glu.
+- [[beta-glucuronidase]] — The bacterial enzyme controlling EHC efficiency for glucuronidated substrates.
+- [[bile-acid-metabolism]] — A major EHC substrate; dysbiotic BSH hyperactivity worsens bile acid toxicity.
+- [[drug-metabolism]] — Hepatic Phase II conjugation + bacterial deconjugation determine drug clearance.
 
 **Linked entities**:
-- [[Escherichia-coli]] — High β-Glu in dysbiotic strains; major driver of estrogen EHC overstimulation.
-- [[Bacteroides-fragilis]] — High β-Glu; elevated in [[inflammatory-bowel-disease]] and [[endometriosis]].
-- [[Lachnospiraceae]], [[Faecalibacterium-prausnitzii]] — Low β-Glu; healthy commensals that dampen EHC.
-- [[Beta-glucuronidase]] — The rate-limiting enzyme for estrogen, drug, and metabolite recirculation.
-- [[Estradiol]] — Primary substrate for pathological EHC in estrogen-dependent diseases.
+- [[escherichia-coli]] — High β-Glu in dysbiotic strains; major driver of estrogen EHC overstimulation.
+- [[bacteroides-fragilis]] — High β-Glu; elevated in [[inflammatory-bowel-disease]] and [[endometriosis]].
+- [[lachnospiraceae]], [[faecalibacterium-prausnitzii]] — Low β-Glu; healthy commensals that dampen EHC.
+- [[beta-glucuronidase]] — The rate-limiting enzyme for estrogen, drug, and metabolite recirculation.
+- [[estradiol]] — Primary substrate for pathological EHC in estrogen-dependent diseases.
 
 **Intervention implications**:
 - **β-Glucuronidase inhibitors**: Compounds that directly inhibit bacterial β-Glu (under research; saccharolactone is a known inhibitor) could dampen dysbiotic EHC.
 - **Dysbiosis correction**: Restoring [[lachnospiraceae]] and suppressing [[escherichia-coli]], [[bacteroides-fragilis]] reduces EHC efficiency.
 - **Hepatic support**: Enhancing Phase II conjugation (via sulfation support, glutathione repletion) increases conjugation rate, reducing reabsorption opportunity.
-- **Fiber and binding agents**: [[Activated charcoal]], [[calcium-d-glucarate]], and high-fiber diets can bind free compounds in the colon, preventing reabsorption and reducing EHC efficiency.
+- **Fiber and binding agents**: [[activated-charcoal]], [[calcium-d-glucarate]], and high-fiber diets can bind free compounds in the colon, preventing reabsorption and reducing EHC efficiency.
 - **Drainage support**: Castor oil packs and similar interventions may enhance biliary flow, reducing residence time in the colon for bacterial deconjugation.

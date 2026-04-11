@@ -1,4 +1,5 @@
 ---
+
 title: "Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Honghong Bao, Yi Wang, Hanlin Xiong, Yaoyao Xia, Zhifu Cui, Lingbin Li
 journal: International Journal of Molecular Sciences
 year: 2024
 tags: [iron, iron-homeostasis, gut-microbiota, intestinal-immunity, ferroptosis, hepcidin, SCFAs, gut-brain-axis, autoimmune-disease, probiotics, review]
+platform: wikibiome
 ---
 
 # Key Claims

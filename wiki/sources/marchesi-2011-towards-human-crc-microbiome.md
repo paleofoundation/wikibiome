@@ -1,4 +1,5 @@
 ---
+
 title: "Towards the Human Colorectal Cancer Microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2011
 tags: [colon-cancer, CRC-microbiome, Coriobacteriaceae, Roseburia, Fusobacterium, Slackia, Collinsella, pyrosequencing, tissue-microbiome, butyrate, colorectal-cancer]
 doi: "10.1371/journal.pone.0020447"
+platform: wikibiome
 ---
 
 # Towards the Human Colorectal Cancer Microbiome

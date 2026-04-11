@@ -1,4 +1,5 @@
 ---
+
 title: "Types and Amount of Dietary Fat and Colon Cancer Risk: Prevention by Omega-3 Fatty Acid-Rich Diets"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Bandaru S. Reddy]
 journal: Environmental Health and Preventive Medicine
 year: 2002
 tags: [colon-cancer, omega-3-fatty-acids, dietary-fat, n-3-PUFAs, n-6-PUFAs, colorectal-cancer, DHA, EPA, COX-2, ras-p21, prevention, review]
+platform: wikibiome
 ---
 
 # Key Claims

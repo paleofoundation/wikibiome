@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome-Derived Metabolites as Therapeutic Targets in Autoimmune Diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Future Publishing House
 year: 2024
 tags: [microbiome-metabolites, autoimmune-diseases, multiple-sclerosis, SCFA, tryptophan, bile-acids, polyamines, therapeutic-targets, probiotics, prebiotics, synthetic-biology]
 doi: "N/A"
+platform: wikibiome
 ---
 
 # Microbiome-Derived Metabolites as Therapeutic Targets in Autoimmune Diseases

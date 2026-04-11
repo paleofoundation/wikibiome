@@ -1,4 +1,5 @@
 ---
+
 title: "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Su C, Zheng N, Gao Y, Huang S, Yang X, Wang Z, Yang H, Wang J]
 journal: Foods
 year: 2020
 tags: [infant-formula, heavy-metals, chromium, arsenic, cadmium, lead, risk-assessment, China, ICP-MS]
+platform: wikibiome
 ---
 
 ## Key Claims

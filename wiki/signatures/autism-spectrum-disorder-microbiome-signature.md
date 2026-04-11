@@ -1,4 +1,5 @@
 ---
+
 title: "Autism Spectrum Disorder — Microbiome Signature"
 type: signature
 created: 2026-04-09
@@ -29,49 +30,49 @@ metallomic_signature:
 # Layer 2: Taxonomic Signature
 taxonomic_signature:
   enriched:
-    - taxon: "[[Firmicutes]] (36-81% relative abundance vs. 20-30% controls)"
+    - taxon: "[[firmicutes]] (36-81% relative abundance vs. 20-30% controls)"
       ratio: "36-81%"
       role: "Opportunistic expansion in dysbiotic state; includes pathogenic Clostridium, Faecalibacterium loss"
       metal_dependency: "Firmicutes cluster enriched in nickel-dependent, iron-hoarding taxa"
       virulence_signature: "Beta-glucuronidase producers (estrogen recirculation), urease-positive (H. pylori-like)"
-    - taxon: "[[Pseudomonadota]] (including E. coli, 78% of studies)"
+    - taxon: "[[pseudomonadota]] (including E. coli, 78% of studies)"
       ratio: "Elevated 2-5 fold"
       role: "Primary pathogenic expansion; LPS producer; siderophore-dependent iron piracy"
       metal_dependency: "Iron-dependent siderophores (enterobactin, aerobactin), nickel-dependent urease, zinc-dependent flagellin"
       virulence_signature: "Type III secretion systems (iron-dependent), lipopolysaccharide endotoxin (LPS), fimbriae (zinc-dependent)"
-    - taxon: "[[Bacteroides fragilis]]"
+    - taxon: "[[bacteroides-fragilis]]"
       ratio: "Variable; often expanded"
       role: "Zinc-dependent polysaccharide A (PSA) production, zinc-dependent BFT toxin, iron piracy via siderophores"
       metal_dependency: "Zinc-dependent BFT toxin, iron-dependent NRPS clusters"
       virulence_signature: "Biofilm formation, barrier disruption, immune dysregulation"
-    - taxon: "[[Candida albicans]] (fungal comorbidity, not always assessed)"
+    - taxon: "[[candida-albicans]] (fungal comorbidity, not always assessed)"
       ratio: "Often elevated but under-reported"
       role: "Beta-glucuronidase production, biofilm shielding for bacterial pathogens, estrogen recirculation amplification"
       metal_dependency: "Zinc-dependent secreted aspartic proteinases (Sap), iron-dependent haemolysins"
       virulence_signature: "Morphogenesis (filamentation), biofilm formation, estrogen-dependent growth acceleration"
   
   depleted:
-    - taxon: "[[Bacteroidetes]] (50-60% lower relative abundance, 56% of studies show depletion)"
+    - taxon: "[[bacteroides-fragilis|bacteroidetes]] (50-60% lower relative abundance, 56% of studies show depletion)"
       ratio: "18-24% (vs. 40-50% controls)"
       role: "SCFA producers (especially butyrate via acetyl-CoA synthase); barrier support via inulin fermentation; immune tolerance via Treg induction"
       lost_function: "Butyrate production, mucus glycan fermentation, short-chain fatty acid (SCFA) signaling, immune education"
       metal_dependency: "Butyrate synthase (iron-dependent pyruvate dehydrogenase, zinc-dependent dehydrogenases)"
-    - taxon: "[[Faecalibacterium prausnitzii]]"
+    - taxon: "[[faecalibacterium-prausnitzii]]"
       ratio: "Severely depleted; lowest in severe dysbiosis"
       role: "Primary butyrate producer; anti-inflammatory; produces 5-ASA (mesalamine-like); iron-efficient (low siderophore requirement)"
       lost_function: "Butyrate production, tight junction support, immune tolerance, anti-inflammatory metabolites"
       metal_dependency: "Iron-dependent acetyl-CoA dehydrogenase; sensitive to iron excess (non-siderophore producer)"
-    - taxon: "[[Roseburia]]"
+    - taxon: "[[roseburia]]"
       ratio: "Depleted proportionally with Bacteroidetes"
       role: "Butyrate producer from acetate; starch fermentation; barrier support"
       lost_function: "Acetate-to-butyrate conversion, starch degradation, SCFA signaling"
       metal_dependency: "Acetyl-CoA hydrolase (zinc-dependent), butyrate synthase (iron-dependent)"
-    - taxon: "[[Lachnospiraceae]] (butyrate producers)"
+    - taxon: "[[lachnospiraceae]] (butyrate producers)"
       ratio: "Reduced diversity and abundance"
       role: "SCFA production, barrier support, immune tolerance"
       lost_function: "Butyrate production, barrier maintenance, immune education"
       metal_dependency: "Acetyl-CoA dehydrogenase (iron-dependent), glutamate decarboxylase (zinc-dependent for some species)"
-    - taxon: "[[Akkermansia muciniphila]]"
+    - taxon: "[[akkermansia-muciniphila]]"
       ratio: "Often depleted"
       role: "Mucus layer colonizer; barrier maintenance; TLR4 antagonism; AhR signaling"
       lost_function: "Mucus colonization, barrier tightness, immune tolerance"
@@ -110,112 +111,112 @@ virulence_enzymes:
   iron_dependent:
     - enzyme: "IDO (indoleamine 2,3-dioxygenase)"
       source: "Dysbiotic taxa (E. coli, via TLR4 stimulation of host macrophages); also kynurenine-pathway bacteria"
-      cofactor: "[[Iron]] (heme-containing)"
+      cofactor: "[[iron]] (heme-containing)"
       function: "Tryptophan → kynurenine; depletes tryptophan precursor for serotonin and AhR signaling; produces neurotoxic kynurenine; drives Th17 differentiation"
       consequence: "Reduced serotonin availability, reduced AhR agonism, elevated neuroinflammation"
     
     - enzyme: "Siderophores (enterobactin, aerobactin, yersiniabactin)"
       source: "E. coli, Pseudomonas, Klebsiella, other Gram-negatives"
-      cofactor: "[[Iron]]"
+      cofactor: "[[iron]]"
       function: "Scavenge host iron; sequester iron within biofilm; deprive competitors and host of bioavailable iron"
       consequence: "Systemic iron dysregulation; hepcidin elevation; impaired SCFA/metabolite production by iron-dependent enzymes"
     
     - enzyme: "Haemolysins (alpha, beta)"
       source: "E. coli (alpha-hemolysin), Staphylococcus aureus"
-      cofactor: "[[Iron]]"
+      cofactor: "[[iron]]"
       function: "Lyse red blood cells; release heme iron for scavenging"
       consequence: "Red blood cell destruction, iron release, ROS production via heme Fenton chemistry"
     
     - enzyme: "Pyruvate dehydrogenase (PDH)"
       source: "Dysbiotic taxa (E. coli and other pathogens); also host mitochondria"
-      cofactor: "[[Iron]]"
+      cofactor: "[[iron]]"
       function: "Pyruvate → acetyl-CoA; central to SCFA production and energy metabolism"
       consequence: "Dysbiotic taxa: upregulation in iron-rich environment enables growth. Beneficial taxa (Faecalibacterium): downregulation due to iron sequestration → loss of butyrate production."
     
     - enzyme: "Catalase"
       source: "Facultative anaerobes (E. coli, Bacteroides)"
-      cofactor: "[[Iron]]"
+      cofactor: "[[iron]]"
       function: "H₂O₂ degradation; ROS defense"
       consequence: "Pathogens resist oxidative stress; dysbiotic taxa can persist despite host ROS defense"
     
     - enzyme: "Peroxidase"
       source: "Multiple taxa"
-      cofactor: "[[Iron]]"
+      cofactor: "[[iron]]"
       function: "Antioxidant defense"
       consequence: "Enables pathogenic persistence under oxidative stress"
     
     - enzyme: "Cytochrome c oxidase (Complex IV)"
       source: "Host mitochondria (not microbiota, but critical to mechanism)"
-      cofactor: "[[Iron]]"
+      cofactor: "[[iron]]"
       function: "Electron transport; ATP production"
       consequence: "Dysbiosis-driven mitochondrial dysfunction (via endotoxemia, nutrient depletion) → reduced ATP, reduced synaptic plasticity, reduced neuronal resilience"
 
   zinc_dependent:
     - enzyme: "Glutamate decarboxylase (GAD)"
       source: "Some Lactobacillus and Bifidobacterium strains (GABA producers)"
-      cofactor: "[[Zinc]]"
+      cofactor: "[[zinc]]"
       function: "Glutamate → GABA"
       consequence: "Dysbiotic microbiota lose zinc-dependent GABA production → reduced GABA availability, reduced anxiolytic signaling"
     
     - enzyme: "Alkaline phosphatase"
       source: "Some Gram-negative bacteria"
-      cofactor: "[[Zinc]]"
+      cofactor: "[[zinc]]"
       function: "Dephosphorylation; LPS modification"
       consequence: "Pathogenic bacteria can modify LPS to evade immune recognition"
     
     - enzyme: "Dehydrogenases (multiple classes)"
       source: "Central to SCFA production (butyrate, propionate, acetate synthesis)"
-      cofactor: "[[Zinc]]"
+      cofactor: "[[zinc]]"
       function: "Acetyl-CoA → butyryl-CoA → butyrate"
       consequence: "Dysbiotic shift away from zinc-dependent SCFA producers → reduced butyrate, impaired epigenetic regulation, impaired barrier support"
     
     - enzyme: "Carboxypeptidases"
       source: "Proteolytic bacteria (dysbiotic expansion)"
-      cofactor: "[[Zinc]]"
+      cofactor: "[[zinc]]"
       function: "Protein degradation; amino acid processing"
       consequence: "Dysbiotic proteolysis → altered amino acid availability; tryptophan loss; altered neurotransmitter precursor pools"
     
     - enzyme: "Metallo-β-lactamase (MBL)"
       source: "Antibiotic-resistant Gram-negatives"
-      cofactor: "[[Zinc]]"
+      cofactor: "[[zinc]]"
       function: "Beta-lactam antibiotic degradation"
       consequence: "Antibiotic resistance; perpetual dysbiosis persistence"
     
     - enzyme: "Secreted aspartic proteinases (Sap, in Candida)"
       source: "Candida albicans"
-      cofactor: "[[Zinc]]"
+      cofactor: "[[zinc]]"
       function: "Tissue invasion; barrier disruption; immune evasion"
       consequence: "Fungal pathogenesis; barrier breakdown; dysbiotic persistence"
 
   nickel_dependent:
     - enzyme: "Urease"
       source: "H. pylori, some Helicobacter species, some Klebsiella, Proteus"
-      cofactor: "[[Nickel]]"
+      cofactor: "[[nickel]]"
       function: "Urea → ammonia + CO₂; pH neutralization; pathogenic persistence in acidic gastric environment"
       consequence: "Enables H. pylori persistence; dysbiotic overgrowth in nickel-rich environment"
     
     - enzyme: "NiFe-hydrogenase"
       source: "Multiple anaerobic bacteria; dysbiotic expansion of H₂-producing taxa"
-      cofactor: "[[Nickel]], [[Iron]]"
+      cofactor: "[[nickel]], [[iron]]"
       function: "H₂ production from formate; energy metabolism under anaerobic conditions"
       consequence: "Dysbiotic shift toward H₂-producing, nickel-dependent anaerobes"
     
     - enzyme: "Methyl-coenzyme M reductase (if methanogenic archaea present)"
       source: "Methanogenic archaea (rare but possible in severe dysbiosis)"
-      cofactor: "[[Nickel]]"
+      cofactor: "[[nickel]]"
       function: "Methanogenesis"
       consequence: "Dysbiotic persistence; methane production (marker of fermentation-dominant dysbiosis)"
 
   cadmium_dependent (adverse):
     - enzyme: "Cadmium-tolerant transporters"
       source: "Some dysbiotic taxa (stress-adapted)"
-      cofactor: "[[Cadmium]]"
+      cofactor: "[[cadmium]]"
       function: "Cadmium sequestration; metal tolerance"
       consequence: "If cadmium is elevated (environmental exposure), dysbiotic taxa tolerant to cadmium toxicity have competitive advantage → cadmium-enriched dysbiosis selection"
     
     - enzyme: "Metallothionein"
       source: "Metal-stressed bacteria"
-      cofactor: "[[Cadmium]], [[Zinc]]"
+      cofactor: "[[cadmium]], [[zinc]]"
       function: "Metal homeostasis under metal stress"
       consequence: "Dysbiotic expansion of stress-adapted, metal-hoarding taxa"
 
@@ -264,6 +265,7 @@ open_questions:
   - "Does early-life dysbiosis correction during critical neurodevelopmental windows (0-3 years) produce better long-term outcomes than later intervention?"
   - "Can probiotic efficacy be predicted from metal cofactor analysis of strain-specific enzymes? Do responders to probiotics have different serum metal profiles?"
   - "Is Candida expansion in ASD dysbiosis zinc-dependent? Does zinc normalization suppress Candida independently of antibiotics?"
+platform: cureva
 ---
 
 # Overview
@@ -532,56 +534,56 @@ Every virulence mechanism in dysbiotic ASD pathogenesis is **metal-dependent**:
 
 ### IDO (Host and dysbiotic bacteria)
 - **Enzyme**: Indoleamine 2,3-dioxygenase
-- **Metal cofactor**: [[Iron]] (heme-containing)
+- **Metal cofactor**: [[iron]] (heme-containing)
 - **Mechanism**: Tryptophan → kynurenine; depletes tryptophan for serotonin and AhR signaling; produces neurotoxic kynurenine; drives Th17 differentiation
 - **Pathogenic consequence**: Dysbiosis-driven IDO activation reduces serotonin availability and promotes Th17-dominant (dysbiosis-permissive) immune response
 
 ### Peroxidases and Catalases
-- **Metal cofactor**: [[Iron]]
+- **Metal cofactor**: [[iron]]
 - **Mechanism**: ROS defense; antioxidant protection
 - **Dysbiotic advantage**: Dysbiotic taxa resist oxidative stress while host antioxidant capacity is depleted
 
 ### Pyruvate Dehydrogenase (PDH) Complex
-- **Metal cofactor**: [[Iron]]
+- **Metal cofactor**: [[iron]]
 - **Mechanism**: Pyruvate → acetyl-CoA; central to SCFA production
 - **Dysbiotic consequence**: Loss of iron-efficient SCFA producers; dysbiotic taxa upregulate PDH when iron is available
 
 ### Cytochrome c Oxidase (Host mitochondria affected)
-- **Metal cofactor**: [[Iron]]
+- **Metal cofactor**: [[iron]]
 - **Mechanism**: Dysbiosis-driven mitochondrial ROS → electron transport impairment → ATP collapse
 - **Result**: Reduced synaptic ATP; impaired synaptic plasticity; reduced neuronal resilience
 
 ## Zinc-Dependent Virulence
 
 ### Glutamate Decarboxylase (GAD, in GABA-producing bacteria)
-- **Metal cofactor**: [[Zinc]]
+- **Metal cofactor**: [[zinc]]
 - **Dysbiotic loss**: Dysbiotic zinc dysregulation eliminates GABA-producing Lactobacillus/Bifidobacterium
 - **Result**: Loss of microbial GABA production; elevated anxiety
 
 ### Dehydrogenases (SCFA production)
-- **Metal cofactor**: [[Zinc]]
+- **Metal cofactor**: [[zinc]]
 - **Dysbiotic loss**: Dysbiotic shift away from zinc-dependent butyrate/propionate producers
 - **Result**: Loss of epigenetic regulation, barrier support, immune tolerance
 
 ### Secreted Aspartic Proteinases (Candida)
-- **Metal cofactor**: [[Zinc]]
+- **Metal cofactor**: [[zinc]]
 - **Mechanism**: Tissue invasion; barrier disruption; immune evasion
 - **Dysbiotic consequence**: If Candida is present, zinc dysregulation enables Candida virulence
 
 ### Alkaline Phosphatase
-- **Metal cofactor**: [[Zinc]]
+- **Metal cofactor**: [[zinc]]
 - **Mechanism**: LPS modification; immune evasion
 - **Result**: Dysbiotic bacteria evade immune recognition
 
 ## Nickel-Dependent Virulence
 
 ### Urease (H. pylori, if present)
-- **Metal cofactor**: [[Nickel]]
+- **Metal cofactor**: [[nickel]]
 - **Mechanism**: Urea → ammonia; pathogenic persistence in gastric acid
 - **Dysbiotic consequence**: Nickel dysregulation enables H. pylori persistence
 
 ### NiFe-Hydrogenase
-- **Metal cofactor**: [[Nickel]], [[Iron]]
+- **Metal cofactor**: [[nickel]], [[iron]]
 - **Mechanism**: H₂ production; energy metabolism under anaerobic conditions
 - **Dysbiotic consequence**: Nickel dysregulation enables anaerobic dysbiotic expansion
 

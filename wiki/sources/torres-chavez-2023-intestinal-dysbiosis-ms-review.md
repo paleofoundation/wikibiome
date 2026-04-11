@@ -1,4 +1,5 @@
 ---
+
 title: "Association of intestinal dysbiosis with susceptibility to multiple sclerosis: Evidence from different population studies (Review)"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biomedical Reports
 year: 2023
 doi: 10.3892/br.2023.1675
 tags: [multiple-sclerosis, dysbiosis, gut-brain-axis, Lactobacillus, Bacteroides-fragilis, Prevotella, SCFAs, neuroinflammation, T-cells, gut-barrier, review]
+platform: wikibiome
 ---
 
 # Association of Intestinal Dysbiosis with Susceptibility to Multiple Sclerosis: Evidence from Different Population Studies (Review)

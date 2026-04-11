@@ -1,4 +1,5 @@
 ---
+
 title: "Profile of intestinal fungal microbiota in acute pancreatitis patients and healthy individuals"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Gut Pathogens
 year: 2025
 tags: [pancreatic-cancer, acute-pancreatitis, fungal-microbiota, mycobiome, Candida, Aspergillus, Penicillium, ITS-rRNA, fungal-diversity]
 doi: "10.1186/s13099-024-00675-z"
+platform: wikibiome
 ---
 
 # Key Claims

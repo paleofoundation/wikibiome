@@ -1,4 +1,5 @@
 ---
+
 title: "Iron as the concert master in the pathogenic orchestra playing in sporadic Parkinson's disease"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ volume: 128
 pages: "1577-1598"
 doi: "10.1007/s00702-021-02414-z"
 tags: [iron, parkinsons-disease, neuromelanin, ferroptosis, alpha-synuclein, oxidative-stress, substantia-nigra, blood-brain-barrier, hepcidin, gut-brain-axis, COVID-19, neuroinflammation, dopamine, iron-chelation, Lewy-bodies]
+platform: wikibiome
 ---
 
 # Key Claims

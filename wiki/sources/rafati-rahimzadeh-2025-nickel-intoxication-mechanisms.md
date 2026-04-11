@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel; A Metal with Threats to Human Health, Focusing on Its Intoxication Mechanisms"
 type: source
 created: 2026-04-09
@@ -9,6 +10,7 @@ year: 2025
 volume: "44:1-15"
 doi: "10.1177/09603271251361197"
 tags: [nickel, intoxication, chelation-therapy, carcinogenicity, oxidative-stress, contact-dermatitis, nickel-poisoning, DDC, disulfiram, nanoparticles, respiratory-toxicity, renal-toxicity, hepatotoxicity, teratogenicity, HIF-1, apoptosis, clinical-management, IBS, nickel-allergy]
+platform: wikibiome
 ---
 
 # Nickel; A Metal with Threats to Human Health, Focusing on Its Intoxication Mechanisms

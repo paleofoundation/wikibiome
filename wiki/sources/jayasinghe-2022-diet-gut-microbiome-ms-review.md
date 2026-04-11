@@ -1,4 +1,5 @@
 ---
+
 title: "The Role of Diet and Gut Microbiome in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cureus
 year: 2022
 tags: [diet, gut-microbiome, multiple-sclerosis, gut-brain-axis, vitamin-D, vitamin-A, fatty-acids, curcumin, obesity, ketogenic-diet, intermittent-fasting, FMT, review]
 doi: "10.7759/cureus.28975"
+platform: wikibiome
 ---
 
 # The Role of Diet and Gut Microbiome in Multiple Sclerosis

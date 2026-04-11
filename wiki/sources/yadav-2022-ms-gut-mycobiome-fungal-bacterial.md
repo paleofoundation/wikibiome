@@ -1,4 +1,5 @@
 ---
+
 title: "Multiple Sclerosis Patients Have an Altered Gut Mycobiome and Increased Fungal to Bacterial Richness"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2022
 tags: [multiple-sclerosis, mycobiome, Candida, Epicoccum, Malassezia, Saccharomyces, Basidiomycota, ITS2-sequencing, fungal-bacterial-interactions, Eggerthellaceae, Barnesiellaceae, RRMS]
 doi: "10.1371/journal.pone.0264556"
+platform: wikibiome
 ---
 
 # Multiple Sclerosis Patients Have an Altered Gut Mycobiome and Increased Fungal to Bacterial Richness

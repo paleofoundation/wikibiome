@@ -1,4 +1,5 @@
 ---
+
 title: "Graves' Disease: Is It Time for Targeted Therapy? A Narrative Review"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Clinical Endocrinology & Metabolism
 year: 2022
 doi: "10.1210/clinem/dgac363"
 tags: [graves-disease, thyroid, autoimmune, targeted-therapy, biologics, rituximab, anti-CD20, TSHR-antibodies, immunotherapy, B-cell-depletion, immune-checkpoint, drug-repurposing, JAK-inhibitors]
+platform: wikibiome
 ---
 
 # Graves' Disease: Is It Time for Targeted Therapy? A Narrative Review

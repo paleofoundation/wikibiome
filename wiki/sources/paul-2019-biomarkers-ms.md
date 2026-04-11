@@ -1,4 +1,5 @@
 ---
+
 title: "Biomarkers in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cold Spring Harbor Perspectives in Medicine
 year: 2019
 tags: [multiple-sclerosis, biomarkers, MRI, neurofilament-light-chain, oligoclonal-bands, JCV-antibodies, neutralizing-antibodies, IFN-beta, natalizumab, EDSS, CSF, treatment-response]
 doi: "10.1101/cshperspect.a029058"
+platform: wikibiome
 ---
 
 # Biomarkers in Multiple Sclerosis

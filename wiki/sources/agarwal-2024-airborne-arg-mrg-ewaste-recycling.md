@@ -1,4 +1,5 @@
 ---
+
 title: "Airborne antibiotic and metal resistance genes - A neglected potential risk at e-waste recycling facilities"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ volume: 920
 pages: "170991"
 doi: "10.1016/j.scitotenv.2024.170991"
 tags: [antimicrobial-resistance, metal-resistance-genes, antibiotic-resistance-genes, e-waste, co-selection, mobile-genetic-elements, intI1, endotoxins, mercury, copper, lead, zinc, cadmium, cobalt, heavy-metals, airborne-pollution]
+platform: wikibiome
 ---
 
 # Key Claims

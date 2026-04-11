@@ -1,4 +1,5 @@
 ---
+
 title: "Berberine a Traditional Chinese Drug Repurposing: Its Actions in Inflammation-Associated Ulcerative Colitis and Cancer Therapy"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Cuipeng Zhu, Kaiqi Li, Xiao-Xu Peng, Tong-Jia Yao, Zi-Yu Wang, Ping Hu
 journal: Frontiers in Immunology
 year: 2022
 tags: [colon-cancer, berberine, drug-repurposing, ulcerative-colitis, NF-kB, AMPK, Wnt-beta-catenin, gut-microbiota, inflammation, Fusobacterium-nucleatum, macrophage-polarization, colorectal-cancer]
+platform: wikibiome
 ---
 
 # Key Claims

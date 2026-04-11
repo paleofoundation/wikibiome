@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal microbiota transplantation in systemic sclerosis: a double-blind, placebo-controlled randomized pilot trial"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2020
 doi: 10.1371/journal.pone.0232739
 tags: [FMT, fecal-microbiota-transplantation, systemic-sclerosis, autoimmune, RCT, ACHIM, gut-microbiome, GI-symptoms, SCFAs]
+platform: wikibiome
 ---
 
 # Fecal Microbiota Transplantation in Systemic Sclerosis: A Double-Blind, Placebo-Controlled Randomized Pilot Trial

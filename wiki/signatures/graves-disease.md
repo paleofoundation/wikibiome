@@ -1,4 +1,5 @@
 ---
+
 title: "Graves' Disease — Microbiome Signature"
 type: signature
 created: 2026-04-09
@@ -14,9 +15,9 @@ metallomic_signature:
 # Layer 2: Taxonomic signature
 taxonomic_signature:
   enriched:
-    - taxon: "[[bacteroides]]"
+    - taxon: "[[bacteroides-fragilis|bacteroides]]"
       role: "Elevated B. fragilis — beta-glucuronidase, LPS production, Th17 skewing"
-    - taxon: "[[proteobacteria]]"
+    - taxon: "[[enterobacteriaceae|proteobacteria]]"
       role: "Gram-negative LPS producers — drive intestinal permeability and systemic inflammation"
     - taxon: "[[streptococcus]]"
       role: "Molecular mimicry with thyroid peroxidase (TPO); immune dysregulation"
@@ -25,7 +26,7 @@ taxonomic_signature:
     - taxon: "[[escherichia-coli]]"
       role: "Opportunistic expansion — Zn/Fe/Ni-dependent virulence enzymes, LPS translocation"
   depleted:
-    - taxon: "[[faecalibacterium]]"
+    - taxon: "[[faecalibacterium-prausnitzii|faecalibacterium]]"
       role: "Primary butyrate producer — loss impairs Treg induction and barrier integrity"
     - taxon: "[[lachnospiraceae]]"
       role: "SCFA producers — loss drives HDAC inhibition failure and NF-kB activation"
@@ -49,6 +50,7 @@ virulence_enzymes: [beta-glucuronidase, siderophores, LPS, thyroid-peroxidase-mi
 cureva_status: partial
 validated_interventions: [berberine-methimazole, selenium-supplementation]
 stops: [stop-iodine-supplementation-graves, stop-iron-supplementation-graves]
+platform: cureva
 ---
 
 ## Overview
@@ -116,8 +118,8 @@ The selenoprotein depletion is particularly consequential: without functional gl
 
 | Taxon | Frequency | Metal Dependencies | Pathogenic Role |
 |-------|-----------|-------------------|-----------------|
-| **[[bacteroides]]** (incl. B. fragilis) | 33% | Zn, Fe | Beta-glucuronidase → estrogen recirculation; BFT toxin (Zn-dependent); LPS production; Th17 induction |
-| **[[proteobacteria]]** | 29% | Fe, Ni, Zn | Gram-negative LPS producers; siderophore-mediated iron piracy; drive intestinal permeability |
+| **[[bacteroides-fragilis|bacteroides]]** (incl. B. fragilis) | 33% | Zn, Fe | Beta-glucuronidase → estrogen recirculation; BFT toxin (Zn-dependent); LPS production; Th17 induction |
+| **[[enterobacteriaceae|proteobacteria]]** | 29% | Fe, Ni, Zn | Gram-negative LPS producers; siderophore-mediated iron piracy; drive intestinal permeability |
 | **[[streptococcus]]** | 29% | Zn | Molecular mimicry with TPO epitopes; linked to autoimmune triggering; dysbiotic indicator |
 | **[[prevotella]]** | 29% | Fe | Mucin degradation → barrier compromise; LPS production; amplifies inflammatory cascade |
 | **[[escherichia-coli]]** | 14% | Zn, Fe, Ni | All metal-dependent virulence enzymes; opportunistic expansion in dysregulated iron environment |
@@ -126,7 +128,7 @@ The selenoprotein depletion is particularly consequential: without functional gl
 
 | Taxon | Normal Function | Why Lost |
 |-------|----------------|----------|
-| **[[faecalibacterium]]** (F. prausnitzii) | Primary butyrate producer; HDAC inhibition → Treg induction; anti-inflammatory | Outcompeted in iron-rich, inflammatory environment; oxygen-sensitive obligate anaerobe |
+| **[[faecalibacterium-prausnitzii|faecalibacterium]]** (F. prausnitzii) | Primary butyrate producer; HDAC inhibition → Treg induction; anti-inflammatory | Outcompeted in iron-rich, inflammatory environment; oxygen-sensitive obligate anaerobe |
 | **[[lachnospiraceae]]** | SCFA production; barrier support; Treg induction | Lacked defense systems for metal-enriched, inflammatory niche |
 | **[[akkermansia-muciniphila]]** | Mucus layer integrity; Treg induction; barrier homeostasis | Depleted in dysbiotic state; mucin layer degraded by Prevotella |
 | **Fecal biodiversity** | Functional redundancy; resilience | Dysbiotic compression — reduced diversity and loss of ecological resilience |
@@ -202,6 +204,25 @@ The Graves' disease gut ecosystem is characterized by:
 - **Intervention timing**: Should microbiota-targeted therapy precede, accompany, or follow antithyroid drugs?
 - **Nickel hypothesis**: Is nickel accumulation driving dysbiotic selection pressure in Graves'? Not explicitly tested in current literature.
 - **Hashimoto's overlap**: Shared dysbiotic patterns across all autoimmune thyroid diseases suggest common substrate — is the metallomic signature the unifying factor?
+
+
+## Key Sources
+
+- [[graves-ibd-mendelian-2023]]
+- [[graves-ra-mendelian-2021]]
+- [[antonelli-2016-graves-epidemiology]]
+- [[song-2023-graves-depression]]
+- [[uncovering-causal-gut-thyroid-2024]]
+- [[maciejewski-2025-trace-elements-thyroid]]
+- [[yao-2023-oral-gut-thyroid-cancer]]
+- [[selenium-thyroid-autoimmunity-2015]]
+- [[kravchenko-2023-thyroid-minerals]]
+- [[abraham-2005-drug-therapy-graves]]
+- [[preliminary-flora-changes-graves-2022]]
+- [[berberine-methimazole-graves-2021]]
+- [[mian-2022-diet-thyroid]]
+- [[gluten-free-thyroiditis-2024]]
+- [[gut-microbiome-metabolites-graves-2022]]
 
 ## Connections to Associated Conditions
 

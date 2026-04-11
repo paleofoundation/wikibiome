@@ -1,4 +1,5 @@
 ---
+
 title: "Association of metformin administration with gut microbiome dysbiosis in healthy volunteers"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2018
 doi: 10.1371/journal.pone.0204317
 tags: [cardiovascular-disease, metformin, gut-microbiome, dysbiosis, 16S-rRNA, Escherichia-Shigella, healthy-volunteers, GI-side-effects]
+platform: wikibiome
 ---
 
 # Association of Metformin Administration with Gut Microbiome Dysbiosis in Healthy Volunteers

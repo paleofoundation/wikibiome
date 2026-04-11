@@ -1,4 +1,5 @@
 ---
+
 title: "Periodontal Biomarkers in Cardiovascular Disease: Mechanisms, Diagnostics, and Clinical Implications"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1007/s15010-026-02778-y"
 tags: [cardiovascular-disease, periodontal-disease, microbial-biomarkers, CRP, IL-6, TNF-alpha, MMP-8, Porphyromonas-gingivalis, oral-microbiome, oxidative-stress, endothelial-dysfunction, molecular-mimicry, LPS, atherosclerosis]
 source_pdf: "raw/cardiovascular disease/Microbial biomarkers cardiovascular disease/s15010-026-02778-y.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

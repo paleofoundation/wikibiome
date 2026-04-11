@@ -1,4 +1,5 @@
 ---
+
 title: Hypertension
 type: entity
 subtype: disease
@@ -6,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [fan-2025-fmt-hypertension-rct, zou-2022-mycobiome-dysbiosis-hypertension-light-chains, qiu-2023-gut-mycobiome-hypertension-ckd, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, zhen-2023-tmao-cardiovascular-diseases-review, dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis, spivak-2023-local-systemic-microbiome-derived-metabolites]
 tags: [hypertension, blood-pressure, SCFAs, TMAO, mycobiome, Malassezia, FMT, lead, cadmium, Olfr78, GPR41, renal-metals, gut-microbiome, cardiovascular-disease]
+platform: wikibiome
 ---
 
 # Hypertension
@@ -18,40 +20,40 @@ Sustained elevation of systemic blood pressure, affecting an estimated 1.3 billi
 SCFAs regulate blood pressure through opposing receptor systems:
 - **GPR41 (FFAR3)**: Propionate and butyrate binding causes vasodilation and BP reduction via endothelial relaxation.
 - **Olfr78** (olfactory receptor 78, renal): Propionate and acetate binding on renal juxtaglomerular cells stimulates renin release, raising BP.
-- At physiological SCFA concentrations, the vasodilatory GPR41 effect dominates, producing net BP reduction [[[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]]].
-- [[Dysbiosis]]-driven SCFA depletion removes this vasodilatory brake, contributing to hypertension.
+- At physiological SCFA concentrations, the vasodilatory GPR41 effect dominates, producing net BP reduction [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
+- [[dysbiosis]]-driven SCFA depletion removes this vasodilatory brake, contributing to hypertension.
 - High-fiber diets increase colonic SCFA production and are consistently associated with lower BP.
 
 ### TMAO and Vascular Remodeling
-- Prolonged [[tmao]] elevation activates pro-inflammatory vascular remodeling pathways, contributing to arterial stiffness and increased peripheral resistance [[[zhen-2023-tmao-cardiovascular-diseases-review]]].
+- Prolonged [[tmao]] elevation activates pro-inflammatory vascular remodeling pathways, contributing to arterial stiffness and increased peripheral resistance [[zhen-2023-tmao-cardiovascular-diseases-review]].
 - TMAO-associated Firmicutes/Bacteroidetes ratio elevation is characteristic of hypertensive microbiomes.
 - TMAO promotes endothelial dysfunction via HMGB1/TLR4 signaling and tight junction destruction.
 
 ### Bile Acid-FXR Axis
-- FXR agonist CDCA reduces blood pressure in spontaneously hypertensive rat models through iNOS expression [[[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]].
+- FXR agonist CDCA reduces blood pressure in spontaneously hypertensive rat models through iNOS expression [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 - FXR expression is downregulated in left ventricle of hypertensive rats with end-stage heart failure.
-- [[Bile-acid-metabolism]] disruption may compound SCFA depletion in raising BP.
+- [[bile-acid-metabolism]] disruption may compound SCFA depletion in raising BP.
 
 ## Mycobiome in Hypertension
 
 A distinctive feature of hypertension research is the role of the gut fungal microbiome:
 
 ### Malassezia Enrichment
-- *Malassezia* increases progressively from normotensive to pre-hypertensive to hypertensive individuals (28.45% dominance in HTN vs lower in NT) [[[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]]].
+- *Malassezia* increases progressively from normotensive to pre-hypertensive to hypertensive individuals (28.45% dominance in HTN vs lower in NT) [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]].
 - *Malassezia* produces inflammatory lipases and activates immune cells; its enrichment compounds bacterial dysbiosis-driven [[inflammation]].
 - *Malassezia* positively associated with immunoglobulin light chain kappa in pre-HTN (r=0.510, P=0.044) and both kappa and lambda in HTN.
 
 ### Mortierella Depletion
-- *Mortierella* is depleted in both pre-HTN and HTN, paralleling loss of protective bacterial taxa [[[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]]].
+- *Mortierella* is depleted in both pre-HTN and HTN, paralleling loss of protective bacterial taxa [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]].
 
 ### HTN+CKD Comorbidity
-- HTN+CKD patients show the most severe mycobiome disruption: *Malassezia* (18.71%) dominant, with increased *Apiotrichum*, *Cystobasidium*, [[saccharomyces]], and decreased *Candida*, *Meyerozyma* [[[qiu-2023-gut-mycobiome-hypertension-ckd]]].
+- HTN+CKD patients show the most severe mycobiome disruption: *Malassezia* (18.71%) dominant, with increased *Apiotrichum*, *Cystobasidium*, [[saccharomyces]], and decreased *Candida*, *Meyerozyma* [[qiu-2023-gut-mycobiome-hypertension-ckd]].
 - HTN+CKD has higher IL2Ralpha, IL18, TNF-alpha; *Candida* negatively associated with TNF-alpha.
 - Fungal dysbiosis occurs at the pre-hypertension stage, suggesting it precedes clinical disease.
 
 ## FMT for Hypertension: First Human RCT
 
-Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-controlled trial of oral FMT for stage 1 hypertension (NCT04406129) [[[fan-2025-fmt-hypertension-rct]]]:
+Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-controlled trial of oral FMT for stage 1 hypertension (NCT04406129) [[fan-2025-fmt-hypertension-rct]]:
 - **124 patients** (mean age 43), 7 centers in China.
 - **Primary outcome**: SBP change at day 30 was -6.28 mmHg (FMT) vs -5.77 mmHg (placebo), p=0.62 (not significant).
 - **Transient effect**: At 1 week, FMT produced -4.34 mmHg between-arm SBP difference (p=0.024), but this did not persist.
@@ -77,6 +79,12 @@ Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-co
 - The kidney is a primary target organ for both Pb and Cd accumulation.
 - Metal-induced renal damage impairs the kidney's central role in long-term BP regulation (sodium excretion, RAAS modulation, prostaglandin synthesis).
 - This creates a direct metal-to-hypertension pathway independent of the microbiome, though both pathways likely operate simultaneously.
+
+
+## Key Sources
+
+- [[dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis]]
+- [[spivak-2023-local-systemic-microbiome-derived-metabolites]]
 
 ## Connections
 

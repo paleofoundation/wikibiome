@@ -1,10 +1,12 @@
 ---
+
 title: Metalloestrogens
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [aquino-2012-cadmium-nickel-metalloestrogens, tarhonska-2022-cadmium-breast-cancer-mechanisms, borghini-2020-endometriosis-nickel-ibs, ali-2024-heavy-metals-breast-cancer-review, liu-2022-heavy-metals-breast-cancer-meta-analysis, niehoff-2021-metals-breast-cancer-toenail, genchi-2020-cadmium-toxicity, kirmizi-2020-heavy-metals-pcos, lopez-botella-2023-peritoneal-fluid-metals-endometriosis, ding-2021-nickel-pregnancy-complications, bonamonte-2005-nickel-allergy-menstrual-cycle, lin-2023-heavy-metals-infertility-nhanes, canipari-2020-female-fertility-environmental-pollution]
 tags: [metalloestrogens, cadmium, nickel, estrogen-receptor, ERalpha, GPR30, breast-cancer, endocrine-disruption, PCOS, endometriosis, reproductive-toxicity]
+platform: wikibiome
 ---
 
 # Metalloestrogens
@@ -99,6 +101,23 @@ In practice, these mechanisms operate simultaneously, and the net effect on estr
 - The interaction between metalloestrogen exposure and genetic susceptibility (e.g., BRCA1/2 carriers, CYP polymorphisms) is unexplored
 - Whether metalloestrogen activity is additive, synergistic, or antagonistic with organic xenoestrogens (BPA, phthalates) is unknown
 - The contribution of the gut microbiome's estrobolome to metalloestrogen processing has not been investigated
+
+
+## Key Sources
+
+- [[aquino-2012-cadmium-nickel-metalloestrogens]]
+- [[tarhonska-2022-cadmium-breast-cancer-mechanisms]]
+- [[borghini-2020-endometriosis-nickel-ibs]]
+- [[ali-2024-heavy-metals-breast-cancer-review]]
+- [[liu-2022-heavy-metals-breast-cancer-meta-analysis]]
+- [[niehoff-2021-metals-breast-cancer-toenail]]
+- [[genchi-2020-cadmium-toxicity]]
+- [[kirmizi-2020-heavy-metals-pcos]]
+- [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]]
+- [[ding-2021-nickel-pregnancy-complications]]
+- [[bonamonte-2005-nickel-allergy-menstrual-cycle]]
+- [[lin-2023-heavy-metals-infertility-nhanes]]
+- [[canipari-2020-female-fertility-environmental-pollution]]
 
 ## Connections to Other Concepts
 

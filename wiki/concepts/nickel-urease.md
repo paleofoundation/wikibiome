@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel-Urease"
 type: concept
 created: 2026-04-10
@@ -6,13 +7,14 @@ updated: 2026-04-10
 sources: []
 tags: [virulence-enzyme, nickel-biology, metal-cofactor, bacterial-survival, gastric-pathogen]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels"
+platform: wikibiome
 ---
 
 ## Overview
 
-**Nickel-urease** (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to ammonia (NH₃) and carbon dioxide (CO₂). The active site contains two **nickel ions (Ni²⁺)** coordinated by histidine and cysteine residues. Nickel-urease is expressed by [[Helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.
+**Nickel-urease** (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to ammonia (NH₃) and carbon dioxide (CO₂). The active site contains two **nickel ions (Ni²⁺)** coordinated by histidine and cysteine residues. Nickel-urease is expressed by [[helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.
 
-For [[Helicobacter-pylori|H. pylori]], urease is the **Achilles' heel**: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics.
+For [[helicobacter-pylori|H. pylori]], urease is the **Achilles' heel**: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics.
 
 ## Mechanism
 
@@ -35,18 +37,18 @@ Urease requires two Ni²⁺ per active site. The nickel atoms are:
 - Functionally important for substrate binding and catalytic turnover
 
 **Nickel acquisition:**
-- H. pylori encodes a [[nickel]] permease ([[NixA]]) to transport Ni²⁺ from the hostile gastric environment
-- In the cytoplasm, accessory proteins ([[UreD]], [[UreE]], [[UreF]], [[UreG]]) insert nickel into the urease apoprotein during maturation
+- H. pylori encodes a [[nickel]] permease ([[nixa]]) to transport Ni²⁺ from the hostile gastric environment
+- In the cytoplasm, accessory proteins ([[ured]], [[uree]], [[uref]], [[ureg]]) insert nickel into the urease apoprotein during maturation
 - Mutations in these maturation factors → catalytically inactive urease → loss of virulence
 
 ## Role in Disease
 
 **H. pylori-associated gastric disease:**
 
-- [[Gastric-ulcer]]: H. pylori colonization → urease-driven ammonia → local pH buffering → epithelial invasion and inflammation → ulcer formation
-- [[Gastric-adenocarcinoma]]: Chronic H. pylori infection (urease-mediated persistence) → chronic atrophic gastritis → intestinal metaplasia → gastric cancer (WHO Group 1 carcinogen)
-- [[MALT-lymphoma]] (mucosa-associated lymphoid tissue lymphoma): Indolent B-cell lymphoma driven by chronic H. pylori antigen stimulation; urease is an immunogen
-- **Dyspepsia and functional gastric disease**: H. pylori-negative dyspepsia may be associated with other urease-producing bacteria ([[Proteus-mirabilis|Proteus mirabilis]], [[Klebsiella-pneumoniae|Klebsiella pneumoniae]])
+- [[gastric-ulcer]]: H. pylori colonization → urease-driven ammonia → local pH buffering → epithelial invasion and inflammation → ulcer formation
+- [[gastric-adenocarcinoma]]: Chronic H. pylori infection (urease-mediated persistence) → chronic atrophic gastritis → intestinal metaplasia → gastric cancer (WHO Group 1 carcinogen)
+- [[malt-lymphoma]] (mucosa-associated lymphoid tissue lymphoma): Indolent B-cell lymphoma driven by chronic H. pylori antigen stimulation; urease is an immunogen
+- **Dyspepsia and functional gastric disease**: H. pylori-negative dyspepsia may be associated with other urease-producing bacteria ([[proteus-mirabilis|Proteus mirabilis]], [[klebsiella-pneumoniae|Klebsiella pneumoniae]])
 
 **Urease as biomarker:**
 - **Urease breath test (UBT)**: Diagnostic gold standard for H. pylori. Patient ingests ¹³C- or ¹⁴C-labeled urea; if H. pylori is present, urease cleaves it → labeled CO₂ is absorbed and exhaled → detected in breath. This is the most accurate non-invasive H. pylori test.
@@ -63,33 +65,33 @@ Nickel-urease exemplifies **Primitive 4: Microbial Metal Dependencies as Achille
 **Nickel bioavailability in the stomach:**
 - Gastric pH (1.5–2) solubilizes nickel; Ni²⁺ is biologically available
 - H. pylori NixA permease transports Ni²⁺ against concentration gradient
-- Nickel chelators ([[EDTA]], [[dithiocarbamate]]) in gastric juice may limit nickel availability and reduce H. pylori colonization density
+- Nickel chelators ([[edta]], [[dithiocarbamate]]) in gastric juice may limit nickel availability and reduce H. pylori colonization density
 
 **Cross-talk with [[iron]] and [[zinc]]:**
-- [[Iron]]-dependent enzymes: H. pylori also produces [[iron]]-dependent catalase and superoxide dismutase; dual metal starvation (nickel + iron) is more potent than single-metal depletion
-- [[Zinc]]: Host [[zinc]]-dependent immune functions (Th1 differentiation, neutrophil recruitment) oppose H. pylori; zinc deficiency worsens infection
+- [[iron]]-dependent enzymes: H. pylori also produces [[iron]]-dependent catalase and superoxide dismutase; dual metal starvation (nickel + iron) is more potent than single-metal depletion
+- [[zinc]]: Host [[zinc]]-dependent immune functions (Th1 differentiation, neutrophil recruitment) oppose H. pylori; zinc deficiency worsens infection
 
 ## Connections
 
 **Related enzymes:**
-- [[NiFe-hydrogenase]] — another nickel-iron enzyme used by H. pylori (and sulfate-reducing bacteria) for anaerobic energy metabolism
-- [[Zinc-metalloprotease]] — H. pylori's vacuolating cytotoxin (VacA) is a zinc-dependent protease; complements urease virulence
+- [[nife-hydrogenase]] — another nickel-iron enzyme used by H. pylori (and sulfate-reducing bacteria) for anaerobic energy metabolism
+- [[zinc-metalloprotease]] — H. pylori's vacuolating cytotoxin (VacA) is a zinc-dependent protease; complements urease virulence
 
 **Related organisms:**
-- [[Helicobacter-pylori|Helicobacter pylori]] — the primary pathogen expressing nickel-urease
-- [[Proteus-mirabilis|Proteus mirabilis]] — soil bacterium; also urease-positive; causes urinary tract infections via urease-driven ammonia and crystal formation
-- [[Klebsiella-pneumoniae|Klebsiella pneumoniae]] — urease-positive; can cause gastric and respiratory infections
-- [[Oral-Helicobacter-species]] — H. pylori-like species in oral cavities; urease-positive
+- [[helicobacter-pylori|Helicobacter pylori]] — the primary pathogen expressing nickel-urease
+- [[proteus-mirabilis|Proteus mirabilis]] — soil bacterium; also urease-positive; causes urinary tract infections via urease-driven ammonia and crystal formation
+- [[klebsiella-pneumoniae|Klebsiella pneumoniae]] — urease-positive; can cause gastric and respiratory infections
+- [[oral-helicobacter-species]] — H. pylori-like species in oral cavities; urease-positive
 
 **Related concepts:**
-- [[Nutritional-immunity]] — nickel starvation as a host defense mechanism
-- [[Metal-cofactor-dependency]] — general principle of which urease is an example
-- [[Acidic-environment]] — gastric niche where urease enables survival
-- [[VacA-toxin]] — complementary H. pylori virulence factor
+- [[nutritional-immunity]] — nickel starvation as a host defense mechanism
+- [[metal-dependent-virulence|metal-cofactor-dependency]] — general principle of which urease is an example
+- [[acidic-environment]] — gastric niche where urease enables survival
+- [[vaca-toxin]] — complementary H. pylori virulence factor
 
 **Related metals:**
-- [[Nickel]] — the essential cofactor; nickel depletion is therapeutic strategy
-- [[Iron]] — H. pylori expresses iron-dependent catalase; dual-metal targeting increases efficacy
+- [[nickel]] — the essential cofactor; nickel depletion is therapeutic strategy
+- [[iron]] — H. pylori expresses iron-dependent catalase; dual-metal targeting increases efficacy
 
 **Disease pages:**
-- [[Gastric-ulcer]], [[gastric-adenocarcinoma]], [[MALT-lymphoma]] — H. pylori-driven conditions where urease is the enabling virulence factor
+- [[gastric-ulcer]], [[gastric-adenocarcinoma]], [[malt-lymphoma]] — H. pylori-driven conditions where urease is the enabling virulence factor

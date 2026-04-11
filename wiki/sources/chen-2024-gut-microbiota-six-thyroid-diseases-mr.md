@@ -1,4 +1,5 @@
 ---
+
 title: "Uncovering a Causal Connection between Gut Microbiota and Six Thyroid Diseases: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biology
 year: 2024
 doi: "10.3390/biology13090714"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, mendelian-randomization, thyroid-nodules, thyroid-cancer, Plummer-disease, gut-thyroid-axis, Bifidobacterium, Lactobacillus]
+platform: wikibiome
 ---
 
 # Uncovering a Causal Connection between Gut Microbiota and Six Thyroid Diseases: A Two-Sample Mendelian Randomization Study

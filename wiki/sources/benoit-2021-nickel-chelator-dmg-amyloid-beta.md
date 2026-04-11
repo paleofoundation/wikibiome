@@ -1,4 +1,5 @@
 ---
+
 title: "The nickel-chelator dimethylglyoxime inhibits human amyloid beta peptide in vitro aggregation"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ volume: 11
 pages: "6622"
 doi: "10.1038/s41598-021-86060-1"
 tags: [nickel, alzheimers-disease, amyloid-beta, metal-chelation, dimethylglyoxime, copper, zinc, protein-aggregation, ICP-MS, isothermal-titration-calorimetry, FTICR-MS, neurodegeneration, therapeutic-strategy]
+platform: wikibiome
 ---
 
 # Key Claims

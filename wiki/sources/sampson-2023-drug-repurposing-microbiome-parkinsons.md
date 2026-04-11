@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Timothy R Sampson, Madelyn C Houser]
 year: 2024
 journal: "Clinical Pharmacology & Therapeutics"
-doi: "10.1007/s40263-024-01073-4"
+doi: "unverified"
 tags: [parkinsons-disease, drug-repurposing, microbiome-modulation, gut-brain-axis, anti-inflammatory, probiotics, antibiotics, GLP-1-agonists, metformin, dysbiosis]
 library_category: therapeutics
 platform: gut

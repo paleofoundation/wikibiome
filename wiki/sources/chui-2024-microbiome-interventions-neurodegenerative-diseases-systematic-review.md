@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of microbiome-based interventions on neurodegenerative diseases: a systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2024
 doi: 10.1038/s41598-024-59250-w
 tags: [multiple-sclerosis, neurodegenerative-disease, microbiome-interventions, meta-analysis, systematic-review, probiotics, FMT, diet, Parkinsons, Alzheimers, ALS]
+platform: wikibiome
 ---
 
 # Effects of Microbiome-Based Interventions on Neurodegenerative Diseases: A Systematic Review and Meta-analysis

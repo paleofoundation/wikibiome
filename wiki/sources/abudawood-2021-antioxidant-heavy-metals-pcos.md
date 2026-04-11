@@ -1,4 +1,5 @@
 ---
+
 title: "Antioxidant Status in Relation to Heavy Metals Induced Oxidative Stress in Patients with Polycystic Ovarian Syndrome (PCOS)"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2021
 tags: [PCOS, heavy-metals, oxidative-stress, arsenic, cadmium, lead, mercury, glutathione, SOD, antioxidants, endocrine-disruptors]
 doi: "10.1038/s41598-021-02120-6"
+platform: wikibiome
 ---
 
 # Antioxidant Status in Relation to Heavy Metals Induced Oxidative Stress in PCOS

@@ -1,10 +1,12 @@
 ---
+
 title: Nickel Neurotoxicity
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [lamtai-2018-nickel-neurobehavior.md, dobrzynska-2025-nickel-children-food.md]
 tags: [nickel, neurotoxicity, oxidative-stress, anxiety, depression, memory]
+platform: wikibiome
 ---
 
 # Nickel Neurotoxicity
@@ -13,7 +15,7 @@ Chronic [[nickel]] exposure can damage the central nervous system, causing behav
 
 ## Evidence from Animal Studies
 
-Lamtai et al. (2018) chronically administered NiCl₂ to Wistar rats (0.25, 0.5, 1 mg/kg IP daily for 8 weeks) — notably low doses designed to mimic environmental trace exposure [[[lamtai-2018-nickel-neurobehavior]]]:
+Lamtai et al. (2018) chronically administered NiCl₂ to Wistar rats (0.25, 0.5, 1 mg/kg IP daily for 8 weeks) — notably low doses designed to mimic environmental trace exposure [[lamtai-2018-nickel-neurobehavior]]:
 
 ### Anxiety
 - **Dose-dependent increase** in anxiety-like behavior at all doses in both sexes.
@@ -43,15 +45,15 @@ All dose-dependent:
 
 ## Sex Differences
 
-A consistent finding [[[lamtai-2018-nickel-neurobehavior]]]:
+A consistent finding [[lamtai-2018-nickel-neurobehavior]]:
 - Males more sensitive for anxiety and memory endpoints.
 - Females showed depression-like effects at lower doses (0.5 mg/kg) than males (1 mg/kg) in some measures.
 - May relate to hormonal differences, differential nickel metabolism, or sex-specific neurotransmitter vulnerabilities.
 
 ## Relevance to Humans
 
-- People living near heavy metal pollution sources may develop behavioral pathologies [[[lamtai-2018-nickel-neurobehavior]]].
-- Children are especially vulnerable due to developing nervous systems [[[dobrzynska-2025-nickel-children-food]]].
+- People living near heavy metal pollution sources may develop behavioral pathologies [[lamtai-2018-nickel-neurobehavior]].
+- Children are especially vulnerable due to developing nervous systems [[dobrzynska-2025-nickel-children-food]].
 - Nickel's effects on the endocrine system (hypothalamus, pituitary) could compound neurobehavioral effects.
 - No human clinical studies yet confirming these animal findings at environmental exposure levels.
 

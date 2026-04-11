@@ -1,4 +1,5 @@
 ---
+
 title: "Dissecting the Role of the Gut Microbiome and Fecal Microbiota Transplantation in Radio- and Immunotherapy Treatment of Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Lena Van Dingenen, Charlotte Segers, Shari Wouters, Mohamed Mysara, Na
 journal: Frontiers in Cellular and Infection Microbiology
 year: 2023
 tags: [colon-cancer, gut-microbiome, radiotherapy, immunotherapy, FMT, colorectal-cancer, immune-checkpoint-blockers, MSI, dysbiosis, Fusobacterium-nucleatum, Bacteroides-fragilis, review]
+platform: wikibiome
 ---
 
 # Key Claims

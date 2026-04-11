@@ -1,10 +1,12 @@
 ---
+
 title: Candida albicans
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [acosta-rodriguez-2018-biosorption-candida-albicans.md, kukde-2019-heavy-metals-candida-hiv.md, do-carmo-2023-metal-nanoparticles-candida-review.md, maier-2019-nickel-microbial-pathogenesis.md]
 tags: [pathogen, fungal, biosorption, heavy-metals, nickel, zinc, iron, copper, immunocompromised, candidiasis, Cryptococcus]
+platform: wikibiome
 ---
 
 # Candida albicans (and Cryptococcus neoformans)
@@ -14,14 +16,14 @@ An opportunistic fungal pathogen whose relationship with metals is multifaceted:
 ## Candida albicans
 
 ### Metal Biosorption Capacity
-*C. albicans* demonstrates remarkable heavy metal tolerance and uptake [[[acosta-rodriguez-2018-biosorption-candida-albicans]]]:
+*C. albicans* demonstrates remarkable heavy metal tolerance and uptake [[acosta-rodriguez-2018-biosorption-candida-albicans]]:
 
 - Can grow in concentrations of: **2000 ppm** zinc, lead, and copper; **2000 ppm** Cr(VI); **1500 ppm** As(III); **500 ppm** silver; **300 ppm** cobalt; **200 ppm** mercury and cadmium.
 - Biosorption removal efficiency (modified biomass): Cr(VI) 76%, lead 57%, silver 51%, cadmium 46%, As(III) 40%, cobalt 37%, mercury 36%, copper 31%, zinc 22%.
 - This biosorption capacity means *C. albicans* in the human GI tract or mucosal surfaces may act as a **metal sink**, altering local metal bioavailability for both the host and competing microbiota.
 
 ### Metal Susceptibility in Immunocompromised Hosts
-In HIV-positive patients, Candida strains show differential metal susceptibility [[[kukde-2019-heavy-metals-candida-hiv]]]:
+In HIV-positive patients, Candida strains show differential metal susceptibility [[kukde-2019-heavy-metals-candida-hiv]]:
 
 - **100% resistant** to zinc ions (100 mM) -- zinc does not inhibit Candida growth.
 - **100% susceptible** to cadmium (1 mM), mercury (10 mM), and silver (10 mM).
@@ -35,7 +37,7 @@ In HIV-positive patients, Candida strains show differential metal susceptibility
 - **Zn homeostasis**: Zrt1/Zrt2 zinc transporters; zinc is required for alcohol dehydrogenase and numerous metalloenzymes.
 
 ### Metal Nanoparticles as Antifungal Strategy
-A growing therapeutic approach [[[do-carmo-2023-metal-nanoparticles-candida-review]]]:
+A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-review]]:
 
 - **Silver nanoparticles (AgNPs)**: most studied; synergistic with fluconazole against resistant strains; restore susceptibility phenotype by reducing efflux pump activity.
 - **Gold nanoparticles (AuNPs)**: chitosan-functionalized forms inhibit biofilm formation.
@@ -44,7 +46,7 @@ A growing therapeutic approach [[[do-carmo-2023-metal-nanoparticles-candida-revi
 
 ## Cryptococcus neoformans -- Ni-Urease for Brain Invasion
 
-*C. neoformans* uses a **Ni-dependent urease** that is essential for CNS invasion [[[maier-2019-nickel-microbial-pathogenesis]]]:
+*C. neoformans* uses a **Ni-dependent urease** that is essential for CNS invasion [[maier-2019-nickel-microbial-pathogenesis]]:
 
 - Urease activity promotes crossing of the blood-brain barrier.
 - Urease-negative mutants show dramatically reduced brain colonization in animal models.

@@ -1,4 +1,5 @@
 ---
+
 title: Multiple Sclerosis
 type: entity
 subtype: disease
@@ -11,6 +12,7 @@ sources:
   - dargahi-2020-streptococcus-thermophilus-ms
   - libbey-2018-diet-microbiota-eae
 tags: [autoimmune, neurological, probiotics, gut-brain-axis, microbiome, cytokines, Th1-Th2-balance]
+platform: wikibiome
 ---
 
 # Multiple Sclerosis

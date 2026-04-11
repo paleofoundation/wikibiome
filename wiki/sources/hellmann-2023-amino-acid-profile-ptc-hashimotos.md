@@ -1,4 +1,5 @@
 ---
+
 title: "Alterations in the amino acid profile in patients with papillary thyroid carcinoma with and without Hashimoto's thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, amino-acids, papillary-thyroid-carcinoma, metabolomics, glutamic-acid, lysine, alanine, biomarkers, thyroid-cancer]
 doi: "10.3389/fendo.2023.1199291"
+platform: wikibiome
 ---
 
 # Alterations in the amino acid profile in patients with papillary thyroid carcinoma with and without Hashimoto's thyroiditis

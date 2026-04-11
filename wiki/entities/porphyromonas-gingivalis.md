@@ -1,4 +1,5 @@
 ---
+
 title: Porphyromonas gingivalis
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, zinc, manganese]
 key_enzymes: [gingipains-RgpA-RgpB-Kgp, hemin-binding-proteins, iron-acquisition-systems]
 tags: [periodontal-disease, alzheimers-disease, cardiovascular-disease, keystone-pathogen, Zn-gingipains, iron-heme-acquisition]
+platform: wikibiome
 ---
 
 # Porphyromonas gingivalis
@@ -114,6 +116,6 @@ Gingipains perform multiple virulence roles:
 - [[cardiovascular-disease]] -- gingipain-mediated endothelial dysfunction; atherosclerotic plaque involvement
 - [[biofilm]] -- keystone pathogen organizing polymicrobial communities
 - [[nutritional-immunity]] -- calprotectin and lactoferrin suppress gingipain activity via metal sequestration
-- [[barrier-disruption]] -- gingipains cleave tight junction proteins and ECM
+- [[nutritional-immunity|barrier-disruption]] -- gingipains cleave tight junction proteins and ECM
 - [[systemic-inflammation]] -- periodontal *P. gingivalis* drives endotoxemia and neuroinflammation
 - [[amyloid-beta]] -- direct proteolytic generation by gingipains

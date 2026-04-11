@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel Allergy and Allergic Contact Dermatitis: A Clinical Review"
 type: source
 created: 2026-04-09
@@ -6,7 +7,9 @@ updated: 2026-04-09
 authors: [Ahlström MG, Thyssen JP, Wennervaldt M, Menné T, Johansen JD]
 journal: Contact Dermatitis
 year: 2019
+doi: "10.1111/cod.13272"
 tags: [nickel-allergy, contact-dermatitis, immunology, regulation, patch-testing, EU-nickel-directive]
+platform: wikibiome
 ---
 
 # Nickel Allergy and Allergic Contact Dermatitis: A Clinical Review

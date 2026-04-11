@@ -1,4 +1,5 @@
 ---
+
 title: "Gut mycobiome in cardiometabolic disease progression: current evidence and future directions"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2025
 doi: 10.3389/fmicb.2025.1659654
 tags: [cardiovascular-disease, CVD, mycobiome, fungal-dysbiosis, Candida, Saccharomyces, atherosclerosis, hypertension, heart-failure, obesity, diabetes, metabolic-syndrome, review]
+platform: wikibiome
 ---
 
 # Gut Mycobiome in Cardiometabolic Disease Progression: Current Evidence and Future Directions

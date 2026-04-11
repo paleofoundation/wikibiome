@@ -1,4 +1,5 @@
 ---
+
 title: "Female Fertility and Environmental Pollution"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "International Journal of Environmental Research and Public Health"
 year: 2020
 tags: [female-fertility, heavy-metals, endocrine-disruptors, lead, cadmium, mercury, nickel, cobalt, zinc, air-pollution, phthalates, BPA, review]
 doi: "10.3390/ijerph17238802"
+platform: wikibiome
 ---
 
 # Key Claims

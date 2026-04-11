@@ -1,4 +1,5 @@
 ---
+
 title: "Early pregnancy essential and non-essential metal mixtures and maternal antepartum and postpartum depressive symptoms"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Neurotoxicology
 year: 2023
 tags: [metals, pregnancy, depression, postpartum-depression, antepartum-depression, metal-mixtures, lead, arsenic, selenium, mercury, cadmium, erythrocyte-metals, EPDS, Project-Viva]
 doi: "10.1016/j.neuro.2022.12.005"
+platform: wikibiome
 ---
 
 # Key Claims

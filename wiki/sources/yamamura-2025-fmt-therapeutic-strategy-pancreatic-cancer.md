@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal microbiota transplantation as a novel therapeutic strategy for pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Translational and Regulatory Sciences
 year: 2025
 tags: [pancreatic-cancer, FMT, fecal-microbiota-transplant, microbiome-targeted-therapy, immunotherapy, tumor-microbiome, donor-selection, clinical-trials]
 doi: "10.33611/trs.2025-003"
+platform: wikibiome
 ---
 
 # Key Claims

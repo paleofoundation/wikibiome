@@ -1,4 +1,5 @@
 ---
+
 title: "A probiotic modulates the microbiome and immunity in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Annals of Neurology
 year: 2018
 tags: [probiotics, multiple-sclerosis, microbiome, immunity, VSL3, Tregs, clinical-trial, metabolomics, gut-brain-axis]
 doi: "10.1002/ana.25244"
+platform: wikibiome
 ---
 
 # A Probiotic Modulates the Microbiome and Immunity in Multiple Sclerosis

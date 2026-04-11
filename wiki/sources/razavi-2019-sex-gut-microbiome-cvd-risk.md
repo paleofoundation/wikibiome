@@ -1,4 +1,5 @@
 ---
+
 title: "Sex, gut microbiome, and cardiovascular disease risk"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Biology of Sex Differences
 year: 2019
 doi: 10.1186/s13293-019-0240-z
 tags: [cardiovascular-disease, CVD, gut-microbiome, sex-differences, TMAO, SCFAs, BCAAs, LPS, blood-pressure, dyslipidemia, hypertension, obesity, review]
+platform: wikibiome
 ---
 
 # Sex, Gut Microbiome, and Cardiovascular Disease Risk

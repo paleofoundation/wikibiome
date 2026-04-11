@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Szu-Ju Chen, Chieh-Chang Chen, Chin-Hsien Lin]
 year: 2022
 journal: "Frontiers in Aging Neuroscience"
-doi: "10.3389/fnagi.2022.XXXXXX"
+doi: "10.3389/fnagi.2022.1010560"
 tags: [parkinsons-disease, 16S-rRNA-sequencing, blood-microbiome, bacterial-translocation, gut-permeability, LPS, systemic-inflammation]
 library_category: mechanistic-insights
 platform: both

@@ -1,10 +1,12 @@
 ---
+
 title: Bile Acids
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
 tags: [bile-acids, redirect]
+platform: wikibiome
 ---
 
 # Bile Acids

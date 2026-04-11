@@ -1,10 +1,15 @@
 ---
+
 title: Pseudomonas aeruginosa
 type: entity
+subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 sources: [braud-2010-siderophores-pseudomonas-metal-tolerance.md, maier-2019-nickel-microbial-pathogenesis.md]
 tags: [pathogen, siderophore, pyoverdine, pyochelin, nickel, iron, lung-infection, cystic-fibrosis, wound-infection]
+metal_dependencies: [iron, zinc, manganese, copper]
+key_enzymes: [pyoverdine (siderophore), pyochelin (siderophore), elastase/LasB (Zn-metalloprotease), alkaline protease (Zn-dependent), MnSOD, Cu/Zn-SOD]
+platform: wikibiome
 ---
 
 # Pseudomonas aeruginosa
@@ -14,7 +19,7 @@ An opportunistic Gram-negative pathogen with a unique dual-use siderophore syste
 ## Metal-Dependent Virulence Factors
 
 ### Ni-Dependent Glyoxalase I (Ni-GloI)
-- Detoxifies methylglyoxal, a toxic byproduct of glycolysis that accumulates during rapid growth and metabolic stress [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Detoxifies methylglyoxal, a toxic byproduct of glycolysis that accumulates during rapid growth and metabolic stress [[maier-2019-nickel-microbial-pathogenesis]].
 - The prokaryotic GloI in *P. aeruginosa* is **Ni-dependent** (unlike the Zn-dependent mammalian form), making it a potential drug target with selectivity over the host enzyme.
 - Also found in other pathogens (*N. meningitidis*, *Y. pestis*, *Clostridia*), but *P. aeruginosa* is a key model.
 
@@ -31,7 +36,7 @@ An opportunistic Gram-negative pathogen with a unique dual-use siderophore syste
 ## Metal Acquisition Systems
 
 ### Pyoverdine (PVD) -- Primary Siderophore
-- High-affinity iron chelator, but also binds **Al3+, Co2+, Cu2+, Eu3+, Ni2+, Pb2+, Tb3+, and Zn2+** extracellularly [[[braud-2010-siderophores-pseudomonas-metal-tolerance]]].
+- High-affinity iron chelator, but also binds **Al3+, Co2+, Cu2+, Eu3+, Ni2+, Pb2+, Tb3+, and Zn2+** extracellularly [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
 - **Only iron is efficiently imported** via the TonB-dependent FpvA pathway; other metals are chelated outside the cell but not taken up.
 - This extracellular sequestration **reduces intracellular accumulation of toxic metals** -- a defensive strategy.
 - Cu2+ and Ni2+ specifically **induce PVD production** (290% and 380% increase respectively at 10 uM), suggesting PVD production is a direct response to nickel/copper stress.
@@ -42,12 +47,12 @@ An opportunistic Gram-negative pathogen with a unique dual-use siderophore syste
 - Imported via the FptA receptor (iron-loaded only).
 
 ### Pseudopaline Metallophore
-- Nicotianamine-like metallophore analogous to staphylopine in [[staphylococcus-aureus]] [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Nicotianamine-like metallophore analogous to staphylopine in [[staphylococcus-aureus]] [[maier-2019-nickel-microbial-pathogenesis]].
 - **Primary mechanism for nickel acquisition** in chelating (metal-restricted) environments.
 - Exported and reimported as metal-pseudopaline complexes via the CntI/CntO system.
 
 ### Experimental Evidence: Siderophore-Deficient Mutants
-- PAD07 (PVD-/PCH- double mutant): **more sensitive to toxic metals** and showed **higher intracellular metal accumulation** than wild type [[[braud-2010-siderophores-pseudomonas-metal-tolerance]]].
+- PAD07 (PVD-/PCH- double mutant): **more sensitive to toxic metals** and showed **higher intracellular metal accumulation** than wild type [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
 - Adding purified PVD or PCH to siderophore-deficient strains **restored metal tolerance**.
 - Five metals toxic at 100 uM to the mutant: Co2+, Cu2+, Ga3+, Ni2+, Sn2+.
 

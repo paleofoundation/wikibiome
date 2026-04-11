@@ -1,4 +1,5 @@
 ---
+
 title: Breast Cancer
 type: entity
 subtype: disease
@@ -17,6 +18,7 @@ sources:
   - salnikov-2008-metal-carcinogenesis
   - klotz-2017-aluminum-health-effects-review
 tags: [cancer, copper, cadmium, zinc, manganese, metalloestrogens, microbiome, oxidative-stress, Cu-Zn-ratio]
+platform: wikibiome
 ---
 
 # Breast Cancer
@@ -31,14 +33,14 @@ The metallomic profile of breast cancer from the [[metal-disease-matrix]] and pr
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[copper\|Cu]]** | Elevated (serum, tissue) | Meta-analysis SMD 2.44 (Africa/Europe); significantly higher in plasma/serum across studies; associated with lysyl oxidase-like proteins and GPER1 signaling |
-| **[[cadmium\|Cd]]** | Elevated (metalloestrogen) | Higher in plasma, urine, hair, tissue; binds ERa with Kd ~4.5x10^-10 M; half-life 12-30 years in body |
-| **[[zinc\|Zn]]** | Depleted (serum, hair) | Meta-analysis SMD -2.09 in plasma/serum; multiple meta-analyses (926-2,369 patients) confirm lower serum Zn |
-| **[[manganese\|Mn]]** | Depleted (serum) | SMD -2.95 in plasma/serum (Asia); Mn deficiency disrupts MnSOD antioxidant function |
-| **[[lead\|Pb]]** | Elevated (tissue) | Significantly elevated in breast tissue; activates ERa and Ras/Raf/MEK/ERK pathway |
-| **[[nickel\|Ni]]** | Inconsistent | Serum elevated in some Chinese populations; non-significant in meta-analysis and toenail studies |
-| **[[iron\|Fe]]** | Dysregulated | No significant differences in plasma/serum between cases and controls |
-| **[[selenium\|Se]]** | Depleted | Decreased across cancer types; impairs glutathione peroxidase defense |
+| **[[copper|Cu]]** | Elevated (serum, tissue) | Meta-analysis SMD 2.44 (Africa/Europe); significantly higher in plasma/serum across studies; associated with lysyl oxidase-like proteins and GPER1 signaling |
+| **[[cadmium|Cd]]** | Elevated (metalloestrogen) | Higher in plasma, urine, hair, tissue; binds ERa with Kd ~4.5x10^-10 M; half-life 12-30 years in body |
+| **[[zinc|Zn]]** | Depleted (serum, hair) | Meta-analysis SMD -2.09 in plasma/serum; multiple meta-analyses (926-2,369 patients) confirm lower serum Zn |
+| **[[manganese|Mn]]** | Depleted (serum) | SMD -2.95 in plasma/serum (Asia); Mn deficiency disrupts MnSOD antioxidant function |
+| **[[lead|Pb]]** | Elevated (tissue) | Significantly elevated in breast tissue; activates ERa and Ras/Raf/MEK/ERK pathway |
+| **[[nickel|Ni]]** | Inconsistent | Serum elevated in some Chinese populations; non-significant in meta-analysis and toenail studies |
+| **[[iron|Fe]]** | Dysregulated | No significant differences in plasma/serum between cases and controls |
+| **[[selenium|Se]]** | Depleted | Decreased across cancer types; impairs glutathione peroxidase defense |
 
 ### The Cu/Zn Ratio as Diagnostic Biomarker
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Microglia in neurodegenerative diseases: mechanism and potential therapeutic targets"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Signal Transduction and Targeted Therapy
 year: 2023
 tags: [microglia, neurodegeneration, Alzheimers-disease, Parkinsons-disease, ALS, neuroinflammation, TREM2, phagocytosis, therapeutic-targets]
 doi: "10.1038/s41392-023-01588-0"
+platform: wikibiome
 ---
 
 # Key Claims

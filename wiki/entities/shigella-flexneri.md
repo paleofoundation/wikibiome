@@ -1,4 +1,5 @@
 ---
+
 title: Shigella flexneri
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, zhu-2024-toxic-essential-met
 metal_dependencies: [nickel, iron]
 key_enzymes: [NiFe-hydrogenase-Hya, NiFe-hydrogenase-Hyb]
 tags: [pathogen, dysentery, intracellular, phagolysosomal-survival, Enterobacteriaceae]
+platform: wikibiome
 ---
 
 # Shigella flexneri
@@ -18,14 +20,14 @@ A Gram-negative intracellular pathogen causing **bacillary dysentery** (shigello
 
 ### [NiFe] Hydrogenases -- Phagolysosomal Acid Combat
 
-- Possesses H2-uptake hydrogenases **Hya and Hyb** that combat acid stress during intracellular survival in macrophages [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Possesses H2-uptake hydrogenases **Hya and Hyb** that combat acid stress during intracellular survival in macrophages [[maier-2019-nickel-microbial-pathogenesis]].
 - **Hya activity is three-fold activated within minutes of acid exposure** -- a rapid-response defense mechanism that provides immediate energy for maintaining cytoplasmic pH homeostasis.
 - H2 oxidation generates PMF (proton motive force) that powers proton efflux pumps and ATP synthesis under the energy-limiting conditions of the phagolysosome.
 - This represents a distinct use of hydrogenase compared to [[helicobacter-pylori]] (gastric colonization energy) or [[campylobacter-jejuni]] (intestinal mucosal competition): *Shigella* uses H2 metabolism specifically to survive **intracellular killing**.
 
 ### Predicted Ni-GloI
 
-- As a member of Enterobacteriaceae, *S. flexneri* is predicted to possess Ni-dependent [[glyoxalase]] for methylglyoxal detoxification during the high glycolytic flux of intracellular replication [[[maier-2019-nickel-microbial-pathogenesis]]].
+- As a member of Enterobacteriaceae, *S. flexneri* is predicted to possess Ni-dependent [[glyoxalase]] for methylglyoxal detoxification during the high glycolytic flux of intracellular replication [[maier-2019-nickel-microbial-pathogenesis]].
 
 ## Iron Acquisition
 
@@ -46,7 +48,12 @@ A Gram-negative intracellular pathogen causing **bacillary dysentery** (shigello
 - **Children under 5**: bear the greatest burden; shigellosis is a leading cause of diarrheal death in this age group.
 - **Antibiotic resistance**: multidrug-resistant *Shigella* is increasingly common; WHO lists fluoroquinolone-resistant *Shigella* as a priority pathogen.
 - **Reactive arthritis**: post-infectious joint inflammation, similar to [[campylobacter-jejuni]].
-- Metal exposure in endemic regions (contaminated water sources containing heavy metals) may promote Enterobacteriaceae enrichment in the gut, potentially favoring *Shigella* colonization [[[zhu-2024-toxic-essential-metals-gut-microbiota]]].
+- Metal exposure in endemic regions (contaminated water sources containing heavy metals) may promote Enterobacteriaceae enrichment in the gut, potentially favoring *Shigella* colonization [[zhu-2024-toxic-essential-metals-gut-microbiota]].
+
+
+## Key Sources
+
+- [[khatoon-2023-gut-microbiota-neurodegenerative]]
 
 ## Connections
 

@@ -1,4 +1,5 @@
 ---
+
 title: Bacillus
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, chen-2022-living-microorganisms-detoxification-heavy-metals, zhai-2016-probiotics-cadmium, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, cassat-2012-metal-acquisition-staphylococcus-aureus, phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]
 metal_dependencies: [iron -- siderophore production (bacillibactin); manganese -- SOD enzymes; multiple metal resistance genes]
 tags: [mixed, spore-forming, probiotic, metal-resistance, food-poisoning, soil-gut-axis, heat-stable]
+platform: wikibiome
 ---
 
 # Bacillus
@@ -26,8 +28,8 @@ A Gram-positive, aerobic to facultatively anaerobic, **spore-forming** genus tha
   - Lead biosorption through cell wall teichoic acids and exopolysaccharides
   - Arsenic resistance via ars operons (arsenate reductase, arsenite efflux)
   - Zinc/copper homeostasis through P-type ATPases
-- *B. subtilis* and *B. coagulans* can **bind and sequester heavy metals** in the gut lumen, reducing intestinal absorption of [[cadmium]], [[lead]], and [[arsenic]] [[[chen-2022-living-microorganisms-detoxification-heavy-metals]]].
-- Proposed as **living biosensors** for heavy metal detection in food and environmental samples due to their metal-responsive gene expression systems [[[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]].
+- *B. subtilis* and *B. coagulans* can **bind and sequester heavy metals** in the gut lumen, reducing intestinal absorption of [[cadmium]], [[lead]], and [[arsenic]] [[chen-2022-living-microorganisms-detoxification-heavy-metals]].
+- Proposed as **living biosensors** for heavy metal detection in food and environmental samples due to their metal-responsive gene expression systems [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 
 ## Iron Acquisition
 
@@ -50,7 +52,7 @@ A Gram-positive, aerobic to facultatively anaerobic, **spore-forming** genus tha
 ## Soil-Gut Axis
 
 - Predominantly a soil organism; gut presence reflects the **soil-gut axis** (soil-to-food-to-gut microbial transfer).
-- Agricultural soil contaminated with heavy metals carries metal-resistant *Bacillus* that could transfer resistance genes to gut bacteria [[[phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]]].
+- Agricultural soil contaminated with heavy metals carries metal-resistant *Bacillus* that could transfer resistance genes to gut bacteria [[phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]].
 
 ## Key Metabolites
 
@@ -58,6 +60,13 @@ A Gram-positive, aerobic to facultatively anaerobic, **spore-forming** genus tha
 - **Surfactin / iturin / fengycin** -- antimicrobial lipopeptides
 - **L-lactic acid** -- fermentation product (*B. coagulans*)
 - **Dipicolinic acid** -- spore component; metal chelator
+
+
+## Key Sources
+
+- [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
+- [[zhai-2016-probiotics-cadmium]]
+- [[cassat-2012-metal-acquisition-staphylococcus-aureus]]
 
 ## Connections
 

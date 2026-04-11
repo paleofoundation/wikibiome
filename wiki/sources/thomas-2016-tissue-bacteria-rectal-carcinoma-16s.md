@@ -1,4 +1,5 @@
 ---
+
 title: "Tissue-Associated Bacterial Alterations in Rectal Carcinoma Patients Revealed by 16S rRNA Community Profiling"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2016
 tags: [colon-cancer, 16S-rRNA, rectal-cancer, tissue-microbiome, Bacteroides-fragilis, Parcubacteria, enterotypes, Fusobacterium, ddPCR, colorectal-cancer]
 doi: "10.3389/fcimb.2016.00179"
+platform: wikibiome
 ---
 
 # Tissue-Associated Bacterial Alterations in Rectal Carcinoma Patients Revealed by 16S rRNA Community Profiling

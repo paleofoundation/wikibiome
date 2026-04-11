@@ -1,4 +1,5 @@
 ---
+
 title: "Akkermansia muciniphila Alters Gut Microbiota and Immune System to Improve Cardiovascular Diseases in Murine Model"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2022
 doi: 10.3389/fmicb.2022.906920
 tags: [cardiovascular-disease, CVD, Akkermansia-muciniphila, abdominal-aortic-aneurysm, gut-microbiome, immune-system, probiotic, inflammation, IL-33, Lactobacillus, E-coli, Clostridium, mouse-model]
+platform: wikibiome
 ---
 
 # Akkermansia muciniphila Alters Gut Microbiota and Immune System to Improve Cardiovascular Diseases in Murine Model

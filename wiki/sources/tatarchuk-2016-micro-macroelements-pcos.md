@@ -1,4 +1,5 @@
 ---
+
 title: "Serum Micro- and Macroelements Levels in Women with Polycystic Ovary Syndrome Associated with Pelvic Inflammatory Disease"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Tatarchuk TF, Kosei NV, Vetokh HV, Gunkov SV]
 journal: Reproductive Endocrinology
 year: 2016
 tags: [PCOS, nickel, manganese, zinc, copper, pelvic-inflammatory-disease, microelements, oxidative-stress]
-doi: "10.1007/s11356-022-23620-6"
+doi: "unverified"
+platform: wikibiome
 ---
 
 # Key Claims

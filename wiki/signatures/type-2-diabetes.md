@@ -1,4 +1,5 @@
 ---
+
 title: "Type 2 Diabetes — Microbiome Signature"
 type: signature
 created: 2026-04-10
@@ -18,7 +19,7 @@ taxonomic_signature:
       role: "Primary pathogenic driver — elevated in metformin-naive T2D; produces endotoxin (LPS); metal-dependent virulence"
     - taxon: "[[enterobacteriaceae]]"
       role: "Gram-negative family enriched in T2D; metformin-responsive dysbiosis marker; LPS-producing"
-    - taxon: "[[proteobacteria]]"
+    - taxon: "[[enterobacteriaceae|proteobacteria]]"
       role: "Pathogenic phylum elevated in T2D; drives TMA-producing pathway to TMAO via choline metabolism"
     - taxon: "[[streptococcus]]"
       role: "Opportunistic genus enriched in T2D; associated with endotoxemia and systemic inflammation"
@@ -37,7 +38,7 @@ taxonomic_signature:
       role: "Dominant butyrate producers — depleted in T2D; loss of butyrate-driven barrier function and colonocyte nutrition"
     - taxon: "[[ruminococcus]]"
       role: "SCFA and propionate producer — lost in T2D; deficiency impairs glucose metabolism and barrier integrity"
-    - taxon: "[[bacteroides]]"
+    - taxon: "[[bacteroides-fragilis|bacteroides]]"
       role: "Bile acid transformer via bile salt hydrolase — reduced in T2D; impairs FXR/TGR5 signaling for metabolic health"
 
 # Layer 3: Nutritional immunity profile
@@ -55,6 +56,7 @@ virulence_enzymes: [lipopolysaccharide, choline-TMA-lyase, bile-acid-dehydratase
 cureva_status: partial
 validated_interventions: []
 stops: []
+platform: cureva
 ---
 
 ## Overview
@@ -101,7 +103,7 @@ The host is attempting to defend against the metal/microbial burden, but the res
 | Factor | Status | Function |
 |--------|--------|----------|
 | **[[hepcidin]]** | **Elevated** | Withholding iron from pathogens; signals **functional anemia**, NOT true iron deficiency [[khan-2014-metals-type2-diabetes]] |
-| **[[lipopolysaccharide]] (LPS)** | **Chronically elevated** | Gram-negative (*E. coli*, *Enterobacteriaceae*) dominance drives endotoxemia; activates NF-kB, TLR4, STAT-1 pathways; promotes M1 macrophage polarization [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]] |
+| **[[inflammation|lipopolysaccharide]] (LPS)** | **Chronically elevated** | Gram-negative (*E. coli*, *Enterobacteriaceae*) dominance drives endotoxemia; activates NF-kB, TLR4, STAT-1 pathways; promotes M1 macrophage polarization [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]] |
 | **TNF-alpha, IL-6** | **Elevated** | Systemic inflammation driving insulin resistance and beta-cell dysfunction [[herrema-2020-microbiome-cardiovascular-disease-ascvd]] |
 | **[[butyrate]], [[propionate]], [[acetate]]** | **Severely depleted** | SCFA depletion — the cardinal feature of T2D dysbiosis. Butyrate maintains epithelial tight junctions; its absence drives LPS translocation [[chambers-2018-scfa-metabolic-cardiovascular-health]] |
 | **[[bile-acids]]** | **Dysmetabolized** | Normal microbiota convert primary to secondary BAs via bile salt hydrolase (BSH); BSH-producing *Bacteroides* and *Bifidobacterium* depleted; FXR/TGR5 signaling impaired [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]] |
@@ -121,7 +123,7 @@ The host is attempting to defend against the metal/microbial burden, but the res
 |-------|-------------------|----------------------|------------------------|
 | **[[escherichia-coli]]** | Fe, Zn, Ni | Siderophores, urease, flagella, LPS | Primary endotoxin producer; metformin-responsive but baseline elevated in treatment-naive T2D [[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]]; ferments refined carbs efficiently |
 | **[[enterobacteriaceae]]** | Fe, Ni | TMA-producing enzymes, choline-TMA-lyase | Produces choline→TMA→TMAO pathway; drives atherosclerotic risk in T2D; metformin-sensitive [[dixon-2023-prebiotics-metformin-gi-side-effects-youth-t2dm]] |
-| **[[proteobacteria]]** | Fe, Ni, Cd | Multiple pathogenic enzymes | Contains >65% of choline TMA-producing bacteria; gram-negative LPS-producing; elevated in T2D dysbiosis [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]] |
+| **[[enterobacteriaceae|proteobacteria]]** | Fe, Ni, Cd | Multiple pathogenic enzymes | Contains >65% of choline TMA-producing bacteria; gram-negative LPS-producing; elevated in T2D dysbiosis [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]] |
 | **[[streptococcus]]** | Zn, Ni, Mn | Zinc metalloproteases | Opportunistic; enriched in T2D; produces inflammation-driving lipoteichoic acid (gram-positive LPS analog) |
 | **[[enterococcus]]** | Cd-tolerant, Ni | Heavy metal resistance genes, EPS production | Cadmium-tolerant strain (CX 2-6) shows massive metabolic reprogramming under metal stress [[cheng-2021-cadmium-enterococcus-metabolic]]; accumulates toxic metals |
 | **[[prevotella]]** | Fe, variable | SCFA production, bile acid transformation | Context-dependent: can be protective (SCFA producer) or pathogenic depending on metabolic state |
@@ -135,7 +137,7 @@ The host is attempting to defend against the metal/microbial burden, but the res
 | **[[akkermansia-muciniphila]]** | Mucus-layer maintenance, SCFA production, barrier protection | Depleted by lead exposure [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]; restored by metformin [[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]]; critical for intestinal barrier |
 | **[[lachnospiraceae]]** | Butyrate production (dominant in healthy gut) | Lost competitive advantage in iron-rich, pro-inflammatory environment [[chambers-2018-scfa-metabolic-cardiovascular-health]] |
 | **[[ruminococcus]]** | SCFA and propionate production | Lacked defense systems for metal-enriched niche; starved by refined-carb diet (needs complex carbs for fermentation) |
-| **[[bacteroides]]** | Bile acid transformation via BSH | Reduced in T2D; impairs secondary bile acid formation; reduced FXR/TGR5 signaling for metabolic control [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]] |
+| **[[bacteroides-fragilis|bacteroides]]** | Bile acid transformation via BSH | Reduced in T2D; impairs secondary bile acid formation; reduced FXR/TGR5 signaling for metabolic control [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]] |
 
 ## Virulence Enzymes and Features
 
@@ -177,15 +179,15 @@ The T2D microenvironment is characterized by:
 
 | Intervention | Mechanism | Evidence | Status |
 |-------------|-----------|----------|--------|
-| **[[Metformin]]** | Alters microbiota composition (↑*Bifidobacterium adolescentis*, ↑*Akkermansia*, ↑propionate/butyrate, ↑bile acids) | FMT of metformin-treated microbiota to germ-free mice improved glucose tolerance; landmark RCT in 40 treatment-naive T2D patients [[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]] | **Gold standard** |
+| **[[metformin]]** | Alters microbiota composition (↑*Bifidobacterium adolescentis*, ↑*Akkermansia*, ↑propionate/butyrate, ↑bile acids) | FMT of metformin-treated microbiota to germ-free mice improved glucose tolerance; landmark RCT in 40 treatment-naive T2D patients [[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]] | **Gold standard** |
 
 ### Prebiotic/Probiotic
 
 | Intervention | Mechanism | Evidence | Status |
 |-------------|-----------|----------|--------|
 | **Prebiotic fiber (inulin, beta-glucan, polyphenols)** | Restores SCFA-producing bacteria; reduces *Proteobacteria*; proof-of-concept in metformin + prebiotic combo in youth T2D [[dixon-2023-prebiotics-metformin-gi-side-effects-youth-t2dm]] | Pilot feasibility trial; trend toward lower mean glucose; requires larger RCT | **Promising** |
-| **[[Bifidobacterium]]** | Directly produces propionate and butyrate; enriched by metformin; anti-inflammatory | RCT in MS patients with 4-strain probiotic (*L. acidophilus*, *L. casei*, *B. bifidum*, *L. fermentum*) showed reduced insulin resistance (HOMA-IR -0.6 vs. -0.2, p=0.001); modest glycemic benefit [[kouchaki-2017-clinical-metabolic-probiotic-ms]] | **Moderate evidence** |
-| **[[Akkermansia-muciniphila]]** | Restores intestinal barrier; SCFA producer; metformin-responsive | Depleted by lead, restored by metformin; mechanistic but few clinical trials in T2D specifically | **Mechanistically sound** |
+| **[[bifidobacterium]]** | Directly produces propionate and butyrate; enriched by metformin; anti-inflammatory | RCT in MS patients with 4-strain probiotic (*L. acidophilus*, *L. casei*, *B. bifidum*, *L. fermentum*) showed reduced insulin resistance (HOMA-IR -0.6 vs. -0.2, p=0.001); modest glycemic benefit [[kouchaki-2017-clinical-metabolic-probiotic-ms]] | **Moderate evidence** |
+| **[[akkermansia-muciniphila]]** | Restores intestinal barrier; SCFA producer; metformin-responsive | Depleted by lead, restored by metformin; mechanistic but few clinical trials in T2D specifically | **Mechanistically sound** |
 
 ### Dietary
 
@@ -223,3 +225,8 @@ The following Karen's Brain primitives are active in this signature:
 7. **Estrobolome and Hormone Recirculation** — Less prominent in T2D than endometriosis; however, dysbiotic bile acid dysmetabolism links to altered estrogen metabolism in women with T2D (mechanistic pathway open)
 8. **Siderophore Competition and Iron Ecology** — *E. coli* and *Proteobacteria* outcompete SCFA producers via superior iron acquisition; iron-chelating interventions directly target this Achilles' heel
 9. **Oxygen State as Ecological Determinant** — SCFA-depleted dysbiosis may create microaerobic niches; not a primary focus but worth investigating as SCFA depletion impairs butyrate-driven mucus production and oxygenation of epithelium
+
+## Key Sources
+
+- [[wu-2017-metformin-gut-microbiome-t2d-therapeutic-effects]]
+- [[elbere-2021-metformin-gut-microbiome-epigenetics-t2d-thesis]]

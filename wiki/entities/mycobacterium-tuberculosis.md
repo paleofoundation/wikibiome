@@ -1,4 +1,5 @@
 ---
+
 title: Mycobacterium tuberculosis
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallo
 metal_dependencies: [nickel, iron, zinc, copper]
 key_enzymes: [NiFe-hydrogenase-Hyc, Ni-urease, mycobactin, carboxymycobactin]
 tags: [pathogen, tuberculosis, intracellular, macrophage-survival, siderophore, global-burden]
+platform: wikibiome
 ---
 
 # Mycobacterium tuberculosis
@@ -18,14 +20,14 @@ The causative agent of **tuberculosis (TB)**, the leading infectious disease kil
 
 ### [NiFe] Hydrogenase (Hyc)
 
-- *M. tuberculosis* possesses a Hyc-type [NiFe] [[hydrogenase]] that is **upregulated during macrophage infection** [[[maier-2019-nickel-microbial-pathogenesis]]].
+- *M. tuberculosis* possesses a Hyc-type [NiFe] [[hydrogenase]] that is **upregulated during macrophage infection** [[maier-2019-nickel-microbial-pathogenesis]].
 - Within the phagosome, conventional carbon sources are scarce. H2 oxidation provides an alternative energy source (PMF generation) for survival in this nutrient-limited intracellular niche.
 - The upregulation specifically during macrophage residence suggests the bacterium shifts to H2-dependent energy metabolism as part of its intracellular persistence program.
 - Connects to the broader theme of hydrogenase-dependent intracellular survival seen in [[salmonella-typhimurium]] and [[shigella-flexneri]].
 
 ### Ni-Urease
 
-- Urease supports **survival under nitrogen-limited conditions** encountered during chronic infection and latency [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Urease supports **survival under nitrogen-limited conditions** encountered during chronic infection and latency [[maier-2019-nickel-microbial-pathogenesis]].
 - Ammonia from urease provides a nitrogen source when amino acid availability is restricted within the granuloma.
 - Urease may also modulate phagosomal pH, though this is less well characterized than in [[helicobacter-pylori]] or [[cryptococcus-neoformans]].
 
@@ -33,7 +35,7 @@ The causative agent of **tuberculosis (TB)**, the leading infectious disease kil
 
 ### Mycobactins and Carboxymycobactins
 
-- *M. tuberculosis* produces two structurally related siderophores [[[patil-2021-infection-metallomics-critical-care]]]:
+- *M. tuberculosis* produces two structurally related siderophores [[patil-2021-infection-metallomics-critical-care]]:
   - **Mycobactins**: hydrophobic, cell-associated. Retain iron at the cell envelope for membrane transport.
   - **Carboxymycobactins**: hydrophilic, secreted into the extracellular environment to scavenge iron from host proteins.
 - **Species-specific side chain variations** in mycobactins enable diagnostic identification -- each mycobacterial species produces characteristic mycobactin structures.
@@ -54,7 +56,7 @@ The causative agent of **tuberculosis (TB)**, the leading infectious disease kil
 
 ## Zinc Biology
 
-- Host macrophages may deploy **zinc intoxication** as an antimicrobial strategy against intracellular mycobacteria, paralleling the zinc poisoning of streptococci [[[akbari-2022-metal-homeostasis-streptococci]]].
+- Host macrophages may deploy **zinc intoxication** as an antimicrobial strategy against intracellular mycobacteria, paralleling the zinc poisoning of streptococci [[akbari-2022-metal-homeostasis-streptococci]].
 - *M. tuberculosis* zinc homeostasis involves multiple exporters and importers to navigate between zinc starvation and zinc toxicity within the phagosome.
 
 ## Clinical Significance
@@ -63,7 +65,12 @@ The causative agent of **tuberculosis (TB)**, the leading infectious disease kil
 - **Latent TB**: one-quarter of the global population carries latent *M. tuberculosis* infection; metal homeostasis (particularly iron and nickel) likely determines the balance between latency and reactivation.
 - **Drug-resistant TB**: MDR-TB and XDR-TB are growing crises; novel drug targets including Ni-dependent enzymes are urgently needed.
 - **HIV co-infection**: TB is the leading killer of people living with HIV. Altered metal homeostasis in HIV infection (reduced zinc, altered iron) may favor TB reactivation.
-- **Mycobactin-based diagnostics**: siderophore detection in sputum or urine could provide rapid, non-culture-based TB diagnosis [[[patil-2021-infection-metallomics-critical-care]]].
+- **Mycobactin-based diagnostics**: siderophore detection in sputum or urine could provide rapid, non-culture-based TB diagnosis [[patil-2021-infection-metallomics-critical-care]].
+
+
+## Key Sources
+
+- [[cassat-2012-metal-acquisition-staphylococcus-aureus]]
 
 ## Connections
 

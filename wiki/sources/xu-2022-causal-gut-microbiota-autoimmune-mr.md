@@ -1,4 +1,5 @@
 ---
+
 title: "Causal Relationship Between Gut Microbiota and Autoimmune Diseases: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 tags: [crohns-disease, IBD, Mendelian-randomization, Bifidobacterium, autoimmune-disease, gut-microbiome, causal-inference, celiac-disease, type-1-diabetes]
 doi: "10.3389/fimmu.2021.746998"
+platform: wikibiome
 ---
 
 # Key Claims

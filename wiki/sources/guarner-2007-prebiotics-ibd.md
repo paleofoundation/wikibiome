@@ -1,4 +1,5 @@
 ---
+
 title: "Prebiotics in Inflammatory Bowel Diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: British Journal of Nutrition
 year: 2007
 tags: [crohns-disease, IBD, prebiotics, inulin, oligofructose, lactulose, microbiota, SCFAs, inflammation, animal-models]
 doi: "10.1017/S0007114507832958"
+platform: wikibiome
 ---
 
 # Key Claims

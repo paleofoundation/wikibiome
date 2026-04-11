@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metals Exposure and Alzheimer's Disease and Related Dementias"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Alzheimer's Disease
 year: 2020
 tags: [heavy-metals, Alzheimers-disease, dementia, lead, mercury, cadmium, arsenic, manganese, exposure-assessment, epidemiology]
 doi: "10.3233/JAD-200282"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Jonathan Plassais, Yoan De Martino]
 year: 2024
 journal: "Frontiers in Microbiology"
-doi: "10.3389/fmicb.2024.XXXXXX"
+doi: "10.3389/fmicb.2024.1369880"
 tags: [parkinsons-disease, 16S-rRNA-sequencing, amplicon-sequencing, eastern-europe, gut-microbiota, geographic-variation, microbiome-composition]
 library_category: signatures
 platform: both

@@ -1,4 +1,5 @@
 ---
+
 title: "Pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Reviews Disease Primers
 year: 2016
 tags: [pancreatic-cancer, systematic-review, epidemiology, PDAC, tumor-microenvironment, KRAS, risk-factors]
 doi: "10.1038/nrdp.2016.22"
+platform: wikibiome
 ---
 
 # Key Claims

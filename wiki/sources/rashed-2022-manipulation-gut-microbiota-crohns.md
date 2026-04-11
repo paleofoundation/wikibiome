@@ -1,4 +1,5 @@
 ---
+
 title: "Manipulation of Gut Microbiota as a Key Target for Crohn's Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Medicine
 year: 2022
 tags: [crohns-disease, IBD, microbiota-manipulation, probiotics, prebiotics, FMT, antibiotics, mycobiome, virome, archaeome, dysbiosis]
 doi: "10.3389/fmed.2022.887044"
+platform: wikibiome
 ---
 
 # Key Claims

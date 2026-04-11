@@ -1,4 +1,5 @@
 ---
+
 title: "The Role of Sex Hormones in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: European Neurology
 year: 2018
 tags: [multiple-sclerosis, sex-hormones, estrogen, estriol, progesterone, testosterone, remyelination, OPC, pregnancy, EAE, neuroprotection, gut-microbiota]
 doi: "10.1159/000494262"
+platform: wikibiome
 ---
 
 # The Role of Sex Hormones in Multiple Sclerosis

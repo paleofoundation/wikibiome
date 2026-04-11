@@ -1,10 +1,12 @@
 ---
+
 title: Chromium
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [transition-metal, carcinogen, DNA-damage, toxicology]
+platform: wikibiome
 ---
 
 # Chromium (Cr)
@@ -24,7 +26,7 @@ A transition metal whose hexavalent form, **Cr(VI)**, is a potent human carcinog
 - Primarily causes **lung cancer** (squamous cell carcinoma) in chromate workers.
 - Epidemiological risks found to be **substantially higher than previously thought**, triggering regulatory revisions.
 
-## Carcinogenic Mechanisms [[[salnikov-2008-metal-carcinogenesis]]]
+## Carcinogenic Mechanisms [[salnikov-2008-metal-carcinogenesis]]
 
 ### Cr(VI) Metabolism
 - Cr(VI) is a **pro-carcinogen** — itself unreactive with DNA.

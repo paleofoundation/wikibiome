@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Emily M Klann, Ursina Dissly, Timothy L Testerman]
 year: 2022
 journal: "Frontiers in Cellular and Infection Microbiology"
-doi: "10.3389/fcimb.2022.XXXXXX"
+doi: "10.3389/fcimb.2021.720390"
 tags: [parkinsons-disease, microbiome-mitochondria, prodromal-PD, immune-response, oxidative-stress, SCFA, butyrate, gut-brain-axis]
 library_category: mechanistic-insights
 platform: both

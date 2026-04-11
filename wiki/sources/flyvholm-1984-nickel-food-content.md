@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel Content of Food and Estimation of Dietary Intake"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Zeitschrift fur Lebensmittel-Untersuchung und Forschung
 year: 1984
 tags: [dietary-nickel, food-nickel-content, nickel-intake-estimation, Danish-diet, reference-data]
 doi: "10.1007/BF01043419"
+platform: wikibiome
 ---
 
 ## Key Claims

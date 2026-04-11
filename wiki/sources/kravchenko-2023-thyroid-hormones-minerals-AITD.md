@@ -1,4 +1,5 @@
 ---
+
 title: "Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 tags: [autoimmune-thyroid-disease, thyroid-hormones, minerals, immunocorrection, selenium, iodine, zinc, iron, copper, magnesium, calcium, Hashimotos, graves-disease, immunomodulation]
 doi: "10.3389/fendo.2023.1225494"
+platform: wikibiome
 ---
 
 # Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases

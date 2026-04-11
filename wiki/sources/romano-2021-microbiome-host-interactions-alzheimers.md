@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Stefano Romano, George M Savva, Janis R Bedarf]
 year: 2021
 journal: "Frontiers in Pharmacology"
-doi: "10.3389/fphar.2021.XXXXXX"
+doi: "10.3389/fphar.2021.652726"
 tags: [parkinsons-disease, alzheimers-disease, microbiome-host-interactions, neurodegeneration, amyloid-beta, gut-brain-axis, immune-crosstalk]
 library_category: mechanistic-insights
 platform: both

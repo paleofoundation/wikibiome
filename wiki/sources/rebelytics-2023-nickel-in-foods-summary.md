@@ -1,4 +1,5 @@
 ---
+
 title: "Nickel in Foods: Summary Tables, Unweighted Averages"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Rebelytics R&D Inc.]
 journal: Rebelytics R&D Inc. (technical report)
 year: 2023
 tags: [nickel, nickel-in-food, dietary-exposure, food-database, low-nickel-diet, comprehensive-reference]
-doi: "10.3390/pharmaceutics13101701"
+doi: "N/A"
+platform: wikibiome
 ---
 
 # Nickel in Foods: Summary Tables, Unweighted Averages (July 2023)

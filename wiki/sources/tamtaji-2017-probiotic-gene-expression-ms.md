@@ -1,4 +1,5 @@
 ---
+
 title: "The Effects of Probiotic Supplementation on Gene Expression Related to Inflammation, Insulin, and Lipids in Patients With Multiple Sclerosis: A Randomized, Double-Blind, Placebo-Controlled Trial"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of the American College of Nutrition
 year: 2017
 tags: [probiotics, multiple-sclerosis, gene-expression, inflammation, TNF-alpha, IL-8, clinical-trial, Lactobacillus, Bifidobacterium]
 doi: "10.1080/07315724.2017.1347074"
+platform: wikibiome
 ---
 
 # The Effects of Probiotic Supplementation on Gene Expression Related to Inflammation, Insulin, and Lipids in Patients With Multiple Sclerosis

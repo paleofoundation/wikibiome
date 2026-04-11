@@ -1,4 +1,5 @@
 ---
+
 title: "Dyshidrosiform pemphigoid induced by nickel in the diet"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Contact Dermatitis
 year: 1993
 tags: [dyshidrosiform-pemphigoid, dietary-nickel, case-report, low-nickel-diet, bullous-pemphigoid]
 doi: "10.1111/j.1600-0536.1993.tb03520.x"
+platform: wikibiome
 ---
 
 ## Key Claims

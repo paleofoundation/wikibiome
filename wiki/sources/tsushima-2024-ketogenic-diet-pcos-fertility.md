@@ -1,4 +1,5 @@
 ---
+
 title: "Ketogenic diet improves fertility in patients with polycystic ovary syndrome: a brief report"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Tsushima Y, Nachawi N, Pantalone KM, Griebeler ML, Alwahab UA]
 journal: Frontiers in Nutrition
 year: 2024
 tags: [PCOS, ketogenic-diet, fertility, menstrual-cycles, pregnancy, retrospective, obesity, ovulation]
-doi: "10.1136/bmj.o2934"
+doi: "10.3389/fnut.2024.1450244"
+platform: wikibiome
 ---
 
 # Key Claims

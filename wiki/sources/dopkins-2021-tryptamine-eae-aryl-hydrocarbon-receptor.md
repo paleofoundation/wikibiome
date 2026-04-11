@@ -1,4 +1,5 @@
 ---
+
 title: "Tryptamine Attenuates Experimental Multiple Sclerosis Through Activation of Aryl Hydrocarbon Receptor"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Pharmacology
 year: 2021
 doi: 10.3389/fphar.2020.619265
 tags: [multiple-sclerosis, EAE, tryptamine, aryl-hydrocarbon-receptor, indoles, Tregs, Th17, gut-microbiome, Clostridia, butyrate, neuroinflammation]
+platform: wikibiome
 ---
 
 # Tryptamine Attenuates Experimental Multiple Sclerosis Through Activation of Aryl Hydrocarbon Receptor

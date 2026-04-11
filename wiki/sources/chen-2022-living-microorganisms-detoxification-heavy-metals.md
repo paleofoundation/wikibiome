@@ -1,4 +1,5 @@
 ---
+
 title: "Potential Application of Living Microorganisms in the Detoxification of Heavy Metals"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Runqiu Chen, Huaijun Tu, Tingtao Chen]
 journal: Foods
 year: 2022
 tags: [heavy-metals, probiotics, detoxification, engineered-bacteria, gut-microbiota, biosorption, bioaccumulation, surface-display, GEMs, Lactobacillus, E-coli, review]
-doi: "10.3390/toxics13121044"
+doi: "10.3390/foods11091017"
+platform: wikibiome
 ---
 
 # Key Claims

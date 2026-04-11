@@ -1,10 +1,12 @@
 ---
+
 title: DNA Damage in Metal Carcinogenesis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [DNA-damage, chromium, carcinogenesis, Cr-DNA-adducts]
+platform: wikibiome
 ---
 
 # DNA Damage in Metal Carcinogenesis
@@ -13,7 +15,7 @@ Direct DNA damage is the **primary carcinogenic mechanism for [[chromium]]** but
 
 ## Chromium: The DNA-Damaging Metal
 
-### Cr-DNA Adducts [[[salnikov-2008-metal-carcinogenesis]]]
+### Cr-DNA Adducts [[salnikov-2008-metal-carcinogenesis]]
 - The signature lesion of Cr(VI) carcinogenesis.
 - **Ternary adducts** (50-75% of all adducts): Cr(III) crosslinks DNA with a third molecule:
   - Cr-ascorbate-DNA (dominant when ascorbate is reductant)

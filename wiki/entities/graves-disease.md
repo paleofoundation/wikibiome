@@ -1,4 +1,5 @@
 ---
+
 title: Graves' Disease
 type: entity
 subtype: disease
@@ -16,6 +17,7 @@ sources:
   - mian-2022-editorial-diet-impair-thyroid-function
   - rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis
 tags: [graves-disease, autoimmune, thyroid, selenium, iron, copper, zinc, iodine, cadmium, mercury, lead, gut-thyroid-axis, microbiome, TRAb, Fusobacterium, Bifidobacterium, SCFAs, diet, methimazole, berberine]
+platform: wikibiome
 ---
 
 # Graves' Disease

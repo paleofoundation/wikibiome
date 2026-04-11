@@ -1,4 +1,5 @@
 ---
+
 title: "Alterations in Circulating Fatty Acid Are Associated With Gut Microbiota Dysbiosis and Inflammation in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2020
 doi: 10.3389/fimmu.2020.01390
 tags: [multiple-sclerosis, SCFAs, butyric-acid, caproic-acid, dysbiosis, inflammation, gut-barrier, T-lymphocytes, Akkermansia, Lachnospiraceae]
+platform: wikibiome
 ---
 
 # Alterations in Circulating Fatty Acid Are Associated With Gut Microbiota Dysbiosis and Inflammation in Multiple Sclerosis

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Szu-Ju Chen, Chin-Hsien Lin]
 year: 2023
 journal: "npj Parkinson's Disease"
-doi: "10.1038/s41531-021-00218-2"
+doi: "unverified"
 tags: [parkinsons-disease, causal-microbiome, constipation, mediation-analysis, microbiome-causality, prodromal-PD, gut-motility]
 library_category: causal
 platform: both

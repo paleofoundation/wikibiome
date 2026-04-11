@@ -1,4 +1,5 @@
 ---
+
 title: "Mucosal lactoferrin response to genital tract infections is associated with iron and nutritional biomarkers in young Burkinabe women"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: European Journal of Clinical Nutrition
 year: 2019
 tags: [lactoferrin, iron, bacterial-vaginosis, Trichomonas-vaginalis, genital-infections, hepcidin, ferritin, iron-stores, vaginal-microbiome, mucosal-immunity, Burkina-Faso]
 doi: "10.1038/s41430-019-0444-7"
+platform: wikibiome
 ---
 
 # Key Claims

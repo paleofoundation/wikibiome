@@ -1,4 +1,5 @@
 ---
+
 title: Postpartum Depression
 type: entity
 subtype: disease
@@ -16,6 +17,7 @@ sources:
   - hu-2025-traffic-air-pollution-hdp-postpartum-depression
   - ogundare-2024-metals-behavioral-depression-women
 tags: [psychiatric, perinatal, zinc, iron, copper, magnesium, microbiome, developmental-vulnerability, trace-elements]
+platform: wikibiome
 ---
 
 # Postpartum Depression
@@ -28,11 +30,11 @@ Postpartum depression (PPD) affects 10-20% of women after delivery, with profoun
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[zinc\|Zn]]** | Depleted | Serum Zn in PPD: 21.03 ug/dL vs. 54.16 ug/dL in controls; negative correlation with EPDS severity; 100 mg/day supplementation OR 0.249 for PPD |
-| **[[iron\|Fe]]** | Depleted (ferritin) | Postpartum anemia RR 1.887 for PPD; serum ferritin <1 ug increases PPD risk by 3.98x; essential for dopamine synthesis |
-| **[[copper\|Cu]]** | Elevated | Elevated serum Cu in women with PPD history; Cu needed for catecholamine synthesis but excess may be pro-oxidant |
-| **[[magnesium\|Mg]]** | Debated | Mg deficiency hypothesized to contribute; however, clinical study found no significant association (OR 0.29, 95% CI 0.04-1.77) |
-| **[[lead\|Pb]]** | Weakly associated | Most consistently associated toxic metal across timepoints in Project Viva (OR 1.19 per doubling); but overall null in mixture analysis |
+| **[[zinc|Zn]]** | Depleted | Serum Zn in PPD: 21.03 ug/dL vs. 54.16 ug/dL in controls; negative correlation with EPDS severity; 100 mg/day supplementation OR 0.249 for PPD |
+| **[[iron|Fe]]** | Depleted (ferritin) | Postpartum anemia RR 1.887 for PPD; serum ferritin <1 ug increases PPD risk by 3.98x; essential for dopamine synthesis |
+| **[[copper|Cu]]** | Elevated | Elevated serum Cu in women with PPD history; Cu needed for catecholamine synthesis but excess may be pro-oxidant |
+| **[[magnesium|Mg]]** | Debated | Mg deficiency hypothesized to contribute; however, clinical study found no significant association (OR 0.29, 95% CI 0.04-1.77) |
+| **[[lead|Pb]]** | Weakly associated | Most consistently associated toxic metal across timepoints in Project Viva (OR 1.19 per doubling); but overall null in mixture analysis |
 
 ### Zinc: The Strongest Metallomic Finding
 

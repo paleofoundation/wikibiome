@@ -1,4 +1,5 @@
 ---
+
 title: "Integrative analysis of gut microbiome and host transcriptome reveal novel molecular signatures in Hashimoto's thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Translational Medicine
 year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-microbiome, transcriptome, metagenomics, mirna, molecular-signatures, dysbiosis, inflammation, immune-response]
 doi: "10.1186/s12967-024-05876-3"
+platform: wikibiome
 ---
 
 # Integrative analysis of gut microbiome and host transcriptome reveal novel molecular signatures in Hashimoto's thyroiditis

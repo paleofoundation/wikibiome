@@ -1,4 +1,5 @@
 ---
+
 title: "Influence of Microbiota on NSAID Enteropathy: A Systematic Review of Current Knowledge and the Role of Probiotics"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Advances in Therapy
 year: 2020
 tags: [crohns-disease, IBD, NSAIDs, enteropathy, microbiota, probiotics, TLR4, NF-kB, NLRP3, intestinal-permeability]
 doi: "10.1007/s12325-020-01338-6"
+platform: wikibiome
 ---
 
 # Key Claims

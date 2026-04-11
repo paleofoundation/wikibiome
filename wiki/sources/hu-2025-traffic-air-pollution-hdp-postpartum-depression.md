@@ -1,4 +1,5 @@
 ---
+
 title: "Joint effects of traffic-related air pollution and hypertensive disorders of pregnancy on maternal postpartum depressive and anxiety symptoms"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of Exposure Science and Environmental Epidemiology
 year: 2025
 tags: [air-pollution, NO2, traffic-pollution, postpartum-depression, postpartum-anxiety, hypertensive-disorders-pregnancy, HDP, preeclampsia, Hispanic-Latina, MADRES-cohort, PDM]
 doi: "10.1038/s41370-024-00692-9"
+platform: wikibiome
 ---
 
 # Key Claims

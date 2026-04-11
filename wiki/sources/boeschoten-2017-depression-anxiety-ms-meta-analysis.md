@@ -1,4 +1,5 @@
 ---
+
 title: "Prevalence of depression and anxiety in Multiple Sclerosis: A systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Journal of the Neurological Sciences
 year: 2017
 doi: 10.1016/j.jns.2016.11.067
 tags: [multiple-sclerosis, depression, anxiety, comorbidity, prevalence, meta-analysis, psychiatric-comorbidity]
+platform: wikibiome
 ---
 
 # Prevalence of Depression and Anxiety in Multiple Sclerosis: A Systematic Review and Meta-analysis

@@ -1,10 +1,12 @@
 ---
+
 title: Atherosclerosis
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [herrema-2020-microbiome-cardiovascular-disease-ascvd, luqman-2024-intestinal-microbiome-cvd-intervention, wei-2025-gut-mycobiome-cardiometabolic-disease]
 tags: [atherosclerosis, ASCVD, cardiovascular-disease, TMAO, foam-cells, plaque, oral-microbiome, gut-microbiome, heavy-metals, inflammation]
+platform: wikibiome
 ---
 
 # Atherosclerosis
@@ -15,18 +17,18 @@ Progressive inflammatory disease of the arterial wall characterized by lipid acc
 
 ### TMAO and Foam Cell Formation
 - Gut bacteria convert dietary choline, phosphatidylcholine, and L-carnitine to trimethylamine (TMA) via cutC/cutD genes.
-- Hepatic FMO3 oxidizes TMA to [[tmao]], which promotes cholesterol deposition in macrophages, creating foam cells -- the hallmark of early plaque [[[luqman-2024-intestinal-microbiome-cvd-intervention]]].
+- Hepatic FMO3 oxidizes TMA to [[tmao]], which promotes cholesterol deposition in macrophages, creating foam cells -- the hallmark of early plaque [[luqman-2024-intestinal-microbiome-cvd-intervention]].
 - TMAO also enhances platelet hyperreactivity and thrombosis risk.
 
 ### Bacteria in Atherosclerotic Plaques
-- Oral bacteria translocate to arterial plaques: [[porphyromonas]] gingivalis, Fusobacterium nucleatum, Aggregatibacter actinomycetemcomitans, and oral Streptococcus spp. have been detected in atherosclerotic tissue [[[herrema-2020-microbiome-cardiovascular-disease-ascvd]]].
+- Oral bacteria translocate to arterial plaques: [[porphyromonas]] gingivalis, Fusobacterium nucleatum, Aggregatibacter actinomycetemcomitans, and oral Streptococcus spp. have been detected in atherosclerotic tissue [[herrema-2020-microbiome-cardiovascular-disease-ascvd]].
 - Periodontitis is an independent risk factor for ASCVD; the CANTOS trial confirmed the central role of IL-1-beta-driven inflammation.
 - FMT from atherosclerotic mice induces atherosclerosis in recipients, demonstrating causal microbial contribution.
 
 ### Gut Dysbiosis in ASCVD
 - ASCVD patients show decreased Bacteroidetes (Bacteroides, Prevotella) and enrichment of Enterobacteriaceae.
 - Reduced SCFA production impairs anti-inflammatory Treg responses and gut barrier integrity.
-- Fungal dysbiosis: *Candida albicans*, *Exophiala*, *Malassezia* enriched in coronary artery disease; *Mucor racemosus* depleted [[[wei-2025-gut-mycobiome-cardiometabolic-disease]]].
+- Fungal dysbiosis: *Candida albicans*, *Exophiala*, *Malassezia* enriched in coronary artery disease; *Mucor racemosus* depleted [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
 
 ## Metal Contributions to Atherosclerosis
 

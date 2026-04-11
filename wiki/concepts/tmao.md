@@ -1,10 +1,12 @@
 ---
+
 title: Trimethylamine N-Oxide (TMAO)
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhen-2023-tmao-cardiovascular-diseases-review, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome, herrema-2020-microbiome-cardiovascular-disease-ascvd, mansuri-2022-gut-microbiome-cardiovascular-events-systematic-review, gao-2020-gut-microbial-biomarkers-acs-post-stemi, khatoon-2023-gut-microbiota-neurodegenerative]
 tags: [TMAO, trimethylamine, FMO3, choline, carnitine, betaine, atherosclerosis, CVD, platelet-hyperreactivity, endothelial-dysfunction, gut-microbiome-metabolite]
+platform: wikibiome
 ---
 
 # Trimethylamine N-Oxide (TMAO)
@@ -23,23 +25,23 @@ Gut bacteria metabolize dietary precursors to trimethylamine (TMA) using specifi
 - **Choline**: eggs, fish, seafood, liver, dairy products.
 - **Phosphatidylcholine (lecithin)**: eggs, dairy, meat.
 - **L-carnitine**: red meat, fish.
-- **Betaine**: shellfish, beets, spinach [[[zhen-2023-tmao-cardiovascular-diseases-review]]].
+- **Betaine**: shellfish, beets, spinach [[zhen-2023-tmao-cardiovascular-diseases-review]].
 
 ### Step 2: Hepatic Oxidation
-TMA is absorbed from the gut into portal circulation and transported to the liver, where flavin monooxygenase 3 (FMO3) oxidizes it to TMAO. FMO3 has the highest activity of all FMOs for this reaction. Males have lower FMO3 expression than females, producing sex-specific TMAO level differences. Over 90% of TMAO is excreted in urine, giving it a high turnover rate [[[zhen-2023-tmao-cardiovascular-diseases-review]]].
+TMA is absorbed from the gut into portal circulation and transported to the liver, where flavin monooxygenase 3 (FMO3) oxidizes it to TMAO. FMO3 has the highest activity of all FMOs for this reaction. Males have lower FMO3 expression than females, producing sex-specific TMAO level differences. Over 90% of TMAO is excreted in urine, giving it a high turnover rate [[zhen-2023-tmao-cardiovascular-diseases-review]].
 
 ## Mechanisms of Cardiovascular Harm
 
 ### Atherosclerosis Promotion
 - Inhibits reverse cholesterol transport (RCT) by downregulating the ABCG5/ABCG8 heterodimer.
 - Upregulates scavenger receptors CD36 and SR-A1 on macrophages, increasing cholesterol uptake and foam cell formation.
-- Activates [[nf-kappa-b]], increasing TNF-alpha, IL-6, and suppressing anti-inflammatory IL-10 [[[zhen-2023-tmao-cardiovascular-diseases-review]]].
+- Activates [[nf-kappa-b]], increasing TNF-alpha, IL-6, and suppressing anti-inflammatory IL-10 [[zhen-2023-tmao-cardiovascular-diseases-review]].
 - Activates NLRP3 inflammasome via TXNIP (thioredoxin-interacting protein).
 
 ### Endothelial Dysfunction
 - Activates HMGB1/TLR4 signaling, destroying tight junction proteins (ZO-2, occludin, VE-cadherin).
 - Increases endothelial permeability, allowing LDL oxidation in the intima.
-- Activates PKC/NF-kB, upregulating VCAM-1 and ICAM-1 adhesion molecules [[[zhen-2023-tmao-cardiovascular-diseases-review]]].
+- Activates PKC/NF-kB, upregulating VCAM-1 and ICAM-1 adhesion molecules [[zhen-2023-tmao-cardiovascular-diseases-review]].
 
 ### Platelet Hyperreactivity and Thrombosis
 - Enhances platelet activation through Ca2+ release from intracellular stores.
@@ -48,7 +50,7 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 ### Heart Failure
 - Accelerates myocardial hypertrophy via TGF-beta1/Smad3 signaling.
 - Exacerbates mitochondrial dysfunction in cardiomyocytes.
-- Plasma TMAO positively associated with HF risk and severity [[[zhen-2023-tmao-cardiovascular-diseases-review]]].
+- Plasma TMAO positively associated with HF risk and severity [[zhen-2023-tmao-cardiovascular-diseases-review]].
 
 ### Hypertension
 - Prolonged TMAO elevation activates pro-inflammatory vascular remodeling pathways.
@@ -56,14 +58,14 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 
 ## TMAO Beyond CVD
 
-- **Alzheimer's disease**: TMAO traverses the blood-brain barrier; elevated in CSF of cognitively impaired AD patients. May promote [[neuroinflammation]] and amyloid-beta aggregation [[[khatoon-2023-gut-microbiota-neurodegenerative]]].
+- **Alzheimer's disease**: TMAO traverses the blood-brain barrier; elevated in CSF of cognitively impaired AD patients. May promote [[neuroinflammation]] and amyloid-beta aggregation [[khatoon-2023-gut-microbiota-neurodegenerative]].
 - **Chronic kidney disease**: Impaired renal clearance elevates TMAO; creates a feed-forward loop with CKD progression.
-- **IBD-CVD comorbidity**: TMAO links gut [[dysbiosis]] in [[inflammatory-bowel-disease]] to increased cardiovascular risk [[[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]]].
+- **IBD-CVD comorbidity**: TMAO links gut [[dysbiosis]] in [[inflammatory-bowel-disease]] to increased cardiovascular risk [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]].
 
 ## Metal Connections
 
 - Metal-induced [[dysbiosis]] enriches TMA-producing Gammaproteobacteria (Enterobacteriaceae) while depleting protective SCFA producers, potentially shifting the metabolite balance toward TMAO.
-- [[Hungatella]] hathewayi, a major TMA producer, is metal-tolerant and enriched in dysbiotic states.
+- [[hungatella]] hathewayi, a major TMA producer, is metal-tolerant and enriched in dysbiotic states.
 - TMAO and [[short-chain-fatty-acids]] represent opposing arms of microbiome metabolite output: metals push the balance from protective SCFAs toward harmful TMAO.
 
 ## Therapeutic Targets
@@ -72,6 +74,14 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 - **Dietary modification**: Reducing red meat/egg intake lowers TMAO; Mediterranean diet associated with lower TMAO.
 - **Resveratrol**: Remodels gut microbiota to reduce TMA-producing taxa.
 - **FMT**: Potential to restore SCFA/TMAO balance by reintroducing beneficial communities.
+
+
+## Key Sources
+
+- [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]]
+- [[herrema-2020-microbiome-cardiovascular-disease-ascvd]]
+- [[mansuri-2022-gut-microbiome-cardiovascular-events-systematic-review]]
+- [[gao-2020-gut-microbial-biomarkers-acs-post-stemi]]
 
 ## Connections
 

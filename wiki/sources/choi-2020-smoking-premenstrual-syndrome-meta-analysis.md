@@ -1,4 +1,5 @@
 ---
+
 title: "Association Between Smoking and Premenstrual Syndrome: A Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Psychiatry
 year: 2020
 tags: [smoking, premenstrual-syndrome, PMS, PMDD, meta-analysis, nicotine, HPA-axis, tobacco, menstrual-disorders]
 doi: "10.3389/fpsyt.2020.575526"
+platform: wikibiome
 ---
 
 # Key Claims

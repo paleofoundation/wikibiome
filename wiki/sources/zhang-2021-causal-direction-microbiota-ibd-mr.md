@@ -1,4 +1,5 @@
 ---
+
 title: "Assessment of Causal Direction Between Gut Microbiota and Inflammatory Bowel Disease: A Mendelian Randomization Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Genetics
 year: 2021
 tags: [crohns-disease, IBD, ulcerative-colitis, Mendelian-randomization, Verrucomicrobiaceae, Akkermansia, Dorea, causal-inference, gut-microbiome, dysbiosis]
 doi: "10.3389/fgene.2021.631061"
+platform: wikibiome
 ---
 
 # Key Claims

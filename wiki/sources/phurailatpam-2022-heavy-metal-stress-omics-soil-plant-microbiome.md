@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy metal stress alleviation through omics analysis of soil and plant microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Sustainable Food Systems
 year: 2022
 tags: [heavy-metals, metagenomics, metatranscriptomics, metaproteomics, metabolomics, bioremediation, plant-microbiome, soil-microbiome, resistome]
 doi: "10.3389/fsufs.2021.817932"
+platform: wikibiome
 ---
 
 # Key Claims

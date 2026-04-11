@@ -1,4 +1,5 @@
 ---
+
 title: "Increased inflammation in rheumatoid arthritis patients living where farm soils contain high levels of copper"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Journal of the Formosan Medical Association"
 year: 2016
 tags: [copper, nickel, rheumatoid-arthritis, soil-pollution, inflammation, ESR, Taiwan, environmental-exposure]
 doi: "10.1016/j.neuro.2023.04.013"
+platform: wikibiome
 ---
 
 # Key Claims

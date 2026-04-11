@@ -1,10 +1,12 @@
 ---
+
 title: Heavy Metals
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]
 tags: [heavy-metals, toxic-metals, essential-metals, metal-toxicity, ROS, oxidative-stress, gut-microbiome, environmental-exposure]
+platform: wikibiome
 ---
 
 # Heavy Metals
@@ -30,18 +32,18 @@ An umbrella term for metallic elements with relatively high density (conventiona
 
 ## Shared Toxicity Mechanisms
 
-Despite differing target organs and binding preferences, toxic heavy metals converge on common pathways [[[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]]:
+Despite differing target organs and binding preferences, toxic heavy metals converge on common pathways [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]:
 
 1. **ROS generation and [[oxidative-stress]]**: Depletion of GSH, SOD, CAT, GPx; lipid peroxidation.
 2. **Sulfhydryl group binding**: Inactivation of enzymes dependent on -SH groups.
 3. **[[DNA-damage]]**: Strand breaks, 8-OHdG adducts, genomic instability.
-4. **[[dysbiosis]]**: Selective killing of SCFA-producing commensals; enrichment of metal-tolerant pathobionts; barrier breakdown increasing further metal absorption [[[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]].
+4. **[[dysbiosis]]**: Selective killing of SCFA-producing commensals; enrichment of metal-tolerant pathobionts; barrier breakdown increasing further metal absorption [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 5. **[[inflammation]]**: Proinflammatory cytokine induction (TNF-alpha, IL-6, IL-8); [[nf-kappa-b]] activation.
 6. **[[mis-metallation]]**: Displacement of essential metals from enzyme active sites (e.g., Cd replacing Zn, Pb replacing Ca).
 
 ## The Gut as Primary Exposure Site
 
-Approximately 60% of ingested heavy metals are absorbed in the intestine, making the gut the first point of contact for dietary metal exposure [[[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]]. The [[gut-metal-microbiome]] axis describes the bidirectional relationship: metals reshape microbial communities, and those communities in turn modulate metal absorption, speciation, and toxicity.
+Approximately 60% of ingested heavy metals are absorbed in the intestine, making the gut the first point of contact for dietary metal exposure [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]. The [[gut-metal-microbiome]] axis describes the bidirectional relationship: metals reshape microbial communities, and those communities in turn modulate metal absorption, speciation, and toxicity.
 
 ## See Also
 
@@ -50,3 +52,7 @@ Approximately 60% of ingested heavy metals are absorbed in the intestine, making
 - [[gut-metal-microbiome]] -- the metal-microbiome interface
 - [[nutritional-immunity]] -- host metal-withholding defense
 - [[metal-homeostasis]] -- regulation of metal levels in health
+
+## Key Sources
+
+- [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]

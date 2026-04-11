@@ -1,4 +1,5 @@
 ---
+
 title: "Transferrin"
 type: concept
 created: 2026-04-10
@@ -6,6 +7,7 @@ updated: 2026-04-10
 sources: []
 tags: [nutritional-immunity, iron-biology, host-defense, serum-markers]
 karen_brain_primitive: "Primitive 2: Nutritional Immunity as Interpretive Constraint"
+platform: wikibiome
 ---
 
 ## Overview
@@ -30,10 +32,10 @@ The concentration of **transferrin saturation** (serum iron ÷ total iron-bindin
 
 **Elevated serum transferrin** occurs in:
 
-- [[Crohns-disease]]: Nutritional immunity response to [[Adherent-invasive-E-coli|AIEC]] and other iron-dependent pathogens
-- [[Colorectal-cancer]]: Inflammation-driven iron sequestration; tumor microenvironment hypoxia increases transferrin gene expression
-- [[Obesity]]: Chronic systemic inflammation triggers hepatic transferrin production
-- [[Endometriosis]]: Peritoneal inflammation; local iron sequestration in lesions
+- [[crohns-disease]]: Nutritional immunity response to [[adherent-invasive-e-coli|AIEC]] and other iron-dependent pathogens
+- [[colorectal-cancer]]: Inflammation-driven iron sequestration; tumor microenvironment hypoxia increases transferrin gene expression
+- [[obesity]]: Chronic systemic inflammation triggers hepatic transferrin production
+- [[endometriosis]]: Peritoneal inflammation; local iron sequestration in lesions
 - **Infection generally**: Acute-phase response to bacterial and fungal pathogens
 - **Anemia of chronic disease**: Iron is locked in transferrin but unavailable for erythropoiesis (functional anemia)
 
@@ -43,21 +45,21 @@ The concentration of **transferrin saturation** (serum iron ÷ total iron-bindin
 
 Transferrin is the primary delivery vehicle for iron (Fe³⁺) and also binds **copper** and other metals with lower affinity. In metallomics:
 
-- **Iron compartmentalization**: Transferrin controls iron flux; [[Hepcidin|hepcidin]] regulates transferrin-iron internalization by targeting [[ferroportin]]
-- **Iron-dependent pathogens**: [[Escherichia-coli|E. coli]], [[Helicobacter-pylori|H. pylori]], [[Bacteroides-fragilis|B. fragilis]], [[Candida-albicans|C. albicans]] all require ferric iron; transferrin sequestration blocks them
+- **Iron compartmentalization**: Transferrin controls iron flux; [[hepcidin|hepcidin]] regulates transferrin-iron internalization by targeting [[ferroportin]]
+- **Iron-dependent pathogens**: [[escherichia-coli|E. coli]], [[helicobacter-pylori|H. pylori]], [[bacteroides-fragilis|B. fragilis]], [[candida-albicans|C. albicans]] all require ferric iron; transferrin sequestration blocks them
 - **Interlinking with [[lactoferrin]]**: Both are iron-chelators; different anatomical compartments (transferrin = serum, lactoferrin = mucosal secretions)
 
 ## Connections
 
 **Related proteins:**
-- [[Lactoferrin]] — mucosal iron defense; higher affinity for Fe³⁺ than transferrin
-- [[Hepcidin]] — regulates iron absorption and recycling; increases transferrin synthesis during infection
-- [[Ferroportin]] — iron exporter; hepcidin blocks it, driving iron intracellular sequestration
+- [[lactoferrin]] — mucosal iron defense; higher affinity for Fe³⁺ than transferrin
+- [[hepcidin]] — regulates iron absorption and recycling; increases transferrin synthesis during infection
+- [[ferroportin]] — iron exporter; hepcidin blocks it, driving iron intracellular sequestration
 
 **Related concepts:**
-- [[Nutritional-immunity]] — host defense via metal sequestration
-- [[Siderophore]] — bacterial iron-scavenging molecules competing with transferrin
-- [[Crohns-disease]], [[colorectal-cancer]], [[obesity]] — conditions with elevated transferrin
+- [[nutritional-immunity]] — host defense via metal sequestration
+- [[siderophores|siderophore]] — bacterial iron-scavenging molecules competing with transferrin
+- [[crohns-disease]], [[colorectal-cancer]], [[obesity]] — conditions with elevated transferrin
 
 **Metal entities:**
-- [[Iron]] — the substrate; iron overload vs. iron sequestration distinction is clinically critical
+- [[iron]] — the substrate; iron overload vs. iron sequestration distinction is clinically critical

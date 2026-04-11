@@ -1,4 +1,5 @@
 ---
+
 title: "Probiotics and Polycystic Ovary Syndrome: A Perspective for Management in Adolescents with Obesity"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrients
 year: 2023
 tags: [PCOS, probiotics, adolescents, obesity, gut-microbiota, dysbiosis, narrative-review, microbiome]
 doi: "10.3390/nu15143144"
+platform: wikibiome
 ---
 
 # Key Claims

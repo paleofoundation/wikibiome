@@ -1,4 +1,5 @@
 ---
+
 title: "Efficacy of the Autoimmune Protocol Diet as Part of a Multi-disciplinary, Supported Lifestyle Intervention for Hashimoto's Thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Cureus
 year: 2019
 doi: "10.7759/cureus.4556"
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, autoimmune-protocol-diet, paleo-diet, quality-of-life, lifestyle-intervention, hs-CRP, inflammation, fermented-foods, dietary-fiber, elimination-diet, intestinal-permeability, gut-microbiome]
+platform: wikibiome
 ---
 
 # Efficacy of the Autoimmune Protocol Diet as Part of a Multi-disciplinary, Supported Lifestyle Intervention for Hashimoto's Thyroiditis

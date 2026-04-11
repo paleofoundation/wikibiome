@@ -1,4 +1,5 @@
 ---
+
 title: "Probiotic Bifidobacterium longum Supplied with Methimazole Improved the Thyroid Function of Graves' Disease Patients Through the Gut-Thyroid Axis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Communications Biology
 year: 2021
 doi: "10.1038/s42003-021-02587-z"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, probiotics, Bifidobacterium-longum, methimazole, shotgun-metagenomics, TRAb, gut-brain-axis, SCFAs, trace-elements]
+platform: wikibiome
 ---
 
 # Probiotic Bifidobacterium longum Supplied with Methimazole Improved the Thyroid Function of Graves' Disease Patients Through the Gut-Thyroid Axis

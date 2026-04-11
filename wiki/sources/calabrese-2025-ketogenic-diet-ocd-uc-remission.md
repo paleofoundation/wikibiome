@@ -1,4 +1,5 @@
 ---
+
 title: "Remission of OCD and Ulcerative Colitis with a Ketogenic Diet: Case Report"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Psychiatry
 year: 2025
 tags: [crohns-disease, IBD, ulcerative-colitis, ketogenic-diet, OCD, gut-brain-axis, inflammation, NLRP3-inflammasome, beta-hydroxybutyrate, case-report]
 doi: "10.3389/fpsyt.2025.1541414"
+platform: wikibiome
 ---
 
 # Key Claims

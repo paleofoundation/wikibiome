@@ -1,4 +1,5 @@
 ---
+
 title: "Fecal Microbiota Transplantation Inhibits Colorectal Cancer Progression: Reversing Intestinal Microbial Dysbiosis to Enhance Anti-Cancer Immune Responses"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Hao Yu, Xing-Xiu Li, Xing Han, Bin-Xin Chen, Xing-Hua Zhang, Shan Gao,
 journal: Frontiers in Microbiology
 year: 2023
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colorectal-cancer, immune-response, NK-cells, Treg-cells, cytokines, dysbiosis, 16S-rRNA, mouse-model]
+platform: wikibiome
 ---
 
 # Key Claims

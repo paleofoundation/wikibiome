@@ -1,4 +1,5 @@
 ---
+
 title: "Exposure to arsenic alters the microbiome of larval zebrafish"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2018
 tags: [arsenic, zebrafish, microbiome, dysbiosis, integrons, antimicrobial-resistance, heavy-metals, 16S-rRNA]
 doi: "10.3389/fmicb.2018.01323"
+platform: wikibiome
 ---
 
 # Key Claims

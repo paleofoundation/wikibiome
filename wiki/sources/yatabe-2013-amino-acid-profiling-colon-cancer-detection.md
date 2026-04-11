@@ -1,4 +1,5 @@
 ---
+
 title: "Early Detection of Colon Cancer by Amino Acid Profiling Using AminoIndex Technology: A Case Report"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Junichi Yatabe, Midori Sasaki Yatabe, Katsuyuki Ishibashi, Yoshihiro N
 journal: Diagnostic Pathology
 year: 2013
 tags: [colon-cancer, amino-acids, biomarkers, AminoIndex, early-detection, screening, colorectal-cancer, metabolomics]
+platform: wikibiome
 ---
 
 # Key Claims

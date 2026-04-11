@@ -1,4 +1,5 @@
 ---
+
 title: "The Role of the Gut Microbiota in Health and Cardiovascular Diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s43556-022-00091-2"
 tags: [cardiovascular-disease, gut-microbiota, TMAO, SCFAs, bile-acids, BCAAs, indoles, dysbiosis, gut-barrier, NF-kB, NLRP3, TLR, metabolic-pathways, immune-response, microbiome-review, microbiome-and-immune-system, viral-microbiota]
 source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease microbiome/s43556-022-00091-2.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

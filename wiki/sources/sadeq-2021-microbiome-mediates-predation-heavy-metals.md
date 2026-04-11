@@ -1,4 +1,5 @@
 ---
+
 title: "The microbiome mediates the interaction between predation and heavy metals"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Science of The Total Environment
 year: 2021
 tags: [microbiome, predation-risk, copper, Daphnia-pulex, multiple-stressors, antibiotics, gut-microbiota, aquatic-ecotoxicology, causal-mechanisms]
 doi: "10.1016/j.scitotenv.2021.145144"
+platform: wikibiome
 ---
 
 # Key Claims

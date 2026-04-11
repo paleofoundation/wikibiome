@@ -1,10 +1,12 @@
 ---
+
 title: Copper
 type: entity
 created: 2026-04-09
 updated: 2026-04-09
 sources: [briffa-2020-heavy-metal-pollution-environment-toxicology.md, jiang-2021-copper-pcos-meta-analysis.md, liu-2024-copper-pcos-ivf.md, yang-2016-copper-farm-soils-rheumatoid-arthritis.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, lim-2023-plasma-metallomics-ami.md, khan-2014-metals-type2-diabetes.md, zhang-2022-metallomics-cancer-review.md, smovrsnik-2025-trace-elements-pcos.md, ali-2024-heavy-metals-breast-cancer-review.md, liu-2022-heavy-metals-breast-cancer-meta-analysis.md, arshad-2023-heavy-metals-rheumatoid-arthritis.md, scholefield-2024-brain-metallomics-dementia.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, schilling-2020-urine-metallomics-pancreatic-cancer.md, saleh-2020-serum-trace-elements-prostate-cancer.md, amerikanou-2022-ibd-biomarkers-trace-metals.md, xie-2025-urinary-metals-trace-elements-kidney-function.md, kirmizi-2020-heavy-metals-pcos.md, blazewicz-2023-metal-profiles-asd.md, niehoff-2021-metals-breast-cancer-toenail.md, sabath-2012-renal-health-heavy-metal-nephrotoxicity.md]
 tags: [essential-element, dual-nature, oxidative-stress, cuproplasia, metalloestrogen, cancer-biomarker, inflammation]
+platform: wikibiome
 ---
 
 # Copper (Cu)

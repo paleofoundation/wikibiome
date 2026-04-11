@@ -1,4 +1,5 @@
 ---
+
 title: "STOP: SCFA Supplementation Without Clostridial Restoration in Multiple Sclerosis"
 type: stop
 created: 2026-04-10
@@ -11,7 +12,8 @@ intervention: "Short-chain fatty acid (butyrate, propionate, acetate) supplement
 conventional_rationale: "MS patients show 77% reduction in fecal butyrate and 72% reduction in acetate. Direct supplementation of these metabolites should restore their immunomodulatory function and improve disease"
 why_counterproductive: "SCFA supplementation is a metabolic band-aid that bypasses the ecological root cause: Clostridia depletion driven by metal-enriched dysbiosis. Exogenous SCFA alone restores Treg induction (I→D pathway) but does NOT restore the depleted bacterial taxa that should produce SCFA endogenously (f portion). Without Clostridial restoration, dysbiosis persists, pro-inflammatory bacterial LPS remains elevated, and the underlying metal-microbiome dysfunction is unaddressed. Clinical benefit is temporary and incomplete. Dysbiosis reversal + SCFA restoration is superior to SCFA replacement alone"
 evidence: [becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility, bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]
-alternative: "Combine SCFA supplementation WITH dysbiosis-reversal interventions: [[ketogenic-diet-ms]] to restore Clostridial SCFA producers, or [[b-cell-depletion-therapy-ms]] to reduce inflammatory selection pressure against dysbiosis-depleted taxa; also address secondary bile acid depletion with [[TUDCA]] supplementation"
+alternative: "Combine SCFA supplementation WITH dysbiosis-reversal interventions: [[ketogenic-diet-ms]] to restore Clostridial SCFA producers, or [[b-cell-depletion-therapy-ms]] to reduce inflammatory selection pressure against dysbiosis-depleted taxa; also address secondary bile acid depletion with [[tudca]] supplementation"
+platform: cureva
 ---
 
 ## Conventional Rationale
@@ -112,14 +114,14 @@ This demonstrates that **restoring the ecological source (Clostridia) is superio
 
 **Choose one of the two proven dysbiosis-reversal approaches:**
 
-1. **[[Ketogenic-diet-ms]]**
+1. **[[ketogenic-diet-ms]]**
    - Restores Clostridia-containing Firmicutes; documented bacterial recovery in 6-month trial
    - Mechanism: Reduced carbohydrate substrate selects for SCFA-producing bacteria; biphasic recovery with peak at 23-24 weeks
    - Advantage: Dietary; no pharmaceutical adverse effects
    - Timeline: 6 months for full recovery
    - Combined with SCFA supplementation: May accelerate recovery during the 2-12 week suppression phase
 
-2. **[[B-cell-depletion-therapy-ms]]**
+2. **[[b-cell-depletion-therapy-ms]]**
    - Reverses dysbiosis by reducing pro-inflammatory B-cell cytokine environment
    - Mechanism: Reduced IL-6/TNF-α/IL-23 selection pressure allows Clostridia and SCFA producers to re-establish
    - Advantage: Pharmaceutical; proven clinical efficacy

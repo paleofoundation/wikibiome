@@ -1,4 +1,5 @@
 ---
+
 title: "Contributions of heavy metal exposure to late-onset Alzheimer's disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: (Behavioural Brain Research / related journal)
 year: 2025
 tags: [heavy-metals, late-onset-Alzheimers, LOAD, environmental-exposure, lead, arsenic, cadmium, mercury, epigenetics, therapeutic-approaches]
 doi: "10.1002/alz.71075"
+platform: wikibiome
 ---
 
 # Key Claims

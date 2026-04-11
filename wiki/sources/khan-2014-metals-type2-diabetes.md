@@ -1,4 +1,5 @@
 ---
+
 title: "Metals in the pathogenesis of type 2 diabetes"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Abdul Rehman Khan, Fazli Rabbi Awan]
 journal: Journal of Diabetes and Metabolic Disorders
 year: 2014
 tags: [diabetes, essential-metals, toxic-metals, zinc, chromium, iron, copper, manganese, nickel, cadmium, arsenic, lead, metabolic-syndrome, oxidative-stress]
-doi: "10.31083/IJVNR46454"
+doi: "10.1186/2251-6581-13-16"
+platform: wikibiome
 ---
 
 # Key Claims

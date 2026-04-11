@@ -1,4 +1,5 @@
 ---
+
 title: "Possible Role of the Gut Microbiota-Brain Axis in the Antidepressant Effects of (R)-Ketamine in a Social Defeat Stress Model"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Translational Psychiatry
 year: 2017
 doi: "10.1038/s41398-017-0031-4"
 tags: [hashimotos-thyroiditis, thyroid, gut-brain-axis, antidepressants, ketamine, gut-microbiome, depression, Tenericutes, Deltaproteobacteria, Mollicutes, Butyricimonas, 16S-rRNA, social-defeat-stress]
+platform: wikibiome
 ---
 
 # Possible Role of the Gut Microbiota-Brain Axis in the Antidepressant Effects of (R)-Ketamine in a Social Defeat Stress Model

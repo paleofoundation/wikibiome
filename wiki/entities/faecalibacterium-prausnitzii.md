@@ -1,4 +1,5 @@
 ---
+
 title: Faecalibacterium prausnitzii
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [coryell-2018-gut-microbiome-arsenic-toxicity-protection, duan-2020-gut
 metal_dependencies: [indirect -- iron-sulfur cluster enzymes for butyrate production]
 key_enzymes: [butyryl-CoA dehydrogenase, butyrate kinase]
 tags: [commensal, next-generation-probiotic, butyrate-producer, anti-inflammatory, depleted-in-disease, arsenic-protection]
+platform: wikibiome
 ---
 
 # Faecalibacterium prausnitzii
@@ -27,16 +29,16 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 
 ### Arsenic
 
-- The landmark Coryell et al. (2018) study demonstrated that *F. prausnitzii* is **sufficient for at least partial protection against acute arsenic toxicity** [[[coryell-2018-gut-microbiome-arsenic-toxicity-protection]]].
+- The landmark Coryell et al. (2018) study demonstrated that *F. prausnitzii* is **sufficient for at least partial protection against acute arsenic toxicity** [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]].
 - Germ-free mice mono-associated with *E. coli* alone died rapidly from arsenic exposure; bi-colonization with *E. coli + F. prausnitzii* significantly extended survival.
 - *F. prausnitzii* abundance was consistently associated with survival across human stool transplant experiments.
 - The gut microbiome is required for full arsenic protection; antibiotic-treated mice accumulate more arsenic in organs and excrete less in feces.
 
 ### Cadmium and Lead
 
-- Depleted by cadmium and lead exposure in multiple mouse models [[[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]].
+- Depleted by cadmium and lead exposure in multiple mouse models [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 - Its loss under Cd/Pb exposure reduces butyrate production, compromising barrier integrity and increasing systemic metal absorption -- a vicious cycle.
-- Classified as a **next-generation probiotic** for metal detoxification alongside [[akkermansia-muciniphila]] [[[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]].
+- Classified as a **next-generation probiotic** for metal detoxification alongside [[akkermansia-muciniphila]] [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 
 ### Mechanism
 
@@ -47,15 +49,21 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 *F. prausnitzii* depletion is among the most reproducible microbiome findings in disease:
 
 - **IBD (Crohn's disease)**: dramatically reduced; inversely correlated with disease severity and relapse risk. The strongest single-organism biomarker for Crohn's remission.
-- **Multiple sclerosis**: decreased in MS patients; negatively associated with TNF-alpha levels [[[bronzini-2023-feeding-gut-microbiome-ms]]].
-- **Parkinson's disease**: reduced abundance linked to decreased butyrate and increased gut permeability, potentially facilitating alpha-synuclein propagation via the [[gut-brain-axis]] [[[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]].
+- **Multiple sclerosis**: decreased in MS patients; negatively associated with TNF-alpha levels [[bronzini-2023-feeding-gut-microbiome-ms]].
+- **Parkinson's disease**: reduced abundance linked to decreased butyrate and increased gut permeability, potentially facilitating alpha-synuclein propagation via the [[gut-brain-axis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - **Chronic kidney disease**: depleted, contributing to uremic toxin accumulation.
-- **Obesity**: inversely correlated with BMI and metabolic inflammation [[[pendergrass-2026-heavy-metals-obesity-epidemic]]].
+- **Obesity**: inversely correlated with BMI and metabolic inflammation [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - **Colorectal cancer**: reduced; butyrate loss may diminish anti-tumorigenic HDAC inhibition.
 
 ## The Metal-Dysbiosis-Disease Cycle
 
 *F. prausnitzii* sits at the center of a recurring pattern across this wiki's disease pages: environmental metal exposure (As, Cd, Pb, Ni) depletes *F. prausnitzii* and other SCFA producers, reducing butyrate, compromising barrier integrity, increasing systemic metal absorption, and driving the chronic inflammation that underlies diverse diseases. Restoring *F. prausnitzii* through probiotic supplementation or dietary intervention is a logical intervention point in this cycle.
+
+
+## Key Sources
+
+- [[ghosh-2023-heavy-metals-gut-barrier-integrity]]
+- [[zhu-2024-toxic-essential-metals-gut-microbiota]]
 
 ## Connections
 

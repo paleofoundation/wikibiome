@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiome Versus Thyroid Cancer: Association and Clinical Implications (Review)"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Oncology Letters
 year: 2025
 doi: "10.3892/ol.2025.15114"
 tags: [hashimotos-thyroiditis, thyroid, thyroid-cancer, gut-microbiota, SCFAs, bile-acids, probiotics, Clostridium, Streptococcus, Lactobacillus, Prevotella, Ruminococcaceae, iodine, selenium, iron, estrogen, obesity, insulin-resistance, Mendelian-randomization, RAI, FMT, gut-thyroid-axis, keto-diet]
+platform: wikibiome
 ---
 
 # Gut Microbiome Versus Thyroid Cancer: Association and Clinical Implications (Review)

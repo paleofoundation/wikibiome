@@ -1,4 +1,5 @@
 ---
+
 title: "Toxic Mechanism of Nickel Exposure on Cardiac Tissue"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Toxic Substance Mechanisms
 year: 2000
 volume: "19:177-187"
 tags: [nickel, cardiac-toxicity, oxidative-stress, vitamin-E, tocopherol, lipid-peroxidation, SOD, GSH-Px, superoxide-radical, cholesterol, LDH, ALT, rat-model, cardiovascular-disease, foundational-paper]
+platform: wikibiome
 ---
 
 # Toxic Mechanism of Nickel Exposure on Cardiac Tissue

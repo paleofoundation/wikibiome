@@ -1,4 +1,5 @@
 ---
+
 title: "Cadmium Exposure Induces Changes in Gut Microbial Composition and Metabolic Function in Long-Tailed Dwarf Hamsters, Cricetulus longicaudatus"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Mengfan Tao, Kanglin Cao, Xinsheng Pu, Yu Hou, Lei He, Wei Liu, Yue Re
 journal: Ecology and Evolution
 year: 2024
 tags: [cadmium, gut-microbiota, wild-rodents, 16S-rRNA, metagenomics, dose-response, Cricetulus-longicaudatus, pathogenic-bacteria, metabolic-function, original-research]
-doi: "10.1007/s00381-022-05687-1"
+doi: "10.1002/ece3.11428"
+platform: wikibiome
 ---
 
 # Key Claims

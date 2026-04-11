@@ -1,4 +1,5 @@
 ---
+
 title: "Metataxonomic and Metabolic Impact of Fecal Microbiota Transplantation From Patients With Pancreatic Cancer Into Germ-Free Mice: A Pilot Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2021
 tags: [pancreatic-cancer, FMT, germ-free-mice, fecal-microbiota, body-composition, visceral-fat, cachexia, E-coli, Streptococcus-salivarius, metataxonomics]
 doi: "10.3389/fcimb.2021.752889"
+platform: wikibiome
 ---
 
 # Key Claims

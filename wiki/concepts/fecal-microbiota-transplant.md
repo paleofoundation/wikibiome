@@ -1,10 +1,12 @@
 ---
+
 title: Fecal Microbiota Transplant (FMT)
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [martinelli-2022-gut-oriented-interventions-ms, herrema-2020-microbiome-cardiovascular-disease-ascvd, luqman-2024-intestinal-microbiome-cvd-intervention, zheng-2021-bacterial-aromatic-amino-acids-asd]
 tags: [FMT, fecal-transplant, microbiome-restoration, C-difficile, dysbiosis, clinical-trials, CVD, MS, ASD, IBD]
+platform: wikibiome
 ---
 
 # Fecal Microbiota Transplant (FMT)
@@ -33,16 +35,16 @@ FMT introduces a complex, intact microbial ecosystem including bacteria, archaea
 - Challenge: IBD involves immune dysregulation beyond what microbiome restoration alone can correct.
 
 ### Multiple Sclerosis (Pilot Data)
-- Mouse models: FMT from MS-twin-derived microbiota increased autoimmune incidence; FMT from healthy donors showed protective immunoregulatory activity [[[martinelli-2022-gut-oriented-interventions-ms]]].
+- Mouse models: FMT from MS-twin-derived microbiota increased autoimmune incidence; FMT from healthy donors showed protective immunoregulatory activity [[martinelli-2022-gut-oriented-interventions-ms]].
 - *Sutterella* reduction identified as a key change in MS-associated FMT.
 - Human data remain very limited; larger trials needed.
 
 ### Cardiovascular Disease / Hypertension
-- FMT from atherosclerotic mice induces atherosclerosis in recipient mice, demonstrating causal microbial contribution [[[herrema-2020-microbiome-cardiovascular-disease-ascvd]]].
-- FMT as an innovative therapeutic approach for managing CVD is under active investigation [[[luqman-2024-intestinal-microbiome-cvd-intervention]]].
+- FMT from atherosclerotic mice induces atherosclerosis in recipient mice, demonstrating causal microbial contribution [[herrema-2020-microbiome-cardiovascular-disease-ascvd]].
+- FMT as an innovative therapeutic approach for managing CVD is under active investigation [[luqman-2024-intestinal-microbiome-cvd-intervention]].
 
 ### Autism Spectrum Disorder (Open-Label)
-- Open-label FMT trial in ASD children reduced levels of p-cresol, 4-hydroxyphenylacetate, and indole; modified Prevotella, [[bifidobacterium]], and Desulfovibrio abundances [[[zheng-2021-bacterial-aromatic-amino-acids-asd]]].
+- Open-label FMT trial in ASD children reduced levels of p-cresol, 4-hydroxyphenylacetate, and indole; modified Prevotella, [[bifidobacterium]], and Desulfovibrio abundances [[zheng-2021-bacterial-aromatic-amino-acids-asd]].
 - GI symptoms and behavioral measures improved; effects persisted at 2-year follow-up in extended observations.
 - Controlled trials are needed to confirm efficacy.
 

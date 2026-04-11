@@ -1,4 +1,5 @@
 ---
+
 title: Fusobacterium
 type: entity
 subtype: microbe
@@ -7,22 +8,23 @@ updated: 2026-04-10
 sources: [hanus-2021-immune-microbiota-metabolites-crc-triad, islam-2022-opposing-microbiome-signatures-autoimmune-cancer, appunni-2021-dietary-factors-gut-microbiome-crc, zou-2024-multi-omic-microbiome-genome-transcriptome-crc, song-2025-targeting-tumor-associated-microbiome-editorial]
 metal_dependencies: [iron -- obligate iron requirement for growth; uses FeoB iron transporter]
 tags: [pathobiont, CRC-driver, oral-gut-translocation, iron-dependent, immune-evasion, biofilm-former]
+platform: wikibiome
 ---
 
 # Fusobacterium
 
-A Gram-negative, obligate anaerobic bacterium that has emerged as **the most consistently CRC-associated microorganism** in human gut microbiome studies. *F. nucleatum* is the primary species of concern, originally a commensal of the oral cavity that translocates to colorectal tumors where it promotes tumorigenesis through multiple virulence mechanisms. It was the most frequently cancer-enriched genus across 45 cancer studies in a major meta-analysis [[[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]]].
+A Gram-negative, obligate anaerobic bacterium that has emerged as **the most consistently CRC-associated microorganism** in human gut microbiome studies. *F. nucleatum* is the primary species of concern, originally a commensal of the oral cavity that translocates to colorectal tumors where it promotes tumorigenesis through multiple virulence mechanisms. It was the most frequently cancer-enriched genus across 45 cancer studies in a major meta-analysis [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
 
 ## Mechanisms of Colorectal Carcinogenesis
 
 *F. nucleatum* drives CRC through a convergence of adhesion, immune evasion, and pro-tumorigenic signaling:
 
 ### Adhesion and Invasion
-- **FadA adhesin** binds host E-cadherin on colonocytes, disrupting cell-cell junctions and activating the Wnt/beta-catenin signaling pathway. This promotes uncontrolled epithelial proliferation and is the primary oncogenic mechanism [[[hanus-2021-immune-microbiota-metabolites-crc-triad]]].
+- **FadA adhesin** binds host E-cadherin on colonocytes, disrupting cell-cell junctions and activating the Wnt/beta-catenin signaling pathway. This promotes uncontrolled epithelial proliferation and is the primary oncogenic mechanism [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 - **Fap2 lectin** binds the Gal-GalNAc sugar moiety overexpressed on CRC tumor cells, enabling selective homing to tumor tissue rather than normal mucosa.
 
 ### Immune Evasion
-- Fap2 also binds the **TIGIT inhibitory receptor** on NK cells and T cells, directly suppressing anti-tumor immune surveillance. This represents a microbial immune checkpoint exploitation [[[hanus-2021-immune-microbiota-metabolites-crc-triad]]].
+- Fap2 also binds the **TIGIT inhibitory receptor** on NK cells and T cells, directly suppressing anti-tumor immune surveillance. This represents a microbial immune checkpoint exploitation [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 - LPS-TLR4 interaction activates NF-kB signaling, promoting chronic [[inflammation]] in the tumor microenvironment.
 - Induces autophagy pathways (ULK1/ATG7) in CRC cells, contributing to chemotherapy resistance (5-FU, oxaliplatin).
 
@@ -55,6 +57,13 @@ A Gram-negative, obligate anaerobic bacterium that has emerged as **the most con
 - **Hydrogen sulfide (H2S)** -- produces H2S via cysteine desulfhydrase, contributing to DNA damage and [[oxidative-stress]] in colonocytes.
 - **Formate and butyrate** -- mixed acid fermentation products; butyrate paradoxically fuels CRC cells exhibiting the Warburg effect.
 - **Short-chain fatty acids** -- metabolic cross-feeding with other tumor-associated bacteria sustains the CRC microenvironment.
+
+
+## Key Sources
+
+- [[appunni-2021-dietary-factors-gut-microbiome-crc]]
+- [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]
+- [[song-2025-targeting-tumor-associated-microbiome-editorial]]
 
 ## Connections
 

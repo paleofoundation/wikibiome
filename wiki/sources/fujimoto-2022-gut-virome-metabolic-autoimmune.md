@@ -1,4 +1,5 @@
 ---
+
 title: "Characterization of the Human Gut Virome in Metabolic and Autoimmune Diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.1186/s41232-022-00218-6"
 tags: [cardiovascular-disease, virome, bacteriophages, metabolic-diseases, autoimmune-diseases, NAFLD, T2DM, obesity, phage-therapy, dysbiosis, trans-kingdom-interactions, Crassvirales]
 source_pdf: "raw/cardiovascular disease/Virome cardiovascular disease/s41232-022-00218-6.pdf"
 pages_read: "1-6"
+platform: wikibiome
 ---
 
 # Key Claims

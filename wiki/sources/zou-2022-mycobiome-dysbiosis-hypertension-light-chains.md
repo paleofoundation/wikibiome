@@ -1,4 +1,5 @@
 ---
+
 title: "Gut mycobiome dysbiosis contributes to the development of hypertension and its response to immunoglobulin light chains"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 doi: 10.3389/fimmu.2022.1089295
 tags: [cardiovascular-disease, CVD, mycobiome, fungal-dysbiosis, hypertension, prehypertension, Malassezia, Mortierella, immunoglobulin-light-chains, ITS-sequencing]
+platform: wikibiome
 ---
 
 # Gut Mycobiome Dysbiosis Contributes to the Development of Hypertension and Its Response to Immunoglobulin Light Chains

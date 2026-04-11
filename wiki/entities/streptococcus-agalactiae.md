@@ -1,4 +1,5 @@
 ---
+
 title: "Streptococcus agalactiae"
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ gram_stain: "positive"
 oxygen_requirement: "facultative"
 metal_dependencies: [zinc, manganese, iron]
 key_enzymes: [zinc-metallopeptidase, hyaluronidase, beta-glucuronidase, collagen-peptidase]
+platform: wikibiome
 ---
 
 # Streptococcus agalactiae
@@ -212,27 +214,27 @@ The **mimicry of host hyaluronic acid** is particularly clever: the bacterial GB
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[Zinc]]** – Absolute requirement; metallopeptidases require Zn2+ for activity
-- **[[Manganese]]** – Required for Mn-superoxide dismutase (intracellular survival)
-- **[[Iron]]** – Required for ribonucleotide reductase, cytochromes, heme iron scavenging
-- **[[Hepcidin]]** – Host iron-withholding defense; suppresses GBS (indirectly)
-- **[[Calprotectin]]** – Host zinc-binding antimicrobial protein; zinc-withholding defense; suppresses GBS
-- **[[Lactoferrin]]** – Host iron/zinc-binding protein; competes with GBS for metals
-- **[[Hyaluronidase]]** – GBS virulence factor; tissue-invasive enzyme
-- **[[Metallopeptidase]]** – Multiple GBS zinc-metallopeptidases; immune evasion
-- **[[C5a-peptidase]]** – GBS enzyme; blocks neutrophil recruitment (complement evasion)
-- **[[Beta-glucuronidase]]** – GBS enzyme; deconjugates estrogens; estrogen recirculation
-- **[[Estrobolome]]** – GBS is a key β-glucuronidase producer; drives estrogen recirculation
-- **[[Estrogen-recirculation]]** – GBS-mediated β-glucuronidase activity increases circulating estradiol
-- **[[Endometriosis]]** – Enriched in reproductive tract microbiota; β-glucuronidase drives disease pathogenesis
-- **[[Dysmenorrhea]]** – Associated with GBS enrichment; chronic inflammation + estrogen elevation
-- **[[Pelvic-pain]]** – Elevated in endometriosis with GBS dysbiosis
-- **[[Neonatal-infection]]** – Major pathogen; group B Streptococcus causes sepsis and meningitis in newborns
-- **[[Biofilm]]** – Forms robust biofilms on reproductive and GI epithelium; antiphagocytic
-- **[[Molecular-mimicry]]** – Group B carbohydrate mimics host hyaluronic acid; immune evasion
-- **[[Intracellular-persistence]]** – Invades epithelial cells; survives in vacuoles
-- **[[Gynecologic-dysbiosis]]** – Key pathobiont in dysbiotic reproductive microbiota
-- **[[Dysbiosis]]** – Enriched in dysbiotic gut and reproductive tract
+- **[[zinc]]** – Absolute requirement; metallopeptidases require Zn2+ for activity
+- **[[manganese]]** – Required for Mn-superoxide dismutase (intracellular survival)
+- **[[iron]]** – Required for ribonucleotide reductase, cytochromes, heme iron scavenging
+- **[[hepcidin]]** – Host iron-withholding defense; suppresses GBS (indirectly)
+- **[[calprotectin]]** – Host zinc-binding antimicrobial protein; zinc-withholding defense; suppresses GBS
+- **[[lactoferrin]]** – Host iron/zinc-binding protein; competes with GBS for metals
+- **[[hyaluronidase]]** – GBS virulence factor; tissue-invasive enzyme
+- **[[metallopeptidase]]** – Multiple GBS zinc-metallopeptidases; immune evasion
+- **[[c5a-peptidase]]** – GBS enzyme; blocks neutrophil recruitment (complement evasion)
+- **[[beta-glucuronidase]]** – GBS enzyme; deconjugates estrogens; estrogen recirculation
+- **[[estrobolome]]** – GBS is a key β-glucuronidase producer; drives estrogen recirculation
+- **[[estrogen-recirculation]]** – GBS-mediated β-glucuronidase activity increases circulating estradiol
+- **[[endometriosis]]** – Enriched in reproductive tract microbiota; β-glucuronidase drives disease pathogenesis
+- **[[dysmenorrhea]]** – Associated with GBS enrichment; chronic inflammation + estrogen elevation
+- **[[pelvic-pain]]** – Elevated in endometriosis with GBS dysbiosis
+- **[[neonatal-infection]]** – Major pathogen; group B Streptococcus causes sepsis and meningitis in newborns
+- **[[biofilm]]** – Forms robust biofilms on reproductive and GI epithelium; antiphagocytic
+- **[[molecular-mimicry]]** – Group B carbohydrate mimics host hyaluronic acid; immune evasion
+- **[[intracellular-persistence]]** – Invades epithelial cells; survives in vacuoles
+- **[[gynecologic-dysbiosis]]** – Key pathobiont in dysbiotic reproductive microbiota
+- **[[dysbiosis]]** – Enriched in dysbiotic gut and reproductive tract
 
 ## Zinc and Endometriosis Intervention Implications (Cureva Layer)
 
@@ -241,7 +243,7 @@ Though not covered in WikiBiome entity pages, practitioners note:
 - **Zinc supplementation**: Paradoxically, may **increase GBS burden** in dysbiotic endometriosis; recommend only if zinc-replete (serum zinc >70 µg/dL).
 - **Zinc restriction** (in context of dysbiotic endometriosis with elevated GBS): May suppress GBS metallopeptidase activity and reduce inflammation.
 - **Estrogen-restriction**: Low-estrogen diet (reduced aromatizable substrates) + estrogen receptor antagonists (e.g., aromatase inhibitors) reduce GBS's dysbiotic advantage.
-- **Probiotic restoration**: *[[Lactobacillus]]* spp. produce bacteriocins and lactic acid; can suppress GBS in reproductive microbiota.
+- **Probiotic restoration**: *[[lactobacillus]]* spp. produce bacteriocins and lactic acid; can suppress GBS in reproductive microbiota.
 
 ---
 

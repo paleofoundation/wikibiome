@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases - A Literature Review"
 type: source
 created: 2026-04-09
@@ -6,7 +7,9 @@ updated: 2026-04-09
 authors: [Brylinski L, Kostelecka K, Wolinski F, Komar O, Milosz A, Michalczyk J, Bilogras J, Machrowska A, Karpinski R, Maciejewski M, Garruti G, Flieger J, Baj J]
 journal: Nutrients
 year: 2025
+doi: "10.3390/nu17030398"
 tags: [trace-elements, thyroid, iron, copper, cobalt, iodine, manganese, zinc, cadmium, mercury, lead, selenium, graves-disease, Hashimotos, hypothyroidism, thyroid-cancer, thyroid-nodules]
+platform: wikibiome
 ---
 
 # Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases - A Literature Review

@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome-Targeted Nanoplatforms and Engineering Approaches in Breast Cancer Therapy"
 type: source
 created: 2026-04-09
@@ -7,6 +8,8 @@ authors: [Zufa Sabeel, Zhao Yang]
 journal: Molecular Cancer
 year: 2025
 tags: [colon-cancer, breast-cancer, microbiome-targeted-therapy, nanoparticles, Fusobacterium-nucleatum, FMT, probiotics, immunotherapy, nanomedicine, drug-delivery, review]
+doi: "10.1186/s12943-025-02456-x"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,10 +1,12 @@
 ---
+
 title: Nutritional Immunity (Metal Sequestration)
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
 tags: [host-defense, metal-sequestration, innate-immunity, nickel]
+platform: wikibiome
 ---
 
 # Nutritional Immunity (Metal Sequestration)
@@ -18,7 +20,7 @@ The strategy by which mammalian hosts **withhold essential metals from invading 
 - This is an innate immune mechanism — part of the "nutritional immunity" concept.
 - Best characterized for **iron** (ferritin, transferrin, lactoferrin, hepcidin, NRAMP1) and **zinc** (calprotectin).
 
-## Nickel Sequestration [[[maier-2019-nickel-microbial-pathogenesis]]]
+## Nickel Sequestration [[maier-2019-nickel-microbial-pathogenesis]]
 
 ### Why Nickel is a Good Target
 - **Mammals do not synthesize known Ni-requiring proteins** — so restricting nickel imposes no cost on the host.
@@ -43,7 +45,7 @@ Pathogens have evolved elaborate systems to overcome nickel scarcity:
 
 ## Therapeutic Potential
 
-Targeting nickel availability is proposed as a therapeutic strategy [[[maier-2019-nickel-microbial-pathogenesis]]]:
+Targeting nickel availability is proposed as a therapeutic strategy [[maier-2019-nickel-microbial-pathogenesis]]:
 - Block nickel trafficking pathways in pathogens.
 - Enhance host nickel sequestration.
 - **Complication**: disrupting nickel for pathogens could also affect the (Ni-utilizing) commensal microbiota → potential dysbiosis.

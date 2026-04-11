@@ -1,4 +1,5 @@
 ---
+
 title: "Perimenarchal air pollution exposure and menstrual disorders"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Human Reproduction
 year: 2018
 tags: [air-pollution, particulate-matter, TSP, menstrual-irregularity, androgen-excess, menarche, PCOS, NHSII, reproductive-health, endocrine-disruption]
 doi: "10.1093/humrep/dey005"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Multi-Omics Reveals that Lead Exposure Disturbs Gut Microbiome Development, Key Metabolites, and Metabolic Pathways"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Chemical Research in Toxicology
 year: 2017
 tags: [lead, gut-microbiota, metabolomics, metagenomics, 16S-rRNA, GC-MS, multi-omics, vitamin-E, bile-acids, oxidative-stress, mice, original-research]
 doi: "10.1021/acs.chemrestox.6b00401"
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Participation of short-chain fatty acids and their receptors in gut inflammation and colon cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Physiology
 year: 2021
 doi: "10.3389/fphys.2021.662739"
 tags: [colon-cancer, colorectal-cancer, SCFAs, FFAR2, FFAR3, HCAR2, GPR43, GPR41, GPR109A, butyrate, inflammation, IBD, Treg-cells, ILC3, immune-regulation]
+platform: wikibiome
 ---
 
 # Carretta 2021 -- SCFAs and Their Receptors in Gut Inflammation and Colon Cancer

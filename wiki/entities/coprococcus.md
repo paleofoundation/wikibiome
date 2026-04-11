@@ -1,4 +1,5 @@
 ---
+
 title: Coprococcus
 type: entity
 subtype: microbe
@@ -7,11 +8,12 @@ updated: 2026-04-10
 sources: [saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, dai-2024-gut-microbiota-cvd-bidirectional-mr, sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction, zhu-2024-toxic-essential-metals-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd]
 metal_dependencies: [cobalt -- B12-dependent metabolic pathways; sensitive to heavy metal disruption]
 tags: [commensal, butyrate-producer, depleted-in-depression, depleted-in-MS, depleted-in-IBD, mental-health, happiness-bug, metal-sensitive]
+platform: wikibiome
 ---
 
 # Coprococcus
 
-A Gram-positive, obligate anaerobic genus within the [[Lachnospiraceae]] family (Firmicutes phylum). *Coprococcus* is one of the most important **butyrate-producing commensals** in the human gut and has gained particular attention as the "happiness bug" -- one of very few taxa directly linked to mental health outcomes through population-level studies. Key species include *C. eutactus* and *C. catus*, both prolific [[short-chain-fatty-acids]] producers.
+A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family (Firmicutes phylum). *Coprococcus* is one of the most important **butyrate-producing commensals** in the human gut and has gained particular attention as the "happiness bug" -- one of very few taxa directly linked to mental health outcomes through population-level studies. Key species include *C. eutactus* and *C. catus*, both prolific [[short-chain-fatty-acids]] producers.
 
 ## Role in Gut Ecosystem
 
@@ -24,12 +26,12 @@ A Gram-positive, obligate anaerobic genus within the [[Lachnospiraceae]] family 
 
 - The landmark Valles-Colomer 2019 study identified *Coprococcus* (alongside [[faecalibacterium-prausnitzii]]) as consistently **depleted in individuals with depression**, even after controlling for antidepressant use -- one of the first population-scale microbiome-mental health associations.
 - *Coprococcus* produces DOPAC (3,4-dihydroxyphenylacetic acid), a dopamine metabolite, providing a plausible mechanism for its mental health associations via the [[gut-brain-axis]].
-- Consistently decreased in [[autism-spectrum-disorder]] youth across multiple observational reviews [[[romano-2023-gut-microbiome-children-mental-health-umbrella-review]]].
+- Consistently decreased in [[autism-spectrum-disorder]] youth across multiple observational reviews [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]].
 
 ## Sensitivity to Heavy Metals
 
-- *Coprococcus* is among the SCFA-producing taxa most sensitive to [[heavy-metals]] toxicity, particularly [[cadmium]] and [[lead]] [[[zhu-2024-toxic-essential-metals-gut-microbiota]]].
-- Lead exposure depletes *Coprococcus*, contributing to the ASD-metal-microbiome triad where Pb-induced loss of butyrate producers may exacerbate neurodevelopmental symptoms [[[tizabi-2023-lead-gut-microbiota-asd]]].
+- *Coprococcus* is among the SCFA-producing taxa most sensitive to [[heavy-metals]] toxicity, particularly [[cadmium]] and [[lead]] [[zhu-2024-toxic-essential-metals-gut-microbiota]].
+- Lead exposure depletes *Coprococcus*, contributing to the ASD-metal-microbiome triad where Pb-induced loss of butyrate producers may exacerbate neurodevelopmental symptoms [[tizabi-2023-lead-gut-microbiota-asd]].
 - Its cobalt/B12-dependent metabolic pathways make it vulnerable to metal competition and displacement by heavy metals at enzyme active sites.
 
 ## Disease Associations
@@ -38,17 +40,17 @@ A Gram-positive, obligate anaerobic genus within the [[Lachnospiraceae]] family 
 - Depleted in major depressive disorder; DOPAC production links it mechanistically to dopaminergic signaling.
 
 ### Multiple Sclerosis
-- Reduced **3.4-fold** in MS patients compared to healthy controls in the Saresella 2020 study, part of the dramatic Lachnospiraceae depletion that characterizes MS dysbiosis [[[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]]].
+- Reduced **3.4-fold** in MS patients compared to healthy controls in the Saresella 2020 study, part of the dramatic Lachnospiraceae depletion that characterizes MS dysbiosis [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]].
 - Loss correlates with reduced serum butyric acid and increased gut barrier permeability (elevated LPS and I-FABP).
 
 ### Inflammatory Bowel Disease
 - Depleted in both Crohn's disease and ulcerative colitis, consistent with the general loss of butyrate producers in IBD.
 
 ### Cardiovascular Disease
-- *Coprococcus* (Coprococcus1) is causally protective against coronary artery disease (OR=0.867) in MR analysis [[[dai-2024-gut-microbiota-cvd-bidirectional-mr]]].
+- *Coprococcus* (Coprococcus1) is causally protective against coronary artery disease (OR=0.867) in MR analysis [[dai-2024-gut-microbiota-cvd-bidirectional-mr]].
 
 ### Colorectal Cancer
-- Depleted in CRC; part of the butyrate-producing consortium lost during tumorigenesis [[[sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction]]].
+- Depleted in CRC; part of the butyrate-producing consortium lost during tumorigenesis [[sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction]].
 
 ## Key Metabolites
 

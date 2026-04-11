@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Sebastian Weis, Marcus J Claus]
 year: 2022
 journal: "Frontiers in Neuroscience"
-doi: "10.3389/fnins.2022.XXXXXX"
+doi: "10.3389/fnins.2021.726708"
 tags: [parkinsons-disease, microbiome-chronic-disease, LPS, alpha-synuclein, mouse-model, neuroinflammation, gut-brain-axis, dysbiosis]
 library_category: mechanistic-insights
 platform: both

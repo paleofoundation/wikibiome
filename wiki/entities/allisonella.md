@@ -1,4 +1,5 @@
 ---
+
 title: Allisonella
 type: entity
 subtype: microbe
@@ -10,6 +11,7 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [histidine-decarboxylase, iron-dependent-metabolic-enzymes]
 tags: [gram-negative, anaerobe, histamine-producer, gut-dysbiosis, obesity, metabolic-syndrome, mast-cell-activation, inflammation]
+platform: wikibiome
 ---
 
 # Allisonella
@@ -129,7 +131,7 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 - [[obesity]] -- dysbiotic marker; high abundance in obese microbiota
 - [[insulin-resistance]] -- chronic histamine + LPS-driven inflammation impairs insulin signaling
 - [[metabolic-endotoxemia]] -- co-expansion with gram-negative pathogens; elevated luminal LPS
-- [[barrier-function]] -- histamine-driven increased intestinal permeability
+- [[nutritional-immunity|barrier-function]] -- histamine-driven increased intestinal permeability
 - [[dysbiosis]] -- hallmark of low-diversity, iron-rich, low-SCFA dysbiotic states
 - [[fusobacterium-varium]] -- co-pathobiont; iron-dependent, pro-inflammatory
 - [[bacteroides-fragilis]] -- ETBF-driven barrier disruption exacerbates histamine effects

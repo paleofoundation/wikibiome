@@ -1,4 +1,5 @@
 ---
+
 title: Gardnerella
 type: entity
 subtype: microbe
@@ -7,6 +8,7 @@ updated: 2026-04-10
 sources: [ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis, hernandes-2020-microbiome-deep-endometriosis-vaginal-lesion, khan-2016-intrauterine-microbial-colonization-endometriosis, akiyama-2019-cervical-mucus-microbial-colonization-endometriosis]
 metal_dependencies: [iron -- siderophore-mediated iron acquisition for growth; potentially influenced by metalloestrogen exposure]
 tags: [pathobiont, BV-associated, sialidase-producer, biofilm-former, vaginal-microbiome, endometriosis-associated]
+platform: wikibiome
 ---
 
 # Gardnerella
@@ -33,7 +35,7 @@ tags: [pathobiont, BV-associated, sialidase-producer, biofilm-former, vaginal-mi
 
 ### Heavy Metal Exposure
 - Vaginal *Gardnerella* abundance is associated with environmental heavy metal exposure, with [[cadmium]], [[lead]], and [[mercury]] potentially promoting BV-associated dysbiosis by suppressing protective [[lactobacillus]] species.
-- [[Metalloestrogens]] (Cd, Ni, Pb) may alter cervicovaginal immune responses and mucus composition in ways that favor *Gardnerella* colonization [[[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]].
+- [[metalloestrogens]] (Cd, Ni, Pb) may alter cervicovaginal immune responses and mucus composition in ways that favor *Gardnerella* colonization [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]].
 
 ### Iron Acquisition
 - *G. vaginalis* requires [[iron]] for growth and competes with vaginal lactobacilli for this limiting nutrient.
@@ -44,16 +46,21 @@ tags: [pathobiont, BV-associated, sialidase-producer, biofilm-former, vaginal-mi
 
 *Gardnerella* appears across multiple endometriosis microbiome studies:
 
-- Enriched in cervical microbiota of stage 3/4 endometriosis patients (67.7% vs 36.8% of non-Lactobacillus taxa in sensitivity analysis) [[[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]].
-- Detected within deep endometriotic lesion tissue alongside *Lactobacillus*, *Enterococcus*, and *Pseudomonas* [[[hernandes-2020-microbiome-deep-endometriosis-vaginal-lesion]]].
-- GnRH agonist treatment increased *Gardnerella* colony formation in endometriosis patients [[[khan-2016-intrauterine-microbial-colonization-endometriosis]]].
-- Decreased in stool of endometriosis patients, suggesting body-site-specific shifts [[[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]].
+- Enriched in cervical microbiota of stage 3/4 endometriosis patients (67.7% vs 36.8% of non-Lactobacillus taxa in sensitivity analysis) [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]].
+- Detected within deep endometriotic lesion tissue alongside *Lactobacillus*, *Enterococcus*, and *Pseudomonas* [[hernandes-2020-microbiome-deep-endometriosis-vaginal-lesion]].
+- GnRH agonist treatment increased *Gardnerella* colony formation in endometriosis patients [[khan-2016-intrauterine-microbial-colonization-endometriosis]].
+- Decreased in stool of endometriosis patients, suggesting body-site-specific shifts [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]].
 
 ## BV and Reproductive Health
 
 - BV caused by *G. vaginalis*-dominant communities is associated with preterm birth, pelvic inflammatory disease, increased HIV acquisition, and post-surgical infections.
 - The transition from Lactobacillus-dominant (CST I-III) to Gardnerella-dominant (CST IV) vaginal communities represents a clinically significant shift in vaginal ecosystem state.
 - BV treatment with antibiotics is often followed by recurrence due to biofilm persistence and re-establishment of the dysbiotic community.
+
+
+## Key Sources
+
+- [[akiyama-2019-cervical-mucus-microbial-colonization-endometriosis]]
 
 ## Connections
 

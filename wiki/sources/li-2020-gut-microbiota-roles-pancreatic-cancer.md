@@ -1,4 +1,5 @@
 ---
+
 title: "Gut microbiota: its potential roles in pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2020
 tags: [pancreatic-cancer, gut-microbiota, inflammation, immune-response, immunotherapy, SCFAs, LPS, dysbiosis, obesity, diabetes, chronic-pancreatitis]
 doi: "10.3389/fcimb.2020.572492"
+platform: wikibiome
 ---
 
 # Key Claims

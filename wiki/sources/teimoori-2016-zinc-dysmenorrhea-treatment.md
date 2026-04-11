@@ -1,4 +1,5 @@
 ---
+
 title: "The Efficacy of Zinc Administration in the Treatment of Primary Dysmenorrhea"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Teimoori B, Ghasemi M, Hoseini ZSA, Razavi M]
 journal: Oman Medical Journal
 year: 2016
 tags: [zinc, dysmenorrhea, RCT, mefenamic-acid, prostaglandins, menstrual-pain, supplementation, clinical-trial]
-doi: "10.1186/s12889-022-14723-3"
+doi: "10.5001/omj.2016.13"
+platform: wikibiome
 ---
 
 # Key Claims

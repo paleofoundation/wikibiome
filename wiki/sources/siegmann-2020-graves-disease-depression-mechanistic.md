@@ -1,4 +1,5 @@
 ---
+
 title: "Graves' disease as a driver of depression: a mechanistic insight"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2020
 doi: "10.3389/fendo.2020.00530"
 tags: [graves-disease, thyroid, autoimmune, depression, neuropsychiatric, neuroinflammation, oxidative-stress, serotonin, HPA-axis, thyroid-hormones, T3, T4, cytokines, inflammation]
+platform: wikibiome
 ---
 
 # Graves' disease as a driver of depression: a mechanistic insight

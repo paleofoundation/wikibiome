@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy metals in the diet: unraveling the molecular pathways linked to neurodegenerative disease risk"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Guevara-Ramirez P, Tamayo-Trujillo R, Cadena-Ullauri S, Ruiz-Pozo V, P
 journal: Food and Agricultural Immunology
 year: 2024
 tags: [heavy-metals, diet, neurodegeneration, mercury, cadmium, arsenic, lead, chromium, zinc, oxidative-stress, mitochondrial-dysfunction, chelation-therapy]
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Parkinson's Disease — Microbiome Signature"
 type: signature
 created: 2026-04-10
@@ -47,6 +48,7 @@ virulence_enzymes: [iron-siderophores, zinc-metalloprotease, nickel-urease, nick
 cureva_status: partial
 validated_interventions: []
 stops: []
+platform: cureva
 ---
 
 ## Overview
@@ -104,7 +106,7 @@ The host is actively (and counterproductively) fighting the metal/microbial imba
 | **[[lipocalin-2]]** | Siderophore-binding protein; blocks pathogen iron acquisition | Pathogenic Enterobacteriaceae employ stronger siderophores that outcompete lipocalin-2 |
 | **Pro-inflammatory cytokines** (TNF-α, IL-1β, IL-6) | Drive immune response to translocated bacterial products | Chronic neuroinflammation, microglial activation, and acceleration of dopaminergic neuron death |
 
-**[[Glutathione]] is depleted** — and this is the only nutritional immunity factor capable of neutralizing iron- and manganese-driven lipid peroxidation. This gap in host defense is the critical vulnerability in the PD signature (Primitive 2: Nutritional Immunity as Interpretive Constraint).
+**[[glutathione]] is depleted** — and this is the only nutritional immunity factor capable of neutralizing iron- and manganese-driven lipid peroxidation. This gap in host defense is the critical vulnerability in the PD signature (Primitive 2: Nutritional Immunity as Interpretive Constraint).
 
 ## Mis-metallation Events
 
@@ -266,3 +268,12 @@ All 9 Karen's Brain primitives are active in the PD signature:
 ---
 
 **This signature is partial and in active development.** Cureva validation pipeline (triangle evidence assembly, clinical outcomes correlation) is underway. Additional metabolomic, mycobiome, and iron-imaging studies are needed to validate individual interventions and refine mechanistic predictions.
+
+## Key Sources
+
+- [[tan-2022-gut-microbiome-scfas-parkinsons-review]]
+- [[rosario-2019-constraint-based-modelling-microbiome-cometabolism-parkinsons]]
+- [[nishiwaki-2020-16s-gut-microbiota-parkinsons-eastern-europe]]
+- [[jackson-2022-neuroinflammation-progression-parkinsons]]
+- [[mertsalmi-2021-viral-gut-microbiota-parkinsons]]
+- [[novikova-2025-microbiome-derived-metabolites-parkinsons-thesis]]

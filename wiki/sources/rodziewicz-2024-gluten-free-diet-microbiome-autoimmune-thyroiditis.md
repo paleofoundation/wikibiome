@@ -1,4 +1,5 @@
 ---
+
 title: "Gluten-Free Diet Alters the Gut Microbiome in Women with Autoimmune Thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrients
 year: 2024
 doi: "10.3390/nu16050685"
 tags: [graves-disease, thyroid, autoimmune, autoimmune-thyroiditis, gluten-free-diet, gut-microbiome, Hashimotos-thyroiditis, diet, Desulfobacterota, Proteobacteria, Prevotella, Bifidobacterium, anti-TPO]
+platform: wikibiome
 ---
 
 # Gluten-Free Diet Alters the Gut Microbiome in Women with Autoimmune Thyroiditis

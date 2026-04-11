@@ -1,4 +1,5 @@
 ---
+
 title: "Exposure to Cadmium and Its Impacts on Human Health: A Short Review"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Puthiyavalappil Rasin, Ashwathi A V, Sabeel M Basheer, Jebiti Haribabu
 journal: Journal of Hazardous Materials Advances
 year: 2025
 tags: [cadmium, review, kidney-toxicity, lung-toxicity, neurotoxicity, cardiovascular-disease, cancer, metallothionein, itai-itai-disease, safety-protocols]
-doi: "10.1016/j.fct.2020.111813"
+doi: "10.1016/j.hazadv.2024.100527"
+platform: wikibiome
 ---
 
 # Exposure to Cadmium and Its Impacts on Human Health: A Short Review

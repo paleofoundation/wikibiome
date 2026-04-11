@@ -1,4 +1,5 @@
 ---
+
 title: "The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Molecular Neurobiology
 year: 2026
 tags: [dietary-polyphenols, multiple-sclerosis, oxidative-stress, Nrf2, resveratrol, curcumin, Mediterranean-diet, ketogenic-diet, Paleolithic-diet, G-quadruplexes, epigenetics]
 doi: "10.1007/s12035-026-05748-5"
+platform: wikibiome
 ---
 
 # The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms

@@ -1,4 +1,5 @@
 ---
+
 title: "Polycystic Ovary Syndrome — Microbiome Signature"
 type: signature
 created: 2026-04-10
@@ -45,7 +46,8 @@ virulence_enzymes: [beta-glucuronidase, siderophores-iron-acquisition, lipopolys
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: [high-fiber-diet, mediterranean-diet, low-carbohydrate-diet, probiotics-lactobacillus-bifidobacterium, prebiotics-inulin-fructo-oligosaccharide, vitamin-d-probiotic-synergy, acarbose-fiber-synergy, magnesium-supplementation]
-stops: [iron-supplementation-pcos, isolated-zinc-supplementation]
+stops: [stop-iron-supplementation-pcos, stop-isolated-zinc-supplementation-pcos]
+platform: cureva
 ---
 
 ## Overview

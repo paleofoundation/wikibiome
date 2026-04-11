@@ -1,4 +1,5 @@
 ---
+
 title: "High-fat and low-fiber diet elevates the gut resistome: a comparative metagenomic study"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Yingbo Shen, Da Sun, Kun Chen, Junyao Jiang, Dongyan Shao, Lu Yang, Ch
 journal: npj Biofilms and Microbiomes
 year: 2025
 tags: [cardiovascular-disease, high-fiber-diet, high-fat-diet, antimicrobial-resistance, gut-resistome, metagenomics, ARGs, virulence-genes]
+platform: wikibiome
 ---
 
 # Shen et al. 2025 -- High-Fat and Low-Fiber Diet Elevates the Gut Resistome

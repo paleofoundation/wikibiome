@@ -1,4 +1,5 @@
 ---
+
 title: "Lower Fiber Consumption in Women with Polycystic Ovary Syndrome: A Meta-Analysis of Observational Studies"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Leung WT, Tang Z, Feng Y, Guan H, Huang Z, Zhang W]
 journal: Nutrients
 year: 2022
 tags: [PCOS, dietary-fiber, meta-analysis, observational-studies, diet, gut-microbiota]
-doi: "10.3390/nu13113970"
+doi: "10.3390/nu14153122"
+platform: wikibiome
 ---
 
 # Key Claims

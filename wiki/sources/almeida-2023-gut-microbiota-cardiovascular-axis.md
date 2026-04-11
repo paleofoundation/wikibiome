@@ -1,4 +1,5 @@
 ---
+
 title: "The potential links between human gut microbiota and cardiovascular health and disease - is there a gut-cardiovascular axis?"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Gastroenterology
 year: 2023
 doi: 10.3389/fgstr.2023.1235126
 tags: [cardiovascular-disease, CVD, gut-heart-axis, TMAO, SCFAs, bile-acids, polyamines, atherosclerosis, hypertension, dysbiosis, review, fungal-microbiota]
+platform: wikibiome
 ---
 
 # The Potential Links Between Human Gut Microbiota and Cardiovascular Health and Disease - Is There a Gut-Cardiovascular Axis?

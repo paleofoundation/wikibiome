@@ -1,4 +1,5 @@
 ---
+
 title: "STOP: Iron Supplementation for Endometriosis"
 type: stop
 created: 2026-04-09
@@ -12,6 +13,7 @@ conventional_rationale: "Patient presents with anemia or low serum iron — stan
 why_counterproductive: "Hepcidin elevation indicates functional anemia (host defense strategy), not true iron deficiency. The body is deliberately withholding iron from siderophore-producing pathogens. Iron supplementation directly feeds E. coli, B. fragilis, and other pathogenic taxa that use siderophores for iron acquisition, biofilm formation, and tissue invasion."
 evidence: [pendergrass-2026-endometriosis-conference]
 alternative: "Support nutritional immunity with [[lactoferrin-supplementation]] instead — chelates iron away from pathogens while supporting the host's existing defense strategy"
+platform: cureva
 ---
 
 ## Conventional Rationale

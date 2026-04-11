@@ -1,4 +1,5 @@
 ---
+
 title: "Efficacy of probiotics in patients of cardiovascular disease risk: a systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -7,6 +8,8 @@ authors: [Asher Dixon, Kai Robertson, Amanda Yung, Michael Que, Hayden Randall, 
 journal: Current Hypertension Reports
 year: 2020
 tags: [cardiovascular-disease, probiotics, meta-analysis, blood-pressure, cholesterol, LDL, glucose, HbA1c, BMI, metabolic-syndrome]
+doi: "10.1007/s11906-020-01080-y"
+platform: wikibiome
 ---
 
 # Dixon et al. 2020 -- Probiotics Efficacy in CVD Risk: Systematic Review and Meta-Analysis

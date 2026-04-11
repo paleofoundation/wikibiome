@@ -1,4 +1,5 @@
 ---
+
 title: "Clinical and metabolic response to probiotic supplementation in patients with multiple sclerosis: A randomized, double-blind, placebo-controlled trial"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Clinical Nutrition
 year: 2017
 tags: [probiotics, multiple-sclerosis, clinical-trial, EDSS, depression, insulin-resistance, inflammation, hs-CRP, mental-health, oxidative-stress]
 doi: "10.1016/j.clnu.2016.08.015"
+platform: wikibiome
 ---
 
 # Clinical and Metabolic Response to Probiotic Supplementation in Patients With Multiple Sclerosis: A Randomized, Double-Blind, Placebo-Controlled Trial

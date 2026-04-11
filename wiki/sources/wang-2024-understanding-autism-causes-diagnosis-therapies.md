@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Min Wang, Xiaozhuang Zhang, Liyan Zhong, Liqin Zeng, Ling Li, Paul Yao]
 year: 2024
 journal: "Brain Research Bulletin"
-doi: None
+doi: "10.1016/j.brainresbull.2024.111059"
 tags: [autism, etiology, biomarkers, diagnosis, environmental-factors, therapy]
 library_category: causal
 platform: both

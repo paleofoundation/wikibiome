@@ -1,4 +1,5 @@
 ---
+
 title: "Ketogenic Diet Alleviates Colitis by Reduction of Colonic Group 3 Innate Lymphoid Cells Through Altering Gut Microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Signal Transduction and Targeted Therapy
 year: 2021
 tags: [crohns-disease, IBD, ketogenic-diet, ILC3, Akkermansia, Escherichia-Shigella, gut-microbiome, colitis, DSS, FMT, innate-immunity, inflammation]
 doi: "10.1038/s41392-021-00549-9"
+platform: wikibiome
 ---
 
 # Key Claims

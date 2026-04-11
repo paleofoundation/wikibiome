@@ -1,4 +1,5 @@
 ---
+
 title: "The Effects of Probiotics on Colon Cancer Development"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Joseph Rafter]
 journal: Nutrition Research Reviews
 year: 2004
 tags: [colon-cancer, probiotics, prebiotics, synbiotics, lactic-acid-bacteria, Lactobacillus, Bifidobacterium, anti-cancer, fecal-enzymes, bile-acids, review, colorectal-cancer]
+platform: wikibiome
 ---
 
 # Key Claims

@@ -1,4 +1,5 @@
 ---
+
 title: "Recent advances in the application of metallomics in diagnosis and prognosis of human cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Metallomics
 year: 2022
 tags: [metallomics, cancer, biomarkers, review, copper, zinc, selenium, nickel, cadmium, chromium, arsenic, metal-carcinogenesis, metalloprotein-genes]
 doi: "10.1007/s10653-023-01737-y"
+platform: wikibiome
 ---
 
 # Key Claims

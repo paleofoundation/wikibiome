@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Zhi Wei, Xiao Li, Sheng Li]
 year: 2022
 journal: "Frontiers in Molecular Neuroscience"
-doi: "10.3389/fnmol.2022.XXXXXX"
+doi: "10.3389/fnmol.2022.1039447"
 tags: [parkinsons-disease, oxidative-stress, meta-analysis, systematic-review, glutathione, iron, lipid-peroxidation, ferroptosis, antioxidants]
 library_category: mechanistic-insights
 platform: both

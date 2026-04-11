@@ -1,4 +1,5 @@
 ---
+
 title: "Association of the Gut Microbiota with Coronary Artery Disease and Myocardial Infarction: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.3389/fgene.2023.1158293"
 tags: [cardiovascular-disease, Mendelian-randomization, gut-microbiota, RuminococcusUCG010, coronary-artery-disease, myocardial-infarction, T2DM-mediation, butyrate, causality]
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/Association of the gut microbiota with coronary artery disease and myocardial infarction- A Mendelian randomization stud.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

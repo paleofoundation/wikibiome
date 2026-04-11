@@ -1,4 +1,5 @@
 ---
+
 title: Parkinson's Disease
 type: entity
 subtype: disease
@@ -6,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, racette-2017-manganese-parkinsonism-welders.md, scholefield-2024-brain-metallomics-dementia.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, khatoon-2023-gut-microbiota-neurodegenerative.md, alonso-garcia-2021-gut-microbiota-proteinopathies.md, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.md, gao-2023-microglia-neurodegenerative-diseases.md, gentile-2020-diet-microbiota-brain-health.md, chin-chan-2015-environmental-pollutants-ad-pd.md, giambo-2021-toxic-metal-exposure-gut-microbiota-review.md, rasin-2025-cadmium-exposure-health-review.md]
 tags: [neurodegenerative-disease, iron, manganese, copper, ferroptosis, alpha-synuclein, neuromelanin, gut-brain-axis, microbiome, occupational-exposure, dopaminergic-neurons]
+platform: wikibiome
 ---
 
 # Parkinson's Disease (PD)
@@ -70,7 +72,7 @@ PD has the strongest evidence for gut-brain axis involvement among neurodegenera
 - Alpha-synuclein deposits found in the enteric nervous system **years before motor symptoms** [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - The vagus nerve serves as conduit for gut-to-brain propagation of alpha-synuclein pathology (Braak staging) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - Vagotomy is associated with lower PD risk in epidemiological studies [[gentile-2020-diet-microbiota-brain-health]].
-- Bacterial amyloids (curli from [[Escherichia coli]]) can **cross-seed alpha-synuclein aggregation** [[gentile-2020-diet-microbiota-brain-health]], [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
+- Bacterial amyloids (curli from [[escherichia-coli]]) can **cross-seed alpha-synuclein aggregation** [[gentile-2020-diet-microbiota-brain-health]], [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
 
 ### Metal-Driven Dysbiosis Cascade
 
@@ -131,12 +133,20 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 6. **What is the relative contribution of vagal vs. systemic pathways?** Alpha-synuclein propagates via vagus nerve; inflammation propagates systemically. Which dominates?
 7. **Nickel's role**: Is dietary Ni exposure via its effects on gut pathogens (urease, hydrogenase) a modifiable PD risk factor?
 
+
+## Key Sources
+
+- [[bakulski-2020-heavy-metals-alzheimers-dementias]]
+- [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+- [[gao-2023-microglia-neurodegenerative-diseases]]
+- [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]
+
 ## Connections
 
 - **Metals**: [[iron]], [[manganese]], [[copper]], [[zinc]], [[lead]], [[cadmium]], [[mercury]], [[selenium]], [[nickel]]
 - **Concepts**: [[ferroptosis]], [[alpha-synuclein]], [[neuromelanin]], [[gut-brain-axis]], [[oxidative-stress|oxidative stress]], [[dopaminergic-neurons]], [[mis-metallation]], [[pheomelanin]]
 - **Analyses**: [[metal-disease-matrix]]
 - **Related diseases**: [[alzheimers-disease]] (shared Cu depletion, ferroptosis, gut-brain axis), [[chronic-kidney-disease]] (shared ferroptosis pathway)
-- **Pathogens**: [[Escherichia coli]] (curli cross-seeding alpha-synuclein), [[Helicobacter pylori]] (urease/Ni-dependent gut pathogen)
-- **Occupational**: [[Welding Exposure]], [[Manganese Parkinsonism]]
+- **Pathogens**: [[escherichia-coli]] (curli cross-seeding alpha-synuclein), [[helicobacter-pylori]] (urease/Ni-dependent gut pathogen)
+- **Occupational**: [[welding-exposure]], [[manganese-parkinsonism]]
 - **Interventions**: [[iron-chelation]], [[metal-sequestering-probiotics]], [[fmt]], [[scfa-supplementation]]

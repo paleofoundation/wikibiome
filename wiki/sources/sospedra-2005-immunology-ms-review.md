@@ -1,4 +1,5 @@
 ---
+
 title: "Immunology of Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Annual Review of Immunology
 year: 2005
 doi: 10.1146/annurev.immunol.23.021704.115707
 tags: [multiple-sclerosis, immunology, HLA, T-cells, CD4, autoimmunity, EAE, myelin, CNS, neuroimmunology]
+platform: wikibiome
 ---
 
 # Immunology of Multiple Sclerosis

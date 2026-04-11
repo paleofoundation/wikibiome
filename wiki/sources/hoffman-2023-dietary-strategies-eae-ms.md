@@ -1,4 +1,5 @@
 ---
+
 title: "Gut Microbiome-Modulated Dietary Strategies in EAE and Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Nutrition
 year: 2023
 tags: [dietary-fiber, multiple-sclerosis, EAE, gut-microbiome, dietary-interventions, SCFA, Mediterranean-diet, ketogenic-diet, intermittent-fasting, Firmicutes-Bacteroidetes-ratio]
 doi: "10.3389/fnut.2023.1146748"
+platform: wikibiome
 ---
 
 # Gut Microbiome-Modulated Dietary Strategies in EAE and Multiple Sclerosis

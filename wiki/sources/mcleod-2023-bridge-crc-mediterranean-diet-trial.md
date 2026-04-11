@@ -1,4 +1,5 @@
 ---
+
 title: "Design of the Building Research in CRC Prevention (BRIDGE-CRC) Trial: A 6-Month, Parallel Group Mediterranean Diet and Weight Loss Randomized Controlled Lifestyle Intervention Targeting the Bile Acid-Gut Microbiome Axis to Reduce Colorectal Cancer Risk Among African American/Black Adults with Obesity"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Andrew McLeod, Patricia Wolf, Robert S. Chapkin, Laurie A. Davidson, I
 journal: Trials
 year: 2023
 tags: [colon-cancer, Mediterranean-diet, bile-acids, gut-microbiome, weight-loss, African-American, health-disparities, RCT, colorectal-cancer, SCFAs, DCA, Bilophila-wadsworthia, prevention]
+platform: wikibiome
 ---
 
 # Key Claims

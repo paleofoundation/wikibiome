@@ -1,4 +1,5 @@
 ---
+
 title: "Long-term nickel contamination increases the occurrence of antibiotic resistance genes in agricultural soils"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Environmental Science and Technology
 year: 2016
 doi: "10.1021/acs.est.6b03383"
 tags: [nickel, antibiotic-resistance-genes, co-selection, mobile-genetic-elements, intI1, agricultural-soils, heavy-metals, horizontal-gene-transfer, qPCR-array, bacterial-community, long-term-experiment]
+platform: wikibiome
 ---
 
 # Key Claims

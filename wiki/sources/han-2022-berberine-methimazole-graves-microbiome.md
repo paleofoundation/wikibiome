@@ -1,4 +1,5 @@
 ---
+
 title: "The Potential Prebiotic Berberine Combined With Methimazole Improved the Therapeutic Effect of Graves' Disease Patients Through Regulating the Intestinal Microbiome"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 doi: "10.3389/fimmu.2021.826067"
 tags: [graves-disease, thyroid, autoimmune, berberine, methimazole, gut-microbiota, prebiotics, metagenomics, Lactococcus-lactis, enterobactin, iron, Faecalibacterium, Th17-Treg, traditional-Chinese-medicine]
+platform: wikibiome
 ---
 
 # The Potential Prebiotic Berberine Combined With Methimazole Improved the Therapeutic Effect of Graves' Disease Patients Through Regulating the Intestinal Microbiome

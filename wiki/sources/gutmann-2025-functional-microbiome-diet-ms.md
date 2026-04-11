@@ -1,4 +1,5 @@
 ---
+
 title: "Functional Microbiome Reprogramming Links Dietary Interventions to Neuroinflammatory Outcomes in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Research Square (preprint)
 year: 2025
 tags: [multiple-sclerosis, ketogenic-diet, fasting-diet, microbiome, propionate, tryptophan, indoles, SCFAs, Romboutsia, Roseburia, Bacteroides-thetaiotaomicron, MRI-lesions, clinical-trial, metabolomics]
 doi: "10.21203/rs.3.rs-7434844/v1"
+platform: wikibiome
 ---
 
 # Functional Microbiome Reprogramming Links Dietary Interventions to Neuroinflammatory Outcomes in MS

@@ -1,4 +1,5 @@
 ---
+
 title: "STOP: Iron Supplementation in ASD Dysbiosis (Without Metal Dysregulation Assessment)"
 type: stop
 created: 2026-04-09
@@ -74,7 +75,7 @@ clinical_scenario: |
   - If normalized, consider iron supplementation only if ferritin remains low despite dysbiosis resolution
 
 evidence_strength: "High (mechanistic alignment with nutritional immunity principle + supported by dysbiosis literature)"
-
+platform: cureva
 ---
 
 # STOP Explanation
@@ -128,3 +129,10 @@ Once dysbiosis is resolved and hepcidin normalizes, iron supplementation can be 
 
 **Iron supplementation in ASD dysbiosis is counterproductive** because it misinterprets dysbiosis-driven iron dysregulation as simple iron deficiency and feeds pathogenic bacteria that the host is trying to starve. Use lactoferrin and iron dietary restriction instead; address underlying dysbiosis; reassess metal status only after dysbiosis reversal.
 
+
+## Key Sources
+
+- [[lewandowska-2022-microbiota-asd-systematic-review]]
+- [[zhuang-2024-asd-pathogenesis-biomarker-intervention]]
+- [[wang-2023-microbiota-gut-brain-axis-neurodevelopmental]]
+- [[wang-2024-understanding-autism-causes-diagnosis-therapies]]

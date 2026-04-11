@@ -1,4 +1,5 @@
 ---
+
 title: "High-Fiber Diet and Crohn's Disease: Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nutrients
 year: 2023
 tags: [crohns-disease, IBD, high-fiber-diet, systematic-review, meta-analysis, dietary-intervention, remission, SCFAs, dysbiosis, Faecalibacterium-prausnitzii]
 doi: "10.3390/nu15143114"
+platform: wikibiome
 ---
 
 # Key Claims

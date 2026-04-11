@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic: A Mechanistic Examination of a Population-Level Metabolic Disruption"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microbial Metallomics
 year: 2026
 tags: [obesity, heavy-metals, microbial-metallomics, gut-microbiome, insulin-resistance, cadmium, nickel, phosphate-fertilizers, SCFA, dysbiosis, metabolic-syndrome, environmental-obesogens]
 doi: "10.5281/zenodo.18434951"
+platform: wikibiome
 ---
 
 # Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic

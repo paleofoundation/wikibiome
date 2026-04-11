@@ -1,4 +1,5 @@
 ---
+
 title: "Direct and indirect effects of estrogens, androgens and intestinal microbiota on colorectal cancer"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Cellular and Infection Microbiology
 year: 2024
 doi: "10.3389/fcimb.2024.1458033"
 tags: [colon-cancer, colorectal-cancer, estrogen, androgen, sex-hormones, gut-microbiota, beta-glucuronidase, estrobolome, ERbeta, mismatch-repair, miRNA, GPER, immunotherapy, PD-L1]
+platform: wikibiome
 ---
 
 # Wu 2024 -- Direct and Indirect Effects of Sex Hormones and Microbiota on CRC

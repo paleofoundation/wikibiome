@@ -1,4 +1,5 @@
 ---
+
 title: "Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Heliyon
 year: 2020
 tags: [heavy-metals, environmental-pollution, toxicology, aluminium, vanadium, chromium, manganese, iron, cobalt, nickel, copper, zinc, molybdenum, arsenic, selenium, silver, cadmium, mercury, lead, carcinogenicity, pharmacokinetics, review]
 doi: "10.1016/j.heliyon.2020.e04691"
+platform: wikibiome
 ---
 
 # Key Claims

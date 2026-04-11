@@ -1,4 +1,5 @@
 ---
+
 title: "Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: "Microbiome Medicine Roundtable, Limassol, Cyprus"
 year: 2025
 tags: [Parkinsons-disease, microbial-metallomics, ferroptosis, gut-dysbiosis, alpha-synuclein, iron, gut-brain-axis, dopaminergic-neurons, heavy-metals, nickel, manganese, LPS, neuroinflammation, SCFA, gut-permeability]
 doi: "10.5281/zenodo.17830083"
+platform: wikibiome
 ---
 
 # Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology

@@ -1,4 +1,5 @@
 ---
+
 title: "Coronary artery disease is associated with an altered gut microbiome composition"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLOS ONE
 year: 2020
 doi: 10.1371/journal.pone.0227147
 tags: [cardiovascular-disease, CVD, coronary-artery-disease, gut-microbiome, 16S-rRNA, microbiome-composition, alpha-diversity, Lachnospiraceae, Ruminococcus, dysbiosis, biomarker]
+platform: wikibiome
 ---
 
 # Coronary Artery Disease Is Associated with an Altered Gut Microbiome Composition

@@ -1,10 +1,15 @@
 ---
+
 title: Helicobacter pylori
 type: entity
+subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
 tags: [pathogen, gastric, nickel-dependent, urease, hydrogenase, cancer]
+metal_dependencies: [nickel, iron, zinc, cobalt, bismuth-sensitive]
+key_enzymes: [urease (UreAB — Ni-dependent), NiFe-hydrogenase (HydABCD), iron-cofactored SOD, catalase (Fe-dependent)]
+platform: wikibiome
 ---
 
 # Helicobacter pylori
@@ -16,7 +21,7 @@ A gastric pathogen that is arguably the **most nickel-dependent human pathogen k
 ### Urease
 - Up to **10% of total proteome**.
 - Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
-- **Roles beyond acid neutralization** [[[maier-2019-nickel-microbial-pathogenesis]]]:
+- **Roles beyond acid neutralization** [[maier-2019-nickel-microbial-pathogenesis]]:
   - Required for persistence even at neutral gastric pH.
   - Promotes angiogenesis.
   - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).

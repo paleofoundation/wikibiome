@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome and metabolome modifying effects of several cardiovascular disease interventions in apo-E-/- mice"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Microbiome
 year: 2017
 doi: 10.1186/s40168-017-0246-x
 tags: [cardiovascular-disease, CVD, atherosclerosis, gut-microbiome, metabolome, plant-sterol-ester, beta-glucan, bile-salt-hydrolase, atorvastatin, Lactobacillus-reuteri, SCFAs, TMAO, apo-E-knockout, mouse-model, intervention]
+platform: wikibiome
 ---
 
 # Microbiome and Metabolome Modifying Effects of Several CVD Interventions in Apo-E-/- Mice

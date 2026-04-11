@@ -1,4 +1,5 @@
 ---
+
 title: "Diversity of metal and antibiotic resistance genes in Enterococcus spp. from the last century reflects multiple pollution and genetic exchange among phyla from overlapping ecosystems"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Rebelo A, Mourao J, Freitas AR, Duarte B, Silveira E, Sanchez-Valenzue
 journal: Science of the Total Environment
 year: 2021
 tags: [Enterococcus, metal-resistance, antibiotic-resistance, mercury, arsenic, copper, heavy-metals, co-selection, horizontal-gene-transfer, One-Health, bioindicator]
-doi: "10.1007/s12664-020-01090-3"
+doi: "10.1016/j.scitotenv.2020.142710"
+platform: wikibiome
 ---
 
 # Diversity of Metal and Antibiotic Resistance Genes in Enterococcus spp. from the Last Century Reflects Multiple Pollution and Genetic Exchange among Phyla from Overlapping Ecosystems

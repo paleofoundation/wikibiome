@@ -1,4 +1,5 @@
 ---
+
 title: "Synbiotics suppress colitis-induced tumorigenesis in a colon-specific cancer mouse model"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2019
 doi: "10.1371/journal.pone.0216393"
 tags: [colon-cancer, colorectal-cancer, synbiotics, probiotics, prebiotics, Lactobacillus-casei, Bifidobacterium-breve, galactosyl-sucrose, colitis-associated-cancer, DSS, CPC-Apc-mice, IL-6, STAT3, COX-2, TNF-alpha, beta-catenin]
+platform: wikibiome
 ---
 
 # Saito 2019 -- Synbiotics Suppress Colitis-Induced Tumorigenesis in Colon-Specific Cancer Mouse Model

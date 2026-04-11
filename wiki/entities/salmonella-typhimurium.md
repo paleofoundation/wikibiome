@@ -1,10 +1,15 @@
 ---
+
 title: Salmonella enterica serovar Typhimurium
 type: entity
+subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
 tags: [pathogen, nickel, iron, hydrogenase, macrophage-survival, gut-invasion, typhoid]
+metal_dependencies: [iron, zinc, manganese, magnesium]
+key_enzymes: [enterobactin/salmochelin (siderophores), ZnuABC (zinc uptake), MntH (manganese transporter), SodCI (Cu/Zn-SOD)]
+platform: wikibiome
 ---
 
 # Salmonella enterica serovar Typhimurium
@@ -14,7 +19,7 @@ A Gram-negative enteric pathogen that possesses **four distinct [NiFe] hydrogena
 ## Metal-Dependent Virulence Factors
 
 ### [NiFe] Hydrogenases -- The Core of Ni-Dependent Virulence
-*S.* Typhimurium encodes four distinct [NiFe] hydrogenases, each with different roles [[[maier-2019-nickel-microbial-pathogenesis]]]:
+*S.* Typhimurium encodes four distinct [NiFe] hydrogenases, each with different roles [[maier-2019-nickel-microbial-pathogenesis]]:
 
 1. **Hya (hydrogenase-1)**: membrane-bound, H2-uptake. Contributes to respiratory H2 oxidation.
 2. **Hyb (hydrogenase-2)**: membrane-bound, H2-uptake. **Most important for virulence**. Primary contributor to macrophage survival and systemic infection.
@@ -22,7 +27,7 @@ A Gram-negative enteric pathogen that possesses **four distinct [NiFe] hydrogena
 4. **Hyd (hydrogenase-4)**: second FHL-associated hydrogenase.
 
 ### Avirulence of Hydrogenase Mutants
-- Triple mutant (**DeltahyaDeltahybDeltahyd**): **100% survival in a mouse typhoid fever model** -- completely avirulent [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Triple mutant (**DeltahyaDeltahybDeltahyd**): **100% survival in a mouse typhoid fever model** -- completely avirulent [[maier-2019-nickel-microbial-pathogenesis]].
 - This demonstrates that H2 metabolism is not merely advantageous but **essential** for Salmonella systemic virulence.
 - Hyb is the single most important hydrogenase: Hyb mutants alone show significant attenuation.
 

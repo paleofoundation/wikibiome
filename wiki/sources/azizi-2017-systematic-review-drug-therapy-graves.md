@@ -1,4 +1,5 @@
 ---
+
 title: "A systematic review of drug therapy for Graves' hyperthyroidism"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: European Journal of Endocrinology
 year: 2017
 doi: "10.1530/EJE-16-0888"
 tags: [graves-disease, thyroid, autoimmune, drug-therapy, antithyroid-drugs, methimazole, propylthiouracil, thionamides, systematic-review, relapse, remission, TRAb]
+platform: wikibiome
 ---
 
 # A systematic review of drug therapy for Graves' hyperthyroidism

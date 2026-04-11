@@ -1,4 +1,5 @@
 ---
+
 title: "Metallomic Signatures of Lung Cancer and Chronic Obstructive Pulmonary Disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: International Journal of Molecular Sciences
 year: 2023
 tags: [metallomics, lung-cancer, COPD, biomarkers, ICP-MS, nickel, arsenic, cadmium, aluminum, selenium, smoking, PCA, PLS-DA]
 doi: "10.3390/ijms241814250"
+platform: wikibiome
 ---
 
 # Key Claims

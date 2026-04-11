@@ -1,4 +1,5 @@
 ---
+
 title: "Inflammatory cytokines IL-6, IL-10, IL-13, TNF-alpha and peritoneal fluid flora were associated with infertility in patients with endometriosis"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Wang XM, Ma ZY, Song N]
 journal: European Review for Medical and Pharmacological Sciences
 year: 2018
 tags: [endometriosis, peritoneal-fluid, inflammatory-cytokines, infertility, IL-6, TNF-alpha, Proteobacteria, Firmicutes, bacterial-flora]
-doi: ""
+doi: "10.26355/eurrev_201804_14826"
+platform: wikibiome
 ---
 
 # Key Claims

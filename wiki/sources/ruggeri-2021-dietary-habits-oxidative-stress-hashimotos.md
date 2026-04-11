@@ -1,4 +1,5 @@
 ---
+
 title: "Influence of Dietary Habits on Oxidative Stress Markers in Hashimoto's Thyroiditis"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Thyroid
 year: 2021
 doi: "10.1089/thy.2020.0299"
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, mediterranean-diet, oxidative-stress, dietary-polyphenols, antioxidants, advanced-glycation-end-products, glutathione-peroxidase, thioredoxin-reductase, vegetarianism, meat-consumption, diet]
+platform: wikibiome
 ---
 
 # Influence of Dietary Habits on Oxidative Stress Markers in Hashimoto's Thyroiditis

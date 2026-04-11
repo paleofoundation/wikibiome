@@ -1,4 +1,5 @@
 ---
+
 title: "Genetically predicted gut bacteria, circulating bacteria-associated metabolites and pancreatic ductal adenocarcinoma: a Mendelian randomisation study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Scientific Reports
 year: 2024
 tags: [pancreatic-cancer, mendelian-randomization, gut-microbiota, metabolites, mannitol, methionine, stearic-acid, hippuric-acid, Romboutsia, Clostridium, PDAC]
 doi: "10.1038/s41598-024-77431-5"
+platform: wikibiome
 ---
 
 # Key Claims

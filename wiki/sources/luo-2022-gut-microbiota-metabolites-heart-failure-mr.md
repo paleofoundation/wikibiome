@@ -1,4 +1,5 @@
 ---
+
 title: "Effects of Gut Microbiota and Metabolites on Heart Failure and Its Risk Factors: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +11,7 @@ doi: "10.3389/fnut.2022.899746"
 tags: [cardiovascular-disease, Mendelian-randomization, heart-failure, gut-metabolites, betaine, tryptophan, phenylalanine, Shigella, Candida, TMAO, myocarditis, cardiomyopathy, chronic-kidney-disease]
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/Effects of gut microbiota and metabolites on heart failure and its risk factors- a two-sample Mendelian randomization st.pdf"
 pages_read: "1-8"
+platform: wikibiome
 ---
 
 # Key Claims

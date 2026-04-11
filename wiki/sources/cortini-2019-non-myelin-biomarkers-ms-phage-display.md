@@ -1,4 +1,5 @@
 ---
+
 title: "Identification of novel non-myelin biomarkers in multiple sclerosis using an improved phage-display approach"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: PLoS ONE
 year: 2019
 doi: 10.1371/journal.pone.0226162
 tags: [multiple-sclerosis, phage-display, biomarker, autoantibodies, DDX24, TCERG1, non-myelin-antigens, B-cells, oligoclonal-bands]
+platform: wikibiome
 ---
 
 # Identification of Novel Non-Myelin Biomarkers in Multiple Sclerosis Using an Improved Phage-Display Approach

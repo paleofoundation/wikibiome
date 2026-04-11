@@ -1,4 +1,5 @@
 ---
+
 title: "The relationship between thyroid and human-associated microbiota: A systematic review of reviews"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Reviews in Endocrine and Metabolic Disorders
 year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-microbiota, systematic-review, graves-disease, thyroid-cancer, probiotics, prebiotics, synbiotics, micronutrients, dysbiosis, iodine, selenium]
 doi: "10.1007/s11154-023-09839-9"
+platform: wikibiome
 ---
 
 # The relationship between thyroid and human-associated microbiota: A systematic review of reviews

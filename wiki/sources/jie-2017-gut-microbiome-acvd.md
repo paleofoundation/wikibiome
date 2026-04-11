@@ -1,4 +1,5 @@
 ---
+
 title: "The gut microbiome in atherosclerotic cardiovascular disease"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Nature Communications
 year: 2017
 doi: 10.1038/s41467-017-00900-1
 tags: [cardiovascular-disease, CVD, atherosclerosis, metagenomics, TMAO, TMA-lyase, Enterobacteriaceae, Streptococcus, drug-confounding, functional-microbiome]
+platform: wikibiome
 ---
 
 # The Gut Microbiome in Atherosclerotic Cardiovascular Disease

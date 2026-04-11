@@ -1,4 +1,5 @@
 ---
+
 title: Klebsiella pneumoniae
 type: entity
 subtype: microbe
@@ -8,6 +9,7 @@ sources: [maier-2019-nickel-microbial-pathogenesis, pendergrass-2026-nickel-nec-
 metal_dependencies: [nickel, iron, zinc]
 key_enzymes: [Ni-urease, Ni-GloI, yersiniabactin]
 tags: [pathogen, UTI, pneumonia, sepsis, NEC, antibiotic-resistance, ESKAPE]
+platform: wikibiome
 ---
 
 # Klebsiella pneumoniae
@@ -18,13 +20,13 @@ A Gram-negative opportunistic pathogen and member of the **ESKAPE** group of ant
 
 ### Ni-Urease
 
-- [[urease]] supports **intestinal colonization and gastrointestinal stress resistance**, enabling survival through the acidic stomach to establish gut reservoirs [[[maier-2019-nickel-microbial-pathogenesis]]].
+- [[urease]] supports **intestinal colonization and gastrointestinal stress resistance**, enabling survival through the acidic stomach to establish gut reservoirs [[maier-2019-nickel-microbial-pathogenesis]].
 - Host [[calprotectin]] (S100A8/A9) sequesters nickel from *K. pneumoniae*, directly inhibiting urease activity -- a key [[nutritional-immunity]] mechanism.
-- In the preterm gut, *Klebsiella* is a major NEC-associated pathogen. Dietary nickel from infant formula (especially soy-based, ~10x higher Ni than cow's milk) fuels urease, raising gut pH and promoting Proteobacteria bloom at the expense of acid-producing commensals like [[lactobacillus]] [[[pendergrass-2026-nickel-nec-preterm-gut]]].
+- In the preterm gut, *Klebsiella* is a major NEC-associated pathogen. Dietary nickel from infant formula (especially soy-based, ~10x higher Ni than cow's milk) fuels urease, raising gut pH and promoting Proteobacteria bloom at the expense of acid-producing commensals like [[lactobacillus]] [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Ni-Glyoxalase I
 
-- Predicted to possess Ni-dependent [[glyoxalase]] (GloI) based on genome analysis across all Enterobacteriaceae [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Predicted to possess Ni-dependent [[glyoxalase]] (GloI) based on genome analysis across all Enterobacteriaceae [[maier-2019-nickel-microbial-pathogenesis]].
 - GloI detoxifies methylglyoxal, a toxic glycolysis byproduct, enabling sustained growth during infection.
 - The Ni-vs-Zn selectivity difference between pathogen GloI and human GloI creates a potential selective drug target.
 
@@ -32,8 +34,8 @@ A Gram-negative opportunistic pathogen and member of the **ESKAPE** group of ant
 
 ### Yersiniabactin
 
-- Produces **yersiniabactin (Ybt)**, originally characterized in [[yersinia-pestis]] but horizontally acquired by hypervirulent *K. pneumoniae* strains [[[patil-2021-infection-metallomics-critical-care]]].
-- Ybt is a true **dual-function [[siderophores-metallophores|metallophore]]**: binds Fe3+ for classical iron acquisition and also chelates extracellular nickel, feeding Ni-dependent enzymes [[[maier-2019-nickel-microbial-pathogenesis]]].
+- Produces **yersiniabactin (Ybt)**, originally characterized in [[yersinia-pestis]] but horizontally acquired by hypervirulent *K. pneumoniae* strains [[patil-2021-infection-metallomics-critical-care]].
+- Ybt is a true **dual-function [[siderophores-metallophores|metallophore]]**: binds Fe3+ for classical iron acquisition and also chelates extracellular nickel, feeding Ni-dependent enzymes [[maier-2019-nickel-microbial-pathogenesis]].
 - Ybt-Cu complexes help resist copper toxicity in the urinary tract (paralleling UPEC).
 - Ybt detection in urine is a potential diagnostic biomarker for invasive *Klebsiella* UTI.
 

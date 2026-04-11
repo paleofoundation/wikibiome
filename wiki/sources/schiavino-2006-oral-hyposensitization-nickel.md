@@ -1,4 +1,5 @@
 ---
+
 title: "A Clinical Trial of Oral Hyposensitization in Systemic Allergy to Nickel"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Schiavino D, Nucera E, Alonzi C, Buonomo A, Pollastrini E, Roncallo C,
 journal: International Journal of Immunopathology and Pharmacology
 year: 2006
 tags: [oral-hyposensitization, nickel-allergy, SNAS, immunotherapy, clinical-trial]
-doi: "10.3389/fonc.2021.650488"
+doi: "10.1177/039463200601900120"
+platform: wikibiome
 ---
 
 ## Key Claims

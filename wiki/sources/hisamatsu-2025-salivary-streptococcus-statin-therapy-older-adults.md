@@ -1,4 +1,5 @@
 ---
+
 title: "Alteration of salivary Streptococcus is associated with statin therapy in older adults: a cohort study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Pharmacology
 year: 2025
 doi: 10.3389/fphar.2025.1455753
 tags: [statins, salivary-microbiome, Streptococcus, oral-microbiome, drug-microbiome-interaction, older-adults, polypharmacy, multiple-sclerosis]
+platform: wikibiome
 ---
 
 # Alteration of Salivary Streptococcus is Associated with Statin Therapy in Older Adults: A Cohort Study

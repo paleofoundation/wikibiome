@@ -1,10 +1,12 @@
 ---
+
 title: Matrix Metalloproteases (MMPs)
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [huang-2024-zinc-intake-endometriosis-risk, zhang-2022-metallomics-cancer-review, cassat-2012-metal-acquisition-staphylococcus-aureus, akbari-2022-metal-homeostasis-streptococci, maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care]
 tags: [zinc, metalloproteases, MMPs, tissue-invasion, cancer, endometriosis, extracellular-matrix, TIMPs, collagenase, gelatinase, microbial-proteases]
+platform: wikibiome
 ---
 
 # Matrix Metalloproteases (MMPs)
@@ -47,17 +49,17 @@ The 23 known human MMPs are classified by substrate specificity:
 MMPs are critical for every step of the metastatic cascade: local invasion through basement membrane, intravasation into blood vessels, extravasation at distant sites, and angiogenesis in the metastatic niche.
 
 - **MMP-2 and MMP-9** (gelatinases): The most consistently implicated in tumor invasion and metastasis across cancer types. Degrade type IV collagen in basement membranes.
-- **Metalloprotein gene variants**: MMP gene polymorphisms are associated with cancer susceptibility and prognosis across multiple cancer types [[[zhang-2022-metallomics-cancer-review]]].
-- **Cu/Zn-SOD variants**: Genetic variations in Cu/Zn superoxide dismutase (another Zn-dependent metalloenzyme) also influence cancer risk, highlighting the broader role of zinc metalloenzymes in carcinogenesis [[[zhang-2022-metallomics-cancer-review]]].
+- **Metalloprotein gene variants**: MMP gene polymorphisms are associated with cancer susceptibility and prognosis across multiple cancer types [[zhang-2022-metallomics-cancer-review]].
+- **Cu/Zn-SOD variants**: Genetic variations in Cu/Zn superoxide dismutase (another Zn-dependent metalloenzyme) also influence cancer risk, highlighting the broader role of zinc metalloenzymes in carcinogenesis [[zhang-2022-metallomics-cancer-review]].
 
 ### Endometriosis
 
 The connection between zinc, MMPs, and endometriosis is particularly striking.
 
-- Huang et al. (2024) found that higher dietary zinc intake (>14 mg/day) was associated with a **60% increased odds of endometriosis** compared to low intake (<=8 mg/day), adjusted OR 1.60 (95% CI 1.12-2.27) [[[huang-2024-zinc-intake-endometriosis-risk]]].
+- Huang et al. (2024) found that higher dietary zinc intake (>14 mg/day) was associated with a **60% increased odds of endometriosis** compared to low intake (<=8 mg/day), adjusted OR 1.60 (95% CI 1.12-2.27) [[huang-2024-zinc-intake-endometriosis-risk]].
 - This counterintuitive finding (zinc is generally considered beneficial) is explained by the MMP mechanism: **excess zinc may promote MMP-2 and MMP-9 activity**, facilitating the tissue invasion and remodeling that characterizes endometriotic lesion establishment and progression.
 - Endometriotic tissue must invade the peritoneal surface, establish a blood supply, and remodel surrounding tissue -- all MMP-dependent processes.
-- The finding that foods high in zinc (whole grains, nuts, legumes, shellfish, red meat) substantially overlap with high-[[nickel]] foods raises the possibility of confounding or synergistic effects with [[dietary-nickel-exposure]] [[[huang-2024-zinc-intake-endometriosis-risk]]].
+- The finding that foods high in zinc (whole grains, nuts, legumes, shellfish, red meat) substantially overlap with high-[[nickel]] foods raises the possibility of confounding or synergistic effects with [[dietary-nickel-exposure]] [[huang-2024-zinc-intake-endometriosis-risk]].
 
 ### Rheumatoid Arthritis
 
@@ -65,7 +67,7 @@ MMP-mediated degradation of cartilage collagen and proteoglycans is central to j
 
 ### Blood-Brain Barrier Disruption
 
-MMP-2 and MMP-9 degrade tight junction proteins and basement membrane components of the BBB. Implicated in neuroinflammation, stroke, and neurodegenerative disease progression. Pathogen crossing of the BBB (e.g., *N. meningitidis*, *S. pneumoniae*, *C. neoformans*) may involve MMP-mediated barrier disruption [[[patil-2021-infection-metallomics-critical-care]]].
+MMP-2 and MMP-9 degrade tight junction proteins and basement membrane components of the BBB. Implicated in neuroinflammation, stroke, and neurodegenerative disease progression. Pathogen crossing of the BBB (e.g., *N. meningitidis*, *S. pneumoniae*, *C. neoformans*) may involve MMP-mediated barrier disruption [[patil-2021-infection-metallomics-critical-care]].
 
 ## Microbial Metalloproteases
 
@@ -91,7 +93,7 @@ Zinc occupies a paradoxical position in MMP biology:
 1. **Zinc as cofactor**: Catalytic Zn2+ is essential for MMP activity. No zinc, no matrix degradation.
 2. **Zinc as regulator**: Zinc status influences MMP and TIMP expression. Zinc supplementation may modulate the MMP/TIMP balance, but the direction depends on context.
 3. **Zinc and immunity**: Zinc is required for T cell function and immune surveillance against both infection and cancer. Zinc deficiency impairs immune function, while zinc excess may promote MMP-mediated tissue damage.
-4. **The endometriosis paradox**: The Huang 2024 finding that higher zinc intake increases endometriosis risk [[[huang-2024-zinc-intake-endometriosis-risk]]] suggests a threshold effect -- zinc's beneficial immune and antioxidant roles may be outweighed by MMP-mediated tissue invasion at higher intakes.
+4. **The endometriosis paradox**: The Huang 2024 finding that higher zinc intake increases endometriosis risk [[huang-2024-zinc-intake-endometriosis-risk]] suggests a threshold effect -- zinc's beneficial immune and antioxidant roles may be outweighed by MMP-mediated tissue invasion at higher intakes.
 
 ## Metal Exposure and MMP Dysregulation
 
@@ -102,6 +104,13 @@ Environmental metal exposure may dysregulate MMP expression and activity through
 - **NF-kB activation**: Many heavy metals activate NF-kB signaling, which transcriptionally upregulates MMP expression.
 - **TIMP suppression**: Some metals suppress TIMP expression, shifting the MMP/TIMP balance toward net proteolysis.
 - **Cadmium as zinc mimic**: Cadmium (a known [[metalloestrogen]]) can displace zinc from metalloproteins, potentially dysregulating MMP function in reproductive tissues.
+
+
+## Key Sources
+
+- [[cassat-2012-metal-acquisition-staphylococcus-aureus]]
+- [[akbari-2022-metal-homeostasis-streptococci]]
+- [[maier-2019-nickel-microbial-pathogenesis]]
 
 ## Connections
 

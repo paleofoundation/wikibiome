@@ -1,10 +1,12 @@
 ---
+
 title: Indoles
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [gutmann-2025-functional-microbiome-diet-ms, zheng-2021-bacterial-aromatic-amino-acids-asd, spivak-2023-local-systemic-microbiome-derived-metabolites, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]
 tags: [indoles, tryptophan, AhR, indole-3-propionic-acid, indole-3-aldehyde, indole-3-acetic-acid, tryptamine, gut-brain-axis, neuroprotection, microbiome-metabolites]
+platform: wikibiome
 ---
 
 # Indoles
@@ -28,11 +30,11 @@ Microbial tryptophan metabolites produced by gut bacteria through the third bran
 
 ### Indole-3-Acetic Acid (IAA)
 - Produced by multiple gut bacteria from tryptophan; also a major plant growth hormone (auxin).
-- AhR ligand; increased significantly under ketogenic diet in MS patients, correlating with reduced neuroinflammatory lesions [[[gutmann-2025-functional-microbiome-diet-ms]]].
+- AhR ligand; increased significantly under ketogenic diet in MS patients, correlating with reduced neuroinflammatory lesions [[gutmann-2025-functional-microbiome-diet-ms]].
 
 ### Tryptamine
 - Produced by decarboxylation of tryptophan by *Clostridium sporogenes* and *Ruminococcus gnavus*.
-- Activates serotonin receptor 5-HT4R on colonocytes, promoting intestinal motility and fluid secretion [[[spivak-2023-local-systemic-microbiome-derived-metabolites]]].
+- Activates serotonin receptor 5-HT4R on colonocytes, promoting intestinal motility and fluid secretion [[spivak-2023-local-systemic-microbiome-derived-metabolites]].
 
 ## The AhR Axis
 
@@ -46,8 +48,8 @@ The AhR pathway represents a key mechanism by which the gut microbiome communica
 
 ## Disease Relevance
 
-- **Multiple sclerosis**: Ketogenic diet shifts tryptophan metabolism from kynurenine toward indoles (IAA, ILA); higher indole/Trp ratios associated with fewer MRI lesions [[[gutmann-2025-functional-microbiome-diet-ms]]].
-- **Autism spectrum disorder**: Indole derivatives depleted; p-cresol and 4-EPS (from competing aromatic AA pathways) elevated instead. FMT reduced indole pathway disruption [[[zheng-2021-bacterial-aromatic-amino-acids-asd]]].
+- **Multiple sclerosis**: Ketogenic diet shifts tryptophan metabolism from kynurenine toward indoles (IAA, ILA); higher indole/Trp ratios associated with fewer MRI lesions [[gutmann-2025-functional-microbiome-diet-ms]].
+- **Autism spectrum disorder**: Indole derivatives depleted; p-cresol and 4-EPS (from competing aromatic AA pathways) elevated instead. FMT reduced indole pathway disruption [[zheng-2021-bacterial-aromatic-amino-acids-asd]].
 - **IBD**: Reduced indole production due to loss of *Clostridium sporogenes* and *Lactobacillus*; impaired AhR-IL-22 axis weakens barrier repair.
 - **Cardiovascular disease**: Indoxyl sulfate (a host-modified indole derivative) is a uremic toxin promoting endothelial dysfunction and [[atherosclerosis]].
 - **CKD**: Indoxyl sulfate accumulates due to impaired renal clearance; drives renal fibrosis and cardiovascular complications.
@@ -61,3 +63,7 @@ Heavy metal-induced [[dysbiosis]] depletes the SCFA producers and Lactobacillus/
 - [[tryptophan-metabolism]] -- full pathway overview including kynurenine and serotonin branches
 - [[short-chain-fatty-acids]] -- parallel microbiome-derived protective metabolites
 - [[gut-brain-axis]] -- neuroimmune signaling route for indole effects
+
+## Key Sources
+
+- [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]

@@ -1,4 +1,5 @@
 ---
+
 title: "Microbiome Diet for Endometriosis - Categorized Food Tables"
 type: source
 created: 2026-04-09
@@ -7,6 +8,7 @@ authors: [Unknown]
 journal: Supplementary Material (no journal identified)
 year: Unknown
 tags: [diet, endometriosis, nickel, zinc, iron, cadmium, lead, food-tables, low-metal-diet, supplementary-data]
+platform: wikibiome
 ---
 
 # Microbiome Diet for Endometriosis - Food Tables

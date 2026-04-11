@@ -1,12 +1,14 @@
 ---
+
 title: Intestinibacter
 type: entity
 subtype: microbe
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-11
 sources: [dai-2024-gut-microbiota-cvd-bidirectional-mr, xiang-2023-host-gene-microbiome-crc-mr, wu-2017-metformin-gut-microbiome-t2d-nature-medicine, gutmann-2025-functional-microbiome-diet-ms]
-metal_dependencies: [not well characterized -- may be sensitive to heavy metal exposure as a butyrate producer]
+metal_dependencies: [iron, cobalt]
 tags: [pathobiont, spore-forming, context-dependent, CVD-protective, CRC-risk, understudied]
+platform: wikibiome
 ---
 
 # Intestinibacter
@@ -21,7 +23,7 @@ tags: [pathobiont, spore-forming, context-dependent, CVD-protective, CRC-risk, u
 
 ## Cardiovascular Disease: Protective Role
 
-Bidirectional Mendelian randomization provides causal evidence for a **protective effect** of *Intestinibacter* against multiple CVD outcomes [[[dai-2024-gut-microbiota-cvd-bidirectional-mr]]]:
+Bidirectional Mendelian randomization provides causal evidence for a **protective effect** of *Intestinibacter* against multiple CVD outcomes [[dai-2024-gut-microbiota-cvd-bidirectional-mr]]:
 
 - Protective against atrial fibrillation (OR=0.908)
 - Protective against coronary artery disease (OR=0.919)
@@ -30,7 +32,7 @@ Bidirectional Mendelian randomization provides causal evidence for a **protectiv
 
 ## Colorectal Cancer: Risk Factor
 
-In contrast to its CVD-protective role, MR evidence identifies *Intestinibacter* as a **causal risk factor** for CRC [[[xiang-2023-host-gene-microbiome-crc-mr]]]:
+In contrast to its CVD-protective role, MR evidence identifies *Intestinibacter* as a **causal risk factor** for CRC [[xiang-2023-host-gene-microbiome-crc-mr]]:
 
 - Strongest individual CRC risk effect among tested genera (OR=1.31, P=0.0038).
 - Replicated in independent FinnGen validation cohort.
@@ -39,8 +41,8 @@ In contrast to its CVD-protective role, MR evidence identifies *Intestinibacter*
 
 ## Metabolic and Dietary Associations
 
-- Decreased by metformin treatment in type 2 diabetes patients, alongside broader shifts in gut microbiome composition [[[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]]].
-- Linked to starch degradation pathways in the context of functional diet studies of [[multiple-sclerosis]], where *I. bartlettii* was associated with dietary fiber metabolism [[[gutmann-2025-functional-microbiome-diet-ms]]].
+- Decreased by metformin treatment in type 2 diabetes patients, alongside broader shifts in gut microbiome composition [[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]].
+- Linked to starch degradation pathways in the context of functional diet studies of [[multiple-sclerosis]], where *I. bartlettii* was associated with dietary fiber metabolism [[gutmann-2025-functional-microbiome-diet-ms]].
 
 ## Context-Dependent Nature
 

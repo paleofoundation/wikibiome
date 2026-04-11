@@ -1,4 +1,5 @@
 ---
+
 title: "Toxic Air Pollutants and Their Effect on Multiple Sclerosis: A Review Study"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Frontiers in Public Health
 year: 2022
 doi: 10.3389/fpubh.2022.898043
 tags: [multiple-sclerosis, air-pollution, heavy-metals, environmental-exposure, PAHs, particulate-matter, neuroinflammation]
+platform: wikibiome
 ---
 
 # Toxic Air Pollutants and Their Effect on Multiple Sclerosis: A Review Study

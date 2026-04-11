@@ -1,4 +1,5 @@
 ---
+
 title: "A Review of the Efficacy of Dietary Polyphenols in Experimental Models of Inflammatory Bowel Diseases"
 type: source
 created: 2026-04-09
@@ -8,6 +9,7 @@ journal: Food & Function
 year: 2015
 tags: [crohns-disease, IBD, polyphenols, EGCG, curcumin, quercetin, resveratrol, NF-kappaB, oxidative-stress, colitis-models, dietary-intervention]
 doi: "10.1039/c5fo00202h"
+platform: wikibiome
 ---
 
 # Key Claims

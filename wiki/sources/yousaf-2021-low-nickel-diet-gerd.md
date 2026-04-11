@@ -1,4 +1,5 @@
 ---
+
 title: "The effect of a low-nickel diet and nickel sensitization on gastroesophageal reflux disease: A pilot study"
 type: source
 created: 2026-04-09
@@ -7,7 +8,8 @@ authors: [Yousaf A, Hagen R, Mitchell M, Ghareeb E, Fang W, Correa R, Zinn Z, Ga
 journal: Indian Journal of Gastroenterology
 year: 2021
 tags: [GERD, low-nickel-diet, gastroesophageal-reflux, patch-testing, pilot-study]
-doi: "10.1007/s00432-023-05103-4"
+doi: "10.1007/s12664-020-01090-3"
+platform: wikibiome
 ---
 
 ## Key Claims
