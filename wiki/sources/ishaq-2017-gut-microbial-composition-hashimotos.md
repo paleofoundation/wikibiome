@@ -19,7 +19,7 @@ platform: wikibiome
 - [[Hashimoto's thyroiditis]] patients have intestinal microbial [[dysbiosis]], with the current study being among the first to characterize gut microbial composition in HT using multiple molecular methods
 - Declined abundance of [[Prevotella_9]] and [[Dialister]] was observed, while elevated genera including [[Escherichia-Shigella]] and [[Parasutterella]] were found in the diseased group
 - Increased abundance of E. coli was confirmed at the species level in HT patients
-- The PCR-DGGE targeted V3 site of 16S rRNA gene and real-time PCR for [[Bifidobacterium]], [[Lactobacillus]], [[Bacteroides vulgatus]], and [[Clostridium leptum]] were performed
+- The PCR-DGGE targeted V3 site of 16S rRNA gene and real-time PCR for [[bifidobacterium]], [[lactobacillus]], [[Bacteroides vulgatus]], and [[Clostridium leptum]] were performed
 - Pyrosequencing of 16S rRNA gene with V4 location was performed on 20 randomly selected samples, revealing diversification of gut microbiota in HT compared to controls
 
 ## Methods/Findings

@@ -26,7 +26,7 @@ condition: "autism spectrum disorder"
 **Design:** PRISMA-guided systematic review registered in PROSPERO (CRD42024615043). Literature search through November 16, 2024.
 
 **Probiotics (15 studies):**
-- 14 RCTs examined probiotics; most commonly [[Lactobacillus plantarum]] (n=8) and [[Bifidobacterium]] species
+- 14 RCTs examined probiotics; most commonly [[Lactobacillus plantarum]] (n=8) and [[bifidobacterium]] species
 - More than half reported no significant behavioral improvements
 - [[Bacteroides fragilis]] BF839 showed significant AuBC score decrease in children with CARS > 30
 - Multi-strain combinations consistently outperformed single strains

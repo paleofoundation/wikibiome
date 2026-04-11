@@ -17,8 +17,8 @@ platform: wikibiome
 
 - Transfer of [[gut microbiota]] from obese animals induces metabolic disease and obesity in germ-free animals; conversely, transfer of pathogen-free microbiota from lean healthy humans can increase [[insulin]] sensitivity
 - Diet high in fermentable fibres and plant [[polyphenols]] can regulate microbial activities in the gut, supporting the scientific rationale for efficacious [[prebiotics]]
-- [[Probiotics]] with carefully selected strains can hydrolyse [[bile acids]] and lower blood [[cholesterol]], a recognized risk factor in CVD
-- [[TMAO]] production from dietary choline and L-carnitine by gut microbiota contributes to CVD pathology; a vegan diet selects for bacteria with low capacity to metabolize L-carnitine
+- [[probiotics]] with carefully selected strains can hydrolyse [[bile acids]] and lower blood [[cholesterol]], a recognized risk factor in CVD
+- [[tmao]] production from dietary choline and L-carnitine by gut microbiota contributes to CVD pathology; a vegan diet selects for bacteria with low capacity to metabolize L-carnitine
 - Prebiotic oligofructose reduces gut permeability and associated metabolic endotoxemia; increases relative abundance of *[[Akkermansia muciniphila]]*
 
 ## Methods/Findings

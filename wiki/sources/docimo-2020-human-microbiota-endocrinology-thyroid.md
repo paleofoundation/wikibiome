@@ -19,8 +19,8 @@ platform: wikibiome
 - [[Autoimmune thyroid diseases]] (ATD) are the most common organ-specific autoimmune disorders with increasing prevalence higher than 5% worldwide
 - The [[gut microbiome]] plays a role in thyroid hormone metabolism through bacterial deconjugation of iodothyronine and competition with human albumin for thyroid hormones
 - The microbiota affects absorption of microelements including [[iodine]], [[copper]], [[iron]], [[selenium]], and [[zinc]] that are vital to thyroid health
-- In HT patients, a specific subset of gut bacteria with a [[Lactobacillus]]-predominant pattern has been identified; levels of [[Prevotellaceae]] and [[Veillonellaceae]] decreased
-- [[Bifidobacterium]] and [[Lactobacillus]] were significantly decreased in HT patients shown by real-time PCR
+- In HT patients, a specific subset of gut bacteria with a [[lactobacillus]]-predominant pattern has been identified; levels of [[Prevotellaceae]] and [[Veillonellaceae]] decreased
+- [[bifidobacterium]] and [[lactobacillus]] were significantly decreased in HT patients shown by real-time PCR
 - A specific predisposing pattern of gut microbiota may be associated with Graves' orbitopathy, and methimazole treatment dramatically increased microbiome diversity after 3-5 months
 
 ## Methods/Findings

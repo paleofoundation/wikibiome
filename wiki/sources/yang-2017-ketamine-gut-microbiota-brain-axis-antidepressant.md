@@ -35,7 +35,7 @@ platform: wikibiome
 
 ## Connections
 
-- Gut-brain axis mechanism relevant to depression in [[Hashimoto's thyroiditis]] and [[Graves' disease]] patients
-- Butyricimonas modulation links to [[SCFAs]] and butyrate-producing bacteria in thyroid disease
+- Gut-brain axis mechanism relevant to depression in [[Hashimoto's thyroiditis]] and [[graves-disease]] patients
+- Butyricimonas modulation links to [[short-chain-fatty-acids]] and butyrate-producing bacteria in thyroid disease
 - Antidepressant-microbiome interactions relevant to pharmacological management of HT-associated depression
 - Deltaproteobacteria findings connect to broader [[Gut Dysbiosis]] patterns in autoimmune disease

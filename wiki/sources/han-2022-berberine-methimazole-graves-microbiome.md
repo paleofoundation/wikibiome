@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Berberine]] combined with [[methimazole]] (MI) is more effective than methimazole alone in treating [[Graves' disease]], significantly improving thyroid function and restoring TSH, FT3, and FT3 to healthy thresholds by 6 months
+- [[Berberine]] combined with [[methimazole]] (MI) is more effective than methimazole alone in treating [[graves-disease]], significantly improving thyroid function and restoring TSH, FT3, and FT3 to healthy thresholds by 6 months
 - Methimazole alone restored only FT3 and failed to modulate the gut microbiota, while berberine addition significantly altered microbiota structure
 - Berberine supplementation increased beneficial bacteria [[lactococcus|*Lactococcus lactis*]] and [[Enterococcus hirae]] while decreasing pathogenic [[Enterobacter hormaechei]] and [[Chryseobacterium indologenes]]
 - Berberine resulted in significant upregulation of [[enterobactin]] biosynthesis, which is essential for [[iron]] uptake and may help improve thyroid function given iron's role in thyroid hormone synthesis
@@ -41,6 +41,6 @@ platform: wikibiome
 - Enterobactin-iron uptake mechanism connects to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] and [[brylinski-2025-trace-elements-thyroid-diseases]] iron sections on Fe-TPO relationship
 - Faecalibacterium prausnitzii role consistent with its known anti-inflammatory properties and [[Short-Chain Fatty Acids]] production
 - Vitamin K2 biosynthesis pathway changes relevant to emerging understanding of [[Vitamin K]] in autoimmune regulation
-- Lactococcus lactis increase by berberine relevant to [[Probiotics]] approaches for autoimmune thyroid disease
+- Lactococcus lactis increase by berberine relevant to [[probiotics]] approaches for autoimmune thyroid disease
 - TCA cycle and amino acid metabolism pathway changes connect to broader [[Metabolomics]] of GD
 - Combined Chinese-Western medicine approach provides framework for [[Drug Repurposing]] in autoimmune thyroid disease

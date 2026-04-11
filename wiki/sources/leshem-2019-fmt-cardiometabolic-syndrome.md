@@ -31,7 +31,7 @@ platform: wikibiome
 - **Clinical FMT trials**:
   - First randomized study (n=18): allogenic-FMT from lean donors improved insulin sensitivity in obese males with metabolic syndrome
   - Second trial (n=38): significant shift in microbial composition with improvement in peripheral insulin sensitivity at 6 weeks in half of treatment group
-  - [[TMAO]]-focused trial: vegan-donor FMT induced microbiome shift but no significant change in vascular inflammation markers
+  - [[tmao]]-focused trial: vegan-donor FMT induced microbiome shift but no significant change in vascular inflammation markers
 - **Challenges**: Colonization resistance, donor selection complexity, sample handling, mode of administration (colonoscopy vs capsules vs enema), adverse effects (mild diarrhea in up to 94%, abdominal pain in 31%)
 
 ## Source Pages
@@ -42,4 +42,4 @@ pp. 1-8
 
 - Links to [[gut microbiome]] and [[metabolic syndrome]] pathophysiology
 - Relevant to [[probiotics]] and [[prebiotics]] as alternative microbiome-modulating strategies
-- Connects to [[TMAO]] and [[atherosclerosis]] pathways
+- Connects to [[tmao]] and [[atherosclerosis]] pathways

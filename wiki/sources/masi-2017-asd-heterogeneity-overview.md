@@ -44,3 +44,12 @@ This foundational clinical overview identifies **GI dysfunction and immune abnor
 
 This review establishes heterogeneity as **defining feature**, suggesting need for **patient subtyping based on metallome/microbiome signatures** rather than behavioral criteria alone.
 
+## Connections
+
+- [[autism-spectrum-disorder]] -- foundational overview of heterogeneity
+- [[comorbidities]] -- GI dysfunction, immune abnormalities, seizures, ADHD
+- [[dysbiosis]] -- GI symptoms linked to microbial imbalance
+- [[gut-brain-axis]] -- immune and GI pathways connecting gut to behavior
+- [[hepcidin]] -- metal sequestration in immune response
+- [[calprotectin]] -- biomarker of GI inflammation in ASD
+- [[heavy-metals]] -- environmental exposure as etiological factor

@@ -21,7 +21,7 @@ This study investigates the relationship between [[nickel]] exposure and [[parki
 
 ## Key Findings
 
-- [[Nickel]] exposure is associated with increased risk of [[parkinsons-disease]]
+- [[nickel]] exposure is associated with increased risk of [[parkinsons-disease]]
 - Gut microbiome composition mediates part of the nickel-PD association
 - Nickel alters the abundance of specific bacterial taxa implicated in PD
 - Pro-inflammatory bacteria are enriched under nickel exposure conditions
@@ -31,7 +31,7 @@ This study investigates the relationship between [[nickel]] exposure and [[parki
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This paper provides direct evidence for [[nickel]] as a driver of PD-relevant [[dysbiosis]], supporting the core thesis of the gut-metal-microbiome framework. [[Nickel]] selectively promotes growth of nickel-resistant organisms (often pathogenic Enterobacteriaceae with nickel efflux pumps) while suppressing nickel-sensitive commensals. This nickel-driven [[dysbiosis]] mirrors the PD microbiome signature: enriched Enterobacteriaceae, depleted SCFA-producers. The Mendelian randomization approach strengthens causal inference beyond what cross-sectional microbiome studies can provide. The finding that the gut microbiome mediates the nickel-PD link validates the conceptual model where dietary/environmental metal exposure reshapes the gut ecosystem, which in turn drives [[neuroinflammation]] and neurodegeneration via the [[gut-brain-axis]]. This connects [[nickel]] to [[iron]] dysregulation, as nickel-driven depletion of [[butyrate]] producers disrupts the HIF-2alpha-[[iron]] absorption axis.
+This paper provides direct evidence for [[nickel]] as a driver of PD-relevant [[dysbiosis]], supporting the core thesis of the gut-metal-microbiome framework. [[nickel]] selectively promotes growth of nickel-resistant organisms (often pathogenic Enterobacteriaceae with nickel efflux pumps) while suppressing nickel-sensitive commensals. This nickel-driven [[dysbiosis]] mirrors the PD microbiome signature: enriched Enterobacteriaceae, depleted SCFA-producers. The Mendelian randomization approach strengthens causal inference beyond what cross-sectional microbiome studies can provide. The finding that the gut microbiome mediates the nickel-PD link validates the conceptual model where dietary/environmental metal exposure reshapes the gut ecosystem, which in turn drives [[neuroinflammation]] and neurodegeneration via the [[gut-brain-axis]]. This connects [[nickel]] to [[iron]] dysregulation, as nickel-driven depletion of [[butyrate]] producers disrupts the HIF-2alpha-[[iron]] absorption axis.
 
 ## Limitations
 

@@ -51,3 +51,12 @@ Public health review of **autism spectrum disorder (ASD) etiology, epidemiology,
 - 6-page review article
 - Focused on clinician and public health audience
 - Emphasizes need for standardized assessment and early intervention
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- epidemiological overview and etiology
+- [[comorbidities]] -- heterogeneous symptom profiles
+- [[gut-brain-axis]] -- environmental triggers in multifactorial model
+- [[heavy-metals]] -- environmental exposures as risk factors
+- [[dysbiosis]] -- microbiome disruption as environmental contributor
+- [[biomarkers]] -- need for standardized early detection tools

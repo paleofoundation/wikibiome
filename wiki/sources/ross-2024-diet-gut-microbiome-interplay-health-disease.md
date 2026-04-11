@@ -40,4 +40,4 @@ pp. 671-678
 
 - Comprehensive framework linking diet types to [[cardiovascular disease]] risk via microbiome
 - Links to [[precision nutrition]] and microbiome-based therapies
-- Relevant to [[TMAO]], [[SCFAs]], and [[bile acid]] metabolism pathways
+- Relevant to [[tmao]], [[short-chain-fatty-acids]], and [[bile acid]] metabolism pathways

@@ -20,7 +20,7 @@ platform: wikibiome
 - Four comprehensive tables catalog preclinical and clinical evidence: (1) antibiotic therapy in EAE (7 studies), (2) probiotic supplementation in EAE (9 studies), (3) SCFA/FMT/diet modifications in EAE (12 studies), and (4) clinical trials in MS patients (14 entries)
 - Intestinal barrier permeability is increased in MS: plasma HP2 (haptoglobin-2/zonulin precursor) is elevated and correlates with BBB disruption on MRI; HP2 was shown to increase BBB permeability in vitro
 - Propionic acid clinical trial: 91 pwMS + 24 HCs received propionate for 2 weeks as add-on therapy; results showed lowered Th17, increased Tregs, and effects more pronounced in pwMS; longitudinal 1-year data showed decreased annualized relapse rate, disability stabilization, and decreased brain atrophy
-- [[Akkermansia]] has context-dependent effects: associated with lower disability in one study but also linked to pro-inflammatory mucinolytic activity; miR-30d transferred *Akkermansia* abundance and suppressed EAE via Treg promotion
+- [[akkermansia-muciniphila]] has context-dependent effects: associated with lower disability in one study but also linked to pro-inflammatory mucinolytic activity; miR-30d transferred *Akkermansia* abundance and suppressed EAE via Treg promotion
 
 ## Methods/Findings
 

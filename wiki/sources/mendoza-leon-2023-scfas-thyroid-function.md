@@ -35,7 +35,7 @@ platform: wikibiome
   - Butyrate producers belong to phylum Firmicutes: Clostridia class (Clostridium cluster XIV, Faecalibacterium, Bacteroidetes, Proteobacteria)
   - MCT1 expression regulated by dietary fiber content and butyrate; low-fiber diets reduce MCT1 transporter expression
 - **SCFAs and thyroid disease**:
-  - In [[Hashimotos thyroiditis]], altered Firmicutes/Bacteroidetes ratio leads to reduced butyrate production
+  - In [[hashimotos-thyroiditis]], altered Firmicutes/Bacteroidetes ratio leads to reduced butyrate production
   - [[iodine]] is essential for thyroid function; gut microbiota facilitate iodine availability through mineral absorption
   - [[selenium]] is required for deiodinase activity; gut microbiota composition affects selenium bioavailability
 - **Immune modulation**: SCFAs inhibit HDAC activity, promote Treg differentiation, suppress pro-inflammatory cytokines, and maintain intestinal barrier integrity

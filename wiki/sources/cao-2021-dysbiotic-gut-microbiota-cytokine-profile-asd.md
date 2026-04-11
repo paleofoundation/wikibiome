@@ -39,14 +39,14 @@ No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22
 - Shannon index significantly lower in ASD (p < 0.001, Wilcoxon rank-sum)
 
 ### Depleted in ASD
-- **[[Bacteroides]]** (FDR p < 0.01)
+- **[[bacteroides-fragilis]]** (FDR p < 0.01)
 - **[[Lachnospiraceae]]** family (FDR p < 0.001)
 - These beneficial taxa negatively correlated with pro-inflammatory cytokines IFN-gamma and IL-6
 
 ### Enriched in ASD
-- **[[Clostridium]]** (FDR p < 0.001)
-- **[[Desulfovibrio]]** (FDR p < 0.001)
-- **[[Streptococcus]]** (FDR p < 0.05)
+- **[[clostridium]]** (FDR p < 0.001)
+- **[[desulfovibrio]]** (FDR p < 0.001)
+- **[[streptococcus-pneumoniae]]** (FDR p < 0.05)
 - Also: [[Neisseria]], [[Bacillus]], [[Streptomyces]]
 
 ## Cytokine-Microbiota Correlations
@@ -65,16 +65,16 @@ No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22
 
 - **Saturated SCFA/butyrate biosynthesis**: significantly reduced in ASD (FDR p < 0.001)
 - **Unsaturated fatty acid biosynthesis**: increased in ASD
-- ASD gut microbiome harbors lower capacity for [[butyrate]] and other [[SCFAs]]
+- ASD gut microbiome harbors lower capacity for [[butyrate]] and other [[short-chain-fatty-acids]]
 
 # Relevance to Metallomic Framework
 
 **High relevance** — links [[dysbiosis]], [[inflammation]], and metabolite production:
 
-- Elevated [[Desulfovibrio]] is a sulfate-reducing genus that produces hydrogen sulfide and can mobilize [[iron]] and other metals
-- Depleted [[Bacteroides]] reduces [[SCFA]] production — [[butyrate]] is critical for [[iron]] transporter expression
+- Elevated [[desulfovibrio]] is a sulfate-reducing genus that produces hydrogen sulfide and can mobilize [[iron]] and other metals
+- Depleted [[bacteroides-fragilis]] reduces [[SCFA]] production — [[butyrate]] is critical for [[iron]] transporter expression
 - Pro-inflammatory cytokine storm (IL-6, TNF-alpha, IFN-gamma) drives [[zinc]] redistribution via metallothionein induction
-- [[Clostridium]] enrichment links to [[p-cresol]] production — a known uremic toxin affecting metal metabolism
+- [[clostridium]] enrichment links to [[p-cresol]] production — a known uremic toxin affecting metal metabolism
 - Co-abundance network disruption suggests loss of ecological stability
 
 # Methodological Notes

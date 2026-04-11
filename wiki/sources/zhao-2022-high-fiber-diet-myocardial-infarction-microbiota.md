@@ -44,6 +44,6 @@ pp. 1-8
 
 ## Connections
 
-- Extends findings on [[SCFAs]] and cardiovascular protection
+- Extends findings on [[short-chain-fatty-acids]] and cardiovascular protection
 - Relevant to [[microbiome-immunity interactions]] in [[cardiovascular disease]]
 - Links to [[macrophage polarization]] and cardiac repair mechanisms

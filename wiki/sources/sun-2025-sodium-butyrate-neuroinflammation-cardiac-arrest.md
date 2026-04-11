@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Demonstrates [[SCFAs]] (butyrate) as neuroprotective through the [[gut-brain axis]] in cardiac arrest
+- Demonstrates [[short-chain-fatty-acids]] (butyrate) as neuroprotective through the [[gut-brain axis]] in cardiac arrest
 - TLR4/NF-kB pathway modulation extends [[microbiome and inflammation]] in CVD contexts
 - Microglial polarization connects to [[microbiome and immune system]] in neuroinflammation
 - Gut barrier protection relevant to [[microbiome-host interactions]] and intestinal permeability

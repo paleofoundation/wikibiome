@@ -61,8 +61,8 @@ Narrative review of **dysbiosis and GI disorders in ASD**, emphasizing **bidirec
 
 **Most frequently studied strains**:
 - **[[Bifidobacteria]]** species (especially B. longum, B. infantis)
-- **[[Lactobacillus]]** species (especially L. acidophilus, L. rhamnosus, L. plantarum)
-- **[[Streptococcus]]** species (especially S. thermophilus)
+- **[[lactobacillus]]** species (especially L. acidophilus, L. rhamnosus, L. plantarum)
+- **[[streptococcus-pneumoniae]]** species (especially S. thermophilus)
 
 ### Typical Formulations
 
@@ -126,7 +126,7 @@ Narrative review of **dysbiosis and GI disorders in ASD**, emphasizing **bidirec
 
 - Current understanding: metabolite production, barrier support, immune tolerance
 - **Missing**: metal cofactors of probiotic metabolite-producing enzymes
-- **Questions**: Do [[Bifidobacterium]] and [[Lactobacillus]] have [[iron]]-dependent or [[zinc]]-dependent SCFA enzymes?
+- **Questions**: Do [[bifidobacterium]] and [[lactobacillus]] have [[iron]]-dependent or [[zinc]]-dependent SCFA enzymes?
 - **Prediction**: Probiotic efficacy may depend on adequate [[iron]]/[[zinc]] status to enable metabolite production
 
 ### Dysbiosis Mechanism Enhancement

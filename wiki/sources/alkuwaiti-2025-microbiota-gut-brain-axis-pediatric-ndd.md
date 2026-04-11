@@ -32,8 +32,8 @@ condition: "autism spectrum disorder"
 - Formula feeding: higher diversity of pathogenic species, Firmicutes/Enterobacteriaceae enrichment
 
 **Disorder-specific microbiota patterns:**
-- ASD: increased [[Clostridium]] clusters, [[Desulfovibrio]], decreased [[Bifidobacterium]], [[Prevotella]]
-- ADHD: increased [[Bifidobacterium]], decreased [[Faecalibacterium]]
+- ASD: increased [[clostridium]] clusters, [[desulfovibrio]], decreased [[bifidobacterium]], [[prevotella]]
+- ADHD: increased [[bifidobacterium]], decreased [[faecalibacterium-prausnitzii]]
 - Rett syndrome: increased Erysipelotrichaceae, decreased Bacteroidetes
 
 **Intervention landscape:**

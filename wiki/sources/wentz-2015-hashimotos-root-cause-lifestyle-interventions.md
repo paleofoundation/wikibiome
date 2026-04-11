@@ -19,7 +19,7 @@ platform: wikibiome
 - The three factors for [[thyroid autoimmunity]] are: (1) genes, (2) triggers, and (3) [[intestinal permeability]], and while genes cannot be changed, triggers can be removed and intestinal permeability corrected
 - The "Five R's of Healing Hashimoto's" framework proposes: Remove (iodine, infections, fluoride, toxins, food intolerances, stress), Repair (healing diet, broths, glutamine), Replace (B12, zinc, selenium, ferritin, thyroid hormone, digestive enzymes), Reinoculate ([[probiotics]], [[fermented foods]]), and Rebalance (adaptogens, curcumin, omega-3s)
 - [[Gluten]] and food intolerances promote [[intestinal permeability]], making the immune system unable to recognize self cells, while poorly digested food feeds pathogenic bacteria
-- Multiple diets have been reported to reverse [[Hashimotos thyroiditis]] and other autoimmune conditions, including gluten-free, iodine-free, Specific Carbohydrate Diet, GAPS diet, Paleo diet, Autoimmune Paleo diet, low-FODMAPs diet, and Body Ecology Diet
+- Multiple diets have been reported to reverse [[hashimotos-thyroiditis]] and other autoimmune conditions, including gluten-free, iodine-free, Specific Carbohydrate Diet, GAPS diet, Paleo diet, Autoimmune Paleo diet, low-FODMAPs diet, and Body Ecology Diet
 - [[Fermented foods]] and [[probiotics]] are recommended to reinoculate the gut with beneficial bacteria to displace pathogenic organisms
 - Increasing [[dietary fiber]] by approximately 30 g per day in women with Hashimoto's increases the rate of weight loss and improves efficacy of nutritional therapy
 

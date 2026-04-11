@@ -140,6 +140,12 @@ Se (200 ug/day) combined with vitamin D and methimazole represents the best-stud
 
 Omega-3 PUFA from fish is beneficial for thyroid autoimmunity, but fish consumption also exposes to mercury and other heavy metals that impair thyroid function. Selenium co-supplementation may mitigate this risk through Se-Hg antagonism.
 
+## Comorbidities
+
+- [[hashimotos-thyroiditis]] -- sister autoimmune thyroid disease (AITD) with shared genetics (HLA-DRB1, PTPN22) and mineral dependencies (Se, I, Fe); patients can convert from Graves' to Hashimoto's and vice versa; both feature gut-thyroid axis disruption and SCFA producer depletion
+- [[depression]] -- thyroid hormone fluctuations (hyper- then hypothyroidism during treatment) drive mood instability; shared neuroinflammation via gut-brain axis; tryptophan pathway disruption documented in AITD; depression persists even after achieving euthyroid state in some patients
+- [[anxiety]] -- hyperthyroidism directly causes anxiety symptoms via catecholamine sensitization; Graves' patients have 2-3x higher anxiety rates even after treatment; shared HPA axis dysregulation
+
 ## Connections
 
 - [[metal-disease-matrix]]

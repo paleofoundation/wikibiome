@@ -24,7 +24,7 @@ This review examines dietary interventions that target the microbiome-[[gut-brai
 - High-fiber diets increase SCFA production and promote beneficial bacteria depleted in PD
 - Mediterranean diet components (olive oil, fish, vegetables) have prebiotic and anti-inflammatory effects
 - Protein redistribution diets improve levodopa absorption by reducing amino acid competition
-- [[Probiotics]] supplementation improves constipation and may reduce inflammation in PD
+- [[probiotics]] supplementation improves constipation and may reduce inflammation in PD
 - Coffee consumption correlates with reduced PD risk, possibly through microbiome modulation
 - Dietary polyphenols promote growth of *Akkermansia* and *Faecalibacterium*
 - Nutritional interventions should be integrated with standard PD pharmacotherapy

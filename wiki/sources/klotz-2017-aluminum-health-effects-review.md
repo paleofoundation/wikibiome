@@ -32,3 +32,12 @@ A selective literature review examining the health effects of aluminum exposure,
 ## Relevance to Wiki
 
 Provides comprehensive toxicological reference values for aluminum and establishes the neurotoxicity threshold, relevant to understanding aluminum as a co-contaminant alongside nickel and other heavy metals in food and environmental exposures.
+
+## Connections
+
+- [[aluminum]] -- comprehensive toxicological profile and reference values
+- [[heavy-metals]] -- aluminum as environmental co-contaminant
+- [[blood-brain-barrier]] -- aluminum crosses BBB contributing to neurotoxicity
+- [[environmental-metal-exposure]] -- dietary and occupational aluminum routes
+- [[nickel]] -- co-contaminant in food and environment
+- [[biomarkers]] -- urine and serum aluminum as exposure indicators

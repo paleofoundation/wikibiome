@@ -53,8 +53,8 @@ Multi-platform metabolomics study analyzing **blood plasma from 52 ASD and 30 TD
 **Moderate relevance** — plasma metabolomics captures metal-dependent pathway outputs:
 
 - Many discriminative metabolites likely include metal-cofactor-dependent enzymatic products
-- [[Iron]]-dependent tryptophan and phenylalanine metabolism products likely among features
-- [[Zinc]]-dependent metalloenzyme products captured in metabolomic profiles
+- [[iron]]-dependent tryptophan and phenylalanine metabolism products likely among features
+- [[zinc]]-dependent metalloenzyme products captured in metabolomic profiles
 - Multi-platform approach provides comprehensive small-molecule coverage
 - Potential to identify metal-binding metabolites (e.g., citrate, amino acids)
 

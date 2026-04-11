@@ -17,8 +17,8 @@ platform: wikibiome
 ## Key Claims
 
 - 32 gut microbial taxa are causally linked to the risk of six thyroid diseases (TDs) at the genus level, identified via two-sample [[Mendelian randomization]]
-- For [[Graves' disease]] specifically, protective genera include [[Ruminiclostridium]]9, [[Victivallis]], and [[Butyricimonas]], while risk-increasing genera include [[Eubacterium rectale group]], [[Desulfovibrio]], [[Bifidobacterium]], [[Collinsella]], [[Oscillospira]], and [[Catenibacterium]]
-- [[Bifidobacterium]] shows a paradoxical role: protective against nontoxic multinodular goiter (NMG) but associated with increased risk of [[Graves' disease]]
+- For [[graves-disease]] specifically, protective genera include [[Ruminiclostridium]]9, [[Victivallis]], and [[Butyricimonas]], while risk-increasing genera include [[Eubacterium rectale group]], [[desulfovibrio]], [[bifidobacterium]], [[Collinsella]], [[Oscillospira]], and [[Catenibacterium]]
+- [[bifidobacterium]] shows a paradoxical role: protective against nontoxic multinodular goiter (NMG) but associated with increased risk of [[graves-disease]]
 - [[Butyricimonas]] and [[Lachnospira]] are protective against both GD and Plummer disease, suggesting shared [[short-chain fatty acid]]-mediated protective mechanisms
 - The [[gut-thyroid axis]] operates through immune regulation, anti-inflammatory responses, increased intestinal permeability, and modulation of trace element absorption
 

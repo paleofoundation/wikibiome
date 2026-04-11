@@ -57,7 +57,7 @@ Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and
 
 - Constipation significantly higher in ASD (26.7% moderate + 3.3% severe vs 5% in controls, p = 0.035)
 - Constipated ASD microbiota diverged from non-constipated ASD on weighted UniFrac (beta diversity)
-- **[[Fusobacterium]]**, [[Barnesiella]], [[Coprobacter]], [[Olsenella]], [[Allisonella]], [[Actinomycetaceae]]: associated with constipated ASD
+- **[[fusobacterium]]**, [[Barnesiella]], [[Coprobacter]], [[Olsenella]], [[Allisonella]], [[Actinomycetaceae]]: associated with constipated ASD
 - [[Holdemanella]] overrepresented in non-constipated ASD
 
 # Relevance to Metallomic Framework

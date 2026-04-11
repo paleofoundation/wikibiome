@@ -16,8 +16,8 @@ platform: wikibiome
 
 - A subtle yet intimate nexus exists between the [[gut microbiome]] and pancreatic diseases including [[pancreatitis]], [[pancreatic cancer]], and type 1 diabetes mellitus
 - [[Gut dysbiosis]] has been consistently reported in patients with pancreatic diseases, though causal relationships remain to be fully established
-- [[SCFAs]] production by gut microbiota controls cathelicidin-related antimicrobial peptide (CRAMP) production by insulin-secreting beta-cells, establishing bidirectional gut-pancreas communication
-- Microbiome-based therapeutics including [[probiotics]], [[prebiotics]], [[synbiotics]], and [[FMT]] show promise for pancreatic disease management
+- [[short-chain-fatty-acids]] production by gut microbiota controls cathelicidin-related antimicrobial peptide (CRAMP) production by insulin-secreting beta-cells, establishing bidirectional gut-pancreas communication
+- Microbiome-based therapeutics including [[probiotics]], [[prebiotics]], [[synbiotics]], and [[fecal-microbiota-transplant]] show promise for pancreatic disease management
 
 # Methods/Findings
 
@@ -30,7 +30,7 @@ platform: wikibiome
 
 # Connections
 
-- SCFA-CRAMP axis connects [[SCFAs]] to [[microbiome-host interactions]] in pancreatic innate immunity
+- SCFA-CRAMP axis connects [[short-chain-fatty-acids]] to [[microbiome-host interactions]] in pancreatic innate immunity
 - [[Viral dysbiosis]] and bacterial translocation link to [[microbiome and disease progression]] in pancreatic diseases
 - Therapeutic microbiome modulation approaches relevant to [[probiotics]], [[synbiotics]], and [[microbiome-targeted therapy]]
 - Risk factor overlap between pancreatic diseases and [[comorbidities]] including diabetes and obesity

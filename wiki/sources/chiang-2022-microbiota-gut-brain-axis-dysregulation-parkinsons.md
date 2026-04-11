@@ -26,7 +26,7 @@ This review explores the microbiota-[[gut-brain-axis]] and intestinal microbiome
 - Bacterial amyloid proteins (e.g., curli from *E. coli*) can cross-seed alpha-synuclein aggregation
 - The vagus nerve serves as a conduit for pathological alpha-synuclein spread from gut to brain
 - Gut-derived inflammatory cytokines access the brain through a compromised blood-brain barrier
-- [[Probiotics]] and [[fecal-microbiota-transplant]] show potential as therapeutic interventions for PD
+- [[probiotics]] and [[fecal-microbiota-transplant]] show potential as therapeutic interventions for PD
 - Microbiome-targeted therapies could address prodromal GI symptoms and potentially slow neurodegeneration
 
 ## Relevance to Gut-Metal-Microbiome Axis

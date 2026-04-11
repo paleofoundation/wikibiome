@@ -46,4 +46,4 @@ platform: wikibiome
 - Insulin resistance link connects metabolic and [[autoimmune]] pathways in thyroid disease
 - TSH-driven microbiome shifts relevant to [[dysbiosis]] concept in [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]]
 - Salivary microbiome as biomarker approach complements gut-based molecular signatures in [[li-2024-integrative-gut-microbiome-transcriptome-hashimotos]]
-- TPOAb elevation in high-TSH group links to [[Hashimotos thyroiditis]] autoimmunity
+- TPOAb elevation in high-TSH group links to [[hashimotos-thyroiditis]] autoimmunity

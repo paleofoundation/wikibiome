@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- The overall structure of [[gut microbiota]] in [[Graves disease]] (GD) and [[Hashimotos thyroiditis]] (HT) patients was significantly different from healthy controls, though bacterial abundance and diversity were similar
+- The overall structure of [[gut microbiota]] in [[graves-disease]] (GD) and [[hashimotos-thyroiditis]] (HT) patients was significantly different from healthy controls, though bacterial abundance and diversity were similar
 - [[Proteobacteria]] and [[Actinobacteria]] contents were highest in the HT group; GD and HT groups had higher abundance of Erysipelotrichia and Cyanobacteria and lower levels of Bacillaceae and Megamonas compared to controls
 - KEGG analysis showed that the "ABC transporter" metabolic pathway was highly correlated with the occurrence of GD and HT, with enrichment in carbohydrate transport and metabolism
 - Bacillus, Blautia, and Ornithinimicrobium could be used as potential markers to distinguish GD and HT from healthy populations

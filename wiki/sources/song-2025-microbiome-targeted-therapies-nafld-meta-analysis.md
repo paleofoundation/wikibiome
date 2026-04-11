@@ -15,11 +15,11 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Synbiotics]] (90.9% SUCRA) had the best effectiveness in reducing ALT among all microbiome-targeted therapies, followed by autologous [[FMT]] (76%) and [[prebiotics]] (62.8%)
+- [[Synbiotics]] (90.9% SUCRA) had the best effectiveness in reducing ALT among all microbiome-targeted therapies, followed by autologous [[fecal-microbiota-transplant]] (76%) and [[prebiotics]] (62.8%)
 - Synbiotics were also best for reducing liver stiffness measurement (LSM) by elastography (99.3% SUCRA), superior to [[probiotics]] (67.1%)
 - Autologous FMT (87.7% SUCRA) had the best effectiveness in reducing triglycerides and total cholesterol, followed by allogenic FMT (69.1%) and probiotics (57.2%)
 - Prebiotics (82.3% SUCRA) were most effective for reducing LDL-C; both probiotics and synbiotics significantly reduced HOMA-IR
-- [[Probiotics]] were associated with significant BMI reduction (-0.31 kg/m2, 95% CI: -0.41, -0.21, P<0.001)
+- [[probiotics]] were associated with significant BMI reduction (-0.31 kg/m2, 95% CI: -0.41, -0.21, P<0.001)
 
 ## Methods/Findings
 
@@ -40,5 +40,5 @@ pp. 1-8
 ## Connections
 
 - Relevant to [[cardiovascular disease]] through NAFLD as a shared metabolic risk factor
-- Links to [[probiotics]], [[prebiotics]], and [[FMT]] as microbiome-modulating strategies
+- Links to [[probiotics]], [[prebiotics]], and [[fecal-microbiota-transplant]] as microbiome-modulating strategies
 - Connects to [[metabolic syndrome]] and hepatic-cardiovascular axis

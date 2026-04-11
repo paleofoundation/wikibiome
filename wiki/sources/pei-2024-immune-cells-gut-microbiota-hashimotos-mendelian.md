@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Bidirectional two-sample Mendelian randomization (MR) analysis provides causal evidence linking 15 bacterial traits to the risk of [[Hashimotos thyroiditis]]
+- Bidirectional two-sample Mendelian randomization (MR) analysis provides causal evidence linking 15 bacterial traits to the risk of [[hashimotos-thyroiditis]]
 - Genus Akkermansia (OR=0.7123, p=9.9304E-14) and genus Ruminococcus torques group (OR=0.8781, p=0.0001) showed strong causal protective effects against HT
 - Genus Intestinimonas (OR=1.1963, p=0.0340), genus Turicibacter (OR=1.1618, p=0.0203), and genus Anaerostripes (OR=1.1963, p=0.0340) were positively correlated with HT risk
 - Effector memory (EM) CD4+ T cells were identified as key mediators of the gut microbiota-HT causal relationship

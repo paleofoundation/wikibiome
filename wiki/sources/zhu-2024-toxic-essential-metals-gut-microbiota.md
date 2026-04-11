@@ -16,7 +16,7 @@ platform: wikibiome
 
 - The relationship between heavy metals and [[gut-metal-microbiome|gut microbiota]] is **bidirectional**: metals alter microbiota composition and metabolites, while microbiota modulate metal absorption, speciation, and toxicity
 - Ten common heavy metals are reviewed: [[arsenic]], [[mercury]], [[lead]], [[cadmium]], [[copper]], [[manganese]], [[iron]], [[nickel]], [[chromium]], and [[silicon]]
-- Toxic heavy metals (As, Hg, Pb, Cd) generally decrease microbial diversity, increase Firmicutes/Bacteroidetes ratio shifts, and disrupt [[SCFAs]], [[bile acids]], and amino acid metabolism
+- Toxic heavy metals (As, Hg, Pb, Cd) generally decrease microbial diversity, increase Firmicutes/Bacteroidetes ratio shifts, and disrupt [[short-chain-fatty-acids]], [[bile acids]], and amino acid metabolism
 - Essential trace elements (Fe, Cu, Mn) at physiological levels support microbiota but at excess levels become toxic, demonstrating a dose-dependent relationship
 - [[nickel]] exposure in occupational workers increased Parabacteriadies, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, Blautia; impaired purine degradation and upregulated primary bile acid biosynthesis
 - Combined Cr-Ni exposure caused imbalance of intestinal flora and disorders of metabolites and metabolic pathways, with an antagonistic effect between Ni and Cr
@@ -31,7 +31,7 @@ platform: wikibiome
 - Pb exposure: reduces Ruminococcus, Coprococcus, Oscillospira, Blautia; decreases vitamin E, bile acids, nitrogen/energy metabolism; activates oxidative stress and detoxification
 - Cd exposure: increases Helicobacter, Campylobacter; enhanced mammary tumorigenesis; disrupts gut-liver axis
 - Ni exposure at occupational levels: serum uric acid elevation, purine nucleoside accumulation, systemic inflammation; mouse studies confirmed inflammation-related taxa increases
-- Probiotics including [[Lactobacillus]], [[Bifidobacterium]], [[Akkermansia muciniphila]] shown as protective "next-generation probiotics"
+- Probiotics including [[lactobacillus]], [[bifidobacterium]], [[Akkermansia muciniphila]] shown as protective "next-generation probiotics"
 
 # Connections
 

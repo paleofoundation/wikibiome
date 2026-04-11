@@ -39,7 +39,7 @@ Bidirectional two-sample **Mendelian randomization (MR)** study using summary st
 ## Mechanistic Insights
 
 - [[Prevotellaceae]] promotes inflammation, infiltrates mucosal layers, triggers T-cell and antibody responses
-- *Ruminococcaceae UCG005* produces [[SCFAs]] including butyrate, which is widely considered beneficial for gut health
+- *Ruminococcaceae UCG005* produces [[short-chain-fatty-acids]] including butyrate, which is widely considered beneficial for gut health
 - *Turicibacter* fermentation enhances inhibitory effects on serotonin signaling and Wnt signaling pathways
 
 # Connections

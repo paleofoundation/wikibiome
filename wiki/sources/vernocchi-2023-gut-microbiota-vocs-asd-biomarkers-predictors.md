@@ -59,7 +59,7 @@ Integrated gut volatilome (GC-MS/SPME) and metataxonomic (16S rRNA) study of **4
 **High relevance** — VOC profiling captures metal-dependent metabolic outputs:
 
 - **[[Indole]]** and **skatole**: tryptophan microbial degradation products — tryptophan metabolism is [[iron]]-dependent (IDO/TDO require iron)
-- **[[p-Cresol]]**: tyrosine metabolite produced by [[Clostridium]] — inhibits dopamine-beta-hydroxylase (a [[copper]]-dependent enzyme)
+- **[[p-Cresol]]**: tyrosine metabolite produced by [[clostridium]] — inhibits dopamine-beta-hydroxylase (a [[copper]]-dependent enzyme)
 - **Acetic acid**: produced by multiple bacteria including [[Desulfovibrionaceae]] (iron-sequestering sulfate reducers)
 - VOC profiles may serve as non-invasive proxy for metal-dependent metabolic pathway disruption
 - Machine learning models could incorporate metallomic features for improved classification

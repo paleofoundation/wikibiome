@@ -42,6 +42,6 @@ platform: wikibiome
 
 - Provides mechanistic support for probiotic-mediated immune modulation in MS, complementing human trials: [[tamtaji-2017-probiotic-gene-expression-ms]] and [[kouchaki-2017-clinical-metabolic-probiotic-ms]]
 - The Th1-to-Th2 shift complements findings in [[libbey-2018-diet-microbiota-eae]] where *Lactobacillus* reduced EAE severity through immune modulation
-- *S. thermophilus* is a [[Streptococcus]] species relevant to [[akbari-2022-metal-homeostasis-streptococci]] which reviews metal transport in pathogenic streptococci -- the same genus with very different host interactions
+- *S. thermophilus* is a [[streptococcus-pneumoniae]] species relevant to [[akbari-2022-metal-homeostasis-streptococci]] which reviews metal transport in pathogenic streptococci -- the same genus with very different host interactions
 - The IL-10 increase is particularly relevant to MS therapy since IL-10 suppresses [[TNF-alpha]], IFN-gamma, [[IL-1]], and IL-17, which are the key cytokines also affected by [[tankou-2018-probiotic-microbiome-ms]]
 - Connects to broader [[microbiome-immune-modulation]] and [[gut-brain-axis]] themes

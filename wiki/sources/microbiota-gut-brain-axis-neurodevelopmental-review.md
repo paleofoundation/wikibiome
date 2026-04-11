@@ -137,10 +137,10 @@ Comprehensive review of the **microbiota–gut–brain axis in neurodevelopmenta
 - Bacterial tryptophan metabolism: [[iron]]-dependent IDO and other tryptophanases
 
 ### Immune Pathway
-- [[Zinc]]-dependent T-cell signaling, IL-2 receptor, Treg development
-- [[Iron]]-dependent Th17 differentiation (IL-17 production)
-- [[Zinc]]-dependent NF-κB (inflammation control)
-- [[Iron]]-dependent TLR signaling (pattern recognition)
+- [[zinc]]-dependent T-cell signaling, IL-2 receptor, Treg development
+- [[iron]]-dependent Th17 differentiation (IL-17 production)
+- [[zinc]]-dependent NF-κB (inflammation control)
+- [[iron]]-dependent TLR signaling (pattern recognition)
 - BBB tight junction proteins: [[zinc]]-dependent claudins, occludin
 
 ### Endocrine/Metabolic Pathway

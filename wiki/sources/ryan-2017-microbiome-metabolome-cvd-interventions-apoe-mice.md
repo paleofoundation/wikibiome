@@ -49,4 +49,4 @@ Preclinical study characterizing the compositional and functional effects of thr
 
 ## Relevance to the Wiki
 
-Demonstrates that dietary and probiotic interventions can simultaneously modify gut microbiome composition, [[metabolites]] including [[TMAO]], and [[atherosclerosis]] outcomes. PSE emerges as the most effective intervention for plaque reduction and TMA suppression. Supports the concept that microbiome-targeted therapies have potential for CVD prevention.
+Demonstrates that dietary and probiotic interventions can simultaneously modify gut microbiome composition, [[metabolites]] including [[tmao]], and [[atherosclerosis]] outcomes. PSE emerges as the most effective intervention for plaque reduction and TMA suppression. Supports the concept that microbiome-targeted therapies have potential for CVD prevention.

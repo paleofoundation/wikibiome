@@ -177,6 +177,13 @@ Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 month
 - Does prenatal cadmium/lead screening predict later IBD risk, given lasting microbiome effects?
 - Would combined E. coli Nissle 1917 (siderophore competition) plus targeted prebiotics (F. prausnitzii restoration) represent an optimal two-sided ecological intervention?
 
+## Comorbidities
+
+- [[colorectal-cancer]] -- Crohn's colitis confers 2-3x increased CRC risk via the inflammation-dysplasia-carcinoma sequence; shared Fusobacterium nucleatum enrichment, NF-kB activation, and barrier dysfunction; surveillance colonoscopy recommended after 8 years of colonic CD
+- [[depression]] -- depression prevalence is 20-30% in CD, far exceeding population rates; shared gut-brain axis disruption via SCFA depletion and tryptophan pathway shifts; inflammation-driven neuroinflammation through LPS translocation and microglial activation; anti-TNF therapy improves both intestinal and depressive symptoms
+- [[rheumatoid-arthritis]] -- shared autoimmune architecture (HLA-DRB1, PTPN22); anti-TNF agents (infliximab) treat both; Crohn's extraintestinal manifestations include inflammatory arthropathy; mucosal immune priming in the gut may trigger joint autoimmunity
+- [[anxiety]] -- anxiety disorders affect up to 35% of IBD patients; bidirectional gut-brain axis disruption; disease unpredictability compounds neurobiological anxiety mechanisms; vagal signaling disruption from gut inflammation
+
 ## Connections
 
 - [[metal-disease-matrix]]

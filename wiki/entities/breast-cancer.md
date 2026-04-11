@@ -110,6 +110,13 @@ The microbiome connection operates through several metal-relevant pathways:
 5. **Cuproptosis in therapy**: Can copper-dependent cell death (via FDX1) be therapeutically exploited in breast cancer, given the elevated Cu in tumor tissue?
 6. **Developmental windows**: No studies have evaluated chronic low-dose Cd or Ni exposure during puberty or pregnancy -- the critical windows for breast tissue development.
 
+## Comorbidities
+
+- [[pcos]] -- shared metalloestrogen pathway (Cd, Ni bind ERa); both feature copper elevation and oxidative stress; PCOS insulin resistance increases breast cancer risk through hyperinsulinemia-driven cell proliferation
+- [[obesity]] -- elevated BMI increases circulating estrogen via adipose aromatase activity; obesity-associated dysbiosis overlaps with breast cancer microbiome shifts; shared Cu/Zn ratio disruption
+- [[type-2-diabetes]] -- insulin resistance and hyperinsulinemia promote breast cancer cell proliferation via IGF-1 pathway; metformin use in T2D is associated with reduced breast cancer risk; shared gut dysbiosis patterns
+- [[depression]] -- breast cancer patients have 3-4x higher depression rates; shared gut-brain axis disruption and systemic inflammation; dysbiosis-driven tryptophan pathway shifts reduce serotonin precursor availability
+
 ## Connections
 
 - [[metalloestrogens]] -- Cd and Ni as ERa-binding metals; the metalloestrogen hypothesis is most developed for breast cancer

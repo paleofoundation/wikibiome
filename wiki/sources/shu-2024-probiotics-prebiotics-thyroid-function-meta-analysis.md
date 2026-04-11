@@ -16,10 +16,10 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Probiotics]] and [[prebiotics]] supplementation does not significantly influence [[thyroid hormone]] levels (TSH, fT4, fT3) but may modestly reduce TRAb levels in patients with [[Graves disease]]
+- [[probiotics]] and [[prebiotics]] supplementation does not significantly influence [[thyroid hormone]] levels (TSH, fT4, fT3) but may modestly reduce TRAb levels in patients with [[graves-disease]]
 - Meta-analysis of 8 RCTs showed no significant alterations in TSH (SMD: -0.01, 95% CI: -0.21, 0.20, P=0.93) or fT4 (SMD: 0.04, 95% CI: -0.29, 0.21, P=0.73) or fT3 (SMD: 0.45, 95% CI: -0.14, 1.03, P=0.43; I-squared=78%)
 - A significant reduction in TRAb levels was observed (SMD: -0.85, 95% CI: -1.54, -0.15, P=0.02; I-squared=18%) following probiotic/prebiotic supplementation, with no indication of publication bias
-- Various regimens were tested across 3 countries (China, Iran, Italy): [[Lactobacillus]], [[Bifidobacterium]], Streptococcus, Enterococcus, Bacillus probiotics; fructo-oligosaccharides, black bean, Elaeagnus angustifolia prebiotics; berberine; and synbiotics
+- Various regimens were tested across 3 countries (China, Iran, Italy): [[lactobacillus]], [[bifidobacterium]], Streptococcus, Enterococcus, Bacillus probiotics; fructo-oligosaccharides, black bean, Elaeagnus angustifolia prebiotics; berberine; and synbiotics
 
 ## Methods/Findings
 

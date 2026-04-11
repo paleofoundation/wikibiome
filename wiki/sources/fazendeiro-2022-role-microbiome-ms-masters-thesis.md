@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-This master's thesis from the University of Lisbon (Faculty of Pharmacy) provides a comprehensive review of the role of the [[gut-microbiome]] in [[multiple-sclerosis]], covering the gut-brain axis, dysbiosis in MS, microbial metabolites, and therapeutic implications including [[probiotics]] and [[FMT]].
+This master's thesis from the University of Lisbon (Faculty of Pharmacy) provides a comprehensive review of the role of the [[gut-microbiome]] in [[multiple-sclerosis]], covering the gut-brain axis, dysbiosis in MS, microbial metabolites, and therapeutic implications including [[probiotics]] and [[fecal-microbiota-transplant]].
 
 ## Relevance to Gut-Metal-Microbiome Axis
 

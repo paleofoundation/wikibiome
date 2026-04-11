@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Hashimotos thyroiditis]] (HT) patients reported significantly higher intake frequencies of animal foods (meat, P=0.0001; fish, P=0.0001; dairy, P=0.004) compared to controls, who consumed more plant foods (legumes, P=0.001; fruits/vegetables, P=0.030; nuts, P=0.0005)
+- [[hashimotos-thyroiditis]] (HT) patients reported significantly higher intake frequencies of animal foods (meat, P=0.0001; fish, P=0.0001; dairy, P=0.004) compared to controls, who consumed more plant foods (legumes, P=0.001; fruits/vegetables, P=0.030; nuts, P=0.0005)
 - Meat consumption was associated with increased odds ratio of developing [[thyroid autoimmunity]], while [[Mediterranean diet]] traits were protective
 - HT subjects had significantly higher serum [[advanced glycation end products]] (AGEs, markers of [[oxidative stress]], P=0.0001) and lower activity of [[glutathione peroxidase]] (P=0.020), [[thioredoxin reductase]] (P=0.023), and total plasma antioxidant activity (P=0.002)
 - Stepwise regression models demonstrated a significant dependence of oxidative stress parameters on consumption of animal foods, mainly meat
@@ -38,4 +38,4 @@ platform: wikibiome
 - Oxidative stress in HT connects to [[selenium]] and selenoenzyme pathways discussed in [[brock-2015-selenium-thyroid-autoimmunity]] and [[brylinski-2025-trace-elements-thyroid-diseases]]
 - Dietary polyphenol and antioxidant effects relevant to [[Dietary Polyphenols]] and their role in gut microbiome modulation
 - Findings support plant-based dietary recommendations in [[puszkarz-2018-food-nutrition-hashimotos-prevention]]
-- AGE accumulation links to systemic [[inflammation]] and immune dysregulation in [[Hashimotos thyroiditis]]
+- AGE accumulation links to systemic [[inflammation]] and immune dysregulation in [[hashimotos-thyroiditis]]

@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Dietary fiber]] fermentation by gut bacteria produces [[SCFAs]] including butyrate, linking to [[microbiome-derived metabolites]]
+- [[Dietary fiber]] fermentation by gut bacteria produces [[short-chain-fatty-acids]] including butyrate, linking to [[microbiome-derived metabolites]]
 - [[High-fiber diet]] modulates [[gut microbiome]] composition, increasing beneficial bacteria relevant to [[prebiotics]] effects
 - Anti-inflammatory properties of fiber connect to [[microbiome and inflammation]] pathways in pancreatic cancer prevention
 - Supports [[Mediterranean diet]] and plant-based dietary approaches for cancer risk reduction

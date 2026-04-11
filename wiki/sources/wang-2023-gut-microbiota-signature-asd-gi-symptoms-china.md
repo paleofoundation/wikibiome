@@ -15,7 +15,7 @@ condition: "autism spectrum disorder"
 
 # Overview
 
-16S rRNA gene sequencing study of fecal samples from **42 ASD children and 41 healthy controls** (ages 2.5-9.6 years) in southeastern coastal China (Fujian Province). Identified significant differences in gut microbiota composition and metabolic pathways, with ASD children showing enrichment of [[Streptococcus]], [[Ruminococcus]], and [[Ruminiclostridium]] and depletion of [[Flavonifractor]] and other beneficial taxa.
+16S rRNA gene sequencing study of fecal samples from **42 ASD children and 41 healthy controls** (ages 2.5-9.6 years) in southeastern coastal China (Fujian Province). Identified significant differences in gut microbiota composition and metabolic pathways, with ASD children showing enrichment of [[streptococcus-pneumoniae]], [[ruminococcus]], and [[Ruminiclostridium]] and depletion of [[Flavonifractor]] and other beneficial taxa.
 
 # Key Findings
 
@@ -39,8 +39,8 @@ condition: "autism spectrum disorder"
 - **[[Flavonifractor]]**, *UBA1819*, *Bradyrhizobium*
 
 ### Dominant/Enriched in ASD
-- **[[Streptococcus]]** (p < 0.05)
-- **[[Ruminococcus]]** (p < 0.05) — CARS negatively correlated with *g_Ruminococcus_1*
+- **[[streptococcus-pneumoniae]]** (p < 0.05)
+- **[[ruminococcus]]** (p < 0.05) — CARS negatively correlated with *g_Ruminococcus_1*
 - **[[Ruminiclostridium]]** (p < 0.05)
 - **[[Lactococcus]]** (p < 0.05)
 - *Lachnospiraceae NC2004* (p < 0.05)
@@ -62,14 +62,14 @@ condition: "autism spectrum disorder"
 - **Inorganic pyrophosphatase**: notably elevated in ASD
 
 ## Microbial Co-Evolution
-- Continuous evolutionary relationship at 5 taxonomic levels: [[Firmicutes]], [[Bacilli]], [[Lactobacillales]], [[Streptococcaceae]], [[Streptococcus]], Firmicutes, [[Bacilli]], [[Lactobacillales]], [[Streptococcaceae]], and [[Lactococcus]]
-- [[Streptococcus]] and [[Lactococcus]] abundance linked through shared evolutionary pathway
+- Continuous evolutionary relationship at 5 taxonomic levels: [[Firmicutes]], [[Bacilli]], [[Lactobacillales]], [[Streptococcaceae]], [[streptococcus-pneumoniae]], Firmicutes, [[Bacilli]], [[Lactobacillales]], [[Streptococcaceae]], and [[Lactococcus]]
+- [[streptococcus-pneumoniae]] and [[Lactococcus]] abundance linked through shared evolutionary pathway
 
 # Relevance to Metallomic Framework
 
 **Moderate relevance** — microbiota shifts with metabolic implications:
 
-- Enriched [[Streptococcus]] in ASD — streptococci have complex metal homeostasis mechanisms (Mn, Zn transport)
+- Enriched [[streptococcus-pneumoniae]] in ASD — streptococci have complex metal homeostasis mechanisms (Mn, Zn transport)
 - Depleted [[Flavonifractor]] — this genus metabolizes flavonoids which chelate metals and modulate [[iron]] absorption
 - Alpha-linolenic acid pathway reduction may affect membrane fluidity and metal transporter function
 - High GI symptom prevalence (constipation, diarrhea) suggests impaired intestinal transit affecting mineral absorption

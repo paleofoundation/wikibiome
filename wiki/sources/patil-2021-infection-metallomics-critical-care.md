@@ -18,7 +18,7 @@ platform: wikibiome
 
 - "Infection metallomics" is a mass spectrometry platform for detecting microbial metallophores (metal-chelating small molecules) as specific, sensitive, non-invasive [[biomarkers]] of invasive infectious diseases, capable of discriminating invasive disease from benign colonization
 - Microbial metallophores are produced by bacterial, mycobacterial, and fungal pathogens as [[virulence-factors]] for metal acquisition; their detection can identify pathogens hours to days faster than culture-based methods
-- [[Iron]]-acquiring siderophores are the most diagnostically important metallophores, but [[copper]]-, [[zinc]]-, [[nickel]]-, and [[cobalt]]-binding metallophores also have significant diagnostic potential
+- [[iron]]-acquiring siderophores are the most diagnostically important metallophores, but [[copper]]-, [[zinc]]-, [[nickel]]-, and [[cobalt]]-binding metallophores also have significant diagnostic potential
 - The "frenemy" concept -- microbes acting cooperatively with the host until the host becomes immunocompromised, then becoming pathogenic -- is central to understanding when metallophore production shifts from commensal to virulent behavior
 - Post-COVID-era applications include monitoring SARS-CoV-2 coinfections and secondary bacterial/fungal superinfections, which caused 19.4% mortality in critically ill COVID patients
 

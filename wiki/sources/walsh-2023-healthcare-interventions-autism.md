@@ -51,3 +51,12 @@ Systematic review of 31 studies evaluating interventions to improve **healthcare
 - Published online August 26, 2021; print 2023
 - 18 pages, comprehensive literature synthesis
 - Emphasizes need for **autistic community involvement** in research design
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- healthcare access barriers and interventions
+- [[comorbidities]] -- increased morbidity in autistic populations
+- [[biomarkers]] -- barriers to biomarker-driven clinical research
+- [[gut-brain-axis]] -- practical implications for microbiome study recruitment
+- [[probiotics]] -- healthcare access affects intervention adherence
+- [[dysbiosis]] -- clinical investigation challenges in ASD populations

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Genetically predicted [[inflammatory bowel disease]] (IBD) may increase the risk of [[Graves' disease]] (GD) by 24% (OR 1.24, 95% CI 1.01-1.52, P = .041)
+- Genetically predicted [[inflammatory bowel disease]] (IBD) may increase the risk of [[graves-disease]] (GD) by 24% (OR 1.24, 95% CI 1.01-1.52, P = .041)
 - [[Crohn's disease]] (CD) had a notable causal effect on GD (OR 1.30, 95% CI 1.06-1.59, P = .010), whereas genetically predicted [[ulcerative colitis]] (UC) may be protective against GD (OR 0.71, 95% CI 0.58-0.86, P < .001)
 - CD and UC exhibit contradictory relationships with GD despite both being classified as IBD, suggesting deeper unrecognized mechanistic differences between the two conditions
 - Genetically predicted GD was not significantly associated with IBD (OR 1.04, P = .618), though it showed a trend toward increasing CD risk (OR 1.23, P = .057)

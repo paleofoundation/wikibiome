@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Hashimotos thyroiditis]] is associated with mitochondrial dysfunction, micronutrient decreased bioavailability, microbiome imbalances, and carbohydrate and fatty acids dysfunctional metabolism
+- [[hashimotos-thyroiditis]] is associated with mitochondrial dysfunction, micronutrient decreased bioavailability, microbiome imbalances, and carbohydrate and fatty acids dysfunctional metabolism
 - Methylmalonic acid and 4-hydroxyphenylpyruvic acid were the strongest metabolic biomarkers for HT, remaining significant after Bonferroni correction (p=0.001)
 - 3-Hydroxybutyric acid was significantly elevated in HT (4.45 vs 2.85, p=0.009), suggesting altered ketone body metabolism
 - Palmitic acid (C16:0), myristoleic acid (C14:1), saturated fatty acids (SFA), and palmitoleic/palmitic ratio (C16:1n7/C16:0) were statistically significant biomarkers for HT

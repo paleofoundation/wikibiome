@@ -16,13 +16,13 @@ platform: wikibiome
 
 ## Summary
 
-Comprehensive review covering how gut [[dysbiosis]] promotes CVD risk factors including [[atherosclerosis]], [[hypertension]], and heart failure through microbial metabolites such as [[TMAO]], [[SCFAs]], and [[bile acids]]. Discusses therapeutic interventions including prebiotics, [[probiotics]], [[antibiotics]], [[FMT]], and dietary strategies.
+Comprehensive review covering how gut [[dysbiosis]] promotes CVD risk factors including [[atherosclerosis]], [[hypertension]], and heart failure through microbial metabolites such as [[tmao]], [[short-chain-fatty-acids]], and [[bile acids]]. Discusses therapeutic interventions including prebiotics, [[probiotics]], [[antibiotics]], [[fecal-microbiota-transplant]], and dietary strategies.
 
 ## Key Findings
 
 ### Gut Microbiota and TMAO
 - TMA produced from choline, lecithin, and L-carnitine by gut bacteria via cutC/cutD genes
-- Hepatic FMO3 converts TMA to [[TMAO]], which promotes atherosclerosis via lipid accumulation and macrophage activation
+- Hepatic FMO3 converts TMA to [[tmao]], which promotes atherosclerosis via lipid accumulation and macrophage activation
 - Elevated TMAO associated with increased CVD risk and mortality
 
 ### Microbial Diversity Changes in CVD
@@ -38,7 +38,7 @@ Comprehensive review covering how gut [[dysbiosis]] promotes CVD risk factors in
 
 ### Therapeutic Interventions
 - Nutritional therapy via [[prebiotics]] and [[probiotics]] as accessible intervention
-- [[FMT]] as innovative approach for managing CVD
+- [[fecal-microbiota-transplant]] as innovative approach for managing CVD
 - TMAO reduction through dietary modifications (reducing choline-rich foods)
 - [[Antibiotics]] can modulate but carry risks of resistance and collateral damage
 

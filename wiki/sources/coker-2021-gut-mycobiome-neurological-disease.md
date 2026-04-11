@@ -21,7 +21,7 @@ This review examines the emerging role of the [[gut-mycobiome]] (fungal componen
 
 ## Key Findings
 
-- The gut mycobiome is dominated by genera including *[[Candida]]*, *[[Saccharomyces]]*, *[[Malassezia]]*, and *[[Aspergillus]]* in healthy individuals
+- The gut mycobiome is dominated by genera including *[[candida-albicans]]*, *[[Saccharomyces]]*, *[[Malassezia]]*, and *[[Aspergillus]]* in healthy individuals
 - Fungal [[dysbiosis]] is associated with increased intestinal permeability and systemic [[inflammation]] via beta-glucan activation of [[Dectin-1]] receptors
 - In [[parkinsons-disease]], altered mycobiome composition may contribute to [[alpha-synuclein]] aggregation through gut-derived inflammatory signals
 - Fungal-bacterial interactions (interkingdom crosstalk) modulate immune responses -- *Candida* expansion often coincides with bacterial dysbiosis

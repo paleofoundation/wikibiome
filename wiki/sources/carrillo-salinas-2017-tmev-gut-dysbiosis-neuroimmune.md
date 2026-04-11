@@ -43,5 +43,5 @@ platform: wikibiome
 - [[antibiotics]] -- ABX depletion of microbiota paradoxically worsens acute viral disease outcome
 - [[microglia]] -- ABX enhances microglial activation despite reducing T cell infiltration
 - [[intestinal-permeability]] -- TMEV infection increases gut permeability with tight junction disruption
-- [[Akkermansia]] -- transiently depleted during acute viral phase, recovered chronically
+- [[akkermansia-muciniphila]] -- transiently depleted during acute viral phase, recovered chronically
 - [[dysbiosis]] -- viral CNS infection as driver of gut dysbiosis (reverse gut-brain axis direction)

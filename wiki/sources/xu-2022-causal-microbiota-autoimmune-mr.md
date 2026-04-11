@@ -16,9 +16,9 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Bifidobacterium]] was the only genus with a replicated causal relationship to autoimmune diseases, specifically increasing risk of type 1 diabetes (OR 1.605, P_FDR = 4.19 x 10^-7) and celiac disease (OR 1.401, P_FDR = 2.03 x 10^-3)
-- For [[multiple-sclerosis]] specifically, higher genetically predicted [[Bifidobacterium]] showed a trend toward increased risk (OR 1.384, P_FDR = 0.012 in discovery; OR 1.001 in replication) but did not reach significance after replication
-- [[Ruminococcus]] was associated with higher risk of SLE (OR 5.593), IBD (OR 2.141), and MS (OR 2.890) in discovery samples, but these associations did not replicate
+- [[bifidobacterium]] was the only genus with a replicated causal relationship to autoimmune diseases, specifically increasing risk of type 1 diabetes (OR 1.605, P_FDR = 4.19 x 10^-7) and celiac disease (OR 1.401, P_FDR = 2.03 x 10^-3)
+- For [[multiple-sclerosis]] specifically, higher genetically predicted [[bifidobacterium]] showed a trend toward increased risk (OR 1.384, P_FDR = 0.012 in discovery; OR 1.001 in replication) but did not reach significance after replication
+- [[ruminococcus]] was associated with higher risk of SLE (OR 5.593), IBD (OR 2.141), and MS (OR 2.890) in discovery samples, but these associations did not replicate
 - Reverse MR analysis showed no evidence that T1D or CeD causally affect Bifidobacterium abundance, supporting a microbiota-to-disease causal direction
 - The causal effects of Bifidobacterium may be species- and strain-specific, as some strains have pro-inflammatory effects while others are anti-inflammatory
 

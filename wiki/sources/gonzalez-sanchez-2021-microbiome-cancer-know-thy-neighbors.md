@@ -24,7 +24,7 @@ platform: wikibiome
 - **Barrier failure mechanisms**: *Fusobacterium nucleatum* promotes NF-kB activation and Wnt/beta-catenin signaling; disrupts E-cadherin junctions increasing permeability
 - **Colibactin**: Genotoxin from B2 phylogenetic group of *E. coli* producing double-strand DNA breaks; *pks* island expression correlated with CRC development
 - **Immune modulation**: Intratumoral bacteria can promote or suppress antitumor immunity; *Bacteroides fragilis* and *H. pylori* associated with specific immune responses
-- **Metabolic regulation**: [[SCFAs]] (butyrate, acetate, propionate) exert diverse effects on host physiology; butyrate induces anti-inflammatory responses via IL-18 and antimicrobial peptides
+- **Metabolic regulation**: [[short-chain-fatty-acids]] (butyrate, acetate, propionate) exert diverse effects on host physiology; butyrate induces anti-inflammatory responses via IL-18 and antimicrobial peptides
 - **Intratumoral microbiome in pancreatic cancer**: Long-term survivors had higher intratumoral bacterial diversity and distinct microbiome signature with *Pseudoxanthomonas*, *Streptomyces*, *Saccharopolyspora*
 - **Fungal involvement**: *Malassezia* colonization of pancreatic tumors promotes tumorigenesis via mannose-binding lectin activation
 
@@ -32,4 +32,4 @@ platform: wikibiome
 
 - [[Microbial metabolites]] including SCFAs link to [[microbiome-derived metabolites]] research in pancreatic cancer
 - Colibactin-producing *E. coli* and [[DNA damage]] connect to [[microbiome and disease progression]] pathways
-- Intratumoral microbiome diversity in long-term survivors relevant to [[FMT]] and [[microbiome-targeted therapy]] approaches
+- Intratumoral microbiome diversity in long-term survivors relevant to [[fecal-microbiota-transplant]] and [[microbiome-targeted therapy]] approaches

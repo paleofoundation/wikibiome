@@ -76,3 +76,12 @@ Could be enhanced by:
 - Published in *Nutrients* (peer-reviewed, open-access)
 - Addresses gap: most ASD microbiota papers describe dysbiosis but few show intervention + symptom correlation
 - First steps toward microbiota-targeted therapy for ASD
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- microbiota-targeted intervention trial
+- [[dysbiosis]] -- baseline ASD microbiota differs from controls
+- [[gut-microbiome]] -- Juvenal shifts composition toward typical profile
+- [[probiotics]] -- biological response modifier as probiotic-adjacent therapy
+- [[gut-brain-axis]] -- microbiota changes correlated with behavioral symptoms
+- [[biomarkers]] -- stool microbiota composition as treatment response marker

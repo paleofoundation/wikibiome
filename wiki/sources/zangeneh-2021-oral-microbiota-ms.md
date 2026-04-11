@@ -17,8 +17,8 @@ platform: wikibiome
 ## Key Claims
 
 - The oral microbiota of [[multiple-sclerosis]] patients is significantly different from healthy controls, with greater total bacterial diversity in the patient group
-- [[Lactobacillus]] and [[Peptostreptococcus]] were significantly higher in the healthy group (OR 0.039 and 0.250 respectively), suggesting a protective role against MS pathogenesis
-- [[Prevotella]], [[Porphyromonas]], [[Bacteroides]], [[Actinomyces]], [[Staphylococcus]], [[Fusobacterium]], and [[Propionibacterium]] were significantly more abundant in MS patients
+- [[lactobacillus]] and [[Peptostreptococcus]] were significantly higher in the healthy group (OR 0.039 and 0.250 respectively), suggesting a protective role against MS pathogenesis
+- [[prevotella]], [[Porphyromonas]], [[bacteroides-fragilis]], [[Actinomyces]], [[Staphylococcus]], [[fusobacterium]], and [[Propionibacterium]] were significantly more abundant in MS patients
 - [[Veillonella]] was found exclusively in the MS patient group
 - DGGE detected more bacterial genera/species than culture methods, identifying at least 10 different bacteria per sample
 
@@ -33,7 +33,7 @@ platform: wikibiome
 ## Connections
 
 - Complements gut microbiome studies like [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and [[jangi-2016-gut-microbiome-alterations-ms]] by extending dysbiosis analysis to the oral cavity
-- The finding that [[Prevotella]] is elevated in MS oral microbiota contrasts with gut studies showing decreased Prevotella in MS, suggesting site-specific microbiome differences
-- The protective role of [[Lactobacillus]] aligns with findings in [[tamtaji-2017-probiotic-gene-expression-ms]] and [[tankou-2018-probiotic-microbiome-ms]] regarding probiotic Lactobacillus supplementation benefits
+- The finding that [[prevotella]] is elevated in MS oral microbiota contrasts with gut studies showing decreased Prevotella in MS, suggesting site-specific microbiome differences
+- The protective role of [[lactobacillus]] aligns with findings in [[tamtaji-2017-probiotic-gene-expression-ms]] and [[tankou-2018-probiotic-microbiome-ms]] regarding probiotic Lactobacillus supplementation benefits
 - Connects to the broader [[oral-microbiome]] and [[gut-brain-axis]] relationship in autoimmune neurological disease
 - The role of oral bacteria in activating [[Th17]] cells and producing [[IL-17]], [[IL-21]], and [[IL-22]] links to immune dysregulation in MS

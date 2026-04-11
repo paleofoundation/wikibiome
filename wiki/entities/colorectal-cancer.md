@@ -164,6 +164,13 @@ Iron intersects with CRC through multiple pathways:
 
 The starkest evidence comes from African American vs rural African comparisons: CRC rates of 65 vs <5 per 100,000, with *Prevotella* predominant in native Africans (high fiber) and *Bacteroides* predominant in African Americans (high fat/protein). This dietary selection of the microbiome mediates the majority of CRC risk.
 
+## Comorbidities
+
+- [[inflammatory-bowel-disease]] -- IBD is the strongest established risk factor for CRC; chronic colonic inflammation drives the inflammation-dysplasia-carcinoma sequence; shared Fusobacterium nucleatum enrichment and SCFA producer depletion
+- [[crohns-disease]] -- Crohn's colitis confers a 2-3x increased CRC risk; shared NF-kB/Wnt signaling crosstalk, barrier dysfunction, and Enterobacteriaceae bloom; the same metal-driven dysbiosis cascade underlies both
+- [[obesity]] -- obesity increases CRC risk by 30%; shared high-fat diet, elevated secondary bile acids (DCA/LCA), and gut dysbiosis; adipokine dysregulation promotes tumor microenvironment inflammation
+- [[type-2-diabetes]] -- T2D increases CRC risk by 20-30%; shared insulin resistance, hyperinsulinemia (IGF-1 axis promotes cell proliferation), and SCFA depletion; metformin may be protective through AMPK activation and microbiome modulation
+
 ## Connections
 
 - [[metal-disease-matrix]]

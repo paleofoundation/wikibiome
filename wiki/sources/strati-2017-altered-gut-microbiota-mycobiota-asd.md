@@ -15,7 +15,7 @@ condition: "autism spectrum disorder"
 
 # Overview
 
-Characterization of both **bacterial and fungal (mycobiota) gut communities** in 40 autistic vs 40 neurotypical Italian subjects using amplicon-based metataxonomic sequencing of 16S rRNA (V3-V5) and fungal ITS1. Found altered Firmicutes/Bacteroidetes ratio, enrichment of [[Lactobacillus]], [[Collinsella]], [[Corynebacterium]], and notably a trend toward doubled [[Candida]] abundance in ASD. First study to characterize gut mycobiota in ASD.
+Characterization of both **bacterial and fungal (mycobiota) gut communities** in 40 autistic vs 40 neurotypical Italian subjects using amplicon-based metataxonomic sequencing of 16S rRNA (V3-V5) and fungal ITS1. Found altered Firmicutes/Bacteroidetes ratio, enrichment of [[lactobacillus]], [[Collinsella]], [[Corynebacterium]], and notably a trend toward doubled [[candida-albicans]] abundance in ASD. First study to characterize gut mycobiota in ASD.
 
 # Key Findings
 
@@ -26,7 +26,7 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 - Bacteroidetes reduced: 9.2% ASD vs 19.4% NT (FDR p < 0.05)
 
 ### Enriched in ASD (LEfSe, LDA > 2.0)
-- **[[Lactobacillus]]**
+- **[[lactobacillus]]**
 - **[[Collinsella]]**
 - **[[Corynebacterium]]**
 - **[[Dorea]]**
@@ -41,7 +41,7 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 ### Constipation Effects
 - [[Escherichia/Shigella]] and [[Clostridium cluster XVIII]] significantly more abundant in constipated ASD (FDR p < 0.05)
 - [[Gemmiger]] anticorrelated with constipation (Spearman's r = -0.39, FDR p < 0.05)
-- [[Ruminococcus]] also anticorrelated with constipation (r = -0.36, FDR p < 0.05)
+- [[ruminococcus]] also anticorrelated with constipation (r = -0.36, FDR p < 0.05)
 - Constipation had significant effect on beta diversity in NT (p = 0.046) but not within ASD subjects
 
 ## Fungal Mycobiota (First in ASD)
@@ -52,13 +52,13 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 
 ### Key Fungal Genera
 - **[[Aspergillus]]**: 24.2% AD vs 28% NT
-- **[[Candida]]**: 37.7% AD vs 23.5% NT (>2x in ASD, but high dispersion; uncorrected p = 0.006, FDR p = 0.09)
+- **[[candida-albicans]]**: 37.7% AD vs 23.5% NT (>2x in ASD, but high dispersion; uncorrected p = 0.006, FDR p = 0.09)
 - **[[Penicillium]]**: 13.2% AD vs 23.5% NT
 - **[[Malassezia]]**: 3.05% AD vs 3.3% NT
 
 ### Candida Correlations
-- [[Candida]] abundance positively correlated with fungal genera [[Aspergillus]] and [[Malassezia]]
-- Negative correlation with [[Bifidobacterium]] in neurotypical individuals (Spearman's r = 0.6, FDR p = 0.004)
+- [[candida-albicans]] abundance positively correlated with fungal genera [[Aspergillus]] and [[Malassezia]]
+- Negative correlation with [[bifidobacterium]] in neurotypical individuals (Spearman's r = 0.6, FDR p = 0.004)
 
 ## Severity Findings
 - CARS scores did not affect bacterial community structure (PERMANOVA p > 0.05)
@@ -69,10 +69,10 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 
 **High relevance** — fungal-bacterial interactions and metal metabolism:
 
-- **[[Candida]]** is a potent [[iron]] scavenger via siderophore-like mechanisms and can sequester [[zinc]]
+- **[[candida-albicans]]** is a potent [[iron]] scavenger via siderophore-like mechanisms and can sequester [[zinc]]
 - Elevated Candida in ASD may contribute to host metal depletion
-- [[Candida]] overgrowth shifts indoleamine 2,3-dioxygenase activity, reducing [[kynurenine]] (a neuroprotective agent) — this enzyme is [[iron]]-dependent
-- [[Lactobacillus]] enrichment — this genus binds heavy metals on cell surfaces
+- [[candida-albicans]] overgrowth shifts indoleamine 2,3-dioxygenase activity, reducing [[kynurenine]] (a neuroprotective agent) — this enzyme is [[iron]]-dependent
+- [[lactobacillus]] enrichment — this genus binds heavy metals on cell surfaces
 - Firmicutes/Bacteroidetes ratio shift linked to altered [[SCFA]] production
 - [[Collinsella]] enrichment — associated with altered [[bile acid]] metabolism
 

@@ -45,3 +45,13 @@ condition: "autism spectrum disorder"
 - **Biogenic amines**: Histamine and tyramine production requires metal-dependent decarboxylase enzymes; dysregulation may contribute to ASD symptoms
 - **Propionic acid**: Clostridial fermentation product requiring cobalt-dependent enzymes; modulates mitochondrial function in ASD
 - **Early introduction**: Fermented food introduction during critical metal-dependent neurodevelopmental windows may support beneficial microbiome establishment
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- fermented foods as dietary intervention
+- [[lactobacillus]] -- most abundant genus in fermented products
+- [[clostridium]] -- propionic acid production affecting mitochondria in ASD
+- [[probiotics]] -- fermented foods as natural probiotic delivery
+- [[gut-microbiome]] -- early colonization shaped by fermented food exposure
+- [[short-chain-fatty-acids]] -- propionic acid from microbial fermentation
+- [[dysbiosis]] -- abnormal gut bacterial communities in ASD children

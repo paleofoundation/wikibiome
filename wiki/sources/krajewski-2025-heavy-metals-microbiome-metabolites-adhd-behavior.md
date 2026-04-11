@@ -30,8 +30,8 @@ Path analysis study examining relationships between **urinary heavy metal load, 
 
 - **Social behaviour negatively correlated** with heavy metal load (r = -0.43, p < 0.001)
 - Strongest individual metal correlations with poor social behaviour:
-  - [[Arsenic]]: r = -0.43, p < 0.001
-  - [[Cadmium]]: r = -0.38, p = 0.003
+  - [[arsenic]]: r = -0.43, p < 0.001
+  - [[cadmium]]: r = -0.38, p = 0.003
 - **Microbiome-associated metabolites positively correlated** with heavy metal load (r = 0.33, p = 0.004)
 - Heavy metals predicted 12.3% of reduced social behaviours (beta = 0.35, p = 0.002)
 
@@ -51,11 +51,11 @@ Path analysis study examining relationships between **urinary heavy metal load, 
 
 # Microbiome and Heavy Metals Interactions
 
-- [[Arsenic]], [[cadmium]], [[lead]], and [[mercury]] can change composition, diversity, and structure of [[gut microbiota]]
-- Higher arsenic levels → decreased [[Bacteroides]] and [[Bifidobacterium]]
-- [[Cadmium]], mercury, lead, arsenic exposure → increased [[Proteobacteria]] and pathogenic bacteria
-- [[Lactobacillus]] and [[E. coli]] can bind heavy metals to their surfaces
-- Probiotics ([[Faecalibacterium]], [[Akkermansia muciniphila]], [[Bacillus cereus]], [[Lactobacillus rhamnosus]]) show protective effects against metal exposure
+- [[arsenic]], [[cadmium]], [[lead]], and [[mercury]] can change composition, diversity, and structure of [[gut microbiota]]
+- Higher arsenic levels → decreased [[bacteroides-fragilis]] and [[bifidobacterium]]
+- [[cadmium]], mercury, lead, arsenic exposure → increased [[Proteobacteria]] and pathogenic bacteria
+- [[lactobacillus]] and [[E. coli]] can bind heavy metals to their surfaces
+- Probiotics ([[faecalibacterium-prausnitzii]], [[Akkermansia muciniphila]], [[Bacillus cereus]], [[Lactobacillus rhamnosus]]) show protective effects against metal exposure
 
 # Relevance to Metallomic Framework
 

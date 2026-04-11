@@ -47,3 +47,13 @@ condition: "autism spectrum disorder"
 - **Vitamin D-metal homeostasis**: Profound vitamin D deficiency disrupts calcium, zinc, and iron absorption; compounds metal dyshomeostasis
 - **Transsulfuration disruption**: High cystathionine with low cystine reflects impaired cystathionine gamma-lyase (a zinc-dependent enzyme), suggesting systemic zinc insufficiency
 - **Methionine cycle**: Low methionine and high homocysteine indicate disrupted SAM cycle, which requires zinc, B12, and folate for proper metal-dependent methylation
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- plasma amino acid abnormalities as metabolic biomarkers
+- [[tryptophan-metabolism]] -- transsulfuration pathway disruption in ASD
+- [[zinc]] -- cofactor for cystathionine gamma-lyase; deficiency implied
+- [[iron]] -- vitamin D-dependent absorption disrupted in ASD
+- [[biomarkers]] -- amino acid and vitamin profiles as diagnostic indicators
+- [[gut-brain-axis]] -- amino acid metabolism links gut and neurological function
+- [[dysbiosis]] -- microbial amino acid production may contribute to plasma changes

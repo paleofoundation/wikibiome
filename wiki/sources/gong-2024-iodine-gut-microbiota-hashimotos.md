@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Gut [[dysbiosis]] driven by excessive [[iodine]] intake disrupts Th17/Treg balance by reducing butyric acid, establishing a mechanistic link between iodine, microbiota, and [[Hashimotos thyroiditis]]
+- Gut [[dysbiosis]] driven by excessive [[iodine]] intake disrupts Th17/Treg balance by reducing butyric acid, establishing a mechanistic link between iodine, microbiota, and [[hashimotos-thyroiditis]]
 - Butyrate and valeric acid were significantly decreased in HT patients compared to healthy controls (p<0.01 and p<0.01 respectively) as measured by GC-MS
 - Butanoate metabolism significantly differs between HT and healthy groups; butyric acid decrease is a key metabolic feature of HT
 - In NOD.H-2h4 mice, increasing [[iodine]] intake dose-dependently altered gut microbiota composition and increased thyroid inflammation severity

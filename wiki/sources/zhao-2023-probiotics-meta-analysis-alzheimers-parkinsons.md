@@ -25,13 +25,13 @@ This systematic review and meta-analysis evaluates the efficacy and safety of [[
 - Improvements were observed in constipation symptoms and bowel function in PD
 - Probiotics reduced inflammatory markers (hs-CRP) and oxidative stress indicators
 - Metabolic parameters (insulin sensitivity, lipid profiles) improved with probiotic use
-- Multi-strain formulations containing *[[Lactobacillus]]* and *[[Bifidobacterium]]* species were most effective
+- Multi-strain formulations containing *[[lactobacillus]]* and *[[bifidobacterium]]* species were most effective
 - Treatment durations of 8-12 weeks showed the most consistent benefits
 - Probiotics were well-tolerated with minimal adverse effects across all included trials
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-[[Probiotics]] represent a tractable intervention for the metal-microbiome axis in [[parkinsons-disease]]. By restoring populations of [[butyrate]]-producing bacteria and reducing gut permeability, probiotics may normalize the [[iron]] absorption pathway disrupted in PD [[dysbiosis]]. The reduction in inflammatory markers (hs-CRP, IL-6) would lower [[hepcidin]] drive, potentially reducing the [[iron]] trapping in macrophages and microglia that promotes [[ferroptosis]]. Specific *Lactobacillus* strains also produce metal-binding peptides and siderophores that could sequester free [[iron]], [[nickel]], and [[lead]] in the gut lumen, reducing their bioavailability. The improvement in constipation is relevant because prolonged colonic transit time increases metal absorption.
+[[probiotics]] represent a tractable intervention for the metal-microbiome axis in [[parkinsons-disease]]. By restoring populations of [[butyrate]]-producing bacteria and reducing gut permeability, probiotics may normalize the [[iron]] absorption pathway disrupted in PD [[dysbiosis]]. The reduction in inflammatory markers (hs-CRP, IL-6) would lower [[hepcidin]] drive, potentially reducing the [[iron]] trapping in macrophages and microglia that promotes [[ferroptosis]]. Specific *Lactobacillus* strains also produce metal-binding peptides and siderophores that could sequester free [[iron]], [[nickel]], and [[lead]] in the gut lumen, reducing their bioavailability. The improvement in constipation is relevant because prolonged colonic transit time increases metal absorption.
 
 ## Limitations
 

@@ -37,3 +37,14 @@ This historical integrative review synthesizes six decades (1960-2025) of eviden
 ## Relevance to Wiki
 
 Establishes that fertilizer-derived nickel and cadmium contamination of agricultural soils is a primary pathway for dietary heavy metal exposure, directly linking industrial agricultural practices to food chain contamination and human health risk.
+
+## Connections
+
+- [[heavy-metals]] -- fertilizer-derived contamination of agricultural soils
+- [[cadmium]] -- dominant contaminant in phosphate fertilizers
+- [[nickel]] -- dual role as urease cofactor and toxicant in urea fertilizers
+- [[lead]] -- 100-200 year soil persistence from legacy contamination
+- [[chromium]] -- co-contaminant in phosphate rock
+- [[environmental-metal-exposure]] -- food chain pathway from soil to diet
+- [[dietary-cadmium-exposure]] -- agricultural soils as primary dietary source
+- [[dietary-nickel-exposure]] -- urea fertilizer regions at highest risk

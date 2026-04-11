@@ -13,7 +13,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[FMT]] from healthy mice to CRC mice significantly reduces tumor number (from 17.6 to 9.8 average), tumor diameter (from 4.4 mm to 2.3 mm), and prolongs survival
+- [[fecal-microbiota-transplant]] from healthy mice to CRC mice significantly reduces tumor number (from 17.6 to 9.8 average), tumor diameter (from 4.4 mm to 2.3 mm), and prolongs survival
 - FMT reverses intestinal microbial dysbiosis in CRC mice, restoring diversity and normalizing the Firmicutes/Bacteroidetes ratio
 - Massive infiltration of immune cells occurs after FMT: CD8+ T cells and CD49b+ NK cells are significantly increased in FMT-treated CRC mice, enabling direct killing of cancer cells
 - FMT downregulates pro-inflammatory cytokines (IL-1a, IL-6, IL-12a, IL-12b, IL-17a) while upregulating anti-inflammatory IL-10

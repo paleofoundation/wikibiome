@@ -68,7 +68,7 @@ Comprehensive review of **clinical and preclinical evidence** for gut microbiota
 ### Probiotics
 
 - **Beneficial effects** on behavior reported
-- Strains: [[Lactobacillus]], [[Bifidobacterium]], [[Streptococcus]]
+- Strains: [[lactobacillus]], [[bifidobacterium]], [[streptococcus-pneumoniae]]
 - Likely mechanism: metabolite production, barrier support, immune modulation
 
 ### Fecal Microbiota Transplantation (FMT)

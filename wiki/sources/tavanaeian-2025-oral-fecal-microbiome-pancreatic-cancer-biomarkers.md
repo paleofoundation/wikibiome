@@ -29,7 +29,7 @@ platform: wikibiome
 
 # Connections
 
-- Depletion of butyrate-producing *Roseburia intestinalis* links to reduced [[SCFAs]] production in PC
+- Depletion of butyrate-producing *Roseburia intestinalis* links to reduced [[short-chain-fatty-acids]] production in PC
 - *Fusobacterium nucleatum* enrichment consistent with [[microbiome signature]] and [[microbiome and inflammation]] studies
 - Loss of protective *Bifidobacterium* relevant to [[probiotics]] and [[prebiotics]] intervention strategies
 - Multi-site (oral + fecal) biomarker approach connects to [[microbiome composition]] profiling for early detection

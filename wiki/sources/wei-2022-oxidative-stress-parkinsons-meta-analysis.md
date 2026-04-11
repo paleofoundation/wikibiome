@@ -23,7 +23,7 @@ This systematic review and meta-analysis quantifies the evidence for oxidative s
 
 - PD patients show significantly elevated markers of oxidative damage (malondialdehyde, 8-OHdG, protein carbonyls)
 - Antioxidant defenses are depleted: [[glutathione]] (GSH), superoxide dismutase (SOD), catalase all reduced
-- [[Iron]] and ferritin levels are elevated in PD substantia nigra, correlating with oxidative markers
+- [[iron]] and ferritin levels are elevated in PD substantia nigra, correlating with oxidative markers
 - Lipid peroxidation products (hallmarks of [[ferroptosis]]) are consistently elevated
 - Oxidative stress is evident in blood, CSF, and brain tissue of PD patients
 - The meta-analysis confirmed oxidative stress as a robust, reproducible feature of PD

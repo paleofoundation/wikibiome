@@ -42,3 +42,12 @@ condition: "autism spectrum disorder"
 - **Anti-inflammatory-metal axis**: Omega-3 derived resolvins and protectins modulate metal-dependent inflammatory cascades (COX/LOX pathways require iron)
 - **Fatty acid deficiency as metallomic marker**: Low omega-3 levels in ASD may reflect impaired metal-dependent fatty acid elongation and desaturation
 - **BBB permeability**: DHA maintains BBB integrity; deficiency may compound metal translocation into CNS
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- omega-3 as complementary therapy
+- [[blood-brain-barrier]] -- DHA maintains BBB integrity
+- [[iron]] -- COX/LOX inflammatory pathways are iron-dependent
+- [[selenium]] -- cofactor for desaturase enzymes in fatty acid metabolism
+- [[zinc]] -- required for fatty acid desaturation
+- [[gut-brain-axis]] -- omega-3 modulates neuroinflammation via gut-derived pathways

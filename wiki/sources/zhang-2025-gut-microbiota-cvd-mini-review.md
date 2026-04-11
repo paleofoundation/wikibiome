@@ -15,8 +15,8 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[TMAO]] promotes [[atherosclerosis]] by stimulating foam cell formation, enhancing platelet reactivity, and inducing endothelial dysfunction; interventions reducing TMAO-producing bacteria are a direct molecular strategy for CVD risk reduction
-- [[SCFAs]] serve as energy sources for colonocytes and regulators of blood pressure, mediated by receptors such as takeda G protein-coupled receptor 5, PXR, and FXR, all significantly influenced by [[gut microbiota]]
+- [[tmao]] promotes [[atherosclerosis]] by stimulating foam cell formation, enhancing platelet reactivity, and inducing endothelial dysfunction; interventions reducing TMAO-producing bacteria are a direct molecular strategy for CVD risk reduction
+- [[short-chain-fatty-acids]] serve as energy sources for colonocytes and regulators of blood pressure, mediated by receptors such as takeda G protein-coupled receptor 5, PXR, and FXR, all significantly influenced by [[gut microbiota]]
 - The molecular benefits of a healthy diet are transient and dependent on sustained dietary habits -- repeatedly adopting and abandoning a healthy dietary pattern led to cycling in microbial taxa (*Collinsella*, *Mediterraneibacter*) mirrored by cycling in LDL-C and total cholesterol
 - Multi-strain [[probiotics]] improved glucose homeostasis (HbA1c) in hypertensive individuals; probiotic supplementation prior to cardiopulmonary bypass surgery reduced acute gastrointestinal injury
 
@@ -31,7 +31,7 @@ platform: wikibiome
 - **Therapeutic strategies**:
   - [[Metformin]]: increases SCFA-producing bacteria, downregulates bile acid absorption
   - [[Statins]]: inhibit NLRP3 inflammasome, reduce oxidative stress
-  - [[FMT]]: improves insulin sensitivity, reduces triglycerides but effect is unsustainable
+  - [[fecal-microbiota-transplant]]: improves insulin sensitivity, reduces triglycerides but effect is unsustainable
   - Emerging: CRISPR/Cas9 for precise gut microbiota metabolic pathway modulation
 
 ## Source Pages

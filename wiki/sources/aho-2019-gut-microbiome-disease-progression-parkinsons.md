@@ -22,7 +22,7 @@ This study examines the longitudinal relationship between gut [[microbiome]] com
 ## Key Findings
 
 - Gut microbiome composition at baseline was associated with subsequent disease progression rate
-- *[[Prevotella]]* depletion correlated with faster motor symptom progression
+- *[[prevotella]]* depletion correlated with faster motor symptom progression
 - [[Enterobacteriaceae]] enrichment was associated with greater postural instability and gait difficulty
 - Microbiome alpha diversity decreased over the disease course
 - Specific bacterial taxa showed progressive changes that tracked with clinical worsening

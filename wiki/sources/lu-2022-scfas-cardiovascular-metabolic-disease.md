@@ -50,8 +50,8 @@ Comprehensive review of [[short-chain-fatty-acids]] (SCFAs) in [[cardiovascular-
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Metal-induced SCFA depletion** - [[Cadmium]] and [[lead]] exposure depletes SCFA-producing Clostridia, directly reducing the cardioprotective effects described here
+1. **Metal-induced SCFA depletion** - [[cadmium]] and [[lead]] exposure depletes SCFA-producing Clostridia, directly reducing the cardioprotective effects described here
 2. **[[Inflammation]] amplification** - Without SCFA-mediated NLRP3 inflammasome suppression, metal-exposed individuals face amplified cardiovascular [[inflammation]]
 3. **Blood pressure dysregulation** - Metal-induced loss of SCFA producers disrupts the GPR41/Olfr78 balance, potentially contributing to hypertension
 4. **[[Oxidative-stress]] vulnerability** - Reduced butyrate means less ROS scavenging and more [[oxidative-stress]] damage to vasculature
-5. **[[Ferroptosis]] connection** - SCFA depletion reduces antioxidant defenses that may normally protect against [[iron]]-mediated lipid peroxidation in cardiac tissue
+5. **[[ferroptosis]] connection** - SCFA depletion reduces antioxidant defenses that may normally protect against [[iron]]-mediated lipid peroxidation in cardiac tissue

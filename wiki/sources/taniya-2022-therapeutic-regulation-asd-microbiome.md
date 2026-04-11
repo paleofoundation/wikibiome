@@ -54,7 +54,7 @@ This comprehensive review maps dysbiosis mechanisms but underemphasizes **metal 
   - High [[cadmium]] → loss of cadmium-sensitive protective taxa
   - High [[lead]] → selection for lead-tolerant pathogens
   
-- **Primitive 3 (Mis-metallation)**: [[Cadmium]], [[lead]] mis-metallation into zinc-binding sites → Loss of zinc-dependent tight junction proteins (claudins) → barrier disruption
+- **Primitive 3 (Mis-metallation)**: [[cadmium]], [[lead]] mis-metallation into zinc-binding sites → Loss of zinc-dependent tight junction proteins (claudins) → barrier disruption
 
 - **Primitive 2 link (Nutritional Immunity)**: Dysbiosis reflects failed antimicrobial defense. Restore protective microbiota = restore metal sequestration capacity = strengthen barrier = reduced systemic inflammation
 

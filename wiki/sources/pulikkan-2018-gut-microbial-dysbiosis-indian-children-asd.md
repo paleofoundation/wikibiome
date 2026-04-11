@@ -28,10 +28,10 @@ Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian childr
 ## Differentially Abundant Taxa
 
 ### Enriched in ASD
-- **[[Lactobacillaceae]]** (FDR p = 0.018) — ~32-fold higher [[Lactobacillus]] in ASD
+- **[[Lactobacillaceae]]** (FDR p = 0.018) — ~32-fold higher [[lactobacillus]] in ASD
 - **[[Bifidobacteraceae]]** (FDR p = 0.0054)
 - **[[Veillonellaceae]]** (FDR p = 0.008)
-- Genera: [[Bifidobacterium]] (p = 0.005), [[Lactobacillus]] (p = 0.018), [[Megasphaera]] (p = 0.0008), [[Mitsuokella]] (p = 0.007)
+- Genera: [[bifidobacterium]] (p = 0.005), [[lactobacillus]] (p = 0.018), [[Megasphaera]] (p = 0.0008), [[Mitsuokella]] (p = 0.007)
 - *L. ruminis* was most abundant species — 99% of all Lactobacillus in ASD
 
 ### Enriched in Healthy Controls
@@ -47,22 +47,22 @@ Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian childr
 ## Random Forest Classification
 
 - 121 discriminatory OTUs identified
-- 26 OTUs belonged to genus [[Prevotella]] — all abundant in healthy children
+- 26 OTUs belonged to genus [[prevotella]] — all abundant in healthy children
 - 57 OTUs from [[Ruminococcaceae]] — 56 abundant in ASD
 - Confirmed that Lactobacillus was key discriminating taxon
 
 ## Meta-Analysis Validation
 
 - Comparative analysis with US ASD dataset (20 ASD, 20 controls)
-- Confirmed significantly higher [[Lactobacillus]] abundance in ASD across both populations
+- Confirmed significantly higher [[lactobacillus]] abundance in ASD across both populations
 
 # Relevance to Metallomic Framework
 
 **Moderate relevance** — establishes Indian ASD microbiome profile with implications for metal metabolism:
 
-- Elevated [[Lactobacillus]] is notable as this genus binds [[heavy metals]] (Pb, Cd) on cell surfaces
+- Elevated [[lactobacillus]] is notable as this genus binds [[heavy metals]] (Pb, Cd) on cell surfaces
 - High Lactobacillus in ASD may reflect compensatory response to metal burden
-- Reduced [[Prevotella]] (a key [[SCFA]] producer) may impair [[butyrate]]-dependent processes including [[iron]] absorption
+- Reduced [[prevotella]] (a key [[SCFA]] producer) may impair [[butyrate]]-dependent processes including [[iron]] absorption
 - Firmicutes/Bacteroidetes ratio shift aligns with inflammatory phenotype
 
 # Methodological Notes

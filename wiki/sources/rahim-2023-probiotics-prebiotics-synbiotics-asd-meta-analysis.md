@@ -44,3 +44,12 @@ condition: "autism spectrum disorder"
 - **TNF-alpha-gamma coherence link**: TNF-alpha reduction via probiotics may restore metal-sequestering acute-phase proteins (ceruloplasmin, metallothionein)
 - **Behavioral non-significance**: Confirms that microbiota modulation alone is insufficient for core ASD symptoms; metallomic co-intervention may be required
 - **Dose heterogeneity**: Variable probiotic doses (0.5-900 billion CFU) across studies confounds metal-dependent colonization dynamics
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- meta-analysis of probiotic interventions
+- [[probiotics]] -- 16 RCTs showing EEG but not behavioral effects
+- [[gut-brain-axis]] -- neurophysiological changes via microbiota modulation
+- [[dysbiosis]] -- target of probiotic supplementation
+- [[gut-microbiome]] -- strain-dependent colonization effects
+- [[biomarkers]] -- EEG changes as neurological response markers

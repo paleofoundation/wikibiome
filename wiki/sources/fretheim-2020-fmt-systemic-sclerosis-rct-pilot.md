@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-This first-in-man RCT evaluates [[FMT]] using commercially available anaerobic cultivated human intestinal microbiota (ACHIM) in systemic sclerosis (SSc) patients with GI involvement (n=10, 5 FMT, 5 placebo) over 16 weeks.
+This first-in-man RCT evaluates [[fecal-microbiota-transplant]] using commercially available anaerobic cultivated human intestinal microbiota (ACHIM) in systemic sclerosis (SSc) patients with GI involvement (n=10, 5 FMT, 5 placebo) over 16 weeks.
 
 ## Key Findings
 

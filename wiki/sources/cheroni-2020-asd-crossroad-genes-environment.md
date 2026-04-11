@@ -29,7 +29,7 @@ Review from European Institute of Oncology (Milan) addressing the **convergence 
 
 ### Heavy Metals
 - Systematic reviews support positive association between child exposure to heavy metals and ASD risk
-- **[[Lead]]**: higher levels and lower [[manganese]] in ASD (tooth-matrix biomarker study)
+- **[[lead]]**: higher levels and lower [[manganese]] in ASD (tooth-matrix biomarker study)
 - Blood lead concentration inversely and significantly associated with IQ
 - Pooled analysis: 6.9 IQ point decrease per 2.4-30 ug/dL blood lead increase
 

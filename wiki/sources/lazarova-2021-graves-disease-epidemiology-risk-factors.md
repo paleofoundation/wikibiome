@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Graves' disease]] is the most common cause of hyperthyroidism, with a prevalence of 1-1.5% and a strong female predominance (female:male ratio ~5-10:1), peaking between ages 30-50
+- [[graves-disease]] is the most common cause of hyperthyroidism, with a prevalence of 1-1.5% and a strong female predominance (female:male ratio ~5-10:1), peaking between ages 30-50
 - Genetic susceptibility accounts for approximately 79% of the risk, with [[HLA]]-DR3 and HLA-DRB1 as the strongest genetic associations, alongside CTLA-4, PTPN22, CD40, and thyroglobulin gene polymorphisms
 - Environmental triggers including [[iodine]] excess, [[selenium]] deficiency, smoking, stress, and infections (particularly with Yersinia enterocolitica and viral infections) can initiate disease in genetically susceptible individuals
 - Viral infections including SARS-CoV-2, hepatitis C, and retroviruses may trigger GD through molecular mimicry, bystander activation, or superantigen mechanisms

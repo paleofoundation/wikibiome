@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- TPOAb and TgAb positivity in [[Hashimotos thyroiditis]] are associated with distinct metabolic profiles, reflecting differential roles in metabolic pathways
+- TPOAb and TgAb positivity in [[hashimotos-thyroiditis]] are associated with distinct metabolic profiles, reflecting differential roles in metabolic pathways
 - TPOAb(+) group showed elevated glycoursodeoxycholic acid, glycocholic acid, indoxyl sulfate, and phenylacetyl-L-glutamine with reduced LPC 16:0 sn-1 levels
 - TgAb(+) group displayed elevated glycoursodeoxycholic acid, glycochenodeoxycholic acid 3-glucuronide, dehydroepiandosterone sulfate, and androsterone sulfates
 - TPOAb was strongly correlated with LPC 16:0 sn-1; TgAb with phenylacetyl-L-glutamine

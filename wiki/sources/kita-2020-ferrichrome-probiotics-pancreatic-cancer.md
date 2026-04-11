@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Probiotics]]-derived metabolites as anticancer agents connects to [[microbial metabolites]] and [[microbiome-derived metabolites]] research
+- [[probiotics]]-derived metabolites as anticancer agents connects to [[microbial metabolites]] and [[microbiome-derived metabolites]] research
 - Overcoming 5-FU resistance relevant to [[microbiome-targeted therapy]] and [[drug repurposing]] strategies
 - *Lactobacillus casei* ferrichrome production links to [[probiotics]] supplementation approaches in pancreatic cancer
 - p53 activation mechanism connects to [[microbiome-host interactions]] through probiotic-derived bioactive molecules

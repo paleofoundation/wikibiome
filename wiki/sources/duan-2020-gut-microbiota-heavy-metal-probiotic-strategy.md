@@ -18,7 +18,7 @@ platform: wikibiome
 - HM exposure alters microbiota composition and metabolic profiles at the functional level; in turn, microbiota alter HM absorption by acting as a physical barrier, modifying pH, oxidative balance, and detoxification enzymes
 - The gut microbiota can bioaccumulate, bind, or transform HMs via enzymatic reactions, facilitating fecal excretion
 - Specific microbiota mechanisms include: siderophore production by [[Pseudomonas]], sulfide production by sulfate-reducing bacteria (SRB), oxalate production by [[Oxalobacter formigenes]], and metal transport proteins
-- Probiotics (especially [[Lactobacillus]] and [[Bifidobacterium]]) reduce HM absorption via intestinal sequestration, detoxification, changing metal transporter expression, and maintaining gut barrier
+- Probiotics (especially [[lactobacillus]] and [[bifidobacterium]]) reduce HM absorption via intestinal sequestration, detoxification, changing metal transporter expression, and maintaining gut barrier
 - Dietary components, soil pH, and host age/sex are possible factors affecting the HM-microbiota relationship
 - HM-induced microbiota changes lead to downstream health effects: weight loss, diabetes, early onset allergy/asthma, increased fat accumulation, autism
 

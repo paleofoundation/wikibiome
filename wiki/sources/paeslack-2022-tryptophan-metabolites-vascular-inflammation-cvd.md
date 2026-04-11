@@ -45,7 +45,7 @@ Invited review covering the emerging role of gut commensal-mediated tryptophan (
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Metal-induced indoxyl sulfate accumulation** - [[Cadmium]] exposure upregulates indoxyl sulfate (shown in Liu et al. 2023), connecting metal exposure directly to the pro-atherogenic Trp metabolite pathway
+1. **Metal-induced indoxyl sulfate accumulation** - [[cadmium]] exposure upregulates indoxyl sulfate (shown in Liu et al. 2023), connecting metal exposure directly to the pro-atherogenic Trp metabolite pathway
 2. **Loss of protective indoles** - Metal-induced depletion of *Clostridium* and *Lactobacillus* spp. would reduce protective IPA and IAld production
 3. **AHR dysregulation** - Heavy metals can independently activate AHR, and combined with microbial ligand shifts, may drive pathological vascular [[inflammation]]
 4. **[[Oxidative-stress]] amplification** - Indoxyl sulfate promotes ROS and inhibits endothelial NO production, synergizing with metal-induced [[oxidative-stress]]

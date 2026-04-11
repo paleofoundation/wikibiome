@@ -23,7 +23,7 @@ Conference review summarizing how human gut microbiome activities connect to CVD
 ### Gut Microbiota and CVD Risk
 - Aberrant microbiota profiles associated with obesity, T1D, T2D, NAFLD, cancers, and autoimmune diseases
 - Transfer of fecal microbiota from obese animals induces metabolic disease; lean donors can increase insulin sensitivity
-- Choline, phosphatidylcholine, and L-carnitine metabolized to [[TMAO]] by gut bacteria, contributing to CVD
+- Choline, phosphatidylcholine, and L-carnitine metabolized to [[tmao]] by gut bacteria, contributing to CVD
 
 ### Prebiotics and CVD
 - Fermentable fibers and plant [[polyphenols]] regulate microbial activities in the gut

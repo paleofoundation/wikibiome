@@ -37,7 +37,7 @@ platform: wikibiome
 
 - Demonstrates diet-microbiome-metal toxicity interaction relevant to [[Gut Microbiome and Metal Exposure]]
 - HFD-impaired metal excretion connects to [[bile acids]] metabolism disruption described in [[di-ciaula-2017-bile-acid-physiology]]
-- [[Desulfovibrio]] response to Pb aligns with sulfate-reducing bacteria role in metal transformation from [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]]
+- [[desulfovibrio]] response to Pb aligns with sulfate-reducing bacteria role in metal transformation from [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]]
 - Supports the systematic review findings of [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]] on metal-specific microbiota changes
 - Connects to [[dysbiosis]] as a predisposing factor for enhanced metal toxicity
 - SCFA-producing bacteria depletion under HFD + metals relevant to [[short-chain fatty acids]] and gut barrier integrity

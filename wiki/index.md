@@ -1,27 +1,27 @@
 ---
 title: WikiBiome Content Index
 type: index
-updated: 2026-04-11
+updated: 2026-04-09
 ---
 
 # WikiBiome / Cureva Knowledge Base Index
 
-**Last updated:** 2026-04-11
+**Last updated:** 2026-04-09
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
-| Sources | 981 |
-| Entities | 122 |
+| Sources | 982 |
+| Entities | 126 |
 | — Metals/Metalloids | 19 |
 | — Microbes | 83 |
 | — Diseases | 20 |
-| — Other | 0 |
-| Concepts | 87 |
-| Disease Signatures | 13 |
-| Interventions | 5 |
-| STOPs | 11 |
+| — Other | 4 |
+| Concepts | 88 |
+| Disease Signatures | 14 |
+| Interventions | 6 |
+| STOPs | 12 |
 | Analyses | 5 |
 
 ---

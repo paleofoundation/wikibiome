@@ -17,11 +17,11 @@ platform: wikibiome
 ## Key Claims
 
 - Thyroid cancer (TC) disrupts the [[gut microbiota]] by influencing levels of thyroid hormones, estrogen, weight, and insulin resistance; traditional treatments (surgery, RAI therapy, checkpoint inhibitors) also alter the microbiome
-- Notable changes in gut microbiota of TC patients include increased numbers of [[Clostridium]], [[Streptococcus]], Proteus, and [[Lachnospiraceae]], and decreased numbers of [[Lactobacillus]], [[Prevotella]], and [[Ruminococcaceae]]
+- Notable changes in gut microbiota of TC patients include increased numbers of [[clostridium]], [[streptococcus-pneumoniae]], Proteus, and [[Lachnospiraceae]], and decreased numbers of [[lactobacillus]], [[prevotella]], and [[Ruminococcaceae]]
 - The gut microbiome may serve as a biomarker for diagnosis, prognosis, and predicting metastasis in TC patients, potentially enhancing diagnostic efficiency
-- [[SCFAs]] derived from fermentation of [[dietary fiber]] inhibit histone deacetylases, promote TC cell cycle arrest (G1 and G2/M), and increase expression of p21, p27, and Bax genes
-- Bidirectional causal relationships exist between the gut microbiome and TC via the "gut-thyroid" axis, with [[Clostridium]], [[Streptococcus]], Proteus, and Lachnospiraceae as potential risk factors, and Lactobacillus, Prevotella, and Ruminococcaceae as potentially protective
-- Fecal microbiota transplantation ([[FMT]]) has been explored as an emerging strategy to reshape gut microbiota in Graves' disease animal models with promising results
+- [[short-chain-fatty-acids]] derived from fermentation of [[dietary fiber]] inhibit histone deacetylases, promote TC cell cycle arrest (G1 and G2/M), and increase expression of p21, p27, and Bax genes
+- Bidirectional causal relationships exist between the gut microbiome and TC via the "gut-thyroid" axis, with [[clostridium]], [[streptococcus-pneumoniae]], Proteus, and Lachnospiraceae as potential risk factors, and Lactobacillus, Prevotella, and Ruminococcaceae as potentially protective
+- Fecal microbiota transplantation ([[fecal-microbiota-transplant]]) has been explored as an emerging strategy to reshape gut microbiota in Graves' disease animal models with promising results
 
 ## Methods/Findings
 

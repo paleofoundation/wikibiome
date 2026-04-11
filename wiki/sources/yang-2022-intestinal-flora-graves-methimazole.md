@@ -16,11 +16,11 @@ platform: wikibiome
 
 ## Key Claims
 
-- The intestinal microbiota of untreated [[Graves' disease]] (GD) patients is significantly altered compared to healthy controls, with reduced alpha diversity (Shannon, Simpson indices, P < 0.05)
-- [[Bifidobacterium]] abundance is positively correlated with TRAb (r=0.588, P=0.002), TGAb (r=0.463, P=0.023), suggesting it may be involved in the immune process of GD
+- The intestinal microbiota of untreated [[graves-disease]] (GD) patients is significantly altered compared to healthy controls, with reduced alpha diversity (Shannon, Simpson indices, P < 0.05)
+- [[bifidobacterium]] abundance is positively correlated with TRAb (r=0.588, P=0.002), TGAb (r=0.463, P=0.023), suggesting it may be involved in the immune process of GD
 - After [[methimazole]] treatment and thyroid function recovery, gut microbiota diversity significantly improved, indicating the relationship between thyroid function and microbiome composition is bidirectional
 - [[Collinsella]] was significantly higher in untreated GD patients compared to both controls and treated patients
-- [[Synergistetes]] and [[Phascolarctobacterium]] were protective (negatively correlated with TRAb, TGAb, TPOAb), while [[Ruminococcus]] and [[Lactobacillus]] correlated positively with TRAb
+- [[Synergistetes]] and [[Phascolarctobacterium]] were protective (negatively correlated with TRAb, TGAb, TPOAb), while [[ruminococcus]] and [[lactobacillus]] correlated positively with TRAb
 
 ## Methods/Findings
 

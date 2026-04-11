@@ -19,7 +19,7 @@ platform: wikibiome
 - The variability in arsenicosis symptoms among individuals sharing similar exposure may be partly explained by differences in GIT [[microbiome composition]]
 - Arsenic resistance via ArsB/Acr3 extrusion is the most common microbial response, but its relevance to the GIT is neutral with respect to host toxicity
 - Arsenic methylation by ArsM can produce more toxic trivalent methylated species (MAs(III), DMAs(III), TMAs(III)), potentially worsening host exposure
-- [[short-chain fatty acids|SCFAs]] production and thiolation reactions by sulfate-reducing bacteria ([[Desulfovibrio]], [[Desulfosporosinus]]) represent under-explored GIT-relevant arsenic transformations
+- [[short-chain fatty acids|SCFAs]] production and thiolation reactions by sulfate-reducing bacteria ([[desulfovibrio]], [[Desulfosporosinus]]) represent under-explored GIT-relevant arsenic transformations
 
 # Methods/Findings
 
@@ -36,6 +36,6 @@ platform: wikibiome
 - Provides mechanistic framework for understanding how [[gut-metal-microbiome|gut microbiota]] modulate arsenic toxicity, complementing epidemiological findings in [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]
 - The ars gene-based resistance mechanisms link to [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]] protective microbiome findings
 - Arsenic methylation producing toxic MAs(III) connects to [[oxidative-stress|oxidative stress]] pathways and downstream disease risk
-- SRB-mediated thiolation relates to [[Desulfovibrio]] and sulfate metabolism in the gut
+- SRB-mediated thiolation relates to [[desulfovibrio]] and sulfate metabolism in the gut
 - GIT compartment-specific pH and oxygen gradients relevant to [[dysbiosis]] mechanisms following metal exposure
 - Connects to broader [[Environmental Exposures]] and [[Arsenic Toxicity]] entity pages

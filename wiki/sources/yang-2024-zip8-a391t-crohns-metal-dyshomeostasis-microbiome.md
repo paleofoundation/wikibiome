@@ -39,6 +39,6 @@ platform: wikibiome
 - Directly relevant to [[Cobalt]], [[manganese]], [[Cadmium Toxicity]], and [[zinc]] in intestinal biology
 - Connects genetic risk to [[Gut Microbiome and Metal Exposure]] -- demonstrates how host metal transport affects microbial access to essential metals
 - Links to [[Inflammatory Bowel Disease]] pathogenesis through age-dependent inflammation
-- Relevant to [[Lactobacillus]] depletion as a consequence of altered metal availability
+- Relevant to [[lactobacillus]] depletion as a consequence of altered metal availability
 - Complements [[Amerikanou et al. 2022|amerikanou-2022-ibd-biomarkers-trace-metals]] human IBD-metal associations
 - "Cofactor biosynthesis" pathway enrichment connects to microbial need for metal cofactors

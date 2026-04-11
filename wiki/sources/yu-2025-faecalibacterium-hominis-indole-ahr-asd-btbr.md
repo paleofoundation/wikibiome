@@ -21,7 +21,7 @@ Preclinical study demonstrating that **Faecalibacterium hominis 4P-15**, a novel
 
 ## Faecalibacterium Abundance in ASD
 
-- [[Faecalibacterium]] significantly reduced in ASD vs TD individuals (p = 0.0061, FDR-adjusted)
+- [[faecalibacterium-prausnitzii]] significantly reduced in ASD vs TD individuals (p = 0.0061, FDR-adjusted)
 - 183 bacterial strains from 65 species isolated from fecal samples
 - 4 *F. hominis* strains obtained — all from TD samples (none from ASD)
 - *F. hominis* identified as new species (96.56% similarity to *F. prausnitzii* A2-165)
@@ -72,7 +72,7 @@ In BTBR mouse feces (comparing C57BL/6J control, BTBR+PBS, BTBR+4P-15):
 - **Indole overproduction** in ASD: bacterial tryptophanase is often an [[iron]]-dependent enzyme
 - **Glutamate transporters** (SLC1A family): their expression regulated by [[zinc]] signaling
 - **GABA receptors**: allosterically modulated by [[zinc]]
-- [[Faecalibacterium]] as next-generation probiotic may affect metal bioavailability through microbiome remodeling
+- [[faecalibacterium-prausnitzii]] as next-generation probiotic may affect metal bioavailability through microbiome remodeling
 - E/I imbalance correction may depend on adequate [[zinc]] and [[iron]] cofactor availability
 
 # Methodological Notes

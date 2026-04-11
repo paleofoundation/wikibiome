@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Integrative analysis of gut metagenome and host transcriptome (miRNA/mRNA) reveals novel molecular signatures in early [[Hashimotos thyroiditis]] with high diagnostic accuracy (AUC=0.95, ACC=0.85)
+- Integrative analysis of gut metagenome and host transcriptome (miRNA/mRNA) reveals novel molecular signatures in early [[hashimotos-thyroiditis]] with high diagnostic accuracy (AUC=0.95, ACC=0.85)
 - Increased abundance of Bacillota_A and Spirochaetota at phylum level, and significant differences in 24 genera and 67 species characterize early HT gut microbiota
 - Three characteristic species -- Salaquimonas_sp002400845, Clostridium_AI_sp002297865, and Enterocloster_citroniae -- were identified as most relevant to HT
 - Ecological network analysis revealed imbalance in gut microbiota with reduced inhibitory interactions against pathogenic genera in HT

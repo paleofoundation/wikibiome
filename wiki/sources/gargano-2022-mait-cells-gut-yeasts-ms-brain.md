@@ -38,7 +38,7 @@ platform: wikibiome
 
 - [[MAIT-cells]] -- novel innate-like T cell population activated by gut yeasts and infiltrating MS brain
 - [[mycobiome]] -- fungal overgrowth in MS gut drives MAIT cell activation and CNS infiltration
-- [[Candida]] -- *C. albicans* as major fungal antigen driving MAIT cell activation in MS
+- [[candida-albicans]] -- *C. albicans* as major fungal antigen driving MAIT cell activation in MS
 - [[Saccharomyces]] -- *S. cerevisiae* enriched in MS twins; activates MAIT cells
 - [[IL-23]] -- fungal-induced IL-23 from monocytes mediates MAIT cell activation
 - [[IL-17]] -- MAIT cells produce IL-17 in response to fungal stimulation, contributing to neuroinflammation

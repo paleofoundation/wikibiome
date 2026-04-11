@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Gut microbiota composition is significantly altered in [[Graves' disease]] patients, with reduced microbial diversity and distinct community structure compared to healthy controls, directly correlating with peripheral immune cell imbalances
+- Gut microbiota composition is significantly altered in [[graves-disease]] patients, with reduced microbial diversity and distinct community structure compared to healthy controls, directly correlating with peripheral immune cell imbalances
 - Bacteroides fragilis and Alistipes are significantly depleted in GD, while Prevotella and Veillonella are enriched; these shifts correlate with altered CD4+ T cell subsets and inflammatory markers
 - Increased gut permeability ("leaky gut") in GD patients, evidenced by elevated serum LPS and zonulin levels, enables bacterial product translocation that drives systemic [[inflammation]]
 - Metagenomic functional analysis reveals enrichment of LPS biosynthesis and pro-inflammatory pathways in GD gut microbiome, with depletion of SCFA production and amino acid metabolism pathways
@@ -43,8 +43,8 @@ platform: wikibiome
 - Treg/Th17 microbiota correlations complement mechanistic model in [[jiang-2021-gut-dysbiosis-treg-th17-graves]]
 - Functional depletion of SCFA pathways parallels metabolite findings in [[jiang-2023-gut-microbiome-metabolites-graves]]
 - Prevotella-TRAb correlation adds to Lactobacillus-TRAb link in [[chen-2021-gut-microbiota-thyroid-graves]], building broader microbiota-antibody network
-- [[Selenium]], [[zinc]], and [[iron]] are critical for gut barrier integrity; their deficiency could worsen gut permeability findings
-- [[Copper]] excess or deficiency may affect LPS-mediated inflammatory signaling
-- [[Probiotics]] containing Bacteroides and butyrate producers could address the specific dysbiosis pattern identified
+- [[selenium]], [[zinc]], and [[iron]] are critical for gut barrier integrity; their deficiency could worsen gut permeability findings
+- [[copper]] excess or deficiency may affect LPS-mediated inflammatory signaling
+- [[probiotics]] containing Bacteroides and butyrate producers could address the specific dysbiosis pattern identified
 - [[Oxidative-stress]] from gut permeability and LPS exposure compounds thyroid damage
 - [[Iodine]] absorption may be affected by altered intestinal permeability and microbiota composition

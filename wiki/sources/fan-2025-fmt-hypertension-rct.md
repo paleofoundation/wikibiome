@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[FMT]] produced a transient decrease in systolic blood pressure (SBP) after 1 week (-4.34 mmHg between-arm difference, 95% CI -8.1 to -0.58, p=0.024) but the effect did not persist after repeated intervention
+- [[fecal-microbiota-transplant]] produced a transient decrease in systolic blood pressure (SBP) after 1 week (-4.34 mmHg between-arm difference, 95% CI -8.1 to -0.58, p=0.024) but the effect did not persist after repeated intervention
 - In participants aged over 48 years, a significant SBP change of 7.65 mmHg (95% CI 0.78-14.51) was observed in the FMT group, with a decrease of 12.81 mmHg in FMT vs 5.14 in placebo (p=0.029)
 - FMT shifted microbial richness and structure: bacterial richness increased within the FMT group from baseline to day 14 and persisted until day 30/60, but recovered on day 90
 - Microbial structure changed significantly between groups at day 30 (p=0.001) and day 60 (p=0.005) by PERMANOVA

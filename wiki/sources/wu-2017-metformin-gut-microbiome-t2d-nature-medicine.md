@@ -47,5 +47,5 @@ Randomized, placebo-controlled, double-blind study in 40 treatment-naive T2D ind
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Metformin's microbiome-mediated effects** - [[Metformin]] therapeutic effects partly mediated through gut microbiome alterations, relevant to its cardioprotective properties
-2. **SCFA production** - Increased [[SCFAs]] production may contribute to metformin's cardiovascular benefits via anti-inflammatory and barrier-protective effects
+2. **SCFA production** - Increased [[short-chain-fatty-acids]] production may contribute to metformin's cardiovascular benefits via anti-inflammatory and barrier-protective effects
 3. **Drug repurposing framework** - Demonstrates how understanding drug-microbiome interactions can reveal novel therapeutic mechanisms for [[cardiovascular-disease]]

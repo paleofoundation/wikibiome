@@ -18,7 +18,7 @@ condition: "autism spectrum disorder"
 - **Fecal SCFAs altered** in ASD: lower acetic acid and butyrate, higher valeric acid
 - **Key butyrate-producing taxa reduced** in ASD: [[Ruminococcaceae]], [[Eubacterium]], [[Lachnospiraceae]], [[Erysipelotrichaceae]]
 - **Constipation was the only significant GI symptom** in ASD (P = 0.035)
-- **Enriched taxa in ASD**: [[Fusobacterium]], [[Barnesiella]], [[Coprobacter]], [[Acidobacteria]], [[Actinomycetaceae]]
+- **Enriched taxa in ASD**: [[fusobacterium]], [[Barnesiella]], [[Coprobacter]], [[Acidobacteria]], [[Actinomycetaceae]]
 - **Butyrate-producing bacteria** modulation is a promising ASD treatment strategy
 
 # Methods & Findings

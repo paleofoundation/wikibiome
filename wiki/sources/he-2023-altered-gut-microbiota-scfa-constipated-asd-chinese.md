@@ -35,8 +35,8 @@ Integrated 16S rRNA and GC-MS SCFA study comparing **40 constipated ASD (C-ASD) 
 
 ### Enriched in TD
 - *Lachnospiraceae_NK4A136_group*, *Ralstonia*
-- *[[Eubacterium eligens]]* group, *[[Ruminococcus]] gnavus* group
-- *[[Ruminococcus]]_1*, *[[Lactobacillus]]*
+- *[[Eubacterium eligens]]* group, *[[ruminococcus]] gnavus* group
+- *[[ruminococcus]]_1*, *[[lactobacillus]]*
 - *[[Anaerostipes]]*
 
 ## SCFA Levels (GC-MS)
@@ -51,7 +51,7 @@ Integrated 16S rRNA and GC-MS SCFA study comparing **40 constipated ASD (C-ASD) 
 - **PPA**: positively associated with *Phascolarctobacterium* (r = 0.367, p = 0.020) and *Prevotella_9* (r = 0.361, p = 0.022)
 - **PPA**: positively correlated with **ABC** (r = 0.570, p = 0.001) and **CARS** (r = 0.391, p = 0.027)
 - **Isovalerate**: positively associated with ABC (r = 0.335, p = 0.034)
-- **[[Lactobacillus]]**: negatively correlated with ABC (r = -0.382, p = 0.031) and PPA levels (r = -0.447, p = 0.010)
+- **[[lactobacillus]]**: negatively correlated with ABC (r = -0.382, p = 0.031) and PPA levels (r = -0.447, p = 0.010)
 
 ## Random Forest Classification
 
@@ -66,7 +66,7 @@ Integrated 16S rRNA and GC-MS SCFA study comparing **40 constipated ASD (C-ASD) 
 
 - **[[Propionate]]** inhibits histone deacetylases (HDACs) — [[zinc]]-dependent metalloenzymes; chronic PPA exposure reproduces ASD-like behaviors in animal models
 - PPA affects [[iron]]-dependent mitochondrial function and fatty acid metabolism
-- **[[Lactobacillus]]** depletion in C-ASD — this genus binds [[heavy metals]] and produces beneficial metabolites; its loss may increase metal bioavailability
+- **[[lactobacillus]]** depletion in C-ASD — this genus binds [[heavy metals]] and produces beneficial metabolites; its loss may increase metal bioavailability
 - *Phascolarctobacterium* (PPA-producer) enrichment — may reflect altered carbon/metal availability
 - Constipation as mediator: extended intestinal transit time increases both metal absorption and bacterial PPA production
 - Random forest model (AUC 0.924) could be combined with metallomic biomarkers for improved classification

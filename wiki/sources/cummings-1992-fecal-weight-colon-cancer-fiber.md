@@ -36,7 +36,7 @@ platform: wikibiome
 # Connections
 
 - Foundational evidence for the [[dietary fiber]]--[[colon cancer]] inverse association via the stool bulk mechanism
-- NSP/fiber intake connects to [[SCFAs]] production by colonic microbiota, relevant to [[butyrate]] and cancer prevention
+- NSP/fiber intake connects to [[short-chain-fatty-acids]] production by colonic microbiota, relevant to [[butyrate]] and cancer prevention
 - Transit time findings relevant to [[Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] discussion of dietary fat transit effects
 - Stool weight as a biomarker connects to [[prebiotics]] research on increasing fecal bulk
 - The Burkitt hypothesis (high-fiber diets protect against colon cancer) frames much of the subsequent [[Mediterranean diet]] and [[probiotics]] research in CRC prevention

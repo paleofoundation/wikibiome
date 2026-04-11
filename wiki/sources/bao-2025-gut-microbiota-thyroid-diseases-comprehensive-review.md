@@ -16,11 +16,11 @@ platform: wikibiome
 
 ## Key Claims
 
-- Gut microbes not only influence thyroid hormone synthesis and metabolism through metabolites such as [[SCFAs]], [[LPS]], secondary [[bile acids]], and indoles, but also play critical roles in immune homeostasis, contributing to [[Graves disease]], [[Hashimotos thyroiditis]], thyroid dysfunction, and thyroid cancer
+- Gut microbes not only influence thyroid hormone synthesis and metabolism through metabolites such as [[short-chain-fatty-acids]], [[LPS]], secondary [[bile acids]], and indoles, but also play critical roles in immune homeostasis, contributing to [[graves-disease]], [[hashimotos-thyroiditis]], thyroid dysfunction, and thyroid cancer
 - In HT, Firmicutes and Bacteroidetes are the main dominant microbiota; their proportion is related to disease susceptibility, which may reflect the ecosystem of the gastrointestinal tract in the disease status of HT
-- Gut microbiota impacts thyroid pharmacotherapy: [[Lactobacillus]] and [[Bifidobacterium]] lower intestinal LT4 absorption efficiency; [[Bacteroides]] enrichment indirectly influences drug solubility and bioavailability through alterations in bile acid metabolism
+- Gut microbiota impacts thyroid pharmacotherapy: [[lactobacillus]] and [[bifidobacterium]] lower intestinal LT4 absorption efficiency; [[bacteroides-fragilis]] enrichment indirectly influences drug solubility and bioavailability through alterations in bile acid metabolism
 - [[Fecal microbiota transplantation]] (FMT) has been explored as an emerging strategy, with animal experiments indicating FMT can restore SCFA levels, modulate immune responses, and rebalance gut-thyroid axis signaling pathways
-- [[Probiotics]] (Lactiplantibacillus plantarum and Bifidobacterium longum) have been demonstrated to improve thyroid function, shorten TSH recovery time, and enhance drug efficacy
+- [[probiotics]] (Lactiplantibacillus plantarum and Bifidobacterium longum) have been demonstrated to improve thyroid function, shorten TSH recovery time, and enhance drug efficacy
 - In thyroid cancer, Prevotella abundance was significantly correlated with thyrotropin receptor antibody (TRAb) levels, and Clostridium correlated with lymph node metastasis in papillary thyroid carcinoma
 
 ## Methods/Findings
@@ -42,4 +42,4 @@ platform: wikibiome
 - FMT discussion extends therapeutic strategies beyond probiotics, connecting to [[wang-2025-gut-microbiome-thyroid-cancer-review]]
 - Thyroid cancer microbiota findings complement [[kun-2023-microbiota-thyroid-cancer]] and [[wang-2025-gut-microbiome-thyroid-cancer-review]]
 - Bile acid and indole metabolite pathways connect to [[Tryptophan Metabolism]] and [[Bile Acid Metabolism]]
-- LT4 absorption and microbiome interaction relevant to clinical management in [[Hashimotos thyroiditis]]
+- LT4 absorption and microbiome interaction relevant to clinical management in [[hashimotos-thyroiditis]]

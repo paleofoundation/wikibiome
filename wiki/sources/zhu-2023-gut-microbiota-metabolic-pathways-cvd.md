@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-Review covering the metabolic pathways through which gut microbiota metabolites -- [[SCFAs]], [[TMAO]], [[bile-acids]], and LPS -- impact [[cardiovascular-disease]] including hypertension, atherosclerosis, and heart failure. Includes detailed pathway diagrams of healthy vs. impaired gut barrier states.
+Review covering the metabolic pathways through which gut microbiota metabolites -- [[short-chain-fatty-acids]], [[tmao]], [[bile-acids]], and LPS -- impact [[cardiovascular-disease]] including hypertension, atherosclerosis, and heart failure. Includes detailed pathway diagrams of healthy vs. impaired gut barrier states.
 
 ## Key Findings
 

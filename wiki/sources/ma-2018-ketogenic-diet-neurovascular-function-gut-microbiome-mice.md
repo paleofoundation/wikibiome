@@ -16,7 +16,7 @@ platform: wikibiome
 ## Key Claims
 
 - 16 weeks of [[ketogenic diet]] (KD) in young healthy mice significantly increased cerebral blood flow (CBF) globally, particularly in ventromedial hypothalamus (11.82%, p<0.0001)
-- KD significantly increased the relative abundance of putatively beneficial gut microbiota: *[[Akkermansia muciniphila]]* (~2.5-fold increase) and *[[Lactobacillus]]* (~3.2-fold increase), both capable of producing [[SCFAs]]
+- KD significantly increased the relative abundance of putatively beneficial gut microbiota: *[[Akkermansia muciniphila]]* (~2.5-fold increase) and *[[lactobacillus]]* (~3.2-fold increase), both capable of producing [[short-chain-fatty-acids]]
 - KD reduced putatively pro-inflammatory taxa (*Desulfovibrio* and *Turicibacter*) while decreasing overall microbial diversity (Shannon index, p=0.018)
 - KD reduced mTOR protein expression by 29.9% (p<0.01), increased P-glycoprotein transport by 50.5% (p<0.001), and increased eNOS levels by 111.5% (p<0.001) in brain capillaries
 - KD reduced blood glucose levels (p=0.01), increased blood ketone concentrations (43.48%, p=0.0004), and decreased body weight (14.58%, p=0.0042)

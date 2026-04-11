@@ -46,3 +46,12 @@ This paper bridges microbiota dysbiosis with neurodevelopmental dysfunction with
 
 The RCT demonstrates that microbiota remodeling is **actionable and clinically measurable**—providing foundation for mechanistic hypotheses involving metal homeostasis disruption.
 
+## Connections
+
+- [[autism-spectrum-disorder]] -- probiotic RCT for ASD/ADHD
+- [[probiotics]] -- supplementation shifts microbiota toward neurotypical profiles
+- [[dysbiosis]] -- reduced diversity in neurodevelopmental disorders
+- [[gut-microbiome]] -- 16S rRNA compositional profiling
+- [[gut-brain-axis]] -- microbiota changes correlate with behavioral improvement
+- [[calprotectin]] -- antimicrobial metal sequestration by protective taxa
+- [[iron]] -- microbial iron dependencies in ecological balance

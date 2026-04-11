@@ -45,7 +45,7 @@ Multi-platform urinary metabolomics study combining **1H-NMR, 1H-13C-HSQC-NMR, a
 **High relevance** — key discriminating metabolites are products of metal-dependent microbial pathways:
 
 - **[[Indoxyl sulfate]]**: produced from [[tryptophan]] by gut bacteria via indole pathway, then sulfated in liver; tryptophan metabolism is [[iron]]-dependent (IDO/TDO enzymes)
-- **Phenylacetylglutamine**: microbial metabolism of [[phenylalanine]] — related to [[Clostridium]] activity
+- **Phenylacetylglutamine**: microbial metabolism of [[phenylalanine]] — related to [[clostridium]] activity
 - **Methylguanidine**: creatinine-derived uremic toxin — accumulates when kidney function impaired by metal toxicity
 - Multi-platform data fusion approach could be applied to metal-metabolite interaction studies
 

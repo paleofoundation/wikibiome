@@ -42,14 +42,14 @@ Machine learning study applying **Recursive Ensemble Feature Selection (REFS)** 
 - Unassigned: 2 ASVs
 
 ### Key ASD-Increased Taxa
-- **[[Clostridium]]** (multiple ASVs — genus level, family Clostridiaceae)
+- **[[clostridium]]** (multiple ASVs — genus level, family Clostridiaceae)
 - **[[Lachnospiraceae]]** (multiple ASVs including [[Lachnospira]], [[Sarcina]])
 - **[[Enterobacteriaceae]]** (multiple ASVs)
 - [[Anaerotruncus]], [[Butyricicoccus]], [[Eubacterium eligens]]
-- [[Oscillospira]], [[Clostridium]] assigned to Lachnospiraceae
+- [[Oscillospira]], [[clostridium]] assigned to Lachnospiraceae
 
 ### Key ASD-Decreased Taxa
-- **[[Bifidobacterium]]** (Actinobacteria)
+- **[[bifidobacterium]]** (Actinobacteria)
 - **[[Collinsella]]** (Actinobacteria)
 - *Prevotellaceae* and *Parabacteroides* (Bacteroidota)
 - *Erysipelatoclostridium*, *Marvinbryantia*, *Butyricicoccus*
@@ -66,10 +66,10 @@ Machine learning study applying **Recursive Ensemble Feature Selection (REFS)** 
 
 **Moderate-high relevance** — the 26-ASV signature includes several metal-relevant taxa:
 
-- **[[Clostridium]]** enrichment — produces [[p-cresol]] and other neurotoxins; some species reduce metals
+- **[[clostridium]]** enrichment — produces [[p-cresol]] and other neurotoxins; some species reduce metals
 - **[[Enterobacteriaceae]]** enrichment — this family includes siderophore-producing [[iron]] scavengers
-- **[[Bifidobacterium]]** depletion — key genus for [[iron]] metabolism, bile acid deconjugation, and barrier integrity
-- **[[Desulfovibrio]]**-related taxa — sulfate reducers that mobilize metals
+- **[[bifidobacterium]]** depletion — key genus for [[iron]] metabolism, bile acid deconjugation, and barrier integrity
+- **[[desulfovibrio]]**-related taxa — sulfate reducers that mobilize metals
 - Reproducibility across cohorts strengthens the case for a core ASD microbiome disruption pattern
 - The 26-ASV panel could serve as biomarker for metal-microbiome interaction studies
 

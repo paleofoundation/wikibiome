@@ -39,7 +39,7 @@ platform: wikibiome
 - [[multiple-sclerosis]] -- oral microbiome and metabolome as novel diagnostic window
 - [[oral-microbiome]] -- depletion of early Gram-positive colonizers and enrichment of Gram-negative pathogens in MS
 - [[hypotaurine]] -- depleted salivary metabolite as potential MS biomarker; taurine pathway linked to myelin maintenance
-- [[Prevotella]] -- oral pathogenic species increased in MS (distinct from gut *Prevotella* which may be protective)
-- [[Fusobacterium]] -- *F. nucleatum* increased in pwRRMS oral cavity
+- [[prevotella]] -- oral pathogenic species increased in MS (distinct from gut *Prevotella* which may be protective)
+- [[fusobacterium]] -- *F. nucleatum* increased in pwRRMS oral cavity
 - [[dysbiosis]] -- oral dysbiosis parallels but differs from gut dysbiosis in MS
 - [[biomarkers]] -- combined oral microbiome-metabolome signatures for non-invasive MS diagnosis

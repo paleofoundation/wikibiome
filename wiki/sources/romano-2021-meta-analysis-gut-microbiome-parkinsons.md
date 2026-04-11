@@ -21,7 +21,7 @@ This meta-analysis aggregates 16S rRNA gene sequencing data from multiple [[park
 
 ## Key Findings
 
-- *[[Akkermansia]]*, *[[Bifidobacterium]]*, and *[[Lactobacillus]]* were consistently enriched in PD across studies
+- *[[akkermansia-muciniphila]]*, *[[bifidobacterium]]*, and *[[lactobacillus]]* were consistently enriched in PD across studies
 - *Faecalibacterium*, *Roseburia*, and other SCFA-producers were consistently depleted
 - The PD microbiome signature is consistent with a pro-inflammatory intestinal environment
 - *Akkermansia* enrichment suggests mucin layer degradation and increased gut permeability

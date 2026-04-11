@@ -23,7 +23,7 @@ This study investigates the role of gut fungal [[dysbiosis]] in neurodegenerativ
 
 - Gut fungal dysbiosis is a consistent feature across multiple neurodegenerative conditions
 - Fungal cell wall components (beta-glucans, mannans) activate innate immune receptors including [[Dectin-1]], [[TLR2]], and [[TLR4]]
-- Increased intestinal *[[Candida]]* abundance correlates with elevated pro-inflammatory cytokines (IL-17, TNF-alpha, IL-6)
+- Increased intestinal *[[candida-albicans]]* abundance correlates with elevated pro-inflammatory cytokines (IL-17, TNF-alpha, IL-6)
 - Fungal translocation across a compromised gut barrier triggers systemic [[inflammation]]
 - The fungal-immune axis intersects with [[alpha-synuclein]] pathology in [[parkinsons-disease]]
 - Antibiotic-driven bacterial depletion facilitates fungal overgrowth, creating a vicious cycle

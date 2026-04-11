@@ -42,3 +42,12 @@ condition: "autism spectrum disorder"
 - **Transient benefits**: Reversal of SRS improvements after FMT cessation suggests need for sustained metal-ecological support
 - **Vancomycin pretreatment**: Antibiotic clearance before FMT eliminates metal-resistant pathobionts, creating niche space for donor taxa with healthy metal metabolism
 - **Comprehensive ecosystem transfer**: Unlike probiotics (which supply limited strains), FMT transfers entire metal-metabolizing community including fungi and bacteriophages
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- FMT as microbiota-targeted therapy
+- [[fecal-microbiota-transplant]] -- systematic review of FMT in ASD children
+- [[dysbiosis]] -- donor microbiota restores healthy ecosystem
+- [[gut-microbiome]] -- complete microbial community transfer
+- [[gut-brain-axis]] -- CARS and behavioral improvements post-FMT
+- [[probiotics]] -- FMT as more comprehensive alternative to probiotic supplementation

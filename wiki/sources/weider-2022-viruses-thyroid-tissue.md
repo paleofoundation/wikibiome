@@ -35,7 +35,7 @@ platform: wikibiome
 
 ## Connections
 
-- High viral prevalence in thyroid tissue supports viral trigger hypothesis for [[Hashimoto's thyroiditis]] and [[Graves' disease]]
+- High viral prevalence in thyroid tissue supports viral trigger hypothesis for [[Hashimoto's thyroiditis]] and [[graves-disease]]
 - Enterovirus and HHV-6 as most common thyroid viruses connects to [[li-2025-viral-infection-thyroid-disorders]] mechanistic review
 - Lack of AITD-specific viral enrichment challenges simple causation models -- connects to [[parrish-2025-blood-dna-virome-autoimmune-diseases]] on virome complexity
 - Methodology (cell culture enrichment + molecular detection) represents gold standard for thyroid virome characterization

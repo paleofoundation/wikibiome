@@ -57,7 +57,7 @@ Extensive review (50 pages) summarizing the roles and mechanisms of gut microbio
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Comprehensive metabolite framework** - Provides the most complete inventory of microbiome metabolites relevant to CVD, establishing the biochemical pathways through which metal-induced [[dysbiosis]] could affect cardiovascular outcomes
-2. **Indoxyl sulfate as metal-microbiome CVD mediator** - [[Cadmium]] exposure elevates indoxyl sulfate production, directly connecting to the cardiovascular toxicity pathway described here
-3. **Bile acid-metal interactions** - [[Iron]] and [[copper]] homeostasis affects bile acid metabolism; metal-induced bile acid shifts could promote atherosclerosis via FXR/TGR5 dysregulation
+2. **Indoxyl sulfate as metal-microbiome CVD mediator** - [[cadmium]] exposure elevates indoxyl sulfate production, directly connecting to the cardiovascular toxicity pathway described here
+3. **Bile acid-metal interactions** - [[iron]] and [[copper]] homeostasis affects bile acid metabolism; metal-induced bile acid shifts could promote atherosclerosis via FXR/TGR5 dysregulation
 4. **BCAA-metal connections** - Heavy metals alter amino acid metabolism; BCAA imbalances described here link to both [[metabolic-syndrome]] and CVD
 5. **NLRP3 inflammasome** - A convergence point for metal toxicity, microbial signals, and [[inflammation]] that drives [[cardiovascular-disease]]

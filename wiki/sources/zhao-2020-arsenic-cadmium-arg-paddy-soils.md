@@ -16,7 +16,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Arsenic]] (As) and [[cadmium]] (Cd) are the predominant factors shaping the distribution of [[antibiotic-resistance-genes]] (ARGs) in polluted paddy soils, with As exerting a stronger effect than Cd
+- [[arsenic]] (As) and [[cadmium]] (Cd) are the predominant factors shaping the distribution of [[antibiotic-resistance-genes]] (ARGs) in polluted paddy soils, with As exerting a stronger effect than Cd
 - A total of 119 ARGs and 9 [[mobile-genetic-elements]] (MGEs) were detected across 45 paddy soil samples from the heavily polluted Chang-Zhu-Tan Urban Agglomeration in Hunan Province, China
 - The single pollution index (PI) for both As and Cd and the Nemerow integrated pollution index (NIPI) had significant positive correlations with ARG abundance (p < 0.05)
 - Bacterial abundance and MGEs are the two major factors shaping ARGs in paddy soils, with metals acting indirectly through their effects on bacterial community composition

@@ -17,7 +17,7 @@ platform: wikibiome
 - The [[gut microbiome]] plays a significant role in [[pancreatic cancer]] development through persistent inflammation, impaired antitumor immune surveillance, and altered cellular processes in the tumor [[microenvironment]]
 - Oral [[microbial biomarkers]] including *Porphyromonas gingivalis*, *Aggregatibacter actinomycetemcomitans*, and *Fusobacterium* are associated with increased PDAC risk, while *Veillonella* and *Neisseria* are protective
 - [[16S rRNA sequencing]] and [[shotgun metagenomics]] can characterize the gut microbiota in PC patients for diagnostic and prognostic purposes
-- [[Probiotics]], [[prebiotics]], [[antibiotics]], [[FMT]], and bacteriophage therapy show potential for modulating the microbiome to improve treatment outcomes
+- [[probiotics]], [[prebiotics]], [[antibiotics]], [[fecal-microbiota-transplant]], and bacteriophage therapy show potential for modulating the microbiome to improve treatment outcomes
 
 # Methods/Findings
 
@@ -26,7 +26,7 @@ platform: wikibiome
 - **Fecal microbiota**: *Lactobacillus*, *Haemophilus*, *Streptococcus* identified; 16S rRNA sequencing from fecal samples showed differential abundance between PC and controls
 - **Duodenal microbiota**: *Bifidobacterium*, *Enterococcus* (mostly *E. faecalis*), *Rothia*, *Pantoea*, *Neisseria*
 - **Biomarker potential**: Random Forest model on fecal microbiome classified PC vs controls with AUC of 82.5%
-- **Therapeutic strategies**: Reviewed evidence for [[probiotics]], [[prebiotics]], [[synbiotics]], [[FMT]], and [[phage therapy]] in altering microbial diversity and improving treatment outcomes
+- **Therapeutic strategies**: Reviewed evidence for [[probiotics]], [[prebiotics]], [[synbiotics]], [[fecal-microbiota-transplant]], and [[phage therapy]] in altering microbial diversity and improving treatment outcomes
 
 # Connections
 

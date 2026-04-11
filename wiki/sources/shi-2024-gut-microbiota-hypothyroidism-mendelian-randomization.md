@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Akkermansia]] had a positive (protective) impact on [[hypothyroidism]] with an odds ratio of 0.84 (95% CI 0.74-0.95, p = 0.01) based on the inverse variance-weighted method
+- [[akkermansia-muciniphila]] had a positive (protective) impact on [[hypothyroidism]] with an odds ratio of 0.84 (95% CI 0.74-0.95, p = 0.01) based on the inverse variance-weighted method
 - [[Butyrivibrio]] (OR = 0.93, 95% CI 0.88-0.99, p = 0.03) and [[Holdemania]] (OR = 0.89, 95% CI 0.81-0.99, p = 0.03) were identified as additional protective factors
 - [[Anaerotstipes]] (OR = 1.17, 95% CI 1.01-1.36, p = 0.04), [[Intestinimonas]] (OR = 1.13, 95% CI 1.02-1.26, p = 0.03), and [[Ruminiclostridium5]] (OR = 1.19, 95% CI 1.01-1.41, p = 0.04) had detrimental effects on hypothyroidism
 - Reverse MR analysis showed the gut microbiota was not significantly affected by hypothyroidism, indicating a unidirectional causal relationship

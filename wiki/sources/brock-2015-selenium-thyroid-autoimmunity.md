@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - Thyroid tissue contains the highest concentration of [[selenium]] in the body, owing to its crucial role in [[glutathione peroxidases]] (GPx), [[thioredoxin reductases]] (TrxR), and [[iodothyronine deiodinases]] (DIOs)
-- [[selenium]] deficiency is a risk factor for both [[Hashimoto's thyroiditis]] and [[Graves' disease]]
+- [[selenium]] deficiency is a risk factor for both [[Hashimoto's thyroiditis]] and [[graves-disease]]
 - Selenium supplementation decreases anti-TPO antibodies in autoimmune thyroiditis with varying impact based on baseline thyroid function and initial anti-TPO levels
 - There is a two-way relationship between selenium status and thyroid hormones, with animal models suggesting thyroid hormones themselves regulate selenoprotein expression
 - [[cadmium]] and [[mercury]] have demonstrated ability to negatively impact thyroid health; selenium plays a protective role against both metals

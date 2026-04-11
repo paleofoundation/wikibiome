@@ -18,7 +18,7 @@ platform: wikibiome
 - [[probiotics]] have emerged as a promising strategy to counteract HM-induced dysbiosis through eight key microbial mechanisms: biosorption, bioprecipitation, bioassimilation, bioaccumulation, metal solubilization, biotransformation, bioleaching, and organic acid secretion
 - Advanced **biosensor technologies** enable rapid, non-invasive detection of HMs in urine, allowing real-time monitoring of probiotic-mediated detoxification
 - Approximately 60% of ingested HMs are absorbed in the intestine causing oxidative stress and intestinal barrier damage
-- Common probiotic species showing HM resistance include [[Bifidobacterium]], [[Lactobacillus]], Streptococcus, Enterococcus, Clostridium, Bacillus, and Escherichia coli
+- Common probiotic species showing HM resistance include [[bifidobacterium]], [[lactobacillus]], Streptococcus, Enterococcus, Clostridium, Bacillus, and Escherichia coli
 - Limitations of probiotic therapies include strain-specificity, survivability in GI tract, individual variability, regulatory challenges, and safety concerns in immunocompromised populations
 
 # Methods/Findings

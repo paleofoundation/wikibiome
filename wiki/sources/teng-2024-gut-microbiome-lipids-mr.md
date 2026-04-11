@@ -40,7 +40,7 @@ Bidirectional two-sample MR study examining causal relationships between 211 int
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Lipid-mediated CVD risk** - Metal-induced changes in *Desulfovibrionaceae* and *Ruminococcaceae* could causally affect lipid profiles and atherosclerosis risk
-2. **H2S signaling** - [[Cadmium]] and [[lead]] may reduce sulfate-reducing bacteria, diminishing cardioprotective H2S production
+2. **H2S signaling** - [[cadmium]] and [[lead]] may reduce sulfate-reducing bacteria, diminishing cardioprotective H2S production
 3. **ApoB as risk marker** - The causal link between gut flora and ApoB provides a measurable biomarker for microbiome-mediated [[cardiovascular-disease]] risk
 
 ## Connections

@@ -22,7 +22,7 @@ This 16S rRNA amplicon sequencing study characterizes gut microbiota alterations
 ## Key Findings
 
 - PD patients show distinct gut microbiome profiles compared to controls in Eastern European populations
-- Core PD-associated changes (reduced *Prevotella*, increased *[[Akkermansia]]*) are replicated across geographic regions
+- Core PD-associated changes (reduced *Prevotella*, increased *[[akkermansia-muciniphila]]*) are replicated across geographic regions
 - Some microbial alterations are population-specific, reflecting dietary and genetic differences
 - Alpha-diversity changes in PD are modest but consistent
 - Beta-diversity analysis clearly separates PD from control microbiomes

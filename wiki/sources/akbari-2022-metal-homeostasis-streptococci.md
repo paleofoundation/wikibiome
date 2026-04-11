@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Pathogenic *[[Streptococcus]]* species have evolved complex, often redundant metal transport systems for [[zinc]], [[manganese]], [[iron]], [[copper]], and [[nickel]] to survive the dynamic metal environments encountered during host colonization and infection
+- Pathogenic *[[streptococcus-pneumoniae]]* species have evolved complex, often redundant metal transport systems for [[zinc]], [[manganese]], [[iron]], [[copper]], and [[nickel]] to survive the dynamic metal environments encountered during host colonization and infection
 - Metal transport systems are critical virulence factors; mutants lacking key importers show attenuated disease in animal models
 - The host exploits [[nutritional-immunity]] -- both metal starvation and metal intoxication -- to combat streptococcal infections
 - [[nickel]] transport in Streptococci is largely uncharacterized, with only the UreMQO system in *S. salivarius* known

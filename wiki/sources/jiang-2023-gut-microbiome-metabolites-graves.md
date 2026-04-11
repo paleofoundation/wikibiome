@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Gut microbial metabolites, particularly [[Short-Chain Fatty Acids]], bile acids, and tryptophan derivatives, play critical immunomodulatory roles in [[Graves' disease]] pathogenesis through the Gut-Thyroid Axis
+- Gut microbial metabolites, particularly [[Short-Chain Fatty Acids]], bile acids, and tryptophan derivatives, play critical immunomodulatory roles in [[graves-disease]] pathogenesis through the Gut-Thyroid Axis
 - SCFA deficiency (especially butyrate and propionate) in GD patients compromises intestinal barrier integrity, promotes systemic [[inflammation]], and impairs Treg differentiation, exacerbating autoimmune attack on the thyroid
 - Altered bile acid profiles in GD, with reduced secondary bile acids (deoxycholic acid, lithocholic acid), reflect disrupted bacterial bile acid metabolism and affect FXR/TGR5 signaling pathways that regulate immune responses
 - Tryptophan metabolites via the kynurenine and indole pathways are dysregulated in GD; reduced indole-3-acetic acid and indole-3-propionic acid (microbial products) impair aryl hydrocarbon receptor (AhR) signaling and mucosal immunity
@@ -41,7 +41,7 @@ platform: wikibiome
 - AhR signaling impairment from reduced indoles parallels findings across autoimmune conditions involving [[dysbiosis]]
 - FXR/[[NF-kappa-B]] crosstalk through bile acids provides therapeutic target for [[inflammation]] control
 - Berberine's effects on bile acid metabolism relevant to [[han-2022-berberine-methimazole-graves-microbiome]] prebiotic mechanism
-- [[Selenium]], [[zinc]], and [[iron]] affect microbial enzyme activity for metabolite production in [[gut-metal-microbiome]] axis
-- [[Probiotics]] that restore SCFA and indole production may correct the pro-inflammatory metabolic signature
-- [[Copper]] and [[oxidative-stress]] interactions may further modulate microbial metabolic capacity
+- [[selenium]], [[zinc]], and [[iron]] affect microbial enzyme activity for metabolite production in [[gut-metal-microbiome]] axis
+- [[probiotics]] that restore SCFA and indole production may correct the pro-inflammatory metabolic signature
+- [[copper]] and [[oxidative-stress]] interactions may further modulate microbial metabolic capacity
 - [[Iodine]] absorption affected by gut metabolic environment, connecting microbiome health to thyroid hormone synthesis

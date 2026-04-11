@@ -614,6 +614,7 @@ const articleDir = path.join(DIST_DIR, 'article');
 if (!fs.existsSync(articleDir)) fs.mkdirSync(articleDir, { recursive: true });
 
 let articleCount = 0;
+const seenArticleIds = new Set();
 for (const page of CONTENT.pages) {
   const pageDir = path.join(articleDir, page.id);
   if (!fs.existsSync(pageDir)) fs.mkdirSync(pageDir, { recursive: true });
@@ -621,12 +622,30 @@ for (const page of CONTENT.pages) {
   const html = generatePageHtml(page, `/article/${page.id}`);
   fs.writeFileSync(path.join(pageDir, 'index.html'), html);
 
-  urls.push({
-    path: `/article/${page.id}`,
-    lastmod: page.updated || page.created || '2026-04-10',
-    priority: page.type === 'signature' ? '0.9' : page.type === 'entity' ? '0.7' : '0.6',
-    changefreq: 'weekly'
-  });
+  // Deduplicate sitemap entries — keep the highest priority version
+  if (!seenArticleIds.has(page.id)) {
+    seenArticleIds.add(page.id);
+    urls.push({
+      path: `/article/${page.id}`,
+      lastmod: page.updated || page.created || '2026-04-10',
+      priority: page.type === 'signature' ? '0.9' : page.type === 'entity' ? '0.7' : '0.6',
+      changefreq: 'weekly'
+    });
+  } else {
+    // Update priority if this version is higher (e.g., signature > entity)
+    const existing = urls.find(u => u.path === `/article/${page.id}`);
+    if (existing) {
+      const newPriority = page.type === 'signature' ? '0.9' : page.type === 'entity' ? '0.7' : '0.6';
+      if (parseFloat(newPriority) > parseFloat(existing.priority)) {
+        existing.priority = newPriority;
+      }
+      // Also update lastmod if newer
+      const newDate = page.updated || page.created || '2026-04-10';
+      if (newDate > existing.lastmod) {
+        existing.lastmod = newDate;
+      }
+    }
+  }
   articleCount++;
 }
 console.log(`  Generated: ${articleCount} article pages`);

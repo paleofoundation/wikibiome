@@ -28,10 +28,10 @@ condition: "autism spectrum disorder"
 
 **Cecal microbiota (16S rRNA qRT-PCR):**
 - [[Akkermansia muciniphila]]: BTBR-chow 1011 +/- 153 vs. BTBR-KD 0.2 +/- 0.02 (dramatically reduced by KD)
-- [[Bifidobacterium]]: reduced by KD in both genotypes
+- [[bifidobacterium]]: reduced by KD in both genotypes
 - [[Clostridium coccoides]]: BTBR-chow 46,568 vs. BTBR-KD 11,157 (reduced by KD)
 - [[Clostridium leptum]]: relatively maintained in BTBR-KD
-- [[Lactobacillus]]: dramatically reduced by KD in both genotypes
+- [[lactobacillus]]: dramatically reduced by KD in both genotypes
 - Total Firmicutes: reduced by KD
 - Firmicutes/Bacteroidetes ratio: BTBR-chow 6.9 vs. BTBR-KD 32.5 (reversed by KD)
 

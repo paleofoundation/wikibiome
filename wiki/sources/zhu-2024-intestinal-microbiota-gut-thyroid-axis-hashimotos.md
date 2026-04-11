@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Hashimotos thyroiditis]] (HT) prevalence has reached 10-12% globally, with a 7-10:1 female-to-male ratio, and intestinal microbiota composition differs significantly between HT patients and healthy controls
+- [[hashimotos-thyroiditis]] (HT) prevalence has reached 10-12% globally, with a 7-10:1 female-to-male ratio, and intestinal microbiota composition differs significantly between HT patients and healthy controls
 - Firmicutes and Bacteroidetes are the dominant phyla in HT patients; Bacteroides, Roseburia, Ruminococcus, Dorea, Fusicatenibacter, and Eubacterium are increased while Bifidobacterium and Lactobacillus are decreased
 - [[short-chain-fatty-acids]] (SCFAs) produced by gut microbiota inhibit [[nf-kappa-b]] signaling and [[inflammation]], induce Treg cell function, and enhance intestinal barrier integrity relevant to thyroid autoimmunity
 - [[selenium]] supplementation increases Treg proportion, suppresses pro-inflammatory cytokine secretion, and delays thyroid follicular cell apoptosis in autoimmune thyroid disease

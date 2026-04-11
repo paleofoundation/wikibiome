@@ -16,9 +16,9 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Iron]] is the "concert master" in Parkinson's disease (PD) pathology: it accumulates age-dependently in the substantia nigra pars compacta (SNpc), and this accumulation is significantly increased in PD beyond normal aging
+- [[iron]] is the "concert master" in Parkinson's disease (PD) pathology: it accumulates age-dependently in the substantia nigra pars compacta (SNpc), and this accumulation is significantly increased in PD beyond normal aging
 - The pathology likely spreads in a prion-like manner from the gut via the vagus nerve and/or the olfactory system to the brain, fitting the bottom-up (gut-brain) hypothesis of PD rather than the top-down model
-- [[Ferroptosis]] -- iron-dependent regulated cell death characterized by lipid hydroperoxide accumulation -- is a key mechanism in dopaminergic neuron loss in PD
+- [[ferroptosis]] -- iron-dependent regulated cell death characterized by lipid hydroperoxide accumulation -- is a key mechanism in dopaminergic neuron loss in PD
 - [[Hepcidin]], a regulator of iron absorption and tissue distribution, is suggested to play a major role in iron dyshomeostasis and risk for alpha-synuclein pathology
 - [[Neuromelanin]] (NM), the major intraneuronal chelator of iron, undergoes an age-dependent increase in the SNpc and its interaction with iron is central to PD pathogenesis
 

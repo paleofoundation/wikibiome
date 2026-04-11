@@ -52,10 +52,10 @@ Case-control study measuring **21 chemical elements in hair** of 181 children (5
 
 # Mechanistic Implications
 
-- [[Lead]] disrupts blood-brain barrier, causes [[neuroinflammation]]
-- [[Arsenic]] and [[cadmium]] induce [[oxidative stress]] and mitochondrial damage
-- [[Copper]] excess may reflect impaired [[ceruloplasmin]] metabolism or [[Wilson disease]]-like phenotype
-- [[Manganese]] neurotoxicity during critical developmental periods
+- [[lead]] disrupts blood-brain barrier, causes [[neuroinflammation]]
+- [[arsenic]] and [[cadmium]] induce [[oxidative stress]] and mitochondrial damage
+- [[copper]] excess may reflect impaired [[ceruloplasmin]] metabolism or [[Wilson disease]]-like phenotype
+- [[manganese]] neurotoxicity during critical developmental periods
 - Heavy metal accumulation may compound genetic susceptibility to ASD
 
 # Relevance to Metallomic Framework

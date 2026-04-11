@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Current antithyroid drug therapy for [[Graves' disease]] does not address the underlying autoimmune pathology, leading to high relapse rates (40-60%); targeted immunotherapies may offer disease-modifying potential
+- Current antithyroid drug therapy for [[graves-disease]] does not address the underlying autoimmune pathology, leading to high relapse rates (40-60%); targeted immunotherapies may offer disease-modifying potential
 - Anti-CD20 therapy (rituximab) for B-cell depletion has shown promise in reducing TRAb levels and achieving sustained remission in GD, though results are variable and evidence limited to small trials
 - TSH receptor (TSHR)-targeted therapies including small-molecule TSHR antagonists and TSHR-blocking antibodies represent the most disease-specific approach, directly addressing the pathogenic autoantibody mechanism
 - Anti-neonatal Fc receptor (FcRn) inhibitors that accelerate IgG clearance offer a novel mechanism to reduce circulating TRAb without broad immunosuppression
@@ -42,5 +42,5 @@ platform: wikibiome
 - Conventional ATD limitations motivate microbiome-based adjuncts like berberine in [[han-2022-berberine-methimazole-graves-microbiome]]
 - [[NF-kappa-B]] and cytokine-driven [[inflammation]] as therapeutic targets connect to neuroinflammatory depression pathway in [[siegmann-2020-graves-disease-depression-mechanistic]]
 - Gut [[dysbiosis]] correction via [[probiotics]] may complement targeted immunotherapy by restoring immune homeostasis
-- [[Selenium]] and other trace elements ([[zinc]], [[copper]], [[iron]]) may support immune rebalancing alongside targeted therapies
+- [[selenium]] and other trace elements ([[zinc]], [[copper]], [[iron]]) may support immune rebalancing alongside targeted therapies
 - Drug repurposing of JAK inhibitors from RA/IBD to GD exemplifies shared autoimmune mechanisms

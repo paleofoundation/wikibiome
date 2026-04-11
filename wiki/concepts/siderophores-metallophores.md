@@ -96,6 +96,21 @@ The "infection metallomics" platform uses mass spectrometry to detect microbial 
 Fecal urease activity, ammonia levels, and stool nickel content could serve as early NEC risk indicators -- reflecting the downstream consequences of nickelophore-mediated nickel acquisition by gut pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 
+## Role in Disease
+
+Siderophore-producing pathogens are especially prominent in iron-dysregulated conditions:
+
+- **[[endometriosis]]** -- Dysbiotic E. coli overproduces enterobactin in response to elevated tissue iron and heme; siderophore activity drives local inflammation and Fe2+ sequestration, triggering hepcidin elevation.
+- **[[inflammatory-bowel-disease]]** -- Dysbiotic bacteria switch to high siderophore production under iron starvation; this creates a vicious cycle where host iron withholding paradoxically favors pathogenic siderophore-producing taxa.
+- **Cystic fibrosis** -- P. aeruginosa lung biofilms rely on pyoverdine-mediated iron acquisition; pyoverdine production correlates with disease severity.
+- **Urinary tract infection** -- Uropathogenic E. coli produce enterobactin and aerobactin; siderophore activity is required for virulence.
+- **Bloodstream infection** -- During sepsis, host [[hepcidin]] elevation and [[lipocalin-2]] induction are part of innate immunity; pathogens that survive have superior siderophore-iron acquisition.
+
+## Secondary Metal Regulation of Siderophore Production
+
+- **Zinc and manganese** regulate siderophore synthase gene expression via metal-sensing transcription factors (Zur for zinc, MntR for manganese). Dysbiotic E. coli upregulate enterobactin synthesis when zinc is depleted.
+- **Copper** -- Some bacteria produce copper-chelating siderophore-like molecules (cuproines) to manage copper toxicity; copper stress indirectly drives iron siderophore production.
+
 ## Key Sources
 
 - [[akbari-2022-metal-homeostasis-streptococci]]

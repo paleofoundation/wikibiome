@@ -36,7 +36,7 @@ platform: wikibiome
 
 - Key [[Mendelian randomization]] study establishing causal microbiome-CVD links
 - *Oxalobacter* finding relevant to [[microbial biomarkers]] for CAD risk
-- *Clostridiaceae* SCFA-producing properties connect to [[SCFAs]] and stroke neuroprotection
+- *Clostridiaceae* SCFA-producing properties connect to [[short-chain-fatty-acids]] and stroke neuroprotection
 - Blood pressure mediation links to [[microbiome and disease progression]] mechanisms
 - Complements [[Wang 2023 - Gut Microbiota CAD MI MR]] on protective *Ruminococcus* findings
 - Study design informs [[causal microbiome relationships]] in cardiovascular disease

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Probiotics]] significantly reduced systolic blood pressure by -1.31 mmHg (95% CI: -2.23, -0.39, P=0.005) and diastolic blood pressure by -1.87 mmHg (95% CI: -2.41, -1.33, P<0.001) in patients with CVD risk factors
+- [[probiotics]] significantly reduced systolic blood pressure by -1.31 mmHg (95% CI: -2.23, -0.39, P=0.005) and diastolic blood pressure by -1.87 mmHg (95% CI: -2.41, -1.33, P<0.001) in patients with CVD risk factors
 - Total cholesterol reduced by -6.05 mg/dL (95% CI: -8.49, -3.61, P<0.001) and [[LDL]]-C by -8.77 mg/dL (95% CI: -11.86, -5.69, P<0.001)
 - Serum glucose reduced by -4.92 mg/dL (95% CI: -6.15, -3.69, P<0.001) and [[HbA1c]] by -0.18% (95% CI: -0.31, -0.06, P=0.005)
 - No significant changes observed for triglycerides or [[HDL]]-C

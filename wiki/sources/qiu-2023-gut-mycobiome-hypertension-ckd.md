@@ -41,7 +41,7 @@ Original research examining the gut fungal microbiome (mycobiome) in 50 healthy 
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Fungal [[dysbiosis]] in CVD** - The increased diversity and shifted composition in HTN+CKD demonstrates that the mycobiome is an underexplored component of the [[gut-metal-microbiome]] model
-2. **[[Cadmium]] and fungal responses** - Cadmium and [[lead]] are known to affect fungal metal resistance mechanisms; their impact on gut fungal communities may parallel the bacterial dysbiosis patterns
+2. **[[cadmium]] and fungal responses** - Cadmium and [[lead]] are known to affect fungal metal resistance mechanisms; their impact on gut fungal communities may parallel the bacterial dysbiosis patterns
 3. **[[Inflammation]] mediation** - Fungal-cytokine correlations (especially *Candida*-TNFalpha) suggest the mycobiome actively modulates the inflammatory state in CVD
 4. **Kidney-cardiovascular axis** - The distinct mycobiome of HTN+CKD vs HTN alone suggests that renal dysfunction (potentially from [[cadmium]] nephrotoxicity) compounds fungal dysbiosis
 - [[cardiovascular-disease]]

@@ -54,3 +54,13 @@ condition: "autism spectrum disorder"
 - **Methionine-zinc axis**: SAM cycle requires zinc-dependent enzymes; methionine cycle disruption indicates systemic zinc insufficiency
 - **5-HT-iron link**: Tryptophan hydroxylase (rate-limiting for serotonin synthesis) is an iron-dependent enzyme; elevated urinary 5-HT may paradoxically reflect impaired central serotonin due to iron maldistribution
 - **Antioxidant depletion**: Decreased carnosine and anserine (zinc-chelating dipeptides) reflects reduced zinc-dependent antioxidant capacity
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- urinary amino acid biomarker panel
+- [[tryptophan-metabolism]] -- serotonin pathway disruption in ASD
+- [[iron]] -- cofactor for tryptophan hydroxylase
+- [[zinc]] -- SAM cycle enzymes; carnosine as zinc chelator
+- [[manganese]] -- cofactor for arginase in urea cycle
+- [[biomarkers]] -- 7-UAA panel achieves AUC 0.92 for ASD discrimination
+- [[gut-microbiome]] -- microbial metabolism influences urinary amino acid profiles

@@ -39,7 +39,7 @@ Comprehensive systematic review of **44 studies** assessing **gut microbiota com
 ## Probiotics
 
 - **Most promising intervention** for behavioral and GI symptoms (66% efficacy reported)
-- **Effective strains**: [[Lactobacillus]], [[Bifidobacterium]], [[Streptococcus]]
+- **Effective strains**: [[lactobacillus]], [[bifidobacterium]], [[streptococcus-pneumoniae]]
 - Show promise in alleviating both behavioral and gastrointestinal symptoms
 - Mechanism: metabolite production, intestinal barrier support, immune modulation
 

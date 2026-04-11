@@ -22,7 +22,7 @@ This study examines the presence of microbial (particularly fungal) communities 
 ## Key Findings
 
 - Fungal structures (yeast cells, hyphae) were detected in brain tissue of HD patients using immunohistochemistry and PCR
-- *[[Candida]]* species and other fungi were identified in striatal and cortical brain regions
+- *[[candida-albicans]]* species and other fungi were identified in striatal and cortical brain regions
 - Bacterial DNA was also detected in HD brain samples
 - Fungal burden appeared to correlate with disease-affected brain regions
 - Mixed fungal and bacterial infections were common in HD brains

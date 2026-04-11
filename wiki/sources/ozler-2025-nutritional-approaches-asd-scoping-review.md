@@ -57,3 +57,14 @@ condition: "autism spectrum disorder"
 - **KD-metal considerations**: Long-term KD may deplete selenium (due to reduced grain intake) and exacerbate existing trace element deficiencies
 - **Food selectivity as metal vulnerability**: Restricted dietary intake in ASD children limits metal cofactor supply, compounding microbiome-driven metal dyshomeostasis
 - **Camel milk SOD**: Direct supply of zinc/copper-dependent superoxide dismutase may bypass disrupted endogenous metalloenzyme production
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- comprehensive nutritional intervention scoping review
+- [[zinc]] -- among most common deficiencies in ASD children
+- [[iron]] -- deficiency prevalent in 30-84% of ASD population
+- [[selenium]] -- depleted by long-term dietary restrictions
+- [[probiotics]] -- strain-dependent gut-brain axis modulation
+- [[gut-brain-axis]] -- GI complaints in 9-91% of ASD individuals
+- [[dysbiosis]] -- dietary interventions target microbial imbalance
+- [[copper]] -- SOD cofactor in camel milk supplementation

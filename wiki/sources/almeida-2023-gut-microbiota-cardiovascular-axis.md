@@ -50,7 +50,7 @@ Review exploring the gut-heart axis concept, covering bacterial, viral, and fung
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Multi-kingdom perspective** - Integrating bacterial, viral, and fungal microbiota provides a comprehensive framework for understanding [[gut-metal-microbiome]] contributions to CVD
-2. **Bile acid-metal interactions** - [[Iron]] and [[copper]] affect bile acid metabolism; metal-induced bile acid dysregulation may accelerate atherosclerosis
-3. **Polyamine metabolism** - [[Cadmium]] disrupts amino acid metabolism, potentially reducing cardioprotective polyamine production
+2. **Bile acid-metal interactions** - [[iron]] and [[copper]] affect bile acid metabolism; metal-induced bile acid dysregulation may accelerate atherosclerosis
+3. **Polyamine metabolism** - [[cadmium]] disrupts amino acid metabolism, potentially reducing cardioprotective polyamine production
 4. **Gut-heart axis model** - Provides conceptual framework for metal-microbiome-CVD pathways
 - [[cardiovascular-disease]]

@@ -218,30 +218,30 @@ Each comorbidity reflects underlying pathophysiological mechanism (inflammation,
 ### Metal Cofactors in Each Mechanism
 
 #### Neuroinflammation
-- [[Iron]]-dependent microglial PRRs (TLR4)
-- [[Zinc]]-dependent NF-κB, JAK-STAT signaling
-- [[Iron]]-dependent IDO (tryptophan → inflammatory metabolites)
+- [[iron]]-dependent microglial PRRs (TLR4)
+- [[zinc]]-dependent NF-κB, JAK-STAT signaling
+- [[iron]]-dependent IDO (tryptophan → inflammatory metabolites)
 
 #### Immune Dysregulation
-- [[Zinc]]-dependent T-cell signaling, differentiation
-- [[Zinc]]-dependent IL-2 receptor signaling, Treg development
-- [[Iron]]-dependent Th17 differentiation (iron needed for IL-17 production)
+- [[zinc]]-dependent T-cell signaling, differentiation
+- [[zinc]]-dependent IL-2 receptor signaling, Treg development
+- [[iron]]-dependent Th17 differentiation (iron needed for IL-17 production)
 
 #### Oxidative Stress
-- [[Zinc]]-dependent superoxide dismutase (SOD1)
-- [[Iron]]-dependent catalase
-- [[Iron]]-dependent glutathione peroxidase (selenoprotein with iron cofactor in some forms)
-- **[[Iron]]-driven Fenton chemistry** if dysregulated
+- [[zinc]]-dependent superoxide dismutase (SOD1)
+- [[iron]]-dependent catalase
+- [[iron]]-dependent glutathione peroxidase (selenoprotein with iron cofactor in some forms)
+- **[[iron]]-driven Fenton chemistry** if dysregulated
 
 #### Mitochondrial Dysfunction
-- [[Iron]]-dependent cytochrome c oxidase, electron transport chain
-- [[Zinc]]-dependent dehydrogenases
-- [[Iron]]-dependent aconitase (citric acid cycle)
+- [[iron]]-dependent cytochrome c oxidase, electron transport chain
+- [[zinc]]-dependent dehydrogenases
+- [[iron]]-dependent aconitase (citric acid cycle)
 
 #### Dysbiosis
-- **[[Iron]], [[zinc]], [[nickel]] metabolism** varies across taxa
+- **[[iron]], [[zinc]], [[nickel]] metabolism** varies across taxa
 - Dysbiotic taxa preferentially depend on dysregulated metals
-- Loss of [[iron]]-efficient taxa (e.g., [[Faecalibacterium]])
+- Loss of [[iron]]-efficient taxa (e.g., [[faecalibacterium-prausnitzii]])
 - Expansion of [[iron]]-hoarding or metal-tolerant taxa
 
 ### ASD Metal Hypothesis (Multi-Mechanism)

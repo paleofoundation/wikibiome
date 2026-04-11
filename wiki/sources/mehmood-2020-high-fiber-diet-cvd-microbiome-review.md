@@ -15,9 +15,9 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[TMAO]] is a critical biomarker for [[cardiovascular disease]]; patients in the highest TMAO bracket had a 2.5-fold increase in [[MACE]] risk
+- [[tmao]] is a critical biomarker for [[cardiovascular disease]]; patients in the highest TMAO bracket had a 2.5-fold increase in [[MACE]] risk
 - High-fiber diets reduce TMAO and its precursor [[TMA]] by 62.6% and 40.6%, respectively
-- [[SCFAs]] (acetate, butyrate, propionate) produced by gut microbiome fermentation of dietary fiber modulate blood pressure via [[GPCR]] pathways (Olfr78, GPR41, GPR43, GPR109A)
+- [[short-chain-fatty-acids]] (acetate, butyrate, propionate) produced by gut microbiome fermentation of dietary fiber modulate blood pressure via [[GPCR]] pathways (Olfr78, GPR41, GPR43, GPR109A)
 - A high [[Firmicutes]]:[[Bacteroidetes]] ratio is a biomarker for [[gut dysbiosis]] and is linked to high blood pressure and CVD
 - Increased whole-grain consumption led to a 16% reduced risk of cardiovascular-related death in a meta-analysis of 757,966 individuals
 - Prebiotics are more efficient than probiotics at mitigating negative cardiovascular impacts such as decreasing blood pressure

@@ -41,5 +41,5 @@ pp. 850-857
 ## Connections
 
 - Landmark study linking [[metformin]]'s therapeutic effects to [[gut microbiome]] changes
-- Links to [[SCFAs]], [[bile acids]], and [[cardiovascular disease]] risk reduction
+- Links to [[short-chain-fatty-acids]], [[bile acids]], and [[cardiovascular disease]] risk reduction
 - Relevant to [[Akkermansia muciniphila]] as a mediator of metabolic health

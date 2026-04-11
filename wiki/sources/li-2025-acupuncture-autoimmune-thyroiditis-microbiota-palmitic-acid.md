@@ -17,8 +17,8 @@ platform: wikibiome
 ## Key Claims
 
 - [[Acupuncture]] (Acu) effectively improved thyroid dysfunction and histopathological changes in experimental autoimmune thyroiditis (EAT) rats, comparable to selenium yeast control
-- Acu mitigated EAT-induced metabolic disorders by regulating the metabolism of [[palmitic acid]] and adjusted intestinal microbiota dysbiosis by increasing the abundance of [[Prevotella]]
-- The microbiota ([[Prevotella]]) and metabolites (cyclohexanecarboxylic acid, tetradecanedioic acid) may serve as co-targets for both Acu and selenium yeast treatment in EAT
+- Acu mitigated EAT-induced metabolic disorders by regulating the metabolism of [[palmitic acid]] and adjusted intestinal microbiota dysbiosis by increasing the abundance of [[prevotella]]
+- The microbiota ([[prevotella]]) and metabolites (cyclohexanecarboxylic acid, tetradecanedioic acid) may serve as co-targets for both Acu and selenium yeast treatment in EAT
 - TPOAb, TGAb, FT3, and FT4 significantly improved after Acu intervention (P < 0.0001); TSH also improved
 - 44 differential metabolites were identified in EAT rats; 12 were down-regulated including palmitoleic acid, daucol, traumatic acid, and cyclohexanecarboxylic acid
 - KEGG enrichment analysis showed 8 metabolic pathways significantly altered, with Acu reversing many of the metabolic disturbances

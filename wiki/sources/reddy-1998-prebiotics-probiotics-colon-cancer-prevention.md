@@ -34,7 +34,7 @@ platform: wikibiome
 
 - Foundational evidence for [[Rafter 2004 - Probiotics Colon Cancer Development]] review of probiotic anti-cancer mechanisms
 - ACF as a biomarker endpoint connects to [[Metz 2019 - Drug Discovery BFT Inhibition]] where ACF are discussed as CRC precursors
-- Prebiotic stimulation of Bifidobacteria relevant to [[FMT]] research and microbiome restoration in CRC
+- Prebiotic stimulation of Bifidobacteria relevant to [[fecal-microbiota-transplant]] research and microbiome restoration in CRC
 - ODC and ras-p21 modulation connects to [[Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] which also discusses ras-p21 pathway
 - Inulin/oligofructose as prebiotics link to [[dietary fiber]] research in [[Cummings 1992 - Fecal Weight Colon Cancer Fiber]]
 - [[colorectal-cancer]]

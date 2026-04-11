@@ -37,3 +37,14 @@ A case-control study from central India investigating associations between heavy
 ## Relevance to Wiki
 
 Demonstrates the role of multiple heavy metals (especially arsenic) in CKDu pathogenesis in an Indian cohort, with surface water and pesticide exposure as key environmental risk factors, supporting the broader connection between agricultural contamination and kidney disease.
+
+## Connections
+
+- [[heavy-metals]] -- multi-metal exposure in CKDu pathogenesis
+- [[arsenic]] -- independently associated with CKDu on regression
+- [[cadmium]] -- elevated in blood and urine of CKD/CKDu patients
+- [[lead]] -- significantly higher in kidney disease patients
+- [[chromium]] -- nephrotoxic at elevated levels
+- [[environmental-metal-exposure]] -- surface water and pesticide routes
+- [[gut-microbiome]] -- metal-altered gut ecology may compound renal damage
+- [[biomarkers]] -- blood and urinary metal levels as exposure indicators

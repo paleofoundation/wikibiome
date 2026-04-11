@@ -15,7 +15,7 @@ condition: "autism spectrum disorder"
 
 # Overview
 
-Large-scale multi-omic meta-analysis published in **Nature Neuroscience** developing a **Bayesian differential ranking algorithm** to identify ASD-associated molecular and taxa profiles across **10 cross-sectional microbiome datasets and 15 other datasets** (dietary, metabolomic, cytokine, brain gene expression). Identified a functional architecture along the [[gut-brain axis]] characterized by ASD-associated amino acid, carbohydrate, and lipid profiles predominantly encoded by [[Prevotella]], [[Bifidobacterium]], [[Desulfovibrio]], and [[Bacteroides]]. This architecture is NOT present in age-matched and sex-matched cohorts but IS present in sibling-matched cohorts.
+Large-scale multi-omic meta-analysis published in **Nature Neuroscience** developing a **Bayesian differential ranking algorithm** to identify ASD-associated molecular and taxa profiles across **10 cross-sectional microbiome datasets and 15 other datasets** (dietary, metabolomic, cytokine, brain gene expression). Identified a functional architecture along the [[gut-brain axis]] characterized by ASD-associated amino acid, carbohydrate, and lipid profiles predominantly encoded by [[prevotella]], [[bifidobacterium]], [[desulfovibrio]], and [[bacteroides-fragilis]]. This architecture is NOT present in age-matched and sex-matched cohorts but IS present in sibling-matched cohorts.
 
 # Key Findings
 
@@ -27,11 +27,11 @@ Large-scale multi-omic meta-analysis published in **Nature Neuroscience** develo
 - Single microbial log ratio that strongly separated ASD from controls: enrichment of specific taxa across 88% of age-sex-matched pairs
 
 ### Key Microbial Taxa
-- **[[Prevotella]]**: predominantly associated with cytokine differentials
-- **[[Bacteroides]]**: associated with both cytokine and metabolite profiles
-- **[[Bifidobacterium]]**: *B. thetaiotaomicron* — second most highly elevated microbe when TGF-beta was depleted
+- **[[prevotella]]**: predominantly associated with cytokine differentials
+- **[[bacteroides-fragilis]]**: associated with both cytokine and metabolite profiles
+- **[[bifidobacterium]]**: *B. thetaiotaomicron* — second most highly elevated microbe when TGF-beta was depleted
 - *B. catenulatum/B. adolescentis*: enriched when IL-6 was in lower concentration
-- **[[Desulfovibrio]]**: associated with cytokine changes
+- **[[desulfovibrio]]**: associated with cytokine changes
 
 ## Host Cytokine Correlations
 - **TGF-beta**: significantly elevated in ASD; positively correlated with global microbial log fold changes (r = 0.237, P = 2.84 x 10^-7)
@@ -65,11 +65,11 @@ Large-scale multi-omic meta-analysis published in **Nature Neuroscience** develo
 **Very high relevance** — multi-omic framework directly relevant to metal-dependent pathways:
 
 - Amino acid metabolism pathways (phenylalanine, tyrosine, tryptophan) are [[iron]] and [[zinc]]-dependent
-- [[Desulfovibrio]] is a sulfate-reducing bacterium that sequesters [[iron]] via siderophore-like mechanisms
+- [[desulfovibrio]] is a sulfate-reducing bacterium that sequesters [[iron]] via siderophore-like mechanisms
 - TGF-beta and IL-6 are key regulators of [[hepcidin]], the master [[iron]] regulatory hormone
 - Dietary amino acid deficits (phenylalanine, tyrosine, histidine) reduce metal chelation capacity
 - 48.5% metabolic pathway overlap between microbiome and brain suggests shared metal cofactor requirements
-- [[Prevotella]] and [[Bacteroides]] are key [[SCFA]] producers — butyrate regulates [[iron]] transporter expression
+- [[prevotella]] and [[bacteroides-fragilis]] are key [[SCFA]] producers — butyrate regulates [[iron]] transporter expression
 
 # Methodological Notes
 

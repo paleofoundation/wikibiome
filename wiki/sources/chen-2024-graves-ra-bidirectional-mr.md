@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Bidirectional two-sample Mendelian randomization reveals a significant causal relationship between [[Graves' disease]] (GD) and [[rheumatoid arthritis]] (RA), with genetically predicted GD increasing RA risk
+- Bidirectional two-sample Mendelian randomization reveals a significant causal relationship between [[graves-disease]] (GD) and [[rheumatoid arthritis]] (RA), with genetically predicted GD increasing RA risk
 - Shared autoimmune pathways involving [[HLA]] alleles, particularly HLA-DRB1, and [[JAK/STAT pathway]] signaling underlie the comorbidity between GD and RA
 - The [[PTPN22]] R620W variant is a shared susceptibility locus for both GD and RA, implicating T-cell receptor signaling dysregulation
 - [[Inflammation]] driven by TNF-alpha, IL-6, and other pro-inflammatory cytokines represents a common mechanistic link between the two conditions
@@ -36,7 +36,7 @@ platform: wikibiome
 - Complements [[xian-2023-graves-disease-ibd-mendelian-randomization]] on GD comorbidity with other autoimmune diseases using similar MR methodology
 - PTPN22 shared susceptibility connects to broader [[Autoimmune Comorbidity]] patterns across thyroid and joint diseases
 - JAK/STAT pathway overlap relevant to [[JAK Inhibitors]] as shared therapeutic targets, paralleling IBD-GD findings
-- [[Selenium]] deficiency as shared risk factor connects to [[brock-2015-selenium-thyroid-autoimmunity]] and role of [[oxidative-stress]] in both conditions
+- [[selenium]] deficiency as shared risk factor connects to [[brock-2015-selenium-thyroid-autoimmunity]] and role of [[oxidative-stress]] in both conditions
 - [[NF-kappa-B]] activation as shared inflammatory driver relevant to understanding systemic autoimmune [[inflammation]]
 - HLA-DRB1 shared susceptibility extends the pattern seen in [[xian-2023-graves-disease-ibd-mendelian-randomization]] with IBD
 - Micronutrient connections via [[iron]], [[zinc]], and [[copper]] status in both autoimmune thyroid and joint diseases link to [[brylinski-2025-trace-elements-thyroid-diseases]]

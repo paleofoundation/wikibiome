@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-This systematic review (PROSPERO: CRD42023457490) and meta-analysis evaluates the efficacy of microbiome-modulating interventions (diet, biotics, [[FMT]], medications) on neurodegenerative diseases (NDDs) including [[multiple-sclerosis]], Parkinson's disease, Alzheimer's disease, and ALS. It included 15 clinical trials from 4,051 screened articles.
+This systematic review (PROSPERO: CRD42023457490) and meta-analysis evaluates the efficacy of microbiome-modulating interventions (diet, biotics, [[fecal-microbiota-transplant]], medications) on neurodegenerative diseases (NDDs) including [[multiple-sclerosis]], Parkinson's disease, Alzheimer's disease, and ALS. It included 15 clinical trials from 4,051 screened articles.
 
 ## Key Findings
 

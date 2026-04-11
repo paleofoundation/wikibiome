@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- The diet of patients with [[Hashimotos thyroiditis]] should be based on increased content of complete protein, polyunsaturated [[fatty acids]], and complex carbohydrates with a low glycaemic index
+- The diet of patients with [[hashimotos-thyroiditis]] should be based on increased content of complete protein, polyunsaturated [[fatty acids]], and complex carbohydrates with a low glycaemic index
 - [[Dietary fiber]] intake of approximately 30 g per day in women with Hashimoto's thyroiditis increases the rate of weight loss and improves the efficacy of nutritional therapy
 - Essential nutrients for thyroid function include [[iodine]], [[iron]], [[selenium]], [[zinc]], and vitamins A, D, E, B2, B3, and B12, and their supply is important due to their impact on secretory activity of the thyroid
 - Excess [[iodine]] in patients with Hashimoto's can lead to breakdown in tolerance mechanisms and exacerbation of inflammatory response against thyroid antigens

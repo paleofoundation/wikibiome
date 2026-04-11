@@ -24,7 +24,7 @@ Systematic review following PRISMA guidelines examining the role of gut microbio
 - LPS concentration leads to vascular endothelial dysfunction via TLR4-mediated NADPH oxidase pathway generating ROS
 - Dysbiosis triggers inflammatory pathways including overproduction of CRP, IL-18, IL-1, IL-16, TNF, and VCAM-1
 - Neuroendocrine-immune crosstalk enhanced by [[dysbiosis]] leads to disturbed LDL cholesterol, plasma triglycerides, and HDL cholesterol
-- [[TMAO]] promotes foam cell formation, endothelial dysfunction, and platelet activation
+- [[tmao]] promotes foam cell formation, endothelial dysfunction, and platelet activation
 
 ### Hypertension
 - Gut dysbiosis triggers loss of SCFA-producing bacteria leading to decreased butyrate, propionate, and acetate
@@ -47,4 +47,4 @@ Systematic review following PRISMA guidelines examining the role of gut microbio
 
 ## Relevance to the Wiki
 
-Provides a structured systematic synthesis of evidence linking gut microbiome to [[cardiovascular-disease]] events across atherosclerosis, hypertension, and metabolic endpoints. Complements individual mechanistic studies by aggregating review-level evidence on [[TMAO]], [[SCFAs]], and [[dysbiosis]] pathways.
+Provides a structured systematic synthesis of evidence linking gut microbiome to [[cardiovascular-disease]] events across atherosclerosis, hypertension, and metabolic endpoints. Complements individual mechanistic studies by aggregating review-level evidence on [[tmao]], [[short-chain-fatty-acids]], and [[dysbiosis]] pathways.

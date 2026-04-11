@@ -45,7 +45,7 @@ platform: wikibiome
 - [[propionate]] -- SCFA with neuroprotective properties; production enriched by KD
 - [[tryptophan]] -- metabolic rerouting from kynurenine to indole derivatives under KD
 - [[indoles]] -- microbiome-derived indole-3-acetate as AhR ligand with anti-inflammatory CNS effects
-- [[Roseburia]] -- *R. intestinalis* as key propionate producer enriched by KD
+- [[roseburia]] -- *R. intestinalis* as key propionate producer enriched by KD
 - [[Romboutsia]] -- *R. timonensis* enriched by KD with propionate production capacity
 - [[Bacteroides-thetaiotaomicron]] -- contributes to propionate production under KD
 - [[aryl-hydrocarbon-receptor]] -- AhR pathway as target of microbiome-derived indoles for neuroprotection

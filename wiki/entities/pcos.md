@@ -131,6 +131,14 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 6. **Causal direction**: Are elevated metals a cause of PCOS, a consequence of metabolic dysfunction, or both? Longitudinal and Mendelian randomization studies are needed.
 
 
+## Comorbidities
+
+- [[type-2-diabetes]] -- PCOS women have 4-8x increased T2D risk; shared insulin resistance as the central metabolic defect; shared Cd and Hg correlations with HOMA-IR and fasting glucose; shared gut dysbiosis with SCFA producer depletion; metformin treats both
+- [[cardiovascular-disease]] -- PCOS is an independent CVD risk factor; shared metabolic inflammation, dyslipidemia, and TMAO pathway activation; Cu elevation in both conditions; shared endothelial dysfunction from oxidative stress
+- [[obesity]] -- 40-80% of PCOS patients are overweight/obese; adipose tissue aromatase amplifies hyperandrogenism; shared insulin resistance and gut dysbiosis; weight loss improves ovulation, androgen levels, and metabolic parameters
+- [[depression]] -- depression prevalence is 2-3x higher in PCOS; shared tryptophan pathway disruption and gut-brain axis dysfunction; hyperandrogenism-driven hirsutism and acne contribute to body image distress; shared inflammatory markers (elevated CRP, IL-6)
+- [[endometriosis]] -- 20% comorbidity rate; both are estrogen-related conditions with shared metalloestrogen exposure (Cd, Ni); opposing estrogen dynamics (excess in endometriosis vs dysregulated in PCOS) may reflect different manifestations of the same metalloestrogen disruption
+
 ## Key Sources
 
 - [[kurdoglu-2012-trace-elements-pcos]]

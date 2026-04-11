@@ -53,3 +53,13 @@ condition: "autism spectrum disorder"
 - **mTOR-zinc axis**: mTOR signaling is zinc-sensitive; KD inhibition of hyperactive mTOR may partially compensate for zinc-driven mTOR dysregulation in ASD
 - **GABA-metal synthesis**: KD-enhanced GABA production depends on glutamic acid decarboxylase, which requires zinc and pyridoxal phosphate cofactors
 - **Micronutrient risk**: Long-term KD may exacerbate existing vitamin D and folic acid deficiencies in ASD, compounding metal dyshomeostasis
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- ketogenic diet as therapeutic intervention
+- [[akkermansia-muciniphila]] -- restored by KD in ASD animal models
+- [[gut-microbiome]] -- KD modulates microbial composition
+- [[blood-brain-barrier]] -- ketone bodies cross BBB for neuroprotection
+- [[short-chain-fatty-acids]] -- beta-hydroxybutyrate as signaling molecule
+- [[zinc]] -- cofactor for GAD enzyme in GABA synthesis; mTOR signaling
+- [[desulfovibrio]] -- increased by KD in ASD models

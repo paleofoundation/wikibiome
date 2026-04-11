@@ -152,6 +152,14 @@ Dietary fiber increases SCFA production, maintaining gut barrier integrity and r
 ### Polyamines
 Bacterially synthesized polyamines (cadaverine, putrescine, spermidine) have cardioprotective effects. Spermidine reduces cardiac hypertrophy, improves echocardiographic parameters, and modifies intestinal microbiota toward anti-inflammatory composition.
 
+## Comorbidities
+
+- [[type-2-diabetes]] -- shared insulin resistance, TMAO pathway, and SCFA depletion; T2D doubles CVD risk; the MetaCardis study documented a continuous dysmetabolism-to-IHD trajectory spanning both conditions
+- [[obesity]] -- shared metabolic inflammation, gut barrier dysfunction, and dysbiosis; adipose tissue is a source of pro-inflammatory cytokines (TNF-alpha, IL-6) that drive atherosclerosis
+- [[hypertension]] -- the most direct CVD comorbidity; shared mycobiome dysbiosis (Malassezia enrichment tracks from pre-hypertension to hypertension); SCFAs regulate blood pressure via Olfr78 and GPR41
+- [[chronic-kidney-disease]] -- shared uremic toxin accumulation (indoxyl sulfate, p-cresol sulfate); CKD accelerates atherosclerosis; gut mycobiome alterations overlap in HTN+CKD patients
+- [[depression]] -- CVD patients have 2-3x higher depression rates; shared gut-brain axis disruption, tryptophan pathway shifts toward pro-inflammatory kynurenine, and SCFA depletion; depression independently increases CVD mortality
+
 ## Connections
 
 - [[metal-disease-matrix]]

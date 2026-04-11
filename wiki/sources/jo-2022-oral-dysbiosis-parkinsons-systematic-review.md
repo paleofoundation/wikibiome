@@ -22,7 +22,7 @@ This systematic review examines the emerging evidence for oral [[microbiome]] [[
 ## Key Findings
 
 - Multiple studies report altered oral microbiome composition in PD patients
-- *[[Prevotella]]* and *[[Streptococcus]]* species show altered abundance in the PD oral microbiome
+- *[[prevotella]]* and *[[streptococcus-pneumoniae]]* species show altered abundance in the PD oral microbiome
 - Periodontal pathogens are enriched in PD oral samples
 - Oral dysbiosis may precede gut dysbiosis as oral microbes are continuously swallowed
 - Periodontal disease is more prevalent in PD and may contribute to systemic inflammation

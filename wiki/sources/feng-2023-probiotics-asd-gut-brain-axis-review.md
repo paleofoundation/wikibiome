@@ -30,7 +30,7 @@ Comprehensive narrative review covering:
 - [[Escherichia/Shigella]], [[Clostridium cluster XVIII]], Fusobacteriales enriched in constipated ASD children
 
 **Microbiota-derived metabolites contributing to ASD:**
-- [[Clostridium]] species produce propionic acid and p-cresol with neurotoxic effects
+- [[clostridium]] species produce propionic acid and p-cresol with neurotoxic effects
 - 4-methylphenol causes hippocampal dysfunction
 - 4-ethylphenylsulfate causes anxiety-like and repetitive behaviors
 - [[Alistipes]] synthesizes indole, disrupting serotonergic balance
@@ -38,7 +38,7 @@ Comprehensive narrative review covering:
 **Probiotic mechanisms (Table 1 - comprehensive):**
 - Strain-specific effects documented across 12+ clinical studies
 - [[Lactobacillus plantarum]] WCSF1, PS128 show behavioral improvements
-- [[Bifidobacterium]] longum decreases ATEC scores
+- [[bifidobacterium]] longum decreases ATEC scores
 - [[Saccharomyces boulardii]] reduces OCD-like behaviors
 - Multi-strain formulations generally more effective than single strains
 

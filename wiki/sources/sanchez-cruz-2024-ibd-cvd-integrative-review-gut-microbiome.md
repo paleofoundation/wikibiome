@@ -39,7 +39,7 @@ Integrative review examining the association between IBD (Crohn's disease and ul
 - Dysbiosis increases intestinal permeability leading to LPS absorption
 - LPS induces macrophage activation, vascular endothelialitis, and increased CRP
 - Indole and phenyl derivatives exacerbate atherosclerosis and cause hypertension
-- [[TMAO]] promotes foam cell formation, endothelial dysfunction, platelet activation, and LDL deposition
+- [[tmao]] promotes foam cell formation, endothelial dysfunction, platelet activation, and LDL deposition
 
 ### Therapeutic Implications
 - Probiotics: OR 2.45 reduction in CRP (95% CI: -5.16 to -1.73) in IBD patients; increase *Bifidobacterium* and *Lactobacillus* in UC

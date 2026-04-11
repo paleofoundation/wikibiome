@@ -21,7 +21,7 @@ This review evaluates microbiome-based therapeutic strategies for [[parkinsons-d
 
 ## Key Findings
 
-- [[Probiotics]] containing *Lactobacillus* and *Bifidobacterium* species improve GI symptoms in PD
+- [[probiotics]] containing *Lactobacillus* and *Bifidobacterium* species improve GI symptoms in PD
 - Prebiotic fibers that promote [[butyrate]] production may help restore gut barrier integrity
 - Synbiotic combinations (probiotic + prebiotic) show synergistic benefits in preclinical models
 - [[Fecal-microbiota-transplant]] is the most comprehensive approach but requires rigorous safety evaluation
@@ -31,7 +31,7 @@ This review evaluates microbiome-based therapeutic strategies for [[parkinsons-d
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This therapeutic review maps directly onto the metal-microbiome intervention framework. [[Probiotics]] that restore [[butyrate]] production would re-engage the HIF-2alpha-[[iron]] regulatory pathway. Prebiotics that promote SCFA-producing bacteria address the root cause of dysbiosis-driven metal dysregulation. Synbiotic combinations could simultaneously provide beneficial organisms and the substrates they need to produce [[short-chain-fatty-acids]]. The dietary approaches (Mediterranean, high-fiber) reduce dietary metal exposure while increasing fiber-mediated metal chelation in the gut. The emerging phage therapy concept is particularly intriguing for the metal axis, as it could selectively eliminate [[iron]]-scavenging pathogens (Enterobacteriaceae) without disrupting beneficial commensals.
+This therapeutic review maps directly onto the metal-microbiome intervention framework. [[probiotics]] that restore [[butyrate]] production would re-engage the HIF-2alpha-[[iron]] regulatory pathway. Prebiotics that promote SCFA-producing bacteria address the root cause of dysbiosis-driven metal dysregulation. Synbiotic combinations could simultaneously provide beneficial organisms and the substrates they need to produce [[short-chain-fatty-acids]]. The dietary approaches (Mediterranean, high-fiber) reduce dietary metal exposure while increasing fiber-mediated metal chelation in the gut. The emerging phage therapy concept is particularly intriguing for the metal axis, as it could selectively eliminate [[iron]]-scavenging pathogens (Enterobacteriaceae) without disrupting beneficial commensals.
 
 ## Limitations
 

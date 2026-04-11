@@ -22,7 +22,7 @@ This study characterizes the fecal fungal communities in Chinese patients with [
 ## Key Findings
 
 - AD patients showed significantly altered gut fungal community composition
-- *[[Candida]]* was enriched and *[[Saccharomyces]]* was depleted in AD patients
+- *[[candida-albicans]]* was enriched and *[[Saccharomyces]]* was depleted in AD patients
 - Fungal diversity metrics differed between AD and controls
 - Fungal community shifts correlated with clinical cognitive measures
 - Several fungal genera showed associations with inflammatory markers

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-Comprehensive review from the Weizmann Institute examining the differential roles of key microbial metabolites in their local environment of production and their systemic effects via portal and systemic circulation. Covers [[SCFAs]], [[bile-acids]], [[TMAO]], BCAAs, tryptophan metabolites, LPS, flavonoids, and other classes across multiple organ systems including the cardiovascular system.
+Comprehensive review from the Weizmann Institute examining the differential roles of key microbial metabolites in their local environment of production and their systemic effects via portal and systemic circulation. Covers [[short-chain-fatty-acids]], [[bile-acids]], [[tmao]], BCAAs, tryptophan metabolites, LPS, flavonoids, and other classes across multiple organ systems including the cardiovascular system.
 
 ## Key Findings
 

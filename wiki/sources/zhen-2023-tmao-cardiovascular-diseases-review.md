@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-Comprehensive review of the biological and chemical characteristics of [[TMAO]], its production by gut microbiota, and its mechanisms of action in promoting [[cardiovascular-disease]] including [[atherosclerosis]], heart failure, hypertension, arrhythmia, and coronary artery disease.
+Comprehensive review of the biological and chemical characteristics of [[tmao]], its production by gut microbiota, and its mechanisms of action in promoting [[cardiovascular-disease]] including [[atherosclerosis]], heart failure, hypertension, arrhythmia, and coronary artery disease.
 
 ## Key Findings
 
@@ -53,4 +53,4 @@ Comprehensive review of the biological and chemical characteristics of [[TMAO]],
 
 ## Relevance to the Wiki
 
-Provides the most detailed mechanistic account of [[TMAO]] pathways in [[cardiovascular-disease]] of papers in this collection. Complements [[wang-2022-gut-microbiota-health-cvd-review]] on broader metabolite coverage and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on TMAO as an escalation feature in the cardiometabolic disease spectrum.
+Provides the most detailed mechanistic account of [[tmao]] pathways in [[cardiovascular-disease]] of papers in this collection. Complements [[wang-2022-gut-microbiota-health-cvd-review]] on broader metabolite coverage and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on TMAO as an escalation feature in the cardiometabolic disease spectrum.

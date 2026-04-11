@@ -21,7 +21,7 @@ This comprehensive review evaluates the current landscape of microbiome-targeted
 
 ## Key Findings
 
-- [[Probiotics]]: Multiple RCTs show improvements in constipation, some motor symptoms, and inflammatory markers
+- [[probiotics]]: Multiple RCTs show improvements in constipation, some motor symptoms, and inflammatory markers
 - Prebiotics: Promote SCFA production and selectively enrich depleted beneficial taxa
 - [[Fecal-microbiota-transplant]]: Most comprehensive approach; early clinical trials show safety and feasibility
 - Postbiotics (heat-killed bacteria, metabolite preparations): Offer standardized, safer alternatives to live organisms

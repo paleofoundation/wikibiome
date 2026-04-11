@@ -57,3 +57,12 @@ condition: "autism spectrum disorder"
 - **GABA-metal axis**: Glutamic acid decarboxylase (GAD) converting glutamate to GABA requires pyridoxal phosphate (vitamin B6) and is modulated by zinc; brain GABA depletion may reflect central zinc deficiency
 - **Tryptophan-iron**: Tryptophan hydroxylase is iron-dependent; reduced plasma tryptophan with elevated peripheral serotonin suggests compartmentalized iron maldistribution
 - **D-serine-zinc**: Serine racemase converting L-serine to D-serine is a zinc/magnesium-dependent enzyme; D-serine availability at NMDA receptors may be metal-limited
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- neuroactive amino acid review
+- [[tryptophan-metabolism]] -- decreased plasma tryptophan; elevated peripheral serotonin
+- [[iron]] -- cofactor for tryptophan hydroxylase
+- [[zinc]] -- modulates NMDA receptors and GAD enzyme
+- [[gut-brain-axis]] -- microbial amino acid production influences brain neurochemistry
+- [[biomarkers]] -- body fluid amino acid levels as ASD indicators

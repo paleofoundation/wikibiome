@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Gender is an important factor affecting gut microbial composition in [[Hashimotos thyroiditis]], with microbial differences between sexes intensifying as HT progresses
+- Gender is an important factor affecting gut microbial composition in [[hashimotos-thyroiditis]], with microbial differences between sexes intensifying as HT progresses
 - Lachnoclostridium, Blautia, and Klebsiella were enriched in the HCA (healthy control) group while Akkermansia, Lachnospiraceae, Bifidobacterium, Shuttleworthia, and Clostridiworthia were enriched in HT groups
 - Romboutsia and Haemophilus regulated by free triiodothyronine (FT3) may promote HT development, while Faecalibacterium and Lachnospiraceae regulated by free thyroxine (FT4) may protect the host
 - Bifidobacterium and Klebsiella underwent dramatic changes between health and HT stages, and were mainly affected by gender
@@ -41,5 +41,5 @@ platform: wikibiome
 - Dysbiosis patterns complement [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]] review findings
 - Akkermansia enrichment in HT consistent with [[pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian]] MR findings
 - [[selenium]], [[iron]], [[zinc]] absorption may be affected by the microbial shifts observed
-- Gender differences in microbiota relevant to the female predominance of [[Hashimotos thyroiditis]]
+- Gender differences in microbiota relevant to the female predominance of [[hashimotos-thyroiditis]]
 - FT3/FT4 regulation of specific taxa connects to thyroid hormone-microbiome crosstalk in [[graves-disease]]

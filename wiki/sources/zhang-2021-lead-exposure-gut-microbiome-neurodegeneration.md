@@ -21,7 +21,7 @@ This study examines how [[lead]] exposure alters the gut [[microbiome]] and cont
 
 ## Key Findings
 
-- [[Lead]] exposure significantly alters gut microbiome composition in a dose-dependent manner
+- [[lead]] exposure significantly alters gut microbiome composition in a dose-dependent manner
 - Lead-exposed microbiomes show increased Enterobacteriaceae and decreased Lactobacillaceae
 - Intestinal barrier integrity is compromised by lead exposure, increasing gut permeability
 - Lead-induced [[dysbiosis]] promotes systemic inflammation and neuroinflammatory signaling

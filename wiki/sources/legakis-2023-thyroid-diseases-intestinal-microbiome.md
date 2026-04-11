@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - Healthy gut microbiota is a prerequisite for adequate function of the complex network of intricate stages and pathways in the body, described as the immune system
-- Gut microbiota alterations can cause impaired immunoregulation, leading to specific immune responses against thyroid antigens and contributing to [[Hashimotos thyroiditis]] and [[graves-disease]]
+- Gut microbiota alterations can cause impaired immunoregulation, leading to specific immune responses against thyroid antigens and contributing to [[hashimotos-thyroiditis]] and [[graves-disease]]
 - The intestine hosts 70% of the immune system (Gut Associated Lymphoid Tissue -- GALT); entry of bacterial antigens into systemic circulation may trigger autoimmune responses through molecular mimicry
 - Environmental factors including deficiency of [[selenium]], [[iron]], [[zinc]], and vitamin D, along with excessive [[iodine]] intake, are linked to autoimmune thyroid disease
 - In thyroid nodule patients, a decrease in butyric acid-producing bacteria was observed as the main metabolic product of carbohydrate fermentation

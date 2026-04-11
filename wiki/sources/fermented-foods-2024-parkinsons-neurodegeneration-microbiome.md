@@ -23,7 +23,7 @@ This review examines the influence of fermented food consumption on the gut [[mi
 
 - Fermented foods provide live microorganisms that can colonize the gut and modulate microbiome composition
 - Regular fermented food consumption is associated with increased microbial diversity
-- Fermented dairy products provide *[[Lactobacillus]]* and *[[Bifidobacterium]]* species relevant to PD
+- Fermented dairy products provide *[[lactobacillus]]* and *[[bifidobacterium]]* species relevant to PD
 - Fermented vegetables (kimchi, sauerkraut) provide fiber and polyphenols alongside beneficial bacteria
 - Kefir contains diverse probiotic communities including both bacteria and beneficial yeasts
 - Fermented foods may be more effective than probiotic supplements due to food matrix effects

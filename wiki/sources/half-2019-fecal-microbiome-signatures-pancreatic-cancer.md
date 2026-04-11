@@ -33,5 +33,5 @@ platform: wikibiome
 
 - [[Microbiome composition]] alterations in PC consistent with broader [[dysbiosis]] patterns reported in pancreatic diseases
 - Bile duct obstruction as confounder relevant to [[comorbidities]] affecting microbiome studies in pancreatic cancer
-- Firmicutes depletion pattern connects to [[SCFAs]] reduction and altered [[microbial metabolites]] in PC
+- Firmicutes depletion pattern connects to [[short-chain-fatty-acids]] reduction and altered [[microbial metabolites]] in PC
 - Pre-cancerous lesion findings relevant to [[microbiome and disease progression]] and early detection strategies

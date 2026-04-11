@@ -43,7 +43,7 @@ platform: wikibiome
 ## Connections
 
 - Tryptophan/indole metabolite findings complement [[zhang-2025-tryptophan-metabolism-hashimotos]] on HT-specific Trp metabolism
-- [[graves-disease]] shares tryptophan metabolic disruption with [[Hashimotos thyroiditis]], suggesting common gut-thyroid pathways
+- [[graves-disease]] shares tryptophan metabolic disruption with [[hashimotos-thyroiditis]], suggesting common gut-thyroid pathways
 - Gut microbiota-derived indoles connect to [[dysbiosis]] in autoimmune thyroid disease
 - Akt pathway suppression parallels PI3K-Akt findings in [[zhang-2025-tryptophan-metabolism-hashimotos]]
 - [[inflammation]] modulation by indole metabolites relevant to [[nf-kappa-b]] and immune regulation

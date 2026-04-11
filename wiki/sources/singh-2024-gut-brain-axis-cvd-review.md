@@ -61,8 +61,8 @@ Comprehensive review of the gut-brain-cardiovascular axis, covering how the gut 
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Neuro-cardiovascular pathway** - [[Lead]] is a potent neurotoxin that could disrupt gut-brain axis signaling, compounding its direct CVD effects with neurally-mediated cardiovascular dysfunction
-2. **HPA axis dysregulation** - [[Cadmium]] exposure activates stress pathways; combined with microbiome-mediated HPA axis changes, this could synergistically increase CVD risk
+1. **Neuro-cardiovascular pathway** - [[lead]] is a potent neurotoxin that could disrupt gut-brain axis signaling, compounding its direct CVD effects with neurally-mediated cardiovascular dysfunction
+2. **HPA axis dysregulation** - [[cadmium]] exposure activates stress pathways; combined with microbiome-mediated HPA axis changes, this could synergistically increase CVD risk
 3. **Vagal tone** - Metal-induced [[dysbiosis]] may reduce vagal anti-inflammatory reflexes, promoting both [[inflammation]] and autonomic cardiovascular dysfunction
 4. **GABA/serotonin disruption** - Heavy metals alter neurotransmitter metabolism; combined with microbial neurotransmitter production shifts, this may affect BP regulation
 5. **Integrated therapeutic targets** - The gut-brain-heart axis provides multiple intervention points where addressing metal-induced [[dysbiosis]] could improve both neural and cardiovascular outcomes

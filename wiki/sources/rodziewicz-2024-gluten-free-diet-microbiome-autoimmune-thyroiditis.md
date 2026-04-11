@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - A gluten-free diet (GFD) significantly alters the [[gut microbiome]] composition in women with [[autoimmune thyroiditis]] (AIT) after just 4 weeks
-- After 4 weeks of GFD, significant increases were observed in phyla [[Desulfobacterota]] and [[Proteobacteria]] and genera [[Prevotella]] and [[Parasutterella]], while [[Actinobacteriota]], family [[Coriobacteriaceae]], and genus [[Bifidobacterium]] significantly decreased
+- After 4 weeks of GFD, significant increases were observed in phyla [[Desulfobacterota]] and [[Proteobacteria]] and genera [[prevotella]] and [[Parasutterella]], while [[Actinobacteriota]], family [[Coriobacteriaceae]], and genus [[bifidobacterium]] significantly decreased
 - The only significant blood parameter difference between gluten and placebo groups was in anti-TPO antibody levels in the placebo group, with no clear beneficial effect of GFD on thyroid function markers
 - The detected microbiome alterations may indicate increasing [[inflammation]] rather than improvement, suggesting GFD should be used cautiously in AIT
 - No significant changes in TSH, FT4, FT3, CRP, or ESR were observed after 8 weeks of dietary intervention
@@ -40,4 +40,4 @@ platform: wikibiome
 - Relevant to broader question of dietary interventions in [[Thyroid Autoimmunity]] alongside [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 - Parasutterella increase connects to emerging role in [[Tryptophan Metabolism]] and gut-immune interactions
 - GFD-AIT relationship links to higher prevalence of celiac disease in AIT patients, relevant to [[Gluten]] and [[Autoimmune Comorbidity]]
-- Cautionary findings relevant to dietary recommendations in [[Hashimoto's thyroiditis]] and [[Graves' disease]] management
+- Cautionary findings relevant to dietary recommendations in [[Hashimoto's thyroiditis]] and [[graves-disease]] management

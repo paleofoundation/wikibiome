@@ -38,7 +38,7 @@ Review examining the interplay between gut microbiota dysbiosis and [[NSAIDs]]-i
 - Ursodeoxycholic acid and taurodeoxycholic acid produce pro-inflammatory NF-kB activation
 
 ### Therapeutic Approaches
-- [[Probiotics]] (antibiotics, prebiotics, mucosal protective agents, [[FMT]])
+- [[probiotics]] (antibiotics, prebiotics, mucosal protective agents, [[fecal-microbiota-transplant]])
 - Proton pump inhibitors adversely affect NSAID enteropathy by promoting *Enterococcus*, *Enterobacteriaceae*
 - Metronidazole and rifaximin effective for NSAID enteropathy prevention
 

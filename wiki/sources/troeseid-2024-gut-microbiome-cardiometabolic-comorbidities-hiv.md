@@ -22,7 +22,7 @@ Review of gut microbiome alterations in people living with HIV (PLWH) and their 
 
 ### HIV-Related Microbiome Dysbiosis
 - PLWH have an altered gut microbiome even after adjusting for confounders including sexual preference
-- HIV-related microbiome shares features with CVD-related profiles: reduced capacity for [[SCFAs]] generation
+- HIV-related microbiome shares features with CVD-related profiles: reduced capacity for [[short-chain-fatty-acids]] generation
 - Depletion of *Lachnospiraceae* and *Ruminococcaceae*; enrichment of *Desulfovibrionaceae*
 - HIV-associated dysbiosis among strongest disease-associated dysbioses across 20 diseases (American Gut Project analysis)
 

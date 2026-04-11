@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Seven gut microbiota taxa were positively associated with AITD and 14 taxa showed negative correlation, based on bidirectional MR analysis of 211 taxa against both [[Hashimotos thyroiditis]] and [[graves-disease]]
+- Seven gut microbiota taxa were positively associated with AITD and 14 taxa showed negative correlation, based on bidirectional MR analysis of 211 taxa against both [[hashimotos-thyroiditis]] and [[graves-disease]]
 - For HT, six genera and one phylum were causally associated: Eggerthella (OR=0.94), Ruminococcaceae_UCG011 (OR=0.95), Defluviitaleaceae_UCG011 (OR=0.93), Actinobacteria (OR=0.91), Butyrivibrio (OR=0.96) were protective; Holdemanella (OR=1.07) and Intestinimonas (OR=1.06) increased risk
 - Actinobacteria (phylum) presented protective effects on HT via CCR2 on myeloid Dendritic Cell (5.0%); Bifidobacterium showed facilitating effects on GD through CD39+ CD4+ T cell %CD4+ T cell (5.0%)
 - EM CD4+ T cells, activated CD4 regulatory T cells, and secreting CD4 T cells were identified as key immunophenotype mediators between gut microbiota and HT

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Systematic review of 38 reviews (from 1106 initially identified) confirms significant variations in gut microbiota composition in patients with thyroid disorders including [[Hashimotos thyroiditis]] and [[graves-disease]]
+- Systematic review of 38 reviews (from 1106 initially identified) confirms significant variations in gut microbiota composition in patients with thyroid disorders including [[hashimotos-thyroiditis]] and [[graves-disease]]
 - Geographical clustering of most studies prevents drawing definitive conclusions; the majority of evidence comes from China
 - Available knowledge about probiotics, prebiotics, and synbiotics is not strong enough to suggest routine use in thyroid disorder patients
 - Specific elimination nutrition should not be routinely suggested to thyroid patients; instead, patients should be checked for possible micronutrient and vitamin deficiencies

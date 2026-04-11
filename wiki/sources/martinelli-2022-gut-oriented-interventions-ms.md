@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-This narrative review from the MS COMPLETE Project -- a multidisciplinary group of 16 Italian neurologists -- examines evidence for gut-directed interventions in [[multiple-sclerosis]], including diet, supplementation, [[FMT]], and microbiome-targeted therapies.
+This narrative review from the MS COMPLETE Project -- a multidisciplinary group of 16 Italian neurologists -- examines evidence for gut-directed interventions in [[multiple-sclerosis]], including diet, supplementation, [[fecal-microbiota-transplant]], and microbiome-targeted therapies.
 
 ## Key Findings
 

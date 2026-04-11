@@ -54,7 +54,7 @@ Exploratory study evaluating the effects of **heavy metal poisoning on metabolic
 **High relevance** — directly links environmental [[heavy metal]] exposure to gut [[dysbiosis]] and metabolic disruption in ASD:
 
 - Supports **bidirectional heavy metal-microbiome disruption** hypothesis
-- [[Lead]], [[mercury]], [[arsenic]] as primary toxic metals in Moroccan ASD cohort
+- [[lead]], [[mercury]], [[arsenic]] as primary toxic metals in Moroccan ASD cohort
 - 100% co-occurrence of dysbiosis and heavy metal exposure suggests shared pathway
 - [[Mitochondrial dysfunction]] as downstream consequence of metal toxicity
 - Hair analysis as biomarker for chronic metal exposure

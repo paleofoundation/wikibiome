@@ -18,7 +18,7 @@ platform: wikibiome
 - Iron imbalance leads to two categories of disorders: iron deficiency diseases (anemia, fatigue) and iron overload diseases (hereditary hemochromatosis, liver disease)
 - **Ferroptosis** (iron-dependent programmed cell death) is emerging as a therapeutic target in cancer treatment by inducing oxidative stress via the Fenton reaction
 - Iron deficiency reduces commensal beneficial bacteria (Lactobacillus) while iron excess increases harmful bacteria (Bacteroides, E. coli); maintaining balanced iron levels is essential for gut health
-- Gut microbiota influence the host via metabolites: [[SCFAs]] (butyrate enhances epithelial barrier, reduces inflammation), indole derivatives (anti-inflammatory via AhR), bile acids (immunomodulation), and TMAO/choline metabolites (cardiovascular risk)
+- Gut microbiota influence the host via metabolites: [[short-chain-fatty-acids]] (butyrate enhances epithelial barrier, reduces inflammation), indole derivatives (anti-inflammatory via AhR), bile acids (immunomodulation), and TMAO/choline metabolites (cardiovascular risk)
 - Gut microbiota can regulate the CNS via the gut-brain axis through serotonin (5-HT), dopamine, GABA, norepinephrine production
 
 # Methods/Findings

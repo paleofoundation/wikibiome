@@ -14,7 +14,7 @@ platform: wikibiome
 # Key Claims
 
 - There is no direct experimental evidence for cancer suppression in humans from probiotic consumption; evidence is largely indirect, from in vitro, animal, and limited epidemiological studies
-- [[Probiotics]] may inhibit [[colon cancer]] through multiple mechanisms: binding/degrading carcinogens, reducing fecal enzymes (beta-glucuronidase, nitroreductase, azoreductase), modulating bile acid metabolism, enhancing immune function, and producing anti-mutagenic compounds
+- [[probiotics]] may inhibit [[colon cancer]] through multiple mechanisms: binding/degrading carcinogens, reducing fecal enzymes (beta-glucuronidase, nitroreductase, azoreductase), modulating bile acid metabolism, enhancing immune function, and producing anti-mutagenic compounds
 - Synbiotics (pro + prebiotics combined) may be more effective than either alone, and have only recently come to prominence in cancer prevention research
 - Animal studies strongly demonstrate protective effects: oral administration of L. acidophilus reduced DMH-induced tumors, and BL inhibited AOM-induced colon carcinogenesis
 - Epidemiological evidence is mixed: some studies show inverse association between fermented dairy/yogurt consumption and CRC risk, but others do not
@@ -28,7 +28,7 @@ platform: wikibiome
 - **Bile acid binding**: Lactobacilli shown to degrade potential carcinogens and bind bile acids, reducing soluble fecal bile acid concentrations; however, the decrease may be too small to be clinically relevant
 - **Immune modulation**: L. casei strain Shirota potentiates systemic immune responses modifying T-cell function in tumor-bearing mice; intraluminal administration increased NK cell activity
 - **Quantitative/qualitative microbiota alterations**: L. acidophilus supplementation reduced beta-glucuronidase and increased Lactobacillus counts
-- **Butyrate and apoptosis**: Bacterial fermentation of oligofructose produces [[SCFAs]] including butyrate in the colon, which induces apoptosis in cancer cell lines (HT-29)
+- **Butyrate and apoptosis**: Bacterial fermentation of oligofructose produces [[short-chain-fatty-acids]] including butyrate in the colon, which induces apoptosis in cancer cell lines (HT-29)
 - **Physical binding of carcinogens**: Lactic acid bacteria can bind heterocyclic amines and aflatoxins, potentially reducing their bioavailability
 
 # Connections

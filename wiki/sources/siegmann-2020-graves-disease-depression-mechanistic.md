@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Graves' disease]] drives depression through multiple overlapping mechanisms: direct thyroid hormone neurotoxicity, [[neuroinflammation]], [[oxidative-stress]], HPA axis dysregulation, and serotonergic dysfunction
+- [[graves-disease]] drives depression through multiple overlapping mechanisms: direct thyroid hormone neurotoxicity, [[neuroinflammation]], [[oxidative-stress]], HPA axis dysregulation, and serotonergic dysfunction
 - Excess T3 and T4 directly affect brain function by altering serotonin, norepinephrine, and dopamine metabolism, contributing to anxiety, irritability, and depression even after biochemical euthyroidism is restored
 - Autoimmune [[inflammation]] in GD produces elevated pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6) that cross the blood-brain barrier and activate brain [[NF-kappa-B]] signaling, driving neuroinflammation and depressive symptoms
 - [[Oxidative-stress]] from both hyperthyroidism (increased metabolic rate) and autoimmune inflammation damages neuronal tissue and depletes antioxidant reserves including [[selenium]]-dependent glutathione peroxidase
@@ -39,6 +39,6 @@ platform: wikibiome
 - Cytokine-mediated tryptophan depletion via IDO connects gut-brain axis and [[dysbiosis]] effects on neurotransmitter synthesis
 - Persistent autoimmune inflammation after treatment parallels microbiome findings in [[chen-2021-gut-microbiota-thyroid-graves]] where dysbiosis improves but may not fully resolve
 - HPA axis disruption relevant to stress as GD trigger discussed in [[lazarova-2021-graves-disease-epidemiology-risk-factors]]
-- [[Iron]] and [[zinc]] deficiency in GD could compound neuropsychiatric effects given their roles in neurotransmitter synthesis
-- [[Probiotics]] targeting gut-brain axis inflammation may have adjunctive therapeutic potential for GD-associated depression
+- [[iron]] and [[zinc]] deficiency in GD could compound neuropsychiatric effects given their roles in neurotransmitter synthesis
+- [[probiotics]] targeting gut-brain axis inflammation may have adjunctive therapeutic potential for GD-associated depression
 - Gut [[dysbiosis]] producing pro-inflammatory metabolites could amplify neuroinflammatory cascade through [[gut-metal-microbiome]] interactions

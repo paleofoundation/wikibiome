@@ -134,6 +134,12 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 7. **Nickel's role**: Is dietary Ni exposure via its effects on gut pathogens (urease, hydrogenase) a modifiable PD risk factor?
 
 
+## Comorbidities
+
+- [[depression]] -- depression affects 30-40% of PD patients, often preceding motor symptoms by years; shared gut-brain axis disruption via SCFA depletion and tryptophan pathway shifts; serotonergic neuron loss in the raphe nuclei parallels dopaminergic loss in the substantia nigra; L-DOPA treatment can worsen depression by depleting serotonin precursors
+- [[anxiety]] -- anxiety disorders in 25-40% of PD patients; often appears in the prodromal phase alongside constipation and anosmia; shared vagal pathway dysfunction and autonomic nervous system degeneration; alpha-synuclein pathology in the amygdala may directly drive anxiety
+- [[type-2-diabetes]] -- T2D increases PD risk by 30-40%; shared insulin resistance, mitochondrial dysfunction, and oxidative stress pathways; shared gut dysbiosis patterns (Enterobacteriaceae enrichment, SCFA producer depletion); metformin may be protective through AMPK activation and microbiome modulation
+
 ## Key Sources
 
 - [[bakulski-2020-heavy-metals-alzheimers-dementias]]

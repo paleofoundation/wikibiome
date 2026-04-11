@@ -30,6 +30,6 @@ platform: wikibiome
 # Connections
 
 - Perioperative [[synbiotics]] immunomodulation relevant to [[microbiome-targeted therapy]] in surgical pancreatic cancer management
-- CD8+ T cell enhancement parallels [[FMT]] findings from long-term survivor donors
+- CD8+ T cell enhancement parallels [[fecal-microbiota-transplant]] findings from long-term survivor donors
 - IL-1beta reduction connects to [[microbiome and inflammation]] and [[NF-kB]] pathway modulation
 - Inulin [[prebiotics]] component links to [[dietary fiber]] and [[microbiome-derived metabolites]] through SCFA production

@@ -16,7 +16,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Nickel]] (Ni2+) enhances amyloid beta (A-beta-40) peptide aggregation in vitro -- a 5.7-fold increase at 100 uM NiSO4 -- making it a previously unrecognized contributor to [[alzheimers-disease]] pathology
+- [[nickel]] (Ni2+) enhances amyloid beta (A-beta-40) peptide aggregation in vitro -- a 5.7-fold increase at 100 uM NiSO4 -- making it a previously unrecognized contributor to [[alzheimers-disease]] pathology
 - Commercial recombinant A-beta-40 peptide preparations contain unexpectedly high levels of nickel (1,005 ug Ni per gram of peptide, corresponding to 72.5 mmol Ni per mole of peptide) along with aluminum (65.7 ug/g), copper (22.8 ug/g), and zinc (45.7 ug/g)
 - The nickel-specific chelator dimethylglyoxime (DMG) inhibits A-beta-40 aggregation by 40-85% in a dose-dependent manner by chelating intrinsic Ni2+ away from the peptide, not by direct DMG-peptide interaction
 - Nickel chelation represents a dual therapeutic strategy: it could inhibit both the "metal hypothesis" of AD (Ni binding to A-beta) and the "infection hypothesis" of AD (Ni as essential cofactor for pathogen enzymes like hydrogenase and urease)

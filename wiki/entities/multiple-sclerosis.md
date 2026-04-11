@@ -116,6 +116,12 @@ The gap in environmental metal-MS research is striking given the strong microbio
 5. **Metabolic-metallomic intersection**: The glycolysis-to-OXPHOS shift in disease-associated T cells involves metal-dependent enzymes. Can metal cofactor supplementation (Mn, Fe) shift T cell metabolism back toward OXPHOS?
 6. **Data integrity**: The Expression of Concern on Tamtaji 2017 (companion to Kouchaki 2017) raises questions about the gene expression data. Does the clinical data from Kouchaki 2017 stand independently?
 
+## Comorbidities
+
+- [[depression]] -- depression affects 30-50% of MS patients; probiotic trials showed significant BDI improvement alongside EDSS improvement (BDI -5.6 vs -1.1, p<0.001); shared gut-brain axis disruption, SCFA depletion, and tryptophan pathway shifts toward pro-inflammatory kynurenine; depression independently worsens MS disability trajectory
+- [[anxiety]] -- anxiety disorders in 20-40% of MS patients; disease unpredictability and progressive disability compound neurobiological mechanisms; shared HPA axis dysregulation and vagal tone disruption
+- [[inflammatory-bowel-disease]] -- bidirectional association: IBD patients have increased MS risk and vice versa; shared HLA-DRB1 genetic architecture; Mendelian randomization shows Crohn's increases Graves' disease risk by 30%, indicating shared autoimmune gut-immune pathways; both feature Th1/Th17 dysregulation and SCFA producer depletion
+
 ## Connections
 
 - [[metal-disease-matrix]] -- Cross-disease metallomic comparison; MS metal signature is thin but included

@@ -52,5 +52,5 @@ Comprehensive review consolidating evidence on the gut mycobiome's role in cardi
 
 1. **Cross-kingdom [[dysbiosis]]** - Heavy metals affect both bacterial and fungal communities; this review demonstrates that both kingdoms contribute to CMD progression
 2. **Fungal metabolites** - Enzymatic derivatives, alcohols, and other fungal metabolites may interact with metal toxicity pathways to amplify [[oxidative-stress]] and [[inflammation]]
-3. **[[Cadmium]] and fungal resistance** - Some fungi like *Candida* have metal-binding capabilities that could shift competitive dynamics in the gut under metal exposure
+3. **[[cadmium]] and fungal resistance** - Some fungi like *Candida* have metal-binding capabilities that could shift competitive dynamics in the gut under metal exposure
 4. **Barrier disruption cascade** - Fungal overgrowth (especially *Candida*) can directly damage epithelial cells, compounding [[lead]] and [[cadmium]]-induced barrier disruption

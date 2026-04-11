@@ -16,8 +16,8 @@ platform: wikibiome
 
 ## Key Claims
 
-- Hypothyroid patients have altered [[gut microbiota]] composition including reduced bacterial diversity and richness, lower levels of [[Bifidobacterium]] and [[Lactobacillus]], and increased levels of opportunistic pathogens like [[Proteobacteria]] and Fusobacteria
-- [[High-fiber diet]]s promote gut bacterial diversity, growth of [[SCFA]]-producing bacteria like [[Faecalibacterium]] and [[Bifidobacterium]], and may improve thyroid hormone levels and reduce thyroid antibodies in patients with autoimmune thyroid disease
+- Hypothyroid patients have altered [[gut microbiota]] composition including reduced bacterial diversity and richness, lower levels of [[bifidobacterium]] and [[lactobacillus]], and increased levels of opportunistic pathogens like [[Proteobacteria]] and Fusobacteria
+- [[High-fiber diet]]s promote gut bacterial diversity, growth of [[SCFA]]-producing bacteria like [[faecalibacterium-prausnitzii]] and [[bifidobacterium]], and may improve thyroid hormone levels and reduce thyroid antibodies in patients with autoimmune thyroid disease
 - [[Fermented foods]] (yogurt, kimchi, sauerkraut, miso) provide beneficial bacteria to repopulate the gut microbiome and feed existing healthy bacteria via [[probiotics]]
 - Gut dysbiosis may contribute to [[hashimotos-thyroiditis]] pathogenesis through four mechanisms: (1) interference with thyroid autoantigen presentation, (2) induction of [[inflammation]], (3) production of metabolites disrupting thyroid homeostasis, and (4) modulation of TSH release
 - Specific bacterial species may drive thyroid autoimmunity through [[molecular mimicry]], modulation of autoantigen presentation, and regulation of immune cells involved in thyroid inflammation

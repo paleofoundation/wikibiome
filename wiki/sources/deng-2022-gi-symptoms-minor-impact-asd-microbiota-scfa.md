@@ -47,7 +47,7 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 - **[[Gammaproteobacteria]]**, **[[Proteobacteria]]**
 
 ### Enriched in TD
-- **[[Bacteroides]]**, **Bacteroidaceae**, **Bacteroidia**, **Bacteroidota**
+- **[[bacteroides-fragilis]]**, **Bacteroidaceae**, **Bacteroidia**, **Bacteroidota**
 - **[[Blautia]]**
 - *Bacteroides vulgatus*
 
@@ -71,7 +71,7 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 - Elevated [[propionate]] in ASD — propionic acid inhibits histone deacetylases ([[zinc]]-dependent) and affects [[iron]]-dependent mitochondrial function
 - [[Butyrate]] elevation paradox: higher fecal butyrate with impaired social function suggests impaired absorption or utilization
 - [[Veillonellaceae]] enrichment — lactate fermenters that produce propionate; complex metal requirements
-- [[Bacteroides]] depletion — reduces primary [[bile acid]] deconjugation affecting [[iron]] and [[zinc]] absorption
+- [[bacteroides-fragilis]] depletion — reduces primary [[bile acid]] deconjugation affecting [[iron]] and [[zinc]] absorption
 - Sleep disruption (CSHQ) as downstream effect — melatonin synthesis is [[iron]]-dependent (tryptophan hydroxylase)
 
 # Methodological Notes

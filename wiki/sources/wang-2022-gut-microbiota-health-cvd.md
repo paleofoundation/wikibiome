@@ -35,7 +35,7 @@ platform: wikibiome
 
 - Central reference linking [[microbiome and immune system]] to [[cardiovascular disease]] through innate immunity
 - NLRP3 and NF-kB pathway details relevant to [[microbiome and inflammation]] mechanisms
-- Metabolite pathway diagram extends [[metabolic pathways]], [[SCFAs]], [[bile acids]], and [[TMAO]] understanding
+- Metabolite pathway diagram extends [[metabolic pathways]], [[short-chain-fatty-acids]], [[bile acids]], and [[tmao]] understanding
 - Gut barrier function discussion connects to [[microbiome-host interactions]] and intestinal permeability
 - BCAA and indole metabolite discussion relevant to [[amino acids]] and [[indoles]] in CVD
 - Comprehensive coverage makes this a key [[microbiome review]] for cardiovascular disease

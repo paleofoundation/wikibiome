@@ -26,7 +26,7 @@ platform: wikibiome
 
 - **Study type**: Randomized double-blind placebo-controlled clinical trial (IRCT20210926052583N1)
 - **Population**: 56 adults with subclinical hypothyroidism (elevated TSH, normal/low free T4) aged 25-65, BMI <35, on levothyroxine for >=6 months; 51 completed (26 synbiotic, 25 placebo)
-- **Intervention**: Familact synbiotic capsules (500 mg) containing [[Lactobacillus]] casei, L. acidophilus, L. rhamnus, L. bulgaricus, [[Bifidobacterium]] breve, B. longum, [[Streptococcus thermophilus]] plus [[fructo-oligosaccharides]] with 10^8 CFU/g; 1 capsule daily for 10 weeks
+- **Intervention**: Familact synbiotic capsules (500 mg) containing [[lactobacillus]] casei, L. acidophilus, L. rhamnus, L. bulgaricus, [[bifidobacterium]] breve, B. longum, [[Streptococcus thermophilus]] plus [[fructo-oligosaccharides]] with 10^8 CFU/g; 1 capsule daily for 10 weeks
 - **Placebo**: Lactose, magnesium stearate, talc, silicon dioxide in identical capsules
 - **Primary outcomes**: Serum TSH and FT4 (ELISA kits)
 - **Secondary outcomes**: Depression (BDI-II), quality of life (SF-36), blood pressure

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-Book chapter providing a critical overview of the role of the microbiome (gut and oral) in atherosclerotic cardiovascular disease (ASCVD). Covers gut and oral microbiome communities, viruses and bacteriophages, and microbiome-derived metabolites including [[TMAO]], imidazole-propionate, [[SCFAs]], and [[bile-acids]].
+Book chapter providing a critical overview of the role of the microbiome (gut and oral) in atherosclerotic cardiovascular disease (ASCVD). Covers gut and oral microbiome communities, viruses and bacteriophages, and microbiome-derived metabolites including [[tmao]], imidazole-propionate, [[short-chain-fatty-acids]], and [[bile-acids]].
 
 ## Key Findings
 

@@ -13,7 +13,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[FMT]] from healthy donors can restore the dysbiotic gut, modulating or reconstructing intestinal microbiota to improve [[immunotherapy]] efficacy in cancer treatment
+- [[fecal-microbiota-transplant]] from healthy donors can restore the dysbiotic gut, modulating or reconstructing intestinal microbiota to improve [[immunotherapy]] efficacy in cancer treatment
 - Gut microbiota dysbiosis contributes to CRC development through inflammation (NF-kB, STAT3 pathways), DNA damage (colibactin from E. coli), oxidative stress, and altered metabolite production
 - [[Fusobacterium nucleatum]] activates Wnt/beta-catenin and NF-kB signaling via FadA adhesin, directly promoting [[colon cancer]] cell proliferation
 - FMT combined with anti-PD-1 immunotherapy can convert non-responders to responders; sterile mice treated with antibiotics then given FMT showed enhanced response to anti-PD-1

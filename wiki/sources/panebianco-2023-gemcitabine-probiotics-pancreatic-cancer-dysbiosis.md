@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Probiotics]] supplementation counteracts gemcitabine+nab-paclitaxel-induced [[dysbiosis]] and ameliorates chemotherapy side effects in [[pancreatic cancer]] mouse models
+- [[probiotics]] supplementation counteracts gemcitabine+nab-paclitaxel-induced [[dysbiosis]] and ameliorates chemotherapy side effects in [[pancreatic cancer]] mouse models
 - Combined chemotherapy plus probiotics reduced stroma deposition, increased cell apoptosis, preserved intestinal villi integrity, and reduced chemotherapy-related hematologic toxicity
 - [[16S rRNA sequencing]] showed chemotherapy caused significant drops in microbial species richness, which was restored by probiotic supplementation
 - Serum [[metabolomics]] revealed significant drops in amino acids upon probiotics administration and sharp decline in bile acids in KRASG12D mutated mice
@@ -32,6 +32,6 @@ platform: wikibiome
 # Connections
 
 - Chemotherapy-induced [[dysbiosis]] links to [[microbiome-targeted therapy]] approaches for improving treatment outcomes
-- Probiotic restoration of Firmicutes and [[SCFAs]]-producing bacteria connects to [[microbial metabolites]] research
+- Probiotic restoration of Firmicutes and [[short-chain-fatty-acids]]-producing bacteria connects to [[microbial metabolites]] research
 - KRAS mutation status affects microbiome response, connecting to [[metabolic pathways]] and [[microbiome and disease progression]]
 - Supports clinical rationale for [[probiotics]] and [[synbiotics]] supplementation during pancreatic cancer chemotherapy

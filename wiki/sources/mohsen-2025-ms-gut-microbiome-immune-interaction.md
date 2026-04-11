@@ -18,7 +18,7 @@ platform: wikibiome
 
 - The gut-brain axis is bidirectional: gut metabolites (SCFAs, tryptophan derivatives, TMAO) can enhance or suppress immune responses in the CNS, directly modulating [[multiple-sclerosis|MS]] pathogenesis
 - Comprehensive mapping of immune cell-microbiota interactions: specific bacteria drive specific immune cell responses (Table 1), including *Clostridium* spp. activating Th1 cells, *Akkermansia muciniphila* promoting Th2 responses, and segmented filamentous bacteria inducing Th17
-- Three categories of gut metabolites affect CNS: (1) [[short-chain-fatty-acids|SCFAs]] (butyrate, acetate, propionate) regulate NF-kB and support Treg differentiation; (2) aromatic amino acids including [[tryptophan]] whose kynurenine pathway generates neurotoxic quinolinic acid during MS relapses; (3) [[TMAO]] from dietary L-choline increases oxidative stress and astrocyte activation
+- Three categories of gut metabolites affect CNS: (1) [[short-chain-fatty-acids|SCFAs]] (butyrate, acetate, propionate) regulate NF-kB and support Treg differentiation; (2) aromatic amino acids including [[tryptophan]] whose kynurenine pathway generates neurotoxic quinolinic acid during MS relapses; (3) [[tmao]] from dietary L-choline increases oxidative stress and astrocyte activation
 - CD8+ T cells carry cytolytic granules containing perforin and granzyme that target demyelinated axons and oligodendrocytes
 - Pro-inflammatory CD27+ GM-CSF-expressing memory B cells are more prevalent in MS bloodstream, driving abnormal Th1/Th17 responses
 - Gut [[mycobiome]]: MS patients have higher fungal alpha diversity and increased *Saccharomyces* and *Aspergillus*; anti-*Candida* antibodies found in CSF; fungal-to-bacterial ratio increased
@@ -47,7 +47,7 @@ platform: wikibiome
 - [[Tregs]] -- Foxp3+ regulatory cells dysfunctional in MS, supported by specific commensals
 - [[short-chain-fatty-acids]] -- butyrate, acetate, propionate as key immunomodulatory metabolites
 - [[tryptophan]] -- kynurenine pathway metabolites as neurotoxic mediators in MS relapses
-- [[TMAO]] -- trimethylamine N-oxide from gut microbiota promotes neuronal aging and oxidative stress
+- [[tmao]] -- trimethylamine N-oxide from gut microbiota promotes neuronal aging and oxidative stress
 - [[mycobiome]] -- fungal dysbiosis as underappreciated contributor to MS
 - [[gut-brain-axis]] -- bidirectional communication via immune, neural, and metabolic pathways
 - [[blood-brain-barrier]] -- BBB breakdown central to MS pathogenesis, influenced by gut permeability

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Amino acid changes in papillary thyroid carcinoma (PTC) patients with and without [[Hashimotos thyroiditis]] show similar patterns, suggesting a common pathophysiological basis between PTC and HT
+- Amino acid changes in papillary thyroid carcinoma (PTC) patients with and without [[hashimotos-thyroiditis]] show similar patterns, suggesting a common pathophysiological basis between PTC and HT
 - Glutamic acid and lysine were the two amino acids that distinguished PTC with HT (PTC1) from PTC without HT (PTC0), with glutamic acid significantly elevated in PTC1 patients
 - Glycine, alanine, and tyrosine were significantly reduced in both PTC groups compared to healthy controls, reflecting increased metabolic rate in cancer
 - Five amino acid markers (glycine, tyrosine, glutamic acid, glutamine, arginine) separated PTC0 from healthy controls with AUC=0.831; eight markers separated PTC1 from controls with AUC=0.828

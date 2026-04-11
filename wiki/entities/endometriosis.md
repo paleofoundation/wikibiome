@@ -126,6 +126,13 @@ Endometriosis onset typically occurs during adolescence and early reproductive y
 4. **Metformin + lactoferrin synergy**: Does combined biofilm disruption + iron chelation show synergistic clinical benefit?
 5. **Cadmium-lead synergy quantification**: What is the dose-response curve for synergistic oxidative stress from combined Cd+Pb exposure in peritoneal fluid?
 
+## Comorbidities
+
+- [[pcos]] -- both are estrogen-related conditions with shared metalloestrogen exposure (Cd, Ni binding ERa); 20% comorbidity rate in clinical series; endometriosis pain may mask PCOS symptoms and vice versa; shared nickel elevation and oxidative stress
+- [[depression]] -- chronic pain and infertility drive high depression rates (40-50%) in endometriosis; shared neuroinflammation via gut-brain axis disruption; tryptophan pathway alterations reduce serotonin precursor availability
+- [[inflammatory-bowel-disease]] -- GI symptoms overlap significantly (90.3% of endometriosis patients have Ni ACM with IBS-like symptoms); shared NF-kB-driven intestinal inflammation and dysbiosis; nickel allergy may be a common driver in co-occurring cases
+- [[anxiety]] -- chronic pain, diagnostic delays (average 7-10 years), and fertility concerns drive anxiety; shared HPA axis dysregulation and gut-brain axis disruption; nickel-driven systemic inflammation may contribute to neuropsychiatric symptoms
+
 ## Connections
 
 - [[metal-disease-matrix]] -- Cross-disease metallomic comparison; endometriosis signature mapped

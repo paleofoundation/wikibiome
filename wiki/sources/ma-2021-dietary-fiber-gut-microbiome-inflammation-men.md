@@ -38,5 +38,5 @@ pp. 1-8
 ## Connections
 
 - Demonstrates fiber-microbiome-inflammation axis in [[cardiovascular disease]] prevention
-- Links to [[SCFAs]] production and [[atherosclerosis]] risk
+- Links to [[short-chain-fatty-acids]] production and [[atherosclerosis]] risk
 - Relevant to personalized [[dietary interventions]] based on microbiome composition

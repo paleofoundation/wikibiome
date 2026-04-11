@@ -16,7 +16,7 @@ platform: wikibiome
 - Exposure to metals can alter the composition, diversity, homogeneity, and structure of the [[gut-metal-microbiome|gut microbiota]], but reported modifications are **not homogeneous** across studies
 - The variability is explained by differences in metal compound, exposure modalities (food, water, in vitro), exposure time, and qualitative/quantitative diversity of bacterial species
 - The gut microbiota is composed of >100 trillion microorganisms; dominant phyla are Firmicutes, Bacteroidetes, Actinobacteria, Proteobacteria, with lesser Saccharibacteria, Verrucomicrobia, Deferribacteres, Spirochaetes
-- Heavy metals cause dysbiosis leading to increased LPS, decreased [[SCFAs]], liver damage, hepatic steatosis, cholesterol pathway alterations, neurodevelopmental deficits, and inflammatory cytokine upregulation (TNF-alpha, IFN-gamma, IL-1beta, IL-6, IL-17)
+- Heavy metals cause dysbiosis leading to increased LPS, decreased [[short-chain-fatty-acids]], liver damage, hepatic steatosis, cholesterol pathway alterations, neurodevelopmental deficits, and inflammatory cytokine upregulation (TNF-alpha, IFN-gamma, IL-1beta, IL-6, IL-17)
 - [[nickel]] is noted as a common environmental agent causing allergic contact dermatitis; oral ingestion in mice alters GM resulting in metabolic balance and microbial composition changes
 - Nanoparticles effects are mixed: some may be preventive/therapeutic while others harm both gut microbiome and health
 

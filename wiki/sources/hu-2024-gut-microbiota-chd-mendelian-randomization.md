@@ -34,7 +34,7 @@ platform: wikibiome
 
 - Extends [[Mendelian randomization]] evidence base for microbiome-CHD causality
 - *Oxalobacter*-CHD risk consistent with [[Zhang 2022 - Causal Microbiome CVD MR]]
-- *Butyricoccus* protection aligns with [[SCFAs]] and butyrate-producing bacteria in CVD
+- *Butyricoccus* protection aligns with [[short-chain-fatty-acids]] and butyrate-producing bacteria in CVD
 - Surprising *Bifidobacterium* risk finding challenges assumptions in [[probiotics]] research for CVD
 - Complements other MR studies: [[Wang 2023]], [[Luo 2022]], [[Dai 2024]] on gut microbiota-CVD causality
 - Protective Lentisphaeria and Victivallales expand [[microbial biomarkers]] for cardiovascular risk

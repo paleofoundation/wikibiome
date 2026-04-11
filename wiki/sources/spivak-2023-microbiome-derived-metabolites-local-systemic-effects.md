@@ -18,7 +18,7 @@ platform: wikibiome
 
 - Commensal microbes exert numerous biochemical reactions synthesizing or modifying multiple bioactive small molecules (metabolites) that impact host physiology in a variety of contexts
 - [[Short-chain fatty acids]] (butyrate, propionate, acetate) and [[bile acids]] are mostly linked to beneficial effects on host health; different end-products of microbial [[tryptophan]] metabolism can have either beneficial or harmful impact
-- [[SCFAs]] are critical for intestinal barrier function by providing energy to intestinal epithelial cells (IECs), regulating metabolic circuits in gluconeogenesis and ceramide synthesis, and maintaining barrier stability
+- [[short-chain-fatty-acids]] are critical for intestinal barrier function by providing energy to intestinal epithelial cells (IECs), regulating metabolic circuits in gluconeogenesis and ceramide synthesis, and maintaining barrier stability
 - [[LPS]] and related pattern receptor recognition (PRR) ligands from structural components of microbes can trigger intestinal inflammation, infection, and carcinogenesis
 - Microbiome-derived metabolites have systemic impacts via portal and systemic circulation affecting liver (lipogenesis, gluconeogenesis), muscle (glucose uptake, fatty acid oxidation), CNS (neurodegeneration, behavioral disorders), kidneys (CKD), and cardiovascular system (atherosclerosis)
 - Table 1 categorizes metabolite classes: SCFAs, carboxylic acid intermediates, amino acids, tryptophan metabolites, flavonoids, secondary bile acids, and other classes (tetrahydrobiopterin, folate, amyloids)

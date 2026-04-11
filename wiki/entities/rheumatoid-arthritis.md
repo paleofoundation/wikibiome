@@ -106,6 +106,12 @@ The arsenic metabolites as the top RA predictor is notable: arsenic disrupts NF-
 6. **Microbiome-RA-metals**: What does the gut microbiome of RA patients living in high-soil-metal areas look like compared to those in clean areas?
 7. **Temporal direction**: Do metal elevations precede RA onset (suggesting causation) or follow from inflammation and medication effects? Prospective cohorts with pre-diagnostic metal measurements are needed.
 
+## Comorbidities
+
+- [[cardiovascular-disease]] -- RA patients have 1.5-2x increased CVD mortality; shared systemic inflammation (elevated CRP, IL-6, TNF-alpha) drives accelerated atherosclerosis; anti-TNF therapy reduces both joint inflammation and CVD events; shared metal-VitD disruption (Cd, Pb inversely correlate with vitamin D in both)
+- [[depression]] -- depression prevalence is 15-40% in RA; chronic pain, disability, and systemic inflammation drive neuropsychiatric symptoms; shared NF-kB activation and tryptophan pathway shifts; anti-TNF biologics improve both joint and mood symptoms
+- [[chronic-kidney-disease]] -- RA patients have increased CKD risk from chronic inflammation, NSAID nephrotoxicity, and amyloidosis; shared Cd and Pb elevation with nephrotoxic effects; both feature oxidative stress and vitamin D deficiency driven by heavy metal burden
+
 ## Connections
 
 - [[copper]] -- Elevated in some populations; correlates with ESR and DAS28; farm soil Cu worsens inflammation

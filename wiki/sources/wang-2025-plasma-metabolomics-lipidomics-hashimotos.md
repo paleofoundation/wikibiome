@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Comprehensive metabolomic and lipidomic profiling of [[Hashimotos thyroiditis]] in NOD.H-2h4 mouse model reveals 195 differential metabolites (114 upregulated, 81 downregulated) and 247 differential lipids (165 upregulated, 82 downregulated)
+- Comprehensive metabolomic and lipidomic profiling of [[hashimotos-thyroiditis]] in NOD.H-2h4 mouse model reveals 195 differential metabolites (114 upregulated, 81 downregulated) and 247 differential lipids (165 upregulated, 82 downregulated)
 - Metabolites upregulated in HT were primarily associated with Autophagy, Choline metabolism, PPAR signaling, and Glycerophospholipid metabolism pathways
 - Pathways suppressed in HT include Apoptosis, Cholesterol metabolism, Sphingolipid metabolism, EGFR tyrosine kinase inhibitor resistance, Th1/Th2 cell differentiation, viral infection, and Chemokine signaling
 - Metabolic and lipidomic dysregulation was pronounced in Phospholipids, Eicosanoids, and Carnitines in HT animal models

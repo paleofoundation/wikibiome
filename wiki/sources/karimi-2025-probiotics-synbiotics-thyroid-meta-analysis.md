@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Probiotics]] and [[synbiotics]] oral supplementation led to a significant reduction in TSH (SMD: -1.10, 95% CI: -1.96, -0.23, p=0.013) and significantly increased free T3 (SMD: 0.98, 95% CI: 0.10, 1.85, p=0.029) and free T4 (SMD: 1.04, 95% CI: 0.04, 2.05, p=0.042)
+- [[probiotics]] and [[synbiotics]] oral supplementation led to a significant reduction in TSH (SMD: -1.10, 95% CI: -1.96, -0.23, p=0.013) and significantly increased free T3 (SMD: 0.98, 95% CI: 0.10, 1.85, p=0.029) and free T4 (SMD: 1.04, 95% CI: 0.04, 2.05, p=0.042)
 - Subgroup analyses showed interventions lasting 8 weeks or less had a stronger effect, and patients with thyroid disorders showed higher responsiveness than non-thyroid groups
 - Shorter intervention durations (<=8 weeks) exhibited larger, near-significant effect sizes for T4 (SMD=1.75, p=0.055), while longer durations had negligible impact (SMD=0.10)
 - Probiotics significantly reduced TSH (SMD=-0.76, p=0.036) while synbiotics did not; populations with thyroid disorders experienced larger TSH reductions (SMD=-1.10, p=0.047)

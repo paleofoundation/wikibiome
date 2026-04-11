@@ -61,3 +61,14 @@ condition: "autism spectrum disorder"
 - **Mediterranean diet metals**: Rich in polyphenols that chelate iron and copper, modulating metal-dependent oxidative stress
 - **Camel milk SOD**: Superoxide dismutase requires zinc and copper cofactors; camel milk may directly supply metal-dependent antioxidant capacity
 - **Vitamin D-metal connection**: Vitamin D regulates calcium, zinc, and iron absorption; deficiency in ASD compounds metal dyshomeostasis
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- systematic review of dietary interventions
+- [[gut-brain-axis]] -- primary mechanism linking diet to ASD behavioral outcomes
+- [[akkermansia-muciniphila]] -- enhanced by ketogenic diet in ASD
+- [[dysbiosis]] -- dietary interventions target gut microbial imbalance
+- [[short-chain-fatty-acids]] -- modulated by fermentable carbohydrate restriction
+- [[iron]] -- polyphenol chelation and vitamin D-dependent absorption
+- [[zinc]] -- SOD cofactor supplied by camel milk; deficiency common in ASD
+- [[probiotics]] -- discussed as complement to dietary interventions

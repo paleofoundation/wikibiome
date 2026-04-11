@@ -51,3 +51,14 @@ condition: "autism spectrum disorder"
 - **KD-metal axis**: Ketone bodies may alter metal transport across the BBB; KD-induced Akkermansia normalization restores mucin-dependent metal barrier function
 - **Soy-metal interaction**: Phytoestrogens in soy formula may disrupt metal-dependent hormone signaling; estrogenic activity via metabotropic glutamate receptor 5
 - **FXS-ASD overlap**: FMR1 gene affects gut microbiota composition, suggesting genetic metal-microbiome vulnerability in a significant ASD subpopulation
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- dietary interventions for core symptoms
+- [[gut-microbiome]] -- KD and prebiotic modulation of microbiota composition
+- [[akkermansia-muciniphila]] -- normalized by ketogenic diet in BTBR mouse model
+- [[short-chain-fatty-acids]] -- produced by prebiotic fermentation; relevant to gut-brain signaling
+- [[probiotics]] -- reviewed as ASD behavioral intervention
+- [[dysbiosis]] -- micronutrient deficiencies reflect disrupted gut ecology
+- [[iron]] -- among key micronutrient deficiencies in ASD children
+- [[zinc]] -- deficiency in 30-84% of ASD children

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Gut [[dysbiosis]] in [[Graves' disease]] patients is mechanistically linked to Treg/Th17 immune imbalance, a hallmark of autoimmune thyroid pathology
+- Gut [[dysbiosis]] in [[graves-disease]] patients is mechanistically linked to Treg/Th17 immune imbalance, a hallmark of autoimmune thyroid pathology
 - GD patients show significantly reduced [[Short-Chain Fatty Acids]] (SCFA)-producing bacteria, particularly butyrate producers, which are essential for maintaining Treg differentiation and immune tolerance
 - The Th17/Treg ratio is elevated in GD, driven by gut dysbiosis that promotes pro-inflammatory Th17 expansion via IL-6, IL-23, and TGF-beta signaling while suppressing anti-inflammatory Treg development
 - Specific bacterial taxa alterations include decreased Bacteroides, Faecalibacterium, and Roseburia (SCFA producers) and increased Prevotella and Lactobacillus in GD patients
@@ -42,7 +42,7 @@ platform: wikibiome
 - SCFA-mediated HDAC inhibition and Foxp3 induction connects to [[inflammation]] resolution pathways
 - [[NF-kappa-B]] suppression by butyrate provides mechanistic rationale for microbiome-targeted therapy
 - Th17/Treg imbalance framework relevant to understanding berberine's immunomodulatory effects in [[han-2022-berberine-methimazole-graves-microbiome]]
-- [[Selenium]] and [[zinc]] are cofactors for antioxidant enzymes that protect gut barrier integrity, indirectly affecting SCFA production
+- [[selenium]] and [[zinc]] are cofactors for antioxidant enzymes that protect gut barrier integrity, indirectly affecting SCFA production
 - Gut barrier dysfunction from [[dysbiosis]] may increase translocation of bacterial antigens, amplifying [[inflammation]] through [[gut-metal-microbiome]] axis
-- [[Iron]] availability influences bacterial community composition, potentially affecting butyrate producer populations
+- [[iron]] availability influences bacterial community composition, potentially affecting butyrate producer populations
 - [[Oxidative-stress]] from GD hyperthyroidism may further damage gut epithelium, perpetuating dysbiosis cycle

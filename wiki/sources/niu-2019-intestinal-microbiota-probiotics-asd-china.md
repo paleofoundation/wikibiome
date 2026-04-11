@@ -28,7 +28,7 @@ condition: "autism spectrum disorder"
 - Shannon index: ASD group significantly higher than NT (greater abundance but lower evenness)
 - Simpson index: ASD with GI events significantly lower than NT
 - At phylum level: [[Bacteroidetes]] significantly lower in ASD; Firmicutes/Bacteroidetes ratio increased
-- At genus level: [[Bacteroides]], [[Bifidobacterium]], [[Ruminococcus]], [[Roseburia]], [[Blautia]] significantly lower in ASD
+- At genus level: [[bacteroides-fragilis]], [[bifidobacterium]], [[ruminococcus]], [[roseburia]], [[Blautia]] significantly lower in ASD
 - [[Lachnospira]] significantly more abundant in ASD
 
 **Probiotic intervention (n = 37 ASD children, 4 weeks):**

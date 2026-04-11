@@ -21,7 +21,7 @@ platform: wikibiome
 - Depletion of Lachnospiraceae and Ruminococcaceae and increase in Gammaproteobacteria and Desulfovibrionaceae characterize HIV-related dysbiosis
 - [[Microbial translocation]] (passage of bacterial products like LPS across gut barrier) drives chronic immune activation and is linked to CVD in both PLWH and general populations
 - Circulating LPS correlated with abundance of gram-negative bacteria producing penta-acylated LPS, including *Bacteroides*; circulating LPS could partly reflect LPS from commensal microbes with low pro-inflammatory potential
-- SCFA production, particularly butyrate, is reduced in PLWH compared to controls; [[TMAO]] pathway is linked to CVD via phosphatidylcholine and L-carnitine metabolism
+- SCFA production, particularly butyrate, is reduced in PLWH compared to controls; [[tmao]] pathway is linked to CVD via phosphatidylcholine and L-carnitine metabolism
 - Kynurenine pathway metabolites are characteristically depleted in gut of PLWH; serum kynurenine/tryptophan (KT) ratio is a surrogate marker for activity of this pathway
 
 # Methods/Findings

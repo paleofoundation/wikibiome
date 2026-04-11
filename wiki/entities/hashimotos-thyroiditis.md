@@ -73,7 +73,11 @@ AIP diet pilot (n=16): significant QoL improvement across all SF-36 subscales an
 
 ## Comorbidities
 
-81% of HT patients have [[comorbidities]]: thyroid nodules (53%), breast hyperplasia (47%), uterine leiomyomas (24%). Female patients are 6.2x more likely to have comorbidities than males. Depression and anxiety occur even in euthyroid HT through neuroinflammation mechanisms. IBS is common. Fertility is impaired -- follicular fluid metabolomics reveal altered sphingolipid/phospholipid profiles. Levothyroxine therapy reduces comorbidity risk by correcting TSH-driven tissue overstimulation.
+81% of HT patients have [[comorbidities]]: thyroid nodules (53%), breast hyperplasia (47%), uterine leiomyomas (24%). Female patients are 6.2x more likely to have comorbidities than males. Levothyroxine therapy reduces comorbidity risk by correcting TSH-driven tissue overstimulation.
+
+- [[graves-disease]] -- sister AITD with shared genetics (HLA-DRB1, PTPN22) and mineral dependencies; patients can convert between HT and GD; both feature gut-thyroid axis disruption, Se dependence, and SCFA producer depletion
+- [[depression]] -- depression occurs even in euthyroid HT through neuroinflammation mechanisms; shared tryptophan pathway disruption (tryptophan significantly lower in HT, p<0.0001); shared gut-brain axis disruption and SCFA depletion
+- [[celiac-disease]] -- celiac prevalence is 2-5x higher in HT than general population; shared autoimmune architecture and mucosal immune dysregulation; gluten-driven intestinal inflammation may trigger thyroid autoimmunity via molecular mimicry; both improve partially with gluten-free diet in some patients
 
 ## Connections
 

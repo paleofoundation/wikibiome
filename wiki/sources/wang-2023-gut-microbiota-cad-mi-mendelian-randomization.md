@@ -35,7 +35,7 @@ platform: wikibiome
 
 - Provides [[Mendelian randomization]] evidence for a protective gut microbe in [[cardiovascular disease]]
 - T2DM mediation connects [[comorbidities]] and [[metabolic pathways]] in CVD-microbiome axis
-- Butyrate-producing *Ruminococcus* relevant to [[SCFAs]] and [[microbial metabolites]] in CVD
+- Butyrate-producing *Ruminococcus* relevant to [[short-chain-fatty-acids]] and [[microbial metabolites]] in CVD
 - Complements [[Zhang 2022 - Causal Microbiome CVD MR]] on genus-level causal effects
 - Arterial stiffness correlation extends [[microbial biomarkers]] for vascular health
 - Mediation analysis framework applicable to [[causal microbiome relationships]] research

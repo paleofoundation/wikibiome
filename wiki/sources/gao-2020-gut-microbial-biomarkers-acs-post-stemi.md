@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-Prospective study investigating associations between gut microbial taxa, systemic [[TMAO]] levels, and incident post-STEMI cardiovascular events. Enrolled 60 ACS patients (30 STEMI, 30 UAP) and 30 healthy controls from Tianjin Chest Hospital (2017). Combined 16S rRNA amplicon sequencing with TMAO and IL-6 measurement.
+Prospective study investigating associations between gut microbial taxa, systemic [[tmao]] levels, and incident post-STEMI cardiovascular events. Enrolled 60 ACS patients (30 STEMI, 30 UAP) and 30 healthy controls from Tianjin Chest Hospital (2017). Combined 16S rRNA amplicon sequencing with TMAO and IL-6 measurement.
 
 ## Key Findings
 
@@ -47,4 +47,4 @@ Prospective study investigating associations between gut microbial taxa, systemi
 
 ## Relevance to the Wiki
 
-Identifies specific gut microbial taxa correlated with [[TMAO]] levels and ACS, suggesting potential use as predictive [[biomarker]]s for [[cardiovascular-disease]] diagnosis. Connects to [[dinakaran-2014-circulating-microbiome-cvd]] on circulating microbiome signatures and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on TMAO as a disease trajectory marker.
+Identifies specific gut microbial taxa correlated with [[tmao]] levels and ACS, suggesting potential use as predictive [[biomarker]]s for [[cardiovascular-disease]] diagnosis. Connects to [[dinakaran-2014-circulating-microbiome-cvd]] on circulating microbiome signatures and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on TMAO as a disease trajectory marker.

@@ -31,5 +31,5 @@ platform: wikibiome
 # Connections
 
 - [[Metformin]] use in diabetic patients may independently modulate pancreatic cancer risk through [[gut microbiome]] and metabolic effects
-- Hyperinsulinemia links to altered [[metabolic pathways]] and [[microbial metabolites]] including [[SCFAs]]
+- Hyperinsulinemia links to altered [[metabolic pathways]] and [[microbial metabolites]] including [[short-chain-fatty-acids]]
 - [[Comorbidities]] including diabetes interact with microbiome composition to influence cancer progression

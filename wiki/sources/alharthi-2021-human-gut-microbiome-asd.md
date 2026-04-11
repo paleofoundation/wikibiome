@@ -70,7 +70,7 @@ Comprehensive review of the **microbiota–gut–brain axis in autism**, focusin
 
 ## Probiotics
 
-- Strains: [[Lactobacillus]], [[Bifidobacterium]], [[Streptococcus]]
+- Strains: [[lactobacillus]], [[bifidobacterium]], [[streptococcus-pneumoniae]]
 - Mechanisms: metabolite production, barrier support, immune modulation
 - Evidence level: promising but limited RCT data
 

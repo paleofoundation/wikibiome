@@ -16,11 +16,11 @@ platform: wikibiome
 
 ## Key Claims
 
-- Antithyroid drugs (ATDs), particularly methimazole and propylthiouracil, remain the first-line treatment for [[Graves' disease]] hyperthyroidism in most countries, with remission rates of 40-60% after 12-18 months of standard therapy
+- Antithyroid drugs (ATDs), particularly methimazole and propylthiouracil, remain the first-line treatment for [[graves-disease]] hyperthyroidism in most countries, with remission rates of 40-60% after 12-18 months of standard therapy
 - Long-term low-dose methimazole therapy (>18 months, up to 60-120 months) achieves significantly higher remission rates (up to 70-80%) compared to standard 12-18 month courses, with minimal side effects
 - Methimazole is preferred over propylthiouracil due to longer half-life (once-daily dosing), fewer hepatotoxic side effects, and more consistent efficacy; propylthiouracil is reserved for first trimester pregnancy and thyroid storm
 - Predictors of relapse after ATD withdrawal include persistent TRAb positivity, large goiter size, high T3/T4 ratio, male sex, smoking, and young age at diagnosis
-- [[Selenium]] supplementation (200 mcg/day) as adjunct to ATDs may improve biochemical response and reduce thyroid antibody levels, though evidence remains mixed
+- [[selenium]] supplementation (200 mcg/day) as adjunct to ATDs may improve biochemical response and reduce thyroid antibody levels, though evidence remains mixed
 
 ## Methods/Findings
 
@@ -36,10 +36,10 @@ platform: wikibiome
 ## Connections
 
 - Methimazole treatment effects on gut microbiota documented in [[yang-2022-intestinal-flora-graves-methimazole]] and [[chen-2021-gut-microbiota-thyroid-graves]]
-- [[Selenium]] adjunctive role connects to [[brock-2015-selenium-thyroid-autoimmunity]] and [[brylinski-2025-trace-elements-thyroid-diseases]] on trace element support
+- [[selenium]] adjunctive role connects to [[brock-2015-selenium-thyroid-autoimmunity]] and [[brylinski-2025-trace-elements-thyroid-diseases]] on trace element support
 - Berberine as ATD adjunct explored in [[han-2022-berberine-methimazole-graves-microbiome]] may enhance remission through [[gut-metal-microbiome]] modulation
 - TRAb as relapse predictor parallels microbiota-TRAb correlations found in [[chen-2021-gut-microbiota-thyroid-graves]]
 - [[Oxidative-stress]] from hyperthyroidism partially addressable through selenium and antioxidant support
 - Drug-induced changes to [[dysbiosis]] patterns warrant consideration given ATD impact on gut flora
 - [[Iodine]] status influences treatment response; connects to iodine-thyroid axis in [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
-- [[Iron]], [[zinc]], and [[copper]] status may affect drug metabolism and therapeutic response
+- [[iron]], [[zinc]], and [[copper]] status may affect drug metabolism and therapeutic response

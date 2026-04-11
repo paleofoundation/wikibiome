@@ -16,7 +16,7 @@ platform: wikibiome
 
 - [[Shotgun metagenomics]] revealed significant depletion of [[Firmicutes]] (especially butyrate-producing bacteria) and increase of [[Proteobacteria]] (Gammaproteobacteria) in PDAC patients
 - Fecal [[butyrate]] content was significantly decreased in PDAC group, with *Eubacterium rectale*, *Eubacterium ventricosum*, and *Odoribacter splanchnicus* as top discriminating biomarkers (AUC 90.74-88.89%)
-- PDAC gut microbiota displayed higher potential to degrade fatty acids but notably lower metabolic capacity to synthesize [[SCFAs]], especially acetate and butyrate
+- PDAC gut microbiota displayed higher potential to degrade fatty acids but notably lower metabolic capacity to synthesize [[short-chain-fatty-acids]], especially acetate and butyrate
 - The Wood-Ljungdahl pathway (classic acetate-producing pathway) was depleted in PDAC, and pyruvate metabolism was altered
 
 # Methods/Findings
@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- Butyrate depletion connects [[SCFAs]] to [[microbiome-derived metabolites]] and immune regulation in pancreatic cancer
+- Butyrate depletion connects [[short-chain-fatty-acids]] to [[microbiome-derived metabolites]] and immune regulation in pancreatic cancer
 - *Faecalibacterium prausnitzii* and *Roseburia* depletion relevant to [[probiotics]] and [[prebiotics]] intervention strategies
 - Functional SCFA synthesis loss links to [[metabolic pathways]] disruption and [[functional microbiome shifts]] in PDAC
 - Metagenomics classifier performance supports [[microbial biomarkers]] for non-invasive PDAC diagnosis

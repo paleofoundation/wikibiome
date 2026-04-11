@@ -27,7 +27,7 @@ This review examines how dietary patterns influence [[parkinsons-disease]] outco
 - Polyphenols (from berries, green tea, coffee) promote growth of beneficial gut bacteria and have anti-inflammatory properties
 - Protein intake timing affects levodopa absorption and should be managed in PD patients
 - Dietary patterns that reduce gut [[dysbiosis]] may slow PD progression via the [[gut-brain-axis]]
-- [[Probiotics]] and [[prebiotics]] represent targeted dietary interventions for PD microbiome modulation
+- [[probiotics]] and [[prebiotics]] represent targeted dietary interventions for PD microbiome modulation
 
 ## Relevance to Gut-Metal-Microbiome Axis
 

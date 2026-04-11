@@ -42,4 +42,4 @@ platform: wikibiome
 - [[HLA]] -- HLA-DRB1*1501 influences mycobiota composition in MS
 - [[dimethyl-fumarate]] -- antifungal properties of DMF may contribute to MS treatment efficacy
 - [[chitotriosidase]] -- plasma biomarker of fungal burden showing disease-specific correlations
-- [[Candida]] -- *Candida* genus prevalence higher in females; potential gastrointestinal reservoir
+- [[candida-albicans]] -- *Candida* genus prevalence higher in females; potential gastrointestinal reservoir

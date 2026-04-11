@@ -21,7 +21,7 @@ This large-scale study (445 PD cases, 221 controls for stool; 438 PD, 220 contro
 
 ## Key Findings
 
-- The microbial signature of PD includes overabundance of 16 OTUs including *[[Streptococcus]] mutans* and *[[Bifidobacterium]] dentium*, and depletion of 28 OTUs
+- The microbial signature of PD includes overabundance of 16 OTUs including *[[streptococcus-pneumoniae]] mutans* and *[[bifidobacterium]] dentium*, and depletion of 28 OTUs
 - Machine learning models using subspecies-level oral microbiome abundances distinguished PD with AUC of 0.758
 - Stool alpha-diversity (Chao1) was significantly increased in PD cases (W = 41,384; p = 0.00173)
 - Constipation symptoms in PD correlated with increased stool microbiome alpha-diversity

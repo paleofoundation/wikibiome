@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- The metabolic profile of follicular fluid (FF) is altered in women with [[Hashimotos thyroiditis]], suggesting a potential mechanistic explanation for the association between HT and female infertility
+- The metabolic profile of follicular fluid (FF) is altered in women with [[hashimotos-thyroiditis]], suggesting a potential mechanistic explanation for the association between HT and female infertility
 - Fifteen metabolites with higher concentrations in HT FF samples were identified, comprising glycerophospholipid, arachidonic acid, linoleic acid, alpha-linolenic acid, and sphingolipid metabolism pathways
 - Serum TGAb (but not TPOAb) levels were dramatically increased in HT patients (p<0.0001), and TGAb may be a better marker than TPOAb for investigating thyroid autoimmunity in infertile women
 - Phosphatidylcholine species were the most prominent altered metabolites (10 of 15), along with 2 acylcarnitines, 2 sphingolipids, and 1 lysophosphatidylcholine
@@ -40,4 +40,4 @@ platform: wikibiome
 - Arachidonic acid pathway links to [[inflammation]] in autoimmune thyroid disease
 - TGAb as biomarker connects to [[luo-2025-serum-metabolomics-hashimotos-tgab-tpoab]]
 - Sphingolipid metabolism changes may reflect gut-derived metabolite alterations in [[dysbiosis]]
-- Female fertility implications connect broader [[Hashimotos thyroiditis]] clinical impact
+- Female fertility implications connect broader [[hashimotos-thyroiditis]] clinical impact

@@ -33,7 +33,7 @@ condition: "autism spectrum disorder"
 - Social skills (AQ): improved with B-GOS after intervention and follow-up (P < 0.05)
 
 **Microbiota changes (16S rRNA):**
-- B-GOS increased [[Bifidobacterium]], [[Ruminococcus]], Lachnospiraceae family
+- B-GOS increased [[bifidobacterium]], [[ruminococcus]], Lachnospiraceae family
 - [[Coprococcus]], [[Dorea formicigenerans]], [[Oribacterium]], [[Eubacterium dolchum]], TM7-3 family, Mogibacteriaceae also associated with B-GOS
 - Increased diversity (rarefaction curves) though not statistically significant
 

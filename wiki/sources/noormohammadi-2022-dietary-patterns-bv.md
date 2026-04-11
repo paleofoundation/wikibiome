@@ -36,5 +36,5 @@ platform: wikibiome
 - First case-control study to examine dietary patterns (rather than individual nutrients) and BV
 - Confirms [[neggers-2007-dietary-nutrients-bacterial-vaginosis]] findings that high-fat, high-sugar diets increase BV risk
 - The protective ovo-vegetarian pattern is consistent with [[thoma-2011-bv-dietary-indices]] showing higher diet quality reduces BV
-- Plant-based dietary components may promote [[Lactobacillus]]-dominant vaginal flora through fiber and folate content
+- Plant-based dietary components may promote [[lactobacillus]]-dominant vaginal flora through fiber and folate content
 - Related research by same group: [[noormohammadi-2022-dietary-acid-load-bv]]

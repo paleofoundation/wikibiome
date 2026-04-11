@@ -47,9 +47,9 @@ Comprehensive review of **environmental factors associated with ASD development*
 
 **High relevance** — directly addresses metal and chemical exposures:
 
-- **[[Lead]]**: blood levels inversely associated with IQ; IQ decrease of 6.9 points per 2.4-30 ug/dL increase
-- **[[Mercury]]** (methylmercury): prenatal exposure → language, attention, memory dysfunction
-- **[[Aluminum]]**: discussed in context of vaccines and environmental exposure
+- **[[lead]]**: blood levels inversely associated with IQ; IQ decrease of 6.9 points per 2.4-30 ug/dL increase
+- **[[mercury]]** (methylmercury): prenatal exposure → language, attention, memory dysfunction
+- **[[aluminum]]**: discussed in context of vaccines and environmental exposure
 - **Glyphosate**: chelates [[manganese]], [[zinc]], [[iron]] — disrupts mineral bioavailability and gut microbiome
 - Air pollutants contain [[heavy metals]] (diesel, lead, manganese, mercury, methylene chloride)
 

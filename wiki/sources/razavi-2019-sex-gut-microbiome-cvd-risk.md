@@ -29,7 +29,7 @@ Review examining key sex differences in gut microbiome interactions with four pr
 ### Sexual Dimorphism in Microbiome-Related Metabolites
 - **BCAAs**: Men have increased serum BCAAs and decreased branched-chain 2-oxoacid dehydrogenase; women show increased branched-chain 2-oxo acid and dehydrogenase activity
 - **SCFAs**: Men show decreased SCFAs with decreased dietary fiber intake and decreased PPAR-gamma; women show increased susceptibility to dyslipidemia via 17-beta-estradiol-mediated PPAR-gamma increase
-- **[[TMAO]]**: Women have greater thrombotic risk; increased TLR and TMA activation of platelets; accelerated TMA production compared to men; sex hormones regulate hepatic FMO3 expression and secondary bile acid FXR activation
+- **[[tmao]]**: Women have greater thrombotic risk; increased TLR and TMA activation of platelets; accelerated TMA production compared to men; sex hormones regulate hepatic FMO3 expression and secondary bile acid FXR activation
 - **LPS**: Sex differences in TLR4/TLR2 signaling; estrogens, progesterone, and testosterone regulate LPS-mediated signaling through TLR4
 
 ### Key Mechanistic Model (Figure 1)

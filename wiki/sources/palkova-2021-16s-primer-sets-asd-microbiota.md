@@ -29,9 +29,9 @@ Methodological study comparing **three different 16S rRNA primer sets** for char
 
 ## ASD-Associated Taxa Detected Variably
 
-- Ability to detect ASD-associated bacterial genera (e.g., *[[Clostridium]]*, *Corynebacterium*, *[[Lactobacillus]]*) differed by primer set
-- Set#1 and set#3 had significantly higher ability to detect *[[Bacteroides]]*
-- Set#1 showed higher abundance of *[[Akkermansia]]*, *Bifidobacterium*, and *Prevotella*
+- Ability to detect ASD-associated bacterial genera (e.g., *[[clostridium]]*, *Corynebacterium*, *[[lactobacillus]]*) differed by primer set
+- Set#1 and set#3 had significantly higher ability to detect *[[bacteroides-fragilis]]*
+- Set#1 showed higher abundance of *[[akkermansia-muciniphila]]*, *Bifidobacterium*, and *Prevotella*
 
 ## Beta Diversity Varies by Primer
 

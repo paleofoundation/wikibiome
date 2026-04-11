@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[FMT]] holds considerable promise as adjunct treatment for PDAC but is hindered by challenges in donor selection, microbiome engraftment, and suboptimal delivery methods
+- [[fecal-microbiota-transplant]] holds considerable promise as adjunct treatment for PDAC but is hindered by challenges in donor selection, microbiome engraftment, and suboptimal delivery methods
 - Long-term survivors (LTS) of PDAC exhibit higher intratumoral microbial diversity with specific beneficial genera (*Bacillus clausii*, *Pseudoxanthomonas*, *Saccharopolyspora*, *Streptomyces*) that promote CD8+ T cell activation
 - FMT from LTS donors into tumor-bearing mice showed slower tumor growth, higher survival, and higher interferon-gamma and IL-2 levels compared to short-term survivor (STS) FMT
 - An early Phase I clinical trial for FMT in patients with PDAC is ongoing at M.D. Anderson Cancer Center (NCT04975217)
@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- [[FMT]] donor selection from long-term survivors links to [[microbiome signature]] and [[microbial biomarkers]] research
+- [[fecal-microbiota-transplant]] donor selection from long-term survivors links to [[microbiome signature]] and [[microbial biomarkers]] research
 - CD8+ T cell activation by transplanted microbiome connects to [[microbiome-host interactions]] and immunotherapy
 - Antibiotic-FMT sequencing relevant to [[antibiotics]] and [[microbiome-targeted therapy]] treatment protocols
 - Clinical trial progress connects to translational pipeline from [[microbiome composition]] research to therapy

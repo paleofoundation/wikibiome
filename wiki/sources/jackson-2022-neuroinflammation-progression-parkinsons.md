@@ -32,7 +32,7 @@ This review examines the "outside-in" model of [[parkinsons-disease]] [[neuroinf
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The "outside-in" model directly connects gut [[dysbiosis]] and metal exposure to brain [[neuroinflammation]]. [[Iron]] and [[manganese]] accumulation in the substantia nigra activates microglia through redox-active mechanisms, generating reactive oxygen species that damage dopaminergic neurons. Gut-derived LPS (from Enterobacteriaceae enriched in PD) crosses the leaky blood-brain barrier and primes microglia for exaggerated responses to local metal-induced oxidative stress. The TLR4 activation pathway connects bacterial endotoxins to [[hepcidin]] upregulation, which traps [[iron]] in microglia and promotes [[ferroptosis]]. [[Nickel]] and [[lead]] exposure may compound this by impairing anti-inflammatory pathways and damaging the blood-brain barrier directly.
+The "outside-in" model directly connects gut [[dysbiosis]] and metal exposure to brain [[neuroinflammation]]. [[iron]] and [[manganese]] accumulation in the substantia nigra activates microglia through redox-active mechanisms, generating reactive oxygen species that damage dopaminergic neurons. Gut-derived LPS (from Enterobacteriaceae enriched in PD) crosses the leaky blood-brain barrier and primes microglia for exaggerated responses to local metal-induced oxidative stress. The TLR4 activation pathway connects bacterial endotoxins to [[hepcidin]] upregulation, which traps [[iron]] in microglia and promotes [[ferroptosis]]. [[nickel]] and [[lead]] exposure may compound this by impairing anti-inflammatory pathways and damaging the blood-brain barrier directly.
 
 ## Limitations
 

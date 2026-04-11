@@ -39,6 +39,6 @@ pp. 1-8
 
 ## Connections
 
-- Links to [[gut microbiome]]-derived [[TMAO]] and CHD risk
+- Links to [[gut microbiome]]-derived [[tmao]] and CHD risk
 - Relevant to [[metabolomics]] approaches for CHD diagnosis
 - Connects to [[immune response]] and [[macrophage polarization]] in [[atherosclerosis]]

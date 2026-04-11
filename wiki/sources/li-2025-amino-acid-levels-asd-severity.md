@@ -54,3 +54,13 @@ condition: "autism spectrum disorder"
 - **Tryptophan protective**: Tryptophan's negative correlation with severity confirms iron-dependent serotonin synthesis pathway disruption in severe ASD
 - **Phenylalanine-metal link**: Phenylalanine hydroxylase converting Phe to Tyr requires iron and BH4 cofactors; elevation may reflect impaired iron-dependent hydroxylation
 - **BCAA-metal axis**: Leucine/isoleucine elevation and valine protection suggest branched-chain amino acid metabolism (requiring zinc and manganese-dependent enzymes) is differentially disrupted in severe ASD
+
+## Connections
+
+- [[autism-spectrum-disorder]] -- amino acid severity biomarkers
+- [[tryptophan-metabolism]] -- protective association with ASD severity
+- [[iron]] -- cofactor for phenylalanine hydroxylase; serotonin synthesis
+- [[zinc]] -- modulates NMDA/AMPA receptors; BCAA enzymes
+- [[manganese]] -- cofactor for branched-chain amino acid enzymes
+- [[biomarkers]] -- combined amino acid model predicts severe ASD
+- [[gut-brain-axis]] -- microbial amino acid production affects plasma levels
