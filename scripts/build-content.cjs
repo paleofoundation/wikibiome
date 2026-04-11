@@ -321,6 +321,201 @@ function extractSignatures(pages) {
   return signatures;
 }
 
+// ─── Compute Associated Conditions (Pairwise Signature Overlap) ───────
+function computeAssociatedConditions(signatureData) {
+  const sigIds = Object.keys(signatureData);
+  if (sigIds.length < 2) return { pairs: [], clusters: [] };
+
+  // Helper: extract taxon IDs from enriched/depleted arrays
+  function extractTaxonIds(taxonArray) {
+    if (!Array.isArray(taxonArray)) return [];
+    return taxonArray.map(t => {
+      const raw = typeof t === 'string' ? t : (t.taxon || '');
+      return raw.replace(/\[\[|\]\]/g, '').toLowerCase().replace(/\s+/g, '-');
+    }).filter(Boolean);
+  }
+
+  // Helper: compute set intersection
+  function intersect(a, b) {
+    const setB = new Set(b.map(x => (x || '').toLowerCase().replace(/\s+/g, '-')));
+    return a.filter(x => setB.has((x || '').toLowerCase().replace(/\s+/g, '-')));
+  }
+
+  // Compute pairwise overlap
+  const pairs = [];
+  for (let i = 0; i < sigIds.length; i++) {
+    for (let j = i + 1; j < sigIds.length; j++) {
+      const a = signatureData[sigIds[i]];
+      const b = signatureData[sigIds[j]];
+
+      const aMetalsUp = (a.metallomicSignature?.elevated || []);
+      const bMetalsUp = (b.metallomicSignature?.elevated || []);
+      const aMetalsDown = (a.metallomicSignature?.depleted || []);
+      const bMetalsDown = (b.metallomicSignature?.depleted || []);
+
+      const sharedMetalsElevated = intersect(aMetalsUp, bMetalsUp);
+      const sharedMetalsDepleted = intersect(aMetalsDown, bMetalsDown);
+
+      const aTaxaUp = extractTaxonIds(a.taxonomicSignature?.enriched || []);
+      const bTaxaUp = extractTaxonIds(b.taxonomicSignature?.enriched || []);
+      const aTaxaDown = extractTaxonIds(a.taxonomicSignature?.depleted || []);
+      const bTaxaDown = extractTaxonIds(b.taxonomicSignature?.depleted || []);
+
+      const sharedTaxaEnriched = intersect(aTaxaUp, bTaxaUp);
+      const sharedTaxaDepleted = intersect(aTaxaDown, bTaxaDown);
+
+      const aEco = Array.isArray(a.ecologicalFeatures) ? a.ecologicalFeatures : [];
+      const bEco = Array.isArray(b.ecologicalFeatures) ? b.ecologicalFeatures : [];
+      const sharedEcological = intersect(aEco, bEco);
+
+      const aVir = Array.isArray(a.virulenceEnzymes) ? a.virulenceEnzymes : [];
+      const bVir = Array.isArray(b.virulenceEnzymes) ? b.virulenceEnzymes : [];
+      const sharedVirulence = intersect(aVir, bVir);
+
+      const aNutUp = (a.nutritionalImmunity?.elevated || []);
+      const bNutUp = (b.nutritionalImmunity?.elevated || []);
+      const aNutDown = (a.nutritionalImmunity?.depleted || []);
+      const bNutDown = (b.nutritionalImmunity?.depleted || []);
+      const sharedNutritionalElevated = intersect(aNutUp, bNutUp);
+      const sharedNutritionalDepleted = intersect(aNutDown, bNutDown);
+
+      // Weighted overlap score: metals and taxa matter most
+      const score =
+        sharedMetalsElevated.length * 3 +
+        sharedMetalsDepleted.length * 2 +
+        sharedTaxaEnriched.length * 4 +
+        sharedTaxaDepleted.length * 3 +
+        sharedEcological.length * 2 +
+        sharedVirulence.length * 2 +
+        sharedNutritionalElevated.length * 1 +
+        sharedNutritionalDepleted.length * 1;
+
+      if (score > 0) {
+        pairs.push({
+          conditions: [sigIds[i], sigIds[j]],
+          names: [a.name, b.name],
+          score,
+          sharedMetals: [...sharedMetalsElevated, ...sharedMetalsDepleted],
+          sharedTaxa: [...sharedTaxaEnriched, ...sharedTaxaDepleted],
+          sharedEcological,
+          sharedVirulence,
+          sharedNutritional: [...sharedNutritionalElevated, ...sharedNutritionalDepleted],
+          details: {
+            metalsElevated: sharedMetalsElevated,
+            metalsDepleted: sharedMetalsDepleted,
+            taxaEnriched: sharedTaxaEnriched,
+            taxaDepleted: sharedTaxaDepleted,
+          }
+        });
+      }
+    }
+  }
+
+  // Sort by overlap score descending
+  pairs.sort((a, b) => b.score - a.score);
+
+  // Compute per-condition associations (for sidebar display on each signature)
+  const perCondition = {};
+  for (const id of sigIds) {
+    const related = pairs
+      .filter(p => p.conditions.includes(id))
+      .map(p => {
+        const otherId = p.conditions[0] === id ? p.conditions[1] : p.conditions[0];
+        const otherName = p.names[0] === signatureData[id].name ? p.names[1] : p.names[0];
+        return {
+          id: otherId,
+          name: otherName,
+          score: p.score,
+          sharedMetals: p.sharedMetals,
+          sharedTaxa: p.sharedTaxa,
+          sharedEcological: p.sharedEcological,
+          sharedVirulence: p.sharedVirulence,
+        };
+      })
+      .sort((a, b) => b.score - a.score);
+    perCondition[id] = related;
+  }
+
+  // Hierarchical cluster detection: use a high threshold so we get
+  // meaningful sub-clusters (estrobolome, neurodegeneration, gut inflammation)
+  // rather than one mega-cluster. Conditions can appear in multiple clusters
+  // if they bridge two groups (which is itself an interesting finding).
+  const maxScore = pairs.length > 0 ? pairs[0].score : 0;
+  const highThreshold = maxScore * 0.7;  // tight clusters
+  const midThreshold = maxScore * 0.55;  // broader groupings
+  const clusters = [];
+
+  // Pass 1: tight clusters (high overlap)
+  const tightClusters = [];
+  for (const pair of pairs) {
+    if (pair.score < highThreshold) continue;
+    const [a, b] = pair.conditions;
+    let found = null;
+    for (const cluster of tightClusters) {
+      if (cluster.members.has(a) || cluster.members.has(b)) {
+        // Only merge if the new member also has high overlap with existing members
+        const newMember = cluster.members.has(a) ? b : a;
+        const existingMembers = Array.from(cluster.members);
+        const avgOverlap = existingMembers.reduce((sum, m) => {
+          const p = pairs.find(p =>
+            (p.conditions[0] === m && p.conditions[1] === newMember) ||
+            (p.conditions[0] === newMember && p.conditions[1] === m)
+          );
+          return sum + (p ? p.score : 0);
+        }, 0) / existingMembers.length;
+        if (avgOverlap >= midThreshold) {
+          found = cluster;
+          break;
+        }
+      }
+    }
+    if (found) {
+      found.members.add(a);
+      found.members.add(b);
+    } else {
+      tightClusters.push({ members: new Set([a, b]) });
+    }
+  }
+  clusters.push(...tightClusters);
+
+  // Label clusters by dominant shared features
+  const labeledClusters = clusters.map((c, idx) => {
+    const memberIds = Array.from(c.members);
+    // Find most common shared features
+    const metalCounts = {};
+    const taxaCounts = {};
+    const ecoCounts = {};
+    for (const pair of pairs) {
+      if (c.members.has(pair.conditions[0]) && c.members.has(pair.conditions[1])) {
+        for (const m of pair.sharedMetals) metalCounts[m] = (metalCounts[m] || 0) + 1;
+        for (const t of pair.sharedTaxa) taxaCounts[t] = (taxaCounts[t] || 0) + 1;
+        for (const e of pair.sharedEcological) ecoCounts[e] = (ecoCounts[e] || 0) + 1;
+      }
+    }
+    const topMetals = Object.entries(metalCounts).sort((a, b) => b[1] - a[1]).slice(0, 3).map(e => e[0]);
+    const topTaxa = Object.entries(taxaCounts).sort((a, b) => b[1] - a[1]).slice(0, 3).map(e => e[0]);
+    const topEco = Object.entries(ecoCounts).sort((a, b) => b[1] - a[1]).slice(0, 2).map(e => e[0]);
+
+    return {
+      id: `cluster-${idx + 1}`,
+      members: memberIds,
+      memberNames: memberIds.map(id => signatureData[id]?.name || id),
+      dominantMetals: topMetals,
+      dominantTaxa: topTaxa,
+      dominantEcological: topEco,
+    };
+  });
+
+  console.log(`  Associated conditions: ${pairs.length} pairs, ${labeledClusters.length} clusters`);
+
+  return {
+    pairs,
+    perCondition,
+    clusters: labeledClusters,
+    maxScore,
+  };
+}
+
 // ─── Compute Stats ─────────────────────────────────────────────────────
 function computeStats(allPages, sourcesCount) {
   return {
@@ -389,6 +584,7 @@ function main() {
   const graph = buildGraph(visiblePages);
   const evidenceMatrix = buildEvidenceMatrix(allPages); // matrix uses all pages for completeness
   const signatureData = extractSignatures(allPages);
+  const associatedConditions = computeAssociatedConditions(signatureData);
   const stats = computeStats(allPages, sourcesCount);
 
   // ── Backlinks: for each page, find all other pages that link TO it ──
@@ -474,6 +670,7 @@ function main() {
     graph,
     evidenceMatrix,
     signatures: signatureData,
+    associatedConditions,
     sourceLookup,
   };
 
