@@ -8,7 +8,7 @@ authors: [Hashimoto K]
 journal: Molecular Psychiatry
 year: 2023
 doi: "10.1038/s41380-023-02287-6"
-tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, neuropsychiatric-disorders, gut-brain-axis, oral-microbiome, nasal-microbiome, skin-microbiome, depression, schizophrenia, autism, Parkinson-disease, Alzheimer-disease, review]
+tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, neuropsychiatric-disorders, gut-brain-axis, oral-microbiome, nasal-microbiome, skin-microbiome, depression, schizophrenia, autism, Parkinson-disease, Alzheimer-disease, review, salivary-microbiome, H2S, periodontitis]
 platform: wikibiome
 ---
 

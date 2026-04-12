@@ -142,6 +142,7 @@ const GlobalStyles = () => (
     /* Hero scroll indicator */
     @keyframes fadeInUp { 0%,100%{opacity:0.2;transform:translateX(-50%) translateY(0)} 50%{opacity:0.5;transform:translateX(-50%) translateY(6px)} }
 
+
     /* Print styles */
     @media print {
       .no-print { display: none !important; }
@@ -648,8 +649,24 @@ const CATEGORY_IMAGES = {
   defense: '/images/maid-iz-mic-phagegettyimages-1338313552-3840x2160.jpg',
 };
 
+const HERO_SLIDESHOW_IMAGES = [
+  CATEGORY_IMAGES.metal,
+  CATEGORY_IMAGES.microbe,
+  CATEGORY_IMAGES.disease,
+  CATEGORY_IMAGES.mechanism,
+  CATEGORY_IMAGES.defense,
+];
+
 const HeroSection = ({ onNavigate }) => {
   const stats = CONTENT._stats;
+  const [activeIdx, setActiveIdx] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveIdx(i => (i + 1) % HERO_SLIDESHOW_IMAGES.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div style={{
@@ -657,25 +674,29 @@ const HeroSection = ({ onNavigate }) => {
       display: 'flex', flexDirection: 'column', justifyContent: 'center',
       padding: '0 64px',
     }}>
-      {/* Full-bleed background image */}
-      <div style={{
-        position: 'absolute', inset: 0,
-        backgroundImage: `url(${HERO_IMAGE})`,
-        backgroundSize: 'cover', backgroundPosition: 'center',
-      }} />
+      {/* Crossfading background images */}
+      {HERO_SLIDESHOW_IMAGES.map((src, i) => (
+        <div key={src} style={{
+          position: 'absolute', inset: 0,
+          backgroundImage: `url(${src})`,
+          backgroundSize: 'cover', backgroundPosition: 'center',
+          opacity: i === activeIdx ? 1 : 0,
+          transition: 'opacity 1.4s ease-in-out',
+        }} />
+      ))}
 
       {/* Dark overlay for text readability */}
       <div style={{
         position: 'absolute', inset: 0,
-        background: 'linear-gradient(135deg, rgba(10,31,28,0.82) 0%, rgba(13,36,32,0.65) 40%, rgba(15,43,38,0.55) 70%, rgba(10,31,28,0.7) 100%)',
+        background: 'linear-gradient(135deg, rgba(10,31,28,0.85) 0%, rgba(13,36,32,0.72) 40%, rgba(15,43,38,0.60) 70%, rgba(10,31,28,0.75) 100%)',
       }} />
 
-      {/* Large W watermark */}
+      {/* Large W watermark — reduced opacity */}
       <div style={{
         position: 'absolute', right: '-5vw', top: '50%', transform: 'translateY(-50%)',
         fontFamily: "'Libre Baskerville', serif", fontSize: '75vh', fontWeight: 400,
-        color: 'rgba(125, 211, 200, 0.06)', pointerEvents: 'none', userSelect: 'none',
-        lineHeight: 1,
+        color: 'rgba(125, 211, 200, 0.12)', pointerEvents: 'none', userSelect: 'none',
+        lineHeight: 1, zIndex: 5,
       }}>W</div>
 
       <div style={{ position: 'relative', zIndex: 10, maxWidth: '620px' }}>
