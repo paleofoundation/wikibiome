@@ -640,12 +640,12 @@ const LeftSidebar = ({ onNavigate }) => {
    HERO SECTION — dark teal with pattern (no canvas)
    ═══════════════════════════════════════════════════════════════════════════ */
 
-const HERO_IMAGE = '/images/pexels-fayette-reynolds-m-s-181007507-11198527.jpg';
+const HERO_IMAGE = '/images/hero-microbiome-1.jpg';
 const CATEGORY_IMAGES = {
-  metal: '/images/l9aoRlIvk3iN4o5vywp7pyZMPM.webp',
-  microbe: '/images/ai-generated-realistic-image-of-bacteria-microorganisms-macrography-gut-bacteria-good-and-bad-bacteria-microbiome-bacteria-in-the-digestive-system-photo.jpg',
-  disease: '/images/gut-microbiome.jpg',
-  mechanism: '/images/blob.jpg',
+  metal: '/images/hero-microbiome-1.jpg',
+  microbe: '/images/hero-microbiome-2.jpg',
+  disease: '/images/blob.jpg',
+  mechanism: '/images/pexels-fayette-reynolds-m-s-181007507-11198527.jpg',
   defense: '/images/maid-iz-mic-phagegettyimages-1338313552-3840x2160.jpg',
 };
 
