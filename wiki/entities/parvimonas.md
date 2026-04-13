@@ -9,6 +9,12 @@ sources: [qin-2024-consistent-microbiome-signatures-old-young-onset-crc, saito-2
 metal_dependencies: [iron, zinc]
 tags: [pathobiont, oral-origin, CRC-enriched, anaerobe, microbial-biomarker, oral-gut-translocation]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Parvimonas micra CRC oral-gut translocation microbial biomarker"
+wikipedia_differentiation: "Cross-cohort CRC biomarker validation data with iron and zinc dependency and oral-gut translocation mechanism"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Parvimonas

@@ -10,6 +10,12 @@ metal_dependencies: [zinc, iron]
 key_enzymes: [Zn-metalloprotease-BFT, Zn-dependent-DNases]
 tags: [commensal-pathobiont, Crohns-disease, colorectal-cancer, PSA-immunomodulatory, Zn-BFT-toxin]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Bacteroides fragilis zinc metalloprotease BFT toxin colorectal cancer"
+wikipedia_differentiation: "Zinc-dependent BFT metalloprotease mechanism linking metal availability to E-cadherin cleavage and CRC carcinogenesis"
+conditions_enriched_in: [colorectal-cancer, crohns-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Bacteroides fragilis

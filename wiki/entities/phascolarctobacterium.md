@@ -9,6 +9,12 @@ sources: [jiang-2023-gut-microbiome-metabolites-graves, su-2020-gut-microbiota-i
 metal_dependencies: [none confirmed]
 tags: [commensal, propionate-producer, protective, Graves-disease, Mediterranean-diet, succinate-utilizer]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Phascolarctobacterium propionate succinate Graves disease gut"
+wikipedia_differentiation: "Specialized succinate-to-propionate cross-feeding pathway with protective associations in autoimmune thyroid disease and endometriosis"
+conditions_enriched_in: []
+conditions_depleted_in: [graves-disease, endometriosis, hypertension]
+pathogenic_potential: commensal
 ---
 
 # Phascolarctobacterium

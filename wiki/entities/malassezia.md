@@ -9,6 +9,12 @@ sources: [zou-2022-mycobiome-dysbiosis-hypertension-light-chains, qiu-2023-gut-m
 metal_dependencies: [lipid-dependent rather than metal-dependent; possible indirect metal interactions via lipase activity]
 tags: [fungus, skin-commensal, gut-mycobiome, lipid-dependent, CVD-enriched, hypertension-associated, immunomodulatory]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Malassezia gut mycobiome cardiovascular disease hypertension"
+wikipedia_differentiation: "Gut mycobiome enrichment in cardiovascular disease and hypertension beyond skin commensal role with lipid-dependent rather than metal-dependent virulence"
+conditions_enriched_in: [cardiovascular-disease, hypertension, autism-spectrum-disorder]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Malassezia

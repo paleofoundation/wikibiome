@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [metalloid, carcinogen, toxicology, drinking-water]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "arsenic carcinogenesis drinking water health"
+wikipedia_differentiation: "Detailed comparison of arsenic vs nickel vs chromium carcinogenic mechanisms, SAM depletion and methylation paradox in microbiome context, cocarcinogenesis with UV radiation, and DNA repair inhibition pathways"
+dietary_sources: ["rice", "drinking water", "seafood", "poultry", "mushrooms", "fruit juices"]
+tolerable_daily_intake: "0.3-8 µg/kg bw/day (EFSA benchmark dose range)"
+source_count: 1
 ---
 
 # Arsenic (As)

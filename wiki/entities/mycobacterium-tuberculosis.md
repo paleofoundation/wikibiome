@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron, zinc, copper]
 key_enzymes: [NiFe-hydrogenase-Hyc, Ni-urease, mycobactin, carboxymycobactin]
 tags: [pathogen, tuberculosis, intracellular, macrophage-survival, siderophore, global-burden]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Mycobacterium tuberculosis nickel hydrogenase urease mycobactin iron"
+wikipedia_differentiation: "NiFe-hydrogenase and urease for intracellular macrophage survival plus copper intoxication resistance within phagosomes"
+conditions_enriched_in: [tuberculosis]
+conditions_depleted_in: []
+pathogenic_potential: obligate
 ---
 
 # Mycobacterium tuberculosis

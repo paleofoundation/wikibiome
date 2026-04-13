@@ -9,6 +9,12 @@ sources: [bronzini-2023-feeding-gut-microbiome-ms, perez-prieto-2024-gut-microbi
 metal_dependencies: [iron -- iron-sulfur clusters in ferredoxins; cobalt -- B12-dependent enzymes in some species; zinc -- botulinum toxin is a Zn-metalloprotease]
 tags: [mixed-genus, butyrate-producers, pathogens, commensal, context-dependent, depleted-in-disease]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Clostridium gut bacteria iron cobalt butyrate pathogen"
+wikipedia_differentiation: "Species-level resolution of beneficial vs pathogenic Clostridium with metal cofactor profiles for iron-sulfur, cobalt-B12, and zinc-botulinum systems"
+conditions_enriched_in: []
+conditions_depleted_in: [multiple-sclerosis, endometriosis, cardiovascular-disease]
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Clostridium

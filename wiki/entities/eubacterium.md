@@ -9,6 +9,12 @@ sources: [almeida-2023-gut-microbiota-cardiovascular-axis, liu-2019-gut-microbio
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis enzymes]
 tags: [commensal, butyrate-producer, depleted-in-disease, fiber-fermenter, anti-inflammatory]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Eubacterium rectale butyrate producer depleted cardiovascular disease"
+wikipedia_differentiation: "Iron-sulfur cluster dependency for butyrate synthesis with consistent depletion data across inflammatory and cardiometabolic diseases"
+conditions_enriched_in: []
+conditions_depleted_in: [cardiovascular-disease, inflammatory-bowel-disease, colorectal-cancer, type-2-diabetes]
+pathogenic_potential: commensal
 ---
 
 # Eubacterium

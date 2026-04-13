@@ -10,6 +10,12 @@ tags: [pathogen, siderophore, pyoverdine, pyochelin, nickel, iron, lung-infectio
 metal_dependencies: [iron, zinc, manganese, copper]
 key_enzymes: [pyoverdine (siderophore), pyochelin (siderophore), elastase/LasB (Zn-metalloprotease), alkaline protease (Zn-dependent), MnSOD, Cu/Zn-SOD]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Pseudomonas aeruginosa pyoverdine siderophore metal tolerance cystic fibrosis"
+wikipedia_differentiation: "Dual-use siderophore system (pyoverdine/pyochelin) for iron acquisition and toxic metal chelation with zinc-metalloprotease virulence profile"
+conditions_enriched_in: [cystic-fibrosis-lung-infection, wound-infections, nosocomial-infections]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Pseudomonas aeruginosa

@@ -9,6 +9,12 @@ sources: [hanus-2021-immune-microbiota-metabolites-crc-triad, islam-2022-opposin
 metal_dependencies: [iron -- obligate iron requirement for growth; uses FeoB iron transporter]
 tags: [pathobiont, CRC-driver, oral-gut-translocation, iron-dependent, immune-evasion, biofilm-former]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Fusobacterium colorectal cancer iron FeoB oral-gut translocation"
+wikipedia_differentiation: "FeoB iron transporter dependency for tumor colonization with meta-analysis data as most consistently CRC-enriched genus across 45 cancer studies"
+conditions_enriched_in: [colorectal-cancer, inflammatory-bowel-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Fusobacterium

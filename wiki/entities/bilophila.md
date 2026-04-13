@@ -9,6 +9,12 @@ sources: [mcleod-2023-bridge-crc-mediterranean-diet-trial, montgomery-2024-micro
 metal_dependencies: [iron -- Fe-S clusters in dissimilatory sulfite reductase (dsrAB); molybdenum -- Mo-cofactor in taurine dehydrogenase]
 tags: [pathobiont, sulfate-reducing, H2S-producer, taurine-metabolizer, high-fat-diet-enriched, IBD-associated, CVD-associated]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Bilophila wadsworthia hydrogen sulfide taurine high fat diet"
+wikipedia_differentiation: "Iron-sulfur and molybdenum-dependent taurine-to-H2S pathway linking high-fat diet bile acid conjugation to gut inflammation"
+conditions_enriched_in: [inflammatory-bowel-disease, cardiovascular-disease, multiple-sclerosis, autism-spectrum-disorder]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Bilophila

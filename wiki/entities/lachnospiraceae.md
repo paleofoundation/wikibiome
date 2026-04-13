@@ -9,6 +9,12 @@ sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, toya-20
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis enzymes; sensitive to heavy metal perturbation]
 tags: [family-level, sentinel-family, SCFA-producers, depleted-in-disease, butyrate-producers, dysbiosis-marker]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Lachnospiraceae butyrate dysbiosis sentinel gut microbiome"
+wikipedia_differentiation: "Universal dysbiosis sentinel status with iron-sulfur cluster dependency for butyrate synthesis and depletion data across every major disease category"
+conditions_enriched_in: []
+conditions_depleted_in: [cardiovascular-disease, colorectal-cancer, parkinsons-disease, inflammatory-bowel-disease, obesity]
+pathogenic_potential: commensal
 ---
 
 # Lachnospiraceae

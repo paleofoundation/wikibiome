@@ -12,6 +12,12 @@ metal_dependencies: [iron, zinc, manganese]
 key_enzymes: [gingipains-RgpA-RgpB-Kgp, hemin-binding-proteins, iron-acquisition-systems]
 tags: [periodontal-disease, alzheimers-disease, cardiovascular-disease, keystone-pathogen, Zn-gingipains, iron-heme-acquisition]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Porphyromonas gingivalis gingipains zinc iron Alzheimer's periodontitis"
+wikipedia_differentiation: "Zinc-dependent gingipain protease mechanism linking periodontal pathogen to Alzheimer's neuroinflammation and atherosclerosis with metal dependency profile"
+conditions_enriched_in: [periodontitis, alzheimers-disease, cardiovascular-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Porphyromonas gingivalis

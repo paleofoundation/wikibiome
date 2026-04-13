@@ -9,6 +9,12 @@ sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, hanus-202
 metal_dependencies: [iron -- iron-dependent growth; ROS generation linked to iron metabolism]
 tags: [pathobiont, CRC-enriched, iron-dependent, NF-kB-activator, cholesterol-biosynthesis, periodontal-disease, oral-gut-axis]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Peptostreptococcus anaerobius colorectal cancer iron ROS NF-kB"
+wikipedia_differentiation: "Iron-dependent ROS generation and cholesterol biosynthesis induction driving CRC carcinogenesis with NF-kB activation mechanism"
+conditions_enriched_in: [colorectal-cancer, periodontal-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Peptostreptococcus

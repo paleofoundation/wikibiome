@@ -21,7 +21,7 @@ const viteConfig = fs.readFileSync(path.join(__dirname, '..', 'vite.config.js'),
 const distMatch = viteConfig.match(/outDir:\s*['"]([^'"]+)['"]/);
 const DIST_DIR = path.join(__dirname, '..', distMatch ? distMatch[1] : 'dist');
 
-const DOMAIN = 'https://wikibiome.com';
+const DOMAIN = 'https://www.wikibiome.com';
 const GA_MEASUREMENT_ID = 'G-H480L4E9JF';
 const GA_SNIPPET = `
   <!-- Google tag (gtag.js) -->

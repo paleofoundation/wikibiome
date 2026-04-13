@@ -12,6 +12,12 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [succinate-synthase, formate-acetyltransferase, lactate-permease]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Dialister depression gut-brain axis succinate producer"
+wikipedia_differentiation: "Strongest single-genus protective association in depression research with dual gut-brain and periodontal health roles"
+conditions_enriched_in: []
+conditions_depleted_in: [depression, anxiety, neurodevelopmental-disorders]
+pathogenic_potential: commensal
 ---
 
 # Dialister

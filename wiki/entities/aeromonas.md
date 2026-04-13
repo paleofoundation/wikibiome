@@ -10,6 +10,12 @@ gram_stain: "negative"
 oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [iron, zinc]
 key_enzymes: [aerolysin, metalloprotease, siderophores]
+last_substantive_update: 2026-04-13
+seo_target: "Aeromonas hydrophila iron siderophore gut dysbiosis"
+wikipedia_differentiation: "Iron-dependent virulence regulation and siderophore-mediated competitive advantage in dysbiotic gut signatures"
+conditions_enriched_in: [gastroenteritis, dysbiosis]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 **Aeromonas** is a genus of Gram-negative, facultatively anaerobic bacteria found in aquatic environments and, increasingly recognized as an opportunistic gut pathogen. Several species — particularly *Aeromonas hydrophila*, *A. veronii*, and *A. caviae* — are associated with gastrointestinal illness, dysbiosis, and, in immunocompromised hosts, systemic infection. Within the gut microbiome literature, *Aeromonas* is increasingly observed as an enriched organism in dysbiotic signatures.

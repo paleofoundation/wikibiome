@@ -12,6 +12,12 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [urolithin-synthesis-pathway, lactonase]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Gordonibacter urolithinfaciens urolithin A polyphenol metabolism"
+wikipedia_differentiation: "Iron-dependent ellagic acid to urolithin A conversion pathway linking dietary polyphenol bioactivation to cardiovascular protection"
+conditions_enriched_in: []
+conditions_depleted_in: [cardiovascular-disease]
+pathogenic_potential: commensal
 ---
 
 # Gordonibacter urolithinfaciens

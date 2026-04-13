@@ -12,6 +12,12 @@ metal_dependencies: [iron]
 key_enzymes: [iron-acquisition-siderophores, glycoside-hydrolases, fiber-degrading-carbohydrate-active-enzymes]
 tags: [rheumatoid-arthritis, metabolic-syndrome, context-dependent-pathobiont, fiber-degrader, iron-acquisition]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Prevotella copri rheumatoid arthritis iron gut microbiome"
+wikipedia_differentiation: "Context-dependent commensal-pathobiont spectrum with iron-modulated pathogenic potential in rheumatoid arthritis and metabolic syndrome"
+conditions_enriched_in: [rheumatoid-arthritis, metabolic-syndrome]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Prevotella copri

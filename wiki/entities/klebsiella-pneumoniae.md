@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron, zinc]
 key_enzymes: [Ni-urease, Ni-GloI, yersiniabactin]
 tags: [pathogen, UTI, pneumonia, sepsis, NEC, antibiotic-resistance, ESKAPE]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Klebsiella pneumoniae nickel urease yersiniabactin ESKAPE"
+wikipedia_differentiation: "Dual nickel enzymes (urease + GloI) with yersiniabactin metallophore scavenging both iron and nickel in NEC and UTI pathogenesis"
+conditions_enriched_in: [urinary-tract-infection, pneumonia, necrotizing-enterocolitis, sepsis]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Klebsiella pneumoniae

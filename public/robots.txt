@@ -14,4 +14,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://wikibiome.com/sitemap.xml
+Sitemap: https://www.wikibiome.com/sitemap.xml

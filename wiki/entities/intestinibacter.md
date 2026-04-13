@@ -9,6 +9,12 @@ sources: [dai-2024-gut-microbiota-cvd-bidirectional-mr, xiang-2023-host-gene-mic
 metal_dependencies: [iron, cobalt]
 tags: [pathobiont, spore-forming, context-dependent, CVD-protective, CRC-risk, understudied]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Intestinibacter bartlettii gut microbiome CVD colorectal cancer"
+wikipedia_differentiation: "Contradictory Mendelian randomization data showing CVD-protective but CRC-risk associations with iron and cobalt dependency"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: [cardiovascular-disease]
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Intestinibacter

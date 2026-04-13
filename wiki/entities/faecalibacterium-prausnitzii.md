@@ -10,6 +10,12 @@ metal_dependencies: [indirect -- iron-sulfur cluster enzymes for butyrate produc
 key_enzymes: [butyryl-CoA dehydrogenase, butyrate kinase]
 tags: [commensal, next-generation-probiotic, butyrate-producer, anti-inflammatory, depleted-in-disease, arsenic-protection]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Faecalibacterium prausnitzii butyrate arsenic protection gut barrier"
+wikipedia_differentiation: "Direct arsenic toxicity protection data from gnotobiotic mouse models plus iron-sulfur dependency for butyrate synthesis across 10+ disease depletions"
+conditions_enriched_in: []
+conditions_depleted_in: [crohns-disease, ulcerative-colitis, obesity, type-2-diabetes, parkinsons-disease, multiple-sclerosis, colorectal-cancer, cardiovascular-disease]
+pathogenic_potential: commensal
 ---
 
 # Faecalibacterium prausnitzii

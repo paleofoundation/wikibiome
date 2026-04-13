@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [zhai-2016-probiotics-cadmium.md, rasin-2025-cadmium-exposure-health-review.md, tarhonska-2022-cadmium-breast-cancer-mechanisms.md, cheng-2021-cadmium-enterococcus-metabolic.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, aquino-2012-cadmium-nickel-metalloestrogens.md, kuo-2024-low-level-lead-cadmium-ckd-mortality.md, rebelo-2021-enterococcus-metal-antibiotic-resistance.md, zhang-2022-metallomics-cancer-review.md]
 tags: [heavy-metal, toxicology, gut-barrier, probiotics, nephrotoxicity, metalloestrogen, breast-cancer, bone, antibiotic-resistance, baby-food]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "cadmium gut microbiome kidney toxicity health"
+wikipedia_differentiation: "Probiotic protection model against Cd gut barrier disruption, Enterococcus metabolic reprogramming under Cd stress (47% genome response), metal-antibiotic co-resistance on mobile genetic elements, and Cd-Zn mis-metallation in disease systems"
+dietary_sources: ["shellfish", "rice", "mushrooms", "leafy vegetables", "organ meats", "cocoa", "tobacco"]
+tolerable_daily_intake: "0.36 µg/kg bw/day (EFSA TWI of 2.5 µg/kg bw/week)"
+source_count: 9
 ---
 
 # Cadmium (Cd)

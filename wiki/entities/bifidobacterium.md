@@ -10,6 +10,12 @@ metal_dependencies: [manganese, iron -- for core metabolism; Ni-urease in some s
 key_enzymes: [Ni-urease (some species), metal-binding surface proteins]
 tags: [commensal, probiotic, infant-colonizer, metal-binding, depleted-in-disease, SCFA-producer]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Bifidobacterium heavy metal binding probiotic nickel urease"
+wikipedia_differentiation: "Metal-binding surface proteins for heavy metal detoxification plus unusual Ni-urease in select species linking to NEC protection"
+conditions_enriched_in: []
+conditions_depleted_in: [obesity, type-2-diabetes, necrotizing-enterocolitis, inflammatory-bowel-disease]
+pathogenic_potential: commensal
 ---
 
 # Bifidobacterium

@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron, copper]
 key_enzymes: [Ni-urease, laccase]
 tags: [pathogen, fungal, meningitis, HIV-AIDS, brain-invasion, immunocompromised, urease-Achilles-heel]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Cryptococcus neoformans nickel urease brain invasion meningitis"
+wikipedia_differentiation: "Nickel-urease as Achilles heel for brain invasion with infection metallomics framework for diagnostic and therapeutic targeting"
+conditions_enriched_in: [cryptococcal-meningitis, HIV-AIDS]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Cryptococcus neoformans

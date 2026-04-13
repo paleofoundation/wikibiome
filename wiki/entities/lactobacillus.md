@@ -10,6 +10,12 @@ metal_dependencies: [manganese, iron -- for core metabolism; not Ni-dependent]
 key_enzymes: [Mn-SOD, lactate dehydrogenase, metal-binding surface proteins]
 tags: [commensal, probiotic, metal-detoxification, anti-inflammatory, depleted-by-metals, MS, NEC-protective]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Lactobacillus heavy metal detoxification probiotic cadmium lead"
+wikipedia_differentiation: "Metal-binding surface protein quantification for cadmium, lead, and arsenic biosorption with preferential depletion under metal exposure"
+conditions_enriched_in: []
+conditions_depleted_in: [multiple-sclerosis, inflammatory-bowel-disease, obesity, necrotizing-enterocolitis]
+pathogenic_potential: commensal
 ---
 
 # Lactobacillus

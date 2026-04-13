@@ -12,6 +12,12 @@ metal_dependencies: [iron]
 key_enzymes: [histidine-decarboxylase, iron-dependent-metabolic-enzymes]
 tags: [gram-negative, anaerobe, histamine-producer, gut-dysbiosis, obesity, metabolic-syndrome, mast-cell-activation, inflammation]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Allisonella histamine gut bacteria obesity mast cell"
+wikipedia_differentiation: "Bacterial histidine decarboxylase pathway bypassing host histamine regulation, linking microbial histamine to mast cell activation in obesity"
+conditions_enriched_in: [obesity, metabolic-syndrome]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Allisonella

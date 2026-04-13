@@ -12,6 +12,12 @@ metal_dependencies: [iron, zinc]
 key_enzymes: [iron-acquisition-systems, mucin-degrading-glycosidases, polysaccharide-biosynthesis-enzymes]
 tags: [crohns-disease, depression, multiple-sclerosis, inflammatory-polysaccharide-producer, mucin-degrader, dysbiosis-marker]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Ruminococcus gnavus inflammatory polysaccharide Crohn's depression MS"
+wikipedia_differentiation: "Species-specific inflammatory polysaccharide activating innate lymphoid cells with iron and zinc modulated pathogenic potential"
+conditions_enriched_in: [crohns-disease, depression, multiple-sclerosis]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Ruminococcus gnavus

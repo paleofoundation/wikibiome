@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads.md, salnikov-2008-metal-carcinogenesis.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md, romero-espejel-2013-streptococcus-pneumoniae-iron.md, roberts-2019-lactoferrin-genital-infections-iron.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, scholefield-2024-brain-metallomics-dementia.md, tian-2020-iron-supplementation-ppd-protocol.md, azami-2019-anemia-ppd-meta-analysis.md, etebary-2010-ppd-serum-trace-elements.md, brylinski-2025-trace-elements-thyroid-diseases.md, kravchenko-2023-thyroid-hormones-minerals-AITD.md, lim-2023-plasma-metallomics-ami.md, khan-2014-metals-type2-diabetes.md, saleh-2020-serum-trace-elements-prostate-cancer.md, zhang-2022-metallomics-cancer-review.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, patil-2021-infection-metallomics-critical-care.md, chin-chan-2015-environmental-pollutants-ad-pd.md]
 tags: [essential-metal, transition-metal, ferroptosis, nutritional-immunity, iron-homeostasis, anemia, iron-overload, toxicology]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "iron microbiome ferroptosis nutritional immunity"
+wikipedia_differentiation: "Iron as centerpiece of nutritional immunity with pathogen-specific acquisition systems (S. aureus siderophores, S. pneumoniae heme), ferroptosis as convergent cell death mechanism across gut-brain-kidney, iron supplementation effects on gut microbiome composition, and pheomelanin-neuromelanin iron sequestration hypothesis in PD"
+dietary_sources: ["red meat", "liver", "fish", "legumes", "fortified cereals", "spinach", "tofu"]
+tolerable_daily_intake: "45 mg/day (IOM UL); no EFSA UL established"
+source_count: 21
 ---
 
 # Iron (Fe)

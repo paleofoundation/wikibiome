@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [niehoff-2021-metals-breast-cancer-toenail.md, smovrsnik-2025-trace-elements-pcos.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements.md, xie-2025-urinary-metals-trace-elements-kidney-function.md, fan-2024-heavy-metal-arthritis-machine-learning.md]
 tags: [essential-element, trace-element, molybdoenzymes, xanthine-oxidase, sulfite-oxidase, breast-cancer-protective, PCOS]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "molybdenum breast cancer protection xanthine oxidase PCOS"
+wikipedia_differentiation: "Inverse Mo-breast cancer association from Sister Study (largest prospective metal-cancer study), Mo depletion in PCOS with Cu-Mo antagonism mechanism, xanthine oxidase as Mo-dependent endogenous ROS source, and Mo overexposure in baby food at 4x recommended values"
+dietary_sources: ["legumes", "grains", "nuts", "leafy vegetables"]
+tolerable_daily_intake: "0.6 mg/day (EFSA UL); 2 mg/day (IOM UL)"
+source_count: 6
 ---
 
 # Molybdenum (Mo)

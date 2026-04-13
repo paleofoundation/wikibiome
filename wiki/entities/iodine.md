@@ -10,6 +10,12 @@ symbol: "I"
 atomic_number: 53
 primary_exposure: "Diet (seafood, iodized salt, dairy, seaweed), water"
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "iodine thyroid gut microbiome autoimmunity"
+wikipedia_differentiation: "Iodine-gut microbiome axis (excess iodine shifts microbiota toward Proteobacteria mirroring Hashimoto's signature), selenium-iodine-iron triple interaction in thyroid function, heavy metal interference with iodide NIS uptake creating functional iodine insufficiency, and U-shaped dose-response with autoimmunity"
+dietary_sources: ["seafood (cod, seaweed)", "iodized salt", "dairy", "eggs", "bread"]
+tolerable_daily_intake: "600 µg/day (EFSA UL); 1,100 µg/day (IOM UL)"
+source_count: 4
 ---
 
 # Iodine (I)

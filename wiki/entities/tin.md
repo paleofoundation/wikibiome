@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [atsdr-2005-tin-toxicological-profile.md, eu-scf-2001-tin-canned-foods.md, lehmler-2018-tin-exposure-nhanes-us-population.md, niehoff-2021-metals-breast-cancer-toenail.md, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements.md, de-almeida-2022-toxic-metals-infant-formula-brazil.md, meli-2024-baby-food-chemical-characterization-italy.md, eu-2020-drinking-water-directive.md, onyeneto-2015-trace-metals-fruit-juices-nigeria.md]
 tags: [non-essential-metal, canned-food, food-safety, organotin, endocrine-disruptor, gastric-irritation, NHANES, regulatory]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "tin canned food exposure organotin health effects"
+wikipedia_differentiation: "NHANES population-level tin exposure data (87-91% detection), age-race-income disparities in urinary tin, dual inorganic/organotin toxicological profiles, tributyltin as PPARgamma obesogen, and canned food tin leaching mechanisms vs lacquered can protection"
+dietary_sources: ["canned foods (tomatoes, fruits, beverages)", "baby food jars", "infant formula", "fruit juices"]
+tolerable_daily_intake: "14 mg/kg bw/day (EFSA/JECFA PTWI); gastric irritation threshold 150 mg/kg in beverages, 250 mg/kg in other foods"
+source_count: 9
 ---
 
 # Tin (Sn)

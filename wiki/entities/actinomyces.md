@@ -9,6 +9,12 @@ sources: [boussamet-2024-oral-microbiota-metabolite-signature-ms, saito-2019-met
 metal_dependencies: [nickel -- A. naeslundii uses Ni-dependent urease for acid tolerance in oral biofilms]
 tags: [pathobiont, oral-origin, Ni-urease, dental-caries, actinomycosis, oral-gut-translocation]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Actinomyces naeslundii nickel urease oral biofilm"
+wikipedia_differentiation: "Nickel-dependent urease system for acid tolerance in oral biofilms linking to oral-gut translocation in CRC and MS"
+conditions_enriched_in: [colorectal-cancer, multiple-sclerosis, endometriosis]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Actinomyces

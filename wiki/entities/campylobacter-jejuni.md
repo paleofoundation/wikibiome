@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron]
 key_enzymes: [NiFe-hydrogenase]
 tags: [pathogen, diarrheal-disease, foodborne, chicken-colonization, no-urease]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Campylobacter jejuni nickel hydrogenase diarrheal disease"
+wikipedia_differentiation: "NiFe-hydrogenase colonization dependency without urease — contrasting with H. pylori nickel biology and cadmium enrichment data"
+conditions_enriched_in: [gastroenteritis, campylobacteriosis]
+conditions_depleted_in: []
+pathogenic_potential: obligate
 ---
 
 # Campylobacter jejuni

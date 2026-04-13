@@ -1951,345 +1951,248 @@ const SignaturesView = ({ onNavigate, selectedDisease }) => {
 };
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   ASSOCIATED CONDITIONS — Network showing shared signatures between diseases
+   ASSOCIATED CONDITIONS — Descriptive panel showing WHY conditions cluster
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const ConditionClusterCard = ({ diseaseId, onNavigate, onSelectDisease }) => {
   const assocData = CONTENT.associatedConditions || {};
   const related = (assocData.perCondition || {})[diseaseId] || [];
   const maxScore = assocData.maxScore || 1;
-  const [hoveredCondition, setHoveredCondition] = useState(null);
 
   if (related.length === 0) return null;
+  const displayed = related.slice(0, 6);
 
-  // SVG radial layout: current condition in center, related conditions around it
-  const width = 500, height = 380;
-  const cx = width / 2, cy = height / 2;
-  const radius = 140;
-  const displayCount = Math.min(related.length, 8);
-  const displayed = related.slice(0, displayCount);
-
-  const nodes = displayed.map((r, i) => {
-    const angle = (i / displayCount) * 2 * Math.PI - Math.PI / 2;
-    const strength = r.score / maxScore;
-    // Pull high-overlap conditions closer to center
-    const dist = radius * (1 - strength * 0.35);
-    return {
-      ...r,
-      x: cx + Math.cos(angle) * dist,
-      y: cy + Math.sin(angle) * dist,
-      strength,
-    };
-  });
-
-  const formatName = (name) => {
-    if (name.length > 16) return name.substring(0, 14) + '…';
-    return name;
-  };
+  const pill = (text, bg, fg) => (
+    <span style={{ display: 'inline-block', padding: '2px 7px', borderRadius: '3px', fontSize: '10.5px', fontWeight: 500, backgroundColor: bg, color: fg, marginRight: '4px', marginBottom: '3px', lineHeight: '16px' }}>
+      {text.replace(/-/g, ' ')}
+    </span>
+  );
 
   return (
     <div style={{ backgroundColor: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '10px', padding: '24px' }}>
       <h3 style={{ fontSize: '14px', fontWeight: 700, marginBottom: '4px', color: P.text, fontFamily: "'Inter', sans-serif" }}>
-        <span style={{ color: P.teal, marginRight: '8px' }}>⬡</span> Associated Conditions
+        Associated Conditions
       </h3>
-      <p style={{ fontSize: '11px', color: P.textMuted, marginBottom: '16px', lineHeight: 1.5 }}>
-        Conditions clustering by shared metallomic and taxonomic signatures. Line thickness = overlap strength.
+      <p style={{ fontSize: '12px', color: P.textMuted, marginBottom: '20px', lineHeight: 1.5 }}>
+        These conditions share metal-dependent pathogens and ecological disruptions with this signature.
       </p>
-      <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} style={{ display: 'block', width: '100%', height: 'auto' }}>
-        {/* Connection lines */}
-        {nodes.map((node, i) => {
-          const isHov = hoveredCondition === node.id;
-          const strokeWidth = 1 + node.strength * 4;
-          const opacity = hoveredCondition ? (isHov ? 0.7 : 0.15) : 0.35;
-          return (
-            <line key={`link-${i}`} x1={cx} y1={cy} x2={node.x} y2={node.y}
-              stroke={isHov ? P.teal : P.amber}
-              strokeWidth={isHov ? strokeWidth + 1 : strokeWidth}
-              strokeOpacity={opacity}
-              strokeLinecap="round"
-            />
-          );
-        })}
 
-        {/* Center node (current condition) */}
-        <circle cx={cx} cy={cy} r={28} fill={P.teal} fillOpacity={0.15} stroke={P.teal} strokeWidth={2.5} />
-        <text x={cx} y={cy - 4} textAnchor="middle" fontSize="10" fontWeight="700" fill={P.ink} fontFamily="Inter, sans-serif">Current</text>
-        <text x={cx} y={cy + 9} textAnchor="middle" fontSize="9" fontWeight="500" fill={P.teal} fontFamily="Inter, sans-serif">Condition</text>
-
-        {/* Related condition nodes */}
-        {nodes.map((node, i) => {
-          const isHov = hoveredCondition === node.id;
-          const nodeRadius = 20 + node.strength * 10;
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+        {displayed.map((item, idx) => {
+          const strength = item.score / maxScore;
+          const barWidth = Math.max(strength * 100, 8);
           return (
-            <g key={`node-${i}`}
-              style={{ cursor: 'pointer' }}
-              onMouseEnter={() => setHoveredCondition(node.id)}
-              onMouseLeave={() => setHoveredCondition(null)}
-              onClick={() => onSelectDisease ? onSelectDisease(node.id) : null}
+            <div key={item.id}
+              onClick={() => onSelectDisease ? onSelectDisease(item.id) : null}
+              style={{
+                display: 'grid', gridTemplateColumns: '170px 1fr', gap: '16px', alignItems: 'start',
+                padding: '14px 0', cursor: 'pointer',
+                borderBottom: idx < displayed.length - 1 ? `1px solid ${P.bg}` : 'none',
+              }}
             >
-              <circle cx={node.x} cy={node.y} r={nodeRadius}
-                fill={isHov ? P.teal : P.amber}
-                fillOpacity={isHov ? 0.2 : 0.1}
-                stroke={isHov ? P.teal : P.amber}
-                strokeWidth={isHov ? 2 : 1.5}
-                strokeOpacity={isHov ? 1 : 0.6}
-              />
-              <text x={node.x} y={node.y + 1} textAnchor="middle" dominantBaseline="middle"
-                fontSize="9.5" fontWeight="600" fill={isHov ? P.teal : P.ink}
-                fontFamily="Inter, sans-serif" pointerEvents="none"
-              >
-                {formatName(node.name)}
-              </text>
-            </g>
+              {/* Left: name + overlap bar */}
+              <div>
+                <div style={{ fontSize: '13px', fontWeight: 600, color: P.ink, marginBottom: '6px', lineHeight: 1.3 }}>{item.name}</div>
+                <div style={{ position: 'relative', height: '4px', backgroundColor: P.bg, borderRadius: '2px', overflow: 'hidden' }}>
+                  <div style={{ position: 'absolute', left: 0, top: 0, height: '100%', width: `${barWidth}%`, backgroundColor: P.teal, borderRadius: '2px', opacity: 0.6 }} />
+                </div>
+                <div style={{ fontSize: '10px', color: P.textMuted, marginTop: '3px' }}>{Math.round(strength * 100)}% signature overlap</div>
+              </div>
+
+              {/* Right: shared elements */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                {item.sharedMetals.length > 0 && (
+                  <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
+                    <span style={{ fontSize: '10px', fontWeight: 600, color: P.amber, width: '46px', flexShrink: 0, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Metals</span>
+                    <div>{item.sharedMetals.map(m => pill(m, P.amberBg, P.amberDark))}</div>
+                  </div>
+                )}
+                {item.sharedTaxa.length > 0 && (
+                  <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
+                    <span style={{ fontSize: '10px', fontWeight: 600, color: '#dc2626', width: '46px', flexShrink: 0, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Taxa</span>
+                    <div>{item.sharedTaxa.slice(0, 4).map(t => pill(t.replace(/\b\w/g, c => c.toUpperCase()), '#fef2f2', '#991b1b'))}</div>
+                  </div>
+                )}
+                {item.sharedEcological.length > 0 && (
+                  <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
+                    <span style={{ fontSize: '10px', fontWeight: 600, color: P.patina, width: '46px', flexShrink: 0, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Eco</span>
+                    <div>{item.sharedEcological.map(e => pill(e, P.tealLight, P.tealHover))}</div>
+                  </div>
+                )}
+              </div>
+            </div>
           );
         })}
-      </svg>
-
-      {/* Hover detail panel */}
-      {hoveredCondition && (() => {
-        const node = nodes.find(n => n.id === hoveredCondition);
-        if (!node) return null;
-        return (
-          <div style={{ marginTop: '12px', padding: '12px', backgroundColor: P.bg, borderRadius: '8px', fontSize: '12px', lineHeight: 1.6 }}>
-            <div style={{ fontWeight: 700, color: P.ink, marginBottom: '6px' }}>{node.name}</div>
-            <div style={{ color: P.textMuted, marginBottom: '4px' }}>
-              <span style={{ fontWeight: 600, color: P.amber }}>Shared metals:</span>{' '}
-              {node.sharedMetals.length > 0 ? node.sharedMetals.map(m => m.replace(/-/g, ' ')).join(', ') : 'none'}
-            </div>
-            <div style={{ color: P.textMuted, marginBottom: '4px' }}>
-              <span style={{ fontWeight: 600, color: P.crimson || '#dc2626' }}>Shared taxa:</span>{' '}
-              {node.sharedTaxa.length > 0 ? node.sharedTaxa.map(t => t.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())).join(', ') : 'none'}
-            </div>
-            {node.sharedEcological.length > 0 && (
-              <div style={{ color: P.textMuted }}>
-                <span style={{ fontWeight: 600, color: P.patina }}>Shared ecology:</span>{' '}
-                {node.sharedEcological.map(e => e.replace(/-/g, ' ')).join(', ')}
-              </div>
-            )}
-            <div style={{ marginTop: '6px', fontSize: '11px', color: P.teal, fontWeight: 600 }}>
-              Overlap score: {node.score}/{maxScore} ({Math.round(node.strength * 100)}%)
-            </div>
-          </div>
-        );
-      })()}
+      </div>
     </div>
   );
 };
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   CLUSTER MAP VIEW — Full network of all 13 conditions by signature overlap
+   CLUSTER MAP VIEW — Condition × Condition overlap heatmap
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const ClusterMapView = ({ onNavigate }) => {
-  const svgRef = useRef(null);
-  const containerRef = useRef(null);
-  const [dimensions, setDimensions] = useState({ width: 900, height: 600 });
-  const [hoveredNode, setHoveredNode] = useState(null);
-  const [hoveredLink, setHoveredLink] = useState(null);
-
   const assocData = CONTENT.associatedConditions || {};
   const signatures = CONTENT.signatures || {};
   const pairs = assocData.pairs || [];
-  const clusters = assocData.clusters || [];
   const maxScore = assocData.maxScore || 1;
+  const [hovered, setHovered] = useState(null);
 
-  useEffect(() => {
-    const measure = () => {
-      if (containerRef.current) {
-        const rect = containerRef.current.getBoundingClientRect();
-        setDimensions({ width: rect.width, height: Math.max(500, rect.height) });
-      }
-    };
-    measure();
-    window.addEventListener('resize', measure);
-    return () => window.removeEventListener('resize', measure);
+  // Build ordered list of conditions
+  const conditions = useMemo(() => {
+    return Object.entries(signatures).map(([id, sig]) => ({
+      id, name: sig.name,
+      metals: sig.metallomicSignature?.elevated || [],
+    }));
   }, []);
 
-  useEffect(() => {
-    if (!svgRef.current || Object.keys(signatures).length === 0) return;
-    const { width, height } = dimensions;
+  // Build lookup for pair data
+  const pairLookup = useMemo(() => {
+    const lookup = {};
+    for (const p of pairs) {
+      const key = [p.conditions[0], p.conditions[1]].sort().join('|');
+      lookup[key] = p;
+    }
+    return lookup;
+  }, [pairs]);
 
-    // Create nodes from signatures
-    const nodes = Object.entries(signatures).map(([id, sig]) => ({
-      id,
-      label: sig.name,
-      paperCount: sig.paperCount || 0,
-      elevatedMetals: sig.metallomicSignature?.elevated || [],
-    }));
+  const getPair = (a, b) => {
+    const key = [a, b].sort().join('|');
+    return pairLookup[key] || null;
+  };
 
-    // Create links from pairs — only show pairs with significant overlap
-    const minDisplay = maxScore * 0.25;
-    const links = pairs
-      .filter(p => p.score >= minDisplay)
-      .map(p => ({
-        source: p.conditions[0],
-        target: p.conditions[1],
-        score: p.score,
-        strength: p.score / maxScore,
-        sharedMetals: p.sharedMetals,
-        sharedTaxa: p.sharedTaxa,
-        sharedEcological: p.sharedEcological,
-      }));
+  if (conditions.length === 0) return <div style={{ padding: '40px' }}>No condition data available</div>;
 
-    // Cluster color assignment
-    const clusterColors = [P.teal, P.amber, '#8b5cf6', '#ec4899', '#06b6d4', '#84cc16'];
-    const nodeCluster = {};
-    clusters.forEach((c, ci) => {
-      c.members.forEach(m => {
-        if (!nodeCluster[m]) nodeCluster[m] = ci;
-      });
-    });
+  const cellSize = 52;
+  const leftPad = 180;
+  const topPad = 190;
+  const svgW = leftPad + conditions.length * cellSize + 40;
+  const svgH = topPad + conditions.length * cellSize + 80;
 
-    const svg = d3.select(svgRef.current);
-    svg.selectAll('*').remove();
-    const g = svg.append('g');
-    svg.call(d3.zoom().scaleExtent([0.4, 3]).on('zoom', (event) => g.attr('transform', event.transform)));
-
-    const simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links).id(d => d.id).distance(d => 180 * (1 - d.strength * 0.5)).strength(d => 0.3 + d.strength * 0.5))
-      .force('charge', d3.forceManyBody().strength(-400))
-      .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide(50))
-      .force('x', d3.forceX(width / 2).strength(0.04))
-      .force('y', d3.forceY(height / 2).strength(0.04));
-
-    // Links
-    const linkGroup = g.append('g');
-    const link = linkGroup.selectAll('line')
-      .data(links)
-      .enter().append('line')
-      .attr('stroke', P.amber)
-      .attr('stroke-opacity', d => 0.15 + d.strength * 0.5)
-      .attr('stroke-width', d => 1 + d.strength * 5)
-      .attr('stroke-linecap', 'round')
-      .style('cursor', 'pointer');
-
-    // Nodes
-    const nodeGroup = g.append('g').selectAll('g')
-      .data(nodes)
-      .enter().append('g')
-      .style('cursor', 'pointer')
-      .on('click', (e, d) => {
-        e.stopPropagation();
-        onNavigate({ view: 'signatures', disease: d.id });
-      })
-      .call(d3.drag()
-        .on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
-        .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
-        .on('end', (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
-      );
-
-    // Node circles
-    nodeGroup.append('circle')
-      .attr('r', d => 24 + Math.sqrt(d.paperCount || 1) * 2)
-      .attr('fill', d => {
-        const ci = nodeCluster[d.id];
-        return ci !== undefined ? clusterColors[ci % clusterColors.length] : P.textMuted;
-      })
-      .attr('fill-opacity', 0.12)
-      .attr('stroke', d => {
-        const ci = nodeCluster[d.id];
-        return ci !== undefined ? clusterColors[ci % clusterColors.length] : P.textMuted;
-      })
-      .attr('stroke-width', 2)
-      .attr('stroke-opacity', 0.7);
-
-    // Node labels
-    nodeGroup.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('dominant-baseline', 'middle')
-      .attr('font-size', '10.5px')
-      .attr('font-weight', '600')
-      .attr('fill', P.ink)
-      .attr('font-family', 'Inter, sans-serif')
-      .attr('pointer-events', 'none')
-      .text(d => d.label.length > 20 ? d.label.substring(0, 18) + '…' : d.label);
-
-    // Metal badges under each node
-    nodeGroup.each(function(d) {
-      const metals = d.elevatedMetals.slice(0, 3);
-      d3.select(this).append('text')
-        .attr('text-anchor', 'middle')
-        .attr('dy', (24 + Math.sqrt(d.paperCount || 1) * 2) + 14)
-        .attr('font-size', '8.5px')
-        .attr('fill', P.textMuted)
-        .attr('font-family', 'Inter, sans-serif')
-        .attr('pointer-events', 'none')
-        .text(metals.join(' · '));
-    });
-
-    simulation.on('tick', () => {
-      link
-        .attr('x1', d => d.source.x)
-        .attr('y1', d => d.source.y)
-        .attr('x2', d => d.target.x)
-        .attr('y2', d => d.target.y);
-      nodeGroup.attr('transform', d => `translate(${d.x},${d.y})`);
-    });
-
-    // Hover handlers (using React state via closure)
-    nodeGroup
-      .on('mouseenter', (e, d) => setHoveredNode(d))
-      .on('mouseleave', () => setHoveredNode(null));
-
-    link
-      .on('mouseenter', (e, d) => setHoveredLink(d))
-      .on('mouseleave', () => setHoveredLink(null));
-
-    return () => simulation.stop();
-  }, [dimensions, pairs.length]);
+  const cellColor = (score) => {
+    if (!score || score === 0) return P.bg;
+    const t = score / maxScore;
+    if (t <= 0.3) return `rgba(13, 148, 136, ${0.08 + t * 0.2})`;
+    if (t <= 0.6) return `rgba(13, 148, 136, ${0.14 + t * 0.3})`;
+    if (t <= 0.8) return `rgba(13, 148, 136, ${0.25 + t * 0.35})`;
+    return `rgba(13, 148, 136, ${0.4 + t * 0.45})`;
+  };
 
   return (
-    <div style={{ backgroundColor: P.bg, minHeight: 'calc(100vh - 52px)', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ padding: '20px 24px', backgroundColor: P.white, borderBottom: `1px solid ${P.borderLight}` }}>
-        <h2 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '24px', fontWeight: 700, color: P.ink, margin: 0 }}>
-          Condition Cluster Map
-        </h2>
-        <p style={{ fontSize: '13px', color: P.textMuted, margin: '6px 0 0 0', maxWidth: '700px', lineHeight: 1.6 }}>
-          Diseases cluster because they share the same metal-dependent pathogens and ecological disruptions.
-          Proximity = signature overlap. Click a condition to view its full signature.
-        </p>
-        {clusters.length > 0 && (
-          <div style={{ display: 'flex', gap: '12px', marginTop: '12px', flexWrap: 'wrap' }}>
-            {clusters.map((c, ci) => {
-              const colors = [P.teal, P.amber, '#8b5cf6', '#ec4899', '#06b6d4', '#84cc16'];
+    <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '40px 20px' }}>
+      <h1 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '30px', fontWeight: 700, marginBottom: '8px', color: P.ink }}>
+        Condition Cluster Map
+      </h1>
+      <p style={{ color: P.textMuted, marginBottom: '8px', fontSize: '14px', maxWidth: '680px', lineHeight: 1.6 }}>
+        Diseases cluster because they share the same metal-dependent pathogens and ecological disruptions. Color intensity shows the degree of overlap in metallomic signatures, enriched taxa, and ecological features.
+      </p>
+      <p style={{ color: P.textMuted, marginBottom: '28px', fontSize: '12px' }}>
+        Hover any cell to see exactly which metals, taxa, and ecological features two conditions share. Click to view the signature.
+      </p>
+
+      <div style={{ backgroundColor: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '10px', padding: '24px', overflowX: 'auto', position: 'relative' }}>
+        <svg width={svgW} height={svgH} style={{ display: 'block' }}>
+          {/* Column headers (rotated) */}
+          {conditions.map((c, j) => {
+            const x = leftPad + j * cellSize + cellSize / 2;
+            const y = topPad - 12;
+            return <text key={`col-${j}`} x={x} y={y} textAnchor="start" fontSize="11" fontWeight="600" fill={P.ink} fontFamily="Inter, sans-serif" transform={`rotate(-55 ${x} ${y})`}>{c.name}</text>;
+          })}
+
+          {/* Row labels */}
+          {conditions.map((c, i) => (
+            <text key={`row-${i}`} x={leftPad - 10} y={topPad + i * cellSize + cellSize / 2} textAnchor="end" dominantBaseline="middle" fontSize="12" fontWeight="600" fill={P.ink} fontFamily="Inter, sans-serif"
+              style={{ cursor: 'pointer' }}
+              onClick={() => onNavigate({ view: 'signatures', disease: c.id })}
+            >{c.name}</text>
+          ))}
+
+          {/* Matrix cells */}
+          {conditions.map((rowC, ri) =>
+            conditions.map((colC, ci) => {
+              if (ri === ci) {
+                // Diagonal — self
+                return <rect key={`cell-${ri}-${ci}`} x={leftPad + ci * cellSize} y={topPad + ri * cellSize} width={cellSize} height={cellSize} fill={P.tealLight} stroke={P.borderLight} strokeWidth={0.5} rx="2" />;
+              }
+              const pair = getPair(rowC.id, colC.id);
+              const score = pair ? pair.score : 0;
+              const isHov = hovered && ((hovered.row === ri && hovered.col === ci) || (hovered.row === ci && hovered.col === ri));
               return (
-                <div key={c.id} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', color: P.textMuted }}>
-                  <span style={{ width: 10, height: 10, borderRadius: '50%', backgroundColor: colors[ci % colors.length], display: 'inline-block', opacity: 0.7 }} />
-                  <span>{c.dominantMetals.slice(0, 2).join('/')} + {c.dominantTaxa.slice(0, 1).map(t => t.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())).join('')}</span>
-                  <span style={{ color: P.border }}>({c.memberNames.length})</span>
-                </div>
+                <rect key={`cell-${ri}-${ci}`}
+                  x={leftPad + ci * cellSize} y={topPad + ri * cellSize}
+                  width={cellSize} height={cellSize}
+                  fill={cellColor(score)}
+                  stroke={isHov ? P.teal : P.borderLight}
+                  strokeWidth={isHov ? 2 : 0.5}
+                  rx="2"
+                  style={{ cursor: score > 0 ? 'pointer' : 'default' }}
+                  onMouseEnter={() => score > 0 && setHovered({ row: ri, col: ci, pair, score })}
+                  onMouseLeave={() => setHovered(null)}
+                  onClick={() => score > 0 && onNavigate({ view: 'signatures', disease: rowC.id })}
+                />
               );
-            })}
-          </div>
-        )}
-      </div>
-      <div ref={containerRef} style={{ flex: 1, position: 'relative', margin: '12px', minHeight: '500px' }}>
-        <svg ref={svgRef} width={dimensions.width} height={dimensions.height}
-          viewBox={`0 0 ${dimensions.width} ${dimensions.height}`}
-          style={{ width: '100%', height: '100%', backgroundColor: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '10px', display: 'block' }}
-        />
-        {hoveredNode && (
-          <div style={{ position: 'absolute', bottom: '16px', left: '16px', backgroundColor: P.white, padding: '14px 18px', borderRadius: '10px', border: `1px solid ${P.borderLight}`, boxShadow: '0 4px 16px rgba(0,0,0,0.1)', fontSize: '13px', maxWidth: '320px', zIndex: 10 }}>
-            <div style={{ fontWeight: 700, color: P.ink, marginBottom: '4px', fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '15px' }}>{hoveredNode.label}</div>
-            <div style={{ fontSize: '11px', color: P.textMuted, marginBottom: '6px' }}>{hoveredNode.paperCount} papers · Elevated: {hoveredNode.elevatedMetals.join(', ')}</div>
-            <div style={{ fontSize: '11px', color: P.teal }}>Click to view full signature →</div>
-          </div>
-        )}
-        {hoveredLink && (
-          <div style={{ position: 'absolute', bottom: '16px', right: '16px', backgroundColor: P.white, padding: '14px 18px', borderRadius: '10px', border: `1px solid ${P.borderLight}`, boxShadow: '0 4px 16px rgba(0,0,0,0.1)', fontSize: '12px', maxWidth: '350px', zIndex: 10, lineHeight: 1.6 }}>
-            <div style={{ fontWeight: 700, color: P.ink, marginBottom: '6px' }}>
-              {hoveredLink.source.label || '?'} ↔ {hoveredLink.target.label || '?'}
+            })
+          )}
+
+          {/* Score labels in cells */}
+          {conditions.map((rowC, ri) =>
+            conditions.map((colC, ci) => {
+              if (ri === ci) return null;
+              const pair = getPair(rowC.id, colC.id);
+              const score = pair ? pair.score : 0;
+              if (score === 0) return null;
+              const pct = Math.round((score / maxScore) * 100);
+              return (
+                <text key={`lbl-${ri}-${ci}`}
+                  x={leftPad + ci * cellSize + cellSize / 2}
+                  y={topPad + ri * cellSize + cellSize / 2}
+                  textAnchor="middle" dominantBaseline="middle"
+                  fontSize="10" fontWeight="600"
+                  fill={pct > 60 ? P.white : P.teal}
+                  fontFamily="Inter, sans-serif"
+                  pointerEvents="none"
+                >{pct}%</text>
+              );
+            })
+          )}
+
+          {/* Legend */}
+          <g transform={`translate(${leftPad}, ${topPad + conditions.length * cellSize + 30})`}>
+            <text fontSize="11" fill={P.textMuted} y="0" dominantBaseline="middle">Low overlap</text>
+            {[0, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.0].map((t, i) => (
+              <rect key={i} x={80 + i * 28} y={-8} width={28} height={16} rx="2" fill={cellColor(t * maxScore)} stroke={P.borderLight} strokeWidth="0.5" />
+            ))}
+            <text fontSize="11" fill={P.textMuted} x={80 + 8 * 28 + 10} y="0" dominantBaseline="middle">High overlap</text>
+          </g>
+        </svg>
+
+        {/* Hover detail */}
+        {hovered && hovered.pair && (
+          <div style={{ position: 'absolute', bottom: '16px', right: '16px', backgroundColor: P.white, padding: '16px 20px', borderRadius: '10px', border: `1px solid ${P.borderLight}`, boxShadow: '0 4px 16px rgba(0,0,0,0.1)', fontSize: '12px', maxWidth: '380px', zIndex: 10, lineHeight: 1.7 }}>
+            <div style={{ fontWeight: 700, color: P.ink, marginBottom: '8px', fontSize: '14px' }}>
+              {hovered.pair.names[0]} ↔ {hovered.pair.names[1]}
             </div>
-            <div style={{ color: P.textMuted }}>
-              <span style={{ fontWeight: 600, color: P.amber }}>Metals:</span> {hoveredLink.sharedMetals.map(m => m.replace(/-/g, ' ')).join(', ') || 'none'}
-            </div>
-            <div style={{ color: P.textMuted }}>
-              <span style={{ fontWeight: 600, color: '#dc2626' }}>Taxa:</span> {hoveredLink.sharedTaxa.map(t => t.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())).join(', ') || 'none'}
-            </div>
-            {hoveredLink.sharedEcological.length > 0 && <div style={{ color: P.textMuted }}><span style={{ fontWeight: 600, color: P.patina }}>Ecology:</span> {hoveredLink.sharedEcological.map(e => e.replace(/-/g, ' ')).join(', ')}</div>}
-            <div style={{ marginTop: '4px', fontWeight: 600, color: P.teal, fontSize: '11px' }}>
-              Overlap: {Math.round(hoveredLink.strength * 100)}%
+            {hovered.pair.sharedMetals.length > 0 && (
+              <div style={{ marginBottom: '4px' }}>
+                <span style={{ fontWeight: 600, color: P.amber, fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Shared metals: </span>
+                <span style={{ color: P.text }}>{hovered.pair.sharedMetals.map(m => m.replace(/-/g, ' ')).join(', ')}</span>
+              </div>
+            )}
+            {hovered.pair.sharedTaxa.length > 0 && (
+              <div style={{ marginBottom: '4px' }}>
+                <span style={{ fontWeight: 600, color: '#dc2626', fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Shared taxa: </span>
+                <span style={{ color: P.text }}>{hovered.pair.sharedTaxa.map(t => t.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())).join(', ')}</span>
+              </div>
+            )}
+            {hovered.pair.sharedEcological.length > 0 && (
+              <div style={{ marginBottom: '4px' }}>
+                <span style={{ fontWeight: 600, color: P.patina, fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Shared ecology: </span>
+                <span style={{ color: P.text }}>{hovered.pair.sharedEcological.map(e => e.replace(/-/g, ' ')).join(', ')}</span>
+              </div>
+            )}
+            <div style={{ marginTop: '6px', fontWeight: 600, color: P.teal, fontSize: '12px' }}>
+              {Math.round((hovered.score / maxScore) * 100)}% signature overlap
             </div>
           </div>
         )}

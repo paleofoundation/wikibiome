@@ -9,6 +9,12 @@ sources: [bronzini-2023-feeding-gut-microbiome-ms, svensson-2021-endometriosis-g
 metal_dependencies: [iron -- some species are iron-dependent for heme acquisition]
 tags: [commensal, pathobiont, context-dependent, fiber-fermenter, depleted-in-MS, depleted-in-PD]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Prevotella fiber diet gut microbiome enterotype context-dependent"
+wikipedia_differentiation: "Context-dependent effects with species-level resolution linking iron-dependent heme acquisition to commensal vs pathogenic roles"
+conditions_enriched_in: []
+conditions_depleted_in: [multiple-sclerosis, parkinsons-disease]
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Prevotella

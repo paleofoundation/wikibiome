@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [brock-2015-selenium-thyroid-autoimmunity.md, brylinski-2025-trace-elements-thyroid-diseases.md, kravchenko-2023-thyroid-hormones-minerals-AITD.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, scholefield-2024-brain-metallomics-dementia.md, lim-2023-plasma-metallomics-ami.md, saleh-2020-serum-trace-elements-prostate-cancer.md, zhang-2022-metallomics-cancer-review.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, smovrsnik-2025-trace-elements-pcos.md, hopfner-2025-infant-formula-dietary-exposure-elements-germany.md, shearston-2024-tampons-metal-exposure.md]
 tags: [essential-element, selenoproteins, antioxidant, thyroid, cancer-protective, biomarker, toxicology]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "selenium thyroid autoimmunity ferroptosis cancer protection"
+wikipedia_differentiation: "Selenoprotein-mediated ferroptosis resistance (GPX4 as master regulator), Se-thyroid autoimmunity axis with RCT evidence for anti-TPO reduction, Cu/Se ratio as cardiovascular biomarker, Se-Hg and Se-Cd detoxification interactions, and consistent Se depletion as pan-cancer metallomic finding"
+dietary_sources: ["Brazil nuts", "seafood", "organ meats", "cereals", "eggs", "dairy"]
+tolerable_daily_intake: "300 µg/day (EFSA UL); 400 µg/day (IOM UL)"
+source_count: 12
 ---
 
 # Selenium (Se)

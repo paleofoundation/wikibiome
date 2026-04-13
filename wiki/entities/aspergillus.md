@@ -9,6 +9,12 @@ sources: [patil-2021-infection-metallomics-critical-care, radojevic-2023-microbi
 metal_dependencies: [iron -- essential for growth; acquired via siderophores TAFC, ferricrocin, coprogen]
 tags: [fungus, pathobiont, iron-dependent, siderophore-producer, aspergillosis, mycobiome, infection-biomarker]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Aspergillus fumigatus iron siderophore infection metallomics"
+wikipedia_differentiation: "Infection metallomics framework linking siderophore diagnostics (TAFC, ferricrocin) to iron-dependent virulence in ICU patients"
+conditions_enriched_in: [invasive-aspergillosis, immunocompromised-infections]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Aspergillus

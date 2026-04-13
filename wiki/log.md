@@ -2,6 +2,9 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-13] v2 migration | Metal entity pages (Priority 3a — 18 metals)
+Upgraded all metal entity frontmatter to v2: added seo_target, wikipedia_differentiation, last_substantive_update, source_count, dietary_sources, tolerable_daily_intake where missing.
+
 ## [2026-04-13] v2 migration | Disease entity pages (Priority 2)
 Upgraded all disease entity frontmatter to v2: added associated_conditions, shared_signature_metals, shared_signature_taxa, seo_target, wikipedia_differentiation, last_substantive_update.
 

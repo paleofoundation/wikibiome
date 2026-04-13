@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [sugimoto-2024-zinc-deficiency-cancer-review.md, blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, tizabi-2023-lead-gut-microbiota-asd.md, khan-2014-metals-type2-diabetes.md, zhang-2022-metallomics-cancer-review.md, liu-2022-heavy-metals-breast-cancer-meta-analysis.md, ali-2024-heavy-metals-breast-cancer-review.md, saleh-2020-serum-trace-elements-prostate-cancer.md, schilling-2020-urine-metallomics-pancreatic-cancer.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, scholefield-2024-brain-metallomics-dementia.md, kirmizi-2020-heavy-metals-pcos.md, hiremath-2021-zinc-ppd-case-control.md, aoki-2022-zinc-supplementation-ppd-anemia.md, huang-2024-zinc-intake-endometriosis-risk.md, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome.md, amerikanou-2022-ibd-biomarkers-trace-metals.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, smovrsnik-2025-trace-elements-pcos.md, arshad-2023-heavy-metals-rheumatoid-arthritis.md, lim-2023-plasma-metallomics-ami.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis.md, zhou-2025-hair-heavy-metals-asd-severity.md, stanton-2021-metallome-omes-link-asd.md, bolte-2019-environmental-exposure-asd-etiology.md, rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental.md]
 tags: [essential-element, dual-nature, zinc-deficiency, immune-function, antioxidant, cancer-protective, neurodevelopment, insulin-signaling]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "zinc deficiency microbiome cancer immune function"
+wikipedia_differentiation: "Zinc as unifying mechanism in ASD via toxic metal competition for 10% of human proteome, zinc-gut barrier function and microbiome modulation, SHANK3 scaffold zinc dependence in synaptic signaling, ZIP8 A391T Crohn's variant and microbiome shifts, and Zn isotope fractionation as novel cancer biomarker"
+dietary_sources: ["red meat", "shellfish (oysters)", "legumes", "nuts", "seeds", "whole grains", "dairy"]
+tolerable_daily_intake: "25 mg/day (EFSA UL); 40 mg/day (IOM UL)"
+source_count: 29
 ---
 
 # Zinc (Zn)

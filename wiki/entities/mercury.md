@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, althomali-2024-heavy-metals-neurocognitive-systematic-review.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, kirmizi-2020-heavy-metals-pcos.md, lin-2023-heavy-metals-infertility-nhanes.md, rokoff-2023-metal-mixtures-maternal-depression.md, fan-2024-heavy-metal-arthritis-machine-learning.md, NOTE-evaluation-risk-ptes-italy-fish-products.md, smovrsnik-2025-trace-elements-pcos.md]
 tags: [heavy-metal, neurotoxin, nephrotoxin, thiol-binding, methylmercury, purely-toxic]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "mercury methylmercury gut microbiome neurotoxicity"
+wikipedia_differentiation: "Mercury-induced gut barrier disruption (claudin, occludin, ZO-1 downregulation), Hg-resistant gut bacteria from dental amalgam, Lactobacillus protective mechanisms against Hg gut damage, and fish consumption paradox in neurodegeneration"
+dietary_sources: ["fish (tuna, swordfish, shark)", "shellfish", "dental amalgam fillings"]
+tolerable_daily_intake: "1.3 µg/kg bw/week MeHg (EFSA TWI); 4 µg/kg bw/week inorganic Hg"
+source_count: 16
 ---
 
 # Mercury (Hg)

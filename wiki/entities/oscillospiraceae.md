@@ -12,6 +12,12 @@ metal_dependencies: [iron, zinc]
 key_enzymes: [butyrate-synthesis, acetyl-CoA-transferase, butyryl-CoA-dehydrogenase]
 tags: [gram-positive, anaerobe, butyrate-producer, SCFA, probiotic-candidate, oscillospira, next-gen-probiotic, obesity-depleted, IBD-depleted, iron-zinc-dependent]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Oscillospiraceae butyrate obesity IBD next-generation probiotic"
+wikipedia_differentiation: "Iron and zinc dependency for butyrate synthesis with consistent depletion across obesity, IBD, CRC, and next-generation probiotic candidacy"
+conditions_enriched_in: []
+conditions_depleted_in: [obesity, inflammatory-bowel-disease, colorectal-cancer]
+pathogenic_potential: commensal
 ---
 
 # Oscillospiraceae

@@ -9,6 +9,12 @@ sources: [rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, strati
 metal_dependencies: [none well-characterized; enriched by heavy metal exposure]
 tags: [pathobiont, enriched-in-disease, bile-acid-deconjugator, gut-permeability, atherosclerosis, metal-enriched]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Collinsella aerofaciens atherosclerosis heavy metal gut permeability"
+wikipedia_differentiation: "Heavy metal exposure enrichment data across multiple metals linking bile acid deconjugation to increased gut permeability and atherosclerosis"
+conditions_enriched_in: [atherosclerosis, cardiovascular-disease, rheumatoid-arthritis, autism-spectrum-disorder]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Collinsella

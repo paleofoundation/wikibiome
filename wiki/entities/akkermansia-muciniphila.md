@@ -10,6 +10,12 @@ metal_dependencies: [indirect -- sensitive to metal perturbation]
 key_enzymes: [mucin-degrading glycosidases]
 tags: [commensal, next-generation-probiotic, mucin-degrading, gut-barrier, depleted-in-disease, metal-sensitive]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Akkermansia muciniphila gut health heavy metal sensitivity"
+wikipedia_differentiation: "Quantitative depletion data across 8+ diseases with metal-specific sensitivity profiles for cadmium, lead, and nickel"
+conditions_enriched_in: []
+conditions_depleted_in: [crohns-disease, obesity, type-2-diabetes, parkinsons-disease, autism-spectrum-disorder]
+pathogenic_potential: commensal
 ---
 
 # Akkermansia muciniphila

@@ -9,6 +9,12 @@ sources: [su-2020-gut-microbiota-immune-imbalance-graves, liu-2023-colorectal-ca
 metal_dependencies: [none confirmed]
 tags: [commensal, bile-acid-metabolism, tryptophan-metabolism, mixed-disease-associations, CRC-enriched, anti-inflammatory-species]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Alistipes gut microbiome colorectal cancer bile acid metabolism"
+wikipedia_differentiation: "Context-dependent disease associations with species-level resolution across CRC, CVD, Graves disease, and ASD"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: [graves-disease, cardiovascular-disease]
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Alistipes

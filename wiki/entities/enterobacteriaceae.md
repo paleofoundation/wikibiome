@@ -9,6 +9,12 @@ sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, jie-201
 metal_dependencies: [iron -- siderophore-mediated acquisition is central to virulence; nickel -- Ni-dependent urease and hydrogenase; zinc -- Zn-dependent metalloproteases]
 tags: [pathogen-family, iron-dependent, siderophore-producers, dysbiosis-bloom, LPS-producers, metal-resistant, antibiotic-resistance]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Enterobacteriaceae dysbiosis bloom iron siderophore gut microbiome"
+wikipedia_differentiation: "Iron-siderophore competitive advantage framework explaining dysbiosis bloom across virtually every disease state with metal-antibiotic co-resistance data"
+conditions_enriched_in: [colorectal-cancer, cardiovascular-disease, parkinsons-disease, inflammatory-bowel-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Enterobacteriaceae

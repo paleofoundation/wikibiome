@@ -9,6 +9,12 @@ sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, zangeneh-
 metal_dependencies: [zinc -- Zn-dependent gingipain proteases; iron -- hemin acquisition for growth and porphyrin ring]
 tags: [pathobiont, periodontal-pathogen, zinc-dependent, iron-dependent, CVD-associated, Alzheimers-linked, oral-gut-axis, CRC-enriched]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Porphyromonas zinc gingipain iron heme periodontal systemic disease"
+wikipedia_differentiation: "Zinc-gingipain and iron-heme dual metal dependency connecting oral-gut-systemic disease axis across CVD, Alzheimer's, and CRC"
+conditions_enriched_in: [periodontitis, cardiovascular-disease, alzheimers-disease, colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Porphyromonas

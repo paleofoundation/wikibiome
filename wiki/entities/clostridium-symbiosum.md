@@ -12,6 +12,12 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [bile-acid-metabolizing-enzymes, butyrate-CoA-transferase, acetyl-CoA-C-acetyltransferase]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Clostridium symbiosum colorectal cancer bile acid iron"
+wikipedia_differentiation: "Secondary bile acid production pathway driving CRC carcinogenesis with iron-dependent metabolic activation data"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Clostridium symbiosum

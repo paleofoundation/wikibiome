@@ -9,6 +9,12 @@ tags: [commensal, polysaccharide-utilization, zinc-dependent, gut-barrier, symbi
 gram_stain: "negative"
 oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [zinc, iron]
+last_substantive_update: 2026-04-13
+seo_target: "Bacteroides thetaiotaomicron polysaccharide zinc gut symbiont"
+wikipedia_differentiation: "Zinc-dependent polysaccharide utilization linking metal availability to fermentative capacity and host-microbe symbiotic signaling"
+conditions_enriched_in: []
+conditions_depleted_in: [inflammatory-bowel-disease]
+pathogenic_potential: commensal
 ---
 
 **Bacteroides thetaiotaomicron** is one of the most abundant and metabolically versatile commensals of the human gut. It is a Gram-negative obligate anaerobe in the family *Bacteroidaceae* and a member of the dominant *Bacteroides* genus. It plays a central role in polysaccharide fermentation, mucosal layer maintenance, and symbiotic host-microbe signaling.

@@ -9,6 +9,12 @@ sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, appunni-2
 metal_dependencies: [iron -- iron-sulfur clusters central to sulfate reduction; nickel -- [NiFe]-hydrogenase in some species; molybdenum -- in some sulfate reductases]
 tags: [pathobiont, sulfate-reducer, H2S-producer, metal-dependent, enriched-in-disease, barrier-disruptor]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Desulfovibrio hydrogen sulfide iron sulfate reducing gut inflammation"
+wikipedia_differentiation: "Iron-sulfur and nickel-NiFe hydrogenase dependency for sulfate reduction with H2S cytotoxicity data across endometriosis, CVD, and Parkinson's"
+conditions_enriched_in: [endometriosis, cardiovascular-disease, parkinsons-disease, colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Desulfovibrio

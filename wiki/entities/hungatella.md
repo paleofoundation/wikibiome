@@ -9,6 +9,12 @@ sources: [altinok-dindar-2023-gut-microbiota-breast-cancer-diet, qin-2024-consis
 metal_dependencies: [iron, selenium]
 tags: [pathobiont, CRC-enriched, breast-cancer-enriched, TMA-producer, TMAO-precursor, recently-described]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Hungatella hathewayi TMA TMAO colorectal cancer breast cancer"
+wikipedia_differentiation: "Iron and selenium dependency with TMA/TMAO production linking cancer-associated pathobiont to cardiovascular-cancer metabolic axis"
+conditions_enriched_in: [colorectal-cancer, breast-cancer, cardiovascular-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Hungatella

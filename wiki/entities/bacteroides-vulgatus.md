@@ -12,6 +12,12 @@ metal_dependencies: [iron, zinc]
 key_enzymes: [beta-glucuronidase, iron-acquisition-siderophores, zinc-metalloproteases]
 tags: [commensal-pathobiont, colorectal-cancer, depression, dysbiosis-marker, beta-glucuronidase, iron-siderophores]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Bacteroides vulgatus iron siderophore colorectal cancer depression"
+wikipedia_differentiation: "Iron-scavenging specialist with beta-glucuronidase activity linking metal-driven competitive advantage to CRC and depression enrichment"
+conditions_enriched_in: [colorectal-cancer, depression]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Bacteroides vulgatus

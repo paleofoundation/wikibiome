@@ -9,6 +9,12 @@ sources: [han-2022-berberine-methimazole-graves-microbiome, fujimoto-2022-human-
 metal_dependencies: [manganese -- Mn-dependent superoxide dismutase; zinc -- Zn-dependent peptidases for casein degradation]
 tags: [probiotic, food-grade, GRAS, nisin-producer, fermented-foods, therapeutic-delivery-vehicle]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Lactococcus lactis nisin probiotic therapeutic delivery"
+wikipedia_differentiation: "Manganese-SOD and zinc-peptidase dependency with therapeutic protein delivery vehicle applications beyond standard dairy probiotic profile"
+conditions_enriched_in: []
+conditions_depleted_in: [colorectal-cancer, autism-spectrum-disorder]
+pathogenic_potential: commensal
 ---
 
 # Lactococcus

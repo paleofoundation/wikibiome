@@ -12,6 +12,12 @@ metal_dependencies: [iron]
 key_enzymes: [siderophore-uptake, proteases, hemolysin, biofilm-matrix-synthesis]
 tags: [gram-negative, anaerobe, iron-dependent, oral-microbiome, gut-pathobiont, biofilm, colorectal-cancer, translocation]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Leptotrichia oral gut translocation colorectal cancer iron biofilm"
+wikipedia_differentiation: "Iron-dependent biofilm formation enabling oral-gut translocation with CRC tissue enrichment data"
+conditions_enriched_in: [colorectal-cancer, periodontal-disease]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Leptotrichia

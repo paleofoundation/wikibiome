@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [racette-2017-manganese-parkinsonism-welders.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, ahmed-2025-metals-alzheimers-mechanistic-review.md, mhaibes-2017-blood-metals-pcos-obese.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements.md, hopfner-2025-infant-formula-dietary-exposure-elements-germany.md, zhu-2024-toxic-essential-metals-gut-microbiota.md, brylinski-2025-trace-elements-thyroid-diseases.md, scholefield-2024-brain-metallomics-dementia.md, khan-2014-metals-type2-diabetes.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, saleh-2020-serum-trace-elements-prostate-cancer.md, jacobson-2022-environmental-chemicals-perinatal-psychopathology.md, chin-chan-2015-environmental-pollutants-ad-pd.md, bakulski-2020-heavy-metals-alzheimers-dementias.md]
 tags: [essential-metal, transition-metal, neurotoxicity, parkinsonism, occupational-exposure, toxicology]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "manganese neurotoxicity gut microbiome parkinsonism"
+wikipedia_differentiation: "Mn-gut-brain axis disruption (FMT alleviating Mn-induced neurotoxicity), calprotectin-mediated Mn sequestration from S. aureus as nutritional immunity mechanism, dose-dependent welding parkinsonism with UPDRS3 quantification, and Mn in baby food at 40x recommended values"
+dietary_sources: ["grains", "legumes", "nuts", "tea", "leafy vegetables", "whole grains"]
+tolerable_daily_intake: "11 mg/day (IOM UL)"
+source_count: 17
 ---
 
 # Manganese (Mn)

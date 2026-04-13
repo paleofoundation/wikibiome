@@ -10,6 +10,12 @@ tags: [pathogen, nickel, urease, urinary-tract-infection, catheter, biofilm, str
 metal_dependencies: [nickel, iron, zinc, manganese]
 key_enzymes: [urease (Ni-dependent — major virulence factor), zinc-metalloprotease (ZapA), siderophores (proteobactin, yersiniabactin-like)]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Proteus mirabilis nickel urease catheter UTI struvite kidney stones"
+wikipedia_differentiation: "39% histidine accessory protein for nickel handling and urease-mediated struvite crystallization mechanism in CAUTI pathogenesis"
+conditions_enriched_in: [catheter-associated-UTI, kidney-stones]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Proteus mirabilis

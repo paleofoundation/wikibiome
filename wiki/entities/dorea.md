@@ -9,6 +9,12 @@ sources: [radojevic-2023-microbiome-gut-brain-axis-ms, saresella-2020-fatty-acid
 metal_dependencies: [none confirmed]
 tags: [mixed, Lachnospiraceae, MS-biomarker, formate-producer, enriched-in-autoimmunity]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Dorea multiple sclerosis autoimmunity gut biomarker"
+wikipedia_differentiation: "Consistent enrichment in autoimmune conditions especially MS with formate production linking to immune activation"
+conditions_enriched_in: [multiple-sclerosis, colorectal-cancer, cardiovascular-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Dorea

@@ -12,6 +12,12 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, zinc]
 key_enzymes: [cellulosome-complex, glycoside-hydrolases, endoglucanases, exoglucanases]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Ruminococcus albus cellulosome fiber degradation gut microbiome"
+wikipedia_differentiation: "Iron and zinc dependent cellulosome complex for fiber degradation with Western diet depletion data and restoration intervention potential"
+conditions_enriched_in: []
+conditions_depleted_in: [obesity, metabolic-syndrome]
+pathogenic_potential: commensal
 ---
 
 # Ruminococcus albus

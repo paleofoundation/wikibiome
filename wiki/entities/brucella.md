@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron]
 key_enzymes: [Ni-urease]
 tags: [pathogen, zoonotic, brucellosis, urease-vaccine-target]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Brucella nickel urease vaccine target zoonosis"
+wikipedia_differentiation: "Urease immunization protection data establishing Ni-dependent enzymes as viable vaccine targets for zoonotic pathogens"
+conditions_enriched_in: [brucellosis]
+conditions_depleted_in: []
+pathogenic_potential: obligate
 ---
 
 # Brucella

@@ -12,6 +12,12 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, nickel]
 key_enzymes: [adhesins, proteases, siderophore-receptors, biofilm-matrix-proteins]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Parvimonas micra colorectal cancer biomarker oral-gut iron"
+wikipedia_differentiation: "Iron piracy and biofilm nucleation in CRC with strongest single-taxon biomarker specificity across multiple large cohorts and geographic regions"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Parvimonas micra

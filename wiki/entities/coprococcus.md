@@ -9,6 +9,12 @@ sources: [saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-
 metal_dependencies: [cobalt -- B12-dependent metabolic pathways; sensitive to heavy metal disruption]
 tags: [commensal, butyrate-producer, depleted-in-depression, depleted-in-MS, depleted-in-IBD, mental-health, happiness-bug, metal-sensitive]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Coprococcus butyrate depression happiness gut-brain axis"
+wikipedia_differentiation: "Population-level mental health association data with cobalt-B12 dependency and heavy metal sensitivity profiling"
+conditions_enriched_in: []
+conditions_depleted_in: [depression, multiple-sclerosis, inflammatory-bowel-disease, colorectal-cancer]
+pathogenic_potential: commensal
 ---
 
 # Coprococcus

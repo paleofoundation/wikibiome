@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [transition-metal, carcinogen, DNA-damage, toxicology]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "chromium hexavalent carcinogen DNA damage health"
+wikipedia_differentiation: "Detailed ascorbate paradox in Cr(VI) reduction, ternary Cr-DNA adduct formation mechanisms, mismatch repair inhibition creating selection model, and comparative carcinogenic mechanisms across metals"
+dietary_sources: ["broccoli", "grape juice", "whole grains", "potatoes", "meat", "drinking water"]
+tolerable_daily_intake: "300 µg/day Cr(III) (IOM adequate intake); no safe threshold for Cr(VI)"
+source_count: 1
 ---
 
 # Chromium (Cr)

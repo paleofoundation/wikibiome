@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [klotz-2017-aluminum-health-effects-review.md, redgrove-2019-prescription-infant-formulas-aluminium.md, ibrahim-2022-aluminum-exposure-infant-formulas-lebanon.md, de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility.md, de-paiva-2020-aluminium-infant-foods-bioaccessibility.md, hopfner-2025-infant-formula-dietary-exposure-elements-germany.md, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements.md, armstrong-2024-alzheimers-extrinsic-factors-development.md, chin-chan-2015-environmental-pollutants-ad-pd.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, bakulski-2025-heavy-metals-late-onset-alzheimers.md, meli-2024-chemical-characterization-baby-food-italy.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md]
 tags: [non-essential-metal, neurotoxicity, alzheimers-disease, infant-formula, baby-food, contaminant, toxicology]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "aluminum baby food infant formula neurotoxicity"
+wikipedia_differentiation: "Comprehensive cross-country infant formula Al contamination data (UK, Lebanon, Brazil, Germany, Spain, Italy), bioaccessibility-adjusted exposure estimates, Al/Mn ratios as lung cancer biomarkers, and Al as non-Fenton neurotoxin with distinct oxidative stress mechanism"
+dietary_sources: ["infant formula", "soy-based foods", "cocoa", "antacids", "drinking water (treated)", "baked goods (baking powder)"]
+tolerable_daily_intake: "1 mg/kg bw/week (EFSA TWI)"
+source_count: 14
 ---
 
 # Aluminum (Al)

@@ -9,6 +9,12 @@ sources: [alquethamy-2021-acinetobacter-cadmium-resistance, rebelo-2021-enteroco
 metal_dependencies: [zinc, iron, copper -- uses Zn-dependent metalloproteases and Fe-siderophore uptake; harbors Cd/Zn efflux systems]
 tags: [pathogen, ESKAPE, nosocomial, multi-drug-resistant, metal-antibiotic-co-resistance, cadmium-resistance]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Acinetobacter baumannii metal resistance antibiotic co-selection"
+wikipedia_differentiation: "Cadmium-zinc efflux system driving antibiotic co-resistance with quantitative metal MIC data and ESKAPE metal-resistance framework"
+conditions_enriched_in: [nosocomial-infections, acute-coronary-syndrome]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Acinetobacter

@@ -12,6 +12,12 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [polyketide-synthase, colibactin-biosynthesis-enzymes, proteases]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Peptostreptococcus stomatis colibactin genotoxin colorectal cancer"
+wikipedia_differentiation: "Polyketide synthase gene cluster homologous to colibactin biosynthesis enabling direct DNA damage in colonocytes with iron dependency"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Peptostreptococcus stomatis

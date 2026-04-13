@@ -9,6 +9,12 @@ sources: [bronzini-2023-feeding-gut-microbiome-ms, svensson-2021-endometriosis-g
 metal_dependencies: [iron -- indirect via Fe-S cluster enzymes in SCFA synthesis]
 tags: [commensal, SCFA-producer, bile-acid-metabolizer, context-dependent, depleted-in-IBD]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Blautia SCFA bile acid gut microbiome multiple sclerosis"
+wikipedia_differentiation: "Context-dependent disease associations with iron-sulfur cluster dependency for SCFA synthesis and bile acid metabolism"
+conditions_enriched_in: [endometriosis]
+conditions_depleted_in: [inflammatory-bowel-disease, multiple-sclerosis, cardiovascular-disease]
+pathogenic_potential: commensal
 ---
 
 # Blautia

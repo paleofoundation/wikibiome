@@ -9,6 +9,12 @@ sources: [gao-2020-gut-microbial-biomarkers-acs-post-stemi, shan-2021-gut-microb
 metal_dependencies: [iron]
 tags: [commensal, SCFA-producer, Lachnospiraceae, pectin-fermenter, depleted-in-disease, context-dependent]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Lachnospira pectin fermenter SCFA gut microbiome disease"
+wikipedia_differentiation: "Context-dependent disease associations across CRC, ASD, endometriosis, and thyroid disease with pectin-specific fermentation profile"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: [endometriosis, autism-spectrum-disorder, cardiovascular-disease]
+pathogenic_potential: commensal
 ---
 
 # Lachnospira

@@ -10,6 +10,12 @@ tags: [pathogen, gastric, nickel-dependent, urease, hydrogenase, cancer]
 metal_dependencies: [nickel, iron, zinc, cobalt, bismuth-sensitive]
 key_enzymes: [urease (UreAB — Ni-dependent), NiFe-hydrogenase (HydABCD), iron-cofactored SOD, catalase (Fe-dependent)]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Helicobacter pylori nickel urease hydrogenase gastric cancer CagA"
+wikipedia_differentiation: "Complete nickel trafficking system (NiuBDE, NixA, FrpB4) with hydrogenase-powered CagA translocation linking nickel metabolism to gastric cancer"
+conditions_enriched_in: [gastric-cancer, gastritis, peptic-ulcer-disease]
+conditions_depleted_in: []
+pathogenic_potential: obligate
 ---
 
 # Helicobacter pylori

@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [cutler-2019-fiber-magnesium-pcos.md, pourmirzaiee-2024-ppd-magnesium-infant-development.md, kravchenko-2023-thyroid-hormones-minerals-AITD.md, smovrsnik-2023-heavy-metals-oxidative-stress-pcos.md, tatarchuk-2016-micro-macroelements-pcos.md, etebary-2010-ppd-serum-trace-elements.md, pokorska-niewiada-2022-trace-elements-erythrocytes-pcos.md, kuo-2025-smoking-alcohol-dysmenorrhea-taiwan.md, schilling-2020-urine-metallomics-pancreatic-cancer.md, khan-2014-metals-type2-diabetes.md]
 tags: [essential-mineral, macromineral, PCOS, thyroid, insulin-resistance, immunomodulation, bone-health]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "magnesium PCOS insulin resistance thyroid autoimmunity"
+wikipedia_differentiation: "Mg-PCOS metabolic axis (Mg intake correlating with HOMA-IR, testosterone, CRP), Mg-thyroid autoimmunity link (OR 4.5-5.0 for Hashimoto's in low-Mg group), Mg as heavy metal competition protector, and null PPD finding context"
+dietary_sources: ["green leafy vegetables", "nuts", "seeds", "legumes", "whole grains", "dark chocolate"]
+tolerable_daily_intake: "250 mg/day supplemental Mg (EFSA UL); 350 mg/day supplemental (IOM UL)"
+source_count: 10
 ---
 
 # Magnesium (Mg)

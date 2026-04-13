@@ -9,6 +9,12 @@ sources: [jie-2017-gut-microbiome-acvd, liu-2019-gut-microbiome-metabolism-cad-s
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis pathway; sensitive to heavy metal stress]
 tags: [commensal, butyrate-producer, SCFA-producer, depleted-in-disease, metal-sensitive, anti-inflammatory]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Roseburia butyrate gut microbiome cardiovascular disease depleted"
+wikipedia_differentiation: "Iron-sulfur cluster dependency for butyrate synthesis with metal stress sensitivity and consistent depletion across inflammatory and cardiometabolic diseases"
+conditions_enriched_in: []
+conditions_depleted_in: [cardiovascular-disease, inflammatory-bowel-disease, parkinsons-disease, endometriosis, colorectal-cancer]
+pathogenic_potential: commensal
 ---
 
 # Roseburia

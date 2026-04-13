@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron]
 key_enzymes: [Ni-GloI]
 tags: [pathogen, meningitis, sepsis, nasopharyngeal-commensal, Ni-GloI]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Neisseria meningitidis nickel glyoxalase meningitis"
+wikipedia_differentiation: "Nickel-dependent glyoxalase I supporting explosive invasive growth with infection metallomics diagnostic framework"
+conditions_enriched_in: [bacterial-meningitis, meningococcal-septicemia]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Neisseria meningitidis

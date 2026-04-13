@@ -9,6 +9,12 @@ sources: [dai-2024-gut-microbiota-cvd-bidirectional-mr, ni-2020-fecal-metabolomi
 metal_dependencies: [iron, molybdenum]
 tags: [commensal, Proteobacteria, succinate-producer, IBD-associated, bile-acid-metabolism, lipid-metabolism]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Parasutterella succinate bile acid endometriosis gut biomarker"
+wikipedia_differentiation: "Iron and molybdenum dependency with emerging MR biomarker data across metabolic, inflammatory, and endocrine conditions"
+conditions_enriched_in: [endometriosis]
+conditions_depleted_in: [cardiovascular-disease]
+pathogenic_potential: commensal
 ---
 
 # Parasutterella

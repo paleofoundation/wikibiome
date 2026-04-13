@@ -9,6 +9,12 @@ sources: [jangi-2016-gut-microbiome-alterations-ms, abdel-azim-2018-heavy-metals
 metal_dependencies: [nickel -- Ni-dependent coenzyme F430 in methyl-CoM reductase; cobalt -- corrinoid cofactors; iron -- Fe-S clusters in hydrogenases; zinc -- structural roles; copper -- sensitive to Cu toxicity]
 tags: [archaeon, methanogen, not-bacteria, enriched-in-MS, constipation-IBS, hydrogen-consumer, metal-dependent, NF-kB-activator]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Methanobrevibacter smithii archaeon nickel F430 multiple sclerosis gut"
+wikipedia_differentiation: "Nickel-dependent coenzyme F430 and multi-metal dependency profile with consistent MS enrichment and NF-kB activation data"
+conditions_enriched_in: [multiple-sclerosis, constipation-IBS]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Methanobrevibacter

@@ -10,6 +10,12 @@ metal_dependencies: [nickel, zinc, iron]
 key_enzymes: [Ni-GloI (predicted), Zn-dependent toxins TcdA/TcdB]
 tags: [pathogen, opportunistic, antibiotic-associated, colitis, metal-antibiotic-co-selection, spore-forming]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Clostridioides difficile zinc toxin metal antibiotic co-selection"
+wikipedia_differentiation: "Zinc-dependent TcdA/TcdB toxin mechanism and metal-antibiotic co-selection framework for post-dysbiosis opportunism"
+conditions_enriched_in: [antibiotic-associated-diarrhea, pseudomembranous-colitis]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Clostridioides difficile

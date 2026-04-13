@@ -12,6 +12,12 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [propionate-synthase, acetic-acid-synthase, glycan-degradation-complex]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Alloprevotella type 2 diabetes propionate gut microbiome"
+wikipedia_differentiation: "Strongest consistent depletion association in type 2 diabetes across independent cohorts with propionate production mechanism"
+conditions_enriched_in: []
+conditions_depleted_in: [type-2-diabetes, metabolic-syndrome]
+pathogenic_potential: commensal
 ---
 
 # Alloprevotella

@@ -9,6 +9,12 @@ sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, dai-2024-
 metal_dependencies: [iron]
 tags: [commensal, SCFA-producer, Bacteroidetes, depleted-in-inflammation, context-dependent]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Odoribacter splanchnicus butyrate SCFA gut inflammation"
+wikipedia_differentiation: "Context-dependent disease associations with SCFA production (butyrate, propionate, succinate) and opposing directionality across IBD and CRC"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: [inflammatory-bowel-disease, cardiovascular-disease]
+pathogenic_potential: commensal
 ---
 
 # Odoribacter

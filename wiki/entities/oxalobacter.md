@@ -9,6 +9,12 @@ sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhang-2022-ca
 metal_dependencies: [indirect -- oxalate degradation affects calcium/metal bioavailability]
 tags: [commensal, oxalate-degrading, kidney-stone-prevention, CKD-relevant, antibiotic-sensitive]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Oxalobacter formigenes oxalate kidney stones calcium metal bioavailability"
+wikipedia_differentiation: "Oxalate degradation effects on calcium and metal bioavailability with antibiotic-driven loss data and metal detoxification applications"
+conditions_enriched_in: []
+conditions_depleted_in: [kidney-stones, chronic-kidney-disease]
+pathogenic_potential: commensal
 ---
 
 # Oxalobacter

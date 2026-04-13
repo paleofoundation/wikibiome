@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [briffa-2020-heavy-metal-pollution-environment-toxicology.md, maier-2019-nickel-microbial-pathogenesis.md, akbari-2022-metal-homeostasis-streptococci.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md, niehoff-2021-metals-breast-cancer-toenail.md, lopez-botella-2023-peritoneal-fluid-metals-endometriosis.md, fan-2024-heavy-metal-arthritis-machine-learning.md]
 tags: [essential-element, transition-metal, vitamin-B12, cobalamin, nickel-cobalt-allergy, toxicology]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "cobalt vitamin B12 microbial metal transport pathogenesis"
+wikipedia_differentiation: "NiCoT-type shared nickel-cobalt transport in pathogens, staphylopine metallophore binding cobalt during infection, CznABC efflux pump substrate specificity, cobalt in nutritional immunity framework, and Ni-Co cross-reactive allergy mechanisms"
+dietary_sources: ["meat", "fish", "dairy", "eggs (as vitamin B12)", "leafy greens", "nuts", "cereals (inorganic Co)"]
+tolerable_daily_intake: "No established UL; vitamin B12 RDA of 2.4 µg/day provides adequate cobalt"
+source_count: 7
 ---
 
 # Cobalt (Co)

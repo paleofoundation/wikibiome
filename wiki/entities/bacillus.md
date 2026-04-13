@@ -9,6 +9,12 @@ sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, chen-2022-liv
 metal_dependencies: [iron -- siderophore production (bacillibactin); manganese -- SOD enzymes; multiple metal resistance genes]
 tags: [mixed, spore-forming, probiotic, metal-resistance, food-poisoning, soil-gut-axis, heat-stable]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Bacillus subtilis heavy metal detoxification probiotic"
+wikipedia_differentiation: "Metal-binding and biosorption capacity for cadmium, lead, and arsenic detoxification with quantitative removal efficiency data"
+conditions_enriched_in: []
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Bacillus

@@ -12,6 +12,12 @@ metal_dependencies: [iron, manganese]
 key_enzymes: [FadA-adhesin, hemin-dependent-peroxidase, siderophore-uptake-systems]
 tags: [colorectal-cancer, inflammatory-bowel-disease, CRC-pathogen, iron-dependent, biofilm-former, Fusobacterium]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Fusobacterium nucleatum colorectal cancer iron FadA adhesin"
+wikipedia_differentiation: "Iron and manganese acquisition systems enabling tumor colonization with FadA-mediated adhesion and immune evasion mechanisms"
+conditions_enriched_in: [colorectal-cancer, inflammatory-bowel-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Fusobacterium nucleatum

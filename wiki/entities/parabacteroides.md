@@ -9,6 +9,12 @@ sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, troci-202
 metal_dependencies: [none confirmed -- iron-independent Bacteroidetes metabolism]
 tags: [commensal, anti-inflammatory, bile-acid-metabolism, depleted-in-obesity, depleted-in-T2D, protective]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Parabacteroides distasonis bile acid anti-inflammatory obesity diabetes"
+wikipedia_differentiation: "Opposite directionality pattern across disease categories with iron-independent metabolism and bile acid biotransformation data"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: [obesity, type-2-diabetes, autoimmune-diseases]
+pathogenic_potential: commensal
 ---
 
 # Parabacteroides

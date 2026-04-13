@@ -10,6 +10,12 @@ tags: [pathogen, nickel, iron, hydrogenase, urease, UPEC, UTI, yersiniabactin, N
 metal_dependencies: [nickel, iron, zinc, manganese, cobalt]
 key_enzymes: [NiFe-hydrogenase (Hyd-1/2/3/4), urease (STEC), enterobactin/aerobactin/yersiniabactin (siderophores), zinc-metalloproteinase, MnSOD]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Escherichia coli nickel hydrogenase urease UPEC iron siderophore"
+wikipedia_differentiation: "Complete NikABCDE transport biology plus yersiniabactin dual iron-nickel metallophore system linking pathotype-specific metal dependencies to virulence"
+conditions_enriched_in: [urinary-tract-infection, inflammatory-bowel-disease, colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Escherichia coli

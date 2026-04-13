@@ -9,6 +9,12 @@ sources: [jangi-2016-gut-microbiome-alterations-ms, troci-2022-b-cell-depletion-
 metal_dependencies: [none confirmed]
 tags: [commensal, butyrate-producer, depleted-in-MS, anti-inflammatory, protective-consortium, Bacteroidetes]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Butyricimonas butyrate multiple sclerosis depleted gut bacteria"
+wikipedia_differentiation: "Unusual Bacteroidetes butyrate producer consistently depleted in MS with B-cell depletion therapy reversal data"
+conditions_enriched_in: []
+conditions_depleted_in: [multiple-sclerosis, endometriosis, thyroid-disease]
+pathogenic_potential: commensal
 ---
 
 # Butyricimonas

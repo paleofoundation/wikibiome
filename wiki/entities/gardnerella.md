@@ -9,6 +9,12 @@ sources: [ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis, hern
 metal_dependencies: [iron -- siderophore-mediated iron acquisition for growth; potentially influenced by metalloestrogen exposure]
 tags: [pathobiont, BV-associated, sialidase-producer, biofilm-former, vaginal-microbiome, endometriosis-associated]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Gardnerella vaginalis bacterial vaginosis sialidase iron endometriosis"
+wikipedia_differentiation: "Iron-siderophore acquisition linking metalloestrogen exposure to sialidase-driven mucus degradation in BV and endometriosis"
+conditions_enriched_in: [bacterial-vaginosis, endometriosis]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Gardnerella
