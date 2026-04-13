@@ -100,3 +100,5 @@ A versatile Gram-positive pathogen with one of the **best-characterized nutritio
 - [[helicobacter-pylori]] -- both use Ni-dependent urease but in very different niches (stomach vs. skin/kidney)
 - [[enterococcus]] -- parallel metal-antibiotic co-resistance evolution
 - [[proteus-mirabilis]] -- both use Ni-urease for urinary tract pathogenesis
+- [[antimicrobial-resistance]] -- MRSA is a paradigmatic AMR pathogen; metal-antibiotic co-resistance is well-documented
+- [[co-selection]] -- czrC zinc resistance gene co-located with mecA on SCCmec elements in MRSA

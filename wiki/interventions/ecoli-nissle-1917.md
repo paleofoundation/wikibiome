@@ -7,6 +7,7 @@ updated: 2026-04-09
 sources: [pendergrass-2026-endometriosis-conference]
 tags: [probiotic, microbial-competition, siderophore]
 intervention_class: probiotic
+cureva_status: partial
 
 triangles:
   - condition: "[[endometriosis]]"

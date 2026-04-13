@@ -79,9 +79,19 @@ Schizophrenia carries a heavy comorbidity burden that intersects with microbiome
 
 The modifiable nature of the gut microbiome makes it an attractive therapeutic target. Current approaches under investigation include FMT (fecal microbiota transplantation), targeted probiotics/synbiotics, dietary interventions (ketogenic, Mediterranean, high-fiber), minocycline (anti-inflammatory antibiotic crossing the BBB), celecoxib and aspirin as adjunctive anti-inflammatory therapies, and vitamin D supplementation. Microbial biomarker panels (bacterial + viral) show strong diagnostic potential (AUC > 0.85) and may enable early intervention during prodromal stages.
 
-## Key Wikilinks
+## Connections
 
-- [[mis-metallation]] | [[copper]] | [[zinc]] | [[iron]]
-- [[gut-brain-axis]] | [[neuroinflammation]] | [[tryptophan-metabolism]]
-- [[dysbiosis]] | [[immune-balance]]
-- [[depression]] | [[metabolic-syndrome]]
+- [[copper]] -- elevated serum Cu; ceruloplasmin-bound Cu as oxidative stress marker; Cu/Zn ratio correlates with symptom severity
+- [[zinc]] -- depressed serum Zn; endogenous NMDA receptor modulator displaced by Cu at the synapse
+- [[iron]] -- Fenton chemistry amplifies oxidative damage in dopaminergic circuits
+- [[mis-metallation]] -- Cu displacing Zn from zinc-finger transcription factors and NMDA subunits; mechanistic bridge to NMDA hypofunction
+- [[gut-brain-axis]] -- bidirectional vagal, SCFA, and immune mediator communication linking gut dysbiosis to psychosis
+- [[neuroinflammation]] -- microglial M1 polarization, C4A-driven synaptic pruning, and Th17/Treg imbalance
+- [[tryptophan-metabolism]] -- IDO-mediated kynurenine shunting depletes serotonin precursors; elevated kynurenine/tryptophan ratio
+- [[dysbiosis]] -- depletion of butyrate producers (Faecalibacterium, Roseburia, Coprococcus) and multi-kingdom microbial disruption
+- [[immune-balance]] -- Th17-dominant profile with elevated IL-6, IL-8, TNF-alpha; reduced IL-10 and TGF-beta
+- [[depression]] -- comorbid in most patients; strongest suicide risk factor (OR = 3.03); shared Cu/Zn dysregulation
+- [[metabolic-syndrome]] -- develops in approximately one-third of patients; antipsychotic-driven microbiome shifts
+- [[intestinal-permeability]] -- markedly elevated endotoxin antibodies (SMD = 2.72), zonulin, and sCD14
+- [[candida-albicans]] -- enriched in gut mycobiome; oral fungal dysbiosis correlates with elevated IL-6
+- [[probiotics]] -- early-stage RCT evidence; BDNF increase but no significant PANSS improvement yet

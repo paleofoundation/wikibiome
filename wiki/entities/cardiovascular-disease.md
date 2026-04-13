@@ -163,3 +163,8 @@ Bacterially synthesized polyamines (cadaverine, putrescine, spermidine) have car
 ## Connections
 
 - [[metal-disease-matrix]]
+- [[atherosclerosis]] -- lead and cadmium exposure accelerate atherosclerotic plaque formation via endothelial damage
+- [[tmao]] -- microbiome-derived TMAO promotes atherosclerosis and thrombosis; elevated in CVD patients
+- [[biomarkers]] -- Cu/Zn ratio, Fe/Cu ratio, Se levels, and CRP as metallomic and inflammatory CVD biomarkers
+- [[microbiome-derived-metabolites]] -- TMAO, SCFAs, and bile acids as microbiome-CVD mediators
+- [[environmental-metal-exposure]] -- occupational and dietary Pb/Cd exposure as modifiable CVD risk factors

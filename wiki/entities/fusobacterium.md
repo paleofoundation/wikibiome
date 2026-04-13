@@ -77,3 +77,5 @@ A Gram-negative, obligate anaerobic bacterium that has emerged as **the most con
 - [[enterobacteriaceae]] -- co-enriched in cancer and inflammatory disease states
 - [[faecalibacterium-prausnitzii]] -- inversely correlated; F. prausnitzii depletion accompanies Fusobacterium expansion
 - [[gut-metal-microbiome]] -- iron availability in the gut modulates Fusobacterium competitive advantage
+- [[gastric-cancer]] -- enriched in gastric tumor tissue alongside H. pylori
+- [[ovarian-cancer]] -- enriched in ovarian tumor tissue; FadA-mediated E-cadherin/beta-catenin activation

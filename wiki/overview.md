@@ -14,7 +14,9 @@ WikiBiome is a structured, interlinked knowledge base mapping the relationships 
 
 ## The Core Thesis
 
-Environmental and dietary metals (lead, cadmium, arsenic, mercury, nickel, iron, copper, and others) reshape gut microbial communities in predictable ways. This metal-driven [[dysbiosis]] depletes beneficial SCFA-producing bacteria while enriching metal-tolerant pathobionts equipped with [[siderophores-metallophores]], [[biofilm]] systems, and metal-dependent virulence enzymes ([[urease]], [[hydrogenase]], [[glyoxalase]]). The resulting cascade -- barrier failure, endotoxemia, systemic [[inflammation]], and metabolite disruption -- connects environmental metal exposure to diseases spanning neurodegeneration, autoimmunity, cancer, metabolic syndrome, and reproductive health.
+Environmental and dietary metals (lead, cadmium, arsenic, mercury, nickel, iron, copper, and others) are associated with changes in gut microbial communities in predictable ways. This metal-driven [[dysbiosis]] depletes beneficial SCFA-producing bacteria while enriching metal-tolerant pathobionts equipped with [[siderophores-metallophores]], [[biofilm]] systems, and metal-dependent virulence enzymes ([[urease]], [[hydrogenase]], [[glyoxalase]]). A proposed cascade -- barrier failure, endotoxemia, systemic [[inflammation]], and metabolite disruption -- connects environmental metal exposure to diseases spanning neurodegeneration, autoimmunity, cancer, metabolic syndrome, and reproductive health.
+
+This framework represents a synthesis of emerging evidence. Many findings are from observational studies, animal models, or small clinical trials. Prospective validation is ongoing.
 
 This is not a single-pathway hypothesis. It is a convergent framework where metals and microbes activate the same inflammatory machinery ([[nf-kappa-b]], NLRP3, [[oxidative-stress]]), making their individual contributions clinically indistinguishable -- and requiring that both be addressed for effective intervention.
 
@@ -26,9 +28,9 @@ WikiBiome is organized into seven content categories:
 
 | Category | Count | What It Contains |
 |----------|-------|-----------------|
-| **Sources** | 981 | Primary research papers -- the evidence base. Each source page summarizes findings and links to entities and concepts it informs. |
-| **Entities** | 122 | The "nouns" of the wiki: metals/metalloids (19), microbes (83), and diseases (20). Each entity page covers metallomic signatures, microbiome connections, environmental exposure links, dietary paradoxes, and interventions. |
-| **Concepts** | 87 | Mechanisms and processes: [[dysbiosis]], [[inflammation]], [[ferroptosis]], [[gut-brain-axis]], [[nutritional-immunity]], [[metalloestrogens]], [[short-chain-fatty-acids]], and more. These are the "verbs" connecting entities to each other. |
+| **Sources** | 1426 | Primary research papers -- the evidence base. Each source page summarizes findings and links to entities and concepts it informs. |
+| **Entities** | 130 | The "nouns" of the wiki: metals/metalloids (19), microbes (83), and diseases (28). Each entity page covers metallomic signatures, microbiome connections, environmental exposure links, dietary paradoxes, and interventions. |
+| **Concepts** | 88 | Mechanisms and processes: [[dysbiosis]], [[inflammation]], [[ferroptosis]], [[gut-brain-axis]], [[nutritional-immunity]], [[metalloestrogens]], [[short-chain-fatty-acids]], and more. These are the "verbs" connecting entities to each other. |
 | **Disease Signatures** | 13 | Detailed microbiome and metabolite profiles for specific diseases, with enriched/depleted taxa, virulence enzyme inventories, and ecological models. |
 | **Interventions** | 5 | Evidence-based therapeutic approaches: probiotics, dietary protocols, specific microbial strains. |
 | **STOPs** | 11 | Counter-indicated actions -- supplements or treatments that may worsen disease through the metal-microbiome lens (e.g., oral iron supplementation in Crohn's, zinc supplementation in endometriosis). |
@@ -38,7 +40,7 @@ WikiBiome is organized into seven content categories:
 
 ## The Evidence Base
 
-WikiBiome synthesizes **981 source papers** across **122 entities** spanning 19 metals, 83 microbes, and 20 diseases. Key cross-cutting analyses include:
+WikiBiome synthesizes **1426 source papers** across **130 entities** spanning 19 metals, 83 microbes, and 28 diseases. Key cross-cutting analyses include:
 
 - **[[metal-disease-matrix]]** -- maps which metals are elevated, depleted, or dysregulated across all 20 diseases, revealing shared signatures (Cu elevation + Zn depletion in cancers; Fe dysregulation in neurodegeneration and IBD).
 - **[[shared-pathobionts-across-signatures]]** -- identifies microbes enriched across multiple diseases (Enterobacteriaceae, Fusobacterium, Candida albicans), suggesting common metal-driven ecological dynamics.
@@ -52,7 +54,7 @@ The STOP system is particularly important: WikiBiome encodes cases where standar
 
 ## Key Principles
 
-1. **Metals are not just toxicants -- they are ecological selectors.** Metals reshape microbial communities by killing sensitive commensals and favoring organisms equipped with efflux pumps, siderophores, and metal-dependent virulence enzymes.
+1. **Metals are not just toxicants -- they are ecological selectors.** Metals are associated with changes in microbial communities by killing sensitive commensals and favoring organisms equipped with efflux pumps, siderophores, and metal-dependent virulence enzymes.
 2. **Dysbiosis is a cause, not just a consequence.** ZIP8 A391T mice develop microbiome shifts months before inflammation appears. The microbiome change drives the disease, not the reverse.
 3. **Host defense can become pathology.** Nutritional immunity (hepcidin, calprotectin, lactoferrin) restricts metals from pathogens but also starves commensals, deepening dysbiosis.
 4. **Diet is a double-edged sword.** "Healthy" foods can carry significant metal loads. The [[dietary-metal-paradoxes]] analysis documents cases where standard dietary advice may be counterproductive for metal-sensitive individuals.
@@ -64,3 +66,4 @@ The STOP system is particularly important: WikiBiome encodes cases where standar
 - [[metal-disease-matrix]] -- the cross-disease metallomic comparison
 - [[dietary-metal-paradoxes]] -- when healthy foods carry hidden metal risks
 - [[gut-metal-microbiome]] -- the foundational concept linking metals, microbes, and disease
+- [[exposome]] -- the totality of environmental exposures; metals are the most quantifiable component

@@ -3,8 +3,10 @@
 title: "Obesity — Microbiome Signature"
 type: signature
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 sources: [pendergrass-2026-heavy-metals-obesity-epidemic, jacobs-2022-crohns-remission-obesity-mli-microbiome, mhaibes-2017-blood-metals-pcos-obese, de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome, boussamet-2024-oral-microbiota-metabolite-signature-ms, chambers-2018-scfa-metabolic-cardiovascular-health, giambo-2021-toxic-metal-exposure-gut-microbiota-review, hauer-2021-comorbidity-ms-systematic-review, jayasinghe-2022-diet-gut-microbiome-ms-review, jie-2017-gut-microbiome-acvd, dai-2024-gut-microbiota-cvd-bidirectional-mr, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, devos-2012-intestinal-microbiome-health-disease-causation, almeida-2023-gut-microbiota-cardiovascular-axis, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, appunni-2021-dietary-factors-gut-microbiome-crc, gentile-2020-diet-microbiota-brain-health, altinok-dindar-2023-gut-microbiota-breast-cancer-diet, richardson-2018-toxic-metals-rat-gut-microbiota]
+source_count: 19
 tags: [metabolic-disease, weight-gain, insulin-resistance, dysbiosis, inflammation, environmental-obesogens, heavy-metals]
 
 # Layer 1: Metallomic signature
@@ -48,10 +50,42 @@ ecological_features: [hypoxia, metal-driven-dysbiosis, reduced-SCFA-production, 
 # Layer 5: Key virulence enzymes expressed
 virulence_enzymes: [TMA-lyase, siderophores, nickel-urease, nickel-hydrogenase, zinc-metalloproteases, LPS-biosynthesis, beta-glucuronidase]
 
+# Confidence per layer
+confidence:
+  metallomic: high
+  taxonomic: high
+  nutritional_immunity: high
+  ecological: high
+  virulence_enzymes: moderate
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[type-2-diabetes]]"
+    shared_metals: [iron, cadmium, nickel, lead]
+    shared_taxa: [escherichia-coli, enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium]
+    shared_ecological: [dysbiosis, SCFA-depletion, endotoxemia, intestinal-permeability-increase]
+    overlap_score: 0.78
+  - condition: "[[pcos]]"
+    shared_metals: [cadmium, nickel, lead, iron]
+    shared_taxa: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii]
+    shared_ecological: [dysbiosis, insulin-resistance, reduced-SCFA-production]
+    overlap_score: 0.62
+  - condition: "[[cvd]]"
+    shared_metals: [iron, cadmium, nickel, lead]
+    shared_taxa: [escherichia-coli, streptococcus, enterobacteriaceae, lachnospiraceae, roseburia]
+    shared_ecological: [SCFA-depletion, endotoxemia, TMAO-production]
+    overlap_score: 0.71
+  - condition: "[[depression]]"
+    shared_metals: [iron, cadmium, lead]
+    shared_taxa: [escherichia-coli, faecalibacterium-prausnitzii, lachnospiraceae]
+    shared_ecological: [dysbiosis, inflammation, SCFA-depletion]
+    overlap_score: 0.52
+
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: []
 stops: []
+karen_brain_primitives: [1, 2, 3, 5]
 platform: cureva
 ---
 

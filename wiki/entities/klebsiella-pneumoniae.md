@@ -68,3 +68,5 @@ A Gram-negative opportunistic pathogen and member of the **ESKAPE** group of ant
 - [[yersinia-pestis]] -- shares yersiniabactin metallophore system
 - [[escherichia-coli]] -- shares Enterobacteriaceae Ni-enzyme complement
 - [[gut-metal-microbiome]] -- dietary nickel fuels Klebsiella in the preterm gut
+- [[antimicrobial-resistance]] -- carbapenem-resistant K. pneumoniae (KPC) is a WHO critical-priority AMR pathogen
+- [[co-selection]] -- metal resistance and carbapenemase genes co-carried on conjugative plasmids

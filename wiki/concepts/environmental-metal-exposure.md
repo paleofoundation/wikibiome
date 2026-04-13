@@ -159,3 +159,4 @@ A patchwork of regulations exists:
 - [[mis-metallation]] -- the dose and chemical form of metal exposure determines which mis-metallation events dominate in a given tissue
 - [[metalloestrogens]] -- dietary cadmium (rice, vegetables, shellfish) and nickel (legumes, chocolate, grains) are the primary exposure routes for metalloestrogen effects
 - [[metallomics]] -- biomonitoring using blood, urine, hair, and nail metallomic profiles provides the analytical framework for exposure assessment
+- [[exposome]] -- metal exposure is among the most quantifiable and modifiable components of the total exposome

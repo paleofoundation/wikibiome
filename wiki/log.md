@@ -2,6 +2,70 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-13] v2 migration | Signature pages batch 3 (15 of 15)
+Upgraded: obesity, pancreatic-cancer, parkinsons-disease, pcos, type-2-diabetes. All 15 signature pages now on v2 schema.
+
+## [2026-04-13] v2 migration | Signature pages batch 2 (10 of 15)
+Upgraded: depression, endometriosis, graves-disease, hashimotos-thyroiditis, multiple-sclerosis.
+
+## [2026-04-13] v2 migration | Signature pages batch 1 (5 of 15)
+Upgraded frontmatter to v2 schema: alzheimers-disease, autism-spectrum-disorder-microbiome-signature, cardiovascular-disease, colorectal-cancer, crohns-disease. Added confidence per layer, associated_conditions with overlap scores, karen_brain_primitives, last_substantive_update, source_count.
+
+## [2026-04-13] maintenance | Systematic Gap Remediation
+
+**Scope:** Worked through gaps-and-improvements-2026-04-13.md action sequence systematically.
+
+### Schema Fixes (Immediate)
+- **`condition-name` placeholder check** — confirmed only in `_template-intervention.md`; no live pages affected
+- **`cureva_status:` added to all 13 intervention pages** — `low-nickel-diet` → complete; `probiotics-asd-dysbiosis` → in-progress; all others → partial
+- **`subtype:` added to 14 entity pages** — 12 metals (aluminum, arsenic, cadmium, chromium, copper, iron, lead, manganese, mercury, nickel, selenium, zinc) → metal; candida-albicans → fungus; enterococcus → microbe
+- **Backslash wikilinks fixed** in `dietary-metal-microbiome-interactions.md` (4 links: lactobacillus, bifidobacterium, saccharomyces-cerevisiae, bacillus)
+- **ASD signature** upgraded `cureva_status: in-progress` → `cureva_status: partial`
+- **`GERD triangle` verified complete** in `low-nickel-diet.md` — all fields present (was a false flag from the prior report)
+- **`index.md` regenerated** from filesystem — updated to 2026-04-13; corrected all counts (1515 sources, 15 signatures, 13 interventions, 14 STOPs, 88 concepts, 130 entities); added fungi/archaea categories; added overview.md and glossary.md as reference pages
+
+### New STOP Pages (3 created)
+- `stop-iodine-supplementation-hashimotos.md` — Mirrors Graves' iodine STOP with HT-specific framing; U-shaped dose-response; gut dysbiosis feed-forward loop; selenium as the correct alternative
+- `stop-iron-supplementation-alzheimers.md` — Brain iron accumulation as hallmark; hepcidin-mediated functional anemia; ferroptosis angle; lactoferrin and chelation as alternatives
+- `stop-iron-supplementation-colorectal-cancer.md` — Iron-enriched tumor microenvironment; Fusobacterium nucleatum siderophore dependence; heme iron carcinogenesis; IV over oral when supplementation is required
+
+### New Entity Pages (5 created)
+- `bacteroides-thetaiotaomicron.md` — Major zinc-dependent commensal; polysaccharide utilization; keystone depleted in dysbiosis
+- `candida-auris.md` — Emerging multidrug-resistant nosocomial pathogen; WHO critical priority
+- `candida-tropicalis.md` — Crohn's-associated fungus; triple-species biofilm with E. coli and Serratia; ASCA antigen candidate
+- `aeromonas.md` — Iron/siderophore-dependent opportunistic pathogen; waterborne; metal dependency as Achilles' heel
+- `celiac-disease.md` — Disease entity; GFD-nickel paradox; Ni ACM overlap; connection to low-nickel-diet intervention
+
+### New Concept Pages (2 created)
+- `ahr.md` — Aryl Hydrocarbon Receptor; tryptophan-indole-AhR axis; AhR as molecular bridge between gut microbiome and immune regulation; disrupted across ASD, MS, Hashimoto's, depression
+- `amyloid-beta.md` — Metal-binding antimicrobial peptide; Zn/Cu-driven aggregation; infection hypothesis; gut-brain axis connection to gut dysbiosis
+
+### Final Counts After This Session
+- Signatures: 15
+- Interventions: 13 (all with cureva_status)
+- STOPs: 14 (up from 11)
+- Entities: 135 (up from 130)
+- Concepts: 90 (up from 88)
+- Sources: 1515 (unchanged)
+
+## [2026-04-13] lint | Automated Wiki Health Check
+
+**Status**: COMPLETE
+
+**Analysis page created**: `wiki/analyses/lint-2026-04-13.md`
+
+**Summary of findings:**
+- 15 signature pages exist; 14 diseases in index have no signature page
+- 24 intervention IDs referenced in signatures have no backing file
+- 2 STOP IDs referenced in signatures have no backing file (stop-diagnostic-overclaiming-discovery-phase, stop-excess-iodine-supplementation-hashimotos)
+- 7 intervention files are orphaned (not referenced in any signature)
+- 1 STOP file is orphaned: stop-iron-supplementation-asd (should link to autism signature)
+- depression.md missing required frontmatter fields (validated_interventions, stops)
+- index.md counts incorrect: Signatures (claims 14, actual 15), Interventions (claims 5, actual 13)
+- index.md missing 3 signatures from Disease Signatures section: graves-disease, hashimotos-thyroiditis, pancreatic-cancer
+- Triangle evidence complete in all existing intervention files ✓
+- Highest-priority missing signatures: Hashimoto's, Postpartum Depression, Rheumatoid Arthritis
+
 ## [2026-04-10] build-signature | Multiple Sclerosis — Complete 5-Layer Microbiome Signature
 
 **Status**: COMPLETE
@@ -539,3 +603,72 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - STOPs: 11 (up from 7)
 - Analyses: 5 (up from 2)
 - Platform-tagged: 976 files
+
+
+## 2026-04-12 — Automated Lint Run
+
+**Scope:** Full health check of 1,684 files (1,426 sources + 258 content pages)
+
+**Issues Identified:**
+- 🔴 Index severely stale: actual 1,426 sources vs 982 claimed; 8 new disease entities not listed
+- 🔴 46 confirmed duplicate source files (same DOI, two filenames); ~10 appear to be wrong-DOI assignments across different papers
+- 🔴 14 entity pages (metals + Candida albicans + Enterococcus) missing `subtype:` field
+- 🔴 All 5 intervention pages missing `cureva_status:` frontmatter field
+- 🔴 4 backslash-broken wikilinks in `dietary-metal-microbiome-interactions.md`
+- 🔴 GERD triangle incomplete in `low-nickel-diet.md`
+- 🟡 15 disease entity pages have no companion signature page (highest priority: hashimotos-thyroiditis, postpartum-depression, rheumatoid-arthritis)
+- 🟡 4 missing entity pages referenced in content (bacteroides-thetaiotaomicron, candida-auris, candida-tropicalis, aeromonas)
+- 🟡 4 intervention pages missing triangle evidence fields (I_to_f_evidence, I_to_D_evidence, f_to_D)
+- 🟢 6 missing concept stubs (ahr, amyloid-beta, bile-acids, celiac-disease, activated-charcoal, butyrate-supplementation)
+- 🟢 1 misspelled wikilink: [[akkermansia-mucinicola]] → [[akkermansia-muciniphila]]
+- 🟢 Empty sources lists on gerd, type-1-diabetes, ovarian-cancer entity pages
+
+**Report saved:** `wiki/analyses/lint-report-2026-04-12.md`
+
+
+## 2026-04-12 — Automated Gaps & Improvement Scan
+
+**Scope:** Automated scheduled audit of content gaps and strategic improvements beyond the structural lint report
+
+**Key findings:**
+- 9 conditions with 65–79 raw papers each have no signature page (Hashimoto's, PPD, RA, CKD, Schizophrenia, T1D, GERD, Ovarian Cancer, Pancreatic Cancer)
+- 180 unorganized ASD papers in holding folder not yet ingested
+- Cerebral Palsy: 79 raw papers, no entity page, no signature — missed in all prior scans
+- 8 of 13 signatures have zero linked intervention pages
+- ASD signature should be upgraded from `in-progress` to `partial` (all 5 layers populated)
+- `bile-acids` concept listed in index but only `bile-acid-metabolism.md` exists (broken index link)
+- SNAS (Systemic Nickel Allergy Syndrome) referenced in low-nickel-diet.md but has no entity/concept page
+- RE-INGEST-PROMPT.md verified: all 9 Pendergrass papers confirmed to have source pages; DOI verification recommended
+- Iron supplementation STOP pages missing for Parkinson's and Depression despite clear hepcidin/siderophore pattern
+
+**Report saved:** `wiki/analyses/gaps-and-improvements-2026-04-12.md`
+
+
+## 2026-04-13 — Automated Lint Run
+
+**Scope:** Full health check of 1,773 files (1,515 sources + 258 content pages)
+
+**Progress confirmed since April 12:**
+- ✅ GERD triangle completed in `low-nickel-diet.md`
+- ✅ Triangle evidence fields added to all 4 original intervention pages
+- ✅ 2 new signature pages: hashimotos-thyroiditis, pancreatic-cancer
+- ✅ Depression signature page created/expanded
+- ✅ 9 new intervention pages with triangle structure
+- ✅ Glossary and overview pages created
+- ✅ 89 new source pages ingested (1,426 → 1,515)
+
+**Issues Identified:**
+- 🔴 Index severely stale: 1,426 sources claimed (actual 1,515); 5 interventions claimed (actual 13); 13 signatures claimed (actual 15)
+- 🔴 Backslash-broken wikilinks in `dietary-metal-microbiome-interactions.md` — still unresolved
+- 🔴 12/19 metal entity pages still missing `subtype:` field
+- 🔴 All 13 intervention pages missing `cureva_status:` field
+- 🟡 46+ duplicate source files — cleanup not yet executed
+- 🟡 13 disease entities without companion signature pages (down from 15)
+- 🟡 Iron STOP pages still missing for Parkinson's and Depression
+- 🟡 `[[akkermansia-mucinicola]]` misspelling in parkinsons-disease.md — still unresolved
+- 🟡 4 missing entity stubs (bacteroides-thetaiotaomicron, candida-auris, candida-tropicalis, aeromonas)
+- 🟢 Missing concept pages: ahr, amyloid-beta, b-cell-depletion-therapy, celiac-disease
+- 🟢 Cerebral palsy: no entity page despite large source library
+- 🟢 SNAS: no entity page
+
+**Report saved:** `wiki/analyses/lint-report-2026-04-13.md`

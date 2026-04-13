@@ -5,12 +5,14 @@ type: source
 created: 2026-04-09
 updated: 2026-04-09
 authors: [Karen Pendergrass]
-journal: Journal of Food Metallomics
+journal: "Zenodo Preprint"
 year: 2026
 tags: [heavy-metals, food-safety, public-disclosure, naming-and-shaming, compliance-theory, game-theory, third-party-certification, supply-chain, litigation, consumer-protection]
 doi: "10.5281/zenodo.19470572"
 platform: wikibiome
 ---
+
+> **Note:** This is a preprint by the WikiBiome founder, not independently peer-reviewed journal literature.
 
 ## Summary
 

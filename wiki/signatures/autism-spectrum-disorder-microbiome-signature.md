@@ -16,6 +16,34 @@ sources: [
   microbiota-gut-brain-axis-neurodevelopmental-review.md
 ]
 tags: [autism, dysbiosis, microbiota, neurodevelopmental, metal-dependent, neuroinflammation, immune-dysregulation, oxidative-stress, mitochondrial-dysfunction]
+last_substantive_update: 2026-04-13
+source_count: 9
+
+confidence:
+  metallomic: moderate
+  taxonomic: high
+  nutritional_immunity: moderate
+  ecological: moderate
+  virulence_enzymes: preliminary
+
+associated_conditions:
+  - condition: "[[depression]]"
+    shared_metals: [zinc-depleted, iron]
+    shared_taxa: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]
+    shared_ecological: [gut-brain-axis, tryptophan-dysmetabolism, SCFA-depletion, barrier-dysfunction]
+    overlap_score: 0.42
+  - condition: "[[schizophrenia]]"
+    shared_metals: [copper, zinc-dysregulated]
+    shared_taxa: [escherichia-coli, lachnospiraceae-depleted]
+    shared_ecological: [neuroinflammation, tryptophan-dysmetabolism, barrier-dysfunction]
+    overlap_score: 0.35
+  - condition: "[[adhd]]"
+    shared_metals: [zinc-depleted, iron-dysregulated]
+    shared_taxa: [faecalibacterium-depleted, bifidobacterium-depleted]
+    shared_ecological: [gut-brain-axis, SCFA-depletion, neurotransmitter-precursor-depletion]
+    overlap_score: 0.38
+
+karen_brain_primitives: [1, 3, 4, 5]
 
 # Layer 1: Metallomic Signature
 metallomic_signature:
@@ -253,7 +281,7 @@ microbial_vulnerabilities:
   immune_tolerance_education: "Dysbiotic microbiota cannot educate Treg cells (loss of IL-10/TGF-β-producing taxa). Restoration of immune-educating bacteria (Bacteroidetes, Faecalibacterium) + dietary support for Treg induction (butyrate, tryptophan metabolites) re-establishes immune tolerance."
 
 # Cureva Pipeline Status
-cureva_status: in-progress
+cureva_status: partial
 validated_interventions: []
 stops: []
 

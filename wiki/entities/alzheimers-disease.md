@@ -165,3 +165,8 @@ See [[dietary-metal-paradoxes]] for the broader pattern. AD-specific paradoxes i
 - **Related diseases**: [[parkinsons-disease]] (shared Fe/Cu brain dysregulation, ferroptosis, gut-brain axis), [[chronic-kidney-disease]] (shared ferroptosis pathway), [[type-2-diabetes]] ("type-3 diabetes" hypothesis)
 - **Pathogens**: [[helicobacter-pylori]] (increased in AD gut), [[escherichia-coli]] (curli cross-seeding with A-beta)
 - **Interventions**: [[iron-chelation]], [[mediterranean-diet]], [[probiotics]], [[selenium-supplementation]]
+- [[neurodegeneration]] -- AD is the most common neurodegenerative disease; ferroptosis, amyloid, and tau as convergent pathways
+- [[environmental-metal-exposure]] -- lifetime cumulative Pb, Al, and occupational metal exposure as AD risk factors
+- [[glutathione]] -- GSH depletion in AD brain enables iron-driven oxidative damage
+- [[microbiome-derived-metabolites]] -- SCFA depletion and tryptophan shunting implicated in AD gut-brain signaling
+- [[biomarkers]] -- brain metal accumulation (Fe, Cu, Zn), plasma amyloid, and metallomic panels for AD

@@ -40,7 +40,7 @@ Pancreatic cancer is the fifth leading cause of cancer death in Western nations,
 
 ## Metallomic Signature
 
-The landmark study by Schilling et al. (2020) demonstrated that a combined urinary panel of [[copper|Ca]], Mg, [[zinc|Zn]], and [[copper|Cu]] achieves AUC 0.99 (sensitivity 95.2%, specificity 97.8%) for PDAC detection -- among the highest metallomic diagnostic performances reported for any cancer.
+The landmark study by Schilling et al. (2020) demonstrated that a combined urinary panel of [[calcium|Ca]], Mg, [[zinc|Zn]], and [[copper|Cu]] achieves AUC 0.99 (sensitivity 95.2%, specificity 97.8%) for PDAC detection -- among the highest metallomic diagnostic performances reported for any cancer.
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|

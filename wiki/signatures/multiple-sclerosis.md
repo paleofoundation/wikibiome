@@ -3,10 +3,45 @@
 title: "Multiple Sclerosis — Microbiome Signature"
 type: signature
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 paper_count: 14
 sources: [jangi-2016-gut-microbiome-alterations-ms, miyake-2015-dysbiosis-ms-clostridia-depletion, gunal-2018-heavy-metals-sialic-acid-ms, bhargava-2020-bile-acid-metabolism-ms-neuroinflammation, becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility, gargano-2022-mait-cells-gut-yeasts-ms-brain, swidsinski-2017-colonic-microbiome-ms-ketogenic, trend-2021-serum-scfas-immune-cells-biomarkers-ms, montgomery-2024-microbiota-signatures-ms-progression, otaegui-chivite-2025-mycobiota-ms-progression, zahoor-2021-metabolomics-ms-comprehensive-overview, troci-2022-b-cell-depletion-reverses-dysbiosis-ms, attfield-2022-immunology-ms-nature-review, ignatova-2023-biomarkers-ms-review, thirion-2023-gut-microbiota-ms-disease-activity, katzsand-2018-diet-ms-mechanistic-review, boussamet-2024-oral-microbiota-metabolite-signature-ms]
+source_count: 17
 tags: [neurological, autoimmune, demyelinating, neuroinflammation, metal-dependent]
+
+# Confidence per layer
+confidence:
+  metallomic: moderate
+  taxonomic: high
+  nutritional_immunity: moderate
+  ecological: high
+  virulence_enzymes: moderate
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[depression]]"
+    shared_metals: [cadmium, lead]
+    shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, candida-albicans]
+    shared_ecological: [dysbiosis, neuroinflammation, SCFA-depletion, leaky-gut]
+    overlap_score: 0.45
+  - condition: "[[parkinsons-disease]]"
+    shared_metals: [iron, lead, nickel]
+    shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, roseburia, akkermansia-muciniphila]
+    shared_ecological: [dysbiosis, SCFA-depletion, neuroinflammation, altered-bile-acid-metabolism]
+    overlap_score: 0.56
+  - condition: "[[IBD]]"
+    shared_metals: [iron, nickel]
+    shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, ruminococcus, roseburia, escherichia-coli]
+    shared_ecological: [dysbiosis, intestinal-permeability, SCFA-depletion, Th17-Treg-imbalance]
+    overlap_score: 0.58
+  - condition: "[[schizophrenia]]"
+    shared_metals: [lead, cadmium]
+    shared_taxa: [lachnospiraceae, candida-albicans, streptococcus]
+    shared_ecological: [dysbiosis, neuroinflammation, SCFA-depletion, altered-tryptophan-metabolism]
+    overlap_score: 0.40
+
+karen_brain_primitives: [1, 2, 3, 5, 9]
 
 # Layer 1: Metallomic signature
 metallomic_signature:

@@ -6,6 +6,39 @@ created: 2026-04-09
 updated: 2026-04-09
 sources: [liu-2022-mendelian-cd-microbiome, zhang-2021-akkermansia-cd, xu-2023-oxidative-stress-cd, amerikanou-2022-ibd-biomarkers-trace-metals, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, coryell-2018-gut-microbiome-arsenic-toxicity-protection, breton-2016-cd-pb-colitis, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, eggers-2023-prenatal-lead-gut-microbiome-childhood, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, pascal-2017-cd-microbial-signature, brusaferro-2018-pediatric-cd-dysbiosis, wang-2024-ibd-virulence-factors]
 tags: [gastrointestinal, inflammatory, autoimmune, chronic]
+last_substantive_update: 2026-04-13
+source_count: 13
+
+confidence:
+  metallomic: high
+  taxonomic: high
+  nutritional_immunity: high
+  ecological: high
+  virulence_enzymes: moderate
+
+associated_conditions:
+  - condition: "[[ulcerative-colitis]]"
+    shared_metals: [iron, zinc, cadmium]
+    shared_taxa: [escherichia-coli, bacteroides-fragilis, faecalibacterium-depleted, roseburia-depleted, lachnospiraceae-depleted]
+    shared_ecological: [barrier-dysfunction, SCFA-depletion, hypoxia, biofilm]
+    overlap_score: 0.74
+  - condition: "[[colorectal-cancer]]"
+    shared_metals: [iron, zinc, cadmium]
+    shared_taxa: [escherichia-coli, fusobacterium-nucleatum, bacteroides-fragilis, lachnospiraceae-depleted, faecalibacterium-depleted]
+    shared_ecological: [hypoxia, biofilm, barrier-dysfunction, SCFA-depletion]
+    overlap_score: 0.58
+  - condition: "[[depression]]"
+    shared_metals: [zinc-depleted, iron]
+    shared_taxa: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]
+    shared_ecological: [gut-brain-axis, tryptophan-depletion, SCFA-depletion, barrier-dysfunction]
+    overlap_score: 0.40
+  - condition: "[[rheumatoid-arthritis]]"
+    shared_metals: [iron, zinc-depleted, copper]
+    shared_taxa: [escherichia-coli, lachnospiraceae-depleted]
+    shared_ecological: [barrier-dysfunction, autoimmune-activation, SCFA-depletion]
+    overlap_score: 0.36
+
+karen_brain_primitives: [1, 2, 3, 4, 5, 8]
 
 # Layer 1: Metallomic signature
 metallomic_signature:

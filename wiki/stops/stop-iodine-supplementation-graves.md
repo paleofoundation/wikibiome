@@ -16,6 +16,8 @@ alternative: "Precise iodine status assessment guided by urinary iodine concentr
 platform: cureva
 ---
 
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
 ## Conventional Rationale
 
 Graves' disease is a thyroid condition, and iodine is the essential substrate for thyroid hormone synthesis (T3 and T4). The intuitive clinical response is to ensure adequate iodine intake, and patients often self-supplement with iodine-containing products (kelp, iodized salt, thyroid support supplements) under the assumption that more iodine means better thyroid function.

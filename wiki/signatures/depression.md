@@ -2,11 +2,51 @@
 title: "Major Depressive Disorder — Microbiome Signature"
 type: signature
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 sources: [ogundare-2024-metals-behavioral-depression-women, rokoff-2023-metal-mixtures-maternal-depression, ni-2022-gut-microbiota-psychiatric-disorders-mr, romano-2023-gut-microbiome-children-mental-health-umbrella-review, hadrich-2025-gut-mycobiome-neuropsychiatric-disorders, campanale-2025-endocannabinoidome-gut-microbiome-brain-asd, jacobson-2022-environmental-chemicals-perinatal-psychopathology, zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiome, mathew-2022-serotoninergic-antidepressants-asd-systematic-review, siegmann-2020-graves-disease-depression-mechanistic, boeschoten-2017-depression-anxiety-ms-meta-analysis, balali-mood-2021-toxic-mechanisms-five-heavy-metals, macer-2017-antidepressants-ibd-systematic-review, yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr, jiang-2023-gut-microbiome-metabolites-graves, parodi-2021-gut-brain-axis-ms-trigger-or-consequence, pourmirzaiee-2024-ppd-magnesium-infant-development, etebary-2010-ppd-serum-trace-elements, hiremath-2021-zinc-ppd-case-control]
+source_count: 19
 tags: [mental-health, neuropsychiatric, mood-disorder, major-depressive-disorder, gut-brain-axis, tryptophan-metabolism, serotonin, inflammation, metals]
 platform: both
 cureva_status: partial
+
+# Confidence per layer
+confidence:
+  metallomic: high
+  taxonomic: high
+  nutritional_immunity: moderate
+  ecological: high
+  virulence_enzymes: moderate
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[anxiety]]"
+    shared_metals: [copper, zinc]
+    shared_taxa: [faecalibacterium-prausnitzii, bifidobacterium, lachnospiraceae]
+    shared_ecological: [dysbiosis, leaky-gut, HPA-axis-dysregulation]
+    overlap_score: 0.68
+  - condition: "[[schizophrenia]]"
+    shared_metals: [copper, zinc]
+    shared_taxa: [clostridium, escherichia-coli, lachnospiraceae]
+    shared_ecological: [dysbiosis, impaired-tryptophan-metabolism, neuroinflammation]
+    overlap_score: 0.52
+  - condition: "[[parkinsons-disease]]"
+    shared_metals: [iron, lead]
+    shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, prevotella]
+    shared_ecological: [dysbiosis, leaky-gut, neuroinflammation, reduced-SCFA-production]
+    overlap_score: 0.48
+  - condition: "[[multiple-sclerosis]]"
+    shared_metals: [cadmium, lead]
+    shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, candida-albicans]
+    shared_ecological: [dysbiosis, neuroinflammation, SCFA-depletion]
+    overlap_score: 0.45
+  - condition: "[[PCOS]]"
+    shared_metals: [zinc, iron]
+    shared_taxa: [bacteroides, escherichia-coli]
+    shared_ecological: [dysbiosis, hormonal-dysregulation, leaky-gut]
+    overlap_score: 0.38
+
+karen_brain_primitives: [1, 2, 3, 5]
 
 # Layer 1: Metallomic signature
 metallomic_signature:
@@ -45,10 +85,6 @@ ecological_features: [dysbiosis, leaky-gut, intestinal-permeability, endotoxemia
 # Layer 5: Key virulence enzymes expressed
 virulence_enzymes: [tryptophanase, beta-glucuronidase, LPS-biosynthesis, pro-inflammatory-metabolite-synthesis, biofilm-formation-enzymes]
 
-# Cureva pipeline status
-cureva_status: partial
-validated_interventions: []
-stops: []
 ---
 
 ## Overview

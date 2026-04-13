@@ -3,8 +3,10 @@
 title: "Type 2 Diabetes — Microbiome Signature"
 type: signature
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 sources: [khan-2014-metals-type2-diabetes, lu-2024-nickel-diabetes-meta-analysis, wu-2017-metformin-gut-microbiome-t2d-nature-medicine, wu-2017-metformin-gut-microbiome-t2d-therapeutic-effects, li-2019-heavy-metal-metabolic-health-gut-microbiome, chambers-2018-scfa-metabolic-cardiovascular-health, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, walker-2021-framingham-gut-microbiome-cardiometabolic, elbere-2021-metformin-gut-microbiome-epigenetics-t2d-thesis, kouchaki-2017-clinical-metabolic-probiotic-ms, dixon-2023-prebiotics-metformin-gi-side-effects-youth-t2dm, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, cheng-2021-cadmium-enterococcus-metabolic, liu-2025-cardiometabolic-nickel, herrema-2020-microbiome-cardiovascular-disease-ascvd, zhu-2023-gut-microbiota-metabolic-pathways-cvd]
+source_count: 16
 tags: [metabolic-disease, endocrine-dysfunction, zinc-dependent, iron-overload, nickel-exposure, SCFA-depletion, insulin-resistance, hyperglycemia]
 
 # Layer 1: Metallomic signature
@@ -52,10 +54,47 @@ ecological_features: [dysbiosis, SCFA-depletion, LPS-elevation, bile-acid-dysmet
 # Layer 5: Key virulence enzymes expressed
 virulence_enzymes: [lipopolysaccharide, choline-TMA-lyase, bile-acid-dehydratase, carbohydrate-fermentation-enzymes]
 
+# Confidence per layer
+confidence:
+  metallomic: high
+  taxonomic: high
+  nutritional_immunity: high
+  ecological: high
+  virulence_enzymes: moderate
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[obesity]]"
+    shared_metals: [iron, cadmium, nickel, lead]
+    shared_taxa: [escherichia-coli, enterobacteriaceae, streptococcus, faecalibacterium-prausnitzii, bifidobacterium, akkermansia-muciniphila, lachnospiraceae]
+    shared_ecological: [dysbiosis, SCFA-depletion, LPS-elevation, impaired-intestinal-barrier]
+    overlap_score: 0.78
+  - condition: "[[cvd]]"
+    shared_metals: [iron, cadmium, nickel, lead]
+    shared_taxa: [escherichia-coli, enterobacteriaceae, streptococcus, lachnospiraceae, roseburia]
+    shared_ecological: [dysbiosis, SCFA-depletion, LPS-elevation, TMAO-production, bile-acid-dysmetabolism]
+    overlap_score: 0.75
+  - condition: "[[pcos]]"
+    shared_metals: [iron, cadmium, nickel, lead]
+    shared_taxa: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii, prevotella]
+    shared_ecological: [dysbiosis, insulin-resistance, SCFA-depletion, reduced-microbial-diversity]
+    overlap_score: 0.70
+  - condition: "[[ckd]]"
+    shared_metals: [cadmium, nickel, lead, iron]
+    shared_taxa: [enterobacteriaceae, faecalibacterium-prausnitzii, akkermansia-muciniphila, lachnospiraceae]
+    shared_ecological: [dysbiosis, LPS-elevation, impaired-intestinal-barrier]
+    overlap_score: 0.55
+  - condition: "[[depression]]"
+    shared_metals: [iron, cadmium, lead]
+    shared_taxa: [escherichia-coli, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium]
+    shared_ecological: [dysbiosis, SCFA-depletion, inflammation]
+    overlap_score: 0.52
+
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: []
 stops: []
+karen_brain_primitives: [1, 2, 3, 5]
 platform: cureva
 ---
 

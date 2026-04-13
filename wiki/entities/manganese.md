@@ -2,6 +2,7 @@
 
 title: Manganese
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [racette-2017-manganese-parkinsonism-welders.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, ahmed-2025-metals-alzheimers-mechanistic-review.md, mhaibes-2017-blood-metals-pcos-obese.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements.md, hopfner-2025-infant-formula-dietary-exposure-elements-germany.md, zhu-2024-toxic-essential-metals-gut-microbiota.md, brylinski-2025-trace-elements-thyroid-diseases.md, scholefield-2024-brain-metallomics-dementia.md, khan-2014-metals-type2-diabetes.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, saleh-2020-serum-trace-elements-prostate-cancer.md, jacobson-2022-environmental-chemicals-perinatal-psychopathology.md, chin-chan-2015-environmental-pollutants-ad-pd.md, bakulski-2020-heavy-metals-alzheimers-dementias.md]

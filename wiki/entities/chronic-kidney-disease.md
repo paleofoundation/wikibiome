@@ -163,3 +163,4 @@ CKD metallomic research reveals stark health equity issues:
 - **Related diseases**: [[parkinsons-disease]] (shared ferroptosis pathway), [[alzheimers-disease]] (shared ferroptosis), [[type-2-diabetes]] (common comorbidity; shared Cd/Pb exposure), [[pcos]] (shared toxic metal burden)
 - **Environmental**: [[soil-contamination]], [[water-contamination]], [[agricultural-exposure]], [[electroplating-industry]]
 - **Interventions**: [[metal-sequestering-probiotics]], [[iron-chelation]], [[clean-water-access]]
+- [[biomarkers]] -- CKD staging relies on eGFR and albuminuria; metal biomarkers (blood Cd, Pb, urinary metallomics) as exposure assessment

@@ -5,12 +5,14 @@ type: source
 created: 2026-04-09
 updated: 2026-04-09
 authors: [Karen Pendergrass]
-journal: Journal of Food Metallomics
+journal: "Zenodo Preprint"
 year: 2026
 tags: [heavy-metals, infant-food-safety, certification, ALARA, regulatory-compliance, lead, arsenic, cadmium, mercury, food-contamination, litigation, third-party-certification]
 doi: "10.5281/zenodo.18905821"
 platform: wikibiome
 ---
+
+> **Note:** This is a preprint by the WikiBiome founder, not independently peer-reviewed journal literature.
 
 ## Summary
 

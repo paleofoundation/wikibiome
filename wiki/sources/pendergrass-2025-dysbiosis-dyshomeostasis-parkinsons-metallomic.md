@@ -6,13 +6,15 @@ created: 2026-04-10
 updated: 2026-04-10
 authors: [Karen Pendergrass]
 year: 2025
-journal: "Microbiome Medicine Journal"
+journal: "Zenodo Preprint"
 doi: "10.5281/zenodo.18068369"
 tags: [parkinsons-disease, metallomics, dysbiosis, ferroptosis, gut-brain-axis, microbiome, iron, nickel, manganese]
 platform: wikibiome
 ---
 
-# From Dysbiosis to Dyshomeostasis: Why Parkinson's Requires a Metallomic–Microbiome Lens
+# From Dysbiosis to Dyshomeostasis: Why Parkinson's Requires a Metallomic-Microbiome Lens
+
+> **Note:** This is a preprint by the WikiBiome founder, not independently peer-reviewed journal literature.
 
 ## Summary
 

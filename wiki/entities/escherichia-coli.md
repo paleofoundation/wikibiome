@@ -102,3 +102,5 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 - [[proteus-mirabilis]] -- both cause UTI with nickel-dependent virulence mechanisms
 - [[nutritional-immunity]] -- lipocalin-2 and calprotectin counteract E. coli metal acquisition
 - [[staphylococcus-aureus]] -- yersiniabactin (Ni-binding) parallels staphylopine (Ni-binding)
+- [[co-selection]] -- metal resistance plasmids carrying ESBL and carbapenemase genes
+- [[antimicrobial-resistance]] -- ESBL-producing and carbapenem-resistant E. coli are major AMR threats

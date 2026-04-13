@@ -103,12 +103,28 @@ This explains why oral iron is contraindicated in active UC and why iron-restric
 - **FMT** -- emerging standard for refractory UC
 - **5-ASA (mesalazine)** -- mainstay; bacterial azoreductases convert prodrug sulfasalazine to active 5-ASA (a [[pharmacomicrobiomics]] interaction)
 
-## See Also
+## Key Sources
 
-- [[inflammatory-bowel-disease]] -- the parent category
-- [[crohns-disease]] -- the key differential
-- [[calprotectin]] -- primary non-invasive biomarker
-- [[intestinal-permeability]] -- barrier dysfunction central to UC
-- [[dysbiosis]] -- the microbial disruption driving and maintaining UC
-- [[short-chain-fatty-acids]] -- the depleted protective metabolites
-- [[immune-balance]] -- Th17/Treg imbalance in UC
+- [[amerikanou-2022-ibd-biomarkers-trace-metals]]
+- [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]
+- [[ghosh-2023-heavy-metals-gut-barrier-integrity]]
+- [[khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]]
+- [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]
+- [[zhu-2024-toxic-essential-metals-gut-microbiota]]
+
+## Connections
+
+- [[inflammatory-bowel-disease]] -- the parent category; UC is the mucosal-limited colonic subtype
+- [[crohns-disease]] -- the key differential; distinct metal signature and microbiome pattern
+- [[iron]] -- dominant metal abnormality; chronic mucosal bleeding drives deficiency; oral iron feeds pathobionts
+- [[zinc]] -- depleted in active UC; supplementation improves barrier function and reduces relapse
+- [[copper]] -- elevated serum Cu during flares (acute phase response); Cu/Zn ratio tracks disease activity
+- [[selenium]] -- deficiency common and correlates with severity; required for antioxidant defense
+- [[calprotectin]] -- primary non-invasive biomarker; very high (>250 mcg/g) in active disease
+- [[dysbiosis]] -- F. prausnitzii and Roseburia depletion; E. coli and Enterococcus enrichment
+- [[short-chain-fatty-acids]] -- profound butyrate reduction creates colonocyte energy crisis
+- [[intestinal-permeability]] -- barrier dysfunction central to the inflammation-translocation vicious cycle
+- [[immune-balance]] -- Th17/Treg imbalance perpetuates mucosal inflammation
+- [[fecal-microbiota-transplant]] -- strongest FMT evidence of any IBD subtype; 25-35% clinical remission
+- [[probiotics]] -- VSL#3 for maintaining remission; E. coli Nissle 1917 efficacy comparable to mesalazine
+- [[pharmacomicrobiomics]] -- bacterial azoreductases convert sulfasalazine to active 5-ASA

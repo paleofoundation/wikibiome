@@ -7,6 +7,7 @@ updated: 2026-04-10
 sources: [swidsinski-2017-colonic-microbiome-ms-ketogenic, trend-2021-serum-scfas-immune-cells-biomarkers-ms, katzsand-2018-diet-ms-mechanistic-review]
 tags: [dietary, multiple-sclerosis, microbiome-restoration, SCFA-recovery, dysbiosis]
 intervention_class: dietary
+cureva_status: partial
 
 # Triangle validation for each condition
 triangles:

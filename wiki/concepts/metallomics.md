@@ -85,7 +85,7 @@ Plasma metallomic profiling identifies biomarkers for acute myocardial infarctio
 
 - **Copper significantly elevated** and **selenium decreased** in AMI patients
 - **Element-pair ratios** (Cu/Se, Fe/Cu) are more sensitive than individual element concentrations
-- Random forest models incorporating metallomic features (Cu/Se, Fe/Cu) alongside traditional risk factors achieved AUC of 0.942
+- Random forest models incorporating metallomic features (Cu/Se, Fe/Cu) alongside traditional risk factors achieved AUC of 0.942 in a 10-feature model -- not from metals alone
 - Longitudinal tracking shows Cu and Se remain significantly altered at 6 months post-infarction while Fe normalizes
 - Essential elements exhibit **ambivalent (U- or J-shaped)** relationships with AMI risk, meaning both deficiency and excess are harmful
 
@@ -116,7 +116,7 @@ The evidence across this wiki demonstrates three tiers of metallomic diagnostic 
 
 ### Tier 1: Disease Detection (Is disease present?)
 - **Pancreatic cancer**: Ca+Mg+Zn+Cu urine panel achieves AUC 0.99 [[schilling-2020-urine-metallomics-pancreatic-cancer]]
-- **AMI**: Cu/Se ratio with random forest achieves AUC 0.942 [[lim-2023-plasma-metallomics-ami]]
+- **AMI**: Random forest model achieves AUC 0.942 -- in a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]]
 - **Lung cancer**: Al and Mn achieve near-perfect AUC [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
 
 ### Tier 2: Disease Differentiation (Which disease is it?)
@@ -131,6 +131,10 @@ The evidence across this wiki demonstrates three tiers of metallomic diagnostic 
 
 ### The Convergence with Microbial Metallomics
 The diagnostic power of metallomic signatures extends to the host-microbiome interface. Infection metallomics (detecting pathogen metallophores in clinical samples) and gut metallomic profiling (fecal metal patterns) represent the microbiome-facing side of the same coin. In the future, an integrated metallomic-taxonomic-metabolomic signature may provide the most complete disease fingerprint — capturing what metals are dysregulated, which organisms are exploiting that dysregulation, and what metabolic consequences follow.
+
+## Critical Limitation
+
+Critical limitation: All metallomic diagnostic panels described here are from discovery-phase studies with small cohorts (n=21-101). Biomarker discovery studies routinely show high AUC values that shrink or fail to replicate in independent validation cohorts. No metallomic diagnostic panel has been validated in a prospective clinical trial as of 2025.
 
 ## Emerging Directions
 
@@ -160,3 +164,4 @@ Metallomics combined with genomics (metalloprotein gene variants), metabolomics 
 - [[gut-metal-microbiome]] -- microbial metallomics and fecal metallomic profiling extend the approach to the gut ecosystem
 - [[metalloestrogens]] -- metallomic signatures in breast tissue and peritoneal fluid can detect cadmium and nickel levels relevant to estrogenic disruption
 - [[environmental-metal-exposure]] -- metallomics provides the analytical framework for exposure assessment and biomonitoring
+- [[biomarkers]] -- metallomic profiles serve as multi-element biomarkers for disease diagnosis, staging, and treatment monitoring

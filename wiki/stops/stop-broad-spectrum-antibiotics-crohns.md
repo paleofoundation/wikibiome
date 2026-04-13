@@ -16,6 +16,8 @@ alternative: "Targeted antimicrobial strategies (e.g., bacteriophage therapy tar
 platform: cureva
 ---
 
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
 ## Conventional Rationale
 
 Broad-spectrum antibiotics are sometimes prescribed to reduce bacterial load and manage infection-driven inflammation in Crohn's disease flares.

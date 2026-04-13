@@ -3,9 +3,39 @@
 title: "Graves' Disease — Microbiome Signature"
 type: signature
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 sources: [graves-ibd-mendelian-2023, graves-ra-mendelian-2021, antonelli-2016-graves-epidemiology, song-2023-graves-depression, uncovering-causal-gut-thyroid-2024, maciejewski-2025-trace-elements-thyroid, yao-2023-oral-gut-thyroid-cancer, selenium-thyroid-autoimmunity-2015, kravchenko-2023-thyroid-minerals, abraham-2005-drug-therapy-graves, graves-targeted-therapy-2025, preliminary-flora-changes-graves-2022, berberine-methimazole-graves-2021, mian-2022-diet-thyroid, gluten-free-thyroiditis-2024, gut-dysbiosis-treg-th17-graves-2020, gut-microbiome-metabolites-graves-2022, liu-2024-gut-immune-graves, associations-microbiota-thyroid-2020]
+source_count: 19
 tags: [autoimmune, thyroid, endocrine, estrogen-dependent]
+
+# Confidence per layer
+confidence:
+  metallomic: moderate
+  taxonomic: moderate
+  nutritional_immunity: moderate
+  ecological: moderate
+  virulence_enzymes: preliminary
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[hashimotos-thyroiditis]]"
+    shared_metals: [selenium, iodine, iron, zinc]
+    shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, proteobacteria, prevotella]
+    shared_ecological: [Th17-Treg-imbalance, SCFA-deficiency, molecular-mimicry, intestinal-permeability]
+    overlap_score: 0.78
+  - condition: "[[depression]]"
+    shared_metals: [lead, iron, selenium]
+    shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli]
+    shared_ecological: [dysbiosis, neuroinflammation, LPS-translocation]
+    overlap_score: 0.42
+  - condition: "[[IBD]]"
+    shared_metals: [iron, zinc]
+    shared_taxa: [bacteroides-fragilis, faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli]
+    shared_ecological: [intestinal-permeability, Th17-Treg-imbalance, SCFA-deficiency, LPS-translocation]
+    overlap_score: 0.55
+
+karen_brain_primitives: [1, 2, 3, 5]
 
 # Layer 1: Metallomic signature
 metallomic_signature:

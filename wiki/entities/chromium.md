@@ -2,6 +2,7 @@
 
 title: Chromium
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
@@ -86,3 +87,5 @@ A transition metal whose hexavalent form, **Cr(VI)**, is a potent human carcinog
 - [[DNA-damage]] — primary mechanism
 - [[oxidative-stress]] — secondary mechanism
 - [[metal-carcinogenesis]] — overarching concept
+- [[heavy-metals]] — hexavalent chromium is a toxic heavy metal and IARC Group 1 carcinogen
+- [[environmental-metal-exposure]] — occupational (chrome plating, stainless steel welding) and environmental (contaminated water) chromium exposure

@@ -2,6 +2,7 @@
 
 title: Iron
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads.md, salnikov-2008-metal-carcinogenesis.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md, romero-espejel-2013-streptococcus-pneumoniae-iron.md, roberts-2019-lactoferrin-genital-infections-iron.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, scholefield-2024-brain-metallomics-dementia.md, tian-2020-iron-supplementation-ppd-protocol.md, azami-2019-anemia-ppd-meta-analysis.md, etebary-2010-ppd-serum-trace-elements.md, brylinski-2025-trace-elements-thyroid-diseases.md, kravchenko-2023-thyroid-hormones-minerals-AITD.md, lim-2023-plasma-metallomics-ami.md, khan-2014-metals-type2-diabetes.md, saleh-2020-serum-trace-elements-prostate-cancer.md, zhang-2022-metallomics-cancer-review.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, patil-2021-infection-metallomics-critical-care.md, chin-chan-2015-environmental-pollutants-ad-pd.md]
@@ -57,7 +58,7 @@ The most abundant transition metal in the human body and arguably the most conse
 
 ### Postpartum Depression
 - **Postpartum anemia significantly increases PPD risk**: RR = 1.887 (95% CI: 1.255-2.838) across 10 studies; pregnancy anemia RR = 1.240 [[azami-2019-anemia-ppd-meta-analysis]].
-- Low serum ferritin (<1 ug) associated with **3.98-fold** increased PPD risk [[azami-2019-anemia-ppd-meta-analysis]].
+- The meta-analysis found postpartum anemia increases PPD risk (RR 1.887). One individual study within the meta-analysis reported a 3.98-fold risk with very low ferritin (<1 ug/L), but this was not the pooled estimate [[azami-2019-anemia-ppd-meta-analysis]].
 - Iron deficiency alters concentrations of cytochrome C, [[dopamine]], [[serotonin]], and GABA, with adverse effects on brain function [[tian-2020-iron-supplementation-ppd-protocol]].
 - Iron is essential for dopamine synthesis; iron supplementation is a proposed PPD treatment [[etebary-2010-ppd-serum-trace-elements]].
 - Elevated copper alongside iron deficiency in PPD suggests a Cu/Fe imbalance in pathophysiology [[etebary-2010-ppd-serum-trace-elements]].
@@ -114,10 +115,10 @@ Iron is the centerpiece of **[[nutritional-immunity]]** -- the host strategy of 
 
 ## Biomarkers
 
-- **Serum ferritin**: Reflects iron stores; <1 ug associated with 3.98x PPD risk; elevated in T2D and cancer [[azami-2019-anemia-ppd-meta-analysis]], [[khan-2014-metals-type2-diabetes]]].
+- **Serum ferritin**: Reflects iron stores; postpartum anemia associated with 1.89x PPD risk (one sub-study reported 3.98x with ferritin <1 ug/L, but this was not the pooled estimate); elevated in T2D and cancer [[azami-2019-anemia-ppd-meta-analysis]], [[khan-2014-metals-type2-diabetes]].
 - **Hemoglobin**: Standard clinical marker for iron deficiency anemia.
 - **Hepcidin**: Master regulator of iron homeostasis; positively associated with vaginal lactoferrin [[roberts-2019-lactoferrin-genital-infections-iron]].
-- **Fe/Cu ratio**: Decreased in AMI; more sensitive than individual elements; AUC 0.942 in combined model [[lim-2023-plasma-metallomics-ami]].
+- **Fe/Cu ratio**: Decreased in AMI; more sensitive than individual elements; AUC 0.942 in a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors -- not from metals alone [[lim-2023-plasma-metallomics-ami]].
 - **Transferrin receptor (sTfR)**: Reflects tissue iron demand.
 - **Siderophore detection**: Iron-acquiring metallophores as biomarkers for invasive bacterial and fungal infections [[patil-2021-infection-metallomics-critical-care]].
 
@@ -147,3 +148,7 @@ Iron is the centerpiece of **[[nutritional-immunity]]** -- the host strategy of 
 - [[thyroid-autoimmunity]] -- iron deficiency impairs TPO activity
 - [[staphylococcus-aureus]] -- elaborate iron acquisition systems to overcome nutritional immunity
 - [[lactoferrin]] -- iron-binding glycoprotein central to mucosal immune defense
+- [[metal-chelation-therapy]] -- iron chelation (deferiprone, deferoxamine) explored in neurodegeneration and iron overload
+- [[glutathione]] -- GSH is required for GPX4-mediated defense against iron-driven ferroptosis
+- [[dyshomeostasis]] -- iron dyshomeostasis is the prototype metal imbalance across multiple disease domains
+- [[gut-microbiome]] -- iron status shapes the balance between commensals and pathobionts in the gut

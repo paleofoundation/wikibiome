@@ -126,3 +126,4 @@ In practice, these mechanisms operate simultaneously, and the net effect on estr
 - [[ferroptosis]] -- cadmium's effects on iron homeostasis and oxidative stress connect to ferroptotic pathways in estrogen-responsive tissues
 - [[environmental-metal-exposure]] -- dietary cadmium (rice, leafy vegetables, shellfish) and nickel (legumes, chocolate, grains) represent the primary exposure routes for metalloestrogen effects
 - [[metallomics]] -- metallomic profiling of breast tissue, peritoneal fluid, and blood can detect the metal signatures associated with estrogenic disruption
+- [[ovarian-cancer]] -- Cd and Ni as metalloestrogens driving ovarian cell proliferation via ERa binding

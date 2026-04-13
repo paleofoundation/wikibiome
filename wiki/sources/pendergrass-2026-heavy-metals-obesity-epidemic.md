@@ -5,7 +5,7 @@ type: source
 created: 2026-04-09
 updated: 2026-04-09
 authors: [Karen Pendergrass]
-journal: Microbial Metallomics
+journal: "Zenodo Preprint"
 year: 2026
 tags: [obesity, heavy-metals, microbial-metallomics, gut-microbiome, insulin-resistance, cadmium, nickel, phosphate-fertilizers, SCFA, dysbiosis, metabolic-syndrome, environmental-obesogens]
 doi: "10.5281/zenodo.18434951"
@@ -13,6 +13,8 @@ platform: wikibiome
 ---
 
 # Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic
+
+> **Note:** This is a preprint by the WikiBiome founder, not independently peer-reviewed journal literature.
 
 ## Key Claims
 

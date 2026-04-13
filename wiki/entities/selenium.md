@@ -2,6 +2,7 @@
 
 title: Selenium
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [brock-2015-selenium-thyroid-autoimmunity.md, brylinski-2025-trace-elements-thyroid-diseases.md, kravchenko-2023-thyroid-hormones-minerals-AITD.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, scholefield-2024-brain-metallomics-dementia.md, lim-2023-plasma-metallomics-ami.md, saleh-2020-serum-trace-elements-prostate-cancer.md, zhang-2022-metallomics-cancer-review.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, smovrsnik-2025-trace-elements-pcos.md, hopfner-2025-infant-formula-dietary-exposure-elements-germany.md, shearston-2024-tampons-metal-exposure.md]
@@ -103,7 +104,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 ## Biomarkers
 
 - **Plasma/serum Se**: Directly measurable; decreased in AMI (persistent at 6 months), prostate cancer, and other malignancies [[lim-2023-plasma-metallomics-ami]], [[saleh-2020-serum-trace-elements-prostate-cancer]]].
-- **Cu/Se ratio**: Elevated in AMI; tracks longitudinally; incorporated into high-performing diagnostic models (AUC 0.942) [[lim-2023-plasma-metallomics-ami]].
+- **Cu/Se ratio**: Elevated in AMI; tracks longitudinally; incorporated into a 10-feature random forest model achieving AUC 0.942 -- combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]].
 - **Selenoprotein P**: Se-transport protein; emerging as functional Se status marker (reflects Se available for selenoprotein synthesis rather than total Se).
 - **GPX3 activity**: Functional marker of Se-dependent antioxidant capacity [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
 - **Anti-TPO antibodies**: Response to Se supplementation serves as clinical endpoint in thyroid autoimmunity trials [[brock-2015-selenium-thyroid-autoimmunity]].

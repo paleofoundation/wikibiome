@@ -187,3 +187,8 @@ Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 month
 ## Connections
 
 - [[metal-disease-matrix]]
+- [[fecal-microbiota-transplant]] -- case series evidence for FMT in refractory Crohn's; weaker than UC evidence
+- [[prebiotics]] -- prebiotic fiber supports butyrate producer recovery in Crohn's remission
+- [[microbial-biomarkers]] -- calprotectin and microbial diversity as non-invasive Crohn's monitoring tools
+- [[dyshomeostasis]] -- ZIP8 A391T variant creates zinc/manganese dyshomeostasis specific to Crohn's pathogenesis
+- [[biomarkers]] -- fecal calprotectin, CRP, and metallomic panels for disease activity monitoring

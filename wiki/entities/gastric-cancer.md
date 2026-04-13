@@ -86,12 +86,20 @@ H. pylori dominates the gastric microbiome in infected individuals but is not al
 - **[[Probiotics]]** -- Lactobacillus supplementation during H. pylori eradication reduces antibiotic side effects and may improve eradication rates
 - **Cadmium avoidance** -- smoking cessation (tobacco is a major Cd source), reducing dietary Cd
 
-## See Also
+## Connections
 
-- [[helicobacter-pylori]] -- the causative organism
-- [[hydrogenase]] -- the nickel-dependent energy enzyme enabling virulence
-- [[nickel]] -- the metal enabling H. pylori's cancer-promoting machinery
-- [[metal-carcinogenesis]] -- the broader metal-cancer framework
-- [[DNA-damage]] -- the molecular basis of carcinogenic transformation
-- [[inflammation]] -- the chronic driver of the Correa cascade
-- [[dietary-nickel-exposure]] -- dietary nickel as fuel for H. pylori
+- [[helicobacter-pylori]] -- the causative organism; nickel-dependent urease and hydrogenase power colonization and CagA delivery
+- [[nickel]] -- essential cofactor for H. pylori urease and [Ni-Fe] hydrogenase; dietary nickel fuels virulence
+- [[hydrogenase]] -- nickel-dependent energy enzyme enabling full colonization density
+- [[cadmium]] -- IARC Group 1 carcinogen targeting gastric mucosa; synergizes with H. pylori inflammation
+- [[iron]] -- H. pylori sequesters host iron; iron deficiency from chronic gastritis paradoxically promotes proliferation
+- [[lead]] -- associated with gastric cancer risk in occupational cohorts; inhibits DNA repair
+- [[selenium]] -- deficiency associates with gastric cancer risk; antioxidant defense via glutathione peroxidase
+- [[inflammation]] -- chronic NF-kB-driven inflammation powers the Correa cascade from gastritis to adenocarcinoma
+- [[oxidative-stress]] -- metal-induced and infection-driven ROS as central mutagenic mechanism
+- [[DNA-damage]] -- the molecular basis of carcinogenic transformation from H. pylori and metal exposure
+- [[metal-carcinogenesis]] -- gastric cancer exemplifies the metal-infection-cancer triad
+- [[dietary-nickel-exposure]] -- dietary nickel as substrate for H. pylori metalloenzymes in infected individuals
+- [[probiotics]] -- Lactobacillus supplementation during H. pylori eradication improves outcomes
+- [[pharmacomicrobiomics]] -- H. pylori eradication therapy reshapes the gastric and intestinal microbiome
+- [[colorectal-cancer]] -- shared metal-carcinogenesis pathways and microbiome-driven inflammation

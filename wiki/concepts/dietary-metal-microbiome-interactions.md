@@ -55,10 +55,10 @@ Certain gut microbes provide metal detoxification as an ecosystem service to the
 
 | Organism | Metal Detoxification Mechanism |
 |----------|-------------------------------|
-| [[lactobacillus\|Lactobacillus]] spp. | Cell-wall binding of Pb, Cd; reduction of Cr⁶⁺ to Cr³⁺ |
-| [[bifidobacterium\|Bifidobacterium]] spp. | Cell-surface adsorption of Cd, Pb |
-| [[saccharomyces-cerevisiae\|Saccharomyces cerevisiae]] | Cell-wall mannoprotein binding of metals; intracellular metallothionein sequestration |
-| [[bacillus\|Bacillus]] spp. | Extracellular precipitation of metals; biofilm-mediated immobilization |
+| [[lactobacillus|Lactobacillus]] spp. | Cell-wall binding of Pb, Cd; reduction of Cr⁶⁺ to Cr³⁺ |
+| [[bifidobacterium|Bifidobacterium]] spp. | Cell-surface adsorption of Cd, Pb |
+| [[saccharomyces-cerevisiae|Saccharomyces cerevisiae]] | Cell-wall mannoprotein binding of metals; intracellular metallothionein sequestration |
+| [[bacillus|Bacillus]] spp. | Extracellular precipitation of metals; biofilm-mediated immobilization |
 
 Dysbiosis that depletes these organisms reduces the gut's capacity to buffer against dietary metal exposure — creating a feed-forward loop where metal exposure causes dysbiosis that increases metal absorption that worsens dysbiosis.
 

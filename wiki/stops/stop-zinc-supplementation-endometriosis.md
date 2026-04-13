@@ -16,6 +16,8 @@ alternative: "Address the underlying microbial ecology; support nutritional immu
 platform: cureva
 ---
 
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
 ## Conventional Rationale
 
 Endometriosis patients may present with **low serum zinc levels**. Standard practice treats this as a nutritional deficiency requiring supplementation.

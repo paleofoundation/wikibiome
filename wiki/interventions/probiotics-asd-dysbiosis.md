@@ -13,6 +13,7 @@ sources: [
 ]
 tags: [probiotics, microbiota, dysbiosis, neurodevelopmental, intervention, lactobacillus, bifidobacterium]
 intervention_class: probiotic
+cureva_status: in-progress
 
 # Triangle Validation
 triangles:

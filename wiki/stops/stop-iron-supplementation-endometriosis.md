@@ -16,6 +16,8 @@ alternative: "Support nutritional immunity with [[lactoferrin-supplementation]] 
 platform: cureva
 ---
 
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
 ## Conventional Rationale
 
 Endometriosis patients frequently present with **anemia** or **low serum iron**. Standard clinical practice is to prescribe iron supplementation to correct the apparent deficiency. This seems logical on the surface — the patient is iron-deficient, so give them iron.

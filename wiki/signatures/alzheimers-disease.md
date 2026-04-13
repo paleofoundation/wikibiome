@@ -6,6 +6,34 @@ created: 2026-04-10
 updated: 2026-04-10
 sources: [ahmed-2025-metals-alzheimers-mechanistic-review, bakulski-2020-heavy-metals-alzheimers-dementias, bakulski-2025-heavy-metals-late-onset-alzheimers, romano-2021-microbiome-host-interactions-alzheimers, zhang-2021-lead-exposure-gut-microbiome-neurodegeneration, zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse, ling-2020-fecal-fungal-dysbiosis-alzheimers, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons, gao-2023-microglia-neurodegenerative-diseases, khatoon-2023-gut-microbiota-neurodegenerative, zhao-2023-probiotics-meta-analysis-alzheimers-parkinsons, scholefield-2024-brain-metallomics-dementia, armstrong-2024-alzheimers-extrinsic-factors-development, rosario-2025-microbiome-host-cometabolism-parkinsons-alzheimers, alonso-garcia-2021-gut-microbiota-proteinopathies, chui-2024-microbiome-interventions-neurodegenerative-diseases-systematic-review]
 tags: [neurodegenerative, cognitive-decline, dementia, metal-accumulation, neuroinflammation, gut-brain-axis]
+last_substantive_update: 2026-04-13
+source_count: 16
+
+confidence:
+  metallomic: high
+  taxonomic: high
+  nutritional_immunity: moderate
+  ecological: high
+  virulence_enzymes: moderate
+
+associated_conditions:
+  - condition: "[[parkinsons-disease]]"
+    shared_metals: [iron, copper-depleted, lead, cadmium]
+    shared_taxa: [escherichia-coli, lachnospiraceae-depleted, roseburia-depleted, faecalibacterium-depleted]
+    shared_ecological: [hypoxia, neuroinflammation, gut-brain-axis, barrier-dysfunction, alpha-synuclein-amyloid-seeding]
+    overlap_score: 0.68
+  - condition: "[[depression]]"
+    shared_metals: [zinc-depleted, iron]
+    shared_taxa: [lachnospiraceae-depleted, faecalibacterium-depleted, roseburia-depleted]
+    shared_ecological: [neuroinflammation, tryptophan-dysmetabolism, SCFA-depletion, barrier-dysfunction]
+    overlap_score: 0.45
+  - condition: "[[schizophrenia]]"
+    shared_metals: [copper, zinc-dysregulated]
+    shared_taxa: [escherichia-coli, lachnospiraceae-depleted]
+    shared_ecological: [neuroinflammation, barrier-dysfunction]
+    overlap_score: 0.32
+
+karen_brain_primitives: [1, 2, 3, 5, 8]
 
 # Layer 1: Metallomic signature
 metallomic_signature:

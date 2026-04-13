@@ -6,6 +6,39 @@ updated: 2026-04-10
 paper_count: 64
 sources: [herrema-2020-microbiome-cardiovascular-disease-ascvd, jie-2017-gut-microbiome-acvd, zhen-2023-tmao-cardiovascular-diseases-review, liu-2025-cardiometabolic-nickel, fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum, tonelli-2023-oral-microbiome-cvd-pathophysiology, paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd, walker-2021-framingham-gut-microbiome-cardiometabolic, chambers-2018-scfa-metabolic-cardiovascular-health, luo-2022-gut-microbiota-metabolites-heart-failure-mr, li-2023-gut-microbiome-hypertension-bidirectional-mr, foroughi-2026-periodontal-biomarkers-cvd, hoffelner-2025-emerging-therapy-targets-microbiome-cvd]
 tags: [cardiovascular-disease, atherosclerosis, heart-failure, hypertension, dysbiosis, TMAO, SCFA-depletion, microbial-diversity-loss, enterobacteriaceae-enrichment, strict-anaerobe-depletion]
+last_substantive_update: 2026-04-13
+source_count: 13
+
+confidence:
+  metallomic: moderate
+  taxonomic: high
+  nutritional_immunity: high
+  ecological: high
+  virulence_enzymes: high
+
+associated_conditions:
+  - condition: "[[type-2-diabetes]]"
+    shared_metals: [iron, nickel, cadmium]
+    shared_taxa: [enterobacteriaceae, escherichia-coli, roseburia-depleted, faecalibacterium-depleted]
+    shared_ecological: [TMAO-production, metabolic-syndrome-overlap, SCFA-depletion, barrier-dysfunction]
+    overlap_score: 0.62
+  - condition: "[[obesity]]"
+    shared_metals: [iron]
+    shared_taxa: [enterobacteriaceae, faecalibacterium-depleted, lachnospiraceae-depleted]
+    shared_ecological: [SCFA-depletion, metabolic-inflammation, barrier-dysfunction]
+    overlap_score: 0.48
+  - condition: "[[chronic-kidney-disease]]"
+    shared_metals: [lead, cadmium]
+    shared_taxa: [enterobacteriaceae, escherichia-coli]
+    shared_ecological: [TMAO-accumulation, indoxyl-sulfate-accumulation, barrier-dysfunction]
+    overlap_score: 0.41
+  - condition: "[[depression]]"
+    shared_metals: [iron]
+    shared_taxa: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]
+    shared_ecological: [tryptophan-dysmetabolism, SCFA-depletion, barrier-dysfunction]
+    overlap_score: 0.35
+
+karen_brain_primitives: [1, 2, 5, 8]
 
 # Layer 1: Metallomic signature
 metallomic_signature:

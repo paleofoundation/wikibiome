@@ -66,3 +66,5 @@ The co-occurrence of metal resistance and antibiotic resistance genes on mobile 
 - [[metal-homeostasis]] -- demonstrates cross-metal toxicity cascades from single-metal exposure
 - [[pseudomonas-aeruginosa]] -- shares siderophore-based metal acquisition strategies
 - [[cardiovascular-disease]] -- enriched in ACS gut microbiome profiles
+- [[co-selection]] -- Cd efflux genes co-located with carbapenem resistance determinants on integrons
+- [[antimicrobial-resistance]] -- carbapenem-resistant A. baumannii is a WHO critical-priority pathogen

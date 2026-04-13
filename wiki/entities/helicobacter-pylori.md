@@ -74,4 +74,6 @@ A gastric pathogen that is arguably the **most nickel-dependent human pathogen k
 - [[nickel]] — essential cofactor for its two main virulence factors
 - [[nutritional-immunity]] — host calprotectin/lactoferrin may restrict nickel availability
 - [[metal-carcinogenesis]] — H. pylori-mediated gastric cancer is linked to hydrogenase-powered CagA translocation
+- [[gastric-cancer]] -- H. pylori is the primary causative organism; nickel-dependent metalloenzymes power the cancer cascade
+- [[gerd]] -- controversial relationship; H. pylori eradication may worsen reflux in some patients
 - Contrast with [[salnikov-2008-metal-carcinogenesis]]: nickel causes cancer in host cells via epigenetics, while in H. pylori it enables cancer via CagA

@@ -2,6 +2,7 @@
 
 title: Enterococcus
 type: entity
+subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [cheng-2021-cadmium-enterococcus-metabolic.md, rebelo-2021-enterococcus-metal-antibiotic-resistance.md]
@@ -89,3 +90,5 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 - [[streptococcus-pneumoniae]] -- related metal homeostasis machinery; shared CDF pump family
 - [[pseudomonas-aeruginosa]] -- EPS-mediated extracellular metal sequestration parallels siderophore strategy
 - [[nutritional-immunity]] -- host metal restriction affects Enterococcal infection dynamics
+- [[co-selection]] -- metal resistance genes co-located with vancomycin and aminoglycoside resistance on mobile elements
+- [[antimicrobial-resistance]] -- VRE (vancomycin-resistant Enterococcus) is a paradigmatic AMR threat in hospitals

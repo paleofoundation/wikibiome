@@ -174,3 +174,4 @@ The starkest evidence comes from African American vs rural African comparisons: 
 ## Connections
 
 - [[metal-disease-matrix]]
+- [[biomarkers]] -- fecal occult blood, CEA, and microbial biomarkers (F. nucleatum qPCR) for CRC screening and monitoring

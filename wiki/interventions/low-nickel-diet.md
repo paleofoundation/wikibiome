@@ -36,6 +36,7 @@ sources:
   - genchi-2020-nickel-human-health-environmental-toxicology
 tags: [dietary, metal-restriction, SNAS, nickel-allergy, nickel, evidence-based, nutritional-immunity]
 intervention_class: dietary
+cureva_status: complete
 
 triangles:
   - condition: "[[endometriosis]]"

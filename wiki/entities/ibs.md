@@ -95,11 +95,27 @@ Metal exposure compounds these shifts: [[dysbiosis]] from dietary nickel, cadmiu
 
 IBS co-occurs frequently with [[depression]] (50% comorbidity), [[endometriosis]] (shared nickel sensitivity and estrogen connections via [[estrobolome]]), fibromyalgia, and [[nickel-allergy|contact dermatitis]] -- all conditions with metal and microbiome dimensions.
 
-## See Also
+## Key Sources
 
-- [[nickel-allergy]] -- the underlying sensitization driving nickel ACM
-- [[dietary-nickel-exposure]] -- the trigger for SNAS symptoms
-- [[intestinal-permeability]] -- barrier dysfunction in IBS
-- [[inflammatory-bowel-disease]] -- the key differential diagnosis
-- [[dysbiosis]] -- microbiome disruption underlying IBS
-- [[probiotics]] -- therapeutic microbiome modulation
+- [[borghini-2020-endometriosis-nickel-ibs]]
+- [[lombardi-2020-snas-probiotics-dysbiosis]]
+- [[rizzi-2017-nickel-ibs]]
+- [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]
+- [[khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]]
+
+## Connections
+
+- [[nickel-allergy]] -- the underlying sensitization driving nickel ACM; 30-65% of IBS cohorts are nickel-sensitized
+- [[nickel]] -- dietary nickel triggers SNAS symptoms identical to IBS in sensitized individuals
+- [[dietary-nickel-exposure]] -- the trigger for SNAS symptoms; high overlap with FODMAP foods
+- [[zinc]] -- supplementation restores barrier function and supports antimicrobial peptide production
+- [[intestinal-permeability]] -- barrier dysfunction documented in IBS-D with elevated serum LPS
+- [[inflammatory-bowel-disease]] -- the key differential diagnosis; calprotectin distinguishes the two
+- [[dysbiosis]] -- reduced diversity with depletion of Lactobacillus, Bifidobacterium, F. prausnitzii
+- [[probiotics]] -- L. rhamnosus GG and B. infantis 35624 have best evidence for IBS symptom relief
+- [[depression]] -- 50% comorbidity rate; shared gut-brain axis and mast cell-nerve axis pathways
+- [[endometriosis]] -- shared nickel sensitivity and estrogen connections via estrobolome
+- [[calprotectin]] -- normal in IBS (<50 mcg/g) vs. markedly elevated in IBD; key differential biomarker
+- [[estrobolome]] -- connects IBS-endometriosis comorbidity through estrogen-microbiome interactions
+- [[methanobrevibacter-smithii]] -- enriched in constipation-predominant IBS; methane slows transit
+- [[gut-brain-axis]] -- visceral hypersensitivity and serotonin dysregulation mediated by gut-brain signaling

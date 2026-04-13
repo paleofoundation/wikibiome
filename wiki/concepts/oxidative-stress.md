@@ -313,6 +313,7 @@ Chelation therapy (EDTA, DMSA, DMPS) reduces toxic metal burden and can alleviat
 - [[metal-carcinogenesis]] -- oxidative stress as one of several mechanisms
 - [[metabolic-syndrome]] -- oxidative stress proposed as link to nickel exposure and MetS
 - [[nutritional-immunity]] -- host metal sequestration starves pathogen antioxidant enzymes
+- [[glutathione]] -- the primary intracellular antioxidant; GSH depletion by toxic metals is a central OS mechanism
 - [[DNA-damage]] -- downstream consequence of ROS; 8-oxo-dG as biomarker
 
 ### Pathogen Entities

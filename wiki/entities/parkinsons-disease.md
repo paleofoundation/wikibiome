@@ -156,3 +156,8 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 - **Pathogens**: [[escherichia-coli]] (curli cross-seeding alpha-synuclein), [[helicobacter-pylori]] (urease/Ni-dependent gut pathogen)
 - **Occupational**: [[welding-exposure]], [[manganese-parkinsonism]]
 - **Interventions**: [[iron-chelation]], [[metal-sequestering-probiotics]], [[fmt]], [[scfa-supplementation]]
+- [[fecal-microbiota-transplant]] -- emerging intervention to restore gut-brain axis signaling; early case series show motor improvement
+- [[neurodegeneration]] -- PD is the second most common neurodegenerative disease; ferroptosis as shared mechanism with AD
+- [[environmental-metal-exposure]] -- occupational Mn exposure (welding) and agricultural pesticide-metal mixtures as PD risk factors
+- [[glutathione]] -- GSH depletion in substantia nigra is an early PD feature; enables ferroptotic cascade
+- [[microbiome-derived-metabolites]] -- SCFA depletion and TMAO elevation implicated in PD gut-brain signaling

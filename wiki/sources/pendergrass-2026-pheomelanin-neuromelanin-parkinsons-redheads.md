@@ -5,7 +5,7 @@ type: source
 created: 2026-04-09
 updated: 2026-04-09
 authors: [Eyer K, Karen Pendergrass]
-journal: "Microbiome Medicine Roundtable, Limassol, Cyprus"
+journal: "Conference Presentation"
 year: 2025
 tags: [Parkinsons-disease, pheomelanin, eumelanin, neuromelanin, iron, copper, redheads, MC1R, melanin, dopamine, substantia-nigra, oxidative-stress, ferroptosis, metal-binding, neurodegeneration]
 doi: "10.5281/zenodo.17976306"
@@ -13,6 +13,8 @@ platform: wikibiome
 ---
 
 # Pheomelanin, Eumelanin, and Neuromelanin: A Metal-Linked Hypothesis for Parkinson's Risk in Redheads
+
+> **Note:** This is a conference presentation by the WikiBiome founder, not independently peer-reviewed journal literature.
 
 ## Key Claims
 

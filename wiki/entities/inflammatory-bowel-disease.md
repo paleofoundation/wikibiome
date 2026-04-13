@@ -90,3 +90,8 @@ IBD patients have significantly increased [[cardiovascular-disease]] risk:
 - [[cardiovascular-disease]] -- IBD patients at significantly increased CVD risk via shared inflammatory mechanisms
 - [[nutritional-immunity]] -- calprotectin and lactoferrin are nutritional immunity effectors elevated in IBD
 - [[metal-disease-matrix]] -- IBD is a key disease in the metal-disease interaction landscape
+- [[prebiotics]] -- prebiotic fiber supports SCFA producer recovery in IBD remission maintenance
+- [[fecal-microbiota-transplant]] -- strongest evidence in UC subtype; 25-35% remission; donor diversity predicts response
+- [[microbial-biomarkers]] -- fecal calprotectin and microbial diversity as non-invasive IBD monitoring tools
+- [[microbiome-derived-metabolites]] -- SCFA depletion, bile acid alterations, and tryptophan shunting in IBD
+- [[biomarkers]] -- calprotectin, CRP, hepcidin, and metallomic panels for disease activity tracking

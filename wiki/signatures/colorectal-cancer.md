@@ -7,6 +7,34 @@ updated: 2026-04-10
 paper_count: 28
 sources: [gao-2015-microbiota-disbiosis-colorectal-cancer, wu-2021-microbial-markers-populations-early-crc, qin-2024-consistent-microbiome-signatures-old-young-onset-crc, zou-2024-multi-omic-microbiome-genome-transcriptome-crc, hanus-2021-immune-microbiota-metabolites-crc-triad, hou-2022-gut-microbiota-immune-immunotherapy-crc, appunni-2021-dietary-factors-gut-microbiome-crc, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, zhao-2021-colorectal-cancer-microbiome-patterns-signatures, xu-2020-gut-microbiome-pd1-mss-crc-metabolic-pathway, carretta-2021-scfas-receptors-gut-inflammation-colon-cancer, xie-2025-cholesterol-crc-simvastatin-lactobacillus, li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort, bars-cortina-2024-16s-vs-shotgun-crc, saito-2019-metagenomic-gut-microbiota-colorectal-adenoma, purcell-2017-gut-microbiome-consensus-molecular-subtypes-crc, yu-2022-systematic-review-microbial-markers-colorectal-neoplasia, ma-2024-gut-microbiota-inflammatory-factors-crc-mr, liu-2025-immune-gut-microbiota-crc-mr-mediation, loke-2018-metabolomics-16s-crc-mucosa, weir-2013-stool-microbiome-metabolome-crc-healthy, marchesi-2011-towards-human-crc-microbiome, gao-2026-ketogenic-diet-fxr-nfkb-crc, farhana-2016-bile-acid-colon-cancer-stem-cells, simin-2020-antibiotic-use-crc-risk]
 tags: [colorectal-cancer, dysbiosis, fusobacterium, oral-pathogens, bile-acid-metabolism, epithelial-barrier, inflammation]
+last_substantive_update: 2026-04-13
+source_count: 25
+
+confidence:
+  metallomic: moderate
+  taxonomic: high
+  nutritional_immunity: high
+  ecological: high
+  virulence_enzymes: high
+
+associated_conditions:
+  - condition: "[[crohns-disease]]"
+    shared_metals: [iron, zinc, cadmium]
+    shared_taxa: [escherichia-coli, fusobacterium-nucleatum, bacteroides-fragilis, lachnospiraceae-depleted, faecalibacterium-depleted]
+    shared_ecological: [hypoxia, biofilm, barrier-dysfunction, SCFA-depletion]
+    overlap_score: 0.58
+  - condition: "[[pancreatic-cancer]]"
+    shared_metals: [iron, cadmium]
+    shared_taxa: [fusobacterium-nucleatum, porphyromonas-gingivalis, escherichia-coli]
+    shared_ecological: [oral-pathogen-translocation, biofilm, immune-evasion]
+    overlap_score: 0.37
+  - condition: "[[obesity]]"
+    shared_metals: [iron]
+    shared_taxa: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]
+    shared_ecological: [SCFA-depletion, metabolic-inflammation, bile-acid-dysmetabolism]
+    overlap_score: 0.40
+
+karen_brain_primitives: [1, 4, 5, 6, 8, 9]
 
 # Layer 1: Metallomic signature
 metallomic_signature:

@@ -14,6 +14,8 @@ platform: wikibiome
 
 # Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)
 
+> **Note:** This is a conference presentation by the WikiBiome founder, not independently peer-reviewed journal literature.
+
 ## Overview
 
 This source is based on Karen Pendergrass's presentation at the Amsterdam Endometriosis Conference (2026). The full transcript is available in `raw/karens-brain/`.

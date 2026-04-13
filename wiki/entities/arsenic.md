@@ -2,6 +2,7 @@
 
 title: Arsenic
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
@@ -73,3 +74,6 @@ A metalloid and potent carcinogen, primarily encountered through contaminated dr
 - [[epigenetic-modifications]] — shared mechanism with nickel
 - [[oxidative-stress]] — implicated but debated as primary mechanism
 - [[metal-carcinogenesis]] — overarching framework
+- [[glutathione]] — arsenic detoxification via arsenite methyltransferase requires GSH; chronic exposure depletes glutathione stores
+- [[heavy-metals]] — arsenic is a metalloid classified among the toxic heavy metals; IARC Group 1 carcinogen
+- [[environmental-metal-exposure]] — arsenic in groundwater, rice, and infant foods as major dietary exposure route

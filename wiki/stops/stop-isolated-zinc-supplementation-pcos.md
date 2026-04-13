@@ -16,6 +16,8 @@ alternative: "Prioritize fiber, probiotics, and glutathione repletion. If zinc i
 platform: cureva
 ---
 
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
 ## Conventional Rationale
 
 Some PCOS studies report **low serum zinc**, and zinc plays well-established roles in immune function, insulin signaling, and reproductive physiology. The intuitive response is to supplement zinc to correct the measured deficiency and support metabolic and hormonal recovery.

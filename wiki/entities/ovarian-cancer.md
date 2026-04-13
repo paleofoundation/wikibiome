@@ -5,7 +5,7 @@ type: entity
 subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
-sources: []
+sources: [alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse, al-natsheh-2022-stress-probiotics-ovarian-cancer-thesis, qin-2022-metagenomic-upper-reproductive-tract-ovarian-cancer, chen-2024-mediterranean-diet-ovarian-cancer-survival, reid-2017-epidemiology-ovarian-cancer-review, yammine-2020-dietary-fatty-acids-ovarian-cancer-epic]
 tags: [cancer, cadmium, nickel, arsenic, iron, metalloestrogens, ferroptosis, microbiome, mycobiome, fusobacterium]
 platform: wikibiome
 ---
@@ -88,6 +88,15 @@ Ferroptosis -- iron-dependent regulated cell death driven by lipid peroxidation 
 3. What is the relative contribution of Cd metalloestrogen signaling vs. genetic/hormonal risk factors?
 4. Can peritoneal microbiome profiling improve early detection through liquid biopsy of ascitic fluid?
 5. Do mycobiome-bacteria interactions in the peritoneal cavity influence ovarian cancer progression?
+
+## Key Sources
+
+- [[alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse]]
+- [[al-natsheh-2022-stress-probiotics-ovarian-cancer-thesis]]
+- [[qin-2022-metagenomic-upper-reproductive-tract-ovarian-cancer]]
+- [[chen-2024-mediterranean-diet-ovarian-cancer-survival]]
+- [[reid-2017-epidemiology-ovarian-cancer-review]]
+- [[yammine-2020-dietary-fatty-acids-ovarian-cancer-epic]]
 
 ## Connections
 

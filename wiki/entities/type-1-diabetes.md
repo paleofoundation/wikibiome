@@ -5,7 +5,7 @@ type: entity
 subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
-sources: []
+sources: [microbiome-autoimmune-2015-dysbiosis-autoantibodies-t1d, microbiome-immune-system-2017-modulation-t1d-risk, probiotics-treatment-2020-t1d-diabetes-review, metabolic-pathways-2023-2025-gut-microbiome-t1d, 16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis, abuqwider-2023-gut-microbiome-blood-glucose-t1d-systematic-review]
 tags: [autoimmune, zinc, iron, beta-cells, insulin, microbiome, dysbiosis, developmental-vulnerability, bifidobacterium, bacteroides]
 platform: wikibiome
 ---
@@ -89,6 +89,15 @@ The convergence of metal status and microbiome composition during early life cre
 3. Can *Bifidobacterium*-based probiotics reduce islet autoantibody development in genetically at-risk children?
 4. What is the role of ZnT8 autoantibodies -- are they pathogenic or merely a biomarker of beta cell destruction?
 5. Does ferroptosis contribute to beta cell death in T1D, and could ferroptosis inhibitors preserve beta cell mass?
+
+## Key Sources
+
+- [[microbiome-autoimmune-2015-dysbiosis-autoantibodies-t1d]]
+- [[microbiome-immune-system-2017-modulation-t1d-risk]]
+- [[probiotics-treatment-2020-t1d-diabetes-review]]
+- [[metabolic-pathways-2023-2025-gut-microbiome-t1d]]
+- [[16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis]]
+- [[abuqwider-2023-gut-microbiome-blood-glucose-t1d-systematic-review]]
 
 ## Connections
 

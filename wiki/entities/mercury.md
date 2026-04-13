@@ -2,6 +2,7 @@
 
 title: Mercury
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, althomali-2024-heavy-metals-neurocognitive-systematic-review.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, kirmizi-2020-heavy-metals-pcos.md, lin-2023-heavy-metals-infertility-nhanes.md, rokoff-2023-metal-mixtures-maternal-depression.md, fan-2024-heavy-metal-arthritis-machine-learning.md, NOTE-evaluation-risk-ptes-italy-fish-products.md, smovrsnik-2025-trace-elements-pcos.md]
@@ -125,3 +126,8 @@ Interestingly, Hg showed negative/protective SHAP values for both general arthri
 - [[oxidative-stress]] -- thiol depletion and ROS as central mechanisms
 - [[gut-microbiome|gut-microbiota]] -- Hg disrupts barrier integrity and microbial composition
 - [[metal-carcinogenesis]] -- less directly carcinogenic than Cr, As, Cd, but contributes to oxidative damage
+- [[glutathione]] -- Hg depletes GSH by binding thiol groups; GSH depletion is the primary toxicity mechanism
+- [[metal-chelation-therapy]] -- DMSA, DMPS, and BAL used for mercury poisoning; chelation removes Hg-thiol complexes
+- [[neurodegeneration]] -- MeHg crosses BBB and accumulates in CNS; implicated in AD and cognitive decline
+- [[heavy-metals]] -- Hg is the prototypical purely toxic heavy metal with no biological function
+- [[biomarkers]] -- blood and hair Hg levels as exposure biomarkers; urinary Hg for inorganic exposure

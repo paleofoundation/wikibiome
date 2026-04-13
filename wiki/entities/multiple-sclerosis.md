@@ -131,3 +131,7 @@ The gap in environmental metal-MS research is striking given the strong microbio
 - [[zinc]] -- Essential for oligodendrocyte function and remyelination
 - [[manganese]] -- TCA cycle enzyme cofactor; metabolic shift in MS T cells involves Mn pathways
 - [[nickel]] -- S. thermophilus is a Streptococcus species; metal homeostasis in Streptococci is relevant to understanding probiotic mechanisms
+- [[neurodegeneration]] -- progressive MS involves iron-driven neurodegeneration with ferroptosis in oligodendrocytes
+- [[gut-microbiome]] -- MS microbiome shows reduced SCFA producers and enriched pro-inflammatory taxa
+- [[biomarkers]] -- EDSS, CSF neurofilaments, and brain iron on MRI as MS progression markers
+- [[indoles]] -- microbial indole derivatives activate astrocytic AhR, suppressing neuroinflammation; depleted in MS gut

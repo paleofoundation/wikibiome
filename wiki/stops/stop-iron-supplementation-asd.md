@@ -74,9 +74,13 @@ clinical_scenario: |
   - After 8 weeks of dysbiosis reversal, reassess hepcidin and serum iron
   - If normalized, consider iron supplementation only if ferritin remains low despite dysbiosis resolution
 
-evidence_strength: "High (mechanistic alignment with nutritional immunity principle + supported by dysbiosis literature)"
+evidence_strength: "moderate (mechanistic) -- mechanistic alignment with nutritional immunity principle + supported by dysbiosis literature, but lacking RCT-level clinical proof"
 platform: cureva
 ---
+
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
+> **Important caveat**: Iron deficiency anemia in children requires medical evaluation. This STOP applies only when hepcidin is elevated (functional restriction), NOT when true iron deficiency is present. Children with genuine iron deficiency (low hepcidin, low ferritin from blood loss or malabsorption) still require appropriate iron repletion under medical supervision.
 
 # STOP Explanation
 

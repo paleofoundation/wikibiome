@@ -16,6 +16,8 @@ alternative: "Support nutritional immunity with [[lactoferrin]] — chelates iro
 platform: cureva
 ---
 
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
 ## Conventional Rationale
 
 Graves' disease patients frequently present with **anemia** or **low serum iron**. Hyperthyroidism increases metabolic demand, and clinicians commonly attribute the anemia to nutritional deficiency, prescribing oral iron supplementation as standard management.

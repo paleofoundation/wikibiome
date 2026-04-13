@@ -1,41 +1,45 @@
 ---
 title: WikiBiome Content Index
 type: index
-updated: 2026-04-09
+updated: 2026-04-13
 ---
 
 # WikiBiome / Cureva Knowledge Base Index
 
-**Last updated:** 2026-04-09
+**Last updated:** 2026-04-13
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
-| Sources | 982 |
-| Entities | 126 |
-| — Metals/Metalloids | 19 |
-| — Microbes | 83 |
-| — Diseases | 20 |
-| — Other | 4 |
+| Sources | 1515 |
+| Entities | 130 |
+| — Metals/Metalloids | 17 |
+| — Microbes | 80 |
+| — Fungi | 4 |
+| — Archaea | 1 |
+| — Diseases | 28 |
 | Concepts | 88 |
-| Disease Signatures | 14 |
-| Interventions | 6 |
-| STOPs | 12 |
-| Analyses | 5 |
+| Disease Signatures | 15 |
+| Interventions | 13 |
+| STOPs | 11 |
+| Analyses | 10 |
+
+## Reference Pages
+
+- [[overview]] — Introduction to WikiBiome, core thesis, and how to navigate
+- [[glossary]] — Alphabetical definitions of specialist terms
 
 ---
 
-## Metals & Metalloids (19)
+## Metals & Metalloids (17)
 
 - [[aluminum]]
 - [[arsenic]]
 - [[cadmium]]
-- [[candida-albicans]]
 - [[chromium]]
 - [[cobalt]]
 - [[copper]]
-- [[enterococcus]]
 - [[iodine]]
 - [[iron]]
 - [[lead]]
@@ -48,7 +52,7 @@ updated: 2026-04-09
 - [[tin]]
 - [[zinc]]
 
-## Microbes (83)
+## Microbes (80)
 
 - [[acinetobacter]]
 - [[actinomyces]]
@@ -72,12 +76,12 @@ updated: 2026-04-09
 - [[collinsella]]
 - [[coprococcus]]
 - [[cryptococcus-neoformans]]
-- [[debaryomyces]]
 - [[desulfovibrio]]
 - [[dialister]]
 - [[dorea]]
 - [[eggerthella-lenta]]
 - [[enterobacteriaceae]]
+- [[enterococcus]]
 - [[escherichia-coli]]
 - [[eubacterium]]
 - [[faecalibacterium-prausnitzii]]
@@ -97,7 +101,6 @@ updated: 2026-04-09
 - [[leptotrichia]]
 - [[malassezia]]
 - [[methanobrevibacter]]
-- [[methanobrevibacter-smithii]]
 - [[mycobacterium-tuberculosis]]
 - [[neisseria-meningitidis]]
 - [[odoribacter]]
@@ -121,7 +124,6 @@ updated: 2026-04-09
 - [[ruminococcus-albus]]
 - [[ruminococcus-gnavus]]
 - [[saccharomyces]]
-- [[saccharomyces-cerevisiae]]
 - [[salmonella-typhimurium]]
 - [[shigella-flexneri]]
 - [[staphylococcus-aureus]]
@@ -130,11 +132,21 @@ updated: 2026-04-09
 - [[streptococcus-pneumoniae]]
 - [[streptococcus-thermophilus]]
 - [[sutterella]]
-- [[torulaspora]]
 - [[veillonella]]
 - [[yersinia-pestis]]
 
-## Diseases (20)
+## Fungi (4)
+
+- [[candida-albicans]]
+- [[debaryomyces]]
+- [[saccharomyces-cerevisiae]]
+- [[torulaspora]]
+
+## Archaea (1)
+
+- [[methanobrevibacter-smithii]]
+
+## Diseases (28)
 
 - [[alzheimers-disease]]
 - [[autism-spectrum-disorder]]
@@ -143,21 +155,29 @@ updated: 2026-04-09
 - [[chronic-kidney-disease]]
 - [[colorectal-cancer]]
 - [[crohns-disease]]
+- [[depression]]
 - [[endometriosis]]
+- [[gastric-cancer]]
+- [[gerd]]
 - [[graves-disease]]
 - [[hashimotos-thyroiditis]]
 - [[hypertension]]
+- [[ibs]]
 - [[inflammatory-bowel-disease]]
 - [[multiple-sclerosis]]
 - [[obesity]]
+- [[ovarian-cancer]]
 - [[pancreatic-cancer]]
 - [[parkinsons-disease]]
 - [[pcos]]
 - [[postpartum-depression]]
 - [[rheumatoid-arthritis]]
+- [[schizophrenia]]
+- [[type-1-diabetes]]
 - [[type-2-diabetes]]
+- [[ulcerative-colitis]]
 
-## Concepts (87)
+## Concepts (88)
 
 - [[DNA-damage]]
 - [[acidic-microenvironment]]
@@ -166,7 +186,6 @@ updated: 2026-04-09
 - [[atherosclerosis]]
 - [[beta-glucuronidase]]
 - [[bile-acid-metabolism]]
-- [[bile-acids]]
 - [[biofilm]]
 - [[biomarkers]]
 - [[blood-brain-barrier]]
@@ -188,6 +207,7 @@ updated: 2026-04-09
 - [[epigenetic-modifications]]
 - [[estrobolome]]
 - [[estrogen-recirculation]]
+- [[exposome]]
 - [[fecal-microbiota-transplant]]
 - [[fermentative-metabolism]]
 - [[ferroptosis]]
@@ -197,29 +217,31 @@ updated: 2026-04-09
 - [[gut-brain-axis]]
 - [[gut-metal-microbiome]]
 - [[gut-microbiome]]
-- [[heavy-metals-infant-foods]]
 - [[heavy-metals]]
+- [[heavy-metals-infant-foods]]
 - [[hepcidin]]
 - [[hydrogenase]]
 - [[hypoxia]]
 - [[hypoxic-signaling]]
+- [[immune-balance]]
 - [[indoles]]
 - [[inflammation]]
 - [[insulin-resistance]]
 - [[inter-kingdom-metal-shielding]]
+- [[intestinal-permeability]]
 - [[lactoferrin]]
 - [[lipocalin-2]]
 - [[matrix-metalloproteases]]
 - [[mediterranean-diet]]
 - [[metabolic-syndrome]]
 - [[metal-carcinogenesis]]
+- [[metal-chelation-therapy]]
 - [[metal-dependent-virulence]]
 - [[metal-homeostasis]]
 - [[metalloestrogens]]
 - [[metallomics]]
 - [[microbial-biomarkers]]
 - [[microbiome-derived-metabolites]]
-- [[microbiome]]
 - [[mis-metallation]]
 - [[mycobiome]]
 - [[neurodegeneration]]
@@ -234,42 +256,51 @@ updated: 2026-04-09
 - [[nutritional-immunity]]
 - [[oxidative-stress]]
 - [[pathogen-metal-acquisition]]
+- [[pharmacomicrobiomics]]
 - [[plant-metal-hyperaccumulation]]
 - [[prebiotics]]
 - [[probiotics]]
 - [[short-chain-fatty-acids]]
 - [[siderophores-metallophores]]
-- [[siderophores]]
 - [[tmao]]
 - [[transferrin]]
 - [[tryptophan-metabolism]]
-- [[tryptophan]]
 - [[urease]]
 - [[zinc-metalloprotease]]
 
-## Disease Signatures (13)
+## Disease Signatures (15)
 
-- [[alzheimers-disease]]
-- [[autism-spectrum-disorder-microbiome-signature]]
-- [[cardiovascular-disease]]
-- [[colorectal-cancer]]
-- [[crohns-disease]]
-- [[depression]]
-- [[endometriosis]]
-- [[graves-disease]]
-- [[multiple-sclerosis]]
-- [[obesity]]
-- [[parkinsons-disease]]
-- [[pcos]]
-- [[type-2-diabetes]]
+- [[alzheimers-disease]] — `cureva_status: partial`
+- [[autism-spectrum-disorder-microbiome-signature]] — `cureva_status: partial`
+- [[cardiovascular-disease]] — `cureva_status: partial`
+- [[colorectal-cancer]] — `cureva_status: partial`
+- [[crohns-disease]] — `cureva_status: partial`
+- [[depression]] — `cureva_status: partial`
+- [[endometriosis]] — `cureva_status: complete`
+- [[graves-disease]] — `cureva_status: partial`
+- [[hashimotos-thyroiditis]] — `cureva_status: partial`
+- [[multiple-sclerosis]] — `cureva_status: partial`
+- [[obesity]] — `cureva_status: partial`
+- [[pancreatic-cancer]] — `cureva_status: partial`
+- [[parkinsons-disease]] — `cureva_status: partial`
+- [[pcos]] — `cureva_status: partial`
+- [[type-2-diabetes]] — `cureva_status: partial`
 
-## Interventions (5)
+## Interventions (13)
 
-- [[b-cell-depletion-therapy-ms]]
-- [[ecoli-nissle-1917]]
-- [[ketogenic-diet-ms]]
-- [[low-nickel-diet]]
-- [[probiotics-asd-dysbiosis]]
+- [[b-cell-depletion-therapy-ms]] — `cureva_status: partial`
+- [[ecoli-nissle-1917]] — `cureva_status: partial`
+- [[fmt-intervention]] — `cureva_status: partial`
+- [[iron-management]] — `cureva_status: partial`
+- [[ketogenic-diet]] — `cureva_status: partial`
+- [[ketogenic-diet-ms]] — `cureva_status: partial`
+- [[low-nickel-diet]] — `cureva_status: complete`
+- [[mediterranean-diet]] — `cureva_status: partial`
+- [[probiotics-asd-dysbiosis]] — `cureva_status: in-progress`
+- [[probiotics-general]] — `cureva_status: partial`
+- [[selenium-supplementation]] — `cureva_status: partial`
+- [[vitamin-d-supplementation]] — `cureva_status: partial`
+- [[zinc-supplementation]] — `cureva_status: partial`
 
 ## STOPs (11)
 
@@ -285,14 +316,19 @@ updated: 2026-04-09
 - [[stop-scfa-replacement-without-dysbiosis-restoration-ms]]
 - [[stop-zinc-supplementation-endometriosis]]
 
-## Analyses (5)
+## Analyses (10)
 
 - [[dietary-metal-exposure-by-life-stage]]
 - [[dietary-metal-paradoxes]]
+- [[gaps-and-improvements-2026-04-12]]
+- [[gaps-and-improvements-2026-04-13]]
 - [[iron-supplementation-stops-across-conditions]]
+- [[lint-2026-04-13]]
+- [[lint-report-2026-04-12]]
+- [[lint-report-2026-04-13]]
 - [[metal-disease-matrix]]
 - [[shared-pathobionts-across-signatures]]
 
-## Sources (981)
+## Sources (1515)
 
 See `wiki/sources/` directory for full bibliography.

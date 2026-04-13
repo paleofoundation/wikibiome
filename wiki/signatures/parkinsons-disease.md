@@ -3,8 +3,10 @@
 title: "Parkinson's Disease — Microbiome Signature"
 type: signature
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads, pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic, tan-2022-gut-microbiome-scfas-parkinsons-review, chen-2024-microbiome-derived-metabolites-parkinsons-progression, finkelstein-2022-lead-parkinsons-microbiome-mendelian-randomization, de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons, boertien-2019-microbiome-composition-covariates-parkinsons, chen-2022-16s-rrna-microbial-blood-parkinsons, tetz-2022-gut-dysbiosis-bacteriophages-parkinsons, perez-pardo-2022-mediterranean-diet-parkinsons-microbiome, cilia-2020-microbiome-gut-dietary-interventions-parkinsons, rosario-2019-constraint-based-modelling-microbiome-cometabolism-parkinsons, nishiwaki-2020-16s-gut-microbiota-parkinsons-eastern-europe, jackson-2022-neuroinflammation-progression-parkinsons, mertsalmi-2021-viral-gut-microbiota-parkinsons, novikova-2025-microbiome-derived-metabolites-parkinsons-thesis]
+source_count: 17
 tags: [neurological, movement-disorder, iron-dependent, dopaminergic-vulnerability, ferroptosis, gut-brain-axis]
 
 # Layer 1: Metallomic signature
@@ -44,10 +46,42 @@ ecological_features: [hypoxia, iron-rich-microenvironment, functional-shielding,
 # Layer 5: Key virulence enzymes expressed
 virulence_enzymes: [iron-siderophores, zinc-metalloprotease, nickel-urease, nickel-hydrogenase, mucinase, lipopolysaccharide-LPS, bacterial-amyloids-curli]
 
+# Confidence per layer
+confidence:
+  metallomic: high
+  taxonomic: high
+  nutritional_immunity: high
+  ecological: high
+  virulence_enzymes: high
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[alzheimers-disease]]"
+    shared_metals: [iron, copper, lead]
+    shared_taxa: [enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, roseburia]
+    shared_ecological: [neuroinflammation, iron-rich-microenvironment, gut-permeability, bacterial-translocation]
+    overlap_score: 0.72
+  - condition: "[[depression]]"
+    shared_metals: [iron, lead, copper]
+    shared_taxa: [enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, prevotella]
+    shared_ecological: [gut-permeability, dysbiotic-fermentation, SCFA-depletion]
+    overlap_score: 0.61
+  - condition: "[[schizophrenia]]"
+    shared_metals: [iron, manganese, lead]
+    shared_taxa: [enterobacteriaceae, lachnospiraceae]
+    shared_ecological: [gut-permeability, neuroinflammation, dysbiotic-fermentation]
+    overlap_score: 0.48
+  - condition: "[[multiple-sclerosis]]"
+    shared_metals: [iron, nickel, copper, lead]
+    shared_taxa: [enterobacteriaceae, faecalibacterium-prausnitzii, prevotella, roseburia]
+    shared_ecological: [neuroinflammation, gut-permeability, SCFA-depletion, hypoxia]
+    overlap_score: 0.65
+
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: []
 stops: []
+karen_brain_primitives: [1, 2, 3, 5, 8, 9]
 platform: cureva
 ---
 

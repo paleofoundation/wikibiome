@@ -16,6 +16,8 @@ alternative: "Support nutritional immunity with [[lactoferrin]] — chelates iro
 platform: cureva
 ---
 
+> **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.
+
 ## Conventional Rationale
 
 PCOS patients commonly present with **heavy menstrual bleeding** and resultant **anemia** or **low serum iron**. The standard clinical response is oral iron supplementation to correct the apparent deficiency. In the context of insulin resistance and metabolic dysfunction associated with PCOS, iron status is also flagged as a nutritional concern.

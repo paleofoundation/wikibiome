@@ -156,3 +156,7 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 - **Related diseases**: [[breast-cancer]] (shared metalloestrogen pathway), [[type-2-diabetes]] (shared insulin resistance and metal signature), [[autism-spectrum-disorder]] (shared Zn depletion and toxic metal burden)
 - **Pathogens**: Indirect -- gut dysbiosis patterns overlap with metal-driven dysbiosis described in [[systemic-nickel-allergy-syndrome]]
 - **Interventions**: [[mediterranean-diet]], [[probiotics]], [[ketogenic-diet]], [[zinc-supplementation]]
+- [[prebiotics]] -- prebiotic fiber supports gut microbiome restoration and insulin sensitization in PCOS
+- [[environmental-metal-exposure]] -- dietary and cosmetic metal exposures contribute to PCOS metal burden
+- [[biomarkers]] -- Cu/Zn ratio, toxic metal panels, and hormonal markers for PCOS diagnosis and monitoring
+- [[exposome]] -- PCOS as a disease shaped by the full exposome: dietary metals, endocrine disruptors, and microbiome

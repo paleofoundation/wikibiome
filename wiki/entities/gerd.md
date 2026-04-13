@@ -5,7 +5,7 @@ type: entity
 subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
-sources: []
+sources: [yousaf-2021-low-nickel-diet-gerd, alageel-2025-microbiome-composition-gerd-systematic-review, alnaim-2025-dietary-interventions-pediatric-gerd-systematic-review, liang-2021-hpylori-oral-microbiota-reflux-esophagitis, kucharczyk-2024-innovative-therapeutic-strategies-gerd-review]
 tags: [gastrointestinal, nickel, microbiome, PPIs, esophageal-microbiome, dysbiosis]
 platform: wikibiome
 ---
@@ -83,6 +83,14 @@ PPIs are the most widely prescribed GERD therapy, but their effects extend far b
 2. Does nickel content in PPIs themselves (trace contamination) contribute to treatment failure in nickel-sensitive patients?
 3. Can esophageal microbiome profiling predict progression from GERD to Barrett's esophagus?
 4. Is *H. pylori* eradication net beneficial or harmful in GERD patients specifically?
+
+## Key Sources
+
+- [[yousaf-2021-low-nickel-diet-gerd]]
+- [[alageel-2025-microbiome-composition-gerd-systematic-review]]
+- [[alnaim-2025-dietary-interventions-pediatric-gerd-systematic-review]]
+- [[liang-2021-hpylori-oral-microbiota-reflux-esophagitis]]
+- [[kucharczyk-2024-innovative-therapeutic-strategies-gerd-review]]
 
 ## Connections
 

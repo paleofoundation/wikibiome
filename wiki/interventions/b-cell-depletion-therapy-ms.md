@@ -7,6 +7,7 @@ updated: 2026-04-10
 sources: [troci-2022-b-cell-depletion-reverses-dysbiosis-ms, attfield-2022-immunology-ms-nature-review, ignatova-2023-biomarkers-ms-review]
 tags: [pharmaceutical, multiple-sclerosis, immunotherapy, microbiome-reversal, dysbiosis-recovery]
 intervention_class: pharmaceutical
+cureva_status: partial
 
 # Triangle validation for each condition
 triangles:

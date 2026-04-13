@@ -82,11 +82,41 @@ The metallomics lens suggests interventions beyond conventional antidepressants:
 - **Anti-inflammatory approaches** -- addressing the metal-driven inflammation upstream
 - **Metal exposure reduction** -- occupational and dietary lead/cadmium avoidance
 
-## See Also
+## Connections
 
-- [[immune-balance]] -- Th1/Th17 skewing drives neuroinflammation
-- [[intestinal-permeability]] -- the leaky gut-depression pathway
-- [[oxidative-stress]] -- shared metal-driven mechanism
-- [[inflammation]] -- the convergent pathway
-- [[gut-metal-microbiome]] -- the overarching framework
-- [[dysbiosis]] -- microbiome disruption underlying gut-brain dysfunction
+### Essential Metals
+- [[zinc]] -- serum Zn consistently low; NMDA modulation, BDNF, synaptic plasticity; supplementation augments SSRIs
+- [[copper]] -- elevated serum Cu and ceruloplasmin; high Cu/Zn ratio is among the most replicated biomarkers
+- [[iron]] -- deficiency impairs serotonin and dopamine synthesis; ferritin <30 ng/mL associates with depressive symptoms
+- [[magnesium]] -- Mg deficiency linked to HPA-axis hyperactivation and NMDA receptor dysregulation
+- [[selenium]] -- required for glutathione peroxidase; Se depletion compounds mercury toxicity and oxidative burden
+
+### Toxic Metals
+- [[lead]] -- childhood Pb exposure predicts adult depression; disrupts monoamine neurotransmission and BDNF
+- [[cadmium]] -- depletes zinc competitively; HPA-axis disruption; NHANES associations
+- [[mercury]] -- MeHg depletes selenium and glutathione; occupational and dietary exposure links
+
+### Gut-Brain and Microbiome
+- [[gut-brain-axis]] -- bidirectional vagal, endocrine, and immune communication linking gut dysbiosis to mood
+- [[tryptophan-metabolism]] -- IDO-mediated shunting from serotonin to neurotoxic kynurenine metabolites
+- [[dysbiosis]] -- depletion of butyrate producers and enrichment of pro-inflammatory taxa
+- [[inflammation]] -- peripheral and central inflammation converge on depression via IL-6, TNF-alpha, CRP
+- [[neuroinflammation]] -- microglial activation, kynurenine pathway, and BBB disruption
+- [[short-chain-fatty-acids]] -- butyrate depletion weakens barrier function and reduces anti-inflammatory signaling
+- [[coprococcus]] -- consistently depleted genus in depression; butyrate producer with DOPAC synthesis capacity
+- [[faecalibacterium-prausnitzii]] -- anti-inflammatory commensal depleted in depressed patients
+- [[probiotics]] -- psychobiotics (L. helveticus, B. longum) show modest antidepressant effects in RCTs
+- [[fecal-microbiota-transplant]] -- emerging FMT evidence for treatment-resistant depression via gut-brain axis restoration
+
+### Comorbidities and Related Diseases
+- [[postpartum-depression]] -- iron deficiency anemia and hormonal shifts as metal-specific depression subtype
+- [[schizophrenia]] -- shared Cu/Zn dysregulation, neuroinflammation, and tryptophan shunting
+- [[multiple-sclerosis]] -- depression comorbidity >50%; shared neuroinflammation and gut-brain pathways
+- [[parkinsons-disease]] -- depression precedes motor symptoms; shared iron dysregulation and gut-brain axis
+- [[alzheimers-disease]] -- depression as prodromal feature; shared metal accumulation and neuroinflammation
+- [[pcos]] -- depression prevalence elevated; shared zinc depletion and inflammatory mechanisms
+- [[cardiovascular-disease]] -- bidirectional risk; shared lead exposure, inflammation, and microbiome disruption
+- [[comorbidities]] -- depression co-occurs with virtually every disease in this wiki via shared metal and microbiome mechanisms
+
+### Analyses
+- [[metal-disease-matrix]] -- depression features a distinctive Zn-low, Cu-high, Fe-variable, toxic-metal-elevated signature

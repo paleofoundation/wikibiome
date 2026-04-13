@@ -2,6 +2,7 @@
 
 title: Cadmium
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhai-2016-probiotics-cadmium.md, rasin-2025-cadmium-exposure-health-review.md, tarhonska-2022-cadmium-breast-cancer-mechanisms.md, cheng-2021-cadmium-enterococcus-metabolic.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, aquino-2012-cadmium-nickel-metalloestrogens.md, kuo-2024-low-level-lead-cadmium-ckd-mortality.md, rebelo-2021-enterococcus-metal-antibiotic-resistance.md, zhang-2022-metallomics-cancer-review.md]
@@ -127,3 +128,10 @@ Cd enters neurons via voltage-gated calcium channels and diminishes glutathione 
 - [[cardiovascular-disease]] -- endothelial damage, atherosclerosis, tryptophan metabolite disruption
 - [[metal-disease-matrix]] -- Cd appears across multiple disease columns
 - [[metal-carcinogenesis]] -- epigenetic carcinogenesis, metalloestrogen activity
+- [[ovarian-cancer]] -- Cd as metalloestrogen binding ERa; ovarian tissue accumulation
+- [[gastric-cancer]] -- Cd elevated in gastric cancer tissue
+- [[glutathione]] -- Cd depletes GSH via thiol binding; GSH depletion amplifies oxidative damage
+- [[metal-chelation-therapy]] -- EDTA and DMSA used for Cd poisoning; limited efficacy due to renal Cd accumulation
+- [[environmental-metal-exposure]] -- dietary and tobacco Cd are the dominant non-occupational exposure routes
+- [[heavy-metals]] -- Cd is among the most toxic heavy metals with a 25-30 year biological half-life
+- [[biomarkers]] -- urinary Cd and blood Cd as exposure biomarkers; beta-2-microglobulin for nephrotoxicity

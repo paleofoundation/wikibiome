@@ -94,3 +94,4 @@ Indole derivatives activate the **aryl hydrocarbon receptor (AhR)** on intestina
 - [[faecalibacterium-prausnitzii]] -- F. hominis corrects indole-AhR dysregulation in ASD models
 - [[autism-spectrum-disorder]] -- tryptophan metabolites among most consistent ASD biomarkers
 - [[multiple-sclerosis]] -- AhR ligand depletion contributes to Th17-driven neuroinflammation
+- [[indoles]] -- indole and indole-3-aldehyde are key tryptophan-derived AhR ligands produced by gut bacteria

@@ -3,10 +3,45 @@
 title: "Endometriosis — Microbiome Signature"
 type: signature
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 paper_count: 28
 sources: [pendergrass-2026-endometriosis-conference, zinc-endometriosis-2024, lactoferrin-genital-2019, endo-vaginal-microbiota-glycome, altered-microbiota-ovarian-endometrioma-2021, antibiotics-metronidazole-endo-2019, associations-endo-gut-2020, fecal-metabolomics-endo-2020, effect-endo-fecal-bacteriota-2019, endo-induces-gut-alterations-2018, gut-imbalance-hormone-endo-2020, inflammatory-cytokines-peritoneal-2018, microbiome-deep-endo-2020, microbiome-lower-genital-chinese, microbiota-composition-distribution-2020, molecular-intrauterine-colonization-2016, molecular-cervical-mucus-2019, oral-vaginal-stool-signatures-2023, endobiota-study-2018, vaginal-microbiome-rASRM-2019, vaginal-microbiome-pelvic-pain, bacterial-contamination-hypothesis-2017, current-updates-microbiome-endo-2023, gut-vaginal-meta-analysis-2023, gut-microbiome-1000-individuals-2024, bidirectional-endo-microbiome-2023, microbiome-and-endometriosis-2021, vaginal-microecological-2022]
+source_count: 28
 tags: [gynecological, estrogen-dependent, chronic-inflammatory]
+
+# Confidence per layer
+confidence:
+  metallomic: high
+  taxonomic: high
+  nutritional_immunity: high
+  ecological: high
+  virulence_enzymes: high
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[PCOS]]"
+    shared_metals: [nickel, iron, zinc]
+    shared_taxa: [escherichia-coli, bacteroides-fragilis, lachnospiraceae]
+    shared_ecological: [estrogen-recirculation, dysbiosis, hormonal-dysregulation]
+    overlap_score: 0.62
+  - condition: "[[IBS]]"
+    shared_metals: [nickel, iron]
+    shared_taxa: [escherichia-coli, lachnospiraceae, ruminococcus]
+    shared_ecological: [dysbiosis, leaky-gut, SCFA-depletion]
+    overlap_score: 0.51
+  - condition: "[[breast-cancer]]"
+    shared_metals: [cadmium, iron, nickel]
+    shared_taxa: [escherichia-coli, bacteroides-fragilis]
+    shared_ecological: [estrogen-recirculation, beta-glucuronidase-activity, biofilm]
+    overlap_score: 0.55
+  - condition: "[[ovarian-cancer]]"
+    shared_metals: [iron, cadmium, nickel]
+    shared_taxa: [escherichia-coli, fusobacterium-nucleatum]
+    shared_ecological: [hypoxia, biofilm, peritoneal-microbiome-disruption]
+    overlap_score: 0.47
+
+karen_brain_primitives: [1, 3, 4, 5, 6, 7, 9]
 
 # Layer 1: Metallomic signature
 metallomic_signature:

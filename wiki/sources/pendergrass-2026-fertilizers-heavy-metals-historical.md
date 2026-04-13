@@ -5,12 +5,14 @@ type: source
 created: 2026-04-09
 updated: 2026-04-09
 authors: [Karen Pendergrass]
-journal: Food Metallomics
+journal: "Zenodo Preprint"
 year: 2026
 tags: [heavy-metals, fertilizers, cadmium, nickel, lead, chromium, phosphate-fertilizers, urea, agricultural-soils, food-chain-contamination, soil-bioaccumulation]
 doi: "10.5281/zenodo.18439158"
 platform: wikibiome
 ---
+
+> **Note:** This is a preprint by the WikiBiome founder, not independently peer-reviewed journal literature.
 
 ## Summary
 

@@ -2,6 +2,7 @@
 
 title: Aluminum
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [klotz-2017-aluminum-health-effects-review.md, redgrove-2019-prescription-infant-formulas-aluminium.md, ibrahim-2022-aluminum-exposure-infant-formulas-lebanon.md, de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility.md, de-paiva-2020-aluminium-infant-foods-bioaccessibility.md, hopfner-2025-infant-formula-dietary-exposure-elements-germany.md, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements.md, armstrong-2024-alzheimers-extrinsic-factors-development.md, chin-chan-2015-environmental-pollutants-ad-pd.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, bakulski-2025-heavy-metals-late-onset-alzheimers.md, meli-2024-chemical-characterization-baby-food-italy.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md]

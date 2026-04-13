@@ -3,9 +3,11 @@
 title: "Polycystic Ovary Syndrome — Microbiome Signature"
 type: signature
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-13
+last_substantive_update: 2026-04-13
 paper_count: 21
 sources: [smovrsnik-2025-trace-elements-pcos, smovrsnik-2023-heavy-metals-oxidative-stress-pcos, kirmizi-2020-heavy-metals-pcos, pokorska-niewiada-2022-trace-elements-erythrocytes-pcos, jiang-2021-copper-pcos-meta-analysis, abudawood-2021-antioxidant-heavy-metals-pcos, kurdoglu-2012-trace-elements-pcos, tatarchuk-2016-micro-macroelements-pcos, liu-2024-copper-pcos-ivf, angoorani-2023-probiotics-prebiotics-synbiotics-pcos, ostadmohammadi-2019-vitamin-d-probiotic-pcos, barrea-2019-mediterranean-diet-pcos, leung-2022-lower-fiber-pcos-meta-analysis, mhaibes-2017-blood-metals-pcos-obese, wang-2022-high-fiber-acarbose-pcos, calcaterra-2023-probiotics-pcos-adolescents, mei-2022-mediterranean-low-carb-pcos, cutler-2019-fiber-magnesium-pcos]
+source_count: 18
 tags: [endocrine, gynecological, androgen-dependent, metabolic-inflammatory, metal-dysregulation]
 
 # Layer 1: Metallomic signature
@@ -43,10 +45,47 @@ ecological_features: [dysbiosis, reduced-microbial-diversity, estrogen-recircula
 # Layer 5: Key virulence enzymes expressed
 virulence_enzymes: [beta-glucuronidase, siderophores-iron-acquisition, lipopolysaccharide-production, copper-dependent-oxidases]
 
+# Confidence per layer
+confidence:
+  metallomic: high
+  taxonomic: moderate
+  nutritional_immunity: high
+  ecological: moderate
+  virulence_enzymes: moderate
+
+# Cross-condition pattern detection
+associated_conditions:
+  - condition: "[[type-2-diabetes]]"
+    shared_metals: [iron, cadmium, lead, nickel]
+    shared_taxa: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii]
+    shared_ecological: [dysbiosis, insulin-resistance, SCFA-depletion, reduced-microbial-diversity]
+    overlap_score: 0.70
+  - condition: "[[obesity]]"
+    shared_metals: [cadmium, nickel, lead, iron]
+    shared_taxa: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii]
+    shared_ecological: [dysbiosis, reduced-SCFA-production, insulin-resistance]
+    overlap_score: 0.62
+  - condition: "[[endometriosis]]"
+    shared_metals: [cadmium, lead, nickel, iron, copper]
+    shared_taxa: [escherichia-coli, lactobacillus]
+    shared_ecological: [estrogen-recirculation, dysbiosis]
+    overlap_score: 0.55
+  - condition: "[[cvd]]"
+    shared_metals: [cadmium, lead, iron, copper]
+    shared_taxa: [escherichia-coli, faecalibacterium-prausnitzii]
+    shared_ecological: [dysbiosis, inflammation, SCFA-depletion]
+    overlap_score: 0.45
+  - condition: "[[depression]]"
+    shared_metals: [iron, cadmium, lead, copper]
+    shared_taxa: [escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, bifidobacterium]
+    shared_ecological: [dysbiosis, inflammation, SCFA-depletion]
+    overlap_score: 0.50
+
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: [high-fiber-diet, mediterranean-diet, low-carbohydrate-diet, probiotics-lactobacillus-bifidobacterium, prebiotics-inulin-fructo-oligosaccharide, vitamin-d-probiotic-synergy, acarbose-fiber-synergy, magnesium-supplementation]
 stops: [stop-iron-supplementation-pcos, stop-isolated-zinc-supplementation-pcos]
+karen_brain_primitives: [1, 2, 3, 5, 7]
 platform: cureva
 ---
 

@@ -2,6 +2,7 @@
 
 title: Copper
 type: entity
+subtype: metal
 created: 2026-04-09
 updated: 2026-04-09
 sources: [briffa-2020-heavy-metal-pollution-environment-toxicology.md, jiang-2021-copper-pcos-meta-analysis.md, liu-2024-copper-pcos-ivf.md, yang-2016-copper-farm-soils-rheumatoid-arthritis.md, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd.md, lim-2023-plasma-metallomics-ami.md, khan-2014-metals-type2-diabetes.md, zhang-2022-metallomics-cancer-review.md, smovrsnik-2025-trace-elements-pcos.md, ali-2024-heavy-metals-breast-cancer-review.md, liu-2022-heavy-metals-breast-cancer-meta-analysis.md, arshad-2023-heavy-metals-rheumatoid-arthritis.md, scholefield-2024-brain-metallomics-dementia.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, schilling-2020-urine-metallomics-pancreatic-cancer.md, saleh-2020-serum-trace-elements-prostate-cancer.md, amerikanou-2022-ibd-biomarkers-trace-metals.md, xie-2025-urinary-metals-trace-elements-kidney-function.md, kirmizi-2020-heavy-metals-pcos.md, blazewicz-2023-metal-profiles-asd.md, niehoff-2021-metals-breast-cancer-toenail.md, sabath-2012-renal-health-heavy-metal-nephrotoxicity.md]
@@ -71,7 +72,7 @@ Cu has higher affinity for metallothionein than Zn, and elevated Cu can displace
 - Plasma Cu significantly elevated in AMI (0.85 vs 0.73 ug/mL, p < 0.01), remaining elevated at 1 month post-PCI [[lim-2023-plasma-metallomics-ami]].
 - Cu/Se ratio increased in AMI and shows significant longitudinal trajectory.
 - Fe/Cu ratio significantly decreased in AMI -- a sensitive biomarker.
-- Random forest model with Cu/Se and Fe/Cu achieves AUC 0.942 for AMI classification [[lim-2023-plasma-metallomics-ami]].
+- Random forest model achieves AUC 0.942 for AMI classification -- but this was a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]].
 
 ### Rheumatoid Arthritis (Conflicting Findings)
 - RA patients in high soil Cu townships had higher WBC, ESR, DAS28 scores, platelet counts. Blood Cu was the only metal with significant ESR correlation in multiple regression (p = 0.008) [[yang-2016-copper-farm-soils-rheumatoid-arthritis]].
@@ -96,6 +97,10 @@ Cu has higher affinity for metallothionein than Zn, and elevated Cu can displace
 ### IBD
 - Cu positively associated with CRP (beta = 2.548x10^2, p = 0.033) in Crohn's disease patients [[amerikanou-2022-ibd-biomarkers-trace-metals]].
 - ZIP8 A391T Crohn's disease-linked variant reduces luminal Cu availability [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
+
+### Important Caveat: Ceruloplasmin as Acute-Phase Reactant
+
+Important caveat: Ceruloplasmin is an acute-phase reactant. Serum copper elevation in disease states may reflect systemic inflammation rather than a causal role for copper in pathogenesis. This confound has not been adequately controlled in most studies. Elevated serum copper in cancer, PCOS, AMI, and RA could be partly or wholly a consequence of the inflammatory disease process rather than a driver of it. Studies measuring free (non-ceruloplasmin-bound) copper are needed to distinguish these possibilities.
 
 ## The Cu/Zn Ratio
 

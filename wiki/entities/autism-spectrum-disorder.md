@@ -24,7 +24,7 @@ A key insight from the ASD metallomics literature is that **a unique metal profi
 
 - Changes in one metal trigger parallel changes in others -- the metals are interconnected through shared binding sites, transport systems, and competitive interactions [[blazewicz-2023-metal-profiles-asd]].
 - Toxic metals and essential metal deficiency may be **two sides of the same coin**: toxic metals compete with zinc for protein binding sites, effectively creating functional zinc deficiency [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]].
-- The exposome concept (totality of environmental exposures from conception) provides the appropriate framework [[blazewicz-2023-metal-profiles-asd]].
+- The [[exposome]] concept (totality of environmental exposures from conception) provides the appropriate framework [[blazewicz-2023-metal-profiles-asd]].
 
 ### Zinc: The Central Essential Metal Deficiency
 
@@ -161,3 +161,9 @@ ASD is the paradigmatic disease of **developmental metal vulnerability**:
 - **Related diseases**: [[pcos]] (shared Zn depletion, toxic metal burden, oxidative stress), [[alzheimers-disease]] (shared gut-brain axis, metal-driven neuroinflammation), [[parkinsons-disease]] (shared gut-brain axis, Pb neurotoxicity)
 - **Pathogens**: Gut pathobionts enriched by metal-driven dysbiosis (Clostridium, Bacteroides)
 - **Interventions**: [[zinc-supplementation]], [[metal-chelation]], [[probiotics]], [[fmt]], [[butyrate-supplementation]]
+- [[prebiotics]] -- prebiotic fiber interventions explored for restoring butyrate production and reducing ASD gut symptoms
+- [[environmental-metal-exposure]] -- prenatal and early-life metal exposure as key ASD risk factor
+- [[heavy-metals]] -- Pb, Hg, Cd burden consistently elevated in ASD cohorts across multiple studies
+- [[microbial-biomarkers]] -- gut microbial signatures (Clostridium enrichment, Bifidobacterium depletion) as potential ASD biomarkers
+- [[neurodegeneration]] -- shared gut-brain axis and metal-driven neuroinflammation pathways with neurodegenerative diseases
+- [[indoles]] -- tryptophan-derived indole metabolites among the most consistent ASD biomarker alterations; AhR signaling disrupted
