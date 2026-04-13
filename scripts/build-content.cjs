@@ -157,6 +157,8 @@ function classifyCategory(frontmatter, dirName) {
     return 'mechanism';
   }
 
+  if (type === 'reference' || type === 'overview') return 'reference';
+
   return 'other';
 }
 
@@ -172,7 +174,7 @@ function isVisibleOnPlatform(category, frontmatter, platform) {
 
   if (platform === 'wikibiome') {
     // WikiBiome: entities, concepts, analyses — NO interventions, stops, or full signatures
-    return ['metal', 'microbe', 'disease', 'entity', 'mechanism', 'defense', 'analysis'].includes(category);
+    return ['metal', 'microbe', 'disease', 'entity', 'mechanism', 'defense', 'analysis', 'reference'].includes(category);
   }
 
   if (platform === 'cureva') {
@@ -543,6 +545,38 @@ function main() {
   const stops = readDirectory(path.join(WIKI_ROOT, 'stops'), 'stops');
   const analyses = readDirectory(path.join(WIKI_ROOT, 'analyses'), 'analyses');
 
+  // Read root-level wiki pages (glossary, overview) — skip index.md and log.md
+  const rootPages = [];
+  const rootSkip = new Set(['index.md', 'log.md']);
+  const rootFiles = fs.readdirSync(WIKI_ROOT).filter(f => f.endsWith('.md') && !f.startsWith('_') && !rootSkip.has(f));
+  for (const file of rootFiles) {
+    const filePath = path.join(WIKI_ROOT, file);
+    if (fs.statSync(filePath).isFile()) {
+      const raw = fs.readFileSync(filePath, 'utf-8');
+      const { frontmatter, body } = parseFrontmatter(raw);
+      const { overview, sections } = parseSections(body);
+      const wikilinks = extractWikilinks(raw);
+      const id = file.replace('.md', '');
+      const category = classifyCategory(frontmatter, 'reference');
+      rootPages.push({
+        id,
+        title: frontmatter.title || id.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+        type: frontmatter.type || 'reference',
+        category,
+        tags: frontmatter.tags || [],
+        sources: frontmatter.sources || [],
+        created: frontmatter.created,
+        updated: frontmatter.updated,
+        frontmatter,
+        overview,
+        sections,
+        wikilinks,
+        sourceDir: 'wiki',
+      });
+    }
+  }
+  console.log(`  Root pages: ${rootPages.length}`);
+
   // Parse source pages for citation metadata (title, authors, journal, year, DOI)
   const sourcesDir = path.join(WIKI_ROOT, 'sources');
   const sourceLookup = {};
@@ -565,7 +599,7 @@ function main() {
     console.log(`  Source metadata: ${Object.keys(sourceLookup).length} entries`);
   }
 
-  const allPages = [...entities, ...concepts, ...signatures, ...interventions, ...stops, ...analyses];
+  const allPages = [...entities, ...concepts, ...signatures, ...interventions, ...stops, ...analyses, ...rootPages];
 
   console.log(`  Entities: ${entities.length}`);
   console.log(`  Concepts: ${concepts.length}`);
