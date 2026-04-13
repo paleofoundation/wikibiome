@@ -22,6 +22,12 @@ sources:
   - rasin-2025-cadmium-exposure-health-review
 tags: [cardiovascular-disease, CVD, TMAO, copper, selenium, lead, cadmium, nickel, Cu-Se-ratio, SCFAs, bile-acids, microbiome, mycobiome, oral-microbiome, atherosclerosis, hypertension, heart-failure, dysbiosis, tryptophan, indoxyl-sulfate, metabolomics]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [type-2-diabetes, obesity, chronic-kidney-disease, depression]
+shared_signature_metals: {type-2-diabetes: [iron, nickel, cadmium], obesity: [iron], chronic-kidney-disease: [lead, cadmium], depression: [iron]}
+shared_signature_taxa: {type-2-diabetes: [enterobacteriaceae, escherichia-coli, roseburia-depleted, faecalibacterium-depleted], obesity: [enterobacteriaceae, faecalibacterium-depleted, lachnospiraceae-depleted], chronic-kidney-disease: [enterobacteriaceae, escherichia-coli], depression: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]}
+seo_target: "cardiovascular disease microbiome TMAO heavy metals gut bacteria"
+wikipedia_differentiation: "TMAO-producing taxa mapped to metal dependencies, oral-to-gut pathogen translocation in atherosclerosis, and SCFA-mediated blood pressure regulation via Olfr78/GPR41 receptor system"
 ---
 
 # Cardiovascular Disease

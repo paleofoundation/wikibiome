@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [amerikanou-2022-ibd-biomarkers-trace-metals, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, ghosh-2023-heavy-metals-gut-barrier-integrity, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, zhu-2024-toxic-essential-metals-gut-microbiota]
 tags: [ulcerative-colitis, IBD, iron, copper, zinc, selenium, gut-barrier, microbiome, FMT, calprotectin, inflammation, colon]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [crohns-disease, colorectal-cancer, inflammatory-bowel-disease]
+shared_signature_metals: {crohns-disease: [iron, zinc, cadmium], colorectal-cancer: [iron, zinc], inflammatory-bowel-disease: [iron, zinc, copper]}
+shared_signature_taxa: {crohns-disease: [escherichia-coli, bacteroides-fragilis, faecalibacterium-depleted, roseburia-depleted, lachnospiraceae-depleted], colorectal-cancer: [escherichia-coli, fusobacterium-nucleatum, faecalibacterium-depleted], inflammatory-bowel-disease: [escherichia-coli, faecalibacterium-depleted, lachnospiraceae-depleted]}
+seo_target: "ulcerative colitis microbiome iron metals gut bacteria"
+wikipedia_differentiation: "Iron paradox analysis distinguishing true deficiency from hepcidin-mediated sequestration, with calprotectin reframed as zinc-sequestering nutritional immunity agent shaping the luminal metal environment"
 ---
 
 # Ulcerative Colitis (UC)

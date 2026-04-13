@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, tizabi-2023-lead-gut-microbiota-asd.md, chen-2022-living-microorganisms-detoxification-heavy-metals.md, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors.md, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, khatoon-2023-gut-microbiota-neurodegenerative.md, gentile-2020-diet-microbiota-brain-health.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, salnikov-2008-metal-carcinogenesis.md]
 tags: [neurodevelopmental-disease, zinc, lead, mercury, cadmium, nickel, iron, gut-microbiome, mis-metallation, SHANK3, synaptogenesis, gut-brain-axis, developmental-vulnerability, metal-profiles]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [depression, schizophrenia, adhd]
+shared_signature_metals: {depression: [zinc-depleted, iron], schizophrenia: [copper, zinc-dysregulated], adhd: [zinc-depleted, iron-dysregulated]}
+shared_signature_taxa: {depression: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted], schizophrenia: [escherichia-coli, lachnospiraceae-depleted], adhd: [faecalibacterium-depleted, bifidobacterium-depleted]}
+seo_target: "autism spectrum disorder heavy metals microbiome zinc lead gut-brain"
+wikipedia_differentiation: "Metal profile (metallome) concept showing interconnected metal dysregulation rather than single-metal effects, mis-metallation of SHANK3 zinc-finger proteins at synapses, and multi-kingdom dysbiosis analysis including fungal biofilm shielding"
 ---
 
 # Autism Spectrum Disorder (ASD)

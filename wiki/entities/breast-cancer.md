@@ -19,6 +19,12 @@ sources:
   - klotz-2017-aluminum-health-effects-review
 tags: [cancer, copper, cadmium, zinc, manganese, metalloestrogens, microbiome, oxidative-stress, Cu-Zn-ratio]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [endometriosis, ovarian-cancer, colorectal-cancer]
+shared_signature_metals: {endometriosis: [cadmium, iron, nickel], ovarian-cancer: [cadmium, iron, nickel], colorectal-cancer: [iron, zinc, cadmium]}
+shared_signature_taxa: {endometriosis: [escherichia-coli, bacteroides-fragilis], ovarian-cancer: [escherichia-coli, fusobacterium-nucleatum], colorectal-cancer: [fusobacterium-nucleatum, bacteroides-fragilis]}
+seo_target: "breast cancer heavy metals microbiome cadmium metalloestrogens"
+wikipedia_differentiation: "Metalloestrogen mechanism analysis with cadmium ERa binding affinity data, Cu/Zn ratio as prognostic biomarker, and estrogen recirculation via beta-glucuronidase-producing gut bacteria"
 ---
 
 # Breast Cancer

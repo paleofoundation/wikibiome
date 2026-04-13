@@ -18,6 +18,12 @@ sources:
   - ogundare-2024-metals-behavioral-depression-women
 tags: [psychiatric, perinatal, zinc, iron, copper, magnesium, microbiome, developmental-vulnerability, trace-elements]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [depression, pcos, iron-deficiency-anemia]
+shared_signature_metals: {depression: [zinc, copper, iron, magnesium], pcos: [copper, zinc, iron], iron-deficiency-anemia: [iron, zinc]}
+shared_signature_taxa: {depression: [faecalibacterium-depleted, bifidobacterium-depleted, lachnospiraceae-depleted], pcos: [lactobacillus-depleted, bifidobacterium-depleted]}
+seo_target: "postpartum depression zinc iron magnesium metals microbiome"
+wikipedia_differentiation: "Metal mixture analysis showing synergistic effects of combined zinc depletion, copper elevation, and iron dysregulation during peripartum period, with magnesium supplementation evidence for infant neurodevelopmental outcomes"
 ---
 
 # Postpartum Depression

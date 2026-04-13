@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [ahmed-2025-metals-alzheimers-mechanistic-review.md, scholefield-2024-brain-metallomics-dementia.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, bakulski-2025-heavy-metals-late-onset-alzheimers.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, islam-2022-metal-toxicity-alzheimers-extensive-review.md, jakubowska-2024-metal-toxicity-alzheimers-review.md, armstrong-2024-alzheimers-extrinsic-factors-development.md, passeri-2024-recent-advances-therapeutics-alzheimers.md, zhang-2024-recent-advances-alzheimers-mechanisms-trials.md, chin-chan-2015-environmental-pollutants-ad-pd.md, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration.md, althomali-2024-heavy-metals-neurocognitive-systematic-review.md, gentile-2020-diet-microbiota-brain-health.md, khatoon-2023-gut-microbiota-neurodegenerative.md, alonso-garcia-2021-gut-microbiota-proteinopathies.md, gao-2023-microglia-neurodegenerative-diseases.md, klotz-2017-aluminum-health-effects-review.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, rasin-2025-cadmium-exposure-health-review.md]
 tags: [neurodegenerative-disease, copper, iron, lead, aluminum, cadmium, mercury, arsenic, amyloid-beta, ferroptosis, gut-brain-axis, microbiome, epigenetics]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [parkinsons-disease, depression, schizophrenia]
+shared_signature_metals: {parkinsons-disease: [iron, copper-depleted, lead, cadmium], depression: [zinc-depleted, iron], schizophrenia: [copper, zinc-dysregulated]}
+shared_signature_taxa: {parkinsons-disease: [escherichia-coli, lachnospiraceae-depleted, roseburia-depleted, faecalibacterium-depleted], depression: [lachnospiraceae-depleted, faecalibacterium-depleted, roseburia-depleted], schizophrenia: [escherichia-coli, lachnospiraceae-depleted]}
+seo_target: "Alzheimer's disease heavy metals microbiome copper iron"
+wikipedia_differentiation: "Brain copper paradox analysis (depletion vs peripheral excess), lead epigenetic latency evidence, and amyloid cross-seeding from gut bacterial curli fibers connecting microbiome to neurodegeneration"
 ---
 
 # Alzheimer's Disease (AD)

@@ -7,6 +7,12 @@ updated: 2026-04-09
 sources: [saha-2005-prevalence-schizophrenia-systematic-review.md, schultz-2007-schizophrenia-review-afp.md, comer-2020-inflamed-brain-schizophrenia-neuroinflammation.md, li-2024-alterations-gut-microbiota-schizophrenia-vote-counting.md, yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia.md, safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis.md, ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome.md, ren-2025-gut-virome-schizophrenia-metagenomics.md, olde-loohuis-2018-blood-microbial-diversity-schizophrenia-transcriptome.md, ng-2019-probiotics-schizophrenia-symptoms-systematic-review.md, chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression.md, dinan-2014-genomics-schizophrenia-gut-microbiome.md, zhu-2020-metagenome-wide-gut-microbiome-schizophrenia.md, ermakov-2022-immune-system-abnormalities-schizophrenia.md]
 tags: [schizophrenia, neuropsychiatric-disease, copper, zinc, iron, gut-brain-axis, neuroinflammation, dysbiosis, tryptophan-metabolism, immune-balance, metabolic-syndrome, microbiome]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [depression, alzheimers-disease, parkinsons-disease, multiple-sclerosis]
+shared_signature_metals: {depression: [copper, zinc], alzheimers-disease: [copper, zinc-dysregulated], parkinsons-disease: [iron, manganese, lead], multiple-sclerosis: [lead, cadmium]}
+shared_signature_taxa: {depression: [clostridium, escherichia-coli, lachnospiraceae], alzheimers-disease: [escherichia-coli, lachnospiraceae-depleted], parkinsons-disease: [enterobacteriaceae, lachnospiraceae], multiple-sclerosis: [lachnospiraceae, candida-albicans, streptococcus]}
+seo_target: "schizophrenia heavy metals microbiome copper zinc gut-brain"
+wikipedia_differentiation: "Cu/Zn mis-metallation mechanism at NMDA receptor zinc-finger sites connecting metallomic dysregulation to glutamatergic hypofunction hypothesis, plus multi-kingdom gut dysbiosis analysis including mycobiome and virome"
 ---
 
 # Schizophrenia

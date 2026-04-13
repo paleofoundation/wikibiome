@@ -13,6 +13,12 @@ sources:
   - libbey-2018-diet-microbiota-eae
 tags: [autoimmune, neurological, probiotics, gut-brain-axis, microbiome, cytokines, Th1-Th2-balance]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [depression, parkinsons-disease, inflammatory-bowel-disease, schizophrenia]
+shared_signature_metals: {depression: [cadmium, lead], parkinsons-disease: [iron, lead, nickel], inflammatory-bowel-disease: [iron, nickel], schizophrenia: [lead, cadmium]}
+shared_signature_taxa: {depression: [faecalibacterium-prausnitzii, lachnospiraceae, candida-albicans], parkinsons-disease: [faecalibacterium-prausnitzii, lachnospiraceae, roseburia, akkermansia-muciniphila], inflammatory-bowel-disease: [faecalibacterium-prausnitzii, lachnospiraceae, ruminococcus, roseburia, escherichia-coli], schizophrenia: [lachnospiraceae, candida-albicans, streptococcus]}
+seo_target: "multiple sclerosis microbiome gut-brain axis probiotics"
+wikipedia_differentiation: "Probiotic trial meta-analysis with specific strain-level outcomes, MAIT cell-fungal dysbiosis connection, and metallomic gap analysis identifying MS as an under-studied condition for metal-microbiome interactions"
 ---
 
 # Multiple Sclerosis

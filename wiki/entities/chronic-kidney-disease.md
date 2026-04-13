@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, danziger-2022-susceptibility-heavy-metal-toxicity-ckd.md, atlani-2024-heavy-metals-ckdu-central-india.md, tsai-2018-heavy-metals-soil-ckd-progression-esrd.md, liu-2025-low-concentration-metals-ckd-alpha-klotho.md, rho-2025-heavy-metals-kidney-function-korea.md, xie-2025-urinary-metals-trace-elements-kidney-function.md, moody-2018-toxic-metals-ckd-systematic-review.md, yin-2024-heavy-metals-renal-injury-longitudinal.md, kuo-2024-low-level-lead-cadmium-ckd-mortality.md, sabath-2012-renal-health-heavy-metal-nephrotoxicity.md, khan-2014-metals-type2-diabetes.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy.md]
 tags: [renal-disease, cadmium, lead, mercury, arsenic, chromium, nickel, ferroptosis, alpha-klotho, nephrotoxicity, vicious-cycle, racial-disparities, CKDu, environmental-exposure]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [type-2-diabetes, cardiovascular-disease, hypertension]
+shared_signature_metals: {type-2-diabetes: [cadmium, nickel, lead, iron], cardiovascular-disease: [lead, cadmium], hypertension: [lead, cadmium]}
+shared_signature_taxa: {type-2-diabetes: [enterobacteriaceae, faecalibacterium-prausnitzii, akkermansia-muciniphila, lachnospiraceae], cardiovascular-disease: [enterobacteriaceae, escherichia-coli], hypertension: [enterobacteriaceae, lachnospiraceae-depleted]}
+seo_target: "chronic kidney disease heavy metals cadmium lead nephrotoxicity microbiome"
+wikipedia_differentiation: "Bidirectional vicious cycle analysis showing metals causing nephrotoxic injury while declining kidney function impairs metal excretion, plus CKDu agricultural community epidemiology and alpha-Klotho as metal-sensitive renoprotective marker"
 ---
 
 # Chronic Kidney Disease (CKD)

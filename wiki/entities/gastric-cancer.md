@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [giambo-2021-toxic-metal-exposure-gut-microbiota-review, zhu-2024-toxic-essential-metals-gut-microbiota, briffa-2020-heavy-metal-pollution-environment-toxicology, jaishankar-2014-heavy-metal-toxicity-mechanisms, balali-mood-2021-toxic-mechanisms-five-heavy-metals, mishra-2022-molecular-mechanisms-heavy-metals-ckd]
 tags: [gastric-cancer, helicobacter-pylori, nickel, hydrogenase, CagA, urease, carcinogenesis, nitrosamine, cadmium, iron, microbiome, stomach]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [colorectal-cancer, pancreatic-cancer, gerd]
+shared_signature_metals: {colorectal-cancer: [iron, cadmium, zinc], pancreatic-cancer: [cadmium, iron], gerd: [nickel]}
+shared_signature_taxa: {colorectal-cancer: [fusobacterium-nucleatum, escherichia-coli], pancreatic-cancer: [fusobacterium, porphyromonas-gingivalis], gerd: [helicobacter-pylori]}
+seo_target: "gastric cancer Helicobacter pylori nickel microbiome"
+wikipedia_differentiation: "Complete nickel-to-cancer chain showing how nickel cofactors enable H. pylori urease and hydrogenase, powering CagA oncoprotein translocation -- the most direct metal-to-carcinogenesis pathway in human disease"
 ---
 
 # Gastric Cancer

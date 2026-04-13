@@ -30,6 +30,12 @@ sources:
   - han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer
 tags: [cancer, pancreatic-cancer, PDAC, copper, zinc, calcium, magnesium, cadmium, metallomics, microbiome, oral-microbiome, mycobiome, virome, metabolomics, Mendelian-randomization, probiotics, synbiotics, ferroptosis, metal-carcinogenesis]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [colorectal-cancer, type-2-diabetes, obesity]
+shared_signature_metals: {colorectal-cancer: [iron, cadmium], type-2-diabetes: [iron, cadmium, arsenic, nickel], obesity: [cadmium, iron]}
+shared_signature_taxa: {colorectal-cancer: [fusobacterium, faecalibacterium-prausnitzii, roseburia], type-2-diabetes: [escherichia-coli, enterobacteriaceae, faecalibacterium-prausnitzii, bifidobacterium], obesity: [fusobacterium, streptococcus, faecalibacterium-prausnitzii, roseburia]}
+seo_target: "pancreatic cancer microbiome oral bacteria metals"
+wikipedia_differentiation: "Oral-pancreatic translocation pathway with 27-microbe risk signature, intratumoral microbiome gemcitabine resistance mechanism via bacterial CDD enzyme, and urine metallomics diagnostic potential"
 ---
 
 # Pancreatic Cancer

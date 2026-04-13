@@ -7,6 +7,12 @@ updated: 2026-04-13
 sources: [borghini-2020-low-nickel-diet-celiac]
 tags: [autoimmune, gluten, intestinal, malabsorption, nickel, dietary, gut-barrier]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [hashimotos-thyroiditis, type-1-diabetes, ibs, inflammatory-bowel-disease]
+shared_signature_metals: {hashimotos-thyroiditis: [iron, zinc, selenium], type-1-diabetes: [zinc, iron], ibs: [iron, zinc], inflammatory-bowel-disease: [iron, zinc]}
+shared_signature_taxa: {hashimotos-thyroiditis: [lactobacillus, bifidobacterium, proteobacteria], type-1-diabetes: [bifidobacterium-depleted, bacteroides], ibs: [bifidobacterium-depleted, lactobacillus-depleted], inflammatory-bowel-disease: [faecalibacterium-depleted, lachnospiraceae-depleted]}
+seo_target: "celiac disease microbiome nickel gluten-free diet metals"
+wikipedia_differentiation: "Gluten-free diet nickel paradox showing how GFD substitute foods increase dietary nickel exposure, triggering nickel allergic contact mucositis that mimics celiac symptoms and confounds clinical management"
 ---
 
 **Celiac disease** is a chronic autoimmune condition triggered by dietary gluten (gliadin proteins from wheat, barley, and rye) in genetically susceptible individuals (HLA-DQ2/DQ8). Gluten exposure causes an immune-mediated destruction of small intestinal villi, resulting in malabsorption of nutrients including iron, zinc, selenium, calcium, and vitamins.

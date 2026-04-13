@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [amerikanou-2022-ibd-biomarkers-trace-metals, sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, li-2019-timing-second-fmt-crohns, sokol-2020-fmt-remission-crohns-pilot-rct, shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis, zhu-2021-editorial-microbiome-ibd-composition-therapy, rashed-2022-manipulation-gut-microbiota-crohns, borghini-2020-endometriosis-nickel-ibs, syer-2015-nsaid-enteropathy-bacteria, mermans-2019-nsaids-gut-microbiome-chronic-inflammation]
 tags: [IBD, Crohns-disease, ulcerative-colitis, calprotectin, hepcidin, iron, zinc, dysbiosis, FMT, gut-barrier, inflammation, Faecalibacterium, Enterobacteriaceae]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [crohns-disease, ulcerative-colitis, colorectal-cancer, multiple-sclerosis, graves-disease]
+shared_signature_metals: {crohns-disease: [iron, zinc, cadmium, copper], ulcerative-colitis: [iron, zinc, copper], colorectal-cancer: [iron, zinc, cadmium], multiple-sclerosis: [iron, nickel], graves-disease: [iron, zinc]}
+shared_signature_taxa: {crohns-disease: [escherichia-coli, faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted], ulcerative-colitis: [escherichia-coli, faecalibacterium-depleted, lachnospiraceae-depleted], colorectal-cancer: [escherichia-coli, fusobacterium-nucleatum, faecalibacterium-depleted], multiple-sclerosis: [faecalibacterium-prausnitzii, lachnospiraceae, ruminococcus, roseburia, escherichia-coli], graves-disease: [bacteroides-fragilis, faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli]}
+seo_target: "inflammatory bowel disease heavy metals microbiome iron zinc dysbiosis"
+wikipedia_differentiation: "Hepcidin-mediated iron sequestration reframed as nutritional immunity rather than simple deficiency, oral iron paradox analysis, and FMT evidence for microbiome-mediated remission"
 ---
 
 # Inflammatory Bowel Disease (IBD)

@@ -23,6 +23,12 @@ sources:
   - street-2024-environmental-factors-thyroid-function
 tags: [hashimotos-thyroiditis, autoimmune, thyroid, selenium, iron, zinc, copper, iodine, cadmium, mercury, lead, nickel, gut-thyroid-axis, microbiome, anti-TPO, anti-Tg, dysbiosis, SCFAs, tryptophan, diet, probiotics, comorbidities]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [graves-disease, depression, celiac-disease, pcos]
+shared_signature_metals: {graves-disease: [selenium, iodine, iron, zinc], depression: [iron, zinc, selenium], celiac-disease: [iron, zinc, selenium], pcos: [iron, zinc, selenium]}
+shared_signature_taxa: {graves-disease: [faecalibacterium-prausnitzii, lachnospiraceae, proteobacteria, prevotella], depression: [faecalibacterium-prausnitzii, bifidobacterium, lachnospiraceae], celiac-disease: [lactobacillus, bifidobacterium, proteobacteria], pcos: [lactobacillus, prevotella, bifidobacterium]}
+seo_target: "Hashimoto's thyroiditis microbiome selenium iodine gut"
+wikipedia_differentiation: "Iodine-driven dysbiosis mechanism, nickel-thyroid function connection, tryptophan metabolism disruption pathway, and Akkermansia Mendelian randomization evidence (OR 0.71) for thyroid autoimmunity protection"
 ---
 
 # Hashimoto's Thyroiditis

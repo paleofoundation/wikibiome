@@ -18,6 +18,12 @@ sources:
   - aquino-2012-cadmium-nickel-metalloestrogens
 tags: [gynecological, nickel-allergy, metalloestrogens, microbiome, dietary-paradox, estrogen-dependent, chronic-inflammatory]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [pcos, ibs, breast-cancer, ovarian-cancer]
+shared_signature_metals: {pcos: [nickel, iron, zinc], ibs: [nickel, iron], breast-cancer: [cadmium, iron, nickel], ovarian-cancer: [iron, cadmium, nickel]}
+shared_signature_taxa: {pcos: [escherichia-coli, bacteroides-fragilis, lachnospiraceae], ibs: [escherichia-coli, lachnospiraceae, ruminococcus], breast-cancer: [escherichia-coli, bacteroides-fragilis], ovarian-cancer: [escherichia-coli, fusobacterium-nucleatum]}
+seo_target: "endometriosis heavy metals microbiome nickel"
+wikipedia_differentiation: "Full metallomic signature with peritoneal fluid metal concentrations, nickel allergy prevalence data (90.3%), and ecological analysis connecting metal-dependent pathogens to estrogen recirculation"
 ---
 
 # Endometriosis

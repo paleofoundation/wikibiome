@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [microbiome-autoimmune-2015-dysbiosis-autoantibodies-t1d, microbiome-immune-system-2017-modulation-t1d-risk, probiotics-treatment-2020-t1d-diabetes-review, metabolic-pathways-2023-2025-gut-microbiome-t1d, 16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis, abuqwider-2023-gut-microbiome-blood-glucose-t1d-systematic-review]
 tags: [autoimmune, zinc, iron, beta-cells, insulin, microbiome, dysbiosis, developmental-vulnerability, bifidobacterium, bacteroides]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [celiac-disease, type-2-diabetes, hashimotos-thyroiditis]
+shared_signature_metals: {celiac-disease: [zinc, iron], type-2-diabetes: [zinc, iron], hashimotos-thyroiditis: [zinc, iron, selenium]}
+shared_signature_taxa: {celiac-disease: [bifidobacterium-depleted, bacteroides], type-2-diabetes: [bifidobacterium-depleted, faecalibacterium-depleted], hashimotos-thyroiditis: [bifidobacterium-depleted, lactobacillus-depleted]}
+seo_target: "type 1 diabetes microbiome zinc insulin gut bacteria autoimmune"
+wikipedia_differentiation: "ZnT8 autoantigen analysis connecting zinc-insulin hexamer biology to autoimmune beta cell destruction, plus early-life microbiome dysbiosis as autoimmune trigger with Bacteroides/Bifidobacterium ratio shifts"
 ---
 
 # Type 1 Diabetes (T1D)

@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [althomali-2024-heavy-metals-neurocognitive-systematic-review, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative, gao-2023-microglia-neurodegenerative-diseases, balali-mood-2021-toxic-mechanisms-five-heavy-metals, jaishankar-2014-heavy-metal-toxicity-mechanisms, chin-chan-2015-environmental-pollutants-ad-pd, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration, briffa-2020-heavy-metal-pollution-environment-toxicology, rasin-2025-cadmium-exposure-health-review]
 tags: [depression, zinc, copper, iron, lead, cadmium, mercury, tryptophan, serotonin, gut-brain-axis, microbiome, neuroinflammation, IDO, HPA-axis]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [anxiety, schizophrenia, parkinsons-disease, multiple-sclerosis, pcos]
+shared_signature_metals: {anxiety: [copper, zinc], schizophrenia: [copper, zinc], parkinsons-disease: [iron, lead], multiple-sclerosis: [cadmium, lead], pcos: [zinc, iron]}
+shared_signature_taxa: {anxiety: [faecalibacterium-prausnitzii, bifidobacterium, lachnospiraceae], schizophrenia: [clostridium, escherichia-coli, lachnospiraceae], parkinsons-disease: [faecalibacterium-prausnitzii, lachnospiraceae, prevotella], multiple-sclerosis: [faecalibacterium-prausnitzii, lachnospiraceae, candida-albicans], pcos: [bacteroides, escherichia-coli]}
+seo_target: "depression heavy metals microbiome zinc copper gut-brain axis"
+wikipedia_differentiation: "Cu/Zn ratio as biological psychiatry biomarker, tryptophan-IDO-kynurenine pathway analysis connecting metal-driven inflammation to serotonin depletion, and gut-brain axis evidence linking dysbiosis to neuroinflammation"
 ---
 
 # Depression (Major Depressive Disorder)

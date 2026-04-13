@@ -2,6 +2,9 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-13] v2 migration | Disease entity pages (Priority 2)
+Upgraded all disease entity frontmatter to v2: added associated_conditions, shared_signature_metals, shared_signature_taxa, seo_target, wikipedia_differentiation, last_substantive_update.
+
 ## [2026-04-13] v2 migration | Signature pages batch 3 (15 of 15)
 Upgraded: obesity, pancreatic-cancer, parkinsons-disease, pcos, type-2-diabetes. All 15 signature pages now on v2 schema.
 

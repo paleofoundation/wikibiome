@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, amerikanou-2022-ibd-biomarkers-trace-metals, khalili-2024-mediterranean-diet-later-onset-crohns, haag-2015-intestinal-microbiota-innate-immunity-crohns, knights-2014-host-genetics-microbiome-ibd, serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis, abreu-2024-high-fiber-low-fat-diet-crohns, jacobs-2022-crohns-remission-obesity-mli-microbiome, kang-2023-diagnosis-crohns-uc-microbiome, zhang-2017-intestinal-microbiota-host-immune-ibd, xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr, lu-2024-ibd-extraintestinal-manifestations-microbiota-mr, liu-2022-mr-gut-microbial-genera-ibd-uc-cd, li-2020-polyphenols-gut-microbiota-ibd-synergy, vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]
 tags: [inflammatory-bowel-disease, autoimmune, gastrointestinal, iron, zinc, copper, cadmium, dysbiosis, microbiome, ferroptosis, nutritional-immunity, siderophores, gut-barrier]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [ulcerative-colitis, colorectal-cancer, depression, rheumatoid-arthritis]
+shared_signature_metals: {ulcerative-colitis: [iron, zinc, cadmium], colorectal-cancer: [iron, zinc, cadmium], depression: [zinc, iron], rheumatoid-arthritis: [iron, zinc, copper]}
+shared_signature_taxa: {ulcerative-colitis: [escherichia-coli, bacteroides-fragilis, faecalibacterium-depleted, roseburia-depleted, lachnospiraceae-depleted], colorectal-cancer: [escherichia-coli, fusobacterium-nucleatum, bacteroides-fragilis, lachnospiraceae-depleted, faecalibacterium-depleted], depression: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted], rheumatoid-arthritis: [escherichia-coli, lachnospiraceae-depleted]}
+seo_target: "Crohn's disease heavy metals microbiome iron zinc"
+wikipedia_differentiation: "Metal compartmentalization analysis showing ZIP8-mediated mucosal trapping alongside luminal depletion, with calprotectin reframed as active nutritional immunity agent rather than passive biomarker"
 ---
 
 # Crohn's Disease (CD)

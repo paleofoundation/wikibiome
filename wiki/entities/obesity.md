@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [pendergrass-2026-heavy-metals-obesity-epidemic, lusi-2015-nickel-allergy-overweight, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome, dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, ross-2024-diet-gut-microbiome-interplay-health-disease, lombardi-2020-snas-probiotics-dysbiosis, lu-2024-nickel-diabetes-meta-analysis]
 tags: [obesity, BMI, Firmicutes-Bacteroidetes-ratio, nickel-allergy, low-nickel-diet, heavy-metals, obesogens, SCFA, dysbiosis, adipose-inflammation, insulin-resistance, TMAO, metabolic-syndrome]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [type-2-diabetes, pcos, cardiovascular-disease, depression, colorectal-cancer]
+shared_signature_metals: {type-2-diabetes: [iron, cadmium, nickel, lead], pcos: [cadmium, nickel, lead, iron], cardiovascular-disease: [iron, cadmium, nickel, lead], depression: [iron, cadmium, lead], colorectal-cancer: [iron]}
+shared_signature_taxa: {type-2-diabetes: [escherichia-coli, enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium], pcos: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii], cardiovascular-disease: [escherichia-coli, streptococcus, enterobacteriaceae, lachnospiraceae, roseburia], depression: [escherichia-coli, faecalibacterium-prausnitzii, lachnospiraceae], colorectal-cancer: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]}
+seo_target: "obesity heavy metals microbiome gut bacteria nickel cadmium"
+wikipedia_differentiation: "Heavy metals as upstream obesogens framework connecting agricultural cadmium/nickel contamination to SCFA-producer depletion, plus nickel allergy prevalence data (59.7% in overweight women) and low-nickel diet weight loss evidence"
 ---
 
 # Obesity

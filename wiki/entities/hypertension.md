@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [fan-2025-fmt-hypertension-rct, zou-2022-mycobiome-dysbiosis-hypertension-light-chains, qiu-2023-gut-mycobiome-hypertension-ckd, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, zhen-2023-tmao-cardiovascular-diseases-review, dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis, spivak-2023-local-systemic-microbiome-derived-metabolites]
 tags: [hypertension, blood-pressure, SCFAs, TMAO, mycobiome, Malassezia, FMT, lead, cadmium, Olfr78, GPR41, renal-metals, gut-microbiome, cardiovascular-disease]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [cardiovascular-disease, chronic-kidney-disease, type-2-diabetes, obesity]
+shared_signature_metals: {cardiovascular-disease: [lead, cadmium, nickel], chronic-kidney-disease: [lead, cadmium], type-2-diabetes: [lead, cadmium, iron], obesity: [lead, cadmium, nickel]}
+shared_signature_taxa: {cardiovascular-disease: [enterobacteriaceae, roseburia-depleted, lachnospiraceae-depleted], chronic-kidney-disease: [enterobacteriaceae, lachnospiraceae-depleted], type-2-diabetes: [enterobacteriaceae, faecalibacterium-depleted, lachnospiraceae-depleted], obesity: [enterobacteriaceae, faecalibacterium-depleted, roseburia-depleted]}
+seo_target: "hypertension microbiome gut bacteria SCFAs blood pressure heavy metals"
+wikipedia_differentiation: "SCFA-mediated blood pressure regulation via opposing Olfr78/GPR41 receptor systems, mycobiome dysbiosis with Malassezia enrichment, and FMT RCT evidence for microbiome-mediated BP reduction"
 ---
 
 # Hypertension

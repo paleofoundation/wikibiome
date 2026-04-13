@@ -26,6 +26,12 @@ sources:
   - mcleod-2023-bridge-crc-mediterranean-diet-trial
 tags: [cancer, colorectal-cancer, copper, zinc, selenium, cadmium, arsenic, chromium, iron, ferroptosis, Fusobacterium-nucleatum, Bacteroides-fragilis, bile-acids, SCFAs, butyrate, GPR43, microbiome, mycobiome, virome, diet, Mediterranean-diet, Cu-Zn-ratio, metal-carcinogenesis]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [crohns-disease, pancreatic-cancer, obesity]
+shared_signature_metals: {crohns-disease: [iron, zinc, cadmium], pancreatic-cancer: [iron, cadmium], obesity: [iron]}
+shared_signature_taxa: {crohns-disease: [escherichia-coli, fusobacterium-nucleatum, bacteroides-fragilis, lachnospiraceae-depleted, faecalibacterium-depleted], pancreatic-cancer: [fusobacterium-nucleatum, porphyromonas-gingivalis, escherichia-coli], obesity: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]}
+seo_target: "colorectal cancer microbiome metals Fusobacterium iron"
+wikipedia_differentiation: "Integrated metallomic-taxonomic analysis connecting Cu/Zn ratio disruption to Fusobacterium virulence, bile acid dysmetabolism, and SCFA depletion across the adenoma-carcinoma sequence"
 ---
 
 # Colorectal Cancer

@@ -18,6 +18,12 @@ sources:
   - rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis
 tags: [graves-disease, autoimmune, thyroid, selenium, iron, copper, zinc, iodine, cadmium, mercury, lead, gut-thyroid-axis, microbiome, TRAb, Fusobacterium, Bifidobacterium, SCFAs, diet, methimazole, berberine]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [hashimotos-thyroiditis, depression, inflammatory-bowel-disease]
+shared_signature_metals: {hashimotos-thyroiditis: [selenium, iodine, iron, zinc], depression: [lead, iron, selenium], inflammatory-bowel-disease: [iron, zinc]}
+shared_signature_taxa: {hashimotos-thyroiditis: [faecalibacterium-prausnitzii, lachnospiraceae, proteobacteria, prevotella], depression: [faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli], inflammatory-bowel-disease: [bacteroides-fragilis, faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli]}
+seo_target: "Graves disease microbiome thyroid selenium gut"
+wikipedia_differentiation: "Gut-thyroid axis analysis with Mendelian randomization evidence for IBD comorbidity, selenium-dependent selenoprotein mechanisms, and Th17/Treg imbalance driven by SCFA-producing taxa depletion"
 ---
 
 # Graves' Disease

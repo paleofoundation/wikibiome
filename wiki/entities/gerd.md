@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [yousaf-2021-low-nickel-diet-gerd, alageel-2025-microbiome-composition-gerd-systematic-review, alnaim-2025-dietary-interventions-pediatric-gerd-systematic-review, liang-2021-hpylori-oral-microbiota-reflux-esophagitis, kucharczyk-2024-innovative-therapeutic-strategies-gerd-review]
 tags: [gastrointestinal, nickel, microbiome, PPIs, esophageal-microbiome, dysbiosis]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [ibs, gastric-cancer, celiac-disease]
+shared_signature_metals: {ibs: [nickel], gastric-cancer: [nickel], celiac-disease: [iron, zinc]}
+shared_signature_taxa: {ibs: [helicobacter-pylori], gastric-cancer: [helicobacter-pylori], celiac-disease: [bifidobacterium-depleted]}
+seo_target: "GERD nickel allergy microbiome esophageal low nickel diet"
+wikipedia_differentiation: "Nickel hypersensitivity as driver of refractory GERD with 95% improvement on low-nickel diet, plus PPI-microbiome disruption axis showing iatrogenic dysbiosis from acid suppression"
 ---
 
 # Gastroesophageal Reflux Disease (GERD)

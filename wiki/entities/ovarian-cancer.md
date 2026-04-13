@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse, al-natsheh-2022-stress-probiotics-ovarian-cancer-thesis, qin-2022-metagenomic-upper-reproductive-tract-ovarian-cancer, chen-2024-mediterranean-diet-ovarian-cancer-survival, reid-2017-epidemiology-ovarian-cancer-review, yammine-2020-dietary-fatty-acids-ovarian-cancer-epic]
 tags: [cancer, cadmium, nickel, arsenic, iron, metalloestrogens, ferroptosis, microbiome, mycobiome, fusobacterium]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [endometriosis, breast-cancer, colorectal-cancer]
+shared_signature_metals: {endometriosis: [iron, cadmium, nickel], breast-cancer: [cadmium, iron, nickel], colorectal-cancer: [iron, cadmium]}
+shared_signature_taxa: {endometriosis: [escherichia-coli, fusobacterium-nucleatum], breast-cancer: [escherichia-coli, fusobacterium-nucleatum], colorectal-cancer: [fusobacterium-nucleatum, bacteroides-fragilis]}
+seo_target: "ovarian cancer heavy metals microbiome cadmium metalloestrogens ferroptosis"
+wikipedia_differentiation: "Cadmium metalloestrogen binding affinity to ERa at picomolar concentrations, peritoneal microbiome disruption analysis, and ferroptosis-inducing therapeutic strategies targeting iron-dependent cancer cell death"
 ---
 
 # Ovarian Cancer

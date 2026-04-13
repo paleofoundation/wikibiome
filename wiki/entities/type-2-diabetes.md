@@ -21,6 +21,12 @@ sources:
   - li-2019-heavy-metal-metabolic-health-gut-microbiome
 tags: [disease, diabetes, metabolic, metabolic-disease, metals, zinc, chromium, iron, nickel, cadmium, insulin-resistance, microbiome, obesogens]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [obesity, cardiovascular-disease, pcos, chronic-kidney-disease, depression]
+shared_signature_metals: {obesity: [iron, cadmium, nickel, lead], cardiovascular-disease: [iron, nickel, cadmium], pcos: [iron, cadmium, nickel, lead], chronic-kidney-disease: [cadmium, nickel, lead, iron], depression: [iron, cadmium, lead]}
+shared_signature_taxa: {obesity: [escherichia-coli, enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium], cardiovascular-disease: [enterobacteriaceae, escherichia-coli, roseburia-depleted, faecalibacterium-depleted], pcos: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii, prevotella], chronic-kidney-disease: [enterobacteriaceae, faecalibacterium-prausnitzii, akkermansia-muciniphila, lachnospiraceae], depression: [escherichia-coli, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium]}
+seo_target: "type 2 diabetes heavy metals microbiome gut bacteria"
+wikipedia_differentiation: "Metallomic signature connecting zinc depletion, nickel/cadmium exposure, and iron overload to specific SCFA-producing taxa loss and metformin's microbiome-mediated mechanism of action"
 ---
 
 # Type 2 Diabetes

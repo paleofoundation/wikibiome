@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [borghini-2020-endometriosis-nickel-ibs, lombardi-2020-snas-probiotics-dysbiosis, rizzi-2017-nickel-ibs, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]
 tags: [IBS, nickel, FODMAP, gut-barrier, visceral-hypersensitivity, microbiome, SNAS, mast-cells, serotonin, low-nickel-diet]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [endometriosis, gerd, inflammatory-bowel-disease, celiac-disease]
+shared_signature_metals: {endometriosis: [nickel, iron], gerd: [nickel], inflammatory-bowel-disease: [iron, nickel], celiac-disease: [iron, zinc]}
+shared_signature_taxa: {endometriosis: [escherichia-coli, lachnospiraceae, ruminococcus], gerd: [helicobacter-pylori], inflammatory-bowel-disease: [escherichia-coli, faecalibacterium-depleted], celiac-disease: [bifidobacterium-depleted, lactobacillus-depleted]}
+seo_target: "IBS nickel allergy microbiome low nickel diet SNAS"
+wikipedia_differentiation: "Nickel allergic contact mucositis (ACM) as undiagnosed driver of IBS symptoms, with patch test prevalence data (30-65%) and low-nickel diet outcomes reframing functional GI disease as metal hypersensitivity"
 ---
 
 # Irritable Bowel Syndrome (IBS)

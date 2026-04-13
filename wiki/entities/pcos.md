@@ -8,6 +8,12 @@ updated: 2026-04-09
 sources: [jiang-2021-copper-pcos-meta-analysis.md, liu-2024-copper-pcos-ivf.md, smovrsnik-2025-trace-elements-pcos.md, abudawood-2021-antioxidant-heavy-metals-pcos.md, kirmizi-2020-heavy-metals-pcos.md, tatarchuk-2016-micro-macroelements-pcos.md, pokorska-niewiada-2022-trace-elements-erythrocytes-pcos.md, kurdoglu-2012-trace-elements-pcos.md, mhaibes-2017-blood-metals-pcos-obese.md, aquino-2012-cadmium-nickel-metalloestrogens.md, barrea-2019-mediterranean-diet-pcos.md, angoorani-2023-probiotics-prebiotics-synbiotics-pcos.md, ostadmohammadi-2019-vitamin-d-probiotic-pcos.md, calcaterra-2023-probiotics-pcos-adolescents.md, wang-2022-high-fiber-acarbose-pcos.md, mei-2022-mediterranean-low-carb-pcos.md, cutler-2019-fiber-magnesium-pcos.md, leung-2022-lower-fiber-pcos-meta-analysis.md, tsushima-2024-ketogenic-diet-pcos-fertility.md, mavropoulos-2005-ketogenic-diet-pcos.md, smovrsnik-2023-heavy-metals-oxidative-stress-pcos.md]
 tags: [endocrine-disease, copper, zinc, nickel, cadmium, lead, metalloestrogens, insulin-resistance, oxidative-stress, microbiome, dietary-intervention]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+associated_conditions: [type-2-diabetes, obesity, endometriosis, cardiovascular-disease, depression]
+shared_signature_metals: {type-2-diabetes: [iron, cadmium, lead, nickel], obesity: [cadmium, nickel, lead, iron], endometriosis: [cadmium, lead, nickel, iron, copper], cardiovascular-disease: [cadmium, lead, iron, copper], depression: [iron, cadmium, lead, copper]}
+shared_signature_taxa: {type-2-diabetes: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii], obesity: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii], endometriosis: [escherichia-coli, lactobacillus], cardiovascular-disease: [escherichia-coli, faecalibacterium-prausnitzii], depression: [escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, bifidobacterium]}
+seo_target: "PCOS heavy metals microbiome copper cadmium"
+wikipedia_differentiation: "Comprehensive metallomic signature with copper meta-analysis data (SMD 0.51), toxic metal co-elevation patterns, and ecological analysis distinguishing PCOS dysbiosis from endometriosis via androgen-mediated vs estrogen-mediated pathways"
 ---
 
 # Polycystic Ovary Syndrome (PCOS)
