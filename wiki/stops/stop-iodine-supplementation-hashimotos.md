@@ -14,6 +14,10 @@ why_counterproductive: "Excess iodine increases autoantigen load on thyroid pero
 evidence: [gong-2024-iodine-gut-microbiota-hashimotos, brock-2015-selenium-thyroid-autoimmunity, kravchenko-2023-thyroid-hormones-minerals-aitd, li-2025-trace-elements-autoimmune-thyroid-disease]
 alternative: "Precise urinary iodine assessment to rule out true deficiency. Prioritize selenium supplementation (200 µg/day selenomethionine) — the intervention with the strongest RCT evidence for reducing anti-TPO antibodies in Hashimoto's. Address gut dysbiosis to normalize the gut-thyroid immune axis."
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan.

@@ -14,6 +14,10 @@ why_counterproductive: "Hepcidin elevation indicates functional anemia (host def
 evidence: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, su-2020-gut-microbiota-immune-imbalance-graves, kravchenko-2023-thyroid-hormones-minerals-aitd]
 alternative: "Support nutritional immunity with [[lactoferrin]] — chelates iron away from pathogens while supporting the host's defense strategy. Address underlying dysbiosis to restore physiological iron handling."
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2, 4, 8]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

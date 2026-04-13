@@ -14,6 +14,10 @@ why_counterproductive: "Broad-spectrum antibiotics destroy remaining F. prausnit
 evidence: [coryell-2018-gut-microbiome-arsenic-toxicity-protection]
 alternative: "Targeted antimicrobial strategies (e.g., bacteriophage therapy targeting AIEC); competitive exclusion via [[ecoli-nissle-1917]]; restore commensals with distal-fermenting prebiotics"
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [5]
+evidence_level: "animal-model"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

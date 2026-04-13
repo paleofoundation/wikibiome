@@ -8,15 +8,20 @@ sources: [troci-2022-b-cell-depletion-reverses-dysbiosis-ms, attfield-2022-immun
 tags: [pharmaceutical, multiple-sclerosis, immunotherapy, microbiome-reversal, dysbiosis-recovery]
 intervention_class: pharmaceutical
 cureva_status: partial
+last_substantive_update: 2026-04-13
+karen_brain_primitives: [2, 5, 9]
 
 # Triangle validation for each condition
 triangles:
   - condition: "[[multiple-sclerosis]]"
     I_to_f: "B-cell depletion therapy (ocrelizumab) reverses dysbiosis by reducing pro-inflammatory B-cell cytokine production that selects for dysbiotic taxa; restores Firmicutes, Lachnospiraceae, and SCFA-producing bacteria"
     I_to_f_evidence: "strong"
+    I_to_f_sources: [troci-2022-b-cell-depletion-reverses-dysbiosis-ms]
     I_to_D: "Ocrelizumab is an FDA-approved DMT for RRMS and PPMS with well-established clinical efficacy (reduced relapse rate, slowed progression); microbiota reversal is a documented mechanistic correlate"
     I_to_D_evidence: "RCT"
+    I_to_D_sources: [attfield-2022-immunology-ms-nature-review, ignatova-2023-biomarkers-ms-review]
     f_to_D: "Dysbiosis (Clostridia depletion, SCFA reduction, fungal overgrowth) directly drives neuroinflammation via loss of Treg induction and intestinal barrier dysfunction; reversal of dysbiosis correlates with disease improvement"
+    f_to_D_sources: [troci-2022-b-cell-depletion-reverses-dysbiosis-ms, attfield-2022-immunology-ms-nature-review]
     status: validated
 
 targets:

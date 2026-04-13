@@ -14,6 +14,10 @@ why_counterproductive: "Zinc data in PCOS are inconsistent across studies. Over-
 evidence: [smovrsnik-2023-heavy-metals-oxidative-stress-pcos, jiang-2021-copper-pcos-meta-analysis]
 alternative: "Prioritize fiber, probiotics, and glutathione repletion. If zinc is genuinely deficient, supplement only in the context of restored microbial ecology with concurrent copper balancing."
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: partial
+karen_brain_primitives: [4]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

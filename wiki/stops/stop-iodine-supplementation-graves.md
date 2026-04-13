@@ -14,6 +14,10 @@ why_counterproductive: "Excess iodine alters thyroid peroxidase (TPO) epitope pr
 evidence: [gong-2024-iodine-gut-microbiota-hashimotos, brock-2015-selenium-thyroid-autoimmunity, kravchenko-2023-thyroid-hormones-minerals-aitd]
 alternative: "Precise iodine status assessment guided by urinary iodine concentration and functional thyroid markers. If supplementation is needed, use carefully titrated doses alongside [[selenium]] to support TPO activity without increasing autoantigen load."
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

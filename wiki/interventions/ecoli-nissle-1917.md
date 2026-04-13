@@ -8,14 +8,19 @@ sources: [pendergrass-2026-endometriosis-conference]
 tags: [probiotic, microbial-competition, siderophore]
 intervention_class: probiotic
 cureva_status: partial
+last_substantive_update: 2026-04-13
+karen_brain_primitives: [4, 5, 8]
 
 triangles:
   - condition: "[[endometriosis]]"
     I_to_f: "Outcompetes pathogenic E. coli, B. fragilis, GBS, F. nucleatum, and C. albicans via superior siderophore systems and nickel uptake; competes in hypoxic environments"
     I_to_f_evidence: "strong"
+    I_to_f_sources: [pendergrass-2026-endometriosis-conference]
     I_to_D: "Established probiotic with demonstrated competitive exclusion of key pathogenic taxa in the endometriosis signature"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [pendergrass-2026-endometriosis-conference]
     f_to_D: "The taxa it outcompetes are the primary drivers of the endometriosis microbiome signature"
+    f_to_D_sources: [pendergrass-2026-endometriosis-conference]
     status: validated
 
 targets:

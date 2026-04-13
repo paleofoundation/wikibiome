@@ -37,78 +37,107 @@ sources:
 tags: [dietary, metal-restriction, SNAS, nickel-allergy, nickel, evidence-based, nutritional-immunity]
 intervention_class: dietary
 cureva_status: complete
+last_substantive_update: 2026-04-13
+karen_brain_primitives: [1, 4, 6, 7]
 
 triangles:
   - condition: "[[endometriosis]]"
     I_to_f: "Removes nickel cofactor from glyoxalase (immune evasion), urease (pH disruption), NiFe-hydrogenase (hypoxia), and reduces Candida co-aggregate biofilm biomass. Also removes nickel's metalloestrogen activity on ERa+ tissue."
     I_to_f_evidence: "strong"
+    I_to_f_sources: [pendergrass-2026-endometriosis-conference, maier-2019-nickel-microbial-pathogenesis]
     I_to_D: "90.3% of endometriosis patients with GI symptoms test positive for Ni ACM; 3-month LNiD produced significant improvement in all 15 GI symptoms, all 7 extraintestinal symptoms, and all 3 gynecological symptoms (dysmenorrhea, dyspareunia, pelvic pain; p<0.005)"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [borghini-2020-endometriosis-nickel-ibs, pendergrass-2026-endometriosis-conference]
     f_to_D: "Nickel-dependent enzymes enable pathogen persistence, immune evasion, and hypoxia — all hallmarks of endometriosis. Nickel as metalloestrogen compounds estrogen-dependent lesion growth."
+    f_to_D_sources: [pendergrass-2026-endometriosis-conference, maier-2019-nickel-microbial-pathogenesis]
     status: validated
 
   - condition: "SNAS / Systemic Nickel Allergy Syndrome"
     I_to_f: "Removes the antigenic trigger (dietary nickel) that activates TLR-4-dependent innate immune response and Th1/Th2 cytokine cascades in sensitized individuals. Reduces nickel-induced intestinal mucosal inflammation."
     I_to_f_evidence: "strong"
+    I_to_f_sources: [braga-2013-snas-nosologic-framework, minelli-2010-nioh-cytokines-snas, di-gioacchino-2018-snas-chapter]
     I_to_D: "BraMa-Ni diet achieves 94.4% sensitivity / 93.3% specificity for SNAS diagnosis; 41.4% complete remission, 18.6% 70%+ improvement in multicenter trial (n=145). Diet is both diagnostic and therapeutic."
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [braga-2013-snas-nosologic-framework, lombardi-2020-snas-probiotics-dysbiosis]
     f_to_D: "SNAS is defined by the immune response to dietary nickel causing cutaneous (90%) and gastrointestinal (88%) symptoms. Removing the antigen removes the disease trigger."
+    f_to_D_sources: [braga-2013-snas-nosologic-framework, di-gioacchino-2018-snas-chapter]
     status: validated
 
   - condition: "[[helicobacter-pylori]] infection"
     I_to_f: "Depletes nickel cofactor for H. pylori urease (acid survival) and NiFe-hydrogenase (energy production, CagA translocation). Directly impairs the two enzyme systems most critical for gastric colonization."
     I_to_f_evidence: "strong"
+    I_to_f_sources: [campanale-2014-nickel-free-diet-h-pylori, maier-2019-nickel-microbial-pathogenesis]
     I_to_D: "Nickel-free diet + standard triple therapy achieved 84% eradication vs 46% with triple therapy alone (p<0.01) in randomized pilot study (n=52)"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [campanale-2014-nickel-free-diet-h-pylori]
     f_to_D: "H. pylori urease is essential for acid survival; hydrogenase powers CagA virulence factor translocation. Both are nickel-dependent. This is the paradigmatic case of nutritional immunity against a specific pathogen."
+    f_to_D_sources: [maier-2019-nickel-microbial-pathogenesis, campanale-2014-nickel-free-diet-h-pylori]
     status: validated
 
   - condition: "IBS (nickel-sensitive)"
     I_to_f: "Reduces nickel-mediated intestinal mucosal inflammation and restores intestinal permeability. Baseline 51Cr-EDTA excretion 5.91% vs 2.20% in controls (p<0.0001), indicating compromised barrier function."
     I_to_f_evidence: "moderate"
+    I_to_f_sources: [rizzi-2017-ibs-nickel-diet]
     I_to_D: "3-month LNiD significantly improved VAS scores for all GI symptoms except vomiting (p<0.001 to p<0.0001); VAS clinical efficacy improved from 3.9 to 7.3 (p<0.0001) in 20 IBS patients"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [rizzi-2017-ibs-nickel-diet]
     f_to_D: "IBS-nickel patients show compromised intestinal permeability, high lactose malabsorption (75%), and elevated psychiatric comorbidity. Nickel-induced mucosal inflammation provides a mechanistic explanation for IBS-like symptoms."
+    f_to_D_sources: [rizzi-2017-ibs-nickel-diet]
     status: validated
 
   - condition: "GERD (refractory)"
     I_to_f: "Reduces nickel-mediated GI mucosal inflammation. Mechanism may involve both direct mucosal effects and reduction of nickel-dependent H. pylori virulence in the gastric environment."
     I_to_f_evidence: "moderate"
+    I_to_f_sources: [yousaf-2021-low-nickel-diet-gerd]
     I_to_D: "8-week LNiD improved GERD symptoms in 95% (19/20) of refractory patients; total GERD-HRQL decreased by 27.05 points; heartburn by 11.45; regurgitation by 10.85 (all p<0.001)"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [yousaf-2021-low-nickel-diet-gerd]
     f_to_D: "GERD is listed among SNAS gastrointestinal symptoms. Refractory GERD in nickel-sensitive individuals may represent unrecognized Ni ACM."
+    f_to_D_sources: [yousaf-2021-low-nickel-diet-gerd, braga-2013-snas-nosologic-framework]
     status: promising
 
   - condition: "Celiac disease (refractory symptoms on GFD)"
     I_to_f: "Removes nickel trigger introduced by gluten-free substitute foods (corn, buckwheat, legumes). Resolves Ni ACM that develops paradoxically during GFD adherence."
     I_to_f_evidence: "strong"
+    I_to_f_sources: [borghini-2020-low-nickel-diet-celiac]
     I_to_D: "100% of symptomatic celiac patients on GFD tested positive for Ni ACM; adding LNiD to GFD improved 83.4% of tracked symptoms (41.7% reaching statistical significance). LNiD reversed the paradoxical symptom worsening from prolonged GFD."
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [borghini-2020-low-nickel-diet-celiac]
     f_to_D: "GF substitute foods are systematically high in nickel. Celiac patients replacing wheat with corn, rice, buckwheat, and legumes inadvertently increase nickel load, triggering Ni ACM in predisposed individuals."
+    f_to_D_sources: [borghini-2020-low-nickel-diet-celiac, flyvholm-1984-nickel-food-content]
     status: validated
 
   - condition: "Hand eczema / chronic nickel dermatitis"
     I_to_f: "Removes systemic nickel trigger for Type IV hypersensitivity reaction in skin. Dietary nickel reaches the skin via systemic circulation and triggers eczematous flares at sites of prior sensitization."
     I_to_f_evidence: "strong"
+    I_to_f_sources: [kaaber-1978-low-nickel-diet-chronic-dermatitis, schiavino-2006-oral-hyposensitization-nickel]
     I_to_D: "90.9% clearance with LNiD + disulfiram (n=21); 64% short-term benefit, 73% long-term improvement in prospective trial (n=90); 39% of 112 chronic dermatopathy patients improved on LNiD alone; pioneering 1978 study confirmed dietary nickel provocation in 17/28 patients"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [sharma-2006-disulfiram-low-nickel-diet-hand-eczema, veien-1993-low-nickel-diet-trial, kaaber-1978-low-nickel-diet-chronic-dermatitis, antico-1999-chronic-dermatopathies-nickel]
     f_to_D: "Oral challenge studies confirm dose-response: 0.3 mg nickel provokes reactions in 40% of sensitized individuals; 4 mg in 70%. Normal diets easily exceed 0.58 mg/day."
+    f_to_D_sources: [zirwas-2009-dietary-nickel-dermatitis, flyvholm-1984-nickel-food-content]
     status: validated
 
   - condition: "Obesity (nickel-sensitive women)"
     I_to_f: "Reduces nickel-mediated IL-17/Th17 chronic inflammation, metalloestrogen-driven adipogenesis, and gut microbiota disruption — three converging pathways linking dietary nickel to metabolic dysfunction."
     I_to_f_evidence: "moderate"
+    I_to_f_sources: [lusi-2015-nickel-allergy-overweight, genchi-2020-nickel-human-health-environmental-toxicology]
     I_to_D: "Normocaloric LNiD reduced BMI by 4.2 points, body fat by 5.1%, and waist circumference by 11.7 cm (all p<0.001) in 24 nickel-allergic overweight women over 6 months — without caloric restriction"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [lusi-2015-nickel-allergy-overweight]
     f_to_D: "Nickel allergy prevalence is 59.7% in overweight women (vs 12.5% general female population, p<0.001). Nickel induces insulin-like metabolic effects in animal models."
+    f_to_D_sources: [lusi-2015-nickel-allergy-overweight, denkhaus-2002-nickel-essentiality-toxicity]
     status: promising
 
   - condition: "CFS / Fibromyalgia"
     I_to_f: "Reduces systemic nickel-mediated immune activation. 52% of CFS women have nickel allergy, suggesting dietary nickel as a chronic immune trigger sustaining fatigue and pain."
     I_to_f_evidence: "preliminary"
+    I_to_f_sources: [regland-2001-nickel-allergy-cfs]
     I_to_D: "Case reports document improvement with LNiD; MELISA test found 81% (13/16) of treatment non-responders reacted to nickel. Nickel allergy significantly impaired treatment response to Staphylococcus vaccine (16% vs 37% response rate, p<0.0009)."
     I_to_D_evidence: "case-series"
+    I_to_D_sources: [regland-2001-nickel-allergy-cfs]
     f_to_D: "Chronic dietary nickel exposure in sensitized individuals sustains Th1/Th2 immune activation, providing a plausible mechanism for chronic fatigue and widespread pain."
+    f_to_D_sources: [regland-2001-nickel-allergy-cfs, ahlstrom-2019-nickel-allergy-review]
     status: promising
 
   - condition: "Recurrent aphthous stomatitis"

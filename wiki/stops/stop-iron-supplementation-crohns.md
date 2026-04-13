@@ -14,6 +14,10 @@ why_counterproductive: "Hepcidin and lactoferrin are already elevated as host de
 evidence: [yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, amerikanou-2022-ibd-biomarkers-trace-metals]
 alternative: "Support nutritional immunity with [[lactoferrin-supplementation]]; consider IV iron if truly deficient (bypasses luminal pathogen feeding); restore F. prausnitzii to improve iron homeostasis"
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2, 4]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

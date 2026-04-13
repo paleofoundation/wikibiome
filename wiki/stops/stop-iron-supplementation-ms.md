@@ -14,6 +14,10 @@ why_counterproductive: "Low serum iron in MS reflects hepcidin elevation — an 
 evidence: [jangi-2016-gut-microbiome-alterations-ms, thirion-2023-gut-microbiota-ms-disease-activity]
 alternative: "Support nutritional immunity with [[lactoferrin]] or transferrin support; address underlying dysbiosis via [[ketogenic-diet-ms]] or [[b-cell-depletion-therapy-ms]]; if iron absolutely required, co-administer with iron-restricting agents (hepcidin inducers) only in monitored setting"
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2, 4, 8]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

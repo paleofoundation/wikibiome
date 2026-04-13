@@ -8,15 +8,20 @@ sources: [swidsinski-2017-colonic-microbiome-ms-ketogenic, trend-2021-serum-scfa
 tags: [dietary, multiple-sclerosis, microbiome-restoration, SCFA-recovery, dysbiosis]
 intervention_class: dietary
 cureva_status: partial
+last_substantive_update: 2026-04-13
+karen_brain_primitives: [1, 5, 9]
 
 # Triangle validation for each condition
 triangles:
   - condition: "[[multiple-sclerosis]]"
     I_to_f: "Ketogenic diet normalizes colonic bacterial concentrations and diversity after 6 months; shifts microbiota from fermentative to oxidative metabolism; restores SCFA-producing Clostridial composition"
     I_to_f_evidence: "strong"
+    I_to_f_sources: [swidsinski-2017-colonic-microbiome-ms-ketogenic]
     I_to_D: "Ketogenic diet intervention in MS cohort (n=10) showed normalized bacterial mass at 23-24 weeks (83 vs baseline 65 x 10^9 bacteria/ml, P=0.02); health-related quality of life improvement at 3 months versus controls"
     I_to_D_evidence: "quasi-experimental"
+    I_to_D_sources: [swidsinski-2017-colonic-microbiome-ms-ketogenic, katzsand-2018-diet-ms-mechanistic-review]
     f_to_D: "SCFA depletion (butyrate 77% reduced, acetate 72% reduced) directly drives loss of Treg induction; restoration of SCFA-producing bacteria corrects immune dysregulation"
+    f_to_D_sources: [becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility, troci-2022-b-cell-depletion-reverses-dysbiosis-ms]
     status: promising
 
 targets:

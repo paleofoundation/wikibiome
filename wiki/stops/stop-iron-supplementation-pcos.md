@@ -14,6 +14,10 @@ why_counterproductive: "Elevated hepcidin indicates functional anemia (host defe
 evidence: [smovrsnik-2023-heavy-metals-oxidative-stress-pcos, jiang-2021-copper-pcos-meta-analysis]
 alternative: "Support nutritional immunity with [[lactoferrin]] — chelates iron away from pathogens. Prioritize fiber, probiotics, and glutathione repletion to address the underlying dysbiotic ecology."
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2, 7]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

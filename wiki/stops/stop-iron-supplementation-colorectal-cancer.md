@@ -14,6 +14,10 @@ why_counterproductive: "Colorectal cancer is characterized by an iron-enriched t
 evidence: [appunni-2021-dietary-factors-gut-microbiome-crc, hanus-2021-immune-microbiota-metabolites-crc-triad, gao-2015-microbiota-disbiosis-colorectal-cancer, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]
 alternative: "Distinguish true iron deficiency from functional anemia of chronic disease using ferritin and hepcidin. For pre-surgical correction of severe anemia where iron is genuinely needed, prefer IV iron over oral iron to minimize colonic iron availability. Support microbiome restoration alongside any iron correction — lactoferrin over oral ferrous sulfate where possible."
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2, 4]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Iron-deficiency anemia in colorectal cancer often requires correction before surgery; this STOP concerns the form and context of iron delivery, not a blanket contraindication.

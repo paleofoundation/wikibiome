@@ -76,6 +76,10 @@ clinical_scenario: |
 
 evidence_strength: "moderate (mechanistic) -- mechanistic alignment with nutritional immunity principle + supported by dysbiosis literature, but lacking RCT-level clinical proof"
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2, 4, 8]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

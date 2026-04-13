@@ -14,6 +14,10 @@ why_counterproductive: "Hepcidin elevation indicates functional anemia (host def
 evidence: [pendergrass-2026-endometriosis-conference]
 alternative: "Support nutritional immunity with [[lactoferrin-supplementation]] instead — chelates iron away from pathogens while supporting the host's existing defense strategy"
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: partial
+karen_brain_primitives: [2]
+evidence_level: "conference-presentation"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan. Evidence quality ratings reflect the strength of the mechanistic reasoning, not RCT-level clinical proof.

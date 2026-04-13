@@ -14,6 +14,10 @@ why_counterproductive: "Brain iron accumulation is a hallmark feature of Alzheim
 evidence: [ahmed-2025-metals-alzheimers-mechanistic-review, bakulski-2020-heavy-metals-alzheimers-dementias, scholefield-2024-brain-metallomics-dementia, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]
 alternative: "Distinguish functional anemia (hepcidin-mediated) from true iron deficiency using ferritin, hepcidin, and transferrin saturation rather than serum iron alone. Address gut dysbiosis to reduce siderophore-producing pathobiont load. Support iron metabolism with lactoferrin (sequesters iron from pathogens without increasing bioavailability). Consider chelation assessment for brain iron burden."
 platform: cureva
+last_substantive_update: 2026-04-13
+cureva_status: complete
+karen_brain_primitives: [1, 2, 4]
+evidence_level: "cross-sectional"
 ---
 
 > **Warning: Clinical Disclaimer**: This STOP page represents a hypothesis based on mechanistic evidence and should NOT replace clinical judgment. Always consult with a qualified healthcare provider before modifying any treatment plan.

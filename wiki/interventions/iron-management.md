@@ -7,30 +7,41 @@ sources: []
 tags: [supplement, iron, hepcidin, lactoferrin, anemia, evidence-based]
 intervention_class: supplement
 cureva_status: partial
+last_substantive_update: 2026-04-13
+karen_brain_primitives: [1, 2, 4, 8]
 
 triangles:
   - condition: "[[postpartum-depression]]"
     I_to_f: "Iron deficiency anemia during pregnancy and postpartum depletes serotonin and dopamine synthesis (iron is a cofactor for tryptophan hydroxylase and tyrosine hydroxylase). Repletion restores monoamine production capacity."
     I_to_f_evidence: "strong"
+    I_to_f_sources: []
     I_to_D: "Peripartum iron deficiency anemia independently predicts PPD (OR ~1.5-2.0). Supplementation during pregnancy reduces PPD incidence. Ferritin <30 ng/mL is the intervention threshold."
     I_to_D_evidence: "cohort"
+    I_to_D_sources: []
     f_to_D: "Ferritin correlates inversely with Edinburgh Postnatal Depression Scale scores. Iron deficiency during lactation compounds depletion. Low hepcidin + low ferritin confirms true deficiency requiring supplementation."
+    f_to_D_sources: []
     status: promising
 
   - condition: "[[crohns-disease]]"
     I_to_f: "Chronic mucosal inflammation causes iron deficiency via blood loss and impaired absorption. However, oral iron is poorly tolerated and feeds iron-scavenging pathobionts (E. coli, Klebsiella) in the inflamed gut."
     I_to_f_evidence: "strong"
+    I_to_f_sources: []
     I_to_D: "IV iron (ferric carboxymaltose, iron sucrose) corrects anemia without exacerbating gut inflammation. Oral iron worsens dysbiosis and increases calprotectin in active Crohn's. European Crohn's and Colitis Organisation recommends IV iron as first-line."
     I_to_D_evidence: "RCT"
+    I_to_D_sources: []
     f_to_D: "Anemia prevalence in Crohn's is 30-70%. Iron deficiency compounds fatigue and impairs quality of life. Unabsorbed oral iron reaches the colon and selectively feeds siderophore-producing pathobionts."
+    f_to_D_sources: []
     status: validated
 
   - condition: "[[chronic-kidney-disease]]"
     I_to_f: "CKD patients have functional iron deficiency driven by high hepcidin (inflammation, reduced renal clearance). Iron is trapped in macrophages and unavailable for erythropoiesis despite adequate stores."
     I_to_f_evidence: "strong"
+    I_to_f_sources: []
     I_to_D: "IV iron combined with erythropoiesis-stimulating agents (ESAs) is standard of care. PIVOTAL trial showed high-dose IV iron reduced ESA requirements and cardiovascular events. Oral iron is ineffective when hepcidin is elevated."
     I_to_D_evidence: "RCT"
+    I_to_D_sources: []
     f_to_D: "Anemia of CKD is driven by EPO deficiency and hepcidin-mediated iron restriction. TSAT <20% and ferritin <100 ng/mL (or <200 in dialysis) define absolute deficiency; high ferritin + low TSAT defines functional deficiency."
+    f_to_D_sources: []
     status: validated
 
 targets:
