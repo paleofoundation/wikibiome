@@ -9,6 +9,12 @@ sources: [su-2020-gut-microbiota-immune-imbalance-graves, zangeneh-2021-oral-mic
 metal_dependencies: [none confirmed]
 tags: [mixed, lactate-utilizer, oral-microbiome, enriched-in-MS, enriched-in-Graves, oral-gut-translocation, cross-feeder]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Veillonella lactate utilizer oral-gut translocation multiple sclerosis"
+wikipedia_differentiation: "Lactate cross-feeding specialization with oral-gut translocation data linking enrichment in MS and Graves disease"
+conditions_enriched_in: [multiple-sclerosis, graves-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Veillonella

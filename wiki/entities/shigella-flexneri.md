@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron]
 key_enzymes: [NiFe-hydrogenase-Hya, NiFe-hydrogenase-Hyb]
 tags: [pathogen, dysentery, intracellular, phagolysosomal-survival, Enterobacteriaceae]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Shigella flexneri nickel hydrogenase phagolysosome dysentery"
+wikipedia_differentiation: "NiFe-hydrogenase-dependent phagolysosomal acid survival mechanism for intracellular pathogenesis in macrophages"
+conditions_enriched_in: [shigellosis, dysentery]
+conditions_depleted_in: []
+pathogenic_potential: obligate
 ---
 
 # Shigella flexneri

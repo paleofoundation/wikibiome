@@ -12,6 +12,12 @@ oxygen_requirement: "facultative"
 metal_dependencies: [zinc, manganese, iron]
 key_enzymes: [zinc-metallopeptidase, hyaluronidase, beta-glucuronidase, collagen-peptidase]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Streptococcus agalactiae GBS zinc metallopeptidase endometriosis neonatal"
+wikipedia_differentiation: "Zinc-dependent metallopeptidase and beta-glucuronidase estrogen recirculation linking neonatal pathogen to endometriosis pathogenesis"
+conditions_enriched_in: [neonatal-sepsis, neonatal-meningitis, endometriosis]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Streptococcus agalactiae

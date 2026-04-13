@@ -10,6 +10,12 @@ metal_dependencies: [nickel, iron, copper]
 key_enzymes: [Ni-GloI, yersiniabactin]
 tags: [pathogen, plague, bioweapon, siderophore, Tier-1-select-agent]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Yersinia pestis nickel glyoxalase yersiniabactin plague metallophore"
+wikipedia_differentiation: "Nickel-dependent GloI metabolic detoxification plus yersiniabactin dual iron-nickel metallophore as archetypal metal virulence system"
+conditions_enriched_in: [plague]
+conditions_depleted_in: []
+pathogenic_potential: obligate
 ---
 
 # Yersinia pestis

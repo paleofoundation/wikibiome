@@ -9,6 +9,12 @@ sources: [jangi-2016-gut-microbiome-alterations-ms, bronzini-2023-feeding-gut-mi
 metal_dependencies: [none confirmed]
 tags: [pathobiont, IgA-degrading, enriched-in-ASD, IBD-associated, mucosal-immunity, contradictory-findings]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Sutterella IgA degradation autism ASD gut microbiome"
+wikipedia_differentiation: "IgA-degrading mucosal pathobiont with contradictory enrichment/depletion data across ASD and IBD studies"
+conditions_enriched_in: [autism-spectrum-disorder]
+conditions_depleted_in: [multiple-sclerosis]
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Sutterella

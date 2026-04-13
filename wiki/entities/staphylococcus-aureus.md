@@ -10,6 +10,12 @@ tags: [pathogen, nickel, zinc, iron, manganese, MRSA, skin-infection, biofilm, u
 metal_dependencies: [iron, manganese, zinc, nickel]
 key_enzymes: [staphyloferrin A/B (siderophores), IsdBCH (heme uptake), MntABC (manganese import), aureolysin (Zn-metalloprotease), urease (Ni-dependent)]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Staphylococcus aureus nutritional immunity staphylopine iron manganese zinc"
+wikipedia_differentiation: "Staphylopine multi-metal metallophore discovery plus complete nutritional immunity evasion system for iron, manganese, zinc, and nickel"
+conditions_enriched_in: [skin-infections, MRSA-infections, sepsis, endocarditis]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Staphylococcus aureus

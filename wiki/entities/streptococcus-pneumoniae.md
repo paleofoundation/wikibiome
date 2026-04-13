@@ -10,6 +10,12 @@ tags: [pathogen, iron, manganese, zinc, copper, meningitis, pneumonia, otitis-me
 metal_dependencies: [manganese, zinc, iron]
 key_enzymes: [PsaA (Mn-binding lipoprotein — essential for virulence), AdcABC (zinc uptake), PiaA/PiuA (iron uptake), Mn-SOD, IgA1 protease (Zn-metalloprotease)]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Streptococcus pneumoniae manganese zinc iron nutritional immunity"
+wikipedia_differentiation: "Complete metal transporter virulence factor profile (PsaA, AdcABC, PiaA/PiuA) with nutritional immunity evasion at every infection site"
+conditions_enriched_in: [pneumonia, meningitis, otitis-media]
+conditions_depleted_in: []
+pathogenic_potential: opportunistic
 ---
 
 # Streptococcus pneumoniae

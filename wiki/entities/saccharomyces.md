@@ -9,6 +9,12 @@ sources: [huang-2024-gut-fungi-ibd-colorectal-cancer, wei-2025-gut-mycobiome-car
 metal_dependencies: [zinc -- Zn-dependent alcohol dehydrogenase; copper -- Cu/Zn-SOD for oxidative stress defense; metal biosorption capacity]
 tags: [fungus, probiotic, pathobiont, CRC-mycobiome, metal-biosorption, ASCA-antibodies]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Saccharomyces boulardii probiotic mycobiome colorectal cancer zinc"
+wikipedia_differentiation: "Zinc and copper metal dependency with dual probiotic vs CRC-mycobiome role and metal biosorption capacity data"
+conditions_enriched_in: [colorectal-cancer]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Saccharomyces

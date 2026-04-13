@@ -12,6 +12,12 @@ oxygen_requirement: "facultative-anaerobe"
 metal_dependencies: [manganese, zinc]
 key_enzymes: [beta-galactosidase, lactic-acid-synthetase, glucosyltransferase]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Streptococcus thermophilus yogurt probiotic lactose beta-galactosidase"
+wikipedia_differentiation: "Manganese and zinc metal dependency profile distinguishing it from pathogenic Streptococcus with clinical probiotic validation data"
+conditions_enriched_in: []
+conditions_depleted_in: []
+pathogenic_potential: commensal
 ---
 
 # Streptococcus thermophilus

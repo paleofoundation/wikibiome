@@ -10,6 +10,12 @@ tags: [pathogen, nickel, iron, hydrogenase, macrophage-survival, gut-invasion, t
 metal_dependencies: [iron, zinc, manganese, magnesium]
 key_enzymes: [enterobactin/salmochelin (siderophores), ZnuABC (zinc uptake), MntH (manganese transporter), SodCI (Cu/Zn-SOD)]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Salmonella Typhimurium NiFe hydrogenase iron siderophore macrophage"
+wikipedia_differentiation: "Four distinct NiFe-hydrogenases with triple mutant 100% avirulence data plus salmochelin and ZnuABC metal acquisition systems"
+conditions_enriched_in: [salmonellosis, typhoid-fever]
+conditions_depleted_in: []
+pathogenic_potential: obligate
 ---
 
 # Salmonella enterica serovar Typhimurium

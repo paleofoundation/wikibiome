@@ -12,6 +12,12 @@ metal_dependencies: [manganese, zinc, iron]
 key_enzymes: [MnSOD, superoxide-dismutase, hyaluronidase, streptokinase, streptolysins]
 tags: [gram-positive, facultative-anaerobe, manganese-dependent, pathogenic-commensal, oral-gut-microbiome, rheumatic-fever, PIMS]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Streptococcus manganese superoxide dismutase pathogen commensal"
+wikipedia_differentiation: "Unique manganese dependency for ROS scavenging via MnSOD providing both metabolic advantage and therapeutic vulnerability"
+conditions_enriched_in: [pharyngitis, rheumatic-fever, periodontal-disease]
+conditions_depleted_in: []
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Streptococcus

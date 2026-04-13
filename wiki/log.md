@@ -2,6 +2,9 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-13] v2 migration | Microbe entity pages (Priority 3b — ~82 microbes)
+Upgraded all microbe entity frontmatter to v2: added seo_target, wikipedia_differentiation, conditions_enriched_in, conditions_depleted_in, pathogenic_potential, last_substantive_update.
+
 ## [2026-04-13] v2 migration | Metal entity pages (Priority 3a — 18 metals)
 Upgraded all metal entity frontmatter to v2: added seo_target, wikipedia_differentiation, last_substantive_update, source_count, dietary_sources, tolerable_daily_intake where missing.
 

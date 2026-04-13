@@ -9,6 +9,12 @@ sources: [toya-2020-coronary-artery-disease-altered-gut-microbiome, svensson-202
 metal_dependencies: [iron -- iron-sulfur clusters in ferredoxins for anaerobic metabolism]
 tags: [dual-nature, commensal, pathobiont, starch-degrader, mucin-degrader, context-dependent]
 platform: wikibiome
+last_substantive_update: 2026-04-13
+seo_target: "Ruminococcus gut microbiome dual nature commensal pathobiont"
+wikipedia_differentiation: "Species-level resolution separating beneficial (R. bromii, R. faecis) from pathogenic (R. gnavus) with iron-sulfur ferredoxin dependency"
+conditions_enriched_in: []
+conditions_depleted_in: [cardiovascular-disease, endometriosis]
+pathogenic_potential: commensal-turned-pathogen
 ---
 
 # Ruminococcus
