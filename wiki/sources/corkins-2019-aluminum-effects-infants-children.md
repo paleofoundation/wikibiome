@@ -1,16 +1,27 @@
 ---
 
-title: "Aluminum Effects in Infants and Children"
+title: "Corkins 2019 — Aluminum Effects on Infants and Children"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 authors: [Corkins MR, AAP Committee on Nutrition]
 journal: Pediatrics
 year: 2019
 volume: "144(6):e20193148"
 doi: "10.1542/peds.2019-3148"
+evidence_level: expert-opinion
+sample_size: "n=10567"
 tags: [aluminum, infants, children, parenteral-nutrition, infant-formula, vaccines, Alzheimers-disease, developmental-neurotoxicity, renal-disease, bone-effects, antiperspirants, pediatric-nutrition]
-platform: wikibiome
+library_category: heavy-metals
+platform: both
+condition: "cross-condition"
+karen_brain_primitives: [3]
+metals_discussed: [aluminum]
+taxa_discussed: []
+key_findings:
+  - "Al in parenteral nutrition causes developmental harm in preterm infants"
+  - "Long-term Al exposure linked to Alzheimer (pooled OR 1.71, n=10567)"
+  - "Aluminum binds >80% to transferrin; no known biological function"
 ---
 
 # Aluminum Effects in Infants and Children
@@ -45,8 +56,8 @@ This is an official technical report from the American Academy of Pediatrics (AA
 ### Parenteral Nutrition
 - Intravenous solutions bypass protective GI mucosa, creating direct aluminum toxicity risk
 - Bishop et al. (1997): 90 preterm infants randomized to standard vs. aluminum-depleted parenteral nutrition
-  - At 18 months: Bayley Scales index score 92 (standard Al) vs. 102 (depleted Al); **10-point IQ deficit** (P=.02)
-  - Loss of 1 index point per day for each day on standard aluminum-containing parenteral nutrition
+ - At 18 months: Bayley Scales index score 92 (standard Al) vs. 102 (depleted Al); **10-point IQ deficit** (P=.02)
+ - Loss of 1 index point per day for each day on standard aluminum-containing parenteral nutrition
 - FDA rule (effective 2004): large-volume parenteral solutions must have <25 ug/L aluminum; small-volume components must be labeled
 - Despite regulations, actual measured aluminum concentrations in parenteral nutrition solutions still exceed FDA-recommended 5 ug/kg/day maximum
 - Highest aluminum levels found in calcium gluconate, inorganic phosphates, and cysteine hydrochloride
@@ -86,13 +97,13 @@ This is an official technical report from the American Academy of Pediatrics (AA
 
 ## Connections
 
-- Critical reference for [[developmental-neurotoxicity]] in the context of [[heavy-metals]] exposure during infancy
-- Parenteral nutrition aluminum data relevant to [[dietary-metal-exposure]] in clinical/hospital settings
-- Aluminum neurotoxicity connects to [[Alzheimers Disease]] and [[Ahmed et al. 2025|ahmed-2025-metals-alzheimers-mechanistic-review]]
-- Aluminum in infant formula relevant to [[Meli et al. 2024|meli-2024-chemical-characterization-baby-food-italy]] baby food metal contamination findings
+- Critical reference for in the context of [[heavy-metals]] exposure during infancy
+- Parenteral nutrition aluminum data relevant to in clinical/hospital settings
+- Aluminum neurotoxicity connects to [[Alzheimers Disease]] and 
+- Aluminum in infant formula relevant to baby food metal contamination findings
 - BBB immaturity in preterm infants connects to broader [[blood-brain-barrier]] permeability discussions
-- Bone effects of aluminum connect to [[calcium]] homeostasis and [[osteomalacia]]
+- Bone effects of aluminum connect to homeostasis and 
 - Vaccine safety data relevant to public health policy discussions around [[aluminum]] exposure
-- Regulatory framework (FDA rules on parenteral nutrition) connects to [[Briffa et al. 2020|briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]] regulatory threshold tables
+- Regulatory framework (FDA rules on parenteral nutrition) connects to regulatory threshold tables
 - 10-point IQ deficit finding from Bishop et al. parallels [[lead]] neurodevelopmental effects in children
-- Renal excretion dependence connects to [[kidney-disease]] and metal accumulation in CKD patients
+- Renal excretion dependence connects to and metal accumulation in CKD patients

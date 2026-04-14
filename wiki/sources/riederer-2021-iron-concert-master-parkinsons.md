@@ -1,17 +1,28 @@
 ---
 
-title: "Iron as the concert master in the pathogenic orchestra playing in sporadic Parkinson's disease"
+title: "Riederer 2021 — Iron as Concert Master in Parkinson's Disease"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 authors: [Riederer P, Monoranu C, Strobel S, Iordache T, Sian-Hulsmann J]
 journal: Journal of Neural Transmission
 year: 2021
 volume: 128
 pages: "1577-1598"
 doi: "10.1007/s00702-021-02414-z"
+evidence_level: expert-opinion
+sample_size: "N/A"
 tags: [iron, parkinsons-disease, neuromelanin, ferroptosis, alpha-synuclein, oxidative-stress, substantia-nigra, blood-brain-barrier, hepcidin, gut-brain-axis, COVID-19, neuroinflammation, dopamine, iron-chelation, Lewy-bodies]
-platform: wikibiome
+library_category: mechanistic-insights
+platform: both
+condition: "parkinsons-disease"
+karen_brain_primitives: [1, 2, 8]
+metals_discussed: [iron, copper, zinc, manganese]
+taxa_discussed: []
+key_findings:
+  - "Iron significantly increased in substantia nigra of PD; transferrin decreased 35%, lactoferrin increased"
+  - "Hepcidin dysfunction and BBB iron transport proposed as primary triggers"
+  - "Peripherally acting iron chelators proposed as intervention"
 ---
 
 # Key Claims
@@ -25,11 +36,11 @@ platform: wikibiome
 # Methods/Findings
 
 - **Review scope**: Comprehensive review integrating neuropathological, neurochemical, molecular biological, and genetic evidence on iron's role in PD (22 pages, 200+ references)
-- **Iron accumulation data**:
-  - Iron increases with age in the SN; transferrin has been shown to be decreased by 35% in the SN of PD (Ayton et al., 2016)
-  - Lactoferrin is increased in PD SN (Faucheux et al., 1995; Leveugle et al., 1996)
-  - Iron export protein ferroportin expression is increased in the SN of PD while ferritin expression is unchanged
-  - Free/labile iron increases lead to Fenton reaction generating toxic hydroxyl radicals
+
+ - Iron increases with age in the SN; transferrin has been shown to be decreased by 35% in the SN of PD (Ayton et al., 2016)
+ - Lactoferrin is increased in PD SN (Faucheux et al., 1995; Leveugle et al., 1996)
+ - Iron export protein ferroportin expression is increased in the SN of PD while ferritin expression is unchanged
+ - Free/labile iron increases lead to Fenton reaction generating toxic hydroxyl radicals
 - **BBB disruption**: Blood-brain barrier dysfunction at the SN site allows continuous uptake of free iron, facilitating intraneuronal oxidative stress, mitochondrial respiratory chain disruption, and alpha-synuclein fibril formation
 - **Ferroptosis pathway**: Linked to iron, [[glutathione]] (GSH), phospholipid, NADPH, coenzyme Q10, and polyunsaturated fatty acid metabolism; deficient regulation found in MPTP-treated mice (model of PD)
 - **Dual-hit/bottom-up hypothesis**: Various triggers (chemicals, viruses, bacteria) initiate gastrointestinal/olfactory disturbances leading to iron-induced oxidative stress, lipid/protein oxidation, mitochondrial dysfunction, and ultimately neuronal cell death via vagal nerve protein aggregation spreading

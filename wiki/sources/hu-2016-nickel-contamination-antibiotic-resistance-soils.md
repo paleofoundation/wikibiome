@@ -1,15 +1,26 @@
 ---
 
-title: "Long-term nickel contamination increases the occurrence of antibiotic resistance genes in agricultural soils"
+title: "Hu 2016 — Nickel Contamination and Antibiotic Resistance in Soils"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 authors: [Hu HW, Wang JT, Li J, Shi XZ, Ma YB, Chen D, He JZ]
 journal: Environmental Science and Technology
 year: 2016
 doi: "10.1021/acs.est.6b03383"
+evidence_level: quasi-experimental
+sample_size: "N/A"
 tags: [nickel, antibiotic-resistance-genes, co-selection, mobile-genetic-elements, intI1, agricultural-soils, heavy-metals, horizontal-gene-transfer, qPCR-array, bacterial-community, long-term-experiment]
-platform: wikibiome
+library_category: heavy-metals
+platform: both
+condition: "cross-condition"
+karen_brain_primitives: [1]
+metals_discussed: [nickel]
+taxa_discussed: []
+key_findings:
+  - "149 unique ARGs in Ni-contaminated soils; multidrug and beta-lactam resistance most prevalent"
+  - "ARG frequency increased with Ni concentration gradient"
+  - "Mobile genetic elements (intI1) significantly associated with ARGs"
 ---
 
 # Key Claims
@@ -25,10 +36,10 @@ platform: wikibiome
 - **Experimental design**: Two long-term field experimental stations of the Chinese Academy of Agricultural Sciences -- Dezhou, Shandong (fluvo-aquic soil, pH 7.9) and Qiyang, Hunan (red soil, pH 4.3)
 - **Treatments**: Six Ni application rates (0, 50, 100, 200, 400, 800 mg NiCl2 per kg soil) in randomized block design with four replicates; established July 2007, sampled July 2011 and 2012
 - **Analytical methods**: Quantitative PCR (qPCR) array with 296 primer sets (285 targeting ARGs across all major classes, 10 targeting MGEs including 8 transposase genes and 2 class 1 integrons, plus 16S rRNA); Illumina MiSeq 16S rRNA V4-V5 sequencing
-- **ARG diversity and abundance**:
-  - 149 unique ARGs detected across aminoglycosides, beta-lactam, FCA (fluoroquinolone/quinolone/florfenicol/chloramphenicol), MLSB, sulfonamides, tetracyclines, vancomycin, multidrug resistance classes
-  - ARG numbers increased with Ni concentration: control < 50 < 100 < 200 < 400 mg/kg in both soil types
-  - MGE abundance was significantly associated with ARG abundance (p < 0.05)
+
+ - 149 unique ARGs detected across aminoglycosides, beta-lactam, FCA (fluoroquinolone/quinolone/florfenicol/chloramphenicol), MLSB, sulfonamides, tetracyclines, vancomycin, multidrug resistance classes
+ - ARG numbers increased with Ni concentration: control < 50 < 100 < 200 < 400 mg/kg in both soil types
+ - MGE abundance was significantly associated with ARG abundance (p < 0.05)
 - **Network analysis**: Co-occurrence network revealed *intI1* as the most connected node, with strongest interactions to diverse ARG subtypes; both Pearson and Spearman correlations confirmed after ReBoot and Benjamini-Hochberg corrections
 - **Structural equation modeling**: Nickel bioavailability had both direct and indirect (via MGEs and bacterial community changes) effects on ARG profiles; MGEs mediated the strongest pathway from Ni to ARGs
 - **Bacterial community shifts**: Illumina sequencing (47,011 sequences/sample) showed Ni contamination altered community structure, with effects varying between the two contrasting soil types

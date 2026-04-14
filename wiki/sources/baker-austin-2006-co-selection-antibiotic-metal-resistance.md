@@ -1,9 +1,9 @@
 ---
 
-title: "Co-selection of antibiotic and metal resistance"
+title: "Baker-Austin 2006 — Co-selection of Antibiotic and Metal Resistance"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 authors: [Baker-Austin C, Wright MS, Stepanauskas R, McArthur JV]
 journal: Trends in Microbiology
 year: 2006
@@ -11,8 +11,19 @@ volume: 14
 issue: 4
 pages: "176-182"
 doi: "10.1016/j.tim.2006.02.006"
+evidence_level: expert-opinion
+sample_size: "N/A"
 tags: [co-selection, co-resistance, cross-resistance, antimicrobial-resistance, heavy-metals, mobile-genetic-elements, integrons, transposons, plasmids, mercury, copper, zinc, nickel, cadmium, efflux-pumps, horizontal-gene-transfer]
-platform: wikibiome
+library_category: mechanistic-insights
+platform: both
+condition: "cross-condition"
+karen_brain_primitives: [1, 6]
+metals_discussed: [mercury, copper, zinc, cadmium, nickel, cobalt, arsenic]
+taxa_discussed: [escherichia-coli, pseudomonas-aeruginosa, enterococcus, salmonella]
+key_findings:
+  - "Metal contamination co-selects antibiotic resistance via co-resistance, cross-resistance, co-regulatory mechanisms"
+  - "Metals are non-degradable long-term selection pressure"
+  - "Biofilm induction by metals simultaneously confers antibiotic resistance"
 ---
 
 # Key Claims
@@ -25,25 +36,25 @@ platform: wikibiome
 # Methods/Findings
 
 - **Review scope**: Foundational review establishing the conceptual framework for metal-antibiotic co-selection (Trends in Microbiology, one of the most-cited papers in this field)
-- **Mechanism 1 - Co-resistance**:
-  - Resistance genes for antibiotics and metals located on same mobile genetic element (plasmid, transposon, integron)
-  - Example: copper resistance (conferred by *tcrB* gene) physically linked to *vanA* (vancomycin resistance) and *ermB* (macrolide resistance) on a single transferable plasmid
-  - Copper exposure alone demonstrated to co-select for macrolide and glycopeptide resistance in *Enterococcus faecium*
-  - Tn7 and Tn21-like transposons carry both mercury-resistance and multiple antibiotic-resistance gene cassettes
-  - Integron In2 essential for attaining ARGs such as *aadA1* (spectinomycin-streptomycin resistance)
-- **Mechanism 2 - Cross-resistance**:
-  - Same biochemical system confers resistance to both metals and antibiotics
-  - TetL protein can transport both tetracycline and cobalt
-  - Efflux pumps: CzcCBA system expels Co, Zn, Cd but also confers resistance to certain antibiotics
-  - Table 1 documents shared structural/functional characteristics: reduced membrane permeability (As, Cu, Zn, Mn, Co, Ag), drug and metal efflux (Cu, Co, Zn, Cd, Ni, As), alteration of cellular targets (Hg, Zn, Cu)
-- **Mechanism 3 - Co-regulation**:
-  - Exposure to one toxicant transcriptionally linked to resistance to another
-  - *mex* and *czc* operons: linkage leads to expression of metal efflux (merE) and multidrug/toxic compound extrusion (*mreD*) and imipenem resistance
-- **Environmental evidence**:
-  - Culture-independent flow cytometry provided quantitative evidence of co-selection at population and community levels
-  - Freshwater microcosms: co-selection detected when sub-lethal metal concentrations in intake water increased antibiotic resistance in organisms further from the source
-  - Metal-contaminated dental amalgams linked to co-selection of antibiotic-resistant bacteria from intestinal and oral communities
-  - Contaminated and reference soils consistently showed metal-resistant isolates had higher frequencies of antibiotic resistance
+
+ - Resistance genes for antibiotics and metals located on same mobile genetic element (plasmid, transposon, integron)
+ - Example: copper resistance (conferred by *tcrB* gene) physically linked to *vanA* (vancomycin resistance) and *ermB* (macrolide resistance) on a single transferable plasmid
+ - Copper exposure alone demonstrated to co-select for macrolide and glycopeptide resistance in *Enterococcus faecium*
+ - Tn7 and Tn21-like transposons carry both mercury-resistance and multiple antibiotic-resistance gene cassettes
+ - Integron In2 essential for attaining ARGs such as *aadA1* (spectinomycin-streptomycin resistance)
+
+ - Same biochemical system confers resistance to both metals and antibiotics
+ - TetL protein can transport both tetracycline and cobalt
+ - Efflux pumps: CzcCBA system expels Co, Zn, Cd but also confers resistance to certain antibiotics
+ - Table 1 documents shared structural/functional characteristics: reduced membrane permeability (As, Cu, Zn, Mn, Co, Ag), drug and metal efflux (Cu, Co, Zn, Cd, Ni, As), alteration of cellular targets (Hg, Zn, Cu)
+
+ - Exposure to one toxicant transcriptionally linked to resistance to another
+ - *mex* and *czc* operons: linkage leads to expression of metal efflux (merE) and multidrug/toxic compound extrusion (*mreD*) and imipenem resistance
+
+ - Culture-independent flow cytometry provided quantitative evidence of co-selection at population and community levels
+ - Freshwater microcosms: co-selection detected when sub-lethal metal concentrations in intake water increased antibiotic resistance in organisms further from the source
+ - Metal-contaminated dental amalgams linked to co-selection of antibiotic-resistant bacteria from intestinal and oral communities
+ - Contaminated and reference soils consistently showed metal-resistant isolates had higher frequencies of antibiotic resistance
 - **Key research gaps identified**: What are the dominant mechanisms of co-selection at population/community level? Does metals maintain a pool of horizontally transferable antibiotic resistance determinants? What is the in situ rate of HGT in metal-rich environments?
 
 # Why This Paper Matters

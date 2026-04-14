@@ -1,16 +1,27 @@
 ---
 
-title: "Exploring the Molecular Mechanisms of Nickel-Induced Genotoxicity and Carcinogenicity: A Literature Review"
+title: "Cameron 2011 — Nickel Genotoxicity and Carcinogenicity"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 authors: [Cameron KS, Buchner V, Tchounwou PB]
 journal: Reviews on Environmental Health
 year: 2011
 volume: "26(2):81-92"
 doi: "10.1515/reveh.2011.012"
+evidence_level: expert-opinion
+sample_size: "N/A"
 tags: [nickel, genotoxicity, carcinogenicity, oxidative-stress, DNA-damage, epigenetics, HIF-1, hypoxia, 8-hydroxydeoxyguanosine, immunotoxicity, hematotoxicity, occupational-exposure, lung-cancer, nasal-cancer, nickel-refinery, NTP-studies]
-platform: wikibiome
+library_category: heavy-metals
+platform: both
+condition: "cross-condition"
+karen_brain_primitives: [1, 3, 9]
+metals_discussed: [nickel, iron]
+taxa_discussed: []
+key_findings:
+  - "Nickel induces carcinogenesis via oxidative stress, epigenetic silencing, HIF-1 activation"
+  - "Nickel activates HIF-1 by depleting iron from cells — disrupts iron homeostasis"
+  - "Nickel downregulates p53 and activates c-Myc"
 ---
 
 # Exploring the Molecular Mechanisms of Nickel-Induced Genotoxicity and Carcinogenicity
@@ -62,10 +73,10 @@ This NIH-funded review provides the most detailed mechanistic examination of [[n
 
 ### NTP Animal Inhalation Studies
 - **NiO 2-year study**: 65 male and 65 female mice exposed to 0, 0.62, 1.25, 2.5 mg NiO/m3
-  - Increased alveolar/bronchiolar adenoma or carcinoma in male F344/N rats
-  - Pigmentation of bronchial and mediastinal lymph nodes at >=2.5 mg/m3
+ - Increased alveolar/bronchiolar adenoma or carcinoma in male F344/N rats
+ - Pigmentation of bronchial and mediastinal lymph nodes at >=2.5 mg/m3
 - **Ni3S2**: Clear evidence of carcinogenic activity in male and female F344/N rats exposed to 0.6-1.2 mg/m3
-  - No evidence in B6C3F1 mice at 1.25, 2.5, or 5 mg/m3
+ - No evidence in B6C3F1 mice at 1.25, 2.5, or 5 mg/m3
 - **NiSO4**: 13-week study -- non-neoplastic lesions in lungs at >=2.5 mg/m3; lymphoid hyperplasia of bronchial/mediastinal lymph nodes
 
 ### Nickel Genotoxicity -- DNA Damage
@@ -96,14 +107,14 @@ This NIH-funded review provides the most detailed mechanistic examination of [[n
 
 ## Connections
 
-- Builds directly on [[Costa & Heck 1982|costa-1982-specific-nickel-compounds-carcinogens]] foundational phagocytosis/structure-activity work
-- Complements [[Genchi et al. 2020|genchi-2020-nickel-human-health-environmental-toxicology]] with deeper mechanistic detail
+- Builds directly on foundational phagocytosis/structure-activity work
+- Complements with deeper mechanistic detail
 - HIF-1 pathway activation connects to [[hypoxia]] signaling in cancer biology
-- NTP study data relevant to [[occupational-exposure]] risk assessment and regulatory standard-setting
+- NTP study data relevant to risk assessment and regulatory standard-setting
 - 8-OH-dG as biomarker of oxidative DNA damage connects to [[oxidative-stress]] measurement
-- [[epigenetic]] mechanisms (DNA methylation, histone modification) connect to [[Metal-Induced Epigenetic Changes]]
-- Nickel in pediatric cough suppressants connects to [[dietary-metal-exposure]] in children
-- CaSR activation mechanism relevant to [[calcium]] signaling and cellular response to metals
+- mechanisms (DNA methylation, histone modification) connect to 
+- Nickel in pediatric cough suppressants connects to in children
+- CaSR activation mechanism relevant to signaling and cellular response to metals
 - L1 retrotransposon activation represents a novel genotoxic mechanism distinct from direct DNA damage
-- Immunotoxicity section connects to [[Immune System Effects of Metals]] and [[Contact Dermatitis]]
+- Immunotoxicity section connects to and 
 - Norwegian and Finnish refinery epidemiological data fundamental to [[nickel]] occupational cancer risk assessment
