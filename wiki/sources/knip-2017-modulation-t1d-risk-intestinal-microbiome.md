@@ -1,40 +1,43 @@
 ---
-title: "Knip 2017 — Modulation of Type 1 Diabetes Risk by the Intestinal Microbiome"
+title: "Knip & Honkanen 2017 — Modulation of Type 1 Diabetes Risk by the Intestinal Microbiome"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-14
 authors: [Mikael Knip, Jarno Honkanen]
 year: 2017
 journal: "Current Diabetes Reports"
 doi: "10.1007/s11892-017-0933-9"
-tags: [type-1-diabetes, autoimmune, gut-microbiome, dysbiosis, immune-balance, intestinal-permeability, review]
-library_category: reviews
-platform: cureva
-condition: "type 1 diabetes"
+evidence_level: expert-opinion
+sample_size: "N/A"
+tags: [type-1-diabetes, immune-education, early-life, probiotics, L-rhamnosus-GG]
+library_category: causal
+platform: both
+condition: "type-1-diabetes"
+karen_brain_primitives: [5, 9]
+metals_discussed: []
+taxa_discussed: [bacteroides, bifidobacterium, lactobacillus]
+key_findings:
+  - "Two-step model: poor immune education in infancy then dysbiosis before seroconversion"
+  - "L. rhamnosus GG reduced beta-cell autoimmunity risk when given before 27 days of age"
+  - "B. dorei immunoinhibitory LPS prevents proper immune training"
 ---
 
-# Key Claims
+## Key Findings
 
-- **Intestinal microbiome modulates T1D risk** through interactions with the immune system and gut barrier
-- **Dysbiosis precedes clinical T1D onset**, suggesting causal rather than consequential role
-- **Microbial diversity reduction** and loss of butyrate-producing species are hallmarks of pre-T1D microbiome
-- **Environmental factors** (diet, antibiotics, birth mode) influence microbiome composition and thereby T1D susceptibility
+- **Two-step temporal model**: Knip & Honkanen propose that T1D risk is modulated in two distinct windows — (1) inadequate immune education during infancy due to Bacteroides-dominant microbiomes, followed by (2) dysbiosis immediately preceding seroconversion (Knip & Honkanen 2017, expert opinion)
+- **L. rhamnosus GG early-life protection**: **[[lactobacillus]]** rhamnosus GG supplementation reduced the risk of beta-cell autoimmunity when administered before 27 days of age, suggesting a narrow window for microbiome-based T1D prevention
+- **B. dorei immunoinhibitory LPS**: Reinforces the Davis-Richardson & Triplett model — B. dorei's TLR4-antagonizing LPS prevents the immune system from learning to distinguish commensal from pathogenic bacteria during the critical neonatal period
+- **Breastfeeding modulation**: Breastfeeding promotes **[[bifidobacterium]]** dominance and may provide protective immune education, but the effect is modified by maternal microbiome composition
 
-# Methods & Findings
+## Relevance to WikiBiome
 
-Review of published evidence on intestinal microbiome in T1D:
+Supports entity pages for **[[lactobacillus]]** (early-life protective role), **[[bifidobacterium]]** (immune education), and **[[bacteroides]]** (B. dorei pathogenesis). The two-step temporal model is a key concept for understanding T1D as an ecological disease.
 
-- Multiple longitudinal studies show microbiome shifts before autoantibody seroconversion
-- Reduced Firmicutes:Bacteroidetes ratio in T1D-associated microbiomes
-- Loss of mucin-degrading bacteria and SCFA producers
-- [[intestinal-permeability]] increase associated with microbiome changes
+## Relevance to Cureva
 
-# Relevance to Metallomic Framework
+The 27-day window for L. rhamnosus GG is the most specific timing data for any T1D intervention. The two-step model defines when interventions can be effective — most current research focuses post-diagnosis, but the window is pre-seroconversion.
 
-- **[[zinc]]**: Zinc-dependent metalloproteinases maintain intestinal barrier -- their dysfunction in [[dysbiosis]] contributes to leaky gut preceding T1D
-- **[[iron]]**: Altered iron homeostasis in the dysbiotic gut may promote pathobiont expansion at the expense of protective taxa
-- **[[selenium]]**: Selenium-dependent glutathione peroxidases protect intestinal epithelium from oxidative damage during inflammatory [[dysbiosis]]
-- **[[gut-metal-microbiome]]**: Metal availability in the gut lumen selects for specific microbial communities that either protect against or promote autoimmunity
-- **[[immune-balance]]**: Microbiome-derived metabolites regulate Treg/Th17 balance critical for preventing beta-cell autoimmunity
-- **[[probiotics]]**: Restoration of beneficial taxa through probiotic intervention may modulate T1D risk
+## Open Questions
 
+- Is the 27-day window for L. rhamnosus GG replicable in non-Finnish populations?
+- Can the two-step model be validated with prospective microbiome sampling at both time points?
