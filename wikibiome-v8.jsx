@@ -2209,22 +2209,6 @@ const ArticleView = ({ pageId, onNavigate }) => {
 
         {/* RIGHT SIDEBAR */}
         <div style={{ position: 'sticky', top: '84px', height: 'fit-content' }}>
-          {/* Article image — page-specific override, then category fallback */}
-          {(PAGE_IMAGES[page.id] || CATEGORY_IMAGES[page.category]) && (
-            <div style={{
-              backgroundColor: P.white, border: `1px solid ${P.borderLight}`,
-              borderRadius: '10px', overflow: 'hidden', marginBottom: '12px',
-            }}>
-              <img
-                src={PAGE_IMAGES[page.id] || CATEGORY_IMAGES[page.category]}
-                alt={page.title}
-                style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }}
-              />
-              <div style={{ padding: '10px 14px', fontSize: '11px', color: P.textMuted, lineHeight: 1.5, fontStyle: 'italic', borderTop: `1px solid ${P.borderLight}` }}>
-                {catLabel} — {page.title}
-              </div>
-            </div>
-          )}
 
           {/* Signature CTA — top of sidebar for disease pages */}
           {signature && (
