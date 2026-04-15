@@ -15,7 +15,6 @@ tags: [probiotics, microbiota, dysbiosis, neurodevelopmental, intervention, lact
 intervention_class: probiotic
 cureva_status: in-progress
 
-# Triangle Validation
 triangles:
   - condition: "[[autism-spectrum-disorder]]"
     I_to_f: "Probiotics (Lactobacillus, Bifidobacterium, Streptococcus) restore SCFA-producing bacteria and immune-educating taxa (e.g., [[faecalibacterium-prausnitzii]], Bacteroidetes). Strain-dependent restoration of butyrate production restores epigenetic regulation, barrier tightness, and immune tolerance. Probiotic inoculation competes with dysbiotic pathogens (E. coli, Bacteroides fragilis) for ecological niche and metal resources."
@@ -34,7 +33,6 @@ triangles:
       "No mechanistic confirmation of SCFA/metabolite production in ASD context"
     ]
 
-# Intervention Details
 targets:
   taxa: [
     "Restores: [[faecalibacterium-prausnitzii]], [[roseburia]], [[bifidobacterium]], [[lactobacillus]], [[streptococcus-thermophilus]]",
@@ -57,35 +55,32 @@ targets:
     "Reduces dysbiotic estrogen-recirculation via loss of dysbiotic beta-glucuronidase producers",
     "Restores mucus layer (Akkermansia) → reduces bacterial translocation"
   ]
+---
 
-# Dosing and Strain Selection
-dosing:
-  typical: "1-10 billion CFU daily (strain-dependent)"
-  duration: "4-12 weeks (most studies)"
-  formulations: "Mixed 2-3 strain formulations most effective; single strains show less consistent benefit"
-  
-strain_evidence:
-  bifidobacterium_longum: "Enhanced barrier function, IL-10 production, reduced pro-inflammatory markers"
-  bifidobacterium_infantis: "Similar to B. longum; SCFA production; immune tolerance"
-  lactobacillus_acidophilus: "SCFA production, barrier support, competitive exclusion of pathogens"
-  lactobacillus_rhamnosus: "Barrier support, immune tolerance, stress resilience (some evidence)"
-  lactobacillus_plantarum: "SCFA production, barrier support, anti-inflammatory metabolites"
-  streptococcus_thermophilus: "Synergistic with Bifidobacterium; mucosal immunity support"
+## Dosing and Strain Selection
 
-# Metallomic Enhancement (New)
-metallomic_mechanism:
-  hypothesis: "Probiotic efficacy may depend on serum iron and zinc status sufficient to enable metabolite production in inoculated strains."
-  
-  iron_dependency: "Faecalibacterium prausnitzii butyrate synthase requires iron-dependent pyruvate dehydrogenase. If serum iron is sequestered (high hepcidin) or depleted via nutritional immunity, probiotic-inoculated Faecalibacterium may not establish or produce metabolites. Hypothesis: Probiotic responders should have more efficient iron handling; non-responders may have persistent hepcidin elevation preventing SCFA production."
-  
-  zinc_dependency: "Bifidobacterium and Lactobacillus GABA production requires zinc-dependent glutamate decarboxylase. If serum zinc is dysregulated (redistributed via IL-6), probiotic GABA production is impaired. Hypothesis: Zinc supplementation paired with probiotics should improve efficacy vs. probiotics alone."
-  
-  testable_predictions: [
-    "ASD responders to probiotics should have serum iron/zinc profiles that support metabolite production (moderate ferritin, not elevated hepcidin; normal serum zinc)",
-    "ASD non-responders should have dysregulated metals (elevated hepcidin, dysregulated zinc) that inhibit probiotic metabolite production",
-    "Combined probiotic + metal normalization (iron restriction via lactoferrin, zinc supplementation if depleted) should show better outcomes than probiotics alone",
-    "SCFA-producing probiotic strains should express iron-dependent butyrate synthase; isolates from iron-sufficient backgrounds may be more efficacious in dysbiotic iron-dysregulated environment"
-  ]
+- **Typical dose**: 1-10 billion CFU daily (strain-dependent)
+- **Duration**: 4-12 weeks (most studies)
+- **Formulations**: Mixed 2-3 strain formulations most effective; single strains show less consistent benefit
+
+### Strain Evidence
+
+| Strain | Evidence |
+|--------|---------|
+| **B. longum** | Enhanced barrier function, IL-10 production, reduced pro-inflammatory markers |
+| **B. infantis** | SCFA production; immune tolerance |
+| **L. acidophilus** | SCFA production, barrier support, competitive exclusion of pathogens |
+| **L. rhamnosus** | Barrier support, immune tolerance, stress resilience |
+| **L. plantarum** | SCFA production, barrier support, anti-inflammatory metabolites |
+| **S. thermophilus** | Synergistic with Bifidobacterium; mucosal immunity support |
+
+## Metallomic Enhancement Hypothesis
+
+Probiotic efficacy may depend on serum iron and zinc status sufficient to enable metabolite production in inoculated strains.
+
+- **Iron dependency**: F. prausnitzii butyrate synthase requires iron-dependent pyruvate dehydrogenase. If serum iron is sequestered (high hepcidin), probiotic Faecalibacterium may not produce metabolites. Responders may have more efficient iron handling; non-responders may have persistent hepcidin elevation.
+- **Zinc dependency**: Bifidobacterium and Lactobacillus GABA production requires zinc-dependent glutamate decarboxylase. If serum zinc is dysregulated (redistributed via IL-6), probiotic GABA production is impaired.
+- **Testable prediction**: Combined probiotic + metal normalization (lactoferrin for iron, zinc supplementation if depleted) should show better outcomes than probiotics alone.
 
 # Evidence Synthesis
 
