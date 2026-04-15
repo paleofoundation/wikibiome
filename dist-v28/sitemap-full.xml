@@ -196,7 +196,7 @@
     <loc>https://www.wikibiome.com/article/cerebral-palsy</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.wikibiome.com/article/chromium</loc>
@@ -278,9 +278,9 @@
   </url>
   <url>
     <loc>https://www.wikibiome.com/article/depression</loc>
-    <lastmod>2026-04-13T00:00:00.000Z</lastmod>
+    <lastmod>2026-04-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.wikibiome.com/article/desulfovibrio</loc>
@@ -328,7 +328,7 @@
     <loc>https://www.wikibiome.com/article/erectile-dysfunction</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.wikibiome.com/article/escherichia-coli</loc>
@@ -358,7 +358,7 @@
     <loc>https://www.wikibiome.com/article/fibromyalgia</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.wikibiome.com/article/flavonifractor</loc>
@@ -580,7 +580,7 @@
     <loc>https://www.wikibiome.com/article/necrotizing-enterocolitis</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.wikibiome.com/article/neisseria-meningitidis</loc>
@@ -694,7 +694,7 @@
     <loc>https://www.wikibiome.com/article/pmdd</loc>
     <lastmod>2026-04-15T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.wikibiome.com/article/porphyromonas-gingivalis</loc>
@@ -1501,12 +1501,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.wikibiome.com/article/iron-supplementation-stops-across-conditions</loc>
-    <lastmod>2026-04-11T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.wikibiome.com/article/lint-2026-04-13</loc>
     <lastmod>2026-04-13T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -1592,12 +1586,6 @@
   </url>
   <url>
     <loc>https://www.wikibiome.com/category/defense</loc>
-    <lastmod>2026-04-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.wikibiome.com/category/signature</loc>
     <lastmod>2026-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -11,6 +11,10 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fafaf8; }
     #root { width: 100vw; height: 100vh; }
+    @media (max-width: 900px) {
+      .explorer-main { flex-direction: column !important; overflow: auto !important; }
+      .explorer-sidebar { width: 100% !important; min-width: 0 !important; max-height: 60vh; border-left: none !important; border-top: 1px solid #e5e3df !important; }
+    }
   </style>
 </head>
 <body>
@@ -52,6 +56,7 @@ const MATRIX_DATA = {
         role_summary: "Immune evasion and hypoxia via nickel enzymes",
         metal_dependencies: ["nickel"],
         enzymes_expressed: ["nickel-glyoxalase", "NiFe-hydrogenase", "oxygen-consumption-enzymes"],
+        enzymes_needs_verification: ["nickel-glyoxalase", "NiFe-hydrogenase"],
         hallmarks_contributed: ["hypoxia", "biofilm"],
         co_aggregation_partners: ["candida-albicans"],
         also_enriched_in: ["colorectal-cancer"]
@@ -296,11 +301,20 @@ function SidebarTaxon({ taxon, metals }) {
         {/* Enzymes */}
         {enzymes.length > 0 && (
           <Section title="Virulence Enzymes">
-            {enzymes.map(e => (
-              <div key={e} style={{ fontSize: '11px', color: '#666', padding: '3px 0' }}>
-                \u2022 {e.replace(/-/g, ' ')}
-              </div>
-            ))}
+            {enzymes.map(e => {
+              const needsVerif = (taxon.enzymes_needs_verification || []).includes(e);
+              return (
+                <div key={e} style={{ fontSize: '11px', color: '#666', padding: '3px 0', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span>\u2022 {e.replace(/-/g, ' ')}</span>
+                  {needsVerif && (
+                    <span title="Claim sourced from conference presentation; awaiting peer-reviewed verification"
+                      style={{ fontSize: '9px', padding: '1px 5px', borderRadius: '3px', backgroundColor: '#fff4e5', color: '#a05d00', border: '1px solid #f0c987', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                      needs verification
+                    </span>
+                  )}
+                </div>
+              );
+            })}
           </Section>
         )}
 
@@ -535,6 +549,27 @@ function SignatureExplorer() {
   const [restrictedMetal, setRestrictedMetal] = useState(null);
   const [showRestrictionEffect, setShowRestrictionEffect] = useState(false);
 
+  // Read query params (?disease=X&node=Y)
+  const urlParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
+  const diseaseParam = urlParams?.get('disease');
+  const nodeParam = urlParams?.get('node');
+
+  // Currently only endometriosis has a matrix; future signatures will load via fetch
+  useEffect(() => {
+    if (diseaseParam && diseaseParam !== MATRIX_DATA.condition.id) {
+      // Future: fetch(`/data/signatures/${diseaseParam}.json`) and setMatrix
+      console.warn('Signature not yet available for:', diseaseParam);
+    }
+    if (nodeParam) {
+      const taxon = [...MATRIX_DATA.taxa.enriched, ...MATRIX_DATA.taxa.depleted].find(t => t.id === nodeParam);
+      const metal = MATRIX_DATA.metals.find(m => m.id === nodeParam);
+      const hallmark = MATRIX_DATA.hallmarks.find(h => h.id === nodeParam);
+      if (taxon) { setSelectedNode(nodeParam); setSelectedNodeType('taxon'); }
+      else if (metal) { setSelectedNode(nodeParam); setSelectedNodeType('metal'); }
+      else if (hallmark) { setSelectedNode(nodeParam); setSelectedNodeType('hallmark'); }
+    }
+  }, []);
+
   const svgW = 960;
   const svgH = 760;
   const cx = svgW / 2;
@@ -635,10 +670,10 @@ function SignatureExplorer() {
       <div style={{ padding: '16px 24px', borderBottom: '1px solid #e5e3df', backgroundColor: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <div>
           <h1 style={{ margin: '0 0 4px', fontSize: '24px', fontWeight: 600, color: '#1a1a1a', fontFamily: 'Libre Baskerville, serif' }}>
-            Endometriosis Signature Explorer
+            {MATRIX_DATA.condition.label} Signature Explorer
           </h1>
           <p style={{ margin: 0, fontSize: '13px', color: '#888' }}>
-            Interactive ecosystem map from 28 peer-reviewed sources &middot; <span style={{color:'#b87333', fontWeight:500}}>WikiBiome</span>
+            Interactive ecosystem map from {MATRIX_DATA.condition.paper_count} peer-reviewed sources &middot; <a href="/" style={{color:'#b87333', fontWeight:500, textDecoration:'none'}}>WikiBiome</a>
           </p>
         </div>
         <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
@@ -650,10 +685,10 @@ function SignatureExplorer() {
       </div>
 
       {/* Main area */}
-      <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
+      <div className="explorer-main" style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
         {/* SVG */}
-        <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '16px' }}>
-          <svg width={svgW} height={svgH} style={{ backgroundColor: '#fff', borderRadius: '12px', boxShadow: '0 2px 12px rgba(0,0,0,0.06)' }}>
+        <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '16px', minWidth: 0 }}>
+          <svg viewBox={`0 0 ${svgW} ${svgH}`} preserveAspectRatio="xMidYMid meet" style={{ width: '100%', height: '100%', maxWidth: svgW, maxHeight: svgH, backgroundColor: '#fff', borderRadius: '12px', boxShadow: '0 2px 12px rgba(0,0,0,0.06)' }}>
             <defs>
               <linearGradient id="paradoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#8b2020" />
@@ -794,12 +829,17 @@ function SignatureExplorer() {
               let stroke = '#c44040';
               if (t.status === 'depleted') { fill = '#4a6fa5'; stroke = '#6b8fc9'; }
               else if (t.status === 'paradoxical') { fill = 'url(#paradoxGrad)'; stroke = '#a08b6b'; }
-              const op = sel ? 1 : faded ? 0.15 : 0.75;
+              const isDepleted = t.status === 'depleted';
+              // Ghost depleted taxa by default: lower base opacity, dashed ring
+              const baseOp = isDepleted ? 0.4 : 0.75;
+              const op = sel ? 1 : faded ? 0.15 : baseOp;
               const restrDisabled = showRestrictionEffect && restrictedMetal && (t.metal_dependencies || []).includes(restrictedMetal);
               return (
                 <g key={`tx-${t.id}`} onClick={() => select(t.id, 'taxon')} style={{ cursor: 'pointer' }}>
-                  <circle cx={p.x} cy={p.y} r={sz} fill={fill} stroke={stroke} strokeWidth="2"
+                  <circle cx={p.x} cy={p.y} r={sz} fill={isDepleted ? '#fff' : fill} stroke={stroke} strokeWidth="2"
+                    strokeDasharray={isDepleted ? '4,3' : undefined}
                     opacity={op} style={{ transition: 'opacity 300ms, filter 400ms', filter: restrDisabled ? 'brightness(0.4) saturate(0.2)' : 'none' }} />
+                  {isDepleted && <text x={p.x} y={p.y + 4} textAnchor="middle" fontSize="14" fill={stroke} opacity={op} fontWeight="300">\u2205</text>}
                   {sel && <circle cx={p.x} cy={p.y} r={sz + 4} fill="none" stroke="#b87333" strokeWidth="2" opacity="0.6" />}
                   <text x={p.x} y={p.y + sz + 20} textAnchor="middle" fontSize="11" fontWeight="500"
                     fill={sel ? '#333' : '#666'} fontFamily="Inter, sans-serif" opacity={op} style={{transition:'opacity 300ms'}}>
@@ -822,7 +862,7 @@ function SignatureExplorer() {
         </div>
 
         {/* ── SIDEBAR ── */}
-        <div style={{ width: '380px', minWidth: '380px', backgroundColor: '#fff', borderLeft: '1px solid #e5e3df', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+        <div className="explorer-sidebar" style={{ width: '380px', minWidth: '380px', backgroundColor: '#fff', borderLeft: '1px solid #e5e3df', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
           {selTaxon ? (
             <SidebarTaxon taxon={selTaxon} metals={metals} />
           ) : selMetal ? (
