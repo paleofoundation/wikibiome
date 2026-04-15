@@ -1,25 +1,55 @@
 ---
 title: "Rezazadegan et al. 2025 — Heavy Metals and Gut Microbiota: A Systematic Review"
 type: source
-created: 2026-04-09
-updated: 2026-04-14
-authors: [Fatemeh Rezazadegan, Maryam Mahmoudi, Seyed Mohammad Mousavi]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-14T00:00:00.000Z
+authors:
+  - Fatemeh Rezazadegan
+  - Maryam Mahmoudi
+  - Seyed Mohammad Mousavi
 year: 2025
-journal: "Journal of Health, Population and Nutrition"
-doi: "10.1186/s41043-025-00750-4"
+journal: Journal of Health, Population and Nutrition
+doi: 10.1186/s41043-025-00750-4
 evidence_level: systematic-review-meta-analysis
-sample_size: "n=3000+"
-tags: [heavy-metals, arsenic, lead, mercury, cadmium, gut-microbiota, systematic-review, leaky-gut]
+sample_size: n=3000+
+tags:
+  - heavy-metals
+  - arsenic
+  - lead
+  - mercury
+  - cadmium
+  - gut-microbiota
+  - systematic-review
+  - leaky-gut
 library_category: heavy-metals
 platform: both
-condition: "type-1-diabetes"
-karen_brain_primitives: [1, 3, 4]
-metals_discussed: [arsenic, lead, mercury, cadmium]
-taxa_discussed: [collinsella, bifidobacterium, desulfovibrio, escherichia-coli]
+condition: type-1-diabetes
+karen_brain_primitives:
+  - 1
+  - 3
+  - 4
+metals_discussed:
+  - arsenic
+  - lead
+  - mercury
+  - cadmium
+taxa_discussed:
+  - collinsella
+  - bifidobacterium
+  - desulfovibrio
+  - escherichia-coli
 key_findings:
-  - "All 4 heavy metals disrupt gut microbiota; Collinsella enriched as pathobiont across metals"
-  - "Prenatal Pb depletes Bifidobacterium bifidum/longum"
-  - "Cd linked to leaky gut and oxidative stress via microbiome disruption"
+  - All 4 heavy metals disrupt gut microbiota; Collinsella enriched as pathobiont across metals
+  - Prenatal Pb depletes Bifidobacterium bifidum/longum
+  - Cd linked to leaky gut and oxidative stress via microbiome disruption
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+why_keystone: Systematic review confirming that arsenic, lead, mercury, and cadmium all disrupt gut microbiota in consistent ways — enrichment of Collinsella and Desulfovibrio, depletion of Bifidobacterium — across 3000+ subjects. This is the cross-condition evidence WikiBiome relies on to show that different metals converge on a shared dysbiotic phenotype.
 ---
 
 ## Key Findings

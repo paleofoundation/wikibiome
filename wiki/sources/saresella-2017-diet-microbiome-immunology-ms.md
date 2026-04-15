@@ -38,9 +38,9 @@ platform: wikibiome
 
 - [[multiple-sclerosis]] -- dietary intervention modifying disease course via microbiome
 - [[Lachnospiraceae]] -- butyrate-producing family correlating with anti-inflammatory immune profile in MS
-- [[Tregs]] -- FoxP3+ regulatory T cells increased in correlation with Lachnospiraceae in HV/LP diet
-- [[Th17-cells]] -- IL-17+ CD4+ cells decreased by HV/LP diet
+- -- FoxP3+ regulatory T cells increased in correlation with Lachnospiraceae in HV/LP diet
+- -- IL-17+ CD4+ cells decreased by HV/LP diet
 - [[butyrate]] -- proposed mediator of Lachnospiraceae immunomodulatory effects via Treg induction
-- [[diet-microbiome-axis]] -- HV/LP diet reshapes gut microbiome composition and immune parameters
+- -- HV/LP diet reshapes gut microbiome composition and immune parameters
 - [[short-chain-fatty-acids]] -- butyrate as key SCFA linking diet, microbiome, and immune regulation
 - [[dysbiosis]] -- Western diet associated with pro-inflammatory microbiome and worse clinical outcomes

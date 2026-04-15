@@ -35,6 +35,6 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- medication effects on gut microbiome relevant to ASD pharmacotherapy
 - [[gut-microbiome]] -- antidepressant-associated microbial changes
-- [[SSRI]] -- significant microbiome effects confounding psychiatric microbiome studies
-- [[anxiety]] -- gut microbiota associations with anxiety disorders
+- -- significant microbiome effects confounding psychiatric microbiome studies
+- -- gut microbiota associations with anxiety disorders
 - [[biomarkers]] -- microbial profiles as diagnostic classifiers

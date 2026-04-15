@@ -24,6 +24,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- personalized dietary treatment based on individual immune profile
-- [[precision-medicine]] -- personalized nutrition for ASD
-- [[autoimmunity]] -- dietary aquaporin immune reactivity in ASD
-- [[diet]] -- beyond one-size-fits-all dietary interventions
+- -- personalized nutrition for ASD
+- -- dietary aquaporin immune reactivity in ASD
+- -- beyond one-size-fits-all dietary interventions

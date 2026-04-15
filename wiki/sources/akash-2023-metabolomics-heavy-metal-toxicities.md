@@ -34,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Directly relevant to understanding metabolic consequences of [[Arsenic Toxicity]], [[Cadmium Toxicity]], [[Lead Toxicity]], [[Mercury Toxicity]]
+- Directly relevant to understanding metabolic consequences of [[arsenic]], [[Cadmium Toxicity]], [[Lead Toxicity]], [[Mercury Toxicity]]
 - Lipid and amino acid perturbations link to [[bile acids]] metabolism as described in [[di-ciaula-2017-bile-acid-physiology]]
 - ROS-mediated toxicity mechanisms connect to [[oxidative-stress|oxidative stress]] pathways disrupted by heavy metals
 - Metabolomics approaches complement microbiome profiling in [[gut-metal-microbiome|gut microbiome and metal exposure]] studies

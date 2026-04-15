@@ -24,7 +24,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- VPA immunomodulatory effects on mast cells during Listeria infection
-- [[valproic-acid]] -- restriction of innate immune response to Listeria
-- [[listeria-monocytogenes]] -- mast cell response modulated by VPA
-- [[immune-system]] -- VPA effects on mast cell signaling cascades
-- [[maternal-infection]] -- VPA + Listeria interaction relevant to prenatal ASD risk
+- -- restriction of innate immune response to Listeria
+- -- mast cell response modulated by VPA
+- -- VPA effects on mast cell signaling cascades
+- -- VPA + Listeria interaction relevant to prenatal ASD risk

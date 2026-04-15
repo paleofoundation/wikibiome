@@ -30,9 +30,9 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 - *B. vulgatus* is present at moderate levels in most healthy individuals, typically constituting 1-5% of total bacterial biomass.
 - At these levels, it functions as a commensal, contributing to:
-  - Polysaccharide fermentation and short-chain fatty acid production.
-  - Nutritional competition that prevents pathobiont dominance.
-  - Overall ecosystem stability via diverse Bacteroides representation.
+ - Polysaccharide fermentation and short-chain fatty acid production.
+ - Nutritional competition that prevents pathobiont dominance.
+ - Overall ecosystem stability via diverse Bacteroides representation.
 
 ### Disease Enrichment
 
@@ -63,8 +63,8 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 - In inflamed tissue (CRC, depressive episodes with increased intestinal permeability), **calprotectin** elevation sequesters zinc at inflammation sites.
 - This simultaneously:
-  1. **Protects the host** by restricting zinc to pathobiont-damaging levels.
-  2. **Selects for *B. vulgatus*** if it has zinc-uptake mechanisms that bypass calprotectin sequestration.
+ 1. **Protects the host** by restricting zinc to pathobiont-damaging levels.
+ 2. **Selects for *B. vulgatus*** if it has zinc-uptake mechanisms that bypass calprotectin sequestration.
 - The net effect can be **dysbiotic selection** if *B. vulgatus* zinc resistance exceeds that of depleted commensals.
 
 ## Beta-Glucuronidase Production
@@ -78,9 +78,9 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 ### Metabolic Consequences
 
 - Deconjugated estrogen reabsorption increases systemic estrogen exposure, which:
-  - Suppresses anti-inflammatory commensals like [[faecalibacterium-prausnitzii]] (estrogen-sensitive).
-  - Selectively favors estrobolome members like *B. vulgatus*.
-  - Perpetuates dysbiosis via positive feedback.
+ - Suppresses anti-inflammatory commensals like [[faecalibacterium-prausnitzii]] (estrogen-sensitive).
+ - Selectively favors estrobolome members like *B. vulgatus*.
+ - Perpetuates dysbiosis via positive feedback.
 
 ## Disease Associations
 
@@ -88,19 +88,19 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 - *B. vulgatus* is **significantly enriched in CRC tissue** compared to healthy mucosa and adenoma precursors.
 - Proposed mechanisms:
-  - **Iron acquisition**: CRC tissue bleeds and is high-iron; *B. vulgatus* siderophore activity selects for it over iron-limited commensals.
-  - **Barrier disruption**: *B. vulgatus* produces metalloproteases and other virulence factors that damage epithelial tight junctions.
-  - **Oncogenic signaling**: *B. vulgatus*-derived LPS activates TLR4 → NF-kB → IL-6, IL-8 production → cancer-promoting inflammation.
-  - **Estrogen metabolism**: Beta-glucuronidase activity extends estrogen reabsorption, and elevated systemic estrogen is a CRC risk factor (particularly in post-menopausal women).
+ - **Iron acquisition**: CRC tissue bleeds and is high-iron; *B. vulgatus* siderophore activity selects for it over iron-limited commensals.
+ - **Barrier disruption**: *B. vulgatus* produces metalloproteases and other virulence factors that damage epithelial tight junctions.
+ - **Oncogenic signaling**: *B. vulgatus*-derived LPS activates TLR4 → NF-kB → IL-6, IL-8 production → cancer-promoting inflammation.
+ - **Estrogen metabolism**: Beta-glucuronidase activity extends estrogen reabsorption, and elevated systemic estrogen is a CRC risk factor (particularly in post-menopausal women).
 
 ### Depression
 
 - *B. vulgatus* is enriched in depression microbiomes, particularly in those with gastrointestinal symptoms.
-- **Proposed gut-brain axis link**:
-  - Dysbiotic *B. vulgatus* enrichment → reduced [[faecalibacterium-prausnitzii]] and SCFA producers → loss of butyrate → barrier dysfunction.
-  - Barrier breakdown → increased LPS and bacterial translocation → systemic endotoxemia.
-  - Systemic LPS + pro-inflammatory cytokines (IL-6, TNF-alpha, IL-17) → blood-brain barrier disruption → neuroinflammation → microglial activation → depression.
-  - Additionally, dysbiotic reduction in tryptophan-metabolizing commensals and SCFA producers → reduced aryl hydrocarbon receptor (Ahr) signaling → loss of IL-22 and barrier support → vicious cycle.
+
+ - Dysbiotic *B. vulgatus* enrichment → reduced [[faecalibacterium-prausnitzii]] and SCFA producers → loss of butyrate → barrier dysfunction.
+ - Barrier breakdown → increased LPS and bacterial translocation → systemic endotoxemia.
+ - Systemic LPS + pro-inflammatory cytokines (IL-6, TNF-alpha, IL-17) → blood-brain barrier disruption → neuroinflammation → microglial activation → depression.
+ - Additionally, dysbiotic reduction in tryptophan-metabolizing commensals and SCFA producers → reduced aryl hydrocarbon receptor (Ahr) signaling → loss of IL-22 and barrier support → vicious cycle.
 
 ### Associated Conditions
 
@@ -178,4 +178,4 @@ The key distinction between commensal and dysbiotic *B. vulgatus*:
 - [[nutritional-immunity|barrier-disruption]] -- produces metalloproteases and pro-inflammatory metabolites
 - [[dysbiosis]] -- *B. vulgatus* enrichment is a hallmark of dysbiotic states in CRC, depression, IBD
 - [[nutritional-immunity]] -- actively circumvents iron sequestration via siderophores
-- [[commensal-pathobiont-spectrum]] -- prototype of context-dependent pathogenic potential
+- -- prototype of context-dependent pathogenic potential

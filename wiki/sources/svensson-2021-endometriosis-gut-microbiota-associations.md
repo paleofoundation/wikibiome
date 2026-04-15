@@ -25,11 +25,11 @@ platform: wikibiome
 - **Study design**: Case-control study at Skane University Hospital, Malmo, Sweden
 - **Participants**: 66 women with laparoscopy/laparotomy-confirmed endometriosis matched with 198 controls (3:1) by sex, age, BMI, and smoking from Malmo Offspring Study
 - **Methods**: 16S rRNA V1-V3 sequencing of stool samples, VAS-IBS questionnaire
-- **Key results**:
-  - 86.4% of endometriosis patients had GI symptoms in prior 2 weeks
-  - 19 bacteria differed before FDR correction; 12 survived correction
-  - *Paraprevotella*, *Bacteroides*, and *Oscillospira* were among differentially abundant genera
-  - Patients with hormonal treatment had altered *Blautia*, *Ruminococcus*, and *Butyricimonas*
+
+ - 86.4% of endometriosis patients had GI symptoms in prior 2 weeks
+ - 19 bacteria differed before FDR correction; 12 survived correction
+ - *Paraprevotella*, *Bacteroides*, and *Oscillospira* were among differentially abundant genera
+ - Patients with hormonal treatment had altered *Blautia*, *Ruminococcus*, and *Butyricimonas*
 
 # Relevance to Wiki
 

@@ -25,13 +25,13 @@ platform: wikibiome
 - **Population**: From 1086 nickel-allergic patients (1997-2003), 290 selected with systemic symptoms (F:M ratio ~283:7; mean age 35.8 +/- 10.3); required positive patch test, >80% benefit from 4-week low-Ni diet, positive oral nickel challenge
 - **Protocol**: Graduated oral administration of water-soluble nickel sulphate granules over 315 days total: increasing phase (0.1 ng to 0.1 mg over ~6 months, granule every other day to 2 granules/day) followed by decreasing phase with gradual reintroduction of nickel-containing foods
 - **Control group**: 95 patients on nickel-free diet alone for the same period
-- **Results**:
-  - 30.9% (42/136) dropped out due to relapse during food reintroduction
-  - 94 completers: 64 (47.0%) complete remission; 23 (16.9%) >80% improvement; 7 (5.2%) partial benefit
-  - 87 (64%) returned to free diet; 7 had partial food tolerance only
-  - Control group: 82.1% relapsed on reintroduction of nickel foods
-  - Patch test: unchanged in 72.3%, decreased in 17%, increased in 1.1%, turned negative in 8.6%
-  - Oral challenge: 30.9% did not react, 50% reacted at higher dose, 17% same dose, 1.1% decreased threshold
+
+ - 30.9% (42/136) dropped out due to relapse during food reintroduction
+ - 94 completers: 64 (47.0%) complete remission; 23 (16.9%) >80% improvement; 7 (5.2%) partial benefit
+ - 87 (64%) returned to free diet; 7 had partial food tolerance only
+ - Control group: 82.1% relapsed on reintroduction of nickel foods
+ - Patch test: unchanged in 72.3%, decreased in 17%, increased in 1.1%, turned negative in 8.6%
+ - Oral challenge: 30.9% did not react, 50% reacted at higher dose, 17% same dose, 1.1% decreased threshold
 - **Side effects**: Low incidence; extremely low starting doses (0.1 ng) compared to prior studies using 3.5-5 mg which caused relapse in 60%
 - **Efficacy statistics**: EER 69.1%, CER 17.9%, ARR 51.2%, RRR 74.1%, NNT 1.95 (95% CI: 1.65-2.54)
 

@@ -62,7 +62,6 @@ The MD is broadly beneficial but requires individual modification:
 - The combination of MD principles with low-nickel modifications (substituting low-Ni proteins for legumes, selecting low-Ni grains) may capture anti-inflammatory benefits while avoiding nickel-triggered inflammation.
 - MD combined with low-carb approaches may be optimal for PCOS [[mei-2022-mediterranean-low-carb-pcos]].
 
-
 ## Key Sources
 
 - [[leung-2022-lower-fiber-pcos-meta-analysis]]

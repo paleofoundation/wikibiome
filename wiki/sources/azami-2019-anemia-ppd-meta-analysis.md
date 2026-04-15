@@ -28,10 +28,10 @@ platform: wikibiome
 - **Included Studies**: 10 studies from 348 initially identified articles (7 from Asia, 1 from America, 2 from Europe)
 - **Mean participant age**: 28.16 years (95% CI: 25.30-31.03)
 - **Depression tools**: Primarily EPDS (9 studies), CES-D (1 study)
-- **Subgroup Results**:
-  - By region: Asia RR=1.973 (p=0.009), America RR=5.846 (p=0.019), Europe RR=1.286 (p=0.294)
-  - By time of PPD assessment: <= 4 weeks RR=1.392, > 4 weeks RR=2.312 (p=0.004)
-  - By time of anemia assessment: <= 2 weeks RR=2.604 (p=0.017), > 2 weeks RR=1.548 (p=0.061)
+
+ - By region: Asia RR=1.973 (p=0.009), America RR=5.846 (p=0.019), Europe RR=1.286 (p=0.294)
+ - By time of PPD assessment: <= 4 weeks RR=1.392, > 4 weeks RR=2.312 (p=0.004)
+ - By time of anemia assessment: <= 2 weeks RR=2.604 (p=0.017), > 2 weeks RR=1.548 (p=0.061)
 - **Heterogeneity**: Considerable for postpartum anemia studies (I-squared=74.62%), moderate for pregnancy anemia studies (I-squared=36.42%)
 - **Publication bias**: Not significant (Egger p=0.0528, Begg p=0.0736 for postpartum; Egger p=0.826, Begg p=0.999 for pregnancy anemia)
 

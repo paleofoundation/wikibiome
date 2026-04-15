@@ -60,7 +60,7 @@ Children absorb 40-50% of ingested lead (vs. 3-10% in adults) due to immature gu
 
 Lead exposure alters gut microbial ecology:
 
-- Lead shifts microbiota composition toward increased [[enterobacteriaceae|Proteobacteria]] and decreased [[lactobacillus|Lactobacillus]] — a classic dysbiotic signature
+- Lead shifts microbiota composition toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] — a classic dysbiotic signature
 - Lead depletes [[glutathione]] reserves, the same detoxification molecule cadmium depletes
 - Co-exposure with other dietary metals (Cd, As) produces synergistic gut disruption
 - Gut microbial metabolites influence lead methylation and bioavailability

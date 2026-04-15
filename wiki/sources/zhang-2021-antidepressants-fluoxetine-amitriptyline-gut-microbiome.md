@@ -10,6 +10,7 @@ year: 2021
 doi: 10.1038/s41398-021-01254-5
 tags: [cardiovascular-disease, antidepressants, fluoxetine, amitriptyline, gut-microbiome, CUMS, depression, antibiotic-resistance, 16S-rRNA, shotgun-metagenomics]
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Antidepressants Fluoxetine and Amitriptyline Induce Alterations in Intestinal Microbiota and Gut Microbiome Function

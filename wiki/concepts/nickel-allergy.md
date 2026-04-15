@@ -75,7 +75,6 @@ Dietary nickel can trigger systemic reactions in sensitized individuals [[zirwas
 - **Disulfiram**: nickel chelator, useful adjunct but hepatotoxicity risk.
 - **Topical treatment**: corticosteroids, calcineurin inhibitors.
 
-
 ## Key Sources
 
 - [[dobrzynska-2025-nickel-children-food]]

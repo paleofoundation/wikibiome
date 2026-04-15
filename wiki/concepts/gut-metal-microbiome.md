@@ -133,7 +133,6 @@ Advanced biosensor technologies enable monitoring of metal-gut interactions:
 - Whether nickel-specific gut microbiome effects parallel those of the better-studied toxic metals (As, Cd, Pb, Hg)
 - Optimal probiotic strain selection, dosing, and duration for clinical metal detoxification
 
-
 ## Key Sources
 
 - [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]

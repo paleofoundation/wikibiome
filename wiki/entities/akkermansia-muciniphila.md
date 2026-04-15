@@ -61,7 +61,6 @@ A Gram-negative, obligate anaerobic, mucin-degrading bacterium that colonizes th
 - Proposed for metal detoxification strategies: supplementation could restore mucus barrier function compromised by heavy metal exposure [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 - Unlike pathogenic Enterobacteriaceae, *A. muciniphila* does not depend on Ni-enzymes for virulence -- it is a beneficiary of the nickel-poor environment that starves pathogens.
 
-
 ## Key Sources
 
 - [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]

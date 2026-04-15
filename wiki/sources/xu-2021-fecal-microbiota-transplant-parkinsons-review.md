@@ -11,6 +11,7 @@ tags: [parkinsons-disease, fecal-microbiota-transplant, gut-brain-axis, dysbiosi
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
 ---
 
 # Fecal Microbiota Transplantation: A New Therapeutic Attempt from the Gut to the Brain

@@ -10,6 +10,9 @@ year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, metabolomics, lipidomics, phospholipids, eicosanoids, carnitines, sphingolipids, autophagy, ppar-signaling, oxidative-stress]
 doi: "10.1038/s41598-025-07905-7"
 platform: wikibiome
+karen_brain_primitives: [9]
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Integrated plasma metabolomics and lipidomics profiling highlight distinctive signatures with Hashimoto's thyroiditis
@@ -27,15 +30,15 @@ platform: wikibiome
 - **Study type**: Animal model metabolomics/lipidomics study (NOD.H-2h4 mice)
 - **Animals**: 20 NOD.H-2h4 mice (4 weeks old), randomly assigned to control (sterile water) and HT group (0.05% sodium iodide water for 8 weeks)
 - **Methods**: LC-MS/MS for metabolomics; UPLC-MS/MS for lipidomics; PCA, PLS-DA, and OPLS-DA analysis
-- **Key metabolomic results**:
-  - 6384 ion peaks identified (2943 positive, 3441 negative)
-  - 698 metabolites remained after quality filtering; 195 significantly differential
-  - Over 80% of identified metabolites from HMDB belonged to Lipids and lipid-like molecules, Organic acids and derivatives, Organoheterocyclic compounds, and Benzenoids
-  - PLS-DA showed clear separation (R2=0.9213, Q2=-0.0558 positive; R2=0.8527, Q2=-0.2302 negative)
-- **Key lipidomic results**:
-  - 1054 lipid metabolites identified (695 positive, 359 negative)
-  - 247 differentially expressed lipids identified
-  - KEGG enrichment: Autophagy, Choline metabolism, PPAR signaling upregulated; Apoptosis, Cholesterol metabolism downregulated
+
+ - 6384 ion peaks identified (2943 positive, 3441 negative)
+ - 698 metabolites remained after quality filtering; 195 significantly differential
+ - Over 80% of identified metabolites from HMDB belonged to Lipids and lipid-like molecules, Organic acids and derivatives, Organoheterocyclic compounds, and Benzenoids
+ - PLS-DA showed clear separation (R2=0.9213, Q2=-0.0558 positive; R2=0.8527, Q2=-0.2302 negative)
+
+ - 1054 lipid metabolites identified (695 positive, 359 negative)
+ - 247 differentially expressed lipids identified
+ - KEGG enrichment: Autophagy, Choline metabolism, PPAR signaling upregulated; Apoptosis, Cholesterol metabolism downregulated
 - **HT model validation**: Serum TPOAb and TgAb elevated in HT group; histopathology showed extensive lymphocytic infiltration and follicular destruction
 - **Clinical relevance**: Phospholipid, sphingomyelin, lysophosphatidylcholine, and phosphatidylcholine changes have been implicated in HT onset; lipid deterioration correlates with hypothyroidism progression
 

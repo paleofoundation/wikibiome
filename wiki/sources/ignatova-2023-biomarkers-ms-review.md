@@ -38,10 +38,10 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- comprehensive biomarker landscape review
-- [[neurofilament-light-chain]] -- most promising blood-based MS biomarker
-- [[tryptophan]] -- urinary kynurenine/tryptophan ratio as metabolic biomarker for MS disability
+- -- most promising blood-based MS biomarker
+- -- urinary kynurenine/tryptophan ratio as metabolic biomarker for MS disability
 - [[short-chain-fatty-acids]] -- gut microbiome-derived SCFAs linked to immune dysfunction in MS
-- [[oligoclonal-bands]] -- CSF OCBs as established diagnostic biomarker
-- [[EBV]] -- anti-EBNA antibodies as predictive biomarker
+- -- CSF OCBs as established diagnostic biomarker
+- -- anti-EBNA antibodies as predictive biomarker
 - [[gut-microbiome]] -- compositional changes as emerging biomarker for disease activity
 - [[biomarkers]] -- multi-omic integration needed for clinically useful MS biomarker panels

@@ -25,11 +25,11 @@ platform: wikibiome
 - **Study design**: Case-control study
 - **Participants**: 45 women with histological ovarian endometrioma and 45 surgical controls (uterine leiomyoma or benign ovarian cysts)
 - **Methods**: EV isolation from peritoneal fluid, 16S rDNA V3-V4 NGS sequencing
-- **Key results**:
-  - Alpha diversity showed no significant differences (Shannon p=0.12, Simpson p=0.14)
-  - Beta diversity analysis (Bray-Curtis) showed significant differences at order, family, and genus levels
-  - At the genus level, *Acinetobacter* was the most abundant taxon in both groups
-  - The microbial composition of PF was similar between stage III and IV endometriosis
+
+ - Alpha diversity showed no significant differences (Shannon p=0.12, Simpson p=0.14)
+ - Beta diversity analysis (Bray-Curtis) showed significant differences at order, family, and genus levels
+ - At the genus level, *Acinetobacter* was the most abundant taxon in both groups
+ - The microbial composition of PF was similar between stage III and IV endometriosis
 
 # Relevance to Wiki
 

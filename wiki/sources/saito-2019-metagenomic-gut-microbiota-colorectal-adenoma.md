@@ -32,7 +32,7 @@ platform: wikibiome
 ## Connections
 
 - *F. varium* findings broaden the Fusobacterium-CRC connection beyond *F. nucleatum* as discussed in [[kudra-2023-oral-microbiome-crc-perspectives]]
-- Early-stage (intramucosal) CRC profiling complements [[microbiome-and-disease-progression]] from adenoma to carcinoma
+- Early-stage (intramucosal) CRC profiling complements from adenoma to carcinoma
 - Colonoscopy aspirate methodology provides alternative to stool and tissue approaches reviewed in [[osman-2018-16s-rrna-crc-protocols-workflows]]
 - *Peptostreptococcus* and *Parvimonas* enrichment in CRC aligns with [[microbial-biomarkers]] panels
 - [[colorectal-cancer]]

@@ -25,8 +25,8 @@ This study demonstrates that long-term, low-dose delta-9-tetrahydrocannabinol (T
 - Blocked upregulation of type-I interferon response genes (*NLRC5*, *CCL2*, *CXCL10*, *IRF1*, *IRF7*, *STAT2*, *BST2*), excitotoxicity (*SLC7A11*), and enhanced WFS1/CRYM protein expression (endoplasmic reticulum stress/oxidative stress) in basal ganglia
 - THC countered miR-142-3p-mediated suppression of WFS1 protein via cannabinoid receptor-1 mechanism in HCN2 neuronal cells
 - Most importantly, THC significantly increased relative abundance of **Firmicutes** and **Clostridia** including:
-  - Indole-3-propionate producers (*C. botulinum*, *C. sporogenes*, *C. cadaveris*)
-  - Butyrate producers (*C. butyricum*, *Faecalibacterium prausnitzii*, *Butyricicoccus pullicaecorum*)
+ - Indole-3-propionate producers (*C. botulinum*, *C. sporogenes*, *C. cadaveris*)
+ - Butyrate producers (*C. butyricum*, *Faecalibacterium prausnitzii*, *Butyricicoccus pullicaecorum*)
 
 ## Relevance to Gut-Metal-Microbiome Axis
 

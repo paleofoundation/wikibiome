@@ -40,6 +40,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- physical exercise as behavioral intervention
-- [[motor-coordination]] -- exercise improves motor deficits in ASD
-- [[social-communication]] -- individual exercise programmes improve social skills
-- [[behavioral-interventions]] -- non-pharmacological approaches to ASD symptoms
+- -- exercise improves motor deficits in ASD
+- -- individual exercise programmes improve social skills
+- -- non-pharmacological approaches to ASD symptoms

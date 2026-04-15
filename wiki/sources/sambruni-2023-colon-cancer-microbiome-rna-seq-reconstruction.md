@@ -25,12 +25,12 @@ platform: wikibiome
 
 - **Type**: Computational analysis of TCGA datasets plus validation cohort (3737 primary tumour and 318 solid tissue normal from TCGA; 30 IEO colon cancer patients)
 - **Methods**: PathSeq bacterial read extraction from RNA-Seq; LASSO regression for clinical property association; CIBERSORTx immune deconvolution; HUMAnN 3.0 pathway profiling
-- **Key findings**:
-  - Microbiome reconstruction from RNA-Seq detected 59,592,060 bacterial reads (0.02% of total)
-  - In 12,961 bacterial species; cancer type-specific bacterial compositions identified
-  - COAD samples showed distinct bacterial composition separating by clinical and molecular properties
-  - MSI status, CIMP, CMS classification, aneuploidy, and driver gene mutations all associated with microbiome composition
-  - Survival analysis: specific bacteria associated with relapse probability in colon cancer
+
+ - Microbiome reconstruction from RNA-Seq detected 59,592,060 bacterial reads (0.02% of total)
+ - In 12,961 bacterial species; cancer type-specific bacterial compositions identified
+ - COAD samples showed distinct bacterial composition separating by clinical and molecular properties
+ - MSI status, CIMP, CMS classification, aneuploidy, and driver gene mutations all associated with microbiome composition
+ - Survival analysis: specific bacteria associated with relapse probability in colon cancer
 
 ## Connections
 

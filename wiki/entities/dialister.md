@@ -46,29 +46,29 @@ pathogenic_potential: commensal
 ### Mechanistic Links to Neuropsychiatry
 
 1. **Succinate Production and Mitochondrial Function**
-   - Dialister's primary metabolic output is **succinate**, a key Krebs cycle intermediate and signaling molecule
-   - Succinate deficiency in depression correlates with mitochondrial dysfunction in hippocampal neurons
-   - Oral succinate supplementation (in rodent models) partially reverses Dialister depletion phenotypes
+ - Dialister's primary metabolic output is **succinate**, a key Krebs cycle intermediate and signaling molecule
+ - Succinate deficiency in depression correlates with mitochondrial dysfunction in hippocampal neurons
+ - Oral succinate supplementation (in rodent models) partially reverses Dialister depletion phenotypes
 
 2. **Short-Chain Fatty Acid Dysbiosis**
-   - Dialister depletion co-occurs with reduced butyrate and propionate production
-   - Butyrate is essential for histone deacetylase (HDAC) inhibition, which promotes BDNF expression in the brain
-   - Loss of Dialister contributes to reduced BBB integrity via claudin-5 downregulation
+ - Dialister depletion co-occurs with reduced butyrate and propionate production
+ - Butyrate is essential for histone deacetylase (HDAC) inhibition, which promotes BDNF expression in the brain
+ - Loss of Dialister contributes to reduced BBB integrity via claudin-5 downregulation
 
 3. **Lipopolysaccharide (LPS) and Neuroinflammation**
-   - Gram-negative Dialister species produce endotoxin, but their presence appears to maintain homeostatic immune tolerance
-   - Dialister depletion allows overgrowth of more aggressive Gram-negative pathogens (e.g., [[enterobacteriaceae]]) with more inflammatory LPS patterns
-   - The shift in endotoxemia profile (not just total LPS load) drives microglia activation and neuroinflammation
+ - Gram-negative Dialister species produce endotoxin, but their presence appears to maintain homeostatic immune tolerance
+ - Dialister depletion allows overgrowth of more aggressive Gram-negative pathogens (e.g., [[enterobacteriaceae]]) with more inflammatory LPS patterns
+ - The shift in endotoxemia profile (not just total LPS load) drives microglia activation and neuroinflammation
 
 4. **Vagal Signaling and the Gut-Brain Axis**
-   - Dialister metabolites activate GPR43/GPR41 receptors on enteric neurons
-   - Loss of Dialister reduces afferent vagal signaling, impairing top-down parasympathetic control
-   - Vagal dysfunction is a core feature of treatment-resistant depression and anxiety
+ - Dialister metabolites activate GPR43/GPR41 receptors on enteric neurons
+ - Loss of Dialister reduces afferent vagal signaling, impairing top-down parasympathetic control
+ - Vagal dysfunction is a core feature of treatment-resistant depression and anxiety
 
 5. **Kynurenine Pathway Dysregulation**
-   - Dialister presence (and succinate production) reduces tryptophan shunting into the neurotoxic kynurenine pathway
-   - Depletion of Dialister correlates with elevated plasma kynurenine:tryptophan ratios in depression
-   - This shift drives quinolinic acid accumulation in the CNS, contributing to excitotoxicity
+ - Dialister presence (and succinate production) reduces tryptophan shunting into the neurotoxic kynurenine pathway
+ - Depletion of Dialister correlates with elevated plasma kynurenine:tryptophan ratios in depression
+ - This shift drives quinolinic acid accumulation in the CNS, contributing to excitotoxicity
 
 ## Oral Health and Periodontitis
 
@@ -121,14 +121,14 @@ pathogenic_potential: commensal
 ## Connections
 
 - [[depression]] – one of the strongest protective depleted taxa; depletion a biomarker of depressive disorder
-- [[anxiety]] – depleted in anxiety disorders; shared mechanistic link via vagal signaling
+- – depleted in anxiety disorders; shared mechanistic link via vagal signaling
 - [[gut-brain-axis]] – core component of psychobiotic research; succinate and SCFA pathways
-- [[periodontitis]] – depleted in active periodontal disease; shared dysbiosis with oral pathogens
-- [[succinate]] – primary producer; succinate supplementation partially rescues depression phenotype
+- – depleted in active periodontal disease; shared dysbiosis with oral pathogens
+- – primary producer; succinate supplementation partially rescues depression phenotype
 - [[short-chain-fatty-acids]] – co-produces lactate and succinate; contributes to butyrate-producing ecosystem
 - [[iron]] – iron-dependent fermentation; iron overload may impair Dialister persistence
 - [[inflammation]] – loss increases neuroinflammation via altered LPS and microglia activation
-- [[kynurenine-pathway]] – Dialister protects against tryptophan shunting into neurotoxic pathway
+- – Dialister protects against tryptophan shunting into neurotoxic pathway
 - [[veillonella]] – genus family member; shared metabolic pathway
 - [[blautia]] – frequently co-enriched in healthy microbiota
 - [[dysbiosis]] – Dialister depletion is a key dysbiosis marker across multiple conditions

@@ -56,7 +56,6 @@ The leading bacterial cause of diarrheal disease worldwide, with an estimated 40
 
 *C. jejuni* demonstrates that [NiFe] hydrogenase alone -- without urease -- can be sufficient for nickel-dependent pathogenesis when the ecological niche does not require acid neutralization. This contrasts with [[helicobacter-pylori]] (urease + hydrogenase), [[salmonella-typhimurium]] (four hydrogenases), and [[shigella-flexneri]] (hydrogenase for phagolysosomal acid combat). The pathogen's niche determines which Ni-enzymes are essential.
 
-
 ## Key Sources
 
 - [[zhu-2024-toxic-essential-metals-gut-microbiota]]

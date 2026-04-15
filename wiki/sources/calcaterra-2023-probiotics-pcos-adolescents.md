@@ -22,13 +22,13 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Narrative review of 56 full-text articles from PubMed, Scopus, and Web of Science (last 20 years)
-- **Key topics reviewed**:
-  - PCOS diagnostic criteria in adolescents (NIH vs Rotterdam; three international consensus recommendations favor NIH criteria for adolescents)
-  - Two principal hypotheses for dysbiosis in PCOS: (1) high-fat/carbohydrate diet alters gut epithelium and immune activation; (2) hyperandrogenism directly alters gut microbiome via testosterone as substrate for gut enzymes
-  - Reduced alpha diversity consistently found in PCOS vs controls
-  - Probiotic strains studied: Lactobacillus (acidophilus, plantarum, fermentum, gasseri), Bifidobacterium
-  - Meta-analyses show probiotic supplementation reduces FPG, fasting insulin, HOMA-IR, TG; increases SHBG and NO
-  - Synbiotic group in one study showed 8% BMI reduction and 32% testosterone reduction vs placebo
+
+ - PCOS diagnostic criteria in adolescents (NIH vs Rotterdam; three international consensus recommendations favor NIH criteria for adolescents)
+ - Two principal hypotheses for dysbiosis in PCOS: (1) high-fat/carbohydrate diet alters gut epithelium and immune activation; (2) hyperandrogenism directly alters gut microbiome via testosterone as substrate for gut enzymes
+ - Reduced alpha diversity consistently found in PCOS vs controls
+ - Probiotic strains studied: Lactobacillus (acidophilus, plantarum, fermentum, gasseri), Bifidobacterium
+ - Meta-analyses show probiotic supplementation reduces FPG, fasting insulin, HOMA-IR, TG; increases SHBG and NO
+ - Synbiotic group in one study showed 8% BMI reduction and 32% testosterone reduction vs placebo
 - **Limitations**: Most evidence from adult women; adolescent-specific studies are lacking
 
 # Connections

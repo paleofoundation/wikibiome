@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Case-control, Changhai Hospital, Shanghai
 - **Participants**: 12 patients with stage 3/4 endometriosis and 12 healthy controls
 - **Methods**: 16S rRNA V3-V4 sequencing of stool, serum hormone and cytokine panel (Bio-Plex)
-- **Key results**:
-  - 3D-PCoA showed significant separation (R=0.2616, P=0.001)
-  - LH, FSH, PRL not significantly different; E2 significantly higher in EM group
-  - *Bifidobacterium* significantly increased (p=0.01529); *Blautia* significantly increased (p=0.000308)
-  - *Lachnospira* significantly decreased (p=0.00007631)
-  - Correlation heatmaps showed *Blautia* and *Dorea* positively correlated with E2 and PRL
+
+ - 3D-PCoA showed significant separation (R=0.2616, P=0.001)
+ - LH, FSH, PRL not significantly different; E2 significantly higher in EM group
+ - *Bifidobacterium* significantly increased (p=0.01529); *Blautia* significantly increased (p=0.000308)
+ - *Lachnospira* significantly decreased (p=0.00007631)
+ - Correlation heatmaps showed *Blautia* and *Dorea* positively correlated with E2 and PRL
 
 # Relevance to Wiki
 

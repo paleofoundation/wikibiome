@@ -220,52 +220,121 @@ function getJsonLd(page, url) {
       '@type': 'WebSite',
       'name': 'WikiBiome',
       'url': DOMAIN
-    }
+    },
+    'inLanguage': 'en',
   };
 
-  if (page.type === 'entity' && (page.subtype === 'microbe' || page.subtype === 'fungus')) {
+  const dateModified = page.updated || page.created || '2026-04-10';
+
+  // Disease entity pages — MedicalCondition + MedicalWebPage
+  if (page.type === 'entity' && page.subtype === 'disease') {
+    const condName = getPageTitle(page);
+    const sigKey = (page.id || '').replace(/^disease-/, '') + '-signature';
+    const sig = CONTENT.signatures?.[sigKey] || null;
+    const jsonLd = {
+      ...base,
+      '@type': ['MedicalWebPage', 'Article'],
+      'name': condName,
+      'headline': `${condName} — Microbiome & Metallomic Associations`,
+      'description': getPageDescription(page),
+      'dateModified': dateModified,
+      'about': {
+        '@type': 'MedicalCondition',
+        'name': condName,
+        ...(page.frontmatter?.icd_10 ? { 'code': { '@type': 'MedicalCode', 'code': page.frontmatter.icd_10, 'codingSystem': 'ICD-10' } } : {}),
+        ...(page.frontmatter?.global_prevalence ? { 'epidemiology': page.frontmatter.global_prevalence } : {}),
+      },
+      'citation': (page.sources || []).slice(0, 10).map(s => {
+        const sp = CONTENT.pages.find(p => p.id === s);
+        if (!sp) return null;
+        return {
+          '@type': 'ScholarlyArticle',
+          'name': sp.title || s,
+          ...(sp.frontmatter?.doi && sp.frontmatter.doi !== 'not yet verified' ? { 'url': sp.frontmatter.doi.startsWith('http') ? sp.frontmatter.doi : `https://doi.org/${sp.frontmatter.doi}` } : {}),
+          ...(sp.frontmatter?.authors ? { 'author': sp.frontmatter.authors.map(a => ({ '@type': 'Person', 'name': a })) } : {}),
+          ...(sp.frontmatter?.year ? { 'datePublished': String(sp.frontmatter.year) } : {}),
+          ...(sp.frontmatter?.journal ? { 'isPartOf': { '@type': 'Periodical', 'name': sp.frontmatter.journal } } : {}),
+        };
+      }).filter(Boolean),
+    };
+    // Add associated conditions
+    if (page.frontmatter?.associated_conditions) {
+      jsonLd.about.relatedCondition = Object.keys(page.frontmatter.associated_conditions).map(c => ({
+        '@type': 'MedicalCondition',
+        'name': c.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+      }));
+    }
+    return jsonLd;
+  }
+
+  // Microbe/fungus/archaeon entity pages
+  if (page.type === 'entity' && ['microbe', 'fungus', 'archaeon'].includes(page.subtype)) {
     return {
       ...base,
-      '@type': 'Article',
+      '@type': ['Article', 'MedicalWebPage'],
       'name': getPageTitle(page),
-      'headline': `${getPageTitle(page)} — Microbiome Metallomics`,
+      'headline': `${getPageTitle(page)} — Microbiome Role & Metal Dependencies`,
       'description': getPageDescription(page),
+      'dateModified': dateModified,
       'about': {
         '@type': 'Thing',
         'name': getPageTitle(page),
-        'description': `Microorganism involved in human microbiome metallomics`
+        'description': `Microorganism in the human microbiome with documented metal dependencies and roles in health and disease`,
+        'additionalType': 'https://www.wikidata.org/wiki/Q36747', // microorganism
       },
-      'dateModified': page.updated || page.created || '2026-04-10',
     };
   }
 
+  // Metal entity pages — ChemicalSubstance
   if (page.type === 'entity' && page.subtype === 'metal') {
     return {
       ...base,
       '@type': 'Article',
       'name': getPageTitle(page),
-      'headline': `${getPageTitle(page)} — Heavy Metal Biology & Microbiome Impact`,
+      'headline': `${getPageTitle(page)} — Biological Roles & Microbiome Impact`,
       'description': getPageDescription(page),
+      'dateModified': dateModified,
       'about': {
         '@type': 'ChemicalSubstance',
         'name': getPageTitle(page),
+        ...(page.frontmatter?.symbol ? { 'alternateName': page.frontmatter.symbol } : {}),
       },
-      'dateModified': page.updated || page.created || '2026-04-10',
     };
   }
 
+  // Signature pages — MedicalScholarlyArticle
   if (page.type === 'signature') {
+    const condName = getPageTitle(page).replace(/ Microbiome Signature$/, '').replace(/ Metallomic Signature$/, '');
     return {
       ...base,
       '@type': 'MedicalScholarlyArticle',
       'name': getPageTitle(page),
-      'headline': `${getPageTitle(page)} — Microbiome Signature`,
+      'headline': `${condName} — Metallomic & Taxonomic Microbiome Signature`,
       'description': getPageDescription(page),
+      'dateModified': dateModified,
       'about': {
         '@type': 'MedicalCondition',
-        'name': getPageTitle(page).replace(' Microbiome Signature', ''),
+        'name': condName,
       },
-      'dateModified': page.updated || page.created || '2026-04-10',
+      'publicationType': 'Review',
+    };
+  }
+
+  // Source pages — ScholarlyArticle
+  if (page.type === 'source') {
+    const doi = page.frontmatter?.doi;
+    return {
+      ...base,
+      '@type': 'ScholarlyArticle',
+      'name': getPageTitle(page),
+      'headline': getPageTitle(page),
+      'description': getPageDescription(page),
+      'dateModified': dateModified,
+      ...(page.frontmatter?.authors ? { 'author': page.frontmatter.authors.map(a => ({ '@type': 'Person', 'name': a })) } : {}),
+      ...(page.frontmatter?.year ? { 'datePublished': String(page.frontmatter.year) } : {}),
+      ...(page.frontmatter?.journal ? { 'isPartOf': { '@type': 'Periodical', 'name': page.frontmatter.journal } } : {}),
+      ...(doi && doi !== 'not yet verified' ? { 'sameAs': doi.startsWith('http') ? doi : `https://doi.org/${doi}` } : {}),
+      ...(page.frontmatter?.evidence_level ? { 'learningResourceType': page.frontmatter.evidence_level } : {}),
     };
   }
 
@@ -276,7 +345,7 @@ function getJsonLd(page, url) {
     'name': getPageTitle(page),
     'headline': `${getPageTitle(page)} — WikiBiome`,
     'description': getPageDescription(page),
-    'dateModified': page.updated || page.created || '2026-04-10',
+    'dateModified': dateModified,
   };
 }
 
@@ -597,6 +666,7 @@ function generateRobotsTxt() {
 Allow: /
 
 Sitemap: ${DOMAIN}/sitemap.xml
+Sitemap: ${DOMAIN}/sitemap-full.xml
 `;
 }
 
@@ -673,18 +743,47 @@ for (const [cat, pages] of Object.entries(categories)) {
 console.log(`  Generated: ${catCount} category pages`);
 
 // 4. Special pages (signatures, explore, matrix)
-for (const special of ['signatures', 'explore', 'matrix']) {
+for (const special of ['signatures', 'explore', 'matrix', 'tags', 'about', 'privacy', 'terms', 'contact', 'support', 'submit', 'vote', 'compare', 'outreach']) {
   const specialDir = path.join(DIST_DIR, special);
   if (!fs.existsSync(specialDir)) fs.mkdirSync(specialDir, { recursive: true });
   // Copy the main index.html for SPA fallback — these are interactive and don't benefit as much from static HTML
   fs.copyFileSync(path.join(DIST_DIR, 'index.html'), path.join(specialDir, 'index.html'));
-  urls.push({ path: `/${special}`, priority: special === 'signatures' ? '0.8' : '0.4', changefreq: 'weekly' });
+  const prio = special === 'signatures' ? '0.8' : ['about', 'support', 'submit'].includes(special) ? '0.6' : '0.4';
+  urls.push({ path: `/${special}`, priority: prio, changefreq: 'monthly' });
 }
-console.log('  Generated: 3 special pages (signatures, explore, matrix)');
+console.log('  Generated: 13 special pages (signatures, explore, matrix, tags, about, privacy, terms, contact, support, submit, vote, compare, outreach)');
 
-// 5. Sitemap
-fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), generateSitemap(urls));
-console.log(`  Generated: sitemap.xml (${urls.length} URLs)`);
+// 5. Sitemaps — focused flagship + full
+// Strategy: a new domain with no backlinks cannot get 270 URLs crawled. We submit
+// a tiny flagship sitemap so Google spends crawl budget on the pages that matter.
+// The full sitemap stays available for discovery but is deprioritized.
+const FLAGSHIP_SLUGS = new Set([
+  // Signatures (priority 1.0 — most commercially and narratively important)
+  'cerebral-palsy', 'depression', 'erectile-dysfunction', 'fibromyalgia',
+  'necrotizing-enterocolitis', 'pmdd', 'female-infertility',
+  // Metal anchors
+  'lead', 'cadmium', 'mercury', 'arsenic', 'nickel', 'iron', 'zinc', 'copper',
+  // Microbe anchors (highest-traffic search potential)
+  'escherichia-coli', 'candida-albicans', 'akkermansia-muciniphila',
+  'bacteroides-fragilis', 'fusobacterium-nucleatum', 'pseudomonas-aeruginosa',
+  // Concept anchors
+  'nutritional-immunity', 'heavy-metals', 'mis-metallation',
+]);
+const FLAGSHIP_PATHS = new Set([
+  '/', '/signatures',
+  '/category/signature', '/category/metal', '/category/microbe', '/category/disease',
+  ...Array.from(FLAGSHIP_SLUGS).map(s => `/article/${s}`),
+]);
+
+const flagshipUrls = urls
+  .filter(u => FLAGSHIP_PATHS.has(u.path))
+  .map(u => ({ ...u, priority: u.path === '/' ? '1.0' : '0.9', changefreq: 'daily' }));
+
+fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), generateSitemap(flagshipUrls));
+console.log(`  Generated: sitemap.xml — FLAGSHIP (${flagshipUrls.length} URLs)`);
+
+fs.writeFileSync(path.join(DIST_DIR, 'sitemap-full.xml'), generateSitemap(urls));
+console.log(`  Generated: sitemap-full.xml (${urls.length} URLs)`);
 
 // 6. Robots.txt
 fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), generateRobotsTxt());

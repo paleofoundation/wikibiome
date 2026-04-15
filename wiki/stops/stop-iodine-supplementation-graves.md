@@ -34,7 +34,7 @@ The metallomic and immunological evidence reveals a dangerous paradox:
 
 **The dose-response is U-shaped.** Both iodine deficiency AND excess trigger thyroid autoimmunity. Populations with high iodine intake show increased rates of autoimmune thyroid disease, contradicting the "more is better" assumption [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
 
-**Iodine excess disrupts gut microbiota.** High iodine intake has been shown to shift microbial composition toward increased [[enterobacteriaceae|Proteobacteria]] and decreased [[lactobacillus|Lactobacillus]] and [[bifidobacterium|Bifidobacterium]] — the same dysbiotic pattern observed in Graves' disease signatures. This creates a feed-forward loop where iodine supplementation worsens the gut-thyroid axis dysfunction [[gong-2024-iodine-gut-microbiota-hashimotos]].
+**Iodine excess disrupts gut microbiota.** High iodine intake has been shown to shift microbial composition toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] and [[bifidobacterium|Bifidobacterium]] — the same dysbiotic pattern observed in Graves' disease signatures. This creates a feed-forward loop where iodine supplementation worsens the gut-thyroid axis dysfunction [[gong-2024-iodine-gut-microbiota-hashimotos]].
 
 **Selenium depletion compounds the problem.** Iodine metabolism requires selenium-dependent enzymes (deiodinases, glutathione peroxidases). Supplementing iodine without adequate selenium accelerates oxidative damage to thyroid tissue [[brock-2015-selenium-thyroid-autoimmunity]].
 

@@ -36,7 +36,7 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 ### Butyrate Synthesis Pathway
 
 - Oscillospiraceae use the **acetyl-CoA pathway** for butyrate synthesis:
-  - Two acetyl-CoA molecules → acetoacetyl-CoA (via thiophorase) → butyryl-CoA (via butyryl-CoA dehydrogenase) → butyrate
+ - Two acetyl-CoA molecules → acetoacetyl-CoA (via thiophorase) → butyryl-CoA (via butyryl-CoA dehydrogenase) → butyrate
 - This is distinct from the phosphotransferase system (PTS) used by Roseburia and Faecalibacterium, which utilize lactate or glucose-derived substrates.
 - Oscillospiraceae ferment diverse carbohydrate substrates (cellulose, hemicellulose, inulin, resistant starch) when available.
 
@@ -92,23 +92,23 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 ### Fastidiousness and Culture Challenges
 
 - Oscillospiraceae are **difficult to culture** in standard media. Most isolates require:
-  - Complex anaerobic conditions (< 0.1% O2; often using Hungate tubes or anaerobic chambers).
-  - Specific substrates (cellulose, resistant starch, inulin).
-  - Refined medium compositions (YCFA - yeast casitone fatty acid medium, or similar).
-  - Extended incubation periods (7-14 days).
+ - Complex anaerobic conditions (< 0.1% O2; often using Hungate tubes or anaerobic chambers).
+ - Specific substrates (cellulose, resistant starch, inulin).
+ - Refined medium compositions (YCFA - yeast casitone fatty acid medium, or similar).
+ - Extended incubation periods (7-14 days).
 - **Result**: Limited representation in culture collections; fewer genetic tools available compared to model organisms like *E. coli* or *Faecalibacterium prausnitzii*.
 
 ### Next-Generation Probiotic Candidates
 
 - Multiple research groups are isolating and characterizing Oscillospiraceae strains for probiotic development.
-- **Advantages**:
-  - High butyrate production; validated metabolic function.
-  - Already resident in healthy microbiota (not xenobiotic); familiar to host immune system.
-  - No known pathogenic potential (unlike some Bacillus or Clostridium strains).
-- **Challenges**:
-  - Fragility in storage and formulation; oxygen sensitivity.
-  - Heterogeneous strain performance; some isolates more fit than others.
-  - Regulatory pathway undefined (new genera for probiotics; not yet FDA-approved as dietary supplement or biotherapeutic).
+
+ - High butyrate production; validated metabolic function.
+ - Already resident in healthy microbiota (not xenobiotic); familiar to host immune system.
+ - No known pathogenic potential (unlike some Bacillus or Clostridium strains).
+
+ - Fragility in storage and formulation; oxygen sensitivity.
+ - Heterogeneous strain performance; some isolates more fit than others.
+ - Regulatory pathway undefined (new genera for probiotics; not yet FDA-approved as dietary supplement or biotherapeutic).
 
 ## Ecological Context and Community Function
 
@@ -143,13 +143,13 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 ## Connections
 
 - [[butyrate]] -- primary metabolite; essential fuel for colonocytes and HDAC inhibitor
-- [[scfa]] -- short-chain fatty acid producer; GPR43/GPR109A signaling links to immune homeostasis
-- [[regulatory-t-cells]] -- butyrate-driven IL-10-producing Tregs; Th17 suppression
-- [[nutritional-immunity|barrier-function]] -- SCFA-driven tight junction protein expression and epithelial energetics
+- -- short-chain fatty acid producer; GPR43/GPR109A signaling links to immune homeostasis
+- -- butyrate-driven IL-10-producing Tregs; Th17 suppression
+- [[nutritional-immunity|nutritional immunity]] -- SCFA-driven tight junction protein expression and epithelial energetics
 - [[obesity]] -- consistently depleted; marker and possible contributor to dysbiosis
 - [[inflammatory-bowel-disease]] -- depleted in IBD; disease activity correlates with reduced abundance
 - [[colorectal-cancer]] -- depleted in CRC tissue; reduced SCFA linked to chronic colonic inflammation
 - [[dysbiosis]] -- depletion is hallmark of multiple disease-associated dysbiotic states
 - [[iron]] -- essential cofactor; iron bioavailability influences competitive dynamics
 - [[zinc]] -- essential cofactor; metal availability may modulate Oscillospiraceae fitness
-- [[next-generation-probiotics]] -- prime candidate for therapeutic development due to metabolic function and safety profile
+- -- prime candidate for therapeutic development due to metabolic function and safety profile

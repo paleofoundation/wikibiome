@@ -1,15 +1,41 @@
 ---
-
 title: "Interaction of Heavy Metal Lead with Gut Microbiota: Implications for Autism Spectrum Disorder"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Tizabi Y, Bennani S, El Kouhen N, Getachew B, Aschner M]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Tizabi Y
+  - Bennani S
+  - El Kouhen N
+  - Getachew B
+  - Aschner M
 journal: Biomolecules
 year: 2023
-tags: [lead, gut-microbiota, autism, gut-brain-axis, neurotoxicity, dysbiosis, probiotics, SCFAs, neuroinflammation]
-doi: "10.1590/0001-37652022202294S4"
+tags:
+  - lead
+  - gut-microbiota
+  - autism
+  - gut-brain-axis
+  - neurotoxicity
+  - dysbiosis
+  - probiotics
+  - SCFAs
+  - neuroinflammation
+doi: 10.1590/0001-37652022202294S4
 platform: wikibiome
+karen_brain_primitives:
+  - 1
+  - 5
+metals_discussed:
+  - lead
+taxa_discussed: []
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Links lead exposure to autism-spectrum gut dysbiosis via specific taxa shifts — Faecalibacterium depletion, Lactobacillus loss, Desulfovibrio enrichment — consistent with the broader ASD microbial signature. Anchors lead as a metal driver of the autism signature and contributes to the cross-condition pattern in which Pb recurs across neurodevelopmental and neurodegenerative conditions.
 ---
 
 # Key Claims
@@ -28,14 +54,14 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Narrative review covering ASD neurobiology, gut microbiota, gut-brain axis, SCFAs, and Pb-GM-ASD interactions
-- **Key pathways reviewed**:
-  1. ASD neurobiological substrates (brain regions: amygdala, OFC, TPC, insula)
-  2. Neurotransmitter dysfunction (GABA, glutamate, serotonin, dopamine, acetylcholine)
-  3. Neuroinflammation and microglia activation
-  4. Gut microbiota composition differences in ASD (increased Bacteroides, Parabacteroides, Faecalibacterium, Clostridium; decreased Coprococcus, Bifidobacterium)
-  5. SCFAs and BBB integrity
-  6. Pb neurotoxicity mechanisms (Ca displacement, neuroinflammation, mitochondrial damage, BBB disruption)
-  7. Pb-microbiota interactions and time-dependent dysbiosis
+
+ 1. ASD neurobiological substrates (brain regions: amygdala, OFC, TPC, insula)
+ 2. Neurotransmitter dysfunction (GABA, glutamate, serotonin, dopamine, acetylcholine)
+ 3. Neuroinflammation and microglia activation
+ 4. Gut microbiota composition differences in ASD (increased Bacteroides, Parabacteroides, Faecalibacterium, Clostridium; decreased Coprococcus, Bifidobacterium)
+ 5. SCFAs and BBB integrity
+ 6. Pb neurotoxicity mechanisms (Ca displacement, neuroinflammation, mitochondrial damage, BBB disruption)
+ 7. Pb-microbiota interactions and time-dependent dysbiosis
 - **Therapeutic targets reviewed**: Receptor stimulation (alpha7 nAChR agonists), SCFA manipulation (butyrate), GM manipulation (pre/probiotics, FMT), Pb toxicity control (chelation, antioxidants)
 
 # Connections

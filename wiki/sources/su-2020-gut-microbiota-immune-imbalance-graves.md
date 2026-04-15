@@ -1,14 +1,40 @@
 ---
-
-title: "Alteration in gut microbiota is associated with immune imbalance in Graves' disease"
+title: Alteration in gut microbiota is associated with immune imbalance in Graves' disease
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Su X, Yin X, Liu Y, Yan X, Zhang S, Wang X, Lin Z, Zhou X, Gao J, Wang Z, Zhang Q]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Su X
+  - Yin X
+  - Liu Y
+  - Yan X
+  - Zhang S
+  - Wang X
+  - Lin Z
+  - Zhou X
+  - Gao J
+  - Wang Z
+  - Zhang Q
 journal: Journal of Science and Medicine
 year: 2020
-doi: "10.1016/j.ebiom.2020.102952"
-tags: [graves-disease, thyroid, autoimmune, gut-microbiota, immune-imbalance, 16S-rRNA, metagenomics, Bacteroides, Prevotella, Alistipes, CD4, Th1, Th2, dysbiosis, LPS, gut-permeability]
+doi: 10.1016/j.ebiom.2020.102952
+tags:
+  - graves-disease
+  - thyroid
+  - autoimmune
+  - gut-microbiota
+  - immune-imbalance
+  - 16S-rRNA
+  - metagenomics
+  - Bacteroides
+  - Prevotella
+  - Alistipes
+  - CD4
+  - Th1
+  - Th2
+  - dysbiosis
+  - LPS
+  - gut-permeability
 platform: wikibiome
 ---
 

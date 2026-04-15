@@ -25,10 +25,10 @@ platform: wikibiome
 
 - **Type**: Comparative metagenomic study (mouse + human data)
 - **Design**: Two-stage study -- (1) mouse experiment with dietary intervention (normal, high-fat, high-fiber) for 14 days, (2) human metagenomic data from 103 individuals
-- **Key mouse findings**:
-  - High-fat group: *Alistipes* decreased from 28.71% to 4.85%, *Bacteroides* from 7.81% to 2.88%
-  - *Lactococcus*, *Enterococcus*, *Anaerotruncus*, *Escherichia* identified as biomarkers in high-fat group
-  - Vancomycin and capsule-related VGs linked to dietary changes
+
+ - High-fat group: *Alistipes* decreased from 28.71% to 4.85%, *Bacteroides* from 7.81% to 2.88%
+ - *Lactococcus*, *Enterococcus*, *Anaerotruncus*, *Escherichia* identified as biomarkers in high-fat group
+ - Vancomycin and capsule-related VGs linked to dietary changes
 - **Human validation**: Obese individuals showed higher resistome diversity; obesity group had distinct ARG profiles
 
 ## Source Pages
@@ -38,5 +38,5 @@ pp. 1-8
 ## Connections
 
 - Relevant to [[cardiovascular disease]] risk through diet-microbiome-AMR axis
-- Links to [[gut dysbiosis]] and metabolic disease
-- Implications for [[antibiotic resistance]] management via dietary interventions
+- Links to and metabolic disease
+- Implications for management via dietary interventions

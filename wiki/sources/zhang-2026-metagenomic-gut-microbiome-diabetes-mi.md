@@ -10,6 +10,7 @@ year: 2026
 doi: 10.1007/s00592-026-02648-x
 tags: [cardiovascular-disease, shotgun-metagenomics, type-2-diabetes, myocardial-infarction, comorbidities, microbial-biomarkers, KEGG, random-forest, Bacteroidales, Prevotellaceae]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # A Metagenomic Study of the Gut Microbiome in Patients with Type 2 Diabetes Mellitus and Myocardial Infarction

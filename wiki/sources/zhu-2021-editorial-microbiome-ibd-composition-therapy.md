@@ -10,6 +10,7 @@ year: 2021
 tags: [crohns-disease, IBD, microbiome, therapy, drug-repurposing, metformin, FMT, Akkermansia-muciniphila, berberine, editorial]
 doi: "10.3389/fphar.2021.721992"
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

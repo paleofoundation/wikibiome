@@ -37,10 +37,10 @@ platform: wikibiome
 ## Connections
 
 - [[Low-nickel diet]] -- essential reference for dietary planning and food selection
-- [[Nickel in food]] -- the most comprehensive per-serving nickel database identified
-- [[Systemic nickel allergy syndrome]] -- dietary nickel triggers relevant to SNAS management
+- -- the most comprehensive per-serving nickel database identified
+- -- dietary nickel triggers relevant to SNAS management
 - [[Dietary nickel exposure]] -- enables calculation of daily intake from specific meal patterns
 - [[flyvholm-1984-nickel-food-content]] -- earlier Danish dataset; this updates and vastly expands it
 - [[mania-2020-nickel-cereal-grains-poland]] -- cereal-specific data corroborates buckwheat/millet findings
 - [[pendergrass-2026-nickel-nec-preterm-gut]] -- soy formula nickel content relevant to NEC hypothesis
-- [[Soy products]] -- consistently highest nickel category, relevant to infant formula and vegetarian diets
+- -- consistently highest nickel category, relevant to infant formula and vegetarian diets

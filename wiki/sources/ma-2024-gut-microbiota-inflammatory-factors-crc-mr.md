@@ -32,7 +32,7 @@ platform: wikibiome
 ## Connections
 
 - Complements [[long-2023-causal-gut-microbiota-cancers-mr]] with specific inflammatory mediator analysis
-- IL-10 causality adds mechanistic insight to [[microbiome-and-inflammation]] in CRC
+- IL-10 causality adds mechanistic insight to in CRC
 - *Lachnospiraceae* protective associations connect to findings in [[suga-2022-gut-microbiota-sided-crc-colectomy]] and [[shi-2023-appendectomy-microbiome-crc]]
-- Integrates [[mendelian-randomization]] with inflammatory cytokine pathways for CRC prevention strategies
+- Integrates with inflammatory cytokine pathways for CRC prevention strategies
 - [[colorectal-cancer]]

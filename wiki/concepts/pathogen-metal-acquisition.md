@@ -171,7 +171,6 @@ The interplay between host metal restriction and pathogen metal acquisition dete
 
 **The environmental dimension**: When dietary or environmental metal exposure exceeds the host's sequestration capacity (e.g., nickel from soy formula in preterm infants [[pendergrass-2026-nickel-nec-preterm-gut]]), the pathogen's acquisition systems become less important -- metals are freely available. The arms race shifts decisively in the pathogen's favor.
 
-
 ## Key Sources
 
 - [[patil-2021-infection-metallomics-critical-care]]

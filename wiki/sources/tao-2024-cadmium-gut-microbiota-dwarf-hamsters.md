@@ -1,15 +1,39 @@
 ---
-
-title: "Cadmium Exposure Induces Changes in Gut Microbial Composition and Metabolic Function in Long-Tailed Dwarf Hamsters, Cricetulus longicaudatus"
+title: Cadmium Exposure Induces Changes in Gut Microbial Composition and Metabolic Function in Long-Tailed Dwarf Hamsters, Cricetulus longicaudatus
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Mengfan Tao, Kanglin Cao, Xinsheng Pu, Yu Hou, Lei He, Wei Liu, Yue Ren, Xingen Yang]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Mengfan Tao
+  - Kanglin Cao
+  - Xinsheng Pu
+  - Yu Hou
+  - Lei He
+  - Wei Liu
+  - Yue Ren
+  - Xingen Yang
 journal: Ecology and Evolution
 year: 2024
-tags: [cadmium, gut-microbiota, wild-rodents, 16S-rRNA, metagenomics, dose-response, Cricetulus-longicaudatus, pathogenic-bacteria, metabolic-function, original-research]
-doi: "10.1002/ece3.11428"
+tags:
+  - cadmium
+  - gut-microbiota
+  - wild-rodents
+  - 16S-rRNA
+  - metagenomics
+  - dose-response
+  - Cricetulus-longicaudatus
+  - pathogenic-bacteria
+  - metabolic-function
+  - original-research
+doi: 10.1002/ece3.11428
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Demonstrates dose-dependent cadmium-induced dysbiosis in wild rodents with pathogenic enrichment and collapse of >50% of microbial metabolic pathways, confirming that Cd-driven dysbiosis is an ecologically robust phenomenon outside the lab. Strengthens the ecological case for WikiBiome's cadmium-microbiome mechanism beyond controlled feeding studies.
 ---
 
 # Key Claims

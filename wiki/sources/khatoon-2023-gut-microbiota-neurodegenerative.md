@@ -22,20 +22,20 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Review of mechanisms and evidence for gut microbiota involvement in AD, PD, ALS, and HD
-- **Mechanisms of gut microbiota effects on neurodegeneration**:
-  - **BBB dysfunction**: LPS administration in germ-free mice reduced BBB permeability; microglia activation by LPS induced neuroinflammation; TMAO shown to traverse BBB and found at increased levels in CSF of cognitively impaired AD patients
-  - **Tryptophan metabolism**: Gut bacteria play crucial role in tryptophan metabolism via indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), and indole-3-aldehyde; kynurenine pathway dysregulation linked to neurodegeneration
-  - **SCFAs**: Influence cellular processes via G-protein coupled receptors; affect histone deacetylase activation; impact epithelium integrity and neural function; butyrate protective against neuroinflammation
-  - **Nervous system modification**: Vagus nerve is most direct gut-brain link; vagotomy studies confirm role; IFN-1 signaling pathway important for GM-immune interactions
-- **Microbiota changes in specific NDDs (Table 1)**:
-  - **AD (human)**: Increased H. pylori, Escherichia/Shigella, K. pneumoniae, B. fragilis; decreased B. hungatei, B. proteoclasticus, Eubacterium rectale, Bacteroides
-  - **PD (human)**: Increased Verrucomicrobia, Mucispirillum, Porphyromonas, Lactobacillus; decreased Lactococcus spp., Blautia, Roseburia, Fecalibacterium
-  - **ALS (human)**: Increased Bacteroidetes; decreased Firmicutes
-  - **HD**: Increased Intestinimonas; decreased Bilophila
-- **Therapeutic interventions (Table 2)**:
-  - Probiotic administration (various Lactobacillus and Bifidobacterium strains) showed reduction in pro-inflammatory cytokines, increased BDNF, enhanced cognitive function in both human and animal studies
-  - FMT in APP/PS1 transgenic mice ameliorated amyloid-beta plaques, neurofibrillary tangles, and glial activation
-  - Bifidobacterium breve A1 capsule showed significant RBANS and MMSE changes after 12 weeks in AD patients
+
+ - **BBB dysfunction**: LPS administration in germ-free mice reduced BBB permeability; microglia activation by LPS induced neuroinflammation; TMAO shown to traverse BBB and found at increased levels in CSF of cognitively impaired AD patients
+ - **Tryptophan metabolism**: Gut bacteria play crucial role in tryptophan metabolism via indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), and indole-3-aldehyde; kynurenine pathway dysregulation linked to neurodegeneration
+ - **SCFAs**: Influence cellular processes via G-protein coupled receptors; affect histone deacetylase activation; impact epithelium integrity and neural function; butyrate protective against neuroinflammation
+ - **Nervous system modification**: Vagus nerve is most direct gut-brain link; vagotomy studies confirm role; IFN-1 signaling pathway important for GM-immune interactions
+
+ - **AD (human)**: Increased H. pylori, Escherichia/Shigella, K. pneumoniae, B. fragilis; decreased B. hungatei, B. proteoclasticus, Eubacterium rectale, Bacteroides
+ - **PD (human)**: Increased Verrucomicrobia, Mucispirillum, Porphyromonas, Lactobacillus; decreased Lactococcus spp., Blautia, Roseburia, Fecalibacterium
+ - **ALS (human)**: Increased Bacteroidetes; decreased Firmicutes
+ - **HD**: Increased Intestinimonas; decreased Bilophila
+
+ - Probiotic administration (various Lactobacillus and Bifidobacterium strains) showed reduction in pro-inflammatory cytokines, increased BDNF, enhanced cognitive function in both human and animal studies
+ - FMT in APP/PS1 transgenic mice ameliorated amyloid-beta plaques, neurofibrillary tangles, and glial activation
+ - Bifidobacterium breve A1 capsule showed significant RBANS and MMSE changes after 12 weeks in AD patients
 
 # Connections
 

@@ -41,5 +41,5 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- social robotics as therapeutic intervention
-- [[social-communication]] -- robot-assisted improvement in social behaviors
-- [[behavioral-interventions]] -- technology-based approaches to ASD therapy
+- -- robot-assisted improvement in social behaviors
+- -- technology-based approaches to ASD therapy

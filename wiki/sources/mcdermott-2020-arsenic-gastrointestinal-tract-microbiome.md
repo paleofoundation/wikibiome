@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- The [[gut-metal-microbiome|GIT microbiome]] can play a significant role in determining the fate, mobility, and toxicity of [[Arsenic Toxicity|arsenic]], whether inhaled or ingested
+- The [[gut-metal-microbiome|GIT microbiome]] can play a significant role in determining the fate, mobility, and toxicity of [[arsenic]], whether inhaled or ingested
 - Microbe-arsenic interactions in the GIT include resistance/extrusion (ars genes), methylation (arsM), oxidation (aioAB/arxAB), reduction (arsC/arrAB), and thiolation
 - The variability in arsenicosis symptoms among individuals sharing similar exposure may be partly explained by differences in GIT [[microbiome composition]]
 - Arsenic resistance via ArsB/Acr3 extrusion is the most common microbial response, but its relevance to the GIT is neutral with respect to host toxicity
@@ -38,4 +38,4 @@ platform: wikibiome
 - Arsenic methylation producing toxic MAs(III) connects to [[oxidative-stress|oxidative stress]] pathways and downstream disease risk
 - SRB-mediated thiolation relates to [[desulfovibrio]] and sulfate metabolism in the gut
 - GIT compartment-specific pH and oxygen gradients relevant to [[dysbiosis]] mechanisms following metal exposure
-- Connects to broader [[Environmental Exposures]] and [[Arsenic Toxicity]] entity pages
+- Connects to broader [[Environmental Exposures]] and [[arsenic]] entity pages

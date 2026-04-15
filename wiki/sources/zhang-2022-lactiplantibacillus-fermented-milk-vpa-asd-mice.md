@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, Lactiplantibacillus-plantarum, fermented-milk, 
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: [5]
+metals_discussed: []
+taxa_discussed: ["Lactiplantibacillus"]
+evidence_level: animal-model
 ---
 
 # Key Claims
@@ -42,6 +46,6 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- fermented milk probiotic intervention in ASD model
 - [[probiotics]] -- L. plantarum ST-III as specific probiotic strain for ASD
-- [[valproic-acid]] -- VPA-induced mouse model of autism
-- [[sex-differences]] -- gender-specific treatment responses in ASD
+- -- VPA-induced mouse model of autism
+- -- gender-specific treatment responses in ASD
 - [[gut-microbiome]] -- dietary probiotic modulation of microbial composition

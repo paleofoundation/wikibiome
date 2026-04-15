@@ -11,6 +11,7 @@ tags: [parkinsons-disease, shotgun-metagenomics, chinese-cohort, metagenomic-ana
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
 ---
 
 # Gut Metagenomics of Parkinson's Disease in a Chinese Cohort

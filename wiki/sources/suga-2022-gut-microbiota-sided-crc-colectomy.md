@@ -32,7 +32,7 @@ platform: wikibiome
 ## Connections
 
 - Tumor sidedness differences complement findings in [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] on rectal-specific microbiota
-- Metabolic functional predictions connect to [[metabolic-pathways]] in CRC microbiome research
+- Metabolic functional predictions connect to in CRC microbiome research
 - Post-colectomy microbiome changes have implications for understanding [[comorbidities]] like diabetes that may develop after surgery
-- *Firmicutes* dominance in RCC aligns with broader [[microbiome-composition]] patterns in CRC
+- *Firmicutes* dominance in RCC aligns with broader patterns in CRC
 - [[colorectal-cancer]]

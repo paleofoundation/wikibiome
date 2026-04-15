@@ -34,9 +34,9 @@ A Gram-negative diplococcus that is both a **nasopharyngeal commensal** (carried
 ## Iron Acquisition
 
 - Iron is the most critical metal for meningococcal virulence. *N. meningitidis* has multiple iron acquisition systems [[patil-2021-infection-metallomics-critical-care]]:
-  - **Transferrin-binding proteins (TbpA/TbpB)**: directly strip iron from host transferrin -- a human-specific adaptation.
-  - **Lactoferrin-binding proteins (LbpA/LbpB)**: acquire iron from lactoferrin at mucosal surfaces.
-  - **Hemoglobin/haptoglobin receptors (HmbR, HpuAB)**: access iron from hemoglobin.
+ - **Transferrin-binding proteins (TbpA/TbpB)**: directly strip iron from host transferrin -- a human-specific adaptation.
+ - **Lactoferrin-binding proteins (LbpA/LbpB)**: acquire iron from lactoferrin at mucosal surfaces.
+ - **Hemoglobin/haptoglobin receptors (HmbR, HpuAB)**: access iron from hemoglobin.
 - Iron-regulated gene expression is controlled by Fur; iron limitation is a key signal for virulence factor expression.
 - The bacterium does not produce classical siderophores, relying instead on direct receptor-mediated piracy of host iron-binding proteins.
 
@@ -53,7 +53,6 @@ A Gram-negative diplococcus that is both a **nasopharyngeal commensal** (carried
 - **Epidemic potential**: causes large outbreaks, particularly in the African "meningitis belt." Serogroup A epidemics have been partially controlled by MenAfriVac.
 - **Serogroups**: A, B, C, W, X, Y cause most disease. Vaccines exist for A, C, W, Y (conjugate) and B (protein-based).
 - **Rapid progression**: can kill within hours of symptom onset; empiric treatment (ceftriaxone) must begin immediately on clinical suspicion.
-
 
 ## Key Sources
 

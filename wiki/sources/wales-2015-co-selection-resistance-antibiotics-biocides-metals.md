@@ -12,6 +12,9 @@ pages: "567-604"
 doi: "10.3390/antibiotics4040567"
 tags: [co-selection, co-resistance, cross-resistance, antimicrobial-resistance, heavy-metals, biocides, foodborne-pathogens, copper, zinc, livestock, efflux-pumps, biofilm, Salmonella, E-coli, MRSA, triclosan, quaternary-ammonium-compounds, food-chain, zoonoses]
 platform: wikibiome
+karen_brain_primitives: [1, 6]
+metals_discussed: ["copper", "zinc"]
+taxa_discussed: ["Escherichia", "Salmonella", "Staphylococcus"]
 ---
 
 # Key Claims
@@ -24,28 +27,28 @@ platform: wikibiome
 # Methods/Findings
 
 - **Review scope**: Comprehensive review of co-selection evidence in foodborne pathogen context (38 pages, 89 references; Antibiotics, 2015)
-- **Biocides detailed**:
-  - Triclosan: specific enzyme target (FabI in fatty acid synthesis); exposure selects for *fabI* mutations and upregulation; cross-resistance to antibiotics documented
-  - QACs (quaternary ammonium compounds): multiple membrane targets; QAC tolerance linked to class 1 integrons encoding *qacEA1* plus *sulI* (sulfonamide resistance)
-  - Chlorhexidine: membrane disruption; reduced susceptibility may link to efflux pump upregulation
-- **Heavy metals in agriculture**:
-  - 90% of in-feed Cu and Zn shed in livestock feces (US data)
-  - Livestock may be major source of environmental Cu and Zn contamination
-  - EU: inorganic zinc compounds in young piglets can result in inclusion rates 30x basal requirements
-  - Copper and zinc used therapeutically and as growth promoters in pig and poultry sectors
-  - Other metals in feed: iron, cobalt, manganese; arsenic used as growth promoter in some territories
+
+ - Triclosan: specific enzyme target (FabI in fatty acid synthesis); exposure selects for *fabI* mutations and upregulation; cross-resistance to antibiotics documented
+ - QACs (quaternary ammonium compounds): multiple membrane targets; QAC tolerance linked to class 1 integrons encoding *qacEA1* plus *sulI* (sulfonamide resistance)
+ - Chlorhexidine: membrane disruption; reduced susceptibility may link to efflux pump upregulation
+
+ - 90% of in-feed Cu and Zn shed in livestock feces (US data)
+ - Livestock may be major source of environmental Cu and Zn contamination
+ - EU: inorganic zinc compounds in young piglets can result in inclusion rates 30x basal requirements
+ - Copper and zinc used therapeutically and as growth promoters in pig and poultry sectors
+ - Other metals in feed: iron, cobalt, manganese; arsenic used as growth promoter in some territories
 - **Mechanisms of co-selection** (Section 3.2):
-  - **Cross-resistance**: Efflux pump upregulation/overexpression confers simultaneous resistance to biocides, metals, and antibiotics; includes biofilm capability, multi-drug efflux, altered cell envelope permeability
-  - **Co-resistance**: Genetic linkage on mobile elements; class 1 integrons with *qacEA1* + *sulI* as canonical example; *Salmonella* Typhimurium DT104 chromosomally-encoded penta-resistance
-  - Efflux pumps that expel heavy metal ions (e.g., *czc* system for Zn, Co, Cd and *pcoA* for Cu) may also transport antibiotics
-- **Biofilm as co-selection mechanism**:
-  - Biofilms provide diffusion barrier and enhanced medium for genetic exchange
-  - Evidence for 10-1000 fold elevated MIC values in biofilm for both Gram-positive and Gram-negative bacteria
-  - Metal ions (e.g., Cu, Zn) may be sequestered by biofilm extracellular polymeric substances
-- **MarRAB regulon in E. coli and Enterobacteriaceae**:
-  - Multiple Antibiotic Resistance (MAR) phenotype triggered by salicylate, oxidative stress, and other stimuli
-  - MarA increases expression of AcrAB-TolC multi-drug efflux pump and decreases OmpF porin
-  - Copper liberation from cell envelope under biocide stress activates MarR, connecting metal exposure to broad antibiotic resistance
+ - **Cross-resistance**: Efflux pump upregulation/overexpression confers simultaneous resistance to biocides, metals, and antibiotics; includes biofilm capability, multi-drug efflux, altered cell envelope permeability
+ - **Co-resistance**: Genetic linkage on mobile elements; class 1 integrons with *qacEA1* + *sulI* as canonical example; *Salmonella* Typhimurium DT104 chromosomally-encoded penta-resistance
+ - Efflux pumps that expel heavy metal ions (e.g., *czc* system for Zn, Co, Cd and *pcoA* for Cu) may also transport antibiotics
+
+ - Biofilms provide diffusion barrier and enhanced medium for genetic exchange
+ - Evidence for 10-1000 fold elevated MIC values in biofilm for both Gram-positive and Gram-negative bacteria
+ - Metal ions (e.g., Cu, Zn) may be sequestered by biofilm extracellular polymeric substances
+
+ - Multiple Antibiotic Resistance (MAR) phenotype triggered by salicylate, oxidative stress, and other stimuli
+ - MarA increases expression of AcrAB-TolC multi-drug efflux pump and decreases OmpF porin
+ - Copper liberation from cell envelope under biocide stress activates MarR, connecting metal exposure to broad antibiotic resistance
 - **Fitness costs**: Efflux pump overexpression imposes fitness costs (reduced colony size, growth rate); however, compensatory mutations and biofilm enhancement may offset costs; minimum selective concentration can be far below MIC
 - **Foodborne pathogen relevance**: *Salmonella* DT104 and monophasic Typhimurium variants; LA-MRSA; extended-spectrum beta-lactamase *E. coli*; copper-tolerant and clinically relevant *Salmonella*
 

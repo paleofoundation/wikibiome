@@ -38,5 +38,5 @@ platform: wikibiome
 - Heavy metal exposure in reflux infants connects to broader [[heavy metals]]-microbiome disruption literature
 - Arsenic in infant diet relates to [[arsenic]] and GI microbiome effects
 - Pediatric GERD population overlaps with children studied in [[ye-2023-gut-microbiota-children-gerd-metagenomics-metabolomics]]
-- Molybdenum as differential element connects to [[trace metals]] and microbiome interactions
+- Molybdenum as differential element connects to and microbiome interactions
 - Thickener safety data relevant to GERD dietary management approaches

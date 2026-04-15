@@ -11,6 +11,7 @@ tags: [postpartum-depression, 919-syrup, FMT, erucamide, 5-AVAB, hippocampus, gu
 library_category: preclinical
 platform: cureva
 condition: "postpartum depression"
+evidence_level: animal-model
 ---
 
 # Key Claims

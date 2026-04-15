@@ -9,6 +9,7 @@ year: 2022
 doi: "10.1186/s13048-022-01051-8"
 tags: [ovarian-cancer, PCOS, mycobiome, bacteriome, metabolome, Mortierella, Prevotella, ITS2, 16S-rRNA, multi-omics, obesity]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Bacteriome, Mycobiome and Metabolome Alterations in PCOS

@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, 16s-rrna, metabolomics, traditional-chinese-
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims

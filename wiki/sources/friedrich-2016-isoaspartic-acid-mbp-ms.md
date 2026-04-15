@@ -32,8 +32,8 @@ platform: wikibiome
 
 ## Connections
 
-- The formation of [[isoaspartic-acid]] in MBP connects to [[molecular-mimicry]] and [[autoimmunity]] mechanisms: isoAsp creates novel epitopes that may break immune tolerance
-- [[Citrullination]] of arginine residues in MBP is a well-known MS-associated modification, and the co-occurrence with isoAsp at adjacent sites (48/49) suggests synergistic neoantigen formation
-- Relevant to [[amino-acids]] metabolism in MS as studied in [[correale-2021-amino-acid-catabolizing-enzymes-ms]], connecting structural protein modifications to immune dysregulation
+- The formation of in MBP connects to and mechanisms: isoAsp creates novel epitopes that may break immune tolerance
+- of arginine residues in MBP is a well-known MS-associated modification, and the co-occurrence with isoAsp at adjacent sites (48/49) suggests synergistic neoantigen formation
+- Relevant to metabolism in MS as studied in [[correale-2021-amino-acid-catabolizing-enzymes-ms]], connecting structural protein modifications to immune dysregulation
 - The long-lived nature of MBP (like lens proteins) means that cumulative modifications could serve as a time-dependent trigger for MS onset, relevant to age-of-onset epidemiology
-- Connects to [[demyelination]] pathology studied in [[branton-2016-brain-microbiota-ms]] where bacterial components interact with myelin integrity
+- Connects to pathology studied in [[branton-2016-brain-microbiota-ms]] where bacterial components interact with myelin integrity

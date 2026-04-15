@@ -84,7 +84,7 @@ associated_conditions:
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: []
-stops: []
+stops: [stop-iron-supplementation-obesity]
 karen_brain_primitives: [1, 2, 3, 5]
 platform: cureva
 ---

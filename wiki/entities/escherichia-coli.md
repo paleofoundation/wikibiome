@@ -33,9 +33,9 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 - **Hyd-4 (HyfABCDEFGHIR)**: second FHL-associated complex.
 
 - In pathogenic *E. coli*, hydrogenases provide:
-  - **Respiratory flexibility** in the oxygen-variable gut environment.
-  - **Acid resistance**: Hyd-3/FHL consumes formate and produces H2 + CO2, removing acidic fermentation products.
-  - **Energy generation** in nutrient-limited intracellular niches (for UPEC inside bladder epithelial cells).
+ - **Respiratory flexibility** in the oxygen-variable gut environment.
+ - **Acid resistance**: Hyd-3/FHL consumes formate and produces H2 + CO2, removing acidic fermentation products.
+ - **Energy generation** in nutrient-limited intracellular niches (for UPEC inside bladder epithelial cells).
 
 ### Urease (in Shiga Toxin-Producing E. coli)
 - STEC/EHEC strains use urease for **acid survival** during gastric transit [[maier-2019-nickel-microbial-pathogenesis]].
@@ -66,8 +66,8 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 ### Yersiniabactin -- A Dual Iron/Nickel Metallophore
 - Originally characterized as an iron siderophore in *Yersinia pestis*, but the **UPEC yersiniabactin also binds extracellular nickel** [[maier-2019-nickel-microbial-pathogenesis]].
 - In uropathogenic *E. coli*, yersiniabactin serves a dual role:
-  - Iron acquisition for growth.
-  - **Nickel import** for hydrogenase/urease metalation during UTI.
+ - Iron acquisition for growth.
+ - **Nickel import** for hydrogenase/urease metalation during UTI.
 - Nickel transport via yersiniabactin is **upregulated during urinary tract infection**, suggesting active nickel scavenging in the urinary environment.
 - This dual-specificity metallophore represents a metabolically efficient strategy: one molecule, two essential metals.
 

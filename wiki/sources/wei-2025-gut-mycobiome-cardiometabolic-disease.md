@@ -1,14 +1,32 @@
 ---
-
 title: "Gut mycobiome in cardiometabolic disease progression: current evidence and future directions"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Xiaoyu Wei, Zixin Guo, Jingyang Wang, Dan Gao, Qiang Xu, Shengyu Hua]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Xiaoyu Wei
+  - Zixin Guo
+  - Jingyang Wang
+  - Dan Gao
+  - Qiang Xu
+  - Shengyu Hua
 journal: Frontiers in Microbiology
 year: 2025
 doi: 10.3389/fmicb.2025.1659654
-tags: [cardiovascular-disease, CVD, mycobiome, fungal-dysbiosis, Candida, Saccharomyces, atherosclerosis, hypertension, heart-failure, obesity, diabetes, metabolic-syndrome, review]
+tags:
+  - cardiovascular-disease
+  - CVD
+  - mycobiome
+  - fungal-dysbiosis
+  - Candida
+  - Saccharomyces
+  - atherosclerosis
+  - hypertension
+  - heart-failure
+  - obesity
+  - diabetes
+  - metabolic-syndrome
+  - review
 platform: wikibiome
 ---
 

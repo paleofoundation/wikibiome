@@ -11,6 +11,7 @@ tags: [postpartum-depression, mendelian-randomization, gut-microbiota, Actinobac
 library_category: causal-microbiome
 platform: cureva
 condition: "postpartum depression"
+evidence_level: mendelian-randomization
 ---
 
 # Key Claims

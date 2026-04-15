@@ -10,6 +10,10 @@ year: 2022
 doi: "10.3389/fcimb.2022.794711"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, methimazole, intestinal-flora, 16S-rRNA, Bifidobacterium, Collinsella, dysbiosis, TRAb, Th17-Treg, short-chain-fatty-acids]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Bifidobacterium", "Collinsella"]
+evidence_level: cross-sectional
 ---
 
 # Preliminary Observation of the Changes in the Intestinal Flora of Patients With Graves' Disease Before and After Methimazole Treatment
@@ -39,7 +43,7 @@ platform: wikibiome
 - Bifidobacterium-TRAb positive correlation aligns with [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] finding of Bifidobacterium as GD risk factor
 - Collinsella enrichment in GD parallels its role in other autoimmune conditions ([[Rheumatoid Arthritis]], [[Type 1 Diabetes]])
 - Post-methimazole microbiome recovery relevant to [[han-2022-berberine-methimazole-graves-microbiome]] berberine combination approach
-- Synergistetes protective role and negative correlation with thyroid antibodies connects to [[Gut-Thyroid Axis]] immune regulation
-- Reduced alpha diversity in GD consistent with [[Gut Dysbiosis]] patterns in autoimmune diseases
+- Synergistetes protective role and negative correlation with thyroid antibodies connects to immune regulation
+- Reduced alpha diversity in GD consistent with patterns in autoimmune diseases
 - TRAb-microbiota correlations provide mechanistic basis for [[chen-2021-gut-microbiota-thyroid-graves]] findings
-- Ruminococcus decrease post-treatment contrasts with its role across other [[Autoimmune]] conditions
+- Ruminococcus decrease post-treatment contrasts with its role across other conditions

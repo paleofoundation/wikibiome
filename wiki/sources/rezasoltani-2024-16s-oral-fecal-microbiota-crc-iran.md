@@ -31,7 +31,7 @@ platform: wikibiome
 
 ## Connections
 
-- *Akkermansia muciniphila* depletion in CRC patients connects to its known protective role discussed in [[microbiome-composition]] studies
+- *Akkermansia muciniphila* depletion in CRC patients connects to its known protective role discussed in studies
 - Oral microbiome as CRC biomarker complements [[kudra-2023-oral-microbiome-crc-perspectives]] on oral-gut axis in CRC
 - ML-based diagnostic models contribute to [[microbial-biomarkers]] panel development for CRC screening
 - *Lachnospiraceae* enrichment in CRC stool aligns with findings in [[suga-2022-gut-microbiota-sided-crc-colectomy]]

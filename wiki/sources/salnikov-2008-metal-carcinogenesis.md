@@ -1,16 +1,32 @@
 ---
-
 title: "Genetic and Epigenetic Mechanisms in Metal Carcinogenesis and Cocarcinogenesis: Nickel, Arsenic, and Chromium"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Konstantin Salnikov, Anatoly Zhitkovich]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Konstantin Salnikov
+  - Anatoly Zhitkovich
 journal: Chemical Research in Toxicology
 year: 2008
-volume: "21(1):28-44"
-doi: "10.1021/tx700198a"
-tags: [nickel, arsenic, chromium, carcinogenesis, epigenetics, DNA-damage, oxidative-stress, HIF-1alpha]
+volume: 21(1):28-44
+doi: 10.1021/tx700198a
+tags:
+  - nickel
+  - arsenic
+  - chromium
+  - carcinogenesis
+  - epigenetics
+  - DNA-damage
+  - oxidative-stress
+  - HIF-1alpha
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Landmark mechanistic dissection showing three carcinogenic metals operate via distinct pathways: nickel through epigenetic silencing and HIF-1α stabilization; arsenic through proliferation signaling and SAM depletion; chromium through direct DNA ternary adducts and MMR inhibition. WikiBiome depends on this evidence to establish metal-specific carcinogenic mechanisms and to explain why different metals drive disease through different ecological vulnerabilities."
 ---
 
 # Genetic and Epigenetic Mechanisms in Metal Carcinogenesis and Cocarcinogenesis
@@ -30,16 +46,16 @@ A landmark perspective covering the molecular mechanisms by which **[[nickel]]**
 ### Genetic and Epigenetic Changes
 - Ni(II) is a **weak mutagen** — does not form DNA adducts directly.
 - Primary mechanisms are **epigenetic**:
-  - **DNA methylation**: nickel induces hypermethylation in cultured cells. Mechanism involves inhibiting the enzyme responsible for maintaining iron in reduced state, which is needed for DNA demethylation. Can silence tumor suppressor genes (e.g., p16 promoter hypermethylation observed in all nickel-transformed cells).
-  - **Histone modifications**: nickel exposure leads to loss of H3 and H4 acetylation, increased H3K9 dimethylation — marks associated with gene silencing and heterochromatin.
+ - **DNA methylation**: nickel induces hypermethylation in cultured cells. Mechanism involves inhibiting the enzyme responsible for maintaining iron in reduced state, which is needed for DNA demethylation. Can silence tumor suppressor genes (e.g., p16 promoter hypermethylation observed in all nickel-transformed cells).
+ - **Histone modifications**: nickel exposure leads to loss of H3 and H4 acetylation, increased H3K9 dimethylation — marks associated with gene silencing and heterochromatin.
 - Nickel compounds with higher cellular uptake (particulate forms) are more carcinogenic.
 
 ### Activation of Hypoxic Signaling
 - **[[hypoxic-signaling]]** is a hallmark of nickel carcinogenicity.
 - Ni(II) stabilizes **HIF-1α** by:
-  1. Inhibiting HIF-prolyl hydroxylases (which normally tag HIF-1α for degradation)
-  2. Depleting intracellular ascorbate (a cofactor for these hydroxylases)
-  3. Potentially replacing Fe(II) in hydroxylase active sites
+ 1. Inhibiting HIF-prolyl hydroxylases (which normally tag HIF-1α for degradation)
+ 2. Depleting intracellular ascorbate (a cofactor for these hydroxylases)
+ 3. Potentially replacing Fe(II) in hydroxylase active sites
 - HIF-1α stabilization activates genes involved in angiogenesis, glucose metabolism, and cell survival — promoting tumor growth.
 - Nickel also inhibits **JMJD2 family demethylases** (2OG-dependent), which could further modify histone methylation patterns.
 - Iron homeostasis disruption: Ni(II) oxidizes iron in iron-sulfur clusters and iron-containing hydroxylases, affecting IRP-1/IRP-2, transferrin receptor, and ferritin levels.
@@ -61,15 +77,15 @@ A landmark perspective covering the molecular mechanisms by which **[[nickel]]**
 
 ### Mechanisms
 - **Increased cellular proliferation**: activates signal transduction pathways (EGFR, ERK), reduces antiproliferative signaling, overrides checkpoint controls.
-  - In keratinocytes: increased mRNA for growth factors (GM-CSF, TGFα).
-  - Cyclin D1 upregulation even at low doses.
-  - p53 function disrupted at low concentrations.
+ - In keratinocytes: increased mRNA for growth factors (GM-CSF, TGFα).
+ - Cyclin D1 upregulation even at low doses.
+ - p53 function disrupted at low concentrations.
 - **NF-κB signaling**: arsenic activates NF-κB at low concentrations (unlike higher doses that inhibit it). This is relevant to its tumor-promoting activity.
-- **Epigenetic changes**:
-  - Both hypo- and hypermethylation reported.
-  - Arsenic depletes S-adenosylmethionine (SAM) — the universal methyl donor — because arsenic methylation consumes SAM.
-  - Low dietary methionine/folate exacerbates arsenic-induced hypomethylation.
-  - Methylated arsenic species are excreted faster, so methylation represents detoxification but at the cost of epigenetic disruption.
+
+ - Both hypo- and hypermethylation reported.
+ - Arsenic depletes S-adenosylmethionine (SAM) — the universal methyl donor — because arsenic methylation consumes SAM.
+ - Low dietary methionine/folate exacerbates arsenic-induced hypomethylation.
+ - Methylated arsenic species are excreted faster, so methylation represents detoxification but at the cost of epigenetic disruption.
 - **[[oxidative-stress]]**: generates ROS, but this is debated as a primary mechanism.
 
 ### Arsenic as a Cocarcinogen
@@ -92,10 +108,10 @@ A landmark perspective covering the molecular mechanisms by which **[[nickel]]**
 - Cr(VI) is a **pro-carcinogen**: intracellular reduction to Cr(III) generates the active species.
 - Reduction pathway: Cr(VI) → Cr(V) → Cr(IV) → Cr(III), primarily by **ascorbate** (accounts for ~90% of reduction in cells).
 - **[[DNA-damage]]** types:
-  - **Cr-DNA adducts**: primarily ternary adducts (Cr³⁺ crosslinking DNA with amino acids, glutathione, or ascorbate). ~50-75% are ternary; these are mutagenic.
-  - **DNA-protein crosslinks** and **DNA interstrand crosslinks**.
-  - **DNA strand breaks** (SSBs and DSBs) — but some may be artifacts of alkaline assays.
-  - **Oxidative DNA damage**: guanine oxidation (8-oxo-dG) — but primarily at supraphysiological Cr(VI) concentrations.
+ - **Cr-DNA adducts**: primarily ternary adducts (Cr³⁺ crosslinking DNA with amino acids, glutathione, or ascorbate). ~50-75% are ternary; these are mutagenic.
+ - **DNA-protein crosslinks** and **DNA interstrand crosslinks**.
+ - **DNA strand breaks** (SSBs and DSBs) — but some may be artifacts of alkaline assays.
+ - **Oxidative DNA damage**: guanine oxidation (8-oxo-dG) — but primarily at supraphysiological Cr(VI) concentrations.
 
 ### Genomic Instability, Toxicity, and Cr(VI) Carcinogenesis
 - Cr(VI) produces **microsatellite instability** in lung cancers of chromate workers.

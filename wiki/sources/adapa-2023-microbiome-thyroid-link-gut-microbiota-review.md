@@ -27,11 +27,11 @@ platform: wikibiome
 
 - **Study type**: Narrative review (10 pages with 33 references)
 - **Gut microbiota and thyroid function**: Higher bacterial diversity and levels of Bifidobacterium and Lactobacillus associated with higher circulating free T4 and T3 levels in healthy individuals; reduced Firmicutes and increased Proteobacteria and Actinobacteria in hypothyroid patients
-- **Mechanisms of dysbiosis-thyroid disease link**:
-  - Autoantigen presentation: bacteria enhance intestinal epithelium permeability, allowing thyroid autoantigens to access gut immune cells, triggering aberrant immune response
-  - Inflammation: imbalanced microbiota induces chronic low-grade inflammation that can reach distant thyroid tissue via systemic immune activation
-  - Metabolite production: bacterial metabolites (SCFAs, beta-glucuronidases) affect thyroid hormone synthesis, metabolism, and clearance
-  - TSH modulation: gut-brain axis signaling through vagus nerve may influence TSH secretion from pituitary
+
+ - Autoantigen presentation: bacteria enhance intestinal epithelium permeability, allowing thyroid autoantigens to access gut immune cells, triggering aberrant immune response
+ - Inflammation: imbalanced microbiota induces chronic low-grade inflammation that can reach distant thyroid tissue via systemic immune activation
+ - Metabolite production: bacterial metabolites (SCFAs, beta-glucuronidases) affect thyroid hormone synthesis, metabolism, and clearance
+ - TSH modulation: gut-brain axis signaling through vagus nerve may influence TSH secretion from pituitary
 - **Table 1**: Dietary and lifestyle recommendations including increase fiber intake (whole grains, fruits, vegetables, legumes), limit saturated fat, consume fermented foods, limit sugar, and stress management
 - **Table 2**: Clinical trials summary - Smith et al. 2015 (Lactobacillus casei Shirota in HT: increased FT4/FT3, decreased TSH and antibodies); Lee et al. 2019 (synbiotic with Bifidobacterium breve + inulin-FOS in hypothyroidism: increased FT4/FT3, decreased TSH, improved gut barrier); Szajewska et al. 2022 (VSL#3 probiotic in HT: increased FT4, decreased antibodies, reduced thyroid volume and inflammation)
 - **Future research directions**: Identify key bacterial species, characterize longitudinal microbiota changes, elucidate molecular mechanisms, evaluate interventions in placebo-controlled trials, explore potential of microbiota-targeted therapies

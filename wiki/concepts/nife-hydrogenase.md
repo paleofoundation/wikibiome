@@ -43,7 +43,7 @@ The bimetallic arrangement is critical: neither metal alone is sufficient; both 
 
 ```
 H₂ binding → heterolytic cleavage of H-H → H⁺ released to solvent
-           → 2e⁻ transferred to electron transport chain (quinone, NAD⁺, etc.)
+ → 2e⁻ transferred to electron transport chain (quinone, NAD⁺, etc.)
 ```
 
 This is energetically favorable under anaerobic or microaerophilic conditions (when dissolved O₂ is low).
@@ -114,21 +114,21 @@ NiFe-hydrogenase is a paradigm for **Primitive 4: Metal Dependencies as Achilles
 **Related organisms:**
 - [[helicobacter-pylori|H. pylori]] — primary pathogen expressing NiFe-hydrogenase; microaerophilic survival
 - [[methanobrevibacter-smithii|M. smithii]] — methane-producing archaeon; H₂ consumer in the gut
-- **Sulfate-reducing bacteria** ([[desulfovibrio]], [[desulfomonas]]) — H₂-dependent sulfate reducers in anaerobic environments
+- **Sulfate-reducing bacteria** ([[desulfovibrio]], ) — H₂-dependent sulfate reducers in anaerobic environments
 - [[bacteroides-fragilis|bacteroides]] — H₂ producers in fermentation; work synergistically with H₂-consuming methanogens
 
 **Related concepts:**
-- [[hypoxia]]/[[microaerophilic-environment]] — low-O₂ niches where NiFe-hydrogenase enables survival
+- [[hypoxia]]/ — low-O₂ niches where NiFe-hydrogenase enables survival
 - [[nutritional-immunity]] — nickel and [[iron]] sequestration as defenses against NiFe-hydrogenase-dependent pathogens
 - [[biofilm]] — interkingdom cooperation via H₂ consumption
-- [[interkingdom-relationships]] — H. pylori NiFe-hydrogenase enables co-persistence with other microaerophiles
+- — H. pylori NiFe-hydrogenase enables co-persistence with other microaerophiles
 - [[metal-dependent-virulence|metal-cofactor-dependency]] — dual-metal requirement is a strategic vulnerability
 
 **Related metals and proteins:**
 - [[nickel]] — essential cofactor; nickel depletion disables NiFe-hydrogenase
 - [[iron]] — essential cofactor; iron sequestration limits H. pylori persistence
-- [[hydrogen-sulfide]] — product of sulfate-reducer NiFe-hydrogenase coupled to sulfate reduction; dysbiotic byproduct
+- — product of sulfate-reducer NiFe-hydrogenase coupled to sulfate reduction; dysbiotic byproduct
 
 **Disease pages:**
-- [[gastric-ulcer]], [[gastric-adenocarcinoma]] — H. pylori-driven diseases where NiFe-hydrogenase enables microaerophilic survival
+- , — H. pylori-driven diseases where NiFe-hydrogenase enables microaerophilic survival
 - **SIBO**, **methane-predominant dysbiosis** — conditions with elevated [[methanobrevibacter-smithii|M. smithii]] and H₂-consuming activity

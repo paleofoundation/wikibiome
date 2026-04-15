@@ -6,24 +6,24 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - zhang-2022-metallomics-cancer-review
-  - sugimoto-2024-zinc-deficiency-cancer-review
-  - shin-2023-chromium-toxicogenomics
-  - marchesi-2011-towards-human-crc-microbiome
-  - hanus-2021-immune-microbiota-metabolites-crc-triad
-  - gao-2015-microbiota-disbiosis-colorectal-cancer
-  - metz-2019-drug-discovery-bft-inhibition
-  - ajouz-2014-secondary-bile-acids-colon-cancer
-  - farhana-2016-bile-acid-colon-cancer-stem-cells
-  - carretta-2021-scfas-receptors-gut-inflammation-colon-cancer
-  - tang-2011-gpr43-short-chain-fatty-acids-colon-cancer
-  - ho-2024-colorectal-cancer-virome-alterations-persistence-surgery
-  - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
-  - huang-2024-gut-fungi-ibd-colorectal-cancer
-  - vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer
-  - donovan-2017-mediterranean-diet-crc-prevention
-  - appunni-2021-dietary-factors-gut-microbiome-crc
-  - mcleod-2023-bridge-crc-mediterranean-diet-trial
+ - zhang-2022-metallomics-cancer-review
+ - sugimoto-2024-zinc-deficiency-cancer-review
+ - shin-2023-chromium-toxicogenomics
+ - marchesi-2011-towards-human-crc-microbiome
+ - hanus-2021-immune-microbiota-metabolites-crc-triad
+ - gao-2015-microbiota-disbiosis-colorectal-cancer
+ - metz-2019-drug-discovery-bft-inhibition
+ - ajouz-2014-secondary-bile-acids-colon-cancer
+ - farhana-2016-bile-acid-colon-cancer-stem-cells
+ - carretta-2021-scfas-receptors-gut-inflammation-colon-cancer
+ - tang-2011-gpr43-short-chain-fatty-acids-colon-cancer
+ - ho-2024-colorectal-cancer-virome-alterations-persistence-surgery
+ - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
+ - huang-2024-gut-fungi-ibd-colorectal-cancer
+ - vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer
+ - donovan-2017-mediterranean-diet-crc-prevention
+ - appunni-2021-dietary-factors-gut-microbiome-crc
+ - mcleod-2023-bridge-crc-mediterranean-diet-trial
 tags: [cancer, colorectal-cancer, copper, zinc, selenium, cadmium, arsenic, chromium, iron, ferroptosis, Fusobacterium-nucleatum, Bacteroides-fragilis, bile-acids, SCFAs, butyrate, GPR43, microbiome, mycobiome, virome, diet, Mediterranean-diet, Cu-Zn-ratio, metal-carcinogenesis]
 platform: wikibiome
 last_substantive_update: 2026-04-13

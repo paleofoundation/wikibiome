@@ -23,17 +23,17 @@ platform: wikibiome
 # Methods/Findings
 
 - **Study type**: Editorial summarizing a Research Topic collection in Frontiers in Microbiology
-- **Key articles highlighted**:
-  - Stuani and Gilsow: glyphosate residues on food cause dysbiosis; glyphosate can inhibit excretory pathways of bacteria like the shikimate pathway
-  - Aguirre et al.: interactions of steroid hormones and EDC with gut microbiome suggesting cross-talk between gut microbiota and genes/pathways involved in EDC metabolism
-  - Liu et al.: heavy metals (As, Cd) and the role of bioassay models for disease outcomes of heavy metal-microbiota dysbiosis
-  - Gonzalez et al.: role of gut microbiota in investigating Pb exposure risk in children
+
+ - Stuani and Gilsow: glyphosate residues on food cause dysbiosis; glyphosate can inhibit excretory pathways of bacteria like the shikimate pathway
+ - Aguirre et al.: interactions of steroid hormones and EDC with gut microbiome suggesting cross-talk between gut microbiota and genes/pathways involved in EDC metabolism
+ - Liu et al.: heavy metals (As, Cd) and the role of bioassay models for disease outcomes of heavy metal-microbiota dysbiosis
+ - Gonzalez et al.: role of gut microbiota in investigating Pb exposure risk in children
 - **Framework**: EDC food risk assessment in relation to human microbiome variability is still in early phase, requiring systemic approaches and integrative expertise
 
 # Connections
 
 - Provides context for dietary [[Environmental Exposures]] and their role in [[dysbiosis]] phenotypes
-- Links to [[Arsenic Toxicity]], [[Cadmium Toxicity]], [[Lead Toxicity]] as specific dietary contaminants
+- Links to [[arsenic]], [[Cadmium Toxicity]], [[Lead Toxicity]] as specific dietary contaminants
 - Supports the use of [[probiotics]] for mitigating chemical-induced dysbiosis, connecting to [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
 - The gut-microbiota-immune axis framework relevant to [[gut-metal-microbiome|gut microbiome and metal exposure]] research
 - Complements [[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]] animal model evidence

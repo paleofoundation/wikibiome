@@ -10,6 +10,7 @@ year: 2021
 tags: [crohns-disease, IBD, ulcerative-colitis, Mendelian-randomization, Verrucomicrobiaceae, Akkermansia, Dorea, causal-inference, gut-microbiome, dysbiosis]
 doi: "10.3389/fgene.2021.631061"
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # Key Claims

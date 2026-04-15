@@ -6,13 +6,13 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - arshad-2023-heavy-metals-rheumatoid-arthritis
-  - irfan-2017-comparative-heavy-metals-ra
-  - fan-2024-heavy-metal-arthritis-machine-learning
-  - yang-2016-copper-farm-soils-rheumatoid-arthritis
-  - haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia
-  - elbeialy-2024-environmental-pollution-rheumatic-diseases
-  - zhou-2024-urinary-vocs-rheumatoid-arthritis
+ - arshad-2023-heavy-metals-rheumatoid-arthritis
+ - irfan-2017-comparative-heavy-metals-ra
+ - fan-2024-heavy-metal-arthritis-machine-learning
+ - yang-2016-copper-farm-soils-rheumatoid-arthritis
+ - haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia
+ - elbeialy-2024-environmental-pollution-rheumatic-diseases
+ - zhou-2024-urinary-vocs-rheumatoid-arthritis
 tags: [autoimmune, copper, zinc, nickel, lead, cadmium, chromium, environmental-pollution, vitamin-D, machine-learning]
 platform: wikibiome
 last_substantive_update: 2026-04-13

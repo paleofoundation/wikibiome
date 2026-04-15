@@ -71,9 +71,9 @@ Acidic microenvironment → metal hyperabsorption → metal-dependent pathogen o
 **Linked concepts**:
 - [[fermentative-metabolism]] — Primary source of organic acids that lower pH.
 - [[nutritional-immunity]] — Acidic pH undermines metal-withholding defenses.
-- [[metal-bioavailability]] — Acidity is a major determinant of whether metals are free/bioavailable or sequestered.
+- — Acidity is a major determinant of whether metals are free/bioavailable or sequestered.
 - [[inflammation]] — Inflammatory cell infiltration drives acidification; acidification in turn promotes pro-inflammatory taxa.
-- [[dysbiosis-and-inflammation]] — Acidic microenvironments select for dysbiotic, pro-inflammatory taxa.
+- — Acidic microenvironments select for dysbiotic, pro-inflammatory taxa.
 
 **Linked entities**:
 - [[fermentative-metabolism]] — Produces the acids.

@@ -36,6 +36,6 @@ platform: wikibiome
 
 - GERD-migraine causal link provides evidence for [[gut-brain axis]] dysfunction in GERD reviewed in [[zheng-2025-multidimensional-mechanisms-gerd-immunity-signaling-microbiota-gut-brain]]
 - Depression as mediator connects to psychological stress-microbiome-GERD interactions
-- Serotonin pathway involvement links to [[amino acids]] and tryptophan metabolism in GERD
+- Serotonin pathway involvement links to and tryptophan metabolism in GERD
 - Unidirectional GERD-to-migraine causation contrasts with bidirectional GERD-microbiome relationships in [[wang-2024-causal-gut-microbiota-gerd-mendelian-bidirectional]]
 - Neuroinflammatory mechanisms connect to esophageal inflammatory pathways in [[park-2020-nerd-treatment-esophageal-microbiome-dynamics]]

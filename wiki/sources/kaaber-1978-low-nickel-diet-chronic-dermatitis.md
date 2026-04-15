@@ -33,4 +33,4 @@ platform: wikibiome
 - One of the earliest clinical studies of [[low-nickel-diet]] for dermatitis treatment, preceding [[veien-1993-low-nickel-diet-trial]]
 - Diet instructions adapted by many subsequent studies including [[braga-2013-snas-nosologic-framework]]
 - Nickel excretion methodology relates to later biomarker studies
-- Confirmed the concept that dietary nickel provokes [[systemic contact dermatitis]], foundational for the [[systemic nickel allergy syndrome]] concept
+- Confirmed the concept that dietary nickel provokes , foundational for the concept

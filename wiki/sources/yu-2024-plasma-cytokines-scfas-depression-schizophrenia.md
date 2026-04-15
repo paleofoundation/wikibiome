@@ -11,6 +11,7 @@ tags: [schizophrenia, depression, short-chain-fatty-acids, inflammatory-cytokine
 library_category: SCFAs
 platform: plasma
 condition: "Schizophrenia / Depression"
+evidence_level: cross-sectional
 ---
 
 # Plasma inflammatory cytokines and short-chain fatty acid in depression and schizophrenia

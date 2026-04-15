@@ -35,6 +35,6 @@ platform: wikibiome
 
 - Plant omics approaches inform methodology for studying [[metabolomics]] of heavy metal exposure in mammals, as reviewed in [[akash-2023-metabolomics-heavy-metal-toxicities]]
 - ROS and [[oxidative-stress|oxidative stress]] mechanisms are conserved between plants and mammalian systems exposed to [[heavy metals]]
-- Metal transporter families (ZIP, Nramp) have homologs in human cells relevant to [[Arsenic Toxicity]], [[Cadmium Toxicity]], [[Lead Toxicity]]
+- Metal transporter families (ZIP, Nramp) have homologs in human cells relevant to [[arsenic]], [[Cadmium Toxicity]], [[Lead Toxicity]]
 - Epigenetic modifications from HM exposure connect to developmental and transgenerational effects in humans
 - Complements [[phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]] omics framework

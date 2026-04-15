@@ -26,13 +26,13 @@ platform: wikibiome
 
 - **Study type**: Cross-sectional 16S rDNA high-throughput sequencing study
 - **Participants**: 89 subjects from Fujian, China (February 2021 to March 2022): 42 healthy controls (HCA), 37 HT with normal thyroid function (HT1A), and 10 HT with abnormal thyroid function (HT2A)
-- **Key findings**:
-  - 195 OTUs were common to all three groups
-  - Alpha diversity showed that HCA and HT1A had 37 OTUs in common with 3 unique to HT1A
-  - PLS-DA analysis confirmed distinct microbial separation between groups
-  - Firmicutes/Bacteroidetes ratio was calculated; Acetitomaculum showed highly significant difference (p=0.0003)
-  - Kruskal-Wallis testing identified significant differences in Lachnoclostridium, Megamonas, Eggerthella, Bilophila, Akkermansia at genus level
-  - Spearman correlation analysis revealed correlations between gut microbiota and thyroid clinical indicators (FT3, FT4, TSH, TPOAb, TgAb)
+
+ - 195 OTUs were common to all three groups
+ - Alpha diversity showed that HCA and HT1A had 37 OTUs in common with 3 unique to HT1A
+ - PLS-DA analysis confirmed distinct microbial separation between groups
+ - Firmicutes/Bacteroidetes ratio was calculated; Acetitomaculum showed highly significant difference (p=0.0003)
+ - Kruskal-Wallis testing identified significant differences in Lachnoclostridium, Megamonas, Eggerthella, Bilophila, Akkermansia at genus level
+ - Spearman correlation analysis revealed correlations between gut microbiota and thyroid clinical indicators (FT3, FT4, TSH, TPOAb, TgAb)
 - **Gender effects**: Bifidobacterium was much more abundant in females; species composition differences between sexes intensified with HT progression
 - **Environmental factors**: Redundancy analysis (RDA) confirmed that gender, hormones (FT3, FT4), and age were significant environmental factors driving microbial community variation
 

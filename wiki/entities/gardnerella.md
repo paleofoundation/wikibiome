@@ -63,7 +63,6 @@ pathogenic_potential: commensal-turned-pathogen
 - The transition from Lactobacillus-dominant (CST I-III) to Gardnerella-dominant (CST IV) vaginal communities represents a clinically significant shift in vaginal ecosystem state.
 - BV treatment with antibiotics is often followed by recurrence due to biofilm persistence and re-establishment of the dysbiotic community.
 
-
 ## Key Sources
 
 - [[akiyama-2019-cervical-mucus-microbial-colonization-endometriosis]]

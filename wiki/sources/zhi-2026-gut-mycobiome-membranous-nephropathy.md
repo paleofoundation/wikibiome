@@ -9,6 +9,7 @@ journal: "Scientific Reports"
 doi: "10.1038/s41598-026-38437-3"
 tags: [chronic-kidney-disease, CKD, mycobiome, membranous-nephropathy, fungal-dysbiosis]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Gut Mycobiome in Membranous Nephropathy Patients

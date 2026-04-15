@@ -25,12 +25,12 @@ platform: wikibiome
 
 - **Design**: Scoping review of human epidemiologic studies and animal models
 - **Scope**: Nonoccupational exposure to environmental toxicants and maternal psychopathology during the perinatal period; studies published through 2021
-- **Chemicals reviewed**:
-  - **Heavy metals**: [[manganese]] -- one cohort of 561 women found positive association between 3rd trimester blood Mn and continuous EPDS scores (beta=0.13, 95% CI: 0.04-0.21); [[arsenic]] -- inverse association with PPD in Chilean women; [[lead]] and [[cadmium]] -- one cross-sectional study in China found no association via breastmilk levels
-  - **POPs**: Individual and summed PBDE congeners associated with increased BDI-II scores; BDE-47 drove mixture effects (OR=2.93, 95% CI: 1.18, 7.82); PFAS not associated
-  - **ETS**: OR=1.49 (95% CI: 1.23, 1.80) for PPD with household ETS; dose-response relationships observed
-  - **Phthalates/Bisphenols**: Di-n-octylphthalate metabolites associated with increased PPD odds (OR=1.48, 95% CI: 1.04, 2.11)
-  - **VOCs**: Air freshener use associated with increased PPD (OR=1.19, 95% CI: 1.05, 1.36)
+
+ - **Heavy metals**: [[manganese]] -- one cohort of 561 women found positive association between 3rd trimester blood Mn and continuous EPDS scores (beta=0.13, 95% CI: 0.04-0.21); [[arsenic]] -- inverse association with PPD in Chilean women; [[lead]] and [[cadmium]] -- one cross-sectional study in China found no association via breastmilk levels
+ - **POPs**: Individual and summed PBDE congeners associated with increased BDI-II scores; BDE-47 drove mixture effects (OR=2.93, 95% CI: 1.18, 7.82); PFAS not associated
+ - **ETS**: OR=1.49 (95% CI: 1.23, 1.80) for PPD with household ETS; dose-response relationships observed
+ - **Phthalates/Bisphenols**: Di-n-octylphthalate metabolites associated with increased PPD odds (OR=1.48, 95% CI: 1.04, 2.11)
+ - **VOCs**: Air freshener use associated with increased PPD (OR=1.19, 95% CI: 1.05, 1.36)
 - **Animal models**: Strong evidence for BPA and phthalates reducing maternal nursing, licking, and grooming behavior; PCB-77 reduced high-crouch nursing posture
 
 # Connections

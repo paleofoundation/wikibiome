@@ -1,14 +1,37 @@
 ---
-
-title: "Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling"
+title: Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Honghong Bao, Yi Wang, Hanlin Xiong, Yaoyao Xia, Zhifu Cui, Lingbin Liu]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Honghong Bao
+  - Yi Wang
+  - Hanlin Xiong
+  - Yaoyao Xia
+  - Zhifu Cui
+  - Lingbin Liu
 journal: International Journal of Molecular Sciences
 year: 2024
-tags: [iron, iron-homeostasis, gut-microbiota, intestinal-immunity, ferroptosis, hepcidin, SCFAs, gut-brain-axis, autoimmune-disease, probiotics, review]
+tags:
+  - iron
+  - iron-homeostasis
+  - gut-microbiota
+  - intestinal-immunity
+  - ferroptosis
+  - hepcidin
+  - SCFAs
+  - gut-brain-axis
+  - autoimmune-disease
+  - probiotics
+  - review
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Establishes iron homeostasis as a critical junction between host immunity (hepcidin-ferroportin axis) and microbiota composition—demonstrating how iron deficiency depletes Lactobacillus while iron excess enriches pathogenic Bacteroides and E. coli. This paper is foundational to WikiBiome's iron signatures across anemia, IBD, and metabolic disease."
 ---
 
 # Key Claims

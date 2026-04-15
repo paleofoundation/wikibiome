@@ -25,17 +25,17 @@ platform: wikibiome
 
 - **Type**: Comprehensive review (23 pages)
 - **Scope**: Maps environmental risk factors for ASD comprehensively, covering nature/nurture, fetal environment, nutrition, toxic exposures, infections, and more
-- **Zinc and copper findings**:
-  - Low levels of zinc measured in infant hair of ASD individuals
-  - A large birth cohort study found elevated prenatal di-2-ethylhexyl phthalate (DEHP) levels associated with increased ASD symptoms at 2 and 4 years, potentially mediated by a metabolic shift in zinc-copper cycling/energy pathways
-  - Higher prenatal phthalate levels and higher oxidative stress genetic score associated with subsequent ASD
-- **Iron findings**:
-  - In the CHARGE case-control study, mothers with low iron intake had double the odds of having an ASD child
-  - Iron is crucial for neurotransmitter synthesis, myelination, and immune function
-- **Lead and mercury**:
-  - Systematic review: ASD cases had higher erythrocyte lead (SMD = 1.55), hair lead (SMD = 0.24), and blood mercury (SMD = 1.56) and hair mercury (SMD = 0.43)
-  - ASD cases in developed (but not developing) countries had lower hair concentrations of cadmium (SMD = -0.29) -- possibly reflecting impaired excretion
-  - Significant geographical and analytical detection heterogeneity across studies
+
+ - Low levels of zinc measured in infant hair of ASD individuals
+ - A large birth cohort study found elevated prenatal di-2-ethylhexyl phthalate (DEHP) levels associated with increased ASD symptoms at 2 and 4 years, potentially mediated by a metabolic shift in zinc-copper cycling/energy pathways
+ - Higher prenatal phthalate levels and higher oxidative stress genetic score associated with subsequent ASD
+
+ - In the CHARGE case-control study, mothers with low iron intake had double the odds of having an ASD child
+ - Iron is crucial for neurotransmitter synthesis, myelination, and immune function
+
+ - Systematic review: ASD cases had higher erythrocyte lead (SMD = 1.55), hair lead (SMD = 0.24), and blood mercury (SMD = 1.56) and hair mercury (SMD = 0.43)
+ - ASD cases in developed (but not developing) countries had lower hair concentrations of cadmium (SMD = -0.29) -- possibly reflecting impaired excretion
+ - Significant geographical and analytical detection heterogeneity across studies
 - **Air pollutants**: Diesel exhaust particles (DEPs) linked to ASD-like vocalization/behavioral deficits; DEPs disrupt toll-like receptor 4 (TLR-4) activation
 - **Nutrition**: Folate, vitamin D, iron, zinc, and copper all highlighted as critical prenatal nutrients
 

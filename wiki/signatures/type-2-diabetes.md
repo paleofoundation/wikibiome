@@ -92,8 +92,8 @@ associated_conditions:
 
 # Cureva pipeline status
 cureva_status: partial
-validated_interventions: []
-stops: []
+validated_interventions: [zinc-supplementation, mediterranean-diet]
+stops: [stop-iron-supplementation-type-2-diabetes]
 karen_brain_primitives: [1, 2, 3, 5]
 platform: cureva
 ---

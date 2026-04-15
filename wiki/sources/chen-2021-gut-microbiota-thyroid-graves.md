@@ -39,9 +39,9 @@ platform: wikibiome
 ## Connections
 
 - Confirms and extends findings from [[yang-2022-intestinal-flora-graves-methimazole]] using independent cohort from Nanjing (vs Shanghai)
-- Synergistetes protective role consistent across both studies; relevant to understanding [[Gut-Thyroid Axis]] immune regulation
+- Synergistetes protective role consistent across both studies; relevant to understanding immune regulation
 - Bifidobacterium-TRAb positive correlation replicated, consistent with [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] MR risk finding
 - Phascolarctobacterium as protective biomarker connects to [[Short-Chain Fatty Acids]] production (propionate)
 - Lactobacillus paradox (positive TRAb correlation despite generally being considered beneficial) requires context of [[probiotics]] in autoimmune thyroid disease
-- Recovery of microbiome diversity after methimazole treatment supports bidirectional [[Gut-Thyroid Axis]] hypothesis
+- Recovery of microbiome diversity after methimazole treatment supports bidirectional hypothesis
 - Ruminococcus changes tracked with TRAb, relevant to its role in [[Bile Acid Metabolism]] and immune modulation

@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Foundational for [[Arsenic Toxicity]] and microbiome-mediated detoxification
+- Foundational for [[arsenic]] and microbiome-mediated detoxification
 - Central to [[Gut Microbiome and Metal Exposure]] -- demonstrates causal protective role
 - [[Faecalibacterium prausnitizii]] as protective probiotic relevant to [[probiotics]] and metal detoxification strategies
 - Connects to [[Metal Detoxification Mechanisms]] -- microbes can enzymatically transform arsenic compounds and facilitate excretion

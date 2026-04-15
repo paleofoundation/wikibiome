@@ -56,16 +56,16 @@ Phylogenetic analysis suggests *P. stomatis* acquired the pks cluster via **hori
 
 ```
 Colibactin (mature form)
-  ↓ (secretion; uncertain cellular target)
-  ↓ (proposed: cellular internalization via endocytosis or transporter)
-  → Nuclear translocation [uncertain mechanism; possibly through nucleoporin disruption]
-  → DNA binding / intercalation
-  → Formation of DNA adducts (premutagenic lesions)
-  → Replication fork stalling
-  → Double-strand break (DSB) formation via replication machinery collision
-  → γH2AX (histone 2AX phosphorylation) at DSB sites
-  → p53 activation / cell cycle arrest / apoptosis (acute)
-  → Genomic instability / aberrant DNA repair / mutation fixation (chronic)
+ ↓ (secretion; uncertain cellular target)
+ ↓ (proposed: cellular internalization via endocytosis or transporter)
+ → Nuclear translocation [uncertain mechanism; possibly through nucleoporin disruption]
+ → DNA binding / intercalation
+ → Formation of DNA adducts (premutagenic lesions)
+ → Replication fork stalling
+ → Double-strand break (DSB) formation via replication machinery collision
+ → γH2AX (histone 2AX phosphorylation) at DSB sites
+ → p53 activation / cell cycle arrest / apoptosis (acute)
+ → Genomic instability / aberrant DNA repair / mutation fixation (chronic)
 ```
 
 ### Cellular Effects in Colonocytes
@@ -84,9 +84,9 @@ The **combination of direct genotoxicity + inflammatory amplification** makes co
 
 ### Iron Acquisition
 - *P. stomatis* is **iron-dependent**; requires Fe2+/Fe3+ for:
-  - Cytochrome biosynthesis (anaerobic electron transport)
-  - Iron-sulfur cluster assembly
-  - Polyketide synthase cofactor maturation (some PKS enzymes require Fe-coordination)
+ - Cytochrome biosynthesis (anaerobic electron transport)
+ - Iron-sulfur cluster assembly
+ - Polyketide synthase cofactor maturation (some PKS enzymes require Fe-coordination)
 - **No siderophore production** (unlike *[[parvimonas-micra]]*); relies on scavenging ferrous iron from the colonic lumen and competing with host hepcidin.
 
 ### Growth in the CRC Microenvironment
@@ -181,15 +181,15 @@ This **stage-specific enrichment pattern** suggests *P. stomatis* accelerates th
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[colibactin]]** – Product; polyketide genotoxin; directly causes DNA double-strand breaks
-- **[[polyketide-synthase]]** – Gene cluster (pks); encodes colibactin biosynthesis
+- **** – Product; polyketide genotoxin; directly causes DNA double-strand breaks
+- **** – Gene cluster (pks); encodes colibactin biosynthesis
 - **[[DNA-damage]]** – Primary mechanistic output; γH2AX foci, mutations in APC/KRAS/TP53
-- **[[genotoxin]]** – Colibactin acts as a genotoxin; mutagen and carcinogen
+- **** – Colibactin acts as a genotoxin; mutagen and carcinogen
 - **[[colorectal-cancer]]** – Dramatically enriched; carcinogenic consortium member
-- **[[adenoma]]** – Enriched in advanced adenomas; drives adenoma-to-carcinoma transition
+- **** – Enriched in advanced adenomas; drives adenoma-to-carcinoma transition
 - **[[iron]]** – Required for growth; iron-dependent; no siderophores produced
-- **[[oral-colorectal-axis]]** – Originates in oral cavity; translocates to colon
-- **[[periodontitis]]** – Enriched in periodontal disease; periodontal disease correlates with CRC risk
+- **** – Originates in oral cavity; translocates to colon
+- **** – Enriched in periodontal disease; periodontal disease correlates with CRC risk
 - **[[inflammation]]** – Colibactin-induced DSBs trigger TLR9/cGAS-STING; Th17 polarization
 - **[[biofilm]]** – Integrates into polymicrobial CRC biofilms (nucleated by *[[parvimonas-micra]]*); does not form independent biofilms
 - **[[parvimonas-micra]]** – Biofilm partner; nucleates structure that houses *P. stomatis*
@@ -198,8 +198,8 @@ This **stage-specific enrichment pattern** suggests *P. stomatis* accelerates th
 - **[[bacteroides-fragilis]]** (BFT+ strains) – Biofilm partner; toxin-driven barrier disruption enables colibactin access
 - **[[escherichia-coli]]** (pks+ strains) – Evolutionary source of pks cluster; synergistic genotoxicity if both present
 - **[[dysbiosis]]** – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
-- **[[th17-polarization]]** – IL-17-driven immune response to colibactin-induced DSBs
-- **[[p53-activation]]** – Downstream of colibactin-induced DNA damage; tumor suppressor response
+- **** – IL-17-driven immune response to colibactin-induced DSBs
+- **** – Downstream of colibactin-induced DNA damage; tumor suppressor response
 
 ---
 

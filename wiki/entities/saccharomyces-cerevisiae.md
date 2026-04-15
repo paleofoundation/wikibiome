@@ -11,6 +11,8 @@ oxygen_requirement: "facultative"
 metal_dependencies: [zinc, manganese, copper, iron]
 key_enzymes: [alcohol-dehydrogenase, pyruvate-dehydrogenase, cytochrome-c-oxidase]
 platform: wikibiome
+seo_target: "Saccharomyces cerevisiae gut microbiome probiotic zinc"
+wikipedia_differentiation: "Gut microbiome roles — zinc-dependent probiotic activity, antagonism of Candida albicans, S. boulardii therapeutic applications in IBD, and metal-binding capacity — all absent from Wikipedia's fermentation-focused entry"
 ---
 
 # Saccharomyces cerevisiae
@@ -73,8 +75,8 @@ platform: wikibiome
 - **Primary pathway**: Glucose → 2 Ethanol + 2 CO2 (via pyruvate)
 - Occurs under aerobic or anaerobic conditions (facultative fermentation).
 - Ethanol production is both a **metabolic endpoint and a competitive weapon**:
-  - Ethanol (5–8% w/v) inhibits pathogenic bacteria and fungi.
-  - *S. cerevisiae* is notably ethanol-tolerant; most bacteria cannot survive >4% ethanol.
+ - Ethanol (5–8% w/v) inhibits pathogenic bacteria and fungi.
+ - *S. cerevisiae* is notably ethanol-tolerant; most bacteria cannot survive >4% ethanol.
 
 ### Production of Organic Acids and Metabolites
 
@@ -177,8 +179,8 @@ platform: wikibiome
 
 - **[[candida-albicans]]** – Primary antagonist; *S. cerevisiae* suppresses *Candida* overgrowth
 - **[[clostridioides-difficile]]** – Antagonized by *S. boulardii* via biofilm disruption and barrier enhancement
-- **[[ethanol]]** – Primary fermentation product; antimicrobial weapon
-- **[[acetic-acid]]** – Fermentation byproduct; pathogenic suppression
+- **** – Primary fermentation product; antimicrobial weapon
+- **** – Fermentation byproduct; pathogenic suppression
 - **[[zinc]]** – Required for alcohol dehydrogenase, pyruvate dehydrogenase, metalloproteases
 - **[[iron]]** – Required for cytochrome c oxidase and iron-sulfur cluster enzymes
 - **[[manganese]]** – Required for superoxide dismutase (antioxidant)
@@ -187,7 +189,7 @@ platform: wikibiome
 - **[[multiple-sclerosis]]** – Dysbiotic MS involves Candida overgrowth; *S. boulardii* suppression beneficial
 - **[[dysbiosis]]** – Antagonizes pathogenic fungi; restores commensal/probiotic balance
 - **[[inflammation]]** – *S. boulardii* reduces IL-8, increases IL-10; barrier-protective
-- **[[nutritional-immunity|gut-barrier-integrity]]** – Increases mucin and tight junction proteins
+- **[[nutritional-immunity|nutritional immunity]]** – Increases mucin and tight junction proteins
 
 ## Storage and Bioavailability
 

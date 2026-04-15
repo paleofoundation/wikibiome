@@ -27,4 +27,4 @@ condition: "autism spectrum disorder"
 - [[mercury]] -- elevated levels in ASD children
 - [[lead]] -- neurotoxic exposure linked to ASD risk
 - [[heavy-metals]] -- environmental metal exposure and ASD
-- [[environmental-exposures]] -- metal toxicity in ASD etiology
+- -- metal toxicity in ASD etiology

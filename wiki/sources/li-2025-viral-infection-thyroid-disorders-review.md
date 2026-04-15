@@ -35,6 +35,6 @@ platform: wikibiome
 ## Connections
 
 - Viral mechanism taxonomy directly relevant to [[weider-2022-viruses-thyroid-tissue]] tissue-level findings
-- EBV-NF-kB pathway activation connects to [[Molecular Mimicry]] in [[Thyroid Autoimmunity]]
+- EBV-NF-kB pathway activation connects to in 
 - SARS-CoV-2-thyroid interactions extend pandemic relevance discussed in [[legakis-2023-thyroid-diseases-intestinal-microbiome]]
 - HPV-HT association novel finding with implications for vaccination programs and autoimmune risk

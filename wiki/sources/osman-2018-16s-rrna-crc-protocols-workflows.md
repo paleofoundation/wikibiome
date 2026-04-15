@@ -35,7 +35,7 @@ platform: wikibiome
 ## Connections
 
 - Provides methodological framework for interpreting results from [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]], [[loke-2018-metabolomics-16s-crc-mucosa]], and [[bars-cortina-2024-16s-vs-shotgun-crc]]
-- The primer selection and hypervariable region choices discussed here directly affect comparability with [[shotgun-metagenomics]] approaches
+- The primer selection and hypervariable region choices discussed here directly affect comparability with approaches
 - CRC-associated taxa identified in this review overlap substantially with [[microbial-biomarkers]] reported in later meta-analyses
 - The emphasis on *F. nucleatum* as a key CRC pathogen connects to virulence factor discussions in [[kudra-2023-oral-microbiome-crc-perspectives]]
 - [[colorectal-cancer]]

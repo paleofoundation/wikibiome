@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Case-control pilot study at Peking Union Medical College Hospital
 - **Participants**: 68 patients (19 adenomyosis, 20 endometriosis, 7 AMEM, 36 controls), 134 cervical/vaginal/uterine samples
 - **Methods**: 16S rRNA V3-V4 sequencing (Illumina HiSeq2500), LEfSe, PICRUSt
-- **Key results**:
-  - 7.35 million raw sequences from 67 cervical and 65 posterior fornix samples
-  - No significant alpha diversity differences between disease groups
-  - *Campylobacter*, *Ezakiella*, *Faecalibacterium*, and *Escherichia/Shigella* higher in AMEM group
-  - Beta diversity by Bray-Curtis showed AMEM significantly different from other groups
-  - Six bacterial genera with OTU abundance >1% were identified in circular plots
+
+ - 7.35 million raw sequences from 67 cervical and 65 posterior fornix samples
+ - No significant alpha diversity differences between disease groups
+ - *Campylobacter*, *Ezakiella*, *Faecalibacterium*, and *Escherichia/Shigella* higher in AMEM group
+ - Beta diversity by Bray-Curtis showed AMEM significantly different from other groups
+ - Six bacterial genera with OTU abundance >1% were identified in circular plots
 
 # Relevance to Wiki
 

@@ -1,15 +1,40 @@
 ---
-
-title: "Recent advances of trace elements in autoimmune thyroid disease"
+title: Recent advances of trace elements in autoimmune thyroid disease
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Li S, Xu Q, Wang S, Peng H, Liu Y]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Li S
+  - Xu Q
+  - Wang S
+  - Peng H
+  - Liu Y
 journal: Frontiers in Immunology
 year: 2025
-tags: [hashimotos-thyroiditis, thyroid, autoimmune, trace-elements, selenium, iodine, zinc, iron, copper, magnesium, vitamin-d, oxidative-stress, immune-regulation, graves-disease]
-doi: "10.3389/fimmu.2025.1662521"
+tags:
+  - hashimotos-thyroiditis
+  - thyroid
+  - autoimmune
+  - trace-elements
+  - selenium
+  - iodine
+  - zinc
+  - iron
+  - copper
+  - magnesium
+  - vitamin-d
+  - oxidative-stress
+  - immune-regulation
+  - graves-disease
+doi: 10.3389/fimmu.2025.1662521
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Quantifies the trace-element disruptions that precede autoimmune thyroid disease — selenium and zinc deficiencies with iron and iodine dysregulation — and links them to Th1/Th2/Treg imbalance through selenoprotein and metalloenzyme dependencies. Supports the trace-element layer of WikiBiome's Hashimoto's and Graves signatures and ties AITD into the broader pattern of metal-deficiency-driven autoimmunity.
 ---
 
 # Recent advances of trace elements in autoimmune thyroid disease
@@ -28,10 +53,10 @@ platform: wikibiome
 
 - **Study type**: Narrative review (published November 2025)
 - **Selenium and AITD** (Table 1 summarizing clinical studies):
-  - Se levels significantly lower in HT (104.36 ug/l) and GD (97.68 ug/l) vs controls (122.63 ug/l) (p<0.001)
-  - Combined myo-inositol + Se supplementation reduced TSH, TPOAb, and TgAb after 6 months
-  - Se monotherapy (83 ug/day) normalized TSH in 17.2% of subjects vs 31.3% controls
-  - Selenium modulates Th1/Th2 cytokine balance, increases regulatory T cells (Tregs), and reduces Foxp3 deficiency
+ - Se levels significantly lower in HT (104.36 ug/l) and GD (97.68 ug/l) vs controls (122.63 ug/l) (p<0.001)
+ - Combined myo-inositol + Se supplementation reduced TSH, TPOAb, and TgAb after 6 months
+ - Se monotherapy (83 ug/day) normalized TSH in 17.2% of subjects vs 31.3% controls
+ - Selenium modulates Th1/Th2 cytokine balance, increases regulatory T cells (Tregs), and reduces Foxp3 deficiency
 - **Iodine mechanisms**: Excess iodine directly inhibits TPO activity and NIS expression, induces ROS in thyroid cells, promotes Th17 cell proliferation and alters Th1/Th2 balance
 - **Zinc and AITD**: Zinc mediates IL-1, IL-6, TNF-alpha synthesis; thyroid autoantibodies and zinc were significantly positively correlated in the AITD group
 - **Iron-thyroid connection**: Iron is essential for TPO activity; dual-fortified salt (iodine + iron) improved both iron and iodine status without inhibiting thyroid function

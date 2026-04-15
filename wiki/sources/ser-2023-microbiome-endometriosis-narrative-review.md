@@ -23,14 +23,14 @@ platform: wikibiome
 # Methods/Findings
 
 - **Study design**: Narrative review of recent scientific and clinical findings
-- **Key topics covered**:
-  - Epidemiology of endometriosis globally (prevalence 6-10% of reproductive-age women)
-  - Diagnosis challenges (average 4-12 year delay)
-  - Treatment guidelines comparison (ESHRE, TIGE, NICE, OGSM, ASRM)
-  - Reproductive tract microbiome in endometriosis (upper vs lower FRT)
-  - Gut microbiome and peritoneal microbiome alterations
-  - Preclinical studies in mice and non-human primates
-  - Potential microbiome-based interventions
+
+ - Epidemiology of endometriosis globally (prevalence 6-10% of reproductive-age women)
+ - Diagnosis challenges (average 4-12 year delay)
+ - Treatment guidelines comparison (ESHRE, TIGE, NICE, OGSM, ASRM)
+ - Reproductive tract microbiome in endometriosis (upper vs lower FRT)
+ - Gut microbiome and peritoneal microbiome alterations
+ - Preclinical studies in mice and non-human primates
+ - Potential microbiome-based interventions
 
 # Relevance to Wiki
 

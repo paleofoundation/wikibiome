@@ -8,8 +8,8 @@ tags: [maintenance, lint, health-check]
 
 # WikiBiome Lint Report — 2026-04-13
 
-**Automated health check run:** 2026-04-13  
-**Wiki pages scanned:** 1,773 total (1,515 sources + 258 content pages)  
+**Automated health check run:** 2026-04-13 
+**Wiki pages scanned:** 1,773 total (1,515 sources + 258 content pages) 
 **Issues found:** 4 critical, 5 high-priority, 7 medium-priority
 
 ---
@@ -55,7 +55,7 @@ The body of index.md also does not list `hashimotos-thyroiditis`, `pancreatic-ca
 This issue was flagged in the April 12 report and remains unresolved. Line 58 still reads:
 
 ```
-[[lactobacillus\|Lactobacillus]]
+[[lactobacillus|Lactobacillus]]
 ```
 
 All four broken links use backslash instead of forward slash. These will render as broken links on WikiBiome.

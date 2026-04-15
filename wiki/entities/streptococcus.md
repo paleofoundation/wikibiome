@@ -77,8 +77,8 @@ A genus of Gram-positive facultative anaerobes that occupy niches ranging from b
 
 ### Post-Infectious Sequelae
 - **Acute Rheumatic Fever (ARF)** -- develops 2-4 weeks after untreated GAS pharyngitis; affects 1-3% of infected children in developed countries, 5-10% in low-income settings. Cardiac involvement (rheumatic heart disease) is a leading cause of preventable mortality in children globally.
-  - Molecular mimicry between GAS M protein and cardiac myosin, tropomyosin, and keratin triggers autoimmune heart inflammation.
-  - Autoantibodies cross-react with cardiac valve proteins, driving valve fibrosis and stenosis.
+ - Molecular mimicry between GAS M protein and cardiac myosin, tropomyosin, and keratin triggers autoimmune heart inflammation.
+ - Autoantibodies cross-react with cardiac valve proteins, driving valve fibrosis and stenosis.
 - **Post-Infectious Glomerulonephritis (PIGN)** -- immune complex deposition in kidney glomeruli; develops in 1-5% of GAS-infected individuals; can progress to ESRD if untreated.
 - **PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal infection)** -- controversial post-infectious OCD/tics; molecular mechanism remains unproven; antibody-mediated striatal dysfunction proposed but not yet established.
 
@@ -109,9 +109,9 @@ A genus of Gram-positive facultative anaerobes that occupy niches ranging from b
 - [[manganese]] -- essential cofactor for MnSOD; Mn availability modulates virulence
 - [[zinc]] -- competing metal in calprotectin; possible bioavailability interactions
 - [[iron]] -- sequestered by host as defense; streptococci bypass via Mn-dependent metabolism
-- [[superoxide-dismutase]] -- MnSOD is critical virulence-enabling enzyme
+- -- MnSOD is critical virulence-enabling enzyme
 - [[nutritional-immunity]] -- host metal sequestration selects for Mn-dependent pathogens
 - [[biofilm]] -- carbohydrate matrix protects against antimicrobials and immune attack
-- [[molecular-mimicry]] -- M protein cross-reactivity with cardiac myosin (ARF pathogenesis)
-- [[rheumatic-heart-disease]] -- post-streptococcal sequela with global disease burden
-- [[oral-microbiome]] -- plaque pioneer; acidogenic niche developer
+- -- M protein cross-reactivity with cardiac myosin (ARF pathogenesis)
+- -- post-streptococcal sequela with global disease burden
+- -- plaque pioneer; acidogenic niche developer

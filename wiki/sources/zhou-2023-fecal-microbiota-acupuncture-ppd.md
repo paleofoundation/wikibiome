@@ -11,6 +11,7 @@ tags: [postpartum-depression, fecal-microbiota, acupuncture, biomarkers, Parapre
 library_category: interventions
 platform: cureva
 condition: "postpartum depression"
+evidence_level: cross-sectional
 ---
 
 # Key Claims

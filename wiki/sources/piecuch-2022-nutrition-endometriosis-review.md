@@ -1,15 +1,34 @@
 ---
-
-title: "I Am the 1 in 10 -- What Should I Eat? A Research Review of Nutrition in Endometriosis"
+title: I Am the 1 in 10 -- What Should I Eat? A Research Review of Nutrition in Endometriosis
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Piecuch M, Garbicz J, Waliczek M, Malinowska-Borowska J, Rozentryt P]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Piecuch M
+  - Garbicz J
+  - Waliczek M
+  - Malinowska-Borowska J
+  - Rozentryt P
 journal: Nutrients
 year: 2022
-tags: [endometriosis, nutrition, dietary-intervention, low-nickel-diet, anti-inflammatory-diet, polyphenols, antioxidants, review]
-doi: "10.3390/nu14245283"
+tags:
+  - endometriosis
+  - nutrition
+  - dietary-intervention
+  - low-nickel-diet
+  - anti-inflammatory-diet
+  - polyphenols
+  - antioxidants
+  - review
+doi: 10.3390/nu14245283
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Identifies dietary nickel as a mechanistic driver of endometriosis GI symptoms through allergic contact mucositis, linking metal exposure to disease phenotype via low-nickel dietary intervention evidence. WikiBiome depends on this evidence to establish the dietary-nickel-endometriosis pathway and to integrate nutritional immunity interventions into the endometriosis signature as a validated ecological disruption mechanism."
 ---
 
 # Key Claims

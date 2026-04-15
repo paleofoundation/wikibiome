@@ -10,6 +10,7 @@ year: 2016
 tags: [copper, nickel, rheumatoid-arthritis, soil-pollution, inflammation, ESR, Taiwan, environmental-exposure]
 doi: "10.1016/j.neuro.2023.04.013"
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Key Claims

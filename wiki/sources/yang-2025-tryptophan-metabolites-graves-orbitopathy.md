@@ -10,6 +10,10 @@ year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, graves-disease, tryptophan, indoles, indoleacetic-acid, indolepropionic-acid, indole-3-lactate, gut-microbiota, inflammation, orbital-fibroblasts]
 doi: "10.1007/s40618-025-02593-6"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: in-vitro
 ---
 
 # Tryptophan metabolites exert potential therapeutic activity in Graves' orbitopathy by ameliorating orbital fibroblasts inflammation and proliferation
@@ -28,17 +32,17 @@ platform: wikibiome
 - **Participants**: 100 healthy volunteers (controls), 145 GD patients, 156 GO patients (Beijing Tongren Hospital, Jan 2020 - March 2022)
 - **16S sequencing**: 33 patients with severe and active GO and 32 healthy volunteers; Trp metabolism-associated gut flora analyzed
 - **Serum metabolomics**: 16 healthy volunteers, 16 GD patients, 31 severe and active GO patients (March 2017 - March 2018)
-- **Key findings**:
-  - Firmicutes and Anaerostipes significantly decreased in GO patients
-  - KEGG pathway enrichment confirmed Trp metabolic pathway significantly enriched in both GO and GD groups
-  - IPA: decreased in GD and GO (specific levels not shown in first pages)
-  - ILA: decreased in both groups
-  - IAA: most significantly decreased in GO; active GO < inactive GO; negatively correlated with CAS and TRAb
+
+ - Firmicutes and Anaerostipes significantly decreased in GO patients
+ - KEGG pathway enrichment confirmed Trp metabolic pathway significantly enriched in both GO and GD groups
+ - IPA: decreased in GD and GO (specific levels not shown in first pages)
+ - ILA: decreased in both groups
+ - IAA: most significantly decreased in GO; active GO < inactive GO; negatively correlated with CAS and TRAb
 - **In vitro experiments** (orbital fibroblasts from GO patients):
-  - OFs treated with TNF-alpha (20 ng/ml) showed increased inflammation and proliferation
-  - IPA (10, 50, 100 uM), ILA (0.1, 0.5, 1 mM), IAA (25, 100, 400 uM) all suppressed TNF-alpha effects
-  - Anti-proliferation effect assessed via Cell Counting Kit-8 (CCK8) assay over 24 hours
-  - Akt signaling pathway suppression confirmed as mechanism of action
+ - OFs treated with TNF-alpha (20 ng/ml) showed increased inflammation and proliferation
+ - IPA (10, 50, 100 uM), ILA (0.1, 0.5, 1 mM), IAA (25, 100, 400 uM) all suppressed TNF-alpha effects
+ - Anti-proliferation effect assessed via Cell Counting Kit-8 (CCK8) assay over 24 hours
+ - Akt signaling pathway suppression confirmed as mechanism of action
 
 ## Connections
 

@@ -25,10 +25,10 @@ platform: wikibiome
 # Methods/Findings
 
 - **Review scope**: Mini-review integrating co-selection mechanisms with systems biology and gene network approaches (Rev Environ Health, 2020)
-- **Three co-selection mechanisms detailed**:
-  - **A. Cross-resistance**: One resistance gene confers resistance to multiple agents (antibiotics, metals, PAHs) via efflux pumps; e.g., MexGHI-OpmD in *P. aeruginosa* confers resistance to clavulanic acid, vanadium, and ticarcillin; also confers resistance to Cd, Zn, Co via CzcRS two-component regulator decreasing OprD porin expression, leading to imipenem resistance
-  - **B. Co-resistance**: Physical presence of different resistance genes on same mobile element (plasmids, transposons); operon for Cu and Ag resistance plus beta-lactamase gene (*bla_CTX-M*) on same plasmids; quaternary ammonium compound (QAC) resistance genes co-located
-  - **C. Co-regulation**: Two-component regulator of *P. aeruginosa* (CzcRS) increases expression of *czcCBA* efflux pump for Cd, Zn, Co resistance while decreasing OprD porins, increasing antibiotic resistance
+
+ - **A. Cross-resistance**: One resistance gene confers resistance to multiple agents (antibiotics, metals, PAHs) via efflux pumps; e.g., MexGHI-OpmD in *P. aeruginosa* confers resistance to clavulanic acid, vanadium, and ticarcillin; also confers resistance to Cd, Zn, Co via CzcRS two-component regulator decreasing OprD porin expression, leading to imipenem resistance
+ - **B. Co-resistance**: Physical presence of different resistance genes on same mobile element (plasmids, transposons); operon for Cu and Ag resistance plus beta-lactamase gene (*bla_CTX-M*) on same plasmids; quaternary ammonium compound (QAC) resistance genes co-located
+ - **C. Co-regulation**: Two-component regulator of *P. aeruginosa* (CzcRS) increases expression of *czcCBA* efflux pump for Cd, Zn, Co resistance while decreasing OprD porins, increasing antibiotic resistance
 - **Role of PAHs**: ARGs are 15 times higher in PAH-contaminated soils; PAHs are hydrophobic and form strong associations with non-polar hydrophobic moieties in soil; PAH-contaminated soils dominated by Proteobacteria carrying ARGs
 - **Efflux pump overexpression**: Mutations in efflux pumps caused by heavy metal, antibiotic, or PAH exposure lead to overexpression, resulting in cross-resistance to multiple compound classes simultaneously
 - **Genetic elements**: *IntI1* present in higher abundance in contaminated soils; Proteobacteria dominant phylum harboring ARGs; *sulI*, *tetA*, *tetM*, *qnrA*, *qepA* genes progressively associated with Cu, Hg, Zn

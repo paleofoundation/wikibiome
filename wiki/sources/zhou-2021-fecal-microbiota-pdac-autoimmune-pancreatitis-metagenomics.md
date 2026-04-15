@@ -10,6 +10,7 @@ year: 2021
 tags: [pancreatic-cancer, shotgun-metagenomics, fecal-microbiota, autoimmune-pancreatitis, SCFAs, butyrate, microbial-biomarkers, Firmicutes, Proteobacteria, metabolic-pathways]
 doi: "10.1186/s12967-021-02882-7"
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Key Claims

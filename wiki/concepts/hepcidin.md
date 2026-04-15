@@ -56,7 +56,6 @@ Elevated hepcidin during infection represents the host INTENTIONALLY restricting
 
 Hepcidin measurement should ideally guide iron supplementation decisions: supplementing iron when hepcidin is high is at best ineffective and at worst feeds pathogens and worsens dysbiosis. This principle is violated daily in clinical practice because hepcidin is not part of standard iron panels.
 
-
 ## Key Sources
 
 - [[maier-2019-nickel-microbial-pathogenesis]]

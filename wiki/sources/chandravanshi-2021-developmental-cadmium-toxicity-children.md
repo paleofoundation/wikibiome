@@ -80,13 +80,13 @@ This systematic review is the most comprehensive examination of [[cadmium]] deve
 ## Connections
 
 - Core reference for [[cadmium]] developmental toxicity -- pediatric focus complements adult-focused reviews
-- IQ and neurodevelopmental effects parallel [[lead]] and [[aluminum]] findings in [[Corkins 2019|corkins-2019-aluminum-effects-infants-children]]
-- Renal biomarkers (UB2M, URBP, UNAG) relevant to [[kidney-disease]] and [[biomarkers]] discussions
-- Placental transfer of cadmium relevant to [[pregnancy-outcomes]] and [[in-utero-exposure]] topics
-- Cadmium as endocrine disruptor connects to [[Aquino et al. 2012|aquino-2012-cadmium-nickel-metalloestrogens]] metalloestrogen research
-- IARC Group 1 classification aligns with [[Briffa et al. 2020|briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]] Table 1
-- Oxidative stress mechanisms connect to [[Balali-Mood et al. 2021|balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
-- Smoking as primary cadmium exposure route relevant to [[dietary-metal-exposure]] and public health interventions
+- IQ and neurodevelopmental effects parallel [[lead]] and [[aluminum]] findings in 
+- Renal biomarkers (UB2M, URBP, UNAG) relevant to and [[biomarkers]] discussions
+- Placental transfer of cadmium relevant to and topics
+- Cadmium as endocrine disruptor connects to metalloestrogen research
+- IARC Group 1 classification aligns with Table 1
+- Oxidative stress mechanisms connect to 
+- Smoking as primary cadmium exposure route relevant to and public health interventions
 - Sex-specific effects (stronger in girls) relevant to understanding gender differences in metal susceptibility
 - Cadmium-selenium antagonism connects to [[selenium]] protective role discussions
-- Breast milk cadmium passage relevant to [[infant-nutrition]] and [[dietary-metal-exposure]]
+- Breast milk cadmium passage relevant to and 

@@ -30,10 +30,10 @@ A Gram-positive, aerobic to facultatively anaerobic, **spore-forming** genus tha
 ## Metal Resistance and Detoxification
 
 - *Bacillus* species possess extensive **metal resistance gene clusters** enabling survival in metal-contaminated environments and active metal sequestration:
-  - Cadmium resistance via CadA efflux ATPase and metallothionein-like proteins
-  - Lead biosorption through cell wall teichoic acids and exopolysaccharides
-  - Arsenic resistance via ars operons (arsenate reductase, arsenite efflux)
-  - Zinc/copper homeostasis through P-type ATPases
+ - Cadmium resistance via CadA efflux ATPase and metallothionein-like proteins
+ - Lead biosorption through cell wall teichoic acids and exopolysaccharides
+ - Arsenic resistance via ars operons (arsenate reductase, arsenite efflux)
+ - Zinc/copper homeostasis through P-type ATPases
 - *B. subtilis* and *B. coagulans* can **bind and sequester heavy metals** in the gut lumen, reducing intestinal absorption of [[cadmium]], [[lead]], and [[arsenic]] [[chen-2022-living-microorganisms-detoxification-heavy-metals]].
 - Proposed as **living biosensors** for heavy metal detection in food and environmental samples due to their metal-responsive gene expression systems [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 
@@ -66,7 +66,6 @@ A Gram-positive, aerobic to facultatively anaerobic, **spore-forming** genus tha
 - **Surfactin / iturin / fengycin** -- antimicrobial lipopeptides
 - **L-lactic acid** -- fermentation product (*B. coagulans*)
 - **Dipicolinic acid** -- spore component; metal chelator
-
 
 ## Key Sources
 

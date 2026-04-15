@@ -25,13 +25,13 @@ platform: wikibiome
 
 - **Type**: Observational cohort (192 CRC patients: 62 stage I-II, 130 stage III-IV)
 - **Methods**: 16S rDNA sequencing of preoperative stools; transcriptome sequencing of 17 CRC tumor samples; CIBERSORT immune deconvolution; XGBoost and Random Forest machine learning
-- **Key findings**:
-  - 41 bacteria with significant abundance differences between early and advanced CRC
-  - LDA analysis identified top bacteria: *Ruminococcaceae*, *Faecalibacterium*, *Roseburia*, *Butyricicoccus* enriched in early CRC (stage I-II)
-  - *Corynebacterium*, *Morganella*, *Proteus*, *Citrobacter* enriched in advanced CRC (stage III-IV)
-  - O-glycan biosynthesis (ko00514) significantly higher in stage III-IV; arachidonic acid metabolism (ko00590) higher in stage I-II
-  - Stage I-II CRC bacteria positively correlated with NK cell resting and B cells naive
-  - Stage III-IV bacteria positively correlated with mast cells resting and dendritic cells activated
+
+ - 41 bacteria with significant abundance differences between early and advanced CRC
+ - LDA analysis identified top bacteria: *Ruminococcaceae*, *Faecalibacterium*, *Roseburia*, *Butyricicoccus* enriched in early CRC (stage I-II)
+ - *Corynebacterium*, *Morganella*, *Proteus*, *Citrobacter* enriched in advanced CRC (stage III-IV)
+ - O-glycan biosynthesis (ko00514) significantly higher in stage III-IV; arachidonic acid metabolism (ko00590) higher in stage I-II
+ - Stage I-II CRC bacteria positively correlated with NK cell resting and B cells naive
+ - Stage III-IV bacteria positively correlated with mast cells resting and dendritic cells activated
 
 ## Connections
 

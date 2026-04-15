@@ -25,12 +25,12 @@ platform: wikibiome
 - **Design**: Cross-sectional, observational, case-control study in Naples, Italy (January 2014-January 2019)
 - **Participants**: 112 treatment-naive PCOS women (ESHRE/ASRM criteria) and 112 age- and BMI-matched healthy controls
 - **Assessments**: PREDIMED questionnaire (14-item MD adherence), 7-day food diary records, bioelectrical impedance analysis (BIA), hormonal/metabolic assays
-- **Key results**:
-  - PCOS women: higher testosterone (28.51 vs 10.21 ng/dL), insulin (11.61 vs 6.19 uU/mL), HOMA-IR (2.90 vs 1.45), CRP (1.03 vs 0.58 ng/mL) -- all p < 0.001
-  - PCOS women consumed less complex carbohydrate, fiber, MUFA, n-3 PUFA; more simple carbohydrate, total fat, SFA, n-6 PUFA
-  - Multiple regression: CRP levels (R2=0.704), PREDIMED score (R2=0.724), and MUFA intake (R2=0.738) predicted testosterone levels
-  - BIA: PCOS women had lower PhA, fat-free mass, total body water; higher fat mass and extracellular water
-  - When stratified by median testosterone: PCOS women above median had worse MD adherence, dietary pattern, CRP, and body composition
+
+ - PCOS women: higher testosterone (28.51 vs 10.21 ng/dL), insulin (11.61 vs 6.19 uU/mL), HOMA-IR (2.90 vs 1.45), CRP (1.03 vs 0.58 ng/mL) -- all p < 0.001
+ - PCOS women consumed less complex carbohydrate, fiber, MUFA, n-3 PUFA; more simple carbohydrate, total fat, SFA, n-6 PUFA
+ - Multiple regression: CRP levels (R2=0.704), PREDIMED score (R2=0.724), and MUFA intake (R2=0.738) predicted testosterone levels
+ - BIA: PCOS women had lower PhA, fat-free mass, total body water; higher fat mass and extracellular water
+ - When stratified by median testosterone: PCOS women above median had worse MD adherence, dietary pattern, CRP, and body composition
 
 # Connections
 

@@ -9,6 +9,9 @@ journal: Advances in Bioremediation and Phytoremediation (IntechOpen)
 year: 2018
 tags: [Candida-albicans, biosorption, heavy-metals, chromium, bioremediation, metal-resistance, yeast]
 platform: wikibiome
+karen_brain_primitives: [1]
+metals_discussed: ["arsenic", "cadmium", "chromium", "cobalt", "copper", "lead", "mercury", "zinc"]
+taxa_discussed: ["Candida"]
 ---
 
 ## Summary

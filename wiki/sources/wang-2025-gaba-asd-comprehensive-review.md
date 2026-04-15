@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, GABA, GABAergic-neurons, neurotransmitter, sign
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -24,5 +27,5 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- GABA system dysfunction in ASD
-- [[GABA]] -- abnormal levels and signaling in ASD
-- [[neurotransmitters]] -- excitatory-inhibitory imbalance in ASD
+- -- abnormal levels and signaling in ASD
+- -- excitatory-inhibitory imbalance in ASD

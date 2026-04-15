@@ -11,6 +11,7 @@ tags: [autism, diet, microbiome, metagenomics, food-additives, emulsifiers, poly
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
 ---
 
 # Key Claims

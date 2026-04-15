@@ -55,7 +55,6 @@ A key finding: dietary fiber intake and BMI are independent predictors of HOMA-I
 - **Ketogenic/low-carb diets**: improve IR markers in PCOS but may reduce fiber intake if poorly designed [[mavropoulos-2005-ketogenic-diet-pcos]].
 - **Probiotics**: some evidence for IR improvement in PCOS, possibly through gut-mediated metal and metabolic pathways [[calcaterra-2023-probiotics-pcos-adolescents]].
 
-
 ## Key Sources
 
 - [[kirmizi-2020-heavy-metals-pcos]]

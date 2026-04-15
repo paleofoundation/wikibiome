@@ -29,9 +29,9 @@ platform: wikibiome
 - **Diagnosis**: Modified Rotterdam Criteria
 - **Measurements**: Cu, Zn, Fe, P, Mg via colorimetric/chelation assays; hormonal profiles; lipid panels; IVF outcomes
 - **Statistical methods**: Mann-Whitney U test; Spearman correlations; linear trend analysis across Cu quartiles; odds ratios for IVF outcomes by Cu quartile
-- **IVF findings**:
-  - PCOS group: Higher total Gn dose, more retrieved oocytes, higher MII oocytes, but lower oocyte recovery rate (71.43% vs 79.17%, p < 0.001) and lower normal fertilization rate (77.78% vs 80%, p = 0.005)
-  - Cu correlated with total Gn dose in both groups but not with other IVF parameters after adjustment
+
+ - PCOS group: Higher total Gn dose, more retrieved oocytes, higher MII oocytes, but lower oocyte recovery rate (71.43% vs 79.17%, p < 0.001) and lower normal fertilization rate (77.78% vs 80%, p = 0.005)
+ - Cu correlated with total Gn dose in both groups but not with other IVF parameters after adjustment
 - **Limitations**: Single-center; retrospective; serum only (no follicular fluid or urine Cu); Chinese population
 
 # Connections

@@ -25,8 +25,8 @@ Comprehensive systematic review of **44 studies** assessing **gut microbiota com
 - **Increased Pseudomonadota**: 78% of ASD children (significant enrichment)
 - **Decreased Bacteroidetes**: 56% of ASD children (consistent depletion)
 - **Bacteroidetes:Firmicutes ratio** tends to be **lower (56%) vs controls**
-  - **Correlates with behavioral and gastrointestinal abnormalities**
-  - Key indicator of dysbiosis severity
+ - **Correlates with behavioral and gastrointestinal abnormalities**
+ - Key indicator of dysbiosis severity
 
 ## Gastrointestinal Comorbidity
 
@@ -57,10 +57,10 @@ Comprehensive systematic review of **44 studies** assessing **gut microbiota com
 # Mechanistic Insights
 
 - **Gut microbiota–ASD interplay** likely involves:
-  - Microbial metabolite production (short-chain fatty acids, tryptophan metabolites)
-  - Intestinal barrier integrity
-  - Immune system activation
-  - Microbial-derived signals to CNS via vagal and systemic pathways
+ - Microbial metabolite production (short-chain fatty acids, tryptophan metabolites)
+ - Intestinal barrier integrity
+ - Immune system activation
+ - Microbial-derived signals to CNS via vagal and systemic pathways
 
 # Methodological Limitations
 

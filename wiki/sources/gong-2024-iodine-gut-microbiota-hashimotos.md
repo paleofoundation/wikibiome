@@ -26,16 +26,16 @@ platform: wikibiome
 
 - **Study type**: Case-control human study + animal model (published 2024)
 - **Human cohort**: 23 HT patients and 25 healthy controls
-- **Key human findings**:
-  - Alpha diversity significantly decreased in HT: observed species (p<0.001), ACE (p<0.001), Chao1 (p<0.001), Shannon (p<0.01)
-  - NMDS analysis showed distinct separation between HT and controls
-  - At genus level: Ruminococcus, Lachnoclostridium, UCG-002, Coprococcus, Phascolarctobacterium, UCG-005, Butyricicoccus significantly different
-  - Metabolomic PLS-DA showed distinct separation; butanoate metabolism, tyrosine metabolism, and vitamin B6 metabolism pathways significantly altered
-  - N-(2,6-dichloro-4-methoxyphenyl) acetamide decreased in HT and negatively correlated with TPOAb and TgAb
+
+ - Alpha diversity significantly decreased in HT: observed species (p<0.001), ACE (p<0.001), Chao1 (p<0.001), Shannon (p<0.01)
+ - NMDS analysis showed distinct separation between HT and controls
+ - At genus level: Ruminococcus, Lachnoclostridium, UCG-002, Coprococcus, Phascolarctobacterium, UCG-005, Butyricicoccus significantly different
+ - Metabolomic PLS-DA showed distinct separation; butanoate metabolism, tyrosine metabolism, and vitamin B6 metabolism pathways significantly altered
+ - N-(2,6-dichloro-4-methoxyphenyl) acetamide decreased in HT and negatively correlated with TPOAb and TgAb
 - **Mouse model** (NOD.H-2h4 mice with increasing iodine: IG10, IG100, IG1000):
-  - Thyroid inflammation scoring and TgAb concentration increased with iodine dose
-  - Roseburia and Staphylococcus enriched in controls; Turibacter in IG10; Akkermansia and Bacteroides in IG1000
-  - Alpha diversity increased with iodine exposure (paradoxically)
+ - Thyroid inflammation scoring and TgAb concentration increased with iodine dose
+ - Roseburia and Staphylococcus enriched in controls; Turibacter in IG10; Akkermansia and Bacteroides in IG1000
+ - Alpha diversity increased with iodine exposure (paradoxically)
 - **Butyrate rescue**: Sodium butyrate supplementation altered gut microbiota at phylum level, enriched Firmicutes and Bifidobacteriaceae, and partially rescued the HT phenotype
 
 ## Connections

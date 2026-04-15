@@ -74,7 +74,6 @@ The Pendergrass framework proposes a seven-step causal pathway from agricultural
 - Bariatric surgery alters serum bile acid profiles alongside dramatic microbiome shifts; the bile acid-FXR-FGF19 signaling axis is central to metabolic improvements post-surgery [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 - [[bile-acid-metabolism]] disruption in obesity reflects both dietary fat intake and metal-induced loss of BSH-expressing and 7-alpha-dehydroxylating bacteria.
 
-
 ## Key Sources
 
 - [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]]

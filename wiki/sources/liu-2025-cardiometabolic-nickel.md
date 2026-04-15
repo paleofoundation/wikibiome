@@ -11,6 +11,9 @@ volume: "25(7):944-954"
 doi: "10.1007/s12012-025-10014-6"
 tags: [nickel, cardiovascular-disease, metabolic-syndrome, NHANES, oxidative-stress, epidemiology]
 platform: wikibiome
+keystone: true
+keystone_criteria_met: [1, 3, 4]
+why_keystone: "This review bridges nickel toxicology and cardio-metabolic disease — two fields that rarely intersect. It provides the epidemiological and mechanistic evidence connecting nickel exposure to cardiovascular disease and metabolic syndrome, which allows WikiBiome to extend its nickel-pathogenesis framework beyond the gut into systemic metabolic consequences. Without this paper, the cross-condition pattern linking nickel to both gut dysbiosis and cardiovascular outcomes could not be drawn."
 ---
 
 # Cardio-Metabolic Effects of Nickel: A Narrative Review
@@ -79,5 +82,5 @@ Eight studies used this same database with different designs and reached varying
 - Relates to [[nickel]] toxicology broadly
 - [[oxidative-stress]] as shared mechanism with [[arsenic]] and [[chromium]] carcinogenicity
 - [[metabolic-syndrome]] as an endpoint
-- [[NHANES]] as primary epidemiological data source
+- as primary epidemiological data source
 - [[cardiovascular-disease]]

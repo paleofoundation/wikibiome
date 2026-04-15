@@ -6,19 +6,19 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - khan-2014-metals-type2-diabetes
-  - lu-2024-nickel-diabetes-meta-analysis
-  - li-2019-heavy-metal-metabolic-health-gut-microbiome
-  - pendergrass-2026-heavy-metals-obesity-epidemic
-  - liu-2025-cardiometabolic-nickel
-  - denkhaus-2002-nickel-essentiality-toxicity
-  - lusi-2015-nickel-allergy-overweight
-  - ghosh-2023-heavy-metals-gut-barrier-integrity
-  - duan-2020-gut-microbiota-heavy-metal-probiotic-strategy
-  - anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors
-  - shin-2023-chromium-toxicogenomics
-  - zhu-2024-toxic-essential-metals-gut-microbiota
-  - li-2019-heavy-metal-metabolic-health-gut-microbiome
+ - khan-2014-metals-type2-diabetes
+ - lu-2024-nickel-diabetes-meta-analysis
+ - li-2019-heavy-metal-metabolic-health-gut-microbiome
+ - pendergrass-2026-heavy-metals-obesity-epidemic
+ - liu-2025-cardiometabolic-nickel
+ - denkhaus-2002-nickel-essentiality-toxicity
+ - lusi-2015-nickel-allergy-overweight
+ - ghosh-2023-heavy-metals-gut-barrier-integrity
+ - duan-2020-gut-microbiota-heavy-metal-probiotic-strategy
+ - anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors
+ - shin-2023-chromium-toxicogenomics
+ - zhu-2024-toxic-essential-metals-gut-microbiota
+ - li-2019-heavy-metal-metabolic-health-gut-microbiome
 tags: [disease, diabetes, metabolic, metabolic-disease, metals, zinc, chromium, iron, nickel, cadmium, insulin-resistance, microbiome, obesogens]
 platform: wikibiome
 last_substantive_update: 2026-04-13

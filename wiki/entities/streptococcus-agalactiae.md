@@ -100,11 +100,11 @@ This **targeted immune evasion** is more subtle and persistent than toxin-mediat
 
 ```
 Estradiol (E2, circulating) → Estradiol-17β-glucuronide (conjugated, excreted) 
-                              ↓ (fecal secretion)
-                      [bacterial β-glucuronidase activity]
-                              ↓
-                          Free E2 (reabsorbed via enterohepatic circulation)
-                              ↓
+ ↓ (fecal secretion)
+ [bacterial β-glucuronidase activity]
+ ↓
+ Free E2 (reabsorbed via enterohepatic circulation)
+ ↓
 Elevated systemic E2 → estrogen-responsive tissue proliferation/inflammation
 ```
 
@@ -226,20 +226,20 @@ The **mimicry of host hyaluronic acid** is particularly clever: the bacterial GB
 - **[[hepcidin]]** – Host iron-withholding defense; suppresses GBS (indirectly)
 - **[[calprotectin]]** – Host zinc-binding antimicrobial protein; zinc-withholding defense; suppresses GBS
 - **[[lactoferrin]]** – Host iron/zinc-binding protein; competes with GBS for metals
-- **[[hyaluronidase]]** – GBS virulence factor; tissue-invasive enzyme
-- **[[metallopeptidase]]** – Multiple GBS zinc-metallopeptidases; immune evasion
-- **[[c5a-peptidase]]** – GBS enzyme; blocks neutrophil recruitment (complement evasion)
+- **** – GBS virulence factor; tissue-invasive enzyme
+- **** – Multiple GBS zinc-metallopeptidases; immune evasion
+- **** – GBS enzyme; blocks neutrophil recruitment (complement evasion)
 - **[[beta-glucuronidase]]** – GBS enzyme; deconjugates estrogens; estrogen recirculation
 - **[[estrobolome]]** – GBS is a key β-glucuronidase producer; drives estrogen recirculation
 - **[[estrogen-recirculation]]** – GBS-mediated β-glucuronidase activity increases circulating estradiol
 - **[[endometriosis]]** – Enriched in reproductive tract microbiota; β-glucuronidase drives disease pathogenesis
-- **[[dysmenorrhea]]** – Associated with GBS enrichment; chronic inflammation + estrogen elevation
-- **[[pelvic-pain]]** – Elevated in endometriosis with GBS dysbiosis
-- **[[neonatal-infection]]** – Major pathogen; group B Streptococcus causes sepsis and meningitis in newborns
+- **** – Associated with GBS enrichment; chronic inflammation + estrogen elevation
+- **** – Elevated in endometriosis with GBS dysbiosis
+- **** – Major pathogen; group B Streptococcus causes sepsis and meningitis in newborns
 - **[[biofilm]]** – Forms robust biofilms on reproductive and GI epithelium; antiphagocytic
-- **[[molecular-mimicry]]** – Group B carbohydrate mimics host hyaluronic acid; immune evasion
-- **[[intracellular-persistence]]** – Invades epithelial cells; survives in vacuoles
-- **[[gynecologic-dysbiosis]]** – Key pathobiont in dysbiotic reproductive microbiota
+- **** – Group B carbohydrate mimics host hyaluronic acid; immune evasion
+- **** – Invades epithelial cells; survives in vacuoles
+- **** – Key pathobiont in dysbiotic reproductive microbiota
 - **[[dysbiosis]]** – Enriched in dysbiotic gut and reproductive tract
 
 ## Zinc and Endometriosis Intervention Implications (Cureva Layer)

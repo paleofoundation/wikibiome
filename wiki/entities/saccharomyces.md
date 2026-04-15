@@ -24,10 +24,10 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 ## S. boulardii -- Therapeutic Probiotic
 
 - The best-characterized fungal probiotic, with demonstrated efficacy in:
-  - **C. difficile infection**: reduces recurrence by 50-60% when combined with antibiotics; inhibits toxin A/B binding to colonocytes and degrades toxin receptor sites.
-  - **Anti-inflammatory effects**: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells.
-  - **Barrier protection**: upregulates tight junction proteins and secretory IgA production.
-  - **Antibiotic-associated diarrhea**: reduces incidence by approximately 50% across meta-analyses.
+ - **C. difficile infection**: reduces recurrence by 50-60% when combined with antibiotics; inhibits toxin A/B binding to colonocytes and degrades toxin receptor sites.
+ - **Anti-inflammatory effects**: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells.
+ - **Barrier protection**: upregulates tight junction proteins and secretory IgA production.
+ - **Antibiotic-associated diarrhea**: reduces incidence by approximately 50% across meta-analyses.
 - Unlike bacterial probiotics, *S. boulardii* is inherently resistant to all antibacterial antibiotics, making it uniquely suited for co-administration during antibiotic therapy.
 - Produces proteases that degrade bacterial toxins, including *C. difficile* toxin A and cholera toxin.
 
@@ -59,7 +59,6 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 - **Beta-glucans** -- cell wall polysaccharides that stimulate Dectin-1 immune receptor, upregulating tight junction proteins and modulating macrophage function [[huang-2024-gut-fungi-ibd-colorectal-cancer]].
 - **Proteases** -- S. boulardii secretes serine proteases that degrade bacterial toxins and pro-inflammatory signaling molecules.
 - **Short-chain fatty acids** -- indirect contribution via cross-kingdom metabolic interactions with SCFA-producing bacteria.
-
 
 ## Key Sources
 

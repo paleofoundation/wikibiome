@@ -10,6 +10,9 @@ year: 2022
 tags: [PCOS, dietary-fiber, gut-microbiota, acarbose, clinical-trial, dysbiosis, brain-gut-peptides, short-chain-fatty-acids]
 doi: "10.1016/j.eats.2022.11.005"
 platform: wikibiome
+karen_brain_primitives: [5, 7]
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -24,14 +27,14 @@ platform: wikibiome
 - **Design**: Open-label RCT, 12 weeks
 - **Participants**: 25 PCOS patients (ages 15-41), randomized to W group (n=14, high-fiber diet) or A group (n=11, high-fiber diet + acarbose 50 mg 3x/day)
 - **Intervention**: Whole-grain precooked canned gruel (240 g/day) + prebiotic powder (60 g/day containing resistant dextrin, maltose oligosaccharide, inulin, fructo-oligosaccharide) + adequate vegetables, fruits, protein
-- **Key results**:
-  - Both groups: significant increase in dietary fiber intake; improvements in LH/FSH, testosterone, hirsutism, FINS, HOMA-IR, BMI
-  - A group showed better improvement in hyperinsulinemia and insulin resistance at weeks 4 and 8
-  - Ovarian volume and number of immature follicles decreased significantly in A group
-  - Three participants became pregnant during the study
-  - 16S rRNA sequencing: gut microbial richness reduced in both groups, alpha and beta diversity significantly altered in A group
-  - Inflammatory markers (LBP, alpha-1-acid glycoprotein) decreased; adiponectin increased
-  - Brain-gut peptides (spexin, orexin, leptin) improved
+
+ - Both groups: significant increase in dietary fiber intake; improvements in LH/FSH, testosterone, hirsutism, FINS, HOMA-IR, BMI
+ - A group showed better improvement in hyperinsulinemia and insulin resistance at weeks 4 and 8
+ - Ovarian volume and number of immature follicles decreased significantly in A group
+ - Three participants became pregnant during the study
+ - 16S rRNA sequencing: gut microbial richness reduced in both groups, alpha and beta diversity significantly altered in A group
+ - Inflammatory markers (LBP, alpha-1-acid glycoprotein) decreased; adiponectin increased
+ - Brain-gut peptides (spexin, orexin, leptin) improved
 
 # Connections
 

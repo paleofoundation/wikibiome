@@ -1,13 +1,23 @@
 ---
-
-title: "Recent Advances in Therapeutics for the Treatment of Alzheimer's Disease"
+title: Recent Advances in Therapeutics for the Treatment of Alzheimer's Disease
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Passeri E, et al.]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Passeri E
+  - et al.
 journal: (Brain Sciences / related journal)
 year: 2024
-tags: [Alzheimers-disease, therapeutics, drug-development, amyloid-beta, tau-protein, cholinesterase-inhibitors, immunotherapy, clinical-trials, neuroprotection]
+tags:
+  - Alzheimers-disease
+  - therapeutics
+  - drug-development
+  - amyloid-beta
+  - tau-protein
+  - cholinesterase-inhibitors
+  - immunotherapy
+  - clinical-trials
+  - neuroprotection
 platform: wikibiome
 ---
 
@@ -22,20 +32,20 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Review of recent therapeutic advances for AD treatment
-- **Approved therapies**:
-  - Cholinesterase inhibitors (donepezil, rivastigmine, galantamine): symptomatic benefit, do not modify disease course
-  - Memantine (NMDA receptor antagonist): moderate symptomatic improvement
-  - Aducanumab, lecanemab: anti-amyloid monoclonal antibodies with accelerated/full approval
-- **Emerging therapeutic approaches**:
-  - Anti-tau therapies: antisense oligonucleotides, tau vaccines, tau aggregation inhibitors
-  - Neuroinflammation modulators: TREM2 agonists, NLRP3 inhibitors, microglial phenotype modulators
-  - Neuroprotective strategies: antioxidants, mitochondrial protectants, neurotrophic factors
-  - Metabolic interventions: insulin sensitizers, GLP-1 receptor agonists
-  - Gut microbiome modulation: sodium oligomannate (GV-971) targeting gut-brain axis
-- **Metal-related therapeutic approaches**:
-  - Metal chelation strategies for reducing metal-mediated oxidative stress and amyloid aggregation
-  - Metal-protein attenuating compounds (MPACs) designed for brain-specific metal redistribution
-  - Zinc and copper homeostasis restoration approaches
+
+ - Cholinesterase inhibitors (donepezil, rivastigmine, galantamine): symptomatic benefit, do not modify disease course
+ - Memantine (NMDA receptor antagonist): moderate symptomatic improvement
+ - Aducanumab, lecanemab: anti-amyloid monoclonal antibodies with accelerated/full approval
+
+ - Anti-tau therapies: antisense oligonucleotides, tau vaccines, tau aggregation inhibitors
+ - Neuroinflammation modulators: TREM2 agonists, NLRP3 inhibitors, microglial phenotype modulators
+ - Neuroprotective strategies: antioxidants, mitochondrial protectants, neurotrophic factors
+ - Metabolic interventions: insulin sensitizers, GLP-1 receptor agonists
+ - Gut microbiome modulation: sodium oligomannate (GV-971) targeting gut-brain axis
+
+ - Metal chelation strategies for reducing metal-mediated oxidative stress and amyloid aggregation
+ - Metal-protein attenuating compounds (MPACs) designed for brain-specific metal redistribution
+ - Zinc and copper homeostasis restoration approaches
 
 # Connections
 

@@ -32,7 +32,7 @@ platform: wikibiome
 ## Connections
 
 - Updates and extends [[atabilen-2022-dietary-interventions-ms-systematic-review]] with additional KD-specific studies through 2024
-- The biphasic microbiome response to KD connects to [[gut-dysbiosis]] correction mechanisms relevant to [[microbiome-targeted-therapy]]
+- The biphasic microbiome response to KD connects to correction mechanisms relevant to 
 - NLRP3 inflammasome inhibition by BHB complements the Nrf2 pathway activation discussed in [[bucciero-2026-diet-ms-oxidative-stress-nrf2]]
 - The ALOX5/COX1/COX2 reductions link to the eicosanoid/fatty acid pathways reviewed in [[yu-2022-fatty-acids-metabokines-ms]] and [[harbige-2007-pufa-pathogenesis-treatment-ms]]
-- High adherence rates and medication reduction provide practical evidence for [[ketogenic-diet]] as a viable complementary approach alongside [[disease-modifying-therapy]]
+- High adherence rates and medication reduction provide practical evidence for [[ketogenic-diet]] as a viable complementary approach alongside 

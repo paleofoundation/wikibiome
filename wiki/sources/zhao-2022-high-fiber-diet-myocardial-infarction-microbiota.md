@@ -9,6 +9,10 @@ journal: Frontiers in Microbiology
 year: 2022
 tags: [cardiovascular-disease, high-fiber-diet, myocardial-infarction, gut-microbiome, inflammation, macrophage-polarization, metabolomics, SCFAs]
 platform: wikibiome
+karen_brain_primitives: [5]
+metals_discussed: []
+taxa_discussed: []
+evidence_level: animal-model
 ---
 
 # Zhao et al. 2022 -- High Fiber Diet Attenuates MI via Gut Microbiota Modulation
@@ -24,18 +28,18 @@ platform: wikibiome
 
 - **Type**: In vivo mouse model study (C57BL/6 mice)
 - **Design**: Normal chow (47.6% fiber) vs high fiber diet (72.7% fiber) administered 3 weeks prior to MI induction via LAD ligation
-- **Cardiac outcomes**:
-  - Significant improvement in ejection fraction (EF%) and fractional shortening (FS%) at 1 and 4 weeks post-MI
-  - Reduced infarct size and collagen volume fraction
-  - Reduced cardiomyocyte hypertrophy near infarct zone
-- **Inflammation findings**:
-  - Reduced serum IL-6, IL-1beta, and TNF-alpha levels
-  - Significant reduction in Ly6C-high monocytes in peripheral blood
-  - Shift from M1 (iNOS+CD206-) to M2 (iNOS-CD206+) macrophages in heart tissue
-- **Microbiome changes**:
-  - Significant changes at phylum level in [[Firmicutes]], [[Bacteroidetes]], [[Verrucomicrobia]], [[Actinobacteria]]
-  - Increased *Bacteroides_acidifaciens* and decreased *Akkermansia_muciniphila* in fiber group
-  - Significant reduction in alpha diversity (OTU richness) in MI-Fiber group
+
+ - Significant improvement in ejection fraction (EF%) and fractional shortening (FS%) at 1 and 4 weeks post-MI
+ - Reduced infarct size and collagen volume fraction
+ - Reduced cardiomyocyte hypertrophy near infarct zone
+
+ - Reduced serum IL-6, IL-1beta, and TNF-alpha levels
+ - Significant reduction in Ly6C-high monocytes in peripheral blood
+ - Shift from M1 (iNOS+CD206-) to M2 (iNOS-CD206+) macrophages in heart tissue
+
+ - Significant changes at phylum level in [[Firmicutes]], [[Bacteroidetes]], [[Verrucomicrobia]], [[Actinobacteria]]
+ - Increased *Bacteroides_acidifaciens* and decreased *Akkermansia_muciniphila* in fiber group
+ - Significant reduction in alpha diversity (OTU richness) in MI-Fiber group
 - **Metabolome**: Linoleic acid metabolism and primary bile acid synthesis significantly affected; linoleic acid metabolites associated with cardiovascular risk reduction
 
 ## Source Pages
@@ -45,5 +49,5 @@ pp. 1-8
 ## Connections
 
 - Extends findings on [[short-chain-fatty-acids]] and cardiovascular protection
-- Relevant to [[microbiome-immunity interactions]] in [[cardiovascular disease]]
-- Links to [[macrophage polarization]] and cardiac repair mechanisms
+- Relevant to in [[cardiovascular disease]]
+- Links to and cardiac repair mechanisms

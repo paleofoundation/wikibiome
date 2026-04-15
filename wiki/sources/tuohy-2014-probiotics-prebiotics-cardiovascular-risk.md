@@ -9,6 +9,9 @@ journal: Proceedings of the Nutrition Society
 year: 2014
 tags: [cardiovascular-disease, probiotics, prebiotics, gut-microbiome, cholesterol, bile-acids, TMAO, SCFAs, beta-glucan, oats]
 platform: wikibiome
+karen_brain_primitives: [5]
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Tuohy et al. 2014 -- Dietary Pro- and Prebiotics for CVD Risk Management
@@ -24,15 +27,15 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Conference review paper (Joint meeting, Nutrition Society and Royal Society of Medicine)
-- **Key evidence on probiotics**:
-  - *Lactobacillus acidophilus* L1 showed significant reduction in total cholesterol in hypercholesterolaemic individuals
-  - *Lactobacillus reuteri* NCIMB 30242 (microencapsulated in yoghurt) reduced total cholesterol, non-HDL cholesterol, and LDL-cholesterol by 4.81% and 8.92% respectively
-  - Cholesterol-lowering mechanisms include binding of cholesterol in gut lumen, incorporation into bacterial cell walls, deconjugation of bile acids via BSH activity, and SCFA modulation
-- **Key evidence on prebiotics**:
-  - Prebiotic inulin and fructooligosaccharides can improve blood lipid profiles in hyperlipidaemic and type 2 diabetic subjects (Table 2)
-  - Prebiotic glucagon-like peptide-2 induction reduces gut permeability
-  - Beta-glucan from oats lowers blood cholesterol via gel-forming properties that increase bile acid binding
-  - Oat-derived arabinoxylan decreases Firmicutes and increases Bacteroidetes
+
+ - *Lactobacillus acidophilus* L1 showed significant reduction in total cholesterol in hypercholesterolaemic individuals
+ - *Lactobacillus reuteri* NCIMB 30242 (microencapsulated in yoghurt) reduced total cholesterol, non-HDL cholesterol, and LDL-cholesterol by 4.81% and 8.92% respectively
+ - Cholesterol-lowering mechanisms include binding of cholesterol in gut lumen, incorporation into bacterial cell walls, deconjugation of bile acids via BSH activity, and SCFA modulation
+
+ - Prebiotic inulin and fructooligosaccharides can improve blood lipid profiles in hyperlipidaemic and type 2 diabetic subjects (Table 2)
+ - Prebiotic glucagon-like peptide-2 induction reduces gut permeability
+ - Beta-glucan from oats lowers blood cholesterol via gel-forming properties that increase bile acid binding
+ - Oat-derived arabinoxylan decreases Firmicutes and increases Bacteroidetes
 - **Mediterranean diet**: Western diet is low in fiber and diminishes beneficial species like *Eubacterium*; Mediterranean diet rich in whole grains, fruits, vegetables associated with healthier gut microbiome
 
 ## Source Pages
@@ -43,4 +46,4 @@ pp. 172-185
 
 - Links to [[fecal microbiota transplant]] and metabolic disease
 - Relevant to [[Mediterranean diet]] and [[cardiovascular disease]] prevention
-- Connects to [[bile acid]] metabolism and [[cholesterol]] homeostasis
+- Connects to metabolism and homeostasis

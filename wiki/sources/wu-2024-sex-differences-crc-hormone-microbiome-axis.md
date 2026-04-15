@@ -10,6 +10,7 @@ year: 2024
 doi: "10.1186/s12964-024-01549-2"
 tags: [colon-cancer, colorectal-cancer, sex-differences, sex-hormones, estrogen, testosterone, microgenderome, gut-microbiome, ERbeta, PD-L1, immunotherapy, sexual-dimorphism]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Wu 2024 -- Sex Differences in CRC: Sex Hormone-Gut Microbiome Axis

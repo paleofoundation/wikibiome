@@ -10,6 +10,7 @@ year: 2022
 tags: [pancreatic-cancer, dysbiosis, gut-microbiome, pancreatitis, type-1-diabetes, probiotics, prebiotics, synbiotics, FMT, SCFAs, therapeutic-target]
 doi: "10.3389/fnut.2022.814269"
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

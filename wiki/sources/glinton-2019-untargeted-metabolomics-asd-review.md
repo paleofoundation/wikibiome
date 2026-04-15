@@ -23,11 +23,11 @@ Review of **untargeted metabolomics principles and applications in ASD**, coveri
 
 - Only ~5% of ASD children found to have an identifiable IEM
 - Key IEMs associated with ASD:
-  - **Phenylketonuria (PKU)**: OMIM 261600 — abnormal accumulation of urinary metabolites
-  - **Creatine deficiency syndromes**: GAMT (OMIM 612736), AGAT (OMIM 612718), SLC6A8 (OMIM 300352)
-  - **Adenylosuccinate lyase deficiency**
-  - **5-nucleotidase and purine pyrimidine disorders**
-  - **Cerebral creatine deficiency syndromes**
+ - **Phenylketonuria (PKU)**: OMIM 261600 — abnormal accumulation of urinary metabolites
+ - **Creatine deficiency syndromes**: GAMT (OMIM 612736), AGAT (OMIM 612718), SLC6A8 (OMIM 300352)
+ - **Adenylosuccinate lyase deficiency**
+ - **5-nucleotidase and purine pyrimidine disorders**
+ - **Cerebral creatine deficiency syndromes**
 - 30-40% of children with ASD have IEM-related features prompting metabolic workup
 
 ## Metabolomic Profiling Primer

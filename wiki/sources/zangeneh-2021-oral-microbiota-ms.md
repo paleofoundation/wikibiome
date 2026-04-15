@@ -10,6 +10,10 @@ year: 2021
 tags: [oral-microbiome, multiple-sclerosis, 16S-rRNA, DGGE, dysbiosis, Lactobacillus, Peptostreptococcus, Prevotella, Fusobacterium]
 doi: "10.1371/journal.pone.0260384"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Fusobacterium", "Lactobacillus", "Prevotella"]
+evidence_level: cross-sectional
 ---
 
 # Bacterial Variation in the Oral Microbiota in Multiple Sclerosis Patients
@@ -35,5 +39,5 @@ platform: wikibiome
 - Complements gut microbiome studies like [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and [[jangi-2016-gut-microbiome-alterations-ms]] by extending dysbiosis analysis to the oral cavity
 - The finding that [[prevotella]] is elevated in MS oral microbiota contrasts with gut studies showing decreased Prevotella in MS, suggesting site-specific microbiome differences
 - The protective role of [[lactobacillus]] aligns with findings in [[tamtaji-2017-probiotic-gene-expression-ms]] and [[tankou-2018-probiotic-microbiome-ms]] regarding probiotic Lactobacillus supplementation benefits
-- Connects to the broader [[oral-microbiome]] and [[gut-brain-axis]] relationship in autoimmune neurological disease
-- The role of oral bacteria in activating [[Th17]] cells and producing [[IL-17]], [[IL-21]], and [[IL-22]] links to immune dysregulation in MS
+- Connects to the broader and [[gut-brain-axis]] relationship in autoimmune neurological disease
+- The role of oral bacteria in activating cells and producing , and links to immune dysregulation in MS

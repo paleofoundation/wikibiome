@@ -52,7 +52,6 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 - **Succinate** -- intermediate metabolite; fuel for cross-feeding networks
 - **Acetate** -- contributes to gut barrier maintenance and systemic anti-inflammatory signaling
 
-
 ## Key Sources
 
 - [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome]]

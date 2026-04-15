@@ -26,16 +26,16 @@ platform: wikibiome
 - **Type**: Non-randomized controlled study
 - **Population**: 30 ASD children vs 30 neurotypical controls (ages 2-4), Wuhan Children's Hospital, China
 - **Methods**: Metagenomic sequencing (MGISEQ-2000) + LC/MS serum amino acid profiling
-- **Microbiome findings**:
-  - Species richness significantly lower in ASD (Chao1 index, p < 0.05)
-  - At class level, *Deinococci* and *Holophagae* significantly lower in ASD
-  - At phylum level, *Deinococcus-Thermus* significantly lower in ASD
-  - LDA analysis: *Subdoligranulum*, *Faecalibacterium praushitzii*, and *Faecalibacterium* enriched in ASD; *Bacteroides thetaiotaomicron* and *Azospirillum* enriched in controls
-  - *Veillonellaceae* and *Ruminococcaceae* higher in ASD
-- **Metabolic pathway analysis**:
-  - Peptide/nickel transport system: main metabolic pathway in ASD differential species
-  - Eukaryotic ribosomes: main pathway in control group differential species
-  - Nickel transport positively correlated with valine levels (p < 0.01) and negatively with ornithine levels (p < 0.05)
+
+ - Species richness significantly lower in ASD (Chao1 index, p < 0.05)
+ - At class level, *Deinococci* and *Holophagae* significantly lower in ASD
+ - At phylum level, *Deinococcus-Thermus* significantly lower in ASD
+ - LDA analysis: *Subdoligranulum*, *Faecalibacterium praushitzii*, and *Faecalibacterium* enriched in ASD; *Bacteroides thetaiotaomicron* and *Azospirillum* enriched in controls
+ - *Veillonellaceae* and *Ruminococcaceae* higher in ASD
+
+ - Peptide/nickel transport system: main metabolic pathway in ASD differential species
+ - Eukaryotic ribosomes: main pathway in control group differential species
+ - Nickel transport positively correlated with valine levels (p < 0.01) and negatively with ornithine levels (p < 0.05)
 - **Amino acid findings**: Amino acids closely associated with differential species include citrulline, tryptophan, leucine, valine, tyrosine, asparagine, and ornithine
 - **CARS scores**: ASD group mean 31.97 +/- 2.94
 

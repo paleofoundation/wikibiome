@@ -1,15 +1,36 @@
 ---
-
 title: "Metal Nanoparticles to Combat Candida albicans Infections: An Update"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Paulo Henrique Fonseca do Carmo, Maira Terra Garcia, Livia Mara Alves Figueiredo-Godoi, Anna Carolina Pinheiro Lage, Newton Soares da Silva, Juliana Campos Junqueira]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Paulo Henrique Fonseca do Carmo
+  - Maira Terra Garcia
+  - Livia Mara Alves Figueiredo-Godoi
+  - Anna Carolina Pinheiro Lage
+  - Newton Soares da Silva
+  - Juliana Campos Junqueira
 journal: Microorganisms
 year: 2023
-tags: [metal-nanoparticles, Candida-albicans, antifungal, silver-nanoparticles, gold-nanoparticles, iron-nanoparticles, biofilm, drug-resistance, nanotechnology]
-doi: "10.3390/microorganisms11010138"
+tags:
+  - metal-nanoparticles
+  - Candida-albicans
+  - antifungal
+  - silver-nanoparticles
+  - gold-nanoparticles
+  - iron-nanoparticles
+  - biofilm
+  - drug-resistance
+  - nanotechnology
+doi: 10.3390/microorganisms11010138
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Demonstrates that metal ions and nanoparticles (especially nickel, iron, zinc, copper, silver) directly disable Candida albicans through multiple mechanisms—ROS generation, membrane disruption, efflux pump inhibition—showing metals as Achilles' heels for fungal pathogens. WikiBiome depends on this evidence to establish how metal-dependent enzymes and biofilm architecture create vulnerabilities that enable ecological engineering interventions across interkingdom dysbiotic systems."
 ---
 
 ## Summary
@@ -34,7 +55,7 @@ Demonstrates the antimicrobial properties of metal ions and nanoparticles agains
 - [[candida-albicans]] -- primary target organism for all nanoparticle formulations reviewed
 - [[copper]] -- copper nanoparticles and Cu-containing bimetallics show antifungal activity
 - [[zinc]] -- Zn-containing bimetallic nanoparticles (Ni-Cu-Zn-IONPs) caused complete yeast cell lysis
-- [[silver]] -- AgNPs are the most extensively studied antifungal nanoparticles; synergistic with fluconazole
+- -- AgNPs are the most extensively studied antifungal nanoparticles; synergistic with fluconazole
 - [[biofilm]] -- nanoparticles disrupt C. albicans biofilm formation; chitosan-functionalized AuNPs inhibit biofilm
 - [[nickel]] -- Ag-NiNPs showed potent activity at sub-microgram concentrations; Ni-containing bimetallics show multiple antifungal mechanisms
 - [[iron]] -- ferumoxytol (FDA-approved iron oxide NPs) disrupts oral biofilms; AMB-IONPs 16-25x more effective than amphotericin B alone

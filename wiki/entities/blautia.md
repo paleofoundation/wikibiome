@@ -58,7 +58,6 @@ A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospirace
 - **Bile acid derivatives** -- BSH-mediated deconjugation and secondary bile acid production.
 - **Hydrogen consumption** -- acetogenic species convert H2/CO2 to acetate, regulating gut gas homeostasis.
 
-
 ## Key Sources
 
 - [[huang-2025-gut-microbiota-urine-metabolomics-asd-southern-china]]

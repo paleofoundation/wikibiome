@@ -28,23 +28,23 @@ platform: wikibiome
 - **Study type**: Narrative review
 - **Selenium and iodine interaction**: Se is protective in iodine excess and deficiency; in combined Se and I deficiency, normalizing Se without iodine supplementation worsens hypothyroidism; Se co-administration maintains GPx function during iodine repletion
 - **Selenium and heavy metals**: Selenium reduces cadmium levels by binding to Cd and facilitating biliary excretion; antagonistic relationship with mercury demonstrated protective effect when Hg levels elevated
-- **Hashimoto's thyroiditis RCTs**:
-  - 2003 RCT (n=70): 6 months Se supplementation with levothyroxine showed significant reduction in anti-TPO (intervention group vs controls, p<0.05); improved mood and well-being reported
-  - 2002 study (n=70): 200 ug selenite + LT4 to TSH normalization over 6 months; greatest anti-TPO reduction in those with levels >1200 IU/mL (mean reduction of 40%); those <1200 IU/mL saw reduction of 10%
-  - Anti-TPO-positive euthyroid patients supplemented for 6 months with 200 ug Se showed no reduction in anti-TPO (suggesting baseline thyroid function matters)
+
+ - 2003 RCT (n=70): 6 months Se supplementation with levothyroxine showed significant reduction in anti-TPO (intervention group vs controls, p<0.05); improved mood and well-being reported
+ - 2002 study (n=70): 200 ug selenite + LT4 to TSH normalization over 6 months; greatest anti-TPO reduction in those with levels >1200 IU/mL (mean reduction of 40%); those <1200 IU/mL saw reduction of 10%
+ - Anti-TPO-positive euthyroid patients supplemented for 6 months with 200 ug Se showed no reduction in anti-TPO (suggesting baseline thyroid function matters)
 - **Graves' disease**: Selenium status is an indicator of risk for development of Graves' ophthalmopathy; Se deficiency may be an independent risk factor for GO development
-  - 2011 double-blind RCT: 200 ug Se/day for 6 months significantly decreased GO, improved quality of life, and decreased worsening of disease; benefits remained after therapy withdrawal
-  - CATALYST trial and GRASS trial ongoing at time of publication
+ - 2011 double-blind RCT: 200 ug Se/day for 6 months significantly decreased GO, improved quality of life, and decreased worsening of disease; benefits remained after therapy withdrawal
+ - CATALYST trial and GRASS trial ongoing at time of publication
 - **Maternal health**: 2007 study - selenomethionine 200 ug/day during pregnancy and postpartum decreased risk of permanent hypothyroidism and postpartum thyroiditis compared to placebo; anti-TPO antibodies significantly reduced
 - **Dosing**: Supplementation with 200 ug Se appears safe and commonly used in clinical trials
 
 ## Connections
 
-- Foundational for [[selenium]] role in [[Thyroid Autoimmunity]], expanded by [[brylinski-2025-trace-elements-thyroid-diseases]]
-- Selenium-deiodinase connection directly relevant to [[Thyroid Hormone Metabolism]] and T4-to-T3 conversion
+- Foundational for [[selenium]] role in , expanded by [[brylinski-2025-trace-elements-thyroid-diseases]]
+- Selenium-deiodinase connection directly relevant to and T4-to-T3 conversion
 - Se protective role against Cd and Hg connects to [[cadmium]] and [[mercury]] toxicology
 - Anti-TPO reduction findings contextualized by [[kravchenko-2023-thyroid-hormones-minerals-AITD]] Se immunomodulation section
 - Selenium-iodine interaction relevant to iodine sections in [[brylinski-2025-trace-elements-thyroid-diseases]] and [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
-- Pregnancy recommendations connect to [[Maternal Thyroid Health]] and postpartum thyroiditis prevention
-- [[Glutathione Peroxidase]] and [[Thioredoxin Reductase]] biology links to [[oxidative-stress|oxidative stress]] defense in thyroid
+- Pregnancy recommendations connect to and postpartum thyroiditis prevention
+- and biology links to [[oxidative-stress|oxidative stress]] defense in thyroid
 - Graves' ophthalmopathy findings relevant to [[Graves' Disease]] management

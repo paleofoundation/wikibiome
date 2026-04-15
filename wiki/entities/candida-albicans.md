@@ -8,6 +8,8 @@ updated: 2026-04-09
 sources: [acosta-rodriguez-2018-biosorption-candida-albicans.md, kukde-2019-heavy-metals-candida-hiv.md, do-carmo-2023-metal-nanoparticles-candida-review.md, maier-2019-nickel-microbial-pathogenesis.md]
 tags: [pathogen, fungal, biosorption, heavy-metals, nickel, zinc, iron, copper, immunocompromised, candidiasis, Cryptococcus]
 platform: wikibiome
+seo_target: "Candida albicans gut microbiome heavy metals"
+wikipedia_differentiation: "Metal biosorption capacity, nickel-dependent virulence mechanisms, interkingdom biofilm partnerships with gut bacteria, and role as estrogen-recirculating beta-glucuronidase producer — none of which appear in the Wikipedia entry"
 ---
 
 # Candida albicans (and Cryptococcus neoformans)

@@ -10,6 +10,9 @@ year: 2016
 tags: [PCOS, nickel, manganese, zinc, copper, pelvic-inflammatory-disease, microelements, oxidative-stress]
 doi: "unverified"
 platform: wikibiome
+karen_brain_primitives: [1, 7, 9]
+metals_discussed: ["copper", "manganese", "nickel", "zinc"]
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -32,9 +35,9 @@ platform: wikibiome
 - **Method**: Microwave-based mineralization with inductively coupled plasma mass spectrometry (ICP-MS), performed at accredited laboratory
 - **Statistical analysis**: Software Statistica 6.0; Median, 95th percentile, mean values; Mann-Whitney U test; Kolmogorov-Smirnov test
 - **Key quantitative results** (medians, g/l):
-  - Nickel: I = 0.046, II = 0.032, III = 0.014 (I vs III p < 0.05; II vs III p < 0.05)
-  - Manganese: I = 0.0098, II = 0.0094, III = 0.0056
-  - Zinc: I = 0.659, II = 0.648, III = 0.442 (I vs III p < 0.05)
+ - Nickel: I = 0.046, II = 0.032, III = 0.014 (I vs III p < 0.05; II vs III p < 0.05)
+ - Manganese: I = 0.0098, II = 0.0094, III = 0.0056
+ - Zinc: I = 0.659, II = 0.648, III = 0.442 (I vs III p < 0.05)
 - **Limitations**: Relatively small sample sizes; Ukrainian population; serum only (no urine or whole blood); published in Ukrainian journal with English abstract
 
 # Connections

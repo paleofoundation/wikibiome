@@ -9,6 +9,7 @@ year: 2024
 doi: "10.3389/fmicb.2024.1417904"
 tags: [ovarian-cancer, Mendelian-randomization, gut-microbiota, Lachnospiraceae, uterine-fibroids, endometrial-cancer, cervical-cancer, causal-inference]
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # Causal Relationship Between Gut Microbiota and Gynecological Tumor

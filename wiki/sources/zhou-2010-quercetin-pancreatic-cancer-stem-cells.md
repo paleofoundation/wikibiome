@@ -10,6 +10,7 @@ year: 2010
 tags: [pancreatic-cancer, dietary-polyphenols, quercetin, sulforaphane, cancer-stem-cells, NF-kB, EMT, ALDH, apoptosis, chemoprevention]
 doi: "10.3892/ijo_00000704"
 platform: wikibiome
+evidence_level: in-vitro
 ---
 
 # Key Claims

@@ -34,5 +34,5 @@ platform: wikibiome
 - Immune cell mediation evidence extends findings from [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] by providing causal evidence
 - *R. bromii* protective role through SCFA production connects to [[microbiome-derived-metabolites]] in CRC
 - Complements other MR studies [[long-2023-causal-gut-microbiota-cancers-mr]] and [[ma-2024-gut-microbiota-inflammatory-factors-crc-mr]] with immune mediation focus
-- HLA-DR modulation connects to [[microbiome-and-immune-system]] interactions in CRC
+- HLA-DR modulation connects to interactions in CRC
 - [[colorectal-cancer]]

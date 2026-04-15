@@ -22,23 +22,23 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Investigation of evidence for extrinsic factors in AD development
-- **Heavy metals evidence**:
-  - **Aluminum**: Most controversial metal-AD link; dialysis dementia first raised concerns; aluminum found in senile plaques and NFTs; drinking water aluminum studies show inconsistent results; geographic correlation studies suggest association
-  - **Lead**: Stronger epidemiological evidence; cumulative bone lead exposure associated with cognitive decline; early-life exposure produces latent AD-like changes through epigenetic mechanisms
-  - **Mercury**: Dental amalgam controversy; methylmercury from fish consumption; occupational exposure studies; mercury found elevated in AD brains in some studies
-  - **Cadmium**: Emerging evidence; cigarette smoking as major source; cadmium associated with cognitive decline in cross-sectional studies
-- **Other extrinsic factors**:
-  - Air pollution: particulate matter (PM2.5) associated with increased dementia risk
-  - Pesticides: organophosphates and organochlorines linked to cognitive decline
-  - Diet: Mediterranean diet protective; processed food and high sugar intake increase risk
-  - Physical activity: regular exercise reduces AD risk by 25-45%
-  - Education and cognitive reserve: higher education delays clinical onset
-  - Social engagement: loneliness and social isolation increase risk
-  - Sleep: chronic sleep disruption increases amyloid-beta accumulation
-- **Interaction effects**:
-  - Gene-environment interactions (APOE4 modifying metal exposure effects)
-  - Cumulative and synergistic effects of multiple exposures
-  - Critical windows of vulnerability (early life, midlife, late life)
+
+ - **Aluminum**: Most controversial metal-AD link; dialysis dementia first raised concerns; aluminum found in senile plaques and NFTs; drinking water aluminum studies show inconsistent results; geographic correlation studies suggest association
+ - **Lead**: Stronger epidemiological evidence; cumulative bone lead exposure associated with cognitive decline; early-life exposure produces latent AD-like changes through epigenetic mechanisms
+ - **Mercury**: Dental amalgam controversy; methylmercury from fish consumption; occupational exposure studies; mercury found elevated in AD brains in some studies
+ - **Cadmium**: Emerging evidence; cigarette smoking as major source; cadmium associated with cognitive decline in cross-sectional studies
+
+ - Air pollution: particulate matter (PM2.5) associated with increased dementia risk
+ - Pesticides: organophosphates and organochlorines linked to cognitive decline
+ - Diet: Mediterranean diet protective; processed food and high sugar intake increase risk
+ - Physical activity: regular exercise reduces AD risk by 25-45%
+ - Education and cognitive reserve: higher education delays clinical onset
+ - Social engagement: loneliness and social isolation increase risk
+ - Sleep: chronic sleep disruption increases amyloid-beta accumulation
+
+ - Gene-environment interactions (APOE4 modifying metal exposure effects)
+ - Cumulative and synergistic effects of multiple exposures
+ - Critical windows of vulnerability (early life, midlife, late life)
 
 # Connections
 

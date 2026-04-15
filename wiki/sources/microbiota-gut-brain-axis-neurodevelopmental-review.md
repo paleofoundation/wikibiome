@@ -1,16 +1,29 @@
 ---
-title: "The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders — Review Article"
+title: The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders — Review Article
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: ["[Extract full author list from PDF]"]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - "[Extract full author list from PDF]"
 year: 2023
-journal: "Protein & Cell"
+journal: Protein & Cell
 doi: None
-tags: [microbiota, gut-brain-axis, neurodevelopmental-disorders, autism, mechanisms]
+tags:
+  - microbiota
+  - gut-brain-axis
+  - neurodevelopmental-disorders
+  - autism
+  - mechanisms
 library_category: causal
 platform: both
-condition: "autism spectrum disorder"
+condition: autism spectrum disorder
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 3
+  - 4
+  - 5
+why_keystone: Establishes the bidirectional microbiota-gut-brain axis as the organizing framework for neurodevelopmental disorders, integrating vagal, immune, and metabolite pathways. WikiBiome uses this framework to position metal-driven dysbiosis as an upstream perturbation of the gut-brain axis in autism and related conditions.
 ---
 
 # Overview
@@ -37,34 +50,34 @@ Comprehensive review of the **microbiota–gut–brain axis in neurodevelopmenta
 
 - **Vagus nerve signaling**: primary afferent fibers carry microbial signals to brainstem
 - **Neurotransmitter-producing bacteria**: direct production of
-  - Serotonin (from tryptophan)
-  - GABA (from glutamate)
-  - Dopamine precursors
+ - Serotonin (from tryptophan)
+ - GABA (from glutamate)
+ - Dopamine precursors
 - **Metabolite signaling**: SCFA and tryptophan metabolites → G-protein coupled receptor activation on enteric neurons
 
 ## 2. Immune Pathway
 
 - **Intestinal immune training**: microbiota educates intestinal immune system
-  - Promotes [[Bacteroidetes]]-dependent Treg development
-  - Balances Th17 response
-  - Trains innate lymphoid cells (ILCs)
+ - Promotes [[Bacteroidetes]]-dependent Treg development
+ - Balances Th17 response
+ - Trains innate lymphoid cells (ILCs)
 - **Systemic immune priming**: dysbiosis → reduced tolerance → elevated systemic pro-inflammatory state
-- **Blood-brain barrier (BBB) implications**:
-  - Dysbiosis → tight junction compromise (gut and brain)
-  - Increased intestinal permeability → increased peripheral immune activation
-  - Dysregulated gut immunity → BBB breakdown → CNS immune cell infiltration
-  - Microglial activation in brain (primary CNS immune cells)
+
+ - Dysbiosis → tight junction compromise (gut and brain)
+ - Increased intestinal permeability → increased peripheral immune activation
+ - Dysregulated gut immunity → BBB breakdown → CNS immune cell infiltration
+ - Microglial activation in brain (primary CNS immune cells)
 
 ## 3. Endocrine/Metabolic Pathway
 
 - **Hormonal regulation**: microbiota influences
-  - Glucocorticoid signaling (stress response)
-  - Growth hormone metabolism
-  - Thyroid hormone metabolism
+ - Glucocorticoid signaling (stress response)
+ - Growth hormone metabolism
+ - Thyroid hormone metabolism
 - **Metabolic endotoxemia**: dysbiosis → elevated LPS → systemic immune activation
 - **Metabolite signals**: SCFA, tryptophan metabolites → systemic and CNS effects
-  - SCFA → histone deacetylase inhibition, epigenetic signaling
-  - Tryptophan metabolites → aryl hydrocarbon receptor (AhR) agonism
+ - SCFA → histone deacetylase inhibition, epigenetic signaling
+ - Tryptophan metabolites → aryl hydrocarbon receptor (AhR) agonism
 
 # Neurodevelopmental Disorders Reviewed
 

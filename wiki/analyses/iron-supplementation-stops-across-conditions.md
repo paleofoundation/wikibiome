@@ -72,7 +72,6 @@ This analysis suggests that **iron supplementation guidelines should incorporate
 
 The six conditions analyzed here likely represent a subset. Any disease with a dysbiotic signature enriched in siderophore-producing taxa and elevated hepcidin may exhibit this same STOP pattern. Candidates for investigation include: rheumatoid arthritis, chronic kidney disease, cardiovascular disease, colorectal cancer, and type 2 diabetes.
 
-
 ## Key Sources
 
 - [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
@@ -84,7 +83,7 @@ The six conditions analyzed here likely represent a subset. Any disease with a d
 
 - [[nutritional-immunity]] — the host defense framework that iron supplementation overrides
 - [[hepcidin]] — the decision gate biomarker (elevated = functional anemia)
-- [[siderophores]] — the pathobiont strategy that iron supplementation enables
+- — the pathobiont strategy that iron supplementation enables
 - [[lactoferrin]] — the alternative that works with nutritional immunity
 - [[dietary-iron-gut-ecology]] — how dietary iron shapes the gut microbial ecosystem
 - [[metal-disease-matrix]] — iron's role across the disease landscape

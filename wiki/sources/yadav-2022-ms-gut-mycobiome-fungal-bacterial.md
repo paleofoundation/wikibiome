@@ -10,6 +10,10 @@ year: 2022
 tags: [multiple-sclerosis, mycobiome, Candida, Epicoccum, Malassezia, Saccharomyces, Basidiomycota, ITS2-sequencing, fungal-bacterial-interactions, Eggerthellaceae, Barnesiellaceae, RRMS]
 doi: "10.1371/journal.pone.0264556"
 platform: wikibiome
+karen_brain_primitives: [6]
+metals_discussed: []
+taxa_discussed: ["Candida", "Malassezia", "Saccharomyces"]
+evidence_level: cross-sectional
 ---
 
 # Multiple Sclerosis Patients Have an Altered Gut Mycobiome and Increased Fungal to Bacterial Richness
@@ -42,6 +46,6 @@ platform: wikibiome
 - [[candida-albicans]] -- increased in MS gut; *C. albicans* dominant species
 - [[Saccharomyces]] -- depleted in MS; *S. cerevisiae* potentially protective
 - [[multiple-sclerosis]] -- fungal dysbiosis with Basidiomycota/Ascomycota shift as MS signature
-- [[bacteria-fungi-interactions]] -- altered inter-kingdom correlations in MS
-- [[Eggerthellaceae]] -- bacterial family increased in MS; produces urolithins from polyphenols
+- -- altered inter-kingdom correlations in MS
+- -- bacterial family increased in MS; produces urolithins from polyphenols
 - [[dysbiosis]] -- multi-kingdom dysbiosis (bacterial + fungal) in MS gut

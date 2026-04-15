@@ -39,5 +39,5 @@ platform: wikibiome
 - [[depression]] -- most common psychiatric comorbidity in MS; linked to disease progression
 - [[cardiovascular-disease]] -- underrecognized but significant cause of mortality in MS
 - [[metabolic-syndrome]] -- insulin resistance and oxidative stress elevated in PwMS
-- [[autoimmune-diseases]] -- co-occurring autoimmunity in MS suggests shared pathogenic mechanisms
+- -- co-occurring autoimmunity in MS suggests shared pathogenic mechanisms
 - [[comorbidities]] -- early recognition and treatment may improve MS outcomes

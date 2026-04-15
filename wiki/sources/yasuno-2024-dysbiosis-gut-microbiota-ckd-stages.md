@@ -9,6 +9,7 @@ journal: "Internal Medicine"
 doi: "10.2169/internalmedicine.1602-23"
 tags: [chronic-kidney-disease, CKD, 16S-rRNA, gut-microbiota, dysbiosis, butyrate, CKD-stages, renal-replacement-therapy, Lachnospira, Roseburia]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Dysbiosis of Gut Microbiota in Patients with Chronic Kidney Disease

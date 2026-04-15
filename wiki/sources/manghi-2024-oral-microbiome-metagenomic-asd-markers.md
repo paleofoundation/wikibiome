@@ -34,7 +34,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- oral microbiome as diagnostic biomarker source
-- [[oral-microbiome]] -- salivary metagenomic signatures of ASD
-- [[serotonin]] -- microbial serotonin degradation enriched in ASD
-- [[GABA]] -- microbial GABA degradation pathways in ASD oral microbiome
+- -- salivary metagenomic signatures of ASD
+- -- microbial serotonin degradation enriched in ASD
+- -- microbial GABA degradation pathways in ASD oral microbiome
 - [[biomarkers]] -- oral microbiome-based ASD discrimination

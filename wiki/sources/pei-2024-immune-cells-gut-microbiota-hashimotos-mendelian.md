@@ -26,16 +26,16 @@ platform: wikibiome
 
 - **Study type**: Bidirectional two-sample Mendelian randomization with mediation analysis
 - **Data sources**: MiBioGen study (18,340 individuals, 24 cohorts, 211 GM taxa) for gut microbiota; GWAS Catalog for HT (15,654 cases and 3,79,986 European ancestry controls); GWAS for 731 immune cell traits (3,757 European subjects)
-- **Key MR results**:
-  - 2,656 SNPs from 196 bacterial genera used as instrumental variables
-  - Family Alcaligenaceae (OR=0.7749, p=0.0017), class Alphaproteobacteria (OR=0.8550, p=0.0075), genus Butyrivibrio (OR=0.9066, p=0.0135) all protective
-  - Family Desulfovibrionaceae (OR=0.8245, p=0.0436) also showed protective association
-  - MR-PRESSO detected no significant outliers; MR-Egger regression showed all intercepts p>0.05 (no significant pleiotropy)
-- **Mediation analysis**:
-  - Akkermansia positively associated with EM CD4+ T cells (OR=0.8189, p=0.0010)
-  - EM CD4+ T cells in turn correlated with elevated HT risk (OR=1.0294; 95%CI=1.0058-1.0535; p=0.0143)
-  - Direct effect of Akkermansia on HT: -0.3335; total effect: -0.3393
-  - Akkermansia may influence HT through IL-6 and TNF-alpha synthesis modulation
+
+ - 2,656 SNPs from 196 bacterial genera used as instrumental variables
+ - Family Alcaligenaceae (OR=0.7749, p=0.0017), class Alphaproteobacteria (OR=0.8550, p=0.0075), genus Butyrivibrio (OR=0.9066, p=0.0135) all protective
+ - Family Desulfovibrionaceae (OR=0.8245, p=0.0436) also showed protective association
+ - MR-PRESSO detected no significant outliers; MR-Egger regression showed all intercepts p>0.05 (no significant pleiotropy)
+
+ - Akkermansia positively associated with EM CD4+ T cells (OR=0.8189, p=0.0010)
+ - EM CD4+ T cells in turn correlated with elevated HT risk (OR=1.0294; 95%CI=1.0058-1.0535; p=0.0143)
+ - Direct effect of Akkermansia on HT: -0.3335; total effect: -0.3393
+ - Akkermansia may influence HT through IL-6 and TNF-alpha synthesis modulation
 - **Clinical relevance**: Akkermansia muciniphila notably abundant in HT patients; its protective causal role suggests therapeutic potential for microbiota-based interventions
 
 ## Connections

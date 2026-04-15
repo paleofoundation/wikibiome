@@ -1,25 +1,59 @@
 ---
-title: "Tang et al. 2023 — Gut Microbiome Tango with CKD Progression"
+title: Tang et al. 2023 — Gut Microbiome Tango with CKD Progression
 type: source
-created: 2026-04-14
-updated: 2026-04-14
-authors: [Tang, Lai, Bhatt]
+created: 2026-04-14T00:00:00.000Z
+updated: 2026-04-14T00:00:00.000Z
+authors:
+  - Tang
+  - Lai
+  - Bhatt
 year: 2023
-journal: "Journal of Translational Medicine"
-doi: "10.1186/s12967-023-04455-2"
+journal: Journal of Translational Medicine
+doi: 10.1186/s12967-023-04455-2
 evidence_level: expert-opinion
-sample_size: "N/A (narrative review)"
-tags: [chronic-kidney-disease, gut-microbiome, indoxyl-sulfate, p-cresyl-sulfate, AhR, NF-kB, renal-fibrosis, TLR, butyrate, gut-kidney-axis, uremic-toxins]
+sample_size: N/A (narrative review)
+tags:
+  - chronic-kidney-disease
+  - gut-microbiome
+  - indoxyl-sulfate
+  - p-cresyl-sulfate
+  - AhR
+  - NF-kB
+  - renal-fibrosis
+  - TLR
+  - butyrate
+  - gut-kidney-axis
+  - uremic-toxins
 library_category: mechanistic-insights
 platform: both
-condition: "chronic-kidney-disease"
-karen_brain_primitives: [1, 2, 4, 5, 8]
-metals_discussed: [iron]
-taxa_discussed: [enterobacteriaceae, clostridiaceae, eggerthella-lenta, fusobacterium-nucleatum, bifidobacterium, roseburia, faecalibacterium-prausnitzii]
+condition: chronic-kidney-disease
+karen_brain_primitives:
+  - 1
+  - 2
+  - 4
+  - 5
+  - 8
+metals_discussed:
+  - iron
+taxa_discussed:
+  - enterobacteriaceae
+  - clostridiaceae
+  - eggerthella-lenta
+  - fusobacterium-nucleatum
+  - bifidobacterium
+  - roseburia
+  - faecalibacterium-prausnitzii
 key_findings:
-  - "IS activates AhR->NF-kB signaling cascade causing renal fibrosis and tubular injury"
-  - "PCS activates RAS/TGF-beta->EMT pathway promoting epithelial-to-mesenchymal transition in kidneys"
-  - "Butyrate, propionate, and acetate are renoprotective via HDAC inhibition and GPR43/GPR109a signaling"
+  - IS activates AhR->NF-kB signaling cascade causing renal fibrosis and tubular injury
+  - PCS activates RAS/TGF-beta->EMT pathway promoting epithelial-to-mesenchymal transition in kidneys
+  - Butyrate, propionate, and acetate are renoprotective via HDAC inhibition and GPR43/GPR109a signaling
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Establishes the bidirectional loop by which uremic toxins from gut dysbiosis drive CKD progression and CKD-induced intestinal changes perpetuate dysbiosis. Supports the microbiome layer of WikiBiome's CKD signature and explains why metal-driven dysbiosis is both cause and consequence of declining renal function.
 ---
 
 ## Key Findings

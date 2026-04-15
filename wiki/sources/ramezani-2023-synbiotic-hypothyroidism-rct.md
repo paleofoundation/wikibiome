@@ -43,4 +43,4 @@ platform: wikibiome
 - Included in meta-analyses by [[shu-2024-probiotics-prebiotics-thyroid-function-meta-analysis]] and [[karimi-2025-probiotics-synbiotics-thyroid-meta-analysis]]
 - Synbiotic formulation connects to gut microbiota modulation mechanisms in [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]]
 - FT4 increase in both groups suggests natural variation or levothyroxine interaction rather than synbiotic effect
-- Blood pressure improvement connects to hypothyroidism-associated cardiovascular effects and [[gut-thyroid axis]]
+- Blood pressure improvement connects to hypothyroidism-associated cardiovascular effects and 

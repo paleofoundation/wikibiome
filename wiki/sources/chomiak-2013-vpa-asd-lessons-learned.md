@@ -24,6 +24,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- VPA as both risk factor and research model for ASD
-- [[valproic-acid]] -- epidemiological and neurobiological ASD connections
-- [[animal-models]] -- VPA model insights for ASD research
-- [[neurodevelopment]] -- brain overgrowth and hyperexcitable networks in VPA-ASD
+- -- epidemiological and neurobiological ASD connections
+- -- VPA model insights for ASD research
+- -- brain overgrowth and hyperexcitable networks in VPA-ASD

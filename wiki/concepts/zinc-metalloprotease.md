@@ -98,13 +98,13 @@ Zinc-metalloproteases are a paradigm for **Primitive 4: Metal Dependencies as Ac
 
 **Related enzymes:**
 - **Matrix metalloproteinases (MMPs)** — host enzymes; elevated in inflammatory disease; can work synergistically with bacterial metalloproteases
-- [[elastase]] — another protease family; overlaps with metalloproteases in substrate specificity
-- [[bft-toxin]] — specific to [[bacteroides-fragilis|B. fragilis]]; major driver of [[endometriosis]] and inflammatory bowel disease
+- — another protease family; overlaps with metalloproteases in substrate specificity
+- — specific to [[bacteroides-fragilis|B. fragilis]]; major driver of [[endometriosis]] and inflammatory bowel disease
 
 **Related organisms:**
 - [[bacteroides-fragilis|B. fragilis]] — primary pathobiont producing BFT toxin
 - [[pseudomonas-aeruginosa|P. aeruginosa]] — opportunistic pathogen with elastase and other metalloproteases
-- [[vibrio]] and [[aeromonas]] — aquatic pathogens with tissue-destructive metalloproteases
+- and [[aeromonas]] — aquatic pathogens with tissue-destructive metalloproteases
 
 **Related concepts:**
 - [[nutritional-immunity]] — [[zinc]] sequestration as a defense against metalloproteases

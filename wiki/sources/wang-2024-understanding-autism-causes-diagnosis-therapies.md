@@ -1,16 +1,35 @@
 ---
 title: "Wang 2024 — Understanding Autism: Causes, Diagnosis, and Advancing Therapies"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Min Wang, Xiaozhuang Zhang, Liyan Zhong, Liqin Zeng, Ling Li, Paul Yao]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Min Wang
+  - Xiaozhuang Zhang
+  - Liyan Zhong
+  - Liqin Zeng
+  - Ling Li
+  - Paul Yao
 year: 2024
-journal: "Brain Research Bulletin"
-doi: "10.1016/j.brainresbull.2024.111059"
-tags: [autism, etiology, biomarkers, diagnosis, environmental-factors, therapy]
+journal: Brain Research Bulletin
+doi: 10.1016/j.brainresbull.2024.111059
+tags:
+  - autism
+  - etiology
+  - biomarkers
+  - diagnosis
+  - environmental-factors
+  - therapy
 library_category: causal
 platform: both
-condition: "autism spectrum disorder"
+condition: autism spectrum disorder
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 3
+  - 4
+  - 5
+why_keystone: Comprehensive review synthesizing genetic, environmental, neurobiological, and gut-microbiome contributions to autism spectrum disorder under a unified multifactorial model. Provides the scaffolding WikiBiome uses to situate metal-driven dysbiosis among the other established ASD drivers and to identify where metallomics adds explanatory power.
 ---
 
 # Overview

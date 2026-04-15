@@ -44,18 +44,18 @@ Comprehensive review of **clinical and preclinical evidence** for gut microbiota
 
 - **Dysbiotic bacteria produce fewer tryptophan metabolites** (especially kynurenine, indoles)
 - **Normal tryptophan metabolites** support:
-  - Intestinal barrier integrity (aryl hydrocarbon receptor signaling)
-  - CNS function (serotonin, kynurenine, AhR agonists)
-  - Immune tolerance
+ - Intestinal barrier integrity (aryl hydrocarbon receptor signaling)
+ - CNS function (serotonin, kynurenine, AhR agonists)
+ - Immune tolerance
 - Loss of this pathway → increased intestinal permeability, CNS effects
 
 ### Pathway 3: Short-Chain Fatty Acid (SCFA) Production
 
 - Dysbiotic microbiota produces **fewer butyrate-producing bacteria**
 - **Butyrate** is critical for:
-  - Intestinal barrier maintenance (tight junction proteins)
-  - Histone deacetylase (HDAC) inhibition → epigenetic signaling
-  - Immune tolerance (Treg differentiation)
+ - Intestinal barrier maintenance (tight junction proteins)
+ - Histone deacetylase (HDAC) inhibition → epigenetic signaling
+ - Immune tolerance (Treg differentiation)
 
 ## Clinical Evidence for Intervention
 
@@ -80,10 +80,10 @@ Comprehensive review of **clinical and preclinical evidence** for gut microbiota
 # Preclinical Models
 
 - **Rodent studies** identify mechanisms:
-  - Germ-free (microbiota-free) mice show **altered social behavior**
-  - Colonization with dysbiotic microbiota recapitulates **behavioral deficits**
-  - Immune activation + tryptophan depletion **sufficient to cause behavior changes**
-  - SCFA restoration **reverses some deficits**
+ - Germ-free (microbiota-free) mice show **altered social behavior**
+ - Colonization with dysbiotic microbiota recapitulates **behavioral deficits**
+ - Immune activation + tryptophan depletion **sufficient to cause behavior changes**
+ - SCFA restoration **reverses some deficits**
 
 # Relevance to Metallomic Framework
 

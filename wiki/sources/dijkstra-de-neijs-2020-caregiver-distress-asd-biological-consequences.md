@@ -40,7 +40,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- biological consequences of caregiving stress
-- [[stress]] -- HPA axis dysregulation in ASD caregivers
-- [[immune-system]] -- pro-inflammatory state from chronic caregiver distress
+- -- HPA axis dysregulation in ASD caregivers
+- -- pro-inflammatory state from chronic caregiver distress
 - [[gut-microbiome]] -- stress-induced microbiome imbalance in caregivers
-- [[cortisol]] -- HPA axis dysregulation from chronic stress
+- -- HPA axis dysregulation from chronic stress

@@ -26,22 +26,22 @@ platform: wikibiome
 - **Collection**: 381 *Enterococcus* isolates from diverse sources spanning 120 years (1900-2019): human (clinical, healthy), animal (food production, pets, wildlife), food/food processing, and aquatic environments
 - **Species**: Primarily *E. faecalis* and *E. faecium*, plus other species
 - **MeT Genes Surveyed**: arsA (arsenic), merA (mercury), tcrB (copper)
-- **Prevalence**:
-  - arsA: Most frequent (82% of isolates carrying MeT genes; n=9/11 or 19/21 depending on variant)
-  - merA: 97% prevalence; n=32/33 isolates
-  - tcrB: Less common; n=15 isolates
+
+ - arsA: Most frequent (82% of isolates carrying MeT genes; n=9/11 or 19/21 depending on variant)
+ - merA: 97% prevalence; n=32/33 isolates
+ - tcrB: Less common; n=15 isolates
 - **13 Phylogenetic Variants** identified for ArsA protein, **6 variants** for MerA, distributed across diverse ecological contexts
 - **Phenotypic MeT**: Isolates with MeT genes showed higher MICs: arsA isolates >=16 mM Na2HAsO4 or CuSO4; merA isolates >=16 microM HgCl2
 - **Co-occurrence of MeT and ABR**: Heatmap analysis showed systematic co-occurrence of metal tolerance and antibiotic resistance genes, especially in isolates from clinical settings and food/animal production
-  - ABR genes found near MeT genes: vanA, tet(M), erm(B), aac6'-Ie-aph2''-Ia, ant(K), blaZ
-  - Genes encoding bacteriocin, fimbriae, sugar metabolism also found near Hg/As tolerance coding regions
+ - ABR genes found near MeT genes: vanA, tet(M), erm(B), aac6'-Ie-aph2''-Ia, ant(K), blaZ
+ - Genes encoding bacteriocin, fimbriae, sugar metabolism also found near Hg/As tolerance coding regions
 - **Genetic Context**: MeT genes located on conjugative plasmids flanked by IS elements (IS110-like, IS256-like, IS200/605-like); associated with TraC, TraE, TraG mobilization genes
 - **Key Phylogenetic Finding**: ArsA and MerA variants were shared between *Enterococcus* and distant taxa including *Lactobacillus malefermentans*, demonstrating cross-phylum gene exchange
 - **Temporal Trend**: Increasing co-selection of MeT and ABR over 120 years, with particular acceleration since the 1990s correlating with increased antimicrobial and metal use
 
 ## Connections
 
-- Directly demonstrates the co-selection principle linking [[metal-resistance]] with [[antibiotic-resistance]] -- a key concern in [[metal-toxicity]] discussions
+- Directly demonstrates the co-selection principle linking with -- a key concern in discussions
 - Complements [[cheng-2021-cadmium-enterococcus-metabolic]] by showing the genomic/population-level context for metal resistance in *Enterococcus*, while Cheng et al. show the transcriptomic response
 - The arsenic, mercury, and copper resistance mechanisms parallel the cadmium resistance systems in [[alquethamy-2021-acinetobacter-cadmium-resistance]]
 - Metal transport systems in *Enterococcus* can be compared to those in pathogenic *Streptococcus* reviewed in [[akbari-2022-metal-homeostasis-streptococci]]

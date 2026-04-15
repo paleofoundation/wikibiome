@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, 16s-rrna, gut-microbiota, t1d-t2d-comparison
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims

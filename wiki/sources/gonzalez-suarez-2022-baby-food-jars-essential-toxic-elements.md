@@ -33,10 +33,10 @@ platform: wikibiome
 
 ## Connections
 
-- Directly relevant to [[nickel in baby food]] as Ni reached 79.4% of TDI at standard consumption
-- Supports [[Pendergrass 2026]] argument that vegetable-based baby foods carry higher metal accumulation, especially for Al
-- Complements [[Meli et al 2024]] Italian baby food analysis with Spanish market data
-- The Al findings connect to [[de Paiva et al 2020]] and [[de Paiva et al 2020 cereals]] on aluminum bioaccessibility in baby foods
-- Mn overexposure finding aligns with concerns about [[manganese neurotoxicity]] in early life
-- Risk framework using MOE, TDI, TWI comparable to [[Su et al 2020]] and [[Ibrahim et al 2022]] approaches
+- Directly relevant to as Ni reached 79.4% of TDI at standard consumption
+- Supports argument that vegetable-based baby foods carry higher metal accumulation, especially for Al
+- Complements Italian baby food analysis with Spanish market data
+- The Al findings connect to and [[de Paiva et al 2020 cereals]] on aluminum bioaccessibility in baby foods
+- Mn overexposure finding aligns with concerns about in early life
+- Risk framework using MOE, TDI, TWI comparable to and approaches
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility during complementary feeding

@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, amino-acids, gut-immune-brain-axis, mTOR, nutri
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -40,8 +43,8 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- mTOR pathway and amino acid interventions
-- [[amino-acids]] -- nutritional modulation of ASD via amino acid supplementation
-- [[mTOR]] -- central signaling pathway linking gut, immune, and brain in ASD
+- -- nutritional modulation of ASD via amino acid supplementation
+- -- central signaling pathway linking gut, immune, and brain in ASD
 - [[gut-brain-axis]] -- immune-mediated gut-brain communication in ASD
-- [[immune-system]] -- mTOR-dependent immune dysfunction in ASD
+- -- mTOR-dependent immune dysfunction in ASD
 - [[gut-microbiome]] -- amino acid effects on microbiota composition

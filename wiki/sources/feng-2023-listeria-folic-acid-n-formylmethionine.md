@@ -40,7 +40,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- Listeria folate metabolism relevant to prenatal infection risk
-- [[listeria-monocytogenes]] -- folate metabolism as key virulence mechanism
-- [[folate]] -- bacterial competition for folate during infection
-- [[one-carbon-metabolism]] -- N-formylmethionine synthesis via folate pathway
-- [[maternal-infection]] -- Listeria as prenatal infection risk factor for ASD
+- -- folate metabolism as key virulence mechanism
+- -- bacterial competition for folate during infection
+- -- N-formylmethionine synthesis via folate pathway
+- -- Listeria as prenatal infection risk factor for ASD

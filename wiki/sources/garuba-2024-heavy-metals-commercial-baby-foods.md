@@ -33,10 +33,10 @@ platform: wikibiome
 
 ## Connections
 
-- US market data complements [[Meli et al 2024]] (Italy) and [[Su et al 2020]] (China) for global picture of [[baby food contamination]]
-- Al findings in purees support [[de Paiva et al 2020]] data showing high Al in salty purees and fruit purees
-- Finding that contamination is food-type-dependent (not packaging) supports [[Pendergrass 2026]] argument about vegetable bioaccumulation
-- [[nickel]] detected in all products at 0.019-0.414 ug/g, relevant to [[nickel in baby food]] topic
+- US market data complements (Italy) and (China) for global picture of 
+- Al findings in purees support data showing high Al in salty purees and fruit purees
+- Finding that contamination is food-type-dependent (not packaging) supports argument about vegetable bioaccumulation
+- [[nickel]] detected in all products at 0.019-0.414 ug/g, relevant to topic
 - Zinc exceedances connect to [[zinc]] toxicology literature and ATSDR guidelines
-- Supports [[FDA Closer to Zero]] initiative as policy response to documented contamination
+- Supports initiative as policy response to documented contamination
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility in early childhood

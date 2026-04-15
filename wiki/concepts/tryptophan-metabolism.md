@@ -76,7 +76,6 @@ Indole derivatives activate the **aryl hydrocarbon receptor (AhR)** on intestina
 - **Metal-driven dysbiosis reduces indole-producing commensals**: Loss of AhR ligand production impairs gut barrier integrity and removes anti-inflammatory signaling [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - The net effect of metal exposure is a triple hit: more neurotoxic QUIN, less serotonin, and fewer protective AhR ligands.
 
-
 ## Key Sources
 
 - [[wang-2023-microbiota-indole-3-propionic-acid-brain-asd-iugr]]

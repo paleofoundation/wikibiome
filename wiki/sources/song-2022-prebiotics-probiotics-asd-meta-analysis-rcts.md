@@ -42,5 +42,5 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- probiotics and prebiotics RCT evidence
 - [[probiotics]] -- lack of significant RCT evidence for ASD symptom improvement
 - [[prebiotics]] -- insufficient evidence from controlled trials in ASD
-- [[gastrointestinal-symptoms]] -- no significant RCT improvement with probiotics
-- [[evidence-quality]] -- discrepancy between observational and RCT evidence
+- -- no significant RCT improvement with probiotics
+- -- discrepancy between observational and RCT evidence

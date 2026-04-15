@@ -11,6 +11,7 @@ tags: [postpartum-depression, gut-microbiota, gut-brain-axis, neuroendocrine, an
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+evidence_level: expert-opinion
 ---
 
 # Key Claims

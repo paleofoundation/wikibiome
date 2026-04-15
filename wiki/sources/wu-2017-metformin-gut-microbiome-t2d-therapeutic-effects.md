@@ -9,6 +9,9 @@ journal: Nature Medicine
 year: 2017
 tags: [cardiovascular-disease, metformin, gut-microbiome, type-2-diabetes, Bifidobacterium-adolescentis, Akkermansia-muciniphila, SCFAs, bile-acids, metagenomics]
 platform: wikibiome
+karen_brain_primitives: [5]
+metals_discussed: []
+taxa_discussed: ["Akkermansia", "Bifidobacterium"]
 ---
 
 # Wu et al. 2017 -- Metformin Alters Gut Microbiome Contributing to T2D Therapeutic Effects
@@ -26,11 +29,11 @@ platform: wikibiome
 - **Type**: Randomized, placebo-controlled, double-blind study (n=40)
 - **Population**: Treatment-naive T2D patients; placebo (n=18) vs metformin (n=22) for 4 months, calorie-restricted diet
 - **Methods**: Whole-genome shotgun sequencing (38 billion paired-end reads per sample), targeted metabolomics, in vitro gut simulator experiments, FMT to germ-free mice
-- **Key microbiome findings**:
-  - 81 and 86 bacterial strains significantly altered at 2 and 4 months, respectively (mostly *Proteobacteria* -- *Escherichia coli* -- and *Firmicutes*)
-  - Increased *Escherichia* and decreased *Intestinibacter* in metformin group
-  - Coabundance network showed increased positive connections among microbial genera, especially within Proteobacteria and Firmicutes
-  - *A. muciniphila* increased in the 6-month switched subgroup
+
+ - 81 and 86 bacterial strains significantly altered at 2 and 4 months, respectively (mostly *Proteobacteria* -- *Escherichia coli* -- and *Firmicutes*)
+ - Increased *Escherichia* and decreased *Intestinibacter* in metformin group
+ - Coabundance network showed increased positive connections among microbial genera, especially within Proteobacteria and Firmicutes
+ - *A. muciniphila* increased in the 6-month switched subgroup
 - **Functional shifts**: 626 and 473 KOs increased, 130 and 69 KOs decreased after 2 and 4 months of metformin (FDR<0.05)
 - **In vitro gut simulator**: Metformin exposure altered DNA and RNA abundance of 24 bacterial strains; *A. muciniphila* was the only taxon increased in both donor samples
 
@@ -40,6 +43,6 @@ pp. 850-857
 
 ## Connections
 
-- Landmark study linking [[metformin]]'s therapeutic effects to [[gut microbiome]] changes
-- Links to [[short-chain-fatty-acids]], [[bile acids]], and [[cardiovascular disease]] risk reduction
+- Landmark study linking 's therapeutic effects to [[gut microbiome]] changes
+- Links to [[short-chain-fatty-acids]], and [[cardiovascular disease]] risk reduction
 - Relevant to [[Akkermansia muciniphila]] as a mediator of metabolic health

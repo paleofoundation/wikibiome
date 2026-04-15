@@ -40,10 +40,10 @@ Ruminococcus albus manufactures **cellulosomes** — extracellular, enzyme-loade
 
 - **Scaffold protein (scaffoldin)**: Serves as a structural backbone; possesses multiple **cohesin domains** that dock with enzymes
 - **Catalytic enzymes**: Multiple glycoside hydrolases (GHs) with dockerin domains that snap into cohesin domains on the scaffold
-  - **Endoglucanases** (GH9, GH48): Cleave internal bonds in cellulose chains
-  - **Exoglucanases** (GH3, GH6): Release cellobiose units from cellulose chain ends
-  - **β-glucosidases** (GH1, GH3): Convert cellobiose to glucose
-  - **Hemicellulases** (GH10, GH11, GH43): Degrade hemicellulose (branched arabinoxylans, mannans)
+ - **Endoglucanases** (GH9, GH48): Cleave internal bonds in cellulose chains
+ - **Exoglucanases** (GH3, GH6): Release cellobiose units from cellulose chain ends
+ - **β-glucosidases** (GH1, GH3): Convert cellobiose to glucose
+ - **Hemicellulases** (GH10, GH11, GH43): Degrade hemicellulose (branched arabinoxylans, mannans)
 
 ### Functional Advantages
 
@@ -67,10 +67,10 @@ Ruminococcus albus manufactures **cellulosomes** — extracellular, enzyme-loade
 Ruminococcus albus ferments the glucose, xylose, and other sugars released from cellulose degradation via:
 
 - **Mixed-acid fermentation pathway** → produces:
-  - **Butyrate** (primary SCFA output; ~30–40% of SCFA product)
-  - **Acetate** (major product; ~50–60%)
-  - **Propionate** (minor; ~5–10%)
-  - **Lactate and formate** (intermediate products)
+ - **Butyrate** (primary SCFA output; ~30–40% of SCFA product)
+ - **Acetate** (major product; ~50–60%)
+ - **Propionate** (minor; ~5–10%)
+ - **Lactate and formate** (intermediate products)
 
 ### Butyrate Significance for Health
 
@@ -108,12 +108,12 @@ Butyrate produced by R. albus and other Lachnospiraceae is the **most important 
 
 - **Dramatically depleted** in Western diets (<0.1% vs. >3% in high-fiber populations)
 - Strongly protective against:
-  - [[cardiovascular-disease]]: Low R. albus correlates with elevated LDL cholesterol and arterial inflammation
-  - [[type-2-diabetes]]: Fiber fermentation directly improves insulin sensitivity; butyrate restores β-cell function
-  - [[inflammatory-bowel-disease]]: Butyrate depletion drives IBD flares; R. albus supplementation shows promise
-  - [[colorectal-cancer]]: Butyrate has well-established anti-neoplastic effects in the colon
-  - [[obesity]]: High R. albus associated with healthy body weight in large population studies
-  - [[depression]]: Butyrate crosses BBB and regulates HDAC, promoting BDNF; linked to reduced depression risk
+ - [[cardiovascular-disease]]: Low R. albus correlates with elevated LDL cholesterol and arterial inflammation
+ - [[type-2-diabetes]]: Fiber fermentation directly improves insulin sensitivity; butyrate restores β-cell function
+ - [[inflammatory-bowel-disease]]: Butyrate depletion drives IBD flares; R. albus supplementation shows promise
+ - [[colorectal-cancer]]: Butyrate has well-established anti-neoplastic effects in the colon
+ - [[obesity]]: High R. albus associated with healthy body weight in large population studies
+ - [[depression]]: Butyrate crosses BBB and regulates HDAC, promoting BDNF; linked to reduced depression risk
 
 ### Resistance to Antibiotic Disruption
 
@@ -134,11 +134,11 @@ Ruminococcus albus is the **dominant primary consumer** in a coordinated metabol
 
 - Thrives in **high-fiber, intact colon microbiota**
 - Sensitive to:
-  - **Fiber depletion**: Starving out (loss of substrate competition advantage)
-  - **Osmotic stress**: High sugar, high-fat diets create unfavorable osmotic environment
-  - **Metal stress**: Cd, Pb, Ni displacement of Fe/Zn impairs enzyme function
-  - **Antibiotic exposure**: Readily killed by broad-spectrum agents
-  - **Dysbiotic pH shifts**: Colonic acidification (short-chain fermentation) favors R. albus; dysbiotic pH alkalinization inhibits it
+ - **Fiber depletion**: Starving out (loss of substrate competition advantage)
+ - **Osmotic stress**: High sugar, high-fat diets create unfavorable osmotic environment
+ - **Metal stress**: Cd, Pb, Ni displacement of Fe/Zn impairs enzyme function
+ - **Antibiotic exposure**: Readily killed by broad-spectrum agents
+ - **Dysbiotic pH shifts**: Colonic acidification (short-chain fermentation) favors R. albus; dysbiotic pH alkalinization inhibits it
 
 ## Detection and Quantification
 
@@ -168,7 +168,7 @@ Ruminococcus albus restoration is among the **most important therapeutic targets
 
 ## Connections
 
-- [[fiber]] – cellulose/hemicellulose primary substrate; essential for R. albus abundance
+- – cellulose/hemicellulose primary substrate; essential for R. albus abundance
 - [[short-chain-fatty-acids]] – primary butyrate producer in high-fiber microbiota
 - [[butyrate]] – core fermentation product; defines health impact
 - [[type-2-diabetes]] – depleted in T2D; butyrate directly improves insulin sensitivity
@@ -177,11 +177,11 @@ Ruminococcus albus restoration is among the **most important therapeutic targets
 - [[colorectal-cancer]] – butyrate-mediated protection against neoplastic progression
 - [[obesity]] – associated with healthy body weight in population studies
 - [[depression]] – butyrate crosses BBB; low R. albus associated with depression risk
-- [[nutritional-immunity|intestinal-barrier-function]] – butyrate maintains tight junctions via HDAC inhibition
+- [[nutritional-immunity|nutritional immunity]] – butyrate maintains tight junctions via HDAC inhibition
 - [[iron]] – iron-sulfur clusters essential for fermentation efficiency
 - [[zinc]] – zinc metalloproteases and enzyme cofactor roles
-- [[westernization]] – dramatically depleted in low-fiber Western diets
+- – dramatically depleted in low-fiber Western diets
 - [[dysbiosis]] – depletion is hallmark of dysbiotic microbiota
 - [[faecalibacterium-prausnitzii]] – related genus; cooperative fiber-degrading partnership
 - [[roseburia]] – genus family member; overlapping fiber niches
-- [[cellulosome]] – signature feature; enables efficient fiber degradation
+- – signature feature; enables efficient fiber degradation

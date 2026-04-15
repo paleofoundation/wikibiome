@@ -36,12 +36,12 @@ This study examines the disease outcome of influenza A virus (IAV) and SARS-CoV-
 
 ### Immune Response
 - Coinfected mice showed massive upregulation of inflammation-related genes:
-  - Complement system: C1ra, C1rb, C3, C1s1
-  - MHC: H2-eb1, H2-K1
-  - Cytokines/chemokines: IL-1a, IL6, Ccl5, Ccl8, Ccl12, Cxcl10
-  - Interferons: Ifit1, Ifi3, Il27l2a, Irf7
-  - Matrix metalloproteinases: Mmp3, Mmp8, Mmp9
-  - Apoptosis: Fas, Cd2, Gzma, Prf1
+ - Complement system: C1ra, C1rb, C3, C1s1
+ - MHC: H2-eb1, H2-K1
+ - Cytokines/chemokines: IL-1a, IL6, Ccl5, Ccl8, Ccl12, Cxcl10
+ - Interferons: Ifit1, Ifi3, Il27l2a, Irf7
+ - Matrix metalloproteinases: Mmp3, Mmp8, Mmp9
+ - Apoptosis: Fas, Cd2, Gzma, Prf1
 - Histopathology: Necrosis of bronchiolar epithelium, massive peribronchiolar infiltration of neutrophils and lymphocytes, small hemorrhages, pleural thickening
 
 ### Immunity Protection

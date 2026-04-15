@@ -33,6 +33,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- gut virome differences between SCZ and ASD
-- [[gut-virome]] -- disease-specific viral signatures in neuropsychiatric disorders
+- -- disease-specific viral signatures in neuropsychiatric disorders
 - [[schizophrenia]] -- gut virome as diagnostic biomarker
 - [[akkermansia-muciniphila]] -- virus-bacteria interactions in psychiatric disorders

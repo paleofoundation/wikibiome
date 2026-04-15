@@ -1,14 +1,29 @@
 ---
-
-title: "Role of Gut Microbiota-Generated Short-Chain Fatty Acids in Metabolic and Cardiovascular Health"
+title: Role of Gut Microbiota-Generated Short-Chain Fatty Acids in Metabolic and Cardiovascular Health
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Edward S. Chambers, Tom Preston, Gary Frost, Douglas J. Morrison]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Edward S. Chambers
+  - Tom Preston
+  - Gary Frost
+  - Douglas J. Morrison
 journal: Current Nutrition Reports
 year: 2018
 doi: 10.1007/s13668-018-0248-8
-tags: [cardiovascular-disease, CVD, SCFAs, butyrate, propionate, acetate, gut-barrier, blood-pressure, appetite-regulation, obesity, metabolic-health, review]
+tags:
+  - cardiovascular-disease
+  - CVD
+  - SCFAs
+  - butyrate
+  - propionate
+  - acetate
+  - gut-barrier
+  - blood-pressure
+  - appetite-regulation
+  - obesity
+  - metabolic-health
+  - review
 platform: wikibiome
 ---
 

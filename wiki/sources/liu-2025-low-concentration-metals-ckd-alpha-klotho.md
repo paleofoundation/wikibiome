@@ -1,15 +1,39 @@
 ---
-
-title: "The association between low-concentration heavy metal exposure and chronic kidney disease risk through alpha-klotho"
+title: The association between low-concentration heavy metal exposure and chronic kidney disease risk through alpha-klotho
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Liu S, Wang H, Cao Y, Lu L, Wu Y, Lian F, Yang J, Song Q]
-journal: "Scientific Reports"
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Liu S
+  - Wang H
+  - Cao Y
+  - Lu L
+  - Wu Y
+  - Lian F
+  - Yang J
+  - Song Q
+journal: Scientific Reports
 year: 2025
-tags: [chronic-kidney-disease, cadmium, mercury, lead, thallium, alpha-klotho, NHANES, machine-learning, BKMR, mediation]
-doi: "10.1038/s44439-024-00009-w"
+tags:
+  - chronic-kidney-disease
+  - cadmium
+  - mercury
+  - lead
+  - thallium
+  - alpha-klotho
+  - NHANES
+  - machine-learning
+  - BKMR
+  - mediation
+doi: 10.1038/s44439-024-00009-w
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Identifies alpha-klotho as the mediator converting low-dose Cd/Hg/Pb/Tl exposure into chronic kidney disease risk and uses Mendelian randomization to confirm causal directionality. Provides the mechanistic linchpin for WikiBiome's CKD signature and connects heavy metals to renal pathology at exposures below established regulatory thresholds.
 ---
 
 # Key Claims

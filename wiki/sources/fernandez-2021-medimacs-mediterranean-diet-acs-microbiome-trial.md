@@ -29,15 +29,15 @@ platform: wikibiome
 - **Intervention group**: Personalized MedDiet with dedicated dietitian, 4L/month free EVOO, monthly phone-call follow-ups; replicating PREDIMED protocol
 - **Assessments**: Blood, urine, saliva, lingual scraping, whole feces at enrollment and 3, 6, 9, 12 months
 - **Secondary endpoints** (12 endpoints total):
-  1. Minimum luminal area and intraluminal diameter by OCT
-  2. Plaque instability and vulnerability findings
-  3. Micro- and macrovascular endothelial function
-  4. Immune cell populations (NK, innate lymphoid, monocytes, macrophages, NKT)
-  5. Cytokine and epigenetic profiles (methylation, histidine decarboxylase, miRNA)
-  6. T cell receptor diversity
-  7. Microbiota abundance and diversity (16S rRNA and metagenomics)
-  8. Protein and metabolomics profiles (MS and NMR)
-  9. MACE incidence at 1 year
+ 1. Minimum luminal area and intraluminal diameter by OCT
+ 2. Plaque instability and vulnerability findings
+ 3. Micro- and macrovascular endothelial function
+ 4. Immune cell populations (NK, innate lymphoid, monocytes, macrophages, NKT)
+ 5. Cytokine and epigenetic profiles (methylation, histidine decarboxylase, miRNA)
+ 6. T cell receptor diversity
+ 7. Microbiota abundance and diversity (16S rRNA and metagenomics)
+ 8. Protein and metabolomics profiles (MS and NMR)
+ 9. MACE incidence at 1 year
 - **Sample size**: 35 per group (power 0.80, alpha 0.05) assuming 40% difference in fibrous cap thickness change; 10% attrition rate
 
 ## Source Pages
@@ -46,6 +46,6 @@ pp. 1-8
 
 ## Connections
 
-- Links to [[PREDIMED]] trial and Mediterranean diet cardiovascular protection
-- Relevant to [[oral microbiome]] and [[gut microbiome]] in [[atherosclerosis]] pathogenesis
-- Connects to [[inflammation]] and [[immune response]] in coronary artery disease
+- Links to trial and Mediterranean diet cardiovascular protection
+- Relevant to and [[gut microbiome]] in [[atherosclerosis]] pathogenesis
+- Connects to [[inflammation]] and in coronary artery disease

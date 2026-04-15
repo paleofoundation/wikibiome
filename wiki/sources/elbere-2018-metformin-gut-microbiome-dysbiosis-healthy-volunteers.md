@@ -27,13 +27,13 @@ platform: wikibiome
 - **Intervention**: Metformin 850mg twice daily for 7 days
 - **Sampling**: Fecal samples at baseline (M0), 24 hours (M24h), and 7 days (M7d)
 - **Methods**: 16S rRNA gene V3 region sequencing (Ion Torrent PGM); PERMANOVA, LEfSe analysis, edgeR differential abundance
-- **Key results**:
-  - PERMANOVA: Gut microbiome communities specific to each individual (R-squared=0.74, p=0.001); combined M24h+M7d vs M0 showed significant difference (R-squared=0.019, p=0.036)
-  - Shannon diversity significantly decreased at M24h (p=0.004) with partial recovery by M7d
-  - 220 taxonomic groups analyzed; 17 differentially abundant clades detected by LEfSe
-  - GI side effects: no side effects (n=3), mild (n=6), severe (n=9); inner diversity increased only in groups with side effects by M7d
-  - No significant changes at phylum level across timepoints
-  - Increased *Enterobacteriales* order and *Enterobacteriaceae* family at M24h and M7d
+
+ - PERMANOVA: Gut microbiome communities specific to each individual (R-squared=0.74, p=0.001); combined M24h+M7d vs M0 showed significant difference (R-squared=0.019, p=0.036)
+ - Shannon diversity significantly decreased at M24h (p=0.004) with partial recovery by M7d
+ - 220 taxonomic groups analyzed; 17 differentially abundant clades detected by LEfSe
+ - GI side effects: no side effects (n=3), mild (n=6), severe (n=9); inner diversity increased only in groups with side effects by M7d
+ - No significant changes at phylum level across timepoints
+ - Increased *Enterobacteriales* order and *Enterobacteriaceae* family at M24h and M7d
 
 ## Source Pages
 
@@ -41,6 +41,6 @@ pp. 1-8
 
 ## Connections
 
-- Links to [[metformin]]'s mechanism of action via [[gut microbiome]] modulation
+- Links to 's mechanism of action via [[gut microbiome]] modulation
 - Relevant to [[cardiovascular disease]] through metformin's cardioprotective effects
 - Connects to [[Akkermansia muciniphila]] (trend toward increase, M0 vs M7d p=0.03 uncorrected)

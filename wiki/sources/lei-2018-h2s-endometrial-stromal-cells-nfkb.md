@@ -24,19 +24,19 @@ platform: wikibiome
 
 - **Study design**: Combined in vitro (human ESC cultures) and in vivo (mouse allotransplantation model) experimental study
 - **Tissue samples**: Ectopic endometrial tissues from 21 endometriosis patients and normal endometrial tissues from 35 control women (Shanghai First Maternity and Infant Hospital, Jan 2016 -- Jan 2017)
-- **In vitro findings**:
-  - CBS and CSE expression higher in ectopic endometrium vs. normal (immunohistochemistry and immunocytochemistry)
-  - NaHS (H2S donor) dose-dependently increased HESC viability, peaking at 300 umol/l (CCK-8 assay)
-  - CBS and CSE overexpression plasmids promoted HESC proliferation
-  - CBS inhibitor AOAA (1 mmol/l) and CSE inhibitor PAG (3, 10 mmol/l) reduced NaHS-induced proliferation
-- **NF-kB pathway involvement**:
-  - NaHS (300-500 umol/l) increased NF-kB p65 phosphorylation and IKKalpha/beta phosphorylation
-  - PDTC (NF-kB inhibitor, pyrrolidine dithiocarbamate) dose-dependently diminished NaHS-induced proliferation
-  - CAPE (caffeic acid phenethyl ester, NF-kB inhibitor) similarly reversed the pro-proliferation effect
-- **In vivo findings (mouse model)**:
-  - Intraperitoneal allotransplantation of endometrial fragments in BALB/c mice
-  - PAG (50 mg/kg) and AOAA (30 mg/kg) administered intraperitoneally on day 5
-  - Both PAG and AOAA groups showed significantly reduced number and weight of ectopic lesions compared to control (p<0.05)
+
+ - CBS and CSE expression higher in ectopic endometrium vs. normal (immunohistochemistry and immunocytochemistry)
+ - NaHS (H2S donor) dose-dependently increased HESC viability, peaking at 300 umol/l (CCK-8 assay)
+ - CBS and CSE overexpression plasmids promoted HESC proliferation
+ - CBS inhibitor AOAA (1 mmol/l) and CSE inhibitor PAG (3, 10 mmol/l) reduced NaHS-induced proliferation
+
+ - NaHS (300-500 umol/l) increased NF-kB p65 phosphorylation and IKKalpha/beta phosphorylation
+ - PDTC (NF-kB inhibitor, pyrrolidine dithiocarbamate) dose-dependently diminished NaHS-induced proliferation
+ - CAPE (caffeic acid phenethyl ester, NF-kB inhibitor) similarly reversed the pro-proliferation effect
+
+ - Intraperitoneal allotransplantation of endometrial fragments in BALB/c mice
+ - PAG (50 mg/kg) and AOAA (30 mg/kg) administered intraperitoneally on day 5
+ - Both PAG and AOAA groups showed significantly reduced number and weight of ectopic lesions compared to control (p<0.05)
 - **Mechanistic model**: ESCs from ectopic tissue express high CBS and CSE --> catalyze cysteine to H2S --> H2S activates NF-kB pathway --> promotes ESC survival, proliferation, and endometriosis progression; this can be reversed by CBS/CSE inhibitors (PAG, AOAA) or NF-kB pathway inhibitors (PDTC, CAPE)
 
 # Connections

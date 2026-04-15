@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Case-control at Kyoto Prefectural University of Medicine
 - **Participants**: 30 women with endometriosis (rASRM stage III-IV) and 39 controls
 - **Methods**: Gram staining, 16S rRNA NGS (Ion Torrent PGM), quantitative real-time PCR
-- **Key results**:
-  - Higher Shannon diversity in endometriosis (P<0.05)
-  - No significant beta diversity difference by weighted UniFrac
-  - qPCR confirmed significantly higher *Enterobacteriaceae* (P<0.05) and *Streptococcus* (P<0.05) in endometriosis
-  - *Pseudomonas* and *Corynebacterium* not significantly different by qPCR
-  - No difference in *Prevotella* or *Gardnerella* (BV-associated bacteria)
+
+ - Higher Shannon diversity in endometriosis (P<0.05)
+ - No significant beta diversity difference by weighted UniFrac
+ - qPCR confirmed significantly higher *Enterobacteriaceae* (P<0.05) and *Streptococcus* (P<0.05) in endometriosis
+ - *Pseudomonas* and *Corynebacterium* not significantly different by qPCR
+ - No difference in *Prevotella* or *Gardnerella* (BV-associated bacteria)
 
 # Relevance to Wiki
 

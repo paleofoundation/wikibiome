@@ -18,10 +18,10 @@ Direct DNA damage is the **primary carcinogenic mechanism for [[chromium]]** but
 ### Cr-DNA Adducts [[salnikov-2008-metal-carcinogenesis]]
 - The signature lesion of Cr(VI) carcinogenesis.
 - **Ternary adducts** (50-75% of all adducts): Cr(III) crosslinks DNA with a third molecule:
-  - Cr-ascorbate-DNA (dominant when ascorbate is reductant)
-  - Cr-glutathione-DNA
-  - Cr-cysteine-DNA
-  - Cr-amino acid-DNA
+ - Cr-ascorbate-DNA (dominant when ascorbate is reductant)
+ - Cr-glutathione-DNA
+ - Cr-cysteine-DNA
+ - Cr-amino acid-DNA
 - **Binary adducts** (minority): Cr(III) directly on DNA bases.
 - Mutagenicity: ternary adducts, especially Cr-ascorbate adducts, are mutagenic. The frequency of mutations correlates with adduct levels.
 

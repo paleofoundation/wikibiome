@@ -35,7 +35,7 @@ Demonstrates differential heavy metal susceptibility of Candida species in immun
 - [[cadmium]] -- 100% susceptibility at 1 mM; potent antifungal effect through ATPase inhibition
 - [[copper]] -- relevant to the broader metal susceptibility profile of Candida
 - [[oxidative-stress]] -- metal ions induce membrane potential loss and oxidative damage as antifungal mechanisms
-- [[silver]] -- 77% susceptibility at 10 mM; potential therapeutic metal
+- -- 77% susceptibility at 10 mM; potential therapeutic metal
 - [[mercury]] -- 100% susceptibility at 10 mM; inhibits plasma membrane ATPase
 - [[nickel]] -- noted as an inhibitor of eukaryotic plasma membrane ATPase
 - [[gut-metal-microbiome]] -- metal availability shapes fungal survival in immunocompromised hosts

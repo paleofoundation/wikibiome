@@ -9,6 +9,7 @@ year: 2022
 doi: "10.1186/s12888-022-04328-w"
 tags: [schizophrenia, gut-microbiome, 16S-rRNA, alpha-diversity, beta-diversity, Bacteroidetes, Proteobacteria, Prevotella, Sutterella, China]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # A Comparative Study to Determine the Association of Gut Microbiome with Schizophrenia in Zhejiang, China

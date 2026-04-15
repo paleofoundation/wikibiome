@@ -10,6 +10,7 @@ year: 2022
 doi: "10.33073/pjm-2022-016"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, 16S-rRNA, ABC-transporter, Bacteroidetes, Proteobacteria, Actinomycetes, KEGG, biomarkers]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis

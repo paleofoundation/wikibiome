@@ -50,8 +50,8 @@ This study investigates the impact of maternal SARS-CoV-2 infection on the eleme
 
 ### Metal-Metabolite-Antibody Associations
 - Two groups of metals showed opposite behavior relative to SARS-CoV-2 antibodies:
-  - **Group I** (Cd, V, Ni, Se, Cu, Al, Fe): positively correlated with tyrosine, uric acid, tocopherol, cholesterol, proline, valine, phenylalanine, glycine, isoleucine
-  - **Group II** (As, Zn, Tl, Cr, Co, Mn): negatively correlated with the same metabolites
+ - **Group I** (Cd, V, Ni, Se, Cu, Al, Fe): positively correlated with tyrosine, uric acid, tocopherol, cholesterol, proline, valine, phenylalanine, glycine, isoleucine
+ - **Group II** (As, Zn, Tl, Cr, Co, Mn): negatively correlated with the same metabolites
 - Higher anti-SARS-CoV-2 IgA levels associated with lower Se and Co, and higher IgG with lower Ni
 - Cu levels not significantly associated with immunoglobulin levels (p > 0.05)
 

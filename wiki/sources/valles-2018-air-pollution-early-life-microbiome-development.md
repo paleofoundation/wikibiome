@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, air-pollution, early-life-microbiome, infant-de
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -24,5 +27,5 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- air pollution and early-life microbiome disruption
 - [[gut-microbiome]] -- environmental pollutant effects on early microbial colonization
-- [[environmental-exposures]] -- air pollution as microbiome disruptor
-- [[neurodevelopment]] -- early microbiome and brain development
+- -- air pollution as microbiome disruptor
+- -- early microbiome and brain development

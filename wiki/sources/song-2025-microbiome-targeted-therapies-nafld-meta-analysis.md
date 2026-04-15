@@ -27,11 +27,11 @@ platform: wikibiome
 - **Population**: 1,921 patients (266 pediatric, 1,655 adults) across 37 studies (2011-2024)
 - **Interventions**: Probiotics (23 RCTs), synbiotics (10 RCTs), prebiotics (4 RCTs), FMT (3 RCTs), antibiotics (1 RCT)
 - **Methods**: PROSPERO registered (CRD42023450093); Cochrane risk of bias; Stata 14.0 for NMA; SUCRA ranking
-- **Key NMA findings**:
-  - ALT improvement: synbiotics (MD: -5.09) and probiotics (MD: -7.81) superior to placebo
-  - CAP (controlled attenuation parameter): synbiotics (MD: -39.34) best; allogenic FMT second (57.8%)
-  - AST improvement: synbiotics (85.5%) best, followed by autologous FMT (54.5%)
-  - HDL-C and LDL-C: no significant between-intervention differences overall; autologous FMT best for HDL-C (73.1%)
+
+ - ALT improvement: synbiotics (MD: -5.09) and probiotics (MD: -7.81) superior to placebo
+ - CAP (controlled attenuation parameter): synbiotics (MD: -39.34) best; allogenic FMT second (57.8%)
+ - AST improvement: synbiotics (85.5%) best, followed by autologous FMT (54.5%)
+ - HDL-C and LDL-C: no significant between-intervention differences overall; autologous FMT best for HDL-C (73.1%)
 
 ## Source Pages
 

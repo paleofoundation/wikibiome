@@ -23,4 +23,4 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- importance of postmortem brain research
-- [[neuropathology]] -- tissue-based understanding of ASD biology
+- -- tissue-based understanding of ASD biology

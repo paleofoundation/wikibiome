@@ -10,6 +10,7 @@ year: 2024
 doi: 10.1186/s12985-024-02571-z
 tags: [cardiovascular-disease, viral-microbiota, coxsackievirus-B3, acute-viral-myocarditis, gut-heart-axis, 16S-rRNA, metabolomics, dysbiosis, Proteobacteria]
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Altered Colonic Microflora and Its Metabolic Profile in Mice with Acute Viral Myocarditis Induced by Coxsackievirus B3

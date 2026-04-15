@@ -85,7 +85,6 @@ As of 2026, 345 legal claims are pending related to heavy metals in baby food. F
 
 "Organic" does not mean "lower in heavy metals." Multiple studies document that organic baby foods have **equal or higher** concentrations of nickel, cadmium, and arsenic compared to conventional products. This is because organic certification addresses pesticide and synthetic fertilizer use, not soil contamination legacy or plant hyperaccumulation biology [[pereira-2020-nickel-baby-foods]].
 
-
 ## Key Sources
 
 - [[garuba-2024-heavy-metals-commercial-baby-foods]]

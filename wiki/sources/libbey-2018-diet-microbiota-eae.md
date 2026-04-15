@@ -26,17 +26,17 @@ platform: wikibiome
 - **Model**: C57BL/6J mice with MOG35-55-induced EAE, fed either irradiated or autoclaved Teklad diet
 - **Key Finding - Disease**: Mice on the irradiated diet had significantly higher clinical scores on day 16 (p<0.05), greater weight loss, higher pathology scores (demyelination, PVC, meningitis), and increased mortality compared to autoclaved diet
 - **Microbiota Analysis**: 16S rRNA sequencing of fecal samples
-  - *Lactobacillus* abundance decreased in peptide-sensitized mice at day 16 and was inversely correlated with disease
-  - *Bacteroides*, *Turicibacter*, *Ruminococcus*, and *Ruminococcaceae* (unassigned) positively correlated with EAE severity
+ - *Lactobacillus* abundance decreased in peptide-sensitized mice at day 16 and was inversely correlated with disease
+ - *Bacteroides*, *Turicibacter*, *Ruminococcus*, and *Ruminococcaceae* (unassigned) positively correlated with EAE severity
 - **L. paracasei Treatment**: Oral gavage daily from disease onset
-  - Only 9/13 treated mice developed EAE vs. 15/15 PBS controls (p<0.05)
-  - Significantly lower clinical scores from day 10 onward
-  - Significantly less weight loss
+ - Only 9/13 treated mice developed EAE vs. 15/15 PBS controls (p<0.05)
+ - Significantly lower clinical scores from day 10 onward
+ - Significantly less weight loss
 - **Metabolomics** (GC-MS of serum and feces):
-  - Shifts in glycolysis and TCA cycle metabolites between diet groups and disease states
-  - Metabolites higher in autoclaved food for day 16 serum: citric acid, isocitric acid, malic acid, fumaric acid
-  - OCR/ECAR ratio (oxidative phosphorylation vs. glycolysis) was significantly higher in T cells from autoclaved diet/low disease mice
-  - Disease-associated mice showed a metabolic shift toward glycolysis and away from OXPHOS
+ - Shifts in glycolysis and TCA cycle metabolites between diet groups and disease states
+ - Metabolites higher in autoclaved food for day 16 serum: citric acid, isocitric acid, malic acid, fumaric acid
+ - OCR/ECAR ratio (oxidative phosphorylation vs. glycolysis) was significantly higher in T cells from autoclaved diet/low disease mice
+ - Disease-associated mice showed a metabolic shift toward glycolysis and away from OXPHOS
 
 ## Connections
 

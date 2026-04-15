@@ -24,12 +24,12 @@ platform: wikibiome
 - **Design**: Prospective, single-center pilot study at Fondazione Policlinico Universitario A. Gemelli, Rome
 - **Population**: 20 consecutive IBS patients (3M/17F; mean age 42 +/- 14; mean BMI 23 +/- 4) meeting Rome III criteria; screened to exclude organic diseases, celiac, IBD, SIBO; 50% had nickel patch test positive
 - **Protocol**: 3-month low-Ni diet following BraMa-Ni guidelines (exclude foods >100 ug Ni/kg); assessed VAS-IBS, VAS, SF-36, PGWBI, MMPI-2, and 51Cr-EDTA intestinal permeability before and after diet
-- **Results**:
-  - VAS-IBS: Significant improvement in all symptoms except vomiting (p<0.001 to p<0.0001)
-  - VAS clinical efficacy: Average pre-diet 3.9, post-diet 7.3 (p<0.0001)
-  - SF-36: Significant improvement in bodily pain (p=0.028) and physical component summary (p=0.018)
-  - IP: All patients had altered IP at baseline; 10/20 showed significant reduction in 51Cr-EDTA (p=0.028); 10/20 showed worsening (p=0.0001)
-  - IP change determinants: Direct relation with moderate (++) and strong (+++) patch test reactivity (p=0.057 and p=0.026); indirect relation with IBS-M (p=0.010) and IBS-U (p=0.017) subtypes
+
+ - VAS-IBS: Significant improvement in all symptoms except vomiting (p<0.001 to p<0.0001)
+ - VAS clinical efficacy: Average pre-diet 3.9, post-diet 7.3 (p<0.0001)
+ - SF-36: Significant improvement in bodily pain (p=0.028) and physical component summary (p=0.018)
+ - IP: All patients had altered IP at baseline; 10/20 showed significant reduction in 51Cr-EDTA (p=0.028); 10/20 showed worsening (p=0.0001)
+ - IP change determinants: Direct relation with moderate (++) and strong (+++) patch test reactivity (p=0.057 and p=0.026); indirect relation with IBS-M (p=0.010) and IBS-U (p=0.017) subtypes
 - **Psychiatric findings**: High prevalence of anxiety (40%), depression (5%), somatoform disorder (15%), hypochondriasis (10%) among IBS-nickel patients
 - **Lactose malabsorption**: 75% (15/20) prevalence
 - **Limitations**: Small sample; no placebo control; single-center; possible placebo/nocebo effect

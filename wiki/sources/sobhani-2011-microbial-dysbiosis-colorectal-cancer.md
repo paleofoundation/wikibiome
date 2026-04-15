@@ -25,12 +25,12 @@ platform: wikibiome
 
 - **Type**: Cross-sectional study (n = 179: 60 CRC patients, 119 normal colonoscopy)
 - **Methods**: Stool bacterial DNA extracted prior to colonoscopy; pyrosequencing of 12 stool samples (6 Normal, 6 Cancer); qPCR quantification of dominant/subdominant species
-- **Results**:
-  - 819 taxa identified from pyrosequencing; 18 dominant bacterial genera (75% of sequences) including *Alistipes*, *Collinsella*, *Bacteroides*, *Lachnospira*, *Prevotella*, *Subdoligranulum*, *Dorea*, *Faecalibacterium*
-  - All-bacteria log10 levels similar between normal (11.88) and cancer (11.80) groups
-  - *Bacteroides/Prevotella* group significantly different (p = 0.009) between normal and cancer
-  - IL-17/CD3 ratios not significantly different between normal and cancer in normal colon mucosa
-  - *Bacteroides* detected in stool at 1000-fold higher than tissue by qPCR
+
+ - 819 taxa identified from pyrosequencing; 18 dominant bacterial genera (75% of sequences) including *Alistipes*, *Collinsella*, *Bacteroides*, *Lachnospira*, *Prevotella*, *Subdoligranulum*, *Dorea*, *Faecalibacterium*
+ - All-bacteria log10 levels similar between normal (11.88) and cancer (11.80) groups
+ - *Bacteroides/Prevotella* group significantly different (p = 0.009) between normal and cancer
+ - IL-17/CD3 ratios not significantly different between normal and cancer in normal colon mucosa
+ - *Bacteroides* detected in stool at 1000-fold higher than tissue by qPCR
 
 ## Connections
 

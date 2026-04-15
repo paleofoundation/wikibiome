@@ -37,10 +37,10 @@ platform: wikibiome
 
 ## Connections
 
-- Berberine as prebiotic modulator of [[Gut-Thyroid Axis]] extends findings from [[yang-2022-intestinal-flora-graves-methimazole]] on methimazole-microbiome interaction
+- Berberine as prebiotic modulator of extends findings from [[yang-2022-intestinal-flora-graves-methimazole]] on methimazole-microbiome interaction
 - Enterobactin-iron uptake mechanism connects to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] and [[brylinski-2025-trace-elements-thyroid-diseases]] iron sections on Fe-TPO relationship
 - Faecalibacterium prausnitzii role consistent with its known anti-inflammatory properties and [[Short-Chain Fatty Acids]] production
-- Vitamin K2 biosynthesis pathway changes relevant to emerging understanding of [[Vitamin K]] in autoimmune regulation
+- Vitamin K2 biosynthesis pathway changes relevant to emerging understanding of in autoimmune regulation
 - Lactococcus lactis increase by berberine relevant to [[probiotics]] approaches for autoimmune thyroid disease
-- TCA cycle and amino acid metabolism pathway changes connect to broader [[Metabolomics]] of GD
-- Combined Chinese-Western medicine approach provides framework for [[Drug Repurposing]] in autoimmune thyroid disease
+- TCA cycle and amino acid metabolism pathway changes connect to broader of GD
+- Combined Chinese-Western medicine approach provides framework for in autoimmune thyroid disease

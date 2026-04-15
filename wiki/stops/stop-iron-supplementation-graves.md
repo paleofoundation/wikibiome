@@ -30,7 +30,7 @@ Graves' disease patients frequently present with **anemia** or **low serum iron*
 
 The Graves' disease microbiome signature reveals why this reasoning is inverted:
 
-**Hepcidin is elevated as host defense.** In the context of the Graves' dysbiotic signature — enriched [[escherichia-coli|E. coli]], [[klebsiella-pneumoniae|Klebsiella]], and [[enterobacteriaceae|Proteobacteria]] — elevated hepcidin represents the body deliberately withholding iron from pathogenic taxa. This is **functional anemia** (Primitive 2), not true deficiency [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
+**Hepcidin is elevated as host defense.** In the context of the Graves' dysbiotic signature — enriched [[escherichia-coli|E. coli]], [[klebsiella-pneumoniae|Klebsiella]], and [[enterobacteriaceae|Enterobacteriaceae]] — elevated hepcidin represents the body deliberately withholding iron from pathogenic taxa. This is **functional anemia** (Primitive 2), not true deficiency [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 
 **The Graves' signature is already iron-enriched.** The metallomic signature shows elevated tissue iron alongside elevated [[calprotectin]] and [[lactoferrin]] — the host is actively sequestering iron. Supplementation overrides this defense [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
 

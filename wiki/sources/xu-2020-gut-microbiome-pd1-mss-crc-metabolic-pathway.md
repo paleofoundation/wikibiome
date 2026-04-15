@@ -10,6 +10,7 @@ year: 2020
 doi: "10.3389/fmicb.2020.00814"
 tags: [colon-cancer, colorectal-cancer, PD-1, immunotherapy, MSS-type, CT26, gut-microbiome, antibiotics, Akkermansia, Prevotella, glycerophospholipid, metabolic-pathway, vancomycin, colistin]
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Xu 2020 -- Gut Microbiome Influences PD-1 Immunotherapy Efficacy in MSS-Type CRC

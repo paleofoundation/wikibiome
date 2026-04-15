@@ -25,12 +25,12 @@ platform: wikibiome
 
 - **Study type**: Comprehensive review covering traditional probiotics, engineered bacteria, and future perspectives
 - **Traditional probiotic mechanisms** (Table 2):
-  - Xanthomonadaceae, Pirellula, Cloacibacterium convert MeHg to less soluble Hg0
-  - L. plantarum TW1-1 converts Cd to less absorbable form
-  - SRB, methanogens, Desulfovibrio: chemical modification of HMs by methylation
-  - L. plantarum CCFM8610/CCFM8661 and Bacillus cereus: increase HM excretion via bile acid production
-  - Pseudomonas, Oxalobacter formigenes, F. prausnitzii: form insoluble complexes with HMs via siderophores and H2S
-  - L. plantarum CCFM639, Bacillus Coagulans: promote antioxidant gene expression
+ - Xanthomonadaceae, Pirellula, Cloacibacterium convert MeHg to less soluble Hg0
+ - L. plantarum TW1-1 converts Cd to less absorbable form
+ - SRB, methanogens, Desulfovibrio: chemical modification of HMs by methylation
+ - L. plantarum CCFM8610/CCFM8661 and Bacillus cereus: increase HM excretion via bile acid production
+ - Pseudomonas, Oxalobacter formigenes, F. prausnitzii: form insoluble complexes with HMs via siderophores and H2S
+ - L. plantarum CCFM639, Bacillus Coagulans: promote antioxidant gene expression
 - **Surface display systems** (Figure 2): Different approaches for Gram-negative (OMPs, autotransporters, flagella) vs. Gram-positive (SpA-based) bacteria; metallothioneins (MTs) and phytochelatins (PCs) are most classic HM-chelating peptides
 - **Transport and storage systems** (Figure 3): Primary active transporters (ATP-driven), secondary carriers (proton-motive force), and channels (passive diffusion); examples include MntA/cdtB from L. plantarum for Cd, NixA for Ni/Co
 - **In vivo GEM results**: All three engineered strains showed selective metal affinity, no noxious effects on animals, and importantly did not affect essential metal metabolism

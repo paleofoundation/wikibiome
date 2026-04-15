@@ -28,12 +28,12 @@ A Gram-negative uropathogen whose **Ni-dependent urease** is the central driver 
 - Urease is **essential** for CAUTI pathogenesis and urinary stone formation [[maier-2019-nickel-microbial-pathogenesis]].
 - Catalyzes: urea -> ammonia + bicarbonate.
 - Ammonia production **raises urine pH** from ~5-6 to >7, causing precipitation of:
-  - **Struvite** (MgNH4PO4): the primary stone mineral.
-  - **Apatite** (Ca10(PO4)6(OH)2): secondary mineral deposition.
+ - **Struvite** (MgNH4PO4): the primary stone mineral.
+ - **Apatite** (Ca10(PO4)6(OH)2): secondary mineral deposition.
 - **Crystalline biofilm formation**: urease-mediated crystal precipitation creates a mineralized biofilm on catheter surfaces that:
-  - Physically obstructs urine flow.
-  - Provides a protected niche for bacterial communities.
-  - Resists antibiotic penetration.
+ - Physically obstructs urine flow.
+ - Provides a protected niche for bacterial communities.
+ - Resists antibiotic penetration.
 - **Extracellular crystal clusters in the bladder**: urease induces crystal formation directly in bladder tissue, causing tissue damage and promoting ascending infection.
 - Urease-negative mutants are dramatically attenuated in CAUTI models.
 
@@ -64,8 +64,8 @@ A Gram-negative uropathogen whose **Ni-dependent urease** is the central driver 
 ## Nutritional Immunity Evasion
 
 - The urinary tract has relatively low metal restriction compared to blood/abscess environments, but:
-  - **Urinary lactoferrin and lipocalin-2** restrict iron availability.
-  - **Tamm-Horsfall protein (uromodulin)** may modulate metal availability in urine.
+ - **Urinary lactoferrin and lipocalin-2** restrict iron availability.
+ - **Tamm-Horsfall protein (uromodulin)** may modulate metal availability in urine.
 - *P. mirabilis* compensates with high-affinity nickel transporters and the His-rich HypB nickel buffer to ensure urease metalation.
 - Catheter surfaces may concentrate metals from urine, creating a metal-enriched microenvironment favorable for *P. mirabilis* biofilm.
 

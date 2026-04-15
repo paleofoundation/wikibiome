@@ -11,6 +11,7 @@ tags: [type-1-diabetes, autoimmune, microbiome-host-interactions, protein-intera
 library_category: mechanisms
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: computational-prediction
 ---
 
 # Key Claims

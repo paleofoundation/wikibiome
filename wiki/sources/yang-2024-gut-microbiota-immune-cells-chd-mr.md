@@ -10,6 +10,7 @@ year: 2024
 doi: 10.3389/fmicb.2024.1449935
 tags: [cardiovascular-disease, CVD, coronary-heart-disease, Mendelian-randomization, immune-cells, Desulfovibrio-piger, DN-T-cells, mediation-analysis, causality]
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # Causal Relationship Between the Gut Microbiota, Immune Cells, and Coronary Heart Disease: A Mediated Mendelian Randomization Analysis

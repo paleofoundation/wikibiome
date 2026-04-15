@@ -34,4 +34,4 @@ platform: wikibiome
 - Supports the efficacy of [[low-nickel-diet]] demonstrated in [[kaaber-1978-low-nickel-diet-chronic-dermatitis]] and [[veien-1993-low-nickel-diet-trial]]
 - Disulfiram chelation approach is an alternative to oral hyposensitization studied in [[schiavino-2006-oral-hyposensitization-nickel]]
 - Indian dietary context provides different perspective from European studies like [[braga-2013-snas-nosologic-framework]]
-- Relates to the [[hand eczema]] management discussed across multiple nickel allergy studies
+- Relates to the management discussed across multiple nickel allergy studies

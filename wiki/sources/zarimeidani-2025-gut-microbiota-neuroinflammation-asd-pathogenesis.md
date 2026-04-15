@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, neuroinflammation, gut-microbiota, cytokines, m
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: [2]
+metals_discussed: []
+evidence_level: expert-opinion
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -42,6 +46,6 @@ condition: "autism spectrum disorder"
 - [[neuroinflammation]] -- central mechanism linking gut dysbiosis to ASD
 - [[gut-microbiome]] -- dysbiosis as trigger for neuroinflammatory cascade
 - [[gut-brain-axis]] -- cytokine and metabolite mediation
-- [[microglia]] -- activated by gut-derived inflammatory signals in ASD
+- -- activated by gut-derived inflammatory signals in ASD
 - [[probiotics]] -- therapeutic strategy to reduce neuroinflammation
 - [[biomarkers]] -- calprotectin, BDNF, eotaxin, microRNAs as ASD markers

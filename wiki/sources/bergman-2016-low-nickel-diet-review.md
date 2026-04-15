@@ -33,4 +33,4 @@ platform: wikibiome
 - References the clinical framework from [[braga-2013-snas-nosologic-framework]]
 - Discusses oral hyposensitization studied in [[schiavino-2006-oral-hyposensitization-nickel]] and [[minelli-2010-nioh-cytokines-snas]]
 - Connects to dietary nickel content data in [[flyvholm-1984-nickel-food-content]]
-- Relevant to [[systemic nickel allergy syndrome]] diagnosis and management
+- Relevant to diagnosis and management

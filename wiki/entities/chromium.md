@@ -44,10 +44,10 @@ A transition metal whose hexavalent form, **Cr(VI)**, is a potent human carcinog
 
 ### DNA Damage
 - **Cr-DNA adducts**: the signature lesion. Most are **ternary adducts** — Cr(III) crosslinking DNA with another molecule:
-  - Cr-ascorbate-DNA (~50-75% of all adducts when ascorbate is the reductant)
-  - Cr-glutathione-DNA
-  - Cr-cysteine-DNA
-  - Only a fraction are binary (Cr directly on DNA).
+ - Cr-ascorbate-DNA (~50-75% of all adducts when ascorbate is the reductant)
+ - Cr-glutathione-DNA
+ - Cr-cysteine-DNA
+ - Only a fraction are binary (Cr directly on DNA).
 - **DNA-protein crosslinks**: formed through attack of DNA by Cr(III) bound to proteins.
 - **DNA interstrand crosslinks**: relatively rare but potent.
 - **DNA strand breaks**: SSBs produced, but some reports may be assay artifacts. DSBs also occur.

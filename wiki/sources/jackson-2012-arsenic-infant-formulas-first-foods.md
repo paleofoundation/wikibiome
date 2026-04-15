@@ -34,10 +34,10 @@ platform: wikibiome
 
 ## Connections
 
-- Demonstrates that [[rice]] is a key driver of arsenic in infant foods, connecting to broader [[rice contamination]] literature
-- Relevant to [[infant dietary exposure]] calculations showing that body weight normalization makes infant exposures disproportionately high
-- Complements [[Meli et al 2024]] and [[Su et al 2020]] on multi-element contamination of infant foods
-- Supports the argument in [[Pendergrass 2026]] that developmental readiness for complementary feeding does not equal toxicokinetic safety
-- Connects to [[aluminum in infant formula]] literature as another example of metal contamination in formula products
-- The finding that US has no As food regulations contrasts with the Chinese and EU regulatory frameworks discussed in [[Su et al 2020]]
+- Demonstrates that is a key driver of arsenic in infant foods, connecting to broader literature
+- Relevant to calculations showing that body weight normalization makes infant exposures disproportionately high
+- Complements and on multi-element contamination of infant foods
+- Supports the argument in that developmental readiness for complementary feeding does not equal toxicokinetic safety
+- Connects to literature as another example of metal contamination in formula products
+- The finding that US has no As food regulations contrasts with the Chinese and EU regulatory frameworks discussed in 
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility for arsenic-exposed infants

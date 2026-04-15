@@ -24,14 +24,14 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Review
-- **Key mechanisms summarized**:
-  - **SCFA production**: Acetate (C2), propionate (C3), butyrate (C4) constitute ~95% of total SCFAs; colonic concentrations reach 70-100 mM
-  - **FFAR2/GPR43**: Expressed on neutrophils, eosinophils, intestinal epithelial cells, dendritic cells, ILC3; activation promotes IL-18 secretion via NLRP3 inflammasome; enhances Treg differentiation via IL-10 production
-  - **FFAR3/GPR41**: Expressed on intestinal epithelial cells and immune cells; less studied in CRC context
-  - **HCAR2/GPR109A**: Butyrate is primary ligand; activates dendritic cells and macrophages; promotes Treg differentiation; inhibits NF-kB and induces apoptosis in colon cancer cells
-  - **Immune regulation**: SCFAs through FFAR2 induce neutrophil chemotaxis; IL-1beta engages IL-1R on ILC3 promoting IL-22 production for tissue integrity
-  - **IgA responses**: SCFAs promote intestinal IgA secretion through FFAR2; FFAR2 KO mice showed decreased intestinal IgA
-  - **ILC3 cells**: SCFAs via receptors open new scenarios in immunomodulation; ILC3s have emerged as master regulators of intestinal health
+
+ - **SCFA production**: Acetate (C2), propionate (C3), butyrate (C4) constitute ~95% of total SCFAs; colonic concentrations reach 70-100 mM
+ - **FFAR2/GPR43**: Expressed on neutrophils, eosinophils, intestinal epithelial cells, dendritic cells, ILC3; activation promotes IL-18 secretion via NLRP3 inflammasome; enhances Treg differentiation via IL-10 production
+ - **FFAR3/GPR41**: Expressed on intestinal epithelial cells and immune cells; less studied in CRC context
+ - **HCAR2/GPR109A**: Butyrate is primary ligand; activates dendritic cells and macrophages; promotes Treg differentiation; inhibits NF-kB and induces apoptosis in colon cancer cells
+ - **Immune regulation**: SCFAs through FFAR2 induce neutrophil chemotaxis; IL-1beta engages IL-1R on ILC3 promoting IL-22 production for tissue integrity
+ - **IgA responses**: SCFAs promote intestinal IgA secretion through FFAR2; FFAR2 KO mice showed decreased intestinal IgA
+ - **ILC3 cells**: SCFAs via receptors open new scenarios in immunomodulation; ILC3s have emerged as master regulators of intestinal health
 
 ## Connections
 

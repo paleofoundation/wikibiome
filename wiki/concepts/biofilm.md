@@ -60,7 +60,6 @@ Structured microbial communities encased in a self-produced extracellular polyme
 - **Gut biofilms**: mucosal biofilms in IBD may shield pathobionts from host metal restriction, contributing to persistent inflammation.
 - **Treatment approaches**: disrupting metal supply to biofilms (metal chelation, blocking metallophore receptors) is a proposed adjunct to conventional antibiotic therapy.
 
-
 ## Key Sources
 
 - [[akbari-2022-metal-homeostasis-streptococci]]

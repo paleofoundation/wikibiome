@@ -37,4 +37,4 @@ platform: wikibiome
 - Gut-brain axis in neuropsychiatric disorders directly relevant to HT-associated depression in [[cai-2018-hashimotos-neuroinflammation-emotional-alterations-mice]]
 - Oral microbiome-brain connections relevant to [[dong-2021-salivary-microbiome-tsh-shifts]]
 - Multi-site microbiome concept extends beyond gut-thyroid axis in [[legakis-2023-thyroid-diseases-intestinal-microbiome]]
-- Depression-microbiome links relevant to [[song-2023-graves-depression-mechanistic-insight]] and [[Thyroid Autoimmunity]] comorbidities
+- Depression-microbiome links relevant to [[song-2023-graves-depression-mechanistic-insight]] and comorbidities

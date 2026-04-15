@@ -1,14 +1,42 @@
 ---
-
 title: "Heavy metals in the diet: unraveling the molecular pathways linked to neurodegenerative disease risk"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Guevara-Ramirez P, Tamayo-Trujillo R, Cadena-Ullauri S, Ruiz-Pozo V, Paz-Cruz E, Annunziata G, Verde L, Frias-Toral E, Simancas-Racines D, Zambrano AK]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Guevara-Ramirez P
+  - Tamayo-Trujillo R
+  - Cadena-Ullauri S
+  - Ruiz-Pozo V
+  - Paz-Cruz E
+  - Annunziata G
+  - Verde L
+  - Frias-Toral E
+  - Simancas-Racines D
+  - Zambrano AK
 journal: Food and Agricultural Immunology
 year: 2024
-tags: [heavy-metals, diet, neurodegeneration, mercury, cadmium, arsenic, lead, chromium, zinc, oxidative-stress, mitochondrial-dysfunction, chelation-therapy]
+tags:
+  - heavy-metals
+  - diet
+  - neurodegeneration
+  - mercury
+  - cadmium
+  - arsenic
+  - lead
+  - chromium
+  - zinc
+  - oxidative-stress
+  - mitochondrial-dysfunction
+  - chelation-therapy
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Links dietary metal exposure (mercury, cadmium, lead, arsenic in foods) to neurodegenerative disease mechanisms through metal-specific pathways: mercury disrupts glutamate transport, cadmium blocks calcium channels, arsenic dysregulates dopamine, chromium generates ROS, lead crosses the BBB. WikiBiome depends on this evidence to explain how food-borne metal burden—not environmental exposure alone—drives proteinopathy and why dietary interventions (phytochemicals, chelation) can interrupt metal-driven neurodegeneration."
 ---
 
 # Key Claims
@@ -22,26 +50,26 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Comprehensive review of meta-analyses, systematic and literature reviews on dietary heavy metals and NDDs
-- **Metal-specific pathways**:
-  - **Mercury**: Crosses BBB as vapor or methylmercury; accumulates in cerebellum and cerebral cortex; disrupts glutamate transport, affects mitochondrial function, increases ROS
-  - **Cadmium**: Enters body through contaminated food (shellfish, mushrooms, vegetables); may interfere with serotonin release; blocks calcium channels; potential DNA damage
-  - **Arsenic**: Crosses BBB; dysregulates serotonin and dopamine; causes DNA damage, increased ROS, mitochondrial dysfunction
-  - **Chromium**: Hexavalent Cr crosses BBB; accumulates in brain; generates ROS via reduction to trivalent form; causes DNA strand breaks
-  - **Lead**: Binds to erythrocytes; readily crosses BBB and placental barrier; disrupts neurotransmission and Ca-dependent processes
-  - **Zinc**: Excess causes uncontrolled neuronal differentiation/death; linked to amyloid-beta plaque deposition and tau hyperphosphorylation
-- **Molecular mechanisms of neuronal toxicity**:
-  - Disruption of metalloenzymes by binding to sulfhydryl groups
-  - Morphological modification of dendritic spine structure via Snk-SPAR pathway disruption
-  - Synaptic destabilization through up-regulation of Snk and down-regulation of SPAR
-  - UPS dysfunction leading to accumulation of misfolded proteins
-  - Prion-like spread of pathological protein structures catalyzed by metal exposure
-  - Interference with neurotransmitter Ca signaling
-  - Hypertension and cardiovascular dysfunction contributing to neurodegeneration
-- **Treatment strategies**:
-  - Dietary modifications: antioxidant-rich diets, phytochemicals (anthocyanins, quercetin), polysaccharides
-  - [[Chelation-therapy]]: using glutathione, EDTA, N-acetylcysteine; must form stable non-toxic complexes
-  - Sweating/exercise for metal elimination (nickel, Pb, copper, As higher in exercise-induced sweat)
-  - Technological solutions: phytoremediation, soil amendments, advanced detection methods (AAS, fluorescence sensors)
+
+ - **Mercury**: Crosses BBB as vapor or methylmercury; accumulates in cerebellum and cerebral cortex; disrupts glutamate transport, affects mitochondrial function, increases ROS
+ - **Cadmium**: Enters body through contaminated food (shellfish, mushrooms, vegetables); may interfere with serotonin release; blocks calcium channels; potential DNA damage
+ - **Arsenic**: Crosses BBB; dysregulates serotonin and dopamine; causes DNA damage, increased ROS, mitochondrial dysfunction
+ - **Chromium**: Hexavalent Cr crosses BBB; accumulates in brain; generates ROS via reduction to trivalent form; causes DNA strand breaks
+ - **Lead**: Binds to erythrocytes; readily crosses BBB and placental barrier; disrupts neurotransmission and Ca-dependent processes
+ - **Zinc**: Excess causes uncontrolled neuronal differentiation/death; linked to amyloid-beta plaque deposition and tau hyperphosphorylation
+
+ - Disruption of metalloenzymes by binding to sulfhydryl groups
+ - Morphological modification of dendritic spine structure via Snk-SPAR pathway disruption
+ - Synaptic destabilization through up-regulation of Snk and down-regulation of SPAR
+ - UPS dysfunction leading to accumulation of misfolded proteins
+ - Prion-like spread of pathological protein structures catalyzed by metal exposure
+ - Interference with neurotransmitter Ca signaling
+ - Hypertension and cardiovascular dysfunction contributing to neurodegeneration
+
+ - Dietary modifications: antioxidant-rich diets, phytochemicals (anthocyanins, quercetin), polysaccharides
+ - [[Chelation-therapy]]: using glutathione, EDTA, N-acetylcysteine; must form stable non-toxic complexes
+ - Sweating/exercise for metal elimination (nickel, Pb, copper, As higher in exercise-induced sweat)
+ - Technological solutions: phytoremediation, soil amendments, advanced detection methods (AAS, fluorescence sensors)
 
 # Connections
 

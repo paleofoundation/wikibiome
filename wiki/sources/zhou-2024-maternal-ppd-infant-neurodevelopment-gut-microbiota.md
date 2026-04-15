@@ -11,6 +11,7 @@ tags: [postpartum-depression, infant-neurodevelopment, gut-microbiota, metabolom
 library_category: microbiome-signature
 platform: cureva
 condition: "postpartum depression"
+evidence_level: cross-sectional
 ---
 
 # Key Claims

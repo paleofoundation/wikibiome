@@ -42,6 +42,6 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- parental diet as environmental risk factor
 - [[gut-microbiome]] -- maternal microbiome transmission to offspring
 - [[dysbiosis]] -- high salt diet-induced microbial changes
-- [[maternal-factors]] -- dietary influence on offspring neurodevelopment
-- [[sex-differences]] -- male-specific behavioral effects
+- -- dietary influence on offspring neurodevelopment
+- -- male-specific behavioral effects
 - [[lactobacillus]] -- depleted by high salt diet

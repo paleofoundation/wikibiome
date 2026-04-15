@@ -27,32 +27,32 @@ condition: "autism spectrum disorder"
 **Dietary interventions reviewed:**
 
 1. **Gluten-Free-Casein-Free (GFCF) diet:**
-   - Most studied dietary intervention for ASD
-   - Reduces opioid peptides from incomplete gluten/casein digestion
-   - MAD and GFCF both improved CARS and ATEC scores vs. control
+ - Most studied dietary intervention for ASD
+ - Reduces opioid peptides from incomplete gluten/casein digestion
+ - MAD and GFCF both improved CARS and ATEC scores vs. control
 
 2. **Ketogenic diet:**
-   - Modified KD with MCT improved ADOS-2 and CARS-2 in children aged 2-17
-   - A 6-year-old showed improvement on 18FDG PET after KD
-   - KD increases beneficial Akkermansia, Parabacteroides, Bacteroides, Desulfovibriospp.
+ - Modified KD with MCT improved ADOS-2 and CARS-2 in children aged 2-17
+ - A 6-year-old showed improvement on 18FDG PET after KD
+ - KD increases beneficial Akkermansia, Parabacteroides, Bacteroides, Desulfovibriospp.
 
 3. **Specific carbohydrate diet:**
-   - Eliminates grains, lactose, sucrose; improved GI and behavioral symptoms in case studies
+ - Eliminates grains, lactose, sucrose; improved GI and behavioral symptoms in case studies
 
 4. **Low FODMAP diet:**
-   - May reduce GI and neurological symptoms by limiting fermentable carbohydrates
+ - May reduce GI and neurological symptoms by limiting fermentable carbohydrates
 
 5. **Mediterranean diet:**
-   - Rich in omega-3, vitamins B; protective for neurodevelopmental system
-   - Limited ASD-specific studies; mostly compliance-focused
+ - Rich in omega-3, vitamins B; protective for neurodevelopmental system
+ - Limited ASD-specific studies; mostly compliance-focused
 
 6. **Low glutamate diet:**
-   - Targets glutamate receptor dysfunction in ASD; reduces excitotoxicity
+ - Targets glutamate receptor dysfunction in ASD; reduces excitotoxicity
 
 7. **Supplements:**
-   - Vitamin D deficiency common in ASD; supplementation may reduce ASD risk
-   - PUFAs may improve synaptic transmission
-   - Camel milk: rich in SOD and GSH-Px, reduces oxidative stress
+ - Vitamin D deficiency common in ASD; supplementation may reduce ASD risk
+ - PUFAs may improve synaptic transmission
+ - Camel milk: rich in SOD and GSH-Px, reduces oxidative stress
 
 # Relevance to Metallomic Framework
 

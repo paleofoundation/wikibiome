@@ -86,11 +86,11 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 ### Colorectal Cancer
 
 - **Enrichment in CRC tissue and feces**: Multiple studies report elevated *Leptotrichia* abundance in CRC patients vs. controls.
-- **Proposed mechanisms**:
-  - **Translocation from oral biofilms**: Oral disease as reservoir; microaspiration seeds colorectal biofilms.
-  - **LPS-driven chronic inflammation**: TLR4 signaling promotes NF-κB and IL-6 secretion, linking to CRC-associated inflammatory pathways.
-  - **Protease activity**: Tissue degradation and barrier disruption create pro-tumorigenic microenvironment.
-  - **Interkingdom cooperation**: *Leptotrichia* in fungal-bacterial biofilms may suppress local immunity.
+
+ - **Translocation from oral biofilms**: Oral disease as reservoir; microaspiration seeds colorectal biofilms.
+ - **LPS-driven chronic inflammation**: TLR4 signaling promotes NF-κB and IL-6 secretion, linking to CRC-associated inflammatory pathways.
+ - **Protease activity**: Tissue degradation and barrier disruption create pro-tumorigenic microenvironment.
+ - **Interkingdom cooperation**: *Leptotrichia* in fungal-bacterial biofilms may suppress local immunity.
 
 ### Other GI Conditions
 
@@ -114,12 +114,12 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 ## Connections
 
 - [[iron]] -- essential growth cofactor; iron availability drives virulence and translocation
-- [[oral-microbiome]] -- primary habitat; pathobiont in periodontal disease
-- [[periodontal-disease]] -- enriched in gingivitis/periodontitis; drives tissue destruction
+- -- primary habitat; pathobiont in periodontal disease
+- -- enriched in gingivitis/periodontitis; drives tissue destruction
 - [[colorectal-cancer]] -- enriched in CRC tissue; oral-to-gut translocation pathway
 - [[inflammation|lipopolysaccharide]] -- TLR4-mediated pro-inflammatory signaling
 - [[biofilm]] -- protective polysaccharide matrix; iron-dependent architecture
-- [[translocation]] -- aspiration-mediated oral-to-gut pathway in dysbiosis and IBD
-- [[interkingdom-relationships]] -- fungal-bacterial biofilms in CRC and dysbiotic states
-- [[nutritional-immunity|barrier-function]] -- proteases and hemolysins disrupt epithelial integrity
+- -- aspiration-mediated oral-to-gut pathway in dysbiosis and IBD
+- -- fungal-bacterial biofilms in CRC and dysbiotic states
+- [[nutritional-immunity|nutritional immunity]] -- proteases and hemolysins disrupt epithelial integrity
 - [[bacteroides-fragilis]] -- co-biofilm member; analogous iron-dependent pathobiont

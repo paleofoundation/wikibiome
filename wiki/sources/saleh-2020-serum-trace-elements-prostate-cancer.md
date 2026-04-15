@@ -1,15 +1,35 @@
 ---
-
-title: "Serum Levels of Selenium, Zinc, Copper, Manganese, and Iron in Prostate Cancer Patients"
+title: Serum Levels of Selenium, Zinc, Copper, Manganese, and Iron in Prostate Cancer Patients
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Saleh A. K. Saleh, Heba M. Adly, Altaf A. Abdelkhaliq, Anmar M. Nassir]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Saleh A. K. Saleh
+  - Heba M. Adly
+  - Altaf A. Abdelkhaliq
+  - Anmar M. Nassir
 journal: Current Urology
 year: 2020
-tags: [prostate-cancer, trace-elements, selenium, zinc, copper, manganese, iron, biomarkers, oxidative-stress, ICP-MS]
-doi: "10.1159/000499261"
+tags:
+  - prostate-cancer
+  - trace-elements
+  - selenium
+  - zinc
+  - copper
+  - manganese
+  - iron
+  - biomarkers
+  - oxidative-stress
+  - ICP-MS
+doi: 10.1159/000499261
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 5
+why_keystone: "Characterizes the prostate cancer metallomic signature—Se/Zn/Mn depletion paired with Cu/Fe elevation—and establishes Cu-Zn competitive antagonism at the metallothionein level as a carcinogenic mechanism. WikiBiome depends on this evidence to recognize the pan-cancer metal pattern (Cu accumulation + Zn loss) as a cross-condition marker and to understand how metal dysregulation enables malignant transformation across tissue types."
 ---
 
 # Key Claims
@@ -24,12 +44,12 @@ platform: wikibiome
 - **Study design**: Case-control study in Saudi Arabia; 40 newly diagnosed PCa patients, 22 BPH patients, and 30 healthy males
 - **Analytical method**: ICP-MS for Se, Zn, Cu, Mn, Fe; ELISA for PSA
 - **Key findings** (mean +/- SD):
-  - **Se**: PCa 0.07 ug/ml vs healthy 0.13 ug/ml (p < 0.005) -- significantly decreased
-  - **Zn**: PCa 0.51 ug/ml vs healthy 0.82 ug/ml (p < 0.005) -- significantly decreased
-  - **Cu**: PCa 1.69 ug/ml vs healthy 1.02 ug/ml (p < 0.005) -- significantly increased
-  - **Mn**: PCa 0.001 ug/ml vs healthy 0.0024 ug/ml (p < 0.005) -- significantly decreased
-  - **Fe**: PCa 1.96 ug/ml vs healthy 1.24 ug/ml (p < 0.05) -- significantly increased
-  - **PSA**: PCa 18.3 ng/ml vs healthy 2.8 ng/ml (p > 0.05 for age comparisons)
+ - **Se**: PCa 0.07 ug/ml vs healthy 0.13 ug/ml (p < 0.005) -- significantly decreased
+ - **Zn**: PCa 0.51 ug/ml vs healthy 0.82 ug/ml (p < 0.005) -- significantly decreased
+ - **Cu**: PCa 1.69 ug/ml vs healthy 1.02 ug/ml (p < 0.005) -- significantly increased
+ - **Mn**: PCa 0.001 ug/ml vs healthy 0.0024 ug/ml (p < 0.005) -- significantly decreased
+ - **Fe**: PCa 1.96 ug/ml vs healthy 1.24 ug/ml (p < 0.05) -- significantly increased
+ - **PSA**: PCa 18.3 ng/ml vs healthy 2.8 ng/ml (p > 0.05 for age comparisons)
 - **BPH vs healthy**: No significant differences in trace element levels, suggesting trace element disturbances are specific to malignancy rather than benign prostatic conditions
 - **Cu-Zn antagonism**: Elevated Cu accompanied by decreased Zn may be explained by Cu replacing Zn binding to metallothionein due to higher Cu affinity, disrupting Zn homeostasis
 

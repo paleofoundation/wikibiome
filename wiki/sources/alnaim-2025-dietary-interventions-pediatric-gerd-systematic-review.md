@@ -32,11 +32,11 @@ platform: wikibiome
 - **Quality assessment**: Modified ROBVIS2 tool
 - **Analysis**: Narrative synthesis and thematic analysis (not meta-analysis due to heterogeneity)
 - **Dietary strategies reviewed**: Low-fat diets, plant-based diets, exclusion diets, nutraceuticals (probiotics), alkaline diets, elimination of dietary triggers, functional foods
-- **Key findings by intervention type**:
-  - Low-fat diets: Mixed evidence
-  - Plant-based/exclusion diets: Significant symptom improvement
-  - Probiotics: Most promising, improves gut barrier and reduces inflammation
-  - Dietary trigger elimination: Beneficial but challenging adherence
+
+ - Low-fat diets: Mixed evidence
+ - Plant-based/exclusion diets: Significant symptom improvement
+ - Probiotics: Most promising, improves gut barrier and reduces inflammation
+ - Dietary trigger elimination: Beneficial but challenging adherence
 
 ## Connections
 

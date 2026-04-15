@@ -29,10 +29,10 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 - Identified as the most protective strain against [[cadmium]] toxicity because it possesses both **strong Cd-binding ability AND antioxidative capacity** -- dual functionality is critical [[zhai-2016-probiotics-cadmium]].
 - **In vivo (8-week mouse model)**: increased fecal Cd excretion, decreased Cd accumulation in liver and kidneys, maintained intestinal barrier integrity.
 - Four-part protective mechanism:
-  1. **Intestinal metal sequestration**: cell wall binding of Cd ions in the gut lumen.
-  2. **Oxidative stress alleviation**: counteracted Cd-induced ROS.
-  3. **Tight junction protection**: preserved ZO-1, ZO-2, occludin, claudin-1 expression.
-  4. **Immune modulation**: maintained secretory IgA and balanced cytokine profiles.
+ 1. **Intestinal metal sequestration**: cell wall binding of Cd ions in the gut lumen.
+ 2. **Oxidative stress alleviation**: counteracted Cd-induced ROS.
+ 3. **Tight junction protection**: preserved ZO-1, ZO-2, occludin, claudin-1 expression.
+ 4. **Immune modulation**: maintained secretory IgA and balanced cytokine profiles.
 - L. plantarum CCFM8661 also effective for Cd and [[lead]] detoxification [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 
 ### Other Metal-Detoxifying Species
@@ -70,7 +70,6 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 ## The Anti-Pathogen Metal Dynamic
 
 *Lactobacillus* occupies a unique ecological position: it **does not depend on nickel** for virulence (no urease, no [NiFe] hydrogenase, no Ni-GloI) while it **actively opposes** nickel-dependent pathogens by producing acid (lowering pH, inhibiting urease function) and competing for gut niches. Dietary nickel excess that fuels pathogens simultaneously depletes the *Lactobacillus* populations that would normally keep those pathogens in check.
-
 
 ## Key Sources
 

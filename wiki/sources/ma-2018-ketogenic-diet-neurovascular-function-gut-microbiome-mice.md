@@ -27,9 +27,9 @@ platform: wikibiome
 - **Design**: Control diet (type F1515: 65.2% carbohydrates, 18.1% protein, 5.1% fat, 4.8% fiber) vs KD (type F3666: 75.1% fat, 3.2% carbohydrates, 8.6% protein, 4.8% fiber) for 16 weeks
 - **Neurovascular outcomes**: MRI-based arterial spin labeling for CBF; confocal microscopy for P-gp transport; Western blotting for mTOR, P-gp, eNOS
 - **Microbiome analysis**: 16S rRNA gene amplicon sequencing (V4-V5 regions); significant community composition difference (ANOSIM R=0.473, p=0.0002)
-- **Table 1 -- Significantly different taxa**:
-  - Increased in KD: *Adlercreutzia* (Actinobacteria), *Lactobacillus* (Firmicutes), *Turicibacter* (120.2x increase), *Dorea*, *Akkermansia* (792.1x increase, FDRC=0.028)
-  - Decreased in KD: *Desulfovibrio* (53.4x decrease), *Clostridium* (putative acetate producers)
+
+ - Increased in KD: *Adlercreutzia* (Actinobacteria), *Lactobacillus* (Firmicutes), *Turicibacter* (120.2x increase), *Dorea*, *Akkermansia* (792.1x increase, FDRC=0.028)
+ - Decreased in KD: *Desulfovibrio* (53.4x decrease), *Clostridium* (putative acetate producers)
 
 ## Source Pages
 
@@ -39,4 +39,4 @@ pp. 1-8
 
 - Links KD effects on [[gut microbiome]] to neurovascular and cardiovascular protection
 - Relevant to [[Akkermansia muciniphila]] as a beneficial microbe in metabolic health
-- Connects to [[mTOR]] pathway and [[cardiovascular disease]] mechanisms
+- Connects to pathway and [[cardiovascular disease]] mechanisms

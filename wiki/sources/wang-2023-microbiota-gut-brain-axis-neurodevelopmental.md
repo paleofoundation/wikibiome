@@ -11,6 +11,9 @@ tags: [microbiota, gut-brain-axis, neurodevelopmental-disorders, autism, adhd, r
 library_category: causal
 platform: both
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Overview
@@ -105,10 +108,10 @@ Comprehensive review of the **microbiota–gut–brain axis in neurodevelopmenta
 2. **Impair metal absorption** (dysbiotic mucus layer, altered pH, bile acid metabolism)
 3. **Dysregulate systemic metal distribution** (hepcidin, inflammatory response → iron sequestration; IL-6 → zinc redistribution)
 4. → **Local and systemic metal deficiency phenotypes** that perpetuate:
-   - Impaired barrier function (zinc)
-   - Reduced SCFA/tryptophan production (iron)
-   - Dysregulated immunity (zinc, iron)
-   - Perpetual dysbiosis (nutrient-limited competition favors dysbiotic taxa)
+ - Impaired barrier function (zinc)
+ - Reduced SCFA/tryptophan production (iron)
+ - Dysregulated immunity (zinc, iron)
+ - Perpetual dysbiosis (nutrient-limited competition favors dysbiotic taxa)
 
 # Notes
 

@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, fluoxetine, amitriptyline, antidepressants, gut
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+evidence_level: animal-model
+taxa_discussed: ["Alistipes", "Parabacteroides"]
 ---
 
 # Key Claims
@@ -24,6 +28,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- antidepressant effects on gut microbiota relevant to ASD pharmacotherapy
-- [[SSRI]] -- fluoxetine-induced microbiome changes
+- -- fluoxetine-induced microbiome changes
 - [[gut-microbiome]] -- antidepressant-induced alterations in microbial composition
-- [[antibiotic-resistance]] -- antidepressant effects on resistome
+- -- antidepressant effects on resistome

@@ -13,6 +13,7 @@ tags: [autism, trace-elements, heavy-metals, gut-microbiota, metallome, dysbiosi
 library_category: signatures
 platform: both
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
 ---
 
 # Key Claims

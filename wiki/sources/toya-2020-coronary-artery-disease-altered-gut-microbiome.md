@@ -10,6 +10,9 @@ year: 2020
 doi: 10.1371/journal.pone.0227147
 tags: [cardiovascular-disease, CVD, coronary-artery-disease, gut-microbiome, 16S-rRNA, microbiome-composition, alpha-diversity, Lachnospiraceae, Ruminococcus, dysbiosis, biomarker]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Ruminococcus"]
 ---
 
 # Coronary Artery Disease Is Associated with an Altered Gut Microbiome Composition
@@ -35,9 +38,9 @@ Case-control study at Mayo Clinic comparing gut microbiome composition between 5
 ### Taxonomic Changes
 - 23 differentially abundant taxa at genus level; 12 belonged to [[Lachnospiraceae]] family
 - Three taxa significant after multiple comparison correction:
-  - *Lachnospiraceae Anaerosporobacter* (decreased in CAD, Q = 0.017)
-  - *Lachnospiraceae NK4B4* group (decreased in CAD, Q = 0.028)
-  - *Ruminococcus Gauvreauii* (decreased in CAD, Q = 0.017)
+ - *Lachnospiraceae Anaerosporobacter* (decreased in CAD, Q = 0.017)
+ - *Lachnospiraceae NK4B4* group (decreased in CAD, Q = 0.028)
+ - *Ruminococcus Gauvreauii* (decreased in CAD, Q = 0.017)
 - Five taxa with >2 log-fold changes and >0.002 maximum proportion including *Ruminococcus gnavus* (enriched in CAD)
 
 ### CAD Risk Association

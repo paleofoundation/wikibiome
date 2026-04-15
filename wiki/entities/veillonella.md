@@ -60,7 +60,6 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Ne
 - Lactate utilization could be beneficial (preventing lactate accumulation) or detrimental (removing substrate from beneficial lactate-utilizing butyrate producers like *Anaerostipes*).
 - The H2 produced by *Veillonella* could support the expansion of [[methanobrevibacter]], which is also elevated in MS, suggesting a metabolic cascade.
 
-
 ## Key Sources
 
 - [[simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes]]

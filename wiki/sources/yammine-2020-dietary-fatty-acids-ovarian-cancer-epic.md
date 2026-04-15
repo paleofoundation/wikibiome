@@ -9,6 +9,7 @@ year: 2020
 doi: ""
 tags: [ovarian-cancer, fatty-acids, EPIC-cohort, dietary-fat, circulating-lipids, cancer-risk, prospective-study]
 platform: wikibiome
+evidence_level: prospective-cohort
 ---
 
 # Dietary and Circulating Fatty Acids and Ovarian Cancer Risk in EPIC

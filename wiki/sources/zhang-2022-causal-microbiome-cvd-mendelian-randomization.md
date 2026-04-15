@@ -12,6 +12,7 @@ tags: [cardiovascular-disease, Mendelian-randomization, gut-microbiome, Oxalobac
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/Causal associations between gut microbiome and cardiovascular disease- a Mendelian randomization study.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # Key Claims

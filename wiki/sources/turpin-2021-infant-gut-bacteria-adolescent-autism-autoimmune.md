@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, infant-microbiome, autoimmunity, HLA, type-1-di
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -24,6 +27,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- infant gut bacteria predict adolescent autism diagnosis
-- [[autoimmunity]] -- shared infant microbiome precursors for autism and autoimmune diseases
+- -- shared infant microbiome precursors for autism and autoimmune diseases
 - [[gut-microbiome]] -- one-year-old microbiome predicts future disease
-- [[HLA]] -- genetic gatekeeping of bacterial colonization
+- -- genetic gatekeeping of bacterial colonization

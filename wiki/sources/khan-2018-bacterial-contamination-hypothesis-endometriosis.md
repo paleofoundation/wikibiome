@@ -23,14 +23,14 @@ platform: wikibiome
 # Methods/Findings
 
 - **Study design**: Review article synthesizing 15 years of the authors' research
-- **Key evidence presented**:
-  - LPS detected in menstrual fluid and peritoneal fluid; higher in endometriosis
-  - *E. coli* highly contaminated in menstrual blood and endometrial samples of endometriosis patients
-  - PGE2 promotes *E. coli* growth in the menstrual blood, creating a cyclical inflammation pattern
-  - LPS stimulates HGF, VEGF, IL-6, IL-8, TNF-alpha production from peritoneal macrophages
-  - Fibronectin and laminin (cell adhesion molecules) highly expressed in endometriotic tissue during menstrual phase
-  - Anti-TLR4 antibody blocked LPS-stimulated endometriotic cell proliferation
-  - Vaginal pH shifted to >4.5 in endometriosis patients (79.3% vs 58.4% in controls)
+
+ - LPS detected in menstrual fluid and peritoneal fluid; higher in endometriosis
+ - *E. coli* highly contaminated in menstrual blood and endometrial samples of endometriosis patients
+ - PGE2 promotes *E. coli* growth in the menstrual blood, creating a cyclical inflammation pattern
+ - LPS stimulates HGF, VEGF, IL-6, IL-8, TNF-alpha production from peritoneal macrophages
+ - Fibronectin and laminin (cell adhesion molecules) highly expressed in endometriotic tissue during menstrual phase
+ - Anti-TLR4 antibody blocked LPS-stimulated endometriotic cell proliferation
+ - Vaginal pH shifted to >4.5 in endometriosis patients (79.3% vs 58.4% in controls)
 
 # Relevance to Wiki
 

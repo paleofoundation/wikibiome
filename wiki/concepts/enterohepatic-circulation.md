@@ -21,19 +21,19 @@ This exemplifies [[primitive-7|primitive-7-estrobolome]] extended beyond estroge
 **Step-by-step EHC cycle**:
 
 1. **Hepatic metabolism (Phase I & II)**: Liver detoxifies compounds via:
-   - Phase I enzymes (cytochrome P450s) — oxidation, reduction, hydrolysis. Cofactors: heme iron, NAD(P)H.
-   - Phase II enzymes (UDP-glucuronosyltransferases [UGTs], sulfotransferases [SULTs], glutathione S-transferases [GSTs], N-acetyltransferases [NATs]) — add polar groups (glucuronide, sulfate, glutathione, acetyl) to make compounds water-soluble.
-   - Result: Conjugated compounds are far more hydrophilic and cannot be reabsorbed in the small intestine.
+ - Phase I enzymes (cytochrome P450s) — oxidation, reduction, hydrolysis. Cofactors: heme iron, NAD(P)H.
+ - Phase II enzymes (UDP-glucuronosyltransferases [UGTs], sulfotransferases [SULTs], glutathione S-transferases [GSTs], N-acetyltransferases [NATs]) — add polar groups (glucuronide, sulfate, glutathione, acetyl) to make compounds water-soluble.
+ - Result: Conjugated compounds are far more hydrophilic and cannot be reabsorbed in the small intestine.
 
 2. **Biliary secretion**: Conjugated compounds are transported via bile salt export pumps (BSEP) and multidrug resistance-associated proteins (MRPs) into canalicular bile. They mix with cholesterol and bile acids and are emulsified into micelles.
 
 3. **Intestinal transit**: Bile flows through the common bile duct, mixes with food in the duodenum, and travels to the terminal ileum and colon. Most bile acids are reabsorbed passively in the terminal ileum (part of selective EHC); conjugated metabolites continue to the colon.
 
 4. **Bacterial deconjugation**: Colonic microbiota express:
-   - **[[beta-glucuronidase]]** (β-Glu) — cleaves glucuronide bonds; highly upregulated in dysbiosis.
-   - **Bile salt hydrolase** (BSH) — removes the taurine or glycine from conjugated bile acids (taurocholic acid → cholic acid), enabling secondary bile acid production.
-   - **Sulfatase** — cleaves sulfate conjugates.
-   - Result: Free compounds are regenerated in the colon.
+ - **[[beta-glucuronidase]]** (β-Glu) — cleaves glucuronide bonds; highly upregulated in dysbiosis.
+ - **Bile salt hydrolase** (BSH) — removes the taurine or glycine from conjugated bile acids (taurocholic acid → cholic acid), enabling secondary bile acid production.
+ - **Sulfatase** — cleaves sulfate conjugates.
+ - Result: Free compounds are regenerated in the colon.
 
 5. **Intestinal reabsorption**: Free compounds (estrogens, bile acids, drug aglycones) are lipophilic enough to passively diffuse across the colonic epithelium. Some use specific transporters (e.g., apical sodium-dependent bile acid transporter, ASBT).
 
@@ -75,18 +75,18 @@ Dysbiotic hyperactivation of EHC is implicated in multiple conditions:
 - [[estrogen-recirculation]] — The most well-characterized EHC failure; driven by dysbiotic β-Glu.
 - [[beta-glucuronidase]] — The bacterial enzyme controlling EHC efficiency for glucuronidated substrates.
 - [[bile-acid-metabolism]] — A major EHC substrate; dysbiotic BSH hyperactivity worsens bile acid toxicity.
-- [[drug-metabolism]] — Hepatic Phase II conjugation + bacterial deconjugation determine drug clearance.
+- — Hepatic Phase II conjugation + bacterial deconjugation determine drug clearance.
 
 **Linked entities**:
 - [[escherichia-coli]] — High β-Glu in dysbiotic strains; major driver of estrogen EHC overstimulation.
 - [[bacteroides-fragilis]] — High β-Glu; elevated in [[inflammatory-bowel-disease]] and [[endometriosis]].
 - [[lachnospiraceae]], [[faecalibacterium-prausnitzii]] — Low β-Glu; healthy commensals that dampen EHC.
 - [[beta-glucuronidase]] — The rate-limiting enzyme for estrogen, drug, and metabolite recirculation.
-- [[estradiol]] — Primary substrate for pathological EHC in estrogen-dependent diseases.
+- — Primary substrate for pathological EHC in estrogen-dependent diseases.
 
 **Intervention implications**:
 - **β-Glucuronidase inhibitors**: Compounds that directly inhibit bacterial β-Glu (under research; saccharolactone is a known inhibitor) could dampen dysbiotic EHC.
 - **Dysbiosis correction**: Restoring [[lachnospiraceae]] and suppressing [[escherichia-coli]], [[bacteroides-fragilis]] reduces EHC efficiency.
 - **Hepatic support**: Enhancing Phase II conjugation (via sulfation support, glutathione repletion) increases conjugation rate, reducing reabsorption opportunity.
-- **Fiber and binding agents**: [[activated-charcoal]], [[calcium-d-glucarate]], and high-fiber diets can bind free compounds in the colon, preventing reabsorption and reducing EHC efficiency.
+- **Fiber and binding agents**: and high-fiber diets can bind free compounds in the colon, preventing reabsorption and reducing EHC efficiency.
 - **Drainage support**: Castor oil packs and similar interventions may enhance biliary flow, reducing residence time in the colon for bacterial deconjugation.

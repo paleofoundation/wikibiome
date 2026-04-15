@@ -10,6 +10,10 @@ year: 2023
 doi: "10.1210/clinem/dgac683"
 tags: [graves-disease, thyroid, autoimmune, inflammatory-bowel-disease, Crohns-disease, ulcerative-colitis, mendelian-randomization, GWAS, comorbidity, HLA, JAK-STAT]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: mendelian-randomization
 ---
 
 # Graves Disease and Inflammatory Bowel Disease: A Bidirectional Mendelian Randomization
@@ -37,9 +41,9 @@ platform: wikibiome
 ## Connections
 
 - Bidirectional MR approach complements [[xu-2022-causal-microbiota-autoimmune-mr]] on genetic causality in autoimmune disease
-- CD-GD link via JAK/STAT relevant to [[JAK Inhibitors]] as potential shared therapeutic targets
-- UC protective effect on GD contrasts with CD risk effect, relevant to understanding [[Gut-Thyroid Axis]] specificity
+- CD-GD link via JAK/STAT relevant to as potential shared therapeutic targets
+- UC protective effect on GD contrasts with CD risk effect, relevant to understanding specificity
 - Microbiota-mediated nutrient absorption (I, Se, Fe) connects to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] and [[brock-2015-selenium-thyroid-autoimmunity]]
-- HLA-DRB1 shared susceptibility relevant to broader [[HLA System]] and [[Autoimmune Comorbidity]] patterns
-- Vitamin D deficiency association with CD connects to vitamin D's role in [[Thyroid Autoimmunity]]
+- HLA-DRB1 shared susceptibility relevant to broader and patterns
+- Vitamin D deficiency association with CD connects to vitamin D's role in 
 - Smoking as shared environmental risk factor for GD ophthalmopathy and IBD complications

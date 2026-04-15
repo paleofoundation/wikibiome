@@ -23,16 +23,16 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Narrative review article
-- **Key Evidence Reviewed**:
-  - **Zinc**: Serum levels decreased in depression, chronic depression (women), and PPD; brain synaptic hippocampal zinc increased after zinc treatment in rats; antidepressant-like effects in forced swim test
-  - **Magnesium**: Rapid recovery from major depression reported with Mg supplementation; Mg deficiency induces depression-like behavior in mice; Mg exhibits antidepressant activity in animal tests
-  - **Iron**: Iron deficiency anemia affects postpartum emotions and cognition; serum ferritin < 1 ug increases PPD risk by 3.98 times; iron is needed for dopamine synthesis
-  - **Copper**: Elevated serum copper in PPD women; copper is needed for catecholamine and monoamine neurotransmitter synthesis; copper deficiency reduces brain catecholamines
-- **Pathophysiological mechanisms discussed**:
-  - [[HPA axis]] dysregulation (cortisol response to ACTH)
-  - Alterations in neurotransmitter levels in the brain
-  - Hormonal changes (estrogen, progesterone withdrawal)
-  - Nutritional deficiencies post-delivery
+
+ - **Zinc**: Serum levels decreased in depression, chronic depression (women), and PPD; brain synaptic hippocampal zinc increased after zinc treatment in rats; antidepressant-like effects in forced swim test
+ - **Magnesium**: Rapid recovery from major depression reported with Mg supplementation; Mg deficiency induces depression-like behavior in mice; Mg exhibits antidepressant activity in animal tests
+ - **Iron**: Iron deficiency anemia affects postpartum emotions and cognition; serum ferritin < 1 ug increases PPD risk by 3.98 times; iron is needed for dopamine synthesis
+ - **Copper**: Elevated serum copper in PPD women; copper is needed for catecholamine and monoamine neurotransmitter synthesis; copper deficiency reduces brain catecholamines
+
+ - [[HPA axis]] dysregulation (cortisol response to ACTH)
+ - Alterations in neurotransmitter levels in the brain
+ - Hormonal changes (estrogen, progesterone withdrawal)
+ - Nutritional deficiencies post-delivery
 
 # Connections
 

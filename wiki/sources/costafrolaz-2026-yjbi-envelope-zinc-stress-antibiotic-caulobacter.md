@@ -1,16 +1,47 @@
 ---
-title: "Costafrolaz 2026 — Asymmetric Envelope Surface Disposition of Secreted Protein YjbI Controls Bimodal Antibiotic Susceptibilities in C. crescentus"
+title: Costafrolaz 2026 — Asymmetric Envelope Surface Disposition of Secreted Protein YjbI Controls Bimodal Antibiotic Susceptibilities in C. crescentus
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Jordan Costafrolaz, Laurence Degeorges, Gael Panis, Simon-Ulysse Vallet, Manuel Velasco Gomariz, Fernando Teixeira Pinto Meireles, Matteo Dal Peraro, Kathrin S Frohlich, Patrick H Viollier]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Jordan Costafrolaz
+  - Laurence Degeorges
+  - Gael Panis
+  - Simon-Ulysse Vallet
+  - Manuel Velasco Gomariz
+  - Fernando Teixeira Pinto Meireles
+  - Matteo Dal Peraro
+  - Kathrin S Frohlich
+  - Patrick H Viollier
 year: 2026
-journal: "The EMBO Journal"
-doi: "10.1038/s44318-025-00384-w"
-tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, outer-membrane, TonB-dependent-receptor, Caulobacter-crescentus, antibiotic-sensitivity, vancomycin, bacitracin, envelope-stress, pentapeptide-repeat-protein, BugA, efflux-pump, AcrAB-NodT]
+journal: The EMBO Journal
+doi: 10.1038/s44318-025-00668-x
+tags:
+  - mismetallation
+  - metal-homeostasis
+  - zinc
+  - zinc-toxicity
+  - outer-membrane
+  - TonB-dependent-receptor
+  - Caulobacter-crescentus
+  - antibiotic-sensitivity
+  - vancomycin
+  - bacitracin
+  - envelope-stress
+  - pentapeptide-repeat-protein
+  - BugA
+  - efflux-pump
+  - AcrAB-NodT
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
-condition: "zinc stress and antibiotic susceptibility"
+condition: zinc stress and antibiotic susceptibility
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 3
+  - 4
+  - 5
+why_keystone: "Reveals that zinc stress doesn't merely inhibit cytoplasmic enzymes but triggers outer membrane proteome remodeling, exposing normally-impermeable antibiotic binding sites (TonB-dependent receptor BugA) that confer vancomycin and bacitracin susceptibility. WikiBiome uses this evidence to explain why zinc-restricted environments (nutritional immunity response, dysbiotic low-zinc states) become selective for zinc-efflux-pump-expressing pathogens while paradoxically increasing antibiotic vulnerability—a mechanism enabling zinc-based ecological engineering."
 ---
 
 # Why This Paper Matters

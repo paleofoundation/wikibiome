@@ -23,5 +23,5 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- camouflaging and masking behaviors
-- [[sex-differences]] -- camouflaging may explain late diagnosis in females
-- [[social-communication]] -- compensatory strategies in social interaction
+- -- camouflaging may explain late diagnosis in females
+- -- compensatory strategies in social interaction

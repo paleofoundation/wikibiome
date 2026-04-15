@@ -36,8 +36,8 @@ platform: wikibiome
 ## Connections
 
 - Bifidobacterium decrease on GFD contrasts with its complex role in [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] where Bifidobacterium was a risk factor for GD
-- Proteobacteria increase on GFD is concerning given association with [[inflammation]] and [[Gut Dysbiosis]]
-- Relevant to broader question of dietary interventions in [[Thyroid Autoimmunity]] alongside [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
+- Proteobacteria increase on GFD is concerning given association with [[inflammation]] and 
+- Relevant to broader question of dietary interventions in alongside [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 - Parasutterella increase connects to emerging role in [[Tryptophan Metabolism]] and gut-immune interactions
-- GFD-AIT relationship links to higher prevalence of celiac disease in AIT patients, relevant to [[Gluten]] and [[Autoimmune Comorbidity]]
+- GFD-AIT relationship links to higher prevalence of celiac disease in AIT patients, relevant to and 
 - Cautionary findings relevant to dietary recommendations in [[Hashimoto's thyroiditis]] and [[graves-disease]] management

@@ -25,14 +25,14 @@ platform: wikibiome
 
 - **Type**: Cross-sectional metagenomics (460 CRC patients from Guangzhou: 293 oCRC, 167 yCRC; plus Fudan cohort validation)
 - **Methods**: Shotgun metagenomics; StrainPhlAn3 strain-level analysis; inStrain genome-wide sequence diversity; random forest and LASSO classification models
-- **Key findings**:
-  - *P. micra*, *P. stomatis*, *C. symbiosum*, *H. hathewayi* enriched in both oCRC and yCRC (FDR < 0.05)
-  - *F. nucleatum* abundance higher in oCRC than yCRC but both elevated vs controls
-  - *F. animalis* (Fa) had higher abundance and prevalence than *F. nucleatum* (Fn) in tumor samples
-  - *fadA* (F. nucleatum adhesin), *bft* (B. fragilis toxin), *pks* (E. coli colibactin), *bai* (bile acid operon) all enriched in CRC
-  - *Fn* and *Fa* both elevated in dMMR patients and HER2 overexpression patients
-  - Pathway-based models had lower performance than species-based models
-  - AUROC for cross-cohort validation: 0.78-0.90 depending on training/testing set combination
+
+ - *P. micra*, *P. stomatis*, *C. symbiosum*, *H. hathewayi* enriched in both oCRC and yCRC (FDR < 0.05)
+ - *F. nucleatum* abundance higher in oCRC than yCRC but both elevated vs controls
+ - *F. animalis* (Fa) had higher abundance and prevalence than *F. nucleatum* (Fn) in tumor samples
+ - *fadA* (F. nucleatum adhesin), *bft* (B. fragilis toxin), *pks* (E. coli colibactin), *bai* (bile acid operon) all enriched in CRC
+ - *Fn* and *Fa* both elevated in dMMR patients and HER2 overexpression patients
+ - Pathway-based models had lower performance than species-based models
+ - AUROC for cross-cohort validation: 0.78-0.90 depending on training/testing set combination
 
 ## Connections
 

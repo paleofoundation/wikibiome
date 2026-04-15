@@ -126,4 +126,4 @@ Manganese neurotoxicity is the most thoroughly documented health effect and the 
 - [[nickel]] -- co-exposure in welding fumes; shared gut microbiome disruption
 - [[pcos]] -- Mn depletion may impair antioxidant defense
 - [[oxidative-stress]] -- central mechanism of Mn toxicity via mitochondrial disruption
-- [[baby-food-safety]] -- Mn contamination at 40x recommended levels in infant foods
+- -- Mn contamination at 40x recommended levels in infant foods

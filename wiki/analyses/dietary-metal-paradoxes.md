@@ -5,37 +5,37 @@ type: analysis
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - borghini-2020-endometriosis-nickel-ibs
-  - borghini-2020-low-nickel-diet-celiac
-  - lopez-botella-2023-peritoneal-fluid-metals-endometriosis
-  - harris-2018-fruit-vegetable-consumption-endometriosis
-  - huang-2024-zinc-intake-endometriosis-risk
-  - salnikov-2008-metal-carcinogenesis
-  - bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota
-  - zirwas-2009-dietary-nickel-dermatitis
-  - campanale-2014-nickel-free-diet-h-pylori
-  - lombardi-2020-snas-probiotics-dysbiosis
-  - maier-2019-nickel-microbial-pathogenesis
-  - kun-2023-microbiota-thyroid-cancer
-  - zhai-2016-probiotics-cadmium
-  - piecuch-2022-nutrition-endometriosis-review
-  - barnard-2023-nutrition-prevention-treatment-endometriosis
-  - mazza-2023-endometriosis-dietary-choices-everyday-life
-  - roberts-2019-lactoferrin-genital-infections-iron
-  - scholefield-2024-brain-metallomics-dementia
-  - jiang-2021-copper-pcos-meta-analysis
-  - zhang-2022-metallomics-cancer-review
-  - ali-2024-heavy-metals-breast-cancer-review
-  - tian-2020-iron-supplementation-ppd-protocol
-  - azami-2019-anemia-ppd-meta-analysis
-  - pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis
-  - mishra-2022-molecular-mechanisms-heavy-metals-ckd
-  - rizzi-2017-ibs-nickel-diet
-  - bergman-2016-low-nickel-diet-review
-  - braga-2013-snas-nosologic-framework
-  - di-gioacchino-2018-snas-chapter
-  - smovrsnik-2025-trace-elements-pcos
-  - kirmizi-2020-heavy-metals-pcos
+ - borghini-2020-endometriosis-nickel-ibs
+ - borghini-2020-low-nickel-diet-celiac
+ - lopez-botella-2023-peritoneal-fluid-metals-endometriosis
+ - harris-2018-fruit-vegetable-consumption-endometriosis
+ - huang-2024-zinc-intake-endometriosis-risk
+ - salnikov-2008-metal-carcinogenesis
+ - bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota
+ - zirwas-2009-dietary-nickel-dermatitis
+ - campanale-2014-nickel-free-diet-h-pylori
+ - lombardi-2020-snas-probiotics-dysbiosis
+ - maier-2019-nickel-microbial-pathogenesis
+ - kun-2023-microbiota-thyroid-cancer
+ - zhai-2016-probiotics-cadmium
+ - piecuch-2022-nutrition-endometriosis-review
+ - barnard-2023-nutrition-prevention-treatment-endometriosis
+ - mazza-2023-endometriosis-dietary-choices-everyday-life
+ - roberts-2019-lactoferrin-genital-infections-iron
+ - scholefield-2024-brain-metallomics-dementia
+ - jiang-2021-copper-pcos-meta-analysis
+ - zhang-2022-metallomics-cancer-review
+ - ali-2024-heavy-metals-breast-cancer-review
+ - tian-2020-iron-supplementation-ppd-protocol
+ - azami-2019-anemia-ppd-meta-analysis
+ - pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis
+ - mishra-2022-molecular-mechanisms-heavy-metals-ckd
+ - rizzi-2017-ibs-nickel-diet
+ - bergman-2016-low-nickel-diet-review
+ - braga-2013-snas-nosologic-framework
+ - di-gioacchino-2018-snas-chapter
+ - smovrsnik-2025-trace-elements-pcos
+ - kirmizi-2020-heavy-metals-pcos
 tags: [synthesis, paradox, diet, clinical-decision-making, metals]
 platform: wikibiome
 ---

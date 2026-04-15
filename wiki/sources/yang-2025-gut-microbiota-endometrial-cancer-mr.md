@@ -9,6 +9,7 @@ year: 2025
 doi: "10.1186/s12885-025-13656-5"
 tags: [ovarian-cancer, endometrial-cancer, Mendelian-randomization, gut-microbiota, Acidaminococcaceae, Butyrivibrio]
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # Causal Relationship Between Gut Microbiota and Endometrial Cancer

@@ -33,6 +33,6 @@ platform: wikibiome
 
 - Extends immune mediation framework from [[li-2025-gut-microbiota-immune-cell-crc-mr-mediation]] with different immune phenotypes
 - NK cell and CD8+ T cell pathways connect to innate/adaptive immunity discussed in [[hou-2022-gut-microbiota-immune-immunotherapy-crc]]
-- *Succinivibrionaceae* negative mediation is novel and connects to [[microbiome-and-immune-system]] complexity
+- *Succinivibrionaceae* negative mediation is novel and connects to complexity
 - Complements [[ma-2024-gut-microbiota-inflammatory-factors-crc-mr]] by focusing on cellular rather than cytokine mediators
 - [[colorectal-cancer]]

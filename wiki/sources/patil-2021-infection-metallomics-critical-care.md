@@ -1,17 +1,47 @@
 ---
-
-title: "Infection metallomics for critical care in the post-COVID era"
+title: Infection metallomics for critical care in the post-COVID era
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Patil RH, Luptakova D, Havlicek V]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Patil RH
+  - Luptakova D
+  - Havlicek V
 journal: Mass Spectrometry Reviews
 year: 2021
 volume: 42
-pages: "1221-1243"
-doi: "10.1002/mas.21755"
-tags: [infection-metallomics, metallophores, siderophores, mass-spectrometry, iron, copper, zinc, nickel, cobalt, virulence-factors, critical-care, COVID-19, antimicrobial-resistance, nutritional-immunity, aspergillosis, urinary-tract-infection, meningitis, FTICR-MS, ICP-MS, biofilm]
+pages: 1221-1243
+doi: 10.1002/mas.21755
+tags:
+  - infection-metallomics
+  - metallophores
+  - siderophores
+  - mass-spectrometry
+  - iron
+  - copper
+  - zinc
+  - nickel
+  - cobalt
+  - virulence-factors
+  - critical-care
+  - COVID-19
+  - antimicrobial-resistance
+  - nutritional-immunity
+  - aspergillosis
+  - urinary-tract-infection
+  - meningitis
+  - FTICR-MS
+  - ICP-MS
+  - biofilm
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+why_keystone: "Defines infection metallomics as a diagnostic platform: microbial metallophores (siderophores and Cu/Zn/Ni/Co-chelators) detected by mass spectrometry can distinguish invasive infection from colonization. Underpins WikiBiome's framing of pathogen virulence as a metal-acquisition phenomenon and establishes metallophores as signature biomarkers across sepsis, pneumonia, UTI, and CNS infection."
 ---
 
 # Key Claims
@@ -25,21 +55,21 @@ platform: wikibiome
 # Methods/Findings
 
 - **Review scope**: Comprehensive review (23 pages, 61 references) of metallophore biology, analytical methods, and clinical applications across lung, urinary tract, and CNS infections, published in Mass Spectrometry Reviews
-- **Metallophore biology and classification**:
-  - **Bacterial siderophores**: Escherichielin, yersiniabactin (binds both Fe and Cu), aerobactin, enterobactin from *E. coli* and Enterobacteriaceae; pyoverdine from *P. aeruginosa*; staphyloferrin A and B from *S. aureus*; *E. faecalis* produces L-ornithine that enhances biofilm and growth via iron acquisition
-  - **Mycobacterial siderophores**: Mycobactins (hydrophobic, intracellular) and carboxymycobactins (extracellular) from *M. tuberculosis*; species-specific structural variations in R1-R5 side chains (Table 1); sulfolipid-1 associated with cytokine production in TB
-  - **Fungal siderophores**: TAFC (triacetylfusarinine C), ferricrocin, and coprogen from *Aspergillus fumigatus*; TAFC detected in human urine within 4.5h of inoculation in animal models; rhizoferrin from *Rhizopus microsporus*; staphyloferrins from *S. aureus*
-  - **Yersiniabactin (Ybt)**: Binds both Fe and Cu; secreted by multiple uropathogenic strains (Table 3); Cu-binding ability helps resist copper toxicity and converts Cu(II) to Cu(I)
+
+ - **Bacterial siderophores**: Escherichielin, yersiniabactin (binds both Fe and Cu), aerobactin, enterobactin from *E. coli* and Enterobacteriaceae; pyoverdine from *P. aeruginosa*; staphyloferrin A and B from *S. aureus*; *E. faecalis* produces L-ornithine that enhances biofilm and growth via iron acquisition
+ - **Mycobacterial siderophores**: Mycobactins (hydrophobic, intracellular) and carboxymycobactins (extracellular) from *M. tuberculosis*; species-specific structural variations in R1-R5 side chains (Table 1); sulfolipid-1 associated with cytokine production in TB
+ - **Fungal siderophores**: TAFC (triacetylfusarinine C), ferricrocin, and coprogen from *Aspergillus fumigatus*; TAFC detected in human urine within 4.5h of inoculation in animal models; rhizoferrin from *Rhizopus microsporus*; staphyloferrins from *S. aureus*
+ - **Yersiniabactin (Ybt)**: Binds both Fe and Cu; secreted by multiple uropathogenic strains (Table 3); Cu-binding ability helps resist copper toxicity and converts Cu(II) to Cu(I)
 - **Table 3 -- Diagnostically important metallophores**: Escherichielin (*E. coli*, human), yersiniabactin (*E. coli*/*Klebsiella*/*Citrobacter*, human), pyoverdine (*P. aeruginosa*, animal), TAFC (*A. fumigatus*, human), ferricrocin (*A. fumigatus*, animal), staphylopin (*S. aureus*, in vitro), aerobactin (*K. pneumoniae*, animal), ferrioxamine E (bacteria, in vitro)
 - **Viral metal metabolism**: Viruses exploit host metal metabolism for replication; [[zinc]] exhibits antiviral activity against HIV, influenza, rhinovirus; [[copper]] shows antiviral properties through ROS generation; iron is essential for viral replication and host cells upregulate iron-withholding defense (nutritional immunity)
-- **Analytical workflow (Section 3)**:
-  - **Sample flow**: Bedside collection (urine, serum, BAL, breath condensate) to HPLC separation to MS (ion mobility, MS/MS, FTICR, ICP) with isotope data filtering for selective metal-containing compound detection
-  - **Key instruments**: LC-ESI-MS or MALDI-MS with isotope data filtering; FTICR for unequivocal identification; ICP-MS for metal quantitation
-  - **CycloBranch software**: Custom dereplication environment for identifying predefined isotopic features in chromatographic data; MassSpecBlocks web application for de novo sequencing
-- **Clinical applications by infection site**:
-  - **Lung infections**: TAFC detected in human serum and urine of aspergillosis patients; galactomannan (current standard) has limited sensitivity; siderophore monitoring can track fungal infection in real time with timescale of hours vs. days/weeks for culture
-  - **Urinary tract infections**: Siderocalin (host protein that captures bacterial siderophores) increases during UTI; enterobactin and yersiniabactin detectable during *E. coli* infections; yersiniabactin-copper complex detected in patient urine
-  - **CNS infections**: *Neisseria meningitidis*, *S. aureus*, *S. pneumoniae*, *C. neoformans* cross BBB using transcellular, paracellular, and Trojan horse mechanisms; metallophore imaging could track pathogen routing
+
+ - **Sample flow**: Bedside collection (urine, serum, BAL, breath condensate) to HPLC separation to MS (ion mobility, MS/MS, FTICR, ICP) with isotope data filtering for selective metal-containing compound detection
+ - **Key instruments**: LC-ESI-MS or MALDI-MS with isotope data filtering; FTICR for unequivocal identification; ICP-MS for metal quantitation
+ - **CycloBranch software**: Custom dereplication environment for identifying predefined isotopic features in chromatographic data; MassSpecBlocks web application for de novo sequencing
+
+ - **Lung infections**: TAFC detected in human serum and urine of aspergillosis patients; galactomannan (current standard) has limited sensitivity; siderophore monitoring can track fungal infection in real time with timescale of hours vs. days/weeks for culture
+ - **Urinary tract infections**: Siderocalin (host protein that captures bacterial siderophores) increases during UTI; enterobactin and yersiniabactin detectable during *E. coli* infections; yersiniabactin-copper complex detected in patient urine
+ - **CNS infections**: *Neisseria meningitidis*, *S. aureus*, *S. pneumoniae*, *C. neoformans* cross BBB using transcellular, paracellular, and Trojan horse mechanisms; metallophore imaging could track pathogen routing
 - **COVID-19 relevance**: Secondary bacterial and fungal superinfections in critically ill COVID patients; SARS-CoV-2 proteins analyzed by MS from gargle solutions at 10^7-10^8 RNA equivalents/mL; aspergillosis incidence in COVID ICU patients significant; SARS-CoV-2 may interact with ACE2 glycosylation patterns affecting metal homeostasis
 
 # Why This Paper Matters

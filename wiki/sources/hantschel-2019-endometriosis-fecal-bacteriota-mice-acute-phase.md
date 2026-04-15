@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Prospective, randomized mouse experiment with GFP+ uterine tissue transplantation
 - **Model**: C57BL/6-TgN (ACTB-EGFP) donor tissue into C57BL/6 wild-type recipients; sham controls
 - **Methods**: Fecal collection at days -3, 7, and 21; 16S rRNA V4-V5 sequencing (Illumina MiSeq)
-- **Key results**:
-  - All transplanted tissue developed into endometriotic lesions with typical histomorphology
-  - Take rate: 23.8% +/- 4.2%; lesion size: 5.6 +/- 1.2 mm2
-  - 3,703 OTUs from 101 genera, 35 families, 19 orders identified
-  - No significant p-values at genus or family level after FDR correction
-  - Strict experimental design with standardized tissue punch sizes and GFP tracking
+
+ - All transplanted tissue developed into endometriotic lesions with typical histomorphology
+ - Take rate: 23.8% +/- 4.2%; lesion size: 5.6 +/- 1.2 mm2
+ - 3,703 OTUs from 101 genera, 35 families, 19 orders identified
+ - No significant p-values at genus or family level after FDR correction
+ - Strict experimental design with standardized tissue punch sizes and GFP tracking
 
 # Relevance to Wiki
 

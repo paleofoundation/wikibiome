@@ -32,8 +32,8 @@ platform: wikibiome
 
 ## Connections
 
-- Provides the conceptual framework of causation vs. correlation for interpreting [[mendelian-randomization]] studies like [[long-2023-causal-gut-microbiota-cancers-mr]]
+- Provides the conceptual framework of causation vs. correlation for interpreting studies like [[long-2023-causal-gut-microbiota-cancers-mr]]
 - Common core microbiota discussed here serves as baseline for understanding [[dysbiosis]] in CRC
-- FMT evidence connects to therapeutic approaches in [[microbiome-modulating-drugs]] and fecal microbiota transplant studies
+- FMT evidence connects to therapeutic approaches in and fecal microbiota transplant studies
 - The enterotype classification system relates to findings in [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]]
 - [[colorectal-cancer]]

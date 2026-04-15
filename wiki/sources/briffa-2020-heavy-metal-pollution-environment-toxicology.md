@@ -24,14 +24,14 @@ platform: wikibiome
 # Methods/Findings
 
 - **Study type**: Comprehensive review of 18 heavy metals covering properties, uses, exposure routes, pharmacokinetics, toxicology processes, and regulatory thresholds
-- **Nickel-specific findings**:
-  - WHO air quality guideline: 3.8 x 10^-4 ug/m3; EPA drinking water threshold: 0.1 mg/L; OSHA workplace air: 1 mg/m3
-  - Absorbed via passive diffusion (low amounts) or active transport with facilitated diffusion (high amounts)
-  - Ni carbonyl (Ni(CO)4) is fat-soluble and can cross cell membranes via diffusion
-  - NF-kappaB activation by nickel leads to ATF/CREB phosphorylation and TSP1 diminution, enhancing angiogenesis
-  - Nickel stimulates methylation of promoter, downregulates MEG3, upregulates hypoxia-inducible factor-1alpha in carcinogenesis
-  - Effects: lung embolisms, asthma, allergic reactions, respiratory failure, heart disorders, cancer (lung/nasal)
-  - Food sources: baked beans, kidney beans, soybeans, whole wheat, oat, rye, cocoa, chocolate, nuts
+
+ - WHO air quality guideline: 3.8 x 10^-4 ug/m3; EPA drinking water threshold: 0.1 mg/L; OSHA workplace air: 1 mg/m3
+ - Absorbed via passive diffusion (low amounts) or active transport with facilitated diffusion (high amounts)
+ - Ni carbonyl (Ni(CO)4) is fat-soluble and can cross cell membranes via diffusion
+ - NF-kappaB activation by nickel leads to ATF/CREB phosphorylation and TSP1 diminution, enhancing angiogenesis
+ - Nickel stimulates methylation of promoter, downregulates MEG3, upregulates hypoxia-inducible factor-1alpha in carcinogenesis
+ - Effects: lung embolisms, asthma, allergic reactions, respiratory failure, heart disorders, cancer (lung/nasal)
+ - Food sources: baked beans, kidney beans, soybeans, whole wheat, oat, rye, cocoa, chocolate, nuts
 - Detailed tables for each metal covering: properties, uses, effects on humans, food sources, and regulatory thresholds (WHO, OSHA, EPA, FDA)
 - Oxidative stress pathways diagrammed (Figure 4): iron, copper, vanadium, chromium, cobalt follow Fenton reactions; arsenic and cadmium inhibit DNA repair
 

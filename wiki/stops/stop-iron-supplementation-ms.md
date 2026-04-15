@@ -90,24 +90,24 @@ Raising serum iron does not correct neuroinflammation or dysbiosis, and paradoxi
 Instead of iron supplementation:
 
 1. **Address the dysbiosis driving hepcidin elevation:**
-   - [[ketogenic-diet-ms]] — Restores SCFA-producing Clostridia, which reduce pro-inflammatory signaling and hepcidin expression
-   - [[b-cell-depletion-therapy-ms]] — Pharmaceutical immunotherapy that reverses dysbiosis and restores immune suppression, allowing hepcidin normalization
+ - [[ketogenic-diet-ms]] — Restores SCFA-producing Clostridia, which reduce pro-inflammatory signaling and hepcidin expression
+ - [[b-cell-depletion-therapy-ms]] — Pharmaceutical immunotherapy that reverses dysbiosis and restores immune suppression, allowing hepcidin normalization
 
 2. **Support iron-independent energy pathways:**
-   - **SCFA supplementation + dysbiosis restoration**: Butyrate, propionate, and acetate bypass iron-dependent mitochondrial respiration and provide direct ATP production via HDAC inhibition and metabolite fermentation
-   - **B-vitamin complex**: Thiamine, B6, B12, folate support neural function and ATP metabolism independent of iron status
-   - **Creatine monohydrate**: Supports brain energy metabolism independent of iron
+ - **SCFA supplementation + dysbiosis restoration**: Butyrate, propionate, and acetate bypass iron-dependent mitochondrial respiration and provide direct ATP production via HDAC inhibition and metabolite fermentation
+ - **B-vitamin complex**: Thiamine, B6, B12, folate support neural function and ATP metabolism independent of iron status
+ - **Creatine monohydrate**: Supports brain energy metabolism independent of iron
 
 3. **If iron supplementation is deemed absolutely necessary** (severe symptomatic anemia, documented iron deficiency despite dysbiosis treatment):
-   - **Monitor hepcidin, ferritin, and TIBC closely**: Iron should be administered only if hepcidin remains suppressed (indicating return to baseline immune tolerance)
-   - **Co-administer iron-restricting agents**: Consider concurrent hepcidin agonists or iron chelators to minimize pathogenic bacterial iron acquisition
-   - **Limit duration**: Short-term supplementation (weeks, not months) with strict monitoring for symptom worsening
-   - **Microbiota tracking**: Serial fecal analysis to detect dysbiosis amplification
+ - **Monitor hepcidin, ferritin, and TIBC closely**: Iron should be administered only if hepcidin remains suppressed (indicating return to baseline immune tolerance)
+ - **Co-administer iron-restricting agents**: Consider concurrent hepcidin agonists or iron chelators to minimize pathogenic bacterial iron acquisition
+ - **Limit duration**: Short-term supplementation (weeks, not months) with strict monitoring for symptom worsening
+ - **Microbiota tracking**: Serial fecal analysis to detect dysbiosis amplification
 
 4. **Support nutritional immunity directly:**
-   - **[[lactoferrin]]** (iron-binding protein): Delivers bioavailable iron to host cells while chelating iron from bacteria; maintains iron sequestration while providing functional iron
-   - **Transferrin support**: Enhance host iron recycling and sequestration
-   - **Hepcidin activation**: Dietary polyphenols (from Mediterranean diet, quercetin) upregulate FXR/TGR5 signaling, which elevates hepcidin and locks in iron sequestration
+ - **[[lactoferrin]]** (iron-binding protein): Delivers bioavailable iron to host cells while chelating iron from bacteria; maintains iron sequestration while providing functional iron
+ - **Transferrin support**: Enhance host iron recycling and sequestration
+ - **Hepcidin activation**: Dietary polyphenols (from Mediterranean diet, quercetin) upregulate FXR/TGR5 signaling, which elevates hepcidin and locks in iron sequestration
 
 ## Knowledge Primitive
 

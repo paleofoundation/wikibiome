@@ -1,14 +1,26 @@
 ---
-
-title: "Intestinal Microbiota and the Innate Immune System - a Crosstalk in Crohn's Disease Pathogenesis"
+title: Intestinal Microbiota and the Innate Immune System - a Crosstalk in Crohn's Disease Pathogenesis
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Haag LM, Siegmund B]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Haag LM
+  - Siegmund B
 journal: Frontiers in Immunology
 year: 2015
-tags: [crohns-disease, IBD, innate-immunity, NOD2, dysbiosis, intestinal-barrier, defensins, Paneth-cells, AIEC, gut-microbiome, inflammation]
-doi: "10.3389/fimmu.2015.00489"
+tags:
+  - crohns-disease
+  - IBD
+  - innate-immunity
+  - NOD2
+  - dysbiosis
+  - intestinal-barrier
+  - defensins
+  - Paneth-cells
+  - AIEC
+  - gut-microbiome
+  - inflammation
+doi: 10.3389/fimmu.2015.00489
 platform: wikibiome
 ---
 

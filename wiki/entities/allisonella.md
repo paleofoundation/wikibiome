@@ -74,9 +74,9 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 
 - Dysbiotic microbiota with elevated *Allisonella* is associated with insulin resistance independent of obesity.
 - Proposed mechanisms:
-  - Histamine-driven chronic inflammation impairs insulin signaling.
-  - LPS translocation activates TLR4 on immune cells, perpetuating pro-inflammatory cytokines (IL-6, TNF-α).
-  - Reduced butyrate-producing commensals (depleted in dysbiosis) contribute to loss of histone deacetylase inhibition and barrier protection.
+ - Histamine-driven chronic inflammation impairs insulin signaling.
+ - LPS translocation activates TLR4 on immune cells, perpetuating pro-inflammatory cytokines (IL-6, TNF-α).
+ - Reduced butyrate-producing commensals (depleted in dysbiosis) contribute to loss of histone deacetylase inhibition and barrier protection.
 
 ### Mast Cell Activation Syndrome and Histamine Intolerance
 
@@ -94,17 +94,17 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 ### Dysbiosis Prerequisites
 
 - *Allisonella* expansion requires specific dysbiotic conditions:
-  1. Dietary shift toward high-fat, low-fiber (reduces butyrate producers; increases luminal fat and bile).
-  2. Antibiotic use or inflammation (kills competing commensals like Faecalibacterium; allows *Allisonella* to emerge).
-  3. Iron bioavailability elevation (bleeding, hepcidin dysregulation, reduced hepcidin expression due to chronic inflammation).
+ 1. Dietary shift toward high-fat, low-fiber (reduces butyrate producers; increases luminal fat and bile).
+ 2. Antibiotic use or inflammation (kills competing commensals like Faecalibacterium; allows *Allisonella* to emerge).
+ 3. Iron bioavailability elevation (bleeding, hepcidin dysregulation, reduced hepcidin expression due to chronic inflammation).
 
 ### Co-Expansions
 
 - *Allisonella* frequently co-expands with:
-  - [[fusobacterium-varium]] (iron-dependent, pro-inflammatory)
-  - *E. coli* (LPS-producing, iron-scavenging)
-  - [[bacteroides-fragilis]] (ETBF strains; BFT-driven barrier disruption enables histamine-driven inflammation)
-  - [[candida-albicans]] (dysbiotic marker; fungal-bacterial cooperation)
+ - [[fusobacterium-varium]] (iron-dependent, pro-inflammatory)
+ - *E. coli* (LPS-producing, iron-scavenging)
+ - [[bacteroides-fragilis]] (ETBF strains; BFT-driven barrier disruption enables histamine-driven inflammation)
+ - [[candida-albicans]] (dysbiotic marker; fungal-bacterial cooperation)
 
 ### Functional Consequences of Dysbiotic State
 
@@ -132,13 +132,13 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 ## Connections
 
 - [[iron]] -- essential cofactor; iron bioavailability drives *Allisonella* expansion
-- [[histamine]] -- primary metabolite; drives mast cell activation and chronic inflammation
-- [[mast-cell-activation]] -- histamine-driven degranulation; pro-inflammatory mediator release
+- -- primary metabolite; drives mast cell activation and chronic inflammation
+- -- histamine-driven degranulation; pro-inflammatory mediator release
 - [[obesity]] -- dysbiotic marker; high abundance in obese microbiota
 - [[insulin-resistance]] -- chronic histamine + LPS-driven inflammation impairs insulin signaling
-- [[metabolic-endotoxemia]] -- co-expansion with gram-negative pathogens; elevated luminal LPS
-- [[nutritional-immunity|barrier-function]] -- histamine-driven increased intestinal permeability
+- -- co-expansion with gram-negative pathogens; elevated luminal LPS
+- [[nutritional-immunity|nutritional immunity]] -- histamine-driven increased intestinal permeability
 - [[dysbiosis]] -- hallmark of low-diversity, iron-rich, low-SCFA dysbiotic states
 - [[fusobacterium-varium]] -- co-pathobiont; iron-dependent, pro-inflammatory
 - [[bacteroides-fragilis]] -- ETBF-driven barrier disruption exacerbates histamine effects
-- [[atopy]] -- dysbiotic *Allisonella* expansion associated with allergic disease prevalence
+- -- dysbiotic *Allisonella* expansion associated with allergic disease prevalence

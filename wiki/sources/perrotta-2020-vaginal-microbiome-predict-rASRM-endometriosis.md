@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Observational cross-sectional pilot at University of Sao Paulo, Brazil
 - **Participants**: 35 women with endometriosis and 24 controls, all aged 21-49
 - **Methods**: 16S rRNA gene amplicon sequencing, random forest machine-learning classification, samples collected at follicular and menstrual phases
-- **Key results**:
-  - 59 women total; 5 patients excluded due to missing data
-  - CST I (*L. crispatus*) appeared lower in endometriosis during menses (not statistically significant)
-  - Random forest model during menses: AUC=0.89 for stages 1-2 vs 3-4
-  - *Anaerococcus* OTU abundance significantly differed between early and late disease (p=0.056)
-  - Rectal microbiome was predictive of deep bowel endometriosis (p=0.03) but not sufficiently accurate (AUC=0.29)
+
+ - 59 women total; 5 patients excluded due to missing data
+ - CST I (*L. crispatus*) appeared lower in endometriosis during menses (not statistically significant)
+ - Random forest model during menses: AUC=0.89 for stages 1-2 vs 3-4
+ - *Anaerococcus* OTU abundance significantly differed between early and late disease (p=0.056)
+ - Rectal microbiome was predictive of deep bowel endometriosis (p=0.03) but not sufficiently accurate (AUC=0.29)
 
 # Relevance to Wiki
 

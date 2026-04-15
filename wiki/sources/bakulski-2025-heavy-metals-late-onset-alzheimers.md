@@ -1,15 +1,33 @@
 ---
-
-title: "Contributions of heavy metal exposure to late-onset Alzheimer's disease"
+title: Contributions of heavy metal exposure to late-onset Alzheimer's disease
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Bakulski KM, et al.]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Bakulski KM
+  - et al.
 journal: (Behavioural Brain Research / related journal)
 year: 2025
-tags: [heavy-metals, late-onset-Alzheimers, LOAD, environmental-exposure, lead, arsenic, cadmium, mercury, epigenetics, therapeutic-approaches]
-doi: "10.1002/alz.71075"
+tags:
+  - heavy-metals
+  - late-onset-Alzheimers
+  - LOAD
+  - environmental-exposure
+  - lead
+  - arsenic
+  - cadmium
+  - mercury
+  - epigenetics
+  - therapeutic-approaches
+doi: 10.1002/alz.71075
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Establishes that late-onset Alzheimer's disease (>95% of AD cases) results from cumulative metal burden interacting with genetic risk (APOE) and age-related vulnerability—declining blood-brain barrier, impaired metal clearance, and neuroinflammatory amplification. WikiBiome uses this paper to explain why metal-driven dysbiosis signatures may be particularly toxic in aging populations where homeostatic reserves are depleted."
 ---
 
 # Key Claims
@@ -22,20 +40,20 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Review examining the relationship between heavy metal exposures and late-onset AD, with focus on underlying mechanisms and therapeutic approaches
-- **Key mechanisms linking metals to LOAD**:
-  - Epigenetic modifications (DNA methylation changes) from early-life and cumulative exposures
-  - Oxidative stress and mitochondrial dysfunction as converging pathways
-  - Disruption of metal homeostasis in aging brains increasing vulnerability
-  - Inflammation and neuroinflammatory cascades triggered by metal accumulation
-  - Blood-brain barrier integrity decline with aging exacerbating metal entry to brain
-- **Age-related considerations**:
-  - Cumulative lifetime exposure to metals is more relevant for LOAD than acute exposure
-  - Aging-related changes in metal metabolism and clearance increase vulnerability
-  - Gene-environment interactions modify individual susceptibility
-- **Therapeutic approaches discussed**:
-  - Chelation therapy strategies
-  - Antioxidant interventions
-  - Environmental exposure reduction
+
+ - Epigenetic modifications (DNA methylation changes) from early-life and cumulative exposures
+ - Oxidative stress and mitochondrial dysfunction as converging pathways
+ - Disruption of metal homeostasis in aging brains increasing vulnerability
+ - Inflammation and neuroinflammatory cascades triggered by metal accumulation
+ - Blood-brain barrier integrity decline with aging exacerbating metal entry to brain
+
+ - Cumulative lifetime exposure to metals is more relevant for LOAD than acute exposure
+ - Aging-related changes in metal metabolism and clearance increase vulnerability
+ - Gene-environment interactions modify individual susceptibility
+
+ - Chelation therapy strategies
+ - Antioxidant interventions
+ - Environmental exposure reduction
 
 # Connections
 

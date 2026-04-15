@@ -55,7 +55,6 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (family A
 - High-fiber diets generally support the succinate cross-feeding network that sustains this genus.
 - Western diet patterns (high fat, low fiber) deplete the upstream succinate producers, indirectly starving *Phascolarctobacterium*.
 
-
 ## Key Sources
 
 - [[su-2020-gut-microbiota-immune-imbalance-graves]]

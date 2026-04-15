@@ -1,15 +1,33 @@
 ---
-
-title: "Metal Dyshomeostasis as a Driver of Gut Pathology in Autism Spectrum Disorders"
+title: Metal Dyshomeostasis as a Driver of Gut Pathology in Autism Spectrum Disorders
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [O'Grady K, Grabrucker AM]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - O'Grady K
+  - Grabrucker AM
 journal: Journal of Neurochemistry
 year: 2025
-tags: [autism, metals, gut-pathology, zinc-deficiency, mercury, cadmium, lead, gut-microbiota, intestinal-permeability, systematic-review]
-doi: "10.1111/jnc.70041"
+tags:
+  - autism
+  - metals
+  - gut-pathology
+  - zinc-deficiency
+  - mercury
+  - cadmium
+  - lead
+  - gut-microbiota
+  - intestinal-permeability
+  - systematic-review
+doi: 10.1111/jnc.70041
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "PRISMA systematic review showing that toxic metals (Hg, Cd, Pb) and zinc deficiency produce **overlapping gut pathologies**—barrier dysfunction, permeability, inflammation, dysbiosis—establishing a unifying mechanism: metals reduce zinc bioavailability through protein-binding competition, mimicking zinc deficiency. WikiBiome depends on this evidence to connect metal dysregulation to zinc depletion across multiple conditions and to explain why metal burden and zinc loss appear as paired signatures in disease."
 ---
 
 # Key Claims

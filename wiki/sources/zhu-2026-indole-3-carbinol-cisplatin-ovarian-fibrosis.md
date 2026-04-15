@@ -9,6 +9,7 @@ year: 2026
 doi: "10.1186/s13048-026-01994-2"
 tags: [ovarian-cancer, indole-3-carbinol, cisplatin, ovarian-fibrosis, TGF-beta1, Smad-pathway, chemoprotection]
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # I3C Alleviates Cisplatin-Induced Ovarian Damage via TGF-beta1/Smad Pathway

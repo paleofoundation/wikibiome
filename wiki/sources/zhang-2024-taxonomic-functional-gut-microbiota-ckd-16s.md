@@ -9,6 +9,7 @@ journal: "Frontiers in Cellular and Infection Microbiology"
 doi: "10.3389/fcimb.2024.1363276"
 tags: [chronic-kidney-disease, CKD, 16S-rRNA, gut-microbiota, Faecalibacterium-prausnitzii, biomarker, meta-analysis, functional-analysis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Uncovering Specific Taxonomic and Functional Alteration of Gut Microbiota in CKD through 16S rRNA Data

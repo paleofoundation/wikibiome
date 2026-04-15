@@ -62,16 +62,16 @@ Estrogen recirculation is mechanistically linked to:
 - [[beta-glucuronidase]] — The bacterial enzyme driving deconjugation; inhibiting or reducing this is a direct intervention target.
 - [[enterohepatic-circulation]] — The broader recycling process of which estrogen recirculation is one example.
 - [[estrobolome]] — Collective term for the estrogen-metabolizing bacterial community.
-- [[dysbiosis-and-inflammation]] — The microbial composition shift that hyperactivates recirculation.
+- — The microbial composition shift that hyperactivates recirculation.
 
 **Linked entities**:
 - [[escherichia-coli]] — Major high-glucuronidase dysbiotic overgrowth species.
 - [[bacteroides-fragilis]] — High β-glucuronidase; BFT toxin-producing strains correlate with dysbiosis severity.
 - [[lachnospiraceae]] — Healthy, low-glucuronidase commensals; reduced in dysbiosis.
-- [[estradiol]] — The primary hormone being recirculated.
+- — The primary hormone being recirculated.
 
 **Intervention targets**:
-- Reducing β-glucuronidase-producing taxa via [[targeted-antimicrobials]] or specific [[dietary-exclusions]].
-- Supporting [[lachnospiraceae]] and low-glucuronidase commensals via [[prebiotic-fibers]].
-- Binding recirculated estrogen in the gut via [[fiber]], [[activated-charcoal]], or [[calcium-d-glucarate]].
+- Reducing β-glucuronidase-producing taxa via or specific .
+- Supporting [[lachnospiraceae]] and low-glucuronidase commensals via .
+- Binding recirculated estrogen in the gut via , or .
 - Inhibiting bacterial β-glucuronidase directly (early-stage drug research).

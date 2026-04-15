@@ -26,19 +26,19 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Study type**: Univariable and multivariable Mendelian randomization
-- **Data sources**:
-  - Gut microbiota: MiBioGen consortium (18,340 participants, 24 cohorts, 211 taxa)
-  - Gut metabolites: TwinsUK and KORA GWAS (N=7,824); 69 gut microbiota-derived metabolites from MetaCyc
-  - Autoimmune hypothyroidism: FinnGen DF8 (36,321 cases, 250,926 controls)
+
+ - Gut microbiota: MiBioGen consortium (18,340 participants, 24 cohorts, 211 taxa)
+ - Gut metabolites: TwinsUK and KORA GWAS (N=7,824); 69 gut microbiota-derived metabolites from MetaCyc
+ - Autoimmune hypothyroidism: FinnGen DF8 (36,321 cases, 250,926 controls)
 - **MR methods**: IVW (primary), weighted median, MR-PRESSO, MR-Egger; significance at FDR-corrected P<0.05
 - **Univariable MR results for gut microbiota** (Figure 2):
-  - 7 taxa showed suggestive associations with autoimmune hypothyroidism
-  - All heterogeneity test Q p-values >0.05; MR-Egger intercept tests showed no horizontal pleiotropy (P>0.05)
-  - Leave-one-out analysis confirmed no single outlier SNP drove the results
+ - 7 taxa showed suggestive associations with autoimmune hypothyroidism
+ - All heterogeneity test Q p-values >0.05; MR-Egger intercept tests showed no horizontal pleiotropy (P>0.05)
+ - Leave-one-out analysis confirmed no single outlier SNP drove the results
 - **Metabolite MR results** (Figure 3):
-  - Indolelactate: OR=1.592 (IVW), 1.463 (weighted median), 1.592 (MR-PRESSO); all p<0.01 except MR-Egger
-  - N-(3-furoyl)glycine: OR=0.947 (protective); pipecolate: OR=0.765; phenylalanine: OR=0.287 (protective)
-  - Alanine: OR=1.518 (risk factor); allantoin: OR=0.815 (protective)
+ - Indolelactate: OR=1.592 (IVW), 1.463 (weighted median), 1.592 (MR-PRESSO); all p<0.01 except MR-Egger
+ - N-(3-furoyl)glycine: OR=0.947 (protective); pipecolate: OR=0.765; phenylalanine: OR=0.287 (protective)
+ - Alanine: OR=1.518 (risk factor); allantoin: OR=0.815 (protective)
 - **Enrichment analysis**: GO and KEGG analyses of lead SNPs from causal microbiota and metabolites revealed significantly enriched regulatory pathways
 
 ## Connections
@@ -48,4 +48,4 @@ platform: wikibiome
 - [[fang-2024-gut-microbiota-autoimmune-thyroid-mendelian]] provides parallel bidirectional MR for both HT and GD
 - Eggerthella and Ruminococcaceae findings consistent with [[liu-2022-gut-microbiota-diversity-hashimotos]]
 - Indole metabolite pathway links to [[dysbiosis]]-driven metabolic changes in [[gong-2024-iodine-gut-microbiota-hashimotos]]
-- Phenylalanine as protective metabolite relevant to [[amino acids]] metabolism in HT
+- Phenylalanine as protective metabolite relevant to metabolism in HT

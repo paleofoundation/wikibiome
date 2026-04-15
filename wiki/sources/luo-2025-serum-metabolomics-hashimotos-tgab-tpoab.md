@@ -28,14 +28,14 @@ platform: wikibiome
 - **Study type**: Case-control metabolomic study (LC-MS full-component)
 - **Participants**: 32 female subjects: 14 TPOAb(+) HT patients, 4 TgAb(+) patients, 14 sex-matched healthy controls (Dalian Medical University)
 - **Metabolomic profiling**: 225 differential metabolites assessed using PLS-DA and OPLS-DA
-- **Key results**:
-  - PLS-DA showed distinct separation for TPOAb(+) vs Control (R2X=0.262, R2Y=0.756, Q2=0.641)
-  - 13 differential metabolites between Control and TPOAb(+); 23 between Control and TgAb(+)
-  - TPOAb(+) specific: elevated Glycoursodeoxycholic acid (VIP=2.09743), Glycocholic acid (VIP=1.66577), Indoxyl sulfate (VIP=1.64882), D(-)-Arginine (VIP=1.64535)
-  - TgAb(+) specific: elevated Glycoursodeoxycholic acid (VIP=2.19109), Dehydroepiandosterone Sulfate (VIP=2.05963), Androsterone sulfate-4 (VIP=1.95384)
-- **Pathway enrichment**:
-  - TPOAb(+): glycine, serine, threonine metabolism; glycerophospholipid metabolism; primary bile acid biosynthesis
-  - TgAb(+): galactose metabolism; ascorbate and alternative metabolism; inositol phosphate metabolism
+
+ - PLS-DA showed distinct separation for TPOAb(+) vs Control (R2X=0.262, R2Y=0.756, Q2=0.641)
+ - 13 differential metabolites between Control and TPOAb(+); 23 between Control and TgAb(+)
+ - TPOAb(+) specific: elevated Glycoursodeoxycholic acid (VIP=2.09743), Glycocholic acid (VIP=1.66577), Indoxyl sulfate (VIP=1.64882), D(-)-Arginine (VIP=1.64535)
+ - TgAb(+) specific: elevated Glycoursodeoxycholic acid (VIP=2.19109), Dehydroepiandosterone Sulfate (VIP=2.05963), Androsterone sulfate-4 (VIP=1.95384)
+
+ - TPOAb(+): glycine, serine, threonine metabolism; glycerophospholipid metabolism; primary bile acid biosynthesis
+ - TgAb(+): galactose metabolism; ascorbate and alternative metabolism; inositol phosphate metabolism
 - **Correlation analysis**: Distinct metabolite-clinical marker correlation patterns between TPOAb and TgAb groups, suggesting different disease mechanisms
 
 ## Connections
@@ -43,6 +43,6 @@ platform: wikibiome
 - Bile acid alterations complement [[gong-2024-iodine-gut-microbiota-hashimotos]] metabolomic findings
 - Indoxyl sulfate elevation connects to tryptophan/indole metabolism in [[zhang-2025-tryptophan-metabolism-hashimotos]]
 - Metabolic profiling approach parallels [[sarandi-2025-metabolic-profile-hashimotos-methap]] METHAP study
-- [[amino acids]] (glycine, serine, threonine) pathway changes relevant to metabolic disruption in HT
+- (glycine, serine, threonine) pathway changes relevant to metabolic disruption in HT
 - Bile acid-microbiome axis links to [[short-chain-fatty-acids]] and [[dysbiosis]] in thyroid disease
 - Lipid metabolism changes connect to [[bastos-2023-metabolomic-follicular-fluid-hashimotos]]

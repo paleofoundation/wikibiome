@@ -40,7 +40,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- 56% increased risk from gestational diabetes exposure
-- [[gestational-diabetes]] -- maternal metabolic risk factor for ASD
-- [[ADHD]] -- 36% increased risk from GDM exposure
-- [[maternal-factors]] -- GDM as modifiable prenatal risk factor
-- [[metabolic-disorders]] -- maternal metabolic health and offspring neurodevelopment
+- -- maternal metabolic risk factor for ASD
+- -- 36% increased risk from GDM exposure
+- -- GDM as modifiable prenatal risk factor
+- -- maternal metabolic health and offspring neurodevelopment

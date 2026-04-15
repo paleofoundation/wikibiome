@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, ADHD, Mendelian-randomization, gut-microbiota, 
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Butyricicoccus", "Eubacterium", "Roseburia", "Ruminococcus"]
 ---
 
 # Key Claims
@@ -40,7 +43,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- shared gut microbiota mechanisms with ADHD
-- [[ADHD]] -- causal gut microbiota associations via MR
+- -- causal gut microbiota associations via MR
 - [[gut-microbiome]] -- genetically predicted microbial taxa and neurodevelopmental risk
-- [[Mendelian-randomization]] -- causal inference for microbiota-ADHD relationship
+- -- causal inference for microbiota-ADHD relationship
 - [[short-chain-fatty-acids]] -- butyrate-producing protective taxa identified

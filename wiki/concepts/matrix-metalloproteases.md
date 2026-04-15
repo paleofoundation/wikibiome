@@ -105,7 +105,6 @@ Environmental metal exposure may dysregulate MMP expression and activity through
 - **TIMP suppression**: Some metals suppress TIMP expression, shifting the MMP/TIMP balance toward net proteolysis.
 - **Cadmium as zinc mimic**: Cadmium (a known [[metalloestrogen]]) can displace zinc from metalloproteins, potentially dysregulating MMP function in reproductive tissues.
 
-
 ## Key Sources
 
 - [[cassat-2012-metal-acquisition-staphylococcus-aureus]]

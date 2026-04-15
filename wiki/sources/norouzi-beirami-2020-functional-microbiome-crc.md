@@ -33,7 +33,7 @@ platform: wikibiome
 ## Connections
 
 - Demonstrates the superiority of functional over taxonomic profiling, complementing [[bars-cortina-2024-16s-vs-shotgun-crc]] methodology comparisons
-- KEGG pathway-level analysis connects to [[metabolic-pathways]] in CRC microbiome research
-- Adenoma-to-carcinoma progression tracking relates to [[microbiome-and-disease-progression]]
+- KEGG pathway-level analysis connects to in CRC microbiome research
+- Adenoma-to-carcinoma progression tracking relates to 
 - Cross-study bacterial genera compilation (Table 2) validates [[microbial-biomarkers]] consistency across populations
 - [[colorectal-cancer]]

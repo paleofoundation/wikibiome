@@ -31,7 +31,7 @@ platform: wikibiome
 
 ## Connections
 
-- One of the foundational CRC microbiome studies, establishing the concept of "driver vs. passenger" bacteria later explored in [[microbiome-and-disease-progression]]
+- One of the foundational CRC microbiome studies, establishing the concept of "driver vs. passenger" bacteria later explored in 
 - *Coriobacteriaceae* enrichment connects to MR findings in [[li-2025-gut-microbiota-immune-cell-crc-mr-mediation]] showing *Coriobacteriaceae* protective effects
 - Butyrate-producer enrichment in tumors creates an apparent paradox addressed by the dual role of butyrate in [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
 - Metabolomic context for bacterial recruitment connects to [[loke-2018-metabolomics-16s-crc-mucosa]] and [[microbiome-derived-metabolites]]

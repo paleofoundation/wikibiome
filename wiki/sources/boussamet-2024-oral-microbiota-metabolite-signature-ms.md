@@ -1,14 +1,38 @@
 ---
-
 title: "Investigating the metabolite signature of an altered oral microbiota as a discriminant factor for multiple sclerosis: a pilot study"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Léo Boussamet, Emmanuel Montassier, Camille Mathé, Alexandra Garcia, Jérémy Morille, Sita Shah, Emilie Dugast, Sandrine Wiertlewski, Mathilde Gourdel, Corinna Bang, Klarissa H. Stürner, Damien Masson, Arnaud B. Nicot, Nicolas Vince, David-Axel Laplaud, Douglas L. Feinstein, Laureline Berthelot]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Léo Boussamet
+  - Emmanuel Montassier
+  - Camille Mathé
+  - Alexandra Garcia
+  - Jérémy Morille
+  - Sita Shah
+  - Emilie Dugast
+  - Sandrine Wiertlewski
+  - Mathilde Gourdel
+  - Corinna Bang
+  - Klarissa H. Stürner
+  - Damien Masson
+  - Arnaud B. Nicot
+  - Nicolas Vince
+  - David-Axel Laplaud
+  - Douglas L. Feinstein
+  - Laureline Berthelot
 journal: Scientific Reports
 year: 2024
 doi: 10.1038/s41598-024-57949-4
-tags: [multiple-sclerosis, oral-microbiome, metabolomics, dysbiosis, microbiome-signature, Fusobacterium, Leptotrichia, biomarkers]
+tags:
+  - multiple-sclerosis
+  - oral-microbiome
+  - metabolomics
+  - dysbiosis
+  - microbiome-signature
+  - Fusobacterium
+  - Leptotrichia
+  - biomarkers
 platform: wikibiome
 ---
 

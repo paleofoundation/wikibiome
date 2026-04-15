@@ -26,11 +26,11 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Study type**: Comprehensive narrative review
-- **Lifestyle factors affecting thyroid**:
-  - Soy isoflavones increase TSH levels; soy negatively affects patients with subclinical hypothyroidism
-  - Cigarette smoking reduces TSH levels and increases fT3/fT4; thiocyanate from cyanide in tobacco reduces T4 levels
-  - Alcohol increases T3 levels and reduces TSH through decreased pituitary TRH receptor sensitivity
-  - High BMI positively correlates with TSH, T3 levels; mechanism not fully understood
+
+ - Soy isoflavones increase TSH levels; soy negatively affects patients with subclinical hypothyroidism
+ - Cigarette smoking reduces TSH levels and increases fT3/fT4; thiocyanate from cyanide in tobacco reduces T4 levels
+ - Alcohol increases T3 levels and reduces TSH through decreased pituitary TRH receptor sensitivity
+ - High BMI positively correlates with TSH, T3 levels; mechanism not fully understood
 - **Pollutants**: PCBs, BPA, PFAS, pesticides, and perchlorates all disrupt thyroid function; heavy metals (Cd, Pb, As, Mg) decrease thyroid follicle size and alter TSH levels; meta-analysis links showed increased Cu and decreased Se/Mg in TC patients
 - **TC types**: Papillary (70-80%), follicular (~15%), medullary (~3%), anaplastic (<2%); papillary TC is three times more common in women
 - **Oral microbiota and TC**: Oral microbial changes include increased TSH and taxa diversity; dominance of Alloprevotella, Anaerogtlobus, and Acinetobacter in salivary samples of TC patients; C. Saccharibacteria bacterium, Mobiluncus, Treponema prevalent in thyroid nodule patients
@@ -44,9 +44,9 @@ platform: wikibiome
 - Heavy metals section connects to [[brylinski-2025-trace-elements-thyroid-diseases]] on Cd, Pb, and metal effects on thyroid
 - Selenium and zinc in probiotics relevant to [[brock-2015-selenium-thyroid-autoimmunity]] and [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 - Iodine-thyroid axis relevant to iodine sections in [[brylinski-2025-trace-elements-thyroid-diseases]]
-- [[Gut-Thyroid Axis]] represents emerging concept connecting microbiome, mineral absorption, and thyroid function
+- represents emerging concept connecting microbiome, mineral absorption, and thyroid function
 - [[probiotics]] as delivery vehicles for trace elements is a novel therapeutic concept
-- Firmicutes/Bacteroidetes ratio disruption connects to [[Gut Dysbiosis]] in cancer and autoimmune disease
-- SCFAs and microbial metabolites link to [[Metabolic Pathways]] in cancer
-- TC treatment effects on microbiome relevant to [[Radioactive Iodine Therapy]] complications
-- Environmental pollutant thyroid disruption connects to [[Endocrine Disruption]] from metals and chemicals
+- Firmicutes/Bacteroidetes ratio disruption connects to in cancer and autoimmune disease
+- SCFAs and microbial metabolites link to in cancer
+- TC treatment effects on microbiome relevant to complications
+- Environmental pollutant thyroid disruption connects to from metals and chemicals

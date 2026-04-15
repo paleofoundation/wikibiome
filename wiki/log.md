@@ -2,6 +2,93 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-09] v2-migration | Priority 5: Add karen_brain_primitives, metals_discussed, taxa_discussed
+
+**Status:** PARTIAL -- 108/1,548 source pages complete; script ready for remaining ~1,440
+
+### Fields Added
+- `karen_brain_primitives`: inferred from content keywords (9 primitives: metal exposure, nutritional immunity, mis-metallation, metalloenzymes, probiotics/FMT, biofilm/interkingdom, estrogen/estrobolome, siderophores, hypoxia/oxidative stress)
+- `metals_discussed`: extracted from tags + body (17 metals tracked: nickel, iron, zinc, copper, cadmium, lead, mercury, arsenic, chromium, selenium, manganese, aluminum, magnesium, cobalt, tin, molybdenum, iodine)
+- `taxa_discussed`: extracted from tags + body (75+ genera tracked)
+
+### Manual Processing
+- 33 files had fields from prior sessions
+- 75 files processed manually in this session (Read + Edit per file)
+- Bash/python3 execution was restricted, preventing batch script execution
+
+### Batch Script Created
+- `wiki/scripts/add_v2_fields.py` -- complete Python script to process remaining files
+- Run: `python3 wiki/scripts/add_v2_fields.py`
+- Handles: frontmatter detection, field inference from tags+body, false-positive filtering (lead/tin), idempotent (skips files already processed)
+
+## [2026-04-14] maintenance | Gap Remediation Session (human-directed)
+
+**Status:** COMPLETE
+
+### Structural Fixes
+- **Backslash wikilinks fixed** in `dietary-metal-microbiome-interactions.md` — confirmed 4 → 0 backslash-pipe instances (flagged for 3 consecutive sessions; now resolved)
+- **`stop-diagnostic-overclaiming-discovery-phase.md` created** — resolves broken STOP reference in pancreatic-cancer signature; full page built explaining discovery-phase evidence limitations for PDAC microbiome diagnostics
+- **`seo_target` + `wikipedia_differentiation` added** to all 7 fungi/archaea entity pages: candida-albicans, candida-auris, candida-tropicalis, debaryomyces, saccharomyces-cerevisiae, torulaspora, methanobrevibacter-smithii
+
+### New STOP Pages (4 created)
+- `stop-iron-supplementation-obesity.md` — hepcidin-mediated functional anemia; Enterobacteriaceae feeding; Fenton oxidative stress worsens insulin resistance
+- `stop-iron-supplementation-type-2-diabetes.md` — Fenton ROS → beta cell ferroptosis; ferritin as misleading marker in T2D; IV iron is safe, oral is not
+- `stop-iron-supplementation-depression.md` — IDO-kynurenine pathway: iron feeds Gram-negatives → LPS → IDO → tryptophan diverted from serotonin; zinc is the correct metal intervention
+- `stop-iron-supplementation-cardiovascular-disease.md` — Bilophila wadsworthia siderophore dependence; TMAO amplification; atherosclerotic plaque Fenton chemistry; IV iron is evidence-based, oral iron is not
+
+### Signature Stops and Interventions Updated
+- `obesity.md`: `stops: []` → `stops: [stop-iron-supplementation-obesity]`
+- `type-2-diabetes.md`: `stops: []` → `stops: [stop-iron-supplementation-type-2-diabetes]`; `validated_interventions: []` → `validated_interventions: [zinc-supplementation, mediterranean-diet]`
+- `depression.md`: `stops: []` → `stops: [stop-iron-supplementation-depression]` (confirmed); `validated_interventions` already set
+- `cardiovascular-disease.md`: `stops: []` → `stops: [stop-iron-supplementation-cardiovascular-disease]`; `validated_interventions: []` → `validated_interventions: [mediterranean-diet, fmt-intervention]`
+- `parkinsons-disease.md`: `validated_interventions: []` → `validated_interventions: [fmt-intervention]`
+
+### Index Updated (2026-04-14)
+- STOPs: 14 → 19
+
+### Final Counts After This Session
+- STOPs: 19 (up from 14)
+- Structural issues resolved: backslash wikilinks, 2 broken STOP references, 7 missing seo_target fields
+- Signatures with empty stops: 2 remaining (alzheimers — no STOP file gap, parkinsons — file exists)
+
+## [2026-04-14] maintenance | Automated Gaps Audit + Structural Fixes
+
+**Status:** COMPLETE (automated run)
+
+**Analysis page created:** `wiki/analyses/gaps-and-improvements-2026-04-14.md`
+
+### Structural Fixes Applied
+
+**4 Orphaned STOP pages wired to their signatures:**
+- `alzheimers-disease.md`: `stops: []` → `stops: [stop-iron-supplementation-alzheimers]`
+- `autism-spectrum-disorder-microbiome-signature.md`: `stops: []` → `stops: [stop-iron-supplementation-asd]`; `validated_interventions: []` → `validated_interventions: [probiotics-asd-dysbiosis]`
+- `colorectal-cancer.md`: `stops: []` → `stops: [stop-iron-supplementation-colorectal-cancer]`; `validated_interventions: []` → `validated_interventions: [mediterranean-diet]`
+- `hashimotos-thyroiditis.md`: fixed STOP name mismatch — `stop-excess-iodine-supplementation-hashimotos` → `stop-iodine-supplementation-hashimotos`
+
+**Depression signature missing fields added:**
+- Added `validated_interventions: [zinc-supplementation, mediterranean-diet, vitamin-d-supplementation, fmt-intervention]`
+- Added `stops: []`
+
+**Index regenerated** (2026-04-13 → 2026-04-14):
+- Entities: 130 → 135 (added bacteroides-thetaiotaomicron, candida-auris, candida-tropicalis, aeromonas, celiac-disease)
+- Concepts: 88 → 90 (added ahr, amyloid-beta)
+- STOPs: 11 → 14 (added stop-iron-supplementation-alzheimers, stop-iron-supplementation-colorectal-cancer, stop-iodine-supplementation-hashimotos)
+- Analyses: 10 → 11 (added gaps-and-improvements-2026-04-14)
+- Fungi count corrected: 4 → 7 (candida-auris, candida-tropicalis, saccharomyces added)
+- Diseases count corrected: 28 → 29 (celiac-disease added)
+- Concepts section header and Microbes section position corrected
+
+### Key Gaps Identified (not yet actioned — require human session)
+1. Backslash wikilinks still broken in `dietary-metal-microbiome-interactions.md` (flagged 3rd time)
+2. Pancreatic cancer has broken STOP reference: `stop-diagnostic-overclaiming-discovery-phase` (file doesn't exist)
+3. 7 fungi/archaea entity pages missing `seo_target` and `wikipedia_differentiation`
+4. 7 signatures with empty `validated_interventions:` despite intervention pages referencing them
+5. 5 STOPs to build: obesity, Parkinson's, T2D, depression, CVD — all follow iron STOP template
+6. 10 missing signature pages (postpartum-depression, RA, schizophrenia, UC, CKD, T1D, GERD, ovarian, hypertension, IBS)
+7. New condition libraries identified: Long COVID (122 papers), Female Infertility (109), Cerebral Palsy (79), NEC (76), Erectile Dysfunction (73), PMDD (70), Fibromyalgia (58)
+8. 260 unorganized PDFs in `raw/` root — Alzheimer's (14 papers) and RA (6 papers) groups ready to ingest
+9. All 90 concept pages and all 1,515 source pages still missing v2 fields (evidence_level, seo_target, karen_brain_primitives)
+
 ## [2026-04-13] v2 migration | STOP pages (Priority 4 completion)
 Upgraded all STOP pages to v2: added cureva_status, karen_brain_primitives, evidence_level, last_substantive_update.
 
@@ -91,19 +178,19 @@ Upgraded frontmatter to v2 schema: alzheimers-disease, autism-spectrum-disorder-
 
 **Intervention pages created**:
 1. `wiki/interventions/ketogenic-diet-ms.md` — Dietary dysbiosis reversal (promise status)
-   - Landmark Swidsinski et al. 2017 quantitative FISH study showing bacterial recovery at 6 months
-   - Biphasic microbiota response with SCFA producer restoration
+ - Landmark Swidsinski et al. 2017 quantitative FISH study showing bacterial recovery at 6 months
+ - Biphasic microbiota response with SCFA producer restoration
 2. `wiki/interventions/b-cell-depletion-therapy-ms.md` — Pharmaceutical dysbiosis reversal (validated status)
-   - FDA-approved DMT (ocrelizumab) with documented dysbiosis reversal via Firmicutes recovery
-   - Demonstrates dysbiosis is therapeutically reversible and driven by inflammatory immune environment
+ - FDA-approved DMT (ocrelizumab) with documented dysbiosis reversal via Firmicutes recovery
+ - Demonstrates dysbiosis is therapeutically reversible and driven by inflammatory immune environment
 
 **STOP pages created**:
 1. `wiki/stops/stop-iron-supplementation-ms.md` — Functional anemia vs. deficiency
-   - Low serum iron = hepcidin-mediated host defense against pathogenic siderophore producers
-   - Iron supplementation feeds Fusobacterium and Akkermansia; worsens neuroinflammation
+ - Low serum iron = hepcidin-mediated host defense against pathogenic siderophore producers
+ - Iron supplementation feeds Fusobacterium and Akkermansia; worsens neuroinflammation
 2. `wiki/stops/stop-scfa-replacement-without-dysbiosis-restoration-ms.md` — Metabolite vs. ecological engineering
-   - SCFA supplementation is metabolic band-aid without dysbiosis reversal
-   - Clostridia restoration required for durable benefit; dysbiosis reversal superior to exogenous SCFA
+ - SCFA supplementation is metabolic band-aid without dysbiosis reversal
+ - Clostridia restoration required for durable benefit; dysbiosis reversal superior to exogenous SCFA
 
 **Index updated**: Total pages now 5 signatures, 5 interventions, 7 STOPs (was 4 signatures, 3 interventions, 5 STOPs)
 
@@ -115,7 +202,7 @@ Initialized wiki structure: `raw/`, `wiki/`, CLAUDE.md schema, index, and log. R
 
 Source: `raw/nihms-2102970.pdf`
 Created: `wiki/sources/liu-2025-cardiometabolic-nickel.md`
-Updated/created entities: nickel, 
+Updated/created entities: nickel
 Updated/created concepts: oxidative-stress, metabolic-syndrome
 Key takeaway: Nickel-CVD/MetS association exists in epidemiological data but is inconclusive at low doses. Eight NHANES studies on the same database reach contradictory conclusions.
 
@@ -364,7 +451,6 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - Interventions: 3 → consider expanding with ASD probiotic intervention page
 - STOPs: 5 → consider Iron supplementation for ASD dysbiosis as potential STOP
 
-
 ## 2026-04-09 | ASD Disease Signature Construction
 
 **Task**: Create comprehensive five-layer disease signature page for Autism Spectrum Disorder (ASD), integrating all 10 ingested papers and metallomic framework.
@@ -463,7 +549,6 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 3. Update wiki/index.md with signature page link
 4. Flag for Karen's Brain framework integration meeting
 
-
 ## 2026-04-09 | Intervention and STOP Page Development
 
 **Task**: Create intervention pages and STOP pages implementing Karen's Brain metallomic framework for ASD dysbiosis management.
@@ -477,10 +562,10 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - **Triangle Validation**: Condition [[ASD]], with I→f (Intervention→Feature), I→D (Intervention→Disease), f→D (Feature→Disease) all mapped
 - **Efficacy Summary**: 66% improvement in behavioral and GI symptoms (Lewandowska 2022); effective strains: Lactobacillus, Bifidobacterium, Streptococcus (2-3 strain formulations superior to single strain)
 - **Mechanisms Mapped**: SCFA restoration (butyrate → epigenetic regulation, barrier tightness), immune tolerance (Treg expansion via IL-10/TGF-β-producing bacteria), tryptophan metabolite restoration (indole → AhR signaling), biofilm disruption, estrogen-dysbiosis loop interruption
-- **Metallomic Enhancement**: 
-  - **Iron dependency** — Faecalibacterium butyrate synthase requires iron-dependent pyruvate dehydrogenase. Probiotic responders should have serum iron status compatible with metabolite production (moderate ferritin, not elevated hepcidin). Non-responders may have persistent iron sequestration preventing SCFA production.
-  - **Zinc dependency** — Bifidobacterium/Lactobacillus GABA production requires zinc-dependent glutamate decarboxylase. If serum zinc is dysregulated (redistributed via IL-6), probiotic GABA production is impaired.
-  - **Testable Predictions**: (1) Responders have normal metal status; non-responders have dysregulated metals, (2) Combined probiotic + metal normalization should exceed probiotics alone, (3) Iron-efficient strains (Faecalibacterium-like) should outperform iron-dependent strains in dysbiotic environment.
+
+ - **Iron dependency** — Faecalibacterium butyrate synthase requires iron-dependent pyruvate dehydrogenase. Probiotic responders should have serum iron status compatible with metabolite production (moderate ferritin, not elevated hepcidin). Non-responders may have persistent iron sequestration preventing SCFA production.
+ - **Zinc dependency** — Bifidobacterium/Lactobacillus GABA production requires zinc-dependent glutamate decarboxylase. If serum zinc is dysregulated (redistributed via IL-6), probiotic GABA production is impaired.
+ - **Testable Predictions**: (1) Responders have normal metal status; non-responders have dysregulated metals, (2) Combined probiotic + metal normalization should exceed probiotics alone, (3) Iron-efficient strains (Faecalibacterium-like) should outperform iron-dependent strains in dysbiotic environment.
 - **Efficacy Data**: RCT (Hrnciarova 2021, n=20 ASD vs. 12 controls) showed microbiota normalization and symptom improvement; systematic review (Lewandowska 2022, 44 studies) showed 66% positive outcome.
 - **Caveats**: Small sample sizes, heterogeneous strain selection, short follow-up, no metal profiling in extant studies, no mechanistic confirmation of metabolite production in ASD.
 - **Recommendations**: Patient selection (confirmed dysbiosis, measurable symptoms), baseline metal assessment (iron, ferritin, hepcidin, serum zinc), mixed 2-3 strain formulation, 8-12 week duration minimum, combination approach with dietary support and metal normalization.
@@ -488,18 +573,18 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 **Iron Supplementation STOP Page**:
 
 - **Conventional Rationale**: ASD patients present with low serum iron or ferritin; standard anemia workup suggests iron deficiency; iron supplementation is reflexively recommended.
-- **Why Counterproductive**: 
-  - **Nutritional immunity misinterpretation** — In ASD dysbiosis, iron dysregulation is NOT deficiency but deliberate host defense (hepcidin-driven iron sequestration to suppress dysbiotic pathogens). Iron supplementation directly feeds siderophore-dependent pathogens (E. coli, Pseudomonas).
-  - **Mechanism of harm** — Dysbiotic pathogen expansion → LPS escalation → hepcidin elevation escalation → vicious cycle; dysbiotic iron-pirating pathogens eliminate iron-efficient beneficial bacteria (Faecalibacterium); ROS amplification via Fenton chemistry.
-  - **Clinical scenario**: 5-year-old with ASD, constipation, low serum iron given ferrous sulfate; constipation and behavioral symptoms worsen, E. coli expansion on microbiota testing. Diagnosis: dysbiotic iron dysregulation misinterpreted as deficiency.
-  
-- **Alternative Approach**:
-  1. Measure hepcidin (elevated = nutritional immunity, not deficiency)
-  2. Use lactoferrin instead (sequesters iron from pathogens; supports Treg; reduces LPS translocation)
-  3. Dietary iron restriction (starves siderophore-dependent pathogens; selects for iron-efficient beneficial bacteria)
-  4. Dysbiosis reversal interventions (probiotics, prebiotics, dietary modification, biofilm disruption)
-  5. Reassess iron status only after dysbiosis resolution
-  
+
+ - **Nutritional immunity misinterpretation** — In ASD dysbiosis, iron dysregulation is NOT deficiency but deliberate host defense (hepcidin-driven iron sequestration to suppress dysbiotic pathogens). Iron supplementation directly feeds siderophore-dependent pathogens (E. coli, Pseudomonas).
+ - **Mechanism of harm** — Dysbiotic pathogen expansion → LPS escalation → hepcidin elevation escalation → vicious cycle; dysbiotic iron-pirating pathogens eliminate iron-efficient beneficial bacteria (Faecalibacterium); ROS amplification via Fenton chemistry.
+ - **Clinical scenario**: 5-year-old with ASD, constipation, low serum iron given ferrous sulfate; constipation and behavioral symptoms worsen, E. coli expansion on microbiota testing. Diagnosis: dysbiotic iron dysregulation misinterpreted as deficiency.
+ 
+
+ 1. Measure hepcidin (elevated = nutritional immunity, not deficiency)
+ 2. Use lactoferrin instead (sequesters iron from pathogens; supports Treg; reduces LPS translocation)
+ 3. Dietary iron restriction (starves siderophore-dependent pathogens; selects for iron-efficient beneficial bacteria)
+ 4. Dysbiosis reversal interventions (probiotics, prebiotics, dietary modification, biofilm disruption)
+ 5. Reassess iron status only after dysbiosis resolution
+ 
 - **Theoretical Foundation**: Karen's Brain **Primitive 2: Nutritional Immunity as Interpretive Constraint**. Host is deliberately withholding metals to starve pathogens. Iron supplementation undermines this defense.
 
 **Status for Cureva Pipeline**: Probiotic intervention page status = "promising"; STOP page status = "validated". Both ready for practitioner distribution.
@@ -558,7 +643,6 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - Bridge between clinical observation (66% probiotic efficacy) and mechanistic explanation (metal-dependent metabolite production)
 - Research agenda for Karen's Brain framework validation in ASD cohorts
 
-
 ## 2026-04-11 — Integrity Fixes + Metallomic Diet Pages
 
 ### Wikilink Fixes
@@ -616,7 +700,6 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - Analyses: 5 (up from 2)
 - Platform-tagged: 976 files
 
-
 ## 2026-04-12 — Automated Lint Run
 
 **Scope:** Full health check of 1,684 files (1,426 sources + 258 content pages)
@@ -637,7 +720,6 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 
 **Report saved:** `wiki/analyses/lint-report-2026-04-12.md`
 
-
 ## 2026-04-12 — Automated Gaps & Improvement Scan
 
 **Scope:** Automated scheduled audit of content gaps and strategic improvements beyond the structural lint report
@@ -654,7 +736,6 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - Iron supplementation STOP pages missing for Parkinson's and Depression despite clear hepcidin/siderophore pattern
 
 **Report saved:** `wiki/analyses/gaps-and-improvements-2026-04-12.md`
-
 
 ## 2026-04-13 — Automated Lint Run
 
@@ -684,3 +765,126 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 - 🟢 SNAS: no entity page
 
 **Report saved:** `wiki/analyses/lint-report-2026-04-13.md`
+
+## 2026-04-14 — Automated Health Check
+
+**Scope:** Full health check of 1,788 files (1,515 sources + 273 content pages)
+
+**Progress confirmed since April 13:**
+- ✅ Backslash-broken wikilinks in `dietary-metal-microbiome-interactions.md` — resolved
+- ✅ All metal entity pages now have `subtype:` field
+- ✅ Entity stubs created (candida-auris, candida-tropicalis, aeromonas, others)
+- ✅ All 14 STOP pages have complete v2 frontmatter
+- ✅ All 15 signature pages have full confidence blocks and associated_conditions with overlap scores
+- ✅ stop-iron-supplementation-asd added
+
+**New Issues Flagged:**
+- 🔴 All 1,515 source pages still missing v2 fields (evidence_level, karen_brain_primitives, key_findings, metals_discussed) — Priority 5 migration not yet started
+- 🔴 `[[akkermansia-mucinicola]]` misspelling still in parkinsons-disease.md (should be akkermansia-muciniphila)
+- 🔴 Index stale: entities=130 (actual 135), concepts=88 (actual 90), STOPs=11 (actual 14)
+- 🔴 54 source pages with problematic DOIs (28 empty, 24 "various", 2 "N/A")
+- 🟡 7 entity pages (all fungi/archaea) missing seo_target, wikipedia_differentiation, last_substantive_update
+- 🟡 6 intervention pages missing karen_brain_primitives and last_substantive_update
+- 🟡 7 signatures with no linked interventions; 8 with no linked STOPs
+- 🟡 depression.md missing validated_interventions and stops frontmatter fields entirely
+- 🟡 All 29 disease entities missing signature_page frontmatter field
+- 🟡 All 90 concept pages missing karen_brain_primitives, seo_target, last_substantive_update
+- 🟡 118/135 entity pages missing source_count field
+- 🟢 14 disease entities lack companion signature pages (T1D/CKD/Postpartum most urgent by source count)
+- 🟢 Several signature-linked interventions have no intervention page (hbot, lactoferrin-supplementation, berberine-methimazole, faecalibacterium-restoration)
+- 🟢 lachnospira.md near-orphan (1 inbound link)
+
+**Report saved:** `wiki/analyses/health-check-2026-04-14.md`
+
+## 2026-04-14 — Automated Lint Run
+
+**Scope:** Full health check of 1,773 files (1,515 sources + 258 content pages)
+
+**Progress confirmed since April 13:**
+- ✅ Backslash-broken wikilinks in `dietary-metal-microbiome-interactions.md` — resolved
+- ✅ All 17 metal/metalloid entity pages now have correct `subtype:` field
+- ✅ All 13 intervention pages now have `cureva_status:` field
+- ✅ 4 missing entity stubs created: bacteroides-thetaiotaomicron, aeromonas, candida-auris, candida-tropicalis
+- ✅ `ahr` and `amyloid-beta` concept pages created (still missing from index)
+
+**Issues Identified:**
+- 🔴 606 unique broken wikilink targets in signature pages (first full quantification; entities for cytokines, phyla, metabolites, and intervention stubs missing)
+- 🔴 Index stale: 5 entities, 2 concepts, 3 STOPs not listed; subtypes undercounted (Fungi: 4→6, Microbes: 80→82, Diseases: 28→29)
+- 🔴 36 duplicate DOI pairs (~72 source files) — cleanup still unexecuted since April 12
+- 🟡 `[[akkermansia-mucinicola]]` misspelling in parkinsons-disease.md — 3rd lint cycle unresolved
+- 🟡 Iron STOP pages for Parkinson's and Depression — still missing after 3 lint cycles
+- 🟡 6 intervention pages missing `karen_brain_primitives` + `I_to_f_sources`: selenium, probiotics-general, zinc-supplementation, mediterranean-diet, vitamin-d, probiotics-asd-dysbiosis
+- 🟡 7 fungal/archaea entity pages missing `seo_target` + `wikipedia_differentiation`
+- 🟡 14 disease entities still lack companion signature pages (ulcerative-colitis is highest priority)
+- 🟠 0 of 1,515 source pages have v2 schema fields (evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings)
+- 🟠 0 of 90 concept pages have v2 fields (karen_brain_primitives, seo_target, last_substantive_update)
+- 🟠 14 unverified "landmark" usages in entity/signature pages; none have been evaluated against §2d criteria
+- 🟢 28 source pages with `doi: ""` (theses/posters/conferences) — should be `doi: "N/A"` for clarity
+- 🟢 Missing pages: snas (concept/entity), cerebral-palsy (entity), bile-acids stub
+
+**Report saved:** `wiki/analyses/lint-report-2026-04-14.md`
+
+## 2026-04-14 — Quick-Fix Session (Post-Lint)
+
+**Fixes applied based on lint-report-2026-04-14.md:**
+
+- ✅ Fixed `[[akkermansia-mucinicola]]` → `[[akkermansia-muciniphila]]` in `parkinsons-disease.md` (2 occurrences — taxon list and virulence enzyme table) — 3rd lint cycle resolution
+- ✅ Created `stop-iron-supplementation-parkinsons.md` — Hepcidin-mediated functional anemia + ferroptosis amplification mechanism; Primitives 1, 2, 4, 8; evidence_level: expert-opinion
+- ✅ Created `stop-iron-supplementation-depression.md` — Functional anemia + IDO-mediated serotonin shunting mechanism; Primitives 1, 2, 4, 5; evidence_level: case-control
+- ✅ Updated `wiki/index.md`: STOPs count 14 → 16; Analyses count 11 → 12; added both new STOP pages to STOPs list; added lint-report-2026-04-14 to Analyses list
+- ✅ Updated `parkinsons-disease.md` signature frontmatter: `stops: [] → stops: [stop-iron-supplementation-parkinsons]`
+- ✅ Updated `depression.md` signature frontmatter: `stops: [] → stops: [stop-iron-supplementation-depression]`
+
+**Still open from lint:**
+- 🟡 36 duplicate DOI pairs (~72 source files) — requires manual review session
+- 🟡 606 broken wikilink targets in signature pages — requires stub creation session
+- 🟠 Source pages (1,515) and concept pages (90) still at 0% v2 schema migration
+
+---
+
+## 2026-04-14 — PPD Signature Build (Session Continuation)
+
+**Operation:** Build postpartum-depression disease signature from existing source library
+
+**Trigger:** Karen's direction: "I would like you to start PPD and then do Long COVID"
+
+**Source library:** 57 source pages already in `wiki/sources/` (pre-ingested from earlier sessions)
+
+**Key sources synthesized:**
+- 5 independent Mendelian randomization studies (Jin 2024, Cui 2024, Gao 2024, Li 2025, Zhang 2024): established causal taxa
+- Zhou 2020 (case-control, n=57): observational taxonomic signature
+- Hiremath 2021 + Aoki 2022: zinc depletion + clinical intervention evidence
+- Azami 2019 (meta-analysis): anemia-PPD association (RR=1.887)
+- Liu 2022 (meta-analysis): tryptophan depletion days 1-5 as PPD biomarker
+- Silva-Fernandes 2024 (systematic review): IL-6/CRP/TNF-α elevation confirmed
+- Tian 2021 + Zheng 2023: FMT/herbal medicine GABA/metabolomics mechanism
+- Etebary 2010 + Pourmirzaiee 2024: trace element context (Mg null, Zn strong)
+
+**Pages created:**
+- `wiki/signatures/postpartum-depression.md` — full 5-layer signature, all confidence levels, 6 associated conditions with overlap scores, 3 interventions, STOP cross-reference, 6 open questions, 6 primitives mapped
+
+**Index updated:** Disease Signatures 15→16; postpartum-depression added to Disease Signatures list
+
+**Key findings:**
+- Zinc depletion is the primary metallomic driver (confirmed by case-control + RCT evidence)
+- Bifidobacterium depletion is the strongest causal taxonomic finding (Bonferroni-corrected across 5 MR studies)
+- Alphaproteobacteria enrichment is the most consistent causal risk taxon (4+ MR studies)
+- IDO-kynurenine pathway is the central neurochemical mechanism (tryptophan → kynurenine, not serotonin)
+- Intergenerational transmission pathway: maternal PPD dysbiosis → infant gut colonization → ASD risk
+- STOP: iron supplementation without distinguishing functional from true deficiency applies (see stop-iron-supplementation-depression)
+
+**Associated conditions wired:** depression (0.88), ASD (0.61), PCOS (0.55), endometriosis (0.51), obesity (0.48), Hashimoto's (0.41)
+
+**Open major gaps:**
+- No hepcidin measurement data in PPD population
+- No mycobiome sequencing data in PPD
+- Optimal zinc timing (prenatal vs. peripartum vs. postpartum) not established
+- EDC-dysbiosis interaction in PPD not characterized
+
+## [2026-04-14] v2 migration | Source pages evidence_level (Priority 5a)
+Batch-inferred evidence_level for 169 source pages (w-z prefix files) using keyword classification via manual Read+Edit.
+Total files with evidence_level: 202 of 1,548 (33 pre-existing + 169 added this session).
+Classification script prepared at /tmp/classify_evidence.py for remaining ~1,346 files — requires bash script execution permission to complete batch.
+Categories used: systematic-review-meta-analysis, randomized-controlled-trial, mendelian-randomization, prospective-cohort, retrospective-cohort, case-control, cross-sectional, animal-model, in-vitro, computational-prediction, expert-opinion (default: cross-sectional).
+
+**Next:** Long COVID signature build

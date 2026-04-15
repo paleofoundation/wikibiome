@@ -38,7 +38,7 @@ Found in legumes, grains, leafy greens, fortified foods, and iron supplements. A
 Gut iron availability determines which microbes dominate the ecosystem [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]:
 
 **Iron-rich environment selects for:**
-- **[[escherichia-coli|E. coli]]** and [[enterobacteriaceae|Proteobacteria]] — express siderophores (enterobactin, aerobactin, yersiniabactin) for aggressive iron acquisition
+- **[[escherichia-coli|E. coli]]** and [[enterobacteriaceae|Enterobacteriaceae]] — express siderophores (enterobactin, aerobactin, yersiniabactin) for aggressive iron acquisition
 - **[[bacteroides-fragilis|Bacteroides fragilis]]** — iron piracy through heme-binding proteins
 - **[[salmonella-typhimurium|Salmonella]]** — siderophore-dependent virulence
 - **[[klebsiella-pneumoniae|Klebsiella]]** — siderophore production linked to pathogenic potential
@@ -69,7 +69,7 @@ The host counters with **lipocalin-2**, which specifically sequesters enterobact
 
 Different dietary patterns create distinct iron ecologies in the gut:
 
-**High red meat diet** — delivers heme iron efficiently to the host but also provides unabsorbed heme to the gut lumen. Heme catabolism by gut bacteria generates free iron and N-nitroso compounds. Associated with increased [[enterobacteriaceae|Proteobacteria]] and decreased [[faecalibacterium-prausnitzii|F. prausnitzii]].
+**High red meat diet** — delivers heme iron efficiently to the host but also provides unabsorbed heme to the gut lumen. Heme catabolism by gut bacteria generates free iron and N-nitroso compounds. Associated with increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[faecalibacterium-prausnitzii|F. prausnitzii]].
 
 **High-fiber plant-based diet** — delivers non-heme iron bound in phytate matrices that reduce bioavailability to both host and microbes. The fiber feeds butyrate producers ([[lachnospiraceae|Lachnospiraceae]], [[roseburia|Roseburia]]) that thrive in low-iron conditions. This dietary pattern tends to favor a more diverse, commensal-dominated gut ecology.
 
@@ -90,7 +90,7 @@ Certain probiotic species can modify gut iron ecology [[anchidin-norocel-2025-he
 
 - [[iron]] — the metal entity page
 - [[nutritional-immunity]] — host iron restriction as defense strategy
-- [[siderophores]] — microbial iron acquisition systems
+- — microbial iron acquisition systems
 - [[hepcidin]] — master iron regulator; elevated in disease states
 - [[lactoferrin]] — iron-chelating host defense protein
 - [[lipocalin-2]] — host counter-measure against bacterial siderophores

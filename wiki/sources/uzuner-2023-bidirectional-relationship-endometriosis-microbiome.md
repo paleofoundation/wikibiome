@@ -10,6 +10,9 @@ year: 2023
 tags: [endometriosis, microbiome, review, bidirectional-relationship, dysbiosis, estrobolome, bacterial-contamination-hypothesis, oxidative-stress, iron, probiotics, antibiotics, omega-3]
 doi: "10.3389/fendo.2023.1110824"
 platform: wikibiome
+karen_brain_primitives: [5, 7, 9]
+metals_discussed: ["iron"]
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -23,14 +26,14 @@ platform: wikibiome
 # Methods/Findings
 
 - **Study design**: Narrative review published in Frontiers in Endocrinology
-- **Key topics covered**:
-  - Pathogenesis of endometriosis (retrograde menstruation, immune dysfunction, [[oxidative-stress]])
-  - Immunopathology and NF-kB signaling
-  - Genetics and epigenetics (GWAS, DNA methylation)
-  - Microbiome of endometriosis across body sites (gut, reproductive tract, peritoneal)
-  - Estrobolome mechanism and Bacteroidetes/Firmicutes shifts
-  - [[Bacterial-contamination-hypothesis]] (LPS/TLR4 pathway)
-  - Evidence for therapeutic microbiome manipulation
+
+ - Pathogenesis of endometriosis (retrograde menstruation, immune dysfunction, [[oxidative-stress]])
+ - Immunopathology and NF-kB signaling
+ - Genetics and epigenetics (GWAS, DNA methylation)
+ - Microbiome of endometriosis across body sites (gut, reproductive tract, peritoneal)
+ - Estrobolome mechanism and Bacteroidetes/Firmicutes shifts
+ - [[Bacterial-contamination-hypothesis]] (LPS/TLR4 pathway)
+ - Evidence for therapeutic microbiome manipulation
 
 # Relevance to Wiki
 

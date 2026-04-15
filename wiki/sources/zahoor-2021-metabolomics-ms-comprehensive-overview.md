@@ -10,6 +10,7 @@ year: 2021
 doi: 10.1007/s00018-020-03733-2
 tags: [multiple-sclerosis, metabolomics, biomarkers, lipid-metabolism, tryptophan, kynurenine, amino-acids, oxidative-stress, energy-metabolism, CSF, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # An Emerging Potential of Metabolomics in Multiple Sclerosis: A Comprehensive Overview

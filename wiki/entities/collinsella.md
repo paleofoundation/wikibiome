@@ -59,7 +59,6 @@ A genus of Gram-positive, obligate anaerobic bacteria within the Actinobacteria 
 - **Hydrogen and CO2** -- gas production from carbohydrate fermentation.
 - **Lactate** -- minor fermentation product.
 
-
 ## Key Sources
 
 - [[luqman-2024-intestinal-microbiome-cvd-intervention]]

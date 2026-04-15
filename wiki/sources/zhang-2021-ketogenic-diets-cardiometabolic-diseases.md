@@ -9,6 +9,7 @@ journal: Frontiers in Endocrinology
 year: 2021
 tags: [cardiovascular-disease, ketogenic-diet, obesity, hypertension, heart-failure, diabetes, dyslipidemia, NAFLD, ketone-bodies, cardiac-function]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Zhang et al. 2021 -- Ketogenic Diets and Cardio-Metabolic Diseases

@@ -30,7 +30,7 @@ platform: wikibiome
 
 ## Connections
 
-- Demonstrates an unusual dermatological manifestation of [[systemic nickel allergy syndrome]] beyond typical eczema/urticaria
+- Demonstrates an unusual dermatological manifestation of beyond typical eczema/urticaria
 - Confirms dietary nickel as a trigger as established in [[kaaber-1978-low-nickel-diet-chronic-dermatitis]] and [[veien-1993-low-nickel-diet-trial]]
 - Oral challenge methodology consistent with [[antico-1999-chronic-dermatopathies-nickel]]
 - Illustrates the range of nickel-induced dermatopathies that may respond to [[low-nickel-diet]]

@@ -33,10 +33,10 @@ platform: wikibiome
 
 ## Connections
 
-- Provides Chinese market context for [[infant formula contamination]] globally
-- THQ/HI methodology comparable to [[Gonzalez-Suarez et al 2022]] and [[Ibrahim et al 2022]] risk frameworks
+- Provides Chinese market context for globally
+- THQ/HI methodology comparable to and risk frameworks
 - Cr data relevant to [[chromium]] toxicology considerations, particularly hexavalent vs trivalent forms
-- Absence of maximum limits for Cr and As in infant formula highlights [[regulatory gaps]] across jurisdictions
-- Complements [[Hopfner et al 2025]] German data and [[Meli et al 2024]] Italian data for cross-country comparison
-- EDI decreasing with age supports [[Pendergrass 2026]] argument about heightened vulnerability in youngest infants
+- Absence of maximum limits for Cr and As in infant formula highlights across jurisdictions
+- Complements German data and Italian data for cross-country comparison
+- EDI decreasing with age supports argument about heightened vulnerability in youngest infants
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility for formula-fed infants

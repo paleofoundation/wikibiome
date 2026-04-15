@@ -35,5 +35,5 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- metformin microbiome effects relevant to GDM-treated mothers
 - [[gut-microbiome]] -- reversible metformin-induced changes in healthy humans
-- [[metformin]] -- microbiome effects in non-diabetic context
+- -- microbiome effects in non-diabetic context
 - [[clostridium]] -- reduced by metformin treatment

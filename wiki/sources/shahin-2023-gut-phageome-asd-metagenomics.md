@@ -42,6 +42,6 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- gut phageome alterations as potential biomarkers
 - [[gut-microbiome]] -- phage-mediated modulation of bacterial communities
 - [[dysbiosis]] -- phageome-driven disruption of bacterial homeostasis
-- [[faecalibacterium]] -- prophages may reduce this beneficial bacterium in ASD
-- [[bacteroidetes]] -- phages targeting Bacteroidaceae enriched in ASD
-- [[gut-virome]] -- phageome as component of ASD gut ecosystem
+- -- prophages may reduce this beneficial bacterium in ASD
+- -- phages targeting Bacteroidaceae enriched in ASD
+- -- phageome as component of ASD gut ecosystem

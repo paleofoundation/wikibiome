@@ -25,13 +25,13 @@ platform: wikibiome
 - **Search**: PubMed, Embase, Cochrane Library, Web of Science, ClinicalTrials.gov (through December 2021)
 - **Included**: 13 articles (10 case-control, 1 cross-sectional, 2 cohort studies); 2,469 total participants (1,130 PCOS, 1,339 controls); published 2006-2021
 - **Quality**: Newcastle-Ottawa Scale; 9 of 13 studies rated high quality (score >= 6)
-- **Key results**:
-  - Unadjusted fiber intake: SMD = -0.32 (p < 0.001; I2 = 65.6%)
-  - Total energy intake: SMD = -0.17 (p = 0.208; not significant)
-  - Energy-adjusted fiber (2 studies): SMD = -2.11 (p = 0.122; high heterogeneity)
-  - No significant difference by BMI classification (overweight/obese or lean)
-  - Meta-regression: geographic region and dietary assessment method showed borderline significance of influence on heterogeneity
-  - No evidence of publication bias (Egger's p = 0.434, Begg's p = 0.784)
+
+ - Unadjusted fiber intake: SMD = -0.32 (p < 0.001; I2 = 65.6%)
+ - Total energy intake: SMD = -0.17 (p = 0.208; not significant)
+ - Energy-adjusted fiber (2 studies): SMD = -2.11 (p = 0.122; high heterogeneity)
+ - No significant difference by BMI classification (overweight/obese or lean)
+ - Meta-regression: geographic region and dietary assessment method showed borderline significance of influence on heterogeneity
+ - No evidence of publication bias (Egger's p = 0.434, Begg's p = 0.784)
 
 # Connections
 

@@ -34,8 +34,8 @@ platform: wikibiome
 
 ## Connections
 
-- [[Nickel in food]] -- extremely high nickel contamination in fruit juices (potentially from processing)
-- [[Food contamination]] -- systematic exceedance of WHO safety limits
-- [[Heavy metals in beverages]] -- canned/packed juices as underrecognized exposure source
+- -- extremely high nickel contamination in fruit juices (potentially from processing)
+- -- systematic exceedance of WHO safety limits
+- -- canned/packed juices as underrecognized exposure source
 - [[Dietary nickel exposure]] -- juice consumption as significant contributor to nickel intake
 - [[onyeneto-2015-trace-metals-fruit-juices-nigeria]] -- comparable Nigerian study (did not measure Ni)

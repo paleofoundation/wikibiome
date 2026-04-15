@@ -1,15 +1,27 @@
 ---
-
-title: "Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)"
+title: Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Karen Pendergrass]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Karen Pendergrass
 year: 2026
-journal: "Conference Presentation"
-tags: [endometriosis, nickel, microbiome, metallomics, conference]
+journal: Conference Presentation
+tags:
+  - endometriosis
+  - nickel
+  - microbiome
+  - metallomics
+  - conference
 doi: ""
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Founder's conference presentation integrating all 9 Karen's Brain primitives into a complete endometriosis disease signature: metallomic (Ni/Fe/Pb elevation, glutathione depletion), taxonomic (Ni-dependent pathogens), nutritional immunity (hepcidin/calprotectin elevation as host defense, not deficiency), and validated interventions (low-nickel diet, EcN 1917). WikiBiome depends on this evidence to demonstrate the full pipeline from signature to actionable interventions and to establish endometriosis as a proof-of-concept metal-dysregulated disease model."
 ---
 
 # Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)

@@ -38,9 +38,9 @@ Lachnospiraceae depletion recurs across an extraordinary range of diseases, maki
 - The family collectively produces butyrate, acetate, and propionate from dietary fiber fermentation.
 - Butyrate production via the butyryl-CoA:acetate CoA-transferase pathway is the dominant route.
 - Butyrate from Lachnospiraceae members acts as:
-  - The primary energy source for colonocytes (70% of energy).
-  - An HDAC inhibitor promoting Treg differentiation and anti-inflammatory cytokine production.
-  - A maintainer of epithelial hypoxia that preserves the anaerobic niche for beneficial obligate anaerobes.
+ - The primary energy source for colonocytes (70% of energy).
+ - An HDAC inhibitor promoting Treg differentiation and anti-inflammatory cytokine production.
+ - A maintainer of epithelial hypoxia that preserves the anaerobic niche for beneficial obligate anaerobes.
 - Loss of Lachnospiraceae SCFA output triggers a vicious cycle: reduced butyrate -> impaired barrier -> oxygen leak into lumen -> expansion of facultative anaerobic [[enterobacteriaceae]] -> further displacement of obligate anaerobes.
 
 ## Metal Sensitivity

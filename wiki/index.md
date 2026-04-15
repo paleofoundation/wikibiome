@@ -1,29 +1,29 @@
 ---
 title: WikiBiome Content Index
 type: index
-updated: 2026-04-13
+updated: 2026-04-14
 ---
 
 # WikiBiome / Cureva Knowledge Base Index
 
-**Last updated:** 2026-04-13
+**Last updated:** 2026-04-14
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
 | Sources | 1515 |
-| Entities | 130 |
+| Entities | 135 |
 | — Metals/Metalloids | 17 |
-| — Microbes | 80 |
-| — Fungi | 4 |
+| — Microbes | 81 |
+| — Fungi | 7 |
 | — Archaea | 1 |
-| — Diseases | 28 |
-| Concepts | 88 |
-| Disease Signatures | 15 |
+| — Diseases | 29 |
+| Concepts | 90 |
+| Disease Signatures | 16 |
 | Interventions | 13 |
-| STOPs | 11 |
-| Analyses | 10 |
+| STOPs | 19 |
+| Analyses | 12 |
 
 ## Reference Pages
 
@@ -52,7 +52,7 @@ updated: 2026-04-13
 - [[tin]]
 - [[zinc]]
 
-## Microbes (80)
+## Microbes (81)
 
 - [[acinetobacter]]
 - [[actinomyces]]
@@ -62,6 +62,7 @@ updated: 2026-04-13
 - [[alloprevotella]]
 - [[aspergillus]]
 - [[bacillus]]
+- [[bacteroides-thetaiotaomicron]]
 - [[bacteroides-fragilis]]
 - [[bacteroides-vulgatus]]
 - [[bifidobacterium]]
@@ -135,10 +136,13 @@ updated: 2026-04-13
 - [[veillonella]]
 - [[yersinia-pestis]]
 
-## Fungi (4)
+## Fungi (7)
 
 - [[candida-albicans]]
+- [[candida-auris]]
+- [[candida-tropicalis]]
 - [[debaryomyces]]
+- [[saccharomyces]]
 - [[saccharomyces-cerevisiae]]
 - [[torulaspora]]
 
@@ -146,7 +150,7 @@ updated: 2026-04-13
 
 - [[methanobrevibacter-smithii]]
 
-## Diseases (28)
+## Diseases (29)
 
 - [[alzheimers-disease]]
 - [[autism-spectrum-disorder]]
@@ -175,10 +179,13 @@ updated: 2026-04-13
 - [[schizophrenia]]
 - [[type-1-diabetes]]
 - [[type-2-diabetes]]
+- [[celiac-disease]]
 - [[ulcerative-colitis]]
 
-## Concepts (88)
+## Concepts (90)
 
+- [[ahr]]
+- [[amyloid-beta]]
 - [[DNA-damage]]
 - [[acidic-microenvironment]]
 - [[alpha-synuclein]]
@@ -283,6 +290,7 @@ updated: 2026-04-13
 - [[obesity]] — `cureva_status: partial`
 - [[pancreatic-cancer]] — `cureva_status: partial`
 - [[parkinsons-disease]] — `cureva_status: partial`
+- [[postpartum-depression]] — `cureva_status: complete`
 - [[pcos]] — `cureva_status: partial`
 - [[type-2-diabetes]] — `cureva_status: partial`
 
@@ -302,26 +310,36 @@ updated: 2026-04-13
 - [[vitamin-d-supplementation]] — `cureva_status: partial`
 - [[zinc-supplementation]] — `cureva_status: partial`
 
-## STOPs (11)
+## STOPs (19)
 
 - [[stop-broad-spectrum-antibiotics-crohns]]
+- [[stop-diagnostic-overclaiming-discovery-phase]]
 - [[stop-iodine-supplementation-graves]]
+- [[stop-iodine-supplementation-hashimotos]]
+- [[stop-iron-supplementation-alzheimers]]
 - [[stop-iron-supplementation-asd]]
+- [[stop-iron-supplementation-cardiovascular-disease]]
+- [[stop-iron-supplementation-colorectal-cancer]]
 - [[stop-iron-supplementation-crohns]]
+- [[stop-iron-supplementation-depression]]
 - [[stop-iron-supplementation-endometriosis]]
 - [[stop-iron-supplementation-graves]]
 - [[stop-iron-supplementation-ms]]
+- [[stop-iron-supplementation-obesity]]
+- [[stop-iron-supplementation-parkinsons]]
 - [[stop-iron-supplementation-pcos]]
+- [[stop-iron-supplementation-type-2-diabetes]]
 - [[stop-isolated-zinc-supplementation-pcos]]
 - [[stop-scfa-replacement-without-dysbiosis-restoration-ms]]
 - [[stop-zinc-supplementation-endometriosis]]
 
-## Analyses (10)
+## Analyses (11)
 
 - [[dietary-metal-exposure-by-life-stage]]
 - [[dietary-metal-paradoxes]]
 - [[gaps-and-improvements-2026-04-12]]
 - [[gaps-and-improvements-2026-04-13]]
+- [[gaps-and-improvements-2026-04-14]]
 - [[iron-supplementation-stops-across-conditions]]
 - [[lint-2026-04-13]]
 - [[lint-report-2026-04-12]]

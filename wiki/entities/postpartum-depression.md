@@ -6,16 +6,16 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - etebary-2010-ppd-serum-trace-elements
-  - aoki-2022-zinc-supplementation-ppd-anemia
-  - azami-2019-anemia-ppd-meta-analysis
-  - hiremath-2021-zinc-ppd-case-control
-  - rokoff-2023-metal-mixtures-maternal-depression
-  - tian-2020-iron-supplementation-ppd-protocol
-  - pourmirzaiee-2024-ppd-magnesium-infant-development
-  - jacobson-2022-environmental-chemicals-perinatal-psychopathology
-  - hu-2025-traffic-air-pollution-hdp-postpartum-depression
-  - ogundare-2024-metals-behavioral-depression-women
+ - etebary-2010-ppd-serum-trace-elements
+ - aoki-2022-zinc-supplementation-ppd-anemia
+ - azami-2019-anemia-ppd-meta-analysis
+ - hiremath-2021-zinc-ppd-case-control
+ - rokoff-2023-metal-mixtures-maternal-depression
+ - tian-2020-iron-supplementation-ppd-protocol
+ - pourmirzaiee-2024-ppd-magnesium-infant-development
+ - jacobson-2022-environmental-chemicals-perinatal-psychopathology
+ - hu-2025-traffic-air-pollution-hdp-postpartum-depression
+ - ogundare-2024-metals-behavioral-depression-women
 tags: [psychiatric, perinatal, zinc, iron, copper, magnesium, microbiome, developmental-vulnerability, trace-elements]
 platform: wikibiome
 last_substantive_update: 2026-04-13

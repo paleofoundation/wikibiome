@@ -26,4 +26,4 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- bibliometric landscape of inflammation research in ASD
 - [[neuroinflammation]] -- growing research focus in ASD
 - [[oxidative-stress]] -- major keyword theme in ASD inflammation research
-- [[cytokines]] -- emerging research area in ASD inflammation
+- -- emerging research area in ASD inflammation

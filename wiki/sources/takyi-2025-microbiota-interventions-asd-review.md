@@ -26,34 +26,34 @@ Review of clinical trials and mechanistic studies on microbiota-targeting interv
 
 **Intervention categories:**
 1. **Fecal Microbiota Transplant (FMT) / Microbiota Transplant Therapy (MTT)**
-   - Transfers donor microbiota to ASD recipient
-   - Engraftment of protective taxa
-   - Long-term improvements in GI and behavioral symptoms
-   - Success correlated with degree of dysbiosis correction
+ - Transfers donor microbiota to ASD recipient
+ - Engraftment of protective taxa
+ - Long-term improvements in GI and behavioral symptoms
+ - Success correlated with degree of dysbiosis correction
 
 2. **Probiotics**
-   - Specific strains (Lactobacillus, Bifidobacterium) show benefit
-   - Variable efficacy (strain-dependent)
-   - Modest effect sizes compared to FMT
+ - Specific strains (Lactobacillus, Bifidobacterium) show benefit
+ - Variable efficacy (strain-dependent)
+ - Modest effect sizes compared to FMT
 
 3. **Prebiotics**
-   - Fiber substrates for protective taxa
-   - Enhanced SCFA production
-   - Improved barrier function
+ - Fiber substrates for protective taxa
+ - Enhanced SCFA production
+ - Improved barrier function
 
 4. **Synbiotics**
-   - Combination probiotic + prebiotic
-   - Potential synergistic effects
+ - Combination probiotic + prebiotic
+ - Potential synergistic effects
 
 5. **Antibiotics / Antifungals**
-   - Can suppress overgrown pathogenic taxa
-   - Success dependent on target identification
-   - Risk of further dysbiosis if non-targeted
+ - Can suppress overgrown pathogenic taxa
+ - Success dependent on target identification
+ - Risk of further dysbiosis if non-targeted
 
 6. **Diet**
-   - Low-FODMAP, elimination diets may reduce dysbiotic gas production
-   - High-fiber supports protective taxa
-   - Personalized dietary interventions show promise
+ - Low-FODMAP, elimination diets may reduce dysbiotic gas production
+ - High-fiber supports protective taxa
+ - Personalized dietary interventions show promise
 
 **Outcome metrics:**
 - GI symptom resolution

@@ -28,10 +28,10 @@ platform: wikibiome
 - **European population**: GWAS from ~24,000 individuals (8 AAs) and ~7,800 (12 AAs); outcomes from UK Biobank, CARDIoGRAMplusC4D, MEGASTROKE
 - **East Asian population**: GWAS from ~7,800 (19 AAs) and ~1,680 (1 AA)
 - **Methods**: Inverse variance weighting with multiplicative random effects (IVW-MRE) as primary analysis; sensitivity via weighted median, weighted mode, and MR Egger regression
-- **Key findings**:
-  - 5 relationships with strong evidence in European population; 5 in East Asian population
-  - Glycine and serine showed cardioprotective effects attributed to anti-inflammatory and antioxidant properties
-  - BCAAs may induce proinflammatory and oxidative status in circulating blood cells and endothelial cells
+
+ - 5 relationships with strong evidence in European population; 5 in East Asian population
+ - Glycine and serine showed cardioprotective effects attributed to anti-inflammatory and antioxidant properties
+ - BCAAs may induce proinflammatory and oxidative status in circulating blood cells and endothelial cells
 
 ## Source Pages
 
@@ -39,6 +39,6 @@ pp. 1-8
 
 ## Connections
 
-- Links to [[amino acid metabolism]] and [[inflammation]] in cardiovascular pathophysiology
-- Relevant to [[metabolomics]]-based CVD risk assessment
+- Links to and [[inflammation]] in cardiovascular pathophysiology
+- Relevant to -based CVD risk assessment
 - Connects to [[gut microbiome]] metabolism of dietary amino acids

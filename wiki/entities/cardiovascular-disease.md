@@ -6,20 +6,20 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - lim-2023-plasma-metallomics-ami
-  - jie-2017-gut-microbiome-acvd
-  - fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum
-  - tonelli-2023-oral-microbiome-cvd-pathophysiology
-  - wang-2022-gut-microbiota-health-cvd-review
-  - chambers-2018-scfa-metabolic-cardiovascular-health
-  - lu-2022-scfas-cardiovascular-metabolic-disease
-  - paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd
-  - almeida-2023-gut-microbiota-cardiovascular-axis
-  - qiu-2023-gut-mycobiome-hypertension-ckd
-  - zou-2022-mycobiome-dysbiosis-hypertension-light-chains
-  - wei-2025-gut-mycobiome-cardiometabolic-disease
-  - liu-2025-cardiometabolic-nickel
-  - rasin-2025-cadmium-exposure-health-review
+ - lim-2023-plasma-metallomics-ami
+ - jie-2017-gut-microbiome-acvd
+ - fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum
+ - tonelli-2023-oral-microbiome-cvd-pathophysiology
+ - wang-2022-gut-microbiota-health-cvd-review
+ - chambers-2018-scfa-metabolic-cardiovascular-health
+ - lu-2022-scfas-cardiovascular-metabolic-disease
+ - paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd
+ - almeida-2023-gut-microbiota-cardiovascular-axis
+ - qiu-2023-gut-mycobiome-hypertension-ckd
+ - zou-2022-mycobiome-dysbiosis-hypertension-light-chains
+ - wei-2025-gut-mycobiome-cardiometabolic-disease
+ - liu-2025-cardiometabolic-nickel
+ - rasin-2025-cadmium-exposure-health-review
 tags: [cardiovascular-disease, CVD, TMAO, copper, selenium, lead, cadmium, nickel, Cu-Se-ratio, SCFAs, bile-acids, microbiome, mycobiome, oral-microbiome, atherosclerosis, hypertension, heart-failure, dysbiosis, tryptophan, indoxyl-sulfate, metabolomics]
 platform: wikibiome
 last_substantive_update: 2026-04-13

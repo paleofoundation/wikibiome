@@ -25,10 +25,10 @@ platform: wikibiome
 
 - **Type**: Comprehensive review (11 pages)
 - **Scope**: Broad survey of environmental factors including neurotoxins, vaccines, gender bias, genetic-environmental interactions, glyphosate, and maternal antibodies
-- **Heavy metal/neurotoxin coverage**:
-  - Arsenic, manganese, organophosphate insecticides, DDT, ethyl alcohol listed as established neurotoxins
-  - Mercury: Methylmercury exposure from seafood/environment linked to neurodevelopmental harm; thimerosal removed from vaccines, no evidence linking vaccines to ASD
-  - Aluminum: Used as vaccine adjuvant; concerns raised but evidence for ASD link remains speculative
+
+ - Arsenic, manganese, organophosphate insecticides, DDT, ethyl alcohol listed as established neurotoxins
+ - Mercury: Methylmercury exposure from seafood/environment linked to neurodevelopmental harm; thimerosal removed from vaccines, no evidence linking vaccines to ASD
+ - Aluminum: Used as vaccine adjuvant; concerns raised but evidence for ASD link remains speculative
 - **Fragrances and cosmetics**: Popular fragrances contain average of 14 secret chemicals; many with potential endocrine-disrupting properties
 - **Glyphosate**: Correlation between glyphosate use on crops and autism prevalence noted (ecological data only); proposed mechanism via disruption of serotonin pathway and gut microbiota
 - **Maternal antibodies**: 10% of pregnant women can recognize certain antigens in developing fetal brain cells; anti-brain antibodies may explain a subset of ASD cases

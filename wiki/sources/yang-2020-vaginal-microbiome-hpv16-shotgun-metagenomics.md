@@ -9,6 +9,7 @@ year: 2020
 doi: "10.3389/fcimb.2020.00286"
 tags: [ovarian-cancer, HPV16, vaginal-microbiome, shotgun-metagenomics, Gardnerella, Prevotella, Lactobacillus, cervical-cancer, dysbiosis]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Vaginal Microbiome Alterations in HPV16 Infection

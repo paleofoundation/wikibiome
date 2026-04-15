@@ -31,4 +31,4 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- maternal diabetes and oxidative stress in neonatal period
 - [[oxidative-stress]] -- elevated markers in diabetic pregnancies
-- [[gestational-diabetes]] -- oxidative stress as mechanism linking GDM to offspring outcomes
+- -- oxidative stress as mechanism linking GDM to offspring outcomes

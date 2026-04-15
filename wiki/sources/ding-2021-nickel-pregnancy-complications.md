@@ -1,15 +1,34 @@
 ---
-
-title: "Pregnancy complications effect on the nickel content in maternal blood, placenta blood and umbilical cord blood during pregnancy"
+title: Pregnancy complications effect on the nickel content in maternal blood, placenta blood and umbilical cord blood during pregnancy
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Ding R, Ruan Y, He X, Li J, Zhang Y]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Ding R
+  - Ruan Y
+  - He X
+  - Li J
+  - Zhang Y
 journal: World J Clin Cases
 year: 2021
-tags: [nickel, pregnancy, placental-barrier, GDM, HDCP, cord-blood, ICP-MS, reproductive-toxicity]
-doi: "10.12998/wjcc.v9.i28.8340"
+tags:
+  - nickel
+  - pregnancy
+  - placental-barrier
+  - GDM
+  - HDCP
+  - cord-blood
+  - ICP-MS
+  - reproductive-toxicity
+doi: 10.12998/wjcc.v9.i28.8340
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Quantifies how pregnancy complications directly weaken placental barrier function and increase fetal nickel exposure, establishing that barrier integrity—not maternal exposure alone—determines fetal metal burden. WikiBiome depends on this evidence to explain how dysbiotic states and systemic inflammation impair multiple mucosal barriers simultaneously, enabling toxic metal accumulation in vulnerable developmental windows and informing cross-condition patterns in reproductive disorders."
 ---
 
 # Pregnancy Complications Effect on the Nickel Content in Maternal Blood, Placenta Blood and Umbilical Cord Blood

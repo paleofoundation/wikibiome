@@ -57,7 +57,6 @@ This suggests that **nutritional status** (folate, methionine, B12) may signific
 | Mechanism | Enzyme inhibition (2OG/Fe(II) dioxygenases) | SAM depletion | Not well defined |
 | Gene silencing | p16, FHIT, others | Various | Various |
 
-
 ## Key Sources
 
 - [[salnikov-2008-metal-carcinogenesis]]

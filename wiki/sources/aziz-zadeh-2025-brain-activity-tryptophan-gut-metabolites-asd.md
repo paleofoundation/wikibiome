@@ -46,8 +46,8 @@ Cross-sectional study combining **fecal metabolomics, task-based fMRI, and behav
 ## Mediation Analysis
 
 - **Mid-insula activity during disgust processing** mediated the relationship between:
-  - **Indolelactate** and ASD severity (ADOS RRB score): indirect effect Std. beta = 0.341, SE = 0.227, 95% CI [0.016, 0.967]
-  - **Indolelactate** and ADOS total score: indirect effect Std. beta = 0.440, SE = 0.585, 95% CI [0.011, 2.26]
+ - **Indolelactate** and ASD severity (ADOS RRB score): indirect effect Std. beta = 0.341, SE = 0.227, 95% CI [0.016, 0.967]
+ - **Indolelactate** and ADOS total score: indirect effect Std. beta = 0.440, SE = 0.585, 95% CI [0.011, 2.26]
 
 ## Brain-Behavioral Correlations in ASD
 

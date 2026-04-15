@@ -41,7 +41,7 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- probiotic RCT protocol for GI and behavioral symptoms
 - [[probiotics]] -- Vivomixx mixture in ASD children
-- [[gastrointestinal-symptoms]] -- GI-based stratification of ASD patients
+- -- GI-based stratification of ASD patients
 - [[gut-brain-axis]] -- probiotic modulation of brain function via gut
-- [[environmental-exposures]] -- phthalate assessment in ASD
+- -- phthalate assessment in ASD
 - [[biomarkers]] -- plasmatic, urinary, and fecal markers evaluated

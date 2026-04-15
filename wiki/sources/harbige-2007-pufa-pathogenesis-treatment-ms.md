@@ -32,8 +32,8 @@ platform: wikibiome
 
 ## Connections
 
-- Provides mechanistic basis for [[fatty-acids]] therapeutic approaches complementing the SCFA-focused findings in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]
+- Provides mechanistic basis for therapeutic approaches complementing the SCFA-focused findings in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]
 - The TGF-beta/cytokine connection links PUFA metabolism to immune regulation pathways also modulated by [[probiotics]] in [[tamtaji-2017-probiotic-gene-expression-ms]]
-- The n-6 fatty acid metabolic disturbance connects to the broader metabolic profiling in MS, relevant to [[metabolomics]] approaches
+- The n-6 fatty acid metabolic disturbance connects to the broader metabolic profiling in MS, relevant to approaches
 - Historical Swank diet evidence (low saturated fat) discussed in context of [[katzsand-2018-diet-ms-mechanistic-review]]
-- GLA/linoleic acid EAE protection through TGF-beta induction parallels the Treg-promoting mechanisms of [[dietary-fiber]] and [[short-chain-fatty-acids]]
+- GLA/linoleic acid EAE protection through TGF-beta induction parallels the Treg-promoting mechanisms of and [[short-chain-fatty-acids]]

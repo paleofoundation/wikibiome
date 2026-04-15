@@ -1,14 +1,36 @@
 ---
-
-title: "Effect of Heavy Metals on Gut Barrier Integrity and Gut Microbiota"
+title: Effect of Heavy Metals on Gut Barrier Integrity and Gut Microbiota
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Sweta Ghosh, Syam P. Nukavarpu, Venkatakrishna Rao Jala]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Sweta Ghosh
+  - Syam P. Nukavarpu
+  - Venkatakrishna Rao Jala
 journal: Metal ions in Life Sciences (Accepted Manuscript)
 year: 2023
-tags: [heavy-metals, gut-barrier, tight-junctions, gut-microbiota, arsenic, lead, mercury, cadmium, chromium, intestinal-permeability, IBD, probiotics, review]
+tags:
+  - heavy-metals
+  - gut-barrier
+  - tight-junctions
+  - gut-microbiota
+  - arsenic
+  - lead
+  - mercury
+  - cadmium
+  - chromium
+  - intestinal-permeability
+  - IBD
+  - probiotics
+  - review
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Comprehensively maps metal-specific mechanisms of tight junction disruption (arsenic: paracellular transport; lead: claudin/occludin loss; mercury: permeability increase; cadmium: E-cadherin downregulation) and identifies metal-susceptible vs. metal-resistant microbiota species. WikiBiome depends on this evidence to explain barrier collapse as the critical intermediate step connecting metal burden to systemic dysbiosis—showing how microbial metabolites and probiotic species can counteract metal-induced permeability."
 ---
 
 # Key Claims

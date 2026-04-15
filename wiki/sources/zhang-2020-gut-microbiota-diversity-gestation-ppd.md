@@ -11,6 +11,7 @@ tags: [postpartum-depression, gut-microbiota, third-trimester, pregnancy, divers
 library_category: microbiome-signature
 platform: cureva
 condition: "postpartum depression"
+evidence_level: cross-sectional
 ---
 
 # Key Claims

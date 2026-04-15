@@ -32,6 +32,6 @@ platform: wikibiome
 ## Connections
 
 - The Nrf2 pathway connects dietary polyphenols to [[oxidative-stress]] reduction in MS, complementing the SCFA-focused mechanisms in [[hoffman-2023-dietary-strategies-eae-ms]]
-- [[Resveratrol]] and [[curcumin]] as Nrf2 activators connect to [[dietary-polyphenols]] and the urolithin-producing [[Gordonibacter-urolithinfaciens]] enriched in non-active MS cases ([[thirion-2023-gut-microbiota-ms-disease-activity]])
+- and as Nrf2 activators connect to and the urolithin-producing [[Gordonibacter-urolithinfaciens]] enriched in non-active MS cases ([[thirion-2023-gut-microbiota-ms-disease-activity]])
 - The epigenetic dimension (HDAC inhibition, DNA methylation) links to [[short-chain-fatty-acids]] as HDAC inhibitors discussed in [[katzsand-2018-diet-ms-mechanistic-review]]
 - KD-Nrf2 activation complements the ketogenic diet effects reviewed in [[atabilen-2022-dietary-interventions-ms-systematic-review]]

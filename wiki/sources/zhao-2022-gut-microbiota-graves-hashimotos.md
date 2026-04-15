@@ -10,6 +10,7 @@ year: 2022
 doi: "10.33073/pjm-2022-016"
 tags: [hashimotos-thyroiditis, thyroid, Graves-disease, gut-microbiota, 16S-rRNA, dysbiosis, KEGG, ABC-transporter, Proteobacteria, Actinobacteria, Bacillaceae, Erysipelotrichaceae, Coriobacteriaceae, Blautia, Dorea, Prevotella, autoimmune, keto-diet]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis

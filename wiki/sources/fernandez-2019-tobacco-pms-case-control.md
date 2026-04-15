@@ -28,9 +28,9 @@ platform: wikibiome
 - **Exposure assessment**: WHO tobacco questionnaire; smoking status (never/current/ex-smoker), pack-years, cigarettes/day, time since quitting
 - **Statistical analysis**: Unconditional logistic regression adjusted for age, previous pregnancies, menarche age, BMI, and educational level; cubic spline regression for exposure-effect curves
 - **Response rate**: 80% for both cases and controls
-- **Key dose-response findings**:
-  - PMS: <3 pack-years OR = 1.79 (1.04-3.08); 3-8 pack-years OR = 2.34 (1.33-4.13)
-  - PMDD: <3 pack-years OR = 3.06 (1.27-7.35); 3-8 pack-years OR = 3.56 (1.55-8.17)
+
+ - PMS: <3 pack-years OR = 1.79 (1.04-3.08); 3-8 pack-years OR = 2.34 (1.33-4.13)
+ - PMDD: <3 pack-years OR = 3.06 (1.27-7.35); 3-8 pack-years OR = 3.56 (1.55-8.17)
 - **Cubic spline**: Shows peak OR around 5-8 pack-years with imprecise estimates at higher consumptions due to small sample sizes
 - **Mechanism**: Tobacco inhibits MAO (enzyme degrading serotonin); upon quitting, MAO rebound may increase serotonin degradation, explaining worsening PMS with abstinence
 - **Limitations**: Case-control design subject to recall bias; small number of ex-smokers; highly educated population may limit generalizability

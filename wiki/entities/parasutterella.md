@@ -67,7 +67,7 @@ pathogenic_potential: commensal
 - [[cardiovascular-disease]] -- MR-identified protective factor against CAD
 - [[endometriosis]] -- enriched in endometriosis mouse models
 - [[inflammatory-bowel-disease]] -- altered in IBD as a Proteobacteria member
-- [[bile-acids]] -- involved in bile acid transformation pathways
+- -- involved in bile acid transformation pathways
 - [[dysbiosis]] -- responsive to dietary interventions and probiotic supplementation
-- [[tryptophan]] -- emerging role in tryptophan metabolism and immune modulation
-- [[cholesterol]] -- MR-linked to ApoB and LDL-C levels
+- -- emerging role in tryptophan metabolism and immune modulation
+- -- MR-linked to ApoB and LDL-C levels

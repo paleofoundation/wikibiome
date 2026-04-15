@@ -40,9 +40,9 @@ The human estrogen recirculation system:
 
 - *E. lenta* is a **prolific beta-glucuronidase producer** and a core estrobolome member alongside [[bacteroides-fragilis]], [[clostridium]], and other anaerobes.
 - Higher *E. lenta* abundance correlates with:
-  - **Elevated urinary estrogen metabolites** (indicating increased reabsorption and systemic circulation).
-  - **Higher serum estradiol** in women, even when controlling for ovarian production.
-  - **Enrichment in estrogen-dependent diseases**: endometriosis, PCOS, breast cancer.
+ - **Elevated urinary estrogen metabolites** (indicating increased reabsorption and systemic circulation).
+ - **Higher serum estradiol** in women, even when controlling for ovarian production.
+ - **Enrichment in estrogen-dependent diseases**: endometriosis, PCOS, breast cancer.
 
 ### Iron and Molybdenum for Beta-Glucuronidase
 
@@ -66,8 +66,8 @@ Endometriosis is characterized by:
 ### Estrogen Feedback on Dysbiosis
 
 - **Elevated systemic estrogen** (driven by *E. lenta*-mediated estrogen reabsorption) perpetuates dysbiosis:
-  - Estrogen is bacteriostatic to many commensals ([[faecalibacterium-prausnitzii]], [[bifidobacterium]]).
-  - Estrogen favors estrobolome members like *E. lenta*.
+ - Estrogen is bacteriostatic to many commensals ([[faecalibacterium-prausnitzii]], [[bifidobacterium]]).
+ - Estrogen favors estrobolome members like *E. lenta*.
 - This creates a **vicious cycle**: *E. lenta* enrichment → increased estrogen reabsorption → higher systemic estrogen → further suppression of non-estrobolome commensals → *E. lenta* dominance solidifies.
 
 ### Dysbiosis and Intestinal Permeability in Endometriosis
@@ -95,9 +95,9 @@ Endometriosis is characterized by:
 ### Iron Acquisition
 
 - *E. lenta* possesses iron uptake systems and requires iron for:
-  - Beta-glucuronidase and other redox enzymes.
-  - Cytochrome c oxidases for anaerobic respiration.
-  - Ribonucleotide reductase for nucleotide synthesis.
+ - Beta-glucuronidase and other redox enzymes.
+ - Cytochrome c oxidases for anaerobic respiration.
+ - Ribonucleotide reductase for nucleotide synthesis.
 - In endometriosis, where hemoglobin from bleeding ectopic lesions provides abundant iron/heme, *E. lenta* proliferates.
 
 ### Iron as a Selective Pressure
@@ -149,11 +149,11 @@ Endometriosis is characterized by:
 - [[iron]] -- iron-dependent for beta-glucuronidase and core metabolism; elevated iron in endometriosis selects for *E. lenta*
 - [[molybdenum]] -- cofactor for redox enzymes and beta-glucuronidase regulation; elevated in endometriosis
 - [[endometriosis]] -- enriched in endo microbiome; beta-glucuronidase drives estrogen recirculation and lesion inflammation
-- [[estrogen]] -- *E. lenta* beta-glucuronidase extends estrogen half-life; elevated estrogen selectively favors *E. lenta* over competitors
+- -- *E. lenta* beta-glucuronidase extends estrogen half-life; elevated estrogen selectively favors *E. lenta* over competitors
 - [[estrobolome]] -- core estrobolome member alongside [[bacteroides-fragilis]] and [[clostridium]]
 - [[beta-glucuronidase]] -- key virulence enzyme; iron and molybdenum cofactors modulate activity
 - [[enterohepatic-circulation]] -- *E. lenta* extends estrogen recirculation via deconjugation
 - [[dysbiosis]] -- enriched in endometriosis; depletes commensal barrier-protective taxa
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *E. lenta* enrichment; loss of butyrate-mediated tight junction support
-- [[cardiac-glycoside-metabolism]] -- *E. lenta* inactivates digoxin; clinical pharmacokinetic implications
-- [[nutritional-immunity|barrier-function]] -- dysbiosis with *E. lenta* enrichment compromises tight junctions via loss of SCFA
+- -- *E. lenta* inactivates digoxin; clinical pharmacokinetic implications
+- [[nutritional-immunity|nutritional immunity]] -- dysbiosis with *E. lenta* enrichment compromises tight junctions via loss of SCFA

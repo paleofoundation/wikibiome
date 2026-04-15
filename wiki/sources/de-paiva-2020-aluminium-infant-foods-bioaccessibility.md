@@ -33,9 +33,9 @@ platform: wikibiome
 ## Connections
 
 - Directly complements [[de Paiva et al 2020 cereals]] from same research group on cereal-based baby foods
-- Bioaccessibility data critical context for [[aluminum toxicology]] -- total content alone is insufficient for risk assessment
-- Soy-based formula Al contamination connects to [[Redgrove et al 2019]] prescription formula findings
-- Supports [[Ibrahim et al 2022]] Lebanon study showing HQ >1 for Al in some infant food products
-- Relevant to [[Pendergrass 2026]] discussion of how processing and concentration affect metal bioavailability
-- The finding that composition affects bioaccessibility connects to broader [[food matrix effects]] on metal absorption
+- Bioaccessibility data critical context for -- total content alone is insufficient for risk assessment
+- Soy-based formula Al contamination connects to prescription formula findings
+- Supports Lebanon study showing HQ >1 for Al in some infant food products
+- Relevant to discussion of how processing and concentration affect metal bioavailability
+- The finding that composition affects bioaccessibility connects to broader on metal absorption
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility for infants consuming soy-based formulas

@@ -10,6 +10,9 @@ year: 2026
 tags: [multiple-sclerosis, fecal-metabolomics, UHPLC-Q-TOF-MS, amino-acids, fatty-acids, nicotinamide, mTOR, metabolic-pathways, biomarkers, Chinese-cohort]
 doi: "10.1038/s41598-026-42501-3"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Research on Metabolic Characteristics of Multiple Sclerosis
@@ -38,7 +41,7 @@ platform: wikibiome
 
 - [[multiple-sclerosis]] -- fecal metabolomics revealing amino acid and fatty acid dysregulation in Chinese MS cohort
 - [[short-chain-fatty-acids]] -- propionic acid and isobutyric acid depleted in MS feces
-- [[metabolomics]] -- untargeted approach identifies novel metabolite signatures
-- [[nicotinamide]] -- nicotinate/nicotinamide pathway disruption in MS
-- [[mTOR-pathway]] -- signaling dysregulation implicated in MS immune cell metabolism
+- -- untargeted approach identifies novel metabolite signatures
+- -- nicotinate/nicotinamide pathway disruption in MS
+- -- signaling dysregulation implicated in MS immune cell metabolism
 - [[biomarkers]] -- fecal metabolites as non-invasive biomarker candidates for MS

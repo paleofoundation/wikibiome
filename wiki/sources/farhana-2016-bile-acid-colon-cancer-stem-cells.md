@@ -25,14 +25,14 @@ platform: wikibiome
 
 - **Type**: In vitro experimental study (HCoEpiC normal human colonic epithelial cells)
 - **Methods**: Flow cytometry for CD44+/CD166+ CSC sorting; qPCR for gene expression; TCF/LEF luciferase assay; colonosphere formation assays; siRNA knockdown of M3R
-- **Key findings**:
-  - DCA/LCA treatment (100 uM, 72h): CD44 mRNA increased ~5-fold, CD166 ~4-fold, ALDHA1 ~10-fold
-  - CD44+CD166+ population: increased from 0.53% (control) to 22.4% (DCA) and 77.5% (LCA) after 12 days
-  - Pluripotency genes KLF4, Nanog, OCT4, SOX2 all significantly upregulated
-  - EMT markers (N-Cadherin, Slug, Twist, Vimentin, Zeb1, Zeb2) all significantly upregulated
-  - M3R expression induced 8-12 fold by DCA or LCA
-  - si-M3R knockdown reduced ALDHA1, c-Myc, CD166 expression and suppressed TCF/LEF activity by ~45%
-  - ABCB1 and ABCG2 drug transporter expression increased 1.5-2 fold (drug resistance)
+
+ - DCA/LCA treatment (100 uM, 72h): CD44 mRNA increased ~5-fold, CD166 ~4-fold, ALDHA1 ~10-fold
+ - CD44+CD166+ population: increased from 0.53% (control) to 22.4% (DCA) and 77.5% (LCA) after 12 days
+ - Pluripotency genes KLF4, Nanog, OCT4, SOX2 all significantly upregulated
+ - EMT markers (N-Cadherin, Slug, Twist, Vimentin, Zeb1, Zeb2) all significantly upregulated
+ - M3R expression induced 8-12 fold by DCA or LCA
+ - si-M3R knockdown reduced ALDHA1, c-Myc, CD166 expression and suppressed TCF/LEF activity by ~45%
+ - ABCB1 and ABCG2 drug transporter expression increased 1.5-2 fold (drug resistance)
 
 ## Connections
 

@@ -42,6 +42,6 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- nutrition and microbiome in neurodevelopmental disorders
 - [[gut-microbiome]] -- dietary shaping of microbial communities in early life
 - [[gut-brain-axis]] -- nutritional modulation of brain development
-- [[maternal-factors]] -- prenatal nutrition and offspring neurodevelopment
+- -- prenatal nutrition and offspring neurodevelopment
 - [[blood-brain-barrier]] -- integrity modulated by nutrition and microbiome
-- [[neurodevelopment]] -- critical periods for dietary influence
+- -- critical periods for dietary influence

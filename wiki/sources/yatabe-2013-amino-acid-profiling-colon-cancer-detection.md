@@ -9,6 +9,7 @@ journal: Diagnostic Pathology
 year: 2013
 tags: [colon-cancer, amino-acids, biomarkers, AminoIndex, early-detection, screening, colorectal-cancer, metabolomics]
 platform: wikibiome
+evidence_level: case-report
 ---
 
 # Key Claims

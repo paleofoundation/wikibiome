@@ -36,4 +36,4 @@ platform: wikibiome
 - The propionic acid clinical data strongly supports the SCFA therapeutic approach outlined in [[yu-2022-fatty-acids-metabokines-ms]] and the dietary fiber rationale from [[hoffman-2023-dietary-strategies-eae-ms]]
 - HP2/zonulin gut barrier mechanism connects to elevated LPS/I-FABP findings in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]
 - The ENS/vagus nerve/HPA axis components expand the [[gut-brain-axis]] beyond microbiome composition to neuroendocrine signaling
-- Antibiotic timing paradox (beneficial pre-EAE, harmful during) is critical for [[microbiome-modulating-drugs]] research design
+- Antibiotic timing paradox (beneficial pre-EAE, harmful during) is critical for research design

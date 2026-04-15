@@ -26,18 +26,18 @@ platform: wikibiome
 - **Participants**: 4,315 American women aged 20-54 (331 with endometriosis, 3,984 without)
 - **Dietary assessment**: 24-hour dietary recall at Mobile Examination Center
 - **Statistical approach**: Multivariable logistic regression with 3 models adjusting for age, race/ethnicity, education, smoking, dietary supplements, physical activity, marital status, family income, and BMI
-- **Key results**:
-  - Univariate: Zinc OR 1.03 (1.01-1.05), p=0.008
-  - Model 3 (fully adjusted): OR for 8-14 mg/day = 1.19 (0.92-1.54, p=0.189); OR for >14 mg/day = 1.60 (1.12-2.27, p=0.009)
-  - Trend test significant (p=0.008)
+
+ - Univariate: Zinc OR 1.03 (1.01-1.05), p=0.008
+ - Model 3 (fully adjusted): OR for 8-14 mg/day = 1.19 (0.92-1.54, p=0.189); OR for >14 mg/day = 1.60 (1.12-2.27, p=0.009)
+ - Trend test significant (p=0.008)
 - **Sensitivity analysis**: Excluding extreme energy intake (n=4,237), results remained robust: OR 1.22 (8-14 mg/day) and 1.61 (>14 mg/day)
 - **Subgroup analyses**: No significant interactions by age, race, BMI, marital status, family income, smoking, education, or dietary supplement use
-- **Mechanistic hypotheses**:
-  - Zinc is a cofactor for MMPs (MMP-2, MMP-9), which facilitate tissue invasion in endometriosis
-  - Zinc is essential for superoxide dismutase (SOD), thymidine kinase, reverse transcriptase, and DNA/RNA polymerase
-  - Excess zinc may promote MMP activity, facilitating endometriotic invasion and progression
-  - Zinc influences T lymphocytes and immune regulation; even minor serum fluctuations affect T cell levels
-  - The kisspeptin system, regulated by zinc, has links to endometriosis and polycystic ovary syndrome
+
+ - Zinc is a cofactor for MMPs (MMP-2, MMP-9), which facilitate tissue invasion in endometriosis
+ - Zinc is essential for superoxide dismutase (SOD), thymidine kinase, reverse transcriptase, and DNA/RNA polymerase
+ - Excess zinc may promote MMP activity, facilitating endometriotic invasion and progression
+ - Zinc influences T lymphocytes and immune regulation; even minor serum fluctuations affect T cell levels
+ - The kisspeptin system, regulated by zinc, has links to endometriosis and polycystic ovary syndrome
 - **Contradictory prior findings**: Some studies found lower zinc levels in endometriosis patients (serum, follicular fluid), while this study found higher dietary intake associated with disease
 - **Limitations**: Cross-sectional design, self-reported dietary recall, cannot establish causation, US-only population
 

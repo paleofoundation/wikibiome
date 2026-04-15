@@ -24,12 +24,12 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Comprehensive narrative review
-- **Key pathways**:
-  - Arginine -> NO via eNOS pathway; insufficient NO leads to endothelial dysfunction, activating NF-kappaB, increasing ICAM-1 and VCAM-1
-  - Glutamate dysregulation causes mitochondrial dysfunction, oxidative stress, and TCA cycle disruption in cardiac myocytes
-  - BCAAs can activate IKK, leading to phosphorylation and degradation of IkappaB, promoting transcription of inflammatory cytokines
-  - Tryptophan -> kynurenine pathway and indole derivatives modulate inflammation; indoxyl sulfate promotes vascular calcification
-  - 3-mercaptopyruvate sulfurtransferase (3-MST) from cysteine-derived metabolites has a regulatory role in cardiovascular system
+
+ - Arginine -> NO via eNOS pathway; insufficient NO leads to endothelial dysfunction, activating NF-kappaB, increasing ICAM-1 and VCAM-1
+ - Glutamate dysregulation causes mitochondrial dysfunction, oxidative stress, and TCA cycle disruption in cardiac myocytes
+ - BCAAs can activate IKK, leading to phosphorylation and degradation of IkappaB, promoting transcription of inflammatory cytokines
+ - Tryptophan -> kynurenine pathway and indole derivatives modulate inflammation; indoxyl sulfate promotes vascular calcification
+ - 3-mercaptopyruvate sulfurtransferase (3-MST) from cysteine-derived metabolites has a regulatory role in cardiovascular system
 - **Clinical markers**: High-sensitivity CRP, IL-6, interferon-gamma, MCP-1 are closely linked to CHD pathogenesis and progression
 - **Therapeutic implications**: L-arginine supplementation shows cardioprotective effects; compound-N6 (novel NO donor) holds promise; colchicine is beneficial but triclosan and triclocalban have adverse impacts
 
@@ -40,5 +40,5 @@ pp. 1-8
 ## Connections
 
 - Links to [[gut microbiome]]-derived [[tmao]] and CHD risk
-- Relevant to [[metabolomics]] approaches for CHD diagnosis
-- Connects to [[immune response]] and [[macrophage polarization]] in [[atherosclerosis]]
+- Relevant to approaches for CHD diagnosis
+- Connects to and in [[atherosclerosis]]

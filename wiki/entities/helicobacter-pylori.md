@@ -28,17 +28,17 @@ A gastric pathogen that is arguably the **most nickel-dependent human pathogen k
 - Up to **10% of total proteome**.
 - Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
 - **Roles beyond acid neutralization** [[maier-2019-nickel-microbial-pathogenesis]]:
-  - Required for persistence even at neutral gastric pH.
-  - Promotes angiogenesis.
-  - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).
-  - Binds Class II MHC on gastric epithelial cells → induces apoptosis.
-  - Disrupts epithelial tight junctions (via ammonia production → myosin activation).
-  - Activates blood platelets (lipoxygenase-mediated pathway).
-  - Alters mucin gene expression.
-- **Dual enzymatic/non-enzymatic function**: 
-  - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).
-  - Apo-urease (Ni-free): retains only oxidant-quenching activity.
-  - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role.
+ - Required for persistence even at neutral gastric pH.
+ - Promotes angiogenesis.
+ - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).
+ - Binds Class II MHC on gastric epithelial cells → induces apoptosis.
+ - Disrupts epithelial tight junctions (via ammonia production → myosin activation).
+ - Activates blood platelets (lipoxygenase-mediated pathway).
+ - Alters mucin gene expression.
+
+ - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).
+ - Apo-urease (Ni-free): retains only oxidant-quenching activity.
+ - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role.
 
 ### [NiFe] Hydrogenase
 - Single H₂-uptake type (*hydABCDE* operon).

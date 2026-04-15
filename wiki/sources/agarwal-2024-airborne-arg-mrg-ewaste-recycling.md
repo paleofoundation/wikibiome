@@ -1,17 +1,45 @@
 ---
-
-title: "Airborne antibiotic and metal resistance genes - A neglected potential risk at e-waste recycling facilities"
+title: Airborne antibiotic and metal resistance genes - A neglected potential risk at e-waste recycling facilities
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Agarwal V, Meier B, Schreiner C, Figi R, Tao Y, Wang J]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Agarwal V
+  - Meier B
+  - Schreiner C
+  - Figi R
+  - Tao Y
+  - Wang J
 journal: Science of the Total Environment
 year: 2024
 volume: 920
 pages: "170991"
-doi: "10.1016/j.scitotenv.2024.170991"
-tags: [antimicrobial-resistance, metal-resistance-genes, antibiotic-resistance-genes, e-waste, co-selection, mobile-genetic-elements, intI1, endotoxins, mercury, copper, lead, zinc, cadmium, cobalt, heavy-metals, airborne-pollution]
+doi: 10.1016/j.scitotenv.2024.170991
+tags:
+  - antimicrobial-resistance
+  - metal-resistance-genes
+  - antibiotic-resistance-genes
+  - e-waste
+  - co-selection
+  - mobile-genetic-elements
+  - intI1
+  - endotoxins
+  - mercury
+  - copper
+  - lead
+  - zinc
+  - cadmium
+  - cobalt
+  - heavy-metals
+  - airborne-pollution
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 3
+  - 4
+  - 5
+why_keystone: "Demonstrates metal-driven co-selection of antibiotic resistance genes and metal resistance genes in occupational settings, establishing that metal burden acts as a selective pressure that enriches pathogens with parallel antimicrobial and metal defense strategies. WikiBiome depends on this evidence to explain why metal-exposed environments (endometriosis lesions, dysbiotic GI tracts with metallomics signatures) select for multidrug-resistant organisms—reframing resistance evolution as an ecological consequence of metal abundance rather than antibiotic exposure alone."
 ---
 
 # Key Claims
@@ -28,13 +56,13 @@ platform: wikibiome
 - **Sample types**: Air samples collected on quartz filters (0.3 um pore size), soil and river samples; April to October 2021
 - **Detection targets**: 17 ARGs (including *blaTEM*, *sul2*, *tetW*, *vanA*, *qnrS*, *floR*, *mphA*), 5 MRGs (*pbrT*, *copA*, *czcA*, *merA*, *nccA*), and 2 MGEs (*intI1*, *TnpA/IS26*) by qPCR
 - **Heavy metal analysis**: ICP-MS and ICP-OES for Cd, Cu, Pb, Co, Zn concentrations; measured using microbial absorbance reader
-- **Key quantitative findings**:
-  - Heavy metal concentrations at all facilities exceeded ambient air levels by 2-5x (measured at up to 0.67 ug/m3 compared to EU monitoring of 0.3-0.47 ug/m3)
-  - Battery recycling facility had exceptionally high [[cobalt]] and [[lead]] concentrations; some metals exceeded WHO/Cal-OSHA permissible exposure limits
-  - [[Endotoxin]] concentrations at two facilities (e-waste recycling, car demolishing) exceeded 50 EU/m3, significantly higher than at the other two
-  - *blaTEM* was the most predominant ARG in all air samples; *pbrT* and *nccA* were the most prevalent MRGs
-  - ARG abundance in river samples were higher than in soil near the e-waste collection site and car demolishing site
-  - Absolute abundance of 16S gene ranged from 10^7 copies/m3 in air to 10^10 copies/g in soil
+
+ - Heavy metal concentrations at all facilities exceeded ambient air levels by 2-5x (measured at up to 0.67 ug/m3 compared to EU monitoring of 0.3-0.47 ug/m3)
+ - Battery recycling facility had exceptionally high [[cobalt]] and [[lead]] concentrations; some metals exceeded WHO/Cal-OSHA permissible exposure limits
+ - [[Endotoxin]] concentrations at two facilities (e-waste recycling, car demolishing) exceeded 50 EU/m3, significantly higher than at the other two
+ - *blaTEM* was the most predominant ARG in all air samples; *pbrT* and *nccA* were the most prevalent MRGs
+ - ARG abundance in river samples were higher than in soil near the e-waste collection site and car demolishing site
+ - Absolute abundance of 16S gene ranged from 10^7 copies/m3 in air to 10^10 copies/g in soil
 - **Bacterial community**: Actinobacteriota and Proteobacteria dominated air and soil at phylum level; 80-90% of bacterial composition in soil was consistent across all facilities
 - **Correlation network analysis**: Strong positive correlation cluster between *intI1*, heavy metals (Hg, Co, Pb, Cu, Cd), and multiple ARGs/MRGs in air samples; Firmicutes showed positive correlation with several ARGs including *merA* and *sul2*
 - **RDA analysis**: Battery recycling facility clustered separately from other three facilities, with metal concentrations as the primary environmental factor explaining variation (RDA1 = 40.4% in air)

@@ -25,18 +25,18 @@ platform: wikibiome
 - **Protocol**: 3-month low-Ni diet (<50 ug Ni/kg food); 22 patients also received targeted probiotics based on dysbiosis type; urinary indican and skatole measured pre- and post-treatment
 - **Dysbiosis classification**: Fermentative (n=33, 64.71%), putrefactive (n=2, 3.92%), mixed (n=16, 31.37%); based on urinary indican (fermentative marker) and skatole (putrefactive marker)
 - **Probiotic formulations**: Lactobacilli-containing for fermentative dysbiosis; Bifidobacteria-containing for putrefactive; broad-spectrum multi-strain for mixed dysbiosis
-- **Results**:
-  - Skatole significantly decreased in mixed dysbiosis group (p<0.001)
-  - Indican significantly decreased in fermentative (p<0.001) and mixed (p=0.001) groups
-  - Ni-OST (oral stimulation test) increased from median 1.8 to 4.0 mg (p=0.002), indicating reduced Ni sensitivity
-  - Diet + probiotics: 72.73% reached eubiosis vs 41.38% with diet alone (p=0.026)
-  - Overweight/obese males with mixed dysbiosis (grade II-III) were noted, consistent with the [[nickel-obesity]] hypothesis
+
+ - Skatole significantly decreased in mixed dysbiosis group (p<0.001)
+ - Indican significantly decreased in fermentative (p<0.001) and mixed (p=0.001) groups
+ - Ni-OST (oral stimulation test) increased from median 1.8 to 4.0 mg (p=0.002), indicating reduced Ni sensitivity
+ - Diet + probiotics: 72.73% reached eubiosis vs 41.38% with diet alone (p=0.026)
+ - Overweight/obese males with mixed dysbiosis (grade II-III) were noted, consistent with the [[nickel-obesity]] hypothesis
 - **Limitations**: Observational design; small sample; urinary markers are indirect measures; benefits not sustained long-term
 
 ## Connections
 
 - Confirms and extends the low-Ni diet benefits shown in [[braga-2013-snas-nosologic-framework]]
-- Gut microbiome disruption connects to [[nickel and microbiome]] interactions
+- Gut microbiome disruption connects to interactions
 - Obesity observations relate to [[lusi-2015-nickel-allergy-overweight]]
 - SNAS diagnostic criteria follow those established in [[di-gioacchino-2018-snas-chapter]]
 - Probiotic approach extends beyond the dietary strategies in [[mislankar-2013-low-nickel-diet-scoring]]

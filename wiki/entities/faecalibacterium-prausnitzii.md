@@ -25,10 +25,10 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 ## Butyrate Production and Barrier Protection
 
 - Produces **butyrate** as its primary fermentation end-product. Butyrate is the preferred energy source for colonocytes and the most potent SCFA for:
-  - Strengthening tight junction protein expression (ZO-1, occludin, claudin-1).
-  - Suppressing NF-kB-mediated [[inflammation]] via HDAC inhibition and GPR109A signaling.
-  - Promoting regulatory T cell (Treg) differentiation -- critical for immune tolerance.
-  - Maintaining epithelial oxygen consumption, preserving the anaerobic luminal environment that favors beneficial obligate anaerobes over facultative pathobionts.
+ - Strengthening tight junction protein expression (ZO-1, occludin, claudin-1).
+ - Suppressing NF-kB-mediated [[inflammation]] via HDAC inhibition and GPR109A signaling.
+ - Promoting regulatory T cell (Treg) differentiation -- critical for immune tolerance.
+ - Maintaining epithelial oxygen consumption, preserving the anaerobic luminal environment that favors beneficial obligate anaerobes over facultative pathobionts.
 - Butyrate production depends on iron-sulfur cluster enzymes in the butyrate synthesis pathway, connecting this commensal's function indirectly to [[iron]] availability.
 
 ## Protection Against Metal Toxicity
@@ -64,7 +64,6 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 ## The Metal-Dysbiosis-Disease Cycle
 
 *F. prausnitzii* sits at the center of a recurring pattern across this wiki's disease pages: environmental metal exposure (As, Cd, Pb, Ni) depletes *F. prausnitzii* and other SCFA producers, reducing butyrate, compromising barrier integrity, increasing systemic metal absorption, and driving the chronic inflammation that underlies diverse diseases. Restoring *F. prausnitzii* through probiotic supplementation or dietary intervention is a logical intervention point in this cycle.
-
 
 ## Key Sources
 

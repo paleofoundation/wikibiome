@@ -59,7 +59,6 @@ The genus illustrates why species-level resolution matters in microbiome researc
 - *A. indistinctus* -- positively correlated with pro-inflammatory immune infiltrates in CRC
 - This species-level divergence explains apparently contradictory genus-level findings across disease contexts.
 
-
 ## Key Sources
 
 - [[vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer]]
@@ -70,7 +69,7 @@ The genus illustrates why species-level resolution matters in microbiome researc
 - [[graves-disease]] -- depleted alongside other Bacteroidetes commensals
 - [[parabacteroides]] -- co-depleted in autoimmune disease; shared bile acid metabolic niche
 - [[bacteroides-fragilis]] -- co-depleted in Graves' disease; fellow Bacteroidetes commensal
-- [[tryptophan]] -- indole production from tryptophan supports AhR signaling and mucosal immunity
+- -- indole production from tryptophan supports AhR signaling and mucosal immunity
 - [[cardiovascular-disease]] -- abundance altered by ischemic stroke
 - [[short-chain-fatty-acids]] -- acetate and propionate producer
 - [[dysbiosis]] -- context-dependent marker; depletion in autoimmunity, enrichment in cancer

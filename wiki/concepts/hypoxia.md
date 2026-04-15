@@ -16,7 +16,7 @@ platform: wikibiome
 
 Hypoxia in two key disease contexts:
 
-1. **Intestinal mucosal hypoxia** in [[crohns-disease]], [[inflammatory-bowel-disease|ulcerative-colitis]], [[colorectal-cancer]]
+1. **Intestinal mucosal hypoxia** in [[crohns-disease]], [[ulcerative-colitis|ulcerative colitis]], [[colorectal-cancer]]
 2. **Tumor microenvironment hypoxia** in solid cancers ([[colorectal-cancer]], [[breast-cancer]])
 
 ## Mechanism
@@ -44,7 +44,7 @@ Hypoxia in two key disease contexts:
 **Gut diseases with mucosal hypoxia:**
 
 - [[crohns-disease]]: Chronic inflammation → epithelial barrier disruption → anoxic mucosa → [[escherichia-coli|AIEC]]-dominant dysbiosis
-- [[inflammatory-bowel-disease|ulcerative-colitis]]: Similar mechanism; hypoxia enables [[clostridioides-difficile|C. difficile]] proliferation in severe cases
+- [[ulcerative-colitis|ulcerative colitis]]: Similar mechanism; hypoxia enables [[clostridioides-difficile|C. difficile]] proliferation in severe cases
 - [[colorectal-cancer]]: Dysplastic lesions are hypoxic; HIF-1α activates [[pd-l1]], enabling immune evasion; tumors select for [[fusobacterium-nucleatum|Fusobacterium]] and other anaerobes
 - [[obesity]]: Metabolic endotoxemia from Gram-negative bacteria correlates with local adipose tissue hypoxia
 
@@ -64,9 +64,9 @@ Hypoxia reshapes **metal utilization hierarchies**:
 ## Connections
 
 **Related pathways:**
-- [[hif-1α]] signaling — master regulator of hypoxia response
-- [[angiogenesis]] — neovascularization attempting to restore oxygen delivery
-- [[pd-l1]] — immune checkpoint upregulated by HIF-1α; enables tumor immune evasion
+- signaling — master regulator of hypoxia response
+- — neovascularization attempting to restore oxygen delivery
+- — immune checkpoint upregulated by HIF-1α; enables tumor immune evasion
 
 **Related organisms:**
 - [[escherichia-coli|Escherichia coli]] — facultative anaerobe; thrives in hypoxic dysbiosis
@@ -80,4 +80,4 @@ Hypoxia reshapes **metal utilization hierarchies**:
 - [[estrogen-recirculation]] — hypoxic dysbiosis with [[escherichia-coli|E. coli]] and [[bacteroides-fragilis|B. fragilis]] enrichment increases [[beta-glucuronidase]]
 
 **Disease pages:**
-- [[crohns-disease]], [[inflammatory-bowel-disease|ulcerative-colitis]], [[colorectal-cancer]], [[obesity]] — conditions with mucosal/tissue hypoxia
+- [[crohns-disease]], [[ulcerative-colitis|ulcerative colitis]], [[colorectal-cancer]], [[obesity]] — conditions with mucosal/tissue hypoxia

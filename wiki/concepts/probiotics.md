@@ -73,7 +73,6 @@ Traditional probiotics have limited metal-resistance properties, motivating deve
 
 The NixA transporter is particularly relevant to nickel-targeted engineered probiotics, potentially applicable to SNAS or occupational nickel exposure.
 
-
 ## Key Sources
 
 - [[calcaterra-2023-probiotics-pcos-adolescents]]

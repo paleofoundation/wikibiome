@@ -123,5 +123,5 @@ Gingipains perform multiple virulence roles:
 - [[biofilm]] -- keystone pathogen organizing polymicrobial communities
 - [[nutritional-immunity]] -- calprotectin and lactoferrin suppress gingipain activity via metal sequestration
 - [[nutritional-immunity|barrier-disruption]] -- gingipains cleave tight junction proteins and ECM
-- [[systemic-inflammation]] -- periodontal *P. gingivalis* drives endotoxemia and neuroinflammation
+- -- periodontal *P. gingivalis* drives endotoxemia and neuroinflammation
 - [[amyloid-beta]] -- direct proteolytic generation by gingipains

@@ -73,12 +73,12 @@ This is a foundational 1982 paper by Max Costa -- one of the most influential re
 ## Connections
 
 - Foundational reference for [[nickel]]-induced carcinogenesis -- established the phagocytosis-dependent model
-- Structure-activity relationships directly inform [[IARC]] classification of nickel compounds (Group 1 vs. 2B)
-- Complements [[Genchi et al. 2020|genchi-2020-nickel-human-health-environmental-toxicology]] which reviews updated understanding of these mechanisms
-- Surface charge and phagocytosis concepts connect to [[Cameron et al. 2011|cameron-2011-nickel-genotoxicity-carcinogenicity]] molecular mechanisms review
+- Structure-activity relationships directly inform classification of nickel compounds (Group 1 vs. 2B)
+- Complements which reviews updated understanding of these mechanisms
+- Surface charge and phagocytosis concepts connect to molecular mechanisms review
 - Metallothionein protection mechanism relevant to [[cadmium]] toxicity and cross-metal interactions
-- DNA damage mechanisms (strand breaks, crosslinking) connect to [[oxidative-stress]] pathways described in [[Briffa et al. 2020|briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]]
+- DNA damage mechanisms (strand breaks, crosslinking) connect to [[oxidative-stress]] pathways described in 
 - In vitro transformation assay methodology became standard for nickel carcinogenesis research
 - Costa's later work on epigenetic mechanisms of nickel carcinogenesis built directly on these findings
-- Crystalline vs. amorphous particle distinction relevant to [[occupational-exposure]] risk assessment in nickel refining
+- Crystalline vs. amorphous particle distinction relevant to risk assessment in nickel refining
 - Nickel carbonyl (NiCO3) lipid solubility finding relevant to inhalation exposure toxicology

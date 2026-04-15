@@ -55,14 +55,14 @@ Beta-glucuronidase is a **glycosidic hydrolase** — its activity is not directl
 - **Iron and enzymatic efficiency**: Bacterial growth rate (and thus enzyme expression rate) is limited by iron under nutritional immunity; high-iron dysbiosis → high beta-glucuronidase expression
 - **Zinc and immune control**: [[zinc]] deficiency impairs Th1 differentiation and favor Th2 responses (IL-4, IL-5); Th2 dominance allows estrogen-dependent pathobionts to proliferate; estrobolome dysbiosis perpetuates low [[zinc]] availability
 - **Estrogen-mediated metal dysbiosis**: High estrogen (from high beta-glucuronidase activity) can suppress [[hepcidin]] expression → elevated iron availability → selects for iron-dependent pathogens → further elevates beta-glucuronidase
-- **Calcium dysregulation**: Some estrobolome pathogens (e.g., [[eggerthella-lenta|E. lenta]]) also deconjugate cholesterol and promote dysbiotic [[mis-metallation|calcium]] wasting
+- **Calcium dysregulation**: Some estrobolome pathogens (e.g., [[eggerthella-lenta|E. lenta]]) also deconjugate cholesterol and promote dysbiotic [[mis-metallation]] wasting
 
 ## Connections
 
 **Related pathways:**
 - [[estrobolome]] — the metabolic pathway of which beta-glucuronidase is the rate-limiting enzyme
-- [[enterohepatic-recirculation]] — the mechanism enabling estrogen re-absorption
-- [[aromatase]] — encodes estrogen synthesis; local aromatase in endometriosis lesions creates a feed-forward loop with high estrobolome activity
+- — the mechanism enabling estrogen re-absorption
+- — encodes estrogen synthesis; local aromatase in endometriosis lesions creates a feed-forward loop with high estrobolome activity
 
 **Related organisms:**
 - [[escherichia-coli|E. coli]] — produces beta-glucuronidase; enriched in endometriosis and other estrogen-dependent dysbiosis
@@ -71,8 +71,8 @@ Beta-glucuronidase is a **glycosidic hydrolase** — its activity is not directl
 
 **Related concepts:**
 - [[nutritional-immunity]] — high [[iron]] or low [[zinc]] creates permissive conditions for high-beta-glucuronidase dysbiosis
-- [[dysfunctional-barrier]] — tight-junction disruption allows bacterial lipopolysaccharides to trigger estrogen-suppressive Th2 shifts
-- [[estrogen-metabolism]] — overview of conjugation/deconjugation
+- — tight-junction disruption allows bacterial lipopolysaccharides to trigger estrogen-suppressive Th2 shifts
+- — overview of conjugation/deconjugation
 
 **Disease pages:**
-- [[endometriosis]], [[breast-cancer]], [[pcos]], [[obesity]], [[vulvovaginitis-recurrent]] — estrogen-dependent conditions with estrobolome dysbiosis
+- [[endometriosis]], [[breast-cancer]], [[pcos]], [[obesity]], — estrogen-dependent conditions with estrobolome dysbiosis

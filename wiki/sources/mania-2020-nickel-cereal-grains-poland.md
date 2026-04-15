@@ -45,4 +45,4 @@ platform: wikibiome
 - [[low-nickel-diet]] -- identifies which cereal products to avoid (buckwheat, millet, oat flakes, bran) and safer alternatives (rye, refined flour, pasta)
 - [[flyvholm-1984-nickel-food-content]] -- earlier Danish data on nickel content of foods for comparison
 - [[rebelytics-2023-nickel-in-foods-summary]] -- comprehensive database of nickel per serving
-- [[Tolerable Daily Intake]] -- uses EFSA 2020 TDI of 13 ug/kg bw/day
+- -- uses EFSA 2020 TDI of 13 ug/kg bw/day

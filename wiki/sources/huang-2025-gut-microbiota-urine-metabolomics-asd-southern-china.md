@@ -28,11 +28,11 @@ Cohort study of **88 participants** (58 ASD, 30 controls) from Guangxi Zhuang Au
 ## Key Bacterial Biomarkers
 
 - Five species enriched in ASD via DESeq2 and random forest classifiers:
-  - ***Faecalibacterium prausnitzii***
-  - ***Bifidobacterium catenulatum***
-  - ***Blautia obeum***
-  - ***Lachnoclostridium* sp.**
-  - ***Blautia* sp.**
+ - ***Faecalibacterium prausnitzii***
+ - ***Bifidobacterium catenulatum***
+ - ***Blautia obeum***
+ - ***Lachnoclostridium* sp.**
+ - ***Blautia* sp.**
 - LEfSe analysis confirmed these as **critical microbiota distinguishing ASD from controls** (all Q < 0.05)
 
 ## Functional Analysis

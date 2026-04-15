@@ -10,6 +10,9 @@ year: 2018
 tags: [methanogens, heavy-metals, volatile-fatty-acids, copper, zinc, acetate, propionate, SCFAs, methanogenesis, archaea]
 doi: "10.1186/s13068-018-1302-x"
 platform: wikibiome
+karen_brain_primitives: [1, 4]
+metals_discussed: ["copper", "zinc"]
+taxa_discussed: ["Methanococcus"]
 ---
 
 # Key Claims

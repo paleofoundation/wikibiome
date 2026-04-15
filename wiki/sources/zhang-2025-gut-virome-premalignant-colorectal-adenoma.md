@@ -10,6 +10,10 @@ year: 2025
 doi: "10.1186/s12967-025-06404-7"
 tags: [colon-cancer, colorectal-cancer, virome, gut-virome, colorectal-adenoma, bacteriophage, Siphoviridae, Myoviridae, Podoviridae, Microviridae, viral-signatures, metagenomics]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: cross-sectional
 ---
 
 # Zhang 2025 -- Characteristics of the Gut Virome in Premalignant Colorectal Adenoma
@@ -25,14 +29,14 @@ platform: wikibiome
 
 - **Type**: Reanalysis of publicly available metagenomic data (419 adenoma patients + 552 healthy controls)
 - **Methods**: Metagenomic Gut Virus catalogue (MGV, 54,118 non-redundant gut viral genomes); vOTU-level analysis; random forest classification; virus-bacteria correlation networks
-- **Key findings**:
-  - 51,121 vOTUs identified; Siphoviridae (28.8%) and Myoviridae (6.2%) most abundant
-  - Predicted prokaryotic hosts: Firmicutes (Lachnospiraceae, Ruminococcaceae, Oscillospiraceae) and Bacteroidaceae most common
-  - SSA-enriched vOTUs: 131 (27.5% Siphoviridae, 7.6% Myoviridae, 2.3% Microviridae)
-  - TA-enriched vOTUs: 72 (79.2% unclassified); TA-depleted: 31 (35.5% Siphoviridae)
-  - Adenoma-enriched viruses showed host preference for infecting *Bacteroidaceae* and *Lachnospiraceae*
-  - Combined viral-bacterial models improved classification: AUC 0.76 for classifying healthy vs patients with both adenoma types
-  - Virus-bacteria correlation networks showed *Faecalicatena fissicatena*, *Clostridium symbiosum*, *Hungatella hathewayi* correlated with SSA-associated vOTUs
+
+ - 51,121 vOTUs identified; Siphoviridae (28.8%) and Myoviridae (6.2%) most abundant
+ - Predicted prokaryotic hosts: Firmicutes (Lachnospiraceae, Ruminococcaceae, Oscillospiraceae) and Bacteroidaceae most common
+ - SSA-enriched vOTUs: 131 (27.5% Siphoviridae, 7.6% Myoviridae, 2.3% Microviridae)
+ - TA-enriched vOTUs: 72 (79.2% unclassified); TA-depleted: 31 (35.5% Siphoviridae)
+ - Adenoma-enriched viruses showed host preference for infecting *Bacteroidaceae* and *Lachnospiraceae*
+ - Combined viral-bacterial models improved classification: AUC 0.76 for classifying healthy vs patients with both adenoma types
+ - Virus-bacteria correlation networks showed *Faecalicatena fissicatena*, *Clostridium symbiosum*, *Hungatella hathewayi* correlated with SSA-associated vOTUs
 
 ## Connections
 

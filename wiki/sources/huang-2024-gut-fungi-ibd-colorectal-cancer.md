@@ -1,14 +1,30 @@
 ---
-
 title: "Unveiling the overlooked fungi: the vital of gut fungi in inflammatory bowel disease and colorectal cancer"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Yilin Huang, Yang Wang, Xiaotian Huang, Xiaomin Yu]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Yilin Huang
+  - Yang Wang
+  - Xiaotian Huang
+  - Xiaomin Yu
 journal: Gut Pathogens
 year: 2024
-doi: "10.1186/s13099-024-00651-7"
-tags: [colon-cancer, colorectal-cancer, mycobiome, fungal-dysbiosis, Candida-albicans, Aspergillus, Malassezia, gut-barrier, NF-kB, Dectin-1, beta-glucans, IBD, immune-regulation]
+doi: 10.1186/s13099-024-00651-7
+tags:
+  - colon-cancer
+  - colorectal-cancer
+  - mycobiome
+  - fungal-dysbiosis
+  - Candida-albicans
+  - Aspergillus
+  - Malassezia
+  - gut-barrier
+  - NF-kB
+  - Dectin-1
+  - beta-glucans
+  - IBD
+  - immune-regulation
 platform: wikibiome
 ---
 
@@ -24,13 +40,13 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Review
-- **Key mechanisms reviewed**:
-  - **Direct fungal effects on gut barrier**: *C. albicans* produces gelatinase (GelE) that degrades E-cadherin; *Cryptoporus volvatus* ergosterol peroxide elevates Claudin-1 and ZO-1
-  - **Fungal interactions with bacteria**: *C. albicans* beta-1,3-glucans enhance growth of Lactobacilli and Bifidobacteria; antifungal medications lead to fungal dysbiosis AND bacterial microbiota changes
-  - **Immune regulation**: Dectin-1 and TLR4 are essential for anti-fungal immunity; *C. albicans* SC5314 can inhibit NLRP3 and NLRP6 inflammasomes
-  - **Fungi in CRC**: *Basidiomycota/Ascomycota* ratio increased with disease progression; 16 biomarkers including *Talaromyces islandicus*, *Aspergillus rambellii*, *Saccharomycetaceae* showed significant reductions in CRC
-  - **Bacteria-fungi interactions in intestinal disease**: In IBD patients, *Saccharomyces* abundance positively correlated with *Bifidobacterium*, *Roseburia*, *Ruminococcus*; *Malassezia* negatively correlated
-  - **Role of Debaryomyces hansenii**: Colonizes inflamed mucosal tissues in CD patients; activates Type I interferon signaling in macrophages
+
+ - **Direct fungal effects on gut barrier**: *C. albicans* produces gelatinase (GelE) that degrades E-cadherin; *Cryptoporus volvatus* ergosterol peroxide elevates Claudin-1 and ZO-1
+ - **Fungal interactions with bacteria**: *C. albicans* beta-1,3-glucans enhance growth of Lactobacilli and Bifidobacteria; antifungal medications lead to fungal dysbiosis AND bacterial microbiota changes
+ - **Immune regulation**: Dectin-1 and TLR4 are essential for anti-fungal immunity; *C. albicans* SC5314 can inhibit NLRP3 and NLRP6 inflammasomes
+ - **Fungi in CRC**: *Basidiomycota/Ascomycota* ratio increased with disease progression; 16 biomarkers including *Talaromyces islandicus*, *Aspergillus rambellii*, *Saccharomycetaceae* showed significant reductions in CRC
+ - **Bacteria-fungi interactions in intestinal disease**: In IBD patients, *Saccharomyces* abundance positively correlated with *Bifidobacterium*, *Roseburia*, *Ruminococcus*; *Malassezia* negatively correlated
+ - **Role of Debaryomyces hansenii**: Colonizes inflamed mucosal tissues in CD patients; activates Type I interferon signaling in macrophages
 
 ## Connections
 

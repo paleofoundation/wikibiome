@@ -25,13 +25,13 @@ platform: wikibiome
 
 - **Type**: Cross-sectional study (31 CRC patients, 30 healthy controls)
 - **Methods**: 16S rRNA gene V3 pyrosequencing; cancerous tissue, adjacent non-cancerous tissue, and mucosal samples
-- **Results**:
-  - 468 bacterial phylotypes identified; *Lactococcus*, *Fusobacterium*, *Escherichia-Shigella*, *Peptostreptococcus* enriched in CRC
-  - *Pseudomonas* statistically significantly enriched in adjacent non-cancerous tissues (p < 0.001)
-  - In proximal tumors: *Prevotella*, *Pyramido-bacterium*, *Selenomonas*, *Peptostreptococcus* more abundant
-  - In distal tumors: *Fusobacterium*, *Escherichia-Shigella*, *Leptotrichia* more abundant
-  - PCA analysis: significant separation between proximal and distal tumors (PC1 39.07%, PC2 11.2%)
-  - Driver-passenger model: CRC initiated by "driver" bacteria then replaced by "passenger" bacteria
+
+ - 468 bacterial phylotypes identified; *Lactococcus*, *Fusobacterium*, *Escherichia-Shigella*, *Peptostreptococcus* enriched in CRC
+ - *Pseudomonas* statistically significantly enriched in adjacent non-cancerous tissues (p < 0.001)
+ - In proximal tumors: *Prevotella*, *Pyramido-bacterium*, *Selenomonas*, *Peptostreptococcus* more abundant
+ - In distal tumors: *Fusobacterium*, *Escherichia-Shigella*, *Leptotrichia* more abundant
+ - PCA analysis: significant separation between proximal and distal tumors (PC1 39.07%, PC2 11.2%)
+ - Driver-passenger model: CRC initiated by "driver" bacteria then replaced by "passenger" bacteria
 
 ## Connections
 

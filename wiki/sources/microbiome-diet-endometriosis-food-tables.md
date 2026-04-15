@@ -37,7 +37,7 @@ platform: wikibiome
 - [[lead]] - foods filtered for low lead content
 - [[zinc]] - foods filtered for low zinc content (notable as zinc is also essential)
 - [[iron]] - foods filtered for low iron content (notable as iron is also essential; excess iron may worsen endometriosis-related inflammation)
-- [[Low-Metal Diet]] - dietary intervention strategy for reducing metal burden
+- - dietary intervention strategy for reducing metal burden
 - [[Endometriosis]] - target condition; inflammation-driven gynecological disorder
-- [[food-safety]] - practical application of metal content data to dietary planning
-- [[Canned Food Contamination]] - canned items consistently excluded
+- - practical application of metal content data to dietary planning
+- - canned items consistently excluded

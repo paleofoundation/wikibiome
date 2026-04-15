@@ -12,6 +12,8 @@ oxygen_requirement: "aerobic"
 metal_dependencies: [none well-characterized; requires growth factors]
 key_enzymes: [cellulase, β-glucosidase, protease]
 platform: wikibiome
+seo_target: "Debaryomyces hansenii Crohn's disease gut fungus"
+wikipedia_differentiation: "Enrichment in Crohn's disease processed food environments, gut epithelial disruption mechanism, and inflammatory role in gut mycobiome — Wikipedia covers only industrial fermentation applications"
 ---
 
 # Debaryomyces
@@ -136,13 +138,13 @@ CD patients with Debaryomyces enrichment and active disease often report **flare
 ## Connections
 
 - [[crohns-disease]] – enriched in inflamed tissue; pro-inflammatory type 1/17 immunity driver
-- [[type-1-immunity]] – Dectin-1 engagement drives Th1/Tc1 and Th17 differentiation via IL-12/IL-23
-- [[type-17-immunity]] – β-glucans activate IL-17 axis; associated with elevated mucosal IL-17A/F
-- [[nutritional-immunity|intestinal-barrier-function]] – extracellular proteases degrade mucin and tight junctions
+- – Dectin-1 engagement drives Th1/Tc1 and Th17 differentiation via IL-12/IL-23
+- – β-glucans activate IL-17 axis; associated with elevated mucosal IL-17A/F
+- [[nutritional-immunity|nutritional immunity]] – extracellular proteases degrade mucin and tight junctions
 - [[inflammation]] – CCL5 production and immune complex deposition drive acute inflammation
-- [[mycobiota-dysbiosis]] – overgrowth in fungal dysbiosis states; marker of interkingdom dysfunction
-- [[cheese]] and [[fermented-foods]] – dietary sources; consumption may trigger flares in susceptible individuals
-- [[processed-foods]] – salt-tolerant species enriched in shelf-stable products
+- – overgrowth in fungal dysbiosis states; marker of interkingdom dysfunction
+- and – dietary sources; consumption may trigger flares in susceptible individuals
+- – salt-tolerant species enriched in shelf-stable products
 - [[enterococcus]] – frequent biofilm partner in Crohn's lesions
 - [[bacteroides-fragilis]] – interkingdom biofilm member; cooperative virulence
-- [[ibd-associated-dysbiosis]] – key member of inflamed IBD microbiota signatures
+- – key member of inflamed IBD microbiota signatures

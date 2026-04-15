@@ -37,8 +37,8 @@ platform: wikibiome
 ## Connections
 
 - Se + VitD combination therapy for GD extends [[brock-2015-selenium-thyroid-autoimmunity]] selenium-only findings
-- PFAS thyroid disruption connects to emerging [[Endocrine Disruptors]] literature and environmental exposures in [[graves-disease]]
+- PFAS thyroid disruption connects to emerging literature and environmental exposures in [[graves-disease]]
 - Mercury-thyroid interaction via fish consumption relevant to [[brock-2015-selenium-thyroid-autoimmunity]] Se-Hg antagonism
 - Gut microbiota-thyroid cancer connection relevant to [[kun-2023-microbiota-thyroid-cancer]]
-- TFA-thyroid relationship relevant to broader [[Diet]] and [[Thyroid Function]] metabolic interactions
-- Famine/developmental programming relevant to [[Epigenetics]] of thyroid disease susceptibility
+- TFA-thyroid relationship relevant to broader and metabolic interactions
+- Famine/developmental programming relevant to of thyroid disease susceptibility

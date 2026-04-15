@@ -51,7 +51,6 @@ The dual nature of *Lachnospira* -- depleted in cardiovascular and endocrine con
 - Host immune context (immunosuppressive vs. hyperactivated states)
 - Interactions with co-occurring microbiota in the Lachnospiraceae network
 
-
 ## Key Sources
 
 - [[sobhani-2011-microbial-dysbiosis-colorectal-cancer]]

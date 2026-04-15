@@ -22,17 +22,17 @@ platform: wikibiome
 
 - **Design**: Open-label, parallel-group RCT, 12-week intervention with 4-week follow-up
 - **Participants**: 72 overweight PCOS women (Rotterdam criteria) in Shanghai, China; 59 completed (29 LF, 30 MED/LC)
-- **Intervention**:
-  - MED/LC: Maximum carbohydrate intake <100 g/day, emphasis on whole grains, olive oil, vegetables, fruits, seafood; carbohydrate <40% total energy
-  - LF: <30% total dietary calories from fat, <40 g fat/day
-- **Key results (MED/LC vs LF)**:
-  - Weight: -6.10 vs -4.79 kg (p = 0.0002)
-  - BMI: -2.12 vs -1.78 (p = 0.0004)
-  - Total testosterone: -0.20 vs 0.08 ng/mL (p = 0.0003)
-  - LH: -5.28 vs -3.39 mIU/mL (p < 0.001)
-  - FPG: +0.05 vs -0.50 mmol/mL (p < 0.001) -- MED/LC showed improvement in FINS and HOMA-IR
-  - FINS: -4.88 vs -8.53 (p < 0.01)
-  - TG, TC, LDL-C all significantly improved in MED/LC group
+
+ - MED/LC: Maximum carbohydrate intake <100 g/day, emphasis on whole grains, olive oil, vegetables, fruits, seafood; carbohydrate <40% total energy
+ - LF: <30% total dietary calories from fat, <40 g fat/day
+
+ - Weight: -6.10 vs -4.79 kg (p = 0.0002)
+ - BMI: -2.12 vs -1.78 (p = 0.0004)
+ - Total testosterone: -0.20 vs 0.08 ng/mL (p = 0.0003)
+ - LH: -5.28 vs -3.39 mIU/mL (p < 0.001)
+ - FPG: +0.05 vs -0.50 mmol/mL (p < 0.001) -- MED/LC showed improvement in FINS and HOMA-IR
+ - FINS: -4.88 vs -8.53 (p < 0.01)
+ - TG, TC, LDL-C all significantly improved in MED/LC group
 
 # Connections
 

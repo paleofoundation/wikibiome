@@ -42,4 +42,4 @@ condition: "autism spectrum disorder"
 - [[fecal-microbiota-transplant]] -- as therapeutic intervention
 - [[probiotics]] -- next-generation approaches for precision treatment
 - [[gut-brain-axis]] -- pharmacological modulation for neurological conditions
-- [[precision-medicine]] -- microbiome-guided therapeutic strategies
+- -- microbiome-guided therapeutic strategies

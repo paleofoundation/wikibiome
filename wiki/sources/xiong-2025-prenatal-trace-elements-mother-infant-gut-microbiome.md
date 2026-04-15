@@ -11,6 +11,7 @@ tags: [type-1-diabetes, autoimmune, trace-elements, selenium, copper, aluminum, 
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: prospective-cohort
 ---
 
 # Key Claims

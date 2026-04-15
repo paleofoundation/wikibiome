@@ -24,20 +24,20 @@ platform: wikibiome
 - **Design**: Original research study analyzing 85 commercial premade baby food samples from Coimbra, Portugal (Feb-March 2018)
 - **Samples**: 26 ready meals, 31 fruits, 8 desserts, 20 paps; from organic/non-organic and private/white label sources
 - **Method**: Dry ashing followed by graphite furnace atomic absorption spectrometry; method detection limit 12.5 ug/kg; validated with matrix-matched calibration
-- **Results**:
-  - Detection frequency: 91.8% overall; 100% ready meals, 96.8% fruits, 87.5% desserts, 75.0% paps
-  - Average concentration: 40.4 ug/kg (overall); fruits 50.1, ready meals 40.2, desserts 23.5 ug/kg
-  - Organic vs non-organic: 54.7 vs 35.8 ug/kg (p=0.015)
-  - Private vs white label: 41.2 vs 38.6 ug/kg (not significant)
+
+ - Detection frequency: 91.8% overall; 100% ready meals, 96.8% fruits, 87.5% desserts, 75.0% paps
+ - Average concentration: 40.4 ug/kg (overall); fruits 50.1, ready meals 40.2, desserts 23.5 ug/kg
+ - Organic vs non-organic: 54.7 vs 35.8 ug/kg (p=0.015)
+ - Private vs white label: 41.2 vs 38.6 ug/kg (not significant)
 - **EDI calculations (average scenario)**: 6 months: 0.80 ug/kg b.w. (39.88% TDI); 1 year: 1.69 ug/kg b.w. (98.52% TDI); 2 years: 1.83 ug/kg b.w. (111.86% TDI)
 - **Worst-case scenario EDI**: 6 months: 174% TDI; 1 year: 380% TDI; 2 years: 497% TDI
 - **Context**: No maximum residue level (MRL) for nickel in baby food exists; surveillance programs should be implemented
 
 ## Connections
 
-- Provides data on early-life nickel exposure that may contribute to later [[nickel sensitization]]
+- Provides data on early-life nickel exposure that may contribute to later 
 - Nickel content data complements [[flyvholm-1984-nickel-food-content]] for a different food category
-- Risk to children connects to concerns about [[nickel toxicity]] reviewed in [[denkhaus-2002-nickel-essentiality-toxicity]]
+- Risk to children connects to concerns about reviewed in [[denkhaus-2002-nickel-essentiality-toxicity]]
 - Organic farming paradox (higher nickel) relevant to dietary advice for nickel-sensitive patients
 - Supports the need for [[low-nickel-diet]] awareness from early childhood
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility for nickel-exposed infants

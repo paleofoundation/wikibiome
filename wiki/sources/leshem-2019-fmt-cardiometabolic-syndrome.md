@@ -24,14 +24,14 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Narrative review
-- **Preclinical evidence (Table 1)**:
-  - Obesity: transferable via FMT to germ-free mice; microbiome of co-housed mice resembled "lean" configuration
-  - Post-bariatric surgery microbiome persists and contributes to weight-loss maintenance and TMAO reduction
-  - Hypertensive patients' feces transferred to GF mice elevated blood pressure, confirming gut microbiota role in [[hypertension]]
-- **Clinical FMT trials**:
-  - First randomized study (n=18): allogenic-FMT from lean donors improved insulin sensitivity in obese males with metabolic syndrome
-  - Second trial (n=38): significant shift in microbial composition with improvement in peripheral insulin sensitivity at 6 weeks in half of treatment group
-  - [[tmao]]-focused trial: vegan-donor FMT induced microbiome shift but no significant change in vascular inflammation markers
+
+ - Obesity: transferable via FMT to germ-free mice; microbiome of co-housed mice resembled "lean" configuration
+ - Post-bariatric surgery microbiome persists and contributes to weight-loss maintenance and TMAO reduction
+ - Hypertensive patients' feces transferred to GF mice elevated blood pressure, confirming gut microbiota role in [[hypertension]]
+
+ - First randomized study (n=18): allogenic-FMT from lean donors improved insulin sensitivity in obese males with metabolic syndrome
+ - Second trial (n=38): significant shift in microbial composition with improvement in peripheral insulin sensitivity at 6 weeks in half of treatment group
+ - [[tmao]]-focused trial: vegan-donor FMT induced microbiome shift but no significant change in vascular inflammation markers
 - **Challenges**: Colonization resistance, donor selection complexity, sample handling, mode of administration (colonoscopy vs capsules vs enema), adverse effects (mild diarrhea in up to 94%, abdominal pain in 31%)
 
 ## Source Pages

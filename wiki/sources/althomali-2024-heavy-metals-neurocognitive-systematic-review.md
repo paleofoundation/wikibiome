@@ -23,10 +23,10 @@ platform: wikibiome
 
 - **Design**: Systematic review following MOOSE guidelines; PubMed and Web of Science searched through December 5, 2023
 - **Included studies**: 8 studies (5 cohort, 3 cross-sectional) from North America and Asia
-- **Key findings by metal**:
-  - **Mercury**: Smith et al. found significant reduction in short-term memory capacity linked to elemental Hg exposure; Geier et al. found higher ethylmercury associated with increased risk for lower scores on animal fluency and CERAD W-L delayed recall tests
-  - **Cadmium**: Li et al. reported inverse relationship between blood Cd levels and composite cognitive z-scores in adults 60+; Peng et al. found twofold increase in urinary Cd linked to heightened risk of cognitive impairment (OR 1.46, 95% CI 1.14-1.86)
-  - **Selenium/Mercury interaction**: Mao et al. found no significant associations between toenail Se and Hg and cognitive function, but noted omega-3 PUFA interaction
+
+ - **Mercury**: Smith et al. found significant reduction in short-term memory capacity linked to elemental Hg exposure; Geier et al. found higher ethylmercury associated with increased risk for lower scores on animal fluency and CERAD W-L delayed recall tests
+ - **Cadmium**: Li et al. reported inverse relationship between blood Cd levels and composite cognitive z-scores in adults 60+; Peng et al. found twofold increase in urinary Cd linked to heightened risk of cognitive impairment (OR 1.46, 95% CI 1.14-1.86)
+ - **Selenium/Mercury interaction**: Mao et al. found no significant associations between toenail Se and Hg and cognitive function, but noted omega-3 PUFA interaction
 - **Exposure assessment**: Studies used urine (3), blood (3), hair (1), and toenail (1) samples
 - **Cognitive assessments**: MMSE, Wechsler digit span, CERAD battery, Kaufman Brief Intelligence Test, Rey Auditory Verbal Learning Test, Trail Making Tests A & B
 - **Mechanisms discussed**: Oxidative stress, BBB disruption, inflammation, protein aggregation, DNA/RNA defects, interference with neurotransmitter systems, epigenetic modifications, altered gene expression

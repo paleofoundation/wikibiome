@@ -35,5 +35,5 @@ platform: wikibiome
 
 - Pioneering HT microbiome study referenced across subsequent research including [[liu-2022-gut-microbiota-diversity-hashimotos]] and [[zhao-2022-gut-microbiota-graves-disease-hashimotos]]
 - Prevotella_9 decline consistent with later findings in [[alkader-2023-gut-microbiota-autoimmune-thyroid-systematic-review]]
-- E. coli enrichment relevant to [[intestinal permeability]] and [[LPS]]-mediated immune activation in HT
-- Methodology comparison between DGGE and high-throughput sequencing reflects evolution of [[16S rRNA Sequencing]] approaches
+- E. coli enrichment relevant to [[intestinal permeability]] and -mediated immune activation in HT
+- Methodology comparison between DGGE and high-throughput sequencing reflects evolution of approaches

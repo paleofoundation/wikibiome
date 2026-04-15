@@ -12,6 +12,10 @@ pages: "121838"
 doi: "10.1016/j.jhazmat.2019.121838"
 tags: [arsenic, cadmium, antibiotic-resistance-genes, co-selection, mobile-genetic-elements, paddy-soils, heavy-metals, structural-equation-models, food-security, rice, pollution-index, horizontal-gene-transfer]
 platform: wikibiome
+karen_brain_primitives: [1]
+metals_discussed: ["arsenic", "cadmium"]
+evidence_level: cross-sectional
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -25,17 +29,17 @@ platform: wikibiome
 
 - **Study area**: Chang-Zhu-Tan Urban Agglomeration (Changsha-Zhuzhou-Xiangtan), Hunan Province, South China -- one of the most heavily metal-polluted agricultural regions in China due to mining, industrial activities, and wastewater irrigation
 - **Sampling**: 45 paddy soil samples from 15 sites across 6 counties (ShiTan, ShiYan, XingTai, SiMa, ChangFeng, JiaoXi); 3 replicates per site; top 0-20 cm soils collected April 2018
-- **Analytical methods**:
-  - Heavy metals: ICP-MS after microwave digestion (HNO3-HF-HClO4)
-  - Antibiotics: UPLC-MS/MS for 17 antibiotics in 5 classes (sulfonamides, fluoroquinolones, tetracyclines, macrolides, beta-lactams)
-  - ARGs: High-throughput qPCR (HT-qPCR) with 296 primer sets targeting ARGs across 10 classes, 10 MGEs, and 16S rRNA
+
+ - Heavy metals: ICP-MS after microwave digestion (HNO3-HF-HClO4)
+ - Antibiotics: UPLC-MS/MS for 17 antibiotics in 5 classes (sulfonamides, fluoroquinolones, tetracyclines, macrolides, beta-lactams)
+ - ARGs: High-throughput qPCR (HT-qPCR) with 296 primer sets targeting ARGs across 10 classes, 10 MGEs, and 16S rRNA
 - **Pollution indices**: Single pollution index (PI = Ci/Si where Ci = measured, Si = background value); Nemerow integrated pollution index (NIPI); background values: Cd = 0.126 mg/kg, As = 15.7 mg/kg for Hunan paddy soils
-- **Key findings**:
-  - Both PI_As and PI_Cd significantly and positively correlated with ARG abundance (p < 0.05)
-  - As exerted stronger effects on ARGs than Cd in structural equation models
-  - ARG profiles could be impacted by Cd and As indirectly by strongly affecting bacterial abundance
-  - Network analysis revealed significant correlations between bacterial taxa and different ARGs, identifying potential hosts
-  - MGEs were the strongest direct predictor of ARG abundance in SEM
+
+ - Both PI_As and PI_Cd significantly and positively correlated with ARG abundance (p < 0.05)
+ - As exerted stronger effects on ARGs than Cd in structural equation models
+ - ARG profiles could be impacted by Cd and As indirectly by strongly affecting bacterial abundance
+ - Network analysis revealed significant correlations between bacterial taxa and different ARGs, identifying potential hosts
+ - MGEs were the strongest direct predictor of ARG abundance in SEM
 - **SEM path analysis**: Soil properties influenced both bacterial abundance (R2 = 0.42) and bacterial diversity (R2 = 0.18); As contamination directly affected bacterial abundance; Cd contamination had weaker direct effects; MGEs (R2 = 0.58) were the strongest mediator between metals and ARGs
 - **Relevance to food security**: Paddy soils are directly linked to human health through rice production; ARGs in rice paddy soils can potentially transfer to humans via the food chain
 

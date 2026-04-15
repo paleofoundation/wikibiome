@@ -10,6 +10,7 @@ year: 2024
 doi: 10.3389/fmicb.2024.1427195
 tags: [systemic-sclerosis, gut-microbiome, plasma-metabolome, Mendelian-randomization, Prevotella, Lachnospiraceae, autoimmune]
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # The Effect of Gut Microbiome and Plasma Metabolome on Systemic Sclerosis: A Bidirectional Two-Sample Mendelian Randomization Study

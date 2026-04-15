@@ -10,6 +10,7 @@ year: 2017
 tags: [crohns-disease, IBD, intestinal-microbiota, immune-response, barrier-function, dysbiosis, inflammation, probiotics, FMT, epithelial-cells]
 doi: "10.3389/fimmu.2017.00942"
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

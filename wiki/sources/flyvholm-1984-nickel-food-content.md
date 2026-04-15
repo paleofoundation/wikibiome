@@ -23,13 +23,13 @@ platform: wikibiome
 
 - **Design**: Literature review and dietary intake estimation based on Danish food consumption data
 - **Data sources**: Published nickel content values from multiple food analysis studies (1558 total food samples reviewed); Danish average diet consumption data
-- **Key food categories (nickel content ranges, ug/g)**:
-  - Milk products: BDL-0.34
-  - Meat/fish/egg: 0.01-0.94 (fish highest at 0.005-0.303)
-  - Roots and vegetables: BDL-2.99 (spinach 0.02-2.99, peas 0.13-0.8)
-  - Fruits: BDL-1.36 (canned fruits highest due to leaching)
-  - Grains: 0.03-4.7 (oatmeal 0.80-4.7, rye flour 0.03-0.3)
-  - Beverages: 0.002-0.14 (wine 0-0.14, tea and coffee 0.006-0.09)
+
+ - Milk products: BDL-0.34
+ - Meat/fish/egg: 0.01-0.94 (fish highest at 0.005-0.303)
+ - Roots and vegetables: BDL-2.99 (spinach 0.02-2.99, peas 0.13-0.8)
+ - Fruits: BDL-1.36 (canned fruits highest due to leaching)
+ - Grains: 0.03-4.7 (oatmeal 0.80-4.7, rye flour 0.03-0.3)
+ - Beverages: 0.002-0.14 (wine 0-0.14, tea and coffee 0.006-0.09)
 - **Load factors**: Calculated for each food category showing disproportionate nickel contribution relative to consumption (e.g., oatmeal has load factor of 24, meaning its nickel contribution is 24x its share of consumption)
 - **Nickel not in Danish diet table** (Table 2): Additional high-nickel foods including cocoa (3.0-12), soy beans (4.1-5.9), buckwheat (1.3-2.8), endive (0.07-0.66), dried legumes (0.57-3.1), almonds (1.2-1.3)
 - **Key caveat**: Nickel in food is not immediately comparable to nickel sulphate used in provocation studies; chemical form and bioavailability differ

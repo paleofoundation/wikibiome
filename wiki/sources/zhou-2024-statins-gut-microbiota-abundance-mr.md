@@ -9,6 +9,7 @@ year: 2024
 doi: "10.3389/fgene.2024.1380830"
 tags: [ovarian-cancer, statins, gut-microbiota, Mendelian-randomization, Parabacteroides, Desulfovibrio, Ruminococcaceae]
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # Statin Medication Causal Effects on Gut Microbiota Abundance

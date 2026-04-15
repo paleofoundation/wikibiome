@@ -10,6 +10,7 @@ year: 2024
 tags: [VOCs, volatile-organic-compounds, rheumatoid-arthritis, NHANES, environmental-exposure, CYMC, CEMC, AMCC]
 doi: "10.1038/s41598-023-44606-5"
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Key Claims

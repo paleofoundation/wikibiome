@@ -55,7 +55,6 @@ A genus of Gram-positive, facultatively anaerobic, filamentous bacteria that are
 ### Endometriosis
 - Detected in peritoneal and endometriotic lesion microbiota, suggesting translocation from oral or gut sites [[lee-2021-peritoneal-microbiota-ovarian-endometrioma]].
 
-
 ## Key Sources
 
 - [[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]]

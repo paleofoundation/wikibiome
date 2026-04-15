@@ -136,7 +136,6 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 5. **What is the optimal probiotic strain for metal-burdened PCOS patients?** Metal-sequestering Lactobacillus strains exist but have not been tested specifically in PCOS.
 6. **Causal direction**: Are elevated metals a cause of PCOS, a consequence of metabolic dysfunction, or both? Longitudinal and Mendelian randomization studies are needed.
 
-
 ## Comorbidities
 
 - [[type-2-diabetes]] -- PCOS women have 4-8x increased T2D risk; shared insulin resistance as the central metabolic defect; shared Cd and Hg correlations with HOMA-IR and fasting glucose; shared gut dysbiosis with SCFA producer depletion; metformin treats both
@@ -157,10 +156,10 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 ## Connections
 
 - **Metals**: [[copper]], [[nickel]], [[zinc]], [[cadmium]], [[lead]], [[mercury]], [[arsenic]], [[manganese]]
-- **Concepts**: [[metalloestrogens]], [[oxidative-stress|oxidative stress]], [[insulin-resistance]], [[endocrine-disruptors]], [[mis-metallation]]
+- **Concepts**: [[metalloestrogens]], [[oxidative-stress|oxidative stress]], [[insulin-resistance]], [[mis-metallation]]
 - **Analyses**: [[metal-disease-matrix]], [[dietary-metal-paradoxes]]
 - **Related diseases**: [[breast-cancer]] (shared metalloestrogen pathway), [[type-2-diabetes]] (shared insulin resistance and metal signature), [[autism-spectrum-disorder]] (shared Zn depletion and toxic metal burden)
-- **Pathogens**: Indirect -- gut dysbiosis patterns overlap with metal-driven dysbiosis described in [[systemic-nickel-allergy-syndrome]]
+- **Pathogens**: Indirect -- gut dysbiosis patterns overlap with metal-driven dysbiosis described in 
 - **Interventions**: [[mediterranean-diet]], [[probiotics]], [[ketogenic-diet]], [[zinc-supplementation]]
 - [[prebiotics]] -- prebiotic fiber supports gut microbiome restoration and insulin sensitization in PCOS
 - [[environmental-metal-exposure]] -- dietary and cosmetic metal exposures contribute to PCOS metal burden

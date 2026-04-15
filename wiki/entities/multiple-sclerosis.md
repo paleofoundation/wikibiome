@@ -6,11 +6,11 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - kouchaki-2017-clinical-metabolic-probiotic-ms
-  - tamtaji-2017-probiotic-gene-expression-ms
-  - tankou-2018-probiotic-microbiome-ms
-  - dargahi-2020-streptococcus-thermophilus-ms
-  - libbey-2018-diet-microbiota-eae
+ - kouchaki-2017-clinical-metabolic-probiotic-ms
+ - tamtaji-2017-probiotic-gene-expression-ms
+ - tankou-2018-probiotic-microbiome-ms
+ - dargahi-2020-streptococcus-thermophilus-ms
+ - libbey-2018-diet-microbiota-eae
 tags: [autoimmune, neurological, probiotics, gut-brain-axis, microbiome, cytokines, Th1-Th2-balance]
 platform: wikibiome
 last_substantive_update: 2026-04-13

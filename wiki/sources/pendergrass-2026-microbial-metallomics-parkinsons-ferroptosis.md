@@ -10,6 +10,9 @@ year: 2025
 tags: [Parkinsons-disease, microbial-metallomics, ferroptosis, gut-dysbiosis, alpha-synuclein, iron, gut-brain-axis, dopaminergic-neurons, heavy-metals, nickel, manganese, LPS, neuroinflammation, SCFA, gut-permeability]
 doi: "10.5281/zenodo.17830083"
 platform: wikibiome
+keystone: true
+keystone_criteria_met: [1, 2, 4, 5]
+why_keystone: "This paper introduced the unified framework connecting microbial metallomics, ferroptosis, and alpha-synuclein pathology in Parkinson's disease — three domains that had never been integrated. It provides the mechanistic explanation for why iron dysregulation in the gut drives both microbial dysbiosis and dopaminergic neurodegeneration through a single metal-dependent cascade. This framework is the structural basis for WikiBiome's Parkinson's disease signature and fundamentally reframed PD as a metallomics-driven ecological collapse rather than a purely neurological event."
 ---
 
 # Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology
@@ -38,14 +41,14 @@ platform: wikibiome
 
 ## Connections
 
-- [[Microbial metallomics]] -- core framework; extends the approach from [[pendergrass-2026-heavy-metals-obesity-epidemic]] and [[pendergrass-2026-nickel-nec-preterm-gut]] to neurodegeneration
+- -- core framework; extends the approach from [[pendergrass-2026-heavy-metals-obesity-epidemic]] and [[pendergrass-2026-nickel-nec-preterm-gut]] to neurodegeneration
 - [[parkinsons-disease]] -- central disease focus; complements metal-PD reviews in [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]] and [[chin-chan-2015-environmental-pollutants-ad-pd]]
 - [[ferroptosis]] -- convergent cell death pathway; iron-dependent lipid peroxidation discussed in [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] and [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
 - [[alpha-synuclein]] -- gut-origin aggregation via Braak hypothesis; bacterial cross-seeding via curli relates to [[gentile-2020-diet-microbiota-brain-health]] and [[alonso-garcia-2021-gut-microbiota-proteinopathies]]
-- [[Gut dysbiosis]] -- metal-driven selective pressure on commensals vs. pathogens; parallels [[li-2019-heavy-metal-metabolic-health-gut-microbiome]] and [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
-- [[Iron-dysregulation]] -- substantia nigra iron accumulation; connects to [[scholefield-2024-brain-metallomics-dementia]] brain metallomic profiling
+- -- metal-driven selective pressure on commensals vs. pathogens; parallels [[li-2019-heavy-metal-metabolic-health-gut-microbiome]] and [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
+- -- substantia nigra iron accumulation; connects to [[scholefield-2024-brain-metallomics-dementia]] brain metallomic profiling
 - [[Gut-brain axis]] -- metal-microbiome-neurodegeneration link; extends [[gentile-2020-diet-microbiota-brain-health]]
 - [[pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads]] -- companion paper on melanin-metal interactions and PD susceptibility in redheads
 - [[Short-chain fatty acids]] -- loss of SCFA production as mediator; parallels [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-- [[Nickel toxicity]] -- nickel-dependent bacterial virulence enzymes compound dysbiosis; connects to [[maier-2019-nickel-microbial-pathogenesis]]
+- -- nickel-dependent bacterial virulence enzymes compound dysbiosis; connects to [[maier-2019-nickel-microbial-pathogenesis]]
 - [[probiotics]] -- metal-sequestering probiotic strains as intervention; relates to [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]] and [[lombardi-2020-snas-probiotics-dysbiosis]]

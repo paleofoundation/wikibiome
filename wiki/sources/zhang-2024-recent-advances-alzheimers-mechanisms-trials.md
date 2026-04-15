@@ -10,6 +10,10 @@ year: 2024
 tags: [Alzheimers-disease, amyloid-beta, tau-protein, clinical-trials, drug-development, neuroinflammation, biomarkers, immunotherapy]
 doi: "10.1002/14651858.CD007388.pub3"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: expert-opinion
 ---
 
 # Key Claims
@@ -23,24 +27,24 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Comprehensive review of recent advances in AD mechanisms, clinical trials, and drug development
-- **Mechanistic advances**:
-  - Amyloid cascade: refined understanding of toxic oligomeric species vs. fibrillar plaques
-  - Tau pathology: prion-like propagation of tau aggregates through connected brain regions
-  - Neuroinflammation: microglial activation, TREM2 signaling, complement system involvement
-  - Synaptic dysfunction and loss as early event preceding neuronal death
-  - Metabolic dysfunction: insulin resistance, lipid dysregulation, mitochondrial impairment
-  - Vascular contributions: BBB breakdown, cerebral amyloid angiopathy
-- **Clinical trial advances**:
-  - Anti-amyloid immunotherapy: lecanemab and donanemab showing modest but significant clinical benefit
-  - Anti-tau approaches: tau vaccines and antibodies in early-phase trials
-  - BACE inhibitors: discontinued due to cognitive worsening despite amyloid reduction
-  - Neuroinflammation-targeted therapies under investigation
-  - Combination therapy approaches gaining interest
-- **Drug development strategies**:
-  - Multi-target directed ligands (MTDLs)
-  - Disease-modifying therapies vs. symptomatic treatment
-  - Precision medicine approaches based on biomarker profiles
-  - Digital health technologies for outcome assessment
+
+ - Amyloid cascade: refined understanding of toxic oligomeric species vs. fibrillar plaques
+ - Tau pathology: prion-like propagation of tau aggregates through connected brain regions
+ - Neuroinflammation: microglial activation, TREM2 signaling, complement system involvement
+ - Synaptic dysfunction and loss as early event preceding neuronal death
+ - Metabolic dysfunction: insulin resistance, lipid dysregulation, mitochondrial impairment
+ - Vascular contributions: BBB breakdown, cerebral amyloid angiopathy
+
+ - Anti-amyloid immunotherapy: lecanemab and donanemab showing modest but significant clinical benefit
+ - Anti-tau approaches: tau vaccines and antibodies in early-phase trials
+ - BACE inhibitors: discontinued due to cognitive worsening despite amyloid reduction
+ - Neuroinflammation-targeted therapies under investigation
+ - Combination therapy approaches gaining interest
+
+ - Multi-target directed ligands (MTDLs)
+ - Disease-modifying therapies vs. symptomatic treatment
+ - Precision medicine approaches based on biomarker profiles
+ - Digital health technologies for outcome assessment
 
 # Connections
 

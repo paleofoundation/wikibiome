@@ -102,10 +102,10 @@ Humans cannot directly metabolize ellagic acid; all urolithin production depends
 ## Connections
 
 - [[cardiovascular-disease]] – urolithin A producer; protects vascular endothelium and reduces atherosclerosis risk
-- [[polyphenols]] – metabolizes ellagic acid and ellagitannins from berries and pomegranate
+- – metabolizes ellagic acid and ellagitannins from berries and pomegranate
 - [[short-chain-fatty-acids]] – produces butyrate alongside urolithin synthesis
-- [[mitochondrial-function]] – urolithin A restores mitophagy and oxidative phosphorylation
-- [[aging]] – urolithin pathway implicated in healthy aging and longevity
+- – urolithin A restores mitophagy and oxidative phosphorylation
+- – urolithin pathway implicated in healthy aging and longevity
 - [[iron]] – iron-dependent urolithin synthesis pathway
 - [[dysbiosis]] – depleted in Western diets lacking polyphenol diversity
-- [[eggerthellaceae]] – family-level link; other members also produce urolithin metabolites
+- – family-level link; other members also produce urolithin metabolites

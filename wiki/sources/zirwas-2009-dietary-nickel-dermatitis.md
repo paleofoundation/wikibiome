@@ -10,6 +10,7 @@ year: 2009
 tags: [dietary-nickel, systemic-contact-dermatitis, nickel-allergy, low-nickel-diet, vitamin-C, disulfiram]
 doi: "10.2196/47913"
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Dietary Nickel as a Cause of Systemic Contact Dermatitis

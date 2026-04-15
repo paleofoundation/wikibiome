@@ -9,6 +9,7 @@ journal: "Genome Biology"
 doi: "10.1186/s13059-023-03056-y"
 tags: [chronic-kidney-disease, CKD, metagenomics, ESRD, hemodialysis, Blautia, Dorea, Eggerthellaceae, antimicrobial-resistance, uremic-toxins]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Metagenome-Wide Gut Microbial Signatures in ESRD

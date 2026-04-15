@@ -83,7 +83,7 @@ virulence_enzymes: [curli-fibers, lipopolysaccharide, bacterial-amyloids, sidero
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: []
-stops: []
+stops: [stop-iron-supplementation-alzheimers]
 platform: cureva
 ---
 

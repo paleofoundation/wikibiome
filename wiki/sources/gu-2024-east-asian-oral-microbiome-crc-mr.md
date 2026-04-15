@@ -32,7 +32,7 @@ platform: wikibiome
 ## Connections
 
 - Oral microbiome MR approach complements [[kudra-2023-oral-microbiome-crc-perspectives]] and [[rezasoltani-2024-16s-oral-fecal-microbiota-crc-iran]]
-- JAK-STAT pathway findings connect to [[immune-response]] and [[microbiome-and-immune-system]] mechanisms
-- Drug prediction component relates to [[microbiome-modulating-drugs]] therapeutic strategies
-- East Asian population focus provides ethnic diversity to predominantly European [[mendelian-randomization]] studies like [[long-2023-causal-gut-microbiota-cancers-mr]]
+- JAK-STAT pathway findings connect to and mechanisms
+- Drug prediction component relates to therapeutic strategies
+- East Asian population focus provides ethnic diversity to predominantly European studies like [[long-2023-causal-gut-microbiota-cancers-mr]]
 - [[colorectal-cancer]]

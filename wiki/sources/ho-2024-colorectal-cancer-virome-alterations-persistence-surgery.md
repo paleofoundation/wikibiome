@@ -25,14 +25,14 @@ platform: wikibiome
 
 - **Type**: Prospective cohort study (12 CRC patients with pre- and post-surgery samples + 25 NC controls)
 - **Methods**: Metagenomic sequencing with viral enrichment using probe capture-based system; SparCC correlation networks; LEfSe analysis; network degree centrality analysis
-- **Key findings**:
-  - Top 40 viruses: majority were bacteriophages with only 4 vertebrate viruses (Mamastrovirus 1 in 41.8% of samples)
-  - Alpha diversity: similar among healthy, pre-surgery, and post-surgery groups (Shannon, Simpson, Chao1)
-  - LEfSe discriminative features: *Klebsiella* virus SU552A, *Enterobacteria* phage P88, *Mesorhizobium* phage enriched in healthy; Human Mastadenovirus C, *Escherichia* virus 24B enriched in pre-surgery CRC
-  - Network connectivity: 99 significant co-occurrence and co-exclusion relationships in virus-virus networks; increased in CRC pre-surgery vs healthy
-  - Trans-kingdom: *Enterobacteria* phage P88 positively correlated to *Megasphaera* spp. (butyrate producers) and negatively to *Anaerotruncus hadrus* in pre-surgery
-  - *Escherichia* virus phiV10 negatively linked to *Faecalibacterium prausnitzii* (ASV 9) in pre-surgery
-  - Post-surgery: some co-occurrence patterns between *Streptococcus mitis/parasanguinis* and *Streptococcus* sp. remained stable, indicating persistent dysbiosis
+
+ - Top 40 viruses: majority were bacteriophages with only 4 vertebrate viruses (Mamastrovirus 1 in 41.8% of samples)
+ - Alpha diversity: similar among healthy, pre-surgery, and post-surgery groups (Shannon, Simpson, Chao1)
+ - LEfSe discriminative features: *Klebsiella* virus SU552A, *Enterobacteria* phage P88, *Mesorhizobium* phage enriched in healthy; Human Mastadenovirus C, *Escherichia* virus 24B enriched in pre-surgery CRC
+ - Network connectivity: 99 significant co-occurrence and co-exclusion relationships in virus-virus networks; increased in CRC pre-surgery vs healthy
+ - Trans-kingdom: *Enterobacteria* phage P88 positively correlated to *Megasphaera* spp. (butyrate producers) and negatively to *Anaerotruncus hadrus* in pre-surgery
+ - *Escherichia* virus phiV10 negatively linked to *Faecalibacterium prausnitzii* (ASV 9) in pre-surgery
+ - Post-surgery: some co-occurrence patterns between *Streptococcus mitis/parasanguinis* and *Streptococcus* sp. remained stable, indicating persistent dysbiosis
 
 ## Connections
 

@@ -139,7 +139,6 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 6. **What is the relative contribution of vagal vs. systemic pathways?** Alpha-synuclein propagates via vagus nerve; inflammation propagates systemically. Which dominates?
 7. **Nickel's role**: Is dietary Ni exposure via its effects on gut pathogens (urease, hydrogenase) a modifiable PD risk factor?
 
-
 ## Comorbidities
 
 - [[depression]] -- depression affects 30-40% of PD patients, often preceding motor symptoms by years; shared gut-brain axis disruption via SCFA depletion and tryptophan pathway shifts; serotonergic neuron loss in the raphe nuclei parallels dopaminergic loss in the substantia nigra; L-DOPA treatment can worsen depression by depleting serotonin precursors
@@ -156,12 +155,10 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 ## Connections
 
 - **Metals**: [[iron]], [[manganese]], [[copper]], [[zinc]], [[lead]], [[cadmium]], [[mercury]], [[selenium]], [[nickel]]
-- **Concepts**: [[ferroptosis]], [[alpha-synuclein]], [[neuromelanin]], [[gut-brain-axis]], [[oxidative-stress|oxidative stress]], [[dopaminergic-neurons]], [[mis-metallation]], [[pheomelanin]]
+- **Concepts**: [[ferroptosis]], [[alpha-synuclein]], [[gut-brain-axis]], [[oxidative-stress|oxidative stress]], [[mis-metallation]]
 - **Analyses**: [[metal-disease-matrix]]
 - **Related diseases**: [[alzheimers-disease]] (shared Cu depletion, ferroptosis, gut-brain axis), [[chronic-kidney-disease]] (shared ferroptosis pathway)
 - **Pathogens**: [[escherichia-coli]] (curli cross-seeding alpha-synuclein), [[helicobacter-pylori]] (urease/Ni-dependent gut pathogen)
-- **Occupational**: [[welding-exposure]], [[manganese-parkinsonism]]
-- **Interventions**: [[iron-chelation]], [[metal-sequestering-probiotics]], [[fmt]], [[scfa-supplementation]]
 - [[fecal-microbiota-transplant]] -- emerging intervention to restore gut-brain axis signaling; early case series show motor improvement
 - [[neurodegeneration]] -- PD is the second most common neurodegenerative disease; ferroptosis as shared mechanism with AD
 - [[environmental-metal-exposure]] -- occupational Mn exposure (welding) and agricultural pesticide-metal mixtures as PD risk factors

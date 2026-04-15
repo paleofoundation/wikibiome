@@ -25,13 +25,13 @@ platform: wikibiome
 
 - **Type**: Cohort study (34 CRC patients, tumour tissue samples)
 - **Methods**: RNA-sequencing with CMS classification; bacterial 16S rRNA V3-V4 metabarcoding; Kraken taxonomic classification of non-human RNA-seq reads; qPCR validation
-- **Key findings**:
-  - CMS classification: 18% CMS1, 39% CMS2, 27% CMS3, 0% CMS4, 15% unclassified
-  - Firmicutes (average 49.34%), Bacteroidetes (36.91%), Proteobacteria (8.12%), Fusobacteria (4.07%) were dominant phyla
-  - 16S rRNA vs Kraken RNA-seq: average correlation 0.65 at genus level, 0.85 at phylum level
-  - CMS1: *F. hwasooki* and *P. gingivalis* co-occur with *Treponema denticola* and *Tannerella forsythia*
-  - CMS2: *Selenomonas sp.* validated by qPCR
-  - Tumour differentiation, location, and CMS subtype all associated with bacterial composition changes
+
+ - CMS classification: 18% CMS1, 39% CMS2, 27% CMS3, 0% CMS4, 15% unclassified
+ - Firmicutes (average 49.34%), Bacteroidetes (36.91%), Proteobacteria (8.12%), Fusobacteria (4.07%) were dominant phyla
+ - 16S rRNA vs Kraken RNA-seq: average correlation 0.65 at genus level, 0.85 at phylum level
+ - CMS1: *F. hwasooki* and *P. gingivalis* co-occur with *Treponema denticola* and *Tannerella forsythia*
+ - CMS2: *Selenomonas sp.* validated by qPCR
+ - Tumour differentiation, location, and CMS subtype all associated with bacterial composition changes
 
 ## Connections
 

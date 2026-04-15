@@ -48,8 +48,8 @@ Non-randomized controlled study (30 ASD, 30 neurotypical controls):
 - **Primitive 4 (Microbial Metal Dependencies)**: VALIDATED for [[nickel]]. The enrichment of **nickel transport system** genes in ASD microbiota directly suggests metal-driven dysbiosis
 - **Metal-dependent pathogens**: Taxa enrichment may reflect selection for [[nickel]]-dependent organisms (e.g., [[clostridium]] subtypes with nickel-dependent hydrogenases and glyoxalases)
 - **Metabolite dysfunction link**: Dysbiotic taxa may have altered amino acid metabolism **due to nickel metal cofactor availability**
-  - Ornithine depletion → impaired polyamine synthesis → loss of barrier function
-  - Valine elevation → branched-chain amino acid imbalance → tryptophan metabolism disruption
+ - Ornithine depletion → impaired polyamine synthesis → loss of barrier function
+ - Valine elevation → branched-chain amino acid imbalance → tryptophan metabolism disruption
 - **Metabolic pathway bottleneck**: If pathogenic nickel-dependent taxa out-compete protective taxa for nickel, host loses access to metabolite-producing commensals
 - **Intervention target**: Nickel restriction (diet, chelation) could suppress dysbiotic taxa → restore protective microbiota → normalize amino acid homeostasis
 

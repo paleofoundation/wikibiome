@@ -1,26 +1,59 @@
 ---
-
 title: "Genchi 2020 — Nickel: Human Health and Environmental Toxicology"
 type: source
-created: 2026-04-09
-updated: 2026-04-14
-authors: [Genchi G, Carocci A, Lauria G, Sinicropi MS, Catalano A]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-14T00:00:00.000Z
+authors:
+  - Genchi G
+  - Carocci A
+  - Lauria G
+  - Sinicropi MS
+  - Catalano A
 journal: International Journal of Environmental Research and Public Health
 year: 2020
-tags: [nickel, toxicity, carcinogenicity, allergy, epigenetics, apoptosis, phytoremediation, oxidative-stress, contact-dermatitis, occupational-exposure, teratogenicity]
-doi: "10.3390/ijerph17030679"
+tags:
+  - nickel
+  - toxicity
+  - carcinogenicity
+  - allergy
+  - epigenetics
+  - apoptosis
+  - phytoremediation
+  - oxidative-stress
+  - contact-dermatitis
+  - occupational-exposure
+  - teratogenicity
+doi: 10.3390/ijerph17030679
 evidence_level: expert-opinion
-sample_size: "N/A"
+sample_size: N/A
 library_category: heavy-metals
 platform: both
-condition: "cross-condition"
-karen_brain_primitives: [1, 3, 4]
-metals_discussed: [nickel, iron, zinc, cobalt, copper]
-taxa_discussed: [bacillus, streptomyces, salmonella]
+condition: cross-condition
+karen_brain_primitives:
+  - 1
+  - 3
+  - 4
+metals_discussed:
+  - nickel
+  - iron
+  - zinc
+  - cobalt
+  - copper
+taxa_discussed:
+  - bacillus
+  - streptomyces
+  - salmonella
 key_findings:
-  - "Nickel inhibits enzymes by replacing Zn2+/Fe2+/Co2+ at catalytic sites (mis-metallation)"
-  - "IARC Group 1 carcinogen; dietary exposure 100-300 ug/day from cocoa/nuts/grains"
+  - Nickel inhibits enzymes by replacing Zn2+/Fe2+/Co2+ at catalytic sites (mis-metallation)
+  - IARC Group 1 carcinogen; dietary exposure 100-300 ug/day from cocoa/nuts/grains
   - "Nickel-dependent bacterial enzymes: urease, NiFe-hydrogenase, glyoxalase, acireductone dioxygenase"
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Establishes nickel as both a selective pressure (IARC Group 1 carcinogen inducing epigenetic changes and apoptosis) and an ecological driver through its role in bacterial urease and siderophore metabolism. WikiBiome's understanding of nickel-driven dysbiosis across endometriosis, ASD, and Parkinson's depends on this foundational nickel toxicology."
 ---
 
 # Key Claims

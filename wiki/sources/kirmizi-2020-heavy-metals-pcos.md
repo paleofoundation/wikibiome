@@ -1,15 +1,36 @@
 ---
-
-title: "Are Heavy Metal Exposure and Trace Element Levels Related to Metabolic and Endocrine Problems in Polycystic Ovary Syndrome?"
+title: Are Heavy Metal Exposure and Trace Element Levels Related to Metabolic and Endocrine Problems in Polycystic Ovary Syndrome?
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Kirmizi DA, Baser E, Turksoy VA, Kara M, Yalvac ES, Gocmen AY]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Kirmizi DA
+  - Baser E
+  - Turksoy VA
+  - Kara M
+  - Yalvac ES
+  - Gocmen AY
 journal: Biological Trace Element Research
 year: 2020
-tags: [PCOS, heavy-metals, antimony, cadmium, lead, mercury, oxidative-stress, insulin-resistance, inflammation]
-doi: "10.1007/s12011-020-02220-w"
+tags:
+  - PCOS
+  - heavy-metals
+  - antimony
+  - cadmium
+  - lead
+  - mercury
+  - oxidative-stress
+  - insulin-resistance
+  - inflammation
+doi: 10.1007/s12011-020-02220-w
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Quantifies heavy metal burden in PCOS showing antimony and cadmium elevated with direct correlation to insulin resistance, while zinc depletion parallels findings in autism and autoimmune conditions—establishing metal dysregulation as a cross-condition pattern selecting for dysbiotic organisms. WikiBiome depends on this evidence to explain how endocrine dysbiosis (estrobolome expansion) emerges from metal-driven immune dysfunction and zinc-dependent barrier failure in reproductive disease."
 ---
 
 # Key Claims
@@ -30,13 +51,13 @@ platform: wikibiome
 - **Diagnosis**: Rotterdam criteria
 - **Metals measured**: As, Cr, Cd, Sb, Hg, Pb, Cu, Zn in blood via ICP-MS
 - **Oxidative/inflammatory markers**: MDA, SOD, TAS, TOS, OSI, HsCRP, TNF-alpha
-- **Key quantitative findings**:
-  - Sb: PCOS 3.1 vs control 2.9 ppb (p < 0.001)
-  - Cd: PCOS 1.2 vs control 0.7 ppb (p < 0.001)
-  - Pb: PCOS 23.1 vs control 15.5 ppb (p < 0.001)
-  - Hg: PCOS 2.2 vs control 1.3 ppb (p < 0.001)
-  - Cu: PCOS 1025 vs control 1104 ppb (p = 0.030)
-  - Zn: PCOS 1350 vs control 1598 ppb (p = 0.010)
+
+ - Sb: PCOS 3.1 vs control 2.9 ppb (p < 0.001)
+ - Cd: PCOS 1.2 vs control 0.7 ppb (p < 0.001)
+ - Pb: PCOS 23.1 vs control 15.5 ppb (p < 0.001)
+ - Hg: PCOS 2.2 vs control 1.3 ppb (p < 0.001)
+ - Cu: PCOS 1025 vs control 1104 ppb (p = 0.030)
+ - Zn: PCOS 1350 vs control 1598 ppb (p = 0.010)
 - **Correlations**: Sb and Cd with HOMA-IR; Pb with MDA, TOS, HsCRP; Zn negatively correlated with FG
 - **Limitations**: Single-center; cross-sectional design; no assessment of dietary or environmental exposure sources
 

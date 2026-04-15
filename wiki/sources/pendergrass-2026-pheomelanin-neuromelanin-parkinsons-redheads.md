@@ -10,6 +10,9 @@ year: 2025
 tags: [Parkinsons-disease, pheomelanin, eumelanin, neuromelanin, iron, copper, redheads, MC1R, melanin, dopamine, substantia-nigra, oxidative-stress, ferroptosis, metal-binding, neurodegeneration]
 doi: "10.5281/zenodo.17976306"
 platform: wikibiome
+keystone: true
+keystone_criteria_met: [1, 4, 5]
+why_keystone: "This paper bridged melanin biochemistry, metal chelation chemistry, and Parkinson's neuropathology — three fields that had never been connected through a single mechanistic framework. It explains *why* MC1R variants increase PD risk by identifying the differential metal-binding capacity of pheomelanin versus eumelanin in neuromelanin as the mechanistic linchpin. This reframed Parkinson's susceptibility in redheads from an unexplained epidemiological association into a metal-dependent biochemical vulnerability, opening an entirely new axis of investigation for WikiBiome's neurodegenerative disease signatures."
 ---
 
 # Pheomelanin, Eumelanin, and Neuromelanin: A Metal-Linked Hypothesis for Parkinson's Risk in Redheads
@@ -39,7 +42,7 @@ platform: wikibiome
 ## Connections
 
 - [[parkinsons-disease]] -- central disease focus; connects to established metal-PD literature
-- [[Iron-dysregulation]] -- iron accumulation in substantia nigra as key pathological feature, paralleling findings in [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]
+- -- iron accumulation in substantia nigra as key pathological feature, paralleling findings in [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]
 - [[ferroptosis]] -- proposed cell death mechanism linking iron, lipid peroxidation, and neuronal loss; relates to [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] ferroptosis discussion
 - [[Oxidative stress]] -- pheomelanin as pro-oxidant vs. eumelanin as antioxidant/chelator
 - [[copper]] -- copper-melanin interactions relevant; copper dysregulation in PD discussed in [[scholefield-2024-brain-metallomics-dementia]]

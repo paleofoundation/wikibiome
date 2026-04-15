@@ -24,12 +24,12 @@ platform: wikibiome
 - **Design**: Observational cohort study at a reproductive medicine center in Vancouver, Canada (May 2014 to December 2016)
 - **Participants**: 87 women with PCOS (Rotterdam criteria) and 50 women without PCOS
 - **Data collected**: 3-day food records, physical activity records (pedometer), anthropometrics, metabolic and hormonal assays
-- **Key results**:
-  - PCOS women had higher BMI (29.0 vs 24.1, p < 0.001) but similar caloric intake and physical activity
-  - No differences in protein, carbohydrate, fat, or glycemic load between groups
-  - Fiber intake negatively correlated with HOMA-IR (rho = -0.35, p < 0.005), fasting insulin, glucose tolerance, testosterone, and DHEAS
-  - Magnesium negatively correlated with IR, CRP, and testosterone; positively with HDL
-  - Stepwise regression: fiber intake and BMI = independent predictors of HOMA-IR (54% variance)
+
+ - PCOS women had higher BMI (29.0 vs 24.1, p < 0.001) but similar caloric intake and physical activity
+ - No differences in protein, carbohydrate, fat, or glycemic load between groups
+ - Fiber intake negatively correlated with HOMA-IR (rho = -0.35, p < 0.005), fasting insulin, glucose tolerance, testosterone, and DHEAS
+ - Magnesium negatively correlated with IR, CRP, and testosterone; positively with HDL
+ - Stepwise regression: fiber intake and BMI = independent predictors of HOMA-IR (54% variance)
 
 # Connections
 

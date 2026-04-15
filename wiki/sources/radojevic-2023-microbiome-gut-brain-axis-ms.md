@@ -40,10 +40,10 @@ platform: wikibiome
 
 - [[multiple-sclerosis]] -- MGBA as integrative framework for MS pathogenesis
 - [[gut-brain-axis]] -- central concept linking gut dysbiosis to CNS demyelination
-- [[EBV]] -- Epstein-Barr virus as major environmental trigger for MS
-- [[vitamin-D]] -- deficiency as modifiable risk factor interacting with MGBA
-- [[HLA]] -- HLA-DRB1*15:01 as strongest genetic risk factor for MS
+- -- Epstein-Barr virus as major environmental trigger for MS
+- -- deficiency as modifiable risk factor interacting with MGBA
+- -- HLA-DRB1*15:01 as strongest genetic risk factor for MS
 - [[dysbiosis]] -- compositional shifts in bacteria, fungi, and viruses in MS
 - [[short-chain-fatty-acids]] -- anti-inflammatory metabolites depleted in MS
-- [[tryptophan]] -- kynurenine pathway generating neurotoxic metabolites
+- -- kynurenine pathway generating neurotoxic metabolites
 - [[mycobiome]] -- fungal dysbiosis with increased Saccharomyces and Aspergillus

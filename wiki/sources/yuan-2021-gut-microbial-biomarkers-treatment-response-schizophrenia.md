@@ -9,6 +9,7 @@ year: 2021
 doi: "10.1038/s41398-021-01531-3"
 tags: [schizophrenia, first-episode-psychosis, microbiome, biomarkers, risperidone, Lachnoclostridium, Romboutsia, treatment-response, alpha-diversity, CRP, homocysteine]
 platform: wikibiome
+evidence_level: prospective-cohort
 ---
 
 # Gut Microbial Biomarkers for the Treatment Response in First-Episode, Drug-Naive Schizophrenia

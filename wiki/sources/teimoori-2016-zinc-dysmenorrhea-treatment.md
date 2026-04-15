@@ -10,6 +10,9 @@ year: 2016
 tags: [zinc, dysmenorrhea, RCT, mefenamic-acid, prostaglandins, menstrual-pain, supplementation, clinical-trial]
 doi: "10.5001/omj.2016.13"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: ["zinc"]
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -26,10 +29,10 @@ platform: wikibiome
 - **Groups**: Intervention (n=100) received zinc sulfate capsules 220 mg once daily + mefenamic acid 250 mg three times daily; Control (n=100) received placebo + mefenamic acid
 - **Treatment protocol**: Drugs taken three days before menstruation and continuing three days after onset of menstruation, for three menstrual cycles
 - **Pain measurement**: Visual Analog Scale (VAS, 0-10) -- pain ruler measured before and after treatment
-- **Results**:
-  - Intervention group: pain decreased from 5.3 +/- 1.8 to 1.2 +/- 1.9 (reduction of 4.1 +/- 2.8)
-  - Control group: pain decreased from 5.8 +/- 2.1 to 2.9 +/- 2.6 (reduction of 2.9 +/- 1.7)
-  - No significant between-group difference in mean pain scores (p = 0.346), but significant difference in dysmenorrhea incidence (p < 0.001)
+
+ - Intervention group: pain decreased from 5.3 +/- 1.8 to 1.2 +/- 1.9 (reduction of 4.1 +/- 2.8)
+ - Control group: pain decreased from 5.8 +/- 2.1 to 2.9 +/- 2.6 (reduction of 2.9 +/- 1.7)
+ - No significant between-group difference in mean pain scores (p = 0.346), but significant difference in dysmenorrhea incidence (p < 0.001)
 - **Inclusion criteria**: History of primary dysmenorrhea for at least one day per month; similar diets; regular menstrual cycles; no chronic/systemic diseases
 - **Exclusion criteria**: Gynecological disease, significant medical history, active disease
 - **Mechanism**: Zinc inhibits COX-1 and COX-2 enzymes, reduces prostaglandin (PGF2alpha and PGE2) production, promotes microcirculation, and inactivates oxygen free radicals

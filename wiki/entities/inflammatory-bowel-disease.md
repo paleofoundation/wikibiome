@@ -75,7 +75,6 @@ IBD patients have significantly increased [[cardiovascular-disease]] risk:
 - IV iron preferred over oral iron in active IBD to avoid worsening dysbiosis.
 - Targeting [[hepcidin]] pathway may address the inflammation-anemia paradox.
 
-
 ## Key Sources
 
 - [[zhu-2021-editorial-microbiome-ibd-composition-therapy]]

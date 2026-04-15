@@ -10,11 +10,12 @@ year: 2025
 tags: [infants, metals-mixture, gut-microbiota, arsenic, copper, cadmium, manganese, Mendelian-randomization, BKMR, metal-interactions, alpha-diversity, preterm]
 doi: "10.3389/fmicb.2025.1669475"
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Key Claims
 
-- Barium (Ba) and [[Arsenic Toxicity|arsenic]] (As) were positively associated with the Chao1 index (alpha diversity) in infant gut microbiota, while chromium (Cr), antimony (Sb), cobalt (Co), copper (Cu), lanthanum (La), praseodymium (Pr), and uranium (U) showed negative associations
+- Barium (Ba) and [[arsenic]] (As) were positively associated with the Chao1 index (alpha diversity) in infant gut microbiota, while chromium (Cr), antimony (Sb), cobalt (Co), copper (Cu), lanthanum (La), praseodymium (Pr), and uranium (U) showed negative associations
 - Six significant antagonistic metal-metal interactions were identified (Cr-W, Cr-La, Tl-As, As-La, As-Pr, La-Pr), alongside two synergistic interactions (Sb-Pr and Sb-U)
 - Bayesian kernel machine regression (BKMR) identified manganese (Mn) as a key contributor to Burkholderia-Caballeronia-Paraburkholderia abundance (PIP = 0.535), with As driving Ralstonia abundance (PIP = 0.886)
 - Cu was the primary driver of Clostridium_sensu_stricto_1 abundance (PIP = 0.867), with synergistic Mn-Cu and Ba-Cu interactions

@@ -40,6 +40,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- empathizing-systemizing cognitive theory
-- [[sex-differences]] -- extreme male brain theory explaining sex ratio
-- [[social-communication]] -- empathizing deficits as core ASD feature
-- [[theory-of-mind]] -- mind-blindness as precursor to E-S theory
+- -- extreme male brain theory explaining sex ratio
+- -- empathizing deficits as core ASD feature
+- -- mind-blindness as precursor to E-S theory

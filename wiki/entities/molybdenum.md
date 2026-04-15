@@ -88,6 +88,6 @@ The first study to examine Mo in PCOS found significantly lower levels in affect
 - [[pcos]] -- lower Mo in PCOS patients; Cu-Mo antagonism potentially relevant
 - [[copper]] -- antagonistic relationship; elevated Cu may drive low Mo in PCOS
 - [[oxidative-stress]] -- xanthine oxidase (Mo-dependent) is a significant endogenous ROS source
-- [[xanthine-oxidase]] -- Mo-dependent enzyme; target of gout therapy (allopurinol)
-- [[food-safety]] -- Mo overexposure in baby food jars
+- -- Mo-dependent enzyme; target of gout therapy (allopurinol)
+- -- Mo overexposure in baby food jars
 - [[iron]] -- shared biosynthetic pathways for cofactor assembly

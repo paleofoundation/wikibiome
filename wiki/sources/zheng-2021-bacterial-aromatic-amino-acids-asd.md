@@ -12,6 +12,7 @@ library_category: "Microbial metabolites"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-15"
+evidence_level: expert-opinion
 ---
 
 # Overview

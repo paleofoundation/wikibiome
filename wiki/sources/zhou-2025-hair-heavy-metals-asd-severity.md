@@ -9,6 +9,10 @@ journal: Biological Trace Element Research
 year: 2025
 tags: [autism, heavy-metals, hair-analysis, copper, nickel, arsenic, cadmium, lead, vanadium, cobalt, severity, ICP-MS, children]
 platform: wikibiome
+karen_brain_primitives: [1]
+metals_discussed: ["arsenic", "cadmium", "cobalt", "copper", "lead", "nickel", "zinc"]
+taxa_discussed: []
+evidence_level: cross-sectional
 ---
 
 # Zhou et al. 2025 -- Hair Heavy Metals and Essential Minerals in ASD Children by Severity
@@ -26,25 +30,25 @@ platform: wikibiome
 - **Type**: Cross-sectional case-control study
 - **Population**: 181 children (ages 1-16) from southeastern Fujian, China: 57 controls, 53 mild-to-moderate ASD, 71 severe ASD
 - **Methods**: ICP-MS analysis of 21 chemical elements in hair; CARS scoring for severity
-- **Essential minerals (Table 2)**:
-  - **[[copper]]**: Control 7.38, mild-moderate 8.47*, severe 8.63* (p < 0.001). Only essential mineral significantly different
-  - **[[zinc]]**: Control 99.2, mild-moderate 91.6, severe 97.0 (p = 0.663). NOT significantly different
-  - Iron: Control 14.5, mild-moderate 12.9, severe 14.7 (p = 0.301). Not significant
-  - Manganese: Not significant across groups (p = 0.071)
-- **Heavy metals (Table 3)**:
-  - **Vanadium**: 0.029 vs 0.039* vs 0.044* (p = 0.007)
-  - **Cobalt**: 0.010 vs 0.015* vs 0.019* (p = 0.028)
-  - **[[nickel]]**: 0.186 vs 0.195 vs 0.248* (p = 0.014)
-  - **[[arsenic]]**: 0.072 vs 0.090 vs 0.116*ab (p < 0.001) -- severe > mild-moderate > control
-  - **[[cadmium]]**: 0.027 vs 0.045* vs 0.069* (p = 0.001)
-  - **[[lead]]**: 0.881 vs 1.661* vs 1.778* (p < 0.001)
-- **Age subgroups (Table 4, ages 1-6)**:
-  - Cu significantly elevated in both ASD groups (p = 0.044)
-  - Mn significantly elevated in severe ASD (p = 0.037)
-  - V, Co, Ni, As, Cd, Pb all significantly elevated in severe ASD
-- **Age subgroup (Table 5, ages 7-16)**:
-  - Cu significantly higher in severe ASD (p = 0.005)
-  - As significantly higher in severe ASD compared to mild-moderate (p = 0.002)
+
+ - **[[copper]]**: Control 7.38, mild-moderate 8.47*, severe 8.63* (p < 0.001). Only essential mineral significantly different
+ - **[[zinc]]**: Control 99.2, mild-moderate 91.6, severe 97.0 (p = 0.663). NOT significantly different
+ - Iron: Control 14.5, mild-moderate 12.9, severe 14.7 (p = 0.301). Not significant
+ - Manganese: Not significant across groups (p = 0.071)
+
+ - **Vanadium**: 0.029 vs 0.039* vs 0.044* (p = 0.007)
+ - **Cobalt**: 0.010 vs 0.015* vs 0.019* (p = 0.028)
+ - **[[nickel]]**: 0.186 vs 0.195 vs 0.248* (p = 0.014)
+ - **[[arsenic]]**: 0.072 vs 0.090 vs 0.116*ab (p < 0.001) -- severe > mild-moderate > control
+ - **[[cadmium]]**: 0.027 vs 0.045* vs 0.069* (p = 0.001)
+ - **[[lead]]**: 0.881 vs 1.661* vs 1.778* (p < 0.001)
+
+ - Cu significantly elevated in both ASD groups (p = 0.044)
+ - Mn significantly elevated in severe ASD (p = 0.037)
+ - V, Co, Ni, As, Cd, Pb all significantly elevated in severe ASD
+
+ - Cu significantly higher in severe ASD (p = 0.005)
+ - As significantly higher in severe ASD compared to mild-moderate (p = 0.002)
 - **Sex differences**: Boys showed broader metal elevations; girls primarily showed lower K in severe ASD
 
 ## Connections

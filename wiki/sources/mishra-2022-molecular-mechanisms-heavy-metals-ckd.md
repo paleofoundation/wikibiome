@@ -1,15 +1,42 @@
 ---
-
-title: "Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease"
+title: Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Manish Mishra, Larry Nichols, Aditi A. Dave, Elizabeth H. Pittman, John P. Cheek, Anasalea J.V. Caroland, Purva Lotwala, James Drummond, Christy C. Bridges]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Manish Mishra
+  - Larry Nichols
+  - Aditi A. Dave
+  - Elizabeth H. Pittman
+  - John P. Cheek
+  - Anasalea J.V. Caroland
+  - Purva Lotwala
+  - James Drummond
+  - Christy C. Bridges
 journal: International Journal of Molecular Sciences
 year: 2022
-tags: [chronic-kidney-disease, CKD, arsenic, cadmium, mercury, nephrotoxicity, oxidative-stress, mitochondrial-dysfunction, ferroptosis, epigenetics, fibrosis, inflammation]
-doi: "10.3390/ijms23063997"
+tags:
+  - chronic-kidney-disease
+  - CKD
+  - arsenic
+  - cadmium
+  - mercury
+  - nephrotoxicity
+  - oxidative-stress
+  - mitochondrial-dysfunction
+  - ferroptosis
+  - epigenetics
+  - fibrosis
+  - inflammation
+doi: 10.3390/ijms23063997
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Maps distinct metal-specific mechanisms of kidney injury for arsenic (ROS/MAPK/NF-kB activation), cadmium (electron transport chain disruption, ER stress, 10→25% CKD risk), and mercury (mitochondrial depolarization, cytoskeletal damage)—establishing these metals as distinct nephrotoxins with separate mechanistic signatures. WikiBiome depends on this evidence to explain why CKD populations accumulate toxic metals, enabling characterization of the reciprocal metal-kidney-disease pathway across signature layers."
 ---
 
 # Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease
@@ -36,9 +63,9 @@ platform: wikibiome
 ## Connections
 
 - [[Chronic kidney disease]] -- comprehensive molecular pathogenesis review
-- [[Heavy metal nephrotoxicity]] -- As, Cd, Hg mechanisms in kidney injury
+- -- As, Cd, Hg mechanisms in kidney injury
 - [[Oxidative stress]] -- central mechanism in CKD progression
 - [[ferroptosis]] -- iron-dependent cell death pathway in kidneys
-- [[Cadmium toxicity]] -- detailed Cd nephrotoxicity mechanisms
-- [[Mitochondrial dysfunction]] -- renal cells' high dependence on oxidative phosphorylation
+- -- detailed Cd nephrotoxicity mechanisms
+- -- renal cells' high dependence on oxidative phosphorylation
 - [[Epigenetic modifications]] -- DNA methylation changes driving CKD progression

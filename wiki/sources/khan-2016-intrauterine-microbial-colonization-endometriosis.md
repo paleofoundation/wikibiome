@@ -25,11 +25,11 @@ platform: wikibiome
 - **Study design**: Case-control biological study at Nagasaki University Hospital
 - **Participants**: 32 women with endometriosis and 32 controls, with GnRHa-treated and untreated subgroups
 - **Methods**: 16S rDNA metagenome sequence analysis (Illumina MiSeq) and bacterial culture
-- **Key results**:
-  - 5 major families detected: Lactobacillaceae, Streptococcaceae, Staphylococcaceae, Enterobacteriaceae, Moraxellaceae
-  - GnRHa treatment increased colony formation of *Gardnerella*, *E. coli*, and *Enterococci*
-  - Bacterial culture failed to detect single colonies in cystic fluid despite molecular detection
-  - Endometritis was higher in GnRHa-treated women (85.7% vs 68.4%, p=0.003)
+
+ - 5 major families detected: Lactobacillaceae, Streptococcaceae, Staphylococcaceae, Enterobacteriaceae, Moraxellaceae
+ - GnRHa treatment increased colony formation of *Gardnerella*, *E. coli*, and *Enterococci*
+ - Bacterial culture failed to detect single colonies in cystic fluid despite molecular detection
+ - Endometritis was higher in GnRHa-treated women (85.7% vs 68.4%, p=0.003)
 
 # Relevance to Wiki
 

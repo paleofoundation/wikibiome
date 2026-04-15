@@ -121,18 +121,18 @@ This demonstrates that **restoring the ecological source (Clostridia) is superio
 **Choose one of the two proven dysbiosis-reversal approaches:**
 
 1. **[[ketogenic-diet-ms]]**
-   - Restores Clostridia-containing Firmicutes; documented bacterial recovery in 6-month trial
-   - Mechanism: Reduced carbohydrate substrate selects for SCFA-producing bacteria; biphasic recovery with peak at 23-24 weeks
-   - Advantage: Dietary; no pharmaceutical adverse effects
-   - Timeline: 6 months for full recovery
-   - Combined with SCFA supplementation: May accelerate recovery during the 2-12 week suppression phase
+ - Restores Clostridia-containing Firmicutes; documented bacterial recovery in 6-month trial
+ - Mechanism: Reduced carbohydrate substrate selects for SCFA-producing bacteria; biphasic recovery with peak at 23-24 weeks
+ - Advantage: Dietary; no pharmaceutical adverse effects
+ - Timeline: 6 months for full recovery
+ - Combined with SCFA supplementation: May accelerate recovery during the 2-12 week suppression phase
 
 2. **[[b-cell-depletion-therapy-ms]]**
-   - Reverses dysbiosis by reducing pro-inflammatory B-cell cytokine environment
-   - Mechanism: Reduced IL-6/TNF-α/IL-23 selection pressure allows Clostridia and SCFA producers to re-establish
-   - Advantage: Pharmaceutical; proven clinical efficacy
-   - Timeline: 3-6 months for dysbiosis reversal; combined with clinical DMT benefit
-   - Combined with SCFA supplementation: Accelerates SCFA recovery; synergistic
+ - Reverses dysbiosis by reducing pro-inflammatory B-cell cytokine environment
+ - Mechanism: Reduced IL-6/TNF-α/IL-23 selection pressure allows Clostridia and SCFA producers to re-establish
+ - Advantage: Pharmaceutical; proven clinical efficacy
+ - Timeline: 3-6 months for dysbiosis reversal; combined with clinical DMT benefit
+ - Combined with SCFA supplementation: Accelerates SCFA recovery; synergistic
 
 ### Tier 2: Adjunctive SCFA + Secondary Bile Acid Support
 

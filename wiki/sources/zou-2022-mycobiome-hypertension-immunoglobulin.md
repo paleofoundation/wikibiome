@@ -12,6 +12,7 @@ tags: [cardiovascular-disease, mycobiome, hypertension, prehypertension, Malasse
 source_pdf: "raw/cardiovascular disease/Mycobiome cardiovascular disease/Gut mycobiome dysbiosis contributes to the development of hypertension and its response to immunoglobulin light chains.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Key Claims

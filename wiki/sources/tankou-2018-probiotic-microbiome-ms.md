@@ -10,6 +10,9 @@ year: 2018
 tags: [probiotics, multiple-sclerosis, microbiome, immunity, VSL3, Tregs, clinical-trial, metabolomics, gut-brain-axis]
 doi: "10.1002/ana.25244"
 platform: wikibiome
+karen_brain_primitives: [5]
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # A Probiotic Modulates the Microbiome and Immunity in Multiple Sclerosis
@@ -37,4 +40,4 @@ platform: wikibiome
 - Cited by [[dargahi-2020-streptococcus-thermophilus-ms]] as precedent for probiotic immune modulation in MS
 - Complements the Iranian clinical trials: [[tamtaji-2017-probiotic-gene-expression-ms]] and [[kouchaki-2017-clinical-metabolic-probiotic-ms]] which used a different probiotic formulation
 - The microbiome changes relate to findings in [[libbey-2018-diet-microbiota-eae]] showing *Lactobacillus* inversely correlates with EAE severity
-- Relevant to the broader concept that [[probiotics]] can modulate [[microbiome-immune-modulation]] through the [[gut-brain-axis]]
+- Relevant to the broader concept that [[probiotics]] can modulate through the [[gut-brain-axis]]

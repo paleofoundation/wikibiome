@@ -102,10 +102,10 @@ The 14 metals/organisms that need `subtype: metal`, `subtype: fungus`, or `subty
 ### 1.4 — Backslash wikilinks still broken in `dietary-metal-microbiome-interactions.md`
 
 Lines 58–61 still contain four broken backslash-pipe aliases:
-- `[[lactobacillus\|Lactobacillus]]`
-- `[[bifidobacterium\|Bifidobacterium]]`
-- `[[saccharomyces-cerevisiae\|Saccharomyces cerevisiae]]`
-- `[[bacillus\|Bacillus]]`
+- `[[lactobacillus|Lactobacillus]]`
+- `[[bifidobacterium|Bifidobacterium]]`
+- `[[saccharomyces-cerevisiae|Saccharomyces cerevisiae]]`
+- `[[bacillus|Bacillus]]`
 
 **Action:** Replace `\|` with `|` in those four wikilinks. 5-minute fix.
 

@@ -11,6 +11,7 @@ tags: [parkinsons-disease, probiotics, meta-analysis, randomized-controlled-tria
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Efficacy and Safety of Probiotics for the Treatment of Alzheimer's Disease, Mild Cognitive Impairment, and Parkinson's Disease

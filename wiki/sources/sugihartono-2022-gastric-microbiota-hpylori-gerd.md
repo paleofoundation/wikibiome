@@ -36,7 +36,7 @@ platform: wikibiome
 
 ## Connections
 
-- Inverse H. pylori-GERD relationship connects to Mendelian randomization evidence in [[causal-hpylori-gerd-mendelian]]
+- Inverse H. pylori-GERD relationship connects to Mendelian randomization evidence in 
 - Gastric dysbiosis patterns complement esophageal findings in [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]]
 - Anaerobacillus as GERD biomarker extends microbial biomarker work in [[alageel-2025-microbiome-composition-gerd-systematic-review]]
 - ERD vs NERD microbiome differences relate to treatment response in [[park-2020-nerd-treatment-esophageal-microbiome-dynamics]]

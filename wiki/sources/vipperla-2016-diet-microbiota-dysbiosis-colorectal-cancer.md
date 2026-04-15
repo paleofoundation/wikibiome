@@ -9,6 +9,9 @@ journal: Food & Function
 year: 2016
 tags: [colon-cancer, colorectal-cancer, dysbiosis, diet, microbiome, butyrate, bile-acids, hydrogen-sulfide, SCFAs, red-meat, fiber, metabolome]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Vipperla 2016 -- Diet, Microbiota, and Dysbiosis: A Recipe for Colorectal Cancer
@@ -23,13 +26,13 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Review
-- **Key observations**:
-  - Three human fecal enterotypes based on Bacteroides (1), Prevotella (2), and Ruminococcus (3) abundance
-  - CRC rates: common in African Americans (65:100,000) vs rare in rural Africans (<5:100,000); Prevotella predominant in native Africans, Bacteroides in African Americans
-  - Bacteria consistently augmented in CRC: Fusobacteria, Alistipes, Porphyromonadaceae, Coriobacteridae, Staphylococcaceae, Akkermansia, Methanobacteriales
-  - Bacteria underrepresented in CRC: Bifidobacterium, Lactobacillus, Ruminococcus, Faecalibacterium, Roseburia, Treponema
-  - Reduced butyrate and elevated amino acid metabolites identified throughout colonic carcinogenesis
-  - High red meat/high fat diet increases secondary bile acids and hydrogen sulfide; dietary fiber increases butyrate production
+
+ - Three human fecal enterotypes based on Bacteroides (1), Prevotella (2), and Ruminococcus (3) abundance
+ - CRC rates: common in African Americans (65:100,000) vs rare in rural Africans (<5:100,000); Prevotella predominant in native Africans, Bacteroides in African Americans
+ - Bacteria consistently augmented in CRC: Fusobacteria, Alistipes, Porphyromonadaceae, Coriobacteridae, Staphylococcaceae, Akkermansia, Methanobacteriales
+ - Bacteria underrepresented in CRC: Bifidobacterium, Lactobacillus, Ruminococcus, Faecalibacterium, Roseburia, Treponema
+ - Reduced butyrate and elevated amino acid metabolites identified throughout colonic carcinogenesis
+ - High red meat/high fat diet increases secondary bile acids and hydrogen sulfide; dietary fiber increases butyrate production
 
 ## Connections
 

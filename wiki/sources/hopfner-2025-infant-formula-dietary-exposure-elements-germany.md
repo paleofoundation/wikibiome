@@ -34,11 +34,11 @@ platform: wikibiome
 
 ## Connections
 
-- Most comprehensive European total diet study approach for infant formula exposure, providing context for [[infant dietary exposure]] wiki
-- [[nickel]] data shows formula contributes meaningfully to Ni exposure, complementing [[Meli et al 2024]] Italian Ni finding at 85.7% PTWI
+- Most comprehensive European total diet study approach for infant formula exposure, providing context for wiki
+- [[nickel]] data shows formula contributes meaningfully to Ni exposure, complementing Italian Ni finding at 85.7% PTWI
 - Cd exceedance of HBGV in 30% of children is a significant finding for [[cadmium]] toxicology
-- iAs MoE <1 supports [[Jackson et al 2012]] concern about arsenic in infant foods
+- iAs MoE <1 supports concern about arsenic in infant foods
 - Methodology (TDS + nutrition survey) represents gold standard for exposure assessment, surpassing single-product analyses
-- Supports [[Pendergrass 2026]] framework by quantifying cumulative multi-element exposure through formula
+- Supports framework by quantifying cumulative multi-element exposure through formula
 - Cross-references with French, British, Dutch, and Turkish infant exposure studies for European perspective
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility during exclusive formula feeding

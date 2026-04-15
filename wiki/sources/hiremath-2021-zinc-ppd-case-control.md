@@ -27,11 +27,11 @@ platform: wikibiome
 - **Setting**: S. Nijalingappa Medical College and Hanagal Sri Kumareshwar Hospital, Karnataka, India
 - **Assessment**: EPDS score classification; serum zinc measured by Nitro-PAPS method using semi-auto analyzer
 - **Statistical Analysis**: Student's t-test, Pearson correlation, SPSS
-- **Key Findings**:
-  - Mean EPDS in cases: 21.03 +/- 13.73 (zinc); mean EPDS in controls: 54.16 +/- 19.72 (zinc) -- note these are zinc values, not EPDS scores
-  - The significant difference (p < 0.01) in serum zinc confirms the association
-  - Negative correlation between EPDS score and zinc level was statistically significant
-  - Cases: 60% primiparas, 70% had normal vaginal delivery, 50% had cesarean section (among some)
+
+ - Mean EPDS in cases: 21.03 +/- 13.73 (zinc); mean EPDS in controls: 54.16 +/- 19.72 (zinc) -- note these are zinc values, not EPDS scores
+ - The significant difference (p < 0.01) in serum zinc confirms the association
+ - Negative correlation between EPDS score and zinc level was statistically significant
+ - Cases: 60% primiparas, 70% had normal vaginal delivery, 50% had cesarean section (among some)
 - **Limitations**: Small sample size, single-center study, limited socioeconomic and family-related confounders assessed
 
 # Connections

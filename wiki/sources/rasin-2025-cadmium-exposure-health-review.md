@@ -1,15 +1,39 @@
 ---
-
 title: "Exposure to Cadmium and Its Impacts on Human Health: A Short Review"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Puthiyavalappil Rasin, Ashwathi A V, Sabeel M Basheer, Jebiti Haribabu, Juan F. Santibanez, Claudio Allard Garrote, Arunachalam Arulraj, Ramalinga Viswanathan Mangalaraja]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Puthiyavalappil Rasin
+  - Ashwathi A V
+  - Sabeel M Basheer
+  - Jebiti Haribabu
+  - Juan F. Santibanez
+  - Claudio Allard Garrote
+  - Arunachalam Arulraj
+  - Ramalinga Viswanathan Mangalaraja
 journal: Journal of Hazardous Materials Advances
 year: 2025
-tags: [cadmium, review, kidney-toxicity, lung-toxicity, neurotoxicity, cardiovascular-disease, cancer, metallothionein, itai-itai-disease, safety-protocols]
-doi: "10.1016/j.hazadv.2024.100527"
+tags:
+  - cadmium
+  - review
+  - kidney-toxicity
+  - lung-toxicity
+  - neurotoxicity
+  - cardiovascular-disease
+  - cancer
+  - metallothionein
+  - itai-itai-disease
+  - safety-protocols
+doi: 10.1016/j.hazadv.2024.100527
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Comprehensively maps cadmium toxicology across organ systems—kidneys (25-30 year half-life, tubular reabsorption dynamics), lungs (4-5x elevation in smokers), neurons (voltage-gated Ca channel entry), cardiovascular (endothelial damage, atherosclerosis), placenta (embryonic gene expression disruption via methyltransferase inhibition)—establishing cadmium as a multi-system metal burden. WikiBiome depends on this evidence to explain why cadmium dysregulation appears across disease signatures and to characterize organ-specific accumulation pathways."
 ---
 
 # Exposure to Cadmium and Its Impacts on Human Health: A Short Review
@@ -37,12 +61,12 @@ platform: wikibiome
 ## Connections
 
 - [[cadmium]] - primary subject
-- [[Metallothionein]] - key protective protein; Cd-MT complex dynamics in kidney described in detail
-- [[Kidney Toxicity]] - renal tubular dysfunction as primary chronic Cd effect
-- [[Itai-Itai Disease]] - historical cadmium poisoning in Toyama Prefecture, Japan
-- [[Neurotoxicity]] - Cd linked to Alzheimer's, Parkinson's, multiple sclerosis
+- - key protective protein; Cd-MT complex dynamics in kidney described in detail
+- - renal tubular dysfunction as primary chronic Cd effect
+- - historical cadmium poisoning in Toyama Prefecture, Japan
+- - Cd linked to Alzheimer's, Parkinson's, multiple sclerosis
 - [[Cardiovascular Disease]] - endothelial damage, atherosclerosis promotion
-- [[Cancer]] - epigenetic carcinogenesis mechanism; prostate and kidney cancers
+- - epigenetic carcinogenesis mechanism; prostate and kidney cancers
 - [[oxidative-stress|oxidative stress]] - ROS generation via mitochondrial dysfunction
 - [[cardiovascular-disease]]
 - [[blood-brain-barrier]] - Cd and Pb disrupt BBB integrity

@@ -11,6 +11,10 @@ tags: [postpartum-depression, gut-microbiota, 16S-rRNA, dysbiosis, fecal-microbi
 library_category: microbiome-signature
 platform: cureva
 condition: "postpartum depression"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Butyricicoccus", "Faecalibacterium", "Phascolarctobacterium"]
+evidence_level: cross-sectional
 ---
 
 # Key Claims
@@ -25,10 +29,10 @@ condition: "postpartum depression"
 
 - **Design**: Case-control study; 57 participants (28 PPD, 16 healthy controls); fecal samples analyzed by 16S rRNA gene sequencing
 - **Setting**: Fourth Clinical Medical College, Guangzhou University of Chinese Medicine, Shenzhen, China
-- **Key Findings**:
-  - Reduced SCFA-producing taxa in PPD suggests impaired [[gut-brain-axis]] signaling
-  - Increased pro-[[inflammation]]atory *Enterobacteriaceae* in PPD patients
-  - Sex hormone levels correlated with specific bacterial taxa, linking [[dysbiosis]] to hormonal disruption postpartum
+
+ - Reduced SCFA-producing taxa in PPD suggests impaired [[gut-brain-axis]] signaling
+ - Increased pro-[[inflammation]]atory *Enterobacteriaceae* in PPD patients
+ - Sex hormone levels correlated with specific bacterial taxa, linking [[dysbiosis]] to hormonal disruption postpartum
 
 # Connections
 

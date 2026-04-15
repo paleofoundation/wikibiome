@@ -29,11 +29,11 @@ platform: wikibiome
 - **Diagnosis**: Rotterdam criteria (2 of 3: oligo/anovulation, hyperandrogenism, polycystic ovary morphology)
 - **Matrices**: Trace elements (Mn, Cu, Zn, As, Se, Mo, Cd, Hg, Pb) measured in urine, whole blood, and serum via ICP-QQQ mass spectrometry
 - **Statistical approach**: Non-parametric Mann-Whitney U test; multiple linear regression; Spearman correlations; adjusted for age, BMI, hematocrit
-- **Key quantitative findings**:
-  - Cu serum: PCOS 1028 vs control 940 mcg/L (p = 0.026)
-  - Mo whole blood: PCOS 0.60 vs control 0.71 mcg/L (p = 0.024)
-  - Mo serum: PCOS 0.85 vs control 1.00 mcg/L (p = 0.011)
-  - No significant differences in Zn/Cu ratios between groups
+
+ - Cu serum: PCOS 1028 vs control 940 mcg/L (p = 0.026)
+ - Mo whole blood: PCOS 0.60 vs control 0.71 mcg/L (p = 0.024)
+ - Mo serum: PCOS 0.85 vs control 1.00 mcg/L (p = 0.011)
+ - No significant differences in Zn/Cu ratios between groups
 - **Dietary correlations**: In PCOS, Cu-S correlated with beef consumption (r = 0.36, p = 0.032); Mo levels inversely correlated with pickled/processed vegetable consumption
 - **Liver/kidney associations**: Positive associations between Mo and AST, ALT, urinary urobilinogen in PCOS; Mo positively correlated with serum creatinine in controls
 - **Limitations**: Small sample size (n=35 per group); single-center urban Slovenian population; cross-sectional design

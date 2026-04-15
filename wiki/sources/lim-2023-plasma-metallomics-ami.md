@@ -24,13 +24,13 @@ platform: wikibiome
 
 - **Study design**: Case-control with longitudinal follow-up; 101 AMI patients and 66 age-matched healthy controls from Singapore
 - **Analytical method**: Validated ICP-MS/MS workflow profiling 30 metallomic features (12 essential elements, 10 non-essential/toxic elements, 8 element-pair product/ratios)
-- **Key metallomic changes in AMI**:
-  - [[copper]] significantly elevated in AMI (0.85 vs 0.73 ug/mL, p < 0.01), remained elevated at 1 month post-PCI, then fell at 6 months
-  - [[selenium]] decreased in AMI (90.31 vs 99.98 ng/mL, p < 0.01), with persistent depression at 6 months
-  - [[arsenic]] significantly decreased in AMI (1.32 vs 2.12 ng/mL, p < 0.001)
-  - [[iron]] decreased in AMI (0.95 vs 1.17 ug/mL)
-  - Fe/Cu ratio significantly decreased in AMI (p < 0.0001)
-  - Cu/Se ratio increased in AMI and showed significant longitudinal trajectory
+
+ - [[copper]] significantly elevated in AMI (0.85 vs 0.73 ug/mL, p < 0.01), remained elevated at 1 month post-PCI, then fell at 6 months
+ - [[selenium]] decreased in AMI (90.31 vs 99.98 ng/mL, p < 0.01), with persistent depression at 6 months
+ - [[arsenic]] significantly decreased in AMI (1.32 vs 2.12 ng/mL, p < 0.001)
+ - [[iron]] decreased in AMI (0.95 vs 1.17 ug/mL)
+ - Fe/Cu ratio significantly decreased in AMI (p < 0.0001)
+ - Cu/Se ratio increased in AMI and showed significant longitudinal trajectory
 - **Random forest classification**: Best model with 10 features achieved AUC of 0.942 (95% CI 0.889-0.970), incorporating metallomic features (Cu/Se, Fe/Cu) alongside traditional risk factors
 - **Longitudinal analysis**: Changes in AMI metallomic profile tracked across 3 time-points (24-48h post-PCI, 1 month, 6 months), showing that Cu and Se remained significantly altered while Fe, Na, and P were more transient
 

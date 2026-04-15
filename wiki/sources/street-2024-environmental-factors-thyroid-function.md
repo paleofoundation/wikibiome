@@ -1,15 +1,48 @@
 ---
-
 title: "The impact of environmental factors and contaminants on thyroid function and disease from fetal to adult life: current evidence and future directions"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Street ME, Shulhai A, Petraroli M, Patianna V, Giudice A, Gnocchi M, Masetti M, Montani AG, Rotondo R, Bernasconi S, Iughetti L, Esposito SM, Predieri B]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Street ME
+  - Shulhai A
+  - Petraroli M
+  - Patianna V
+  - Giudice A
+  - Gnocchi M
+  - Masetti M
+  - Montani AG
+  - Rotondo R
+  - Bernasconi S
+  - Iughetti L
+  - Esposito SM
+  - Predieri B
 journal: Frontiers in Endocrinology
 year: 2024
-tags: [hashimotos-thyroiditis, thyroid, autoimmune, environmental-exposures, heavy-metals, cadmium, lead, arsenic, nickel, endocrine-disruptors, air-pollution, climate-change, thyroid-cancer, oxidative-stress]
-doi: "10.3389/fendo.2024.1429884"
+tags:
+  - hashimotos-thyroiditis
+  - thyroid
+  - autoimmune
+  - environmental-exposures
+  - heavy-metals
+  - cadmium
+  - lead
+  - arsenic
+  - nickel
+  - endocrine-disruptors
+  - air-pollution
+  - climate-change
+  - thyroid-cancer
+  - oxidative-stress
+doi: 10.3389/fendo.2024.1429884
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Synthesizes how environmental metal exposure (Cd, Pb, As, Hg) perturbs thyroid hormone synthesis, transport, and peripheral deiodination, independent of iodine status. Provides the environmental-exposure layer of WikiBiome's thyroid signatures and links occupational and dietary metal burden to subclinical thyroid dysfunction.
 ---
 
 # The impact of environmental factors and contaminants on thyroid function and disease from fetal to adult life
@@ -26,15 +59,15 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Study type**: Narrative review with literature map (published June 2024)
-- **Heavy metals and thyroid**:
-  - Links between thyroid volume and Cr, Se, Zn contents in hair samples of children documented
-  - Link between thyroid volume and Pb and Mn concentrations proposed; these metals may interfere with thyroid gland directly or indirectly by influencing iodine intake
-  - Exposure to a combination of heavy metals rather than a single metal could account for toxicity
-  - Carcinogenic mechanisms involve [[oxidative-stress]], DNA damage, interference with DNA repair, deregulated growth control, and DNA methylation changes
-- **Endocrine disrupting chemicals**:
-  - Cadmium, arsenic, nickel, beryllium, and chromium classified as EDCs with thyroid-disrupting potential
-  - EDCs can cause oxidative stress, genetic susceptibility changes, and epigenetic modifications (DNA methylation, miRNA)
-  - Exposure during prenatal and early postnatal life has particular impact on gene expression
+
+ - Links between thyroid volume and Cr, Se, Zn contents in hair samples of children documented
+ - Link between thyroid volume and Pb and Mn concentrations proposed; these metals may interfere with thyroid gland directly or indirectly by influencing iodine intake
+ - Exposure to a combination of heavy metals rather than a single metal could account for toxicity
+ - Carcinogenic mechanisms involve [[oxidative-stress]], DNA damage, interference with DNA repair, deregulated growth control, and DNA methylation changes
+
+ - Cadmium, arsenic, nickel, beryllium, and chromium classified as EDCs with thyroid-disrupting potential
+ - EDCs can cause oxidative stress, genetic susceptibility changes, and epigenetic modifications (DNA methylation, miRNA)
+ - Exposure during prenatal and early postnatal life has particular impact on gene expression
 - **Nitrates**: School children and pregnant women exposed to high nitrate levels (75 mg/L) had higher risk of goiter and thyroid disorders vs low-exposure groups (8 mg/L)
 - **Air pollution**: PM2.5 classified as carcinogenic by IARC; particulate matter contains volatile organic compounds that penetrate bloodstream through alveolar barrier
 

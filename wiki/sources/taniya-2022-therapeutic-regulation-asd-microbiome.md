@@ -11,6 +11,9 @@ tags: [autism, microbiota, dysbiosis, therapeutic-regulation, immune, barrier-fu
 library_category: causal
 platform: both
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -50,10 +53,10 @@ Comprehensive review of microbiota-ASD axis and therapeutic interventions:
 This comprehensive review maps dysbiosis mechanisms but underemphasizes **metal as ecological driver**:
 
 - **Primitive 1 (Metals as Selective Pressures)**: Each dysbiosis mechanism could originate from **metal burden selecting dysbiotic taxa**
-  - High [[nickel]] → enrichment of [[clostridium]] species with nickel-dependent hydrogenases
-  - High [[cadmium]] → loss of cadmium-sensitive protective taxa
-  - High [[lead]] → selection for lead-tolerant pathogens
-  
+ - High [[nickel]] → enrichment of [[clostridium]] species with nickel-dependent hydrogenases
+ - High [[cadmium]] → loss of cadmium-sensitive protective taxa
+ - High [[lead]] → selection for lead-tolerant pathogens
+ 
 - **Primitive 3 (Mis-metallation)**: [[cadmium]], [[lead]] mis-metallation into zinc-binding sites → Loss of zinc-dependent tight junction proteins (claudins) → barrier disruption
 
 - **Primitive 2 link (Nutritional Immunity)**: Dysbiosis reflects failed antimicrobial defense. Restore protective microbiota = restore metal sequestration capacity = strengthen barrier = reduced systemic inflammation

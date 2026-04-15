@@ -156,6 +156,7 @@ const CATEGORIES = {
   intervention: { label: "Interventions", icon: Zap, color: P.patinaLight },
   stop: { label: "STOPs", icon: X, color: P.crimson },
   analysis: { label: "Analyses", icon: BookOpen, color: P.amberDark },
+  source: { label: "Keystone Studies", icon: FileText, color: P.gold },
 };
 
 // Stripe publishable key (client-safe — used for Checkout redirects)
@@ -291,6 +292,7 @@ const GlobalStyles = () => (
        ═══════════════════════════════════════════════════════════════════════════ */
     @media (max-width: 768px) {
       body { font-size: 14px; }
+      html, body { overflow-x: hidden !important; max-width: 100vw !important; }
 
       /* Nav: Reduce padding, make flexible for wrapping */
       nav {
@@ -301,11 +303,69 @@ const GlobalStyles = () => (
         gap: 6px !important;
         align-content: flex-start !important;
       }
+      /* Nav: hide the secondary tabs row to keep it on one line */
+      nav > div:first-child > div:nth-child(2) { display: none !important; }
+      /* Nav: shrink search field */
+      nav input[type="text"] { font-size: 13px !important; }
+      nav > div:last-child > div:has(> input) { width: 140px !important; padding: 6px 10px !important; }
+      nav > div:first-child { gap: 12px !important; }
+      nav > div:last-child { gap: 8px !important; }
 
       /* Hide left sidebar on tablets */
       aside {
         display: none !important;
       }
+
+      /* ───── HomeView mobile layout ───── */
+      .home-root {
+        height: auto !important;
+        min-height: 100vh !important;
+        overflow: visible !important;
+        width: 100% !important;
+      }
+      .home-sidebar {
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+        transform: none !important;
+        width: auto !important;
+        max-width: 420px !important;
+        margin: 60px 16px 0 !important;
+        z-index: 20 !important;
+      }
+      .home-sidebar > div {
+        max-height: none !important;
+        padding: 16px 14px !important;
+      }
+      .home-welcome {
+        position: relative !important;
+        left: 0 !important;
+        bottom: auto !important;
+        top: auto !important;
+        transform: none !important;
+        margin: 24px 16px 60px !important;
+        max-width: 100% !important;
+        width: auto !important;
+      }
+      .home-welcome h1 {
+        font-size: clamp(32px, 8vw, 44px) !important;
+        margin-bottom: 18px !important;
+      }
+      .home-topright {
+        top: 14px !important;
+        right: 14px !important;
+        gap: 12px !important;
+      }
+      .home-caption {
+        bottom: 8px !important;
+        right: 8px !important;
+        font-size: 11px !important;
+      }
+      /* W watermark: shrink + dim so it doesn't dominate */
+      .home-root > div:nth-child(2n):has(> div) { }
+
+      /* Right-side toggle arrow on home: reposition down so it's reachable */
+      .home-root [style*="writing-mode"] { display: none !important; }
 
       /* Main content adjusts to full width */
       main {
@@ -419,20 +479,44 @@ const GlobalStyles = () => (
 
       /* Nav: aggressive simplification */
       nav {
-        padding: 6px 8px !important;
+        padding: 6px 10px !important;
         min-height: 48px !important;
-        gap: 4px !important;
+        gap: 6px !important;
       }
 
-      /* Nav: hide search input on very small screens */
-      nav input[type="text"],
-      nav input[type="search"] {
-        display: none !important;
-      }
+      /* Nav: hide search field + login button on phones */
+      nav > div:last-child > div:has(> input) { display: none !important; }
+      nav > div:last-child > button:first-of-type { display: none !important; }
+      nav > div:last-child { gap: 6px !important; }
+      nav > div:first-child > div:first-child span { font-size: 17px !important; }
 
-      /* Nav: hide secondary buttons */
-      nav button:nth-child(n+3) {
-        display: none !important;
+      /* HomeView phone tweaks */
+      .home-sidebar {
+        margin-top: 52px !important;
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+      }
+      .home-welcome {
+        margin: 20px 14px 48px !important;
+      }
+      .home-welcome h1 {
+        font-size: clamp(28px, 9vw, 40px) !important;
+      }
+      .home-welcome input {
+        padding: 12px 0 !important;
+        font-size: 13px !important;
+      }
+      .home-welcome button {
+        padding: 12px 18px !important;
+        font-size: 13px !important;
+      }
+      .home-topright {
+        top: 10px !important;
+        right: 10px !important;
+        gap: 10px !important;
+      }
+      .home-topright span {
+        font-size: 12px !important;
       }
 
       /* Headings: further reduce on phone */
@@ -1102,18 +1186,13 @@ const LeftSidebar = ({ onNavigate }) => {
       width: '260px', flexShrink: 0, background: P.white,
       borderRadius: '16px',
       border: `1px solid ${P.borderLight}`,
-      padding: '24px 16px', position: 'sticky', top: '62px',
+      padding: '32px 24px', position: 'sticky', top: '62px',
       height: 'fit-content', maxHeight: 'calc(100vh - 72px)', overflowY: 'auto',
       display: 'flex', flexDirection: 'column',
       boxShadow: '0 1px 4px rgba(0,0,0,0.04)',
     }}>
-      {/* Main menu */}
-      <div style={{ fontSize: '10px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1.2px', color: P.textMuted, padding: '0 12px', margin: '16px 0 6px' }}>
-        Main menu
-      </div>
+      {/* Navigation */}
       {[
-        { label: 'Main page', action: () => onNavigate({ view: 'home' }) },
-        { label: 'Contents', action: () => onNavigate({ view: 'category', category: 'disease' }) },
         { label: 'Random article', action: () => {
           const pages = CONTENT.pages;
           if (pages.length > 0) {
@@ -1134,23 +1213,6 @@ const LeftSidebar = ({ onNavigate }) => {
           onMouseLeave={(e) => { e.currentTarget.style.color = P.textMuted; e.currentTarget.style.background = 'transparent'; }}
         >
           {item.label}
-        </div>
-      ))}
-
-      {/* Categories */}
-      <div style={{ fontSize: '10px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1.2px', color: P.textMuted, padding: '0 12px', margin: '20px 0 6px' }}>
-        Categories
-      </div>
-      {categoryEntries.map((cat) => (
-        <div key={cat.key} onClick={() => onNavigate({ view: 'category', category: cat.key })} style={{
-          display: 'flex', alignItems: 'center', gap: '8px',
-          fontSize: '13px', padding: '7px 12px', borderRadius: '6px',
-          color: P.textMuted, cursor: 'pointer', transition: 'all 0.15s',
-        }}
-          onMouseEnter={(e) => { e.currentTarget.style.color = P.teal; e.currentTarget.style.background = P.tealLight; }}
-          onMouseLeave={(e) => { e.currentTarget.style.color = P.textMuted; e.currentTarget.style.background = 'transparent'; }}
-        >
-          <span style={{ flex: 1 }}>{cat.label}</span>
         </div>
       ))}
 
@@ -1177,6 +1239,7 @@ const LeftSidebar = ({ onNavigate }) => {
         { label: 'Evidence Matrix', view: 'matrix' },
         { label: 'Knowledge Graph', view: 'explore' },
         { label: 'Compare Signatures', view: 'compare' },
+        { label: 'Keystone Studies', view: 'keystone' },
       ].map((item) => (
         <div key={item.label} onClick={() => onNavigate({ view: item.view })} style={{
           display: 'flex', alignItems: 'center', gap: '8px',
@@ -1186,6 +1249,7 @@ const LeftSidebar = ({ onNavigate }) => {
           onMouseEnter={(e) => { e.currentTarget.style.color = P.teal; e.currentTarget.style.background = P.tealLight; }}
           onMouseLeave={(e) => { e.currentTarget.style.color = P.textMuted; e.currentTarget.style.background = 'transparent'; }}
         >
+          {item.label === 'Keystone Studies' && <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '16px', height: '16px', borderRadius: '50%', background: 'linear-gradient(135deg, #d4a853, #b8922e)', color: '#fff', fontSize: '8px', flexShrink: 0 }}>★</span>}
           {item.label}
         </div>
       ))}
@@ -1233,12 +1297,22 @@ const PAGE_IMAGES = {
 };
 
 /* ── Hero slides linked to specific pages ── */
-const HERO_SLIDES = [
+const HERO_SLIDES_ORIGINAL = [
   { image: CATEGORY_IMAGES.metal, pageId: 'nickel', caption: 'Nickel — the metallomic keystone' },
   { image: CATEGORY_IMAGES.microbe, pageId: 'helicobacter-pylori', caption: 'Helicobacter pylori — a nickel-dependent pathogen' },
   { image: CATEGORY_IMAGES.disease, pageId: 'endometriosis', caption: 'Endometriosis — a metallomic signature' },
   { image: CATEGORY_IMAGES.mechanism, pageId: 'nutritional-immunity', caption: 'Nutritional immunity — the host defense' },
   { image: CATEGORY_IMAGES.defense, pageId: 'functional-shielding', caption: 'Functional shielding — interkingdom defense' },
+];
+/* ── Colorcheck test images ── */
+const HERO_SLIDES = [
+  { image: '/images/colorcheck/7FA78B5F-5A2A-4151-83954B5602F056E0_source.webp', pageId: 'nickel', caption: 'Candida — fungal morphogenesis' },
+  { image: '/images/colorcheck/WD6V32WHA36TPFFJYTPFGTMCEU.jpg', pageId: 'helicobacter-pylori', caption: 'Fungal hyphae — branching structures' },
+  { image: '/images/colorcheck/5ltwkj7lwzfe1.jpg', pageId: 'endometriosis', caption: 'Colony morphology — blood agar' },
+  { image: '/images/colorcheck/cover_article_18691_en_US.jpg', pageId: 'nutritional-immunity', caption: 'Bacteriophages — viral predators' },
+  { image: '/images/colorcheck/rotifers-charmingly-bizarre-_-often-ignored-landscape-2.webp', pageId: 'functional-shielding', caption: 'Rotifers — microscopic ecology' },
+  { image: '/images/colorcheck/07251714f11f73563f036b56c76afa7f00e2faa7-5824x3264.jpg', pageId: 'escherichia-coli', caption: 'E. coli — flagellated pathogen' },
+  { image: '/images/colorcheck/1d517bb26620b4ffadfb35ea79901168e40acb2f-7360x4912.jpg', pageId: 'nickel', caption: 'Human impact — disease burden' },
 ];
 const HERO_SLIDESHOW_IMAGES = HERO_SLIDES.map(s => s.image);
 
@@ -1309,7 +1383,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
   const pageOfDay = CONTENT.pages[dayOfYear % CONTENT.pages.length];
 
   return (
-    <div style={{
+    <div className="home-root" style={{
       position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden',
       fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
     }}>
@@ -1342,7 +1416,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
       }}>W</div>
 
       {/* ══════ Create account / Log in (top right) ══════ */}
-      <div style={{
+      <div className="home-topright" style={{
         position: 'absolute', top: '20px',
         right: '70px',
         zIndex: 40, display: 'flex', gap: '14px', alignItems: 'center',
@@ -1378,7 +1452,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
       </div>
 
       {/* ══════ Floating left sidebar ══════ */}
-      <div style={{
+      <div className="home-sidebar" style={{
         position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)',
         width: '240px', zIndex: 20,
       }}>
@@ -1399,43 +1473,22 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
             <div style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '15px', fontWeight: 700, color: P.ink }}>
               Wiki<span style={{ color: P.amber }}>Biome</span>
             </div>
-            <div style={{ fontSize: '10.5px', color: P.textMuted, marginTop: '2px' }}>The Microbiome Encyclopedia</div>
           </div>
 
-          {/* Main menu */}
-          <div style={{ fontSize: '11px', fontWeight: 700, color: P.ink, padding: '0 8px', marginBottom: '4px' }}>Main menu</div>
-          {[
-            { label: 'Main page', action: () => onNavigate({ view: 'home' }) },
-            { label: 'Contents', action: () => onNavigate({ view: 'category', category: 'disease' }) },
-            { label: 'Random article', action: () => {
-              const rp = CONTENT.pages[Math.floor(Math.random() * CONTENT.pages.length)];
-              if (rp) onNavigate({ view: 'article', id: rp.id });
-            }},
-            { label: 'About WikiBiome', action: () => onNavigate({ view: 'about' }) },
-            { label: 'Contact us', action: () => onNavigate({ view: 'contact' }) },
-            { label: 'Donate', action: () => onNavigate({ view: 'support' }) },
-          ].map(item => (
-            <div key={item.label} onClick={item.action} style={{
-              fontSize: '13px', padding: '5px 8px', borderRadius: '5px',
-              color: P.teal, cursor: 'pointer', transition: 'background 0.15s',
-            }}
-              onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
-              onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
-            >{item.label}</div>
-          ))}
-
-          <div style={{ height: '1px', background: P.borderLight, margin: '10px 8px' }} />
-
-          {/* Categories */}
-          <div style={{ fontSize: '11px', fontWeight: 700, color: P.ink, padding: '0 8px', marginBottom: '4px' }}>Categories</div>
-          {categories.map(cat => (
+          {/* Browse by category */}
+          <div style={{ fontSize: '10px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1px', color: P.textMuted, padding: '0 8px', marginBottom: '8px' }}>Browse by category</div>
+          {categories.map((cat, idx) => (
             <div key={cat.key} onClick={() => onNavigate({ view: 'category', category: cat.key })} style={{
-              fontSize: '13px', padding: '5px 8px', borderRadius: '5px',
-              color: P.teal, cursor: 'pointer', transition: 'background 0.15s',
+              display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+              fontSize: '13px', padding: '7px 8px', borderRadius: '5px',
+              color: P.ink, cursor: 'pointer', transition: 'background 0.15s',
             }}
               onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
               onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
-            >{cat.label}</div>
+            >
+              <span>{cat.label}</span>
+              <span style={{ fontSize: '11px', color: P.textMuted, fontWeight: 500 }}>{cat.count}</span>
+            </div>
           ))}
 
           <div style={{ height: '1px', background: P.borderLight, margin: '10px 8px' }} />
@@ -1491,29 +1544,17 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
       </div>
 
       {/* ══════ Welcome text + search (bottom left, right of sidebar) ══════ */}
-      <div style={{
+      <div className="home-welcome" style={{
         position: 'absolute', bottom: '14%', left: '280px',
         zIndex: 20, maxWidth: '500px',
       }}>
         <h1 style={{
           fontFamily: "'Libre Baskerville', Georgia, serif",
           fontSize: 'clamp(38px, 5vw, 64px)', fontWeight: 400, color: 'white',
-          textShadow: '0 2px 40px rgba(0,0,0,0.5)', marginBottom: '12px', lineHeight: 1.15,
+          textShadow: '0 2px 40px rgba(0,0,0,0.5)', marginBottom: '28px', lineHeight: 1.15,
         }}>
           Welcome<br />to <em style={{ color: '#8ab4f8', fontStyle: 'italic' }}>WikiBiome</em>
         </h1>
-        <p style={{
-          fontSize: 'clamp(14px, 1.3vw, 18px)', color: 'rgba(255,255,255,0.88)',
-          marginBottom: '6px', lineHeight: 1.6,
-          textShadow: '0 1px 10px rgba(0,0,0,0.4)',
-        }}>
-          The microbiome-metallomics encyclopedia that{' '}
-          <span style={{ color: '#8ab4f8', textDecoration: 'underline', textUnderlineOffset: '4px' }}>anyone can explore</span>.
-        </p>
-        <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.45)', marginBottom: '24px' }}>
-          {stats?.sources || 0} sources · {stats?.entities || 0} entities · {signatures.length} disease signatures
-        </p>
-
         {/* Search bar — solid white, matching Wikipedia style */}
         <div ref={acRef} style={{ position: 'relative', maxWidth: '440px' }}>
           <div style={{ display: 'flex' }}>
@@ -1582,6 +1623,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
 
       {/* ══════ Image caption (bottom right) — clickable, linked to page ══════ */}
       <div
+        className="home-caption"
         onClick={() => HERO_SLIDES[activeIdx]?.pageId && onNavigate({ view: 'article', id: HERO_SLIDES[activeIdx].pageId })}
         style={{
           position: 'absolute', bottom: '14px', right: '80px',
@@ -1679,50 +1721,73 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
         <div style={{ marginBottom: '28px' }}>
           <div style={{
             display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px',
-            background: '#e8eeff',
-            padding: '8px 16px', borderRadius: '24px',
+            background: '#e8eeff', padding: '8px 16px', borderRadius: '24px',
           }}>
             <img src="/Blue on White WikiBiome logo.svg" alt="W" style={{ width: '26px', height: '26px', borderRadius: '50%', flexShrink: 0 }} />
             <h2 style={{ fontFamily: "'Libre Baskerville', serif", fontSize: '16px', fontWeight: 400, color: P.ink, margin: 0 }}>Page of the day</h2>
           </div>
-          {pageOfDay && (
-            <div onClick={() => { setRightPanelOpen(false); onNavigate({ view: 'article', id: pageOfDay.id }); }} style={{ cursor: 'pointer' }}>
-              <div style={{ fontSize: '15px', fontWeight: 600, color: P.ink, marginBottom: '6px', transition: 'color 0.15s' }}
-                onMouseEnter={e => e.currentTarget.style.color = P.teal}
-                onMouseLeave={e => e.currentTarget.style.color = P.ink}
-              >{pageOfDay.title}</div>
-              <p style={{ fontSize: '13px', color: P.textMuted, lineHeight: 1.6, margin: 0 }}>
-                {renderInlineMd(pageOfDay.overview, 220)}
-              </p>
-            </div>
-          )}
+          {pageOfDay && (() => {
+            const img = PAGE_IMAGES[pageOfDay.id] || CATEGORY_IMAGES[pageOfDay.category];
+            return (
+              <div onClick={() => { setRightPanelOpen(false); onNavigate({ view: 'article', id: pageOfDay.id }); }} style={{ cursor: 'pointer' }}>
+                {img && (
+                  <div style={{
+                    width: '100%', height: '160px', borderRadius: '10px', overflow: 'hidden',
+                    marginBottom: '12px', background: '#0a1223',
+                  }}>
+                    <img src={img} alt={pageOfDay.title} style={{
+                      width: '100%', height: '100%', objectFit: 'cover',
+                      transition: 'transform 0.4s ease',
+                    }}
+                      onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.03)'}
+                      onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
+                    />
+                  </div>
+                )}
+                <div style={{ fontSize: '15px', fontWeight: 600, color: P.ink, marginBottom: '6px', transition: 'color 0.15s' }}
+                  onMouseEnter={e => e.currentTarget.style.color = P.teal}
+                  onMouseLeave={e => e.currentTarget.style.color = P.ink}
+                >{pageOfDay.title}</div>
+                <p style={{ fontSize: '13px', color: P.textMuted, lineHeight: 1.6, margin: 0 }}>
+                  {renderInlineMd(pageOfDay.overview, 220)}
+                </p>
+              </div>
+            );
+          })()}
         </div>
 
         <div style={{ height: '1px', background: P.borderLight, marginBottom: '24px' }} />
 
-        {/* Browse by category */}
-        <div style={{ marginBottom: '28px' }}>
-          <div style={{
-            display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px',
-            background: '#e8eeff',
-            padding: '8px 16px', borderRadius: '24px',
-          }}>
-            <img src="/Blue on White WikiBiome logo.svg" alt="W" style={{ width: '26px', height: '26px', borderRadius: '50%', flexShrink: 0 }} />
-            <h2 style={{ fontFamily: "'Libre Baskerville', serif", fontSize: '16px', fontWeight: 400, color: P.ink, margin: 0 }}>Browse by category</h2>
-          </div>
-          {categories.map((cat, idx) => (
-            <div key={cat.key} onClick={() => { setRightPanelOpen(false); onNavigate({ view: 'category', category: cat.key }); }} style={{
-              display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-              padding: '8px 0', cursor: 'pointer', borderBottom: idx < categories.length - 1 ? `1px solid ${P.borderLight}` : 'none',
-            }}>
-              <span style={{ fontSize: '13.5px', color: P.ink, transition: 'color 0.15s' }}
-                onMouseEnter={e => e.currentTarget.style.color = P.teal}
-                onMouseLeave={e => e.currentTarget.style.color = P.ink}
-              >{cat.label}</span>
-              <span style={{ fontSize: '12px', color: P.textMuted, fontWeight: 500 }}>{cat.count}</span>
+        {/* Did you know? */}
+        {(() => {
+          const facts = [
+            { text: 'Porphyromonas gingivalis is commonly functionally shielded by Candida albicans biofilms, which provide physical protection from host immune clearance — a strategy conserved across multiple oral and gut conditions.', entity: 'porphyromonas-gingivalis' },
+            { text: 'Helicobacter pylori requires nickel for both of its most critical virulence enzymes — urease and NiFe-hydrogenase. Without nickel, it cannot survive gastric acid or generate the energy to colonize.', entity: 'helicobacter-pylori' },
+            { text: 'The host deliberately sequesters iron during infection by elevating hepcidin and lactoferrin — a strategy called nutritional immunity. What looks like anemia is often the immune system starving a pathogen.', entity: 'nutritional-immunity' },
+            { text: 'Fusobacterium nucleatum uses a surface adhesin called FadA to bind E-cadherin, invade colonic epithelial cells, and activate Wnt/β-catenin signaling — the same pathway mutated in most colorectal cancers.', entity: 'fusobacterium-nucleatum' },
+            { text: 'Cadmium mimics calcium so closely it enters cells through calcium channels without triggering any alarm response. Once inside, it displaces zinc from metalloenzymes — a process called mis-metallation.', entity: 'cadmium' },
+            { text: 'Estrogen recirculation in the gut depends on bacterial β-glucuronidase activity. When pathogenic taxa producing this enzyme are enriched, circulating estrogen rises — linking gut dysbiosis directly to hormone-driven disease.', entity: 'estrobolome' },
+            { text: 'Nickel-accumulating soils produce crops with elevated nickel content. Populations with high legume, whole grain, and cocoa consumption may carry a significantly higher metallomic baseline before disease onset.', entity: 'nickel' },
+          ];
+          const fact = facts[dayOfYear % facts.length];
+          return (
+            <div style={{ marginBottom: '28px' }}>
+              <div style={{
+                display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px',
+                background: '#e8eeff', padding: '8px 16px', borderRadius: '24px',
+              }}>
+                <img src="/Blue on White WikiBiome logo.svg" alt="W" style={{ width: '26px', height: '26px', borderRadius: '50%', flexShrink: 0 }} />
+                <h2 style={{ fontFamily: "'Libre Baskerville', serif", fontSize: '16px', fontWeight: 400, color: P.ink, margin: 0 }}>Did you know?</h2>
+              </div>
+              <p style={{ fontSize: '13px', color: P.textMuted, lineHeight: 1.7, margin: '0 0 10px' }}>{fact.text}</p>
+              <div onClick={() => { setRightPanelOpen(false); onNavigate({ view: 'article', id: fact.entity }); }}
+                style={{ fontSize: '12px', color: P.teal, fontWeight: 500, cursor: 'pointer' }}
+                onMouseEnter={e => e.currentTarget.style.textDecoration = 'underline'}
+                onMouseLeave={e => e.currentTarget.style.textDecoration = 'none'}
+              >Read more →</div>
             </div>
-          ))}
-        </div>
+          );
+        })()}
 
         <div style={{ height: '1px', background: P.borderLight, marginBottom: '24px' }} />
 
@@ -1879,6 +1944,40 @@ const ArticleView = ({ pageId, onNavigate }) => {
         <div style={{ backgroundColor: P.white, borderRadius: '10px', padding: '40px 44px', border: `1px solid ${P.borderLight}` }}>
           <div style={{ fontSize: '11px', textTransform: 'uppercase', color: P.teal, fontWeight: 600, marginBottom: '10px', letterSpacing: '0.8px', fontFamily: "'Inter', sans-serif" }}>{catLabel}</div>
           <h1 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '36px', fontWeight: 700, marginBottom: '24px', color: P.ink, lineHeight: 1.15 }}>{page.title}</h1>
+
+          {/* Keystone badge for qualifying source pages */}
+          {(() => {
+            const srcMeta = CONTENT.sourceLookup && CONTENT.sourceLookup[pageId];
+            if (!srcMeta || !srcMeta.keystone) return null;
+            const criteriaMet = srcMeta.keystone_criteria_met || [];
+            return (
+              <div
+                onClick={() => onNavigate({ view: 'keystone' })}
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: '10px',
+                  background: 'linear-gradient(135deg, rgba(212,168,83,0.08), rgba(184,146,46,0.04))',
+                  border: '1px solid rgba(212,168,83,0.25)', borderRadius: '10px',
+                  padding: '10px 18px', marginBottom: '24px', cursor: 'pointer',
+                  transition: 'all 0.2s ease',
+                }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = '#d4a853'; e.currentTarget.style.boxShadow = '0 2px 12px rgba(212,168,83,0.2)'; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(212,168,83,0.25)'; e.currentTarget.style.boxShadow = 'none'; }}
+              >
+                <span style={{
+                  display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                  width: '24px', height: '24px', borderRadius: '50%',
+                  background: 'linear-gradient(135deg, #d4a853, #b8922e)',
+                  color: '#fff', fontSize: '11px', flexShrink: 0,
+                }}>★</span>
+                <div>
+                  <div style={{ fontSize: '12px', fontWeight: 600, color: '#8a6d1b', letterSpacing: '0.3px' }}>Keystone Study</div>
+                  <div style={{ fontSize: '11px', color: '#a08020', marginTop: '1px' }}>
+                    Meets {criteriaMet.length} of 5 criteria — <span style={{ textDecoration: 'underline', textUnderlineOffset: '2px' }}>what makes a study keystone?</span>
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
 
           {/* Hero image — checks microorganisms/ then metals/ */}
           {(() => {
@@ -2100,15 +2199,28 @@ const ArticleView = ({ pageId, onNavigate }) => {
             <div id="references-section" style={{ marginTop: '48px', paddingTop: '28px', borderTop: `2px solid ${P.teal}` }}>
               <h2 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '22px', fontWeight: 700, marginBottom: '20px', color: P.ink }}>References ({allReferences.length})</h2>
               <ol style={{ margin: 0, paddingLeft: '24px', lineHeight: 1.9 }}>
-                {allReferences.map((ref) => (
+                {allReferences.map((ref) => {
+                  const refMeta = CONTENT.sourceLookup && CONTENT.sourceLookup[ref.slug];
+                  const isKeystone = refMeta && refMeta.keystone === true;
+                  return (
                   <li key={ref.number} id={`ref-${ref.number}`} style={{ fontSize: '13px', color: P.text, marginBottom: '10px' }}>
+                    {isKeystone && (
+                      <span onClick={() => onNavigate({ view: 'keystone' })} title="Keystone Study — structurally essential to WikiBiome's knowledge graph" style={{
+                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                        width: '16px', height: '16px', borderRadius: '50%', marginRight: '6px',
+                        background: 'linear-gradient(135deg, #d4a853, #b8922e)',
+                        color: '#fff', fontSize: '8px', cursor: 'pointer', verticalAlign: 'middle',
+                        position: 'relative', top: '-1px',
+                      }}>★</span>
+                    )}
                     {ref.authors.length > 0 && <span style={{ fontWeight: 500 }}>{ref.authors.length <= 3 ? ref.authors.join(', ') : `${ref.authors.slice(0, 3).join(', ')} et al.`}</span>}
                     {ref.year && <span> ({ref.year})</span>}
                     {'. '}<span style={{ fontStyle: 'italic' }}>{ref.title}</span>
                     {ref.journal && <span>. <em style={{ color: P.textMuted }}>{ref.journal}</em></span>}
                     {ref.doi && <span>{'. '}<a href={ref.doi.startsWith('http') ? ref.doi : `https://doi.org/${ref.doi}`} target="_blank" rel="noopener noreferrer" style={{ color: P.teal, textDecoration: 'underline', fontSize: '12px' }}>{ref.doi.startsWith('http') ? ref.doi : `doi:${ref.doi}`}</a></span>}
                   </li>
-                ))}
+                  );
+                })}
               </ol>
             </div>
           )}
@@ -3769,44 +3881,152 @@ const ContactView = () => {
 };
 
 /* ── Support / Donate ── */
+const DONATE_PRESETS = [25, 50, 100, 250, 500, 1000];
+const DONATE_SUGGESTED = 100;
+
 const SupportView = ({ onNavigate }) => {
   const stats = CONTENT.stats || {};
   const sigCount = Object.keys(CONTENT.signatures || {}).length;
+  const [frequency, setFrequency] = useState('one-time'); // 'one-time' | 'monthly'
+  const [selectedAmount, setSelectedAmount] = useState(DONATE_SUGGESTED);
+  const [customAmount, setCustomAmount] = useState('');
+  const [isCustom, setIsCustom] = useState(false);
+  const [processing, setProcessing] = useState(false);
+  const [error, setError] = useState(null);
 
-  const handleDonate = () => {
-    window.open(STRIPE_DONATE_URL, '_blank');
+  const activeAmount = isCustom ? (parseInt(customAmount, 10) || 0) : selectedAmount;
+
+  const handleDonate = async () => {
+    if (activeAmount < 1 || processing) return;
+    setProcessing(true);
+    setError(null);
+    try {
+      const res = await fetch('/api/create-checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ amount: activeAmount, frequency }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.url) {
+        throw new Error(data.error || 'Unable to start checkout');
+      }
+      // Redirect directly — amount is pre-filled on Stripe's page
+      window.location.href = data.url;
+    } catch (err) {
+      setError(err.message);
+      setProcessing(false);
+      // Fallback: open the plain payment link so donation is never fully blocked
+      setTimeout(() => { if (window.confirm('Checkout setup failed. Open standard donation page instead?')) window.open(STRIPE_DONATE_URL, '_blank'); }, 100);
+    }
   };
+
+  const freqToggleStyle = (active) => ({
+    flex: 1, padding: '12px 16px', fontSize: '14px', fontWeight: active ? 600 : 400,
+    fontFamily: "'Inter', sans-serif", border: 'none', borderRadius: '8px', cursor: 'pointer',
+    background: active ? P.white : 'transparent', color: active ? P.teal : P.textMuted,
+    boxShadow: active ? '0 1px 4px rgba(0,0,0,0.08)' : 'none', transition: 'all 0.2s',
+  });
+
+  const amountBtnStyle = (active) => ({
+    padding: '14px 8px', fontSize: '16px', fontWeight: active ? 700 : 500,
+    fontFamily: "'Inter', sans-serif", border: `2px solid ${active ? P.teal : P.border}`,
+    borderRadius: '10px', cursor: 'pointer', transition: 'all 0.15s',
+    background: active ? 'rgba(51,102,204,0.06)' : P.white, color: active ? P.teal : P.ink,
+    textAlign: 'center', position: 'relative',
+  });
 
   return (
     <StaticPageWrapper>
-      <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+      <div style={{ textAlign: 'center', marginBottom: '40px' }}>
         <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(51,102,204,0.1)', marginBottom: '16px' }}>
           <Heart size={28} color={P.teal} />
         </div>
-        <StaticH1>Buy Us a Million Coffees</StaticH1>
+        <StaticH1>Support WikiBiome</StaticH1>
         <StaticP style={{ maxWidth: '560px', margin: '0 auto', textAlign: 'center' }}>
-          WikiBiome is free, ad-free, and open access — forever. No paywalls, no gated research,
-          no sponsored content. Your donations fund the research, writing, and infrastructure that
-          make this possible.
+          Free, ad-free, and open access — forever. Your support funds the research,
+          writing, and infrastructure behind the world's most comprehensive
+          microbiome-metallomics knowledge base.
         </StaticP>
       </div>
 
-      {/* Big donate button */}
-      <div style={{ background: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '16px', padding: '40px 32px', textAlign: 'center', marginBottom: '32px' }}>
-        <button onClick={handleDonate} style={{
-          background: P.teal, color: P.white, border: 'none', borderRadius: '12px',
-          padding: '18px 48px', fontSize: '18px', fontWeight: 700, fontFamily: "'Inter', sans-serif",
-          cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '10px',
-          boxShadow: '0 4px 16px rgba(51,102,204,0.3)', transition: 'all 0.2s',
+      {/* ── Donation Card ── */}
+      <div style={{ background: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '16px', padding: '32px', marginBottom: '32px', maxWidth: '540px', marginLeft: 'auto', marginRight: 'auto' }}>
+
+        {/* Frequency toggle */}
+        <div style={{ display: 'flex', gap: '4px', background: P.bgWarm, borderRadius: '10px', padding: '4px', marginBottom: '24px' }}>
+          <button onClick={() => setFrequency('one-time')} style={freqToggleStyle(frequency === 'one-time')}>One-time</button>
+          <button onClick={() => setFrequency('monthly')} style={freqToggleStyle(frequency === 'monthly')}>
+            Monthly
+            {frequency === 'monthly' && <span style={{ display: 'block', fontSize: '10px', fontWeight: 400, color: P.textMuted, marginTop: '2px' }}>Cancel anytime</span>}
+          </button>
+        </div>
+
+        {/* Suggested donation line — anchors without pressure */}
+        <p style={{ fontSize: '13px', color: P.textMuted, textAlign: 'center', marginBottom: '14px', marginTop: 0, lineHeight: 1.5 }}>
+          <strong style={{ color: P.ink }}>Suggested donation: $100</strong> — gifts of any size welcome.
+        </p>
+
+        {/* Amount presets */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px', marginBottom: '16px' }}>
+          {DONATE_PRESETS.map(amt => (
+            <button key={amt} onClick={() => { setSelectedAmount(amt); setIsCustom(false); setCustomAmount(''); }} style={amountBtnStyle(!isCustom && selectedAmount === amt)}>
+              ${amt}
+              {amt === DONATE_SUGGESTED && (
+                <div style={{ position: 'absolute', top: '-9px', left: '50%', transform: 'translateX(-50%)', background: P.teal, color: 'white', fontSize: '9px', fontWeight: 700, padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.5px', whiteSpace: 'nowrap' }}>
+                  SUGGESTED
+                </div>
+              )}
+            </button>
+          ))}
+        </div>
+
+        {/* Custom amount */}
+        <div style={{ position: 'relative', marginBottom: '24px' }}>
+          <span style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)', color: isCustom ? P.teal : P.textLight, fontSize: '16px', fontWeight: 600 }}>$</span>
+          <input
+            type="number" min="1" placeholder="Other amount"
+            value={customAmount}
+            onFocus={() => setIsCustom(true)}
+            onChange={e => { setCustomAmount(e.target.value); setIsCustom(true); }}
+            style={{
+              width: '100%', padding: '14px 14px 14px 28px', fontSize: '16px',
+              border: `2px solid ${isCustom ? P.teal : P.border}`, borderRadius: '10px',
+              fontFamily: "'Inter', sans-serif", outline: 'none', boxSizing: 'border-box',
+              background: isCustom ? 'rgba(51,102,204,0.03)' : P.white,
+            }}
+          />
+        </div>
+
+        {/* Donate button */}
+        <button onClick={handleDonate} disabled={activeAmount < 1 || processing} style={{
+          width: '100%', background: activeAmount >= 1 && !processing ? P.teal : P.border,
+          color: P.white, border: 'none', borderRadius: '10px',
+          padding: '16px', fontSize: '17px', fontWeight: 700, fontFamily: "'Inter', sans-serif",
+          cursor: activeAmount >= 1 && !processing ? 'pointer' : 'default',
+          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
+          boxShadow: activeAmount >= 1 && !processing ? '0 4px 16px rgba(51,102,204,0.3)' : 'none',
+          transition: 'all 0.2s',
         }}
-          onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(51,102,204,0.4)'; }}
+          onMouseEnter={e => { if (activeAmount >= 1 && !processing) { e.currentTarget.style.transform = 'translateY(-1px)'; e.currentTarget.style.boxShadow = '0 6px 20px rgba(51,102,204,0.4)'; }}}
           onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(51,102,204,0.3)'; }}
         >
-          <Coffee size={22} /> Donate — any amount
+          <Heart size={18} />
+          {processing
+            ? 'Redirecting to Stripe…'
+            : activeAmount >= 1
+              ? `Donate $${activeAmount}${frequency === 'monthly' ? '/month' : ''}`
+              : 'Enter an amount'}
         </button>
-        <StaticP style={{ fontSize: '13px', color: P.textLight, textAlign: 'center', marginTop: '16px', marginBottom: 0 }}>
-          Choose your own amount on the next page. Processed securely via Stripe.
-        </StaticP>
+
+        {error && (
+          <p style={{ fontSize: '12px', color: P.crimson, textAlign: 'center', marginTop: '10px', marginBottom: 0 }}>
+            {error}
+          </p>
+        )}
+
+        <p style={{ fontSize: '12px', color: P.textLight, textAlign: 'center', marginTop: '14px', marginBottom: 0, lineHeight: 1.5 }}>
+          Processed securely via Stripe. {frequency === 'monthly' && 'Cancel anytime from your Stripe dashboard. '}No account required.
+        </p>
       </div>
 
       {/* What your donation supports */}
@@ -3848,10 +4068,10 @@ const SupportView = ({ onNavigate }) => {
       {/* Second donate CTA */}
       <div style={{ background: `linear-gradient(135deg, ${P.bgHero} 0%, #1a4a42 100%)`, borderRadius: '12px', padding: '36px', textAlign: 'center', color: 'white', marginTop: '40px' }}>
         <h3 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '22px', fontWeight: 400, marginBottom: '8px' }}>
-          Every coffee counts
+          Every contribution counts
         </h3>
         <p style={{ fontSize: '14px', opacity: 0.85, lineHeight: 1.7, maxWidth: '480px', margin: '0 auto 24px' }}>
-          $5 or $5,000 — it all goes directly to building the world's most comprehensive
+          $10 or $10,000 — it all goes directly to building the world's most comprehensive
           microbiome-metallomics knowledge base. No middlemen, no overhead.
         </p>
         <button onClick={handleDonate} style={{
@@ -3903,8 +4123,28 @@ const SubmitView = ({ onNavigate }) => {
               : 'Thank you for your request. We\'ll review the condition and reach out about next steps, including the profiling timeline.'
             }
           </StaticP>
+
+          {/* Post-submission donation ask */}
+          <div style={{ background: P.bgWarm, border: `1px solid ${P.borderLight}`, borderRadius: '12px', padding: '24px 28px', marginTop: '28px', maxWidth: '440px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center' }}>
+            <p style={{ fontSize: '14px', color: P.ink, lineHeight: 1.6, marginBottom: '16px', marginTop: 0 }}>
+              WikiBiome is researcher-supported. <strong>Suggested donation: $100</strong> — gifts
+              of any size welcome. Your contribution helps us ingest, cross-reference, and maintain
+              contributions like yours.
+            </p>
+            <button onClick={() => window.open(STRIPE_DONATE_URL, '_blank')} style={{
+              background: P.teal, color: P.white, border: 'none', borderRadius: '8px',
+              padding: '12px 24px', fontSize: '14px', fontWeight: 600, fontFamily: "'Inter', sans-serif",
+              cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '8px',
+            }}>
+              <Heart size={14} /> Support with $100
+            </button>
+            <p style={{ fontSize: '11px', color: P.textLight, marginTop: '10px', marginBottom: 0 }}>
+              Any amount helps. Donations are separate from the editorial process.
+            </p>
+          </div>
+
           <button onClick={() => { setSubmitted(false); setPaperForm({ name: '', email: '', doi: '', notes: '' }); setCondForm({ name: '', email: '', condition: '', details: '', tier: '500' }); }}
-            style={{ background: P.teal, color: P.white, border: 'none', borderRadius: '8px', padding: '12px 24px', fontSize: '14px', fontWeight: 500, cursor: 'pointer', fontFamily: "'Inter', sans-serif", marginTop: '12px' }}
+            style={{ background: 'transparent', color: P.teal, border: `1px solid ${P.border}`, borderRadius: '8px', padding: '12px 24px', fontSize: '14px', fontWeight: 500, cursor: 'pointer', fontFamily: "'Inter', sans-serif", marginTop: '16px' }}
           >Submit another</button>
         </div>
       </StaticPageWrapper>
@@ -4083,30 +4323,93 @@ const EmailSignup = ({ context }) => {
 };
 
 /* ── Cureva Practitioner Teaser CTA ── */
-const CurevaCTA = ({ condition }) => (
-  <div style={{
-    background: `linear-gradient(135deg, ${P.bgHero} 0%, #1a4a42 100%)`,
-    borderRadius: '12px', padding: '24px 28px', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-    gap: '20px', flexWrap: 'wrap',
-  }}>
-    <div>
-      <h4 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '15px', fontWeight: 400, color: 'white', marginBottom: '6px' }}>
-        Looking for clinical guidance{condition ? ` on ${condition}` : ''}?
-      </h4>
-      <p style={{ fontSize: '13px', color: 'rgba(255,255,255,0.7)', margin: 0, lineHeight: 1.5 }}>
-        Cureva practitioners use metallomic signatures to build evidence-based intervention plans.
+const CurevaCTA = ({ condition }) => {
+  const [email, setEmail] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+  const [role, setRole] = useState('practitioner');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    supabaseInsert('wikibiome', 'cureva_interest', {
+      email,
+      role,
+      condition: condition || null,
+      source_page: typeof window !== 'undefined' ? window.location.pathname : null,
+    });
+    setSubmitted(true);
+  };
+
+  if (submitted) {
+    return (
+      <div style={{
+        background: `linear-gradient(135deg, ${P.bgHero} 0%, #1a4a42 100%)`,
+        borderRadius: '12px', padding: '28px', textAlign: 'center',
+      }}>
+        <CheckCircle size={28} color="rgba(255,255,255,0.9)" style={{ marginBottom: '8px' }} />
+        <h4 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '16px', fontWeight: 400, color: 'white', marginBottom: '6px' }}>
+          You're on the list
+        </h4>
+        <p style={{ fontSize: '13px', color: 'rgba(255,255,255,0.7)', margin: 0, lineHeight: 1.5 }}>
+          We'll reach out when Cureva is ready for early access. In the meantime, this page shows
+          the metallomic and taxonomic associations — the clinical layer goes deeper.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div style={{
+      background: `linear-gradient(135deg, ${P.bgHero} 0%, #1a4a42 100%)`,
+      borderRadius: '12px', padding: '28px',
+    }}>
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '20px', flexWrap: 'wrap', marginBottom: '16px' }}>
+        <div style={{ flex: 1, minWidth: '240px' }}>
+          <h4 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '16px', fontWeight: 400, color: 'white', marginBottom: '6px' }}>
+            {condition ? `Clinical intelligence for ${condition}` : 'Looking for clinical guidance?'}
+          </h4>
+          <p style={{ fontSize: '13px', color: 'rgba(255,255,255,0.65)', margin: 0, lineHeight: 1.6 }}>
+            WikiBiome shows associations. <strong style={{ color: 'rgba(255,255,255,0.9)' }}>Cureva</strong> delivers
+            full 5-layer signatures, validated interventions, STOPs, and evidence-graded clinical
+            decision support built on this research.
+          </p>
+        </div>
+      </div>
+
+      <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+        <select value={role} onChange={e => setRole(e.target.value)} style={{
+          padding: '10px 12px', fontSize: '13px', border: '1px solid rgba(255,255,255,0.2)',
+          borderRadius: '8px', fontFamily: "'Inter', sans-serif", outline: 'none',
+          background: 'rgba(255,255,255,0.1)', color: 'white', cursor: 'pointer',
+        }}>
+          <option value="practitioner" style={{ color: P.ink }}>I'm a practitioner</option>
+          <option value="researcher" style={{ color: P.ink }}>I'm a researcher</option>
+          <option value="patient" style={{ color: P.ink }}>I'm a patient</option>
+        </select>
+        <input type="email" required placeholder="your@email.com" value={email}
+          onChange={e => setEmail(e.target.value)}
+          style={{
+            flex: 1, minWidth: '180px', padding: '10px 14px', fontSize: '13px',
+            border: '1px solid rgba(255,255,255,0.2)', borderRadius: '8px',
+            fontFamily: "'Inter', sans-serif", outline: 'none',
+            background: 'rgba(255,255,255,0.1)', color: 'white',
+          }}
+        />
+        <button type="submit" style={{
+          background: 'white', color: P.bgHero, border: 'none', borderRadius: '8px',
+          padding: '10px 20px', fontSize: '13px', fontWeight: 600, fontFamily: "'Inter', sans-serif",
+          cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px',
+          whiteSpace: 'nowrap', flexShrink: 0,
+        }}>
+          Get early access <ArrowRight size={14} />
+        </button>
+      </form>
+
+      <p style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', marginTop: '10px', marginBottom: 0 }}>
+        No spam. We'll email once when early access opens.
       </p>
     </div>
-    <a href="https://cureva.ai" target="_blank" rel="noopener noreferrer" style={{
-      background: 'white', color: P.bgHero, border: 'none', borderRadius: '8px',
-      padding: '10px 20px', fontSize: '13px', fontWeight: 600, fontFamily: "'Inter', sans-serif",
-      cursor: 'pointer', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px',
-      whiteSpace: 'nowrap', flexShrink: 0,
-    }}>
-      Find a practitioner <ArrowRight size={14} />
-    </a>
-  </div>
-);
+  );
+};
 
 /* ── Citation Export (for source pages) ── */
 const CitationExport = ({ page }) => {
@@ -4521,6 +4824,338 @@ const CompareView = ({ onNavigate }) => {
   );
 };
 
+/* ── Keystone Studies ── */
+const KEYSTONE_CRITERIA = [
+  {
+    number: 1,
+    title: 'Cross-Domain Bridge',
+    description: 'Connects two or more fields that do not typically intersect \u2014 metallomics to microbiome, environmental exposure to disease mechanism, or microbial ecology to clinical pathology \u2014 enabling an understanding that neither field produces alone.',
+  },
+  {
+    number: 2,
+    title: 'Signature Layer Dependency',
+    description: 'Removing this study would weaken or collapse one or more layers of a WikiBiome disease signature. It provides essential evidence for a metallomic, taxonomic, nutritional immunity, ecological, or virulence enzyme layer.',
+  },
+  {
+    number: 3,
+    title: 'Cross-Condition Pattern Enabler',
+    description: 'Provides evidence that explains a pattern observed across multiple disease signatures \u2014 a shared metal dependency, a recurring taxon enrichment, or a conserved ecological mechanism that appears in more than one condition.',
+  },
+  {
+    number: 4,
+    title: 'Mechanistic Linchpin',
+    description: 'Provides the mechanistic explanation for why an observed association exists, not merely that it exists. Transforms a correlation into an actionable understanding of causation or ecological consequence.',
+  },
+  {
+    number: 5,
+    title: 'Paradigm Reframe',
+    description: 'Fundamentally changes how a disease, organism, metal, or ecological process is interpreted within WikiBiome \u2014 revealing a relationship or mechanism that reframes the conventional understanding of a condition or its microbiome associations.',
+  },
+];
+
+const KeystoneView = ({ onNavigate }) => {
+  const [expandedId, setExpandedId] = useState(null);
+
+  // Build sourceId → [pages that cite it] index
+  const referencedByIndex = useMemo(() => {
+    const index = {};
+    Object.values(CONTENT.pages || {}).forEach(page => {
+      (page.sources || []).forEach(srcId => {
+        if (!index[srcId]) index[srcId] = [];
+        index[srcId].push({ id: page.id, title: page.title, type: page.type });
+      });
+    });
+    // Sort each list: signatures first, then entities, then concepts, then others; alphabetical within
+    const typeOrder = { signature: 0, entity: 1, concept: 2, intervention: 3, stop: 4, analysis: 5 };
+    Object.keys(index).forEach(k => {
+      index[k].sort((a, b) => {
+        const ta = typeOrder[a.type] ?? 99;
+        const tb = typeOrder[b.type] ?? 99;
+        if (ta !== tb) return ta - tb;
+        return (a.title || '').localeCompare(b.title || '');
+      });
+    });
+    return index;
+  }, []);
+
+  // Find source pages tagged as keystone (frontmatter.keystone === true)
+  const keystoneSources = useMemo(() => {
+    return Object.entries(CONTENT.sourceLookup || {})
+      .filter(([, meta]) => meta.keystone === true)
+      .map(([id, meta]) => ({
+        id,
+        title: meta.title || id,
+        authors: meta.authors || [],
+        year: meta.year,
+        journal: meta.journal,
+        doi: meta.doi,
+        keystone_criteria_met: meta.keystone_criteria_met || [],
+        why_keystone: meta.why_keystone || '',
+        referencedBy: referencedByIndex[id] || [],
+      }))
+      .sort((a, b) => (b.year || 0) - (a.year || 0));
+  }, [referencedByIndex]);
+
+  return (
+    <StaticPageWrapper>
+      <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+        <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+          <span style={{
+            display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+            width: '40px', height: '40px', borderRadius: '50%',
+            background: 'linear-gradient(135deg, #d4a853, #b8922e)',
+            color: '#fff', fontSize: '18px',
+          }}>★</span>
+          <StaticH1>Keystone Studies</StaticH1>
+        </div>
+        <StaticP style={{ maxWidth: '620px', margin: '0 auto', textAlign: 'center' }}>
+          A designation for research that is structurally essential to WikiBiome's
+          knowledge graph — studies without which critical connections between metals,
+          microbes, and disease could not be drawn.
+        </StaticP>
+      </div>
+
+      {/* Criteria */}
+      <StaticH2>Classification Criteria</StaticH2>
+      <StaticP>
+        A study must satisfy <strong>at least three</strong> of the following five criteria
+        to receive the Keystone designation. Each criterion measures connective importance
+        to WikiBiome's knowledge graph — not mainstream recognition, citation volume,
+        or institutional prestige.
+      </StaticP>
+
+      <div style={{ display: 'grid', gap: '12px', marginTop: '20px', marginBottom: '40px' }}>
+        {KEYSTONE_CRITERIA.map(c => (
+          <div key={c.number} style={{
+            display: 'flex', gap: '16px', alignItems: 'flex-start',
+            background: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '10px',
+            padding: '20px 24px',
+          }}>
+            <div style={{
+              width: '32px', height: '32px', borderRadius: '50%', flexShrink: 0,
+              background: 'linear-gradient(135deg, #d4a853, #b8922e)',
+              color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: '14px', fontWeight: 700, fontFamily: "'Libre Baskerville', Georgia, serif",
+            }}>{c.number}</div>
+            <div>
+              <div style={{ fontSize: '15px', fontWeight: 600, color: P.ink, marginBottom: '4px' }}>{c.title}</div>
+              <div style={{ fontSize: '14px', color: P.text, lineHeight: 1.7 }}>{c.description}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Why keystone */}
+      <StaticH2>Why "Keystone"</StaticH2>
+      <StaticP>
+        In ecology, a <strong>keystone species</strong> is one whose removal would cause
+        disproportionate collapse of its ecosystem. The organism may not be the most abundant
+        or the most visible, but the system depends on it structurally.
+      </StaticP>
+      <StaticP>
+        WikiBiome applies the same logic to research. A Keystone Study is not necessarily
+        the most cited paper in its field or the one that appears in clinical guidelines.
+        It is the paper without which WikiBiome could not connect the domains it connects.
+        The role of nickel in microbial pathogenesis, for example, may not top citation
+        rankings — the metallomics-microbiome connection is still emerging — but without it,
+        the link between nickel contamination in agriculture and downstream gut dysbiosis
+        cannot be drawn. That structural necessity is what this designation recognizes.
+      </StaticP>
+
+      {/* How we verify */}
+      <StaticH2>Verification Process</StaticH2>
+      <StaticP>
+        Each Keystone classification is assessed through the following process:
+      </StaticP>
+      <div style={{ background: 'rgba(51,102,204,0.04)', borderRadius: '12px', border: `1px solid rgba(51,102,204,0.1)`, padding: '24px', marginBottom: '32px' }}>
+        <div style={{ display: 'grid', gap: '16px' }}>
+          {[
+            { step: '1', text: 'Dependency mapping \u2014 identify every disease signature layer, entity page, and concept page that cites or depends on this study. If removing it would leave a signature layer unsupported, Criterion 2 is met.' },
+            { step: '2', text: 'Cross-domain analysis \u2014 determine whether the study bridges fields that do not share a common literature. If the connection it establishes is not reproducible from within either field alone, Criterion 1 is met.' },
+            { step: '3', text: 'Cross-condition scan \u2014 compare the study\'s findings against all existing signatures. If the same mechanism, metal, or taxon appears in two or more conditions and this study provides the connective evidence, Criterion 3 is met.' },
+            { step: '4', text: 'Mechanistic assessment \u2014 evaluate whether the study explains why an association exists, not merely that it exists. Correlation-only findings do not satisfy Criterion 4.' },
+            { step: '5', text: 'Paradigm evaluation \u2014 determine whether the study changes how WikiBiome interprets a disease, organism, or ecological process. If existing content was substantially restructured after ingesting this study, Criterion 5 is met.' },
+          ].map(s => (
+            <div key={s.step} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+              <div style={{
+                width: '24px', height: '24px', borderRadius: '50%', flexShrink: 0,
+                background: P.teal, color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontSize: '12px', fontWeight: 600,
+              }}>{s.step}</div>
+              <div style={{ fontSize: '14px', color: P.text, lineHeight: 1.7 }}>{s.text}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Author notification */}
+      <StaticH2>Author Notification</StaticH2>
+      <StaticP>
+        When a study receives the Keystone designation, WikiBiome notifies the corresponding
+        author by email. This notification includes the specific criteria the study satisfied,
+        a direct link to the WikiBiome page where their work is featured, and an invitation
+        to verify WikiBiome's interpretation of their findings.
+      </StaticP>
+      <StaticP>
+        We consider this both a courtesy and a quality control mechanism. The researchers
+        who conducted the work are best positioned to identify misinterpretation, and their
+        engagement strengthens the accuracy of everything WikiBiome publishes.
+      </StaticP>
+
+      {/* Current keystone studies */}
+      {keystoneSources.length > 0 && (
+        <>
+          <StaticH2>Designated Keystone Studies</StaticH2>
+          <div style={{ display: 'grid', gap: '10px', marginTop: '16px' }}>
+            {keystoneSources.map(s => {
+              const isExpanded = expandedId === s.id;
+              return (
+                <div key={s.id} style={{
+                  background: P.white, border: `1px solid ${isExpanded ? '#d4a853' : P.borderLight}`, borderRadius: '10px',
+                  overflow: 'hidden', transition: 'border-color 0.2s, box-shadow 0.2s',
+                  boxShadow: isExpanded ? '0 2px 12px rgba(212,168,83,0.15)' : 'none',
+                }}>
+                  {/* Header — always visible, toggles expansion */}
+                  <div
+                    onClick={() => setExpandedId(isExpanded ? null : s.id)}
+                    style={{
+                      padding: '16px 20px', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '14px',
+                      transition: 'background 0.15s',
+                    }}
+                    onMouseEnter={e => { if (!isExpanded) e.currentTarget.parentElement.style.borderColor = '#d4a853'; }}
+                    onMouseLeave={e => { if (!isExpanded) e.currentTarget.parentElement.style.borderColor = P.borderLight; }}
+                  >
+                    <span style={{
+                      display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                      width: '28px', height: '28px', borderRadius: '50%', flexShrink: 0,
+                      background: 'linear-gradient(135deg, #d4a853, #b8922e)',
+                      color: '#fff', fontSize: '12px',
+                    }}>★</span>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ fontSize: '14px', fontWeight: 600, color: P.ink, lineHeight: 1.4 }}>{s.title}</div>
+                      <div style={{ fontSize: '12px', color: P.textMuted, marginTop: '3px' }}>
+                        {s.authors.length > 0 ? s.authors.join(', ') : ''}{s.journal ? ` · ${s.journal}` : ''}{s.year ? ` (${s.year})` : ''}
+                      </div>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
+                      <div style={{ display: 'flex', gap: '4px' }}>
+                        {(s.keystone_criteria_met || []).map(n => (
+                          <span key={n} style={{
+                            width: '20px', height: '20px', borderRadius: '50%', fontSize: '10px', fontWeight: 600,
+                            background: 'rgba(212,168,83,0.12)', color: '#b8922e', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                          }}>{n}</span>
+                        ))}
+                      </div>
+                      <span style={{
+                        fontSize: '14px', color: P.textMuted, transition: 'transform 0.2s',
+                        transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)',
+                      }}>▾</span>
+                    </div>
+                  </div>
+
+                  {/* Expanded content — why keystone */}
+                  {isExpanded && (
+                    <div style={{
+                      padding: '0 20px 20px 62px', /* 20px + 28px star + 14px gap = 62px left indent */
+                      borderTop: `1px solid ${P.borderLight}`,
+                      paddingTop: '16px',
+                    }}>
+                      {s.why_keystone && (
+                        <div style={{ marginBottom: '16px' }}>
+                          <div style={{ fontSize: '12px', fontWeight: 600, color: '#b8922e', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '6px' }}>
+                            Why Keystone
+                          </div>
+                          <div style={{ fontSize: '14px', color: P.text, lineHeight: 1.75 }}>
+                            {s.why_keystone}
+                          </div>
+                        </div>
+                      )}
+                      <div style={{ marginBottom: '12px' }}>
+                        <div style={{ fontSize: '12px', fontWeight: 600, color: P.textMuted, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '6px' }}>
+                          Criteria Met
+                        </div>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                          {(s.keystone_criteria_met || []).map(n => {
+                            const criterion = KEYSTONE_CRITERIA.find(c => c.number === n);
+                            return (
+                              <span key={n} style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '6px',
+                                padding: '4px 10px', borderRadius: '6px', fontSize: '12px',
+                                background: 'rgba(212,168,83,0.08)', color: '#8a6d1b',
+                              }}>
+                                <strong>{n}</strong> {criterion ? criterion.title : ''}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      </div>
+                      {s.referencedBy.length > 0 && (
+                        <div style={{ marginBottom: '16px' }}>
+                          <div style={{ fontSize: '12px', fontWeight: 600, color: P.textMuted, textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '8px' }}>
+                            Referenced on {s.referencedBy.length} WikiBiome {s.referencedBy.length === 1 ? 'page' : 'pages'}
+                          </div>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                            {s.referencedBy.map(p => {
+                              const typeColor = {
+                                signature: { bg: 'rgba(51,102,204,0.08)', fg: '#2952a3' },
+                                entity: { bg: 'rgba(0,128,128,0.08)', fg: '#006666' },
+                                concept: { bg: 'rgba(120,80,160,0.08)', fg: '#6b4a8e' },
+                                intervention: { bg: 'rgba(40,140,80,0.08)', fg: '#2d7a4a' },
+                                stop: { bg: 'rgba(200,70,70,0.08)', fg: '#a33838' },
+                              }[p.type] || { bg: 'rgba(120,120,120,0.08)', fg: '#555' };
+                              return (
+                                <span
+                                  key={p.id}
+                                  onClick={(e) => { e.stopPropagation(); onNavigate({ view: 'article', id: p.id }); }}
+                                  style={{
+                                    display: 'inline-flex', alignItems: 'center',
+                                    padding: '4px 10px', borderRadius: '6px', fontSize: '12px',
+                                    background: typeColor.bg, color: typeColor.fg,
+                                    cursor: 'pointer', transition: 'opacity 0.15s',
+                                  }}
+                                  onMouseEnter={e => e.currentTarget.style.opacity = '0.75'}
+                                  onMouseLeave={e => e.currentTarget.style.opacity = '1'}
+                                  title={p.type}
+                                >
+                                  {p.title}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      )}
+                      {s.doi && (
+                        <a href={s.doi.startsWith('http') ? s.doi : `https://doi.org/${s.doi}`}
+                          target="_blank" rel="noopener noreferrer"
+                          style={{ fontSize: '13px', color: P.teal, textDecoration: 'none' }}
+                          onMouseEnter={e => e.target.style.textDecoration = 'underline'}
+                          onMouseLeave={e => e.target.style.textDecoration = 'none'}
+                        >
+                          View original publication →
+                        </a>
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+
+      {keystoneSources.length === 0 && (
+        <div style={{ marginTop: '32px', padding: '24px', background: 'rgba(51,102,204,0.04)', borderRadius: '12px', border: `1px solid rgba(51,102,204,0.1)`, textAlign: 'center' }}>
+          <StaticP style={{ marginBottom: 0 }}>
+            Keystone classifications are currently under systematic review.
+            As studies are verified against the criteria above, they will appear here
+            and receive the Keystone badge on their source pages.
+          </StaticP>
+        </div>
+      )}
+    </StaticPageWrapper>
+  );
+};
+
 /* ── Author Outreach Dashboard ── */
 const OutreachView = ({ onNavigate }) => {
   // Extract unique authors from source pages
@@ -4818,6 +5453,7 @@ function AppInner() {
     if (path === '/vote') return 'vote';
     if (path === '/compare') return 'compare';
     if (path === '/outreach') return 'outreach';
+    if (path === '/keystone') return 'keystone';
     return 'home';
   }, [location.pathname]);
   const navigate = useCallback(({ view: v, id, category: c, disease, tags, heroQuery }) => {
@@ -4844,12 +5480,13 @@ function AppInner() {
       case 'vote': nav('/vote'); break;
       case 'compare': nav('/compare'); break;
       case 'outreach': nav('/outreach'); break;
+      case 'keystone': nav('/keystone'); break;
       default: nav('/');
     }
     window.scrollTo(0, 0);
   }, [nav, searchQuery]);
   const isHome = currentView === 'home';
-  const showSidebar = !isHome && !['explore', 'clusters', 'about', 'privacy', 'terms', 'contact', 'support', 'submit', 'vote', 'compare', 'outreach'].includes(currentView);
+  const showSidebar = !isHome && !['explore', 'clusters', 'about', 'privacy', 'terms', 'contact', 'support', 'submit', 'vote', 'compare', 'outreach', 'keystone'].includes(currentView);
 
   return (
     <div style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", backgroundColor: P.bg, color: P.text, minHeight: '100vh' }}>
@@ -4879,11 +5516,12 @@ function AppInner() {
             <Route path="/vote" element={<VoteView onNavigate={navigate} />} />
             <Route path="/compare" element={<CompareView onNavigate={navigate} />} />
             <Route path="/outreach" element={<OutreachView onNavigate={navigate} />} />
+            <Route path="/keystone" element={<KeystoneView onNavigate={navigate} />} />
             <Route path="*" element={<HomeView onNavigate={navigate} />} />
           </Routes>
 
           {/* ── Footer ── */}
-          {!isHome && <footer className="no-print" style={{ backgroundColor: P.white, borderTop: `1px solid ${P.borderLight}`, padding: '32px 24px 24px', marginTop: '60px' }}>
+          <footer className="no-print" style={{ backgroundColor: P.white, borderTop: `1px solid ${P.borderLight}`, padding: '32px 24px 24px', marginTop: isHome ? '0' : '60px' }}>
             <div style={{ maxWidth: '900px', margin: '0 auto' }}>
               {/* Top row: logo + links */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '24px', marginBottom: '20px' }}>
@@ -4905,6 +5543,7 @@ function AppInner() {
                       { label: 'Support', view: 'support' },
                       { label: 'Submit a paper', view: 'submit' },
                       { label: 'Author Outreach', view: 'outreach' },
+                      { label: 'Keystone Studies', view: 'keystone' },
                     ].map(l => (
                       <div key={l.label} onClick={() => navigate({ view: l.view })} style={{ fontSize: '13px', color: P.textMuted, cursor: 'pointer', marginBottom: '5px', transition: 'color 0.15s' }}
                         onMouseEnter={e => e.currentTarget.style.color = P.teal}
@@ -4953,7 +5592,7 @@ function AppInner() {
                 <span style={{ fontSize: '12px', color: P.textLight }}>&copy; {new Date().getFullYear()} WikiBiome · A project of the Paleo Foundation</span>
               </div>
             </div>
-          </footer>}
+          </footer>
         </main>
       </div>
     </div>

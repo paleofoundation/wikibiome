@@ -28,14 +28,14 @@ platform: wikibiome
 
 - **Study type**: Narrative review (2025) covering immune-microbiome interactions in MS
 - **Table 1 (key data)**: Maps immune system components to responsible microbiota:
-  - Effector CD4+ Th1 cells: *Clostridium*, *Bacteroides*, *Lactobacillus*, *Streptococcus*
-  - Th2 cells: *Parabacteroides distasonis*, *Akkermansia muciniphila*
-  - Th17 cells: SFB, *E. coli*, *Bifidobacterium adolescentis*, *Staphylococcus aureus*, *Candida albicans*
-  - CD8+ T cells: Lactic acid bacteria including *Pediococcus acidilactici*
-  - B cells: *Eggerthella lenta*, *Bifidobacterium adolescentis*, *Bacteroides fragilis*
-  - DCs: *Candida kefyr*, *Bifidobacterium bifidus*
-  - Microglia/macrophages: *Actinobacteria*
-  - NK cells: *Bifidobacterium*
+ - Effector CD4+ Th1 cells: *Clostridium*, *Bacteroides*, *Lactobacillus*, *Streptococcus*
+ - Th2 cells: *Parabacteroides distasonis*, *Akkermansia muciniphila*
+ - Th17 cells: SFB, *E. coli*, *Bifidobacterium adolescentis*, *Staphylococcus aureus*, *Candida albicans*
+ - CD8+ T cells: Lactic acid bacteria including *Pediococcus acidilactici*
+ - B cells: *Eggerthella lenta*, *Bifidobacterium adolescentis*, *Bacteroides fragilis*
+ - DCs: *Candida kefyr*, *Bifidobacterium bifidus*
+ - Microglia/macrophages: *Actinobacteria*
+ - NK cells: *Bifidobacterium*
 - **Metabolite pathways**: SCFAs via free fatty acid receptors 2 and 3 on immune cells modulate cytokine secretion; tryptophan metabolized to kynurenine by indoleamine 2,3-dioxygenase (IDO), modulated by SCFAs like butyrate; microbiome-derived indole derivatives act as AhR ligands reducing neurodegeneration
 - **Dysbiosis mechanisms**: Impaired gut permeability allows bacterial translocation and PAMP-driven inflammation; LPS binding to TLR4 on CD4+ T cells triggers NF-kB pathway; dysbiotic microbiota produce harmful metabolites
 - **Helminth hypothesis**: Parasites may confer protective effects in MS through immune modulation
@@ -43,10 +43,10 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- comprehensive immune-microbiome interaction map
-- [[Th17-cells]] -- IL-17 production driven by specific gut bacteria causes direct CNS injury
-- [[Tregs]] -- Foxp3+ regulatory cells dysfunctional in MS, supported by specific commensals
+- -- IL-17 production driven by specific gut bacteria causes direct CNS injury
+- -- Foxp3+ regulatory cells dysfunctional in MS, supported by specific commensals
 - [[short-chain-fatty-acids]] -- butyrate, acetate, propionate as key immunomodulatory metabolites
-- [[tryptophan]] -- kynurenine pathway metabolites as neurotoxic mediators in MS relapses
+- -- kynurenine pathway metabolites as neurotoxic mediators in MS relapses
 - [[tmao]] -- trimethylamine N-oxide from gut microbiota promotes neuronal aging and oxidative stress
 - [[mycobiome]] -- fungal dysbiosis as underappreciated contributor to MS
 - [[gut-brain-axis]] -- bidirectional communication via immune, neural, and metabolic pathways

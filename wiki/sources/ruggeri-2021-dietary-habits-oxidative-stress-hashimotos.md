@@ -34,8 +34,8 @@ platform: wikibiome
 
 ## Connections
 
-- Mediterranean diet protection aligns with broader anti-inflammatory diet literature for [[autoimmune thyroid disease]]
+- Mediterranean diet protection aligns with broader anti-inflammatory diet literature for 
 - Oxidative stress in HT connects to [[selenium]] and selenoenzyme pathways discussed in [[brock-2015-selenium-thyroid-autoimmunity]] and [[brylinski-2025-trace-elements-thyroid-diseases]]
-- Dietary polyphenol and antioxidant effects relevant to [[Dietary Polyphenols]] and their role in gut microbiome modulation
+- Dietary polyphenol and antioxidant effects relevant to and their role in gut microbiome modulation
 - Findings support plant-based dietary recommendations in [[puszkarz-2018-food-nutrition-hashimotos-prevention]]
 - AGE accumulation links to systemic [[inflammation]] and immune dysregulation in [[hashimotos-thyroiditis]]

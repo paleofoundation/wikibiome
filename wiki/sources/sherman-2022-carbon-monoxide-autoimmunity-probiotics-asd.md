@@ -40,7 +40,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- carbon monoxide as inflammation biomarker
-- [[autoimmunity]] -- autoantibodies correlate with CO levels in ASD
+- -- autoantibodies correlate with CO levels in ASD
 - [[probiotics]] -- Lactobacillus plantarum RCT in ASD
 - [[inflammation]] -- SpCO as non-invasive inflammation marker
 - [[biomarkers]] -- anti-tubulin, anti-ganglioside GM1, anti-dopamine receptor D1

@@ -6,28 +6,28 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - schilling-2020-urine-metallomics-pancreatic-cancer
-  - zhang-2022-metallomics-cancer-review
-  - meng-2025-oral-bacterial-fungal-microbiome-pancreatic-cancer-risk
-  - guo-2021-tumor-microbiome-basal-like-pdac
-  - luo-2025-microbiome-metabolome-interplay-pancreatic-cancer
-  - kita-2020-ferrichrome-probiotics-pancreatic-cancer
-  - daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac
-  - jiang-2023-mendelian-randomization-gut-microbiota-pancreatic-cancer
-  - wei-2022-oral-mycobiota-pancreatic-adenocarcinoma
-  - zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis
-  - maher-2024-synbiotics-immunomodulation-pdac-resection
-  - liu-2026-gut-virome-anti-pd1-nsclc
-  - li-2020-gut-microbiota-roles-pancreatic-cancer
-  - kobayashi-2013-serum-metabolomics-pancreatic-cancer
-  - lee-2019-bcaa-pancreatic-cancer-lipid-metabolism
-  - li-2023-phage-based-peptides-pancreatic-cancer
-  - berrington-2003-obesity-pancreatic-cancer-meta-analysis
-  - huxley-2005-diabetes-pancreatic-cancer-meta-analysis
-  - wang-2015-dietary-fiber-pancreatic-cancer-risk-meta-analysis
-  - zhou-2010-quercetin-pancreatic-cancer-stem-cells
-  - yamamura-2025-fmt-therapeutic-strategy-pancreatic-cancer
-  - han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer
+ - schilling-2020-urine-metallomics-pancreatic-cancer
+ - zhang-2022-metallomics-cancer-review
+ - meng-2025-oral-bacterial-fungal-microbiome-pancreatic-cancer-risk
+ - guo-2021-tumor-microbiome-basal-like-pdac
+ - luo-2025-microbiome-metabolome-interplay-pancreatic-cancer
+ - kita-2020-ferrichrome-probiotics-pancreatic-cancer
+ - daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac
+ - jiang-2023-mendelian-randomization-gut-microbiota-pancreatic-cancer
+ - wei-2022-oral-mycobiota-pancreatic-adenocarcinoma
+ - zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis
+ - maher-2024-synbiotics-immunomodulation-pdac-resection
+ - liu-2026-gut-virome-anti-pd1-nsclc
+ - li-2020-gut-microbiota-roles-pancreatic-cancer
+ - kobayashi-2013-serum-metabolomics-pancreatic-cancer
+ - lee-2019-bcaa-pancreatic-cancer-lipid-metabolism
+ - li-2023-phage-based-peptides-pancreatic-cancer
+ - berrington-2003-obesity-pancreatic-cancer-meta-analysis
+ - huxley-2005-diabetes-pancreatic-cancer-meta-analysis
+ - wang-2015-dietary-fiber-pancreatic-cancer-risk-meta-analysis
+ - zhou-2010-quercetin-pancreatic-cancer-stem-cells
+ - yamamura-2025-fmt-therapeutic-strategy-pancreatic-cancer
+ - han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer
 tags: [cancer, pancreatic-cancer, PDAC, copper, zinc, calcium, magnesium, cadmium, metallomics, microbiome, oral-microbiome, mycobiome, virome, metabolomics, Mendelian-randomization, probiotics, synbiotics, ferroptosis, metal-carcinogenesis]
 platform: wikibiome
 last_substantive_update: 2026-04-13

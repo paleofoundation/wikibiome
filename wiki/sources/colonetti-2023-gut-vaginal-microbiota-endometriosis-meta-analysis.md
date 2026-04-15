@@ -26,12 +26,12 @@ platform: wikibiome
 - **Databases**: Medline, Embase, Web of Science, Cochrane Library, Google Scholar (to April 2022)
 - **Included studies**: 16 observational studies (1 cohort, 1 cross-sectional, 14 case-control)
 - **Total participants**: 1,151 women (556 endometriosis, 595 controls)
-- **Key results**:
-  - Intestinal Shannon: 4 studies, 244 women, SMD=-0.28, P=0.19, I2=52%
-  - Vaginal Shannon: 2 studies, 25 women, SMD=-0.68, P=0.19, I2=66%
-  - Intestinal Simpson: 2 studies, 33 women, SMD=-0.14, P=0.56, I2=0%
-  - Peritoneal fluid Simpson: 2 studies, 131 women, SMD=0.34, P=0.17, I2=42%
-  - Considerable heterogeneity attributed to diet, medication use, sequencing methods
+
+ - Intestinal Shannon: 4 studies, 244 women, SMD=-0.28, P=0.19, I2=52%
+ - Vaginal Shannon: 2 studies, 25 women, SMD=-0.68, P=0.19, I2=66%
+ - Intestinal Simpson: 2 studies, 33 women, SMD=-0.14, P=0.56, I2=0%
+ - Peritoneal fluid Simpson: 2 studies, 131 women, SMD=0.34, P=0.17, I2=42%
+ - Considerable heterogeneity attributed to diet, medication use, sequencing methods
 
 # Relevance to Wiki
 

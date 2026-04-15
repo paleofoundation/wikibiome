@@ -32,10 +32,10 @@ platform: wikibiome
 
 ## Connections
 
-- Companion study to [[de Paiva et al 2020]] on non-cereal infant foods, providing complete picture of Al in Brazilian baby foods
-- Lower bioaccessibility in cereals vs other foods relevant to [[aluminum bioaccessibility]] understanding
-- Phytate content in cereals may reduce Al absorption, connecting to [[food matrix effects]]
+- Companion study to on non-cereal infant foods, providing complete picture of Al in Brazilian baby foods
+- Lower bioaccessibility in cereals vs other foods relevant to understanding
+- Phytate content in cereals may reduce Al absorption, connecting to 
 - PTWI contribution up to 10.48% is lower than soy-based drinks (100%+) in companion study, but still significant for cumulative exposure
-- Supports [[Ibrahim et al 2022]] finding that cereals can contain notable Al levels
-- Relevant to [[Pendergrass 2026]] discussion of cereal-based fortification as safer alternative to vegetable-based fortification
+- Supports finding that cereals can contain notable Al levels
+- Relevant to discussion of cereal-based fortification as safer alternative to vegetable-based fortification
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility during complementary feeding

@@ -1,15 +1,44 @@
 ---
-
-title: "Cadmium and breast cancer - Current state and research gaps in the underlying mechanisms"
+title: Cadmium and breast cancer - Current state and research gaps in the underlying mechanisms
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Tarhonska K, Lesicka M, Janasik B, Roszak J, Reszka E, Braun M, Kolacinska-Wow A, Jablonska E]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Tarhonska K
+  - Lesicka M
+  - Janasik B
+  - Roszak J
+  - Reszka E
+  - Braun M
+  - Kolacinska-Wow A
+  - Jablonska E
 journal: Toxicology Letters
 year: 2022
-tags: [cadmium, breast-cancer, metalloestrogens, epigenetics, oxidative-stress, DNA-methylation, estrogen-receptor, mechanisms]
-doi: "10.1016/j.toxlet.2022.03.003"
+tags:
+  - cadmium
+  - breast-cancer
+  - metalloestrogens
+  - epigenetics
+  - oxidative-stress
+  - DNA-methylation
+  - estrogen-receptor
+  - mechanisms
+doi: 10.1016/j.toxlet.2022.03.003
 platform: wikibiome
+karen_brain_primitives:
+  - 1
+  - 7
+  - 9
+metals_discussed:
+  - cadmium
+taxa_discussed: []
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Catalogues the molecular mechanisms by which cadmium acts as a metalloestrogen — ERα binding, epigenetic reprogramming, DNA repair inhibition — in breast tissue. Supports the mechanistic layer of WikiBiome's breast cancer signature and the broader metalloestrogen concept that connects Cd exposure to hormone-driven pathology across multiple conditions.
 ---
 
 # Cadmium and breast cancer - Current state and research gaps in the underlying mechanisms
@@ -39,11 +68,11 @@ platform: wikibiome
 
 ## Connections
 
-- Directly relevant to [[Metalloestrogens]] and [[Estrogen Receptor Signaling]]
+- Directly relevant to [[Metalloestrogens]] and 
 - Overlaps with [[aquino-2012-cadmium-nickel-metalloestrogens]] on ERa binding mechanisms
 - Complements [[liu-2022-heavy-metals-breast-cancer-meta-analysis]] on epidemiological evidence for Cd-breast cancer association
 - Connects to [[ali-2024-heavy-metals-breast-cancer-review]] regarding cadmium biomarker levels in breast cancer patients
-- Relevant to [[oxidative-stress|oxidative stress]] pathways shared with [[Nickel Toxicology]]
-- [[DNA Methylation]] and [[epigenetic-modifications]] link to broader metal toxicology mechanisms
-- E-cadherin/[[EMT]] pathway connections relevant to cancer metastasis mechanisms
-- [[Metallothionein]] biology connects to metal detoxification and resistance mechanisms
+- Relevant to [[oxidative-stress|oxidative stress]] pathways shared with 
+- and [[epigenetic-modifications]] link to broader metal toxicology mechanisms
+- E-cadherin/ pathway connections relevant to cancer metastasis mechanisms
+- biology connects to metal detoxification and resistance mechanisms

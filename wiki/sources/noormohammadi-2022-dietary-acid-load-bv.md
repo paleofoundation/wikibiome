@@ -24,15 +24,15 @@ platform: wikibiome
 - **Design**: Case-control study at Imam Hossein Hospital, Tehran, Iran
 - **Participants**: 143 BV-affected women (Amsel criteria) and 151 healthy controls, aged 18-45
 - **Dietary assessment**: Validated 168-item FFQ; AHEI-2010 calculated from 11 components; dietary acid load calculated by PRAL and NEAP indices
-- **Key results (AHEI-2010 components)**:
-  - Vegetables (highest tertile): aOR = 0.34 (0.17-0.69, p-trend = 0.003)
-  - Nuts and legumes: aOR = 0.44 (0.23-0.87, p-trend = 0.028)
-  - Red/processed meats: aOR = 0.31 (0.16-0.60, p-trend = 0.001) -- higher consumption protective in adjusted model
-  - Whole grains: aOR = 0.34 (0.17-0.69, p-trend = 0.003 in base model)
-  - Sugar-sweetened beverages/fruit juice (highest tertile): aOR = 3.47 (1.68-7.17, p-trend < 0.001)
-  - Trans fatty acids: aOR = 2.29 (1.18-4.43, p-trend = 0.005)
-  - Sodium: aOR = 3.44 (1.67-7.06, p-trend = 0.002)
-  - PUFA: aOR = 1.79 (0.94-3.41, p-trend = 0.085) -- borderline
+
+ - Vegetables (highest tertile): aOR = 0.34 (0.17-0.69, p-trend = 0.003)
+ - Nuts and legumes: aOR = 0.44 (0.23-0.87, p-trend = 0.028)
+ - Red/processed meats: aOR = 0.31 (0.16-0.60, p-trend = 0.001) -- higher consumption protective in adjusted model
+ - Whole grains: aOR = 0.34 (0.17-0.69, p-trend = 0.003 in base model)
+ - Sugar-sweetened beverages/fruit juice (highest tertile): aOR = 3.47 (1.68-7.17, p-trend < 0.001)
+ - Trans fatty acids: aOR = 2.29 (1.18-4.43, p-trend = 0.005)
+ - Sodium: aOR = 3.44 (1.67-7.06, p-trend = 0.002)
+ - PUFA: aOR = 1.79 (0.94-3.41, p-trend = 0.085) -- borderline
 - **Dietary acid load**: Neither PRAL nor NEAP was significantly associated with BV after adjustment
 - **BV cases**: higher obesity, more smoking, higher familial BV history, lower iron supplement use
 

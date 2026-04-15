@@ -35,10 +35,10 @@ Public health review of **autism spectrum disorder (ASD) etiology, epidemiology,
 # Epidemiology
 
 - Prevalence varies widely depending on:
-  - Assessment criteria
-  - Age group studied
-  - Geographic region
-  - Healthcare access
+ - Assessment criteria
+ - Age group studied
+ - Geographic region
+ - Healthcare access
 - Growing recognition as major public health issue
 
 # Relevance to Metallomic Framework

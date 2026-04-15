@@ -40,8 +40,8 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- plasma metabolomics distinguishing ASD from other developmental disabilities
-- [[metabolomics]] -- NMR-based untargeted metabolite profiling in ASD
-- [[one-carbon-metabolism]] -- shared perturbation across ASD and Down syndrome
-- [[amino-acids]] -- plasma amino acid alterations in ASD
-- [[folate]] -- one-carbon metabolism pathway disruption
+- -- NMR-based untargeted metabolite profiling in ASD
+- -- shared perturbation across ASD and Down syndrome
+- -- plasma amino acid alterations in ASD
+- -- one-carbon metabolism pathway disruption
 - [[biomarkers]] -- metabolite signatures for ASD identification

@@ -31,8 +31,8 @@ platform: wikibiome
 
 ## Connections
 
-- Virulence factor detail complements molecular mechanisms discussed in [[microbiome-host-interactions]] and [[microbiome-and-inflammation]]
+- Virulence factor detail complements molecular mechanisms discussed in and 
 - Oral-fecal microbiome axis connects to diagnostic approaches in [[rezasoltani-2024-16s-oral-fecal-microbiota-crc-iran]]
-- *F. nucleatum* as a prognostic and therapeutic target relates to [[choi-2021-microbiome-prognosis-crc-16s]] and [[microbiome-modulating-drugs]]
+- *F. nucleatum* as a prognostic and therapeutic target relates to [[choi-2021-microbiome-prognosis-crc-16s]] and 
 - Biofilm discussion connects to findings on biofilm prevalence in [[loke-2018-metabolomics-16s-crc-mucosa]]
 - [[colorectal-cancer]]

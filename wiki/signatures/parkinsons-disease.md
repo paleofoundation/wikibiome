@@ -19,7 +19,7 @@ taxonomic_signature:
   enriched:
     - taxon: "[[enterobacteriaceae]]"
       role: "Metal-tolerant pathogens — siderophore-producing, iron piracy, LPS-driven inflammation, Enterobacteriaceae (E. coli-like) express zinc metalloproteases and nickel-dependent urease"
-    - taxon: "[[akkermansia-mucinicola]]"
+    - taxon: "[[akkermansia-muciniphila]]"
       role: "Mucus-degrading pathogen — elevated in PD, directly damages intestinal barrier integrity via mucinase enzymes; increases translocation of LPS and bacterial products"
     - taxon: "[[candida-albicans]]"
       role: "Interkingdom functional shielding — biofilm formation, oxygen depletion, metal-acquisition systems; enriched in PD mycobiome; promotes Enterobacteriaceae survival"
@@ -79,8 +79,8 @@ associated_conditions:
 
 # Cureva pipeline status
 cureva_status: partial
-validated_interventions: []
-stops: []
+validated_interventions: [fmt-intervention]
+stops: [stop-iron-supplementation-parkinsons]
 karen_brain_primitives: [1, 2, 3, 5, 8, 9]
 platform: cureva
 ---
@@ -163,7 +163,7 @@ Cross-paper consensus from 16 published studies confirms the Pendergrass framewo
 | Taxon | Metal Dependencies | Key Enzymes | Pathogenic Role |
 |-------|-------------------|-------------|-----------------|
 | **[[enterobacteriaceae]]** (esp. *E. coli*) | Fe (siderophores), Zn (metalloprotease), Ni (urease, hydrogenase) | Siderophores, zinc metalloprotease, NiFe-hydrogenase, nickel urease, LPS, curli (amyloid) | Primary pathogen — all metal-dependent enzymes present; LPS-driven systemic inflammation; bacterial amyloids (curli) cross-seed alpha-synuclein aggregation; outcompetes commensals for siderophore-acquired iron |
-| **[[akkermansia-mucinicola]]** | Ni, Mn | Mucinase, O₂-dependent enzymes | Mucus-degrading pathogen directly damages intestinal barrier; increases paracellular translocation of LPS and bacterial products; elevated in 56% of PD studies |
+| **[[akkermansia-muciniphila]]** | Ni, Mn | Mucinase, O₂-dependent enzymes | Mucus-degrading pathogen directly damages intestinal barrier; increases paracellular translocation of LPS and bacterial products; elevated in 56% of PD studies |
 | **[[candida-albicans]]** | Zn (protease), Fe (siderophores), Ni (biofilm enhancement) | Biofilm formation, proteinases, phospholipase | Interkingdom functional shielding — creates anaerobic microenvironments for obligate anaerobes; co-aggregates with Enterobacteriaceae reduce immune detection; enriched in PD mycobiome in 44% of studies |
 
 ### Depleted Taxa

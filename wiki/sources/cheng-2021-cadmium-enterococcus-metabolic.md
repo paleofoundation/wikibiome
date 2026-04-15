@@ -1,15 +1,37 @@
 ---
-
-title: "Cadmium stress triggers significant metabolic reprogramming in Enterococcus faecium CX 2-6"
+title: Cadmium stress triggers significant metabolic reprogramming in Enterococcus faecium CX 2-6
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Cheng X, Yang B, Zheng J, Wei H, Feng X, Yin Y]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Cheng X
+  - Yang B
+  - Zheng J
+  - Wei H
+  - Feng X
+  - Yin Y
 journal: Computational and Structural Biotechnology Journal
 year: 2021
-tags: [cadmium, Enterococcus-faecium, metabolic-reprogramming, heavy-metal-resistance, RNA-seq, pan-genome, ncRNA, gene-expression, nucleotide-metabolism, ribosome]
-doi: "10.1016/j.csbj.2021.10.021"
+tags:
+  - cadmium
+  - Enterococcus-faecium
+  - metabolic-reprogramming
+  - heavy-metal-resistance
+  - RNA-seq
+  - pan-genome
+  - ncRNA
+  - gene-expression
+  - nucleotide-metabolism
+  - ribosome
+doi: 10.1016/j.csbj.2021.10.021
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Demonstrates cadmium-triggered metabolic reprogramming in Enterococcus—downregulation of nucleotide metabolism, upregulation of protein translation and transport systems. This paper reveals how cadmium exposure selects for metabolically crippled but persistent bacteria, a mechanism WikiBiome uses to explain dysbiosis persistence despite antibiotic or antimicrobial intervention."
 ---
 
 # Cadmium Stress Triggers Significant Metabolic Reprogramming in Enterococcus faecium CX 2-6
@@ -27,15 +49,15 @@ platform: wikibiome
 - **Organism**: *E. faecium* CX 2-6, isolated from a rural rice paddy in Jiangxi Province, China (heavy metal contaminated farmland)
 - **Genome**: Fully assembled using PacBio long-read sequencing; complete chromosome (2,559,204 bp) + complete plasmid (168,866 bp); 2,475 protein-coding genes + 209 plasmid genes
 - **Experimental Conditions**: Control (Cd0), 1 mmol cadmium (Cd1), 5 mmol cadmium (Cd5); RNA-seq with three replicates each
-- **Gene Expression Groups**:
-  - G1 (310 genes): Downregulated by Cd; enriched for nucleotide metabolism (DNA replication inhibition consistent with slower growth)
-  - G2 (658 genes): Upregulated at low Cd; enriched for ribosome-related GO functions (increased protein translation)
-  - G3 (184 genes): Highly upregulated at high Cd; enriched for carbohydrate transport, anion transport, and increased exopolysaccharide production
+
+ - G1 (310 genes): Downregulated by Cd; enriched for nucleotide metabolism (DNA replication inhibition consistent with slower growth)
+ - G2 (658 genes): Upregulated at low Cd; enriched for ribosome-related GO functions (increased protein translation)
+ - G3 (184 genes): Highly upregulated at high Cd; enriched for carbohydrate transport, anion transport, and increased exopolysaccharide production
 - **Key DEG Clusters**: Physically linked gene clusters on chromosome
-  - Cluster 1: Pyrimidine metabolism enzymes (downregulated)
-  - Cluster 2: Exopolysaccharide (EPS) production genes (upregulated)
-  - Cluster 3: PEP-dependent phosphotransferase system (upregulated)
-  - Cluster 4: Pyrimidine metabolism (downregulated)
+ - Cluster 1: Pyrimidine metabolism enzymes (downregulated)
+ - Cluster 2: Exopolysaccharide (EPS) production genes (upregulated)
+ - Cluster 3: PEP-dependent phosphotransferase system (upregulated)
+ - Cluster 4: Pyrimidine metabolism (downregulated)
 - **Transporter Response**: P-type ATPase transporters and carbohydrate/anion transporters are highly upregulated, suggesting cells pump Cd out and use carbohydrates/anions for sequestration and neutralization
 - **Pan-genome**: 869 core gene families contain most DEGs; CX 2-6 has unique prophage-associated gene cluster activated by cadmium
 - **Published Cd Response Genes**: 12 of 17 previously published *E. faecium* Cd response genes have homologs in CX 2-6, and 7/8 are also DEGs in this study

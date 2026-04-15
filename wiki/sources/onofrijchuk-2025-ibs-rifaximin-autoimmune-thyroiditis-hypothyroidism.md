@@ -35,6 +35,6 @@ platform: wikibiome
 ## Connections
 
 - IBS-SIBO-thyroid comorbidity connects to [[zhao-2025-comorbidity-patterns-hashimotos]] on HT comorbidity prevalence
-- Rifaximin as microbiome modulator relevant to [[Gut-Thyroid Axis]] therapeutic interventions
+- Rifaximin as microbiome modulator relevant to therapeutic interventions
 - SIBO prevalence in hypothyroidism supports [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]] on motility-microbiome interactions
 - Mental health improvement with SIBO treatment connects to [[song-2023-graves-depression-mechanistic-insight]] gut-brain axis mechanisms

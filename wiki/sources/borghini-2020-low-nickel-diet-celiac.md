@@ -34,9 +34,9 @@ A pilot study demonstrating that celiac disease patients on a gluten-free diet (
 - 20 patients were ultimately enrolled (all female), selected based on persistent or relapsing symptoms despite proper GFD adherence
 - All 20 patients tested positive on the Ni oral mucosa patch test, indicating 100% Ni ACM prevalence in this symptomatic subgroup
 - Three time points assessed:
-  - **T1:** Initial celiac diagnosis (before GFD)
-  - **T2:** After prolonged GFD (symptom relapse period)
-  - **T3:** After adding low-nickel diet to the GFD
+ - **T1:** Initial celiac diagnosis (before GFD)
+ - **T2:** After prolonged GFD (symptom relapse period)
+ - **T3:** After adding low-nickel diet to the GFD
 
 ### Paradoxical Symptom Relapse on Gluten-Free Diet
 
@@ -49,8 +49,8 @@ A pilot study demonstrating that celiac disease patients on a gluten-free diet (
 
 - Adding a low-nickel diet to the GFD (T2 to T3) improved 83.4% of tracked symptoms, with 41.7% reaching statistical significance
 - Both gastrointestinal and extraintestinal symptoms responded:
-  - **GI symptoms improved:** Abdominal pain, bloating, nausea, loose stools
-  - **Extraintestinal symptoms improved:** Dermatitis, headache, chronic fatigue, muscle and joint pain
+ - **GI symptoms improved:** Abdominal pain, bloating, nausea, loose stools
+ - **Extraintestinal symptoms improved:** Dermatitis, headache, chronic fatigue, muscle and joint pain
 - The degree of improvement on LNiD roughly mirrored the degree of worsening that had occurred during prolonged GFD
 
 ### High-Nickel and Gluten-Free Food Overlap

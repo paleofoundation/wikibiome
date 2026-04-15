@@ -26,11 +26,11 @@ platform: wikibiome
 - **Sample**: 197 women who underwent cesarean section with postpartum anemia (Oct 2019 - Nov 2021); 148 cases with EPDS data for PPD analysis
 - **Intervention**: Zinc acetate hydrate (50 mg Zn per tablet) administered orally twice daily (100 mg/day) for 4 days from postoperative day 1
 - **Groups**: Zn supplementation (n=82) vs. no Zn supplementation (n=115) for Analysis 1; n=61 vs n=87 for EPDS analysis
-- **Key Findings**:
-  - Zn levels significantly increased by postoperative day 6 in the supplementation group; no cases showed excess levels
-  - Maternal age at delivery (adjusted OR: 0.876, 95% CI: 0.780-0.984, p=0.025) and Zn supplementation were independently associated with lower EPDS >= 9
-  - EPDS >= 9 prevalence: 4.9% in Zn group vs. 16.1% in no-Zn group (p=0.023)
-  - Oral Fe + Zn combination showed slightly lower Hb and Hct on day 6 vs. oral Fe alone; this difference resolved at 1 month; not seen with IV Fe + Zn
+
+ - Zn levels significantly increased by postoperative day 6 in the supplementation group; no cases showed excess levels
+ - Maternal age at delivery (adjusted OR: 0.876, 95% CI: 0.780-0.984, p=0.025) and Zn supplementation were independently associated with lower EPDS >= 9
+ - EPDS >= 9 prevalence: 4.9% in Zn group vs. 16.1% in no-Zn group (p=0.023)
+ - Oral Fe + Zn combination showed slightly lower Hb and Hct on day 6 vs. oral Fe alone; this difference resolved at 1 month; not seen with IV Fe + Zn
 - **Limitations**: Small sample size, retrospective design, CS patients only, Zn supplementation was doctor-dependent, first-month follow-up only
 
 # Connections

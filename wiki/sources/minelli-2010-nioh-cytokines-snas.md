@@ -25,15 +25,15 @@ platform: wikibiome
 - **Population**: 36 SNAS patients (31F/5M, mean age 39.4); all had positive patch test, Ni-OST positivity, and benefit from low-Ni diet
 - **Protocol**: 1-month low-Ni diet washout, then NiOH incremental dosing (0.3 ng to 1.5 ug/week) for 10 weeks, followed by 12-month maintenance (1.5 ug/week); Ni-rich foods gradually reintroduced at 4 months
 - **Immunological assessment**: PBMC cultured with PHA +/- nickel sulphate (10^-5 M); IL-5, IL-13, IFN-gamma measured before and after treatment
-- **Clinical results**:
-  - VAS scores significantly lower in NiOH group at T5 (16 months): 0.99 vs 6.46 in controls (p=0.001)
-  - Rescue medication use: 56.3% NiOH vs 83.0% controls at T3; 4.3% vs 83.0 at T5 (p<0.001)
-  - 20/23 NiOH completers (87%) reintroduced all Ni-rich foods without symptoms
+
+ - VAS scores significantly lower in NiOH group at T5 (16 months): 0.99 vs 6.46 in controls (p=0.001)
+ - Rescue medication use: 56.3% NiOH vs 83.0% controls at T3; 4.3% vs 83.0 at T5 (p<0.001)
+ - 20/23 NiOH completers (87%) reintroduced all Ni-rich foods without symptoms
 - **Immunological results** (NiOH group post-treatment):
-  - Ni-induced IFN-gamma decreased by 55.3% +/- 1.7 (p<0.01)
-  - Ni-induced IL-13 decreased by 58.6% +/- 14 (p<0.01)
-  - Ni-induced IL-5 decreased by 31.2% (p<0.01)
-  - No significant changes in diet-alone group cytokines
+ - Ni-induced IFN-gamma decreased by 55.3% +/- 1.7 (p<0.01)
+ - Ni-induced IL-13 decreased by 58.6% +/- 14 (p<0.01)
+ - Ni-induced IL-5 decreased by 31.2% (p<0.01)
+ - No significant changes in diet-alone group cytokines
 - **Low-Ni diet foods avoided**: Avocados, carrots, lettuce, figs, mushrooms, flounder, plaice, herring, tea, apricots, lobster, onions, maize, pears, raisins, asparagus, cabbages, cauliflowers, beans, French beans, yeast, margarine, mussels, oysters, shellfish, potatoes, peas, tomatoes, spinach, prunes, peanuts, oats, cocoa, tomato puree, lentils, almonds, walnuts, hazelnuts
 
 ## Connections

@@ -35,5 +35,5 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- heterogeneity and GI inflammation subtyping
-- [[gastrointestinal-symptoms]] -- inflammation-based subgroup identification
+- -- inflammation-based subgroup identification
 - [[neuroinflammation]] -- gut-to-brain inflammatory pathways in ASD

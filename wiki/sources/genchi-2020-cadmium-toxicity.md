@@ -1,15 +1,35 @@
 ---
-
-title: "The Effects of Cadmium Toxicity"
+title: The Effects of Cadmium Toxicity
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Giuseppe Genchi, Maria Stefania Sinicropi, Graziantonio Lauria, Alessia Carocci, Alessia Catalano]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Giuseppe Genchi
+  - Maria Stefania Sinicropi
+  - Graziantonio Lauria
+  - Alessia Carocci
+  - Alessia Catalano
 journal: International Journal of Environmental Research and Public Health
 year: 2020
-tags: [cadmium, toxicology, review, oxidative-stress, mitochondria, metallothionein, cancer, chelation, phytoremediation]
-doi: "10.3390/ijerph17113782"
+tags:
+  - cadmium
+  - toxicology
+  - review
+  - oxidative-stress
+  - mitochondria
+  - metallothionein
+  - cancer
+  - chelation
+  - phytoremediation
+doi: 10.3390/ijerph17113782
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Comprehensive review of cadmium's toxicity mechanisms—oxidative stress, mitochondrial damage, metallothionein dysregulation, and carcinogenicity. WikiBiome relies on this for understanding how cadmium burden integrates with dysbiotic inflammation to drive multi-organ pathology across kidney disease, cancer, and metabolic conditions."
 ---
 
 # The Effects of Cadmium Toxicity
@@ -39,13 +59,13 @@ platform: wikibiome
 ## Connections
 
 - [[cadmium]] - primary subject metal
-- [[Metallothionein]] - key protective protein binding Cd; discussed extensively
+- - key protective protein binding Cd; discussed extensively
 - [[oxidative-stress|oxidative stress]] - central mechanism of Cd toxicity via ROS generation
-- [[Mitochondrial Dysfunction]] - Cd targets respiratory chain, induces apoptosis
-- [[Heavy Metal Chelation]] - EDTA, DMSA, DMPS and analogs for Cd detoxification
+- - Cd targets respiratory chain, induces apoptosis
+- - EDTA, DMSA, DMPS and analogs for Cd detoxification
 - [[nickel]] - mentioned in context of Fenton-type reactions with vitamin C (Cd and Ni together cause DNA breaks)
 - [[lead]] - co-occurs with Cd in environmental contamination
 - [[zinc]] - MT also binds Zn; Zn and Cd compete for transporters
-- [[Cancer]] - Cd classified as IARC Group 1 carcinogen
-- [[Kidney Toxicity]] - primary target organ for chronic Cd exposure
-- [[Epigenetics]] - Cd alters DNA methylation and histone modifications
+- - Cd classified as IARC Group 1 carcinogen
+- - primary target organ for chronic Cd exposure
+- - Cd alters DNA methylation and histone modifications

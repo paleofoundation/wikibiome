@@ -40,8 +40,8 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- prenatal infection susceptibility and ASD risk
-- [[listeria-monocytogenes]] -- estrogen increases susceptibility to this pathogen
-- [[estrogen]] -- immunosuppressive effects on Listeria resistance
-- [[immune-system]] -- thymus-dependent mechanisms of estrogen-induced suppression
-- [[maternal-infection]] -- increased susceptibility during pregnancy relevant to ASD
-- [[sex-differences]] -- hormonal modulation of infection susceptibility
+- -- estrogen increases susceptibility to this pathogen
+- -- immunosuppressive effects on Listeria resistance
+- -- thymus-dependent mechanisms of estrogen-induced suppression
+- -- increased susceptibility during pregnancy relevant to ASD
+- -- hormonal modulation of infection susceptibility

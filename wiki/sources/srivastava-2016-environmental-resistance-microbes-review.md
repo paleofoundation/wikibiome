@@ -26,19 +26,19 @@ platform: wikibiome
 
 - **Review scope**: Overview of environmental resistance mechanisms linking metals, organics, and antibiotic resistance (Clean - Soil, Air, Water, 2016)
 - **Table 1 -- Common pathogenic bacteria showing resistance to metals and antimicrobials**: Comprehensive catalog including:
-  - *Acinetobacter baumannii*: MDR, resistance to Ni (soil and water)
-  - *Bacillus subtilis*: MDR, resistance to As(V) (water)
-  - *E. coli*: Rifampicin resistance, resistance to MR (soil and water)
-  - *Mycobacterium tuberculosis*: XDR, resistance to Zn
-  - *Pseudomonas aeruginosa*: MDR, resistance to Hg, Cd, Cr (soil and water)
-  - *S. aureus*: Rifampicin/methicillin resistance, resistance to Cu
-  - *Vibrio cholera*: MDR, resistance to MR (water)
+ - *Acinetobacter baumannii*: MDR, resistance to Ni (soil and water)
+ - *Bacillus subtilis*: MDR, resistance to As(V) (water)
+ - *E. coli*: Rifampicin resistance, resistance to MR (soil and water)
+ - *Mycobacterium tuberculosis*: XDR, resistance to Zn
+ - *Pseudomonas aeruginosa*: MDR, resistance to Hg, Cd, Cr (soil and water)
+ - *S. aureus*: Rifampicin/methicillin resistance, resistance to Cu
+ - *Vibrio cholera*: MDR, resistance to MR (water)
 - **Table 2 -- Efflux pump systems for metal and antimicrobial resistance**: Key examples:
-  - CopB: Cu efflux in *Enterococcus* sp.
-  - CusCFBA: Cu, Ag efflux conferring MDR in *E. coli*
-  - MdtABC: Cu, Zn efflux in *Salmonella* serovar Typhimurium conferring MDR
-  - CzcCBA: Co, Cd, Zn, Ni efflux in *Ralstonia metallidurans*
-  - AcrAB-TolC: fluoroquinolone resistance in *E. coli* and *Campylobacter jejuni*
+ - CopB: Cu efflux in *Enterococcus* sp.
+ - CusCFBA: Cu, Ag efflux conferring MDR in *E. coli*
+ - MdtABC: Cu, Zn efflux in *Salmonella* serovar Typhimurium conferring MDR
+ - CzcCBA: Co, Cd, Zn, Ni efflux in *Ralstonia metallidurans*
+ - AcrAB-TolC: fluoroquinolone resistance in *E. coli* and *Campylobacter jejuni*
 - **Resistance development pathways** (Figure 1): Environmental microbes acquire resistance through (1) intrinsic resistance genes on transferable elements via HGT, (2) point mutations under selection pressure, (3) conjugative HGT; multiple resistance genes accumulate, leading to "super bug" development
 - **Six factors influencing resistance development**: Exposure of bacteria to antibiotics (selection pressure); mixing of microbial communities and exchange of genetic information; exposure to toxic organics and metals; HGT mechanisms; historical persistence of resistance genes; malpractice in healthcare
 - **Toxic metal pollution and resistance**: Heavy metals persist in environment for long periods and act as continuous selection pressure; wastewater treatment plants are major reservoirs linking clinical and environmental resistance; antibiotic-resistant bacteria including *P. aeruginosa*, *Proteus vulgaris*, *Klebsiella*, and *E. coli* found in River Ganges in India

@@ -48,30 +48,30 @@ Many older microbiota studies reported "Prevotella" changes in T2D but did not r
 ### Mechanistic Protection Against Insulin Resistance
 
 1. **Propionate Production and GPR43 Signaling**
-   - Alloprevotella's primary SCFA output is **propionate** (via propionyl-CoA synthetase and associated enzymes)
-   - Propionate activates GPR43 (free fatty acid receptor 2) on intestinal epithelial cells and immune cells
-   - GPR43 signaling strengthens intestinal barrier integrity and reduces systemic LPS translocation
-   - Propionate also activates PPAR-γ in colonocytes, promoting insulin sensitivity
+ - Alloprevotella's primary SCFA output is **propionate** (via propionyl-CoA synthetase and associated enzymes)
+ - Propionate activates GPR43 (free fatty acid receptor 2) on intestinal epithelial cells and immune cells
+ - GPR43 signaling strengthens intestinal barrier integrity and reduces systemic LPS translocation
+ - Propionate also activates PPAR-γ in colonocytes, promoting insulin sensitivity
 
 2. **Glucose and Lipid Metabolism**
-   - Alloprevotella fermentation produces succinate and lactate alongside propionate
-   - These metabolites improve hepatic glucose homeostasis and reduce hepatic steatosis (NAFLD)
-   - Propionate directly suppresses de novo lipogenesis in the liver
+ - Alloprevotella fermentation produces succinate and lactate alongside propionate
+ - These metabolites improve hepatic glucose homeostasis and reduce hepatic steatosis (NAFLD)
+ - Propionate directly suppresses de novo lipogenesis in the liver
 
 3. **Intestinal Barrier Function and Endotoxemia**
-   - Alloprevotella's propionate production maintains tight junction protein expression (claudin-2, occludin, ZO-1)
-   - Depletion is associated with increased gut permeability and elevated fasting endotoxemia (LPS)
-   - LPS is a key driver of systemic inflammation and insulin resistance in T2D
+ - Alloprevotella's propionate production maintains tight junction protein expression (claudin-2, occludin, ZO-1)
+ - Depletion is associated with increased gut permeability and elevated fasting endotoxemia (LPS)
+ - LPS is a key driver of systemic inflammation and insulin resistance in T2D
 
 4. **Bile Acid Metabolism**
-   - Alloprevotella possesses moderate bile salt hydrolase (BSH) activity
-   - Secondary bile acids produced support FXR and TGR5 signaling, enhancing insulin sensitivity
-   - Depletion reduces secondary bile acid diversity, impairing metabolic signaling
+ - Alloprevotella possesses moderate bile salt hydrolase (BSH) activity
+ - Secondary bile acids produced support FXR and TGR5 signaling, enhancing insulin sensitivity
+ - Depletion reduces secondary bile acid diversity, impairing metabolic signaling
 
 5. **Immune Tolerance and Th17 Suppression**
-   - Propionate produced by Alloprevotella activates HDAC inhibition in dendritic cells
-   - This skews immune differentiation toward Tregs and away from pro-inflammatory Th17 cells
-   - Loss of Alloprevotella correlates with elevated Th17 abundance and increased intestinal IL-17 production, which impairs barrier function
+ - Propionate produced by Alloprevotella activates HDAC inhibition in dendritic cells
+ - This skews immune differentiation toward Tregs and away from pro-inflammatory Th17 cells
+ - Loss of Alloprevotella correlates with elevated Th17 abundance and increased intestinal IL-17 production, which impairs barrier function
 
 ## Oral Health and Periodontal Microbiota
 
@@ -122,16 +122,16 @@ Alloprevotella restoration is considered one of the **most important microbiota 
 ## Connections
 
 - [[type-2-diabetes]] – one of the strongest protective depleted taxa; protective marker of insulin sensitivity
-- [[glucose-metabolism]] – propionate improves hepatic glucose homeostasis and reduces gluconeogenesis
+- – propionate improves hepatic glucose homeostasis and reduces gluconeogenesis
 - [[insulin-resistance]] – Alloprevotella depletion strongly associated with HOMA-IR elevation
 - [[short-chain-fatty-acids]] – primary propionate producer; key SCFA in metabolic disease prevention
-- [[nutritional-immunity|intestinal-barrier-function]] – propionate maintains tight junctions and reduces endotoxemia
-- [[endotoxemia]] – loss increases LPS translocation; propionate-mediated barrier maintenance is key protective mechanism
-- [[periodontitis]] – depleted in active periodontal disease; oral-gut axis shared dysbiosis
+- [[nutritional-immunity|nutritional immunity]] – propionate maintains tight junctions and reduces endotoxemia
+- – loss increases LPS translocation; propionate-mediated barrier maintenance is key protective mechanism
+- – depleted in active periodontal disease; oral-gut axis shared dysbiosis
 - [[bile-acid-metabolism]] – moderate BSH activity; produces secondary bile acids for metabolic signaling
 - [[iron]] – iron-dependent metabolism; dysbiotic iron overload may impair competitive fitness
-- [[polyphenols]] – secondary metabolites favor Alloprevotella growth
-- [[fiber]] – resistant starch and beta-glucans selectively enrich this genus
+- – secondary metabolites favor Alloprevotella growth
+- – resistant starch and beta-glucans selectively enrich this genus
 - [[inflammation]] – loss correlates with elevated systemic inflammation and Th17 skewing
 - [[prevotella]] – genus family member but distinct metabolic and immune profiles; often opposing trends
 - [[faecalibacterium-prausnitzii]] – frequently co-enriched; synergistic SCFA network

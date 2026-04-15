@@ -24,9 +24,9 @@ A ubiquitous filamentous fungal genus that is both an environmental saprophyte a
 ## Iron Dependency and Siderophores
 
 - *Aspergillus* species produce three major siderophore types for [[iron]] acquisition:
-  - **TAFC (triacetylfusarinine C)** -- extracellular siderophore secreted to scavenge environmental iron; detectable in serum and urine as a biomarker of invasive aspergillosis [[patil-2021-infection-metallomics-critical-care]].
-  - **Ferricrocin** -- intracellular siderophore used for iron storage and distribution within hyphae.
-  - **Coprogen** -- additional extracellular siderophore contributing to iron piracy from the host.
+ - **TAFC (triacetylfusarinine C)** -- extracellular siderophore secreted to scavenge environmental iron; detectable in serum and urine as a biomarker of invasive aspergillosis [[patil-2021-infection-metallomics-critical-care]].
+ - **Ferricrocin** -- intracellular siderophore used for iron storage and distribution within hyphae.
+ - **Coprogen** -- additional extracellular siderophore contributing to iron piracy from the host.
 - TAFC is detected in urine within 4.5 hours of inoculation in animal models, making it a **faster diagnostic marker** than galactomannan (the current clinical standard) [[patil-2021-infection-metallomics-critical-care]].
 - Iron acquisition is essential for virulence: siderophore-deficient *A. fumigatus* mutants show dramatically attenuated pathogenicity, connecting iron availability directly to infection outcome.
 - The host counters fungal iron piracy through [[nutritional-immunity]] mechanisms including [[lactoferrin]] and transferrin sequestration.

@@ -54,11 +54,11 @@ Transferrin is the primary delivery vehicle for iron (Fe³⁺) and also binds **
 **Related proteins:**
 - [[lactoferrin]] — mucosal iron defense; higher affinity for Fe³⁺ than transferrin
 - [[hepcidin]] — regulates iron absorption and recycling; increases transferrin synthesis during infection
-- [[ferroportin]] — iron exporter; hepcidin blocks it, driving iron intracellular sequestration
+- — iron exporter; hepcidin blocks it, driving iron intracellular sequestration
 
 **Related concepts:**
 - [[nutritional-immunity]] — host defense via metal sequestration
-- [[siderophores|siderophore]] — bacterial iron-scavenging molecules competing with transferrin
+- — bacterial iron-scavenging molecules competing with transferrin
 - [[crohns-disease]], [[colorectal-cancer]], [[obesity]] — conditions with elevated transferrin
 
 **Metal entities:**

@@ -40,8 +40,8 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- folic acid supplementation for prevention and treatment
-- [[folate]] -- role in ASD risk and one-carbon metabolism
-- [[one-carbon-metabolism]] -- folate-methionine cycle disruption in ASD
-- [[autoimmunity]] -- folate receptor autoantibodies in ASD
-- [[prenatal-risk-factors]] -- maternal folic acid supplementation and ASD risk
-- [[epigenetics]] -- folate's role in DNA methylation and gene regulation
+- -- role in ASD risk and one-carbon metabolism
+- -- folate-methionine cycle disruption in ASD
+- -- folate receptor autoantibodies in ASD
+- -- maternal folic acid supplementation and ASD risk
+- -- folate's role in DNA methylation and gene regulation

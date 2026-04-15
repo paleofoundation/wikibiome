@@ -10,6 +10,7 @@ year: 2025
 tags: [heavy-metals, trace-elements, kidney-function, eGFR, prospective, cobalt, nickel, vanadium, copper, selenium, molybdenum, Switzerland]
 doi: "10.1093/ckj/sfae399"
 platform: wikibiome
+evidence_level: prospective-cohort
 ---
 
 # Key Claims

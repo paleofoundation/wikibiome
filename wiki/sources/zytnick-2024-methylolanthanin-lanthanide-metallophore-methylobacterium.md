@@ -11,6 +11,7 @@ tags: [mismetallation, metal-homeostasis, lanthanides, rare-earth-elements, meta
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "lanthanide acquisition by metallophore"
+evidence_level: cross-sectional
 ---
 
 # Why This Paper Matters

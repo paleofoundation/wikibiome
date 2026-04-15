@@ -27,11 +27,11 @@ platform: wikibiome
 - **Exposure**: Daily traffic-related NO2 estimated using CALINE4 dispersion model at residential locations, averaged across pregnancy; stratified by road class (freeways/highways, major roads, minor roads)
 - **Outcome**: Postpartum Distress Measure (PDM) at 1, 3, 6, and 12 months postpartum -- assesses both depression and anxiety symptoms
 - **Analysis**: Multivariate linear regression at each timepoint; linear mixed effect models for repeated measures; interaction terms for HDP effect modification
-- **Key Results**:
-  - Total NO2 (2.02 ppb mean): 2.09% change per IQR increase in 12-month PDM (p=0.34)
-  - Major road NO2 (0.22 ppb mean): 3.06% per IQR (95% CI: 0.43-5.76, p=0.02) -- strongest and most consistent association
-  - Freeway/highway NO2: 0.69% per IQR (p=0.66) -- not significant
-  - HDP interaction with total NO2: 28.22% increase in 12-month PDM (95% CI: 4.05-58.00%, p for interaction=0.01) among HDP mothers
+
+ - Total NO2 (2.02 ppb mean): 2.09% change per IQR increase in 12-month PDM (p=0.34)
+ - Major road NO2 (0.22 ppb mean): 3.06% per IQR (95% CI: 0.43-5.76, p=0.02) -- strongest and most consistent association
+ - Freeway/highway NO2: 0.69% per IQR (p=0.66) -- not significant
+ - HDP interaction with total NO2: 28.22% increase in 12-month PDM (95% CI: 4.05-58.00%, p for interaction=0.01) among HDP mothers
 - **Population**: 84.1% Hispanic/Latina, 48.6% income < $30,000, mean age 28.47 years
 - **Sensitivity**: Robust to exclusion of preterm births, antidepressant users, adjustment for income
 

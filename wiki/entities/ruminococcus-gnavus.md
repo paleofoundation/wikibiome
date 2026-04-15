@@ -31,9 +31,9 @@ A Gram-positive obligate anaerobe that has emerged as a **pro-inflammatory patho
 - *R. gnavus* synthesizes a **species-specific, immunostimulatory polysaccharide** distinct from the neutral polysaccharides of commensal *Ruminococcus* species.
 - This polysaccharide activates **group 3 innate lymphoid cells (ILC3s)** via recognition receptors on intestinal innate immune cells.
 - ILC3 activation leads to:
-  - **IL-17 and IL-22 production** → chronic intestinal inflammation and Th17 differentiation.
-  - **Dysregulation of microbial sensing** → loss of tolerance to commensals.
-  - **Epithelial remodeling** → mucus layer thinning and barrier dysfunction.
+ - **IL-17 and IL-22 production** → chronic intestinal inflammation and Th17 differentiation.
+ - **Dysregulation of microbial sensing** → loss of tolerance to commensals.
+ - **Epithelial remodeling** → mucus layer thinning and barrier dysfunction.
 
 ### Iron and Polysaccharide Synthesis
 
@@ -82,9 +82,9 @@ A Gram-positive obligate anaerobe that has emerged as a **pro-inflammatory patho
 ### Iron as a Growth Factor
 
 - *R. gnavus* possesses iron acquisition systems and requires iron for:
-  - Ribonucleotide reductase (DNA/RNA synthesis).
-  - Carbohydrate biosynthesis enzymes for polysaccharide synthesis.
-  - Cytochrome oxidases in anaerobic respiration.
+ - Ribonucleotide reductase (DNA/RNA synthesis).
+ - Carbohydrate biosynthesis enzymes for polysaccharide synthesis.
+ - Cytochrome oxidases in anaerobic respiration.
 - High-iron dysbiotic environments (from bleeding in Crohn's or barrier breakdown in depression) select for *R. gnavus*.
 
 ### Zinc Sensitivity
@@ -108,9 +108,9 @@ A Gram-positive obligate anaerobe that has emerged as a **pro-inflammatory patho
 ### Synergistic Dysbiosis
 
 - *R. gnavus* works synergistically with [[prevotella-copri]] and [[bacteroides-vulgatus]] to:
-  - Collectively degrade barrier proteins and mucins.
-  - Produce pro-inflammatory metabolites and polysaccharides.
-  - Overcome nutritional immunity by numerical dominance.
+ - Collectively degrade barrier proteins and mucins.
+ - Produce pro-inflammatory metabolites and polysaccharides.
+ - Overcome nutritional immunity by numerical dominance.
 - Reciprocal depletion of butyrate-producing commensals ([[faecalibacterium-prausnitzii]], [[roseburia]]) removes the main source of HDAC-inhibiting short-chain fatty acids that would otherwise suppress IL-17 production.
 
 ## Metabolic Features
@@ -148,9 +148,9 @@ A Gram-positive obligate anaerobe that has emerged as a **pro-inflammatory patho
 - [[crohns-disease]] -- enriched in active CD; inflammatory polysaccharide drives IL-17/Th17 inflammation
 - [[depression]] -- enriched in depression; gut-brain axis dysbiosis → neuroinflammation
 - [[multiple-sclerosis]] -- enriched in MS; IL-17 promotion and oral tolerance breaking
-- [[inflammatory-polysaccharide]] -- species-specific immunostimulatory glycan drives ILC3 activation
-- [[mucin-degradation]] -- net barrier disruption via excessive MUC2 consumption
+- -- species-specific immunostimulatory glycan drives ILC3 activation
+- -- net barrier disruption via excessive MUC2 consumption
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *R. gnavus* enrichment; loss of butyrate protection
 - [[short-chain-fatty-acids]] -- *R. gnavus* produces acetate (pro-inflammatory overflow) but not butyrate (anti-inflammatory)
 - [[dysbiosis]] -- *R. gnavus* dominance is a hallmark dysbiosis marker in Crohn's, depression, MS
-- [[il-17]] -- ILC3-derived IL-17 driven by *R. gnavus* polysaccharide; Th17-promoting effects
+- -- ILC3-derived IL-17 driven by *R. gnavus* polysaccharide; Th17-promoting effects

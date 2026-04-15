@@ -1,14 +1,41 @@
 ---
-
-title: "Influence of Toxic Metal Exposure on the Gut Microbiota (Review)"
+title: Influence of Toxic Metal Exposure on the Gut Microbiota (Review)
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Federica Giambo, Sebastiano Italia, Michele Teodoro, Giusi Briguglio, Nicola Furnari, Rosaria Catanoso, Chiara Costa, Concettina Fenga]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Federica Giambo
+  - Sebastiano Italia
+  - Michele Teodoro
+  - Giusi Briguglio
+  - Nicola Furnari
+  - Rosaria Catanoso
+  - Chiara Costa
+  - Concettina Fenga
 journal: World Academy of Sciences Journal
 year: 2021
-tags: [heavy-metals, gut-microbiota, arsenic, cadmium, mercury, lead, zinc, copper, chromium, manganese, nickel, nanoparticles, review]
+tags:
+  - heavy-metals
+  - gut-microbiota
+  - arsenic
+  - cadmium
+  - mercury
+  - lead
+  - zinc
+  - copper
+  - chromium
+  - manganese
+  - nickel
+  - nanoparticles
+  - review
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Comprehensive synthesis of how arsenic, cadmium, mercury, lead, and trace metals reshape microbiota composition and functionality. This cross-metal framework enables WikiBiome to explain why multiple metals—whether individually or as an environmental metal burden—converge on the dysbiotic signatures observed across disease states."
 ---
 
 # Key Claims
@@ -25,15 +52,15 @@ platform: wikibiome
 - **Study type**: Literature review using PubMed search of full-text articles from past 5 years (as of 2020)
 - 600 articles screened; 97 selected after exclusion criteria
 - Key findings organized by metal:
-  - **As**: Human studies (204 infants in USA) showed As levels associated with 15 genera including Bacteroidetes and Bifidobacterium; animal studies showed neuro-developmental effects and microbiome-based biomarkers
-  - **Cd**: SHIME model demonstrated Cd significantly perturbed GM composition; Cd exposure reduced Akkermansia; Bacillus cereus protective
-  - **Hg**: MeHg metabolism core process is methylation/demethylation; GM changes linked to neuro-developmental effects in rat offspring
-  - **Pb**: GM structure and diversity consistently altered; metabolomics profiling and metagenomic sequencing revealed multiple pathway perturbations
-  - **Zn**: Essential nutrient but excess causes oxidative stress; Zn deficiency also alters microbiota
-  - **Cu**: Excess Cu alters microbiota, causes histopathological lesions in liver and intestines
-  - **Cr**: Lactobacillus plantarum TW1-1 partially reversed Cr-exposure linked effects
-  - **Mn**: Sex-specific effects; FMT can lessen Mn neurological toxicity via gut microbiota
-  - **Ni**: Oral ingestion in mice altered GM composition without exerting toxic effects directly but acted on metabolic balance
+ - **As**: Human studies (204 infants in USA) showed As levels associated with 15 genera including Bacteroidetes and Bifidobacterium; animal studies showed neuro-developmental effects and microbiome-based biomarkers
+ - **Cd**: SHIME model demonstrated Cd significantly perturbed GM composition; Cd exposure reduced Akkermansia; Bacillus cereus protective
+ - **Hg**: MeHg metabolism core process is methylation/demethylation; GM changes linked to neuro-developmental effects in rat offspring
+ - **Pb**: GM structure and diversity consistently altered; metabolomics profiling and metagenomic sequencing revealed multiple pathway perturbations
+ - **Zn**: Essential nutrient but excess causes oxidative stress; Zn deficiency also alters microbiota
+ - **Cu**: Excess Cu alters microbiota, causes histopathological lesions in liver and intestines
+ - **Cr**: Lactobacillus plantarum TW1-1 partially reversed Cr-exposure linked effects
+ - **Mn**: Sex-specific effects; FMT can lessen Mn neurological toxicity via gut microbiota
+ - **Ni**: Oral ingestion in mice altered GM composition without exerting toxic effects directly but acted on metabolic balance
 - Table 1 provides summary of main studies organized by metal, study type, outcomes, and affected GM phyla
 
 # Connections

@@ -36,9 +36,9 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- urinary tryptophan metabolic signature as potential biomarker
-- [[tryptophan]] -- kynurenine pathway dysregulation in MS with lower kynurenine and K/T ratio
-- [[indole-3-propionic-acid]] -- microbiome-derived metabolite elevated in relapsing MS; positively correlates with disability
-- [[aryl-hydrocarbon-receptor]] -- AhR activation by kynurenine promotes Treg differentiation; reduced in MS
-- [[kynurenine]] -- lower urinary levels in RRMS; negatively correlated with disability when normalized to tryptophan
+- -- kynurenine pathway dysregulation in MS with lower kynurenine and K/T ratio
+- -- microbiome-derived metabolite elevated in relapsing MS; positively correlates with disability
+- -- AhR activation by kynurenine promotes Treg differentiation; reduced in MS
+- -- lower urinary levels in RRMS; negatively correlated with disability when normalized to tryptophan
 - [[biomarkers]] -- combined host and microbial Trp metabolites as non-invasive MS biomarker panel
-- [[Tregs]] -- impaired IDO-kynurenine-AhR axis may reduce Treg conversion in MS
+- -- impaired IDO-kynurenine-AhR axis may reduce Treg conversion in MS

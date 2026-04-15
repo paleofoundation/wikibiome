@@ -25,9 +25,9 @@ A genus of Gram-positive, obligate anaerobic, flagellated bacteria within the [[
 
 - Produces butyrate as its primary fermentation end-product from dietary fiber, particularly via the butyryl-CoA:acetate CoA-transferase pathway.
 - Butyrate from Roseburia acts through multiple anti-inflammatory pathways:
-  - **HDAC inhibition**: butyrate inhibits histone deacetylases in colonocytes and immune cells, promoting anti-inflammatory gene expression and Treg differentiation.
-  - **GPR109A signaling**: butyrate activates the GPR109A receptor on colonic epithelial cells and dendritic cells, inducing IL-10 production and suppressing NF-kB-mediated [[inflammation]].
-  - **Barrier maintenance**: supports tight junction integrity (ZO-1, occludin, claudin-1) and maintains colonocyte oxygen consumption, preserving the anaerobic lumen.
+ - **HDAC inhibition**: butyrate inhibits histone deacetylases in colonocytes and immune cells, promoting anti-inflammatory gene expression and Treg differentiation.
+ - **GPR109A signaling**: butyrate activates the GPR109A receptor on colonic epithelial cells and dendritic cells, inducing IL-10 production and suppressing NF-kB-mediated [[inflammation]].
+ - **Barrier maintenance**: supports tight junction integrity (ZO-1, occludin, claudin-1) and maintains colonocyte oxygen consumption, preserving the anaerobic lumen.
 - Flagellin from *R. hominis* specifically activates TLR5 signaling in a beneficial context, promoting mucosal immune homeostasis rather than inflammation.
 
 ## Depletion Across Disease States
@@ -55,7 +55,6 @@ Roseburia depletion is among the most reproducible microbiome findings in human 
 - **Acetate** -- secondary fermentation product; feeds acetogenic pathways.
 - **Formate** -- minor product; serves as electron carrier in anaerobic cross-feeding.
 - **Flagellin** -- immunostimulatory protein from *R. hominis* that promotes beneficial TLR5 signaling.
-
 
 ## Key Sources
 

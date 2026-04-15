@@ -10,6 +10,10 @@ year: 2026
 doi: "10.1371/journal.pone.0343229"
 tags: [gerd, gastroesophageal-reflux, bile-acids, metabolomics, pediatric, bile-reflux-gastritis, gastric-juice, fatty-acids, phospholipids, Th17, MAPK, NF-kB, glycerophospholipid-metabolism, ursodeoxycholic-acid, LC-MS]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: cross-sectional
 ---
 
 # Mechanisms of action of bile acids in pediatric gastroesophageal reflux: Exploration through non-targeted and targeted metabolomics methods
@@ -38,4 +42,4 @@ platform: wikibiome
 - NF-kB pathway activation parallels inflammatory mechanisms in [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]]
 - Th17 immune pathway involvement connects to immune response mechanisms in GERD pathogenesis
 - Pediatric bile reflux data extends understanding of GERD subtypes beyond acid reflux alone
-- Bile acid-microbiome interactions link to [[bile acids]] and gut flora metabolic crosstalk
+- Bile acid-microbiome interactions link to and gut flora metabolic crosstalk

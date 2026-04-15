@@ -11,6 +11,7 @@ tags: [parkinsons-disease, lead, heavy-metals, gut-microbiome, dysbiosis, gut-br
 library_category: metals
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
 ---
 
 # Lead Exposure and Gut Microbiome Alterations in Neurodegeneration

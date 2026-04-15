@@ -41,7 +41,7 @@ platform: wikibiome
 - [[Tin]] - third most abundant contaminant; related to packaging materials
 - [[cadmium]] - mostly below detection limits in these formulas
 - [[lead]] - detected in only 3 samples at low concentrations
-- [[food-safety]] - infant formula surveillance and regulatory compliance
-- [[drinking-water-quality]] - reconstitution with tap water adds contamination risk
-- [[Bioavailability]] - infant alkaline gastric pH increases metal absorption
+- - infant formula surveillance and regulatory compliance
+- - reconstitution with tap water adds contamination risk
+- - infant alkaline gastric pH increases metal absorption
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility for formula-fed infants

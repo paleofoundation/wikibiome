@@ -38,11 +38,11 @@ platform: wikibiome
 
 - [[chromium]] - primary subject metal; Cr(VI) is the toxic/carcinogenic form
 - [[DNA Damage]] - common mechanism across all Cr exposure routes
-- [[Cancer]] - Cr(VI) is IARC Group 1 carcinogen; lung cancer via inhalation, colorectal via ingestion
+- - Cr(VI) is IARC Group 1 carcinogen; lung cancer via inhalation, colorectal via ingestion
 - [[nickel]] - also IARC Group 1 carcinogen alongside Cr and Cd
 - [[cadmium]] - mentioned as co-carcinogen with Cr (both IARC Group 1)
 - [[arsenic]] - also IARC Group 1; co-occurs in environmental contamination
 - [[oxidative-stress|oxidative stress]] - Cr induces ROS via multiple pathways
-- [[drinking-water-quality]] - Cr(VI) in drinking water linked to GI cancers
+- - Cr(VI) in drinking water linked to GI cancers
 - [[colorectal-cancer]]
-- [[Occupational Exposure]] - tanneries, chrome plating, ferrochrome production
+- - tanneries, chrome plating, ferrochrome production

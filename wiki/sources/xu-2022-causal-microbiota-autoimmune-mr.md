@@ -10,6 +10,10 @@ year: 2022
 tags: [Mendelian-randomization, gut-microbiome, autoimmune-diseases, multiple-sclerosis, Bifidobacterium, Ruminococcus, GWAS, causal-inference]
 doi: "10.3389/fimmu.2021.746998"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Bifidobacterium", "Ruminococcus"]
+evidence_level: mendelian-randomization
 ---
 
 # Causal Relationship Between Gut Microbiota and Autoimmune Diseases: A Two-Sample Mendelian Randomization Study
@@ -34,6 +38,6 @@ platform: wikibiome
 
 - Provides genetic evidence framework for the observational gut dysbiosis findings in [[jangi-2016-gut-microbiome-alterations-ms]] and [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - The Bifidobacterium findings are particularly relevant to [[probiotics]] research: [[tamtaji-2017-probiotic-gene-expression-ms]] used *Bifidobacterium bifidum* as part of a probiotic intervention in MS
-- Connects to the broader [[causal-microbiome-relationships]] literature and the question of whether [[gut-dysbiosis]] is a cause or consequence of MS
+- Connects to the broader literature and the question of whether is a cause or consequence of MS
 - The Ruminococcus-MS association (albeit unreplicated) aligns with Ruminococcaceae changes observed in MS cohorts
-- Methodological template for other [[Mendelian-randomization]] studies in the MS-microbiome field
+- Methodological template for other studies in the MS-microbiome field

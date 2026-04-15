@@ -1,14 +1,40 @@
 ---
-
-title: "Alterations in the gut microbiome and metabolism with coronary artery disease severity"
+title: Alterations in the gut microbiome and metabolism with coronary artery disease severity
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Honghong Liu, Xi Chen, Xiaomin Hu, Haitao Niu, Ran Tian, Hui Wang, Haiyu Pang, Lingjuan Jiang, Bintao Qiu, Xiuting Chen, Yang Zhang, Yiyangzi Ma, Si Tang, Hanyu Li, Siqin Feng, Shuyang Zhang, Chenhong Zhang]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Honghong Liu
+  - Xi Chen
+  - Xiaomin Hu
+  - Haitao Niu
+  - Ran Tian
+  - Hui Wang
+  - Haiyu Pang
+  - Lingjuan Jiang
+  - Bintao Qiu
+  - Xiuting Chen
+  - Yang Zhang
+  - Yiyangzi Ma
+  - Si Tang
+  - Hanyu Li
+  - Siqin Feng
+  - Shuyang Zhang
+  - Chenhong Zhang
 journal: Microbiome
 year: 2019
 doi: 10.1186/s40168-019-0683-9
-tags: [cardiovascular-disease, CVD, coronary-artery-disease, gut-microbiome, metabolomics, multi-omics, co-abundance-groups, taurine, sphingolipids, diagnostic-marker]
+tags:
+  - cardiovascular-disease
+  - CVD
+  - coronary-artery-disease
+  - gut-microbiome
+  - metabolomics
+  - multi-omics
+  - co-abundance-groups
+  - taurine
+  - sphingolipids
+  - diagnostic-marker
 platform: wikibiome
 ---
 

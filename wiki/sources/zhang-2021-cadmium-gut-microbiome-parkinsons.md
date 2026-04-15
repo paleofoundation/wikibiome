@@ -11,6 +11,7 @@ tags: [parkinsons-disease, cadmium, heavy-metals, gut-microbiome, dysbiosis, neu
 library_category: metals
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
 ---
 
 # Cadmium Exposure and Gut Microbiome Disruption in Neurodegeneration

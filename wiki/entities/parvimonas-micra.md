@@ -48,9 +48,9 @@ pathogenic_potential: commensal-turned-pathogen
 - *P. micra* increases in abundance within oral biofilms (10-fold expansion in periodontitis).
 - Produces proteases and lipopolysaccharides (LPS) that damage periodontal tissues.
 - **Translocates to the colon** via a two-stage pathway:
-  1. **Intestinal dysbiosis** (reduced butyrate, increased inflammation) compromises barrier integrity → increased gut permeability.
-  2. **Bloodstream translocation** through the leaky epithelium; then **reseeding into the colon** via fecal circulation or direct recolonization.
-  
+ 1. **Intestinal dysbiosis** (reduced butyrate, increased inflammation) compromises barrier integrity → increased gut permeability.
+ 2. **Bloodstream translocation** through the leaky epithelium; then **reseeding into the colon** via fecal circulation or direct recolonization.
+ 
 Epidemiologically, patients with severe periodontitis have 2–3× higher CRC risk, supporting the oral-colorectal carcinoma axis hypothesis.
 
 ## Iron Dependency and Adhesin-Mediated Pathogenesis
@@ -83,9 +83,9 @@ These adhesins are **particularly effective at sites of epithelial disruption** 
 - Produces polysaccharide matrix (exopolysaccharides; EPSs) that entraps other bacteria, creating a **multi-species biofilm scaffold**.
 - Small cell size (0.5–1 µm) enables dense packing within biofilms; acts as a "nucleating core" for larger bacteria like *[[fusobacterium-nucleatum]]* and *[[bacteroides-fragilis]]*.
 - Biofilm protects *P. micra* and partners from:
-  - Oxygen penetration (enabling strict anaerobes in micro-aerophilic colonic zones)
-  - Antibiotic and antimicrobial peptide penetration
-  - Neutrophil and immune cell attack
+ - Oxygen penetration (enabling strict anaerobes in micro-aerophilic colonic zones)
+ - Antibiotic and antimicrobial peptide penetration
+ - Neutrophil and immune cell attack
 
 ### Oral-Colorectal Consortium Integration
 
@@ -145,9 +145,9 @@ In CRC biofilms, *P. micra* integrates with:
 - **16S rRNA gene sequencing**: *Parvimonas micra*-specific primers available; distinct from other *Parvimonas* spp.
 - **Shotgun metagenomics**: *P. micra* genome is well-characterized; read abundance highly correlates with qPCR.
 - **qPCR**: Species-specific assays; typical range:
-  - Healthy controls: <10^4 copies/g feces
-  - Adenoma patients: 10^5–10^7 copies/g feces
-  - CRC patients: 10^7–10^9 copies/g feces
+ - Healthy controls: <10^4 copies/g feces
+ - Adenoma patients: 10^5–10^7 copies/g feces
+ - CRC patients: 10^7–10^9 copies/g feces
 
 ### Culture-Based Methods
 - **Anaerobic culture**: Grows on Brucella agar + blood under 85% N2 / 10% H2 / 5% CO2.
@@ -171,15 +171,15 @@ In CRC biofilms, *P. micra* integrates with:
 ## Connections to WikiBiome Entities and Disease Signatures
 
 - **[[iron]]** – Absolute requirement; produces siderophores for iron piracy
-- **[[siderophores]]** – Catecholate-type iron-chelating compounds; compete with hepcidin
+- **** – Catecholate-type iron-chelating compounds; compete with hepcidin
 - **[[hepcidin]]** – Host iron-withholding defense; elevated in response to *P. micra* siderophore signaling
-- **[[adhesins]]** – Type IV pili, LTA; direct epithelial attachment
-- **[[lipopolysaccharide-lps]]** – PAMP; TLR4 signaling
-- **[[lipoteichoic-acid]]** – PAMP; TLR2 signaling (Gram-positive)
+- **** – Type IV pili, LTA; direct epithelial attachment
+- **** – PAMP; TLR4 signaling
+- **** – PAMP; TLR2 signaling (Gram-positive)
 - **[[biofilm]]** – Major biofilm nucleator; core structural component of polymicrobial CRC biofilms
 - **[[colorectal-cancer]]** – One of the strongest single-taxon biomarkers; present in 70–95% of CRC cases
-- **[[oral-colorectal-axis]]** – Originates in oral cavity; translocates to colon; member of oral pathobiont consortium
-- **[[periodontitis]]** – Enriched in periodontal disease; periodontal disease patients have 2–3× higher CRC risk
+- **** – Originates in oral cavity; translocates to colon; member of oral pathobiont consortium
+- **** – Enriched in periodontal disease; periodontal disease patients have 2–3× higher CRC risk
 - **[[fusobacterium-nucleatum]]** – Co-enriched with *P. micra*; biofilm integration
 - **[[peptostreptococcus-stomatis]]** – Co-enriched; synergistic genotoxin delivery
 - **[[clostridium-symbiosum]]** – Co-enriched; synergistic inflammation

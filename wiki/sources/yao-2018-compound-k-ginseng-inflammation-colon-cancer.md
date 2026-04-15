@@ -10,6 +10,10 @@ year: 2018
 tags: [colon-cancer, compound-K, ginsenoside-Rb1, ginseng, microbiome-metabolite, anti-proliferative, apoptosis, IL-8, inflammation, p21, p53, colorectal-cancer]
 doi: "10.3892/ol.2018.8414"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: in-vitro
 ---
 
 # Effects of Compound K, an Enteric Microbiome Metabolite of Ginseng, in the Treatment of Inflammation Associated Colon Cancer
@@ -32,7 +36,7 @@ platform: wikibiome
 ## Connections
 
 - Demonstrates the concept of [[microbiome-derived-metabolites]] having greater bioactivity than dietary parent compounds
-- Anti-inflammatory IL-8 suppression connects to [[microbiome-and-inflammation]] in CRC prevention
-- Microbiome biotransformation of dietary compounds relates to [[metabolic-pathways]] and [[microbiome-diet]] interactions
-- p53/p21 pathway activation connects to host gene expression changes in [[microbiome-host-interactions]]
+- Anti-inflammatory IL-8 suppression connects to in CRC prevention
+- Microbiome biotransformation of dietary compounds relates to and interactions
+- p53/p21 pathway activation connects to host gene expression changes in 
 - [[colorectal-cancer]]

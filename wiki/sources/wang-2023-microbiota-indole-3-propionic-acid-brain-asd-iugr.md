@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, indole-3-propionic-acid, IPA, AhR, NF-kB, micro
 library_category: causal
 platform: animal-model-16S-metabolomics
 condition: "autism spectrum disorder (IUGR model)"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Overview
@@ -22,10 +25,10 @@ Mechanistic animal study demonstrating that **intrauterine growth restriction (I
 ## IUGR Rat Model — ASD-Like Phenotype
 
 - PCE-induced IUGR male rats at postnatal week 4 (PW4):
-  - Reduced social interaction in three-chamber test (p < 0.001)
-  - Increased marble burying (stereotypy) (p < 0.001)
-  - Reduced exploratory behavior in open field (p < 0.001)
-  - Impaired spatial memory in Y maze (p = 0.002)
+ - Reduced social interaction in three-chamber test (p < 0.001)
+ - Increased marble burying (stereotypy) (p < 0.001)
+ - Reduced exploratory behavior in open field (p < 0.001)
+ - Impaired spatial memory in Y maze (p = 0.002)
 
 ## Hippocampal Pathology
 

@@ -55,13 +55,13 @@ Bacteria without functional Ni-GlxI (or starved of nickel) accumulate MG, trigge
 ## Connections
 
 **Linked concepts**:
-- [[metallic-toxicity]] — How excess nickel itself causes damage; Ni-GlxI is an adaptation to tolerate high Ni.
-- [[methylglyoxal-stress]] — The substrate and cellular damage context.
+- — How excess nickel itself causes damage; Ni-GlxI is an adaptation to tolerate high Ni.
+- — The substrate and cellular damage context.
 - [[fermentative-metabolism]] — High glycolytic flux under anaerobiosis drives MG production.
 
 **Linked entities**:
 - [[escherichia-coli]] — Primary pathogenic carrier of Ni-GlxI in gut dysbiosis.
-- [[vibrio-species]] — Marine pathogens with strong Ni-GlxI dependence.
+- — Marine pathogens with strong Ni-GlxI dependence.
 - [[nickel]] — The essential cofactor and selective pressure.
 - [[glutathione]] — Substrate cofactor; depletion impairs MG detoxification.
 

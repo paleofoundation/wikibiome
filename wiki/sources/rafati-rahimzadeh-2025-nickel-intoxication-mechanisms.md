@@ -108,15 +108,15 @@ This 2025 review from Human and Experimental Toxicology provides the most curren
 
 ## Connections
 
-- Most current (2025) comprehensive review of [[nickel]] intoxication -- updates [[Genchi et al. 2020|genchi-2020-nickel-human-health-environmental-toxicology]]
-- Chelation therapy protocols essential for clinical management of [[nickel-poisoning]]
-- HIF-1 pathway detail complements [[Cameron et al. 2011|cameron-2011-nickel-genotoxicity-carcinogenicity]] HIF-1 discussion
-- IBS-like symptoms from dietary nickel connect to [[Systemic Nickel Allergy Syndrome]] and low-nickel diet interventions
-- Cardiac effects connect to [[Novelli et al. 2000|novelli-2000-toxic-mechanism-nickel-cardiac-tissue]] and [[Liu et al. 2025|liu-2025-cardiometabolic-nickel]]
-- Teratogenicity data complements [[Genchi et al. 2020|genchi-2020-nickel-human-health-environmental-toxicology]] teratogenicity section
-- Renal toxicity progression (acute injury to CKD/ESRD) relevant to [[kidney-disease]] and [[Atlani et al. 2024|atlani-2024-heavy-metals-ckdu-central-india]]
-- Dietary nickel sources and stainless steel cookware leaching relevant to [[dietary-metal-exposure]]
-- [[Contact Dermatitis]] treatment protocols (corticosteroids, calcineurin inhibitors) relevant to clinical management
-- Figure 3 pathway diagram integrates soluble vs. insoluble nickel entry mechanisms with downstream [[oxidative-stress]], [[epigenetic]] changes, and transcription factor alterations
-- DDC/disulfiram as nickel chelators connects to broader [[chelation-therapy]] discussions
-- Dopamine and glutamate receptor effects relevant to [[neurotoxicity]] and CNS metal interactions
+- Most current (2025) comprehensive review of [[nickel]] intoxication -- updates 
+- Chelation therapy protocols essential for clinical management of 
+- HIF-1 pathway detail complements HIF-1 discussion
+- IBS-like symptoms from dietary nickel connect to and low-nickel diet interventions
+- Cardiac effects connect to and 
+- Teratogenicity data complements teratogenicity section
+- Renal toxicity progression (acute injury to CKD/ESRD) relevant to and 
+- Dietary nickel sources and stainless steel cookware leaching relevant to 
+- treatment protocols (corticosteroids, calcineurin inhibitors) relevant to clinical management
+- Figure 3 pathway diagram integrates soluble vs. insoluble nickel entry mechanisms with downstream [[oxidative-stress]], changes, and transcription factor alterations
+- DDC/disulfiram as nickel chelators connects to broader discussions
+- Dopamine and glutamate receptor effects relevant to and CNS metal interactions

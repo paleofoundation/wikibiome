@@ -10,6 +10,9 @@ year: 2021
 tags: [colon-cancer, microbial-biomarkers, adenoma-detection, cross-population, random-forest, ADP-heptose-biosynthesis, menaquinone-10, Lachnoclostridium, Fusobacterium, colorectal-cancer]
 doi: "10.1038/s41467-021-23265-y"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Fusobacterium"]
 ---
 
 # Identification of Microbial Markers across Populations in Early Detection of Colorectal Cancer
@@ -31,8 +34,8 @@ platform: wikibiome
 
 ## Connections
 
-- Stage-specific biomarkers directly inform [[microbiome-and-disease-progression]] understanding of adenoma-carcinoma sequence
+- Stage-specific biomarkers directly inform understanding of adenoma-carcinoma sequence
 - Cross-population validation strengthens evidence for universal [[microbial-biomarkers]] panels summarized in [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]]
-- Functional pathway changes (ADP-heptose, menaquinone) connect to [[metabolic-pathways]] and [[microbiome-derived-metabolites]]
+- Functional pathway changes (ADP-heptose, menaquinone) connect to and [[microbiome-derived-metabolites]]
 - *Parvimonas micra* consistency across populations aligns with [[bars-cortina-2024-16s-vs-shotgun-crc]] findings
 - [[colorectal-cancer]]

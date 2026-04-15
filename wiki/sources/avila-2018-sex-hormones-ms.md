@@ -36,9 +36,9 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- sex hormone imbalance as modifiable risk and treatment factor
-- [[estrogen]] -- estriol as promising therapeutic for MS with clinical pilot data
-- [[progesterone]] -- neuroprotective and remyelination-promoting properties in MS models
-- [[testosterone]] -- deficiency correlates with disability in men with MS
-- [[gut-microbiota]] -- estrogen prevents changes in gut microbiota composition relevant to MS
-- [[remyelination]] -- sex steroids as potential promoters of myelin repair
-- [[vitamin-D]] -- synergy with sex steroids for immunomodulation
+- -- estriol as promising therapeutic for MS with clinical pilot data
+- -- neuroprotective and remyelination-promoting properties in MS models
+- -- deficiency correlates with disability in men with MS
+- -- estrogen prevents changes in gut microbiota composition relevant to MS
+- -- sex steroids as potential promoters of myelin repair
+- -- synergy with sex steroids for immunomodulation

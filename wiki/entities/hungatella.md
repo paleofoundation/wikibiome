@@ -68,4 +68,4 @@ pathogenic_potential: commensal-turned-pathogen
 - [[parvimonas]] -- co-enriched CRC pathobiont in oral-gut translocation consortium
 - [[multiple-sclerosis]] -- enriched in MS alongside altered mycobiome interactions
 - [[dysbiosis]] -- enrichment reflects disease-associated community restructuring
-- [[metal-toxicity]] -- TMAO pathway intersects with metal-associated metabolic perturbation
+- -- TMAO pathway intersects with metal-associated metabolic perturbation

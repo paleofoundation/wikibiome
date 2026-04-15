@@ -11,6 +11,7 @@ tags: [mismetallation, metal-homeostasis, zinc, cadmium, nickel, ZntA, ZntR, P-t
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "zinc/cadmium homeostasis in Vibrio"
+evidence_level: animal-model
 ---
 
 # Why This Paper Matters

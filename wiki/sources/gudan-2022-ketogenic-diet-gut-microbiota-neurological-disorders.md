@@ -43,5 +43,5 @@ condition: "autism spectrum disorder"
 - [[ketogenic-diet]] -- impact on gut microbiota composition and intestinal barrier
 - [[gut-microbiome]] -- dietary fat-driven microbial community changes
 - [[intestinal-permeability]] -- KD effects on barrier function
-- [[bacteroidetes]] -- enriched by animal-product based diets
-- [[epilepsy]] -- KD as established treatment with microbiome implications
+- -- enriched by animal-product based diets
+- -- KD as established treatment with microbiome implications

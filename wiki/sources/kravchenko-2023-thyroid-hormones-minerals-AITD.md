@@ -1,15 +1,37 @@
 ---
-
-title: "Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases"
+title: Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Kravchenko V, Zakharchenko T]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Kravchenko V
+  - Zakharchenko T
 journal: Frontiers in Endocrinology
 year: 2023
-tags: [autoimmune-thyroid-disease, thyroid-hormones, minerals, immunocorrection, selenium, iodine, zinc, iron, copper, magnesium, calcium, Hashimotos, graves-disease, immunomodulation]
-doi: "10.3389/fendo.2023.1225494"
+tags:
+  - autoimmune-thyroid-disease
+  - thyroid-hormones
+  - minerals
+  - immunocorrection
+  - selenium
+  - iodine
+  - zinc
+  - iron
+  - copper
+  - magnesium
+  - calcium
+  - Hashimotos
+  - graves-disease
+  - immunomodulation
+doi: 10.3389/fendo.2023.1225494
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Maps mineral-specific immunomodulation in autoimmune thyroid disease, showing how selenium supplementation reduces TPO antibodies via selenoprotein GPx upregulation, zinc enables thymulin activation for T cell function, and iron deficiency impairs TPO activity while increasing autoimmune susceptibility. WikiBiome depends on this evidence to establish how dysbiotic organisms (depleted in metal-dependent SCFA producers) directly undermine thyroid barrier tolerance—linking metal dysbiosis to Treg dysfunction via metal-dependent enzyme failures."
 ---
 
 # Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases
@@ -43,10 +65,10 @@ platform: wikibiome
 
 - Se supplementation evidence complements and extends [[brock-2015-selenium-thyroid-autoimmunity]]
 - Iron and copper thyroid effects align with [[brylinski-2025-trace-elements-thyroid-diseases]] detailed disease-specific findings
-- Iodine autoimmunity connection relevant to [[Iodine Metabolism]] and [[Thyroid Autoimmunity]]
-- Zinc/thymulin biology connects to broader [[Immune Function]] and [[T Cell Biology]]
-- Magnesium findings connect to [[Mineral Homeostasis]] in thyroid disease
-- Immunomodulation framework relevant to developing [[Nutritional Interventions]] for AITD
+- Iodine autoimmunity connection relevant to and 
+- Zinc/thymulin biology connects to broader and 
+- Magnesium findings connect to in thyroid disease
+- Immunomodulation framework relevant to developing for AITD
 - Cu/Se ratio findings in Graves' disease connect to [[oxidative-stress|oxidative stress]] balance in hyperthyroidism
-- Table 1 serves as reference for [[Thyroid-Immune Axis]] mineral dependencies
+- Table 1 serves as reference for mineral dependencies
 - Gut-thyroid connections (Fe absorption, microflora) link to [[kun-2023-microbiota-thyroid-cancer]]

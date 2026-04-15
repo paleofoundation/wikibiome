@@ -10,6 +10,10 @@ year: 2024
 tags: [Mendelian-randomization, gut-microbiome, multiple-sclerosis, Guillain-Barre-syndrome, myasthenia-gravis, Ruminococcus, Roseburia, SCFA, causal-inference]
 doi: "10.3389/fmicb.2024.1337632"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Roseburia", "Ruminococcus"]
+evidence_level: mendelian-randomization
 ---
 
 # Gut Microbiota and Autoimmune Neurologic Disorders: A Two-Sample Bidirectional Mendelian Randomization Study
@@ -36,4 +40,4 @@ platform: wikibiome
 - The *Roseburia* risk association is notable since this genus is typically considered beneficial (SCFA producer) -- depleted in MS in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]] -- suggesting complex species/strain-level effects
 - Protective role of *Ruminiclostridium5* aligns with Clostridia cluster depletion in [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - Complements observational gut dysbiosis studies ([[jangi-2016-gut-microbiome-alterations-ms]], [[thirion-2023-gut-microbiota-ms-disease-activity]]) with genetic causal evidence
-- Supports the rationale for [[microbiome-targeted-therapy]] and [[dietary-fiber]] interventions to boost protective SCFA-producing taxa
+- Supports the rationale for and interventions to boost protective SCFA-producing taxa

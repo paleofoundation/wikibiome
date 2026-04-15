@@ -24,13 +24,13 @@ platform: wikibiome
 - **Design**: Multicenter study across 4 Italian hospitals; 145 patients with suspected SNAS placed on one of two low-nickel diet regimens for 1 month, then orally challenged with nickel
 - **Population**: 361 nickel ACD patients screened; 145 with suspected SNAS (by history and benefit from nickel dietary restrictions); 98 ultimately diagnosed with SNAS (79 females, 19 males, mean age 38 +/- 12 years)
 - **Diet comparison**: BraMa-Ni diet (balanced, 1932 kcal men / 1733 kcal women, ~50 ug Ni/day) vs. traditional forbidden food list
-- **Key results**:
-  - 60 (41.4%) had complete remission after diet; 27 (18.6%) ameliorated by 70%+; 58 (40%) had no improvement or <70% improvement
-  - Patient adherence to BraMa-Ni was nearly 100% vs. only 26.8% for the forbidden food list (p=0.001)
-  - 98 of 145 patients had positive oral nickel challenge (67%) and were diagnosed with SNAS
-  - 90% of SNAS patients had cutaneous symptoms; 88% had GI symptoms
-  - Meteorism was the most characteristic GI symptom after oral challenge
-  - 73% of patients reported symptoms after a single nickel-rich meal
+
+ - 60 (41.4%) had complete remission after diet; 27 (18.6%) ameliorated by 70%+; 58 (40%) had no improvement or <70% improvement
+ - Patient adherence to BraMa-Ni was nearly 100% vs. only 26.8% for the forbidden food list (p=0.001)
+ - 98 of 145 patients had positive oral nickel challenge (67%) and were diagnosed with SNAS
+ - 90% of SNAS patients had cutaneous symptoms; 88% had GI symptoms
+ - Meteorism was the most characteristic GI symptom after oral challenge
+ - 73% of patients reported symptoms after a single nickel-rich meal
 - **BraMa-Ni diet composition**: Includes semi-skimmed milk, white yogurt, rice, zucchini, chicken/lean meat, lettuce, bread (00 flour), apple, pasta/rice in vegetable broth, peppers/eggplant, fruit
 - **Forbidden foods list**: Includes almonds, artichoke, asparagus, beans, broccoli, buckwheat, canned foods, chocolate/cocoa, cauliflower, lettuce, lobster, mushroom, nuts, oats, onion, peanut, pea, potato, shellfish, spinach, tea, tomato, whole wheat flour, and others
 

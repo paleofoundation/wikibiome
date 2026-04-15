@@ -35,5 +35,5 @@ platform: wikibiome
 - Provides the first trivariate mediation analysis demonstrating that [[gut-microbiome]] mediates the [[Mediterranean-diet]]-MS risk association
 - [[Methanobrevibacter]] as the strongest MS-associated taxon aligns with [[jangi-2016-gut-microbiome-alterations-ms]] findings in adult MS, extending the association to pediatric onset
 - *Ruminococcaceae NK4A214* depletion connects to Clostridia cluster findings in [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and the SCFA-production deficiency theme
-- Fiber and iron intake as protective factors connect to [[dietary-fiber]] research ([[hoffman-2023-dietary-strategies-eae-ms]]) and broader nutritional epidemiology
-- The mediation framework provides a methodological advance over simple association studies, complementing [[Mendelian-randomization]] approaches like [[xu-2022-causal-microbiota-autoimmune-mr]]
+- Fiber and iron intake as protective factors connect to research ([[hoffman-2023-dietary-strategies-eae-ms]]) and broader nutritional epidemiology
+- The mediation framework provides a methodological advance over simple association studies, complementing approaches like [[xu-2022-causal-microbiota-autoimmune-mr]]

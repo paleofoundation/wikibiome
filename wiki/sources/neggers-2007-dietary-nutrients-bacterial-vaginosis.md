@@ -25,14 +25,14 @@ platform: wikibiome
 - **Participants**: 1,521 nonpregnant women aged 15-45 from Birmingham, Alabama (enrolled August 1999-February 2002); 86% African-American
 - **Dietary assessment**: Block 98 FFQ (100-item, validated); dietary analysis by Block Dietary Data Systems
 - **BV assessment**: Nugent score (>=7 = BV; >=9 and vaginal pH >=5 = severe BV); prevalence: 41.8% BV, 14.9% severe BV
-- **Key results**:
-  - Total fat: AOR = 2.3 (95% CI 1.3-4.3) for highest vs lowest quartile for severe BV (p-trend = 0.04)
-  - Saturated fat: AOR = 2.3 (95% CI 1.2-4.5) for severe BV
-  - Monounsaturated fat: AOR = 2.3 (95% CI 1.3-4.1) for severe BV
-  - Protein: AOR = 0.5 (95% CI 0.3-0.9) for highest quartile of severe BV
-  - Folate: AOR = 0.4 (95% CI 0.2-0.8) for severe BV (p-trend = 0.01)
-  - Vitamin E: AOR = 0.4 (95% CI 0.2-0.8) for severe BV (p-trend = 0.001)
-  - Calcium: AOR = 0.4-0.5 (95% CI 0.3-0.7/0.8) for severe BV (p-trend = 0.003)
+
+ - Total fat: AOR = 2.3 (95% CI 1.3-4.3) for highest vs lowest quartile for severe BV (p-trend = 0.04)
+ - Saturated fat: AOR = 2.3 (95% CI 1.2-4.5) for severe BV
+ - Monounsaturated fat: AOR = 2.3 (95% CI 1.3-4.1) for severe BV
+ - Protein: AOR = 0.5 (95% CI 0.3-0.9) for highest quartile of severe BV
+ - Folate: AOR = 0.4 (95% CI 0.2-0.8) for severe BV (p-trend = 0.01)
+ - Vitamin E: AOR = 0.4 (95% CI 0.2-0.8) for severe BV (p-trend = 0.001)
+ - Calcium: AOR = 0.4-0.5 (95% CI 0.3-0.7/0.8) for severe BV (p-trend = 0.003)
 - **Prospective analysis** (n=1,319): marginally significant association between incident BV and total energy/fat intake
 
 # Connections

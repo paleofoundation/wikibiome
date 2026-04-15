@@ -25,12 +25,12 @@ platform: wikibiome
 
 - **Type**: Cross-sectional study (n = 68 fecal samples: 15 CRC, 19 CRA, 19 PP, 15 HC; plus independent validation cohort of 402 patients)
 - **Methods**: 16S rRNA and ITS gene amplicon sequencing; qPCR validation of Fn, Bb, C. albicans, S. cerevisiae; LEfSe analysis; OPLS-DA; network correlation analysis
-- **Key findings**:
-  - **Bacterial composition**: Bacteroidetes (48.17%), Firmicutes (37.35%), Proteobacteria (10.40%) dominant; *Subdoligranulum* increased in CRC while *Bacteroidaceae* and *Tannereallaceae* increased in HC
-  - **Fungal composition**: Ascomycota (70.59%), Basidiomycota (25.29%), Glomeromycota (1.22%) dominant; alpha diversity significantly higher in HC than CRC (Shannon p < 0.05)
-  - **Fungal species differences**: 8 fungal species significantly different; *Byssochlamys spectabilis*, *Russula sanguinea*, *Cortinarius bovarius*, *Geminibasidium hirsutum*, *Tricholomabonii* among top differentially abundant
-  - **Network correlations**: Klebsiella genus was hub bacterial genus in HC vs CRA model; *Cladophialophora* and *Ganoderma* were hub fungal genera
-  - **qPCR validation** (n = 402): Fn significantly increasing trend in CRC feces (p < 0.01); CRA and PP abundances lower than CRC but higher than HC; *C. albicans* and *S. cerevisiae* significantly increased in CRC
+
+ - **Bacterial composition**: Bacteroidetes (48.17%), Firmicutes (37.35%), Proteobacteria (10.40%) dominant; *Subdoligranulum* increased in CRC while *Bacteroidaceae* and *Tannereallaceae* increased in HC
+ - **Fungal composition**: Ascomycota (70.59%), Basidiomycota (25.29%), Glomeromycota (1.22%) dominant; alpha diversity significantly higher in HC than CRC (Shannon p < 0.05)
+ - **Fungal species differences**: 8 fungal species significantly different; *Byssochlamys spectabilis*, *Russula sanguinea*, *Cortinarius bovarius*, *Geminibasidium hirsutum*, *Tricholomabonii* among top differentially abundant
+ - **Network correlations**: Klebsiella genus was hub bacterial genus in HC vs CRA model; *Cladophialophora* and *Ganoderma* were hub fungal genera
+ - **qPCR validation** (n = 402): Fn significantly increasing trend in CRC feces (p < 0.01); CRA and PP abundances lower than CRC but higher than HC; *C. albicans* and *S. cerevisiae* significantly increased in CRC
 
 ## Connections
 

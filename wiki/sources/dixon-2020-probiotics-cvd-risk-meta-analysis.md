@@ -28,12 +28,12 @@ platform: wikibiome
 - **Included studies**: 34 RCTs with 2,177 adults (1,176 intervention, 1,001 control)
 - **Databases**: PubMed, Scopus, Embase, Grey Literature, Cochrane CENTRAL (1990-2020)
 - **Quality assessment**: PEDro scale
-- **Subgroup findings**:
-  - Blood pressure: More effective in yoghurt form (SBP -3.56 mmHg, DBP -3.54 mmHg); greater effect in diabetic patients (SBP -5.82 mmHg, DBP -3.81 mmHg)
-  - Cholesterol: Hypercholesterolaemic patients showed -16.54 mg/dL reduction; higher dosage (>1.0x10^9 CFU) showed -6.43 mg/dL reduction
-  - LDL-C: Hypercholesterolaemic patients had -20.67 mg/dL reduction; yoghurt form showed -18.06 mg/dL reduction
-  - Glucose: Short treatment (<1.5 months) showed -16.15 mg/dL fasting glucose reduction; capsule/yoghurt forms most effective
-  - HbA1c: Yoghurt formulation reduced HbA1c by 55%; more effective in patients treated >1.5 months
+
+ - Blood pressure: More effective in yoghurt form (SBP -3.56 mmHg, DBP -3.54 mmHg); greater effect in diabetic patients (SBP -5.82 mmHg, DBP -3.81 mmHg)
+ - Cholesterol: Hypercholesterolaemic patients showed -16.54 mg/dL reduction; higher dosage (>1.0x10^9 CFU) showed -6.43 mg/dL reduction
+ - LDL-C: Hypercholesterolaemic patients had -20.67 mg/dL reduction; yoghurt form showed -18.06 mg/dL reduction
+ - Glucose: Short treatment (<1.5 months) showed -16.15 mg/dL fasting glucose reduction; capsule/yoghurt forms most effective
+ - HbA1c: Yoghurt formulation reduced HbA1c by 55%; more effective in patients treated >1.5 months
 
 ## Source Pages
 
@@ -42,5 +42,5 @@ pp. 1-8 (accepted manuscript)
 ## Connections
 
 - Links to [[gut microbiome]] modulation for [[cardiovascular disease]] prevention
-- Relevant to [[prebiotics]] and [[synbiotics]] as complementary approaches
+- Relevant to [[prebiotics]] and as complementary approaches
 - Connects to [[metabolic syndrome]] management via microbiome-targeted interventions

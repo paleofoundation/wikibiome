@@ -39,6 +39,6 @@ platform: wikibiome
 - [[multiple-sclerosis]] -- early-onset MS shows distinct fungal profile from monophasic demyelination
 - [[candida-albicans]] -- *C. albicans* as predictive marker for POMS
 - [[Saccharomyces]] -- dominant genus across all groups, likely diet-derived
-- [[Agaricus]] -- uniquely abundant in POMS, primarily dietary (*A. bisporus*)
-- [[Fusarium]] -- *F. poae* as potential POMS marker; warrants further investigation
-- [[beta-diversity]] -- significant compositional differences between POMS and monoADS
+- -- uniquely abundant in POMS, primarily dietary (*A. bisporus*)
+- -- *F. poae* as potential POMS marker; warrants further investigation
+- -- significant compositional differences between POMS and monoADS

@@ -42,5 +42,5 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- metformin effects on microbiome relevant to GDM-treated mothers
 - [[gut-microbiome]] -- metformin-induced changes in microbial composition
 - [[akkermansia-muciniphila]] -- Verrucomicrobiaceae enriched by metformin
-- [[gestational-diabetes]] -- metformin commonly used in GDM treatment
+- -- metformin commonly used in GDM treatment
 - [[dysbiosis]] -- drug-induced microbiome alterations

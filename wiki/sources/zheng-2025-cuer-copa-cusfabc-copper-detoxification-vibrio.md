@@ -11,6 +11,7 @@ tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, copper-efflux
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "coordinated copper detoxification and iron homeostasis in an enteric pathogen"
+evidence_level: animal-model
 ---
 
 # Why This Paper Matters

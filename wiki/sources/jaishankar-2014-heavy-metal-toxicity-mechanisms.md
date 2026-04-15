@@ -1,15 +1,43 @@
 ---
-
-title: "Toxicity, Mechanism and Health Effects of Some Heavy Metals"
+title: Toxicity, Mechanism and Health Effects of Some Heavy Metals
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Monisha Jaishankar, Tenzin Tseten, Naresh Anbalagan, Blessy B. Mathew, Krishnamurthy N. Beeregowda]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Monisha Jaishankar
+  - Tenzin Tseten
+  - Naresh Anbalagan
+  - Blessy B. Mathew
+  - Krishnamurthy N. Beeregowda
 journal: Interdisciplinary Toxicology
 year: 2014
-tags: [heavy-metals, toxicity, arsenic, lead, mercury, cadmium, chromium, aluminum, iron, oxidative-stress, free-radicals, mechanisms, chelation, mis-metallation, nephrotoxicity, neurotoxicity]
-doi: "10.2478/intox-2014-0009"
+tags:
+  - heavy-metals
+  - toxicity
+  - arsenic
+  - lead
+  - mercury
+  - cadmium
+  - chromium
+  - aluminum
+  - iron
+  - oxidative-stress
+  - free-radicals
+  - mechanisms
+  - chelation
+  - mis-metallation
+  - nephrotoxicity
+  - neurotoxicity
+doi: 10.2478/intox-2014-0009
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+why_keystone: "Unifies diverse metal toxicity mechanisms (ROS generation, glutathione depletion, mis-metallation, DNA repair inhibition) under a single conceptual framework, enabling WikiBiome to explain why multiple metals—arsenic, lead, cadmium, chromium—converge on dysbiotic inflammation. Critical for understanding why metal burden correlates with dysbiosis across metabolic, autoimmune, and neurological conditions."
 ---
 
 # Toxicity, Mechanism and Health Effects of Some Heavy Metals
@@ -24,19 +52,19 @@ Foundational review of the toxicological mechanisms of heavy metals in human hea
 
 - **Fenton and Fenton-like reactions**: Redox-active metals ([[iron]], [[copper]], [[chromium]], cobalt, vanadium, [[nickel]]) directly catalyze conversion of H2O2 to hydroxyl radicals via the reaction: Me(n) + H2O2 -> Me(n+1) + OH* + OH-
 - **Indirect ROS generation**: Non-redox metals ([[arsenic]], [[cadmium]], [[mercury]], [[lead]]) generate [[oxidative-stress]] indirectly by:
-  - Depleting [[glutathione]] (GSH) through direct binding to thiol groups (Hg2+, Cd2+, As3+ have extremely high affinity for -SH)
-  - Inhibiting glutathione reductase and glutathione peroxidase, preventing GSH recycling
-  - Disrupting mitochondrial electron transport chain, causing superoxide leakage
-  - Inactivating catalase and superoxide dismutase
+ - Depleting [[glutathione]] (GSH) through direct binding to thiol groups (Hg2+, Cd2+, As3+ have extremely high affinity for -SH)
+ - Inhibiting glutathione reductase and glutathione peroxidase, preventing GSH recycling
+ - Disrupting mitochondrial electron transport chain, causing superoxide leakage
+ - Inactivating catalase and superoxide dismutase
 - **DNA damage pathways**: ROS cause base modifications, strand scission, DNA-protein crosslinks, and depurination. Cd and As additionally inhibit DNA repair enzymes (nucleotide excision repair, mismatch repair), allowing oxidative lesions to accumulate and drive carcinogenesis.
 
 ### [[mis-metallation]] and Metal Displacement
 
 - Heavy metals displace essential metals from their native binding sites in enzymes and structural proteins:
-  - [[lead]] mimics Ca2+, Mg2+, Fe2+, and Zn2+ -- displaces them from binding sites in enzymes, ion channels, and signaling proteins
-  - [[cadmium]] displaces [[zinc]] from zinc-finger transcription factors and metallothioneins, and [[iron]] from iron-sulfur clusters
-  - [[mercury]] and [[arsenic]] bind cysteine residues with higher affinity than native zinc or iron, displacing essential metals from catalytic sites
-  - [[chromium]](III) can substitute for [[iron]](III) in transferrin binding
+ - [[lead]] mimics Ca2+, Mg2+, Fe2+, and Zn2+ -- displaces them from binding sites in enzymes, ion channels, and signaling proteins
+ - [[cadmium]] displaces [[zinc]] from zinc-finger transcription factors and metallothioneins, and [[iron]] from iron-sulfur clusters
+ - [[mercury]] and [[arsenic]] bind cysteine residues with higher affinity than native zinc or iron, displacing essential metals from catalytic sites
+ - [[chromium]](III) can substitute for [[iron]](III) in transferrin binding
 - Mis-metallation disrupts protein folding, enzyme catalysis, and transcriptional regulation. This is mechanistically distinct from oxidative damage but often co-occurs with it.
 
 ### Thiol Binding and Enzyme Inhibition
@@ -110,9 +138,9 @@ Foundational review of the toxicological mechanisms of heavy metals in human hea
 ### [[chromium]]
 
 **ROS pathways**: Cr(VI) is the toxic and carcinogenic form (IARC Group 1). Cr(III) is an essential trace element for glucose metabolism (glucose tolerance factor). The critical distinction is that Cr(VI) exists as chromate (CrO4^2-), which enters cells via anion channels (phosphate/sulfate transporters) due to structural similarity to phosphate and sulfate. Inside the cell, Cr(VI) undergoes stepwise reduction: Cr(VI) -> Cr(V) -> Cr(IV) -> Cr(III), with each step generating free radicals:
-  - Cr(VI) is reduced by ascorbate, [[glutathione]], cysteine, NADPH, and ribose/fructose
-  - Cr(V) and Cr(IV) intermediates react with H2O2 via Fenton-like chemistry to produce hydroxyl radicals
-  - The final Cr(III) product forms stable DNA adducts and DNA-protein crosslinks
+ - Cr(VI) is reduced by ascorbate, [[glutathione]], cysteine, NADPH, and ribose/fructose
+ - Cr(V) and Cr(IV) intermediates react with H2O2 via Fenton-like chemistry to produce hydroxyl radicals
+ - The final Cr(III) product forms stable DNA adducts and DNA-protein crosslinks
 
 **Enzyme inhibition**: Cr(VI) reduction consumes cellular reductants (GSH, ascorbate, NADPH), depleting antioxidant capacity. Cr(III)-DNA adducts block replication fork progression and inhibit DNA repair.
 

@@ -1,14 +1,28 @@
 ---
-
-title: "Synergic Interactions between Polyphenols and Gut Microbiota in Mitigating Inflammatory Bowel Diseases"
+title: Synergic Interactions between Polyphenols and Gut Microbiota in Mitigating Inflammatory Bowel Diseases
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Li H, Christman LM, Li R, Gu L]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Li H
+  - Christman LM
+  - Li R
+  - Gu L
 journal: Food & Function
 year: 2020
-tags: [crohns-disease, IBD, polyphenols, gut-microbiome, dysbiosis, Faecalibacterium-prausnitzii, Escherichia-coli, NF-kappaB, Nrf2, SCFAs, inflammation]
-doi: "10.1039/D0FO00713G"
+tags:
+  - crohns-disease
+  - IBD
+  - polyphenols
+  - gut-microbiome
+  - dysbiosis
+  - Faecalibacterium-prausnitzii
+  - Escherichia-coli
+  - NF-kappaB
+  - Nrf2
+  - SCFAs
+  - inflammation
+doi: 10.1039/D0FO00713G
 platform: wikibiome
 ---
 

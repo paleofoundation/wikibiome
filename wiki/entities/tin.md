@@ -89,9 +89,9 @@ Organotin compounds are orders of magnitude more toxic than inorganic tin:
 
 ## Connections
 
-- [[food-safety]] -- tin in canned foods is the primary exposure route; regulatory limits are food-specific
+- -- tin in canned foods is the primary exposure route; regulatory limits are food-specific
 - [[breast-cancer]] -- measured in toenail biomarker study; no association found
-- [[dietary-metal-exposure]] -- canned food as primary route for general population
+- -- canned food as primary route for general population
 - [[iron]], [[aluminum]] -- co-measured in baby food and canned food safety assessments
 - [[cadmium]], [[lead]] -- co-contaminants in food matrices
-- [[endocrine-disruption]] -- organotin compounds (TBT) are established endocrine disruptors
+- -- organotin compounds (TBT) are established endocrine disruptors

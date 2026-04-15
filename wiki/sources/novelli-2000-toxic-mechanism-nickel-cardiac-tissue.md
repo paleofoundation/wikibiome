@@ -32,14 +32,14 @@ This foundational year-2000 study is one of the earliest experimental investigat
 
 - **Study type**: Experimental animal study (rat model)
 - **Animals**: 40 male Wistar rats (180-200g, 12 weeks old), divided into 4 groups of 10
-  - Group A: control (tap water only)
-  - Group B: alpha-tocopherol only (0.2 mg/200g, oral gavage, twice weekly)
-  - Group C: NiSO4 only (100 mg Ni/L in drinking water)
-  - Group D: NiSO4 + alpha-tocopherol (both treatments combined)
+ - Group A: control (tap water only)
+ - Group B: alpha-tocopherol only (0.2 mg/200g, oral gavage, twice weekly)
+ - Group C: NiSO4 only (100 mg Ni/L in drinking water)
+ - Group D: NiSO4 + alpha-tocopherol (both treatments combined)
 - **Duration**: 15 days
-- **Endpoints measured**:
-  - Serum: total protein, cholesterol, HDL-cholesterol, LDH, ALT, AST
-  - Heart tissue: total protein, glycogen, total lipid, lipoperoxide, LDH, ALT, AST, SOD, GSH-Px, catalase
+
+ - Serum: total protein, cholesterol, HDL-cholesterol, LDH, ALT, AST
+ - Heart tissue: total protein, glycogen, total lipid, lipoperoxide, LDH, ALT, AST, SOD, GSH-Px, catalase
 
 ### Serum Results (Table 2)
 - No body weight gain differences between groups
@@ -68,12 +68,12 @@ This foundational year-2000 study is one of the earliest experimental investigat
 ## Connections
 
 - Foundational evidence for [[nickel]] cardiotoxicity via [[oxidative-stress]] -- predates modern epidemiological work
-- Directly supports cardiac toxicity mechanisms reviewed in [[Liu et al. 2025|liu-2025-cardiometabolic-nickel]] including SOD, MDA, and cholesterol changes
+- Directly supports cardiac toxicity mechanisms reviewed in including SOD, MDA, and cholesterol changes
 - Vitamin E protective effect connects to antioxidant intervention strategies discussed across the wiki
 - LDH and ALT as cardiac damage biomarkers relevant to [[cardiovascular-disease]] diagnostics
 - Cholesterol elevation by nickel connects to [[metabolic-syndrome]] and lipid dysregulation
-- Superoxide radical as primary mediator connects to [[Briffa et al. 2020|briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]] Fenton reaction pathways
-- Rat drinking water exposure model relevant to understanding [[dietary-metal-exposure]] through contaminated water
+- Superoxide radical as primary mediator connects to Fenton reaction pathways
+- Rat drinking water exposure model relevant to understanding through contaminated water
 - GSH-Px decrease connects to glutathione system depletion seen across multiple metal toxicities
-- Lipoperoxidation findings relevant to [[Genchi et al. 2020|genchi-2020-nickel-human-health-environmental-toxicology]] membrane damage mechanisms
+- Lipoperoxidation findings relevant to membrane damage mechanisms
 - The 15-day exposure duration suggests rapid onset of cardiac effects even at moderate nickel doses

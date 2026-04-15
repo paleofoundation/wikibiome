@@ -62,7 +62,6 @@ Perhaps the most unifying concept: all three metals **inhibit DNA repair**, whic
 
 This means environmental exposures to these metals could amplify the carcinogenic effects of **other agents** (UV, tobacco, dietary carcinogens) — a critical public health consideration.
 
-
 ## Key Sources
 
 - [[liu-2025-cardiometabolic-nickel]]

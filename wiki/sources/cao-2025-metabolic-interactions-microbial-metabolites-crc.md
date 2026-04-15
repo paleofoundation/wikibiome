@@ -33,6 +33,6 @@ platform: wikibiome
 
 - Extends metabolite detail from [[hanus-2021-immune-microbiota-metabolites-crc-triad]] with H2S, TMAO, and formate coverage
 - DCA/butyrate ratio as biomarker connects to [[microbial-biomarkers]] and [[microbiome-derived-metabolites]] diagnostic approaches
-- Dietary modulation strategies relate to [[appunni-2021-dietary-factors-gut-microbiome-crc]] and [[microbiome-diet]] interventions
+- Dietary modulation strategies relate to [[appunni-2021-dietary-factors-gut-microbiome-crc]] and interventions
 - Tryptophan pathway disruption connects to findings in [[loke-2018-metabolomics-16s-crc-mucosa]]
 - [[colorectal-cancer]]

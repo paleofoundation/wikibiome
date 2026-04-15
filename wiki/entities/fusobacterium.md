@@ -64,7 +64,6 @@ A Gram-negative, obligate anaerobic bacterium that has emerged as **the most con
 - **Formate and butyrate** -- mixed acid fermentation products; butyrate paradoxically fuels CRC cells exhibiting the Warburg effect.
 - **Short-chain fatty acids** -- metabolic cross-feeding with other tumor-associated bacteria sustains the CRC microenvironment.
 
-
 ## Key Sources
 
 - [[appunni-2021-dietary-factors-gut-microbiome-crc]]

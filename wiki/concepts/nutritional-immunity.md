@@ -37,9 +37,9 @@ The strategy by which mammalian hosts **withhold essential metals from invading 
 Pathogens have evolved elaborate systems to overcome nickel scarcity:
 - **High-affinity transporters**: ABC-type (NikABCDE, NiuBDE), NiCoT-type (NixA), ECF-type.
 - **Metallophores** (nickel-scavenging small molecules):
-  - Staphylopine (*S. aureus*): nicotianamine-like, broad-spectrum metal chelator.
-  - Pseudopaline (*P. aeruginosa*): primary nickel acquisition mechanism.
-  - Yersiniabactin (*E. coli*, *Klebsiella*, *Yersinia*): originally iron siderophore, also binds nickel.
+ - Staphylopine (*S. aureus*): nicotianamine-like, broad-spectrum metal chelator.
+ - Pseudopaline (*P. aeruginosa*): primary nickel acquisition mechanism.
+ - Yersiniabactin (*E. coli*, *Klebsiella*, *Yersinia*): originally iron siderophore, also binds nickel.
 - **Storage proteins**: Hpn/HpnI in *H. pylori* — buffer against nickel fluctuations.
 - **Efficient recycling**: some pathogens recycle nickel from metallophore complexes.
 

@@ -40,7 +40,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- SSRI effects on gut microbiome relevant to ASD treatment
-- [[serotonin]] -- gut production and SSRI modulation
+- -- gut production and SSRI modulation
 - [[gut-microbiome]] -- SSRI antimicrobial effects on microbial composition
 - [[gut-brain-axis]] -- serotonin-mediated gut-brain communication
-- [[psychopharmacology]] -- microbiome considerations for SSRI prescribing
+- -- microbiome considerations for SSRI prescribing

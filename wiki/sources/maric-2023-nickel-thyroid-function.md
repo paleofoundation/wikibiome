@@ -24,17 +24,17 @@ platform: wikibiome
 - **Design**: Cross-sectional study in Belgrade, Serbia, using benchmark dose (BMD) modeling
 - **Population**: 435 subjects (218 women, 217 men; age 18-94) including healthy volunteers (136), cancer patients (prostate 104, breast 98, pancreatic 22), and thyroid/metabolic disorder patients (77)
 - **Methods**: Blood Ni by ICP-MS; thyroid hormones by CLIA; SPINA-GT (T4 secretion parameter) and SPINA-GD (peripheral deiodinase activity) calculated using SPINA Thyr software; BMD analysis using PROAST (70.1)
-- **Key findings**:
-  - Median blood Ni: 8.278 ug/L (men), 7.609 ug/L (women), 8.054 ug/L (entire population)
-  - Spearman correlation significant only in males: Ni vs fT4 (r=-0.1556, p=0.0391) and Ni vs SPINA-GT (r=-0.1889, p=0.0126)
-  - No significant correlations in females or entire population
-  - BMD analysis: Dose-response established for all Ni-thyroid pairs; narrowest BMDI (most reliable): Ni-SPINA-GT (1.36-60.9 ug/L) and Ni-fT3 (0.397-66.8 ug/L) in males
-  - In healthy vs unhealthy subjects: SPINA-GT BMDL much lower in unhealthy (19.6 pmol/s) vs healthy (245 pmol/s)
+
+ - Median blood Ni: 8.278 ug/L (men), 7.609 ug/L (women), 8.054 ug/L (entire population)
+ - Spearman correlation significant only in males: Ni vs fT4 (r=-0.1556, p=0.0391) and Ni vs SPINA-GT (r=-0.1889, p=0.0126)
+ - No significant correlations in females or entire population
+ - BMD analysis: Dose-response established for all Ni-thyroid pairs; narrowest BMDI (most reliable): Ni-SPINA-GT (1.36-60.9 ug/L) and Ni-fT3 (0.397-66.8 ug/L) in males
+ - In healthy vs unhealthy subjects: SPINA-GT BMDL much lower in unhealthy (19.6 pmol/s) vs healthy (245 pmol/s)
 - **Limitations**: Small sample; inadequate distribution of healthy vs unhealthy; limited confounding factor investigation; age differences between groups; cross-sectional design
 
 ## Connections
 
-- Thyroid disruption by nickel adds to the endocrine effects relevant to [[systemic nickel allergy syndrome]] patients
+- Thyroid disruption by nickel adds to the endocrine effects relevant to patients
 - Complements the metabolic disruption evidence in [[lu-2024-nickel-diabetes-meta-analysis]] and [[lusi-2015-nickel-allergy-overweight]]
 - Blood nickel levels in context of [[denkhaus-2002-nickel-essentiality-toxicity]] normal ranges
 - Oxidative stress mechanisms align with those reviewed in [[denkhaus-2002-nickel-essentiality-toxicity]]

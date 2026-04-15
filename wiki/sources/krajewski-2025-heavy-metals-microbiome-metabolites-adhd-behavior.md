@@ -30,8 +30,8 @@ Path analysis study examining relationships between **urinary heavy metal load, 
 
 - **Social behaviour negatively correlated** with heavy metal load (r = -0.43, p < 0.001)
 - Strongest individual metal correlations with poor social behaviour:
-  - [[arsenic]]: r = -0.43, p < 0.001
-  - [[cadmium]]: r = -0.38, p = 0.003
+ - [[arsenic]]: r = -0.43, p < 0.001
+ - [[cadmium]]: r = -0.38, p = 0.003
 - **Microbiome-associated metabolites positively correlated** with heavy metal load (r = 0.33, p = 0.004)
 - Heavy metals predicted 12.3% of reduced social behaviours (beta = 0.35, p = 0.002)
 

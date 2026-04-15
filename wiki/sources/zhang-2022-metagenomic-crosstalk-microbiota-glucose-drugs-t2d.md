@@ -11,6 +11,7 @@ tags: [type-1-diabetes, autoimmune, metagenomics, acarbose, vildagliptin, gut-mi
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: randomized-controlled-trial
 ---
 
 # Key Claims

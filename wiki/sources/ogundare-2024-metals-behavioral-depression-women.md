@@ -35,8 +35,8 @@ platform: wikibiome
 
 ## Connections
 
-- [[Heavy metal neurotoxicity]] -- metal-induced depression mechanisms
-- [[Cadmium toxicity]] -- Cd as neurotoxicant and endocrine disruptor
-- [[Lead exposure]] -- Pb-depression association
-- [[Women's health]] -- sex-specific vulnerability to metal-behavioral interactions
-- [[Endocrine disruptors]] -- Cd mimicking estrogen activity
+- -- metal-induced depression mechanisms
+- -- Cd as neurotoxicant and endocrine disruptor
+- -- Pb-depression association
+- -- sex-specific vulnerability to metal-behavioral interactions
+- -- Cd mimicking estrogen activity

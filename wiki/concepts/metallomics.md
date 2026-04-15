@@ -147,7 +147,6 @@ Single-element measurements are giving way to integrated multi-element panels an
 ### Integration with Other -Omics
 Metallomics combined with genomics (metalloprotein gene variants), metabolomics (metal-dependent metabolic pathways), and microbiomics (gut metal ecology) promises a systems-level understanding of metal biology in health and disease.
 
-
 ## Key Sources
 
 - [[zhang-2022-metallomics-cancer-review]]

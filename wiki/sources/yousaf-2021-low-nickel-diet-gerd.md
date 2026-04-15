@@ -10,6 +10,7 @@ year: 2021
 tags: [GERD, low-nickel-diet, gastroesophageal-reflux, patch-testing, pilot-study]
 doi: "10.1007/s12664-020-01090-3"
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 ## Key Claims

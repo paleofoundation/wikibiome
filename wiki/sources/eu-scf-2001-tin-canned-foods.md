@@ -34,8 +34,8 @@ platform: wikibiome
 ## Connections
 
 - [[Tin]] - primary subject; inorganic tin toxicology in food
-- [[food-safety]] - regulatory limits for tin in canned foods
-- [[Canned Food Contamination]] - unlacquered tinplate cans as source of tin leaching
-- [[ATSDR Tin Profile]] - complements this with comprehensive toxicological data
-- [[EU Drinking Water Directive]] - related EU regulatory framework for contaminants
-- [[Infant Formula Safety]] - SCF specifically asked about acceptable tin levels in infant foods
+- - regulatory limits for tin in canned foods
+- - unlacquered tinplate cans as source of tin leaching
+- - complements this with comprehensive toxicological data
+- - related EU regulatory framework for contaminants
+- - SCF specifically asked about acceptable tin levels in infant foods

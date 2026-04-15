@@ -1,15 +1,37 @@
 ---
-
 title: "Heavy Metal-Gut Microbiota Interactions: Probiotics Modulation and Biosensors Detection"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Liliana Anchidin-Norocel, Oana C. Iatcu, Andrei Lobiuc, Mihai Covasa]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Liliana Anchidin-Norocel
+  - Oana C. Iatcu
+  - Andrei Lobiuc
+  - Mihai Covasa
 journal: Biosensors
 year: 2025
-tags: [heavy-metals, gut-microbiota, probiotics, biosensors, arsenic, cadmium, mercury, lead, detoxification, urine-monitoring, electrochemical-sensors, review]
-doi: "10.3390/bios15030188"
+tags:
+  - heavy-metals
+  - gut-microbiota
+  - probiotics
+  - biosensors
+  - arsenic
+  - cadmium
+  - mercury
+  - lead
+  - detoxification
+  - urine-monitoring
+  - electrochemical-sensors
+  - review
+doi: 10.3390/bios15030188
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Synthesizes metal-dysbiosis interactions with eight distinct probiotic detoxification mechanisms (biosorption, bioprecipitation, bioassimilation, biotransformation) and real-time biosensor monitoring of metal clearance. WikiBiome depends on this paper to link microbiota-mediated metal sequestration to barrier function recovery—establishing that probiotic interventions can interrupt the metal-dysbiosis feedback loop by enabling both metal excretion and restoration of tight junction integrity."
 ---
 
 # Key Claims

@@ -56,7 +56,6 @@ A Gram-negative intracellular pathogen causing **bacillary dysentery** (shigello
 - **Reactive arthritis**: post-infectious joint inflammation, similar to [[campylobacter-jejuni]].
 - Metal exposure in endemic regions (contaminated water sources containing heavy metals) may promote Enterobacteriaceae enrichment in the gut, potentially favoring *Shigella* colonization [[zhu-2024-toxic-essential-metals-gut-microbiota]].
 
-
 ## Key Sources
 
 - [[khatoon-2023-gut-microbiota-neurodegenerative]]

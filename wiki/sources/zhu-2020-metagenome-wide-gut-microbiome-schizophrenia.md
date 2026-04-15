@@ -11,6 +11,7 @@ tags: [schizophrenia, shotgun-metagenomics, gut-microbiome, microbial-classifier
 library_category: microbiome-signature
 platform: gut
 condition: "Schizophrenia"
+evidence_level: cross-sectional
 ---
 
 # Metagenome-wide association of gut microbiome features for schizophrenia

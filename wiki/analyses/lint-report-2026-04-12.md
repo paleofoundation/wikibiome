@@ -8,8 +8,8 @@ tags: [maintenance, lint, health-check]
 
 # WikiBiome Lint Report — 2026-04-12
 
-**Automated health check run:** 2026-04-12  
-**Wiki pages scanned:** 1,684 total (1,426 sources + 258 content pages)  
+**Automated health check run:** 2026-04-12 
+**Wiki pages scanned:** 1,684 total (1,426 sources + 258 content pages) 
 **Issues found:** 6 critical, 8 high-priority, 5 medium-priority
 
 ---
@@ -113,10 +113,10 @@ Per schema, intervention pages require a `cureva_status: complete | partial | in
 Four wikilinks in a table (lines 58–61) use pipe-alias syntax with backslashes instead of forward slashes, rendering as broken:
 
 ```
-[[lactobacillus\|Lactobacillus]] → should be [[lactobacillus|Lactobacillus]]
-[[bifidobacterium\|Bifidobacterium]] → should be [[bifidobacterium|Bifidobacterium]]
-[[saccharomyces-cerevisiae\|Saccharomyces cerevisiae]] → should be [[saccharomyces-cerevisiae|Saccharomyces cerevisiae]]
-[[bacillus\|Bacillus]] → should be [[bacillus|Bacillus]]
+[[lactobacillus|Lactobacillus]] → should be [[lactobacillus|Lactobacillus]]
+[[bifidobacterium|Bifidobacterium]] → should be [[bifidobacterium|Bifidobacterium]]
+[[saccharomyces-cerevisiae|Saccharomyces cerevisiae]] → should be [[saccharomyces-cerevisiae|Saccharomyces cerevisiae]]
+[[bacillus|Bacillus]] → should be [[bacillus|Bacillus]]
 ```
 
 **Action:** Fix the four backslash-broken links in `wiki/concepts/dietary-metal-microbiome-interactions.md`.

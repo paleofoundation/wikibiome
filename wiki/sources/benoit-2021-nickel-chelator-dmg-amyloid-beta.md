@@ -25,11 +25,11 @@ platform: wikibiome
 
 - **ICP-MS metal analysis of A-beta-40**: 20-element analysis revealed Se as most abundant (27,784 ug/g), followed by Ni (1,005 ug/g), Al (65.7), Zn (45.7), Cu (22.8), Cr (15); iron was NOT detected; peptide is produced in *E. coli* which may explain metal content
 - **Aggregation assays** (thioflavin T fluorescence-based):
-  - 10 uM NiSO4: 2.5-fold increase in aggregation rate
-  - 100 uM NiSO4: 5.7-fold increase (567 +/- 61% of control in one experiment; up to 1423 +/- 258% with higher peptide concentration)
-  - 100 uM ZnSO4: 5-fold and 14-fold increase (confirming prior literature)
-  - 100 uM CuSO4: no significant effect at pH used (7.4), consistent with Cu promoting aggregation only at acidic pH
-  - NiCl2 produced similar results to NiSO4, ruling out counterion effects
+ - 10 uM NiSO4: 2.5-fold increase in aggregation rate
+ - 100 uM NiSO4: 5.7-fold increase (567 +/- 61% of control in one experiment; up to 1423 +/- 258% with higher peptide concentration)
+ - 100 uM ZnSO4: 5-fold and 14-fold increase (confirming prior literature)
+ - 100 uM CuSO4: no significant effect at pH used (7.4), consistent with Cu promoting aggregation only at acidic pH
+ - NiCl2 produced similar results to NiSO4, ruling out counterion effects
 - **DMG inhibition**: 100 uM DMG reduced A-beta aggregation by 40-85% depending on experiment; 500-1000 uM DMG reduced aggregation to <1% of control; inhibition was dose-dependent
 - **DMG + metal combinations**: DMG fully inhibited Ni-induced aggregation; partially inhibited Cu-induced aggregation; Zn-induced aggregation persisted even with DMG (suggesting DMG binds Ni preferentially over Zn)
 - **Isothermal titration calorimetry (ITC)**: Ni binding to A-beta-40 confirmed with Kd of approximately 4.2 uM, stoichiometry <1:1, deltaH = -5 kJ/mol, deltaS = 86 J/mol/K; binding is exothermic and spontaneous

@@ -1,14 +1,33 @@
 ---
-
-title: "Identification of commensal gut microbiota signatures as predictors of clinical severity and disease progression in multiple sclerosis"
+title: Identification of commensal gut microbiota signatures as predictors of clinical severity and disease progression in multiple sclerosis
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Theresa L. Montgomery, Qin Wang, Ali Mirza, Deanna Dwyer, Qi Wu, Catherine A. Dowling, Jacob W. S. Martens, Jennifer Yang, Dimitry N. Krementsov, Yang Mao-Draayer]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Theresa L. Montgomery
+  - Qin Wang
+  - Ali Mirza
+  - Deanna Dwyer
+  - Qi Wu
+  - Catherine A. Dowling
+  - Jacob W. S. Martens
+  - Jennifer Yang
+  - Dimitry N. Krementsov
+  - Yang Mao-Draayer
 journal: Scientific Reports
 year: 2024
 doi: 10.1038/s41598-024-64369-x
-tags: [multiple-sclerosis, microbiome-signature, disease-progression, Akkermansia, Prevotella, SCFAs, vitamin-K, oxidative-stress, dysbiosis, biomarkers]
+tags:
+  - multiple-sclerosis
+  - microbiome-signature
+  - disease-progression
+  - Akkermansia
+  - Prevotella
+  - SCFAs
+  - vitamin-K
+  - oxidative-stress
+  - dysbiosis
+  - biomarkers
 platform: wikibiome
 ---
 

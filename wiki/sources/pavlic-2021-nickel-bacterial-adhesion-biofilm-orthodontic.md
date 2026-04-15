@@ -26,21 +26,21 @@ platform: wikibiome
 - **Organism**: *S. aureus* ATCC 29213 adapted to five concentrations of Ni2+ (62.5, 125, 250, 500, 1000 ug/mL NiCl2)
 - **MIC determination**: MIC for nickel was 1000 ug/mL for *S. aureus* ATCC
 - **Adhesion results** (4h incubation on NiTi archwires in artificial saliva):
-  - Strains adapted to 250 ug/mL showed highest adhesion (p < 0.001; eta-squared = 0.958, very large effect size)
-  - Strains adapted to 62.5 ug/mL and 1000 ug/mL showed significantly lower adhesion than ATCC
-  - 125 and 250 ug/mL adapted strains had significantly higher adhesion
+ - Strains adapted to 250 ug/mL showed highest adhesion (p < 0.001; eta-squared = 0.958, very large effect size)
+ - Strains adapted to 62.5 ug/mL and 1000 ug/mL showed significantly lower adhesion than ATCC
+ - 125 and 250 ug/mL adapted strains had significantly higher adhesion
 - **Biofilm formation** (24h):
-  - Strains adapted to 250 and 500 ug/mL showed highest early biofilm formation (p < 0.001; eta-squared = 0.916)
-  - Total biofilm biomass (OD600) highest for 250 ug/mL adapted strain (p < 0.001; eta-squared = 0.986)
-- **Growth curves with ciprofloxacin**:
-  - 250 ug/mL Ni-adapted *S. aureus* grew in bacteriostatic and bactericidal ciprofloxacin concentrations where ATCC could not
-  - 1000 ug/mL adapted strain showed inhibited growth compared to ATCC in ciprofloxacin
-  - Even short-term adaptation to 250 ug/mL nickel produced antimicrobial resistance
+ - Strains adapted to 250 and 500 ug/mL showed highest early biofilm formation (p < 0.001; eta-squared = 0.916)
+ - Total biofilm biomass (OD600) highest for 250 ug/mL adapted strain (p < 0.001; eta-squared = 0.986)
+
+ - 250 ug/mL Ni-adapted *S. aureus* grew in bacteriostatic and bactericidal ciprofloxacin concentrations where ATCC could not
+ - 1000 ug/mL adapted strain showed inhibited growth compared to ATCC in ciprofloxacin
+ - Even short-term adaptation to 250 ug/mL nickel produced antimicrobial resistance
 - **Disk diffusion** (10 antimicrobial agents tested):
-  - Differences in susceptibility were significant for every agent (p < 0.001; eta-squared = 0.794-0.984)
-  - 500 ug/mL adapted strain: significantly MORE sensitive to CIP, CMN, ERY, FOX, LIN, MXF, P, SXT, TEC
-  - 250 ug/mL adapted: significantly more RESISTANT to ERY, FOX, LIN, MXF, TEC
-  - 62.5-250 ug/mL adapted strains were significantly more resistant to some antibiotics vs. ATCC
+ - Differences in susceptibility were significant for every agent (p < 0.001; eta-squared = 0.794-0.984)
+ - 500 ug/mL adapted strain: significantly MORE sensitive to CIP, CMN, ERY, FOX, LIN, MXF, P, SXT, TEC
+ - 250 ug/mL adapted: significantly more RESISTANT to ERY, FOX, LIN, MXF, TEC
+ - 62.5-250 ug/mL adapted strains were significantly more resistant to some antibiotics vs. ATCC
 - **Nickel release data**: NiTi archwires release 0.3 ug/cm2 in the first 3 days, cumulative 0.7 ug/cm2 over 28 days; elevated nickel found in patient tissues after 1 year
 
 # Why This Paper Matters

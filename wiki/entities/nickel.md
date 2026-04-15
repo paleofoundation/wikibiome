@@ -358,7 +358,6 @@ Mammals do not synthesize known Ni-requiring proteins, yet nickel is **essential
 
 ---
 
-
 ## Key Sources
 
 - [[zirwas-2009-dietary-nickel-dermatitis]]

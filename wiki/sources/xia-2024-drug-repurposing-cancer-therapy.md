@@ -9,6 +9,7 @@ journal: Signal Transduction and Targeted Therapy
 year: 2024
 tags: [colon-cancer, drug-repurposing, cancer-therapy, hallmarks-of-cancer, cell-death, apoptosis, ferroptosis, pyroptosis, autophagy, metformin, statins, disulfiram, organoids, colorectal-cancer, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

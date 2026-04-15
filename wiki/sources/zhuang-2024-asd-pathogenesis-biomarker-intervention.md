@@ -11,6 +11,10 @@ tags: [autism, pathogenesis, multi-omics, diagnostic-markers, interventions, inf
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+karen_brain_primitives: [9]
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Overview
@@ -21,9 +25,9 @@ Comprehensive review of **ASD pathogenesis using multi-omics approaches**, diagn
 
 - **Highly heterogeneous condition**: multiple genetic backgrounds, environmental triggers, phenotypic presentations
 - **Clinical heterogeneity** complicates:
-  - Research into unified mechanisms
-  - Development of targeted interventions
-  - Biomarker discovery and validation
+ - Research into unified mechanisms
+ - Development of targeted interventions
+ - Biomarker discovery and validation
 - **Convergent mechanisms** approach: identify common pathways despite heterogeneous genetics
 
 # Multi-Omics Pathogenesis Framework
@@ -115,10 +119,10 @@ Comprehensive review of **ASD pathogenesis using multi-omics approaches**, diagn
 
 - **Reduced diversity** and stability
 - **Altered taxa composition** (increased potentially pathogenic taxa, reduced beneficial taxa)
-- **Reduced metabolite-producing capacity**:
-  - SCFA producers (butyrate, propionate) ↓
-  - Tryptophan metabolite producers ↓
-  - Secondary metabolite producers ↓
+
+ - SCFA producers (butyrate, propionate) ↓
+ - Tryptophan metabolite producers ↓
+ - Secondary metabolite producers ↓
 
 ### Dysbiosis → Systemic Effects Cascade
 

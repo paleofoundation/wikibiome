@@ -28,12 +28,12 @@ platform: wikibiome
 - **Outcome**: Edinburgh Postnatal Depression Scale (EPDS >= 13) at mid-pregnancy, 6 months postpartum, and 12 months postpartum
 - **Analysis**: Logistic regression, multinomial regression, latent class mixed modeling for symptom trajectories, quantile g-computation for mixture effects
 - **Prevalence**: Depressive symptoms ranged from 9% (mid-pregnancy) to 6% (12 months postpartum)
-- **Key Results**:
-  - Three depressive trajectories identified: stable low (82%), moderate mid-pregnancy then increasing (11%), elevated mid-pregnancy then decreasing (8%)
-  - Per doubling of Pb: OR 1.19 (95% CI: 0.80, 1.77) for mid-pregnancy EPDS >= 13
-  - Per doubling of As: OR 0.88 (95% CI: 0.77, 1.00) for mid-pregnancy; OR 0.80 (95% CI: 0.68, 0.95) at 12 months
-  - Per doubling of Se: OR 2.09 (95% CI: 0.74, 5.94) for elevated then decreasing trajectory vs stable low
-  - Metal concentrations were weak-to-moderately correlated (Spearman -0.24 to 0.59)
+
+ - Three depressive trajectories identified: stable low (82%), moderate mid-pregnancy then increasing (11%), elevated mid-pregnancy then decreasing (8%)
+ - Per doubling of Pb: OR 1.19 (95% CI: 0.80, 1.77) for mid-pregnancy EPDS >= 13
+ - Per doubling of As: OR 0.88 (95% CI: 0.77, 1.00) for mid-pregnancy; OR 0.80 (95% CI: 0.68, 0.95) at 12 months
+ - Per doubling of Se: OR 2.09 (95% CI: 0.74, 5.94) for elevated then decreasing trajectory vs stable low
+ - Metal concentrations were weak-to-moderately correlated (Spearman -0.24 to 0.59)
 
 # Connections
 

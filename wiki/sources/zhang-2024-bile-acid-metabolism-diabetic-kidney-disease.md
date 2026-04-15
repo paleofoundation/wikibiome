@@ -9,6 +9,7 @@ journal: "Nutrition and Diabetes"
 doi: "10.1038/s41387-024-00315-0"
 tags: [chronic-kidney-disease, CKD, bile-acids, diabetic-kidney-disease, metabolomics, UPLC-MS, DKD-progression]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Bile Acid Metabolism Alterations in Diabetic Kidney Disease

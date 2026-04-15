@@ -25,14 +25,14 @@ platform: wikibiome
 - **Participants**: 60 women with PCOS (ages 18-40, Rotterdam criteria) in Kashan, Iran; all 60 completed
 - **Intervention**: Vitamin D3 (50,000 IU biweekly) + probiotic (Lactobacillus acidophilus, Bifidobacterium bifidum, Lactobacillus reuteri, Lactobacillus fermentum; 2x10^9 CFU each) vs placebo for 12 weeks
 - **Key results** (beta = difference in mean outcomes between groups):
-  - BDI scores: beta = -0.58 (p = 0.04)
-  - Total testosterone: beta = -0.19 ng/mL (p < 0.001)
-  - Hirsutism (mFG): beta = -0.95 (p < 0.001)
-  - hs-CRP: beta = -0.67 mg/L (p < 0.001)
-  - MDA: beta = -0.25 micromol/L (p = 0.001)
-  - TAC: beta = 82.81 mmol/L (p < 0.001)
-  - GSH: beta = 40.42 micromol/L (p = 0.02)
-  - No significant changes in SHBG, NO, acne, alopecia, or sleep quality (PSQI)
+ - BDI scores: beta = -0.58 (p = 0.04)
+ - Total testosterone: beta = -0.19 ng/mL (p < 0.001)
+ - Hirsutism (mFG): beta = -0.95 (p < 0.001)
+ - hs-CRP: beta = -0.67 mg/L (p < 0.001)
+ - MDA: beta = -0.25 micromol/L (p = 0.001)
+ - TAC: beta = 82.81 mmol/L (p < 0.001)
+ - GSH: beta = 40.42 micromol/L (p = 0.02)
+ - No significant changes in SHBG, NO, acne, alopecia, or sleep quality (PSQI)
 
 # Connections
 

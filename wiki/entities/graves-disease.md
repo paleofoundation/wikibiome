@@ -6,16 +6,16 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - chen-2021-gut-microbiota-thyroid-graves
-  - yang-2022-intestinal-flora-graves-methimazole
-  - han-2022-berberine-methimazole-graves-microbiome
-  - chen-2024-gut-microbiota-six-thyroid-diseases-mr
-  - xian-2023-graves-disease-ibd-mendelian-randomization
-  - brock-2015-selenium-thyroid-autoimmunity
-  - brylinski-2025-trace-elements-thyroid-diseases
-  - kravchenko-2023-thyroid-hormones-minerals-AITD
-  - mian-2022-editorial-diet-impair-thyroid-function
-  - rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis
+ - chen-2021-gut-microbiota-thyroid-graves
+ - yang-2022-intestinal-flora-graves-methimazole
+ - han-2022-berberine-methimazole-graves-microbiome
+ - chen-2024-gut-microbiota-six-thyroid-diseases-mr
+ - xian-2023-graves-disease-ibd-mendelian-randomization
+ - brock-2015-selenium-thyroid-autoimmunity
+ - brylinski-2025-trace-elements-thyroid-diseases
+ - kravchenko-2023-thyroid-hormones-minerals-AITD
+ - mian-2022-editorial-diet-impair-thyroid-function
+ - rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis
 tags: [graves-disease, autoimmune, thyroid, selenium, iron, copper, zinc, iodine, cadmium, mercury, lead, gut-thyroid-axis, microbiome, TRAb, Fusobacterium, Bifidobacterium, SCFAs, diet, methimazole, berberine]
 platform: wikibiome
 last_substantive_update: 2026-04-13

@@ -9,6 +9,7 @@ year: 2019
 doi: "10.1038/s41598-018-38031-2"
 tags: [ovarian-cancer, microbiome, 16S-rRNA, fallopian-tube, Proteobacteria, Firmicutes, RNA-seq, inflammation, dysbiosis]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Biodiversity Composition of Microbiome in Ovarian Carcinoma Patients

@@ -36,9 +36,9 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- antidepressants as potential adjunctive MS therapy beyond depression management
-- [[antidepressants]] -- multi-target neuroprotective and immunomodulatory effects in MS models
-- [[EAE]] -- primary in vivo model for testing antidepressant effects on demyelination
-- [[fluvoxamine]] -- promotes oligodendrocyte differentiation via Notch signaling; reduces EAE severity
-- [[venlafaxine]] -- comprehensive cytokine suppression and BDNF upregulation in EAE
-- [[neuroprotection]] -- iron chelation by tricyclics prevents neuronal loss
+- -- multi-target neuroprotective and immunomodulatory effects in MS models
+- -- primary in vivo model for testing antidepressant effects on demyelination
+- -- promotes oligodendrocyte differentiation via Notch signaling; reduces EAE severity
+- -- comprehensive cytokine suppression and BDNF upregulation in EAE
+- -- iron chelation by tricyclics prevents neuronal loss
 - [[depression]] -- most common psychiatric comorbidity in MS; antidepressants address both

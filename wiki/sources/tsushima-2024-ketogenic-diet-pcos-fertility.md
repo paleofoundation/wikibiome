@@ -10,6 +10,9 @@ year: 2024
 tags: [PCOS, ketogenic-diet, fertility, menstrual-cycles, pregnancy, retrospective, obesity, ovulation]
 doi: "10.3389/fnut.2024.1450244"
 platform: wikibiome
+karen_brain_primitives: [7]
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -25,12 +28,12 @@ platform: wikibiome
 - **Participants**: 30 women with PCOS and obesity enrolled in a Shared Medical Appointment (SMA) weight management program, who followed KD for at least 3 months
 - **Intervention**: KD with up to 20 g net carbohydrates/day, protein intake 1.6 x weight in kg = grams/day, fat up to 40 g/day; potassium chloride supplement 10 meq/day; calorie target 1000-1200 kcal/day
 - **Population**: Mean age 31.1 years, mean BMI 43.4, 60% on metformin, 73.3% used no ovulation induction agents
-- **Key results**:
-  - Menstruation: 100% of those with irregular menses achieved regular cycles; median time to return ~71-75 days
-  - Pregnancy: 10/18 (55.6%) achieved pregnancy; 5/5 (100%) non-metformin women vs 5/13 (38.5%) metformin women became pregnant (p=0.036)
-  - Weight change: pregnant women lost mean -9.1 kg vs non-pregnant -9.1 kg (similar)
-  - No significant difference in outcomes by ovulation induction use
-  - Mean weight change at conception: -11.3 kg (metformin group) vs -6.9 kg (no metformin)
+
+ - Menstruation: 100% of those with irregular menses achieved regular cycles; median time to return ~71-75 days
+ - Pregnancy: 10/18 (55.6%) achieved pregnancy; 5/5 (100%) non-metformin women vs 5/13 (38.5%) metformin women became pregnant (p=0.036)
+ - Weight change: pregnant women lost mean -9.1 kg vs non-pregnant -9.1 kg (similar)
+ - No significant difference in outcomes by ovulation induction use
+ - Mean weight change at conception: -11.3 kg (metformin group) vs -6.9 kg (no metformin)
 - **Limitations**: Small sample, retrospective, no control group, single center, convenience sample
 
 # Connections

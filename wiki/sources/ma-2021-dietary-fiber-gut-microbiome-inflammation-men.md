@@ -25,11 +25,11 @@ platform: wikibiome
 - **Type**: Prospective cohort study (Men's Lifestyle Validation Study nested within Health Professionals Follow-Up Study)
 - **Population**: 307 generally healthy men, mean age 70.6 years
 - **Methods**: Shotgun metagenomic and metatranscriptomic sequencing of 925 samples (taxonomic) and 372 samples (functional), combined with plasma CRP and dietary assessment
-- **Key results**:
-  - Mean dietary fiber intake: 25.3 +/- 8.1 g/d; mean CRP: 1.75 mg/dL
-  - Recent dietary fiber intake was the leading factor explaining variance in microbiome composition (R-squared=0.0095, p=0.005) and functional potential (R-squared=0.0085)
-  - 84 CAZymes metagenomically associated with dietary fiber, particularly pectin intake
-  - Pectin intake strongly positively correlated with pectinase PL9 expression, primarily contributed by *E. eligens*, *B. thetaiotaomicron*, and *B. sp. I_1_6*
+
+ - Mean dietary fiber intake: 25.3 +/- 8.1 g/d; mean CRP: 1.75 mg/dL
+ - Recent dietary fiber intake was the leading factor explaining variance in microbiome composition (R-squared=0.0095, p=0.005) and functional potential (R-squared=0.0085)
+ - 84 CAZymes metagenomically associated with dietary fiber, particularly pectin intake
+ - Pectin intake strongly positively correlated with pectinase PL9 expression, primarily contributed by *E. eligens*, *B. thetaiotaomicron*, and *B. sp. I_1_6*
 
 ## Source Pages
 
@@ -39,4 +39,4 @@ pp. 1-8
 
 - Demonstrates fiber-microbiome-inflammation axis in [[cardiovascular disease]] prevention
 - Links to [[short-chain-fatty-acids]] production and [[atherosclerosis]] risk
-- Relevant to personalized [[dietary interventions]] based on microbiome composition
+- Relevant to personalized based on microbiome composition

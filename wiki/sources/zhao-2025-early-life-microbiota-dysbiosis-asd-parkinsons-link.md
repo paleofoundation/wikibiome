@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, Parkinsons-disease, microbiota-dysbiosis, alpha
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
 ---
 
 # Key Claims

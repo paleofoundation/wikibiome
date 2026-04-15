@@ -39,11 +39,11 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- gut microbiome as key environmental risk factor
-- [[Tregs]] -- central regulatory cell population dysfunctional in MS, restorable by microbial signals
+- -- central regulatory cell population dysfunctional in MS, restorable by microbial signals
 - [[Bacteroides fragilis]] -- PSA as model immunomodulatory microbial product
 - [[short-chain-fatty-acids]] -- SCFAs mediate intestinal barrier and BBB integrity
 - [[blood-brain-barrier]] -- gut dysbiosis compromises BBB, linking gut to CNS inflammation
-- [[EAE]] -- experimental autoimmune encephalomyelitis as primary animal model for MS
+- -- experimental autoimmune encephalomyelitis as primary animal model for MS
 - [[dysbiosis]] -- altered gut microbiome composition as disease mechanism
-- [[Th17-cells]] -- pro-inflammatory T cells driven by SFB and other gut microbes
+- -- pro-inflammatory T cells driven by SFB and other gut microbes
 - [[fecal-microbiota-transplant]] -- causal evidence from FMT studies in germ-free mice

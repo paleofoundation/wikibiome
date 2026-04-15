@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, heavy-metals, trace-elements, hair-analysis, co
 library_category: environmental
 platform: ICP-MS
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
 ---
 
 # Overview

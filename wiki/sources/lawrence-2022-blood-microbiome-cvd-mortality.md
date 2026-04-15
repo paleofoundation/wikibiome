@@ -23,9 +23,9 @@ Case-cohort study based on the Oslo II study (9.5-year follow-up) analyzing bact
 ### Blood Bacterial Genera and CVD Mortality
 - Bacterial DNA identified in 372 (82%) of blood samples across 78 genera from six phyla
 - Three genera significantly associated with CVD mortality after Bonferroni correction:
-  - *Kocuria* (skin/oral): HR 8.50 (95% CI 4.05-17.84) - increased risk
-  - *Enhydrobacter* (skin): HR 3.30 (95% CI 2.01-5.57) - increased risk
-  - *Paracoccus* (soil): HR 0.29 (95% CI 0.15-0.57) - decreased risk
+ - *Kocuria* (skin/oral): HR 8.50 (95% CI 4.05-17.84) - increased risk
+ - *Enhydrobacter* (skin): HR 3.30 (95% CI 2.01-5.57) - increased risk
+ - *Paracoccus* (soil): HR 0.29 (95% CI 0.15-0.57) - decreased risk
 - *Stenotrophomonas* (HR 0.35) and *Bacteroides* (HR 0.22) also negatively associated
 
 ### Other Risk Factors

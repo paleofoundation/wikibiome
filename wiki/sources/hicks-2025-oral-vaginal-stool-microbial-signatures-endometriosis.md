@@ -25,13 +25,13 @@ platform: wikibiome
 - **Study design**: Prospective cross-sectional pilot study, Nepean Hospital, Australia
 - **Participants**: 64 women (19 healthy controls, 24 confirmed no-endometriosis, 21 confirmed endometriosis)
 - **Methods**: Self-collected oral, stool, and vaginal samples; 16S rRNA V3-V4 sequencing (Illumina MiSeq)
-- **Key results**:
-  - Stool: PERMANOVA p=0.003 (HC vs N-ENDO), p=0.042 (oral)
-  - Alpha diversity: borderline differences in oral (p<0.1) and significant in stool (p<0.05)
-  - 36 differentially abundant microbial features across all three body sites
-  - Eight taxonomic features differed between minimal/mild vs moderate/severe endometriosis
-  - *Actinomyces* enriched in stool of minimal/mild; *Cardiobacterium* in oral of minimal/mild
-  - *Phascolarctobacterium* enriched in stool of endometriosis patients
+
+ - Stool: PERMANOVA p=0.003 (HC vs N-ENDO), p=0.042 (oral)
+ - Alpha diversity: borderline differences in oral (p<0.1) and significant in stool (p<0.05)
+ - 36 differentially abundant microbial features across all three body sites
+ - Eight taxonomic features differed between minimal/mild vs moderate/severe endometriosis
+ - *Actinomyces* enriched in stool of minimal/mild; *Cardiobacterium* in oral of minimal/mild
+ - *Phascolarctobacterium* enriched in stool of endometriosis patients
 
 # Relevance to Wiki
 

@@ -81,17 +81,17 @@ Nickel-urease exemplifies **Primitive 4: Microbial Metal Dependencies as Achille
 - [[helicobacter-pylori|Helicobacter pylori]] — the primary pathogen expressing nickel-urease
 - [[proteus-mirabilis|Proteus mirabilis]] — soil bacterium; also urease-positive; causes urinary tract infections via urease-driven ammonia and crystal formation
 - [[klebsiella-pneumoniae|Klebsiella pneumoniae]] — urease-positive; can cause gastric and respiratory infections
-- [[oral-helicobacter-species]] — H. pylori-like species in oral cavities; urease-positive
+- — H. pylori-like species in oral cavities; urease-positive
 
 **Related concepts:**
 - [[nutritional-immunity]] — nickel starvation as a host defense mechanism
 - [[metal-dependent-virulence|metal-cofactor-dependency]] — general principle of which urease is an example
-- [[acidic-environment]] — gastric niche where urease enables survival
-- [[vaca-toxin]] — complementary H. pylori virulence factor
+- — gastric niche where urease enables survival
+- — complementary H. pylori virulence factor
 
 **Related metals:**
 - [[nickel]] — the essential cofactor; nickel depletion is therapeutic strategy
 - [[iron]] — H. pylori expresses iron-dependent catalase; dual-metal targeting increases efficacy
 
 **Disease pages:**
-- [[gastric-ulcer]], [[gastric-adenocarcinoma]], [[malt-lymphoma]] — H. pylori-driven conditions where urease is the enabling virulence factor
+- , — H. pylori-driven conditions where urease is the enabling virulence factor

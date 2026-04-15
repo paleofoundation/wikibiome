@@ -11,6 +11,7 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, butyrate, bile-acids, lipopo
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: cross-sectional
 ---
 
 # Key Claims

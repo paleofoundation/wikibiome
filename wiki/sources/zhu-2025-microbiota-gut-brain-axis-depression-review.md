@@ -11,6 +11,7 @@ tags: [postpartum-depression, depression, microbiota-gut-brain-axis, neuroinflam
 library_category: review
 platform: cureva
 condition: "major depressive disorder"
+evidence_level: expert-opinion
 ---
 
 # Key Claims

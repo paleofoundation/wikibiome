@@ -10,6 +10,10 @@ year: 2022
 tags: [fatty-acids, multiple-sclerosis, SCFA, MCFA, LCFA, PUFA, metabokines, Treg, Th17, GPR43, HDAC, remyelination, review]
 doi: "10.1186/s12974-022-02502-1"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: expert-opinion
 ---
 
 # Fatty Acids Role in Multiple Sclerosis as "Metabokines"
@@ -32,8 +36,8 @@ platform: wikibiome
 
 ## Connections
 
-- The "metabokines" framework integrates [[short-chain-fatty-acids]], [[PUFA]], and LCFA roles, connecting [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]] butyrate/caproic findings to broader FA biology
+- The "metabokines" framework integrates [[short-chain-fatty-acids]], and LCFA roles, connecting [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]] butyrate/caproic findings to broader FA biology
 - HDAC inhibition by SCFAs links to epigenetic mechanisms discussed in [[bucciero-2026-diet-ms-oxidative-stress-nrf2]] and dietary fiber interventions
-- The propionic acid clinical trial data provides direct therapeutic evidence supporting [[dietary-fiber]] approaches to boost SCFA production
+- The propionic acid clinical trial data provides direct therapeutic evidence supporting approaches to boost SCFA production
 - Intracellular FA composition determining Th17 pathogenicity connects to [[correale-2021-amino-acid-catabolizing-enzymes-ms]] on metabolic checkpoints in immune cells
-- GPR receptor signaling bridges FA research to [[microbiome-targeted-therapy]] and the development of postbiotic approaches
+- GPR receptor signaling bridges FA research to and the development of postbiotic approaches

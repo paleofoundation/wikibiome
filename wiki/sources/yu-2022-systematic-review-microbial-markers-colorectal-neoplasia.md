@@ -10,6 +10,7 @@ year: 2022
 tags: [colon-cancer, systematic-review, microbial-biomarkers, Fusobacterium-nucleatum, prediction-models, AUROC, colorectal-neoplasia, screening, qFIT, gFOBT, colorectal-cancer]
 doi: "10.1038/s41416-022-01740-7"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # A Systematic Review of Microbial Markers for Risk Prediction of Colorectal Neoplasia

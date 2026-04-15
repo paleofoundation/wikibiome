@@ -41,10 +41,10 @@ A Gram-negative obligate anaerobe that occupies a unique dual position in the [[
 ## Commensal Functions -- Polysaccharide A
 
 - Non-toxigenic *B. fragilis* produces **polysaccharide A (PSA)**, a zwitterionic capsular polysaccharide that:
-  - Activates CD4+ T cells via TLR2 signaling on dendritic cells.
-  - Promotes IL-10-producing regulatory T cells (Tregs).
-  - Suppresses Th17 inflammatory responses.
-  - Corrects Th1/Th2 imbalance in germ-free mice.
+ - Activates CD4+ T cells via TLR2 signaling on dendritic cells.
+ - Promotes IL-10-producing regulatory T cells (Tregs).
+ - Suppresses Th17 inflammatory responses.
+ - Corrects Th1/Th2 imbalance in germ-free mice.
 - PSA-mediated immunomodulation is protective against colitis in animal models.
 - This dual nature (PSA-mediated protection vs. BFT-mediated pathology) makes *B. fragilis* the clearest example of the commensal-pathobiont spectrum in the gut.
 

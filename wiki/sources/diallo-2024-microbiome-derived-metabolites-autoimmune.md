@@ -34,5 +34,5 @@ platform: wikibiome
 - Provides the metabolite-focused therapeutic framework complementing the taxon-focused approaches in [[ghezzi-2021-targeting-gut-treat-ms]] and [[bronzini-2023-feeding-gut-microbiome-ms]]
 - SCFA therapeutic mechanisms align with the "metabokines" concept from [[yu-2022-fatty-acids-metabokines-ms]] and the butyrate/caproic acid data from [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]
 - Tryptophan-AhR pathway connects to [[correale-2021-amino-acid-catabolizing-enzymes-ms]] on amino acid catabolism
-- Synthetic biology and engineered microbes represent the frontier of [[microbiome-targeted-therapy]] beyond traditional [[probiotics]]
+- Synthetic biology and engineered microbes represent the frontier of beyond traditional [[probiotics]]
 - Bile acid modulation links to secondary bile acid metabolism altered in MS, extending the metabolite perspective beyond SCFAs

@@ -30,7 +30,7 @@ platform: wikibiome
 
 ## Connections
 
-- Extends the clinical picture of [[systemic nickel allergy syndrome]] beyond dermatological and GI to fatigue/pain syndromes
+- Extends the clinical picture of beyond dermatological and GI to fatigue/pain syndromes
 - Low-nickel diet benefits in CFS case report connect to dietary approaches in [[veien-1993-low-nickel-diet-trial]] and [[antico-1999-chronic-dermatopathies-nickel]]
 - Cigarette smoke as nickel exposure route connects to [[denkhaus-2002-nickel-essentiality-toxicity]] environmental exposure discussion
 - Female predominance aligns with hormonal factors in [[bonamonte-2005-nickel-allergy-menstrual-cycle]]

@@ -110,7 +110,7 @@ function extractWikilinks(text) {
   const regex = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
   let match;
   while ((match = regex.exec(text)) !== null) {
-    links.add(match[1].toLowerCase().replace(/\s+/g, '-'));
+    links.add(match[1].toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''));
   }
   return Array.from(links);
 }
@@ -200,11 +200,11 @@ function readDirectory(dirPath, dirName) {
     const { overview, sections } = parseSections(body);
     const wikilinks = extractWikilinks(raw);
     const category = classifyCategory(frontmatter, dirName);
-    const id = file.replace('.md', '');
+    const id = file.replace('.md', '').toLowerCase();
 
     pages.push({
       id,
-      title: frontmatter.title || id.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+      title: frontmatter.title || file.replace('.md', '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
       type: frontmatter.type || dirName,
       category,
       tags: frontmatter.tags || [],
@@ -556,11 +556,11 @@ function main() {
       const { frontmatter, body } = parseFrontmatter(raw);
       const { overview, sections } = parseSections(body);
       const wikilinks = extractWikilinks(raw);
-      const id = file.replace('.md', '');
+      const id = file.replace('.md', '').toLowerCase();
       const category = classifyCategory(frontmatter, 'reference');
       rootPages.push({
         id,
-        title: frontmatter.title || id.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+        title: frontmatter.title || file.replace('.md', '').replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
         type: frontmatter.type || 'reference',
         category,
         tags: frontmatter.tags || [],
@@ -594,6 +594,9 @@ function main() {
         year: fm.year || '',
         journal: fm.journal || '',
         doi: fm.doi || '',
+        keystone: fm.keystone === true,
+        keystone_criteria_met: Array.isArray(fm.keystone_criteria_met) ? fm.keystone_criteria_met : [],
+        why_keystone: fm.why_keystone || '',
       };
     }
     console.log(`  Source metadata: ${Object.keys(sourceLookup).length} entries`);

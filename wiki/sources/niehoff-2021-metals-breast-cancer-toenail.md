@@ -42,5 +42,5 @@ platform: wikibiome
 - Nickel null findings relevant to [[aquino-2012-cadmium-nickel-metalloestrogens]] hypothesis about nickel as metalloestrogen
 - [[Molybdenum]] finding is novel - cofactor for enzymes breaking down toxic sulfites; potential protective role warrants investigation
 - Toenail biomarkers reflect longer-term exposure (6-12 months) vs blood/urine (shorter window), which may explain discrepancies with [[ali-2024-heavy-metals-breast-cancer-review]]
-- [[Metalloestrogens]] group analysis relevant to broader [[Endocrine Disruption]] literature
-- Racial/ethnic exposure disparities connect to [[Environmental Justice]] and metal exposure pathways
+- [[Metalloestrogens]] group analysis relevant to broader literature
+- Racial/ethnic exposure disparities connect to and metal exposure pathways

@@ -82,7 +82,6 @@ The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria 
 - **FXR and metal homeostasis**: FXR regulates intestinal barrier integrity; its disruption by altered bile acid signaling compounds metal-induced barrier failure.
 - **Coprostanol pathway**: Microbial conversion of cholesterol to coprostanol (by Eubacterium coprostanoligenes) is sex-dependent and may be disrupted by metals, connecting to the cholesterol-CVD axis [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 
-
 ## Key Sources
 
 - [[wu-2024-sex-differences-crc-hormone-microbiome-axis]]

@@ -10,6 +10,7 @@ year: 2022
 tags: [crohns-disease, IBD, Mendelian-randomization, Bifidobacterium, autoimmune-disease, gut-microbiome, causal-inference, celiac-disease, type-1-diabetes]
 doi: "10.3389/fimmu.2021.746998"
 platform: wikibiome
+evidence_level: mendelian-randomization
 ---
 
 # Key Claims

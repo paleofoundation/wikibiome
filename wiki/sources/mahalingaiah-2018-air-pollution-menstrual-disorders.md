@@ -27,13 +27,13 @@ platform: wikibiome
 - **Exposure**: Annual average TSP from US EPA monitoring locations closest to high school residential addresses (1960-1983); 4-year average for ages 14-18
 - **Outcome**: Self-reported menstrual irregularity phenotypes (moderate irregularity, persistent irregularity, moderate irregularity with androgen excess) and time to menstrual regularity at ages 18-22
 - **Covariates**: Age, race, BMI at 18, smoking, physical activity, diet quality
-- **Key Findings**:
-  - Mean TSP: 90.1 +/- 32.6 ug/m3 (range across quartiles: 54.3 to 135.3)
-  - Moderate irregularity prevalence: 14% (4882/34,842)
-  - Persistent irregularity prevalence: 8.8% (3074)
-  - Results robust after multivariable adjustment
-  - Increasing effect sizes for moderately and persistently irregular phenotypes at older menarchal ages
-  - Regional variation: effects observed primarily in Northeast and Western regions
+
+ - Mean TSP: 90.1 +/- 32.6 ug/m3 (range across quartiles: 54.3 to 135.3)
+ - Moderate irregularity prevalence: 14% (4882/34,842)
+ - Persistent irregularity prevalence: 8.8% (3074)
+ - Results robust after multivariable adjustment
+ - Increasing effect sizes for moderately and persistently irregular phenotypes at older menarchal ages
+ - Regional variation: effects observed primarily in Northeast and Western regions
 - **TSP composition**: Silicon from soil, lead from motor vehicles, selenium from coal combustion; varies by location and era
 - **Limitations**: Retrospective assessment, selection bias potential (women had to live until 2011), TSP as sole pollutant available, unable to examine PM size fractions
 

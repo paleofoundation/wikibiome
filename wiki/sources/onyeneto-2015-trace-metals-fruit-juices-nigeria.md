@@ -31,7 +31,7 @@ platform: wikibiome
 
 ## Connections
 
-- [[Food contamination]] -- metals in commercially processed beverages
-- [[Heavy metals in beverages]] -- fruit juice as exposure pathway
-- [[Lead exposure]] -- low but detectable levels in Nigerian fruit juices
+- -- metals in commercially processed beverages
+- -- fruit juice as exposure pathway
+- -- low but detectable levels in Nigerian fruit juices
 - [[fatima-2020-heavy-metals-fruit-juices-pakistan]] -- similar study in Pakistan with more metals including nickel

@@ -12,6 +12,7 @@ library_category: "Microbial biomarkers"
 platform: original-research
 condition: "autism spectrum disorder"
 source_pages: "pp. 118-131"
+evidence_level: cross-sectional
 ---
 
 # Overview

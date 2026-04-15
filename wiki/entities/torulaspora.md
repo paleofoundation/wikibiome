@@ -12,6 +12,8 @@ metal_dependencies: [zinc, manganese, iron]
 key_enzymes: [alcohol-dehydrogenase, glycolytic-enzymes, biofilm-carbohydrates]
 tags: [yeast, fungus, food-associated, mycobiome, fermentation, probiotic-potential, zinc-dependent]
 platform: wikibiome
+seo_target: "Torulaspora gut mycobiome dysbiosis IBS"
+wikipedia_differentiation: "Gut mycobiome role — alterations in IBS and IBD, zinc/manganese dependencies, and ecological interactions with bacteria — entirely absent from Wikipedia, which covers only winemaking applications"
 ---
 
 # Torulaspora
@@ -103,4 +105,4 @@ A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in
 - [[inflammatory-bowel-disease]] -- enriched in some IBD cohorts
 - [[obesity]] -- altered mycobiome with potential *Torulaspora* elevation
 - [[dysbiosis]] -- expansion marker in polymicrobial disease states
-- [[fermentation]] -- dominant in alcohol/sugar-rich anaerobic food environments
+- -- dominant in alcohol/sugar-rich anaerobic food environments

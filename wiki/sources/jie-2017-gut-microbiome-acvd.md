@@ -1,14 +1,65 @@
 ---
-
-title: "The gut microbiome in atherosclerotic cardiovascular disease"
+title: The gut microbiome in atherosclerotic cardiovascular disease
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Zhuye Jie, Huihua Xia, Shi-Long Zhong, Qiang Feng, Shenghui Li, Suisha Liang, Huanzi Zhong, Zhipeng Liu, Yuan Gao, Hui Zhao, Dongya Zhang, Zheng Su, Zhiwei Fang, Zhou Lan, Junhua Li, Liang Xiao, Jun Li, Ruijun Li, Xiaoping Li, Fei Li, Huahui Ren, Yan Huang, Yangqing Peng, Guanglei Li, Bo Wen, Bo Dong, Ji-Yan Chen, Qing-Shan Geng, Zhi-Wei Zhang, Huanming Yang, Jian Wang, Jun Wang, Xuan Zhang, Lise Madsen, Susanne Brix, Guang Ning, Xun Xu, Xin Liu, Yong Hou, Huijue Jia, Kunlun He, Karsten Kristiansen]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Zhuye Jie
+  - Huihua Xia
+  - Shi-Long Zhong
+  - Qiang Feng
+  - Shenghui Li
+  - Suisha Liang
+  - Huanzi Zhong
+  - Zhipeng Liu
+  - Yuan Gao
+  - Hui Zhao
+  - Dongya Zhang
+  - Zheng Su
+  - Zhiwei Fang
+  - Zhou Lan
+  - Junhua Li
+  - Liang Xiao
+  - Jun Li
+  - Ruijun Li
+  - Xiaoping Li
+  - Fei Li
+  - Huahui Ren
+  - Yan Huang
+  - Yangqing Peng
+  - Guanglei Li
+  - Bo Wen
+  - Bo Dong
+  - Ji-Yan Chen
+  - Qing-Shan Geng
+  - Zhi-Wei Zhang
+  - Huanming Yang
+  - Jian Wang
+  - Jun Wang
+  - Xuan Zhang
+  - Lise Madsen
+  - Susanne Brix
+  - Guang Ning
+  - Xun Xu
+  - Xin Liu
+  - Yong Hou
+  - Huijue Jia
+  - Kunlun He
+  - Karsten Kristiansen
 journal: Nature Communications
 year: 2017
 doi: 10.1038/s41467-017-00900-1
-tags: [cardiovascular-disease, CVD, atherosclerosis, metagenomics, TMAO, TMA-lyase, Enterobacteriaceae, Streptococcus, drug-confounding, functional-microbiome]
+tags:
+  - cardiovascular-disease
+  - CVD
+  - atherosclerosis
+  - metagenomics
+  - TMAO
+  - TMA-lyase
+  - Enterobacteriaceae
+  - Streptococcus
+  - drug-confounding
+  - functional-microbiome
 platform: wikibiome
 ---
 

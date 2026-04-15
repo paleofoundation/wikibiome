@@ -31,8 +31,8 @@ platform: wikibiome
 
 ## Connections
 
-- Comprehensive immune landscape connects to [[microbiome-and-immune-system]] and [[microbiome-and-inflammation]] in CRC
-- Immunotherapy modulation relates to [[microbiome-modulating-drugs]] therapeutic strategies
-- Stage-dependent microbial shifts (Table 1) inform [[microbiome-and-disease-progression]] understanding
-- T cell exhaustion and checkpoint mechanisms link to [[immune-response]] pathways in cancer
+- Comprehensive immune landscape connects to and in CRC
+- Immunotherapy modulation relates to therapeutic strategies
+- Stage-dependent microbial shifts (Table 1) inform understanding
+- T cell exhaustion and checkpoint mechanisms link to pathways in cancer
 - [[colorectal-cancer]]

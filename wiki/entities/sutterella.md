@@ -56,7 +56,6 @@ A Gram-negative, microaerophilic genus within the Proteobacteria phylum (family 
 - The increase under immunomodulatory therapy in MS suggests *Sutterella* is normally kept in check by robust mucosal immunity, and its expansion may be a consequence rather than cause of immune dysregulation.
 - As a Proteobacteria member, its enrichment may reflect the broader "Proteobacteria bloom" seen in inflammatory conditions.
 
-
 ## Key Sources
 
 - [[bronzini-2023-feeding-gut-microbiome-ms]]

@@ -28,16 +28,16 @@ platform: wikibiome
 - **Participants**: 95 serum samples from women: 28 healthy controls (HC), 28 PTC without HT (PTC0), 39 PTC with HT (PTC1); Medical University of Gdansk, Poland (Jan 2021 - March 2022)
 - **21 amino acids detected** by HPLC-TSQ-MS
 - **Key results** (Table 1):
-  - CRP significantly elevated in PTC1 (2.77 vs 0.77 HC, p<0.001)
-  - Anti-TPO: PTC1 group 449 IU/ml vs <0.20 in HC and PTC0 (p<0.001)
-  - Anti-TG: PTC1 group 133 IU/ml vs <3.00 (p<0.001)
-  - Total cholesterol: significantly lower in PTC0 (199) vs PTC1 (188) and HC (160)
-- **Amino acid findings**:
-  - Glutamic acid: elevated ~2x in PTC1 vs PTC0; highest discriminatory power
-  - Glycine and valine: comparable between PTC0 and PTC1
-  - Alanine: declining trend from PTC0 to PTC1
-  - Arginine, leucine: significantly elevated only in PTC1
-  - Histidine: elevated only in PTC1 group
+ - CRP significantly elevated in PTC1 (2.77 vs 0.77 HC, p<0.001)
+ - Anti-TPO: PTC1 group 449 IU/ml vs <0.20 in HC and PTC0 (p<0.001)
+ - Anti-TG: PTC1 group 133 IU/ml vs <3.00 (p<0.001)
+ - Total cholesterol: significantly lower in PTC0 (199) vs PTC1 (188) and HC (160)
+
+ - Glutamic acid: elevated ~2x in PTC1 vs PTC0; highest discriminatory power
+ - Glycine and valine: comparable between PTC0 and PTC1
+ - Alanine: declining trend from PTC0 to PTC1
+ - Arginine, leucine: significantly elevated only in PTC1
+ - Histidine: elevated only in PTC1 group
 - **ROC analysis**: Arginine (AUC=0.789 for PTC0); alanine (AUC=0.853), leucine (AUC=0.825), valine (AUC=0.759), histidine (AUC=0.742) for PTC1
 - **Pathway analysis**: Glycine, serine, threonine metabolism and arginine metabolism pathways significantly altered
 

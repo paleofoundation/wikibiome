@@ -36,5 +36,5 @@ platform: wikibiome
 - Companion study to [[kouchaki-2017-clinical-metabolic-probiotic-ms]] which used the same probiotic formulation and reported clinical/metabolic outcomes
 - The probiotic strains used overlap with those studied in [[tankou-2018-probiotic-microbiome-ms]] (human trial) and [[dargahi-2020-streptococcus-thermophilus-ms]] (mouse model)
 - The anti-inflammatory gene expression effects are consistent with findings from [[libbey-2018-diet-microbiota-eae]] showing that *Lactobacillus* inversely correlates with disease severity in the EAE model
-- Relevant to broader [[gut-brain-axis]] and [[microbiome-immune-modulation]] themes in MS
-- The focus on [[TNF-alpha]] and [[IL-8]] connects to the cytokine networks also studied in the context of [[metal-homeostasis]] where inflammatory signaling is disrupted
+- Relevant to broader [[gut-brain-axis]] and themes in MS
+- The focus on and connects to the cytokine networks also studied in the context of [[metal-homeostasis]] where inflammatory signaling is disrupted

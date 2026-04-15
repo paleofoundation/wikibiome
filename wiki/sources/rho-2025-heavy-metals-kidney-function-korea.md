@@ -35,7 +35,7 @@ platform: wikibiome
 ## Connections
 
 - [[Chronic kidney disease]] -- metal exposure as risk factor and consequence modifier
-- [[Cadmium toxicity]] -- Cd as most significant individual nephrotoxicant
-- [[Heavy metal biomonitoring]] -- interpretation challenges in populations with existing kidney damage
-- [[Vulnerable populations]] -- residents near industrial sites, mines, and contaminated areas
+- -- Cd as most significant individual nephrotoxicant
+- -- interpretation challenges in populations with existing kidney damage
+- -- residents near industrial sites, mines, and contaminated areas
 - [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] -- molecular pathways underlying these epidemiological findings

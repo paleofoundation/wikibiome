@@ -92,7 +92,6 @@ Current food safety regulation does not account for life-stage vulnerability:
 - Adult-derived Tolerable Daily Intakes are applied to infant foods without age-specific safety factors
 - The EU is ahead of the US with lower limits for infant-specific food categories, but still lacks limits for Ni, Al, and Hg in infant foods
 
-
 ## Key Sources
 
 - [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]

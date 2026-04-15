@@ -70,7 +70,7 @@ The abundance of *B. wadsworthia* is highly responsive to diet:
 
 ## Connections
 
-- [[bile-acids]] -- metabolizes taurine-conjugated bile acids to H2S
+- -- metabolizes taurine-conjugated bile acids to H2S
 - [[iron]] -- Fe-S cluster dependency in sulfite reductase
 - [[colorectal-cancer]] -- enriched in CRC; H2S impairs colonocyte butyrate oxidation
 - [[multiple-sclerosis]] -- enriched in MS progressors; stratifies disease progression risk

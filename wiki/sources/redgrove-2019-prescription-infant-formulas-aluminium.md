@@ -37,11 +37,11 @@ platform: wikibiome
 
 ## Connections
 
-- Key source for [[aluminum in infant formula]] wiki topic, providing brand-specific contamination data
+- Key source for wiki topic, providing brand-specific contamination data
 - The finding that some prescription formulas are less contaminated than off-the-shelf challenges assumptions about contamination inevitability
-- Connects to [[de Paiva et al 2020]] showing that soy and chocolate-based products also carry high Al
-- Relevant to [[Ibrahim et al 2022]] Lebanese study where formula Al was lower (0.3-0.4 mg/kg) than some products here
-- Supports [[Pendergrass 2026]] argument that infant exposure to metals through formula is a significant concern requiring precautionary action
+- Connects to showing that soy and chocolate-based products also carry high Al
+- Relevant to Lebanese study where formula Al was lower (0.3-0.4 mg/kg) than some products here
+- Supports argument that infant exposure to metals through formula is a significant concern requiring precautionary action
 - Fruit flavorings and ingredients supplied to manufacturers identified as likely Al contamination sources
-- Christopher Exley is a prominent researcher in [[aluminum toxicology]] and neurotoxicity
+- Christopher Exley is a prominent researcher in and neurotoxicity
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility for aluminum-exposed neonates

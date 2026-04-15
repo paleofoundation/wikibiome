@@ -12,6 +12,7 @@ tags: [cardiovascular-disease, antidepressants, fluoxetine, amitriptyline, gut-m
 source_pdf: "raw/cardiovascular disease/Antidepressants cardiovascular disease microbiome/s41398-021-01254-5.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Key Claims

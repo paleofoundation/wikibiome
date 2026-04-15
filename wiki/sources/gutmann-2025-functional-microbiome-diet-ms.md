@@ -29,9 +29,9 @@ platform: wikibiome
 - **Study design**: Randomized controlled trial (NAMS study, NCT03508414); 76 RRMS patients completing 9 months on one of three diets: control (vegetarian Mediterranean, CD), fasting (Mediterranean + intermittent fasting, FD), or ketogenic (KD, 20-40 g/day carbs, 70-80% fat)
 - **Inclusion**: RRMS per 2017 McDonald criteria; stable or no DMT >= 6 months; EDSS < 4.5
 - **Endpoints**: T2 lesion count/volume on brain MRI; stool and blood metabolomics; shotgun metagenomics
-- **Key metabolomic findings**:
-  - KD: increased acetoacetic acid and 3-hydroxybutyric acid (3HB); decreased serum tryptophan and kynurenine; increased indole-3-acetate (I3A) ratio to tryptophan
-  - Ratio of indole metabolites to tryptophan significantly higher in KD (q_I3A = 0.002, q_ILA = 0.004)
+
+ - KD: increased acetoacetic acid and 3-hydroxybutyric acid (3HB); decreased serum tryptophan and kynurenine; increased indole-3-acetate (I3A) ratio to tryptophan
+ - Ratio of indole metabolites to tryptophan significantly higher in KD (q_I3A = 0.002, q_ILA = 0.004)
 - **Microbiome findings**: No significant change in alpha or beta diversity across diets; KD enriched gut microbial modules for glycerol degradation III (MF0062) and propionate production II (MF0094)
 - **Lesion associations**: Propionate production II (MF0094) enrichment in KD associated with steeper decrease in lesion volume; starch degradation (MF0005) changes in FD associated with lesion count decreases
 - **Species-level**: *R. timonensis*, *R. intestinalis*, *B. thetaiotaomicron* showed time- and group-dependent relationships with lesion volume (q < 0.1) in KD; *[[intestinibacter|Intestinibacter]] bartlettii* linked to starch degradation in FD
@@ -42,11 +42,11 @@ platform: wikibiome
 
 - [[multiple-sclerosis]] -- dietary intervention modifying disease via microbiome functional reprogramming
 - [[ketogenic-diet]] -- KD as microbiome-modulating intervention in MS
-- [[propionate]] -- SCFA with neuroprotective properties; production enriched by KD
-- [[tryptophan]] -- metabolic rerouting from kynurenine to indole derivatives under KD
+- -- SCFA with neuroprotective properties; production enriched by KD
+- -- metabolic rerouting from kynurenine to indole derivatives under KD
 - [[indoles]] -- microbiome-derived indole-3-acetate as AhR ligand with anti-inflammatory CNS effects
 - [[roseburia]] -- *R. intestinalis* as key propionate producer enriched by KD
-- [[Romboutsia]] -- *R. timonensis* enriched by KD with propionate production capacity
+- -- *R. timonensis* enriched by KD with propionate production capacity
 - [[Bacteroides-thetaiotaomicron]] -- contributes to propionate production under KD
-- [[aryl-hydrocarbon-receptor]] -- AhR pathway as target of microbiome-derived indoles for neuroprotection
+- -- AhR pathway as target of microbiome-derived indoles for neuroprotection
 - [[short-chain-fatty-acids]] -- propionate production as functional mediator between diet and MS lesions

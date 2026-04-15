@@ -23,9 +23,9 @@ platform: wikibiome
 
 - **Design**: Randomized pilot study at Gemelli Hospital, Rome, Italy (2011-2012)
 - **Population**: 52 sex- and age-matched patients (38 males, 44 females; mean age 38 +/- 6) with first H. pylori diagnosis by 13C-urea breath test (UBT); excluded 5 with systemic nickel allergy
-- **Protocol**:
-  - Group 1 (LCA, n=26): Standard triple therapy (lansoprazole 15mg bid, clarithromycin 500mg bid, amoxicillin 1000mg bid x 7 days) + common diet
-  - Group 2 (NFD-LCA, n=26): 30 days nickel-free diet + same triple therapy starting from day 15
+
+ - Group 1 (LCA, n=26): Standard triple therapy (lansoprazole 15mg bid, clarithromycin 500mg bid, amoxicillin 1000mg bid x 7 days) + common diet
+ - Group 2 (NFD-LCA, n=26): 30 days nickel-free diet + same triple therapy starting from day 15
 - **Nickel-free diet**: Strictly prohibited apricots, figs, pears, plums, raisins, pineapples, peanuts, cocoa, almonds, walnuts, hazelnuts, lobster, mussels, oysters, plaice, asparagus, cauliflower, carrots, cabbage, onions, beans, lentils, potatoes, peas, tomatoes, spinach, margarine, corn; also avoid stainless-steel utensils
 - **Results**: Eradication rate 84% (22/26) in NFD-LCA vs 46% (12/26) in LCA (p<0.01); compliance similar; mild side effects in 9/52 (17.3%) with no significant difference between groups
 - **H. pylori eradication confirmed by**: 13C-UBT 4 weeks after end of treatment

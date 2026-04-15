@@ -102,7 +102,6 @@ In practice, these mechanisms operate simultaneously, and the net effect on estr
 - Whether metalloestrogen activity is additive, synergistic, or antagonistic with organic xenoestrogens (BPA, phthalates) is unknown
 - The contribution of the gut microbiome's estrobolome to metalloestrogen processing has not been investigated
 
-
 ## Key Sources
 
 - [[aquino-2012-cadmium-nickel-metalloestrogens]]

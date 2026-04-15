@@ -74,7 +74,6 @@ Dietary cadmium exposure alters gut microbial composition in ways that compound 
 - **Codex Alimentarius**: Maximum levels set for rice (0.4 mg/kg), wheat (0.2 mg/kg), leafy vegetables (0.2 mg/kg), cocoa products (variable by category)
 - **No FDA action level** for cadmium in infant foods (as of 2026)
 
-
 ## Key Sources
 
 - [[agboola-2023-heavy-metals-leafy-vegetables-lagos]]

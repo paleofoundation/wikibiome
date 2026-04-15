@@ -1,15 +1,36 @@
 ---
-
-title: "Serum Trace Elements and Heavy Metals in Polycystic Ovary Syndrome"
+title: Serum Trace Elements and Heavy Metals in Polycystic Ovary Syndrome
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Kurdoglu Z, Kurdoglu M, Demir H, Sahin HG]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Kurdoglu Z
+  - Kurdoglu M
+  - Demir H
+  - Sahin HG
 journal: Human & Experimental Toxicology
 year: 2012
-tags: [PCOS, copper, zinc, manganese, lead, cobalt, cadmium, magnesium, trace-elements, oxidative-stress, testosterone]
-doi: "10.1177/0960327111424299"
+tags:
+  - PCOS
+  - copper
+  - zinc
+  - manganese
+  - lead
+  - cobalt
+  - cadmium
+  - magnesium
+  - trace-elements
+  - oxidative-stress
+  - testosterone
+doi: 10.1177/0960327111424299
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "First study quantifying seven metals simultaneously in PCOS serum, showing copper and zinc elevation, manganese and lead depletion, and novel inverse correlation between lead and total testosterone. WikiBiome depends on this evidence to establish PCOS as a metal-dysregulated endocrine disease where dysbiotic taxa unable to support metal-dependent redox metabolism (mCu-SOD, Mn-SOD) cannot sustain the tight junction and hormone-modulating capacity needed for ovulatory homeostasis."
 ---
 
 # Key Claims
@@ -30,12 +51,12 @@ platform: wikibiome
 - **Diagnosis**: Rotterdam criteria
 - **Measurements**: Cu, Zn, Mn, Mg, Co, Cd, Pb in serum via atomic absorption spectrophotometry; total testosterone and DHEAS via chemiluminescent immunoassay
 - **Key quantitative results** (mean +/- SD):
-  - Cu: PCOS 0.75 +/- 0.13 vs control 0.64 +/- 0.10 mcg/mL (p < 0.001)
-  - Zn: PCOS 0.92 +/- 0.20 vs control 0.77 +/- 0.19 mcg/mL (p = 0.006)
-  - Mn: PCOS 0.05 +/- 0.01 vs control 0.10 +/- 0.07 mcg/mL (p < 0.001)
-  - Pb: PCOS 0.45 +/- 0.32 vs control 0.89 +/- 0.25 mcg/dL (p < 0.001)
-  - TT: PCOS 83.24 vs control 45.8 ng/dL (p < 0.001)
-  - DHEAS: PCOS 307.81 vs control 180.85 mcg/dL (p < 0.001)
+ - Cu: PCOS 0.75 +/- 0.13 vs control 0.64 +/- 0.10 mcg/mL (p < 0.001)
+ - Zn: PCOS 0.92 +/- 0.20 vs control 0.77 +/- 0.19 mcg/mL (p = 0.006)
+ - Mn: PCOS 0.05 +/- 0.01 vs control 0.10 +/- 0.07 mcg/mL (p < 0.001)
+ - Pb: PCOS 0.45 +/- 0.32 vs control 0.89 +/- 0.25 mcg/dL (p < 0.001)
+ - TT: PCOS 83.24 vs control 45.8 ng/dL (p < 0.001)
+ - DHEAS: PCOS 307.81 vs control 180.85 mcg/dL (p < 0.001)
 - **Limitations**: Small sample size; single-center; serum only; no measurement of oxidative stress markers directly; limited metabolic profiling
 
 # Connections

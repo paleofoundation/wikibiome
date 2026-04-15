@@ -37,8 +37,8 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- comprehensive biomarker classification framework
-- [[neurofilament-light-chain]] -- emerging blood-based biomarker for disease activity and treatment response
-- [[oligoclonal-bands]] -- established CSF diagnostic marker present in 90% of MS
+- -- emerging blood-based biomarker for disease activity and treatment response
+- -- established CSF diagnostic marker present in 90% of MS
 - [[biomarkers]] -- systematic categorization of predictive, diagnostic, activity, and treatment-response markers
-- [[MRI]] -- brain and spinal cord imaging as primary clinical biomarker tool
-- [[natalizumab]] -- JCV antibody titers for PML risk stratification
+- -- brain and spinal cord imaging as primary clinical biomarker tool
+- -- JCV antibody titers for PML risk stratification

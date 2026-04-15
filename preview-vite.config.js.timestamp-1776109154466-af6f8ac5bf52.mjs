@@ -1,0 +1,18 @@
+// preview-vite.config.js
+import { defineConfig } from "file:///sessions/amazing-admiring-hamilton/mnt/Raw/node_modules/vite/dist/node/index.js";
+import react from "file:///sessions/amazing-admiring-hamilton/mnt/Raw/node_modules/@vitejs/plugin-react/dist/index.js";
+var preview_vite_config_default = defineConfig({
+  plugins: [react()],
+  build: {
+    target: "esnext",
+    outDir: "dist-preview",
+    rollupOptions: {
+      input: "preview-explorer.html"
+    }
+  },
+  server: { port: 5174, host: true }
+});
+export {
+  preview_vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsicHJldmlldy12aXRlLmNvbmZpZy5qcyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiY29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2Rpcm5hbWUgPSBcIi9zZXNzaW9ucy9hbWF6aW5nLWFkbWlyaW5nLWhhbWlsdG9uL21udC9SYXdcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIi9zZXNzaW9ucy9hbWF6aW5nLWFkbWlyaW5nLWhhbWlsdG9uL21udC9SYXcvcHJldmlldy12aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vc2Vzc2lvbnMvYW1hemluZy1hZG1pcmluZy1oYW1pbHRvbi9tbnQvUmF3L3ByZXZpZXctdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJztcbmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCc7XG5cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG4gIHBsdWdpbnM6IFtyZWFjdCgpXSxcbiAgYnVpbGQ6IHtcbiAgICB0YXJnZXQ6ICdlc25leHQnLFxuICAgIG91dERpcjogJ2Rpc3QtcHJldmlldycsXG4gICAgcm9sbHVwT3B0aW9uczoge1xuICAgICAgaW5wdXQ6ICdwcmV2aWV3LWV4cGxvcmVyLmh0bWwnXG4gICAgfVxuICB9LFxuICBzZXJ2ZXI6IHsgcG9ydDogNTE3NCwgaG9zdDogdHJ1ZSB9LFxufSk7XG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQW1VLFNBQVMsb0JBQW9CO0FBQ2hXLE9BQU8sV0FBVztBQUVsQixJQUFPLDhCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTLENBQUMsTUFBTSxDQUFDO0FBQUEsRUFDakIsT0FBTztBQUFBLElBQ0wsUUFBUTtBQUFBLElBQ1IsUUFBUTtBQUFBLElBQ1IsZUFBZTtBQUFBLE1BQ2IsT0FBTztBQUFBLElBQ1Q7QUFBQSxFQUNGO0FBQUEsRUFDQSxRQUFRLEVBQUUsTUFBTSxNQUFNLE1BQU0sS0FBSztBQUNuQyxDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=

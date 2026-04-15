@@ -57,7 +57,6 @@ Despite its commensal reputation, *Prevotella* has pathobiont potential in speci
 - **Branched-chain amino acids (BCAAs)** -- *P. copri* possesses biosynthetic capacity for BCAAs, which may link to insulin resistance in some metabolic contexts.
 - **Bile acid transformation** -- participates in primary-to-secondary bile acid conversion via bile salt hydrolase activity.
 
-
 ## Key Sources
 
 - [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]]

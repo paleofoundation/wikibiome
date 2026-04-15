@@ -10,6 +10,9 @@ year: 2021
 doi: "10.3389/fcell.2021.788596"
 tags: [metallomics, transcriptomics, wound-healing, calcium, iron, copper, zinc, magnesium, manganese, cobalt, aluminum, TNF, keratinocyte-differentiation, skin, tissue-repair]
 platform: wikibiome
+karen_brain_primitives: [1]
+metals_discussed: ["aluminum", "cobalt", "copper", "iron", "magnesium", "manganese", "zinc"]
+taxa_discussed: []
 ---
 
 # Combined Metallomics/Transcriptomics Profiling Reveals a Major Role for Metals in Wound Repair
@@ -79,7 +82,7 @@ This paper fundamentally reframes metals from passive bystanders to active orche
 
 ## Connections
 
-- [[calcium]] -- Central role in wound healing; peak at D3-D7; drives keratinocyte differentiation via TNF
+- -- Central role in wound healing; peak at D3-D7; drives keratinocyte differentiation via TNF
 - [[iron]] -- Elevated at D7-D14; linked to oxidoreductase activity and proliferation/remodeling
 - [[copper]] -- Peak at D7 during proliferation; role in angiogenesis and free radical removal
 - [[zinc]] -- No significant concentration change despite massive zinc-gene transcriptional response; paradox of stable Zn levels with high Zn-gene activity

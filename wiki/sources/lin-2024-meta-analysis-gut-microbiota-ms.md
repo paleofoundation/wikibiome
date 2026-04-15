@@ -33,7 +33,7 @@ platform: wikibiome
 ## Connections
 
 - Provides the definitive cross-study validation of MS-microbiome findings from [[jangi-2016-gut-microbiome-alterations-ms]], [[miyake-2015-dysbiosis-ms-clostridia-depletion]], and other individual studies
-- The network disruption finding (lost *Bacteroides-Prevotella* correlation) represents a novel ecological dimension of [[gut-dysbiosis]] beyond simple abundance changes
-- 64.7% (11/17) of genera consistently differing between MS and controls belonged to [[Clostridia]] class, reinforcing the centrality of this taxon group
-- The importance of controlling for study effects has methodological implications for interpreting all MS microbiome studies and for designing future [[meta-analysis]] efforts
+- The network disruption finding (lost *Bacteroides-Prevotella* correlation) represents a novel ecological dimension of beyond simple abundance changes
+- 64.7% (11/17) of genera consistently differing between MS and controls belonged to class, reinforcing the centrality of this taxon group
+- The importance of controlling for study effects has methodological implications for interpreting all MS microbiome studies and for designing future efforts
 - Connects to mediation analysis in [[mirza-2024-mediterranean-diet-pediatric-ms-microbiota]] which uses some of the same collaborating teams

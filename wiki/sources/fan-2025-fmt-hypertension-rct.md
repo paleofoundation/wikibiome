@@ -28,10 +28,10 @@ platform: wikibiome
 - **Population**: 124 patients (mean age 43, 73.4% men) with stage 1 [[hypertension]] from 7 centers in China
 - **Intervention**: FMT (n=63) or placebo (n=61) capsules given orally at 3 visits
 - **Primary outcome**: Change in office SBP from baseline to day 30; result was -6.28 mmHg (FMT) vs -5.77 mmHg (placebo), p=0.62 (not significant)
-- **Microbial findings**:
-  - Decreased *Eggerthella lenta*, *Erysipelatoclostridium ramosum*, *Anaerotignum lactaris*, *Streptococcus vestibularis*
-  - Increased *Parabacteroides merdae*, *Prevotella copri*, *Bacteroides galacturonicus*, *Eubacterium* sp.
-  - Four differentially abundant phyla: Synergistetes, Bacteroidetes, Fusobacteria, Firmicutes
+
+ - Decreased *Eggerthella lenta*, *Erysipelatoclostridium ramosum*, *Anaerotignum lactaris*, *Streptococcus vestibularis*
+ - Increased *Parabacteroides merdae*, *Prevotella copri*, *Bacteroides galacturonicus*, *Eubacterium* sp.
+ - Four differentially abundant phyla: Synergistetes, Bacteroidetes, Fusobacteria, Firmicutes
 - **Safety**: 13 AEs in FMT arm (20.6%) vs 13 in placebo (14.8%), p=0.39; mostly mild (hyperlipidemia, hyperuricemia, diarrhea)
 
 ## Source Pages
@@ -41,5 +41,5 @@ pp. 1-8
 ## Connections
 
 - First clinical trial of oral FMT for [[hypertension]] in humans
-- Links to [[gut microbiome]] and [[blood pressure]] regulation
-- Relevant to [[amino acid]] metabolites and CVD pathophysiology
+- Links to [[gut microbiome]] and regulation
+- Relevant to metabolites and CVD pathophysiology

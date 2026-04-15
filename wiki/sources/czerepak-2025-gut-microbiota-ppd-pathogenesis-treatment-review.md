@@ -23,11 +23,11 @@ condition: "postpartum depression"
 # Methods & Findings
 
 - **Design**: Narrative review of current literature on gut microbiota and PPD pathogenesis
-- **Key mechanisms reviewed**:
-  - Neuroendocrine disruption via HPA axis
-  - [[inflammation]] through cytokine dysregulation
-  - Neurotransmitter synthesis (serotonin, GABA, dopamine) by gut microbes
-  - Intestinal barrier integrity and bacterial translocation
+
+ - Neuroendocrine disruption via HPA axis
+ - [[inflammation]] through cytokine dysregulation
+ - Neurotransmitter synthesis (serotonin, GABA, dopamine) by gut microbes
+ - Intestinal barrier integrity and bacterial translocation
 
 # Connections
 

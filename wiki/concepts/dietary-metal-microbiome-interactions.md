@@ -75,7 +75,6 @@ Metals do not arrive alone in food. They co-occur with other dietary xenobiotics
 
 The metallomic lens on diet reveals that **food quality is a microbial ecology question, not just a nutrition question**. The metals in food determine which microbes can thrive, and the microbes present determine how much metal reaches the host. Dietary interventions that ignore this bidirectional relationship are operating with an incomplete model.
 
-
 ## Key Sources
 
 - [[richardson-2018-toxic-metals-rat-gut-microbiota]]

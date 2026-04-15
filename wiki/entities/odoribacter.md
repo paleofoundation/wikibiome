@@ -57,7 +57,6 @@ pathogenic_potential: commensal
 
 The contrasting associations of *Odoribacter* -- protective in some inflammatory contexts but a risk factor for CVD and enriched in certain cancers -- highlight the **context-dependent nature of commensal bacteria**. Its effects likely depend on the host immune state, dietary substrate availability, and the surrounding microbial community composition.
 
-
 ## Key Sources
 
 - [[mansuri-2022-gut-microbiome-cardiovascular-events-systematic-review]]

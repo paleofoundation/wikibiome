@@ -147,7 +147,6 @@ ASD is the paradigmatic disease of **developmental metal vulnerability**:
 7. **Does nickel exposure contribute to ASD gut pathology?** Ni is elevated in some ASD hair studies but has not been systematically examined for its role in ASD-associated gut dysbiosis or metalloestrogen activity.
 8. **Can metal-driven gut dysbiosis be distinguished from other causes of ASD-associated GI disturbance?** Metal-specific microbiome signatures would strengthen the causal argument.
 
-
 ## Key Sources
 
 - [[chen-2022-living-microorganisms-detoxification-heavy-metals]]
@@ -162,11 +161,11 @@ ASD is the paradigmatic disease of **developmental metal vulnerability**:
 ## Connections
 
 - **Metals**: [[zinc]], [[lead]], [[mercury]], [[cadmium]], [[iron]], [[copper]], [[nickel]], [[arsenic]]
-- **Concepts**: [[mis-metallation]], [[gut-brain-axis]], [[nutritional-immunity|gut-barrier-integrity]], [[oxidative-stress|oxidative stress]], [[shank3]], [[synaptogenesis]], [[blood-brain-barrier]], [[metal-profiles]], [[developmental-metal-vulnerability]]
+- **Concepts**: [[mis-metallation]], [[gut-brain-axis]], [[nutritional-immunity|nutritional immunity]], [[oxidative-stress|oxidative stress]], [[blood-brain-barrier]], [[developmental-metal-vulnerability]]
 - **Analyses**: [[metal-disease-matrix]]
 - **Related diseases**: [[pcos]] (shared Zn depletion, toxic metal burden, oxidative stress), [[alzheimers-disease]] (shared gut-brain axis, metal-driven neuroinflammation), [[parkinsons-disease]] (shared gut-brain axis, Pb neurotoxicity)
 - **Pathogens**: Gut pathobionts enriched by metal-driven dysbiosis (Clostridium, Bacteroides)
-- **Interventions**: [[zinc-supplementation]], [[metal-chelation]], [[probiotics]], [[fmt]], [[butyrate-supplementation]]
+- **Interventions**: [[zinc-supplementation]], [[probiotics]]
 - [[prebiotics]] -- prebiotic fiber interventions explored for restoring butyrate production and reducing ASD gut symptoms
 - [[environmental-metal-exposure]] -- prenatal and early-life metal exposure as key ASD risk factor
 - [[heavy-metals]] -- Pb, Hg, Cd burden consistently elevated in ASD cohorts across multiple studies

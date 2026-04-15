@@ -11,6 +11,8 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [nickel, iron, cobalt]
 key_enzymes: [NiFe-hydrogenase, methyl-coenzyme-M-reductase, methyltransferase]
 platform: wikibiome
+seo_target: "Methanobrevibacter smithii gut microbiome obesity methane"
+wikipedia_differentiation: "Nickel-dependent hydrogenase activity as an ecological Achilles' heel, role in gut hydrogen disposal ecology, association with obesity and IBS-C through slowed transit, and disruption by nickel restriction — all absent from Wikipedia"
 ---
 
 # Methanobrevibacter smithii
@@ -130,16 +132,16 @@ When H2-producing taxa are depleted, *M. smithii* starves. This creates an inter
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[hydrogen]]** – Primary substrate; *M. smithii* is the major consumer in healthy gut
+- **** – Primary substrate; *M. smithii* is the major consumer in healthy gut
 - **[[short-chain-fatty-acids]]** – Indirectly; SCFA-producing bacteria supply H2
-- **[[methane]]** – Product; atmospheric methane and enteric emissions from ruminants also involve *M. smithii*-like methanogens
+- **** – Product; atmospheric methane and enteric emissions from ruminants also involve *M. smithii*-like methanogens
 - **[[nickel]]** – Absolute requirement; low dietary/bioavailable nickel suppresses *M. smithii*
 - **[[iron]]** – Co-required for cofactor maturation; elevated hepcidin suppresses *M. smithii*
 - **[[cobalt]]** – Required for Mcr maturation
 - **[[multiple-sclerosis]]** – Enriched in MS; associated with GI dysfunction and altered SCFA production
 - **[[obesity]]** – Consistently enriched in obese vs lean individuals
-- **[[constipation]]** – Methane slows transit; methanogen enrichment is a biomarker for slow-transit IBS
-- **[[irritable-bowel-syndrome]]** – Enriched in IBS-C; methane breath test is diagnostic
+- **** – Methane slows transit; methanogen enrichment is a biomarker for slow-transit IBS
+- **** – Enriched in IBS-C; methane breath test is diagnostic
 - **[[cardiovascular-disease]]** – Indirect via altered bile acid reabsorption and lipid metabolism
 - **[[dysbiosis]]** – Enrichment signals altered hydrogen cycling and ecological dysfunction
 

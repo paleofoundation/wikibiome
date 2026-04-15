@@ -15,7 +15,7 @@ platform: wikibiome
 # Key Claims
 
 - Plant-associated bacteria from 62 genera (424 species/strains across 50 plant species) exhibit significant heavy metal tolerance that can be leveraged for bioremediation and phytoremediation
-- [[Cadmium Toxicity|Cadmium]] and [[Lead Toxicity|lead]] were the most toxic metals (lowest MIC values), while [[Arsenic Toxicity|arsenic]] resistance was the most widespread and significantly higher
+- [[Cadmium Toxicity|Cadmium]] and [[Lead Toxicity|lead]] were the most toxic metals (lowest MIC values), while [[arsenic]] resistance was the most widespread and significantly higher
 - Klebsiella and Enterobacter exhibited the highest tolerance to cadmium and lead, supported by molecular and biochemical mechanisms including cad and ars resistance operons
 - Metal resistance genes (ars operons for arsenic, cad operons for cadmium) are prevalent among plant growth-promoting bacteria and can be identified through genomic approaches
 
@@ -33,6 +33,6 @@ platform: wikibiome
 
 - Bacterial metal resistance mechanisms (ars, cad operons) parallel those found in human [[gut-metal-microbiome|gut microbiota]] as described in [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]]
 - Informs understanding of how environmental metal-tolerant bacteria may enter the human microbiome through food chain contamination
-- Connects to [[Arsenic Toxicity]], [[Cadmium Toxicity]], and [[Lead Toxicity]] entity pages
+- Connects to [[arsenic]], [[Cadmium Toxicity]], and [[Lead Toxicity]] entity pages
 - Bioremediation strategies relevant to reducing [[Environmental Exposures]] to heavy metals
 - Plant growth-promoting traits overlap with [[probiotics]] mechanisms (siderophores, organic acid production)

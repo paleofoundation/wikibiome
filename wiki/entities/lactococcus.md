@@ -58,7 +58,6 @@ pathogenic_potential: commensal
 - Its inability to colonize the gut permanently is actually advantageous for controlled, transient therapeutic delivery.
 - Investigational applications include mucosal vaccine delivery and local treatment of [[inflammatory-bowel-disease]].
 
-
 ## Key Sources
 
 - [[fujimoto-2022-human-gut-virome-metabolic-autoimmune]]
@@ -70,5 +69,5 @@ pathogenic_potential: commensal
 - [[zinc]] -- Zn-dependent proteolytic system essential for dairy fermentation
 - [[nutritional-immunity]] -- Mn-centered metabolism may evade Fe-restriction strategies
 - [[inflammatory-bowel-disease]] -- engineered L. lactis as mucosal delivery platform
-- [[fermented-foods]] -- foundational organism in dairy fermentation
+- -- foundational organism in dairy fermentation
 - [[bifidobacterium]] -- co-occurring beneficial taxon in probiotic formulations

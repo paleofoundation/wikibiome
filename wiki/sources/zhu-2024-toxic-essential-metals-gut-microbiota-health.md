@@ -11,6 +11,7 @@ tags: [type-1-diabetes, autoimmune, heavy-metals, trace-elements, iron, zinc, se
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: expert-opinion
 ---
 
 # Key Claims

@@ -24,7 +24,7 @@ pathogenic_potential: commensal
 ## Oxalate Degradation and Kidney Stone Prevention
 
 - *O. formigenes* uses oxalate as its sole carbon and energy source, converting it to formate and CO2 via oxalyl-CoA decarboxylase.
-- By degrading dietary oxalate in the gut lumen, it reduces intestinal oxalate absorption, lowering urinary oxalate excretion and preventing [[mis-metallation|calcium]] oxalate supersaturation.
+- By degrading dietary oxalate in the gut lumen, it reduces intestinal oxalate absorption, lowering urinary oxalate excretion and preventing [[mis-metallation]] oxalate supersaturation.
 - Absence of *O. formigenes* is associated with hyperoxaluria and increased risk of recurrent calcium oxalate kidney stones.
 - Relevant to [[chronic-kidney-disease]] progression, as oxalate nephropathy contributes to renal damage.
 
@@ -50,9 +50,8 @@ In the systematic meta-analysis of opposing microbiome signatures, *Oxalobacter*
 
 ## Metal Interactions
 
-- Oxalate produced by gut bacteria (including partial degradation intermediates) can chelate divalent metals including [[mis-metallation|calcium]], [[iron]], and [[zinc]], influencing their bioavailability.
+- Oxalate produced by gut bacteria (including partial degradation intermediates) can chelate divalent metals including [[mis-metallation]], [[iron]], and [[zinc]], influencing their bioavailability.
 - *O. formigenes* oxalate metabolism intersects with the [[gut-metal-microbiome]] axis by modulating the pool of free oxalate available to bind metals in the gut lumen.
-
 
 ## Key Sources
 
@@ -62,7 +61,7 @@ In the systematic meta-analysis of opposing microbiome signatures, *Oxalobacter*
 
 - [[chronic-kidney-disease]] -- oxalate degradation prevents calcium oxalate nephropathy
 - [[cardiovascular-disease]] -- MR evidence links Oxalobacter to CAD risk via blood pressure
-- [[mis-metallation|calcium]] -- oxalate-calcium interactions central to kidney stone pathogenesis
+- [[mis-metallation]] -- oxalate-calcium interactions central to kidney stone pathogenesis
 - [[dysbiosis]] -- antibiotic-induced loss of Oxalobacter has lasting metabolic consequences
 - [[probiotics]] -- O. formigenes supplementation investigated for kidney stone prevention
 - [[short-chain-fatty-acids]] -- formate production from oxalate contributes to gut metabolite pool

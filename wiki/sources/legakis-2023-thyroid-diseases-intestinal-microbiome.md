@@ -27,11 +27,11 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Study type**: Narrative review (6 pages)
-- **Key microbiota-thyroid connections**:
-  - Bacterial strains possess glucuronidase and sulfatase activities enabling thyroid hormone metabolism in the gut
-  - Certain bacteria bind thyroid hormones directly, suggesting the intestine is a reservoir for thyroid hormones
-  - NF-kB activation detected through NLRP3 inflammasome pathway; NF-kB-p65 expression increased in HT
-  - Lactobacillus and Streptococcus activate NF-kappa B and STAT signaling pathways in human macrophages
+
+ - Bacterial strains possess glucuronidase and sulfatase activities enabling thyroid hormone metabolism in the gut
+ - Certain bacteria bind thyroid hormones directly, suggesting the intestine is a reservoir for thyroid hormones
+ - NF-kB activation detected through NLRP3 inflammasome pathway; NF-kB-p65 expression increased in HT
+ - Lactobacillus and Streptococcus activate NF-kappa B and STAT signaling pathways in human macrophages
 - **Thyroid nodules and microbiota**: In individuals with thyroid nodules, butyric acid-producing bacteria decreased; butyric acid can increase [[iodine]] uptake by follicular thyroid cells
 - **Thyroid cancer**: Patients with thyroid cancer showed increased Clostridiaceae, Neisseria, and Streptococcus with decreased Lactobacillus; Clostridiaceae and Streptococcus have known carcinogenic effects
 - **Clinical implications**: Gut microbiota modulation through [[probiotics]] may represent a therapeutic approach for autoimmune thyroid diseases

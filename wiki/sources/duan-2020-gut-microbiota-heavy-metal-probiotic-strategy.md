@@ -1,15 +1,40 @@
 ---
-
 title: "Gut Microbiota: A Target for Heavy Metal Toxicity and a Probiotic Protective Strategy"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Hui Duan, Leilei Yu, Fengwei Tian, Qixiao Zhai, Liuping Fan, Wei Chen]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Hui Duan
+  - Leilei Yu
+  - Fengwei Tian
+  - Qixiao Zhai
+  - Liuping Fan
+  - Wei Chen
 journal: Science of the Total Environment
 year: 2020
-tags: [heavy-metals, gut-microbiota, probiotics, dysbiosis, arsenic, cadmium, lead, mercury, bidirectional-interaction, SCFAs, bile-acids, Lactobacillus, review]
-doi: "10.1016/j.scitotenv.2020.140429"
+tags:
+  - heavy-metals
+  - gut-microbiota
+  - probiotics
+  - dysbiosis
+  - arsenic
+  - cadmium
+  - lead
+  - mercury
+  - bidirectional-interaction
+  - SCFAs
+  - bile-acids
+  - Lactobacillus
+  - review
+doi: 10.1016/j.scitotenv.2020.140429
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Frames the bidirectional relationship between metals and dysbiosis: metals drive dysbiosis, and dysbiosis impairs metal detoxification—a positive feedback loop central to WikiBiome's pathophysiology model. Critical for understanding why probiotic intervention (Lactobacillus, Bifidobacterium) can interrupt metal-driven disease across autism, allergies, and metabolic conditions."
 ---
 
 # Key Claims

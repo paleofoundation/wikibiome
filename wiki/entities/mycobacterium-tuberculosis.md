@@ -42,8 +42,8 @@ The causative agent of **tuberculosis (TB)**, the leading infectious disease kil
 ### Mycobactins and Carboxymycobactins
 
 - *M. tuberculosis* produces two structurally related siderophores [[patil-2021-infection-metallomics-critical-care]]:
-  - **Mycobactins**: hydrophobic, cell-associated. Retain iron at the cell envelope for membrane transport.
-  - **Carboxymycobactins**: hydrophilic, secreted into the extracellular environment to scavenge iron from host proteins.
+ - **Mycobactins**: hydrophobic, cell-associated. Retain iron at the cell envelope for membrane transport.
+ - **Carboxymycobactins**: hydrophilic, secreted into the extracellular environment to scavenge iron from host proteins.
 - **Species-specific side chain variations** in mycobactins enable diagnostic identification -- each mycobacterial species produces characteristic mycobactin structures.
 - Iron acquisition via mycobactins is essential for virulence; mutants lacking mycobactin biosynthesis are severely attenuated in animal models.
 
@@ -72,7 +72,6 @@ The causative agent of **tuberculosis (TB)**, the leading infectious disease kil
 - **Drug-resistant TB**: MDR-TB and XDR-TB are growing crises; novel drug targets including Ni-dependent enzymes are urgently needed.
 - **HIV co-infection**: TB is the leading killer of people living with HIV. Altered metal homeostasis in HIV infection (reduced zinc, altered iron) may favor TB reactivation.
 - **Mycobactin-based diagnostics**: siderophore detection in sputum or urine could provide rapid, non-culture-based TB diagnosis [[patil-2021-infection-metallomics-critical-care]].
-
 
 ## Key Sources
 

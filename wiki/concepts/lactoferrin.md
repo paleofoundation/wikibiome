@@ -56,7 +56,6 @@ The Roberts et al. (2019) study provides the most detailed characterization of l
 - **Neonatal protection**: Breast milk lactoferrin is a major factor in neonatal gut immune defense; its absence in formula may contribute to increased infection risk and NEC.
 - **Heavy metal interaction**: Heavy metals that disrupt iron homeostasis (Cd increases iron absorption via DMT1 upregulation in iron-depleted women) may indirectly impair lactoferrin-mediated defense [[feng-2025-heavy-metals-bacterial-vaginosis]].
 
-
 ## Key Sources
 
 - [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]

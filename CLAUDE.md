@@ -98,16 +98,18 @@ Thresholds:
 - **moderate** = 2–4 studies, broadly consistent
 - **preliminary** = 1 study, or multiple conflicting studies
 
-### 2d. Landmark Study Criteria
+### 2d. Keystone Study Criteria
 
-Do NOT label any study "landmark" unless it meets at least 3 of these 5 criteria:
-1. High citation count relative to field and age (top 5% in its subfield)
-2. Changed clinical guidelines or diagnostic criteria
-3. Opened a research line that 10+ subsequent papers explicitly built on
-4. Described as "foundational," "seminal," or "landmark" in at least 2 independent reviews
-5. Introduced a novel method or framework now in widespread use
+A "Keystone Study" is research that is structurally essential to WikiBiome's knowledge graph — a study without which critical connections between metals, microbes, and disease could not be drawn. Like a keystone species in ecology, it may not be the most cited or most visible, but the system depends on it.
 
-If criteria aren't verifiable, use neutral alternatives: "influential," "widely cited," "early," or just let the evidence speak. Never use "landmark" as a compliment — it's a classification that must be defensible.
+Do NOT label any study "keystone" unless it meets at least 3 of these 5 criteria:
+1. **Cross-Domain Bridge** — Connects fields that do not typically intersect (metallomics ↔ microbiome, environmental exposure ↔ disease mechanism, microbial ecology ↔ clinical pathology)
+2. **Signature Layer Dependency** — Removing this study would weaken or collapse one or more layers of a WikiBiome disease signature
+3. **Cross-Condition Pattern Enabler** — Provides evidence explaining a pattern observed across multiple disease signatures (shared metal dependency, recurring taxon enrichment, conserved ecological mechanism)
+4. **Mechanistic Linchpin** — Explains *why* an observed association exists, not merely *that* it exists; transforms correlation into actionable understanding
+5. **Paradigm Reframe** — Fundamentally changes how WikiBiome interprets a disease, organism, metal, or ecological process
+
+If criteria aren't met, use neutral alternatives: "influential," "widely cited," "early," or just let the evidence speak. Never use "keystone" loosely — it is a structural classification, not a compliment. Citation count and mainstream recognition are explicitly NOT criteria; this designation measures connective importance to WikiBiome's knowledge graph.
 
 ### 2e. Supersession Protocol
 
@@ -172,6 +174,10 @@ karen_brain_primitives: [1, 4, 5]               # which of the 9 primitives this
 metals_discussed: [nickel, iron, cadmium]        # for cross-condition pattern detection
 taxa_discussed: [escherichia-coli, candida-albicans]  # for cross-condition pattern detection
 key_findings: ["one-line finding 1", "one-line finding 2"]  # max 3, for quick scanning
+keystone: true | false                           # only true if ≥3 of the 5 Keystone criteria (Section 2d) are verified
+keystone_criteria_met: [1, 3, 4]                 # which of the 5 criteria are satisfied; omit if keystone is false
+keystone_outreach_date: YYYY-MM-DD               # date outreach email was sent to corresponding author
+keystone_outreach_status: sent | responded | corrections-applied | declined  # track author engagement
 ---
 ```
 

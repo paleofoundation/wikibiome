@@ -29,11 +29,11 @@ platform: wikibiome
 - **Participants**: 62 euthyroid HT patients and 58 age/sex-matched healthy controls (Heraklion & Athens, Greece; Feb 2021 - July 2023)
 - **Metabolomic profiling**: GC-MS quantification of 73 metabolites in plasma and urine
 - **Key metabolite differences** (Table 2):
-  - **TCA cycle**: Citric acid (p=0.027), aconitic acid (p=0.121), isocitric acid (p=0.03), 2-ketoglutaric acid (p=0.009), succinic acid (p=0.036) all elevated in HT
-  - **Microbiome metabolism**: 4-Hydroxyphenylacetic acid (p=0.071), suggesting altered gut microbial tyrosine metabolism
-  - **Fatty acids**: Ethylmalonic acid (p=0.061), suggesting altered beta-oxidation
-  - **Micronutrient bioavailability**: Methylmalonic acid elevated (p=0.001) indicating vitamin B12 functional deficiency; 4-hydroxyphenylpyruvic acid (p=0.001) suggesting vitamin C/tyrosine pathway disruption
-  - **Fumaric/succinic ratio** significantly altered (p=0.009, fold change >1.5)
+ - **TCA cycle**: Citric acid (p=0.027), aconitic acid (p=0.121), isocitric acid (p=0.03), 2-ketoglutaric acid (p=0.009), succinic acid (p=0.036) all elevated in HT
+ - **Microbiome metabolism**: 4-Hydroxyphenylacetic acid (p=0.071), suggesting altered gut microbial tyrosine metabolism
+ - **Fatty acids**: Ethylmalonic acid (p=0.061), suggesting altered beta-oxidation
+ - **Micronutrient bioavailability**: Methylmalonic acid elevated (p=0.001) indicating vitamin B12 functional deficiency; 4-hydroxyphenylpyruvic acid (p=0.001) suggesting vitamin C/tyrosine pathway disruption
+ - **Fumaric/succinic ratio** significantly altered (p=0.009, fold change >1.5)
 - **Network analysis**: In HT patients, palmitic acid and alpha-linolenic acid showed the highest betweenness and degree values, indicating central metabolic hub roles
 - **Clinical implications**: Micronutrients including [[selenium]], [[iron]], [[zinc]], and [[copper]] are often deficient in HT due to dysbiosis-mediated malabsorption
 

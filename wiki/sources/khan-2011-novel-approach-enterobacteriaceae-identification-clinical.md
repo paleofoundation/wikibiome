@@ -44,10 +44,10 @@ The family Enterobacteriaceae is divided into two major groups based on lactose 
 
 **2. Lactose Non-fermenters** -- subdivided by phenylalanine deamination (PPA test):
 - PPA positive: Proteus species, Providencia species, Morganella morganii (Tribe Proteae)
-  - Further divided by H2S production and mannitol fermentation
-  - P. mirabilis and P. penneri are indole negative; P. vulgaris and M. morganii are indole positive
+ - Further divided by H2S production and mannitol fermentation
+ - P. mirabilis and P. penneri are indole negative; P. vulgaris and M. morganii are indole positive
 - PPA negative: Citrobacter species, Edwardsiella tarda, E. coli (inactive), Hafnia, Salmonella, Shigella, Serratia marcescens
-  - Differentiated by indole, citrate, urease, KI, and motility tests
+ - Differentiated by indole, citrate, urease, KI, and motility tests
 
 ### Key Diagnostic Tests Used
 - Catalase, oxidase (initial screening)
@@ -67,10 +67,10 @@ The family Enterobacteriaceae is divided into two major groups based on lactose 
 ## Connections
 
 - [[Enterobacteriaceae]] identification is fundamental to understanding [[gut-microbiome]] composition and pathogen detection
-- Metal-resistant species within this family (e.g., [[Klebsiella]], [[Escherichia-coli]], Citrobacter) are relevant to [[antibiotic-metal-resistance]] co-selection as described in [[Baker-Austin et al. 2006|baker-austin-2006-co-selection-antibiotic-metal-resistance]]
-- Proteus and Morganella species produce H2S, relevant to [[hydrogen-sulfide]] metabolism in the gut
-- Salmonella and Shigella identification relevant to understanding [[enteric-pathogens]] and their interactions with dietary metals
+- Metal-resistant species within this family (e.g., [[Escherichia-coli]], Citrobacter) are relevant to co-selection as described in 
+- Proteus and Morganella species produce H2S, relevant to metabolism in the gut
+- Salmonella and Shigella identification relevant to understanding and their interactions with dietary metals
 - The cost-effective diagnostic approach is relevant to resource-limited settings where [[heavy-metals]] environmental contamination may be highest
-- Species like Serratia and Citrobacter that are emerging as significant nosocomial pathogens connect to [[hospital-acquired-infections]]
-- Klebsiella pneumoniae identification connects to [[Srivastava et al. 2016|srivastava-2016]] and metal resistance mechanisms
+- Species like Serratia and Citrobacter that are emerging as significant nosocomial pathogens connect to 
+- Klebsiella pneumoniae identification connects to and metal resistance mechanisms
 - E. coli identification methods relevant to studies of metal-microbe interactions in the [[gut-microbiome]]

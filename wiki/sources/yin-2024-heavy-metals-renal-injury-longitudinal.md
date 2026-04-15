@@ -10,6 +10,7 @@ year: 2024
 tags: [chromium, cadmium, lead, manganese, kidney-disease, renal-biomarkers, longitudinal, BKMR, metal-interactions, China]
 doi: "10.23749/mdl.v114i3.14422"
 platform: wikibiome
+evidence_level: prospective-cohort
 ---
 
 # Key Claims

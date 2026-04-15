@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- High-fat diet (HFD) significantly increases [[heavy metals]] accumulation in liver and kidney and exacerbates organ damage compared to normal diet (ND) in mice exposed to [[Arsenic Toxicity|arsenic]], [[Cadmium Toxicity|cadmium]], and [[Lead Toxicity|lead]]
+- High-fat diet (HFD) significantly increases [[heavy metals]] accumulation in liver and kidney and exacerbates organ damage compared to normal diet (ND) in mice exposed to [[arsenic]], [[Cadmium Toxicity|cadmium]], and [[Lead Toxicity|lead]]
 - HFD-fed mice excreted significantly less heavy metals through feces, suggesting the gut microbiota of HFD mice has reduced detoxification/excretion capacity
 - Gut microbiota of ND and HFD mice respond differently to each metal: As increased Bacteroides, Lactobacillus, Butyricimonas, and Dorea in ND mice; Cd increased Faecoccocus and Lactobacillus; Pb increased Desulfovibrio, Plasmodium, and Roseburia
 - Bivariate association analysis confirmed positive correlations between fecal heavy metal content and total fecal microbiota richness, and abundance of some heavy metal-enriched microbes
@@ -27,10 +27,10 @@ platform: wikibiome
 - **Liver/kidney damage**: HFD + metal exposure significantly increased ALT, AST (liver) and TPU, UCrea, UUA (kidney) vs. ND + metal (Figures 1-2)
 - **Metal accumulation**: Significantly more As, Cd, Pb in liver and kidney of HFD vs. ND mice (Figure 3); fecal excretion significantly lower in HFD mice
 - **Microbiota analysis**: PCA showed significant separation between ND and HFD microbiota under metal exposure (Figure 4A-C); greater reduction in OTU number and Chao1 diversity in HFD mice
-- **Key taxa changes (Figure 5)**:
-  - As exposure: Bacteroides (p<0.01), Butyricimonas (p<0.05), Dorea (p<0.01) increased in ND mice only
-  - Cd exposure: Lactobacillus (p<0.01), Coprococcus (p<0.05) in ND mice
-  - Pb exposure: Desulfovibrio (p<0.001), Prevotella (p<0.05), Roseburia (p<0.05) in ND mice
+
+ - As exposure: Bacteroides (p<0.01), Butyricimonas (p<0.05), Dorea (p<0.01) increased in ND mice only
+ - Cd exposure: Lactobacillus (p<0.01), Coprococcus (p<0.05) in ND mice
+ - Pb exposure: Desulfovibrio (p<0.001), Prevotella (p<0.05), Roseburia (p<0.05) in ND mice
 - **Correlation with [[short-chain fatty acids|SCFAs]]**: Lactobacillus abundance was significantly increased and correlated with metal detoxification capacity in ND but not HFD mice
 
 # Connections

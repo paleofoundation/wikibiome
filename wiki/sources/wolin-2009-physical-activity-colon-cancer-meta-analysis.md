@@ -10,6 +10,9 @@ year: 2009
 tags: [colon-cancer, physical-activity, meta-analysis, cancer-prevention, risk-reduction, exercise, colorectal-cancer]
 doi: "10.1038/sj.bjc.6604917"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Physical Activity and Colon Cancer Prevention: A Meta-Analysis
@@ -32,8 +35,8 @@ platform: wikibiome
 
 ## Connections
 
-- Physical activity as a modifiable risk factor connects to [[microbiome-composition]] changes induced by exercise
-- Anti-inflammatory mechanisms of exercise relate to [[microbiome-and-inflammation]] in CRC prevention
-- Insulin and metabolic pathways connect to [[metabolic-pathways]] in CRC development
+- Physical activity as a modifiable risk factor connects to changes induced by exercise
+- Anti-inflammatory mechanisms of exercise relate to in CRC prevention
+- Insulin and metabolic pathways connect to in CRC development
 - Provides epidemiological context for understanding lifestyle factors that shape the CRC-associated [[gut-microbiome]]
 - [[colorectal-cancer]]

@@ -38,11 +38,11 @@ platform: wikibiome
 
 ## Connections
 
-- [[TMEV]] -- progressive MS model demonstrating causal role of gut microbiota in disease progression
+- -- progressive MS model demonstrating causal role of gut microbiota in disease progression
 - [[multiple-sclerosis]] -- gut microbiota manipulation as potential therapeutic strategy for progressive MS
-- [[antibiotics]] -- broad-spectrum ABX protective during pre-symptomatic phase but not sustainable
+- -- broad-spectrum ABX protective during pre-symptomatic phase but not sustainable
 - [[probiotics]] -- Vivomixx modifies but does not fully replace pathogenic recolonization
-- [[microglia]] -- morphological and functional reprogramming by microbiota state
-- [[Tregs]] -- CD39+ regulatory T cells promoted by ABX-induced microbiota depletion
+- -- morphological and functional reprogramming by microbiota state
+- -- CD39+ regulatory T cells promoted by ABX-induced microbiota depletion
 - [[short-chain-fatty-acids]] -- complex relationship; butyrate and acetate increase with recolonization yet motor function worsens
-- [[axon-preservation]] -- microbiota manipulation preserves axons in progressive MS model
+- -- microbiota manipulation preserves axons in progressive MS model

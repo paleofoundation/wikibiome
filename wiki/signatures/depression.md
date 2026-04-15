@@ -9,6 +9,8 @@ source_count: 19
 tags: [mental-health, neuropsychiatric, mood-disorder, major-depressive-disorder, gut-brain-axis, tryptophan-metabolism, serotonin, inflammation, metals]
 platform: both
 cureva_status: partial
+validated_interventions: [zinc-supplementation, mediterranean-diet, vitamin-d-supplementation, fmt-intervention]
+stops: [stop-iron-supplementation-depression]
 
 # Confidence per layer
 confidence:

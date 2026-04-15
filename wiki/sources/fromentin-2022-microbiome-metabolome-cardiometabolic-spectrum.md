@@ -1,14 +1,88 @@
 ---
-
-title: "Microbiome and metabolome features of the cardiometabolic disease spectrum"
+title: Microbiome and metabolome features of the cardiometabolic disease spectrum
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Sebastien Fromentin, Sofia K. Forslund, Kanta Chechi, Judith Aron-Wisnewsky, Rima Chakaroun, Trine Nielsen, Valentina Tremaroli, Boyang Ji, Edi Prifti, Antonis Myridakis, Julien Chilloux, Petros Andrikopoulos, Yong Fan, Michael T. Olanipekun, Renato Alves, Sofia Ahdesmaki, Noam Bar-Yael, Yeela Talmor-Barkan, Eugeni Belda, Robert Caesar, Luis Pedro Coelho, Gwen Falony, Soraya Fellahi, Pilar Galan, Nathalie Galleron, Gerard Helft, Lesley Hoyles, Richard Isnard, Emmanuelle Le Chatelier, Hanna Julienne, Lisa Olsson, Helle Krogh Pedersen, Nicolas Pons, Benoit Quinquis, Christine Rouault, Hugo Roume, Joe-Elie Salem, Thomas S. B. Schmidt, Sara Vieira-Silva, Peishun Li, Maria Zimmermann-Kogadeeva, Christian Lewinter, Nadja B. Sonderby, Tue H. Hansen, Dominique Gauguier, Jens Peter Gotal, Lars Kobel, Ran Kornowski, Henrik Vestergaard, Torben Hansen, Jean-Daniel Zucker, Serge Hercberg, Ivica Letunic, Fredrik Backhed, Jean-Michel Oppert, Jens Nielsen, Jeroen Raes, Peer Bork, Michael Stumvoll, Eran Segal, Karine Clement, Marc-Emmanuel Dumas, S. Dusko Ehrlich, Oluf Pedersen]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Sebastien Fromentin
+  - Sofia K. Forslund
+  - Kanta Chechi
+  - Judith Aron-Wisnewsky
+  - Rima Chakaroun
+  - Trine Nielsen
+  - Valentina Tremaroli
+  - Boyang Ji
+  - Edi Prifti
+  - Antonis Myridakis
+  - Julien Chilloux
+  - Petros Andrikopoulos
+  - Yong Fan
+  - Michael T. Olanipekun
+  - Renato Alves
+  - Sofia Ahdesmaki
+  - Noam Bar-Yael
+  - Yeela Talmor-Barkan
+  - Eugeni Belda
+  - Robert Caesar
+  - Luis Pedro Coelho
+  - Gwen Falony
+  - Soraya Fellahi
+  - Pilar Galan
+  - Nathalie Galleron
+  - Gerard Helft
+  - Lesley Hoyles
+  - Richard Isnard
+  - Emmanuelle Le Chatelier
+  - Hanna Julienne
+  - Lisa Olsson
+  - Helle Krogh Pedersen
+  - Nicolas Pons
+  - Benoit Quinquis
+  - Christine Rouault
+  - Hugo Roume
+  - Joe-Elie Salem
+  - Thomas S. B. Schmidt
+  - Sara Vieira-Silva
+  - Peishun Li
+  - Maria Zimmermann-Kogadeeva
+  - Christian Lewinter
+  - Nadja B. Sonderby
+  - Tue H. Hansen
+  - Dominique Gauguier
+  - Jens Peter Gotal
+  - Lars Kobel
+  - Ran Kornowski
+  - Henrik Vestergaard
+  - Torben Hansen
+  - Jean-Daniel Zucker
+  - Serge Hercberg
+  - Ivica Letunic
+  - Fredrik Backhed
+  - Jean-Michel Oppert
+  - Jens Nielsen
+  - Jeroen Raes
+  - Peer Bork
+  - Michael Stumvoll
+  - Eran Segal
+  - Karine Clement
+  - Marc-Emmanuel Dumas
+  - S. Dusko Ehrlich
+  - Oluf Pedersen
 journal: Nature Medicine
 year: 2022
 doi: 10.1038/s41591-022-01688-4
-tags: [cardiovascular-disease, CVD, ischemic-heart-disease, metabolomics, metagenomics, multi-omics, MetaCardis, heart-failure, dysmetabolism, biomarker, microbiome-signature]
+tags:
+  - cardiovascular-disease
+  - CVD
+  - ischemic-heart-disease
+  - metabolomics
+  - metagenomics
+  - multi-omics
+  - MetaCardis
+  - heart-failure
+  - dysmetabolism
+  - biomarker
+  - microbiome-signature
 platform: wikibiome
 ---
 

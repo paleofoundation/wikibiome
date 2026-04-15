@@ -34,8 +34,8 @@ platform: wikibiome
 ## Connections
 
 - Complements [[xian-2023-graves-disease-ibd-mendelian-randomization]] on GD comorbidity with other autoimmune diseases using similar MR methodology
-- PTPN22 shared susceptibility connects to broader [[Autoimmune Comorbidity]] patterns across thyroid and joint diseases
-- JAK/STAT pathway overlap relevant to [[JAK Inhibitors]] as shared therapeutic targets, paralleling IBD-GD findings
+- PTPN22 shared susceptibility connects to broader patterns across thyroid and joint diseases
+- JAK/STAT pathway overlap relevant to as shared therapeutic targets, paralleling IBD-GD findings
 - [[selenium]] deficiency as shared risk factor connects to [[brock-2015-selenium-thyroid-autoimmunity]] and role of [[oxidative-stress]] in both conditions
 - [[NF-kappa-B]] activation as shared inflammatory driver relevant to understanding systemic autoimmune [[inflammation]]
 - HLA-DRB1 shared susceptibility extends the pattern seen in [[xian-2023-graves-disease-ibd-mendelian-randomization]] with IBD

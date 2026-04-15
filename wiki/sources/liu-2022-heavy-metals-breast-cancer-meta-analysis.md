@@ -1,15 +1,43 @@
 ---
-
 title: "Relationships Between Biological Heavy Metals and Breast Cancer: A Systematic Review and Meta-Analysis"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Liu L, Chen J, Liu C, Liu Y, Luo J, Chen J, Fu Y, Xu Y, Wu H, Li X, Wang H]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Liu L
+  - Chen J
+  - Liu C
+  - Liu Y
+  - Luo J
+  - Chen J
+  - Fu Y
+  - Xu Y
+  - Wu H
+  - Li X
+  - Wang H
 journal: Frontiers in Nutrition
 year: 2022
-tags: [heavy-metals, breast-cancer, meta-analysis, systematic-review, copper, cadmium, zinc, manganese, lead, nickel, biomarkers]
-doi: "10.3389/fnut.2022.838869"
+tags:
+  - heavy-metals
+  - breast-cancer
+  - meta-analysis
+  - systematic-review
+  - copper
+  - cadmium
+  - zinc
+  - manganese
+  - lead
+  - nickel
+  - biomarkers
+doi: 10.3389/fnut.2022.838869
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Meta-analytic confirmation that copper, cadmium, and lead are elevated while zinc and manganese are depleted in breast cancer patients across 36 case-control studies. Anchors the metallomic layer of the breast cancer signature and supports the cross-condition pattern in which Cd-driven estrogen mimicry and Cu/Zn dyshomeostasis recur across estrogen-sensitive conditions.
 ---
 
 # Relationships Between Biological Heavy Metals and Breast Cancer: A Systematic Review and Meta-Analysis
@@ -44,5 +72,5 @@ platform: wikibiome
 - Contrasts with [[niehoff-2021-metals-breast-cancer-toenail]] which found no associations using toenail biomarkers (different biomarker type may explain discrepancy)
 - Nickel null findings consistent with [[niehoff-2021-metals-breast-cancer-toenail]] and partly with [[aquino-2012-cadmium-nickel-metalloestrogens]]
 - Zn and Mn depletion connects to [[oxidative-stress|oxidative stress]] through SOD enzyme disruption
-- [[DMT1]] transporter biology relevant to understanding metal uptake and [[metal-homeostasis]]
-- Regional variations connect to [[Environmental Exposure]] patterns and genetic polymorphisms in metal transporters
+- transporter biology relevant to understanding metal uptake and [[metal-homeostasis]]
+- Regional variations connect to patterns and genetic polymorphisms in metal transporters

@@ -37,7 +37,7 @@ platform: wikibiome
 
 - Complements [[xian-2023-graves-disease-ibd-mendelian-randomization]] by identifying specific microbial taxa causally linked to GD
 - Bifidobacterium paradox (protective for NMG, risk for GD) relevant to [[han-2022-berberine-methimazole-graves-microbiome]] findings on Bifidobacterium correlations with TRAb
-- SCFA-producing bacteria (Butyricimonas, Lachnospira) protective role connects to [[Short-Chain Fatty Acids]] and [[Gut Barrier Function]]
-- Desulfovibrio as GD risk factor connects to sulfate-reducing bacteria and [[Hydrogen Sulfide]] metabolism in gut
+- SCFA-producing bacteria (Butyricimonas, Lachnospira) protective role connects to [[Short-Chain Fatty Acids]] and 
+- Desulfovibrio as GD risk factor connects to sulfate-reducing bacteria and metabolism in gut
 - Genus-level MR findings complement observational microbiome studies in [[chen-2021-gut-microbiota-thyroid-graves]] and [[yang-2022-intestinal-flora-graves-methimazole]]
-- Oscillospira risk association relevant to [[Gut Dysbiosis]] patterns across autoimmune thyroid conditions
+- Oscillospira risk association relevant to patterns across autoimmune thyroid conditions

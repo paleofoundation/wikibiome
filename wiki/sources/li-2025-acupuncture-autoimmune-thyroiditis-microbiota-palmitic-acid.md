@@ -36,6 +36,6 @@ platform: wikibiome
 ## Connections
 
 - Prevotella modulation by acupuncture connects to [[liu-2022-gut-microbiota-diversity-hashimotos]] where Prevotella changes tracked with HT
-- Palmitic acid metabolism pathway novel finding linking [[Microbial Metabolites]] to thyroid autoimmunity treatment
+- Palmitic acid metabolism pathway novel finding linking to thyroid autoimmunity treatment
 - Selenium yeast as positive control connects to [[brock-2015-selenium-thyroid-autoimmunity]] selenium-thyroid research
-- Acupuncture as microbiome-modulating therapy relevant to [[Complementary Medicine]] approaches in AITD
+- Acupuncture as microbiome-modulating therapy relevant to approaches in AITD

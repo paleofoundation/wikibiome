@@ -10,6 +10,9 @@ year: 2016
 tags: [colon-cancer, 16S-rRNA, rectal-cancer, tissue-microbiome, Bacteroides-fragilis, Parcubacteria, enterotypes, Fusobacterium, ddPCR, colorectal-cancer]
 doi: "10.3389/fcimb.2016.00179"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Bacteroides", "Fusobacterium"]
 ---
 
 # Tissue-Associated Bacterial Alterations in Rectal Carcinoma Patients Revealed by 16S rRNA Community Profiling
@@ -35,5 +38,5 @@ platform: wikibiome
 - The finding of increased diversity in cancer tissue contrasts with typical stool-based findings and complements [[suga-2022-gut-microbiota-sided-crc-colectomy]] which found similar diversity increases in right-sided CRC
 - *B. fragilis* enrichment supports its known role as a CRC-associated pathogen discussed in [[shi-2023-appendectomy-microbiome-crc]]
 - Tissue vs. stool methodology differences are central to comparisons in [[osman-2018-16s-rrna-crc-protocols-workflows]]
-- Enterotype classification approach connects to broader [[microbiome-composition]] characterization efforts
+- Enterotype classification approach connects to broader characterization efforts
 - [[colorectal-cancer]]

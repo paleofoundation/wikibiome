@@ -10,6 +10,9 @@ year: 2018
 tags: [endometriosis, peritoneal-fluid, inflammatory-cytokines, infertility, IL-6, TNF-alpha, Proteobacteria, Firmicutes, bacterial-flora]
 doi: "10.26355/eurrev_201804_14826"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -25,11 +28,11 @@ platform: wikibiome
 - **Study design**: Observational study, Beijing/Shandong hospitals
 - **Participants**: 55 endometriosis patients with infertility and 30 non-endometriosis controls with infertility
 - **Methods**: Peritoneal fluid bacterial DNA extraction, Ion Torrent PGM sequencing, ELISA for cytokines
-- **Key results**:
-  - IL-6: 48.15 vs 18.14 pg/mL (p<0.05); TNF-alpha: 87.29 vs 37.06 pg/mL (p<0.05)
-  - Peritoneal fluid dominated by Proteobacteria, Actinobacteria, Bacteroidetes, Fusobacteria, Tenericutes
-  - No significant bacterial differences between groups
-  - ROC analysis: TNF-alpha AUC=0.903; IL-6 AUC=0.873; IL-10 AUC=0.685; IL-13 AUC=0.661
+
+ - IL-6: 48.15 vs 18.14 pg/mL (p<0.05); TNF-alpha: 87.29 vs 37.06 pg/mL (p<0.05)
+ - Peritoneal fluid dominated by Proteobacteria, Actinobacteria, Bacteroidetes, Fusobacteria, Tenericutes
+ - No significant bacterial differences between groups
+ - ROC analysis: TNF-alpha AUC=0.903; IL-6 AUC=0.873; IL-10 AUC=0.685; IL-13 AUC=0.661
 
 # Relevance to Wiki
 

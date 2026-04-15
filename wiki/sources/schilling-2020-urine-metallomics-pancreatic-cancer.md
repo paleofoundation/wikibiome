@@ -23,18 +23,18 @@ platform: wikibiome
 
 - **Study design**: Discovery study analyzing urine from 46 healthy controls and 21 PDAC patients
 - **Analytical methods**: ICP-MS for trace element analysis; MC-ICP-MS for Zn isotope analysis; microwave digestion for sample preparation
-- **Key concentration findings**:
-  - Urinary Mg significantly lower in PDAC (p < 0.0001) -- reflects disrupted cell proliferation and protein synthesis
-  - Urinary Ca significantly lower in PDAC (p < 0.0001)
-  - Urinary Zn significantly higher in PDAC (p = 0.02) -- correlates with disrupted Zn transporters (ZnT, SLC30A, ZIP3)
-  - Urinary Cu significantly higher in PDAC (p = 0.015) -- mirrors plasma/serum Cu elevation previously reported
+
+ - Urinary Mg significantly lower in PDAC (p < 0.0001) -- reflects disrupted cell proliferation and protein synthesis
+ - Urinary Ca significantly lower in PDAC (p < 0.0001)
+ - Urinary Zn significantly higher in PDAC (p = 0.02) -- correlates with disrupted Zn transporters (ZnT, SLC30A, ZIP3)
+ - Urinary Cu significantly higher in PDAC (p = 0.015) -- mirrors plasma/serum Cu elevation previously reported
 - **ROC analysis**: Individual AUCs -- Mg 0.783, Ca 0.796, Zn 0.685, Cu 0.671; combined Mg+Ca+Zn+Cu AUC = 0.99 (sensitivity 0.952, specificity 0.978)
-- **Zinc isotope findings**:
-  - PDAC urinary delta-66/64-Zn ranged from -0.33 to +0.15 per mille (median -0.15 per mille)
-  - Healthy controls ranged from -0.26 to +0.67 per mille (median +0.02 per mille)
-  - Significant difference (p = 0.002) between groups
-  - 75% of PDAC samples showed preferential excretion of isotopically light Zn, while healthy controls excreted predominantly isotopically heavy Zn
-  - Disrupted Zn isotope balance reflects metalloprotein dysregulation in PDAC
+
+ - PDAC urinary delta-66/64-Zn ranged from -0.33 to +0.15 per mille (median -0.15 per mille)
+ - Healthy controls ranged from -0.26 to +0.67 per mille (median +0.02 per mille)
+ - Significant difference (p = 0.002) between groups
+ - 75% of PDAC samples showed preferential excretion of isotopically light Zn, while healthy controls excreted predominantly isotopically heavy Zn
+ - Disrupted Zn isotope balance reflects metalloprotein dysregulation in PDAC
 - **Zn homeostasis disruption**: In healthy controls, strong correlation between urinary Zn concentration and Zn/Cu ratio (r2 = 0.66); this correlation is absent in PDAC (r2 = 0.0002), indicating fundamental disruption of Zn regulation
 
 # Connections

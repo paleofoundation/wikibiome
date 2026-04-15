@@ -85,7 +85,7 @@ virulence_enzymes: [bacterial-deiodinases, beta-glucuronidase, LPS-endotoxin]
 # Cureva pipeline status
 cureva_status: partial
 validated_interventions: [selenium-supplementation-200mcg, low-nickel-diet, probiotics-thyroid, aip-diet-hashimotos]
-stops: [stop-excess-iodine-supplementation-hashimotos]
+stops: [stop-iodine-supplementation-hashimotos]
 platform: cureva
 ---
 

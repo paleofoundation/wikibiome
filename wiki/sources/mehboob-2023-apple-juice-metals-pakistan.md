@@ -33,7 +33,7 @@ platform: wikibiome
 
 ## Connections
 
-- [[Nickel in food]] -- low-level nickel in apple juice products
-- [[Food contamination]] -- processing introduces chromium contamination
-- [[Heavy metals in beverages]] -- apple juice metal content comparison
+- -- low-level nickel in apple juice products
+- -- processing introduces chromium contamination
+- -- apple juice metal content comparison
 - [[rebelytics-2023-nickel-in-foods-summary]] -- apple juice nickel data (4.04 ug/250g serving mean)

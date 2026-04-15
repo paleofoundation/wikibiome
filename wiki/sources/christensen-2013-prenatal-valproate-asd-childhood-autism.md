@@ -40,7 +40,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- prenatal valproate exposure as established risk factor
-- [[valproic-acid]] -- population-level confirmation of ASD risk in humans
-- [[prenatal-risk-factors]] -- antiepileptic drug exposure during pregnancy
-- [[epilepsy]] -- valproate as treatment with ASD-related side effects
-- [[animal-models]] -- VPA rat model of ASD validated by human epidemiological data
+- -- population-level confirmation of ASD risk in humans
+- -- antiepileptic drug exposure during pregnancy
+- -- valproate as treatment with ASD-related side effects
+- -- VPA rat model of ASD validated by human epidemiological data

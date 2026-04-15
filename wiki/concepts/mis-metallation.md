@@ -153,7 +153,6 @@ The mis-metallation framework has practical implications:
 - **Iron status assessment** alongside toxic metal screening is essential because iron deficiency increases absorption of Cd, Pb, and Ni via shared transporters (DMT1)
 - **Cell wall as metal reservoir**: The bacterial cell envelope (peptidoglycan and teichoic acids) serves as a divalent cation repository that buffers against metal restriction, and mutations altering cell wall architecture can confer resistance to metal-chelating antimicrobials ([[paterson-2025-metal-chelator-resistance-cell-wall-saureus]])
 
-
 ## Key Sources
 
 - [[salnikov-2008-metal-carcinogenesis]]
@@ -189,8 +188,8 @@ The mis-metallation framework has practical implications:
 - [[metallomics]] -- multi-element profiling can detect the characteristic patterns of essential metal depletion paired with toxic metal elevation that indicate mis-metallation; combined metallomics-metabolomics in C. elegans demonstrates whole-organism cross-metal displacement
 - [[gut-metal-microbiome]] -- microbial metal competition in the gut is a form of inter-organism mis-metallation, where pathogen metal acquisition disrupts commensal metal access; the three-way competition between host, pathogens, and commensals for Fe, Zn, Mn, and Cu shapes microbiota composition
 - [[environmental-metal-exposure]] -- the dose and route of toxic metal entry determine which mis-metallation events are most relevant; Ni and Cu co-occur in freshwater environments and are synergistically toxic through Fe-S cluster disruption
-- [[iron-sulfur-clusters]] -- the primary intracellular target of copper and nickel toxicity; Fe-S cluster assembly (ISC) machinery is specifically required for survival under combined metal stress
+- -- the primary intracellular target of copper and nickel toxicity; Fe-S cluster assembly (ISC) machinery is specifically required for survival under combined metal stress
 - [[nutritional-immunity]] -- host metal restriction and intoxication as dual antimicrobial strategy; calprotectin targets Mn and Zn while macrophages mobilize Cu and Zn
-- [[antimicrobial-metals]] -- deliberate induction of mis-metallation as therapeutic strategy; copper surfaces, zinc ionophores, and halogenated phenazines all exploit metal dyshomeostasis
-- [[superoxide-dismutase]] -- SOD metalation with the correct cofactor (Mn, Fe, Cu/Zn) determines catalytic function; SODs bind cofactors irreversibly, making them irrecoverable metal sinks during limitation
-- [[riboswitch]] -- RNA-based metal sensors that prevent mis-metallation by controlling exporter expression before metal toxicity occurs; the yybP-ykoY family with >1000 members is the largest metal-sensing riboswitch family
+- -- deliberate induction of mis-metallation as therapeutic strategy; copper surfaces, zinc ionophores, and halogenated phenazines all exploit metal dyshomeostasis
+- -- SOD metalation with the correct cofactor (Mn, Fe, Cu/Zn) determines catalytic function; SODs bind cofactors irreversibly, making them irrecoverable metal sinks during limitation
+- -- RNA-based metal sensors that prevent mis-metallation by controlling exporter expression before metal toxicity occurs; the yybP-ykoY family with >1000 members is the largest metal-sensing riboswitch family

@@ -34,10 +34,10 @@ platform: wikibiome
 
 ## Connections
 
-- HQ >1 finding contrasts with [[Su et al 2020]] where all THQ/HI <1, highlighting [[aluminum]] as higher-risk contaminant than Cr/As/Cd/Pb in formula
-- Complements [[de Paiva et al 2020]] and [[de Paiva et al 2020 cereals]] Brazilian bioaccessibility data
-- Lower Al levels than [[Redgrove et al 2019]] prescription formula findings in the UK
-- Supports [[Pendergrass 2026]] call for age-specific regulatory limits and continuous monitoring
-- PTWI framework consistent with [[Gonzalez-Suarez et al 2022]] and [[Meli et al 2024]] approaches
-- First Arab-region data on this topic, filling geographic gap alongside Chinese [[Su et al 2020]], European [[Meli et al 2024]], and Brazilian [[de Paiva et al 2020]] studies
+- HQ >1 finding contrasts with where all THQ/HI <1, highlighting [[aluminum]] as higher-risk contaminant than Cr/As/Cd/Pb in formula
+- Complements and [[de Paiva et al 2020 cereals]] Brazilian bioaccessibility data
+- Lower Al levels than prescription formula findings in the UK
+- Supports call for age-specific regulatory limits and continuous monitoring
+- PTWI framework consistent with and approaches
+- First Arab-region data on this topic, filling geographic gap alongside Chinese , European , and Brazilian studies
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility for formula-fed infants

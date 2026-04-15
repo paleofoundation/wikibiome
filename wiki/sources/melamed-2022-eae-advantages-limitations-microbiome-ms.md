@@ -33,6 +33,6 @@ platform: wikibiome
 ## Connections
 
 - Provides critical appraisal framework for interpreting all preclinical microbiome data cited in reviews like [[ghezzi-2021-targeting-gut-treat-ms]] and [[hoffman-2023-dietary-strategies-eae-ms]]
-- The antibiotic timing paradox has direct implications for [[microbiome-modulating-drugs]] strategies
+- The antibiotic timing paradox has direct implications for strategies
 - *P. histicola* efficacy matching DMTs in EAE supports the [[probiotics]] approach tested clinically in [[tamtaji-2017-probiotic-gene-expression-ms]] and [[tankou-2018-probiotic-microbiome-ms]]
 - Translational limitations highlight why clinical studies like [[saresella-2017-diet-modulation-microbiome-ms-pilot]] and [[thirion-2023-gut-microbiota-ms-disease-activity]] are essential despite smaller sample sizes

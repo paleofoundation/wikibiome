@@ -102,10 +102,10 @@ A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut m
 
 - [[iron]] -- essential growth cofactor; elevated bioavailability in inflamed UC drives pathobiont expansion
 - [[hepcidin]] -- upregulated in UC; sequesters systemic iron but increases luminal iron availability
-- [[epithelial-barrier]] -- hemolysins and proteases disrupt tight junctions
+- -- hemolysins and proteases disrupt tight junctions
 - [[inflammatory-bowel-disease]] -- enriched in UC; drives mucosal inflammation
 - [[inflammation|lipopolysaccharide]] -- TLR4-mediated pro-inflammatory signaling
 - [[butyrate]] -- paradoxically capable of SCFA production, but pathogenic phenotype dominates in inflammation
 - [[fusobacterium-nucleatum]] -- related but distinct species; oral pathogenic vs. gut-UC pathobiont
 - [[dysbiosis]] -- iron-rich, low-SCFA producing community state characteristic of active UC
-- [[commensal-pathobiont-spectrum]] -- same species exhibits protection (SCFA producer) or pathology (invasive) depending on iron and immunity context
+- -- same species exhibits protection (SCFA producer) or pathology (invasive) depending on iron and immunity context

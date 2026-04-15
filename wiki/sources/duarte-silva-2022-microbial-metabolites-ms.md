@@ -27,11 +27,11 @@ platform: wikibiome
 
 - **Study type**: Mini review (2022) covering gut microbiota-derived metabolites in MS pathogenesis and treatment
 - **Figure 1 (key schematic)**: Maps each metabolite to specific immune effects:
-  - Acetate: IL-10 increase, Th17 increase, EAE severity increase
-  - Propionate: Treg increase (all compartments), IL-10 increase, TGF-beta and FOXP3 upregulation, MHC-II reduction on DCs, EAE alleviation
-  - Butyrate: demyelination inhibition
-  - Spermidine: macrophage M2 shift, Treg differentiation, NO/NF-kB inhibition, astrocyte/microglia reduction
-  - Urolithin A: tight junction protein increase, gut barrier function improvement, Th17 reduction, CD4+ T cell decrease, ceramide increase in vitro
+ - Acetate: IL-10 increase, Th17 increase, EAE severity increase
+ - Propionate: Treg increase (all compartments), IL-10 increase, TGF-beta and FOXP3 upregulation, MHC-II reduction on DCs, EAE alleviation
+ - Butyrate: demyelination inhibition
+ - Spermidine: macrophage M2 shift, Treg differentiation, NO/NF-kB inhibition, astrocyte/microglia reduction
+ - Urolithin A: tight junction protein increase, gut barrier function improvement, Th17 reduction, CD4+ T cell decrease, ceramide increase in vitro
 - **Key mechanistic pathways**: SCFAs act via free fatty acid receptors (FFAR2/3) and G-protein-coupled receptors; urolithins via AhR-Nrf2; spermidine via NF-kB suppression
 - **Limitations**: Most evidence from EAE animal models; clinical translation needs more human trials; complex interplay between metabolites not fully understood
 
@@ -39,9 +39,9 @@ platform: wikibiome
 
 - [[multiple-sclerosis]] -- microbial metabolites as both pathogenic factors and therapeutic targets
 - [[short-chain-fatty-acids]] -- differential roles of acetate (potentially harmful), propionate (protective), and butyrate (demyelination-protective)
-- [[propionate]] -- most promising SCFA for MS therapy; promotes Tregs across multiple tissue compartments
-- [[spermidine]] -- polyamine with multi-target anti-inflammatory effects in EAE
-- [[urolithins]] -- polyphenol-derived metabolites with neuroprotective and gut barrier-enhancing properties
-- [[Tregs]] -- key regulatory cells promoted by propionate, spermidine, and urolithin A
-- [[Th17-cells]] -- pathogenic T cells augmented by LCFAs and acetate, suppressed by propionate and UA
+- -- most promising SCFA for MS therapy; promotes Tregs across multiple tissue compartments
+- -- polyamine with multi-target anti-inflammatory effects in EAE
+- -- polyphenol-derived metabolites with neuroprotective and gut barrier-enhancing properties
+- -- key regulatory cells promoted by propionate, spermidine, and urolithin A
+- -- pathogenic T cells augmented by LCFAs and acetate, suppressed by propionate and UA
 - [[gut-brain-axis]] -- metabolites as bidirectional signaling molecules between gut and CNS

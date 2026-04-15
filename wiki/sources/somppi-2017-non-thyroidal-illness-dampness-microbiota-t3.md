@@ -35,7 +35,7 @@ platform: wikibiome
 
 ## Connections
 
-- Mold-mycotoxin-thyroid axis relevant to [[Fungal Dysbiosis]] concept in [[Hashimoto's thyroiditis]]
-- DIO2 polymorphism connects to [[Thyroid Hormone Metabolism]] and personalized treatment approaches
+- Mold-mycotoxin-thyroid axis relevant to concept in [[Hashimoto's thyroiditis]]
+- DIO2 polymorphism connects to and personalized treatment approaches
 - Gluten-free diet recommendation aligns with [[rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis]]
-- Indoor environmental exposure connects to broader [[Environmental Exposures]] affecting thyroid autoimmunity
+- Indoor environmental exposure connects to broader affecting thyroid autoimmunity

@@ -26,11 +26,11 @@ platform: wikibiome
 
 - **Study type**: Case-control metabolomic study
 - **Participants**: 61 patients undergoing IVF: 38 women with thyroid autoantibody positivity (HT) and 23 euthyroid controls (Rio de Janeiro, Brazil)
-- **Key results**:
-  - PLS-DA of FF metabolomic analysis (83 metabolites) showed distinct separation between groups
-  - Three metabolites with significant alterations: PC(38:4) (FC=0.48, p=0.001), PC(20:0/20:0) (FC=0.46, p=0.005), Adenosine (FC=0.24, p=0.068)
-  - All 15 differentially concentrated metabolites were elevated in HT FF
-  - Pathway analysis: Glycerophospholipid metabolism (most significant, p=6.68E-05, Impact=0.11182), arachidonic acid metabolism (p=0.000366), linoleic acid metabolism, alpha-linolenic acid, sphingolipid metabolism
+
+ - PLS-DA of FF metabolomic analysis (83 metabolites) showed distinct separation between groups
+ - Three metabolites with significant alterations: PC(38:4) (FC=0.48, p=0.001), PC(20:0/20:0) (FC=0.46, p=0.005), Adenosine (FC=0.24, p=0.068)
+ - All 15 differentially concentrated metabolites were elevated in HT FF
+ - Pathway analysis: Glycerophospholipid metabolism (most significant, p=6.68E-05, Impact=0.11182), arachidonic acid metabolism (p=0.000366), linoleic acid metabolism, alpha-linolenic acid, sphingolipid metabolism
 - **Clinical characteristics**: HT women had significantly shorter duration of infertility (9 vs 19 months, p=0.011) and higher previous miscarriage rate (10/33 vs 3/16), though the latter was not statistically significant
 - **Phospholipid significance**: Phosphatidylcholine is found at higher concentrations in large antral follicles; its elevation in HT may reflect altered follicle growth and oocyte maturation processes
 

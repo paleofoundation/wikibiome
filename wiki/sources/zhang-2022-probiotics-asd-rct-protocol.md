@@ -11,6 +11,7 @@ tags: [autism, probiotics, rct, protocol, gut-brain-axis, microbiota, children]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
 ---
 
 # Key Claims

@@ -28,9 +28,9 @@ platform: wikibiome
 - **Substance use groups**: Non-users 92.1% (n=7,891); tobacco-only 5.8% (n=496); alcohol-only 1.4% (n=121); both 0.7% (n=59)
 - **Dysmenorrhea prevalence**: 7.5% overall (589/8,567)
 - **Statistical analysis**: Multivariable logistic regression adjusted for age, residential urbanicity, education, BMI, behavioral factors, gynecological problems, menarche age, parity, and health products
-- **Age-stratified analysis**:
-  - Women <50: dual use OR = 2.57 (1.13-5.83)
-  - Women >=50: dual use OR = 7.26 (1.58-33.45)
+
+ - Women <50: dual use OR = 2.57 (1.13-5.83)
+ - Women >=50: dual use OR = 7.26 (1.58-33.45)
 - **Protective factors**: Regular exercise (OR = 0.77), multiparity (OR = 0.64, 95% CI: 0.52-0.77)
 - **Risk factors**: Uterine problems (OR = 1.50, 95% CI: 1.23-1.82), early menarche, higher education
 - **Mechanisms discussed**: Smoking causes vasoconstriction and increases prostaglandins; alcohol disrupts hormonal balance, stimulates vasopressin release, depletes magnesium, and enhances inflammatory response

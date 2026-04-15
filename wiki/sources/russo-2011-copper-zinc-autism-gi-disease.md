@@ -26,5 +26,5 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- copper-zinc imbalance and zinc therapy
 - [[zinc]] -- therapeutic supplementation normalizes Cu/Zn ratio in ASD
 - [[copper]] -- elevated copper in ASD normalizes with zinc therapy
-- [[gastrointestinal-symptoms]] -- GI disease modulates zinc therapy effectiveness
-- [[metal-dyshomeostasis]] -- Cu/Zn ratio as biomarker in ASD
+- -- GI disease modulates zinc therapy effectiveness
+- -- Cu/Zn ratio as biomarker in ASD

@@ -32,8 +32,8 @@ platform: wikibiome
 
 ## Connections
 
-- The [[kynurenine]] pathway links to [[aryl-hydrocarbon-receptor]] (AhR) signaling, connecting amino acid metabolism to environmental sensing in MS
-- [[Melatonin]], a downstream Trp metabolite, induces repressor transcription factor Nfil3 blocking Th17 differentiation and promoting Tr1 cells via Erk1/2 and IL-10
-- The role of [[tryptophan]] metabolism connects to microbial tryptophan catabolism studied in [[gut-brain-axis]] research, where gut bacteria produce indole derivatives that activate AhR
-- Therapeutic strategies proposed include: IDO1 induction, GCN2K pathway inhibitors, and mTOR pathway modulation -- relevant to [[microbiome-targeted-therapy]]
-- The interaction between amino acid availability and [[mTOR]] signaling connects to [[ketogenic-diet]] research in MS where metabolic reprogramming may affect immune cell function
+- The pathway links to (AhR) signaling, connecting amino acid metabolism to environmental sensing in MS
+- , a downstream Trp metabolite, induces repressor transcription factor Nfil3 blocking Th17 differentiation and promoting Tr1 cells via Erk1/2 and IL-10
+- The role of metabolism connects to microbial tryptophan catabolism studied in [[gut-brain-axis]] research, where gut bacteria produce indole derivatives that activate AhR
+- Therapeutic strategies proposed include: IDO1 induction, GCN2K pathway inhibitors, and mTOR pathway modulation -- relevant to 
+- The interaction between amino acid availability and signaling connects to [[ketogenic-diet]] research in MS where metabolic reprogramming may affect immune cell function

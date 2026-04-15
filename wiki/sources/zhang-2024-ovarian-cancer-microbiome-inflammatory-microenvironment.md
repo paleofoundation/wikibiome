@@ -9,6 +9,7 @@ year: 2024
 doi: "10.3389/fcimb.2024.1440742"
 tags: [ovarian-cancer, microbiome, inflammatory-microenvironment, Clostridium, Propionibacterium, immune-cells, Lactobacillus, tumor-associated-macrophages]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # The OC-Associated Microbiome and the Tumor's Inflammatory Microenvironment

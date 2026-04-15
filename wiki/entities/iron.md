@@ -151,7 +151,7 @@ Iron is the centerpiece of **[[nutritional-immunity]]** -- the host strategy of 
 - [[copper]] -- Fe/Cu ratio as cardiovascular biomarker
 - [[manganese]] -- competes for DMT1 transport
 - [[cadmium]] -- increased Cd absorption in iron-depleted individuals
-- [[thyroid-autoimmunity]] -- iron deficiency impairs TPO activity
+- -- iron deficiency impairs TPO activity
 - [[staphylococcus-aureus]] -- elaborate iron acquisition systems to overcome nutritional immunity
 - [[lactoferrin]] -- iron-binding glycoprotein central to mucosal immune defense
 - [[metal-chelation-therapy]] -- iron chelation (deferiprone, deferoxamine) explored in neurodegeneration and iron overload

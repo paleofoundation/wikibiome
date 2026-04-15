@@ -1,14 +1,27 @@
 ---
-
-title: "The oral microbiome in the pathophysiology of cardiovascular disease"
+title: The oral microbiome in the pathophysiology of cardiovascular disease
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Andrea Tonelli, Evelyn N. Lumngwena, Ntobeko A. B. Ntusi]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Andrea Tonelli
+  - Evelyn N. Lumngwena
+  - Ntobeko A. B. Ntusi
 journal: Nature Reviews Cardiology
 year: 2023
 doi: 10.1038/s41569-022-00825-3
-tags: [cardiovascular-disease, CVD, oral-microbiome, periodontitis, atherosclerosis, endocarditis, heart-failure, rheumatic-heart-disease, dysbiosis, bacterial-translocation, review]
+tags:
+  - cardiovascular-disease
+  - CVD
+  - oral-microbiome
+  - periodontitis
+  - atherosclerosis
+  - endocarditis
+  - heart-failure
+  - rheumatic-heart-disease
+  - dysbiosis
+  - bacterial-translocation
+  - review
 platform: wikibiome
 ---
 

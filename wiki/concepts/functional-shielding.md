@@ -54,9 +54,9 @@ Fungal-bacterial biofilms with functional shielding are documented in:
 ## Connections
 
 **Linked concepts**:
-- [[biofilm-architecture]] — The structural organization that enables shielding.
-- [[quorum-sensing]] — Bacterial density-dependent signaling within biofilms.
-- [[morphogenesis-switching]] — [[candida-albicans]] yeast-to-hyphal transition triggered by biofilm initiation.
+- — The structural organization that enables shielding.
+- — Bacterial density-dependent signaling within biofilms.
+- — [[candida-albicans]] yeast-to-hyphal transition triggered by biofilm initiation.
 - [[nutritional-immunity]] — Host attempt to restrict metals; biofilms adapt by intensifying cross-kingdom exchange.
 
 **Linked entities**:
@@ -67,7 +67,7 @@ Fungal-bacterial biofilms with functional shielding are documented in:
 - [[pseudomonas-aeruginosa]] — Prominent in fungal-bacterial biofilms in respiratory and chronic wounds.
 
 **Intervention implications**:
-- **Antifungal therapy** (e.g., [[fluconazole]], [[echinocandins]]) can disrupt hyphal morphogenesis and collapse the protective scaffold, exposing bacteria to antibiotics.
-- **Biofilm breakers** (e.g., [[dornase-alpha]], [[n-acetylcysteine]]) may degrade the ECM directly.
+- **Antifungal therapy** (e.g., ) can disrupt hyphal morphogenesis and collapse the protective scaffold, exposing bacteria to antibiotics.
+- **Biofilm breakers** (e.g., ) may degrade the ECM directly.
 - **Zinc supplementation** may inhibit [[candida-albicans|candida]] morphogenesis at non-toxic doses, synergizing with antimicrobials.
 - **Sequential therapy**: Antifungal → antibiotic may be more effective than either alone.

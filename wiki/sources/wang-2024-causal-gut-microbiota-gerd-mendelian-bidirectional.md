@@ -10,6 +10,9 @@ year: 2024
 doi: "10.3389/fimmu.2024.1327503"
 tags: [gerd, gastroesophageal-reflux, mendelian-randomization, gut-microbiota, causal-association, clostridiales, lachnospiraceae, methanobrevibacter, actinobacteria, mollicutes, anaerostipes, tenericutes, gwas, MiBioGen, dysbiosis]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Anaerostipes", "Methanobrevibacter"]
 ---
 
 # Causal relationship between gut microbiota and risk of gastroesophageal reflux disease: a genetic correlation and bidirectional Mendelian randomization study
@@ -36,5 +39,5 @@ platform: wikibiome
 - Genetic causal evidence supports observational findings in [[sugihartono-2022-gastric-microbiota-hpylori-gerd]] and [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]]
 - *Lachnospiraceae* protective role connects to decreased *Lachnospiraceae* in PPI users noted in [[liu-2022-probiotics-gut-microbiome-gerd-rabeprazole-rct]]
 - Bidirectional causation supports gut-esophageal axis described in [[alageel-2025-microbiome-composition-gerd-systematic-review]]
-- *Methanobrevibacter* protective association links to [[archaea]] in esophageal microbiome in [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]]
+- *Methanobrevibacter* protective association links to in esophageal microbiome in [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]]
 - Complements second MR study [[liu-2024-causal-gut-microbiota-gerd-be-bidirectional-mr]] with overlapping but distinct taxa

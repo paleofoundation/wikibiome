@@ -10,6 +10,10 @@ year: 2021
 doi: "10.3389/fgene.2021.787176"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, dysbiosis, Fusobacterium-nucleatum, biclustering, interaction-networks, oral-pathogens, meta-analysis]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Fusobacterium"]
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Zhao 2021 -- Colorectal Cancer-Associated Microbiome Patterns and Signatures
@@ -25,12 +29,12 @@ platform: wikibiome
 
 - **Type**: Multi-cohort meta-analysis (six independent CRC 16S datasets: Kostic, Hale, Gao, Zeller, Burns, Purcell; n = 353 patients total)
 - **Methods**: 16S rRNA amplicon sequencing reanalysis; differential microbial interaction networks (DMIN) using ARACNe algorithm; biclustering via BackSPIN
-- **Key findings**:
-  - 62 common species across datasets, majority from Bacteroidales and Clostridiales
-  - 15 oral-related microbes detected, with *F. nucleatum* most prevalent (22.7-75.0% across cohorts)
-  - P0 patients: reduced microbial alpha diversity compared to adjacent normal tissues
-  - P1 patients: more oral-related pathogens than P0
-  - CRC-associated microbiota changes consist of continuous populations rather than discrete enterotypes
+
+ - 62 common species across datasets, majority from Bacteroidales and Clostridiales
+ - 15 oral-related microbes detected, with *F. nucleatum* most prevalent (22.7-75.0% across cohorts)
+ - P0 patients: reduced microbial alpha diversity compared to adjacent normal tissues
+ - P1 patients: more oral-related pathogens than P0
+ - CRC-associated microbiota changes consist of continuous populations rather than discrete enterotypes
 
 ## Connections
 

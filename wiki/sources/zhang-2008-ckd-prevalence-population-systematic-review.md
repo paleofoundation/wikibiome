@@ -9,6 +9,7 @@ journal: "BMC Public Health"
 doi: "10.1186/1471-2458-8-117"
 tags: [chronic-kidney-disease, CKD, prevalence, systematic-review, epidemiology, eGFR, population-based]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # CKD Prevalence in Population-Based Studies

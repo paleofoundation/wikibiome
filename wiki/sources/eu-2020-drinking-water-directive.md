@@ -39,9 +39,9 @@ platform: wikibiome
 - [[lead]] - key parametric value being tightened from 10 to 5 ug/L
 - [[chromium]] - parametric value under transitional review
 - [[arsenic]] - monitored in abstraction areas where naturally present
-- [[drinking-water-quality]] - core topic of this directive
+- - core topic of this directive
 - [[nickel]] - relevant as a water contaminant from pipes and fittings (parametric values in Annex I)
 - [[cadmium]] - included in parametric values for drinking water
-- [[Endocrine Disruptors]] - Bisphenol A, Nonylphenol, Beta-estradiol on watch list
-- [[food-safety]] - water used in food preparation falls under this Directive until point of compliance
-- [[EU SCF Opinion on Tin]] - related EU food safety regulatory framework
+- - Bisphenol A, Nonylphenol, Beta-estradiol on watch list
+- - water used in food preparation falls under this Directive until point of compliance
+- - related EU food safety regulatory framework

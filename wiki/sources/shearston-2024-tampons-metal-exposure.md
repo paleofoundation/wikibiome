@@ -37,9 +37,9 @@ platform: wikibiome
 
 ## Connections
 
-- [[Heavy metal exposure]] -- novel non-dietary, non-occupational exposure route for women
-- [[Nickel exposure]] -- tampons as underrecognized source of nickel contact with mucosal tissue
-- [[Lead exposure]] -- ubiquitous Pb in menstrual products
-- [[Cadmium toxicity]] -- Cd in products used by reproductive-age women
-- [[Vaginal absorption]] -- highly absorptive tissue enabling systemic metal uptake
-- [[Environmental health]] -- regulatory gap -- tampons not required to be tested for metals in US
+- -- novel non-dietary, non-occupational exposure route for women
+- -- tampons as underrecognized source of nickel contact with mucosal tissue
+- -- ubiquitous Pb in menstrual products
+- -- Cd in products used by reproductive-age women
+- -- highly absorptive tissue enabling systemic metal uptake
+- -- regulatory gap -- tampons not required to be tested for metals in US

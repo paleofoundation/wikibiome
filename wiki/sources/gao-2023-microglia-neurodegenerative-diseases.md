@@ -23,29 +23,29 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Comprehensive review of microglia biology and roles across multiple NDDs with preclinical and clinical evidence
-- **Microglia in AD**:
-  - Microglia phagocytose amyloid-beta and tau, limiting propagation; but pathological conditions can accelerate spreading
-  - TREM2-dependent DAM (disease-associated microglia) limits tau seeding and spreading around plaques
-  - Reactive microglia drive tau spreading by promoting neuroinflammation and activating NLRP3 inflammasome
-  - APOE4 allele shows altered cellular metabolism, increased intracellular lipid accumulation, and extracellular lipid accumulation
-  - Loss of TREM2 function impairs amyloid-beta phagocytosis and increases amyloid seeding in AD models
-  - MgND microglia (common in neurodegeneration) hypersecrete EVs containing phosphorylated tau
-- **Microglia in PD**:
-  - Reactive microglia detected in SN of PD patients; higher NLRP3 inflammasome activation
-  - CCL2-CCR2 axis involved in monocyte infiltration into inflamed PD brain
-  - MPTP induces long-lasting reactive microgliosis preceding astrogliosis
-  - CD163+ macrophages detected in areas of neurodegeneration in rodent PD models
-- **Microglia in ALS/FTD**:
-  - Widespread cerebral microglial activation in ALS patients and pre-symptomatic mutation carriers
-  - TDP-43 interacts with microglial TREM2 for phagocytosis and clearance
-  - Progranulin deficiency aggravates TDP-43 pathology and promotes synaptic pruning
-  - C9orf72 loss of function promotes microglial transition from homeostatic to inflammatory state
-- **Therapeutic strategies**:
-  - TREM2 agonist antibodies to enhance microglial phagocytosis
-  - Modulation of microglial exosome synthesis and secretion
-  - Inhibition of NLRP3 inflammasome pathway
-  - Phenotype switching from pro-inflammatory to protective states
-  - CSF1R inhibitors for microglial depletion and repopulation
+
+ - Microglia phagocytose amyloid-beta and tau, limiting propagation; but pathological conditions can accelerate spreading
+ - TREM2-dependent DAM (disease-associated microglia) limits tau seeding and spreading around plaques
+ - Reactive microglia drive tau spreading by promoting neuroinflammation and activating NLRP3 inflammasome
+ - APOE4 allele shows altered cellular metabolism, increased intracellular lipid accumulation, and extracellular lipid accumulation
+ - Loss of TREM2 function impairs amyloid-beta phagocytosis and increases amyloid seeding in AD models
+ - MgND microglia (common in neurodegeneration) hypersecrete EVs containing phosphorylated tau
+
+ - Reactive microglia detected in SN of PD patients; higher NLRP3 inflammasome activation
+ - CCL2-CCR2 axis involved in monocyte infiltration into inflamed PD brain
+ - MPTP induces long-lasting reactive microgliosis preceding astrogliosis
+ - CD163+ macrophages detected in areas of neurodegeneration in rodent PD models
+
+ - Widespread cerebral microglial activation in ALS patients and pre-symptomatic mutation carriers
+ - TDP-43 interacts with microglial TREM2 for phagocytosis and clearance
+ - Progranulin deficiency aggravates TDP-43 pathology and promotes synaptic pruning
+ - C9orf72 loss of function promotes microglial transition from homeostatic to inflammatory state
+
+ - TREM2 agonist antibodies to enhance microglial phagocytosis
+ - Modulation of microglial exosome synthesis and secretion
+ - Inhibition of NLRP3 inflammasome pathway
+ - Phenotype switching from pro-inflammatory to protective states
+ - CSF1R inhibitors for microglial depletion and repopulation
 
 # Connections
 

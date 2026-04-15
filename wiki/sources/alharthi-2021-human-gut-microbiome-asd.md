@@ -50,14 +50,14 @@ Comprehensive review of the **microbiota–gut–brain axis in autism**, focusin
 ## 3. Microbial Metabolites
 
 - **Short-chain fatty acids** (butyrate, propionate, acetate)
-  - Support barrier function
-  - Modulate epigenetic regulation
-  - Influence immune tolerance
+ - Support barrier function
+ - Modulate epigenetic regulation
+ - Influence immune tolerance
 - **Tryptophan metabolites** (indoles, kynurenine)
-  - Support AhR signaling → barrier integrity and immune tolerance
-  - Regulate serotonin and CNS function
+ - Support AhR signaling → barrier integrity and immune tolerance
+ - Regulate serotonin and CNS function
 - **Secondary metabolites** (phenolic compounds, polyamines)
-  - Influence CNS signaling
+ - Influence CNS signaling
 
 ## 4. Epigenetic Modifications
 

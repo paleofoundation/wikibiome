@@ -25,7 +25,7 @@ platform: wikibiome
 - **Search**: PubMed, PsycINFO, Web of Science through April 2020
 - **Included studies**: 13 final studies (from 197 screened after deduplication); 8 in US/Western Europe, 5 other regions
 - **Study types**: 8 cross-sectional, 2 case-control, 3 other designs; combined n = 25,828
-- **Effect measure**: Log odds ratios computed using escalc() function in R; random-effects model via rma()
+- **Effect measure**: Log odds ratios computed using escalc function in R; random-effects model via rma
 - **Quality assessment**: 5-point scale based on PMS diagnosis method, smoking assessment, confounding adjustment, participation rate, and target population specification
 - **Heterogeneity**: Moderate to high (I2 = 73.28%, Q = 33.15, p < 0.001); reduced substantially when stratified by diagnosis (PMS vs PMDD)
 - **Moderators**: Diagnosis type (PMS vs PMDD) was a statistically significant moderator; region and quality score also explored

@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, maternal-diabetes, pregnancy, meta-analysis, ge
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -41,7 +45,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- maternal diabetes as prenatal risk factor
-- [[gestational-diabetes]] -- 48-72% increased ASD risk in offspring
-- [[maternal-factors]] -- metabolic health during pregnancy and ASD risk
-- [[prenatal-risk-factors]] -- diabetes exposure during fetal development
-- [[metabolic-disorders]] -- maternal metabolic dysfunction and offspring neurodevelopment
+- -- 48-72% increased ASD risk in offspring
+- -- metabolic health during pregnancy and ASD risk
+- -- diabetes exposure during fetal development
+- -- maternal metabolic dysfunction and offspring neurodevelopment

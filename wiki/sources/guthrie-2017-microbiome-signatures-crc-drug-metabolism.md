@@ -25,13 +25,13 @@ platform: wikibiome
 
 - **Type**: Experimental study (20 healthy individuals, fecal incubation + shotgun metagenomics)
 - **Methods**: Ex vivo time course incubation of fecal samples with SN-38G; LC-MS/MS quantification; shotgun metagenomics; community-level metabolic network analysis
-- **Key findings**:
-  - No correlation between metabotype and the PNPG assay (traditional BG activity measure)
-  - Enterobacteriaceae family not differentially abundant between metabotypes; BGs are more evenly shared (ED = 0.938)
-  - Identified BGs from *Clostridium* spp., *F. prausnitzii*, and *Bacteroides* species
-  - High metabotype enriched genes predominantly in carbohydrate and amino acid metabolism (KEGG)
-  - PTS uptake porter of glucoside I and II, maltooligosaccharide porter enriched in high metabotype
-  - Community metabolic network showed high metabotype enzymes are more peripheral (interacting with gut environment)
+
+ - No correlation between metabotype and the PNPG assay (traditional BG activity measure)
+ - Enterobacteriaceae family not differentially abundant between metabotypes; BGs are more evenly shared (ED = 0.938)
+ - Identified BGs from *Clostridium* spp., *F. prausnitzii*, and *Bacteroides* species
+ - High metabotype enriched genes predominantly in carbohydrate and amino acid metabolism (KEGG)
+ - PTS uptake porter of glucoside I and II, maltooligosaccharide porter enriched in high metabotype
+ - Community metabolic network showed high metabotype enzymes are more peripheral (interacting with gut environment)
 
 ## Connections
 

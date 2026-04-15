@@ -32,7 +32,7 @@ platform: wikibiome
 ## Connections
 
 - Butyrate dual role connects to [[short-chain-fatty-acids]] and [[microbiome-derived-metabolites]] in CRC
-- Colibactin genotoxicity from pks+ *E. coli* relates to [[microbiome-host-interactions]] and DNA damage pathways
+- Colibactin genotoxicity from pks+ *E. coli* relates to and DNA damage pathways
 - *F. nucleatum* immune evasion mechanisms extend [[hou-2022-gut-microbiota-immune-immunotherapy-crc]] and [[kudra-2023-oral-microbiome-crc-perspectives]]
-- Polyamine metabolism connects to [[metabolic-pathways]] in CRC progression and potential therapeutic targeting
+- Polyamine metabolism connects to in CRC progression and potential therapeutic targeting
 - [[colorectal-cancer]]

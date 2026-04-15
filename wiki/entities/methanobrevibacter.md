@@ -62,7 +62,6 @@ The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* i
 - **Methane (CH4)** -- inhibits colonic motility; contributes to breath methane as clinical biomarker
 - **Short-chain lipids** -- cell membrane ether lipids unique to archaea
 
-
 ## Key Sources
 
 - [[bronzini-2023-feeding-gut-microbiome-ms]]

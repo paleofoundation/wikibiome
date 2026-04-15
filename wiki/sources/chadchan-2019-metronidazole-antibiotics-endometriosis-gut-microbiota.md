@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Mouse model of surgically induced endometriosis with antibiotic interventions
 - **Model**: Autologous uterine tissue transplanted onto peritoneal wall in C57BL/6 mice
 - **Antibiotics**: VNMA cocktail (vancomycin, neomycin, metronidazole, ampicillin) and individual antibiotics
-- **Key results**:
-  - Pre-treatment with VNMA before endometriosis induction: smaller lesions (P<0.05 volume, P<0.01 mass)
-  - Post-induction VNMA treatment: dramatically smaller lesions (P<0.0001 volume, P<0.01 mass)
-  - Metronidazole alone: significant reduction (P<0.001 volume and mass)
-  - Fecal transplant from endo-mice to metronidazole-treated mice restored lesion size and inflammation
-  - 16S sequencing showed endometriosis enriched *Bacteroidetes* in feces
+
+ - Pre-treatment with VNMA before endometriosis induction: smaller lesions (P<0.05 volume, P<0.01 mass)
+ - Post-induction VNMA treatment: dramatically smaller lesions (P<0.0001 volume, P<0.01 mass)
+ - Metronidazole alone: significant reduction (P<0.001 volume and mass)
+ - Fecal transplant from endo-mice to metronidazole-treated mice restored lesion size and inflammation
+ - 16S sequencing showed endometriosis enriched *Bacteroidetes* in feces
 
 # Relevance to Wiki
 

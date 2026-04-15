@@ -35,7 +35,7 @@ Elevated **fecal lipocalin-2** is a key biomarker of intestinal inflammation and
 - [[crohns-disease]]: Markedly elevated in active inflammation; indicates [[escherichia-coli|AIEC]]-dominant signatures and nutritional immunity activation
 - [[colorectal-cancer]]: Elevated in dysplastic lesions and tumor microenvironment; associated with Gram-negative pathobiont dominance
 - [[obesity]]: Elevated in low-grade endotoxemia; reflects barrier breach and Gram-negative bacterial translocation
-- [[inflammatory-bowel-disease|ulcerative-colitis]]: Surrogate marker of mucosal neutrophil infiltration
+- [[ulcerative-colitis|ulcerative colitis]]: Surrogate marker of mucosal neutrophil infiltration
 - **Bacterial infections generally**: Urinary tract infection (elevated urinary lipocalin-2), pneumonia, sepsis
 
 **Interpretation nuance:** High lipocalin-2 indicates **active immune engagement** with iron-dependent Gram-negatives, not a failure of defense. It is a sign that the host is winning the nutritional immunity battle—if lipocalin-2 were absent, the pathogens would already be iron-replete and proliferating unchecked.
@@ -56,13 +56,13 @@ Lipocalin-2 is a master regulator of **iron ecology** in the gut:
 - [[hepcidin]] — systemic iron regulation; often elevated in parallel with lipocalin-2 during infection
 
 **Related concepts:**
-- [[siderophores|siderophore]] — the substrate for lipocalin-2 binding
+- — the substrate for lipocalin-2 binding
 - [[nutritional-immunity]] — lipocalin-2 as a key defense component
-- [[iron-ecology]] — how lipocalin-2 shapes bacterial community structure
+- — how lipocalin-2 shapes bacterial community structure
 - [[candida-albicans]] — fungal pathogen also affected by siderophore sequestration
 
 **Disease pages:**
-- [[crohns-disease]], [[colorectal-cancer]], [[obesity]], [[inflammatory-bowel-disease|ulcerative-colitis]] — conditions with elevated lipocalin-2
+- [[crohns-disease]], [[colorectal-cancer]], [[obesity]], [[ulcerative-colitis|ulcerative colitis]] — conditions with elevated lipocalin-2
 
 **Metal entities:**
 - [[iron]] — the target of the siderophore-lipocalin-2 battle

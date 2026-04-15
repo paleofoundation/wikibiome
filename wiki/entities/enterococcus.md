@@ -26,10 +26,10 @@ A genus of Gram-positive bacteria (primarily *E. faecalis* and *E. faecium*) tha
 Cadmium stress causes **massive transcriptional reorganization** in *E. faecium* [[cheng-2021-cadmium-enterococcus-metabolic]]:
 
 - **1,152 differentially expressed genes** (47% of the genome) under cadmium exposure.
-- **Three distinct response groups**:
-  - **G1 (310 genes)**: Downregulated -- nucleotide metabolism and DNA replication inhibited (growth arrest).
-  - **G2 (658 genes)**: Upregulated at low Cd -- ribosome and protein translation increased (stress response machinery).
-  - **G3 (184 genes)**: Highly upregulated at high Cd -- carbohydrate transport, anion transport, and **exopolysaccharide (EPS) production**.
+
+ - **G1 (310 genes)**: Downregulated -- nucleotide metabolism and DNA replication inhibited (growth arrest).
+ - **G2 (658 genes)**: Upregulated at low Cd -- ribosome and protein translation increased (stress response machinery).
+ - **G3 (184 genes)**: Highly upregulated at high Cd -- carbohydrate transport, anion transport, and **exopolysaccharide (EPS) production**.
 - **EPS production** under cadmium stress is a key defense: the extracellular polysaccharide matrix sequesters cadmium ions before they can enter the cell, analogous to siderophore-based metal chelation in [[pseudomonas-aeruginosa]].
 - **P-type ATPase transporters** highly upregulated for active cadmium efflux.
 
@@ -50,10 +50,10 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 
 ### Co-Occurrence on Mobile Elements
 - Metal tolerance and antibiotic resistance genes **systematically co-occur** on conjugative plasmids [[rebelo-2021-enterococcus-metal-antibiotic-resistance]]:
-  - **vanA** (vancomycin resistance) near mercury/arsenic tolerance regions.
-  - **tet(M)** (tetracycline), **erm(B)** (macrolide), **aac6'-Ie-aph2''-Ia** (aminoglycoside) co-located with MeT genes.
-  - Flanked by IS elements (IS110, IS256, IS200/605) enabling mobilization.
-  - Associated with conjugation genes (TraC, TraE, TraG) for horizontal transfer.
+ - **vanA** (vancomycin resistance) near mercury/arsenic tolerance regions.
+ - **tet(M)** (tetracycline), **erm(B)** (macrolide), **aac6'-Ie-aph2''-Ia** (aminoglycoside) co-located with MeT genes.
+ - Flanked by IS elements (IS110, IS256, IS200/605) enabling mobilization.
+ - Associated with conjugation genes (TraC, TraE, TraG) for horizontal transfer.
 - This means: **selecting for metal resistance automatically selects for antibiotic resistance** and vice versa.
 
 ### Cross-Phylum Gene Exchange

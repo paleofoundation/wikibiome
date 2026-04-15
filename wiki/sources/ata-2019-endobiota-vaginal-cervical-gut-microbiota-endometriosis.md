@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Prospective observational cohort at Koc University, Istanbul
 - **Participants**: 14 Caucasian women with stage 3/4 endometriosis and 14 age-matched healthy controls
 - **Methods**: 16S rRNA V3-V4 sequencing (Illumina MiSeq), cervical/vaginal/stool samples
-- **Key results**:
-  - PCoA showed no significant differences in overall composition (adonis p>0.5 for vaginal, cervical, stool)
-  - Shannon diversity significantly higher in gut vs cervical/vaginal (p<0.001)
-  - Sensitivity analysis excluding Lactobacillus: *Gardnerella* comprised significantly higher proportion in endometriosis cervix (67.7% vs 36.8%, p<0.05)
-  - *Alloprevotella* significantly increased in endometriosis cervix
-  - Two endometriosis patients with *Escherichia/Shigella*-dominant gut later required bowel resection
+
+ - PCoA showed no significant differences in overall composition (adonis p>0.5 for vaginal, cervical, stool)
+ - Shannon diversity significantly higher in gut vs cervical/vaginal (p<0.001)
+ - Sensitivity analysis excluding Lactobacillus: *Gardnerella* comprised significantly higher proportion in endometriosis cervix (67.7% vs 36.8%, p<0.05)
+ - *Alloprevotella* significantly increased in endometriosis cervix
+ - Two endometriosis patients with *Escherichia/Shigella*-dominant gut later required bowel resection
 
 # Relevance to Wiki
 

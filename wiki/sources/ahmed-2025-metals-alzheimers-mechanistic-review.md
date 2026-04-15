@@ -1,14 +1,37 @@
 ---
-
 title: "Associations of Environmental Exposure to Arsenic, Manganese, Lead and Cadmium on Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Giasuddin Ahmed, Md. Shiblur Rahaman, Enrique Perez, Khalid M. Khan]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Giasuddin Ahmed
+  - Md. Shiblur Rahaman
+  - Enrique Perez
+  - Khalid M. Khan
 journal: Preprints.org (not peer-reviewed)
 year: 2025
-tags: [Alzheimers-disease, arsenic, manganese, lead, cadmium, neurotoxicity, mechanistic-studies, oxidative-stress, tau-phosphorylation, amyloid-beta, blood-brain-barrier, preprint]
+tags:
+  - Alzheimers-disease
+  - arsenic
+  - manganese
+  - lead
+  - cadmium
+  - neurotoxicity
+  - mechanistic-studies
+  - oxidative-stress
+  - tau-phosphorylation
+  - amyloid-beta
+  - blood-brain-barrier
+  - preprint
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+why_keystone: "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 46 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
 ---
 
 # Metals and Alzheimer's Disease: Mechanistic Review
@@ -41,9 +64,9 @@ platform: wikibiome
 - [[cadmium]] - BBB disruption, mitochondrial dysfunction, calcium signaling disruption
 - [[alzheimers-disease]] - central topic; all four metals converge on AD-relevant pathways
 - [[oxidative-stress|oxidative stress]] - shared mechanism across all four metals
-- [[Mitochondrial Dysfunction]] - common pathway; arsenic impairs respiratory chain in hippocampal mitochondria
+- - common pathway; arsenic impairs respiratory chain in hippocampal mitochondria
 - [[blood-brain-barrier]] - disrupted by Pb and Cd specifically
-- [[Tau Hyperphosphorylation]] - arsenic activates GSK3-beta and ERK1/2 leading to tau aggregation
+- - arsenic activates GSK3-beta and ERK1/2 leading to tau aggregation
 - [[Amyloid-Beta]] - arsenic increases A-beta(1-42) production and BACE1 activity
-- [[Neurotoxicity]] - connects to cadmium neurotoxicity described in Rasin et al. 2025
+- - connects to cadmium neurotoxicity described in Rasin et al. 2025
 - [[nickel]] - not directly studied here but relevant as a metal crossing BBB

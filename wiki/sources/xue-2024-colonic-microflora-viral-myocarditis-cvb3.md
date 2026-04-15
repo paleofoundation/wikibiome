@@ -12,6 +12,7 @@ tags: [cardiovascular-disease, viral-microbiota, coxsackievirus-B3, myocarditis,
 source_pdf: "raw/cardiovascular disease/Viral microbiota cardiovascular disease/s12985-024-02571-z.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Key Claims

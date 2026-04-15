@@ -1,25 +1,52 @@
 ---
-title: "Sun et al. 2024 — Zinc-Curcumin Complex Reverses Cadmium-Aggravated Diabetic Nephropathy via Microbiome Mediation"
+title: Sun et al. 2024 — Zinc-Curcumin Complex Reverses Cadmium-Aggravated Diabetic Nephropathy via Microbiome Mediation
 type: source
-created: 2026-04-14
-updated: 2026-04-14
-authors: [Yujie Sun, Xiaoyu Zhang, Yingying Liu, Yiming Zhao]
+created: 2026-04-14T00:00:00.000Z
+updated: 2026-04-14T00:00:00.000Z
+authors:
+  - Yujie Sun
+  - Xiaoyu Zhang
+  - Yingying Liu
+  - Yiming Zhao
 year: 2024
-journal: "Frontiers in Pharmacology"
-doi: "10.3389/fphar.2024.1411230"
+journal: Frontiers in Pharmacology
+doi: 10.3389/fphar.2024.1411230
 evidence_level: animal-model
-sample_size: "n=32"
-tags: [cadmium, zinc, diabetic-nephropathy, curcumin, TLR4, NF-kB, FMT, ZIP14]
+sample_size: n=32
+tags:
+  - cadmium
+  - zinc
+  - diabetic-nephropathy
+  - curcumin
+  - TLR4
+  - NF-kB
+  - FMT
+  - ZIP14
 library_category: heavy-metals
 platform: both
-condition: "type-1-diabetes"
-karen_brain_primitives: [1, 2, 3, 4]
-metals_discussed: [cadmium, zinc]
-taxa_discussed: [ruminococcaceae, bacteroidales]
+condition: type-1-diabetes
+karen_brain_primitives:
+  - 1
+  - 2
+  - 3
+  - 4
+metals_discussed:
+  - cadmium
+  - zinc
+taxa_discussed:
+  - ruminococcaceae
+  - bacteroidales
 key_findings:
-  - "Cd aggravated diabetic nephropathy via TLR4/NF-kB"
-  - "Zn/Cd ratio is critical biomarker; ZIP14 transporter downregulated by Cd"
-  - "Zn(II)-curcumin reversed dysbiosis via FMT-confirmed microbiome mediation"
+  - Cd aggravated diabetic nephropathy via TLR4/NF-kB
+  - Zn/Cd ratio is critical biomarker; ZIP14 transporter downregulated by Cd
+  - Zn(II)-curcumin reversed dysbiosis via FMT-confirmed microbiome mediation
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Mechanistically shows that cadmium accelerates diabetic nephropathy through TLR4/NF-kB activation and ZIP14-mediated renal accumulation, with the Zn/Cd ratio functioning as a biomarker of injury. Validates zinc repletion as a signature-reversing intervention and anchors the cadmium displacement mechanism across multiple WikiBiome metabolic signatures.
 ---
 
 ## Key Findings

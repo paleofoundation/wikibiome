@@ -48,7 +48,6 @@ pathogenic_potential: commensal-turned-pathogen
 - Its detection in stool, combined with *F. nucleatum* and *Clostridium symbiosum*, achieves high diagnostic accuracy for CRC.
 - Microbiome-based classification models incorporating *P. micra* achieve AUROC values of 0.75-0.90 across validation cohorts [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
 
-
 ## Key Sources
 
 - [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]]
@@ -61,4 +60,4 @@ pathogenic_potential: commensal-turned-pathogen
 - [[actinomyces]] -- co-occurs in CRC tissue as part of oral translocation consortium
 - [[hungatella]] -- co-enriched alongside P. micra in CRC signatures
 - [[dysbiosis]] -- oral-gut translocation reflects barrier dysfunction
-- [[antibiotic-resistance]] -- co-occurrence with ARGs in CRC microbiome
+- -- co-occurrence with ARGs in CRC microbiome

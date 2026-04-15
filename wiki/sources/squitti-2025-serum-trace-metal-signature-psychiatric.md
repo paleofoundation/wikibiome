@@ -77,4 +77,4 @@ This study provides strong evidence that the Cu/Zn ratio is a transdiagnostic bi
 - [[zinc]] -- Universally depleted in psychiatric patients; Zn supplementation shown to lower Cu/Zn ratio and reduce oxidative stress
 - [[iron]] -- Reduced Fe and transferrin; Fe deficiency linked to neurotransmitter biosynthesis impairment
 - [[magnesium]] -- Depleted in PD patients; Mg modulates NMDA and GABA receptors
-- [[Cu-Zn-ratio]] -- Most consistent discriminator; recognized biomarker of systemic inflammation and oxidative stress
+- -- Most consistent discriminator; recognized biomarker of systemic inflammation and oxidative stress

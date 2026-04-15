@@ -71,7 +71,6 @@ Practical guidance for reducing dietary nickel [[zirwas-2009-dietary-nickel-derm
 
 Target intake for sensitized individuals: **100-150 μg/day** may be beneficial [[tuchman-2015-nickel-dermatitis-children]].
 
-
 ## Key Sources
 
 - [[ahlstrom-2019-nickel-allergy-review]]

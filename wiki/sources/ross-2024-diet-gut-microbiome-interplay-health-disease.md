@@ -25,11 +25,11 @@ platform: wikibiome
 
 - **Type**: Comprehensive review article
 - **Figure 1**: Macronutrient composition of whole diets and their effects on bacterial taxa and metabolite production for Mediterranean, high-fibre, plant-based, high-protein, ketogenic, and Western diets
-- **Key diet-microbiome interactions**:
-  - Fibre: SCFAs produced via GPCR41/43 signaling -> GLP1, PYY secretion -> appetite regulation, immune modulation; butyrate is energy source for colonocytes
-  - Protein: broken down by *Bacteroides*, *Bacillus*, *Clostridium*, *Propionibacterium*, *Fusobacterium*; amino acids fermented to SCFAs (butyrate from lysine/glutamate, acetate from alanine)
-  - PUFAs: increase *Bifidobacterium spp.* and butyrate-producing bacteria; decrease *Enterobacterium spp.*
-  - Polyphenols: 95% reach colon for microbial metabolism -> phenolic acids with cardioprotective properties
+
+ - Fibre: SCFAs produced via GPCR41/43 signaling -> GLP1, PYY secretion -> appetite regulation, immune modulation; butyrate is energy source for colonocytes
+ - Protein: broken down by *Bacteroides*, *Bacillus*, *Clostridium*, *Propionibacterium*, *Fusobacterium*; amino acids fermented to SCFAs (butyrate from lysine/glutamate, acetate from alanine)
+ - PUFAs: increase *Bifidobacterium spp.* and butyrate-producing bacteria; decrease *Enterobacterium spp.*
+ - Polyphenols: 95% reach colon for microbial metabolism -> phenolic acids with cardioprotective properties
 - **Global diets**: Prevotella/Bacteroidetes dominance varies with geography; Westernization reduces *Prevotella copri* prevalence
 
 ## Source Pages
@@ -39,5 +39,5 @@ pp. 671-678
 ## Connections
 
 - Comprehensive framework linking diet types to [[cardiovascular disease]] risk via microbiome
-- Links to [[precision nutrition]] and microbiome-based therapies
-- Relevant to [[tmao]], [[short-chain-fatty-acids]], and [[bile acid]] metabolism pathways
+- Links to and microbiome-based therapies
+- Relevant to [[tmao]], [[short-chain-fatty-acids]], and metabolism pathways

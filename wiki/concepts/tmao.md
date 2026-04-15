@@ -75,7 +75,6 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 - **Resveratrol**: Remodels gut microbiota to reduce TMA-producing taxa.
 - **FMT**: Potential to restore SCFA/TMAO balance by reintroducing beneficial communities.
 
-
 ## Key Sources
 
 - [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]]

@@ -1,14 +1,36 @@
 ---
-
 title: "Exploring the gut mycobiome: differential composition and clinical associations in hypertension, chronic kidney disease, and their comorbidity"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Juan Qiu, Longyou Zhao, Yiwen Cheng, Qiaoxia Chen, Yiran Xu, Yingfeng Lu, Jie Gao, Wenhui Lei, Chengmin Yan, Zongxin Ling, Shaochang Wu]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Juan Qiu
+  - Longyou Zhao
+  - Yiwen Cheng
+  - Qiaoxia Chen
+  - Yiran Xu
+  - Yingfeng Lu
+  - Jie Gao
+  - Wenhui Lei
+  - Chengmin Yan
+  - Zongxin Ling
+  - Shaochang Wu
 journal: Frontiers in Immunology
 year: 2023
 doi: 10.3389/fimmu.2023.1317809
-tags: [cardiovascular-disease, CVD, mycobiome, fungal-dysbiosis, hypertension, chronic-kidney-disease, Candida, Aspergillus, Saccharomyces, Apiotrichum, cytokines, renal-function]
+tags:
+  - cardiovascular-disease
+  - CVD
+  - mycobiome
+  - fungal-dysbiosis
+  - hypertension
+  - chronic-kidney-disease
+  - Candida
+  - Aspergillus
+  - Saccharomyces
+  - Apiotrichum
+  - cytokines
+  - renal-function
 platform: wikibiome
 ---
 

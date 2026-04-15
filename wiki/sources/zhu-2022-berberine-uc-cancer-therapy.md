@@ -9,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 tags: [colon-cancer, berberine, drug-repurposing, ulcerative-colitis, NF-kB, AMPK, Wnt-beta-catenin, gut-microbiota, inflammation, Fusobacterium-nucleatum, macrophage-polarization, colorectal-cancer]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

@@ -66,7 +66,6 @@ Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a fami
 
 NF-kB inhibition is a therapeutic target across multiple metal-associated diseases. Anti-inflammatory dietary patterns (e.g., [[mediterranean-diet]]) may partially exert their effects through NF-kB suppression. However, complete NF-kB blockade compromises immune defense, creating a therapeutic window challenge.
 
-
 ## Key Sources
 
 - [[briffa-2020-heavy-metal-pollution-environment-toxicology]]

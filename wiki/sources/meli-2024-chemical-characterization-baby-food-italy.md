@@ -33,10 +33,10 @@ platform: wikibiome
 
 ## Connections
 
-- [[nickel]] finding at 85.7% of PTWI is notable for the [[nickel toxicology]] wiki, showing near-threshold exposure from a single food source
-- Complements [[Gonzalez-Suarez et al 2022]] Spanish jar study with Italian EU-market data
-- Mercury finding in cereal cream relevant to [[mercury in infant food]] topic
-- Aluminum levels generally low compared to [[Redgrove et al 2019]] prescription formula findings
-- Provides EU regulatory context (EC Regulation 1881/2006) for comparison with Chinese limits in [[Su et al 2020]]
-- Supports [[Hopfner et al 2025]] German data showing formula contamination patterns across Europe
+- [[nickel]] finding at 85.7% of PTWI is notable for the wiki, showing near-threshold exposure from a single food source
+- Complements Spanish jar study with Italian EU-market data
+- Mercury finding in cereal cream relevant to topic
+- Aluminum levels generally low compared to prescription formula findings
+- Provides EU regulatory context (EC Regulation 1881/2006) for comparison with Chinese limits in 
+- Supports German data showing formula contamination patterns across Europe
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility during early feeding

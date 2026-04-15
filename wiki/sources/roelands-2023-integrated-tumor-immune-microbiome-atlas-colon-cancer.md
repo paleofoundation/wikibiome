@@ -25,14 +25,14 @@ platform: wikibiome
 
 - **Type**: Cohort study (AC-ICAM: 348 treatment-naive primary colon cancer patients)
 - **Platforms**: RNA-seq (348 tumor), immunoSEQ (114 tumor/9 normal), WES (281 tumor/281 normal), 16S rRNA gene seq (246+42 tumor/normal), WGS (167 tumor)
-- **Key findings**:
-  - ICR score stratified into high/med/low; significantly associated with OS and PFS
-  - CMS4 had worst outcome; CMS subtypes associated with distinct immune and molecular features
-  - TCR clonality strongly correlated with ICR score (r = 0.61, p = 8.6 x 10^-13)
-  - *Fusobacterium* and *F. nucleatum* abundances associated with advanced stage, BRAF mutations, MSI-H status
-  - *Selenomonas* and *Selenomonas 3* taxa most significantly increased in ICR-high vs ICR-low tumors
-  - MBR classifier: 41 features (taxa) with coefficient different to zero; *R. bromii* associated with favorable outcome
-  - mICRoScore combined MBR + ICR identifies high-survival group (HR = 0.31, p = 0.015)
+
+ - ICR score stratified into high/med/low; significantly associated with OS and PFS
+ - CMS4 had worst outcome; CMS subtypes associated with distinct immune and molecular features
+ - TCR clonality strongly correlated with ICR score (r = 0.61, p = 8.6 x 10^-13)
+ - *Fusobacterium* and *F. nucleatum* abundances associated with advanced stage, BRAF mutations, MSI-H status
+ - *Selenomonas* and *Selenomonas 3* taxa most significantly increased in ICR-high vs ICR-low tumors
+ - MBR classifier: 41 features (taxa) with coefficient different to zero; *R. bromii* associated with favorable outcome
+ - mICRoScore combined MBR + ICR identifies high-survival group (HR = 0.31, p = 0.015)
 
 ## Connections
 

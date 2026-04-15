@@ -133,7 +133,6 @@ A patchwork of regulations exists:
 - **Baby food**: The FDA "Closer to Zero" action plan (2021) addresses metals in baby food but implementation is ongoing; no infant-specific maximum residue limits accounting for higher bioavailability
 - **Consumer products**: Tampons not required to be tested for metals in the US; no harmonized standards for metals in menstrual products
 
-
 ## Key Sources
 
 - [[briffa-2020-heavy-metal-pollution-environment-toxicology]]

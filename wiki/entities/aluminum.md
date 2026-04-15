@@ -119,12 +119,12 @@ The Al-AD link remains one of the most **controversial** questions in metal toxi
 ## Connections
 
 - [[alzheimers-disease]] -- the most debated Al-disease association; OR 1.71 from meta-analysis
-- [[baby-food-safety]] -- Al is a major contaminant across formula and complementary foods worldwide
-- [[infant-formula]] -- contamination ranges from 41 ug/L to 1956 ug/L across brands
+- -- Al is a major contaminant across formula and complementary foods worldwide
+- -- contamination ranges from 41 ug/L to 1956 ug/L across brands
 - [[developmental-metal-vulnerability]] -- infants are disproportionately vulnerable to Al due to immature BBB and renal clearance
 - [[nickel]] -- co-contaminant in baby food; shared regulatory frameworks
 - [[cadmium]] -- co-contaminant in infant formulas and baby foods
 - [[nutritional-immunity]] -- Al has no known role in host-pathogen metal competition (unlike Fe, Mn, Zn)
 - [[metallomics]] -- serum Al serves as a lung cancer biomarker in metallomic panels
-- [[bioaccessibility]] -- Al bioaccessibility varies 0.5-48%, making total content misleading
+- -- Al bioaccessibility varies 0.5-48%, making total content misleading
 - [[oxidative-stress]] -- indirect ROS generation mechanism differs from Fenton-active metals

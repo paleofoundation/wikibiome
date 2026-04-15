@@ -9,6 +9,10 @@ journal: "BMC Psychiatry"
 doi: "10.1186/s12888-025-06965-3"
 tags: [schizophrenia, mycobiome, Purpureocillium, Aspergillus, amino-acid-metabolism, cognitive-function, first-episode, drug-naive, 2-oxoarginine, N-acetylserotonin, ergothioneine, isobutyric-acid, biotin, oxidative-stress, inflammation, mediation-analysis]
 platform: wikibiome
+karen_brain_primitives: [9]
+metals_discussed: []
+taxa_discussed: ["Aspergillus", "Purpureocillium"]
+evidence_level: cross-sectional
 ---
 
 # Why This Paper Matters
@@ -22,9 +26,9 @@ This paper provides direct evidence linking a specific gut fungal genus -- Purpu
 - **Purpureocillium abundance** was negatively correlated with multiple cognitive domains (SOP, AV, working memory, visual learning, reasoning)
 - **SCZ-related metabolic markers** (2-oxoarginine, N-acetylserotonin, ergothioneine, isobutyric acid, biotin) were significantly associated with both Purpureocillium abundance and cognitive scores
 - **Mediation analysis** revealed that Purpureocillium had significant direct and indirect effects on SOP and AV through metabolic markers:
-  - 2-Oxoarginine mediated Purpureocillium -> SOP
-  - N-Acetylserotonin mediated Purpureocillium -> SOP
-  - Ergothioneine mediated Purpureocillium -> AV
+ - 2-Oxoarginine mediated Purpureocillium -> SOP
+ - N-Acetylserotonin mediated Purpureocillium -> SOP
+ - Ergothioneine mediated Purpureocillium -> AV
 - Purpureocillium and the metabolic markers were correlated with **inflammation and oxidative stress**, both hallmarks of SCZ pathogenesis
 - The **Purpureocillium/Aspergillus (P/A) ratio** may serve as a potential biomarker, as Aspergillus has anti-inflammatory properties while Purpureocillium exhibits cytotoxic effects
 - Previous work identified Purpureocillium and Aspergillus as key fungal markers in SCZ; this study extends those findings to cognitive correlates

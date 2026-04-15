@@ -41,7 +41,7 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- tailored dietary and microbiome interventions
 - [[gut-microbiome]] -- precision nutrition based on microbiome signatures
-- [[diet]] -- dietary interventions for neurodevelopmental disorders
-- [[neurodevelopment]] -- early life nutritional influences
+- -- dietary interventions for neurodevelopmental disorders
+- -- early life nutritional influences
 - [[gut-brain-axis]] -- dietary modulation of brain development
-- [[precision-medicine]] -- microbiome-guided nutritional approaches
+- -- microbiome-guided nutritional approaches

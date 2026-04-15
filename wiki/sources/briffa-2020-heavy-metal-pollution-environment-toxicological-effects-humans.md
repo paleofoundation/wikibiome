@@ -110,15 +110,15 @@ The paper provides detailed regulatory threshold tables for each metal across mu
 ## Connections
 
 - Master reference for the [[heavy-metals]] topic -- covers more metals in a single source than any other paper in the wiki
-- [[oxidative-stress]] as the unifying molecular mechanism across all toxic metals -- connects to [[Balali-Mood et al. 2021|balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
-- [[nickel]] toxicology section complements [[Genchi et al. 2020|genchi-2020-nickel-human-health-environmental-toxicology]] with additional detail on NF-kB and ATF-1 pathways
-- Aluminum-Alzheimers link connects to [[Corkins 2019|corkins-2019-aluminum-effects-infants-children]] and [[Ahmed et al. 2025|ahmed-2025-metals-alzheimers-mechanistic-review]]
+- [[oxidative-stress]] as the unifying molecular mechanism across all toxic metals -- connects to 
+- [[nickel]] toxicology section complements with additional detail on NF-kB and ATF-1 pathways
+- Aluminum-Alzheimers link connects to and 
 - IARC classification table (Table 1) provides the authoritative framework referenced across all metal carcinogenicity discussions
-- [[cadmium]] developmental toxicity section connects to [[Chandravanshi et al. 2021|chandravanshi-2021-developmental-cadmium-toxicity-children]]
+- [[cadmium]] developmental toxicity section connects to 
 - [[chromium]] carcinogenicity pathways (Figure 5) relevant to occupational exposure discussions
-- [[manganese]] neurotoxicity and Parkinson's mimicry relevant to [[Balestrino 2020|balestrino-2020-systematic-review-parkinsons-basal-ganglia]]
-- Lead effects on children's neurodevelopment relevant to [[developmental-neurotoxicity]] and [[dietary-metal-exposure]]
-- Mercury and Minamata disease data relevant to [[methylmercury]] exposure discussions
+- [[manganese]] neurotoxicity and Parkinson's mimicry relevant to 
+- Lead effects on children's neurodevelopment relevant to and 
+- Mercury and Minamata disease data relevant to exposure discussions
 - Copper and Wilson's disease section relevant to [[copper]] homeostasis discussions
-- Food source lists for each metal are directly relevant to [[dietary-metal-exposure]] and dietary intervention planning
-- Regulatory threshold tables essential for [[occupational-exposure]] risk assessment
+- Food source lists for each metal are directly relevant to and dietary intervention planning
+- Regulatory threshold tables essential for risk assessment

@@ -1,15 +1,38 @@
 ---
-
-title: "Heavy Metals Exposure and Alzheimer's Disease and Related Dementias"
+title: Heavy Metals Exposure and Alzheimer's Disease and Related Dementias
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Bakulski KM, Seo YA, Hickman RC, Brandt D, Vadari HS, Hu H, Park SK]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Bakulski KM
+  - Seo YA
+  - Hickman RC
+  - Brandt D
+  - Vadari HS
+  - Hu H
+  - Park SK
 journal: Journal of Alzheimer's Disease
 year: 2020
-tags: [heavy-metals, Alzheimers-disease, dementia, lead, mercury, cadmium, arsenic, manganese, exposure-assessment, epidemiology]
-doi: "10.3233/JAD-200282"
+tags:
+  - heavy-metals
+  - Alzheimers-disease
+  - dementia
+  - lead
+  - mercury
+  - cadmium
+  - arsenic
+  - manganese
+  - exposure-assessment
+  - epidemiology
+doi: 10.3233/JAD-200282
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Synthesizes epidemiological evidence linking lead (lifetime cumulative exposure), mercury (organic and inorganic forms), cadmium, and arsenic to Alzheimer's disease and related dementias through multiple pathways: direct neurotoxicity, calcium channel disruption, and epigenetic silencing. Critical for WikiBiome because it establishes metal exposure assessment methodology (bone lead vs. blood lead, biomarker selection) essential for accurate metallomics phenotyping across neurodegenerative disease signatures."
 ---
 
 # Key Claims
@@ -23,33 +46,33 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Comprehensive review of epidemiological and mechanistic evidence linking heavy metals to ADRD (published in J Alzheimer's Dis, 2020)
-- **Lead**:
-  - Most studied metal for AD risk; bone lead (tibia/patella) reflects cumulative lifetime exposure
-  - Higher tibia lead levels associated with cognitive decline in older adults
-  - Early-life lead exposure produces latent effects on AD-related gene expression through epigenetic mechanisms
-  - Lead disrupts calcium signaling, promotes oxidative stress, and affects protein phosphorylation
-- **Mercury**:
-  - Both inorganic and organic (methylmercury) forms have neurotoxic potential
-  - Mercury can increase amyloid-beta production and tau phosphorylation
-  - Fish consumption (source of methylmercury) also provides neuroprotective omega-3 fatty acids, creating confounding
-  - Occupational mercury exposure studies show mixed results for dementia risk
-- **Cadmium**:
-  - Blood cadmium associated with lower cognitive scores in cross-sectional studies
-  - Cd may interfere with calcium channels and disrupt neurotransmitter release
-  - Cigarette smoking is a major non-dietary source of cadmium exposure
-- **Arsenic**:
-  - Drinking water arsenic exposure linked to cognitive deficits in some populations
-  - Arsenic interferes with mitochondrial function and promotes oxidative stress
-  - Limited epidemiological evidence specifically for AD
-- **Manganese**:
-  - Essential nutrient at low levels but neurotoxic at high levels
-  - Primarily affects basal ganglia (parkinsonism) rather than cortical areas (AD)
-  - Occupational exposure (welding, mining) is primary concern
-- **Methodological considerations**:
-  - Different biomarkers reflect different exposure windows (acute vs. cumulative)
-  - Need for longitudinal studies with repeated measures
-  - Importance of considering metal mixtures rather than single exposures
-  - Gene-environment interactions (e.g., APOE genotype) may modify metal-AD associations
+
+ - Most studied metal for AD risk; bone lead (tibia/patella) reflects cumulative lifetime exposure
+ - Higher tibia lead levels associated with cognitive decline in older adults
+ - Early-life lead exposure produces latent effects on AD-related gene expression through epigenetic mechanisms
+ - Lead disrupts calcium signaling, promotes oxidative stress, and affects protein phosphorylation
+
+ - Both inorganic and organic (methylmercury) forms have neurotoxic potential
+ - Mercury can increase amyloid-beta production and tau phosphorylation
+ - Fish consumption (source of methylmercury) also provides neuroprotective omega-3 fatty acids, creating confounding
+ - Occupational mercury exposure studies show mixed results for dementia risk
+
+ - Blood cadmium associated with lower cognitive scores in cross-sectional studies
+ - Cd may interfere with calcium channels and disrupt neurotransmitter release
+ - Cigarette smoking is a major non-dietary source of cadmium exposure
+
+ - Drinking water arsenic exposure linked to cognitive deficits in some populations
+ - Arsenic interferes with mitochondrial function and promotes oxidative stress
+ - Limited epidemiological evidence specifically for AD
+
+ - Essential nutrient at low levels but neurotoxic at high levels
+ - Primarily affects basal ganglia (parkinsonism) rather than cortical areas (AD)
+ - Occupational exposure (welding, mining) is primary concern
+
+ - Different biomarkers reflect different exposure windows (acute vs. cumulative)
+ - Need for longitudinal studies with repeated measures
+ - Importance of considering metal mixtures rather than single exposures
+ - Gene-environment interactions (e.g., APOE genotype) may modify metal-AD associations
 
 # Connections
 

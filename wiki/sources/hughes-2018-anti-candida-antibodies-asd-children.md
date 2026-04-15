@@ -42,5 +42,5 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- anti-Candida antibodies as new microbial risk factor
 - [[candida-albicans]] -- fungal overgrowth and immune response in ASD
 - [[gut-microbiome]] -- mycobiome component of ASD dysbiosis
-- [[immune-system]] -- IgG antibody response to fungal antigens in ASD
-- [[gastrointestinal-symptoms]] -- GI dysfunction associated with Candida positivity
+- -- IgG antibody response to fungal antigens in ASD
+- -- GI dysfunction associated with Candida positivity

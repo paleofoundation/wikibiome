@@ -35,6 +35,6 @@ platform: wikibiome
 ## Connections
 
 - Blood virome in autoimmune diseases directly relevant to viral triggers of [[Hashimoto's thyroiditis]] discussed in [[weider-2022-viruses-thyroid-tissue]] and [[li-2025-viral-infection-thyroid-disorders]]
-- Endoimmunity concept (immune response to endogenous viral elements) novel framework for understanding [[Thyroid Autoimmunity]]
-- Anellovirus load as disease severity marker connects to [[Virome]] research in thyroid autoimmunity
+- Endoimmunity concept (immune response to endogenous viral elements) novel framework for understanding 
+- Anellovirus load as disease severity marker connects to research in thyroid autoimmunity
 - Methodology applicable to future virome studies in AITD populations

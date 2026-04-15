@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, arsenic, fluoride, learning-memory, gut-microbi
 library_category: heavy-metals
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: [1]
+metals_discussed: ["arsenic"]
+taxa_discussed: []
+evidence_level: animal-model
 ---
 
 # Key Claims
@@ -36,4 +40,4 @@ condition: "autism spectrum disorder"
 - [[arsenic]] -- microbiome-mediated learning and memory impairment
 - [[heavy-metals]] -- metal-microbiome-brain axis in neurotoxicity
 - [[gut-microbiome]] -- arsenic/fluoride-induced dysbiosis affecting brain function
-- [[tryptophan]] -- metabolic pathway disrupted by arsenic/fluoride exposure
+- -- metabolic pathway disrupted by arsenic/fluoride exposure

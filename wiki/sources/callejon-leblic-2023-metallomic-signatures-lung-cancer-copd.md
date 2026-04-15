@@ -23,10 +23,10 @@ platform: wikibiome
 
 - **Study design**: Observational study of 191 serum samples from the CHAIN cohort (COPD History Assessment in SpaiN): 47 LC, 90 COPD (subdivided by severity), 54 healthy controls (HC), and 16 COPD-LC patients
 - **Analytical method**: ICP-MS analysis of 18 elements (V, Al, As, Mn, Co, Cu, Zn, Cd, Se, W, Mo, Sb, Pb, Tl, Cr, Mg, Ni, U)
-- **Key findings by group**:
-  - **LC vs HC**: Al increased 2.35-fold, As 1.35-fold, Mn 1.26-fold, Pb 1.87-fold (all p = 0.00)
-  - **COPD vs HC**: Mg increased 1.38-fold, Sb 1.33-fold; As decreased 0.68-fold, Cd 0.59-fold, Tl 0.67-fold
-  - **COPD-LC vs HC**: Most altered group -- Mg 1.60-fold, Ni 1.37-fold, Se 1.23-fold increased; As 0.23-fold, Cd 0.08-fold, Mn 0.41-fold, Pb 0.04-fold decreased
+
+ - **LC vs HC**: Al increased 2.35-fold, As 1.35-fold, Mn 1.26-fold, Pb 1.87-fold (all p = 0.00)
+ - **COPD vs HC**: Mg increased 1.38-fold, Sb 1.33-fold; As decreased 0.68-fold, Cd 0.59-fold, Tl 0.67-fold
+ - **COPD-LC vs HC**: Most altered group -- Mg 1.60-fold, Ni 1.37-fold, Se 1.23-fold increased; As 0.23-fold, Cd 0.08-fold, Mn 0.41-fold, Pb 0.04-fold decreased
 - **ROC analysis**: Al and Mn had AUC values close to 1 for LC vs HC comparison; As, Al, Mn, Pb, Mg, and Cr showed AUC > 0.75 as potential biomarkers for LC vs COPD-LC
 - **PCA/PLS-DA**: Clear separation between HC, LC, COPD, and COPD-LC groups; Al, As, Pb, and Zn showed VIP > 1 across multiple comparisons
 - **Metal correlations**: Distinct correlation patterns between disease groups -- HC group showed more positive metal-metal correlations (e.g., Zn-Se rho=0.69, Cu-Fe rho=0.65) that were disrupted in LC and COPD-LC groups, indicating dysregulated metal homeostasis

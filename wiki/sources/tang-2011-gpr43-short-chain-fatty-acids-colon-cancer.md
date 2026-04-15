@@ -25,13 +25,13 @@ platform: wikibiome
 
 - **Type**: Experimental study (human colon cancer cell lines + tissue microarray)
 - **Methods**: Immunohistochemistry on tissue arrays; RT-PCR; GPR43 overexpression constructs; flow cytometry cell cycle analysis; Annexin V apoptosis assays; Western blots for caspases and cell cycle regulators
-- **Key findings**:
-  - GPR43 immunoreactivity: ~80% reduced in malignant adenocarcinoma (N = 70); reduced in polyp (N = 12), hyperplasia (N = 18), and metastatic lymph node adenocarcinoma (N = 30)
-  - GPR43 mRNA detected in only 1 of 9 colon cancer cell lines (HT-29)
-  - Restored GPR43 + propionate: IC50 decreased from 5 mM to 2 mM; butyrate IC50 from 2 mM to 0.8 mM
-  - Apoptosis: increased Annexin V positive cells; activation of caspases 3, 6, 7, 8; Bad upregulation; Bcl-2 and Survivin downregulation
-  - Cell cycle: G0/G1 arrest with decreased S and G2/M phase; upregulation of p21 Waf1/Cip1; downregulation of cyclin D1/D3, CDK1, CDK2
-  - Azadeoxycytidine (DNA methyltransferase inhibitor) restored GPR43 expression in HT-29 cells; TSA did not
+
+ - GPR43 immunoreactivity: ~80% reduced in malignant adenocarcinoma (N = 70); reduced in polyp (N = 12), hyperplasia (N = 18), and metastatic lymph node adenocarcinoma (N = 30)
+ - GPR43 mRNA detected in only 1 of 9 colon cancer cell lines (HT-29)
+ - Restored GPR43 + propionate: IC50 decreased from 5 mM to 2 mM; butyrate IC50 from 2 mM to 0.8 mM
+ - Apoptosis: increased Annexin V positive cells; activation of caspases 3, 6, 7, 8; Bad upregulation; Bcl-2 and Survivin downregulation
+ - Cell cycle: G0/G1 arrest with decreased S and G2/M phase; upregulation of p21 Waf1/Cip1; downregulation of cyclin D1/D3, CDK1, CDK2
+ - Azadeoxycytidine (DNA methyltransferase inhibitor) restored GPR43 expression in HT-29 cells; TSA did not
 
 ## Connections
 

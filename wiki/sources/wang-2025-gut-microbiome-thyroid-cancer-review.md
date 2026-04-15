@@ -10,6 +10,9 @@ year: 2025
 doi: "10.3892/ol.2025.15114"
 tags: [hashimotos-thyroiditis, thyroid, thyroid-cancer, gut-microbiota, SCFAs, bile-acids, probiotics, Clostridium, Streptococcus, Lactobacillus, Prevotella, Ruminococcaceae, iodine, selenium, iron, estrogen, obesity, insulin-resistance, Mendelian-randomization, RAI, FMT, gut-thyroid-axis, keto-diet]
 platform: wikibiome
+karen_brain_primitives: [5, 7]
+metals_discussed: ["iodine", "iron", "selenium"]
+taxa_discussed: ["Clostridium", "Lactobacillus", "Prevotella", "Streptococcus"]
 ---
 
 # Gut Microbiome Versus Thyroid Cancer: Association and Clinical Implications (Review)
@@ -42,4 +45,4 @@ platform: wikibiome
 - Lactobacillus and selenium connection relates to [[brock-2015-selenium-thyroid-autoimmunity]] and [[brylinski-2025-trace-elements-thyroid-diseases]]
 - LT4-microbiome drug interaction relevant to probiotic supplementation findings in [[shu-2024-probiotics-prebiotics-thyroid-function-meta-analysis]]
 - Dietary fiber and SCFA production from keto/low-carb diets may reduce protective Prevotellaceae and Ruminococcaceae
-- FMT discussion relevant to emerging [[Fecal Microbiota Transplantation]] strategies for autoimmune thyroid diseases
+- FMT discussion relevant to emerging strategies for autoimmune thyroid diseases

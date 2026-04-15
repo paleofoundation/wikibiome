@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, maternal-infection, pregnancy, bacterial-infect
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+evidence_level: retrospective-cohort
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -34,6 +38,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- maternal infection severity and type as ASD risk factors
-- [[maternal-infection]] -- hospital-requiring and bacterial infections increase ASD risk
-- [[immune-system]] -- maternal immune activation during pregnancy
-- [[prenatal-risk-factors]] -- infection as modifiable prenatal risk factor
+- -- hospital-requiring and bacterial infections increase ASD risk
+- -- maternal immune activation during pregnancy
+- -- infection as modifiable prenatal risk factor

@@ -57,7 +57,6 @@ The Jangi 2016 findings position *Butyricimonas* as a key anti-inflammatory spec
 - The anti-inflammatory effect parallels that of [[faecalibacterium-prausnitzii]] but from within the Bacteroidetes phylum, providing taxonomic diversity in the butyrate-producing consortium.
 - Loss of *Butyricimonas* in MS may contribute to the reduced serum butyric acid levels and increased gut permeability documented in MS patients.
 
-
 ## Key Sources
 
 - [[bronzini-2023-feeding-gut-microbiome-ms]]

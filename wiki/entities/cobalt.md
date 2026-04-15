@@ -86,7 +86,7 @@ Concomitant nickel-cobalt contact allergy is well established:
 ## Connections
 
 - [[nickel]] -- shared transport systems (NiCoT), cross-reactive allergy, overlapping dietary sources
-- [[vitamin-b12]] -- cobalt is the essential metal center of cobalamin
+- -- cobalt is the essential metal center of cobalamin
 - [[helicobacter-pylori]] -- CznABC pump exports Co; NiCoT transporters handle both Ni and Co
 - [[staphylococcus-aureus]] -- staphylopine metallophore binds cobalt
 - [[nutritional-immunity]] -- Co sequestration as part of host metal restriction strategy

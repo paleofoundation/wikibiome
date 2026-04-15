@@ -1,16 +1,38 @@
 ---
-title: "Yu 2025 — The Gut Commensal Faecalibacterium hominis Attenuates Indole-AhR Signaling and Restores ASD-Like Behaviors with BTBR Mice"
+title: Yu 2025 — The Gut Commensal Faecalibacterium hominis Attenuates Indole-AhR Signaling and Restores ASD-Like Behaviors with BTBR Mice
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [You Yu, Yujing Wang, Jie Zhang, Shucheng Li, Yulin Wang, Xin You, Xue Chen, Mengxuan Du, Lisheng Xie, Shuang-Jiang Liu]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - You Yu
+  - Yujing Wang
+  - Jie Zhang
+  - Shucheng Li
+  - Yulin Wang
+  - Xin You
+  - Xue Chen
+  - Mengxuan Du
+  - Lisheng Xie
+  - Shuang-Jiang Liu
 year: 2025
-journal: "Frontiers in Microbiology"
-doi: "10.3389/fmicb.2025.1640149"
-tags: [autism-spectrum-disorder, Faecalibacterium-hominis, indole, AhR, BTBR, probiotic, glutamate-transporters, GABA-receptors, excitatory-inhibitory-balance, Peptococcus, tryptophan-metabolism]
+journal: Frontiers in Microbiology
+doi: 10.3389/fmicb.2025.1640149
+tags:
+  - autism-spectrum-disorder
+  - Faecalibacterium-hominis
+  - indole
+  - AhR
+  - BTBR
+  - probiotic
+  - glutamate-transporters
+  - GABA-receptors
+  - excitatory-inhibitory-balance
+  - Peptococcus
+  - tryptophan-metabolism
 library_category: causal
 platform: animal-model-16S-metabolomics
-condition: "autism spectrum disorder (BTBR mouse model)"
+condition: autism spectrum disorder (BTBR mouse model)
+evidence_level: animal-model
 ---
 
 # Overview

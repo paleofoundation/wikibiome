@@ -80,5 +80,5 @@ Magnesium deficiency is consistently associated with metabolic features of PCOS:
 - [[oxidative-stress]] -- Mg supplementation reduces TNF-alpha and improves antioxidant status in PCOS
 - [[selenium]], [[zinc]], [[chromium]] -- co-supplemented with Mg in PCOS clinical trials
 - [[iron]] -- both are essential minerals frequently deficient in reproductive-age women
-- [[mis-metallation|calcium]] -- Mg and Ca interact in bone metabolism, muscle contraction, and mTOR signaling
+- [[mis-metallation]] -- Mg and Ca interact in bone metabolism, muscle contraction, and mTOR signaling
 - [[metabolic-syndrome]] -- Mg deficiency linked to insulin resistance and T2DM

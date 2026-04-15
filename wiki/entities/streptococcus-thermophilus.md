@@ -190,17 +190,17 @@ pathogenic_potential: commensal
 
 ## Connections
 
-- [[lactose-intolerance]] – β-galactosidase enables lactose digestion in dairy products
-- [[dairy-fermentation]] – primary organism in yogurt production; key for food preservation
-- [[lactic-acid]] – primary fermentation product; acidifies colon
-- [[nutritional-immunity|intestinal-barrier-function]] – promotes tight junction protein expression and Treg differentiation
-- [[immune-tolerance]] – anti-inflammatory; promotes IL-10 and Treg responses
+- – β-galactosidase enables lactose digestion in dairy products
+- – primary organism in yogurt production; key for food preservation
+- – primary fermentation product; acidifies colon
+- [[nutritional-immunity|nutritional immunity]] – promotes tight junction protein expression and Treg differentiation
+- – anti-inflammatory; promotes IL-10 and Treg responses
 - [[dysbiosis]] – transient therapeutic intervention; not a permanent colonizer
-- [[antibiotic-associated-diarrhea]] – modest risk reduction when coadministered with antibiotics
+- – modest risk reduction when coadministered with antibiotics
 - [[short-chain-fatty-acids]] – indirect producer via lactate cross-feeding of butyrate-producing bacteria
 - [[faecalibacterium-prausnitzii]] – lactate-consuming biofilm partner; synergistic ecosystem
 - [[roseburia]] – secondary consumer of S. thermophilus lactate; butyrate producer
 - [[manganese]] – metal cofactor for β-galactosidase activity
 - [[zinc]] – metalloenzyme cofactor; required for cell wall synthesis
 - [[probiotics]] – archetypal probiotic organism; GRAS-designated; oldest documented food probiotic
-- [[prebiotic]] – synbiotics with inulin/FOS enhance probiotic efficacy
+- – synbiotics with inulin/FOS enhance probiotic efficacy

@@ -10,6 +10,7 @@ year: 2023
 doi: 10.3389/fmicb.2023.1272479
 tags: [cardiovascular-disease, CVD, gut-microbiota, metabolic-pathways, SCFAs, TMAO, bile-acids, LPS, hypertension, atherosclerosis, heart-failure, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Gut Macrobiotic and Its Metabolic Pathways Modulate Cardiovascular Disease

@@ -149,7 +149,6 @@ See [[dietary-metal-paradoxes]] for the broader pattern. AD-specific paradoxes i
 6. **Can metallomic brain profiling become an in vivo diagnostic?** Post-mortem data is extensive [[scholefield-2024-brain-metallomics-dementia]]; translating to MRI-based or biofluid-based diagnostics is the challenge.
 7. **APOE4 gene-metal interactions**: Does APOE genotype modify susceptibility to metal-driven AD pathways?
 
-
 ## Key Sources
 
 - [[bakulski-2025-heavy-metals-late-onset-alzheimers]]
@@ -166,11 +165,11 @@ See [[dietary-metal-paradoxes]] for the broader pattern. AD-specific paradoxes i
 ## Connections
 
 - **Metals**: [[copper]], [[iron]], [[lead]], [[zinc]], [[aluminum]], [[cadmium]], [[mercury]], [[arsenic]], [[manganese]], [[selenium]]
-- **Concepts**: [[ferroptosis]], [[amyloid-beta]], [[tau-hyperphosphorylation]], [[blood-brain-barrier]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[mis-metallation]], [[gut-brain-axis]]
+- **Concepts**: [[ferroptosis]], [[amyloid-beta]], [[blood-brain-barrier]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[mis-metallation]], [[gut-brain-axis]]
 - **Analyses**: [[metal-disease-matrix]], [[dietary-metal-paradoxes]]
 - **Related diseases**: [[parkinsons-disease]] (shared Fe/Cu brain dysregulation, ferroptosis, gut-brain axis), [[chronic-kidney-disease]] (shared ferroptosis pathway), [[type-2-diabetes]] ("type-3 diabetes" hypothesis)
 - **Pathogens**: [[helicobacter-pylori]] (increased in AD gut), [[escherichia-coli]] (curli cross-seeding with A-beta)
-- **Interventions**: [[iron-chelation]], [[mediterranean-diet]], [[probiotics]], [[selenium-supplementation]]
+- **Interventions**: [[mediterranean-diet]], [[probiotics]], [[selenium-supplementation]]
 - [[neurodegeneration]] -- AD is the most common neurodegenerative disease; ferroptosis, amyloid, and tau as convergent pathways
 - [[environmental-metal-exposure]] -- lifetime cumulative Pb, Al, and occupational metal exposure as AD risk factors
 - [[glutathione]] -- GSH depletion in AD brain enables iron-driven oxidative damage

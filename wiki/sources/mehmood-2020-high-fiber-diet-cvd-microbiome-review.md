@@ -26,16 +26,16 @@ platform: wikibiome
 
 - **Type**: Systematic review
 - **Included studies**: 32 studies from 534 initially identified, screened via Google Scholar, Science Open, and PubMed
-- **Key mechanisms**:
-  - Gut microbiota metabolize phosphatidylcholine and choline (from red meat) into TMA, then hepatic FMO3 converts TMA to TMAO
-  - TMAO promotes [[atherosclerosis]] by interrupting cholesterol transport and promoting foam cell formation
-  - SCFAs bind to GPCRs on kidney cells to modulate renin secretion and blood pressure
-  - Olfr78 promotes [[hypertension]] while GPR41 antagonizes it
-  - High-fiber diet corrects dysbiosis by increasing acetate-producing microbiota and decreasing the Firmicutes:Bacteroidetes ratio
-- **Clinical evidence**:
-  - 5-week high-fiber diet produced significant drops in fibrinogen (P=0.044) and [[CRP]] (P=0.017)
-  - 10-gram daily dietary fiber addition decreased heart attack risk (P=0.001)
-  - Whole grains showed highest inverse relationship with CVD; fruits and vegetables also protective
+
+ - Gut microbiota metabolize phosphatidylcholine and choline (from red meat) into TMA, then hepatic FMO3 converts TMA to TMAO
+ - TMAO promotes [[atherosclerosis]] by interrupting cholesterol transport and promoting foam cell formation
+ - SCFAs bind to GPCRs on kidney cells to modulate renin secretion and blood pressure
+ - Olfr78 promotes [[hypertension]] while GPR41 antagonizes it
+ - High-fiber diet corrects dysbiosis by increasing acetate-producing microbiota and decreasing the Firmicutes:Bacteroidetes ratio
+
+ - 5-week high-fiber diet produced significant drops in fibrinogen (P=0.044) and [[CRP]] (P=0.017)
+ - 10-gram daily dietary fiber addition decreased heart attack risk (P=0.001)
+ - Whole grains showed highest inverse relationship with CVD; fruits and vegetables also protective
 
 ## Source Pages
 
@@ -43,6 +43,6 @@ pp. 48-55
 
 ## Connections
 
-- Related to [[gut-brain axis]] and [[microbiome-diet interaction]]
+- Related to [[gut-brain axis]] and 
 - Complements [[Mediterranean diet]] research on CVD prevention
 - Links to [[prebiotics]] and [[probiotics]] as therapeutic strategies

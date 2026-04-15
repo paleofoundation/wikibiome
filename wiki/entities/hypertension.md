@@ -86,7 +86,6 @@ Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-co
 - Metal-induced renal damage impairs the kidney's central role in long-term BP regulation (sodium excretion, RAAS modulation, prostaglandin synthesis).
 - This creates a direct metal-to-hypertension pathway independent of the microbiome, though both pathways likely operate simultaneously.
 
-
 ## Key Sources
 
 - [[dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis]]

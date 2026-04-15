@@ -1,14 +1,37 @@
 ---
-
 title: "Gut microbiome in endometriosis: a cohort study on 1000 individuals"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Perez-Prieto I, Vargas E, Salas-Espejo E, Lull K, Canha-Gouveia A, Antequera Perez L, Fontes J, Salumets A, Andreson R, Aasmets O, Estonian Biobank research team, Whiteson K, Org E, Altmae S]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Perez-Prieto I
+  - Vargas E
+  - Salas-Espejo E
+  - Lull K
+  - Canha-Gouveia A
+  - Antequera Perez L
+  - Fontes J
+  - Salumets A
+  - Andreson R
+  - Aasmets O
+  - Estonian Biobank research team
+  - Whiteson K
+  - Org E
+  - Altmae S
 journal: BMC Medicine
 year: 2024
-tags: [endometriosis, gut-microbiome, shotgun-metagenomics, estrobolome, Clostridium, Ruminococcus, Estonian-Microbiome-cohort, large-cohort, KEGG, beta-glucuronidase]
-doi: "10.1186/s12916-024-03503-y"
+tags:
+  - endometriosis
+  - gut-microbiome
+  - shotgun-metagenomics
+  - estrobolome
+  - Clostridium
+  - Ruminococcus
+  - Estonian-Microbiome-cohort
+  - large-cohort
+  - KEGG
+  - beta-glucuronidase
+doi: 10.1186/s12916-024-03503-y
 platform: wikibiome
 ---
 
@@ -25,12 +48,12 @@ platform: wikibiome
 - **Study design**: Case-control within Estonian Microbiome cohort
 - **Participants**: 1,000 women (136 endometriosis by ICD-10, 864 controls)
 - **Methods**: Shotgun metagenomics, PAM clustering, estrobolome enzyme analysis, KEGG/eggNOG functional analysis
-- **Key results**:
-  - Two enterotypes identified: *P. copri*-dominated and *Bacteroides*-dominated; not correlated with endometriosis
-  - Shannon diversity and observed richness: no significant differences (all p>0.05)
-  - PERMANOVA on species-level: R2<0.0007, p>0.05
-  - Sensitivity analysis excluding women >50: similar null results
-  - 156 estrogen pathway-related enzymes (beta-glucuronidases): no significant differences
+
+ - Two enterotypes identified: *P. copri*-dominated and *Bacteroides*-dominated; not correlated with endometriosis
+ - Shannon diversity and observed richness: no significant differences (all p>0.05)
+ - PERMANOVA on species-level: R2<0.0007, p>0.05
+ - Sensitivity analysis excluding women >50: similar null results
+ - 156 estrogen pathway-related enzymes (beta-glucuronidases): no significant differences
 
 # Relevance to Wiki
 

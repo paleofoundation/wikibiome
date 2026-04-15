@@ -10,6 +10,7 @@ year: 2023
 doi: "10.1038/s41392-023-01334-6"
 tags: [colon-cancer, colorectal-cancer, mycobiome, pan-cancer, Candida, Saccharomycetes, Malassezia, hallmarks-of-cancer, fungal-DNA, tumor-microbiome, TCGA, Weizmann]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Zong 2023 -- Fungal Mycobiome as New Hallmark of Cancer

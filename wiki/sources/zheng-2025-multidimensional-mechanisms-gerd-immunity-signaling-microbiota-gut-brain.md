@@ -10,6 +10,10 @@ year: 2025
 doi: "10.3389/fimmu.2025.1629944"
 tags: [gerd, gastroesophageal-reflux, immunity, signaling-pathways, NF-kB, MAPK, PI3K-Akt, microbiota-gut-brain-axis, T-lymphocytes, dendritic-cells, mast-cells, cytokines, LES-dysfunction, traditional-chinese-medicine, berberine, quercetin, fermented-soybean, neuromodulation, immunotherapy, review]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: expert-opinion
 ---
 
 # Multidimensional mechanisms and therapies underlying gastroesophageal reflux disease: focus on immunity, signaling pathways, and the microbiota-gut-brain axis
@@ -29,11 +33,11 @@ platform: wikibiome
 - **Study type**: Comprehensive review of 109 referenced articles (2000-2024)
 - **Search**: PubMed, Google Scholar, Web of Science
 - **Therapeutic modalities reviewed** (Table 1):
-  - Non-drug: Anti-reflux mucosal resection, LES electrical stimulation
-  - Drug: PPIs, immunotherapy with dendritic cells
-  - Traditional Chinese Medicine: Hewei Jiangni granules, Jianpi Qinghua granules, berberine, fermented soybean
-  - Natural medicine: Rhei Rhizoma, geraniin, quercetin, atractylenolide III
-  - Multiple formulations: Zuojin Pill, Zhizhu Pill
+ - Non-drug: Anti-reflux mucosal resection, LES electrical stimulation
+ - Drug: PPIs, immunotherapy with dendritic cells
+ - Traditional Chinese Medicine: Hewei Jiangni granules, Jianpi Qinghua granules, berberine, fermented soybean
+ - Natural medicine: Rhei Rhizoma, geraniin, quercetin, atractylenolide III
+ - Multiple formulations: Zuojin Pill, Zhizhu Pill
 - **Key pathways**: MAPK/NF-kB inhibition (Zuojin Pill), PI3K/Akt/NF-kB inhibition (atractylenolide III), AMPK activation (berberine), Nrf2/HO-1 activation (Rhei Rhizoma)
 
 ## Connections

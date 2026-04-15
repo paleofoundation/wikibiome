@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Case-control at Peking Union Medical College Hospital
 - **Participants**: 37 EM/AM-CPP (group A), 25 CPPS without EM/AM (group B), 66 normal controls (group C)
 - **Methods**: 16S rRNA V4 sequencing (Illumina HiSeq2500), PICRUSt functional profiling
-- **Key results**:
-  - Group A had 626 species; Group B had 409; Group C had 465
-  - ANOSIM: R=0.122, P=0.002 between groups A and C
-  - LEfSe identified distinct clades for each group
-  - PICRUSt: 7 differentially regulated pathways between the 3 groups
-  - Prospective validation: sensitivity 70%, specificity 53.62% for combined biomarkers
+
+ - Group A had 626 species; Group B had 409; Group C had 465
+ - ANOSIM: R=0.122, P=0.002 between groups A and C
+ - LEfSe identified distinct clades for each group
+ - PICRUSt: 7 differentially regulated pathways between the 3 groups
+ - Prospective validation: sensitivity 70%, specificity 53.62% for combined biomarkers
 
 # Relevance to Wiki
 

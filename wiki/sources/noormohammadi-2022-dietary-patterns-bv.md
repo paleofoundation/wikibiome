@@ -25,10 +25,10 @@ platform: wikibiome
 - **Participants**: 144 incident BV cases and 151 healthy controls in Tehran, Iran (November 2020-June 2021); women aged 18-45
 - **BV diagnosis**: Amsel criteria (homogeneous discharge, vaginal pH >4.5, fish odor, >20% clue cells)
 - **Dietary assessment**: Validated 168-item FFQ; factor analysis (PCA) extracted 5 dietary patterns explaining 38.7% of total variance
-- **Key results**:
-  - Unhealthy diet (3rd tertile vs 1st): Base aOR = 2.45 (1.37-4.39); Full model aOR = 3.35 (1.41-7.94, p = 0.006)
-  - Ovo-vegetarian diet (3rd tertile vs 1st): Base aOR = 0.20 (0.10-0.39); Full model aOR = 0.16 (0.07-0.34, p < 0.001)
-  - BV cases had higher obesity (34.7% abdominal obesity vs 24.5%), more smoking, higher familial BV history, lower calcium supplement use
+
+ - Unhealthy diet (3rd tertile vs 1st): Base aOR = 2.45 (1.37-4.39); Full model aOR = 3.35 (1.41-7.94, p = 0.006)
+ - Ovo-vegetarian diet (3rd tertile vs 1st): Base aOR = 0.20 (0.10-0.39); Full model aOR = 0.16 (0.07-0.34, p < 0.001)
+ - BV cases had higher obesity (34.7% abdominal obesity vs 24.5%), more smoking, higher familial BV history, lower calcium supplement use
 - **Confounders adjusted**: Familial BV history, BMI, WC, cigarette smoking, energy intake, calcium supplement, physical activity
 
 # Connections

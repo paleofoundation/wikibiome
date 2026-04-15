@@ -23,13 +23,13 @@ platform: wikibiome
 - **Design**: Pilot study, pre-post design over 24 weeks (6 months)
 - **Participants**: 11 women enrolled (BMI >27 kg/m2, clinical PCOS diagnosis); 5 completed 24 weeks
 - **Intervention**: LCKD limiting carbohydrate to fewer than 20 g/day; unlimited animal foods, eggs, cheese, salad and low-carb vegetables; biweekly group meetings
-- **Key results in 5 completers**:
-  - Body weight: -12.1% (p = 0.006)
-  - Percent free testosterone: -22% (not statistically significant)
-  - LH/FSH ratio: -36% (p = 0.03)
-  - Fasting insulin: -54% (p = 0.002)
-  - Non-significant decreases in glucose, total testosterone, HgbA1c, triglyceride
-  - Two women became pregnant
+
+ - Body weight: -12.1% (p = 0.006)
+ - Percent free testosterone: -22% (not statistically significant)
+ - LH/FSH ratio: -36% (p = 0.03)
+ - Fasting insulin: -54% (p = 0.002)
+ - Non-significant decreases in glucose, total testosterone, HgbA1c, triglyceride
+ - Two women became pregnant
 - **Limitations**: Very small sample (n=5 completers), no control group, high dropout rate (54%), short duration
 
 # Connections

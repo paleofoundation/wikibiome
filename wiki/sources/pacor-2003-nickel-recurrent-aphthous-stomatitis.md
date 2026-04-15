@@ -24,13 +24,13 @@ platform: wikibiome
 - **Design**: Retrospective data analysis + prospective oral DBPC at University of Verona, Italy (1990-1999)
 - **Population**: 380 consecutive RAS patients (204 women, 176 men; age 22-60, mean 46 +/- 11); 70 (18.4%) patch-test positive to nickel; 25 controls (patch-test negative for nickel)
 - **Protocol**: Nickel-sensitive patients had orthodontic appliances replaced with nickel-free materials; those with persisting symptoms (n=70) underwent oral DBPC with nickel sulphate at increasing doses (1.25, 2.5, 3.5, 5.0 mg); randomized sequence; 1-hour intervals between doses; observed for 24 hours
-- **Results**:
-  - 28/380 had RAS onset coinciding with orthodontic fitting; 352/380 reported worsening after fitting
-  - After appliance removal: 28/70 complete remission, 31/70 partial improvement, 11/70 unchanged
-  - DBPC positive in 32/70 nickel-sensitive patients (45.7%) and 0/25 controls
-  - Reactive doses: 31 patients at 2.5 mg, 1 patient at 5 mg; none reacted at 1.25 mg
-  - Challenge symptoms: oral pain followed by aphthae appearance; flare-up at previous patch test sites
-  - After DBPC, 21/32 positive patients improved on nickel-free diet (data from 32/70 patients who followed diet)
+
+ - 28/380 had RAS onset coinciding with orthodontic fitting; 352/380 reported worsening after fitting
+ - After appliance removal: 28/70 complete remission, 31/70 partial improvement, 11/70 unchanged
+ - DBPC positive in 32/70 nickel-sensitive patients (45.7%) and 0/25 controls
+ - Reactive doses: 31 patients at 2.5 mg, 1 patient at 5 mg; none reacted at 1.25 mg
+ - Challenge symptoms: oral pain followed by aphthae appearance; flare-up at previous patch test sites
+ - After DBPC, 21/32 positive patients improved on nickel-free diet (data from 32/70 patients who followed diet)
 - **Key finding**: In 42/70 nickel-sensitive patients, oral symptoms persisted after orthodontic removal, suggesting dietary nickel as the perpetuating cause
 
 ## Connections

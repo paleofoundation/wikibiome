@@ -11,6 +11,7 @@ tags: [autism, amino-acids, neuroactive, glutamate, GABA, tryptophan, glycine, D
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
 ---
 
 # Key Claims

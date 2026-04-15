@@ -1,15 +1,36 @@
 ---
-
 title: "Metal Ion Acquisition in Staphylococcus aureus: Overcoming Nutritional Immunity"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [James E. Cassat, Eric P. Skaar]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - James E. Cassat
+  - Eric P. Skaar
 journal: Seminars in Immunopathology
 year: 2012
-tags: [Staphylococcus-aureus, iron, manganese, zinc, copper, nutritional-immunity, siderophores, calprotectin, metal-acquisition, virulence, heme, MRSA, biofilm]
-doi: "10.1007/s00281-011-0294-4"
+tags:
+  - Staphylococcus-aureus
+  - iron
+  - manganese
+  - zinc
+  - copper
+  - nutritional-immunity
+  - siderophores
+  - calprotectin
+  - metal-acquisition
+  - virulence
+  - heme
+  - MRSA
+  - biofilm
+doi: 10.1007/s00281-011-0294-4
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Maps the complete metal acquisition arsenal of Staphylococcus aureus and the nutritional immunity systems the host deploys to counter each—transforming WikiBiome's understanding of how calprotectin-mediated manganese/zinc sequestration drives both pathogenic persistence and dysbiotic inflammation. This mechanistic completeness is foundational to modeling metal-dependent pathogenesis across wound, respiratory, and systemic infections."
 ---
 
 # Metal Ion Acquisition in Staphylococcus aureus: Overcoming Nutritional Immunity
@@ -25,11 +46,11 @@ Landmark review establishing that [[nutritional-immunity]] extends far beyond [[
 - Heme is the most abundant [[iron]] source in vertebrates, representing up to 80% of total body iron.
 - *S. aureus* hemolysins (alpha-hemolysin, bi-component leukocidins) lyse red blood cells to release hemoglobin, which is further degraded to heme and free iron.
 - The **Isd (iron-regulated surface determinant) system** is the primary heme acquisition pathway:
-  - **IsdB** and **IsdH**: cell-surface receptors anchored by sortase. IsdB binds hemoglobin directly; IsdH binds hemoglobin-haptoglobin complexes. Both extract heme from host hemoproteins.
-  - **IsdA**: surface protein that receives heme passed from IsdB/IsdH through the cell wall. Also confers resistance to defensins, antimicrobial fatty acids, and human skin innate defenses.
-  - **IsdC**: cell-wall-anchored conduit that shuttles heme from IsdA to the membrane transporter.
-  - **IsdDEF**: ABC transporter complex that imports heme across the cell membrane. IsdD and IsdE are lipoproteins; IsdF is the permease.
-  - **IsdG** and **IsdI**: cytoplasmic heme-degrading monooxygenases that cleave the tetrapyrrole ring to release iron. These have structural similarity to each other but differ from canonical heme oxygenases.
+ - **IsdB** and **IsdH**: cell-surface receptors anchored by sortase. IsdB binds hemoglobin directly; IsdH binds hemoglobin-haptoglobin complexes. Both extract heme from host hemoproteins.
+ - **IsdA**: surface protein that receives heme passed from IsdB/IsdH through the cell wall. Also confers resistance to defensins, antimicrobial fatty acids, and human skin innate defenses.
+ - **IsdC**: cell-wall-anchored conduit that shuttles heme from IsdA to the membrane transporter.
+ - **IsdDEF**: ABC transporter complex that imports heme across the cell membrane. IsdD and IsdE are lipoproteins; IsdF is the permease.
+ - **IsdG** and **IsdI**: cytoplasmic heme-degrading monooxygenases that cleave the tetrapyrrole ring to release iron. These have structural similarity to each other but differ from canonical heme oxygenases.
 - The entire Isd locus is transcriptionally regulated by **Fur** (ferric uptake regulator) and repressed under iron-replete conditions.
 - Inactivation of *isdB* alone causes a significant decrease in virulence in murine sepsis models. IsdB vaccination has been explored as a staphylococcal vaccine candidate (Phase I clinical trial completed).
 - IsdA also contributes to nasal colonization independently of its heme transport role -- it promotes adhesion to desquamated nasal epithelial cells and resistance to bactericidal lipids on the skin.
@@ -37,9 +58,9 @@ Landmark review establishing that [[nutritional-immunity]] extends far beyond [[
 ### Siderophore-Mediated Iron Acquisition
 
 - *S. aureus* produces two endogenous [[siderophores-metallophores]]:
-  - **Staphyloferrin A (SA)**: a 479 Da polycarboxylate siderophore encoded by the *sfaABCD* gene cluster. Binds iron with high affinity to compete with host transferrin and [[lactoferrin]].
-  - **Staphyloferrin B (SB)**: a 448 Da compound (L-2,3-diaminopropionic acid, 1,2-diaminoethane, and alpha-ketoglutaric acid). Encoded by the *sbnA-sbnI* operon; synthesis requires SbnC, SbnE, SbnF, and Shell. More structurally complex than SA.
-  - A third siderophore, **aureochelin**, has been proposed but not fully characterized.
+ - **Staphyloferrin A (SA)**: a 479 Da polycarboxylate siderophore encoded by the *sfaABCD* gene cluster. Binds iron with high affinity to compete with host transferrin and [[lactoferrin]].
+ - **Staphyloferrin B (SB)**: a 448 Da compound (L-2,3-diaminopropionic acid, 1,2-diaminoethane, and alpha-ketoglutaric acid). Encoded by the *sbnA-sbnI* operon; synthesis requires SbnC, SbnE, SbnF, and Shell. More structurally complex than SA.
+ - A third siderophore, **aureochelin**, has been proposed but not fully characterized.
 - Iron-loaded staphyloferrin A is imported via **HtsABC** (heme transport system, also recognizes SA-Fe); iron-loaded staphyloferrin B via **SirABC**. Both are ABC transporters powered by the **FhuC** ATPase.
 - Siderophore biosynthesis genes are Fur-regulated: derepressed under iron limitation.
 - Functional redundancy: inactivation of SA alone or SB alone does not abolish iron acquisition, but combined loss of *sfa* and *sbn* produces a statistically significant reduction in colony recovery from organs of intravenously infected mice.
@@ -62,16 +83,16 @@ Landmark review establishing that [[nutritional-immunity]] extends far beyond [[
 ### Manganese Transport
 
 - *S. aureus* imports [[manganese]] via two systems:
-  - **MntABC**: ABC-type transporter (MntA = solute-binding protein, MntB = permease, MntC = ATPase). Regulated by **MntR**, a manganese-responsive metalloregulatory protein related to the DtxR family.
-  - **MntH**: NRAMP-type (Natural Resistance-Associated Macrophage Protein family) proton-coupled divalent cation transporter. Homologous to the host NRAMP1 protein but functions in reverse -- importing Mn(II) into the bacterial cytoplasm.
+ - **MntABC**: ABC-type transporter (MntA = solute-binding protein, MntB = permease, MntC = ATPase). Regulated by **MntR**, a manganese-responsive metalloregulatory protein related to the DtxR family.
+ - **MntH**: NRAMP-type (Natural Resistance-Associated Macrophage Protein family) proton-coupled divalent cation transporter. Homologous to the host NRAMP1 protein but functions in reverse -- importing Mn(II) into the bacterial cytoplasm.
 - Mutation of *mntABC* alone does not abolish growth, but combined disruption of *mntABC* and *mntH* shows a growth defect in metal-depleted media, indicating redundancy.
 
 ### Mn-Dependent Enzymes and [[oxidative-stress]] Defense
 
 - **SodA** and **SodM**: two superoxide dismutases that require [[manganese]] as cofactor.
-  - SodA is the primary Mn-SOD; SodM is a cambialistic SOD capable of using either Mn or Fe as cofactor.
-  - Mn-SOD activity detoxifies superoxide radicals generated by neutrophils during the [[oxidative-stress]] burst, directly contributing to resistance to neutrophil killing and survival within abscesses.
-  - Mutation of *sodA* and *sodM* results in decreased bacterial recovery from infected kidneys in murine systemic infection models.
+ - SodA is the primary Mn-SOD; SodM is a cambialistic SOD capable of using either Mn or Fe as cofactor.
+ - Mn-SOD activity detoxifies superoxide radicals generated by neutrophils during the [[oxidative-stress]] burst, directly contributing to resistance to neutrophil killing and survival within abscesses.
+ - Mutation of *sodA* and *sodM* results in decreased bacterial recovery from infected kidneys in murine systemic infection models.
 - **Catalase (KatA)**: uses heme-iron but indirectly depends on manganese because Mn-SOD converts superoxide to H2O2, which catalase then degrades to water and oxygen.
 - Manganese acquisition therefore contributes directly to the virulence of several other bacterial pathogens as well, including *Salmonella* Typhimurium, *[[mycobacterium-tuberculosis|Mycobacterium tuberculosis]]*, and *[[bacillus|Bacillus]] anthracis*.
 

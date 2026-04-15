@@ -33,7 +33,7 @@ platform: wikibiome
 
 ## Connections
 
-- Directly informs methodology choices discussed in [[osman-2018-16s-rrna-crc-protocols-workflows]] and [[shotgun-metagenomics]] studies
+- Directly informs methodology choices discussed in [[osman-2018-16s-rrna-crc-protocols-workflows]] and studies
 - The COLSCREEN cohort data complements population-based screening approaches using [[microbial-biomarkers]]
 - *Parvimonas micra* detection by both methods reinforces its role as a consistent CRC biomarker across methodologies
 - ML classification approaches connect to diagnostic [[microbial-biomarkers]] panel development efforts

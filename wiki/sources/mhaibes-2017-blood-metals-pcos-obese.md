@@ -36,8 +36,8 @@ platform: wikibiome
 ## Connections
 
 - [[pcos]] -- trace element and heavy metal alterations
-- [[Lead exposure]] -- Pb-thyroid axis disruption in PCOS
-- [[Cadmium toxicity]] -- Cd-androgen correlation in obese PCOS
-- [[Magnesium deficiency]] -- potential contributor to insulin resistance in PCOS
+- -- Pb-thyroid axis disruption in PCOS
+- -- Cd-androgen correlation in obese PCOS
+- -- potential contributor to insulin resistance in PCOS
 - [[manganese]] -- MnSOD cofactor deficiency may reduce antioxidant capacity
 - [[abudawood-2021-antioxidant-heavy-metals-pcos]] -- complementary study showing As, Cd, Pb, Hg elevation in PCOS

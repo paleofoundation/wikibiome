@@ -11,6 +11,7 @@ tags: [postpartum-depression, perinatal-depression, herbal-remedies, dietary-sup
 library_category: review
 platform: cureva
 condition: "perinatal depression"
+evidence_level: expert-opinion
 ---
 
 # Key Claims

@@ -1,25 +1,63 @@
 ---
-title: "Brown et al. 2011 — Gut Metagenomics and Functional Model of T1D Autoimmunity"
+title: Brown et al. 2011 — Gut Metagenomics and Functional Model of T1D Autoimmunity
 type: source
-created: 2026-04-14
-updated: 2026-04-14
-authors: [Christopher T. Brown, Austin G. Davis-Richardson, Adriana Giongo, Kelsey A. Gano, David B. Crabb, Nabanita Mukherjee, George Casella, Jennifer C. Drew, Jorma Ilonen, Mikael Knip, Heikki Hyöty, Eric W. Triplett]
+created: 2026-04-14T00:00:00.000Z
+updated: 2026-04-14T00:00:00.000Z
+authors:
+  - Christopher T. Brown
+  - Austin G. Davis-Richardson
+  - Adriana Giongo
+  - Kelsey A. Gano
+  - David B. Crabb
+  - Nabanita Mukherjee
+  - George Casella
+  - Jennifer C. Drew
+  - Jorma Ilonen
+  - Mikael Knip
+  - Heikki Hyöty
+  - Eric W. Triplett
 year: 2011
-journal: "PLoS ONE"
-doi: "10.1371/journal.pone.0025792"
+journal: PLoS ONE
+doi: 10.1371/journal.pone.0025792
 evidence_level: case-control
-sample_size: "n=8"
-tags: [type-1-diabetes, metagenomics, butyrate, leaky-gut, iron-acquisition, virulence]
+sample_size: n=8
+tags:
+  - type-1-diabetes
+  - metagenomics
+  - butyrate
+  - leaky-gut
+  - iron-acquisition
+  - virulence
 library_category: signatures
 platform: both
-condition: "type-1-diabetes"
-karen_brain_primitives: [4, 5, 8, 9]
-metals_discussed: [iron]
-taxa_discussed: [bacteroides, veillonella, alistipes, escherichia-coli, prevotella, akkermansia-muciniphila, faecalibacterium-prausnitzii, roseburia]
+condition: type-1-diabetes
+karen_brain_primitives:
+  - 4
+  - 5
+  - 8
+  - 9
+metals_discussed:
+  - iron
+taxa_discussed:
+  - bacteroides
+  - veillonella
+  - alistipes
+  - escherichia-coli
+  - prevotella
+  - akkermansia-muciniphila
+  - faecalibacterium-prausnitzii
+  - roseburia
 key_findings:
-  - "Butyryl-CoA dehydrogenase significantly higher in controls (P=0.0003)"
-  - "T1D cases enriched in virulence factors, LPS biosynthesis, iron acquisition (FecB, IsdDEF)"
+  - Butyryl-CoA dehydrogenase significantly higher in controls (P=0.0003)
+  - T1D cases enriched in virulence factors, LPS biosynthesis, iron acquisition (FecB, IsdDEF)
   - "Functional model: lactate diversion from butyrate to propionate/acetate drives leaky gut"
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "An early demonstration that dysbiotic taxa enriched in T1D (Bacteroides, Veillonella, E. coli) express iron-acquisition systems and virulence factors while SCFA-producing taxa (Faecalibacterium, Roseburia) are depleted. This paper established the iron-dysbiosis-autoimmunity axis that WikiBiome extends across multiple conditions."
 ---
 
 ## Key Findings

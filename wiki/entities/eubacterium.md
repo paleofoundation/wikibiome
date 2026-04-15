@@ -60,7 +60,6 @@ A genus of Gram-positive, obligate anaerobic bacteria within the Firmicutes phyl
 - **Vitamin B12** -- synthesized by E. hallii; essential coenzyme for methylation reactions.
 - **Lactate recycling** -- E. hallii prevents harmful lactate accumulation by converting it to butyrate.
 
-
 ## Key Sources
 
 - [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]]

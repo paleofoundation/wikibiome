@@ -10,6 +10,10 @@ year: 2023
 tags: [colon-cancer, mendelian-randomization, host-gene-microbiome, Porphyromonadaceae, Anaerotruncs, Intestinibacter, Slackia, SNP-annotation, colorectal-cancer]
 doi: "10.1186/s12967-023-04335-9"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Porphyromonas"]
+evidence_level: mendelian-randomization
 ---
 
 # Identification of Host Gene-Microbiome Associations in Colorectal Cancer Patients Using Mendelian Randomization
@@ -33,7 +37,7 @@ platform: wikibiome
 ## Connections
 
 - *Porphyromonadaceae* findings align with [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] showing *Parabacteroides* enrichment in cancer
-- Host gene identification extends [[microbiome-host-interactions]] understanding in CRC
+- Host gene identification extends understanding in CRC
 - Validates and extends taxa identified in [[long-2023-causal-gut-microbiota-cancers-mr]] using East Asian populations
-- SNP-gene-microbiome mapping provides molecular targets for [[microbiome-modulating-drugs]] development
+- SNP-gene-microbiome mapping provides molecular targets for development
 - [[colorectal-cancer]]

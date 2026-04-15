@@ -46,10 +46,10 @@ condition: "autism spectrum disorder"
 # Mechanism (Hypothesized)
 
 - **Biological response modifier** likely acts via:
-  - Direct microbial composition shift
-  - Metabolite production changes
-  - Immune system modulation
-  - Intestinal barrier integrity improvement
+ - Direct microbial composition shift
+ - Metabolite production changes
+ - Immune system modulation
+ - Intestinal barrier integrity improvement
 
 # Relevance to Metallomic Framework
 

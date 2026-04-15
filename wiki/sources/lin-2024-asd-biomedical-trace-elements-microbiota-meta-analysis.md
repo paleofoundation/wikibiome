@@ -26,22 +26,22 @@ platform: wikibiome
 - **Type**: Systematic review and meta-analysis (PRISMA-compliant)
 - **Search**: 76,217 records from Medline, PubMed, ProQuest, EMBASE, PsycINFO, Web of Science, EMBSCO (2012-2023)
 - **Included**: 43 studies meeting inclusion criteria
-- **Trace element results (Table 2)**:
-  - **[[iron]]**: 6 studies, N = 1,313. MD = -3.203 (95% CI: -4.891, -1.514), p < 0.001. ASD significantly lower. SMD = -0.375 (p = 0.046). Heterogeneity I-squared = 95.032%
-  - **[[zinc]]**: 5 studies, N = 706. MD = -6.707 (95% CI: -12.691, -0.722), p = 0.028. ASD significantly lower. SMD = -0.498 (p = 0.034). Heterogeneity I-squared = 95.055%
-  - **[[copper]]**: 4 studies, N = 577. MD = 0.293 (95% CI: -1.349, 1.935), p = 0.726. No significant difference. SMD = 0.059 (p = 0.788). Heterogeneity I-squared = 84.559%
-- **Biomedical markers**:
-  - CRP: 3 studies, significantly higher in ASD (MD = 0.401, p = 0.034)
-  - IL-6: 4 studies, higher in ASD (MD = 1.223, p = 0.302, non-significant)
-  - GABA: 3 studies, significantly higher in ASD (MD = 0.115, p = 0.001)
-  - Serotonin: 5 studies, higher in ASD but not significant (MD = 15.302, p = 0.520)
-  - Oxytocin: 5 studies, significantly lower in ASD (MD = -45.691, p < 0.0001)
-- **Microbiota results**:
-  - *Bifidobacterium*: Lower in ASD (MD = -1.321, p = 0.019)
-  - *Parabacteroides*: Lower in ASD (MD = -0.081, p = 0.019)
-  - *Faecalibacterium*: Higher in ASD (MD = 1.144, p = 0.008)
-  - *Bacteroides*: Higher in ASD (MD = 1.386, p < 0.001)
-  - *Clostridium*: Higher in ASD (MD = 2.994, p < 0.001)
+
+ - **[[iron]]**: 6 studies, N = 1,313. MD = -3.203 (95% CI: -4.891, -1.514), p < 0.001. ASD significantly lower. SMD = -0.375 (p = 0.046). Heterogeneity I-squared = 95.032%
+ - **[[zinc]]**: 5 studies, N = 706. MD = -6.707 (95% CI: -12.691, -0.722), p = 0.028. ASD significantly lower. SMD = -0.498 (p = 0.034). Heterogeneity I-squared = 95.055%
+ - **[[copper]]**: 4 studies, N = 577. MD = 0.293 (95% CI: -1.349, 1.935), p = 0.726. No significant difference. SMD = 0.059 (p = 0.788). Heterogeneity I-squared = 84.559%
+
+ - CRP: 3 studies, significantly higher in ASD (MD = 0.401, p = 0.034)
+ - IL-6: 4 studies, higher in ASD (MD = 1.223, p = 0.302, non-significant)
+ - GABA: 3 studies, significantly higher in ASD (MD = 0.115, p = 0.001)
+ - Serotonin: 5 studies, higher in ASD but not significant (MD = 15.302, p = 0.520)
+ - Oxytocin: 5 studies, significantly lower in ASD (MD = -45.691, p < 0.0001)
+
+ - *Bifidobacterium*: Lower in ASD (MD = -1.321, p = 0.019)
+ - *Parabacteroides*: Lower in ASD (MD = -0.081, p = 0.019)
+ - *Faecalibacterium*: Higher in ASD (MD = 1.144, p = 0.008)
+ - *Bacteroides*: Higher in ASD (MD = 1.386, p < 0.001)
+ - *Clostridium*: Higher in ASD (MD = 2.994, p < 0.001)
 
 ## Connections
 

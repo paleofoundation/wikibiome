@@ -158,7 +158,6 @@ A key factor in hydrogenase relevance is substrate availability:
 
 The consistently high H2:Km ratios mean that for gastric and hepatic pathogens, **nickel availability -- not H2 availability -- is the rate-limiting factor** for hydrogenase activity.
 
-
 ## Key Sources
 
 - [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]

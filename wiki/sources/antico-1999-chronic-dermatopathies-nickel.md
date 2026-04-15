@@ -31,7 +31,7 @@ platform: wikibiome
 
 ## Connections
 
-- Provides evidence supporting the [[systemic nickel allergy syndrome]] concept formalized later by [[braga-2013-snas-nosologic-framework]]
+- Provides evidence supporting the concept formalized later by [[braga-2013-snas-nosologic-framework]]
 - Oral challenge methodology refined in [[schiavino-2006-oral-hyposensitization-nickel]] and [[di-gioacchino-2018-snas-chapter]]
 - Dermatopathy types overlap with those in [[veien-1993-low-nickel-diet-trial]]
 - Absence of IgE involvement distinguishes SNAS from respiratory nickel allergy discussed in [[di-gioacchino-2018-snas-chapter]]

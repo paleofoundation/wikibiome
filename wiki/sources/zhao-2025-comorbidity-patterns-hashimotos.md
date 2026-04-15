@@ -10,6 +10,10 @@ year: 2025
 doi: "10.3389/fendo.2025.1615095"
 tags: [hashimotos-thyroiditis, thyroid, comorbidities, thyroid-nodules, breast-hyperplasia, uterine-leiomyomas, network-pharmacology, AKT1, TP53, EGFR, PI3K-Akt-pathway, levothyroxine]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: computational-prediction
 ---
 
 # An Investigation of the Pattern and Mechanism of Comorbidity in Patients with Hashimoto's Thyroiditis
@@ -34,7 +38,7 @@ platform: wikibiome
 
 ## Connections
 
-- High comorbidity prevalence in HT links to [[Autoimmune Comorbidity]] concept
+- High comorbidity prevalence in HT links to concept
 - TN as core comorbidity connects to [[legakis-2023-thyroid-diseases-intestinal-microbiome]] on microbiome-nodule relationship
 - PI3K-Akt pathway involvement aligns with cancer-related pathways in [[fang-2024-gut-microbiota-thyroid-disease-advances]]
 - Estrogen-thyroid interaction connects to gender differences in [[liu-2022-gut-microbiota-diversity-hashimotos]]

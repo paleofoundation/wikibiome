@@ -10,6 +10,9 @@ year: 2020
 tags: [endometriosis, reproductive-tract-microbiome, Lactobacillus, Sphingobium, Pseudomonas-viridiflava, vaginal-microbiome, cervical-microbiome, endometrial-microbiome, peritoneal-fluid]
 doi: "10.1186/s12941-020-00356-0"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Lactobacillus", "Pseudomonas"]
 ---
 
 # Key Claims
@@ -26,12 +29,12 @@ platform: wikibiome
 - **Participants**: 36 endometriosis patients and 14 controls undergoing laparoscopic surgery
 - **Sample sites**: Lower vagina (CL), posterior vaginal fornix (CU), cervical mucus (CV), endometrium (ET), peritoneal fluid (PF)
 - **Methods**: 16S rRNA V4-V5 Ion Torrent PGM sequencing
-- **Key results**:
-  - 237 samples classified into 7 community types
-  - Type II (*Lactobacillus* dominant) reduced in CV of EMS patients
-  - Type IV and V (non-*Lactobacillus*) increased in upper reproductive tract
-  - Signature OTUs identified at each site with p<0.05 by Wilcoxon rank sum
-  - *Comamonas* (type VII) appeared only in PF samples
+
+ - 237 samples classified into 7 community types
+ - Type II (*Lactobacillus* dominant) reduced in CV of EMS patients
+ - Type IV and V (non-*Lactobacillus*) increased in upper reproductive tract
+ - Signature OTUs identified at each site with p<0.05 by Wilcoxon rank sum
+ - *Comamonas* (type VII) appeared only in PF samples
 
 # Relevance to Wiki
 

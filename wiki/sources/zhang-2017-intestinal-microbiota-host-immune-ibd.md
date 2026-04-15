@@ -10,6 +10,7 @@ year: 2017
 tags: [crohns-disease, IBD, ulcerative-colitis, gut-microbiome, innate-immunity, adaptive-immunity, dysbiosis, intestinal-barrier, probiotics, FMT, SCFAs]
 doi: "10.3389/fimmu.2017.00942"
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

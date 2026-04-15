@@ -89,7 +89,6 @@ Iron homeostasis in the intestinal epithelium directly influences ferroptotic su
 | System Xc- | Cystine/glutamate antiporter; provides cysteine for GSH synthesis |
 | Neuromelanin | Iron chelator in substantia nigra; composition affects PD risk |
 
-
 ## Key Sources
 
 - [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]

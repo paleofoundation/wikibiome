@@ -26,4 +26,4 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- NAC as glutamatergic modulator for ASD irritability
 - [[glutathione]] -- NAC as glutathione precursor
 - [[oxidative-stress]] -- antioxidant intervention in ASD
-- [[glutamate]] -- excitotoxicity modulation by NAC
+- -- excitotoxicity modulation by NAC

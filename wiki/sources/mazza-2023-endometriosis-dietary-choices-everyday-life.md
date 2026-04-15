@@ -25,10 +25,10 @@ platform: wikibiome
 - **Study design**: Cross-sectional study via semi-structured online questionnaire
 - **Participants**: 4,078 Italian women with endometriosis (recruited via AIDI, ASAND, Italian Association of Endometriosis, social media)
 - **Demographics**: 45% aged 36-45; 37% Stage IV endometriosis; 39% had diagnosis delay >7 years; 17% had autoimmune comorbidities (Sjogren's, rheumatoid arthritis, SLE, autoimmune thyroid disorder)
-- **Dietary changes after diagnosis**:
-  - Most common: elimination of dairy/lactose (18.4%), soy (6.7%), saturated fats (8%), red/processed meat (6.2%)
-  - Increased: vegetables/fruit (10%), cereals/legumes (6.6%), fish (4.5%)
-  - Most popular dietary patterns: gluten-free (15%), anti-inflammatory (8%), Mediterranean (7.1%), ketogenic (4%)
+
+ - Most common: elimination of dairy/lactose (18.4%), soy (6.7%), saturated fats (8%), red/processed meat (6.2%)
+ - Increased: vegetables/fruit (10%), cereals/legumes (6.6%), fish (4.5%)
+ - Most popular dietary patterns: gluten-free (15%), anti-inflammatory (8%), Mediterranean (7.1%), ketogenic (4%)
 - **Stage-dependent dietary choices**: Stage IV patients showed significantly higher adoption of anti-inflammatory diet (9.7% vs 5.3% Stage I, p<0.001), greater elimination of dairy (20.7% vs 13.0%), more saturated fat elimination (10.1% vs 5.7%)
 - **Quality of life impacts**: Difficulty managing pain (22%), difficulty with daily activities (22%), reduced working capacity (12%), depression-anxiety (13%), chronic fatigue (22%)
 - **Statistical findings**: Logistic regression showed endometriosis stage (OR 1.45, p<0.001), years of symptoms (OR 1.27, p<0.001), and eating habit changes (OR 2.61, p<0.001) were all significantly associated with worsening quality of life

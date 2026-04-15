@@ -32,8 +32,8 @@ platform: wikibiome
 
 ## Connections
 
-- Provides causal evidence framework complementing observational studies in [[microbiome-composition]] and [[microbial-biomarkers]] research
+- Provides causal evidence framework complementing observational studies in and [[microbial-biomarkers]] research
 - *Verrucomicrobia* association with CRC connects to *Akkermansia* findings in [[rezasoltani-2024-16s-oral-fecal-microbiota-crc-iran]]
-- Bidirectional causality supports the concept of cancer-microbiome feedback loops discussed in [[microbiome-and-disease-progression]]
+- Bidirectional causality supports the concept of cancer-microbiome feedback loops discussed in 
 - Methodological approach parallels [[devos-2012-intestinal-microbiome-health-disease-causation]] causation framework
 - [[colorectal-cancer]]

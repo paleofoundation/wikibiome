@@ -12,6 +12,7 @@ library_category: "Virome"
 platform: original-research
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-12"
+evidence_level: cross-sectional
 ---
 
 # Overview

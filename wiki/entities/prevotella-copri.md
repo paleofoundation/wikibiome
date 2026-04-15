@@ -63,8 +63,8 @@ A Gram-negative obligate anaerobe that occupies a unique **context-dependent nic
 ### Dysbiotic Context
 
 - In dysbiotic states (high *P. copri*, low [[faecalibacterium-prausnitzii]]), the balance tips: *P. copri* acetate and propionate may not be efficiently captured by SCFA-producing commensals, leading to:
-  - **Acetate overflow** → hyperacetylation that can promote Th17 differentiation (pro-inflammatory in RA context).
-  - **Loss of butyrate production** → reduced short-chain fatty acid diversity and Treg induction.
+ - **Acetate overflow** → hyperacetylation that can promote Th17 differentiation (pro-inflammatory in RA context).
+ - **Loss of butyrate production** → reduced short-chain fatty acid diversity and Treg induction.
 
 ## Disease Mechanisms in Rheumatoid Arthritis
 
@@ -89,9 +89,9 @@ The *P. copri*-dominant dysbiosis in RA involves:
 
 - *P. copri* dominance is associated with insulin resistance and metabolic dysbiosis.
 - Proposed mechanisms:
-  - Hyperacetylation (from unopposed *P. copri* acetate production) promotes lipogenesis and glucose intolerance.
-  - Loss of butyrate → loss of GPR43/GPR41 signaling and IL-22 induction → compromised intestinal barrier and systemic inflammation.
-  - *P. copri*-derived lipopolysaccharide (LPS) as a chronic metabolic endotoxemia driver.
+ - Hyperacetylation (from unopposed *P. copri* acetate production) promotes lipogenesis and glucose intolerance.
+ - Loss of butyrate → loss of GPR43/GPR41 signaling and IL-22 induction → compromised intestinal barrier and systemic inflammation.
+ - *P. copri*-derived lipopolysaccharide (LPS) as a chronic metabolic endotoxemia driver.
 
 ## Ecological Interactions
 
@@ -99,9 +99,9 @@ The *P. copri*-dominant dysbiosis in RA involves:
 
 - *P. copri* is often enriched alongside [[prevotella-intermedia]], [[bacteroides-vulgatus]], and [[fusobacterium-nucleatum]] in dysbiotic states.
 - These species together form a coordinated dysbiotic community that:
-  - Competes aggressively for limiting metals (iron, zinc).
-  - Collectively degrade barrier proteins and tight junction scaffolding.
-  - Overwhelm local nutritional immunity via sheer biomass and shared metabolic burden.
+ - Competes aggressively for limiting metals (iron, zinc).
+ - Collectively degrade barrier proteins and tight junction scaffolding.
+ - Overwhelm local nutritional immunity via sheer biomass and shared metabolic burden.
 
 ### Sensitivity to Diversity
 
@@ -132,6 +132,6 @@ The *P. copri*-dominant dysbiosis in RA involves:
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *P. copri* elevation in dysbiotic RA
 - [[metabolic-syndrome]] -- *P. copri* dominance associated with insulin resistance and obesity
 - [[short-chain-fatty-acids]] -- *P. copri* produces acetate and propionate; dysbiotic overflow leads to pro-inflammatory Th17 promotion
-- [[nutritional-immunity|barrier-function]] -- *P. copri* dysbiosis correlates with reduced butyrate-driven tight junction maintenance
-- [[commensal-pathobiont-spectrum]] -- prototype organism showing context-dependent behavior
+- [[nutritional-immunity|nutritional immunity]] -- *P. copri* dysbiosis correlates with reduced butyrate-driven tight junction maintenance
+- -- prototype organism showing context-dependent behavior
 - [[dysbiosis]] -- dominance defines dysbiotic state in RA and metabolic syndrome

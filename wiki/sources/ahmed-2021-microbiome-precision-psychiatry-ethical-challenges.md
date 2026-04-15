@@ -32,6 +32,6 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- ethical considerations for microbiome-based ASD interventions
-- [[precision-medicine]] -- ethical frameworks for microbiome-guided psychiatry
+- -- ethical frameworks for microbiome-guided psychiatry
 - [[fecal-microbiota-transplant]] -- ethical considerations for psychiatric applications
 - [[gut-microbiome]] -- big data ethics in microbiome research

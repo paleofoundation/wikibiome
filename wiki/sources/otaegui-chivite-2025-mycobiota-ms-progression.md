@@ -39,7 +39,7 @@ platform: wikibiome
 - [[mycobiome]] -- comprehensive characterization linking fungal communities to MS disability, genetics, and treatment
 - [[multiple-sclerosis]] -- fungal dysbiosis as contributor to disease progression
 - [[Malassezia]] -- associated with increased disability in MS; previously linked to neurodegeneration
-- [[HLA]] -- HLA-DRB1*1501 influences mycobiota composition in MS
-- [[dimethyl-fumarate]] -- antifungal properties of DMF may contribute to MS treatment efficacy
-- [[chitotriosidase]] -- plasma biomarker of fungal burden showing disease-specific correlations
+- -- HLA-DRB1*1501 influences mycobiota composition in MS
+- -- antifungal properties of DMF may contribute to MS treatment efficacy
+- -- plasma biomarker of fungal burden showing disease-specific correlations
 - [[candida-albicans]] -- *Candida* genus prevalence higher in females; potential gastrointestinal reservoir

@@ -1,15 +1,48 @@
 ---
-
 title: "Toxic and Essential Metals: Metabolic Interactions with the Gut Microbiota and Health Implications"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Qinheng Zhu, Boyan Chen, Fu Zhang, Baodan Zhang, Yujie Guo, Mengtao Pang, Liang Huang, Tianjiao Wang]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Qinheng Zhu
+  - Boyan Chen
+  - Fu Zhang
+  - Baodan Zhang
+  - Yujie Guo
+  - Mengtao Pang
+  - Liang Huang
+  - Tianjiao Wang
 journal: Frontiers in Nutrition
 year: 2024
-tags: [pancreatic-cancer, heavy-metals, gut-microbiota, metabolites, arsenic, mercury, lead, cadmium, copper, manganese, iron, nickel, chromium, silicon, bidirectional-interaction, SCFAs, bile-acids, review]
-doi: "10.1016/j.biopha.2023.115602"
+tags:
+  - pancreatic-cancer
+  - heavy-metals
+  - gut-microbiota
+  - metabolites
+  - arsenic
+  - mercury
+  - lead
+  - cadmium
+  - copper
+  - manganese
+  - iron
+  - nickel
+  - chromium
+  - silicon
+  - bidirectional-interaction
+  - SCFAs
+  - bile-acids
+  - review
+doi: 10.1016/j.biopha.2023.115602
 platform: wikibiome
+evidence_level: expert-opinion
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Maps the bidirectional interactions between toxic and essential metals and the gut microbiota, showing how microbial metabolism can both detoxify and activate metal species, and how metal exposure selects for metal-tolerant taxa. Supports the core WikiBiome thesis that the gut microbiota is a primary interface in human metal biology.
 ---
 
 # Key Claims

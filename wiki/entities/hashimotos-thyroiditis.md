@@ -6,21 +6,21 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - li-2025-trace-elements-autoimmune-thyroid-disease
-  - brock-2015-selenium-thyroid-autoimmunity
-  - gong-2024-iodine-gut-microbiota-hashimotos
-  - pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian
-  - liu-2024-causal-gut-microbiota-metabolites-hypothyroidism-mendelian
-  - zhang-2025-tryptophan-metabolism-hashimotos
-  - karimi-2025-probiotics-synbiotics-thyroid-meta-analysis
-  - zhao-2025-comorbidity-patterns-hashimotos
-  - liu-2022-gut-microbiota-diversity-hashimotos
-  - ruggeri-2021-dietary-habits-oxidative-stress-hashimotos
-  - abbott-2019-aip-diet-hashimotos-lifestyle-intervention
-  - wang-2025-plasma-metabolomics-lipidomics-hashimotos
-  - bastos-2023-metabolomic-follicular-fluid-hashimotos
-  - maric-2023-nickel-thyroid-function
-  - street-2024-environmental-factors-thyroid-function
+ - li-2025-trace-elements-autoimmune-thyroid-disease
+ - brock-2015-selenium-thyroid-autoimmunity
+ - gong-2024-iodine-gut-microbiota-hashimotos
+ - pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian
+ - liu-2024-causal-gut-microbiota-metabolites-hypothyroidism-mendelian
+ - zhang-2025-tryptophan-metabolism-hashimotos
+ - karimi-2025-probiotics-synbiotics-thyroid-meta-analysis
+ - zhao-2025-comorbidity-patterns-hashimotos
+ - liu-2022-gut-microbiota-diversity-hashimotos
+ - ruggeri-2021-dietary-habits-oxidative-stress-hashimotos
+ - abbott-2019-aip-diet-hashimotos-lifestyle-intervention
+ - wang-2025-plasma-metabolomics-lipidomics-hashimotos
+ - bastos-2023-metabolomic-follicular-fluid-hashimotos
+ - maric-2023-nickel-thyroid-function
+ - street-2024-environmental-factors-thyroid-function
 tags: [hashimotos-thyroiditis, autoimmune, thyroid, selenium, iron, zinc, copper, iodine, cadmium, mercury, lead, nickel, gut-thyroid-axis, microbiome, anti-TPO, anti-Tg, dysbiosis, SCFAs, tryptophan, diet, probiotics, comorbidities]
 platform: wikibiome
 last_substantive_update: 2026-04-13

@@ -28,13 +28,13 @@ platform: wikibiome
 - **BV prevalence**: 32.2% (802/2,493)
 - **Metal measurement**: Serum Pb and Cd by atomic absorption spectrometry (PerkinElmer SIMAA 6000); Hg by ICP-MS
 - **Statistical analysis**: Multivariable logistic regression with three models:
-  - Unadjusted model
-  - Model I: adjusted for age, race, education, BMI
-  - Model II: additionally adjusted for PIR, marital status, HDL-cholesterol, total cholesterol, total calcium, uric acid, household size, physical activity
-- **Key quantitative findings**:
-  - Lead tertile Q3 (1.3-23.9 ug/dl): OR = 1.35 (1.06-1.72), p for trend = 0.015
-  - Cadmium tertile Q3 (0.5-7.4 ug/l): OR = 1.41 (1.01-1.98), p for trend = 0.002
-  - Mercury: No significant associations in any model
+ - Unadjusted model
+ - Model I: adjusted for age, race, education, BMI
+ - Model II: additionally adjusted for PIR, marital status, HDL-cholesterol, total cholesterol, total calcium, uric acid, household size, physical activity
+
+ - Lead tertile Q3 (1.3-23.9 ug/dl): OR = 1.35 (1.06-1.72), p for trend = 0.015
+ - Cadmium tertile Q3 (0.5-7.4 ug/l): OR = 1.41 (1.01-1.98), p for trend = 0.002
+ - Mercury: No significant associations in any model
 - **Smooth curve fitting**: Confirmed positive dose-response relationships for Pb and Cd with BV risk
 - **Stratification**: Lead-BV association strongest in ages 37-49, married women, and those with BMI >30; Cadmium-BV association strongest in ages 18-24, non-Hispanic Black women, and those with less than high school education
 - **Limitations**: Cross-sectional design; NHANES 2001-2004 data may not reflect current exposure levels; cannot establish causality; vaginal metal concentrations not measured

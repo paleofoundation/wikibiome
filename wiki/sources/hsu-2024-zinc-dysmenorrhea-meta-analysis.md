@@ -30,10 +30,10 @@ platform: wikibiome
 - **Daily doses**: Ranged from 7 mg/day (zinc gluconate) to 150 mg/day (zinc sulfate); treatment durations 1-6 months
 - **Pain assessment**: All used Visual Analog Scale (VAS, 0-10)
 - **Quality assessment**: Cochrane Risk of Bias 2 (RoB 2); 33% low risk, 67% some concerns
-- **Subgroup by duration**:
-  - 1 month: Hedges's g = -0.529 (95% CI: -1.163 to 0.105, p = 0.102) -- not significant
-  - 2 months: g = -1.409 (95% CI: -2.146 to -0.672, p < 0.001) -- significant
-  - 3 months: g = -1.08 (95% CI: -1.697 to -0.439, p = 0.001) -- significant
+
+ - 1 month: Hedges's g = -0.529 (95% CI: -1.163 to 0.105, p = 0.102) -- not significant
+ - 2 months: g = -1.409 (95% CI: -2.146 to -0.672, p < 0.001) -- significant
+ - 3 months: g = -1.08 (95% CI: -1.697 to -0.439, p = 0.001) -- significant
 - **Heterogeneity**: High (I2 = 94.31%), partly explained by dose and duration differences
 - **Sensitivity analysis**: Consistent results after removing any single study
 - **Publication bias**: Funnel plot showed some asymmetry suggesting potential bias

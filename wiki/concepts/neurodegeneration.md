@@ -64,7 +64,6 @@ The [[gut-brain-axis]] provides a route from environmental metal exposure to cen
 
 Aluminum accumulates in brain tissue in AD and is a documented neurotoxin, but its causal role remains debated [[armstrong-2024-alzheimers-extrinsic-factors-development]]. Al's neurotoxicity mechanisms include oxidative stress, inflammatory cytokine induction, and interference with iron homeostasis. The difficulty of measuring Al exposure accurately confounds epidemiological studies.
 
-
 ## Key Sources
 
 - [[chin-chan-2015-environmental-pollutants-ad-pd]]

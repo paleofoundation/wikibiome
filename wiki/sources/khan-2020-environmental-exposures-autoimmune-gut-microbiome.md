@@ -37,10 +37,10 @@ platform: wikibiome
 
 ## Connections
 
-- [[autoimmune-diseases]] -- environmental agents trigger autoimmunity via oxidative stress and gut dysbiosis
+- -- environmental agents trigger autoimmunity via oxidative stress and gut dysbiosis
 - [[oxidative-stress]] -- common mechanism linking mercury, silica, TCE, pesticides to autoimmunity
 - [[mercury]] -- induces lupus-like syndrome; alters B cell signaling and NF-kB
-- [[silica]] -- linked to SLE, RA, systemic sclerosis via NLRP3 inflammasome
+- -- linked to SLE, RA, systemic sclerosis via NLRP3 inflammasome
 - [[gut-microbiome]] -- mediator between environmental chemical exposure and autoimmune disease
 - [[short-chain-fatty-acids]] -- SCFAs as protective metabolites countering environmental toxicant effects
 - [[intestinal-permeability]] -- chemical-induced barrier disruption promotes systemic autoimmunity

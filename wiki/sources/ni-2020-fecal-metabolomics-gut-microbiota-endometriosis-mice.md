@@ -25,12 +25,12 @@ platform: wikibiome
 - **Study design**: Mouse endometriosis model with non-targeted metabolomics and 16S rRNA sequencing
 - **Model**: C57BL/6J mice with surgically induced endometriosis
 - **Methods**: LC-MS metabolomics of feces, 16S rRNA sequencing, PICRUSt functional prediction
-- **Key results**:
-  - 296 differential metabolites (VIP>1, P<0.05); 156 named
-  - OPLS-DA model validated (R2X=0.517, R2Y=0.996, Q2=0.776)
-  - ROC AUC values for CDCA, UDCA, ALA, and 12,13-EOTrE were 0.94, 0.89, 0.92, and 0.81 respectively
-  - Significant correlations between bile acids and *Lactobacillus*, *Bacteroides*, and *Lachnospiraceae*
-  - 11 common KEGG pathways linked differential metabolites to gut microbiota functional predictions
+
+ - 296 differential metabolites (VIP>1, P<0.05); 156 named
+ - OPLS-DA model validated (R2X=0.517, R2Y=0.996, Q2=0.776)
+ - ROC AUC values for CDCA, UDCA, ALA, and 12,13-EOTrE were 0.94, 0.89, 0.92, and 0.81 respectively
+ - Significant correlations between bile acids and *Lactobacillus*, *Bacteroides*, and *Lachnospiraceae*
+ - 11 common KEGG pathways linked differential metabolites to gut microbiota functional predictions
 
 # Relevance to Wiki
 

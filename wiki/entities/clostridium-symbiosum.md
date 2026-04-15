@@ -45,8 +45,8 @@ pathogenic_potential: commensal-turned-pathogen
 
 ```
 Cholesterol (liver) → Cholic Acid (CA) / Chenodeoxycholic Acid (CDCA) [Primary Bile Acids]
-                    ↓ (bile secretion into duodenum)
-                    [bacterial enzymatic conversion]
+ ↓ (bile secretion into duodenum)
+ [bacterial enzymatic conversion]
 CA → Deoxycholic Acid (DCA) [Secondary Bile Acid]
 CDCA → Lithocholic Acid (LCA) [Secondary Bile Acid]
 ```
@@ -64,9 +64,9 @@ The **7α-dehydroxylase activity is the clinical hallmark** of pathogenic bile a
 ### Iron Dependency
 
 - *C. symbiosum* is **obligately iron-dependent**; requires Fe2+/Fe3+ for:
-  - **Cytochrome b5 and cytochrome c oxidases** (anaerobic electron transport chains)
-  - **Iron-sulfur cluster proteins** ([4Fe-4S] in fumarase, dehydratases)
-  - **Non-heme iron enzymes** (catalases, peroxidases for oxidative stress tolerance)
+ - **Cytochrome b5 and cytochrome c oxidases** (anaerobic electron transport chains)
+ - **Iron-sulfur cluster proteins** ([4Fe-4S] in fumarase, dehydratases)
+ - **Non-heme iron enzymes** (catalases, peroxidases for oxidative stress tolerance)
 - Iron availability is a **rate-limiting factor** for *C. symbiosum* growth in the CRC microenvironment.
 - Elevated **hepcidin** (host iron-withholding defense) suppresses *C. symbiosum*; conversely, iron supplementation selectively enriches it.
 - Siderophore production: Does not secrete siderophores; relies on scavenging ferrous iron or competing for transferrin-bound iron.
@@ -126,10 +126,10 @@ Glucose → Pyruvate → Acetyl-CoA + Butyrate (via butyrate-CoA transferase)
 However, in CRC:
 
 - **Butyrate becomes muted** due to:
-  - Low substrate availability (dysbiosis reduces total microbial fermentation)
-  - Low pH microenvironment (lactic acid bacteria dominance; pH < 6) suppresses butyrate synthesis
-  - Epithelial hypoxia-inducible factor (HIF) signaling disrupts butyrate sensing (GPR43/GPR109A)
-  
+ - Low substrate availability (dysbiosis reduces total microbial fermentation)
+ - Low pH microenvironment (lactic acid bacteria dominance; pH < 6) suppresses butyrate synthesis
+ - Epithelial hypoxia-inducible factor (HIF) signaling disrupts butyrate sensing (GPR43/GPR109A)
+ 
 - **The pathogenic SBA metabolism outweighs the beneficial butyrate effect** — net result is inflammation, not protection.
 
 This is a critical distinction: *C. symbiosum* in a healthy, diverse microbiome (with competing bacteria and intact butyrate pathways) may be relatively benign; in CRC dysbiosis, its bile acid metabolism becomes a major risk factor.
@@ -157,10 +157,10 @@ This is a critical distinction: *C. symbiosum* in a healthy, diverse microbiome 
 
 ## Connections to WikiBiome Entities and Disease Signatures
 
-- **[[bile-acids]]** – Primary substrate; *C. symbiosum* converts PBA to pathogenic SBA
-- **[[secondary-bile-acids]]** (DCA, LCA) – Direct product; pro-inflammatory and carcinogenic
-- **[[deoxycholic-acid]]** – Key *C. symbiosum* product; drives CRC progression
-- **[[lithocholic-acid]]** – Minor secondary bile acid produced by *C. symbiosum*
+- **** – Primary substrate; *C. symbiosum* converts PBA to pathogenic SBA
+- **** (DCA, LCA) – Direct product; pro-inflammatory and carcinogenic
+- **** – Key *C. symbiosum* product; drives CRC progression
+- **** – Minor secondary bile acid produced by *C. symbiosum*
 - **[[iron]]** – Absolute requirement; iron supplementation selectively enriches *C. symbiosum*
 - **[[hepcidin]]** – Host iron-withholding defense; suppresses *C. symbiosum*
 - **[[inflammation]]** – DCA/LCA-driven chronic inflammation; NF-κB activation

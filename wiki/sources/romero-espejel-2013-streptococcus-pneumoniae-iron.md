@@ -1,15 +1,33 @@
 ---
-
-title: "Streptococcus pneumoniae Requires Iron for Its Viability and Expresses Two Membrane Proteins That Bind Haemoglobin and Haem"
+title: Streptococcus pneumoniae Requires Iron for Its Viability and Expresses Two Membrane Proteins That Bind Haemoglobin and Haem
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Maria Elena Romero-Espejel, Marco A. Gonzalez-Lopez, Jose de Jesus Olivares-Trejo]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Maria Elena Romero-Espejel
+  - Marco A. Gonzalez-Lopez
+  - Jose de Jesus Olivares-Trejo
 journal: Metallomics
 year: 2013
-tags: [Streptococcus-pneumoniae, iron, haemoglobin, haem, membrane-proteins, iron-acquisition, bacterial-virulence, nutritional-immunity]
-doi: "10.1039/c3mt20244e"
+tags:
+  - Streptococcus-pneumoniae
+  - iron
+  - haemoglobin
+  - haem
+  - membrane-proteins
+  - iron-acquisition
+  - bacterial-virulence
+  - nutritional-immunity
+doi: 10.1039/c3mt20244e
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+why_keystone: First characterization of the hemoglobin/haem-binding membrane proteins by which S. pneumoniae circumvents host iron sequestration, establishing haem — not transferrin — as its route to iron. Supports the virulence-enzyme layer of WikiBiome's pneumococcal and respiratory infection signatures and the broader principle that pathogen-specific iron routes are exploitable therapeutic targets.
 ---
 
 ## Summary

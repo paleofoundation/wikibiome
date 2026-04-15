@@ -25,15 +25,15 @@ platform: wikibiome
 - **Study type**: Cross-sectional study, Greek population
 - **Participants**: 76 CD patients, 39 UC patients, 38 healthy controls (HC) from Greece
 - **Methods**: Plasma metals quantified by ICP-MS; blood and stool biomarkers measured (IL-6, IL-10, IL-17A, ox-LDL, MPO, calprotectin, lysozyme, defensin, lactoferrin)
-- **Key metal findings (Table 2)**:
-  - Manganese: lower in UC (1.4) vs HC (2.4), p=0.041
-  - Nickel: CD 2.9, UC 1.2, HC 5.5 -- significant differences (p=0.017)
-  - Selenium: CD 50, UC 44, HC 77 -- significantly lower in both IBD groups (p=0.009)
-  - Strontium: CD 37, UC 29, HC 35 -- significant (p=0.024)
-  - Zinc, copper, iron: not significantly different between groups
-- **Regression analysis (Table 3)**:
-  - CD: Chromium negatively associated with log IL-6 (Beta: -3.558, p=0.011); Copper positively with log CRP (Beta: 2.548x10^2, p=0.033); Cesium negatively with log calprotectin (Beta: -0.481, p=0.038) and log IL-10 (Beta: -1.912, p=0.050)
-  - UC: Iron negatively with log MPO (Beta: -1.270x10^3, p=0.044); Thallium positively with log PMS (Beta: 3.899, p<0.01)
+
+ - Manganese: lower in UC (1.4) vs HC (2.4), p=0.041
+ - Nickel: CD 2.9, UC 1.2, HC 5.5 -- significant differences (p=0.017)
+ - Selenium: CD 50, UC 44, HC 77 -- significantly lower in both IBD groups (p=0.009)
+ - Strontium: CD 37, UC 29, HC 35 -- significant (p=0.024)
+ - Zinc, copper, iron: not significantly different between groups
+
+ - CD: Chromium negatively associated with log IL-6 (Beta: -3.558, p=0.011); Copper positively with log CRP (Beta: 2.548x10^2, p=0.033); Cesium negatively with log calprotectin (Beta: -0.481, p=0.038) and log IL-10 (Beta: -1.912, p=0.050)
+ - UC: Iron negatively with log MPO (Beta: -1.270x10^3, p=0.044); Thallium positively with log PMS (Beta: 3.899, p<0.01)
 - First study to examine associations of metals with disease activity indices (PMS, HBI) and inflammatory/oxidative stress biomarkers in a Greek population
 
 # Connections

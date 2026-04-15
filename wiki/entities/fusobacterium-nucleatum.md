@@ -54,10 +54,10 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 ## Biofilm Formation and Ecological Dominance
 
 - *F. nucleatum* is a prolific **biofilm former**, particularly in CRC and IBD lesions. Biofilm architecture provides:
-  - Protected microenvironments where FadA-producing cells can persist despite host immunity.
-  - Reduced oxygen availability (beneficial for obligate anaerobes).
-  - Metabolic cross-feeding and division of labor (some cells specialize in iron scavenging, others in virulence).
-  - Reduced antibiotic and bile salt penetration.
+ - Protected microenvironments where FadA-producing cells can persist despite host immunity.
+ - Reduced oxygen availability (beneficial for obligate anaerobes).
+ - Metabolic cross-feeding and division of labor (some cells specialize in iron scavenging, others in virulence).
+ - Reduced antibiotic and bile salt penetration.
 - Biofilms composed of *F. nucleatum* and [[porphyromonas-gingivalis]] or [[prevotella-copri]] are particularly resistant to clearance.
 
 ## Disease Associations
@@ -100,7 +100,7 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 - [[manganese]] -- Mn-SOD critical for survival in oxidative inflammatory environment
 - [[colorectal-cancer]] -- major CRC pathogen, FadA-E-cadherin signaling drives tumorigenesis
 - [[inflammatory-bowel-disease]] -- enriched in IBD lesions, perpetuates bleeding and iron-driven dysbiosis
-- [[e-cadherin]] -- FadA target; E-cadherin cleavage activates oncogenic Wnt signaling
+- -- FadA target; E-cadherin cleavage activates oncogenic Wnt signaling
 - [[nutritional-immunity|barrier-disruption]] -- produces collagenase and matrix-degrading proteases
 - [[biofilm]] -- prolific biofilm former; resistant to clearance in tissue lesions
 - [[metal-carcinogenesis]] -- illustrative example of how metal elevation (iron, Mn) selects for carcinogenic pathobiont

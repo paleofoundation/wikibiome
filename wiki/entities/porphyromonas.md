@@ -63,7 +63,6 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 - **LPS** -- atypical lipopolysaccharide that modulates TLR4 and TLR2 signaling
 - **Outer membrane vesicles** -- carry gingipains and LPS to distant sites; potential vehicle for brain colonization
 
-
 ## Key Sources
 
 - [[kudra-2023-oral-microbiome-crc-perspectives]]

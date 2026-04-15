@@ -10,6 +10,9 @@ year: 2011
 tags: [bacterial-vaginosis, glycemic-index, glycemic-load, healthy-eating-index, diet-quality, dietary-indices, vaginal-flora]
 doi: "10.3945/jn.110.128181"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -25,11 +28,11 @@ platform: wikibiome
 - **Participants**: 1,735 nonpregnant women aged 15-44 from Birmingham, Alabama; predominantly African-American (85.5%)
 - **Dietary assessment**: Block98 FFQ; dietary indices calculated: GI, GL, HEI, NNR score
 - **BV assessment**: Nugent Gram-stain criteria (0-3 normal, 4-6 intermediate, 7-10 BV)
-- **Key results (cross-sectional)**:
-  - GL: positively associated with BV (adjusted OR = 1.01, 95% CI 1.00-1.03 per 10-unit increase; significant)
-  - NNR: negatively associated with BV (adjusted OR = 0.93, 95% CI 0.88-0.98; borderline significant p=0.11 after full adjustment)
-  - GI: positively associated with BV (adjusted OR per 10-unit = borderline)
-  - HEI >70 vs <70: associated with reduced BV but not significant after adjustment (OR = 0.48, then 0.38)
+
+ - GL: positively associated with BV (adjusted OR = 1.01, 95% CI 1.00-1.03 per 10-unit increase; significant)
+ - NNR: negatively associated with BV (adjusted OR = 0.93, 95% CI 0.88-0.98; borderline significant p=0.11 after full adjustment)
+ - GI: positively associated with BV (adjusted OR per 10-unit = borderline)
+ - HEI >70 vs <70: associated with reduced BV but not significant after adjustment (OR = 0.48, then 0.38)
 - **Prospective results**: GL associated with BV progression (adjusted OR = 1.02, 95% CI 1.01-1.04) and persistence (adjusted OR = 1.02, 95% CI 1.01-1.04)
 
 # Connections

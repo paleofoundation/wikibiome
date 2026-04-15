@@ -1,15 +1,36 @@
 ---
-
 title: "Role of Cadmium and Nickel in Estrogen Receptor Signaling and Breast Cancer: Metalloestrogens or Not?"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Aquino NB, Sevigny MB, Sabangan J, Louie MC]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Aquino NB
+  - Sevigny MB
+  - Sabangan J
+  - Louie MC
 journal: Journal of Environmental Science and Health Part C - Environmental Carcinogenesis and Ecotoxicology Reviews
 year: 2012
-tags: [cadmium, nickel, metalloestrogens, estrogen-receptor, breast-cancer, ERa, GPR30, chromatin-modifications, aneuploidy, endocrine-disruption]
-doi: "10.1080/10590501.2012.705159"
+tags:
+  - cadmium
+  - nickel
+  - metalloestrogens
+  - estrogen-receptor
+  - breast-cancer
+  - ERa
+  - GPR30
+  - chromatin-modifications
+  - aneuploidy
+  - endocrine-disruption
+doi: 10.1080/10590501.2012.705159
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+why_keystone: "Establishes cadmium and nickel as metalloestrogens with distinct mechanistic signatures: cadmium binds ERα with affinity near estradiol, activating classical estrogen target genes; nickel induces histone deacetylation and tumor suppressor methylation without competing for estradiol binding. WikiBiome depends on this evidence to explain how metal burden drives estrogen-dependent dysbiosis (estrobolome expansion) in endometriosis and hormonally-sensitive cancers—linking metallomics to the estrobolome pathway."
 ---
 
 # Role of Cadmium and Nickel in Estrogen Receptor Signaling and Breast Cancer: Metalloestrogens or Not?
@@ -43,7 +64,7 @@ platform: wikibiome
 - Nickel findings connect to [[ali-2024-heavy-metals-breast-cancer-review]] section on nickel biomarkers
 - Epidemiological null findings for nickel consistent with [[niehoff-2021-metals-breast-cancer-toenail]] and [[liu-2022-heavy-metals-breast-cancer-meta-analysis]]
 - Chromatin modification mechanisms relevant to [[epigenetic-modifications]] in metal carcinogenesis broadly
-- [[Aneuploidy]] mechanism connects cadmium/nickel to genomic instability pathways shared with other carcinogens
-- [[GPR30]]/GPER pathway activation relevant to ER-negative breast cancer biology
-- Nickel's [[Heterochromatinization]] mechanism unique among metalloestrogens - may silence tumor suppressor genes at specific loci
-- Links to [[Nickel Toxicology]] wiki page for broader nickel health effects
+- mechanism connects cadmium/nickel to genomic instability pathways shared with other carcinogens
+- /GPER pathway activation relevant to ER-negative breast cancer biology
+- Nickel's mechanism unique among metalloestrogens - may silence tumor suppressor genes at specific loci
+- Links to wiki page for broader nickel health effects

@@ -10,6 +10,9 @@ year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-microbiota, systematic-review, graves-disease, thyroid-cancer, probiotics, prebiotics, synbiotics, micronutrients, dysbiosis, iodine, selenium]
 doi: "10.1007/s11154-023-09839-9"
 platform: wikibiome
+karen_brain_primitives: [5]
+metals_discussed: ["iodine", "selenium"]
+taxa_discussed: []
 ---
 
 # The relationship between thyroid and human-associated microbiota: A systematic review of reviews
@@ -27,13 +30,13 @@ platform: wikibiome
 - **Study type**: Systematic review of reviews (5-step search strategy)
 - **Search**: PubMed, Web of Science, Scopus; 1880 records obtained, 774 duplicates removed, 1106 screened, 50 assessed, 38 reviews included (2012-2023)
 - **Key findings from included reviews** (Table 2):
-  - Mori (2012): Intestinal microbiota may influence extra-intestinal immune pathways affecting HT
-  - Kunc (2015): Iodine/vitamins are influenced by gut microbiota
-  - Kohling (2017): Most thyroid-microbiota links in Graves' disease lack definitive evidence
-  - Virili (2018): Altered gut microbiota composition linked to thyroid autoimmunity; causality debated
-  - Ihnatowicz (2019): HT dysbiosis may be shaped by consumption of specific foods
-  - Fenneman (2021): Gut microbiome composition related to Hashimoto's pathophysiology; causal evidence needed
-  - Sawicka-Gutaj (2022): Systematic review confirmed probiotic use in thyroid autoimmunity (limited evidence)
+ - Mori (2012): Intestinal microbiota may influence extra-intestinal immune pathways affecting HT
+ - Kunc (2015): Iodine/vitamins are influenced by gut microbiota
+ - Kohling (2017): Most thyroid-microbiota links in Graves' disease lack definitive evidence
+ - Virili (2018): Altered gut microbiota composition linked to thyroid autoimmunity; causality debated
+ - Ihnatowicz (2019): HT dysbiosis may be shaped by consumption of specific foods
+ - Fenneman (2021): Gut microbiome composition related to Hashimoto's pathophysiology; causal evidence needed
+ - Sawicka-Gutaj (2022): Systematic review confirmed probiotic use in thyroid autoimmunity (limited evidence)
 - **Micronutrient findings**: [[selenium]], [[zinc]], [[iron]], [[iodine]], and [[copper]] all interact with gut microbiota to influence thyroid homeostasis; gut bacteria can deconjugate and recycle thyroid hormones through enterohepatic circulation
 - **Probiotic evidence**: Limited but growing evidence for Lactobacillus and Bifidobacterium supplementation in thyroid patients
 

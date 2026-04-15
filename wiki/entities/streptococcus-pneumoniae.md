@@ -44,20 +44,20 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 
 ### Iron Acquisition
 - **PiaA/PiuA**: ABC-type iron uptake lipoproteins [[akbari-2022-metal-homeostasis-streptococci]].
-  - PiaA and PiuA are independently important for virulence; double mutants are severely attenuated.
-  - Part of iron-regulated operons induced under iron limitation.
+ - PiaA and PiuA are independently important for virulence; double mutants are severely attenuated.
+ - Part of iron-regulated operons induced under iron limitation.
 - **22 kDa and 37 kDa membrane proteins**: the first characterized hemoglobin/heme-binding proteins in *S. pneumoniae* [[romero-espejel-2013-streptococcus-pneumoniae-iron]].
-  - Both bind hemoglobin AND free heme.
-  - Compete for the tetrapyrrole ring (shared binding with vitamin B12).
-  - Contain the **KVAFDH motif** essential for heme binding, conserved with the Shr protein of *S. pyogenes*.
+ - Both bind hemoglobin AND free heme.
+ - Compete for the tetrapyrrole ring (shared binding with vitamin B12).
+ - Contain the **KVAFDH motif** essential for heme binding, conserved with the Shr protein of *S. pyogenes*.
 - **FeoABC**: ferrous iron transporter for anaerobic/low-oxygen environments.
 - Notably, *S. pneumoniae* does **not** produce classical siderophores -- it relies on direct heme/hemoglobin binding and ABC transporters.
 
 ### Manganese Acquisition
 - **PsaA/PsaBCA (MtsABC/SloABC)**: the primary Mn ABC transporter [[akbari-2022-metal-homeostasis-streptococci]].
-  - PsaA is a surface-exposed lipoprotein and vaccine candidate.
-  - PsaA mutants are severely attenuated in colonization, pneumonia, and bacteremia models.
-  - Also transports Zn at lower affinity.
+ - PsaA is a surface-exposed lipoprotein and vaccine candidate.
+ - PsaA mutants are severely attenuated in colonization, pneumonia, and bacteremia models.
+ - Also transports Zn at lower affinity.
 - **MntH (NRAMP family)**: secondary Mn importer.
 
 ### Manganese Export
@@ -66,12 +66,12 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 
 ### Zinc Homeostasis
 - **AdcABC/AdcAII**: ABC-type zinc import system [[akbari-2022-metal-homeostasis-streptococci]].
-  - AdcA and AdcAII are two distinct solute-binding proteins with different zinc affinities.
-  - **Pht (polyhistidine triad) proteins**: surface-exposed zinc-binding/storage proteins that feed zinc to AdcAII.
-  - Adc mutants show attenuated nasopharyngeal colonization and meningitis.
+ - AdcA and AdcAII are two distinct solute-binding proteins with different zinc affinities.
+ - **Pht (polyhistidine triad) proteins**: surface-exposed zinc-binding/storage proteins that feed zinc to AdcAII.
+ - Adc mutants show attenuated nasopharyngeal colonization and meningitis.
 - **CzcD**: CDF-family zinc exporter.
-  - Exports zinc (and possibly cadmium) to prevent intracellular toxicity.
-  - Essential when host neutrophils pump zinc into phagosomes as an antimicrobial strategy.
+ - Exports zinc (and possibly cadmium) to prevent intracellular toxicity.
+ - Essential when host neutrophils pump zinc into phagosomes as an antimicrobial strategy.
 
 ### Copper Homeostasis
 - **CopA**: P-type ATPase for copper efflux [[akbari-2022-metal-homeostasis-streptococci]].

@@ -42,7 +42,7 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- synbiotic and GDH intervention for GI and behavioral symptoms
 - [[probiotics]] -- synbiotic intervention in ASD children
 - [[prebiotics]] -- component of synbiotic treatment
-- [[gastrointestinal-symptoms]] -- significant improvement with both interventions
-- [[anxiety]] -- reduced by combined synbiotic + hypnotherapy approach
+- -- significant improvement with both interventions
+- -- reduced by combined synbiotic + hypnotherapy approach
 - [[gut-brain-axis]] -- gut-directed hypnotherapy targets gut-brain communication
 - [[bifidobacterium]] -- increased post-intervention

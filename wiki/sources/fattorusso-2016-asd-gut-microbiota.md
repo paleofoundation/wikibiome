@@ -49,8 +49,8 @@ Narrative review of **dysbiosis and GI disorders in ASD**, emphasizing **bidirec
 ## Dysbiosis-GI-Behavior Relationships
 
 - Dysbiosis severity correlates with:
-  - **Gastrointestinal dysfunction severity** (dysmotility, dysbiosis-associated diarrhea/constipation)
-  - **Behavioral/neurobehavioral symptom severity** (anxiety, repetitive behaviors, social withdrawal)
+ - **Gastrointestinal dysfunction severity** (dysmotility, dysbiosis-associated diarrhea/constipation)
+ - **Behavioral/neurobehavioral symptom severity** (anxiety, repetitive behaviors, social withdrawal)
 - Suggests **common mechanistic root**: dysbiosis affects both gut and brain simultaneously
 
 # Treatment with Non-Pharmacological Approaches

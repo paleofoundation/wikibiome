@@ -152,7 +152,6 @@ CKD metallomic research reveals stark health equity issues:
 6. **Optimal chelation in CKD**: Standard chelation agents may be nephrotoxic themselves; kidney-safe chelators are needed.
 7. **Thallium**: Identified as having the highest posterior inclusion probability for CKD risk (PIP = 1.0) in one machine learning analysis [[liu-2025-low-concentration-metals-ckd-alpha-klotho]] -- an understudied nephrotoxicant.
 
-
 ## Key Sources
 
 - [[rho-2025-heavy-metals-kidney-function-korea]]
@@ -164,9 +163,7 @@ CKD metallomic research reveals stark health equity issues:
 ## Connections
 
 - **Metals**: [[cadmium]], [[lead]], [[mercury]], [[arsenic]], [[chromium]], [[nickel]], [[iron]], [[zinc]], [[copper]]
-- **Concepts**: [[ferroptosis]], [[alpha-klotho]], [[nephrotoxicity]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[nutritional-immunity|gut-barrier-integrity]], [[vicious-cycle]]
+- **Concepts**: [[ferroptosis]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[nutritional-immunity|nutritional immunity]]
 - **Analyses**: [[metal-disease-matrix]]
 - **Related diseases**: [[parkinsons-disease]] (shared ferroptosis pathway), [[alzheimers-disease]] (shared ferroptosis), [[type-2-diabetes]] (common comorbidity; shared Cd/Pb exposure), [[pcos]] (shared toxic metal burden)
-- **Environmental**: [[soil-contamination]], [[water-contamination]], [[agricultural-exposure]], [[electroplating-industry]]
-- **Interventions**: [[metal-sequestering-probiotics]], [[iron-chelation]], [[clean-water-access]]
 - [[biomarkers]] -- CKD staging relies on eGFR and albuminuria; metal biomarkers (blood Cd, Pb, urinary metallomics) as exposure assessment

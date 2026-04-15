@@ -10,6 +10,7 @@ year: 2022
 tags: [metallomics, cancer, biomarkers, review, copper, zinc, selenium, nickel, cadmium, chromium, arsenic, metal-carcinogenesis, metalloprotein-genes]
 doi: "10.1007/s10653-023-01737-y"
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

@@ -9,6 +9,7 @@ journal: Frontiers in Microbiology
 year: 2023
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colorectal-cancer, immune-response, NK-cells, Treg-cells, cytokines, dysbiosis, 16S-rRNA, mouse-model]
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Key Claims

@@ -11,6 +11,7 @@ tags: [autism, probiotics, meta-analysis, rct, gastrointestinal, children]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims

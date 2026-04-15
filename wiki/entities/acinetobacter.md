@@ -58,7 +58,6 @@ The co-occurrence of metal resistance and antibiotic resistance genes on mobile 
 
 *Acinetobacter* species are ubiquitous in soil, water, and hospital environments. Their metal resistance genes, acquired through horizontal gene transfer and maintained on conjugative plasmids, make them reservoirs for co-selected resistance determinants that can spread to other Gram-negative pathogens.
 
-
 ## Key Sources
 
 - [[braud-2010-siderophores-pseudomonas-metal-tolerance]]
@@ -68,7 +67,7 @@ The co-occurrence of metal resistance and antibiotic resistance genes on mobile 
 
 - [[cadmium]] -- possesses the best-characterized Cd efflux pathway (CzcE/CzcCBA) among Gram-negatives
 - [[nutritional-immunity]] -- Cd-induced Zn depletion mirrors host Zn-sequestration strategies
-- [[antibiotic-resistance]] -- metal-antibiotic co-selection is a primary clinical concern
+- -- metal-antibiotic co-selection is a primary clinical concern
 - [[metal-homeostasis]] -- demonstrates cross-metal toxicity cascades from single-metal exposure
 - [[pseudomonas-aeruginosa]] -- shares siderophore-based metal acquisition strategies
 - [[cardiovascular-disease]] -- enriched in ACS gut microbiome profiles

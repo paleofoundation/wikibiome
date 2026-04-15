@@ -78,7 +78,6 @@ All metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, makin
 - **AhR ligands**: Microbial indole derivatives activate AhR on astrocytes, suppressing neuroinflammation -- therapeutic in MS models.
 - **Probiotics**: Bifidobacterium breve A1 improved cognition in AD patients, potentially via neuroinflammation reduction.
 
-
 ## Key Sources
 
 - [[tizabi-2023-lead-gut-microbiota-asd]]

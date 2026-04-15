@@ -38,12 +38,12 @@ platform: wikibiome
 
 ## Connections
 
-- [[Microbial metallomics]] -- central framework; how trace metals shape microbial community dynamics
-- [[Nickel in food]] -- infant formula nickel content data critical to hypothesis
+- -- central framework; how trace metals shape microbial community dynamics
+- -- infant formula nickel content data critical to hypothesis
 - [[Nutritional immunity]] -- host metal-sequestration strategies (calprotectin, lactoferrin)
 - [[Urease]] -- key nickel-dependent virulence factor across multiple NEC pathogens
-- [[Infant formula contamination]] -- connects to [[dobrzynska-2025-nickel-children-food]]
-- [[Gut dysbiosis]] -- Proteobacteria bloom driven by nickel availability
+- -- connects to [[dobrzynska-2025-nickel-children-food]]
+- -- Proteobacteria bloom driven by nickel availability
 - [[maier-2019-nickel-microbial-pathogenesis]] -- nickel's role in microbial virulence
 - [[probiotics]] -- Bifidobacterium/Lactobacillus do not rely on Ni-enzymes, create nickel-hostile environments
 - Relates to [[developmental-metal-vulnerability]] -- preterm infants represent the most extreme developmental vulnerability window

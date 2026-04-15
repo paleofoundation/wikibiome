@@ -34,9 +34,9 @@ platform: wikibiome
 ## Connections
 
 - [[Tin]] - comprehensive toxicological reference for tin and its compounds
-- [[Organotin Compounds]] - tributyltin, trimethyltin covered as more toxic forms
-- [[EU SCF Opinion on Tin]] - complementary regulatory assessment focused on inorganic tin in canned foods
-- [[food-safety]] - tin in canned foods is a primary human exposure route
-- [[Occupational Exposure]] - workplace tin dust and fume exposure covered
-- [[Children's Health]] - dedicated pediatric sections address special vulnerability
-- [[Environmental Contamination]] - tin at CERCLA Superfund sites
+- - tributyltin, trimethyltin covered as more toxic forms
+- - complementary regulatory assessment focused on inorganic tin in canned foods
+- - tin in canned foods is a primary human exposure route
+- - workplace tin dust and fume exposure covered
+- - dedicated pediatric sections address special vulnerability
+- - tin at CERCLA Superfund sites

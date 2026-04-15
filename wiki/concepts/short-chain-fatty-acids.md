@@ -74,7 +74,6 @@ SCFAs regulate blood pressure through opposing receptor systems:
 - **Olfr78**: propionate/acetate binding on renal juxtaglomerular cells stimulates renin release, raising BP.
 - Net effect depends on SCFA concentration and receptor balance; SCFA depletion from [[dysbiosis]] generally associates with [[hypertension]] [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
 
-
 ## Key Sources
 
 - [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]]

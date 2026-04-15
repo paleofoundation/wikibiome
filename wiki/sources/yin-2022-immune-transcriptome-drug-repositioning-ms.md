@@ -10,6 +10,7 @@ year: 2022
 doi: 10.3389/fimmu.2022.1020721
 tags: [multiple-sclerosis, drug-repurposing, transcriptomics, bioinformatics, PI3K-Akt, chemokine-signaling, fostamatinib, copper, zinc, aspirin]
 platform: wikibiome
+evidence_level: computational-prediction
 ---
 
 # Immune Cells Transcriptome-Based Drug Repositioning for Multiple Sclerosis

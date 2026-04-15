@@ -11,6 +11,7 @@ tags: [postpartum-depression, trace-elements, infant-microbiome, copper, seleniu
 library_category: microbiome-signature
 platform: cureva
 condition: "infant gut microbiome"
+evidence_level: prospective-cohort
 ---
 
 # Key Claims

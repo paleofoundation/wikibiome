@@ -6,16 +6,16 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - borghini-2020-endometriosis-nickel-ibs
-  - lopez-botella-2023-peritoneal-fluid-metals-endometriosis
-  - lei-2018-h2s-endometrial-stromal-cells-nfkb
-  - huang-2024-zinc-intake-endometriosis-risk
-  - barnard-2023-nutrition-prevention-treatment-endometriosis
-  - piecuch-2022-nutrition-endometriosis-review
-  - harris-2018-fruit-vegetable-consumption-endometriosis
-  - mazza-2023-endometriosis-dietary-choices-everyday-life
-  - microbiome-diet-endometriosis-food-tables
-  - aquino-2012-cadmium-nickel-metalloestrogens
+ - borghini-2020-endometriosis-nickel-ibs
+ - lopez-botella-2023-peritoneal-fluid-metals-endometriosis
+ - lei-2018-h2s-endometrial-stromal-cells-nfkb
+ - huang-2024-zinc-intake-endometriosis-risk
+ - barnard-2023-nutrition-prevention-treatment-endometriosis
+ - piecuch-2022-nutrition-endometriosis-review
+ - harris-2018-fruit-vegetable-consumption-endometriosis
+ - mazza-2023-endometriosis-dietary-choices-everyday-life
+ - microbiome-diet-endometriosis-food-tables
+ - aquino-2012-cadmium-nickel-metalloestrogens
 tags: [gynecological, nickel-allergy, metalloestrogens, microbiome, dietary-paradox, estrogen-dependent, chronic-inflammatory]
 platform: wikibiome
 last_substantive_update: 2026-04-13

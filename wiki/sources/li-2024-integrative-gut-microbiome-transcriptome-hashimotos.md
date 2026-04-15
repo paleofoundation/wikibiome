@@ -28,15 +28,15 @@ platform: wikibiome
 - **Study type**: Two-stage case-control study (discovery and validation)
 - **Participants**: 14 early HT patients and 13 healthy controls (discovery, Shandong), 17 early HT patients and 17 healthy controls (validation, Xi'an)
 - **Early HT definition**: Thyroid enlargement, characteristic ultrasound, elevated TPOAb and/or TgAb, but normal thyroid function (TSH, FT3, FT4)
-- **Key metagenomic findings**:
-  - No significant changes in alpha-diversity in early HT
-  - Increased Firmicutes-to-Bacteroidetes (F/B) ratio in early HT (non-significant trend)
-  - Bacillota_A and Spirochaetota significantly increased at phylum level
-  - Ecological networks showed reduced negative (inhibitory) interactions in HT, suggesting loss of microbial community stability
-- **Transcriptome findings**:
-  - Differential miRNA and mRNA expression identified metabolic, immune, and cancer-related pathway enrichment
-  - WGCNA network analysis linked specific miRNA-mRNA modules to gut microbial changes
-  - Strong associations among 9 key molecular signatures with validation stage confirmation
+
+ - No significant changes in alpha-diversity in early HT
+ - Increased Firmicutes-to-Bacteroidetes (F/B) ratio in early HT (non-significant trend)
+ - Bacillota_A and Spirochaetota significantly increased at phylum level
+ - Ecological networks showed reduced negative (inhibitory) interactions in HT, suggesting loss of microbial community stability
+
+ - Differential miRNA and mRNA expression identified metabolic, immune, and cancer-related pathway enrichment
+ - WGCNA network analysis linked specific miRNA-mRNA modules to gut microbial changes
+ - Strong associations among 9 key molecular signatures with validation stage confirmation
 - **Clinical significance**: TPOAb and TgAb were remarkably elevated in early HT even with normal thyroid function, and shear wave elastography (SWE) values were increased
 
 ## Connections

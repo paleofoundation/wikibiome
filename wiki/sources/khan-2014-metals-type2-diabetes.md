@@ -1,15 +1,37 @@
 ---
-
-title: "Metals in the pathogenesis of type 2 diabetes"
+title: Metals in the pathogenesis of type 2 diabetes
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Abdul Rehman Khan, Fazli Rabbi Awan]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Abdul Rehman Khan
+  - Fazli Rabbi Awan
 journal: Journal of Diabetes and Metabolic Disorders
 year: 2014
-tags: [diabetes, essential-metals, toxic-metals, zinc, chromium, iron, copper, manganese, nickel, cadmium, arsenic, lead, metabolic-syndrome, oxidative-stress]
-doi: "10.1186/2251-6581-13-16"
+tags:
+  - diabetes
+  - essential-metals
+  - toxic-metals
+  - zinc
+  - chromium
+  - iron
+  - copper
+  - manganese
+  - nickel
+  - cadmium
+  - arsenic
+  - lead
+  - metabolic-syndrome
+  - oxidative-stress
+doi: 10.1186/2251-6581-13-16
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Establishes that type 2 diabetes is characterized by zinc depletion (via urinary loss and ZnT8 transporter dysfunction) and iron overload (elevated ferritin driving insulin resistance), while toxic metals (lead, nickel, cadmium, arsenic) directly impair insulin signaling and glucose metabolism. WikiBiome depends on this evidence to explain why metal-dysregulated microbiota (depleted in zinc-dependent bacteria) cannot restore insulin sensitivity—linking nutritional immunity failure to dysbiotic metabolic incompetence."
 ---
 
 # Key Claims
@@ -23,18 +45,18 @@ platform: wikibiome
 # Methods/Findings
 
 - **Review scope**: Narrative review of published literature on essential and toxic metal derangements in T2D
-- **Essential metals discussed**:
-  - **Iron (Fe)**: Elevated ferritin in diabetics; strong correlation between ferritin and insulin resistance at preclinical stages; Fe oxidizes biomolecules decreasing insulin secretion
-  - **Copper (Cu)**: Required for SOD catalytic activity; imbalance linked to cholesterol elevation and disrupted HDL/LDL; Cu deficiency leads to mitochondrial distortion in pancreatic acinar cells
-  - **Zinc (Zn)**: 70% bound to albumin; depleted in T2D via urinary loss; ZnT8 transporter mutation associated with T2D; Zn plays key role in insulin hexamer storage and secretion
-  - **Chromium (Cr)**: Cr3+ stimulates insulin signaling and GLUT4 translocation; Cr deficiency elevates blood glucose; Cr6+ is carcinogenic
-  - **Manganese (Mn)**: Cofactor for pyruvate carboxylase and gluconeogenesis enzymes; Mn deficiency implicated in diabetes development
-  - **Magnesium (Mg)**: Required for >300 enzymes; deficiency linked to decreased insulin-mediated glucose uptake and insulin resistance
-- **Toxic metals discussed**:
-  - **Lead (Pb)**: Elevated in blood/plasma/urine of diabetics; interferes with metabolism and cellular functions; causes renal dysfunction
-  - **Nickel (Ni)**: Kidney is major organ for Ni accumulation; Ni contributes to renal dysfunction in diabetics; type 2 diabetics show blood Ni of 0.89 ng/ml vs 0.77 ng/ml in controls
-  - **Cadmium (Cd)**: Accumulates in kidney; reduces calcium absorption; may down-regulate GLUT4 translocation; disrupts pancreatic beta-cell function
-  - **Arsenic (As)**: Disrupts glucose metabolism via TNF-alpha, MAPK, and GLUT4 translocation interference; linked to beta-cell dysfunction
+
+ - **Iron (Fe)**: Elevated ferritin in diabetics; strong correlation between ferritin and insulin resistance at preclinical stages; Fe oxidizes biomolecules decreasing insulin secretion
+ - **Copper (Cu)**: Required for SOD catalytic activity; imbalance linked to cholesterol elevation and disrupted HDL/LDL; Cu deficiency leads to mitochondrial distortion in pancreatic acinar cells
+ - **Zinc (Zn)**: 70% bound to albumin; depleted in T2D via urinary loss; ZnT8 transporter mutation associated with T2D; Zn plays key role in insulin hexamer storage and secretion
+ - **Chromium (Cr)**: Cr3+ stimulates insulin signaling and GLUT4 translocation; Cr deficiency elevates blood glucose; Cr6+ is carcinogenic
+ - **Manganese (Mn)**: Cofactor for pyruvate carboxylase and gluconeogenesis enzymes; Mn deficiency implicated in diabetes development
+ - **Magnesium (Mg)**: Required for >300 enzymes; deficiency linked to decreased insulin-mediated glucose uptake and insulin resistance
+
+ - **Lead (Pb)**: Elevated in blood/plasma/urine of diabetics; interferes with metabolism and cellular functions; causes renal dysfunction
+ - **Nickel (Ni)**: Kidney is major organ for Ni accumulation; Ni contributes to renal dysfunction in diabetics; type 2 diabetics show blood Ni of 0.89 ng/ml vs 0.77 ng/ml in controls
+ - **Cadmium (Cd)**: Accumulates in kidney; reduces calcium absorption; may down-regulate GLUT4 translocation; disrupts pancreatic beta-cell function
+ - **Arsenic (As)**: Disrupts glucose metabolism via TNF-alpha, MAPK, and GLUT4 translocation interference; linked to beta-cell dysfunction
 
 # Connections
 

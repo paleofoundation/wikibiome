@@ -1,15 +1,51 @@
 ---
-
-title: "Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases - A Literature Review"
+title: Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases - A Literature Review
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Brylinski L, Kostelecka K, Wolinski F, Komar O, Milosz A, Michalczyk J, Bilogras J, Machrowska A, Karpinski R, Maciejewski M, Garruti G, Flieger J, Baj J]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Brylinski L
+  - Kostelecka K
+  - Wolinski F
+  - Komar O
+  - Milosz A
+  - Michalczyk J
+  - Bilogras J
+  - Machrowska A
+  - Karpinski R
+  - Maciejewski M
+  - Garruti G
+  - Flieger J
+  - Baj J
 journal: Nutrients
 year: 2025
-doi: "10.3390/nu17030398"
-tags: [trace-elements, thyroid, iron, copper, cobalt, iodine, manganese, zinc, cadmium, mercury, lead, selenium, graves-disease, Hashimotos, hypothyroidism, thyroid-cancer, thyroid-nodules]
+doi: 10.3390/nu17030398
+tags:
+  - trace-elements
+  - thyroid
+  - iron
+  - copper
+  - cobalt
+  - iodine
+  - manganese
+  - zinc
+  - cadmium
+  - mercury
+  - lead
+  - selenium
+  - graves-disease
+  - Hashimotos
+  - hypothyroidism
+  - thyroid-cancer
+  - thyroid-nodules
 platform: wikibiome
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: "Links trace metal and micronutrient status (iron, copper, zinc, selenium, iodine) to thyroid function and autoimmune thyroiditis pathogenesis—bridging nutritional immunity and dysbiosis in Graves' disease and Hashimoto's thyroiditis. Critical for understanding how cadmium/mercury burden drives thyroid-specific dysbiosis and immune dysregulation."
 ---
 
 # Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases - A Literature Review
@@ -45,8 +81,8 @@ platform: wikibiome
 - Iron and copper thyroid biology connects to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] immunocorrection framework
 - Iodine-thyroid autoimmunity links relevant to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] iodine section
 - Cadmium thyroid effects connect to broader [[cadmium]] toxicology profiled in breast cancer papers
-- Selenium-deiodinase biology fundamental to [[Thyroid Hormone Metabolism]]
+- Selenium-deiodinase biology fundamental to 
 - [[ferroptosis]] in thyroid cancer is an emerging therapeutic target
-- [[Cuproptosis]] in thyroid cancer represents novel Cu-dependent cell death mechanism
+- in thyroid cancer represents novel Cu-dependent cell death mechanism
 - Heavy metal thyroid disruption connects to [[kun-2023-microbiota-thyroid-cancer]] via gut-thyroid axis and mineral absorption
-- Trace element table (Table 1) provides comprehensive reference for [[Thyroid Hormone Synthesis]] dependencies
+- Trace element table (Table 1) provides comprehensive reference for dependencies

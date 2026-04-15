@@ -48,7 +48,6 @@ The most abundant intracellular thiol and the master antioxidant of mammalian ce
 
 GSH sits at the nexus of metal toxicity and ferroptosis: metals deplete GSH, GSH depletion disables GPX4, GPX4 loss permits lipid peroxide accumulation, and iron catalyzes the Fenton reactions that generate those peroxides. This creates a vicious cycle where metal exposure simultaneously increases oxidative attack and disables the primary defense against it.
 
-
 ## Key Sources
 
 - [[brock-2015-selenium-thyroid-autoimmunity]]

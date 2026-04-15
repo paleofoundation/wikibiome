@@ -45,11 +45,11 @@ This is the first comprehensive analysis of the metallome (16 elements + Cu and 
 
 ### Metals and Metabolic Health
 - Fe and delta-65Cu in liver and kidney associate with metabolic traits:
-  - **Body weight**: Liver Fe positively correlated (higher Fe in heavier/fatter animals)
-  - **Fat percentage**: Liver Fe further correlated
-  - **IPGTT AUC** (glucose tolerance): Significant associations with liver delta-65Cu
-  - **VO2 increase** (running capacity): Correlates with liver Fe
-  - **Muscle ROS**: Correlates with liver Fe
+ - **Body weight**: Liver Fe positively correlated (higher Fe in heavier/fatter animals)
+ - **Fat percentage**: Liver Fe further correlated
+ - **IPGTT AUC** (glucose tolerance): Significant associations with liver delta-65Cu
+ - **VO2 increase** (running capacity): Correlates with liver Fe
+ - **Muscle ROS**: Correlates with liver Fe
 - High liver delta-65Cu is associated with metabolically healthier animals (younger, lighter)
 - Indicators of diabetic-like symptoms: iron and delta-65Cu correlate with mitochondrial complex I activity and mtDNA/nuclear DNA ratio
 
@@ -83,5 +83,5 @@ This study establishes the metallome as an overlooked but informative omic layer
 - [[iron]] -- Liver Fe correlates with metabolic health markers (body weight, fat%, glucose tolerance, muscle ROS)
 - [[copper]] -- Liver Cu isotope composition as aging clock; Cu redistribution linked to adipogenesis
 - [[zinc]] -- Organ-specific Zn routing; linear delta-66Zn/Zn concentration relationship across organs
-- [[aging]] -- Metallomic aging clocks extend isotopic aging beyond organic elements
-- [[mitochondria]] -- Metallome converges on OXPHOS and mitochondrial complex I activity
+- -- Metallomic aging clocks extend isotopic aging beyond organic elements
+- -- Metallome converges on OXPHOS and mitochondrial complex I activity

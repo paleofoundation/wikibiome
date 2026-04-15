@@ -26,11 +26,11 @@ This exemplifies [[primitive-9|primitive-9-oxygen-state]]: the oxygenation state
 **Major fermentation pathways**:
 
 - **Acetate fermentation**: Pyruvate → Acetyl-CoA → acetate (via acetyl-CoA synthetase)
-  - Example taxa: [[bacteroides-fragilis|bacteroides]], [[prevotella]]
+ - Example taxa: [[bacteroides-fragilis|bacteroides]], [[prevotella]]
 - **Butyrate fermentation**: Pyruvate → Acetyl-CoA → butyryl-CoA → butyrate (via key pathway enzyme butyrate kinase)
-  - Example taxa: [[lachnospiraceae]] (Roseburia, Faecalibacterium), [[clostridium-cluster-iv]]
+ - Example taxa: [[lachnospiraceae]] (Roseburia, Faecalibacterium), [[clostridium-cluster-iv]]
 - **Propionate fermentation**: Succinate or pyruvate → propionyl-CoA → propionate
-  - Example taxa: [[phascolarctobacterium]], [[bacteroides-vulgatus]]
+ - Example taxa: [[phascolarctobacterium]], [[bacteroides-vulgatus]]
 
 **Metal cofactors in fermentation**:
 - **Nickel**: Ni-dependent hydrogenases enable H₂ production; crucial for H₂ cycling and [[nickel-glyoxalase]]-mediated detoxification.
@@ -78,15 +78,15 @@ Fermentative metabolism imbalance is central to dysbiosis-driven conditions:
 
 **Linked concepts**:
 - [[acidic-microenvironment]] — Fermentation produces organic acids; low pH impairs growth of acid-sensitive taxa.
-- [[oxygen-state]] — Primary determinant of which fermentation pathways are active.
-- [[scfa-production]] — The primary output of healthy saccharolytic fermentation.
-- [[dysbiosis-and-inflammation]] — Proteolytic fermentation byproducts drive epithelial damage.
+- — Primary determinant of which fermentation pathways are active.
+- — The primary output of healthy saccharolytic fermentation.
+- — Proteolytic fermentation byproducts drive epithelial damage.
 - [[nutritional-immunity]] — Metal availability shapes which fermentative pathways dominate.
 
 **Linked entities**:
 - [[lachnospiraceae]] (Roseburia, Faecalibacterium) — Primary butyrate producers; depleted in dysbiosis.
 - [[bacteroides-fragilis|bacteroides]] — Saccharolytic fermenters; some shift to proteolytic mode in dysbiosis.
-- [[clostridium-cluster-iv]] — Butyrate producers; reduced in IBD.
+- — Butyrate producers; reduced in IBD.
 - [[escherichia-coli]] — Saccharolytic but also proteolytic; fermentation supports virulence.
 - [[nickel]], [[iron]], [[zinc]] — Key metal cofactors in fermentation enzymes.
 

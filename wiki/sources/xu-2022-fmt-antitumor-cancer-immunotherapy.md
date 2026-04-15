@@ -9,6 +9,7 @@ journal: Frontiers in Immunology
 year: 2022
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, immunotherapy, immune-checkpoint-blockers, gut-microbiota, dysbiosis, Fusobacterium-nucleatum, colorectal-cancer, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims

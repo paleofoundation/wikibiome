@@ -9,6 +9,10 @@ journal: Frontiers in Microbiology
 year: 2025
 tags: [cardiovascular-disease, gut-microbiome, TMAO, SCFAs, bile-acids, therapeutic-strategies, FMT, probiotics, Mediterranean-diet, statins, metformin]
 platform: wikibiome
+karen_brain_primitives: [5]
+metals_discussed: []
+taxa_discussed: []
+evidence_level: expert-opinion
 ---
 
 # Zhang et al. 2025 -- Gut Microbiota and CVD: Mini Review
@@ -23,16 +27,16 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Mini review synthesizing current evidence from animal and human studies
-- **Key pathways reviewed**:
-  - TMAO pathway: dietary L-carnitine and choline -> TMA (gut bacteria) -> TMAO (hepatic FMO3) -> atherosclerosis
-  - SCFA pathway: dietary fiber fermentation -> acetate, butyrate, propionate -> blood pressure regulation and anti-inflammatory effects
-  - Bile acid pathway: primary BA deconjugation by gut bacteria -> secondary BAs -> FXR and TGR5 signaling -> metabolic homeostasis
+
+ - TMAO pathway: dietary L-carnitine and choline -> TMA (gut bacteria) -> TMAO (hepatic FMO3) -> atherosclerosis
+ - SCFA pathway: dietary fiber fermentation -> acetate, butyrate, propionate -> blood pressure regulation and anti-inflammatory effects
+ - Bile acid pathway: primary BA deconjugation by gut bacteria -> secondary BAs -> FXR and TGR5 signaling -> metabolic homeostasis
 - **Clinical trials table (Table 1)**: Summarizes interventions including vegetarian diet, energy-reduced MedDiet, oral rifaximin, FMT in metabolic syndrome, omega-3/inulin supplementation, and dietary fibers
-- **Therapeutic strategies**:
-  - [[Metformin]]: increases SCFA-producing bacteria, downregulates bile acid absorption
-  - [[Statins]]: inhibit NLRP3 inflammasome, reduce oxidative stress
-  - [[fecal-microbiota-transplant]]: improves insulin sensitivity, reduces triglycerides but effect is unsustainable
-  - Emerging: CRISPR/Cas9 for precise gut microbiota metabolic pathway modulation
+
+ - [[Metformin]]: increases SCFA-producing bacteria, downregulates bile acid absorption
+ - [[Statins]]: inhibit NLRP3 inflammasome, reduce oxidative stress
+ - [[fecal-microbiota-transplant]]: improves insulin sensitivity, reduces triglycerides but effect is unsustainable
+ - Emerging: CRISPR/Cas9 for precise gut microbiota metabolic pathway modulation
 
 ## Source Pages
 
@@ -41,5 +45,5 @@ pp. 1-8
 ## Connections
 
 - Integrates multiple therapeutic approaches for [[cardiovascular disease]] via microbiome
-- Links to [[Mediterranean diet]], [[high-fiber diet]], and [[probiotics]] interventions
-- Relevant to [[personalized medicine]] in CVD management
+- Links to [[Mediterranean diet]], and [[probiotics]] interventions
+- Relevant to in CVD management

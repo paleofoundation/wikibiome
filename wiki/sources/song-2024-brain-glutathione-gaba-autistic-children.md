@@ -25,5 +25,5 @@ condition: "autism spectrum disorder"
 
 - [[autism-spectrum-disorder]] -- null finding for brain GSH and GABA differences
 - [[glutathione]] -- no cerebral GSH differences in ASD children
-- [[GABA]] -- no brain GABA+ level differences in ASD
+- -- no brain GABA+ level differences in ASD
 - [[oxidative-stress]] -- cerebral antioxidant levels not altered in ASD

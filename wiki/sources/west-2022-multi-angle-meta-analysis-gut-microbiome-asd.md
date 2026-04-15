@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, meta-analysis, gut-microbiome, confounders, pat
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
 ---
 
 # Key Claims
@@ -42,6 +45,6 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- largest meta-analysis of gut microbiome with confounder control
 - [[gut-microbiome]] -- confounders in ASD-microbiome association studies
 - [[dysbiosis]] -- robust signatures emerge after confounder adjustment
-- [[gastrointestinal-symptoms]] -- bowel function as key confounder
-- [[sex-differences]] -- sex as confounder in microbiome-ASD studies
+- -- bowel function as key confounder
+- -- sex as confounder in microbiome-ASD studies
 - [[clostridium]] -- C. bolteae differentially abundant in ASD subgroups

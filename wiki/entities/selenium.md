@@ -128,7 +128,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 ## Connections
 
 - [[ferroptosis]] -- GPX4 is the master regulator; Se deficiency enables ferroptotic cell death
-- [[thyroid-autoimmunity]] -- Se supplementation reduces anti-TPO in Hashimoto's and improves Graves' ophthalmopathy
+- -- Se supplementation reduces anti-TPO in Hashimoto's and improves Graves' ophthalmopathy
 - [[hashimotos-thyroiditis]] -- 200 ug Se reduces anti-TPO antibodies, especially when >1200 IU/mL
 - [[graves-disease]] -- Se deficiency as independent risk factor for ophthalmopathy
 - [[iron]] -- Se-Fe cooperation through GPX4; Se deficiency amplifies iron-driven oxidative damage
@@ -137,7 +137,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 - [[mercury]] -- Se-Hg binding provides protective effects
 - [[oxidative-stress]] -- selenoproteins are the primary enzymatic antioxidant network
 - [[metallomics]] -- Se as key element in metallomic profiling of cancer, CVD, and neurodegeneration
-- [[cancer]] -- consistent Se depletion across cancer types; selenoprotein gene variants modify risk
-- [[acute-myocardial-infarction]] -- Se decreased with persistent depression at 6 months
-- [[prostate-cancer]] -- Se depletion associated with carcinogenesis risk
+- -- consistent Se depletion across cancer types; selenoprotein gene variants modify risk
+- -- Se decreased with persistent depression at 6 months
+- -- Se depletion associated with carcinogenesis risk
 - [[nutritional-immunity]] -- Se has no direct role in host-pathogen metal competition but supports immune function via selenoproteins

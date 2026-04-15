@@ -38,10 +38,10 @@ platform: wikibiome
 
 ## Connections
 
-- [[TMEV]] -- viral model of progressive MS demonstrating bidirectional gut-brain interactions
+- -- viral model of progressive MS demonstrating bidirectional gut-brain interactions
 - [[multiple-sclerosis]] -- CNS viral infection causes gut dysbiosis and intestinal barrier disruption
-- [[antibiotics]] -- ABX depletion of microbiota paradoxically worsens acute viral disease outcome
-- [[microglia]] -- ABX enhances microglial activation despite reducing T cell infiltration
+- -- ABX depletion of microbiota paradoxically worsens acute viral disease outcome
+- -- ABX enhances microglial activation despite reducing T cell infiltration
 - [[intestinal-permeability]] -- TMEV infection increases gut permeability with tight junction disruption
 - [[akkermansia-muciniphila]] -- transiently depleted during acute viral phase, recovered chronically
 - [[dysbiosis]] -- viral CNS infection as driver of gut dysbiosis (reverse gut-brain axis direction)

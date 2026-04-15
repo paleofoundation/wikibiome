@@ -40,8 +40,8 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- UDCA as potential therapeutic via propionic acid reduction
-- [[propionic-acid]] -- gut-derived metabolite implicated in ASD pathogenesis
-- [[bile-acids]] -- UDCA modulation of gut microbiota and neuroinflammation
+- -- gut-derived metabolite implicated in ASD pathogenesis
+- -- UDCA modulation of gut microbiota and neuroinflammation
 - [[neuroinflammation]] -- NF-KB and cytokine reduction by UDCA
 - [[oxidative-stress]] -- NRF2 pathway modulation by UDCA treatment
-- [[animal-models]] -- PPA-induced rat model of autism
+- -- PPA-induced rat model of autism

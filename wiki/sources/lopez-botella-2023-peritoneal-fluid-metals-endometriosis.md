@@ -27,12 +27,12 @@ platform: wikibiome
 - **Patient profile**: Lacto-ovo vegetarian diet, ecological food consumer, no smoking/alcohol, no occupational or environmental PTE exposure, rural residence, no medications
 - **Control**: 19-year-old woman with serous cystadenoma only, similar lifestyle profile
 - **PF analysis method**: ICP-MS/MS (Agilent 8900) with octopole reaction system; PF samples collected during laparoscopy, diluted 1:4 with ultrapure water
-- **Key PTE findings in peritoneal fluid (case vs. control ratios)**:
-  - **Pb (Lead)**: 75 +/- 4 ug/L vs. 0.72 +/- 0.00019 ug/L -- ratio 90:1
-  - **Ni (Nickel)**: 40.4 +/- 0.7 ug/L vs. <LOD -- ratio 4:1 (reference group: 1.9-5.1 ug/L)
-  - **Bi (Bismuth)**: 33.3 +/- 1.6 ug/L vs. <LOQ (0.5) -- ratio 1.5:1
-  - **Co (Cobalt)**: 1.39 +/- 0.06 ug/L vs. <LOD -- ratio 5:1
-  - **Ba (Barium)**: 9.6 +/- 0.8 ug/L vs. <LOQ (2) -- ratio 4:1
+
+ - **Pb (Lead)**: 75 +/- 4 ug/L vs. 0.72 +/- 0.00019 ug/L -- ratio 90:1
+ - **Ni (Nickel)**: 40.4 +/- 0.7 ug/L vs. <LOD -- ratio 4:1 (reference group: 1.9-5.1 ug/L)
+ - **Bi (Bismuth)**: 33.3 +/- 1.6 ug/L vs. <LOQ (0.5) -- ratio 1.5:1
+ - **Co (Cobalt)**: 1.39 +/- 0.06 ug/L vs. <LOD -- ratio 5:1
+ - **Ba (Barium)**: 9.6 +/- 0.8 ug/L vs. <LOQ (2) -- ratio 4:1
 - **Ni discussion**: Ni serves as a cofactor for some metalloenzymes; no specific biological function identified in humans; previous studies found higher Ni in serum and ectopic endometrial tissue from endometriosis patients; vegetables (spinach, legumes, nuts), baking powder, and cocoa powder contain high Ni amounts
 - **Diet as exposure route**: Patient's vegetarian diet rich in tomatoes (3x/week), hazelnuts/walnuts/almonds (1x/week), olive oil (3x/week), eggs (4x/week), cheese (3x/week) -- several of these are high-nickel foods
 - **Reference group**: 10 PF samples from non-endometriosis patients with benign ovarian cysts showed much lower PTE concentrations

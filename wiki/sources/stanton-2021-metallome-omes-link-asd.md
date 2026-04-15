@@ -25,22 +25,22 @@ platform: wikibiome
 
 - **Type**: Mini-review (10 pages)
 - **Scope**: Integrates metallomics data across all "omics" platforms in ASD context
-- **Metallome-ASD connections**:
-  - Cu, Zn, Fe deficiency and toxic metal accumulation (Pb, Hg, Cd) consistently reported in ASD
-  - Cu/Zn ratio elevated in ASD; most frequently reported abnormality is decreased Zn
-  - Metal transporters and metalloenzymes link the metallome to proteome and transcriptome
-  - Metallothionein-1 (MT-1) changes the methylation pattern of the Btg-1 gene, linking metallome to epigenome
-- **Zinc-specific mechanisms**:
-  - Zn deficiency shown to increase gut permeability in mice, provoking inflammation via IL-6 and GFAP increase
-  - Decreased Zn bioavailability may lead to NLRP3-driven inflammation
-  - Zn-dependent proteins in brain directly react to changes in metal concentrations (in vitro evidence)
-  - SHANK3 scaffold formation depends on zinc binding; Zn deficiency modulates NMDA and AMPA receptor function
-  - Zn may modify epigenetic alterations via methyltransferases where Zn acts as cofactor for methionine-to-homocysteine transfer
-- **Microbiome-metallome link**:
-  - 20% of dietary Zn absorbed by intestinal bacteria in response to Zn availability
-  - Excess dietary Zn positively implicated in resistance to *Clostridium difficile*
-  - Zn-deficient conditions: Verucomicrobia and Firmicutes decreased, Actinobacteria increased
-  - Metals affect microbiota composition, which in turn affects microbial metabolites and immune signaling
+
+ - Cu, Zn, Fe deficiency and toxic metal accumulation (Pb, Hg, Cd) consistently reported in ASD
+ - Cu/Zn ratio elevated in ASD; most frequently reported abnormality is decreased Zn
+ - Metal transporters and metalloenzymes link the metallome to proteome and transcriptome
+ - Metallothionein-1 (MT-1) changes the methylation pattern of the Btg-1 gene, linking metallome to epigenome
+
+ - Zn deficiency shown to increase gut permeability in mice, provoking inflammation via IL-6 and GFAP increase
+ - Decreased Zn bioavailability may lead to NLRP3-driven inflammation
+ - Zn-dependent proteins in brain directly react to changes in metal concentrations (in vitro evidence)
+ - SHANK3 scaffold formation depends on zinc binding; Zn deficiency modulates NMDA and AMPA receptor function
+ - Zn may modify epigenetic alterations via methyltransferases where Zn acts as cofactor for methionine-to-homocysteine transfer
+
+ - 20% of dietary Zn absorbed by intestinal bacteria in response to Zn availability
+ - Excess dietary Zn positively implicated in resistance to *Clostridium difficile*
+ - Zn-deficient conditions: Verucomicrobia and Firmicutes decreased, Actinobacteria increased
+ - Metals affect microbiota composition, which in turn affects microbial metabolites and immune signaling
 - **Lipidome connection**: Reduction of ceruloplasmin (Cu) and Transferrin (Fe) observed in ASD increased lipid peroxidation
 - **Multi-omics tools**: Reviews mixed multi-omics data integration platforms (mixOmics, OmicsPASS, 3Omics) for ASD research
 

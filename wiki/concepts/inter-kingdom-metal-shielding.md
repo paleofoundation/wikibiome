@@ -122,7 +122,6 @@ Environmental metal exposure drives antibiotic resistance through genetic co-sel
 - Cadmium exposure triggers massive transcriptional reprogramming in *E. faecium*: 1,152 differentially expressed genes (47% of the genome), including upregulation of P-type ATPase metal efflux pumps and EPS production [[cheng-2021-cadmium-enterococcus-metabolic]].
 - The cadmium resistome involves 67 genes in *A. baumannii*, with CDF and HME efflux systems providing comprehensive cadmium translocation pathways [[alquethamy-2021-acinetobacter-cadmium-resistance]].
 
-
 ## Key Sources
 
 - [[cassat-2012-metal-acquisition-staphylococcus-aureus]]

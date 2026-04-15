@@ -26,4 +26,4 @@ condition: "autism spectrum disorder"
 - [[autism-spectrum-disorder]] -- prenatal cadmium and cesium exposure as ASD risk factors
 - [[cadmium]] -- in utero exposure associated with increased ASD risk
 - [[heavy-metals]] -- urinary metals during pregnancy and offspring ASD
-- [[prenatal-risk-factors]] -- metal exposure during critical developmental windows
+- -- metal exposure during critical developmental windows

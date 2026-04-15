@@ -27,16 +27,16 @@ platform: wikibiome
 - **Intervention**: Probiotic capsule containing *Lactobacillus acidophilus*, *Lactobacillus casei*, *Bifidobacterium bifidum*, and *Lactobacillus fermentum* (each 2 x 10^9 CFU/g) daily for 12 weeks (n=30 probiotic, n=30 placebo)
 - **Compliance**: >90% capsule consumption; no side effects or relapses reported
 - **Key Results** (probiotic vs. placebo change):
-  - EDSS: -0.3 +/- 0.6 vs. +0.1 +/- 0.3 (p = 0.001)
-  - BDI (depression): -5.6 +/- 4.9 vs. -1.1 +/- 3.4 (p < 0.001)
-  - GHQ: -9.1 +/- 6.2 vs. -2.6 +/- 6.4 (p < 0.001)
-  - DASS (anxiety/stress): -16.5 +/- 12.9 vs. -6.2 +/- 11.0 (p < 0.001)
-  - hs-CRP: -1.3 +/- 3.5 vs. -0.4 +/- 1.4 (p = 0.01)
-  - Plasma NO: -1.0 +/- 7.9 vs. -6.0 +/- 8.3 (p = 0.002)
-  - MDA: +0.009 +/- 0.4 vs. +0.3 +/- 0.5 (p = 0.04)
-  - Serum insulin: -2.9 +/- 3.7 vs. -1.1 +/- 4.8 (p < 0.001)
-  - HOMA-IR: -0.6 +/- 0.8 vs. +0.2 +/- 1.0 (p = 0.001)
-  - Total-/HDL-cholesterol: -0.1 +/- 0.3 vs. +0.1 +/- 0.3 (p = 0.02)
+ - EDSS: -0.3 +/- 0.6 vs. +0.1 +/- 0.3 (p = 0.001)
+ - BDI (depression): -5.6 +/- 4.9 vs. -1.1 +/- 3.4 (p < 0.001)
+ - GHQ: -9.1 +/- 6.2 vs. -2.6 +/- 6.4 (p < 0.001)
+ - DASS (anxiety/stress): -16.5 +/- 12.9 vs. -6.2 +/- 11.0 (p < 0.001)
+ - hs-CRP: -1.3 +/- 3.5 vs. -0.4 +/- 1.4 (p = 0.01)
+ - Plasma NO: -1.0 +/- 7.9 vs. -6.0 +/- 8.3 (p = 0.002)
+ - MDA: +0.009 +/- 0.4 vs. +0.3 +/- 0.5 (p = 0.04)
+ - Serum insulin: -2.9 +/- 3.7 vs. -1.1 +/- 4.8 (p < 0.001)
+ - HOMA-IR: -0.6 +/- 0.8 vs. +0.2 +/- 1.0 (p = 0.001)
+ - Total-/HDL-cholesterol: -0.1 +/- 0.3 vs. +0.1 +/- 0.3 (p = 0.02)
 - **No significant change** in: other oxidative stress markers, FPG, triglycerides, VLDL
 
 ## Connections

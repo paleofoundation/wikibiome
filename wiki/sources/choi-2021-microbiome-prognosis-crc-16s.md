@@ -32,8 +32,8 @@ platform: wikibiome
 
 ## Connections
 
-- Prognostic significance of *F. nucleatum* and *B. fragilis* supports findings in [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] and connects to [[microbiome-and-disease-progression]]
-- Host gene expression correlations with microbiome provide evidence for [[microbiome-host-interactions]] in CRC tumorigenesis
-- Immune cell deconvolution links to [[immune-response]] and [[microbiome-and-immune-system]] in CRC
-- LPS biosynthesis enrichment in tumors connects to [[microbiome-and-inflammation]] pathways
+- Prognostic significance of *F. nucleatum* and *B. fragilis* supports findings in [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] and connects to 
+- Host gene expression correlations with microbiome provide evidence for in CRC tumorigenesis
+- Immune cell deconvolution links to and in CRC
+- LPS biosynthesis enrichment in tumors connects to pathways
 - [[colorectal-cancer]]

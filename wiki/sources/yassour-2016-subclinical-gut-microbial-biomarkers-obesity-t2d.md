@@ -11,6 +11,7 @@ tags: [type-1-diabetes, autoimmune, microbial-biomarkers, akkermansia, twins, me
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: cross-sectional
 ---
 
 # Key Claims

@@ -25,11 +25,11 @@ platform: wikibiome
 - **Sample**: 224 mother-infant pairs from Isfahan, Iran
 - **Exposure**: Maternal serum Mg levels measured at 38 weeks gestation (mean: 1.95 +/- 0.23 mg/dL)
 - **Outcomes**: PPD assessed by EPDS (cutoff >= 12) at 4 weeks postpartum; infant growth at birth, 6, and 12 months; ASQ neurodevelopmental status at 6 and 12 months
-- **Key Findings**:
-  - Mean Mg was similar between depressed (1.91 mg/dL) and non-depressed (1.97 mg/dL) mothers (p=0.64)
-  - Lower SES (p=0.02) and lower maternal education (p=0.004) were significantly associated with PPD
-  - A significant depression-by-time interaction was found for communication skills (p=0.02), with depressed mothers' infants showing poorer progression
-  - No significant associations in other ASQ domains (gross motor, fine motor, problem-solving, personal-social)
+
+ - Mean Mg was similar between depressed (1.91 mg/dL) and non-depressed (1.97 mg/dL) mothers (p=0.64)
+ - Lower SES (p=0.02) and lower maternal education (p=0.004) were significantly associated with PPD
+ - A significant depression-by-time interaction was found for communication skills (p=0.02), with depressed mothers' infants showing poorer progression
+ - No significant associations in other ASQ domains (gross motor, fine motor, problem-solving, personal-social)
 - **Response rate**: 93.4%
 
 # Connections

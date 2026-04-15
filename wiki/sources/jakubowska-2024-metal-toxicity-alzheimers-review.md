@@ -21,27 +21,27 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Literature review using PubMed and Google Scholar databases
-- **Aluminum**:
-  - Third most common element in Earth's crust; causes oxidative stress overpowering cell defenses
-  - Induces protein oligomerization, delays breakdown, results in toxic brain accumulation
-  - Disrupts enzyme activities in neurotransmitter synthesis; interferes with synaptic transmission via voltage-gated calcium channels
-  - Individuals with genetic predisposition to AD may accumulate and retain more aluminum in the brain
-  - Not naturally found in human metallome but widely present in brain
-- **Lead**:
-  - Accounts for ~1% of global disease burden; particularly harmful to children and older adults
-  - Oxidative stress from Pb overload intensifies aggregation of amyloid-beta proteins and damages neuronal cells
-  - Early-life Pb exposure leads to hypomethylation of APP gene, causing overexpression of APP
-  - No level of lead exposure can be considered safe
-- **Zinc**:
-  - Essential mineral playing crucial role in neuroprotection, immune, and brain function
-  - Post-mortem analyses show 3x greater zinc buildup in amyloid plaques and decreased synaptic zinc transporter levels vs. normal brains
-  - AD patients found to have lower plasma zinc levels than healthy individuals
-  - Dual role: promotes amyloid plaque formation at low levels, contributes to tau phosphorylation at high levels
-- **Copper**:
-  - Essential co-factor for enzymes; healthy levels range 50-80 mg
-  - Binds strongly to released amyloid-beta, affecting amyloid plaque formation
-  - Both excess and deficiency may contribute to AD pathology
-  - AD brains show decreased Cu levels in multiple regions; copper deficiency in brain contributes to harmful amyloid production
+
+ - Third most common element in Earth's crust; causes oxidative stress overpowering cell defenses
+ - Induces protein oligomerization, delays breakdown, results in toxic brain accumulation
+ - Disrupts enzyme activities in neurotransmitter synthesis; interferes with synaptic transmission via voltage-gated calcium channels
+ - Individuals with genetic predisposition to AD may accumulate and retain more aluminum in the brain
+ - Not naturally found in human metallome but widely present in brain
+
+ - Accounts for ~1% of global disease burden; particularly harmful to children and older adults
+ - Oxidative stress from Pb overload intensifies aggregation of amyloid-beta proteins and damages neuronal cells
+ - Early-life Pb exposure leads to hypomethylation of APP gene, causing overexpression of APP
+ - No level of lead exposure can be considered safe
+
+ - Essential mineral playing crucial role in neuroprotection, immune, and brain function
+ - Post-mortem analyses show 3x greater zinc buildup in amyloid plaques and decreased synaptic zinc transporter levels vs. normal brains
+ - AD patients found to have lower plasma zinc levels than healthy individuals
+ - Dual role: promotes amyloid plaque formation at low levels, contributes to tau phosphorylation at high levels
+
+ - Essential co-factor for enzymes; healthy levels range 50-80 mg
+ - Binds strongly to released amyloid-beta, affecting amyloid plaque formation
+ - Both excess and deficiency may contribute to AD pathology
+ - AD brains show decreased Cu levels in multiple regions; copper deficiency in brain contributes to harmful amyloid production
 
 # Connections
 

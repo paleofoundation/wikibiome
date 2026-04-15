@@ -40,7 +40,7 @@ condition: "autism spectrum disorder"
 ## Connections
 
 - [[autism-spectrum-disorder]] -- immune dysfunction as consistent feature
-- [[immune-system]] -- T cell, B cell, NK cell, and dendritic cell alterations in ASD
+- -- T cell, B cell, NK cell, and dendritic cell alterations in ASD
 - [[neuroinflammation]] -- elevated cytokines and chemokines in ASD
-- [[autoimmunity]] -- increased autoantibodies in ASD individuals
-- [[cytokines]] -- peripheral cytokine elevation in ASD
+- -- increased autoantibodies in ASD individuals
+- -- peripheral cytokine elevation in ASD

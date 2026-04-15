@@ -24,13 +24,13 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Type**: Review
-- **Key mechanisms reviewed**:
-  - **Bile acid metabolism**: Primary BAs (cholic acid, chenodeoxycholic acid) are metabolized by bacterial flora into secondary BAs (DOC, LCA); less than 5% of BA pool enters colon per day
-  - **Factors increasing secondary BA levels**: high dietary fat intake, high red meat consumption; Western diet populations bear up to 60% of global CRC burden
-  - **DNA damage**: BAs induce oxidative DNA damage; ROS causes damage by disrupting base excision repair pathway; BAs induce genomic instability including aneuploidy, defects in spindle assembly checkpoints
-  - **ROS/RNS production**: Activation of NAD(P)H oxidases and phospholipase A2 in mitochondrial membrane; perturbations in mitochondrial membrane increase ROS
-  - **NF-kB and apoptosis**: DOC induces NF-kB activation in HCT116 cells; BAs induce apoptosis primarily through intrinsic pathway involving mitochondrial oxidative stress, cytochrome C release, and caspase activation
-  - **Nuclear receptors**: VDR, PXR/SXR, FXR serve as BA receptors; NR transcriptome downregulated in progression from normal intestinal epithelia to dysplastic lesions
+
+ - **Bile acid metabolism**: Primary BAs (cholic acid, chenodeoxycholic acid) are metabolized by bacterial flora into secondary BAs (DOC, LCA); less than 5% of BA pool enters colon per day
+ - **Factors increasing secondary BA levels**: high dietary fat intake, high red meat consumption; Western diet populations bear up to 60% of global CRC burden
+ - **DNA damage**: BAs induce oxidative DNA damage; ROS causes damage by disrupting base excision repair pathway; BAs induce genomic instability including aneuploidy, defects in spindle assembly checkpoints
+ - **ROS/RNS production**: Activation of NAD(P)H oxidases and phospholipase A2 in mitochondrial membrane; perturbations in mitochondrial membrane increase ROS
+ - **NF-kB and apoptosis**: DOC induces NF-kB activation in HCT116 cells; BAs induce apoptosis primarily through intrinsic pathway involving mitochondrial oxidative stress, cytochrome C release, and caspase activation
+ - **Nuclear receptors**: VDR, PXR/SXR, FXR serve as BA receptors; NR transcriptome downregulated in progression from normal intestinal epithelia to dysplastic lesions
 
 ## Connections
 

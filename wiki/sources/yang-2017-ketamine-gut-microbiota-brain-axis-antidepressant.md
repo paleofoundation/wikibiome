@@ -10,6 +10,10 @@ year: 2017
 doi: "10.1038/s41398-017-0031-4"
 tags: [hashimotos-thyroiditis, thyroid, gut-brain-axis, antidepressants, ketamine, gut-microbiome, depression, Tenericutes, Deltaproteobacteria, Mollicutes, Butyricimonas, 16S-rRNA, social-defeat-stress]
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: []
+evidence_level: animal-model
 ---
 
 # Possible Role of the Gut Microbiota-Brain Axis in the Antidepressant Effects of (R)-Ketamine in a Social Defeat Stress Model
@@ -38,4 +42,4 @@ platform: wikibiome
 - Gut-brain axis mechanism relevant to depression in [[Hashimoto's thyroiditis]] and [[graves-disease]] patients
 - Butyricimonas modulation links to [[short-chain-fatty-acids]] and butyrate-producing bacteria in thyroid disease
 - Antidepressant-microbiome interactions relevant to pharmacological management of HT-associated depression
-- Deltaproteobacteria findings connect to broader [[Gut Dysbiosis]] patterns in autoimmune disease
+- Deltaproteobacteria findings connect to broader patterns in autoimmune disease

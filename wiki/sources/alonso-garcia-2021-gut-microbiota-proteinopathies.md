@@ -21,31 +21,31 @@ platform: wikibiome
 # Methods/Findings
 
 - **Design**: Review of the role of gut microbiota in pathogenesis of PD, AD, and HD; includes discussion of microbiota-based therapeutic strategies
-- **Gut-brain axis communication**:
-  - Bidirectional communication via neural pathways (vagus nerve), systemic circulation, immune system, and neuroendocrine connections
-  - SCFAs (propionate, butyrate, acetate) cross the BBB and influence brain function
-  - Neurotransmitters (serotonin, dopamine, GABA) produced by microbiota
-  - HPA axis activation by stressors negatively affects brain function, gut microbiota composition, and GIT permeability
-- **PD and microbiota**:
-  - Constipation, dysphagia, nausea, or gastroparesis observed in patients long before motor symptoms
-  - Epidemiological studies show decreased PD risk in vagotomised patients
-  - Altered microbiota: reduced anti-inflammatory Prevotellaceae, Blautia, Coprococcus, Roseburia; increased pro-inflammatory Enterobacteriaceae
-  - Alpha-synuclein aggregation in gut occurs in 65-85% of PD patients; rostro-caudal gradient
-  - H. pylori and SIBO infections are triggering factors for PD
-- **AD and microbiota**:
-  - Reduced gut microbiota diversity; altered Firmicutes:Bacteroidetes ratio
-  - H. pylori infection associated with decreased AD risk controversially
-  - Bacterial metabolites and by-products can aggravate AD (Curli, tau, amyloid-beta, alpha-synuclein, prion)
-  - FMT reduced phosphorylation of tau protein and brain amyloid-beta levels; increased synaptic plasticity
-  - Probiotics showed variable efficacy; 12-week Lactobacillus/Bifidobacterium courses showed some cognitive improvements
-- **HD and microbiota**:
-  - Male HD mice showed greater gut microbial diversity differences
-  - Gut dysbiosis linked to body weight changes and motor deficits
-  - Limited but emerging evidence for microbiota role
-- **Therapeutic approaches**:
-  - Probiotics: Lactobacillus, Bifidobacterium strains showing neuroprotective effects in animal models
-  - [[Fecal-microbiota-transplantation]]: promising results in PD (constipation relief) and AD (amyloid-beta reduction) in preclinical models
-  - Safety concerns and limited human data remain challenges
+
+ - Bidirectional communication via neural pathways (vagus nerve), systemic circulation, immune system, and neuroendocrine connections
+ - SCFAs (propionate, butyrate, acetate) cross the BBB and influence brain function
+ - Neurotransmitters (serotonin, dopamine, GABA) produced by microbiota
+ - HPA axis activation by stressors negatively affects brain function, gut microbiota composition, and GIT permeability
+
+ - Constipation, dysphagia, nausea, or gastroparesis observed in patients long before motor symptoms
+ - Epidemiological studies show decreased PD risk in vagotomised patients
+ - Altered microbiota: reduced anti-inflammatory Prevotellaceae, Blautia, Coprococcus, Roseburia; increased pro-inflammatory Enterobacteriaceae
+ - Alpha-synuclein aggregation in gut occurs in 65-85% of PD patients; rostro-caudal gradient
+ - H. pylori and SIBO infections are triggering factors for PD
+
+ - Reduced gut microbiota diversity; altered Firmicutes:Bacteroidetes ratio
+ - H. pylori infection associated with decreased AD risk controversially
+ - Bacterial metabolites and by-products can aggravate AD (Curli, tau, amyloid-beta, alpha-synuclein, prion)
+ - FMT reduced phosphorylation of tau protein and brain amyloid-beta levels; increased synaptic plasticity
+ - Probiotics showed variable efficacy; 12-week Lactobacillus/Bifidobacterium courses showed some cognitive improvements
+
+ - Male HD mice showed greater gut microbial diversity differences
+ - Gut dysbiosis linked to body weight changes and motor deficits
+ - Limited but emerging evidence for microbiota role
+
+ - Probiotics: Lactobacillus, Bifidobacterium strains showing neuroprotective effects in animal models
+ - [[Fecal-microbiota-transplantation]]: promising results in PD (constipation relief) and AD (amyloid-beta reduction) in preclinical models
+ - Safety concerns and limited human data remain challenges
 
 # Connections
 

@@ -34,6 +34,6 @@ platform: wikibiome
 
 - Provides strongest epidemiological evidence linking surgical [[comorbidities]] (appendectomy) to CRC through microbiome mechanisms
 - *B. fragilis* centrality supports its pathogenic role found in [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] and [[choi-2021-microbiome-prognosis-crc-16s]]
-- Intestinal barrier dysfunction connects to [[microbiome-and-inflammation]] and [[microbiome-host-interactions]]
-- Metagenomic functional pathway changes relate to [[metabolic-pathways]] in CRC development
+- Intestinal barrier dysfunction connects to and 
+- Metagenomic functional pathway changes relate to in CRC development
 - [[colorectal-cancer]]

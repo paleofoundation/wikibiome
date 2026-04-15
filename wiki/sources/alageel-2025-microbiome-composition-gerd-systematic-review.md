@@ -29,18 +29,18 @@ platform: wikibiome
 - **Included studies**: 11 peer-reviewed studies (2015-2025) using 16S rRNA sequencing, shotgun metagenomics, or metabolomics
 - **Sample types**: Esophageal, gastric, intestinal, oral, and salivary microbiota profiles
 - **Quality assessment**: Newcastle-Ottawa Scale for observational studies; Cochrane RoB 2 for RCTs; STROBE-MR for MR studies; 5 low-risk, 4 moderate-risk, 2 high-risk
-- **Key findings by study**:
-  - Ye et al. (2023): Proteobacteria and Bacteroidota dominated GERD; 288 differential metabolites via LC-MS
-  - Wang et al. (2025): Positive GERD-SIBO correlation (P=0.007); *Bacteroides uniformis* (28%) and *Bacteroides stercoris* (22%) dominant
-  - Chen et al. (2024): Gram-negative bacteria increased 35% in GERD; TLR2 expression elevated 2.1-fold
-  - Lopetuso et al. (2020): Microbial transitions from *Streptococcus* to *Prevotella* to *Leptotrichia* across BE to EAC progression
-  - Francis et al. (2023): PPI-treated infants showed *Firmicutes* increase to 65% vs *Bifidobacterium* dominance (72%) in controls
+
+ - Ye et al. (2023): Proteobacteria and Bacteroidota dominated GERD; 288 differential metabolites via LC-MS
+ - Wang et al. (2025): Positive GERD-SIBO correlation (P=0.007); *Bacteroides uniformis* (28%) and *Bacteroides stercoris* (22%) dominant
+ - Chen et al. (2024): Gram-negative bacteria increased 35% in GERD; TLR2 expression elevated 2.1-fold
+ - Lopetuso et al. (2020): Microbial transitions from *Streptococcus* to *Prevotella* to *Leptotrichia* across BE to EAC progression
+ - Francis et al. (2023): PPI-treated infants showed *Firmicutes* increase to 65% vs *Bifidobacterium* dominance (72%) in controls
 - **Gut-esophageal axis**: Changes in gut microbial communities can influence esophageal inflammation through microbial metabolites, immune signaling, and altered bile acid profiles
 
 ## Connections
 
 - Streptococcus-to-Prevotella transition aligns with community type framework in [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]]
 - PPI-microbiome interactions reviewed here connect to specific findings in [[park-2020-nerd-treatment-esophageal-microbiome-dynamics]] and [[kawar-2021-salivary-microbiome-gerd-ppi]]
-- Mendelian randomization evidence supports causal findings in [[causal-gut-microbiota-gerd-mendelian-bidirectional]]
+- Mendelian randomization evidence supports causal findings in 
 - SIBO-GERD overlap connects to probiotics intervention rationale in [[liu-2022-probiotics-gut-microbiome-gerd-rabeprazole-rct]]
 - Barrett's esophagus progression findings complement [[gail-2015-upper-gi-microbiome-barretts-genomic-instability]]

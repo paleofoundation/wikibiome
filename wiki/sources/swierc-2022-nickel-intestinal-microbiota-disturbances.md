@@ -29,13 +29,13 @@ platform: wikibiome
 - **Study type**: Narrative review of scientific literature from the last 20 years
 - **Search**: PubMed and Cochrane Library; keywords: nickel + microbiota, nickel + allergy, nickel + health, microbiota + disturbances
 - **Included**: 57 scientific publications
-- **Key mechanisms reviewed**:
-  - Nickel as cofactor for microbial metalloenzymes
-  - Nickel toxicity via DNA damage through oxygen radical production
-  - Nickel-free diet effects on H. pylori eradication
-  - Nickel-induced shifts in Firmicutes/Bacteroidetes ratio
-  - Stress-microbiota interactions amplified by nickel exposure
-  - Nickel in consumer products increasing human contact probability
+
+ - Nickel as cofactor for microbial metalloenzymes
+ - Nickel toxicity via DNA damage through oxygen radical production
+ - Nickel-free diet effects on H. pylori eradication
+ - Nickel-induced shifts in Firmicutes/Bacteroidetes ratio
+ - Stress-microbiota interactions amplified by nickel exposure
+ - Nickel in consumer products increasing human contact probability
 - **EFSA guidance**: Tolerable daily intake of nickel is 2.8 ug Ni/kg body weight per day; current dietary exposure raises health concerns
 
 ## Connections
@@ -44,4 +44,4 @@ platform: wikibiome
 - Nickel-dependent urease in H. pylori links to inverse H. pylori-GERD relationship in [[sugihartono-2022-gastric-microbiota-hpylori-gerd]]
 - Low-nickel diet as therapeutic approach relates to dietary interventions for GERD management
 - Firmicutes/Bacteroidetes ratio disruption parallels [[dysbiosis]] patterns seen across GERD studies
-- Heavy metal-microbiome interactions extend to broader [[heavy metals]] and [[trace metals]] GERD connections
+- Heavy metal-microbiome interactions extend to broader [[heavy metals]] and GERD connections

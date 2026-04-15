@@ -1,15 +1,38 @@
 ---
-
-title: "Oral Administration of Probiotics Inhibits Absorption of the Heavy Metal Cadmium by Protecting the Intestinal Barrier"
+title: Oral Administration of Probiotics Inhibits Absorption of the Heavy Metal Cadmium by Protecting the Intestinal Barrier
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Zhai Q, Wang G, Zhao J, Liu X, Narbad A, Chen YQ, Zhang H, Tian F, Chen W]
+created: 2026-04-09T00:00:00.000Z
+updated: 2026-04-09T00:00:00.000Z
+authors:
+  - Zhai Q
+  - Wang G
+  - Zhao J
+  - Liu X
+  - Narbad A
+  - Chen YQ
+  - Zhang H
+  - Tian F
+  - Chen W
 journal: Appl Environ Microbiol
 year: 2016
-tags: [cadmium, probiotics, intestinal-barrier, oxidative-stress, tight-junctions, heavy-metals, Lactobacillus]
-doi: "10.1038/s41420-023-01587-8"
+tags:
+  - cadmium
+  - probiotics
+  - intestinal-barrier
+  - oxidative-stress
+  - tight-junctions
+  - heavy-metals
+  - Lactobacillus
+doi: 10.1038/s41420-023-01587-8
 platform: wikibiome
+evidence_level: animal-model
+keystone: true
+keystone_criteria_met:
+  - 1
+  - 2
+  - 3
+  - 4
+why_keystone: Demonstrates that specific Lactobacillus strains sequester cadmium and protect against Cd-induced gut damage in vivo, establishing probiotics as a tractable intervention against metal toxicity. Grounds the intervention layer of WikiBiome's cadmium-microbiome framework and supports probiotic metal-sequestration as a cross-condition therapeutic lever.
 ---
 
 # Oral Administration of Probiotics Inhibits Absorption of the Heavy Metal Cadmium by Protecting the Intestinal Barrier

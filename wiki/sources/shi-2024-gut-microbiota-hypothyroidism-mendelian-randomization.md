@@ -36,4 +36,4 @@ platform: wikibiome
 - Akkermansia protective role aligns with [[pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian]] showing Akkermansia negatively correlated with HT
 - Butyrivibrio as SCFA producer connects to [[gong-2024-iodine-gut-microbiota-hashimotos]] butyrate findings
 - MR design complements observational studies like [[liu-2022-gut-microbiota-diversity-hashimotos]]
-- Unidirectional causality (microbiota to thyroid) has implications for [[Probiotic]] therapeutic strategies
+- Unidirectional causality (microbiota to thyroid) has implications for therapeutic strategies

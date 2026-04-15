@@ -10,6 +10,10 @@ year: 2018
 tags: [endometriosis, gut-microbiome, mouse-model, Firmicutes-Bacteroidetes-ratio, dysbiosis, Bifidobacterium, 16S-rRNA, beta-diversity]
 doi: "10.1093/humrep/dex372"
 platform: wikibiome
+karen_brain_primitives: []
+metals_discussed: []
+taxa_discussed: ["Bifidobacterium"]
+evidence_level: animal-model
 ---
 
 # Key Claims
@@ -26,12 +30,12 @@ platform: wikibiome
 - **Model**: C57BL/6 mice with intraperitoneal endometrial segment injection; mock controls received saline with adipose tissue
 - **Timepoints**: Fecal collection at days 7, 14, 28, and 42
 - **Methods**: 16S rRNA sequencing, LEfSe analysis
-- **Key results**:
-  - No differences at 7, 14, or 28 days; significant changes only at 42 days
-  - UPGMA clustering showed distinct groups at 42 days on weighted UniFrac (P=0.006)
-  - PCoA analysis confirmed separation of endometriosis vs mock at 42 days
-  - Six discriminative features identified by LEfSe at 42 days
-  - Peritoneal macrophages showed abnormal morphology in endometriosis mice
+
+ - No differences at 7, 14, or 28 days; significant changes only at 42 days
+ - UPGMA clustering showed distinct groups at 42 days on weighted UniFrac (P=0.006)
+ - PCoA analysis confirmed separation of endometriosis vs mock at 42 days
+ - Six discriminative features identified by LEfSe at 42 days
+ - Peritoneal macrophages showed abnormal morphology in endometriosis mice
 
 # Relevance to Wiki
 

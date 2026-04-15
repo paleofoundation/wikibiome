@@ -25,22 +25,22 @@ platform: wikibiome
 ## Methods/Findings
 
 - **Study type**: Bidirectional two-sample MR with multivariable MR mediation analysis
-- **Data sources**:
-  - Gut microbiota: MiBioGen consortium (18,340 participants, 24 cohorts, 211 GM taxa)
-  - AITD outcomes: FinnGen R10 (HT and GD separately)
-  - Immunophenotypes: 731 immune cell traits GWAS (3,757 European subjects)
+
+ - Gut microbiota: MiBioGen consortium (18,340 participants, 24 cohorts, 211 GM taxa)
+ - AITD outcomes: FinnGen R10 (HT and GD separately)
+ - Immunophenotypes: 731 immune cell traits GWAS (3,757 European subjects)
 - **Forward MR for HT** (Figure 3A):
-  - Eggerthella: OR=0.94 (95% CI 0.89-0.99, p=0.019)
-  - Butyrivibrio: OR=0.96 (95% CI 0.93-0.99, p=0.016)
-  - Holdemanella: OR=1.07 (95% CI 1.01-1.13, p=0.026)
-  - Intestinimonas: OR=1.06 (95% CI 1.00-1.12, p=0.040)
+ - Eggerthella: OR=0.94 (95% CI 0.89-0.99, p=0.019)
+ - Butyrivibrio: OR=0.96 (95% CI 0.93-0.99, p=0.016)
+ - Holdemanella: OR=1.07 (95% CI 1.01-1.13, p=0.026)
+ - Intestinimonas: OR=1.06 (95% CI 1.00-1.12, p=0.040)
 - **Forward MR for GD** (Figure 3B):
-  - Ruminoclostridium5: OR=1.31 (risk); Catenibacterium: OR=1.42 (risk)
-  - Coprococcus1, Akkermansia, Victivallis, Bacteroidaceae, Bacteroides all protective
-- **Mediation analysis for HT**:
-  - Eggerthella mediated via CD25+CD8+ T cell %T cell (beta=0.18), CD3 on activated CD4 regulatory T cell (beta=-0.22), CD3 on CD39+ activated CD4 regulatory T cell (beta=-0.21)
-  - Actinobacteria mediated via CCR2 on myeloid Dendritic Cell (beta=-0.23, p=0.006), CD3 on Central Memory CD4+ T cell (beta=0.36, p=0.026)
-  - Intestinimonas (risk) mediated via CD27 on IgD- CD38- unswitched memory B cell (beta=0.40, p=0.0001)
+ - Ruminoclostridium5: OR=1.31 (risk); Catenibacterium: OR=1.42 (risk)
+ - Coprococcus1, Akkermansia, Victivallis, Bacteroidaceae, Bacteroides all protective
+
+ - Eggerthella mediated via CD25+CD8+ T cell %T cell (beta=0.18), CD3 on activated CD4 regulatory T cell (beta=-0.22), CD3 on CD39+ activated CD4 regulatory T cell (beta=-0.21)
+ - Actinobacteria mediated via CCR2 on myeloid Dendritic Cell (beta=-0.23, p=0.006), CD3 on Central Memory CD4+ T cell (beta=0.36, p=0.026)
+ - Intestinimonas (risk) mediated via CD27 on IgD- CD38- unswitched memory B cell (beta=0.40, p=0.0001)
 - **Bidirectional effects**: After removing taxa with bidirectional effects, 6 genera and 1 phylum remained for HT, 5 genera for GD
 
 ## Connections

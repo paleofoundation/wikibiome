@@ -25,11 +25,11 @@ platform: wikibiome
 - **Study design**: Case-control pilot study at Hospital Israelita Albert Einstein, Brazil
 - **Participants**: 21 patients (11 controls, 10 endometriosis), 47 total samples
 - **Methods**: 16S rRNA V3-V4 amplicon sequencing (Illumina MiSeq), 51 genera identified
-- **Key results**:
-  - Total reads: 414,787 with average 8,465 per sample
-  - Lesion samples showed highest diversity with presence of pathogenic bacteria
-  - TLR 1-8 expression found in T reg cells from peritoneal fluid of endometriosis patients (vs only TLR1 and TLR2 in controls)
-  - PID patients had 3x higher risk of developing endometriosis in a retrospective analysis of 141,460 patients
+
+ - Total reads: 414,787 with average 8,465 per sample
+ - Lesion samples showed highest diversity with presence of pathogenic bacteria
+ - TLR 1-8 expression found in T reg cells from peritoneal fluid of endometriosis patients (vs only TLR1 and TLR2 in controls)
+ - PID patients had 3x higher risk of developing endometriosis in a retrospective analysis of 141,460 patients
 
 # Relevance to Wiki
 

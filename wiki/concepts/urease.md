@@ -69,8 +69,8 @@ Critically, only **2-25% of H. pylori urease is actually nickel-activated**. The
 
 - Urease is the **master virulence factor** for catheter-associated urinary tract infection (CAUTI) [[maier-2019-nickel-microbial-pathogenesis]].
 - Ammonia production raises urine pH from ~5-6 to >7, causing precipitation of:
-  - **Struvite** (MgNH4PO4) -- the primary stone mineral.
-  - **Apatite** (Ca10(PO4)6(OH)2) -- secondary mineral deposition.
+ - **Struvite** (MgNH4PO4) -- the primary stone mineral.
+ - **Apatite** (Ca10(PO4)6(OH)2) -- secondary mineral deposition.
 - **Crystalline biofilm formation**: urease-mediated crystal precipitation creates a mineralized biofilm on catheter surfaces that physically obstructs urine flow, provides a protected niche, and resists antibiotic penetration.
 - **Extracellular crystal clusters in the bladder**: urease induces crystal formation directly in bladder tissue, causing tissue damage and promoting ascending infection.
 - Urease-negative mutants are dramatically attenuated in CAUTI models.
@@ -185,7 +185,6 @@ Nickel in urea fertilizers (peaking at 3.5-4.2 mg/kg during the 1990s-2000s) ent
 
 - **HspA in H. pylori**: a GroES homolog with a unique His-rich C-terminus for nickel binding. Intranasal administration provides partial protection in mouse models. Candidate for anti-*H. pylori* vaccine [[maier-2019-nickel-microbial-pathogenesis]].
 - **Urease immunization for Brucella**: urease-based vaccination protects against Brucella infection, demonstrating the antigen's viability as a vaccine target.
-
 
 ## Key Sources
 

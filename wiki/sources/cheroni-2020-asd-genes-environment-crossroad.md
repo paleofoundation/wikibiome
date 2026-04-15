@@ -25,12 +25,12 @@ platform: wikibiome
 
 - **Type**: Narrative review (18 pages)
 - **Scope**: Comprehensive synthesis of ASD genetic architecture, environmental risk factors, gene-environment convergence, and experimental approaches (stem cells, organoids)
-- **Key epidemiological summary (Table 2)**:
-  - Heavy metals collectively show positive association between exposure and ASD risk
-  - [[lead]]: Blood lead concentration inversely associated with IQ; 6.9 IQ point decrement per increase from 2.4 to 30 ug/dL
-  - [[mercury]]: Prenatal methylmercury exposure predicts neurobehavioral deficits; association with language, attention, and memory dysfunction
-  - Air pollution: PM2.5 and PM10 associated with increased ASD risk (OR 1.07 and OR 2.32 respectively)
-  - Endocrine disruptors (BPA, phthalates, PFAS): Emerging evidence for neurodevelopmental effects
+
+ - Heavy metals collectively show positive association between exposure and ASD risk
+ - [[lead]]: Blood lead concentration inversely associated with IQ; 6.9 IQ point decrement per increase from 2.4 to 30 ug/dL
+ - [[mercury]]: Prenatal methylmercury exposure predicts neurobehavioral deficits; association with language, attention, and memory dysfunction
+ - Air pollution: PM2.5 and PM10 associated with increased ASD risk (OR 1.07 and OR 2.32 respectively)
+ - Endocrine disruptors (BPA, phthalates, PFAS): Emerging evidence for neurodevelopmental effects
 - **Genetic convergence**: Chromatin regulators (CHD8, CHD2), transcription factors (TBR1, FOXP1), synaptic proteins (SHANK family) are key ASD-associated gene categories
 - **Experimental models**: iPSC-derived organoids and CRISPR-based approaches offer promise for dissecting gene-environment interactions at single-cell resolution
 - **Polygenic risk scores**: Encompassing ASD, schizophrenia, and educational attainment share overlap, pointing toward converging pathogenic mechanisms

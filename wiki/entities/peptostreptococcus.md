@@ -54,7 +54,6 @@ A Gram-positive, obligate anaerobic genus that has emerged as one of the most co
 - **ROS-inducing factors** -- promote oxidative DNA damage in colonic epithelium
 - **Cholesterol pathway activators** -- drive epithelial proliferation in CRC
 
-
 ## Key Sources
 
 - [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]]

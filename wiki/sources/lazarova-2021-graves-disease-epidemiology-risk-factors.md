@@ -39,7 +39,7 @@ platform: wikibiome
 - [[Iodine]] excess triggering GD relevant to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] on mineral-thyroid interactions
 - Gut dysbiosis as environmental trigger connects to [[chen-2021-gut-microbiota-thyroid-graves]] and [[yang-2022-intestinal-flora-graves-methimazole]]
 - Molecular mimicry mechanism relevant to [[gut-metal-microbiome]] axis where microbial antigens may cross-react with thyroid tissue
-- Yersinia-TSH receptor mimicry links gut infections to thyroid autoimmunity, supporting [[Gut-Thyroid Axis]] hypothesis
+- Yersinia-TSH receptor mimicry links gut infections to thyroid autoimmunity, supporting hypothesis
 - [[Oxidative-stress]] from selenium deficiency and smoking as shared pathogenic mechanism
 - Genetic susceptibility via HLA-DRB1 shared with RA and IBD, connecting to [[xian-2023-graves-disease-ibd-mendelian-randomization]] and [[chen-2024-graves-ra-bidirectional-mr]]
 - Stress-immune axis relevant to understanding why [[inflammation]] and autoimmune flares coincide with psychosocial stressors

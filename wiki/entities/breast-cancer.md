@@ -6,17 +6,17 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources:
-  - ali-2024-heavy-metals-breast-cancer-review
-  - liu-2022-heavy-metals-breast-cancer-meta-analysis
-  - tarhonska-2022-cadmium-breast-cancer-mechanisms
-  - niehoff-2021-metals-breast-cancer-toenail
-  - aquino-2012-cadmium-nickel-metalloestrogens
-  - altinok-dindar-2023-gut-microbiota-breast-cancer-diet
-  - zhang-2022-metallomics-cancer-review
-  - sugimoto-2024-zinc-deficiency-cancer-review
-  - zhu-2024-toxic-essential-metals-gut-microbiota
-  - salnikov-2008-metal-carcinogenesis
-  - klotz-2017-aluminum-health-effects-review
+ - ali-2024-heavy-metals-breast-cancer-review
+ - liu-2022-heavy-metals-breast-cancer-meta-analysis
+ - tarhonska-2022-cadmium-breast-cancer-mechanisms
+ - niehoff-2021-metals-breast-cancer-toenail
+ - aquino-2012-cadmium-nickel-metalloestrogens
+ - altinok-dindar-2023-gut-microbiota-breast-cancer-diet
+ - zhang-2022-metallomics-cancer-review
+ - sugimoto-2024-zinc-deficiency-cancer-review
+ - zhu-2024-toxic-essential-metals-gut-microbiota
+ - salnikov-2008-metal-carcinogenesis
+ - klotz-2017-aluminum-health-effects-review
 tags: [cancer, copper, cadmium, zinc, manganese, metalloestrogens, microbiome, oxidative-stress, Cu-Zn-ratio]
 platform: wikibiome
 last_substantive_update: 2026-04-13

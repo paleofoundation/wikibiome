@@ -90,7 +90,6 @@ A versatile Gram-positive pathogen with one of the **best-characterized nutritio
 - Hospital environments with elevated metal levels may promote MRSA metal-antibiotic co-resistance.
 - Skin contact with nickel-releasing alloys (jewelry, implants) creates local nickel-enriched environments where urease-expressing *S. aureus* has a survival advantage.
 
-
 ## Key Sources
 
 - [[akbari-2022-metal-homeostasis-streptococci]]
