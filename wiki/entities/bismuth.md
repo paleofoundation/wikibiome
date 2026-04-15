@@ -47,3 +47,4 @@ The most significant recent advance in bismuth pharmacology is its synergy with 
 - [[cefiderocol]] -- Siderophore-antibiotic synergy partner
 - [[biofilm]] -- Disrupted by bismuth-iron competition
 - [[antimicrobial-resistance]] -- Bismuth combinations suppress resistance evolution
+- [[pseudomonas-aeruginosa]] -- target pathogen for bismuth-cefiderocol synergy

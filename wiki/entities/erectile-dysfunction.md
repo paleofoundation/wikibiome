@@ -87,3 +87,6 @@ Beyond cadmium, the metallomic context of ED intersects with cardiovascular meta
 - [[type-2-diabetes]] -- shared insulin resistance, endothelial dysfunction, Lachnospiraceae enrichment
 - [[depression]] -- bidirectional comorbidity, shared inflammatory pathways
 - [[cadmium]] -- reproductive toxicant with FMT-rescuable effects
+- [[testosterone]] -- gut bacteria regulate testosterone via HSDH enzymes; deficiency contributes to ED
+- [[gut-brain-axis]] -- the gut-penis axis is a vascular extension of gut-brain inflammatory signaling
+- [[dysbiosis]] -- Lachnospiraceae enrichment and SCFA-producer depletion drive endothelial dysfunction

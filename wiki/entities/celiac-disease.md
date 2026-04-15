@@ -45,3 +45,8 @@ The combined gluten-free + low-nickel diet (GFD+LNiD) has been studied specifica
 - [[iron]] — malabsorption as a mechanism distinct from nutritional immunity
 - [[zinc]] — malabsorption in untreated celiac disease
 - [[gut-microbiome]] — dysbiosis co-occurring with celiac
+- [[type-1-diabetes]] — shared autoimmune HLA-DQ associations and Bifidobacterium depletion
+- [[hashimotos-thyroiditis]] — autoimmune comorbidity with shared metal malabsorption (iron, zinc, selenium)
+- [[intestinal-permeability]] — villous atrophy and tight junction disruption drive nutrient malabsorption
+- [[zonulin]] — gluten-triggered zonulin release increases intestinal permeability in celiac disease
+- [[bifidobacterium]] — consistently depleted in celiac gut; loss impairs barrier support and immune tolerance

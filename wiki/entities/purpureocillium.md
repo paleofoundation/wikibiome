@@ -54,3 +54,4 @@ The convergence on amino acid metabolism suggests *Purpureocillium* reshapes the
 - [[schizophrenia]] -- Primary disease association
 - [[ergothioneine]] -- Neuroprotective metabolite depleted by *Purpureocillium* enrichment
 - [[gut-brain-axis]] -- Pathway linking mycobiome composition to cognitive function
+- [[mycobiome]] -- the gut fungal community in which Purpureocillium operates

@@ -74,3 +74,6 @@ Direct metallomic data for PMDD is limited. However, magnesium depletion is docu
 - [[female-infertility]] -- overlapping hormonal and microbiome mechanisms
 - [[estrobolome]] -- beta-glucuronidase activity modulates estrogen recirculation
 - [[beta-glucuronidase]] -- key enzyme linking gut microbiome to hormone metabolism
+- [[endometriosis]] -- shared estrogen-dependent mechanisms and estrobolome involvement
+- [[estrogen-recirculation]] -- bacterial beta-glucuronidase drives estrogen reabsorption amplifying luteal-phase sensitivity
+- [[tryptophan-metabolism]] -- IDO-mediated tryptophan-kynurenine shunting reduces serotonin in luteal phase

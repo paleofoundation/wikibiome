@@ -57,3 +57,4 @@ This is a direct application of the [[irving-williams-series|Irving-Williams]] a
 - [[pseudomonas-aeruginosa]], [[acinetobacter]], [[staphylococcus-aureus]], [[klebsiella-pneumoniae]] -- Primary targets
 - [[bismuth]] -- Synergistic partner in siderophore-antibiotic combinations
 - [[antimicrobial-resistance]] -- The crisis driving siderophore-antibiotic development
+- [[cefiderocol]] -- FDA-approved siderophore-cephalosporin exploiting gallium-like iron mimicry

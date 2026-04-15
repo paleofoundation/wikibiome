@@ -52,3 +52,4 @@ As an iron-dependent, siderophore-expressing pathobiont, *Aeromonas* fits the Ka
 - [[zinc-metalloprotease]] — key secreted enzyme class
 - [[biofilm]] — surface colonization mechanism
 - [[nutritional-immunity]] — host defense strategy that sequesters iron away from siderophore-expressing pathogens
+- [[enterobacteriaceae]] — co-enriched siderophore-producing family in dysbiotic iron-rich environments

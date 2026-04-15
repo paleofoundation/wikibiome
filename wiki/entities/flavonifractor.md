@@ -54,3 +54,4 @@ A Gram-positive obligate anaerobe in the family Ruminococcaceae (Clostridium clu
 - [[fibromyalgia]] -- Primary disease association
 - [[chronic-kidney-disease]] -- Secondary disease association
 - [[biomarkers]] -- *Flavonifractor* as potential marker for polyphenol non-response
+- [[quercetin]] -- dietary flavonoid degraded by *Flavonifractor* before it can exert anti-inflammatory effects

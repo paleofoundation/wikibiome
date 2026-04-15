@@ -119,3 +119,6 @@ A paradigm-shifting finding: **non-toxigenic Clostridium perfringens** strains m
 - [[lactoferrin]] -- iron chelation as NEC prevention
 - [[zinc]] -- Paneth cell function and defensin production
 - [[ahr]] -- maternal AHR activation protects neonatal gut
+- [[iron]] -- parenteral iron feeds siderophore-producing Enterobacteriaceae; lactoferrin chelation is protective
+- [[enterobacteriaceae]] -- Proteobacteria bloom family driving NEC pathogenesis
+- [[klebsiella-pneumoniae]] -- primary NEC pathobiont species within Klebsiella

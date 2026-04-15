@@ -96,3 +96,7 @@ The metallomic signature intersects with microbiome ecology through multiple mec
 - [[chronic-fatigue-syndrome]] -- overlapping fatigue, cognitive dysfunction, Faecalibacterium depletion
 - [[copper]] -- causal risk factor via MR
 - [[iron]] -- protective factor via MR
+- [[magnesium]] -- depleted; cofactor for 300+ enzymes, deficiency amplifies central sensitization
+- [[selenium]] -- depleted; GPX3 decreased 0.85x, impairs antioxidant defense against copper excess
+- [[gut-brain-axis]] -- dysbiotic communities produce neuroactive metabolites driving peripheral and central pain
+- [[eggerthella-lenta]] -- MR-validated causal risk taxon (OR = 1.897) producing neurotoxic metabolites

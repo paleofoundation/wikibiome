@@ -100,3 +100,4 @@ Children with CP and comorbid epilepsy (CPE) show dysregulated kynurenine metabo
 - [[klebsiella]] -- predictive biomarker for brain injury in preterm infants
 - [[iron]] -- deficiency impairs myelination in developing brain
 - [[lead]] -- neurodevelopmental toxicant crossing immature BBB
+- [[gut-brain-axis]] -- dysbiotic gut communities drive neuroinflammation and white matter injury via LPS translocation

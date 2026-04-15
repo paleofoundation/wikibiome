@@ -8,6 +8,8 @@ sources: []
 tags: [fungus, pathogen, opportunistic, mycobiome, crohns-disease, gut-dysbiosis]
 oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [zinc, iron, copper]
+seo_target: "Candida tropicalis Crohn's disease gut microbiome"
+wikipedia_differentiation: "Triple-species biofilm with E. coli and Serratia marcescens, ASCA antigen candidacy, and specific role in Crohn's disease mycobiome dysbiosis — all absent from Wikipedia"
 ---
 
 **Candida tropicalis** is an opportunistic fungal pathogen and occasional gut commensal. It is the second or third most common *Candida* species causing invasive candidiasis, after *C. albicans* and *C. glabrata*. Within the gut mycobiome, *C. tropicalis* has been specifically associated with Crohn's disease, where it participates in interkingdom biofilm formation with bacterial pathogens.
@@ -40,3 +42,6 @@ Like other *Candida* species, *C. tropicalis* relies on **zinc**, **iron**, and 
 - [[functional-shielding]] — the interkingdom biofilm mechanism
 - [[mycobiome]] — the gut fungal community context
 - [[escherichia-coli]] — bacterial partner in interkingdom biofilm
+- [[biofilm]] — strong biofilm former; triple-species biofilm with E. coli and Serratia marcescens
+- [[iron]] — iron scavenging via multiple acquisition systems supports growth in host environment
+- [[zinc]] — zinc-dependent secreted aspartyl proteases enable host tissue invasion

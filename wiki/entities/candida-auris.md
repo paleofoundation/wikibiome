@@ -8,6 +8,8 @@ sources: []
 tags: [fungus, pathogen, multidrug-resistant, nosocomial, emerging-pathogen, mycobiome]
 oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [zinc, iron, copper]
+seo_target: "Candida auris gut microbiome metals resistance"
+wikipedia_differentiation: "Metal-dependent virulence mechanisms, zinc/iron acquisition strategies in hospital environments, and the gut-to-bloodstream translocation pathway that Wikipedia does not cover"
 ---
 
 **Candida auris** is an emerging multidrug-resistant fungal pathogen first identified in 2009 and now classified as a critical-priority pathogen by the WHO and CDC. Unlike other *Candida* species, *C. auris* is predominantly a nosocomial (healthcare-associated) pathogen with documented outbreak potential in intensive care settings. It is notable for its resistance to multiple antifungal drug classes and its persistence on environmental surfaces.
@@ -44,3 +46,5 @@ metal_dependencies: [zinc, iron, copper]
 - [[mycobiome]] — the fungal community context
 - [[biofilm]] — key virulence mechanism
 - [[functional-shielding]] — interkingdom biofilm protection of bacterial pathogens
+- [[antimicrobial-resistance]] — pan-resistant strains documented; critical-priority WHO pathogen
+- [[iron]] — iron acquisition via siderophore-like metallophores essential for virulence

@@ -40,3 +40,5 @@ pathogenic_potential: commensal
 - [[bacteroides-vulgatus]] — co-abundant commensal in the Bacteroides guild
 - [[zinc-metalloprotease]] — enzyme class expressed by *B. thetaiotaomicron*
 - [[short-chain-fatty-acids]] — primary metabolic output
+- [[bile-acid-metabolism]] — contributes to bile acid transformation via bile salt hydrolase activity
+- [[tryptophan-metabolism]] — modulates tryptophan-derived metabolites influencing gut-immune signaling
