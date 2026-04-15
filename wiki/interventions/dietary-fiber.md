@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5, 9]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Dietary Fiber (Cross-Condition)
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Multiple meta-analyses confirm fiber supplementation increases fecal SCFA concen
 ## Clinical Context
 
 Fiber is the foundational dietary intervention across nearly every disease signature in the knowledge base. Specific fiber types (resistant starch, inulin, FOS, beta-glucan) have differential effects on microbial communities. See condition-specific pages for tailored recommendations.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

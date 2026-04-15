@@ -21,7 +21,7 @@ triangles:
     I_to_D_sources: [pendergrass-2026-endometriosis-conference]
     f_to_D: "The taxa it outcompetes are the primary drivers of the endometriosis microbiome signature"
     f_to_D_sources: [pendergrass-2026-endometriosis-conference]
-    status: validated
+    status: promising
 
 targets:
   taxa: [escherichia-coli, bacteroides-fragilis, streptococcus-agalactiae, fusobacterium-nucleatum, candida-albicans, klebsiella-pneumoniae, salmonella-typhimurium]
@@ -30,6 +30,8 @@ targets:
   ecological: [competitive-exclusion, siderophore-competition, hypoxic-competition]
 platform: cureva
 ---
+
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Mechanism of Action
 
@@ -58,7 +60,7 @@ EcN is an established probiotic with demonstrated ability to displace the specif
 **f → D (Displaced taxa drive endometriosis):**
 The taxa outcompeted by EcN are responsible for estrogen recirculation (beta-glucuronidase), hypoxia (hydrogenase), immune evasion (glyoxalase), and tissue degradation (metalloprotease) — all core features of endometriosis.
 
-**Status: Validated**
+**Status: Promising**
 
 ## Note
 
@@ -67,3 +69,8 @@ E. coli Nissle 1917 is sometimes genetically modified. The non-modified strain i
 ## Sources
 
 [[pendergrass-2026-endometriosis-conference]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

@@ -112,22 +112,22 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 - Elevated luminal fat and bile → altered nutritional immunity signals → calprotectin/lactoferrin sequestration less effective.
 - Low microbial diversity → reduced competitive exclusion of pathobionts.
 
-## Therapeutic Implications
+## Ecological Modulators
 
-### Dietary Interventions
+### Dietary Modulation
 
-- **Prebiotics** (inulin, FOS): Selectively feed Faecalibacterium and other butyrate producers; suppress pathobionts including *Allisonella*.
-- **Histamine avoidance**: In patients with confirmed *Allisonella* elevation and mast cell symptoms, reducing dietary histamine (aged meats, fermented foods) may reduce symptom burden while microbiota rebalances.
-- **Low-fat, high-fiber**: Restores normal colonic luminal chemistry; favors commensal recovery.
+- **Prebiotics** (inulin, FOS): Selectively promote Faecalibacterium and other butyrate producers, shifting ecological balance away from *Allisonella* through competitive exclusion.
+- **Histamine load reduction**: Reducing dietary histamine precursors (aged meats, fermented foods) decreases the substrate pool that amplifies histamine-mediated inflammatory signaling during dysbiosis.
+- **Low-fat, high-fiber patterns**: Restore normal colonic luminal chemistry, favoring commensal recovery over pathobiont expansion.
 
-### Pharmacological Support
+### DAO Pathway Support
 
-- **DAO supplementation**: May compensate for impaired epithelial DAO; degrades accumulated histamine.
-- **Mast cell stabilizers** (e.g., sodium cromoglycate): Reduce histamine release; short-term bridge during dysbiosis recovery.
+- **DAO supplementation**: Enhances histamine degradation capacity, counteracting the elevated histamine output from *Allisonella*-dominated communities.
+- **Mast cell stabilization** (e.g., sodium cromoglycate): Modulates downstream histamine signaling, reducing the inflammatory cascade driven by microbial histamine production.
 
-### Probiotic Potential
+### Competitive Exclusion
 
-- HDC-deficient strains of beneficial bacteria (e.g., engineered *Lactobacillus* or *Bifidobacterium*) might outcompete *Allisonella* while avoiding the histamine production liability.
+- HDC-deficient strains of beneficial bacteria (e.g., engineered *Lactobacillus* or *Bifidobacterium*) occupy the same ecological niche as *Allisonella* without the histamine production liability, enabling displacement through metabolic competition.
 
 ## Connections
 

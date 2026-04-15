@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [4, 8]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Mechanism
 
 Ferrichrome is a cyclic hydroxamate **siderophore** produced by certain *Lactobacillus* strains. It binds extracellular iron with high affinity, restricting iron availability in the tumor microenvironment. Ferrichrome activates the **JNK signaling pathway**, triggering apoptosis selectively in pancreatic cancer cells.
@@ -48,3 +50,8 @@ Pancreatic ductal adenocarcinoma (PDAC) cells exhibit elevated iron demand to su
 - Optimal *Lactobacillus* strain selection for maximal ferrichrome production in the GI tract.
 - Whether ferrichrome reaches effective concentrations at the pancreatic tumor site.
 - Interaction with conventional chemotherapy regimens.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

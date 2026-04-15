@@ -106,12 +106,12 @@ Gingipains perform multiple virulence roles:
 - **Zinc elevation** in inflamed pockets (from tissue breakdown and transudation) enhances gingipain synthesis and activity.
 - Iron availability from bleeding is the major source; heme-dependent pathways are essential for *P. gingivalis* competitiveness in the bloodfilled pocket.
 
-## Prevention and Therapeutic Implications
+## Ecological Modulators
 
-- Oral hygiene (mechanical plaque removal) disrupts biofilm architecture.
-- Chlorhexidine and other antimicrobials can reduce *P. gingivalis* load but may select for resistant strains.
-- Zinc-sequestering nutritional immunity may offer an untapped avenue: if host and probiotic defense mechanisms can restrict zinc in the pocket, gingipain production would be suppressed.
-- Systemic [[lactoferrin]] supplementation may competitively inhibit *P. gingivalis* iron/heme acquisition.
+- Mechanical plaque removal disrupts biofilm architecture, eliminating the polymicrobial community structure that sustains *P. gingivalis*.
+- Chlorhexidine and other antimicrobials reduce *P. gingivalis* load but may select for resistant strains, illustrating the limitation of direct-kill approaches.
+- **Zinc sequestration**: Enhancing nutritional immunity mechanisms that restrict zinc in the periodontal pocket suppresses gingipain production by limiting cofactor availability — the organism's primary virulence dependency.
+- **Iron/heme competition**: [[Lactoferrin]] competes with *P. gingivalis* heme acquisition systems, reducing the iron pool that drives pathogen competitiveness in the blood-filled pocket.
 
 ## Connections
 

@@ -15,7 +15,7 @@ triangles:
     I_to_D: "PREDIMED adherence score achieved AUC 0.848 for predicting testosterone levels in PCOS women — dietary adherence was a stronger predictor of androgen status than BMI. Higher Mediterranean diet adherence associated with lower free testosterone, improved menstrual regularity, and reduced metabolic syndrome prevalence."
     I_to_D_evidence: "cohort"
     f_to_D: "PCOS microbiome shows depleted SCFA producers, elevated Enterobacteriaceae, and insulin resistance. The metabolic-inflammatory-hormonal axis is central to PCOS pathophysiology."
-    status: validated
+    status: promising
 
   - condition: "[[cardiovascular-disease]]"
     I_to_f: "Olive oil polyphenols reduce LDL oxidation, omega-3 fatty acids (fish) are anti-inflammatory, fiber promotes SCFA-mediated vascular protection. Reduces TMAO-producing taxa by shifting away from red meat/L-carnitine substrates."
@@ -31,7 +31,7 @@ triangles:
     I_to_D: "Meta-analyses of prospective cohorts show 8-12% CRC risk reduction per standard deviation increase in Mediterranean diet adherence. Strongest protection for distal colon and rectal cancers."
     I_to_D_evidence: "cohort"
     f_to_D: "CRC microbiome is enriched in F. nucleatum and depleted in SCFA producers. Butyrate deficiency removes a key tumor-suppressive signal in colonic epithelium."
-    status: validated
+    status: promising
 
   - condition: "[[inflammatory-bowel-disease]]"
     I_to_f: "Promotes anti-inflammatory SCFA production, reduces Enterobacteriaceae abundance, increases microbial diversity. Omega-3 fatty acids modulate mucosal immune responses. Polyphenols reduce NF-kB activation."
@@ -64,6 +64,8 @@ targets:
   ecological: [promotes-SCFA-production, reduces-inflammation, increases-microbial-diversity, reduces-Enterobacteriaceae, promotes-barrier-integrity]
 platform: cureva
 ---
+
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
@@ -139,3 +141,8 @@ See [[low-nickel-diet]] for the full nickel restriction framework and [[dietary-
 **Related interventions:** [[low-nickel-diet]] (paradox resolution), [[ketogenic-diet]] (alternative anti-inflammatory diet), [[probiotics-general]] (synergistic microbiome modulation)
 
 **Signatures:** [[pcos]], [[cardiovascular-disease]], [[colorectal-cancer]], [[depression]], [[multiple-sclerosis]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

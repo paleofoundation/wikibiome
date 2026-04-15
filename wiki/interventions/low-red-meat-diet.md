@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [1, 7]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Low-Red-Meat Diet for Endometriosis
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Reduction of red meat intake to lower heme iron delivery to the gut lumen and re
 ## Clinical Context
 
 Replacing red meat with fish (omega-3 source), poultry, or plant protein is preferred over simple elimination. This reduces both heme iron and arachidonic acid while maintaining protein adequacy. The intervention aligns with broader anti-inflammatory dietary patterns. Practitioners should distinguish between reducing red meat (well-supported) and eliminating all animal protein (not supported by current evidence for endometriosis).
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

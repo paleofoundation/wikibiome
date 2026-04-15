@@ -50,7 +50,7 @@ triangles:
     I_to_D_sources: [borghini-2020-endometriosis-nickel-ibs, pendergrass-2026-endometriosis-conference]
     f_to_D: "Nickel-dependent enzymes enable pathogen persistence, immune evasion, and hypoxia — all hallmarks of endometriosis. Nickel as metalloestrogen compounds estrogen-dependent lesion growth."
     f_to_D_sources: [pendergrass-2026-endometriosis-conference, maier-2019-nickel-microbial-pathogenesis]
-    status: validated
+    status: promising
 
   - condition: "SNAS / Systemic Nickel Allergy Syndrome"
     I_to_f: "Removes the antigenic trigger (dietary nickel) that activates TLR-4-dependent innate immune response and Th1/Th2 cytokine cascades in sensitized individuals. Reduces nickel-induced intestinal mucosal inflammation."
@@ -61,7 +61,7 @@ triangles:
     I_to_D_sources: [braga-2013-snas-nosologic-framework, lombardi-2020-snas-probiotics-dysbiosis]
     f_to_D: "SNAS is defined by the immune response to dietary nickel causing cutaneous (90%) and gastrointestinal (88%) symptoms. Removing the antigen removes the disease trigger."
     f_to_D_sources: [braga-2013-snas-nosologic-framework, di-gioacchino-2018-snas-chapter]
-    status: validated
+    status: promising
 
   - condition: "[[helicobacter-pylori]] infection"
     I_to_f: "Depletes nickel cofactor for H. pylori urease (acid survival) and NiFe-hydrogenase (energy production, CagA translocation). Directly impairs the two enzyme systems most critical for gastric colonization."
@@ -72,7 +72,7 @@ triangles:
     I_to_D_sources: [campanale-2014-nickel-free-diet-h-pylori]
     f_to_D: "H. pylori urease is essential for acid survival; hydrogenase powers CagA virulence factor translocation. Both are nickel-dependent. This is the paradigmatic case of nutritional immunity against a specific pathogen."
     f_to_D_sources: [maier-2019-nickel-microbial-pathogenesis, campanale-2014-nickel-free-diet-h-pylori]
-    status: validated
+    status: promising
 
   - condition: "IBS (nickel-sensitive)"
     I_to_f: "Reduces nickel-mediated intestinal mucosal inflammation and restores intestinal permeability. Baseline 51Cr-EDTA excretion 5.91% vs 2.20% in controls (p<0.0001), indicating compromised barrier function."
@@ -83,7 +83,7 @@ triangles:
     I_to_D_sources: [rizzi-2017-ibs-nickel-diet]
     f_to_D: "IBS-nickel patients show compromised intestinal permeability, high lactose malabsorption (75%), and elevated psychiatric comorbidity. Nickel-induced mucosal inflammation provides a mechanistic explanation for IBS-like symptoms."
     f_to_D_sources: [rizzi-2017-ibs-nickel-diet]
-    status: validated
+    status: promising
 
   - condition: "GERD (refractory)"
     I_to_f: "Reduces nickel-mediated GI mucosal inflammation. Mechanism may involve both direct mucosal effects and reduction of nickel-dependent H. pylori virulence in the gastric environment."
@@ -105,7 +105,7 @@ triangles:
     I_to_D_sources: [borghini-2020-low-nickel-diet-celiac]
     f_to_D: "GF substitute foods are systematically high in nickel. Celiac patients replacing wheat with corn, rice, buckwheat, and legumes inadvertently increase nickel load, triggering Ni ACM in predisposed individuals."
     f_to_D_sources: [borghini-2020-low-nickel-diet-celiac, flyvholm-1984-nickel-food-content]
-    status: validated
+    status: promising
 
   - condition: "Hand eczema / chronic nickel dermatitis"
     I_to_f: "Removes systemic nickel trigger for Type IV hypersensitivity reaction in skin. Dietary nickel reaches the skin via systemic circulation and triggers eczematous flares at sites of prior sensitization."
@@ -116,7 +116,7 @@ triangles:
     I_to_D_sources: [sharma-2006-disulfiram-low-nickel-diet-hand-eczema, veien-1993-low-nickel-diet-trial, kaaber-1978-low-nickel-diet-chronic-dermatitis, antico-1999-chronic-dermatopathies-nickel]
     f_to_D: "Oral challenge studies confirm dose-response: 0.3 mg nickel provokes reactions in 40% of sensitized individuals; 4 mg in 70%. Normal diets easily exceed 0.58 mg/day."
     f_to_D_sources: [zirwas-2009-dietary-nickel-dermatitis, flyvholm-1984-nickel-food-content]
-    status: validated
+    status: promising
 
   - condition: "Obesity (nickel-sensitive women)"
     I_to_f: "Reduces nickel-mediated IL-17/Th17 chronic inflammation, metalloestrogen-driven adipogenesis, and gut microbiota disruption — three converging pathways linking dietary nickel to metabolic dysfunction."
@@ -146,7 +146,7 @@ triangles:
     I_to_D: "DBPC oral challenge confirmed nickel as trigger in 32/70 (45.7%) nickel-sensitive RAS patients; 21/32 improved on nickel-free diet. Reactive dose threshold: 2.5 mg in 31/32 patients."
     I_to_D_evidence: "quasi-experimental"
     f_to_D: "Nickel induces inflammation selectively at the target organ (oral mucosa) in sensitized individuals. Dietary nickel perpetuates RAS even after removal of orthodontic nickel sources."
-    status: validated
+    status: promising
 
   - condition: "Atopic dermatitis (metal-sensitive)"
     I_to_f: "Reduces metal-dependent immune activation. Low-metal diet decreased peripheral blood eosinophils and serum LDH significantly (p<0.05) in responders, indicating systemic immune modulation."
@@ -164,6 +164,7 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
@@ -520,3 +521,8 @@ Screen for nickel sensitivity **BEFORE** prescribing plant-forward diets in:
 **Key source reviews:** [[maier-2019-nickel-microbial-pathogenesis]] (40+ pathogen species), [[di-gioacchino-2018-snas-chapter]] (SNAS comprehensive review), [[bergman-2016-low-nickel-diet-review]] (patient-centered review), [[ahlstrom-2019-nickel-allergy-review]] (clinical review)
 
 **Diet references:** [[flyvholm-1984-nickel-food-content]] (foundational food nickel data), [[mislankar-2013-low-nickel-diet-scoring]] (point system), [[braga-2013-snas-nosologic-framework]] (BraMa-Ni diet), [[zirwas-2009-dietary-nickel-dermatitis]] (practical guide)
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

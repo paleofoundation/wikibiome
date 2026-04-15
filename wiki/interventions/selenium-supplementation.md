@@ -49,6 +49,8 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Overview
 
 **Selenium supplementation** provides the essential trace element required for synthesis of 25 human selenoproteins, including the glutathione peroxidase family (GPX1-4), thioredoxin reductases (TrxR1-3), and iodothyronine deiodinases (DIO1-3). The thyroid gland has the highest selenium concentration per gram of any human organ, making thyroid autoimmune conditions the primary indication.
@@ -109,3 +111,8 @@ In selenium deficiency, these enzymes lose function in a hierarchical manner —
 **Related interventions:** [[vitamin-d-supplementation]] (synergistic with Se for Hashimoto's), [[iron-management]] (thyroid function requires both Se and Fe)
 
 **Signatures:** [[hashimotos-thyroiditis]], [[graves-disease]], [[cardiovascular-disease]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

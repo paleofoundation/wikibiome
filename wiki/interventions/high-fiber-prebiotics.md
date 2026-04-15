@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # High-Fiber Prebiotics for Crohn's Disease
 
 ## Intervention Summary
@@ -51,3 +53,8 @@ Targeted prebiotic supplementation with inulin, fructo-oligosaccharides (FOS), a
 ## Clinical Context
 
 **Caution in active flares**: Prebiotic fiber may exacerbate symptoms during active inflammation due to gas production and osmotic effects. Best introduced during remission or mild disease with gradual dose escalation. Practitioners should monitor for tolerance and consider low-FODMAP transitioning protocols before introducing targeted prebiotics.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

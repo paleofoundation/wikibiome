@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [2, 4, 8]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Lactoferrin Supplementation (Cross-Condition)
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Lactoferrin is an iron-binding glycoprotein that sequesters free iron from the g
 ## Clinical Context
 
 Lactoferrin supplementation is most valuable when conventional iron supplementation would be counterproductive — inflammatory anemia, active IBD, conditions with siderophore-producing pathogen enrichment. See STOPs for iron supplementation in specific conditions. Bovine lactoferrin (200-400mg/day) is the most studied form. It survives gastric transit partially intact and retains iron-binding capacity in the small intestine.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

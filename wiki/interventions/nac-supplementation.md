@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [3]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # N-Acetylcysteine (NAC) Supplementation (Cross-Condition)
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ N-acetylcysteine as a glutathione precursor and glutamatergic modulator. Address
 ## Clinical Context
 
 NAC is well-tolerated (most common side effect: GI discomfort at higher doses) and inexpensive. Typical doses: 600-1800mg/day for general antioxidant support; 2000-2700mg/day in psychiatric applications. Best taken away from meals. Practitioners should note that NAC's glutamatergic effects make it a neuroactive compound — not merely a "supplement."
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

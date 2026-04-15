@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5, 7]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Probiotics (Lactobacillus + Bifidobacterium) for PCOS
 
 ## Intervention Summary
@@ -53,3 +55,8 @@ Multi-strain probiotic supplementation combining Lactobacillus and Bifidobacteri
 ## Clinical Context
 
 Multi-strain formulations at >10^9 CFU/day for minimum 8 weeks. Strain selection matters — use validated PCOS strains (L. acidophilus, L. rhamnosus, B. longum, B. bifidum) rather than generic formulations. Combine with inulin/FOS prebiotics for synbiotic effect. Monitor metabolic markers (fasting insulin, HOMA-IR, testosterone) at baseline and 12 weeks.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

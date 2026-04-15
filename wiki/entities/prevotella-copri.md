@@ -108,21 +108,21 @@ The *P. copri*-dominant dysbiosis in RA involves:
 - Introduction of [[faecalibacterium-prausnitzii]] or supplementation with inulin (prebiotic promoting butyrate producers) can reduce *P. copri* relative abundance, even without targeting *P. copri* directly.
 - This suggests that *P. copri* dominance is not due to intrinsic fitness, but to the **absence of competitors** in dysbiotic microbiota.
 
-## Therapeutic Implications
+## Ecological Modulators
 
 ### Prebiotic Strategy
 
-- Dietary interventions promoting butyrate-producing commensals (inulin, acacia, partially hydrolyzed guar gum) can reduce *P. copri* dominance while restoring barrier function.
-- This is preferable to antibiotics: rather than "killing" *P. copri*, the goal is to restore ecological balance such that *P. copri* naturally returns to commensal abundance levels.
+- Promoting butyrate-producing commensals through fermentable substrates (inulin, acacia, partially hydrolyzed guar gum) shifts ecological balance away from *P. copri* dominance while restoring barrier function.
+- This operates through competitive exclusion rather than direct killing: restoring ecological diversity returns *P. copri* to commensal abundance levels.
 
 ### Metal Modulation
 
-- Supporting [[zinc]] repletion in RA may help restore barrier function and reduce iron-driven selection for *P. copri*.
-- Iron restriction (reducing red meat consumption, avoiding excess supplementation) in RA patients may disfavor *P. copri* growth.
+- **Zinc repletion**: Restoring zinc availability supports barrier-protective taxa and reduces the iron-driven selective pressure that favors *P. copri* expansion.
+- **Iron restriction**: Reducing bioavailable luminal iron removes a key growth advantage for *P. copri* in dysbiotic, iron-enriched environments.
 
-### Commensal Perspective
+### Context-Dependent Ecology
 
-- In healthy non-RA individuals with high *P. copri*, dietary fiber intake and diversity of plant foods should be optimized. *P. copri* in this context is likely commensal and beneficial.
+- In diverse, high-fiber microbiomes, elevated *P. copri* reflects commensal function rather than pathobiont behavior. The ecological context — particularly competitor diversity and metal availability — determines whether *P. copri* abundance is adaptive or dysbiotic.
 
 ## Connections
 

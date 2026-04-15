@@ -135,22 +135,22 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 - Capable of fermenting complex plant polysaccharides and dietary fiber, a fundamentally commensal function.
 - But in dysbiotic context, this capacity is overshadowed by its pro-inflammatory and barrier-disruptive activities.
 
-## Therapeutic Implications
+## Ecological Modulators
 
 ### Prebiotic Strategy
 
-- Dietary interventions promoting [[faecalibacterium-prausnitzii]] (e.g., inulin, acacia, partially hydrolyzed guar gum) reduce *B. vulgatus* relative abundance by restoring competitors.
-- Low-glycemic, high-polyphenol diets may selectively promote commensals over *B. vulgatus*.
+- Promoting [[faecalibacterium-prausnitzii]] through fermentable substrates (e.g., inulin, acacia, partially hydrolyzed guar gum) shifts the ecological balance toward butyrate producers, reducing *B. vulgatus* relative abundance through competitive exclusion.
+- Low-glycemic, high-polyphenol diets selectively favor commensal taxa over *B. vulgatus*.
 
 ### Metal-Based Approach
 
-- **Iron restriction**: reducing red meat and avoiding iron supplements in dysbiotic individuals may disfavor *B. vulgatus* and other siderophore producers.
-- **Zinc support**: ensuring adequate dietary zinc or supplementation may restore competitive advantage to zinc-sensitive commensals.
-- **Lactoferrin supplementation**: may compete with *B. vulgatus* siderophores for iron, reducing bioavailable iron for the pathobiont.
+- **Iron restriction**: Reducing bioavailable iron disfavors *B. vulgatus* and other siderophore-dependent pathobionts by limiting a key growth substrate.
+- **Zinc repletion**: Restoring zinc availability supports barrier-protective commensals that lose competitive advantage under zinc-depleted conditions.
+- **Lactoferrin**: Competes with *B. vulgatus* siderophores for iron, reducing the iron pool available to the pathobiont.
 
-### Estrogen-Targeted Intervention
+### Beta-Glucuronidase Modulation
 
-- In depression and CRC with documented dysbiotic *B. vulgatus* enrichment, reducing beta-glucuronidase activity (via promoting commensal competitors) may lower systemic estrogen and reduce depression/cancer risk.
+- Restoring commensal competitor abundance reduces unopposed beta-glucuronidase activity, lowering estrogen deconjugation and recirculation through the estrobolome pathway.
 
 ## Distinguishing Commensal from Pathobiont
 

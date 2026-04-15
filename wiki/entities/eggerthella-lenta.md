@@ -128,21 +128,21 @@ Endometriosis is characterized by:
 - Moco is synthesized de novo by bacteria from molybdenum (Mo) and organic precursors.
 - Molybdenum availability may be **rate-limiting** for *E. lenta* beta-glucuronidase expression, particularly in endometriosis where molybdenum elevation is part of the metallomic signature.
 
-## Therapeutic Implications
+## Ecological Modulators
 
-### Estrogen Modulation via Dysbiosis
+### Competitive Displacement
 
-- **Prebiotic therapy** promoting [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], and [[bifidobacterium]] can reduce *E. lenta* dominance and lower circulating estrogen.
-- Restoring SCFA diversity (especially butyrate) restores tight junction function and reduces LPS-driven inflammation.
+- Promoting [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], and [[bifidobacterium]] through prebiotic substrates shifts ecological balance away from *E. lenta* dominance, reducing beta-glucuronidase-mediated estrogen deconjugation.
+- Restoring SCFA diversity (especially butyrate) strengthens tight junction integrity and reduces LPS-driven inflammatory signaling.
 
-### Estrogen-Suppressing Interventions
+### Beta-Glucuronidase Pathway Modulation
 
-- Dietary interventions that reduce estrogen reabsorption (high-insoluble-fiber diets that reduce beta-glucuronidase activity) may lower *E. lenta* growth and estrogen circulation simultaneously.
+- High-insoluble-fiber substrates reduce beta-glucuronidase activity in the gut lumen, simultaneously limiting estrogen recirculation and removing a metabolic advantage that sustains *E. lenta* populations.
 
 ### Metal Modulation
 
-- **Iron restriction** (avoiding excess red meat, iron supplements) may disfavor *E. lenta* and other iron-dependent dysbiotic pathobionts.
-- **Molybdenum status** in endometriosis is understudied; if molybdenum is indeed rate-limiting for *E. lenta* beta-glucuronidase, molybdenum restriction might offer a novel approach.
+- **Iron restriction**: Reducing bioavailable iron removes a key growth substrate for *E. lenta* and other iron-dependent pathobionts.
+- **Molybdenum as rate-limiter**: Molybdenum cofactor (Moco) is required for *E. lenta* beta-glucuronidase expression. If molybdenum availability is rate-limiting, restricting this metal could suppress virulence enzyme activity — a hypothesis requiring further investigation.
 
 ## Connections
 

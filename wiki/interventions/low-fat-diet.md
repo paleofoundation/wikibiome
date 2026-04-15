@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [7]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Low-Fat Diet for Endometriosis
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Reduction of total dietary fat intake to lower estrogenic burden in endometriosi
 ## Clinical Context
 
 Evidence is preliminary and this intervention should be considered adjunctive rather than primary. Fat quality may matter more than total fat quantity — replacing saturated and trans fats with omega-3 fatty acids may achieve anti-inflammatory effects without the strict restriction. Practitioners should monitor for adequate essential fatty acid and fat-soluble vitamin intake on low-fat protocols.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

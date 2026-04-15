@@ -49,6 +49,8 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Overview
 
 **Probiotics** are live microorganisms that, when administered in adequate amounts, confer a health benefit on the host. The critical principle in probiotic medicine is **strain specificity** -- benefits demonstrated for one strain do NOT transfer to other strains, even within the same species. *Lactobacillus rhamnosus* GG and *Lactobacillus rhamnosus* ATCC 7469 are as different therapeutically as aspirin and acetaminophen.
@@ -123,6 +125,11 @@ Many probiotic organisms bind and sequester heavy metals in the gut lumen -- a p
 
 **Concepts:** [[dysbiosis]], [[gut-microbiome]], [[immune-balance]], [[gut-brain-axis]], [[short-chain-fatty-acids]], [[indoles]]
 
-**Related interventions:** [[ecoli-nissle-1917]] (specific strain page), [[probiotics-asd-dysbiosis]] (ASD-specific), [[fmt-intervention]] (related live biotherapeutic), [[vitamin-d-supplementation]] (synergistic in PCOS), [[prebiotics]] (synergistic with probiotics as synbiotics)
+**Related interventions:** [[ecoli-nissle-1917]] (specific strain page), probiotics asd dysbiosis (ASD-specific), [[fmt-intervention]] (related live biotherapeutic), [[vitamin-d-supplementation]] (synergistic in PCOS), [[prebiotics]] (synergistic with probiotics as synbiotics)
 
 **Signatures:** [[ulcerative-colitis]], [[ibs]], [[multiple-sclerosis]], [[depression]], [[autism-spectrum-disorder]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

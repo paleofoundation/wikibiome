@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Citrus Fruits for Endometriosis
 
 ## Intervention Summary
@@ -53,3 +55,8 @@ Increased citrus fruit consumption as a dietary source of anti-estrogenic and an
 ## Clinical Context
 
 Citrus fruits are a low-risk dietary intervention with plausible mechanism. Two to three servings daily provide meaningful flavonoid doses. Grapefruit specifically contains naringenin but also inhibits CYP3A4 — **practitioners must check for drug interactions** (oral contraceptives, statins, immunosuppressants). The microbiome-dependent activation creates a positive feedback loop: restoring Bifidobacterium (via prebiotics) enhances citrus flavonoid bioavailability.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

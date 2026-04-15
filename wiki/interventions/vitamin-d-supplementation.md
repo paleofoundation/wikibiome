@@ -57,6 +57,8 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Overview
 
 **Vitamin D supplementation** provides the secosteroid hormone precursor that activates the vitamin D receptor (VDR) -- a nuclear receptor expressed in virtually every immune cell, enterocyte, and neuron. Vitamin D deficiency is pandemic (estimated 1 billion people worldwide) and intersects with autoimmune, neurological, metabolic, and gastrointestinal diseases through immunomodulatory, barrier-protective, and neuroendocrine pathways.
@@ -127,3 +129,8 @@ Vitamin D operates through three primary pathways:
 **Related interventions:** [[selenium-supplementation]] (synergistic in Hashimoto's), [[probiotics-general]] (synergistic in PCOS), [[zinc-supplementation]] (complementary immune support)
 
 **Signatures:** [[multiple-sclerosis]], [[hashimotos-thyroiditis]], [[inflammatory-bowel-disease]], [[depression]], [[pcos]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

@@ -74,6 +74,8 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Overview
 
 The **ketogenic diet** restricts carbohydrates to 20-50 g/day (or <10% of calories), forcing a metabolic shift from glucose oxidation to fatty acid beta-oxidation and hepatic ketogenesis. The resulting ketone bodies — **beta-hydroxybutyrate (BHB)**, acetoacetate, and acetone — serve as alternative fuel and as signaling molecules with distinct anti-inflammatory and epigenetic effects.
@@ -137,6 +139,11 @@ The ketogenic diet operates through **metabolic reprogramming** with downstream 
 
 **Related interventions:** [[mediterranean-diet]] (alternative anti-inflammatory diet), [[vitamin-d-supplementation]] (synergistic immune modulation in MS)
 
-**Related pages:** [[ketogenic-diet-ms]] (MS-specific deep dive)
+**Related pages:** ketogenic diet ms (MS-specific deep dive)
 
 **Signatures:** [[multiple-sclerosis]], [[epilepsy]], [[pcos]], [[parkinsons-disease]], [[autism-spectrum-disorder]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

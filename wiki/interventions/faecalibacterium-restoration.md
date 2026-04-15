@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5, 9]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Faecalibacterium prausnitzii Restoration
 
 ## Intervention Summary
@@ -53,3 +55,8 @@ Targeted restoration of **Faecalibacterium prausnitzii** — the most consistent
 ## Clinical Context
 
 Direct F. prausnitzii supplementation is not yet commercially available as a probiotic. Current strategies focus on indirect restoration through prebiotic substrates (inulin, resistant starch), FMT, or dietary interventions that support anaerobic ecology. Several biotech companies are developing encapsulated live biotherapeutic products. Until direct delivery is solved, practitioners should focus on creating the ecological conditions that favor F. prausnitzii colonization.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

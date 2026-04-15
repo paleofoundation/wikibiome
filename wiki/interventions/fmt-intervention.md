@@ -85,6 +85,8 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Overview
 
 **Fecal microbiota transplantation (FMT)** transfers a complete microbial community from a healthy screened donor to a recipient, aiming to restore microbial diversity, colonization resistance, and metabolic function. It represents the most direct form of microbiome intervention — a wholesale ecological reset rather than incremental modulation.
@@ -145,3 +147,8 @@ FMT operates through **ecological restoration** rather than single-target pharma
 **Related interventions:** [[probiotics-general]] (incremental vs wholesale microbiome modulation), [[mediterranean-diet]] (dietary SCFA promotion)
 
 **Signatures:** [[clostridioides-difficile-infection]], [[ulcerative-colitis]], [[parkinsons-disease]], [[autism-spectrum-disorder]], [[hypertension]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

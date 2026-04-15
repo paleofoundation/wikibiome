@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Low-Carbohydrate Diet for PCOS
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Dietary carbohydrate restriction (<40% of total energy, or <130g/day) to reduce 
 ## Clinical Context
 
 Moderate carbohydrate restriction (80-130g/day) is more sustainable than very low-carb/ketogenic approaches and achieves most of the insulin-sensitizing benefit. **Important**: Low-carb diets can reduce fiber intake if not carefully planned — practitioners should ensure adequate non-starch polysaccharide intake from low-carb vegetables and targeted fiber supplements (see [[dietary-fiber]]). Combine with probiotics (see [[probiotics-lactobacillus-bifidobacterium]]) to address dysbiosis concurrently.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

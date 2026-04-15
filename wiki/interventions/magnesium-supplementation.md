@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [3, 4]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Magnesium Supplementation for Fibromyalgia
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Magnesium supplementation to address the documented magnesium deficiency in fibr
 ## Clinical Context
 
 Magnesium glycinate or citrate are preferred forms for bioavailability (magnesium oxide is poorly absorbed). Typical dose: 300-600mg elemental Mg/day, divided doses. GI tolerance improves with gradual dose escalation. Serum Mg is an insensitive marker — RBC magnesium or ionized Mg better reflects tissue status. Most FM patients benefit from sustained supplementation rather than short courses.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

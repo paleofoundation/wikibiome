@@ -57,6 +57,8 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Overview
 
 **Zinc supplementation** provides the second most abundant trace element in the human body, serving as a cofactor for over 300 enzymes and a structural component of approximately 3,000 proteins (zinc finger motifs). Zinc governs immune cell function, intestinal barrier integrity, neurotransmitter metabolism, and insulin signaling.
@@ -119,3 +121,8 @@ Zinc operates through three primary pathways relevant to the conditions above:
 **Related STOPs:** Zinc supplementation in [[endometriosis]] (MMP activation)
 
 **Signatures:** [[postpartum-depression]], [[type-2-diabetes]], [[autism-spectrum-disorder]], [[depression]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

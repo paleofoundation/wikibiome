@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [4, 5]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Quercetin (Cross-Condition)
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Quercetin is a flavonoid polyphenol with dual anti-inflammatory and metal-chelat
 ## Clinical Context
 
 Quercetin has poor oral bioavailability (~2%) unless formulated with absorption enhancers (bromelain, vitamin C, phytosomal delivery). Typical dose: 500-1000mg/day in divided doses. The metal-chelating property makes it particularly relevant in conditions where transition metal excess drives pathology. Safe and well-tolerated; rare reports of headache at high doses.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

@@ -19,7 +19,7 @@ triangles:
     I_to_D_sources: [ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct.md]
     f_to_D: "Vitamin D deficiency (85% prevalence in psychiatric patients) and microbial dysbiosis are co-occurring signature features across schizophrenia, ASD, IBD, and metabolic conditions"
     f_to_D_sources: [ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct.md]
-    status: validated
+    status: promising
 
 targets:
   taxa: [lactobacillus-acidophilus, bifidobacterium-bifidum, lactobacillus-reuteri, lactobacillus-fermentum]
@@ -28,6 +28,8 @@ targets:
   ecological: [Th17-Treg-rebalancing, anti-inflammatory, antioxidant, metabolic-stabilization]
 karen_brain_primitives: [2, 5]
 ---
+
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Vitamin D + Probiotic Synergy (Cross-Condition)
 
@@ -40,7 +42,7 @@ Combined vitamin D3 supplementation with multi-strain probiotics produces synerg
 - **Schizophrenia RCT** (Ghaderi 2019, n=60): PANSS total -7.4 vs -1.9 (p=0.01); hs-CRP -2.3 vs -0.3 mg/L (p=0.001); antioxidant capacity +51.1 vs -20.7 mmol/L (p=0.007); HOMA-IR -0.8 vs +0.1 (p<0.001) — [[ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct]]
 - **Metabolic syndrome**: Combination trials show greater improvements in insulin sensitivity and lipid profiles than either alone
 - **IBD**: Vitamin D repletion enhances probiotic colonization and anti-inflammatory effects in pilot studies
-- See [[vitamin-d-probiotic-schizophrenia]] for the condition-specific detailed page
+- See vitamin d probiotic schizophrenia for the condition-specific detailed page
 
 ## Mechanism
 
@@ -51,3 +53,8 @@ Combined vitamin D3 supplementation with multi-strain probiotics produces synerg
 ## Clinical Context
 
 Typical protocol: Vitamin D3 50,000 IU biweekly (or 2,000-5,000 IU daily) + validated multi-strain probiotic at 8x10^9 CFU/day. The 4-strain combination (L. acidophilus, B. bifidum, L. reuteri, L. fermentum) has the strongest evidence; generic probiotics should not be substituted. Monitor 25(OH)D levels to achieve 40-60 ng/mL. This combination is among the best-validated microbiome-targeted interventions across conditions.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

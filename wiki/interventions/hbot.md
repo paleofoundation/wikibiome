@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [9]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Mechanism
 
 **Hyperbaric oxygen therapy (HBOT)** delivers 100% oxygen at pressures above atmospheric, dramatically increasing tissue oxygen tension. This disrupts the **hypoxic niche** that obligate anaerobic pathobionts depend on for survival and biofilm maintenance. Elevated oxygen also enhances neutrophil bactericidal activity and promotes tissue repair.
@@ -49,3 +51,8 @@ The endometriosis ecosystem is characterized by localized hypoxia that favors ob
 - Whether HBOT effects on anaerobic pathobionts are sustained post-treatment.
 - Interaction with hormonal therapies and surgical management.
 - Risk of oxidative stress in repeated HBOT sessions.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

@@ -52,6 +52,8 @@ targets:
 platform: cureva
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Overview
 
 **Iron management** is not a simple supplement-or-restrict decision. The iron paradox -- that both deficiency and excess drive disease -- requires hepcidin as the decision biomarker to distinguish true deficiency from functional iron restriction.
@@ -161,3 +163,8 @@ Iron operates through two opposing pathways relevant to intervention:
 **Related interventions:** [[zinc-supplementation]] (Fe/Zn absorption competition), [[selenium-supplementation]] (GPX requires both Se and Fe-dependent pathways)
 
 **Signatures:** [[postpartum-depression]], [[crohns-disease]], [[chronic-kidney-disease]]
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

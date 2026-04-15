@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5, 6]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Saccharomyces boulardii for Endometriosis
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ karen_brain_primitives: [5, 6]
 ## Clinical Context
 
 S. boulardii (250-500mg twice daily) is well-tolerated and safe in immunocompetent patients. As a yeast, it is inherently resistant to antibacterial antibiotics, making it useful during antibiotic courses. **Contraindicated in immunocompromised patients and those with central venous catheters** due to rare fungemia risk. For endometriosis, S. boulardii addresses the interkingdom (fungal) component that bacterial probiotics cannot.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

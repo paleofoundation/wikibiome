@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # High-Fiber Diet (Cross-Condition)
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ A whole-diet approach centered on high fiber intake (>30g/day) from diverse plan
 ## Clinical Context
 
 A high-fiber diet is the whole-diet implementation of the [[dietary-fiber]] principle. Where isolated fiber supplements target specific metabolic pathways, the whole-diet approach rebuilds ecological diversity. Most effective when fiber sources are varied across meals rather than concentrated in a single supplement.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

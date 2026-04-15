@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 # Prebiotics (Inulin + FOS) for PCOS
 
 ## Intervention Summary
@@ -52,3 +54,8 @@ Inulin and fructo-oligosaccharide (FOS) supplementation as targeted prebiotics f
 ## Clinical Context
 
 Start at 5g/day and titrate to 10-20g/day over 2-3 weeks to minimize bloating and gas. Inulin from chicory root and FOS from various plant sources are available as powders. Best combined with dietary changes (see [[low-carbohydrate-diet]]) and probiotic supplementation (see [[probiotics-lactobacillus-bifidobacterium]]) for synergistic effects in PCOS.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

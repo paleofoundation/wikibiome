@@ -29,6 +29,8 @@ targets:
 karen_brain_primitives: [5]
 ---
 
+> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+
 ## Mechanism
 
 **Acarbose** inhibits alpha-glucosidase in the small intestine, reducing glucose absorption and delivering undigested carbohydrate to the colon. Combined with a **high-fiber diet**, this dramatically increases substrate for saccharolytic fermentation, boosting SCFA production (butyrate, propionate, acetate). The metabolic shift improves insulin sensitivity via GLP-1 signaling and reduces hepatic androgen production.
@@ -48,3 +50,8 @@ PCOS is characterized by insulin resistance, hyperandrogenism, and gut dysbiosis
 - Optimal fiber type (resistant starch vs. soluble fiber) for maximal synergy with acarbose.
 - Long-term adherence and GI tolerability of the combination.
 - Whether microbiome changes persist after acarbose discontinuation.
+
+
+---
+
+> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
