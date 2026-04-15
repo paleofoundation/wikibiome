@@ -4,8 +4,8 @@ type: signature
 created: 2026-04-14
 updated: 2026-04-14
 last_substantive_update: 2026-04-14
-sources: [blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, tizabi-2023-lead-gut-microbiota-asd.md, russo-2011-copper-zinc-autism-gi-disease.md, li-2021-fmt-gi-autism-symptoms-open-label.md, mathew-2025-autism-heterogeneity-gi-inflammation-thesis.md, turpin-2021-infant-gut-bacteria-adolescent-autism-autoimmune.md, hardan-2012-nac-pilot-trial-autism-children.md, karakas-2023-ursodeoxycholic-acid-propionic-acid-autism-animal.md, afroz-2021-high-salt-diet-microbiome-autism-behavior-mice.md, akdag-2023-heavy-metal-toxicity-autism-risk-factor.md, orozco-2019-metabolomics-autism-developmental-delays-down-syndrome.md, hoxha-2021-folic-acid-autism-systematic-review.md, good-2018-acetaminophen-amoxicillin-glyphosate-autism.md]
-source_count: 14
+sources: [blazewicz-2023-metal-profiles-asd.md, ogrady-2025-metal-dyshomeostasis-asd.md, tizabi-2023-lead-gut-microbiota-asd.md, russo-2011-copper-zinc-autism-gi-disease.md, li-2021-fmt-gi-autism-symptoms-open-label.md, mathew-2025-autism-heterogeneity-gi-inflammation-thesis.md, turpin-2021-infant-gut-bacteria-adolescent-autism-autoimmune.md, hardan-2012-nac-pilot-trial-autism-children.md, karakas-2023-ursodeoxycholic-acid-propionic-acid-autism-animal.md, afroz-2021-high-salt-diet-microbiome-autism-behavior-mice.md, akdag-2023-heavy-metal-toxicity-autism-risk-factor.md, orozco-2019-metabolomics-autism-developmental-delays-down-syndrome.md, hoxha-2021-folic-acid-autism-systematic-review.md, good-2018-acetaminophen-amoxicillin-glyphosate-autism.md, lewandowska-2022-microbiota-asd-systematic-review.md, hrnciarova-2021-biological-response-modifier-asd-microbiome.md, roussin-2020-gut-microbiota-pathophysiology-asd.md, alharthi-2021-human-gut-microbiome-asd.md, wang-2023-microbiota-gut-brain-axis-neurodevelopmental.md, zhuang-2024-asd-pathogenesis-biomarker-intervention.md, wang-2024-understanding-autism-causes-diagnosis-therapies.md, fattorusso-2016-asd-gut-microbiota.md]
+source_count: 22
 tags: [autism-spectrum-disorder, neurodevelopmental, zinc, lead, mercury, cadmium, copper, mis-metallation, SHANK3, gut-brain-axis, propionic-acid, developmental-vulnerability, metal-profile]
 
 metallomic_signature:
@@ -31,8 +31,8 @@ taxonomic_signature:
       role: "Immune regulator; depleted by high-salt diet which induces ASD-like behavior in male mice"
 
 nutritional_immunity:
-  elevated: [TNF-alpha, IL-1, IL-6, IL-2, IL-17, NF-kappaB, malondialdehyde, folate-receptor-autoantibodies, propionic-acid]
-  depleted: [glutathione, sulfate, zinc, NRF2-function]
+  elevated: [calprotectin, lactoferrin, transferrin, hepcidin, lipocalin-2, TNF-alpha, IL-1, IL-6, IL-2, IL-17, IFN-gamma, NF-kappaB, malondialdehyde, folate-receptor-autoantibodies, propionic-acid]
+  depleted: [glutathione, sulfate, zinc, IL-10, TGF-beta, NRF2-function, ZO-1, claudins, occludin]
 
 ecological_features: [gut-barrier-dysfunction, propionic-acid-neurotoxicity, oxidative-stress, BBB-disruption, demyelination, excitatory-inhibitory-imbalance, one-carbon-metabolism-disruption, sulfate-depletion, early-antibiotic-disruption, maternal-microbiome-transmission, microbial-zinc-competition, metal-profile-not-single-metal]
 
