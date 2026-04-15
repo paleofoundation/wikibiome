@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H480L4E9JF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-H480L4E9JF');
+  </script>
+  <title>Wiki Lint Report — 2026 04 13 — WikiBiome</title>
+  <meta name="description" content="Automated lint run. Full scan of all wiki pages for structural integrity, broken references, missing pages, and coverage gaps." />
+  <link rel="canonical" href="https://www.wikibiome.com/article/lint-2026-04-13" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Wiki Lint Report — 2026 04 13 — WikiBiome" />
+  <meta property="og:description" content="Automated lint run. Full scan of all wiki pages for structural integrity, broken references, missing pages, and coverage gaps." />
+  <meta property="og:url" content="https://www.wikibiome.com/article/lint-2026-04-13" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="WikiBiome" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Wiki Lint Report — 2026 04 13 — WikiBiome" />
+  <meta name="twitter:description" content="Automated lint run. Full scan of all wiki pages for structural integrity, broken references, missing pages, and coverage gaps." />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">{"@context":"https://schema.org","url":"https://www.wikibiome.com/article/lint-2026-04-13","publisher":{"@type":"Organization","name":"Paleo Foundation","url":"https://paleofoundation.com"},"isPartOf":{"@type":"WebSite","name":"WikiBiome","url":"https://www.wikibiome.com"},"inLanguage":"en","@type":"Article","name":"Wiki Lint Report — 2026 04 13","headline":"Wiki Lint Report — 2026 04 13 — WikiBiome","description":"Automated lint run. Full scan of all wiki pages for structural integrity, broken references, missing pages, and coverage gaps.","dateModified":"2026-04-13T00:00:00.000Z"}</script>
+
+  
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    /* Static content styling for crawlers — hidden once SPA hydrates */
+    .static-content { max-width: 800px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #2c2c2c; }
+    .static-content h1 { font-size: 28px; margin-bottom: 16px; color: #1a1a1a; }
+    .static-content h2 { font-size: 20px; margin: 24px 0 12px; color: #333; }
+    .static-content p { margin: 12px 0; }
+    .static-content a { color: #b87333; text-decoration: underline; }
+    .static-content nav { font-size: 14px; margin-bottom: 24px; color: #888; }
+    .static-content nav a { color: #b87333; }
+    .static-content ul, .static-content ol { margin: 12px 0 12px 24px; }
+    .static-content li { margin-bottom: 6px; }
+    .static-content table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 14px; }
+    .static-content th, .static-content td { border: 1px solid #e0dcd7; padding: 8px 12px; text-align: left; }
+    .static-content th { background: #f8f6f3; font-weight: 600; color: #333; }
+    .static-content tr:nth-child(even) { background: #faf9f7; }
+    .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
+    .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <!-- Static HTML for search engines — replaced by React SPA on hydration -->
+    <article class="static-content" itemscope itemtype="https://schema.org/Article">
+      <nav aria-label="Breadcrumb">
+        <a href="/">WikiBiome</a> &rsaquo;
+        <a href="/category/analysis">Analysis</a> &rsaquo;
+        <span>Wiki Lint Report — 2026 04 13</span>
+      </nav>
+
+      <h1 itemprop="headline">Wiki Lint Report — 2026 04 13</h1>
+
+      <div itemprop="articleBody">
+        <p><strong>Automated lint run.</strong> Full scan of all wiki pages for structural integrity, broken references, missing pages, and coverage gaps.</p>
+<p>&mdash;-</p><h2>Executive Summary</h2>
+<p>The wiki has strong structural foundations with 1,426 source documents and complete schema compliance in sampled pages. However, significant gaps exist in content coverage, index accuracy, and intervention linking.</p>
+<p><strong>By the numbers:</strong></p>
+<ul><li>15 signature pages exist; 14 additional diseases listed in index have no signature page yet</li><li>13 intervention pages exist; 24 intervention IDs referenced in signatures have no backing file</li><li>2 STOP IDs referenced in signatures have no backing file</li><li>7 intervention files exist but are not referenced in any signature</li><li>index.md counts are incorrect across multiple sections</li></ul>
+<p>&mdash;-</p>
+<h2>Critical Issues (Blocking)</h2>
+<h2>1. Missing STOP Pages (2)</h2>
+<p>These are referenced in signature `stops:` arrays but the files don't exist:</p>
+<table><thead><tr><th>Referenced ID</th><th>Referenced From</th></tr></thead><tbody><tr><td>`stop-diagnostic-overclaiming-discovery-phase`</td><td>pancreatic-cancer.md</td></tr><tr><td>`stop-excess-iodine-supplementation-hashimotos`</td><td>hashimotos-thyroiditis.md</td></tr></tbody></table>
+<h2>2. Missing Intervention Pages (24)</h2>
+<p>These are referenced in signature `validated_interventions:` arrays but the files don't exist:</p>
+<table><thead><tr><th>Missing Intervention</th><th>Referenced From</th></tr></thead><tbody><tr><td>acarbose-fiber-synergy</td><td>—</td></tr><tr><td>aip-diet-hashimotos</td><td>hashimotos-thyroiditis.md</td></tr><tr><td>berberine-methimazole</td><td>—</td></tr><tr><td>citrus-fruits</td><td>—</td></tr><tr><td>dietary-fiber</td><td>—</td></tr><tr><td>faecalibacterium-restoration</td><td>—</td></tr><tr><td>ferrichrome-probiotics</td><td>—</td></tr><tr><td>hbot</td><td>—</td></tr><tr><td>high-fiber-diet</td><td>—</td></tr><tr><td>high-fiber-prebiotics</td><td>—</td></tr><tr><td>lactoferrin-supplementation</td><td>—</td></tr><tr><td>low-carbohydrate-diet</td><td>—</td></tr><tr><td>low-fat-diet</td><td>—</td></tr><tr><td>low-red-meat-diet</td><td>—</td></tr><tr><td>magnesium-supplementation</td><td>—</td></tr><tr><td>nac-supplementation</td><td>—</td></tr><tr><td>prebiotics-inulin-fructo-oligosaccharide</td><td>—</td></tr><tr><td>probiotics-lactobacillus-bifidobacterium</td><td>—</td></tr><tr><td>probiotics-thyroid</td><td>hashimotos-thyroiditis.md</td></tr><tr><td>quercetin</td><td>—</td></tr><tr><td>saccharomyces-boulardii</td><td>—</td></tr><tr><td>selenium-supplementation-200mcg</td><td>hashimotos-thyroiditis.md</td></tr><tr><td>synbiotics-pdac</td><td>pancreatic-cancer.md</td></tr><tr><td>vitamin-d-probiotic-synergy</td><td>—</td></tr></tbody></table>
+<h2>3. Incomplete Frontmatter in depression.md</h2>
+<p>`wiki/signatures/depression.md` is missing the `validated_interventions` and `stops` frontmatter fields entirely. All other signature files have these fields (some as empty arrays `[]`, which is acceptable). This file needs both fields added.</p>
+<h2>4. index.md Counts Are Wrong</h2>
+<p>The index claims incorrect numbers across several sections:</p>
+<table><thead><tr><th>Section</th><th>index.md claims</th><th>Actual count</th></tr></thead><tbody><tr><td>Disease Signatures</td><td>14</td><td>15</td></tr><tr><td>Interventions</td><td>5</td><td>13</td></tr><tr><td>STOPs</td><td>12 listed</td><td>11 files</td></tr></tbody></table>
+<p>Additionally, these 3 signature pages are missing from the Disease Signatures section in index.md:</p>
+<ul><li>graves-disease</li><li>hashimotos-thyroiditis</li><li>pancreatic-cancer</li></ul>
+<p>&mdash;-</p>
+<h2>High Severity Issues</h2>
+<h2>5. Signatures With No Linked Interventions (8 of 15)</h2>
+<p>These signatures have empty `validated_interventions: []` arrays, meaning Cureva has no intervention output for these diseases:</p>
+<ul><li>alzheimers-disease.md</li><li>autism-spectrum-disorder-microbiome-signature.md</li><li>cardiovascular-disease.md</li><li>colorectal-cancer.md</li><li>depression.md (also missing the field entirely)</li><li>obesity.md</li><li>parkinsons-disease.md</li><li>type-2-diabetes.md</li></ul>
+<h2>6. Signatures With No Linked STOPs (same 8)</h2>
+<p>Same signatures above also have empty `stops: []` arrays.</p>
+<h2>7. Orphaned Intervention Files (7)</h2>
+<p>These intervention files exist but are not referenced in any signature's `validated_interventions` array:</p>
+<ul><li>fmt-intervention.md</li><li>iron-management.md</li><li>ketogenic-diet.md <em>(signatures reference `ketogenic-diet-ms` — is this a duplicate or separate?)</em></li><li>probiotics-asd-dysbiosis.md <em>(likely should be in autism signature)</em></li><li>probiotics-general.md</li><li>vitamin-d-supplementation.md</li><li>zinc-supplementation.md</li></ul>
+<h2>8. Orphaned STOP File (1)</h2>
+<ul><li>`stop-iron-supplementation-asd.md` — exists but not linked in any signature's `stops` array. Likely belongs in autism signature.</li></ul>
+<h2>9. Autism Signature Naming Mismatch</h2>
+<p>The autism file is named `autism-spectrum-disorder-microbiome-signature.md` — the only signature that doesn't follow the standard `disease-name.md` pattern. The index references it by full name which works, but it's inconsistent with all other signatures. Consider renaming to `autism-spectrum-disorder.md` (or document the deviation).</p>
+<p>&mdash;-</p>
+<h2>Medium Severity Issues</h2>
+<h2>10. Missing Signature Pages (14 diseases listed in index with no signature)</h2>
+<p>These diseases appear in the index Diseases section but have no corresponding file in `wiki/signatures/`:</p>
+<table><thead><tr><th>Disease</th><th>Raw Papers (approx.)</th><th>Priority</th></tr></thead><tbody><tr><td>Hashimoto's Thyroiditis</td><td>73</td><td>High — signature partially linked</td></tr><tr><td>Postpartum Depression</td><td>74</td><td>High — estrobolome focus</td></tr><tr><td>Rheumatoid Arthritis</td><td>—</td><td>High — Cu/Zn/Fe signature</td></tr><tr><td>Breast Cancer</td><td>—</td><td>Medium</td></tr><tr><td>Chronic Kidney Disease</td><td>—</td><td>Medium</td></tr><tr><td>Gastric Cancer</td><td>—</td><td>Medium</td></tr><tr><td>GERD</td><td>—</td><td>Medium</td></tr><tr><td>Hypertension</td><td>—</td><td>Medium</td></tr><tr><td>IBS</td><td>—</td><td>Medium</td></tr><tr><td>Inflammatory Bowel Disease</td><td>—</td><td>Medium</td></tr><tr><td>Ovarian Cancer</td><td>—</td><td>Medium</td></tr><tr><td>Schizophrenia</td><td>—</td><td>Medium</td></tr><tr><td>Type 1 Diabetes</td><td>—</td><td>Medium</td></tr><tr><td>Ulcerative Colitis</td><td>—</td><td>Medium</td></tr></tbody></table>
+<h2>11. Entity Pages May Be Missing</h2>
+<p>Sample check in depression.md found references to `<a href="/article/clostridium">clostridium</a>` and `<a href="/article/prevotella">prevotella</a>` — entity pages for these taxa were not confirmed to exist. A full audit of entity references across all 15 signature pages is needed.</p>
+<h2>12. ASD Papers Unprocessed</h2>
+<p>~180 ASD papers are reportedly in a disorganized folder awaiting ingest. The autism signature has `cureva_status: in-progress` and empty intervention/stop arrays, consistent with incomplete processing.</p>
+<p>&mdash;-</p>
+<h2>Triangle Evidence Status</h2>
+<p>Sampled intervention files (b-cell-depletion-therapy-ms, ecoli-nissle-1917, ketogenic-diet-ms, low-nickel-diet) all contain complete triangle evidence with all required fields:</p>
+<ul><li>`I_to_f` + `I_to_f_evidence`</li><li>`I_to_D` + `I_to_D_evidence`</li><li>`f_to_D`</li><li>`status`</li></ul>
+<p><strong>No triangle evidence gaps detected in existing intervention files.</strong> ✓</p>
+<p>&mdash;-</p>
+<h2>Recommended Next Steps</h2>
+<p><strong>Immediate (blocking):</strong></p>
+<ol><li>Fix `depression.md` — add `validated_interventions: []` and `stops: []` frontmatter fields</li><li>Create 2 missing STOP stubs: `stop-diagnostic-overclaiming-discovery-phase`, `stop-excess-iodine-supplementation-hashimotos`</li><li>Update `index.md` — fix counts and add missing signature entries</li></ol>
+<p><strong>High priority:</strong></p>
+<ol><li>Reconcile 7 orphaned intervention files — link to signatures or remove</li><li>Link `stop-iron-supplementation-asd` to autism signature</li><li>Build the 3 highest-priority missing signatures: Hashimoto's, Postpartum Depression, Rheumatoid Arthritis</li><li>Create stubs for the 24 missing intervention files (even empty stubs break no links)</li></ol>
+<p><strong>Medium priority:</strong></p>
+<ol><li>Audit entity references across all 15 signatures; create missing entity pages</li><li>Process 180 ASD papers; expand autism signature to `cureva_status: partial`</li><li>Resolve autism signature naming inconsistency</li></ol>
+<p>&mdash;-</p>
+<h2>Files Scanned</h2>
+<ul><li>`wiki/index.md`</li><li>`wiki/log.md`</li><li>All 15 files in `wiki/signatures/`</li><li>All 13 files in `wiki/interventions/`</li><li>All 11 files in `wiki/stops/`</li><li>Sample of `wiki/sources/` and `wiki/entities/`</li><li>`wiki/analyses/gaps-and-improvements-2026-04-12.md` (prior gap analysis)</li></ul>
+
+      </div>
+
+      
+      <div class="related">
+        <h3>Related Articles</h3>
+        <ul><li><a href="/article/clostridium">Clostridium</a></li>
+<li><a href="/article/prevotella">Prevotella</a></li></ul>
+      </div>
+
+      <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
+        <p>WikiBiome is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>, advancing microbiome medicine through open scientific education.</p>
+      </footer>
+    </article>
+  </div>
+  <script type="module" crossorigin src="/assets/index-C7Der6Yv.js"></script>
+</body>
+</html>

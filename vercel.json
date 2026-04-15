@@ -1,6 +1,6 @@
 {
   "buildCommand": "node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs",
-  "outputDirectory": "dist-v19",
+  "outputDirectory": "dist-v28",
   "installCommand": "npm install",
   "framework": null,
   "headers": [
@@ -14,8 +14,10 @@
     }
   ],
   "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/:path*" },
     { "source": "/article/:id", "destination": "/article/:id/index.html" },
     { "source": "/category/:cat", "destination": "/category/:cat/index.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/signature-explorer", "destination": "/signature-explorer.html" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }
