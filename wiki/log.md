@@ -2,6 +2,47 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-16] CKD entity page deepened — microbiome PDFs from Causal, Dysbiosis, and Cadmium folders
+
+**Source pages upgraded (full v2 frontmatter + rich body content):**
+- `liu-2026-oral-microbiome-ckd-mendelian-randomization.md` — Two-sample MR study, 43 oral taxa vs. 6 CKD endpoints (n=64,164 cases); Veillonella protective (OR 0.96), Fusobacteriales risk (OR 1.01 UACR), Streptococcus protective for dialysis (OR 0.82); DOI: 10.5114/aoms/211613
+- `luo-2023-causal-effects-gut-microbiota-ckd-mr.md` — First large-scale gut MR study (196 taxa, n=480,698); Desulfovibrionales Bonferroni-significant risk taxon (OR 1.15, p=0.0026); Lachnospiraceae UCG-010 protective (OR 0.89); DOI: 10.3389/fcimb.2023.1142140
+- `miranda-2022-metalloids-antibiotic-resistance-ckd-gut.md` — cadA3k/arsC metal resistance genes in CKD stage 3 gut bacteria; Proteobacteria enrichment under As/Pb pressure; co-resistance with antibiotic resistance genes; DOI: 10.1186/s40659-022-00389-z
+- `yasuno-2024-dysbiosis-gut-microbiota-ckd-stages.md` — Stage-by-stage dysbiosis mapping (n=93); 5 Lachnospiraceae genera depleted from stage 3b; dysbiosis irreversible after hemodialysis; DOI: 10.2169/internalmedicine.1602-23
+
+**Entity page updated:**
+- `wiki/entities/chronic-kidney-disease.md` — 169 → 245 lines; added Gut Microbiome section with stage-by-stage dysbiosis, causal taxa (Desulfovibrionales MR, oral taxa MR), metal–microbiome co-resistance; updated sources list (14 → 18 sources); updated Connections and Open Questions; added Associated Conditions table; added Interventions table row for periodontal treatment; inline citations throughout all new sections.
+
+**Cross-condition overlaps detected:** None new; existing associations (T2D, CVD, hypertension) confirmed.
+
+---
+
+## [2026-04-16] Schizophrenia entity page deepened — PDFs from Causal, Dysbiosis, and Heavy Metals folders
+
+**New source page created:**
+- `kamath-2025-gut-microbiome-mental-health-causation-correlation-review.md` — Preprint narrative review (Kamath, Dinan, Cryan, Joyce et al.); trichotomy framework (causal driver / consequence / bidirectional); SCFA mechanistic detail (NLRP3, JAM-A/ZO-1, HDAC inhibition); FMT systematic review of 28 studies; DOI not found in document.
+
+**Source pages upgraded (v2 frontmatter):**
+- `theleritis-2024-gut-dysbiosis-first-episode-psychosis-review.md` — Added evidence_level, sample_size, karen_brain_primitives, taxa_discussed, key_findings, corresponding_author fields.
+
+**Entity pages updated:**
+- `wiki/entities/schizophrenia.md` — Expanded from 101 to ~270 lines. Added:
+  - Causal taxon map from Zhou 2024 MR (full OR table, 9 risk taxa + 6 protective taxa + 11 reverse-MR taxa)
+  - Akkermansia finding clarified (disease consequence not cause)
+  - SCFA depletion and butyrate treatment-response data (Li 2021, n=56)
+  - Multi-kingdom dysbiosis (mycobiome + virome) with AUC data
+  - Tryptophan/kynurenine bifurcation mechanism (astrocyte kynurenic acid vs microglial quinolinic acid)
+  - Heavy metals table (Cu, Zn, Fe, Pb, Cd, As with mechanisms and linked taxa)
+  - Streptococcus vestibularis FMT causation experiment
+  - Wang 2024 multi-omics data (n=127 FEP)
+  - Early-life stress → HPA axis → gut dysbiosis → psychosis chain
+  - Inline [[source-filename]] citations throughout (no parentheses)
+  - Expanded Key Studies table and Open Questions
+
+**Cross-condition overlaps noted:**
+- Shared butyrate-producer depletion across SCZ, depression, Alzheimer's, Parkinson's — common intervention target
+- Shared Th17/Treg imbalance across SCZ, MS, bipolar disorder
+
 ## [2026-04-14] Foundational libraries ingestion: food-heavy-metal, essential-oils, metallomic-signatures (18 new source pages)
 
 Read 18 unexplored PDFs from three foundational research libraries to fill gaps in dietary metal exposure and pathogen-suppression intervention evidence:

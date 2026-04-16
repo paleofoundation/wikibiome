@@ -2,15 +2,29 @@
 title: "Theleritis 2024 -- Association of gut dysbiosis with first-episode psychosis (Review)"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-16
 authors: [Christos Theleritis, Maria-Ioanna Stefanou, Marina Demetriou, Evangelos Alevyzakis, Konstantinos Triantafyllou, Nikolaos Smyrnis, Demetrios A Spandidos, Emmanouil Rizos]
+corresponding_author: "Christos Theleritis"
+corresponding_email: "ctheleritis@gmail.com; chtheler@med.uoa.gr"
+institution: "Attikon University General Hospital, National and Kapodistrian University of Athens, Greece"
 year: 2024
 journal: "Molecular Medicine Reports"
 doi: "10.3892/mmr.2024.13254"
-tags: [schizophrenia, first-episode-psychosis, dysbiosis, gut-brain-axis, tryptophan, GABA, serotonin, short-chain-fatty-acids, probiotics, FMT]
-library_category: dysbiosis
-platform: gut
+pmid: ""
+evidence_level: expert-opinion
+sample_size: "N/A (narrative review of 12 FEP studies)"
+tags: [schizophrenia, first-episode-psychosis, dysbiosis, gut-brain-axis, tryptophan, GABA, serotonin, short-chain-fatty-acids, probiotics, FMT, lactobacillus, faecalibacterium, streptococcus-vestibularis, clostridiales, bacteroidales]
+library_category: causal
+platform: both
 condition: "First-episode psychosis / Schizophrenia"
+karen_brain_primitives: [1, 5, 9]
+metals_discussed: []
+taxa_discussed: [lactobacillus, faecalibacterium, lachnospiraceae, ruminococcaceae, coprococcus, haemophilus, streptococcus-vestibularis, bifidobacterium, clostridiales, bacteroidales, lactobacillales, proteobacteria, purpureocillium, aspergillus, prevotella-copri, turicibacter-sanguinis, roseburia, ruminococcus-lactaris]
+key_findings:
+  - "FEP patients show increased Lactobacillus (positively associated with symptom severity), decreased Faecalibacterium, Lachnospiraceae, and Coprococcus; 12 studies reviewed in structured table"
+  - "FMT from schizophrenia patients into germ-free mice induces psychomotor hyperactivity, altered tryptophan→kynurenine catabolism, elevated prefrontal dopamine and hippocampal 5-HT; Streptococcus vestibularis transfer specifically induces social behavior deficits"
+  - "Increased intestinal permeability, chronic inflammation (elevated IL-6, TNF-α, IL-2R, prostaglandin E2), and oxidative stress mechanistically link gut dysbiosis to FEP; early-life stress → HPA axis dysregulation → altered microbiota → psychosis vulnerability"
+keystone: false
 ---
 
 # Association of gut dysbiosis with first-episode psychosis
