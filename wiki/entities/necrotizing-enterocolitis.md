@@ -24,7 +24,7 @@ shared_signature_taxa: {cerebral-palsy: [klebsiella-enriched, bifidobacterium-de
 
 **Toll-like receptor 4 (TLR4)** is the central molecular switch in NEC pathogenesis:
 
-- TLR4 is **physiologically upregulated in premature intestinal epithelium** -- it serves a developmental role in gut maturation, but this makes the preterm intestine hypersensitive to bacterial LPS
+- TLR4 is **physiologically upregulated in premature intestinal epithelium** Sampah & Hackam 2020 -- it serves a developmental role in gut maturation, but this makes the preterm intestine hypersensitive to bacterial LPS
 - In the mature gut, TLR4 signaling is dampened by commensal bacteria; in the preterm gut, the absence of commensals leaves TLR4 constitutively active
 - LPS from Proteobacteria activates TLR4, triggering epithelial apoptosis, mucosal barrier breakdown, and bacterial translocation
 - TLR4 activation simultaneously **inhibits enterocyte proliferation and migration**, preventing mucosal repair
@@ -34,9 +34,9 @@ shared_signature_taxa: {cerebral-palsy: [klebsiella-enriched, bifidobacterium-de
 
 ### The Proteobacteria Bloom
 
-The signature microbial event in NEC is a **Proteobacteria bloom detectable 2 weeks before clinical diagnosis**. This predictive window is one of the most promising opportunities for microbiome-based prevention in any disease:
+The signature microbial event in NEC is a **Proteobacteria bloom detectable 2 weeks before clinical diagnosis** Torrazza et al. 2013. This predictive window is one of the most promising opportunities for microbiome-based prevention in any disease:
 
-- **Klebsiella** -- present in 11 of 12 NEC cases in one prospective cohort; the most consistent NEC-associated pathobiont. Iron-dependent virulence factors and LPS production drive intestinal damage
+- **Klebsiella** -- present in 11 of 12 NEC cases in one prospective cohort Zhou et al. 2015; the most consistent NEC-associated pathobiont. Iron-dependent virulence factors and LPS production drive intestinal damage
 - **Escherichia coli** -- enriched; LPS producer; synergizes with Klebsiella in the Proteobacteria bloom
 - **Clostridium perfringens** (toxigenic strains) -- produces alpha-toxin and perfringolysin O; causes gas gangrene pattern in intestinal wall
 - **Staphylococcus epidermidis** -- enriched in NEC; forms biofilms on indwelling catheters, serving as a reservoir
@@ -49,7 +49,7 @@ The signature microbial event in NEC is a **Proteobacteria bloom detectable 2 we
 
 ### Virome Convergence
 
-The gut virome shows a **convergence event 10 days before NEC onset** -- viral community diversity collapses and specific bacteriophages targeting commensal bacteria expand. This phage-mediated killing of protective bacteria may precipitate the Proteobacteria bloom, suggesting the virome as an upstream trigger.
+The gut virome shows a **convergence event 10 days before NEC onset** Kaelin et al. 2022 -- viral community diversity collapses and specific bacteriophages targeting commensal bacteria expand. This phage-mediated killing of protective bacteria may precipitate the Proteobacteria bloom, suggesting the virome as an upstream trigger.
 
 ## Breast Milk and Human Milk Oligosaccharides
 
@@ -63,7 +63,7 @@ The gut virome shows a **convergence event 10 days before NEC onset** -- viral c
 
 ## Prevention: Network Meta-Analysis
 
-A network meta-analysis of 27 RCTs (n = 9,501 preterm infants) ranked NEC prevention strategies by SUCRA score:
+A network meta-analysis of 27 RCTs (n = 9,501 preterm infants) ranked NEC prevention strategies by SUCRA score Zhou et al. 2023:
 
 | Intervention | SUCRA | Evidence |
 |-------------|-------|----------|
@@ -74,7 +74,7 @@ A network meta-analysis of 27 RCTs (n = 9,501 preterm infants) ranked NEC preven
 
 ## Zinc and Paneth Cells
 
-**Zinc** is critical for NEC prevention through its role in **Paneth cell** function:
+**Zinc** is critical for NEC prevention through its role in **Paneth cell** function Sami et al. 2020:
 
 - Paneth cells produce antimicrobial peptides (defensins, lysozyme) that shape the intestinal microbiome
 - Zinc is an essential cofactor for defensin structure (zinc-finger domains)
@@ -83,7 +83,7 @@ A network meta-analysis of 27 RCTs (n = 9,501 preterm infants) ranked NEC preven
 
 ## Maternal AHR Activation
 
-Maternal dietary intake of **indole-3-carbinol (I3C)** -- found in cruciferous vegetables -- activates the **aryl hydrocarbon receptor (AHR)** in neonatal intestinal epithelium via breast milk. AHR activation promotes:
+Maternal dietary intake of **indole-3-carbinol (I3C)** -- found in cruciferous vegetables -- activates the **aryl hydrocarbon receptor (AHR)** in neonatal intestinal epithelium via breast milk Lu et al. 2021. AHR activation promotes:
 
 - Intestinal epithelial barrier maturation
 - IL-22 production (strengthens tight junctions)
@@ -94,13 +94,13 @@ This represents a maternal dietary intervention that protects the infant through
 
 ## Non-Toxigenic Clostridia as Novel Probiotics
 
-A paradigm-shifting finding: **non-toxigenic Clostridium perfringens** strains metabolize HMOs and suppress pathogenic E. coli and Klebsiella by 40-90% in vitro. These strains lack the toxin genes that make C. perfringens pathogenic but retain the metabolic machinery to compete with Enterobacteriaceae. This opens a novel probiotic strategy based on competitive exclusion by a traditionally "pathogenic" genus.
+A paradigm-shifting finding: **non-toxigenic Clostridium perfringens** strains metabolize HMOs and suppress pathogenic E. coli and Klebsiella by 40-90% in vitro Chapman et al. 2023. These strains lack the toxin genes that make C. perfringens pathogenic but retain the metabolic machinery to compete with Enterobacteriaceae. This opens a novel probiotic strategy based on competitive exclusion by a traditionally "pathogenic" genus.
 
 ## Metal Associations
 
 | Metal | Direction | Relevance |
 |-------|-----------|-----------|
-| **Iron (Fe)** | Elevated (parenteral nutrition) | Parenteral iron bypasses lactoferrin-mediated sequestration, providing free iron to siderophore-producing Enterobacteriaceae. Iron overload promotes Klebsiella and E. coli growth |
+| **Iron (Fe)** | Elevated (parenteral nutrition) | Parenteral iron bypasses lactoferrin-mediated sequestration, providing free iron to siderophore-producing Enterobacteriaceae. Iron overload promotes Klebsiella and E. coli growth [[pendergrass-2026-nickel-nec-preterm-gut]] |
 | **Zinc (Zn)** | Depleted (preterm) | Impairs Paneth cell defensin production and intestinal barrier integrity |
 
 ## Open Questions

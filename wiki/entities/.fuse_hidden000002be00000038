@@ -22,7 +22,7 @@ Post-acute sequelae of SARS-CoV-2 infection (PASC), affecting an estimated 10-30
 
 ## Microbiome Signature
 
-The microbiome disruption in Long COVID is distinguished from acute COVID and recovery by three features: (1) **persistence** — dysbiosis maintained months to years post-infection, (2) **non-linear recovery** — beneficial taxa peak at 3 months then regress as pathogens persist at 6 months [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]], and (3) **strain-level collapse** — not just species depletion but loss of intra-species genetic diversity in beneficial taxa [[Ke2022-microbiome-covid-metagenome-genomes]].
+The microbiome disruption in Long COVID is distinguished from acute COVID and recovery by three features: (1) **persistence** — dysbiosis maintained months to years post-infection, (2) **non-linear recovery** — beneficial taxa peak at 3 months then regress as pathogens persist at 6 months ([[li-2025-long-term-gut-microbiota-alterations-covid-recovery]]), and (3) **strain-level collapse** — not just species depletion but loss of intra-species genetic diversity in beneficial taxa ([[Ke2022-microbiome-covid-metagenome-genomes]]).
 
 ### Depleted Taxa
 The hallmark is systematic loss of obligate anaerobic SCFA producers:
@@ -42,24 +42,24 @@ Facultative aerobes and pathobionts bloom:
 - **[[Fusobacterium nucleatum]]** — enhanced LPS synthesis genes in dysbiotic strains
 
 ### Multi-Kingdom Dysbiosis
-Coordinated bacterial + fungal + viral community disruption. Bacteriophage populations shift in parallel; reduced phage diversity limits natural pathobiont predation [[lu-2021-intestinal-dna-virome-covid-19]].
+Coordinated bacterial + fungal + viral community disruption. Bacteriophage populations shift in parallel; reduced phage diversity limits natural pathobiont predation ([[lu-2021-intestinal-dna-virome-covid-19]]).
 
 ## The Self-Perpetuating Loop
 
-Dysbiosis → SCFA depletion → barrier dysfunction → LPS translocation → systemic inflammation → further dysbiosis. This feedback loop explains why symptoms persist long after viral clearance. ~30% of hospitalized COVID patients had positive blood cultures matching gut organisms [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
+Dysbiosis → SCFA depletion → barrier dysfunction → LPS translocation → systemic inflammation → further dysbiosis. This feedback loop explains why symptoms persist long after viral clearance. ~30% of hospitalized COVID patients had positive blood cultures matching gut organisms ([[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]]).
 
 ## Metal Associations
 
-- **[[Iron]] sequestered**: Hepcidin elevation drives iron sequestration as host antiviral defense — functional anemia, not true deficiency. Iron was 10-fold decreased in COVID+ human milk [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- **[[Iron]] sequestered**: Hepcidin elevation drives iron sequestration as host antiviral defense — functional anemia, not true deficiency. Iron was 10-fold decreased in COVID+ human milk ([[arias-borrego-2022-metallomic-metabolomic-covid-mothers]]).
 - **[[Selenium]] depleted**: 2-fold decrease in COVID+ mothers; lower Se associated with COVID mortality.
 - **[[Zinc]] elevated**: 1.7-fold increase in human milk as antiviral defense.
-- **[[Glutathione]] depleted**: Reduced antioxidant metabolites [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
+- **[[Glutathione]] depleted**: Reduced antioxidant metabolites ([[saito-2024-metabolomic-immune-alterations-long-covid-cfs]]).
 
 ## Gut-Brain Axis
-LPS translocation crosses the BBB; reduced butyrate impairs BBB tight junctions; altered tryptophan metabolism (reduced kynurenine/AhR signaling) drives neuroinflammation and microglial activation, explaining "brain fog" and cognitive symptoms [[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]], [[brown-2024-covid-19-neuroinflammation-pathophysiology]].
+LPS translocation crosses the BBB; reduced butyrate impairs BBB tight junctions; altered tryptophan metabolism (reduced kynurenine/AhR signaling) drives neuroinflammation and microglial activation, explaining "brain fog" and cognitive symptoms ([[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]], [[brown-2024-covid-19-neuroinflammation-pathophysiology]]).
 
 ## Gut-Lung Axis
-SCFA depletion impairs respiratory mucosal immunity; reduced sIgA production; impaired Treg migration to respiratory tract [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]].
+SCFA depletion impairs respiratory mucosal immunity; reduced sIgA production; impaired Treg migration to respiratory tract ([[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]]).
 
 ## Open Questions
 

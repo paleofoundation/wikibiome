@@ -100,14 +100,7 @@ A UC-specific vicious cycle:
 
 This explains why oral iron is contraindicated in active UC and why iron-restricted pathobiont control is a therapeutic target.
 
-## Therapeutic Considerations
-
-- **IV iron** (ferric carboxymaltose, iron sucrose) preferred over oral iron to avoid feeding pathobionts
-- **Zinc supplementation** -- barrier restoration and antimicrobial peptide support
-- **Selenium supplementation** -- antioxidant support and Treg function
-- **[[Probiotics]]** -- VSL#3 has evidence for maintaining remission; E. coli Nissle 1917 (paradoxically, a non-pathogenic E. coli) shows efficacy equivalent to mesalazine for maintenance
-- **FMT** -- emerging standard for refractory UC
-- **5-ASA (mesalazine)** -- mainstay; bacterial azoreductases convert prodrug sulfasalazine to active 5-ASA (a [[pharmacomicrobiomics]] interaction)
+<!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 
 ## Key Sources
 

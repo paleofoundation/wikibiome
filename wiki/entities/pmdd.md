@@ -18,7 +18,7 @@ shared_signature_taxa: {depression: [faecalibacterium-depleted, blautia-depleted
 
 # Premenstrual Dysphoric Disorder (PMDD)
 
-**Premenstrual Dysphoric Disorder (PMDD)** affects 3-8% of menstruating individuals, causing severe mood disturbances, irritability, anxiety, and physical symptoms during the luteal phase of the menstrual cycle. Distinguished from premenstrual syndrome (PMS) by the severity of affective symptoms, PMDD is increasingly recognized as a neuroimmune disorder in which gut microbiome composition modulates hormonal sensitivity, tryptophan metabolism, and GABAergic neurotransmission.
+**Premenstrual Dysphoric Disorder (PMDD)** affects **3-8% of menstruating individuals** Epperson et al. 2012, causing severe mood disturbances, irritability, anxiety, and physical symptoms during the luteal phase of the menstrual cycle. Distinguished from premenstrual syndrome (PMS) by the severity of affective symptoms, PMDD is increasingly recognized as a neuroimmune disorder in which gut microbiome composition modulates hormonal sensitivity, tryptophan metabolism, and GABAergic neurotransmission.
 
 ## Microbiome Associations
 
@@ -26,15 +26,15 @@ shared_signature_taxa: {depression: [faecalibacterium-depleted, blautia-depleted
 
 The gut microbiome of PMDD patients shows a distinctive pattern of depletion in taxa that regulate short-chain fatty acid production and immune tolerance:
 
-- **Bacteroidetes** -- phylum-level depletion correlates with symptom severity (P = 0.015), suggesting a dose-response relationship between microbial diversity loss and mood disruption
-- **Parabacteroides** -- depleted; its abundance inversely predicts symptom severity, making it a candidate biomarker
-- **Megasphaera** -- depleted; produces valerate and other SCFAs that support barrier integrity
-- **[[blautia]]** -- MR-validated protective taxon; produces acetate and propionate, supports anti-inflammatory signaling
+- **Bacteroidetes** -- phylum-level depletion correlates with symptom severity (P = 0.015) Takeda et al. 2022, suggesting a dose-response relationship between microbial diversity loss and mood disruption
+- **Parabacteroides** -- depleted; its abundance inversely predicts symptom severity (R2 = 0.29 combined with Megasphaera) Takeda et al. 2022, making it a candidate biomarker
+- **Megasphaera** -- depleted; produces valerate and other SCFAs that support barrier integrity Takeda et al. 2022
+- **[[blautia]]** -- MR-validated protective taxon (OR = 0.994) Yao et al. 2024; produces acetate and propionate, supports anti-inflammatory signaling
 - **Butyricicoccus** -- depleted; butyrate producer whose loss reduces colonocyte health
 
 Enriched taxa include:
-- **Anaerotaenia** -- enriched in PMDD; functional significance under investigation
-- **Escherichia/Shigella** -- MR-validated causal association; LPS production drives inflammatory signaling
+- **Anaerotaenia** -- enriched in PMDD, correlated with severity (r = 0.292) Takeda et al. 2022; functional significance under investigation
+- **Escherichia/Shigella** -- MR-validated causal association (OR = 1.004) Yao et al. 2024; LPS production drives inflammatory signaling
 
 ### Estrobolome and Beta-Glucuronidase
 
@@ -42,7 +42,7 @@ The [[estrobolome]] -- the collection of gut microbial genes capable of metaboli
 
 ## Tryptophan-Kynurenine Shunting
 
-During the luteal phase, pro-inflammatory cytokines (IL-8, TNF-alpha -- both elevated in PMDD) upregulate **indoleamine 2,3-dioxygenase (IDO)**, shunting tryptophan from serotonin synthesis toward the kynurenine pathway. This creates a dual deficit:
+During the luteal phase, pro-inflammatory cytokines (IL-8, TNF-alpha -- both elevated in PMDD, Etyemez et al. 2025) upregulate **indoleamine 2,3-dioxygenase (IDO)** Cheng et al. 2025, shunting tryptophan from serotonin synthesis toward the kynurenine pathway. This creates a dual deficit:
 
 - **Reduced serotonin** -- explaining the mood disturbance that SSRIs partially address
 - **Elevated kynurenine metabolites** -- including quinolinic acid (NMDA receptor agonist, neurotoxic) and 3-hydroxykynurenine (oxidative stress generator)
@@ -55,7 +55,7 @@ Inflammatory cytokines from gut dysbiosis alter **GABA-A receptor** sensitivity 
 
 ## Dietary Factors
 
-Dietary fiber intake shows a protective association: women consuming >10 g/day of dietary fiber have reduced PMDD symptom severity, consistent with the role of fiber in supporting SCFA-producing taxa (Bacteroidetes, Parabacteroides, Megasphaera) that are depleted in PMDD.
+Dietary fiber intake shows a protective association: women consuming >10 g/day of dietary fiber have reduced PMDD symptom severity (OR = 0.483) Li et al. 2020, consistent with the role of fiber in supporting SCFA-producing taxa (Bacteroidetes, Parabacteroides, Megasphaera) that are depleted in PMDD.
 
 ## Metal Associations
 

@@ -133,23 +133,7 @@ Dietary polyphenols synergistically interact with gut microbiota to suppress [[i
 
 In nickel-sensitized individuals, dietary nickel exacerbates gastrointestinal inflammation. A low-nickel dietary approach, parallel to nickel-free diet protocols that enhanced H. pylori eradication, may benefit a subset of CD patients -- particularly given that nickel levels were higher in active CD compared to inactive UC [[amerikanou-2022-ibd-biomarkers-trace-metals]].
 
-## Therapeutic Implications
-
-### Fecal Microbiota Transplant (FMT)
-
-FMT shows mixed results in CD -- more effective than in UC but with highly variable outcomes depending on donor selection, preparation method, and route of administration [[vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]]. The metal-microbiome framework suggests that FMT success may depend on whether the transplanted community can survive the recipient's altered luminal metal environment. If metal dyshomeostasis persists (e.g., in ZIP8 A391T carriers), transplanted commensals may fail to engraft.
-
-### Anti-TNF Therapy and the Microbiome
-
-Infliximab (anti-TNF) alters microbiome composition as a secondary effect of reducing inflammation. By suppressing [[inflammation]], anti-TNF therapy may partially restore the luminal environment to conditions more favorable for SCFA-producing commensals. The combination of infliximab with high-fiber diet achieved the strongest remission data (84% clinical remission), suggesting that reducing inflammation AND providing prebiotic substrate together is more effective than either alone [[serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis]].
-
-### [[probiotics]]
-
-Evidence for probiotics in CD is notably weaker than in UC. VSL#3 and Lactobacillus strains show pre-clinical promise but inconsistent clinical results [[vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]]. E. coli Nissle 1917 is an exception -- it achieves competitive exclusion of AIEC through superior siderophore systems, directly applying the [[siderophores-metallophores]] competition framework. The most impactful restoration target would be [[faecalibacterium-prausnitzii]] itself, but it is not yet commercially available as a therapeutic probiotic.
-
-### Nickel-Free Diet Parallel
-
-Nickel-free dietary protocols enhanced H. pylori eradication by removing a metal that supports pathogen growth. An analogous approach for CD -- restricting specific dietary metals that feed pathobionts while supporting commensals -- aligns with the [[dietary-metal-paradoxes]] framework and warrants investigation.
+<!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 
 ## Connection to Other IBD
 

@@ -88,14 +88,7 @@ Metal exposure compounds these shifts: [[dysbiosis]] from dietary nickel, cadmiu
 | Low-nickel diet response | Variable | Dramatic | No effect |
 | CRP | Normal | Normal/mild elevation | Elevated |
 
-## Therapeutic Approaches
-
-- **Low-nickel diet** -- first-line for nickel-sensitized IBS patients; dramatic response in 70-80% of SNAS-positive individuals
-- **Low-FODMAP diet** -- effective but may be partly a nickel reduction effect
-- **[[Probiotics]]** -- Lactobacillus rhamnosus GG, Bifidobacterium infantis 35624 have best evidence; may reduce both inflammation and nickel absorption
-- **Mast cell stabilizers** -- ketotifen, cromoglycate for visceral hypersensitivity
-- **Nickel oral hyposensitization** -- emerging approach using escalating oral nickel doses to induce tolerance
-- **Barrier-protective agents** -- zinc supplementation, butyrate to restore [[intestinal-permeability]]
+<!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 
 ## Comorbidities
 

@@ -43,7 +43,7 @@ H. pylori infection progresses through the Correa cascade:
 4. **Intestinal metaplasia** → dysplasia
 5. **Dysplasia** → adenocarcinoma
 
-Each step is driven by chronic [[inflammation]] ([[nf-kappa-b]], [[oxidative-stress]], [[DNA-damage]]), immune responses (Th1/Th17 -- see [[immune-balance]]), and epithelial damage. The process typically spans decades.
+Each step is driven by chronic [[inflammation]] [[nf-kappa-b]], [[oxidative-stress]], [[DNA-damage]], immune responses (Th1/Th17 -- see [[immune-balance]]), and epithelial damage. The process typically spans decades.
 
 ## Beyond H. pylori: Other Metal Contributions
 

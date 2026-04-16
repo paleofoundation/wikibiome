@@ -50,7 +50,7 @@ pathogenic_potential: commensal
 ### Autism Spectrum Disorder
 - Altered abundance in ASD children with GI symptoms, sharing evolutionary lineage with *Streptococcus* within the Lactobacillales order [[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]].
 
-## Therapeutic Delivery Vehicle
+## Biotherapeutic Delivery Platform
 
 *L. lactis* is increasingly used as a **live biotherapeutic delivery platform**:
 

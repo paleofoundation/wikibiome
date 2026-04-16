@@ -145,13 +145,7 @@ When H2-producing taxa are depleted, *M. smithii* starves. This creates an inter
 - **[[cardiovascular-disease]]** – Indirect via altered bile acid reabsorption and lipid metabolism
 - **[[dysbiosis]]** – Enrichment signals altered hydrogen cycling and ecological dysfunction
 
-## Intervention Implications (Cureva Layer)
-
-Though not covered in WikiBiome's entity pages, practitioners interested in *M. smithii* suppression should note:
-
-- **Nickel restriction**: Low-nickel diet can suppress methanogenesis without neomycin (antibiotic).
-- **Hydrogen-producer suppression**: Resistant starch reduction favors acetic acid producers over H2-producing fermenters.
-- **Prokinetic agents**: Metoclopramide or low-dose domperidone increase peristalsis, reducing *M. smithii* opportunity to bloom.
+<!-- Intervention/practitioner content moved to Cureva per public/clinical boundary -->
 
 ---
 

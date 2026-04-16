@@ -58,7 +58,7 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 
 ### Metal Availability and Dysbiosis Link
 
-- **Iron availability paradox**: While obligate anaerobes, Oscillospiraceae require basal iron for respiratory chain remnants and other enzymes. In dysbiotic, bleeding gut with elevated [[hepcidin]] (inflammation-driven), iron sequestration is ineffective, allowing pathobionts ([[fusobacterium-varium]], [[bacteroides-fragilis]]) to thrive while Oscillospiraceae remain outcompeted due to altered competitive balance (not iron limitation per se, but ecological shift).
+- **Iron availability paradox**: While obligate anaerobes, Oscillospiraceae require basal iron for respiratory chain remnants and other enzymes. In dysbiotic, bleeding gut with elevated [[hepcidin]] (inflammation-driven), iron sequestration is ineffective, allowing pathobionts [[fusobacterium-varium]], [[bacteroides-fragilis]] to thrive while Oscillospiraceae remain outcompeted due to altered competitive balance (not iron limitation per se, but ecological shift).
 - Selective iron/zinc supplementation or restoration of dysbiosis-related iron overload may indirectly support Oscillospiraceae recovery by tipping competitive interactions.
 
 ## Disease Associations and Depletion Patterns
@@ -124,7 +124,7 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 - In studies where dysbiosis is reversed (dietary intervention, FMT, targeted probiotics), Oscillospiraceae reappear alongside improved barrier function and reduced inflammation.
 - **Lag time**: Recovery often takes weeks to months; slower than some faster-growing genera, reflecting tradeoff between fastidiousness and metabolic efficiency.
 
-## Therapeutic Strategies
+## Ecological Modulators
 
 ### Dietary Prebiotic Approaches
 
@@ -136,9 +136,9 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 
 - Combination probiotics pairing Oscillospiraceae isolates with fast-growers (Bifidobacterium, Lactobacillus) may improve colonization by providing more rapid butyrate production and pH reduction before Oscillospiraceae establish.
 
-### Anti-Dysbiosis Interventions
+### Dysbiosis Context
 
-- Reducing iron overload (phlebotomy in hemochromatosis, iron chelation in dysbiosis-associated iron accumulation) may indirectly support Oscillospiraceae recovery by reducing competitive advantage of iron-dependent pathogens.
+- Reducing bioavailable luminal iron removes a competitive advantage for iron-dependent pathogens, indirectly supporting Oscillospiraceae recovery.
 
 ## Connections
 

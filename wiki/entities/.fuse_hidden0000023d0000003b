@@ -33,7 +33,7 @@ The [[gut-brain-axis]] is now recognized as a major pathway through which enviro
 
 ### Altered Microbiome Composition
 
-Multiple 16S rRNA and shotgun metagenomic studies consistently find depletion of anti-inflammatory butyrate-producing genera [[Faecalibacterium prausnitzii]], [[Roseburia]], [[Coprococcus]], Anaerosstipes and enrichment of opportunistic taxa Proteobacteria, [[Lactobacillus]], [[Enterobacteriaceae]], Succinivibrio, [[Prevotella]] in schizophrenia patients relative to controls [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]]. First-episode drug-naive patients show lower alpha-diversity (Shannon index p = 1.21x10^-9) and significant beta-diversity separation [[yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia]].
+Multiple 16S rRNA and shotgun metagenomic studies consistently find depletion of anti-inflammatory butyrate-producing genera ([[Faecalibacterium prausnitzii]], [[Roseburia]], [[Coprococcus]], Anaerosstipes) and enrichment of opportunistic taxa (Proteobacteria, [[Lactobacillus]], [[Enterobacteriaceae]], Succinivibrio, [[Prevotella]]) in schizophrenia patients relative to controls [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]]. First-episode drug-naive patients show lower alpha-diversity (Shannon index p = 1.21x10^-9) and significant beta-diversity separation [[yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia]].
 
 ### Increased Gut Permeability
 
@@ -59,7 +59,7 @@ The [[immune-balance]] in schizophrenia is characterized by Th17/Treg skewing, w
 
 Beyond bacterial [[dysbiosis]], schizophrenia involves multi-kingdom microbial disruption:
 
-- **Mycobiome**: Enrichment of pathobionts (Trichosporon asahii, [[Candida albicans]], Malassezia) with depletion of beneficial species [[Saccharomyces cerevisiae]]; oral fungal dysbiosis with increased Malassezia and decreased Candida correlating with elevated IL-6 and TNF-alpha [[ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome]]
+- **Mycobiome**: Enrichment of pathobionts (Trichosporon asahii, [[Candida albicans]], Malassezia) with depletion of beneficial species ([[Saccharomyces cerevisiae]]); oral fungal dysbiosis with increased Malassezia and decreased Candida correlating with elevated IL-6 and TNF-alpha [[ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome]]
 - **Virome**: 124 vOTUs enriched in schizophrenia (mainly Siphoviridae and Flandersviridae); virome-based random forest classifier achieves 93.2% AUC for diagnosis, outperforming bacterial models [[ren-2025-gut-virome-schizophrenia-metagenomics]]
 - **Salivary/oral microbiome**: Drug-naive first-episode patients show higher alpha-diversity and H2S-producing bacteria enrichment with disease-stage-specific correlations
 

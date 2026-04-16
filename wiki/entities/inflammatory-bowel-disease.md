@@ -60,20 +60,7 @@ IBD patients have significantly increased [[cardiovascular-disease]] risk:
 - Shared mechanisms: chronic [[inflammation]], endothelial dysfunction, [[tmao]] elevation, [[dysbiosis]]-driven LPS translocation [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]].
 - [[calprotectin]] and CRP predict both IBD activity and CVD risk.
 
-## Therapeutic Approaches with Metal Relevance
-
-### Fecal Microbiota Transplantation
-- FMT shows evidence for UC remission maintenance and Crohn's disease response [[sokol-2020-fmt-remission-crohns-pilot-rct]].
-- Optimal FMT timing in CD: second FMT at week 4 improves clinical response vs later timing [[li-2019-timing-second-fmt-crohns]].
-- FMT restores SCFA-producing communities and may normalize metal handling by restoring barrier integrity.
-
-### Probiotics
-- Probiotics (VSL#3, E. coli Nissle 1917) have best evidence in UC maintenance; limited evidence in CD [[shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis]].
-- CRP reduction: OR 2.45 (95% CI: -5.16 to -1.73) with probiotic supplementation in IBD [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]].
-
-### Iron Management
-- IV iron preferred over oral iron in active IBD to avoid worsening dysbiosis.
-- Targeting [[hepcidin]] pathway may address the inflammation-anemia paradox.
+<!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 
 ## Key Sources
 

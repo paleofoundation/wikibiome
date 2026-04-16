@@ -61,7 +61,7 @@ This bidirectional relationship is the defining metallomic feature of CKD:
 
 ### Soil Metals Predict ESRD
 
-- In Taiwan's Changhua County (electroplating-contaminated), soil-based Factor 1 metals ([[chromium]], [[copper]], [[nickel]], [[zinc]]) associated with increased ESRD risk (aHR 1.08, p = 0.02) [[tsai-2018-heavy-metals-soil-ckd-progression-esrd]].
+- In Taiwan's Changhua County (electroplating-contaminated), soil-based Factor 1 metals [[chromium]], [[copper]], [[nickel]], [[zinc]] associated with increased ESRD risk (aHR 1.08, p = 0.02) [[tsai-2018-heavy-metals-soil-ckd-progression-esrd]].
 - Only Zn (aHR 1.08) and **Ni (aHR 1.08)** were individually significant risk factors for ESRD progression [[tsai-2018-heavy-metals-soil-ckd-progression-esrd]].
 - CKD patients progressing to ESRD had higher residential soil Cu, Ni, and Zn concentrations [[tsai-2018-heavy-metals-soil-ckd-progression-esrd]].
 - Groups of metals from shared contamination sources (electroplating industry) exert combined harm [[tsai-2018-heavy-metals-soil-ckd-progression-esrd]].

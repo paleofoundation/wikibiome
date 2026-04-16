@@ -104,23 +104,15 @@ Iron supplementation for postpartum anemia is standard care, and the evidence fo
 2. **Pathogen feeding**: Iron supplementation may feed siderophore-producing gut pathogens, potentially worsening postpartum dysbiosis. This concern parallels the endometriosis STOP on iron supplementation.
 3. **Functional vs. true anemia**: In some cases (as in endometriosis), low serum iron may represent hepcidin-mediated host defense rather than true deficiency. Whether this applies to postpartum anemia is unknown but worth investigating.
 
-The pragmatic resolution may be to supplement iron when ferritin is truly depleted (<30 ug/L) while simultaneously supplementing zinc at therapeutic doses (100 mg/day), potentially using IV iron to avoid gut-level competition.
+How the Fe-Zn interaction, ferritin thresholds, and hepcidin-mediated functional anemia should shape management is an active research question rather than a settled recommendation.
 
-## Current Interventions with Metal Relevance
+<!-- Intervention table with dose-specific recommendations moved to Cureva per public/clinical boundary -->
 
-| Intervention | Mechanism | Evidence Level |
-|-------------|-----------|----------------|
-| **Zinc supplementation (100 mg/day)** | Restores neurotransmitter balance; antioxidant defense; immune modulation | RCT-level (OR 0.249 for PPD) |
-| **Iron supplementation** | Corrects dopamine synthesis impairment; treats anemia | Meta-analysis supports (RR 1.887 for anemia-PPD link); RCT protocol registered |
-| **Combined Fe + Zn** | Addresses both depletions; IV Fe avoids gut-level Fe-Zn competition | Preliminary evidence |
-| **Smoking cessation** | Reduces Cd, Pb, Ni exposure | Strong rationale |
-| **Air pollution reduction** | Reduces traffic-derived metal exposure | Epidemiological evidence |
+## Open Research Questions
 
-## Open Questions
-
-1. **Optimal Zn dose and timing**: The 100 mg/day dose worked but 27 mg/day did not. What is the minimum effective dose? Should supplementation begin before delivery?
-2. **Fe-Zn interaction management**: How should clinicians co-administer iron and zinc to avoid competition? Is IV iron + oral Zn the optimal combination?
-3. **Copper monitoring**: Should elevated Cu or Cu/Zn ratio be screened as a PPD risk indicator alongside standard mood assessments?
+1. **Zn dose-response**: The 100 mg/day dose was effective while 27 mg/day was not — what is the minimum effective dose, and does pre-delivery timing matter?
+2. **Fe-Zn co-administration**: What combination (oral vs. IV iron, timing relative to zinc) minimizes gut-level competition?
+3. **Copper as risk marker**: Does elevated Cu or Cu/Zn ratio have screening utility as a PPD risk indicator?
 4. **Microbiome mediation**: Does postpartum dysbiosis (driven by antibiotic prophylaxis during cesarean + metal changes) mediate the metal-PPD relationship?
 5. **Environmental exposure windows**: Is first trimester exposure (when Rokoff found weak effects) less relevant than third trimester or peripartum exposure?
 6. **Functional vs. true iron deficiency**: Can hepcidin levels distinguish PPD patients who need iron supplementation from those who do not?
@@ -128,7 +120,7 @@ The pragmatic resolution may be to supplement iron when ferritin is truly deplet
 ## Connections
 
 - [[metal-disease-matrix]] -- Cross-disease metallomic comparison; PPD Zn depletion and Cu elevation mapped
-- [[zinc]] -- Strongest metal-PPD association; 100 mg/day supplementation dramatically reduces risk
+- [[zinc]] -- Strongest metal-PPD association; zinc depletion is the most replicated biochemical finding in PPD
 - [[iron]] -- Anemia-PPD link (RR 1.887); ferritin <1 ug = 3.98x risk; dopamine synthesis
 - [[copper]] -- Elevated in PPD; Cu/Zn ratio as risk marker
 - [[developmental-metal-vulnerability]] -- Pregnancy as a critical window for metal-driven disease

@@ -91,13 +91,7 @@ Gut virome composition predicts immunotherapy response with AUC 0.768 (outperfor
 
 Obesity increases PC risk (meta-analysis by Berrington et al. 2003), and diabetes confers significant additional risk (Huxley et al. 2005 meta-analysis: RR 1.82). Dietary fiber is protective (Wang et al. 2015 meta-analysis). Polyphenols -- particularly quercetin -- inhibit pancreatic cancer stem cell self-renewal and attenuate sonic hedgehog and beta-catenin signaling. These dietary factors operate partly through modulation of the [[gut-metal-microbiome]] and [[bile-acid-metabolism]].
 
-## Therapeutics
-
-- **Probiotics**: Ferrichrome from *Lactobacillus casei* induces p53-mediated apoptosis in PDAC cells including 5-FU-resistant lines; 10 mg/kg reduces xenograft tumor volume significantly. Connects to [[iron]] biology through siderophore-mediated metal chelation and [[ferroptosis]] pathways.
-- **Synbiotics RCT**: Maher et al. (2024) demonstrated synbiotics (probiotics + inulin) elevated CD8+ T cells to 61.5% (vs 15.8% placebo) and reduced postoperative bacteremia in a 90-patient RCT (NCT06199752).
-- **FMT**: Fecal microbiota transplantation from long-term PDAC survivors enhances anti-tumor immunity in preclinical models.
-- **Gallium-polyphenol nanoparticles**: LGG-loaded gallium-polyphenol constructs reprogram intratumoral microbiota and tumor immune microenvironment.
-- **Phage therapy**: Phage-based peptides show selective PDAC targeting in preclinical models.
+<!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 
 ## Connections
 

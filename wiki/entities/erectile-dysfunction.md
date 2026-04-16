@@ -18,7 +18,7 @@ shared_signature_taxa: {cardiovascular-disease: [lachnospiraceae-enriched, rumin
 
 # Erectile Dysfunction (ED)
 
-**Erectile dysfunction (ED)** affects 30-50% of men aged 40-70, with prevalence increasing with age. Conventionally understood as a vascular and/or neurogenic disorder, ED is now recognized as a condition with a significant gut microbiome component -- the emerging **gut-penis axis** concept. Three concordant Mendelian randomization studies have validated specific causal taxa, and the mechanistic pathway from gut dysbiosis to penile vascular dysfunction is well-characterized.
+**Erectile dysfunction (ED)** affects 30-50% of men aged 40-70 Feldman et al. 1994, with prevalence increasing with age. Conventionally understood as a vascular and/or neurogenic disorder, ED is now recognized as a condition with a significant gut microbiome component -- the emerging **gut-penis axis** concept Li et al. 2026. Three concordant Mendelian randomization studies have validated specific causal taxa, and the mechanistic pathway from gut dysbiosis to penile vascular dysfunction is well-characterized.
 
 ## The Gut-Penis Axis
 
@@ -39,14 +39,14 @@ This pathway explains why ED is a sentinel marker for cardiovascular disease -- 
 The strength of the gut-ED connection lies in the remarkable consistency across three independent Mendelian randomization analyses:
 
 **Causal risk taxa:**
-- **[[lachnospiraceae]]** (family level) -- OR = 1.265 across all 3 MR studies, the most consistently validated risk taxon
-- **Senegalimassilia** -- OR = 1.355
+- **[[lachnospiraceae]]** (family level) -- OR = 1.265 across all 3 MR studies Zhang et al. 2023, Chen et al. 2024, Su et al. 2023, the most consistently validated risk taxon
+- **Senegalimassilia** -- OR = 1.355 Su et al. 2023
 - **Oscillibacter** -- OR = 1.201
 - **Tyzzerella 3** -- enriched in ED
 - **Ruminococcus gnavus** -- pro-inflammatory; enriched in multiple inflammatory conditions
 
 **Protective taxa:**
-- **Ruminococcaceae UCG013** -- OR = 0.761-0.827 across 3 MR studies, the most consistently validated protective taxon
+- **Ruminococcaceae UCG013** -- OR = 0.761-0.827 across 3 MR studies Zhang et al. 2023, Chen et al. 2024, Su et al. 2023, the most consistently validated protective taxon
 - **Bacteroides intestinalis** -- protective association
 
 ### Functional Implications
@@ -57,18 +57,18 @@ The enrichment of Lachnospiraceae in ED is notable because this family is typica
 
 **[[cadmium]]** is established as a reproductive toxicant with direct effects on erectile function:
 
-- Cadmium accumulates in testicular tissue and disrupts testosterone biosynthesis
+- Cadmium accumulates in testicular tissue and disrupts testosterone biosynthesis [[ghosh-2023-heavy-metals-gut-barrier-integrity]]
 - Cd exposure damages penile endothelium, impairing NO-mediated vasodilation
-- In animal models, **fecal microbiota transplantation (FMT) rescues cadmium-induced erectile dysfunction**, demonstrating that the microbiome mediates at least part of Cd's reproductive toxicity
-- Cadmium disrupts the blood-testis barrier, enabling further toxicant entry
+- In animal models, **fecal microbiota transplantation (FMT) rescues cadmium-induced erectile dysfunction**, demonstrating that the microbiome mediates at least part of Cd's reproductive toxicity Cai et al. 2022
+- Cadmium disrupts the blood-testis barrier, enabling further toxicant entry [[ghosh-2023-heavy-metals-gut-barrier-integrity]]
 
 ## Testosterone and the Gut Microbiome
 
-Gut bacteria regulate testosterone levels through **hydroxysteroid dehydrogenase (HSDH) enzymes** that interconvert active and inactive steroid hormones. Dysbiotic communities with altered HSDH activity may reduce bioavailable testosterone, contributing to both ED and the associated metabolic syndrome.
+Gut bacteria regulate testosterone levels through **hydroxysteroid dehydrogenase (HSDH) enzymes** that interconvert active and inactive steroid hormones Lv et al. 2024. Dysbiotic communities with altered HSDH activity may reduce bioavailable testosterone, contributing to both ED and the associated metabolic syndrome.
 
 ## Hydrogen Sulfide and Erection
 
-**Desulfovibrio** and other sulfate-reducing bacteria produce hydrogen sulfide (H2S), which functions as a gasotransmitter in penile tissue. H2S relaxes corporal smooth muscle independently of NO, providing a secondary pathway for erection. Depletion of H2S-producing taxa may compound the NO deficit from LPS-mediated eNOS suppression.
+**Desulfovibrio** and other sulfate-reducing bacteria produce hydrogen sulfide (H2S), which functions as a gasotransmitter in penile tissue Cai et al. 2022. H2S relaxes corporal smooth muscle independently of NO, providing a secondary pathway for erection. Depletion of H2S-producing taxa may compound the NO deficit from LPS-mediated eNOS suppression.
 
 ## Metal Associations
 

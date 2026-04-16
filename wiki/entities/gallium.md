@@ -29,7 +29,7 @@ The antimicrobial strategy exploits a fundamental vulnerability in bacterial iro
 
 This is a direct application of the [[irving-williams-series|Irving-Williams]] and [[mis-metallation]] principles: when the wrong metal occupies an active site, the enzyme fails.
 
-## Therapeutic Applications
+## Pharmacological Applications
 
 - **Cefiderocol** -- FDA-approved 2019. A siderophore-cephalosporin conjugate that exploits bacterial iron transporters to bypass porin-mediated resistance. Active against carbapenem-resistant [[acinetobacter]], [[pseudomonas-aeruginosa]], and [[klebsiella-pneumoniae]] [[carvalho-2014-siderophores-trojan-horses-mdr]].
 - **Galbofloxacin** -- A gallium-siderophore-fluoroquinolone conjugate achieving **93 nM MIC against *S. aureus*** (vs. 920 nM for ciprofloxacin), a 10-fold improvement through targeted delivery [[pandey-2021-galbofloxacin-gallium-siderophore-staph]].

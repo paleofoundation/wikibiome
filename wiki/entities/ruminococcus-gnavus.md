@@ -111,7 +111,7 @@ A Gram-positive obligate anaerobe that has emerged as a **pro-inflammatory patho
  - Collectively degrade barrier proteins and mucins.
  - Produce pro-inflammatory metabolites and polysaccharides.
  - Overcome nutritional immunity by numerical dominance.
-- Reciprocal depletion of butyrate-producing commensals ([[faecalibacterium-prausnitzii]], [[roseburia]]) removes the main source of HDAC-inhibiting short-chain fatty acids that would otherwise suppress IL-17 production.
+- Reciprocal depletion of butyrate-producing commensals [[faecalibacterium-prausnitzii]], [[roseburia]] removes the main source of HDAC-inhibiting short-chain fatty acids that would otherwise suppress IL-17 production.
 
 ## Metabolic Features
 

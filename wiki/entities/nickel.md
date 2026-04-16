@@ -23,7 +23,7 @@ A transition metal occupying a **central position** in this wiki's evidence base
 ## Chemical Properties
 
 - Transition metal (element 28), most commonly found as Ni(II); atomic weight 58.69; five natural isotopes.
-- Similar ionic radius to Fe(II), allowing it to **substitute for iron** in enzyme active sites -- a key mechanism in its toxicity ([[hypoxic-signaling]], iron homeostasis disruption) [[salnikov-2008-metal-carcinogenesis]].
+- Similar ionic radius to Fe(II), allowing it to **substitute for iron** in enzyme active sites -- a key mechanism in its toxicity [[hypoxic-signaling]], iron homeostasis disruption [[salnikov-2008-metal-carcinogenesis]].
 - Forms coordination complexes with cysteine, histidine, glutamate, and lysine residues, enabling protein binding and enzyme inhibition [[genchi-2020-nickel-human-health-environmental-toxicology]].
 - Ubiquitous in environment from both natural processes and anthropogenic activities (fossil fuel combustion, fertilizers, industrial emissions); found in air, water, soil, sediment, and particulate matter [[liu-2025-cardiometabolic-nickel]].
 - Atmospheric levels range from 1-3 ng/m3 (rural) to 120-170 ng/m3 (industrialized areas); cigarette smoke contains 1.1-3.1 ug Ni per cigarette [[denkhaus-2002-nickel-essentiality-toxicity]], [[genchi-2020-nickel-human-health-environmental-toxicology]].

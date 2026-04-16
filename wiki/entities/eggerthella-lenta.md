@@ -66,7 +66,7 @@ Endometriosis is characterized by:
 ### Estrogen Feedback on Dysbiosis
 
 - **Elevated systemic estrogen** (driven by *E. lenta*-mediated estrogen reabsorption) perpetuates dysbiosis:
- - Estrogen is bacteriostatic to many commensals ([[faecalibacterium-prausnitzii]], [[bifidobacterium]]).
+ - Estrogen is bacteriostatic to many commensals [[faecalibacterium-prausnitzii]], [[bifidobacterium]].
  - Estrogen favors estrobolome members like *E. lenta*.
 - This creates a **vicious cycle**: *E. lenta* enrichment → increased estrogen reabsorption → higher systemic estrogen → further suppression of non-estrobolome commensals → *E. lenta* dominance solidifies.
 
@@ -118,7 +118,7 @@ Endometriosis is characterized by:
 ### Dysbiotic Enrichment Context
 
 - *E. lenta* enrichment is observed alongside [[prevotella-copri]], [[ruminococcus-gnavus]], and [[bacteroides-vulgatus]] in endometriosis microbiome profiles.
-- Depleted commensals ([[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], [[bifidobacterium]]) that would normally compete for ecological niches or produce anti-inflammatory metabolites are reduced.
+- Depleted commensals [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], [[bifidobacterium]] that would normally compete for ecological niches or produce anti-inflammatory metabolites are reduced.
 
 ## Molybdenum Metabolism
 

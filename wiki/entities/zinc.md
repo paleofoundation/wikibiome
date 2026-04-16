@@ -139,13 +139,7 @@ Higher dietary zinc (>14 mg/day) associated with 60% increased odds of endometri
 | Zn isotopes (delta-66/64-Zn) | Metalloprotein dysregulation | Novel biomarker: PDAC patients excrete isotopically light Zn |
 | Toenail Zn | Longer-term exposure | Dose-related positive association with BC in Black women |
 
-## Therapeutic Applications
-
-- **PPD prevention**: 100 mg/day zinc acetate for 4 days post-cesarean reduced PPD risk by 75% (OR 0.249) [[aoki-2022-zinc-supplementation-ppd-anemia]].
-- **ASD**: Prenatal zinc supplementation prevents VPA-induced ASD-like behaviors in mice; zinc enhances gut barrier function and reduces inflammation [[ogrady-2025-metal-dyshomeostasis-asd]].
-- **Liver cancer prevention**: Zinc supplementation may decrease risk of hepatocellular carcinoma [[sugimoto-2024-zinc-deficiency-cancer-review]].
-- **Gut barrier restoration**: Zinc supplementation reduces intestinal permeability, exerts anti-inflammatory effects, and promotes beneficial bacteria [[ogrady-2025-metal-dyshomeostasis-asd]].
-- **Caution**: Must be balanced against potential for MMP activation (endometriosis risk), amyloid-beta aggregation (AD), and iron absorption interference.
+<!-- Condition-paired clinical applications moved to Cureva -->
 
 ## Open Questions
 

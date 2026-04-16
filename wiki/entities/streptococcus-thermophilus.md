@@ -78,7 +78,7 @@ pathogenic_potential: commensal
 ### Colonic Effects
 
 - Lactic acid produced by *S. thermophilus* (and other lactic acid bacteria) **acidifies the colon**, lowering pH from ~7 toward 5.5–6.5
-- **Acidification creates selective pressure** favoring acid-tolerant commensals (Bifidobacteria, Lachnospiraceae) and inhibiting pathogens ([[clostridioides-difficile]], [[salmonella-typhimurium|salmonella]], pathogenic E. coli)
+- **Acidification creates selective pressure** favoring acid-tolerant commensals (Bifidobacteria, Lachnospiraceae) and inhibiting pathogens [[clostridioides-difficile]], [[salmonella-typhimurium|salmonella]], pathogenic E. coli
 - Enhanced colonic acidification also improves mineral absorption (especially calcium and magnesium)
 
 ## Anti-Inflammatory and Immunomodulatory Properties
@@ -100,7 +100,7 @@ pathogenic_potential: commensal
 
 ### Short-Chain Fatty Acid Complementarity
 
-- While *S. thermophilus* itself produces primarily lactate (not butyrate or propionate), it **creates acidic microenvironments** that favor butyrate-producing bacteria ([[faecalibacterium-prausnitzii]], [[roseburia]])
+- While *S. thermophilus* itself produces primarily lactate (not butyrate or propionate), it **creates acidic microenvironments** that favor butyrate-producing bacteria [[faecalibacterium-prausnitzii]], [[roseburia]]
 - **Cross-feeding dynamics**: Lactate produced by *S. thermophilus* is converted to propionate by [[veillonella]] and butyrate by [[clostridium]] cluster IV species
 - This creates a **metabolic network** where S. thermophilus plays an upstream role in SCFA production via ecological engineering
 
@@ -170,7 +170,7 @@ pathogenic_potential: commensal
 
 ### Cooperation with Butyrate Producers
 
-- Lactate produced by *S. thermophilus* is the preferred substrate for cross-feeding Lachnospiraceae ([[faecalibacterium-prausnitzii]], [[roseburia]])
+- Lactate produced by *S. thermophilus* is the preferred substrate for cross-feeding Lachnospiraceae [[faecalibacterium-prausnitzii]], [[roseburia]]
 - This is a **key ecosystem service**: S. thermophilus primes the environment for beneficial SCFA producer enrichment
 
 ## Detection and Quantification

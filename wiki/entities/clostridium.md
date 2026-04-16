@@ -54,7 +54,7 @@ A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming 
 - **Iron**: Ferredoxin iron-sulfur clusters are central to clostridial anaerobic metabolism and butyrate synthesis. Iron perturbation in the gut directly affects the metabolic output of beneficial species.
 - **Cobalt**: Some species require B12 (cobalamin) for key enzymatic reactions.
 - **Zinc**: Botulinum toxin is a Zn-metalloprotease; C. perfringens phospholipase C also requires metal cofactors.
-- Heavy metal stress ([[cadmium]], [[lead]]) preferentially depletes beneficial clostridial clusters while sparing spore-forming pathogenic species, shifting the genus balance toward virulence.
+- Heavy metal stress [[cadmium]], [[lead]] preferentially depletes beneficial clostridial clusters while sparing spore-forming pathogenic species, shifting the genus balance toward virulence.
 
 ## Key Metabolites
 

@@ -26,7 +26,7 @@ Depression is the most prevalent mental health disorder globally, affecting over
 The most robust metal-depression association. Serum zinc is consistently lower in depressed patients, with severity correlating inversely with zinc levels:
 - Zinc is required for NMDA receptor modulation, BDNF expression, and synaptic plasticity
 - Zinc deficiency increases [[inflammation]] (IL-6, TNF-alpha) and [[oxidative-stress]]
-- **Supplementation evidence:** Multiple RCTs show zinc (25-50 mg/day) augments SSRI response. Zinc monotherapy shows modest antidepressant effects in zinc-deficient populations.
+- Multiple RCTs have evaluated zinc as SSRI augmentation, with modest effects most pronounced in zinc-deficient populations.
 - Zinc also supports [[immune-balance]] (Treg function) and [[intestinal-permeability]] (tight junction integrity)
 
 ### Copper -- The Double-Edged Metal
@@ -78,15 +78,7 @@ Depression co-occurs with virtually every disease in this wiki, amplified by sha
 - [[Cardiovascular-disease]] -- shared lead exposure, inflammation, microbiome disruption
 - [[Hashimotos-thyroiditis]] -- selenium/iodine imbalance affects mood and thyroid together
 
-## Therapeutic Implications
-
-The metallomics lens suggests interventions beyond conventional antidepressants:
-- **Zinc supplementation** (25-50 mg as zinc picolinate or glycinate) as SSRI augmentation
-- **Iron repletion** when ferritin <30 ng/mL, even without anemia
-- **Cu/Zn ratio optimization** -- reducing copper excess while repleting zinc
-- **[[Probiotics]]** -- psychobiotics (Lactobacillus helveticus, Bifidobacterium longum) show modest antidepressant effects
-- **Anti-inflammatory approaches** -- addressing the metal-driven inflammation upstream
-- **Metal exposure reduction** -- occupational and dietary lead/cadmium avoidance
+<!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 
 ## Connections
 

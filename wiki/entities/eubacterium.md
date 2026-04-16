@@ -51,7 +51,7 @@ A genus of Gram-positive, obligate anaerobic bacteria within the Firmicutes phyl
 - Iron-sulfur clusters in ferredoxins and butyrate synthesis enzymes are essential for anaerobic metabolism.
 - Butyrate production pathway depends on intact Fe-S cluster function, making Eubacterium vulnerable to [[iron]] perturbation and heavy metal displacement.
 - [[cobalt]] is required for B12 synthesis in *E. hallii*, linking its metabolic capacity to trace metal availability in the [[gut-metal-microbiome]].
-- Heavy metal exposure ([[cadmium]], [[lead]]) depletes Eubacterium alongside other SCFA producers, reducing the colonic butyrate pool.
+- Heavy metal exposure [[cadmium]], [[lead]] depletes Eubacterium alongside other SCFA producers, reducing the colonic butyrate pool.
 
 ## Key Metabolites
 

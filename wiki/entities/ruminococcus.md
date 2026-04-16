@@ -25,7 +25,7 @@ A genus of Gram-positive, obligate anaerobic cocci within the Firmicutes phylum 
 
 ### R. bromii -- Keystone Starch Degrader
 - The **primary degrader of resistant starch** in the human colon, often called a "keystone species" because other bacteria depend on its initial breakdown of complex starches.
-- Initiates the trophic cascade: resistant starch -> R. bromii degradation -> oligosaccharides -> cross-feeding to butyrate producers ([[roseburia]], [[faecalibacterium-prausnitzii]]).
+- Initiates the trophic cascade: resistant starch -> R. bromii degradation -> oligosaccharides -> cross-feeding to butyrate producers [[roseburia]], [[faecalibacterium-prausnitzii]].
 - Its absence significantly reduces the community's capacity to ferment dietary fiber into [[short-chain-fatty-acids]].
 - Depleted by low-fiber Western diets and potentially by heavy metal stress.
 

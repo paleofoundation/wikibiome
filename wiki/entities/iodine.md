@@ -20,7 +20,7 @@ source_count: 4
 
 # Iodine (I)
 
-An essential halogen required for thyroid hormone synthesis (T3 and T4). The thyroid gland is the primary iodine-concentrating organ, containing 70-80% of total body iodine. Iodine occupies a unique position in the metallomics landscape: it is not a metal, but its interactions with metals ([[selenium]], [[iron]], [[cadmium]], [[mercury]]) and its effects on the gut microbiome place it squarely within the metal-microbiome-disease framework.
+An essential halogen required for thyroid hormone synthesis (T3 and T4). The thyroid gland is the primary iodine-concentrating organ, containing 70-80% of total body iodine. Iodine occupies a unique position in the metallomics landscape: it is not a metal, but its interactions with metals [[selenium]], [[iron]], [[cadmium]], [[mercury]] and its effects on the gut microbiome place it squarely within the metal-microbiome-disease framework.
 
 ## Chemical Properties
 
