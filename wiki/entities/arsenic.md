@@ -18,7 +18,7 @@ source_count: 1
 
 # Arsenic (As)
 
-A metalloid and potent carcinogen, primarily encountered through contaminated drinking water. Unlike [[nickel]] (epigenetic) and [[chromium]] (genotoxic), arsenic's carcinogenic mechanisms center on **increased cellular proliferation** and **epigenetic disruption**, while also acting as a powerful **cocarcinogen** through DNA repair inhibition.
+A metalloid and potent carcinogen (IARC Group 1), primarily encountered through contaminated drinking water [[salnikov-2008-metal-carcinogenesis]]. Unlike [[nickel]] (epigenetic) and [[chromium]] (genotoxic), arsenic's carcinogenic mechanisms center on **increased cellular proliferation** and **epigenetic disruption**, while also acting as a powerful **cocarcinogen** through DNA repair inhibition [[salnikov-2008-metal-carcinogenesis]].
 
 ## Chemical Forms
 
@@ -29,10 +29,12 @@ A metalloid and potent carcinogen, primarily encountered through contaminated dr
 
 ## Human Exposure
 
-- **Drinking water contamination** is the primary route — affects millions worldwide.
-- Also found in food, soil, and ambient particulate matter.
-- Cancers: skin, lung, bladder, kidney, liver.
-- **Very few animal models**: DMA^V causes rat urinary bladder cancer; arsenic-induced bladder cancer in mice is possible but difficult.
+- **Drinking water contamination** is the primary route — affects millions worldwide, with Bangladesh and West Bengal (India) representing the largest affected populations, and Chilean northern regions providing the clearest epidemiological exposure-cancer data (Smith et al. 2012; Argos et al. 2010).
+- Also found in food (especially [[rice]]) [[jackson-2012-arsenic-infant-formulas-first-foods]], soil, and ambient particulate matter.
+- Cancers: skin, lung, bladder, kidney, liver [[salnikov-2008-metal-carcinogenesis]].
+- **Chronic kidney disease of unknown cause (CKDu)** in agricultural communities: blood arsenic independently associated with CKDu in central India (OR 1.013, 95% CI 1.003-1.024), with surface water use as key risk factor [[atlani-2024-heavy-metals-ckdu-central-india]]. Parallel CKDu epidemics documented in Sri Lankan rice-farming regions [[mcdonough-2020-water-chemistry-microbiome-ckdu-sri-lanka]], [[pushpakumara-2025-lack-viral-etiology-ckdu-sri-lanka]].
+- **Gestational/in-utero exposure** alters the developing gut microbiome with persistent effects on offspring [[shukla-2023-arsenic-gut-bacteriome-utero-exposure]], [[dahan-2018-arsenic-alters-microbiome-larval-zebrafish]].
+- **Very few animal models**: DMA^V causes rat urinary bladder cancer; arsenic-induced bladder cancer in mice is possible but difficult [[salnikov-2008-metal-carcinogenesis]].
 
 ## Carcinogenic Mechanisms [[salnikov-2008-metal-carcinogenesis]]
 

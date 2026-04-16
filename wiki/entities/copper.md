@@ -44,6 +44,9 @@ Cu(I)/Cu(II) redox cycling generates hydroxyl radicals through Fenton-like chemi
 ### Cuproplasia
 Cu-dependent cell growth -- emerging concept in cancer biology. Elevated Cu supports tumor cell proliferation through epigenetic dysregulation, receptor tyrosine kinase signaling, PD-L1-mediated immune evasion, and altered cellular metabolism [[zhang-2022-metallomics-cancer-review]].
 
+### Cuproptosis
+A distinct copper-dependent regulated cell death mechanism in which excess Cu binds directly to lipoylated proteins in the mitochondrial tricarboxylic acid cycle, causing aggregation of lipoylated DLAT and loss of Fe-S cluster proteins. The key mediator is ferredoxin FDX1, which reduces Cu2+ to the more toxic Cu+. Cuproptosis is parallel to but mechanistically distinct from [[ferroptosis]], and is being actively explored as an anticancer target particularly in thyroid and colorectal malignancies (Tsvetkov et al. 2022; Wang et al. 2022).
+
 ### Metalloestrogen Activity
 Cu may have estrogen-like activity, contributing to endocrine disruption. In PCOS, high Cu concentrations could contribute to the release of luteinizing hormone and adrenocorticotropic hormone via pituitary effects [[jiang-2021-copper-pcos-meta-analysis]].
 
@@ -99,6 +102,13 @@ Cu has higher affinity for metallothionein than Zn, and elevated Cu can displace
 
 ### Type 2 Diabetes
 - Cu imbalance linked to cholesterol elevation and disrupted HDL/LDL. Cu deficiency leads to mitochondrial distortion in pancreatic acinar cells. Required for SOD catalytic activity [[khan-2014-metals-type2-diabetes]].
+
+### Fibromyalgia
+- Two-sample Mendelian randomization (n > 400,000) established a causal association between higher copper status and fibromyalgia risk (**OR = 1.095, p = 0.018**), with iron showing an inverse association (OR = 0.440, p = 0.012) [[zeng-2025-copper-iron-trace-elements-fibromyalgia-mr]].
+- No significant causal signal for Ca, Zn, Se, Mg, or folate in the same analysis, making Cu-Fe the dominant trace-element axis in fibromyalgia [[zeng-2025-copper-iron-trace-elements-fibromyalgia-mr]].
+
+### Schizophrenia
+- Elevated serum copper and disrupted Cu/Zn ratio have been repeatedly observed in schizophrenia patients, paralleling the inflammation/oxidative-stress signature seen in cancer and PCOS (Liu et al. 2015; Cao et al. 2019). Ceruloplasmin elevation as an acute-phase reactant confounds causal interpretation, but the Cu/Zn ratio tracks with illness severity and treatment response.
 
 ### IBD
 - Cu positively associated with CRP (beta = 2.548x10^2, p = 0.033) in Crohn's disease patients [[amerikanou-2022-ibd-biomarkers-trace-metals]].

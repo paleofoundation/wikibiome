@@ -43,7 +43,7 @@ Schizophrenia patients frequently present with fatigue, cognitive dulling, and b
 Three converging lines of evidence argue against iron supplementation in schizophrenia patients with active neuroinflammation:
 
 ### 1. Fenton Chemistry and Oxidative Damage
-Iron catalyzes Fenton reactions (Fe2+ + H2O2 → Fe3+ + OH- + OH-) generating hydroxyl radicals that damage dopaminergic neurons. Polyphenols' therapeutic benefit in schizophrenia derives partly from **iron chelation** — reducing iron-mediated oxidative stress. The therapeutic direction is iron restriction, not supplementation ([[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]]).
+Iron catalyzes Fenton reactions (Fe2+ + H2O2 → Fe3+ + OH- + OH-) generating hydroxyl radicals that damage dopaminergic neurons. Polyphenols' therapeutic benefit in schizophrenia derives partly from **iron chelation** — reducing iron-mediated oxidative stress. The therapeutic direction is iron restriction, not supplementation [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
 
 ### 2. Siderophore-Producing Pathobiont Bloom
 Enterobacteriaceae are significantly enriched in schizophrenia (systematic review of 30 studies, [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]]). These organisms produce siderophores for iron scavenging. Supplemental iron feeds this competitive advantage, worsening the dysbiotic bloom and increasing LPS production.
@@ -55,5 +55,5 @@ With 28% of schizophrenia patients showing elevated CRP (OR 1.5 for psychosis, [
 
 1. Measure CRP alongside iron panels. If CRP is elevated, interpret low serum iron as potential nutritional immunity.
 2. Consider [[lactoferrin]] supplementation — sequesters iron from pathogens while supporting host iron absorption through lactoferrin receptors.
-3. Consider polyphenol supplementation (curcumin, EGCG, quercetin) for therapeutic iron chelation ([[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]]).
+3. Consider polyphenol supplementation (curcumin, EGCG, quercetin) for therapeutic iron chelation [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
 4. Address the underlying inflammation driving the iron sequestration.

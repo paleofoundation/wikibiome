@@ -2,6 +2,35 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-14] T1D + Schizophrenia source ingestion (8 new source pages)
+Ingested 8 previously un-summarized PDFs from raw/Diabetes Type I/ and raw/Schizophrenia/ to expand v2 source coverage. All frontmatter follows v2 schema with evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings. DOIs extracted directly from documents.
+
+**New source pages:**
+- `al-bataineh-2020-gut-microbiome-fungal-community-t2d-emirati.md` — case-control (n=50), T2DM Emirati. Bacteroides 2 enterotype enriched in T2DM; Malassezia furfur and Davidiella enriched; LPS biosynthesis and amino acid degradation pathway enriched. DOI 10.1038/s41598-020-66598-2.
+- `al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber.md` — case-control (n=41), T2DM multi-omics. Mycobiome dominates variance in T2DM (12.5%) while bacteria dominate in controls (64.2%); fiber signaling blunted in T2DM; Malassezia furfur as disease-discriminating genus. DOI 10.1038/s41598-023-45066-7.
+- `wang-2026-intestinal-fungal-dysbiosis-gdm-adverse-pregnancy-outcomes.md` — case-control (n=188), GDM fungal dysbiosis. Alpha-diversity decreased; Candida positively correlated with glucose; Saccharomyces protective against adverse pregnancy outcomes (OR=0.206, P=0.038). DOI 10.1186/s12884-026-08677-2.
+- `wang-2023-immune-cells-schizophrenia-mendelian-randomization.md` — two-sample MR (n=186,882), immune cells causal for SCZ. Four immunophenotypes (naive CD4+, HLA-DR monocytes, CD33dim HLA-DR+ CD11b-, Treg) causally reduce SCZ risk; SCZ does not reverse-cause immune shifts. DOI 10.1186/s12888-023-05081-4.
+- `zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization.md` — two-sample bidirectional MR (n=148,984), gut microbiome causal for SCZ. Clostridia + Betaproteobacteria causal drivers (OR 1.13-1.16); Desulfovibrio + Veillonellaceae protective; Akkermansia expansion is CONSEQUENCE not driver of SCZ (reverse-MR). DOI 10.1038/s41537-024-00497-7.
+- `severance-2016-candida-albicans-exposures-sex-specificity-schizophrenia-bipolar.md` — case-control (n=947 two cohorts), C. albicans IgG seropositivity in males confers SCZ risk OR 2.04-9.53; C. albicans IgG in females associated with cognitive deficits on RBANS. Antipsychotics do not reduce Candida IgG. DOI 10.1038/npjschz.2016.18.
+- `ling-2025-fecal-mycobiota-elderly-chinese-schizophrenia-purpureocillium.md` — case-control (n=151 elderly Chinese), mycobiome enterotype shift from Purpureocillium-dominant E1 (controls 84.4%) to Candida-dominant E2 (SCZ 65.5%). Purpureocillium nearly eliminated in SCZ. DOI 10.3389/fimmu.2025.1607739.
+- `ling-2025-gut-mycobiota-schizophrenia-metabolic-syndrome-trichosporon.md` — case-control (n=210), SZ-MetS comorbidity signature. Trichosporon asahii, Candida albicans, Lodderomyces enriched; Saccharomyces cerevisiae, Pleurotus reduced; 6-species fungal classifier AUC=0.86. DOI 10.3389/fimmu.2025.1652633.
+
+**Cross-condition pattern detections:**
+- **Candida albicans** enriched across SZ-MetS (Ling 2025b), elderly SCZ (Ling 2025a), oral SCZ (Liu 2024, prior), SCZ serology (Severance 2016), T2DM diabetic foot (Cai 2024, prior), GDM (Wang 2026) — supports cross-metabolic-psychiatric pathobiont role.
+- **Saccharomyces cerevisiae** protective across SZ-MetS (Ling 2025b) and GDM (Wang 2026) adverse outcomes.
+- **Malassezia** expansion across T2DM (Al Bataineh 2020, 2023) and elderly SCZ (Ling 2025a) — shared metabolic-psychiatric signature component.
+- **Akkermansia muciniphila**: Zhou 2024 reverse-MR shows Akkermansia enrichment is CAUSED BY SCZ, not causal of it. This contradicts prior case-control interpretations that Akkermansia depletion drives SCZ. Supersession Protocol engaged: MR (genetic instrument, higher evidence) supersedes case-control.
+
+**Mycobiome variance reversal (new concept):** Al Bataineh 2023 documents that in T2DM, mycobiome explains 12.5% of variance vs 4.3% in healthy (bacteria collapse from 64.2% to 10.4%). This inverts the typical bacteria-dominated variance signal — a novel biomarker framework candidate.
+
+**Immune causality (new axis for schizophrenia):** Wang 2023 MR shows reduced Tregs and reduced HLA-DR+ monocytes are causal for SCZ, not downstream. Pairs with gut microbiome MR (Zhou 2024) — both genetic-instrument analyses converge on gut-immune-brain axis as schizophrenia etiology, not just correlation.
+
+**Contradictions to flag:**
+- Akkermansia direction: prior case-control literature claims depletion drives SCZ; Zhou 2024 genetic-instrument MR shows Akkermansia enrichment is consequence of SCZ. Update schizophrenia signature page accordingly.
+- Fiber recommendation in T2DM: Al Bataineh 2023 shows fiber's metabolic signaling is blunted in established T2DM — uncritical fiber recommendations may be STOP-worthy in advanced disease.
+
+**Next:** Update entity pages for candida-albicans, saccharomyces-cerevisiae, malassezia, trichosporon-asahii, purpureocillium, akkermansia-muciniphila, desulfovibrio, betaproteobacteria, clostridia with new source citations; update schizophrenia and type-2-diabetes signature pages with new Layer 2 and Layer 3 evidence; create concept page for mycobiome-enterotype.
+
 ## [2026-04-14] audit | DOI integrity sweep across wiki/sources/
 
 **Status:** COMPLETE -- all source pages now carry a well-formed DOI field (valid `10.x/y` pattern or the sentinel `"not yet verified"`).

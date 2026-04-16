@@ -4,7 +4,7 @@ title: Ferroptosis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, mishra-2022-molecular-mechanisms-heavy-metals-ckd, brylinski-2025-trace-elements-thyroid-diseases, scholefield-2024-brain-metallomics-dementia, balali-mood-2021-toxic-mechanisms-five-heavy-metals, zhang-2022-metallomics-cancer-review, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]
+sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, mishra-2022-molecular-mechanisms-heavy-metals-ckd, brylinski-2025-trace-elements-thyroid-diseases, scholefield-2024-brain-metallomics-dementia, balali-mood-2021-toxic-mechanisms-five-heavy-metals, zhang-2022-metallomics-cancer-review, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons, riederer-2021-iron-concert-master-parkinsons]
 tags: [ferroptosis, iron, lipid-peroxidation, cell-death, GPX4, Fenton-reaction, neurodegeneration, cancer, gut-pathology]
 platform: wikibiome
 ---
@@ -13,7 +13,7 @@ platform: wikibiome
 
 ## Definition
 
-Ferroptosis is a form of iron-dependent regulated cell death driven by the accumulation of lipid peroxides on cellular membranes. Unlike apoptosis or necrosis, ferroptosis requires iron, polyunsaturated fatty acid-containing phospholipids, and the failure of lipid peroxide repair systems -- particularly glutathione peroxidase 4 (GPX4). The term was coined in 2012, but the underlying biochemistry connects directly to long-established observations about iron-mediated oxidative damage via Fenton chemistry.
+Ferroptosis is a form of iron-dependent regulated cell death driven by the accumulation of lipid peroxides on cellular membranes [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]], [[riederer-2021-iron-concert-master-parkinsons]]. Unlike apoptosis or necrosis, ferroptosis requires iron, polyunsaturated fatty acid-containing phospholipids, and the failure of lipid peroxide repair systems -- particularly glutathione peroxidase 4 (GPX4) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]], [[brylinski-2025-trace-elements-thyroid-diseases]]. The term was coined by Dixon et al. in 2012, but the underlying biochemistry connects directly to long-established observations about iron-mediated oxidative damage via Fenton chemistry [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
 
 ## Core Biochemistry
 
@@ -27,7 +27,7 @@ These hydroxyl radicals attack polyunsaturated fatty acids (PUFAs) in cell membr
 
 ### GPX4: The Central Brake
 
-Glutathione peroxidase 4 (GPX4) is the primary enzyme that reduces lipid hydroperoxides to non-toxic lipid alcohols, using glutathione (GSH) as a cofactor. GPX4 is a selenoprotein (requiring selenium for catalytic activity), which connects ferroptosis vulnerability to selenium status. Loss of GPX4 function -- whether through genetic deletion, selenium deficiency, GSH depletion, or pharmacological inhibition -- removes the brake on ferroptotic death.
+Glutathione peroxidase 4 (GPX4) is the primary enzyme that reduces lipid hydroperoxides to non-toxic lipid alcohols, using glutathione (GSH) as a cofactor [[brylinski-2025-trace-elements-thyroid-diseases]]. GPX4 is a selenoprotein (requiring selenium for catalytic activity), which connects ferroptosis vulnerability to selenium status [[zhang-2022-metallomics-cancer-review]]. **Loss of GPX4 function** -- whether through genetic deletion, selenium deficiency, GSH depletion, or pharmacological inhibition -- removes the brake on ferroptotic death and is a critical trigger in tubular cells in CKD, dopaminergic neurons in Parkinson's disease, and several cancers [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]], [[riederer-2021-iron-concert-master-parkinsons]], [[brylinski-2025-trace-elements-thyroid-diseases]].
 
 ### Iron Homeostasis and Ferroptosis Susceptibility
 
@@ -39,7 +39,7 @@ The connection between iron, ferroptosis, and Parkinson's disease (PD) represent
 
 ### Substantia Nigra Iron Accumulation
 
-Iron accumulation in the substantia nigra (SN) is a hallmark of PD. Dopaminergic neurons in the SN are uniquely vulnerable because they contain neuromelanin -- a mixed polymer of eumelanin and pheomelanin components that normally sequesters redox-active iron. When neuromelanin's iron-binding capacity is exceeded or compromised, free iron catalyzes lipid peroxidation and ferroptotic cell death.
+Iron accumulation in the substantia nigra (SN) is a hallmark of PD — iron acts as the "concert master" coordinating age-dependent accumulation beyond normal aging [[riederer-2021-iron-concert-master-parkinsons]]. Dopaminergic neurons in the SN are uniquely vulnerable because they contain neuromelanin -- a mixed polymer of eumelanin and pheomelanin components that normally sequesters redox-active iron [[pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads]]. When neuromelanin's iron-binding capacity is exceeded or compromised, free iron catalyzes lipid peroxidation and ferroptotic cell death [[riederer-2021-iron-concert-master-parkinsons]], [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
 ### The Neuromelanin-Metal Hypothesis
 
@@ -70,7 +70,7 @@ Across multiple cancer types, copper is nearly universally elevated while seleni
 
 ## Ferroptosis in Kidney Disease
 
-In chronic kidney disease (CKD), iron-dependent phospholipid peroxidation in renal tubular cells represents a key pathological mechanism. GPX4 loss of function is a critical trigger, and iron-restricted diet has shown protective effects in animal models. As CKD progresses and GFR decreases, the ability to eliminate environmental toxicants declines, creating a vicious cycle of metal accumulation, further ferroptotic injury, and progressive kidney damage.
+In chronic kidney disease (CKD), iron-dependent phospholipid peroxidation in renal tubular cells represents a key pathological mechanism [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]. GPX4 loss of function is a critical trigger, and iron-restricted diet has shown protective effects in animal models [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]. As CKD progresses and GFR decreases, the ability to eliminate environmental toxicants declines, creating a vicious cycle of metal accumulation, further ferroptotic injury, and progressive kidney damage [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 
 ## Ferroptosis in Gut Pathology
 
@@ -100,6 +100,7 @@ Iron homeostasis in the intestinal epithelium directly influences ferroptotic su
 - [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 - [[zhang-2022-metallomics-cancer-review]]
 - [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]
+- [[riederer-2021-iron-concert-master-parkinsons]]
 
 ## Connections to Other Concepts
 

@@ -51,7 +51,7 @@ When Gram-negative LPS activates macrophages, IDO converts tryptophan to **kynur
 
 ## Zinc Is the Right Metal Intervention in MDD
 
-Unlike iron, **zinc** is consistently depleted in MDD, is not weaponized by Enterobacteriaceae, and has clinical trial evidence for antidepressant effect ([[zinc-supplementation]]). Zinc directly inhibits IDO activity and supports tryptophan → serotonin flux. The correct metal intervention in MDD is zinc (with magnesium and vitamin D), not iron.
+Unlike iron, **zinc** is consistently depleted in MDD, is not weaponized by Enterobacteriaceae, and has clinical trial evidence for antidepressant effect [[zinc-supplementation]]. Zinc directly inhibits IDO activity and supports tryptophan → serotonin flux. The correct metal intervention in MDD is zinc (with magnesium and vitamin D), not iron.
 
 ## Cross-Condition Pattern
 

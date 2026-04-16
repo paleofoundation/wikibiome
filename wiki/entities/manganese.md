@@ -26,6 +26,7 @@ An essential trace element with a narrow therapeutic window: required as a cofac
 - Accumulates preferentially in the **globus pallidus and striatum** of the basal ganglia, unlike most toxic metals that target cortical regions [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
 - Shares transport pathways with iron via DMT1 (divalent metal transporter 1), creating competitive absorption dynamics [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 - Essential cofactor for **Mn-SOD (SOD2)**, the primary mitochondrial antioxidant enzyme, and for **pyruvate carboxylase** in gluconeogenesis [[khan-2014-metals-type2-diabetes]].
+- Some bacterial SODs are **cambialistic** — able to function with either Mn or Fe at the active site — which gives pathogens like *Streptococcus pneumoniae* and *Staphylococcus aureus* metabolic flexibility under host-imposed metal restriction [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[martin-2022-manganese-homeostasis-stress-pathogenesis]].
 
 ## Sources of Exposure
 
@@ -89,7 +90,9 @@ Manganese neurotoxicity is the most thoroughly documented health effect and the 
 ## Role in Microbial Pathogenesis
 
 - **S. aureus** acquires Mn via MntABC and MntH transporters; Mn is critical for superoxide dismutase (SodA/SodM) activity and oxidative stress defense against host immune attack [[cassat-2012-metal-acquisition-staphylococcus-aureus]].
-- Host **calprotectin** (released by neutrophils) binds Mn and zinc to limit staphylococcal survival in abscesses -- a key mechanism of [[nutritional-immunity]] [[cassat-2012-metal-acquisition-staphylococcus-aureus]].
+- **PsaA permease competition**: In *Streptococcus pneumoniae*, zinc competitively inhibits manganese uptake through the PsaA permease (EC50 = 30.2 uM Zn at 1 uM Mn). This explains why host Zn flooding disables Mn-dependent pneumococcal defenses [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
+- **Mn excess causes Fur mis-metallation**: Elevated Mn occupies the Fe-sensing Fur (ferric uptake regulator) protein, causing iron import genes to remain repressed even when iron is needed. Unincorporated intracellular iron then generates toxic hydroxyl radicals via Fenton chemistry -- a non-obvious cascade linking Mn excess to oxidative stress [[martin-2022-manganese-homeostasis-stress-pathogenesis]].
+- Host **calprotectin** (S100A8/A9, released by neutrophils) binds Mn and zinc to limit staphylococcal survival in abscesses — a key mechanism of [[nutritional-immunity]] [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[bushman-2025-nutrient-metals-bacteria-gut-infection]], [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]].
 - Mn alterations in brain tissue of dementia patients connect to SOD2 cofactor function and mitochondrial antioxidant defense [[scholefield-2024-brain-metallomics-dementia]].
 
 ## Interactions with Other Metals

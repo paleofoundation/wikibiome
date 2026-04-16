@@ -18,12 +18,12 @@ source_count: 9
 
 # Cadmium (Cd)
 
-A toxic heavy metal with a biological half-life of 25-30 years in mammals. Cadmium is the 6th most-linked entity in this wiki, reflecting its pervasive relevance across disease systems. It is included as a comparator to [[nickel]], but its own toxicological profile -- spanning nephrotoxicity, endocrine disruption, carcinogenesis, and gut barrier destruction -- makes it a critical node in the metal-disease network.
+A toxic heavy metal (**IARC Group 1 carcinogen**) with a biological half-life of 12-30 years in mammals, primarily accumulating in the renal cortex via proximal tubular reabsorption of the Cd-metallothionein complex [[rasin-2025-cadmium-exposure-health-review]], [[tarhonska-2022-cadmium-breast-cancer-mechanisms]]. Cadmium is the 6th most-linked entity in this wiki, reflecting its pervasive relevance across disease systems. It is included as a comparator to [[nickel]], but its own toxicological profile -- spanning nephrotoxicity, endocrine disruption, carcinogenesis, and gut barrier destruction -- makes it a critical node in the metal-disease network.
 
 ## Exposure Sources
 
 - **Diet**: Shellfish, rice (especially from contaminated paddies), mushrooms, leafy vegetables, organ meats, cocoa. Diet accounts for ~90% of non-occupational exposure.
-- **Tobacco**: Cigarette smokers show 4-5x higher blood Cd levels; smoking is the single largest non-dietary source.
+- **Tobacco**: Cigarette smokers show 4-5x higher blood Cd levels; smoking is the single largest non-dietary source [[rasin-2025-cadmium-exposure-health-review]], [[tarhonska-2022-cadmium-breast-cancer-mechanisms]].
 - **Baby food contamination**: Commercial baby foods contain detectable Cd alongside [[nickel]], [[lead]], and [[arsenic]]. Multiple studies from Italy, Brazil, Lebanon, Germany, and Nigeria document Cd in infant formulas and vegetable-based baby foods [[pereira-2020-nickel-baby-foods]], [[meli-2024-chemical-characterization-baby-food-italy]], [[de-almeida-2022-toxic-metals-infant-formula-brazil]]. The developmental vulnerability window means infant exposure has disproportionate long-term consequences [[pendergrass-2026-age-window-vulnerability-vegetable-baby-foods]].
 - **Industrial**: Ni-Cd batteries, pigments, electroplating, phosphate fertilizers.
 - **Drinking water**: Regulated under the EU Drinking Water Directive at 5 ug/L [[eu-2020-drinking-water-directive]].
@@ -43,7 +43,7 @@ The vicious cycle:
 
 ## Metalloestrogen Activity (ERa Binding)
 
-Cadmium is the most potent known metalloestrogen. It binds [[estrogen-receptor]] alpha (ERa) with a dissociation constant (Kd) of approximately **4.5 x 10^-10 M**, near-equivalent to estradiol's affinity. This binding:
+Cadmium is the most potent known metalloestrogen. It binds [[estrogen-receptor]] alpha (ERa) with a dissociation constant (Kd) of approximately **4.5 x 10^-10 M** (picomolar affinity), near-equivalent to estradiol's affinity [[aquino-2012-cadmium-nickel-metalloestrogens]]. This binding:
 
 - Activates ER target genes (CycD1, c-myc, CTD) in breast cancer cell lines at concentrations as low as 1 uM [[aquino-2012-cadmium-nickel-metalloestrogens]]
 - Also activates the membrane-bound estrogen receptor GPR30/GPER, inducing proliferative responses via ERK-1/2 at 50-500 nM in ER-negative cells
@@ -56,7 +56,7 @@ Cadmium is the most potent known metalloestrogen. It binds [[estrogen-receptor]]
 
 Cd accumulates preferentially in the mammary gland. The Cd-breast cancer relationship involves multiple mechanisms beyond estrogenicity:
 
-- **Epigenetic**: Treatment of MCF-7 cells altered 997 genes by epigenetic modification, 400 associated with breast cancer; chronic exposure leads to global DNA hypomethylation
+- **Epigenetic**: Treatment of MCF-7 cells altered 997 genes by epigenetic modification, 400 associated with breast cancer; chronic exposure leads to global DNA hypomethylation [[tarhonska-2022-cadmium-breast-cancer-mechanisms]]
 - **Oxidative**: Cd inhibits DNA repair enzymes (hOGG1), disrupting NER and BER pathways
 - **Metallothionein**: MT overexpression predicts cancer progression and drug resistance
 - **miRNA**: miR-374c-5p inhibition, miR-30 downregulation (facilitating EMT), miR-21 upregulation (promoting proliferation) [[tarhonska-2022-cadmium-breast-cancer-mechanisms]]

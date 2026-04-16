@@ -40,7 +40,7 @@ Considered the most toxic heavy metal, mercury is purely toxic with no biologica
 ## Mechanism of Toxicity
 
 ### Thiol Binding and Glutathione Depletion
-Hg binds to GSH and sulfhydryl groups on proteins, depleting the cell's primary antioxidant defense. This is the foundational mechanism: Hg conjugates GSH, inhibits glutathione peroxidase, and disrupts the entire thiol-dependent antioxidant network [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
+Hg binds to GSH and sulfhydryl groups on proteins, depleting the cell's primary antioxidant defense. This is the foundational mechanism: Hg conjugates GSH, inhibits glutathione peroxidase, and disrupts the entire thiol-dependent antioxidant network [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
 
 ### Enzyme Inhibition
 Hg inactivates enzymes through thiol binding, disrupting critical metabolic pathways. Aquaporin mRNA is reduced, impairing water transport. Na+/H+ exchangers and aquaporin-1 are inhibited in kidney tubules [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
@@ -84,7 +84,7 @@ MeHg downregulates myelin basic protein (MBP) expression, contributing to axonal
 Hg can increase amyloid-beta production and reduce its clearance. However, fish consumption (the main MeHg source) also provides neuroprotective omega-3 fatty acids, creating a confounding challenge. Occupational mercury exposure studies show mixed results for dementia risk [[bakulski-2020-heavy-metals-alzheimers-dementias]], [[islam-2022-metal-toxicity-alzheimers-extensive-review]].
 
 ### Autism Spectrum Disorder
-Hg is elevated in blood, urine, hair, and teeth of ASD children. Key pathomechanisms include: (1) oxidative stress via GSH inhibition and ROS generation, (2) neuroinflammation through microglial activation, (3) axonal demyelination via MBP downregulation, and (4) competition with zinc for protein binding sites. Seven rodent studies confirm Hg causes intestinal barrier dysfunction, structural damage, gut inflammation, and microbiota dysbiosis [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]].
+Hg is elevated in blood, urine, hair, and teeth of ASD children [[blazewicz-2023-metal-profiles-asd]], [[zhou-2025-hair-heavy-metals-asd-severity]]. Deciduous (baby) teeth from ASD children show approximately 2-fold higher Hg than neurotypical controls, reflecting cumulative in-utero and early-life MeHg exposure (Adams et al. 2007; Palmer et al. 2006). Key pathomechanisms include: (1) oxidative stress via GSH inhibition and ROS generation, (2) neuroinflammation through microglial activation, (3) axonal demyelination via MBP downregulation, and (4) competition with zinc for protein binding sites. Seven rodent studies confirm Hg causes intestinal barrier dysfunction, structural damage, gut inflammation, and microbiota dysbiosis [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]].
 
 ### Chronic Kidney Disease
 Hg disrupts mitochondrial function and triggers oxidative stress in proximal tubule cells. CKD patients with reduced renal mass are at heightened susceptibility [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].

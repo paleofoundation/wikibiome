@@ -42,10 +42,10 @@ OC patients receiving platinum-based chemotherapy are immunocompromised and at r
 Two independent preclinical studies converge on the same conclusion: antibiotic-induced microbiome depletion actively worsens OC outcomes.
 
 ### 1. Increased Tumor Growth and Cisplatin Resistance (Hawkins 2022)
-Antibiotic-induced dysbiosis in OC models increased tumor growth AND enhanced cisplatin-induced stemness, enriching cancer stem cell populations. The gut microbiome is required for immune surveillance of OC stem cells. ABX depletes the protective metabolites indole-3-propionic acid (IPA) and indoxyl sulfate — both restored by FMT ([[hawkins-2022-antibiotics-microbiome-ovarian-cancer]]).
+Antibiotic-induced dysbiosis in OC models increased tumor growth AND enhanced cisplatin-induced stemness, enriching cancer stem cell populations. The gut microbiome is required for immune surveillance of OC stem cells. ABX depletes the protective metabolites indole-3-propionic acid (IPA) and indoxyl sulfate — both restored by FMT [[hawkins-2022-antibiotics-microbiome-ovarian-cancer]].
 
 ### 2. Abolished Chemosensitization (Tian 2026)
-Antibiotic depletion of gut microbiota abolished the chemosensitizing effects of Tripterygium glycosides, which work by inducing ferroptosis via Keap1-Nrf2-GPX4 axis inhibition. The microbiome is required for this drug to work ([[tian-2026-tripterygium-lactobacillus-cisplatin-ovarian-cancer]]).
+Antibiotic depletion of gut microbiota abolished the chemosensitizing effects of Tripterygium glycosides, which work by inducing ferroptosis via Keap1-Nrf2-GPX4 axis inhibition. The microbiome is required for this drug to work [[tian-2026-tripterygium-lactobacillus-cisplatin-ovarian-cancer]].
 
 ## Alternative Approach
 

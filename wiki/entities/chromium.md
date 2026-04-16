@@ -18,20 +18,21 @@ source_count: 1
 
 # Chromium (Cr)
 
-A transition metal whose hexavalent form, **Cr(VI)**, is a potent human carcinogen. Unlike [[nickel]] (epigenetic) and [[arsenic]] (proliferative/epigenetic), chromium's primary carcinogenic mechanism is **direct DNA damage** through Cr-DNA adducts, crosslinks, and strand breaks generated during intracellular Cr(VI) reduction.
+A transition metal whose hexavalent form, **Cr(VI)**, is a potent human carcinogen (IARC Group 1) [[salnikov-2008-metal-carcinogenesis]]. Unlike [[nickel]] (epigenetic) and [[arsenic]] (proliferative/epigenetic), chromium's primary carcinogenic mechanism is **direct DNA damage** through Cr-DNA adducts, crosslinks, and strand breaks generated during intracellular Cr(VI) reduction [[salnikov-2008-metal-carcinogenesis]].
 
 ## Chemical Forms
 
-- **Cr(VI)**: carcinogenic. Exists as chromate (CrO₄²⁻, 75%) and hydrochromate (HCrO₄⁻, 25%) at neutral pH.
-- **Cr(III)**: the end product of intracellular reduction. Previously considered an essential nutrient (glucose tolerance factor); this is now debated.
-- Cr(VI) enters cells via **sulfate channels** (molecular mimicry) — rapid, massive accumulation (10-20x in 3h, 100-fold+ in 24h).
+- **Cr(VI)**: carcinogenic. Exists as chromate (CrO₄²⁻, 75%) and hydrochromate (HCrO₄⁻, 25%) at neutral pH [[salnikov-2008-metal-carcinogenesis]].
+- **Cr(III)**: the end product of intracellular reduction. Previously considered an essential nutrient (glucose tolerance factor) with proposed insulin-sensitizing activity through chromodulin/low-molecular-weight chromium-binding substance (LMWCr) and insulin receptor tyrosine kinase amplification (Vincent 2010). **Insulin-sensitization claims are now widely debated**: the US Institute of Medicine reduced the adequate intake, EFSA concluded in 2014 that no essential function for Cr(III) could be established, and meta-analyses of Cr supplementation in T2D show inconsistent effects (Costello et al. 2016). Cr(III) is no longer classified as essential in the EU.
+- Cr(VI) enters cells via **sulfate channels** (molecular mimicry) — rapid, massive accumulation (10-20x in 3h, 100-fold+ in 24h) [[salnikov-2008-metal-carcinogenesis]].
 
 ## Human Exposure
 
-- **Occupational**: chromate production, stainless steel welding, chrome plating, ferrochrome manufacturing.
-- **Environmental**: contaminated drinking water. ~30% of US supplies at the time of the review had levels of concern.
-- Primarily causes **lung cancer** (squamous cell carcinoma) in chromate workers.
-- Epidemiological risks found to be **substantially higher than previously thought**, triggering regulatory revisions.
+- **Occupational**: chromate production, stainless steel welding, chrome plating, ferrochrome manufacturing [[salnikov-2008-metal-carcinogenesis]].
+- **Environmental**: contaminated drinking water. ~30% of US supplies at the time of the review had levels of concern [[salnikov-2008-metal-carcinogenesis]].
+- **Agricultural soil contamination**: Cr is elevated in urine and blood of CKD/CKDu patients in central India, with pesticide use and surface water consumption as key risk factors [[atlani-2024-heavy-metals-ckdu-central-india]]. Cr co-occurs with Cd and Pb in farm-soil-contaminated rural populations with elevated rheumatoid arthritis activity [[yang-2016-copper-farm-soils-rheumatoid-arthritis]].
+- Primarily causes **lung cancer** (squamous cell carcinoma) in chromate workers [[salnikov-2008-metal-carcinogenesis]].
+- Epidemiological risks found to be **substantially higher than previously thought**, triggering regulatory revisions [[salnikov-2008-metal-carcinogenesis]].
 
 ## Carcinogenic Mechanisms [[salnikov-2008-metal-carcinogenesis]]
 

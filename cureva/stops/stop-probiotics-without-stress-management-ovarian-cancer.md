@@ -26,7 +26,7 @@ Emerging evidence supports probiotics for anti-tumor immune modulation. A practi
 
 ## Why This May Be Ineffective
 
-E. coli Nissle 1917 (EcN) reduced OC tumor burden in unstressed mice through TLR-4 downregulation and IL-23 upregulation. But in chronically stressed mice, EcN had **no effect on tumor burden** ([[al-natsheh-2022-stress-probiotics-ovarian-cancer-thesis]]).
+E. coli Nissle 1917 (EcN) reduced OC tumor burden in unstressed mice through TLR-4 downregulation and IL-23 upregulation. But in chronically stressed mice, EcN had **no effect on tumor burden** [[al-natsheh-2022-stress-probiotics-ovarian-cancer-thesis]].
 
 Chronic stress produces cortisol that:
 1. Disrupts the gut microbiome independently of the probiotic

@@ -33,7 +33,7 @@ L. rhamnosus GG + B. animalis Bb12 (14 weeks): **No significant effect on PANSS*
 
 ### Validated Strains
 Multi-strain formulations containing **L. acidophilus, B. bifidum, L. reuteri, L. fermentum** showed:
-- PANSS total -5.38 (p = 0.001) across 10 RCTs ([[ye-2025-gut-microbiota-interventions-schizophrenia-systematic-review-meta-analysis]])
+- PANSS total -5.38 (p = 0.001) across 10 RCTs [[ye-2025-gut-microbiota-interventions-schizophrenia-systematic-review-meta-analysis]]
 - PANSS total -7.4 vs -1.9 (p = 0.01) combined with vitamin D ([[ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct]], RCT, n=60)
 - Significant metabolic improvement (glucose, insulin, CRP, oxidative stress)
 
@@ -43,7 +43,7 @@ Different probiotic strains occupy different ecological niches and produce diffe
 
 ## What To Do Instead
 
-1. Use validated multi-strain formulations: 12-strain synbiotic ([[multi-strain-synbiotic-schizophrenia]]) or 4-strain + vitamin D ([[vitamin-d-probiotic-schizophrenia]])
+1. Use validated multi-strain formulations: 12-strain synbiotic [[multi-strain-synbiotic-schizophrenia]] or 4-strain + vitamin D [[vitamin-d-probiotic-schizophrenia]]
 2. Ensure the formulation includes L. acidophilus and B. bifidum at minimum
 3. Consider combination with vitamin D3 (50,000 IU biweekly) given 85% deficiency rate in schizophrenia
 4. Minimum 8-12 week trial duration

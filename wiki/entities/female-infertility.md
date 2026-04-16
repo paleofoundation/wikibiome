@@ -4,8 +4,8 @@ type: entity
 subtype: disease
 created: 2026-04-15
 updated: 2026-04-15
-sources: [fo-2024-gut-microbiota-ovarian-stimulation-response-metagenomics.md, jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency.md, wu-2021-premature-ovarian-insufficiency-gut-microbiota.md, huang-2024-fmt-pcos-metabolic-ovarian-dysfunction.md, kim-2026-estropausal-fmt-ovarian-function-rejuvenation.md, ding-2024-bile-acids-follicular-fluid-ovarian-reserve.md]
-source_count: 6
+sources: [fo-2024-gut-microbiota-ovarian-stimulation-response-metagenomics.md, jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency.md, wu-2021-premature-ovarian-insufficiency-gut-microbiota.md, huang-2024-fmt-pcos-metabolic-ovarian-dysfunction.md, kim-2026-estropausal-fmt-ovarian-function-rejuvenation.md, ding-2024-bile-acids-follicular-fluid-ovarian-reserve.md, lee-2020-female-infertility-blood-lead-cadmium.md, lei-2015-infertility-lead-cadmium-arsenic-taiwan.md, lin-2023-heavy-metals-infertility-nhanes.md, aquino-2012-cadmium-nickel-metalloestrogens.md, genchi-2020-cadmium-toxicity.md, rasin-2025-cadmium-exposure-health-review.md, zheng-2024-bacteria-phages-vaginal-pcos-obesity-shotgun.md]
+source_count: 13
 tags: [female-infertility, estrobolome, PCOS, premature-ovarian-insufficiency, IVF, beta-glucuronidase, eggerthella, bile-acids, gut-ovarian-axis, cadmium, lead]
 platform: wikibiome
 last_substantive_update: 2026-04-15
@@ -18,7 +18,7 @@ wikipedia_differentiation: "Gut-ovarian axis concept showing causal microbiome-t
 
 # Female Infertility
 
-Affects approximately 48 million women worldwide. From a microbiome-metallomics perspective, female infertility sits at the intersection of the **estrobolome** (microbial estrogen metabolism), **heavy metal reproductive toxicity** (Cd, Pb as endocrine disruptors), and an emerging concept: the **gut-ovarian axis** — direct causal links between gut microbiome composition and ovarian function.
+Affects approximately **48 million women worldwide** (WHO global infertility prevalence estimates). From a microbiome-metallomics perspective, female infertility sits at the intersection of the **estrobolome** (microbial estrogen metabolism), **heavy metal reproductive toxicity** (Cd, Pb as endocrine disruptors) [[lee-2020-female-infertility-blood-lead-cadmium]], [[lin-2023-heavy-metals-infertility-nhanes]], and an emerging concept: the **gut-ovarian axis** — direct causal links between gut microbiome composition and ovarian function [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]], [[kim-2026-estropausal-fmt-ovarian-function-rejuvenation]].
 
 ## The Gut-Ovarian Axis
 
@@ -33,10 +33,10 @@ Three independent lines of evidence establish causal microbiome-to-ovarian links
 ## Estrobolome Connection
 
 **[[Eggerthella lenta]]** is the critical organism linking gut dysbiosis to ovarian disease:
-- Enriched in premature ovarian insufficiency (POI) [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
-- Eggerthella is a known **beta-glucuronidase producer** — deconjugates estrogen metabolites, driving estrogen recirculation
-- Eggerthella lenta **caused ovarian fibrosis** in mouse models; estrogen treatment ameliorated it
-- HRT reversed both the dysbiosis and the ovarian fibrosis
+- Enriched in premature ovarian insufficiency (POI) [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]], [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]]
+- Eggerthella is a known **beta-glucuronidase producer** — deconjugates estrogen metabolites, driving estrogen recirculation [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
+- Eggerthella lenta **caused ovarian fibrosis** in mouse models; estrogen treatment ameliorated it [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
+- HRT reversed both the dysbiosis and the ovarian fibrosis [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
 
 ## Premature Ovarian Insufficiency (POI)
 
@@ -54,10 +54,18 @@ Bile acids produced by gut bacteria are measurable in follicular fluid and deple
 ## Metal Connections
 
 Female reproductive tissues are uniquely vulnerable to metalloestrogens:
-- **[[Cadmium]]** binds ERalpha at picomolar concentrations; accumulates in ovarian tissue over decades (half-life 12-30 years)
-- **[[Lead]]** disrupts hypothalamic-pituitary-ovarian axis; associated with reduced fertility in epidemiological studies
-- **[[Nickel]]** binds ERalpha noncompetitively; epigenetic carcinogenesis
-- Multiple NHANES studies link heavy metal mixtures to female infertility risk (PDFs awaiting ingest)
+- **[[Cadmium]]** binds ERalpha at picomolar concentrations; accumulates in ovarian tissue over decades (**half-life 12-30 years** in the human body) [[aquino-2012-cadmium-nickel-metalloestrogens]], [[genchi-2020-cadmium-toxicity]], [[rasin-2025-cadmium-exposure-health-review]]
+- **[[Lead]]** disrupts hypothalamic-pituitary-ovarian axis; associated with reduced fertility in epidemiological studies [[lee-2020-female-infertility-blood-lead-cadmium]], [[lei-2015-infertility-lead-cadmium-arsenic-taiwan]]
+- **[[Nickel]]** binds ERalpha noncompetitively; epigenetic carcinogenesis [[aquino-2012-cadmium-nickel-metalloestrogens]]
+- NHANES analyses link heavy metal mixtures (Cd, Pb, As, Hg) to elevated female infertility risk in US population-level data [[lin-2023-heavy-metals-infertility-nhanes]]
+
+## Vaginal and Endometrial Microbiome
+
+Beyond the gut, the reproductive tract itself harbors microbial communities that influence fertility. **Lactobacillus-dominant** vaginal communities (particularly *L. crispatus*) correlate with successful conception and implantation, while dysbiotic communities (bacterial vaginosis-associated taxa such as Gardnerella, Atopobium, Prevotella) are associated with reduced IVF success, recurrent implantation failure, and early pregnancy loss. Shotgun metagenomics in PCOS patients shows parallel vaginal dysbiosis — reduced Lactobacillus with enriched anaerobes and altered phageome composition [[zheng-2024-bacteria-phages-vaginal-pcos-obesity-shotgun]]. The endometrial microbiome, historically assumed sterile, hosts a low-biomass community whose composition at embryo transfer may predict live birth — a rapidly evolving field where WikiBiome will track emerging signatures.
+
+## Environmental Exposures
+
+Dietary cadmium (leafy greens, shellfish, offal, cocoa grown on contaminated soil) and occupational/ambient lead exposure (water infrastructure, dust, tobacco smoke) are the dominant non-occupational routes in women of reproductive age [[genchi-2020-cadmium-toxicity]], [[rasin-2025-cadmium-exposure-health-review]]. Because cadmium has a **12-30 year biological half-life**, fertility risk reflects *cumulative* exposure across the premenarchal and reproductive years, not point-in-time serum levels — a critical distinction for interpreting biomarker studies. Smoking doubles body cadmium burden and is among the strongest modifiable fertility risk factors in epidemiological analyses [[lee-2020-female-infertility-blood-lead-cadmium]].
 
 ## Open Questions
 

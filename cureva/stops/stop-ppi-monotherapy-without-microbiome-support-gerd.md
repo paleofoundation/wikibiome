@@ -39,13 +39,13 @@ karen_brain_primitives: [5, 6]
 PPIs improve esophageal inflammation (IL-6 ↓38%, IL-8 ↓41%, NF-kB ↓29%) but simultaneously:
 
 1. **Worsen gut bacterial dysbiosis** — increase Enterobacteriaceae, Staphylococcaceae; deplete Bifidobacteriaceae, Ruminococcaceae, Lachnospiraceae
-2. **Promote gastric Candida colonization** — 96.9% detection rate; Candida significantly increases with both short and long-term PPI ([[shi-2023-ppi-fungal-dysbiosis-gerd]])
-3. **Leave esophageal dysbiosis untreated** — PPI does NOT change esophageal or oropharyngeal microbial composition despite reducing inflammatory markers ([[park-2020-nerd-treatment-esophageal-microbiome]])
+2. **Promote gastric Candida colonization** — 96.9% detection rate; Candida significantly increases with both short and long-term PPI [[shi-2023-ppi-fungal-dysbiosis-gerd]]
+3. **Leave esophageal dysbiosis untreated** — PPI does NOT change esophageal or oropharyngeal microbial composition despite reducing inflammatory markers [[park-2020-nerd-treatment-esophageal-microbiome]]
 4. **Create infection risk** — increased C. difficile, Campylobacter, Shigella, Salmonella; SIBO
 
 ## The Evidence for Co-Administration
 
-In children: PPI + probiotics → 6.2% dysbiosis vs. PPI + placebo → 56.2% dysbiosis. In adults: probiotics + PPI significantly restored Bifidobacterium (6.3→9.2 lgCFU/g), reduced CRP (P=0.0486), and reduced adverse reactions from 16.6% to 6.6% ([[yin-2025-probiotics-ppi-gerd-rct]]).
+In children: PPI + probiotics → 6.2% dysbiosis vs. PPI + placebo → 56.2% dysbiosis. In adults: probiotics + PPI significantly restored Bifidobacterium (6.3→9.2 lgCFU/g), reduced CRP (P=0.0486), and reduced adverse reactions from 16.6% to 6.6% [[yin-2025-probiotics-ppi-gerd-rct]].
 
 ## Alternative Approach
 

@@ -18,7 +18,7 @@ source_count: 6
 
 # Molybdenum (Mo)
 
-An essential trace element that serves as a cofactor for a small but critical family of enzymes -- the molybdoenzymes -- involved in purine catabolism, sulfite detoxification, and aldehyde metabolism. Molybdenum appears in this wiki primarily through two findings: an **inverse association with breast cancer risk** in the largest prospective study of metals and breast cancer, and **lower levels in PCOS patients** in the first study to examine Mo in that condition.
+An essential trace element that serves as a cofactor for a small but critical family of enzymes -- the molybdoenzymes -- involved in purine catabolism, sulfite detoxification, and aldehyde metabolism [[smovrsnik-2025-trace-elements-pcos]]. Molybdenum appears in this wiki primarily through two findings: an **inverse association with breast cancer risk** in the largest prospective study of metals and breast cancer [[niehoff-2021-metals-breast-cancer-toenail]], and **lower levels in PCOS patients** in the first study to examine Mo in that condition [[smovrsnik-2025-trace-elements-pcos]]. **Preterm mothers** show reduced Mo status alongside other trace-element deficiencies, suggesting molybdenum adequacy may play a role in pregnancy outcomes (Al-Saleh et al. 2004; Hansen et al. 2017).
 
 ## Chemical Properties
 
@@ -39,10 +39,12 @@ An essential trace element that serves as a cofactor for a small but critical fa
 | Enzyme | Function | Clinical Relevance |
 |---|---|---|
 | **Xanthine oxidase (XO)** | Catalyzes hypoxanthine --> xanthine --> uric acid; generates superoxide and H2O2 as byproducts | Gout (uric acid accumulation); [[oxidative-stress]] source; target of allopurinol |
-| **Sulfite oxidase** | Oxidizes sulfite (SO3 2-) to sulfate (SO4 2-); detoxifies dietary and endogenous sulfite | Sulfite sensitivity; Moco deficiency causes toxic sulfite accumulation |
+| **Sulfite oxidase** | Oxidizes sulfite (SO3 2-) to sulfate (SO4 2-); detoxifies dietary and endogenous sulfite [[smovrsnik-2025-trace-elements-pcos]] | Sulfite sensitivity; isolated sulfite oxidase deficiency and Moco deficiency cause toxic sulfite accumulation, neurological damage, and early death (Schwarz et al. 2009) |
 | **Aldehyde oxidase** | Oxidizes aromatic and aliphatic aldehydes; metabolizes drugs and xenobiotics | Drug metabolism (affects bioavailability of some pharmaceuticals) |
 
 Xanthine oxidase is particularly relevant to this wiki because it is both a Mo-dependent enzyme and a significant endogenous source of ROS (superoxide and H2O2), connecting molybdenum status to [[oxidative-stress]] [[smovrsnik-2025-trace-elements-pcos]].
+
+**Bacterial nitrate reductase** and related Mo-dependent enzymes (formate dehydrogenase, DMSO reductase) enable anaerobic respiration in enteric pathogens such as *E. coli* and *Salmonella*. In the inflamed gut, host-derived nitrate from nitric oxide oxidation is exploited by Enterobacteriaceae via these Mo-dependent enzymes to outcompete obligate anaerobe commensals — a key mechanism of dysbiotic bloom (Winter et al. 2013; Lopez et al. 2015).
 
 ## Health Effects
 

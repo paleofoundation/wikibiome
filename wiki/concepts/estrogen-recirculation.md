@@ -4,7 +4,7 @@ title: "Estrogen Recirculation"
 type: concept
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [uzuner-2023-bidirectional-relationship-endometriosis-microbiome.md, wu-2024-estrogens-androgens-microbiota-crc.md, zim-2025-estrogen-gut-brain-axis-oral-contraceptives.md]
 tags: [estrobolome, estrogen-metabolism, enterohepatic-circulation, hormone-biology]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
 platform: wikibiome
@@ -12,7 +12,7 @@ platform: wikibiome
 
 ## Overview
 
-**Estrogen recirculation** is the recycling loop by which conjugated estrogens excreted in bile are deconjugated by gut bacterial [[beta-glucuronidase]], reabsorbed across the intestinal epithelium, and returned to systemic circulation. This process, driven by the **estrobolome** (estrogen-metabolizing bacterial community), effectively amplifies circulating estrogen levels and duration. Dysbiosis-induced overgrowth of high-glucuronidase taxa (especially [[escherichia-coli]] and [[bacteroides-fragilis]]) hyperactivates this loop, driving estrogen-dependent diseases including [[endometriosis]], [[breast-cancer]], and [[pcos]].
+**Estrogen recirculation** is the recycling loop by which conjugated estrogens excreted in bile are deconjugated by gut bacterial [[beta-glucuronidase]], reabsorbed across the intestinal epithelium, and returned to systemic circulation [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]], [[wu-2024-estrogens-androgens-microbiota-crc]]. This process, driven by the **estrobolome** (estrogen-metabolizing bacterial community), effectively amplifies circulating estrogen levels and duration [[zim-2025-estrogen-gut-brain-axis-oral-contraceptives]]. Dysbiosis-induced overgrowth of high-glucuronidase taxa — including [[escherichia-coli]], [[bacteroides-fragilis]], *Bifidobacterium*, *Lactobacillus*, and the genus ***Eggerthella*** (notably *E. lenta*, one of the most potent deconjugators in the human gut, Plottel & Blaser 2011; Ervin et al. 2019) — hyperactivates this loop, driving estrogen-dependent diseases including [[endometriosis]], [[breast-cancer]], and [[pcos]] [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]], [[wu-2024-estrogens-androgens-microbiota-crc]].
 
 This exemplifies [[primitive-7|primitive-7-estrobolome]]: the bacterial metabolic capacity to recirculate hormones is a controllable lever in hormone-dependent disease.
 
@@ -24,7 +24,7 @@ This exemplifies [[primitive-7|primitive-7-estrobolome]]: the bacterial metaboli
 
 2. **Biliary secretion**: E2-G and E1-G flow into the small intestine via the common bile duct.
 
-3. **Bacterial deconjugation**: Colonic [[beta-glucuronidase]] (β-glucuronidase) from dysbiotic taxa cleaves the glucuronide bond, regenerating free **estradiol** and **estrone**. This is the rate-limiting step controlled by microbial abundance.
+3. **Bacterial deconjugation**: Colonic [[beta-glucuronidase]] (β-glucuronidase) from dysbiotic taxa cleaves the glucuronide bond, regenerating free **estradiol** and **estrone**. This is the rate-limiting step controlled by microbial abundance [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]], [[wu-2024-estrogens-androgens-microbiota-crc]].
 
 4. **Intestinal reabsorption**: Free estrogens passively diffuse across the intestinal epithelium, especially in the colon where permeability is high.
 
@@ -32,15 +32,15 @@ This exemplifies [[primitive-7|primitive-7-estrobolome]]: the bacterial metaboli
 
 6. **Tissue re-uptake**: Estrogen-responsive tissues (uterus, breast, ovaries, adipose) upregulate estrogen receptor expression in response to sustained high circulating levels.
 
-**The dysbiotic amplification**: In healthy microbiota, [[lachnospiraceae]], [[faecalibacterium-prausnitzii]], and other commensals have *low* glucuronidase activity. Dysbiotic overgrowth of high-glucuronidase [[escherichia-coli]] and [[bacteroides-fragilis]] can increase β-glucuronidase activity 100-fold, creating a hyperactive recirculation loop.
+**The dysbiotic amplification**: In healthy microbiota, [[lachnospiraceae]], [[faecalibacterium-prausnitzii]], and other commensals have *low* glucuronidase activity. Dysbiotic overgrowth of high-glucuronidase [[escherichia-coli]], [[bacteroides-fragilis]], and *Eggerthella lenta* can increase β-glucuronidase activity up to 100-fold, creating a hyperactive recirculation loop [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]] (Ervin et al. 2019).
 
 ## Role in Disease
 
 Estrogen recirculation is mechanistically linked to:
 
-- **[[endometriosis]]** — Amplified local estrogen via high β-glucuronidase in dysbiotic microbiota; sustained estrogen drives ectopic endometrial growth and inflammation.
-- **[[breast-cancer]]** — Elevated systemic estrogen from hyperactive recirculation is a major risk factor; estrogen promotes proliferation of ER+ tumor cells.
-- **[[pcos]]** — Elevated androgens + recirculated estrogen drive irregular ovulation and metabolic dysfunction.
+- **[[endometriosis]]** — Amplified local estrogen via high β-glucuronidase in dysbiotic microbiota; sustained estrogen drives ectopic endometrial growth and inflammation [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]].
+- **[[breast-cancer]]** — Elevated systemic estrogen from hyperactive recirculation is a major risk factor; estrogen promotes proliferation of ER+ tumor cells. *Eggerthella*, *Bacteroides*, and *Escherichia* enrichment correlate with breast cancer incidence through the estrobolome mechanism (Plottel & Blaser 2011; Kwa et al. 2016) [[wu-2024-estrogens-androgens-microbiota-crc]].
+- **[[pcos]]** — Elevated androgens + recirculated estrogen drive irregular ovulation and metabolic dysfunction [[zim-2025-estrogen-gut-brain-axis-oral-contraceptives]].
 - **[[uterine-fibroids]]** — Estrogen-driven smooth muscle proliferation amplified by dysbiotic recirculation.
 - **[[menstrual-migraine]]** — Estrogen fluctuations trigger migraine; dysbiotic recirculation flattens normal cycle dynamics and shifts trigger thresholds.
 

@@ -38,7 +38,10 @@ A purely toxic heavy metal with no known biological function. Lead is the most e
 ## Mechanism of Toxicity
 
 ### Calcium Mimicry
-Lead competes with Ca2+ for binding sites on channels, transporters, and intracellular proteins. This disrupts neurotransmitter release (GABA, glutamate), cell adhesion, signal transduction, protein folding, and apoptosis [[jaishankar-2014-heavy-metal-toxicity-mechanisms]], [[tizabi-2023-lead-gut-microbiota-asd]].
+Lead competes with Ca2+ for binding sites on channels, transporters, and intracellular proteins, disrupting neurotransmitter release at GABA and glutamate receptors, cell adhesion, signal transduction, protein folding, and apoptosis [[jaishankar-2014-heavy-metal-toxicity-mechanisms]], [[tizabi-2023-lead-gut-microbiota-asd]].
+
+### DMT1-Mediated Transport
+Pb uses the divalent metal transporter DMT1 (SLC11A2), which is also the primary iron importer. Iron deficiency upregulates DMT1 and dramatically increases Pb absorption, explaining why iron-deficient children have disproportionately higher blood lead levels [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]], [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 
 ### Heme Biosynthesis Disruption
 Pb inhibits two critical enzymes: aminolevulinic acid dehydratase (ALAD) and ferrochelatase. This blocks heme synthesis, causing anemia and accumulating the neurotoxic precursor aminolevulinic acid (ALA) [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
