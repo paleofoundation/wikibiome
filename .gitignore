@@ -44,3 +44,4 @@ Thumbs.db
 
 # Claude project config
 .claude/
+.fuse_hidden*
