@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Yingbo Shen, Da Sun, Kun Chen, Junyao Jiang, Dongyan Shao, Lu Yang, Chengtao Sun, Dejun Liu, Yuebin Ke, Congming Wu, Timothy R. Walsh, Jianzhong Shen, Ziquan Lv, Yang Wang]
 journal: npj Biofilms and Microbiomes
 year: 2025
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, high-fiber-diet, high-fat-diet, antimicrobial-resistance, gut-resistome, metagenomics, ARGs, virulence-genes]
 platform: wikibiome
 ---

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Eduardo De Pablo-Fernandez, Huw R Morris, Andrew J Lees, Thomas T Warner, Sophia Pality]
 year: 2024
 journal: "npj Parkinson's Disease"
-doi: "unverified"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
 tags: [parkinsons-disease, mycobiome, faecal-metabolome, gut-fungi, Candida, Saccharomyces, metabolomics, dysbiosis]
 library_category: signatures
 platform: both

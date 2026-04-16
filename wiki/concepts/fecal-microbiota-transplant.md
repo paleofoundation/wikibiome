@@ -11,11 +11,11 @@ platform: wikibiome
 
 # Fecal Microbiota Transplant (FMT)
 
-The transfer of processed stool from a healthy donor into a recipient's gastrointestinal tract to restore a disrupted microbial community. FMT is the most direct form of microbiome intervention -- replacing the entire community rather than supplementing individual strains ([[probiotics]]) or feeding existing commensals ([[prebiotics]]). It represents community-level ecological restoration.
+The transfer of processed stool from a healthy donor into a recipient's gastrointestinal tract to restore a disrupted microbial community. FMT is the most direct form of microbiome intervention -- replacing the entire community rather than supplementing individual strains [[probiotics]] or feeding existing commensals [[prebiotics]]. It represents community-level ecological restoration.
 
 ## Mechanism
 
-FMT introduces a complex, intact microbial ecosystem including bacteria, archaea, fungi ([[mycobiome]]), bacteriophages, and their metabolites. Proposed mechanisms of action:
+FMT introduces a complex, intact microbial ecosystem including bacteria, archaea, fungi [[mycobiome]], bacteriophages, and their metabolites. Proposed mechanisms of action:
 1. **Colonization resistance restoration**: Donor commensals outcompete pathogens for niches and nutrients.
 2. **SCFA production recovery**: Donor butyrate/propionate producers re-establish fermentative metabolism and colonocyte energy supply.
 3. **Bile acid metabolism normalization**: Donor bacteria restore secondary bile acid production, which inhibits *C. difficile* sporulation.

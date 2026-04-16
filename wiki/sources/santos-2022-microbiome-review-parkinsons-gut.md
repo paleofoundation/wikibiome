@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Samuel F Santos, Haroldo L de Oliveira, Elizabeth S Yamada]
 year: 2022
 journal: "World Journal of Clinical Cases"
-doi: "unverified"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
 tags: [parkinsons-disease, microbiome-review, gut-microbiome, gut-brain-axis, alpha-synuclein, dysbiosis, current-perspectives]
 library_category: associated-conditions
 platform: wikibiome

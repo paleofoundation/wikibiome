@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [de Paiva EL, Medeiros C, Milani RF, Morgano MA, Pallone JAL, Arisseto-Bragotto AP]
 journal: Food Research International
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [aluminum, cereal, baby-food, bioaccessibility, in-vitro-digestion, infant-formula, Brazil, ICP-OES]
 platform: wikibiome
 ---

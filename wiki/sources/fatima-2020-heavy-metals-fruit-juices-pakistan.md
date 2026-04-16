@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Nazeefa Fatima, Munazza Khan, Muhammad Shuaib Kabeer]
 journal: Journal of Food Safety and Hygiene
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [fruit-juice, heavy-metals, nickel, lead, chromium, iron, selenium, manganese, food-contamination, WHO-limits, Pakistan]
 platform: wikibiome
 ---

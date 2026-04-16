@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Bandaru S. Reddy]
 journal: Environmental Health and Preventive Medicine
 year: 2002
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, omega-3-fatty-acids, dietary-fat, n-3-PUFAs, n-6-PUFAs, colorectal-cancer, DHA, EPA, COX-2, ras-p21, prevention, review]
 platform: wikibiome
 ---

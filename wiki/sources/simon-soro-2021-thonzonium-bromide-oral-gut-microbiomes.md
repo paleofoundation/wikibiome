@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Aurea Simon-Soro, Dongyeop Kim, Yong Li, Yuan Liu, Tatsuro Ito, Kenneth R. Sims Jr., Danielle S. W. Benoit, Kyle Bittinger, Hyun Koo]
 journal: npj Biofilms and Microbiomes
 year: 2021
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, drug-repurposing, microbiome, oral-gut-axis, thonzonium-bromide, nanoparticle-carrier, Rothia, Veillonella, Sutterella, dental-caries, colorectal-cancer]
 platform: wikibiome
 ---

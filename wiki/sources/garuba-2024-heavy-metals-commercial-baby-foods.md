@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Garuba OD, Anglin JC, Good S, Olufemi SE, Oyawoye OM, Ayodotun S]
 journal: Archive of Food and Nutritional Science
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [baby-food, heavy-metals, aluminum, zinc, nickel, arsenic, cadmium, lead, chromium, ICP-MS, USA]
 platform: wikibiome
 ---

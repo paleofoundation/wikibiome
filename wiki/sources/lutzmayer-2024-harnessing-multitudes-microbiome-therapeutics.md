@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Stefan Lutzmayer, Isma Hachi, Isabelle de Cremoux, Tomas de Wouters]
 journal: IQVIA White Paper
 year: 2024
-doi: null
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (null); needs manual lookup from source PDF -->
 tags: [microbiome-therapeutics, FMT, live-biotherapeutics, phage-therapy, probiotics, drug-development, regulatory, industry-analysis, multiple-sclerosis]
 platform: wikibiome
 ---

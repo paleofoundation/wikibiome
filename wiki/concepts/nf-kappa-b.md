@@ -24,7 +24,7 @@ Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a fami
 - **Inflammation**: IL-6, TNF-alpha, IL-1beta, COX-2, iNOS.
 - **Cell survival**: anti-apoptotic proteins that protect cells from programmed death.
 - **Immune activation**: MHC molecules, immunoglobulin light chains, cytokine receptors.
-- **Tissue remodeling**: matrix metalloproteinases ([[matrix-metalloproteases]]).
+- **Tissue remodeling**: matrix metalloproteinases [[matrix-metalloproteases]].
 
 ## Metal Activation of NF-kB
 

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Madelyn C Houser, Malú G Tansey]
 year: 2019
 journal: "npj Parkinson's Disease"
-doi: "unverified"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
 tags: [parkinsons-disease, microbiome-inflammation, disease-progression, neuroinflammation, gut-permeability, cytokines, alpha-synuclein]
 library_category: mechanistic-insights
 platform: both

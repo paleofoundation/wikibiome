@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Otto LD]
 journal: The Ohio State University PhD Dissertation
 year: 2024
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [ovarian-cancer, cancer-treatment, immune-dysfunction, gut-microbiome, behavioral-symptoms, chemotherapy, neuroinflammation, gut-brain-axis]
 platform: wikibiome
 ---

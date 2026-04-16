@@ -57,7 +57,7 @@ Pharmacomicrobiomics intersects with metallomics in underappreciated ways:
 
 - Metal-dependent microbial enzymes metabolize drugs (L-DOPA example)
 - Drugs that alter metal absorption (PPIs → Fe, Ca, Mg) change the metal landscape of the gut
-- Metal chelators ([[metal-chelation-therapy]]) alter luminal metal availability, reshaping the microbiome
+- Metal chelators [[metal-chelation-therapy]] alter luminal metal availability, reshaping the microbiome
 - Metal-induced [[dysbiosis]] changes the drug-metabolizing capacity of the gut
 - Metal supplements (Fe, Zn) directly alter microbiome composition and drug metabolism
 

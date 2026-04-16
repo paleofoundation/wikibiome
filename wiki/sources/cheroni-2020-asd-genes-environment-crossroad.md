@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Cristina Cheroni, Nicolo Caporale, Giuseppe Testa]
 journal: Molecular Autism
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [autism, gene-environment-interaction, endocrine-disruptors, heavy-metals, neurodevelopment, epigenetics, stem-cells, organoids]
 platform: wikibiome
 ---

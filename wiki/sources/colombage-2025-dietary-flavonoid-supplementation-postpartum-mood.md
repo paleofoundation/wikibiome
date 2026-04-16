@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Rebecca Colombage]
 year: 2025
 journal: "University of Reading (PhD thesis)"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [postpartum-depression, flavonoids, anthocyanins, blueberry, cognition, mood, dietary-intervention, polyphenols]
 library_category: clinical-trial
 platform: cureva

@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Chengkun Zheng, Yimeng Zhai, Mengxian Wang, Zhengzhong Xu, Yunzeng Zhang, Xiaohui Zhou, Xiang Chen, Xinan Jiao]
 year: 2025
 journal: "Virulence"
-doi: "PMC12341060"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12341060) in the doi field; real DOI needs manual lookup -->
+pmcid: "PMC12341060"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, copper-efflux, CueR, CopA, CusFABC, vibrio-parahaemolyticus, iron-homeostasis, Fur-regulon, zebrafish, virulence, nutritional-immunity]
 library_category: antimicrobial_resistance
 platform: wikibiome

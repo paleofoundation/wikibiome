@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Junichi Yatabe, Midori Sasaki Yatabe, Katsuyuki Ishibashi, Yoshihiro Nozawa, Hironobu Sanada]
 journal: Diagnostic Pathology
 year: 2013
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, amino-acids, biomarkers, AminoIndex, early-detection, screening, colorectal-cancer, metabolomics]
 platform: wikibiome
 evidence_level: case-report

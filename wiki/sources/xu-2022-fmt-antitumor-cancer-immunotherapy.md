@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Hui Xu, Chenxi Cao, Yuqing Ren, Siyuan Weng, Long Liu, Chunguang Guo, Libo Wang, Xinwei Han, Jianzhuang Ren, Zaoqu Liu]
 journal: Frontiers in Immunology
 year: 2022
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, immunotherapy, immune-checkpoint-blockers, gut-microbiota, dysbiosis, Fusobacterium-nucleatum, colorectal-cancer, review]
 platform: wikibiome
 evidence_level: expert-opinion

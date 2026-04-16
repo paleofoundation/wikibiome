@@ -37,7 +37,7 @@ Urease requires two Ni²⁺ per active site. The nickel atoms are:
 - Functionally important for substrate binding and catalytic turnover
 
 **Nickel acquisition:**
-- H. pylori encodes a [[nickel]] permease ([[nixa]]) to transport Ni²⁺ from the hostile gastric environment
+- H. pylori encodes a [[nickel]] permease [[nixa]] to transport Ni²⁺ from the hostile gastric environment
 - In the cytoplasm, accessory proteins ([[ured]], [[uree]], [[uref]], [[ureg]]) insert nickel into the urease apoprotein during maturation
 - Mutations in these maturation factors → catalytically inactive urease → loss of virulence
 

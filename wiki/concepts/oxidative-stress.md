@@ -206,7 +206,7 @@ Oxidative stress contributes to cancer through DNA damage, genomic instability, 
 
 - **Parkinson's disease**: Iron accumulation in the substantia nigra catalyzes Fenton reactions; GPX4 downregulation triggers [[ferroptosis]] in dopaminergic neurons; gut dysbiosis mediates metal-to-brain pathology via the gut-brain axis [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - **Alzheimer's disease**: Multiple metals (Pb, Hg, Cd, Fe, Cu, Mn) contribute to oxidative damage in AD through ROS generation, mitochondrial dysfunction, and disruption of metal homeostasis in the brain [[blazewicz-2023-metal-profiles-asd]].
-- **ASD ([[autism-spectrum-disorder]])**: Hg inhibits GSH; Cd disrupts thiol groups; Pb affects ALAD -- all converging on oxidative stress and mitochondrial dysfunction. Toxic metals compete with [[zinc]] for protein binding sites, effectively creating functional zinc deficiency [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]]].
+- **ASD [[autism-spectrum-disorder]]**: Hg inhibits GSH; Cd disrupts thiol groups; Pb affects ALAD -- all converging on oxidative stress and mitochondrial dysfunction. Toxic metals compete with [[zinc]] for protein binding sites, effectively creating functional zinc deficiency [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]]].
 
 ### Cardiovascular Disease
 

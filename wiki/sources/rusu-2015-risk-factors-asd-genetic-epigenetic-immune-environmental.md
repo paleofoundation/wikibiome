@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Cristina Rusu, Cristina Preda, Adriana Sireteanu, Carmen Vulpoi]
 year: 2015
 journal: "Environmental Engineering and Management Journal"
-doi: None
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (None); needs manual lookup from source PDF -->
 tags: [autism-spectrum-disorder, environmental-factors, epigenetics, immune-dysregulation, oxidative-stress, mitochondrial-dysfunction, heavy-metals, pesticides, microbiota, review]
 library_category: environmental
 platform: review

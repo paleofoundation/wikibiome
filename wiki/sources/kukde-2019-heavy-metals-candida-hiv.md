@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Monal M. Kukde, Silpi Basak, Deepak P. Selkar]
 journal: Journal of Clinical and Diagnostic Research
 year: 2019
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [Candida, heavy-metals, HIV, silver, mercury, cadmium, zinc, antifungal, oral-candidiasis, metal-resistance]
 platform: wikibiome
 ---

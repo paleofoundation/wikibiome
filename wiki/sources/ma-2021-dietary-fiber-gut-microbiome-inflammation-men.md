@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Wenjie Ma, Long H. Nguyen, Mingyang Song, Dong D. Wang, Eric A. Franzosa, Yin Cao, Amit Joshi, David A. Drew, Raaj Mehta, Kerry L. Ivey, Lisa L. Strate, Edward L. Giovannucci, Jacques Izard, Wendy Garrett, Eric B. Rimm, Curtis Huttenhower, Andrew T. Chan]
 journal: Genome Medicine
 year: 2021
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, dietary-fiber, gut-microbiome, CRP, inflammation, Prevotella-copri, metagenomics, Clostridiales, pectin]
 platform: wikibiome
 ---

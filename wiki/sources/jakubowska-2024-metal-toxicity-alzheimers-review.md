@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Jakubowska E, Hoppe-Mitera E, Sionek I, Slemp J, Pakula A, Kuzma K, Bierc K, Grochowska M, Kisiel-Cybula E, Adamowicz A]
 journal: Journal of Education, Health and Sport
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [Alzheimers-disease, aluminum, lead, zinc, copper, metal-toxicity, neurodegeneration, amyloid-beta, tau-protein]
 platform: wikibiome
 ---

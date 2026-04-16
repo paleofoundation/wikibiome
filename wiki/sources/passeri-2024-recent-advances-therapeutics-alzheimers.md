@@ -8,6 +8,7 @@ authors:
   - et al.
 journal: (Brain Sciences / related journal)
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags:
   - Alzheimers-disease
   - therapeutics

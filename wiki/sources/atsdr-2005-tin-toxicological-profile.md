@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [ATSDR (Agency for Toxic Substances and Disease Registry), Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell]
 journal: ATSDR Toxicological Profile (U.S. Department of Health and Human Services)
 year: 2005
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [tin, organotin, inorganic-tin, toxicological-profile, regulatory, ATSDR, CERCLA, occupational-exposure, environmental-health]
 platform: wikibiome
 ---

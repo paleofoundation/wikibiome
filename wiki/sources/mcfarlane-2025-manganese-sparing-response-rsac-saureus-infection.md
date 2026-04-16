@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Riley A McFarlane, Jana N Radin, Rafat Mazgaj, Kevin J Waldron, David Lalaouna, Thomas E Kehl-Fie, Marthie M Ehlers]
 year: 2025
 journal: "mBio"
-doi: "PMC12421985"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12421985) in the doi field; real DOI needs manual lookup -->
+pmcid: "PMC12421985"
 tags: [mismetallation, metal-homeostasis, manganese, iron, superoxide-dismutase, small-RNA, nutritional-immunity, calprotectin, staphylococcus-aureus, oxidative-stress, metal-sparing, virulence]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome

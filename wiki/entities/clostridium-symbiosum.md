@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [zhang-2025-gut-virome-premalignant-colorectal-adenoma, zou-2024-multi-omic-microbiome-genome-transcriptome-crc, qin-2024-consistent-microbiome-signatures-old-young-onset-crc, ajouz-2014-secondary-bile-acids-colon-cancer, farhana-2016-bile-acid-colon-cancer-stem-cells, rezen-2022-bile-acids-carcinogenesis-review, weir-2013-stool-microbiome-metabolome-crc-healthy]
 tags: [clostridium, gram-positive, obligate-anaerobe, bile-acid-metabolism, butyrate-producer, colorectal-cancer, iron-dependent, crc-driver]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
@@ -22,7 +22,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Clostridium symbiosum
 
-**Clostridium symbiosum** is a Gram-positive, obligately anaerobic bacterium within the **Clostridium cluster XIVa** — a taxonomic group enriched for short-chain fatty acid (SCFA) producers and specialized **bile acid metabolizers**. Despite its ambiguous name (suggesting symbiotic commensal status), *C. symbiosum* is dramatically **enriched in colorectal cancer (CRC)** across multiple studies of both young-onset and older-onset CRC patients, making it a core member of the **oncogenic dysbiotic consortium** alongside [[fusobacterium-nucleatum]], [[bacteroides-fragilis]], and [[parvimonas-micra]]. Its primary pathogenic role in CRC is **secondary bile acid (DCA, LCA) production** and conversion of primary bile acids into carcinogenic metabolites that promote colorectal epithelial inflammation and malignant transformation.
+**Clostridium symbiosum** is a Gram-positive, obligately anaerobic bacterium within the **Clostridium cluster XIVa** — a taxonomic group enriched for short-chain fatty acid (SCFA) producers and specialized **bile acid metabolizers**. Despite its ambiguous name (suggesting symbiotic commensal status), *C. symbiosum* is dramatically **enriched in colorectal cancer (CRC)** across multiple studies of both young-onset and older-onset CRC patients ([[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]]; [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]), making it a core member of the **oncogenic dysbiotic consortium** alongside [[fusobacterium-nucleatum]], [[bacteroides-fragilis]], and [[parvimonas-micra]] ([[zhang-2025-gut-virome-premalignant-colorectal-adenoma]]). Its primary pathogenic role in CRC is **secondary bile acid (DCA, LCA) production** and conversion of primary bile acids into carcinogenic metabolites that promote colorectal epithelial inflammation and malignant transformation.
 
 ## Taxonomy and Basic Properties
 
@@ -59,7 +59,7 @@ CDCA → Lithocholic Acid (LCA) [Secondary Bile Acid]
 | **7α-Dehydroxylase (7α-DH)** | Removes hydroxyl at C7 position of deconjugated PBA | Secondary bile acids (DCA, LCA) | **Critical CRC driver**; unique to few taxa including *C. symbiosum* |
 | **β-Glucuronidase** | Deconjugates excreted estrogens (relevant to hormone-dependent cancers) | Free estrogens | Estrogen recirculation; secondary effect |
 
-The **7α-dehydroxylase activity is the clinical hallmark** of pathogenic bile acid metabolism in CRC. *C. symbiosum* is one of the few species capable of complete PBA → SBA conversion, making it a bottleneck enzyme controller in the carcinogenic pathway.
+The **7α-dehydroxylase activity is the clinical hallmark** of pathogenic bile acid metabolism in CRC ([[ajouz-2014-secondary-bile-acids-colon-cancer]]; [[rezen-2022-bile-acids-carcinogenesis-review]]). *C. symbiosum* is one of the few species capable of complete PBA → SBA conversion, making it a bottleneck enzyme controller in the carcinogenic pathway ([[farhana-2016-bile-acid-colon-cancer-stem-cells]]).
 
 ### Iron Dependency
 
@@ -76,7 +76,7 @@ The **7α-dehydroxylase activity is the clinical hallmark** of pathogenic bile a
 ### Farnesoid X Receptor (FXR) Signaling Disruption
 
 - **Primary bile acids (CA, CDCA)**: Potent FXR agonists; activate protective anti-inflammatory signaling in colonocytes and hepatocytes.
-- **Secondary bile acids (DCA, LCA)**: Weak or antagonistic FXR signaling; instead activate **TGR5 (G protein-coupled bile acid receptor 1)**, which can drive pro-inflammatory IL-23 production.
+- **Secondary bile acids (DCA, LCA)**: Weak or antagonistic FXR signaling; instead activate **TGR5 (G protein-coupled bile acid receptor 1)**, which can drive pro-inflammatory IL-23 production ([[rezen-2022-bile-acids-carcinogenesis-review]]).
 - *C. symbiosum*-driven PBA → SBA conversion reduces FXR signaling, disrupting the colonocyte's ability to maintain tight junctions and produce anti-inflammatory IL-22.
 
 ### NF-κB Activation and Epithelial Inflammation
@@ -88,7 +88,7 @@ The **7α-dehydroxylase activity is the clinical hallmark** of pathogenic bile a
 
 ### DNA Damage and Genotoxicity
 
-- Secondary bile acids **increase reactive oxygen species (ROS)** production in colonocytes and nearby inflammatory cells.
+- Secondary bile acids **increase reactive oxygen species (ROS)** production in colonocytes and nearby inflammatory cells ([[ajouz-2014-secondary-bile-acids-colon-cancer]]; [[farhana-2016-bile-acid-colon-cancer-stem-cells]]).
 - ROS → DNA adducts, double-strand breaks, and activation of p53-dependent apoptosis or senescence.
 - Over years, repeated DNA damage → somatic mutations in APC, KRAS, TP53 → adenoma-to-carcinoma progression.
 
@@ -149,10 +149,10 @@ This is a critical distinction: *C. symbiosum* in a healthy, diverse microbiome 
 
 | Population | *C. symbiosum* (% of microbiota) | Notes |
 |------------|----------------------------------|-------|
-| Healthy adults | 0.5–2% | Low abundance; part of normal Clostridium XIVa diversity |
-| Adenoma patients (pre-CRC) | 2–5% | Elevated; enrichment correlates with polyp burden |
-| CRC patients (incident) | 5–15% | Dramatically enriched; core CRC consortium member |
-| Advanced CRC (stage III/IV) | 8–20% | Even higher in metastatic disease |
+| Healthy adults | 0.5–2% | Low abundance; part of normal Clostridium XIVa diversity ([[weir-2013-stool-microbiome-metabolome-crc-healthy]]) |
+| Adenoma patients (pre-CRC) | 2–5% | Elevated; enrichment correlates with polyp burden ([[zhang-2025-gut-virome-premalignant-colorectal-adenoma]]) |
+| CRC patients (incident) | 5–15% | Dramatically enriched; core CRC consortium member ([[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]]; [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]) |
+| Advanced CRC (stage III/IV) | 8–20% | Even higher in metastatic disease ([[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]) |
 | Post-polypectomy (surveillance) | Slowly declines | Returns toward healthy levels over 1–2 years if protective interventions instituted |
 
 ## Connections to WikiBiome Entities and Disease Signatures

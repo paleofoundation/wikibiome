@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Chuanfa Liu, Zhiming Li, Jiahong Ding, Hefu Zhen, Mingyan Fang, Chao Nie]
 journal: Frontiers in Microbiology
 year: 2021
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, antibiotic-resistance-genes, ARGs, gut-microbiome, colorectal-cancer, metagenomics, Escherichia-coli, species-level, rSGBs, plasmids]
 platform: wikibiome
 ---

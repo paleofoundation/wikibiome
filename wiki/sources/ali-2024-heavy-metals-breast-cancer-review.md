@@ -12,6 +12,7 @@ authors:
   - Ahmed SK
 journal: World Academy of Sciences Journal
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags:
   - heavy-metals
   - breast-cancer

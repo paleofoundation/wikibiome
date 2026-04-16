@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Paul Metz, Martijn J. H. Tjan, Shaoguang Wu, Mehrosh Pervaiz, Susanne Hermans, Aishwarya Shettigar, Cynthia L. Sears, Tina Ritschel, Bas E. Dutilh, Annemarie Boleij]
 journal: Frontiers in Cellular and Infection Microbiology
 year: 2019
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, drug-repurposing, Bacteroides-fragilis, BFT-toxin, ETBF, CDCA, chenodeoxycholic-acid, in-silico, drug-discovery, colorectal-cancer, E-cadherin, IL-8]
 platform: wikibiome
 ---

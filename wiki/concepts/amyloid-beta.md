@@ -24,7 +24,7 @@ The metallomic signature of Alzheimer's disease (elevated brain iron, copper, an
 
 - **Zinc and copper bind to Aβ**, promoting its aggregation from soluble monomers into toxic oligomers and insoluble fibrils
 - **Iron catalyzes oxidative damage** via Fenton chemistry at the Aβ plaque surface, generating hydroxyl radicals that damage surrounding neurons
-- **Mis-metallation** — when toxic metals (lead, cadmium) occupy the copper- and zinc-binding sites on Aβ, they alter its conformation and aggregation kinetics, potentially accelerating plaque formation ([[mis-metallation]])
+- **Mis-metallation** — when toxic metals (lead, cadmium) occupy the copper- and zinc-binding sites on Aβ, they alter its conformation and aggregation kinetics, potentially accelerating plaque formation [[mis-metallation]]
 
 ## The Infection Hypothesis
 

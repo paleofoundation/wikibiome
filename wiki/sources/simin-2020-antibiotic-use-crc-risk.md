@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Johanna Simin, Romina Fornes, Qing Liu, Renate Slind Olsen, Steven Callens, Lars Engstrand, Nele Brusselaers]
 journal: British Journal of Cancer
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, antibiotics, colorectal-cancer, meta-analysis, systematic-review, dose-response, gut-microbiome, dysbiosis, risk-factor, epidemiology]
 platform: wikibiome
 ---

@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Song Hu, Zhennan Lin, Meng-Jin Hu, Jiang-Shan Tan, Ting-Ting Guo, Xin Huang, Lu Hua]
 journal: Journal of Translational Medicine
 year: 2023
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, amino-acids, mendelian-randomization, glycine, serine, leucine, tyrosine, alanine, BCAAs, causal-inference]
 platform: wikibiome
 ---

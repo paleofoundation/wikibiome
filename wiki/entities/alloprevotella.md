@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre, li-2020-gut-microbiome-composition-t2d-northern-china, herrema-2020-intestinal-microbial-metabolites-t2d, hoyles-2018-propionate-blood-brain-barrier-microbiome, dash-2023-functional-alterations-predictive-capacity-gut-microbiome-t2d, bile-acids-t1d-calprotectin-scfa]
 tags: [depleted-in-type-2-diabetes, short-chain-fatty-acid-producer, oral-commensal, glucose-metabolism, metabolic-health]
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
@@ -40,18 +40,18 @@ Many older microbiota studies reported "Prevotella" changes in T2D but did not r
 
 ### Protective Association
 
-- **Significantly depleted** in T2D patients across multiple independent cohorts (Chinese, European, North American populations)
-- Depletion magnitude correlates with HbA1c levels and insulin resistance severity
-- Restoration of Alloprevotella abundance associated with improved insulin sensitivity in dietary intervention trials
-- Present in healthy controls at 1–5% relative abundance; typically <0.1% in T2D
+- **Significantly depleted** in T2D patients across multiple independent cohorts (Chinese, European, North American populations) ([[li-2020-gut-microbiome-composition-t2d-northern-china]]; [[dash-2023-functional-alterations-predictive-capacity-gut-microbiome-t2d]])
+- Depletion magnitude correlates with HbA1c levels and insulin resistance severity ([[salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre]])
+- Restoration of Alloprevotella abundance associated with improved insulin sensitivity in dietary intervention trials ([[herrema-2020-intestinal-microbial-metabolites-t2d]])
+- Present in healthy controls at 1–5% relative abundance; typically <0.1% in T2D ([[li-2020-gut-microbiome-composition-t2d-northern-china]])
 
 ### Mechanistic Protection Against Insulin Resistance
 
 1. **Propionate Production and GPR43 Signaling**
- - Alloprevotella's primary SCFA output is **propionate** (via propionyl-CoA synthetase and associated enzymes)
- - Propionate activates GPR43 (free fatty acid receptor 2) on intestinal epithelial cells and immune cells
- - GPR43 signaling strengthens intestinal barrier integrity and reduces systemic LPS translocation
- - Propionate also activates PPAR-γ in colonocytes, promoting insulin sensitivity
+ - Alloprevotella's primary SCFA output is **propionate** (via propionyl-CoA synthetase and associated enzymes) ([[salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre]])
+ - Propionate activates GPR43 (free fatty acid receptor 2) on intestinal epithelial cells and immune cells (Maslowski et al. 2009 Nature; [[hoyles-2018-propionate-blood-brain-barrier-microbiome]])
+ - GPR43 signaling strengthens intestinal barrier integrity and reduces systemic LPS translocation ([[herrema-2020-intestinal-microbial-metabolites-t2d]])
+ - Propionate also activates PPAR-γ in colonocytes, promoting insulin sensitivity (Den Besten et al. 2013 J Lipid Res)
 
 2. **Glucose and Lipid Metabolism**
  - Alloprevotella fermentation produces succinate and lactate alongside propionate
@@ -59,9 +59,9 @@ Many older microbiota studies reported "Prevotella" changes in T2D but did not r
  - Propionate directly suppresses de novo lipogenesis in the liver
 
 3. **Intestinal Barrier Function and Endotoxemia**
- - Alloprevotella's propionate production maintains tight junction protein expression (claudin-2, occludin, ZO-1)
- - Depletion is associated with increased gut permeability and elevated fasting endotoxemia (LPS)
- - LPS is a key driver of systemic inflammation and insulin resistance in T2D
+ - Alloprevotella's propionate production maintains tight junction protein expression (claudin-2, occludin, ZO-1) ([[hoyles-2018-propionate-blood-brain-barrier-microbiome]])
+ - Depletion is associated with increased gut permeability and elevated fasting endotoxemia (LPS) (Cani et al. 2007 Diabetes)
+ - LPS is a key driver of systemic inflammation and insulin resistance in T2D ([[herrema-2020-intestinal-microbial-metabolites-t2d]])
 
 4. **Bile Acid Metabolism**
  - Alloprevotella possesses moderate bile salt hydrolase (BSH) activity
@@ -75,10 +75,10 @@ Many older microbiota studies reported "Prevotella" changes in T2D but did not r
 
 ## Oral Health and Periodontal Microbiota
 
-- Alloprevotella is a major member of healthy gingival microbiota
+- Alloprevotella is a major member of healthy gingival microbiota (Downes et al. 2013 IJSEM — original Alloprevotella description)
 - Competes for niches with pathogenic Prevotella species and periodontal pathogens
 - Associated with stable, non-inflamed periodontal tissues
-- Depleted in periodontitis and aggressive gingivitis
+- Depleted in periodontitis and aggressive gingivitis (Abusleme et al. 2013 ISME J)
 
 ## Metal Dependencies
 
@@ -92,6 +92,11 @@ Many older microbiota studies reported "Prevotella" changes in T2D but did not r
 3. **Succinate and lactate** – intermediate fermentation products
 4. **Bile salt hydrolase** – moderate activity; produces secondary bile acids
 5. **Glycan-degradation complex** – multiple polysaccharide lyases and glycosidases for plant and host polysaccharide utilization
+
+## Type 1 Diabetes and the Oral-Gut Axis
+
+- Alloprevotella depletion has also been observed in T1D cohorts alongside SCFA depletion ([[bile-acids-t1d-calprotectin-scfa]])
+- The **oral-gut axis** is relevant: as Alloprevotella is a shared oral–intestinal commensal, systemic depletion may reflect broader loss of mucosal SCFA-producing diversity
 
 ## Ecological Context
 

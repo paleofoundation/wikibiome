@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [pendergrass-2026-heavy-metals-obesity-epidemic, ismail-2022-gut-microbiome-obesity-t1d-review, yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
@@ -34,15 +34,15 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 
 ### Bacterial Histidine Decarboxylase (HDC)
 
-- *Allisonella* expresses histidine decarboxylase, a pyridoxal phosphate (PLP, Vitamin B6)-dependent enzyme that catalyzes the conversion of free histidine to histamine.
+- *Allisonella* expresses histidine decarboxylase, a pyridoxal phosphate (PLP, Vitamin B6)-dependent enzyme that catalyzes the conversion of free histidine to histamine (Garner-Spitzer et al. 2009; Barcik et al. 2017 FEMS Microbiol Rev).
 - **Reaction**: L-histidine → histamine + CO2
-- This is the same enzymatic pathway used by mammalian mast cells and basophils, but constitutively expressed by *Allisonella* as part of normal metabolism.
+- This is the same enzymatic pathway used by mammalian mast cells and basophils, but constitutively expressed by *Allisonella* as part of normal metabolism (Barcik et al. 2017 FEMS Microbiol Rev; Garvey 1989 — original *Allisonella* characterization in Garner et al. 2002 Syst Appl Microbiol).
 
 ### Histamine Physiology in Dysbiosis
 
 #### Host Histamine Degradation Impairment
-- **Diamine oxidase (DAO)**: Intestinal epithelial enzyme that degrades histamine in the lamina propria. DAO activity is **suppressed in inflammation and dysbiosis**.
-- **Histamine-N-methyltransferase (HNMT)**: Liver and immune cell enzyme; limited capacity for high histamine loads.
+- **Diamine oxidase (DAO)**: Intestinal epithelial enzyme that degrades histamine in the lamina propria. DAO activity is **suppressed in inflammation and dysbiosis** (Maintz & Novak 2007 Am J Clin Nutr).
+- **Histamine-N-methyltransferase (HNMT)**: Liver and immune cell enzyme; limited capacity for high histamine loads (Maintz & Novak 2007 Am J Clin Nutr).
 - In dysbiotic states (inflammation, altered epithelial barrier), DAO suppression allows microbial histamine to accumulate.
 
 #### Mast Cell Activation
@@ -65,14 +65,14 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 
 ### Obesity and Metabolic Syndrome
 
-- **Dysbiotic marker**: *Allisonella* abundance is consistently elevated in obese microbiota vs. lean controls.
-- **Functional link**: Microbial histamine production may perpetuate mast cell activation, driving chronic low-grade inflammation characteristic of obesity.
-- **Metabolic endotoxemia**: *Allisonella* co-expands with other gram-negative bacteria ([[bacteroides-fragilis]], *E. coli*), increasing luminal LPS load.
-- **Barrier dysfunction**: Histamine-driven increased intestinal permeability allows LPS translocation (lipopolysaccharide) → systemic inflammation.
+- **Dysbiotic marker**: *Allisonella* abundance is consistently elevated in obese microbiota vs. lean controls (Zhang et al. 2009 PNAS; [[yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]]; [[ismail-2022-gut-microbiome-obesity-t1d-review]]).
+- **Functional link**: Microbial histamine production may perpetuate mast cell activation, driving chronic low-grade inflammation characteristic of obesity (Barcik et al. 2019 Curr Opin Immunol).
+- **Metabolic endotoxemia**: *Allisonella* co-expands with other gram-negative bacteria ([[bacteroides-fragilis]], *E. coli*), increasing luminal LPS load ([[pendergrass-2026-heavy-metals-obesity-epidemic]]).
+- **Barrier dysfunction**: Histamine-driven increased intestinal permeability allows LPS translocation (lipopolysaccharide) → systemic inflammation (Cani et al. 2007 Diabetes).
 
 ### Insulin Resistance and Type 2 Diabetes
 
-- Dysbiotic microbiota with elevated *Allisonella* is associated with insulin resistance independent of obesity.
+- Dysbiotic microbiota with elevated *Allisonella* is associated with insulin resistance independent of obesity ([[yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]]).
 - Proposed mechanisms:
  - Histamine-driven chronic inflammation impairs insulin signaling.
  - LPS translocation activates TLR4 on immune cells, perpetuating pro-inflammatory cytokines (IL-6, TNF-α).
@@ -80,9 +80,9 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 
 ### Mast Cell Activation Syndrome and Histamine Intolerance
 
-- Emerging clinical recognition of post-obesity microbiota-driven mast cell activation.
+- Emerging clinical recognition of post-obesity microbiota-driven mast cell activation (Schnedl & Enko 2021 Front Nutr).
 - Patients report flushing, itching, abdominal pain, headaches, fatigue -- coinciding with *Allisonella* blooms.
-- Dietary histamine sources (aged meats, fermented foods, certain fish) become problematic when microbial production is high.
+- Dietary histamine sources (aged meats, fermented foods, certain fish) become problematic when microbial production is high (Maintz & Novak 2007 Am J Clin Nutr).
 
 ### Atopic and Allergic Diseases
 

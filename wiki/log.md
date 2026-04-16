@@ -2,6 +2,34 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-14] audit | DOI integrity sweep across wiki/sources/
+
+**Status:** COMPLETE -- all source pages now carry a well-formed DOI field (valid `10.x/y` pattern or the sentinel `"not yet verified"`).
+
+### Triggered by
+Adversarial audit flagged two source pages: `darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli.md` (PMC ID stored in `doi:`) and `shen-2025-amino-acid-metabolism-inflammation-chd.md` (missing DOI).
+
+### Issues fixed (total: 115 files)
+
+**1. PMC IDs stored in the `doi:` field (22 files, + Darwiche = 23)**
+PMC accession numbers like `PMC12909348` are not DOIs. For each affected file, `doi:` was set to `"not yet verified"` with an inline comment, and the PMC ID was preserved in a new `pmcid:` field.
+
+Affected files (prefix match — Darwiche + 22 others): bastida-martinez-2025, blume-2026, bushman-2025, darwiche-2025, kajfasz-2026, katrak-2026, khochtali-2025, lenner-2025, londono-2025, ma-2025-zntr, mcfarlane-2025, nies-2025, nong-2026, oudova-rivera-2026, palmer-2026, paterson-2025, puiggene-2026, sanchez-rosario-2026, stephen-2025, wang-2025-engineering-copper, wang-2025-zinc-ionophore, williams-2025-streptococcus-mitis, zheng-2025.
+
+**2. Placeholder / junk DOI values (~24 files, + Shen = 25)**
+Values like `""`, `"N/A"`, `"various"`, `"Not available"`, `"unverified"`, `null`, `None` were all normalised to `"not yet verified"` with an inline comment preserving the original value.
+
+**3. Missing `doi:` field entirely (91 files)**
+Source pages that had no `doi:` field at all received `doi: "not yet verified"` inserted directly after the `year:` (or `journal:`) frontmatter line, with an inline comment flagging the field for manual lookup.
+
+### Spot-checks on audit targets
+`goudman-2024-gut-dysbiosis-chronic-pain-meta-analysis.md` (`10.3389/fimmu.2024.1342833`), `minerbi-2019-altered-microbiome-fibromyalgia.md` (`10.1097/j.pain.0000000000001640`), `zeng-2025-copper-iron-trace-elements-fibromyalgia-mr.md` (`10.1038/s41598-025-86447-4`), and sibling Zeng papers all carry well-formed DOIs matching the `10.x/y` pattern. No fabricated-looking DOIs identified in the remainder of the corpus; all 1,197 unique non-placeholder DOIs follow the `10.xxxx/<suffix>` convention with reasonable suffix lengths.
+
+### Outstanding work
+200 source pages now carry `doi: "not yet verified"`. These should be resolved opportunistically when the underlying PDFs are re-examined. No DOI was ever guessed or generated from memory in this sweep.
+
+---
+
 ## [2026-04-09] v2-migration | Priority 5: Add karen_brain_primitives, metals_discussed, taxa_discussed
 
 **Status:** PARTIAL -- 108/1,548 source pages complete; script ready for remaining ~1,440
@@ -624,9 +652,9 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 
 **Wiki Pages Created**:
 - **Source Pages**: 10 (walsh-2023, ostrowski-2024, lewandowska-2022, hrnciarova-2021, roussin-2020, alharthi-2021, wang-2023, wang-2024, zhuang-2024, fattorusso-2016, microbiota-gut-brain-axis-review)
-- **Disease Signature**: 1 ([[autism-spectrum-disorder-microbiome-signature]])
-- **Intervention Pages**: 1 ([[probiotics-asd-dysbiosis]])
-- **STOP Pages**: 1 ([[iron-supplementation-asd-dysbiosis]])
+- **Disease Signature**: 1 [[autism-spectrum-disorder-microbiome-signature]]
+- **Intervention Pages**: 1 [[probiotics-asd-dysbiosis]]
+- **STOP Pages**: 1 [[iron-supplementation-asd-dysbiosis]]
 
 **Total Lines of Wiki Content Generated**: ~1,250 lines (sources: ~2,500 lines; signature: 661 lines; interventions/stops: 359 lines)
 
@@ -888,3 +916,34 @@ Classification script prepared at /tmp/classify_evidence.py for remaining ~1,346
 Categories used: systematic-review-meta-analysis, randomized-controlled-trial, mendelian-randomization, prospective-cohort, retrospective-cohort, case-control, cross-sectional, animal-model, in-vitro, computational-prediction, expert-opinion (default: cross-sectional).
 
 **Next:** Long COVID signature build
+
+## [2026-04-16 02:00] Nightly auto-deploy | queued to clipboard
+**Status:** queued (Terminal access approval timed out at 2am — user not present)
+**Files changed:** 306 uncommitted (wiki: 225, cureva: 49, dist-v28: 26, public: 1, CLAUDE.md: 1, wikibiome-v8.jsx: 1)
+**Recent commits since last deploy marker:** 5 (through d0e1912 "Rebuild with deepened CP content")
+**Sunday lint (2026-04-12) contradictions:** 0 — safe to deploy
+**Deploy command ready on response for Karen to paste into Terminal.**
+
+## [2026-04-16] NEC + Cerebral Palsy source ingestion (7 new source pages)
+Ingested 7 previously un-summarized PDFs from raw/Necrotizing Enterocolitis NEC/ and raw/Cerebral Palsy/ to expand v2 source coverage. All frontmatter follows v2 schema with evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings.
+
+**New source pages:**
+- `eggers-2023-prenatal-lead-childhood-gut-microbiome-progress.md` — prospective cohort (n=123), PROGRESS Mexico City, prenatal Pb → child gut microbiome at 9–11y. Pb depletes Ruminococcus gnavus, Bifidobacterium longum/bifidum, Alistipes indistinctus, Bacteroides caccae. DOI 10.3389/fmicb.2023.1193919.
+- `devarajalu-2025-nec-gut-microbiota-indian-preterm-shotgun.md` — case-control (n=24), first Indian shotgun metagenomic NEC study. Enterobacteriaceae enriched (Klebsiella pneumoniae, E. coli); LPS O-antigen, T4SS, iron transporters, quorum sensing enriched. DOI 10.3389/fcimb.2025.1649384.
+- `lin-2025-nec-serum-metabolomics-fecal-microbiome.md` — case-control (n=14+6 recovery), integrated serum metabolomics + metagenomics. NEC-D: reduced diversity, E. coli bloom; reduced ornithine/arginine/proline/bile acids. DOI 10.3389/fmicb.2025.1584041.
+- `xiong-2022-nec-vs-fpiap-microbiota-scfas.md` — prospective cohort (n=43), NEC vs FPIAP differential. NEC has lower SCFAs, enriched Halomonas/Acinetobacter/Stenotrophomonas. DOI 10.3389/fcimb.2022.1030588.
+- `wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma.md` — case-control (n=122), plasma AA metabolomics in CP. BAIBA + tryptophan + taurine panel → AUC 0.87 for preterm CP diagnosis. DOI 10.3389/fnmol.2023.1237745.
+- `casaburi-2022-formate-nec-enteric-dysbiosis-metabolic-model.md` — quasi-experimental (n=1,601 metagenomes + n=24 targeted + mouse model). Formate identified as NEC pathogenic metabolite (fecal formate 4.40 vs 0.65 µmol/g; r²=0.86 with K8). PFL (K. pneumoniae) is causal enzyme. In vivo mouse validation. DOI 10.3389/fped.2022.893059.
+- `liu-2022-nec-scfa-gut-microbiota-biomarkers-pilot.md` — prospective cohort (n=34), pre-NEC SCFA depletion (acetate/propionate/butyrate, AUC 0.68–0.73) + Bifidobacterium animalis subsp. lactis depletion + Streptococcus salivarius / Rothia mucilaginosa enrichment. DOI 10.3389/fmicb.2022.969656.
+
+**Cross-condition pattern detections:**
+- Eggers 2023 prenatal Pb → Ruminococcus gnavus, Alistipes indistinctus, Bacteroides caccae depletion overlaps with metal-sensitive taxa catalogued across metallomic signatures.
+- Casaburi 2022 formate + pyruvate-formate lyase (Fe-S cluster enzyme, Klebsiella) links NEC ecology to iron-dependence primitive #4 (Achilles' heels) — iron restriction is a candidate intervention lever.
+- Devarajalu 2025 iron-transport gene enrichment + Klebsiella dominance replicates the nickel/iron siderophore theme (primitive #8) across an Indian LMIC cohort — strengthens cross-geography robustness of the NEC iron-ecology signature.
+- Lin 2025 bile acid depletion + ornithine depletion + Lactobacillus loss matches the estrobolome-adjacent pattern of loss of deconjugation/dihydroxylation capacity.
+- Liu 2022 + Xiong 2022 + Lin 2025 all independently converge on SCFA depletion (acetate/propionate/butyrate) as pre-NEC / acute NEC signature feature — promotes confidence on NEC nutritional immunity / ecological layer.
+
+**Contradictions to flag:**
+- None with existing signatures — new sources broadly consistent with NEC microbiome signature (Enterobacteriaceae dominance, SCFA loss, iron acquisition enrichment) and with lead entity page.
+
+**Next:** Update entity pages for klebsiella-pneumoniae, enterobacter-cloacae, lead, bacteroides-caccae, bifidobacterium-longum, tryptophan with new source citations; consider promoting "formate" to its own entity/concept page.

@@ -98,7 +98,7 @@ Alphabetical definitions of specialist terms used throughout this wiki. Where a 
 
 **SCFA (short-chain fatty acids)** -- Microbial fermentation products (acetate, propionate, butyrate) that serve as colonocyte fuel, immune modulators, and barrier reinforcers. Depleted in [[dysbiosis]] across IBD, depression, and metabolic disease. See [[short-chain-fatty-acids]].
 
-**Siderophore** -- A small, high-affinity iron-chelating molecule secreted by microorganisms to scavenge Fe3+ from the environment. Examples include enterobactin ([[escherichia-coli]]), pyoverdine ([[pseudomonas-aeruginosa]]), and staphyloferrin ([[staphylococcus-aureus]]). See [[siderophores-metallophores]].
+**Siderophore** -- A small, high-affinity iron-chelating molecule secreted by microorganisms to scavenge Fe3+ from the environment. Examples include enterobactin [[escherichia-coli]], pyoverdine [[pseudomonas-aeruginosa]], and staphyloferrin [[staphylococcus-aureus]]. See [[siderophores-metallophores]].
 
 **SNAS (systemic nickel allergy syndrome)** -- A systemic allergic response to dietary nickel in nickel-sensitized individuals, manifesting as GI symptoms identical to [[ibs]], plus extra-intestinal symptoms (headache, urticaria, fatigue). See [[nickel-allergy]].
 

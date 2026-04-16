@@ -42,7 +42,7 @@ A whole-diet approach centered on high fiber intake (>30g/day) from diverse plan
 - High-fiber dietary patterns reduce all-cause mortality (RR 0.77 per 8g/day increase)
 - Dose-response relationship with colorectal cancer protection (10% reduction per 10g/day)
 - Improvements in glycemic control, lipid profiles, and inflammatory markers across metabolic conditions
-- Plant-based high-fiber diets reduce CKD progression risk independently of potassium and phosphorus concerns ([[carrero-2020-plant-based-diets-ckd-nature-reviews]])
+- Plant-based high-fiber diets reduce CKD progression risk independently of potassium and phosphorus concerns [[carrero-2020-plant-based-diets-ckd-nature-reviews]]
 
 ## Mechanism
 

@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [European Parliament, Council of the European Union]
 journal: Official Journal of the European Union (L 435/1)
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [EU-directive, drinking-water, regulatory, lead, chromium, arsenic, water-quality, parametric-values, risk-based-approach, endocrine-disruptors]
 platform: wikibiome
 ---

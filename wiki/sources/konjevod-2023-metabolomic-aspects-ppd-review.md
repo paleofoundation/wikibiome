@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Marcela Konjevod, Martin Gredicak, Barbara Vuic, Lucija Tudor, Matea Nikolac Perkovic, Tina Milos, Dubravka Svob Strac, Nela Pivac, Gordana Nedic Erjavec]
 year: 2023
 journal: "manuscript (Rudjer Boskovic Institute, Zagreb, Croatia)"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [postpartum-depression, metabolomics, biomarkers, tryptophan, amino-acids, steroid-metabolism, purine-cycle, xenobiotic, review]
 library_category: review
 platform: cureva

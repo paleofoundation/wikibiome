@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Gonzalez-Suarez S, Paz-Montelongo S, Niebla-Canelo D, Alejandro-Vega S, Gonzalez-Weller D, Rubio-Armendariz C, Hardisson A, Gutierrez-Fernandez AJ]
 journal: Applied Sciences
 year: 2022
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [baby-food, heavy-metals, aluminum, nickel, cadmium, lead, dietary-exposure, risk-assessment, infant-safety]
 platform: wikibiome
 ---

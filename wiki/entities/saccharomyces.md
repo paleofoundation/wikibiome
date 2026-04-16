@@ -24,12 +24,12 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 ## S. boulardii -- Therapeutic Probiotic
 
 - The best-characterized fungal probiotic, with demonstrated efficacy in:
- - **C. difficile infection**: reduces recurrence by 50-60% when combined with antibiotics; inhibits toxin A/B binding to colonocytes and degrades toxin receptor sites.
- - **Anti-inflammatory effects**: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells.
- - **Barrier protection**: upregulates tight junction proteins and secretory IgA production.
- - **Antibiotic-associated diarrhea**: reduces incidence by approximately 50% across meta-analyses.
-- Unlike bacterial probiotics, *S. boulardii* is inherently resistant to all antibacterial antibiotics, making it uniquely suited for co-administration during antibiotic therapy.
-- Produces proteases that degrade bacterial toxins, including *C. difficile* toxin A and cholera toxin.
+ - **C. difficile infection**: reduces recurrence by 50-60% when combined with antibiotics (McFarland 2006 Am J Gastroenterol; Surawicz et al. 2000 Clin Infect Dis); inhibits toxin A/B binding to colonocytes and degrades toxin receptor sites (Castagliuolo et al. 1999 Infect Immun).
+ - **Anti-inflammatory effects**: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells (Sougioultzis et al. 2006 BBRC).
+ - **Barrier protection**: upregulates tight junction proteins and secretory IgA production (Czerucka et al. 2007 Aliment Pharmacol Ther).
+ - **Antibiotic-associated diarrhea**: reduces incidence by approximately 50% across meta-analyses (Szajewska & Kołodziej 2015 Aliment Pharmacol Ther; Hempel et al. 2012 JAMA).
+- Unlike bacterial probiotics, *S. boulardii* is inherently resistant to all antibacterial antibiotics, making it uniquely suited for co-administration during antibiotic therapy (Czerucka et al. 2007 Aliment Pharmacol Ther).
+- Produces 54-kDa serine protease that degrades *C. difficile* toxin A and its intestinal receptor (Castagliuolo et al. 1996 Infect Immun; Castagliuolo et al. 1999 Infect Immun).
 
 ## S. cerevisiae in Disease
 
@@ -40,16 +40,16 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 ### Cardiometabolic Disease
 - *Saccharomyces* enriched in HTN+CKD comorbidity patients; positively associated with IFN-gamma, IL-4, and eGFR [[qiu-2023-gut-mycobiome-hypertension-ckd]].
 - Present in hypertensive cohorts (8.46% of fungal community in HTN vs lower in normotensive controls) [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
-- *S. boulardii* supplementation failed to improve cardiac function in the GutHeart trial for heart failure.
+- *S. boulardii* supplementation failed to improve cardiac function in the GutHeart trial for heart failure (Awoyemi et al. 2021 eBioMedicine — GutHeart trial).
 
 ### Crohn's Disease and ASCA
-- Anti-*Saccharomyces cerevisiae* antibodies (ASCA) are a well-established serological marker for Crohn's disease, suggesting immune sensitization to this yeast in the inflamed gut.
-- ASCA positivity distinguishes Crohn's from UC and is associated with more aggressive disease phenotype.
+- Anti-*Saccharomyces cerevisiae* antibodies (ASCA) are a well-established serological marker for Crohn's disease, suggesting immune sensitization to this yeast in the inflamed gut (Main et al. 1988 BMJ; Quinton et al. 1998 Gut).
+- ASCA positivity distinguishes Crohn's from UC (sensitivity ~55%, specificity ~90%) and is associated with more aggressive disease phenotype including stricturing and penetrating complications (Dubinsky et al. 2006 Inflamm Bowel Dis).
 
 ## Metal Biosorption
 
-- Saccharomyces species have significant **metal biosorption capacity**, binding heavy metals to cell wall components (mannoproteins, glucans, chitin).
-- *S. cerevisiae* cell walls bind [[cadmium]], [[lead]], [[copper]], [[zinc]], and [[chromium]] from solution, a property exploited in industrial bioremediation.
+- Saccharomyces species have significant **metal biosorption capacity**, binding heavy metals to cell wall components (mannoproteins, glucans, chitin) (Wang & Chen 2006 Biotechnol Adv).
+- *S. cerevisiae* cell walls bind [[cadmium]], [[lead]], [[copper]], [[zinc]], and [[chromium]] from solution, a property exploited in industrial bioremediation (Wang & Chen 2006 Biotechnol Adv; Machado et al. 2010 J Hazard Mater).
 - In the gut context, dietary or supplemental yeast may reduce bioavailable metal concentrations, potentially mitigating metal-induced [[dysbiosis]].
 - [[zinc]]-dependent alcohol dehydrogenase and Cu/Zn-superoxide dismutase are key metalloenzymes in Saccharomyces biology.
 

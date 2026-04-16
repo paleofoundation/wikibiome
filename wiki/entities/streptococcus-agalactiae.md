@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros, akbari-2022-metal-homeostasis-streptococci, sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria, ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis, wei-2020-microbiota-composition-distribution-reproductive-tract-endometriosis, chen-2020-microbiome-lower-genital-tract-endometriosis-chinese]
 tags: [gram-positive, group-b-streptococcus, gbs, facultative-anaerobe, zinc-dependent, beta-glucuronidase, estrogen-recirculation, neonatal-pathogen, endometriosis, biofilm-former]
 gram_stain: "positive"
 oxygen_requirement: "facultative"
@@ -44,18 +44,18 @@ pathogenic_potential: opportunistic
 
 ### Neonatal Infection (Classic Role)
 
-*S. agalactiae* colonizes the **lower genital tract and rectum** in 10–30% of pregnant women (depending on geography and ethnicity). During **vaginal delivery**, newborns are exposed to GBS in amniotic fluid or birth canal secretions. If mother is colonized and infant is **not treated with intrapartum antibiotic prophylaxis (IAP)**:
+*S. agalactiae* colonizes the **lower genital tract and rectum** in 10–30% of pregnant women (depending on geography and ethnicity; Verani et al. 2010 CDC guidelines). During **vaginal delivery**, newborns are exposed to GBS in amniotic fluid or birth canal secretions. If mother is colonized and infant is **not treated with intrapartum antibiotic prophylaxis (IAP)**:
 
-- **Early-onset GBS (EOB) disease**: Occurs in 1–2 per 1000 live births (pre-IAP era; now <0.5/1000 with universal screening + penicillin G prophylaxis).
+- **Early-onset GBS (EOB) disease**: Occurs in 1–2 per 1000 live births (pre-IAP era; now <0.5/1000 with universal screening + penicillin G prophylaxis; Verani et al. 2010 CDC; Schrag et al. 2000 NEJM).
 - **Neonatal sepsis**: Fever, hypotension, multi-organ failure within 24 hours of birth.
-- **Neonatal meningitis**: Occurs in 5–10% of EOB cases; 15–30% mortality despite antibiotics; neurologic sequelae in 30–50% of survivors.
-- **Risk factors**: Prematurity (<37 weeks), maternal GBS bacteriuria, prolonged rupture of membranes (>18 hours), maternal fever, low birth weight.
+- **Neonatal meningitis**: Occurs in 5–10% of EOB cases; 15–30% mortality despite antibiotics; neurologic sequelae in 30–50% of survivors (Libster et al. 2012 Pediatrics).
+- **Risk factors**: Prematurity (<37 weeks), maternal GBS bacteriuria, prolonged rupture of membranes (>18 hours), maternal fever, low birth weight (Schrag et al. 2002 NEJM).
 
 ### Gynecologic and Endometriosis Context
 
 Less clinically recognized, but **epidemiologically relevant**:
 
-- *S. agalactiae* is enriched in the **reproductive tract microbiota of endometriosis patients**.
+- *S. agalactiae* is enriched in the **reproductive tract microbiota of endometriosis patients** ([[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]; [[wei-2020-microbiota-composition-distribution-reproductive-tract-endometriosis]]; [[chen-2020-microbiome-lower-genital-tract-endometriosis-chinese]]).
 - Hypothesis: Ascended *S. agalactiae* (from lower genital tract to uterus/fallopian tubes) via dysbiotic-state facilitation.
 - Role in endometriosis: Chronic inflammation, dysbiotic dysbiosis, and estrogen recirculation (via beta-glucuronidase) may promote ectopic endometrial growth and pain.
 - **Not the sole cause**, but a **contributing dysbiotic driver**.
@@ -73,7 +73,7 @@ Less clinically recognized, but **epidemiologically relevant**:
 | **Hyaluronidase** | Zn2+ | Degrades hyaluronic acid (ECM component) | Breaks down tissue barriers; enables deeper invasion |
 | **Collagen-binding protease** | Zn2+ | Degrades type I/III collagen | Invades subepithelial tissues |
 
-**Key point**: All of these virulence factors require **bioavailable zinc**. Zinc deprivation — either from dietary insufficiency, host metallothionein sequestration, or systemic inflammation — **reduces GBS virulence** and slows disease progression.
+**Key point**: All of these virulence factors require **bioavailable zinc** ([[akbari-2022-metal-homeostasis-streptococci]]). Zinc deprivation — either from dietary insufficiency, host metallothionein sequestration, or systemic inflammation — **reduces GBS virulence** and slows disease progression ([[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]; [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]).
 
 ### Metallopeptidase Specificity
 
@@ -123,9 +123,9 @@ This makes GBS a **key driver in the estrobolome-endometriosis axis**, though it
 
 ### Manganese-Dependent Superoxide Dismutase (Mn-SOD)
 
-- *S. agalactiae* produces **Mn-superoxide dismutase** (MnSOD; also called Mn-dependent SOD) for antioxidant defense.
-- MnSOD is essential for **intracellular survival** within macrophages and neutrophils (where ROS is the primary killing mechanism).
-- Manganese deficiency impairs MnSOD synthesis → weakened intracellular survival → easier clearance by phagocytes.
+- *S. agalactiae* produces **Mn-superoxide dismutase** (MnSOD; also called Mn-dependent SOD) for antioxidant defense ([[akbari-2022-metal-homeostasis-streptococci]]).
+- MnSOD is essential for **intracellular survival** within macrophages and neutrophils (where ROS is the primary killing mechanism) ([[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]).
+- Manganese deficiency impairs MnSOD synthesis → weakened intracellular survival → easier clearance by phagocytes ([[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]).
 
 ### Iron-Dependent Enzymes
 
@@ -178,8 +178,8 @@ The **mimicry of host hyaluronic acid** is particularly clever: the bacterial GB
 
 ### Endometriosis (Emerging Association)
 
-- **Enriched in reproductive tract microbiota**: GBS abundance correlates with endometriosis severity score.
-- **Elevated in peritoneal fluid**: In some endometriosis patients with active peritoneal inflammation.
+- **Enriched in reproductive tract microbiota**: GBS abundance correlates with endometriosis severity score ([[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]; [[wei-2020-microbiota-composition-distribution-reproductive-tract-endometriosis]]).
+- **Elevated in peritoneal fluid**: In some endometriosis patients with active peritoneal inflammation ([[chen-2020-microbiome-lower-genital-tract-endometriosis-chinese]]).
 - **Estrogen-responsive dysbiosis**: GBS β-glucuronidase activity amplifies estrogen recirculation, promoting disease progression.
 - **Pain phenotype**: Elevated GBS associated with higher dysmenorrhea and pelvic pain severity scores.
 

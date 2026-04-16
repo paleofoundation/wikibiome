@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Ying Xia, Ming Sun, Hai Huang, Wei-Lin Jin]
 journal: Signal Transduction and Targeted Therapy
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, drug-repurposing, cancer-therapy, hallmarks-of-cancer, cell-death, apoptosis, ferroptosis, pyroptosis, autophagy, metformin, statins, disulfiram, organoids, colorectal-cancer, review]
 platform: wikibiome
 evidence_level: expert-opinion

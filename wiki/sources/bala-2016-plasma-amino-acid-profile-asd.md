@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [K.A. Bala, M. Dogan, T. Mutluer, S. Kaba, O. Aslan, R. Balahoroglu, E. Cokluk, L. Ustyol, S. Kocaman]
 year: 2016
 journal: "European Review for Medical and Pharmacological Sciences"
-doi: "Not available"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
 tags: [autism, amino-acids, plasma, vitamin-B12, vitamin-D, cystathionine, cystine, threonine, phosphoethanolamine]
 library_category: interventions
 platform: cureva

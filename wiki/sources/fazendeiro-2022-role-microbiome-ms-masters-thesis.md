@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Margarida Barrocas Fazendeiro]
 journal: Master's Thesis, University of Lisbon, Faculty of Pharmacy
 year: 2022
-doi: null
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (null); needs manual lookup from source PDF -->
 tags: [multiple-sclerosis, gut-microbiome, review, masters-thesis, dysbiosis, gut-brain-axis, probiotics, FMT]
 platform: wikibiome
 ---

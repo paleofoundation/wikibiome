@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Stefan Heinzel, Sepehr Rahnemaiard, Daniela Berg]
 year: 2021
 journal: "Nutrients"
-doi: "unverified"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
 tags: [parkinsons-disease, urolithins, biomarkers, dysbiosis, ellagic-acid, polyphenols, gut-microbiome, disease-progression, Gordonibacter, metabolomics]
 library_category: metabolomics
 platform: gut

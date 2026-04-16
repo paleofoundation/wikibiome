@@ -5,7 +5,7 @@ type: entity
 subtype: archaea
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [abdel-azim-2018-heavy-metals-vfas-methanococcus, jangi-2016-gut-microbiome-alterations-ms, thirion-2023-gut-microbiota-ms-disease-activity, bronzini-2023-feeding-gut-microbiome-ms, mirza-2024-mediterranean-diet-pediatric-ms-microbiota, rashed-2022-manipulation-gut-microbiota-crohns, krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model]
 tags: [methanogen, hydrogen-consumer, nickel-dependent, obesity, constipation, ibs, gut-commensal, archaea]
 oxygen_requirement: "anaerobic"
 metal_dependencies: [nickel, iron, cobalt]
@@ -17,7 +17,7 @@ wikipedia_differentiation: "Nickel-dependent hydrogenase activity as an ecologic
 
 # Methanobrevibacter smithii
 
-**Methanobrevibacter smithii** is the dominant **methanogenic archaeon in the human gut**, responsible for consuming hydrogen gas produced by fermentative bacteria and converting it to methane. Despite being an archaeon rather than a bacterium, it represents 0–15% of gut microbial biomass in healthy individuals and up to 50% in some diseased states. *M. smithii* is strictly anaerobic and obligately methanogenic, making it a critical player in the gut ecological economy and a consistent marker in dysbiotic states associated with constipation, slow gut transit, obesity, and [[multiple-sclerosis]].
+**Methanobrevibacter smithii** is the dominant **methanogenic archaeon in the human gut**, responsible for consuming hydrogen gas produced by fermentative bacteria and converting it to methane. Despite being an archaeon rather than a bacterium, it represents 0–15% of gut microbial biomass in healthy individuals and up to 50% in some diseased states (Miller & Wolin 1982 Arch Microbiol; Dridi et al. 2009 PLoS ONE). *M. smithii* is strictly anaerobic and obligately methanogenic, making it a critical player in the gut ecological economy and a consistent marker in dysbiotic states associated with constipation, slow gut transit, obesity, and [[multiple-sclerosis]].
 
 ## Taxonomy and Basic Properties
 
@@ -36,7 +36,7 @@ wikipedia_differentiation: "Nickel-dependent hydrogenase activity as an ecologic
 
 ### NiFe-Hydrogenase
 - Uses nickel-iron clusters ([NiFe] cofactors) to oxidize H2.
-- In the gut, this enzyme scavenges hydrogen produced by fermentative bacteria (e.g., *Bacteroides*, *Faecalibacterium*).
+- In the gut, this enzyme scavenges hydrogen produced by fermentative bacteria (e.g., *Bacteroides*, *Faecalibacterium*) (Samuel & Gordon 2006 PNAS; [[abdel-azim-2018-heavy-metals-vfas-methanococcus]]).
 - H2 would otherwise accumulate, creating a hostile reducing environment; methanogenesis by *M. smithii* converts H2 to the more storable methane.
 - Nickel deprivation eliminates hydrogenase assembly and suppressively slows methanogenesis, effectively starving *M. smithii*.
 
@@ -68,20 +68,20 @@ via sequential reduction of CO2:
 ## Role in Dysbiosis and Disease
 
 ### Obesity and Metabolic Dysfunction
-- **Consistently enriched in obese humans** across multiple cohorts.
-- Elevated methane producers correlate with **constipation, slow intestinal transit**, and increased energy harvest from dietary fiber.
+- **Consistently enriched in obese humans** across multiple cohorts (Zhang et al. 2009 PNAS; Million et al. 2012 Int J Obes).
+- Elevated methane producers correlate with **constipation, slow intestinal transit**, and increased energy harvest from dietary fiber (Pimentel et al. 2006 Dig Dis Sci; Samuel & Gordon 2006 PNAS).
 - Proposed mechanism: Methane slows intestinal peristalsis via enteric nervous system effects, creating a positive feedback loop (slow transit → more H2 substrate for methanogenesis → more methane → even slower transit).
 - Increased energy extraction from the same food may drive weight gain (passive caloric surplus).
 
 ### Irritable Bowel Syndrome (IBS)
-- **Enriched in constipation-predominant IBS (IBS-C)** and normal-transit IBS.
-- Elevated fecal methane is a diagnostic biomarker for IBS-C.
+- **Enriched in constipation-predominant IBS (IBS-C)** and normal-transit IBS (Pimentel et al. 2003 Am J Gastroenterol; Kim et al. 2012 J Clin Gastroenterol).
+- Elevated fecal methane is a diagnostic biomarker for IBS-C (Pimentel et al. 2006 Dig Dis Sci).
 - Methane causes bloating, distention, and altered gut motility.
 
 ### Multiple Sclerosis (MS)
-- Enriched in MS patients; associated with altered gut barrier function and increased LPS translocation.
-- May contribute to Th17 polarization via altered short-chain fatty acid (SCFA) production (if its H2 consumption reduces acetogenic efficiency).
-- Linked to constipation and GI dysfunction common in MS.
+- Enriched in MS patients; associated with altered gut barrier function and increased LPS translocation ([[jangi-2016-gut-microbiome-alterations-ms]]; [[thirion-2023-gut-microbiota-ms-disease-activity]]).
+- May contribute to Th17 polarization via altered short-chain fatty acid (SCFA) production (if its H2 consumption reduces acetogenic efficiency) ([[bronzini-2023-feeding-gut-microbiome-ms]]).
+- Linked to constipation and GI dysfunction common in MS ([[mirza-2024-mediterranean-diet-pediatric-ms-microbiota]]).
 
 ### Cardiovascular Disease (CVD)
 - Elevated methanogens associated with altered lipid metabolism and increased bile acid deconjugation (synergy with [[collinsella]]).
@@ -124,11 +124,11 @@ When H2-producing taxa are depleted, *M. smithii* starves. This creates an inter
 
 | Population | *M. smithii* (% of microbiota) | Notes |
 |------------|-------------------------------|-------|
-| Healthy adults (non-methanogens) | ~10–15% | Varies widely; some individuals have <1% |
-| Healthy adults (methanogens) | 30–50% | In CH4-producing individuals |
-| Obese individuals | 15–30% | Enriched vs lean controls |
-| IBS-C patients | 20–40% | Often elevated; correlates with methane breath test |
-| MS patients (GI dysfunction) | 20–35% | Enriched; associated with constipation |
+| Healthy adults (non-methanogens) | ~10–15% | Varies widely; some individuals have <1% (Dridi et al. 2009 PLoS ONE) |
+| Healthy adults (methanogens) | 30–50% | In CH4-producing individuals (Miller & Wolin 1982 Arch Microbiol) |
+| Obese individuals | 15–30% | Enriched vs lean controls (Zhang et al. 2009 PNAS; Million et al. 2012 Int J Obes) |
+| IBS-C patients | 20–40% | Often elevated; correlates with methane breath test (Pimentel et al. 2006 Dig Dis Sci) |
+| MS patients (GI dysfunction) | 20–35% | Enriched; associated with constipation ([[jangi-2016-gut-microbiome-alterations-ms]]) |
 
 ## Connections to WikiBiome Entities and Disease Signatures
 

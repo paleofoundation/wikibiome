@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Ismail MA, Althiyabi HA, Alotaibi NM, Althobaiti AS, Asiri AA, Alshalawi M, Hamed AT, Elsheikh T, Alfaifi MA, Althomali A]
 journal: TPM
 year: 2025
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [gerd, gastroesophageal-reflux, pathophysiology, TLESRs, LES-dysfunction, inflammation, TNF-alpha, IL-6, microbiome, bile-reflux, obesity, visceral-hypersensitivity, TRPV1, ASIC3, sleeve-gastrectomy, systematic-review]
 platform: wikibiome
 ---

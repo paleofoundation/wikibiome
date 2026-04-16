@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Hao Yu, Xing-Xiu Li, Xing Han, Bin-Xin Chen, Xing-Hua Zhang, Shan Gao, Dan-Qi Xu, Yao Wang, Zhan-Kui Gao, Lei Yu, Song-Ling Zhu, Li-Chen Yao, Gui-Rong Liu, Shu-Lin Liu, Xiao-Qin Mu]
 journal: Frontiers in Microbiology
 year: 2023
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colorectal-cancer, immune-response, NK-cells, Treg-cells, cytokines, dysbiosis, 16S-rRNA, mouse-model]
 platform: wikibiome
 evidence_level: animal-model

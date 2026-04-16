@@ -8,7 +8,7 @@ authors: [Sumit]
 journal: "Scholar's Digest: Journal of Pharmacology"
 year: 2025
 tags: [crohns-disease, IBD, microbiome, drug-development, therapeutic-strategies, probiotics, FMT, precision-medicine, dysbiosis]
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 platform: wikibiome
 ---
 

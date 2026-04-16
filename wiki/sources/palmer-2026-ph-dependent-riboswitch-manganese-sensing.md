@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Danea Palmer, Adrien Chauvier, Tomas F D Silva, Avery Ontiveros, Giovanni Bussi, Nils G Walter, Tatiana V Mishanina]
 year: 2026
 journal: "bioRxiv"
-doi: "PMC12934788"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12934788) in the doi field; real DOI needs manual lookup -->
+pmcid: "PMC12934788"
 tags: [mismetallation, metal-homeostasis, manganese, riboswitch, pH-sensing, metal-sensing, manganese-toxicity, alkaline-stress, escherichia-coli, gene-regulation]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome

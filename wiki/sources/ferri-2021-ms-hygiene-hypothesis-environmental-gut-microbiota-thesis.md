@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Caterina Ferri]
 journal: Doctoral Thesis, University of Ferrara / IIT
 year: 2021
-doi: null
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (null); needs manual lookup from source PDF -->
 tags: [multiple-sclerosis, hygiene-hypothesis, gut-microbiota, environmental-exposure, DMT, allergy, sibling-effect, dysbiosis, Italy]
 platform: wikibiome
 ---

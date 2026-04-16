@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Geir Bjorklund, Khaled Saad, Salvatore Chirumbolo, Janet K. Kern, David A. Geier, Mark R. Geier, Mauricio A. Urbina]
 year: 2016
 journal: "Acta Neurobiologiae Experimentalis"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [autism-spectrum-disorder, immune-dysfunction, neuroinflammation, cytokines, T-cells, B-cells, NK-cells, autoantibodies, immunoglobulins, dendritic-cells]
 library_category: overview
 platform: cureva

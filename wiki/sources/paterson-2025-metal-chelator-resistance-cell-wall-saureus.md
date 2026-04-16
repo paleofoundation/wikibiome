@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Joy R Paterson, Joshua M Wadsworth, Rebecca J Lee, Ping Hu, Jacob Biboy, Daniela Vollmer, Waldemar Vollmer, Jon Marles-Wright, Jana N Radin, Thomas E Kehl-Fie, Mary T Moran, Gary J Sharples]
 year: 2025
 journal: "npj Antimicrobials and Resistance"
-doi: "PMC12229560"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12229560) in the doi field; real DOI needs manual lookup -->
+pmcid: "PMC12229560"
 tags: [mismetallation, metal-homeostasis, manganese, zinc, iron, calcium, cell-wall, peptidoglycan, teichoic-acid, chelator-resistance, staphylococcus-aureus, EDTA, DTPMP, calprotectin, nutritional-immunity, PBP2]
 library_category: antimicrobial_resistance
 platform: wikibiome

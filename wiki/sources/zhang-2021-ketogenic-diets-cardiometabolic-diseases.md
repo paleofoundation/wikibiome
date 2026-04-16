@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Weiyue Zhang, Xin Guo, Lulu Chen, Ting Chen, Jiayu Yu, Chaodong Wu, Juan Zheng]
 journal: Frontiers in Endocrinology
 year: 2021
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, ketogenic-diet, obesity, hypertension, heart-failure, diabetes, dyslipidemia, NAFLD, ketone-bodies, cardiac-function]
 platform: wikibiome
 evidence_level: expert-opinion

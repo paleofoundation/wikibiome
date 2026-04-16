@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Bao K, Lin H, Guo S]
 journal: X-Disciplinarity
 year: 2025
-doi: "unverified"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiota, Graves-disease, thyroid-cancer, hypothyroidism, hyperthyroidism, SCFAs, LPS, bile-acids, indoles, probiotics, FMT, diet, levothyroxine, drug-microbiome-interaction, Lactobacillus, Bifidobacterium, Bacteroides, Clostridium, Enterobacteriaceae, Firmicutes-Bacteroidetes-ratio, gut-thyroid-axis, microbiome-diet, high-fiber-diet]
 platform: wikibiome
 ---

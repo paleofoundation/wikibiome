@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Tanweer Khan]
 year: 2017
 journal: "Conference Presentation"
-doi: "various"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
 tags: [type-1-diabetes, autoimmune, metformin, gut-microbiome, pharmacomicrobiomics, dysbiosis]
 library_category: reviews
 platform: cureva

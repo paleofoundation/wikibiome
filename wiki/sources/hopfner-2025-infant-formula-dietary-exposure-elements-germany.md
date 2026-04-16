@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Hopfner T, Wollenberg M, Jager A, Stadion M, Jung C, Klook AL, Lindtner O]
 journal: Journal of Environmental Exposure Assessment
 year: 2025
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [infant-formula, dietary-exposure, total-diet-study, Germany, arsenic, cadmium, lead, nickel, manganese, zinc, chromium, mercury, selenium, risk-assessment]
 platform: wikibiome
 ---

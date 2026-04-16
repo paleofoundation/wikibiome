@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2025
 journal: "Various"
-doi: "various"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
 tags: [type-1-diabetes, autoimmune, high-fiber-diet, gut-microbiome, insulin-sensitivity, scfa, prediabetes, dysbiosis]
 library_category: original-research
 platform: cureva

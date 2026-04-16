@@ -37,13 +37,13 @@ The most tightly regulated metal in the body, controlled by the [[hepcidin]]-fer
 
 ## Pathogen Metal Homeostasis
 
-Microbes face a dual challenge: acquiring essential metals from a host that actively withholds them ([[nutritional-immunity]]), while defending against metal toxicity weaponized by immune cells [[cassat-2012-metal-acquisition-staphylococcus-aureus]]:
+Microbes face a dual challenge: acquiring essential metals from a host that actively withholds them [[nutritional-immunity]], while defending against metal toxicity weaponized by immune cells [[cassat-2012-metal-acquisition-staphylococcus-aureus]]:
 
 - **Fur (ferric uptake regulator)**: Master Fe-sensing transcription factor in most bacteria; represses siderophore genes when Fe is sufficient.
 - **NikR**: Nickel-responsive regulator in H. pylori; controls [[urease]] and nickel transporter expression.
 - **Zur**: Zinc uptake regulator; controls Zn import and ZnuABC transporter expression.
 - **MntR**: Manganese-responsive regulator controlling Mn import.
-- **Siderophore systems**: High-affinity iron chelators ([[siderophores-metallophores]]) produced under iron limitation; enterobactin, pyoverdine, mycobactin, staphyloferrin.
+- **Siderophore systems**: High-affinity iron chelators [[siderophores-metallophores]] produced under iron limitation; enterobactin, pyoverdine, mycobactin, staphyloferrin.
 - **Efflux pumps**: CzcCBA (Cd/Zn/Co), CopA (Cu), and others protect bacteria from metal toxicity.
 
 ## When Homeostasis Fails

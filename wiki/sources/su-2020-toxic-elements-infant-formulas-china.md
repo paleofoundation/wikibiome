@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Su C, Zheng N, Gao Y, Huang S, Yang X, Wang Z, Yang H, Wang J]
 journal: Foods
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [infant-formula, heavy-metals, chromium, arsenic, cadmium, lead, risk-assessment, China, ICP-MS]
 platform: wikibiome
 ---

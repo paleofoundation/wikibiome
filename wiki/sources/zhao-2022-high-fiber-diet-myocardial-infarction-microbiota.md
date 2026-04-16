@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Jinxuan Zhao, Wei Cheng, He Lu, Anqi Shan, Qi Zhang, Xuan Sun, Lina Kang, Jun Xie, Biao Xu]
 journal: Frontiers in Microbiology
 year: 2022
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, high-fiber-diet, myocardial-infarction, gut-microbiome, inflammation, macrophage-polarization, metabolomics, SCFAs]
 platform: wikibiome
 karen_brain_primitives: [5]

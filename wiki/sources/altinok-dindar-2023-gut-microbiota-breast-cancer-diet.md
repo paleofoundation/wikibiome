@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Altinok Dindar D, Chun B, Palma A, Cheney J, Krieger M, Kasschau K, Stagaman K, Mitri ZI, Goodyear SM, Shannon J, Karstens L, Sharpton T, Zhang Z]
 journal: Nutrients
 year: 2023
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [breast-cancer, gut-microbiome, diet, Acidaminococcus, Hungatella, Tyzzerella, alpha-diversity, beta-diversity, case-control, 16S-rRNA, HEI-2015]
 platform: wikibiome
 ---

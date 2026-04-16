@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Janet K. Kern, David A. Geier, James B. Adams, Carolyn R. Garver, Tapan Audhya, Mark R. Geier]
 year: 2011
 journal: "Medical Science Monitor"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [autism-spectrum-disorder, glutathione, supplementation, transsulfuration, oxidative-stress, clinical-trial, oral, transdermal]
 library_category: interventions
 platform: cureva

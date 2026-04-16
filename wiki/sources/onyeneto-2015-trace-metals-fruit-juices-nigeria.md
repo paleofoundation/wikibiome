@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Onyeneto T.C., Nwachukwu I.N., Nwogwugwu N.U.]
 journal: Annals of Biological Research
 year: 2015
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [fruit-juice, heavy-metals, food-contamination, lead, zinc, copper, iron, Nigeria, AAS]
 platform: wikibiome
 ---

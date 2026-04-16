@@ -89,9 +89,9 @@ Sources with `doi: "various"` are typically batch-summary pages created before i
 - Concepts: 2 new concept pages not in index (actual 90 vs claimed 88).
 
 **Missing from index STOP listings (3 STOPs not included):**
-- `[[stop-iodine-supplementation-hashimotos]]`
-- `[[stop-iron-supplementation-alzheimers]]`
-- `[[stop-iron-supplementation-colorectal-cancer]]`
+- `stop iodine supplementation hashimotos`
+- `stop iron supplementation alzheimers`
+- `stop iron supplementation colorectal cancer`
 
 ---
 
@@ -223,10 +223,10 @@ The following pages are linked from signatures/entities but do not exist:
 - `[[lactoferrin-supplementation]]` (intervention — linked from signatures)
 - `[[faecalibacterium-restoration]]` (intervention — linked from crohns signature)
 - `[[high-fiber-prebiotics]]` (intervention — linked from crohns signature)
-- `[[berberine-methimazole]]` (intervention — linked from graves signature)
+- `berberine methimazole` (intervention — linked from graves signature)
 - `[[citrus-fruits]]` (intervention — linked from endometriosis signature)
 - `[[low-fat-diet]]` (intervention — linked from endometriosis signature)
-- `[[synbiotics-pdac]]`, `[[quercetin]]`, `[[ferrichrome-probiotics]]` (interventions in pancreatic-cancer signature)
+- `synbiotics pdac`, `[[quercetin]]`, `[[ferrichrome-probiotics]]` (interventions in pancreatic-cancer signature)
 - `[[acarbose-fiber-synergy]]`, `[[vitamin-d-probiotic-synergy]]`, `[[magnesium-supplementation]]` (interventions in pcos signature)
 
 Several of these are referenced in signature `validated_interventions` lists but have no intervention page — meaning the signature links are broken.

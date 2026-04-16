@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Yuejuan Nong, Jiaxin Qiao, Yixuan Zhao, Jingjing Wang, Li Xin, Weijie Wang, Weiwei Zhu]
 year: 2026
 journal: "Frontiers in Microbiology"
-doi: "PMC13010160"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC13010160) in the doi field; real DOI needs manual lookup -->
+pmcid: "PMC13010160"
 tags: [mismetallation, metal-homeostasis, superoxide-dismutase, oxidative-stress, iron-sulfur-clusters, manganese, iron, escherichia-coli, metabolic-reprogramming, siderophore]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome

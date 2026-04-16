@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Jela Hrnciarova, Klara Kubelkova, Vanda Bostik, Ivan Rychlik, Daniela Karasova, Vladimir Babak, Magdalena Datkova, Katerina Simackova, Ales Macela]
 year: 2021
 journal: "Nutrients"
-doi: None
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (None); needs manual lookup from source PDF -->
 tags: [autism, microbiota, intervention, probiotics, biological-response-modifier, randomized-trial]
 library_category: interventions
 platform: cureva

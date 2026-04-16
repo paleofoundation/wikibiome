@@ -46,7 +46,7 @@ Lipocalin-2 is a master regulator of **iron ecology** in the gut:
 
 - **Siderophore sequestration**: Traps iron-loaded enterobactin, preventing pathogenic [[escherichia-coli|E. coli]] from importing it via outer-membrane receptors (FepA, FecA)
 - **Ecological reshaping**: High lipocalin-2 → low bioavailable iron → selects against siderophore-dependent Gram-negatives → favors anaerobes ([[bacteroides-fragilis|bacteroides]], [[lachnospiraceae]]) that use alternative iron uptake (e.g., heme-iron via [[bacteroides-fragilis|B. fragilis]] IrgA)
-- **Interkingdom spillover**: Some fungi ([[candida-albicans|C. albicans]]) also produce siderophores; lipocalin-2 also targets fungal iron uptake
+- **Interkingdom spillover**: Some fungi [[candida-albicans|C. albicans]] also produce siderophores; lipocalin-2 also targets fungal iron uptake
 
 ## Connections
 

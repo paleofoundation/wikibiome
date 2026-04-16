@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Judith Aron-Wisnewsky, Karine Clement]
 year: 2019
 journal: "Various"
-doi: "various"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
 tags: [type-1-diabetes, autoimmune, fmt, therapeutic-option, gut-microbiome, insulin-sensitivity, dysbiosis]
 library_category: reviews
 platform: cureva

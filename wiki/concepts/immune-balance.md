@@ -28,7 +28,7 @@ The immune system is not a monolith but a dynamic equilibrium between pro-inflam
 ### Th17 (Barrier Immunity/Autoimmunity)
 - **Signature cytokines:** IL-17A, IL-17F, IL-22
 - **Function:** Neutrophil recruitment, antimicrobial peptide induction, mucosal defense
-- **Metal connection:** Nickel strongly activates Th17 in allergic individuals ([[nickel-allergy]]); arsenic promotes Th17 differentiation; IL-17 drives tissue damage in [[crohns-disease]], [[rheumatoid-arthritis]], [[psoriasis]]
+- **Metal connection:** Nickel strongly activates Th17 in allergic individuals [[nickel-allergy]]; arsenic promotes Th17 differentiation; IL-17 drives tissue damage in [[crohns-disease]], [[rheumatoid-arthritis]], [[psoriasis]]
 
 ### Treg (Immune Regulation)
 - **Signature markers:** FoxP3, CD25, CTLA-4

@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Sven Bolte, Sonya Girdler, Peter B. Marschik]
 journal: Cellular and Molecular Life Sciences
 year: 2019
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [autism, environmental-risk-factors, heavy-metals, zinc, copper, iron, lead, mercury, prenatal-exposure, nutrition, vaccination]
 platform: wikibiome
 ---

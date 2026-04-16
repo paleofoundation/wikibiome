@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Ilze Elbere]
 journal: Doctoral Thesis, University of Latvia
 year: 2021
-doi: null
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (null); needs manual lookup from source PDF -->
 tags: [metformin, gut-microbiome, epigenetics, type-2-diabetes, DNA-methylation, precision-medicine, drug-repurposing, multiple-sclerosis]
 platform: wikibiome
 ---

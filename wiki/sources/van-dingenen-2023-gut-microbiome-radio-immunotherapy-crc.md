@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Lena Van Dingenen, Charlotte Segers, Shari Wouters, Mohamed Mysara, Natalie Leys, Samir Kumar-Singh, Surbhi Malhotra-Kumar, Rob Van Houdt]
 journal: Frontiers in Cellular and Infection Microbiology
 year: 2023
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, gut-microbiome, radiotherapy, immunotherapy, FMT, colorectal-cancer, immune-checkpoint-blockers, MSI, dysbiosis, Fusobacterium-nucleatum, Bacteroides-fragilis, review]
 platform: wikibiome
 ---

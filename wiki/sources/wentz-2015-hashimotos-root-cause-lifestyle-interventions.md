@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Wentz I, Nowosadzka M]
 journal: Book (Self-published)
 year: 2015
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, diet, lifestyle-intervention, probiotics, fermented-foods, dietary-fiber, intestinal-permeability, gluten-free-diet, selenium, zinc, vitamin-B12, ferritin, adaptogens, curcumin, functional-medicine]
 platform: wikibiome
 ---

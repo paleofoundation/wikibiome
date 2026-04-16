@@ -47,7 +47,7 @@ In low-carbohydrate or dysbiotic environments, taxa shift to **amino acid fermen
 3. **Associated taxa**: [[clostridium-difficile]], proteolytic [[bacteroides-fragilis]], [[fusobacterium-nucleatum]]
 
 **Oxygen state switch**:
-- Healthy colon: Anaerobic, but with localized oxygen gradients near the epithelium. Facultative anaerobes ([[escherichia-coli]]) are suppressed; obligate anaerobes flourish.
+- Healthy colon: Anaerobic, but with localized oxygen gradients near the epithelium. Facultative anaerobes [[escherichia-coli]] are suppressed; obligate anaerobes flourish.
 - Dysbiosis: Hypoxia worsens; facultative anaerobes overgrow; proteolytic fermentation dominates.
 - IBD: Epithelial damage impairs oxygen barrier; microaerobic zones expand; [[adherent-invasive-e-coli]] (AIEC) proliferates.
 
@@ -67,7 +67,7 @@ Fermentative metabolism imbalance is central to dysbiosis-driven conditions:
 
 - **Nickel-hydrogenase**: Ni-dependent; essential for H₂ metabolism in many anaerobes. Dysbiotic taxa often have elevated Ni-hydrogenase expression to cope with metal-stress-induced metabolic inefficiency.
 - **Zinc-dependent glycolytic enzymes**: Dysbiotic taxa may upregulate Zn-dependent variants when Zn availability is low (part of nutritional immunity response).
-- **Iron-ferredoxins**: Fe²⁺-dependent electron shuttles in anaerobic pathways. Dysbiotic E. coli upregulate iron-acquisition ([[siderophores]]) to maintain fermentation rates under iron starvation.
+- **Iron-ferredoxins**: Fe²⁺-dependent electron shuttles in anaerobic pathways. Dysbiotic E. coli upregulate iron-acquisition [[siderophores]] to maintain fermentation rates under iron starvation.
 
 **Metabolic consequences of metal dysregulation**:
 - High circulating nickel → suppression of nickel-independent fermenters, overgrowth of Ni-dependent [[escherichia-coli]].

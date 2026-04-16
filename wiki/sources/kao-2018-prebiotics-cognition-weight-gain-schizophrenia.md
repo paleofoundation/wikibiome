@@ -6,6 +6,7 @@ updated: 2026-04-09
 authors: [Kao ACC, Burnet PWJ, Lennox B]
 journal: Psychopharmacology
 year: 2018
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [schizophrenia, prebiotics, cognition, weight-gain, GOS, SCFAs, BDNF, NMDA, gut-brain-axis, neuropeptide-Y]
 platform: wikibiome
 ---

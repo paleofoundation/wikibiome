@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Lombardi F, Fiasca F, Minelli M, Maio D, Mattei A, Vergallo I, Cifone MG, Cinque B, Minelli M]
 journal: Nutrients
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [SNAS, probiotics, gut-dysbiosis, low-nickel-diet, microbiome, indican, skatole]
 platform: wikibiome
 ---

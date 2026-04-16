@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Unknown - file inaccessible due to encoding]
 journal: Unknown
 year: Unknown
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [heavy-metals, food-safety, fish-products, PTEs, Italy, dietary-exposure, incomplete]
 platform: wikibiome
 ---

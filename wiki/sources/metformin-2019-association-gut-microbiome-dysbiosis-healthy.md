@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2019
 journal: "Various"
-doi: "various"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
 tags: [type-1-diabetes, autoimmune, metformin, healthy-volunteers, gut-microbiome, dysbiosis, pharmacomicrobiomics]
 library_category: original-research
 platform: cureva

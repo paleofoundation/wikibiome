@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Luana Leao]
 year: 2025
 journal: "University of Ottawa (M.Sc. thesis)"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [postpartum-depression, sex-hormones, gut-microbiota, psychotropic-drugs, SCFA, sex-differences, in-vitro, Bacteroidota, Firmicutes]
 library_category: preclinical
 platform: cureva

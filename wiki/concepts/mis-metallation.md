@@ -77,12 +77,12 @@ These represent instances where toxic metals displace or interfere with the esse
 
 Bacterial pathogens exploit metal competition as a virulence strategy:
 
-- **Siderophore production**: Enterobacteriaceae produce siderophores that outcompete host iron-binding proteins (transferrin, lactoferrin), enabling iron acquisition in the nutrient-limited host environment. Salmonella evolved salmochelin (glycosylated enterobactin) to evade lipocalin-2, while gut commensals like B. thetaiotaomicron use xenosiderophore piracy via XusB to intercept pathogen-produced siderophores ([[bushman-2025-nutrient-metals-bacteria-gut-infection]])
+- **Siderophore production**: Enterobacteriaceae produce siderophores that outcompete host iron-binding proteins (transferrin, lactoferrin), enabling iron acquisition in the nutrient-limited host environment. Salmonella evolved salmochelin (glycosylated enterobactin) to evade lipocalin-2, while gut commensals like B. thetaiotaomicron use xenosiderophore piracy via XusB to intercept pathogen-produced siderophores [[bushman-2025-nutrient-metals-bacteria-gut-infection]]
 - **Nickel-dependent virulence enzymes**: Urease (Ni-dependent) in H. pylori and other gut pathogens generates ammonia that damages epithelium. [NiFe]-hydrogenase enables energy acquisition in the gut
 - **Metal mimicry by chromium**: Cr(VI) enters cells via sulfate channels because CrO4 2- structurally mimics SO4 2-, achieving massive cellular accumulation (10-20x external levels within 3 hours, 100-fold+ in 24 hours)
-- **Host metal weaponization**: Vertebrate hosts exploit the narrow window between metal deficiency and toxicity through nutritional immunity -- both withholding metals (calprotectin sequesters Mn and Zn at >1 mg/mL at infection sites) and flooding pathogens with toxic copper (>500 uM in phagolysosomes) and zinc in neutrophils and macrophages ([[bushman-2025-nutrient-metals-bacteria-gut-infection]])
-- **Manganese-sparing response**: During host-imposed Mn starvation via calprotectin, S. aureus activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes at the cost of oxidative stress vulnerability. SODs bind their cofactors irreversibly, making them irrecoverable Mn sinks during limitation ([[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]])
-- **Iron-free pathogen strategy**: Borrelia burgdorferi has eliminated iron from its biology entirely, building antioxidant defense on Mn-SOD and Mn-metabolite complexes (H-Mn). This prevents Fe-catalyzed Fenton chemistry and eliminates host iron restriction as an antimicrobial weapon, but creates vulnerability to Mn toxicity when metabolite pools deplete ([[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]])
+- **Host metal weaponization**: Vertebrate hosts exploit the narrow window between metal deficiency and toxicity through nutritional immunity -- both withholding metals (calprotectin sequesters Mn and Zn at >1 mg/mL at infection sites) and flooding pathogens with toxic copper (>500 uM in phagolysosomes) and zinc in neutrophils and macrophages [[bushman-2025-nutrient-metals-bacteria-gut-infection]]
+- **Manganese-sparing response**: During host-imposed Mn starvation via calprotectin, S. aureus activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes at the cost of oxidative stress vulnerability. SODs bind their cofactors irreversibly, making them irrecoverable Mn sinks during limitation [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]]
+- **Iron-free pathogen strategy**: Borrelia burgdorferi has eliminated iron from its biology entirely, building antioxidant defense on Mn-SOD and Mn-metabolite complexes (H-Mn). This prevents Fe-catalyzed Fenton chemistry and eliminates host iron restriction as an antimicrobial weapon, but creates vulnerability to Mn toxicity when metabolite pools deplete [[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]]
 
 ## Consequences of Mis-Metallation
 
@@ -99,7 +99,7 @@ Bacterial pathogens exploit metal competition as a virulence strategy:
 
 ## The Flow Equilibrium: How Cells Prevent Mis-Metallation
 
-Recent work has revealed that bacteria maintain correct metalation not through static metal concentrations but through a "flow equilibrium" of continuous metal import and export ([[nies-2025-flow-equilibrium-model-mis-metalation-zinc]]). Key principles:
+Recent work has revealed that bacteria maintain correct metalation not through static metal concentrations but through a "flow equilibrium" of continuous metal import and export [[nies-2025-flow-equilibrium-model-mis-metalation-zinc]]. Key principles:
 
 - **Importers cannot afford high specificity** because the ionic radii of all useful transition metals are ~0.75 A; high discrimination would require prohibitively slow transport rates
 - **Metal discrimination is delegated to metalloregulators** that control efflux pump expression -- these regulators have time to discriminate because they function catalytically
@@ -108,11 +108,11 @@ Recent work has revealed that bacteria maintain correct metalation not through s
 
 ### Sensor Compatibility Theory
 
-A theoretical framework from Lenner et al. (2025) demonstrates that the entire set of metal sensors in a cell must be co-evolved for mutual compatibility ([[lenner-2025-compatibility-intracellular-binding-metal-sensor-design]]). Each sensor must be sensitive to its cognate metal at the cytosolic set-point AND specific against all noncognate metals. The compatibility constraints are so severe that only a handful of amino acid compositions (O, N, S coordination) are possible for each metal sensor. For example, Zn(II) binds cysteine ~10^4 times more strongly than Mn(II), so the MnII sensor must use O-rich (not S-rich) binding sites to avoid Zn mismetallation. Disruption of any single sensor's specificity can collapse the entire compatibility network.
+A theoretical framework from Lenner et al. (2025) demonstrates that the entire set of metal sensors in a cell must be co-evolved for mutual compatibility [[lenner-2025-compatibility-intracellular-binding-metal-sensor-design]]. Each sensor must be sensitive to its cognate metal at the cytosolic set-point AND specific against all noncognate metals. The compatibility constraints are so severe that only a handful of amino acid compositions (O, N, S coordination) are possible for each metal sensor. For example, Zn(II) binds cysteine ~10^4 times more strongly than Mn(II), so the MnII sensor must use O-rich (not S-rich) binding sites to avoid Zn mismetallation. Disruption of any single sensor's specificity can collapse the entire compatibility network.
 
 ## Synergistic Metal Toxicity and Mis-Metallation
 
-A critical emerging principle is that metal mixtures cause synergistic toxicity not predictable from individual metal effects ([[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]):
+A critical emerging principle is that metal mixtures cause synergistic toxicity not predictable from individual metal effects [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]:
 
 - **Nickel + Copper**: At environmentally relevant concentrations where neither metal alone is toxic (30 uM Ni, 15 uM Cu), the combination causes massive transcriptomic disruption in E. coli with 70% of affected genes uniquely impacted by the combination
 - **The primary target is iron-sulfur clusters**: Both Cu+ and Ni2+ displace Fe2+ from Fe-S clusters, but the combination overwhelms the ISC repair/assembly machinery
@@ -123,21 +123,21 @@ A critical emerging principle is that metal mixtures cause synergistic toxicity 
 
 The deliberate induction of mis-metallation is emerging as a powerful antimicrobial strategy:
 
-- **HP-29 + Zinc**: The halogenated phenazine HP-29 combined with zinc creates a "perfect storm" of mis-metallation in S. mutans -- 5-fold zinc increase, 50% manganese decrease, reversing the normal 8:1 Mn:Zn ratio. Manganese depletion compromises SOD, while zinc occupies Mn binding sites ([[kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive]])
-- **BMDC + Copper**: The dithiocarbamate BMDC increases intracellular copper 70-fold in MRSA within 30 minutes, causing copper to displace iron from Fe-S clusters and generating Fenton chemistry. Both copper-BMDC and zinc-BMDC eradicate established biofilms as effectively as vancomycin ([[sanchez-rosario-2026-bmdc-metal-antimicrobial-mrsa-biofilm]])
-- **PBT2 zinc ionophore**: Originally developed for Alzheimer's and Huntington's disease, PBT2 reverses tigecycline resistance in carbapenem-resistant Klebsiella pneumoniae by flooding cells with zinc, suppressing SOD activity, disrupting cell wall biosynthesis through GlmU mismetallation, and restricting efflux pump function ([[wang-2025-zinc-ionophore-pbt2-tigecycline-resistance-klebsiella]])
-- **Copper surfaces**: EPA-registered copper alloys kill 99.9% of bacteria within 2 hours; copper targets Fe-S cluster assembly proteins even under anaerobic conditions where ROS cannot form, confirming mismetallation as the primary mechanism ([[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]])
+- **HP-29 + Zinc**: The halogenated phenazine HP-29 combined with zinc creates a "perfect storm" of mis-metallation in S. mutans -- 5-fold zinc increase, 50% manganese decrease, reversing the normal 8:1 Mn:Zn ratio. Manganese depletion compromises SOD, while zinc occupies Mn binding sites [[kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive]]
+- **BMDC + Copper**: The dithiocarbamate BMDC increases intracellular copper 70-fold in MRSA within 30 minutes, causing copper to displace iron from Fe-S clusters and generating Fenton chemistry. Both copper-BMDC and zinc-BMDC eradicate established biofilms as effectively as vancomycin [[sanchez-rosario-2026-bmdc-metal-antimicrobial-mrsa-biofilm]]
+- **PBT2 zinc ionophore**: Originally developed for Alzheimer's and Huntington's disease, PBT2 reverses tigecycline resistance in carbapenem-resistant Klebsiella pneumoniae by flooding cells with zinc, suppressing SOD activity, disrupting cell wall biosynthesis through GlmU mismetallation, and restricting efflux pump function [[wang-2025-zinc-ionophore-pbt2-tigecycline-resistance-klebsiella]]
+- **Copper surfaces**: EPA-registered copper alloys kill 99.9% of bacteria within 2 hours; copper targets Fe-S cluster assembly proteins even under anaerobic conditions where ROS cannot form, confirming mismetallation as the primary mechanism [[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]]
 
 ## RNA-Based Metal Sensing to Prevent Mis-Metallation
 
 Bacteria employ sophisticated RNA-based sensors (riboswitches) to prevent metal toxicity before it causes mis-metallation:
 
-- **The alx riboswitch** in E. coli integrates Mn2+ concentration and cytoplasmic pH into a single gene expression output, coupling Mn2+ export to alkaline conditions when Mn toxicity is most dangerous. At alkaline pH, the riboswitch becomes 1000-fold more sensitive to Mn2+ ([[palmer-2026-ph-dependent-riboswitch-manganese-sensing]])
-- **Co-transcriptional metal sensing**: Both alx and mntP riboswitches begin sampling ambient Mn2+ before the RNA is fully synthesized, enabling real-time metal sensing during active transcription ([[stephen-2025-manganese-sensing-riboswitch-aptamers-expression-platforms]])
+- **The alx riboswitch** in E. coli integrates Mn2+ concentration and cytoplasmic pH into a single gene expression output, coupling Mn2+ export to alkaline conditions when Mn toxicity is most dangerous. At alkaline pH, the riboswitch becomes 1000-fold more sensitive to Mn2+ [[palmer-2026-ph-dependent-riboswitch-manganese-sensing]]
+- **Co-transcriptional metal sensing**: Both alx and mntP riboswitches begin sampling ambient Mn2+ before the RNA is fully synthesized, enabling real-time metal sensing during active transcription [[stephen-2025-manganese-sensing-riboswitch-aptamers-expression-platforms]]
 
 ## Cross-Metal Displacement in Whole Organisms
 
-Combined metallomics-metabolomics analysis in C. elegans demonstrates that excess of any single transition metal cascades into disruption of the entire metallome ([[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]]):
+Combined metallomics-metabolomics analysis in C. elegans demonstrates that excess of any single transition metal cascades into disruption of the entire metallome [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]]:
 
 - Zinc exposure decreases manganese levels (p = 0.001), and iron treatment shifts manganese speciation from LMM to HMM fractions
 - Zinc is released from proteins under manganese and iron exposure, displaced to inorganic fractions -- direct evidence of competitive displacement at protein binding sites
@@ -151,7 +151,7 @@ The mis-metallation framework has practical implications:
 - **Metal ratios** (e.g., Cu/Zn, Fe/Cu, Mn/Zn) may be more diagnostically useful than absolute concentrations -- the Mn:Zn ratio reversal documented in HP-29/zinc treatment illustrates how ratio disruption drives toxicity
 - **Zinc supplementation** can partially protect against Cd and Pb toxicity by restoring the competitive balance
 - **Iron status assessment** alongside toxic metal screening is essential because iron deficiency increases absorption of Cd, Pb, and Ni via shared transporters (DMT1)
-- **Cell wall as metal reservoir**: The bacterial cell envelope (peptidoglycan and teichoic acids) serves as a divalent cation repository that buffers against metal restriction, and mutations altering cell wall architecture can confer resistance to metal-chelating antimicrobials ([[paterson-2025-metal-chelator-resistance-cell-wall-saureus]])
+- **Cell wall as metal reservoir**: The bacterial cell envelope (peptidoglycan and teichoic acids) serves as a divalent cation repository that buffers against metal restriction, and mutations altering cell wall architecture can confer resistance to metal-chelating antimicrobials [[paterson-2025-metal-chelator-resistance-cell-wall-saureus]]
 
 ## Key Sources
 

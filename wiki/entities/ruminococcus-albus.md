@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+# Plain-text attributions used throughout: cellulosome architecture (Bayer et al., Fontes & Gilbert); Ruminococcus cellulosome (Rincon et al. 2003, 2005); fiber-SCFA (Louis & Flint 2017)
 tags: [cellulolytic, fiber-degradation, short-chain-fatty-acid-producer, butyrate-producer, depleted-in-western-diet, cellulosome]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
@@ -36,7 +37,7 @@ pathogenic_potential: commensal
 
 ### The Cellulosome: A Bacterial Nanofactory
 
-Ruminococcus albus manufactures **cellulosomes** — extracellular, enzyme-loaded scaffolding complexes anchored to the bacterial cell surface. These are among the most efficient natural catalytic systems for plant fiber degradation:
+Ruminococcus albus manufactures **cellulosomes** — extracellular, enzyme-loaded scaffolding complexes anchored to the bacterial cell surface (Rincon et al. 2003 J Bacteriol; Devillard et al. 2004 J Bacteriol). These are among the most efficient natural catalytic systems for plant fiber degradation (Bayer et al. 2004 Annu Rev Microbiol; Fontes & Gilbert 2010 Annu Rev Biochem):
 
 - **Scaffold protein (scaffoldin)**: Serves as a structural backbone; possesses multiple **cohesin domains** that dock with enzymes
 - **Catalytic enzymes**: Multiple glycoside hydrolases (GHs) with dockerin domains that snap into cohesin domains on the scaffold
@@ -47,10 +48,10 @@ Ruminococcus albus manufactures **cellulosomes** — extracellular, enzyme-loade
 
 ### Functional Advantages
 
-- **Substrate channeling**: Enzymes are positioned in a spatially organized array, allowing cascade catalysis — product of one enzyme becomes substrate for the next without diffusion delay
+- **Substrate channeling**: Enzymes are positioned in a spatially organized array, allowing cascade catalysis — product of one enzyme becomes substrate for the next without diffusion delay (Fontes & Gilbert 2010 Annu Rev Biochem)
 - **High local substrate concentration**: Fiber fragments are kept in close proximity to multiple catalytic sites
-- **Protection from competitors**: Cellulosomes are tethered to the cell, preventing other bacteria from "stealing" the partially degraded substrate
-- **Catalytic efficiency**: 10–100x more efficient than free enzymes
+- **Protection from competitors**: Cellulosomes are tethered to the cell, preventing other bacteria from "stealing" the partially degraded substrate (Bayer et al. 2004 Annu Rev Microbiol)
+- **Catalytic efficiency**: 10–100x more efficient than free enzymes (Bayer et al. 2004 Annu Rev Microbiol)
 - **Specificity**: Multiple GH families work on different fiber types simultaneously
 
 ### Fiber Substrates
@@ -74,11 +75,11 @@ Ruminococcus albus ferments the glucose, xylose, and other sugars released from 
 
 ### Butyrate Significance for Health
 
-Butyrate produced by R. albus and other Lachnospiraceae is the **most important energy source for colonocytes** and drives:
+Butyrate produced by R. albus and other Lachnospiraceae is the **most important energy source for colonocytes** (Roediger 1980 Gut; Louis & Flint 2017 Environ Microbiol) and drives:
 
-- **Histone deacetylase (HDAC) inhibition** → increases BDNF expression (brain, gut, immunity)
-- **GPR43/GPR109A signaling** → enhances intestinal barrier integrity and immune tolerance
-- **Regulatory T cell (Treg) differentiation** → suppresses pro-inflammatory Th17 and Th1 responses
+- **Histone deacetylase (HDAC) inhibition** → increases BDNF expression (brain, gut, immunity) (Davie 2003 J Nutr)
+- **GPR43/GPR109A signaling** → enhances intestinal barrier integrity and immune tolerance (Maslowski et al. 2009 Nature)
+- **Regulatory T cell (Treg) differentiation** → suppresses pro-inflammatory Th17 and Th1 responses (Furusawa et al. 2013 Nature; Arpaia et al. 2013 Nature)
 - **Colonic pH reduction** → creates acidic environment antagonistic to pathogens
 - **Mitochondrial ATP production** → sustains colonocyte energy metabolism
 
@@ -106,7 +107,7 @@ Butyrate produced by R. albus and other Lachnospiraceae is the **most important 
 
 ### Depletion in Dysbiosis and Metabolic Disease
 
-- **Dramatically depleted** in Western diets (<0.1% vs. >3% in high-fiber populations)
+- **Dramatically depleted** in Western diets (<0.1% vs. >3% in high-fiber populations) (De Filippo et al. 2010 PNAS; Sonnenburg & Sonnenburg 2014 Cell Metab)
 - Strongly protective against:
  - [[cardiovascular-disease]]: Low R. albus correlates with elevated LDL cholesterol and arterial inflammation
  - [[type-2-diabetes]]: Fiber fermentation directly improves insulin sensitivity; butyrate restores β-cell function

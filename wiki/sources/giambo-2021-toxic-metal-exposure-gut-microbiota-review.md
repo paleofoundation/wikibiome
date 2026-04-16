@@ -14,6 +14,7 @@ authors:
   - Concettina Fenga
 journal: World Academy of Sciences Journal
 year: 2021
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags:
   - heavy-metals
   - gut-microbiota

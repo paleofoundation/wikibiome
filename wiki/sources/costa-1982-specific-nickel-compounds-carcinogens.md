@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Costa M, Heck JD]
 journal: Trends in Pharmacological Sciences (TIPS)
 year: 1982
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 volume: "3:408-410"
 tags: [nickel, carcinogenesis, nickel-subsulfide, nickel-oxide, phagocytosis, cell-transformation, structure-activity, crystalline-NiS, amorphous-NiS, surface-charge, DNA-damage, foundational-paper]
 platform: wikibiome

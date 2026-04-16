@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [de Paiva EL, Medeiros C, Fioravanti MAI, Milani RF, Morgano MA, Pallone JAL, Arisseto-Bragotto AP]
 journal: Journal of Food Composition and Analysis
 year: 2020
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [aluminum, baby-food, bioaccessibility, in-vitro-digestion, infant-formula, exposure-assessment, Brazil, ICP-OES]
 platform: wikibiome
 ---

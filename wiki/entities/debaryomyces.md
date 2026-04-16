@@ -5,7 +5,7 @@ type: entity
 subtype: fungus
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [huang-2024-gut-fungi-ibd-colorectal-cancer, rashed-2022-manipulation-gut-microbiota-crohns, zhang-2017-intestinal-microbiota-immune-response-ibd, mok-2024-fungal-gut-pediatric-ms]
 tags: [enriched-in-crohns-disease, opportunistic-pathogen, pro-inflammatory, mycotoxin-producer, type-1-immunity, processed-foods]
 gram_stain: "N/A"
 oxygen_requirement: "aerobic"
@@ -32,10 +32,10 @@ wikipedia_differentiation: "Enrichment in Crohn's disease processed food environ
 
 ### Mycobiota Dysbiosis
 
-- **Dramatically enriched** (up to 100-fold elevation) in ileal and colonic biopsies from Crohn's disease patients
-- Particularly prominent in inflamed tissue vs. non-inflamed mucosa from the same patients
-- Enrichment correlates with histologic inflammation score and disease activity
-- Present at very low levels (<0.1%) in healthy controls; >5–10% in active Crohn's disease
+- **Dramatically enriched** (up to 100-fold elevation) in ileal and colonic biopsies from Crohn's disease patients (Jain et al. 2021 Science; [[huang-2024-gut-fungi-ibd-colorectal-cancer]])
+- Particularly prominent in inflamed tissue vs. non-inflamed mucosa from the same patients (Jain et al. 2021 Science)
+- Enrichment correlates with histologic inflammation score and disease activity ([[rashed-2022-manipulation-gut-microbiota-crohns]])
+- Present at very low levels (<0.1%) in healthy controls; >5–10% in active Crohn's disease (Jain et al. 2021 Science)
 
 ### Distinct from Candida
 
@@ -48,15 +48,15 @@ Debaryomyces is often overlooked in Crohn's disease discussion because Candida s
 
 ### Type 1 Immunity Activation (CCL5/CXCR3 Axis)
 
-- **Debaryomyces cell wall** is rich in **beta-glucans and mannans** that engage TLR2/6 and Dectin-1 (β-glucan receptor) on dendritic cells
-- Engagement of Dectin-1 promotes **IL-12 and IL-23 production**, driving differentiation toward Th1, Tc1, and Th17 lineages
-- Debaryomyces-conditioned dendritic cells produce **high levels of CCL5** (chemokine ligand 5)
-- CCL5 recruits CCR5+ effector T cells and NK cells to the intestinal mucosa, amplifying type 1 immunity
+- **Debaryomyces cell wall** is rich in **beta-glucans and mannans** that engage TLR2/6 and Dectin-1 (β-glucan receptor) on dendritic cells ([[huang-2024-gut-fungi-ibd-colorectal-cancer]]; Brown et al. 2003 J Exp Med)
+- Engagement of Dectin-1 promotes **IL-12 and IL-23 production**, driving differentiation toward Th1, Tc1, and Th17 lineages ([[zhang-2017-intestinal-microbiota-immune-response-ibd]])
+- Debaryomyces-conditioned dendritic cells produce **high levels of CCL5** (chemokine ligand 5) (Jain et al. 2021 Science)
+- CCL5 recruits CCR5+ effector T cells and NK cells to the intestinal mucosa, amplifying type 1 immunity (Jain et al. 2021 Science)
 
 ### Type 17 Immunity (Th17 Axis)
 
-- Fungal β-glucans also activate the IL-17 axis via Dectin-1 → Card9 → NF-κB signaling
-- Debaryomyces presence correlates with elevated ileal IL-17A and IL-17F mRNA in CD patients
+- Fungal β-glucans also activate the IL-17 axis via Dectin-1 → Card9 → NF-κB signaling ([[zhang-2017-intestinal-microbiota-immune-response-ibd]]; Leonardi et al. 2018 Science)
+- Debaryomyces presence correlates with elevated ileal IL-17A and IL-17F mRNA in CD patients ([[huang-2024-gut-fungi-ibd-colorectal-cancer]])
 - Th17 cells produce pro-inflammatory IL-17, TNF-α, and IL-22, which impair tight junction integrity and promote tissue remodeling
 
 ### Barrier Dysfunction and Epithelial Damage
@@ -131,7 +131,7 @@ CD patients with Debaryomyces enrichment and active disease often report **flare
 ## Clinical Implications and Monitoring
 
 - **Mycobiota profiling** should be part of Crohn's disease monitoring and mechanistic investigation
-- Elevated Debaryomyces is associated with poorer response to anti-TNF therapy (IFX, adalimumab)
+- Elevated Debaryomyces is associated with poorer response to anti-TNF therapy (IFX, adalimumab) (Jain et al. 2021 Science; [[rashed-2022-manipulation-gut-microbiota-crohns]])
 - May be a biomarker for identifying patients who benefit from antifungal strategies (azoles, echinocandins)
 - Associated with elevated fecal fungal biomass and dysbiosis
 

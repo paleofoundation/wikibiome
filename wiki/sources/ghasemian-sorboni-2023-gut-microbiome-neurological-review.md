@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Shokufeh Ghasemian Sorboni, Hanieh Shakeri Moghaddam, Reza Jafarzadeh-Esfehani, Saman Soleimanpour]
 year: 2023
 journal: "Unknown"
-doi: "Not available"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
 tags: [microbiome, gut-brain-axis, autism, schizophrenia, neurological-disorders, neurodevelopment]
 library_category: causal
 platform: wikibiome

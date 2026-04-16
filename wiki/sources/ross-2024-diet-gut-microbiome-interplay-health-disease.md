@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Fiona C. Ross, Dhrati Patangia, Ghjuvan Grimaud, Aonghus Lavelle, Eugene M. Dempsey, R. Paul Ross, Catherine Stanton]
 journal: Nature Reviews Microbiology
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, gut-microbiome, Mediterranean-diet, high-fiber-diet, ketogenic-diet, Western-diet, plant-based-diet, SCFAs, polyphenols, precision-nutrition]
 platform: wikibiome
 ---

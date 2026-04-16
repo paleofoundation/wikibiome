@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Hao Wu, Eduardo Esteve, Valentina Tremaroli, Muhammad Tanweer Khan, Robert Caesar, Louise Manneras-Holm, Marcus Stahlman, Lisa M. Olsson, Matteo Serino, Merce Planas-Felix, Gemma Xifra, Josep M. Mercader, David Torrents, Remy Burcelin, Wifredo Ricart, Rosie Perkins, Jose Manuel Fernandez-Real, Fredrik Backhed]
 journal: Nature Medicine
 year: 2017
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, metformin, gut-microbiome, type-2-diabetes, Bifidobacterium-adolescentis, Akkermansia-muciniphila, SCFAs, bile-acids, metagenomics]
 platform: wikibiome
 karen_brain_primitives: [5]

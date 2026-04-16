@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: []
 year: 2022
 journal: "Virology"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [parkinsons-disease, virome, phageome, gut-virome, bacteriophages, viral-dysbiosis, viral-dark-matter]
 library_category: signatures
 platform: both

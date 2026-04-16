@@ -5,6 +5,7 @@ created: 2026-04-09
 updated: 2026-04-09
 authors: [Harithaa Anandakumar]
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 journal: "PhD Dissertation, Charite Universitatsmedizin Berlin"
 tags: [chronic-kidney-disease, CKD, multi-omics, host-microbiome, cardiorenal-disease, thesis]
 platform: wikibiome

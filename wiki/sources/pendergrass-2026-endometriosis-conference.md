@@ -13,7 +13,7 @@ tags:
   - microbiome
   - metallomics
   - conference
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Andrew McLeod, Patricia Wolf, Robert S. Chapkin, Laurie A. Davidson, Ivan Ivanov, Michael Berbaum, Lauren R. Williams, H. Rex Gaskins, Jason Ridlon, Jen Sanchez-Flack, Lara Blumstein, Linda Schiffer, Alyshia Hamm, Kate Cares, Mirjana Antonic, Beatriz Penalver Bernabe, Marian Fitzgibbon, Lisa Tussing-Humphreys]
 journal: Trials
 year: 2023
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, Mediterranean-diet, bile-acids, gut-microbiome, weight-loss, African-American, health-disparities, RCT, colorectal-cancer, SCFAs, DCA, Bilophila-wadsworthia, prevention]
 platform: wikibiome
 ---

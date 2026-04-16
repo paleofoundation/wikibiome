@@ -275,72 +275,49 @@ updated: 2026-04-14
 - [[urease]]
 - [[zinc-metalloprotease]]
 
-## Disease Signatures (15)
 
-- [[alzheimers-disease]] — `cureva_status: partial`
-- [[autism-spectrum-disorder-microbiome-signature]] — `cureva_status: partial`
-- [[cardiovascular-disease]] — `cureva_status: partial`
-- [[colorectal-cancer]] — `cureva_status: partial`
-- [[crohns-disease]] — `cureva_status: partial`
-- [[depression]] — `cureva_status: partial`
-- [[endometriosis]] — `cureva_status: complete`
-- [[graves-disease]] — `cureva_status: partial`
-- [[hashimotos-thyroiditis]] — `cureva_status: partial`
-- [[multiple-sclerosis]] — `cureva_status: partial`
-- [[obesity]] — `cureva_status: partial`
-- [[pancreatic-cancer]] — `cureva_status: partial`
-- [[parkinsons-disease]] — `cureva_status: partial`
-- [[postpartum-depression]] — `cureva_status: complete`
-- [[pcos]] — `cureva_status: partial`
-- [[type-2-diabetes]] — `cureva_status: partial`
+## Interventions (29)
 
-## Interventions (13)
+Public mechanism-forward intervention pages (condition-neutral). Condition-paired clinical protocol pages are Cureva-only.
 
-- [[b-cell-depletion-therapy-ms]] — `cureva_status: partial`
-- [[ecoli-nissle-1917]] — `cureva_status: partial`
-- [[fmt-intervention]] — `cureva_status: partial`
-- [[iron-management]] — `cureva_status: partial`
-- [[ketogenic-diet]] — `cureva_status: partial`
-- [[ketogenic-diet-ms]] — `cureva_status: partial`
-- [[low-nickel-diet]] — `cureva_status: complete`
-- [[mediterranean-diet]] — `cureva_status: partial`
-- [[probiotics-asd-dysbiosis]] — `cureva_status: in-progress`
-- [[probiotics-general]] — `cureva_status: partial`
-- [[selenium-supplementation]] — `cureva_status: partial`
-- [[vitamin-d-supplementation]] — `cureva_status: partial`
-- [[zinc-supplementation]] — `cureva_status: partial`
+- [[acarbose-fiber-synergy]]
+- [[citrus-fruits]]
+- [[dietary-fiber]]
+- [[ecoli-nissle-1917]]
+- [[faecalibacterium-restoration]]
+- [[ferrichrome-probiotics]]
+- [[fmt-intervention]]
+- [[hbot]]
+- [[high-fiber-diet]]
+- [[high-fiber-prebiotics]]
+- [[iron-management]]
+- [[ketogenic-diet]]
+- [[lactoferrin-supplementation]]
+- [[low-carbohydrate-diet]]
+- [[low-fat-diet]]
+- [[low-nickel-diet]]
+- [[low-red-meat-diet]]
+- [[magnesium-supplementation]]
+- [[mediterranean-diet]]
+- [[nac-supplementation]]
+- [[prebiotics-inulin-fructo-oligosaccharide]]
+- [[probiotics-general]]
+- [[probiotics-lactobacillus-bifidobacterium]]
+- [[quercetin]]
+- [[saccharomyces-boulardii]]
+- [[selenium-supplementation]]
+- [[vitamin-d-probiotic-synergy]]
+- [[vitamin-d-supplementation]]
+- [[zinc-supplementation]]
 
-## STOPs (19)
 
-- [[stop-broad-spectrum-antibiotics-crohns]]
-- [[stop-diagnostic-overclaiming-discovery-phase]]
-- [[stop-iodine-supplementation-graves]]
-- [[stop-iodine-supplementation-hashimotos]]
-- [[stop-iron-supplementation-alzheimers]]
-- [[stop-iron-supplementation-asd]]
-- [[stop-iron-supplementation-cardiovascular-disease]]
-- [[stop-iron-supplementation-colorectal-cancer]]
-- [[stop-iron-supplementation-crohns]]
-- [[stop-iron-supplementation-depression]]
-- [[stop-iron-supplementation-endometriosis]]
-- [[stop-iron-supplementation-graves]]
-- [[stop-iron-supplementation-ms]]
-- [[stop-iron-supplementation-obesity]]
-- [[stop-iron-supplementation-parkinsons]]
-- [[stop-iron-supplementation-pcos]]
-- [[stop-iron-supplementation-type-2-diabetes]]
-- [[stop-isolated-zinc-supplementation-pcos]]
-- [[stop-scfa-replacement-without-dysbiosis-restoration-ms]]
-- [[stop-zinc-supplementation-endometriosis]]
-
-## Analyses (11)
+## Analyses (13)
 
 - [[dietary-metal-exposure-by-life-stage]]
 - [[dietary-metal-paradoxes]]
 - [[gaps-and-improvements-2026-04-12]]
 - [[gaps-and-improvements-2026-04-13]]
 - [[gaps-and-improvements-2026-04-14]]
-- [[iron-supplementation-stops-across-conditions]]
 - [[lint-2026-04-13]]
 - [[lint-report-2026-04-12]]
 - [[lint-report-2026-04-13]]

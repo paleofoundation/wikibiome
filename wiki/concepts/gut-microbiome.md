@@ -11,7 +11,7 @@ platform: wikibiome
 
 # Gut Microbiome
 
-The community of trillions of microorganisms -- bacteria, archaea, fungi ([[mycobiome]]), viruses, and bacteriophages -- inhabiting the human gastrointestinal tract, with the highest density in the colon (~10^11 cells/g). The gut microbiome encodes 100-150 times more genes than the human genome and functions as a metabolic organ producing vitamins, [[short-chain-fatty-acids]], [[indoles]], secondary [[bile-acids|bile acids]], neurotransmitters, and other bioactive compounds.
+The community of trillions of microorganisms -- bacteria, archaea, fungi [[mycobiome]], viruses, and bacteriophages -- inhabiting the human gastrointestinal tract, with the highest density in the colon (~10^11 cells/g). The gut microbiome encodes 100-150 times more genes than the human genome and functions as a metabolic organ producing vitamins, [[short-chain-fatty-acids]], [[indoles]], secondary [[bile-acids|bile acids]], neurotransmitters, and other bioactive compounds.
 
 ## Composition
 
@@ -19,7 +19,7 @@ The healthy adult gut microbiome is dominated by two bacterial phyla:
 - **Bacillota (Firmicutes)**: Includes key SCFA producers -- [[faecalibacterium-prausnitzii]], Roseburia, [[blautia]], Eubacterium, Coprococcus, and [[lactobacillus]].
 - **Bacteroidota (Bacteroidetes)**: Includes [[bacteroides-fragilis]], Prevotella, and [[bacteroides-thetaiotaomicron]], important for polysaccharide degradation and propionate production.
 
-Minor but functionally important phyla include Actinobacteria ([[bifidobacterium]]), Pseudomonadota (Proteobacteria), and Verrucomicrobiota ([[akkermansia-muciniphila]]).
+Minor but functionally important phyla include Actinobacteria [[bifidobacterium]], Pseudomonadota (Proteobacteria), and Verrucomicrobiota [[akkermansia-muciniphila]].
 
 ## Core Functions
 

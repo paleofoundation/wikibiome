@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Cristina Rusu, Cristina Preda, Adriana Sireteanu, Carmen Vulpoi]
 journal: Environmental Engineering and Management Journal
 year: 2015
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [autism, risk-factors, genetics, epigenetics, immune-dysfunction, oxidative-stress, heavy-metals, gut-microbiota, mercury, lead, cadmium, zinc]
 platform: wikibiome
 ---

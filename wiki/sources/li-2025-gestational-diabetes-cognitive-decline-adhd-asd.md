@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Queenie Li Ling Jun]
 year: 2025
 journal: "NUS Medicine Press Release / European Association for the Study of Diabetes (EASD)"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [autism-spectrum-disorder, gestational-diabetes, ADHD, cognitive-decline, maternal-health, pregnancy, metabolic-disorders]
 library_category: associated-conditions
 platform: cureva

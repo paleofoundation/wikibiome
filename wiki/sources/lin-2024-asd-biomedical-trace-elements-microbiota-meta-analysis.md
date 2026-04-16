@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Ping Lin, Qianwen Zhang, Junyu Sun, Qingtian Li, Dan Li, Mengyuan Zhu, Xiaomei Fu, Ling Zhao, Qing Chen, Kangyi Liang, Mengxia Wang, Xiaoyuan Lou, Yuxin Zhu, Caiwei Qu, Zhenhua Li, Peijun Ma, Renyu Wang, Huafen Liu, Ke Dong, Xiaokui Guo, Xunjia Cheng, Yang Sun, Jing Sun]
 journal: Frontiers in Psychiatry
 year: 2024
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [autism, meta-analysis, trace-elements, iron, zinc, copper, biomarkers, gut-microbiota, CRP, GABA, serotonin, oxytocin]
 platform: wikibiome
 ---

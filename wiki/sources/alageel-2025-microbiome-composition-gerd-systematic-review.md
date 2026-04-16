@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Alageel AA, Alomran DA, Alharbi HB, Almatar BA, Alzahrani AI, Alibrahim AA, Elzinkarani M, Jawi NT, Alrashed FA, Almazni AM, Alruwaili SS, Johari NY, Alfuraydi OA]
 journal: TPM
 year: 2025
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [gerd, gastroesophageal-reflux, systematic-review, microbiome-composition, dysbiosis, streptococcus, prevotella, veillonella, leptotrichia, barretts-esophagus, esophageal-adenocarcinoma, proton-pump-inhibitors, small-intestinal-bacterial-overgrowth, mendelian-randomization, arachidonic-acid, glutathione, ABC-transporters, metabolic-pathways]
 platform: wikibiome
 ---

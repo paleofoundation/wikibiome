@@ -12,7 +12,7 @@ The pathological disruption of normal metal homeostasis -- the tightly regulated
 
 ## Manifestations
 
-- **Excess**: iron overload ([[ferroptosis]]), copper accumulation (Wilson disease), manganese toxicity (manganism).
+- **Excess**: iron overload [[ferroptosis]], copper accumulation (Wilson disease), manganese toxicity (manganism).
 - **Deficiency**: zinc deficiency (immune dysfunction, growth retardation), selenium deficiency (thyroid dysfunction, Keshan disease), iron deficiency (anemia).
 - **Redistribution**: metals may be globally adequate but locally mislocalized (e.g., iron accumulation in substantia nigra during [[parkinsons-disease]] despite systemic adequacy).
 - **Ratio disruption**: Cu:Zn ratio elevation is documented in [[colorectal-cancer]], [[cardiovascular-disease]], [[pcos]], and [[inflammation]].

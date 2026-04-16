@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Ilze Elbere, Ineta Kalnina, Ivars Silamikelis, Ilze Konrade, Linda Zaharenko, Kristine Sekace, Ize Radovica-Spalvina, Davids Fridmanis, Dita Gudra, Valdis Pirags, Janis Klovins]
 journal: PLOS ONE
 year: 2018
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, metformin, gut-microbiome, dysbiosis, Escherichia-Shigella, Peptostreptococcaceae, Clostridiaceae, alpha-diversity]
 platform: wikibiome
 ---

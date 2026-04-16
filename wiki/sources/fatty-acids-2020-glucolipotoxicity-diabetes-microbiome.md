@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2020
 journal: "Various"
-doi: "various"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
 tags: [type-1-diabetes, autoimmune, glucolipotoxicity, fatty-acids, beta-cells, gut-microbiome, lipid-metabolism, dysbiosis]
 library_category: reviews
 platform: cureva

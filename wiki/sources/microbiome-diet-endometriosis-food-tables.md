@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Unknown]
 journal: Supplementary Material (no journal identified)
 year: Unknown
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [diet, endometriosis, nickel, zinc, iron, cadmium, lead, food-tables, low-metal-diet, supplementary-data]
 platform: wikibiome
 ---

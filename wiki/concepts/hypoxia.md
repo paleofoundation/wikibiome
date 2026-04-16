@@ -27,7 +27,7 @@ Hypoxia in two key disease contexts:
 
 - HIF-1α is stabilized (normally hydroxylated and degraded at normoxia)
 - HIF-1α dimerizes with HIF-1β and binds hypoxia response elements (HREs)
-- Upregulates genes for: angiogenesis (VEGF), glycolytic enzymes (PKM2, LDHA), immune evasion ([[pd-l1]])
+- Upregulates genes for: angiogenesis (VEGF), glycolytic enzymes (PKM2, LDHA), immune evasion [[pd-l1]]
 
 **Metabolic consequences:**
 - Obligate aerobes (e.g., [[faecalibacterium-prausnitzii|faecalibacterium]]) cannot survive; population crashes

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [MaryAnn Udechukwu]
 year: 2024
 journal: "University of Ottawa (PhD thesis)"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [postpartum-depression, mediterranean-diet, prenatal-stress, neuroinflammation, gut-microbiota, HPA-axis, mouse-model, offspring]
 library_category: preclinical
 platform: cureva

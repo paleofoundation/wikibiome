@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Nil Novau-Ferré, Christopher Papandreou, Meritxell Rojo-Marticella, Josefa Canals-Sans, Mónica Bulló]
 year: 2025
 journal: "Research in Developmental Disabilities"
-doi: "Not available"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
 tags: [autism, adhd, microbiome, probiotics, intervention, rct]
 library_category: interventions
 platform: cureva

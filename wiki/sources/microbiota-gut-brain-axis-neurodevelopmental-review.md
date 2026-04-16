@@ -7,7 +7,7 @@ authors:
   - "[Extract full author list from PDF]"
 year: 2023
 journal: Protein & Cell
-doi: None
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (None); needs manual lookup from source PDF -->
 tags:
   - microbiota
   - gut-brain-axis

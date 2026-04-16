@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Lei HL, Wei HJ, Ho HY, Liao KW, Chien LC]
 journal: "BMC Public Health"
 year: 2015
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [female-infertility, lead, cadmium, arsenic, Chinese-herbal-medicine, Taiwan, reproductive-health]
 platform: wikibiome
 ---

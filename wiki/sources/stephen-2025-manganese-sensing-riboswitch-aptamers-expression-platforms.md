@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Christine Stephen, Danea E Palmer, Clarisa Bautista, Tatiana V Mishanina]
 year: 2025
 journal: "Nucleic Acids Research"
-doi: "PMC12153347"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12153347) in the doi field; real DOI needs manual lookup -->
+pmcid: "PMC12153347"
 tags: [mismetallation, metal-homeostasis, manganese, riboswitch, metal-sensing, co-transcriptional-folding, yybP-ykoY, gene-regulation, escherichia-coli, manganese-toxicity]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome

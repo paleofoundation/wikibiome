@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Lin J, Lin X, Qiu J, You X, Xu J]
 journal: "Frontiers in Public Health"
 year: 2023
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [infertility, arsenic, cadmium, lead, mercury, NHANES, female-reproductive-health]
 platform: wikibiome
 ---

@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Bastian Blume, Philippe Schmitt-Kopplin, Bernhard Michalke]
 year: 2026
 journal: "Analytical and Bioanalytical Chemistry"
-doi: "PMC12909348"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12909348) in the doi field; real DOI needs manual lookup -->
+pmcid: "PMC12909348"
 tags: [mismetallation, metal-homeostasis, iron, manganese, zinc, ferroptosis, metal-speciation, c-elegans, parkinsons-disease, metallomics, metabolomics, neurodegenerative-disease]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome

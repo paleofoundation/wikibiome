@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Avner Leshem, Nir Horesh, Eran Elinav]
 journal: Frontiers in Immunology
 year: 2019
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, FMT, fecal-microbiota-transplant, cardiometabolic-syndrome, insulin-sensitivity, TMAO, atherosclerosis, obesity, donor-selection]
 platform: wikibiome
 ---

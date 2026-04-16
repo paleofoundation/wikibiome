@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Noor Alam]
 year: 2025
 journal: "Ta'lim, Tarbiya va Innovatsiyalar"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [autism-spectrum-disorder, microbiome-pharmacology, FMT, next-generation-probiotics, drug-metabolism, precision-medicine, gut-brain-axis, therapeutic-interventions]
 library_category: interventions
 platform: cureva

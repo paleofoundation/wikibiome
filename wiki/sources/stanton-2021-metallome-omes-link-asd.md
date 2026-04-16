@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Janelle E. Stanton, Sigita Malijauskaite, Kieran McGourty, Andreas M. Grabrucker]
 journal: Frontiers in Molecular Neuroscience
 year: 2021
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [autism, metallome, multi-omics, zinc, copper, iron, proteome, transcriptome, microbiome, lipidome, metal-dyshomeostasis]
 platform: wikibiome
 ---

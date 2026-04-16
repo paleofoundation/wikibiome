@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [European Commission Scientific Committee on Food]
 journal: SCF/CS/CNTM/OTH/18 Final (EU Scientific Opinion)
 year: 2001
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [tin, regulatory, EU, canned-food, food-safety, inorganic-tin, gastric-irritation, JECFA]
 platform: wikibiome
 ---

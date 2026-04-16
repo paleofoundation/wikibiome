@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Ruxin Shen, Yingying Zhang]
 journal: International Journal of Molecular Medicine
 year: 2025
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: DOI missing from source page; requires manual lookup from the PDF or journal. -->
 tags: [cardiovascular-disease, amino-acids, inflammation, coronary-heart-disease, arginine, glutamate, BCAAs, tryptophan, TMAO, immunometabolic-reprogramming]
 platform: wikibiome
 ---

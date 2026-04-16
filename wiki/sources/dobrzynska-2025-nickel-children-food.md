@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Dobrzyńska MM, Gajowik A, Jankowska-Steifer EA, Radzikowska J]
 journal: Acta Sci Pol Technol Aliment
 year: 2025
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [nickel, dietary-exposure, children, review, food-safety, biomonitoring, endocrine-disruption]
 platform: wikibiome
 ---

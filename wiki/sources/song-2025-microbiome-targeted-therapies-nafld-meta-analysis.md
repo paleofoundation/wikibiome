@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Yijia Song, Sutong Liu, Lihui Zhang, Wenxia Zhao, Yuanmei Qin, Minghao Liu]
 journal: Frontiers in Nutrition
 year: 2025
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, microbiome-targeted-therapy, NAFLD, probiotics, synbiotics, prebiotics, FMT, antibiotics, network-meta-analysis, liver-enzymes]
 platform: wikibiome
 ---

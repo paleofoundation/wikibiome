@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Alonso-Garcia P, Martin R, Martinez-Pinilla E]
 journal: Exploration of Neuroprotective Therapy
 year: 2021
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [gut-microbiota, proteinopathies, neurodegeneration, Parkinsons-disease, Alzheimers-disease, Huntingtons-disease, gut-brain-axis, dysbiosis, probiotics, FMT]
 platform: wikibiome
 ---

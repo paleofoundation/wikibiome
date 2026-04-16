@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [C.N. Amadi, Ch.N. Orish, Ch. Frazzoli, O.E. Orisakwe]
 year: 2022
 journal: "Psychiatriki"
-doi: "Not available"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
 tags: [autism, diet, GFCF, ketogenic, mediterranean, FODMAP, polyphenols, camel-milk, systematic-review]
 library_category: interventions
 platform: cureva

@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [Bandaru S. Reddy]
 journal: British Journal of Nutrition
 year: 1998
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [colon-cancer, prebiotics, probiotics, oligofructose, inulin, Bifidobacterium-longum, aberrant-crypt-foci, ODC, ras-p21, colorectal-cancer, prevention, Raftilose, Raftiline]
 platform: wikibiome
 ---

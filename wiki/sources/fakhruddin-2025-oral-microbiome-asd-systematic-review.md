@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Kausar Sadia Fakhruddin, Iman Kamal, Tatia Maglaperidze, Anand Maryah, Lakshman Samaranayake, Thantrira Porntaveetus]
 year: 2025
 journal: "International Dental Journal"
-doi: "Not available"
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
 tags: [autism, oral-microbiome, dysbiosis, host-microbial-interactions, diversity]
 library_category: causal
 platform: both

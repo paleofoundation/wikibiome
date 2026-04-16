@@ -7,6 +7,7 @@ updated: 2026-04-09
 authors: [David Ma, Amy C. Wang, Ishita Parikh, Stefan J. Green, Jared D. Hoffman, George Chlipala, M. Paul Murphy, Brent S. Bhatt, Bjorn Bauer, Anika M. S. Hartz, Ai-Ling Lin]
 journal: Scientific Reports
 year: 2018
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [cardiovascular-disease, ketogenic-diet, gut-microbiome, neurovascular-function, cerebral-blood-flow, Akkermansia, Lactobacillus, mTOR, eNOS, BBB]
 platform: wikibiome
 ---

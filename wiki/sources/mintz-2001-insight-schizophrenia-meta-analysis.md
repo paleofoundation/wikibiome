@@ -6,6 +6,7 @@ updated: 2026-04-09
 authors: [Mintz AR]
 journal: University of Calgary (Master's Thesis)
 year: 2001
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [schizophrenia, insight, anosognosia, meta-analysis, positive-symptoms, negative-symptoms, depression]
 platform: wikibiome
 ---

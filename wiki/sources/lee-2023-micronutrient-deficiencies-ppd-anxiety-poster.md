@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Destiny Lee]
 year: 2023
 journal: "Tennessee Tech University (poster/review)"
-doi: ""
+doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [postpartum-depression, micronutrient-deficiency, vitamin-D, iron, zinc, selenium, omega-3, B-vitamins, gut-brain-axis, review]
 library_category: review
 platform: cureva
