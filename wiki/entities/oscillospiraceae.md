@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
+sources: [pendergrass-2026-heavy-metals-obesity-epidemic, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity, zhang-2025-gut-virome-premalignant-colorectal-adenoma, teng-2024-gut-microbiome-lipids-mr, svensson-2021-endometriosis-gut-microbiota-associations]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, zinc]
@@ -72,14 +72,14 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 
 ### Inflammatory Bowel Disease (IBD)
 
-- **Depleted in both Crohn's and Ulcerative Colitis**: Reduced fecal abundance during flares; partial recovery during remission.
+- **Depleted in both Crohn's and Ulcerative Colitis**: Reduced fecal abundance during flares; partial recovery during remission [[zhu-2024-toxic-essential-metals-gut-microbiota]].
 - **Disease activity correlation**: Lower Oscillospiraceae abundance predicts worse disease outcomes and flare risk.
-- **Mechanistic contribution**: Loss of SCFA producers → reduced epithelial energy → barrier dysfunction → increased paracellular permeability → antigen breach → immune activation.
+- **Mechanistic contribution**: Loss of SCFA producers → reduced epithelial energy → barrier dysfunction → increased paracellular permeability → antigen breach → immune activation [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 - **Interkingdom context**: Reduced Oscillospiraceae allows [[candida-albicans]] and [[fusobacterium-varium]] expansion, perpetuating dysbiotic state.
 
 ### Colorectal Cancer (CRC)
 
-- **Significantly depleted in CRC tissue and feces**: Compared to polyp-free controls.
+- **Significantly depleted in CRC tissue and feces**: Compared to polyp-free controls [[zhang-2025-gut-virome-premalignant-colorectal-adenoma]].
 - **Mechanistic relevance**: Loss of butyrate-driven anti-inflammatory differentiation → increased Th17/Treg imbalance → elevated IL-17, TNF-α → chronic colonic inflammation → adenoma initiation and progression.
 
 ### Other Dysbiotic Conditions

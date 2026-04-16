@@ -66,10 +66,10 @@ Because each of these metals is simultaneously required by the fungus and seques
 
 ## Disease Associations
 
-- **Crohn's disease** — elevated in mycobiome surveys of CD patients relative to healthy controls; participates in the *C. tropicalis* + AIEC + *S. marcescens* triple-species biofilm; cross-reacts with ASCA (anti-*Saccharomyces cerevisiae* antibody), the established serologic CD marker, making it a plausible true antigen behind part of the ASCA response
+- **Crohn's disease** — elevated in mycobiome surveys of CD patients relative to healthy controls; participates in the *C. tropicalis* + AIEC + *S. marcescens* triple-species biofilm; cross-reacts with ASCA (anti-*Saccharomyces cerevisiae* antibody), the established serologic CD marker, making it a plausible true antigen behind part of the ASCA response [[alves-2020-candida-adapting-survive-host-constraints]]
 - **Schizophrenia** — recently implicated by rat-model work showing that *C. tropicalis* is one of the fungal species that **persists in the gut after fecal microbiota transplant** in a schizophrenia model, suggesting a refractory fungal reservoir that standard FMT does not clear [[krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model]]
 - **Pancreatic cancer** — oral and gut mycobiome profiles in pancreatic cancer cohorts include *C. tropicalis* among fungi associated with risk or disease status [[meng-2025-oral-bacterial-fungal-microbiome-pancreatic-cancer-risk]]
-- **Candidemia in immunocompromised hosts** — particularly in hematologic malignancy, where neutropenia and gut barrier disruption permit translocation
+- **Candidemia in immunocompromised hosts** — particularly in hematologic malignancy, where neutropenia and gut barrier disruption permit translocation [[alves-2020-candida-adapting-survive-host-constraints]]
 - **Invasive abdominal candidiasis** — associated with peritonitis following GI surgery, anastomotic leak, or recurrent perforation
 
 ## Antifungal Resistance

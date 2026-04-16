@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: [saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, dai-2024-gut-microbiota-cvd-bidirectional-mr, sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction, zhu-2024-toxic-essential-metals-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd]
+sources: [saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, dai-2024-gut-microbiota-cvd-bidirectional-mr, sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction, zhu-2024-toxic-essential-metals-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd, yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s, patrono-2021-schizophrenia-gut-microbiota-optogenetics-nmda-gaba, gong-2025-gut-microbiota-diagnostic-ovarian-tumor, gao-2021-butyrate-producing-microbiota-reduced-ckd, he-2024-gut-microbial-scfas-ckd]
 metal_dependencies: [cobalt -- B12-dependent metabolic pathways; sensitive to heavy metal disruption]
 tags: [commensal, butyrate-producer, depleted-in-depression, depleted-in-MS, depleted-in-IBD, mental-health, happiness-bug, metal-sensitive]
 platform: wikibiome
@@ -13,7 +13,7 @@ last_substantive_update: 2026-04-13
 seo_target: "Coprococcus butyrate depression happiness gut-brain axis"
 wikipedia_differentiation: "Population-level mental health association data with cobalt-B12 dependency and heavy metal sensitivity profiling"
 conditions_enriched_in: []
-conditions_depleted_in: [depression, multiple-sclerosis, inflammatory-bowel-disease, colorectal-cancer]
+conditions_depleted_in: [depression, multiple-sclerosis, inflammatory-bowel-disease, colorectal-cancer, schizophrenia, chronic-kidney-disease, ovarian-cancer]
 pathogenic_potential: commensal
 ---
 
@@ -33,6 +33,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 - The landmark Valles-Colomer 2019 study identified *Coprococcus* (alongside [[faecalibacterium-prausnitzii]]) as consistently **depleted in individuals with depression**, even after controlling for antidepressant use -- one of the first population-scale microbiome-mental health associations.
 - *Coprococcus* produces DOPAC (3,4-dihydroxyphenylacetic acid), a dopamine metabolite, providing a plausible mechanism for its mental health associations via the [[gut-brain-axis]].
 - Consistently decreased in [[autism-spectrum-disorder]] youth across multiple observational reviews [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]].
+- Depleted in [[schizophrenia]] patients alongside other SCFA producers, consistent with the dysbiosis-inflammation-neurotransmitter axis in psychotic disorders [[yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s]] [[patrono-2021-schizophrenia-gut-microbiota-optogenetics-nmda-gaba]].
 
 ## Sensitivity to Heavy Metals
 
@@ -57,6 +58,12 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 
 ### Colorectal Cancer
 - Depleted in CRC; part of the butyrate-producing consortium lost during tumorigenesis [[sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction]].
+
+### Ovarian Cancer
+- Altered *Coprococcus* abundance contributes to the diagnostic gut microbiome signature distinguishing ovarian tumor patients from healthy controls, consistent with the broad depletion of butyrate producers across gynecological cancers [[gong-2025-gut-microbiota-diagnostic-ovarian-tumor]].
+
+### Chronic Kidney Disease
+- Depleted as part of the broader loss of butyrate-producing consortia in CKD; reduced SCFA availability contributes to uremic toxin accumulation and gut-kidney axis dysfunction [[gao-2021-butyrate-producing-microbiota-reduced-ckd]] [[he-2024-gut-microbial-scfas-ckd]].
 
 ## Key Metabolites
 

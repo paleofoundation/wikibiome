@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: [huang-2024-gut-fungi-ibd-colorectal-cancer, wei-2025-gut-mycobiome-cardiometabolic-disease, qiu-2023-gut-mycobiome-hypertension-ckd, strati-2017-altered-gut-microbiota-mycobiota-asd, li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]
+sources: [huang-2024-gut-fungi-ibd-colorectal-cancer, wei-2025-gut-mycobiome-cardiometabolic-disease, qiu-2023-gut-mycobiome-hypertension-ckd, strati-2017-altered-gut-microbiota-mycobiota-asd, li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort, motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]
 metal_dependencies: [zinc -- Zn-dependent alcohol dehydrogenase; copper -- Cu/Zn-SOD for oxidative stress defense; metal biosorption capacity]
 tags: [fungus, probiotic, pathobiont, CRC-mycobiome, metal-biosorption, ASCA-antibodies]
 platform: wikibiome
@@ -28,6 +28,7 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
  - **Anti-inflammatory effects**: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells (Sougioultzis et al. 2006 BBRC).
  - **Barrier protection**: upregulates tight junction proteins and secretory IgA production (Czerucka et al. 2007 Aliment Pharmacol Ther).
  - **Antibiotic-associated diarrhea**: reduces incidence by approximately 50% across meta-analyses (Szajewska & Kołodziej 2015 Aliment Pharmacol Ther; Hempel et al. 2012 JAMA).
+ - **Multiple sclerosis adjunctive use**: evaluated as an adjunctive microbiome-targeted intervention in RCT [[motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]].
 - Unlike bacterial probiotics, *S. boulardii* is inherently resistant to all antibacterial antibiotics, making it uniquely suited for co-administration during antibiotic therapy (Czerucka et al. 2007 Aliment Pharmacol Ther).
 - Produces 54-kDa serine protease that degrades *C. difficile* toxin A and its intestinal receptor (Castagliuolo et al. 1996 Infect Immun; Castagliuolo et al. 1999 Infect Immun).
 
@@ -41,6 +42,12 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 - *Saccharomyces* enriched in HTN+CKD comorbidity patients; positively associated with IFN-gamma, IL-4, and eGFR [[qiu-2023-gut-mycobiome-hypertension-ckd]].
 - Present in hypertensive cohorts (8.46% of fungal community in HTN vs lower in normotensive controls) [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
 - *S. boulardii* supplementation failed to improve cardiac function in the GutHeart trial for heart failure (Awoyemi et al. 2021 eBioMedicine — GutHeart trial).
+
+### Autism Spectrum Disorder
+- *Saccharomyces* abundance altered in gut mycobiome of ASD children, part of the broader fungal dysbiosis profile in the condition [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
+
+### CRC Mycobiome-Bacteriome Integration
+- Combined 16S and ITS profiling in Chinese CRC/adenoma cohorts places *Saccharomyces* within the fungal signature alongside key bacterial CRC biomarkers [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]].
 
 ### Crohn's Disease and ASCA
 - Anti-*Saccharomyces cerevisiae* antibodies (ASCA) are a well-established serological marker for Crohn's disease, suggesting immune sensitization to this yeast in the inflamed gut (Main et al. 1988 BMJ; Quinton et al. 1998 Gut).

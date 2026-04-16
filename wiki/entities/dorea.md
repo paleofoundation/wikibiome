@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: [radojevic-2023-microbiome-gut-brain-axis-ms, saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, sobhani-2011-microbial-dysbiosis-colorectal-cancer, dai-2024-gut-microbiota-cvd-bidirectional-mr, zhang-2021-causal-direction-microbiota-ibd-mr]
+sources: [radojevic-2023-microbiome-gut-brain-axis-ms, saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, sobhani-2011-microbial-dysbiosis-colorectal-cancer, dai-2024-gut-microbiota-cvd-bidirectional-mr, zhang-2021-causal-direction-microbiota-ibd-mr, wu-2021-premature-ovarian-insufficiency-gut-microbiota]
 metal_dependencies: [none confirmed]
 tags: [mixed, Lachnospiraceae, MS-biomarker, formate-producer, enriched-in-autoimmunity]
 platform: wikibiome
@@ -44,6 +44,9 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 
 ### Inflammatory Bowel Disease
 - MR evidence suggests causal associations between *Dorea* and IBD risk, though directionality varies by study and IBD subtype [[zhang-2021-causal-direction-microbiota-ibd-mr]].
+
+### Premature Ovarian Insufficiency
+- Altered *Dorea* abundance is part of the dysbiotic gut signature in [[premature-ovarian-insufficiency]], contributing to the estrobolome disruption and hormone-microbiome axis perturbation in this condition [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]].
 
 ## Key Metabolites
 

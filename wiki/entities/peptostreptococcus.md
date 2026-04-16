@@ -23,16 +23,16 @@ A Gram-positive, obligate anaerobic genus that has emerged as one of the most co
 
 ## Role in Gut Ecosystem
 
-- Low-abundance member of the normal gut microbiota that expands dramatically under dysbiotic conditions, particularly in the CRC tumor microenvironment.
-- Iron-dependent organism; its expansion in CRC may be facilitated by the iron-rich environment of bleeding tumors and the disrupted [[nutritional-immunity]] landscape of the tumor microenvironment.
-- Part of the oral-gut translocation pathway -- normally abundant in the oral cavity, *Peptostreptococcus* can colonize the colon when oral barrier function is compromised or gastric acid is suppressed.
+- Low-abundance member of the normal gut microbiota that expands dramatically under dysbiotic conditions, particularly in the CRC tumor microenvironment [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
+- Iron-dependent organism; its expansion in CRC may be facilitated by the iron-rich environment of bleeding tumors and the disrupted [[nutritional-immunity]] landscape of the tumor microenvironment [[norouzi-beirami-2020-functional-microbiome-crc]].
+- Part of the oral-gut translocation pathway -- normally abundant in the oral cavity, *Peptostreptococcus* can colonize the colon when oral barrier function is compromised or gastric acid is suppressed [[zangeneh-2021-oral-microbiota-ms]].
 
 ## Mechanisms of CRC Promotion
 
-- **Cholesterol biosynthesis**: *P. anaerobius* activates cholesterol biosynthesis pathways in colonic epithelial cells, promoting cell proliferation. This connects to the broader observation that altered lipid metabolism characterizes CRC progression.
-- **ROS generation**: Induces reactive oxygen species in host cells, contributing to DNA damage, genomic instability, and mutagenesis -- hallmarks of carcinogenesis.
-- **NF-kB activation**: Triggers [[nf-kappa-b]] signaling in colonic epithelial and immune cells, driving chronic inflammation that supports tumor initiation and progression.
-- **Immune modulation**: Promotes a pro-tumor immune microenvironment by recruiting myeloid-derived suppressor cells (MDSCs) and polarizing tumor-associated macrophages.
+- **Cholesterol biosynthesis**: *P. anaerobius* activates cholesterol biosynthesis pathways in colonic epithelial cells, promoting cell proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. This connects to the broader observation that altered lipid metabolism characterizes CRC progression.
+- **ROS generation**: Induces reactive oxygen species in host cells, contributing to DNA damage, genomic instability, and mutagenesis -- hallmarks of carcinogenesis [[hanus-2021-immune-microbiota-metabolites-crc-triad]] [[norouzi-beirami-2020-functional-microbiome-crc]].
+- **NF-kB activation**: Triggers [[nf-kappa-b]] signaling in colonic epithelial and immune cells, driving chronic inflammation that supports tumor initiation and progression [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
+- **Immune modulation**: Promotes a pro-tumor immune microenvironment by recruiting myeloid-derived suppressor cells (MDSCs) and polarizing tumor-associated macrophages [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]].
 
 ## Disease Associations
 

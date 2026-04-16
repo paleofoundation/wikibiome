@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: [patil-2021-infection-metallomics-critical-care, radojevic-2023-microbiome-gut-brain-axis-ms, ding-2025-mycobiome-human-cancer-mechanisms-therapeutics, wei-2025-gut-mycobiome-cardiometabolic-disease, huang-2024-gut-fungi-ibd-colorectal-cancer, forbes-2019-fungal-mycobiome-neurological-disease]
+sources: [patil-2021-infection-metallomics-critical-care, patil-2021-infection-metallomics-covid-era, radojevic-2023-microbiome-gut-brain-axis-ms, ding-2025-mycobiome-human-cancer-mechanisms-therapeutics, wei-2025-gut-mycobiome-cardiometabolic-disease, huang-2024-gut-fungi-ibd-colorectal-cancer, forbes-2019-fungal-mycobiome-neurological-disease]
 metal_dependencies: [iron -- essential for growth; acquired via siderophores TAFC, ferricrocin, coprogen]
 tags: [fungus, pathobiont, iron-dependent, siderophore-producer, aspergillosis, mycobiome, infection-biomarker]
 platform: wikibiome
@@ -40,12 +40,13 @@ A ubiquitous filamentous fungal genus that is both an environmental saprophyte a
 ## Disease Associations
 
 ### Invasive Aspergillosis
-- Primarily affects immunocompromised patients: post-transplant, chemotherapy, prolonged corticosteroids, and critically ill ICU patients.
-- COVID-19-associated pulmonary aspergillosis emerged as a significant complication, with 19.4% mortality in critically ill patients [[patil-2021-infection-metallomics-critical-care]].
-- Diagnosis via siderophore detection (TAFC in serum/urine by LC-MS) represents a paradigm shift from culture-based methods to [[infection-metallomics]]-based approaches.
+- Primarily affects immunocompromised patients: post-transplant, chemotherapy, prolonged corticosteroids, and critically ill ICU patients [[patil-2021-infection-metallomics-critical-care]].
+- COVID-19-associated pulmonary aspergillosis (CAPA) emerged as a significant complication, with 19.4% mortality in critically ill patients [[patil-2021-infection-metallomics-critical-care]] [[patil-2021-infection-metallomics-covid-era]].
+- Diagnosis via siderophore detection (TAFC in serum/urine by LC-MS) represents a paradigm shift from culture-based methods to [[infection-metallomics]]-based approaches [[patil-2021-infection-metallomics-critical-care]].
 
 ### Neurological Disease
 - Anti-*Aspergillus* antibodies detected in CSF of MS patients, suggesting CNS fungal exposure may contribute to neuroinflammation [[forbes-2019-fungal-mycobiome-neurological-disease]].
+- Elevated *Aspergillus* abundance in the gut mycobiome of MS patients alongside fungal alpha diversity increases [[radojevic-2023-microbiome-gut-brain-axis-ms]].
 
 ### Inflammatory Bowel Disease and CRC
 - Altered *Aspergillus* abundance reported in IBD and [[colorectal-cancer]] mycobiome studies, though its role is less established than [[candida-albicans]] [[huang-2024-gut-fungi-ibd-colorectal-cancer]].

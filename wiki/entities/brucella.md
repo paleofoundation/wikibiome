@@ -39,14 +39,14 @@ A genus of Gram-negative intracellular pathogens causing **brucellosis**, the mo
 
 ## Iron Acquisition
 
-- *Brucella* species produce siderophores (brucebactin) for iron scavenging within the macrophage phagosome.
-- Iron acquisition is critical for intracellular survival and replication, complementing the nickel-dependent acid survival that enables initial colonization.
+- *Brucella* species produce siderophores (brucebactin) for iron scavenging within the macrophage phagosome [[maier-2019-nickel-microbial-pathogenesis]].
+- Iron acquisition is critical for intracellular survival and replication, complementing the nickel-dependent acid survival that enables initial colonization [[maier-2019-nickel-microbial-pathogenesis]].
 
 ## Clinical Significance
 
-- **Brucellosis**: causes undulant fever, arthritis, endocarditis, neurobrucellosis. Over 500,000 new human cases annually worldwide.
-- **Zoonotic reservoir**: cattle (*B. abortus*), goats/sheep (*B. melitensis*), swine (*B. suis*), dogs (*B. canis*).
-- **Intracellular persistence**: survives within macrophages by preventing phagosome-lysosome fusion, creating chronic and relapsing infections.
+- **Brucellosis**: causes undulant fever, arthritis, endocarditis, neurobrucellosis. Over 500,000 new human cases annually worldwide [[maier-2019-nickel-microbial-pathogenesis]].
+- **Zoonotic reservoir**: cattle (*B. abortus*), goats/sheep (*B. melitensis*), swine (*B. suis*), dogs (*B. canis*) [[maier-2019-nickel-microbial-pathogenesis]].
+- **Intracellular persistence**: survives within macrophages by preventing phagosome-lysosome fusion, creating chronic and relapsing infections [[maier-2019-nickel-microbial-pathogenesis]].
 - **Occupational and food-borne**: pasteurization of dairy products is the primary prevention strategy; absence of pasteurization in endemic regions drives ongoing transmission.
 - Treatment requires prolonged combination antibiotic therapy (doxycycline + streptomycin/rifampin), and relapse rates remain significant.
 

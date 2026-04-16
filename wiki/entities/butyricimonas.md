@@ -32,9 +32,10 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (famil
 
 ### Multiple Sclerosis -- Key Depleted Taxon
 - **Decreased in MS patients** in the landmark Jangi 2016 study, which established the foundational MS-microbiome connection [[jangi-2016-gut-microbiome-alterations-ms]].
-- *Butyricimonas* abundance showed **negative correlations** with pro-inflammatory gene expression in circulating T cells and monocytes, including genes involved in dendritic cell maturation, interferon signaling, and [[nf-kappa-b]] signaling.
-- This is the inverse of the pattern seen with [[methanobrevibacter]] and [[akkermansia-muciniphila]], which were increased in MS and positively correlated with these inflammatory pathways.
+- *Butyricimonas* abundance showed **negative correlations** with pro-inflammatory gene expression in circulating T cells and monocytes, including genes involved in dendritic cell maturation, interferon signaling, and [[nf-kappa-b]] signaling [[jangi-2016-gut-microbiome-alterations-ms]].
+- This is the inverse of the pattern seen with [[methanobrevibacter]] and [[akkermansia-muciniphila]], which were increased in MS and positively correlated with these inflammatory pathways [[jangi-2016-gut-microbiome-alterations-ms]].
 - Higher baseline abundance in MS patients reported in the Troci 2022 study (as part of broader Bacteroidetes expansion), illustrating study-to-study variability [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]].
+- Dietary intake patterns strongly modulate *Butyricimonas* abundance in MS cohorts, suggesting responsiveness to nutritional interventions [[bronzini-2023-feeding-gut-microbiome-ms]].
 
 ### Antidepressant Response
 - Abundance altered by antidepressant medications (fluoxetine, amitriptyline), suggesting that drug-microbiome interactions modulate this genus [[zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiome]].

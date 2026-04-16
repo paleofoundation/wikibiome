@@ -1046,3 +1046,46 @@ Ingested 7 previously un-summarized PDFs from raw/Necrotizing Enterocolitis NEC/
 - None with existing signatures — new sources broadly consistent with NEC microbiome signature (Enterobacteriaceae dominance, SCFA loss, iron acquisition enrichment) and with lead entity page.
 
 **Next:** Update entity pages for klebsiella-pneumoniae, enterobacter-cloacae, lead, bacteroides-caccae, bifidobacterium-longum, tryptophan with new source citations; consider promoting "formate" to its own entity/concept page.
+
+## [2026-04-14] Thinner-evidence condition top-up: ovarian cancer, CVD, female infertility (9 new source pages)
+
+Read 9 previously-unprocessed PDFs across Ovarian Cancer, cardiovascular disease, and Female Infertility folders to strengthen evidence density in conditions with thinner coverage relative to breast/colorectal cancer and endometriosis. Duplicate check performed against existing 1,687 source pages.
+
+**Ovarian Cancer (3 new):**
+- `asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic.md` — Mayo Clinic case-control (n=64, 9-site sampling); Dialister, Corynebacterium, Prevotella, Peptoniphilus enriched in OC across multiple body sites; Microbacterium lacus depleted in OC ovaries; microbiome predicts 2- and 4-year adverse events. DOI 10.1038/s41598-023-27555-x.
+- `yin-2022-pcos-bacteriome-mycobiome-metabolome-bmi.md` — Shantou multi-omics (n=88, BMI-stratified); PCOS signature is BMI-independent (Lachnospira, E-Shigella, Hungatella enriched); mycobiome BMI-dependent (Candida, Malassezia, Mortierella); metabolome AUC=1.0 diagnostic. DOI 10.1186/s13048-022-01051-8. [Note: PDF filed under Ovarian Cancer/Mycobiome but the study is PCOS-focused — informs PCOS signature primarily.]
+
+**Cardiovascular disease (2 new):**
+- `nucera-2024-non-essential-heavy-metals-cvd-systematic-review.md` — PRISMA overview of 8 systematic reviews covering 153 studies, ~350,000 participants; Cd, Hg, As, Pb independently associate with hypertension, atherosclerosis, CAD, stroke; mechanistic convergence on ROS, endothelial dysfunction, NO reduction. DOI 10.3389/fcvm.2024.1332339.
+- `liu-2023-environmental-cadmium-rat-microbiota-metabolome.md` — SD rat Cd exposure (5 mg/kg × 30 days); ZO-1 disruption, Corynebacterium + Muribaculaceae gut-to-blood translocation, uremic toxin (indoxyl/phenyl/p-cresol sulfate) elevation; 22 Cd-toxicity biomarkers. DOI 10.3389/fvets.2023.1219729.
+
+**Female Infertility (4 new):**
+- `zheng-2024-pcos-obesity-vaginal-microbiome-phages.md` — Xiamen shotgun metagenomics (n=41); PCOS-enriched and obesity-enriched vaginal pathobionts differ (Streptococcus pyogenes, Leptospira santarosai, Citrobacter, Listeria ivanovii, C. perfringens); phage-Lactobacillus coevolution supports eubiosis. DOI 10.3389/frmbi.2023.1229723.
+- `long-2025-metformin-liraglutide-pcos-rct-gut-microbiome.md` — Wuhan 12-week RCT (n=60) + letrozole-rat model; combination MET+LIRA superior on weight (7.42 kg) and free testosterone (-4.81 pmol/L) vs MET alone; COM uniquely expanded Alloprevotella and Parasutterella (testosterone-negative). DOI 10.3389/fendo.2025.1599879.
+- `chen-2021-chlamydia-vaginal-microbiota-tubal-infertility.md` — Chenzhou case-control (n=25) across 4 groups; CT-infected infertile women showed L. iners-dominance replacing L. crispatus; IFN-γ and IL-10 elevated; azithromycin partially restored Lactobacillus diversity but did not clear CT genome. DOI 10.3389/fcimb.2021.698840.
+- `ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota.md` — Kyiv case-control (n=94); adenomyosis + infertility drives Lactobacillus >1000-fold reduction, E. coli / Candida / Peptostreptococcus / Atopobium vaginae enrichment in vagina; parallel intestinal Enterobacteria-Candida associations. DOI 10.5603/MRJ.a2022.0034.
+- `bellemartin-2024-gut-hormone-therapy-t2d-infertility-review.md` — UCC systematic review (10 studies); T2D-infertility shows Verrucomicrobia+Phascolarctobacterium enrichment, Roseburia/Stenotrophomonas/Streptococcus depletion; PHGG, L. casei, and GLP-1 agonists improve fertility; GIPR/GLP-1R knockout mice lose oestrous cycling. DOI 10.33178/SMJ.2024.1.1.
+
+**Cross-condition patterns detected:**
+- **PCOS / adenomyosis / endometriosis convergence**: Ponomaryova 2022 + Zheng 2024 + Yin 2022 all show E. coli enrichment + Lactobacillus depletion + pathobiont expansion (Atopobium vaginae, Fusobacterium, Candida). Supports the "estrogen-dependent gynecologic disorder" cross-signature family with shared β-glucuronidase-producing taxa.
+- **Cadmium / cardiovascular / CKD bridge**: Liu 2023 + Nucera 2024 co-validate the mechanism — Cd drives ZO-1 disruption → gut-blood translocation → uremic toxin accumulation → CVD endpoints. Primitive #3 (mis-metallation, toxic metal entry) directly active.
+- **GLP-1 axis in both PCOS and T2D infertility**: Long 2025 + Belle Martin 2024 both show GLP-1 agonists reverse hyperandrogenism, restore ovulation, and expand Alloprevotella/Parasutterella/Akkermansia. Candidate new cross-condition intervention class.
+- **Ovarian cancer taxonomic signature consolidation**: Asangba 2023 adds Dialister, Corynebacterium, Peptoniphilus to existing E. coli / Fusobacterium / Bacteroides fragilis OC signature — supports Karen's Brain Primitive 4 (metal-dependent virulence enzymes) across expanded pathobiont roster.
+
+**Contradictions to flag:**
+- Yin 2022: Candida positively correlates with HDL-C (commensal vs. pathogenic strain paradox).
+- Belle Martin 2024: Verrucomicrobia *enriched* in infertile T2D contradicts Akkermansia-as-protective pattern in general metabolic literature.
+- Zheng 2024: Xanthomonas enrichment in PCOS is unusual (plant-associated genus) — warrants replication.
+- Chen 2021: Azithromycin fails to fully eradicate CT genome in 100% of treated patients; L. iners persists post-antibiotic — challenges gold-standard monotherapy.
+
+**Next:**
+- Update [[polycystic-ovary-syndrome]] entity page — add Hungatella, Mortierella, Alloprevotella, Parasutterella, and BMI-stratified mycobiome findings.
+- Update [[ovarian-cancer]] entity page — add Dialister, Peptoniphilus, Facklamia hominis, Anaeroglobus geminatus; note multi-site sampling prognostic value.
+- Update [[cardiovascular-disease]] entity — add Cd/Hg/As/Pb exposure associations with plasma thresholds.
+- Update [[cadmium]] entity — add Liu 2023 mechanism (ZO-1 disruption, bacterial translocation, uremic toxins).
+- Update [[female-infertility]] entity — add T2D subtype, adenomyosis subtype, CT-associated subtype.
+- Create [[alloprevotella]], [[parasutterella]], [[mortierella]], [[hungatella]] entity pages (new taxa).
+- Create [[t2d-infertility-signature]] and [[adenomyosis-signature]] candidates; consider [[chlamydia-tubal-infertility-signature]].
+- Create [[glp-1-agonist-combination-pcos]] intervention page + update [[metformin]] intervention/entity with PCOS microbiome modulation data.
+- Create [[lactobacillus-crispatus-probiotic]] intervention page.
+- Flag STOP candidate: azithromycin alone for CT + tubal infertility without concomitant L. crispatus restoration (Chen 2021).
