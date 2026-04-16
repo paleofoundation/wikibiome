@@ -11,6 +11,15 @@ tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, copper-import
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "bacterial copper homeostasis"
+evidence_level: expert-opinion
+sample_size: "N/A - review"
+metals_discussed: [copper, iron]
+taxa_discussed: [escherichia-coli, pseudomonas-aeruginosa, mycobacterium-tuberculosis]
+key_findings:
+  - "~30% of all bacterial proteins depend on metals for function; copper sits atop the Irving-Williams series and is most likely to cause mis-metallation"
+  - "CcoA is the first bacterial copper importer identified, essential for cytochrome c oxidase biogenesis; CopA P-type ATPases universally export Cu+ from cytoplasm"
+  - "Macrophages exploit copper toxicity by pumping Cu into phagosomes; pathogens lacking CopA efflux cannot survive inside host cells"
+karen_brain_primitives: [3, 4]
 ---
 
 # Why This Paper Matters

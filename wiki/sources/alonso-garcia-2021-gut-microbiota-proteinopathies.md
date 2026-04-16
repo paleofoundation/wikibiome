@@ -8,8 +8,16 @@ authors: [Alonso-Garcia P, Martin R, Martinez-Pinilla E]
 journal: Exploration of Neuroprotective Therapy
 year: 2021
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+evidence_level: expert-opinion
 tags: [gut-microbiota, proteinopathies, neurodegeneration, Parkinsons-disease, Alzheimers-disease, Huntingtons-disease, gut-brain-axis, dysbiosis, probiotics, FMT]
 platform: wikibiome
+metals_discussed: []
+taxa_discussed: [prevotella, blautia, roseburia, enterobacteriaceae, lactobacillus, bifidobacterium]
+key_findings:
+  - "PD gut dysbiosis characterized by reduced anti-inflammatory Prevotellaceae, Blautia, Coprococcus, Roseburia and increased pro-inflammatory Enterobacteriaceae; alpha-synuclein aggregation in gut occurs in 65-85% of PD patients"
+  - "FMT reduced phosphorylation of tau protein and brain amyloid-beta levels in AD models; probiotics with Lactobacillus/Bifidobacterium showed cognitive improvements over 12 weeks"
+  - "Neurodegenerative proteinopathies share common gut dysbiosis mechanisms that contribute to misfolded protein pathology via the gut-brain axis"
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims

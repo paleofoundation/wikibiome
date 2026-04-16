@@ -7,10 +7,18 @@ authors: [Noor Alam]
 year: 2025
 journal: "Ta'lim, Tarbiya va Innovatsiyalar"
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, microbiome-pharmacology, FMT, next-generation-probiotics, drug-metabolism, precision-medicine, gut-brain-axis, therapeutic-interventions]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Diverse microbiome-targeting strategies reviewed: FMT, next-generation probiotics, and novel small-molecule modulators"
+  - "Microbiome influences drug metabolism with implications for therapeutic efficacy in GI, neurological, and oncological conditions"
+  - "Precision medicine approaches based on individual microbiome profiles represent a promising future direction"
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

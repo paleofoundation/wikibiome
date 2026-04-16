@@ -27,6 +27,14 @@ tags:
   - review
 doi: 10.3389/fphar.2021.643972
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [mercury, lead, chromium, cadmium, arsenic]
+taxa_discussed: []
+key_findings:
+  - "Mercury, lead, chromium, cadmium, and arsenic share pathways: ROS generation, antioxidant defense weakening, enzyme inactivation, and oxidative stress"
+  - "Lead inhibits ferrochelatase and ALAD disrupting heme synthesis; Cr(VI) classified as Group 1 IARC carcinogen causing lung, larynx, bladder, kidney, and bone cancers"
+  - "Cadmium has 17-30 year biological half-life; kidney is primary target organ with beta-2 microglobulin as biomarker for tubular toxicity"
+karen_brain_primitives: [1, 3]
 keystone: true
 keystone_criteria_met:
   - 1

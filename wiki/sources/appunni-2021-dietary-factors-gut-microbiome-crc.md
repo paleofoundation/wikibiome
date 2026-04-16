@@ -9,6 +9,15 @@ journal: Frontiers in Nutrition
 year: 2021
 tags: [colon-cancer, diet, microbiome-diet, dietary-fiber, SCFAs, red-meat, polyphenols, curcumin, Fusobacterium-nucleatum, epigenetics, colorectal-cancer, cancer-prevention]
 doi: "10.3389/fnut.2021.718389"
+evidence_level: expert-opinion
+sample_size: "N/A - narrative review"
+metals_discussed: [iron]
+taxa_discussed: [fusobacterium-nucleatum, akkermansia-muciniphila, desulfovibrio, bifidobacterium, lactobacillus]
+key_findings:
+  - "Dietary fiber fermentation into SCFAs (butyrate, propionate, acetate) maintains mucosal integrity and microbial diversity; low fiber diets predispose to CRC via reduced SCFA production"
+  - "F. nucleatum is pro-tumorigenic through multiple mechanisms (miR21/TLR4/NF-kB, FadA/CHK2, ULK1/ATG7 autophagy)"
+  - "Red meat promotes CRC through heme iron-mediated genotoxicity metabolized by gut microbiome into harmful compounds"
+karen_brain_primitives: [1, 5]
 platform: wikibiome
 ---
 

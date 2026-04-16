@@ -10,6 +10,14 @@ year: 1993
 tags: [dyshidrosiform-pemphigoid, dietary-nickel, case-report, low-nickel-diet, bullous-pemphigoid]
 doi: "10.1111/j.1600-0536.1993.tb03520.x"
 platform: wikibiome
+evidence_level: case-report
+metals_discussed: [nickel]
+taxa_discussed: []
+key_findings:
+  - "Dietary nickel induced dyshidrosiform pemphigoid in a nickel-sensitized 23-year-old woman who failed dapsone and prednisolone"
+  - "Complete clinical clearance achieved on low-nickel diet within 15 days, sustained at 6-month follow-up"
+  - "Oral nickel challenge (6 mg elemental NiSO4) induced mild itching and new bullae within 24 hours"
+karen_brain_primitives: [1]
 ---
 
 ## Key Claims

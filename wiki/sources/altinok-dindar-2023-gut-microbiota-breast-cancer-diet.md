@@ -8,7 +8,16 @@ authors: [Altinok Dindar D, Chun B, Palma A, Cheney J, Krieger M, Kasschau K, St
 journal: Nutrients
 year: 2023
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+evidence_level: case-control
+sample_size: "n=86 (42 BCa patients + 44 controls)"
 tags: [breast-cancer, gut-microbiome, diet, Acidaminococcus, Hungatella, Tyzzerella, alpha-diversity, beta-diversity, case-control, 16S-rRNA, HEI-2015]
+metals_discussed: [nickel, cadmium]
+taxa_discussed: [hungatella, dialister]
+key_findings:
+  - "Breast cancer patients have significantly reduced gut microbiome alpha-diversity compared to age-matched controls"
+  - "Three genera enriched in BCa patients: Acidaminococcus, Hungatella, and Tyzzerella"
+  - "BCa-enriched genera associated with distinct dietary intake patterns (whole fruits for Acidaminococcus; vegetables and dairy for Hungatella)"
+karen_brain_primitives: [1, 5]
 platform: wikibiome
 ---
 

@@ -14,6 +14,8 @@ condition: "type 2 diabetes"
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+evidence_level: "not yet classified"
+key_findings: []
 ---
 
 # Key Claims

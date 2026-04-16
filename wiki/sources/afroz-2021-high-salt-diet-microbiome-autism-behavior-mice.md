@@ -11,6 +11,14 @@ tags: [autism-spectrum-disorder, high-salt-diet, gut-microbiome, maternal-diet, 
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: animal-model
+metals_discussed: []
+taxa_discussed: [lactobacillus]
+key_findings:
+  - "Parental high salt diet altered maternal gut microbiome composition and this altered microbiome was transmitted to offspring"
+  - "Offspring of HSD-fed parents showed hyperactivity, increased repetitive behaviors, and impaired sociability in adult male mice"
+  - "High salt intake depletes Lactobacillus spp., disrupts T helper cell-mediated immune dysregulation, and causes cognitive dysfunction"
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

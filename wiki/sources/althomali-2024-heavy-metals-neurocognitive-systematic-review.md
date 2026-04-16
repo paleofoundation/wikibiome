@@ -8,7 +8,16 @@ authors: [Althomali RH, Abbood MA, Saleh EAM, Djuraeva L, Abdullaeva BS, Habash 
 journal: Environmental Sciences Europe
 year: 2024
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+evidence_level: systematic-review-meta-analysis
+sample_size: "n=1,828,126 (across 8 studies)"
 tags: [heavy-metals, neurocognitive-function, cadmium, mercury, systematic-review, adults, cognitive-decline]
+metals_discussed: [cadmium, mercury, selenium]
+taxa_discussed: []
+key_findings:
+  - "Significant correlation between cadmium and mercury exposure and deleterious neurocognitive outcomes in adults across 8 studies (n=1,828,126)"
+  - "Twofold increase in urinary cadmium linked to heightened risk of cognitive impairment (OR 1.46, 95% CI 1.14-1.86)"
+  - "Prenatal mercury exposure was not associated with lower cognitive scores in adulthood"
+karen_brain_primitives: [3]
 platform: wikibiome
 ---
 

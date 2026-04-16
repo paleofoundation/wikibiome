@@ -8,8 +8,16 @@ authors: [Catia Almeida, J. Guilherme Goncalves-Nobre, Diogo Alpuim Costa, Pedro
 journal: Frontiers in Gastroenterology
 year: 2023
 doi: 10.3389/fgstr.2023.1235126
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, CVD, gut-heart-axis, TMAO, SCFAs, bile-acids, polyamines, atherosclerosis, hypertension, dysbiosis, review, fungal-microbiota]
 platform: wikibiome
+metals_discussed: [iron, copper, cadmium]
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia, eubacterium, candida-albicans, aspergillus, desulfovibrio]
+key_findings:
+  - "Butyrate producers (Faecalibacterium prausnitzii, Roseburia, Eubacterium rectale) depleted in CVD; F/B ratio altered with higher LPS production capacity in CAD microbiomes"
+  - "Candida and Aspergillus more prevalent in CVD patients; mycobiome contributions to CVD risk remain understudied"
+  - "Spermidine is cardioprotective: reduces cardiac hypertrophy and modifies intestinal microbiota toward anti-inflammatory composition"
+karen_brain_primitives: [1, 6]
 ---
 
 # The Potential Links Between Human Gut Microbiota and Cardiovascular Health and Disease - Is There a Gut-Cardiovascular Axis?

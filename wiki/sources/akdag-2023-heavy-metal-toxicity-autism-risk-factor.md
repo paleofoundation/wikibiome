@@ -11,6 +11,14 @@ tags: [autism-spectrum-disorder, heavy-metals, mercury, lead, cadmium, arsenic, 
 library_category: heavy-metals
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [mercury, lead, cadmium, arsenic]
+taxa_discussed: []
+key_findings:
+  - "Correlation between autism and heavy metals established across multiple studies"
+  - "Mercury particularly associated with elevated ASD risk, including from airborne pollutants and dental amalgams; children with autism had double the Hg levels in baby teeth compared to typical children"
+  - "Complex interplay between genetic susceptibility and environmental factors including heavy metals contributes to ASD"
+karen_brain_primitives: [1, 3]
 ---
 
 # Key Claims

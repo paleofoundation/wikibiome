@@ -7,10 +7,18 @@ authors: [Badriyah Shadid Alotaibi, Maryam Khan, Saba Shamim, Juan Carlos Gutier
 year: 2021
 journal: "Microorganisms"
 doi: "10.3390/microorganisms9081574"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, bioremediation, Bacillus, heavy-metals, biosorption, efflux, arsenic, cadmium, chromium, lead, zinc, copper, resistance-mechanisms]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "bacterial metal detoxification"
+metals_discussed: [arsenic, cadmium, chromium, lead, zinc, copper, mercury, iron]
+taxa_discussed: [bacillus]
+key_findings:
+  - "Efflux systems are the primary active resistance mechanism in Bacillus: P-type ATPases (CadA for Cd2+, ZntA for Zn2+), CzcD transporters, and ArsAB arsenite efflux pumps"
+  - "Cd2+ toxicity arises from displacement of Zn2+ in zinc finger proteins and inhibition of DNA repair enzymes — a canonical example of mis-metallation"
+  - "Metal resistance genes in Bacillus frequently co-locate with antibiotic resistance on mobile genetic elements, providing a mechanism for co-selection"
+karen_brain_primitives: [3, 4]
 ---
 
 # Why This Paper Matters

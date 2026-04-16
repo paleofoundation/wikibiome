@@ -7,10 +7,18 @@ authors: [Amani Alharthi, Safiah Alhazmi, Najla Alburae, Ahmed Bahieldin]
 year: 2021
 journal: "International Journal of Molecular Sciences"
 doi: "10.3390/ijms23031363"
+evidence_level: expert-opinion
 tags: [autism, microbiota, gut-brain-axis, permeability, epigenetics, interventions]
 library_category: causal
 platform: both
 condition: "autism spectrum disorder"
+metals_discussed: [zinc, iron]
+taxa_discussed: [lactobacillus, bifidobacterium, streptococcus-pneumoniae]
+key_findings:
+  - "Dysbiotic microbiota compromises tight junction integrity leading to increased intestinal permeability, LPS leakage, and systemic immune activation in ASD"
+  - "SCFAs (butyrate, propionate, acetate) and tryptophan metabolites modulate epigenetic regulation and CNS function via the gut-brain axis"
+  - "Microbiome-based interventions (probiotics, prebiotics, FMT, MTT) are promising but RCT evidence remains limited in ASD"
+karen_brain_primitives: [1, 5]
 ---
 
 # Overview

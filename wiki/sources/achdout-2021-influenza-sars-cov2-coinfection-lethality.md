@@ -10,6 +10,14 @@ year: 2021
 doi: "10.1038/s41467-021-26113-1"
 tags: [COVID-19, SARS-CoV-2, influenza, coinfection, immunity, vaccination, K18-hACE2-mice, inflammation, innate-immunity]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [zinc, iron, copper]
+taxa_discussed: []
+key_findings:
+  - "IAV followed by SARS-CoV-2 coinfection 2 days apart resulted in severe morbidity and nearly complete mortality, exceeding either infection alone"
+  - "Prior influenza immunity (but not SARS-CoV-2 immunity) prevented severe disease and mortality in coinfected mice; protection was antibody-dependent"
+  - "Coinfected mice showed massive upregulation of complement, cytokines (IL-6, Ccl5, Cxcl10), interferons, and zinc-dependent matrix metalloproteinases (Mmp3, Mmp8, Mmp9)"
+karen_brain_primitives: [2]
 ---
 
 # Increased Lethality in Influenza and SARS-CoV-2 Coinfection

@@ -11,6 +11,14 @@ tags: [parkinsons-disease, autoimmune, microbiome-autoimmune, gut-microbiota, sy
 library_category: associated-conditions
 platform: both
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [zinc, iron, manganese]
+taxa_discussed: [faecalibacterium-prausnitzii]
+key_findings:
+  - "Autoimmune neurological diseases share a core dysbiotic signature: depleted SCFA producers, enriched Proteobacteria"
+  - "Alpha diversity is consistently reduced across autoimmune neurological diseases"
+  - "Functional pathway analysis reveals shared metabolic disruptions in SCFA, tryptophan, and bile acid metabolism"
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Perturbations in Gut Microbiota Composition in Patients with Autoimmune Neurological Diseases

@@ -11,6 +11,14 @@ tags: [postpartum-depression, risk-factors, vitamin-D, gestational-diabetes, soc
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+evidence_level: expert-opinion
+metals_discussed: [zinc, iron, copper, magnesium]
+taxa_discussed: []
+key_findings:
+  - "PPD prevalence is 10-15% globally, with about 80% of cases going undiagnosed and untreated"
+  - "Strongest risk factors: previous history of depression/psychiatric illness, depressive symptoms during pregnancy, gestational diabetes, and lack of spousal/social support"
+  - "Other significant factors include postpartum anemia, vitamin D deficiency, diet and nutrition, and low socioeconomic status"
+karen_brain_primitives: []
 ---
 
 # Key Claims

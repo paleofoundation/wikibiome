@@ -11,6 +11,14 @@ tags: [parkinsons-disease, systematic-review, clinical-overview, pathogenesis, a
 library_category: associated-conditions
 platform: both
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
+taxa_discussed: []
+key_findings:
+  - "PD is the second most common neurodegenerative disease, affecting 1-2% of people over 60; alpha-synuclein aggregation (Lewy bodies) is the pathological hallmark"
+  - "Non-motor symptoms (constipation, anosmia, REM sleep behavior disorder) precede motor onset by years, consistent with a gut-origin model"
+  - "Environmental risk factors include pesticide exposure, heavy metal exposure, and rural living; iron accumulation in substantia nigra is a consistent pathological finding"
+karen_brain_primitives: [1]
 ---
 
 # Parkinson's Disease: A Systematic Review

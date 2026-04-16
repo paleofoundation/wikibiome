@@ -10,6 +10,14 @@ year: 2022
 doi: 10.1038/s41577-022-00718-z
 tags: [multiple-sclerosis, immunology, HLA, T-cells, B-cells, EBV, gut-microbiome, environmental-triggers, drug-repurposing, neuroimmunology]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "EBV infection confers 32-fold increased MS risk; commensal bacteria required for autoimmune response initiation in mouse models"
+  - "BMI >30 associated with ~2-fold increased MS risk; microbial metabolites (SCFAs, tryptophan metabolites) influence immune function in MS"
+  - "Key disease processes formerly attributed to one cell type are more widespread than previously recognized, reflecting immune system redundancy"
+karen_brain_primitives: [5]
 ---
 
 # The Immunology of Multiple Sclerosis

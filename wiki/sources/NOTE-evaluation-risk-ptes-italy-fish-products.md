@@ -10,6 +10,11 @@ year: Unknown
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [heavy-metals, food-safety, fish-products, PTEs, Italy, dietary-exposure, incomplete]
 platform: wikibiome
+evidence_level: "not yet classified"
+metals_discussed: []
+taxa_discussed: []
+key_findings: []
+karen_brain_primitives: []
 ---
 
 # Note

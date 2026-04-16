@@ -13,6 +13,7 @@ authors:
 journal: World Academy of Sciences Journal
 year: 2024
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+evidence_level: expert-opinion
 tags:
   - heavy-metals
   - breast-cancer
@@ -25,6 +26,13 @@ tags:
   - biomarkers
   - review
 platform: wikibiome
+metals_discussed: [copper, cadmium, zinc, manganese, nickel, lead]
+taxa_discussed: []
+key_findings:
+  - "Copper levels significantly increased in plasma/serum of breast cancer patients, particularly in metastatic stages; associated with lysyl oxidase-like proteins and GPER1 signaling"
+  - "Cadmium elevated in plasma, urine, hair, and tissue of breast cancer patients; promotes proliferation through ERα interaction with half-life of 12-30 years"
+  - "Zinc and manganese generally decreased in breast cancer patients; deficiency impairs immune function and antioxidant capacity (MnSOD)"
+karen_brain_primitives: [1, 2, 3]
 keystone: true
 keystone_criteria_met:
   - 1

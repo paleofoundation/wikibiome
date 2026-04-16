@@ -10,6 +10,14 @@ year: 1997
 tags: [atopic-dermatitis, low-metal-diet, dental-metal-elimination, nickel, chromium, cobalt, metal-allergy]
 doi: "10.1111/j.1346-8138.1997.tb02732.x"
 platform: wikibiome
+evidence_level: case-series
+metals_discussed: [nickel, chromium, cobalt, manganese, zinc, copper]
+taxa_discussed: []
+key_findings:
+  - "Low metal diets and/or dental metal alloy elimination produced marked or moderate improvement in 67% (18/27) of atopic dermatitis patients with positive metal patch tests"
+  - "Patients with positive history of metal contact hypersensitivity responded significantly better (78% improvement) than those without (p<0.01)"
+  - "Peripheral blood eosinophil counts and serum LDH decreased significantly (p<0.05) after 3 months in responders"
+karen_brain_primitives: [4]
 ---
 
 ## Key Claims

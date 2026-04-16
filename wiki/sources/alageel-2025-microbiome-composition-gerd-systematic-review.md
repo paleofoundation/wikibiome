@@ -8,8 +8,16 @@ authors: [Alageel AA, Alomran DA, Alharbi HB, Almatar BA, Alzahrani AI, Alibrahi
 journal: TPM
 year: 2025
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+evidence_level: systematic-review-meta-analysis
 tags: [gerd, gastroesophageal-reflux, systematic-review, microbiome-composition, dysbiosis, streptococcus, prevotella, veillonella, leptotrichia, barretts-esophagus, esophageal-adenocarcinoma, proton-pump-inhibitors, small-intestinal-bacterial-overgrowth, mendelian-randomization, arachidonic-acid, glutathione, ABC-transporters, metabolic-pathways]
 platform: wikibiome
+metals_discussed: []
+taxa_discussed: [streptococcus, prevotella, veillonella, leptotrichia, fusobacterium, bifidobacterium]
+key_findings:
+  - "Decreased Streptococcus abundance and enrichment of Prevotella, Veillonella, and Leptotrichia consistently observed in GERD and Barrett's esophagus patients across 11 included studies"
+  - "Dysbiosis was consistently associated with altered metabolic pathways, notably arachidonic acid, glutathione, and ABC transporter pathways"
+  - "Mendelian randomization studies supported a genetic causal relationship between gut microbiota and GERD risk"
+karen_brain_primitives: [1]
 ---
 
 # Examining the Microbiome Composition in Patients with Gastroesophageal Reflux Disease: A Systematic Review

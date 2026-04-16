@@ -10,6 +10,14 @@ year: 2018
 tags: [multiple-sclerosis, sex-hormones, estrogen, estriol, progesterone, testosterone, remyelination, OPC, pregnancy, EAE, neuroprotection, gut-microbiota]
 doi: "10.1159/000494262"
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Pregnancy (third trimester) reduces MS relapse rate by 70%, linked to estriol-mediated immunomodulation"
+  - "Estrogen prevents changes in gut microbiota composition; cross-talk between gut microbiota and sex hormones may mediate neuroprotection in MS"
+  - "Testosterone is significantly lower in men with MS correlating with disability; testosterone administration restores excitatory synaptic transmission in EAE hippocampus"
+karen_brain_primitives: [7]
 ---
 
 # The Role of Sex Hormones in Multiple Sclerosis

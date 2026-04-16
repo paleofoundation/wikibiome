@@ -10,6 +10,14 @@ year: 2023
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiota, dysbiosis, hypothyroidism, autoimmune-thyroiditis, probiotics, prebiotics, fermented-foods, high-fiber-diet, dietary-fiber, SCFAs, Bifidobacterium, Lactobacillus, Faecalibacterium, intestinal-permeability, molecular-mimicry, autoantigen-presentation, tryptophan, microbiome-diet]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: []
+taxa_discussed: [bifidobacterium, lactobacillus, faecalibacterium-prausnitzii]
+key_findings:
+  - "Hypothyroid patients have reduced bacterial diversity and richness, lower levels of Bifidobacterium and Lactobacillus, and increased opportunistic pathogens like Proteobacteria and Fusobacteria"
+  - "High-fiber diets promote gut bacterial diversity, growth of SCFA-producing bacteria, and may improve thyroid hormone levels and reduce thyroid antibodies in autoimmune thyroid disease"
+  - "Gut dysbiosis may contribute to Hashimoto's thyroiditis through four mechanisms: interference with thyroid autoantigen presentation, inflammation induction, production of metabolites disrupting thyroid homeostasis, and modulation of TSH release"
+karen_brain_primitives: [5]
 ---
 
 # The Microbiome-Thyroid Link: A Review of the Role of the Gut Microbiota in Thyroid Function and Disease

@@ -10,6 +10,14 @@ year: 2021
 tags: [editorial, xenobiotics, endocrine-disruptors, microbiota, dysbiosis, probiotics, heavy-metals, dietary-exposures]
 doi: "10.3389/fmicb.2021.669480"
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [arsenic, cadmium, lead]
+taxa_discussed: []
+key_findings:
+  - "Cumulative dietary exposure to hazardous substances such as endocrine disruptor chemicals present in common and processed food is continuously increasing"
+  - "EDC exposure can trigger obesity, insulin resistance, metabolic syndrome, and infertility by modifying the human microbiota and promoting dysbiosis"
+  - "Heavy metals (As, Cd) and the role of bioassay models for disease outcomes of heavy metal-microbiota dysbiosis; gut microbiota implicated in Pb exposure risk in children"
+karen_brain_primitives: [1]
 ---
 
 # Key Claims

@@ -12,6 +12,14 @@ library_category: "NSAIDs"
 platform: narrative-review
 condition: "autism spectrum disorder"
 source_pages: "pp. 215-229"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "18 RCTs reviewed; all agents may suppress microglial/monocyte activation and restore T regulatory/Th17 imbalances"
+  - "Prednisolone improved irritability (p=0.026), stereotypies (p=0.026), hyperactivity (p=0.039), lethargy (p<0.001) on ABC and CARS scores"
+  - "NAC showed mixed results across 5 RCTs; 3 showed improvements in irritability, stereotypy, social cognition; 2 showed no improvement"
+karen_brain_primitives: []
 ---
 
 # Overview

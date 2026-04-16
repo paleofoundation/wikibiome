@@ -11,6 +11,14 @@ tags: [type-1-diabetes, autoimmune, lipidomics, gut-brain-axis, dietary-lipids, 
 library_category: mechanisms
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: expert-opinion
+metals_discussed: [zinc, iron, selenium]
+taxa_discussed: []
+key_findings:
+  - "T2DM is a systemic inflammatory disease characterized by dysfunctional pancreatic beta-cells and/or peripheral insulin resistance"
+  - "Dietary lipids are significant metabolic modulators in T2DM and related complications"
+  - "Altered gut microbiota plays an important role in metabolic health via lipid-microbiota interactions"
+karen_brain_primitives: []
 ---
 
 # Key Claims

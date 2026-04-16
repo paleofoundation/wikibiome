@@ -11,6 +11,14 @@ tags: [autism, amino-acids, plasma, vitamin-B12, vitamin-D, cystathionine, cysti
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: case-control
+metals_discussed: [zinc, iron]
+taxa_discussed: []
+key_findings:
+  - "Multiple amino acid abnormalities in ASD: elevated phosphoethanolamine, cystathionine, histidine; depleted homocysteine, methionine, cystine, and threonine"
+  - "Vitamin B12 significantly lower in ASD (233.62 vs. 428.50, P<0.001); 25-OH Vitamin D significantly lower in ASD (14.94 vs. 29.42, P<0.001)"
+  - "High cystathionine with low cystine suggests transsulfuration pathway disruption consistent with impaired zinc-dependent cystathionine gamma-lyase"
+karen_brain_primitives: [3, 4]
 ---
 
 # Key Claims

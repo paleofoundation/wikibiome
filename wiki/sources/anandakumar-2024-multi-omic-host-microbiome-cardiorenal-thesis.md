@@ -7,7 +7,13 @@ authors: [Harithaa Anandakumar]
 year: 2024
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 journal: "PhD Dissertation, Charite Universitatsmedizin Berlin"
+evidence_level: expert-opinion
+sample_size: "N/A - PhD dissertation"
 tags: [chronic-kidney-disease, CKD, multi-omics, host-microbiome, cardiorenal-disease, thesis]
+metals_discussed: []
+taxa_discussed: []
+key_findings: []
+karen_brain_primitives: [5]
 platform: wikibiome
 ---
 

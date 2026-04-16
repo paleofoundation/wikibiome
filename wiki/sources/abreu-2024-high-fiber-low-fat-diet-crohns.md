@@ -10,6 +10,14 @@ year: 2024
 tags: [crohns-disease, IBD, dietary-intervention, high-fiber-diet, low-fat-diet, SCFAs, proteomics, metabolomics, inflammation, clinical-trial]
 doi: "10.1101/2024.08.30.24312853"
 platform: wikibiome
+evidence_level: quasi-experimental
+metals_discussed: []
+taxa_discussed: [faecalibacterium-prausnitzii]
+key_findings:
+  - "A catered high-fiber (14g/1000 kcal), low-fat (20% calories) Mi-IBD diet is well-tolerated by Crohn's disease patients including those with fibrostenotic disease; catering achieved 96% adherence"
+  - "CD symptoms improved (PRO2 and sCDAI scores) in the catered diet group; proteomic analysis showed decreased serum amyloid A and CRP"
+  - "Fecal metabolomics showed improved markers of protein and energy metabolism and markers of oxidative stress and inflammation"
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

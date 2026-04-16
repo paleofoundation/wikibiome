@@ -7,8 +7,16 @@ authors: [AlHilli MM, Sangwan N, Myers A, Tewari S, Lindner DJ, Cresci GAM, Reiz
 journal: Journal of Ovarian Research
 year: 2025
 doi: "10.1186/s13048-025-01731-1"
+evidence_level: animal-model
 tags: [ovarian-cancer, ketogenic-diet, high-fat-diet, gut-microbiome, Akkermansia, Bacteroides, KPCA-cells, EOC, SCFAs, polyamine-biosynthesis, shotgun-metagenomics]
 platform: wikibiome
+metals_discussed: [iron]
+taxa_discussed: [akkermansia-muciniphila, bacteroides-vulgatus]
+key_findings:
+  - "KD and HF/LC diets significantly accelerated epithelial ovarian cancer tumor growth compared to LF/HC diet in mouse model"
+  - "Gut microbiome diversity markedly reduced in KD and HF/LC-fed mice, correlating with tumor growth"
+  - "Functional pathways in KD mice indicated polyamine biosynthesis and fatty acid oxidation enrichment"
+karen_brain_primitives: [1, 5]
 ---
 
 # Effects of Dietary Fat on Gut Microbiome and Ovarian Cancer in Mouse Model

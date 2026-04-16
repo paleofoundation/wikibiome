@@ -9,6 +9,15 @@ journal: Allergy and Asthma Proceedings
 year: 1999
 tags: [dietary-nickel, oral-nickel-challenge, chronic-dermatopathies, urticaria, angioedema, elimination-diet]
 doi: "10.2500/108854199778338991"
+evidence_level: case-series
+sample_size: "n=112"
+metals_discussed: [nickel]
+taxa_discussed: []
+key_findings:
+  - "In 44 of 112 (39.28%) nickel-sensitive patients, a low-nickel diet was effective in controlling chronic allergic-like dermatopathies"
+  - "Oral double-blind placebo-controlled nickel challenge was positive in 43 of 44 diet-responders, confirming dietary nickel as etiological cause"
+  - "No serum-specific IgE against nickel found; reactions suggest cell-mediated rather than IgE-mediated pathways"
+karen_brain_primitives: [4]
 platform: wikibiome
 ---
 

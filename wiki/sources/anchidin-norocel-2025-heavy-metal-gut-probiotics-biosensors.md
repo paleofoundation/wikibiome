@@ -24,6 +24,15 @@ tags:
   - electrochemical-sensors
   - review
 doi: 10.3390/bios15030188
+evidence_level: expert-opinion
+sample_size: "N/A - review"
+metals_discussed: [arsenic, cadmium, mercury, lead, copper]
+taxa_discussed: [bifidobacterium, lactobacillus, akkermansia-muciniphila, clostridium, bacillus, escherichia-coli]
+key_findings:
+  - "Probiotics counteract heavy metal-induced dysbiosis through eight mechanisms: biosorption, bioprecipitation, bioassimilation, bioaccumulation, metal solubilization, biotransformation, bioleaching, and organic acid secretion"
+  - "Approximately 60% of ingested heavy metals are absorbed in the intestine causing oxidative stress and intestinal barrier damage"
+  - "Advanced biosensor technologies enable rapid, non-invasive detection of heavy metals in urine for real-time monitoring of probiotic-mediated detoxification"
+karen_brain_primitives: [1, 4, 5]
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

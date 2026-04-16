@@ -10,6 +10,14 @@ year: 2023
 tags: [metabolomics, heavy-metals, arsenic, lead, cadmium, mercury, oxidative-stress, lipid-metabolism, amino-acid-metabolism, biomarkers]
 doi: "10.3389/fmolb.2023.1218497"
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [arsenic, lead, cadmium, mercury, copper]
+taxa_discussed: []
+key_findings:
+  - "Metabolomics is a state-of-the-art analytical tool for identifying perturbations caused by heavy metal exposure; arsenic disrupts amino acid metabolism and TCA cycle with urinary biomarkers strongly associated with endocrine disturbances"
+  - "Lead exposure alters four lipid metabolites and six amino acids; cadmium induces mitochondrial electron transport chain dysfunction causing oxidative stress via ROS generation"
+  - "Mercury (MeHg) exposure is linked to hepatotoxicity through altered bile acid metabolism and cholesterol pathways"
+karen_brain_primitives: []
 ---
 
 # Key Claims

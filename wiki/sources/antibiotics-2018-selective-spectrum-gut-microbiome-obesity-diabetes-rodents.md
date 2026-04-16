@@ -7,10 +7,18 @@ authors: [Various]
 year: 2018
 journal: "Various"
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+evidence_level: animal-model
+sample_size: "N/A - rodent models"
 tags: [type-1-diabetes, autoimmune, antibiotics, selective-spectrum, rodent-model, gut-microbiome, obesity, dysbiosis]
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [zinc, iron]
+taxa_discussed: []
+key_findings:
+  - "Selective spectrum antibiotic modulation of gut microbiome affects metabolic outcomes in obesity and diabetes rodent models"
+  - "Narrow-spectrum antibiotics allow targeted manipulation of specific bacterial communities"
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims

@@ -22,6 +22,15 @@ tags:
   - aneuploidy
   - endocrine-disruption
 doi: 10.1080/10590501.2012.705159
+evidence_level: expert-opinion
+sample_size: "N/A - comprehensive review"
+metals_discussed: [cadmium, nickel]
+taxa_discussed: []
+key_findings:
+  - "Cadmium binds ERα with affinity near estradiol (Kd 4.5×10^-10 M), activating estrogen target genes and GPR30 — strongest metal-breast cancer evidence"
+  - "Nickel induces global histone deacetylation, H3K9 methylation, and tumor suppressor DNA methylation without competing for estradiol binding"
+  - "Both cadmium and nickel induce aneuploidy in human fibroblasts at concentrations well below WHO limits"
+karen_brain_primitives: [1, 3, 7]
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

@@ -10,6 +10,14 @@ year: 2005
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [tin, organotin, inorganic-tin, toxicological-profile, regulatory, ATSDR, CERCLA, occupational-exposure, environmental-health]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [tin]
+taxa_discussed: []
+key_findings:
+  - "Inorganic tin has low oral absorption with mainly GI effects; organotin compounds (tributyltin, trimethyltin) are far more toxic, neurotoxic, and immunotoxic"
+  - "Tin is on the CERCLA National Priorities List of hazardous substances posing significant potential threat to human health"
+  - "Comprehensive federal toxicological profile covering health effects by route of exposure (inhalation, oral, dermal) and duration (acute, intermediate, chronic)"
+karen_brain_primitives: []
 ---
 
 # ATSDR Toxicological Profile for Tin and Tin Compounds

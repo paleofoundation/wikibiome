@@ -5,7 +5,7 @@ subtype: disease
 created: 2026-04-15
 updated: 2026-04-15
 sources: [ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid.md, li-2025-long-term-gut-microbiota-alterations-covid-recovery.md, li-2024-causal-role-gut-microbiota-long-covid-mendelian-randomization.md, saito-2024-metabolomic-immune-alterations-long-covid-cfs.md, rego-2024-impact-gut-microbiota-long-covid-insights-challenges.md, plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive.md, didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response.md, brigo-2025-uremic-bacterial-metabolites-post-covid.md, brown-2024-covid-19-neuroinflammation-pathophysiology.md, Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid.md, Ke2022-microbiome-covid-metagenome-genomes.md, xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis.md, arias-borrego-2022-metallomic-metabolomic-covid-mothers.md, ghannoum-2021-microbiome-depression-covid-19.md, mazzarelli-2021-16s-rrna-covid-19.md, lu-2021-intestinal-dna-virome-covid-19.md, zhong-2023-causal-effects-gut-microbiome-covid-19-mendelian-randomization.md]
-source_count: 16
+source_count: 17
 tags: [long-covid, post-acute-sequelae, gut-lung-axis, gut-brain-axis, SCFA-depletion, persistent-dysbiosis, bacterial-translocation, neuroinflammation, fatigue, iron, selenium]
 platform: wikibiome
 last_substantive_update: 2026-04-15

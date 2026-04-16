@@ -10,6 +10,14 @@ year: 2017
 doi: "10.1530/EJE-16-0888"
 tags: [graves-disease, thyroid, autoimmune, drug-therapy, antithyroid-drugs, methimazole, propylthiouracil, thionamides, systematic-review, relapse, remission, TRAb]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [selenium, iodine, iron, zinc, copper]
+taxa_discussed: []
+key_findings:
+  - "Remission rates of 40-60% after standard 12-18 months ATD therapy; long-term low-dose methimazole (up to 120 months) achieves 70-80% remission"
+  - "Selenium supplementation (200 mcg/day) as adjunct to ATDs may improve biochemical response and reduce thyroid antibody levels"
+  - "TRAb normalization at end of ATD course is the strongest predictor of sustained remission; persistent TRAb >1.5 IU/L associated with >80% relapse risk"
+karen_brain_primitives: [4]
 ---
 
 # A systematic review of drug therapy for Graves' hyperthyroidism

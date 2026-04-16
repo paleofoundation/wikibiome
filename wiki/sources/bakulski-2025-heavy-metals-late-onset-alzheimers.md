@@ -21,6 +21,14 @@ tags:
   - therapeutic-approaches
 doi: 10.1002/alz.71075
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [lead, arsenic, cadmium, mercury]
+taxa_discussed: []
+key_findings:
+  - "LOAD (>95% of AD cases) results from cumulative metal burden interacting with genetic risk (APOE) and aging-related vulnerability"
+  - "Aging-related decline in blood-brain barrier integrity and impaired metal clearance amplify metal neurotoxicity in LOAD"
+  - "Epigenetic modifications, oxidative stress, and neuroinflammatory cascades are converging mechanistic pathways linking metals to LOAD"
+karen_brain_primitives: [1, 3]
 keystone: true
 keystone_criteria_met:
   - 1

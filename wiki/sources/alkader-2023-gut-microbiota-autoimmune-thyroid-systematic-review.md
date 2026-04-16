@@ -8,8 +8,16 @@ authors: [Alkader DAA, Asadi N, Solangi U, Singh R, Rasuli SF, Farooq MJ, Raheel
 journal: Frontiers in Endocrinology
 year: 2023
 doi: "10.3389/fendo.2023.1238146"
+evidence_level: systematic-review-meta-analysis
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, autoimmune, meta-analysis, systematic-review, Graves-disease, alpha-diversity, Bacteroidetes, Prevotella, Bifidobacterium, SCFAs]
 platform: wikibiome
+metals_discussed: [iodine]
+taxa_discussed: [prevotella, bifidobacterium]
+key_findings:
+  - "HT patients showed significantly higher ACE and Chao1 bacterial richness indices versus healthy controls (p=0.0059 and p=0.08), with greater relative abundance of Bacteroidetes, Actinobacteria, Prevotella, and Bifidobacterium"
+  - "Simpson diversity index was the only measure considerably lower in Graves disease patients versus healthy participants"
+  - "Strongest positive and negative correlations found between thyroid peroxidase antibodies and bacterial load, supporting immune-microbiome crosstalk"
+karen_brain_primitives: [1, 2]
 ---
 
 # Exploring the Role of Gut Microbiota in Autoimmune Thyroid Disorders: A Systematic Review and Meta-Analysis

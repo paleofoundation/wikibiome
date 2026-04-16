@@ -13,6 +13,11 @@ platform: wikibiome
 karen_brain_primitives: [1]
 metals_discussed: ["arsenic", "cadmium", "chromium", "cobalt", "copper", "lead", "mercury", "zinc"]
 taxa_discussed: ["Candida"]
+evidence_level: in-vitro
+key_findings:
+  - "C. albicans can grow in concentrations up to 2000 ppm zinc, lead, and copper; 1500 ppm As(III); 200 ppm mercury and cadmium"
+  - "Biosorption removal efficiency by modified biomass: Cr(VI) 76%, lead 57%, cadmium 46%, As(III) 40%, mercury 36%, copper 31%, zinc 22%"
+  - "Optimal Cr(VI) removal: 28°C, pH 7.0, 50 mg/L Cr(VI); at 60°C, 100% Cr(VI) removal achieved in 20 hours"
 ---
 
 ## Summary

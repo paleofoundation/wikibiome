@@ -8,7 +8,16 @@ authors: [Annu, Sartaj Ali]
 journal: Journal of Pharmacological Biomolecules and Therapeutics
 year: 2025
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (null); needs manual lookup from source PDF -->
+evidence_level: expert-opinion
+sample_size: "N/A - review"
 tags: [multiple-sclerosis, probiotics, nanoparticles, precision-probiotics, nanoencapsulation, autoimmune, gut-brain-axis, Lactobacillus, Bifidobacterium]
+metals_discussed: [selenium]
+taxa_discussed: [lactobacillus, bifidobacterium, bacillus, prevotella, saccharomyces-cerevisiae]
+key_findings:
+  - "Probiotics influence immune function in MS by activating anti-inflammatory cytokines and Treg differentiation via the gut-brain axis"
+  - "Nanocarrier encapsulation of probiotics improves GI survivability and site-specific delivery for gut-brain communication"
+  - "Prevotella from human gut suppresses EAE induction in animal models"
+karen_brain_primitives: [5]
 platform: wikibiome
 ---
 

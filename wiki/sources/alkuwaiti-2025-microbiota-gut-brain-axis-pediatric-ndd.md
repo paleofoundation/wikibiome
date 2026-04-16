@@ -7,10 +7,18 @@ authors: [Shamma H. Alkuwaiti, Jurga Skrabulyte-Barbulescu, Lidya K. Yassin, Sai
 year: 2025
 journal: "Journal of Translational Medicine"
 doi: "10.1186/s12967-025-07279-4"
+evidence_level: expert-opinion
 tags: [autism, adhd, neurodevelopmental-disorders, gut-brain-axis, microbiota, review, early-life, delivery-mode, breastfeeding]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [iron]
+taxa_discussed: [clostridium, desulfovibrio, bifidobacterium, prevotella, faecalibacterium-prausnitzii, lactobacillus]
+key_findings:
+  - "ASD microbiota pattern: increased Clostridium clusters and Desulfovibrio, decreased Bifidobacterium and Prevotella; ADHD shows increased Bifidobacterium and decreased Faecalibacterium prausnitzii"
+  - "Vaginal delivery and breastfeeding promote beneficial Lactobacillus and Bifidobacterium transmission; cesarean delivery associated with increased NDD risk and Enterococcus/Staphylococcus dominance"
+  - "Breast milk lactoferrin provides iron-sequestering antimicrobial activity absent in formula, linking delivery/feeding mode to early-life metal-immune function"
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Key Claims

@@ -2,6 +2,90 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-16] Maintenance session: source migration batch 1 (files 1–100), source_count reconciliation, wikilink validation, orphan detection, index recount
+
+### Task 1: Source Page Batch Migration (Priority 5)
+
+Processed files 1–100 alphabetically (16s-rrna-t1d-t2d… through balestrino-2020…).
+
+**Range touched:** `16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis.md` → `balestrino-2020-systematic-review-parkinsons-basal-ganglia.md`
+
+- Files updated: ~83 of 100 (17 already had all 5 fields)
+- Fields added: `evidence_level`, `metals_discussed`, `taxa_discussed`, `key_findings`, `karen_brain_primitives`
+- Sources with `evidence_level: "not yet classified"` (4 files — no study design stated in body):
+  - `16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis.md`
+  - `16s-rrna-t2d-subgingival-plaque-microbiota.md`
+  - `16s-rrna-yu-ye-tang-t2d-metabolomics.md`
+  - `NOTE-evaluation-risk-ptes-italy-fish-products.md`
+- Already complete (skipped): Bernard-Raichon2022, Chen2023, Ibrahim2021, Ke2022, Li2023, Russell2023, abedi-2023, adhikari-2024, al-bataineh-2020, al-bataineh-2023, allen-2021, alves-2020, ancona-2023, asangba-2023, bair-2022, baker-austin-2006
+
+**NOT touched:** Files `bao-2020-…` onward (alphabetically after `balestrino`).
+
+### Task 2: Source_Count Reconciliation
+
+- Grep command: `python3` script comparing frontmatter `source_count:` vs actual length of `sources:` list for all entity/concept/signature pages
+- **3 mismatches found and corrected:**
+  - `cureva/signatures/postpartum-depression.md`: 57 → 56
+  - `wiki/entities/long-covid.md`: 16 → 17
+  - `wiki/entities/nickel.md`: 112 → 119
+- **57 broken source links** found (links in `sources:` arrays pointing to non-existent `wiki/sources/` files). Logged below — NOT deleted.
+
+**Broken source links (pages with unresolvable sources in frontmatter):**
+- `crohns-disease.md` (8 broken): liu-2022-mendelian-cd-microbiome, zhang-2021-akkermansia-cd, xu-2023-oxidative-stress-cd, breton-2016-cd-pb-colitis, khan-wang-2020-environmental-exposures, eggers-2023-prenatal-lead-gut-microbiome-childhood, pascal-2017-cd-microbial-signature, brusaferro-2018-pediatric-cd-dysbiosis, wang-2024-ibd-virulence-factors
+- `endometriosis.md` (multiple): zinc-endometriosis-2024, lactoferrin-genital-2019, endo-vaginal-microbiota-glycome, altered-microbiota-ovarian-endometrioma-2021, antibiotics-metronidazole-endo-2019, and others (stub-style names, no matching source files)
+- Full list in analysis output above; total 57 broken links across multiple entity pages
+
+### Task 3: Wikilink Validation
+
+- **File written:** `wiki/analyses/broken-links-2026-04-16.md`
+- **957 pages** have at least one broken `[[wikilink]]`
+- Common patterns: capitalization mismatches ([[Zinc]] vs [[zinc]]), missing cytokine pages ([[tnf-alpha]], [[il-6]]), missing STOP pages referenced from signatures
+- No fixes applied — list only
+
+### Task 4: Orphan Page Detection
+
+- **File written:** `wiki/analyses/orphans-2026-04-16.md`
+- **17 orphan pages** total:
+  - 1 entity: `platinum.md`
+  - 1 concept: `propionic-acid.md`
+  - 3 templates: `_template-intervention.md`, `_template-signature.md`, `_template-stop.md`
+  - 13 STOP pages (not yet referenced from associated signature pages)
+- No pages deleted or moved
+
+### Task 5: Index Recount
+
+Updated `wiki/index.md` (previously 2026-04-14, updated to 2026-04-16). Commands used:
+```
+ls wiki/sources/*.md | wc -l → 1700
+ls wiki/entities/*.md | wc -l → 148
+grep -l "^subtype: metal" wiki/entities/*.md | wc -l → 20
+grep -l "^subtype: microbe" wiki/entities/*.md | wc -l → 84
+grep -l "^subtype: fungus" wiki/entities/*.md | wc -l → 7
+grep -l "^subtype: archaeon" wiki/entities/*.md | wc -l → 0
+grep -l "^subtype: disease" wiki/entities/*.md | wc -l → 36
+ls wiki/concepts/*.md | wc -l → 94
+ls cureva/signatures/*.md | wc -l → 29
+ls wiki/interventions/*.md | wc -l → 30
+ls cureva/stops/*.md | wc -l → 34
+ls wiki/analyses/*.md | wc -l → 15
+```
+
+Note: Archaea count dropped from 1 to 0 — `methanobrevibacter-smithii.md` has `subtype: microbe` not `subtype: archaeon`. Index corrected to reflect reality.
+
+### What was NOT touched:
+- No signature pages modified
+- No intervention pages modified
+- No STOP pages modified
+- No entity or concept body text modified
+- No DOIs generated, verified, or corrected
+- No confidence levels changed
+- No seo_target or wikipedia_differentiation written
+- No supersession decisions made
+
+**Resume from:** `bao-2020-polyphenols-intestinal-microbiota-ckd.md` (next file alphabetically after batch 1 endpoint)
+
+---
+
 ## [2026-04-16] CKD entity page deepened — microbiome PDFs from Causal, Dysbiosis, and Cadmium folders
 
 **Source pages upgraded (full v2 frontmatter + rich body content):**

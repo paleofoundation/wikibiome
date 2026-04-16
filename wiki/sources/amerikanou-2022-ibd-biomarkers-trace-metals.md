@@ -9,6 +9,15 @@ journal: Frontiers in Nutrition
 year: 2022
 tags: [IBD, Crohns-disease, ulcerative-colitis, trace-elements, toxic-metals, inflammation, biomarkers, nickel, chromium, copper, thallium, iron]
 doi: "10.3389/fnut.2022.997356"
+evidence_level: cross-sectional
+sample_size: "n=153 (76 CD + 39 UC + 38 HC)"
+metals_discussed: [chromium, copper, iron, manganese, nickel, selenium, zinc]
+taxa_discussed: []
+key_findings:
+  - "Nickel levels higher in active CD compared to inactive UC, consistent with nickel's role in disrupting gut eubiosis"
+  - "Selenium, manganese, and zinc were generally lower in UC patients than healthy controls"
+  - "Chromium negatively associated with IL-6 in CD; copper positively associated with CRP in CD"
+karen_brain_primitives: [1, 2]
 platform: wikibiome
 ---
 

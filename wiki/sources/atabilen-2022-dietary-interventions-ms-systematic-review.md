@@ -10,6 +10,14 @@ year: 2022
 tags: [systematic-review, dietary-interventions, multiple-sclerosis, ketogenic-diet, Mediterranean-diet, intermittent-fasting, caloric-restriction, Paleolithic-diet, gluten-free-diet, MIND-diet]
 doi: "10.1080/1028415X.2022.2146843"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: []
+taxa_discussed: [faecalibacterium-prausnitzii, lachnospiraceae, blautia]
+key_findings:
+  - "Of 269 studies identified (2018-2022), only 17 met inclusion criteria, highlighting scarcity of rigorous dietary intervention trials in MS"
+  - "Mediterranean diet is the most recommendable diet model for MS due to positive long-term health results and absence of side effects"
+  - "Intermittent fasting increased Faecalibacterium, Lachnospiraceae Incertae sedis, and Blautia after 15 days"
+karen_brain_primitives: [5]
 ---
 
 # Effects of Different Dietary Interventions in Multiple Sclerosis: A Systematic Review of Evidence from 2018 to 2022

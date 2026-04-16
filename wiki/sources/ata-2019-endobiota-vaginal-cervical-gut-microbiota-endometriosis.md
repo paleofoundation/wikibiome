@@ -10,6 +10,14 @@ year: 2019
 tags: [endometriosis, vaginal-microbiome, cervical-microbiome, gut-microbiome, Atopobium, Gardnerella, Escherichia-Shigella, dysbiosis, multi-site-microbiome]
 doi: "10.1038/s41598-019-39700-6"
 platform: wikibiome
+evidence_level: prospective-cohort
+metals_discussed: [iron]
+taxa_discussed: [gardnerella, escherichia-coli, alloprevotella, streptococcus]
+key_findings:
+  - "Complete absence of Atopobium in both vaginal and cervical microbiota of stage 3/4 endometriosis patients"
+  - "Gardnerella, Streptococcus, Escherichia/Shigella, and Ureaplasma increased in cervical microbiota of endometriosis patients"
+  - "More women in the endometriosis group had Shigella/Escherichia-dominant gut microbiota; two requiring bowel resection"
+karen_brain_primitives: [1, 8]
 ---
 
 # Key Claims

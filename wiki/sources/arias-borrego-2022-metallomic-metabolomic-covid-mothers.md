@@ -8,7 +8,16 @@ authors: [Arias-Borrego A, Soto Cruz FJ, Selma-Royo M, Bauerl C, Perez-Cano FJ, 
 journal: Molecular Nutrition and Food Research
 year: 2022
 doi: "10.1002/mnfr.202200071"
+evidence_level: cross-sectional
+sample_size: "n=55 (35 COVID-19 mothers + 20 prepandemic controls)"
 tags: [metallomics, metabolomics, human-milk, COVID-19, SARS-CoV-2, maternal-health, infant-nutrition, copper, zinc, selenium, iron, nickel, ICP-MS, breastfeeding]
+metals_discussed: [copper, zinc, selenium, iron, nickel, arsenic, aluminum, cadmium]
+taxa_discussed: []
+key_findings:
+  - "SARS-CoV-2 infection reduces most essential elements in human milk; zinc was the exception, increasing 1.7-fold (p=0.0001)"
+  - "Cu/Zn ratio significantly reduced in COVID-19 milk, contrasting with serum where Cu/Zn increases with severity"
+  - "Thallium, nickel, vanadium, aluminum, and arsenic identified as toxic elements in COVID-19 human milk for the first time"
+karen_brain_primitives: [1, 2]
 platform: wikibiome
 ---
 

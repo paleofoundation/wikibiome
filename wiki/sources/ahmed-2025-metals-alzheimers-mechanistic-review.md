@@ -33,6 +33,14 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 46 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [arsenic, manganese, lead, cadmium]
+taxa_discussed: []
+key_findings:
+  - "Reviewed 46 mechanistic studies (2014-2024): arsenic disrupts tau phosphorylation via GSK3-beta/ERK1/2; manganese impairs autophagy; lead (21 studies) and cadmium induce blood-brain barrier disruption"
+  - "Heavy metals share overlapping AD-relevant pathways: oxidative stress, mitochondrial dysfunction, protein aggregation, neuroinflammation, autophagy dysfunction, and tau hyperphosphorylation"
+  - "Arsenic uniquely affects amyloid precursor protein processing and nitric oxide signaling; chronic exposure in 3xTg-AD mice increases amyloid plaques and impairs ATP production"
+karen_brain_primitives: [3]
 ---
 
 # Metals and Alzheimer's Disease: Mechanistic Review

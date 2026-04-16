@@ -10,6 +10,14 @@ year: 2023
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
 tags: [heavy-metals, food-safety, leafy-vegetables, copper, zinc, chromium, nickel, hazard-quotient, Lagos, Nigeria, dietary-exposure, ICP-MS, original-research]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [copper, zinc, chromium, nickel]
+taxa_discussed: []
+key_findings:
+  - "Cu concentrations exceeded WHO/FAO standards (0.3 mg/kg) across all sites, ranging from 6.50 to 18.98 mg/g; Cr concentrations exceeded WHO/FAO limits at multiple sites"
+  - "Ni concentrations exceeded the WHO/FAO limit of 2 mg/kg in Celosia argentea from Site A (2.01 mg/g), posing a serious health risk at that site"
+  - "Despite individual metal exceedances, hazard quotients (HQ) were all below 1 for individual metals; vegetables from dumpsite locations accumulated the highest concentrations"
+karen_brain_primitives: [1]
 ---
 
 # Key Claims

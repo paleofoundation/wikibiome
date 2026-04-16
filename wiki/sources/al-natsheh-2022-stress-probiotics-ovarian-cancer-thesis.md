@@ -7,8 +7,16 @@ authors: [Al-Natsheh M]
 journal: University of Brighton PhD Thesis
 year: 2022
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+evidence_level: animal-model
 tags: [ovarian-cancer, probiotics, stress, cortisol, EcN, Escherichia-coli-Nissle-1917, psychobiotics, immune-response, dendritic-cells, metastasis]
 platform: wikibiome
+metals_discussed: []
+taxa_discussed: [escherichia-coli]
+key_findings:
+  - "Restraint stress significantly reduced mouse weight and dendritic cell activation"
+  - "EcN reduced tumour burden via TLR-4 downregulation and IL-23 upregulation"
+  - "EcN did not reduce tumour burden in stressed mice — stress overrides probiotic benefits"
+karen_brain_primitives: [5]
 ---
 
 # Stress and Probiotics in Ovarian Cancer

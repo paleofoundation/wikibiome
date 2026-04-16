@@ -10,6 +10,14 @@ year: 2024
 tags: [CKDu, chronic-kidney-disease, heavy-metals, arsenic, cadmium, lead, chromium, India, nephrotoxicity, biomarkers]
 doi: "10.1186/s12882-024-03564-4"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [arsenic, cadmium, lead, chromium]
+taxa_discussed: []
+key_findings:
+  - "Blood arsenic independently associated with CKDu on multinomial regression (OR 1.013, 95% CI 1.003-1.024, p=0.014)"
+  - "Urinary Cd, Pb, and Cr were undetectable in healthy subjects but significantly elevated in both CKD and CKDu patients"
+  - "Surface water use was independently associated with CKDu (OR 3.178, p=0.045)"
+karen_brain_primitives: [1, 3]
 ---
 
 ## Summary

@@ -10,6 +10,14 @@ year: 2019
 tags: [endometriosis, cervical-mucus, microbiome, Enterobacteriaceae, Streptococcus, Corynebacterium, Pseudomonas, Flavobacterium, dysmenorrhea, NGS, qPCR]
 doi: "10.1111/aji.13147"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: []
+taxa_discussed: [enterobacteriaceae, streptococcus, lactobacillus, prevotella, gardnerella]
+key_findings:
+  - "Enterobacteriaceae and Streptococcus were more frequently detected in cervical mucus of endometriosis patients than controls by both NGS and qPCR"
+  - "Shannon diversity index was significantly higher in the endometriosis group (P<0.05), indicating more diverse microbial communities"
+  - "Lactobacillus prevalence was 20-40x higher than other detected bacteria in both groups but did not differ between groups"
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

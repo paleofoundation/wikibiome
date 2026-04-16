@@ -9,6 +9,14 @@ journal: "Middle East Current Psychiatry"
 doi: "10.1186/s43045-024-00397-7"
 tags: [schizophrenia, infection, inflammation, neuroinflammation, Toxoplasma-gondii, herpes-virus, cytomegalovirus, COVID-19, SARS-CoV-2, maternal-immune-activation, HLA, autoimmune, Chlamydophila, kynurenine-pathway, microglia, blood-brain-barrier, anti-inflammatory-treatment]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Maternal infections during pregnancy increase the risk of schizophrenia in offspring by up to 39% (Danish study, n=3722 SCZ patients)"
+  - "Toxoplasma gondii antibodies are higher in SCZ patients; T. gondii may contribute via elevating kynurenic acid (NMDA receptor antagonist) in the CNS"
+  - "Gut microbiota can influence SCZ risk through microbial translocation, LPS-mediated inflammation, and tryptophan/kynurenine pathway modulation"
+karen_brain_primitives: []
 ---
 
 # Why This Paper Matters

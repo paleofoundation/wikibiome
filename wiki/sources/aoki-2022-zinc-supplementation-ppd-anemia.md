@@ -9,6 +9,15 @@ journal: Medicina
 year: 2022
 tags: [zinc, supplementation, postpartum-depression, anemia, cesarean-section, EPDS, iron, trace-elements, intervention]
 doi: "10.3390/medicina58060731"
+evidence_level: retrospective-cohort
+sample_size: "n=197"
+metals_discussed: [zinc, iron]
+taxa_discussed: []
+key_findings:
+  - "Postpartum zinc supplementation (100 mg/day for 4 days) significantly reduced PPD risk (adjusted OR: 0.249, 95% CI: 0.062-0.988)"
+  - "Combination of oral iron plus zinc showed slightly negative transient effects on hemoglobin vs. iron alone on postoperative day 6"
+  - "First study to demonstrate positive effect of postpartum zinc supplementation on PPD in a clinical setting"
+karen_brain_primitives: [4]
 platform: wikibiome
 ---
 

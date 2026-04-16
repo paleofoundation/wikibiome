@@ -7,11 +7,19 @@ authors: [Kenneth Alibek, Luiza Niyazmetova, Sean Farmer, Terence Isakov]
 year: 2022
 journal: "Research Ideas and Outcomes"
 doi: "10.3897/rio.8.e91179"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, TORCH-infections, inflammation, dysbiotic-microbiome, maternal-immune-activation, oxidative-stress, myelination, microglia, epigenetics, neuroinflammation]
 library_category: "Viral dysbiosis"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-25"
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "TORCH infections (Toxoplasma, Rubella, CMV, Herpes) initiate prenatal maternal-to-fetal immune activation that contributes to ASD pathogenesis"
+  - "Chronic neuroinflammation in ASD: overactive microglia produce IL-8 and TNF-alpha, with abnormal myelination due to oligodendrocyte oxidative damage from insufficient glutathione"
+  - "ASD prevalence increased from 1 in 2500 fifty years ago to 1 in 44 US children (CDC 2021), implicating environmental triggers alongside genetic factors"
+karen_brain_primitives: []
 ---
 
 # Overview

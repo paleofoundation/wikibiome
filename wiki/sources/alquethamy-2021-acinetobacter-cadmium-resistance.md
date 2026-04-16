@@ -30,6 +30,15 @@ tags:
   - copper-homeostasis
   - TraDIS
 doi: 10.1128/AEM.01718-21
+evidence_level: in-vitro
+sample_size: "N/A"
+metals_discussed: [cadmium, zinc, copper, iron]
+taxa_discussed: [acinetobacter]
+key_findings:
+  - "CzcE (CDF transporter) is the primary cadmium resistance determinant in A. baumannii, upregulated ~480-fold by CadR"
+  - "Cadmium stress causes zinc depletion and copper hyperaccumulation, demonstrating cross-metal toxicity"
+  - "TraDIS screen identified 67-gene cadmium resistome including HME efflux system CzcCBA"
+karen_brain_primitives: [1, 4]
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

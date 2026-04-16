@@ -8,7 +8,16 @@ authors: [Armstrong RA, et al.]
 journal: (Journal of Alzheimer's Disease / related journal)
 year: 2024
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+evidence_level: expert-opinion
+sample_size: "N/A - review"
 tags: [Alzheimers-disease, extrinsic-factors, environmental-risk-factors, heavy-metals, diet, lifestyle, aluminum, lead, mercury, air-pollution, pesticides]
+metals_discussed: [aluminum, lead, mercury, cadmium]
+taxa_discussed: []
+key_findings:
+  - "Extrinsic (environmental and lifestyle) factors play a major role in AD development, potentially accounting for 40% or more of modifiable risk"
+  - "Lead has stronger epidemiological evidence than aluminum; cumulative bone lead associated with cognitive decline via epigenetic mechanisms"
+  - "Combinatorial effect of multiple extrinsic factors likely greater than individual exposures alone"
+karen_brain_primitives: [3]
 platform: wikibiome
 ---
 

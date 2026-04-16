@@ -7,8 +7,16 @@ authors: [Sami Alobaidi]
 year: 2025
 journal: "Frontiers in Medicine"
 doi: "10.3389/fmed.2025.1675458"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, gut-kidney-axis, uremic-toxins, indoxyl-sulfate, p-cresyl-sulfate, TMAO, SCFAs, review, microbiome-targeted-therapy]
 platform: wikibiome
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Gut-kidney axis is central to CKD pathogenesis via microbial dysbiosis and altered metabolite production"
+  - "Harmful metabolites (indoxyl sulfate, p-cresyl sulfate, TMAO) promote inflammation and fibrosis; loss of protective SCFAs impairs barrier integrity and immune regulation"
+  - "Microbiome-targeted interventions (diet, probiotics, synbiotics, FMT, oral adsorbents) evaluated as CKD therapeutics"
+karen_brain_primitives: [5]
 ---
 
 # The Gut-Kidney Axis in CKD: Mechanisms and Therapeutics

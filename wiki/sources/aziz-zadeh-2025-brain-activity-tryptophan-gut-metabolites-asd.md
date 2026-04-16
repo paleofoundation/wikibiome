@@ -11,6 +11,14 @@ tags: [autism-spectrum-disorder, tryptophan, kynurenate, indolelactate, indole-3
 library_category: causal
 platform: fMRI-fecal-metabolomics
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [zinc, iron]
+taxa_discussed: []
+key_findings:
+  - "Kynurenate, indolelactate, and tryptophan betaine were significantly lower in ASD children vs. neurotypical controls"
+  - "Mid-insula activity during disgust processing mediated the relationship between indolelactate and ASD severity (ADOS RRB score)"
+  - "Tryptophol significantly correlated with sensory sensitivities (vestibular/proprioception, social, non-social) in ASD"
+karen_brain_primitives: [1, 4]
 ---
 
 # Overview

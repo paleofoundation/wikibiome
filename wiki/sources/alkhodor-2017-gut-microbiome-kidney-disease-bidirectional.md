@@ -7,8 +7,15 @@ authors: [Souhaila Al Khodor, Ibrahim F. Shatat]
 year: 2017
 journal: "Pediatric Nephrology"
 doi: "10.1007/s00467-016-3392-7"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, gut-kidney-axis, dysbiosis, review, prebiotics, probiotics, uremic-toxins, intestinal-barrier]
 platform: wikibiome
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Host-microbe interactions in kidney disease are bidirectional: CKD alters the gut microbiome, and the altered microbiome accelerates CKD progression"
+  - "Targeted interventions (probiotics, prebiotics) may re-establish symbiosis and offer novel therapeutic strategies in kidney disease"
+karen_brain_primitives: [5]
 ---
 
 # Gut Microbiome and Kidney Disease: A Bidirectional Relationship

@@ -7,10 +7,18 @@ authors: [Ruth Alonso, Diana Pisa, Luis Carrasco]
 year: 2021
 journal: "Frontiers in Microbiology"
 doi: "10.3389/fmicb.2019.02622"
+evidence_level: case-series
 tags: [parkinsons-disease, huntingtons-disease, brain-microbiota, fungal-microbiota, Candida, brain-infection, neurodegeneration]
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, copper]
+taxa_discussed: [candida-albicans]
+key_findings:
+  - "Fungal structures (yeast cells, hyphae) and Candida albicans species detected in striatal and cortical brain tissue of Huntington's disease patients via immunohistochemistry and PCR"
+  - "Mixed fungal and bacterial infections were common in HD brains; control brain tissue showed minimal or absent fungal elements"
+  - "Fungal burden appeared to correlate with disease-affected brain regions, extending cross-neurodegenerative evidence of fungal CNS translocation (previously shown in AD, PD, ALS)"
+karen_brain_primitives: [6]
 ---
 
 # Brain Microbiota in Huntington's Disease Patients

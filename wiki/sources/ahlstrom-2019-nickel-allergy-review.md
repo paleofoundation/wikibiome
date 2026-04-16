@@ -10,6 +10,14 @@ year: 2019
 doi: "10.1111/cod.13272"
 tags: [nickel-allergy, contact-dermatitis, immunology, regulation, patch-testing, EU-nickel-directive]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [nickel]
+taxa_discussed: []
+key_findings:
+  - "Nickel is the single most common contact allergen globally; prevalence in Europe is 8-19% of adults with strong female predominance (4-10x more affected than men)"
+  - "Nickel allergy is a type IV (delayed-type) hypersensitivity reaction; nickel directly activates TLR-4 on dendritic cells and keratinocytes, triggering pro-inflammatory cytokine release"
+  - "The EU Nickel Directive (1994, enforced ~2001) limiting nickel release from skin-contact items demonstrably decreased sensitization rates in countries with strong enforcement"
+karen_brain_primitives: []
 ---
 
 # Nickel Allergy and Allergic Contact Dermatitis: A Clinical Review

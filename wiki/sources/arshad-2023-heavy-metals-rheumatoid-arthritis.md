@@ -8,7 +8,16 @@ authors: [Arshad M, Riaz N, Bashir R, Irfan S, Khan SY, Tahir HM]
 journal: "Research Developments in Medicine and Medical Science Vol. 7"
 year: 2023
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+evidence_level: case-control
+sample_size: "n=99 (approx.)"
 tags: [rheumatoid-arthritis, copper, zinc, lead, cobalt, nickel, heavy-metals, serum-levels]
+metals_discussed: [copper, zinc, lead, cobalt, nickel]
+taxa_discussed: []
+key_findings:
+  - "Serum copper concentration is significantly lower in rheumatoid arthritis patients compared to controls (p=0.04)"
+  - "No significant differences found for zinc, lead, cobalt, or nickel between RA patients and controls"
+  - "RA females had higher concentrations of Cu, Pb, Co, and Ni compared to RA males (non-significant)"
+karen_brain_primitives: [1, 2]
 platform: wikibiome
 ---
 

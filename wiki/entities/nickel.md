@@ -13,7 +13,7 @@ seo_target: "nickel gut bacteria health effects"
 wikipedia_differentiation: "Detailed metal-microbiome interactions including pathogen nickel dependencies (urease, hydrogenase, glyoxalase), SNAS gut dysbiosis mechanisms, dietary nickel-disease associations, and ecological roles in nutritional immunity"
 dietary_sources: ["cocoa", "nuts", "legumes", "whole grains", "shellfish", "leafy vegetables", "tea", "canned foods"]
 tolerable_daily_intake: "2.8 µg/kg bw/day (EFSA 2020)"
-source_count: 112
+source_count: 119
 ---
 
 # Nickel (Ni)

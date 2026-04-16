@@ -10,6 +10,14 @@ year: 2019
 doi: "10.7759/cureus.4556"
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, autoimmune-protocol-diet, paleo-diet, quality-of-life, lifestyle-intervention, hs-CRP, inflammation, fermented-foods, dietary-fiber, elimination-diet, intestinal-permeability, gut-microbiome]
 platform: wikibiome
+evidence_level: quasi-experimental
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "A 10-week AIP diet and lifestyle intervention significantly improved health-related quality of life in middle-aged women with Hashimoto's thyroiditis across all 8 SF-36 subscales"
+  - "Clinical symptom burden (MSQ) decreased significantly from mean 92 to 29 post-intervention (p=0.0003)"
+  - "Inflammation as measured by hs-CRP decreased by 29% (p=0.0219); no significant changes in thyroid function or antibodies"
+karen_brain_primitives: []
 ---
 
 # Efficacy of the Autoimmune Protocol Diet as Part of a Multi-disciplinary, Supported Lifestyle Intervention for Hashimoto's Thyroiditis

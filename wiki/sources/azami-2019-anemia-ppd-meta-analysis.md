@@ -10,6 +10,14 @@ year: 2019
 tags: [anemia, postpartum-depression, meta-analysis, systematic-review, iron-deficiency, hemoglobin, ferritin, EPDS]
 doi: "10.22088/cjim.10.2.115"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
+taxa_discussed: []
+key_findings:
+  - "Postpartum anemia significantly increases PPD risk: RR = 1.887 (95% CI: 1.255-2.838, p=0.002) across 10 studies"
+  - "Anemia during pregnancy also significantly increases PPD risk: RR = 1.240 (95% CI: 1.001-1.536, p=0.048) across 8 studies"
+  - "Low serum ferritin (<1 ug) was associated with 3.98-fold increased PPD risk in one included study"
+karen_brain_primitives: [2]
 ---
 
 # Key Claims

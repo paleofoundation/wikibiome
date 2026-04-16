@@ -40,6 +40,14 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: "Demonstrates metal-driven co-selection of antibiotic resistance genes and metal resistance genes in occupational settings, establishing that metal burden acts as a selective pressure that enriches pathogens with parallel antimicrobial and metal defense strategies. WikiBiome depends on this evidence to explain why metal-exposed environments (endometriosis lesions, dysbiotic GI tracts with metallomics signatures) select for multidrug-resistant organisms—reframing resistance evolution as an ecological consequence of metal abundance rather than antibiotic exposure alone."
+evidence_level: cross-sectional
+metals_discussed: [mercury, copper, lead, zinc, cadmium, cobalt]
+taxa_discussed: []
+key_findings:
+  - "E-waste recycling facilities harbor airborne ARGs and MRGs at concentrations posing significant occupational health risks; co-selection — not cross-resistance — is the primary driving mechanism"
+  - "The mobile genetic element intI1 (class 1 integron-integrase) consistently exhibited high relative abundance across all sample types and all four facilities, underscoring its pivotal role in horizontal gene transfer"
+  - "Mercury-rich environments (battery recycling) select for a more diverse ARG profile, with some ARGs detected at 2+ log levels higher than at other facilities"
+karen_brain_primitives: [1, 4]
 ---
 
 # Key Claims

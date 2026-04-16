@@ -10,6 +10,14 @@ year: 2014
 doi: "10.1186/1477-7819-12-164"
 tags: [colon-cancer, colorectal-cancer, bile-acids, deoxycholic-acid, lithocholic-acid, ROS, NF-kB, DNA-damage, apoptosis, vitamin-D, oxidative-stress]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [iron]
+taxa_discussed: []
+key_findings:
+  - "Secondary bile acids (lithocholic acid and deoxycholic acid) were first proposed as carcinogens in 1939; high bile acid exposure generates ROS, induces DNA damage, and leads to reduced apoptosis capability"
+  - "NF-kB activation by bile acids largely determines intestinal epithelium cell fate; persistent NF-kB activation in colitis results in colon cancer"
+  - "Vitamin D deficiency is a known major risk factor for CRC; VDR functions as a receptor of secondary BAs (LCA) and activates detoxification pathways via PXR/SXR"
+karen_brain_primitives: []
 ---
 
 # Ajouz 2014 -- Secondary Bile Acids: An Underrecognized Cause of Colon Cancer

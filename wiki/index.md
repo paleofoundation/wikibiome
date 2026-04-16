@@ -1,29 +1,31 @@
 ---
 title: WikiBiome Content Index
 type: index
-updated: 2026-04-14
+updated: 2026-04-16
 ---
 
 # WikiBiome / Cureva Knowledge Base Index
 
-**Last updated:** 2026-04-14
+**Last updated:** 2026-04-16
 
 ## Summary
 
+<!-- Counts derived from filesystem: ls wiki/sources/*.md | wc -l; grep -l "^subtype: metal" wiki/entities/*.md | wc -l; etc. -->
+
 | Category | Count |
 |----------|-------|
-| Sources | 1687 |
-| Entities | 135 |
-| — Metals/Metalloids | 17 |
-| — Microbes | 81 |
+| Sources | 1700 |
+| Entities | 148 |
+| — Metals/Metalloids | 20 |
+| — Microbes | 84 |
 | — Fungi | 7 |
-| — Archaea | 1 |
-| — Diseases | 29 |
-| Concepts | 90 |
-| Disease Signatures | 16 |
-| Interventions | 13 |
-| STOPs | 19 |
-| Analyses | 12 |
+| — Archaea | 0 |
+| — Diseases | 36 |
+| Concepts | 94 |
+| Disease Signatures (Cureva) | 29 |
+| Interventions (WikiBiome) | 30 |
+| STOPs (Cureva) | 34 |
+| Analyses | 15 |
 
 ## Reference Pages
 

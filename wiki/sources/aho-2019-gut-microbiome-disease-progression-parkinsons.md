@@ -11,6 +11,14 @@ tags: [parkinsons-disease, disease-progression, gut-microbiome, longitudinal, dy
 library_category: causal
 platform: both
 condition: "Parkinson's disease"
+evidence_level: prospective-cohort
+metals_discussed: [iron]
+taxa_discussed: [prevotella, enterobacteriaceae]
+key_findings:
+  - "Gut microbiome composition at baseline was associated with subsequent disease progression rate in Parkinson's disease"
+  - "Prevotella depletion correlated with faster motor symptom progression"
+  - "Enterobacteriaceae enrichment was associated with greater postural instability and gait difficulty"
+karen_brain_primitives: [1, 5]
 ---
 
 # Gut Microbiome and Disease Progression in Parkinson's Disease

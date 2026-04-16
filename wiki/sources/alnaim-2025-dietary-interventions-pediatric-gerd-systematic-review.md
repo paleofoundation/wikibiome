@@ -8,8 +8,16 @@ authors: [Alnaim AA]
 journal: European Journal of Medical Research
 year: 2025
 doi: "10.1186/s40001-025-02784-0"
+evidence_level: systematic-review-meta-analysis
 tags: [gerd, gastroesophageal-reflux, pediatric, dietary-interventions, probiotics, plant-based-diet, low-fat-diet, exclusion-diet, nutraceuticals, gut-barrier, inflammation, personalized-nutrition, systematic-review, mediterranean-diet, high-fiber-diet]
 platform: wikibiome
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Probiotics emerged as the most promising dietary intervention for pediatric GERD, reducing symptoms by enhancing gut barrier function and modulating inflammation"
+  - "Plant-based and exclusion diets demonstrated significant improvements in pediatric GERD symptoms, likely via anti-inflammatory properties and elimination of dietary triggers"
+  - "Evidence on low-fat versus full-fat dairy diets showed mixed results with no clear consensus on impact on GERD symptoms"
+karen_brain_primitives: [5]
 ---
 
 # Effectiveness of dietary interventions in managing pediatric gastroesophageal reflux disease: a comprehensive systematic review

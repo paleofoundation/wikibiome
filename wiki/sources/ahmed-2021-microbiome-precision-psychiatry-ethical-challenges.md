@@ -11,6 +11,14 @@ tags: [autism-spectrum-disorder, precision-psychiatry, ethics, microbiome, big-d
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Ethical challenges surround the use of microbiome big data in precision psychiatry"
+  - "Privacy, informed consent, and data ownership issues arise from microbiome profiling"
+  - "Microbiome-based interventions (FMT, probiotics) in psychiatry raise unique ethical considerations"
+karen_brain_primitives: []
 ---
 
 # Key Claims

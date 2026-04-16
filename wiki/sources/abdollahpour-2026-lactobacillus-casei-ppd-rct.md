@@ -11,6 +11,14 @@ tags: [postpartum-depression, probiotics, Lactobacillus-casei, RCT, gut-brain-ax
 library_category: clinical-trial
 platform: cureva
 condition: "postpartum depression"
+evidence_level: randomized-controlled-trial
+metals_discussed: [zinc, iron, magnesium]
+taxa_discussed: [lactobacillus]
+key_findings:
+  - "Lactobacillus casei 431 supplementation (500mg daily, 1.5x10^9 CFU/ml) from day 1 to day 21 postpartum showed no significant effect on PPD symptoms vs. placebo (p=0.71)"
+  - "Mean depression scores at day 5: 4.7 (probiotic) vs. 5.6 (placebo); at day 21: 7.39 vs. 8.11 — not significant"
+  - "PPD prevalence in Iranian women: 9.8–25.7%; authors suggest starting supplementation during pregnancy may yield different results"
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

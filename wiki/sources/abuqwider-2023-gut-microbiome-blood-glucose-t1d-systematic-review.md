@@ -11,6 +11,14 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, dysbiosis, intestinal-permea
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [zinc, iron, selenium]
+taxa_discussed: [prevotella, faecalibacterium-prausnitzii, ruminococcus, bifidobacterium, dorea, lactobacillus, clostridium]
+key_findings:
+  - "T1D patients show distinct gut microbiome profiles vs healthy controls with altered Prevotella, Faecalibacterium, and Ruminococcaceae abundance"
+  - "HbA1c negatively correlated with abundance of Prevotella, Faecalibacterium, and Ruminococcaceae"
+  - "Intestinal permeability may be increased in T1D contributing to bacterial translocation and inflammation; positive correlation between inflammatory parameters and gut dysbiosis"
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Key Claims

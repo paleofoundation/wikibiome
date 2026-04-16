@@ -26,6 +26,14 @@ tags:
   - epidemiology
 doi: 10.3233/JAD-200282
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [lead, mercury, cadmium, arsenic, manganese]
+taxa_discussed: []
+key_findings:
+  - "Cumulative bone lead levels provide better AD exposure estimates than blood lead; tibia lead associated with cognitive decline in older adults"
+  - "Mercury can increase amyloid-beta production and tau phosphorylation; fish consumption creates confounding via neuroprotective omega-3 fatty acids"
+  - "Gene-environment interactions (e.g., APOE genotype) and mixed metal exposures are critical but understudied for real-world ADRD risk"
+karen_brain_primitives: [1, 3]
 keystone: true
 keystone_criteria_met:
   - 1

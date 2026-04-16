@@ -11,6 +11,14 @@ tags: [autism-spectrum-disorder, leaky-gut, intestinal-permeability, biomarkers,
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Altered gut microbiota observed frequently in autistic patients may trigger leaky gut"
+  - "Bacterial metabolites (SCFAs, LPS, beta-cresol) and proteins (calprotectin, zonulin, lysozyme) serve as biomarkers for leaky gut detection in ASD"
+  - "Disrupted gut-blood-brain barriers can explain leakage of bacterial metabolites; probiotics may represent a non-invasive tool to reestablish healthy gut microbiota"
+karen_brain_primitives: [2]
 ---
 
 # Key Claims

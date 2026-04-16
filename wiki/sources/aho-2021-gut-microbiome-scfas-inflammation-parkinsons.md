@@ -11,6 +11,14 @@ tags: [parkinsons-disease, short-chain-fatty-acids, butyrate, gut-barrier, neuro
 library_category: metabolomics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+key_findings:
+  - "Fecal SCFA concentrations (butyrate, acetate, propionate) were reduced in PD patients; fecal calprotectin was elevated indicating intestinal inflammation"
+  - "Zonulin levels were increased in PD indicating compromised gut barrier integrity; SCFA levels correlated negatively with inflammatory markers"
+  - "Faecalibacterium and Roseburia abundance correlated with higher butyrate levels"
+karen_brain_primitives: [2, 5]
 ---
 
 # Relationships of Gut Microbiota, Short-Chain Fatty Acids, Inflammation, and the Gut Barrier in Parkinson's Disease

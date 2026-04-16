@@ -32,6 +32,14 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Provides the first systematic map of metal transport redundancy in Streptococcus species, showing how redundant ABC importers and CDF/P-type ATPase exporters lock pathogenic streptococci into metal-dependent ecological niches. Essential for understanding nickel-driven dysbiosis in polymicrobial biofilms (oral, respiratory, urogenital) where Streptococcus competes with Candida and Actinobacteria for scarce metals."
+evidence_level: expert-opinion
+metals_discussed: [zinc, manganese, iron, copper, nickel, cadmium]
+taxa_discussed: [streptococcus, streptococcus-pneumoniae, streptococcus-agalactiae]
+key_findings:
+  - "Pathogenic Streptococcus species have evolved complex, often redundant metal transport systems for zinc, manganese, iron, copper, and nickel to survive host metal environments"
+  - "Metal transport systems are critical virulence factors; mutants lacking key importers show attenuated disease in animal models; host exploits nutritional immunity via both metal starvation and intoxication"
+  - "Nickel transport in Streptococci is largely uncharacterized — only the UreMQO system in S. salivarius is known; role of Ni in Streptococcal pathogenesis remains largely unelucidated"
+karen_brain_primitives: [1, 2, 4]
 ---
 
 # Metal Homeostasis in Pathogenic Streptococci

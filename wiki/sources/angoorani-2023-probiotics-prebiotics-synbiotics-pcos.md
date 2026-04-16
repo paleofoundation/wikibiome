@@ -9,6 +9,15 @@ journal: Frontiers in Medicine
 year: 2023
 tags: [PCOS, probiotics, prebiotics, synbiotics, systematic-review, meta-analysis, AMSTAR-2, gut-microbiota, insulin-resistance]
 doi: "10.3389/fmed.2023.1141355"
+evidence_level: systematic-review-meta-analysis
+sample_size: "8 systematic reviews/meta-analyses; 406-1,049 participants per review"
+metals_discussed: []
+taxa_discussed: []
+key_findings:
+  - "Probiotics, prebiotics, and synbiotics have beneficial effects on BMI, fasting plasma glucose, and lipid profiles in PCOS"
+  - "Probiotics more effective than synbiotics on anthropometric indices; prebiotics alone more effective than probiotics for BMI and FPG reduction"
+  - "Evidence for hormonal outcomes (testosterone, SHBG) remains limited and inconsistent"
+karen_brain_primitives: [5]
 platform: wikibiome
 ---
 

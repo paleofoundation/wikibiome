@@ -11,8 +11,13 @@ tags: [methanogens, heavy-metals, volatile-fatty-acids, copper, zinc, acetate, p
 doi: "10.1186/s13068-018-1302-x"
 platform: wikibiome
 karen_brain_primitives: [1, 4]
-metals_discussed: ["copper", "zinc"]
-taxa_discussed: ["Methanococcus"]
+metals_discussed: [copper, zinc]
+taxa_discussed: []
+evidence_level: in-vitro
+key_findings:
+  - "Copper at 1.9 µmol/L reduced growth of Methanococcus maripaludis; zinc at 1.0 mmol/L enhanced growth; combined Cu+Zn at highest concentrations counteracted Cu toxicity"
+  - "Propionate uptake by M. maripaludis is a novel finding; propionate stimulated CH4 production at 52.0 and 104.1 mmol/L"
+  - "Acetate at 10.3 mmol/L supported growth without reduction of specific growth rate; VFAs do not directly interact with C-fixation machinery"
 ---
 
 # Key Claims

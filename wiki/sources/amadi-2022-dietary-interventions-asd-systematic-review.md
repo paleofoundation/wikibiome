@@ -7,10 +7,19 @@ authors: [C.N. Amadi, Ch.N. Orish, Ch. Frazzoli, O.E. Orisakwe]
 year: 2022
 journal: "Psychiatriki"
 doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
+evidence_level: systematic-review-meta-analysis
+sample_size: "N/A - systematic review of intervention studies"
 tags: [autism, diet, GFCF, ketogenic, mediterranean, FODMAP, polyphenols, camel-milk, systematic-review]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [iron, zinc, copper]
+taxa_discussed: [akkermansia-muciniphila, parabacteroides, desulfovibrio, bacteroides-vulgatus]
+key_findings:
+  - "Multiple dietary models (GFCF, ketogenic, Mediterranean, low FODMAP) have been applied to ASD with variable results; no consensus exists on an ideal nutritional model"
+  - "Ketogenic diet increases beneficial Akkermansia, Parabacteroides, Bacteroides, and Desulfovibrio spp."
+  - "Food selectivity affects 30-84% of ASD children, complicating dietary interventions"
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims

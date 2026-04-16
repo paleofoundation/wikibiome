@@ -7,10 +7,18 @@ authors: [Sabiha Alam, Cara J. Westmark, Elizabeth A. McCullagh]
 year: 2023
 journal: "Frontiers in Neuroscience"
 doi: "10.3389/fnins.2022.1031016"
+evidence_level: expert-opinion
 tags: [autism, diet, ketogenic-diet, omega-3, prebiotics, probiotics, Fragile-X, microbiota, nutrition]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [zinc, iron, selenium, iodine]
+taxa_discussed: [akkermansia-muciniphila]
+key_findings:
+  - "Ketogenic diet improved CARS scores in 18/30 ASD children over 6 months and normalized Akkermansia muciniphila levels in BTBR mouse model"
+  - "Micronutrient deficiencies (zinc, calcium, iron, selenium, iodine, vitamin A, thiamine) are common in ASD children (30-84%)"
+  - "Prebiotic B-GOS improved anti-social behavior and GI dysfunction in ASD children on exclusion diets"
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Key Claims
