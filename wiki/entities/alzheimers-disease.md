@@ -18,7 +18,7 @@ wikipedia_differentiation: "Brain copper paradox analysis (depletion vs peripher
 
 # Alzheimer's Disease (AD)
 
-The most common form of dementia, affecting an estimated 55 million people worldwide and projected to triple by 2050. Characterized by progressive memory loss, cognitive decline, amyloid-beta plaques, and neurofibrillary tau tangles. From a metallomics perspective, Alzheimer's disease presents one of the most complex metal signatures of any disease -- featuring a central paradox of **brain copper depletion alongside peripheral copper elevation**, iron accumulation in plaques, and the strongest epidemiological evidence for lead as a neurodegenerative risk factor. Approximately 23 source pages address AD's metallomic dimensions.
+The most common form of dementia, affecting an estimated 55 million people worldwide and projected to triple by 2050 [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]. Characterized by progressive memory loss, cognitive decline, amyloid-beta plaques, and neurofibrillary tau tangles [[passeri-2024-recent-advances-therapeutics-alzheimers]]. From a metallomics perspective, Alzheimer's disease presents one of the most complex metal signatures of any disease -- featuring a central paradox of **brain copper depletion alongside peripheral copper elevation**, iron accumulation in plaques, and the strongest epidemiological evidence for lead as a neurodegenerative risk factor. Approximately 23 source pages address AD's metallomic dimensions.
 
 ## Metallomic Signature
 
@@ -54,10 +54,17 @@ This is the defining metallomic feature of Alzheimer's disease:
 
 ### Zinc: Enriched in Plaques, Depleted Systemically
 
-- Zinc accumulates in amyloid plaques, where it induces A-beta aggregation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
+- Zinc accumulates in amyloid plaques, where it induces A-beta aggregation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]; 100 uM Zn2+ produced 5-14 fold increases in A-beta aggregation rates in vitro [[benoit-2021-nickel-chelator-inhibits-amyloid-beta]].
 - Serum/plasma Zn is reduced in AD patients.
 - Zinc transporter dysfunction documented in AD brains.
 - The dual role of Zn -- protective at physiological levels (antioxidant, synaptic function) but pathological when trapped in plaques -- mirrors the Cu paradox.
+
+### Nickel: Newly Recognized A-beta Aggregation Driver
+
+- Ni2+ enhances A-beta-40 aggregation 5.7-fold at 100 uM [[benoit-2021-nickel-chelator-inhibits-amyloid-beta]].
+- Commercial recombinant A-beta-40 preparations contain 1,005 ug Ni per gram of peptide, reflecting intrinsic Ni binding [[benoit-2021-nickel-chelator-inhibits-amyloid-beta]].
+- The nickel chelator dimethylglyoxime (DMG) inhibits A-beta-40 aggregation 40-85% in a dose-dependent manner [[benoit-2021-nickel-chelator-dmg-amyloid-beta]].
+- Ni chelation represents a dual therapeutic strategy against both the "metal hypothesis" and the "infection hypothesis" of AD by disabling Ni-dependent pathogen enzymes (hydrogenase, urease) [[benoit-2021-nickel-chelator-dmg-amyloid-beta]].
 
 ### Aluminum: Controversial but Persistent
 
@@ -83,10 +90,10 @@ All metals converge on a small set of overlapping AD-relevant pathways [[ahmed-2
 
 1. **Oxidative stress and mitochondrial dysfunction** -- universal across all metals
 2. **Amyloid-beta aggregation** -- Cu and Zn bind A-beta directly; As increases BACE1-mediated production
-3. **Tau hyperphosphorylation** -- As activates GSK3-beta and ERK1/2; Pb affects protein phosphorylation
-4. **BBB disruption** -- Pb and Cd specifically damage the blood-brain barrier
-5. **Neuroinflammation** -- microglial activation by metals; LPS from gut bacteria amplifies via NF-kB
-6. **Epigenetic modification** -- Pb produces latent epigenetic effects decades after exposure; As depletes SAM (universal methyl donor)
+3. **Tau hyperphosphorylation** -- As activates GSK3-beta and ERK1/2; Pb affects protein phosphorylation [[ahmed-2025-metals-alzheimers-mechanistic-review]]
+4. **BBB disruption** -- Pb and Cd specifically damage the blood-brain barrier [[ahmed-2025-metals-alzheimers-mechanistic-review]]
+5. **Neuroinflammation** -- microglial activation by metals; LPS from gut bacteria amplifies via NF-kB [[gao-2023-microglia-neurodegenerative-diseases]]
+6. **Epigenetic modification** -- Pb produces latent epigenetic effects decades after exposure; As depletes SAM (universal methyl donor) [[bakulski-2025-heavy-metals-late-onset-alzheimers]]
 
 ## Gut Microbiome Connection
 

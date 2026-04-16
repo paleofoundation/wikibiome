@@ -30,7 +30,7 @@ wikipedia_differentiation: "Full metallomic signature with peritoneal fluid meta
 
 ## Overview
 
-Endometriosis is a chronic estrogen-dependent inflammatory condition affecting approximately 10% of reproductive-age women, characterized by the growth of endometrial-like tissue outside the uterus. The conventional framing treats it as a hormonal or immune disorder. The metallomic and microbiome perspective -- developed most comprehensively in the companion [[endometriosis|signature page]] -- reveals it as an ecological disease driven by metal-dependent microbial communities. This entity page provides the broader metallomics context: the systemic metal exposures, dietary paradoxes, and environmental links that feed the disease ecology described in the signature.
+Endometriosis is a chronic estrogen-dependent inflammatory condition affecting approximately 10% of reproductive-age women, characterized by the growth of endometrial-like tissue outside the uterus [[colonetti-2023-gut-vaginal-microbiota-endometriosis-meta-analysis]]. The conventional framing treats it as a hormonal or immune disorder [[ser-2023-microbiome-endometriosis-narrative-review]]. The metallomic and microbiome perspective -- developed most comprehensively in the companion [[endometriosis|signature page]] -- reveals it as an ecological disease driven by metal-dependent microbial communities. This entity page provides the broader metallomics context: the systemic metal exposures, dietary paradoxes, and environmental links that feed the disease ecology described in the signature.
 
 The pioneering finding is the extraordinary prevalence of nickel allergy in endometriosis patients: **90.3% tested positive for nickel allergic contact mucositis (Ni ACM)** in the [[borghini-2020-endometriosis-nickel-ibs|Borghini et al. (2020)]] study -- a prevalence far exceeding the general population rate of approximately 30%.
 
@@ -55,13 +55,13 @@ A critical clinical insight from the signature analysis: hepcidin is elevated in
 
 The microbiome dimension of endometriosis is extensively documented in the [[endometriosis|signature page]]. Key elements relevant to the metallomic context:
 
-**Metal-dependent pathogenic consortium.** The enriched taxa (E. coli, B. fragilis, S. agalactiae, F. nucleatum, C. albicans) share a common feature: dependence on nickel, iron, and zinc for virulence enzymes. Nickel-dependent glyoxalase enables immune evasion across all glyoxalase-positive pathogens. Iron-dependent siderophores power biofilm formation. Zinc-dependent metalloproteases enable tissue invasion.
+**Metal-dependent pathogenic consortium.** The enriched taxa (E. coli, B. fragilis, S. agalactiae, F. nucleatum, C. albicans) share a common feature: dependence on nickel, iron, and zinc for virulence enzymes [[svensson-2021-endometriosis-gut-microbiota-associations]] [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]. Nickel-dependent glyoxalase enables immune evasion across all glyoxalase-positive pathogens. Iron-dependent siderophores power biofilm formation. Zinc-dependent metalloproteases enable tissue invasion.
 
-**Estrobolome dysbiosis.** Beta-glucuronidase-producing taxa (E. coli, B. fragilis, S. agalactiae) deconjugate estrogen glucuronides, driving hepatic estrogen recirculation that fuels the estrogen-dependent disease progression.
+**Estrobolome dysbiosis.** Beta-glucuronidase-producing taxa (E. coli, B. fragilis, S. agalactiae) deconjugate estrogen glucuronides, driving hepatic estrogen recirculation that fuels the estrogen-dependent disease progression [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]] [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]].
 
-**SCFA producer loss.** Lachnospiraceae and Ruminococcus are depleted because they lack robust efflux pumps to survive the metal-rich, pro-inflammatory environment. Their loss causes colonocyte dysfunction, intestinal permeability, and microbial translocation -- perpetuating the disease cycle.
+**SCFA producer loss.** Lachnospiraceae and Ruminococcus are depleted because they lack robust efflux pumps to survive the metal-rich, pro-inflammatory environment [[shan-2021-gut-microbiota-hormone-inflammatory-endometriosis]] [[ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice]]. Their loss causes colonocyte dysfunction, intestinal permeability, and microbial translocation -- perpetuating the disease cycle.
 
-**Candida functional shielding.** C. albicans biofilms consume oxygen (creating anaerobic niches for obligate anaerobes), shield bacteria from immune detection, and show increased biomass in the presence of nickel.
+**Candida functional shielding.** C. albicans biofilms consume oxygen (creating anaerobic niches for obligate anaerobes), shield bacteria from immune detection, and show increased biomass in the presence of nickel [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].
 
 ## Environmental Metal Exposure Links
 

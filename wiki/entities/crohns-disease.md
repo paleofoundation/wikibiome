@@ -18,7 +18,7 @@ wikipedia_differentiation: "Metal compartmentalization analysis showing ZIP8-med
 
 # Crohn's Disease (CD)
 
-A chronic, relapsing-remitting inflammatory bowel disease (IBD) characterized by transmural [[inflammation]] of the gastrointestinal tract, most commonly affecting the terminal ileum and colon but capable of involving any segment from mouth to anus. Prevalence is increasing globally, particularly in newly industrialized countries, with current estimates exceeding 3 million affected individuals in Europe and North America combined. From a metal-microbiome perspective, Crohn's disease represents one of the clearest examples of **ecological collapse driven by metal dyshomeostasis**: restricted luminal metal availability selects against SCFA-producing commensals, enables pathobiont expansion, and establishes a self-reinforcing cycle of [[dysbiosis]], barrier dysfunction, and chronic inflammation.
+A chronic, relapsing-remitting inflammatory bowel disease (IBD) characterized by transmural [[inflammation]] of the gastrointestinal tract, most commonly affecting the terminal ileum and colon but capable of involving any segment from mouth to anus [[zhang-2017-intestinal-microbiota-host-immune-ibd]]. Prevalence is increasing globally, particularly in newly industrialized countries, with current estimates exceeding 3 million affected individuals in Europe and North America combined [[khalili-2024-mediterranean-diet-later-onset-crohns]]. From a metal-microbiome perspective, Crohn's disease represents one of the clearest examples of **ecological collapse driven by metal dyshomeostasis**: restricted luminal metal availability selects against SCFA-producing commensals, enables pathobiont expansion, and establishes a self-reinforcing cycle of [[dysbiosis]], barrier dysfunction, and chronic inflammation.
 
 ## Metallomic Signature
 
@@ -26,7 +26,7 @@ The metallomic profile in Crohn's disease is defined not by simple deficiency or
 
 ### Iron Dysregulation
 
-[[iron]] status in CD is complex because two distinct mechanisms coexist. **True iron deficiency** arises from chronic blood loss (ulceration, fistulae) and malabsorption (especially with ileal disease). **Anemia of chronic disease** results from [[hepcidin]] elevation as part of the acute-phase response, which blocks iron absorption and sequesters iron in macrophages. Hepcidin is the key differentiator: elevated hepcidin indicates functional iron withholding (the body is deliberately restricting iron from pathogens via [[nutritional-immunity]]), while low hepcidin with low ferritin indicates true deficiency. This distinction is clinically critical because iron supplementation in the setting of high hepcidin feeds siderophore-producing pathogens without correcting the underlying problem.
+[[iron]] status in CD is complex because two distinct mechanisms coexist [[amerikanou-2022-ibd-biomarkers-trace-metals]]. **True iron deficiency** arises from chronic blood loss (ulceration, fistulae) and malabsorption (especially with ileal disease). **Anemia of chronic disease** results from [[hepcidin]] elevation as part of the acute-phase response, which blocks iron absorption and sequesters iron in macrophages [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]]. Hepcidin is the key differentiator: elevated hepcidin indicates functional iron withholding (the body is deliberately restricting iron from pathogens via [[nutritional-immunity]]), while low hepcidin with low ferritin indicates true deficiency. This distinction is clinically critical because iron supplementation in the setting of high hepcidin feeds siderophore-producing pathogens without correcting the underlying problem.
 
 ### Zinc Depletion
 
@@ -75,7 +75,7 @@ The fundamental ecological pattern: metal dyshomeostasis selects AGAINST SCFA-pr
 
 ### AIEC Iron Acquisition and Invasion
 
-Adherent-invasive [[escherichia-coli]] depends on [[siderophores-metallophores]] for iron scavenging in the inflamed gut. AIEC strains express multiple siderophore systems (enterobactin, yersiniabactin, aerobactin) that outcompete host [[nutritional-immunity]] defenses like lactoferrin. Type 1 pili with FimH adhesin bind CEACAM6 receptors (upregulated in inflamed ileal epithelium), enabling mucosal adhesion and invasion [[haag-2015-intestinal-microbiota-innate-immunity-crohns]]. Once inside macrophages, AIEC replicates and triggers TNF-alpha, IL-6, and IL-8 release. Outer membrane vesicles (OMVs) deliver virulence factors and LPS into host cells, amplifying [[inflammation]] via [[nf-kappa-b]] activation. This is a textbook example of [[metal-dependent-virulence]]: without siderophore-mediated iron acquisition, AIEC cannot colonize the inflamed mucosa.
+Adherent-invasive [[escherichia-coli]] depends on [[siderophores-metallophores]] for iron scavenging in the inflamed gut [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. AIEC strains express multiple siderophore systems (enterobactin, yersiniabactin, aerobactin) that outcompete host [[nutritional-immunity]] defenses like lactoferrin. Type 1 pili with FimH adhesin bind CEACAM6 receptors (upregulated in inflamed ileal epithelium), enabling mucosal adhesion and invasion [[haag-2015-intestinal-microbiota-innate-immunity-crohns]]. Once inside macrophages, AIEC replicates and triggers TNF-alpha, IL-6, and IL-8 release [[zhang-2017-intestinal-microbiota-host-immune-ibd]]. Outer membrane vesicles (OMVs) deliver virulence factors and LPS into host cells, amplifying [[inflammation]] via [[nf-kappa-b]] activation. This is a textbook example of [[metal-dependent-virulence]]: without siderophore-mediated iron acquisition, AIEC cannot colonize the inflamed mucosa.
 
 ### B. fragilis BFT Toxin
 
@@ -91,9 +91,9 @@ This is the central metallomic paradox in CD and one of the clearest examples of
 
 1. **Patients are iron-deficient**: Chronic blood loss from ulceration, impaired absorption (especially ileal disease), and hepcidin-mediated sequestration all contribute to anemia, affecting up to 70% of CD patients.
 
-2. **Iron supplementation feeds pathogens**: Oral iron supplementation provides substrate for AIEC and other siderophore-producing Enterobacteriaceae. These organisms possess dedicated [[siderophores-metallophores]] systems specifically evolved to scavenge iron in the gut lumen. Supplemental iron bypasses host [[nutritional-immunity]] defenses.
+2. **Iron supplementation feeds pathogens**: Oral iron supplementation provides substrate for AIEC and other siderophore-producing Enterobacteriaceae [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. These organisms possess dedicated [[siderophores-metallophores]] systems specifically evolved to scavenge iron in the gut lumen. Supplemental iron bypasses host [[nutritional-immunity]] defenses.
 
-3. **Iron supplementation worsens dysbiosis**: Free luminal iron shifts the competitive balance away from SCFA-producing commensals (which have modest iron requirements) toward iron-scavenging pathobionts, deepening [[dysbiosis]].
+3. **Iron supplementation worsens dysbiosis**: Free luminal iron shifts the competitive balance away from SCFA-producing commensals (which have modest iron requirements) toward iron-scavenging pathobionts, deepening [[dysbiosis]] [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
 4. **Iron drives [[ferroptosis]] in inflamed mucosa**: Iron accumulation in inflamed tissue catalyzes lipid peroxidation through Fenton chemistry. GPX3 (glutathione peroxidase 3) is causally protective against CD -- its role in preventing iron-dependent [[oxidative-stress]] connects ferroptosis to disease pathogenesis [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
 

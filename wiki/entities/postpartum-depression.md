@@ -30,7 +30,7 @@ wikipedia_differentiation: "Metal mixture analysis showing synergistic effects o
 
 ## Overview
 
-Postpartum depression (PPD) affects 10-20% of women after delivery, with profound consequences for maternal health, infant bonding, and child neurodevelopment. The standard framing centers on hormonal withdrawal (estrogen, progesterone), HPA axis dysregulation, and psychosocial stressors. The metallomic perspective reveals that trace element depletion during pregnancy and delivery -- particularly zinc and iron -- is a significant and potentially modifiable risk factor. The most striking intervention finding is that postpartum zinc supplementation (100 mg/day) reduced PPD risk by 75% (OR 0.249) in the [[aoki-2022-zinc-supplementation-ppd-anemia|Aoki et al. (2022)]] study.
+Postpartum depression (PPD) affects 10-20% of women after delivery, with profound consequences for maternal health, infant bonding, and child neurodevelopment [[chao-2025-microbiota-gut-brain-perinatal-depression]]. The standard framing centers on hormonal withdrawal (estrogen, progesterone), HPA axis dysregulation, and psychosocial stressors [[dye-2022-immune-system-postpartum-mental-illness]]. The metallomic perspective reveals that trace element depletion during pregnancy and delivery -- particularly zinc and iron -- is a significant and potentially modifiable risk factor. The most striking intervention finding is that postpartum zinc supplementation (100 mg/day) reduced PPD risk by 75% (OR 0.249) in the [[aoki-2022-zinc-supplementation-ppd-anemia|Aoki et al. (2022)]] study.
 
 ## Metallomic Signature
 
@@ -50,7 +50,7 @@ Three lines of evidence converge on zinc depletion as the strongest metal-PPD as
 
 2. **Interventional**: [[aoki-2022-zinc-supplementation-ppd-anemia|Aoki et al. (2022)]] demonstrated that postpartum zinc supplementation (100 mg/day zinc acetate hydrate for 4 days post-cesarean) reduced PPD prevalence from 16.1% to 4.9% (adjusted OR 0.249, 95% CI 0.062-0.988). Critically, a prior trial using only 27 mg/day found no benefit -- suggesting a dose-response threshold.
 
-3. **Mechanistic**: Zinc adjusts excitatory (glutamate/NMDA) and inhibitory (GABA) neurotransmission pathways, modulates the CD4+/CD8+ T cell ratio, and has demonstrated antidepressant-like effects in animal forced swim tests with increases in brain synaptic hippocampal zinc.
+3. **Mechanistic**: Zinc adjusts excitatory (glutamate/NMDA) and inhibitory (GABA) neurotransmission pathways, modulates the CD4+/CD8+ T cell ratio, and has demonstrated antidepressant-like effects in animal forced swim tests with increases in brain synaptic hippocampal zinc [[hiremath-2021-zinc-ppd-case-control]] [[etebary-2010-ppd-serum-trace-elements]].
 
 ### Iron: Anemia as PPD Risk Factor
 
@@ -70,9 +70,19 @@ Despite mechanistic plausibility (Mg is required for >300 enzymes and has shown 
 
 While no studies have directly mapped gut microbiome changes to metal status in PPD, the connections are inferential but plausible:
 
+- **Postpartum dysbiosis**: PPD patients show reduced Firmicutes with significant depletion of SCFA-producing bacteria (Faecalibacterium, Phascolarctobacterium, Butyricicoccus, Lachnospiraceae) and increased Enterobacteriaceae [[zhou-2020-postpartum-microbiota]].
+- **Perinatal microbiome shifts**: Pre-pregnancy reductions in Lactobacillus and increased Prevotella during early pregnancy, with third-trimester diversity reduction setting the stage for postpartum dysbiosis [[chao-2025-microbiota-gut-brain-perinatal-depression]].
 - **Iron deficiency and gut ecology**: Iron depletion alters the competitive landscape of gut bacteria, as many pathogens depend on iron acquisition via siderophores. Paradoxically, iron supplementation during pregnancy -- the standard treatment for anemia -- may feed pathogenic iron-dependent bacteria and alter microbiome composition.
-- **Zinc and barrier function**: Zinc depletion compromises intestinal barrier integrity and promotes gut permeability, which can drive systemic inflammation via LPS translocation. Postpartum inflammation is itself a PPD risk factor.
-- **Gut-brain axis**: The vagal and humoral pathways connecting gut microbiome composition to brain neurochemistry are well-established. Metal-driven dysbiosis during pregnancy could affect neurotransmitter precursor production (tryptophan, tyrosine) by gut bacteria.
+- **Zinc and barrier function**: Zinc depletion compromises intestinal barrier integrity and promotes gut permeability, which can drive systemic inflammation via LPS translocation [[silva-fernandes-2024-inflammatory-biomarkers-perinatal-depression]]. Postpartum inflammation is itself a PPD risk factor.
+- **Gut-brain axis**: The vagal and humoral pathways connecting gut microbiome composition to brain neurochemistry are well-established [[chao-2025-microbiota-gut-brain-perinatal-depression]]. Metal-driven dysbiosis during pregnancy could affect neurotransmitter precursor production (tryptophan, tyrosine) by gut bacteria.
+
+### Tryptophan-Kynurenine Shunting in the Peripartum
+
+Tryptophan metabolism is disrupted during the peripartum period in PPD patients:
+
+- **Low total tryptophan** on postpartum days 1-5 was significantly associated with PPD (SMD: -5.39, 95% CI -7.72 to -3.05) in a meta-analysis of 13 studies [[liu-2022-tryptophan-postpartum-mood-disorders-meta-analysis]].
+- The **kynurenine pathway** accounts for ~95% of dietary tryptophan metabolism; IDO and TDO are key enzymes and are upregulated during pregnancy to establish fetal immune tolerance [[liu-2022-tryptophan-postpartum-mood-disorders-meta-analysis]].
+- Postpartum depletion of SCFA-producing commensals [[zhou-2020-postpartum-microbiota]] reduces anti-inflammatory signaling that normally restrains IDO-mediated tryptophan shunting away from serotonin synthesis.
 
 ## Environmental Metal Exposure Links
 

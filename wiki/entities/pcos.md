@@ -18,7 +18,7 @@ wikipedia_differentiation: "Comprehensive metallomic signature with copper meta-
 
 # Polycystic Ovary Syndrome (PCOS)
 
-A metabolic-endocrine disorder affecting 6-20% of reproductive-age women worldwide, characterized by hyperandrogenism, oligo/anovulation, and polycystic ovary morphology (Rotterdam criteria). PCOS is the leading cause of anovulatory infertility. From a metallomics perspective, PCOS is among the most thoroughly studied diseases, with ~30 source pages documenting a distinctive metallomic signature of [[copper]] elevation, toxic metal burden, antioxidant depletion, and metalloestrogen activity.
+A metabolic-endocrine disorder affecting 6-20% of reproductive-age women worldwide, characterized by hyperandrogenism, oligo/anovulation, and polycystic ovary morphology (Rotterdam criteria) [[barrea-2019-mediterranean-diet-pcos]]. PCOS is the leading cause of anovulatory infertility [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. From a metallomics perspective, PCOS is among the most thoroughly studied diseases, with ~30 source pages documenting a distinctive metallomic signature of [[copper]] elevation, toxic metal burden, antioxidant depletion, and metalloestrogen activity.
 
 ## Metallomic Signature
 
@@ -87,6 +87,9 @@ PCOS is increasingly recognized as a disease with a strong gut microbiome compon
 - Probiotics significantly decrease FPG, FBI, TG, and inflammatory markers (CRP, MDA) across multiple meta-analyses [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]].
 - Prebiotics decrease BMI, waist circumference, and FPG more effectively than probiotics alone [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]].
 - Vitamin D + probiotic co-supplementation (L. acidophilus, B. bifidum, L. reuteri, L. fermentum) for 12 weeks significantly reduced testosterone, hirsutism, hs-CRP, and MDA while increasing TAC and GSH [[ostadmohammadi-2019-vitamin-d-probiotic-pcos]].
+- **FMT transfer of the PCOS microbiome** to germ-free mice induced insulin resistance, ovarian dysfunction, and obese-like phenotype -- direct causal evidence that gut dysbiosis drives PCOS pathology [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]].
+- Combined bacteriome-mycobiome-metabolome analysis reveals hyperandrogenemia as a central driver of PCOS dysbiosis, with Mortierella enrichment distinguishing PCOS from healthy controls [[yin-2022-bacteriome-mycobiome-metabolome-pcos]].
+- *Lactobacillus* depletion and altered Bifidobacterium abundance are replicated findings; restoration with specific probiotic strains improves androgen and metabolic markers [[ostadmohammadi-2019-vitamin-d-probiotic-pcos]] [[calcaterra-2023-probiotics-pcos-adolescents]].
 - The metal-microbiome interaction is bidirectional: toxic metals reshape gut flora (favoring metal-tolerant species), and dysbiotic gut flora impairs metal detoxification and antioxidant capacity.
 
 ## Environmental Metal Exposure Links
@@ -113,7 +116,8 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 - Sb and Cd both correlate positively with HOMA-IR [[kirmizi-2020-heavy-metals-pcos]].
 - Hg correlates with fasting blood sugar and HbA1c [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 - Probiotics and dietary interventions improve PCOS outcomes primarily through IR reduction [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]].
-- Metal-induced oxidative stress impairs insulin signaling, creating a vicious cycle: oxidative stress -> IR -> hyperandrogenism -> anovulation.
+- Gut microbiome transfer recapitulates the insulin-resistant, obese, anovulatory phenotype in germ-free mice, implicating microbiome-insulin signaling as causal [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]].
+- Metal-induced oxidative stress impairs insulin signaling, creating a vicious cycle: oxidative stress -> IR -> hyperandrogenism -> anovulation [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 
 ## Current Interventions with Metal Relevance
 

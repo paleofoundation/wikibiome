@@ -18,7 +18,7 @@ wikipedia_differentiation: "Pheomelanin-neuromelanin hypothesis linking MC1R var
 
 # Parkinson's Disease (PD)
 
-The second most common neurodegenerative disease, affecting over 10 million people worldwide. Characterized by progressive loss of dopaminergic neurons in the substantia nigra, alpha-synuclein aggregation (Lewy bodies), and motor symptoms (tremor, rigidity, bradykinesia). From a metallomics perspective, PD is the disease where **ferroptosis** is most directly established as a cell death mechanism, **manganese-parkinsonism** provides the clearest occupational dose-response evidence, and the **gut-brain axis** offers a compelling metal-microbiome-neurodegeneration framework. Approximately 14 source pages address PD's metallomic dimensions.
+The second most common neurodegenerative disease, affecting over 10 million people worldwide [[dorsey-2018-parkinsons-incidence-meta-analysis]]. Characterized by progressive loss of dopaminergic neurons in the substantia nigra, alpha-synuclein aggregation (Lewy bodies), and motor symptoms (tremor, rigidity, bradykinesia) [[balestrino-2020-systematic-review-parkinsons-basal-ganglia]]. From a metallomics perspective, PD is the disease where **ferroptosis** is most directly established as a cell death mechanism, **manganese-parkinsonism** provides the clearest occupational dose-response evidence, and the **gut-brain axis** offers a compelling metal-microbiome-neurodegeneration framework. Approximately 14 source pages address PD's metallomic dimensions.
 
 ## Metallomic Signature
 
@@ -75,8 +75,8 @@ PD has the strongest evidence for gut-brain axis involvement among neurodegenera
 
 ### The Braak Hypothesis (Gut-First Origin)
 
-- Alpha-synuclein deposits found in the enteric nervous system **years before motor symptoms** [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- The vagus nerve serves as conduit for gut-to-brain propagation of alpha-synuclein pathology (Braak staging) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Alpha-synuclein deposits found in the enteric nervous system **years before motor symptoms** [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[keshavarzian-2020-gut-brain-axis-parkinsons-review]].
+- The vagus nerve serves as conduit for gut-to-brain propagation of alpha-synuclein pathology (Braak staging) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[chiang-2022-microbiota-gut-brain-axis-dysregulation-parkinsons]].
 - Vagotomy is associated with lower PD risk in epidemiological studies [[gentile-2020-diet-microbiota-brain-health]].
 - Bacterial amyloids (curli from [[escherichia-coli]]) can **cross-seed alpha-synuclein aggregation** [[gentile-2020-diet-microbiota-brain-health]], [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
 
@@ -101,8 +101,9 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 
 ### PD-Specific Dysbiosis Pattern
 
-- PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, and Faecalibacterium (all SCFA producers) with increased Enterobacteriaceae, Akkermansia, and Verrucomicrobiaceae [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]], [[khatoon-2023-gut-microbiota-neurodegenerative]].
-- Endotoxemia disrupts BBB and increases alpha-synuclein deposition [[gentile-2020-diet-microbiota-brain-health]].
+- PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, Roseburia, and Faecalibacterium (all SCFA producers) with increased Enterobacteriaceae, Akkermansia, and Verrucomicrobiaceae [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[khatoon-2023-gut-microbiota-neurodegenerative]] [[romano-2021-meta-analysis-gut-microbiome-parkinsons]].
+- Reduced fecal and serum SCFAs (butyrate, propionate, acetate) correlate with motor symptom severity [[tan-2022-gut-microbiome-scfas-parkinsons-review]] [[aho-2021-gut-microbiome-scfas-inflammation-parkinsons]].
+- Endotoxemia disrupts BBB and increases alpha-synuclein deposition [[gentile-2020-diet-microbiota-brain-health]] [[weis-2022-altered-gut-microbiome-lps-alpha-synuclein-parkinsons]].
 
 ## Environmental Metal Exposure Links
 

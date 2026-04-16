@@ -18,25 +18,26 @@ wikipedia_differentiation: "Heavy metals as upstream obesogens framework connect
 
 # Obesity
 
-A chronic metabolic condition affecting over 1 billion people globally, characterized by excess adipose tissue accumulation, systemic low-grade [[inflammation]], and gut microbiome disruption. From a metallomics perspective, obesity is increasingly understood not merely as a caloric imbalance but as a condition with significant environmental metal contributions -- particularly the Pendergrass framework positioning heavy metals as upstream permissive factors in the obesity epidemic.
+A chronic metabolic condition affecting over 1 billion people globally, characterized by excess adipose tissue accumulation, systemic low-grade [[inflammation]], and gut microbiome disruption [[pendergrass-2026-heavy-metals-obesity-epidemic]]. From a metallomics perspective, obesity is increasingly understood not merely as a caloric imbalance but as a condition with significant environmental metal contributions -- particularly the Pendergrass framework positioning heavy metals as upstream permissive factors in the obesity epidemic [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 
 ## The Microbiome in Obesity
 
 ### Firmicutes/Bacteroidetes Ratio
-- The original observation (Ley et al. 2006): obese individuals have elevated Firmicutes/Bacteroidetes (F/B) ratio compared to lean controls.
-- This remains the most cited microbiome-obesity finding, though it is now recognized as an oversimplification -- individual genera and species matter more than phylum-level ratios.
-- Weight loss shifts the F/B ratio toward that of lean individuals.
+- The original observation (Ley et al. 2006): obese individuals have elevated Firmicutes/Bacteroidetes (F/B) ratio compared to lean controls [[ismail-2022-gut-microbiome-obesity-t1d-review]].
+- This remains the most cited microbiome-obesity finding, though it is now recognized as an oversimplification -- individual genera and species matter more than phylum-level ratios [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
+- Weight loss shifts the F/B ratio toward that of lean individuals [[yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]].
 
 ### Functional Dysbiosis
-- Obese microbiome has increased capacity for energy harvest from dietary polysaccharides.
-- Depleted [[short-chain-fatty-acids]] producers, particularly butyrate-producing Roseburia and [[faecalibacterium-prausnitzii]].
-- Enriched Enterobacteriaceae and LPS-producing gram-negative species.
-- Reduced microbial diversity correlates with metabolic dysfunction severity.
+- Obese microbiome has increased capacity for energy harvest from dietary polysaccharides [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]].
+- Depleted [[short-chain-fatty-acids]] producers, particularly butyrate-producing Roseburia and [[faecalibacterium-prausnitzii]] [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- **Akkermansia muciniphila depletion** is a hallmark obesity signature; restoration improves mucin layer integrity, reduces metabolic endotoxemia, and ameliorates adipose inflammation [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
+- Enriched Enterobacteriaceae and LPS-producing gram-negative species [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- Reduced microbial diversity correlates with metabolic dysfunction severity [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 
 ### Adipose Tissue Inflammation
-- Gut barrier disruption permits LPS translocation ("metabolic endotoxemia"), activating TLR4/[[nf-kappa-b]] on adipose tissue macrophages.
+- Gut barrier disruption permits LPS translocation ("metabolic endotoxemia"), activating TLR4/[[nf-kappa-b]] on adipose tissue macrophages [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - This drives the chronic low-grade inflammation characteristic of obesity: elevated TNF-alpha, IL-6, MCP-1 in visceral adipose.
-- [[tmao]] contributes to vascular inflammation and [[cardiovascular-disease]] risk in obese individuals.
+- [[tmao]] contributes to vascular inflammation and [[cardiovascular-disease]] risk in obese individuals [[zhen-2023-tmao-cardiovascular-diseases-review]] [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 
 ## The Nickel-Allergy-Obesity Connection
 
@@ -65,9 +66,9 @@ The Pendergrass framework proposes a seven-step causal pathway from agricultural
 
 ### Key Supporting Evidence
 - Obese individuals show elevated stool Cd, Zn, Fe, Mn and reduced Ba, V, Ti [[pendergrass-2026-heavy-metals-obesity-epidemic]].
-- Bifidobacteriaceae abundance negatively correlated with fecal Cd.
-- NHANES data: urinary nickel independently associated with metabolic dysfunction-associated steatotic liver disease; [[insulin-resistance]] mediates ~73.69% of the association.
-- Low-dose metals stimulate adipogenesis (dose-response paradox); higher doses inhibit adipocyte differentiation and promote ectopic lipid accumulation.
+- Bifidobacteriaceae abundance negatively correlated with fecal Cd [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- NHANES data: urinary nickel independently associated with metabolic dysfunction-associated steatotic liver disease; [[insulin-resistance]] mediates ~73.69% of the association [[lu-2024-nickel-diabetes-meta-analysis]].
+- Low-dose metals stimulate adipogenesis (dose-response paradox); higher doses inhibit adipocyte differentiation and promote ectopic lipid accumulation [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 
 ## Bile Acid Connections
 

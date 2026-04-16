@@ -30,7 +30,7 @@ wikipedia_differentiation: "Gut-thyroid axis analysis with Mendelian randomizati
 
 ## Overview
 
-Graves' disease (GD) is an autoimmune thyroid disorder characterized by TSH receptor antibodies (TRAb) that stimulate the thyroid gland, causing hyperthyroidism. It is the most common cause of hyperthyroidism, with concordance rates of 35% in monozygotic vs 3% in dizygotic twins, indicating both genetic susceptibility (HLA-DRB1, PTPN22, JAK/STAT pathway) and environmental triggers. The metallomic dimension reveals selenium as the critical protective element, while the gut-thyroid axis provides a mechanistic framework linking microbial dysbiosis to autoimmune thyroid activation. There is no effective pharmacological therapy for the underlying autoimmunity -- treatment remains symptomatic with thyrostatics (methimazole) -- making microbiome and mineral interventions particularly relevant.
+Graves' disease (GD) is an autoimmune thyroid disorder characterized by TSH receptor antibodies (TRAb) that stimulate the thyroid gland, causing hyperthyroidism [[kahaly-2022-graves-disease-targeted-therapy-review]]. It is the most common cause of hyperthyroidism, with concordance rates of 35% in monozygotic vs 3% in dizygotic twins, indicating both genetic susceptibility (HLA-DRB1, PTPN22, JAK/STAT pathway) and environmental triggers [[lazarova-2021-graves-disease-epidemiology-risk-factors]]. The metallomic dimension reveals selenium as the critical protective element, while the gut-thyroid axis provides a mechanistic framework linking microbial dysbiosis to autoimmune thyroid activation. There is no effective pharmacological therapy for the underlying autoimmunity -- treatment remains symptomatic with thyrostatics (methimazole) -- making microbiome and mineral interventions particularly relevant.
 
 ## Metal Connections
 
@@ -42,13 +42,13 @@ The thyroid contains the highest concentration of [[selenium]] in the body, owin
 - **Glutathione peroxidases (GPx)**: protect thyrocytes from H2O2 generated during thyroid hormone synthesis
 - **Thioredoxin reductases (TrxR)**: maintain cellular redox balance
 
-Selenium deficiency is an independent risk factor for both Graves' disease and Graves' ophthalmopathy. Key clinical evidence:
+Selenium deficiency is an independent risk factor for both Graves' disease and Graves' ophthalmopathy [[brock-2015-selenium-thyroid-autoimmunity]]. Key clinical evidence:
 
-- **200 ug Se/day for 6 months** in a double-blind RCT significantly decreased Graves' ophthalmopathy severity, improved quality of life, and prevented disease worsening; benefits persisted after therapy withdrawal
-- **Se + vitamin D + methimazole** combination resulted in significantly greater FT4 reduction and better quality of life compared to methimazole monotherapy
-- Se supplementation reduces anti-TPO antibodies in autoimmune thyroiditis (40% reduction in those with levels >1200 IU/mL)
-- Se protects against [[cadmium]] toxicity by binding Cd and facilitating biliary excretion
-- Se has an antagonistic relationship with [[mercury]], providing protective effects when Hg levels are elevated
+- **200 ug Se/day for 6 months** in a double-blind RCT significantly decreased Graves' ophthalmopathy severity, improved quality of life, and prevented disease worsening; benefits persisted after therapy withdrawal [[brock-2015-selenium-thyroid-autoimmunity]]
+- **Se + vitamin D + methimazole** combination resulted in significantly greater FT4 reduction and better quality of life compared to methimazole monotherapy [[brylinski-2025-trace-elements-thyroid-diseases]]
+- Se supplementation reduces anti-TPO antibodies in autoimmune thyroiditis (40% reduction in those with levels >1200 IU/mL) [[brock-2015-selenium-thyroid-autoimmunity]]
+- Se protects against [[cadmium]] toxicity by binding Cd and facilitating biliary excretion [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
+- Se has an antagonistic relationship with [[mercury]], providing protective effects when Hg levels are elevated [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 
 ### Iron Deficiency
 
@@ -69,12 +69,12 @@ Selenium deficiency is an independent risk factor for both Graves' disease and G
 
 ### Iodine -- The Double-Edged Sword
 
-[[iodine]] is essential for thyroid hormone synthesis but excess iodine can paradoxically trigger autoimmune thyroiditis:
+[[iodine]] is essential for thyroid hormone synthesis but excess iodine can paradoxically trigger autoimmune thyroiditis [[mian-2022-editorial-diet-impair-thyroid-function]]:
 
 - Excess I inhibits TH synthesis via the Wolff-Chaikoff effect
-- Excess I activates the NLRP3 inflammasome in susceptible individuals
-- Prevalence of autoimmune thyroiditis increases after salt iodization programs
-- In combined Se and I deficiency, normalizing Se without iodine worsens hypothyroidism
+- Excess I activates the NLRP3 inflammasome in susceptible individuals [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
+- Prevalence of autoimmune thyroiditis increases after salt iodization programs [[lazarova-2021-graves-disease-epidemiology-risk-factors]]
+- In combined Se and I deficiency, normalizing Se without iodine worsens hypothyroidism [[brylinski-2025-trace-elements-thyroid-diseases]]
 
 ### Toxic Metal Thyroid Disruption
 
@@ -86,12 +86,12 @@ Selenium deficiency is an independent risk factor for both Graves' disease and G
 
 ### Dysbiosis in Graves' Disease
 
-Two independent cohorts (Shanghai and Nanjing) consistently demonstrate:
+Two independent cohorts (Shanghai and Nanjing) consistently demonstrate [[chen-2021-gut-microbiota-thyroid-graves]] [[yang-2022-intestinal-flora-graves-methimazole]]:
 
-- **Reduced alpha diversity** (Shannon, Simpson, observed OTUs) in untreated GD vs healthy controls
-- **Enriched in GD**: *Lactobacillus*, *Veillonella*, *Streptococcus*, *Collinsella*, *Bifidobacterium*
-- **Depleted in GD**: *Phascolarctobacterium*, *Synergistetes*, *Dialister*, *Roseburia*
-- **Recovery after methimazole treatment**: diversity significantly improves; *Phascolarctobacterium* increases; *Streptococcus*, *Blautia*, *Ruminococcus* decrease
+- **Reduced alpha diversity** (Shannon, Simpson, observed OTUs) in untreated GD vs healthy controls [[chen-2021-gut-microbiota-thyroid-graves]]
+- **Enriched in GD**: *Lactobacillus*, *Veillonella*, *Streptococcus*, *Collinsella*, *Bifidobacterium* [[chen-2021-gut-microbiota-thyroid-graves]]
+- **Depleted in GD**: *Phascolarctobacterium*, *Synergistetes*, *Dialister*, *Roseburia* [[chen-2021-gut-microbiota-thyroid-graves]]
+- **Recovery after methimazole treatment**: diversity significantly improves; *Phascolarctobacterium* increases; *Streptococcus*, *Blautia*, *Ruminococcus* decrease [[yang-2022-intestinal-flora-graves-methimazole]]
 
 ### Key Microbiome-Antibody Correlations
 
@@ -111,7 +111,7 @@ Two independent cohorts (Shanghai and Nanjing) consistently demonstrate:
 
 ### IBD-Graves' Disease Connection
 
-[[xian-2023-graves-disease-ibd-mendelian-randomization]] demonstrated that Crohn's disease increases GD risk by 30% (OR 1.30), while ulcerative colitis is paradoxically protective (OR 0.71). Shared genetic susceptibility via HLA-DRB1, PTPN22, and the JAK/STAT pathway underlies the comorbidity. The altered gut microbiota in IBD may influence thyroid function through uptake of iodine, selenium, and iron.
+[[xian-2023-graves-disease-ibd-mendelian-randomization]] demonstrated that Crohn's disease increases GD risk by 30% (OR 1.30), while ulcerative colitis is paradoxically protective (OR 0.71). Shared genetic susceptibility via HLA-DRB1, PTPN22, and the JAK/STAT pathway underlies the comorbidity. The altered gut microbiota in IBD may influence thyroid function through uptake of iodine, selenium, and iron. Additional MR evidence from [[zheng-2025-gut-thyroid-axis-aitd-mendelian-randomization]] and [[fang-2024-gut-microbiota-autoimmune-thyroid-mendelian]] supports causal gut-thyroid axis relationships in autoimmune thyroid disease.
 
 ## Bidirectional Gut-Thyroid Axis
 

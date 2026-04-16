@@ -18,14 +18,14 @@ wikipedia_differentiation: "Cu/Zn ratio as biological psychiatry biomarker, tryp
 
 # Depression (Major Depressive Disorder)
 
-Depression is the most prevalent mental health disorder globally, affecting over 280 million people, and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a metallomics perspective, depression features a distinctive signature of **zinc depletion, copper elevation, and iron dysregulation**, with toxic metals (lead, cadmium, mercury) acting as additional risk factors.
+Depression is the most prevalent mental health disorder globally, affecting over 280 million people [[zhu-2025-microbiota-gut-brain-axis-depression-review]], and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a metallomics perspective, depression features a distinctive signature of **zinc depletion, copper elevation, and iron dysregulation** [[ogundare-2024-metals-behavioral-depression-women]], with toxic metals (lead, cadmium, mercury) acting as additional risk factors.
 
 ## Metal Signatures
 
 ### Zinc -- The Antidepressant Metal
-The most robust metal-depression association. Serum zinc is consistently lower in depressed patients, with severity correlating inversely with zinc levels:
+The most robust metal-depression association. Serum zinc is consistently lower in depressed patients, with severity correlating inversely with zinc levels [[althomali-2024-heavy-metals-neurocognitive-systematic-review]]:
 - Zinc is required for NMDA receptor modulation, BDNF expression, and synaptic plasticity
-- Zinc deficiency increases [[inflammation]] (IL-6, TNF-alpha) and [[oxidative-stress]]
+- Zinc deficiency increases [[inflammation]] (IL-6, TNF-alpha) and [[oxidative-stress]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 - Multiple RCTs have evaluated zinc as SSRI augmentation, with modest effects most pronounced in zinc-deficient populations.
 - Zinc also supports [[immune-balance]] (Treg function) and [[intestinal-permeability]] (tight junction integrity)
 
@@ -44,29 +44,29 @@ Iron deficiency (with or without anemia) is a major contributor to depression, p
 - Hepcidin elevation from chronic [[inflammation]] sequesters iron, creating functional deficiency even with adequate stores
 
 ### Toxic Metals
-- **Lead** -- childhood lead exposure predicts adult depression; Pb disrupts dopaminergic and serotonergic neurotransmission, impairs BDNF signaling, and causes epigenetic changes in stress-response genes
-- **Cadmium** -- associated with depression in NHANES data; Cd depletes zinc (competitive absorption), compounds [[oxidative-stress]], and disrupts HPA axis function
-- **Mercury** -- occupational and dietary MeHg exposure associates with depressive symptoms; Hg depletes selenium (required for glutathione peroxidase → antioxidant defense)
+- **Lead** -- childhood lead exposure predicts adult depression [[ogundare-2024-metals-behavioral-depression-women]]; Pb disrupts dopaminergic and serotonergic neurotransmission, impairs BDNF signaling, and causes epigenetic changes in stress-response genes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
+- **Cadmium** -- associated with depression in NHANES data with conditional PIP = 0.447 in BKMR analysis [[ogundare-2024-metals-behavioral-depression-women]]; Cd depletes zinc (competitive absorption), compounds [[oxidative-stress]], and disrupts HPA axis function [[rasin-2025-cadmium-exposure-health-review]]
+- **Mercury** -- occupational and dietary MeHg exposure associates with depressive symptoms; Hg depletes selenium (required for glutathione peroxidase → antioxidant defense) [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 
 ## The Gut-Brain Axis in Depression
 
 Depression is increasingly recognized as a gut-brain disorder:
 
 ### Microbiome Signatures
-- **Depleted:** Coprococcus, Dialister, Faecalibacterium prausnitzii (butyrate producers with anti-inflammatory properties)
+- **Depleted:** Coprococcus, Dialister, Faecalibacterium prausnitzii (butyrate producers with anti-inflammatory properties), Bifidobacterium, Lactobacillus [[zhu-2025-microbiota-gut-brain-axis-depression-review]] [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
 - **Enriched:** Eggerthella, Enterobacteriaceae, Flavonifractor
-- These shifts reduce [[short-chain-fatty-acids]] production and increase LPS translocation
+- These shifts reduce [[short-chain-fatty-acids]] production and increase LPS translocation; fecal microbiota from depressed patients transplanted into microbiota-depleted rats recapitulates the depressive phenotype [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
 
 ### Tryptophan Shunting
 The IDO (indoleamine 2,3-dioxygenase) pathway is central:
 - [[Inflammation]] (IFN-gamma, TNF-alpha) upregulates IDO in macrophages and microglia
-- IDO diverts tryptophan from serotonin synthesis → kynurenine pathway
+- IDO diverts tryptophan from serotonin synthesis → kynurenine pathway; depressed patients show significantly elevated kynurenine/tryptophan ratio (p = 0.008) versus controls [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
 - Kynurenine → quinolinic acid (neurotoxic NMDA agonist) vs. kynurenic acid (neuroprotective)
 - Metal-driven inflammation biases toward the neurotoxic branch
-- The microbiome further modulates tryptophan availability (bacterial tryptophanase, indole production)
+- The microbiome further modulates tryptophan availability (bacterial tryptophanase, indole production) [[zhu-2025-microbiota-gut-brain-axis-depression-review]]
 
 ### Intestinal Permeability
-Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic [[inflammation]] → neuroinflammation. This "leaky gut" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects.
+Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic [[inflammation]] → neuroinflammation [[gao-2023-microglia-neurodegenerative-diseases]]. This "leaky gut" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects.
 
 ## Comorbidity Web
 

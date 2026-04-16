@@ -67,29 +67,29 @@ The Cu/Zn ratio was first proposed as a CRC biomarker and captures the two most 
 
 ### Fusobacterium nucleatum as Key Pathobiont
 
-*Fusobacterium nucleatum* is the most consistently enriched bacterium in CRC across global cohorts. Its pro-tumorigenic mechanisms are multifaceted:
+*Fusobacterium nucleatum* is the most consistently enriched bacterium in CRC across global cohorts [[marchesi-2011-towards-human-crc-microbiome]] [[gao-2015-microbiota-disbiosis-colorectal-cancer]]. Its pro-tumorigenic mechanisms are multifaceted:
 
-- **FadA adhesin** disrupts E-cadherin, activating beta-catenin/Wnt signaling and promoting proliferation
-- **Fap2 protein** binds TIGIT receptor on NK cells, inhibiting anti-tumor immunity, and binds Gal-GalNAc on tumor cells for selective colonization
+- **FadA adhesin** disrupts E-cadherin, activating beta-catenin/Wnt signaling and promoting proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
+- **Fap2 protein** binds TIGIT receptor on NK cells, inhibiting anti-tumor immunity, and binds Gal-GalNAc on tumor cells for selective colonization [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
 - **LPS-TLR4 interaction** activates NF-kB signaling, autophagy, and chemotherapy resistance (5-FU)
 - **miR21/TLR4/NF-kB** axis and **ULK1/ATG7** autophagy pathway activation
 
-*F. nucleatum* abundance increases progressively through the adenoma-carcinoma sequence, validated by qPCR in cohorts exceeding 400 patients.
+*F. nucleatum* abundance increases progressively through the adenoma-carcinoma sequence, validated by qPCR in cohorts exceeding 400 patients [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]].
 
 ### Bacteroides fragilis BFT Toxin
 
-Enterotoxigenic *B. fragilis* (ETBF) is found in the mucosa of >80% of CRC patients. The BFT metalloprotease toxin (three isoforms with >93% sequence identity) cleaves E-cadherin, disrupting cell-cell junctions and activating Wnt/beta-catenin and NF-kB pathways. [[metz-2019-drug-discovery-bft-inhibition]] identified chenodeoxycholic acid (CDCA), a primary bile acid and FXR agonist, as a natural BFT inhibitor -- reducing IL-8 secretion by 67-69% at physiological concentrations, suggesting inter-individual bile acid variation may explain differential CRC susceptibility.
+Enterotoxigenic *B. fragilis* (ETBF) is found in the mucosa of >80% of CRC patients [[metz-2019-drug-discovery-bft-inhibition]]. The BFT metalloprotease toxin (three isoforms with >93% sequence identity) cleaves E-cadherin, disrupting cell-cell junctions and activating Wnt/beta-catenin and NF-kB pathways [[metz-2019-drug-discovery-bft-inhibition]]. [[metz-2019-drug-discovery-bft-inhibition]] identified chenodeoxycholic acid (CDCA), a primary bile acid and FXR agonist, as a natural BFT inhibitor -- reducing IL-8 secretion by 67-69% at physiological concentrations, suggesting inter-individual bile acid variation may explain differential CRC susceptibility.
 
 ### Other CRC-Associated Bacteria
 
 From [[hanus-2021-immune-microbiota-metabolites-crc-triad]] Table 1 and supporting studies:
 
-- **pks+ *E. coli***: produces colibactin genotoxin causing double-strand DNA breaks and single-base substitutions
-- ***S. gallolyticus***: classic CRC-associated bacterium
-- ***Peptostreptococcus anaerobius***: enriched in tumor microenvironment
+- **pks+ *E. coli***: produces colibactin genotoxin causing double-strand DNA breaks and single-base substitutions [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
+- ***S. gallolyticus***: classic CRC-associated bacterium [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
+- ***Peptostreptococcus anaerobius***: enriched in tumor microenvironment [[gao-2015-microbiota-disbiosis-colorectal-cancer]]
 - ***Enterococcus faecalis***: produces extracellular superoxide and hydroxyl radicals
 
-Bacteria consistently depleted in CRC include *Bifidobacterium*, *Lactobacillus*, *Roseburia*, *Faecalibacterium prausnitzii*, and *Ruminococcus* -- the core SCFA-producing community.
+Bacteria consistently depleted in CRC include *Bifidobacterium*, *Lactobacillus*, *Roseburia*, *Faecalibacterium prausnitzii*, and *Ruminococcus* -- the core SCFA-producing community [[gao-2015-microbiota-disbiosis-colorectal-cancer]] [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
 ## Bile Acid-Microbiome-Cancer Axis
 
@@ -155,9 +155,9 @@ Iron intersects with CRC through multiple pathways:
 
 ### Protective Factors
 
-- **Dietary fiber**: metabolized by gut microbiome into SCFAs (butyrate, propionate, acetate); maintains microbial diversity; 20-30g daily recommended
-- **Mediterranean diet**: multi-component protection via n-3 fatty acids (COX-2/TNF-alpha suppression), fiber/butyrate (NF-kB inhibition), olive oil (COX-2/iNOS/STAT3 reduction), and polyphenols (IL-1beta/IL-6/TNF-alpha reduction)
-- **Polyphenols**: function as prebiotics increasing *Bifidobacterium*, *Lactobacillus*, and *Akkermansia*; curcumin increases *Lactobacillales* and decreases *Coriobacteriales* in CRC models
+- **Dietary fiber**: metabolized by gut microbiome into SCFAs (butyrate, propionate, acetate); maintains microbial diversity; 20-30g daily recommended [[appunni-2021-dietary-factors-gut-microbiome-crc]] [[vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer]]
+- **Mediterranean diet**: multi-component protection via n-3 fatty acids (COX-2/TNF-alpha suppression), fiber/butyrate (NF-kB inhibition), olive oil (COX-2/iNOS/STAT3 reduction), and polyphenols (IL-1beta/IL-6/TNF-alpha reduction) [[donovan-2017-mediterranean-diet-crc-prevention]] [[mcleod-2023-bridge-crc-mediterranean-diet-trial]]
+- **Polyphenols**: function as prebiotics increasing *Bifidobacterium*, *Lactobacillus*, and *Akkermansia*; curcumin increases *Lactobacillales* and decreases *Coriobacteriales* in CRC models [[appunni-2021-dietary-factors-gut-microbiome-crc]]
 
 ### Risk Factors
 
