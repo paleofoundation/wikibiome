@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **[[enterobacteriaceae]] and [[escherichia-coli]] (Escherichia-Shigella) causally increase Barrett's esophagus risk** (OR=1.10), establishing a direct causal link between Proteobacteria expansion and pre-malignant esophageal transformation ([[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts|quasi-experimental MR, n=602,444]])
+- **[[enterobacteriaceae]] and [[escherichia-coli]] (Escherichia-Shigella) causally increase Barrett's esophagus risk** (OR=1.10), establishing a direct causal link between Proteobacteria expansion and pre-malignant esophageal transformation [[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts|quasi-experimental MR, n=602,444]]
 - **[[akkermansia-muciniphila]] causally protective against Barrett's esophagus** (OR=0.76), the strongest protective signal identified in this study
 - **[[faecalibacterium-prausnitzii]] paradoxically increases both GERD and Barrett's risk** in MR analysis — a surprising finding given its generally anti-inflammatory reputation
 - **[[bifidobacterium]] and [[haemophilus]]** also showed significant causal associations, with Bifidobacterium generally protective

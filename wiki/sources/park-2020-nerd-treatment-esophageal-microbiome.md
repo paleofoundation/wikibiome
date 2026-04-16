@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **PPI reduced inflammatory markers but did not alter microbial composition** — IL-6, IL-8, NF-kB, and TNF-alpha all decreased after 8 weeks of PPI treatment in NERD patients, yet esophageal microbiome composition remained unchanged ([[park-2020-nerd-treatment-esophageal-microbiome|prospective cohort, n=55]])
+- **PPI reduced inflammatory markers but did not alter microbial composition** — IL-6, IL-8, NF-kB, and TNF-alpha all decreased after 8 weeks of PPI treatment in NERD patients, yet esophageal microbiome composition remained unchanged [[park-2020-nerd-treatment-esophageal-microbiome|prospective cohort, n=55]]
 - **NF-kB strongly correlated with Fusobacteria** (gamma=0.68), identifying [[fusobacterium]] as a key pro-inflammatory taxon in the esophageal environment
 - **Oropharyngeal and esophageal microbiomes converge after PPI** — acid suppression blurs the boundary between oral and esophageal microbial communities
 - **[[streptococcus]], [[haemophilus]], [[prevotella]], and [[veillonella]]** were the dominant esophageal taxa, consistent with other esophageal microbiome studies

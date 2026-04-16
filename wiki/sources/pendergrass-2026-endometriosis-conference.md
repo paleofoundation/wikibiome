@@ -60,8 +60,8 @@ The presentation demonstrated that endometriosis is an ecological disease driven
 - [[endometriosis]] -- the disease signature this presentation defines
 - [[low-nickel-diet]] -- validated intervention derived from the signature
 - [[ecoli-nissle-1917]] -- validated probiotic intervention
-- [[stop-iron-supplementation-endometriosis]] -- counterproductive intervention identified
-- [[stop-zinc-supplementation-endometriosis]] -- counterproductive intervention identified
+- stop iron supplementation endometriosis -- counterproductive intervention identified
+- stop zinc supplementation endometriosis -- counterproductive intervention identified
 - [[nickel]] -- central actionable metal target
 - [[metal-dependent-virulence]] -- urease, hydrogenase, glyoxalase as Ni-dependent virulence enzymes
 - [[nutritional-immunity]] -- hepcidin/calprotectin elevation as host defense, not deficiency

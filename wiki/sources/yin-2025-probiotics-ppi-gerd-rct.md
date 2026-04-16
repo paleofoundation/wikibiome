@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **Probiotic adjunct significantly increased Bifidobacterium** — from 6.3 to 9.2 lgCFU/g in the probiotic+PPI group versus 6.6 to 8.4 lgCFU/g in PPI-only controls ([[yin-2025-probiotics-ppi-gerd-rct|RCT, n=60]])
+- **Probiotic adjunct significantly increased Bifidobacterium** — from 6.3 to 9.2 lgCFU/g in the probiotic+PPI group versus 6.6 to 8.4 lgCFU/g in PPI-only controls [[yin-2025-probiotics-ppi-gerd-rct|RCT, n=60]]
 - **CRP significantly lower in the probiotic group** (P=0.0486), indicating reduced systemic inflammation beyond what PPI alone achieves
 - **Adverse reactions reduced** — 6.6% in the probiotic group versus 16.6% in PPI-only (P<0.01), suggesting probiotics may mitigate PPI side effects
 - **[[lactobacillus]] also increased** in the probiotic group, contributing to improved gut microbial balance

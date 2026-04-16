@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **H. pylori inversely associated with erosive reflux disease (ERD)** — H. pylori prevalence was lowest in ERD patients (5.2%) compared to NERD and functional dyspepsia, supporting the hypothesis that H. pylori may be protective against erosive esophageal damage ([[sugihartono-2022-gastric-microbiota-h-pylori-gerd|cross-sectional, n=197]])
+- **H. pylori inversely associated with erosive reflux disease (ERD)** — H. pylori prevalence was lowest in ERD patients (5.2%) compared to NERD and functional dyspepsia, supporting the hypothesis that H. pylori may be protective against erosive esophageal damage [[sugihartono-2022-gastric-microbiota-h-pylori-gerd|cross-sectional, n=197]]
 - **[[anaerobacillus]] found exclusively in ERD patients** — a novel finding suggesting this genus as a potential biomarker for erosive disease
 - **ERD had significantly higher alpha diversity than NERD** — counterintuitively, the more severe phenotype harbored a more diverse gastric microbial community
 - **[[streptococcus]], [[rothia]], and [[alloprevotella]]** were among the dominant gastric genera across all GERD subtypes

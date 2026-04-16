@@ -33,7 +33,7 @@ evidence_level: cross-sectional
 
 ## Connections
 
-- Extends the GI applications of [[low-nickel-diet]] beyond IBS ([[rizzi-2017-ibs-nickel-diet]]) and H. pylori ([[campanale-2014-nickel-free-diet-h-pylori]])
+- Extends the GI applications of [[low-nickel-diet]] beyond IBS [[rizzi-2017-ibs-nickel-diet]] and H. pylori [[campanale-2014-nickel-free-diet-h-pylori]]
 - GERD is listed among SNAS gastrointestinal symptoms in [[braga-2013-snas-nosologic-framework]]
 - Nickel's effect on GI mucosa discussed in [[di-gioacchino-2018-snas-chapter]]
 - Finding that patch test status does not predict diet response challenges the standard SNAS diagnostic approach

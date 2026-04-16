@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **[[prevotella]] melaninogenica prevalence rises progressively with disease severity** — from 22% in normal tissue to 50% in reflux esophagitis, 58% in Barrett's, and 83% in metaplasia, establishing a dose-response relationship with esophageal transformation ([[luu-2022-upper-gi-microbiota-children-reflux-metaplasia|prospective cohort, n=150]])
+- **[[prevotella]] melaninogenica prevalence rises progressively with disease severity** — from 22% in normal tissue to 50% in reflux esophagitis, 58% in Barrett's, and 83% in metaplasia, establishing a dose-response relationship with esophageal transformation [[luu-2022-upper-gi-microbiota-children-reflux-metaplasia|prospective cohort, n=150]]
 - **Metaplasia-associated P. melaninogenica strains carry distinct genomic features** — MlaD (membrane lipid asymmetry) and TonB_C (iron/metal transport) domains distinguish metaplasia strains from those in healthy tissue
 - **PPI increases oral bacterial contribution to gastric fluid** — from 26.7% to 49.2%, confirming that acid suppression facilitates oropharyngeal bacterial colonization of the stomach
 - **[[streptococcus]] and [[campylobacter]]** also showed disease-stage-associated abundance changes in pediatric upper GI samples

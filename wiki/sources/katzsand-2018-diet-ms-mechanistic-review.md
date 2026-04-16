@@ -32,7 +32,7 @@ platform: wikibiome
 
 ## Connections
 
-- Provides the broad dietary context for more focused studies on ([[hoffman-2023-dietary-strategies-eae-ms]]), [[ketogenic-diet]], and [[Mediterranean-diet]] in MS
+- Provides the broad dietary context for more focused studies on [[hoffman-2023-dietary-strategies-eae-ms]], [[ketogenic-diet]], and [[Mediterranean-diet]] in MS
 - The PUFA/MUFA mechanistic pathways connect to research in MS
 - The role of [[short-chain-fatty-acids]] as HDAC inhibitors and GPR ligands links dietary fiber to immune modulation, relevant to [[gut-brain-axis]] signaling
 - Salt effects on Th17 activation connect to the NaCl-inflammation axis discussed in the broader MS immunology literature

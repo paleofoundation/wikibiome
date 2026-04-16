@@ -22,11 +22,11 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Streptococcus
 
-A genus of Gram-positive facultative anaerobes that occupy niches ranging from benign commensals (dental plaque, skin) to acute pathogens (pharyngitis, impetigo, invasive disease). Streptococci are **uniquely manganese-dependent** for catalytic scavenging of reactive oxygen species, a trait that distinguishes them from many other pathogenic bacteria and provides both metabolic advantage and therapeutic vulnerability.
+A genus of Gram-positive facultative anaerobes that occupy niches ranging from benign commensals (dental plaque, skin) to acute pathogens (pharyngitis, impetigo, invasive disease). Streptococci are **uniquely manganese-dependent** for catalytic scavenging of reactive oxygen species [[akbari-2022-metal-homeostasis-streptococci]], a trait that distinguishes them from many other pathogenic bacteria and provides both metabolic advantage and therapeutic vulnerability.
 
 ## Taxonomy and Major Groups
 
-- **Group A Streptococcus (GAS / *S. pyogenes*)** -- causes pharyngitis, scarlet fever, rheumatic fever, and acute postinfectious glomerulonephritis (APIGN). Leads to ~111,500 deaths annually worldwide; post-infectious sequelae are the primary long-term public health burden.
+- **Group A Streptococcus (GAS / *S. pyogenes*)** -- causes pharyngitis, scarlet fever, rheumatic fever, and acute postinfectious glomerulonephritis (APIGN). Leads to ~111,500 deaths annually worldwide (Carapetis et al. 2005, global disease burden review); post-infectious sequelae are the primary long-term public health burden.
 - **Group B Streptococcus (GBS / *S. agalactiae*)** -- vaginal colonizer; causes neonatal meningitis and sepsis (leading cause of bacterial meningitis in infants <3 months), chorioamnionitis, and preterm birth complications.
 - **Streptococcus pneumoniae** -- causes community-acquired pneumonia, otitis media, meningitis. Encapsulated, invasive in immunocompromised hosts.
 - **Streptococcus mutans** -- dental caries pathogen. Acidogenic biofilm former; produces lactic acid from sucrose fermentation, driving enamel demineralization.
@@ -34,17 +34,19 @@ A genus of Gram-positive facultative anaerobes that occupy niches ranging from b
 
 ## Manganese Dependency -- A Unique Metabolic Strategy
 
-### Manganese-Dependent Superoxide Dismutase (MnSOD)
+### Manganese-Dependent Superoxide Dismutase (MnSOD) and the PsaA Permease
 
-- Streptococci rely on **MnSOD** (not the more common FeSOD) as their primary defense against oxidative stress.
+- Streptococci rely on **MnSOD** (a cambialistic SOD in many species, able to use either Mn or Fe but preferring Mn in vivo) as their primary defense against oxidative stress [[akbari-2022-metal-homeostasis-streptococci]].
 - MnSOD catalyzes the dismutation of superoxide radical (O2·−) to hydrogen peroxide and molecular oxygen, protecting intracellular proteins from oxidative damage.
-- This manganese preference represents an evolutionary adaptation to environments where iron is sequestered by host [[nutritional-immunity]] mechanisms like [[lactoferrin]] and transferrin.
+- Manganese is imported primarily through the **PsaABC / PsaA** ABC-type permease, which is essential for virulence in *S. pneumoniae* and related species [[akbari-2022-metal-homeostasis-streptococci]] [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
+- Elevated luminal zinc competes with manganese at PsaA, and excess Zn relative to Mn is directly toxic to pneumococci by preventing Mn uptake — a natural host antimicrobial strategy [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]]. Calcium can partially rescue streptococci from manganese excess toxicity [[opoku-2024-calcium-rescues-streptococcus-pneumoniae-manganese-toxicity]].
+- This manganese preference represents an evolutionary adaptation to environments where iron is sequestered by host [[nutritional-immunity]] mechanisms like [[lactoferrin]] and transferrin [[akbari-2022-metal-homeostasis-streptococci]].
 
 ### Virulence and Manganese Availability
 
-- Manganese availability modulates streptococcal virulence: MnSOD-deficient mutants show reduced survival in macrophages and attenuated pathogenicity in murine models.
+- Manganese availability modulates streptococcal virulence: MnSOD-deficient mutants show reduced survival in macrophages and attenuated pathogenicity in murine models [[akbari-2022-metal-homeostasis-streptococci]] [[martin-2022-manganese-homeostasis-stress-pathogenesis]].
 - In the throat and tonsil environment during acute infection, local manganese availability (vs. iron sequestration) may favor GAS expansion and persistence.
-- Calprotectin at inflammation sites sequesters both zinc and iron but not manganese, potentially creating a selective pressure for Mn-dependent pathogens during immune response.
+- Calprotectin at inflammation sites sequesters manganese and zinc (and to some extent iron), and mis-metallation under combined Mn/Zn stress drives ROS damage in group B Streptococcus [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].
 
 ## Major Virulence Factors
 
@@ -101,7 +103,7 @@ A genus of Gram-positive facultative anaerobes that occupy niches ranging from b
 ## Manganese Sequestration as Therapeutic Strategy
 
 - Calprotectin elevation (during inflammation or in IBD/infection) sequesters zinc and iron but may allow manganese to remain available.
-- **Experimental approaches**: Manganese chelators or dietary manganese restriction may synergize with antibiotics against streptococcal infections by blocking MnSOD-dependent stress survival.
+- **Experimental approaches**: Manganese chelators or dietary manganese restriction may synergize with antibiotics against streptococcal infections by blocking MnSOD-dependent stress survival [[martin-2022-manganese-homeostasis-stress-pathogenesis]].
 - Probiotics with alternative superoxide defenses (e.g., FeSOD-dependent organisms) may competitively exclude streptococci in biofilms.
 
 ## Connections

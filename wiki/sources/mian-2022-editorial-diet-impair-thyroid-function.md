@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Combination therapy of [[selenium]] and cholecalciferol ([[vitamin D]]) with [[methimazole]] (MMI) for newly-onset [[graves-disease]] resulted in significantly greater reduction in FT4 and better quality of life compared to MMI monotherapy
+- Combination therapy of [[selenium]] and cholecalciferol [[vitamin D]] with [[methimazole]] (MMI) for newly-onset [[graves-disease]] resulted in significantly greater reduction in FT4 and better quality of life compared to MMI monotherapy
 - Reaching optimal Se and VitD levels normalizes thyroid function parameters faster in GD patients
 - Circulating trans fatty acids (TFAs) from processed foods are correlated with [[thyroid function]] biomarkers, though the long-term health implications require further study
 - [[PFAS]] (per- and polyfluoroalkyl substances) can differentially influence TSH-dependent signaling pathways through direct interaction with TSH-R, representing a novel class of thyroid-disrupting chemicals

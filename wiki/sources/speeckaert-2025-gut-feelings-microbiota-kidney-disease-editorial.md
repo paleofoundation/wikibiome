@@ -16,7 +16,7 @@ platform: wikibiome
 ## Key Claims
 
 - Gut-kidney axis is a bidirectional communication pathway essential for metabolic regulation
-- Disruptions ([[dysbiosis]]) contribute to kidney disease by activating inflammatory cascades
+- Disruptions [[dysbiosis]] contribute to kidney disease by activating inflammatory cascades
 - Microbial metabolites (uremic toxins, SCFAs) play significant role in kidney health
 - Incorporating microbiome analysis into nephrology could revolutionize [[chronic-kidney-disease]] detection
 

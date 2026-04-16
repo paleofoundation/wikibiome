@@ -136,7 +136,7 @@ Landmark review establishing that [[nutritional-immunity]] extends far beyond [[
 ### Copper Resistance in *S. aureus*
 
 - **CopA**: a P-type ATPase copper efflux pump. Induced by copper exposure and regulated by the copper-sensitive operon repressor **CsoR**.
-- **CopZ**: a copper metallochaperone that binds Cu(I) in the cytoplasm and delivers it to CopA for export. Predicted to prevent inappropriate copper binding to cytoplasmic proteins ([[mis-metallation]]).
+- **CopZ**: a copper metallochaperone that binds Cu(I) in the cytoplasm and delivers it to CopA for export. Predicted to prevent inappropriate copper binding to cytoplasmic proteins [[mis-metallation]].
 - The *copAZ* operon is essential for copper homeostasis; *copA* mutants show increased intracellular copper accumulation and are attenuated in vivo.
 - Copper-coated surfaces have been shown to rapidly kill MRSA, supporting development of copper-containing antimicrobial materials for hospital environments.
 

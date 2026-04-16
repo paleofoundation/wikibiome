@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **Three distinct esotypes identified** — Streptococcus-dominated (Type A), Prevotella-dominated (Type B), and Haemophilus-intermediate (Type C) communities characterize the esophageal microbiome across GERD and Barrett's esophagus ([[deshpande-2018-esophageal-microbiome-signatures-host-genetics|cross-sectional, n=106]])
+- **Three distinct esotypes identified** — Streptococcus-dominated (Type A), Prevotella-dominated (Type B), and Haemophilus-intermediate (Type C) communities characterize the esophageal microbiome across GERD and Barrett's esophagus [[deshpande-2018-esophageal-microbiome-signatures-host-genetics|cross-sectional, n=106]]
 - **Streptococcus-Prevotella co-exclusion** — these two genera showed a consistent mutually exclusive pattern maintained across disease stages, suggesting competitive exclusion as a fundamental ecological dynamic
 - **STEAP2 metalloreductase SNPs associated with microbiome composition** — host genetic variants in STEAP2 (a six-transmembrane epithelial antigen involved in iron and copper reduction/uptake) correlated with esophageal microbial community structure
 - **[[candida-albicans]] detected** as part of the esophageal mycobiome, establishing an interkingdom dimension to esophageal ecology

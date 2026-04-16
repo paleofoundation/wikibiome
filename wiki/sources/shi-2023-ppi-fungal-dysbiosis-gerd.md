@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **[[candida-albicans]] dramatically increased after PPI use** — detected in 96.9% of gastric mucosal samples from PPI-treated GERD patients, significantly higher than untreated controls ([[shi-2023-ppi-fungal-dysbiosis-gerd|cross-sectional, n=65]])
+- **[[candida-albicans]] dramatically increased after PPI use** — detected in 96.9% of gastric mucosal samples from PPI-treated GERD patients, significantly higher than untreated controls [[shi-2023-ppi-fungal-dysbiosis-gerd|cross-sectional, n=65]]
 - **PPI promotes Candida colonization** in both short-term and long-term use, suggesting that acid suppression creates a permissive environment for fungal overgrowth
 - **Fungal dysbiosis is intrinsic to GERD** — mycobiome alterations were present in GERD patients regardless of PPI status, but PPI further exacerbated the dysbiosis
 - **[[alternaria]], [[aspergillus]], and [[trichoderma]]** were among other fungi with altered abundance in GERD gastric mucosa

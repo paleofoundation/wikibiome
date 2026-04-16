@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Ferrichrome, a siderophore derived from *Lactobacillus casei* ([[probiotics]]), inhibits growth of [[pancreatic cancer]] cells including 5-FU-resistant lines via p53 activation and cell cycle arrest
+- Ferrichrome, a siderophore derived from *Lactobacillus casei* [[probiotics]], inhibits growth of [[pancreatic cancer]] cells including 5-FU-resistant lines via p53 activation and cell cycle arrest
 - Ferrichrome induced apoptosis in pancreatic cancer cells through DNA fragmentation, PARP cleavage, and dysregulation of the cell cycle by activating p53
 - The tumor-suppressive effects of ferrichrome were effective in 5-FU-resistant SUIT-2 cells at the same concentration as in original cells, suggesting ability to overcome drug resistance
 - In vivo, ferrichrome (10 mg/kg) significantly reduced tumor volume and weight in mouse xenograft models

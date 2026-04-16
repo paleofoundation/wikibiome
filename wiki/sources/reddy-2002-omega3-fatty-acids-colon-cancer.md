@@ -14,7 +14,7 @@ platform: wikibiome
 # Key Claims
 
 - The colon tumor-promoting effect of [[dietary fat]] depends on its fatty acid composition: high dietary n-3 [[PUFAs]] lack tumor-promoting effects compared to diets high in n-6 PUFAs or saturated fats
-- Diets rich in n-3 PUFAs inhibit colon carcinogenesis through modulation of colonic ras-p21, cyclooxygenase-2 ([[COX-2]]), and inducible nitric oxide synthase activities, and induction of apoptosis
+- Diets rich in n-3 PUFAs inhibit colon carcinogenesis through modulation of colonic ras-p21, cyclooxygenase-2 [[COX-2]], and inducible nitric oxide synthase activities, and induction of apoptosis
 - Gene expression analysis via DNA microarrays shows n-3 fatty acid (DHA) activates cyclin-dependent kinase inhibitors (p21, p27, p57, p19) and inactivates anti-apoptotic Bcl-2 family genes
 - Decreasing n-6 PUFAs and saturated fats while increasing n-3 PUFAs, particularly EPA and DHA, has the potential to be a major component of [[colon cancer]] control
 - The upward trend in colon cancer in Japan since the 1960s correlates with dietary Westernization (increased animal fat consumption)

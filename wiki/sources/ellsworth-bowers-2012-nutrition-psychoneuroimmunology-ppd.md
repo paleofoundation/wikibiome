@@ -19,7 +19,7 @@ condition: "postpartum depression"
 - **n-3 PUFA** status not clearly linked to PPD despite inverse associations with depression generally; mixed evidence
 - **Vitamin D** and trace minerals ([[zinc]] and selenium) linked to PPD and psychoneuroimmunology through intriguing but small studies
 - **B vitamin status** varies inversely with PPD but not clearly causal
-- Certain micronutrient deficiencies contribute to PPD possibly through psychoneuroimmunological ([[inflammation]]) mechanisms
+- Certain micronutrient deficiencies contribute to PPD possibly through psychoneuroimmunological [[inflammation]] mechanisms
 
 # Methods & Findings
 

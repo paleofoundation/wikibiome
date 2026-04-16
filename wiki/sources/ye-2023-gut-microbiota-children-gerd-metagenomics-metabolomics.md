@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **288 differential metabolites identified** in GERD children compared to controls, with arachidonic acid metabolism as the top dysregulated pathway ([[ye-2023-gut-microbiota-children-gerd-metagenomics-metabolomics|cross-sectional, n=60]])
+- **288 differential metabolites identified** in GERD children compared to controls, with arachidonic acid metabolism as the top dysregulated pathway [[ye-2023-gut-microbiota-children-gerd-metagenomics-metabolomics|cross-sectional, n=60]]
 - **Proteobacteria and Bacteroidota enriched** — [[escherichia-coli]], [[klebsiella]], [[haemophilus]], [[bacteroides]], and [[prevotella]] were significantly increased in GERD pediatric gut
 - **Key commensals depleted** — [[bifidobacterium]], [[faecalibacterium-prausnitzii]], and [[blautia]] (all SCFA producers) were significantly reduced
 - **Alpha diversity significantly reduced** — both Shannon and Simpson indices were lower in GERD children, indicating a less complex and resilient gut ecosystem

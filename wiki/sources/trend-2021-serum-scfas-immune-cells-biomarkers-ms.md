@@ -53,7 +53,7 @@ This study uniquely connects [[short-chain-fatty-acids]] to specific immune cell
 1. **Propionate depletion** is the most consistent finding across SCFA-MS studies and connects directly to depletion of propionate-producing Clostridia by [[heavy-metals]]
 2. **Tfh/Tfr cell regulation by SCFAs** - these germinal center regulatory cells are critical for antibody production in MS; their SCFA-dependence means metal-induced [[dysbiosis]] could directly impair immune regulation
 3. **B cell-butyrate relationship** - butyrate supports anti-inflammatory (IL-10) naive B cells while suppressing class-switched memory B cells, relevant to B cell-targeted MS therapies
-4. **IDO1-acetate connection** links gut-derived SCFAs to tryptophan metabolism ([[indoles]]) and AHR signaling
+4. **IDO1-acetate connection** links gut-derived SCFAs to tryptophan metabolism [[indoles]] and AHR signaling
 
 ## Limitations
 

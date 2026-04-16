@@ -51,7 +51,7 @@ platform: wikibiome
 - Provides the theoretical framework that [[ogrady-2025-metal-dyshomeostasis-asd]] tests systematically regarding overlapping gut pathologies from Hg, Cd, Pb, and Zn deficiency
 - The zinc competition model directly informs [[ogrady-2025-metal-dyshomeostasis-asd]] hypothesis that toxic metals mimic zinc deficiency
 - The Pb-ASD evidence reviewed here is expanded upon mechanistically in [[tizabi-2023-lead-gut-microbiota-asd]] with specific focus on the gut-brain axis
-- ASD-associated genes encoding metal transport proteins (COMMD1 for [[copper]], SLC30A5 for [[zinc]]) connect to the PCOS literature where Cu dysregulation is consistently observed ([[jiang-2021-copper-pcos-meta-analysis]])
+- ASD-associated genes encoding metal transport proteins (COMMD1 for [[copper]], SLC30A5 for [[zinc]]) connect to the PCOS literature where Cu dysregulation is consistently observed [[jiang-2021-copper-pcos-meta-analysis]]
 - The oxidative stress, inflammation, and mitochondrial dysfunction pathomechanisms are shared between ASD (this review) and PCOS ([[kirmizi-2020-heavy-metals-pcos]], [[kurdoglu-2012-trace-elements-pcos]])
 - [[nickel]] is mentioned in the epidemiological table (Ni elevated in some ASD hair studies) but not discussed in depth -- connects to [[tatarchuk-2016-micro-macroelements-pcos]] which is the only source measuring Ni in PCOS
 - The metallome/metal profile concept could be applied to PCOS research, where studies measure individual metals rather than profiles

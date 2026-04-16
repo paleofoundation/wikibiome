@@ -17,7 +17,7 @@ wikipedia_differentiation: "Gut microbiome roles — zinc-dependent probiotic ac
 
 # Saccharomyces cerevisiae
 
-**Saccharomyces cerevisiae** is a **unicellular budding fungus (ascomycete)** ubiquitous in fermentation, brewing, bread-making, and increasingly used as a **pharmaceutical probiotic**. The strain *S. boulardii* (also called *S. cerevisiae* var. *boulardii*) is the most clinically studied variant and is marketed as a live biotherapeutic for diarrhea, traveler's diarrhea, and *Clostridioides difficile*–associated disease (CDAD). Unlike pathogenic *[[candida-albicans]]*, *S. cerevisiae* competes with pathogenic fungi, produces antimicrobial metabolites, and is rapidly cleared by the host—making it a model commensal and a key candidate for dysbiosis intervention in [[crohns-disease]], [[multiple-sclerosis]], and other conditions involving pathogenic fungal overgrowth.
+**Saccharomyces cerevisiae** is a **unicellular budding fungus (ascomycete)** ubiquitous in fermentation, brewing, bread-making, and increasingly used as a **pharmaceutical probiotic** (Hatoum et al. 2012). The strain *S. boulardii* (also called *S. cerevisiae* var. *boulardii*) is the most clinically studied variant and is marketed as a live biotherapeutic for diarrhea, traveler's diarrhea, and *Clostridioides difficile*–associated disease (CDAD) (McFarland 2010). Unlike pathogenic *[[candida-albicans]]*, *S. cerevisiae* competes with pathogenic fungi, produces antimicrobial metabolites, and is rapidly cleared by the host—making it a model commensal and a key candidate for dysbiosis intervention in [[crohns-disease]], [[multiple-sclerosis]] [[gargano-2022-mait-cells-gut-yeasts-ms-brain]], and other conditions involving pathogenic fungal overgrowth.
 
 ## Taxonomy and Basic Properties
 
@@ -88,43 +88,43 @@ wikipedia_differentiation: "Gut microbiome roles — zinc-dependent probiotic ac
 | **Killer toxins** | Protein toxins (K1, K2) | *Candida albicans*, other yeasts |
 
 ### Killer Toxins (S. cerevisiae-Specific)
-- Some strains produce **yeast killer toxins**: proteins that kill sensitive Candida and other yeasts.
+- Some strains produce **yeast killer toxins**: proteins that kill sensitive Candida and other yeasts (Schmitt and Breinig 2002).
 - Mechanism: Toxin binds to yeast cell wall receptors → DNA degradation → cell death.
-- *Candida albicans* is typically sensitive to K1 and K2 toxins; this antagonism is key to *S. cerevisiae*'s probiotic effect.
+- *Candida albicans* is typically sensitive to K1 and K2 toxins; this antagonism is key to *S. cerevisiae*'s probiotic effect (Roostita et al. 2013).
 
 ## Probiotic Strain: Saccharomyces boulardii
 
 **S. boulardii** is a thermotolerant derivative of *S. cerevisiae* selected for survival in the mammalian GI tract.
 
 ### Survival Properties
-- Heat-resistant spores survive stomach acid and bile.
-- Transits the GI tract without permanent colonization (15–30% recovery in stool within 5 days of dosing).
+- Heat-resistant spores survive stomach acid and bile (Czerucka et al. 2007).
+- Transits the GI tract without permanent colonization (15–30% recovery in stool within 5 days of dosing) (Blehaut et al. 1989).
 - Rapid clearance reduces overgrowth risk; unlike commensals, *S. boulardii* does not establish long-term residence.
 
 ### Mechanisms of Action Against Pathobionts
 
-1. **Direct Antagonism**: Killer toxins inhibit *Candida albicans*, *Candida auris*, and susceptible bacteria.
+1. **Direct Antagonism**: Killer toxins inhibit *Candida albicans*, *Candida auris*, and susceptible bacteria (Roostita et al. 2013).
 2. **Nutritional Competition**: Rapid glucose consumption creates substrate scarcity for pathogens; deprives *Candida* of its preferred carbon source.
-3. **Barrier Protection**: Increases mucin secretion and tight junction integrity via TLR-2 signaling in epithelial cells.
-4. **Immune Activation**: Increases IL-10 and TGF-β production; reduces pro-inflammatory IL-8 response to pathogenic infection.
+3. **Barrier Protection**: Increases mucin secretion and tight junction integrity via TLR-2 signaling in epithelial cells (Terciolo et al. 2019).
+4. **Immune Activation**: Increases IL-10 and TGF-β production; reduces pro-inflammatory IL-8 response to pathogenic infection (Thomas et al. 2011).
 5. **Siderophore Inhibition**: *S. boulardii* does not secrete siderophores; competes for iron but does not exacerbate pathogenic siderophore-driven inflammation.
-6. **Biofilm Disruption**: Interferes with *C. difficile* and *Candida* biofilm formation via fermentation metabolites (ethanol, acetate).
+6. **Biofilm Disruption**: Interferes with *C. difficile* and *Candida* biofilm formation via fermentation metabolites (ethanol, acetate) (Krasowska et al. 2009).
 
 ## Disease Associations and WikiBiome Context
 
 ### Crohn's Disease
-- **Anti-ASCA antibodies** (anti-*Saccharomyces cerevisiae* antibodies) are a hallmark serologic finding in CD.
-- Interpretation is **ecologically important**: ASCA+ patients often have dysfunctional anti-*Candida* immunity, leaving them vulnerable to secondary fungal overgrowth.
-- High-dose *S. boulardii* supplementation improves remission rates in CD cohorts; likely via *Candida* suppression and barrier strengthening.
+- **Anti-ASCA antibodies** (anti-*Saccharomyces cerevisiae* antibodies) are a hallmark serologic finding in CD (Main et al. 1988).
+- Interpretation is **ecologically important**: ASCA+ patients often have dysfunctional anti-*Candida* immunity, leaving them vulnerable to secondary fungal overgrowth (Standaert-Vitse et al. 2006).
+- High-dose *S. boulardii* supplementation improves remission rates in CD cohorts; likely via *Candida* suppression and barrier strengthening [[shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis]].
 
 ### Multiple Sclerosis
-- Dysbiotic MS signatures include elevated *[[candida-albicans]]* and reduced beneficial fungi.
+- Dysbiotic MS signatures include elevated fecal *S. cerevisiae* and *[[candida-albicans]]*, with 1,608 fungal isolates (24 species) recovered from MS patients vs 392 from healthy donors [[gargano-2022-mait-cells-gut-yeasts-ms-brain]].
 - *S. boulardii* suppresses *Candida* overgrowth, reducing LPS translocation and systemic inflammation.
 - Yeast fermentation metabolites (butyrate-like effects from lactate) support SCFA-producing bacteria.
 
 ### Traveler's Diarrhea and CDAD
-- *S. boulardii* prevents antibiotic-associated diarrhea (AAD) via *C. difficile* suppression.
-- Multiple RCTs show 60–80% reduction in AAD when *S. boulardii* is co-administered with broad-spectrum antibiotics.
+- *S. boulardii* prevents antibiotic-associated diarrhea (AAD) via *C. difficile* suppression (McFarland 2010).
+- Multiple RCTs show 60–80% reduction in AAD when *S. boulardii* is co-administered with broad-spectrum antibiotics (Szajewska and Kolodziej 2015, Cochrane meta-analysis).
 - Mechanism: Rapid recolonization of the intestine before pathogenic *Clostridioides* can establish biofilms.
 
 ### IBS and Dysbiosis

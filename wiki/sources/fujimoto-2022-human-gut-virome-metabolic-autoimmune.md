@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Summary
 
-Review exploring the role of the intestinal viral microbiome ([[virome]]) in metabolic and autoimmune diseases. Covers human studies of the gut virome in obesity, NAFLD, T2DM, CVD, hypertension, and autoimmune conditions (T1DM, RA, SLE, MS).
+Review exploring the role of the intestinal viral microbiome [[virome]] in metabolic and autoimmune diseases. Covers human studies of the gut virome in obesity, NAFLD, T2DM, CVD, hypertension, and autoimmune conditions (T1DM, RA, SLE, MS).
 
 ## Key Findings
 

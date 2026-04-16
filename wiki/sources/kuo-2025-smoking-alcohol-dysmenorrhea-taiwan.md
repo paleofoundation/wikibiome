@@ -42,4 +42,4 @@ platform: wikibiome
 - Supports [[canipari-2020-female-fertility-environmental-pollution]] on smoking's effects on reproductive apparatus including altered FSH, E2, and follicular depletion
 - The protective effect of exercise parallels findings in [[lei-2015-infertility-lead-cadmium-arsenic-taiwan]] where physical activity was associated with reduced heavy metal accumulation
 - Magnesium depletion by alcohol connects to [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]] on essential element deficiencies in reproductive disorders
-- [[zinc]] supplementation for dysmenorrhea ([[hsu-2024-zinc-dysmenorrhea-meta-analysis]]) may help counteract prostaglandin-mediated pain that smoking exacerbates
+- [[zinc]] supplementation for dysmenorrhea [[hsu-2024-zinc-dysmenorrhea-meta-analysis]] may help counteract prostaglandin-mediated pain that smoking exacerbates

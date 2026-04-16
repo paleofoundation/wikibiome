@@ -61,6 +61,6 @@ why_keystone: "PRISMA systematic review showing that toxic metals (Hg, Cd, Pb) a
 - The zinc deficiency-toxic metal competition model connects to [[blazewicz-2023-metal-profiles-asd]] discussion of zinc as the central essential metal in ASD pathology
 - The intestinal permeability ("leaky gut") findings link metal exposure to systemic inflammation and neuroinflammation described in [[tizabi-2023-lead-gut-microbiota-asd]]
 - The overlapping Hg/Cd/Pb/Zn-deficiency pathologies reinforce [[blazewicz-2023-metal-profiles-asd]] argument that a characteristic **metal profile** (not single metals) drives ASD risk
-- Connects to PCOS literature through shared mechanisms: [[oxidative-stress|oxidative stress]], inflammation, and metal dysregulation are common to both PCOS ([[kirmizi-2020-heavy-metals-pcos]]) and ASD
+- Connects to PCOS literature through shared mechanisms: [[oxidative-stress|oxidative stress]], inflammation, and metal dysregulation are common to both PCOS [[kirmizi-2020-heavy-metals-pcos]] and ASD
 - The zinc supplementation evidence supports therapeutic recommendations that parallel those in the PCOS-metals literature regarding dietary and supplemental interventions
 - [[nickel]] is notably absent from this review's scope -- future research could examine whether Ni exposure produces similar gut pathologies

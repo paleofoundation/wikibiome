@@ -25,7 +25,7 @@ This systematic review is the most comprehensive examination of [[cadmium]] deve
 - Cadmium crosses the placental barrier and exposure may occur from the beginning of life
 - In utero or early life exposure can have serious health consequences reflected either in childhood or later stages of life
 - Prenatal cadmium exposure influences anthropometric development and growth; fetal DNA methylation linked to cord blood cadmium levels
-- Low-level cadmium exposure is associated with lower IQ, attention deficit hyperactivity disorder ([[ADHD]]), learning disabilities, and behavioral problems in children
+- Low-level cadmium exposure is associated with lower IQ, attention deficit hyperactivity disorder [[ADHD]], learning disabilities, and behavioral problems in children
 - Cadmium may act as an endocrine disruptor, influencing estrogens, thyroid, and growth hormones
 - The developing kidney is more at risk than the adult kidney: glomerular and tubular functions continue to develop until 2-3 years of age
 - Smoking is the main factor influencing cadmium toxicity during pregnancy

@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **Causal protective effects identified** — Actinobacteria (OR=0.93) and [[lachnospiraceae]] UCG004 (OR=0.91) genetically predicted to reduce GERD risk ([[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr|quasi-experimental MR, n=367,441]])
+- **Causal protective effects identified** — Actinobacteria (OR=0.93) and [[lachnospiraceae]] UCG004 (OR=0.91) genetically predicted to reduce GERD risk [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr|quasi-experimental MR, n=367,441]]
 - **Causal risk-increasing taxa** — Mollicutes (OR=1.09) and Tenericutes (OR=1.11) genetically predicted to increase GERD risk
 - **Bidirectional causality confirmed** — GERD itself causes dysbiosis in 13 taxa, including depleting [[christensenellaceae]] (a health-associated lineage) and altering [[collinsella]] and [[eggerthella]] abundance
 - **[[methanobrevibacter]]** (an archaeon) showed significant causal associations, highlighting the role of non-bacterial domains in GERD ecology

@@ -22,10 +22,10 @@ evidence_level: cross-sectional
 
 - Non-targeted [[metabolomics]] identified the top 10 differential metabolites in gastric juice between pediatric bile reflux gastritis (BRG) and controls, including [[fatty acids]], phospholipids, 23-carbon compounds, amines, vitamins, steroids, peptide hormones, monosaccharides, polyketides, and non-ribosomal peptides
 - Glycerophospholipid metabolism, prodigiosin biosynthesis, lysine degradation, glycerolipid metabolism, and primary [[bile acid]] biosynthesis were the most relevant disrupted pathways
-- Differential metabolites were primarily concentrated in the T helper 17 ([[Th17]]) cell differentiation pathway (P<0.05, effect value >0.1), linking bile reflux to immune dysregulation
+- Differential metabolites were primarily concentrated in the T helper 17 [[Th17]] cell differentiation pathway (P<0.05, effect value >0.1), linking bile reflux to immune dysregulation
 - [[Bile acids]] in acidic environments undergo conversion to cytotoxic non-ionic forms that dissolve the phospholipid layer of gastric mucosal epithelial cell membranes, triggering [[MAPK]] and [[NF-kB]] inflammatory cascades
 - Gastric juice and peripheral blood total bile acid levels showed a trend of aberrant expression in pediatric BRG patients, potentially guiding clinical diagnosis via ROC curves
-- Treatment strategy for bile reflux has evolved from simple acid inhibition to multi-target intervention including bile acid binders (hydrotalcite) and composition regulators ([[ursodeoxycholic acid]])
+- Treatment strategy for bile reflux has evolved from simple acid inhibition to multi-target intervention including bile acid binders (hydrotalcite) and composition regulators [[ursodeoxycholic acid]]
 
 ## Methods/Findings
 

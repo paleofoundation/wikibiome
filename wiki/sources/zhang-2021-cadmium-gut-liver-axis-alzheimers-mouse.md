@@ -47,7 +47,7 @@ This study examined how [[cadmium]] (Cd) exposure interacts with ApoE4 gene vari
 
 ### Pearson Correlation: Microbe-Host Gene Interactions
 - *Prevotella* spp. and *A. muciniphila* were positively associated with most pro-[[inflammation]] related genes in liver
-- *Bacteroides ovatus*; Naip2, Nfkb1 ([[nf-kappa-b]]), Tlr3, and Tjp2 were negatively correlated in ApoE4-KI males
+- *Bacteroides ovatus*; Naip2, Nfkb1 [[nf-kappa-b]], Tlr3, and Tjp2 were negatively correlated in ApoE4-KI males
 - Tight junction proteins (Tjp2, Tjp3, Cldn1) were negatively correlated with significant taxa, indicating barrier disruption
 
 ## Relevance to Multiple Sclerosis and Gut-Metal-Microbiome Axis

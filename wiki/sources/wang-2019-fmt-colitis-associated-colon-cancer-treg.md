@@ -13,7 +13,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[fecal-microbiota-transplant]] attenuates colitis-associated cancer (CAC) progression in AOM/DSS mice by restoring the Firmicutes/Bacteroidetes balance, reducing inflammation, and inducing regulatory T cells ([[Tregs]])
+- [[fecal-microbiota-transplant]] attenuates colitis-associated cancer (CAC) progression in AOM/DSS mice by restoring the Firmicutes/Bacteroidetes balance, reducing inflammation, and inducing regulatory T cells [[Tregs]]
 - FMT significantly reduces tumor load (from ~20 to ~7 tumors), tumor size, and colonic shortening while improving body weight and survival
 - FMT inhibits canonical NF-kB (p65 phosphorylation) activity and cellular proliferation (Ki67) in colons of CAC mice, but does not affect non-canonical NF-kB (p100) signaling
 - CD4+CD25+Foxp3+ Treg cells are significantly increased after FMT treatment in spleen, mesenteric lymph nodes, and lamina propria lymphocytes

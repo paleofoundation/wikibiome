@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Loss of bacterial-host homeostasis ([[dysbiosis]]) in the upper GI tract can contribute to carcinogenesis through chronic inflammation, disruption of cell signaling, and production of carcinogenic metabolites
+- Loss of bacterial-host homeostasis [[dysbiosis]] in the upper GI tract can contribute to carcinogenesis through chronic inflammation, disruption of cell signaling, and production of carcinogenic metabolites
 - Risk factors linked to upper GI carcinogenesis including cigarette smoking, alcohol, poor oral hygiene, and [[GERD]] disrupt bacterial homeostasis and create niches for pathogenic bacteria
 - The driver-passenger model proposes that bacterial *drivers* induce DNA damage initiating cancer, while *passengers* (opportunistic pathogens) out-compete drivers and support cancer *progression*
 - *[[Fusobacterium nucleatum]]*, *[[Porphyromonas gingivalis]]*, and *[[Campylobacter concisus]]* are key pathogens that promote upper GI tumorigenesis through inflammation and genotoxin production

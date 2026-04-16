@@ -12,19 +12,19 @@ seo_target: "Candida auris gut microbiome metals resistance"
 wikipedia_differentiation: "Metal-dependent virulence mechanisms, zinc/iron acquisition strategies in hospital environments, and the gut-to-bloodstream translocation pathway that Wikipedia does not cover"
 ---
 
-**Candida auris** is an emerging multidrug-resistant fungal pathogen first identified in 2009 and now classified as a critical-priority pathogen by the WHO and CDC. Unlike other *Candida* species, *C. auris* is predominantly a nosocomial (healthcare-associated) pathogen with documented outbreak potential in intensive care settings. It is notable for its resistance to multiple antifungal drug classes and its persistence on environmental surfaces.
+**Candida auris** is an emerging multidrug-resistant fungal pathogen first identified in 2009 (Satoh et al. 2009, from a Japanese patient's ear canal) and now classified as a critical-priority pathogen by the WHO (WHO Fungal Priority Pathogens List 2022) and CDC (CDC 2019 Antibiotic Resistance Threats Report). Unlike other *Candida* species, *C. auris* is predominantly a nosocomial (healthcare-associated) pathogen with documented outbreak potential in intensive care settings. It is notable for its resistance to multiple antifungal drug classes and its persistence on environmental surfaces (Welsh et al. 2017). In some endemic regions, *C. auris* accounts for up to ~40-67% of ICU candidemia cases (Chowdhary et al. 2017, Indian ICU surveillance).
 
 ## Metal Dependencies
 
-*C. auris* requires **zinc**, **iron**, and **copper** for growth and virulence. Like other *Candida* species, it employs siderophore-like metallophores and surface reductases for iron acquisition. Its zinc-dependent enzymes include secreted aspartyl proteases (SAPs) and zinc metalloproteases involved in host tissue invasion. Zinc chelation strategies have been explored as adjunct antifungal approaches.
+*C. auris* requires **zinc**, **iron**, and **copper** for growth and virulence. Like other *Candida* species, it employs siderophore-like metallophores and surface reductases for iron acquisition [[alves-2020-candida-adapting-survive-host-constraints]]. Its zinc-dependent enzymes include secreted aspartyl proteases (SAPs) and zinc metalloproteases involved in host tissue invasion. Zinc chelation strategies have been explored as adjunct antifungal approaches.
 
 ## Key Virulence Features
 
-- **Multidrug resistance** — exhibits resistance to azoles (fluconazole), polyenes (amphotericin B), and echinocandins in a significant proportion of isolates; pan-resistant strains have been documented
-- **Biofilm formation** — forms biofilms on catheters and medical devices that reduce antifungal penetration and immune clearance
-- **Thermotolerance** — one of the few fungi that can proliferate at human body temperature (37°C) and above, facilitating systemic infection
-- **Surface persistence** — survives on hospital surfaces for weeks to months, enabling environmental transmission
-- **Genomic plasticity** — multiple distinct clades (I–V) with separate geographic origins, suggesting parallel emergence
+- **Multidrug resistance** — exhibits resistance to azoles (fluconazole), polyenes (amphotericin B), and echinocandins in a significant proportion of isolates; pan-resistant strains have been documented (Lockhart et al. 2017)
+- **Biofilm formation** — forms biofilms on catheters and medical devices that reduce antifungal penetration and immune clearance (Sherry et al. 2017)
+- **Thermotolerance** — one of the few fungi that can proliferate at human body temperature (37°C) and above, facilitating systemic infection (Casadevall et al. 2019)
+- **Surface persistence** — survives on hospital surfaces for weeks to months, enabling environmental transmission (Welsh et al. 2017)
+- **Genomic plasticity** — multiple distinct clades (I–V) with separate geographic origins, suggesting parallel emergence (Lockhart et al. 2017; Chow et al. 2020)
 
 ## Gut Microbiome Context
 

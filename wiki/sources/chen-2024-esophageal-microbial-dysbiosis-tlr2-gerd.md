@@ -24,7 +24,7 @@ key_findings:
 
 # Key Findings
 
-- **Type I to Type II microbiome shift** — the healthy esophagus harbors a Streptococcus-dominated (Gram-positive) community (Type I), which transitions to a Pseudomonas-dominated (Gram-negative) community (Type II) in GERD patients ([[chen-2024-esophageal-microbial-dysbiosis-tlr2-gerd|cross-sectional + in vitro, n=60]])
+- **Type I to Type II microbiome shift** — the healthy esophagus harbors a Streptococcus-dominated (Gram-positive) community (Type I), which transitions to a Pseudomonas-dominated (Gram-negative) community (Type II) in GERD patients [[chen-2024-esophageal-microbial-dysbiosis-tlr2-gerd|cross-sectional + in vitro, n=60]]
 - **TLR2 as the mechanistic link** — Gram-negative LPS binds TLR2, causing 2.1-fold upregulation that drives IL-6 secretion and downregulates claudin-1, compromising epithelial barrier integrity
 - **TLR2 was the only gene remaining significant** after Benjamini-Hochberg correction among all toll-like receptors tested, identifying it as the primary innate immune sensor of the dysbiotic shift
 - **Prospective cross-sectional design with in vitro validation** — the mechanistic arm confirmed the TLR2-LPS-claudin pathway in esophageal epithelial cell lines
