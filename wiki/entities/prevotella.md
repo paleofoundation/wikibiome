@@ -23,9 +23,9 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum that e
 
 ## Dietary Association and Fiber Metabolism
 
-- *P. copri* is strongly enriched in individuals consuming plant-based, high-fiber diets and is the defining taxon of the "Prevotella enterotype" (enterotype 2).
-- Specializes in fermenting complex plant polysaccharides (hemicelluloses, pectins) into [[short-chain-fatty-acids]], particularly propionate and succinate.
-- The *P. copri*-dominated enterotype modifies the relationship between dietary fiber intake and systemic inflammation: fiber's ability to lower C-reactive protein (CRP) is partly mediated through Prevotella-driven SCFA production.
+- *P. copri* is strongly enriched in individuals consuming plant-based, high-fiber diets and is the defining taxon of the "Prevotella enterotype" (enterotype 2) [[ross-2024-diet-gut-microbiome-interplay-health-disease]] [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
+- Specializes in fermenting complex plant polysaccharides (hemicelluloses, pectins) into [[short-chain-fatty-acids]], particularly propionate and **succinate** [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]].
+- The *P. copri*-dominated enterotype modifies the relationship between dietary fiber intake and systemic inflammation: fiber's ability to lower C-reactive protein (CRP) is partly mediated through Prevotella-driven SCFA production [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
 - Abundance declines rapidly on Western-style, low-fiber diets and is nearly absent in some industrialized populations.
 
 ## Depletion in Disease States
@@ -43,7 +43,10 @@ Despite its commensal reputation, *Prevotella* has pathobiont potential in speci
 
 - **Periodontitis**: *P. intermedia* is a classic "orange complex" periodontal pathogen. Oral-to-systemic translocation may contribute to [[cardiovascular-disease]] risk via chronic [[inflammation]] and bacteremia.
 - **Rheumatoid arthritis**: *P. copri* is paradoxically enriched in new-onset RA, where it may drive Th17-mediated joint inflammation. This contrasts with its protective role in healthy gut ecology.
-- **Endometriosis**: *Prevotella* abundance correlates with constipation and GI symptoms in endometriosis patients [[svensson-2021-endometriosis-gut-microbiota-associations]].
+- **Endometriosis**: *Prevotella* abundance correlates with constipation and GI symptoms in endometriosis patients [[svensson-2021-endometriosis-gut-microbiota-associations]] [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]].
+- **Schizophrenia**: *Prevotella* is enriched in first-episode and chronic schizophrenia cohorts and is causally implicated in Mendelian randomization analyses [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]] [[dinan-2014-genomics-schizophrenia-gut-microbiome]].
+- **GERD and esophageal disease**: *Prevotella* is enriched in a Type II (Gram-negative, pro-inflammatory) esophageal microbiome signature associated with erosive reflux and Barrett's esophagus [[alageel-2025-microbiome-composition-gerd-systematic-review]] [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]] [[park-2020-nerd-treatment-esophageal-microbiome]].
+- **Ovarian / gynecologic cancers**: *Prevotella* is altered in ovarian tumor-associated microbiome signatures and is a component of dysbiotic ascites metabolite profiles [[gong-2025-gut-microbiota-diagnostic-ovarian-tumor]] [[deng-2025-microbiota-derived-metabolites-ascites-ovarian-gi-cancer]].
 
 ## Metal Dependencies
 

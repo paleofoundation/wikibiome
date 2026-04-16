@@ -35,9 +35,21 @@ In HIV-positive patients, Candida strains show differential metal susceptibility
 - Implication: in immunocompromised patients, environmental zinc exposure may **favor Candida overgrowth** while silver/mercury have antifungal potential.
 
 ### Metal-Dependent Virulence Factors
-- **Fe acquisition**: *C. albicans* has dedicated iron uptake systems including reductive iron assimilation (Fre/Ftr/Fet), siderophore uptake (Sit1), and hemoglobin/heme receptors. Iron limitation triggers the yeast-to-hyphae morphological switch -- a key virulence transition.
+- **Fe acquisition**: *C. albicans* has dedicated iron uptake systems including reductive iron assimilation (Fre/Ftr/Fet), siderophore uptake (Sit1), and hemoglobin/heme receptors. Iron limitation triggers the yeast-to-hyphae morphological switch -- a key virulence transition [[corrales-2024-iron-chelating-antifungal-collismycin-candida]] [[alves-2020-candida-adapting-survive-host-constraints]].
 - **Cu-SOD**: copper-zinc superoxide dismutase for oxidative stress defense within macrophage phagosomes.
 - **Zn homeostasis**: Zrt1/Zrt2 zinc transporters; zinc is required for alcohol dehydrogenase and numerous metalloenzymes.
+- **Magnesium homeostasis**: intracellular magnesium is a key immune evasion signal that modulates *C. albicans*-phagocyte interactions [[hans-2022-magnesium-candida-immune-evasion]].
+
+### Beta-Glucan Masking and Immune Evasion
+
+- *C. albicans* actively **masks cell-wall beta-1,3-glucan** from host pattern recognition receptors (Dectin-1), blunting phagocytosis and cytokine responses. Masking is coordinated through a drug-sensitive signaling network that includes PKC, Mkc1, Hog1, and cAMP-PKA [[wheeler-2006-drug-sensitive-network-masks-fungi-immune]].
+- The masking program is regulated by Ace2, Mnt1/Mnt2, and multiple MAPK cascades; pharmacologic disruption unmasks beta-glucan and restores host immune recognition [[chen-2022-beta-glucan-masking-signaling-pathways-candida]].
+- **Lactate-induced masking**: environmental lactate -- produced abundantly by gut *Lactobacillus* and by colonic epithelium -- triggers beta-glucan masking, allowing *C. albicans* to persist as an invisible commensal in the mucosal niche [[chen-2022-beta-glucan-masking-signaling-pathways-candida]].
+
+### Interkingdom Synergy with Bacteria
+
+- ***Candida*-*Staphylococcus* reciprocal virulence masking**: *C. albicans* and *Staphylococcus aureus* form mixed biofilms in which each partner masks the other's recognition by host immunity, increasing invasive disease severity in co-infection models [[pasman-2025-candida-staph-reciprocal-virulence-masking]].
+- *C. albicans* forms functional biofilms with resident gut and oral bacteria that modulate virulence and persistence [[li-2022-candida-resident-microbiota-interactions]].
 
 ### Metal Nanoparticles as Antifungal Strategy
 A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-review]]:
@@ -71,6 +83,10 @@ A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-revie
 - Invasive candidiasis / candidemia (ICU patients, post-surgical)
 - Chronic mucocutaneous candidiasis
 - Esophageal candidiasis
+- **Gastric colonization with PPI use**: proton pump inhibitor therapy raises gastric pH and drives fungal dysbiosis with *Candida* overgrowth, contributing to GERD-associated fungal disease [[shi-2023-ppi-fungal-dysbiosis-gerd]].
+- **Autism spectrum disorder**: elevated anti-*Candida* antibodies have been reported in children with ASD [[hughes-2018-anti-candida-antibodies-asd-children]].
+- **Schizophrenia / bipolar disorder**: *C. albicans* seropositivity is associated with psychiatric diagnosis in a sex-specific manner [[severance-2016-candida-albicans-exposures-sex-specificity-schizophrenia-bipolar]].
+- **Lung cancer ecology**: *Candida* expansion occurs in dysbiotic lung and gut microbiomes of cancer patients [[seelbinder-2023-candida-expansion-lung-cancer-ecological]].
 
 ### Cryptococcus neoformans
 - Cryptococcal meningitis (HIV/AIDS, transplant recipients)

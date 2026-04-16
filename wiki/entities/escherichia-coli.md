@@ -84,19 +84,26 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 
 ## Disease Associations
 
-- **Urinary tract infections (UTI)**: UPEC is the #1 cause of community-acquired UTI; nickel transport upregulated during infection.
-- **Hemolytic uremic syndrome (HUS)**: STEC/EHEC (O157:H7); Shiga toxin is iron-regulated.
+- **Urinary tract infections (UTI)**: UPEC is the #1 cause of community-acquired UTI; nickel transport upregulated during infection [[maier-2019-nickel-microbial-pathogenesis]].
+- **Hemolytic uremic syndrome (HUS)**: STEC/EHEC (O157:H7); Shiga toxin is iron-regulated [[maier-2019-nickel-microbial-pathogenesis]].
 - **Neonatal meningitis**: K1 capsular strains.
 - **Traveler's diarrhea**: ETEC strains.
 - **Crohn's disease-associated**: adherent-invasive *E. coli* (AIEC) in the ileum.
-- **Bacteremia/sepsis**: from urinary or GI source.
+- **Bacteremia/sepsis**: from urinary or GI source; *E. coli* translocation from the gut is a major source of sepsis in severe COVID-19 [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
+- **Chronic kidney disease**: Enterobacteriaceae including *E. coli* are enriched and LPS translocation contributes to uremic inflammation [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]] [[borges-2016-uremic-toxins-inflammatory-markers-ckd]].
+- **GERD / esophageal dysbiosis**: Enterobacteriaceae including *E. coli* are enriched in a Type II (LPS-driven) esophageal microbiome signature associated with erosive disease [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]] [[alageel-2025-microbiome-composition-gerd-systematic-review]].
+- **Endometriosis**: Gram-negative *E. coli* and related Enterobacteriaceae are enriched in cervical, vaginal, and gut compartments; nickel-sensitive IBS symptoms overlap with endometriosis dysbiosis [[akiyama-2019-cervical-mucus-microbial-colonization-endometriosis]] [[borghini-2020-endometriosis-nickel-ibs]] [[colonetti-2023-gut-vaginal-microbiota-endometriosis-meta-analysis]].
+- **Colorectal cancer**: colibactin-producing and mucosa-associated *E. coli* are enriched and drive genotoxic damage [[bars-cortina-2024-16s-vs-shotgun-crc]] [[cao-2025-metabolic-interactions-microbial-metabolites-crc]].
+- **Necrotizing enterocolitis**: Enterobacteriaceae bloom (including *E. coli*) precedes NEC onset in preterm infants [[torrazza-2013-intestinal-microbial-ecology-nec]] [[pendergrass-2026-nickel-nec-preterm-gut]].
+- **Type 1 diabetes**: *Bacteroides dorei*-like and *E. coli* populations with immunoinhibitory LPS structures alter early immune priming and are linked to T1D progression [[davis-richardson-2015-bacteroides-dorei-t1d-model]] [[vatanen-2018-teddy-gut-microbiome-t1d-nature]].
 
 ## Connection to Environmental Metal Exposure
 
-- Dietary nickel excreted in urine provides substrate for UPEC nickel scavenging during UTI -- higher dietary nickel may theoretically support UPEC virulence.
-- Gut *E. coli* populations are exposed to dietary metals; iron supplementation is known to promote pathogenic *E. coli* expansion in the gut.
-- Yersiniabactin's dual iron/nickel specificity means environmental iron AND nickel both feed UPEC metal acquisition.
+- Dietary nickel excreted in urine provides substrate for UPEC nickel scavenging during UTI -- higher dietary nickel may theoretically support UPEC virulence [[maier-2019-nickel-microbial-pathogenesis]].
+- Gut *E. coli* populations are exposed to dietary metals; iron supplementation is known to promote pathogenic *E. coli* expansion in the gut [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
+- Yersiniabactin's dual iron/nickel specificity means environmental iron AND nickel both feed UPEC metal acquisition [[maier-2019-nickel-microbial-pathogenesis]].
 - Agricultural metal contamination selects for metal-tolerant *E. coli* in food-animal production.
+- Synergistic toxicity of copper, nickel, iron, and sulfur modulates *E. coli* stress and survival responses [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
 
 ## Connections
 

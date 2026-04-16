@@ -24,9 +24,9 @@ A Gram-negative, obligate anaerobic, mucin-degrading bacterium that colonizes th
 
 ## Role in Gut Barrier Integrity
 
-- Specializes in degrading intestinal mucins (MUC2), using the breakdown products as carbon and nitrogen sources.
-- Paradoxically, mucin degradation by *A. muciniphila* **stimulates mucin production** by goblet cells, maintaining a thicker and healthier mucus layer.
-- Produces [[short-chain-fatty-acids]] (acetate, propionate) that support epithelial barrier function and feed butyrate-producing bacteria like [[faecalibacterium-prausnitzii]] via cross-feeding.
+- Specializes in degrading intestinal mucins (MUC2), using the breakdown products as carbon and nitrogen sources [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
+- Paradoxically, mucin degradation by *A. muciniphila* **stimulates mucin production** by goblet cells, maintaining a thicker and healthier mucus layer [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
+- Produces [[short-chain-fatty-acids]] (acetate, propionate) that support epithelial barrier function and feed butyrate-producing bacteria like [[faecalibacterium-prausnitzii]] via cross-feeding [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 - Strengthens tight junction protein expression (ZO-1, occludin, claudin), opposing the barrier-disrupting effects of heavy metals [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 
 ## Sensitivity to Heavy Metals
@@ -50,9 +50,10 @@ A Gram-negative, obligate anaerobic, mucin-degrading bacterium that colonizes th
 
 - **Inflammatory bowel disease (IBD)**: reduced in Crohn's disease. The ZIP8 A391T Crohn's risk variant alters colonic metal availability and shifts microbiome composition, with *Akkermansia* enriched in older mutant mice as a potential compensatory response [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 - **Multiple sclerosis**: altered abundance in MS patients. Some studies report increased *Akkermansia* in MS (possibly pro-inflammatory in this context), illustrating context-dependent effects [[bronzini-2023-feeding-gut-microbiome-ms]].
-- **Obesity and type 2 diabetes**: consistently depleted; inversely correlated with metabolic syndrome markers.
+- **Obesity and type 2 diabetes**: consistently depleted; inversely correlated with metabolic syndrome markers [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]].
 - **Parkinson's disease**: altered abundance linked to gut-brain axis dysfunction. Metal-induced dysbiosis in the gut may promote alpha-synuclein aggregation [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- **Autism spectrum disorder**: altered in ASD gut microbiome profiles.
+- **Autism spectrum disorder**: altered in ASD gut microbiome profiles [[amadi-2022-dietary-interventions-asd-systematic-review]].
+- **Cardiovascular disease**: oral supplementation of *A. muciniphila* inhibits abdominal aortic aneurysm formation in mice by restoring microbial diversity and modulating IL-33 and peripheral immune factors [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
 
 ## Next-Generation Probiotic Potential
 

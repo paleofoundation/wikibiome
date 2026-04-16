@@ -38,26 +38,30 @@ A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant g
 
 ## Infant Gut Colonization
 
-- *Bifidobacterium* (especially *B. infantis*, *B. breve*, *B. longum*) is the dominant genus in breastfed infant guts, comprising up to 90% of the microbiota.
-- Human milk oligosaccharides (HMOs) selectively feed *Bifidobacterium*, establishing early colonization dominance.
+- *Bifidobacterium* (especially *B. infantis*, *B. breve*, *B. longum*) is the dominant genus in breastfed infant guts, comprising up to 90% of the microbiota [[torrazza-2013-intestinal-microbial-ecology-nec]].
+- Human milk oligosaccharides (HMOs) selectively feed *Bifidobacterium*, establishing early colonization dominance [[sami-2023-human-milk-nutrients-preventing-nec]] [[chapman-2026-clostridia-hmos-pathobiont-suppression-nec]].
 - This dominance creates an **acid-producing, nickel-independent microbial environment** that naturally suppresses Ni-enzyme-dependent pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].
-- Formula-fed infants have lower *Bifidobacterium* and higher Proteobacteriaceae -- a shift compounded by formula's higher nickel content.
-- The convergence of reduced *Bifidobacterium*, increased dietary nickel, and enrichment of Ni-urease pathogens in formula-fed preterm infants may explain NEC susceptibility.
+- Formula-fed infants have lower *Bifidobacterium* and higher Proteobacteriaceae -- a shift compounded by formula's higher nickel content [[torrazza-2013-intestinal-microbial-ecology-nec]].
+- The convergence of reduced *Bifidobacterium*, increased dietary nickel, and enrichment of Ni-urease pathogens in formula-fed preterm infants may explain NEC susceptibility [[pendergrass-2026-nickel-nec-preterm-gut]].
+- Probiotic supplementation with *Bifidobacterium* (often combined with *Lactobacillus*) reduces NEC incidence in very low birth weight preterm infants [[zhou-2023-probiotics-prevent-nec-vlbw-meta]].
 
 ## Depletion Across Disease States
 
 - **IBD**: reduced in both Crohn's disease and ulcerative colitis.
-- **Obesity and metabolic syndrome**: inversely correlated with BMI; depleted in metabolic dysfunction [[pendergrass-2026-heavy-metals-obesity-epidemic]].
-- **Autism spectrum disorder**: multiple studies report altered *Bifidobacterium* in ASD.
+- **Obesity and metabolic syndrome**: inversely correlated with BMI; depleted in metabolic dysfunction [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[ismail-2022-gut-microbiome-obesity-t1d-review]].
+- **Type 1 diabetes**: depleted in children progressing to T1D [[belteky-2023-infant-gut-microbiome-t1d-abis-study]] [[de-goffau-2014-aberrant-gut-microbiota-onset-t1d-children]].
+- **Autism spectrum disorder**: multiple studies report altered *Bifidobacterium* in ASD [[zhang-2022-probiotics-asd-rct-protocol]].
+- **Long COVID**: depleted in the gut microbiome of Long COVID patients; Mendelian randomization supports a causal relationship [[li-2024-causal-role-gut-microbiota-long-covid-mendelian-randomization]] [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]].
+- **Necrotizing enterocolitis**: depleted in preterm infants who develop NEC, alongside reduced SCFA producers [[liu-2022-nec-scfa-gut-microbiota-biomarkers-pilot]] [[lin-2025-nec-serum-metabolomics-fecal-microbiome]].
 - **Allergic disease**: early-life *Bifidobacterium* depletion associated with increased allergy risk.
 - **Iron supplementation effects**: excess iron in infant formula may suppress *Bifidobacterium* while promoting Enterobacteriaceae [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 
 ## SCFA Production and Immune Modulation
 
 - Produces **acetate and lactate** via the "bifid shunt" (fructose-6-phosphate phosphoketolase pathway).
-- Acetate production strengthens gut barrier integrity and provides substrate for butyrate production by cross-feeding partners like [[faecalibacterium-prausnitzii]].
+- Acetate production strengthens gut barrier integrity and provides substrate for butyrate production by cross-feeding partners like [[faecalibacterium-prausnitzii]] [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 - Promotes regulatory T cell development and anti-inflammatory IL-10 production.
-- Competes with pathogens for ecological niches without requiring nickel-dependent virulence factors.
+- Competes with pathogens for ecological niches without requiring nickel-dependent virulence factors [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 
 ## Connections
 

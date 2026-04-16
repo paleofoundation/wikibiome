@@ -2,6 +2,39 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-14] Hashimoto's + MS + CVD source ingestion (11 new source pages)
+Ingested 11 previously un-summarized PDFs from raw/Hashimotos-Thyroiditis/, raw/Multiple Sclerosis/, and raw/cardiovascular disease/ to expand v2 source coverage for three conditions with thin signatures. All frontmatter follows v2 schema with evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings. DOIs extracted directly from documents.
+
+**New Hashimoto's source pages (6):**
+- `peng-2024-supplements-hashimotos-network-meta-analysis.md` — network meta-analysis of 10 RCTs, selenium 200 µg/day reduces TPOAb (SMD -2.44) and TgAb (SMD -2.76) at 6 months; vitamin D and myo-inositol alone did not significantly reduce antibodies. DOI 10.3389/fendo.2024.1445878.
+- `tang-2022-hashimotos-papillary-thyroid-carcinoma-meta-analysis.md` — meta-analysis 65 studies, n=47,237; coexisting HT confers better PTC prognosis (lower LN metastasis OR 0.787, lower distant metastasis OR 0.435, better 20y survival OR 1.396). DOI 10.1371/journal.pone.0269995.
+- `lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct.md` — RCT (n=39), 4-strain probiotic during thyroid hormone withdrawal reduces constipation (8.7% vs 62.5%, p=0.004), weight gain, dry mouth; restores gut + oral microbiome; reduces plasma LPS. DOI 10.3389/fendo.2022.834674.
+- `zheng-2025-gut-thyroid-axis-aitd-mendelian-randomization.md` — MR (MiBioGen + AITD GWAS), 8 HT-causal and 7 GD-causal taxa identified; Butyrivibrio/Lactobacillales protective for HT, Intestinimonas risk; Methanobrevibacter protective for GD. DOI 10.5603/ep.102030.
+- `hu-rayman-2017-nutritional-factors-hashimotos-review.md` — foundational review on iodine excess, selenium deficiency, iron deficiency, vitamin D status in HT pathogenesis. DOI 10.1089/thy.2016.0635.
+- `spaggiari-2017-probiotics-hypothyroid-levothyroxine-rct.md` — RCT (n=80), VSL#3 does not directly alter TSH/fT3/fT4 in LT4-treated hypothyroid patients but stabilizes LT4 dosing (p=0.007). DOI 10.3389/fendo.2017.00316.
+
+**New Multiple Sclerosis source pages (4):**
+- `xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization.md` — MR across 6 autoimmune diseases; only Bifidobacterium replicates causally (risk for T1D/CeD); MS yielded null MR signal (important negative finding). DOI 10.3389/fimmu.2021.746998.
+- `wang-cui-2025-optic-neuritis-gut-microbiota-vitamin-b6-mr.md` — multi-omics MR; 27 taxa causal for optic neuritis; vitamin B6 identified as potential therapeutic target acting upstream on microbiome. DOI 10.1007/s12035-025-04923-4.
+- `morshedi-2019-probiotics-ms-immunomodulation-systematic-review.md` — systematic review of 7 studies (2 RCTs + 5 EAE); probiotics consistently reduce IFN-γ, TNF-α, IL-17 and increase IL-10, TGF-β. DOI 10.1186/s12974-019-1611-4.
+- `motlagh-asghari-2023-saccharomyces-boulardii-ms-rct.md` — RCT (n=40 RRMS), S. boulardii 10¹⁰ CFU/day × 4 months significantly reduces hs-CRP (p<0.001), increases TAC (p=0.004), improves pain/fatigue/QoL. DOI 10.1038/s41598-023-46047-6.
+
+**New CVD source pages (1):**
+- `wang-2023-gut-microbiota-cad-mi-mendelian-randomization.md` — MR with MVMR + mediation; Ruminococcaceae UCG010 causally protective for CAD (OR 0.88) and MI (OR 0.88); T2DM mediates 20% of CAD effect, 17% of MI effect. DOI 10.3389/fgene.2023.1158293.
+
+**Cross-condition pattern detections:**
+- **Bifidobacterium paradox** (Xu 2022 vs Zangeneh 2025): genus-level Bifidobacterium is causally RISK-INCREASING for T1D/CeD (MR) but intervention trials as multi-strain probiotic benefit MS and Hashimoto's. Supports strain-specificity and context-dependence over genus-level generalizations. STOP candidate flagged: empiric Bifidobacterium probiotics in T1D-risk children and active CeD.
+- **Roseburia paradox** (Zhang 2024 vs observational MS literature): MR shows Roseburia causally increases MS risk (OR 1.255), contradicting its beneficial SCFA-producer reputation. Taxonomic-layer confidence for MS signature should remain preliminary-to-moderate.
+- **Selenium-iodine axis confirmation** (Peng 2024 + Hu/Rayman 2017): selenium protection against Hashimoto's progression verified across meta-analysis and narrative review. Strengthens HT signature metallomic layer to high confidence for selenium-depletion + iodine-excess pattern.
+- **Butyrate-producer depletion cross-condition** (Zheng 2025 for HT + Wang 2023 for CAD/MI): Butyrivibrio/Lactobacillales (HT) and Ruminococcaceae UCG010 (CAD/MI) converge on butyrate-producer loss as causal cross-condition mechanism. Reinforces SCFA-restoration as pan-autoimmune/cardiometabolic intervention lever.
+- **Ruminococcaceae UCG010 (CAD/MI-protective)** vs **Ruminococcaceae UCG003 (MS-protective, Zhang 2024)**: genus-level SCFA producers are protective across inflammatory-autoimmune and cardiometabolic conditions — updates butyrate entity.
+- **Oral-gut axis in thyroid disease** (Lin 2022 probiotics restore both; Dong 2021 prior TSH-salivary): iterative support for oral microbiome as component of thyroid signature (candidate for Hashimoto's signature layer 4: ecological features).
+- **Vitamin B6 as novel metal/cofactor layer** (Wang & Cui 2025): adds pyridoxine to the cofactor-limitation primitive (Karen's Brain #1) as a potential intervention target for MS-spectrum autoimmunity via microbiome mediation.
+
+**Contradictions flagged:**
+- **MR null signal for MS** (Xu 2022) vs multiple observational MS studies claiming taxon-specific causation — Xu suggests cross-sectional MS microbiome differences do not survive causal-inference testing at FDR-correction. Supersession Protocol: signature page taxonomic-layer confidence downgraded to preliminary-moderate.
+- **Probiotic monotherapy in HT** (Spaggiari 2017 null direct effect) vs intuitive "probiotics fix dysbiosis → fix thyroid" narrative — probiotics stabilize LT4 absorption but do not correct thyroid function; clinical framing should be dose-stability not thyroid-hormone-boosting.
+
 ## [2026-04-14] T1D + Schizophrenia source ingestion (8 new source pages)
 Ingested 8 previously un-summarized PDFs from raw/Diabetes Type I/ and raw/Schizophrenia/ to expand v2 source coverage. All frontmatter follows v2 schema with evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings. DOIs extracted directly from documents.
 

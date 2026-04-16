@@ -65,7 +65,13 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 
 - *Lactobacillus* is a **key protective genus** against necrotizing enterocolitis. Its acid production lowers gut pH, inhibiting the Proteobacteria (urease-positive pathogens) that drive NEC [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Critically, *Lactobacillus* does **not rely on Ni-dependent virulence enzymes** -- it thrives in a nickel-poor environment and creates conditions hostile to Ni-enzyme-dependent pathogens.
-- Probiotic *Lactobacillus* supplementation is one of the most evidence-supported interventions for NEC prevention.
+- Probiotic *Lactobacillus* supplementation is one of the most evidence-supported interventions for NEC prevention; meta-analyses in very low birth weight preterm infants show significant reductions in NEC incidence [[zhou-2023-probiotics-prevent-nec-vlbw-meta]].
+- *Lactobacillus* depletion is consistently reported alongside reduced SCFA output in preterm infants who develop NEC [[liu-2022-nec-scfa-gut-microbiota-biomarkers-pilot]] [[torrazza-2013-intestinal-microbial-ecology-nec]].
+
+### Type 1 Diabetes
+
+- *L. rhamnosus* and related strains modulate autoimmunity in T1D models and are investigated as preventive probiotics in children at genetic risk [[belteky-2023-infant-gut-microbiome-t1d-abis-study]].
+- *Lactobacillus* depletion is among the earliest dysbiotic signals preceding clinical T1D onset [[de-goffau-2014-aberrant-gut-microbiota-onset-t1d-children]].
 
 ## The Anti-Pathogen Metal Dynamic
 

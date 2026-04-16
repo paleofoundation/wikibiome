@@ -55,11 +55,15 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 *F. prausnitzii* depletion is among the most reproducible microbiome findings in disease:
 
 - **IBD (Crohn's disease)**: dramatically reduced; inversely correlated with disease severity and relapse risk. The strongest single-organism biomarker for Crohn's remission.
-- **Multiple sclerosis**: decreased in MS patients; negatively associated with TNF-alpha levels [[bronzini-2023-feeding-gut-microbiome-ms]].
-- **Parkinson's disease**: reduced abundance linked to decreased butyrate and increased gut permeability, potentially facilitating alpha-synuclein propagation via the [[gut-brain-axis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- **Chronic kidney disease**: depleted, contributing to uremic toxin accumulation.
+- **Multiple sclerosis**: decreased in MS patients; negatively associated with TNF-alpha levels [[bronzini-2023-feeding-gut-microbiome-ms]] [[olsson-2021-serum-scfas-inflammation-newly-diagnosed-ms]] [[becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility]].
+- **Parkinson's disease**: reduced abundance linked to decreased butyrate and increased gut permeability, potentially facilitating alpha-synuclein propagation via the [[gut-brain-axis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[aho-2021-gut-microbiome-scfas-inflammation-parkinsons]] [[tan-2022-gut-microbiome-scfas-parkinsons-review]].
+- **Chronic kidney disease**: depleted, contributing to uremic toxin accumulation; butyrate-producing taxa are reduced with disease progression [[gao-2021-butyrate-producing-microbiota-reduced-ckd]] [[he-2024-gut-microbial-scfas-ckd]].
+- **Type 2 diabetes**: inversely correlated with HbA1c and fasting glucose; fiber interventions that restore *F. prausnitzii* improve glycemic control [[salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre]] [[scfa-2020-dietary-fiber-t2d-gut-microbiome]].
+- **Autism spectrum disorder**: reduced; butyrate-producer depletion is a recurring ASD signature and *Faecalibacterium hominis*-derived indole signaling via AhR is under active study [[yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr]] [[liu-2019-gut-microbiota-scfas-asd-chinese-children]].
+- **Schizophrenia**: altered SCFA producers including *F. prausnitzii* are linked to ultra-high-risk state and symptom severity [[peng-2022-scfas-schizophrenia-ultra-high-risk]] [[yu-2024-plasma-cytokines-scfas-depression-schizophrenia]].
 - **Obesity**: inversely correlated with BMI and metabolic inflammation [[pendergrass-2026-heavy-metals-obesity-epidemic]].
-- **Colorectal cancer**: reduced; butyrate loss may diminish anti-tumorigenic HDAC inhibition.
+- **Colorectal cancer**: reduced; butyrate loss may diminish anti-tumorigenic HDAC inhibition [[feitelson-2023-scfas-cancer-pathogenesis]] [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].
+- **Post-COVID / Long COVID**: depletion of SCFA producers including *F. prausnitzii* associated with altered immune response [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]].
 
 ## The Metal-Dysbiosis-Disease Cycle
 

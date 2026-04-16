@@ -23,24 +23,27 @@ A genus of Gram-positive, obligate anaerobic, flagellated bacteria within the [[
 
 ## Butyrate Production and Anti-inflammatory Mechanisms
 
-- Produces butyrate as its primary fermentation end-product from dietary fiber, particularly via the butyryl-CoA:acetate CoA-transferase pathway.
+- Produces butyrate as its primary fermentation end-product from dietary fiber, particularly via the butyryl-CoA:acetate CoA-transferase pathway [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 - Butyrate from Roseburia acts through multiple anti-inflammatory pathways:
  - **HDAC inhibition**: butyrate inhibits histone deacetylases in colonocytes and immune cells, promoting anti-inflammatory gene expression and Treg differentiation.
  - **GPR109A signaling**: butyrate activates the GPR109A receptor on colonic epithelial cells and dendritic cells, inducing IL-10 production and suppressing NF-kB-mediated [[inflammation]].
  - **Barrier maintenance**: supports tight junction integrity (ZO-1, occludin, claudin-1) and maintains colonocyte oxygen consumption, preserving the anaerobic lumen.
-- Flagellin from *R. hominis* specifically activates TLR5 signaling in a beneficial context, promoting mucosal immune homeostasis rather than inflammation.
+- Flagellin from *R. hominis* specifically activates TLR5 signaling in a beneficial context, promoting mucosal immune homeostasis rather than inflammation [[li-2021-gut-microbiome-brain-structure-function-schizophrenia]].
 
 ## Depletion Across Disease States
 
 Roseburia depletion is among the most reproducible microbiome findings in human disease:
 
-- **Cardiovascular disease**: depleted in ACVD patients in the landmark Jie et al. study; CAG4 containing *Faecalibacterium* and *Roseburia* was closely related to 10 serum metabolite modules and important for maintaining normal coronary physiology [[jie-2017-gut-microbiome-acvd]], [[liu-2019-gut-microbiome-metabolism-cad-severity]]].
-- **IBD**: reduced in both Crohn's disease and ulcerative colitis; inversely correlated with disease activity scores.
-- **Multiple sclerosis**: depleted alongside other [[lachnospiraceae]] members; loss reduces SCFA-mediated immune modulation.
-- **Colorectal cancer**: reduced; butyrate loss diminishes anti-tumorigenic HDAC inhibition in colonocytes.
+- **Cardiovascular disease**: depleted in ACVD patients in the Jie et al. study; CAG4 containing *Faecalibacterium* and *Roseburia* was closely related to 10 serum metabolite modules and important for maintaining normal coronary physiology [[jie-2017-gut-microbiome-acvd]] [[liu-2019-gut-microbiome-metabolism-cad-severity]] [[almeida-2023-gut-microbiota-cardiovascular-axis]].
+- **Hypertension**: bidirectional Mendelian randomization links reduced *Roseburia* to elevated blood pressure [[li-2023-gut-microbiome-hypertension-bidirectional-mr]].
+- **IBD**: reduced in both Crohn's disease and ulcerative colitis; inversely correlated with disease activity scores [[li-2020-polyphenols-gut-microbiota-ibd-synergy]].
+- **Multiple sclerosis**: depleted alongside other [[lachnospiraceae]] members; loss reduces SCFA-mediated immune modulation [[boussamet-2024-oral-microbiota-metabolite-signature-ms]].
+- **Colorectal cancer**: reduced; butyrate loss diminishes anti-tumorigenic HDAC inhibition in colonocytes [[vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer]] [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc]].
 - **Type 2 diabetes**: depleted; inversely correlated with HbA1c and insulin resistance.
+- **Chronic kidney disease**: depleted across CKD progression, contributing to loss of SCFA-mediated renal protection [[tang-2023-gut-microbiome-tango-ckd-progression]] [[yasuno-2024-dysbiosis-gut-microbiota-ckd]] [[zhang-2023-metagenome-esrd-microbiome-uremic-toxins]].
 - **Endometriosis**: *Roseburia* sp. CAG:45 decreased in endometriosis [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]].
-- **Parkinson's disease**: depleted alongside other SCFA producers as part of the metal-driven dysbiosis framework [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- **Parkinson's disease**: depleted alongside other SCFA producers as part of the metal-driven dysbiosis framework [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[houser-2019-microbiome-inflammation-disease-progression-parkinsons]] [[sampson-2024-microbiome-signature-parkinsons-multicohort]].
+- **Schizophrenia**: *Roseburia* is significantly depleted in schizophrenia patients (p=0.023), and its abundance is **negatively correlated with fMRI regional homogeneity (ReHo)** indices in the right superior temporal cortex, right middle temporal cortex, and left cuneus -- brain regions showing decreased ReHo in schizophrenia [[li-2021-gut-microbiome-brain-structure-function-schizophrenia]].
 
 ## Metal Sensitivity
 

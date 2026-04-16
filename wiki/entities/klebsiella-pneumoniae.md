@@ -54,9 +54,11 @@ A Gram-negative opportunistic pathogen and member of the **ESKAPE** group of ant
 
 - **Urinary tract infections**: a leading cause of hospital-acquired UTI, especially catheter-associated.
 - **Pneumonia**: classical "Friedlander's pneumonia" with necrotizing lung destruction.
-- **Neonatal sepsis and NEC**: major pathogen in preterm infants; urease-driven pH shift contributes to [[dysbiosis]] and intestinal barrier breakdown.
-- **Antibiotic resistance**: carbapenem-resistant *K. pneumoniae* (CRKP) is a WHO Critical Priority pathogen. Metal resistance genes frequently co-locate with antibiotic resistance genes on mobile genetic elements, driving co-selection under environmental metal pressure.
+- **Neonatal sepsis and NEC**: major pathogen in preterm infants; urease-driven pH shift contributes to [[dysbiosis]] and intestinal barrier breakdown [[pendergrass-2026-nickel-nec-preterm-gut]]. A *Klebsiella pneumoniae*-like OTU was detected in **11 of 12 NEC cases** during week 1 of life in prospective preterm cohorts, corroborating earlier reports of gammaproteobacteria blooms 1-3 days before late-onset NEC [[zhou-2015-premature-infant-microbiome-prior-nec]] [[torrazza-2013-intestinal-microbial-ecology-nec]] [[devarajalu-2025-nec-gut-microbiota-indian-preterm-shotgun]].
+- **LPS and gut translocation in COVID-19 / Long COVID**: Enterobacteriaceae including *K. pneumoniae* translocate from the gut during severe COVID-19 and contribute to secondary bacteremia and post-acute sequelae [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]] [[li-2024-causal-role-gut-microbiota-long-covid-mendelian-randomization]] [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]].
+- **Antibiotic resistance**: carbapenem-resistant *K. pneumoniae* (CRKP) is a WHO Critical Priority pathogen. Metal resistance genes frequently co-locate with antibiotic resistance genes on mobile genetic elements, driving co-selection under environmental metal pressure [[srivastava-2016-environmental-resistance-microbes-review]]. Zinc ionophores such as PBT2 can resensitize carbapenem-resistant *K. pneumoniae* to tigecycline [[wang-2025-zinc-ionophore-pbt2-tigecycline-resistance-klebsiella]].
 - **Liver abscess**: hypervirulent strains (hvKp) cause pyogenic liver abscess, particularly in East Asia.
+- **Preterm brain injury**: *Klebsiella*-dominated gut dysbiosis in preterm infants correlates with altered white matter development via the gut-brain axis [[wang-2023-microbial-gut-brain-white-matter-preterm]].
 
 ## The Metal-Resistance-Virulence Nexus
 

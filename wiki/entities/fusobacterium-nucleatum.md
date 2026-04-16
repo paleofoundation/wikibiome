@@ -64,10 +64,21 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 
 ### Colorectal Cancer (CRC)
 
-- **Mechanistic link**: Iron-rich inflamed tissue selects for *Fusobacterium*. High iron availability sustains FadA expression, driving E-cadherin cleavage and Wnt activation.
-- *F. nucleatum* DNA is detectable in tumors, with CFU counts correlating with worse clinical outcomes.
-- CRC microbiome signatures consistently show elevated *Fusobacterium* alongside iron and manganese elevation.
-- FadA-mediated epithelial transformation is synergistic with dysplasia: the combination of disrupted tight junctions and oncogenic signaling accelerates malignant progression.
+- **Mechanistic link**: Iron-rich inflamed tissue selects for *Fusobacterium*. High iron availability sustains FadA expression, driving E-cadherin cleavage and Wnt activation [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]].
+- *F. nucleatum* DNA is detectable in tumors, with CFU counts correlating with worse clinical outcomes [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]].
+- CRC microbiome signatures consistently show elevated *Fusobacterium* alongside iron and manganese elevation [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
+- FadA-mediated epithelial transformation is synergistic with dysplasia: the combination of disrupted tight junctions and oncogenic signaling accelerates malignant progression [[wu-2021-microbial-markers-populations-early-crc]] [[saito-2019-metagenomic-gut-microbiota-colorectal-adenoma]].
+- FMT and dietary interventions that deplete *Fusobacterium* are under active investigation as adjuncts to CRC chemo- and immunotherapy [[xu-2022-fmt-antitumor-cancer-immunotherapy]] [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc]].
+
+### Other Gastrointestinal and Gynecologic Cancers
+
+- **Pancreatic cancer**: *F. nucleatum* is detected in pancreatic tumor microbiomes and contributes to a pro-tumorigenic dysbiosis [[zhang-2022-gut-dysbiosis-pancreatic-diseases-therapeutic-target]].
+- **Esophageal disease and upper-GI carcinogenesis**: *Fusobacterium* is enriched in Type II (Gram-negative, inflammatory) esophageal microbiome signatures linked to reflux, Barrett's, and carcinogenesis [[alageel-2025-microbiome-composition-gerd-systematic-review]] [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]] [[catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis]].
+
+### Periodontitis and Systemic Disease
+
+- *F. nucleatum* is a core oral pathobiont in periodontitis and a bridging species in oral polymicrobial biofilms; its oral-to-gut and oral-to-vascular translocation links periodontal disease to systemic inflammation [[foroughi-2026-periodontal-biomarkers-cvd]] [[periodontitis-t2d-microbial-biomarkers]] [[tang-2022-bidirectional-microbiome-viruses-periodontitis-t2d]].
+- Oral *Fusobacterium* signatures are also altered in multiple sclerosis oral microbiome studies [[zangeneh-2021-oral-microbiota-ms]] [[boussamet-2024-oral-microbiota-metabolite-signature-ms]].
 
 ### Inflammatory Bowel Disease (IBD)
 
