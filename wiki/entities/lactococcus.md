@@ -26,7 +26,7 @@ pathogenic_potential: commensal
 - Primary starter culture for cheese production, fermented milk, buttermilk, and other dairy products.
 - Produces **nisin**, a lantibiotic (antimicrobial peptide) effective against Gram-positive pathogens including *Listeria*, *Staphylococcus*, and *Clostridium* species.
 - Nisin production has attracted interest as a natural food preservative and potential adjunct to antibiotic therapy.
-- Homofermentative metabolism converts lactose to lactic acid with high efficiency.
+- Homofermentative metabolism converts lactose to lactic acid with high efficiency [[fujimoto-2022-human-gut-virome-metabolic-autoimmune]].
 
 ## Metal Dependencies
 

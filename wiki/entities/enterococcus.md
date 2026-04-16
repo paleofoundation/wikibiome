@@ -70,7 +70,7 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 
 ## Disease Associations
 
-- **Vancomycin-resistant Enterococcus (VRE)**: a top hospital-acquired infection threat; vanA on same mobile elements as metal resistance.
+- **Vancomycin-resistant Enterococcus (VRE)**: a top hospital-acquired infection threat; vanA on same mobile elements as metal resistance [[rebelo-2021-enterococcus-metal-antibiotic-resistance]].
 - **Endocarditis**: *E. faecalis* is a leading cause of infective endocarditis.
 - **Urinary tract infections**: common hospital-acquired UTI pathogen.
 - **Bacteremia**: especially in ICU patients, post-surgical, immunocompromised.
@@ -79,7 +79,7 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 
 ## Connection to Environmental Metal Exposure
 
-- **Agricultural metal use**: copper and zinc as growth promoters in livestock feed; arsenic historically used in poultry production. These directly select for metal-tolerant Enterococci carrying antibiotic resistance genes.
+- **Agricultural metal use**: copper and zinc as growth promoters in livestock feed; arsenic historically used in poultry production. These directly select for metal-tolerant Enterococci carrying antibiotic resistance genes [[rebelo-2021-enterococcus-metal-antibiotic-resistance]].
 - **Hospital environments**: copper-surfaced fittings intended to reduce hospital infections may paradoxically select for copper-tolerant (and therefore antibiotic-resistant) Enterococci.
 - **Food chain**: metal-resistant Enterococci from animal production enter the human food chain, transferring resistance genes to human gut flora.
 - **Wastewater/sewage**: convergence point for antibiotic and metal residues, driving co-selection in environmental Enterococcus populations.

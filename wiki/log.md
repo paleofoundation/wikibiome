@@ -2,6 +2,43 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-14] Foundational libraries ingestion: food-heavy-metal, essential-oils, metallomic-signatures (18 new source pages)
+
+Read 18 unexplored PDFs from three foundational research libraries to fill gaps in dietary metal exposure and pathogen-suppression intervention evidence:
+
+**food_heavy_metal_contamination_CLEAN (10 new source pages):**
+- `su-2023-arsenic-brown-rice-benefits-risks.md` — Frontiers in Nutrition mini-review; brown rice contains ~80% more inorganic As than white rice (FDA 154 vs 92 ppb); cancer cases would rise 148.6% if rice intake increased from <1 to 1 serving/day. DOI 10.3389/fnut.2023.1209574.
+- `meli-2024-baby-food-chemical-characterization-italy.md` — 30 elements in 25 Italian baby foods; Sb and Hg in 100% of samples but all toxic exposures <86% PTWI; Pb, Cd below LOD (contrast with U.S./Asian data). DOI 10.1371/journal.pone.0297158.
+- `li-2023-diabetes-dietary-cadmium-china.md` — Meta-analysis (n=56,191); mean B-Cd 1.54 µg/L (3-4x European levels); diet = 59.78% of Cd intake; PAF 65% for T2D; dietary Cd → 337.86×10^6 DALYs. DOI 10.1007/s11356-023-29424-6.
+- `navaretnam-2025-arsenic-speciation-rice-hplc-icpms.md` — HPLC-ICP-MS speciation of 30 Malaysian rice samples; AsIII > DMA > AsV; 100% exceeded THQ=1 and lifetime cancer risk 10^-3. DOI 10.1007/s10653-025-02723-2.
+- `zaman-2023-blood-mercury-gst-jamaican-children.md` — n=375; canned fish × GSTP1 Ile/Ile interaction drives 59% higher BHgC; grains, string beans also contribute. DOI 10.1186/s12887-023-04452-w.
+- `tatsuta-2024-methylmercury-dietary-intake-japanese-children.md` — Duplicate-diet method n=260; MeHg intake peaks at baby food stages 3-4 (346 ng/kg bw/day); hair-THg/diet correlation weak (r=0.17). DOI 10.1265/ehpm.24-00048.
+- `adhikari-2024-leafy-vegetables-heavy-metals-johannesburg.md` — Roadside leafy veg all exceed Cd/As cancer-risk threshold 10^-6; washing reduces risk 74-87% but doesn't eliminate bioaccumulated metals; Witwatersrand gold-mining deposition. DOI 10.1007/s10661-023-12283-6.
+- `signes-pastor-2018-infant-arsenic-weaning-solid-food.md` — NH Birth Cohort n=15 paired pre/post-weaning; 3.8-fold increase in urinary As at 6 months; rice cereal ρ=0.90 for i-As; breastfeeding inversely protective. DOI 10.1038/s41598-018-25372-1.
+- `bair-2022-heavy-metals-infant-toddler-food-us-policy.md` — U.S. Congressional investigation found >25% Happy BABY products >100 ppb As; 65% Cd; Pb exposure → 40M IQ points lost across 25.5M children; FDA regulatory gap. DOI 10.3389/fnut.2022.919913.
+- `zhou-liu-2024-heavy-metals-dried-chili-guizhou.md` — n=130; Cr, Pb, Cd exceedances in 3 regions up to 214% above GB limits; coal combustion and metal mining drive contamination; spice-based exposure route. DOI 10.1038/s41598-024-68564-8.
+- `abedi-2023-arsenic-mercury-hen-eggs-iran.md` — Monte Carlo risk assessment of 84 Iranian eggs; As 0.79 µg/kg, Hg 0.18 µg/kg; ILCR for As = 4.35E-4 (exceeds 10^-4 concern threshold); feed supply chain pathway. DOI 10.1186/s12889-023-16223-4.
+
+**essential_oils_antimicrobial_CLEAN (6 new source pages):**
+- `shu-2024-cinnamon-essential-oil-cinnamaldehyde-antibacterial.md` — CID 86.07% of CIEO; MIC 0.31 mg/mL vs C. albicans, P. aeruginosa; dual mechanism (low-dose PMK-1 p38 MAPK host-AMP, high-dose direct bactericidal). DOI 10.3389/fphar.2024.1378434.
+- `bauer-2019-oregano-streptococcus-scfa-microbiota.md` — Oregano 1% w/v in mixed chicken caecum culture; reduces Streptococcus (p=1.6e-3), increases Lactobacillus + acetate + butyrate. DOI 10.1371/journal.pone.0216853.
+- `cacciatore-2015-carvacrol-codrugs-antimicrobial-antibiofilm.md` — 10 synthesized carvacrol codrugs; codrug 4 (N-Ac-Cys-Allyl-CAR) MIC 2.5 mg/mL + anti-biofilm vs S. epidermidis; antifungal vs C. albicans. DOI 10.1371/journal.pone.0120937.
+- `naaz-2022-fennel-oil-antimicrobial-antioxidant.md` — trans-anethole 78-86% of fennel EO; broad-spectrum antibacterial comparable/superior to ampicillin; DPPH IC50 0.37-0.43 mg/mL. DOI 10.6026/97320630018795.
+- `rahman-2024-nigella-sativa-thymoquinone-thymol-antimicrobial.md` — Thymoquinone 40.23%, thymol 17.23%; broad-spectrum antibacterial; synergy with β-lactams/fluoroquinolones; docks to LasR/RhlG/PqsR disrupting P. aeruginosa quorum sensing. DOI 10.1186/s12906-024-04470-w.
+- `salem-2023-syzygium-essential-oil-oral-pathogens.md` — Syzygium malaccense/samarangense leaf EOs; MIC 3.75 µg/mL vs E. coli; 83-87% C. albicans biofilm suppression; 76-83% Gram-positive biofilm suppression. DOI 10.1186/s12906-023-04277-1.
+
+**metallomic_signatures_pdfs (1 new source page — Brown 2024 occupational mining review, conceptually part of food_heavy_metal but metal-exposure focused):**
+- `brown-2024-lithium-ion-battery-mining-metals.md` — PRISMA n=183 studies on Co/Li/Mn/Ni mining toxicology; cobalt/nickel → respiratory dominant, manganese → neurologic dominant, lithium → no studies identified. Nickel miners have elevated diabetes; manganese miners show parkinsonism, psychosis. DOI 10.1186/s12995-024-00433-6.
+
+**Note:** Other 8 metallomic_signatures_pdfs already ingested previously (Callejon-Leblic, Cano, Schilling, Arias-Borrego, Squitti, Hickman-Lewis, Mouse-Metallomic, Sanchez, Wilkinson). Pulmonary subfolder empty.
+
+**Cross-condition pattern detections:**
+- **Rice as universal arsenic vector across ages** (Su 2023, Navaretnam 2025, Signes-Pastor 2018, Bair 2022): AsIII dominant species; infant rice cereal as entry point during weaning; brown > white contamination. Supports STOP flag for rice-cereal-as-first-food and rice-heavy diets in endometriosis, T2D, CVD signature populations.
+- **Cadmium-diabetes axis confirmed at population scale** (Li 2023): dose-response with RR 1.47→4.00 across B-Cd tertiles; dietary Cd contributes 65% PAF. Strengthens T2D signature metallomic layer to high confidence for Cd elevation. Links to [[cadmium]] entity page Zhang 2018 exposure data.
+- **Infant exposure windows concentrated at 6-17 months** (Tatsuta 2024 MeHg, Signes-Pastor 2018 As, Meli 2024 Sb/Hg, Bair 2022 US): complementary feeding → peak toxic metal intake. Cross-condition flag for [[autism-spectrum-disorder]], [[type-2-diabetes]], [[attention-deficit-hyperactivity-disorder]] signatures with early-life programming.
+- **Essential oil phenolic monoterpenes converge on biofilm disruption + host innate immunity activation** (Shu 2024 cinnamaldehyde, Bauer 2019 carvacrol/thymol, Cacciatore 2015 carvacrol, Naaz 2022 trans-anethole, Rahman 2024 thymoquinone/thymol, Salem 2023 γ-terpinene/caryophyllene oxide): MIC ranges 0.31-3.75 mg/mL; shared mechanism is membrane disruption + anti-quorum-sensing + anti-biofilm (primitive #6 interkingdom shielding). Strengthens intervention candidate pool for Candida-enriched and P. aeruginosa-enriched signatures.
+- **Mining occupational exposure → disease profile signatures** (Brown 2024): cobalt/nickel respiratory, manganese neurologic (Parkinsonism, psychosis); nickel miners elevated T2D incidence. Justifies [[occupational-exposure]] concept + specific-exposure questions in Cureva pipeline for patients from mining regions. Lithium evidence gap flagged for future monitoring.
+
 ## [2026-04-14] Hashimoto's + MS + CVD source ingestion (11 new source pages)
 Ingested 11 previously un-summarized PDFs from raw/Hashimotos-Thyroiditis/, raw/Multiple Sclerosis/, and raw/cardiovascular disease/ to expand v2 source coverage for three conditions with thin signatures. All frontmatter follows v2 schema with evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings. DOIs extracted directly from documents.
 

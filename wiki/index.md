@@ -12,7 +12,7 @@ updated: 2026-04-14
 
 | Category | Count |
 |----------|-------|
-| Sources | 1515 |
+| Sources | 1687 |
 | Entities | 135 |
 | — Metals/Metalloids | 17 |
 | — Microbes | 81 |

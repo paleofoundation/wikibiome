@@ -71,7 +71,7 @@ A gastric pathogen that is arguably the **most nickel-dependent human pathogen k
 
 - Infects ~50% of the global population.
 - Causes gastritis, peptic ulcers, gastric adenocarcinoma, MALT lymphoma.
-- **Eradication therapy** often includes bismuth — which competes with nickel transport via NiuBDE.
+- **Eradication therapy** often includes bismuth — which competes with nickel transport via NiuBDE [[maier-2019-nickel-microbial-pathogenesis]].
 - HspA (GroES homolog with His-rich Ni-binding C-terminus) has been explored as a **vaccine candidate** — partial protection in mice via intranasal administration.
 
 ## Connections
@@ -81,5 +81,5 @@ A gastric pathogen that is arguably the **most nickel-dependent human pathogen k
 - [[nutritional-immunity]] — host calprotectin/lactoferrin may restrict nickel availability
 - [[metal-carcinogenesis]] — H. pylori-mediated gastric cancer is linked to hydrogenase-powered CagA translocation
 - [[gastric-cancer]] -- H. pylori is the primary causative organism; nickel-dependent metalloenzymes power the cancer cascade
-- [[gerd]] -- controversial relationship; H. pylori eradication may worsen reflux in some patients
+- [[gerd]] -- controversial relationship; H. pylori eradication may worsen reflux in some patients [[chen-2023-hpylori-antibodies-gerd-mendelian-study]] [[sugihartono-2022-gastric-microbiota-hpylori-gerd]] [[liang-2021-hpylori-oral-microbiota-reflux-esophagitis]]
 - Contrast with [[salnikov-2008-metal-carcinogenesis]]: nickel causes cancer in host cells via epigenetics, while in H. pylori it enables cancer via CagA

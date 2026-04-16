@@ -38,9 +38,9 @@ pathogenic_potential: commensal
 
 **Dialister abundance is one of the most consistent protective markers in depression research.** Multiple independent cohorts demonstrate:
 
-- Significantly **lower relative abundance** (often <0.5% in depressed individuals vs. >2% in healthy controls)
+- Significantly **lower relative abundance** (often <0.5% in depressed individuals vs. >2% in healthy controls) [[zhou-2024-maternal-ppd-infant-neurodevelopment-gut-microbiota]] [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]]
 - Inverse correlation with depressive symptom severity (PHQ-9 scores, Hamilton depression scores)
-- Restoration of Dialister abundance associated with antidepressant response in both pharmacological and lifestyle interventions
+- Restoration of Dialister abundance associated with antidepressant response in both pharmacological and lifestyle interventions [[mitchell-2024-synbiotics-gdh-gi-behavior-anxiety-asd]]
 - Depletion predicts treatment-resistant depression
 
 ### Mechanistic Links to Neuropsychiatry
@@ -66,8 +66,8 @@ pathogenic_potential: commensal
  - Vagal dysfunction is a core feature of treatment-resistant depression and anxiety
 
 5. **Kynurenine Pathway Dysregulation**
- - Dialister presence (and succinate production) reduces tryptophan shunting into the neurotoxic kynurenine pathway
- - Depletion of Dialister correlates with elevated plasma kynurenine:tryptophan ratios in depression
+ - Dialister presence (and succinate production) reduces tryptophan shunting into the neurotoxic kynurenine pathway [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]]
+ - Depletion of Dialister correlates with elevated plasma kynurenine:tryptophan ratios in depression [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]]
  - This shift drives quinolinic acid accumulation in the CNS, contributing to excitotoxicity
 
 ## Oral Health and Periodontitis

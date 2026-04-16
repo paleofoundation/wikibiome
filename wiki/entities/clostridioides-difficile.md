@@ -32,7 +32,7 @@ A Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading
 
 ### Zinc and Toxin Biology
 
-- *C. difficile* produces two large clostridial toxins, **TcdA and TcdB**, which are glucosyltransferases that inactivate Rho GTPases in colonocytes.
+- *C. difficile* produces two large clostridial toxins, **TcdA and TcdB**, which are glucosyltransferases that inactivate Rho GTPases in colonocytes [[maier-2019-nickel-microbial-pathogenesis]].
 - TcdA/TcdB contain a zinc-dependent metalloprotease domain responsible for **autocatalytic processing**: the toxin cleaves itself inside the host cell to release the catalytic glucosyltransferase domain into the cytoplasm.
 - [[zinc]] availability may therefore modulate toxin processing efficiency.
 - Some evidence suggests that **zinc supplementation may inhibit C. difficile toxin activity** through interference with the metalloprotease domain, though this remains an active area of investigation.

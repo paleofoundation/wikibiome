@@ -5,7 +5,7 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: [jangi-2016-gut-microbiome-alterations-ms, bronzini-2023-feeding-gut-microbiome-ms, dai-2024-gut-microbiota-cvd-bidirectional-mr, teng-2024-gut-microbiome-lipids-mr, martinelli-2022-gut-oriented-interventions-ms, bezawada-2020-asd-gut-microbiota-children-systematic-review]
+sources: [jangi-2016-gut-microbiome-alterations-ms, bronzini-2023-feeding-gut-microbiome-ms, dai-2024-gut-microbiota-cvd-bidirectional-mr, teng-2024-gut-microbiome-lipids-mr, martinelli-2022-gut-oriented-interventions-ms, bezawada-2020-asd-gut-microbiota-children-systematic-review, wu-2021-premature-ovarian-insufficiency-gut-microbiota]
 metal_dependencies: [none confirmed]
 tags: [pathobiont, IgA-degrading, enriched-in-ASD, IBD-associated, mucosal-immunity, contradictory-findings]
 platform: wikibiome
@@ -39,8 +39,11 @@ A Gram-negative, microaerophilic genus within the Proteobacteria phylum (family 
 - May benefit from reduced IgA pressure under immunomodulatory treatment, consistent with its IgA-degrading phenotype.
 
 ### Inflammatory Bowel Disease
-- **Contradictory findings**: enriched in some IBD cohorts (particularly in mucosal biopsies) but depleted in others (stool-based studies). This inconsistency may reflect differences between mucosal and luminal sampling, disease phase, or IBD subtype.
-- Detected in intestinal biopsies of patients with [[crohns-disease]] and ulcerative colitis, suggesting mucosal colonization preference.
+- **Contradictory findings**: enriched in some IBD cohorts (particularly in mucosal biopsies) but depleted in others (stool-based studies). This inconsistency may reflect differences between mucosal and luminal sampling, disease phase, or IBD subtype [[martinelli-2022-gut-oriented-interventions-ms]].
+- Detected in intestinal biopsies of patients with [[crohns-disease]] and ulcerative colitis, suggesting mucosal colonization preference [[bronzini-2023-feeding-gut-microbiome-ms]].
+
+### Premature Ovarian Insufficiency
+- **Enriched in POI**: increased *Sutterella* alongside *Butyricimonas*, *Dorea*, and *Lachnobacterium*; reduced *Faecalibacterium* and *Bulleidia*. Shifts correlated with FSH, LH, E2, AMH and FSH/LH ratio [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]].
 
 ### Cardiovascular and Metabolic Disease
 - Identified in MR analyses examining gut microbiota-lipid and gut microbiota-CVD relationships, though effect sizes are modest [[teng-2024-gut-microbiome-lipids-mr]], [[dai-2024-gut-microbiota-cvd-bidirectional-mr]]].

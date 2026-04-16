@@ -26,11 +26,11 @@ A Gram-negative obligate anaerobe that occupies a unique dual position in the [[
 
 ### Bacteroides fragilis Toxin (BFT/Fragilysin)
 
-- BFT is a **Zn-dependent [[zinc-metalloprotease]]** (EC 3.4.24.-) that requires a zinc ion in its active site for catalytic activity.
+- BFT is a **Zn-dependent [[zinc-metalloprotease]]** (EC 3.4.24.-) that requires a zinc ion in its active site for catalytic activity [[metz-2019-drug-discovery-bft-inhibition]].
 - Cleaves **E-cadherin**, the intercellular adhesion molecule of intestinal epithelial cells. E-cadherin cleavage disrupts cell-cell junctions, increases paracellular permeability, and activates beta-catenin/Wnt signaling -- a pro-tumorigenic pathway.
 - Triggers NF-kB activation, IL-8 secretion, and neutrophil recruitment, driving chronic intestinal inflammation.
 - Three isoforms exist (BFT-1, BFT-2, BFT-3); BFT-2 is the most biologically active.
-- Only **enterotoxigenic B. fragilis (ETBF)** strains carry the *bft* gene (~20% of colonizing strains). Non-toxigenic B. fragilis (NTBF) lack *bft* and are commensal.
+- Only **enterotoxigenic B. fragilis (ETBF)** strains carry the *bft* gene (~20% of colonizing strains). Non-toxigenic B. fragilis (NTBF) lack *bft* and are commensal [[metz-2019-drug-discovery-bft-inhibition]].
 
 ### Metal Context
 
@@ -51,7 +51,7 @@ A Gram-negative obligate anaerobe that occupies a unique dual position in the [[
 ## Disease Associations
 
 - **Crohn's disease**: *Bacteroides* is depleted in some Crohn's microbiome signatures, but ETBF strains are enriched in others -- the direction depends on toxigenic vs. non-toxigenic strain composition [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
-- **Colorectal cancer**: ETBF is significantly enriched in CRC tumor tissue. BFT-mediated E-cadherin cleavage and beta-catenin activation provide a mechanistic link to carcinogenesis. ETBF colonization promotes colonic tumorigenesis in APC-Min mice.
+- **Colorectal cancer**: ETBF is significantly enriched in CRC tumor tissue [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]. BFT-mediated E-cadherin cleavage and beta-catenin activation provide a mechanistic link to carcinogenesis [[metz-2019-drug-discovery-bft-inhibition]]. ETBF colonization promotes colonic tumorigenesis in APC-Min mice.
 - **Intra-abdominal abscess**: *B. fragilis* is the most common anaerobic isolate from intra-abdominal infections, where its capsular polysaccharide promotes abscess formation.
 - **Neurodegenerative disease**: altered *Bacteroides* abundance reported in Parkinson's and Alzheimer's disease microbiome profiles [[khatoon-2023-gut-microbiota-neurodegenerative]].
 

@@ -86,7 +86,7 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 ### Colorectal Cancer
 
-- *B. vulgatus* is **significantly enriched in CRC tissue** compared to healthy mucosa and adenoma precursors.
+- *B. vulgatus* is **significantly enriched in CRC tissue** compared to healthy mucosa and adenoma precursors [[shi-2023-appendectomy-microbiome-crc]].
 - Proposed mechanisms:
  - **Iron acquisition**: CRC tissue bleeds and is high-iron; *B. vulgatus* siderophore activity selects for it over iron-limited commensals.
  - **Barrier disruption**: *B. vulgatus* produces metalloproteases and other virulence factors that damage epithelial tight junctions.
@@ -105,7 +105,7 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 ### Associated Conditions
 
 - **Metabolic syndrome**: *B. vulgatus* enrichment correlates with insulin resistance, though less consistently than [[prevotella-copri]].
-- **IBD**: present in Crohn's and ulcerative colitis, particularly in inflamed segments.
+- **IBD**: present in Crohn's and ulcerative colitis, particularly in inflamed segments [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 - **Autism spectrum disorder**: altered abundance reported in some ASD microbiome profiles.
 
 ## Ecological Interactions
@@ -114,7 +114,7 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 *B. vulgatus* enrichment typically occurs alongside:
 
-- [[prevotella-copri]], [[ruminococcus-gnavus]], [[fusobacterium-nucleatum]] -- other metal-aggressive pathobionts.
+- [[prevotella-copri]], [[ruminococcus-gnavus]], [[fusobacterium-nucleatum]] -- other metal-aggressive pathobionts [[shi-2023-appendectomy-microbiome-crc]].
 - Depletion of [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], [[bifidobacterium]] -- barrier-protective commensals.
 - Depletion of [[roseburia]] and other strict butyrate-producers.
 

@@ -31,10 +31,10 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 - Can use **hemoglobin and heme** as sole iron sources, but **not** holo-transferrin or holo-lactoferrin -- indicating it has evolved to scavenge iron from damaged red blood cells rather than competing for host iron-binding proteins.
 
 ### Mn-Dependent Superoxide Dismutase (Mn-SOD)
-- **SodA**: Mn-dependent superoxide dismutase, the primary defense against reactive oxygen species [[akbari-2022-metal-homeostasis-streptococci]].
-- Essential for surviving the **neutrophil oxidative burst** during pneumonia and bacteremia.
-- Mn acquisition via PsaA/MtsABC is therefore directly linked to oxidative stress survival.
-- Cadmium can disrupt Mn uptake/efflux, indirectly increasing oxidative stress susceptibility -- a vulnerability that could be exploited therapeutically.
+- **SodA**: Mn-dependent superoxide dismutase, the primary defense against reactive oxygen species [[akbari-2022-metal-homeostasis-streptococci]] [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
+- Essential for surviving the **neutrophil oxidative burst** during pneumonia and bacteremia [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]].
+- Mn acquisition via PsaA/MtsABC is therefore directly linked to oxidative stress survival [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
+- Cadmium can disrupt Mn uptake/efflux, indirectly increasing oxidative stress susceptibility -- a vulnerability that could be exploited therapeutically [[begg-2015-cadmium-toxicity-transition-metal-pneumococcus]] [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]].
 
 ### Zn-Dependent Metalloenzymes
 - Zinc is cofactor for numerous metabolic enzymes.
@@ -87,7 +87,7 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 
 *S. pneumoniae* encounters metal restriction at every infection site:
 
-- **Calprotectin (S100A8/A9)**: sequesters Zn and Mn at infection sites. Released by neutrophils infiltrating the lung, meninges, and middle ear. Directly inhibits pneumococcal growth by starving PsaA and AdcABC of their substrates.
+- **Calprotectin (S100A8/A9)**: sequesters Zn and Mn at infection sites. Released by neutrophils infiltrating the lung, meninges, and middle ear. Directly inhibits pneumococcal growth by starving PsaA and AdcABC of their substrates [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
 - **Lactoferrin**: sequesters iron in mucosal secretions. Notably, *S. pneumoniae* cannot use lactoferrin-bound iron, making lactoferrin an effective barrier.
 - **Transferrin**: sequesters iron in blood. Again, pneumococcus cannot access transferrin-bound iron -- it must wait for red blood cell lysis to access hemoglobin.
 - **Zinc intoxication**: neutrophils pump zinc into phagosomes to toxic levels; CzcD exports excess zinc as a countermeasure.

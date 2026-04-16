@@ -31,7 +31,7 @@ A versatile Gram-positive pathogen with one of the **best-characterized nutritio
 - Biofilm formation on implanted medical devices depends partly on urease activity.
 
 ### Fe-Dependent Virulence
-- **Staphyloferrin A and B**: endogenous siderophores for iron scavenging in iron-limited host environments.
+- **Staphyloferrin A and B**: endogenous siderophores for iron scavenging in iron-limited host environments [[pandey-2021-galbofloxacin-gallium-siderophore-staph]].
 - **IsdB/heme uptake system (Isd pathway)**: surface-anchored hemoglobin receptors (IsdB, IsdH) extract heme from host hemoglobin, pass it through the cell wall (IsdA, IsdC), and import it via the ABC transporter IsdDEF. One of the most elegant iron piracy systems characterized.
 - **Sortase-anchored surface proteins**: multiple iron-binding surface proteins critical for infection.
 
@@ -80,7 +80,7 @@ A versatile Gram-positive pathogen with one of the **best-characterized nutritio
 - Bacteremia and endocarditis
 - Osteomyelitis
 - Pneumonia (hospital-acquired)
-- Device-associated biofilm infections (catheters, prosthetic joints)
+- Device-associated biofilm infections (catheters, prosthetic joints), including synergistic mixed-species biofilms with *Candida albicans* where reciprocal virulence masking is observed [[pasman-2025-candida-staph-reciprocal-virulence-masking]]
 - Toxic shock syndrome
 - Food poisoning
 
