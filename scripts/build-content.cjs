@@ -29,6 +29,7 @@ const platformFlag = args.includes('--platform')
   : 'all';
 
 const WIKI_ROOT = path.join(__dirname, '..', 'wiki');
+const CUREVA_ROOT = path.join(__dirname, '..', 'cureva');
 const OUTPUT_PATH = path.join(__dirname, '..', 'src', 'content.generated.json');
 
 // ─── YAML Frontmatter Parser ───────────────────────────────────────────
@@ -540,9 +541,17 @@ function main() {
   // Read all directories
   const entities = readDirectory(path.join(WIKI_ROOT, 'entities'), 'entities');
   const concepts = readDirectory(path.join(WIKI_ROOT, 'concepts'), 'concepts');
-  const signatures = readDirectory(path.join(WIKI_ROOT, 'signatures'), 'signatures');
-  const interventions = readDirectory(path.join(WIKI_ROOT, 'interventions'), 'interventions');
-  const stops = readDirectory(path.join(WIKI_ROOT, 'stops'), 'stops');
+  // Signatures/interventions/stops now live under cureva/ (single source of truth for clinical layers).
+  // Fall back to wiki/ for backwards-compat if cureva/ is missing.
+  const sigWiki = readDirectory(path.join(WIKI_ROOT, 'signatures'), 'signatures');
+  const sigCureva = readDirectory(path.join(CUREVA_ROOT, 'signatures'), 'signatures');
+  const signatures = [...sigCureva, ...sigWiki];
+  const intWiki = readDirectory(path.join(WIKI_ROOT, 'interventions'), 'interventions');
+  const intCureva = readDirectory(path.join(CUREVA_ROOT, 'interventions'), 'interventions');
+  const interventions = [...intCureva, ...intWiki];
+  const stopWiki = readDirectory(path.join(WIKI_ROOT, 'stops'), 'stops');
+  const stopCureva = readDirectory(path.join(CUREVA_ROOT, 'stops'), 'stops');
+  const stops = [...stopCureva, ...stopWiki];
   const analyses = readDirectory(path.join(WIKI_ROOT, 'analyses'), 'analyses');
 
   // Read root-level wiki pages (glossary, overview) — skip index.md and log.md

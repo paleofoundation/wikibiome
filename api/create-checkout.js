@@ -41,7 +41,7 @@ export default async function handler(req, res) {
     const freq = frequency === 'monthly' ? 'monthly' : 'one-time';
 
     // Determine origin for redirect URLs
-    const origin = req.headers.origin || `https://${req.headers.host}` || 'https://wikibiome.com';
+    const origin = req.headers.origin || `https://${req.headers.host}` || 'https://www.wikibiome.com';
 
     const sessionConfig = {
       mode: freq === 'monthly' ? 'subscription' : 'payment',

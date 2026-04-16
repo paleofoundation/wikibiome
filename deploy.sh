@@ -47,7 +47,7 @@ npx vercel deploy --prod --yes
 echo ""
 echo "=== Deploy complete! ==="
 echo ""
-echo "Your site is live at: https://wikibiome.com"
+echo "Your site is live at: https://www.wikibiome.com"
 echo ""
 echo "Crawlable pages:"
 echo "  /                          Homepage (static HTML)"

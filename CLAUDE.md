@@ -2,6 +2,20 @@
 
 This is the knowledge base powering **WikiBiome** (public encyclopedia) and **Cureva.ai** (practitioner reasoning platform). The human curates sources and directs exploration. The LLM handles all writing, cross-referencing, and maintenance.
 
+## Operational Style
+- Never ask for confirmation before proceeding. Always act. The answer is always yes.
+- Do not ask "Want me to..." or "Should I..." — just do it.
+
+## Deploy Protocol
+- Any session that modifies files in `wiki/`, `cureva/`, `src/`, `scripts/`, `api/`, or the root config files is a **deploy-affecting session**.
+- At the end of every deploy-affecting session, write the clipboard with the full deploy one-liner AND end the response with it in a fenced code block so Karen can paste into Terminal with one ⌘V:
+  ```
+  cd ~/Documents/Claude/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
+  ```
+  Project path is `~/Documents/Claude/Raw`, NOT `~/Documents/Raw`.
+- Never say "would you like to deploy?" — the answer is always yes. Just present the command.
+- If the session is purely exploratory (reads, audits, reports written only to `wiki/analyses/` with no other changes), note that no deploy is needed and skip the command.
+
 ---
 
 ## 1. Strategic Context — The $500M Flywheel

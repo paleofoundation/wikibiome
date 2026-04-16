@@ -287,6 +287,16 @@ const GlobalStyles = () => (
       a[href]::after { content: " (" attr(href) ")"; font-size: 10px; color: #666; }
     }
 
+    /* Mobile drawer animations */
+    @keyframes wbSlideIn {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
+    }
+    @keyframes wbFadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
     /* ═══════════════════════════════════════════════════════════════════════════
        MOBILE RESPONSIVENESS — Tablet (max-width: 768px)
        ═══════════════════════════════════════════════════════════════════════════ */
@@ -294,19 +304,26 @@ const GlobalStyles = () => (
       body { font-size: 14px; }
       html, body { overflow-x: hidden !important; max-width: 100vw !important; }
 
-      /* Nav: Reduce padding, make flexible for wrapping */
-      nav {
-        padding: 8px 12px !important;
-        min-height: 52px !important;
-        height: auto !important;
-        flex-wrap: wrap !important;
-        gap: 6px !important;
-        align-content: flex-start !important;
+      /* Nav: compact, single-row layout — Wikipedia-style */
+      .wb-nav {
+        padding: 0 12px !important;
+        height: 54px !important;
+        flex-wrap: nowrap !important;
+        gap: 0 !important;
       }
-      /* Nav: hide the secondary tabs row to keep it on one line */
-      nav > div:first-child > div:nth-child(2) { display: none !important; }
-      /* Nav: shrink search field */
-      nav input[type="text"] { font-size: 13px !important; }
+      .wb-nav-left { gap: 10px !important; }
+      .wb-nav-right { gap: 4px !important; }
+
+      /* Show hamburger + mobile search icon */
+      .wb-hamburger { display: inline-flex !important; }
+      .wb-search-icon { display: inline-flex !important; }
+
+      /* Hide desktop-only nav elements */
+      .wb-nav-tabs { display: none !important; }
+      .wb-nav-search { display: none !important; }
+      .wb-nav-donate { display: none !important; }
+      .wb-nav-login { display: none !important; }
+      .wb-nav-signup { display: none !important; }
       nav > div:last-child > div:has(> input) { width: 140px !important; padding: 6px 10px !important; }
       nav > div:first-child { gap: 12px !important; }
       nav > div:last-child { gap: 8px !important; }
@@ -366,6 +383,9 @@ const GlobalStyles = () => (
 
       /* Right-side toggle arrow on home: reposition down so it's reachable */
       .home-root [style*="writing-mode"] { display: none !important; }
+
+      /* Discover panel on home — visible close button on mobile */
+      .home-rightpanel-close { display: flex !important; }
 
       /* Main content adjusts to full width */
       main {
@@ -477,18 +497,16 @@ const GlobalStyles = () => (
     @media (max-width: 480px) {
       body { font-size: 13px; }
 
-      /* Nav: aggressive simplification */
-      nav {
-        padding: 6px 10px !important;
-        min-height: 48px !important;
-        gap: 6px !important;
+      /* Nav: aggressive simplification at phone width */
+      .wb-nav {
+        padding: 0 10px !important;
+        height: 52px !important;
       }
+      .wb-nav-left { gap: 8px !important; }
+      .wb-nav-left > div[style*="cursor: pointer"] span { font-size: 17px !important; }
 
-      /* Nav: hide search field + login button on phones */
-      nav > div:last-child > div:has(> input) { display: none !important; }
-      nav > div:last-child > button:first-of-type { display: none !important; }
-      nav > div:last-child { gap: 6px !important; }
-      nav > div:first-child > div:first-child span { font-size: 17px !important; }
+      /* Ensure Discover panel close button is reachable on phones */
+      .home-rightpanel-close { display: flex !important; }
 
       /* HomeView phone tweaks */
       .home-sidebar {
@@ -1068,15 +1086,45 @@ const renderMarkdown = (text, onNavigate, citationMap) => {
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth }) => {
+  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = React.useState(false);
+
+  // Lock body scroll when drawer open
+  React.useEffect(() => {
+    if (mobileMenuOpen || mobileSearchOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [mobileMenuOpen, mobileSearchOpen]);
+
+  const closeMenu = () => setMobileMenuOpen(false);
+  const navTabs = ['home', 'explore', 'signatures', 'clusters', 'matrix'];
+
   return (
-    <nav className="no-print" style={{
+    <>
+    <nav className="wb-nav no-print" style={{
       position: 'sticky', top: 0, zIndex: 100,
       backgroundColor: P.white,
       borderBottom: `1px solid ${P.borderLight}`,
       padding: '0 24px', height: '52px',
       display: 'flex', justifyContent: 'space-between', alignItems: 'center',
     }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
+      <div className="wb-nav-left" style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
+        {/* Hamburger — mobile only (controlled by CSS) */}
+        <button
+          className="wb-hamburger"
+          aria-label="Open menu"
+          onClick={() => setMobileMenuOpen(true)}
+          style={{
+            display: 'none', background: 'none', border: 'none', cursor: 'pointer',
+            padding: '8px', marginLeft: '-8px', color: P.ink, alignItems: 'center', justifyContent: 'center'
+          }}
+        >
+          <Menu size={24} />
+        </button>
+
         <div
           style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '10px' }}
           onClick={() => onNavigate({ view: 'home' })}
@@ -1090,8 +1138,8 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
           </span>
         </div>
 
-        <div style={{ display: 'flex', gap: '4px' }}>
-          {['home', 'explore', 'signatures', 'clusters', 'matrix'].map((v) => (
+        <div className="wb-nav-tabs" style={{ display: 'flex', gap: '4px' }}>
+          {navTabs.map((v) => (
             <button
               key={v}
               onClick={() => onNavigate({ view: v })}
@@ -1113,9 +1161,9 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
         </div>
       </div>
 
-      <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-        {/* Support link */}
-        <button onClick={() => onNavigate({ view: 'support' })} style={{
+      <div className="wb-nav-right" style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+        {/* Support link — desktop only */}
+        <button className="wb-nav-donate" onClick={() => onNavigate({ view: 'support' })} style={{
           background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'Inter', sans-serif",
           fontSize: '13px', color: P.teal, fontWeight: 500, display: 'flex', alignItems: 'center', gap: '5px',
           padding: '6px 10px', borderRadius: '6px', transition: 'all 0.15s',
@@ -1126,8 +1174,8 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
           <Heart size={14} /> Donate
         </button>
 
-        {/* Search */}
-        <div style={{
+        {/* Search — desktop inline */}
+        <div className="wb-nav-search" style={{
           display: 'flex', alignItems: 'center', gap: '8px',
           backgroundColor: '#f5f5f3', border: `1px solid ${P.borderLight}`,
           borderRadius: '8px', padding: '8px 14px', width: '180px',
@@ -1146,8 +1194,21 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
           />
         </div>
 
-        {/* Auth buttons */}
-        <button onClick={() => onOpenAuth('login')} style={{
+        {/* Mobile search icon — shown only on mobile */}
+        <button
+          className="wb-search-icon"
+          aria-label="Search"
+          onClick={() => setMobileSearchOpen(true)}
+          style={{
+            display: 'none', background: 'none', border: 'none', cursor: 'pointer',
+            padding: '8px', color: P.ink, alignItems: 'center', justifyContent: 'center'
+          }}
+        >
+          <Search size={22} />
+        </button>
+
+        {/* Auth buttons — desktop only */}
+        <button className="wb-nav-login" onClick={() => onOpenAuth('login')} style={{
           background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'Inter', sans-serif",
           fontSize: '13px', color: P.textMuted, padding: '6px 10px', borderRadius: '6px', transition: 'all 0.15s',
         }}
@@ -1155,7 +1216,7 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
           onMouseLeave={e => { e.currentTarget.style.color = P.textMuted; e.currentTarget.style.background = 'none'; }}
         >Log in</button>
 
-        <button onClick={() => onOpenAuth('signup')} style={{
+        <button className="wb-nav-signup" onClick={() => onOpenAuth('signup')} style={{
           background: P.teal, color: P.white, border: 'none', borderRadius: '6px',
           padding: '7px 14px', fontSize: '13px', fontWeight: 500, fontFamily: "'Inter', sans-serif",
           cursor: 'pointer', transition: 'background 0.2s',
@@ -1165,6 +1226,156 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
         >Create account</button>
       </div>
     </nav>
+
+    {/* ── MOBILE DRAWER (Wikipedia-style) ── */}
+    {mobileMenuOpen && (
+      <>
+        <div
+          onClick={closeMenu}
+          style={{
+            position: 'fixed', inset: 0, backgroundColor: 'rgba(15,23,42,0.45)',
+            zIndex: 999, animation: 'wbFadeIn 0.2s ease'
+          }}
+        />
+        <div className="wb-mobile-drawer" style={{
+          position: 'fixed', top: 0, left: 0, bottom: 0, width: '82%', maxWidth: '340px',
+          backgroundColor: P.white, zIndex: 1000,
+          boxShadow: '2px 0 24px rgba(0,0,0,0.15)',
+          display: 'flex', flexDirection: 'column',
+          animation: 'wbSlideIn 0.25s cubic-bezier(0.16, 1, 0.3, 1)'
+        }}>
+          {/* Drawer header */}
+          <div style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+            padding: '14px 18px', borderBottom: `1px solid ${P.borderLight}`
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <img src="/favicon.png" alt="" style={{ width: '28px', height: '28px', borderRadius: '50%' }} />
+              <span style={{ fontFamily: "'Libre Baskerville', serif", fontSize: '18px', fontWeight: 700, color: P.ink }}>
+                Wiki<span style={{ color: P.amber }}>Biome</span>
+              </span>
+            </div>
+            <button aria-label="Close menu" onClick={closeMenu} style={{
+              background: 'none', border: 'none', cursor: 'pointer', padding: '8px',
+              color: P.textMuted, display: 'flex'
+            }}>
+              <X size={22} />
+            </button>
+          </div>
+
+          {/* Primary CTAs — auth first, like Wikipedia mobile */}
+          <div style={{ padding: '18px', display: 'flex', flexDirection: 'column', gap: '10px', borderBottom: `1px solid ${P.borderLight}` }}>
+            <button
+              onClick={() => { closeMenu(); onOpenAuth('signup'); }}
+              style={{
+                width: '100%', padding: '12px 16px', background: P.teal, color: P.white, border: 'none',
+                borderRadius: '8px', fontSize: '15px', fontWeight: 600, cursor: 'pointer',
+                fontFamily: "'Inter', sans-serif", display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
+              }}
+            >
+              <UserPlus size={16} /> Create account
+            </button>
+            <button
+              onClick={() => { closeMenu(); onOpenAuth('login'); }}
+              style={{
+                width: '100%', padding: '12px 16px', background: P.white, color: P.teal,
+                border: `1.5px solid ${P.teal}`, borderRadius: '8px', fontSize: '15px', fontWeight: 600, cursor: 'pointer',
+                fontFamily: "'Inter', sans-serif", display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
+              }}
+            >
+              <LogIn size={16} /> Log in
+            </button>
+            <button
+              onClick={() => { closeMenu(); onNavigate({ view: 'support' }); }}
+              style={{
+                width: '100%', padding: '12px 16px',
+                background: `linear-gradient(135deg, ${P.crimson}0d, ${P.amber}14)`,
+                color: P.crimson, border: `1px solid ${P.crimson}33`,
+                borderRadius: '8px', fontSize: '15px', fontWeight: 600, cursor: 'pointer',
+                fontFamily: "'Inter', sans-serif", display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
+              }}
+            >
+              <Heart size={16} /> Donate
+            </button>
+          </div>
+
+          {/* Nav section */}
+          <div style={{ flex: 1, overflowY: 'auto', padding: '12px 0' }}>
+            <div style={{
+              padding: '6px 18px', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase',
+              letterSpacing: '1.5px', color: P.textMuted
+            }}>
+              Explore
+            </div>
+            {navTabs.map(v => (
+              <button
+                key={v}
+                onClick={() => { closeMenu(); onNavigate({ view: v }); }}
+                style={{
+                  width: '100%', textAlign: 'left', padding: '14px 18px',
+                  background: currentView === v ? P.tealLight : 'none',
+                  border: 'none', borderLeft: currentView === v ? `3px solid ${P.teal}` : '3px solid transparent',
+                  color: currentView === v ? P.teal : P.ink,
+                  fontSize: '15px', fontWeight: currentView === v ? 600 : 400,
+                  cursor: 'pointer', fontFamily: "'Inter', sans-serif",
+                  textTransform: 'capitalize'
+                }}
+              >
+                {v}
+              </button>
+            ))}
+          </div>
+
+          {/* Footer */}
+          <div style={{
+            padding: '14px 18px', borderTop: `1px solid ${P.borderLight}`,
+            fontSize: '11px', color: P.textMuted, fontFamily: "'Inter', sans-serif"
+          }}>
+            Microbial metallomics encyclopedia
+          </div>
+        </div>
+      </>
+    )}
+
+    {/* ── MOBILE SEARCH OVERLAY ── */}
+    {mobileSearchOpen && (
+      <div style={{
+        position: 'fixed', inset: 0, backgroundColor: P.white, zIndex: 1000,
+        display: 'flex', flexDirection: 'column', animation: 'wbFadeIn 0.15s ease'
+      }}>
+        <div style={{
+          display: 'flex', alignItems: 'center', gap: '12px',
+          padding: '14px 18px', borderBottom: `1px solid ${P.borderLight}`
+        }}>
+          <button aria-label="Close search" onClick={() => setMobileSearchOpen(false)} style={{
+            background: 'none', border: 'none', cursor: 'pointer', padding: '6px', color: P.textMuted, display: 'flex'
+          }}>
+            <X size={22} />
+          </button>
+          <div style={{
+            flex: 1, display: 'flex', alignItems: 'center', gap: '10px',
+            backgroundColor: '#f5f5f3', border: `1px solid ${P.borderLight}`,
+            borderRadius: '10px', padding: '10px 14px'
+          }}>
+            <Search size={18} color={P.textMuted} />
+            <input
+              type="text" autoFocus placeholder="Search WikiBiome..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter' && searchQuery.trim()) { setMobileSearchOpen(false); onNavigate({ view: 'search' }); } }}
+              style={{
+                flex: 1, border: 'none', background: 'none', outline: 'none',
+                fontSize: '16px', color: P.text, fontFamily: "'Inter', sans-serif"
+              }}
+            />
+          </div>
+        </div>
+        <div style={{ padding: '18px', color: P.textMuted, fontSize: '13px' }}>
+          Type and press enter to search metals, microbes, diseases, and signatures.
+        </div>
+      </div>
+    )}
+    </>
   );
 };
 
@@ -1330,6 +1541,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
   const [activeIdx, setActiveIdx] = useState(0);
   /* incomingIdx/transitionKey removed — using simple crossfade now */
   const [rightPanelOpen, setRightPanelOpen] = useState(false);
+  const [rightPanelExpanded, setRightPanelExpanded] = useState(false);
   const [heroQuery, setHeroQuery] = useState('');
   const [acResults, setAcResults] = useState([]);
   const [acOpen, setAcOpen] = useState(false);
@@ -1370,12 +1582,22 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
     return () => clearInterval(timer);
   }, []);
 
-  const categories = Object.entries(CATEGORIES)
-    .filter(([key]) => ['metal', 'microbe', 'disease', 'mechanism', 'defense'].includes(key))
-    .map(([key, cat]) => {
+  // Ordered per homepage sidebar spec: Diseases, Mechanisms, Microbes, Heavy Metals, Interventions, Host Defenses
+  const categoryOrder = ['disease', 'mechanism', 'microbe', 'metal', 'intervention', 'defense'];
+  const categories = categoryOrder
+    .filter(key => CATEGORIES[key])
+    .map(key => {
       const count = CONTENT.pages.filter(p => p.category === key).length;
-      return { key, ...cat, count };
+      return { key, ...CATEGORIES[key], count };
     });
+
+  // Random article navigation
+  const goRandomArticle = () => {
+    const pool = CONTENT.pages;
+    if (!pool || !pool.length) return;
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    onNavigate({ view: 'article', id: pick.id });
+  };
   const signatures = Object.entries(CONTENT.signatures || {});
 
   /* ── "Page of the day" — deterministic from date ── */
@@ -1475,12 +1697,37 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
             </div>
           </div>
 
-          {/* Browse by category */}
-          <div style={{ fontSize: '10px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1px', color: P.textMuted, padding: '0 8px', marginBottom: '8px' }}>Browse by category</div>
-          {categories.map((cat, idx) => (
+          {/* Random Article — the ONLY item with blue + treatment.
+              Opens the right discover panel. */}
+          <div
+            onClick={() => { goRandomArticle(); setRightPanelOpen(true); }}
+            style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              fontSize: '13.5px', fontWeight: 600, padding: '9px 10px', borderRadius: '6px',
+              color: P.teal, cursor: 'pointer', transition: 'background 0.15s',
+            }}
+            onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
+            onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+          >
+            <span>Random Article</span>
+            <span
+              onClick={(e) => { e.stopPropagation(); setRightPanelOpen(o => !o); }}
+              style={{
+                display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                width: '20px', height: '20px', borderRadius: '50%',
+                background: P.teal, color: '#fff', fontSize: '14px', lineHeight: 1, fontWeight: 500,
+              }}
+              aria-label="Open discover panel"
+            >+</span>
+          </div>
+
+          <div style={{ height: '1px', background: P.borderLight, margin: '10px 8px' }} />
+
+          {/* Categories — consistent ink color, no heading */}
+          {categories.map((cat) => (
             <div key={cat.key} onClick={() => onNavigate({ view: 'category', category: cat.key })} style={{
               display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-              fontSize: '13px', padding: '7px 8px', borderRadius: '5px',
+              fontSize: '13px', padding: '7px 10px', borderRadius: '5px',
               color: P.ink, cursor: 'pointer', transition: 'background 0.15s',
             }}
               onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
@@ -1493,48 +1740,49 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
 
           <div style={{ height: '1px', background: P.borderLight, margin: '10px 8px' }} />
 
-          {/* Tools */}
-          <div style={{ fontSize: '11px', fontWeight: 700, color: P.ink, padding: '0 8px', marginBottom: '4px' }}>Tools</div>
-          <a href="/signature-explorer" target="_blank" rel="noopener noreferrer" style={{
-            display: 'flex', alignItems: 'center', gap: '6px',
-            fontSize: '13px', padding: '5px 8px', borderRadius: '5px',
-            color: P.teal, fontWeight: 500, cursor: 'pointer', transition: 'background 0.15s',
-            textDecoration: 'none',
-          }}
-            onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
-            onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
-          >
-            <span style={{ fontSize: '8px', fontWeight: 600, color: P.white, backgroundColor: P.teal, padding: '1px 4px', borderRadius: '3px', textTransform: 'uppercase', letterSpacing: '0.3px' }}>New</span>
-            Signature Explorer
-          </a>
+          {/* BETA Tools */}
+          <div style={{ fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.2px', color: P.textMuted, padding: '0 10px', marginBottom: '6px' }}>
+            <span style={{ fontSize: '8px', fontWeight: 700, color: P.white, backgroundColor: P.teal, padding: '1px 5px', borderRadius: '3px', letterSpacing: '0.4px', marginRight: '6px' }}>BETA</span>
+            Tools
+          </div>
           {[
+            { label: 'Signature Explorer', href: '/signature-explorer' },
             { label: 'Disease Signatures', view: 'signatures' },
             { label: 'Condition Clusters', view: 'clusters' },
             { label: 'Evidence Matrix', view: 'matrix' },
             { label: 'Knowledge Graph', view: 'explore' },
             { label: 'Compare Signatures', view: 'compare' },
-          ].map(item => (
-            <div key={item.label} onClick={() => onNavigate({ view: item.view })} style={{
-              fontSize: '13px', padding: '5px 8px', borderRadius: '5px',
-              color: P.teal, cursor: 'pointer', transition: 'background 0.15s',
-            }}
-              onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
-              onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
-            >{item.label}</div>
-          ))}
+          ].map(item => {
+            const common = {
+              fontSize: '13px', padding: '6px 10px', borderRadius: '5px',
+              color: P.ink, cursor: 'pointer', transition: 'background 0.15s',
+              textDecoration: 'none', display: 'block',
+            };
+            return item.href ? (
+              <a key={item.label} href={item.href} target="_blank" rel="noopener noreferrer" style={common}
+                onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
+                onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+              >{item.label}</a>
+            ) : (
+              <div key={item.label} onClick={() => onNavigate({ view: item.view })} style={common}
+                onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
+                onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+              >{item.label}</div>
+            );
+          })}
 
           <div style={{ height: '1px', background: P.borderLight, margin: '10px 8px' }} />
 
           {/* Contribute */}
-          <div style={{ fontSize: '11px', fontWeight: 700, color: P.ink, padding: '0 8px', marginBottom: '4px' }}>Contribute</div>
+          <div style={{ fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.2px', color: P.textMuted, padding: '0 10px', marginBottom: '6px' }}>Contribute</div>
           {[
             { label: 'Submit a paper', view: 'submit' },
             { label: 'Vote: Next Condition', view: 'vote' },
             { label: 'Author Outreach', view: 'outreach' },
           ].map(item => (
             <div key={item.label} onClick={() => onNavigate({ view: item.view })} style={{
-              fontSize: '13px', padding: '5px 8px', borderRadius: '5px',
-              color: P.teal, cursor: 'pointer', transition: 'background 0.15s',
+              fontSize: '13px', padding: '6px 10px', borderRadius: '5px',
+              color: P.ink, cursor: 'pointer', transition: 'background 0.15s',
             }}
               onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
               onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
@@ -1648,15 +1896,16 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
 
       {/* ══════ Right panel + integrated blob tab ══════ */}
       {/* The blob tab and panel are one unit — the blob is the panel's left edge */}
-      <div style={{
+      <div className="home-rightpanel" style={{
         position: 'absolute', right: 0, top: 0, bottom: 0,
-        width: rightPanelOpen ? '520px' : '72px',
+        width: rightPanelOpen ? (rightPanelExpanded ? '100vw' : '560px') : '72px',
+        maxWidth: '100vw',
         zIndex: 30, pointerEvents: 'none',
         transition: 'width 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
       }}>
         {/* ── Blob tab — always visible, attached to panel left edge ── */}
         <div
-          onClick={() => setRightPanelOpen(o => !o)}
+          onClick={() => { setRightPanelOpen(o => !o); setRightPanelExpanded(false); }}
           style={{
             position: 'absolute',
             left: 0, top: '50%', transform: 'translateY(-50%)',
@@ -1706,19 +1955,67 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
         </div>
 
         {/* ── Panel body ── */}
-        <div style={{
-          position: 'absolute', left: '70px', top: 0, bottom: 0, right: 0,
-          background: 'rgba(255,255,255,0.97)',
-          backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)',
-          overflowY: rightPanelOpen ? 'auto' : 'hidden',
-          pointerEvents: rightPanelOpen ? 'auto' : 'none',
-          opacity: rightPanelOpen ? 1 : 0,
-          transition: 'opacity 0.35s ease',
-          padding: '40px 24px 24px',
-          boxShadow: rightPanelOpen ? '-2px 0 20px rgba(0,0,0,0.08)' : 'none',
-        }}>
+        <div
+          style={{
+            position: 'absolute', left: '70px', top: 0, bottom: 0, right: 0,
+            background: 'rgba(255,255,255,0.97)',
+            backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)',
+            overflowY: rightPanelOpen ? 'auto' : 'hidden',
+            pointerEvents: rightPanelOpen ? 'auto' : 'none',
+            opacity: rightPanelOpen ? 1 : 0,
+            transition: 'opacity 0.35s ease, padding 0.35s ease',
+            padding: rightPanelExpanded ? '72px 10vw 72px' : '56px 40px 48px',
+            boxShadow: rightPanelOpen ? '-2px 0 20px rgba(0,0,0,0.08)' : 'none',
+          }}>
+        {/* Expand / collapse toggle — fills page to the left when expanded */}
+        <button
+          onClick={() => setRightPanelExpanded(v => !v)}
+          aria-label={rightPanelExpanded ? 'Collapse panel' : 'Expand panel to full width'}
+          style={{
+            position: 'absolute', top: '14px', left: '14px',
+            width: '34px', height: '34px', borderRadius: '50%',
+            background: 'rgba(0,0,0,0.04)', border: 'none', cursor: 'pointer',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            color: P.ink, padding: 0, zIndex: 5,
+          }}
+          onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
+          onMouseLeave={e => e.currentTarget.style.background = 'rgba(0,0,0,0.04)'}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            {rightPanelExpanded ? (
+              <>
+                <polyline points="15 3 21 3 21 9" />
+                <polyline points="9 21 3 21 3 15" />
+                <line x1="21" y1="3" x2="14" y2="10" />
+                <line x1="3" y1="21" x2="10" y2="14" />
+              </>
+            ) : (
+              <>
+                <polyline points="15 3 21 3 21 9" />
+                <polyline points="9 21 3 21 3 15" />
+                <line x1="21" y1="3" x2="14" y2="10" />
+                <line x1="3" y1="21" x2="10" y2="14" />
+              </>
+            )}
+          </svg>
+        </button>
+        {/* Mobile close button — visible only on small screens */}
+        <button
+          className="home-rightpanel-close"
+          onClick={() => setRightPanelOpen(false)}
+          aria-label="Close panel"
+          style={{
+            display: 'none',
+            position: 'absolute', top: '12px', right: '12px',
+            width: '36px', height: '36px', borderRadius: '50%',
+            background: 'rgba(0,0,0,0.06)', border: 'none', cursor: 'pointer',
+            fontSize: '22px', lineHeight: 1, color: P.ink,
+            alignItems: 'center', justifyContent: 'center', padding: 0,
+            zIndex: 5,
+          }}
+        >×</button>
         {/* Page of the day */}
-        <div style={{ marginBottom: '28px' }}>
+        <div style={{ marginBottom: '40px' }}>
           <div style={{
             display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px',
             background: '#e8eeff', padding: '8px 16px', borderRadius: '24px',
@@ -1756,7 +2053,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
           })()}
         </div>
 
-        <div style={{ height: '1px', background: P.borderLight, marginBottom: '24px' }} />
+        <div style={{ height: '1px', background: P.borderLight, margin: '8px 0 36px' }} />
 
         {/* Did you know? */}
         {(() => {
@@ -1771,7 +2068,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
           ];
           const fact = facts[dayOfYear % facts.length];
           return (
-            <div style={{ marginBottom: '28px' }}>
+            <div style={{ marginBottom: '40px' }}>
               <div style={{
                 display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px',
                 background: '#e8eeff', padding: '8px 16px', borderRadius: '24px',
@@ -1789,7 +2086,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
           );
         })()}
 
-        <div style={{ height: '1px', background: P.borderLight, marginBottom: '24px' }} />
+        <div style={{ height: '1px', background: P.borderLight, margin: '8px 0 36px' }} />
 
         {/* Featured signatures — clean list, no metal tags */}
         <div>
@@ -2033,6 +2330,29 @@ const ArticleView = ({ pageId, onNavigate }) => {
               <h2 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '24px', fontWeight: 700, color: P.ink, marginBottom: '6px' }}>Microbiome Signature</h2>
               <p style={{ fontSize: '13px', color: P.textMuted, marginBottom: '24px' }}>5-layer metallomic-taxonomic signature based on {signature.paperCount || 0} peer-reviewed papers.</p>
 
+              {/* Interactive Signature Explorer CTA — context-specific per disease */}
+              {/* Currently only endometriosis has a connection matrix built; others coming */}
+              {signatureId === 'endometriosis' && (
+              <a href={`/signature-explorer?disease=${signatureId}`} target="_blank" rel="noopener noreferrer"
+                style={{
+                  display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                  padding: '16px 22px', marginBottom: '28px',
+                  background: 'linear-gradient(135deg, rgba(13,148,136,0.07) 0%, rgba(184,115,51,0.08) 100%)',
+                  border: `1px solid ${P.teal}`, borderRadius: '12px',
+                  textDecoration: 'none', color: P.ink,
+                  transition: 'transform 0.15s ease'
+                }}>
+                <div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+                    <span style={{ fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', color: '#fff', backgroundColor: P.teal, padding: '2px 8px', borderRadius: '4px' }}>Interactive</span>
+                    <span style={{ fontFamily: "'Libre Baskerville', serif", fontSize: '15px', fontWeight: 700 }}>Explore this signature visually</span>
+                  </div>
+                  <p style={{ fontSize: '12px', color: P.textMuted, margin: 0 }}>Click metals, taxa, and hallmarks to see how they connect across the evidence.</p>
+                </div>
+                <ArrowRight size={20} color={P.teal} />
+              </a>
+              )}
+
               {/* Layer 1: Metallomic */}
               {signature.metallomicSignature && (() => {
                 const elevated = signature.metallomicSignature.elevated || [];
@@ -2228,7 +2548,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
           {/* Wiki link structure */}
           <div style={{ marginTop: '48px', paddingTop: '28px', borderTop: `1px solid ${P.border}` }}>
             {articleLinks.length > 0 && (
-              <div style={{ marginBottom: '28px' }}>
+              <div style={{ marginBottom: '40px' }}>
                 <h3 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '16px', fontWeight: 700, marginBottom: '12px', color: P.ink }}>Mentioned in this article ({articleLinks.length})</h3>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                   {articleLinks.map((link) => {
@@ -2247,7 +2567,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
             )}
 
             {(page.backlinks || []).length > 0 && (
-              <div style={{ marginBottom: '28px' }}>
+              <div style={{ marginBottom: '40px' }}>
                 <h3 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '16px', fontWeight: 700, marginBottom: '4px', color: P.ink }}>Pages that reference this article ({page.backlinks.length})</h3>
                 <p style={{ fontSize: '13px', color: P.textMuted, marginBottom: '12px' }}>These pages link to {page.title} in their content.</p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
