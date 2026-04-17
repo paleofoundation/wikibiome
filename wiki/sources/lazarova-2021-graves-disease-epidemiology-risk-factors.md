@@ -36,7 +36,7 @@ platform: wikibiome
 ## Connections
 
 - Selenium deficiency as risk factor directly connects to [[brock-2015-selenium-thyroid-autoimmunity]] and [[brylinski-2025-trace-elements-thyroid-diseases]]
-- [[Iodine]] excess triggering GD relevant to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] on mineral-thyroid interactions
+- [[iodine]] excess triggering GD relevant to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] on mineral-thyroid interactions
 - Gut dysbiosis as environmental trigger connects to [[chen-2021-gut-microbiota-thyroid-graves]] and [[yang-2022-intestinal-flora-graves-methimazole]]
 - Molecular mimicry mechanism relevant to [[gut-metal-microbiome]] axis where microbial antigens may cross-react with thyroid tissue
 - Yersinia-TSH receptor mimicry links gut infections to thyroid autoimmunity, supporting hypothesis

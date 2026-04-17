@@ -18,10 +18,10 @@ platform: wikibiome
 
 - Probiotic [[Bifidobacterium longum]] supplied with [[methimazole]] (MI) significantly improved thyroid function and reduced TRAb concentration to healthy control levels in [[graves-disease]] patients over 6 months
 - MI intake dramatically altered the intestinal microbiota in ecological and evolutionary aspects, with a sharp decline in Shannon and Simpson indices
-- Specifically, [[Faecalibacterium prausnitzii]], [[Ligilactobacillus salivarius]], [[Lactococcus lactis]], and [[prevotella]] significantly decreased with methimazole treatment
+- Specifically, [[faecalibacterium-prausnitzii]], [[Ligilactobacillus salivarius]], [[Lactococcus lactis]], and [[prevotella]] significantly decreased with methimazole treatment
 - Black bean adjuvant methimazole intake maintained intestinal microbiome homeostasis for 3 months, buffering the drastic shock of methimazole
 - The consumed probiotic regulated intestinal microbiota and metabolites, impacting neurotransmitter and blood trace elements through the [[gut-brain axis]] and [[gut-thyroid axis]]
-- [[Bifidobacterium adolescentis]], [[B. angulatum]], [[B. breve]], [[B. longum]], and [[Faecalibacterium prausnitzii]] increased significantly in the probiotic group; [[Blautia hansenii]], [[Clostridium estertheticum]], [[Haemophilus parainfluenzae]], and [[Klebsiella pneumoniae]] decreased
+- [[Bifidobacterium adolescentis]], [[B. angulatum]], [[B. breve]], [[B. longum]], and [[faecalibacterium-prausnitzii]] increased significantly in the probiotic group; [[Blautia hansenii]], [[Clostridium estertheticum]], [[Haemophilus parainfluenzae]], and [[klebsiella-pneumoniae]] decreased
 
 ## Methods/Findings
 

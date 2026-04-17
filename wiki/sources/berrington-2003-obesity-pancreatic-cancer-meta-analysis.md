@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Obesity is weakly but significantly associated with increased [[pancreatic cancer]] risk, with a summary relative risk of 1.02 (95% CI: 1.01-1.03) per unit increase in BMI
+- Obesity is weakly but significantly associated with increased [[pancreatic-cancer]] risk, with a summary relative risk of 1.02 (95% CI: 1.01-1.03) per unit increase in BMI
 - Obese individuals (BMI >30 kg/m2) have approximately 19% higher risk (RR 1.19, 95% CI: 1.10-1.29) compared to normal body weight (22 kg/m2)
 - The association was marginally higher for males than females (1.03 vs 1.02) and for cohort vs case-control studies (1.02 vs 1.02)
 
@@ -25,7 +25,7 @@ platform: wikibiome
 - **Key findings**: 15 of 22 estimates showed positive association between BMI and pancreatic cancer risk; summary relative risk was slightly higher for studies adjusting for smoking (1.73 vs 1.87)
 - **Sensitivity analysis**: Results robust to exclusion of individual studies; summary RR insensitive to changes in BMI category boundaries
 - **Heterogeneity**: Some evidence of heterogeneity between studies (P = 0.02) and between sexes (P = 0.04)
-- **Confounders**: Smoking and [[type 2 diabetes]] are both established risk factors that may confound the BMI-pancreatic cancer relationship
+- **Confounders**: Smoking and [[type-2-diabetes]] are both established risk factors that may confound the BMI-pancreatic cancer relationship
 
 # Connections
 

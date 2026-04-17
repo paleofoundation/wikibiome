@@ -125,7 +125,7 @@ See [[low-nickel-diet]] for the full nickel restriction framework and [[dietary-
 
 ## Contraindications and Risks
 
-- **Nickel sensitivity**: Screen before prescribing, especially in [[endometriosis]], [[IBS]], [[celiac-disease]], and [[GERD]] patients. The nickel paradox makes the standard Mediterranean diet potentially harmful in these populations.
+- **Nickel sensitivity**: Screen before prescribing, especially in [[endometriosis]], [[IBS]], [[celiac-disease]], and [[gerd]] patients. The nickel paradox makes the standard Mediterranean diet potentially harmful in these populations.
 - **FODMAP sensitivity**: High legume and vegetable content may exacerbate IBS symptoms in FODMAP-sensitive individuals. Modified low-FODMAP Mediterranean diet variants exist.
 - **Alcohol**: Wine component is contraindicated in patients with liver disease, alcohol use disorder, or taking metronidazole/disulfiram.
 - **Nut allergies**: Obvious but must be screened for in the PREDIMED nut-supplementation arm.

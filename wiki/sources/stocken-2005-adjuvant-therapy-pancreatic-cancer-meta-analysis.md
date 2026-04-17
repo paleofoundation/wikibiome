@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Adjuvant chemotherapy provides a 25% significant reduction in risk of death (HR = 0.75, 95% CI: 0.64-0.90, P = 0.001) for resected [[pancreatic cancer]]
+- Adjuvant chemotherapy provides a 25% significant reduction in risk of death (HR = 0.75, 95% CI: 0.64-0.90, P = 0.001) for resected [[pancreatic-cancer]]
 - Chemoradiation showed no significant difference in risk of death (HR = 1.09, 95% CI: 0.89-1.32, P = 0.43) compared to observation
 - Median survival with chemotherapy was 19.0 months (95% CI: 16.4-21.1) vs 13.5 months (95% CI: 12.2-15.8) without
 - Chemoradiation was more effective in patients with positive resection margins but chemotherapy was less effective in this subgroup

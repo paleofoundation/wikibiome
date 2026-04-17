@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Central reference for [[mycobiome]] and [[fungal dysbiosis]] in [[cardiovascular disease]]
+- Central reference for [[mycobiome]] and [[fungal dysbiosis]] in [[cardiovascular-disease]]
 - *Candida* and *Saccharomyces* findings relevant to [[fungal microbiota]] in CVD
 - Cross-kingdom bacterial-fungal interactions extend [[microbiome-host interactions]]
 - Fungal metabolite pathways complement [[microbiome-derived metabolites]] understanding

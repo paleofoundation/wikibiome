@@ -28,7 +28,7 @@ condition: "autism spectrum disorder"
 **Probiotics (15 studies):**
 - 14 RCTs examined probiotics; most commonly [[Lactobacillus plantarum]] (n=8) and [[bifidobacterium]] species
 - More than half reported no significant behavioral improvements
-- [[Bacteroides fragilis]] BF839 showed significant AuBC score decrease in children with CARS > 30
+- [[bacteroides-fragilis]] BF839 showed significant AuBC score decrease in children with CARS > 30
 - Multi-strain combinations consistently outperformed single strains
 
 **Prebiotics (4 studies):**

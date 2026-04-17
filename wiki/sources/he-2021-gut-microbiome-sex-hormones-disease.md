@@ -35,7 +35,7 @@ platform: wikibiome
 # Connections
 
 - Directly relevant to [[hormonal therapy]] effects on the cardiovascular-microbiome axis
-- Estrogen-microbiome interactions inform sex differences in [[cardiovascular disease]] risk
+- Estrogen-microbiome interactions inform sex differences in [[cardiovascular-disease]] risk
 - Beta-glucuronidase mechanism connects to [[microbiome-host interactions]] and hormone metabolism
 - PCOS and metabolic syndrome overlap with [[comorbidities]] in CVD-microbiome research
 - Androgen regulation of T1D through microbiome relevant to [[microbiome and immune system]] in CVD

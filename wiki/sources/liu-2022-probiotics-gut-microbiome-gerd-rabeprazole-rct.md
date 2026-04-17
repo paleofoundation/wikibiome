@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - Long-term PPI use causes [[gut microbiome]] disturbances including increased *Lactobacillales*, *Enterococcaceae*, *Streptococcaceae*, *Staphylococcaceae*, and decreased *Bifidobacteriaceae*, *Ruminococcaceae*, and *Lachnospiraceae*
-- [[Probiotics]] can reduce the frequency and severity of reflux, heartburn, and dyspepsia in adults with [[GERD]], and reduce gut microbial [[dysbiosis]] in children treated with PPIs
+- [[Probiotics]] can reduce the frequency and severity of reflux, heartburn, and dyspepsia in adults with [[gerd]], and reduce gut microbial [[dysbiosis]] in children treated with PPIs
 - This RCT protocol is the first trial to use intestinal flora metagenomics to analyze effects of probiotics on GERD patients receiving long-term PPI treatment
 - In children treated with PPIs combined with probiotics, only 6.2% developed gut dysbiosis versus 56.2% with placebo after 12 weeks
 - Five of eleven studies in a systematic review indicated probiotics are beneficial for reflux symptoms; three showed probiotics reduce reflux symptoms specifically

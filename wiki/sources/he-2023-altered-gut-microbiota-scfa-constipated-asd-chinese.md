@@ -37,7 +37,7 @@ Integrated 16S rRNA and GC-MS SCFA study comparing **40 constipated ASD (C-ASD) 
 - *Lachnospiraceae_NK4A136_group*, *Ralstonia*
 - *[[Eubacterium eligens]]* group, *[[ruminococcus]] gnavus* group
 - *[[ruminococcus]]_1*, *[[lactobacillus]]*
-- *[[Anaerostipes]]*
+- *[[anaerostipes]]*
 
 ## SCFA Levels (GC-MS)
 

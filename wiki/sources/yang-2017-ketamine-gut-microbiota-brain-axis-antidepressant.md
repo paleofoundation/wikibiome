@@ -25,7 +25,7 @@ evidence_level: animal-model
 - [[Deltaproteobacteria]] were significantly increased in susceptible mice after CSDS; both (R)- and (S)-ketamine significantly decreased the increased levels
 - [[Mollicutes]] were significantly decreased in susceptible mice after CSDS; (R)-ketamine but not (S)-ketamine significantly attenuated the reduced levels
 - (R)-ketamine was more potent than (S)-ketamine at improving the altered composition of [[gut microbiome]] in the CSDS depression model
-- [[Butyricimonas]] was significantly decreased in susceptible mice; both ketamine enantiomers significantly increased Butyricimonas
+- [[butyricimonas]] was significantly decreased in susceptible mice; both ketamine enantiomers significantly increased Butyricimonas
 
 ## Methods/Findings
 

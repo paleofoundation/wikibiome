@@ -16,11 +16,11 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Nickel]] is an essential element for certain biochemical reactions in microorganisms but excess intake contributes to [[dysbiosis]], especially in patients with [[systemic nickel allergy syndrome]]
+- [[nickel]] is an essential element for certain biochemical reactions in microorganisms but excess intake contributes to [[dysbiosis]], especially in patients with [[systemic nickel allergy syndrome]]
 - Nickel-dependent enzymes (urease, hydrogenase, CO-dehydrogenase) in bacteria and lower eukaryotes are critical for microbial metabolism; nickel-binding pathogen growth is favored by nickel availability
 - Excess nickel can cause dysbiosis by increasing harmful microorganisms at the expense of [[probiotics|probiotic bacteria]], affecting host metabolism and contributing to [[obesity]]
-- A [[low-nickel diet]] seems beneficial as an additional therapy during eradication of [[Helicobacter pylori]], which uses nickel for its urease enzyme
-- Nickel exposure may lead to decreased *[[Bifidobacterium]]* and *[[Lactobacillus]]*, with a disturbed ratio of [[Firmicutes]] to [[Bacteroidetes]]
+- A [[low-nickel diet]] seems beneficial as an additional therapy during eradication of [[helicobacter-pylori]], which uses nickel for its urease enzyme
+- Nickel exposure may lead to decreased *[[bifidobacterium]]* and *[[lactobacillus]]*, with a disturbed ratio of [[Firmicutes]] to [[Bacteroidetes]]
 - Children with increased body weight have relatively low proportions of *Bifidobacterium* and high concentrations of *Lactobacillus* spp., connecting nickel-microbiome disruption to metabolic outcomes
 - Some strains of bacteria seem to reduce host exposure to nickel by biosorption or sequestration
 

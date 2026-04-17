@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - The vast quantity of microbial DNA in the gut has been largely ignored in schizophrenia research despite its potential to influence brain function and behavior
-- Gut microbiota produce key neurotransmitters: [[Bifidobacterium]] and [[Lactobacillus]] generate GABA; Bacillus produces dopamine and noradrenaline; [[Escherichia coli]] generates noradrenaline and 5-HT; Clostridium sporogenes decarboxylates tryptophan to tryptamine
+- Gut microbiota produce key neurotransmitters: [[bifidobacterium]] and [[lactobacillus]] generate GABA; Bacillus produces dopamine and noradrenaline; [[escherichia-coli]] generates noradrenaline and 5-HT; Clostridium sporogenes decarboxylates tryptophan to tryptamine
 - Maternal infection during pregnancy is a well-established risk factor for [[schizophrenia]] -- the birth canal exposes newborns to the mother's microbiota, and this colonization plays a fundamental role in early brain development
 - Germ-free mice show exaggerated HPA stress responses, increased hippocampal 5-HT, and altered BDNF levels -- all features relevant to schizophrenia pathophysiology
 - The prenatal famine (Dutch Hunger Winter) was associated with a 2-fold increase in schizophrenia risk, potentially mediated through microbiome disruption

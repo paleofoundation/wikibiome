@@ -17,7 +17,7 @@ evidence_level: mendelian-randomization
 
 ## Key Claims
 
-- Among 850 individual metabolites and 309 metabolite ratios tested, 869 candidate causal association pairs were identified (P_IVW<0.05) for 10 types of esophageal diseases including [[GERD]]
+- Among 850 individual metabolites and 309 metabolite ratios tested, 869 candidate causal association pairs were identified (P_IVW<0.05) for 10 types of esophageal diseases including [[gerd]]
 - After Bonferroni correction, 36 pairs remained significant: 28 metabolites (predominantly lipids and amino acids), 5 metabolite ratios, and 6 types of esophageal diseases, with GERD having the most (110 pairs before correction)
 - For GERD specifically, Hexadecenedioate (C16:1-DC) was found to have a reverse causality with GERD
 - The involved 26 metabolites predominantly consisted of methylated nucleotides, glycine derivatives, sex hormones, phospholipids, [[bile acids]], fatty acid dicarboxylic acid derivatives, and N-acetylated amino acids

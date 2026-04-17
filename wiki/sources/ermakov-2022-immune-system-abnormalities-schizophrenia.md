@@ -16,12 +16,12 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Schizophrenia]] is associated with abnormalities in all immune system components: from innate to adaptive immunity and from humoral to cellular immunity
+- [[schizophrenia]] is associated with abnormalities in all immune system components: from innate to adaptive immunity and from humoral to cellular immunity
 - CRP levels are elevated in blood of patients with schizophrenia (low risk of bias), with prevalence of elevated CRP at 28%; high CRP (>3 mg/L) confers greater risk of psychosis (pooled OR 1.5)
 - Serum pro-inflammatory cytokine levels are elevated: IL-6, IL-1beta, IL-12, TNF-alpha, and TGF-beta are consistently elevated, while IL-2, IL-4, and IL-17 are unchanged
 - IL-8 is elevated not only in serum but also in CSF of first-episode psychosis and chronic schizophrenia patients
 - Soluble CD14 levels are elevated, indicating increased intestinal permeability and bacterial translocation
-- Natural antibodies to gram-negative bacteria, LPS, and [[Saccharomyces cerevisiae]] have been found in schizophrenia patients
+- Natural antibodies to gram-negative bacteria, LPS, and [[saccharomyces-cerevisiae]] have been found in schizophrenia patients
 - Increased expression of NLRP3 and NLRC4 inflammasomes observed in blood, mediating sterile inflammasome activation and [[neuroinflammation]]
 - Antipsychotic treatment significantly affects cytokine levels (low risk of bias)
 

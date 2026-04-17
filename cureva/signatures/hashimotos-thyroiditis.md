@@ -35,7 +35,7 @@ associated_conditions:
     shared_taxa: [lactobacillus, bifidobacterium, proteobacteria]
     shared_ecological: [intestinal-permeability, molecular-mimicry, Th17-Treg-imbalance]
     overlap_score: 0.52
-  - condition: "[[PCOS]]"
+  - condition: "[[pcos]]"
     shared_metals: [iron, zinc, selenium]
     shared_taxa: [lactobacillus, prevotella, bifidobacterium]
     shared_ecological: [hormonal-dysregulation, dysbiosis, SCFA-depletion]
@@ -215,6 +215,8 @@ The HT gut ecosystem is characterized by a self-reinforcing dysbiosis cycle:
 | **Tryptophan supplementation** | Alleviates thyroid damage; rebalances T cell subsets via IDO1-Kyn-AhR axis and PI3K-Akt suppression | **Promising** — preclinical evidence [[zhang-2025-tryptophan-metabolism-hashimotos]] |
 
 ## STOPs
+
+- **[[stop-iodine-supplementation-hashimotos|STOP: Iodine Supplementation for Hashimoto's Thyroiditis]]** — Excess iodine amplifies TPO autoantigen burden, activates the NLRP3 inflammasome, and directly drives the Proteobacteria dysbiosis characteristic of Hashimoto's, creating a feed-forward loop that accelerates thyroid destruction. Evidence: cross-sectional.
 
 | STOP | Conventional Rationale | Why Counterproductive |
 |------|----------------------|----------------------|

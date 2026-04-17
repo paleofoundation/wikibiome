@@ -44,9 +44,9 @@ The genus *Acinetobacter* contains ~50 named species. *A. baumannii* is the prim
 
 Cadmium exposure in *A. baumannii* causes cascading disruption of the cellular metallome:
 
-- [[Zinc]] depletion below detection limits at 15 µM Cd, triggering zinc starvation responses (znuA upregulation).
-- [[Copper]] hyperaccumulation, likely from compensatory upregulation of copper import (oprC).
-- [[Iron]] levels remain unaffected, suggesting metal-specific vulnerability rather than global metal dysregulation.
+- [[zinc]] depletion below detection limits at 15 µM Cd, triggering zinc starvation responses (znuA upregulation).
+- [[copper]] hyperaccumulation, likely from compensatory upregulation of copper import (oprC).
+- [[iron]] levels remain unaffected, suggesting metal-specific vulnerability rather than global metal dysregulation.
 
 This cross-metal toxicity pattern is a model system for understanding how single-metal exposure can dysregulate the entire metallome — a principle with direct relevance to [[mis-metallation]] and to how environmental heavy metal contamination amplifies pathogen virulence.
 

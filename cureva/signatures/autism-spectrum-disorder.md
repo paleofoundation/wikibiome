@@ -78,12 +78,12 @@ A neurodevelopmental condition affecting ~1 in 36 children, characterized by dif
 
 The ASD metallomic signature is distinctive because it is a **metal profile (metallome)**, not a single-metal effect. Changes in one metal trigger parallel changes in others through shared binding sites, transport systems, and competitive interactions [[blazewicz-2023-metal-profiles-asd]].
 
-- **[[Zinc]] depleted**: The most consistent finding. Decreased hair Zn across multiple cohorts. ~10% of the human genome encodes Zn-binding proteins. SHANK3 mutations are among the most common single-gene ASD causes; zinc modulates SHANK3 at the postsynaptic density. Prenatal Zn deficiency causes ASD-like behavior in mice; prenatal zinc therapy prevents VPA-induced ASD-like behaviors. Approximately 20% of dietary zinc may be absorbed by gut bacteria rather than host — microbial competition worsens deficiency.
-- **[[Lead]] elevated**: Elevated in hair, blood, teeth, nails across 25+ studies. Even low blood Pb at ages 7-8 predicts more autistic behaviors at 11-12 [[tizabi-2023-lead-gut-microbiota-asd]]. Pb competes with Ca for GABA/glutamate binding sites, disrupting excitatory/inhibitory balance.
-- **[[Mercury]] elevated**: Elevated in blood, urine, hair, teeth. Children with ASD had double Hg in baby teeth vs. controls. Hg inhibits glutathione, increases ROS.
-- **[[Cadmium]] elevated**: Elevated in hair, urine. Disrupts thiol groups, damages oligodendrocyte progenitors (demyelination), reduces butyrate-producing bacteria.
-- **[[Copper]] elevated (variable)**: Significantly elevated plasma Cu and Cu/Zn ratio in ASD vs. controls [[russo-2011-copper-zinc-autism-gi-disease]]. Zinc therapy normalized Cu levels, especially in ASD+GI disease subgroup.
-- **[[Iron]] depleted**: Co-occurs with zinc deficiency, compounding neurodevelopmental vulnerability.
+- **[[zinc]] depleted**: The most consistent finding. Decreased hair Zn across multiple cohorts. ~10% of the human genome encodes Zn-binding proteins. SHANK3 mutations are among the most common single-gene ASD causes; zinc modulates SHANK3 at the postsynaptic density. Prenatal Zn deficiency causes ASD-like behavior in mice; prenatal zinc therapy prevents VPA-induced ASD-like behaviors. Approximately 20% of dietary zinc may be absorbed by gut bacteria rather than host — microbial competition worsens deficiency.
+- **[[lead]] elevated**: Elevated in hair, blood, teeth, nails across 25+ studies. Even low blood Pb at ages 7-8 predicts more autistic behaviors at 11-12 [[tizabi-2023-lead-gut-microbiota-asd]]. Pb competes with Ca for GABA/glutamate binding sites, disrupting excitatory/inhibitory balance.
+- **[[mercury]] elevated**: Elevated in blood, urine, hair, teeth. Children with ASD had double Hg in baby teeth vs. controls. Hg inhibits glutathione, increases ROS.
+- **[[cadmium]] elevated**: Elevated in hair, urine. Disrupts thiol groups, damages oligodendrocyte progenitors (demyelination), reduces butyrate-producing bacteria.
+- **[[copper]] elevated (variable)**: Significantly elevated plasma Cu and Cu/Zn ratio in ASD vs. controls [[russo-2011-copper-zinc-autism-gi-disease]]. Zinc therapy normalized Cu levels, especially in ASD+GI disease subgroup.
+- **[[iron]] depleted**: Co-occurs with zinc deficiency, compounding neurodevelopmental vulnerability.
 - **[[Glutathione]] depleted**: Hg inhibits GSH; Cd disrupts thiol groups. Acetaminophen, glyphosate, and amoxicillin all deplete GSH/sulfate [[good-2018-acetaminophen-amoxicillin-glyphosate-autism]].
 
 ## Environmental Exposures
@@ -126,16 +126,16 @@ The ASD metallomic signature is distinctive because it is a **metal profile (met
 | Taxon | Role | Evidence |
 |-------|------|---------|
 | [[Bacteroides]] | Produces propionic acid (PPA), the neurotoxic SCFA elevated in ASD | [[tizabi-2023-lead-gut-microbiota-asd]] |
-| [[Parabacteroides]] | Increased in ASD children | [[tizabi-2023-lead-gut-microbiota-asd]] |
-| [[Clostridium]] | Overgrowth enabled by early antibiotic use; beta-glucuronidase producer | [[good-2018-acetaminophen-amoxicillin-glyphosate-autism]], [[tizabi-2023-lead-gut-microbiota-asd]] |
+| [[parabacteroides]] | Increased in ASD children | [[tizabi-2023-lead-gut-microbiota-asd]] |
+| [[clostridium]] | Overgrowth enabled by early antibiotic use; beta-glucuronidase producer | [[good-2018-acetaminophen-amoxicillin-glyphosate-autism]], [[tizabi-2023-lead-gut-microbiota-asd]] |
 
 ### Depleted in ASD
 
 | Taxon | Role | Evidence |
 |-------|------|---------|
-| [[Coprococcus]] | SCFA producer | [[tizabi-2023-lead-gut-microbiota-asd]] |
-| [[Bifidobacterium]] | Immune modulator, commensal | [[tizabi-2023-lead-gut-microbiota-asd]] |
-| [[Lactobacillus]] | Immune regulator; depleted by HSD which induces ASD-like behavior | [[afroz-2021-high-salt-diet-microbiome-autism-behavior-mice]] |
+| [[coprococcus]] | SCFA producer | [[tizabi-2023-lead-gut-microbiota-asd]] |
+| [[bifidobacterium]] | Immune modulator, commensal | [[tizabi-2023-lead-gut-microbiota-asd]] |
+| [[lactobacillus]] | Immune regulator; depleted by HSD which induces ASD-like behavior | [[afroz-2021-high-salt-diet-microbiome-autism-behavior-mice]] |
 
 ### Phylum-Level Shift (Pb-Induced)
 Pb exposure increases Firmicutes and Bacteroidetes (inflammatory) while decreasing Proteobacteria and Fusobacteria. This is time-dependent — more prominent in the first 4 weeks, with compensatory mechanisms developing later.
@@ -166,9 +166,9 @@ High-salt diet altered maternal gut microbiome, transmitted to offspring, caused
 
 | Condition | Shared Metals | Shared Taxa | Shared Ecology | Overlap Score |
 |-----------|--------------|-------------|----------------|---------------|
-| **[[Depression]]** | Zn depleted, Fe | F. prausnitzii depl., Lachnospiraceae depl. | Gut barrier, oxidative stress, tryptophan | 0.55 |
-| **[[Schizophrenia]]** | Cu, Zn dysregulated | E. coli, Lachnospiraceae depl. | Gut barrier, neuroinflammation, gut-brain | 0.50 |
-| **[[Type 1 Diabetes]]** | Zn depleted, Pb, Cd | Bacteroides enriched, Bifidobacterium depl. | Gut barrier, autoimmunity, early-life dysbiosis | 0.48 |
+| **[[depression]]** | Zn depleted, Fe | F. prausnitzii depl., Lachnospiraceae depl. | Gut barrier, oxidative stress, tryptophan | 0.55 |
+| **[[schizophrenia]]** | Cu, Zn dysregulated | E. coli, Lachnospiraceae depl. | Gut barrier, neuroinflammation, gut-brain | 0.50 |
+| **[[type-1-diabetes]]** | Zn depleted, Pb, Cd | Bacteroides enriched, Bifidobacterium depl. | Gut barrier, autoimmunity, early-life dysbiosis | 0.48 |
 
 ## Validated Interventions
 

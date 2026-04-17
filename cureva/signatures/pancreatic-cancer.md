@@ -232,6 +232,8 @@ The gut virome adds a third biological kingdom to the signature:
 
 ## STOPs
 
+- **[[stop-diagnostic-overclaiming-discovery-phase|STOP: Diagnostic Overclaiming from Discovery-Phase Microbiome Data (Pancreatic Cancer)]]** — The current PDAC microbiome evidence base is almost entirely discovery-phase with no validated prospective diagnostic utility; practitioners who use microbiome signatures to screen for or rule out PDAC risk false reassurance and unnecessary intervention in healthy patients. Evidence: prospective-cohort.
+
 | STOP | Why It Matters |
 |------|---------------|
 | **Do not overclaim diagnostic utility from discovery-phase biomarkers** | The Zn isotope fractionation AUC 0.99 (Schilling 2020, n=67) and Aspergillus salivary AUC 0.983 (Wei 2022) are **discovery-phase results**. Discovery AUCs routinely degrade 10-20% upon external validation. These are hypothesis-generating, not clinically actionable diagnostic thresholds. Prospective validation in independent, adequately powered cohorts is required before any clinical deployment. Practitioners should NOT present these as validated diagnostic tests to patients. |

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Fecal [[microbiome]] signatures can discriminate between [[pancreatic cancer]] patients and controls, with a Random Forest model achieving AUC of 82.5%
+- Fecal [[microbiome]] signatures can discriminate between [[pancreatic-cancer]] patients and controls, with a Random Forest model achieving AUC of 82.5%
 - Fourteen bacterial features discriminated between PC and controls, with several shared with findings from a Chinese cohort
 - Bile duct obstruction is a significant confounding factor affecting PC-associated [[microbial biomarkers]], requiring careful consideration in biomarker studies
 - Only a small part of PC-associated microbial signals were observed in patients with pre-cancerous lesions, challenging early detection utility

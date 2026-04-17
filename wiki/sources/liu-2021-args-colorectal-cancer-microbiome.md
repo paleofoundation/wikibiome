@@ -16,7 +16,7 @@ platform: wikibiome
 
 - CRC patients harbor significantly enriched [[antibiotic resistance genes]] (ARGs) in their gut microbiota: 25 species and 65 ARGs were significantly enriched compared to healthy controls
 - 12 multidrug-resistant genes (MRGs) were enriched in CRC, mainly including acrB, TolC, marA, E. coli acrR mutation, and AcrS, conferring resistance to fluoroquinolones, tetracyclines, cephalosporins, and rifamycin antibiotics
-- [[Escherichia coli]] is the primary antibiotic resistance reservoir in CRC patients; 90% of rSGB-sourced ARGs (45 of 50) were found in E. coli
+- [[escherichia-coli]] is the primary antibiotic resistance reservoir in CRC patients; 90% of rSGB-sourced ARGs (45 of 50) were found in E. coli
 - CRC patients had higher ARG diversity (Shannon-Wiener index H', P < 0.001) and higher beta diversity of ARGs (NMDS, PERMANOVA P = 0.01, R = 0.0058) compared to controls
 - A classification model using species and ARG abundance achieved AUC of 0.831 and 0.715 respectively, suggesting potential as CRC biomarkers
 

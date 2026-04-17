@@ -18,7 +18,7 @@ platform: wikibiome
 
 - Re-analysis of 7 geographically diverse 16S rRNA studies (524 total subjects: 257 MS, 267 controls) identified 15 genera significantly different between MS and controls after controlling for study effect
 - [[prevotella]] was decreased in MS across 4 of 7 studies and was the most consistently MS-associated taxon regardless of geographical location (USA, Japan, China)
-- Higher abundance of [[Actinomyces]] and lower [[faecalibacterium-prausnitzii]] were reproducibly associated with MS; *Actinomyces* and *Faecalibacterium* were consistently identified in every iteration of leave-one-out analysis
+- Higher abundance of [[actinomyces]] and lower [[faecalibacterium-prausnitzii]] were reproducibly associated with MS; *Actinomyces* and *Faecalibacterium* were consistently identified in every iteration of leave-one-out analysis
 - The *Bacteroides*-*Prevotella* negative correlation network present in healthy controls was completely disrupted in MS patients, suggesting fundamental restructuring of microbial ecological networks
 - Alpha and beta diversity did not consistently differ between MS and controls, but "study" factor accounted for 19.17% of total microbiota variance, highlighting the importance of controlling for technical variables
 

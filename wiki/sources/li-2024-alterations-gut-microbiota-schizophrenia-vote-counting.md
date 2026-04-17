@@ -17,8 +17,8 @@ platform: wikibiome
 
 - Systematic search and vote counting analysis of 30 clinical studies (2,001 [[schizophrenia]] patients, 1,694 controls) to identify consistently altered gut microbial taxa
 - No strong evidence for consistent alpha- or beta-diversity differences across studies (only 8.8% showed significant alpha-diversity changes)
-- 8 taxa consistently UP-regulated in schizophrenia: Proteobacteria, Gammaproteobacteria, [[Lactobacillaceae]], [[Enterobacteriaceae]], [[Lactobacillus]], Succinivibrio, [[Prevotella]], Acidaminococcus
-- 5 taxa consistently DOWN-regulated: Fusicatenibacter, [[Faecalibacterium prausnitzii]], [[Roseburia]], [[Coprococcus]], Anaerosstipes
+- 8 taxa consistently UP-regulated in schizophrenia: Proteobacteria, Gammaproteobacteria, [[Lactobacillaceae]], [[enterobacteriaceae]], [[lactobacillus]], Succinivibrio, [[prevotella]], Acidaminococcus
+- 5 taxa consistently DOWN-regulated: Fusicatenibacter, [[faecalibacterium-prausnitzii]], [[roseburia]], [[coprococcus]], Anaerosstipes
 - Gut microbial changes characterized by depletion of anti-inflammatory butyrate-producing genera and enrichment of opportunistic bacteria
 - 88 candidate microbiota reported in 3+ datasets; 13 showed consistent directional changes via vote counting
 - Subgroup analyses by disease severity: only Fusicatenibacter remained significantly dysregulated in moderately ill patients

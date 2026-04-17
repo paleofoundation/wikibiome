@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Glutamate]] was identified as causally increasing [[GERD]] risk through omics [[Mendelian randomization]], with a combined meta-analysis OR of 1.227 (95% CI 1.068-1.411, P=0.043) across Finnish and UK databases
+- [[Glutamate]] was identified as causally increasing [[gerd]] risk through omics [[Mendelian randomization]], with a combined meta-analysis OR of 1.227 (95% CI 1.068-1.411, P=0.043) across Finnish and UK databases
 - Glutamate may exacerbate GERD progression through mechanisms including impacting the nervous system and promoting [[inflammatory response]]s
 - Analysis of 20 amino acids using data from Finngen and UK Biobank databases found only glutamate showed consistent positive causal association across multiple MR methods
 - Reverse validation confirmed the direction: GERD as exposure showed P=0.059 in Finngen and P=1.433 in IEU database, suggesting no significant reverse causation

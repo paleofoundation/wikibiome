@@ -23,8 +23,8 @@ evidence_level: cross-sectional
 - The intestinal microbiota of untreated [[graves-disease]] (GD) patients is significantly altered compared to healthy controls, with reduced alpha diversity (Shannon, Simpson indices, P < 0.05)
 - [[bifidobacterium]] abundance is positively correlated with TRAb (r=0.588, P=0.002), TGAb (r=0.463, P=0.023), suggesting it may be involved in the immune process of GD
 - After [[methimazole]] treatment and thyroid function recovery, gut microbiota diversity significantly improved, indicating the relationship between thyroid function and microbiome composition is bidirectional
-- [[Collinsella]] was significantly higher in untreated GD patients compared to both controls and treated patients
-- [[Synergistetes]] and [[Phascolarctobacterium]] were protective (negatively correlated with TRAb, TGAb, TPOAb), while [[ruminococcus]] and [[lactobacillus]] correlated positively with TRAb
+- [[collinsella]] was significantly higher in untreated GD patients compared to both controls and treated patients
+- [[Synergistetes]] and [[phascolarctobacterium]] were protective (negatively correlated with TRAb, TGAb, TPOAb), while [[ruminococcus]] and [[lactobacillus]] correlated positively with TRAb
 
 ## Methods/Findings
 
@@ -41,7 +41,7 @@ evidence_level: cross-sectional
 ## Connections
 
 - Bifidobacterium-TRAb positive correlation aligns with [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] finding of Bifidobacterium as GD risk factor
-- Collinsella enrichment in GD parallels its role in other autoimmune conditions ([[Rheumatoid Arthritis]], [[Type 1 Diabetes]])
+- Collinsella enrichment in GD parallels its role in other autoimmune conditions ([[rheumatoid-arthritis]], [[type-1-diabetes]])
 - Post-methimazole microbiome recovery relevant to [[han-2022-berberine-methimazole-graves-microbiome]] berberine combination approach
 - Synergistetes protective role and negative correlation with thyroid antibodies connects to immune regulation
 - Reduced alpha diversity in GD consistent with patterns in autoimmune diseases

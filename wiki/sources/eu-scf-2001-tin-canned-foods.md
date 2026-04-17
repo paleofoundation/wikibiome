@@ -34,7 +34,7 @@ platform: wikibiome
 
 ## Connections
 
-- [[Tin]] - primary subject; inorganic tin toxicology in food
+- [[tin]] - primary subject; inorganic tin toxicology in food
 - - regulatory limits for tin in canned foods
 - - unlacquered tinplate cans as source of tin leaching
 - - complements this with comprehensive toxicological data

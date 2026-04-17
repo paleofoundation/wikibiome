@@ -99,9 +99,9 @@ A severe neuropsychiatric disorder affecting ~1% of the global population, with 
 
 The metallomic signature centers on **copper/zinc ratio dysregulation**:
 
-- **[[Copper]] elevated**: Serum copper and ceruloplasmin-bound copper consistently elevated across multiple cohorts. The Cu/Zn ratio correlates with symptom severity. Ceruloplasmin-bound copper serves as an oxidative stress marker, driving Fenton-like chemistry in dopaminergic circuits.
-- **[[Zinc]] depleted**: Functionally depleted at the synapse even when total body zinc appears adequate. Zinc is an endogenous positive allosteric modulator of NMDA receptors — its displacement by copper provides a metallomic substrate for the NMDA hypofunction hypothesis.
-- **[[Iron]] implicated**: Iron as a cofactor in IDO/TDO enzymes controlling tryptophan catabolism ([[huang-2021-tryptophan-metabolites-working-memory-cortical-thickness-schizophrenia]], cross-sectional, n=265). Iron-catalyzed Fenton chemistry amplifies oxidative damage. Polyphenol iron chelation shows therapeutic promise [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
+- **[[copper]] elevated**: Serum copper and ceruloplasmin-bound copper consistently elevated across multiple cohorts. The Cu/Zn ratio correlates with symptom severity. Ceruloplasmin-bound copper serves as an oxidative stress marker, driving Fenton-like chemistry in dopaminergic circuits.
+- **[[zinc]] depleted**: Functionally depleted at the synapse even when total body zinc appears adequate. Zinc is an endogenous positive allosteric modulator of NMDA receptors — its displacement by copper provides a metallomic substrate for the NMDA hypofunction hypothesis.
+- **[[iron]] implicated**: Iron as a cofactor in IDO/TDO enzymes controlling tryptophan catabolism ([[huang-2021-tryptophan-metabolites-working-memory-cortical-thickness-schizophrenia]], cross-sectional, n=265). Iron-catalyzed Fenton chemistry amplifies oxidative damage. Polyphenol iron chelation shows therapeutic promise [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
 - **[[Glutathione]] depleted**: Total antioxidant capacity reduced; malondialdehyde elevated — consistent with overwhelming oxidative burden ([[ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct]], RCT, n=60).
 
 ## Environmental Exposures
@@ -133,7 +133,7 @@ The host mounts a robust but maladaptive inflammatory response:
 
 ## Mis-metallation Events
 
-**[[Copper]] displacing [[zinc]]** from zinc-finger transcription factors, NMDA receptor subunits (NR2A/NR2B), and GABAergic interneuron proteins. This creates functional zinc deficiency at the synapse — the NMDA hypofunction hypothesis may have a metallomic substrate. NMDA antagonists (PCP, ketamine) reproduce the full schizophrenia symptom spectrum, and zinc is an endogenous positive allosteric modulator of these receptors.
+**[[copper]] displacing [[zinc]]** from zinc-finger transcription factors, NMDA receptor subunits (NR2A/NR2B), and GABAergic interneuron proteins. This creates functional zinc deficiency at the synapse — the NMDA hypofunction hypothesis may have a metallomic substrate. NMDA antagonists (PCP, ketamine) reproduce the full schizophrenia symptom spectrum, and zinc is an endogenous positive allosteric modulator of these receptors.
 
 **Iron and zinc as IDO/TDO cofactors**: Mis-metallation could alter tryptophan pathway flux, contributing to the kynurenine shunting observed in schizophrenia ([[huang-2021-tryptophan-metabolites-working-memory-cortical-thickness-schizophrenia]], cross-sectional, n=265).
 
@@ -147,12 +147,12 @@ The host mounts a robust but maladaptive inflammatory response:
 
 | Taxon | Metal Dependencies | Key Features | Pathogenic Role |
 |-------|-------------------|--------------|-----------------|
-| [[Lactobacillus]] | — | Lactic acid producer | Enriched across 30+ studies; may reflect medication effects or ecological imbalance ([[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]], SR) |
-| [[Prevotella]] | Iron | Succinate/propionate | Enriched in aggressive subtype; associated with carbohydrate-rich diets [[deng-2022-gut-microbiota-metabolites-aggression-schizophrenia]] |
+| [[lactobacillus]] | — | Lactic acid producer | Enriched across 30+ studies; may reflect medication effects or ecological imbalance ([[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]], SR) |
+| [[prevotella]] | Iron | Succinate/propionate | Enriched in aggressive subtype; associated with carbohydrate-rich diets [[deng-2022-gut-microbiota-metabolites-aggression-schizophrenia]] |
 | Enterobacteriaceae | Iron (siderophores) | LPS production, facultative anaerobes | Bloom indicates ecological disruption and gut barrier dysfunction [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]] |
-| [[Streptococcus]] (S. vestibularis) | Manganese | — | **Causal evidence**: transplantation into mice induced social behavior deficits ([[zhu-2020-metagenome-wide-gut-microbiome-schizophrenia]], n=171) |
-| [[Veillonella]] | — | Lactate fermenter | Enriched in both gut and oral niches ([[li-2021-gut-microbiome-brain-structure-function-schizophrenia]], [[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]]) |
-| [[Candida albicans]] | Iron, zinc | Pathobiont fungus | Correlated with IL-6 and immune dysfunction ([[ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome]], n=210) |
+| [[streptococcus]] (S. vestibularis) | Manganese | — | **Causal evidence**: transplantation into mice induced social behavior deficits ([[zhu-2020-metagenome-wide-gut-microbiome-schizophrenia]], n=171) |
+| [[veillonella]] | — | Lactate fermenter | Enriched in both gut and oral niches ([[li-2021-gut-microbiome-brain-structure-function-schizophrenia]], [[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]]) |
+| [[candida-albicans]] | Iron, zinc | Pathobiont fungus | Correlated with IL-6 and immune dysfunction ([[ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome]], n=210) |
 | Trichosporon asahii | — | Pathobiont fungus | Positively associated with IL-6 and MIP-1alpha [[ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome]] |
 | Purpureocillium | — | Cytotoxic fungus | Negatively correlated with cognition; depletes ergothioneine ([[yuan-2025-purpureocillium-amino-acid-metabolism-cognitive-schizophrenia]], n=228) |
 
@@ -160,12 +160,12 @@ The host mounts a robust but maladaptive inflammatory response:
 
 | Taxon | Normal Function | Why Lost |
 |-------|----------------|----------|
-| [[Faecalibacterium prausnitzii]] | Major butyrate producer; IL-10 induction; NF-kB suppression | Lost competitive advantage in inflamed, barrier-compromised gut; hallmark depletion across 4+ studies |
-| [[Roseburia]] | Butyrate producer | Depletion correlated with reduced brain regional homogeneity on fMRI ([[li-2021-gut-microbiome-brain-structure-function-schizophrenia]], n=76) |
-| [[Coprococcus]] | Butyrate/propionate producer | Consistently depleted across multiple cohorts |
-| [[Blautia]] | Acetate/butyrate producer | Depleted in both drug-naive and aggressive subtypes ([[yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia]], [[deng-2022-gut-microbiota-metabolites-aggression-schizophrenia]]) |
-| [[Saccharomyces cerevisiae]] | Anti-inflammatory fungus | Negatively correlated with IL-6; loss removes protective mycobiome anchor [[ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome]] |
-| [[Bifidobacterium]] | SCFA production; immune modulation; heavy metal binding | Depleted in aggressive subtype [[deng-2022-gut-microbiota-metabolites-aggression-schizophrenia]] |
+| [[faecalibacterium-prausnitzii]] | Major butyrate producer; IL-10 induction; NF-kB suppression | Lost competitive advantage in inflamed, barrier-compromised gut; hallmark depletion across 4+ studies |
+| [[roseburia]] | Butyrate producer | Depletion correlated with reduced brain regional homogeneity on fMRI ([[li-2021-gut-microbiome-brain-structure-function-schizophrenia]], n=76) |
+| [[coprococcus]] | Butyrate/propionate producer | Consistently depleted across multiple cohorts |
+| [[blautia]] | Acetate/butyrate producer | Depleted in both drug-naive and aggressive subtypes ([[yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia]], [[deng-2022-gut-microbiota-metabolites-aggression-schizophrenia]]) |
+| [[saccharomyces-cerevisiae]] | Anti-inflammatory fungus | Negatively correlated with IL-6; loss removes protective mycobiome anchor [[ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome]] |
+| [[bifidobacterium]] | SCFA production; immune modulation; heavy metal binding | Depleted in aggressive subtype [[deng-2022-gut-microbiota-metabolites-aggression-schizophrenia]] |
 
 **Phylum-level shift**: Firmicutes significantly decreased; Bacteroidetes and Proteobacteria enriched ([[yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s]], n=100). The Firmicutes depletion reflects the collective loss of butyrate-producing genera.
 
@@ -213,10 +213,10 @@ Schizophrenia shares substantial microbiome signature overlap with other neurops
 
 | Condition | Shared Metals | Shared Taxa | Shared Ecology | Overlap Score |
 |-----------|--------------|-------------|----------------|---------------|
-| **[[Depression]]** | Cu, Zn | Clostridium, E. coli, Lachnospiraceae (depleted) | SCFA depletion, gut barrier dysfunction, kynurenine shunting | 0.68 |
-| **[[Alzheimer's Disease]]** | Cu, Zn dysregulated | E. coli, Lachnospiraceae (depleted), Candida | Neuroinflammation, gut barrier dysfunction | 0.55 |
-| **[[Parkinson's Disease]]** | Fe, Mn, Pb | Enterobacteriaceae, Lachnospiraceae (depleted), Prevotella | SCFA depletion, neuroinflammation | 0.52 |
-| **[[Multiple Sclerosis]]** | Pb, Cd | Lachnospiraceae (depleted), Candida, Streptococcus | Gut barrier dysfunction, Th17/Treg imbalance | 0.45 |
+| **[[depression]]** | Cu, Zn | Clostridium, E. coli, Lachnospiraceae (depleted) | SCFA depletion, gut barrier dysfunction, kynurenine shunting | 0.68 |
+| **[[alzheimers-disease]]** | Cu, Zn dysregulated | E. coli, Lachnospiraceae (depleted), Candida | Neuroinflammation, gut barrier dysfunction | 0.55 |
+| **[[parkinsons-disease]]** | Fe, Mn, Pb | Enterobacteriaceae, Lachnospiraceae (depleted), Prevotella | SCFA depletion, neuroinflammation | 0.52 |
+| **[[multiple-sclerosis]]** | Pb, Cd | Lachnospiraceae (depleted), Candida, Streptococcus | Gut barrier dysfunction, Th17/Treg imbalance | 0.45 |
 
 ## Validated Interventions
 

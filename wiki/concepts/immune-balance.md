@@ -64,7 +64,7 @@ The gut microbiome is the largest immune organ by proxy:
 | [[Hashimotos-thyroiditis]] | Th1 dominant | Se deficiency, excess I | Molecular mimicry with thyroid peroxidase |
 | [[Rheumatoid-arthritis]] | Th17 dominant | Cd, Pb exposure | Prevotella copri enrichment |
 | [[Asthma]] | Th2 dominant | Ni aerosol, Cd inhalation | Reduced microbial diversity |
-| [[Depression]] | Neuroinflammation (IL-6, TNF-alpha) | Zn depletion, Cu excess | Coprococcus depletion, IDO activation |
+| [[depression]] | Neuroinflammation (IL-6, TNF-alpha) | Zn depletion, Cu excess | Coprococcus depletion, IDO activation |
 
 ## The Metal-Microbiome-Immune Triangle
 

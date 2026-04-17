@@ -41,10 +41,10 @@ why_keystone: "Maps mineral-specific immunomodulation in autoimmune thyroid dise
 - There is currently no effective pharmacological therapy for [[autoimmune thyroid disease]] (AITD); treatment remains symptomatic with synthetic TG or thyrostatics
 - Thyroid hormones (TG) and minerals play important immunomodulating roles in both innate and adaptive immunity relevant to AITD
 - [[selenium]] supplementation reduces anti-TPO antibodies, increases GPx and TR enzyme activity, and decreases oxidative stress markers in [[Hashimoto's thyroiditis]]
-- [[Iodine]] deficiency and excess both serve as risk factors for AITD; careful monitoring of iodine prophylaxis is essential
+- [[iodine]] deficiency and excess both serve as risk factors for AITD; careful monitoring of iodine prophylaxis is essential
 - [[zinc]] is necessary for thymus hormone thymulin activation, T cell differentiation, and melatonin receptor expression; Zn deficiency impairs immune function
 - [[iron]] deficiency decreases TPO activity and is associated with increased autoantibodies (TPOAb, TgAb) in autoimmune thyroiditis
-- [[Magnesium]] exhibits immunomodulating effects through NF-kB, IL-6, TNF-a regulation and is important for mTOR pathway regulation
+- [[magnesium]] exhibits immunomodulating effects through NF-kB, IL-6, TNF-a regulation and is important for mTOR pathway regulation
 - [[Calcium]] influences CD8+ T cell apoptosis, Treg regulation, and BAFF/B-cell activation via mTOR pathway
 - The immunomodulating targets of minerals in AITD include normalization of neutrophil function, reduction of ROS, and suppression of pro-inflammatory cytokines
 

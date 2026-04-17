@@ -17,8 +17,8 @@ platform: wikibiome
 
 - Pilot study in 10 [[schizophrenia]] patients vs 10 controls using shotgun metagenome sequencing and plasma neurotransmitter/BDNF measurement
 - Butyrate-producing bacteria were enriched in healthy controls, while succinate-producing bacteria (Phascolarctobacterium succinatutens and Paraprevotella clara) were enriched in SCZ
-- [[Alistipes]] indistinctus, Dorea longicatena, and [[Roseburia]] inulinivorans were negatively correlated with dopamine levels
-- Roseburia intestinalis and [[Parabacteroides]] goldsteinii were negatively correlated with serotonin and BDNF levels respectively
+- [[alistipes]] indistinctus, Dorea longicatena, and [[roseburia]] inulinivorans were negatively correlated with dopamine levels
+- Roseburia intestinalis and [[parabacteroides]] goldsteinii were negatively correlated with serotonin and BDNF levels respectively
 - Lipid biosynthesis pathways were enriched in SCZ microbiota; phospholipid pathways linked with butyrate-producing bacteria were enriched in controls
 - Significant correlation found between dopamine and serotonin levels, and the super-pathway of purine deoxyribonucleoside degradation
 - Results support that gut microbiome-targeted therapies may help rebalance neurotransmitter levels

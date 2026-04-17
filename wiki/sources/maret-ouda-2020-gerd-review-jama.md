@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[GERD]] affects approximately 20% of the adult population in high-income countries, defined by recurrent troublesome heartburn and regurgitation or GERD-specific complications
+- [[gerd]] affects approximately 20% of the adult population in high-income countries, defined by recurrent troublesome heartburn and regurgitation or GERD-specific complications
 - Obesity, tobacco smoking, and genetic predisposition are established risk factors; H. pylori infection may decrease GERD risk through gastric atrophy reducing acid production
 - A meta-analysis of 27 studies showed H. pylori eradication increases reflux esophagitis risk (relative risk 1.46, 95% CI 1.16-1.84)
 - Up to 70% of patients with typical GERD symptoms have normal endoscopic findings; the Lyon Consensus (2018) defined conclusive evidence as LA grade C/D esophagitis, Barrett's esophagus, or peptic strictures

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[GERD]] pathophysiology is complex and multifactorial, involving LES dysfunction, transient lower esophageal sphincter relaxations (TLESRs), esophageal motility disorders, [[hiatal hernia]], and impaired mucosal barrier function
+- [[gerd]] pathophysiology is complex and multifactorial, involving LES dysfunction, transient lower esophageal sphincter relaxations (TLESRs), esophageal motility disorders, [[hiatal hernia]], and impaired mucosal barrier function
 - Up to 70% of patients with typical GERD symptoms have normal endoscopic findings, highlighting the diagnostic challenge and need for advanced techniques
 - The microbiome has emerged as a potential target in GERD pathogenesis and as a therapeutic target, connecting [[dysbiosis]] to disease development
 - Novel treatment strategies include potassium-competitive acid blockers, endoscopic therapies, and minimally invasive surgical techniques beyond traditional PPIs

@@ -15,7 +15,7 @@ condition: "autism spectrum disorder"
 
 # Overview
 
-Characterization of both **bacterial and fungal (mycobiota) gut communities** in 40 autistic vs 40 neurotypical Italian subjects using amplicon-based metataxonomic sequencing of 16S rRNA (V3-V5) and fungal ITS1. Found altered Firmicutes/Bacteroidetes ratio, enrichment of [[lactobacillus]], [[Collinsella]], [[Corynebacterium]], and notably a trend toward doubled [[candida-albicans]] abundance in ASD. First study to characterize gut mycobiota in ASD.
+Characterization of both **bacterial and fungal (mycobiota) gut communities** in 40 autistic vs 40 neurotypical Italian subjects using amplicon-based metataxonomic sequencing of 16S rRNA (V3-V5) and fungal ITS1. Found altered Firmicutes/Bacteroidetes ratio, enrichment of [[lactobacillus]], [[collinsella]], [[Corynebacterium]], and notably a trend toward doubled [[candida-albicans]] abundance in ASD. First study to characterize gut mycobiota in ASD.
 
 # Key Findings
 
@@ -27,16 +27,16 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 
 ### Enriched in ASD (LEfSe, LDA > 2.0)
 - **[[lactobacillus]]**
-- **[[Collinsella]]**
+- **[[collinsella]]**
 - **[[Corynebacterium]]**
-- **[[Dorea]]**
+- **[[dorea]]**
 
 ### Depleted in ASD
-- **[[Alistipes]]**
-- **[[Bilophila]]**
-- **[[Dialister]]**
-- **[[Parabacteroides]]**
-- **[[Veillonella]]**
+- **[[alistipes]]**
+- **[[bilophila]]**
+- **[[dialister]]**
+- **[[parabacteroides]]**
+- **[[veillonella]]**
 
 ### Constipation Effects
 - [[Escherichia/Shigella]] and [[Clostridium cluster XVIII]] significantly more abundant in constipated ASD (FDR p < 0.05)
@@ -51,13 +51,13 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 - Constipation significantly affected fungal beta diversity in NT but not ASD
 
 ### Key Fungal Genera
-- **[[Aspergillus]]**: 24.2% AD vs 28% NT
+- **[[aspergillus]]**: 24.2% AD vs 28% NT
 - **[[candida-albicans]]**: 37.7% AD vs 23.5% NT (>2x in ASD, but high dispersion; uncorrected p = 0.006, FDR p = 0.09)
 - **[[Penicillium]]**: 13.2% AD vs 23.5% NT
-- **[[Malassezia]]**: 3.05% AD vs 3.3% NT
+- **[[malassezia]]**: 3.05% AD vs 3.3% NT
 
 ### Candida Correlations
-- [[candida-albicans]] abundance positively correlated with fungal genera [[Aspergillus]] and [[Malassezia]]
+- [[candida-albicans]] abundance positively correlated with fungal genera [[aspergillus]] and [[malassezia]]
 - Negative correlation with [[bifidobacterium]] in neurotypical individuals (Spearman's r = 0.6, FDR p = 0.004)
 
 ## Severity Findings
@@ -74,7 +74,7 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 - [[candida-albicans]] overgrowth shifts indoleamine 2,3-dioxygenase activity, reducing [[kynurenine]] (a neuroprotective agent) — this enzyme is [[iron]]-dependent
 - [[lactobacillus]] enrichment — this genus binds heavy metals on cell surfaces
 - Firmicutes/Bacteroidetes ratio shift linked to altered [[SCFA]] production
-- [[Collinsella]] enrichment — associated with altered [[bile acid]] metabolism
+- [[collinsella]] enrichment — associated with altered [[bile acid]] metabolism
 
 # Methodological Notes
 

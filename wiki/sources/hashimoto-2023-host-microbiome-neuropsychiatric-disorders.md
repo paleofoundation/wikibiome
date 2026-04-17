@@ -18,10 +18,10 @@ platform: wikibiome
 
 - The host microbiota resides in multiple body sites (oral, nasal, lung, gut, skin, bladder, vagina) and all may potentially influence [[neuropsychiatric disorders]]
 - The [[gut microbiome]] has received particular attention due to high abundance and potential role in psychiatric and neurodegenerative disorders
-- [[Oral microbiome]] alterations have been detected in the brains of patients with [[Alzheimer's disease]] and [[Parkinson's disease]] using postmortem brain samples
+- [[Oral microbiome]] alterations have been detected in the brains of patients with [[alzheimers-disease]] and [[parkinsons-disease]] using postmortem brain samples
 - In subjects with mild cognitive impairment (MCI), higher levels of [[Pasterellaceae]] were observed compared to cognitively normal controls, and Pasterellaceae was associated with inflammatory markers in CSF
 - Periodontal disease patients show dysbiosis that can contribute to neuropsychiatric symptoms; salivary microbiome in schizophrenia shows higher alpha-diversity
-- [[Depression]] is a common psychiatric symptom in patients with [[skin diseases]] including [[psoriasis]], and skin microbiota alterations may influence mood through inflammatory pathways
+- [[depression]] is a common psychiatric symptom in patients with [[skin diseases]] including [[psoriasis]], and skin microbiota alterations may influence mood through inflammatory pathways
 
 ## Methods/Findings
 

@@ -20,7 +20,7 @@ confidence:
 
 # Cross-condition pattern detection
 associated_conditions:
-  - condition: "[[PCOS]]"
+  - condition: "[[pcos]]"
     shared_metals: [nickel, iron, zinc]
     shared_taxa: [escherichia-coli, bacteroides-fragilis, lachnospiraceae]
     shared_ecological: [estrogen-recirculation, dysbiosis, hormonal-dysregulation]

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Chenodeoxycholic acid (CDCA), a naturally-occurring primary [[bile acid]], effectively inhibits the oncogenic [[Bacteroides fragilis]] toxin (BFT), a metalloprotease that drives E-cadherin cleavage and CRC development
+- Chenodeoxycholic acid (CDCA), a naturally-occurring primary [[bile acid]], effectively inhibits the oncogenic [[bacteroides-fragilis]] toxin (BFT), a metalloprotease that drives E-cadherin cleavage and CRC development
 - CDCA directly interacts with recombinant BFT-1 protein, confirmed by thermal shift assay (delta-Tm = 1.10 at 85 uM, 2.10 at 175 uM; P < 0.0001)
 - BFT inhibition by CDCA reduces E-cadherin cleavage (18% for BFT-1, 15% for BFT-3) and IL-8 secretion (67% and 69% reduction at 175 uM) in HT29/c1 colonic epithelial cells
 - The in silico drug discovery pipeline combining KRIPO structure-based pharmacophore fingerprinting and MOE molecular docking identified 12 candidate inhibitors from 476 screened compounds

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- *[[Streptococcus thermophilus]]* strain ST285 shifts the immune response from pro-inflammatory Th1 to anti-inflammatory Th2 phenotype in MBP83-99-immunized SJL/J mice
+- *[[streptococcus-thermophilus]]* strain ST285 shifts the immune response from pro-inflammatory Th1 to anti-inflammatory Th2 phenotype in MBP83-99-immunized SJL/J mice
 - ST285 significantly increased anti-inflammatory cytokines [[IL-4]], [[IL-5]], and [[IL-10]] while decreasing pro-inflammatory [[IFN-gamma]] and [[IL-1beta]]
 - The Th1-to-Th2 shift suggests ST285 could be beneficial for managing autoimmune conditions like [[multiple-sclerosis]]
 

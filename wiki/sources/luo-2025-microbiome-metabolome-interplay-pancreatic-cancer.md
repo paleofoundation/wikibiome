@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- The predominant intratumoral microbiome species in [[pancreatic cancer]] is *Pseudomonas*, with significant differences in alpha and beta diversity between tumor and adjacent normal tissues
+- The predominant intratumoral microbiome species in [[pancreatic-cancer]] is *Pseudomonas*, with significant differences in alpha and beta diversity between tumor and adjacent normal tissues
 - Untargeted [[metabolomics]] identified 298 metabolites significantly altered in PC (fold change >1.5, P < 0.05), with amino acid metabolites (Lys-Leu, Pro-Leu, Arg-Leu, etc.) prominently dysregulated
 - KEGG pathway analysis highlighted glycine, serine, and threonine metabolism; alanine, aspartate, and glutamate metabolism; and amino acid biosynthesis as key altered pathways
 - Correlation analysis revealed significant associations between *Pseudomonas* abundance and several metabolites including alpha-ketoisovaleric acid, 16-hydroxyhexadecanoic acid, and myristic acid

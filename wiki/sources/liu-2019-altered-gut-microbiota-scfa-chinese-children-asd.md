@@ -15,7 +15,7 @@ condition: "autism spectrum disorder"
 
 # Overview
 
-Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and 20 neurotypical Chinese children** (mean age ~4.3 years). Found **lower fecal acetic acid and butyrate but higher valeric acid** in ASD, decreased abundances of key butyrate-producing taxa ([[Ruminococcaceae]], [[Eubacterium]], [[Lachnospiraceae]], [[Erysipelotrichaceae]]), and increased abundance of valeric acid-associated bacteria ([[Acidobacteria]], [[Enterobacteriaceae]]).
+Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and 20 neurotypical Chinese children** (mean age ~4.3 years). Found **lower fecal acetic acid and butyrate but higher valeric acid** in ASD, decreased abundances of key butyrate-producing taxa ([[Ruminococcaceae]], [[eubacterium]], [[lachnospiraceae]], [[Erysipelotrichaceae]]), and increased abundance of valeric acid-associated bacteria ([[Acidobacteria]], [[enterobacteriaceae]]).
 
 # Key Findings
 
@@ -34,13 +34,13 @@ Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and
 - Higher **Firmicutes/Bacteroidetes ratio** in ASD
 
 ### Enriched in ASD (LEfSe)
-- **[[Veillonellaceae]]** and **[[Enterobacteriaceae]]**: significantly enriched
-- [[Acidobacteria]], [[Enterobacteriaceae]], [[Pseudomonadaceae]]: increased
+- **[[Veillonellaceae]]** and **[[enterobacteriaceae]]**: significantly enriched
+- [[Acidobacteria]], [[enterobacteriaceae]], [[Pseudomonadaceae]]: increased
 - [[Megamonas]]: overrepresented in ASD
 
 ### Depleted in ASD
-- **[[Ruminococcaceae]]**, **[[Streptococcaceae]]**, **[[Eubacterium]]**: reduced within Firmicutes
-- **[[Lachnospiraceae]]-NC2004 group**: reduced
+- **[[Ruminococcaceae]]**, **[[Streptococcaceae]]**, **[[eubacterium]]**: reduced within Firmicutes
+- **[[lachnospiraceae]]-NC2004 group**: reduced
 - **[[Erysipelotrichaceae]]**: highly decreased — key butyrate producer
 - **Propionibacterium**: reduced
 
@@ -57,7 +57,7 @@ Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and
 
 - Constipation significantly higher in ASD (26.7% moderate + 3.3% severe vs 5% in controls, p = 0.035)
 - Constipated ASD microbiota diverged from non-constipated ASD on weighted UniFrac (beta diversity)
-- **[[fusobacterium]]**, [[Barnesiella]], [[Coprobacter]], [[Olsenella]], [[Allisonella]], [[Actinomycetaceae]]: associated with constipated ASD
+- **[[fusobacterium]]**, [[Barnesiella]], [[Coprobacter]], [[Olsenella]], [[allisonella]], [[Actinomycetaceae]]: associated with constipated ASD
 - [[Holdemanella]] overrepresented in non-constipated ASD
 
 # Relevance to Metallomic Framework
@@ -68,7 +68,7 @@ Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and
 - Butyrate deficiency → reduced [[iron]] transporter expression in colonocytes
 - Elevated **valeric acid** — less studied SCFA; associations with [[Acidobacteria]] suggest environmental metal-tolerant taxa
 - **[[Desulfovibrionaceae]]** correlation with acetic acid — sulfate-reducing bacteria that sequester [[iron]]
-- **[[Enterobacteriaceae]]** enrichment — siderophore-producing [[iron]] scavengers
+- **[[enterobacteriaceae]]** enrichment — siderophore-producing [[iron]] scavengers
 - Constipation alters intestinal transit time → affects mineral absorption efficiency
 
 # Methodological Notes

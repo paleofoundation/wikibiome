@@ -21,7 +21,7 @@ platform: wikibiome
 - Probiotics or dietary fiber alone could prevent further weight gain but were less effective than combination
 - 16S ribosomal RNA sequencing revealed increased abundance of microbiota after probiotics + dietary fiber treatment
 - Logistic regression showed higher richness of microbiota was associated with favorable weight loss
-- Probiotic formulation: Lactobacillus, [[Bifidobacterium]], and Enterococcus bacteria (1.7x10^10 CFU Lactobacillus, 3.8x10^7 Bifidobacterium, 7.8x10^7 Lactobacillus, 7.8x10^7 Enterococcus)
+- Probiotic formulation: Lactobacillus, [[bifidobacterium]], and Enterococcus bacteria (1.7x10^10 CFU Lactobacillus, 3.8x10^7 Bifidobacterium, 7.8x10^7 Lactobacillus, 7.8x10^7 Enterococcus)
 - Dietary fiber: 10g Hi-FIBER DRINK plus 20g Extra Herb Powder per packet (maltodextrin-based)
 - Most frequently reported adverse events: constipation (19.6%), hypokalemia (11.3%), hypocalcemia (5.2%)
 

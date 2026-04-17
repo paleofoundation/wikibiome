@@ -32,7 +32,7 @@ platform: wikibiome
 
 # Connections
 
-- Landmark study establishing [[virome]] alterations in metabolic syndrome relevant to [[cardiovascular disease]]
+- Landmark study establishing [[virome]] alterations in metabolic syndrome relevant to [[cardiovascular-disease]]
 - *Ca.* Heliusviridae as widespread MetS-associated phage family extends [[microbial biomarkers]]
 - Phage-bacteria interaction dynamics inform [[microbiome-host interactions]] and [[phage therapy]] design
 - *Crassvirales* depletion in MetS connects to [[viral dysbiosis]] in cardiometabolic disease

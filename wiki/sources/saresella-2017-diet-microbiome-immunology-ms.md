@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- A high-vegetable/low-protein (HV/LP) diet in RRMS patients increases [[Lachnospiraceae]] abundance compared to Western Diet (WD), with significant immunological consequences
+- A high-vegetable/low-protein (HV/LP) diet in RRMS patients increases [[lachnospiraceae]] abundance compared to Western Diet (WD), with significant immunological consequences
 - HV/LP diet patients show decreased IL-17-producing CD4+ T lymphocytes (p = 0.04) and PD-1+ CD4+ T lymphocytes (p = 0.0004), and increased PD-L1+ CD14+ monocytes (p = 0.009)
 - *Lachnospiraceae* abundance positively correlates with anti-inflammatory IL-10+ and TGFbeta+ monocytes and with CD4+/CD25+/FoxP3+ [[Tregs]] in HV/LP diet patients
 - HV/LP diet significantly reduces relapse rate (3/10 vs 9/10 in WD; p = 0.03) and improves EDSS score over 12 months
@@ -37,7 +37,7 @@ platform: wikibiome
 ## Connections
 
 - [[multiple-sclerosis]] -- dietary intervention modifying disease course via microbiome
-- [[Lachnospiraceae]] -- butyrate-producing family correlating with anti-inflammatory immune profile in MS
+- [[lachnospiraceae]] -- butyrate-producing family correlating with anti-inflammatory immune profile in MS
 - -- FoxP3+ regulatory T cells increased in correlation with Lachnospiraceae in HV/LP diet
 - -- IL-17+ CD4+ cells decreased by HV/LP diet
 - [[butyrate]] -- proposed mediator of Lachnospiraceae immunomodulatory effects via Treg induction

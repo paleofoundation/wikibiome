@@ -45,6 +45,6 @@ pp. 1-8
 
 ## Connections
 
-- Integrates multiple therapeutic approaches for [[cardiovascular disease]] via microbiome
+- Integrates multiple therapeutic approaches for [[cardiovascular-disease]] via microbiome
 - Links to [[Mediterranean diet]], and [[probiotics]] interventions
 - Relevant to in CVD management

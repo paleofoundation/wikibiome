@@ -2,6 +2,69 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-17] Nightly deploy check (02:00 automated)
+
+- **Status:** queued — computer-use access timed out (Karen not present to approve at 2am).
+- **Files changed since last deploy (2026-04-16 08:22):** 435 wiki/ markdown files.
+- **Lint check:** Most recent lint report (2026-04-14) flagged 0 contradictions — clear to deploy.
+- **Auto-deploy approved:** No (.auto-deploy-approved not found).
+- **Action required:** Run the deploy one-liner manually:
+  ```
+  cd ~/Documents/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod && date > .last-deploy
+  ```
+
+## [2026-04-16] PPD and GERD ingest session: 3 PPD source upgrades + 3 GERD source upgrades; both entity pages substantially deepened
+
+### Sources upgraded (PPD)
+
+- `wiki/sources/zhang-2024-gut-microbiota-ppd-mendelian-randomization.md` — Upgraded stub to full v2 frontmatter. Added: sample sizes, corresponding author, evidence_level=computational-prediction, karen_brain_primitives [1,5], taxa_discussed, key_findings (exact OR values), full Key Findings/Methods/Detailed Summary/Relevance sections. Core finding: Actinobacteria (OR=0.971, P=0.014) and Holdemanella (OR=0.979, P=0.023) causally protective against PPD by two-sample MR (n=4,834 PPD cases, 33,173 controls; MiBioGen n=18,473). No heterogeneity or pleiotropy. DOI verified from PDF: 10.3389/fpsyt.2024.1282742.
+
+- `wiki/sources/zhou-2024-maternal-ppd-infant-neurodevelopment-gut-microbiota.md` — Upgraded stub to full v2 frontmatter. Added: sample size (n=101 dyads), evidence_level=prospective-cohort, karen_brain_primitives [1,5], key_findings (exact MDs and P-values), full body including Bifidobacterium depletion data, NAA mediation analysis (ACME=-0.58, P<0.05), ASQ-3 deficit details, methods. DOI verified: 10.3389/fpsyt.2024.1385229.
+
+- `wiki/sources/zhou-2020-fecal-microbiota-ppd.md` — Upgraded stub to full v2 frontmatter. Added: corresponding author, evidence_level=case-control, karen_brain_primitives [1,5,7], taxa_discussed (extended to 9 taxa), key_findings with exact statistics, full body including Firmicutes quantification (74.57% vs 88.91%), EPDS/17-HAMD correlations with specific genera, sex hormone-bacteria associations, methods details. DOI verified: 10.3389/fcimb.2020.567268.
+
+### Sources upgraded (GERD)
+
+- `wiki/sources/wang-2024-causal-gut-microbiota-gerd-bidirectional-mr.md` — Upgraded stub to full v2 frontmatter. Added: all authors, corresponding emails, institution, sample sizes (n=78,707 GERD, 288,734 controls), evidence_level=computational-prediction, extended taxa list, full OR table for 7 protective/risk taxa, reverse MR results (13 affected taxa), detailed methods (Bonferroni + FDR, leave-one-out, MR-PRESSO), SCFA mechanism discussion. DOI verified: 10.3389/fimmu.2024.1327503.
+
+- `wiki/sources/alageel-2025-microbiome-composition-gerd-systematic-review.md` — Upgraded stub to full v2 frontmatter. Added: corresponding author email, journal clarification (TPM Vol 32), sample sizes, karen_brain_primitives [1,5,6], extended key_findings (Chen et al. TLR2 2.1x/claudin-1 47%, SIBO P=0.007, Leptotrichia BE/EAC biomarker), full body with per-study data extraction table, SIBO-GERD ABC transporter mechanism, Barrett's progression microbiome details. DOI: not yet verified from PDF (no DOI printed).
+
+- `wiki/sources/shi-2023-ppi-fungal-dysbiosis-gerd.md` — Upgraded stub to full v2 frontmatter. Added: all authors, corresponding email, sample size (n=65 with group breakdown), extended taxa list, key_findings with exact Candida detection rate (96.9%) and P-values, full body including plateau effect (short vs long-term PPI equivalence), fecal mycobiota ANOSIM results, Lactobacillus-Candida interkingdom competitive displacement mechanism, visceral hypersensitivity hypothesis. DOI verified: 10.3389/fcimb.2023.1205348.
+
+### Entities updated
+
+- `wiki/entities/postpartum-depression.md`: ~140 lines → ~190 lines. Added: 3 sources to sources list; source_count 13; last_substantive_update 2026-04-16. Gut Microbiome Connection section substantially expanded with: (1) PPD microbiome signature table with exact statistics from zhou-2020; (2) Mendelian randomization causal evidence section from zhang-2024 with OR/CI values; (3) new intergenerational microbiome effects subsection from zhou-2024 (infant ASQ-3 deficits, Bifidobacterium depletion, NAA mediation); (4) mechanistic connections: metals → microbiome → mood; (5) new "Microbiome as PPD Biomarker" section; (6) 3 new open research questions; (7) 7 new connections entries (actinobacteria, holdemanella, faecalibacterium, lachnospiraceae, bifidobacterium, gut-brain-axis, depression).
+
+- `wiki/entities/gerd.md`: ~108 lines → ~200+ lines. Added: 2 sources to sources list; source_count 7; last_substantive_update 2026-04-16; added barretts-esophagus and sibo to associated_conditions; extended shared_signature_taxa. Sections added/expanded: (1) new "Causal Microbiome-GERD Relationships" section with MR evidence tables (7 taxa with OR/CI/P-values, forward and reverse); bidirectional vicious cycle explanation; (2) "Esophageal and Gut Microbiome Signature" section with TLR2/claudin-1 molecular mechanism, Barrett's progression signature, SIBO-GERD data, oral-esophageal translocation; (3) PPI section expanded with full fungal dysbiosis subsection — Candida 96.9% detection, plateau effect, fecal mycobiota, interkingdom Lactobacillus suppression mechanism, visceral hypersensitivity hypothesis; (4) "Research Patterns and Observed Associations" table (replacing clinical recommendations per WikiBiome boundary rules); (5) new "Associated Conditions" table with cross-condition taxa sharing; (6) 3 additional open questions; (7) 6 new connections entries.
+
+### Cross-condition overlaps detected
+
+- PPD ↔ Depression (MDD): Shared Firmicutes depletion, Enterobacteriaceae enrichment, Actinobacteria protective role (≥3 features)
+- PPD ↔ T1D/T2D: Shared Bifidobacterium depletion in PPD-exposed infants and PPD microbiome overlap with metabolic conditions
+- GERD ↔ Barrett's esophagus: Shared gram-negative dysbiosis (Prevotella, Veillonella, Leptotrichia); bidirectional — GERD causes progression signature
+- GERD ↔ IBS: Shared visceral hypersensitivity, SIBO association, Christensenellaceae depletion
+- Actinobacteria: Protective against GERD (OR=0.93), PPD (OR=0.971), and MDD (OR=0.88) — cross-condition protective pattern
+
+---
+
+## [2026-04-16] T1D ingest session: 4 source pages created, type-1-diabetes entity deepened to 201 lines
+
+### Sources created
+- `wiki/sources/luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization.md` — Luo et al. 2023 (Frontiers in Cellular and Infection Microbiology, doi: 10.3389/fcimb.2023.1163898). Two-sample bidirectional MR study (n=264,137 T1D, n=18,340 microbiota GWAS). Bacteroidetes phylum causally increases T1D risk (OR=1.24); Eubacterium eligens group causally decreases T1D risk (OR=0.64, FDR-significant). evidence_level: cross-sectional (MR design).
+- `wiki/sources/morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4.md` — Morse et al. 2023 (Frontiers in Immunology, doi: 10.3389/fimmu.2023.1096323). NOD mouse model; CVB4 viral infection restructures gut microbiome before T1D onset; FMT of dysbiotic microbiome transfers T1D susceptibility (61.2% vs 18.2% hyperglycemic). GPR43/Treg/gut-barrier mechanism established. evidence_level: animal-model.
+- `wiki/sources/liu-2024-gut-microbiota-diabetic-complications-mr-study.md` — Liu et al. 2024 (Diabetology & Metabolic Syndrome, doi: 10.1186/s13098-024-01424-7). MR study of microbiota and diabetic complications; Bifidobacterium causally protects against DKD in T1D (OR=0.566). Bidirectional: DR in T1D affects LachnospiraceaeUCG010. evidence_level: cross-sectional (MR).
+- `wiki/sources/feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome.md` — Feng et al. 2022 (npj Biofilms and Microbiomes, doi: 10.1038/s41522-022-00326-8). RCT, n=152 occupational workers; Pediococcus GR-1 probiotic reduced blood Cu 34.45% and Ni 38.34%; Blautia enrichment correlated with antioxidant activity. evidence_level: randomized-controlled-trial.
+
+### Entity updated
+- `wiki/entities/type-1-diabetes.md`: 114 → 201 lines. Added: metal associations table (Zn, Fe, Cu, Ni); full MR causal evidence table for 8+ taxa; CVB4 viral dysbiosis mechanism (GPR43/Treg/gut barrier pathway); Bifidobacterium-DKD causal protection data; diabetic complications microbiome section; gut-immune axis mechanistic summary; updated associated_conditions (added diabetic-kidney-disease, multiple-sclerosis); source_count 6 → 10.
+
+### Cross-condition overlaps detected
+- T1D ↔ T2D: shared Bifidobacterium depletion, Bacteroidetes enrichment, zinc dysregulation (≥3 features)
+- T1D ↔ CKD/DKD: Bifidobacterium causally protective for both conditions
+- T1D ↔ MS: shared Bacteroidetes enrichment, butyrate producer depletion, Treg dysfunction
+
+---
+
 ## [2026-04-16] Maintenance session: source migration batch 1 (files 1–100), source_count reconciliation, wikilink validation, orphan detection, index recount
 
 ### Task 1: Source Page Batch Migration (Priority 5)

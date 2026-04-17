@@ -34,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Central reference for [[virome]] characterization in [[cardiovascular disease]] and metabolic disorders
+- Central reference for [[virome]] characterization in [[cardiovascular-disease]] and metabolic disorders
 - Phage-bacteria trans-kingdom interactions relevant to [[microbiome-host interactions]]
 - Viral dark matter challenge informs [[metagenomic analysis]] limitations
 - CVD-specific virome findings complement [[Dinakaran 2014 - Circulating Microbiome CVD]] on viral elements

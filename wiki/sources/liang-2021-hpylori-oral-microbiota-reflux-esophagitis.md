@@ -17,10 +17,10 @@ platform: wikibiome
 ## Key Claims
 
 - Reflux esophagitis (RE) disturbs the human oral microbiota composition, with increased beta diversity (P=0.0015 Bray-Curtis, P=0.041 Jaccard) compared to healthy controls, though no significant alpha diversity difference was observed
-- [[Bacteroidetes]] was more abundant in RE group while [[Firmicutes]] was more abundant in controls; *[[Prevotella]]*, *[[Veillonella]]*, *[[Leptotrichia]]*, and *[[Actinomyces]]* were RE biomarkers by LEfSe analysis
-- *Lautropia*, *Gemella*, *Rothia*, and *[[Streptococcus]]* were biomarkers of the healthy control group
+- [[Bacteroidetes]] was more abundant in RE group while [[Firmicutes]] was more abundant in controls; *[[prevotella]]*, *[[veillonella]]*, *[[leptotrichia]]*, and *[[actinomyces]]* were RE biomarkers by LEfSe analysis
+- *Lautropia*, *Gemella*, *Rothia*, and *[[streptococcus]]* were biomarkers of the healthy control group
 - The oral microbial network of RE patients (40 nodes, 38 edges) had more edges than controls (38 nodes, 29 edges), indicating more complex microbial interactions in disease
-- [[Helicobacter pylori]] infection did not change alpha diversity in RE patients but beta diversity of the H. pylori-positive RE group was significantly lower than H. pylori-negative RE
+- [[helicobacter-pylori]] infection did not change alpha diversity in RE patients but beta diversity of the H. pylori-positive RE group was significantly lower than H. pylori-negative RE
 - H. pylori biomarkers in RE were *Veillonella*, *Haemophilus*, *Selenomonas*, *Megasphaera*, *Oribacterium*, *Butyrivibrio*, and *Campylobacter*; *Stomatobaculum*, *Megasphaera*, and *Veillonella* characterized the H. pylori-positive network
 
 ## Methods/Findings

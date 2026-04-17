@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - In this large prospective study (Sister Study), there was **little evidence** supporting an association between individual metals and [[breast-cancer]] risk overall
-- [[Molybdenum]] was the notable exception: inversely associated with overall breast cancer risk (third tertile vs. first: HR = 0.82, 95% CI: 0.67, 1.00) and more strongly with ER-negative breast cancer
+- [[molybdenum]] was the notable exception: inversely associated with overall breast cancer risk (third tertile vs. first: HR = 0.82, 95% CI: 0.67, 1.00) and more strongly with ER-negative breast cancer
 - An inverse association for [[antimony]] was observed specifically among non-Hispanic Black women (third tertile HR = 0.56, 95% CI: 0.37, 0.84)
 - Predefined groups of metals (all metals, nonessential metals, essential metals, and [[metalloestrogens]]) were **not strongly associated** with breast cancer
 - This study offers little support for metals, individually or as mixtures, as risk factors for breast cancer
@@ -40,7 +40,7 @@ platform: wikibiome
 - Contrasts with [[liu-2022-heavy-metals-breast-cancer-meta-analysis]] which found significant Cu, Cd, Pb elevations in breast cancer cases (this study found no associations using toenail biomarkers)
 - Cadmium null findings contrast with [[tarhonska-2022-cadmium-breast-cancer-mechanisms]] mechanistic evidence
 - Nickel null findings relevant to [[aquino-2012-cadmium-nickel-metalloestrogens]] hypothesis about nickel as metalloestrogen
-- [[Molybdenum]] finding is novel - cofactor for enzymes breaking down toxic sulfites; potential protective role warrants investigation
+- [[molybdenum]] finding is novel - cofactor for enzymes breaking down toxic sulfites; potential protective role warrants investigation
 - Toenail biomarkers reflect longer-term exposure (6-12 months) vs blood/urine (shorter window), which may explain discrepancies with [[ali-2024-heavy-metals-breast-cancer-review]]
 - [[Metalloestrogens]] group analysis relevant to broader literature
 - Racial/ethnic exposure disparities connect to and metal exposure pathways

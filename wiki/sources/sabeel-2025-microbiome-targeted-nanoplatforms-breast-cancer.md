@@ -14,11 +14,11 @@ platform: wikibiome
 
 # Key Claims
 
-- Nanomaterial (NM)-based microbiome modulation offers targeted elimination of pathogenic microbes (e.g., [[Fusobacterium nucleatum]]), preservation of beneficial microbiota, and precision drug delivery within the tumor microenvironment
+- Nanomaterial (NM)-based microbiome modulation offers targeted elimination of pathogenic microbes (e.g., [[fusobacterium-nucleatum]]), preservation of beneficial microbiota, and precision drug delivery within the tumor microenvironment
 - F. nucleatum establishes persistent colonization in breast tissue via Fap2-mediated binding to Gal/GalNAc receptors, promoting cancer progression through MMP-9, IL-8, EMT, and immune suppression (PD-L1 upregulation)
 - Colistin-loaded LipoFM nanovehicles specifically target and eliminate tumor-infiltrating F. nucleatum, reversing chemoresistance; ferritin-nanocaged doxorubicin (DOX) simultaneously eliminates pathogens and remodels the tumor microenvironment with >90% tumor growth inhibition
 - Microbial beta-glucuronidase deconjugates estrogen in the gut, increasing reabsorption and potentially elevating estrogen-driven cancer risk
-- [[Bacteroides fragilis]] BFT toxin activates oncogenic beta-catenin and Notch1 signaling, both implicated in tumor initiation and progression
+- [[bacteroides-fragilis]] BFT toxin activates oncogenic beta-catenin and Notch1 signaling, both implicated in tumor initiation and progression
 - TCM-derived nanoformulations (e.g., NPs that inhibit microbial beta-glucuronidase activity and metallic NPs that disrupt bacterial biofilms) show promise for microbiome balance restoration
 
 # Methods/Findings

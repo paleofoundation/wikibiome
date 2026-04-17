@@ -44,7 +44,7 @@ evidence_level: cross-sectional
 
 - [[mycobiome]] -- first study profiling both fungal and bacterial communities in same RRMS fecal samples
 - [[candida-albicans]] -- increased in MS gut; *C. albicans* dominant species
-- [[Saccharomyces]] -- depleted in MS; *S. cerevisiae* potentially protective
+- [[saccharomyces]] -- depleted in MS; *S. cerevisiae* potentially protective
 - [[multiple-sclerosis]] -- fungal dysbiosis with Basidiomycota/Ascomycota shift as MS signature
 - -- altered inter-kingdom correlations in MS
 - -- bacterial family increased in MS; produces urolithins from polyphenols

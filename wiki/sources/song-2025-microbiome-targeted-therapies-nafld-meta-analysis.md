@@ -40,6 +40,6 @@ pp. 1-8
 
 ## Connections
 
-- Relevant to [[cardiovascular disease]] through NAFLD as a shared metabolic risk factor
+- Relevant to [[cardiovascular-disease]] through NAFLD as a shared metabolic risk factor
 - Links to [[probiotics]], [[prebiotics]], and [[fecal-microbiota-transplant]] as microbiome-modulating strategies
 - Connects to [[metabolic syndrome]] and hepatic-cardiovascular axis

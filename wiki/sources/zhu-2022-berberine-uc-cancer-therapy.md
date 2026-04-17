@@ -15,9 +15,9 @@ evidence_level: expert-opinion
 
 # Key Claims
 
-- [[Berberine]] (BBR), an isoquinoline alkaloid from Coptidis Rhizoma, is a multi-target drug candidate for inflammation-associated [[ulcerative colitis]] (UC) and [[colon cancer]] therapy
+- [[Berberine]] (BBR), an isoquinoline alkaloid from Coptidis Rhizoma, is a multi-target drug candidate for inflammation-associated [[ulcerative-colitis]] (UC) and [[colon cancer]] therapy
 - BBR modulates gut microbiota composition by boosting Blautia, Lactobacillus, Bacteroides, and Bifidobacterium while inhibiting pathogenic Enterococcus, Escherichia coli, and Akkermansia with inflammation
-- BBR maintains [[Fusobacterium nucleatum]]-induced intracellular signaling pathways and reduces mucosal immune factors (IL-21, IL-22, IL-31, CD40), facilitating intestinal microbiota homeostasis
+- BBR maintains [[fusobacterium-nucleatum]]-induced intracellular signaling pathways and reduces mucosal immune factors (IL-21, IL-22, IL-31, CD40), facilitating intestinal microbiota homeostasis
 - In UC, BBR preserves colonic mucosal tight junction integrity, modifies Th17/Treg balance, reduces pro-inflammatory cytokines (IL-6, IL-1beta, TNF-alpha), and increases anti-inflammatory IL-10
 - BBR exerts anti-tumor activity via multiple pathways: PI3K/AKT/mTOR inhibition, Wnt/beta-catenin signaling blockade (caspase-dependent apoptosis), AMPK activation, and cell cycle arrest at G1/S and G2/M phases
 - BBR inhibits PD-1/PD-L1 pathway by inactivating CSN5 deubiquitination, improving anti-cancer T-cell immunity in NSCLC

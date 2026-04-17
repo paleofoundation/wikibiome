@@ -55,7 +55,7 @@ Path analysis study examining relationships between **urinary heavy metal load, 
 - Higher arsenic levels → decreased [[bacteroides-fragilis]] and [[bifidobacterium]]
 - [[cadmium]], mercury, lead, arsenic exposure → increased [[Proteobacteria]] and pathogenic bacteria
 - [[lactobacillus]] and [[E. coli]] can bind heavy metals to their surfaces
-- Probiotics ([[faecalibacterium-prausnitzii]], [[Akkermansia muciniphila]], [[Bacillus cereus]], [[Lactobacillus rhamnosus]]) show protective effects against metal exposure
+- Probiotics ([[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], [[Bacillus cereus]], [[Lactobacillus rhamnosus]]) show protective effects against metal exposure
 
 # Relevance to Metallomic Framework
 

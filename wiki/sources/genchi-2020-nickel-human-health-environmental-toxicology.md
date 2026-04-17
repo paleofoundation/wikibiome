@@ -98,7 +98,7 @@ why_keystone: "Establishes nickel as both a selective pressure (IARC Group 1 car
 - Epigenetic mechanisms connect to broader topic
 - Nickel allergy section relevant to and 
 - Apoptosis pathways shared with mechanisms described in 
-- Enzyme inhibition (B12 metabolism) relevant to [[Cobalt]] interactions and 
+- Enzyme inhibition (B12 metabolism) relevant to [[cobalt]] interactions and 
 - Carcinogenicity via chromatin remodeling parallels [[chromium]] carcinogenic mechanisms
 - Nickel in foods (Table 1) relevant to and baby food Ni findings
 - Nickel in IBD context connects to elevated nickel in active CD

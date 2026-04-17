@@ -16,8 +16,8 @@ platform: wikibiome
 
 ## Key Claims
 
-- Significant differences in microbial types ([[Candida albicans]] and [[lactobacillus]]) were found between hyperthyroid and control groups, and between hypothyroid and control groups (p < 0.05)
-- [[Candida albicans]] and [[lactobacillus]] have a higher count in saliva of both hyperthyroid and hypothyroid patients compared to the control group
+- Significant differences in microbial types ([[candida-albicans]] and [[lactobacillus]]) were found between hyperthyroid and control groups, and between hypothyroid and control groups (p < 0.05)
+- [[candida-albicans]] and [[lactobacillus]] have a higher count in saliva of both hyperthyroid and hypothyroid patients compared to the control group
 - Salivary flow rate (SFR) is too sensitive due to hyperthyroid patients, with the "Hyperthyroid" patient group showing a lower mean value
 - Thyroid disease can disrupt the body's balance and affect its ability to heal tissues, with patients having increased susceptibility to dental caries
 - The oral microbiome has billions of microorganisms inhabiting the oral cavity, with researchers increasingly interested in the accessibility of the microbiome compared to other body sites

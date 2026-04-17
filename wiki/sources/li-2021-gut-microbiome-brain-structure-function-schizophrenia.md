@@ -17,9 +17,9 @@ platform: wikibiome
 ## Key Claims
 
 - This is the first study to find a correlation between the gut microbiome and brain structure/function in [[schizophrenia]] using combined 16S rRNA sequencing with structural MRI and resting-state functional MRI
-- At the genus level, [[Ruminococcus]] (p=0.017) and [[Roseburia]] (p=0.023) were significantly lower in schizophrenia patients, while [[Veillonella]] was significantly higher
+- At the genus level, [[ruminococcus]] (p=0.017) and [[roseburia]] (p=0.023) were significantly lower in schizophrenia patients, while [[veillonella]] was significantly higher
 - Alpha diversity (evenness and Shannon indices) showed a positive correlation with gray matter volume (GMV) and regional homogeneity (ReHo) indexes in several brain regions in schizophrenia patients
-- The relative abundance of [[Roseburia]] was negatively correlated with ReHo indexes in the right superior temporal cortex, right middle temporal cortex, and left cuneus -- brain regions showing decreased ReHo in schizophrenia
+- The relative abundance of [[roseburia]] was negatively correlated with ReHo indexes in the right superior temporal cortex, right middle temporal cortex, and left cuneus -- brain regions showing decreased ReHo in schizophrenia
 - Schizophrenia patients showed significantly reduced GMV in 16 brain regions and altered ReHo in 34 brain regions compared to controls
 
 ## Methods/Findings

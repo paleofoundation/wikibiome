@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Patients with dental erosion have a higher prevalence of reflux than controls, supporting a causal association between [[GERD]]/LPR and dental disease
+- Patients with dental erosion have a higher prevalence of reflux than controls, supporting a causal association between [[gerd]]/LPR and dental disease
 - No study directly investigated microbiota modifications related to reflux, though findings support the critical role of [[oral microbiota]] changes in dental disorder development
 - From 386 publications, 24 studies were analyzed; pharyngeal reflux episodes were confirmed in 16 studies using objective GERD diagnosis
 - The pathophysiological mechanisms would involve changes in saliva physiology, including reduced salivary buffering capacity and altered pH

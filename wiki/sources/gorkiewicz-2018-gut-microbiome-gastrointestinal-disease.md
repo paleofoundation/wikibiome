@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- The GI microbiome is spatially organized along the longitudinal axis, with the acidic pH and oxygen of the upper GI tract limiting colonization to acid- and oxygen-tolerant bacteria (e.g., *[[Lactobacillus]]*, *[[Streptococcus]]*, *[[Veillonella]]*)
+- The GI microbiome is spatially organized along the longitudinal axis, with the acidic pH and oxygen of the upper GI tract limiting colonization to acid- and oxygen-tolerant bacteria (e.g., *[[lactobacillus]]*, *[[streptococcus]]*, *[[veillonella]]*)
 - The total number of microbes increases from the esophagus to the distal colon, from 10^1 to 10^12 microbes per gram, with distinct community compositions at each segment
 - The mucus layer architecture differs by GI segment: continuous in stomach and colon, discontinuous in small intestine; specific microbes like *Akkermansia muciniphila* can degrade the outer mucus layer
 - [[Dysbiosis]] is a loss of bacterial-host homeostasis that can elicit inflammatory responses, alter signaling pathways, and promote carcinogenesis

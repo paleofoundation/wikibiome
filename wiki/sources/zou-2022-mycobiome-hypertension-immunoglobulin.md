@@ -36,7 +36,7 @@ evidence_level: cross-sectional
 # Connections
 
 - First study demonstrating gut [[mycobiome]] dysbiosis in prehypertension and hypertension
-- *Malassezia*-LC association links [[fungal dysbiosis]] to immune activation in [[cardiovascular disease]]
+- *Malassezia*-LC association links [[fungal dysbiosis]] to immune activation in [[cardiovascular-disease]]
 - *Mortierella* depletion as protective marker extends [[microbial biomarkers]] to fungal kingdom
 - Complements [[Qiu 2023 - Gut Mycobiome HTN CKD]] on hypertension fungal profiles
 - LC dysregulation connects to [[microbiome and immune system]] in CVD pathogenesis

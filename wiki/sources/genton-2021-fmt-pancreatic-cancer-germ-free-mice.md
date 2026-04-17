@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[fecal-microbiota-transplant]] from [[pancreatic cancer]] patients into germ-free mice was associated with significantly decreased visceral fat compared to FMT from healthy volunteers (coeff -0.19, 95% CI: -0.38 to -0.02, p=0.035)
+- [[fecal-microbiota-transplant]] from [[pancreatic-cancer]] patients into germ-free mice was associated with significantly decreased visceral fat compared to FMT from healthy volunteers (coeff -0.19, 95% CI: -0.38 to -0.02, p=0.035)
 - *Escherichia coli* and *Streptococcus salivarius* were remarkably more abundant (>147-fold and >31-fold respectively) in fecal microbiota of PC patients compared to controls
 - Microbiota from PC patients clustered separately from healthy volunteers in PCoA, and this pattern was maintained in transplanted mice
 - 65-99% of recipient mice microbiota was of human donor origin, confirming successful human-to-mouse microbiota transfer

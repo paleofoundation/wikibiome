@@ -26,7 +26,7 @@ evidence_level: randomized-controlled-trial
 **Study design:** Randomized, double-blind, placebo-controlled, parallel group trial (n = 160 children aged 3-12 years with ASD).
 
 **Intervention:**
-- Lyophilized powder containing [[lactobacillus]], [[Bifidobacteria]], and [[Streptococcus thermophilus]] (10 billion CFU twice daily for 3 months)
+- Lyophilized powder containing [[lactobacillus]], [[Bifidobacteria]], and [[streptococcus-thermophilus]] (10 billion CFU twice daily for 3 months)
 - Placebo: maltodextrin
 - 3-month washout, then 6-month follow-up
 - Add-on therapy irrespective of ABA and TEACCH maintenance
@@ -36,9 +36,9 @@ evidence_level: randomized-controlled-trial
 - Secondary: Immunity and inflammation markers, metabolism, metagenome analysis
 
 **Key mechanistic observations from introduction:**
-- [[akkermansia-muciniphila]], [[Coprococcus]], and [[ruminococcus]] elevated in ASD children
-- [[Collinsella]] and [[clostridium]] at higher levels produce propionic acid and butyric acid with neurotoxic effects
-- Probiotics may restore neurotransmitter production via [[Streptococcus thermophilus]] and indigenous spore-forming bacteria
+- [[akkermansia-muciniphila]], [[coprococcus]], and [[ruminococcus]] elevated in ASD children
+- [[collinsella]] and [[clostridium]] at higher levels produce propionic acid and butyric acid with neurotoxic effects
+- Probiotics may restore neurotransmitter production via [[streptococcus-thermophilus]] and indigenous spore-forming bacteria
 
 # Relevance to Metallomic Framework
 

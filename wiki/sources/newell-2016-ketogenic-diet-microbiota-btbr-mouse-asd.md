@@ -27,7 +27,7 @@ condition: "autism spectrum disorder"
 **Key findings (Table 2 - comprehensive):**
 
 **Cecal microbiota (16S rRNA qRT-PCR):**
-- [[Akkermansia muciniphila]]: BTBR-chow 1011 +/- 153 vs. BTBR-KD 0.2 +/- 0.02 (dramatically reduced by KD)
+- [[akkermansia-muciniphila]]: BTBR-chow 1011 +/- 153 vs. BTBR-KD 0.2 +/- 0.02 (dramatically reduced by KD)
 - [[bifidobacterium]]: reduced by KD in both genotypes
 - [[Clostridium coccoides]]: BTBR-chow 46,568 vs. BTBR-KD 11,157 (reduced by KD)
 - [[Clostridium leptum]]: relatively maintained in BTBR-KD
@@ -37,7 +37,7 @@ condition: "autism spectrum disorder"
 
 **Fecal microbiota:**
 - Similar patterns as cecal but with some differences in magnitude
-- [[Enterobacteriaceae]]: reduced from 116 in BTBR-chow to 36 in BTBR-KD
+- [[enterobacteriaceae]]: reduced from 116 in BTBR-chow to 36 in BTBR-KD
 
 **PLS-DA analysis (Figure 1):**
 - Clear separation between all four groups (B6-chow, B6-KD, BTBR-chow, BTBR-KD) in both cecal and fecal samples

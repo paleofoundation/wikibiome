@@ -18,7 +18,7 @@ platform: wikibiome
 
 - Inhalational exposures (cigarette smoking, waterpipe smoking, and [[particulate matter]]) showed significant associations with upper gastrointestinal diseases in a meta-analysis of 111 studies
 - The pooled estimate for [[esophagitis]] risk with inhalational exposure was OR 1.32 (95% CI 1.06-1.65; I^2=86%)
-- [[GERD]] risk was OR 1.71 (95% CI 1.14-2.55; I^2=94%), representing a 71% increased risk with inhalational exposures
+- [[gerd]] risk was OR 1.71 (95% CI 1.14-2.55; I^2=94%), representing a 71% increased risk with inhalational exposures
 - Peptic ulcer disease risk was OR 1.21 (95% CI 1.03-1.43; I^2=93%), esophageal cancer OR 1.83 (95% CI 1.54-2.18; I^2=73%), and gastric cancer OR 1.71 (95% CI 1.39-2.10; I^2=73%)
 - No significant association was found for [[Barretts esophagus]] (OR 0.93, 95% CI 0.65-1.34; I^2=76%)
 - WTC-PM exposure was associated with obstructive airway disease (OAD) and gastroesophageal diseases including GERD and BE; 44% of WTC rescue workers developed GERD symptoms by 2005

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Endometriosis]] patients have a distinct vaginal microbiota characterized by loss of dominant *Lactobacillus* species, especially *L. iners*, and increased bacterial diversity
+- [[endometriosis]] patients have a distinct vaginal microbiota characterized by loss of dominant *Lactobacillus* species, especially *L. iners*, and increased bacterial diversity
 - Endometriosis-specific bacteria include *Anaerococcus senegalensis*, *Prevotella jejuni*, *Porphyromonas bennonis*, and *Anaerococcus octavius*
 - Trigalactosylated and triantennary serum glycans and urine core fucosylated mono-antennary glycans from IgG correlated with vaginal presence of *A. senegalensis*
 - Four previously unreported modified N-glycans on IgG were identified in urine of endometriosis patients

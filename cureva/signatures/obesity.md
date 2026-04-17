@@ -282,6 +282,8 @@ No clinical trials specifically testing metal restriction in obesity have been p
 
 ## STOPs
 
+- **[[stop-iron-supplementation-obesity|STOP: Iron Supplementation for Obesity-Associated Anemia]]** — Low serum iron in obesity almost always reflects hepcidin-mediated functional anemia (host defense against enriched Enterobacteriaceae), not true deficiency; oral iron supplements feed the already-dominant siderophore-producing pathogens, worsening endotoxemia and insulin resistance. Evidence: prospective-cohort.
+
 Based on the signature, several interventions that are commonly recommended in obesity management may be counterproductive when interpreted through the metal-microbiota lens:
 
 | STOP | Conventional Rationale | Why Counterproductive (Mechanism) |

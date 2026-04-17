@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Central review linking [[functional microbiome shifts]] to [[cardiovascular disease]] pathogenesis
+- Central review linking [[functional microbiome shifts]] to [[cardiovascular-disease]] pathogenesis
 - TMAO pathway details extend [[microbial metabolites]] and [[metabolic pathways]] in CVD
 - Heart failure microbiome changes relevant to [[microbiome and disease progression]]
 - Therapeutic approaches connect to [[phage therapy]], [[prebiotics]], [[probiotics]], and [[fecal-microbiota-transplant]] in CVD

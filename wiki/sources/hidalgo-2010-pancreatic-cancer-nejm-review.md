@@ -16,7 +16,7 @@ platform: wikibiome
 
 - Pancreatic ductal adenocarcinoma results from successive accumulation of gene mutations progressing from PanIN to invasive cancer, with [[KRAS]] mutation in 90% of tumors
 - The characteristic dense [[stroma]] (desmoplastic reaction) formed by pancreatic stellate cells is a dynamic compartment critically involved in tumor formation, progression, invasion, and metastasis
-- CA 19-9 is the only biomarker with demonstrated clinical usefulness for monitoring but is not specific for [[pancreatic cancer]] and fails in ~10% of Lewis antigen-negative patients
+- CA 19-9 is the only biomarker with demonstrated clinical usefulness for monitoring but is not specific for [[pancreatic-cancer]] and fails in ~10% of Lewis antigen-negative patients
 - Cancer stem cells (1-5% of tumor) are resistant to chemotherapy and radiation, which may explain treatment failure and disease recurrence
 
 # Methods/Findings
@@ -31,5 +31,5 @@ platform: wikibiome
 # Connections
 
 - [[Tumor microenvironment]] and stellate cell activation link to potential [[microbiome-host interactions]] in shaping immune responses
-- CA 19-9 elevation also occurs in benign conditions including [[pancreatitis]], cholangitis, and [[inflammatory bowel disease]]
+- CA 19-9 elevation also occurs in benign conditions including [[pancreatitis]], cholangitis, and [[inflammatory-bowel-disease]]
 - Hedgehog pathway targeting represents a potential [[microbiome-targeted therapy]] approach through modulation of the tumor stroma

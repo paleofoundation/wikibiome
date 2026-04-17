@@ -31,7 +31,7 @@ Systematic review of **28 studies** (published 1966-July 2019) examining the gut
 
 ### Higher in ASD
 - **[[clostridium]]**: most frequently reported as elevated
-- **[[Sutterella]]**: consistently higher in ASD
+- **[[sutterella]]**: consistently higher in ASD
 - **[[desulfovibrio]]**: multiple studies show enrichment
 - **[[lactobacillus]]**: reported higher in several studies
 
@@ -74,7 +74,7 @@ Systematic review of **28 studies** (published 1966-July 2019) examining the gut
 
 - **[[clostridium]]**: produces [[p-cresol]], [[propionic acid]] — affects metal-dependent enzyme function
 - **[[desulfovibrio]]**: sulfate-reducing bacteria that sequester [[iron]] and produce H2S
-- **[[Sutterella]]**: associated with intestinal inflammation that alters metal absorption
+- **[[sutterella]]**: associated with intestinal inflammation that alters metal absorption
 - **[[lactobacillus]]**: binds [[heavy metals]] on cell surfaces — may reflect compensatory response
 - Methodological heterogeneity caution: no single taxon confirmed — need standardized protocols to assess metal-microbiome interactions
 

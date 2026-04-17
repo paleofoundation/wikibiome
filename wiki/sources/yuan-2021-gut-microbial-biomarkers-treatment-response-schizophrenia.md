@@ -18,7 +18,7 @@ evidence_level: prospective-cohort
 
 - In 107 first-episode drug-naive [[schizophrenia]] patients vs 107 matched healthy controls, SCH patients showed significantly lower alpha-diversity (Shannon p = 1.21x10^-9, Simpson p = 1.23x10^-8, PD whole tree p = 0.005) and significant beta-diversity differences
 - 19 genera were significantly different between SCH patients and controls; only Lachnoclostridium showed higher levels in SCH, while 18 other genera (mostly Firmicutes, 73.7%) were lower
-- A Random Forest predictive model using 10 microbial biomarkers (Dorea, [[Romboutsia]], [[Streptococcus]], [[Blautia]], Anaerosstipes, Terrisporobacter, Weissella, [[Alistipes]], [[Haemophilus]], Lachnoclostridium) achieved AUC of 0.879 for distinguishing SCH from controls
+- A Random Forest predictive model using 10 microbial biomarkers (Dorea, [[Romboutsia]], [[streptococcus]], [[blautia]], Anaerosstipes, Terrisporobacter, Weissella, [[alistipes]], [[Haemophilus]], Lachnoclostridium) achieved AUC of 0.879 for distinguishing SCH from controls
 - After 24 weeks of risperidone treatment, alpha-diversity increased but remained below healthy control baseline levels
 - Lachnoclostridium decreased (p = 0.019) and Romboutsia increased (p = 0.067) after treatment; treatment response was significantly associated with basal levels of both genera
 - hs-CRP and homocysteine (HCY) were significantly elevated in SCH patients at baseline and decreased significantly with treatment

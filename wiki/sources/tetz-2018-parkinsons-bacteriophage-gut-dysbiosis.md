@@ -21,7 +21,7 @@ This seminal study demonstrates that lytic [[bacteriophages]] targeting lactic a
 
 ## Key Findings
 
-- Lytic phages targeting *[[Lactococcus]]* were >10-fold enriched in PD gut microbiomes
+- Lytic phages targeting *[[lactococcus]]* were >10-fold enriched in PD gut microbiomes
 - *Lactococcus* bacterial abundance was correspondingly decreased in PD patients
 - Phage enrichment correlated with disease severity markers
 - The phage-bacterial predator-prey dynamic offers a mechanistic explanation for selective bacterial depletion in PD

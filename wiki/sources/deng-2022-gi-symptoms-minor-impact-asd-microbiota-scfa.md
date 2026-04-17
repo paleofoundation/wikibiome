@@ -48,7 +48,7 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 
 ### Enriched in TD
 - **[[bacteroides-fragilis]]**, **Bacteroidaceae**, **Bacteroidia**, **Bacteroidota**
-- **[[Blautia]]**
+- **[[blautia]]**
 - *Bacteroides vulgatus*
 
 ## SCFA-Microbiota Correlations
@@ -56,7 +56,7 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 - Butyric acid moderately **negatively correlated with SRS** (-0.47)
 - Butyric acid moderately **positively correlated with CSHQ** (0.47)
 - Metastat analysis: [[Massilia]], [[Megamonas]], [[Sphingomonas]], [[Agaribacter]] more abundant in ASD
-- [[Bacteroidetes]] and [[Blautia]] less abundant in ASD
+- [[Bacteroidetes]] and [[blautia]] less abundant in ASD
 
 ## Metastat/FAPROTAX Functional Profiling
 

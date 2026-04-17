@@ -19,9 +19,9 @@ taxa_discussed: ["Akkermansia", "Bifidobacterium"]
 
 ## Key Claims
 
-- [[Metformin]] had strong effects on the [[gut microbiome]] composition in treatment-naive [[type 2 diabetes]] (T2D) patients after 2 and 4 months, with changes correlated to those observed in a switched subgroup at 6 months
+- [[Metformin]] had strong effects on the [[gut microbiome]] composition in treatment-naive [[type-2-diabetes]] (T2D) patients after 2 and 4 months, with changes correlated to those observed in a switched subgroup at 6 months
 - Transfer of fecal samples from metformin-treated donors to germ-free mice improved glucose tolerance, confirming that metformin-altered microbiota mediates some of the drug's antidiabetic effects
-- *[[Bifidobacterium adolescentis]]* was the only bacterial species significantly increased by metformin (by peak-to-trough ratio); metformin also directly promoted growth of *B. adolescentis* and *[[Akkermansia muciniphila]]* in vitro
+- *[[Bifidobacterium adolescentis]]* was the only bacterial species significantly increased by metformin (by peak-to-trough ratio); metformin also directly promoted growth of *B. adolescentis* and *[[akkermansia-muciniphila]]* in vitro
 - Metformin enriched genes for bacterial secretion system, phosphotransferase system (PTS), cationic antimicrobial peptide resistance, LPS biosynthesis, butyrate metabolism, and lysine degradation
 - Fecal concentrations of propionate and butyrate were significantly larger in the metformin group after 4 months; plasma bile acid concentrations (total, primary, secondary, unconjugated) significantly increased
 
@@ -45,5 +45,5 @@ pp. 850-857
 ## Connections
 
 - Landmark study linking 's therapeutic effects to [[gut microbiome]] changes
-- Links to [[short-chain-fatty-acids]], and [[cardiovascular disease]] risk reduction
-- Relevant to [[Akkermansia muciniphila]] as a mediator of metabolic health
+- Links to [[short-chain-fatty-acids]], and [[cardiovascular-disease]] risk reduction
+- Relevant to [[akkermansia-muciniphila]] as a mediator of metabolic health

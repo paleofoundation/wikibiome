@@ -28,7 +28,7 @@ key_findings:
 
 ## Why This Paper Matters
 
-This is an official technical report from the American Academy of Pediatrics (AAP) Committee on Nutrition -- the authoritative pediatric medical body in the United States. It represents the definitive institutional position on aluminum exposure risks in the most vulnerable population: infants and children. The report is critical for the developmental vulnerability thread of the wiki because it establishes that (1) preterm infants receiving [[parenteral-nutrition]] are at greatest risk due to immature renal function, (2) infant formulas contain significantly higher aluminum than human milk but no clinical toxicity has been documented from formula feeding, and (3) there is a meta-analytic association between aluminum and [[Alzheimers Disease]] at high-concentration long-term exposures. This bridges the gap between [[heavy-metals]] environmental exposure science and clinical pediatric practice.
+This is an official technical report from the American Academy of Pediatrics (AAP) Committee on Nutrition -- the authoritative pediatric medical body in the United States. It represents the definitive institutional position on aluminum exposure risks in the most vulnerable population: infants and children. The report is critical for the developmental vulnerability thread of the wiki because it establishes that (1) preterm infants receiving [[parenteral-nutrition]] are at greatest risk due to immature renal function, (2) infant formulas contain significantly higher aluminum than human milk but no clinical toxicity has been documented from formula feeding, and (3) there is a meta-analytic association between aluminum and [[alzheimers-disease]] at high-concentration long-term exposures. This bridges the gap between [[heavy-metals]] environmental exposure science and clinical pediatric practice.
 
 ## Key Claims
 
@@ -41,7 +41,7 @@ This is an official technical report from the American Academy of Pediatrics (AA
 - More than 80% of absorbed aluminum is bound to transferrin in blood; only 0.5% remains in bloodstream 24 hours after injection
 - Aluminum is the only mineral found to have a role in enzymatic metalloprotein that has not been found to have any biological function
 - 54% of total body aluminum is concentrated in bone (skeleton is only body part that concentrates it)
-- Meta-analyses have suggested an association between aluminum and [[Alzheimers Disease]] with long-term high-concentration exposures
+- Meta-analyses have suggested an association between aluminum and [[alzheimers-disease]] with long-term high-concentration exposures
 
 ## Methods/Findings
 
@@ -99,7 +99,7 @@ This is an official technical report from the American Academy of Pediatrics (AA
 
 - Critical reference for in the context of [[heavy-metals]] exposure during infancy
 - Parenteral nutrition aluminum data relevant to in clinical/hospital settings
-- Aluminum neurotoxicity connects to [[Alzheimers Disease]] and 
+- Aluminum neurotoxicity connects to [[alzheimers-disease]] and 
 - Aluminum in infant formula relevant to baby food metal contamination findings
 - BBB immaturity in preterm infants connects to broader [[blood-brain-barrier]] permeability discussions
 - Bone effects of aluminum connect to homeostasis and 

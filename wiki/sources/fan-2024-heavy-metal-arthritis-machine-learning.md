@@ -15,7 +15,7 @@ platform: wikibiome
 # Key Claims
 
 - [[Tungsten]] (SHAP 0.013), [[cobalt]] (0.007), [[cadmium]] (0.007), [[antimony]] (0.005), total [[arsenic]] (0.002), and blood cadmium (0.005) are positively associated with arthritis risk
-- [[Molybdenum]] (-0.007), [[thallium]] (-0.004), [[lead]] (-0.003), and [[mercury]] (-0.004) showed negative/protective SHAP values for arthritis
+- [[molybdenum]] (-0.007), [[thallium]] (-0.004), [[lead]] (-0.003), and [[mercury]] (-0.004) showed negative/protective SHAP values for arthritis
 - For RA specifically, arsenic metabolites (0.02), molybdenum (0.013), tungsten (0.009), and antimony (0.009) were top positive predictors
 - Mercury (-0.009) and cobalt (-0.008) showed negative SHAP values for RA specifically
 - Heavy metal exposure levels in the US population showed significant trends across NHANES cycles 2003-2020
@@ -36,6 +36,6 @@ platform: wikibiome
 - Large-scale US population data from [[NHANES]] database
 - Supports role of [[tungsten]] and [[cadmium]] in [[osteoarthritis]] pathogenesis
 - [[arsenic]] metabolites most important for differentiating [[rheumatoid-arthritis]]
-- [[Molybdenum]] may be protective against arthritis via iron-deficiency anemia treatment and enzyme pathway effects
+- [[molybdenum]] may be protective against arthritis via iron-deficiency anemia treatment and enzyme pathway effects
 - Connects to [[oxidative-stress|oxidative stress]] mechanisms of metal toxicity
 - Links to [[environmental metal exposure]] and [[autoimmune disease]]

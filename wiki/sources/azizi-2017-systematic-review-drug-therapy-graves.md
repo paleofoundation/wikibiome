@@ -49,5 +49,5 @@ karen_brain_primitives: [4]
 - TRAb as relapse predictor parallels microbiota-TRAb correlations found in [[chen-2021-gut-microbiota-thyroid-graves]]
 - [[Oxidative-stress]] from hyperthyroidism partially addressable through selenium and antioxidant support
 - Drug-induced changes to [[dysbiosis]] patterns warrant consideration given ATD impact on gut flora
-- [[Iodine]] status influences treatment response; connects to iodine-thyroid axis in [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
+- [[iodine]] status influences treatment response; connects to iodine-thyroid axis in [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 - [[iron]], [[zinc]], and [[copper]] status may affect drug metabolism and therapeutic response

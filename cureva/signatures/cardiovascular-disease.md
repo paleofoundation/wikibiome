@@ -369,7 +369,7 @@ The CVD microbiome exhibits several hallmark ecological features:
 
 ## STOPs
 
-*[To be populated by Cureva team with evidence-based counterproductive interventions]*
+- **[[stop-iron-supplementation-cardiovascular-disease|STOP: Iron Supplementation for Cardiovascular Disease-Associated Anemia]]** — Oral iron feeds Bilophila wadsworthia and TMAO-producing Enterobacteriaceae enriched in CVD dysbiosis, amplifying hydrogen sulfide production, vascular oxidative stress, and atherosclerosis progression; IV iron (as per FAIR-HF protocol) bypasses the gut and does not carry this risk. Evidence: prospective-cohort.
 
 ## Open Questions
 

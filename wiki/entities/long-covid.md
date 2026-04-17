@@ -26,20 +26,20 @@ The microbiome disruption in Long COVID is distinguished from acute COVID and re
 
 ### Depleted Taxa
 The hallmark is systematic loss of obligate anaerobic SCFA producers:
-- **[[Faecalibacterium prausnitzii]]** — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary butyrate producer
-- **[[Roseburia]]** — replicated across 5+ studies; SCFA producer [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
-- **[[Bifidobacterium]]** — immune education; SCFA production [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]]
-- **[[Lactobacillus]]** — immune modulation; barrier function [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]]
-- **[[Akkermansia muciniphila]]** — mucus layer maintenance [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
-- **[[Lachnospiraceae]]** family — SCFA producers [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]]
+- **[[faecalibacterium-prausnitzii]]** — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary butyrate producer
+- **[[roseburia]]** — replicated across 5+ studies; SCFA producer [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
+- **[[bifidobacterium]]** — immune education; SCFA production [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]]
+- **[[lactobacillus]]** — immune modulation; barrier function [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]]
+- **[[akkermansia-muciniphila]]** — mucus layer maintenance [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
+- **[[lachnospiraceae]]** family — SCFA producers [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]]
 
 ### Enriched Taxa
 Facultative aerobes and pathobionts bloom:
-- **Proteobacteria** (phylum-level, including [[Enterobacteriaceae]], [[Klebsiella]], [[Escherichia-coli]]) — LPS production; translocation to blood
-- **[[Streptococcus]]** (S. equinus persists at 6 months)
-- **[[Enterococcus]]** — facultative aerobe; translocation marker
-- **[[Candida albicans]]** — multi-kingdom co-expansion with bacterial pathobionts
-- **[[Fusobacterium nucleatum]]** — enhanced LPS synthesis genes in dysbiotic strains
+- **Proteobacteria** (phylum-level, including [[enterobacteriaceae]], [[Klebsiella]], [[Escherichia-coli]]) — LPS production; translocation to blood
+- **[[streptococcus]]** (S. equinus persists at 6 months)
+- **[[enterococcus]]** — facultative aerobe; translocation marker
+- **[[candida-albicans]]** — multi-kingdom co-expansion with bacterial pathobionts
+- **[[fusobacterium-nucleatum]]** — enhanced LPS synthesis genes in dysbiotic strains
 
 ### Multi-Kingdom Dysbiosis
 Coordinated bacterial + fungal + viral community disruption. Bacteriophage populations shift in parallel; reduced phage diversity limits natural pathobiont predation [[lu-2021-intestinal-dna-virome-covid-19]].
@@ -52,9 +52,9 @@ Mendelian randomization analyses provide causal support: specific gut taxa (Lach
 
 ## Metal Associations
 
-- **[[Iron]] sequestered**: Hepcidin elevation drives iron sequestration as host antiviral defense — functional anemia, not true deficiency. Iron was **10-fold decreased** in COVID+ human milk [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
-- **[[Selenium]] depleted**: **2-fold decrease** in COVID+ mothers; lower Se associated with COVID mortality [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
-- **[[Zinc]] elevated**: **1.7-fold increase** in human milk as antiviral defense [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- **[[iron]] sequestered**: Hepcidin elevation drives iron sequestration as host antiviral defense — functional anemia, not true deficiency. Iron was **10-fold decreased** in COVID+ human milk [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- **[[selenium]] depleted**: **2-fold decrease** in COVID+ mothers; lower Se associated with COVID mortality [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- **[[zinc]] elevated**: **1.7-fold increase** in human milk as antiviral defense [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
 - **[[Glutathione]] depleted**: Reduced antioxidant metabolites [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
 
 ## Gut-Brain Axis

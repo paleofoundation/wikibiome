@@ -237,6 +237,8 @@ The T2D microenvironment is characterized by:
 
 ## STOPs
 
+- **[[stop-iron-supplementation-type-2-diabetes|STOP: Iron Supplementation for Type 2 Diabetes-Associated Anemia]]** — T2D-associated anemia is characteristically hepcidin-mediated functional anemia driven by chronic LPS endotoxemia; oral iron supplements drive Fenton-chemistry oxidative stress that worsens beta-cell function and diabetic vascular complications while feeding the Enterobacteriaceae at the root of the problem. Evidence: cross-sectional.
+
 | STOP | Conventional Rationale | Why Counterproductive | Evidence |
 |------|----------------------|----------------------|----------|
 | **Iron supplementation** | Low serum iron; anemia | Hepcidin elevation indicates **functional anemia** (host defense), NOT true iron deficiency. Iron supplementation feeds siderophore-producing *E. coli* and pathogenic *Proteobacteria*, amplifying the iron-rich pro-inflammatory environment | [[khan-2014-metals-type2-diabetes]] (ferritin-insulin resistance correlation); STOP principle from endometriosis parallels directly |

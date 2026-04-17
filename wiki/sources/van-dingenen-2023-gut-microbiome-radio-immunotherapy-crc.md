@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- The [[gut microbiome]] influences both radiotherapy toxicity and [[immunotherapy]] (ICB) efficacy in [[colorectal cancer]] treatment; specific bacteria can either enhance or hinder therapeutic outcomes
+- The [[gut microbiome]] influences both radiotherapy toxicity and [[immunotherapy]] (ICB) efficacy in [[colorectal-cancer]] treatment; specific bacteria can either enhance or hinder therapeutic outcomes
 - Only ~15% of CRC patients are MSI-H (eligible for ICBs); the gut microbiome may help expand the proportion of patients who benefit from immunotherapy
 - Radiation-induced microbiome changes include increased Proteobacteria, Actinobacteria, Clostridiales, and decreased Firmicutes, Lactobacillus, Bifidobacterium (comprehensive Table 1 with 50+ bacterial taxa)
 - [[fecal-microbiota-transplant]] has been applied to reduce both radiotherapy-associated and immunotherapy-related toxicity while potentially enhancing therapeutic efficacy

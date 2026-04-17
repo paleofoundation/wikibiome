@@ -19,7 +19,7 @@ platform: wikibiome
 - 190 bacterial taxa from six levels (phylum to species) were analyzed; eight causal associations from seven bacterial features identified at multiple-testing corrected significance
 - Class Actinobacteria with [[schizophrenia]] (P = 1.33 x 10^-3), class Bacteroidia and order Bacteroidales with Tourette syndrome (P = 2.51 x 10^-3)
 - Phylum Actinobacteria and class Actinobacteria with extroversion (P = 8.22 x 10^-4 and 1.09 x 10^-3)
-- Species [[Clostridium]] innocuum with neuroticism (P = 8.92 x 10^-4)
+- Species [[clostridium]] innocuum with neuroticism (P = 8.92 x 10^-4)
 - Family Prevotellaceae with autism spectrum disorder (P = 5.31 x 10^-4)
 - Class Betaproteobacteria with bipolar disorder (P = 1.53 x 10^-3)
 - Sensitivity analyses showed no evidence of reverse causality, pleiotropy, or heterogeneity

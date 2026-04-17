@@ -36,5 +36,5 @@ platform: wikibiome
 
 - Salivary (oral) microbiome adds dimension beyond gut studies like [[liu-2022-gut-microbiota-diversity-hashimotos]]
 - TSH-microbiome correlation complements [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]] on thyroid hormone-microbiome crosstalk
-- Insulin resistance association links thyroid dysfunction to [[Metabolic Syndrome]] and [[PCOS]]
+- Insulin resistance association links thyroid dysfunction to [[Metabolic Syndrome]] and [[pcos]]
 - Oral microbiome relevance to neuropsychiatric conditions in [[hashimoto-2023-host-microbiome-neuropsychiatric-disorders]]

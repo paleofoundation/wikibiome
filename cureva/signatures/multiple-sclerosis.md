@@ -291,6 +291,9 @@ Currently available evidence supports the following interventions for MS-related
 
 ## STOPs
 
+- **[[stop-iron-supplementation-ms|STOP: Iron Supplementation for Multiple Sclerosis]]** — Elevated hepcidin in MS indicates functional anemia (host defense); iron supplementation feeds pathogenic siderophore-producing bacteria (Fusobacterium, Akkermansia) and amplifies the metal-enriched pro-inflammatory environment. Evidence: cross-sectional.
+- **[[stop-scfa-replacement-without-dysbiosis-restoration-ms|STOP: SCFA Supplementation Without Clostridial Restoration in Multiple Sclerosis]]** — Exogenous SCFA supplementation is a metabolic band-aid that restores Treg induction signals but does not restore the depleted Clostridia clusters that produce them endogenously, leaving dysbiosis, pathobiont LPS burden, and metal-driven selection pressure unaddressed. Evidence: quasi-experimental.
+
 | STOP | Conventional Rationale | Why Counterproductive | Evidence |
 |------|---|---|---|
 | **Iron supplementation for anemia/low serum iron** | Patient presents with low serum iron and fatigue | Elevated hepcidin in MS indicates functional anemia (host defense), not true deficiency. Iron supplementation feeds pathogenic siderophore-producing bacteria (Fusobacterium, Akkermansia, others) and amplifies metal-enriched pro-inflammatory environment | Metal-microbiome framework; hepcidin role established in MS immunology |

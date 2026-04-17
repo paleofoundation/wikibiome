@@ -18,7 +18,7 @@ platform: wikibiome
 
 - A 1-point increase in alternate Mediterranean diet (aMED) score was associated with a 37% reduced MS odds (OR 0.95, 95% CI 0.90-1.00, P < 0.01); higher fiber and iron intakes were also associated with reduced MS odds (95% CI 10-53%)
 - Diet, not MS status, explains inter-individual gut microbiota variation: dietary measures including fruits, ratio of monounsaturated to saturated fat, whole grains, fiber, and iron were statistically different between MS and controls
-- [[Methanobrevibacter]] presence was associated with a significantly higher likelihood of having MS (OR_adj 23.6, 95% CI 3.0-540), while *Ruminococcaceae NK4A214 group* was associated with 69% lower MS odds
+- [[methanobrevibacter]] presence was associated with a significantly higher likelihood of having MS (OR_adj 23.6, 95% CI 3.0-540), while *Ruminococcaceae NK4A214 group* was associated with 69% lower MS odds
 - Mediation analysis showed that the gut microbiota partially mediates the diet-MS association: *Methanobrevibacter* mediated 63% of the aMED-MS association and 68% of the fiber-MS association
 - MS cases were depleted of *Clostridiales vadinBB60 group* and *Ruminococcaceae NK4A214 group* -- the latter is a short-chain fatty acid (SCFA)-producing family linking dietary fiber to MS-associated taxa
 
@@ -33,7 +33,7 @@ platform: wikibiome
 ## Connections
 
 - Provides the first trivariate mediation analysis demonstrating that [[gut-microbiome]] mediates the [[Mediterranean-diet]]-MS risk association
-- [[Methanobrevibacter]] as the strongest MS-associated taxon aligns with [[jangi-2016-gut-microbiome-alterations-ms]] findings in adult MS, extending the association to pediatric onset
+- [[methanobrevibacter]] as the strongest MS-associated taxon aligns with [[jangi-2016-gut-microbiome-alterations-ms]] findings in adult MS, extending the association to pediatric onset
 - *Ruminococcaceae NK4A214* depletion connects to Clostridia cluster findings in [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and the SCFA-production deficiency theme
 - Fiber and iron intake as protective factors connect to research [[hoffman-2023-dietary-strategies-eae-ms]] and broader nutritional epidemiology
 - The mediation framework provides a methodological advance over simple association studies, complementing approaches like [[xu-2022-causal-microbiota-autoimmune-mr]]

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Genetically predicted serum levels of [[Helicobacter pylori]] IgG antibodies were positively associated with an increased risk of [[GERD]] (OR=1.001, 95% CI 1.000-1.003, P=0.043), supporting a causal link
+- Genetically predicted serum levels of [[helicobacter-pylori]] IgG antibodies were positively associated with an increased risk of [[gerd]] (OR=1.001, 95% CI 1.000-1.003, P=0.043), supporting a causal link
 - No causal relationship was found between other specific H. pylori antibodies (CagA, VacA, UreA, hydrogen peroxide enzyme, OMP, GroEL) and GERD individually
 - The overall IgG antibody finding suggests that H. pylori infection (as indicated by IgG seropositivity) may slightly increase GERD risk, contrary to some observational studies suggesting a protective effect
 - The MR approach eliminates confounding from observational studies that have shown conflicting results regarding H. pylori-GERD relationships

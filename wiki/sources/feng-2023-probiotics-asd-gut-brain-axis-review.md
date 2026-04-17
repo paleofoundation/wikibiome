@@ -33,7 +33,7 @@ Comprehensive narrative review covering:
 - [[clostridium]] species produce propionic acid and p-cresol with neurotoxic effects
 - 4-methylphenol causes hippocampal dysfunction
 - 4-ethylphenylsulfate causes anxiety-like and repetitive behaviors
-- [[Alistipes]] synthesizes indole, disrupting serotonergic balance
+- [[alistipes]] synthesizes indole, disrupting serotonergic balance
 
 **Probiotic mechanisms (Table 1 - comprehensive):**
 - Strain-specific effects documented across 12+ clinical studies

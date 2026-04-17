@@ -35,7 +35,7 @@ platform: wikibiome
 
 # Connections
 
-- Defines the non-traditional CV risk factor landscape in [[chronic kidney disease]] relevant to microbiome research
+- Defines the non-traditional CV risk factor landscape in [[chronic-kidney-disease]] relevant to microbiome research
 - Uremia-related risk factors (phosphate, urate) connect to [[microbial metabolites]] like uremic toxins (p-cresyl sulfate, indoxyl sulfate)
 - Albumin as CV predictor in CKD links to [[gut barrier function]] and microbial translocation
 - Complements [[Troeseid 2024 - Gut Microbiome HIV Cardiometabolic]] on uremic toxin pathways

@@ -23,7 +23,7 @@ This large-scale [[shotgun-metagenomics]] study characterizes the gut [[microbio
 
 - 55 species were differentially abundant between PD and controls after rigorous statistical correction
 - Opportunistic pathogens (*Escherichia coli*, *Klebsiella*) and mucin-degrading bacteria (*Akkermansia muciniphila*) were enriched in PD
-- SCFA-producing commensals (*[[Faecalibacterium prausnitzii]]*, *[[roseburia]]*, *Blautia*) were depleted in PD
+- SCFA-producing commensals (*[[faecalibacterium-prausnitzii]]*, *[[roseburia]]*, *Blautia*) were depleted in PD
 - *[[bifidobacterium]]* was enriched in PD -- potentially a compensatory response to dysbiosis
 - Functional analysis revealed altered carbohydrate, amino acid, and lipid metabolism pathways
 - Microbial genes for LPS biosynthesis and oxidative stress response were enriched in PD microbiomes

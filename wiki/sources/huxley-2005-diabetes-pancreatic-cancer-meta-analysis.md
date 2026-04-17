@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Type 2 diabetes]] is significantly associated with [[pancreatic cancer]] with a combined OR of 1.82 (95% CI: 1.66-1.99) from 36 studies on 9,220 individuals
+- [[type-2-diabetes]] is significantly associated with [[pancreatic-cancer]] with a combined OR of 1.82 (95% CI: 1.66-1.99) from 36 studies on 9,220 individuals
 - Individuals with recently diagnosed diabetes (<4 years) had a 50% greater risk than those with longer-duration diabetes (>5 years), suggesting reverse causation in some cases
 - The risk of pancreatic cancer was negatively associated with duration of diabetes (RR 1.5 vs 2.1 for >5 vs <5 years; P = 0.005)
 - [[NSAIDs]] use may confound the diabetes-pancreatic cancer association, as aspirin reduces cancer risk

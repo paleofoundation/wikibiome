@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Oral [[antibiotic]] use is associated with an increased risk of [[colorectal cancer]] (CRC): pooled effect size ES = 1.17, 95% CI 1.05-1.30 for ever-users vs non-users across 4.1 million individuals and 73,550 CRC cases
+- Oral [[antibiotic]] use is associated with an increased risk of [[colorectal-cancer]] (CRC): pooled effect size ES = 1.17, 95% CI 1.05-1.30 for ever-users vs non-users across 4.1 million individuals and 73,550 CRC cases
 - Broad-spectrum antibiotics show a stronger association with CRC (ES = 1.70, 95% CI 1.26-2.30) compared to narrow-spectrum antibiotics (ES = 1.11, 95% CI 0.93-1.32)
 - The dose-response analysis shows a non-linear relationship (p for non-linearity < 0.0005): CRC risk increases with antibiotic exposure up to ~30 days, then plateaus
 - Antibiotic class-specific risks: penicillins (ES = 1.16), sulfonamides (1.17), quinolones (1.23), cephalosporins (1.33), nitroimidazole/metronidazole (1.28); tetracyclines showed no apparent association (0.97)

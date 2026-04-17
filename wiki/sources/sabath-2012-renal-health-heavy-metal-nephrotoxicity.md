@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Foundational review for understanding [[chronic kidney disease]] and metal exposure
+- Foundational review for understanding [[chronic-kidney-disease]] and metal exposure
 - [[DMT-1 transporter]] facilitates absorption of Cd, Ni, Pb, Co, Mn, Zn, Cu -- relevant to [[nickel toxicology]]
 - [[Metallothionein]] system connects to multiple metal toxicity pathways
 - Cd-induced kidney injury mechanism via [[oxidative-stress|oxidative stress]] and [[mitochondrial dysfunction]]

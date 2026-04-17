@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Patients with GER symptoms (both [[GERD]] and functional esophageal disorders) showed significantly increased proportion of Gram-negative bacteria (35% increase) compared to healthy controls, regardless of objective evidence of reflux
+- Patients with GER symptoms (both [[gerd]] and functional esophageal disorders) showed significantly increased proportion of Gram-negative bacteria (35% increase) compared to healthy controls, regardless of objective evidence of reflux
 - Enriched Gram-negative bacteria induced esophageal barrier dysfunction via the LPS-[[TLR2]]-[[IL-6]]-[[claudin-1]]-DIS pathway, providing a mechanistic link between [[dysbiosis]] and reflux symptoms
 - In vitro, exposure of human esophageal epithelial cells (HEECs) to [[lipopolysaccharide]] resulted in TLR2 upregulation, claudin-1 downregulation, and dilated intercellular spaces (DIS)
 - These barrier-disrupting effects were mitigated by blocking TLR2 or IL-6, identifying therapeutic targets

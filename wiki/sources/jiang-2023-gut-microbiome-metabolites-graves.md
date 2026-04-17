@@ -44,4 +44,4 @@ platform: wikibiome
 - [[selenium]], [[zinc]], and [[iron]] affect microbial enzyme activity for metabolite production in [[gut-metal-microbiome]] axis
 - [[probiotics]] that restore SCFA and indole production may correct the pro-inflammatory metabolic signature
 - [[copper]] and [[oxidative-stress]] interactions may further modulate microbial metabolic capacity
-- [[Iodine]] absorption affected by gut metabolic environment, connecting microbiome health to thyroid hormone synthesis
+- [[iodine]] absorption affected by gut metabolic environment, connecting microbiome health to thyroid hormone synthesis

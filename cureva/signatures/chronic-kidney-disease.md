@@ -103,11 +103,11 @@ CKD affects ~850 million people worldwide and is unique among diseases in this k
 
 The defining metallomic feature is the **bidirectional vicious cycle**:
 
-- **[[Cadmium]] elevated**: Primary nephrotoxicant. Increases CKD risk from 10% to 25%. Targets proximal tubule; impairs electron transport chain complexes II/III; induces ER stress. Blood Cd >1 mcg/L associated with CKD and albuminuria. Cd resistance genes (cadA) detected in CKD gut bacteria ([[miranda-2022-metalloid-antibiotic-resistance-ckd-gut]], cross-sectional, n=21). Urinary Cd >5 ug/L produces distinctive metabolomic disruption.
-- **[[Lead]] elevated**: Dose-dependent nephrotoxicity. CKD patients have +0.23 ug/dL higher blood Pb with lower urinary excretion — confirming reduced elimination. **4x stronger Pb-CKD association in Black individuals** [[danziger-2022-susceptibility-heavy-metal-toxicity-ckd]].
-- **[[Arsenic]] elevated**: Blood As 91.97 mcg/L in CKDu vs. 4.5 in CKD and 39.01 in healthy. Activates MAPK/NF-kB. Arsenic resistance genes (arsC) in CKD gut bacteria.
-- **[[Mercury]] elevated**: Disrupts mitochondrial membrane potential; inhibits aquaporin-1; kidneys with reduced mass are more susceptible.
-- **[[Iron]] — ferroptosis**: Iron-dependent lipid peroxidation in renal tubular cells via GPX4 loss of function. Iron-restricted diet protective in animal models. Iron-based phosphate binders paradoxically worsen dysbiosis.
+- **[[cadmium]] elevated**: Primary nephrotoxicant. Increases CKD risk from 10% to 25%. Targets proximal tubule; impairs electron transport chain complexes II/III; induces ER stress. Blood Cd >1 mcg/L associated with CKD and albuminuria. Cd resistance genes (cadA) detected in CKD gut bacteria ([[miranda-2022-metalloid-antibiotic-resistance-ckd-gut]], cross-sectional, n=21). Urinary Cd >5 ug/L produces distinctive metabolomic disruption.
+- **[[lead]] elevated**: Dose-dependent nephrotoxicity. CKD patients have +0.23 ug/dL higher blood Pb with lower urinary excretion — confirming reduced elimination. **4x stronger Pb-CKD association in Black individuals** [[danziger-2022-susceptibility-heavy-metal-toxicity-ckd]].
+- **[[arsenic]] elevated**: Blood As 91.97 mcg/L in CKDu vs. 4.5 in CKD and 39.01 in healthy. Activates MAPK/NF-kB. Arsenic resistance genes (arsC) in CKD gut bacteria.
+- **[[mercury]] elevated**: Disrupts mitochondrial membrane potential; inhibits aquaporin-1; kidneys with reduced mass are more susceptible.
+- **[[iron]] — ferroptosis**: Iron-dependent lipid peroxidation in renal tubular cells via GPX4 loss of function. Iron-restricted diet protective in animal models. Iron-based phosphate binders paradoxically worsen dysbiosis.
 - **[[Alpha-klotho]] depleted**: Mediates 34.55% of Hg-CKD association. MR confirms higher klotho causally reduces CKD risk (OR 0.9842). Metal-sensitive renoprotective marker.
 
 ## Environmental Exposures
@@ -162,10 +162,10 @@ CKD fundamentally transforms gut ecology. As kidney function declines, urea floo
 |-------|---------|-----------------|
 | [[Escherichia-coli]] / Shigella | MR causal (OR=1.22, FDR-significant, [[luo-2023-causal-gut-microbiota-ckd-mendelian-randomization]]) | Urease+, indole producer, LPS source, siderophore iron scavenging |
 | [[Desulfovibrionales]] | MR causal (OR=1.15, Bonferroni-significant, [[luo-2023-causal-gut-microbiota-ckd-mendelian-randomization]]) | H2S production, pro-inflammatory; sulfate-reducing |
-| [[Eggerthella lenta]] | Enriched in ESRD ([[zhang-2023-metagenome-esrd-microbiome-uremic-toxins]], n=715) | Aromatic compound metabolism → IS, PCS production |
+| [[eggerthella-lenta]] | Enriched in ESRD ([[zhang-2023-metagenome-esrd-microbiome-uremic-toxins]], n=715) | Aromatic compound metabolism → IS, PCS production |
 | Enterobacteriaceae | Enriched ([[wehedy-2022-human-microbiome-ckd-double-edged-sword]], [[tang-2023-gut-microbiome-tango-ckd-progression]]) | Proteolytic; urease+; indole/p-cresol production |
-| [[Flavonifractor]] plautii | Enriched with progression ([[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]], n=88) | Flavonoid degrader; removes dietary polyphenol benefit |
-| [[Collinsella]] | Positively correlated with severity | Cholesterol metabolism |
+| [[flavonifractor]] plautii | Enriched with progression ([[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]], n=88) | Flavonoid degrader; removes dietary polyphenol benefit |
+| [[collinsella]] | Positively correlated with severity | Cholesterol metabolism |
 | Methanobacteria | Absent in early CKD → present in ESRD | Methanogenic archaea; indicator of ecological transformation |
 | [[Bacteroides uniformis]] | Enriched in CKD [[liu-2022-fmt-restores-ckd-rats]] | Strongly associated with increased PBUTs; key uremic toxin contributor |
 
@@ -173,19 +173,19 @@ CKD fundamentally transforms gut ecology. As kidney function declines, urea floo
 
 | Taxon | Evidence | Why Critical |
 |-------|---------|-------------|
-| [[Roseburia]] | 5 studies: Yasuno, Zhang, Gao (x2), Wang | Butyrate + flagellin producer; depleted from stage 3b |
-| [[Faecalibacterium prausnitzii]] | 4 studies: Zhang, Gao, Wang, Noce | Major butyrate producer; anti-inflammatory |
-| [[Lachnospira]] | 2 studies: Yasuno, Zhang | **Earliest depleted genus — from CKD stage 3a** (eGFR <=60) |
-| [[Coprococcus]] | Yasuno, Wang | Butyrate producer; depleted from stage 5 |
-| [[Prevotella]] / Prevotellaceae | Zhang (25 spp.), Noce | Plant polysaccharide degraders; 41/44 Bacteroidetes spp. enriched in controls |
-| [[Akkermansia muciniphila]] | Noce, entity page | Mucin producer; specifically depleted by cadmium [[ghosh-2023-heavy-metals-gut-barrier-integrity]] |
+| [[roseburia]] | 5 studies: Yasuno, Zhang, Gao (x2), Wang | Butyrate + flagellin producer; depleted from stage 3b |
+| [[faecalibacterium-prausnitzii]] | 4 studies: Zhang, Gao, Wang, Noce | Major butyrate producer; anti-inflammatory |
+| [[lachnospira]] | 2 studies: Yasuno, Zhang | **Earliest depleted genus — from CKD stage 3a** (eGFR <=60) |
+| [[coprococcus]] | Yasuno, Wang | Butyrate producer; depleted from stage 5 |
+| [[prevotella]] / Prevotellaceae | Zhang (25 spp.), Noce | Plant polysaccharide degraders; 41/44 Bacteroidetes spp. enriched in controls |
+| [[akkermansia-muciniphila]] | Noce, entity page | Mucin producer; specifically depleted by cadmium [[ghosh-2023-heavy-metals-gut-barrier-integrity]] |
 | [[Ruminococcus bromii]] | Wang [[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]] | **Keystone species** — main contributor to integrated disease network; resistant starch degrader |
 
 **Diagnostic power**: Random forest classifier AUC = 0.96-0.98 for ESRD classification from stool metagenomics [[zhang-2023-metagenome-esrd-microbiome-uremic-toxins]]. Gut microbiota explains 21-48% of uremic toxin serum variance. Microbiome disruption is detectable **earlier than serum creatinine changes** [[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]].
 
 ### Mycobiome
 
-CKD mycobiome is significantly different from healthy controls (PCoA, P=0.001). [[Candida]] depleted; [[Saccharomyces]] enriched (possibly protective/immunomodulatory). [[Ganoderma]] decline linked to higher CRP. Six-species fungal signature diagnostic ([[hu-2022-gut-mycobiome-ckd-immunological]], n=184).
+CKD mycobiome is significantly different from healthy controls (PCoA, P=0.001). [[Candida]] depleted; [[saccharomyces]] enriched (possibly protective/immunomodulatory). [[Ganoderma]] decline linked to higher CRP. Six-species fungal signature diagnostic ([[hu-2022-gut-mycobiome-ckd-immunological]], n=184).
 
 ## Virulence Enzymes and Features
 
@@ -233,10 +233,10 @@ Dysbiosis is progressive and stage-specific: Lachnospira depletes first (stage 3
 
 | Condition | Shared Metals | Shared Taxa | Shared Ecology | Overlap Score |
 |-----------|--------------|-------------|----------------|---------------|
-| **[[Type 2 Diabetes]]** | Cd, Ni, Pb, Fe | Enterobacteriaceae, F. prausnitzii (depl.), Akkermansia (depl.), Lachnospiraceae (depl.) | SCFA depletion, gut barrier dysfunction, inflammation | 0.72 |
-| **[[Cardiovascular Disease]]** | Pb, Cd | Enterobacteriaceae, E. coli | TMAO elevation, endotoxemia, vascular calcification | 0.65 |
-| **[[Depression]]** | Cu, Zn | Lachnospiraceae (depl.), Faecalibacterium (depl.) | SCFA depletion, tryptophan-kynurenine shunting, gut barrier dysfunction | 0.50 |
-| **[[Colorectal Cancer]]** | Fe, Cd | Fusobacterium nucleatum, Enterobacteriaceae | SCFA depletion, proteolytic fermentation | 0.45 |
+| **[[type-2-diabetes]]** | Cd, Ni, Pb, Fe | Enterobacteriaceae, F. prausnitzii (depl.), Akkermansia (depl.), Lachnospiraceae (depl.) | SCFA depletion, gut barrier dysfunction, inflammation | 0.72 |
+| **[[cardiovascular-disease]]** | Pb, Cd | Enterobacteriaceae, E. coli | TMAO elevation, endotoxemia, vascular calcification | 0.65 |
+| **[[depression]]** | Cu, Zn | Lachnospiraceae (depl.), Faecalibacterium (depl.) | SCFA depletion, tryptophan-kynurenine shunting, gut barrier dysfunction | 0.50 |
+| **[[colorectal-cancer]]** | Fe, Cd | Fusobacterium nucleatum, Enterobacteriaceae | SCFA depletion, proteolytic fermentation | 0.45 |
 
 ## Validated Interventions
 

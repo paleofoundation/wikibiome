@@ -34,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Establishes NAFLD as a key [[comorbidity]] linking liver disease to [[cardiovascular disease]] risk
+- Establishes NAFLD as a key [[comorbidity]] linking liver disease to [[cardiovascular-disease]] risk
 - NAFLD-gut microbiome axis connects to [[microbiome-host interactions]] through liver-gut crosstalk
 - Insulin resistance and oxidative stress mechanisms relevant to [[metabolic pathways]] in CVD
 - Complements [[Major 2018 - CVD Risk Factors CKD]] on non-traditional CVD risk factors

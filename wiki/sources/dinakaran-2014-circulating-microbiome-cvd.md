@@ -36,7 +36,7 @@ platform: wikibiome
 
 # Connections
 
-- Foundational study for [[circulating microbiome]] as a diagnostic biomarker in [[cardiovascular disease]]
+- Foundational study for [[circulating microbiome]] as a diagnostic biomarker in [[cardiovascular-disease]]
 - Complements [[Lawrence 2022 - Blood Microbiome CVD Mortality]] on blood-borne bacterial signatures
 - Actinobacteria dominance finding relevant to [[microbiome composition]] shifts in CVD
 - Virome profiling connects to [[viral microbiota]] and [[viral dysbiosis]] in cardiovascular contexts

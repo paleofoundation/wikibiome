@@ -18,7 +18,7 @@ platform: wikibiome
 
 - Converging lines of evidence indicate a link between schizophrenia and immune activation, a hypothesis dating to the 1950s
 - Castro-Nallar and colleagues found the oropharyngeal microbiome of schizophrenia patients differed from controls, with specific types of bacteria predominating; drug-naive first-episode patients had significantly lower Lactobacillus and higher Bifidobacterium and E. coli counts
-- After 24 weeks of risperidone treatment, a significant increase in fecal Bifidobacterium and E. coli was observed, and patients showed a significant decrease in [[Clostridium]] coccoides and [[Lactobacillus]]
+- After 24 weeks of risperidone treatment, a significant increase in fecal Bifidobacterium and E. coli was observed, and patients showed a significant decrease in [[clostridium]] coccoides and [[lactobacillus]]
 - Autoimmune disease may increase the risk of [[schizophrenia]] by 29%, and 60% in case of infection
 - Treatment-resistant schizophrenia (TRS) is characterized by cell-mediated immunity activation, primarily in the monocytic arm, with IL-6 significantly higher in TRS than healthy volunteers
 - Schizophrenia is associated with elevated serum levels of Clara Cell Protein (CC16), an anti-inflammatory and immunosuppressive protein, with IL-6 and IL-6R elevated

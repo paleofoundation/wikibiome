@@ -16,7 +16,7 @@ condition: "autism spectrum disorder"
 # Key Claims
 
 - **Fecal SCFAs altered** in ASD: lower acetic acid and butyrate, higher valeric acid
-- **Key butyrate-producing taxa reduced** in ASD: [[Ruminococcaceae]], [[Eubacterium]], [[Lachnospiraceae]], [[Erysipelotrichaceae]]
+- **Key butyrate-producing taxa reduced** in ASD: [[Ruminococcaceae]], [[eubacterium]], [[lachnospiraceae]], [[Erysipelotrichaceae]]
 - **Constipation was the only significant GI symptom** in ASD (P = 0.035)
 - **Enriched taxa in ASD**: [[fusobacterium]], [[Barnesiella]], [[Coprobacter]], [[Acidobacteria]], [[Actinomycetaceae]]
 - **Butyrate-producing bacteria** modulation is a promising ASD treatment strategy
@@ -35,12 +35,12 @@ condition: "autism spectrum disorder"
 - Alpha diversity: Shannon and Shannoneven indexes lower in ASD (less even, less diverse)
 - Beta diversity: PCoA showed significant separation between ASD and NT
 - Phylum level: Firmicutes increased, Bacteroidetes not significantly different
-- Family level: [[Veillonellaceae]], [[Enterobacteriaceae]] enriched in ASD; [[Ruminococcaceae]], Peptostreptococcaceae, [[Erysipelotrichaceae]] reduced
+- Family level: [[Veillonellaceae]], [[enterobacteriaceae]] enriched in ASD; [[Ruminococcaceae]], Peptostreptococcaceae, [[Erysipelotrichaceae]] reduced
 
 **Correlation analysis (Spearman):**
 - [[Acidobacteria]] positively correlated with valeric acid
 - [[Streptococcaceae]] and [[Desulfovibrionaceae]] positively correlated with butyrate in NT
-- [[Ruminococcaceae]], [[Lachnospiraceae]], Lachnospiraceae-NC2004 positively correlated with butyrate
+- [[Ruminococcaceae]], [[lachnospiraceae]], Lachnospiraceae-NC2004 positively correlated with butyrate
 
 **Constipation and microbiota:**
 - Constipated ASD (ASD-C) had distinct beta diversity from non-constipated ASD and NT

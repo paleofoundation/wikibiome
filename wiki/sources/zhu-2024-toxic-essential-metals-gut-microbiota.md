@@ -64,7 +64,7 @@ why_keystone: Maps the bidirectional interactions between toxic and essential me
 - Pb exposure: reduces Ruminococcus, Coprococcus, Oscillospira, Blautia; decreases vitamin E, bile acids, nitrogen/energy metabolism; activates oxidative stress and detoxification
 - Cd exposure: increases Helicobacter, Campylobacter; enhanced mammary tumorigenesis; disrupts gut-liver axis
 - Ni exposure at occupational levels: serum uric acid elevation, purine nucleoside accumulation, systemic inflammation; mouse studies confirmed inflammation-related taxa increases
-- Probiotics including [[lactobacillus]], [[bifidobacterium]], [[Akkermansia muciniphila]] shown as protective "next-generation probiotics"
+- Probiotics including [[lactobacillus]], [[bifidobacterium]], [[akkermansia-muciniphila]] shown as protective "next-generation probiotics"
 
 # Connections
 

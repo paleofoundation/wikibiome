@@ -38,12 +38,12 @@ condition: "autism spectrum disorder"
 
 **Bacterial microbiota:**
 - Significant differences in beta diversity between ASD and HC
-- [[Blautia]], [[Sellimonas]] more abundant in ASD pre-FMT; decreased after treatment
-- [[Dorea]] less abundant in ASD; increased after FMT
+- [[blautia]], [[Sellimonas]] more abundant in ASD pre-FMT; decreased after treatment
+- [[dorea]] less abundant in ASD; increased after FMT
 
 **Fungal microbiota (ITS sequencing):**
 - [[Saccharomycopsis]], [[Cystobasidium]] more abundant in ASD; decreased after FMT
-- [[Fusicatenibacter]], [[Erysipelotrichaceae_UCG-003]], [[Saccharomyces]], [[Rhodotorula]], [[Cutaneotrichosporon]], [[Zygosaccharomyces]] negatively correlated with ASD core symptom scores
+- [[Fusicatenibacter]], [[Erysipelotrichaceae_UCG-003]], [[saccharomyces]], [[Rhodotorula]], [[Cutaneotrichosporon]], [[Zygosaccharomyces]] negatively correlated with ASD core symptom scores
 
 # Relevance to Metallomic Framework
 

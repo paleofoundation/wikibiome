@@ -15,7 +15,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Schizophrenia]] is among the top 25 leading causes of disability worldwide with 10-20 year decrease in life expectancy
+- [[schizophrenia]] is among the top 25 leading causes of disability worldwide with 10-20 year decrease in life expectancy
 - Ineffective pharmacotherapy for cognitive deficits and weight gain are significant contributors to disability; interventions targeting both would be highly beneficial
 - Preclinical studies show 2-4 week prebiotic supplementation (galacto-oligosaccharides, GOS) has beneficial effects on learning, memory, and prevents pro-inflammatory signals detrimental to cognitive processes
 - Prebiotics influence metabolism and in obesity increase anorexigenic gut hormones (peptide tyrosine tyrosine, GLP-1, leptin) while decreasing orexigenic hormones (ghrelin)

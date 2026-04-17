@@ -90,10 +90,10 @@ Post-acute sequelae of SARS-CoV-2 (PASC) affects 10-30% of COVID survivors with 
 
 The metallomic pattern reflects **nutritional immunity in overdrive**:
 
-- **[[Iron]] sequestered**: 10-fold decrease in COVID+ human milk. Hepcidin elevation drives iron sequestration as antiviral host defense — functional anemia, not true deficiency [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]]. This is a Primitive 2 insight: iron supplementation would feed siderophore-producing Proteobacteria pathobionts.
-- **[[Selenium]] depleted**: 2-fold decrease; lower Se associated with COVID mortality. Se is required for glutathione peroxidase (antioxidant defense).
-- **[[Zinc]] elevated**: 1.7-fold increase as antiviral defense mechanism (P=0.0001).
-- **[[Copper]] depleted**: 10-fold decrease in human milk — tissue-specific; Cu/Zn ratio inverted vs. serum.
+- **[[iron]] sequestered**: 10-fold decrease in COVID+ human milk. Hepcidin elevation drives iron sequestration as antiviral host defense — functional anemia, not true deficiency [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]]. This is a Primitive 2 insight: iron supplementation would feed siderophore-producing Proteobacteria pathobionts.
+- **[[selenium]] depleted**: 2-fold decrease; lower Se associated with COVID mortality. Se is required for glutathione peroxidase (antioxidant defense).
+- **[[zinc]] elevated**: 1.7-fold increase as antiviral defense mechanism (P=0.0001).
+- **[[copper]] depleted**: 10-fold decrease in human milk — tissue-specific; Cu/Zn ratio inverted vs. serum.
 - **[[Glutathione]] depleted**: Reduced antioxidant metabolites including glutathione and cysteine [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
 
 ## Nutritional Immunity Response
@@ -126,21 +126,21 @@ The ecological transformation is a shift from obligate anaerobes (SCFA producers
 
 | Taxon | Role | Key Evidence |
 |-------|------|-------------|
-| Proteobacteria / [[Enterobacteriaceae]] | LPS production; siderophore iron acquisition; blood translocation | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]] (n=96), [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]] (n=112) |
-| [[Streptococcus]] (S. equinus) | Facultative aerobe; persists 6 months post-recovery | [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]] (prospective, n=53) |
-| [[Enterococcus]] | Translocation marker | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]] |
-| [[Candida albicans]] | Multi-kingdom co-expansion | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]], [[Ke2022-microbiome-covid-metagenome-genomes]] |
-| [[Fusobacterium nucleatum]] | Enhanced LPS synthesis genes | [[Ke2022-microbiome-covid-metagenome-genomes]] (n=514) |
+| Proteobacteria / [[enterobacteriaceae]] | LPS production; siderophore iron acquisition; blood translocation | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]] (n=96), [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]] (n=112) |
+| [[streptococcus]] (S. equinus) | Facultative aerobe; persists 6 months post-recovery | [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]] (prospective, n=53) |
+| [[enterococcus]] | Translocation marker | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]] |
+| [[candida-albicans]] | Multi-kingdom co-expansion | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]], [[Ke2022-microbiome-covid-metagenome-genomes]] |
+| [[fusobacterium-nucleatum]] | Enhanced LPS synthesis genes | [[Ke2022-microbiome-covid-metagenome-genomes]] (n=514) |
 
 ### Depleted in Long COVID
 
 | Taxon | Lost Function | Key Evidence |
 |-------|--------------|-------------|
-| [[Faecalibacterium prausnitzii]] | Primary butyrate producer; anti-inflammatory | 6+ studies: Ancona, Didenko, Rego, Ghannoum, Ke, Mazzarelli |
-| [[Roseburia]] | SCFA producer; barrier support | 5+ studies: Ancona, Didenko, Rego, Ghannoum, Ke |
-| [[Bifidobacterium]] | Immune education; SCFA | [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]] |
-| [[Akkermansia muciniphila]] | Mucus maintenance; O2 scavenging | [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]] |
-| [[Lachnospiraceae]] (family) | SCFA production | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]], [[Ke2022-microbiome-covid-metagenome-genomes]] |
+| [[faecalibacterium-prausnitzii]] | Primary butyrate producer; anti-inflammatory | 6+ studies: Ancona, Didenko, Rego, Ghannoum, Ke, Mazzarelli |
+| [[roseburia]] | SCFA producer; barrier support | 5+ studies: Ancona, Didenko, Rego, Ghannoum, Ke |
+| [[bifidobacterium]] | Immune education; SCFA | [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]] |
+| [[akkermansia-muciniphila]] | Mucus maintenance; O2 scavenging | [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]] |
+| [[lachnospiraceae]] (family) | SCFA production | [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]], [[Ke2022-microbiome-covid-metagenome-genomes]] |
 
 ### What Distinguishes Long COVID from Recovery
 
@@ -178,11 +178,14 @@ Dysbiosis impairs estrogen deconjugation → altered hormone metabolism → may 
 
 | Condition | Shared Metals | Shared Taxa | Shared Ecology | Overlap |
 |-----------|--------------|-------------|----------------|---------|
-| **[[Depression]]** | Fe dysregulated, Zn | F. prausnitzii depl., Roseburia depl., Bifidobacterium depl. | SCFA depletion, tryptophan dysmetabolism, gut-brain axis | 0.65 |
+| **[[depression]]** | Fe dysregulated, Zn | F. prausnitzii depl., Roseburia depl., Bifidobacterium depl. | SCFA depletion, tryptophan dysmetabolism, gut-brain axis | 0.65 |
 | **[[CKD]]** | Fe sequestered | Enterobacteriaceae enriched, F. prausnitzii depl. | SCFA depletion, bacterial translocation, uremic metabolites | 0.50 |
 | **[[Alzheimer's]]** | Fe, Zn | F. prausnitzii depl., Enterobacteriaceae | Neuroinflammation, BBB disruption, gut-brain axis | 0.45 |
 
 ## STOPs
+
+- **[[stop-iron-supplementation-long-covid|STOP: Iron Supplementation for Long COVID]]** — Hepcidin elevation indicates functional anemia (host antiviral defense), not true deficiency; iron supplementation feeds siderophore-producing Proteobacteria already driving the dysbiosis-translocation-inflammation loop. Evidence: cross-sectional.
+- **[[stop-broad-spectrum-antibiotics-long-covid|STOP: Broad-Spectrum Antibiotics for Long COVID]]** — Destroys residual SCFA-producing anaerobes (Faecalibacterium, Roseburia, Bifidobacterium) already critically depleted, worsening the self-perpetuating dysbiosis-translocation-inflammation loop that drives Long COVID persistence. Evidence: animal-model.
 
 | STOP | Rationale |
 |------|-----------|

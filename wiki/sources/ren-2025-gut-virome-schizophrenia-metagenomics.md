@@ -17,7 +17,7 @@ platform: wikibiome
 
 - Analysis of fecal metagenomic data from 171 individuals (90 [[schizophrenia]] patients, 81 controls) using the Chinese Gut Virus Catalog (cnGVC, 67,096 vOTUs)
 - 171 vOTUs differed significantly between SCZ and controls, with 124 enriched in SCZ (mainly Siphoviridae 17.73% and Flandersviridae 12.40%) and 47 enriched in healthy controls
-- SCZ-enriched vOTUs were predicted to infect [[Akkermansia muciniphila]] species; HC-enriched vOTUs were linked to Akkermansia, suggesting disease-specific virus-host interactions
+- SCZ-enriched vOTUs were predicted to infect [[akkermansia-muciniphila]] species; HC-enriched vOTUs were linked to Akkermansia, suggesting disease-specific virus-host interactions
 - A random forest classifier based on 158 SCZ-associated vOTUs achieved AUC of 93.2%, outperforming the bacterial model
 - External validation using ASD and Parkinson's disease cohorts yielded lower AUCs (61.2-67.0%), suggesting disease specificity
 - Only 23.81% of total viral abundance could be assigned to known viral families; Siphoviridae was most dominant (11.65%)

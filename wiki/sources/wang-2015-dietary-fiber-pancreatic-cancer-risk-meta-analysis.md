@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- High [[dietary fiber]] intake is significantly associated with reduced [[pancreatic cancer]] risk in case-control studies (OR = 0.54, 95% CI: 0.44-0.67, P = 0.043) but not in the single cohort study included
+- High [[dietary fiber]] intake is significantly associated with reduced [[pancreatic-cancer]] risk in case-control studies (OR = 0.54, 95% CI: 0.44-0.67, P = 0.043) but not in the single cohort study included
 - The overall summary risk estimate across 14 studies (3,287 PC cases) showed a 46% risk reduction (OR 0.54, 95% CI: 0.44-0.67)
 - Both soluble fiber (OR 0.52) and insoluble fiber (OR 0.49) showed protective associations, with no significant difference between fiber types
 - The protective association was consistent across geographic regions (North America OR 0.57, Europe OR 0.43, Asia OR 0.57)

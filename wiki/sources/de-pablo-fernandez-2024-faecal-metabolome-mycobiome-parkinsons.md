@@ -22,7 +22,7 @@ This study investigates both the faecal [[mycobiome]] and [[metabolome]] in [[pa
 ## Key Findings
 
 - PD patients showed significant alterations in gut fungal community composition compared to controls
-- *[[candida-albicans]]* species were enriched in PD faecal samples, while *[[Saccharomyces]]* was relatively depleted
+- *[[candida-albicans]]* species were enriched in PD faecal samples, while *[[saccharomyces]]* was relatively depleted
 - Metabolomic profiling revealed alterations in tryptophan metabolism, bile acid pathways, and [[short-chain-fatty-acids]] (SCFAs)
 - Fungal dysbiosis correlated with specific metabolite signatures, suggesting functional consequences of mycobiome shifts
 - The faecal metabolome distinguished PD patients from controls with reasonable accuracy

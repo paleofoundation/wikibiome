@@ -19,7 +19,7 @@ platform: wikibiome
 - Endogenous HHV-6B (eHHV-6B) positivity and high SLE disease activity index scores had strong correlations; eHHV-6B was more prevalent in patients with SLE and pulmonary alveolar proteinosis (PAP)
 - Genome-wide association study and long-read sequencing mapped the integration of the HHV-6B genome to a locus on chromosome 22q in Japanese individuals
 - Epitope mapping and single-cell RNA sequencing revealed distinctive immune induction by eHHV-6B in SLE patients, a phenomenon termed "endoimmunity"
-- High anellovirus load correlated strongly with SLE, [[rheumatoid arthritis]], and COVID-19 status
+- High anellovirus load correlated strongly with SLE, [[rheumatoid-arthritis]], and COVID-19 status
 - The proportions of anellovirus viremia were higher in patients with SLE, RA, and COVID-19 than in healthy controls (4.8%, 3.7%, 1.7% vs 0.16%)
 - These findings highlight the need for systematic virome analysis to identify new associations between viruses and human diseases, including [[autoimmune thyroid diseases]]
 

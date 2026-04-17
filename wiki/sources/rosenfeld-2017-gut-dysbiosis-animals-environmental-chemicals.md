@@ -17,7 +17,7 @@ platform: wikibiome
 - Environmental chemical exposures including [[heavy metals]], endocrine disrupting chemicals (EDCs), and nanoparticles can induce gut [[dysbiosis]] in animal models, favoring pathogenic species that produce virulence factors like lipopolysaccharide
 - [[Arsenic Toxicity|Arsenic]] exposure (10 ppm) in mice for 4 weeks leads to distinct beta-diversity clustering, decreased Erysipelotrichaceae, and increased metabolomic alterations including indolelactic acid changes
 - Arsenic-induced gut microbiome changes are sex-dependent and genotype-dependent (wild-type vs. IL10-/- mice show different patterns)
-- [[Lead Toxicity|Lead]] exposure in mice decreases cultivable anaerobes, increases [[Lachnospiraceae]] loss, and disrupts metabolic pathways involving vitamin E, bile acids, and nitrogen metabolism
+- [[Lead Toxicity|Lead]] exposure in mice decreases cultivable anaerobes, increases [[lachnospiraceae]] loss, and disrupts metabolic pathways involving vitamin E, bile acids, and nitrogen metabolism
 - [[Cadmium Toxicity|Cadmium]] exposure at environmentally relevant doses also alters gut microbiota in mice
 - The gut-microbiome-brain axis represents a key pathway through which chemical-induced [[dysbiosis]] may lead to neurobehavioral disorders
 

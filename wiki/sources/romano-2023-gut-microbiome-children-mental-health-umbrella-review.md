@@ -26,8 +26,8 @@ condition: "autism spectrum disorder"
 **Design:** Umbrella review of 39 systematic reviews (23 observational, 16 interventional) from 7 databases through February 2023.
 
 **Taxonomic evidence synthesis - ASD (observational):**
-- Increased OTUs: [[clostridium]] clusters, [[candida-albicans]], [[Dorea]], [[roseburia]], [[bacteroides-fragilis]], [[Oscillospira]], [[ruminococcus]], [[Barnesiella]], [[desulfovibrio]], [[lactobacillus]]
-- Decreased OTUs: [[bifidobacterium]], [[prevotella]], [[Dialister]], [[Veillonella]], [[Escherichia]], [[fusobacterium]], [[streptococcus-pneumoniae]], [[Coprococcus]]
+- Increased OTUs: [[clostridium]] clusters, [[candida-albicans]], [[dorea]], [[roseburia]], [[bacteroides-fragilis]], [[Oscillospira]], [[ruminococcus]], [[Barnesiella]], [[desulfovibrio]], [[lactobacillus]]
+- Decreased OTUs: [[bifidobacterium]], [[prevotella]], [[dialister]], [[veillonella]], [[Escherichia]], [[fusobacterium]], [[streptococcus-pneumoniae]], [[coprococcus]]
 
 **Taxonomic evidence synthesis - ADHD (observational):**
 - Increased: [[bacteroides-fragilis]]

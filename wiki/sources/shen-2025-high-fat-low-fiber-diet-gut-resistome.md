@@ -38,6 +38,6 @@ pp. 1-8
 
 ## Connections
 
-- Relevant to [[cardiovascular disease]] risk through diet-microbiome-AMR axis
+- Relevant to [[cardiovascular-disease]] risk through diet-microbiome-AMR axis
 - Links to and metabolic disease
 - Implications for management via dietary interventions

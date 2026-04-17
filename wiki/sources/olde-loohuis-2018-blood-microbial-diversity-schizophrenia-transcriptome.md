@@ -16,7 +16,7 @@ platform: wikibiome
 ## Key Claims
 
 - Microbial communities in blood were profiled across 192 individuals (49 controls, 48 SCZ, 47 ALS, 48 bipolar disorder) using high-quality unmapped RNA sequencing reads as candidate microbial reads
-- [[Schizophrenia]] samples showed significantly increased alpha diversity compared to all three other groups (ANCOVA P < 0.005 for all, Bonferroni corrected)
+- [[schizophrenia]] samples showed significantly increased alpha diversity compared to all three other groups (ANCOVA P < 0.005 for all, Bonferroni corrected)
 - This finding was replicated in an independent schizophrenia case-control cohort (Controls n = 88, SCZ n = 91; P = 0.0030)
 - Proteobacteria dominated all samples (73.4%); Firmicutes, Bacteroidetes, Actinobacteria, and Cyanobacteria were also prevalent across groups
 - Increased blood microbial diversity in SCZ inversely correlated with estimated cell abundance of CD8+ memory T cells in healthy controls

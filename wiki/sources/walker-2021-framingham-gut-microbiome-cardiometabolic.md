@@ -34,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Landmark population-level study linking [[microbiome composition]] to [[cardiovascular disease]] risk factors
+- Landmark population-level study linking [[microbiome composition]] to [[cardiovascular-disease]] risk factors
 - Diet and exercise findings relevant to [[microbiome diet]] interactions in CVD
 - Medication associations connect to [[microbiome-modulating drugs]] and statin/antihypertensive effects
 - Metabolic syndrome overlap informs [[comorbidities]] in CVD-microbiome research

@@ -16,7 +16,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Physical activity (PA) can have beneficial effects on [[cardiovascular disease]] by regulating systemic [[inflammation]] directly and through behavioral/environmental factors that cause inflammation
+- Physical activity (PA) can have beneficial effects on [[cardiovascular-disease]] by regulating systemic [[inflammation]] directly and through behavioral/environmental factors that cause inflammation
 - Atherosclerosis is now recognized as an inflammatory disorder; the CANTOS trial demonstrated that targeting IL-1-beta with Canakinumab reduced non-fatal CV events by 17% in patients with recent MI, providing proof that inflammation drives CVD
 - Exercise modulates key chemokines and cytokines involved in atherosclerosis: low-intensity training decreased MCP-1 mRNA in leukocytes; CCL5 decreased in obese patients after 3 months of PA; TNF-alpha reduced in patients with metabolic syndrome
 - *Collinsella* was enriched in patients with symptomatic atherosclerosis, while *Roseburia* and *Eubacterium* were enriched in healthy controls

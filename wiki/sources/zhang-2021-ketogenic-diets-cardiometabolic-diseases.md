@@ -18,7 +18,7 @@ evidence_level: expert-opinion
 ## Key Claims
 
 - [[Ketogenic diet]] (KD) therapy is generally promising in [[obesity]], [[heart failure]], and [[hypertension]], though different voices still exist regarding diabetes and dyslipidemia
-- KD is generally protective to obese-related [[cardiovascular disease]] while remaining contradictory to diabetes and other metabolic disorder-related CVDs
+- KD is generally protective to obese-related [[cardiovascular-disease]] while remaining contradictory to diabetes and other metabolic disorder-related CVDs
 - Beta-hydroxybutyrate (BHB) regulates the PI3K/Akt pathway in cardiomyocytes to prevent apoptosis, and inhibits HDAC2 to influence mitochondrial biogenesis
 - In endothelial cells, ketone bodies inhibit mTOR pathway to regulate eNOS, subsequently dilating blood vessels and enhancing vascular function; also activate Nrf2 to enhance antioxidant gene expression
 - Very low-calorie KD (VLCKD) in 377 Italian patients significantly lowered SBP in 3 months; a 4-week KD with micronutrient supplementation improved hypertension control

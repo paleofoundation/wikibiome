@@ -31,14 +31,14 @@ This study examines the longitudinal relationship between gut [[microbiome]] com
 
 - Gut microbiome composition at baseline was associated with subsequent disease progression rate
 - *[[prevotella]]* depletion correlated with faster motor symptom progression
-- [[Enterobacteriaceae]] enrichment was associated with greater postural instability and gait difficulty
+- [[enterobacteriaceae]] enrichment was associated with greater postural instability and gait difficulty
 - Microbiome alpha diversity decreased over the disease course
 - Specific bacterial taxa showed progressive changes that tracked with clinical worsening
 - The microbiome may serve as both a biomarker of disease stage and a contributor to progression
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The longitudinal microbiome-disease progression relationship in [[parkinsons-disease]] directly connects to progressive metal [[dyshomeostasis]]. *Prevotella* depletion removes a genus that produces [[short-chain-fatty-acids]] and maintains gut barrier function -- its loss increases metal permeability. The progressive enrichment of [[Enterobacteriaceae]] (which includes metal-pirating genera like *E. coli* with siderophore systems) creates an increasingly metal-dysregulated gut environment. This progressive microbiome deterioration may drive the accelerating [[iron]] accumulation in the substantia nigra that tracks with PD staging.
+The longitudinal microbiome-disease progression relationship in [[parkinsons-disease]] directly connects to progressive metal [[dyshomeostasis]]. *Prevotella* depletion removes a genus that produces [[short-chain-fatty-acids]] and maintains gut barrier function -- its loss increases metal permeability. The progressive enrichment of [[enterobacteriaceae]] (which includes metal-pirating genera like *E. coli* with siderophore systems) creates an increasingly metal-dysregulated gut environment. This progressive microbiome deterioration may drive the accelerating [[iron]] accumulation in the substantia nigra that tracks with PD staging.
 
 ## Limitations
 

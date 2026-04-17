@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Shift work is significantly associated with [[GERD]] with a pooled OR of 1.53 (95% CI 1.33-1.77, p=0.003)
+- Shift work is significantly associated with [[gerd]] with a pooled OR of 1.53 (95% CI 1.33-1.77, p=0.003)
 - Night shift work showed OR 1.39 (95% CI 1.16-1.66) and rotating shift showed OR 1.83 (95% CI 1.44-2.33) for GERD risk
 - Similar trends were observed in both shift working men (OR 1.28, 95% CI 1.03-1.60) and shift workers of both genders (OR 1.75, 95% CI 1.45-2.11)
 - Shift work patterns are related to circadian rhythm disruption, which is associated with type 2 diabetes, obesity, cardiovascular disease, and cognitive vulnerability

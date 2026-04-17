@@ -40,19 +40,19 @@ No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22
 
 ### Depleted in ASD
 - **[[bacteroides-fragilis]]** (FDR p < 0.01)
-- **[[Lachnospiraceae]]** family (FDR p < 0.001)
+- **[[lachnospiraceae]]** family (FDR p < 0.001)
 - These beneficial taxa negatively correlated with pro-inflammatory cytokines IFN-gamma and IL-6
 
 ### Enriched in ASD
 - **[[clostridium]]** (FDR p < 0.001)
 - **[[desulfovibrio]]** (FDR p < 0.001)
 - **[[streptococcus-pneumoniae]]** (FDR p < 0.05)
-- Also: [[Neisseria]], [[Bacillus]], [[Streptomyces]]
+- Also: [[Neisseria]], [[bacillus]], [[Streptomyces]]
 
 ## Cytokine-Microbiota Correlations
 
 - **IFN-gamma and IL-6** associated with several pathogenic genera enriched in ASD
-- [[Lachnospiraceae]] abundance negatively correlated with IFN-gamma and IL-6 in subjects with severe ASD (CARS p < 0.05)
+- [[lachnospiraceae]] abundance negatively correlated with IFN-gamma and IL-6 in subjects with severe ASD (CARS p < 0.05)
 - **IL-4** significantly negatively correlated with CARS total score (p < 0.05)
 
 ## Co-Abundance Network Analysis

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- *[[Enterococcus]]* species carry diverse metal tolerance (MeT) genes for mercury (Hg), arsenic (As), and copper (Cu) that co-occur with antibiotic resistance (ABR) genes on mobile genetic elements
+- *[[enterococcus]]* species carry diverse metal tolerance (MeT) genes for mercury (Hg), arsenic (As), and copper (Cu) that co-occur with antibiotic resistance (ABR) genes on mobile genetic elements
 - MeT genes have been present in *Enterococcus* since at least the 1900s, with increasing co-occurrence with ABR genes especially since the 1990s
 - Metal and antibiotic resistance genes are shared across *Enterococcus* species and with other bacterial taxa (including *Lactobacillus*, *Streptococcus*, *Staphylococcus*), indicating extensive horizontal gene transfer across overlapping ecosystems
 - *Enterococcus* is proposed as a bioindicator for metal pollution in diverse environments

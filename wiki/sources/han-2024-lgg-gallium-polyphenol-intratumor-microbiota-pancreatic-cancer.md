@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- *Lactobacillus rhamnosus* GG (LGG) functionalized with a gallium-polyphenol network (LGG@Ga-poly) selectively eradicates tumor-promoting [[Proteobacteria]] and microbiota-derived LPS in [[pancreatic cancer]]
+- *Lactobacillus rhamnosus* GG (LGG) functionalized with a gallium-polyphenol network (LGG@Ga-poly) selectively eradicates tumor-promoting [[Proteobacteria]] and microbiota-derived LPS in [[pancreatic-cancer]]
 - Elimination of intratumoral microbiota impedes TLR activation, reduces PD-L1 and IL-1beta expression, diminishes immunotolerant myeloid populations, and improves CD8+ cytotoxic T cell infiltration
 - LGG@Ga-poly amplifies the antitumor efficacy of anti-PD-1 immune checkpoint blockade in preclinical pancreatic cancer models
 - The gallium-facilitated disruption of bacterial iron respiration provides selective antimicrobial activity against pathogenic bacteria while preserving the probiotic

@@ -17,8 +17,8 @@ platform: wikibiome
 ## Key Claims
 
 - [[Proton pump inhibitor|PPI]] use can affect microbial communities by directly targeting bacterial proton pumps and by altering the gut microenvironment through inhibiting gastric acid secretion
-- In a cohort of 211 patients, PPI use was associated with significant decrease in microbial diversity and increase of *[[Enterococcus]]*, *[[Streptococcus]]*, *[[Staphylococcus]]*, and potentially pathogenic *E. coli*
-- PPI use increased abundance of *[[Lactobacillus]]* species (*L. gasseri*, *L. fermentum*, *L. reuteri*, *L. ruminis*, *L. brevis*) with concomitant increase in formic acid and butyric acid without significant blood bacterial count changes
+- In a cohort of 211 patients, PPI use was associated with significant decrease in microbial diversity and increase of *[[enterococcus]]*, *[[streptococcus]]*, *[[Staphylococcus]]*, and potentially pathogenic *E. coli*
+- PPI use increased abundance of *[[lactobacillus]]* species (*L. gasseri*, *L. fermentum*, *L. reuteri*, *L. ruminis*, *L. brevis*) with concomitant increase in formic acid and butyric acid without significant blood bacterial count changes
 - Species differentially increased by PPIs are those often associated with the oral microbiome, suggesting increased gastric pH may enable oral-to-intestinal bacterial migration
 - Chronic PPI use has been linked to [[Clostridium difficile]] infection, [[small intestinal bacterial overgrowth]], iron deficiency anemia, and pneumonia
 - [[SCFAs]] and bacterial metabolic products such as lipopolysaccharide have been linked to differential gene regulation, intestinal paracellular permeability release, and pro-inflammatory/neural/immune cell activation

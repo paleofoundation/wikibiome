@@ -17,7 +17,7 @@ platform: wikibiome
 
 ## Why This Paper Matters
 
-This paper provides a practical, cost-effective identification algorithm for [[Enterobacteriaceae]] -- the most frequently encountered family of Gram-negative bacilli in clinical microbiology. The scheme uses only a limited battery of inexpensive biochemical tests (catalase, oxidase, indole, citrate, urease, and phenylalanine) to identify 12 genera and 23 species within 24 hours, compared to the standard 2-3 day turnaround or expensive commercial systems like API-20E. This is directly relevant to the wiki's interest in understanding the microbial ecology of the gut and the identification of pathogenic species that interact with [[heavy-metals]] in the intestinal environment, particularly species like [[Klebsiella]] and [[Escherichia-coli]] that are involved in metal resistance and transformation.
+This paper provides a practical, cost-effective identification algorithm for [[enterobacteriaceae]] -- the most frequently encountered family of Gram-negative bacilli in clinical microbiology. The scheme uses only a limited battery of inexpensive biochemical tests (catalase, oxidase, indole, citrate, urease, and phenylalanine) to identify 12 genera and 23 species within 24 hours, compared to the standard 2-3 day turnaround or expensive commercial systems like API-20E. This is directly relevant to the wiki's interest in understanding the microbial ecology of the gut and the identification of pathogenic species that interact with [[heavy-metals]] in the intestinal environment, particularly species like [[Klebsiella]] and [[Escherichia-coli]] that are involved in metal resistance and transformation.
 
 ## Key Claims
 
@@ -67,7 +67,7 @@ The family Enterobacteriaceae is divided into two major groups based on lactose 
 
 ## Connections
 
-- [[Enterobacteriaceae]] identification is fundamental to understanding [[gut-microbiome]] composition and pathogen detection
+- [[enterobacteriaceae]] identification is fundamental to understanding [[gut-microbiome]] composition and pathogen detection
 - Metal-resistant species within this family (e.g., [[Escherichia-coli]], Citrobacter) are relevant to co-selection as described in 
 - Proteus and Morganella species produce H2S, relevant to metabolism in the gut
 - Salmonella and Shigella identification relevant to understanding and their interactions with dietary metals

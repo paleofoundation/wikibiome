@@ -23,7 +23,7 @@ This expert review examines the roles of the gut [[microbiome]] in shaping brain
 
 - Gut [[dysbiosis]] is linked to altered immune and metabolic function associated with psychiatric illness
 - Germ-free mice exhibit atypical brain function and abnormal social interactions
-- [[Bifidobacterium]] longum 1714 has been shown to modulate social stress and memory
+- [[bifidobacterium]] longum 1714 has been shown to modulate social stress and memory
 - Dysbalanced microbiota in human infants is associated with fear behaviour
 - Maternal immune activation (MIA) during pregnancy can alter offspring microbiome and brain development
 - Fecal microbiota transplant from schizophrenia patients to germ-free mice induces schizophrenia-like behaviors

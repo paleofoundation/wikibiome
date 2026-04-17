@@ -261,6 +261,9 @@ The PCOS microenvironment is characterized by:
 
 ## STOPs
 
+- **[[stop-iron-supplementation-pcos|STOP: Iron Supplementation for PCOS]]** — Elevated hepcidin in PCOS indicates functional anemia (host defense), not true deficiency; iron feeds siderophore-producing pathogenic E. coli and Bacteroides, amplifying the dysbiotic niche and perpetuating estrogen recirculation. Evidence: cross-sectional.
+- **[[stop-isolated-zinc-supplementation-pcos|STOP: Isolated Zinc Supplementation for PCOS]]** — Zinc data in PCOS are inconsistent, and isolated supplementation in a dysbiotic context provides cofactors for zinc-dependent metalloproteinases in enriched pathobionts (E. coli, B. fragilis) while depleting copper and potentially worsening oxidative stress. Evidence: cross-sectional.
+
 | STOP | Conventional Rationale | Why Counterproductive |
 |------|----------------------|----------------------|
 | **STOP: Iron supplementation in PCOS** | Patient presents with anemia or low serum iron | Elevated hepcidin indicates **functional anemia** (host defense), not true deficiency. Iron feeds siderophore-producing pathogenic E. coli and Bacteroides, amplifying the dysbiotic niche and perpetuating estrogen recirculation |

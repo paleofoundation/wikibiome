@@ -16,10 +16,10 @@ platform: wikibiome
 
 ## Key Claims
 
-- Diseases associated with mucosal eosinophilia (EoE and [[GERD]]) are characterized by a different esophageal microbiome from that found in normal mucosa
+- Diseases associated with mucosal eosinophilia (EoE and [[gerd]]) are characterized by a different esophageal microbiome from that found in normal mucosa
 - Bacterial load was increased in both EoE and GERD relative to normal subjects, regardless of treatment status or degree of mucosal eosinophilia
 - *[[Haemophilus]]* was significantly increased in untreated EoE subjects compared with normal subjects
-- *[[Streptococcus]]* was decreased in GERD subjects on proton pump inhibitor treatment compared with normal subjects
+- *[[streptococcus]]* was decreased in GERD subjects on proton pump inhibitor treatment compared with normal subjects
 - The Esophageal String Test (EST) was used as a novel non-invasive method to capture esophageal microbiome, providing a less invasive alternative to biopsy
 - Eosinophilic inflammation can disrupt esophageal motility, leading to stasis and proliferation of damaging species, and EoE patients restrict their diets, potentially changing bacterial substrate
 

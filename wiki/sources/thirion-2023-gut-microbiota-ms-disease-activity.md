@@ -40,5 +40,5 @@ taxa_discussed: ["Faecalibacterium"]
 - The bacteriophage finding connects to approaches and suggests the MS gut virome warrants further investigation
 - Cytokine correlations with specific bacteria provide mechanistic links between and systemic inflammation in MS, extending immune profiling from [[jangi-2016-gut-microbiome-alterations-ms]]
 - The disease activity correlation suggests monitoring could serve as a for relapse prediction
-- Methanogenesis enrichment in MS aligns with elevated [[Methanobrevibacter]] and breath methane in [[jangi-2016-gut-microbiome-alterations-ms]]
+- Methanogenesis enrichment in MS aligns with elevated [[methanobrevibacter]] and breath methane in [[jangi-2016-gut-microbiome-alterations-ms]]
 - [[Gordonibacter-urolithinfaciens]] produces urolithins from dietary polyphenols, connecting to research in MS

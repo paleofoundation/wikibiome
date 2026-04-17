@@ -39,6 +39,6 @@ pp. 671-678
 
 ## Connections
 
-- Comprehensive framework linking diet types to [[cardiovascular disease]] risk via microbiome
+- Comprehensive framework linking diet types to [[cardiovascular-disease]] risk via microbiome
 - Links to and microbiome-based therapies
 - Relevant to [[tmao]], [[short-chain-fatty-acids]], and metabolism pathways

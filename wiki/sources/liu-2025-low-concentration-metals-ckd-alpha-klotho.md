@@ -58,7 +58,7 @@ why_keystone: Identifies alpha-klotho as the mediator converting low-dose Cd/Hg/
 
 # Connections
 
-- Novel mechanism: [[alpha-klotho]] as mediator between metal exposure and [[chronic kidney disease]]
+- Novel mechanism: [[alpha-klotho]] as mediator between metal exposure and [[chronic-kidney-disease]]
 - Klotho's renoprotective functions via [[nf-kappa-b]] suppression and [[oxidative-stress|oxidative stress]] reduction
 - Reverse causality concern: impaired kidneys reduce metal excretion, creating apparent positive association
 - [[Thallium]] nephrotoxicity via ATPase inhibition, catecholamine release, renal vasoconstriction

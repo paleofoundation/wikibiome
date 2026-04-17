@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[probiotics]] supplementation counteracts gemcitabine+nab-paclitaxel-induced [[dysbiosis]] and ameliorates chemotherapy side effects in [[pancreatic cancer]] mouse models
+- [[probiotics]] supplementation counteracts gemcitabine+nab-paclitaxel-induced [[dysbiosis]] and ameliorates chemotherapy side effects in [[pancreatic-cancer]] mouse models
 - Combined chemotherapy plus probiotics reduced stroma deposition, increased cell apoptosis, preserved intestinal villi integrity, and reduced chemotherapy-related hematologic toxicity
 - [[16S rRNA sequencing]] showed chemotherapy caused significant drops in microbial species richness, which was restored by probiotic supplementation
 - Serum [[metabolomics]] revealed significant drops in amino acids upon probiotics administration and sharp decline in bile acids in KRASG12D mutated mice

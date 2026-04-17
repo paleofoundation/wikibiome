@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Statistically significant inverse associations were observed between [[pancreatic cancer]] risk and palmitate (OR 0.73, P-trend=0.02), stearate (OR 0.70, P-trend=0.02), oleate (OR 0.75, P-trend=0.04), total saturated FAs (OR 0.67, P-trend=0.01), and monounsaturated FAs (OR 0.72, P-trend=0.02)
+- Statistically significant inverse associations were observed between [[pancreatic-cancer]] risk and palmitate (OR 0.73, P-trend=0.02), stearate (OR 0.70, P-trend=0.02), oleate (OR 0.75, P-trend=0.04), total saturated FAs (OR 0.67, P-trend=0.01), and monounsaturated FAs (OR 0.72, P-trend=0.02)
 - Among obese subjects (BMI >30), saturated and monounsaturated [[fatty acids]] showed strongly protective associations (saturated FAs OR 0.35, P-trend=0.002; monounsaturated FAs OR 0.32, P-trend=0.001)
 - Substituting polyunsaturated or monounsaturated FAs for saturated FAs may reduce pancreatic cancer risk independently of total energy intake, particularly among obese subjects
 

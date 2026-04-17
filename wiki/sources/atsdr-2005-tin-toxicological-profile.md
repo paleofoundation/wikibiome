@@ -42,7 +42,7 @@ karen_brain_primitives: []
 
 ## Connections
 
-- [[Tin]] - comprehensive toxicological reference for tin and its compounds
+- [[tin]] - comprehensive toxicological reference for tin and its compounds
 - - tributyltin, trimethyltin covered as more toxic forms
 - - complementary regulatory assessment focused on inorganic tin in canned foods
 - - tin in canned foods is a primary human exposure route

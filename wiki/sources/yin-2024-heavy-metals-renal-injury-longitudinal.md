@@ -35,7 +35,7 @@ evidence_level: prospective-cohort
 
 # Connections
 
-- Rare longitudinal design strengthens causal inference for [[chronic kidney disease]] and metal exposure
+- Rare longitudinal design strengthens causal inference for [[chronic-kidney-disease]] and metal exposure
 - Synergistic metal interactions support the concept of cumulative [[nephrotoxicity]] from [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]]
 - [[chromium]] nephrotoxicity via ROS production, cell apoptosis, mitochondrial dynamics disorder
 - [[cadmium]] damages proximal tubules via [[oxidative-stress|oxidative stress]] and mitochondrial dysfunction

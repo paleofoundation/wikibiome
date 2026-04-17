@@ -38,7 +38,7 @@ evidence_level: cross-sectional
 - CCDI scores: 27 significant associations
 - Bean consumption: 18 significant associations
 - [[Lacrimispora amygdalina]]: specifically correlated with insufficient vitamin/mineral intake in ASD (coefficient > 0.5, qval < 0.1)
-- [[Massilioclostridium coli]] and [[Escherichia coli]]: exhibited inverse correlations with dietary metrics
+- [[Massilioclostridium coli]] and [[escherichia-coli]]: exhibited inverse correlations with dietary metrics
 
 **Emulsifier findings:**
 - Polysorbate-80 and carrageenan demonstrated stronger associations with microbial features in ASD children

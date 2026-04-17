@@ -15,9 +15,9 @@ platform: wikibiome
 
 ## Key Claims
 
-- In 29 [[schizophrenia]] patients vs 30 age-matched controls from Inner Mongolia, patients had higher abundances of [[Clostridium]] and Megasphaera by 16S rRNA sequencing
+- In 29 [[schizophrenia]] patients vs 30 age-matched controls from Inner Mongolia, patients had higher abundances of [[clostridium]] and Megasphaera by 16S rRNA sequencing
 - Whole-genome shotgun metagenomic sequencing revealed functional pathway alterations: sphingolipid, phosphonate, and phosphinate metabolism, and glutamine metabolism were associated with schizophrenia occurrence and development
-- Fecal [[Clostridium]] coccoides exacerbates schizophrenia onset; bacterial infection elicits intestinal inflammatory response leading to release of inflammatory mediators affecting the brain
+- Fecal [[clostridium]] coccoides exacerbates schizophrenia onset; bacterial infection elicits intestinal inflammatory response leading to release of inflammatory mediators affecting the brain
 - Patients were hospitalized for at least 1 year, receiving clozapine and olanzapine, with PANSS scores >= 30
 - The study combined 16S rRNA and whole-genome shotgun approaches to characterize both composition and function
 

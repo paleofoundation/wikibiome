@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Increasing BMI is positively associated with [[GERD]] in US studies: overweight OR=1.57 (95% CI 1.36-1.80), obese OR=2.15 (P=0.10), demonstrating a dose-response relationship
+- Increasing BMI is positively associated with [[gerd]] in US studies: overweight OR=1.57 (95% CI 1.36-1.80), obese OR=2.15 (P=0.10), demonstrating a dose-response relationship
 - The BMI-GERD association became apparent only after stratification by country and level of BMI, with US studies showing the strongest association
 - European studies provided heterogeneous results despite stratification, with individual studies showing both positive associations and no association
 - Twenty studies including 18,346 GERD patients were included in the primary analyses across multiple countries and study designs

@@ -23,7 +23,7 @@ taxa_discussed: []
 - Diet high in fermentable fibres and plant [[polyphenols]] can regulate microbial activities in the gut, supporting the scientific rationale for efficacious [[prebiotics]]
 - [[probiotics]] with carefully selected strains can hydrolyse [[bile acids]] and lower blood [[cholesterol]], a recognized risk factor in CVD
 - [[tmao]] production from dietary choline and L-carnitine by gut microbiota contributes to CVD pathology; a vegan diet selects for bacteria with low capacity to metabolize L-carnitine
-- Prebiotic oligofructose reduces gut permeability and associated metabolic endotoxemia; increases relative abundance of *[[Akkermansia muciniphila]]*
+- Prebiotic oligofructose reduces gut permeability and associated metabolic endotoxemia; increases relative abundance of *[[akkermansia-muciniphila]]*
 
 ## Methods/Findings
 
@@ -46,5 +46,5 @@ pp. 172-185
 ## Connections
 
 - Links to [[fecal microbiota transplant]] and metabolic disease
-- Relevant to [[Mediterranean diet]] and [[cardiovascular disease]] prevention
+- Relevant to [[Mediterranean diet]] and [[cardiovascular-disease]] prevention
 - Connects to metabolism and homeostasis

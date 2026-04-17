@@ -19,7 +19,7 @@ platform: wikibiome
 - Depressed patients showed significantly increased IL-6, IL-8, TNF-alpha, CRP, and higher kynurenine/tryptophan ratio (p = 0.008) compared to controls
 - Fecal transplant from depressed patients to microbiota-depleted rats induced behavioral and physiological features of the depressive phenotype including altered [[tryptophan-metabolism]] and immune function
 - Chronic antibiotic treatment decreased gut microbiota diversity and hippocampal 5-HT, with increased 5-HIAA/5-HT turnover (p = 0.0004), replicating depressive phenotype
-- Omega-3 PUFA/vitamin A-enriched diet prevented memory and BDNF decline associated with social instability stress, and prevented decreases in [[Lachnospiraceae]] and Ruminococcaceae
+- Omega-3 PUFA/vitamin A-enriched diet prevented memory and BDNF decline associated with social instability stress, and prevented decreases in [[lachnospiraceae]] and Ruminococcaceae
 - Fecal samples from depressed group showed decreased microbiota richness (p = 0.005), total observed species (p = 0.002), and phylogenetic diversity (p = 0.001), with most pronounced reduction of Prevotellaceae and Prevotella
 
 ## Methods/Findings

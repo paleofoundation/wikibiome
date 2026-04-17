@@ -24,7 +24,7 @@ karen_brain_primitives: [5]
 
 ## Key Claims
 
-- Plant-based and exclusion diets demonstrated significant improvements in pediatric [[GERD]] symptoms, likely due to anti-inflammatory properties and elimination of dietary triggers
+- Plant-based and exclusion diets demonstrated significant improvements in pediatric [[gerd]] symptoms, likely due to anti-inflammatory properties and elimination of dietary triggers
 - [[Probiotics]] emerged as the most promising intervention, reducing GERD symptoms by enhancing [[gut barrier]] function and modulating [[inflammation]]
 - Evidence on low-fat versus full-fat dairy diets showed mixed results, with no clear consensus on their impact on GERD symptoms
 - Adherence to dietary interventions was identified as a key challenge, particularly in pediatric populations where food preferences and parental factors play crucial roles

@@ -15,7 +15,7 @@ evidence_level: in-vitro
 
 # Key Claims
 
-- [[Quercetin]], a major dietary [[polyphenol]] found in fruits and vegetables, diminishes self-renewal of [[pancreatic cancer]] stem cells (CSCs) as measured by spheroid and colony formation assays
+- [[Quercetin]], a major dietary [[polyphenol]] found in fruits and vegetables, diminishes self-renewal of [[pancreatic-cancer]] stem cells (CSCs) as measured by spheroid and colony formation assays
 - Combination of quercetin with [[sulforaphane]] (from broccoli) had synergistic effects, eliminating the pro-proliferative NF-kB binding feature while preventing EMT
 - Quercetin overcomes apoptosis resistance of CSCs through caspase-dependent mechanisms and PARP cleavage
 - In vivo, quercetin and sulforaphane combination strongly reduced growth of CSC-enriched xenografts without toxic side effects

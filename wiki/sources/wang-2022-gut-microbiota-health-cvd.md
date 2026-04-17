@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Central reference linking [[microbiome and immune system]] to [[cardiovascular disease]] through innate immunity
+- Central reference linking [[microbiome and immune system]] to [[cardiovascular-disease]] through innate immunity
 - NLRP3 and NF-kB pathway details relevant to [[microbiome and inflammation]] mechanisms
 - Metabolite pathway diagram extends [[metabolic pathways]], [[short-chain-fatty-acids]], [[bile acids]], and [[tmao]] understanding
 - Gut barrier function discussion connects to [[microbiome-host interactions]] and intestinal permeability

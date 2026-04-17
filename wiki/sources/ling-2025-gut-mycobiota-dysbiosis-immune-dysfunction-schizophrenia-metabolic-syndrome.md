@@ -17,11 +17,11 @@ platform: wikibiome
 
 - First comprehensive investigation of fungal communities in [[schizophrenia]] patients with [[metabolic-syndrome]] (SZ-MetS, n=109) versus healthy controls (n=101) using ITS1 sequencing
 - Global mycobiota diversity showed no significant structural differences, but compositional analyses revealed profound taxonomic shifts at genus level
-- Pathobiont species Trichosporon asahii, [[Candida albicans]], and Lodderomyces elongisporus were enriched in SZ-MetS patients
-- Beneficial species ([[Saccharomyces cerevisiae]], Pleurotus ostreatus) were reduced in patients
+- Pathobiont species Trichosporon asahii, [[candida-albicans]], and Lodderomyces elongisporus were enriched in SZ-MetS patients
+- Beneficial species ([[saccharomyces-cerevisiae]], Pleurotus ostreatus) were reduced in patients
 - Two mycotype clusters identified: Candida-dominant and Malassezia-dominant, with similar distribution between groups
 - Machine learning revealed a six-species fungal signature with diagnostic potential (AUC = 0.86)
-- IL-6 and MIP-1alpha were positively associated with Ustilago esculenta and Trichosporon asahii, but negatively correlated with [[Saccharomyces cerevisiae]]
+- IL-6 and MIP-1alpha were positively associated with Ustilago esculenta and Trichosporon asahii, but negatively correlated with [[saccharomyces-cerevisiae]]
 - Lodderomyces linked to elevated triglycerides; S. cerevisiae associated with reduced symptom severity
 - Approximately one-third of SZ patients develop MetS, creating a vicious cycle that exacerbates symptoms and increases cardiovascular mortality
 

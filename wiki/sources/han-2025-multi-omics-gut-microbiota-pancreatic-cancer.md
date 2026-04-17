@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Integrated [[shotgun metagenomics]] and untargeted [[metabolomics]] revealed treatment-specific associations between [[gut microbiome]] and [[pancreatic cancer]], with chemotherapy and surgery groups showing distinct microbial profiles
+- Integrated [[shotgun metagenomics]] and untargeted [[metabolomics]] revealed treatment-specific associations between [[gut microbiome]] and [[pancreatic-cancer]], with chemotherapy and surgery groups showing distinct microbial profiles
 - Both chemotherapy (CT) and surgery combined with chemotherapy (SCT) were associated with increased abundance of *Lactobacillus gasseri* and *Streptococcus equinus*
 - Microbial single nucleotide polymorphisms (SNPs) revealed bacterial SNPs related to tumor location, with head tumors associated with *E. coli*, *Shigella sonnei*, and *Shigella flexneri*
 - Metabolomic model based on fecal metabolites (indole-3-acetic acid, capsaicin, sinigrin, chenodeoxycholic acid, glycerol-3-phosphate) achieved accuracy of 0.77 in distinguishing HC from PC

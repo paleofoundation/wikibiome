@@ -338,6 +338,8 @@ This model explains why **eliminating passenger bacteria (with antibiotics or pr
 
 ## STOPs
 
+- **[[stop-iron-supplementation-colorectal-cancer|STOP: Iron Supplementation for Colorectal Cancer]]** — CRC tumors actively sequester iron, and the characteristic pathobionts (Fusobacterium nucleatum, pks+ E. coli) are siderophore-dependent iron foragers whose virulence is directly iron-dependent; supplementation feeds the same microbial ecology that drove oncogenesis. Evidence: cross-sectional.
+
 *CRC-specific STOPs (counterproductive interventions) are less well-documented than endometriosis STOPs, but emerging data suggest:*
 
 - **Broad-spectrum antibiotics in high-risk populations**: While antibiotics may reduce immediate dysbiotic burden, broad-spectrum agents eliminate protective SCFA producers; long-term antibiotic use is associated with increased CRC risk (OR 1.17, 95% CI 1.05-1.30) with 8-year latency [[simin-2020-antibiotic-use-crc-risk]]

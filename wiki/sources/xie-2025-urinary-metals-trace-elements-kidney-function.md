@@ -37,7 +37,7 @@ evidence_level: prospective-cohort
 
 - Prospective design strengthens causal inference vs. cross-sectional studies
 - [[nickel]] association with kidney dysfunction relevant to [[nickel toxicology]]
-- [[Cobalt]] mimics hypoxic conditions via HIF stabilization -- links to [[oxidative-stress|oxidative stress]]
+- [[cobalt]] mimics hypoxic conditions via HIF stabilization -- links to [[oxidative-stress|oxidative stress]]
 - [[copper]] nephrotoxicity via oxidative stress, lipid peroxidation, mitochondrial dysfunction
 - Complements [[yin-2024-heavy-metals-renal-injury-longitudinal]] longitudinal China study
 - Supports [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]] on proximal tubule mechanisms

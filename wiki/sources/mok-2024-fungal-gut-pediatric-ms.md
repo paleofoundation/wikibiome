@@ -38,7 +38,7 @@ platform: wikibiome
 - [[mycobiome]] -- first characterization in pediatric-onset MS
 - [[multiple-sclerosis]] -- early-onset MS shows distinct fungal profile from monophasic demyelination
 - [[candida-albicans]] -- *C. albicans* as predictive marker for POMS
-- [[Saccharomyces]] -- dominant genus across all groups, likely diet-derived
+- [[saccharomyces]] -- dominant genus across all groups, likely diet-derived
 - -- uniquely abundant in POMS, primarily dietary (*A. bisporus*)
 - -- *F. poae* as potential POMS marker; warrants further investigation
 - -- significant compositional differences between POMS and monoADS

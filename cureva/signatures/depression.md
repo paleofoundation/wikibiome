@@ -42,7 +42,7 @@ associated_conditions:
     shared_taxa: [faecalibacterium-prausnitzii, lachnospiraceae, candida-albicans]
     shared_ecological: [dysbiosis, neuroinflammation, SCFA-depletion]
     overlap_score: 0.45
-  - condition: "[[PCOS]]"
+  - condition: "[[pcos]]"
     shared_metals: [zinc, iron]
     shared_taxa: [bacteroides, escherichia-coli]
     shared_ecological: [dysbiosis, hormonal-dysregulation, leaky-gut]

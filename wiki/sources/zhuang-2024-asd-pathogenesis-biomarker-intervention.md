@@ -84,7 +84,7 @@ Comprehensive review of **ASD pathogenesis using multi-omics approaches**, diagn
 ### Relationship to Dysbiosis
 
 - Dysbiotic microbiota cannot properly educate T cells
-- Loss of [[Faecalibacterium prausnitzii]] and other SCFA producers
+- Loss of [[faecalibacterium-prausnitzii]] and other SCFA producers
 - Reduced tryptophan metabolite-producing taxa
 - Vicious cycle: dysbiosis → immune dysregulation → perpetual dysbiosis
 

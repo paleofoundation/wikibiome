@@ -15,7 +15,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Schizophrenia]] is driven by genetics (risk increases from 1% in general population to 50% in monozygotic twins) and environmental risk factors that converge on immune/inflammatory pathways
+- [[schizophrenia]] is driven by genetics (risk increases from 1% in general population to 50% in monozygotic twins) and environmental risk factors that converge on immune/inflammatory pathways
 - The major histocompatibility complex (MHC) locus on chromosome 6 has the highest association with schizophrenia in GWAS
 - Complement component 4 (C4A) is highly associated with SCZ-specific structural variants; increased C4A expression increases risk
 - Multiple immune receptor genes (IL-1beta, IL-6, IL-10, TNF-alpha, TGF-beta) are altered at mRNA level in SCZ patients

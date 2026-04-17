@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Multiple studies have established preliminary correlations between [[microbiome]] alterations and [[pancreatic cancer]] occurrence, with *P. gingivalis*, *Neisseria*, *Streptococcus*, *Bacteroides*, *Bifidobacteria*, and *Fusobacterium* species associated with PC development
+- Multiple studies have established preliminary correlations between [[microbiome]] alterations and [[pancreatic-cancer]] occurrence, with *P. gingivalis*, *Neisseria*, *Streptococcus*, *Bacteroides*, *Bifidobacteria*, and *Fusobacterium* species associated with PC development
 - LPS-TLR signaling activates the NF-kB/MAPK pathway to promote STAT3 activation and KRAS mutation, directly linking microbial components to carcinogenesis
 - *Candida* infection was associated with a 70-80% excess risk of developing PC in population-based cohort studies
 - [[fecal-microbiota-transplant]] from short-term vs long-term survivors modulated tumor microbiome composition and immune infiltration, demonstrating therapeutic potential

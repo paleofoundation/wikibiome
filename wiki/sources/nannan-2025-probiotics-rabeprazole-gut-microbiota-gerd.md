@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Combined [[bifidobacterium]] quadruplex viable tablets with [[rabeprazole]] significantly improved [[gut microbiota]] balance in [[GERD]] patients compared to rabeprazole alone
+- Combined [[bifidobacterium]] quadruplex viable tablets with [[rabeprazole]] significantly improved [[gut microbiota]] balance in [[gerd]] patients compared to rabeprazole alone
 - After treatment, *Bifidobacterium* and *Lactobacillus* counts in the experimental group were significantly higher than the control group (P<0.05), while *Saccharomyces* and *Enterococcus* showed no significant difference
 - GerdQ scores decreased significantly in both groups (from ~10.5 to ~6.5, P<0.01), but the experimental group showed a slightly lower post-treatment score (6.53 vs 6.43)
 - Inflammatory markers (IL-6, IL-1beta, TNF-alpha, [[CRP]]) all decreased after treatment in both groups, with CRP showing a linear correlation with GerdQ scores (R^2=0.65)

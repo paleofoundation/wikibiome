@@ -34,7 +34,7 @@ condition: "autism spectrum disorder"
 
 **Microbiota changes (16S rRNA):**
 - B-GOS increased [[bifidobacterium]], [[ruminococcus]], Lachnospiraceae family
-- [[Coprococcus]], [[Dorea formicigenerans]], [[Oribacterium]], [[Eubacterium dolchum]], TM7-3 family, Mogibacteriaceae also associated with B-GOS
+- [[coprococcus]], [[Dorea formicigenerans]], [[Oribacterium]], [[Eubacterium dolchum]], TM7-3 family, Mogibacteriaceae also associated with B-GOS
 - Increased diversity (rarefaction curves) though not statistically significant
 
 **Metabolomic findings (1H-NMR):**

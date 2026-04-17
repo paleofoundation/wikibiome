@@ -19,8 +19,8 @@ platform: wikibiome
 - Gut microbiota produces key neurotransmitters: [[GABA]], serotonin, dopamine, norepinephrine, and precursors of neurotransmitters that affect brain processes
 - SCFAs prevent blood-brain barrier dysfunction and promote neurogenesis, angiogenesis, and long-term memory storage
 - Functional crosstalk between NMDARs and GABAergic neurons is disrupted at different resolutions in schizophrenia, and gut microbiota may manipulate GABA production
-- FMT of a schizophrenia-enriched bacterium, [[Streptococcus]] vestibularis, induced social behavior deficits and altered neurotransmitter levels in recipient mice
-- Elevated [[Lactobacillus]] in FEP patients was significantly associated with symptom severity; [[Haemophilus]] positively associated with negative symptoms; [[Coprococcus]] negatively associated with negative symptoms
+- FMT of a schizophrenia-enriched bacterium, [[streptococcus]] vestibularis, induced social behavior deficits and altered neurotransmitter levels in recipient mice
+- Elevated [[lactobacillus]] in FEP patients was significantly associated with symptom severity; [[Haemophilus]] positively associated with negative symptoms; [[coprococcus]] negatively associated with negative symptoms
 - Drug-naive FEP patients showed lower fungal alpha diversity and lower fungi-to-bacteria alpha diversity ratio compared to controls
 - Increased abundance of Purpureocillium was associated with more severe psychiatric symptoms and poorer cognitive function in FEP patients
 - Butyric acid serum levels positively associated with PANSS score reduction in risperidone-treated FEP patients

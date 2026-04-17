@@ -20,7 +20,7 @@ evidence_level: expert-opinion
 
 ## Key Claims
 
-- [[GERD]] pathogenesis involves bidirectional interactions between psychological stress, [[gut microbiota]] dysbiosis, and GERD pathophysiology via the [[gut-brain axis]]
+- [[gerd]] pathogenesis involves bidirectional interactions between psychological stress, [[gut microbiota]] dysbiosis, and GERD pathophysiology via the [[gut-brain axis]]
 - Key signaling pathways driving esophageal [[inflammation]] and barrier dysfunction include [[NF-kB]], [[MAPK]], and [[PI3K]]/Akt, representing potential therapeutic targets
 - Immune cells including T-lymphocytes, dendritic cells, and mast cells, along with pro-inflammatory cytokines, contribute significantly to esophageal inflammation and barrier dysfunction
 - Up to 40% of patients with suspected GERD do not experience adequate symptomatic relief after PPIs ("refractory GERD"), highlighting the need for mechanism-driven treatments

@@ -15,7 +15,7 @@ condition: "autism spectrum disorder"
 
 # Overview
 
-Exploratory study evaluating the effects of **heavy metal poisoning on metabolic and nutritional profiles** of 20 Moroccan children diagnosed with [[autism spectrum disorder]]. Analyzed ~100 biological parameters using stool microbiology, urine organic acids, and hair heavy metal concentrations via ICP-MS. Found significant associations between [[heavy metal]] intoxication and [[dysbiosis]], [[neurotransmitter]] disruption, [[mitochondrial dysfunction]], and elevated [[oxalates]].
+Exploratory study evaluating the effects of **heavy metal poisoning on metabolic and nutritional profiles** of 20 Moroccan children diagnosed with [[autism-spectrum-disorder]]. Analyzed ~100 biological parameters using stool microbiology, urine organic acids, and hair heavy metal concentrations via ICP-MS. Found significant associations between [[heavy metal]] intoxication and [[dysbiosis]], [[neurotransmitter]] disruption, [[mitochondrial dysfunction]], and elevated [[oxalates]].
 
 # Key Findings
 

@@ -34,7 +34,7 @@ platform: wikibiome
 
 ## Connections
 
-- [[Chronic kidney disease]] -- metal exposure as risk factor and consequence modifier
+- [[chronic-kidney-disease]] -- metal exposure as risk factor and consequence modifier
 - -- Cd as most significant individual nephrotoxicant
 - -- interpretation challenges in populations with existing kidney damage
 - -- residents near industrial sites, mines, and contaminated areas

@@ -17,9 +17,9 @@ platform: wikibiome
 ## Key Claims
 
 - Gut bacteria influence the brain by modulating the HPA axis, acting on the vagus nerve, and through immune-mediated pathways including cytokine signaling
-- Both [[Lactobacillus]] and [[Bifidobacterium]] have been shown to produce GABA; [[Escherichia coli]], Bacillus species produce dopamine and norepinephrine; gut bacteria synthesize serotonin and its precursors
+- Both [[lactobacillus]] and [[bifidobacterium]] have been shown to produce GABA; [[escherichia-coli]], Bacillus species produce dopamine and norepinephrine; gut bacteria synthesize serotonin and its precursors
 - Olanzapine administration evoked significant changes in the bacterial phyla of the gut in female rats, resulting in an increase of [[Firmicutes]] and decrease of [[Bacteroides]], associated with increased systemic inflammatory markers (IL-6, IL-8, TNF-alpha, IL-1beta)
-- Patients with [[schizophrenia]] and bipolar disorder present with elevated antibodies against commensal [[Saccharomyces cerevisiae]], indicating increased immunological response against intestinal antigens
+- Patients with [[schizophrenia]] and bipolar disorder present with elevated antibodies against commensal [[saccharomyces-cerevisiae]], indicating increased immunological response against intestinal antigens
 - Elevated serum levels of soluble CD14, a surrogate of bacterial translocation, found in both schizophrenia and bipolar patients
 - D-lactic acid produced by colonic bacteria may contribute to cognitive dysfunction in schizophrenia; elevated D-lactate was among the most discriminating biomarkers between schizophrenia patients and controls
 

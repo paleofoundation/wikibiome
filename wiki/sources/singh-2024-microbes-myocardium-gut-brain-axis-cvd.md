@@ -34,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Central reference for [[microbiome and gut-brain axis]] in [[cardiovascular disease]]
+- Central reference for [[microbiome and gut-brain axis]] in [[cardiovascular-disease]]
 - Autonomic nervous system regulation connects to [[microbiome and immune system]] in CVD
 - Therapeutic strategies extend [[probiotics]], [[fecal-microbiota-transplant]], and [[microbiome-modulating drugs]] approaches
 - Stress-CVD-microbiome triad relevant to [[comorbidities]] and [[microbiome and disease progression]]

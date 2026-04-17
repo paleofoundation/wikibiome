@@ -38,7 +38,7 @@ platform: wikibiome
 
 - [[aluminum]] - most abundant toxic element found in infant formulas
 - [[arsenic]] - showed highest health risk (THQ > 1) among detected elements
-- [[Tin]] - third most abundant contaminant; related to packaging materials
+- [[tin]] - third most abundant contaminant; related to packaging materials
 - [[cadmium]] - mostly below detection limits in these formulas
 - [[lead]] - detected in only 3 samples at low concentrations
 - - infant formula surveillance and regulatory compliance

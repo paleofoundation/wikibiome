@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Symptom-based [[GERD]] prevalence in Eastern Asia was 2.5-4.8% before 2005 and 5.2-8.5% from 2005 to 2010, showing increasing trends
+- Symptom-based [[gerd]] prevalence in Eastern Asia was 2.5-4.8% before 2005 and 5.2-8.5% from 2005 to 2010, showing increasing trends
 - In Southeast and Western Asia, GERD prevalence was 6.3-18.3% after 2005, much higher than Eastern Asia
 - Endoscopic reflux esophagitis prevalence in Eastern Asia increased from 3.4-5.0% before 2000 to 4.3-15.7% after 2005
 - Barrett's esophagus prevalence remained low at 0.06-0.84% in health check-up participants and 0.31-2.00% in referral hospital settings

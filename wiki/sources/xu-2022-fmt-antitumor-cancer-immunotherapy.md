@@ -17,7 +17,7 @@ evidence_level: expert-opinion
 
 - [[fecal-microbiota-transplant]] from healthy donors can restore the dysbiotic gut, modulating or reconstructing intestinal microbiota to improve [[immunotherapy]] efficacy in cancer treatment
 - Gut microbiota dysbiosis contributes to CRC development through inflammation (NF-kB, STAT3 pathways), DNA damage (colibactin from E. coli), oxidative stress, and altered metabolite production
-- [[Fusobacterium nucleatum]] activates Wnt/beta-catenin and NF-kB signaling via FadA adhesin, directly promoting [[colon cancer]] cell proliferation
+- [[fusobacterium-nucleatum]] activates Wnt/beta-catenin and NF-kB signaling via FadA adhesin, directly promoting [[colon cancer]] cell proliferation
 - FMT combined with anti-PD-1 immunotherapy can convert non-responders to responders; sterile mice treated with antibiotics then given FMT showed enhanced response to anti-PD-1
 - Multiple ongoing clinical trials (Table 1) combine FMT with immune checkpoint blockers (ICBs) across melanoma, NSCLC, gastrointestinal cancer, and other solid tumors
 - Short-chain fatty acids (butyrate, propionate) inhibit inflammation and tumor development, while secondary bile acids can promote cancerous growth

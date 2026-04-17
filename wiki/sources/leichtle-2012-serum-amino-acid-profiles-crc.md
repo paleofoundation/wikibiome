@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- 11 of 26 serum [[amino acid]] concentrations are significantly different between [[colorectal cancer]] patients and healthy controls
+- 11 of 26 serum [[amino acid]] concentrations are significantly different between [[colorectal-cancer]] patients and healthy controls
 - A model combining CEA, glycine, and tyrosine is the best-discriminating biomarker panel with AUROC of 0.878 (95% CI 0.815-0.941), superior to CEA alone (AUROC 0.794)
 - Serum glycine and tyrosine in combination with CEA are superior to CEA alone for discriminating between CRC patients and controls
 - The amino acid concentration-based model shows non-inferiority and inferred superiority over CEA alone as a screening marker

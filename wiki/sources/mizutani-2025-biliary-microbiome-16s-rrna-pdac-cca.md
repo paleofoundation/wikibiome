@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- The biliary [[microbiome]] shows significant differences between [[pancreatic cancer]] (PDAC), cholangiocarcinoma (CCA), and choledocholithiasis (CDL), with distinct microbial community structures
+- The biliary [[microbiome]] shows significant differences between [[pancreatic-cancer]] (PDAC), cholangiocarcinoma (CCA), and choledocholithiasis (CDL), with distinct microbial community structures
 - In PDAC bile samples, *Neisseria*, *Sphingomonas*, and *Caulobacter* had higher LDA scores, while *Campylobacter* was less abundant than in CCA
 - Fungal DNA was detected in ~50% of cancer patients, with *Agaricomycetes* predominant and *Malassezia* accounting for ~10% in CCA
 - KEGG pathway analysis revealed altered [[metabolic pathways]] including peptidoglycan, sphingolipid, and fatty acid metabolism in both CCA and PDAC

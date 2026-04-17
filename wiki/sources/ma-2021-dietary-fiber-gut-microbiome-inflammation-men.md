@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Prevotella copri]] carriage abrogates the protective effect of dietary fiber on [[CRP]] levels -- fiber intake was associated with significantly greater CRP reduction only in individuals without substantial *P. copri* carriage (P-interaction=0.01)
+- [[prevotella-copri]] carriage abrogates the protective effect of dietary fiber on [[CRP]] levels -- fiber intake was associated with significantly greater CRP reduction only in individuals without substantial *P. copri* carriage (P-interaction=0.01)
 - Greater intake of dietary fiber was associated with shifts in [[gut microbiome]] composition, particularly [[Clostridiales]], and their potential for carbohydrate utilization via polysaccharide degradation
 - Fruit fiber (pectin) intake drove the greatest microbial differences, including increases of *Eubacterium eligens* and *F. prausnitzii* and selective promotion of polysaccharide-degrading enzymes (pectinase PL9)
 - Higher CRP levels corresponded with enrichment of *Bacteroides uniformis*, *B. salyersale*, *Barnesiella intestinihominis*, and *Parabacteroides*
@@ -38,6 +38,6 @@ pp. 1-8
 
 ## Connections
 
-- Demonstrates fiber-microbiome-inflammation axis in [[cardiovascular disease]] prevention
+- Demonstrates fiber-microbiome-inflammation axis in [[cardiovascular-disease]] prevention
 - Links to [[short-chain-fatty-acids]] production and [[atherosclerosis]] risk
 - Relevant to personalized based on microbiome composition

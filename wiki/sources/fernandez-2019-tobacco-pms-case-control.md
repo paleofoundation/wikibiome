@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Current tobacco smoking is associated with increased occurrence of [[premenstrual syndrome]] (PMS): adjusted OR = 1.78 (95% CI: 1.20-2.63) and [[PMDD]]: adjusted OR = 2.92 (95% CI: 1.55-5.50)
+- Current tobacco smoking is associated with increased occurrence of [[premenstrual syndrome]] (PMS): adjusted OR = 1.78 (95% CI: 1.20-2.63) and [[pmdd]]: adjusted OR = 2.92 (95% CI: 1.55-5.50)
 - A dose-response relationship exists: women who smoked 3-8 pack-years had OR = 2.34 (95% CI: 1.33-4.13) for PMS; 1-5 cigarettes/day had OR = 2.82 (95% CI: 1.57-5.06)
 - Tobacco decreases MAO activity, and when smoking ceases MAO synthesis increases, potentially increasing serotonin degradation and worsening PMS/PMDD symptoms
 - Dysmenorrhea may serve as an intermediate variable in the causal path between tobacco and PMS

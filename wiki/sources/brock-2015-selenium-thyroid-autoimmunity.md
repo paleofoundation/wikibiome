@@ -47,4 +47,4 @@ platform: wikibiome
 - Selenium-iodine interaction relevant to iodine sections in [[brylinski-2025-trace-elements-thyroid-diseases]] and [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 - Pregnancy recommendations connect to and postpartum thyroiditis prevention
 - and biology links to [[oxidative-stress|oxidative stress]] defense in thyroid
-- Graves' ophthalmopathy findings relevant to [[Graves' Disease]] management
+- Graves' ophthalmopathy findings relevant to [[graves-disease]] management

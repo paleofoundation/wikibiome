@@ -16,8 +16,8 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Streptococcus]] and [[Prevotella]] species dominate the upper GI tract, and the ratio of these two species is associated with waist-to-hip ratio and hiatal hernia length, two known [[esophageal adenocarcinoma]] risk factors
-- [[Helicobacter pylori]]-positive individuals had a significantly decreased incidence of aneuploidy (22% lower) and a non-significant trend toward lower incidence of EAC in [[Barretts esophagus]]
+- [[streptococcus]] and [[prevotella]] species dominate the upper GI tract, and the ratio of these two species is associated with waist-to-hip ratio and hiatal hernia length, two known [[esophageal adenocarcinoma]] risk factors
+- [[helicobacter-pylori]]-positive individuals had a significantly decreased incidence of aneuploidy (22% lower) and a non-significant trend toward lower incidence of EAC in [[Barretts esophagus]]
 - Bacterial communities of the stomach and esophagus showed overlapping community membership within individuals, but stomach antrum and corpus communities were less similar than antrum and esophageal samples
 - Mucosal brush sampling enriched for bacterial DNA and increased diversity compared to tissue biopsies, with up to two-log improvement in 18S recovery
 - Re-sampling of study participants over time (2-4 years) revealed similar upper GI community membership in two of three cases, demonstrating temporal stability

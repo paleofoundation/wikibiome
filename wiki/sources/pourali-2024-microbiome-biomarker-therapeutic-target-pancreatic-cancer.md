@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- The [[gut microbiome]] plays a significant role in [[pancreatic cancer]] development through persistent inflammation, impaired antitumor immune surveillance, and altered cellular processes in the tumor [[microenvironment]]
+- The [[gut microbiome]] plays a significant role in [[pancreatic-cancer]] development through persistent inflammation, impaired antitumor immune surveillance, and altered cellular processes in the tumor [[microenvironment]]
 - Oral [[microbial biomarkers]] including *Porphyromonas gingivalis*, *Aggregatibacter actinomycetemcomitans*, and *Fusobacterium* are associated with increased PDAC risk, while *Veillonella* and *Neisseria* are protective
 - [[16S rRNA sequencing]] and [[shotgun metagenomics]] can characterize the gut microbiota in PC patients for diagnostic and prognostic purposes
 - [[probiotics]], [[prebiotics]], [[antibiotics]], [[fecal-microbiota-transplant]], and bacteriophage therapy show potential for modulating the microbiome to improve treatment outcomes
@@ -30,7 +30,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Fusobacterium nucleatum]] infection in pancreatic epithelial cells caused cytokine secretion (GM-CSF, CXCL1, IL-8, MIP-3alpha) promoting tumor phenotypes
+- [[fusobacterium-nucleatum]] infection in pancreatic epithelial cells caused cytokine secretion (GM-CSF, CXCL1, IL-8, MIP-3alpha) promoting tumor phenotypes
 - *H. pylori* infection associated with increased PDAC risk through chronic inflammation and [[NF-kB]] pathway activation
 - Hepatotropic viruses (HBV, HCV, TTV) have potential oncogenic roles in PDAC through integration into host genome
 - Connects to [[microbiome composition]], [[microbiome-derived metabolites]], and [[microbiome-targeted therapy]] research

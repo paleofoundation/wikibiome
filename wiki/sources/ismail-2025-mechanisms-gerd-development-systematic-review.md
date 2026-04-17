@@ -16,11 +16,11 @@ platform: wikibiome
 
 ## Key Claims
 
-- Multiple pathophysiological pathways contribute to [[GERD]] heterogeneity, establishing that acid suppression is not the only treatment option
+- Multiple pathophysiological pathways contribute to [[gerd]] heterogeneity, establishing that acid suppression is not the only treatment option
 - LES malfunction and TLESRs were frequently noted, with 64.3% of patients reporting LES hypotension and 47% with esophageal motility disorders
 - Inflammatory cytokines [[TNF-alpha]] and [[IL-6]] were identified as important indicators of mucosal damage, with oxidative stress proteins 2.3 times more highly expressed in GERD mucosa
-- Changes in the [[microbiome]] contribute to GERD, with proliferation of some bacteria and decrease in *[[Streptococcus]]* and *[[Prevotella]]* species worsening epithelial barrier dysfunction and encouraging cytokine production
-- [[Obesity]] was a significant persistent risk factor: GERD detected in 71% of individuals with BMI>35 vs 39% with BMI<25; sleeve gastrectomy worsened GERD in 34.2% to 62.5%
+- Changes in the [[microbiome]] contribute to GERD, with proliferation of some bacteria and decrease in *[[streptococcus]]* and *[[prevotella]]* species worsening epithelial barrier dysfunction and encouraging cytokine production
+- [[obesity]] was a significant persistent risk factor: GERD detected in 71% of individuals with BMI>35 vs 39% with BMI<25; sleeve gastrectomy worsened GERD in 34.2% to 62.5%
 - Sensory hypersensitivity via [[TRPV1]] and ASIC3 receptors allows nociceptor encountering luminal contents to increase pain perception even without apparent mucosal damage
 - Ghrelin levels showed 21% reduction in GERD populations, correlating with bile acid reflux damage
 

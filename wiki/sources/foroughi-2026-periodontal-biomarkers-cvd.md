@@ -34,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Establishes periodontal pathogens as [[microbial biomarkers]] for [[cardiovascular disease]] risk
+- Establishes periodontal pathogens as [[microbial biomarkers]] for [[cardiovascular-disease]] risk
 - LPS-TLR4 signaling from oral bacteria extends [[microbiome and inflammation]] mechanisms
 - *P. gingivalis* antibodies and bacterial DNA in plaques connect to [[microbiome-host interactions]]
 - Molecular mimicry mechanism relevant to [[microbiome and immune system]] in CVD

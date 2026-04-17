@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[GERD]] prevalence ranges from 18.1% to 27.8% in North America, with global frequency of approximately 13% and increasing worldwide incidence
+- [[gerd]] prevalence ranges from 18.1% to 27.8% in North America, with global frequency of approximately 13% and increasing worldwide incidence
 - GERD can be classified into NERD (most prevalent), erosive esophagitis (EE, 30%), and [[Barretts esophagus]] (6-12% of patients)
 - BMI increases the odds ratio for erosive reflux disease in over 6,000 participants; women have marginally higher GERD symptom prevalence (16.7% vs 15.4% in men)
 - Lifestyle modifications include weight reduction, head-of-bed elevation, avoiding foods before night, and dietary trigger avoidance (chocolate, coffee, spicy meals, citrus)

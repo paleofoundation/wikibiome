@@ -16,8 +16,8 @@ platform: wikibiome
 
 ## Key Claims
 
-- Bidirectional [[Mendelian randomization]] revealed a positive causal effect of [[GERD]] on [[migraine]] (IVW: OR=1.49, 95% CI 1.34-1.66, p=3.70E-13), but migraine did not increase GERD risk (OR=1.07, P=0.1139)
-- [[Depression]] mediated 28.72% of GERD's effect on migraine, identifying it as a key mechanistic pathway
+- Bidirectional [[Mendelian randomization]] revealed a positive causal effect of [[gerd]] on [[migraine]] (IVW: OR=1.49, 95% CI 1.34-1.66, p=3.70E-13), but migraine did not increase GERD risk (OR=1.07, P=0.1139)
+- [[depression]] mediated 28.72% of GERD's effect on migraine, identifying it as a key mechanistic pathway
 - The positive causal effect of GERD on migraine remained after adjusting for confounders including smoking, alcohol consumption, obesity, type 2 diabetes, and depression via multivariable MR
 - GERD-induced esophageal inflammation can promote release of inflammatory mediators such as interleukins and tumor necrosis factor, which may affect the [[gut-brain axis]]
 - Enteroendocrine cells in the gut can release [[neuropeptides]] including [[serotonin]], [[dopamine]], and gastrin, which affect neural transmission and regulation in the brain

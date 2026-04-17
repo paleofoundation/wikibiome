@@ -51,4 +51,4 @@ platform: wikibiome
 - [[mycobiome]] -- fungal dysbiosis as underappreciated contributor to MS
 - [[gut-brain-axis]] -- bidirectional communication via immune, neural, and metabolic pathways
 - [[blood-brain-barrier]] -- BBB breakdown central to MS pathogenesis, influenced by gut permeability
-- [[Bacteroides fragilis]] -- produces anti-inflammatory TGF-beta, IL-35, and IL-10 via B cells
+- [[bacteroides-fragilis]] -- produces anti-inflammatory TGF-beta, IL-35, and IL-10 via B cells

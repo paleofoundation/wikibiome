@@ -87,7 +87,7 @@ GERD affects ~13.3% of the global population and has been reconceptualized from 
 
 **Confidence: preliminary** — no direct tissue-level metal measurements in GERD patients exist in the current source corpus.
 
-- **[[Nickel]] — indirect connection**: H. pylori (inversely correlated with erosive reflux disease) depends on nickel-urease and [NiFe]-hydrogenase for gastric colonization. Nickel-free diet enhances H. pylori eradication. Dietary nickel drives dysbiosis: reduces Bifidobacterium/Lactobacillus, increases E. coli/Enterococcus. Nickel allergy prevalence is 60% in obese individuals (vs 12.5% general) — and obesity is the strongest GERD risk factor (OR 1.73-6.1).
+- **[[nickel]] — indirect connection**: H. pylori (inversely correlated with erosive reflux disease) depends on nickel-urease and [NiFe]-hydrogenase for gastric colonization. Nickel-free diet enhances H. pylori eradication. Dietary nickel drives dysbiosis: reduces Bifidobacterium/Lactobacillus, increases E. coli/Enterococcus. Nickel allergy prevalence is 60% in obese individuals (vs 12.5% general) — and obesity is the strongest GERD risk factor (OR 1.73-6.1).
 - **PM2.5/air pollution metals**: Inhalational exposure associated with GERD risk (OR=1.14-1.71) and esophagitis (OR=1.32). PM2.5 contains metal particulates.
 - **Glutathione depleted**: Glutathione metabolism pathway disrupted in GERD children (288 differential metabolites, [[ye-2023-gut-microbiota-children-gerd-metagenomics-metabolomics]]).
 - **STEAP2 metalloreductase**: Host SNPs in STEAP2 (iron/copper uptake enzyme) associated with esophageal microbiome composition [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]].
@@ -127,17 +127,17 @@ The healthy esophagus is dominated by **Streptococcus** (Gram-positive, Type I).
 
 | Enriched in GERD/Barrett's | Evidence | Role |
 |---------------------------|---------|------|
-| [[Prevotella]] (P. melaninogenica) | 4 studies; prevalence 22%→83% normal to metaplasia | Key Barrett's biomarker; distinct strain genomics in metaplasia [[luu-2022-upper-gi-microbiota-children-reflux-metaplasia]] |
+| [[prevotella]] (P. melaninogenica) | 4 studies; prevalence 22%→83% normal to metaplasia | Key Barrett's biomarker; distinct strain genomics in metaplasia [[luu-2022-upper-gi-microbiota-children-reflux-metaplasia]] |
 | [[Pseudomonas]] | Chen 2024 (62% vs 1.2%) | Massive enrichment in GERD/FED; LPS production |
-| [[Veillonella]] | Deshpande, Park, Alageel | 52% increase in BE-to-EAC cascade |
-| [[Leptotrichia]] (L. wadei) | Deshpande 2018 | Early EAC marker; 48% increase |
-| [[Fusobacterium]] (F. nucleatum) | Deshpande, Park | NF-kB correlated; cancer-associated |
+| [[veillonella]] | Deshpande, Park, Alageel | 52% increase in BE-to-EAC cascade |
+| [[leptotrichia]] (L. wadei) | Deshpande 2018 | Early EAC marker; 48% increase |
+| [[fusobacterium]] (F. nucleatum) | Deshpande, Park | NF-kB correlated; cancer-associated |
 | [[Haemophilus]] (H. parainfluenzae) | Deshpande, Park, Ye | Cluster 1 marker; LPS producer |
 | [[Campylobacter]] | Deshpande, Luu | Enriched in metaplastic esophagus |
 
 | Depleted in GERD | Evidence | Role |
 |-------------------|---------|------|
-| [[Streptococcus]] (S. mitis/oralis) | 3+ studies; 45% decrease | Type I (healthy) community anchor; co-excludes Prevotella |
+| [[streptococcus]] (S. mitis/oralis) | 3+ studies; 45% decrease | Type I (healthy) community anchor; co-excludes Prevotella |
 
 ### Gut Taxa
 
@@ -151,11 +151,11 @@ The healthy esophagus is dominated by **Streptococcus** (Gram-positive, Type I).
 
 | Depleted | Evidence | Role |
 |----------|---------|------|
-| [[Bifidobacterium]] (multiple spp.) | Ye 2023; MR protective (OR=0.90) | B. longum, B. bifidum, B. adolescentis all depleted |
-| [[Lachnospiraceae]] UCG004 | 3 MR studies (OR=0.91); mediated by weight | Causally protective; SCFA producer |
+| [[bifidobacterium]] (multiple spp.) | Ye 2023; MR protective (OR=0.90) | B. longum, B. bifidum, B. adolescentis all depleted |
+| [[lachnospiraceae]] UCG004 | 3 MR studies (OR=0.91); mediated by weight | Causally protective; SCFA producer |
 | [[Christensenellaceae]] | 3 MR studies (OR=0.85-0.92) | Causally protective |
 | Methanobrevibacter | 2 MR studies (OR=0.95) | Causally protective archaeon |
-| [[Akkermansia muciniphila]] | MR protective for Barrett's (OR=0.76) | Barrier protection |
+| [[akkermansia-muciniphila]] | MR protective for Barrett's (OR=0.76) | Barrier protection |
 | Blautia, Lachnospira, Eubacterium hallii | Ye 2023 | SCFA producers depleted |
 
 ### Mycobiome

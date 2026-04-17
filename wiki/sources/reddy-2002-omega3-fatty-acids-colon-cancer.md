@@ -36,6 +36,6 @@ platform: wikibiome
 - COX-2 inhibition by n-3 PUFAs connects to [[drug repurposing]] research with celecoxib and NSAIDs in CRC prevention
 - Bile acid metabolism discussed here directly relevant to [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] targeting the bile acid-gut microbiome axis
 - Dietary fat-microbiome interactions link to [[Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of olive oil and phenolic compounds
-- ras-p21 modulation connects to Wnt/beta-catenin signaling pathway disrupted by [[Fusobacterium nucleatum]] in CRC
+- ras-p21 modulation connects to Wnt/beta-catenin signaling pathway disrupted by [[fusobacterium-nucleatum]] in CRC
 - The n-6/n-3 PUFA ratio concept relevant to [[short-chain-fatty-acids]] production and [[gut microbiota]] composition shifts
 - [[colorectal-cancer]]

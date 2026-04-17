@@ -47,7 +47,7 @@ This is one of the most comprehensive single-source reviews of heavy metal envir
 - Gut bioavailability increased by citrate; enhanced by parathyroid hormone and vitamin D
 - Target organs: lungs, central nervous system, bone
 - Causes osteomalacia (seen in antacid users and dialysis patients), neurotoxicity via neurofilamentous aggregates
-- Linked to [[Alzheimers Disease]] and ALS-PDC (Amyotrophic Lateral Sclerosis-Parkinsonism Dementia Complex)
+- Linked to [[alzheimers-disease]] and ALS-PDC (Amyotrophic Lateral Sclerosis-Parkinsonism Dementia Complex)
 - Affects blood-brain barrier permeability, cholinergic activity, lipid peroxidation, glutamate nitric oxide-cyclic GMP pathway
 
 ### Nickel

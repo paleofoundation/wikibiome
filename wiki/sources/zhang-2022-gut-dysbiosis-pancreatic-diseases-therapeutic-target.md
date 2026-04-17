@@ -15,7 +15,7 @@ evidence_level: expert-opinion
 
 # Key Claims
 
-- A subtle yet intimate nexus exists between the [[gut microbiome]] and pancreatic diseases including [[pancreatitis]], [[pancreatic cancer]], and type 1 diabetes mellitus
+- A subtle yet intimate nexus exists between the [[gut microbiome]] and pancreatic diseases including [[pancreatitis]], [[pancreatic-cancer]], and type 1 diabetes mellitus
 - [[Gut dysbiosis]] has been consistently reported in patients with pancreatic diseases, though causal relationships remain to be fully established
 - [[short-chain-fatty-acids]] production by gut microbiota controls cathelicidin-related antimicrobial peptide (CRAMP) production by insulin-secreting beta-cells, establishing bidirectional gut-pancreas communication
 - Microbiome-based therapeutics including [[probiotics]], [[prebiotics]], [[synbiotics]], and [[fecal-microbiota-transplant]] show promise for pancreatic disease management

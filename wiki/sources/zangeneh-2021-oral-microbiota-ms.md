@@ -21,9 +21,9 @@ evidence_level: cross-sectional
 ## Key Claims
 
 - The oral microbiota of [[multiple-sclerosis]] patients is significantly different from healthy controls, with greater total bacterial diversity in the patient group
-- [[lactobacillus]] and [[Peptostreptococcus]] were significantly higher in the healthy group (OR 0.039 and 0.250 respectively), suggesting a protective role against MS pathogenesis
-- [[prevotella]], [[Porphyromonas]], [[bacteroides-fragilis]], [[Actinomyces]], [[Staphylococcus]], [[fusobacterium]], and [[Propionibacterium]] were significantly more abundant in MS patients
-- [[Veillonella]] was found exclusively in the MS patient group
+- [[lactobacillus]] and [[peptostreptococcus]] were significantly higher in the healthy group (OR 0.039 and 0.250 respectively), suggesting a protective role against MS pathogenesis
+- [[prevotella]], [[porphyromonas]], [[bacteroides-fragilis]], [[actinomyces]], [[Staphylococcus]], [[fusobacterium]], and [[Propionibacterium]] were significantly more abundant in MS patients
+- [[veillonella]] was found exclusively in the MS patient group
 - DGGE detected more bacterial genera/species than culture methods, identifying at least 10 different bacteria per sample
 
 ## Methods/Findings

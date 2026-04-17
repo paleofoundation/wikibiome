@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Phage therapy]] display technology offers a promising approach for developing novel peptide-based therapeutics for [[pancreatic cancer]] diagnosis and treatment through high-affinity target-binding peptides
+- [[Phage therapy]] display technology offers a promising approach for developing novel peptide-based therapeutics for [[pancreatic-cancer]] diagnosis and treatment through high-affinity target-binding peptides
 - M13 and T7 phages are the most commonly used vectors for phage display, with M13 using non-lytic infection of *E. coli* and T7 using lytic infection allowing display of larger proteins
 - Phage display biopanning can select peptides from libraries of up to 10^13 clones, enabling identification of tumor-targeting peptides with high selectivity and specificity
 - Applications include targeted drug delivery, diagnostic imaging, early detection biomarkers, and cancer cell-specific therapeutic peptides

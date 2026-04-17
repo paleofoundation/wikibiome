@@ -19,7 +19,7 @@ taxa_discussed: []
 
 ## Key Claims
 
-- The PREDIMED trial confirmed that the [[Mediterranean diet]] reduces [[cardiovascular disease]] risk by about 30%, with fermented dairy foods (yoghurt and cheese) being key components
+- The PREDIMED trial confirmed that the [[Mediterranean diet]] reduces [[cardiovascular-disease]] risk by about 30%, with fermented dairy foods (yoghurt and cheese) being key components
 - Yoghurt consumption is negatively associated with weight gain and has a more neutral effect on CVD risk; cheese may be associated with reduced inflammatory biomarkers
 - Fermented dairy products may not have the same effect on raising LDL-cholesterol levels as butter with the same saturated fat content
 - Population studies from multiple countries show a reduced risk of CVD associated with consumption of fermented dairy foods

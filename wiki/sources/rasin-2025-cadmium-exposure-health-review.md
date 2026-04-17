@@ -65,7 +65,7 @@ why_keystone: "Comprehensively maps cadmium toxicology across organ systems—ki
 - - renal tubular dysfunction as primary chronic Cd effect
 - - historical cadmium poisoning in Toyama Prefecture, Japan
 - - Cd linked to Alzheimer's, Parkinson's, multiple sclerosis
-- [[Cardiovascular Disease]] - endothelial damage, atherosclerosis promotion
+- [[cardiovascular-disease]] - endothelial damage, atherosclerosis promotion
 - - epigenetic carcinogenesis mechanism; prostate and kidney cancers
 - [[oxidative-stress|oxidative stress]] - ROS generation via mitochondrial dysfunction
 - [[cardiovascular-disease]]

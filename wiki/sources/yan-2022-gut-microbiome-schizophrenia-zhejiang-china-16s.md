@@ -19,8 +19,8 @@ evidence_level: cross-sectional
 - In 50 [[schizophrenia]] patients vs 50 healthy matched controls from Zhejiang, China, alpha diversity indices (observed species, Shannon, Simpson) were all significantly higher in healthy controls
 - SZ subjects clustered more tightly on PCoA/NMDS plots (unweighted UniFrac ANOSIM R = 0.152, p = 0.001)
 - At phylum level, [[Bacteroidetes]] (p = 4.11e-03) and Proteobacteria (p = 0.037) were significantly more abundant in SZ; Firmicutes showed significant decrease (p = 3.98e-05)
-- At genus level, [[Prevotella]], [[Parabacteroides]], and [[Sutterella]] were significantly higher in SZ, while [[Faecalibacterium prausnitzii]], [[Blautia]], [[Lachnospira]], [[Clostridium]], [[Ruminococcus]], and [[Coprococcus]] were lower
-- NC group dominated by [[Faecalibacterium prausnitzii]] (12.59%), [[Roseburia]] (6.89%), Prevotella (4.43%); SZ group dominated by [[Bacteroides]] (25.66%), Prevotella (10.24%), Faecalibacterium (7.95%)
+- At genus level, [[prevotella]], [[parabacteroides]], and [[sutterella]] were significantly higher in SZ, while [[faecalibacterium-prausnitzii]], [[blautia]], [[lachnospira]], [[clostridium]], [[ruminococcus]], and [[coprococcus]] were lower
+- NC group dominated by [[faecalibacterium-prausnitzii]] (12.59%), [[roseburia]] (6.89%), Prevotella (4.43%); SZ group dominated by [[Bacteroides]] (25.66%), Prevotella (10.24%), Faecalibacterium (7.95%)
 - Succinivibrio, Megasphaera, and Nesterenkonia may serve as potential biomarkers for distinguishing SZ from controls
 - SZ patients had significantly higher BMI > 28 classification (8% vs 0%, p = 0.041)
 

@@ -165,6 +165,9 @@ Breast milk reduces NEC risk 6-10 fold through:
 
 ## STOPs
 
+- **[[stop-formula-feeding-without-supplementation-nec|STOP: Exclusive Formula Feeding Without Supplementation for NEC-Risk Infants]]** — Formula lacks HMOs, lactoferrin, IgA, and AHR ligands that prevent the Proteobacteria bloom preceding NEC; formula-fed preterm infants have 6-10x higher NEC risk. Evidence: expert-opinion.
+- **[[stop-broad-spectrum-antibiotics-pre-nec|STOP: Prophylactic Broad-Spectrum Antibiotics for NEC Prevention]]** — Depletes protective Bifidobacterium and Lactobacillus that are the primary competitive exclusion defense against the Enterobacteriaceae bloom preceding NEC, while increasing antibiotic resistance in an already-vulnerable population. Evidence: expert-opinion.
+
 ### STOP: Formula Feeding Without Supplementation
 - **Conventional rationale**: Formula provides adequate nutrition when breast milk unavailable
 - **Why counterproductive**: Formula lacks HMOs, lactoferrin, IgA, and growth factors that prevent Proteobacteria bloom. Formula-fed preterm infants have 6-10x higher NEC risk

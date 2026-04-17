@@ -22,7 +22,7 @@ This study characterizes the gut [[virome]] in [[parkinsons-disease]] patients u
 ## Key Findings
 
 - PD patients showed distinct gut virome composition compared to healthy controls
-- Bacteriophages targeting [[Lactococcus]] and other lactic acid bacteria were enriched in PD
+- Bacteriophages targeting [[lactococcus]] and other lactic acid bacteria were enriched in PD
 - Phage-driven lysis of beneficial bacteria may contribute to the bacterial [[dysbiosis]] observed in PD
 - *Lactococcus* phage enrichment correlated with depletion of *Lactococcus* bacteria in PD
 - The phageome showed greater variability in PD patients than controls

@@ -18,7 +18,7 @@ platform: wikibiome
 
 - The gut microbiome is proposed as the major environmental risk factor for CNS demyelinating disease
 - Gut dysbiosis can alter both the effector and regulatory phases of [[multiple-sclerosis|MS]] demyelination
-- [[Bacteroides fragilis]] polysaccharide A (PSA) is a potent immunomodulatory symbiont factor that protects against EAE via TLR2-dependent CD4+ T-cell activation and induction of IL-10-producing [[Tregs]]
+- [[bacteroides-fragilis]] polysaccharide A (PSA) is a potent immunomodulatory symbiont factor that protects against EAE via TLR2-dependent CD4+ T-cell activation and induction of IL-10-producing [[Tregs]]
 - Fecal transplantation from MS patients into germ-free mice produces more severe EAE than transplants from healthy donors, providing causal evidence for the MS microbiome's functional role
 - Segmented filamentous bacterium (SFB) exacerbates EAE via induction of Th17 cells; *Porphyromonas gingivalis* LPS promotes neuroinflammation via TLR2
 - CD39+ Tregs are reduced in frequency and function in RRMS patients; PSA treatment promotes CD39 expression and restores Treg function in EAE mice
@@ -40,7 +40,7 @@ platform: wikibiome
 
 - [[multiple-sclerosis]] -- gut microbiome as key environmental risk factor
 - -- central regulatory cell population dysfunctional in MS, restorable by microbial signals
-- [[Bacteroides fragilis]] -- PSA as model immunomodulatory microbial product
+- [[bacteroides-fragilis]] -- PSA as model immunomodulatory microbial product
 - [[short-chain-fatty-acids]] -- SCFAs mediate intestinal barrier and BBB integrity
 - [[blood-brain-barrier]] -- gut dysbiosis compromises BBB, linking gut to CNS inflammation
 - -- experimental autoimmune encephalomyelitis as primary animal model for MS

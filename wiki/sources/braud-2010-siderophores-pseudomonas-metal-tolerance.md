@@ -38,7 +38,7 @@ why_keystone: "Demonstrates that bacterial siderophores function as broad-spectr
 
 ## Key Claims
 
-- The siderophores pyoverdine (PVD) and pyochelin (PCH) produced by *[[Pseudomonas aeruginosa]]* sequester toxic metals in the extracellular medium, reducing their diffusion into bacterial cells
+- The siderophores pyoverdine (PVD) and pyochelin (PCH) produced by *[[pseudomonas-aeruginosa]]* sequester toxic metals in the extracellular medium, reducing their diffusion into bacterial cells
 - Both PVD and PCH chelate many metals in addition to [[iron]], including Al3+, Co2+, Cu2+, Eu3+, Ni2+, Pb2+, Tb3+ and Zn2+ (PVD) and Al3+, Co2+, Cu2+, Ni2+, Pb2+ and Zn2+ (PCH)
 - Only iron is efficiently transported into the cell via PVD/PCH uptake pathways; other metals are chelated extracellularly but not imported
 - Siderophore-deficient strains showed lower metal tolerance and higher intracellular metal accumulation

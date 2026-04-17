@@ -41,6 +41,6 @@ pp. 1-8 (accepted manuscript)
 
 ## Connections
 
-- Links to [[gut microbiome]] modulation for [[cardiovascular disease]] prevention
+- Links to [[gut microbiome]] modulation for [[cardiovascular-disease]] prevention
 - Relevant to [[prebiotics]] and as complementary approaches
 - Connects to [[metabolic syndrome]] management via microbiome-targeted interventions

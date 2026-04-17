@@ -19,7 +19,7 @@ platform: wikibiome
 - FMT from SCZ patients into SPF mice was sufficient to induce schizophrenia-like symptoms: hyperkinetic behavior, deficits in sociability, and increased anxiety
 - SCZ fecal microbiota-recipient mice exhibited hyperkinetic behavior (increased total distance and average speed in open field test), decreased time in center area (anxiety), and reduced entries/time in elevated plus maze open arms
 - Three-chamber social interaction test showed SCZ-FMT mice failed to exhibit preference for sociability (p < 0.0001) and social novelty compared to HC-FMT mice
-- At genus level, Bifidobacterium, [[Collinsella]], [[Blautia]], Shigella, and Acinetobacter were dominant differentially abundant ASVs
+- At genus level, Bifidobacterium, [[collinsella]], [[blautia]], Shigella, and Acinetobacter were dominant differentially abundant ASVs
 - Twelve metabolism pathways were significantly associated with relative abundances of Nesterenkonia, [[Bacteroides]], Acinetobacter, Shigella, Burkholderia, Brevundimonas, Pseudomonas, Agrobacterium, Cupriavidas, and Acidovorax
 - Four key genes were identified correlated with SCZ by integrative brain transcriptome analysis
 - Dysregulated brain transcript response included altered synaptic transmission and alternative splicing of SCZ-relevant genes

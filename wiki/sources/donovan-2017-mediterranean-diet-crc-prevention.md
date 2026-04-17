@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- The [[Mediterranean diet]] (MD) offers protection against [[colorectal cancer]] (CRC) through multiple bioactive components: n-3 fatty acids, fiber, olive oil, and polyphenolic compounds
+- The [[Mediterranean diet]] (MD) offers protection against [[colorectal-cancer]] (CRC) through multiple bioactive components: n-3 fatty acids, fiber, olive oil, and polyphenolic compounds
 - MD components reduce inflammation via distinct pathways: n-3 fatty acids suppress COX-2 and TNF-alpha; fiber/butyrate inhibit NF-kB signaling; olive oil (EVOO) reduces COX-2, iNOS, STAT3; resveratrol decreases IL-1beta, IL-6, TNF-alpha
 - CRC develops via the adenoma-carcinoma sequence over ~20 years, driven by three molecular pathways: CIN (chromosomal instability, 80-85%), MSI (microsatellite instability, ~24%), and CIMP (CpG island methylator phenotype, ~27%)
 - High-fiber diets promote [[butyrate]] production, which improves NF-kB signaling suppression, increases TGF-beta, and reduces dendritic cells and memory T lymphocytes in the colon

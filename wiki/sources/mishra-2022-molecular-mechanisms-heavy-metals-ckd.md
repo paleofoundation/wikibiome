@@ -62,7 +62,7 @@ why_keystone: "Maps distinct metal-specific mechanisms of kidney injury for arse
 
 ## Connections
 
-- [[Chronic kidney disease]] -- comprehensive molecular pathogenesis review
+- [[chronic-kidney-disease]] -- comprehensive molecular pathogenesis review
 - -- As, Cd, Hg mechanisms in kidney injury
 - [[Oxidative stress]] -- central mechanism in CKD progression
 - [[ferroptosis]] -- iron-dependent cell death pathway in kidneys

@@ -15,7 +15,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Schizophrenia]] affects 1% of the population across all cultures, equally common in men and women, though onset is later in women
+- [[schizophrenia]] affects 1% of the population across all cultures, equally common in men and women, though onset is later in women
 - Positive symptoms include hallucinations, delusions, disorganized speech; negative symptoms include flattened affect, anhedonia, avolition
 - Family history is the most significant risk factor: monozygotic twins have ~50% concordance, first-degree relatives 6-17% lifetime incidence
 - Dopaminergic neurotransmission is central to pathophysiology; drugs increasing dopamine cause positive symptoms, all antipsychotics decrease dopaminergic neurotransmission

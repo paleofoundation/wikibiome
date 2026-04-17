@@ -16,7 +16,7 @@ tags: [outreach, keystone, email-template]
 
 Dear Dr. {{CORRESPONDING_AUTHOR_LAST_NAME}},
 
-I am writing on behalf of WikiBiome (wikibiome.com), an open-access encyclopedia of microbiome science with particular emphasis on microbial metallomics, nutritional immunity, and disease-associated signatures.
+I am writing on behalf of WikiBiome (www.wikibiome.com), an open-access encyclopedia of microbiome science with particular emphasis on microbial metallomics, nutritional immunity, and disease-associated signatures.
 
 Your study, "{{PAPER_TITLE}}" ({{JOURNAL}}, {{YEAR}}), has been formally designated a **Keystone Study** on our platform.
 
@@ -26,9 +26,9 @@ Your study satisfied the following criteria:
 
 {{CRITERIA_MET_DESCRIPTIONS}}
 
-The full classification criteria are published at: https://wikibiome.com/keystone
+The full classification criteria are published at: https://www.wikibiome.com/keystone
 
-The WikiBiome page featuring your research can be viewed here: https://wikibiome.com/article/{{SOURCE_PAGE_ID}}
+The WikiBiome page featuring your research can be viewed here: https://www.wikibiome.com/article/{{SOURCE_PAGE_ID}}
 
 We would welcome any corrections to our interpretation of your findings. WikiBiome is committed to accurately representing the published evidence, and the researchers who conducted the work are best positioned to identify mischaracterization.
 
@@ -42,7 +42,7 @@ Karen Pendergrass
 Founder, WikiBiome
 Executive Director, Paleo Foundation
 karen@paleofoundation.com
-https://wikibiome.com
+https://www.wikibiome.com
 
 ---
 

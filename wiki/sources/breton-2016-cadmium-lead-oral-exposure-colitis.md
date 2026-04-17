@@ -35,7 +35,7 @@ platform: wikibiome
 
 - Central to [[Cadmium Toxicity]] and [[Lead Toxicity]] in the GI tract
 - Challenges simple dose-response assumptions in [[metal-toxicology]] -- demonstrates hormesis-like effects
-- Relevant to [[Inflammatory Bowel Disease]] pathogenesis and environmental risk factors
+- Relevant to [[inflammatory-bowel-disease]] pathogenesis and environmental risk factors
 - Connects to [[Intestinal Barrier Function]] through TEER experiments
 - Links to [[Gut Microbiome and Metal Exposure]] through modulation of intestinal inflammation
 - Metallothionein induction relates to [[Metal Detoxification Mechanisms]]

@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Dysbiosis]] with elevated Firmicutes/Bacteroidetes ratio parallels findings in other [[pancreatic cancer]] microbiome studies
+- [[Dysbiosis]] with elevated Firmicutes/Bacteroidetes ratio parallels findings in other [[pancreatic-cancer]] microbiome studies
 - Links [[microbiome and gut-brain axis]] to neuropsychological outcomes in pancreatic disease
 - Reduced *Lactobacillus* and *Bifidobacterium* in mucinous neoplasms relevant to [[probiotics]] intervention strategies
 - Inflammatory marker elevation connects to [[microbiome and inflammation]] pathways in pancreatic cancer

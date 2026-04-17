@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- Specific well-studied oral, gastrointestinal, and intrapancreatic microbes have potential etiological roles in [[pancreatic cancer]] carcinogenesis
+- Specific well-studied oral, gastrointestinal, and intrapancreatic microbes have potential etiological roles in [[pancreatic-cancer]] carcinogenesis
 - *Porphyromonas gingivalis* is the periodontal pathogen most strongly associated with elevated PDAC risk, with a 59% greater risk of development and 2-fold higher risk based on antibody levels
 - The microbiota influences PDAC through five key mechanisms: persistent inflammation, immune modulation, metabolism regulation, tumor [[microenvironment]] alteration, and bacteria-virus interaction
 - Hepatotropic viruses (HBV, HCV) have potential oncogenic roles, with *H. pylori* infection linked to increased PDAC risk
@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Fusobacterium nucleatum]] activates NF-kB and Wnt/beta-catenin signaling in carcinogenesis, linking to [[microbiome and disease progression]]
+- [[fusobacterium-nucleatum]] activates NF-kB and Wnt/beta-catenin signaling in carcinogenesis, linking to [[microbiome and disease progression]]
 - [[fecal-microbiota-transplant]] from long-term survivors modulated antitumor immune responses through CD8+ T cell recruitment
 - [[Microbiome-host interactions]] shape the tumor microenvironment and influence [[immunotherapy]] response
 - Connects to [[microbiome diet]], [[metabolic pathways]], and [[viral microbiota]] research in pancreatic cancer

@@ -56,11 +56,11 @@ why_keystone: "Links trace metal and micronutrient status (iron, copper, zinc, s
 - [[iron]] deficiency decreases TPO activity, leading to reduced T3/T4 synthesis and increased TSH; 58% of [[Hashimoto's thyroiditis]] patients have Fe deficiency anemia and 75% have vitamin D deficiency
 - [[copper]] stimulates T4 production and inhibits excessive T4 absorption in blood cells; elevated Cu may be associated with [[thyroid cancer]] mortality in women
 - [[selenium]] builds deiodinases (DIO1, DIO2, DIO3) essential for T4 to T3 conversion; Se is a component of glutathione peroxidases protecting thyrocytes from oxidative damage
-- [[Iodine]] is essential for thyroid hormone synthesis but excess I can paradoxically inhibit TH synthesis (Wolff-Chaikoff effect) and may promote [[autoimmune thyroiditis]]
+- [[iodine]] is essential for thyroid hormone synthesis but excess I can paradoxically inhibit TH synthesis (Wolff-Chaikoff effect) and may promote [[autoimmune thyroiditis]]
 - [[cadmium]] inhibits hepatic 5'-monodeiodinase activity, interfering with T4 to T3 conversion; Cd exposure induces UGT activity increasing T3/T4 metabolism
 - [[lead]] accumulation disrupts cellular energy production and causes DNA damage in thyroid cells; Pb prevents deiodination and reduces T3 levels
 - [[mercury]] interferes with TSH production, inhibits TPO, and both MeHg and inorganic compounds inhibit Tg iodination
-- [[Cobalt]] can cause hypothyroidism by decreasing I uptake in the thyroid gland; cross-allergy with nickel is common
+- [[cobalt]] can cause hypothyroidism by decreasing I uptake in the thyroid gland; cross-allergy with nickel is common
 
 ## Methods/Findings
 

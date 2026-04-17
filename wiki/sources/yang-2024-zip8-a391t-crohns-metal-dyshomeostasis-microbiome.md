@@ -72,10 +72,10 @@ why_keystone: Shows that the Crohn's-linked ZIP8 A391T variant produces colonic 
 
 # Connections
 
-- Novel gene-environment interaction for [[Crohn's Disease]] linking genetics to [[metal-homeostasis]]
-- Directly relevant to [[Cobalt]], [[manganese]], [[Cadmium Toxicity]], and [[zinc]] in intestinal biology
+- Novel gene-environment interaction for [[crohns-disease]] linking genetics to [[metal-homeostasis]]
+- Directly relevant to [[cobalt]], [[manganese]], [[Cadmium Toxicity]], and [[zinc]] in intestinal biology
 - Connects genetic risk to [[Gut Microbiome and Metal Exposure]] -- demonstrates how host metal transport affects microbial access to essential metals
-- Links to [[Inflammatory Bowel Disease]] pathogenesis through age-dependent inflammation
+- Links to [[inflammatory-bowel-disease]] pathogenesis through age-dependent inflammation
 - Relevant to [[lactobacillus]] depletion as a consequence of altered metal availability
 - Complements [[Amerikanou et al. 2022|amerikanou-2022-ibd-biomarkers-trace-metals]] human IBD-metal associations
 - "Cofactor biosynthesis" pathway enrichment connects to microbial need for metal cofactors

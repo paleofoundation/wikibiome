@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- A multivariate index based on plasma free [[amino acids]] (PFAAs) can discriminate [[pancreatic cancer]] from healthy controls with AUC of 0.89 (95% CI: 0.86-0.93) in training set and 0.86 (95% CI: 0.84-0.89) in validation set
+- A multivariate index based on plasma free [[amino acids]] (PFAAs) can discriminate [[pancreatic-cancer]] from healthy controls with AUC of 0.89 (95% CI: 0.86-0.93) in training set and 0.86 (95% CI: 0.84-0.89) in validation set
 - Plasma tryptophan and histidine were particularly low in PC patients, while serine was higher than healthy controls
 - The PFAA index composed of serine, asparagine, isoleucine, alanine, histidine, and tryptophan was effective even for early-stage (stage 0-IIB) disease with AUC of 0.89 (95% CI: 0.83-0.95)
 - The index could also distinguish PC from chronic pancreatitis (AUC 0.87, 95% CI: 0.80-0.93)

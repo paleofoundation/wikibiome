@@ -73,4 +73,4 @@ platform: wikibiome
 - [[copper]] excess or deficiency may affect LPS-mediated inflammatory signaling
 - [[probiotics]] containing Bacteroides and butyrate producers could address the specific dysbiosis pattern identified
 - [[Oxidative-stress]] from gut permeability and LPS exposure compounds thyroid damage
-- [[Iodine]] absorption may be affected by altered intestinal permeability and microbiota composition
+- [[iodine]] absorption may be affected by altered intestinal permeability and microbiota composition

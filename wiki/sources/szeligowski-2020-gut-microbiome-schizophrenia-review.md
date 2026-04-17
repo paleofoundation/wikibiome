@@ -17,8 +17,8 @@ platform: wikibiome
 ## Key Claims
 
 - The current data showing microbiome alterations in [[schizophrenia]] are highly discrepant and insufficient to conclude whether microbiome changes are associated with increased risk, are causally related, or simply reflect external factors
-- Schizophrenia is associated with elevated levels of IL-6, IL-8, TNF-alpha, and reductions in anti-inflammatory IL-10, and elevated antibodies to [[Saccharomyces cerevisiae]] indicate intestinal inflammation
-- Elevated levels of the bacterial translocation marker sCD14 have been observed in schizophrenia, along with reduced [[Roseburia]], [[Coprococcus]], and [[Blautia]] -- species that mediate butyrate production and enhance intestinal barrier function
+- Schizophrenia is associated with elevated levels of IL-6, IL-8, TNF-alpha, and reductions in anti-inflammatory IL-10, and elevated antibodies to [[saccharomyces-cerevisiae]] indicate intestinal inflammation
+- Elevated levels of the bacterial translocation marker sCD14 have been observed in schizophrenia, along with reduced [[roseburia]], [[coprococcus]], and [[blautia]] -- species that mediate butyrate production and enhance intestinal barrier function
 - The [[tryptophan]]-[[kynurenine]] pathway is dysregulated in schizophrenia: IDO is upregulated by cytokines such as IFN-gamma and TNF-alpha, shunting tryptophan away from serotonin synthesis toward kynurenic acid (KYNA), an NMDA receptor antagonist
 - [[BDNF]] levels are reduced in post-mortem hippocampal tissue and plasma of drug-naive patients with schizophrenia, and the gut microbiome directly influences BDNF expression
 - A panel of microbiota consisting of Aerococcaceae, Bifidobacteriaceae, Brucellaceae, Pasteurellaceae, and Rikenellaceae was sufficient to distinguish schizophrenia patients from controls

@@ -38,7 +38,7 @@ why_keystone: "Demonstrates cadmium-triggered metabolic reprogramming in Enteroc
 
 ## Key Claims
 
-- *[[Enterococcus]] faecium* strain CX 2-6 (isolated from heavy-metal-contaminated farmland) can tolerate [[cadmium]] but with significantly slower growth
+- *[[enterococcus]] faecium* strain CX 2-6 (isolated from heavy-metal-contaminated farmland) can tolerate [[cadmium]] but with significantly slower growth
 - Cadmium treatment causes massive transcriptional reprogramming: 1,152 differentially expressed genes (47% of the genome) falling into three distinct expression groups
 - The primary cellular response involves downregulation of nucleotide metabolism (DNA replication inhibited) and upregulation of ribosome/protein translation, carbohydrate transport, and anion transport
 - Pan-genome analysis of 138 *E. faecium* genomes shows that most DEGs responding to cadmium are in the core genome, suggesting a conserved stress response

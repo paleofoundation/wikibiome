@@ -17,7 +17,7 @@ platform: wikibiome
 - [[lead]] at ~35 ug/dL causes decreased gonadotropin and estradiol production, menstrual irregularities, spontaneous abortion, and fetal anomalies in primates
 - [[cadmium]] at concentrations as low as 5 uM interferes with progesterone biosynthesis by decreasing P450 and 3beta-HSD expression in placental cells; acts as endocrine disruptor mimicking estrogen
 - [[mercury]] crosses the placental membrane, causing spontaneous abortions, premature births, and congenital defects; correlated with PCOS, endometriosis, dysmenorrhea, amenorrhea
-- [[Cobalt]] impairs reproductive performance in mice at 8-16 rad daily doses; causes menstrual problems, altered puberty, lactation issues in humans
+- [[cobalt]] impairs reproductive performance in mice at 8-16 rad daily doses; causes menstrual problems, altered puberty, lactation issues in humans
 - [[nickel]] at 40 mg/kg inhibits ovulation and abolishes P4 production in female rats; disturbs menstrual cycles and decreases embryo implantation
 - Female germ cells are fixed at birth and non-renewable, making women especially vulnerable to environmental pollutants
 - Air pollution (PM2.5, PM10) reduces ovarian reserve (decreased AMH), decreases fertility rates, and increases miscarriage risk
@@ -34,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Comprehensive review linking [[environmental pollutants]] to [[female infertility]]
+- Comprehensive review linking [[environmental pollutants]] to [[female-infertility]]
 - [[cadmium]] as metalloestrogen -- relevant to [[endocrine disruption]]
 - [[nickel]] reproductive toxicity important for [[nickel toxicology]] wiki
 - [[Iron deficiency]] increases [[cadmium]] absorption in women -- links to [[anemia]] and fertility

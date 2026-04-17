@@ -14,8 +14,8 @@ platform: wikibiome
 
 # Key Claims
 
-- [[Pancreatic cancer]] is a major cause of cancer-associated mortality with an overall 5-year survival rate of less than 7%, and is predicted to become the second leading cause of cancer death in developed countries
-- Risk factors include tobacco smoking (2-3 fold increased risk), [[type 2 diabetes]], obesity, chronic [[pancreatitis]] (>10-fold risk increase), and familial history (5-10% of cases)
+- [[pancreatic-cancer]] is a major cause of cancer-associated mortality with an overall 5-year survival rate of less than 7%, and is predicted to become the second leading cause of cancer death in developed countries
+- Risk factors include tobacco smoking (2-3 fold increased risk), [[type-2-diabetes]], obesity, chronic [[pancreatitis]] (>10-fold risk increase), and familial history (5-10% of cases)
 - Over 90% of tumors carry activating mutations in the [[KRAS]] oncogene, with additional frequent inactivation of CDKN2A (95%), TP53 (50-75%), and DPC4/SMAD4 (50%)
 - The dense tumor [[stroma]] and [[tumor microenvironment]] driven by pancreatic stellate cells contribute to poor vascularization and treatment resistance
 
@@ -30,7 +30,7 @@ platform: wikibiome
 
 # Connections
 
-- [[type 2 diabetes]] both a risk factor for and consequence of early pancreatic cancer -- long-term diabetes doubles risk
+- [[type-2-diabetes]] both a risk factor for and consequence of early pancreatic cancer -- long-term diabetes doubles risk
 - Dietary factors linked to risk include high intake of saturated [[fatty acids]], low vegetable/fruit intake, and red/processed meat consumption
 - The tumor [[microbiome]] within the dense stroma may influence treatment response and immune surveillance
 - [[Chronic pancreatitis]] increases risk more than 10-fold, linking inflammation to carcinogenesis

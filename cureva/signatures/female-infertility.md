@@ -73,11 +73,11 @@ An umbrella signature covering microbiome-driven mechanisms across infertility s
 
 **Confidence: preliminary** — metal data derived from PCOS metal studies (already ingested elsewhere) and general metalloestrogen literature; no infertility-specific metallomic profiling in current sources.
 
-- **[[Cadmium]]** — primary metalloestrogen; binds ERalpha at picomolar concentrations; 12-30 year half-life creates cumulative ovarian burden
-- **[[Lead]]** — disrupts hypothalamic-pituitary-ovarian axis; epidemiological associations with reduced fertility
-- **[[Nickel]]** — noncompetitive ERalpha binding; epigenetic carcinogenesis in reproductive tissues
-- **[[Zinc]] depleted** — required for oocyte maturation; supplementation enhances fertility in animal models
-- **[[Selenium]] depleted** — antioxidant defense in follicular environment
+- **[[cadmium]]** — primary metalloestrogen; binds ERalpha at picomolar concentrations; 12-30 year half-life creates cumulative ovarian burden
+- **[[lead]]** — disrupts hypothalamic-pituitary-ovarian axis; epidemiological associations with reduced fertility
+- **[[nickel]]** — noncompetitive ERalpha binding; epigenetic carcinogenesis in reproductive tissues
+- **[[zinc]] depleted** — required for oocyte maturation; supplementation enhances fertility in animal models
+- **[[selenium]] depleted** — antioxidant defense in follicular environment
 
 ## The Gut-Ovarian Axis
 
@@ -94,7 +94,7 @@ Bifidobacterium longum abundance correlated with good ovarian stimulation respon
 
 ## Eggerthella: The Estrobolome-Ovarian Bridge
 
-**[[Eggerthella lenta]]** is the critical organism:
+**[[eggerthella-lenta]]** is the critical organism:
 - Enriched in POI patients [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
 - Known beta-glucuronidase producer — deconjugates estrogen metabolites, driving estrogen recirculation
 - **Caused ovarian fibrosis** in mouse models via TGF-beta1 elevation

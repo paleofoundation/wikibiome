@@ -91,10 +91,10 @@ The most lethal gynecological malignancy (~314,000 new cases, ~207,000 deaths an
 
 **Confidence: moderate** — strong mechanistic evidence from entity page and epidemiological associations, but limited direct tissue quantification in the ingested source corpus.
 
-- **[[Cadmium]] elevated**: Primary metalloestrogen. Binds ERalpha with Kd ~4.5 x 10^-10 M (nearly equivalent to estradiol). Activates ER-dependent transcription in OC cells at 1 uM. Also signals through GPR30/GPER in ER-negative cells at 50-500 nM. Half-life 12-30 years, creating cumulative ovarian tissue burden. Smoking is primary non-occupational exposure source.
-- **[[Nickel]] elevated**: Binds ERalpha noncompetitively; drives epigenetic changes (global loss of histone acetylation, H3K9 methylation) that may promote carcinogenesis independently of estrogenic effects.
-- **[[Arsenic]] elevated**: Associated with increased OC risk through oxidative stress, DNA damage, and interference with DNA repair pathways.
-- **[[Iron]] elevated in tumor microenvironment**: OC cells upregulate transferrin receptor 1 (TfR1) and downregulate ferroportin, creating an iron-accumulating phenotype. Endometriosis-associated subtypes (clear cell, endometrioid) develop in iron-rich environment from retrograde menstruation. Iron drives Fenton chemistry generating ROS.
+- **[[cadmium]] elevated**: Primary metalloestrogen. Binds ERalpha with Kd ~4.5 x 10^-10 M (nearly equivalent to estradiol). Activates ER-dependent transcription in OC cells at 1 uM. Also signals through GPR30/GPER in ER-negative cells at 50-500 nM. Half-life 12-30 years, creating cumulative ovarian tissue burden. Smoking is primary non-occupational exposure source.
+- **[[nickel]] elevated**: Binds ERalpha noncompetitively; drives epigenetic changes (global loss of histone acetylation, H3K9 methylation) that may promote carcinogenesis independently of estrogenic effects.
+- **[[arsenic]] elevated**: Associated with increased OC risk through oxidative stress, DNA damage, and interference with DNA repair pathways.
+- **[[iron]] elevated in tumor microenvironment**: OC cells upregulate transferrin receptor 1 (TfR1) and downregulate ferroportin, creating an iron-accumulating phenotype. Endometriosis-associated subtypes (clear cell, endometrioid) develop in iron-rich environment from retrograde menstruation. Iron drives Fenton chemistry generating ROS.
 - **Glutathione depleted/dysregulated**: Central to platinum resistance. Glutathione synthesis is the most significantly altered pathway in platinum-resistant OC [[poisson-2015-metabolomic-platinum-resistance-ovarian-cancer]]. Platinum-resistant cells upregulate glutathione, resisting ferroptosis.
 - **Taurine depleted**: Antioxidant defense compromised in OC tissue [[fong-2011-metabolites-normal-ovary-ovarian-cancer]].
 
@@ -203,10 +203,10 @@ High-fat and ketogenic diets accelerate EOC tumor growth via microbiome disrupti
 
 | Condition | Shared Metals | Shared Taxa | Shared Ecology | Overlap Score |
 |-----------|--------------|-------------|----------------|---------------|
-| **[[Endometriosis]]** | Iron, Cd, Ni | E. coli, F. nucleatum | Estrogen recirculation, iron accumulation, biofilm | 0.65 |
-| **[[Breast Cancer]]** | Cd, Fe, Ni | E. coli, F. nucleatum | Metalloestrogen signaling, estrobolome dysfunction | 0.60 |
-| **[[Colorectal Cancer]]** | Fe, Cd | F. nucleatum, B. fragilis | SCFA depletion, inflammation-driven carcinogenesis | 0.55 |
-| **[[Pancreatic Cancer]]** | Cd, Ni | Proteobacteria enriched | Inflammation-driven, ferroptosis resistance | 0.40 |
+| **[[endometriosis]]** | Iron, Cd, Ni | E. coli, F. nucleatum | Estrogen recirculation, iron accumulation, biofilm | 0.65 |
+| **[[breast-cancer]]** | Cd, Fe, Ni | E. coli, F. nucleatum | Metalloestrogen signaling, estrobolome dysfunction | 0.60 |
+| **[[colorectal-cancer]]** | Fe, Cd | F. nucleatum, B. fragilis | SCFA depletion, inflammation-driven carcinogenesis | 0.55 |
+| **[[pancreatic-cancer]]** | Cd, Ni | Proteobacteria enriched | Inflammation-driven, ferroptosis resistance | 0.40 |
 
 Endometriosis is a direct risk factor for OC (RR 1.265, [[kim-2014-endometriosis-ovarian-cancer-risk-meta-analysis]]), with iron deposits from retrograde menstruation contributing to carcinogenesis in clear cell and endometrioid subtypes.
 

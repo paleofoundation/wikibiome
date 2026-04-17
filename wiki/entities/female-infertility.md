@@ -32,7 +32,7 @@ Three independent lines of evidence establish causal microbiome-to-ovarian links
 
 ## Estrobolome Connection
 
-**[[Eggerthella lenta]]** is the critical organism linking gut dysbiosis to ovarian disease:
+**[[eggerthella-lenta]]** is the critical organism linking gut dysbiosis to ovarian disease:
 - Enriched in premature ovarian insufficiency (POI) [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]], [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]]
 - Eggerthella is a known **beta-glucuronidase producer** — deconjugates estrogen metabolites, driving estrogen recirculation [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
 - Eggerthella lenta **caused ovarian fibrosis** in mouse models; estrogen treatment ameliorated it [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
@@ -54,9 +54,9 @@ Bile acids produced by gut bacteria are measurable in follicular fluid and deple
 ## Metal Connections
 
 Female reproductive tissues are uniquely vulnerable to metalloestrogens:
-- **[[Cadmium]]** binds ERalpha at picomolar concentrations; accumulates in ovarian tissue over decades (**half-life 12-30 years** in the human body) [[aquino-2012-cadmium-nickel-metalloestrogens]], [[genchi-2020-cadmium-toxicity]], [[rasin-2025-cadmium-exposure-health-review]]
-- **[[Lead]]** disrupts hypothalamic-pituitary-ovarian axis; associated with reduced fertility in epidemiological studies [[lee-2020-female-infertility-blood-lead-cadmium]], [[lei-2015-infertility-lead-cadmium-arsenic-taiwan]]
-- **[[Nickel]]** binds ERalpha noncompetitively; epigenetic carcinogenesis [[aquino-2012-cadmium-nickel-metalloestrogens]]
+- **[[cadmium]]** binds ERalpha at picomolar concentrations; accumulates in ovarian tissue over decades (**half-life 12-30 years** in the human body) [[aquino-2012-cadmium-nickel-metalloestrogens]], [[genchi-2020-cadmium-toxicity]], [[rasin-2025-cadmium-exposure-health-review]]
+- **[[lead]]** disrupts hypothalamic-pituitary-ovarian axis; associated with reduced fertility in epidemiological studies [[lee-2020-female-infertility-blood-lead-cadmium]], [[lei-2015-infertility-lead-cadmium-arsenic-taiwan]]
+- **[[nickel]]** binds ERalpha noncompetitively; epigenetic carcinogenesis [[aquino-2012-cadmium-nickel-metalloestrogens]]
 - NHANES analyses link heavy metal mixtures (Cd, Pb, As, Hg) to elevated female infertility risk in US population-level data [[lin-2023-heavy-metals-infertility-nhanes]]
 
 ## Vaginal and Endometrial Microbiome

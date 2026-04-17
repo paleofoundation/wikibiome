@@ -21,7 +21,7 @@ evidence_level: cross-sectional
 - [[Proteobacteria]] and [[Actinomycetes]] contents were highest in the HT group; the HT group also contained a small number of [[Verrucomicrobiaceae]]
 - The "ABC transporter" metabolic pathway was highly correlated with the occurrence of GD and HT
 - GD and HT groups were enriched in carbohydrate transport and metabolism compared to healthy controls
-- [[Bacillus]], [[Blautia]], and [[Ornithinimicrobium]] could be used as potential markers to distinguish GD and HT from healthy populations
+- [[bacillus]], [[blautia]], and [[Ornithinimicrobium]] could be used as potential markers to distinguish GD and HT from healthy populations
 - At the genus level, [[Prevotella_9]], [[Ruminococcus_2]], and [[Lachnospiraceae_NK4A136_group]] were higher in GD patient samples
 
 ## Methods/Findings

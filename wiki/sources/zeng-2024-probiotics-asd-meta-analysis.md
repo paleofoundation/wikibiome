@@ -36,7 +36,7 @@ evidence_level: systematic-review-meta-analysis
 **GI outcome (significant):**
 - Total 6-GSI: MD = -0.59, 95% CI [-1.02, -0.17], P = 0.006
 
-**Probiotic strains used:** Various multi-strain formulations including [[lactobacillus]], [[bifidobacterium]], [[Streptococcus thermophilus]], and single-strain [[Lactobacillus plantarum]] PS128.
+**Probiotic strains used:** Various multi-strain formulations including [[lactobacillus]], [[bifidobacterium]], [[streptococcus-thermophilus]], and single-strain [[Lactobacillus plantarum]] PS128.
 
 # Relevance to Metallomic Framework
 

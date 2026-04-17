@@ -43,5 +43,5 @@ pp. 1-8
 ## Connections
 
 - Links to 's mechanism of action via [[gut microbiome]] modulation
-- Relevant to [[cardiovascular disease]] through metformin's cardioprotective effects
-- Connects to [[Akkermansia muciniphila]] (trend toward increase, M0 vs M7d p=0.03 uncorrected)
+- Relevant to [[cardiovascular-disease]] through metformin's cardioprotective effects
+- Connects to [[akkermansia-muciniphila]] (trend toward increase, M0 vs M7d p=0.03 uncorrected)

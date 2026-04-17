@@ -38,4 +38,4 @@ platform: wikibiome
 - Microglial polarization connects to [[microbiome and immune system]] in neuroinflammation
 - Gut barrier protection relevant to [[microbiome-host interactions]] and intestinal permeability
 - Butyrate therapeutic potential extends [[microbial metabolites]] applications in CVD
-- Cardiac arrest model bridges [[microbiome and neuroinflammation]] with [[cardiovascular disease]]
+- Cardiac arrest model bridges [[microbiome and neuroinflammation]] with [[cardiovascular-disease]]

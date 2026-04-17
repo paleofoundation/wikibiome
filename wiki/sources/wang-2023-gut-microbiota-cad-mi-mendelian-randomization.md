@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Provides [[Mendelian randomization]] evidence for a protective gut microbe in [[cardiovascular disease]]
+- Provides [[Mendelian randomization]] evidence for a protective gut microbe in [[cardiovascular-disease]]
 - T2DM mediation connects [[comorbidities]] and [[metabolic pathways]] in CVD-microbiome axis
 - Butyrate-producing *Ruminococcus* relevant to [[short-chain-fatty-acids]] and [[microbial metabolites]] in CVD
 - Complements [[Zhang 2022 - Causal Microbiome CVD MR]] on genus-level causal effects

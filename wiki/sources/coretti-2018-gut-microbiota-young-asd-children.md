@@ -16,7 +16,7 @@ source_pages: "pp. 1-8"
 
 # Overview
 
-Original research characterising gut microbiota and fecal **short-chain fatty acid (SCFA)** levels in a cohort of **11 young ASD children (2-4 years)** compared with 14 age-matched neurotypical controls. Identified phylogenetic shifts, marked reduction in *[[Bifidobacterium longum]]*, and increase in *[[Faecalibacterium prausnitzii]]* in ASD patients.
+Original research characterising gut microbiota and fecal **short-chain fatty acid (SCFA)** levels in a cohort of **11 young ASD children (2-4 years)** compared with 14 age-matched neurotypical controls. Identified phylogenetic shifts, marked reduction in *[[Bifidobacterium longum]]*, and increase in *[[faecalibacterium-prausnitzii]]* in ASD patients.
 
 # Key Findings
 

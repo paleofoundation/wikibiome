@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Bidirectional two-sample Mendelian randomization reveals a significant causal relationship between [[graves-disease]] (GD) and [[rheumatoid arthritis]] (RA), with genetically predicted GD increasing RA risk
+- Bidirectional two-sample Mendelian randomization reveals a significant causal relationship between [[graves-disease]] (GD) and [[rheumatoid-arthritis]] (RA), with genetically predicted GD increasing RA risk
 - Shared autoimmune pathways involving [[HLA]] alleles, particularly HLA-DRB1, and [[JAK/STAT pathway]] signaling underlie the comorbidity between GD and RA
 - The [[PTPN22]] R620W variant is a shared susceptibility locus for both GD and RA, implicating T-cell receptor signaling dysregulation
 - [[Inflammation]] driven by TNF-alpha, IL-6, and other pro-inflammatory cytokines represents a common mechanistic link between the two conditions

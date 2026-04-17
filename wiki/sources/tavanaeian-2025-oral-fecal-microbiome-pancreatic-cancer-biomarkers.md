@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- *Granulicatella adiacens* and *Fusobacterium nucleatum* were significantly increased in [[pancreatic cancer]] patients compared to controls (P < 0.001), while *Neisseria elongata*, *Roseburia intestinalis*, and *Bifidobacterium bifidum* were significantly decreased
+- *Granulicatella adiacens* and *Fusobacterium nucleatum* were significantly increased in [[pancreatic-cancer]] patients compared to controls (P < 0.001), while *Neisseria elongata*, *Roseburia intestinalis*, and *Bifidobacterium bifidum* were significantly decreased
 - Combined clinical and [[microbial biomarkers]] achieved AUC of 1.00 for classifying PC, with hemoglobin, hematocrit, and *R. intestinalis* each individually achieving AUC of 1.00
 - *N. elongata* demonstrated highest individual predictive capability among microbiota variables with AUC of 0.97 (95% CI: 0.90-1.05)
 - PCA analysis confirmed distinct clustering between PC and control groups using combined oral and fecal microbiota profiles
