@@ -1,5 +1,4 @@
 ---
-
 title: "Mediterranean Diet: Prevention of Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -10,11 +9,13 @@ year: 2017
 tags: [colon-cancer, Mediterranean-diet, colorectal-cancer, prevention, olive-oil, omega-3-fatty-acids, fiber, polyphenols, resveratrol, butyrate, IBD, inflammation, epigenetics, microbiome, review]
 doi: "10.3389/fnut.2017.00059"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- The [[Mediterranean diet]] (MD) offers protection against [[colorectal-cancer]] (CRC) through multiple bioactive components: n-3 fatty acids, fiber, olive oil, and polyphenolic compounds
+- The [[mediterranean-diet]] (MD) offers protection against [[colorectal-cancer]] (CRC) through multiple bioactive components: n-3 fatty acids, fiber, olive oil, and polyphenolic compounds
 - MD components reduce inflammation via distinct pathways: n-3 fatty acids suppress COX-2 and TNF-alpha; fiber/butyrate inhibit NF-kB signaling; olive oil (EVOO) reduces COX-2, iNOS, STAT3; resveratrol decreases IL-1beta, IL-6, TNF-alpha
 - CRC develops via the adenoma-carcinoma sequence over ~20 years, driven by three molecular pathways: CIN (chromosomal instability, 80-85%), MSI (microsatellite instability, ~24%), and CIMP (CpG island methylator phenotype, ~27%)
 - High-fiber diets promote [[butyrate]] production, which improves NF-kB signaling suppression, increases TGF-beta, and reduces dendritic cells and memory T lymphocytes in the colon
@@ -34,9 +35,9 @@ platform: wikibiome
 
 # Connections
 
-- Fiber-butyrate-NF-kB axis connects to [[Cummings 1992 - Fecal Weight Colon Cancer Fiber]] and [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] NF-kB findings
-- n-3 fatty acid evidence directly builds on [[Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] COX-2 and ras-p21 mechanisms
+- Fiber-butyrate-NF-kB axis connects to [[cummings-1992-fecal-weight-colon-cancer-fiber|Cummings 1992 - Fecal Weight Colon Cancer Fiber]] and [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] NF-kB findings
+- n-3 fatty acid evidence directly builds on [[reddy-2002-omega3-fatty-acids-colon-cancer|Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] COX-2 and ras-p21 mechanisms
 - MD effects on microbiome composition foreshadow [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] bile acid-gut microbiome axis hypothesis
-- Polyphenol/resveratrol anti-inflammatory effects connect to phenolic compound research applicable to [[gut microbiota]] modulation
-- IBD-CRC connection relevant to [[Simin 2020 - Antibiotic Use CRC Risk]] inflammation-driven carcinogenesis discussion
+- Polyphenol/resveratrol anti-inflammatory effects connect to phenolic compound research applicable to [[gut-microbiome]] modulation
+- IBD-CRC connection relevant to [[simin-2020-antibiotic-use-crc-risk|Simin 2020 - Antibiotic Use CRC Risk]] inflammation-driven carcinogenesis discussion
 - [[colorectal-cancer]]

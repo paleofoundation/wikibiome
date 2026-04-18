@@ -1,5 +1,4 @@
 ---
-
 title: DNA Damage in Metal Carcinogenesis
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [DNA-damage, chromium, carcinogenesis, Cr-DNA-adducts]
 platform: wikibiome
+karen_brain_primitives: []
+seo_target: "dna damage in metal carcinogenesis microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # DNA Damage in Metal Carcinogenesis

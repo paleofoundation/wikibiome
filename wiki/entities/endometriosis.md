@@ -26,6 +26,7 @@ seo_target: "endometriosis heavy metals microbiome nickel"
 wikipedia_differentiation: "Full metallomic signature with peritoneal fluid metal concentrations, nickel allergy prevalence data (90.3%), and ecological analysis connecting metal-dependent pathogens to estrogen recirculation"
 ---
 
+
 # Endometriosis
 
 ## Overview
@@ -55,7 +56,7 @@ A critical clinical insight from the signature analysis: hepcidin is elevated in
 
 The microbiome dimension of endometriosis is extensively documented in the [[endometriosis|signature page]]. Key elements relevant to the metallomic context:
 
-**Metal-dependent pathogenic consortium.** The enriched taxa (E. coli, B. fragilis, S. agalactiae, F. nucleatum, C. albicans) share a common feature: dependence on nickel, iron, and zinc for virulence enzymes [[svensson-2021-endometriosis-gut-microbiota-associations]] [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]. Nickel-dependent glyoxalase enables immune evasion across all glyoxalase-positive pathogens. Iron-dependent siderophores power biofilm formation. Zinc-dependent metalloproteases enable tissue invasion.
+**Metal-dependent pathogenic consortium.** The enriched taxa (E. coli, B. fragilis, S. agalactiae, F. nucleatum, C. albicans) share a common feature: dependence on nickel, iron, and zinc for virulence enzymes [[svensson-2021-endometriosis-gut-microbiota-associations]] [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]. In the cervicovaginal niche, [[gardnerella|*Gardnerella*]] is enriched in endometriosis patients (67.7% vs 36.8% of non-Lactobacillus taxa in sensitivity analysis) and its sialidase-driven mucus degradation may facilitate pathobiont colonization [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]]. Nickel-dependent glyoxalase enables immune evasion across all glyoxalase-positive pathogens. Iron-dependent siderophores power biofilm formation. Zinc-dependent metalloproteases enable tissue invasion.
 
 **Estrobolome dysbiosis.** Beta-glucuronidase-producing taxa (E. coli, B. fragilis, S. agalactiae) deconjugate estrogen glucuronides, driving hepatic estrogen recirculation that fuels the estrogen-dependent disease progression [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]] [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]].
 

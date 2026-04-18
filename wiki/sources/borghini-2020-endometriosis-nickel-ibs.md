@@ -1,5 +1,4 @@
 ---
-
 title: "Irritable Bowel Syndrome-Like Disorders in Endometriosis: Prevalence of Nickel Sensitivity and Effects of a Low-Nickel Diet. An Open-Label Pilot Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2020
 tags: [nickel-allergy, endometriosis, low-nickel-diet, IBS, allergic-contact-mucositis, nickel-sensitivity, pilot-study]
 doi: "10.3390/nu12082277"
 platform: wikibiome
+metals_discussed: [nickel]
 ---
 
 # Key Claims
@@ -17,7 +17,7 @@ platform: wikibiome
 - Alimentary [[nickel]] may cause allergic contact mucositis (Ni ACM) presenting with IBS-like and extra-intestinal symptoms, and these symptoms are frequent in [[endometriosis]]
 - 90.3% of endometriosis patients with GI symptoms tested positive for Ni ACM via the nickel oral mucosa patch test (Ni omPT)
 - A 3-month [[low-nickel-diet]] produced statistically significant improvement in all gastrointestinal (15 symptoms), extra-intestinal (7 symptoms), and gynecological symptoms (dysmenorrhea, dyspareunia, pelvic pain) in endometriosis patients
-- [[Nickel-allergy]] (Ni ACM) should be considered as a cause or contributing factor of intestinal and extra-intestinal symptoms in women with endometriosis
+- [[nickel-allergy]] (Ni ACM) should be considered as a cause or contributing factor of intestinal and extra-intestinal symptoms in women with endometriosis
 - [[nickel]] may act as a "metalloestrogen" -- heavy metals can interfere with estrogenic activity, and Ni can bind estrogen receptors and induce proliferation of ERa+ breast cancer cells
 
 # Methods/Findings

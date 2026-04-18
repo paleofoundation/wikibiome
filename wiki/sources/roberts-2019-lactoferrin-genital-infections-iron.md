@@ -40,11 +40,14 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: Demonstrates that mucosal lactoferrin surges during BV and Trichomonas infection and scales with systemic iron stores and hepcidin, tying vaginal nutritional immunity to body iron economy. Supports the nutritional-immunity layer of WikiBiome's vaginal microbiome and STI signatures and complicates the interpretation of low serum iron in women with recurrent genital infections.
+metals_discussed: [cadmium, iron, lead]
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [2, 4]
 ---
 
 # Key Claims
 
-- Vaginal [[lactoferrin]] (Lf) concentrations increase significantly with genital infections: 6.6-fold higher with [[bacterial vaginosis]] (BV), 11.5-fold higher with [[Trichomonas vaginalis]], and 1.8-fold higher with vaginal discharge
+- Vaginal [[lactoferrin]] (Lf) concentrations increase significantly with genital infections: 6.6-fold higher with [[bacterial-vaginosis|bacterial vaginosis]] (BV), 11.5-fold higher with [[Trichomonas vaginalis]], and 1.8-fold higher with vaginal discharge
 - Lf concentration is positively associated with serum [[hepcidin]] (P = 0.047), serum [[ferritin]] (P = 0.018), and total body [[iron]] stores (P = 0.042), suggesting nutritional and iron status influence mucosal Lf responses
 - Lf concentrations increased with higher BMI, MUAC (mid-upper-arm circumference), and sexual activity
 - Women who maintained persistently high or low Lf concentrations from before through pregnancy, suggesting stable individual variation
@@ -74,6 +77,6 @@ why_keystone: Demonstrates that mucosal lactoferrin surges during BV and Trichom
 - Complements [[feng-2025-heavy-metals-bacterial-vaginosis]] by illuminating the iron-dependent mucosal defense mechanism that heavy metals may disrupt
 - Lactoferrin's iron-binding function suggests that [[iron]] status mediates susceptibility to vaginal infections -- relevant to heavy metal interference with iron metabolism discussed in [[canipari-2020-female-fertility-environmental-pollution]] (cadmium uptake increases with iron depletion)
 - [[cadmium]] accumulation is higher in iron-depleted women per [[canipari-2020-female-fertility-environmental-pollution]], potentially impairing Lf-mediated antimicrobial defense
-- Hepcidin-Lf positive association connects iron homeostasis to mucosal immunity, relevant to understanding how [[heavy metals]] disrupt both systemic and local immune defenses
-- The vaginal [[microbiome]] (CST types) link to broader microbiome-metal interaction literature
+- Hepcidin-Lf positive association connects iron homeostasis to mucosal immunity, relevant to understanding how [[heavy-metals]] disrupt both systemic and local immune defenses
+- The vaginal [[gut-microbiome|microbiome]] (CST types) link to broader microbiome-metal interaction literature
 - BV as a reproductive health outcome connects the infertility literature ([[lee-2020-female-infertility-blood-lead-cadmium]], [[lin-2023-heavy-metals-infertility-nhanes]]) to vaginal health endpoints

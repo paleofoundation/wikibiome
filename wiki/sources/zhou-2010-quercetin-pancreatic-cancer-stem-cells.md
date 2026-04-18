@@ -1,5 +1,4 @@
 ---
-
 title: "Dietary polyphenol quercetin targets pancreatic cancer stem cells"
 type: source
 created: 2026-04-09
@@ -11,12 +10,13 @@ tags: [pancreatic-cancer, dietary-polyphenols, quercetin, sulforaphane, cancer-s
 doi: "10.3892/ijo_00000704"
 platform: wikibiome
 evidence_level: in-vitro
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- [[Quercetin]], a major dietary [[polyphenol]] found in fruits and vegetables, diminishes self-renewal of [[pancreatic-cancer]] stem cells (CSCs) as measured by spheroid and colony formation assays
-- Combination of quercetin with [[sulforaphane]] (from broccoli) had synergistic effects, eliminating the pro-proliferative NF-kB binding feature while preventing EMT
+- [[quercetin]], a major dietary [[polyphenols|polyphenol]] found in fruits and vegetables, diminishes self-renewal of [[pancreatic-cancer]] stem cells (CSCs) as measured by spheroid and colony formation assays
+- Combination of quercetin with [[polyphenols|sulforaphane]] (from broccoli) had synergistic effects, eliminating the pro-proliferative NF-kB binding feature while preventing EMT
 - Quercetin overcomes apoptosis resistance of CSCs through caspase-dependent mechanisms and PARP cleavage
 - In vivo, quercetin and sulforaphane combination strongly reduced growth of CSC-enriched xenografts without toxic side effects
 
@@ -32,7 +32,7 @@ evidence_level: in-vitro
 
 # Connections
 
-- [[Dietary polyphenols]] like quercetin may modulate [[gut microbiome]] composition through prebiotic-like effects
-- NF-kB inhibition by plant compounds connects to [[microbiome and inflammation]] and [[microbiome-targeted therapy]]
-- Sulforaphane from cruciferous vegetables links to [[high-fiber diet]] and [[dietary fiber]] cancer-preventive mechanisms
-- Cancer stem cell targeting relevant to understanding [[microbiome and disease progression]] in treatment-resistant PDAC
+- [[polyphenols|Dietary polyphenols]] like quercetin may modulate [[gut-microbiome]] composition through prebiotic-like effects
+- NF-kB inhibition by plant compounds connects to [[inflammation|microbiome and inflammation]] and [[probiotics|microbiome-targeted therapy]]
+- Sulforaphane from cruciferous vegetables links to [[high-fiber-diet]] and [[dietary-fiber]] cancer-preventive mechanisms
+- Cancer stem cell targeting relevant to understanding [[dysbiosis|microbiome and disease progression]] in treatment-resistant PDAC

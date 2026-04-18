@@ -11,6 +11,8 @@ tags: [parkinsons-disease, microbial-biomarkers, multi-omics, metabolomics, meta
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [copper, iron, manganese, zinc]
+karen_brain_primitives: [1, 2, 4]
 ---
 
 # Microbial Biomarkers for Parkinson's Disease: A Multi-Omics Approach

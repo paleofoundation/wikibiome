@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, sex-differences, epidemiology, genetics]
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Male excess in T1D", "T1D is the only major organ-specific autoimmune disease", "Sex ratio is roughly equal"]
 ---
 
 # Key Claims

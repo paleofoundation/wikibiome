@@ -10,6 +10,8 @@ doi: "10.3389/fmicb.2025.1681559"
 tags: [schizophrenia, probiotics, synbiotics, meta-analysis, PANSS, metabolic-syndrome, insulin-resistance, triglycerides, cholesterol, gut-microbiota]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, enterococcus, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Effects of Gut Microbiota Interventions on Patients with Schizophrenia: A Systematic Review and Meta-Analysis

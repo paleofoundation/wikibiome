@@ -9,6 +9,7 @@ journal: "Frontiers in Immunology"
 doi: "10.3389/fimmu.2023.1287698"
 tags: [chronic-kidney-disease, CKD, mendelian-randomization, gut-microbiota, inflammation, eGFR, UACR, Lachnospiraceae, Desulfovibrionales]
 platform: wikibiome
+taxa_discussed: [desulfovibrio, eubacterium, lachnospiraceae, streptococcus]
 ---
 
 # Genetic Evidence Supporting the Causal Role of Gut Microbiota in CKD

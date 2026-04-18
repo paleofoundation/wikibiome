@@ -1,5 +1,4 @@
 ---
-
 title: "Innovative therapeutic strategies in the treatment of gastroesophageal reflux disease (GERD): A review of progress and perspectives"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2024
 doi: "10.36740/WLek202406124"
 tags: [gerd, gastroesophageal-reflux, treatment, potassium-competitive-acid-blockers, P-CABs, endoscopic-therapy, electrical-stimulation, LES, acid-pocket, bile-acid-binders, vonoprazan, tegoprazan, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Innovative therapeutic strategies in the treatment of gastroesophageal reflux disease (GERD): A review of progress and perspectives

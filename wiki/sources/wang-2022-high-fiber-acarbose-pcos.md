@@ -1,5 +1,4 @@
 ---
-
 title: "High-Fiber Diet or Combined With Acarbose Alleviates Heterogeneous Phenotypes of Polycystic Ovary Syndrome by Regulating Gut Microbiota"
 type: source
 created: 2026-04-09
@@ -11,8 +10,9 @@ tags: [PCOS, dietary-fiber, gut-microbiota, acarbose, clinical-trial, dysbiosis,
 doi: "10.1016/j.eats.2022.11.005"
 platform: wikibiome
 karen_brain_primitives: [5, 7]
-metals_discussed: []
-taxa_discussed: []
+metals_discussed: [magnesium]
+taxa_discussed: [alistipes, bacteroides-fragilis, bifidobacterium, lactobacillus]
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims
@@ -38,7 +38,7 @@ taxa_discussed: []
 
 # Connections
 
-- Provides mechanistic evidence for [[gut-metal-microbiome|gut microbiota]]-mediated benefits of [[dietary fiber]] in PCOS
+- Provides mechanistic evidence for [[gut-metal-microbiome|gut microbiota]]-mediated benefits of [[dietary-fiber]] in PCOS
 - Supports [[cutler-2019-fiber-magnesium-pcos]] and [[leung-2022-lower-fiber-pcos-meta-analysis]] on the importance of fiber for PCOS
 - Connects to [[calcaterra-2023-probiotics-pcos-adolescents]] and [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]] on the role of microbiota-modulating interventions
-- [[Short-chain fatty acids]] produced from fiber fermentation may combat obesity and insulin resistance in PCOS
+- [[short-chain-fatty-acids]] produced from fiber fermentation may combat obesity and insulin resistance in PCOS

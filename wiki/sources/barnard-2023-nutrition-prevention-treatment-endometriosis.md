@@ -1,5 +1,4 @@
 ---
-
 title: "Nutrition in the prevention and treatment of endometriosis: A review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [endometriosis, nutrition, plant-based-diet, dietary-fat, antioxidants, vitamin-D, seaweed, review]
 doi: "10.3389/fnut.2023.1089891"
 platform: wikibiome
+evidence_level: prospective-cohort
+metals_discussed: [nickel]
 ---
 
 # Key Claims

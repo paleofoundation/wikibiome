@@ -25,7 +25,7 @@ karen_brain_primitives:
   - 1
   - 4
   - 5
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed:
   - bacteroides
   - faecalibacterium

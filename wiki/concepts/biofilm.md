@@ -1,5 +1,4 @@
 ---
-
 title: Biofilm
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, do-carmo-2023-metal-nanoparticles-candida-review, akbari-2022-metal-homeostasis-streptococci, pendergrass-2026-nickel-nec-preterm-gut]
 tags: [biofilm, EPS, metal-concentration, urease, catheter-infection, Candida, polymicrobial, antibiotic-resistance, nutritional-immunity]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 6]
+seo_target: "biofilm microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Biofilm

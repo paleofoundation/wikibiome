@@ -28,7 +28,7 @@ karen_brain_primitives:
   - 5
 metals_discussed:
   - lead
-taxa_discussed: []
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, coprococcus, desulfovibrio, faecalibacterium-prausnitzii, lactobacillus, parabacteroides]
 keystone: true
 keystone_criteria_met:
   - 1
@@ -36,6 +36,8 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: Links lead exposure to autism-spectrum gut dysbiosis via specific taxa shifts — Faecalibacterium depletion, Lactobacillus loss, Desulfovibrio enrichment — consistent with the broader ASD microbial signature. Anchors lead as a metal driver of the autism signature and contributes to the cross-condition pattern in which Pb recurs across neurodevelopmental and neurodegenerative conditions.
+evidence_level: animal-model
+key_findings: ["Lead (Pb) exposure", "Pb-induced gut dysbiosis"]
 ---
 
 # Key Claims
@@ -67,9 +69,9 @@ why_keystone: Links lead exposure to autism-spectrum gut dysbiosis via specific 
 # Connections
 
 - Complements [[ogrady-2025-metal-dyshomeostasis-asd]] by focusing specifically on the Pb-gut microbiota-ASD axis, while O'Grady covers multiple metals
-- The Pb-induced dysbiosis pattern connects to the broader [[gut microbiota dysbiosis]] theme in ASD described in [[ogrady-2025-metal-dyshomeostasis-asd]]
+- The Pb-induced dysbiosis pattern connects to the broader [[dysbiosis|gut microbiota dysbiosis]] theme in ASD described in [[ogrady-2025-metal-dyshomeostasis-asd]]
 - Pb's competition with [[calcium]] for binding sites parallels [[blazewicz-2023-metal-profiles-asd]] discussion of toxic metals competing with essential metals (especially [[zinc]])
-- The mitochondrial damage pathway connects to [[blazewicz-2023-metal-profiles-asd]] discussion of [[mitochondrial dysfunction]] in ASD
+- The mitochondrial damage pathway connects to [[blazewicz-2023-metal-profiles-asd]] discussion of [[mitochondrial-dysfunction|mitochondrial dysfunction]] in ASD
 - The BBB disruption by Pb links to the intestinal barrier disruption described in [[ogrady-2025-metal-dyshomeostasis-asd]] -- both barrier systems are compromised by metal exposure
 - Pb-related oxidative stress mechanisms parallel those described for Cu/Cd/Sb in PCOS by [[kirmizi-2020-heavy-metals-pcos]]
 - The SCFA-ASD connection (particularly propionic acid) provides a mechanistic link between [[gut-metal-microbiome|gut microbiota]] composition changes and neurological outcomes

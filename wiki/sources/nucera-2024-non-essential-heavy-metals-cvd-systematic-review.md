@@ -49,7 +49,7 @@ PRISMA-compliant overview of systematic reviews. PubMed, Medline, Embase, Web of
 - **[[lead]]** entity page — add cardiovascular toxicity section: 5.9x mortality at Pb >10 µg/dL in CKD, elastin disruption, Na+/K+ ATPase inhibition.
 - **[[cardiovascular-disease]]** entity page — add "Metal Associations" section listing Cd, Hg, As, Pb with specific pathologies and plasma/urine thresholds.
 - **[[oxidative-stress]]** concept page — four-metal convergence on ROS + glutathione depletion.
-- **[[endothelial-dysfunction]]** concept page — NO-bioavailability reduction as shared pathway.
+- **[[cardiovascular-disease|endothelial-dysfunction]]** concept page — NO-bioavailability reduction as shared pathway.
 
 ## Relevance to Cureva
 

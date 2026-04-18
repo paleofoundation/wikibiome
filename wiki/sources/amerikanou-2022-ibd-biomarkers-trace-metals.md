@@ -24,7 +24,7 @@ platform: wikibiome
 # Key Claims
 
 - Circulating levels of metals are differentially altered in [[crohns-disease]] (CD) and [[ulcerative-colitis]] (UC) patients compared to healthy controls
-- In CD, [[chromium]] is negatively associated with IL-6, and [[cesium]] with calprotectin and IL-10; [[copper]] is positively associated with CRP
+- In CD, [[chromium]] is negatively associated with IL-6, and [[environmental-metal-exposure|cesium]] with calprotectin and IL-10; [[copper]] is positively associated with CRP
 - In UC, [[iron]] is negatively associated with myeloperoxidase (MPO), and [[thallium]] is positively associated with disease activity (PMS)
 - [[nickel]] levels were higher in active CD compared to inactive UC, consistent with nickel's known role in disrupting gut microbiota eubiosis
 - Manganese, nickel, zinc, selenium, and strontium were generally lower in UC patients than in healthy controls
@@ -47,10 +47,10 @@ platform: wikibiome
 
 # Connections
 
-- Directly relevant to [[nickel-toxicity]] -- elevated nickel in active CD supports role in gut disruption
+- Directly relevant to [[nickel-allergy|nickel-toxicity]] -- elevated nickel in active CD supports role in gut disruption
 - Links to [[chromium]] as anti-inflammatory agent in IBD context
 - Connects to [[inflammatory-bowel-disease]] and environmental etiology
-- Relevant to [[Trace Element Deficiency]] in IBD (selenium, manganese, zinc depletion)
-- Complements [[Breton et al. 2016|breton-2016-cadmium-lead-oral-exposure-colitis]] with human clinical data on metals and IBD
+- Relevant to [[metal-homeostasis|Trace Element Deficiency]] in IBD (selenium, manganese, zinc depletion)
+- Complements [[breton-2016-cadmium-lead-oral-exposure-colitis|breton-2016-cadmium-lead-oral-exposure-colitis]] with human clinical data on metals and IBD
 - [[copper]] association with CRP relates to acute phase response and [[oxidative-stress|oxidative stress]]
-- [[Thallium]] as hazardous metal with positive disease activity correlation in UC is a novel finding
+- [[thallium|Thallium]] as hazardous metal with positive disease activity correlation in UC is a novel finding

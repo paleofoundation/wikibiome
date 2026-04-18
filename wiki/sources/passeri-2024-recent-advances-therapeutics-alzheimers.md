@@ -8,7 +8,7 @@ authors:
   - et al.
 journal: (Brain Sciences / related journal)
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: (Brain Sciences / related journal) 2024 -->
 tags:
   - Alzheimers-disease
   - therapeutics
@@ -20,6 +20,7 @@ tags:
   - clinical-trials
   - neuroprotection
 platform: wikibiome
+metals_discussed: [copper, zinc]
 ---
 
 # Key Claims
@@ -51,8 +52,8 @@ platform: wikibiome
 # Connections
 
 - Clinical complement to mechanistic reviews: [[islam-2022-metal-toxicity-alzheimers-extensive-review]], [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]
-- [[Chelation-therapy]] and MPACs relevant to [[copper-dysregulation]] and [[zinc-homeostasis]] in AD
+- [[metal-chelation-therapy|Chelation-therapy]] and MPACs relevant to [[copper|copper-dysregulation]] and [[metal-homeostasis|zinc-homeostasis]] in AD
 - Neuroinflammation therapies connect to [[gao-2023-microglia-neurodegenerative-diseases]] targets
 - Gut microbiome approaches (GV-971) link to [[gut-brain-axis]] findings in [[gentile-2020-diet-microbiota-brain-health]]
 - Supports multi-target approach to [[alzheimers-disease]] treatment incorporating [[oxidative-stress]] reduction
-- Relevant to [[dietary-interventions]] as adjunctive neuroprotection
+- Relevant to [[dietary-metal-microbiome-interactions|dietary-interventions]] as adjunctive neuroprotection

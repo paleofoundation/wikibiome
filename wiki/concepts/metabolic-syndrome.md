@@ -1,5 +1,4 @@
 ---
-
 title: Metabolic Syndrome and Metal Exposure
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [liu-2025-cardiometabolic-nickel.md]
 tags: [metabolic-syndrome, nickel, epidemiology, NHANES]
 platform: wikibiome
+karen_brain_primitives: []
+seo_target: "metabolic syndrome and metal exposure microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Metabolic Syndrome (MetS) and Metal Exposure

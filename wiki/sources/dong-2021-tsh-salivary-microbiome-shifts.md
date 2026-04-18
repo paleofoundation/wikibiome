@@ -1,5 +1,4 @@
 ---
-
 title: "Association Between Serum Thyroid-Stimulating Hormone Levels and Salivary Microbiome Shifts"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2021
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, salivary-microbiome, tsh, insulin-resistance, microbiome-signature, oral-microbiota, dysbiosis, 16s-rrna]
 doi: "10.3389/fcimb.2021.603291"
 platform: wikibiome
+evidence_level: case-control
 ---
 
 # Association Between Serum Thyroid-Stimulating Hormone Levels and Salivary Microbiome Shifts

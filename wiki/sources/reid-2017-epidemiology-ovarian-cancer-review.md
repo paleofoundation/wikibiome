@@ -9,6 +9,8 @@ year: 2017
 doi: "10.20892/j.issn.2095-3941.2016.0084"
 tags: [ovarian-cancer, epidemiology, risk-factors, HGSOC, BRCA, endometriosis, reproductive-history, asbestos, talc, histotype]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [cadmium, nickel]
 ---
 
 # Epidemiology of Ovarian Cancer: A Review

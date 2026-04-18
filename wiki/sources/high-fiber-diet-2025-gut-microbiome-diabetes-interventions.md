@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2025
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2025 -->
 tags: [type-1-diabetes, autoimmune, high-fiber-diet, gut-microbiome, insulin-sensitivity, scfa, prediabetes, dysbiosis]
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 5]
+key_findings: ["High-fiber diet ameliorates gut microbiota", "Fiber intake impacts gut microbiome and insulin sensitivity", "Combined high-fiber diet with acarbose"]
 ---
 
 # Key Claims

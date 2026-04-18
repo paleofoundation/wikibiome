@@ -12,6 +12,9 @@ library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
 evidence_level: randomized-controlled-trial
+metals_discussed: [zinc]
+karen_brain_primitives: [1, 5]
+key_findings: ["Gut microbiota modulates drug efficacy", "Both acarbose and vildagliptin", "Pre-treatment gut microbiota and therapeutic responses"]
 ---
 
 # Key Claims

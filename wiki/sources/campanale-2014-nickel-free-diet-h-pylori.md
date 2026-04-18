@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel Free-Diet Enhances the Helicobacter pylori Eradication Rate: A Pilot Study"
 type: source
 created: 2026-04-09
@@ -10,11 +9,14 @@ year: 2014
 tags: [nickel-free-diet, H-pylori, eradication, triple-therapy, gastric-mucosa]
 doi: "10.1007/s10620-014-3060-3"
 platform: wikibiome
+metals_discussed: [iron, nickel]
+taxa_discussed: [helicobacter-pylori]
+karen_brain_primitives: [1, 2, 4]
 ---
 
 ## Key Claims
 
-- A [[nickel-free diet]] combined with standard triple therapy significantly increases the [[helicobacter-pylori]] eradication rate compared to standard therapy alone (84% vs 46%, p<0.01)
+- A [[low-nickel-diet|nickel-free diet]] combined with standard triple therapy significantly increases the [[helicobacter-pylori]] eradication rate compared to standard therapy alone (84% vs 46%, p<0.01)
 - Nickel is essential for H. pylori virulence enzymes (urease and hydrogenase); reducing dietary nickel bioavailability may impair H. pylori survival and increase antibiotic susceptibility
 - The nickel-free diet may work by depleting the metalloenzymes urease (acid resistance) and hydrogenase (energy production) that are critical for bacterial survival in the stomach
 - This is the first study demonstrating that a nickel-free diet can enhance antibiotic eradication therapy for H. pylori

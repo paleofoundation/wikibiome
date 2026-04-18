@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, mycobiome, diabetic-retinopathy, animal-mode
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Mycobiomes of diabetic (DM) and diabetic retinopathy change (DRC) rats", "Pathogenic fungi increase", "Beta-diversity analysis"]
 ---
 
 # Key Claims

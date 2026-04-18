@@ -1,5 +1,4 @@
 ---
-
 title: "Development, spread and persistence of antibiotic resistance genes (ARGs) in the soil microbiomes through co-selection"
 type: source
 created: 2026-04-09
@@ -13,12 +12,16 @@ pages: "371-378"
 doi: "10.1515/reveh-2020-0035"
 tags: [antibiotic-resistance-genes, co-selection, co-resistance, cross-resistance, co-regulation, heavy-metals, poly-aromatic-hydrocarbons, soil-microbiome, efflux-pumps, intI1, systems-biology, gene-network]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [bismuth, cadmium, copper, lead, mercury, nickel, vanadium, zinc]
+taxa_discussed: [helicobacter-pylori]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
 - The [[co-selection]] of antibiotic resistance (AMR) in bacteria evolves through three mechanisms: co-resistance, cross-resistance, and co-regulatory mechanisms, with persistent toxic contaminants (heavy metals and PAHs) as primary drivers
-- [[Efflux pumps]] present on the same mobile genetic elements, especially class 1 integrons (*IntI1*), may increase the presence of ARGs in the environment, with overexpression resulting from anthropogenic pollutant pressure
+- [[antimicrobial-resistance|Efflux pumps]] present on the same mobile genetic elements, especially class 1 integrons (*IntI1*), may increase the presence of ARGs in the environment, with overexpression resulting from anthropogenic pollutant pressure
 - Co-factors (heavy metals, PAHs) support selection and evolution of ARGs even in the absence of direct antibiotic pressure -- this is key because it means ARGs persist even when antibiotic use is reduced
 - The fitness cost of resistance via efflux pump overexpression, combined with mutations in chromosomes, creates a persistent reservoir of resistance that cannot be easily reversed
 
@@ -50,8 +53,8 @@ This mini-review is valuable for the wiki because it succinctly integrates the t
 - [[zinc]] -- Zn resistance via CzcCBA system links to imipenem resistance through OprD porin downregulation
 - [[cadmium]] -- Cd resistance through CzcRS co-regulation decreases OprD porin expression
 - [[mercury]] -- Hg associated with *sulI*, *tetA*, *tetM* resistance genes
-- [[efflux-pumps]] -- central mechanism of cross-resistance; overexpression driven by metal/PAH exposure
-- [[mobile-genetic-elements]] -- *IntI1* integrons as key carriers of co-selected resistance genes
+- [[antimicrobial-resistance|efflux-pumps]] -- central mechanism of cross-resistance; overexpression driven by metal/PAH exposure
+- [[horizontal-gene-transfer]] -- *IntI1* integrons as key carriers of co-selected resistance genes
 - [[horizontal-gene-transfer]] -- plasmid-mediated transfer of linked metal and antibiotic resistance determinants
 - [[baker-austin-2006-co-selection-antibiotic-metal-resistance]] -- foundational framework that this review expands with PAH dimension
 - [[hu-2016-nickel-contamination-antibiotic-resistance-soils]] -- empirical validation of soil co-selection mechanisms

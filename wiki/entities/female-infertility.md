@@ -42,7 +42,7 @@ Three independent lines of evidence establish causal microbiome-to-ovarian links
 
 Two independent microbiome studies show:
 - **Enriched in POI**: Eggerthella, Butyricimonas, Dorea, Sutterella [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]], [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
-- **Depleted in POI**: [[Faecalibacterium]] (major butyrate producer), Bulleidia
+- **Depleted in POI**: [[faecalibacterium-prausnitzii]] (major butyrate producer), Bulleidia
 - Microbial alterations correlated with FSH, LH, E2, AMH, and FSH/LH ratio
 
 ## Diminished Ovarian Reserve (DOR)
@@ -61,7 +61,7 @@ Female reproductive tissues are uniquely vulnerable to metalloestrogens:
 
 ## Vaginal and Endometrial Microbiome
 
-Beyond the gut, the reproductive tract itself harbors microbial communities that influence fertility. **Lactobacillus-dominant** vaginal communities (particularly *L. crispatus*) correlate with successful conception and implantation, while dysbiotic communities (bacterial vaginosis-associated taxa such as Gardnerella, Atopobium, Prevotella) are associated with reduced IVF success, recurrent implantation failure, and early pregnancy loss. Shotgun metagenomics in PCOS patients shows parallel vaginal dysbiosis — reduced Lactobacillus with enriched anaerobes and altered phageome composition [[zheng-2024-bacteria-phages-vaginal-pcos-obesity-shotgun]]. The endometrial microbiome, historically assumed sterile, hosts a low-biomass community whose composition at embryo transfer may predict live birth — a rapidly evolving field where WikiBiome will track emerging signatures.
+Beyond the gut, the reproductive tract itself harbors microbial communities that influence fertility. **Lactobacillus-dominant** vaginal communities (particularly *L. crispatus*) correlate with successful conception and implantation, while dysbiotic communities (bacterial vaginosis-associated taxa such as [[gardnerella|Gardnerella]], Atopobium, Prevotella) are associated with reduced IVF success, recurrent implantation failure, and early pregnancy loss. Shotgun metagenomics in PCOS patients shows parallel vaginal dysbiosis — reduced Lactobacillus with enriched anaerobes and altered phageome composition [[zheng-2024-bacteria-phages-vaginal-pcos-obesity-shotgun]]. The endometrial microbiome, historically assumed sterile, hosts a low-biomass community whose composition at embryo transfer may predict live birth — a rapidly evolving field where WikiBiome will track emerging signatures.
 
 ## Environmental Exposures
 

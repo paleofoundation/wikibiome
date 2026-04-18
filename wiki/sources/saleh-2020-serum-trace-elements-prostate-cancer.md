@@ -30,6 +30,9 @@ keystone_criteria_met:
   - 3
   - 5
 why_keystone: "Characterizes the prostate cancer metallomic signature—Se/Zn/Mn depletion paired with Cu/Fe elevation—and establishes Cu-Zn competitive antagonism at the metallothionein level as a carcinogenic mechanism. WikiBiome depends on this evidence to recognize the pan-cancer metal pattern (Cu accumulation + Zn loss) as a cross-condition marker and to understand how metal dysregulation enables malignant transformation across tissue types."
+evidence_level: case-control
+metals_discussed: [copper, iron, manganese, selenium, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims

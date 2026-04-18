@@ -1,5 +1,4 @@
 ---
-
 title: "Causal Relationship Between Gut Microbiota and Autoimmune Diseases: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,7 +9,7 @@ year: 2022
 tags: [Mendelian-randomization, gut-microbiome, autoimmune-diseases, multiple-sclerosis, Bifidobacterium, Ruminococcus, GWAS, causal-inference]
 doi: "10.3389/fimmu.2021.746998"
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: ["Bifidobacterium", "Ruminococcus"]
 evidence_level: mendelian-randomization
@@ -28,7 +27,7 @@ evidence_level: mendelian-randomization
 
 ## Methods/Findings
 
-- **Design**: Two-sample [[Mendelian-randomization]] using publicly available GWAS summary statistics
+- **Design**: Two-sample [[mendelian-randomization]] using publicly available GWAS summary statistics
 - **Data Sources**: Gut microbiota GWAS from 18,340 individuals across 24 cohorts; MS GWAS from IMSGC (14,802 cases, 26,703 controls); replication via UK Biobank
 - **Methods**: IVW, weighted median, MR-Egger regression; MR-PRESSO for pleiotropy detection; 211 bacterial taxa analyzed (131 genera); SNPs with P < 5 x 10^-8 selected as instruments
 - **Quality control**: F-statistics ranged 29.78 to 2,074.13 (all >10); no evidence of horizontal pleiotropy; leave-one-out sensitivity analyses confirmed robustness

@@ -12,6 +12,10 @@ library_category: mechanisms
 platform: cureva
 condition: "type 1 diabetes"
 evidence_level: computational-prediction
+metals_discussed: [iron, zinc]
+taxa_discussed: [akkermansia-muciniphila, fusobacterium-nucleatum]
+karen_brain_primitives: [1, 4]
+key_findings: ["Microbiome broadly targets human proteins", "15,252 unique inter-species PPIs", "Differential targeting"]
 ---
 
 # Key Claims

@@ -91,7 +91,7 @@ The key point: *B. thetaiotaomicron*'s role is determined less by its identity t
 - [[bile-acid-metabolism]] — contributes to bile acid transformation via bile salt hydrolase activity
 - [[tryptophan-metabolism]] — modulates tryptophan-derived metabolites influencing gut-immune signaling
 - [[ahr]] — aryl hydrocarbon receptor activated by *B. thetaiotaomicron*-derived indoles
-- [[mucin]] — substrate for mucin-foraging under low-fiber conditions
+- [[intestinal-permeability|mucin]] — substrate for mucin-foraging under low-fiber conditions
 - [[functional-shielding]] — interkingdom and intrageneric protection mechanism
 - [[iron]] — central to the Bacteroides-to-Enterobacteriaceae shift in inflammation
 - [[inflammatory-bowel-disease]] — condition where *B. thetaiotaomicron* is consistently depleted

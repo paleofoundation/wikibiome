@@ -11,13 +11,16 @@ tags: [parkinsons-disease, NSAIDs, pain-medications, gut-microbiota, mendelian-r
 library_category: drug-repurposing
 platform: both
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [iron]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Assessing the Impact of Common Pain Medications on Gut Microbiota Composition and Metabolites
 
 ## Summary
 
-This [[mendelian-randomization]] study investigates the causal effects of common pain medications (NSAIDs, acetaminophen, aspirin) on gut [[microbiome]] composition and metabolite profiles, with relevance to [[parkinsons-disease]] where NSAID use has been epidemiologically linked to modified PD risk.
+This [[mendelian-randomization]] study investigates the causal effects of common pain medications (NSAIDs, acetaminophen, aspirin) on gut [[gut-microbiome|microbiome]] composition and metabolite profiles, with relevance to [[parkinsons-disease]] where NSAID use has been epidemiologically linked to modified PD risk.
 
 ## Key Findings
 

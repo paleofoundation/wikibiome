@@ -6,17 +6,21 @@ updated: 2026-04-09
 authors: [Isabella Williams, Jacob S Tuckerman, Daniel I Peters, Madisen Bangs, Emily Williams, Iris J Shin, Justin R Kaspar, Isaac Cann]
 year: 2025
 journal: "Applied and Environmental Microbiology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC11921374) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Applied and Environmental Microbiology 2025 -->
 pmcid: "PMC11921374"
 tags: [mismetallation, metal-homeostasis, hydrogen-peroxide, oxidative-stress, streptococcus-mitis, streptococcus-mutans, oral-microbiome, biofilm, iron-sulfur-clusters, probiotic, SpxB, pyruvate-oxidase]
 library_category: streptococcus_staphylococcus
 platform: wikibiome
 condition: "H2O2-mediated interspecies competition involving metal-dependent oxidative damage"
+metals_discussed: [iron]
+taxa_discussed: [streptococcus]
+karen_brain_primitives: [1, 3, 4, 5]
+key_findings: ["S. mitis ATCC 49456 produces 4-5x more H2O2", "H2O2-mediated mismetallation is explicitly identified", "S. mutans biofilm formation is nearly abolished"]
 ---
 
 # Why This Paper Matters
 
-This study demonstrates that Streptococcus mitis ATCC 49456 produces 4-5 times more hydrogen peroxide than other oral streptococcal species, and 5-18 times more than other S. mitis strains, enabling near-complete elimination of S. mutans biofilm formation. For the [[mis-metallation]] framework, this is significant because H2O2 is a direct mediator of metal-dependent toxicity -- it causes "irreversible cellular damage in DNA integrity, oxidation of sulfurous amino acids and metal-binding sites within proteins, and mismetallation of enzymes" (explicitly stated). H2O2 reacts with Fe2+ in iron-sulfur clusters and other iron-binding proteins via [[Fenton-chemistry]], generating hydroxyl radicals that damage cellular components. The commensal S. mitis thus weaponizes oxidative chemistry to outcompete the cariogenic pathogen S. mutans, exploiting the latter's catalase-negative physiology. This represents an ecological application of metal-dependent oxidative damage where one bacterium induces [[mis-metallation]] in a competitor.
+This study demonstrates that Streptococcus mitis ATCC 49456 produces 4-5 times more hydrogen peroxide than other oral streptococcal species, and 5-18 times more than other S. mitis strains, enabling near-complete elimination of S. mutans biofilm formation. For the [[mis-metallation]] framework, this is significant because H2O2 is a direct mediator of metal-dependent toxicity -- it causes "irreversible cellular damage in DNA integrity, oxidation of sulfurous amino acids and metal-binding sites within proteins, and mismetallation of enzymes" (explicitly stated). H2O2 reacts with Fe2+ in iron-sulfur clusters and other iron-binding proteins via [[fenton-chemistry]], generating hydroxyl radicals that damage cellular components. The commensal S. mitis thus weaponizes oxidative chemistry to outcompete the cariogenic pathogen S. mutans, exploiting the latter's catalase-negative physiology. This represents an ecological application of metal-dependent oxidative damage where one bacterium induces [[mis-metallation]] in a competitor.
 
 # Key Claims
 
@@ -56,11 +60,11 @@ H2O2 damages bacterial cells through:
 - [[mis-metallation]] -- H2O2 causes mismetallation of enzymes through oxidative damage to metal-binding sites
 - [[oxidative-stress]] -- H2O2 as interspecies chemical weapon in oral biofilms
 - [[iron-sulfur-clusters]] -- primary targets of H2O2-mediated damage
-- [[Fenton-chemistry]] -- Fe2+ + H2O2 reaction central to H2O2 toxicity mechanism
+- [[fenton-chemistry]] -- Fe2+ + H2O2 reaction central to H2O2 toxicity mechanism
 - [[streptococcus-mutans]] -- cariogenic target of S. mitis H2O2 production
 - [[oral-microbiome]] -- H2O2-producing commensals as ecological controllers of cariogenic species
 - [[biofilm]] -- strain-specific biofilm inhibition through oxidative chemistry
 - [[iron]] -- iron transport genes upregulated in S. mutans under H2O2 stress
 - [[superoxide-dismutase]] -- S. mutans lacks catalase, making it vulnerable to H2O2
-- [[probiotic]] -- S. mitis ATCC 49456 as potential anti-caries probiotic candidate
+- [[probiotics|probiotic]] -- S. mitis ATCC 49456 as potential anti-caries probiotic candidate
 - [[metal-homeostasis]] -- H2O2 disrupts metal-protein interactions across the metalloproteome

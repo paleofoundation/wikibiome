@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic: A Mechanistic Examination of a Population-Level Metabolic Disruption"
 type: source
 created: 2026-04-09
@@ -13,6 +12,9 @@ platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 3, 5]
 why_keystone: "This paper connected phosphate fertilizer contamination, heavy metal accumulation in the food supply, and the population-level metabolic disruptions driving the US obesity epidemic — bridging agricultural science, environmental toxicology, and microbial ecology in a single framework. It provides the cross-condition evidence linking cadmium and nickel exposure to insulin resistance, SCFA depletion, and gut dysbiosis patterns shared across obesity, type 2 diabetes, and metabolic syndrome. Without this paper, WikiBiome could not explain why the same metals appearing in multiple disease signatures trace back to a common environmental source."
+metals_discussed: [cadmium, nickel]
+taxa_discussed: [bifidobacterium, faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1, 5]
 ---
 
 # Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic
@@ -43,9 +45,9 @@ why_keystone: "This paper connected phosphate fertilizer contamination, heavy me
 
 - -- core framework connecting metal exposure to microbiome changes
 - -- metal-driven selective pressure on microbial communities
-- [[Insulin resistance]] -- convergent outcome of multiple metal-toxicity pathways
+- [[insulin-resistance]] -- convergent outcome of multiple metal-toxicity pathways
 - -- primary vehicle for food supply metal contamination
 - -- nickel from urea fertilizers as underappreciated exposure pathway
-- [[Short-chain fatty acids]] -- loss of SCFA production as mediator of metabolic effects
+- [[short-chain-fatty-acids]] -- loss of SCFA production as mediator of metabolic effects
 - -- Cd as established obesogen and metabolic disruptor
 - [[pendergrass-2026-nickel-nec-preterm-gut]] -- related work on metal-microbe interactions in infant gut

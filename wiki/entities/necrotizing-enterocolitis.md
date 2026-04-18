@@ -114,7 +114,7 @@ A paradigm-shifting finding: **non-toxigenic Clostridium perfringens** strains m
 ## Cross-References
 
 - [[cerebral-palsy]] -- 20% of NEC survivors develop CP via the NEC-to-CP pathway
-- [[klebsiella]] -- primary NEC pathobiont, predictive biomarker
+- [[klebsiella-pneumoniae]] -- primary NEC pathobiont, predictive biomarker
 - [[bifidobacterium]] -- key protective taxon, HMO metabolism
 - [[lactoferrin]] -- iron chelation as NEC prevention
 - [[zinc]] -- Paneth cell function and defensin production

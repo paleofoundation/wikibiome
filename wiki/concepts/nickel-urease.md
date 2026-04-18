@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel-Urease"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [virulence-enzyme, nickel-biology, metal-cofactor, bacterial-survival, gastric-pathogen]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels"
 platform: wikibiome
+karen_brain_primitives: [4]
+seo_target: "nickel-urease microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview

@@ -1,5 +1,4 @@
 ---
-
 title: "Bile acids at the cross-roads of gut microbiome-host cardiometabolic interactions"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2017
 doi: 10.1186/s13098-017-0299-9
 tags: [cardiovascular-disease, CVD, bile-acids, FXR, TGR5, gut-microbiome, metabolic-syndrome, obesity, hypertension, heart-failure, bariatric-surgery, BSH, coprostanol, review]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bacteroides-fragilis, clostridium, eubacterium, lactobacillus, listeria]
 ---
 
 # Bile Acids at the Cross-Roads of Gut Microbiome-Host Cardiometabolic Interactions
@@ -51,7 +52,7 @@ Review focusing on bile acid-mediated signaling pathways through which the gut m
 
 ## Relevance to the Wiki
 
-Provides the most detailed treatment of [[bile-acids]] as mediators of gut [[microbiome-host-interactions]] in cardiometabolic disease of papers in this collection. The FXR/TGR5 receptor framework connects gut microbial bile acid modification to specific cardiovascular outcomes. Complements the metabolite-focused reviews in [[wang-2022-gut-microbiota-health-cvd-review]] and [[herrema-2020-microbiome-cardiovascular-disease-ascvd]].
+Provides the most detailed treatment of [[bile-acid-metabolism]] as mediators of gut [[gut-metal-microbiome|microbiome-host-interactions]] in cardiometabolic disease of papers in this collection. The FXR/TGR5 receptor framework connects gut microbial bile acid modification to specific cardiovascular outcomes. Complements the metabolite-focused reviews in [[wang-2022-gut-microbiota-health-cvd-review]] and [[herrema-2020-microbiome-cardiovascular-disease-ascvd]].
 
 ## Connections
 

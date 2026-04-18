@@ -9,6 +9,10 @@ year: 2025
 doi: "10.1186/s12967-025-06339-z"
 tags: [ovarian-cancer, machine-learning, gut-microbiome, diagnostic-model, Escherichia-coli, Bifidobacterium, Shigella, Ruminococcus, metabolomics, Cally-index]
 platform: wikibiome
+evidence_level: in-vitro
+metals_discussed: [nickel]
+taxa_discussed: [bifidobacterium, escherichia-coli, ruminococcus, shigella]
+karen_brain_primitives: [1]
 ---
 
 # Machine Learning Diagnostic Model of EOC Based on Gut Microbiome Signatures

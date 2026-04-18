@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy metal tolerance in plants: role of transcriptomics, proteomics, metabolomics, and ionomics"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2016
 tags: [heavy-metals, metabolomics, ionomics, transcriptomics, proteomics, plant-tolerance, oxidative-stress, metallophytes, ROS]
 doi: "10.3389/fpls.2015.01143"
 platform: wikibiome
+metals_discussed: [arsenic, cadmium, lead, zinc]
+karen_brain_primitives: [1, 4]
 ---
 
 # Key Claims
@@ -34,7 +35,7 @@ platform: wikibiome
 # Connections
 
 - Plant omics approaches inform methodology for studying [[metabolomics]] of heavy metal exposure in mammals, as reviewed in [[akash-2023-metabolomics-heavy-metal-toxicities]]
-- ROS and [[oxidative-stress|oxidative stress]] mechanisms are conserved between plants and mammalian systems exposed to [[heavy metals]]
-- Metal transporter families (ZIP, Nramp) have homologs in human cells relevant to [[arsenic]], [[Cadmium Toxicity]], [[Lead Toxicity]]
+- ROS and [[oxidative-stress|oxidative stress]] mechanisms are conserved between plants and mammalian systems exposed to [[heavy-metals]]
+- Metal transporter families (ZIP, Nramp) have homologs in human cells relevant to [[arsenic]], [[cadmium|Cadmium Toxicity]], [[lead|Lead Toxicity]]
 - Epigenetic modifications from HM exposure connect to developmental and transgenerational effects in humans
 - Complements [[phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]] omics framework

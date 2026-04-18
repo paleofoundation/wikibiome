@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, bile-acids, fxr, tgr5, glucose-metabolism, g
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Bile acids activate FXR, TGR5, and other nuclear/membrane receptors", "Bile acids substantially lower blood glucose", "Bile acids impact blood glucose regulation"]
 ---
 
 # Key Claims

@@ -12,6 +12,10 @@ library_category: microbiome-signature
 platform: cureva
 condition: "infant gut microbiome"
 evidence_level: prospective-cohort
+metals_discussed: [aluminum, arsenic, copper, iron, magnesium, manganese, selenium, zinc]
+taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [1]
+key_findings: ["Trace elements in maternal hair", "Shannon diversity", "Bifidobacterium"]
 ---
 
 # Key Claims

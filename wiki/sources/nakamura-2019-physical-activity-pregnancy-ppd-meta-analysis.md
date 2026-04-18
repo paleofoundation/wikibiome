@@ -11,6 +11,9 @@ tags: [postpartum-depression, physical-activity, pregnancy, exercise, meta-analy
 library_category: meta-analysis
 platform: cureva
 condition: "postpartum depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, magnesium, zinc]
+key_findings: ["Physical activity during pregnancy"]
 ---
 
 # Key Claims

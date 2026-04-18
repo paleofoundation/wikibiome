@@ -9,6 +9,8 @@ year: 2023
 doi: "10.1186/s12906-023-04165-8"
 tags: [ovarian-cancer, synbiotics, chemotherapy, breast-cancer, RCT, fatigue, nausea, side-effects, placebo-controlled]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+karen_brain_primitives: [5]
 ---
 
 # Synbiotics Reduce Chemotherapy-Induced Side Effects in Breast Cancer

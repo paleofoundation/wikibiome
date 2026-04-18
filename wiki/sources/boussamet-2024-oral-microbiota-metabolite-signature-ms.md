@@ -34,6 +34,10 @@ tags:
   - Leptotrichia
   - biomarkers
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [copper, iron, selenium]
+taxa_discussed: [actinomyces, akkermansia-muciniphila, fusobacterium-nucleatum, oscillospiraceae, roseburia, streptococcus]
+karen_brain_primitives: [1]
 ---
 
 # Investigating the Metabolite Signature of an Altered Oral Microbiota as a Discriminant Factor for Multiple Sclerosis

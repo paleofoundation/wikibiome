@@ -1,5 +1,4 @@
 ---
-
 title: Environmental Metal Exposure
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [briffa-2020-heavy-metal-pollution-environment-toxicology, jaishankar-2014-heavy-metal-toxicity-mechanisms, pendergrass-2026-fertilizers-heavy-metals-historical, pendergrass-2026-age-window-vulnerability-vegetable-baby-foods, pendergrass-2026-certification-infant-food-metals, shearston-2024-tampons-metal-exposure, jackson-2012-arsenic-infant-formulas-first-foods, hopfner-2025-infant-formula-dietary-exposure-elements-germany, garuba-2024-heavy-metals-commercial-baby-foods, de-almeida-2022-toxic-metals-infant-formula-brazil, su-2020-toxic-elements-infant-formulas-china, meli-2024-chemical-characterization-baby-food-italy, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements, pereira-2020-nickel-baby-foods, genchi-2020-nickel-human-health-environmental-toxicology, genchi-2020-cadmium-toxicity, racette-2017-manganese-parkinsonism-welders, agboola-2023-heavy-metals-leafy-vegetables-lagos, fatima-2020-heavy-metals-fruit-juices-pakistan, lehmler-2018-tin-exposure-nhanes-us-population, mahalingaiah-2018-air-pollution-menstrual-disorders, rebelytics-2023-nickel-in-foods-summary, flyvholm-1984-nickel-food-content, dobrzynska-2025-nickel-children-food]
 tags: [exposure-routes, dietary-exposure, occupational-exposure, food-contamination, baby-food, infant-formula, tampons, fertilizers, soil-contamination, air-pollution, consumer-products, risk-assessment]
 platform: wikibiome
+karen_brain_primitives: [1, 3, 4]
+seo_target: "environmental metal exposure microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Environmental Metal Exposure
@@ -100,7 +102,7 @@ A 2024 study found all 16 metals assessed at measurable concentrations in tampon
 
 Air pollution delivers metals via inhalation:
 - Industrial emissions (smelting, combustion, manufacturing)
-- Vehicle exhaust (historically lead from leaded gasoline; ongoing platinum group element exposure from catalytic converters)
+- Vehicle exhaust (historically lead from leaded gasoline; ongoing [[platinum]] group element exposure from catalytic converters)
 - Cigarette smoke: major source of cadmium (40-60% of inhaled Cd absorbed in lungs), and also delivers nickel, arsenic, and lead
 - Indoor air: dust from lead paint in older buildings
 

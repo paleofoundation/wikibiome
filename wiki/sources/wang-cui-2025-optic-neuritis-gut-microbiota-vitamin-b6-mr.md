@@ -42,8 +42,8 @@ MiBioGen-adjacent FR02 cohort for gut microbiota GWAS (P<5×10⁻⁸). Immune ce
 
 ## Relevance to WikiBiome
 
-- Novel entity candidate: **[[vitamin-b6]]** (pyridoxine/pyridoxal/pyridoxamine) — add or expand page with gut-microbiome-immune axis content. B6 is required for ~150 enzymes including many in microbial amino acid metabolism and host tryptophan/kynurenine pathway (AhR ligand generation).
-- Informs **[[multiple-sclerosis]]** and adjacent **[[optic-neuritis]]** entity (if new): pyridoxine status as modifiable risk factor, mediated through microbiome.
+- Novel entity candidate: **[[dietary-metal-microbiome-interactions|vitamin-b6]]** (pyridoxine/pyridoxal/pyridoxamine) — add or expand page with gut-microbiome-immune axis content. B6 is required for ~150 enzymes including many in microbial amino acid metabolism and host tryptophan/kynurenine pathway (AhR ligand generation).
+- Informs **[[multiple-sclerosis]]** and adjacent **[[multiple-sclerosis|optic-neuritis]]** entity (if new): pyridoxine status as modifiable risk factor, mediated through microbiome.
 - Supports **[[nutritional-immunity]]** concept: B6-dependent enzymes (kynureninase, serine hydroxymethyltransferase) operate at the host-microbe interface.
 
 ## Relevance to Cureva

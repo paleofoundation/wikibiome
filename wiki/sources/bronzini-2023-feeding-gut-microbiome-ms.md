@@ -1,5 +1,4 @@
 ---
-
 title: "Feeding the gut microbiome: impact on multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 doi: 10.3389/fimmu.2023.1176016
 tags: [multiple-sclerosis, gut-microbiome, diet, probiotics, prebiotics, postbiotics, dysbiosis, SCFAs, EAE, gut-brain-axis, dietary-intervention]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, blautia, butyricimonas, clostridium, faecalibacterium-prausnitzii, lactobacillus, methanobrevibacter-smithii, mycoplasma, parabacteroides, prevotella, pseudomonas-aeruginosa, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Feeding the Gut Microbiome: Impact on Multiple Sclerosis

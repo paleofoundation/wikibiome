@@ -1,5 +1,4 @@
 ---
-
 title: "Identification of colorectal cancer progression-associated intestinal microbiome and predictive signature construction"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 doi: "10.1186/s12967-023-04119-1"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, CRC-progression, staging, Alistipes-indistinctus, machine-learning, immune-infiltration, mast-cells]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [alistipes, citrobacter, corynebacterium, faecalibacterium-prausnitzii, parabacteroides, proteus, roseburia, ruminococcus]
 ---
 
 # Liu 2023 -- CRC Progression-Associated Intestinal Microbiome and Predictive Signature

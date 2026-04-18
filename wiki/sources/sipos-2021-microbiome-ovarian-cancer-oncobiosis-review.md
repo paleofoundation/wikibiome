@@ -9,6 +9,8 @@ year: 2021
 doi: "10.1186/s10020-021-00295-2"
 tags: [ovarian-cancer, microbiome, oncobiosis, EMT, microbial-metabolites, indole-derivatives, LPS, probiotics, SCFAs, bile-acids, lysophosphatidic-acid, dysbiosis]
 platform: wikibiome
+metals_discussed: [cadmium, iron, nickel]
+karen_brain_primitives: [1, 5, 7]
 ---
 
 # The Role of the Microbiome in Ovarian Cancer: Oncobiosis and Bacterial Metabolite Signaling

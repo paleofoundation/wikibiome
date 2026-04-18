@@ -1,5 +1,4 @@
 ---
-
 title: "Causal effect between gut microbiota and pancreatic cancer: a two-sample Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [pancreatic-cancer, mendelian-randomization, gut-microbiota, GWAS, causality, Senegalimassilia, Odoribacter, Ruminiclostridium, Streptococcus]
 doi: "10.1186/s12885-023-11493-y"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [streptococcus]
 ---
 
 # Key Claims

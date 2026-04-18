@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiota disbiosis is associated with colorectal cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2015
 doi: "10.3389/fmicb.2015.00020"
 tags: [colon-cancer, colorectal-cancer, dysbiosis, microbiome, Fusobacterium, mucosa-associated-microbiota, 16S-rRNA, tumor-microenvironment]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [escherichia-coli, fusobacterium-nucleatum, peptostreptococcus, prevotella, pseudomonas-aeruginosa, shigella]
 ---
 
 # Gao 2015 -- Microbiota Dysbiosis Is Associated with Colorectal Cancer

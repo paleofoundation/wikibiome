@@ -1,5 +1,4 @@
 ---
-
 title: "B-cell-depletion reverses dysbiosis of the microbiome in multiple sclerosis patients"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 doi: 10.1038/s41598-022-07336-8
 tags: [multiple-sclerosis, dysbiosis, B-cell-depletion, ocrelizumab, oral-microbiome, gut-microbiome, longitudinal, treatment-response]
 platform: wikibiome
+taxa_discussed: [actinomyces, alistipes, bacteroides-fragilis, butyricimonas, campylobacter-jejuni, escherichia-coli, haemophilus, lachnospiraceae, parabacteroides, prevotella, ruminococcus, shigella, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # B-Cell-Depletion Reverses Dysbiosis of the Microbiome in Multiple Sclerosis Patients

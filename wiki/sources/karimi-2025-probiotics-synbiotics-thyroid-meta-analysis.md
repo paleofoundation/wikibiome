@@ -1,5 +1,4 @@
 ---
-
 title: "Effects of Probiotics and Synbiotics Oral Supplementation on Thyroid Function in Adults: A Grade-Assessed Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2025
 doi: "10.1186/s13044-025-00257-4"
 tags: [hashimotos-thyroiditis, thyroid, probiotics, synbiotics, meta-analysis, RCT, TSH, T3, T4, thyroid-hormones, GRADE, gut-thyroid-axis, hypothyroidism, Graves-disease, thyroid-cancer, gut-microbiota]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Effects of Probiotics and Synbiotics Oral Supplementation on Thyroid Function in Adults: A Grade-Assessed Systematic Review and Meta-Analysis

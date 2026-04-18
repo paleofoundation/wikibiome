@@ -11,13 +11,15 @@ tags: [parkinsons-disease, microbiome-modulation, drug-effects, PPI, laxatives, 
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron, manganese, nickel]
+karen_brain_primitives: [1, 4]
 ---
 
 # Microbiome-Modulating Drugs and Neurodegeneration in Parkinson's Disease
 
 ## Summary
 
-This study examines how commonly prescribed medications in [[parkinsons-disease]] patients -- including PPIs, laxatives, antibiotics, and PD-specific drugs -- modulate the gut [[microbiome]] and potentially influence disease progression.
+This study examines how commonly prescribed medications in [[parkinsons-disease]] patients -- including PPIs, laxatives, antibiotics, and PD-specific drugs -- modulate the gut [[gut-microbiome|microbiome]] and potentially influence disease progression.
 
 ## Key Findings
 

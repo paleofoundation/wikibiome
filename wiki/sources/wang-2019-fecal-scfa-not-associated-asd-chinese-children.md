@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, SCFAs, short-chain-fatty-acids, fecal, case-con
 library_category: metabolomics
 platform: HPLC
 condition: "autism spectrum disorder"
+evidence_level: case-control
+metals_discussed: [iron]
+karen_brain_primitives: [5]
+key_findings: ["Total SCFAs", "Acetic acid", "Propionic acid"]
 ---
 
 # Overview
@@ -58,7 +62,7 @@ Case-control study of **45 ASD children and 90 age-sex-matched controls** (ages 
 **Moderate relevance** — negative result has implications for metal-SCFA hypothesis:
 
 - If fecal SCFA levels are not consistently altered in ASD, the SCFA-mediated pathway to metal absorption changes may be less direct
-- [[Butyrate]] regulates [[iron]] transporter expression — but fecal butyrate may not reflect colonic epithelial exposure
+- [[butyrate]] regulates [[iron]] transporter expression — but fecal butyrate may not reflect colonic epithelial exposure
 - Single-timepoint fecal SCFA measurement may miss temporal dynamics
 - Suggests that **microbial SCFA production capacity** (from metagenomics) may be more informative than actual fecal SCFA levels
 

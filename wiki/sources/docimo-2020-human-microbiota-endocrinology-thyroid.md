@@ -1,5 +1,4 @@
 ---
-
 title: "The Human Microbiota in Endocrinology: Implications for Pathophysiology, Treatment, and Prognosis in Thyroid Diseases"
 type: source
 created: 2026-04-09
@@ -10,16 +9,20 @@ year: 2020
 doi: "10.3389/fendo.2020.586529"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, thyroid-cancer, probiotics, Lactobacillus, Bifidobacterium, NLRP3, intestinal-permeability, review]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [copper, iron, selenium, zinc]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, candida-albicans, lactobacillus, prevotella, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # The Human Microbiota in Endocrinology: Implications for Pathophysiology, Treatment, and Prognosis in Thyroid Diseases
 
 ## Key Claims
 
-- [[Autoimmune thyroid diseases]] (ATD) are the most common organ-specific autoimmune disorders with increasing prevalence higher than 5% worldwide
-- The [[gut microbiome]] plays a role in thyroid hormone metabolism through bacterial deconjugation of iodothyronine and competition with human albumin for thyroid hormones
+- [[thyroid-autoimmunity|Autoimmune thyroid diseases]] (ATD) are the most common organ-specific autoimmune disorders with increasing prevalence higher than 5% worldwide
+- The [[gut-microbiome]] plays a role in thyroid hormone metabolism through bacterial deconjugation of iodothyronine and competition with human albumin for thyroid hormones
 - The microbiota affects absorption of microelements including [[iodine]], [[copper]], [[iron]], [[selenium]], and [[zinc]] that are vital to thyroid health
-- In HT patients, a specific subset of gut bacteria with a [[lactobacillus]]-predominant pattern has been identified; levels of [[Prevotellaceae]] and [[Veillonellaceae]] decreased
+- In HT patients, a specific subset of gut bacteria with a [[lactobacillus]]-predominant pattern has been identified; levels of [[prevotellaceae|Prevotellaceae]] and [[veillonellaceae|Veillonellaceae]] decreased
 - [[bifidobacterium]] and [[lactobacillus]] were significantly decreased in HT patients shown by real-time PCR
 - A specific predisposing pattern of gut microbiota may be associated with Graves' orbitopathy, and methimazole treatment dramatically increased microbiome diversity after 3-5 months
 

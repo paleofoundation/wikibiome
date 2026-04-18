@@ -11,6 +11,9 @@ tags: [parkinsons-disease, urolithins, microbial-biomarkers, gut-dysbiosis, ella
 library_category: metabolites
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+karen_brain_primitives: [1]
 ---
 
 # Urolithins: Potential Biomarkers of Gut Dysbiosis and Disease Stage in Parkinson's Patients

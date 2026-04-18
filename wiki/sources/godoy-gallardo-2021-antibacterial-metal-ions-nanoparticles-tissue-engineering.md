@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, antimicrobial-metals, silver, copper, 
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "metal-based antimicrobial biomaterials"
+metals_discussed: [calcium, copper, iron, magnesium, strontium, zinc]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
+key_findings: ["Metal antimicrobial activity involves at least seven concurrent mechanisms"]
 ---
 
 # Why This Paper Matters

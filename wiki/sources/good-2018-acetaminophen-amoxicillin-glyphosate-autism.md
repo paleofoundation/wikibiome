@@ -12,6 +12,8 @@ library_category: "NSAIDs"
 platform: original-article
 condition: "autism spectrum disorder"
 source_pages: "pp. 171-183"
+taxa_discussed: [clostridium]
+karen_brain_primitives: [5]
 ---
 
 # Overview

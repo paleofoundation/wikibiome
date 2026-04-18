@@ -1,5 +1,4 @@
 ---
-
 title: "Ketogenic diets and cardio-metabolic diseases"
 type: source
 created: 2026-04-09
@@ -7,17 +6,18 @@ updated: 2026-04-09
 authors: [Weiyue Zhang, Xin Guo, Lulu Chen, Ting Chen, Jiayu Yu, Chaodong Wu, Juan Zheng]
 journal: Frontiers in Endocrinology
 year: 2021
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Endocrinology 2021 -->
 tags: [cardiovascular-disease, ketogenic-diet, obesity, hypertension, heart-failure, diabetes, dyslipidemia, NAFLD, ketone-bodies, cardiac-function]
 platform: wikibiome
 evidence_level: expert-opinion
+metals_discussed: [lead]
 ---
 
 # Zhang et al. 2021 -- Ketogenic Diets and Cardio-Metabolic Diseases
 
 ## Key Claims
 
-- [[Ketogenic diet]] (KD) therapy is generally promising in [[obesity]], [[heart failure]], and [[hypertension]], though different voices still exist regarding diabetes and dyslipidemia
+- [[ketogenic-diet]] (KD) therapy is generally promising in [[obesity]], [[cardiovascular-disease|heart failure]], and [[hypertension]], though different voices still exist regarding diabetes and dyslipidemia
 - KD is generally protective to obese-related [[cardiovascular-disease]] while remaining contradictory to diabetes and other metabolic disorder-related CVDs
 - Beta-hydroxybutyrate (BHB) regulates the PI3K/Akt pathway in cardiomyocytes to prevent apoptosis, and inhibits HDAC2 to influence mitochondrial biogenesis
 - In endothelial cells, ketone bodies inhibit mTOR pathway to regulate eNOS, subsequently dilating blood vessels and enhancing vascular function; also activate Nrf2 to enhance antioxidant gene expression
@@ -40,6 +40,6 @@ pp. 1-8
 
 ## Connections
 
-- Links to [[gut microbiome]] modulation by dietary patterns
-- Relevant to [[metabolic syndrome]] and [[insulin resistance]]
-- Connects to [[Mediterranean diet]] as potential modified KD approach ("Spanish Ketogenic Mediterranean Diet")
+- Links to [[gut-microbiome]] modulation by dietary patterns
+- Relevant to [[metabolic-syndrome]] and [[insulin-resistance]]
+- Connects to [[mediterranean-diet]] as potential modified KD approach ("Spanish Ketogenic Mediterranean Diet")

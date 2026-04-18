@@ -57,7 +57,7 @@ DOI matching identified 46 pairs (and 3 triplets) where the same paper was inges
 |------|--------|-----|
 | `zou-2022-gut-mycobiome-dysbiosis-hypertension-immunoglobulin.md` | `zou-2022-mycobiome-dysbiosis-hypertension-light-chains.md` AND `zou-2022-mycobiome-hypertension-immunoglobulin.md` | 10.3389/fimmu.2022.1089295 |
 | `spivak-2022-local-systemic-effects-microbiome-derived-metabolites.md` | `spivak-2023-local-systemic-microbiome-derived-metabolites.md` AND `spivak-2023-microbiome-derived-metabolites-local-systemic-effects.md` | 10.15252/embr.202255664 |
-| `eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood.md` | `eggers-2023-prenatal-lead-gut-microbiome-childhood.md` | 10.3389/fmicb.2023.1193919 |
+| `eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood.md` | `eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood.md` | 10.3389/fmicb.2023.1193919 |
 | `ni-2022-gut-microbiota-psychiatric-disorders-mendelian-randomization.md` | `ni-2022-gut-microbiota-psychiatric-disorders-mr.md` | 10.3389/fmicb.2021.737197 |
 | `he-2021-gut-microbiome-sex-hormone-related-diseases.md` | `he-2021-gut-microbiome-sex-hormones-disease.md` | 10.3389/fmicb.2021.711137 |
 | `liu-2020-high-fat-diet-heavy-metal-gut-microbiota.md` | `liu-2020-high-fat-diet-heavy-metals-gut-microbiota-kidney.md` | 10.3389/fmicb.2020.01604 |
@@ -211,7 +211,7 @@ These terms appear as wikilinks across multiple content pages but have no page o
 
 - `[[ahr]]` (Aryl Hydrocarbon Receptor) — Referenced across ASD, MS, and Hashimoto's content
 - `[[amyloid-beta]]` — Referenced in Alzheimer's signature
-- `[[bile-acids]]` — `[[bile-acid-metabolism]]` exists but `[[bile-acids]]` is a separate referenced stub; should redirect or merge
+- `[[bile-acid-metabolism]]` — `[[bile-acid-metabolism]]` exists but `[[bile-acid-metabolism]]` is a separate referenced stub; should redirect or merge
 - `[[celiac-disease]]` — Referenced in low-nickel-diet intervention as a condition; no entity page
 - `[[activated-charcoal]]` — Referenced in intervention context but no page
 - `[[butyrate-supplementation]]` — Referenced separately from `[[butyrate]]`; consider whether a stub is needed

@@ -60,9 +60,9 @@ key_findings:
 
 ## Relevance to WikiBiome
 
-- **[[polycystic-ovary-syndrome]]** entity page — document Alloprevotella and Parasutterella as testosterone-suppressive taxa (mechanistic hypothesis for why GLP-1 agonist combination outperforms metformin alone).
+- **[[pcos|polycystic-ovary-syndrome]]** entity page — document Alloprevotella and Parasutterella as testosterone-suppressive taxa (mechanistic hypothesis for why GLP-1 agonist combination outperforms metformin alone).
 - **[[metformin]]** concept/entity — add PCOS-specific microbiome effect: Akkermansia expansion.
-- **[[liraglutide]]** / **[[glp-1-receptor-agonists]]** — add Phascolarctobacterium and Akkermansia expansion.
+- **[[insulin-resistance|liraglutide]]** / **[[insulin-resistance|glp-1-receptor-agonists]]** — add Phascolarctobacterium and Akkermansia expansion.
 - **[[akkermansia-muciniphila]]** — add metformin + GLP-1 agonist as drivers of abundance.
 - **[[alloprevotella]]** — create or expand entity page; negative correlate of testosterone, protective in PCOS.
 - **[[parasutterella]]** — same.

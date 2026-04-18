@@ -3,10 +3,12 @@ title: "Zinc Supplementation"
 type: intervention
 created: 2026-04-09
 updated: 2026-04-09
+last_substantive_update: 2026-04-09
 sources: []
 tags: [supplement, zinc, immune-modulation, enzyme-cofactor, barrier-integrity, evidence-based]
 intervention_class: supplement
 cureva_status: partial
+karen_brain_primitives: [1, 2, 4]
 
 triangles:
   - condition: "[[postpartum-depression]]"
@@ -114,7 +116,7 @@ Zinc operates through three primary pathways relevant to the conditions above:
 
 **Entities:** [[zinc]], [[copper]]
 
-**Concepts:** [[nutritional-immunity]], [[barrier-integrity]], [[immune-modulation]], [[SHANK3]]
+**Concepts:** [[nutritional-immunity]], [[intestinal-permeability|barrier-integrity]], [[inflammation|immune-modulation]], [[autism-spectrum-disorder|SHANK3]]
 
 **Related interventions:** [[iron-management]] (Zn/Fe absorption competition), [[selenium-supplementation]] (both trace element repletion)
 

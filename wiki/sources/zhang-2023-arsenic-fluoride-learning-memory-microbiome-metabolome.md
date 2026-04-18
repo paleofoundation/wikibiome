@@ -13,8 +13,9 @@ platform: cureva
 condition: "autism spectrum disorder"
 karen_brain_primitives: [1]
 metals_discussed: ["arsenic"]
-taxa_discussed: []
+taxa_discussed: [eubacterium, lachnospiraceae, ruminococcus]
 evidence_level: animal-model
+key_findings: ["Arsenic and/or fluoride exposure", "16S rRNA sequencing", "Learning and memory impairment"]
 ---
 
 # Key Claims

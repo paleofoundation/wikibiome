@@ -11,6 +11,8 @@ tags: [mismetallation, metal-homeostasis, zinc, Zur, exoproteome, ZepA, cyanobac
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "ancient zinc acquisition systems"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 3, 4]
 ---
 
 # Why This Paper Matters
@@ -62,5 +64,5 @@ This paper discovers a previously unknown zinc acquisition system -- ZepA -- tha
 - [[nutritional-immunity]] -- host zinc restriction targets these ancient acquisition systems
 - [[metallochaperone]] -- ZepA as extracellular zinc-binding protein analogous to intracellular chaperones
 - [[iron]] -- FurA regulation by Zur suggests iron-zinc regulatory crosstalk
-- [[COG0523]] -- previously identified Zur-regulated metallochaperones in same organism
-- [[ocean-biogeochemistry]] -- zinc scarcity in open ocean drives cyanobacterial zinc acquisition strategies
+- [[metallochaperone|COG0523]] -- previously identified Zur-regulated metallochaperones in same organism
+- [[environmental-metal-exposure|ocean-biogeochemistry]] -- zinc scarcity in open ocean drives cyanobacterial zinc acquisition strategies

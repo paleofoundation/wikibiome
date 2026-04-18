@@ -9,6 +9,7 @@ journal: "Journal of Translational Medicine"
 doi: "10.1186/s12967-018-1756-4"
 tags: [chronic-kidney-disease, CKD, gut-kidney-axis, metabolome, uremic-toxins, probiotics, review, IgA-nephropathy, hemodialysis]
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Microbiome-Metabolome and the Gut-Kidney Axis

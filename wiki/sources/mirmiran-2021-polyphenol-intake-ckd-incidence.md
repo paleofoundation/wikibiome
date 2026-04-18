@@ -9,6 +9,7 @@ journal: "BMC Nephrology"
 doi: "10.1186/s12882-021-02286-1"
 tags: [chronic-kidney-disease, CKD, polyphenols, lignans, prospective-cohort, Tehran-Lipid-Glucose-Study, eGFR, CKD-incidence]
 platform: wikibiome
+evidence_level: prospective-cohort
 ---
 
 # Polyphenol Intake and CKD Incidence

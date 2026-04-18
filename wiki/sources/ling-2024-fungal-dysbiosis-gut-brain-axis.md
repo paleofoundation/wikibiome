@@ -11,6 +11,10 @@ tags: [parkinsons-disease, fungal-dysbiosis, gut-brain-axis, mycobiome, neurodeg
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [1, 2, 4, 8]
 ---
 
 # Fungal Dysbiosis and the Gut-Brain Axis in Neurodegeneration
@@ -22,7 +26,7 @@ This study investigates the role of gut fungal [[dysbiosis]] in neurodegenerativ
 ## Key Findings
 
 - Gut fungal dysbiosis is a consistent feature across multiple neurodegenerative conditions
-- Fungal cell wall components (beta-glucans, mannans) activate innate immune receptors including [[Dectin-1]], [[TLR2]], and [[TLR4]]
+- Fungal cell wall components (beta-glucans, mannans) activate innate immune receptors including [[mycobiome|Dectin-1]], [[toll-like-receptors|TLR2]], and [[tlr4]]
 - Increased intestinal *[[candida-albicans]]* abundance correlates with elevated pro-inflammatory cytokines (IL-17, TNF-alpha, IL-6)
 - Fungal translocation across a compromised gut barrier triggers systemic [[inflammation]]
 - The fungal-immune axis intersects with [[alpha-synuclein]] pathology in [[parkinsons-disease]]
@@ -30,7 +34,7 @@ This study investigates the role of gut fungal [[dysbiosis]] in neurodegenerativ
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Fungal [[dysbiosis]] connects directly to metal [[dyshomeostasis]] in [[parkinsons-disease]]. *Candida* species upregulate iron acquisition systems during invasive growth, competing with the host's [[nutritional-immunity]] response. The immune activation triggered by fungal overgrowth (particularly through [[Dectin-1]] signaling) drives [[hepcidin]] expression, which sequesters [[iron]] intracellularly -- paradoxically creating conditions that favor iron-dependent [[ferroptosis]] in dopaminergic neurons. The fungal-metal-immune triangle represents an underexplored driver of PD progression.
+Fungal [[dysbiosis]] connects directly to metal [[dyshomeostasis]] in [[parkinsons-disease]]. *Candida* species upregulate iron acquisition systems during invasive growth, competing with the host's [[nutritional-immunity]] response. The immune activation triggered by fungal overgrowth (particularly through [[mycobiome|Dectin-1]] signaling) drives [[hepcidin]] expression, which sequesters [[iron]] intracellularly -- paradoxically creating conditions that favor iron-dependent [[ferroptosis]] in dopaminergic neurons. The fungal-metal-immune triangle represents an underexplored driver of PD progression.
 
 ## Limitations
 

@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, gastrointestinal-inflammation, heterogeneity, t
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["ASD is highly heterogeneous", "Gastrointestinal inflammation", "Exploring subgroups"]
 ---
 
 # Key Claims

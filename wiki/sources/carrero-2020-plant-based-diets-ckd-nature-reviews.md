@@ -48,7 +48,7 @@ The review explicitly cautions against blanket adoption in advanced CKD due to h
 
 ## Relevance to WikiBiome
 
-Informs the [[chronic-kidney-disease]] entity page (dietary factors section) and concept pages on [[dietary-fiber]], [[saccharolytic-fermentation]], and [[uremic-toxins]]. The fiber-fermentation shift is a key WikiBiome educational concept.
+Informs the [[chronic-kidney-disease]] entity page (dietary factors section) and concept pages on [[dietary-fiber]], [[fermentative-metabolism|saccharolytic-fermentation]], and [[tmao|uremic-toxins]]. The fiber-fermentation shift is a key WikiBiome educational concept.
 
 ## Relevance to Cureva
 

@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, synbiotics, gut-directed-hypnotherapy, gastroin
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bifidobacterium, dialister]
+karen_brain_primitives: [5]
+key_findings: ["Both synbiotics (SYN) and combined synbiotics + gut-directed hypnotherapy (COM)", "Only COM group"]
 ---
 
 # Key Claims

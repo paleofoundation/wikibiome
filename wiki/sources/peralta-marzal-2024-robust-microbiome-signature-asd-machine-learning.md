@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, microbiome-signature, machine-learning, REFS, 1
 library_category: microbiome-signature
 platform: 16S-rRNA
 condition: "autism spectrum disorder"
+evidence_level: computational-prediction
+metals_discussed: [iron]
+taxa_discussed: [bifidobacterium, clostridium, collinsella, desulfovibrio, eubacterium, lachnospira, lachnospiraceae, oscillospiraceae, parabacteroides]
+karen_brain_primitives: [1, 4, 8]
 ---
 
 # Overview
@@ -45,8 +49,8 @@ Machine learning study applying **Recursive Ensemble Feature Selection (REFS)** 
 - **[[clostridium]]** (multiple ASVs — genus level, family Clostridiaceae)
 - **[[lachnospiraceae]]** (multiple ASVs including [[lachnospira]], [[Sarcina]])
 - **[[enterobacteriaceae]]** (multiple ASVs)
-- [[Anaerotruncus]], [[Butyricicoccus]], [[Eubacterium eligens]]
-- [[Oscillospira]], [[clostridium]] assigned to Lachnospiraceae
+- [[Anaerotruncus]], [[butyricicoccus|Butyricicoccus]], [[Eubacterium eligens]]
+- [[oscillospiraceae|Oscillospira]], [[clostridium]] assigned to Lachnospiraceae
 
 ### Key ASD-Decreased Taxa
 - **[[bifidobacterium]]** (Actinobacteria)

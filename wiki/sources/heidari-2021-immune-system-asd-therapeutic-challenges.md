@@ -12,6 +12,7 @@ library_category: "Immune response"
 platform: clinical
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: expert-opinion
 ---
 
 # Overview
@@ -54,6 +55,6 @@ Review of **autoimmune involvement in ASD pathogenesis**, covering the microbiom
 
 # Connections
 
-- Cytokine findings link to [[zhou-2025-gut-microbiota-immune-nervous-asd]]
+- Cytokine findings link to [[zhou-2025-gut-microbiota-immune-nervous-system-asd]]
 - Microglial activation connects to [[morton-2023-multi-level-gut-brain-axis-asd]]
 - Autoimmune family history relevant to [[casanova-2020-comorbidity-autism-editorial]]

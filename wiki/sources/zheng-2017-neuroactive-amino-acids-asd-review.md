@@ -12,6 +12,9 @@ library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: expert-opinion
+metals_discussed: [iron, magnesium, zinc]
+karen_brain_primitives: [4]
+key_findings: ["Results are inconclusive and contradictory"]
 ---
 
 # Key Claims

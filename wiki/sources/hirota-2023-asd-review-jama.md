@@ -12,6 +12,7 @@ library_category: "Literature review"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 157-168"
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Overview

@@ -11,6 +11,11 @@ tags: [mismetallation, metal-homeostasis, manganese, manganese-toxicity, MntP, r
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "manganese efflux regulation"
+evidence_level: in-vitro
+metals_discussed: [iron, manganese]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
+key_findings: ["Rho-dependent transcription termination", "Excess Mn activates the riboswitch"]
 ---
 
 # Why This Paper Matters
@@ -56,7 +61,7 @@ This paper reveals an elegant dual regulatory mechanism controlling manganese ef
 - [[mis-metallation]] -- MntP regulation prevents both Mn-dependent mis-metallation (from underexpression) and membrane toxicity (from overexpression)
 - [[manganese]] -- MntP as primary Mn efflux pump with complex multi-layered regulation
 - [[metal-homeostasis]] -- riboswitch + Rho termination as dual regulatory layers
-- [[riboswitch]] -- yybP-ykoY Mn-sensing riboswitch controlling translation initiation
+- [[gene-regulation|riboswitch]] -- yybP-ykoY Mn-sensing riboswitch controlling translation initiation
 - [[metal-sensing]] -- MntR, Fur, and riboswitch as three independent Mn-sensing mechanisms
 - [[oxidative-stress]] -- ROS from membrane protein overexpression toxicity
 - [[iron]] -- Fur regulation of MntP links iron and manganese homeostasis

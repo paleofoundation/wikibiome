@@ -6,17 +6,21 @@ updated: 2026-04-09
 authors: [Andres F Londono, Ajay Sharma, Venkatesan Kathiresan, Jared Sealy, Robert P Volpe, Cene Gostincar, Utpal Pal, J Stephen Dumler, Brian M Hoffman, Michael J Daly, K Heran Darwin]
 year: 2025
 journal: "mBio"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12691683) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: mBio 2025 -->
 pmcid: "PMC12691683"
 tags: [mismetallation, metal-homeostasis, manganese, iron, superoxide-dismutase, oxidative-stress, borrelia-burgdorferi, Lyme-disease, Mn-antioxidant, nutritional-immunity, radiation-resistance, metal-speciation]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "manganese-based antioxidant defense in an iron-free pathogen"
+evidence_level: quasi-experimental
+metals_discussed: [iron, manganese]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
 ---
 
 # Why This Paper Matters
 
-This study uses electron paramagnetic resonance (EPR) and electron-nuclear double resonance (ENDOR) spectroscopy to directly observe [[manganese]] speciation in living Borrelia burgdorferi cells, revealing a dual antioxidant defense system where Mn-superoxide dismutase (MnSOD) at the cell surface and low-molecular-weight Mn-metabolite complexes (H-Mn) in the cytoplasm each protect against different sources of superoxide. For the [[mis-metallation]] framework, B. burgdorferi is a uniquely informative organism because it has eliminated [[iron]] from its biology entirely -- it does not accumulate iron and lacks iron-dependent enzymes. This evolutionary strategy prevents [[Fenton-chemistry]] (Fe2+ + H2O2) and eliminates host [[nutritional-immunity]] targeting iron as an anti-pathogen weapon. Instead, B. burgdorferi has built its antioxidant defense entirely on manganese, making it a natural experiment in what happens when an organism eliminates one major transition metal cofactor. However, this Mn-dependence creates a new vulnerability: when metabolite pools deplete (stationary phase), excess Mn2+ that cannot form protective H-Mn complexes becomes cytotoxic -- representing a form of manganese-mediated self-poisoning.
+This study uses electron paramagnetic resonance (EPR) and electron-nuclear double resonance (ENDOR) spectroscopy to directly observe [[manganese]] speciation in living Borrelia burgdorferi cells, revealing a dual antioxidant defense system where Mn-superoxide dismutase (MnSOD) at the cell surface and low-molecular-weight Mn-metabolite complexes (H-Mn) in the cytoplasm each protect against different sources of superoxide. For the [[mis-metallation]] framework, B. burgdorferi is a uniquely informative organism because it has eliminated [[iron]] from its biology entirely -- it does not accumulate iron and lacks iron-dependent enzymes. This evolutionary strategy prevents [[fenton-chemistry]] (Fe2+ + H2O2) and eliminates host [[nutritional-immunity]] targeting iron as an anti-pathogen weapon. Instead, B. burgdorferi has built its antioxidant defense entirely on manganese, making it a natural experiment in what happens when an organism eliminates one major transition metal cofactor. However, this Mn-dependence creates a new vulnerability: when metabolite pools deplete (stationary phase), excess Mn2+ that cannot form protective H-Mn complexes becomes cytotoxic -- representing a form of manganese-mediated self-poisoning.
 
 # Key Claims
 
@@ -69,7 +73,7 @@ Delta-MnSOD mutants supplemented with 0.5 uM MnCl2 at day-6 (metabolite-depleted
 - [[oxidative-stress]] -- host respiratory burst (O2--) as antimicrobial weapon countered by Mn defenses
 - [[nutritional-immunity]] -- host targeting of Mn as anti-pathogen strategy; B. burgdorferi's iron-free biology circumvents iron restriction
 - [[labile-metal-pool]] -- H-Mn as the labile, substitutionally exchangeable Mn pool
-- [[Fenton-chemistry]] -- avoided by eliminating intracellular iron; Mn2+ does not catalyze Fenton reactions
+- [[fenton-chemistry]] -- avoided by eliminating intracellular iron; Mn2+ does not catalyze Fenton reactions
 - [[Lyme-disease]] -- B. burgdorferi pathogenesis and host immune evasion through Mn-dependent antioxidant defense
 - [[metal-speciation]] -- EPR/ENDOR as non-invasive technique for in vivo metal speciation
-- [[radiation-resistance]] -- H-Mn content predicts radioresistance across all domains of life
+- [[antimicrobial-resistance|radiation-resistance]] -- H-Mn content predicts radioresistance across all domains of life

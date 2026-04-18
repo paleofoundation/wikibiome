@@ -1,5 +1,4 @@
 ---
-
 title: "Biliary microbiome profiling via 16 S rRNA amplicon sequencing in patients with cholangiocarcinoma, pancreatic carcinoma and choledocholithiasis"
 type: source
 created: 2026-04-09
@@ -10,14 +9,16 @@ year: 2025
 tags: [pancreatic-cancer, 16S-rRNA, biliary-microbiome, cholangiocarcinoma, choledocholithiasis, fungal-microbiota, Malassezia, metabolic-pathways, KEGG]
 doi: "10.1038/s41598-025-00976-6"
 platform: wikibiome
+taxa_discussed: [campylobacter-jejuni, clostridium, escherichia-coli, klebsiella-pneumoniae, malassezia]
+karen_brain_primitives: [6]
 ---
 
 # Key Claims
 
-- The biliary [[microbiome]] shows significant differences between [[pancreatic-cancer]] (PDAC), cholangiocarcinoma (CCA), and choledocholithiasis (CDL), with distinct microbial community structures
+- The biliary [[gut-microbiome|microbiome]] shows significant differences between [[pancreatic-cancer]] (PDAC), cholangiocarcinoma (CCA), and choledocholithiasis (CDL), with distinct microbial community structures
 - In PDAC bile samples, *Neisseria*, *Sphingomonas*, and *Caulobacter* had higher LDA scores, while *Campylobacter* was less abundant than in CCA
 - Fungal DNA was detected in ~50% of cancer patients, with *Agaricomycetes* predominant and *Malassezia* accounting for ~10% in CCA
-- KEGG pathway analysis revealed altered [[metabolic pathways]] including peptidoglycan, sphingolipid, and fatty acid metabolism in both CCA and PDAC
+- KEGG pathway analysis revealed altered [[fermentative-metabolism|metabolic pathways]] including peptidoglycan, sphingolipid, and fatty acid metabolism in both CCA and PDAC
 
 # Methods/Findings
 
@@ -31,7 +32,7 @@ platform: wikibiome
 
 # Connections
 
-- Biliary microbiome profiling extends [[16S rRNA sequencing]] approaches beyond fecal and oral samples
-- *Sphingomonas* enrichment in PDAC bile parallels tumor microbiome findings from [[microbiome signature]] studies
-- [[Fungal microbiota]] including *Malassezia* detection in bile connects to fungal [[dysbiosis]] research in pancreatic cancer
-- Altered sphingolipid and fatty acid metabolism links to [[metabolic pathways]] and [[microbial metabolites]] in PDAC
+- Biliary microbiome profiling extends [[shotgun-metagenomics|16S rRNA sequencing]] approaches beyond fecal and oral samples
+- *Sphingomonas* enrichment in PDAC bile parallels tumor microbiome findings from [[microbial-biomarkers|microbiome signature]] studies
+- [[mycobiome|Fungal microbiota]] including *Malassezia* detection in bile connects to fungal [[dysbiosis]] research in pancreatic cancer
+- Altered sphingolipid and fatty acid metabolism links to [[fermentative-metabolism|metabolic pathways]] and [[short-chain-fatty-acids|microbial metabolites]] in PDAC

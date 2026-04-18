@@ -1,5 +1,4 @@
 ---
-
 title: "Toxic Mechanism of Nickel Exposure on Cardiac Tissue"
 type: source
 created: 2026-04-09
@@ -7,17 +6,19 @@ updated: 2026-04-09
 authors: [Novelli ELB, Diniz YS, Almeida JA, Machado T, Proenca V, Tibirica T, Faine L, Ribas BO]
 journal: Toxic Substance Mechanisms
 year: 2000
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Toxic Substance Mechanisms 2000 -->
 volume: "19:177-187"
 tags: [nickel, cardiac-toxicity, oxidative-stress, vitamin-E, tocopherol, lipid-peroxidation, SOD, GSH-Px, superoxide-radical, cholesterol, LDH, ALT, rat-model, cardiovascular-disease, foundational-paper]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [nickel]
 ---
 
 # Toxic Mechanism of Nickel Exposure on Cardiac Tissue
 
 ## Why This Paper Matters
 
-This foundational year-2000 study is one of the earliest experimental investigations specifically examining the mechanism of [[nickel]] toxicity on cardiac tissue. It provides direct evidence that nickel-induced cardiac damage is mediated by [[oxidative-stress]], specifically through superoxide radical (O2-) generation, and demonstrates that vitamin E (alpha-tocopherol) supplementation can reverse these toxic effects. The study is important because it established the superoxide-driven pathway for nickel cardiotoxicity at a time when cardiac effects of nickel were poorly understood, predating by two decades the epidemiological studies linking nickel exposure to [[cardiovascular-disease]] reviewed in [[Liu et al. 2025|liu-2025-cardiometabolic-nickel]].
+This foundational year-2000 study is one of the earliest experimental investigations specifically examining the mechanism of [[nickel]] toxicity on cardiac tissue. It provides direct evidence that nickel-induced cardiac damage is mediated by [[oxidative-stress]], specifically through superoxide radical (O2-) generation, and demonstrates that vitamin E (alpha-tocopherol) supplementation can reverse these toxic effects. The study is important because it established the superoxide-driven pathway for nickel cardiotoxicity at a time when cardiac effects of nickel were poorly understood, predating by two decades the epidemiological studies linking nickel exposure to [[cardiovascular-disease]] reviewed in [[liu-2025-cardiometabolic-nickel|liu-2025-cardiometabolic-nickel]].
 
 ## Key Claims
 

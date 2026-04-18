@@ -1,5 +1,4 @@
 ---
-
 title: "Bacterial contamination hypothesis: a new concept in endometriosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2018
 tags: [endometriosis, bacterial-contamination-hypothesis, LPS, TLR4, E-coli, NF-kB, menstrual-blood, endotoxin, oxidative-stress, iron, GnRHa, intrauterine-microbial-colonization]
 doi: "10.1002/rmb2.12083"
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [iron, nickel]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [1, 7]
 ---
 
 # Key Claims
@@ -18,7 +21,7 @@ platform: wikibiome
 - LPS concentration in menstrual fluid was 4-6x higher in women with endometriosis compared to controls
 - The LPS/TLR4 cascade in the pelvic environment activates NF-kB, promoting cytokine/chemokine/growth factor production that drives endometriotic lesion growth
 - GnRHa treatment worsened intrauterine microbial colonization (IUMC) and increased endometritis occurrence
-- [[Oxidative-stress]] from excessive [[iron]] accumulation in endometriotic fluid synergizes with LPS-TLR4 signaling to promote disease
+- [[oxidative-stress]] from excessive [[iron]] accumulation in endometriotic fluid synergizes with LPS-TLR4 signaling to promote disease
 
 # Methods/Findings
 

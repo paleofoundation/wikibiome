@@ -9,6 +9,8 @@ journal: "Scientific Reports"
 doi: "10.1038/s41598-025-05941-x"
 tags: [chronic-kidney-disease, CKD, mendelian-randomization, immune-cells, eGFR, UACR, mediator-analysis, Alistipes-indistinctus, Alistipes-putredinis]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [alistipes]
 ---
 
 # MR Study Revealed a Gut Microbiota-Immune System-Kidney Junction Axis in CKD

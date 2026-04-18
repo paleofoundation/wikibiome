@@ -11,6 +11,9 @@ tags: [parkinsons-disease, oxidative-stress, meta-analysis, systematic-review, g
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Oxidative Stress in Parkinson's Disease: A Systematic Review and Meta-Analysis
@@ -30,7 +33,7 @@ This systematic review and meta-analysis quantifies the evidence for oxidative s
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Oxidative stress in [[parkinsons-disease]] is fundamentally a metal-driven process. Excess [[iron]] in the substantia nigra catalyzes Fenton reactions generating hydroxyl radicals. [[Glutathione]] depletion removes the primary defense against iron-mediated oxidative damage, enabling [[ferroptosis]]. The gut [[microbiome]] modulates all components of this system: SCFA-producing bacteria maintain [[glutathione]] levels via Nrf2 activation, the microbiome regulates [[iron]] absorption through gut barrier integrity, and [[dysbiosis]]-driven [[inflammation]] increases [[hepcidin]] and intracellular iron trapping. The meta-analytic confirmation of universal oxidative stress in PD validates the oxidative-metal component of the metallomic-microbiome framework.
+Oxidative stress in [[parkinsons-disease]] is fundamentally a metal-driven process. Excess [[iron]] in the substantia nigra catalyzes Fenton reactions generating hydroxyl radicals. [[glutathione]] depletion removes the primary defense against iron-mediated oxidative damage, enabling [[ferroptosis]]. The gut [[gut-microbiome|microbiome]] modulates all components of this system: SCFA-producing bacteria maintain [[glutathione]] levels via Nrf2 activation, the microbiome regulates [[iron]] absorption through gut barrier integrity, and [[dysbiosis]]-driven [[inflammation]] increases [[hepcidin]] and intracellular iron trapping. The meta-analytic confirmation of universal oxidative stress in PD validates the oxidative-metal component of the metallomic-microbiome framework.
 
 ## Limitations
 

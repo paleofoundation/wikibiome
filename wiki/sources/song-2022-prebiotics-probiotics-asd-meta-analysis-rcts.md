@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, prebiotics, probiotics, meta-analysis, RCT, gas
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
+key_findings: ["Probiotics and prebiotics did not significantly improve", "GI problems and comorbid psychopathology", "Results are contradictory"]
 ---
 
 # Key Claims

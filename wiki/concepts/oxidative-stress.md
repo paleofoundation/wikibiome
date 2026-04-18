@@ -1,5 +1,4 @@
 ---
-
 title: Oxidative Stress
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [liu-2025-cardiometabolic-nickel.md, salnikov-2008-metal-carcinogenesis.md, maier-2019-nickel-microbial-pathogenesis.md, balali-mood-2021-toxic-mechanisms-five-heavy-metals.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, abudawood-2021-antioxidant-heavy-metals-pcos.md, smovrsnik-2023-heavy-metals-oxidative-stress-pcos.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, genchi-2020-cadmium-toxicity.md, tarhonska-2022-cadmium-breast-cancer-mechanisms.md, rasin-2025-cadmium-exposure-health-review.md, blazewicz-2023-metal-profiles-asd.md, piecuch-2022-nutrition-endometriosis-review.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md, akbari-2022-metal-homeostasis-streptococci.md, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors.md, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.md, shin-2023-chromium-toxicogenomics.md, kravchenko-2023-thyroid-hormones-minerals-AITD.md, brock-2015-selenium-thyroid-autoimmunity.md, lopez-botella-2023-peritoneal-fluid-metals-endometriosis.md, ogrady-2025-metal-dyshomeostasis-asd.md]
 tags: [mechanism, toxicology, ROS, pathogenesis, antioxidant, biomarker, Fenton-reaction, free-radicals]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 5]
+seo_target: "oxidative stress microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Oxidative Stress
@@ -72,7 +74,7 @@ GPX enzymes reduce hydrogen peroxide and organic hydroperoxides using glutathion
 
 - **GPX1-3**: Reduce H2O2 and small organic hydroperoxides.
 - **GPX4**: The only enzyme capable of reducing lipid hydroperoxides within membranes; its loss triggers [[ferroptosis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]], [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]].
-- Se supplementation increases GPx and thioredoxin reductase (TR) activity and decreases oxidative stress markers in [[hashimotos-thyroiditis]] patients [[kravchenko-2023-thyroid-hormones-minerals-aitd]], [[brock-2015-selenium-thyroid-autoimmunity]]].
+- Se supplementation increases GPx and thioredoxin reductase (TR) activity and decreases oxidative stress markers in [[hashimotos-thyroiditis]] patients [[kravchenko-2023-thyroid-hormones-minerals-AITD]], [[brock-2015-selenium-thyroid-autoimmunity]]].
 
 ### Non-Enzymatic Defenses
 
@@ -169,7 +171,7 @@ Different metals generate oxidative stress through distinct mechanisms. This is 
 
 ### Lipid Peroxidation
 
-- **MDA/TBARS (Malondialdehyde / Thiobarbituric acid reactive substances)**: The most widely used biomarker of lipid peroxidation. UNi shows a positive linear correlation with MDA in humans [[liu-2025-cardiometabolic-nickel]]. MDA is elevated in PCOS women alongside elevated heavy metals [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]. Se supplementation in hypothyroid patients decreased MDA levels [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- **MDA/TBARS (Malondialdehyde / Thiobarbituric acid reactive substances)**: The most widely used biomarker of lipid peroxidation. UNi shows a positive linear correlation with MDA in humans [[liu-2025-cardiometabolic-nickel]]. MDA is elevated in PCOS women alongside elevated heavy metals [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]. Se supplementation in hypothyroid patients decreased MDA levels [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 - **4-HNE (4-Hydroxynonenal)**: A reactive aldehyde product of omega-6 PUFA oxidation; both a biomarker and a mediator of oxidative damage.
 
 ### DNA Oxidation

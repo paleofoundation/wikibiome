@@ -11,11 +11,15 @@ tags: [autism-spectrum-disorder, heavy-metals, dysbiosis, metabolic-profile, oxi
 library_category: environmental
 platform: stool-hair-urine
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [arsenic, lead, mercury]
+karen_brain_primitives: [1, 5]
+key_findings: ["100% of ASD children", "95% showed heavy metal intoxication", "80% had elevated oxalate levels"]
 ---
 
 # Overview
 
-Exploratory study evaluating the effects of **heavy metal poisoning on metabolic and nutritional profiles** of 20 Moroccan children diagnosed with [[autism-spectrum-disorder]]. Analyzed ~100 biological parameters using stool microbiology, urine organic acids, and hair heavy metal concentrations via ICP-MS. Found significant associations between [[heavy metal]] intoxication and [[dysbiosis]], [[neurotransmitter]] disruption, [[mitochondrial dysfunction]], and elevated [[oxalates]].
+Exploratory study evaluating the effects of **heavy metal poisoning on metabolic and nutritional profiles** of 20 Moroccan children diagnosed with [[autism-spectrum-disorder]]. Analyzed ~100 biological parameters using stool microbiology, urine organic acids, and hair heavy metal concentrations via ICP-MS. Found significant associations between [[heavy-metals|heavy metal]] intoxication and [[dysbiosis]], [[gut-brain-axis|neurotransmitter]] disruption, [[mitochondrial-dysfunction|mitochondrial dysfunction]], and elevated [[chronic-kidney-disease|oxalates]].
 
 # Key Findings
 
@@ -23,7 +27,7 @@ Exploratory study evaluating the effects of **heavy metal poisoning on metabolic
 
 - **100% of ASD children** showed intestinal [[dysbiosis]] on stool analysis
 - **95% showed heavy metal intoxication** (primarily [[lead]], [[mercury]], [[arsenic]])
-- **80% had elevated oxalate levels** — linked to [[oxidative stress]] and inflammation
+- **80% had elevated oxalate levels** — linked to [[oxidative-stress]] and inflammation
 - **100% exhibited mitochondrial activity disruptions**
 - **65% showed abnormal neurotransmitter production**
 
@@ -44,19 +48,19 @@ Exploratory study evaluating the effects of **heavy metal poisoning on metabolic
 # Mechanistic Framework
 
 - **Heavy metals** → disrupt intestinal flora → [[dysbiosis]]
-- **Dysbiosis** → impaired [[neurotransmitter]] production (serotonin, dopamine)
-- **Heavy metals** → [[mitochondrial dysfunction]] → impaired energy production
-- **Oxidative stress** → elevated [[oxalates]] → further cellular damage
+- **Dysbiosis** → impaired [[gut-brain-axis|neurotransmitter]] production (serotonin, dopamine)
+- **Heavy metals** → [[mitochondrial-dysfunction|mitochondrial dysfunction]] → impaired energy production
+- **Oxidative stress** → elevated [[chronic-kidney-disease|oxalates]] → further cellular damage
 - "Poor excretory theory" — autistic children may have difficulty expelling metals
 
 # Relevance to Metallomic Framework
 
-**High relevance** — directly links environmental [[heavy metal]] exposure to gut [[dysbiosis]] and metabolic disruption in ASD:
+**High relevance** — directly links environmental [[heavy-metals|heavy metal]] exposure to gut [[dysbiosis]] and metabolic disruption in ASD:
 
 - Supports **bidirectional heavy metal-microbiome disruption** hypothesis
 - [[lead]], [[mercury]], [[arsenic]] as primary toxic metals in Moroccan ASD cohort
 - 100% co-occurrence of dysbiosis and heavy metal exposure suggests shared pathway
-- [[Mitochondrial dysfunction]] as downstream consequence of metal toxicity
+- [[mitochondrial-dysfunction|Mitochondrial dysfunction]] as downstream consequence of metal toxicity
 - Hair analysis as biomarker for chronic metal exposure
 
 # Methodological Notes

@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiota and Autoimmune Neurologic Disorders: A Two-Sample Bidirectional Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,7 +9,7 @@ year: 2024
 tags: [Mendelian-randomization, gut-microbiome, multiple-sclerosis, Guillain-Barre-syndrome, myasthenia-gravis, Ruminococcus, Roseburia, SCFA, causal-inference]
 doi: "10.3389/fmicb.2024.1337632"
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: ["Roseburia", "Ruminococcus"]
 evidence_level: mendelian-randomization
@@ -28,7 +27,7 @@ evidence_level: mendelian-randomization
 
 ## Methods/Findings
 
-- **Design**: Two-sample bidirectional [[Mendelian-randomization]] using GWAS summary statistics
+- **Design**: Two-sample bidirectional [[mendelian-randomization]] using GWAS summary statistics
 - **Data sources**: Gut microbiota from MiBioGen consortium (18,340 individuals, 24 cohorts); MS from IMSGC (115,803 individuals: 47,429 cases, 68,374 controls); GBS from FinnGen (213 cases, 215,718 controls); MG from FinnGen (232 cases, 217,056 controls)
 - **Methods**: IVW (primary), MR-Egger, weighted median, weighted mode; P-value threshold raised to 1x10^-5 for more comprehensive IV selection; Cochran's Q, MR-Egger intercept, MR-PRESSO for sensitivity
 - **194 taxa analyzed**: After quality control, 194 microbial taxa included across 9 phyla, 16 classes, 20 orders, 35 families, 131 genera
@@ -37,7 +36,7 @@ evidence_level: mendelian-randomization
 ## Connections
 
 - Extends [[xu-2022-causal-microbiota-autoimmune-mr]] by specifically focusing on neurological autoimmune conditions and using larger MS GWAS data (IMSGC)
-- The *Roseburia* risk association is notable since this genus is typically considered beneficial (SCFA producer) -- depleted in MS in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]] -- suggesting complex species/strain-level effects
+- The *Roseburia* risk association is notable since this genus is typically considered beneficial (SCFA producer) -- depleted in MS in [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]] -- suggesting complex species/strain-level effects
 - Protective role of *Ruminiclostridium5* aligns with Clostridia cluster depletion in [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - Complements observational gut dysbiosis studies ([[jangi-2016-gut-microbiome-alterations-ms]], [[thirion-2023-gut-microbiota-ms-disease-activity]]) with genetic causal evidence
 - Supports the rationale for and interventions to boost protective SCFA-producing taxa

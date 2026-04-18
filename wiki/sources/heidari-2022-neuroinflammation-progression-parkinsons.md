@@ -11,6 +11,8 @@ tags: [parkinsons-disease, neuroinflammation, disease-progression, microglia, as
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1]
 ---
 
 # Outside In: Unraveling the Role of Neuroinflammation in the Progression of Parkinson's Disease
@@ -23,7 +25,7 @@ This review examines the "outside-in" model of [[neuroinflammation]] in [[parkin
 
 - Peripheral inflammation (from gut dysbiosis, systemic immune activation) precedes and drives central neuroinflammation
 - Blood-brain barrier permeability increases in PD, enabling peripheral inflammatory signals to reach the brain
-- [[Microglia]] activation in PD follows a peripheral-to-central progression pattern
+- [[neuroinflammation|Microglia]] activation in PD follows a peripheral-to-central progression pattern
 - Peripheral immune cells (T-cells, monocytes) infiltrate the PD brain and amplify neuroinflammation
 - Astrocyte reactivity in PD is driven by peripheral signals, not just local alpha-synuclein pathology
 - Anti-inflammatory interventions targeting peripheral inflammation may slow PD progression

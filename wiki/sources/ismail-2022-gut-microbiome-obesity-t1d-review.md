@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, obesity, dysbiosis, prebioti
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: expert-opinion
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["T1D risk and progression associated with gut bacterial imbalances", "Obesity prevalence in T1D rising", "Specific gut microbiome changes"]
 ---
 
 # Key Claims

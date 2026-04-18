@@ -1,5 +1,4 @@
 ---
-
 title: "Alterations of the human gut microbiome in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2016
 doi: 10.1038/ncomms12015
 tags: [multiple-sclerosis, gut-microbiome, 16S-rRNA, Methanobrevibacter, Akkermansia, Butyricimonas, dysbiosis, NF-kB, interferon-signaling, disease-modifying-therapy]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [cadmium]
+taxa_discussed: [akkermansia-muciniphila, butyricimonas, methanobrevibacter-smithii, prevotella]
+karen_brain_primitives: [1, 5]
 ---
 
 # Alterations of the Human Gut Microbiome in Multiple Sclerosis

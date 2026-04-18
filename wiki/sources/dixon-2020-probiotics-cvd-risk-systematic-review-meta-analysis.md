@@ -1,5 +1,4 @@
 ---
-
 title: "Efficacy of Probiotics in Patients of Cardiovascular Disease Risk: A Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 doi: 10.1007/s11906-020-01080-y
 tags: [cardiovascular-disease, probiotics, meta-analysis, systematic-review, blood-pressure, cholesterol, blood-glucose, HbA1c, BMI, Lactobacillus, randomized-controlled-trial]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Efficacy of Probiotics in Patients of Cardiovascular Disease Risk: A Systematic Review and Meta-Analysis

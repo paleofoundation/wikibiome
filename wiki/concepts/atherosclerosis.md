@@ -1,5 +1,4 @@
 ---
-
 title: Atherosclerosis
 type: concept
 created: 2026-04-10
@@ -7,6 +6,9 @@ updated: 2026-04-10
 sources: [herrema-2020-microbiome-cardiovascular-disease-ascvd, luqman-2024-intestinal-microbiome-cvd-intervention, wei-2025-gut-mycobiome-cardiometabolic-disease]
 tags: [atherosclerosis, ASCVD, cardiovascular-disease, TMAO, foam-cells, plaque, oral-microbiome, gut-microbiome, heavy-metals, inflammation]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 5]
+seo_target: "atherosclerosis microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 # Atherosclerosis
@@ -49,7 +51,7 @@ Progressive inflammatory disease of the arterial wall characterized by lipid acc
 
 - [[short-chain-fatty-acids]]: Propionate and butyrate are generally cardioprotective -- anti-inflammatory, blood pressure-lowering via GPR41/Olfr78 balance.
 - [[butyrate]]: HDAC inhibition reduces macrophage inflammatory activation.
-- Secondary [[bile-acids|bile acids]]: FXR/TGR5 signaling modulates cholesterol metabolism.
+- Secondary [[bile-acid-metabolism|bile acids]]: FXR/TGR5 signaling modulates cholesterol metabolism.
 
 ## See Also
 

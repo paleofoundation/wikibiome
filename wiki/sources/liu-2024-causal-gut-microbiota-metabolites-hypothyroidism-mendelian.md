@@ -1,5 +1,4 @@
 ---
-
 title: "Investigating causal associations among gut microbiota, metabolites and autoimmune hypothyroidism: a univariable and multivariable Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, mendelian-randomization, gut-microbiota, gut-metabolites, indolelactate, causality, thyroid-gut-axis, bile-acids]
 doi: "10.3389/fimmu.2023.1213159"
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [lead]
+taxa_discussed: [subdoligranulum]
+karen_brain_primitives: [1]
 ---
 
 # Investigating causal associations among gut microbiota, metabolites and autoimmune hypothyroidism: a univariable and multivariable Mendelian randomization study

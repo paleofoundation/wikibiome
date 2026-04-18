@@ -1,5 +1,4 @@
 ---
-
 title: "Correlation of Serum Zinc Levels with Postpartum Depression - A Case-control Study in North Karnataka"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 tags: [zinc, postpartum-depression, case-control, serum-zinc, EPDS, trace-elements, India]
 doi: "10.7860/JCDR/2021/48341.14649"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [zinc]
 ---
 
 # Key Claims
@@ -41,4 +42,4 @@ platform: wikibiome
 - Consistent with studies showing decreased zinc in depression generally and in PPD specifically
 - The negative correlation with EPDS severity suggests a dose-response relationship relevant to [[zinc]] deficiency mechanisms
 - Zinc's role in the central nervous system (adjusting excitatory and inhibitory neurotransmission) provides biological plausibility
-- Relevant to [[postpartum-depression]] screening and potential [[trace element supplementation]] strategies
+- Relevant to [[postpartum-depression]] screening and potential [[metal-homeostasis|trace element supplementation]] strategies

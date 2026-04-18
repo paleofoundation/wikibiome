@@ -1,5 +1,4 @@
 ---
-
 title: "The cerebrospinal fluid virome in people with HIV: links to neuroinflammation and cognition"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2025
 doi: 10.3389/fmicb.2025.1704392
 tags: [CSF-virome, HIV, neuroinflammation, cognition, shotgun-metagenomics, blood-brain-barrier, prokaryotic-viruses, eukaryotic-viruses]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # The Cerebrospinal Fluid Virome in People with HIV: Links to Neuroinflammation and Cognition

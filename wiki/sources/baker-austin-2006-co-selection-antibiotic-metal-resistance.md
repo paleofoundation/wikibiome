@@ -71,7 +71,7 @@ This is the seminal review that established the conceptual framework for underst
 - [[nickel]] -- listed among metals conferring co-selection via efflux pump mechanisms
 - [[cadmium]] -- cadmium addition to microcosms resulted in increased antibiotic resistance not limited to the exposed metal
 - [[horizontal-gene-transfer]] -- plasmids, transposons, and integrons as the physical vehicles of co-resistance gene linkage
-- [[mobile-genetic-elements]] -- integrons (especially class 1) and Tn21-like transposons as key carriers of linked metal and antibiotic resistance
+- [[horizontal-gene-transfer]] -- integrons (especially class 1) and Tn21-like transposons as key carriers of linked metal and antibiotic resistance
 - [[biofilm]] -- biofilm induction cited as mechanism of co-selection under metal stress
 - [[gut-metal-microbiome]] -- dental amalgam mercury linked to co-selection in oral and intestinal bacteria
 - [[hu-2016-nickel-contamination-antibiotic-resistance-soils]] -- experimental validation of this framework for nickel in agricultural soils

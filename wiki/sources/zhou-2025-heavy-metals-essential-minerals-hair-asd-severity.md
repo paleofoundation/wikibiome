@@ -12,11 +12,14 @@ library_category: environmental
 platform: ICP-MS
 condition: "autism spectrum disorder"
 evidence_level: cross-sectional
+metals_discussed: [arsenic, cadmium, calcium, cobalt, copper, iron, lead, magnesium, manganese, nickel, selenium, vanadium, zinc]
+karen_brain_primitives: [2]
+key_findings: ["Vanadium (V)", "Cobalt (Co)", "Nickel (Ni)"]
 ---
 
 # Overview
 
-Case-control study measuring **21 chemical elements in hair** of 181 children (57 controls, 53 mild-to-moderate ASD, 71 severe ASD) aged 1-16 years in southeastern China using ICP-MS. Found that ASD severity correlates with accumulation of specific [[heavy metals]] and depletion of essential minerals, with notable **sex-specific differences**.
+Case-control study measuring **21 chemical elements in hair** of 181 children (57 controls, 53 mild-to-moderate ASD, 71 severe ASD) aged 1-16 years in southeastern China using ICP-MS. Found that ASD severity correlates with accumulation of specific [[heavy-metals]] and depletion of essential minerals, with notable **sex-specific differences**.
 
 # Key Findings
 
@@ -54,8 +57,8 @@ Case-control study measuring **21 chemical elements in hair** of 181 children (5
 # Mechanistic Implications
 
 - [[lead]] disrupts blood-brain barrier, causes [[neuroinflammation]]
-- [[arsenic]] and [[cadmium]] induce [[oxidative stress]] and mitochondrial damage
-- [[copper]] excess may reflect impaired [[ceruloplasmin]] metabolism or [[Wilson disease]]-like phenotype
+- [[arsenic]] and [[cadmium]] induce [[oxidative-stress]] and mitochondrial damage
+- [[copper]] excess may reflect impaired [[ceruloplasmin]] metabolism or [[copper|Wilson disease]]-like phenotype
 - [[manganese]] neurotoxicity during critical developmental periods
 - Heavy metal accumulation may compound genetic susceptibility to ASD
 
@@ -67,7 +70,7 @@ Case-control study measuring **21 chemical elements in hair** of 181 children (5
 - Cu as only essential mineral elevated — suggests specific [[copper]] dyshomeostasis in ASD
 - Sex-specific metal patterns align with ASD sex ratio (male predominance)
 - Hair analysis captures chronic exposure (weeks to months)
-- Supports [[nutritional immunity]] framework: metal dyshomeostasis as both cause and consequence
+- Supports [[nutritional-immunity]] framework: metal dyshomeostasis as both cause and consequence
 
 # Methodological Notes
 

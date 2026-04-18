@@ -1,5 +1,4 @@
 ---
-
 title: "Cannabinoids modulate the microbiota-gut-brain axis in HIV/SIV infection by reducing neuroinflammation and dysbiosis while concurrently elevating endocannabinoid and indole-3-propionate levels"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2023
 doi: 10.1186/s12974-023-02729-6
 tags: [cannabinoids, THC, microbiota-gut-brain-axis, HIV, SIV, neuroinflammation, dysbiosis, indole-3-propionate, endocannabinoids, Clostridia, butyrate, multiple-sclerosis]
 platform: wikibiome
+taxa_discussed: [faecalibacterium-prausnitzii]
 ---
 
 # Cannabinoids Modulate the Microbiota-Gut-Brain Axis in HIV/SIV Infection

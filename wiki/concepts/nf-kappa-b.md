@@ -1,12 +1,14 @@
 ---
-
 title: NF-kB Signaling Pathway
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [salnikov-2008-metal-carcinogenesis, briffa-2020-heavy-metal-pollution-environment-toxicology, mishra-2022-molecular-mechanisms-heavy-metals-ckd, sabath-2012-renal-health-heavy-metal-nephrotoxicity, ahmed-2025-metals-alzheimers-mechanistic-review, liu-2025-low-concentration-metals-ckd-alpha-klotho, kravchenko-2023-thyroid-hormones-minerals-AITD, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, borghini-2020-endometriosis-nickel-ibs]
+sources: [salnikov-2008-metal-carcinogenesis, briffa-2020-heavy-metal-pollution-environment-toxicology, mishra-2022-molecular-mechanisms-heavy-metals-ckd, sabath-2012-renal-health-heavy-metal-nephrotoxicity, ahmed-2025-metals-alzheimers-mechanistic-review, liu-2025-low-concentration-metals-ckd-alpha-klotho, kravchenko-2023-thyroid-hormones-minerals-AITD, khan-2020-environmental-exposures-autoimmune-gut-microbiome, borghini-2020-endometriosis-nickel-ibs]
 tags: [signaling-pathway, inflammation, transcription-factor, nickel, arsenic, cadmium, lead, cytokines, cell-survival]
 platform: wikibiome
+karen_brain_primitives: [1]
+seo_target: "nf-kb signaling pathway microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # NF-kB Signaling Pathway
@@ -54,7 +56,7 @@ Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a fami
 - NF-kB-driven neuroinflammation is a shared pathway across AD and PD, amplified by metal-induced microglial activation and gut-derived LPS [[ahmed-2025-metals-alzheimers-mechanistic-review]].
 
 ### Autoimmune Disease
-- NF-kB activation by environmental metals contributes to autoimmune thyroid disease, rheumatoid arthritis, and IBD [[kravchenko-2023-thyroid-hormones-minerals-aitd]], [[khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]]].
+- NF-kB activation by environmental metals contributes to autoimmune thyroid disease, rheumatoid arthritis, and IBD [[kravchenko-2023-thyroid-hormones-minerals-AITD]], [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]]].
 
 ### Endometriosis
 - H2S and nickel both activate NF-kB in endometriotic tissue, driving inflammatory cytokine production, angiogenesis, and lesion growth. This links dietary nickel exposure to disease progression.

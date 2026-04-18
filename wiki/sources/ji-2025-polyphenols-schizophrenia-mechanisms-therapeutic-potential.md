@@ -9,6 +9,8 @@ year: 2025
 doi: "10.3389/fphar.2025.1605027"
 tags: [schizophrenia, polyphenols, curcumin, EGCG, quercetin, antioxidant, neuroinflammation, BDNF, mitochondrial-function, dopamine, glutamate]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [copper, iron]
 ---
 
 # Plant-Derived Polyphenolic Compounds for Managing Schizophrenia: Mechanisms and Therapeutic Potential

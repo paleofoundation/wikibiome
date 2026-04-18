@@ -32,6 +32,9 @@ tags:
   - cytokines
   - renal-function
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [aspergillus, candida-albicans, cladosporium, malassezia, saccharomyces-cerevisiae]
+karen_brain_primitives: [1, 6]
 ---
 
 # Exploring the Gut Mycobiome: Differential Composition and Clinical Associations in Hypertension, Chronic Kidney Disease, and Their Comorbidity
@@ -64,6 +67,6 @@ Original research examining the gut fungal microbiome (mycobiome) in 50 healthy 
 
 1. **Fungal [[dysbiosis]] in CVD** - The increased diversity and shifted composition in HTN+CKD demonstrates that the mycobiome is an underexplored component of the [[gut-metal-microbiome]] model
 2. **[[cadmium]] and fungal responses** - Cadmium and [[lead]] are known to affect fungal metal resistance mechanisms; their impact on gut fungal communities may parallel the bacterial dysbiosis patterns
-3. **[[Inflammation]] mediation** - Fungal-cytokine correlations (especially *Candida*-TNFalpha) suggest the mycobiome actively modulates the inflammatory state in CVD
+3. **[[inflammation]] mediation** - Fungal-cytokine correlations (especially *Candida*-TNFalpha) suggest the mycobiome actively modulates the inflammatory state in CVD
 4. **Kidney-cardiovascular axis** - The distinct mycobiome of HTN+CKD vs HTN alone suggests that renal dysfunction (potentially from [[cadmium]] nephrotoxicity) compounds fungal dysbiosis
 - [[cardiovascular-disease]]

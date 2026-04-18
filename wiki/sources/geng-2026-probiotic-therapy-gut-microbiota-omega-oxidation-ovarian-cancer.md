@@ -9,6 +9,9 @@ year: 2026
 doi: "10.1007/s00432-025-06398-1"
 tags: [ovarian-cancer, probiotics, gut-microbiota, omega-oxidation, SCFAs, PPARalpha, CYP4F3, intestinal-barrier, post-surgical, inflammation]
 platform: wikibiome
+metals_discussed: [iron]
+taxa_discussed: [alistipes, roseburia, ruminococcus]
+karen_brain_primitives: [1, 5]
 ---
 
 # Probiotic Therapy Protects Gut Microbiota and Activates Omega-Oxidation After OC Surgery

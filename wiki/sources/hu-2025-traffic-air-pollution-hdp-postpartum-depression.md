@@ -1,5 +1,4 @@
 ---
-
 title: "Joint effects of traffic-related air pollution and hypertensive disorders of pregnancy on maternal postpartum depressive and anxiety symptoms"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2025
 tags: [air-pollution, NO2, traffic-pollution, postpartum-depression, postpartum-anxiety, hypertensive-disorders-pregnancy, HDP, preeclampsia, Hispanic-Latina, MADRES-cohort, PDM]
 doi: "10.1038/s41370-024-00692-9"
 platform: wikibiome
+evidence_level: prospective-cohort
+key_findings: ["Effect modification by HDP"]
 ---
 
 # Key Claims
@@ -38,8 +39,8 @@ platform: wikibiome
 # Connections
 
 - Extends the environmental exposure-PPD literature reviewed in [[jacobson-2022-environmental-chemicals-perinatal-psychopathology]]
-- The HDP effect modification finding connects [[air pollution]], [[hypertensive disorders of pregnancy]], and [[postpartum-depression]] through shared [[inflammatory pathways]]
-- Major road NO2 (with trace metals from stop-and-go traffic including brake/tire wear) may carry additional toxic components beyond tailpipe emissions, relevant to [[metals and mental health]]
-- Coarse PM from major roads with [[trace metals]] may exhibit greater cellular toxicity than highway PM
-- Biological mechanisms include [[HPA axis]] dysregulation, [[oxidative-stress|oxidative stress]], and [[inflammation]] (CRP, TNF-alpha, IL-6)
+- The HDP effect modification finding connects [[environmental-metal-exposure|air pollution]], [[female-infertility|hypertensive disorders of pregnancy]], and [[postpartum-depression]] through shared [[inflammation|inflammatory pathways]]
+- Major road NO2 (with trace metals from stop-and-go traffic including brake/tire wear) may carry additional toxic components beyond tailpipe emissions, relevant to [[heavy-metal-neurotoxicity|metals and mental health]]
+- Coarse PM from major roads with [[metal-homeostasis|trace metals]] may exhibit greater cellular toxicity than highway PM
+- Biological mechanisms include [[gut-brain-axis|HPA axis]] dysregulation, [[oxidative-stress|oxidative stress]], and [[inflammation]] (CRP, TNF-alpha, IL-6)
 - Complements [[mahalingaiah-2018-air-pollution-menstrual-disorders]] on air pollution and reproductive health

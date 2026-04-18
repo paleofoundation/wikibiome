@@ -10,6 +10,7 @@ doi: "10.7759/cureus.81354"
 tags: [ovarian-cancer, oral-contraceptives, estrogen, gut-brain-axis, gut-microbiome, serotonin, dysbiosis, mental-health, depression]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [7]
 ---
 
 # Estrogen-Gut-Brain Axis: COCs and Mental Health Through the Gut Microbiome

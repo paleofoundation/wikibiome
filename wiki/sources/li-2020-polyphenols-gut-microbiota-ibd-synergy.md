@@ -24,6 +24,9 @@ tags:
   - inflammation
 doi: 10.1039/D0FO00713G
 platform: wikibiome
+metals_discussed: [copper, iron]
+taxa_discussed: [bacteroides-fragilis, escherichia-coli, eubacterium, faecalibacterium-prausnitzii, lactobacillus, roseburia]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

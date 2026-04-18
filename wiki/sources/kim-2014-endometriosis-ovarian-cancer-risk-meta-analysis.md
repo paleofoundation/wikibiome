@@ -9,6 +9,9 @@ year: 2014
 doi: "10.1038/bjc.2014.29"
 tags: [ovarian-cancer, endometriosis, meta-analysis, risk-factor, prognosis, endometrioid, clear-cell-carcinoma]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
+karen_brain_primitives: [4]
 ---
 
 # Risk and Prognosis of Ovarian Cancer in Women with Endometriosis

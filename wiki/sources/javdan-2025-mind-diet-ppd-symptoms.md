@@ -11,6 +11,9 @@ tags: [postpartum-depression, MIND-diet, Mediterranean-DASH, nutrition, dietary-
 library_category: clinical
 platform: cureva
 condition: "postpartum depression"
+evidence_level: cross-sectional
+metals_discussed: [iron, magnesium, zinc]
+key_findings: ["PPD prevalence", "Higher MIND diet adherence"]
 ---
 
 # Key Claims

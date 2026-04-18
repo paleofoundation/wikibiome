@@ -1,5 +1,4 @@
 ---
-
 title: Butyrate
 type: concept
 created: 2026-04-10
@@ -7,6 +6,9 @@ updated: 2026-04-10
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, spivak-2023-local-systemic-microbiome-derived-metabolites, luqman-2024-intestinal-microbiome-cvd-intervention]
 tags: [butyrate, SCFA, HDAC-inhibition, GPR109A, colonocyte-energy, Treg, gut-barrier, Roseburia, Faecalibacterium, anti-inflammatory, epigenetics]
 platform: wikibiome
+karen_brain_primitives: [5, 9]
+seo_target: "butyrate microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 # Butyrate
@@ -20,6 +22,7 @@ Butyrate is synthesized via the butyryl-CoA:acetate CoA-transferase pathway by o
 - **[[faecalibacterium-prausnitzii]]**: The most abundant Firmicute in the healthy gut (~5% of total bacteria); its depletion is a hallmark biomarker of IBD.
 - **Coprococcus**: Produces butyrate from lactate and acetate via cross-feeding.
 - **Eubacterium** (E. rectale, E. hallii): Key cross-feeders that convert acetate and lactate to butyrate.
+- **[[oscillospiraceae|Oscillospiraceae]]**: Family including *Oscillibacter* and *Subdoligranulum*; use the acetyl-CoA pathway; consistently depleted in obesity, IBD, and CRC.
 - **[[blautia]]**: Some species contribute via acetyl-CoA pathway.
 
 Cross-feeding is essential: acetate produced by [[bifidobacterium]] is converted to butyrate by Roseburia and Faecalibacterium, linking these communities functionally.

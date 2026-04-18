@@ -1,5 +1,4 @@
 ---
-
 title: "The mouse metallomic landscape of aging and metabolism"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 doi: "10.1038/s41467-022-28060-x"
 tags: [metallomics, aging, metabolism, copper, zinc, iron, isotope-composition, multi-omics, mouse-model, organ-specific, metabolic-health, OXPHOS, adipogenesis]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [copper, iron, zinc]
 ---
 
 # The Mouse Metallomic Landscape of Aging and Metabolism

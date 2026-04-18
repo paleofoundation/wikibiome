@@ -32,6 +32,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Systematic review consolidating 15 controlled studies shows consistent PCOS metallomic signature: elevated antimony, cadmium, lead, mercury alongside zinc depletion, coupled with elevated oxidative stress (TOS, MDA, TNF-alpha) and reduced antioxidants (TAS, SOD). WikiBiome depends on this evidence to establish the cross-study robustness of the PCOS metal pattern and to distinguish signal from methodological heterogeneity, anchoring confidence in the metallomic signature layer."
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [antimony, arsenic, cadmium, chromium, copper, lead, magnesium, mercury, selenium, thallium, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims
@@ -39,7 +42,7 @@ why_keystone: "Systematic review consolidating 15 controlled studies shows consi
 - Women with [[pcos]] have increased blood levels of antimony (Sb), [[cadmium]] (Cd), [[lead]] (Pb), [[mercury]] (Hg), arsenic (As), tellurium (Te), and thallium (Tl) and decreased [[zinc]] (Zn) levels compared to controls
 - Results for [[copper]] (Cu) are conflicting across studies
 - Heavy metals (Sb, Cd, Pb, Hg) and essential elements (Zn, Cr, Se, Ca, Mg, Cu) are associated with metabolic and hormonal characteristics of PCOS
-- [[Oxidative stress]] markers (TOS, MDA, hs-CRP, TNF-alpha) are elevated and antioxidant markers (TAS, SOD, OSI) are decreased in PCOS women
+- [[oxidative-stress]] markers (TOS, MDA, hs-CRP, TNF-alpha) are elevated and antioxidant markers (TAS, SOD, OSI) are decreased in PCOS women
 - Supplementation with Zn, Cr, Se, Mg, and Ca shows potential benefits for reducing OS and improving endocrinological parameters in PCOS
 
 # Methods/Findings

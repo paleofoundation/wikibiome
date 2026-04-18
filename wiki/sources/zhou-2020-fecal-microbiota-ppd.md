@@ -53,7 +53,7 @@ This is the foundational observational study characterizing fecal microbiome dys
 ## Relevance to WikiBiome
 
 - Primary observational evidence for [[postpartum-depression]] entity's microbiome section.
-- Connects to [[faecalibacterium]] entity page (depleted in PPD; correlates with EPDS severity).
+- Connects to [[faecalibacterium-prausnitzii|faecalibacterium]] entity page (depleted in PPD; correlates with EPDS severity).
 - Connects to [[lachnospiraceae]] entity page (depleted; correlated with hormone levels).
 - Supports [[dysbiosis]] concept page with PPD-specific microbiome signature data.
 

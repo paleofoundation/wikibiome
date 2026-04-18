@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiome Versus Thyroid Cancer: Association and Clinical Implications (Review)"
 type: source
 created: 2026-04-09
@@ -13,16 +12,17 @@ platform: wikibiome
 karen_brain_primitives: [5, 7]
 metals_discussed: ["iodine", "iron", "selenium"]
 taxa_discussed: ["Clostridium", "Lactobacillus", "Prevotella", "Streptococcus"]
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Gut Microbiome Versus Thyroid Cancer: Association and Clinical Implications (Review)
 
 ## Key Claims
 
-- Thyroid cancer (TC) disrupts the [[gut microbiota]] by influencing levels of thyroid hormones, estrogen, weight, and insulin resistance; traditional treatments (surgery, RAI therapy, checkpoint inhibitors) also alter the microbiome
-- Notable changes in gut microbiota of TC patients include increased numbers of [[clostridium]], [[streptococcus-pneumoniae]], Proteus, and [[lachnospiraceae]], and decreased numbers of [[lactobacillus]], [[prevotella]], and [[Ruminococcaceae]]
+- Thyroid cancer (TC) disrupts the [[gut-microbiome]] by influencing levels of thyroid hormones, estrogen, weight, and insulin resistance; traditional treatments (surgery, RAI therapy, checkpoint inhibitors) also alter the microbiome
+- Notable changes in gut microbiota of TC patients include increased numbers of [[clostridium]], [[streptococcus-pneumoniae]], Proteus, and [[lachnospiraceae]], and decreased numbers of [[lactobacillus]], [[prevotella]], and [[ruminococcaceae|Ruminococcaceae]]
 - The gut microbiome may serve as a biomarker for diagnosis, prognosis, and predicting metastasis in TC patients, potentially enhancing diagnostic efficiency
-- [[short-chain-fatty-acids]] derived from fermentation of [[dietary fiber]] inhibit histone deacetylases, promote TC cell cycle arrest (G1 and G2/M), and increase expression of p21, p27, and Bax genes
+- [[short-chain-fatty-acids]] derived from fermentation of [[dietary-fiber]] inhibit histone deacetylases, promote TC cell cycle arrest (G1 and G2/M), and increase expression of p21, p27, and Bax genes
 - Bidirectional causal relationships exist between the gut microbiome and TC via the "gut-thyroid" axis, with [[clostridium]], [[streptococcus-pneumoniae]], Proteus, and Lachnospiraceae as potential risk factors, and Lactobacillus, Prevotella, and Ruminococcaceae as potentially protective
 - Fecal microbiota transplantation [[fecal-microbiota-transplant]] has been explored as an emerging strategy to reshape gut microbiota in Graves' disease animal models with promising results
 

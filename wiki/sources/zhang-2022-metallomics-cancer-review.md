@@ -1,5 +1,4 @@
 ---
-
 title: "Recent advances in the application of metallomics in diagnosis and prognosis of human cancer"
 type: source
 created: 2026-04-09
@@ -11,6 +10,8 @@ tags: [metallomics, cancer, biomarkers, review, copper, zinc, selenium, nickel, 
 doi: "10.1007/s10653-023-01737-y"
 platform: wikibiome
 evidence_level: expert-opinion
+metals_discussed: [arsenic, cadmium, chromium, copper, nickel, selenium, zinc]
+karen_brain_primitives: [2, 4]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Low nickel diet in the treatment of patients with chronic nickel dermatitis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 1978
 tags: [low-nickel-diet, hand-eczema, dyshidrotic-dermatitis, urinary-nickel, pioneering-study]
 doi: "10.1111/j.1365-2133.1978.tb01622.x"
 platform: wikibiome
+metals_discussed: [nickel]
 ---
 
 ## Key Claims

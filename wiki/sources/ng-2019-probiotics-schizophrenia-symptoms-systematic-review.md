@@ -9,6 +9,9 @@ year: 2019
 doi: "10.1159/000498862"
 tags: [schizophrenia, probiotics, systematic-review, meta-analysis, PANSS, Lactobacillus, Bifidobacterium, BDNF, gut-brain-axis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # A Systematic Review of the Effect of Probiotic Supplementation on Schizophrenia Symptoms

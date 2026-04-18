@@ -14,8 +14,8 @@ library_category: causal
 platform: both
 condition: "long COVID"
 karen_brain_primitives: [1, 2, 4, 5]
-metals_discussed: []
-taxa_discussed: []
+metals_discussed: [iron, magnesium, zinc]
+taxa_discussed: [akkermansia-muciniphila, escherichia-coli, faecalibacterium-prausnitzii, roseburia, streptococcus, veillonella]
 key_findings:
   - "Mendelian randomization confirms causal relationship between gut microbiota composition and ME/CFS risk"
   - "211 microbial taxa examined using GWAS instrumental variables; multiple significant causal associations identified"

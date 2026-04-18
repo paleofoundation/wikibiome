@@ -11,6 +11,9 @@ tags: [parkinsons-disease, fatty-acids, lipid-peroxidation, ferroptosis, omega-3
 library_category: metabolomics
 platform: both
 condition: "Parkinson's disease"
+evidence_level: in-vitro
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [1, 5]
 ---
 
 # Fatty Acid Metabolism and Neurodegeneration in Parkinson's Disease

@@ -1,12 +1,14 @@
 ---
-
 title: Intestinal Permeability
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [ghosh-2023-heavy-metals-gut-barrier-integrity, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, zhu-2024-toxic-essential-metals-gut-microbiota, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, briffa-2020-heavy-metal-pollution-environment-toxicology, amerikanou-2022-ibd-biomarkers-trace-metals, lombardi-2020-snas-probiotics-dysbiosis]
+sources: [ghosh-2023-heavy-metals-gut-barrier-integrity, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-2020-environmental-exposures-autoimmune-gut-microbiome, zhu-2024-toxic-essential-metals-gut-microbiota, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, briffa-2020-heavy-metal-pollution-environment-toxicology, amerikanou-2022-ibd-biomarkers-trace-metals, lombardi-2020-snas-probiotics-dysbiosis]
 tags: [gut-barrier, tight-junctions, zonulin, LPS, translocation, leaky-gut, metals, permeability, biomarkers]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 3]
+seo_target: "intestinal permeability microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Intestinal Permeability ("Leaky Gut")
@@ -36,7 +38,7 @@ Zonulin (pre-haptoglobin 2) is the only known physiological regulator of intesti
 | **Mercury** | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |
 | **Nickel** | TLR4 activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |
 
-All five metals converge on [[oxidative-stress]] as a common final pathway for TJ disruption. [[Dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side.
+All five metals converge on [[oxidative-stress]] as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side.
 
 ## The Gateway Mechanism
 
@@ -48,7 +50,7 @@ Increased permeability creates a vicious cycle:
 4. Inflammatory cytokines (TNF-alpha, IFN-gamma, IL-13) further open TJs
 5. Opened barrier permits greater metal absorption (especially for Cd, Pb)
 6. More metal enters systemic circulation, reaching distal organs
-7. [[Dysbiosis]] worsens as the luminal environment shifts
+7. [[dysbiosis]] worsens as the luminal environment shifts
 
 This feed-forward loop explains why acute metal exposure can produce chronic disease long after the original exposure ceases.
 
@@ -58,7 +60,7 @@ This feed-forward loop explains why acute metal exposure can produce chronic dis
 - **Serum zonulin** -- correlates with TJ opening but assay cross-reactivity with complement C3 limits specificity.
 - **Serum LPS / endotoxin** -- direct indicator of bacterial translocation.
 - **LPS-binding protein (LBP)** -- more stable than LPS itself as a translocation marker.
-- **[[Calprotectin]]** (fecal) -- marker of neutrophil infiltration; indicates inflammation secondary to barrier failure.
+- **[[calprotectin]]** (fecal) -- marker of neutrophil infiltration; indicates inflammation secondary to barrier failure.
 - **Intestinal fatty acid-binding protein (I-FABP)** -- marker of enterocyte damage.
 - **Claudin-3** (urinary) -- emerging marker of TJ disruption.
 

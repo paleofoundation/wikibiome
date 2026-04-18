@@ -1,5 +1,4 @@
 ---
-
 title: "Metal nickel exposure increase the risk of congenital heart defects occurrence in offspring"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ tags: [nickel, congenital-heart-defects, reproductive-toxicity, placenta, ICP-MS
 doi: "10.1097/MD.0000000000015352"
 platform: wikibiome
 evidence_level: case-control
+metals_discussed: [nickel]
 ---
 
 # Metal Nickel Exposure Increase the Risk of Congenital Heart Defects Occurrence in Offspring

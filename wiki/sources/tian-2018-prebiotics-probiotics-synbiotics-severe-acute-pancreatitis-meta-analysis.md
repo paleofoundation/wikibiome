@@ -1,5 +1,4 @@
 ---
-
 title: "Supplemented Use of Pre-, Pro-, and Synbiotics in Severe Acute Pancreatitis: An Updated Systematic Review and Meta-Analysis of 13 Randomized Controlled Trials"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2018
 tags: [pancreatic-cancer, prebiotics, probiotics, synbiotics, severe-acute-pancreatitis, meta-analysis, hospital-stay, enteral-nutrition, RCT]
 doi: "10.3389/fphar.2018.00690"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, enterococcus, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -31,6 +33,6 @@ platform: wikibiome
 # Connections
 
 - Reduced hospital stay supports [[probiotics]] and [[synbiotics]] supplementation in pancreatic disease management
-- Bacterial translocation prevention relevant to [[microbiome and disease progression]] in pancreatitis
-- Gut barrier protection by probiotics connects to [[microbiome-host interactions]] and [[dysbiosis]] prevention
-- Enteral nutrition + bionutrition approach relevant to [[microbiome diet]] and [[prebiotics]] strategies
+- Bacterial translocation prevention relevant to [[dysbiosis|microbiome and disease progression]] in pancreatitis
+- Gut barrier protection by probiotics connects to [[gut-metal-microbiome|microbiome-host interactions]] and [[dysbiosis]] prevention
+- Enteral nutrition + bionutrition approach relevant to [[dietary-metal-microbiome-interactions|microbiome diet]] and [[prebiotics]] strategies

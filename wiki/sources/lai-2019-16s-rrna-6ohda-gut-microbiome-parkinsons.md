@@ -11,13 +11,16 @@ tags: [parkinsons-disease, 16S-rRNA-sequencing, 6-OHDA, gut-microbiome, animal-m
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: animal-model
+metals_discussed: [iron]
+karen_brain_primitives: [1, 5]
 ---
 
 # High-Throughput 16S rRNA Gene Sequencing Reveals That 6-Hydroxydopamine Affects Gut Microbial Environment
 
 ## Summary
 
-This study uses [[16S-rRNA-sequencing]] in a 6-hydroxydopamine (6-OHDA) rat model of [[parkinsons-disease]] to demonstrate that dopaminergic neurotoxicity directly alters the gut microbial environment, establishing a brain-to-gut direction of the [[gut-brain-axis]].
+This study uses [[shotgun-metagenomics|16S-rRNA-sequencing]] in a 6-hydroxydopamine (6-OHDA) rat model of [[parkinsons-disease]] to demonstrate that dopaminergic neurotoxicity directly alters the gut microbial environment, establishing a brain-to-gut direction of the [[gut-brain-axis]].
 
 ## Key Findings
 

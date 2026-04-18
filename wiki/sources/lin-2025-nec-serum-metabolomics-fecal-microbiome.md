@@ -40,7 +40,7 @@ key_findings:
 
 - Strengthens [[necrotizing-enterocolitis]] disease entity with multi-omics evidence of reduced amino acid (ornithine, arginine, proline) and bile acid metabolism in NEC acute phase.
 - Supports [[bile-acid-metabolism]] concept page: reduced secondary and primary bile acids in serum indicates lost microbial deconjugation/dihydroxylation capacity with NEC dysbiosis.
-- Reinforces [[escherichia-coli]] entity as the NEC-expanded pathogen and [[lactobacillus]] / [[staphylococcus]] as contextual commensals lost in NEC.
+- Reinforces [[escherichia-coli]] entity as the NEC-expanded pathogen and [[lactobacillus]] / [[staphylococcus-aureus|staphylococcus]] as contextual commensals lost in NEC.
 - Adds ornithine/arginine/urea-cycle data to the nutritional immunity / host metabolic crosstalk layer of the NEC narrative.
 
 ## Relevance to Cureva

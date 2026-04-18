@@ -26,13 +26,17 @@ tags:
   - IBD
   - immune-regulation
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, lead]
+taxa_discussed: [aspergillus, bifidobacterium, candida-albicans, debaryomyces, malassezia, roseburia, ruminococcus, saccharomyces-cerevisiae]
+karen_brain_primitives: [1, 6]
 ---
 
 # Huang 2024 -- Unveiling the Overlooked Fungi: Gut Fungi in IBD and Colorectal Cancer
 
 ## Key Claims
 
-- The fungal community in the gut (mycobiome) is mostly composed of *Aspergillus*, *Candida*, *Debaryomyces*, *Malassezia*, *Penicillium*, *Pichia*, and *Saccharomyces*; fungi represent about 0.1% of gut microorganisms
+- The fungal community in the gut (mycobiome) is mostly composed of *Aspergillus*, *Candida*, [[debaryomyces|*Debaryomyces*]], *Malassezia*, *Penicillium*, *Pichia*, and *Saccharomyces*; fungi represent about 0.1% of gut microorganisms
 - Fungi directly affect the intestinal epithelial barrier through their mycelium or metabolites, exhibiting both protective and destructive effects via MAPK, NF-kB, and TLR4 signaling pathways
 - *Candida albicans* after inducing dysbiosis of mucosal bacteria promotes invasive infection, weakens immune defenses, and increases susceptibility to 5-fluorouracil chemotherapy complications
 - Beta-glucans from fungal cell walls upregulate Claudin-1 and ZO-1 tight junction proteins; mannans from fungi decrease gut barrier permeability in antibiotic-treated mice
@@ -46,7 +50,7 @@ platform: wikibiome
  - **Immune regulation**: Dectin-1 and TLR4 are essential for anti-fungal immunity; *C. albicans* SC5314 can inhibit NLRP3 and NLRP6 inflammasomes
  - **Fungi in CRC**: *Basidiomycota/Ascomycota* ratio increased with disease progression; 16 biomarkers including *Talaromyces islandicus*, *Aspergillus rambellii*, *Saccharomycetaceae* showed significant reductions in CRC
  - **Bacteria-fungi interactions in intestinal disease**: In IBD patients, *Saccharomyces* abundance positively correlated with *Bifidobacterium*, *Roseburia*, *Ruminococcus*; *Malassezia* negatively correlated
- - **Role of Debaryomyces hansenii**: Colonizes inflamed mucosal tissues in CD patients; activates Type I interferon signaling in macrophages
+ - **Role of [[debaryomyces|*Debaryomyces hansenii*]]**: Colonizes inflamed mucosal tissues in CD patients; activates Type I interferon signaling in macrophages
 
 ## Connections
 

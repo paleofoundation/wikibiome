@@ -37,13 +37,16 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: Shows that brain metallomic signatures — the spatial distribution of Fe, Cu, Zn, Mn across specific regions — discriminate dementia with Lewy bodies from Alzheimer's and Parkinson's disease dementia. Establishes that neurodegenerative diseases are metallomically distinct phenotypes, not variants of a single cascade, and grounds WikiBiome's differential signatures for DLB, AD, and PDD.
+evidence_level: case-control
+metals_discussed: [calcium, copper, iron, lead, manganese, selenium]
+karen_brain_primitives: [1, 3, 4]
 ---
 
 # Metallomic Analysis of Brain Tissues Distinguishes Between Cases of Dementia with Lewy Bodies, Alzheimer's Disease, and Parkinson's Disease Dementia
 
 ## Why This Paper Matters
 
-This is a proof-of-concept that **metallomic signatures can differentially diagnose neurodegenerative diseases** — diseases that are notoriously difficult to distinguish clinically. Just as microbiome signatures can identify disease states via taxonomic profiling, this paper demonstrates that **multi-element metal profiling across brain regions produces disease-specific fingerprints** that separate DLB from AD from PDD using standard multivariate statistics (PCA/PLS-DA). This is the brain tissue equivalent of what [[[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]] did for lung cancer in serum and [[[schilling-2020-urine-metallomics-pancreatic-cancer]]] did for pancreatic cancer in urine.
+This is a proof-of-concept that **metallomic signatures can differentially diagnose neurodegenerative diseases** — diseases that are notoriously difficult to distinguish clinically. Just as microbiome signatures can identify disease states via taxonomic profiling, this paper demonstrates that **multi-element metal profiling across brain regions produces disease-specific fingerprints** that separate DLB from AD from PDD using standard multivariate statistics (PCA/PLS-DA). This is the brain tissue equivalent of what [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]] did for lung cancer in serum and [[schilling-2020-urine-metallomics-pancreatic-cancer]]] did for pancreatic cancer in urine.
 
 The implications extend beyond post-mortem diagnosis: if these metallomic patterns can be detected in vivo (via MRI metal imaging, CSF, or peripheral biomarkers), metallomic profiling could become a clinical diagnostic tool for differentiating dementias — a problem that currently lacks reliable biomarkers and leads to misdiagnosis rates of 20-30% for DLB.
 
@@ -134,7 +137,7 @@ This is the paradigm-shifting result — **PCA/PLS-DA achieves clear separation 
 
 ## The Metallomic Signature Concept
 
-This paper, together with the cancer metallomics papers in the wiki ([[[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]], [[[schilling-2020-urine-metallomics-pancreatic-cancer]]], [[[lim-2023-plasma-metallomics-ami]]]), establishes that:
+This paper, together with the cancer metallomics papers in the wiki ([[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]], [[schilling-2020-urine-metallomics-pancreatic-cancer]]], [[lim-2023-plasma-metallomics-ami]]]), establishes that:
 
 1. **Diseases have metallomic signatures** — characteristic patterns of metal elevation/depletion that are disease-specific
 2. **These signatures are diagnostically useful** — multivariate analysis (PCA/PLS-DA) achieves high sensitivity/specificity for disease discrimination
@@ -166,4 +169,4 @@ This is the same principle that drives microbiome signatures (taxonomic profilin
 - [[neurodegeneration]] — overarching concept; this paper shows metallomic profiling can distinguish subtypes
 - [[mis-metallation]] — Cu loss may lead to inappropriate metal substitution in Cu-dependent enzymes
 - [[metal-disease-matrix]] — this paper provides the neurodegenerative disease columns with region-specific data
-- [[[lim-2023-plasma-metallomics-ami]]], [[[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]], [[[schilling-2020-urine-metallomics-pancreatic-cancer]]] — parallel metallomic signature studies in other disease domains
+- [[lim-2023-plasma-metallomics-ami]]], [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]], [[schilling-2020-urine-metallomics-pancreatic-cancer]]] — parallel metallomic signature studies in other disease domains

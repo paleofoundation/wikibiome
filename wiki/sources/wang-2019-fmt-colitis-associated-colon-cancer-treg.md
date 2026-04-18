@@ -1,5 +1,4 @@
 ---
-
 title: "Protective Role of Fecal Microbiota Transplantation on Colitis and Colitis-Associated Colon Cancer in Mice Is Associated With Treg Cells"
 type: source
 created: 2026-04-09
@@ -7,14 +6,16 @@ updated: 2026-04-09
 authors: [Zitao Wang, Wenjie Hua, Chen Li, Hao Chang, Ran Liu, Yangyue Ni, Hongzhi Sun, Yangyang Li, Xinyue Wang, Min Hou, Yu Liu, Zhipeng Xu, Minjun Ji]
 journal: Frontiers in Microbiology
 year: 2019
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Microbiology 2019 -->
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colitis-associated-cancer, Treg-cells, NF-kB, inflammation, butyrate, AOM-DSS, mouse-model, colorectal-cancer]
 platform: wikibiome
+evidence_level: animal-model
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- [[fecal-microbiota-transplant]] attenuates colitis-associated cancer (CAC) progression in AOM/DSS mice by restoring the Firmicutes/Bacteroidetes balance, reducing inflammation, and inducing regulatory T cells [[Tregs]]
+- [[fecal-microbiota-transplant]] attenuates colitis-associated cancer (CAC) progression in AOM/DSS mice by restoring the Firmicutes/Bacteroidetes balance, reducing inflammation, and inducing regulatory T cells [[inflammation|Tregs]]
 - FMT significantly reduces tumor load (from ~20 to ~7 tumors), tumor size, and colonic shortening while improving body weight and survival
 - FMT inhibits canonical NF-kB (p65 phosphorylation) activity and cellular proliferation (Ki67) in colons of CAC mice, but does not affect non-canonical NF-kB (p100) signaling
 - CD4+CD25+Foxp3+ Treg cells are significantly increased after FMT treatment in spleen, mesenteric lymph nodes, and lamina propria lymphocytes
@@ -34,9 +35,9 @@ platform: wikibiome
 
 # Connections
 
-- Treg induction mechanism complements [[Yu 2023 - FMT Inhibits CRC Progression]] NK cell and CD8+ T cell findings, showing FMT modulates both arms of immunity
-- Butyrate-Treg connection links to [[Rafter 2004 - Probiotics Colon Cancer Development]] and [[Cummings 1992 - Fecal Weight Colon Cancer Fiber]] fiber-SCFA-cancer axis
-- NF-kB inhibition parallels [[Zhu 2022 - Berberine UC Cancer Therapy]] berberine's NF-kB pathway suppression
-- Colitis-to-cancer progression model relevant to [[Simin 2020 - Antibiotic Use CRC Risk]] discussion of inflammation as CRC driver
+- Treg induction mechanism complements [[yu-2023-fmt-inhibits-crc-progression|Yu 2023 - FMT Inhibits CRC Progression]] NK cell and CD8+ T cell findings, showing FMT modulates both arms of immunity
+- Butyrate-Treg connection links to [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] and [[cummings-1992-fecal-weight-colon-cancer-fiber|Cummings 1992 - Fecal Weight Colon Cancer Fiber]] fiber-SCFA-cancer axis
+- NF-kB inhibition parallels [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]] berberine's NF-kB pathway suppression
+- Colitis-to-cancer progression model relevant to [[simin-2020-antibiotic-use-crc-risk|Simin 2020 - Antibiotic Use CRC Risk]] discussion of inflammation as CRC driver
 - The CAC model (AOM/DSS) is the same used across multiple studies in this batch, enabling direct comparison
 - [[colorectal-cancer]]

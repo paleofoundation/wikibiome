@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, viral-dysbiosis, coxsackievirus, microbiome,
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [akkermansia-muciniphila]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Coxsackievirus B4 (CVB4) induces restructuring", "Microbiome restructuring associated with", "CVB4-induced community composition strikingly similar"]
 ---
 
 # Key Claims

@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Annu, Sartaj Ali]
 journal: Journal of Pharmacological Biomolecules and Therapeutics
 year: 2025
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (null); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Pharmacological Biomolecules and Therapeutics 2025 -->
 evidence_level: expert-opinion
 sample_size: "N/A - review"
 tags: [multiple-sclerosis, probiotics, nanoparticles, precision-probiotics, nanoencapsulation, autoimmune, gut-brain-axis, Lactobacillus, Bifidobacterium]

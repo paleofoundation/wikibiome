@@ -5,6 +5,7 @@ type: entity
 subtype: fungus
 created: 2026-04-10
 updated: 2026-04-10
+last_substantive_update: 2026-04-10
 sources: []
 tags: [fungus, yeast, probiotic, s-boulardii, zinc-dependent, candida-antagonist, fermentation, crohns-disease, dsbiosis]
 oxygen_requirement: "facultative"

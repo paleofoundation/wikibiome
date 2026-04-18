@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut Microbiome and Schizophrenia: The Current State of the Field and Clinical Applications"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 doi: "10.3389/fpsyt.2020.00156"
 tags: [schizophrenia, gut-microbiome, dysbiosis, inflammation, tryptophan-metabolism, BDNF, probiotics, prebiotics, gut-brain-axis, SCFAs, immune-response]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [blautia, coprococcus, lachnospiraceae, roseburia, saccharomyces-cerevisiae]
+karen_brain_primitives: [5]
 ---
 
 # The Gut Microbiome and Schizophrenia: The Current State of the Field and Clinical Applications
@@ -19,8 +21,8 @@ platform: wikibiome
 - The current data showing microbiome alterations in [[schizophrenia]] are highly discrepant and insufficient to conclude whether microbiome changes are associated with increased risk, are causally related, or simply reflect external factors
 - Schizophrenia is associated with elevated levels of IL-6, IL-8, TNF-alpha, and reductions in anti-inflammatory IL-10, and elevated antibodies to [[saccharomyces-cerevisiae]] indicate intestinal inflammation
 - Elevated levels of the bacterial translocation marker sCD14 have been observed in schizophrenia, along with reduced [[roseburia]], [[coprococcus]], and [[blautia]] -- species that mediate butyrate production and enhance intestinal barrier function
-- The [[tryptophan]]-[[kynurenine]] pathway is dysregulated in schizophrenia: IDO is upregulated by cytokines such as IFN-gamma and TNF-alpha, shunting tryptophan away from serotonin synthesis toward kynurenic acid (KYNA), an NMDA receptor antagonist
-- [[BDNF]] levels are reduced in post-mortem hippocampal tissue and plasma of drug-naive patients with schizophrenia, and the gut microbiome directly influences BDNF expression
+- The [[tryptophan-metabolism]]-[[kynurenine]] pathway is dysregulated in schizophrenia: IDO is upregulated by cytokines such as IFN-gamma and TNF-alpha, shunting tryptophan away from serotonin synthesis toward kynurenic acid (KYNA), an NMDA receptor antagonist
+- [[gut-brain-axis|BDNF]] levels are reduced in post-mortem hippocampal tissue and plasma of drug-naive patients with schizophrenia, and the gut microbiome directly influences BDNF expression
 - A panel of microbiota consisting of Aerococcaceae, Bifidobacteriaceae, Brucellaceae, Pasteurellaceae, and Rikenellaceae was sufficient to distinguish schizophrenia patients from controls
 - Pro/prebiotic supplementation shows some encouraging results but evidence remains inconclusive for efficacy in schizophrenia
 

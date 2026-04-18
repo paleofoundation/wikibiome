@@ -58,7 +58,7 @@ Four STOP pages were created on April 13 but the corresponding signature `stops:
 | STOP File | Signature | Signature's `stops:` Field | Problem |
 |-----------|-----------|--------------------------|---------|
 | `stop-iron-supplementation-alzheimers.md` | `alzheimers-disease.md` | `stops: []` | Never linked |
-| `stop-iron-supplementation-asd.md` | `autism-spectrum-disorder-microbiome-signature.md` | `stops: []` | Never linked |
+| `stop-iron-supplementation-asd.md` | `autism-spectrum-disorder-signature.md` | `stops: []` | Never linked |
 | `stop-iron-supplementation-colorectal-cancer.md` | `colorectal-cancer.md` | `stops: []` | Never linked |
 | `stop-iodine-supplementation-hashimotos.md` | `hashimotos-thyroiditis.md` | `stops: [stop-excess-iodine-supplementation-hashimotos]` | **Name mismatch** — signature references `stop-excess-iodine-supplementation-hashimotos` but file is `stop-iodine-supplementation-hashimotos.md` |
 

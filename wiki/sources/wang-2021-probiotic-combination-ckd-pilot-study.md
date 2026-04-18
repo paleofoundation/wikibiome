@@ -9,6 +9,9 @@ journal: "Frontiers in Nutrition"
 doi: "10.3389/fnut.2021.661794"
 tags: [chronic-kidney-disease, CKD, probiotics, Lactobacillus-acidophilus, Bifidobacterium-longum, B-bifidum, pilot-study, eGFR, endotoxin]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Probiotic Combination in CKD: Mouse Model and Clinical Pilot

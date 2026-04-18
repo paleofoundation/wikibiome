@@ -37,7 +37,7 @@ shared_signature_taxa: {necrotizing-enterocolitis: [klebsiella-enriched, bifidob
 ### Depleted Taxa
 
 CP children show consistent depletion of SCFA-producing commensals [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]], cross-sectional, n=46:
-- **[[Bacteroides]]** -- loss reduces polysaccharide fermentation and immune education
+- **[[bacteroides]]** -- loss reduces polysaccharide fermentation and immune education
 - **[[faecalibacterium-prausnitzii|Faecalibacterium]]** -- primary butyrate producer; depletion impairs anti-inflammatory signaling via the gut-brain axis
 - **[[blautia]]** -- acetate/propionate producer; loss reduces colonocyte nutrition
 - **[[ruminococcus|Ruminococcus]]** -- fiber-degrading commensal; depleted in CP gut
@@ -100,7 +100,7 @@ Notably, care modality itself shapes the CP microbiome: family-centered care enr
 
 - [[necrotizing-enterocolitis]] -- NEC-to-CP pathway, 20% of NEC survivors develop CP
 - [[epilepsy]] -- CPE comorbidity, shared kynurenine pathway dysregulation
-- [[klebsiella]] -- predictive biomarker for brain injury in preterm infants
+- [[klebsiella-pneumoniae]] -- predictive biomarker for brain injury in preterm infants
 - [[iron]] -- deficiency impairs myelination in developing brain
 - [[lead]] -- neurodevelopmental toxicant crossing immature BBB
 - [[gut-brain-axis]] -- dysbiotic gut communities drive neuroinflammation and white matter injury via LPS translocation

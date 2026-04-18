@@ -1,5 +1,4 @@
 ---
-
 title: "Antibiotic Use and Risk of Colorectal Cancer: A Systematic Review and Dose-Response Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -7,14 +6,16 @@ updated: 2026-04-09
 authors: [Johanna Simin, Romina Fornes, Qing Liu, Renate Slind Olsen, Steven Callens, Lars Engstrand, Nele Brusselaers]
 journal: British Journal of Cancer
 year: 2020
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: British Journal of Cancer 2020 -->
 tags: [colon-cancer, antibiotics, colorectal-cancer, meta-analysis, systematic-review, dose-response, gut-microbiome, dysbiosis, risk-factor, epidemiology]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- Oral [[antibiotic]] use is associated with an increased risk of [[colorectal-cancer]] (CRC): pooled effect size ES = 1.17, 95% CI 1.05-1.30 for ever-users vs non-users across 4.1 million individuals and 73,550 CRC cases
+- Oral [[antimicrobial-resistance|antibiotic]] use is associated with an increased risk of [[colorectal-cancer]] (CRC): pooled effect size ES = 1.17, 95% CI 1.05-1.30 for ever-users vs non-users across 4.1 million individuals and 73,550 CRC cases
 - Broad-spectrum antibiotics show a stronger association with CRC (ES = 1.70, 95% CI 1.26-2.30) compared to narrow-spectrum antibiotics (ES = 1.11, 95% CI 0.93-1.32)
 - The dose-response analysis shows a non-linear relationship (p for non-linearity < 0.0005): CRC risk increases with antibiotic exposure up to ~30 days, then plateaus
 - Antibiotic class-specific risks: penicillins (ES = 1.16), sulfonamides (1.17), quinolones (1.23), cephalosporins (1.33), nitroimidazole/metronidazole (1.28); tetracyclines showed no apparent association (0.97)
@@ -34,9 +35,9 @@ platform: wikibiome
 
 # Connections
 
-- Provides the epidemiological context for [[Liu 2021 - ARGs Colorectal Cancer Microbiome]] findings on enriched antibiotic resistance genes in CRC patients
-- Antibiotic-induced dysbiosis connects to [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of dysbiosis mechanisms in CRC carcinogenesis
-- Inflammation-cancer link reinforced here supports [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] colitis-to-cancer model
+- Provides the epidemiological context for [[liu-2021-args-colorectal-cancer-microbiome|Liu 2021 - ARGs Colorectal Cancer Microbiome]] findings on enriched antibiotic resistance genes in CRC patients
+- Antibiotic-induced dysbiosis connects to [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of dysbiosis mechanisms in CRC carcinogenesis
+- Inflammation-cancer link reinforced here supports [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] colitis-to-cancer model
 - Broad-spectrum vs narrow-spectrum distinction relevant to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] antibiotic effects on radiotherapy microbiome
-- Long latency period suggests chronic microbiome disruption, connecting to [[Rafter 2004 - Probiotics Colon Cancer Development]] rationale for probiotic restoration
+- Long latency period suggests chronic microbiome disruption, connecting to [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] rationale for probiotic restoration
 - [[colorectal-cancer]]

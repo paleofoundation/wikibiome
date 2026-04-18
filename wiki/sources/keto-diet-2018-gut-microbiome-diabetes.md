@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2018
 journal: "Scientific Reports / International Cardiovascular Forum Journal"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Scientific Reports / International Cardiovascular Forum Journal 2018 -->
 tags: [type-1-diabetes, autoimmune, ketogenic-diet, gut-microbiome, metabolic-control, dysbiosis, dietary-intervention]
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [selenium, zinc]
+karen_brain_primitives: [1]
+key_findings: ["Ketogenic diet significantly modifies gut microbiome composition", "Metabolic effects of keto diet", "Keto diet shifts microbial community"]
 ---
 
 # Key Claims

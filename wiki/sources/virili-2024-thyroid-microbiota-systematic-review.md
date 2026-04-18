@@ -1,5 +1,4 @@
 ---
-
 title: "The relationship between thyroid and human-associated microbiota: A systematic review of reviews"
 type: source
 created: 2026-04-09
@@ -12,7 +11,8 @@ doi: "10.1007/s11154-023-09839-9"
 platform: wikibiome
 karen_brain_primitives: [5]
 metals_discussed: ["iodine", "selenium"]
-taxa_discussed: []
+taxa_discussed: [bifidobacterium, lactobacillus]
+evidence_level: systematic-review-meta-analysis
 ---
 
 # The relationship between thyroid and human-associated microbiota: A systematic review of reviews

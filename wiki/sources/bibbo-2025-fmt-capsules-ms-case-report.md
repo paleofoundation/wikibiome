@@ -1,5 +1,4 @@
 ---
-
 title: "Case Report: Fecal microbiota transplantation via capsules ameliorated clinical outcomes in a patient with multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2025
 doi: 10.3389/fimmu.2025.1678759
 tags: [multiple-sclerosis, FMT, fecal-microbiota-transplant, SPMS, Akkermansia, case-report, gut-permeability, dysbiosis, Collinsella]
 platform: wikibiome
+evidence_level: case-report
+metals_discussed: [cadmium, cobalt, nickel]
+taxa_discussed: [akkermansia-muciniphila, blautia, collinsella]
+karen_brain_primitives: [1, 5]
 ---
 
 # Case Report: Fecal Microbiota Transplantation via Capsules Ameliorated Clinical Outcomes in a Patient with Multiple Sclerosis

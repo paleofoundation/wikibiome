@@ -1,5 +1,4 @@
 ---
-
 title: "The effect of gut microbiome-targeted therapies in nonalcoholic fatty liver disease: a systematic review and network meta-analysis"
 type: source
 created: 2026-04-09
@@ -7,16 +6,18 @@ updated: 2026-04-09
 authors: [Yijia Song, Sutong Liu, Lihui Zhang, Wenxia Zhao, Yuanmei Qin, Minghao Liu]
 journal: Frontiers in Nutrition
 year: 2025
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Nutrition 2025 -->
 tags: [cardiovascular-disease, microbiome-targeted-therapy, NAFLD, probiotics, synbiotics, prebiotics, FMT, antibiotics, network-meta-analysis, liver-enzymes]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Song et al. 2025 -- Microbiome-Targeted Therapies in NAFLD: Network Meta-Analysis
 
 ## Key Claims
 
-- [[Synbiotics]] (90.9% SUCRA) had the best effectiveness in reducing ALT among all microbiome-targeted therapies, followed by autologous [[fecal-microbiota-transplant]] (76%) and [[prebiotics]] (62.8%)
+- [[synbiotics]] (90.9% SUCRA) had the best effectiveness in reducing ALT among all microbiome-targeted therapies, followed by autologous [[fecal-microbiota-transplant]] (76%) and [[prebiotics]] (62.8%)
 - Synbiotics were also best for reducing liver stiffness measurement (LSM) by elastography (99.3% SUCRA), superior to [[probiotics]] (67.1%)
 - Autologous FMT (87.7% SUCRA) had the best effectiveness in reducing triglycerides and total cholesterol, followed by allogenic FMT (69.1%) and probiotics (57.2%)
 - Prebiotics (82.3% SUCRA) were most effective for reducing LDL-C; both probiotics and synbiotics significantly reduced HOMA-IR
@@ -42,4 +43,4 @@ pp. 1-8
 
 - Relevant to [[cardiovascular-disease]] through NAFLD as a shared metabolic risk factor
 - Links to [[probiotics]], [[prebiotics]], and [[fecal-microbiota-transplant]] as microbiome-modulating strategies
-- Connects to [[metabolic syndrome]] and hepatic-cardiovascular axis
+- Connects to [[metabolic-syndrome]] and hepatic-cardiovascular axis

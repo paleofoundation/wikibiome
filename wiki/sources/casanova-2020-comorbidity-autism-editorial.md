@@ -12,6 +12,8 @@ library_category: "Comorbidities"
 platform: clinical
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-7"
+evidence_level: expert-opinion
+taxa_discussed: [candida-albicans]
 ---
 
 # Overview
@@ -50,4 +52,4 @@ Editorial synthesising **32 articles** from a Research Topic on comorbidities as
 
 - GI comorbidity findings link to [[tye-2019-asd-comorbid-medical-conditions-review]]
 - Immune findings connect to [[heidari-2021-immune-system-asd-therapeutic-challenges]]
-- Fungal dysbiosis observation relevant to [[strati-2017-altered-gut-microbiota-asd]] mycobiome findings
+- Fungal dysbiosis observation relevant to [[strati-2017-altered-gut-microbiota-mycobiota-asd]] mycobiome findings

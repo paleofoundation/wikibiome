@@ -11,6 +11,9 @@ tags: [postpartum-depression, prevalence, meta-analysis, income-inequality, mate
 library_category: meta-analysis
 platform: cureva
 condition: "postpartum depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["Global pooled prevalence of PPD", "Significant variation", "Key national predictors"]
 ---
 
 # Key Claims

@@ -15,7 +15,7 @@ library_category: causal
 platform: both
 condition: "COVID-19 with neurological complications"
 karen_brain_primitives: [2, 4, 5]
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed: [firmicutes, bacteroidetes, proteobacteria]
 key_findings: [
   "COVID-19 dysbiosis enables bacterial lipopolysaccharide (LPS) translocation across compromised intestinal barrier",

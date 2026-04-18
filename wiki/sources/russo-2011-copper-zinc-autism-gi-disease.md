@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, copper, zinc, Cu-Zn-ratio, GI-disease, metal-dy
 library_category: heavy-metals
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [copper, zinc]
 ---
 
 # Key Claims

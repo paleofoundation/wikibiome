@@ -25,6 +25,8 @@ tags:
   - metabolic-health
   - review
 platform: wikibiome
+metals_discussed: [cadmium, copper, iron, lead, selenium]
+karen_brain_primitives: [1, 5]
 ---
 
 # Role of Gut Microbiota-Generated Short-Chain Fatty Acids in Metabolic and Cardiovascular Health

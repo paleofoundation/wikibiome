@@ -11,13 +11,14 @@ tags: [parkinsons-disease, bacteriophages, gut-toxins, phage-therapy, gut-viabil
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: animal-model
 ---
 
 # The Impact of Combined Bacteriophage and Toxin Exposure on Gut Viability in Parkinson's Disease Models
 
 ## Summary
 
-This study investigates the synergistic effects of [[bacteriophage]] exposure combined with environmental toxins on gut viability in [[parkinsons-disease]] models. The authors demonstrate that the co-occurrence of phage-driven [[dysbiosis]] and toxin exposure amplifies gut damage beyond either factor alone.
+This study investigates the synergistic effects of [[bacteriophages|bacteriophage]] exposure combined with environmental toxins on gut viability in [[parkinsons-disease]] models. The authors demonstrate that the co-occurrence of phage-driven [[dysbiosis]] and toxin exposure amplifies gut damage beyond either factor alone.
 
 ## Key Findings
 

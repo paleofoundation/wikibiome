@@ -32,6 +32,10 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Demonstrates cadmium-triggered metabolic reprogramming in Enterococcus—downregulation of nucleotide metabolism, upregulation of protein translation and transport systems. This paper reveals how cadmium exposure selects for metabolically crippled but persistent bacteria, a mechanism WikiBiome uses to explain dysbiosis persistence despite antibiotic or antimicrobial intervention."
+evidence_level: computational-prediction
+metals_discussed: [cadmium, nickel]
+taxa_discussed: [acinetobacter, enterococcus, pseudomonas-aeruginosa]
+karen_brain_primitives: [1, 2, 4, 8]
 ---
 
 # Cadmium Stress Triggers Significant Metabolic Reprogramming in Enterococcus faecium CX 2-6

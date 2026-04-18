@@ -1,5 +1,4 @@
 ---
-
 title: "Gluten-Free Diet Alters the Gut Microbiome in Women with Autoimmune Thyroiditis"
 type: source
 created: 2026-04-09
@@ -10,14 +9,15 @@ year: 2024
 doi: "10.3390/nu16050685"
 tags: [graves-disease, thyroid, autoimmune, autoimmune-thyroiditis, gluten-free-diet, gut-microbiome, Hashimotos-thyroiditis, diet, Desulfobacterota, Proteobacteria, Prevotella, Bifidobacterium, anti-TPO]
 platform: wikibiome
+taxa_discussed: [bifidobacterium, prevotella]
 ---
 
 # Gluten-Free Diet Alters the Gut Microbiome in Women with Autoimmune Thyroiditis
 
 ## Key Claims
 
-- A gluten-free diet (GFD) significantly alters the [[gut microbiome]] composition in women with [[autoimmune thyroiditis]] (AIT) after just 4 weeks
-- After 4 weeks of GFD, significant increases were observed in phyla [[Desulfobacterota]] and [[Proteobacteria]] and genera [[prevotella]] and [[parasutterella]], while [[Actinobacteriota]], family [[Coriobacteriaceae]], and genus [[bifidobacterium]] significantly decreased
+- A gluten-free diet (GFD) significantly alters the [[gut-microbiome]] composition in women with [[thyroid-autoimmunity|autoimmune thyroiditis]] (AIT) after just 4 weeks
+- After 4 weeks of GFD, significant increases were observed in phyla [[desulfovibrio|Desulfobacterota]] and [[proteobacteria]] and genera [[prevotella]] and [[parasutterella]], while [[actinobacteria|Actinobacteriota]], family [[dysbiosis|Coriobacteriaceae]], and genus [[bifidobacterium]] significantly decreased
 - The only significant blood parameter difference between gluten and placebo groups was in anti-TPO antibody levels in the placebo group, with no clear beneficial effect of GFD on thyroid function markers
 - The detected microbiome alterations may indicate increasing [[inflammation]] rather than improvement, suggesting GFD should be used cautiously in AIT
 - No significant changes in TSH, FT4, FT3, CRP, or ESR were observed after 8 weeks of dietary intervention
@@ -38,6 +38,6 @@ platform: wikibiome
 - Bifidobacterium decrease on GFD contrasts with its complex role in [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] where Bifidobacterium was a risk factor for GD
 - Proteobacteria increase on GFD is concerning given association with [[inflammation]] and 
 - Relevant to broader question of dietary interventions in alongside [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
-- Parasutterella increase connects to emerging role in [[Tryptophan Metabolism]] and gut-immune interactions
+- Parasutterella increase connects to emerging role in [[tryptophan-metabolism]] and gut-immune interactions
 - GFD-AIT relationship links to higher prevalence of celiac disease in AIT patients, relevant to and 
-- Cautionary findings relevant to dietary recommendations in [[Hashimoto's thyroiditis]] and [[graves-disease]] management
+- Cautionary findings relevant to dietary recommendations in [[hashimotos-thyroiditis]] and [[graves-disease]] management

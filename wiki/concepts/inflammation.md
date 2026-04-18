@@ -1,12 +1,14 @@
 ---
-
 title: Metal-Driven Inflammation
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [ahmed-2025-metals-alzheimers-mechanistic-review, balali-mood-2021-toxic-mechanisms-five-heavy-metals, mishra-2022-molecular-mechanisms-heavy-metals-ckd, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, briffa-2020-heavy-metal-pollution-environment-toxicology, kravchenko-2023-thyroid-hormones-minerals-AITD, amerikanou-2022-ibd-biomarkers-trace-metals, gao-2023-microglia-neurodegenerative-diseases, borghini-2020-endometriosis-nickel-ibs, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, hanus-2021-immune-microbiota-metabolites-crc-triad, carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]
+sources: [ahmed-2025-metals-alzheimers-mechanistic-review, balali-mood-2021-toxic-mechanisms-five-heavy-metals, mishra-2022-molecular-mechanisms-heavy-metals-ckd, khan-2020-environmental-exposures-autoimmune-gut-microbiome, briffa-2020-heavy-metal-pollution-environment-toxicology, kravchenko-2023-thyroid-hormones-minerals-AITD, amerikanou-2022-ibd-biomarkers-trace-metals, gao-2023-microglia-neurodegenerative-diseases, borghini-2020-endometriosis-nickel-ibs, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, hanus-2021-immune-microbiota-metabolites-crc-triad, carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]
 tags: [inflammation, NF-kB, NLRP3, cytokines, oxidative-stress, innate-immunity, chronic-inflammation, metals, convergent-pathways, CRP, IL-6, TNF-alpha, calprotectin, COX-2, resolution]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 5]
+seo_target: "metal-driven inflammation microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Metal-Driven Inflammation
@@ -62,7 +64,7 @@ In metal-exposed individuals, the acute-to-chronic transition is favored because
 ### Via Dysbiosis
 - Metal-induced [[dysbiosis]] shifts gut communities toward gram-negative, LPS-producing pathobionts.
 - Increased LPS translocates through the compromised gut barrier into systemic circulation.
-- Circulating LPS activates TLR4/NF-kB on macrophages, hepatocytes, and microglia, producing chronic low-grade systemic inflammation [[khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]].
+- Circulating LPS activates TLR4/NF-kB on macrophages, hepatocytes, and microglia, producing chronic low-grade systemic inflammation [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]].
 - This is the primary route by which gut metal exposure drives distant organ inflammation (brain, joints, thyroid, vasculature).
 
 ### Via Barrier Disruption

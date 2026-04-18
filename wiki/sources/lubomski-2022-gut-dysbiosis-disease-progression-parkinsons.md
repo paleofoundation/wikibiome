@@ -11,13 +11,16 @@ tags: [parkinsons-disease, gut-dysbiosis, disease-progression, longitudinal-stud
 library_category: causal
 platform: both
 condition: "Parkinson's disease"
+evidence_level: prospective-cohort
+metals_discussed: [iron]
+karen_brain_primitives: [1, 5]
 ---
 
 # Progression of Parkinson's Disease Is Associated with Gut Dysbiosis: Two-Year Follow-Up Study
 
 ## Summary
 
-This longitudinal study tracks gut [[microbiome]] changes over a two-year period in [[parkinsons-disease]] patients, providing rare prospective evidence that [[dysbiosis]] deepens in parallel with clinical disease progression.
+This longitudinal study tracks gut [[gut-microbiome|microbiome]] changes over a two-year period in [[parkinsons-disease]] patients, providing rare prospective evidence that [[dysbiosis]] deepens in parallel with clinical disease progression.
 
 ## Key Findings
 

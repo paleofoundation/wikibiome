@@ -11,6 +11,10 @@ tags: [postpartum-depression, fermented-dairy, depression, yogurt, cheese, gut-b
 library_category: meta-analysis
 platform: cureva
 condition: "depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [calcium, magnesium, zinc]
+karen_brain_primitives: [5]
+key_findings: ["Fermented dairy foods intake", "Cheese consumption", "Yogurt consumption"]
 ---
 
 # Key Claims

@@ -19,7 +19,7 @@ library_category: causal
 platform: both
 condition: "postpartum depression"
 karen_brain_primitives: [1, 2, 4, 5]
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed: []
 key_findings: [
   "Aberrant immune system function contributes substantially to postpartum mental illness",

@@ -11,13 +11,17 @@ tags: [parkinsons-disease, fermented-foods, probiotics, gut-microbiome, Lactobac
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: in-vitro
+metals_discussed: [calcium, iron, lead, manganese, nickel]
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [1, 3, 5]
 ---
 
 # Influence of Fermented Foods on the Gut Microbiome in Neurodegenerative Diseases
 
 ## Summary
 
-This review examines the influence of fermented food consumption on the gut [[microbiome]] in neurodegenerative diseases, focusing on [[parkinsons-disease]] and Alzheimer's disease. It evaluates traditional fermented foods (yogurt, kefir, kimchi, sauerkraut, kombucha) as dietary sources of [[probiotics]] and bioactive metabolites.
+This review examines the influence of fermented food consumption on the gut [[gut-microbiome|microbiome]] in neurodegenerative diseases, focusing on [[parkinsons-disease]] and Alzheimer's disease. It evaluates traditional fermented foods (yogurt, kefir, kimchi, sauerkraut, kombucha) as dietary sources of [[probiotics]] and bioactive metabolites.
 
 ## Key Findings
 

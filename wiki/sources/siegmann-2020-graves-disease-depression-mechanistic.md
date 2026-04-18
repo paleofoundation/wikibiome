@@ -1,5 +1,4 @@
 ---
-
 title: "Graves' disease as a driver of depression: a mechanistic insight"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 doi: "10.3389/fendo.2020.00530"
 tags: [graves-disease, thyroid, autoimmune, depression, neuropsychiatric, neuroinflammation, oxidative-stress, serotonin, HPA-axis, thyroid-hormones, T3, T4, cytokines, inflammation]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 5]
 ---
 
 # Graves' disease as a driver of depression: a mechanistic insight
@@ -18,8 +20,8 @@ platform: wikibiome
 
 - [[graves-disease]] drives depression through multiple overlapping mechanisms: direct thyroid hormone neurotoxicity, [[neuroinflammation]], [[oxidative-stress]], HPA axis dysregulation, and serotonergic dysfunction
 - Excess T3 and T4 directly affect brain function by altering serotonin, norepinephrine, and dopamine metabolism, contributing to anxiety, irritability, and depression even after biochemical euthyroidism is restored
-- Autoimmune [[inflammation]] in GD produces elevated pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6) that cross the blood-brain barrier and activate brain [[NF-kappa-B]] signaling, driving neuroinflammation and depressive symptoms
-- [[Oxidative-stress]] from both hyperthyroidism (increased metabolic rate) and autoimmune inflammation damages neuronal tissue and depletes antioxidant reserves including [[selenium]]-dependent glutathione peroxidase
+- Autoimmune [[inflammation]] in GD produces elevated pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6) that cross the blood-brain barrier and activate brain [[nf-kappa-b]] signaling, driving neuroinflammation and depressive symptoms
+- [[oxidative-stress]] from both hyperthyroidism (increased metabolic rate) and autoimmune inflammation damages neuronal tissue and depletes antioxidant reserves including [[selenium]]-dependent glutathione peroxidase
 - Depression persists in 30-60% of GD patients even after successful treatment and euthyroid restoration, suggesting that autoimmune-driven neuroinflammation may be an independent contributor separate from thyroid hormone levels
 
 ## Methods/Findings
@@ -34,7 +36,7 @@ platform: wikibiome
 
 ## Connections
 
-- [[Oxidative-stress]] mechanism links to [[selenium]] depletion in GD, connecting to [[brock-2015-selenium-thyroid-autoimmunity]] on selenoprotein protection
+- [[oxidative-stress]] mechanism links to [[selenium]] depletion in GD, connecting to [[brock-2015-selenium-thyroid-autoimmunity]] on selenoprotein protection
 - NF-kappa-B-driven [[neuroinflammation]] parallels systemic [[inflammation]] patterns seen in [[nf-kappa-b]] pathway activation across autoimmune conditions
 - Cytokine-mediated tryptophan depletion via IDO connects gut-brain axis and [[dysbiosis]] effects on neurotransmitter synthesis
 - Persistent autoimmune inflammation after treatment parallels microbiome findings in [[chen-2021-gut-microbiota-thyroid-graves]] where dysbiosis improves but may not fully resolve

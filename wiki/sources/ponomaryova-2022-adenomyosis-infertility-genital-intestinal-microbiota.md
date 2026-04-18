@@ -17,7 +17,7 @@ library_category: causal
 platform: both
 condition: "adenomyosis"
 karen_brain_primitives: [1, 5, 7]
-metals_discussed: []
+metals_discussed: [iron]
 taxa_discussed: [lactobacillus, escherichia-coli, klebsiella, enterobacter, staphylococcus-epidermidis, staphylococcus-aureus, enterococcus-faecalis, streptococcus-agalactiae, corynebacterium, candida, bifidobacterium, bacteroides, peptostreptococcus, fusobacterium, prevotella, veillonella, atopobium-vaginae, clostridium]
 key_findings:
   - "Bacterial vaginosis registered in 39% and vaginitis in 37.5% of women with adenomyosis + infertility; healthy controls showed none"
@@ -43,7 +43,7 @@ Case-control cultural microbiology study. 64 women with adenomyosis and infertil
 
 ## Relevance to WikiBiome
 
-- **[[adenomyosis]]** entity page — add microbiome section; document the dual vaginal + intestinal dysbiosis pattern.
+- **[[endometriosis|adenomyosis]]** entity page — add microbiome section; document the dual vaginal + intestinal dysbiosis pattern.
 - **[[female-infertility]]** entity — link to adenomyosis as a microbiome-mediated subtype; infertility often reflects a gut-vagina axis imbalance, not a local gynecologic-only pathology.
 - **[[escherichia-coli]]** — document enrichment in adenomyosis vagina (25% vs 13.3%); reinforces the cross-condition pattern of E. coli in endometriosis, endometrial cancer, and female reproductive disorders.
 - **[[candida-albicans]]** — document Candida enrichment in both vaginal and intestinal compartments in adenomyosis.
@@ -55,7 +55,7 @@ Case-control cultural microbiology study. 64 women with adenomyosis and infertil
 
 - **[[adenomyosis-signature]]** (create or expand) — taxonomic layer: enriched E. coli, Candida, staphylococci, Peptostreptococcus, Atopobium, Fusobacterium; depleted Lactobacillus (>1000-fold), Bifidobacterium, Bacteroides.
 - **Cross-condition overlap with [[endometriosis-signature]]**: both show E. coli, Fusobacterium, Peptostreptococcus enrichment and Lactobacillus depletion. Jaccard overlap estimate ≥0.5 — supports the "adenomyosis is an endometriosis-adjacent signature" framing.
-- **Cross-condition overlap with [[bacterial-vaginosis-signature]]** and **[[recurrent-implantation-failure]]**: shared enrichment of Atopobium vaginae, Gardnerella-associated markers, and diversity shift.
+- **Cross-condition overlap with [[bacterial-vaginosis-signature]]** and **[[female-infertility|recurrent-implantation-failure]]**: shared enrichment of Atopobium vaginae, Gardnerella-associated markers, and diversity shift.
 - Intervention hypotheses:
   - Lactobacillus crispatus restoration (support vaginal eubiosis).
   - E. coli / Candida targeting via metallomic restriction (the [[siderophore-competition]] primitive — restrict iron availability).

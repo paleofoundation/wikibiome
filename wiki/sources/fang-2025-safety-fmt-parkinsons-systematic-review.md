@@ -11,6 +11,9 @@ tags: [parkinsons-disease, fecal-microbiota-transplant, systematic-review, safet
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 5]
 ---
 
 # Safety and Efficacy of Fecal Microbiota Transplantation in the Treatment of Parkinson's Disease: A Systematic Review

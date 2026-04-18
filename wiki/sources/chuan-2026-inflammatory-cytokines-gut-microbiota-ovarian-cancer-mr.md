@@ -9,6 +9,9 @@ year: 2026
 doi: "10.1186/s13048-026-01963-9"
 tags: [ovarian-cancer, Mendelian-randomization, inflammatory-cytokines, gut-microbiota, mediation-analysis, bidirectional]
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [iron]
+karen_brain_primitives: [1]
 ---
 
 # Inflammatory Cytokines Mediate Gut Microbiota-Ovarian Cancer Associations

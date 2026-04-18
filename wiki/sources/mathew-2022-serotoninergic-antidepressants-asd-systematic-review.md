@@ -12,6 +12,7 @@ library_category: "Antidepressants"
 platform: systematic-review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-11"
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Overview

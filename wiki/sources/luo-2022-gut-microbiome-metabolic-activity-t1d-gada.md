@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, gada, tryptophan-metabolism,
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: cross-sectional
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [alistipes, ruminococcus]
+karen_brain_primitives: [1, 9]
+key_findings: ["T1D progression affected by GADA titers", "Gut microbiome differs in diversity, composition, and function", "Alistipes and Ruminococcus abundance significantly increased"]
 ---
 
 # Key Claims

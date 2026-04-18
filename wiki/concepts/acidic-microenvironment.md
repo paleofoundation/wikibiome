@@ -1,5 +1,4 @@
 ---
-
 title: "Acidic Microenvironment"
 type: concept
 created: 2026-04-10
@@ -8,11 +7,14 @@ sources: []
 tags: [ecological-feature, ph-biology, metal-bioavailability, inflammation]
 karen_brain_primitive: "Primitive 9: Oxygen State as Ecological Determinant"
 platform: wikibiome
+karen_brain_primitives: [1, 3, 4, 5, 8, 9]
+seo_target: "acidic microenvironment microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview
 
-**Acidic microenvironment** is the local reduction of pH in tissues, organs, or ecological niches, typically to pH 4.5–6.0. Acidification occurs via bacterial [[fermentative-metabolism]] (production of lactic acid, acetic acid, and other organic acids), tumor metabolism (**Warburg effect**), or inflammatory cell infiltration (lactic acidosis from activated immune cells). The local acidic pH has profound consequences for microbiota composition (favoring acid-tolerant taxa), metal bioavailability (higher proton concentration increases solubility of divalent metal ions like Zn²⁺, Fe²⁺, Ni²⁺, Cd²⁺), enzyme activity, and tissue damage. In disease states like [[inflammatory-bowel-disease]], [[cancer]], and [[endometriosis]], acidic microenvironments often signal active dysbiosis and inflammation.
+**Acidic microenvironment** is the local reduction of pH in tissues, organs, or ecological niches, typically to pH 4.5–6.0. Acidification occurs via bacterial [[fermentative-metabolism]] (production of lactic acid, acetic acid, and other organic acids), tumor metabolism (**Warburg effect**), or inflammatory cell infiltration (lactic acidosis from activated immune cells). The local acidic pH has profound consequences for microbiota composition (favoring acid-tolerant taxa), metal bioavailability (higher proton concentration increases solubility of divalent metal ions like Zn²⁺, Fe²⁺, Ni²⁺, Cd²⁺), enzyme activity, and tissue damage. In disease states like [[inflammatory-bowel-disease]], [[metal-carcinogenesis|cancer]], and [[endometriosis]], acidic microenvironments often signal active dysbiosis and inflammation.
 
 This exemplifies [[primitive-9|primitive-9-oxygen-state]] extended to pH: ecological niche chemistry (both oxygenation and acidity) shapes which taxa thrive and what metabolic modes dominate.
 

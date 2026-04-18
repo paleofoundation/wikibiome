@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Jessica K Kajfasz, Hannah B Hosay, Qiwen Gao, Robert W Huigens, Jose A Lemos, Johann Heider]
 year: 2026
 journal: "mSphere"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12931261) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: mSphere 2026 -->
 pmcid: "PMC12931261"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, manganese, iron, halogenated-phenazine, streptococcus-mutans, staphylococcus-aureus, enterococcus-faecalis, antimicrobial-metals, metal-dyshomeostasis]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "zinc-potentiated antimicrobial disruption of metal homeostasis"
+metals_discussed: [cobalt, copper, iron, magnesium, manganese, nickel, zinc]
+taxa_discussed: [enterococcus, staphylococcus-aureus, streptococcus]
+karen_brain_primitives: [1, 3, 4]
+key_findings: ["HP-29 inhibits S. mutans growth"]
 ---
 
 # Why This Paper Matters

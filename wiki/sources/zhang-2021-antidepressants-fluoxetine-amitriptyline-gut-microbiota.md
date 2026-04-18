@@ -1,5 +1,4 @@
 ---
-
 title: "Antidepressants Fluoxetine and Amitriptyline Induce Alterations in Intestinal Microbiota and Gut Microbiome Function in Rats Exposed to Chronic Unpredictable Mild Stress"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ source_pdf: "raw/cardiovascular disease/Antidepressants cardiovascular disease m
 pages_read: "1-8"
 platform: wikibiome
 evidence_level: animal-model
+taxa_discussed: [alistipes, butyricimonas, lachnospiraceae, parabacteroides]
 ---
 
 # Key Claims
@@ -34,9 +34,9 @@ evidence_level: animal-model
 
 # Connections
 
-- Demonstrates [[antidepressants]] as [[microbiome-modulating drugs]] relevant to CVD-microbiome axis
-- F/B ratio changes from antidepressants connect to [[microbiome composition]] alterations in CVD
-- Antibiotic resistance gene modulation extends understanding of [[microbiome-host interactions]]
-- *Porphyromonadaceae* increase relevant to [[oral microbiome]] connections in cardiovascular disease
+- Demonstrates [[pharmacomicrobiomics|antidepressants]] as [[pharmacomicrobiomics|microbiome-modulating drugs]] relevant to CVD-microbiome axis
+- F/B ratio changes from antidepressants connect to [[dysbiosis|microbiome composition]] alterations in CVD
+- Antibiotic resistance gene modulation extends understanding of [[gut-metal-microbiome|microbiome-host interactions]]
+- *Porphyromonadaceae* increase relevant to [[oral-microbiome]] connections in cardiovascular disease
 - Depression-CVD comorbidity makes these findings relevant to [[comorbidities]] framework
-- Metabolic pathway modulation connects to [[metabolic pathways]] in microbiome-CVD research
+- Metabolic pathway modulation connects to [[fermentative-metabolism|metabolic pathways]] in microbiome-CVD research

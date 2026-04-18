@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 tags: [heavy-metals, environmental-pollution, toxicology, aluminium, vanadium, chromium, manganese, iron, cobalt, nickel, copper, zinc, molybdenum, arsenic, selenium, silver, cadmium, mercury, lead, carcinogenicity, pharmacokinetics, review]
 doi: "10.1016/j.heliyon.2020.e04691"
 platform: wikibiome
+metals_discussed: [aluminum, arsenic, cadmium, chromium, cobalt, copper, iron, lead, manganese, mercury, molybdenum, nickel, selenium, vanadium, zinc]
+karen_brain_primitives: [9]
 ---
 
 # Key Claims
@@ -38,8 +39,8 @@ platform: wikibiome
 # Connections
 
 - Foundational reference for [[heavy metal toxicology]] overview
-- Nickel carcinogenicity data essential for [[nickel toxicity]] and [[nickel carcinogenesis]] wiki pages
-- Nickel threshold data relevant to [[nickel exposure limits]] and [[occupational nickel exposure]]
+- Nickel carcinogenicity data essential for [[nickel-allergy|nickel toxicity]] and [[metal-carcinogenesis|nickel carcinogenesis]] wiki pages
+- Nickel threshold data relevant to [[dietary-nickel-exposure|nickel exposure limits]] and [[environmental-metal-exposure|occupational nickel exposure]]
 - Complements [[Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]] on mechanistic details
-- Environmental pollution context relevant to [[Agboola 2023 - Heavy Metals Leafy Vegetables Lagos]]
-- Pharmacokinetic data for all metals provides basis for [[bioavailability]] comparisons
+- Environmental pollution context relevant to [[agboola-2023-heavy-metals-leafy-vegetables-lagos|Agboola 2023 - Heavy Metals Leafy Vegetables Lagos]]
+- Pharmacokinetic data for all metals provides basis for [[metal-homeostasis|bioavailability]] comparisons

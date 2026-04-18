@@ -1,5 +1,4 @@
 ---
-
 title: "Serum Short-Chain Fatty Acids and Associations With Inflammation in Newly Diagnosed Patients With Multiple Sclerosis and Healthy Controls"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 doi: 10.3389/fimmu.2021.661493
 tags: [multiple-sclerosis, SCFAs, acetate, propionate, butyrate, kynurenine, inflammation, IFNG, TNF, AHR, biomarkers, newly-diagnosed]
 platform: wikibiome
+evidence_level: cross-sectional
+karen_brain_primitives: [5]
 ---
 
 # Serum Short-Chain Fatty Acids and Associations With Inflammation in Newly Diagnosed Patients With Multiple Sclerosis and Healthy Controls

@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ volume: "6:e04691"
 doi: "10.1016/j.heliyon.2020.e04691"
 tags: [heavy-metals, environmental-pollution, toxicology, carcinogenicity, oxidative-stress, nickel, cadmium, arsenic, chromium, lead, mercury, aluminum, manganese, copper, zinc, cobalt, vanadium, selenium, molybdenum, silver, pharmacokinetics, bioaccumulation, soil-pollution, water-pollution, air-pollution, food-contamination]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [aluminum, arsenic, cadmium, calcium, chromium, cobalt, copper, iron, lead, magnesium, manganese, mercury, molybdenum, nickel, platinum, selenium, tin, vanadium, zinc]
+karen_brain_primitives: [2, 4, 9]
 ---
 
 # Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans
@@ -25,7 +27,7 @@ This is one of the most comprehensive single-source reviews of heavy metal envir
 - Heavy metals enter humans through four routes: ingestion of contaminated food, inhalation from atmosphere, drinking contaminated water, and skin contact from agriculture/pharmaceutical/industrial/residential areas
 - Metals are non-biodegradable and bioaccumulate -- organisms detoxify by hiding active elements within proteins or depositing them in intracellular granules in insoluble form
 - Essential elements follow a dose-response curve: deficiency causes death at low concentrations, optimal performance at moderate levels, toxicity and death at high concentrations (Figure 2)
-- Heavy metal toxicity causes damage at multiple molecular targets: DNA (damage and repair inhibition), lipids (cell membrane damage), proteins (misfolding, aggregation, conformational change, enzyme activation), and the nervous system (neurotransmitter inhibition, neuron damage) -- leading to [[carcinogenesis]], cell damage, and cellular function loss (Figure 3)
+- Heavy metal toxicity causes damage at multiple molecular targets: DNA (damage and repair inhibition), lipids (cell membrane damage), proteins (misfolding, aggregation, conformational change, enzyme activation), and the nervous system (neurotransmitter inhibition, neuron damage) -- leading to [[metal-carcinogenesis|carcinogenesis]], cell damage, and cellular function loss (Figure 3)
 - Metal-induced [[oxidative-stress]] operates through Fenton reactions generating hydroxyl radicals, superoxide, and hydrogen peroxide -- iron, copper, vanadium, chromium, and cobalt follow this pathway (Figures 4-7)
 - Cadmium, [[nickel]], and [[arsenic]] are specifically noted to inhibit DNA repair mechanisms
 - Protection against metal-induced free radical damage is provided by enzymatic and non-enzymatic antioxidants including glutathione (thiol compounds) and vitamin E
@@ -55,7 +57,7 @@ This is one of the most comprehensive single-source reviews of heavy metal envir
 - Accumulates in lungs, thyroid, adrenal glands, brain, kidneys, heart, liver, spleen, pancreas
 - NF-kB activation mediates inflammatory process alongside apoptosis; ATF-1 (ATF/CREB family) promotes angiogenesis via TSP1 diminution
 - Carcinogenic mechanisms include regulation of long non-coding RNAs, miRNAs, methylation of MEG3 promoter, HIF-1alpha upregulation
-- [[Contact Dermatitis]] is the most common health effect; also lung fibrosis, lung and nasal cancer
+- [[nickel-allergy|Contact Dermatitis]] is the most common health effect; also lung fibrosis, lung and nasal cancer
 
 ### Cadmium
 - 64th most abundant metal; found with zinc; uses include batteries, fertilizers, pigments, plastics

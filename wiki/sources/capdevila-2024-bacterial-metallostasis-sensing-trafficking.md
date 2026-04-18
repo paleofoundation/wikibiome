@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, metallostasis, metallosensor, riboswit
 library_category: reviews_mechanisms
 platform: wikibiome
 condition: "bacterial metal homeostasis"
+metals_discussed: [cobalt, copper, iron, manganese, nickel, zinc]
+taxa_discussed: [acinetobacter, staphylococcus-aureus]
+karen_brain_primitives: [1, 2, 3, 4]
+key_findings: ["Metallostasis", "The Irving-Williams series"]
 ---
 
 # Why This Paper Matters
@@ -53,7 +57,7 @@ This is the single most comprehensive review of bacterial [[metal-homeostasis]] 
 ## Nutritional Immunity and PBP2 in A. baumannii
 
 - Host [[zinc]] starvation is a key feature of [[nutritional-immunity]]
-- In [[Acinetobacter baumannii]], crystallography revealed a ZnII site in PBP2 (penicillin-binding protein 2) just 10 Angstroms from the catalytic serine
+- In [[acinetobacter-baumannii|Acinetobacter baumannii]], crystallography revealed a ZnII site in PBP2 (penicillin-binding protein 2) just 10 Angstroms from the catalytic serine
 - Mutations disrupting this zinc site make A. baumannii far more susceptible to beta-lactam antibiotics
 - Metallo-beta-lactamases (MBLs) including NDM-1 require ZnII for activity; host zinc restriction targets these resistance enzymes
 - The chelator aspergillomarasmine A (AMA) inhibits NDM-1 with KdZn of ~0.2 nM

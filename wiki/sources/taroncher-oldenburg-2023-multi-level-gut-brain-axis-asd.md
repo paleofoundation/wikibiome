@@ -11,11 +11,15 @@ tags: [autism-spectrum-disorder, gut-brain-axis, multi-omics, Bayesian-ranking, 
 library_category: causal
 platform: 16S-SMS-metabolomics-transcriptomics
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, zinc]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, desulfovibrio, prevotella]
+karen_brain_primitives: [2, 4, 5, 8]
 ---
 
 # Overview
 
-Large-scale multi-omic meta-analysis published in **Nature Neuroscience** developing a **Bayesian differential ranking algorithm** to identify ASD-associated molecular and taxa profiles across **10 cross-sectional microbiome datasets and 15 other datasets** (dietary, metabolomic, cytokine, brain gene expression). Identified a functional architecture along the [[gut-brain axis]] characterized by ASD-associated amino acid, carbohydrate, and lipid profiles predominantly encoded by [[prevotella]], [[bifidobacterium]], [[desulfovibrio]], and [[bacteroides-fragilis]]. This architecture is NOT present in age-matched and sex-matched cohorts but IS present in sibling-matched cohorts.
+Large-scale multi-omic meta-analysis published in **Nature Neuroscience** developing a **Bayesian differential ranking algorithm** to identify ASD-associated molecular and taxa profiles across **10 cross-sectional microbiome datasets and 15 other datasets** (dietary, metabolomic, cytokine, brain gene expression). Identified a functional architecture along the [[gut-brain-axis]] characterized by ASD-associated amino acid, carbohydrate, and lipid profiles predominantly encoded by [[prevotella]], [[bifidobacterium]], [[desulfovibrio]], and [[bacteroides-fragilis]]. This architecture is NOT present in age-matched and sex-matched cohorts but IS present in sibling-matched cohorts.
 
 # Key Findings
 
@@ -69,7 +73,7 @@ Large-scale multi-omic meta-analysis published in **Nature Neuroscience** develo
 - TGF-beta and IL-6 are key regulators of [[hepcidin]], the master [[iron]] regulatory hormone
 - Dietary amino acid deficits (phenylalanine, tyrosine, histidine) reduce metal chelation capacity
 - 48.5% metabolic pathway overlap between microbiome and brain suggests shared metal cofactor requirements
-- [[prevotella]] and [[bacteroides-fragilis]] are key [[SCFA]] producers — butyrate regulates [[iron]] transporter expression
+- [[prevotella]] and [[bacteroides-fragilis]] are key [[short-chain-fatty-acids]] producers — butyrate regulates [[iron]] transporter expression
 
 # Methodological Notes
 

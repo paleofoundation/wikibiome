@@ -11,6 +11,11 @@ tags: [autism, prebiotics, B-GOS, galactooligosaccharide, microbiota, metabolomi
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+metals_discussed: [calcium, iron, zinc]
+taxa_discussed: [bifidobacterium, coprococcus, dorea, eubacterium, lachnospiraceae, ruminococcus]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["First study", "B-GOS supplementation improved anti-sociability scores", "Significant metabolic changes"]
 ---
 
 # Key Claims

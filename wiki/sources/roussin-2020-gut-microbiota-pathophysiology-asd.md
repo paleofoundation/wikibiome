@@ -11,6 +11,11 @@ tags: [autism, microbiota, pathophysiology, immune-system, tryptophan-metabolism
 library_category: causal
 platform: both
 condition: "autism spectrum disorder"
+evidence_level: animal-model
+metals_discussed: [iron, zinc]
+taxa_discussed: [bifidobacterium, lactobacillus, streptococcus]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["4x higher prevalence of GI symptoms"]
 ---
 
 # Overview

@@ -12,15 +12,13 @@ metal_dependencies: [indirect — oxalate degradation affects calcium, magnesium
 key_enzymes: [oxalyl-CoA decarboxylase, formyl-CoA transferase, oxalate-CoA ligase]
 tags: [commensal, oxalate-degrading, kidney-stone-prevention, CKD-relevant, antibiotic-sensitive, CHD-risk-MR, functional-specialist]
 platform: wikibiome
-last_substantive_update: 2026-04-16
 seo_target: "Oxalobacter formigenes oxalate kidney stones calcium metal bioavailability gut microbiome"
 wikipedia_differentiation: "Oxalate-metal chelation interactions with calcium, iron, zinc, and magnesium; opposing cancer vs. autoimmune directionality; MR evidence for CHD risk via blood pressure mediation; ADHD protective association via Oxalobacteraceae family; antibiotic vulnerability data; intersections with heavy metal detoxification strategies — none of which appear in Wikipedia's brief clinical entry"
 conditions_enriched_in: [cancer-general]
 conditions_depleted_in: [kidney-stones, chronic-kidney-disease, autoimmune-disease]
 pathogenic_potential: commensal
 gram_stain: "negative"
-oxygen_requirement: "obligate anaerobe"
----
+oxygen_requirement: "obligate anaerobe"---
 
 # Oxalobacter
 

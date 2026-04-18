@@ -11,6 +11,8 @@ tags: [parkinsons-disease, early-diagnosis, gut-brain-axis, biomarkers, microbio
 library_category: reviews
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron, manganese, nickel]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Parkinson's Disease and the Gut: Future Perspectives for Early Diagnosis

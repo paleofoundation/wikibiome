@@ -1,5 +1,4 @@
 ---
-
 title: "Causal relationship between Helicobacter pylori antibodies and gastroesophageal reflux disease (GERD): A mendelian study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2023
 doi: "10.1371/journal.pone.0294771"
 tags: [gerd, gastroesophageal-reflux, helicobacter-pylori, IgG-antibodies, mendelian-randomization, causal-association, CagA, VacA, UreA, GroEL, gwas]
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [nickel]
+taxa_discussed: [helicobacter-pylori]
+karen_brain_primitives: [4]
 ---
 
 # Causal relationship between Helicobacter pylori antibodies and gastroesophageal reflux disease (GERD): A mendelian study

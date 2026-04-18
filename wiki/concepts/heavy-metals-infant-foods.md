@@ -7,6 +7,9 @@ sources: [jackson-2012-arsenic-infant-formulas-first-foods, hopfner-2025-infant-
 tags: [infant-food, baby-food, formula, heavy-metals, developmental-toxicity, food-safety, regulatory-gaps]
 platform: wikibiome
 karen_brain_primitive: "Primitive 3: Mis-metallation and Toxic Metal Entry"
+karen_brain_primitives: [3]
+seo_target: "heavy metals in infant foods microbiome"
+last_substantive_update: 2026-04-11
 ---
 
 # Heavy Metals in Infant Foods

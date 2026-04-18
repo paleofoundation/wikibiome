@@ -19,7 +19,7 @@ library_category: signatures
 platform: both
 condition: "postpartum depression"
 karen_brain_primitives: [1, 2, 4, 5]
-metals_discussed: []
+metals_discussed: [iron, magnesium, zinc]
 taxa_discussed: []
 key_findings: [
   "PPD affects ~15% of women within the first year after birth with serious consequences for offspring",

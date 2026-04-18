@@ -12,6 +12,9 @@ library_category: microbiome-signature
 platform: gut
 condition: "Schizophrenia"
 evidence_level: cross-sectional
+metals_discussed: [arsenic, lead]
+taxa_discussed: [streptococcus]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Metagenome-wide association of gut microbiome features for schizophrenia

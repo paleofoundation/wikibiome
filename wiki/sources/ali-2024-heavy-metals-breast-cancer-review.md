@@ -12,7 +12,7 @@ authors:
   - Ahmed SK
 journal: World Academy of Sciences Journal
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: World Academy of Sciences Journal 2024 -->
 evidence_level: expert-opinion
 tags:
   - heavy-metals
@@ -48,7 +48,7 @@ why_keystone: "Establishes a metal-specific biomarker signature in breast cancer
 
 - Environmental heavy metals including [[copper]], [[cadmium]], [[zinc]], [[manganese]], [[nickel]], and [[lead]] are associated with [[breast-cancer]] development and progression
 - [[copper]] levels are significantly increased in plasma and serum of breast cancer patients, particularly in metastatic stages, across Africa and Europe
-- [[cadmium]] concentrations are considerably elevated in urine and tissue of breast cancer patients; its interaction with [[estrogen receptor alpha]] is a key mechanism
+- [[cadmium]] concentrations are considerably elevated in urine and tissue of breast cancer patients; its interaction with [[estrobolome|estrogen receptor alpha]] is a key mechanism
 - [[zinc]] and [[manganese]] levels are generally decreased in breast cancer patients compared to controls
 - [[nickel]] shows inconsistent results - serum levels higher in some breast cancer populations (China) but no significant differences in plasma/serum or hair across Asian populations overall
 - [[lead]] findings are inconsistent across different sample types and regions; hair samples show significantly lower lead in breast cancer patients
@@ -73,4 +73,4 @@ why_keystone: "Establishes a metal-specific biomarker signature in breast cancer
 - Zinc and manganese findings relevant to [[liu-2022-heavy-metals-breast-cancer-meta-analysis]] meta-analysis results
 - Metal biomarker levels relate to [[oxidative-stress|oxidative stress]] and pathways
 - Copper findings connect to broader [[metal-homeostasis]] in cancer biology
-- Lead and nickel as potential [[Metalloestrogens]] links to endocrine disruption
+- Lead and nickel as potential [[metalloestrogens]] links to endocrine disruption

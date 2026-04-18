@@ -11,14 +11,17 @@ tags: [type-1-diabetes, autoimmune, probiotics, gut-microbiota, inflammation, in
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["In T1D, lowered expression of adhesion proteins", "Increased expression of IL-17", "[[probiotics]] reduce inflammatory response and oxidative stress"]
 ---
 
 # Key Claims
 
 - **In T1D, lowered expression of adhesion proteins** within intestinal epithelium favours greater immune response, possibly destroying pancreatic beta-cells by CD8+ T-lymphocytes
 - **Increased expression of IL-17** related to autoimmunity in T1D
-- **[[Probiotics]] reduce inflammatory response and oxidative stress** and increase expression of adhesion proteins within intestinal epithelium
-- **[[Probiotics]] reduce [[intestinal-permeability]]**, increase insulin sensitivity, and reduce autoimmune response
+- **[[probiotics]] reduce inflammatory response and oxidative stress** and increase expression of adhesion proteins within intestinal epithelium
+- **[[probiotics]] reduce [[intestinal-permeability]]**, increase insulin sensitivity, and reduce autoimmune response
 
 # Methods & Findings
 
@@ -31,9 +34,9 @@ Systematic literature review of probiotics in prevention and management of T1D a
 # Relevance to Metallomic Framework
 
 - **[[zinc]]**: Adhesion proteins (tight junction components) are zinc-dependent -- [[probiotics]] may restore barrier function through zinc-mediated pathways
-- **[[iron]]**: [[Probiotics]] compete with pathogens for iron, reducing pathogenic iron acquisition
+- **[[iron]]**: [[probiotics]] compete with pathogens for iron, reducing pathogenic iron acquisition
 - **[[selenium]]**: Selenium-dependent glutathione peroxidase supports probiotic-mediated oxidative stress reduction
-- **[[gut-metal-microbiome]]**: [[Probiotics]] reshape the metal-microbiome environment to favor protective taxa
+- **[[gut-metal-microbiome]]**: [[probiotics]] reshape the metal-microbiome environment to favor protective taxa
 - **[[intestinal-permeability]]**: Probiotic restoration of tight junctions requires adequate zinc and selenium
 - **[[immune-balance]]**: IL-17 pathway modulation by [[probiotics]] is metal-cofactor dependent
 

@@ -6,12 +6,15 @@ updated: 2026-04-09
 authors: [Barbora Oudova-Rivera, Andrew T Crombie, J Colin Murrell, Laura E Lehtovirta-Morley, Ian Anderson]
 year: 2026
 journal: "FEMS Microbiology Ecology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC13003922) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: FEMS Microbiology Ecology 2026 -->
 pmcid: "PMC13003922"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, ammonia-oxidizing-archaea, ammonia-oxidizing-bacteria, niche-differentiation, copper-enzymes, nutritional-immunity]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "copper-dependent niche partitioning in nitrifying microbes"
+metals_discussed: [copper, iron]
+karen_brain_primitives: [1, 3, 4]
+key_findings: ["AOA and AOB have dramatically different copper sensitivities", "Optimal copper concentrations differ by orders of magnitude", "AOA use a copper-centric electron transfer system"]
 ---
 
 # Why This Paper Matters
@@ -63,12 +66,12 @@ Bioavailable copper in soil solution ranges from 1 x 10^-5 to 6 x 10^-4 mol/m3, 
 
 - [[mis-metallation]] -- differential copper dependency means copper displacement or limitation has species-specific consequences in nitrifying communities
 - [[copper]] -- central cofactor for AMO and entire AOA electron transfer chain
-- [[copper-toxicity]] -- toxicity thresholds differ 10-fold between AOA and AOB
+- [[copper|copper-toxicity]] -- toxicity thresholds differ 10-fold between AOA and AOB
 - [[metal-homeostasis]] -- copper buffering by TETA mimics natural organic matter complexation in soils
 - [[iron]] -- AOB use iron-based (heme) electron transfer while AOA use copper-based systems
 - [[nutritional-immunity]] -- copper availability shapes microbial community composition analogous to host metal restriction
-- [[metalloenzyme]] -- AMO, MCOs, and blue-copper proteins as copper-dependent enzymes
-- [[niche-partitioning]] -- metal availability as ecological niche determinant
+- [[metal-dependent-virulence|metalloenzyme]] -- AMO, MCOs, and blue-copper proteins as copper-dependent enzymes
+- [[dysbiosis|niche-partitioning]] -- metal availability as ecological niche determinant
 - [[biofilm]] -- surface-associated microbial communities experience variable copper availability
-- [[nitrogen-cycle]] -- copper-dependent nitrification connects metal homeostasis to global nitrogen cycling
+- [[gene-regulation|nitrogen-cycle]] -- copper-dependent nitrification connects metal homeostasis to global nitrogen cycling
 - [[antimicrobial-metals]] -- copper toxicity thresholds relevant to antimicrobial copper surface applications

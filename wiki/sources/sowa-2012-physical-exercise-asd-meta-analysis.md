@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, physical-exercise, meta-analysis, motor-skills,
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+key_findings: ["Physical exercise", "Individual exercise programmes", "Communication deficits"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Host and Microbial Tryptophan Metabolic Profiling in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,15 +9,16 @@ year: 2020
 tags: [multiple-sclerosis, tryptophan, kynurenine, indole-3-propionic-acid, metabolomics, urine-biomarkers, RRMS, AhR, microbiome-metabolites, EDSS]
 doi: "10.3389/fimmu.2020.00157"
 platform: wikibiome
+evidence_level: case-control
 ---
 
 # Host and Microbial Tryptophan Metabolic Profiling in Multiple Sclerosis
 
 ## Key Claims
 
-- RRMS patients show a specific urinary [[tryptophan]] metabolic signature: significantly lower kynurenine (1.4 vs 4 uM, p = 0.001) and lower kynurenine/tryptophan (K/T) ratio (19 vs 29, p = 0.04) compared to healthy controls
+- RRMS patients show a specific urinary [[tryptophan-metabolism]] metabolic signature: significantly lower kynurenine (1.4 vs 4 uM, p = 0.001) and lower kynurenine/tryptophan (K/T) ratio (19 vs 29, p = 0.04) compared to healthy controls
 - K/T ratio negatively and independently correlates with EDSS disability score (r = -0.3, p = 0.003), suggesting reduced kynurenine pathway activity associates with worse disability
-- Microbiome-derived [[indole-3-propionic-acid]] (IPA) is significantly higher in relapsing RRMS patients compared to clinically stable patients (p = 0.04), and positively correlates with EDSS (r = 0.5, p < 0.001)
+- Microbiome-derived [[indoles|indole-3-propionic-acid]] (IPA) is significantly higher in relapsing RRMS patients compared to clinically stable patients (p = 0.04), and positively correlates with EDSS (r = 0.5, p < 0.001)
 - A dysbalanced tryptophan metabolism encompassing both host (kynurenine) and microbial (indole) pathways is associated with MS, even in the earliest disease stages
 - Lower kynurenine synthesis via the IDO enzyme may impair the conversion of naive CD4+ T cells to regulatory T cells via [[aryl-hydrocarbon-receptor|AhR]] activation, contributing to MS immunopathology
 - No significant treatment effect was found on urinary Trp metabolites between treated and untreated patients

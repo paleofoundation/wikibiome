@@ -18,7 +18,7 @@ library_category: interventions
 platform: both
 condition: "multiple-sclerosis"
 karen_brain_primitives: [2, 4, 5]
-metals_discussed: []
+metals_discussed: [magnesium]
 taxa_discussed: [saccharomyces-boulardii]
 key_findings:
   - "Saccharomyces boulardii (250 mg/day, 10¹⁰ CFU) for 4 months significantly reduced hs-CRP (p<0.001) in 20 RRMS patients vs 20 placebo"

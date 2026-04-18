@@ -11,6 +11,7 @@ tags: [schizophrenia, short-chain-fatty-acids, valeric-acid, caproic-acid, ultra
 library_category: SCFAs
 platform: serum
 condition: "Schizophrenia / Ultra-high risk"
+karen_brain_primitives: [5]
 ---
 
 # Short-chain fatty acids in patients with schizophrenia and ultra-high risk population

@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy metal stress alleviation through omics analysis of soil and plant microbiome"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 tags: [heavy-metals, metagenomics, metatranscriptomics, metaproteomics, metabolomics, bioremediation, plant-microbiome, soil-microbiome, resistome]
 doi: "10.3389/fsufs.2021.817932"
 platform: wikibiome
+metals_discussed: [arsenic, nickel]
+taxa_discussed: [pseudomonas-aeruginosa]
+karen_brain_primitives: [1, 4, 8]
 ---
 
 # Key Claims
@@ -32,7 +34,7 @@ platform: wikibiome
 
 # Connections
 
-- Omics approaches described here are transferable to studying [[gut-metal-microbiome|gut microbiome]] responses to [[heavy metals]]
+- Omics approaches described here are transferable to studying [[gut-metal-microbiome|gut microbiome]] responses to [[heavy-metals]]
 - Metabolomics methods connect to [[akash-2023-metabolomics-heavy-metal-toxicities]] for mammalian metabolite profiling
 - Metal resistance genes (ars, cad) parallel those in gut bacteria described in [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]]
 - Bioremediation context relevant to [[gonzalez-henao-2021-heavy-metals-soil-remediation-plant-microbiome]]

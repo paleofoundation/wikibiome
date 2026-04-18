@@ -48,5 +48,5 @@ platform: wikibiome
 - Complements [[hiremath-2021-zinc-ppd-case-control]] which found lower serum zinc in PPD cases
 - The Fe-Zn interaction finding is relevant to [[azami-2019-anemia-ppd-meta-analysis]] regarding anemia management in the postpartum period
 - Zinc's immunomodulatory and neurological mechanisms (affecting glutamate and GABA receptors, CD4+/CD8+ T cell ratio) provide biological plausibility
-- Relates to broader [[postpartum-depression]] prevention strategies using [[trace element supplementation]]
+- Relates to broader [[postpartum-depression]] prevention strategies using [[metal-homeostasis|trace element supplementation]]
 - Contrasts with a prior Fard et al. RCT that found no benefit of Zn supplementation for PPD, possibly due to lower dosing (27 mg/day vs. 100 mg/day in this study)

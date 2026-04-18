@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, copper, zinc, manganese, iron, oxidati
 library_category: streptococcus_staphylococcus
 platform: wikibiome
 condition: "GBS metal stress and immune evasion"
+metals_discussed: [copper, iron, manganese, zinc]
+taxa_discussed: [staphylococcus-aureus, streptococcus]
+karen_brain_primitives: [2, 3, 4]
 ---
 
 # Why This Paper Matters
@@ -64,4 +67,4 @@ This comprehensive review covers how Group B Streptococcus (GBS/S. agalactiae) -
 - [[oxidative-stress]] -- SodA and peroxidase systems as front-line defense
 - [[iron-sulfur-clusters]] -- Cu and NO damage to Fe-S clusters
 - [[staphylococcus-aureus]] -- comparison with S. aureus metal stress responses
-- [[virulence]] -- metal stress resistance as virulence determinant
+- [[virulence-factors|virulence]] -- metal stress resistance as virulence determinant

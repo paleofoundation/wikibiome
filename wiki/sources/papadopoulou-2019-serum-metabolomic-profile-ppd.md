@@ -11,6 +11,9 @@ tags: [postpartum-depression, metabolomics, serum, oxidative-stress, glutathione
 library_category: metabolomics
 platform: cureva
 condition: "postpartum depression"
+evidence_level: case-control
+metals_discussed: [copper, iron, magnesium, selenium, zinc]
+key_findings: ["First serum metabolomic analysis", "Increased levels", "Molecular changes related to PPD"]
 ---
 
 # Key Claims

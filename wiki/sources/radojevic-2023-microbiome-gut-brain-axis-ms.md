@@ -1,5 +1,4 @@
 ---
-
 title: "The Microbiome-Gut-Brain Axis in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [multiple-sclerosis, gut-brain-axis, microbiome, dysbiosis, SCFAs, tryptophan, serotonin, GABA, EBV, HLA, vitamin-D, EAE, mycobiome, virome]
 doi: "10.5937/arhfarm73-46986"
 platform: wikibiome
+evidence_level: expert-opinion
+taxa_discussed: [aspergillus, bacteroides-fragilis, blautia, candida-albicans, dorea, parabacteroides, prevotella, saccharomyces-cerevisiae]
+karen_brain_primitives: [6]
 ---
 
 # The Microbiome-Gut-Brain Axis in Multiple Sclerosis

@@ -11,6 +11,8 @@ tags: [parkinsons-disease, metabolomics, motor-progression, biomarkers, disease-
 library_category: metabolomics
 platform: blood
 condition: "Parkinson's disease"
+metals_discussed: [iron, manganese, nickel]
+karen_brain_primitives: [1, 5]
 ---
 
 # Serum Metabolomics of Slow vs. Rapid Motor Progression Parkinson's Disease: A Pilot Study

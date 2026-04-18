@@ -12,6 +12,9 @@ library_category: "Causal microbiome relationships"
 platform: sequencing
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: case-control
+taxa_discussed: [akkermansia-muciniphila, escherichia-coli, shigella]
+key_findings: ["Enterobacteriaceae", "*Akkermansia"]
 ---
 
 # Overview
@@ -46,5 +49,5 @@ Case-control study using a **microbiome-specific multivariate modeling approach 
 # Connections
 
 - Tryptophan/tyrosine pathway deficits link to [[zheng-2021-bacterial-aromatic-amino-acids-asd]]
-- Enterobacteriaceae enrichment aligns with [[strati-2017-altered-gut-microbiota-asd]]
+- Enterobacteriaceae enrichment aligns with [[strati-2017-altered-gut-microbiota-mycobiota-asd]]
 - Biomarker approach complements [[zhao-2023-altered-gut-microbiota-biomarkers-asd]]

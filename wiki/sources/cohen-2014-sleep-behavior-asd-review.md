@@ -12,6 +12,8 @@ library_category: "Literature review"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-10"
+evidence_level: expert-opinion
+key_findings: ["Parasomnias", "Circadian rhythm disorders"]
 ---
 
 # Overview

@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, omega-3, pufa, nod-mice, treg, th1-th17, bet
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Omega-3 PUFAs sharply reduced T1D incidence", "Decreased levels of IFN-gamma, IL-17, IL-6", "Omega-3 PUFA eicosanoid derivatives"]
 ---
 
 # Key Claims

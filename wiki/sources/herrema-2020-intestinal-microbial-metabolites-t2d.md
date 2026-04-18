@@ -11,6 +11,8 @@ tags: [type-1-diabetes, autoimmune, microbial-metabolites, scfa, bile-acids, tma
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
 ---
 
 # Key Claims

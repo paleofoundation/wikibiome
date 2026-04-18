@@ -1,5 +1,4 @@
 ---
-
 title: "The gut microbiome is required for full protection against acute arsenic toxicity in mouse models"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2018
 tags: [arsenic, gut-microbiome, detoxification, Faecalibacterium-prausnitizii, germ-free-mice, As3mt, fecal-transplant, microbiome-protection]
 doi: "10.1038/s41467-018-07803-9"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [arsenic]
+taxa_discussed: [escherichia-coli, faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Key Claims
@@ -18,7 +21,7 @@ platform: wikibiome
 - Antibiotic-treated and germ-free mice excrete less arsenic in stool and accumulate more arsenic in organs compared to controls
 - Mice lacking the arsenic detoxification enzyme As3mt are hypersensitive to arsenic after antibiotic treatment or when germ-free
 - Human microbiome (stool) transplants protect germ-free As3mt-KO mice from arsenic-induced mortality, but protection depends on microbiome stability and presence of specific bacteria
-- [[Faecalibacterium prausnitizii]] provides protection against arsenic toxicity and is sufficient for at least partial protection
+- [[faecalibacterium-prausnitzii|Faecalibacterium prausnitizii]] provides protection against arsenic toxicity and is sufficient for at least partial protection
 
 # Methods/Findings
 
@@ -34,9 +37,9 @@ platform: wikibiome
 # Connections
 
 - Foundational for [[arsenic]] and microbiome-mediated detoxification
-- Central to [[Gut Microbiome and Metal Exposure]] -- demonstrates causal protective role
-- [[Faecalibacterium prausnitizii]] as protective probiotic relevant to [[probiotics]] and metal detoxification strategies
-- Connects to [[Metal Detoxification Mechanisms]] -- microbes can enzymatically transform arsenic compounds and facilitate excretion
-- Relevant to [[Arsenicosis]] prevention and treatment strategies
-- Links to [[Fecal Microbiota Transplantation]] as potential therapeutic approach
-- Complements [[Rezazadegan et al. 2025|rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]] systematic review findings on arsenic-microbiome interactions
+- Central to [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]] -- demonstrates causal protective role
+- [[faecalibacterium-prausnitzii|Faecalibacterium prausnitizii]] as protective probiotic relevant to [[probiotics]] and metal detoxification strategies
+- Connects to [[heavy-metals|Metal Detoxification Mechanisms]] -- microbes can enzymatically transform arsenic compounds and facilitate excretion
+- Relevant to [[arsenic|Arsenicosis]] prevention and treatment strategies
+- Links to [[fecal-microbiota-transplant|Fecal Microbiota Transplantation]] as potential therapeutic approach
+- Complements [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review-nutritional|rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]] systematic review findings on arsenic-microbiome interactions

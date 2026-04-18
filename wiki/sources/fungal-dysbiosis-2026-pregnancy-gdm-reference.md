@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, fungal-dysbiosis, pregnancy, gestational-dia
 library_category: reviews
 platform: cureva
 condition: "gestational diabetes"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 6]
+key_findings: ["Fungal [[dysbiosis]]", "Pregnancy-specific mycobiome changes", "Reference article"]
 ---
 
 # Key Claims

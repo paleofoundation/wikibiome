@@ -11,6 +11,11 @@ tags: [autism, probiotics, gut-brain-axis, review, microbiota, metabolites, SCFA
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [cobalt]
+taxa_discussed: [alistipes, bifidobacterium, clostridium, escherichia-coli, lactobacillus, saccharomyces-cerevisiae, shigella]
+karen_brain_primitives: [4, 5]
+key_findings: ["Gut microbiota dysbiosis", "Probiotics regulate the gut-brain axis", "Microbial metabolites"]
 ---
 
 # Key Claims
@@ -27,7 +32,7 @@ Comprehensive narrative review covering:
 **GI abnormalities in ASD:**
 - Constipation, diarrhea, abdominal pain in 9-70% of ASD children
 - GI symptom severity correlated with ASD behavioral severity
-- [[Escherichia/Shigella]], [[Clostridium cluster XVIII]], Fusobacteriales enriched in constipated ASD children
+- [[escherichia-coli|Escherichia/Shigella]], [[clostridium|Clostridium cluster XVIII]], Fusobacteriales enriched in constipated ASD children
 
 **Microbiota-derived metabolites contributing to ASD:**
 - [[clostridium]] species produce propionic acid and p-cresol with neurotoxic effects
@@ -37,9 +42,9 @@ Comprehensive narrative review covering:
 
 **Probiotic mechanisms (Table 1 - comprehensive):**
 - Strain-specific effects documented across 12+ clinical studies
-- [[Lactobacillus plantarum]] WCSF1, PS128 show behavioral improvements
+- [[lactobacillus|Lactobacillus plantarum]] WCSF1, PS128 show behavioral improvements
 - [[bifidobacterium]] longum decreases ATEC scores
-- [[Saccharomyces boulardii]] reduces OCD-like behaviors
+- [[saccharomyces-boulardii]] reduces OCD-like behaviors
 - Multi-strain formulations generally more effective than single strains
 
 **Brain connectivity changes:**

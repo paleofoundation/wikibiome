@@ -19,7 +19,7 @@ library_category: signatures
 platform: both
 condition: "postpartum depression"
 karen_brain_primitives: [1, 5, 7]
-metals_discussed: []
+metals_discussed: [iron, manganese, zinc]
 taxa_discussed: []
 key_findings: [
   "Serum metabolomic profiling identifies dysregulated metabolite patterns in postpartum depression",

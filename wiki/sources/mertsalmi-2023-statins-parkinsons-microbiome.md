@@ -11,13 +11,15 @@ tags: [parkinsons-disease, statins, drug-repurposing, microbiome-composition, dy
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 4, 5]
 ---
 
 # Statins and Gut Microbiome in Parkinson's Disease
 
 ## Summary
 
-This study examines the relationship between statin use and gut [[microbiome]] composition in [[parkinsons-disease]], investigating whether the epidemiologically observed neuroprotective effects of statins in PD may be partially mediated through microbiome modulation.
+This study examines the relationship between statin use and gut [[gut-microbiome|microbiome]] composition in [[parkinsons-disease]], investigating whether the epidemiologically observed neuroprotective effects of statins in PD may be partially mediated through microbiome modulation.
 
 ## Key Findings
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Gut microbiome and serum amino acid metabolome alterations in autism spectrum disorder"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2024
 tags: [autism, gut-microbiome, metabolomics, nickel-transport, amino-acids, metagenomics, peptide-nickel-transport]
 doi: "10.1038/s41598-024-54717-2"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+metals_discussed: [lead, nickel, zinc]
+taxa_discussed: [bacteroides-fragilis, faecalibacterium-prausnitzii, subdoligranulum]
+karen_brain_primitives: [1]
 ---
 
 # Chang et al. 2024 -- Gut Microbiome and Serum Amino Acid Metabolome in ASD

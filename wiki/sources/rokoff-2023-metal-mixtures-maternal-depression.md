@@ -1,5 +1,4 @@
 ---
-
 title: "Early pregnancy essential and non-essential metal mixtures and maternal antepartum and postpartum depressive symptoms"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [metals, pregnancy, depression, postpartum-depression, antepartum-depression, metal-mixtures, lead, arsenic, selenium, mercury, cadmium, erythrocyte-metals, EPDS, Project-Viva]
 doi: "10.1016/j.neuro.2022.12.005"
 platform: wikibiome
+evidence_level: prospective-cohort
+metals_discussed: [arsenic, barium, cadmium, copper, lead, magnesium, manganese, mercury, selenium, zinc]
 ---
 
 # Key Claims
@@ -37,9 +38,9 @@ platform: wikibiome
 
 # Connections
 
-- Relevant to [[postpartum-depression]] and [[metals and mental health]] topics
+- Relevant to [[postpartum-depression]] and [[heavy-metal-neurotoxicity|metals and mental health]] topics
 - Complements [[jacobson-2022-environmental-chemicals-perinatal-psychopathology]] which reviews environmental chemicals and perinatal depression more broadly
 - [[lead]] findings consistent with limited prior literature on Pb and depression during pregnancy
 - Contrasts with stronger findings in [[etebary-2010-ppd-serum-trace-elements]] which found associations between trace elements and PPD in a different population
-- Relates to [[HPA axis]] dysregulation during pregnancy as a potential mechanism linking metal exposure to depression
+- Relates to [[gut-brain-axis|HPA axis]] dysregulation during pregnancy as a potential mechanism linking metal exposure to depression
 - The null mixture results suggest that low-level exposures in well-nourished populations may not substantially affect depression risk, unlike higher-exposure settings

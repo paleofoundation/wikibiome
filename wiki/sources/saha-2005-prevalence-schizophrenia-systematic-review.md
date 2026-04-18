@@ -9,6 +9,7 @@ year: 2005
 doi: "10.1371/journal.pmed.0020141"
 tags: [schizophrenia, prevalence, epidemiology, systematic-review, meta-analysis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # A Systematic Review of the Prevalence of Schizophrenia

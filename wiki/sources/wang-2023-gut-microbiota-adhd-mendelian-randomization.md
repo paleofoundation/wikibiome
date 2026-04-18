@@ -11,9 +11,11 @@ tags: [autism-spectrum-disorder, ADHD, Mendelian-randomization, gut-microbiota, 
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
-karen_brain_primitives: []
-metals_discussed: []
+karen_brain_primitives: [1]
+metals_discussed: [lead]
 taxa_discussed: ["Butyricicoccus", "Eubacterium", "Roseburia", "Ruminococcus"]
+evidence_level: computational-prediction
+key_findings: ["Potential causal relationship", "Eubacteriumhallii group", "Butyricicoccus"]
 ---
 
 # Key Claims

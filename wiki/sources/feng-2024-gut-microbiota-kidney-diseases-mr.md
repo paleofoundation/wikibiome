@@ -9,6 +9,7 @@ journal: "Frontiers in Immunology"
 doi: "10.3389/fimmu.2023.1277554"
 tags: [chronic-kidney-disease, CKD, mendelian-randomization, kidney-diseases, nephrotic-syndrome, glomerulonephritis, IgA-nephropathy, causal-inference]
 platform: wikibiome
+evidence_level: computational-prediction
 ---
 
 # Causal Relationship between Gut Microbiota and Kidney Diseases

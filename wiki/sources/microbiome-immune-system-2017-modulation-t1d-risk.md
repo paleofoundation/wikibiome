@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2017
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2017 -->
 tags: [type-1-diabetes, autoimmune, microbiome, immune-system, treg, th17, autoimmunity, immune-balance, dysbiosis]
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Intestinal microbiome directly modulates immune system", "Treg/Th17 balance", "Autoimmune tolerance breakdown"]
 ---
 
 # Key Claims

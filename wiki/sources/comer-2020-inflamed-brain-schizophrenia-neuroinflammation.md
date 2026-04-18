@@ -9,6 +9,8 @@ year: 2020
 doi: "10.3389/fncel.2020.00274"
 tags: [schizophrenia, neuroinflammation, microglia, MHC, complement, pollution, gut-brain-axis, immune-balance, blood-brain-barrier, GWAS]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [copper, lead]
 ---
 
 # The Inflamed Brain in Schizophrenia: The Convergence of Genetic and Environmental Risk Factors That Lead to Uncontrolled Neuroinflammation

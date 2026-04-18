@@ -1,5 +1,4 @@
 ---
-
 title: "Streptococcus thermophilus ST285 Alters Pro-Inflammatory to Anti-Inflammatory Cytokine Secretion against Multiple Sclerosis Peptide in Mice"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 tags: [probiotics, multiple-sclerosis, Streptococcus-thermophilus, cytokines, EAE, immune-modulation, Th1-Th2-balance, IL-10, IL-4, IFN-gamma]
 doi: "10.3390/brainsci10020126"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [lactobacillus, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Streptococcus thermophilus ST285 Alters Pro-Inflammatory to Anti-Inflammatory Cytokine Secretion against Multiple Sclerosis Peptide in Mice
@@ -17,7 +19,7 @@ platform: wikibiome
 ## Key Claims
 
 - *[[streptococcus-thermophilus]]* strain ST285 shifts the immune response from pro-inflammatory Th1 to anti-inflammatory Th2 phenotype in MBP83-99-immunized SJL/J mice
-- ST285 significantly increased anti-inflammatory cytokines [[IL-4]], [[IL-5]], and [[IL-10]] while decreasing pro-inflammatory [[IFN-gamma]] and [[IL-1beta]]
+- ST285 significantly increased anti-inflammatory cytokines [[inflammation|IL-4]], [[inflammation|IL-5]], and [[inflammation|IL-10]] while decreasing pro-inflammatory [[inflammation|IFN-gamma]] and [[inflammation|IL-1beta]]
 - The Th1-to-Th2 shift suggests ST285 could be beneficial for managing autoimmune conditions like [[multiple-sclerosis]]
 
 ## Methods/Findings

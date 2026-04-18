@@ -12,18 +12,20 @@ library_category: "16S rRNA sequencing"
 platform: sequencing
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium, clostridium, corynebacterium, lactobacillus, prevotella]
+key_findings: ["Primer set#1"]
 ---
 
 # Overview
 
-Methodological study comparing **three different 16S rRNA primer sets** for characterising gut microbiota in 10 paediatric [[autism-spectrum-disorder]] patients. Demonstrates that primer choice significantly affects reported microbial composition and the [[Firmicutes]]/[[Bacteroidetes]] ratio, a key metric in ASD microbiome research.
+Methodological study comparing **three different 16S rRNA primer sets** for characterising gut microbiota in 10 paediatric [[autism-spectrum-disorder]] patients. Demonstrates that primer choice significantly affects reported microbial composition and the [[firmicutes]]/[[bacteroidetes]] ratio, a key metric in ASD microbiome research.
 
 # Key Claims
 
 ## Primer Choice Drastically Alters Results
 
 - Three primer sets tested: set#1 (515f/806r), set#2 (27f/1492r), set#3 (27f'/1495r)
-- **Primer set#1** detected significantly higher abundance of [[Bacteroidetes]] and lower [[Firmicutes]] compared to sets #2 and #3
+- **Primer set#1** detected significantly higher abundance of [[bacteroidetes]] and lower [[firmicutes]] compared to sets #2 and #3
 - The **F/B ratio** differed dramatically: set#1 = 0.37, set#2 = 1.5, set#3 = 1.2
 - Set#2 (27f/1492r) detected the most unique low-abundance bacterial genera
 
@@ -48,5 +50,5 @@ Methodological study comparing **three different 16S rRNA primer sets** for char
 # Connections
 
 - Directly relevant to interpreting conflicting results across ASD microbiome literature reviewed in [[liu-2019-altered-microbiota-composition-asd-systematic-review]]
-- Methodology concerns echo those raised in [[strati-2017-altered-gut-microbiota-asd]]
-- Primer bias may partly explain inconsistent [[Firmicutes]]/[[Bacteroidetes]] findings in [[autism-spectrum-disorder-microbiome-signature]]
+- Methodology concerns echo those raised in [[strati-2017-altered-gut-microbiota-mycobiota-asd]]
+- Primer bias may partly explain inconsistent [[firmicutes]]/[[bacteroidetes]] findings in [[autism-spectrum-disorder-signature]]

@@ -1,5 +1,4 @@
 ---
-
 title: "Transferrin"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [nutritional-immunity, iron-biology, host-defense, serum-markers]
 karen_brain_primitive: "Primitive 2: Nutritional Immunity as Interpretive Constraint"
 platform: wikibiome
+karen_brain_primitives: [2, 9]
+seo_target: "transferrin microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview
@@ -18,7 +20,7 @@ Transferrin is not itself an antimicrobial; it is a **scavenging protein** that 
 
 ## Mechanism
 
-Transferrin binds Fe³⁺ at two high-affinity sites, each coordinated by two [[tyrosine]] residues, one [[histidine]], and one [[aspartate]], plus a synergistic [[carbonate]] ion. The protein exists in multiple iron-saturation states:
+Transferrin binds Fe³⁺ at two high-affinity sites, each coordinated by two [[tryptophan|tyrosine]] residues, one [[histidine]], and one [[tryptophan|aspartate]], plus a synergistic [[carbonate]] ion. The protein exists in multiple iron-saturation states:
 
 - **Apo-transferrin** (0% saturated): Iron-free; circulates looking for iron
 - **Monoferric transferrin** (1 site occupied): Intermediate state

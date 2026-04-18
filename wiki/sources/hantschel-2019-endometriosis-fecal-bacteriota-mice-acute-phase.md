@@ -1,5 +1,4 @@
 ---
-
 title: "Effect of endometriosis on the fecal bacteriota composition of mice during the acute phase of lesion formation"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2019
 tags: [endometriosis, gut-microbiome, mouse-model, fecal-bacteriota, 16S-rRNA, GFP-model, acute-phase, lesion-formation]
 doi: "10.1371/journal.pone.0226835"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [iron, nickel]
+taxa_discussed: [lachnospiraceae, lactobacillus]
+karen_brain_primitives: [1, 4, 5, 7]
 ---
 
 # Key Claims

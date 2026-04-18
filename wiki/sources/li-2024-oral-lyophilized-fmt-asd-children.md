@@ -11,6 +11,8 @@ tags: [autism, fmt, oral-lyophilized, bacterial-fungal-microbiota, sleep, childr
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+taxa_discussed: [blautia, dorea, saccharomyces-cerevisiae]
+karen_brain_primitives: [2, 4, 5, 6]
 ---
 
 # Key Claims

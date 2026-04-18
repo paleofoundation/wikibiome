@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, social-robotics, humanoid-robots, autism-therap
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+key_findings: ["ASD subjects often performed better with a robot partner", "ASD patients showed social behaviors toward robots", "Reduced repetitive and stereotyped behaviors"]
 ---
 
 # Key Claims

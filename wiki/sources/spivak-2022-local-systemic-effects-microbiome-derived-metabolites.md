@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, microbiome-metabolites, postbiotics, scfa, b
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Microbiome-derived metabolites have multiple local and systemic effects", "SCFA and bile acids", "Tryptophan metabolites"]
 ---
 
 # Key Claims

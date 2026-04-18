@@ -9,6 +9,8 @@ journal: "Frontiers in Microbiology"
 doi: "10.3389/fmicb.2024.1356478"
 tags: [chronic-kidney-disease, CKD, mendelian-randomization, chronic-renal-failure, Escherichia-Shigella, Howardella, gut-microbiota]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [escherichia-coli, ruminococcus, shigella]
 ---
 
 # Causal Relationship between Gut Microbiota and Chronic Renal Failure

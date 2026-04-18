@@ -11,8 +11,8 @@ tags: [microbiota, gut-brain-axis, neurodevelopmental-disorders, autism, adhd, r
 library_category: causal
 platform: both
 condition: "autism spectrum disorder"
-karen_brain_primitives: []
-metals_discussed: []
+karen_brain_primitives: [2, 4, 5, 8, 9]
+metals_discussed: [iron, zinc]
 taxa_discussed: []
 ---
 

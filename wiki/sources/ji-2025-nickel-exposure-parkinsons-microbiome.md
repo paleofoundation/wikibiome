@@ -11,13 +11,16 @@ tags: [parkinsons-disease, nickel, heavy-metals, gut-microbiome, dysbiosis, Mend
 library_category: metals
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 5]
 ---
 
 # Nickel Exposure and Parkinson's Disease Risk: Gut Microbiome Mediation
 
 ## Summary
 
-This study investigates the relationship between [[nickel]] exposure and [[parkinsons-disease]] risk, with particular attention to the mediating role of the gut [[microbiome]]. Using Mendelian randomization and/or epidemiological approaches, it provides evidence that [[nickel]] may increase PD risk partly through its effects on gut microbial composition.
+This study investigates the relationship between [[nickel]] exposure and [[parkinsons-disease]] risk, with particular attention to the mediating role of the gut [[gut-microbiome|microbiome]]. Using Mendelian randomization and/or epidemiological approaches, it provides evidence that [[nickel]] may increase PD risk partly through its effects on gut microbial composition.
 
 ## Key Findings
 

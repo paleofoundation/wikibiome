@@ -11,13 +11,15 @@ tags: [parkinsons-disease, shotgun-metagenomics, italian-cohort, metagenomic-ana
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+karen_brain_primitives: [4]
 ---
 
 # Shotgun Metagenomics of Parkinson's Disease: Italian Cohort Study
 
 ## Summary
 
-This [[shotgun-metagenomics]] study characterizes the gut [[microbiome]] of [[parkinsons-disease]] patients in an Italian cohort, providing species-level resolution and functional pathway analysis from a Mediterranean dietary background.
+This [[shotgun-metagenomics]] study characterizes the gut [[gut-microbiome|microbiome]] of [[parkinsons-disease]] patients in an Italian cohort, providing species-level resolution and functional pathway analysis from a Mediterranean dietary background.
 
 ## Key Findings
 
@@ -30,7 +32,7 @@ This [[shotgun-metagenomics]] study characterizes the gut [[microbiome]] of [[pa
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-An Italian/Mediterranean cohort provides valuable contrast to North American and Northern European PD [[microbiome]] studies because the Mediterranean diet is typically lower in processed food metals and higher in polyphenols and fiber. The persistence of core PD [[dysbiosis]] patterns despite this dietary context suggests that disease-intrinsic factors (genetics, [[alpha-synuclein]] pathology) drive dysbiosis independently of diet, though dietary factors may modulate severity. The functional pathway alterations include vitamin B12 and folate metabolism, which are metal-cofactor-dependent pathways.
+An Italian/Mediterranean cohort provides valuable contrast to North American and Northern European PD [[gut-microbiome|microbiome]] studies because the Mediterranean diet is typically lower in processed food metals and higher in polyphenols and fiber. The persistence of core PD [[dysbiosis]] patterns despite this dietary context suggests that disease-intrinsic factors (genetics, [[alpha-synuclein]] pathology) drive dysbiosis independently of diet, though dietary factors may modulate severity. The functional pathway alterations include vitamin B12 and folate metabolism, which are metal-cofactor-dependent pathways.
 
 ## Limitations
 

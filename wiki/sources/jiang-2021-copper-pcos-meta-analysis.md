@@ -1,5 +1,4 @@
 ---
-
 title: "Serum Copper Level and Polycystic Ovarian Syndrome: A Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 tags: [PCOS, copper, meta-analysis, serum, oxidative-stress]
 doi: "10.3346/jkms.2021.36.15.e120"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, zinc]
 ---
 
 # Key Claims
@@ -21,7 +22,7 @@ platform: wikibiome
 - No evidence of publication bias by Begg's and Egger's tests (p = 0.765)
 - The association between elevated Cu and PCOS may operate through **ROS production** and reactive nitrogen species, causing damage to membrane lipids, proteins, and DNA
 - Cu may have **estrogen-like activity**, potentially contributing to endocrine disruption in PCOS
-- High Cu concentrations could contribute to the release of [[luteinizing hormone]] and adrenocorticotropic hormone via pituitary effects
+- High Cu concentrations could contribute to the release of [[hyperandrogenism|luteinizing hormone]] and adrenocorticotropic hormone via pituitary effects
 
 # Methods/Findings
 
@@ -40,7 +41,7 @@ platform: wikibiome
 - [[pcos]]
 - Provides the strongest pooled evidence for elevated [[copper]] in PCOS, supporting individual findings in [[smovrsnik-2025-trace-elements-pcos]], [[kurdoglu-2012-trace-elements-pcos]], and [[liu-2024-copper-pcos-ivf]]
 - Identifies [[kirmizi-2020-heavy-metals-pcos]] as the sole contradictory study driving heterogeneity
-- Cu's estrogen-like properties connect to the broader theme of metals as [[endocrine disruptors]] relevant across PCOS and potentially [[autism spectrum disorders]]
+- Cu's estrogen-like properties connect to the broader theme of metals as [[endocrine disruptors]] relevant across PCOS and potentially [[autism-spectrum-disorder|autism spectrum disorders]]
 - The ROS/oxidative stress mechanism aligns with [[kirmizi-2020-heavy-metals-pcos]] findings on TAS/TOS/SOD abnormalities in PCOS
 - Complements the more recent and larger study by [[liu-2024-copper-pcos-ivf]] which confirmed elevated Cu in PCOS with n=766
 - The Cu/Zn ratio discussed connects to [[zinc]] deficiency themes seen across both PCOS and ASD literatures

@@ -13,6 +13,8 @@ platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-15"
 evidence_level: expert-opinion
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, lactobacillus, parabacteroides, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # Overview

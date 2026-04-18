@@ -11,6 +11,11 @@ tags: [autism, nutrition, diet, GFCF, ketogenic, mediterranean, FODMAP, polyphen
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+metals_discussed: [calcium, copper, iron, selenium, zinc]
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Multiple dietary models", "No consensus", "30-84% of ASD children"]
 ---
 
 # Key Claims

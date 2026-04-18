@@ -1,5 +1,4 @@
 ---
-
 title: "Manipulation of Gut Microbiota Influences Immune Responses, Axon Preservation, and Motor Disability in a Model of Progressive Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2019
 tags: [TMEV, progressive-MS, antibiotics, probiotics, Vivomixx, gut-microbiota, axon-preservation, motor-disability, microglia, Tregs, Breg-cells, SCFAs, butyrate, acetate, recolonization]
 doi: "10.3389/fimmu.2019.01374"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [ruminococcus]
+karen_brain_primitives: [5]
 ---
 
 # Manipulation of Gut Microbiota Influences Immune Responses, Axon Preservation, and Motor Disability in a Model of Progressive MS

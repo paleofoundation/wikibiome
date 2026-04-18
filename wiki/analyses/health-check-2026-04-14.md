@@ -131,7 +131,7 @@ These are all clinically important pages. Missing `karen_brain_primitives` means
 The following signature pages have `validated_interventions: []`:
 
 - `alzheimers-disease.md`
-- `autism-spectrum-disorder-microbiome-signature.md`
+- `autism-spectrum-disorder-signature.md`
 - `cardiovascular-disease.md`
 - `colorectal-cancer.md`
 - `obesity.md`
@@ -149,7 +149,7 @@ The following signature pages have `validated_interventions: []`:
 Signatures with `stops: []` or missing stops field:
 
 - `alzheimers-disease.md`
-- `autism-spectrum-disorder-microbiome-signature.md`
+- `autism-spectrum-disorder-signature.md`
 - `cardiovascular-disease.md`
 - `colorectal-cancer.md`
 - `depression.md` *(field absent from frontmatter)*
@@ -216,7 +216,7 @@ The following diseases have large source libraries but no companion signature pa
 The following pages are linked from signatures/entities but do not exist:
 
 **Concepts/entities that need pages:**
-- `[[bile-acids]]` (concept — links exist in multiple signatures; `bile-acid-metabolism.md` exists but not `bile-acids.md`)
+- `[[bile-acid-metabolism]]` (concept — links exist in multiple signatures; `bile-acid-metabolism.md` exists but not `bile-acids.md`)
 - `[[dietary-fiber]]` (concept)
 - `[[firmicutes]]` (should be entity — phylum-level)
 - `[[hbot]]` (intervention linked from endometriosis signature)

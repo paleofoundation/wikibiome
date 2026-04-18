@@ -7,6 +7,9 @@ sources: [liu-2020-high-fat-diet-heavy-metal-gut-microbiota, duan-2020-gut-micro
 tags: [diet, metals, gut-microbiome, selective-pressure, co-selection, resistome, dysbiosis]
 platform: wikibiome
 karen_brain_primitive: "Primitive 1: Metals as Selective Pressures"
+karen_brain_primitives: [1, 4, 5, 8]
+seo_target: "dietary metal-microbiome interactions"
+last_substantive_update: 2026-04-11
 ---
 
 # Dietary Metal-Microbiome Interactions

@@ -1,5 +1,4 @@
 ---
-
 title: "Association of Trace Elements with Polycystic Ovary Syndrome in Women -- A Case-Control Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 tags: [PCOS, trace-elements, copper, molybdenum, case-control, oxidative-stress, diet, kidney-function, liver-function]
 doi: "10.1111/ijlh.13883"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, molybdenum]
+karen_brain_primitives: [2]
 ---
 
 # Key Claims
@@ -20,7 +22,7 @@ platform: wikibiome
 - Differences in Mo and Cu were no longer statistically significant after adjusting for age, BMI, and hematocrit, suggesting confounding
 - Dietary supplement consumption and certain diet habits (beef consumption for Cu; cereals and boiled vegetables for Mo) appeared to be important predictors of trace element exposure
 - Cu-S levels positively correlated with [[leukocyte count]] in PCOS women, suggesting a role of Cu in [[oxidative-stress|oxidative stress]] response
-- A negative correlation between Mo and [[luteinizing hormone (LH)]] levels was found in PCOS women, suggesting a potential protective role of Mo in reducing androgen levels
+- A negative correlation between Mo and [[hyperandrogenism|luteinizing hormone (LH)]] levels was found in PCOS women, suggesting a potential protective role of Mo in reducing androgen levels
 
 # Methods/Findings
 
@@ -43,6 +45,6 @@ platform: wikibiome
 - [[pcos]]
 - Supports the broader finding of elevated [[copper]] in PCOS reported in [[jiang-2021-copper-pcos-meta-analysis]] and [[liu-2024-copper-pcos-ivf]]
 - Aligns with [[kirmizi-2020-heavy-metals-pcos]] regarding elevated Cu in PCOS, though Kirmizi et al. reported lower Cu
-- Mo's role as a cofactor for [[xanthine oxidase]] and involvement in [[oxidative-stress|oxidative stress]] and [[lipid metabolism]] connects to the oxidative damage pathways described in [[kurdoglu-2012-trace-elements-pcos]]
+- Mo's role as a cofactor for [[oxidative-stress|xanthine oxidase]] and involvement in [[oxidative-stress|oxidative stress]] and [[bile-acid-metabolism|lipid metabolism]] connects to the oxidative damage pathways described in [[kurdoglu-2012-trace-elements-pcos]]
 - The Cu-Mo antagonistic relationship (excess Cu decreases Mo absorption by forming non-absorbable Cu-Mo complexes in the GI tract) links to broader [[metal interactions]] concepts
 - Dietary predictors of metal exposure connect to environmental/nutritional factors discussed across the PCOS-metals literature

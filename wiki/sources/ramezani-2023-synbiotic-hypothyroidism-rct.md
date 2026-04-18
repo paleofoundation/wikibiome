@@ -1,5 +1,4 @@
 ---
-
 title: "The Effect of Synbiotic Supplementation on Hypothyroidism: A Randomized Double-Blind Placebo Controlled Clinical Trial"
 type: source
 created: 2026-04-09
@@ -10,23 +9,27 @@ year: 2023
 doi: "10.1371/journal.pone.0277213"
 tags: [hashimotos-thyroiditis, thyroid, synbiotics, probiotics, prebiotics, hypothyroidism, RCT, quality-of-life, blood-pressure, depression, fructo-oligosaccharides, Lactobacillus, Bifidobacterium, Streptococcus-thermophilus, TSH, FT4, gut-microbiota]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [magnesium]
+taxa_discussed: [bifidobacterium, lactobacillus, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # The Effect of Synbiotic Supplementation on Hypothyroidism: A Randomized Double-Blind Placebo Controlled Clinical Trial
 
 ## Key Claims
 
-- Ten-week [[synbiotic]] supplementation had no favorable effect on depression and TSH in hypothyroid patients, but significantly improved blood pressure and [[quality of life]]
+- Ten-week [[synbiotics]] supplementation had no favorable effect on depression and TSH in hypothyroid patients, but significantly improved blood pressure and [[dysbiosis|quality of life]]
 - Neither within-group nor between-group changes were observed for serum TSH following supplementation (p>0.05), while FT4 increased significantly in both synbiotic and placebo groups
 - Significant improvements in quality of life domains were observed in the synbiotic group: perceived mental health (p=0.02), bodily pain (p=0.02), general health perceptions (p=0.002), and wellbeing (p=0.002)
 - A significant decrease in systolic blood pressure occurred only in the synbiotic group (p=0.05)
-- Approximately 79-90% of participants had [[autoimmune]] hypothyroidism (Hashimoto's)
+- Approximately 79-90% of participants had [[autoimmunity|autoimmune]] hypothyroidism (Hashimoto's)
 
 ## Methods/Findings
 
 - **Study type**: Randomized double-blind placebo-controlled clinical trial (IRCT20210926052583N1)
 - **Population**: 56 adults with subclinical hypothyroidism (elevated TSH, normal/low free T4) aged 25-65, BMI <35, on levothyroxine for >=6 months; 51 completed (26 synbiotic, 25 placebo)
-- **Intervention**: Familact synbiotic capsules (500 mg) containing [[lactobacillus]] casei, L. acidophilus, L. rhamnus, L. bulgaricus, [[bifidobacterium]] breve, B. longum, [[streptococcus-thermophilus]] plus [[fructo-oligosaccharides]] with 10^8 CFU/g; 1 capsule daily for 10 weeks
+- **Intervention**: Familact synbiotic capsules (500 mg) containing [[lactobacillus]] casei, L. acidophilus, L. rhamnus, L. bulgaricus, [[bifidobacterium]] breve, B. longum, [[streptococcus-thermophilus]] plus [[prebiotics|fructo-oligosaccharides]] with 10^8 CFU/g; 1 capsule daily for 10 weeks
 - **Placebo**: Lactose, magnesium stearate, talc, silicon dioxide in identical capsules
 - **Primary outcomes**: Serum TSH and FT4 (ELISA kits)
 - **Secondary outcomes**: Depression (BDI-II), quality of life (SF-36), blood pressure

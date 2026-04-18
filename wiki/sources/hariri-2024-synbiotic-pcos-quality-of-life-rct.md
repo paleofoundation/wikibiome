@@ -9,6 +9,9 @@ year: 2024
 doi: "10.1186/s12905-023-02868-1"
 tags: [ovarian-cancer, PCOS, synbiotic, quality-of-life, RCT, Bacillus-coagulans, Lactobacillus-rhamnosus, SF-12, stress]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Synbiotic Ameliorates Quality of Life in PCOS

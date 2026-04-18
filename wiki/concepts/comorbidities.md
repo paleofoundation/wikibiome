@@ -1,5 +1,4 @@
 ---
-
 title: Comorbidities
 type: concept
 created: 2026-04-10
@@ -7,6 +6,9 @@ updated: 2026-04-10
 sources: [luqman-2024-intestinal-microbiome-cvd-intervention, herrema-2020-microbiome-cardiovascular-disease-ascvd, spivak-2023-local-systemic-microbiome-derived-metabolites]
 tags: [comorbidities, multi-morbidity, shared-mechanisms, metal-exposure, dysbiosis, inflammation, metabolic-syndrome, gut-microbiome, systems-biology]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 5]
+seo_target: "comorbidities microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 # Comorbidities

@@ -1,5 +1,4 @@
 ---
-
 title: Glutathione (GSH)
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, abudawood-2021-antioxidant-heavy-metals-pcos, smovrsnik-2023-heavy-metals-oxidative-stress-pcos, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, mishra-2022-molecular-mechanisms-heavy-metals-ckd, brock-2015-selenium-thyroid-autoimmunity, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons, salnikov-2008-metal-carcinogenesis, blazewicz-2023-metal-profiles-asd, tao-2024-cadmium-gut-microbiota-dwarf-hamsters]
 tags: [antioxidant, thiol, oxidative-stress, detoxification, ferroptosis, GPX4, glyoxalase]
 platform: wikibiome
+karen_brain_primitives: [1]
+seo_target: "glutathione gsh microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Glutathione (GSH)
@@ -47,6 +49,10 @@ The most abundant intracellular thiol and the master antioxidant of mammalian ce
 ## The Ferroptosis Connection
 
 GSH sits at the nexus of metal toxicity and ferroptosis: metals deplete GSH, GSH depletion disables GPX4, GPX4 loss permits lipid peroxide accumulation, and iron catalyzes the Fenton reactions that generate those peroxides. This creates a vicious cycle where metal exposure simultaneously increases oxidative attack and disables the primary defense against it.
+
+### Platinum Chemoresistance
+
+GSH is the most altered pathway in [[platinum]]-resistant cancer cells. Elevated GSH directly inactivates cisplatin through Pt-GSH conjugation while simultaneously fueling GPX4 to block ferroptotic cell death. Gamma-glutamylcysteine synthetase upregulation is a hallmark of resistant clones, making the GSH-platinum axis a major therapeutic target for resensitization strategies.
 
 ## Key Sources
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Association between cigarette smoking and the risk of dysmenorrhea: A meta-analysis of observational studies"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 tags: [smoking, dysmenorrhea, meta-analysis, menstrual-pain, tobacco, prostaglandins, vasoconstriction, menstrual-disorders]
 doi: "10.1038/s41467-019-12848-5"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, lead, zinc]
 ---
 
 # Key Claims
@@ -18,7 +19,7 @@ platform: wikibiome
 - Current smoking: OR = 1.50 (95% CI: 1.33-1.70); former smoking: OR = 1.31 (95% CI: 1.18-1.46)
 - Primary dysmenorrhea risk increased by 56% among smokers: OR = 1.56 (95% CI: 1.31-1.86)
 - Results were consistent across geographic regions: Europe OR = 1.45, Asia OR = 1.47, North America OR = 1.34, Oceania OR = 1.64
-- Nicotine causes vasoconstriction reducing endometrial blood flow, and smoking increases [[prostaglandin]] production, both contributing to menstrual pain
+- Nicotine causes vasoconstriction reducing endometrial blood flow, and smoking increases [[inflammation|prostaglandin]] production, both contributing to menstrual pain
 
 # Methods/Findings
 
@@ -35,7 +36,7 @@ platform: wikibiome
 
 # Connections
 
-- Complements [[choi-2020-smoking-premenstrual-syndrome-meta-analysis]] on smoking and PMS, together establishing smoking as a risk factor for multiple [[menstrual disorders]]
+- Complements [[choi-2020-smoking-premenstrual-syndrome-meta-analysis]] on smoking and PMS, together establishing smoking as a risk factor for multiple [[dysmenorrhea|menstrual disorders]]
 - Supports [[fernandez-2019-tobacco-pms-case-control]] which found that dysmenorrhea may be an intermediate variable between tobacco and PMS
 - Directly related to [[kuo-2025-smoking-alcohol-dysmenorrhea-taiwan]] which examines combined smoking and alcohol effects on dysmenorrhea
 - Tobacco smoke delivers [[cadmium]] and [[lead]] which are known [[endocrine disruptors]] per [[canipari-2020-female-fertility-environmental-pollution]]

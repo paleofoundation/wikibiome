@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, schizophrenia, gut-virome, bacteriophage, Sipho
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+taxa_discussed: [akkermansia-muciniphila]
+key_findings: ["171 vOTUs differed significantly"]
 ---
 
 # Key Claims

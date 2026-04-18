@@ -9,6 +9,8 @@ journal: "Japanese Journal of Infectious Diseases"
 doi: "10.7883/yoken.JJID.2015.461"
 tags: [chronic-kidney-disease, CKD, 16S-rRNA, Campylobacter-fetus, spondylitis, ESRD, case-report, infection]
 platform: wikibiome
+evidence_level: case-report
+taxa_discussed: [campylobacter-jejuni]
 ---
 
 # Infectious Spondylitis in a Patient with Chronic Kidney Disease

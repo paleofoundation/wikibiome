@@ -1,5 +1,4 @@
 ---
-
 title: "A Fungal World: Could the Gut Mycobiome Be Involved in Neurological Disease?"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2019
 doi: 10.3389/fmicb.2018.03249
 tags: [multiple-sclerosis, mycobiome, fungi, Candida, Saccharomyces, neurological-disease, gut-brain-axis, dysbiosis, ITS-sequencing, review]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [aspergillus, bacteroides-fragilis, blautia, candida-albicans, cladosporium, saccharomyces-cerevisiae]
+karen_brain_primitives: [6]
 ---
 
 # A Fungal World: Could the Gut Mycobiome Be Involved in Neurological Disease?

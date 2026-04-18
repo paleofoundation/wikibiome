@@ -9,6 +9,7 @@ year: 2005
 doi: "10.1192/bjp.187.1.9"
 tags: [schizophrenia, suicide, risk-factors, systematic-review, meta-analysis, depression, substance-abuse]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Schizophrenia and Suicide: Systematic Review of Risk Factors

@@ -1,5 +1,4 @@
 ---
-
 title: "Novel Insights into Immune-Gut Microbiota Interactions in Colorectal Cancer: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2025
 tags: [colon-cancer, mendelian-randomization, immune-cells, mediation-analysis, Francisellales, Succinivibionaceae, CD39, CD8-T-cells, NK-cells, colorectal-cancer]
 doi: "10.1186/s13027-025-00653-3"
 platform: wikibiome
+evidence_level: computational-prediction
 ---
 
 # Novel Insights into Immune-Gut Microbiota Interactions in Colorectal Cancer: A Mendelian Randomization Study

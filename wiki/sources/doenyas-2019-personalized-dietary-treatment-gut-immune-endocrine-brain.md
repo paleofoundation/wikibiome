@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, personalized-diet, gut-immune-endocrine-brain-a
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

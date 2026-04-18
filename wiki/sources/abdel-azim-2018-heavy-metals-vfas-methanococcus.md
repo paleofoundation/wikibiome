@@ -1,5 +1,4 @@
 ---
-
 title: "The physiological effect of heavy metals and volatile fatty acids on Methanococcus maripaludis S2"
 type: source
 created: 2026-04-09
@@ -12,7 +11,7 @@ doi: "10.1186/s13068-018-1302-x"
 platform: wikibiome
 karen_brain_primitives: [1, 4]
 metals_discussed: [copper, zinc]
-taxa_discussed: []
+taxa_discussed: [methanobrevibacter-smithii]
 evidence_level: in-vitro
 key_findings:
   - "Copper at 1.9 µmol/L reduced growth of Methanococcus maripaludis; zinc at 1.0 mmol/L enhanced growth; combined Cu+Zn at highest concentrations counteracted Cu toxicity"
@@ -25,7 +24,7 @@ key_findings:
 - Copper (Cu) concentration of 1.9 umol/L reduced growth of the methanogen Methanococcus maripaludis, while zinc (Zn) at 1.0 mmol/L enhanced growth; the two metals interact competitively at the ACS/CODH active site
 - VFAs (acetate and propionate) do not directly interact with the C-fixation machinery of M. maripaludis; propionate uptake by this methanogen is a novel finding important for VFA cycling in anaerobic environments
 - Combination of Cu and Zn at highest tested concentrations counteracted Cu toxicity, likely because both are divalent cations competing for the same transporter
-- [[short-chain fatty acids|SCFAs]] (acetate) at 10.3 mmol/L supported growth without reduction of specific growth rate; propionate stimulated growth and CH4 production
+- [[short-chain-fatty-acids|SCFAs]] (acetate) at 10.3 mmol/L supported growth without reduction of specific growth rate; propionate stimulated growth and CH4 production
 - These findings have implications for understanding VFA cycling and metal-microbe interactions in anaerobic microenvironments including the gut
 
 # Methods/Findings
@@ -41,7 +40,7 @@ key_findings:
 # Connections
 
 - Methanogen sensitivity to Cu/Zn relevant to [[gut-metal-microbiome|gut microbiome]] function since methanogens (Methanobrevibacter) are present in the human GIT
-- VFA cycling connects to [[short-chain fatty acids]] production and metabolism in the gut
+- VFA cycling connects to [[short-chain-fatty-acids]] production and metabolism in the gut
 - Cu/Zn interactions at enzyme active sites parallel metal competition dynamics affecting gut microbial metabolism
-- Anaerobic conditions mimicking the large intestine lumen make these findings translatable to [[Gut Microbiome and Metal Exposure]]
+- Anaerobic conditions mimicking the large intestine lumen make these findings translatable to [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]]
 - Propionate stimulation of methanogenesis connects to gut SCFA balance and hydrogen disposal pathways

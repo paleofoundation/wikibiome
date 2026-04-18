@@ -32,6 +32,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Demonstrates that bacterial siderophores function as broad-spectrum extracellular metal sequestration systems—not merely iron foragers but virulence factors selective for nickel, cadmium, and copper. This paper establishes the molecular link between metal availability, siderophore expression, and pathogenic persistence that underlies WikiBiome's metal-dependent dysbiosis signatures."
+metals_discussed: [cadmium, copper, iron, nickel]
+taxa_discussed: [acinetobacter, enterococcus, pseudomonas-aeruginosa, streptococcus]
+karen_brain_primitives: [1, 2, 4, 5, 8]
 ---
 
 # Presence of the Siderophores Pyoverdine and Pyochelin in the Extracellular Medium Reduces Toxic Metal Accumulation in Pseudomonas aeruginosa and Increases Bacterial Metal Tolerance

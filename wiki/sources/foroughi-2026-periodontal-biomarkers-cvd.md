@@ -1,5 +1,4 @@
 ---
-
 title: "Periodontal Biomarkers in Cardiovascular Disease: Mechanisms, Diagnostics, and Clinical Implications"
 type: source
 created: 2026-04-09
@@ -12,6 +11,9 @@ tags: [cardiovascular-disease, periodontal-disease, microbial-biomarkers, CRP, I
 source_pdf: "raw/cardiovascular disease/Microbial biomarkers cardiovascular disease/s15010-026-02778-y.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: expert-opinion
+taxa_discussed: [porphyromonas]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims
@@ -34,9 +36,9 @@ platform: wikibiome
 
 # Connections
 
-- Establishes periodontal pathogens as [[microbial biomarkers]] for [[cardiovascular-disease]] risk
-- LPS-TLR4 signaling from oral bacteria extends [[microbiome and inflammation]] mechanisms
-- *P. gingivalis* antibodies and bacterial DNA in plaques connect to [[microbiome-host interactions]]
-- Molecular mimicry mechanism relevant to [[microbiome and immune system]] in CVD
-- Oral-systemic axis complements gut-focused [[microbiome composition]] studies
-- Periodontal therapy effects inform [[microbiome-modulating drugs]] and intervention strategies
+- Establishes periodontal pathogens as [[microbial-biomarkers]] for [[cardiovascular-disease]] risk
+- LPS-TLR4 signaling from oral bacteria extends [[inflammation|microbiome and inflammation]] mechanisms
+- *P. gingivalis* antibodies and bacterial DNA in plaques connect to [[gut-metal-microbiome|microbiome-host interactions]]
+- Molecular mimicry mechanism relevant to [[inflammation|microbiome and immune system]] in CVD
+- Oral-systemic axis complements gut-focused [[dysbiosis|microbiome composition]] studies
+- Periodontal therapy effects inform [[pharmacomicrobiomics|microbiome-modulating drugs]] and intervention strategies

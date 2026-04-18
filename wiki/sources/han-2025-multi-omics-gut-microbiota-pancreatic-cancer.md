@@ -1,5 +1,4 @@
 ---
-
 title: "A comprehensive multi-omics analysis uncovers the associations between gut microbiota and pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,11 +9,13 @@ year: 2025
 tags: [pancreatic-cancer, shotgun-metagenomics, metabolomics, multi-omics, microbial-SNPs, metagenome-assembled-genomes, Lactobacillus, Streptococcus, metabolic-pathways]
 doi: "10.3389/fmicb.2025.1592549"
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, clostridium, escherichia-coli, eubacterium, faecalibacterium-prausnitzii, lactobacillus, ruminococcus, shigella, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- Integrated [[shotgun metagenomics]] and untargeted [[metabolomics]] revealed treatment-specific associations between [[gut microbiome]] and [[pancreatic-cancer]], with chemotherapy and surgery groups showing distinct microbial profiles
+- Integrated [[shotgun-metagenomics|shotgun metagenomics]] and untargeted [[metabolomics]] revealed treatment-specific associations between [[gut-microbiome]] and [[pancreatic-cancer]], with chemotherapy and surgery groups showing distinct microbial profiles
 - Both chemotherapy (CT) and surgery combined with chemotherapy (SCT) were associated with increased abundance of *Lactobacillus gasseri* and *Streptococcus equinus*
 - Microbial single nucleotide polymorphisms (SNPs) revealed bacterial SNPs related to tumor location, with head tumors associated with *E. coli*, *Shigella sonnei*, and *Shigella flexneri*
 - Metabolomic model based on fecal metabolites (indole-3-acetic acid, capsaicin, sinigrin, chenodeoxycholic acid, glycerol-3-phosphate) achieved accuracy of 0.77 in distinguishing HC from PC
@@ -30,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- Treatment-microbiome associations relevant to [[microbiome-targeted therapy]] and [[antibiotics]] impact on gut flora during cancer treatment
-- Metabolite signatures (indole-3-acetic acid, bile acids) connect to [[microbial metabolites]] and [[microbiome-derived metabolites]] research
-- Tumor location-specific microbiome differences link to [[microbiome and disease progression]] patterns
+- Treatment-microbiome associations relevant to [[probiotics|microbiome-targeted therapy]] and [[antimicrobial-resistance|antibiotics]] impact on gut flora during cancer treatment
+- Metabolite signatures (indole-3-acetic acid, bile acids) connect to [[short-chain-fatty-acids|microbial metabolites]] and [[microbiome-derived-metabolites]] research
+- Tumor location-specific microbiome differences link to [[dysbiosis|microbiome and disease progression]] patterns
 - *Lactobacillus* associations with treatment support [[probiotics]] supplementation strategies

@@ -1,5 +1,4 @@
 ---
-
 title: "Endometriosis induces gut microbiota alterations in mice"
 type: source
 created: 2026-04-09
@@ -10,8 +9,8 @@ year: 2018
 tags: [endometriosis, gut-microbiome, mouse-model, Firmicutes-Bacteroidetes-ratio, dysbiosis, Bifidobacterium, 16S-rRNA, beta-diversity]
 doi: "10.1093/humrep/dex372"
 platform: wikibiome
-karen_brain_primitives: []
-metals_discussed: []
+karen_brain_primitives: [1, 4, 5, 7]
+metals_discussed: [iron, nickel]
 taxa_discussed: ["Bifidobacterium"]
 evidence_level: animal-model
 ---

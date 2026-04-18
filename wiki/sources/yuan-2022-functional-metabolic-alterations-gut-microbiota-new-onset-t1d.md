@@ -12,6 +12,8 @@ library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
 evidence_level: cross-sectional
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Key Claims

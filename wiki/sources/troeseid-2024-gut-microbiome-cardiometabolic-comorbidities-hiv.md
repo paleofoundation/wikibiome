@@ -1,5 +1,4 @@
 ---
-
 title: "Gut microbiome and cardiometabolic comorbidities in people living with HIV"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 doi: 10.1186/s40168-024-01815-y
 tags: [cardiovascular-disease, HIV, comorbidities, gut-microbiome, microbial-translocation, SCFAs, indole-3-propionic-acid, dysbiosis, inflammation]
 platform: wikibiome
+taxa_discussed: [clostridium, lachnospiraceae, peptostreptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Gut Microbiome and Cardiometabolic Comorbidities in People Living with HIV

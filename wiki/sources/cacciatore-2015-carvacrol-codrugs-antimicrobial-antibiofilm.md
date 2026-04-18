@@ -39,9 +39,9 @@ Synthesis: acetic anhydride acetylation of cysteine derivatives, then DCC/DMAP c
 
 ## Relevance to WikiBiome
 
-- [[carvacrol]] concept — antimicrobial chemistry, membrane-disruption mechanism.
+- [[polyphenols|carvacrol]] concept — antimicrobial chemistry, membrane-disruption mechanism.
 - [[n-acetyl-cysteine]] concept — antibiofilm disulfide-breaker.
-- [[essential-oils]] concept — drug design rationale for natural-product codrugs.
+- [[polyphenols|essential-oils]] concept — drug design rationale for natural-product codrugs.
 
 ## Relevance to Cureva
 

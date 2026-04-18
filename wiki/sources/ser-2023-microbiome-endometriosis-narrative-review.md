@@ -1,5 +1,4 @@
 ---
-
 title: "Current Updates on the Role of Microbiome in Endometriosis: A Narrative Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [endometriosis, microbiome, review, vaginal-microbiome, gut-microbiome, community-state-types, estrobolome, precision-medicine, microbiome-therapeutics]
 doi: "10.3390/microorganisms11020360"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5, 7, 9]
 ---
 
 # Key Claims
@@ -34,4 +36,4 @@ platform: wikibiome
 
 # Relevance to Wiki
 
-This comprehensive review synthesizes the growing evidence linking the [[microbiome]] to [[endometriosis]] across multiple body sites. It provides context for understanding how the estrobolome, [[dysbiosis]], and immune dysregulation interconnect in disease pathogenesis. The discussion of microbiome-based therapeutics is relevant to future therapeutic strategies that might address both microbial imbalance and the inflammatory/estrogenic milieu. The review supports the broader wiki themes connecting [[gut-metal-microbiome]] disruption, [[oxidative-stress]], and reproductive health.
+This comprehensive review synthesizes the growing evidence linking the [[gut-microbiome|microbiome]] to [[endometriosis]] across multiple body sites. It provides context for understanding how the estrobolome, [[dysbiosis]], and immune dysregulation interconnect in disease pathogenesis. The discussion of microbiome-based therapeutics is relevant to future therapeutic strategies that might address both microbial imbalance and the inflammatory/estrogenic milieu. The review supports the broader wiki themes connecting [[gut-metal-microbiome]] disruption, [[oxidative-stress]], and reproductive health.

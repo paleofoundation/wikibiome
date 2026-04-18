@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, gut-brain-axis, vagus-nerve, glp-1, dysbiosi
 library_category: mechanisms
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Microbiota-gut-brain axis (MGBA)", "Vagus nerve plays essential role", "\"Diabesity\""]
 ---
 
 # Key Claims

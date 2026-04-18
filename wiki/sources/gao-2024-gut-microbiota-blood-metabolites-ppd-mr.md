@@ -11,6 +11,8 @@ tags: [postpartum-depression, mendelian-randomization, gut-microbiota, blood-met
 library_category: causal-microbiome
 platform: cureva
 condition: "postpartum depression"
+evidence_level: computational-prediction
+key_findings: ["13 gut microbiota taxa and 6 blood metabolites", "Alphaproteobacteria", "Odoribacteron"]
 ---
 
 # Key Claims

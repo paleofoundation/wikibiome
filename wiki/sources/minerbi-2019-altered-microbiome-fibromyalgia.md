@@ -39,7 +39,7 @@ Case-control at McGill. 77 FM patients + 79 household/matched controls. Shotgun 
 
 - **Signature page:** [[fibromyalgia-signature]] — foundational study, taxonomic layer.
 - **Entity pages:** [[faecalibacterium-prausnitzii]], [[bacteroides]], [[flavonifractor]], [[parabacteroides]], [[prevotella-copri]].
-- **Concept pages:** [[butyrate]], [[scfa]].
+- **Concept pages:** [[butyrate]], [[butyrate|scfa]].
 
 ## Relevance to Cureva
 

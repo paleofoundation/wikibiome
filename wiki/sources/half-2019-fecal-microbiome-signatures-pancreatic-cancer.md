@@ -1,5 +1,4 @@
 ---
-
 title: "Fecal microbiome signatures of pancreatic cancer patients"
 type: source
 created: 2026-04-09
@@ -10,13 +9,14 @@ year: 2019
 tags: [pancreatic-cancer, microbiome-signature, fecal-microbiome, 16S-rRNA, microbial-biomarkers, Firmicutes, Bacteroidetes, bile-duct-obstruction, dysbiosis]
 doi: "10.1038/s41598-019-53041-4"
 platform: wikibiome
+taxa_discussed: [lachnospiraceae, megasphaera, veillonella]
 ---
 
 # Key Claims
 
-- Fecal [[microbiome]] signatures can discriminate between [[pancreatic-cancer]] patients and controls, with a Random Forest model achieving AUC of 82.5%
+- Fecal [[gut-microbiome|microbiome]] signatures can discriminate between [[pancreatic-cancer]] patients and controls, with a Random Forest model achieving AUC of 82.5%
 - Fourteen bacterial features discriminated between PC and controls, with several shared with findings from a Chinese cohort
-- Bile duct obstruction is a significant confounding factor affecting PC-associated [[microbial biomarkers]], requiring careful consideration in biomarker studies
+- Bile duct obstruction is a significant confounding factor affecting PC-associated [[microbial-biomarkers]], requiring careful consideration in biomarker studies
 - Only a small part of PC-associated microbial signals were observed in patients with pre-cancerous lesions, challenging early detection utility
 
 # Methods/Findings
@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Microbiome composition]] alterations in PC consistent with broader [[dysbiosis]] patterns reported in pancreatic diseases
+- [[dysbiosis|Microbiome composition]] alterations in PC consistent with broader [[dysbiosis]] patterns reported in pancreatic diseases
 - Bile duct obstruction as confounder relevant to [[comorbidities]] affecting microbiome studies in pancreatic cancer
-- Firmicutes depletion pattern connects to [[short-chain-fatty-acids]] reduction and altered [[microbial metabolites]] in PC
-- Pre-cancerous lesion findings relevant to [[microbiome and disease progression]] and early detection strategies
+- Firmicutes depletion pattern connects to [[short-chain-fatty-acids]] reduction and altered [[short-chain-fatty-acids|microbial metabolites]] in PC
+- Pre-cancerous lesion findings relevant to [[dysbiosis|microbiome and disease progression]] and early detection strategies

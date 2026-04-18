@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, metabolomics, exercise, tricarboxylic-acid-c
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["T1D group showed attenuated response", "Both groups had increased gluconeogenic precursors", "T1D showed increased alpha-ketoglutarate, alpha-ketoisocaproic acid"]
 ---
 
 # Key Claims

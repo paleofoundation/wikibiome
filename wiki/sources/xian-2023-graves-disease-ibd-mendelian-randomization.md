@@ -1,5 +1,4 @@
 ---
-
 title: "Graves Disease and Inflammatory Bowel Disease: A Bidirectional Mendelian Randomization"
 type: source
 created: 2026-04-09
@@ -11,7 +10,7 @@ doi: "10.1210/clinem/dgac683"
 tags: [graves-disease, thyroid, autoimmune, inflammatory-bowel-disease, Crohns-disease, ulcerative-colitis, mendelian-randomization, GWAS, comorbidity, HLA, JAK-STAT]
 platform: wikibiome
 karen_brain_primitives: []
-metals_discussed: []
+metals_discussed: [iron, selenium]
 taxa_discussed: []
 evidence_level: mendelian-randomization
 ---
@@ -24,7 +23,7 @@ evidence_level: mendelian-randomization
 - [[crohns-disease]] (CD) had a notable causal effect on GD (OR 1.30, 95% CI 1.06-1.59, P = .010), whereas genetically predicted [[ulcerative-colitis]] (UC) may be protective against GD (OR 0.71, 95% CI 0.58-0.86, P < .001)
 - CD and UC exhibit contradictory relationships with GD despite both being classified as IBD, suggesting deeper unrecognized mechanistic differences between the two conditions
 - Genetically predicted GD was not significantly associated with IBD (OR 1.04, P = .618), though it showed a trend toward increasing CD risk (OR 1.23, P = .057)
-- Shared genetic susceptibility via [[HLA-DRB1]], [[PTPN22]], and the [[JAK/STAT pathway]] may underlie the comorbidity between GD and IBD
+- Shared genetic susceptibility via [[autoimmunity|HLA-DRB1]], [[autoimmunity|PTPN22]], and the [[inflammation|JAK/STAT pathway]] may underlie the comorbidity between GD and IBD
 - The altered gut microbiota in IBD may influence thyroid function through uptake of [[iodine]], [[selenium]], and [[iron]], providing a potential mechanistic link
 
 ## Methods/Findings

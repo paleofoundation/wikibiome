@@ -1,5 +1,4 @@
 ---
-
 title: "Oral, Vaginal, and Stool Microbial Signatures in Patients With Endometriosis as Potential Diagnostic Non-Invasive Biomarkers: A Prospective Cohort Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 tags: [endometriosis, oral-microbiome, stool-microbiome, vaginal-microbiome, Fusobacterium, Escherichia, biomarkers, diagnostic, dysbiosis, multi-site-microbiome]
 doi: "10.1111/1471-0528.17979"
 platform: wikibiome
+evidence_level: prospective-cohort
+taxa_discussed: [actinomyces, escherichia-coli, fusobacterium-nucleatum, lactobacillus]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims

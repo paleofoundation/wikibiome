@@ -12,6 +12,9 @@ library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "lanthanide acquisition by metallophore"
 evidence_level: cross-sectional
+metals_discussed: [calcium, iron]
+karen_brain_primitives: [3, 4, 8]
+key_findings: ["Methylolanthanin (MLL)"]
 ---
 
 # Why This Paper Matters
@@ -60,8 +63,8 @@ This paper reports the first discovery and characterization of a **lanthanide-sp
 - [[mis-metallation]] -- lanthanide acquisition prevents incorrect metalation of XoxF by calcium
 - [[metal-homeostasis]] -- first dedicated lanthanide acquisition system characterized
 - [[iron]] -- cross-talk between iron and lanthanide homeostasis regulation
-- [[siderophore]] -- MLL is a lanthanophore with structural similarity to NRPS-independent siderophores
+- [[siderophores|siderophore]] -- MLL is a lanthanophore with structural similarity to NRPS-independent siderophores
 - [[TonB-dependent-transporter]] -- mluA as Ln-specific outer membrane receptor
 - [[metal-sensing]] -- regulatory mechanisms for sensing lanthanide availability
-- [[rare-earth-elements]] -- lanthanides as newly recognized biological metals
+- [[environmental-metal-exposure|rare-earth-elements]] -- lanthanides as newly recognized biological metals
 - [[biofilm]] -- implications for Ln-dependent bacteria in natural biofilms

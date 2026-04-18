@@ -1,5 +1,4 @@
 ---
-
 title: "Comparison between 16S rRNA and Shotgun Sequencing in Colorectal Cancer, Advanced Colorectal Lesions, and Healthy Human Gut Microbiota"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2024
 tags: [colon-cancer, 16S-rRNA, shotgun-metagenomics, sequencing-comparison, colorectal-cancer, Parvimonas-micra, microbial-signatures, machine-learning, COLSCREEN]
 doi: "10.1186/s12864-024-10621-7"
 platform: wikibiome
+taxa_discussed: [faecalibacterium-prausnitzii]
 ---
 
 # Comparison between 16S rRNA and Shotgun Sequencing in Colorectal Cancer, Advanced Colorectal Lesions, and Healthy Human Gut Microbiota

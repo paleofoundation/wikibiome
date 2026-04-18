@@ -1,5 +1,4 @@
 ---
-
 title: "Timing for the Second Fecal Microbiota Transplantation to Maintain the Long-Term Benefit from the First Treatment for Crohn's Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2019
 tags: [crohns-disease, IBD, fecal-microbiota-transplantation, FMT, timing, metabolomics, urine-metabolome, microbiome-engraftment]
 doi: "10.1007/s00253-018-9447-x"
 platform: wikibiome
+taxa_discussed: [faecalibacterium-prausnitzii]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

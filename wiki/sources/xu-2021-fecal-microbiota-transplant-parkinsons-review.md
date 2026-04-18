@@ -12,6 +12,9 @@ library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
 evidence_level: expert-opinion
+metals_discussed: [iron, lead, manganese, nickel]
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Fecal Microbiota Transplantation: A New Therapeutic Attempt from the Gut to the Brain
@@ -32,7 +35,7 @@ This review examines [[fecal-microbiota-transplant]] (FMT) as a therapeutic stra
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-[[Fecal-microbiota-transplant]] is the most comprehensive microbiome intervention for the metal-microbiome axis in [[parkinsons-disease]]. By restoring an entire microbial ecosystem, FMT can simultaneously rebuild [[butyrate]]-producing communities (restoring HIF-2alpha-mediated [[iron]] regulation), reestablish colonization resistance against metal-scavenging pathogens (Enterobacteriaceae), and normalize bile acid metabolism that influences [[iron]] absorption. The restoration of the mucin layer by beneficial *Bacteroides* and *Akkermansia* at appropriate levels could restore the physical barrier against dietary [[nickel]], [[lead]], and [[manganese]] absorption. FMT represents a "reset" of the entire gut-metal-microbiome axis that targeted [[probiotics]] cannot achieve.
+[[fmt-intervention]] is the most comprehensive microbiome intervention for the metal-microbiome axis in [[parkinsons-disease]]. By restoring an entire microbial ecosystem, FMT can simultaneously rebuild [[butyrate]]-producing communities (restoring HIF-2alpha-mediated [[iron]] regulation), reestablish colonization resistance against metal-scavenging pathogens (Enterobacteriaceae), and normalize bile acid metabolism that influences [[iron]] absorption. The restoration of the mucin layer by beneficial *Bacteroides* and *Akkermansia* at appropriate levels could restore the physical barrier against dietary [[nickel]], [[lead]], and [[manganese]] absorption. FMT represents a "reset" of the entire gut-metal-microbiome axis that targeted [[probiotics]] cannot achieve.
 
 ## Limitations
 

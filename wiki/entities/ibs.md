@@ -5,7 +5,7 @@ type: entity
 subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
-sources: [borghini-2020-endometriosis-nickel-ibs, lombardi-2020-snas-probiotics-dysbiosis, rizzi-2017-nickel-ibs, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]
+sources: [borghini-2020-endometriosis-nickel-ibs, lombardi-2020-snas-probiotics-dysbiosis, rizzi-2017-ibs-nickel-diet, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-2020-environmental-exposures-autoimmune-gut-microbiome]
 tags: [IBS, nickel, FODMAP, gut-barrier, visceral-hypersensitivity, microbiome, SNAS, mast-cells, serotonin, low-nickel-diet]
 platform: wikibiome
 last_substantive_update: 2026-04-13
@@ -30,7 +30,7 @@ Rizzi et al. (2017) demonstrated that a subset of IBS patients have nickel ACM -
 - The prevalence of nickel sensitization in IBS cohorts ranges from 30-65% in European studies
 
 ### SNAS (Systemic Nickel Allergy Syndrome)
-[[Nickel-allergy]] is not limited to contact dermatitis. SNAS manifests as:
+[[nickel-allergy]] is not limited to contact dermatitis. SNAS manifests as:
 - GI symptoms (identical to IBS): bloating, abdominal pain, diarrhea, nausea
 - Extra-intestinal symptoms: headache, fatigue, urticaria, joint pain
 - Triggered by [[dietary-nickel-exposure|dietary nickel]] (legumes, whole grains, chocolate, nuts, canned foods)
@@ -83,7 +83,7 @@ Metal exposure compounds these shifts: [[dysbiosis]] from dietary nickel, cadmiu
 |---------|-------------|-----------------|-----|
 | Rome IV criteria | Meets | Meets | May meet |
 | Nickel patch test | Usually negative | Positive | Variable |
-| [[Calprotectin]] | Normal (<50 mcg/g) | Mildly elevated | Markedly elevated |
+| [[calprotectin]] | Normal (<50 mcg/g) | Mildly elevated | Markedly elevated |
 | Endoscopy | Normal | Normal/mild eosinophilia | Ulceration, inflammation |
 | Low-nickel diet response | Variable | Dramatic | No effect |
 | CRP | Normal | Normal/mild elevation | Elevated |
@@ -98,9 +98,9 @@ IBS co-occurs frequently with [[depression]] (50% comorbidity), [[endometriosis]
 
 - [[borghini-2020-endometriosis-nickel-ibs]]
 - [[lombardi-2020-snas-probiotics-dysbiosis]]
-- [[rizzi-2017-nickel-ibs]]
+- [[rizzi-2017-ibs-nickel-diet]]
 - [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]
-- [[khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]]
+- [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]]
 
 ## Connections
 

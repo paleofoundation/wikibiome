@@ -1,5 +1,4 @@
 ---
-
 title: "Serum Copper Assessment in Patients with Polycystic Ovary Syndrome and Tubal Infertility: A Retrospective 5-Year Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 tags: [PCOS, copper, IVF, infertility, lipid-metabolism, trace-elements, iron]
 doi: "10.1002/fsn3.4344"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron]
+key_findings: ["Serum copper was significantly elevated"]
 ---
 
 # Key Claims
@@ -20,7 +22,7 @@ platform: wikibiome
 - Cu negatively correlated with **HDL** in non-PCOS (r = -0.184, p < 0.001)
 - In the non-PCOS group, Cu correlated with FG (r = 0.131, p = 0.002), TG (r = 0.277, p < 0.001), TC (r = 0.163, p < 0.001), and LDL (r = 0.240, p < 0.001)
 - **No significant association** between serum copper levels and IVF outcomes (oocyte recovery rate, MII oocyte rate, fertilization rate, blastocyst formation, embryo quality) after adjusting for confounders
-- Cu is a valuable indicator reflecting the **metabolic status** of infertility patients, particularly [[lipid metabolism]], but not a direct predictor of IVF success
+- Cu is a valuable indicator reflecting the **metabolic status** of infertility patients, particularly [[bile-acid-metabolism|lipid metabolism]], but not a direct predictor of IVF success
 
 # Methods/Findings
 
@@ -39,6 +41,6 @@ platform: wikibiome
 - [[pcos]]
 - Confirms the meta-analytic finding from [[jiang-2021-copper-pcos-meta-analysis]] of elevated serum [[copper]] in PCOS with a substantially larger sample
 - The Cu-BMI and Cu-TG correlations align with [[smovrsnik-2025-trace-elements-pcos]] findings on Cu and metabolic parameters
-- Elevated iron in PCOS connects to broader [[metal dyshomeostasis]] themes and the role of iron in [[oxidative-stress|oxidative stress]] via Fenton reactions
+- Elevated iron in PCOS connects to broader [[dyshomeostasis|metal dyshomeostasis]] themes and the role of iron in [[oxidative-stress|oxidative stress]] via Fenton reactions
 - The finding that Cu does not independently predict IVF outcomes provides important clinical context -- Cu elevation reflects metabolic status rather than directly causing reproductive failure
-- Cu's association with [[lipid metabolism]] (TC, TG, LDL, HDL) reinforces the lipid peroxidation pathway described in [[kurdoglu-2012-trace-elements-pcos]] and [[kirmizi-2020-heavy-metals-pcos]]
+- Cu's association with [[bile-acid-metabolism|lipid metabolism]] (TC, TG, LDL, HDL) reinforces the lipid peroxidation pathway described in [[kurdoglu-2012-trace-elements-pcos]] and [[kirmizi-2020-heavy-metals-pcos]]

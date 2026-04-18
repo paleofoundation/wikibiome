@@ -1,5 +1,4 @@
 ---
-
 title: "Differential Effects of Selective and Non-Selective Cyclooxygenase Inhibitors on Fecal Microbiota in Adult Horses"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2018
 tags: [crohns-disease, IBD, NSAIDs, COX-inhibitors, dysbiosis, microbiota, phenylbutazone, firocoxib, equine-model]
 doi: "10.1371/journal.pone.0202527"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+karen_brain_primitives: [4]
 ---
 
 # Key Claims

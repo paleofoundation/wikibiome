@@ -12,6 +12,10 @@ library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
 evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+taxa_discussed: [akkermansia-muciniphila]
+karen_brain_primitives: [1, 4]
+key_findings: ["Microbiome changes in composition and function", "Decrease in Akkermansia muciniphila", "Functional changes reflect response to oxidative stress"]
 ---
 
 # Key Claims

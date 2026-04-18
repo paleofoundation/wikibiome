@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, indole, tryptophan, glp-1, gut-microbiome, l
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Indole stimulated in vitro GLP-1 secretion", "Indole drives enteroendocrine L cell differentiation", "Sub-chronic indole administration"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Editorial: How can diet impair thyroid function?"
 type: source
 created: 2026-04-09
@@ -10,18 +9,20 @@ year: 2022
 doi: "10.3389/fendo.2022.1006547"
 tags: [graves-disease, thyroid, autoimmune, diet, selenium, vitamin-D, PFAS, trans-fatty-acids, methimazole, endocrine-disruptors, omega-3, thyroid-cancer, gut-microbiota]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+metals_discussed: [mercury, selenium]
 ---
 
 # Editorial: How can diet impair thyroid function?
 
 ## Key Claims
 
-- Combination therapy of [[selenium]] and cholecalciferol [[vitamin D]] with [[methimazole]] (MMI) for newly-onset [[graves-disease]] resulted in significantly greater reduction in FT4 and better quality of life compared to MMI monotherapy
+- Combination therapy of [[selenium]] and cholecalciferol [[vitamin-d-supplementation]] with [[thyroid-autoimmunity|methimazole]] (MMI) for newly-onset [[graves-disease]] resulted in significantly greater reduction in FT4 and better quality of life compared to MMI monotherapy
 - Reaching optimal Se and VitD levels normalizes thyroid function parameters faster in GD patients
-- Circulating trans fatty acids (TFAs) from processed foods are correlated with [[thyroid function]] biomarkers, though the long-term health implications require further study
-- [[PFAS]] (per- and polyfluoroalkyl substances) can differentially influence TSH-dependent signaling pathways through direct interaction with TSH-R, representing a novel class of thyroid-disrupting chemicals
-- Fish consumption presents a dual dietary dilemma: beneficial [[omega-3]] PUFA content but also exposure to [[mercury]] and other heavy metals, both affecting thyroid function
-- Gut microbiota diversity and richness are markedly decreased in [[thyroid cancer]] patients, with altered metabolomic profiles detected by LC-MS-based metabolomics
+- Circulating trans fatty acids (TFAs) from processed foods are correlated with [[gut-thyroid-axis|thyroid function]] biomarkers, though the long-term health implications require further study
+- [[environmental-metal-exposure|PFAS]] (per- and polyfluoroalkyl substances) can differentially influence TSH-dependent signaling pathways through direct interaction with TSH-R, representing a novel class of thyroid-disrupting chemicals
+- Fish consumption presents a dual dietary dilemma: beneficial [[dietary-metal-microbiome-interactions|omega-3]] PUFA content but also exposure to [[mercury]] and other heavy metals, both affecting thyroid function
+- Gut microbiota diversity and richness are markedly decreased in [[hashimotos-thyroiditis|thyroid cancer]] patients, with altered metabolomic profiles detected by LC-MS-based metabolomics
 - Exposure to famine during the second trimester of pregnancy may have sex-specific effects on thyroid development through permanent alteration of HPT axis setpoints
 
 ## Methods/Findings

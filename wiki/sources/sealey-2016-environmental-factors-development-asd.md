@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, environmental-factors, neurotoxins, glyphosate,
 library_category: environmental
 platform: review
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [aluminum, iron, lead, manganese, mercury, zinc]
 ---
 
 # Overview
@@ -51,7 +53,7 @@ Comprehensive review of **environmental factors associated with ASD development*
 - **[[mercury]]** (methylmercury): prenatal exposure → language, attention, memory dysfunction
 - **[[aluminum]]**: discussed in context of vaccines and environmental exposure
 - **Glyphosate**: chelates [[manganese]], [[zinc]], [[iron]] — disrupts mineral bioavailability and gut microbiome
-- Air pollutants contain [[heavy metals]] (diesel, lead, manganese, mercury, methylene chloride)
+- Air pollutants contain [[heavy-metals]] (diesel, lead, manganese, mercury, methylene chloride)
 
 # Methodological Notes
 

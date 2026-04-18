@@ -12,6 +12,9 @@ library_category: review
 platform: cureva
 condition: "postpartum depression"
 evidence_level: expert-opinion
+metals_discussed: [copper, iron, magnesium, zinc]
+karen_brain_primitives: [4, 5]
+key_findings: ["PPD pathogenesis", "Gut microbes", "Disruptions in gut microbes"]
 ---
 
 # Key Claims

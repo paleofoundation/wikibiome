@@ -1,5 +1,4 @@
 ---
-
 title: "Epidemiology, Causes, and Management of Gastro-esophageal Reflux Disease: A Systematic Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 doi: "10.7759/cureus.47420"
 tags: [gerd, gastroesophageal-reflux, epidemiology, management, systematic-review, proton-pump-inhibitors, hiatal-hernia, fundoplication, lifestyle-modifications, NERD, erosive-esophagitis, barretts-esophagus, magnetic-sphincter-augmentation]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Epidemiology, Causes, and Management of Gastro-esophageal Reflux Disease: A Systematic Review
@@ -17,7 +18,7 @@ platform: wikibiome
 ## Key Claims
 
 - [[gerd]] prevalence ranges from 18.1% to 27.8% in North America, with global frequency of approximately 13% and increasing worldwide incidence
-- GERD can be classified into NERD (most prevalent), erosive esophagitis (EE, 30%), and [[Barretts esophagus]] (6-12% of patients)
+- GERD can be classified into NERD (most prevalent), erosive esophagitis (EE, 30%), and [[barretts-esophagus]] (6-12% of patients)
 - BMI increases the odds ratio for erosive reflux disease in over 6,000 participants; women have marginally higher GERD symptom prevalence (16.7% vs 15.4% in men)
 - Lifestyle modifications include weight reduction, head-of-bed elevation, avoiding foods before night, and dietary trigger avoidance (chocolate, coffee, spicy meals, citrus)
 - Endoscopic therapies (MSA, transoral incisionless fundoplication) have emerged but many discontinued due to lack of long-term efficacy

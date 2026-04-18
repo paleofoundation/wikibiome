@@ -11,13 +11,17 @@ tags: [parkinsons-disease, metagenomics, microbiome-signature, shotgun-sequencin
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, blautia, escherichia-coli, faecalibacterium-prausnitzii, klebsiella-pneumoniae, lactobacillus, roseburia]
+karen_brain_primitives: [1, 2, 4, 5, 8]
 ---
 
 # Metagenomics of Parkinson's Disease Implicates the Gut Microbiome
 
 ## Summary
 
-This large-scale [[shotgun-metagenomics]] study characterizes the gut [[microbiome]] signature of [[parkinsons-disease]] in one of the largest PD metagenomics cohorts to date. The study provides species-level resolution of microbial alterations and identifies functional pathway changes associated with PD.
+This large-scale [[shotgun-metagenomics]] study characterizes the gut [[gut-microbiome|microbiome]] signature of [[parkinsons-disease]] in one of the largest PD metagenomics cohorts to date. The study provides species-level resolution of microbial alterations and identifies functional pathway changes associated with PD.
 
 ## Key Findings
 
@@ -31,7 +35,7 @@ This large-scale [[shotgun-metagenomics]] study characterizes the gut [[microbio
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This landmark study provides the species-level resolution needed to map the PD [[microbiome]] signature to metal-dependent mechanisms. The enrichment of *E. coli* (with its enterobactin siderophore system for [[iron]] piracy) and *Klebsiella* (with iron-scavenging aerobactin) directly implicates metal competition in PD [[dysbiosis]]. The depletion of *Faecalibacterium* and *Roseburia* removes butyrate producers that maintain the hypoxic gut environment and regulate [[iron]] absorption via [[HIF-2alpha]]. The enrichment of LPS biosynthesis genes indicates increased [[TLR4]] ligand production, connecting to [[hepcidin]]-mediated iron trapping. This study anchors the metallomic-microbiome framework in high-resolution metagenomic data.
+This landmark study provides the species-level resolution needed to map the PD [[gut-microbiome|microbiome]] signature to metal-dependent mechanisms. The enrichment of *E. coli* (with its enterobactin siderophore system for [[iron]] piracy) and *Klebsiella* (with iron-scavenging aerobactin) directly implicates metal competition in PD [[dysbiosis]]. The depletion of *Faecalibacterium* and *Roseburia* removes butyrate producers that maintain the hypoxic gut environment and regulate [[iron]] absorption via [[HIF-2alpha]]. The enrichment of LPS biosynthesis genes indicates increased [[tlr4]] ligand production, connecting to [[hepcidin]]-mediated iron trapping. This study anchors the metallomic-microbiome framework in high-resolution metagenomic data.
 
 ## Limitations
 

@@ -34,14 +34,16 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: Identifies alpha-klotho as the mediator converting low-dose Cd/Hg/Pb/Tl exposure into chronic kidney disease risk and uses Mendelian randomization to confirm causal directionality. Provides the mechanistic linchpin for WikiBiome's CKD signature and connects heavy metals to renal pathology at exposures below established regulatory thresholds.
+evidence_level: computational-prediction
+metals_discussed: [cadmium, lead, mercury, thallium]
 ---
 
 # Key Claims
 
 - Among 51 pollutants screened, heavy metals (Cd, Tl, Pb, Hg) were the most impactful on CKD risk via SHAP analysis
-- [[Thallium]] had highest posterior inclusion probability (PIP = 1.0) in BKMR model; [[lead]] PIP = 0.608
+- [[thallium|Thallium]] had highest posterior inclusion probability (PIP = 1.0) in BKMR model; [[lead]] PIP = 0.608
 - Mixed metal exposure showed a negative joint effect (i.e., higher levels associated with reduced CKD risk), likely reflecting reverse causality from impaired renal excretion
-- [[Alpha-klotho]] mediates the Hg-CKD association with 34.55% mediation proportion
+- [[alpha-klotho|Alpha-klotho]] mediates the Hg-CKD association with 34.55% mediation proportion
 - Mendelian randomization confirmed higher alpha-klotho levels causally associated with reduced CKD risk (OR 0.9842)
 - Tl and Pb concentrations significantly negatively correlated with CKD risk after adjustment
 - Cd and Hg associations became non-significant after full adjustment
@@ -61,6 +63,6 @@ why_keystone: Identifies alpha-klotho as the mediator converting low-dose Cd/Hg/
 - Novel mechanism: [[alpha-klotho]] as mediator between metal exposure and [[chronic-kidney-disease]]
 - Klotho's renoprotective functions via [[nf-kappa-b]] suppression and [[oxidative-stress|oxidative stress]] reduction
 - Reverse causality concern: impaired kidneys reduce metal excretion, creating apparent positive association
-- [[Thallium]] nephrotoxicity via ATPase inhibition, catecholamine release, renal vasoconstriction
+- [[thallium|Thallium]] nephrotoxicity via ATPase inhibition, catecholamine release, renal vasoconstriction
 - Connects to [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]] on proximal tubule mechanisms
 - Supports [[danziger-2022-susceptibility-heavy-metal-toxicity-ckd]] on CKD increasing metal susceptibility

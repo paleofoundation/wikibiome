@@ -11,22 +11,26 @@ tags: [parkinsons-disease, mycobiome, gut-fungi, neurodegeneration, gut-brain-ax
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [aspergillus, candida-albicans, malassezia, saccharomyces-cerevisiae]
+karen_brain_primitives: [1, 4, 6]
 ---
 
 # A Fungal World: Could the Gut Mycobiome Be Involved in Neurological Disease?
 
 ## Summary
 
-This review examines the emerging role of the [[gut-mycobiome]] (fungal component of the [[gut-microbiome]]) in neurological diseases including [[parkinsons-disease]], [[alzheimers-disease]], and [[multiple-sclerosis]]. While bacterial dysbiosis in neurodegeneration is well-documented, the mycobiome remains understudied despite fungi comprising a significant proportion of the gut microbial community.
+This review examines the emerging role of the [[mycobiome|gut-mycobiome]] (fungal component of the [[gut-microbiome]]) in neurological diseases including [[parkinsons-disease]], [[alzheimers-disease]], and [[multiple-sclerosis]]. While bacterial dysbiosis in neurodegeneration is well-documented, the mycobiome remains understudied despite fungi comprising a significant proportion of the gut microbial community.
 
 ## Key Findings
 
 - The gut mycobiome is dominated by genera including *[[candida-albicans]]*, *[[saccharomyces]]*, *[[malassezia]]*, and *[[aspergillus]]* in healthy individuals
-- Fungal [[dysbiosis]] is associated with increased intestinal permeability and systemic [[inflammation]] via beta-glucan activation of [[Dectin-1]] receptors
+- Fungal [[dysbiosis]] is associated with increased intestinal permeability and systemic [[inflammation]] via beta-glucan activation of [[mycobiome|Dectin-1]] receptors
 - In [[parkinsons-disease]], altered mycobiome composition may contribute to [[alpha-synuclein]] aggregation through gut-derived inflammatory signals
 - Fungal-bacterial interactions (interkingdom crosstalk) modulate immune responses -- *Candida* expansion often coincides with bacterial dysbiosis
 - The mycobiome influences [[neuroinflammation]] through fungal metabolites that cross the [[blood-brain-barrier]]
-- Fungi produce [[amyloid]]-like proteins that may seed protein misfolding in the CNS
+- Fungi produce [[amyloid-beta|amyloid]]-like proteins that may seed protein misfolding in the CNS
 
 ## Relevance to Gut-Metal-Microbiome Axis
 

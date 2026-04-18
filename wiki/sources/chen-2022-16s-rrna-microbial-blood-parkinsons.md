@@ -11,6 +11,9 @@ tags: [parkinsons-disease, 16S-rRNA-sequencing, blood-microbiome, bacterial-tran
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 4]
 ---
 
 # Detection of Microbial 16S rRNA Gene in the Blood of Patients with Parkinson's Disease

@@ -1,5 +1,4 @@
 ---
-
 title: "Selective pressures of heavy metals on microbial community determine microbial functional roles during composting: Sensitive, resistant and actor"
 type: source
 created: 2026-04-09
@@ -12,6 +11,10 @@ pages: "122858"
 doi: "10.1016/j.jhazmat.2020.122858"
 tags: [heavy-metals, copper, zinc, cadmium, microbial-community, composting, co-selection, microbial-resistance, catalase, protease, oxidative-stress, structural-equation-models, microbial-functional-roles]
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [cadmium, copper, zinc]
+taxa_discussed: [clostridium]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Key Claims

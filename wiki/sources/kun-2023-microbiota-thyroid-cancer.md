@@ -1,5 +1,4 @@
 ---
-
 title: "Exploring the oral-gut microbiota during thyroid cancer: Factors affecting the thyroid functions and cancer development"
 type: source
 created: 2026-04-09
@@ -10,14 +9,18 @@ year: 2023
 tags: [thyroid-cancer, gut-microbiota, oral-microbiota, probiotics, gut-thyroid-axis, lifestyle-factors, iodine, selenium, heavy-metals, dysbiosis]
 doi: "10.1002/fsn3.3538"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, selenium, zinc]
+taxa_discussed: [acinetobacter, alloprevotella, fusobacterium-nucleatum, haemophilus, lactobacillus, streptococcus, treponema]
+karen_brain_primitives: [1, 5]
 ---
 
 # Exploring the oral-gut microbiota during thyroid cancer: Factors affecting the thyroid functions and cancer development
 
 ## Key Claims
 
-- [[Thyroid cancer]] (TC) is increasing in multiple countries and is directly affected by lifestyle changes, nourishment, smoking, alcohol consumption, BMI, and pollutants including [[heavy metals]]
-- Oral and gut [[microbiota]] influence thyroid function indirectly through alteration in metabolites such as short-chain fatty acids (SCFAs) that are critical for cellular energy metabolism
+- [[hashimotos-thyroiditis|Thyroid cancer]] (TC) is increasing in multiple countries and is directly affected by lifestyle changes, nourishment, smoking, alcohol consumption, BMI, and pollutants including [[heavy-metals]]
+- Oral and gut [[gut-microbiome|microbiota]] influence thyroid function indirectly through alteration in metabolites such as short-chain fatty acids (SCFAs) that are critical for cellular energy metabolism
 - Maintenance of healthy gut and oral microbiota can help regulate [[iodine]] uptake; oral or gut microbial dysbiosis can be considered an early diagnosis factor or TC marker
 - High TSH during TC can increase oral microbial diversity while disrupting the high ratio of Firmicutes to Bacteroidetes in the gut
 - [[selenium]], [[zinc]], and [[copper]] are accumulated by probiotics and integrated into essential organic compounds beneficial for thyroid function

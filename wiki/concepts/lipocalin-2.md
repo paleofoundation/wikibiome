@@ -1,5 +1,4 @@
 ---
-
 title: "Lipocalin-2"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [nutritional-immunity, iron-biology, siderophore-defense, innate-immune, inflammatory-marker]
 karen_brain_primitive: "Primitive 2: Nutritional Immunity as Interpretive Constraint; Primitive 8: Siderophore Competition and Iron Ecology"
 platform: wikibiome
+karen_brain_primitives: [2, 4, 6, 8]
+seo_target: "lipocalin-2 microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview

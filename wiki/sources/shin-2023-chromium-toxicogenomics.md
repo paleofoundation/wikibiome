@@ -1,5 +1,4 @@
 ---
-
 title: "Adverse Human Health Effects of Chromium by Exposure Route: A Comprehensive Review Based on Toxicogenomic Approach"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [chromium, toxicogenomics, gene-expression, bioinformatics, dermal-contact, inhalation, ingestion, DNA-damage, cancer, hub-genes]
 doi: "10.3390/ijms24043410"
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [arsenic, cadmium, chromium, nickel]
+key_findings: ["Dermal exposure", "Inhalation exposure"]
 ---
 
 # Adverse Human Health Effects of Chromium by Exposure Route
@@ -37,7 +39,7 @@ platform: wikibiome
 ## Connections
 
 - [[chromium]] - primary subject metal; Cr(VI) is the toxic/carcinogenic form
-- [[DNA Damage]] - common mechanism across all Cr exposure routes
+- [[DNA-damage|DNA Damage]] - common mechanism across all Cr exposure routes
 - - Cr(VI) is IARC Group 1 carcinogen; lung cancer via inhalation, colorectal via ingestion
 - [[nickel]] - also IARC Group 1 carcinogen alongside Cr and Cd
 - [[cadmium]] - mentioned as co-carcinogen with Cr (both IARC Group 1)

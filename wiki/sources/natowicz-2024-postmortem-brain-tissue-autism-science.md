@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, postmortem-brain, neuropathology, brain-donatio
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["Postmortem brain tissue", "Etiological basis", "Many genetic variants"]
 ---
 
 # Key Claims

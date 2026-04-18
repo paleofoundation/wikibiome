@@ -1,5 +1,4 @@
 ---
-
 title: "Gastroesophageal Reflux Disease: A Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 doi: "10.1001/jama.2020.21360"
 tags: [gerd, gastroesophageal-reflux, review, epidemiology, pathophysiology, diagnosis, treatment, proton-pump-inhibitors, barretts-esophagus, esophageal-adenocarcinoma, erosive-esophagitis, fundoplication, lifestyle-modifications, clinical-guidelines]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [helicobacter-pylori]
+karen_brain_primitives: [5]
 ---
 
 # Gastroesophageal Reflux Disease: A Review

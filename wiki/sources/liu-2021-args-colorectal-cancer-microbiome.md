@@ -1,5 +1,4 @@
 ---
-
 title: "Species-Level Analysis of the Human Gut Microbiome Shows Antibiotic Resistance Genes Associated With Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -7,14 +6,17 @@ updated: 2026-04-09
 authors: [Chuanfa Liu, Zhiming Li, Jiahong Ding, Hefu Zhen, Mingyan Fang, Chao Nie]
 journal: Frontiers in Microbiology
 year: 2021
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Microbiology 2021 -->
 tags: [colon-cancer, antibiotic-resistance-genes, ARGs, gut-microbiome, colorectal-cancer, metagenomics, Escherichia-coli, species-level, rSGBs, plasmids]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [alistipes, bifidobacterium, escherichia-coli, faecalibacterium-prausnitzii, porphyromonas]
+karen_brain_primitives: [5, 9]
 ---
 
 # Key Claims
 
-- CRC patients harbor significantly enriched [[antibiotic resistance genes]] (ARGs) in their gut microbiota: 25 species and 65 ARGs were significantly enriched compared to healthy controls
+- CRC patients harbor significantly enriched [[antimicrobial-resistance|antibiotic resistance genes]] (ARGs) in their gut microbiota: 25 species and 65 ARGs were significantly enriched compared to healthy controls
 - 12 multidrug-resistant genes (MRGs) were enriched in CRC, mainly including acrB, TolC, marA, E. coli acrR mutation, and AcrS, conferring resistance to fluoroquinolones, tetracyclines, cephalosporins, and rifamycin antibiotics
 - [[escherichia-coli]] is the primary antibiotic resistance reservoir in CRC patients; 90% of rSGB-sourced ARGs (45 of 50) were found in E. coli
 - CRC patients had higher ARG diversity (Shannon-Wiener index H', P < 0.001) and higher beta diversity of ARGs (NMDS, PERMANOVA P = 0.01, R = 0.0058) compared to controls
@@ -33,8 +35,8 @@ platform: wikibiome
 
 # Connections
 
-- ARG enrichment in CRC patients raises questions about antibiotic use as a CRC risk factor, directly connecting to [[Simin 2020 - Antibiotic Use CRC Risk]] meta-analysis
-- E. coli as primary ARG reservoir connects to [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of E. coli colibactin as a CRC-promoting genotoxin
-- Butyrate-producing species (F. prausnitzii, Anaerobutyricum) depleted in CRC link to [[Rafter 2004 - Probiotics Colon Cancer Development]] and [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] probiotic/FMT restoration strategies
+- ARG enrichment in CRC patients raises questions about antibiotic use as a CRC risk factor, directly connecting to [[simin-2020-antibiotic-use-crc-risk|Simin 2020 - Antibiotic Use CRC Risk]] meta-analysis
+- E. coli as primary ARG reservoir connects to [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of E. coli colibactin as a CRC-promoting genotoxin
+- Butyrate-producing species (F. prausnitzii, Anaerobutyricum) depleted in CRC link to [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] and [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] probiotic/FMT restoration strategies
 - Species-level analysis complements [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] microbiome-as-biomarker discussion
 - [[colorectal-cancer]]

@@ -1,5 +1,4 @@
 ---
-
 title: "A Systematic Review of Microbial Markers for Risk Prediction of Colorectal Neoplasia"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ tags: [colon-cancer, systematic-review, microbial-biomarkers, Fusobacterium-nucl
 doi: "10.1038/s41416-022-01740-7"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+taxa_discussed: [actinomyces, bifidobacterium, enterococcus, fusobacterium-nucleatum, peptostreptococcus, porphyromonas, prevotella, pseudomonas-aeruginosa, roseburia, salmonella, streptococcus, treponema]
 ---
 
 # A Systematic Review of Microbial Markers for Risk Prediction of Colorectal Neoplasia

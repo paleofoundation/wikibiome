@@ -1,5 +1,4 @@
 ---
-
 title: "Profile of intestinal fungal microbiota in acute pancreatitis patients and healthy individuals"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ tags: [pancreatic-cancer, acute-pancreatitis, fungal-microbiota, mycobiome, Cand
 doi: "10.1186/s13099-024-00675-z"
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [aspergillus, candida-albicans]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims

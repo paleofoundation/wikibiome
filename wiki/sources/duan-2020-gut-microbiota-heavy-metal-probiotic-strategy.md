@@ -35,6 +35,10 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Frames the bidirectional relationship between metals and dysbiosis: metals drive dysbiosis, and dysbiosis impairs metal detoxification—a positive feedback loop central to WikiBiome's pathophysiology model. Critical for understanding why probiotic intervention (Lactobacillus, Bifidobacterium) can interrupt metal-driven disease across autism, allergies, and metabolic conditions."
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, lead, mercury, nickel]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, faecalibacterium-prausnitzii, lactobacillus, pseudomonas-aeruginosa]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # Key Claims
@@ -42,7 +46,7 @@ why_keystone: "Frames the bidirectional relationship between metals and dysbiosi
 - [[Gut microbiota]] are the **first line of defense** against heavy metal (HM) toxic effects, with a dynamic, bidirectional interaction
 - HM exposure alters microbiota composition and metabolic profiles at the functional level; in turn, microbiota alter HM absorption by acting as a physical barrier, modifying pH, oxidative balance, and detoxification enzymes
 - The gut microbiota can bioaccumulate, bind, or transform HMs via enzymatic reactions, facilitating fecal excretion
-- Specific microbiota mechanisms include: siderophore production by [[Pseudomonas]], sulfide production by sulfate-reducing bacteria (SRB), oxalate production by [[Oxalobacter formigenes]], and metal transport proteins
+- Specific microbiota mechanisms include: siderophore production by [[pseudomonas-aeruginosa]], sulfide production by sulfate-reducing bacteria (SRB), oxalate production by [[Oxalobacter formigenes]], and metal transport proteins
 - Probiotics (especially [[lactobacillus]] and [[bifidobacterium]]) reduce HM absorption via intestinal sequestration, detoxification, changing metal transporter expression, and maintaining gut barrier
 - Dietary components, soil pH, and host age/sex are possible factors affecting the HM-microbiota relationship
 - HM-induced microbiota changes lead to downstream health effects: weight loss, diabetes, early onset allergy/asthma, increased fat accumulation, autism
@@ -60,8 +64,8 @@ why_keystone: "Frames the bidirectional relationship between metals and dysbiosi
 
 # Connections
 
-- Core reference for [[heavy metals and gut microbiome]] wiki topic
-- Directly supports [[Zhu 2024 - Toxic Essential Metals Gut Microbiota]] on bidirectional framework
-- Probiotic data connects to [[Chen 2022 - Living Microorganisms Detoxification Heavy Metals]] and [[Anchidin-Norocel 2025 - Heavy Metal Gut Microbiota Probiotics Biosensors]]
-- HM-induced metabolite changes link to [[Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
-- Relevant to [[nickel gut microbiome interactions]] as a framework reference, though Ni is not a primary focus
+- Core reference for [[gut-metal-microbiome|heavy metals and gut microbiome]] wiki topic
+- Directly supports [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]] on bidirectional framework
+- Probiotic data connects to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]] and [[Anchidin-Norocel 2025 - Heavy Metal Gut Microbiota Probiotics Biosensors]]
+- HM-induced metabolite changes link to [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
+- Relevant to [[nickel-allergy|nickel gut microbiome interactions]] as a framework reference, though Ni is not a primary focus

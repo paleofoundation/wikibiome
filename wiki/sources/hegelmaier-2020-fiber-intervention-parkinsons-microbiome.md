@@ -11,13 +11,16 @@ tags: [parkinsons-disease, dietary-fiber, microbiome-composition, motor-symptoms
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 5]
 ---
 
 # Interventional Influence of the Intestinal Microbiome Through Dietary Intervention and Bowel Cleansing Might Improve Motor Symptoms in Parkinson's Disease
 
 ## Summary
 
-This interventional study tests whether a high-fiber dietary intervention, combined with bowel cleansing, can modify the gut [[microbiome]] and improve motor symptoms in [[parkinsons-disease]]. It represents one of the first dietary intervention trials specifically targeting the PD microbiome.
+This interventional study tests whether a high-fiber dietary intervention, combined with bowel cleansing, can modify the gut [[gut-microbiome|microbiome]] and improve motor symptoms in [[parkinsons-disease]]. It represents one of the first dietary intervention trials specifically targeting the PD microbiome.
 
 ## Key Findings
 

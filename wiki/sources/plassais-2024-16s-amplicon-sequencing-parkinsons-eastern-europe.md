@@ -11,13 +11,14 @@ tags: [parkinsons-disease, 16S-rRNA-sequencing, amplicon-sequencing, eastern-eur
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+taxa_discussed: [prevotella]
 ---
 
 # Exploring Gut Microbiota Alterations in Parkinson's Disease: Insights from a 16S Amplicon Sequencing Eastern European Pilot Study
 
 ## Summary
 
-This pilot study applies [[16S-rRNA-sequencing]] to characterize the gut microbiota in [[parkinsons-disease]] patients from Eastern Europe, a population underrepresented in PD microbiome research. It provides geographic diversity to the growing body of PD microbiome studies.
+This pilot study applies [[shotgun-metagenomics|16S-rRNA-sequencing]] to characterize the gut microbiota in [[parkinsons-disease]] patients from Eastern Europe, a population underrepresented in PD microbiome research. It provides geographic diversity to the growing body of PD microbiome studies.
 
 ## Key Findings
 
@@ -30,7 +31,7 @@ This pilot study applies [[16S-rRNA-sequencing]] to characterize the gut microbi
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The replication of core PD [[microbiome]] signatures across diverse geographic populations (including this Eastern European cohort) strengthens the case that [[dysbiosis]] in PD reflects a fundamental disease mechanism rather than a geographic or dietary artifact. The consistent depletion of *Prevotella* and enrichment of metal-acquiring Enterobacteriaceae across populations suggests that metal-driven selection pressures shape the PD microbiome universally. Geographic differences in environmental metal exposure (industrial pollution, agricultural practices) may explain the population-specific variations.
+The replication of core PD [[gut-microbiome|microbiome]] signatures across diverse geographic populations (including this Eastern European cohort) strengthens the case that [[dysbiosis]] in PD reflects a fundamental disease mechanism rather than a geographic or dietary artifact. The consistent depletion of *Prevotella* and enrichment of metal-acquiring Enterobacteriaceae across populations suggests that metal-driven selection pressures shape the PD microbiome universally. Geographic differences in environmental metal exposure (industrial pollution, agricultural practices) may explain the population-specific variations.
 
 ## Limitations
 

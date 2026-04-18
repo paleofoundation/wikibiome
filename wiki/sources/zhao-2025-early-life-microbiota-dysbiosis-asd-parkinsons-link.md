@@ -12,6 +12,8 @@ library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: expert-opinion
+karen_brain_primitives: [5]
+key_findings: ["ASD predisposes to neurodegeneration", "Population-based cohort", "Similar dysbiosis-driven immune and metabolic disturbances"]
 ---
 
 # Key Claims

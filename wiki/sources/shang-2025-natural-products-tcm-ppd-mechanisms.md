@@ -11,6 +11,9 @@ tags: [postpartum-depression, traditional-chinese-medicine, natural-products, ne
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["PPD is more prevalent in developing countries", "TCM formulas", "Neuroinflammation"]
 ---
 
 # Key Claims

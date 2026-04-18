@@ -1,5 +1,4 @@
 ---
-
 title: "Environmental Exposures and Autoimmune Diseases: Contribution of Gut Microbiome"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2020
 tags: [autoimmune-diseases, hashimotos-thyroiditis, thyroid, autoimmune, environmental-exposures, gut-microbiome, mercury, silica, pesticides, trichloroethene, pristane, oxidative-stress, SLE, dysbiosis, SCFAs, FMT, probiotics, intestinal-permeability]
 doi: "10.3389/fimmu.2019.03094"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [mercury]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, lachnospiraceae, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Environmental Exposures and Autoimmune Diseases: Contribution of Gut Microbiome

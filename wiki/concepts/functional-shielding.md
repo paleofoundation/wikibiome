@@ -1,5 +1,4 @@
 ---
-
 title: "Functional Shielding"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [interkingdom-interaction, biofilm, immune-evasion, fungal-bacterial-cooperation]
 karen_brain_primitive: "Primitive 6: Interkingdom Relationships and Functional Shielding"
 platform: wikibiome
+karen_brain_primitives: [2, 6]
+seo_target: "functional shielding microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview

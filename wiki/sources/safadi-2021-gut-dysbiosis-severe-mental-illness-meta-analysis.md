@@ -11,6 +11,9 @@ tags: [schizophrenia, dysbiosis, sickness-behavior, gut-barrier, zonulin, LPS, e
 library_category: dysbiosis
 platform: gut
 condition: "Schizophrenia / Severe mental illness"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, iron, lead]
+karen_brain_primitives: [1]
 ---
 
 # Gut dysbiosis in severe mental illness and chronic fatigue: a trans-diagnostic meta-analysis
@@ -31,7 +34,7 @@ This systematic review and meta-analysis investigated proxy biomarkers of gut [[
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This meta-analysis provides quantitative evidence that gut barrier compromise is a feature of schizophrenia and related psychiatric conditions. Elevated zonulin indicates a "leaky gut" that permits systemic entry of bacterial endotoxins and dietary metals ([[iron]], [[lead]], [[cadmium]]). The elevated LPS and sCD14 confirm bacterial translocation that drives [[neuroinflammation]]. The overlap between "sickness behavior" and negative symptoms of schizophrenia strengthens the case for [[immune-balance]] disruption as a core pathogenic mechanism. [[Short-chain-fatty-acids]] depletion from [[dysbiosis]] may remove protective barrier maintenance, amplifying metal and endotoxin translocation.
+This meta-analysis provides quantitative evidence that gut barrier compromise is a feature of schizophrenia and related psychiatric conditions. Elevated zonulin indicates a "leaky gut" that permits systemic entry of bacterial endotoxins and dietary metals ([[iron]], [[lead]], [[cadmium]]). The elevated LPS and sCD14 confirm bacterial translocation that drives [[neuroinflammation]]. The overlap between "sickness behavior" and negative symptoms of schizophrenia strengthens the case for [[immune-balance]] disruption as a core pathogenic mechanism. [[short-chain-fatty-acids]] depletion from [[dysbiosis]] may remove protective barrier maintenance, amplifying metal and endotoxin translocation.
 
 ## Limitations
 

@@ -6,18 +6,22 @@ updated: 2026-04-09
 authors: [Sungyang Jo, Wooyoung Jang, Eungseok Oh]
 year: 2022
 journal: "Journal of Movement Disorders"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Movement Disorders 2022 -->
 tags: [parkinsons-disease, oral-dysbiosis, oral-microbiome, systematic-review, Prevotella, Streptococcus, periodontal-disease, dysbiosis]
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
+taxa_discussed: [porphyromonas, prevotella, streptococcus]
+karen_brain_primitives: [1, 4]
 ---
 
 # Association Between Oral Dysbiosis and Parkinson's Disease: A Systematic Review
 
 ## Summary
 
-This systematic review examines the emerging evidence for oral [[microbiome]] [[dysbiosis]] in [[parkinsons-disease]], extending the focus beyond gut bacteria to include the oral microbial community as a potential contributor to PD pathogenesis.
+This systematic review examines the emerging evidence for oral [[gut-microbiome|microbiome]] [[dysbiosis]] in [[parkinsons-disease]], extending the focus beyond gut bacteria to include the oral microbial community as a potential contributor to PD pathogenesis.
 
 ## Key Findings
 

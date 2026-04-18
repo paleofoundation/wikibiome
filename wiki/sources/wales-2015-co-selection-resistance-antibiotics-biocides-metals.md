@@ -64,7 +64,7 @@ This is the most comprehensive review connecting [[co-selection]] to food safety
 - [[zinc]] -- Zn supplementation in young piglets at 30x basal requirements; major environmental contaminant from livestock
 - [[cobalt]] -- iron, cobalt, manganese added to animal feed; contribute to environmental metal deposits
 - [[biofilm]] -- biofilm formation as cross-resistance mechanism providing both metal sequestration and antibiotic protection
-- [[efflux-pumps]] -- AcrAB-TolC, CzcCBA, and other multi-drug efflux systems as central cross-resistance mechanisms
+- [[antimicrobial-resistance|efflux-pumps]] -- AcrAB-TolC, CzcCBA, and other multi-drug efflux systems as central cross-resistance mechanisms
 - [[gut-metal-microbiome]] -- livestock gut bacteria acquire metal/antibiotic co-resistance that transfers to humans via food
 - [[dietary-nickel-exposure]] -- food-chain transfer of metal-selected resistant bacteria from farm to table
 - [[Salmonella]] -- DT104 as canonical example of chromosomally-encoded multi-resistance linked to metal tolerance

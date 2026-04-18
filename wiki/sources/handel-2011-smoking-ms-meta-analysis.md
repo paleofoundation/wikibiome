@@ -1,5 +1,4 @@
 ---
-
 title: "Smoking and Multiple Sclerosis: An Updated Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2011
 doi: 10.1371/journal.pone.0016149
 tags: [multiple-sclerosis, smoking, risk-factor, meta-analysis, environmental-exposure, secondary-progression]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, lead, nickel]
+karen_brain_primitives: [1, 4]
+key_findings: ["MS susceptibility (conservative model)", "MS susceptibility (non-conservative model)", "Secondary progression"]
 ---
 
 # Smoking and Multiple Sclerosis: An Updated Meta-Analysis

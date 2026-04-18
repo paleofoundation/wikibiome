@@ -18,7 +18,7 @@ key_findings:
   - "T2DM is a systemic inflammatory disease characterized by dysfunctional pancreatic beta-cells and/or peripheral insulin resistance"
   - "Dietary lipids are significant metabolic modulators in T2DM and related complications"
   - "Altered gut microbiota plays an important role in metabolic health via lipid-microbiota interactions"
-karen_brain_primitives: []
+karen_brain_primitives: [1]
 ---
 
 # Key Claims

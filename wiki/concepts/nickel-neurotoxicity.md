@@ -1,5 +1,4 @@
 ---
-
 title: Nickel Neurotoxicity
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [lamtai-2018-nickel-neurobehavior.md, dobrzynska-2025-nickel-children-food.md]
 tags: [nickel, neurotoxicity, oxidative-stress, anxiety, depression, memory]
 platform: wikibiome
+karen_brain_primitives: []
+seo_target: "nickel neurotoxicity microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Nickel Neurotoxicity

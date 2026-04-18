@@ -1,5 +1,4 @@
 ---
-
 title: "Association of the Gut Microbiota with Coronary Artery Disease and Myocardial Infarction: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -12,6 +11,8 @@ tags: [cardiovascular-disease, Mendelian-randomization, gut-microbiota, Ruminoco
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/Association of the gut microbiota with coronary artery disease and myocardial infarction- A Mendelian randomization stud.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [ruminococcus]
 ---
 
 # Key Claims
@@ -33,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Provides [[Mendelian randomization]] evidence for a protective gut microbe in [[cardiovascular-disease]]
-- T2DM mediation connects [[comorbidities]] and [[metabolic pathways]] in CVD-microbiome axis
-- Butyrate-producing *Ruminococcus* relevant to [[short-chain-fatty-acids]] and [[microbial metabolites]] in CVD
-- Complements [[Zhang 2022 - Causal Microbiome CVD MR]] on genus-level causal effects
-- Arterial stiffness correlation extends [[microbial biomarkers]] for vascular health
-- Mediation analysis framework applicable to [[causal microbiome relationships]] research
+- Provides [[mendelian-randomization]] evidence for a protective gut microbe in [[cardiovascular-disease]]
+- T2DM mediation connects [[comorbidities]] and [[fermentative-metabolism|metabolic pathways]] in CVD-microbiome axis
+- Butyrate-producing *Ruminococcus* relevant to [[short-chain-fatty-acids]] and [[short-chain-fatty-acids|microbial metabolites]] in CVD
+- Complements [[zhang-2022-causal-gut-microbiome-cvd-mr|Zhang 2022 - Causal Microbiome CVD MR]] on genus-level causal effects
+- Arterial stiffness correlation extends [[microbial-biomarkers]] for vascular health
+- Mediation analysis framework applicable to [[dysbiosis|causal microbiome relationships]] research

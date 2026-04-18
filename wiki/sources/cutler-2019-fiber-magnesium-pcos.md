@@ -1,5 +1,4 @@
 ---
-
 title: "Low intakes of dietary fiber and magnesium are associated with insulin resistance and hyperandrogenism in polycystic ovary syndrome: A cohort study"
 type: source
 created: 2026-04-09
@@ -10,13 +9,16 @@ year: 2019
 tags: [PCOS, dietary-fiber, magnesium, insulin-resistance, hyperandrogenism, cohort-study, diet]
 doi: "10.1002/fsn3.977"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [magnesium]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
-- Women with [[pcos]] consumed significantly less [[dietary fiber]] (19.6 vs 24.7 g) and [[magnesium]] (238.9 vs 273.9 mg) than women without PCOS, despite similar total caloric intake
-- [[Dietary fiber]] intake and BMI were independent predictors of [[HOMA-IR]], explaining 54% of the variance in [[insulin-resistance]]
-- Low fiber intake may contribute to [[hyperandrogenism]] in PCOS; women with the lowest fiber tertile had significantly higher [[testosterone]] and [[DHEAS]] levels
+- Women with [[pcos]] consumed significantly less [[dietary-fiber]] (19.6 vs 24.7 g) and [[magnesium]] (238.9 vs 273.9 mg) than women without PCOS, despite similar total caloric intake
+- [[dietary-fiber]] intake and BMI were independent predictors of [[insulin-resistance|HOMA-IR]], explaining 54% of the variance in [[insulin-resistance]]
+- Low fiber intake may contribute to [[hyperandrogenism]] in PCOS; women with the lowest fiber tertile had significantly higher [[testosterone]] and [[hyperandrogenism|DHEAS]] levels
 - Obesity in PCOS women could not be explained by overeating or inactivity
 
 # Methods/Findings
@@ -36,4 +38,4 @@ platform: wikibiome
 - Provides direct evidence supporting [[leung-2022-lower-fiber-pcos-meta-analysis]] findings of lower fiber intake in PCOS
 - Connects to [[wang-2022-high-fiber-acarbose-pcos]] showing fiber intervention improves PCOS phenotypes
 - Supports rationale for [[mediterranean-diet]] in PCOS management given its high fiber content, as in [[barrea-2019-mediterranean-diet-pcos]]
-- Relates to [[gut-metal-microbiome|gut microbiota]] composition through fiber's role in producing [[short-chain fatty acids]]
+- Relates to [[gut-metal-microbiome|gut microbiota]] composition through fiber's role in producing [[short-chain-fatty-acids]]

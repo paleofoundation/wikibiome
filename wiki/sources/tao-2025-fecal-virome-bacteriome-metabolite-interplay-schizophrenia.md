@@ -9,6 +9,7 @@ journal: "Translational Psychiatry"
 doi: "10.1038/s41398-025-03239-0"
 tags: [schizophrenia, gut-virome, bacteriome, metabolome, multi-omics, transkingdom-interactions, Coprobacillaceae, Enterococcaceae, Suoliviridae, Rountreeviridae, mediation-analysis, bile-acids, eicosanoids, SCFA, dysbiosis]
 platform: wikibiome
+taxa_discussed: [aspergillus]
 ---
 
 # Why This Paper Matters
@@ -52,9 +53,9 @@ This is the first study to comprehensively characterize the fecal bacteriome, vi
 # Connections
 
 - [[schizophrenia]] -- multi-omics characterization of gut microbiome disruption
-- [[gut-virome]] -- first comprehensive virome-bacteriome-metabolome integration in SCZ
-- [[gut-microbiota]] -- transkingdom correlation disruption as disease feature
-- [[bile-acids]] -- bile acid pathway enrichment in SCZ-associated metabolites
-- [[SCFA]] -- fatty acid and SCFA pathway involvement
+- [[viral-microbiota|gut-virome]] -- first comprehensive virome-bacteriome-metabolome integration in SCZ
+- [[gut-microbiome]] -- transkingdom correlation disruption as disease feature
+- [[bile-acid-metabolism]] -- bile acid pathway enrichment in SCZ-associated metabolites
+- [[short-chain-fatty-acids]] -- fatty acid and SCFA pathway involvement
 - [[dysbiosis]] -- viral dysbiosis mediates bacterial dysbiosis effects
 - [[neuroinflammation]] -- eicosanoid pathway alterations suggesting immune-mediated mechanisms

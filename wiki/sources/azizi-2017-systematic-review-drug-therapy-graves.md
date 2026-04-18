@@ -47,7 +47,7 @@ karen_brain_primitives: [4]
 - [[selenium]] adjunctive role connects to [[brock-2015-selenium-thyroid-autoimmunity]] and [[brylinski-2025-trace-elements-thyroid-diseases]] on trace element support
 - Berberine as ATD adjunct explored in [[han-2022-berberine-methimazole-graves-microbiome]] may enhance remission through [[gut-metal-microbiome]] modulation
 - TRAb as relapse predictor parallels microbiota-TRAb correlations found in [[chen-2021-gut-microbiota-thyroid-graves]]
-- [[Oxidative-stress]] from hyperthyroidism partially addressable through selenium and antioxidant support
+- [[oxidative-stress]] from hyperthyroidism partially addressable through selenium and antioxidant support
 - Drug-induced changes to [[dysbiosis]] patterns warrant consideration given ATD impact on gut flora
 - [[iodine]] status influences treatment response; connects to iodine-thyroid axis in [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 - [[iron]], [[zinc]], and [[copper]] status may affect drug metabolism and therapeutic response

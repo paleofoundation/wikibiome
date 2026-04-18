@@ -28,6 +28,9 @@ tags:
   - metabolic-syndrome
   - review
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [aspergillus, candida-albicans, fusarium, malassezia, mucor, saccharomyces-cerevisiae]
+karen_brain_primitives: [1, 6]
 ---
 
 # Gut Mycobiome in Cardiometabolic Disease Progression: Current Evidence and Future Directions

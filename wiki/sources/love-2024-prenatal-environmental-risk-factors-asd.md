@@ -12,6 +12,8 @@ library_category: "Antidepressants"
 platform: narrative-review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-13"
+evidence_level: expert-opinion
+karen_brain_primitives: [5]
 ---
 
 # Overview

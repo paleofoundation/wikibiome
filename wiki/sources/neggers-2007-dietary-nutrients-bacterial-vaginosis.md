@@ -1,5 +1,4 @@
 ---
-
 title: "Dietary Intake of Selected Nutrients Affects Bacterial Vaginosis in Women"
 type: source
 created: 2026-04-09
@@ -10,14 +9,16 @@ year: 2007
 tags: [bacterial-vaginosis, diet, fat-intake, folate, vitamin-E, calcium, micronutrients, vaginal-flora]
 doi: "10.1093/jn/137.9.2128"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [calcium]
 ---
 
 # Key Claims
 
-- High dietary [[fat intake]] (total, saturated, and monounsaturated) is a significant predictor of both BV and severe [[bacterial vaginosis]], with the risk more than doubling in the highest quartile of total fat intake
-- Higher intakes of [[folate]], [[vitamin E]], and [[calcium]] are associated with significantly decreased risk of severe BV (AOR = 0.4-0.5 for highest vs lowest quartiles)
+- High dietary [[dietary-metal-microbiome-interactions|fat intake]] (total, saturated, and monounsaturated) is a significant predictor of both BV and severe [[bacterial-vaginosis|bacterial vaginosis]], with the risk more than doubling in the highest quartile of total fat intake
+- Higher intakes of [[dietary-metal-microbiome-interactions|folate]], [[oxidative-stress|vitamin E]], and [[calcium]] are associated with significantly decreased risk of severe BV (AOR = 0.4-0.5 for highest vs lowest quartiles)
 - Energy-adjusted total fat was a significant predictor of severe BV; the marginally significant association between BV and total energy intake may be due to confounding by high fat intake
-- [[Protein]] intake was significantly inversely associated with severe BV
+- [[tryptophan|Protein]] intake was significantly inversely associated with severe BV
 
 # Methods/Findings
 
@@ -39,6 +40,6 @@ platform: wikibiome
 
 - First study to evaluate the relationship between BV and total nutritional intake (energy and nutrients)
 - Findings confirmed by [[thoma-2011-bv-dietary-indices]] which found glycemic load associated with BV
-- High fat intake may alter [[vaginal pH]] and mucosal immune function, increasing BV risk
-- Folate/vitamin E findings connect to immune function and [[antioxidant]] defenses against bacterial colonization
+- High fat intake may alter [[bacterial-vaginosis|vaginal pH]] and mucosal immune function, increasing BV risk
+- Folate/vitamin E findings connect to immune function and [[oxidative-stress|antioxidant]] defenses against bacterial colonization
 - Relates to [[noormohammadi-2022-dietary-patterns-bv]] and [[noormohammadi-2022-dietary-acid-load-bv]] on dietary pattern associations

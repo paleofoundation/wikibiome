@@ -15,6 +15,7 @@ karen_brain_primitives: []
 metals_discussed: []
 evidence_level: retrospective-cohort
 taxa_discussed: []
+key_findings: ["No overall association", "Women with infections requiring hospital admission", "Bacterial infections"]
 ---
 
 # Key Claims

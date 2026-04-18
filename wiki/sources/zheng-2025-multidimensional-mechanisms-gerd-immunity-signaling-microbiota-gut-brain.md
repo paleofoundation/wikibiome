@@ -1,5 +1,4 @@
 ---
-
 title: "Multidimensional mechanisms and therapies underlying gastroesophageal reflux disease: focus on immunity, signaling pathways, and the microbiota-gut-brain axis"
 type: source
 created: 2026-04-09
@@ -10,7 +9,7 @@ year: 2025
 doi: "10.3389/fimmu.2025.1629944"
 tags: [gerd, gastroesophageal-reflux, immunity, signaling-pathways, NF-kB, MAPK, PI3K-Akt, microbiota-gut-brain-axis, T-lymphocytes, dendritic-cells, mast-cells, cytokines, LES-dysfunction, traditional-chinese-medicine, berberine, quercetin, fermented-soybean, neuromodulation, immunotherapy, review]
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: []
 evidence_level: expert-opinion
@@ -20,8 +19,8 @@ evidence_level: expert-opinion
 
 ## Key Claims
 
-- [[gerd]] pathogenesis involves bidirectional interactions between psychological stress, [[gut microbiota]] dysbiosis, and GERD pathophysiology via the [[gut-brain axis]]
-- Key signaling pathways driving esophageal [[inflammation]] and barrier dysfunction include [[NF-kB]], [[MAPK]], and [[PI3K]]/Akt, representing potential therapeutic targets
+- [[gerd]] pathogenesis involves bidirectional interactions between psychological stress, [[gut-microbiome]] dysbiosis, and GERD pathophysiology via the [[gut-brain-axis]]
+- Key signaling pathways driving esophageal [[inflammation]] and barrier dysfunction include [[nf-kappa-b|NF-kB]], [[inflammation|MAPK]], and [[metal-carcinogenesis|PI3K]]/Akt, representing potential therapeutic targets
 - Immune cells including T-lymphocytes, dendritic cells, and mast cells, along with pro-inflammatory cytokines, contribute significantly to esophageal inflammation and barrier dysfunction
 - Up to 40% of patients with suspected GERD do not experience adequate symptomatic relief after PPIs ("refractory GERD"), highlighting the need for mechanism-driven treatments
 - From 1990 to 2019, the overall number of people with GERD rose by 77.53%, with 10-20% prevalence in Western nations

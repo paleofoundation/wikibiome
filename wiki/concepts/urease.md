@@ -1,5 +1,4 @@
 ---
-
 title: Urease
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md, campanale-2014-nickel-free-diet-h-pylori.md, pendergrass-2026-fertilizers-heavy-metals-historical.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, akbari-2022-metal-homeostasis-streptococci.md]
 tags: [nickel-enzyme, urease, virulence, acid-resistance, biofilm, urinary-stones, NEC, H-pylori, nickel, metalloenzyme]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 6]
+seo_target: "urease microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Urease

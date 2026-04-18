@@ -1,5 +1,4 @@
 ---
-
 title: "Altered Composition of Microbiota in Women with Ovarian Endometrioma: Microbiome Analyses of Extracellular Vesicles in the Peritoneal Fluid"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 tags: [endometriosis, peritoneal-fluid, microbiome, extracellular-vesicles, dysbiosis, Acinetobacter, Pseudomonas, Streptococcus, 16S-rRNA]
 doi: "10.3390/ijms22094608"
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [acinetobacter, actinomyces, propionibacterium, pseudomonas-aeruginosa, streptococcus]
 ---
 
 # Key Claims

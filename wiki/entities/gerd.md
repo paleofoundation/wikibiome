@@ -184,4 +184,4 @@ The GERD→Barrett's→EAC progression represents a well-documented example of h
 - [[lachnospiraceae]] -- Causally protective (OR=0.91); SCFA production as mechanism; depleted across multiple GI diseases
 - [[candida-albicans]] -- PPI-promoted expansion in gastric mucosa (96.9% detection); potential driver of persistent symptoms through visceral hypersensitivity
 - [[barretts-esophagus]] -- Microbiome progression: Leptotrichia ↑48%, Streptococcus ↓45% from GERD to EAC
-- [[sibo]] -- Significantly associated with GERD (P=0.007); ABC transporter metabolite disruption in overlap
+- [[dysbiosis|sibo]] -- Significantly associated with GERD (P=0.007); ABC transporter metabolite disruption in overlap

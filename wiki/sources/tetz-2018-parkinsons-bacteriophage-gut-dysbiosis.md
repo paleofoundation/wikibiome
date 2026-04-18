@@ -11,6 +11,9 @@ tags: [parkinsons-disease, bacteriophages, phage-therapy, gut-dysbiosis, Lactoco
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [1]
 ---
 
 # Bacteriophage and Gut Dysbiosis in Parkinson's Disease

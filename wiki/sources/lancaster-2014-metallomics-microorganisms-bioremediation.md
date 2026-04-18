@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, metallomics, metalloproteins, bioremediation, D
 library_category: heavy-metals
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [chromium, copper, uranium, zinc]
+taxa_discussed: [desulfovibrio, enterobacter]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims

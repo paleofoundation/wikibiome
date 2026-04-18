@@ -37,7 +37,7 @@ Narrative review on neuroinflammatory contributions to PMS/PMDD pathophysiology 
 
 ## Relevance to WikiBiome
 
-- **Concept pages:** [[kynurenine-pathway]], [[tryptophan-metabolism]], [[gaba-a-receptor]], [[bdnf]], [[neuroinflammation]].
+- **Concept pages:** [[kynurenine-pathway]], [[tryptophan-metabolism]], [[gut-brain-axis|gaba-a-receptor]], [[gut-brain-axis|bdnf]], [[neuroinflammation]].
 - **Signature page:** [[pmdd-signature]] — adds neuroinflammation + tryptophan-axis mechanistic layer.
 
 ## Relevance to Cureva

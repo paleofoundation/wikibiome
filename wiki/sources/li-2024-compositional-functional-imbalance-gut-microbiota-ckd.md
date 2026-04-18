@@ -9,6 +9,8 @@ journal: "Journal of Translational Medicine"
 doi: "10.1186/s12967-024-05578-w"
 tags: [chronic-kidney-disease, CKD, gut-microbiota, CKD-subtypes, Klebsiella, Akkermansia, membranous-nephropathy, IgA-nephropathy, 16S-rRNA]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [akkermansia-muciniphila, klebsiella-pneumoniae]
 ---
 
 # Compositional and Functional Imbalance of Gut Microbiota in CKD

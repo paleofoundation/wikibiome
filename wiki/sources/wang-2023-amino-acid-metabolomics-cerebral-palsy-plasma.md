@@ -39,7 +39,7 @@ key_findings:
 ## Relevance to WikiBiome
 
 - Strengthens [[cerebral-palsy]] disease entity page with a metabolomic dimension: reduced tryptophan and BAIBA are systemic signatures.
-- Feeds [[tryptophan]] / tryptophan-kynurenine concept page: reduced plasma Trp in CP aligns with the hypothesis of altered gut-microbial tryptophan metabolism (indole pathway) affecting brain development.
+- Feeds [[tryptophan-metabolism]] / tryptophan-kynurenine concept page: reduced plasma Trp in CP aligns with the hypothesis of altered gut-microbial tryptophan metabolism (indole pathway) affecting brain development.
 - Informs the gut-brain axis narrative for CP: amino acid dysregulation is measurable in plasma and correlates with prematurity.
 - Taurine depletion in preterm CP connects to [[bile-acid-metabolism]] (taurine-conjugated bile acids) and potential neurosteroid signaling.
 

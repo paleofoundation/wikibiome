@@ -1,5 +1,4 @@
 ---
-
 title: "Perimenarchal air pollution exposure and menstrual disorders"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2018
 tags: [air-pollution, particulate-matter, TSP, menstrual-irregularity, androgen-excess, menarche, PCOS, NHSII, reproductive-health, endocrine-disruption]
 doi: "10.1093/humrep/dey005"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [lead, selenium]
 ---
 
 # Key Claims
@@ -39,9 +40,9 @@ platform: wikibiome
 
 # Connections
 
-- Relevant to [[air pollution]] and [[endocrine disruption]] as environmental exposures affecting [[reproductive health]]
-- TSP contains [[lead]], [[selenium]], and other metals relevant to [[metals and mental health]] and [[metal toxicology]]
+- Relevant to [[environmental-metal-exposure|air pollution]] and [[endocrine-disruption|endocrine disruption]] as environmental exposures affecting [[female-infertility|reproductive health]]
+- TSP contains [[lead]], [[selenium]], and other metals relevant to [[heavy-metal-neurotoxicity|metals and mental health]] and [[heavy-metals|metal toxicology]]
 - Complements [[hu-2025-traffic-air-pollution-hdp-postpartum-depression]] on air pollution and maternal mental health
 - The menstrual irregularity-PCOS connection links to [[pcos]] literature and metal exposures
-- PM10 has been reported to have antiestrogenic effects, and air pollution components may demonstrate estrogenic/androgenic activity relevant to [[endocrine disruption]]
+- PM10 has been reported to have antiestrogenic effects, and air pollution components may demonstrate estrogenic/androgenic activity relevant to [[endocrine-disruption|endocrine disruption]]
 - Supports the concept that adolescent environmental exposures during critical developmental windows can have lasting reproductive consequences

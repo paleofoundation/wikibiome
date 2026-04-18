@@ -10,6 +10,7 @@ doi: "10.3389/fmicb.2024.1336101"
 tags: [ovarian-cancer, cervical-cancer, Mendelian-randomization, gut-microbiota, Clostridia, Bacteroidetes, bidirectional]
 platform: wikibiome
 evidence_level: mendelian-randomization
+taxa_discussed: [dialister]
 ---
 
 # Causal Correlation Between Gut Microbiota and Cervical Cancer Pathogenesis

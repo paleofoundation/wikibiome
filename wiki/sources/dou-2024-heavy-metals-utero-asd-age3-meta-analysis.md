@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, cadmium, cesium, prenatal-exposure, heavy-metal
 library_category: heavy-metals
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium]
+key_findings: ["Cadmium concentration above detection level", "Doubling of cesium concentration", "Third trimester cesium doubling"]
 ---
 
 # Key Claims

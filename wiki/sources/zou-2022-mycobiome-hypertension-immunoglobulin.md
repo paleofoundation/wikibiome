@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Mycobiome Dysbiosis Contributes to the Development of Hypertension and Its Response to Immunoglobulin Light Chains"
 type: source
 created: 2026-04-09
@@ -13,6 +12,8 @@ source_pdf: "raw/cardiovascular disease/Mycobiome cardiovascular disease/Gut myc
 pages_read: "1-8"
 platform: wikibiome
 evidence_level: cross-sectional
+taxa_discussed: [aspergillus, candida-albicans, cladosporium, malassezia]
+karen_brain_primitives: [5, 6]
 ---
 
 # Key Claims
@@ -36,8 +37,8 @@ evidence_level: cross-sectional
 # Connections
 
 - First study demonstrating gut [[mycobiome]] dysbiosis in prehypertension and hypertension
-- *Malassezia*-LC association links [[fungal dysbiosis]] to immune activation in [[cardiovascular-disease]]
-- *Mortierella* depletion as protective marker extends [[microbial biomarkers]] to fungal kingdom
-- Complements [[Qiu 2023 - Gut Mycobiome HTN CKD]] on hypertension fungal profiles
-- LC dysregulation connects to [[microbiome and immune system]] in CVD pathogenesis
-- Prehypertension fungal changes suggest early [[microbiome and disease progression]] markers
+- *Malassezia*-LC association links [[mycobiome|fungal dysbiosis]] to immune activation in [[cardiovascular-disease]]
+- *Mortierella* depletion as protective marker extends [[microbial-biomarkers]] to fungal kingdom
+- Complements [[qiu-2023-gut-mycobiome-hypertension-ckd|Qiu 2023 - Gut Mycobiome HTN CKD]] on hypertension fungal profiles
+- LC dysregulation connects to [[inflammation|microbiome and immune system]] in CVD pathogenesis
+- Prehypertension fungal changes suggest early [[dysbiosis|microbiome and disease progression]] markers

@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiome and Plasma Microbiome-Related Metabolites in Patients With Decompensated and Compensated Heart Failure"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2019
 doi: 10.1253/circj.CJ-18-0468
 tags: [cardiovascular-disease, CVD, heart-failure, gut-microbiome, TMAO, indoxyl-sulfate, Actinobacteria, Bifidobacterium, Megamonas, metabolites, decompensated, compensated, 16S-rRNA]
 platform: wikibiome
+evidence_level: prospective-cohort
+taxa_discussed: [bifidobacterium, escherichia-coli, shigella]
 ---
 
 # Gut Microbiome and Plasma Microbiome-Related Metabolites in Patients With Decompensated and Compensated Heart Failure
@@ -47,7 +48,7 @@ Prospective study comparing gut microbiome composition and circulating microbiom
 
 ## Relevance to the Wiki
 
-First study to characterize both gut microbiome and circulating metabolites across the decompensated and compensated phases of [[heart-failure]]. The *Escherichia/Shigella*-TMAO-indoxyl sulfate axis in HF provides mechanistic links between gut [[dysbiosis]], uremic toxin production, and cardiac decompensation. Complements [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on the HF stage of the cardiometabolic disease spectrum.
+First study to characterize both gut microbiome and circulating metabolites across the decompensated and compensated phases of [[cardiovascular-disease|heart-failure]]. The *Escherichia/Shigella*-TMAO-indoxyl sulfate axis in HF provides mechanistic links between gut [[dysbiosis]], uremic toxin production, and cardiac decompensation. Complements [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on the HF stage of the cardiometabolic disease spectrum.
 
 ## Connections
 

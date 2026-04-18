@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, dysbiosis, cytokines, inflammation, Clostridium
 library_category: immune-microbiome
 platform: 16S-rRNA-V4
 condition: "autism spectrum disorder"
+evidence_level: case-control
+metals_discussed: [iron, zinc]
+taxa_discussed: [bacteroides-fragilis, clostridium, desulfovibrio, lachnospiraceae, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Overview
@@ -47,7 +51,7 @@ No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22
 - **[[clostridium]]** (FDR p < 0.001)
 - **[[desulfovibrio]]** (FDR p < 0.001)
 - **[[streptococcus-pneumoniae]]** (FDR p < 0.05)
-- Also: [[Neisseria]], [[bacillus]], [[Streptomyces]]
+- Also: [[neisseria-meningitidis|Neisseria]], [[bacillus]], [[Streptomyces]]
 
 ## Cytokine-Microbiota Correlations
 
@@ -72,7 +76,7 @@ No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22
 **High relevance** — links [[dysbiosis]], [[inflammation]], and metabolite production:
 
 - Elevated [[desulfovibrio]] is a sulfate-reducing genus that produces hydrogen sulfide and can mobilize [[iron]] and other metals
-- Depleted [[bacteroides-fragilis]] reduces [[SCFA]] production — [[butyrate]] is critical for [[iron]] transporter expression
+- Depleted [[bacteroides-fragilis]] reduces [[short-chain-fatty-acids]] production — [[butyrate]] is critical for [[iron]] transporter expression
 - Pro-inflammatory cytokine storm (IL-6, TNF-alpha, IFN-gamma) drives [[zinc]] redistribution via metallothionein induction
 - [[clostridium]] enrichment links to [[p-cresol]] production — a known uremic toxin affecting metal metabolism
 - Co-abundance network disruption suggests loss of ecological stability

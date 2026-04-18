@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, metabolomics, untargeted, review, inborn-errors
 library_category: metabolomics
 platform: review
 condition: "autism spectrum disorder"
+metals_discussed: [arsenic, iron, lead, mercury, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Overview

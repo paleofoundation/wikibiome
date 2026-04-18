@@ -43,7 +43,7 @@ Multi-model study: mouse NEC model, neonatal piglet model, human intestinal tiss
 ## Relevance to Cureva
 
 - **Intervention hypothesis:** maternal diet (cruciferous vegetables / I3C) as prenatal NEC prevention.
-- Supports [[breast-milk]] as a multi-mechanism AHR-activating intervention (primitive 5, 6).
+- Supports [[infant-exposure|breast-milk]] as a multi-mechanism AHR-activating intervention (primitive 5, 6).
 - **Triangle completion:** animal-model evidence (I→D) plus mechanistic (f→D) — needs human RCT.
 
 ## Contradictions / Tensions

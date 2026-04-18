@@ -1,5 +1,4 @@
 ---
-
 title: "Gut microbiome: a new player in gastrointestinal disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2018
 doi: "10.1007/s00428-017-2277-x"
 tags: [gerd, gastroesophageal-reflux, gut-microbiome, spatial-organization, dysbiosis, inflammation, carcinogenesis, fecal-microbiota-transplantation, SCFAs, bile-acids, mucus-layer, esophageal-microbiome, gastric-microbiome, review]
 platform: wikibiome
+taxa_discussed: [akkermansia-muciniphila, lactobacillus, streptococcus, veillonella]
+karen_brain_primitives: [5]
 ---
 
 # Gut microbiome: a new player in gastrointestinal disease
@@ -19,9 +20,9 @@ platform: wikibiome
 - The GI microbiome is spatially organized along the longitudinal axis, with the acidic pH and oxygen of the upper GI tract limiting colonization to acid- and oxygen-tolerant bacteria (e.g., *[[lactobacillus]]*, *[[streptococcus]]*, *[[veillonella]]*)
 - The total number of microbes increases from the esophagus to the distal colon, from 10^1 to 10^12 microbes per gram, with distinct community compositions at each segment
 - The mucus layer architecture differs by GI segment: continuous in stomach and colon, discontinuous in small intestine; specific microbes like *Akkermansia muciniphila* can degrade the outer mucus layer
-- [[Dysbiosis]] is a loss of bacterial-host homeostasis that can elicit inflammatory responses, alter signaling pathways, and promote carcinogenesis
-- [[Fecal microbiota transplantation]] represents an approach to restore disturbed microbiome compositions and promote health
-- Up to 10% of daily consumed calories are provided by gut bacteria via fermentation of complex plant-derived polysaccharides into [[SCFAs]] (e.g., butyrate)
+- [[dysbiosis]] is a loss of bacterial-host homeostasis that can elicit inflammatory responses, alter signaling pathways, and promote carcinogenesis
+- [[fmt-intervention]] represents an approach to restore disturbed microbiome compositions and promote health
+- Up to 10% of daily consumed calories are provided by gut bacteria via fermentation of complex plant-derived polysaccharides into [[short-chain-fatty-acids]] (e.g., butyrate)
 
 ## Methods/Findings
 

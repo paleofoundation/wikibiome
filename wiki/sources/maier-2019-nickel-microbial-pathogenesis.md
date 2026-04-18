@@ -1,5 +1,4 @@
 ---
-
 title: "Role of Nickel in Microbial Pathogenesis"
 type: source
 created: 2026-04-09
@@ -14,6 +13,10 @@ platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 4, 5]
 why_keystone: "This paper established that nickel serves as an essential cofactor for virulence enzymes across more than 40 prokaryotic and 9 eukaryotic pathogens — and that mammals produce no known nickel-requiring proteins. That single asymmetry is the foundation of WikiBiome's metallomics thesis: nickel restriction could disable pathogen virulence without harming the host. Without this paper, WikiBiome could not explain why nickel contamination in agriculture selects for pathogenic organisms in the gut, a connection that underpins the metallomic layer of multiple disease signatures."
+evidence_level: animal-model
+metals_discussed: [cadmium, iron, nickel, zinc]
+taxa_discussed: [campylobacter-jejuni, escherichia-coli, helicobacter-pylori, klebsiella-pneumoniae, proteus, salmonella, shigella, staphylococcus-aureus, ureaplasma]
+karen_brain_primitives: [1, 2, 4, 8]
 ---
 
 # Role of Nickel in Microbial Pathogenesis

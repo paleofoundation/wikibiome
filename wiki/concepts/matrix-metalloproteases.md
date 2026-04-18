@@ -1,5 +1,4 @@
 ---
-
 title: Matrix Metalloproteases (MMPs)
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [huang-2024-zinc-intake-endometriosis-risk, zhang-2022-metallomics-cancer-review, cassat-2012-metal-acquisition-staphylococcus-aureus, akbari-2022-metal-homeostasis-streptococci, maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care]
 tags: [zinc, metalloproteases, MMPs, tissue-invasion, cancer, endometriosis, extracellular-matrix, TIMPs, collagenase, gelatinase, microbial-proteases]
 platform: wikibiome
+karen_brain_primitives: [2, 4]
+seo_target: "matrix metalloproteases mmps microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Matrix Metalloproteases (MMPs)
@@ -103,7 +105,7 @@ Environmental metal exposure may dysregulate MMP expression and activity through
 - **ROS-mediated activation**: Heavy metals generate reactive oxygen species that can activate pro-MMPs via the cysteine switch mechanism.
 - **NF-kB activation**: Many heavy metals activate NF-kB signaling, which transcriptionally upregulates MMP expression.
 - **TIMP suppression**: Some metals suppress TIMP expression, shifting the MMP/TIMP balance toward net proteolysis.
-- **Cadmium as zinc mimic**: Cadmium (a known [[metalloestrogen]]) can displace zinc from metalloproteins, potentially dysregulating MMP function in reproductive tissues.
+- **Cadmium as zinc mimic**: Cadmium (a known [[metalloestrogens|metalloestrogen]]) can displace zinc from metalloproteins, potentially dysregulating MMP function in reproductive tissues.
 
 ## Key Sources
 

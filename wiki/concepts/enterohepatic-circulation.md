@@ -1,5 +1,4 @@
 ---
-
 title: "Enterohepatic Circulation"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [estrobolome, bile-acid-metabolism, drug-metabolism, enterohepatic-recycling]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
 platform: wikibiome
+karen_brain_primitives: [2, 7]
+seo_target: "enterohepatic circulation microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview

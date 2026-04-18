@@ -44,17 +44,17 @@ Cross-sectional shotgun metagenomic analysis. 41 women: 11 PCOS+obese (PO), 8 PC
 
 ## Relevance to WikiBiome
 
-- **[[polycystic-ovary-syndrome]]** entity page — add vaginal microbiome signature beyond the gut-centric PCOS literature. Document that obesity and PCOS produce *different* vaginal signatures.
+- **[[pcos|polycystic-ovary-syndrome]]** entity page — add vaginal microbiome signature beyond the gut-centric PCOS literature. Document that obesity and PCOS produce *different* vaginal signatures.
 - **[[lactobacillus-iners]]** entity — reinforces iners-as-dysbiosis-marker; iners does not correlate with S. aureus suppression.
 - **[[lactobacillus-crispatus]]** entity — confirms protective role; positive correlation with protective phages.
-- **[[vaginal-microbiome]]** concept page — add shotgun-level resolution data on non-Lactobacillus species including rare pathobionts (*Leptospira santarosai*, *Listeria ivanovii*).
-- **[[bacteriophages]]** / **[[vaginal-virome]]** concept — add phage-bacterium coevolution as an unappreciated eubiosis mechanism.
+- **[[bacterial-vaginosis|vaginal-microbiome]]** concept page — add shotgun-level resolution data on non-Lactobacillus species including rare pathobionts (*Leptospira santarosai*, *Listeria ivanovii*).
+- **[[bacteriophages]]** / **[[viral-microbiota|vaginal-virome]]** concept — add phage-bacterium coevolution as an unappreciated eubiosis mechanism.
 
 ## Relevance to Cureva
 
 - **[[pcos-signature]]** taxonomic layer: add vaginal compartment pathobionts as distinct from gut layer.
 - **Intervention candidate**: Lactobacillus phage supplementation (or preservation via avoidance of broad-spectrum antibiotics) as a phage-mediated route to restore L. crispatus-dominance.
-- **[[endometriosis-signature]]** and **[[recurrent-implantation-failure]]** cross-reference: many of the pathobionts enriched in PCOS+obese vagina (Streptococcus, Staphylococcus, Clostridium perfringens) overlap with infertility signatures.
+- **[[endometriosis-signature]]** and **[[female-infertility|recurrent-implantation-failure]]** cross-reference: many of the pathobionts enriched in PCOS+obese vagina (Streptococcus, Staphylococcus, Clostridium perfringens) overlap with infertility signatures.
 - Karen's Brain Primitive 7 (estrobolome / hormone recirculation) — PCOS hyperandrogenism + dysbiosis creates conditions similar to the estrogen-recirculation dysbiosis in endometriosis; supports [[shared-pcos-endometriosis-signature]].
 
 ## Contradictions / Tensions

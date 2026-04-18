@@ -30,8 +30,8 @@ key_findings:
 - [[iron]] is the "concert master" in Parkinson's disease (PD) pathology: it accumulates age-dependently in the substantia nigra pars compacta (SNpc), and this accumulation is significantly increased in PD beyond normal aging
 - The pathology likely spreads in a prion-like manner from the gut via the vagus nerve and/or the olfactory system to the brain, fitting the bottom-up (gut-brain) hypothesis of PD rather than the top-down model
 - [[ferroptosis]] -- iron-dependent regulated cell death characterized by lipid hydroperoxide accumulation -- is a key mechanism in dopaminergic neuron loss in PD
-- [[Hepcidin]], a regulator of iron absorption and tissue distribution, is suggested to play a major role in iron dyshomeostasis and risk for alpha-synuclein pathology
-- [[Neuromelanin]] (NM), the major intraneuronal chelator of iron, undergoes an age-dependent increase in the SNpc and its interaction with iron is central to PD pathogenesis
+- [[hepcidin]], a regulator of iron absorption and tissue distribution, is suggested to play a major role in iron dyshomeostasis and risk for alpha-synuclein pathology
+- [[parkinsons-disease|Neuromelanin]] (NM), the major intraneuronal chelator of iron, undergoes an age-dependent increase in the SNpc and its interaction with iron is central to PD pathogenesis
 
 # Methods/Findings
 
@@ -53,7 +53,7 @@ key_findings:
 
 # Why This Paper Matters
 
-This review provides the most comprehensive integration of iron biology with PD pathogenesis available, positioning iron not as a secondary bystander but as the central orchestrator of disease. For the wiki's framework connecting [[heavy-metals]] to neurodegeneration, this paper is foundational because it: (1) demonstrates concrete molecular mechanisms by which iron excess drives neuronal death through ferroptosis, oxidative stress, and protein aggregation; (2) connects iron dyshomeostasis to the [[gut-brain-axis]] via the bottom-up hypothesis; (3) identifies hepcidin as a druggable target linking systemic iron regulation to brain pathology; and (4) links viral infections (including [[COVID-19]]) to iron-mediated neurodegeneration. The paper's "concert master" metaphor captures how iron dysregulation coordinates multiple pathogenic pathways simultaneously.
+This review provides the most comprehensive integration of iron biology with PD pathogenesis available, positioning iron not as a secondary bystander but as the central orchestrator of disease. For the wiki's framework connecting [[heavy-metals]] to neurodegeneration, this paper is foundational because it: (1) demonstrates concrete molecular mechanisms by which iron excess drives neuronal death through ferroptosis, oxidative stress, and protein aggregation; (2) connects iron dyshomeostasis to the [[gut-brain-axis]] via the bottom-up hypothesis; (3) identifies hepcidin as a druggable target linking systemic iron regulation to brain pathology; and (4) links viral infections (including [[long-covid|COVID-19]]) to iron-mediated neurodegeneration. The paper's "concert master" metaphor captures how iron dysregulation coordinates multiple pathogenic pathways simultaneously.
 
 # Connections
 
@@ -68,5 +68,5 @@ This review provides the most comprehensive integration of iron biology with PD 
 - [[hepcidin]] -- regulator of iron absorption; dysfunction suggested as key contributor to PD iron dyshomeostasis
 - [[copper]] -- mentioned as co-factor in redox-active metal toxicity alongside iron
 - [[manganese]] -- noted in context of neuromelanin metal binding
-- [[COVID-19]] -- SARS-CoV-2/TMPRSS6/hepcidin interaction may trigger PD via iron dysregulation
+- [[long-covid|COVID-19]] -- SARS-CoV-2/TMPRSS6/hepcidin interaction may trigger PD via iron dysregulation
 - [[benoit-2021-nickel-chelator-dmg-amyloid-beta]] -- complementary study on nickel's role in amyloid aggregation and metal chelation as therapeutic strategy

@@ -38,7 +38,7 @@ Review of macronutrient, micronutrient, and bioactive components of human milk w
 ## Relevance to WikiBiome
 
 - **Entity pages:** [[zinc]], [[selenium]], [[calcium]], [[iron]], [[bifidobacterium]], [[lactobacillus]], [[faecalibacterium-prausnitzii]].
-- **Concept pages:** [[ahr]], [[nutritional-immunity]], [[hmos]].
+- **Concept pages:** [[ahr]], [[nutritional-immunity]], [[prebiotics|hmos]].
 
 ## Relevance to Cureva
 

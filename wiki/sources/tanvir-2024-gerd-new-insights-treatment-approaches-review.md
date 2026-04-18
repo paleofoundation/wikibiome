@@ -1,5 +1,4 @@
 ---
-
 title: "Gastroesophageal Reflux Disease: New Insights and Treatment Approaches"
 type: source
 created: 2026-04-09
@@ -10,13 +9,15 @@ year: 2024
 doi: "10.7759/cureus.67654"
 tags: [gerd, gastroesophageal-reflux, pathophysiology, LES-dysfunction, TLESRs, esophageal-motility, hiatal-hernia, barretts-esophagus, esophageal-adenocarcinoma, erosive-esophagitis, diagnosis, treatment, proton-pump-inhibitors, personalized-medicine, microbiome, review]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+karen_brain_primitives: [5]
 ---
 
 # Gastroesophageal Reflux Disease: New Insights and Treatment Approaches
 
 ## Key Claims
 
-- [[gerd]] pathophysiology is complex and multifactorial, involving LES dysfunction, transient lower esophageal sphincter relaxations (TLESRs), esophageal motility disorders, [[hiatal hernia]], and impaired mucosal barrier function
+- [[gerd]] pathophysiology is complex and multifactorial, involving LES dysfunction, transient lower esophageal sphincter relaxations (TLESRs), esophageal motility disorders, [[gerd|hiatal hernia]], and impaired mucosal barrier function
 - Up to 70% of patients with typical GERD symptoms have normal endoscopic findings, highlighting the diagnostic challenge and need for advanced techniques
 - The microbiome has emerged as a potential target in GERD pathogenesis and as a therapeutic target, connecting [[dysbiosis]] to disease development
 - Novel treatment strategies include potassium-competitive acid blockers, endoscopic therapies, and minimally invasive surgical techniques beyond traditional PPIs

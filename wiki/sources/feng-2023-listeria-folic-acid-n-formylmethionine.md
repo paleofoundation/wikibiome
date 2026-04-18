@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, listeria-monocytogenes, folic-acid, N-formylmet
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+taxa_discussed: [listeria]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Intestinal microbiota regulates the gut-thyroid axis: the new dawn of improving Hashimoto thyroiditis"
 type: source
 created: 2026-04-09
@@ -13,7 +12,7 @@ platform: wikibiome
 evidence_level: expert-opinion
 karen_brain_primitives: [5]
 metals_discussed: ["iodine", "selenium"]
-taxa_discussed: []
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, dorea, eubacterium, faecalibacterium-prausnitzii, lactobacillus, roseburia, ruminococcus]
 ---
 
 # Intestinal microbiota regulates the gut-thyroid axis: the new dawn of improving Hashimoto thyroiditis
@@ -26,7 +25,7 @@ taxa_discussed: []
 - [[selenium]] supplementation increases Treg proportion, suppresses pro-inflammatory cytokine secretion, and delays thyroid follicular cell apoptosis in autoimmune thyroid disease
 - [[iodine]] excess can trigger thyroiditis and hypothyroidism through increased ROS production in thyroid follicular cells
 - Gut [[dysbiosis]] damages intestinal barrier integrity, increases intestinal permeability, and promotes bacterial translocation that activates systemic immune responses against thyroid antigens
-- Microbial metabolites including SCFAs, [[bile acids]], and tryptophan derivatives (indoles) play important roles in immune regulation relevant to HT pathogenesis
+- Microbial metabolites including SCFAs, [[bile-acid-metabolism]], and tryptophan derivatives (indoles) play important roles in immune regulation relevant to HT pathogenesis
 
 ## Methods/Findings
 

@@ -11,6 +11,10 @@ tags: [parkinsons-disease, oral-microbiome, dysbiosis, systematic-review, Strept
 library_category: signatures
 platform: oral
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, lead, manganese, nickel]
+taxa_discussed: [porphyromonas, prevotella, streptococcus, treponema]
+karen_brain_primitives: [1, 4]
 ---
 
 # Association Between Oral Dysbiosis and Parkinson's Disease: A Systematic Review

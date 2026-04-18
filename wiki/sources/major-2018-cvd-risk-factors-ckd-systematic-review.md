@@ -1,5 +1,4 @@
 ---
-
 title: "Cardiovascular Disease Risk Factors in Chronic Kidney Disease: A Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -12,6 +11,7 @@ tags: [cardiovascular-disease, chronic-kidney-disease, meta-analysis, systematic
 source_pdf: "raw/cardiovascular disease/Meta-analysis cardiovascular disease/Cardiovascular disease risk factors in chronic kidney disease- a systematic review and meta-analysis.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims
@@ -36,8 +36,8 @@ platform: wikibiome
 # Connections
 
 - Defines the non-traditional CV risk factor landscape in [[chronic-kidney-disease]] relevant to microbiome research
-- Uremia-related risk factors (phosphate, urate) connect to [[microbial metabolites]] like uremic toxins (p-cresyl sulfate, indoxyl sulfate)
-- Albumin as CV predictor in CKD links to [[gut barrier function]] and microbial translocation
-- Complements [[Troeseid 2024 - Gut Microbiome HIV Cardiometabolic]] on uremic toxin pathways
+- Uremia-related risk factors (phosphate, urate) connect to [[short-chain-fatty-acids|microbial metabolites]] like uremic toxins (p-cresyl sulfate, indoxyl sulfate)
+- Albumin as CV predictor in CKD links to [[intestinal-permeability|gut barrier function]] and microbial translocation
+- Complements [[troeseid-2024-gut-microbiome-hiv-cardiometabolic|Troeseid 2024 - Gut Microbiome HIV Cardiometabolic]] on uremic toxin pathways
 - CKD-CVD overlap informs [[comorbidities]] framework for microbiome-cardiovascular research
-- Non-traditional risk factors should be considered in [[meta-analysis]] designs for CVD-microbiome studies
+- Non-traditional risk factors should be considered in [[shotgun-metagenomics|meta-analysis]] designs for CVD-microbiome studies

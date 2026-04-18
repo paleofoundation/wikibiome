@@ -12,7 +12,7 @@ authors:
   - Mroczko B
 journal: International Journal of Molecular Sciences
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: International Journal of Molecular Sciences 2023 -->
 tags:
   - trace-metals
   - Alzheimers-disease
@@ -33,6 +33,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Maps distinct metal dysfunction patterns in Alzheimer's (iron and copper accumulation, zinc sequestration in plaques) versus Parkinson's (manganese toxicity, iron ferroptosis), revealing that metal-specific biomarkers differentiate neurodegenerative pathologies. WikiBiome depends on this evidence to explain how metal selectivity shapes disease phenotype—establishing that disease pathology results not from generic metal burden but from the specific metal-enzyme mismatches that characterize each condition's signature."
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [calcium, copper, iron, lead, manganese, selenium, zinc]
+karen_brain_primitives: [1, 2, 3, 4]
 ---
 
 # Key Claims
@@ -80,9 +83,9 @@ why_keystone: "Maps distinct metal dysfunction patterns in Alzheimer's (iron and
 
 - Provides comparative metal analysis across [[alzheimers-disease]] and [[parkinsons-disease]]
 - Complements AD-focused reviews: [[islam-2022-metal-toxicity-alzheimers-extensive-review]], [[jakubowska-2024-metal-toxicity-alzheimers-review]]
-- [[Iron-dysregulation]] and [[ferroptosis]] mechanisms connect to both diseases
-- Links [[copper-dysregulation]] to shared AD/PD pathology via [[oxidative-stress]]
-- [[Zinc-homeostasis]] disruption relevant to [[amyloid-beta-aggregation]]
+- [[iron|Iron-dysregulation]] and [[ferroptosis]] mechanisms connect to both diseases
+- Links [[copper|copper-dysregulation]] to shared AD/PD pathology via [[oxidative-stress]]
+- [[metal-homeostasis|Zinc-homeostasis]] disruption relevant to [[amyloid-beta|amyloid-beta-aggregation]]
 - [[manganese]] neurotoxicity primarily relevant to [[parkinsons-disease]]
 - Biomarker potential relevant to clinical applications in [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]
 - Connects to [[selenium]] as potential protective factor

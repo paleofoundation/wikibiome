@@ -15,7 +15,7 @@ platform: both
 condition: "chronic-kidney-disease"
 karen_brain_primitives: [5]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
 key_findings:
   - "Dietary fiber significantly reduced indoxyl sulfate (SMD -0.55, P=0.03) in CKD patients"
   - "Dietary fiber significantly reduced p-cresyl sulfate (SMD -0.47, P<0.01)"

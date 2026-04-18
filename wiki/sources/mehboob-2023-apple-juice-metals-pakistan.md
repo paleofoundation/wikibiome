@@ -1,5 +1,4 @@
 ---
-
 title: "Nutritional and Physio Chemical Analysis of Commercial Apple Juices and Natural Apple Juices Available in Pakistan"
 type: source
 created: 2026-04-09
@@ -7,9 +6,10 @@ updated: 2026-04-09
 authors: [Zahid Mehboob, Abid Ali, Faiza Azmat, Mahnoor Zaffar, Shakila Anwar, Muhammad Farhan Sarwar, Hiba Asif]
 journal: Journal of Population Therapeutics and Clinical Pharmacology
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Population Therapeutics and Clinical Pharmacology 2023 -->
 tags: [apple-juice, nickel, heavy-metals, food-contamination, manganese, chromium, iron, zinc, copper, calcium, Pakistan]
 platform: wikibiome
+metals_discussed: [calcium, chromium, copper, iron, manganese, nickel, zinc]
 ---
 
 # Nutritional and Physio Chemical Analysis of Commercial Apple Juices and Natural Apple Juices Available in Pakistan

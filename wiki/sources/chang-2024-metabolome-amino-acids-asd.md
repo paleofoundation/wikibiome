@@ -11,12 +11,17 @@ tags: [autism, microbiota, metabolome, amino-acids, nickel, metabolic-pathways]
 library_category: signatures
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+metals_discussed: [nickel]
+taxa_discussed: [clostridium, faecalibacterium-prausnitzii, subdoligranulum]
+karen_brain_primitives: [1, 4]
+key_findings: ["Altered microbiota community structure", "Five dominant dysbiotic taxa"]
 ---
 
 # Key Claims
 
 - **Altered microbiota community structure** in ASD: reduced richness, higher evenness, compositional shifts
-- **Five dominant dysbiotic taxa** identified: [[subdoligranulum]], [[faecalibacterium-praushitzii]], [[faecalibacterium]], [[veillonellaceae]], [[rumminococcaceae]]
+- **Five dominant dysbiotic taxa** identified: [[subdoligranulum]], [[faecalibacterium-praushitzii]], [[faecalibacterium-prausnitzii|faecalibacterium]], [[veillonellaceae]], [[rumminococcaceae]]
 - **Nickel transport system** is the primary differential metabolic pathway in ASD microbiota
 - **Decreased ornithine, elevated valine** in serum—marker of dysregulated metabolic exchange between microbiota and host
 - **Functional dysbiosis** manifests as altered galactose metabolism capacity

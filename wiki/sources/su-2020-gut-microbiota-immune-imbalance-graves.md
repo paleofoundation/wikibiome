@@ -36,6 +36,10 @@ tags:
   - LPS
   - gut-permeability
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [copper, iron, selenium, zinc]
+taxa_discussed: [alistipes, bacteroides-fragilis, lactobacillus, megasphaera, parabacteroides, prevotella, ruminococcus, veillonella]
+karen_brain_primitives: [1, 5]
 ---
 
 # Alteration in gut microbiota is associated with immune imbalance in Graves' disease
@@ -46,7 +50,7 @@ platform: wikibiome
 - Bacteroides fragilis and Alistipes are significantly depleted in GD, while Prevotella and Veillonella are enriched; these shifts correlate with altered CD4+ T cell subsets and inflammatory markers
 - Increased gut permeability ("leaky gut") in GD patients, evidenced by elevated serum LPS and zonulin levels, enables bacterial product translocation that drives systemic [[inflammation]]
 - Metagenomic functional analysis reveals enrichment of LPS biosynthesis and pro-inflammatory pathways in GD gut microbiome, with depletion of SCFA production and amino acid metabolism pathways
-- The immune imbalance in GD (elevated Th1/Th2 and Th17/Treg ratios) is mechanistically linked to gut microbiota alterations, supporting the [[Gut-Thyroid Axis]] as a therapeutic target
+- The immune imbalance in GD (elevated Th1/Th2 and Th17/Treg ratios) is mechanistically linked to gut microbiota alterations, supporting the [[gut-thyroid-axis|Gut-Thyroid Axis]] as a therapeutic target
 
 ## Methods/Findings
 
@@ -65,12 +69,12 @@ platform: wikibiome
 
 - Bacteroides depletion and Prevotella enrichment corroborate findings in [[chen-2021-gut-microbiota-thyroid-graves]] and [[yang-2022-intestinal-flora-graves-methimazole]]
 - Leaky gut (elevated LPS/zonulin) provides mechanism for how [[dysbiosis]] drives systemic autoimmunity, relevant to [[gut-metal-microbiome]] barrier function
-- LPS-driven [[inflammation]] activates [[NF-kappa-B]] in immune cells, amplifying the autoimmune cascade
+- LPS-driven [[inflammation]] activates [[nf-kappa-b]] in immune cells, amplifying the autoimmune cascade
 - Treg/Th17 microbiota correlations complement mechanistic model in [[jiang-2021-gut-dysbiosis-treg-th17-graves]]
 - Functional depletion of SCFA pathways parallels metabolite findings in [[jiang-2023-gut-microbiome-metabolites-graves]]
 - Prevotella-TRAb correlation adds to Lactobacillus-TRAb link in [[chen-2021-gut-microbiota-thyroid-graves]], building broader microbiota-antibody network
 - [[selenium]], [[zinc]], and [[iron]] are critical for gut barrier integrity; their deficiency could worsen gut permeability findings
 - [[copper]] excess or deficiency may affect LPS-mediated inflammatory signaling
 - [[probiotics]] containing Bacteroides and butyrate producers could address the specific dysbiosis pattern identified
-- [[Oxidative-stress]] from gut permeability and LPS exposure compounds thyroid damage
+- [[oxidative-stress]] from gut permeability and LPS exposure compounds thyroid damage
 - [[iodine]] absorption may be affected by altered intestinal permeability and microbiota composition

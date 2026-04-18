@@ -84,6 +84,9 @@ tags:
   - biomarker
   - microbiome-signature
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [bacteroides-fragilis, prevotella, ruminococcus]
+karen_brain_primitives: [1]
 ---
 
 # Microbiome and Metabolome Features of the Cardiometabolic Disease Spectrum
@@ -124,5 +127,5 @@ Major multi-omic study from the European MetaCardis cohort of 1,241 individuals 
 1. **Uremic toxin trajectory** - Indoxyl sulfate and 4-cresol escalation from metabolic pre-morbidity to IHD suggests a pathway where [[cadmium]] and [[lead]]-driven [[dysbiosis]] accelerates this progression
 2. **Butyrate production loss** - Reduced butyrate synthesis capacity aligns with metal-sensitive Clostridia depletion
 3. **Gene richness decline** - Microbial gene richness loss in CVD mirrors the diversity reduction seen with heavy metal exposure
-4. **[[Metabolic-syndrome]] continuum** - The dysmetabolism-to-IHD trajectory provides a framework for understanding how metal-induced metabolic disruption progresses to [[cardiovascular-disease]]
+4. **[[metabolic-syndrome]] continuum** - The dysmetabolism-to-IHD trajectory provides a framework for understanding how metal-induced metabolic disruption progresses to [[cardiovascular-disease]]
 5. **Multi-omic integration** - Demonstrates the power of combining metagenomics and metabolomics for understanding the [[gut-metal-microbiome]] axis

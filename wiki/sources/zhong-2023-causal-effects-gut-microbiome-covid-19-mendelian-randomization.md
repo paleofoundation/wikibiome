@@ -15,7 +15,7 @@ platform: wikibiome
 condition: "COVID-19"
 karen_brain_primitives: [1, 2, 4, 5]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [akkermansia-muciniphila, faecalibacterium-prausnitzii]
 key_findings:
   - "Mendelian randomization reveals causal relationship between specific gut microbiota taxa and COVID-19 susceptibility/severity"
   - "Multiple protective and risk taxa identified with distinct mechanisms"

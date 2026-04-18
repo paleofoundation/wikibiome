@@ -1,5 +1,4 @@
 ---
-
 title: "Influence of tobacco smoking and alcohol drinking on dysmenorrhoea: a cross-sectional analysis of data from the Taiwan Biobank"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2025
 tags: [smoking, alcohol, dysmenorrhea, Taiwan-Biobank, cross-sectional, menstrual-pain, synergistic-effects, exercise, menarche]
 doi: "10.1136/bmjopen-2024-088813"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [arsenic, cadmium, lead, magnesium, zinc]
 ---
 
 # Key Claims

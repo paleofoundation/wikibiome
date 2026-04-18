@@ -1,5 +1,4 @@
 ---
-
 title: "Increased inflammation in rheumatoid arthritis patients living where farm soils contain high levels of copper"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ tags: [copper, nickel, rheumatoid-arthritis, soil-pollution, inflammation, ESR, 
 doi: "10.1016/j.neuro.2023.04.013"
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [arsenic, cadmium, chromium, copper, lead, mercury, nickel, selenium, zinc]
 ---
 
 # Key Claims
@@ -37,8 +37,8 @@ evidence_level: cross-sectional
 
 - Provides environmental/geographic evidence for [[copper]] as a risk factor for [[rheumatoid-arthritis]] inflammation
 - Suggests interventions to reduce copper exposure (diet control, [[copper]] chelators like tetrathiomolybdate) may benefit RA patients
-- Links [[soil contamination]] to human [[autoimmune disease]] activity
-- [[nickel]] also associated with increased inflammation in RA -- relevant to [[nickel toxicology]]
+- Links [[environmental-metal-exposure|soil contamination]] to human [[autoimmunity|autoimmune disease]] activity
+- [[nickel]] also associated with increased inflammation in RA -- relevant to [[nickel-allergy|nickel toxicology]]
 - Changhua County context: heavy industrial pollution, high oral cancer incidence linked to soil metals
-- Connects to [[copper-induced cytokine production]] (IL-1beta, TNF-alpha, IL-6)
+- Connects to [[copper|copper-induced cytokine production]] (IL-1beta, TNF-alpha, IL-6)
 - See also: [[arshad-2023-heavy-metals-rheumatoid-arthritis]] for contrasting Cu findings

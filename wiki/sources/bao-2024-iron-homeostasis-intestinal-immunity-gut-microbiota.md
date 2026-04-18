@@ -12,7 +12,7 @@ authors:
   - Lingbin Liu
 journal: International Journal of Molecular Sciences
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: International Journal of Molecular Sciences 2024 -->
 tags:
   - iron
   - iron-homeostasis
@@ -33,11 +33,16 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Establishes iron homeostasis as a critical junction between host immunity (hepcidin-ferroportin axis) and microbiota composition—demonstrating how iron deficiency depletes Lactobacillus while iron excess enriches pathogenic Bacteroides and E. coli. This paper is foundational to WikiBiome's iron signatures across anemia, IBD, and metabolic disease."
+evidence_level: animal-model
+metals_discussed: [iron, manganese, nickel]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, escherichia-coli, lactobacillus, streptococcus]
+karen_brain_primitives: [1, 2, 5]
+key_findings: ["Ferroptosis"]
 ---
 
 # Key Claims
 
-- [[iron]] is a vital trace element that plays an active role in growth, development, and reproduction of bacteria such as [[Bifidobacteria]]; both deficiency and excess negatively affect bacterial hosts
+- [[iron]] is a vital trace element that plays an active role in growth, development, and reproduction of bacteria such as [[bifidobacterium|Bifidobacteria]]; both deficiency and excess negatively affect bacterial hosts
 - Iron homeostasis is regulated primarily by the **hepcidin-ferroportin axis**: hepcidin controls iron absorption from dietary sources, macrophages, and body stores
 - Iron imbalance leads to two categories of disorders: iron deficiency diseases (anemia, fatigue) and iron overload diseases (hereditary hemochromatosis, liver disease)
 - **Ferroptosis** (iron-dependent programmed cell death) is emerging as a therapeutic target in cancer treatment by inducing oxidative stress via the Fenton reaction
@@ -58,10 +63,10 @@ why_keystone: "Establishes iron homeostasis as a critical junction between host 
 
 # Connections
 
-- Essential context for [[iron homeostasis]] and its intersection with [[gut-metal-microbiome|gut microbiota]]
-- Ferroptosis discussion relevant to [[metal toxicity mechanisms]] and cancer therapeutics
+- Essential context for [[iron-management|iron homeostasis]] and its intersection with [[gut-metal-microbiome|gut microbiota]]
+- Ferroptosis discussion relevant to [[heavy-metals|metal toxicity mechanisms]] and cancer therapeutics
 - Iron-microbiota interactions parallel [[nickel]]-microbiota interactions given similar transport mechanisms (DMT1 also transports Ni)
-- SCFA and immune findings connect to [[Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on barrier-immune axis
-- Gut-brain axis discussion links to [[manganese neurotoxicity]] and [[Racette 2017 - Manganese Parkinsonism Welders]]
-- Probiotic immune modulation connects to [[Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]]
+- SCFA and immune findings connect to [[ghosh-2023-heavy-metals-gut-barrier-integrity|Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on barrier-immune axis
+- Gut-brain axis discussion links to [[heavy-metal-neurotoxicity|manganese neurotoxicity]] and [[racette-2017-manganese-parkinsonism-welders|Racette 2017 - Manganese Parkinsonism Welders]]
+- Probiotic immune modulation connects to [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]]
 - [[cardiovascular-disease]]

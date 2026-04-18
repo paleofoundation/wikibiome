@@ -1,5 +1,4 @@
 ---
-
 title: "Use of an Exposome Approach to Understand the Effects of Exposures From the Natural, Built, and Social Environments on Cardio-Vascular Disease Onset, Progression, and Outcomes"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 doi: 10.3389/fpubh.2020.00379
 tags: [cardiovascular-disease, CVD, exposome, environmental-exposure, heavy-metals, air-pollution, epigenomics, racial-disparities, genomics, transcriptomics, metabolomics, review]
 platform: wikibiome
+metals_discussed: [arsenic, cadmium, lead, mercury]
+karen_brain_primitives: [1]
 ---
 
 # Use of an Exposome Approach to Understand the Effects of Exposures From the Natural, Built, and Social Environments on Cardio-Vascular Disease Onset, Progression, and Outcomes
@@ -45,7 +46,7 @@ Review applying the exposome approach to understanding CVD disparities, covering
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Heavy metals as CVD exposome components** - Explicitly identifies [[lead]], [[cadmium]], arsenic, and mercury as CVD risk factors in the natural environment
-2. **[[Oxidative-stress]] markers** - F2 isoprostanes, glutathione, SOD3 as effect biomarkers directly relate to metal-induced oxidative damage and potential [[ferroptosis]]
+2. **[[oxidative-stress]] markers** - F2 isoprostanes, glutathione, SOD3 as effect biomarkers directly relate to metal-induced oxidative damage and potential [[ferroptosis]]
 3. **Epigenetic mediation** - Metal-induced DNA methylation changes provide a mechanism by which [[cadmium]] and [[lead]] exposure can persistently alter CVD risk beyond acute toxicity
 4. **Multi-omics integration** - The exposome framework provides the conceptual model for integrating [[gut-metal-microbiome]] data with other -omics layers
 5. **Racial disparities** - Environmental justice considerations relevant to understanding differential metal exposure burdens in CVD

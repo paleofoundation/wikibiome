@@ -6,9 +6,11 @@ updated: 2026-04-09
 authors: [Kao ACC, Burnet PWJ, Lennox B]
 journal: Psychopharmacology
 year: 2018
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Psychopharmacology 2018 -->
 tags: [schizophrenia, prebiotics, cognition, weight-gain, GOS, SCFAs, BDNF, NMDA, gut-brain-axis, neuropeptide-Y]
 platform: wikibiome
+evidence_level: expert-opinion
+karen_brain_primitives: [3, 5]
 ---
 
 # Can Prebiotics Assist in the Management of Cognition and Weight Gain in Schizophrenia?

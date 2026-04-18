@@ -11,13 +11,14 @@ tags: [parkinsons-disease, microbiome-composition, covariates, confounders, medi
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+karen_brain_primitives: [4]
 ---
 
 # Changes in Gastrointestinal Microbiome Composition in PD: A Pivotal Role of Covariates
 
 ## Summary
 
-This study critically examines how covariates (medications, diet, comorbidities, bowel habits) confound the interpretation of gut [[microbiome]] differences between [[parkinsons-disease]] patients and controls. It demonstrates that many reported PD-microbiome associations are influenced or driven by covariates.
+This study critically examines how covariates (medications, diet, comorbidities, bowel habits) confound the interpretation of gut [[gut-microbiome|microbiome]] differences between [[parkinsons-disease]] patients and controls. It demonstrates that many reported PD-microbiome associations are influenced or driven by covariates.
 
 ## Key Findings
 

@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, gestational-diabetes, pregnancy, gut-microbi
 library_category: original-research
 platform: cureva
 condition: "gestational diabetes"
+evidence_level: prospective-cohort
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["First trimester gut bacterial microbiota significantly differs", "Normoglycemic women had gut microbiota", "Women diagnosed later with GDM"]
 ---
 
 # Key Claims

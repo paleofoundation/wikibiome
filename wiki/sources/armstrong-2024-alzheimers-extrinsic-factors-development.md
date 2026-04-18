@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Armstrong RA, et al.]
 journal: (Journal of Alzheimer's Disease / related journal)
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: (Journal of Alzheimer's Disease / related journal) 2024 -->
 evidence_level: expert-opinion
 sample_size: "N/A - review"
 tags: [Alzheimers-disease, extrinsic-factors, environmental-risk-factors, heavy-metals, diet, lifestyle, aluminum, lead, mercury, air-pollution, pesticides]

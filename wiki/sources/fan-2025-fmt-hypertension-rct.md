@@ -1,5 +1,4 @@
 ---
-
 title: "Fecal microbiota transplantation for hypertension: an exploratory, multicenter, randomized, blinded, placebo-controlled trial"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 tags: [cardiovascular-disease, FMT, fecal-microbiota-transplant, hypertension, blood-pressure, RCT, microbiome, metabolome, placebo-controlled]
 doi: "10.1186/s40168-025-02118-6"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bacteroides-fragilis, eubacterium, parabacteroides, prevotella, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Fan et al. 2025 -- FMT for Hypertension: Multicenter RCT
@@ -41,5 +43,5 @@ pp. 1-8
 ## Connections
 
 - First clinical trial of oral FMT for [[hypertension]] in humans
-- Links to [[gut microbiome]] and regulation
+- Links to [[gut-microbiome]] and regulation
 - Relevant to metabolites and CVD pathophysiology

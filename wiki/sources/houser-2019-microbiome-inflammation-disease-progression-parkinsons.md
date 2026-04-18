@@ -6,18 +6,22 @@ updated: 2026-04-09
 authors: [Madelyn C Houser, Malú G Tansey]
 year: 2019
 journal: "npj Parkinson's Disease"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: npj Parkinson's Disease 2019 -->
 tags: [parkinsons-disease, microbiome-inflammation, disease-progression, neuroinflammation, gut-permeability, cytokines, alpha-synuclein]
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Microbiome and Inflammation in Parkinson's Disease Progression
 
 ## Summary
 
-This study examines the relationship between gut [[microbiome]] alterations and [[inflammation]] in [[parkinsons-disease]], with particular focus on how inflammatory processes driven by microbial dysbiosis contribute to disease progression over time.
+This study examines the relationship between gut [[gut-microbiome|microbiome]] alterations and [[inflammation]] in [[parkinsons-disease]], with particular focus on how inflammatory processes driven by microbial dysbiosis contribute to disease progression over time.
 
 ## Key Findings
 
@@ -26,11 +30,11 @@ This study examines the relationship between gut [[microbiome]] alterations and 
 - Intestinal inflammation increases gut permeability, enabling bacterial product translocation
 - Systemic inflammatory markers (CRP, TNF-alpha, IL-6) correlate with both microbiome alterations and motor symptom severity
 - The inflammatory state worsens progressively with disease duration, tracking with deepening dysbiosis
-- [[Alpha-synuclein]] deposition in the enteric nervous system co-localizes with inflammatory cell infiltration
+- [[alpha-synuclein]] deposition in the enteric nervous system co-localizes with inflammatory cell infiltration
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Chronic [[inflammation]] in [[parkinsons-disease]] is both a driver and consequence of metal [[dyshomeostasis]]. Inflammatory cytokines (TNF-alpha, IL-6) upregulate [[DMT1]] expression, increasing cellular metal import. IL-6 drives hepatic [[hepcidin]] production, trapping [[iron]] in macrophages and microglia. The depletion of anti-inflammatory SCFA-producing bacteria removes a key regulatory brake on both inflammation and metal absorption. This creates a self-amplifying cycle: dysbiosis causes inflammation, inflammation disrupts metal homeostasis, metal dyshomeostasis favors pathobionts, and pathobiont expansion deepens dysbiosis and inflammation.
+Chronic [[inflammation]] in [[parkinsons-disease]] is both a driver and consequence of metal [[dyshomeostasis]]. Inflammatory cytokines (TNF-alpha, IL-6) upregulate [[metal-homeostasis|DMT1]] expression, increasing cellular metal import. IL-6 drives hepatic [[hepcidin]] production, trapping [[iron]] in macrophages and microglia. The depletion of anti-inflammatory SCFA-producing bacteria removes a key regulatory brake on both inflammation and metal absorption. This creates a self-amplifying cycle: dysbiosis causes inflammation, inflammation disrupts metal homeostasis, metal dyshomeostasis favors pathobionts, and pathobiont expansion deepens dysbiosis and inflammation.
 
 ## Limitations
 

@@ -11,6 +11,10 @@ tags: [autism, probiotics, prebiotics, synbiotics, fmt, systematic-review, micro
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, lactobacillus]
+karen_brain_primitives: [4, 5, 8]
+key_findings: ["33 studies included", "FMT demonstrated the most consistent and sustained improvements", "Multi-strain probiotic formulations"]
 ---
 
 # Key Claims
@@ -26,7 +30,7 @@ condition: "autism spectrum disorder"
 **Design:** PRISMA-guided systematic review registered in PROSPERO (CRD42024615043). Literature search through November 16, 2024.
 
 **Probiotics (15 studies):**
-- 14 RCTs examined probiotics; most commonly [[Lactobacillus plantarum]] (n=8) and [[bifidobacterium]] species
+- 14 RCTs examined probiotics; most commonly [[lactobacillus|Lactobacillus plantarum]] (n=8) and [[bifidobacterium]] species
 - More than half reported no significant behavioral improvements
 - [[bacteroides-fragilis]] BF839 showed significant AuBC score decrease in children with CARS > 30
 - Multi-strain combinations consistently outperformed single strains
@@ -34,7 +38,7 @@ condition: "autism spectrum disorder"
 **Prebiotics (4 studies):**
 - B-GOS (galactooligosaccharide) most studied
 - Mixed results on behavioral outcomes
-- Dopamine metabolism disorder and hyperserotonergic state observed with [[Lactobacillus plantarum]] + FOS
+- Dopamine metabolism disorder and hyperserotonergic state observed with [[lactobacillus|Lactobacillus plantarum]] + FOS
 
 **Synbiotics (5 studies):**
 - Variable efficacy across different combinations

@@ -1,5 +1,4 @@
 ---
-
 title: Glyoxalase I
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md]
 tags: [nickel-enzyme, glyoxalase, methylglyoxal, detoxification, drug-target, Leishmania, Pseudomonas, virulence, mis-metallation]
 platform: wikibiome
+karen_brain_primitives: [2, 3, 4]
+seo_target: "glyoxalase i microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Glyoxalase I (GloI)

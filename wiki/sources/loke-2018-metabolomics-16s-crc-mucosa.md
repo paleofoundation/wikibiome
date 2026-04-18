@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - Metabolomic differences between paired tumor and normal tissue were associated with steroid biosynthesis, terpenoid biosynthesis, and bile metabolism pathways in Malaysian CRC patients
-- Serotonin, 5-HIAA (5-hydroxy-3-indoleacetic acid), and other [[tryptophan]]-metabolism metabolites were detected only in normal tissue samples (Fisher's exact test, P = 0.044), indicating disrupted serotonergic signaling in tumors
+- Serotonin, 5-HIAA (5-hydroxy-3-indoleacetic acid), and other [[tryptophan-metabolism]]-metabolism metabolites were detected only in normal tissue samples (Fisher's exact test, P = 0.044), indicating disrupted serotonergic signaling in tumors
 - S-adenosyl-L-homocysteine (SAH), involved in methionine metabolism and methylation, was significantly more frequently increased in tumor relative to normal tissues (P = 0.026)
 - The relative abundances of *Anaerotruncs*, *Intestinimonas*, and *Oscillibacter* in tumor tissue displayed significant relationships with steroid biosynthesis and terpenoid pathways
 - Firmicutes, Bacteroidetes, and Proteobacteria constituted the three predominant phyla in both tumor (~36%, 30.7%, 19.5%) and normal (~33.3%, 31.5%, 19.7%) tissues

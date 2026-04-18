@@ -9,6 +9,8 @@ year: 2019
 doi: "10.3389/fphar.2019.00484"
 tags: [ovarian-cancer, cervical-cancer, bile-acids, UDCA, CDCA, platinum-compounds, chemotherapy, therapeutic-agents]
 platform: wikibiome
+metals_discussed: [copper, nickel, platinum, zinc]
+karen_brain_primitives: [1]
 ---
 
 # Cervical Cancer, Different Treatments and Importance of Bile Acids as Therapeutic Agents

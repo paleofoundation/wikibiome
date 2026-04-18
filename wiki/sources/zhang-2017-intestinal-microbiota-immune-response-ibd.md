@@ -1,5 +1,4 @@
 ---
-
 title: "Interactions between Intestinal Microbiota and Host Immune Response in Inflammatory Bowel Disease"
 type: source
 created: 2026-04-09
@@ -11,6 +10,8 @@ tags: [crohns-disease, IBD, intestinal-microbiota, immune-response, barrier-func
 doi: "10.3389/fimmu.2017.00942"
 platform: wikibiome
 evidence_level: expert-opinion
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, saccharomyces-cerevisiae]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

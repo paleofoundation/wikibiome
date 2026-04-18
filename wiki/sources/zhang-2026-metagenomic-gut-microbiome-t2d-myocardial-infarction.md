@@ -12,6 +12,10 @@ library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
 evidence_level: cross-sectional
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [lachnospiraceae]
+karen_brain_primitives: [1]
+key_findings: ["DM+MI patients exhibit distinct gut microbial compositions", "Bacteroidales, Prevotellaceae, and Lachnospiraceae", "510 KEGG orthology units and 21 pathways"]
 ---
 
 # Key Claims

@@ -11,9 +11,10 @@ tags: [autism, microbiota, dysbiosis, therapeutic-regulation, immune, barrier-fu
 library_category: causal
 platform: both
 condition: "autism spectrum disorder"
-karen_brain_primitives: []
-metals_discussed: []
-taxa_discussed: []
+karen_brain_primitives: [1, 2, 3, 4, 5]
+metals_discussed: [cadmium, iron, lead, manganese, nickel, zinc]
+taxa_discussed: [clostridium, desulfovibrio, faecalibacterium-prausnitzii]
+key_findings: ["Microbiota dysbiosis", "Multiple dysbiosis mechanisms", "Therapeutic targets span entire microbiota-host interface"]
 ---
 
 # Key Claims
@@ -31,7 +32,7 @@ Comprehensive review of microbiota-ASD axis and therapeutic interventions:
 - Reduced microbial diversity (alpha diversity ↓)
 - Altered community structure (beta diversity shifts)
 - Enriched pathogenic taxa (e.g., [[clostridium]], [[desulfovibrio]])
-- Depleted protective taxa (e.g., [[faecalibacterium]])
+- Depleted protective taxa (e.g., [[faecalibacterium-prausnitzii|faecalibacterium]])
 - Dysregulated metabolic pathways (SCFA, tryptophan metabolism, bile acid transformation)
 
 **Mechanisms linking dysbiosis to ASD symptoms:**
@@ -61,7 +62,7 @@ This comprehensive review maps dysbiosis mechanisms but underemphasizes **metal 
 
 - **Primitive 2 link (Nutritional Immunity)**: Dysbiosis reflects failed antimicrobial defense. Restore protective microbiota = restore metal sequestration capacity = strengthen barrier = reduced systemic inflammation
 
-- **SCFA production requires metal cofactors**: [[Butyrate]] synthase and other fermentation enzymes require [[iron]], [[nickel]], [[manganese]] cofactors. Dysbiotic shift may reflect **metal limitation** preventing protective taxa from thriving
+- **SCFA production requires metal cofactors**: [[butyrate]] synthase and other fermentation enzymes require [[iron]], [[nickel]], [[manganese]] cofactors. Dysbiotic shift may reflect **metal limitation** preventing protective taxa from thriving
 
 - **Zinc depletion signal**: Many barrier-support interventions (glutamine, arginine, zinc) address consequences of dysbiosis. **Root cause**: metal burden → dysbiosis → barrier failure. Without metal correction, interventions may be insufficient
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Passing the 'Acid Test': Do Proton Pump Inhibitors Affect the Composition of the Microbiome?"
 type: source
 created: 2026-04-09
@@ -10,18 +9,22 @@ year: 2018
 doi: "10.1007/s10620-018-5273-3"
 tags: [gerd, gastroesophageal-reflux, proton-pump-inhibitors, gut-microbiome, lactobacillus, streptococcus, enterococcus, staphylococcus, SCFAs, clostridium-difficile, small-intestinal-bacterial-overgrowth, dysbiosis, editorial]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+metals_discussed: [iron]
+taxa_discussed: [clostridioides-difficile, clostridium, enterococcus, escherichia-coli, lactobacillus, staphylococcus-aureus, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Passing the "Acid Test": Do Proton Pump Inhibitors Affect the Composition of the Microbiome?
 
 ## Key Claims
 
-- [[Proton pump inhibitor|PPI]] use can affect microbial communities by directly targeting bacterial proton pumps and by altering the gut microenvironment through inhibiting gastric acid secretion
-- In a cohort of 211 patients, PPI use was associated with significant decrease in microbial diversity and increase of *[[enterococcus]]*, *[[streptococcus]]*, *[[Staphylococcus]]*, and potentially pathogenic *E. coli*
+- [[pharmacomicrobiomics|Proton pump inhibitor]] use can affect microbial communities by directly targeting bacterial proton pumps and by altering the gut microenvironment through inhibiting gastric acid secretion
+- In a cohort of 211 patients, PPI use was associated with significant decrease in microbial diversity and increase of *[[enterococcus]]*, *[[streptococcus]]*, *[[staphylococcus-aureus]]*, and potentially pathogenic *E. coli*
 - PPI use increased abundance of *[[lactobacillus]]* species (*L. gasseri*, *L. fermentum*, *L. reuteri*, *L. ruminis*, *L. brevis*) with concomitant increase in formic acid and butyric acid without significant blood bacterial count changes
 - Species differentially increased by PPIs are those often associated with the oral microbiome, suggesting increased gastric pH may enable oral-to-intestinal bacterial migration
-- Chronic PPI use has been linked to [[Clostridium difficile]] infection, [[small intestinal bacterial overgrowth]], iron deficiency anemia, and pneumonia
-- [[SCFAs]] and bacterial metabolic products such as lipopolysaccharide have been linked to differential gene regulation, intestinal paracellular permeability release, and pro-inflammatory/neural/immune cell activation
+- Chronic PPI use has been linked to [[clostridioides-difficile]] infection, [[dysbiosis|small intestinal bacterial overgrowth]], iron deficiency anemia, and pneumonia
+- [[short-chain-fatty-acids]] and bacterial metabolic products such as lipopolysaccharide have been linked to differential gene regulation, intestinal paracellular permeability release, and pro-inflammatory/neural/immune cell activation
 
 ## Methods/Findings
 

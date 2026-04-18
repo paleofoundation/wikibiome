@@ -11,6 +11,9 @@ tags: [parkinsons-disease, viral-microbiota, neuroinflammation, gut-virome, ente
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [1, 2]
 ---
 
 # Viral Gut Microbiota and Neuroinflammation in Parkinson's Disease
@@ -22,7 +25,7 @@ This review examines the role of enteric viruses and the gut [[virome]] in [[par
 ## Key Findings
 
 - Enteric viral infections can trigger [[alpha-synuclein]] aggregation in the enteric nervous system
-- Viral activation of innate immune receptors ([[TLR3]], [[TLR7]], [[TLR9]]) promotes pro-inflammatory signaling in the gut
+- Viral activation of innate immune receptors ([[toll-like-receptors|TLR3]], [[toll-like-receptors|TLR7]], [[toll-like-receptors|TLR9]]) promotes pro-inflammatory signaling in the gut
 - Bacteriophage alterations in PD may reshape bacterial communities and indirectly drive inflammation
 - Hepatitis C virus infection has been epidemiologically linked to increased PD risk
 - Viral-induced intestinal inflammation increases gut permeability, enabling bacterial and viral translocation
@@ -30,7 +33,7 @@ This review examines the role of enteric viruses and the gut [[virome]] in [[par
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Viral activation of [[TLR]] signaling in the gut connects to metal [[dyshomeostasis]] through several mechanisms. TLR activation drives [[hepcidin]] expression (sequestering [[iron]]), upregulates [[calprotectin]] (sequestering [[zinc]] and [[manganese]]), and triggers oxidative stress responses that consume [[glutathione]]. The resulting metal redistribution in the gut favors metal-tolerant pathogens while starving commensals, amplifying [[dysbiosis]]. In [[parkinsons-disease]], this viral-immune-metal axis may represent an early trigger that initiates the cascade of gut dysfunction leading to neurodegeneration.
+Viral activation of [[toll-like-receptors|TLR]] signaling in the gut connects to metal [[dyshomeostasis]] through several mechanisms. TLR activation drives [[hepcidin]] expression (sequestering [[iron]]), upregulates [[calprotectin]] (sequestering [[zinc]] and [[manganese]]), and triggers oxidative stress responses that consume [[glutathione]]. The resulting metal redistribution in the gut favors metal-tolerant pathogens while starving commensals, amplifying [[dysbiosis]]. In [[parkinsons-disease]], this viral-immune-metal axis may represent an early trigger that initiates the cascade of gut dysfunction leading to neurodegeneration.
 
 ## Limitations
 

@@ -3,10 +3,12 @@ title: "Selenium Supplementation"
 type: intervention
 created: 2026-04-09
 updated: 2026-04-09
+last_substantive_update: 2026-04-09
 sources: []
 tags: [supplement, selenium, thyroid, antioxidant, selenoprotein, evidence-based]
 intervention_class: supplement
 cureva_status: partial
+karen_brain_primitives: [1, 2, 4]
 
 triangles:
   - condition: "[[hashimotos-thyroiditis]]"
@@ -25,7 +27,7 @@ triangles:
     f_to_D: "Graves' thyroid tissue shows depleted selenoprotein expression. Oxidative stress amplifies TSH-receptor antibody-driven thyrocyte activation."
     status: promising
 
-  - condition: "[[prostate-cancer]]"
+  - condition: "[[metal-carcinogenesis|prostate-cancer]]"
     I_to_f: "Selenium-dependent GPX enzymes and TrxR detoxify reactive oxygen species in prostatic epithelium. Selenomethionine also modulates NF-kB and androgen receptor signaling."
     I_to_f_evidence: "moderate"
     I_to_D: "SELECT trial found no benefit with selenomethionine 200 ug/day in selenium-replete men. However, subgroup analyses and earlier NPC trial showed 52% reduction in prostate cancer incidence in men with LOW baseline selenium (<106 ng/mL). Benefit appears confined to selenium-deficient populations."
@@ -67,7 +69,7 @@ Selenium is incorporated as **selenocysteine** (the "21st amino acid") into sele
 - **TrxR1-3**: Regenerate thioredoxin, maintaining intracellular redox balance and regulating NF-kB signaling
 - **DIO1-3**: Catalyze T4→T3 conversion (DIO1/2) and T4/T3 inactivation (DIO3), governing thyroid hormone metabolism
 
-In selenium deficiency, these enzymes lose function in a hierarchical manner — brain and endocrine tissues are protected last, but thyroid GPX activity drops early, increasing vulnerability to [[hydrogen-peroxide]]-mediated autoimmune attack.
+In selenium deficiency, these enzymes lose function in a hierarchical manner — brain and endocrine tissues are protected last, but thyroid GPX activity drops early, increasing vulnerability to [[oxidative-stress|hydrogen-peroxide]]-mediated autoimmune attack.
 
 ---
 
@@ -106,7 +108,7 @@ In selenium deficiency, these enzymes lose function in a hierarchical manner —
 
 **Entities:** [[selenium]], [[copper]]
 
-**Concepts:** [[selenoprotein-synthesis]], [[nutritional-immunity]], [[oxidative-stress]], [[thyroid-autoimmunity]]
+**Concepts:** [[selenium|selenoprotein-synthesis]], [[nutritional-immunity]], [[oxidative-stress]], [[thyroid-autoimmunity]]
 
 **Related interventions:** [[vitamin-d-supplementation]] (synergistic with Se for Hashimoto's), [[iron-management]] (thyroid function requires both Se and Fe)
 

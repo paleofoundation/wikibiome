@@ -1,5 +1,4 @@
 ---
-
 title: "Revealing the Association between East Asian Oral Microbiome and Colorectal Cancer through Mendelian Randomization and Multi-Omics Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 tags: [colon-cancer, mendelian-randomization, oral-microbiome, East-Asian, single-cell-RNA-seq, JAK-STAT, drug-prediction, Streptococcus, Menadione, Raloxifene, colorectal-cancer]
 doi: "10.3389/fcimb.2024.1452392"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [streptococcus]
 ---
 
 # Revealing the Association between East Asian Oral Microbiome and Colorectal Cancer through Mendelian Randomization and Multi-Omics Analysis

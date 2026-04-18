@@ -11,6 +11,9 @@ tags: [parkinsons-disease, probiotics, prebiotics, fecal-microbiota-transplant, 
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [1, 5]
 ---
 
 # Microbiome-Based Therapies for Parkinson's Disease
@@ -24,7 +27,7 @@ This review evaluates microbiome-based therapeutic strategies for [[parkinsons-d
 - [[probiotics]] containing *Lactobacillus* and *Bifidobacterium* species improve GI symptoms in PD
 - Prebiotic fibers that promote [[butyrate]] production may help restore gut barrier integrity
 - Synbiotic combinations (probiotic + prebiotic) show synergistic benefits in preclinical models
-- [[Fecal-microbiota-transplant]] is the most comprehensive approach but requires rigorous safety evaluation
+- [[fmt-intervention]] is the most comprehensive approach but requires rigorous safety evaluation
 - Dietary interventions (Mediterranean diet, high-fiber diet) reshape the microbiome toward a PD-protective profile
 - Antibiotic approaches (rifaximin for SIBO) may address secondary microbiome complications in PD
 - Phage therapy targeting specific pathogenic bacteria is an emerging experimental approach

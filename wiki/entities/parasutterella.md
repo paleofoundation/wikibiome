@@ -48,7 +48,7 @@ pathogenic_potential: commensal
 
 ### Autoimmune Thyroiditis
 - Significantly increased after 4 weeks of gluten-free diet in autoimmune thyroiditis patients (p=0.008), alongside increases in Desulfobacterota and Proteobacteria [[rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis]].
-- Its increase on GFD connects to emerging roles in [[tryptophan]] metabolism and gut-immune interactions.
+- Its increase on GFD connects to emerging roles in [[tryptophan-metabolism]] metabolism and gut-immune interactions.
 
 ### IBD
 - Altered in [[inflammatory-bowel-disease]], with context-dependent changes in Crohn's disease versus ulcerative colitis.

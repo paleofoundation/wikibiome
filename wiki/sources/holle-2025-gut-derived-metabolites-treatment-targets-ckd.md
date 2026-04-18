@@ -9,6 +9,8 @@ journal: "Pediatric Nephrology"
 doi: "10.1007/s00467-024-06609-w"
 tags: [chronic-kidney-disease, CKD, gut-derived-metabolites, uremic-toxins, personalized-medicine, editorial, CKiD-cohort, hepcidin]
 platform: wikibiome
+evidence_level: expert-opinion
+karen_brain_primitives: [2, 5]
 ---
 
 # Gut-Derived Metabolites as Treatment Targets in CKD

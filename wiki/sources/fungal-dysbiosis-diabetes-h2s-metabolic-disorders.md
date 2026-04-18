@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, hydrogen-sulfide, fungal-microbiota, bacteri
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 6]
+key_findings: ["Exogenous hydrogen sulfide affects diabetic metabolic disorders", "H2S treatment modulates both bacterial and fungal gut communities", "Gut fungal-bacterial interactions"]
 ---
 
 # Key Claims

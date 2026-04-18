@@ -1,5 +1,4 @@
 ---
-
 title: "The impact of endometriosis on dietary choices and activities of everyday life: a cross-sectional study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [endometriosis, dietary-changes, anti-inflammatory-diet, gluten-free-diet, quality-of-life, cross-sectional-study, self-management]
 doi: "10.3389/fnut.2023.1273976"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [nickel]
 ---
 
 # Key Claims

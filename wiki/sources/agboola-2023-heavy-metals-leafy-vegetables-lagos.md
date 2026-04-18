@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [O. O. Agboola, S. Oyedeji, T. A. Olawoyin, I. E. Unazi, K. A. Bolarinwa, S. C. Eze, J. O. Olowoyo]
 journal: Journal of Applied Sciences and Environmental Management
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Applied Sciences and Environmental Management 2023 -->
 tags: [heavy-metals, food-safety, leafy-vegetables, copper, zinc, chromium, nickel, hazard-quotient, Lagos, Nigeria, dietary-exposure, ICP-MS, original-research]
 platform: wikibiome
 evidence_level: cross-sectional
@@ -44,9 +44,9 @@ karen_brain_primitives: [1]
 
 # Connections
 
-- Directly relevant to [[nickel dietary exposure]] and [[nickel in food]] wiki topics
-- Ni exceedance of WHO/FAO limits in leafy vegetables connects to [[nickel allergy]] triggers via oral exposure
-- Provides real-world [[dietary heavy metal exposure]] data from a developing country context
-- Environmental contamination context connects to [[Briffa 2020 - Heavy Metal Pollution Environment Toxicology]] on soil and food chain pollution
-- Cumulative exposure risk relevant to [[heavy metals and gut microbiome]] as dietary metals directly contact gut microbiota
+- Directly relevant to [[dietary-nickel-exposure|nickel dietary exposure]] and [[dietary-nickel-exposure|nickel in food]] wiki topics
+- Ni exceedance of WHO/FAO limits in leafy vegetables connects to [[nickel-allergy]] triggers via oral exposure
+- Provides real-world [[dietary-metal-microbiome-interactions|dietary heavy metal exposure]] data from a developing country context
+- Environmental contamination context connects to [[briffa-2020-heavy-metal-pollution-environment-toxicology|Briffa 2020 - Heavy Metal Pollution Environment Toxicology]] on soil and food chain pollution
+- Cumulative exposure risk relevant to [[gut-metal-microbiome|heavy metals and gut microbiome]] as dietary metals directly contact gut microbiota
 - Methodology parallels other food safety studies in the wiki

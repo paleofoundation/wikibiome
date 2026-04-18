@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, labile-metal-pool, ribosome, metalloch
 library_category: reviews_mechanisms
 platform: wikibiome
 condition: "bacterial metal physiology"
+metals_discussed: [copper, iron, magnesium, manganese, zinc]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4, 8]
+key_findings: ["Labile metal pools", "Free metal concentrations"]
 ---
 
 # Why This Paper Matters

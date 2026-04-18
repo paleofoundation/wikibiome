@@ -1,5 +1,4 @@
 ---
-
 title: "Laryngopharyngeal reflux, gastroesophageal reflux and dental disorders: A systematic review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2020
 doi: "10.1371/journal.pone.0237581"
 tags: [gerd, gastroesophageal-reflux, laryngopharyngeal-reflux, dental-erosion, dental-caries, gingivitis, periodontitis, oral-microbiota, salivary-buffering, systematic-review]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Laryngopharyngeal reflux, gastroesophageal reflux and dental disorders: A systematic review
@@ -17,7 +17,7 @@ platform: wikibiome
 ## Key Claims
 
 - Patients with dental erosion have a higher prevalence of reflux than controls, supporting a causal association between [[gerd]]/LPR and dental disease
-- No study directly investigated microbiota modifications related to reflux, though findings support the critical role of [[oral microbiota]] changes in dental disorder development
+- No study directly investigated microbiota modifications related to reflux, though findings support the critical role of [[biofilm|oral microbiota]] changes in dental disorder development
 - From 386 publications, 24 studies were analyzed; pharyngeal reflux episodes were confirmed in 16 studies using objective GERD diagnosis
 - The pathophysiological mechanisms would involve changes in saliva physiology, including reduced salivary buffering capacity and altered pH
 - The involvement of reflux in dental disorders (mucosa inflammation, dental erosion, caries) is not formally demonstrated and requires future investigations of pharyngeal acid and nonacid reflux effects on oral microbiota

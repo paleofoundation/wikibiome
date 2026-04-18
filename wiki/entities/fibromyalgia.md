@@ -92,8 +92,8 @@ The metallomic signature intersects with microbiome ecology through multiple mec
 ## Cross-References
 
 - [[depression]] -- shared Faecalibacterium depletion, Mg/Se depletion, tryptophan-kynurenine shunting
-- [[irritable-bowel-syndrome]] -- 28-59% comorbidity, shared taxonomic shifts
-- [[chronic-fatigue-syndrome]] -- overlapping fatigue, cognitive dysfunction, Faecalibacterium depletion
+- [[ibs|irritable-bowel-syndrome]] -- 28-59% comorbidity, shared taxonomic shifts
+- [[fibromyalgia|chronic-fatigue-syndrome]] -- overlapping fatigue, cognitive dysfunction, Faecalibacterium depletion
 - [[copper]] -- causal risk factor via MR
 - [[iron]] -- protective factor via MR
 - [[magnesium]] -- depleted; cofactor for 300+ enzymes, deficiency amplifies central sensitization

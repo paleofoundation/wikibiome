@@ -1,5 +1,4 @@
 ---
-
 title: "Fungal microbiota dysbiosis and ecological alterations in gastric cancer"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ tags: [pancreatic-cancer, fungal-dysbiosis, gastric-cancer, mycobiome, Ascomycot
 doi: "10.3389/fmicb.2022.889694"
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [malassezia]
+karen_brain_primitives: [1, 4, 8]
 ---
 
 # Key Claims

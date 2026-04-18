@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, fungal-dysbiosis, gestational-diabetes, preg
 library_category: original-research
 platform: cureva
 condition: "gestational diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 6]
+key_findings: ["Gut fungal communities are altered", "Fungal [[dysbiosis]]", "Mycobiome changes may serve as biomarkers"]
 ---
 
 # Key Claims

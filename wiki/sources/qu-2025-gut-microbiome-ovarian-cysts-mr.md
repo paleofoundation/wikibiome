@@ -9,6 +9,8 @@ year: 2025
 doi: "10.1186/s13048-025-01767-3"
 tags: [ovarian-cancer, ovarian-cysts, Mendelian-randomization, gut-microbiome, causal-inference]
 platform: wikibiome
+evidence_level: computational-prediction
+karen_brain_primitives: [7]
 ---
 
 # The Gut Microbiome and Ovarian Cysts: MR Study

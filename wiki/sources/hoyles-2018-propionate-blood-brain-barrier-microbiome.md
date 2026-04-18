@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, propionate, blood-brain-barrier, short-chain-fa
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: in-vitro
+key_findings: ["Physiologically relevant propionate concentrations", "Propionate inhibited"]
 ---
 
 # Key Claims

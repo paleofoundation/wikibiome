@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiome and Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -10,13 +9,16 @@ year: 2020
 doi: 10.1007/164_2020_356
 tags: [cardiovascular-disease, CVD, ASCVD, atherosclerosis, gut-microbiome, oral-microbiome, TMAO, imidazole-propionate, SCFAs, bile-acids, bacteriophage, virome, review]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bacteroides-fragilis, prevotella, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Microbiome and Cardiovascular Disease
 
 ## Summary
 
-Book chapter providing a critical overview of the role of the microbiome (gut and oral) in atherosclerotic cardiovascular disease (ASCVD). Covers gut and oral microbiome communities, viruses and bacteriophages, and microbiome-derived metabolites including [[tmao]], imidazole-propionate, [[short-chain-fatty-acids]], and [[bile-acids]].
+Book chapter providing a critical overview of the role of the microbiome (gut and oral) in atherosclerotic cardiovascular disease (ASCVD). Covers gut and oral microbiome communities, viruses and bacteriophages, and microbiome-derived metabolites including [[tmao]], imidazole-propionate, [[short-chain-fatty-acids]], and [[bile-acid-metabolism]].
 
 ## Key Findings
 

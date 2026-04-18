@@ -37,7 +37,7 @@ Narrative review synthesizing pathophysiology, immunology, and microbiome data o
 
 ## Relevance to WikiBiome
 
-- **Concept pages:** [[tlr4-signaling]], [[blood-brain-barrier]] — NEC-CP axis.
+- **Concept pages:** [[toll-like-receptors|tlr4-signaling]], [[blood-brain-barrier]] — NEC-CP axis.
 - **Entity pages:** [[proteobacteria]], [[bifidobacterium]], [[lactobacillus]], [[iron]].
 - **Signature page:** [[necrotizing-enterocolitis-signature]] — mechanistic layer (primitive 1: metal/LPS-driven selective pressure via TLR4).
 

@@ -11,6 +11,10 @@ tags: [schizophrenia, salivary-microbiome, dysbiosis, 16s-rrna, oral-microbiome,
 library_category: microbiome-signature
 platform: oral
 condition: "Schizophrenia"
+evidence_level: cross-sectional
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [actinomyces, atopobium, fusobacterium-nucleatum, prevotella, veillonella]
+karen_brain_primitives: [1, 3, 4]
 ---
 
 # Salivary microbiome profiling reveals a dysbiotic schizophrenia-associated microbiota

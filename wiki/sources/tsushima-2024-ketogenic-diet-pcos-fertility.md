@@ -17,9 +17,9 @@ taxa_discussed: []
 
 # Key Claims
 
-- A [[ketogenic diet]] (KD) restored regular menstrual cycles in 100% of women with [[pcos]] who had irregular menses (n=24 of 30 had irregular periods at baseline)
+- A [[ketogenic-diet]] (KD) restored regular menstrual cycles in 100% of women with [[pcos]] who had irregular menses (n=24 of 30 had irregular periods at baseline)
 - The overall pregnancy rate among women desiring pregnancy was 55.6% (10/18), which is higher than rates reported in existing PCOS literature (typically ~30-50%)
-- The KD may improve ovulation and [[fertility]] rates in women with PCOS regardless of [[metformin]] or ovulation induction use
+- The KD may improve ovulation and [[female-infertility|fertility]] rates in women with PCOS regardless of [[metformin]] or ovulation induction use
 - Weight loss at return of regular menstruation averaged -7.12 kg (p < 0.001)
 
 # Methods/Findings
@@ -42,4 +42,4 @@ taxa_discussed: []
 - First study to specifically address KD effect on fertility in PCOS
 - Supports [[insulin-resistance]] reduction as mechanism for improved ovulation, connecting to [[mei-2022-mediterranean-low-carb-pcos]]
 - Weight loss appears key to menstrual restoration regardless of specific diet type
-- Relates to broader [[dietary intervention]] evidence for PCOS management
+- Relates to broader [[dietary-metal-microbiome-interactions|dietary intervention]] evidence for PCOS management

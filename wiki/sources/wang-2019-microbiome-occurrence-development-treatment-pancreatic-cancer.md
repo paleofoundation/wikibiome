@@ -1,5 +1,4 @@
 ---
-
 title: "Role of the microbiome in occurrence, development and treatment of pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,11 +9,14 @@ year: 2019
 tags: [pancreatic-cancer, microbiome-review, microbiome-composition, oral-microbiome, H-pylori, Candida, inflammation, NF-kB, LPS-TLR, Wnt-signaling, chemotherapy, immunotherapy, FMT]
 doi: "10.1186/s12943-019-1103-2"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bacteroides-fragilis, candida-albicans, fusobacterium-nucleatum, helicobacter-pylori, pseudomonas-aeruginosa, salmonella, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- Multiple studies have established preliminary correlations between [[microbiome]] alterations and [[pancreatic-cancer]] occurrence, with *P. gingivalis*, *Neisseria*, *Streptococcus*, *Bacteroides*, *Bifidobacteria*, and *Fusobacterium* species associated with PC development
+- Multiple studies have established preliminary correlations between [[gut-microbiome|microbiome]] alterations and [[pancreatic-cancer]] occurrence, with *P. gingivalis*, *Neisseria*, *Streptococcus*, *Bacteroides*, *Bifidobacteria*, and *Fusobacterium* species associated with PC development
 - LPS-TLR signaling activates the NF-kB/MAPK pathway to promote STAT3 activation and KRAS mutation, directly linking microbial components to carcinogenesis
 - *Candida* infection was associated with a 70-80% excess risk of developing PC in population-based cohort studies
 - [[fecal-microbiota-transplant]] from short-term vs long-term survivors modulated tumor microbiome composition and immune infiltration, demonstrating therapeutic potential
@@ -30,7 +32,7 @@ platform: wikibiome
 
 # Connections
 
-- LPS-TLR-NF-kB axis links [[microbiome-host interactions]] to [[microbiome and inflammation]] in pancreatic carcinogenesis
-- *Candida* association connects [[fungal microbiota]] to pancreatic cancer risk
-- Chemotherapy drug metabolism by microbiome relevant to [[antibiotics]] and [[drug repurposing]] strategies
-- Table 1 provides comprehensive summary of human studies linking microbiomes to PC, useful reference for [[microbial biomarkers]]
+- LPS-TLR-NF-kB axis links [[gut-metal-microbiome|microbiome-host interactions]] to [[inflammation|microbiome and inflammation]] in pancreatic carcinogenesis
+- *Candida* association connects [[mycobiome|fungal microbiota]] to pancreatic cancer risk
+- Chemotherapy drug metabolism by microbiome relevant to [[antimicrobial-resistance|antibiotics]] and [[pharmacomicrobiomics|drug repurposing]] strategies
+- Table 1 provides comprehensive summary of human studies linking microbiomes to PC, useful reference for [[microbial-biomarkers]]

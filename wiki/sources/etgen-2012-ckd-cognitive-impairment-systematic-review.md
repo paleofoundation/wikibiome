@@ -9,6 +9,7 @@ journal: "American Journal of Nephrology"
 doi: "10.1159/000338135"
 tags: [chronic-kidney-disease, CKD, cognitive-impairment, dementia, systematic-review, meta-analysis, CKD-cognition]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # CKD and Cognitive Impairment: Systematic Review

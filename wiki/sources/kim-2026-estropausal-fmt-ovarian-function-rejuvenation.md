@@ -9,6 +9,8 @@ year: 2026
 doi: "10.1038/s43587-026-01069-3"
 tags: [ovarian-cancer, FMT, ovarian-aging, heterochronic-microbiota-transfer, transcriptomics, metagenomics, ovarian-rejuvenation, menopause, gut-microbiome]
 platform: wikibiome
+evidence_level: animal-model
+karen_brain_primitives: [5, 7]
 ---
 
 # Estropausal Gut Microbiota Transplant Improves Ovarian Function

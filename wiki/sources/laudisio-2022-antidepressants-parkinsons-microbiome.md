@@ -11,13 +11,16 @@ tags: [parkinsons-disease, antidepressants, SSRI, microbiome, drug-microbiome-in
 library_category: drug-repurposing
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [copper, iron, zinc]
+karen_brain_primitives: [1, 4]
 ---
 
 # Antidepressant Use and Parkinson's Disease Microbiome
 
 ## Summary
 
-This study examines how antidepressant use (particularly SSRIs) in [[parkinsons-disease]] patients affects the gut [[microbiome]], investigating whether drug-microbiome interactions contribute to or modulate PD-associated [[dysbiosis]].
+This study examines how antidepressant use (particularly SSRIs) in [[parkinsons-disease]] patients affects the gut [[gut-microbiome|microbiome]], investigating whether drug-microbiome interactions contribute to or modulate PD-associated [[dysbiosis]].
 
 ## Key Findings
 

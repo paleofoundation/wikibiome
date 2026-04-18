@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Eleanor Whitaker]
 year: 2021
 journal: "University of Edinburgh (PhD thesis)"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: University of Edinburgh (PhD thesis) 2021 -->
 tags: [postpartum-depression, statins, preterm-delivery, inflammation, pregnancy, animal-model, clinical-trial]
 library_category: clinical-trial
 platform: cureva
 condition: "preterm delivery"
+evidence_level: animal-model
 ---
 
 # Key Claims

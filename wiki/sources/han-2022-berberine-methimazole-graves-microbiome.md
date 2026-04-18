@@ -1,5 +1,4 @@
 ---
-
 title: "The Potential Prebiotic Berberine Combined With Methimazole Improved the Therapeutic Effect of Graves' Disease Patients Through Regulating the Intestinal Microbiome"
 type: source
 created: 2026-04-09
@@ -10,13 +9,16 @@ year: 2022
 doi: "10.3389/fimmu.2021.826067"
 tags: [graves-disease, thyroid, autoimmune, berberine, methimazole, gut-microbiota, prebiotics, metagenomics, Lactococcus-lactis, enterobactin, iron, Faecalibacterium, Th17-Treg, traditional-Chinese-medicine]
 platform: wikibiome
+metals_discussed: [iron]
+taxa_discussed: [blautia, enterobacter, enterococcus, faecalibacterium-prausnitzii, prevotella, ruminococcus]
+karen_brain_primitives: [5, 8]
 ---
 
 # The Potential Prebiotic Berberine Combined With Methimazole Improved the Therapeutic Effect of Graves' Disease Patients Through Regulating the Intestinal Microbiome
 
 ## Key Claims
 
-- [[Berberine]] combined with [[methimazole]] (MI) is more effective than methimazole alone in treating [[graves-disease]], significantly improving thyroid function and restoring TSH, FT3, and FT3 to healthy thresholds by 6 months
+- [[polyphenols|Berberine]] combined with [[thyroid-autoimmunity|methimazole]] (MI) is more effective than methimazole alone in treating [[graves-disease]], significantly improving thyroid function and restoring TSH, FT3, and FT3 to healthy thresholds by 6 months
 - Methimazole alone restored only FT3 and failed to modulate the gut microbiota, while berberine addition significantly altered microbiota structure
 - Berberine supplementation increased beneficial bacteria [[lactococcus|*Lactococcus lactis*]] and [[Enterococcus hirae]] while decreasing pathogenic [[Enterobacter hormaechei]] and [[Chryseobacterium indologenes]]
 - Berberine resulted in significant upregulation of [[enterobactin]] biosynthesis, which is essential for [[iron]] uptake and may help improve thyroid function given iron's role in thyroid hormone synthesis
@@ -39,7 +41,7 @@ platform: wikibiome
 
 - Berberine as prebiotic modulator of extends findings from [[yang-2022-intestinal-flora-graves-methimazole]] on methimazole-microbiome interaction
 - Enterobactin-iron uptake mechanism connects to [[kravchenko-2023-thyroid-hormones-minerals-AITD]] and [[brylinski-2025-trace-elements-thyroid-diseases]] iron sections on Fe-TPO relationship
-- Faecalibacterium prausnitzii role consistent with its known anti-inflammatory properties and [[Short-Chain Fatty Acids]] production
+- Faecalibacterium prausnitzii role consistent with its known anti-inflammatory properties and [[short-chain-fatty-acids]] production
 - Vitamin K2 biosynthesis pathway changes relevant to emerging understanding of in autoimmune regulation
 - Lactococcus lactis increase by berberine relevant to [[probiotics]] approaches for autoimmune thyroid disease
 - TCA cycle and amino acid metabolism pathway changes connect to broader of GD

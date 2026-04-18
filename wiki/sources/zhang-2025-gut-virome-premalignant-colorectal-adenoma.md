@@ -1,5 +1,4 @@
 ---
-
 title: "Characteristics of the gut virome in patients with premalignant colorectal adenoma"
 type: source
 created: 2026-04-09
@@ -12,7 +11,7 @@ tags: [colon-cancer, colorectal-cancer, virome, gut-virome, colorectal-adenoma, 
 platform: wikibiome
 karen_brain_primitives: []
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [clostridium, lachnospiraceae, oscillospiraceae]
 evidence_level: cross-sectional
 ---
 

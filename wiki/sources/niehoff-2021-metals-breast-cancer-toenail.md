@@ -1,5 +1,4 @@
 ---
-
 title: "Metals and Breast Cancer Risk: A Prospective Study Using Toenail Biomarkers"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 tags: [metals, breast-cancer, toenail-biomarkers, prospective-study, molybdenum, metalloestrogens, Sister-Study, epidemiology]
 doi: "10.3390/cancers13123045"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [aluminum, antimony, arsenic, cadmium, chromium, cobalt, copper, iron, lead, manganese, molybdenum, nickel, selenium, tin, zinc]
 ---
 
 # Metals and Breast Cancer Risk: A Prospective Study Using Toenail Biomarkers
@@ -42,5 +43,5 @@ platform: wikibiome
 - Nickel null findings relevant to [[aquino-2012-cadmium-nickel-metalloestrogens]] hypothesis about nickel as metalloestrogen
 - [[molybdenum]] finding is novel - cofactor for enzymes breaking down toxic sulfites; potential protective role warrants investigation
 - Toenail biomarkers reflect longer-term exposure (6-12 months) vs blood/urine (shorter window), which may explain discrepancies with [[ali-2024-heavy-metals-breast-cancer-review]]
-- [[Metalloestrogens]] group analysis relevant to broader literature
+- [[metalloestrogens]] group analysis relevant to broader literature
 - Racial/ethnic exposure disparities connect to and metal exposure pathways

@@ -42,6 +42,9 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: "Reveals that zinc stress doesn't merely inhibit cytoplasmic enzymes but triggers outer membrane proteome remodeling, exposing normally-impermeable antibiotic binding sites (TonB-dependent receptor BugA) that confer vancomycin and bacitracin susceptibility. WikiBiome uses this evidence to explain why zinc-restricted environments (nutritional immunity response, dysbiotic low-zinc states) become selective for zinc-efflux-pump-expressing pathogens while paradoxically increasing antibiotic vulnerability—a mechanism enabling zinc-based ecological engineering."
+metals_discussed: [copper, iron, zinc]
+karen_brain_primitives: [2, 3, 4, 5]
+key_findings: ["Loss of YjbI"]
 ---
 
 # Why This Paper Matters
@@ -85,7 +88,7 @@ This paper reveals a previously unknown mechanism linking zinc stress to antibio
 - [[zinc]] -- zinc-triggered proteolysis of YjbI as novel zinc stress response
 - [[metal-homeostasis]] -- UzcSR/ChvGI two-component systems sensing zinc and copper
 - [[antimicrobial-resistance]] -- metal stress creates new antibiotic vulnerabilities via envelope remodeling
-- [[outer-membrane]] -- TBDR-mediated import as Achilles heel of Gram-negative barrier
+- [[pathogen-metal-acquisition|outer-membrane]] -- TBDR-mediated import as Achilles heel of Gram-negative barrier
 - [[iron]] -- iron starvation and zinc excess converge on same stress pathways
 - [[oxidative-stress]] -- envelope stress from metal imbalance
 - [[Caulobacter]] -- oligotrophic lifestyle with extensive TBDR repertoire

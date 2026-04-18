@@ -1,5 +1,4 @@
 ---
-
 title: "Fecal microbiota transplantation as a novel therapeutic strategy for pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -11,6 +10,8 @@ tags: [pancreatic-cancer, FMT, fecal-microbiota-transplant, microbiome-targeted-
 doi: "10.33611/trs.2025-003"
 platform: wikibiome
 evidence_level: expert-opinion
+taxa_discussed: [akkermansia-muciniphila, faecalibacterium-prausnitzii, porphyromonas, prevotella, streptococcus, veillonella]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -32,7 +33,7 @@ evidence_level: expert-opinion
 
 # Connections
 
-- [[fecal-microbiota-transplant]] donor selection from long-term survivors links to [[microbiome signature]] and [[microbial biomarkers]] research
-- CD8+ T cell activation by transplanted microbiome connects to [[microbiome-host interactions]] and immunotherapy
-- Antibiotic-FMT sequencing relevant to [[antibiotics]] and [[microbiome-targeted therapy]] treatment protocols
-- Clinical trial progress connects to translational pipeline from [[microbiome composition]] research to therapy
+- [[fecal-microbiota-transplant]] donor selection from long-term survivors links to [[microbial-biomarkers|microbiome signature]] and [[microbial-biomarkers]] research
+- CD8+ T cell activation by transplanted microbiome connects to [[gut-metal-microbiome|microbiome-host interactions]] and immunotherapy
+- Antibiotic-FMT sequencing relevant to [[antimicrobial-resistance|antibiotics]] and [[probiotics|microbiome-targeted therapy]] treatment protocols
+- Clinical trial progress connects to translational pipeline from [[dysbiosis|microbiome composition]] research to therapy

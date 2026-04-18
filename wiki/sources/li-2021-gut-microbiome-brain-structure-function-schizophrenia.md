@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut Microbiome is Associated with Brain Structure and Function in Schizophrenia"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 doi: "10.1038/s41598-021-89166-8"
 tags: [schizophrenia, gut-microbiome, brain-structure, fMRI, MRI, Roseburia, Ruminococcus, Veillonella, gray-matter-volume, microbiome-composition]
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [akkermansia-muciniphila, faecalibacterium-prausnitzii, roseburia, ruminococcus, veillonella]
 ---
 
 # The Gut Microbiome is Associated with Brain Structure and Function in Schizophrenia

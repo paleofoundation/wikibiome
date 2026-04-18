@@ -1,5 +1,4 @@
 ---
-
 title: "Integrative analysis of gut microbiome and host transcriptome reveal novel molecular signatures in Hashimoto's thyroiditis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-microbiome, transcriptome, metagenomics, mirna, molecular-signatures, dysbiosis, inflammation, immune-response]
 doi: "10.1186/s12967-024-05876-3"
 platform: wikibiome
+evidence_level: case-control
 ---
 
 # Integrative analysis of gut microbiome and host transcriptome reveal novel molecular signatures in Hashimoto's thyroiditis
@@ -21,7 +21,7 @@ platform: wikibiome
 - Three characteristic species -- Salaquimonas_sp002400845, Clostridium_AI_sp002297865, and Enterocloster_citroniae -- were identified as most relevant to HT
 - Ecological network analysis revealed imbalance in gut microbiota with reduced inhibitory interactions against pathogenic genera in HT
 - Six characteristic miRNAs (hsa-miR-548aq-3p, hsa-miR-374a-5p, GADD45A, IRS2, SMAD6, WWTR1) identified from gut microbiota-host transcriptome interactions in HT
-- Functional analysis showed changes in infection- and [[immune response]]-related pathways, as well as [[inflammation]], metabolism, proliferation, and thyroid cancer pathways
+- Functional analysis showed changes in infection- and [[inflammation|immune response]]-related pathways, as well as [[inflammation]], metabolism, proliferation, and thyroid cancer pathways
 
 ## Methods/Findings
 

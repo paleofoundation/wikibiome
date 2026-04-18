@@ -11,6 +11,9 @@ tags: [autism, amino-acids, urinary, metabolomics, LC-MS/MS, biomarkers, ornithi
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [4]
+key_findings: ["21 urinary amino acid indicators", "7 UAA biomarker panel", "Ornithine/urea cycle abnormalities"]
 ---
 
 # Key Claims

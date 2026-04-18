@@ -1,5 +1,4 @@
 ---
-
 title: "Redefining environmental exposure for disease etiology"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2018
 doi: 10.1038/s41540-018-0065-0
 tags: [cardiovascular-disease, CVD, exposome, blood-exposome, metabolomics, environmental-exposure, TMAO, choline, betaine, epidemiology, perspective]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [cadmium, lead]
+karen_brain_primitives: [1]
 ---
 
 # Redefining Environmental Exposure for Disease Etiology

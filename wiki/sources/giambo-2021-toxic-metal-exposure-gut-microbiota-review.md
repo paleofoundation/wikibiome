@@ -14,7 +14,7 @@ authors:
   - Concettina Fenga
 journal: World Academy of Sciences Journal
 year: 2021
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: World Academy of Sciences Journal 2021 -->
 tags:
   - heavy-metals
   - gut-microbiota
@@ -37,6 +37,10 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Comprehensive synthesis of how arsenic, cadmium, mercury, lead, and trace metals reshape microbiota composition and functionality. This cross-metal framework enables WikiBiome to explain why multiple metals—whether individually or as an environmental metal burden—converge on the dysbiotic signatures observed across disease states."
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, chromium, copper, lead, manganese, mercury, nickel, zinc]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, lactobacillus]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims
@@ -66,8 +70,8 @@ why_keystone: "Comprehensive synthesis of how arsenic, cadmium, mercury, lead, a
 
 # Connections
 
-- Complements [[Zhu 2024 - Toxic Essential Metals Gut Microbiota]] with additional focus on nanoparticles
-- Ni findings relevant to [[nickel gut microbiome interactions]] - notes Ni altered metabolic balance and microbial composition in mice
-- Supports [[Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on barrier disruption mechanisms
-- Connects to [[Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] on probiotic protective strategies
-- Mn neurotoxicity findings link to [[Racette 2017 - Manganese Parkinsonism Welders]]
+- Complements [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]] with additional focus on nanoparticles
+- Ni findings relevant to [[nickel-allergy|nickel gut microbiome interactions]] - notes Ni altered metabolic balance and microbial composition in mice
+- Supports [[ghosh-2023-heavy-metals-gut-barrier-integrity|Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on barrier disruption mechanisms
+- Connects to [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] on probiotic protective strategies
+- Mn neurotoxicity findings link to [[racette-2017-manganese-parkinsonism-welders|Racette 2017 - Manganese Parkinsonism Welders]]

@@ -11,6 +11,9 @@ tags: [autism, probiotics, prebiotics, synbiotics, meta-analysis, umbrella-revie
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [4, 5]
+key_findings: ["No significant effect", "Significant EEG changes", "Frontopolar gamma coherence"]
 ---
 
 # Key Claims

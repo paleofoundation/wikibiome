@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, biosensor, fluore
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "oxygen-dependent zinc homeostasis"
+metals_discussed: [iron, zinc]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [1, 3, 4, 9]
+key_findings: ["CreiLOVN41C"]
 ---
 
 # Why This Paper Matters
@@ -53,7 +57,7 @@ This paper introduces an oxygen-independent fluorescent zinc sensor (CreiLOVN41C
 - [[mis-metallation]] -- oxygen-dependent zinc handling means aerobic/anaerobic transitions alter mis-metallation risk
 - [[zinc]] -- labile zinc pool dynamics differ between aerobic and anaerobic growth
 - [[metal-homeostasis]] -- oxygen as previously unappreciated modulator of zinc homeostasis
-- [[gut-microbiota]] -- gut bacteria encounter variable oxygen and zinc; this tool enables study in native conditions
+- [[gut-microbiome]] -- gut bacteria encounter variable oxygen and zinc; this tool enables study in native conditions
 - [[nutritional-immunity]] -- host zinc restriction occurs in both aerobic and anaerobic tissue compartments
 - [[iron]] -- iron homeostasis is known to change with oxygen; zinc now shown to behave similarly
 - [[metal-sensing]] -- CreiLOVN41C as tool for studying metal dynamics in anaerobes

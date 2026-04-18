@@ -11,13 +11,16 @@ tags: [parkinsons-disease, oral-microbiome, functional-microbiome-shifts, early-
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+karen_brain_primitives: [1, 4]
 ---
 
 # The Oral Microbiome of Early Stage Parkinson's Disease and Its Relationship with Functional Measures
 
 ## Summary
 
-This study characterizes the oral [[microbiome]] in early-stage [[parkinsons-disease]] and correlates oral microbial features with both motor and non-motor symptom measures, providing functional context for oral [[dysbiosis]] in PD.
+This study characterizes the oral [[gut-microbiome|microbiome]] in early-stage [[parkinsons-disease]] and correlates oral microbial features with both motor and non-motor symptom measures, providing functional context for oral [[dysbiosis]] in PD.
 
 ## Key Findings
 

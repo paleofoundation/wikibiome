@@ -1,5 +1,4 @@
 ---
-
 title: "Metal Profiles in Autism Spectrum Disorders: A Crosstalk between Toxic and Essential Metals"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [autism, metals, lead, mercury, cadmium, zinc, copper, oxidative-stress, mitochondrial-dysfunction, neuroinflammation, myelination, BBB]
 doi: "10.3390/ijms24010308"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, calcium, copper, lead, mercury, nickel, zinc]
+karen_brain_primitives: [1, 4]
 ---
 
 # Key Claims

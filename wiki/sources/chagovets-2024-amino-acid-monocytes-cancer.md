@@ -9,6 +9,7 @@ year: 2024
 doi: "10.3389/fimmu.2023.1332043"
 tags: [ovarian-cancer, amino-acids, metabolomics, monocytes, citrulline, sarcosine, glutamic-acid, tumor-associated-macrophages, LC-MS]
 platform: wikibiome
+metals_discussed: [iron]
 ---
 
 # Specific Changes in Amino Acid Profiles in Monocytes of Cancer Patients

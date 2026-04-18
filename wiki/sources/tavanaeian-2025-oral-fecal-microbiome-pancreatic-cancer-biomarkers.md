@@ -1,5 +1,4 @@
 ---
-
 title: "Oral and fecal microbiome alterations in pancreatic cancer: insights into potential diagnostic biomarkers"
 type: source
 created: 2026-04-09
@@ -10,12 +9,14 @@ year: 2025
 tags: [pancreatic-cancer, microbial-biomarkers, oral-microbiome, fecal-microbiome, Fusobacterium-nucleatum, Neisseria-elongata, Granulicatella, Roseburia, Bifidobacterium, qPCR, diagnostics]
 doi: "10.1186/s12866-025-04344-2"
 platform: wikibiome
+taxa_discussed: [bifidobacterium, fusobacterium-nucleatum, roseburia]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
 - *Granulicatella adiacens* and *Fusobacterium nucleatum* were significantly increased in [[pancreatic-cancer]] patients compared to controls (P < 0.001), while *Neisseria elongata*, *Roseburia intestinalis*, and *Bifidobacterium bifidum* were significantly decreased
-- Combined clinical and [[microbial biomarkers]] achieved AUC of 1.00 for classifying PC, with hemoglobin, hematocrit, and *R. intestinalis* each individually achieving AUC of 1.00
+- Combined clinical and [[microbial-biomarkers]] achieved AUC of 1.00 for classifying PC, with hemoglobin, hematocrit, and *R. intestinalis* each individually achieving AUC of 1.00
 - *N. elongata* demonstrated highest individual predictive capability among microbiota variables with AUC of 0.97 (95% CI: 0.90-1.05)
 - PCA analysis confirmed distinct clustering between PC and control groups using combined oral and fecal microbiota profiles
 
@@ -30,6 +31,6 @@ platform: wikibiome
 # Connections
 
 - Depletion of butyrate-producing *Roseburia intestinalis* links to reduced [[short-chain-fatty-acids]] production in PC
-- *Fusobacterium nucleatum* enrichment consistent with [[microbiome signature]] and [[microbiome and inflammation]] studies
+- *Fusobacterium nucleatum* enrichment consistent with [[microbial-biomarkers|microbiome signature]] and [[inflammation|microbiome and inflammation]] studies
 - Loss of protective *Bifidobacterium* relevant to [[probiotics]] and [[prebiotics]] intervention strategies
-- Multi-site (oral + fecal) biomarker approach connects to [[microbiome composition]] profiling for early detection
+- Multi-site (oral + fecal) biomarker approach connects to [[dysbiosis|microbiome composition]] profiling for early detection

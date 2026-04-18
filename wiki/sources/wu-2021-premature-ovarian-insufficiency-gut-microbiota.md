@@ -9,6 +9,8 @@ year: 2021
 doi: "10.1186/s12884-021-03855-w"
 tags: [ovarian-cancer, premature-ovarian-insufficiency, gut-microbiota, sex-hormones, Firmicutes, Bacteroidetes, Sutterella, FSH, 16S-rRNA]
 platform: wikibiome
+taxa_discussed: [butyricimonas, dorea, faecalibacterium-prausnitzii]
+karen_brain_primitives: [7]
 ---
 
 # Association Between Premature Ovarian Insufficiency and Gut Microbiota

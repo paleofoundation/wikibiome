@@ -1,5 +1,4 @@
 ---
-
 title: "Brain virome dysbiosis in Parkinson's disease and multiple system atrophy"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 doi: 10.3389/fmicb.2025.1683277
 tags: [brain-virome, Parkinsons-disease, multiple-system-atrophy, neurodegeneration, viral-dysbiosis, putamen, Pestivirus, biomarker]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [saccharomyces-cerevisiae, salmonella]
+key_findings: ["Nine viral species enriched"]
 ---
 
 # Brain Virome Dysbiosis in Parkinson's Disease and Multiple System Atrophy

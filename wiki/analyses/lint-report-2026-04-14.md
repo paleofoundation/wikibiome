@@ -97,7 +97,7 @@ The `wiki/entities/pancreatic-cancer.md` page has a `subtype:` field appearing a
 A large number of wikilinks in signature pages point to pages that do not exist. 606 unique link targets could not be resolved. Examples:
 
 - `[[tnf-alpha]]`, `[[il-1beta]]`, `[[il-6]]` in `alzheimers-disease.md`
-- `[[firmicutes]]`, `[[pseudomonadota]]` in `autism-spectrum-disorder-microbiome-signature.md`
+- `[[firmicutes]]`, `[[pseudomonadota]]` in `autism-spectrum-disorder-signature.md`
 - `[[metformin]]`, `[[lactoferrin-supplementation]]`, `[[nac-supplementation]]` in `crohns-disease.md`
 - `[[dialister-invisus]]` in `colorectal-cancer.md`
 - `[[high-fiber-prebiotics]]`, `[[tributyrin]]` in `crohns-disease.md`
@@ -174,7 +174,7 @@ Studies using "landmark" without verification:
 Three types of entities are referenced in wiki content but have no page:
 - **`snas`** — Systemic Nickel Allergy Syndrome. Referenced in `low-nickel-diet.md` intervention. Should be a concept or disease entity page.
 - **`cerebral-palsy`** — 79+ raw papers in source library; no entity page, no signature page.
-- **`bile-acids`** — `bile-acid-metabolism.md` concept exists, but direct `[[bile-acids]]` links in content will resolve to nothing. Need an alias or redirect stub.
+- **`bile-acids`** — `bile-acid-metabolism.md` concept exists, but direct `[[bile-acid-metabolism]]` links in content will resolve to nothing. Need an alias or redirect stub.
 
 ---
 

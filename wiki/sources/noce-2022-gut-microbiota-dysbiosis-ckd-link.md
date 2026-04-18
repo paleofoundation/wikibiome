@@ -5,10 +5,11 @@ created: 2026-04-09
 updated: 2026-04-09
 authors: [A. Noce, M. Marchetti, G. Marrone, L. Di Renzo, M. Di Lauro, F. Di Daniele, M. Albanese, N. Di Daniele, A. De Lorenzo]
 year: 2022
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: European Review for Medical and Pharmacological Sciences 2022 -->
 journal: "European Review for Medical and Pharmacological Sciences"
 tags: [chronic-kidney-disease, CKD, dysbiosis, uremic-toxins, p-cresyl-sulfate, indoxyl-sulfate, TMAO, Mediterranean-diet, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Link between Gut Microbiota Dysbiosis and CKD

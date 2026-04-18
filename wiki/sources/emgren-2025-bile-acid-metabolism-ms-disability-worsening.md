@@ -1,5 +1,4 @@
 ---
-
 title: "Bile acid metabolism in multiple sclerosis is perturbed and associated with the risk of confirmed disability worsening"
 type: source
 created: 2026-04-09
@@ -10,13 +9,14 @@ year: 2025
 doi: 10.1186/s12916-025-04041-x
 tags: [multiple-sclerosis, bile-acids, GCDCA, disability-worsening, EDSS, sex-differences, Swedish-cohort, metabolomics, longitudinal]
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis]
 ---
 
 # Bile Acid Metabolism in Multiple Sclerosis Is Perturbed and Associated with the Risk of Confirmed Disability Worsening
 
 ## Summary
 
-This large population-based study from the Swedish EIMS cohort examined serum [[bile-acids]] in 907 newly diagnosed MS patients and 907 matched controls, with clinical follow-up data from the Swedish MS Registry (median 10.5 years). It is the largest study to date linking bile acid levels to MS disability progression.
+This large population-based study from the Swedish EIMS cohort examined serum [[bile-acid-metabolism]] in 907 newly diagnosed MS patients and 907 matched controls, with clinical follow-up data from the Swedish MS Registry (median 10.5 years). It is the largest study to date linking bile acid levels to MS disability progression.
 
 ## Key Findings
 
@@ -39,7 +39,7 @@ This large population-based study from the Swedish EIMS cohort examined serum [[
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This study provides the strongest population-level evidence linking [[bile-acids]] to MS disability progression:
+This study provides the strongest population-level evidence linking [[bile-acid-metabolism]] to MS disability progression:
 
 1. **Secondary bile acids require gut bacterial metabolism** - their depletion in MS reflects [[dysbiosis]] affecting bile acid-transforming bacteria (Clostridia, *Bacteroides*), the same taxa sensitive to [[heavy-metals]]
 2. **Sex-specific BA alterations** (more prominent in males) may reflect sex differences in metal metabolism, gut microbiome composition, and bile acid conjugation

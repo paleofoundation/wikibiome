@@ -13,7 +13,9 @@ platform: cureva
 condition: "autism spectrum disorder"
 karen_brain_primitives: []
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [bacteroides-fragilis, clostridium]
+evidence_level: systematic-review-meta-analysis
+key_findings: ["Differentially abundant taxa", "Largest ASD gut microbiome meta-analysis"]
 ---
 
 # Key Claims

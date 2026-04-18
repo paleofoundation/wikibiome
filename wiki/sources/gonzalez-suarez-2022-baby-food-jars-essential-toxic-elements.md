@@ -1,5 +1,4 @@
 ---
-
 title: "Baby Food Jars as a Dietary Source of Essential (K, Na, Ca, Mg, Fe, Zn, Cu, Co, Mo, Mn) and Toxic Elements (Al, Cd, Pb, B, Ba, V, Sr, Li, Ni)"
 type: source
 created: 2026-04-09
@@ -7,9 +6,10 @@ updated: 2026-04-09
 authors: [Gonzalez-Suarez S, Paz-Montelongo S, Niebla-Canelo D, Alejandro-Vega S, Gonzalez-Weller D, Rubio-Armendariz C, Hardisson A, Gutierrez-Fernandez AJ]
 journal: Applied Sciences
 year: 2022
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Applied Sciences 2022 -->
 tags: [baby-food, heavy-metals, aluminum, nickel, cadmium, lead, dietary-exposure, risk-assessment, infant-safety]
 platform: wikibiome
+metals_discussed: [aluminum, cadmium, lead, lithium, manganese, molybdenum, nickel]
 ---
 
 ## Key Claims
@@ -19,7 +19,7 @@ platform: wikibiome
 - Toxic element intakes from baby food jars (130 and 250 g/day) far exceed maximum values set by international institutions for [[lead]] (MOE of 112.5-450), [[nickel]] (79.4% of TDI), [[cadmium]] (31.1-124% of TWI), and [[aluminum]] (55.2-160% of TWI)
 - The two proposed consumption scenarios are not safe for babies aged 6-11 months
 - Vegetable jars contained the highest [[aluminum]] levels (8.22 +/- 8.97 mg/kg), likely due to plant uptake from soil
-- [[Lithium]] levels were high across all jar types (mean 319 +/- 48 mg/kg in meat jars)
+- [[environmental-metal-exposure|Lithium]] levels were high across all jar types (mean 319 +/- 48 mg/kg in meat jars)
 - Mixed jars had highest concentrations of Na, Ca, Zn, and Fe; meat and vegetable jars had highest K and Mg
 
 ## Methods/Findings

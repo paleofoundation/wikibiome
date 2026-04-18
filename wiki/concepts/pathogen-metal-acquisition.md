@@ -1,5 +1,4 @@
 ---
-
 title: Pathogen Metal Acquisition Systems
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, cassat-2012-metal-acquisition-staphylococcus-aureus, akbari-2022-metal-homeostasis-streptococci, pendergrass-2026-nickel-nec-preterm-gut, romero-espejel-2013-streptococcus-pneumoniae-iron, alquethamy-2021-acinetobacter-cadmium-resistance, braud-2010-siderophores-pseudomonas-metal-tolerance, patil-2021-infection-metallomics-critical-care, cheng-2021-cadmium-enterococcus-metabolic, chen-2022-living-microorganisms-detoxification-heavy-metals, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]
 tags: [metal-transport, ABC-transporter, NiCoT, ferritin, Hpn, NikR, Fur, Zur, metal-efflux, metal-regulation, virulence, nutritional-immunity]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 3, 4, 6, 8]
+seo_target: "pathogen metal acquisition systems microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Pathogen Metal Acquisition Systems

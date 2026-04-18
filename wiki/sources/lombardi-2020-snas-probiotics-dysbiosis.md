@@ -1,5 +1,4 @@
 ---
-
 title: "The Effects of Low-Nickel Diet Combined with Oral Administration of Selected Probiotics on Patients with Systemic Nickel Allergy Syndrome (SNAS) and Gut Dysbiosis"
 type: source
 created: 2026-04-09
@@ -7,9 +6,11 @@ updated: 2026-04-09
 authors: [Lombardi F, Fiasca F, Minelli M, Maio D, Mattei A, Vergallo I, Cifone MG, Cinque B, Minelli M]
 journal: Nutrients
 year: 2020
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Nutrients 2020 -->
 tags: [SNAS, probiotics, gut-dysbiosis, low-nickel-diet, microbiome, indican, skatole]
 platform: wikibiome
+metals_discussed: [nickel]
+karen_brain_primitives: [5]
 ---
 
 ## Key Claims

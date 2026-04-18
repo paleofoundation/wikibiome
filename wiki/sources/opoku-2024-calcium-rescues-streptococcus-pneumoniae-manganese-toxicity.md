@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, manganese, manganese-toxicity, calcium
 library_category: streptococcus_staphylococcus
 platform: wikibiome
 condition: "calcium-manganese cross-talk in pneumococcus"
+metals_discussed: [calcium, manganese]
+taxa_discussed: [streptococcus]
+karen_brain_primitives: [3, 4]
+key_findings: ["S. pneumoniae delta-mntE", "Exogenous Ca2+ (1 mM)", "Bacterial capsule production"]
 ---
 
 # Why This Paper Matters
@@ -61,7 +65,7 @@ This paper reveals the first evidence of a functional role for calcium in Strept
 - [[manganese]] -- Mn excess toxicity mediated through capsule, biofilm, and cell division defects
 - [[calcium]] -- first physiological role identified for Ca2+ in S. pneumoniae
 - [[metal-homeostasis]] -- MntE as essential Mn efflux pump; yybP-ykoY riboswitch sensing both Mn and Ca
-- [[Streptococcus-pneumoniae]] -- metal homeostasis directly impacts virulence traits
+- [[streptococcus-pneumoniae]] -- metal homeostasis directly impacts virulence traits
 - [[biofilm]] -- Mn intoxication reduces biofilm via capsule overproduction
-- [[virulence]] -- capsule modulation by metal stress affects adherence and colonization
+- [[virulence-factors|virulence]] -- capsule modulation by metal stress affects adherence and colonization
 - [[nutritional-immunity]] -- host Mn and Ca levels vary across infection sites

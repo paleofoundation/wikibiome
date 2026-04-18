@@ -11,6 +11,8 @@ tags: [parkinsons-disease, LRRK2, metabolomics, genetic-PD, lipid-metabolism, pu
 library_category: metabolomics
 platform: blood
 condition: "Parkinson's disease"
+metals_discussed: [iron, lead]
+karen_brain_primitives: [1]
 ---
 
 # Metabolomic Profiling in LRRK2-Related Parkinson's Disease
@@ -24,14 +26,14 @@ This study characterizes the metabolomic profile of [[parkinsons-disease]] patie
 - LRRK2-PD has a distinct metabolomic signature compared to idiopathic PD
 - Lipid metabolism is differentially altered in LRRK2-PD versus idiopathic PD
 - Purine metabolism disruption is common to both genetic and idiopathic PD
-- [[Tryptophan-metabolism]] alterations are present in LRRK2-PD but with different patterns
+- [[tryptophan-metabolism]] alterations are present in LRRK2-PD but with different patterns
 - Some metabolic changes in LRRK2 carriers are detectable before clinical PD onset
 - The metabolomic differences may reflect LRRK2-specific cellular pathways (autophagy, vesicular trafficking)
 - Metabolomic profiling could help stratify PD patients for targeted therapies
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-LRRK2 mutations affect the gut-metal-microbiome axis through specific mechanisms. LRRK2 regulates autophagy and vesicular trafficking, which are essential for cellular [[iron]] handling (ferritinophagy -- the autophagic release of [[iron]] from ferritin stores). LRRK2 mutations that impair autophagy could lead to [[iron]] accumulation in neurons and microglia, promoting [[ferroptosis]]. LRRK2 is also highly expressed in immune cells, including gut macrophages, where it regulates responses to gut bacteria. LRRK2 variants associated with Crohn's disease (which shares PD risk genes) affect gut [[microbiome]] interactions. The distinct metabolomic signature of LRRK2-PD suggests that genetic background modifies how the metal-microbiome axis contributes to PD, implying that personalized metal-microbiome interventions may be needed based on PD genetic subtype.
+LRRK2 mutations affect the gut-metal-microbiome axis through specific mechanisms. LRRK2 regulates autophagy and vesicular trafficking, which are essential for cellular [[iron]] handling (ferritinophagy -- the autophagic release of [[iron]] from ferritin stores). LRRK2 mutations that impair autophagy could lead to [[iron]] accumulation in neurons and microglia, promoting [[ferroptosis]]. LRRK2 is also highly expressed in immune cells, including gut macrophages, where it regulates responses to gut bacteria. LRRK2 variants associated with Crohn's disease (which shares PD risk genes) affect gut [[gut-microbiome|microbiome]] interactions. The distinct metabolomic signature of LRRK2-PD suggests that genetic background modifies how the metal-microbiome axis contributes to PD, implying that personalized metal-microbiome interventions may be needed based on PD genetic subtype.
 
 ## Limitations
 

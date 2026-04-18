@@ -9,6 +9,9 @@ journal: "Scientific Reports"
 doi: "10.1038/s41598-025-20266-5"
 tags: [chronic-kidney-disease, CKD, dietary-composition, gut-microbiota, TMAO, SCFAs, cytokines, Klebsiella, low-protein-high-fiber]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [klebsiella-pneumoniae]
+karen_brain_primitives: [5]
 ---
 
 # Dietary Composition Modulates Gut Microbiota in CKD

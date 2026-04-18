@@ -11,6 +11,9 @@ tags: [parkinsons-disease, microbial-metabolites, microbiome-derived-metabolites
 library_category: metabolites
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, zinc]
+taxa_discussed: [clostridioides-difficile]
+karen_brain_primitives: [1, 4]
 ---
 
 # Microbiome-Derived Metabolites in Parkinson's Disease
@@ -21,16 +24,16 @@ This study/review examines the role of [[microbiome-derived-metabolites]] in [[p
 
 ## Key Findings
 
-- [[Short-chain-fatty-acids]] (butyrate, propionate, acetate) are depleted in PD and this depletion correlates with disease severity
+- [[short-chain-fatty-acids]] (butyrate, propionate, acetate) are depleted in PD and this depletion correlates with disease severity
 - Tryptophan metabolites (indoles, kynurenine pathway products) are altered -- reduced neuroprotective indole-3-propionic acid, increased neurotoxic quinolinic acid
-- [[Bile-acid]] metabolism is disrupted, with increased secondary bile acids and decreased primary bile acids
+- [[bile-acid-metabolism]] metabolism is disrupted, with increased secondary bile acids and decreased primary bile acids
 - p-Cresol (a microbial metabolite of tyrosine) is elevated in PD and inhibits dopamine biosynthesis
 - Trimethylamine N-oxide (TMAO) levels are altered and correlate with inflammatory markers
 - Hydrogen sulfide production is reduced due to loss of sulfate-reducing bacteria
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Every major class of [[microbiome-derived-metabolites]] altered in [[parkinsons-disease]] has metal-dependent connections. SCFA depletion impairs [[iron]] absorption regulation (butyrate modulates HIF-2alpha/DMT1). [[Bile-acid]] alterations affect metal solubility -- secondary bile acids increase [[iron]] and [[zinc]] bioavailability. p-Cresol competes with dopamine for sulfation enzymes, and its accumulation is driven by expansion of Clostridioides species that use metal-dependent decarboxylases. Tryptophan diversion to the kynurenine pathway generates quinolinic acid, which chelates [[iron]] and catalyzes Fenton chemistry. The metabolomic signature of PD gut dysbiosis is fundamentally a metallomic signature.
+Every major class of [[microbiome-derived-metabolites]] altered in [[parkinsons-disease]] has metal-dependent connections. SCFA depletion impairs [[iron]] absorption regulation (butyrate modulates HIF-2alpha/DMT1). [[bile-acid-metabolism]] alterations affect metal solubility -- secondary bile acids increase [[iron]] and [[zinc]] bioavailability. p-Cresol competes with dopamine for sulfation enzymes, and its accumulation is driven by expansion of Clostridioides species that use metal-dependent decarboxylases. Tryptophan diversion to the kynurenine pathway generates quinolinic acid, which chelates [[iron]] and catalyzes Fenton chemistry. The metabolomic signature of PD gut dysbiosis is fundamentally a metallomic signature.
 
 ## Limitations
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Mediterranean Diet Combined With a Low-Carbohydrate Dietary Pattern in the Treatment of Overweight Polycystic Ovary Syndrome Patients"
 type: source
 created: 2026-04-09
@@ -10,11 +9,13 @@ year: 2022
 tags: [PCOS, Mediterranean-diet, low-carbohydrate, RCT, insulin-resistance, weight-loss, testosterone, lipid-metabolism]
 doi: "10.3389/fnut.2022.876620"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+metals_discussed: [magnesium]
 ---
 
 # Key Claims
 
-- A [[mediterranean-diet]] combined with a [[low-carbohydrate diet]] (MED/LC) was significantly more effective than a low-fat (LF) diet for improving anthropometric, endocrine, and metabolic parameters in overweight [[pcos]] patients over 12 weeks
+- A [[mediterranean-diet]] combined with a [[low-carbohydrate-diet]] (MED/LC) was significantly more effective than a low-fat (LF) diet for improving anthropometric, endocrine, and metabolic parameters in overweight [[pcos]] patients over 12 weeks
 - The MED/LC group showed greater reductions in weight, BMI, waist circumference, WHR, body fat percentage, total testosterone, LH, LH/FSH ratio, fasting insulin, HOMA-IR, and lipid parameters compared to the LF group
 - Both dietary models restored normal menstrual cycles in the majority of participants (~73% LF, ~87% MED/LC), with no significant difference between groups
 

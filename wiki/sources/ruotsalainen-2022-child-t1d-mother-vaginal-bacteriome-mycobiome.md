@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, vaginal-microbiome, mycobiome, mother-child,
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: computational-prediction
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 6]
+key_findings: ["Alpha-diversity of bacteriome increased (p<0.002)", "Beta-diversity analysis suggested significant differences", "Random forest models"]
 ---
 
 # Key Claims

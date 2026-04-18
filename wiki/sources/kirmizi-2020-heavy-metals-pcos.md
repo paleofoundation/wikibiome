@@ -31,6 +31,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Quantifies heavy metal burden in PCOS showing antimony and cadmium elevated with direct correlation to insulin resistance, while zinc depletion parallels findings in autism and autoimmune conditions—establishing metal dysregulation as a cross-condition pattern selecting for dysbiotic organisms. WikiBiome depends on this evidence to explain how endocrine dysbiosis (estrobolome expansion) emerges from metal-driven immune dysfunction and zinc-dependent barrier failure in reproductive disease."
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [antimony, cadmium, copper, lead, manganese, mercury, nickel, zinc]
+karen_brain_primitives: [1, 4, 7]
 ---
 
 # Key Claims
@@ -41,7 +44,7 @@ why_keystone: "Quantifies heavy metal burden in PCOS showing antimony and cadmiu
 - Inflammatory markers (HsCRP, TNF-alpha) were significantly higher in PCOS (p < 0.001)
 - **Sb correlated positively** with HOMA-IR and fasting glucose, suggesting antimony as an endocrine disruptor relevant to [[insulin-resistance]]
 - **Cd correlated positively** with fasting glucose, insulin, and HOMA-IR, and negatively with TAS
-- Cd, Pb, TNF-alpha, and HsCRP levels were significantly higher in patients with [[hirsutism]]
+- Cd, Pb, TNF-alpha, and HsCRP levels were significantly higher in patients with [[hyperandrogenism|hirsutism]]
 - Heavy metal exposures in PCOS may be related to insulin resistance and hirsutism through [[oxidative-stress|oxidative stress]] and inflammatory mechanisms
 
 # Methods/Findings
@@ -69,4 +72,4 @@ why_keystone: "Quantifies heavy metal burden in PCOS showing antimony and cadmiu
 - Aligns with [[kurdoglu-2012-trace-elements-pcos]] on elevated Pb in PCOS
 - The Sb-HOMA-IR correlation introduces [[antimony]] as an understudied endocrine disruptor in PCOS, complementing evidence on better-known toxic metals
 - The oxidative stress and inflammatory pathway findings connect to [[tatarchuk-2016-micro-macroelements-pcos]] regarding nickel and manganese roles in [[oxidative-stress|oxidative stress]]
-- Lower Zn in PCOS parallels findings in autism research ([[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]]) suggesting a common pattern of [[zinc deficiency]] across metal-dysregulated conditions
+- Lower Zn in PCOS parallels findings in autism research ([[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]]) suggesting a common pattern of [[metal-homeostasis|zinc deficiency]] across metal-dysregulated conditions

@@ -6,18 +6,21 @@ updated: 2026-04-09
 authors: [Qian Wang, Lin Lu, Jian-Guo Zhang]
 year: 2024
 journal: "Gut Microbes"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Gut Microbes 2024 -->
 tags: [parkinsons-disease, constipation, Mendelian-randomization, mediation-analysis, gut-microbiome, dysbiosis, causal-inference, prodromal-PD, gut-brain-axis]
 library_category: signatures
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 4]
 ---
 
 # Exploring the Causal Effect of Constipation on Parkinson's Disease Through Mediation Analysis of Microbial Data
 
 ## Summary
 
-This study uses Mendelian randomization and mediation analysis to investigate whether the well-established association between constipation and [[parkinsons-disease]] is causal, and whether the gut [[microbiome]] mediates this relationship.
+This study uses Mendelian randomization and mediation analysis to investigate whether the well-established association between constipation and [[parkinsons-disease]] is causal, and whether the gut [[gut-microbiome|microbiome]] mediates this relationship.
 
 ## Key Findings
 

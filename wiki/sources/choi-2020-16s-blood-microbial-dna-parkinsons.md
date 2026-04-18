@@ -11,6 +11,9 @@ tags: [parkinsons-disease, 16S-rRNA, blood-microbiome, bacterial-translocation, 
 library_category: signatures
 platform: blood
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 4, 8]
 ---
 
 # Detection of Microbial 16S rRNA Gene in the Blood of Patients with Parkinson's Disease

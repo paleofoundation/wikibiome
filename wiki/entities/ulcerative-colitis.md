@@ -5,7 +5,7 @@ type: entity
 subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
-sources: [amerikanou-2022-ibd-biomarkers-trace-metals, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, ghosh-2023-heavy-metals-gut-barrier-integrity, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, zhu-2024-toxic-essential-metals-gut-microbiota]
+sources: [amerikanou-2022-ibd-biomarkers-trace-metals, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, ghosh-2023-heavy-metals-gut-barrier-integrity, khan-2020-environmental-exposures-autoimmune-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, zhu-2024-toxic-essential-metals-gut-microbiota]
 tags: [ulcerative-colitis, IBD, iron, copper, zinc, selenium, gut-barrier, microbiome, FMT, calprotectin, inflammation, colon]
 platform: wikibiome
 last_substantive_update: 2026-04-13
@@ -63,20 +63,20 @@ UC has a characteristic dysbiotic signature:
 - **Ruminococcus gnavus** -- mucin degrader enriched in UC flares
 
 ### Metabolic Consequences
-- [[Short-chain-fatty-acids]] (especially butyrate) are profoundly reduced in UC
+- [[short-chain-fatty-acids]] (especially butyrate) are profoundly reduced in UC
 - Butyrate is the primary fuel for colonocytes -- its depletion creates an energy crisis in the epithelium
 - Reduced SCFA → weakened [[intestinal-permeability|barrier function]] → increased translocation → more [[inflammation]] → a vicious cycle
 - Bile acid metabolism is altered (reduced secondary bile acids from microbial deconjugation)
 
 ## Distinguishing UC from Crohn's: The Metallomic View
 
-| Feature | Ulcerative Colitis | [[Crohns-disease]] |
+| Feature | Ulcerative Colitis | [[crohns-disease]] |
 |---------|-------------------|-------------------|
 | Iron deficiency | Dominant (bleeding) | Present (malabsorption) |
 | Copper | Elevated (acute phase) | Variable |
 | Zinc | Depleted | Depleted + ZIP8 genetic link |
 | Selenium | Depleted | Depleted |
-| [[Calprotectin]] | Very high (>250 mcg/g in active) | High but more variable |
+| [[calprotectin]] | Very high (>250 mcg/g in active) | High but more variable |
 | Key depleted taxa | F. prausnitzii, Roseburia | F. prausnitzii + broader loss |
 | Key enriched taxa | E. coli, Enterococcus | AIEC, Ruminococcus gnavus |
 | FMT evidence | Stronger (multiple positive RCTs) | Weaker (case series) |
@@ -107,7 +107,7 @@ This explains why oral iron is contraindicated in active UC and why iron-restric
 - [[amerikanou-2022-ibd-biomarkers-trace-metals]]
 - [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]
 - [[ghosh-2023-heavy-metals-gut-barrier-integrity]]
-- [[khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]]
+- [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]]
 - [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]
 - [[zhu-2024-toxic-essential-metals-gut-microbiota]]
 

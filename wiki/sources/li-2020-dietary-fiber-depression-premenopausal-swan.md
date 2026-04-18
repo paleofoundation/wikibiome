@@ -37,7 +37,7 @@ Cross-sectional analysis of SWAN (Study of Women's Health Across the Nation). n 
 
 ## Relevance to WikiBiome
 
-- **Concept pages:** [[dietary-fiber]], [[scfa]], [[gut-brain-axis]].
+- **Concept pages:** [[dietary-fiber]], [[butyrate|scfa]], [[gut-brain-axis]].
 - **Disease entity page:** [[pmdd]] — general nutritional context.
 
 ## Relevance to Cureva

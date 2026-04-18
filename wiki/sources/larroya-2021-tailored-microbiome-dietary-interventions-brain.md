@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, precision-nutrition, gut-microbiome, neurodevel
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["Mental health", "Diet and gut microbiota", "Nutritional deficiencies and gut microbiota alterations"]
 ---
 
 # Key Claims

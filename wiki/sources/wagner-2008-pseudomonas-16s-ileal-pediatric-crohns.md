@@ -39,7 +39,7 @@ DNA extracted from 64 ileal biopsies of Australian children (2005–2007). Pseud
 
 ## Relevance to WikiBiome
 
-- Feeds [[pseudomonas]] entity page — environmental species may colonize CD ileum; distinct from clinical opportunistic infection.
+- Feeds [[pseudomonas-aeruginosa]] entity page — environmental species may colonize CD ileum; distinct from clinical opportunistic infection.
 - Supports [[crohns-disease]] entity page "Environmental Factors" section — soil/water Pseudomonas may enter CD patients via diet or aspiration.
 - Early evidence (pre-metagenomics era) that remains historically relevant; should be cited alongside newer metagenomic confirmation.
 

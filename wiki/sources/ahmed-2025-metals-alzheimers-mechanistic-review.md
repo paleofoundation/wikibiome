@@ -10,7 +10,7 @@ authors:
   - Khalid M. Khan
 journal: Preprints.org (not peer-reviewed)
 year: 2025
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Preprints.org (not peer-reviewed) 2025 -->
 tags:
   - Alzheimers-disease
   - arsenic
@@ -49,7 +49,7 @@ karen_brain_primitives: [3]
 
 - **Document type**: Preprint review (NOT peer-reviewed), posted 30 January 2025 on Preprints.org
 - Reviewed 46 original mechanistic research articles (2014-2024): 6 on arsenic, 9 on manganese, 21 on lead, 10 on cadmium
-- Heavy metals share overlapping AD-relevant pathways: [[oxidative-stress|oxidative stress]], [[mitochondrial dysfunction]], protein aggregation, neuroinflammation, autophagy dysfunction, and tau hyperphosphorylation
+- Heavy metals share overlapping AD-relevant pathways: [[oxidative-stress|oxidative stress]], [[mitochondrial-dysfunction|mitochondrial dysfunction]], protein aggregation, neuroinflammation, autophagy dysfunction, and tau hyperphosphorylation
 - **Arsenic**: Disrupts S-nitrosylation (SNO) signaling in striatum and hippocampus; increases tau phosphorylation via GSK3-beta and ERK1/2 activation; chronic exposure in 3xTg-AD mice increases amyloid plaques, impairs ATP production, disrupts circadian rhythms
 - **Manganese**: Impairs autophagy at low concentrations; Drp1 inhibition protects against Mn-induced autophagic impairment; acute Mn exposure increases cortical GLAST expression and seizure susceptibility in APP/PSEN1 mice; astrocytic REST deletion worsens Mn toxicity
 - **Lead**: 21 studies reviewed (most of any metal); Pb induces blood-brain barrier disruption; associated with neuroinflammation and glutamate excitotoxicity
@@ -76,6 +76,6 @@ karen_brain_primitives: [3]
 - - common pathway; arsenic impairs respiratory chain in hippocampal mitochondria
 - [[blood-brain-barrier]] - disrupted by Pb and Cd specifically
 - - arsenic activates GSK3-beta and ERK1/2 leading to tau aggregation
-- [[Amyloid-Beta]] - arsenic increases A-beta(1-42) production and BACE1 activity
+- [[amyloid-beta]] - arsenic increases A-beta(1-42) production and BACE1 activity
 - - connects to cadmium neurotoxicity described in Rasin et al. 2025
 - [[nickel]] - not directly studied here but relevant as a metal crossing BBB

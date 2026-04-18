@@ -11,11 +11,13 @@ tags: [autism-spectrum-disorder, metabolomics, tryptophan, kynurenine, indoxyl-s
 library_category: metabolomics
 platform: HILIC-UHPLC-MS
 condition: "autism spectrum disorder"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Overview
 
-Urinary metabolomics study of **30 young Italian ASD children and 30 age-sex-matched controls** (ages 2-7) using HILIC-UHPLC-MS. Identified **tryptophan metabolism and purine metabolism** as the most perturbed pathways in ASD. ASD children preferentially shunt tryptophan toward the [[kynurenine]] pathway (producing [[xanthurenic acid]] and [[quinolinic acid]]) at the expense of [[serotonin]]/[[melatonin]], with simultaneously elevated microbial degradation products ([[indoxyl sulfate]], [[indolyl-3-acetic acid]], [[indolyl lactate]]).
+Urinary metabolomics study of **30 young Italian ASD children and 30 age-sex-matched controls** (ages 2-7) using HILIC-UHPLC-MS. Identified **tryptophan metabolism and purine metabolism** as the most perturbed pathways in ASD. ASD children preferentially shunt tryptophan toward the [[kynurenine]] pathway (producing [[kynurenine-pathway|xanthurenic acid]] and [[kynurenine-pathway|quinolinic acid]]) at the expense of [[serotonin]]/[[tryptophan|melatonin]], with simultaneously elevated microbial degradation products ([[tmao|indoxyl sulfate]], [[indoles|indolyl-3-acetic acid]], [[indoles|indolyl lactate]]).
 
 # Key Findings
 
@@ -73,7 +75,7 @@ Ranked by OPLS-DA variable importance in projection:
 - **Quinolinic acid**: excitotoxin that chelates [[iron]] and generates reactive oxygen species via Fenton chemistry
 - **Tryptophan hydroxylase** (tryptophan → serotonin/melatonin): [[iron]]-dependent — reduced activity in iron deficiency could explain melatonin deficit
 - **Xanthurenic acid**: known [[zinc]] chelator — elevated levels may contribute to zinc depletion
-- **[[Indoxyl sulfate]]**: produced by microbial tryptophanase — elevated levels indicate bacterial dysbiosis affecting metal-dependent metabolism
+- **[[tmao|Indoxyl sulfate]]**: produced by microbial tryptophanase — elevated levels indicate bacterial dysbiosis affecting metal-dependent metabolism
 - Purine metabolism perturbation involves [[iron]]-dependent xanthine oxidase
 
 # Methodological Notes

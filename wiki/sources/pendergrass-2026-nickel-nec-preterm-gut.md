@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel as a Catalytic Driver of Necrotizing Enterocolitis: Dietary Nickel, Microbial Metallomics, and the Activation of Nickel-Dependent Virulence Pathways in the Preterm Gut"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2026
 tags: [nickel, necrotizing-enterocolitis, NEC, infant-formula, microbial-metallomics, urease, NiFe-hydrogenase, glyoxalase, E-coli, preterm-infant, soy-formula, nutritional-immunity]
 doi: "10.5281/zenodo.18200348"
 platform: wikibiome
+metals_discussed: [nickel]
+taxa_discussed: [bifidobacterium, citrobacter, enterobacter, escherichia-coli, klebsiella-pneumoniae, lactobacillus, ureaplasma]
+karen_brain_primitives: [1, 2, 4, 5, 9]
 ---
 
 # Nickel as a Catalytic Driver of Necrotizing Enterocolitis
@@ -40,8 +42,8 @@ platform: wikibiome
 
 - -- central framework; how trace metals shape microbial community dynamics
 - -- infant formula nickel content data critical to hypothesis
-- [[Nutritional immunity]] -- host metal-sequestration strategies (calprotectin, lactoferrin)
-- [[Urease]] -- key nickel-dependent virulence factor across multiple NEC pathogens
+- [[nutritional-immunity]] -- host metal-sequestration strategies (calprotectin, lactoferrin)
+- [[urease]] -- key nickel-dependent virulence factor across multiple NEC pathogens
 - -- connects to [[dobrzynska-2025-nickel-children-food]]
 - -- Proteobacteria bloom driven by nickel availability
 - [[maier-2019-nickel-microbial-pathogenesis]] -- nickel's role in microbial virulence

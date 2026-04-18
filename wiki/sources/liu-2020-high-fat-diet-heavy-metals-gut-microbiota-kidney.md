@@ -9,6 +9,10 @@ journal: "Frontiers in Microbiology"
 doi: "10.3389/fmicb.2020.01604"
 tags: [chronic-kidney-disease, CKD, high-fat-diet, heavy-metals, arsenic, cadmium, lead, gut-microbiota, nephrotoxicity, mouse-model]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, lead]
+taxa_discussed: [bacteroides-fragilis, desulfovibrio, dorea, lactobacillus, roseburia]
+karen_brain_primitives: [1]
 ---
 
 # High-Fat Diet Affects Heavy Metal Accumulation and Kidney Toxicity via Gut Microbiota

@@ -1,5 +1,4 @@
 ---
-
 title: "Exposure to toxic metals triggers unique responses from the rat gut microbiota"
 type: source
 created: 2026-04-09
@@ -10,12 +9,15 @@ year: 2018
 tags: [heavy-metals, arsenic, cadmium, cobalt, chromium, nickel, gut-microbiota, dose-response, 16S-rRNA, iron-transport, PICRUSt, rats]
 doi: "10.1038/s41598-018-24931-w"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, chromium, cobalt, iron, nickel]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
 - Oral gavage of five toxic metals (As, Cd, Co, Cr, Ni) to rats for 5 days triggered metal-specific changes in gut microbiota composition, with nickel showing the most pronounced effects (37 genera affected)
-- [[Arsenic Toxicity|Arsenic]], [[Cadmium Toxicity|cadmium]], and nickel all showed significant dose-dependent effects on microbiota composition (PERMANOVA)
+- [[arsenic|Arsenic]], [[cadmium|Cadmium Toxicity]], and nickel all showed significant dose-dependent effects on microbiota composition (PERMANOVA)
 - Iron complex transport system genes (ATP-binding protein, permease, substrate-binding protein) were significantly overrepresented after arsenic and nickel treatment, suggesting a shared iron-importing response
 - Bacteria with higher numbers of iron-importing gene orthologs were overly represented across arsenic and nickel exposures, suggesting some commonality in the microbial response
 - Proteobacteria increased in prevalence across most metals (except cadmium); Verrucomicrobia was a shared candidate for increased abundance
@@ -34,9 +36,9 @@ platform: wikibiome
 
 # Connections
 
-- Dose-response findings directly relevant to understanding [[Gut Microbiome and Metal Exposure]] mechanisms
+- Dose-response findings directly relevant to understanding [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]] mechanisms
 - Iron transport gene enrichment connects to [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]] arsenic resistance gene framework
 - Nickel as most potent microbiome disruptor complements review findings in [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]]
-- Metal-specific microbiota signatures support the concept of [[microbiome signature]] as biomarker for metal exposure
+- Metal-specific microbiota signatures support the concept of [[microbial-biomarkers|microbiome signature]] as biomarker for metal exposure
 - Short-term (5-day) exposure design complements chronic exposure models like [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]]
-- Provides mechanistic basis for [[Environmental Exposures]] impacting the gut microbiome through occupational and environmental routes
+- Provides mechanistic basis for [[environmental-metal-exposure|Environmental Exposures]] impacting the gut microbiome through occupational and environmental routes

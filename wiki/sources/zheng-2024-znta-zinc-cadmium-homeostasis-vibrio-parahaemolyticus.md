@@ -12,6 +12,9 @@ library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "zinc/cadmium homeostasis in Vibrio"
 evidence_level: animal-model
+metals_discussed: [cadmium, iron, nickel, zinc]
+taxa_discussed: [escherichia-coli, vibrio]
+karen_brain_primitives: [3, 4]
 ---
 
 # Why This Paper Matters
@@ -61,6 +64,6 @@ This paper provides a detailed mechanistic study of how the food-borne pathogen 
 - [[iron]] -- iron supplementation compensates for zinc homeostasis defects
 - [[metal-homeostasis]] -- ZntR/ZntA regulatory circuit as core zinc efflux system
 - [[oxidative-stress]] -- synergistic toxicity of zinc excess + H2O2
-- [[virulence]] -- ZntA required for full virulence in zebrafish model
+- [[virulence-factors|virulence]] -- ZntA required for full virulence in zebrafish model
 - [[nutritional-immunity]] -- host iron restriction exacerbates zinc homeostasis defects in pathogens
 - [[cadmium]] -- ZntA dual function in Zn and Cd efflux

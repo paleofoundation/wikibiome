@@ -49,8 +49,8 @@ evidence_level: expert-opinion
 # Connections
 
 - Provides clinical context for molecular mechanisms discussed in [[islam-2022-metal-toxicity-alzheimers-extensive-review]]
-- Links to [[amyloid-beta-aggregation]] and [[tau-phosphorylation]] as therapeutic targets
+- Links to [[amyloid-beta|amyloid-beta-aggregation]] and [[alpha-synuclein|tau-phosphorylation]] as therapeutic targets
 - Connects to [[neuroinflammation]] mechanisms detailed in [[gao-2023-microglia-neurodegenerative-diseases]]
 - Relevant to understanding why [[heavy-metal-neurotoxicity]] contributes to [[alzheimers-disease]] through multiple pathways
-- [[Chelation-therapy]] may fit within multi-target therapeutic frameworks
+- [[metal-chelation-therapy|Chelation-therapy]] may fit within multi-target therapeutic frameworks
 - Biomarker advances relevant to tracking metal exposure effects on AD progression

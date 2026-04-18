@@ -38,7 +38,7 @@ metals_discussed:
   - cadmium
   - cobalt
   - manganese
-taxa_discussed: []
+taxa_discussed: [akkermansia-muciniphila, lactobacillus, staphylococcus-aureus]
 evidence_level: cross-sectional
 keystone: true
 keystone_criteria_met:
@@ -51,7 +51,7 @@ why_keystone: Shows that the Crohn's-linked ZIP8 A391T variant produces colonic 
 
 # Key Claims
 
-- The Crohn's disease-associated SNP rs13107325 in [[SLC39A8]] (ZIP8 A391T) alters metal ion homeostasis at the colonic mucosal-luminal interface
+- The Crohn's disease-associated SNP rs13107325 in [[metal-homeostasis|SLC39A8]] (ZIP8 A391T) alters metal ion homeostasis at the colonic mucosal-luminal interface
 - Homozygous A393T mice (MUT) exhibit increased cobalt uptake in mucosal epithelium and higher cadmium and manganese in bulk colon tissue, with reduced luminal availability of iron, cobalt, copper, zinc, cadmium, and manganese
 - The variant induces age-dependent microbiome compositional shifts, with genotype-microbiome association R^2 increasing from 3% (2-month) to 9% (12-month) cohorts
 - MUT mice develop spontaneous intestinal inflammation at 10 months but not at 5 months, suggesting the variant requires aging as an additional insult
@@ -73,9 +73,9 @@ why_keystone: Shows that the Crohn's-linked ZIP8 A391T variant produces colonic 
 # Connections
 
 - Novel gene-environment interaction for [[crohns-disease]] linking genetics to [[metal-homeostasis]]
-- Directly relevant to [[cobalt]], [[manganese]], [[Cadmium Toxicity]], and [[zinc]] in intestinal biology
-- Connects genetic risk to [[Gut Microbiome and Metal Exposure]] -- demonstrates how host metal transport affects microbial access to essential metals
+- Directly relevant to [[cobalt]], [[manganese]], [[cadmium|Cadmium Toxicity]], and [[zinc]] in intestinal biology
+- Connects genetic risk to [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]] -- demonstrates how host metal transport affects microbial access to essential metals
 - Links to [[inflammatory-bowel-disease]] pathogenesis through age-dependent inflammation
 - Relevant to [[lactobacillus]] depletion as a consequence of altered metal availability
-- Complements [[Amerikanou et al. 2022|amerikanou-2022-ibd-biomarkers-trace-metals]] human IBD-metal associations
+- Complements [[amerikanou-2022-ibd-biomarkers-trace-metals|amerikanou-2022-ibd-biomarkers-trace-metals]] human IBD-metal associations
 - "Cofactor biosynthesis" pathway enrichment connects to microbial need for metal cofactors

@@ -12,6 +12,9 @@ library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, lactobacillus, streptococcus]
+karen_brain_primitives: [4, 5]
+key_findings: ["Probiotics significantly improve GI symptoms", "No significant improvement", "GI symptom improvement"]
 ---
 
 # Key Claims
@@ -36,7 +39,7 @@ evidence_level: systematic-review-meta-analysis
 **GI outcome (significant):**
 - Total 6-GSI: MD = -0.59, 95% CI [-1.02, -0.17], P = 0.006
 
-**Probiotic strains used:** Various multi-strain formulations including [[lactobacillus]], [[bifidobacterium]], [[streptococcus-thermophilus]], and single-strain [[Lactobacillus plantarum]] PS128.
+**Probiotic strains used:** Various multi-strain formulations including [[lactobacillus]], [[bifidobacterium]], [[streptococcus-thermophilus]], and single-strain [[lactobacillus|Lactobacillus plantarum]] PS128.
 
 # Relevance to Metallomic Framework
 

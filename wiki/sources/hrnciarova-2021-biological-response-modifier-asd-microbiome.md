@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Jela Hrnciarova, Klara Kubelkova, Vanda Bostik, Ivan Rychlik, Daniela Karasova, Vladimir Babak, Magdalena Datkova, Katerina Simackova, Ales Macela]
 year: 2021
 journal: "Nutrients"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (None); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Nutrients 2021 -->
 tags: [autism, microbiota, intervention, probiotics, biological-response-modifier, randomized-trial]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+karen_brain_primitives: [2, 4, 5]
+key_findings: ["Juvenal supplementation converted ASD microbiota toward normal profile"]
 ---
 
 # Overview

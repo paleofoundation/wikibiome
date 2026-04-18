@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Callahan Katrak, Sydney Reed, Miranda Carter, Malak Khatib, Alexandra Peterson, Kyra Martin, Jessica K Kajfasz, Jacqueline Abranches]
 year: 2026
 journal: "Frontiers in Cellular and Infection Microbiology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12957169) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Cellular and Infection Microbiology 2026 -->
 pmcid: "PMC12957169"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, streptococcus-mutans, oral-microbiome, biofilm, fluoride, antimicrobial-metals, dental-caries]
 library_category: streptococcus_staphylococcus
 platform: wikibiome
 condition: "zinc-mediated antimicrobial effects in oral streptococci"
+evidence_level: in-vitro
+metals_discussed: [copper, iron, manganese, zinc]
+taxa_discussed: [streptococcus]
+karen_brain_primitives: [1, 3, 4]
 ---
 
 # Why This Paper Matters

@@ -1,5 +1,4 @@
 ---
-
 title: "Effects of gut microbiota on neurodegenerative diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [gut-microbiota, neurodegeneration, Alzheimers-disease, Parkinsons-disease, ALS, Huntingtons-disease, gut-brain-axis, BBB, probiotics, FMT, tryptophan, SCFAs]
 doi: "10.2147/DDDT.S580330"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, bilophila, blautia, escherichia-coli, eubacterium, helicobacter-pylori, lactobacillus, porphyromonas, roseburia, shigella]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -39,11 +41,11 @@ platform: wikibiome
 
 # Connections
 
-- Provides comprehensive taxonomy of [[gut-microbiota]] changes across major NDDs
+- Provides comprehensive taxonomy of [[gut-microbiome]] changes across major NDDs
 - Complements [[gentile-2020-diet-microbiota-brain-health]] on metabolic intersections
 - Extends [[alonso-garcia-2021-gut-microbiota-proteinopathies]] with therapeutic evidence tables
-- Links to [[BBB-dysfunction]] from microbial metabolites (LPS, TMAO)
+- Links to [[blood-brain-barrier|BBB-dysfunction]] from microbial metabolites (LPS, TMAO)
 - Connects [[tryptophan-metabolism]] and [[kynurenine-pathway]] to [[neurodegeneration]]
-- Relevant to [[SCFA-production]] as neuroprotective mechanism
-- Supports [[fecal-microbiota-transplantation]] and [[probiotics]] as therapeutic strategies
+- Relevant to [[short-chain-fatty-acids]] as neuroprotective mechanism
+- Supports [[fmt-intervention]] and [[probiotics]] as therapeutic strategies
 - Relates to [[neuroinflammation]] via cytokine and inflammasome pathways

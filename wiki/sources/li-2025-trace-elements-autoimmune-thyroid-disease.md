@@ -35,6 +35,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: Quantifies the trace-element disruptions that precede autoimmune thyroid disease — selenium and zinc deficiencies with iron and iodine dysregulation — and links them to Th1/Th2/Treg imbalance through selenoprotein and metalloenzyme dependencies. Supports the trace-element layer of WikiBiome's Hashimoto's and Graves signatures and ties AITD into the broader pattern of metal-deficiency-driven autoimmunity.
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, magnesium, selenium, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Recent advances of trace elements in autoimmune thyroid disease

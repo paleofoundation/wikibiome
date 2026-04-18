@@ -11,6 +11,9 @@ tags: [parkinsons-disease, microbial-biomarkers, shotgun-metagenomics, gut-micro
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 4, 8]
 ---
 
 # Gut Microbiome Biomarkers in Parkinson's Disease via Shotgun Metagenomics

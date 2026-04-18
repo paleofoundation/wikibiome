@@ -6,18 +6,20 @@ updated: 2026-04-09
 authors: [Timothy R Sampson, Madelyn C Houser]
 year: 2024
 journal: "Clinical Pharmacology & Therapeutics"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Clinical Pharmacology & Therapeutics 2024 -->
 tags: [parkinsons-disease, drug-repurposing, microbiome-modulation, gut-brain-axis, anti-inflammatory, probiotics, antibiotics, GLP-1-agonists, metformin, dysbiosis]
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Drug Repurposing for Parkinson's Disease Through Microbiome Modulation
 
 ## Summary
 
-This review examines the potential for repurposing existing drugs for [[parkinsons-disease]] based on their effects on the gut [[microbiome]]. It covers drugs originally developed for other conditions that show PD-relevant microbiome effects, including antibiotics, GLP-1 receptor agonists, metformin, and anti-inflammatory agents.
+This review examines the potential for repurposing existing drugs for [[parkinsons-disease]] based on their effects on the gut [[gut-microbiome|microbiome]]. It covers drugs originally developed for other conditions that show PD-relevant microbiome effects, including antibiotics, GLP-1 receptor agonists, metformin, and anti-inflammatory agents.
 
 ## Key Findings
 

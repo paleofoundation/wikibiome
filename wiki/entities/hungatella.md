@@ -12,19 +12,17 @@ metal_dependencies: [iron, selenium, cobalt]
 key_enzymes: [TMA lyase (choline TMA-lyase), carnitine oxygenase, betaine reductase, beta-glucuronidase, cobalt-dependent methionine synthase]
 tags: [pathobiont, CRC-enriched, breast-cancer-enriched, TMA-producer, TMAO-precursor, estrobolome, pcos-enriched, schizophrenia-risk, recently-described]
 platform: wikibiome
-last_substantive_update: 2026-04-16
 seo_target: "Hungatella hathewayi TMA TMAO colorectal cancer breast cancer gut microbiome"
 wikipedia_differentiation: "Iron and selenium dependency with TMA/TMAO-estrobolome dual mechanism linking cancer-associated pathobiont to cardiovascular, cancer, and neuropsychiatric axes; beta-glucuronidase activity connecting Hungatella to estrogen recirculation in PCOS and breast cancer; schizophrenia MR data; PCOS BMI-independent enrichment — all absent from Wikipedia which does not have a Hungatella entry"
 conditions_enriched_in: [colorectal-cancer, breast-cancer, cardiovascular-disease, polycystic-ovary-syndrome, multiple-sclerosis, schizophrenia]
 conditions_depleted_in: []
 pathogenic_potential: commensal-turned-pathogen
 gram_stain: "positive"
-oxygen_requirement: "obligate anaerobe"
----
+oxygen_requirement: "obligate anaerobe"---
 
 # Hungatella
 
-*Hungatella hathewayi* is a Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Clostridiaceae) that has rapidly emerged as a **multi-disease cancer-associated pathobiont**. A recently reclassified genus (from *Clostridium hathewayi*), it is now recognized as one of the most consistently enriched taxa across [[colorectal-cancer]], [[breast-cancer]], [[polycystic-ovary-syndrome]], and [[multiple-sclerosis]] — united by its capacity to produce trimethylamine (TMA) and operate as a beta-glucuronidase producer in the estrobolome.
+*Hungatella hathewayi* is a Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Clostridiaceae) that has rapidly emerged as a **multi-disease cancer-associated pathobiont**. A recently reclassified genus (from *Clostridium hathewayi*), it is now recognized as one of the most consistently enriched taxa across [[colorectal-cancer]], [[breast-cancer]], [[pcos|polycystic-ovary-syndrome]], and [[multiple-sclerosis]] — united by its capacity to produce trimethylamine (TMA) and operate as a beta-glucuronidase producer in the estrobolome.
 
 ## Taxonomy
 
@@ -133,7 +131,7 @@ In the healthy gut, *Hungatella* is a minor member of the Clostridiaceae communi
 
 - [[colorectal-cancer]] — core member of the cross-cohort CRC microbiome signature
 - [[breast-cancer]] — enriched in treatment-naive BCa patients; TMA + estrobolome dual mechanism
-- [[polycystic-ovary-syndrome]] — BMI-independent enrichment; beta-glucuronidase links to PCOS hyperandrogenism
+- [[pcos|polycystic-ovary-syndrome]] — BMI-independent enrichment; beta-glucuronidase links to PCOS hyperandrogenism
 - [[cardiovascular-disease]] — TMA/TMAO production links gut metabolism to atherosclerosis and thrombosis
 - [[multiple-sclerosis]] — enriched in MS alongside altered mycobiome interactions
 - [[schizophrenia]] — MR-identified risk association

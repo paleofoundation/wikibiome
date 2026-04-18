@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, exposome, environmental-risk, air-pollution,
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Air pollution, residential noise, area-level socioeconomic deprivation", "Neighbourhood walkability and green space", "Environmental factors affect T2D risk"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Arsenic and the gastrointestinal tract microbiome"
 type: source
 created: 2026-04-09
@@ -10,16 +9,19 @@ year: 2020
 tags: [pancreatic-cancer, arsenic, gut-microbiome, arsenic-resistance, arsenic-methylation, arsenic-biotransformation, GIT-microbiome, heavy-metals]
 doi: "10.1111/1758-2229.12814"
 platform: wikibiome
+metals_discussed: [arsenic]
+taxa_discussed: [citrobacter, desulfovibrio]
+karen_brain_primitives: [1, 5, 9]
 ---
 
 # Key Claims
 
 - The [[gut-metal-microbiome|GIT microbiome]] can play a significant role in determining the fate, mobility, and toxicity of [[arsenic]], whether inhaled or ingested
 - Microbe-arsenic interactions in the GIT include resistance/extrusion (ars genes), methylation (arsM), oxidation (aioAB/arxAB), reduction (arsC/arrAB), and thiolation
-- The variability in arsenicosis symptoms among individuals sharing similar exposure may be partly explained by differences in GIT [[microbiome composition]]
+- The variability in arsenicosis symptoms among individuals sharing similar exposure may be partly explained by differences in GIT [[dysbiosis|microbiome composition]]
 - Arsenic resistance via ArsB/Acr3 extrusion is the most common microbial response, but its relevance to the GIT is neutral with respect to host toxicity
 - Arsenic methylation by ArsM can produce more toxic trivalent methylated species (MAs(III), DMAs(III), TMAs(III)), potentially worsening host exposure
-- [[short-chain fatty acids|SCFAs]] production and thiolation reactions by sulfate-reducing bacteria ([[desulfovibrio]], [[Desulfosporosinus]]) represent under-explored GIT-relevant arsenic transformations
+- [[short-chain-fatty-acids|SCFAs]] production and thiolation reactions by sulfate-reducing bacteria ([[desulfovibrio]], [[Desulfosporosinus]]) represent under-explored GIT-relevant arsenic transformations
 
 # Methods/Findings
 
@@ -38,4 +40,4 @@ platform: wikibiome
 - Arsenic methylation producing toxic MAs(III) connects to [[oxidative-stress|oxidative stress]] pathways and downstream disease risk
 - SRB-mediated thiolation relates to [[desulfovibrio]] and sulfate metabolism in the gut
 - GIT compartment-specific pH and oxygen gradients relevant to [[dysbiosis]] mechanisms following metal exposure
-- Connects to broader [[Environmental Exposures]] and [[arsenic]] entity pages
+- Connects to broader [[environmental-metal-exposure|Environmental Exposures]] and [[arsenic]] entity pages

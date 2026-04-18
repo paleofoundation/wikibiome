@@ -46,7 +46,7 @@ Metals are redistributed away from sites of functional need while overall body b
 ### 3. Ratio Disruption
 The relative balance between metals matters as much as absolute concentrations, because metals compete for the same transporters, binding sites, and regulatory circuits.
 
-- **Cu:Zn ratio**: Elevation of the copper-to-zinc ratio is documented across [[colorectal-cancer]], [[cardiovascular-disease]], [[polycystic-ovary-syndrome]], and systemic [[inflammation]]. Elevated Cu:Zn signals oxidative stress (copper-driven Fenton chemistry) combined with zinc depletion (reduced antioxidant defense via SOD1).
+- **Cu:Zn ratio**: Elevation of the copper-to-zinc ratio is documented across [[colorectal-cancer]], [[cardiovascular-disease]], [[pcos|polycystic-ovary-syndrome]], and systemic [[inflammation]]. Elevated Cu:Zn signals oxidative stress (copper-driven Fenton chemistry) combined with zinc depletion (reduced antioxidant defense via SOD1).
 - **Toxic metal competition**: Cadmium and lead compete with calcium, zinc, and iron for absorption via DMT1 and calcium channels ([[mis-metallation]]). When toxic metals are present, essential metals are displaced from their transporters, producing functional deficiency of essentials alongside toxic metal accumulation.
 
 ### 4. Temporal Dysregulation

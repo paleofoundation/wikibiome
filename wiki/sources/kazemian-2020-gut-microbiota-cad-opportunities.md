@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiota and Cardiovascular Disease: Opportunities and Challenges"
 type: source
 created: 2026-04-09
@@ -12,6 +11,8 @@ tags: [cardiovascular-disease, gut-microbiota, cholesterol, bile-acids, coprosta
 source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease microbiome/s40168-020-00821-0.pdf"
 pages_read: "1-8"
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, eubacterium]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -33,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Central review bridging [[immune response]] and [[metabolic pathways]] in CAD through gut microbiota
-- Bile acid mechanisms extend [[microbiome-derived metabolites]] and [[microbiome-host interactions]]
-- Coprostanol pathway is a novel connection to [[microbial metabolites]] in cholesterol regulation
-- Demographic confounders relevant to [[Mendelian randomization]] study design in CVD
-- LPS/TLR4/immune cascade details connect to [[microbiome and inflammation]] in atherosclerosis
-- Aging-related microbiome changes inform [[microbiome and disease progression]] in CVD
+- Central review bridging [[inflammation|immune response]] and [[fermentative-metabolism|metabolic pathways]] in CAD through gut microbiota
+- Bile acid mechanisms extend [[microbiome-derived-metabolites]] and [[gut-metal-microbiome|microbiome-host interactions]]
+- Coprostanol pathway is a novel connection to [[short-chain-fatty-acids|microbial metabolites]] in cholesterol regulation
+- Demographic confounders relevant to [[mendelian-randomization]] study design in CVD
+- LPS/TLR4/immune cascade details connect to [[inflammation|microbiome and inflammation]] in atherosclerosis
+- Aging-related microbiome changes inform [[dysbiosis|microbiome and disease progression]] in CVD

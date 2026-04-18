@@ -11,6 +11,8 @@ tags: [parkinsons-disease, microbiome-derived-metabolites, biomarkers, metabolom
 library_category: metabolites
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 2, 4, 5]
 ---
 
 # Microbiome-Derived Metabolites as Biomarkers for Parkinson's Disease

@@ -1,5 +1,4 @@
 ---
-
 title: "Immune cells transcriptome-based drug repositioning for multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ doi: 10.3389/fimmu.2022.1020721
 tags: [multiple-sclerosis, drug-repurposing, transcriptomics, bioinformatics, PI3K-Akt, chemokine-signaling, fostamatinib, copper, zinc, aspirin]
 platform: wikibiome
 evidence_level: computational-prediction
+metals_discussed: [copper, zinc]
+karen_brain_primitives: [1]
+key_findings: ["50 hub target genes", "6 candidate drugs"]
 ---
 
 # Immune Cells Transcriptome-Based Drug Repositioning for Multiple Sclerosis
@@ -35,7 +37,7 @@ This bioinformatics study uses GEO transcriptome data from [[multiple-sclerosis]
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The identification of copper and zinc as candidate repositioning agents for MS is striking in the context of the [[gut-metal-microbiome]] axis. Both metals are essential trace elements whose homeostasis is regulated by the [[gut-microbiome]], and their dysregulation by [[heavy-metals]] exposure could drive immune dysfunction in MS. The finding that metal compounds can modulate MS-relevant immune pathways supports the hypothesis that [[heavy-metals]]-induced disruption of trace metal balance contributes to MS pathogenesis. [[Aspirin]]'s identification reinforces the [[NSAIDs]]-microbiome connection.
+The identification of copper and zinc as candidate repositioning agents for MS is striking in the context of the [[gut-metal-microbiome]] axis. Both metals are essential trace elements whose homeostasis is regulated by the [[gut-microbiome]], and their dysregulation by [[heavy-metals]] exposure could drive immune dysfunction in MS. The finding that metal compounds can modulate MS-relevant immune pathways supports the hypothesis that [[heavy-metals]]-induced disruption of trace metal balance contributes to MS pathogenesis. [[pharmacomicrobiomics|Aspirin]]'s identification reinforces the [[pharmacomicrobiomics|NSAIDs]]-microbiome connection.
 
 ## Limitations
 

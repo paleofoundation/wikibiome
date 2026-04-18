@@ -11,6 +11,10 @@ tags: [postpartum-depression, tryptophan, serotonin, meta-analysis, kynurenine, 
 library_category: meta-analysis
 platform: cureva
 condition: "postpartum depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [4]
+key_findings: ["Low total tryptophan (TRP) levels", "No significant association"]
 ---
 
 # Key Claims

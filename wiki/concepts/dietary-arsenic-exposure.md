@@ -7,6 +7,9 @@ sources: [jackson-2012-arsenic-infant-formulas-first-foods, hopfner-2025-infant-
 tags: [diet, arsenic, exposure, food-safety, rice, water, infant-foods]
 platform: wikibiome
 karen_brain_primitive: "Primitive 1: Metals as Selective Pressures"
+karen_brain_primitives: [1]
+seo_target: "dietary arsenic exposure microbiome"
+last_substantive_update: 2026-04-11
 ---
 
 # Dietary Arsenic Exposure

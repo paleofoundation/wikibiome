@@ -11,6 +11,10 @@ tags: [parkinsons-disease, 16S-rRNA, gut-microbiome, dysbiosis, microbiome-compo
 library_category: signatures
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [lead, manganese, nickel]
+taxa_discussed: [akkermansia-muciniphila, faecalibacterium-prausnitzii, prevotella]
+karen_brain_primitives: [1, 5]
 ---
 
 # Exploring Gut Microbiota Alterations in Parkinson's Disease: Insights from a 16S Amplicon Sequencing Study

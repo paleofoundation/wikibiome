@@ -41,6 +41,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Comprehensively maps metal-specific mechanisms in Alzheimer's disease: iron and copper promote amyloid-beta aggregation and tau phosphorylation; zinc precipitates and traps amyloid-beta in plaques; aluminum, lead, and cadmium cross the blood-brain barrier and amplify neuroinflammation. WikiBiome depends on this evidence to establish that AD pathology results not from generic metal burden but from specific metal-protein interactions—explaining why distinct metal signatures may classify AD subtypes and guide targeted chelation strategies."
+evidence_level: expert-opinion
+metals_discussed: [aluminum, cadmium, calcium, copper, iron, lead, mercury, zinc]
+karen_brain_primitives: [1, 3, 4]
 ---
 
 # Key Claims
@@ -88,8 +91,8 @@ why_keystone: "Comprehensively maps metal-specific mechanisms in Alzheimer's dis
 
 - Comprehensive metal-specific reference for [[alzheimers-disease]] pathogenesis
 - Extends findings on individual metals in [[jakubowska-2024-metal-toxicity-alzheimers-review]]
-- Connects to [[iron-dysregulation]] and [[ferroptosis]] in neurodegeneration
+- Connects to [[iron|iron-dysregulation]] and [[ferroptosis]] in neurodegeneration
 - Complements epidemiological data in [[bakulski-2020-heavy-metals-alzheimers-dementias]]
-- [[Chelation-therapy]] discussion links to treatment strategies in [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]
-- Relevant to [[copper-dysregulation]], [[zinc-homeostasis]], and [[oxidative-stress]] mechanisms
-- Connects to [[amyloid-beta-aggregation]] promoted by multiple metal species
+- [[metal-chelation-therapy|Chelation-therapy]] discussion links to treatment strategies in [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]
+- Relevant to [[copper|copper-dysregulation]], [[metal-homeostasis|zinc-homeostasis]], and [[oxidative-stress]] mechanisms
+- Connects to [[amyloid-beta|amyloid-beta-aggregation]] promoted by multiple metal species

@@ -1,5 +1,4 @@
 ---
-
 title: "Antidepressants in Inflammatory Bowel Disease: A Systematic Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2017
 tags: [crohns-disease, IBD, antidepressants, anxiety, depression, drug-repurposing, gut-brain-axis, systematic-review]
 doi: "10.1097/MIB.0000000000001059"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims

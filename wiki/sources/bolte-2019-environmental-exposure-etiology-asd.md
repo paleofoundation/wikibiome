@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, environmental-exposure, parental-age, teratogen
 library_category: environmental
 platform: review
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Overview
@@ -64,7 +67,7 @@ Comprehensive review from Karolinska Institute mapping **environmental risk fact
 **Moderate relevance** — environmental exposures interact with metal homeostasis:
 
 - **Altered [[zinc]]-[[copper]] cycles** explicitly mentioned as potential mechanism
-- **Air pollution** delivers [[heavy metals]] to developing fetus
+- **Air pollution** delivers [[heavy-metals]] to developing fetus
 - **Folate/methylation pathway** requires [[zinc]], [[iron]], B-vitamins
 - **Valproate** affects histone deacetylases (HDACi) — [[zinc]]-dependent enzymes
 - **Vitamin D** metabolism involves [[iron]]-dependent cytochrome P450s

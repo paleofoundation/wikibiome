@@ -17,7 +17,7 @@ library_category: signatures
 platform: both
 condition: "crohns-disease"
 karen_brain_primitives: [4, 5]
-metals_discussed: []
+metals_discussed: [iron]
 taxa_discussed: [faecalibacterium-prausnitzii, operational-taxonomic-units]
 key_findings:
   - "A 50-OTU panel derived from V1-V3 16S rRNA sequencing discriminated CD remission from active disease with AUC=0.82 (73% sensitivity for remission, 79% for active, specificity 0.79, 0.73)"

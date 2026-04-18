@@ -9,6 +9,7 @@ journal: "Journal of Translational Medicine"
 doi: "10.1186/s12967-024-05004-1"
 tags: [chronic-kidney-disease, CKD, mycobiome, ESRD, shotgun-metagenomics, Saccharomyces-cerevisiae, Aspergillus-fumigatus, metabolomics]
 platform: wikibiome
+taxa_discussed: [aspergillus, saccharomyces-cerevisiae]
 ---
 
 # Altered Gut Mycobiome in ESRD Patients

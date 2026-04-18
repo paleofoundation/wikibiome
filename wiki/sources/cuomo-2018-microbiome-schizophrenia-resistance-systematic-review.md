@@ -1,5 +1,4 @@
 ---
-
 title: "The Microbiome: A New Target for Research and Treatment of Schizophrenia and its Resistant Presentations? A Systematic Literature Search and Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2018
 doi: "10.3389/fphar.2018.01040"
 tags: [schizophrenia, microbiome, treatment-resistance, inflammation, probiotics, prebiotics, immune-response, gut-brain-axis, systematic-review, tryptophan-metabolism]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, clostridium, escherichia-coli, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # The Microbiome: A New Target for Research and Treatment of Schizophrenia and its Resistant Presentations

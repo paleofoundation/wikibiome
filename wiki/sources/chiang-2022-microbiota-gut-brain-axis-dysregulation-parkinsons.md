@@ -11,6 +11,10 @@ tags: [parkinsons-disease, gut-brain-axis, dysbiosis, alpha-synuclein, neuroinfl
 library_category: reviews
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: animal-model
+metals_discussed: [iron, manganese]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # The Role of the Microbiota-Gut-Brain Axis and Intestinal Microbiome Dysregulation in Parkinson's Disease

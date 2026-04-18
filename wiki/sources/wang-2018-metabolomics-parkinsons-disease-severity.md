@@ -11,6 +11,9 @@ tags: [parkinsons-disease, metabolomics, tryptophan-metabolism, kynurenine, puri
 library_category: metabolomics
 platform: blood
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [1, 4]
 ---
 
 # Metabolomic Profiling of Parkinson's Disease and Disease Severity
@@ -22,7 +25,7 @@ This metabolomics study characterizes the serum/plasma metabolomic signature of 
 ## Key Findings
 
 - Multiple metabolic pathways are significantly altered in PD versus healthy controls
-- [[Tryptophan-metabolism]] is shifted toward the kynurenine pathway, producing neurotoxic quinolinic acid
+- [[tryptophan-metabolism]] is shifted toward the kynurenine pathway, producing neurotoxic quinolinic acid
 - Purine metabolism alterations indicate mitochondrial dysfunction and oxidative stress
 - Lipid metabolism perturbations, including altered ceramide and sphingolipid profiles
 - Branched-chain amino acid metabolism is disrupted in PD

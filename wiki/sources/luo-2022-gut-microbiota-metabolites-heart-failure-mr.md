@@ -1,5 +1,4 @@
 ---
-
 title: "Effects of Gut Microbiota and Metabolites on Heart Failure and Its Risk Factors: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -12,6 +11,9 @@ tags: [cardiovascular-disease, Mendelian-randomization, heart-failure, gut-metab
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/Effects of gut microbiota and metabolites on heart failure and its risk factors- a two-sample Mendelian randomization st.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [campylobacter-jejuni, candida-albicans, shigella]
+key_findings: ["Phenylalanine"]
 ---
 
 # Key Claims
@@ -34,9 +36,9 @@ platform: wikibiome
 
 # Connections
 
-- First MR study examining gut metabolite causality on [[heart failure]] and its risk factors
-- Betaine and tryptophan findings extend [[microbial metabolites]] and [[metabolic pathways]] in CVD
-- *Shigella*-myocarditis link relevant to [[microbiome and immune system]] in cardiac inflammation
-- Complements [[Zhang 2022 - Causal Microbiome CVD MR]] and [[Wang 2023 - Gut Microbiota CAD MI MR]]
-- Metabolite-specific findings inform [[microbiome-derived metabolites]] therapeutic targets
+- First MR study examining gut metabolite causality on [[cardiovascular-disease|heart failure]] and its risk factors
+- Betaine and tryptophan findings extend [[short-chain-fatty-acids|microbial metabolites]] and [[fermentative-metabolism|metabolic pathways]] in CVD
+- *Shigella*-myocarditis link relevant to [[inflammation|microbiome and immune system]] in cardiac inflammation
+- Complements [[zhang-2022-causal-gut-microbiome-cvd-mr|Zhang 2022 - Causal Microbiome CVD MR]] and [[wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma|Wang 2023 - Gut Microbiota CAD MI MR]]
+- Metabolite-specific findings inform [[microbiome-derived-metabolites]] therapeutic targets
 - CKD-Candida association connects to [[comorbidities]] in cardiovascular disease

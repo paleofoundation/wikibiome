@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, gut-microbiota, children, butyrate, clostrid
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [clostridium]
+karen_brain_primitives: [1, 4]
+key_findings: ["Age is a critical factor", "Bacilli (notably streptococci) and Bacteroidetes higher", "Clostridium clusters IV and XIVa higher in healthy controls"]
 ---
 
 # Key Claims

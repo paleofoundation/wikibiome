@@ -1,5 +1,4 @@
 ---
-
 title: "A systematic review and meta-analysis of optical coherence tomography in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2010
 doi: 10.1136/jnnp-2010-219576
 tags: [multiple-sclerosis, OCT, optical-coherence-tomography, RNFL, neurodegeneration, biomarker, optic-neuritis, meta-analysis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # A Systematic Review and Meta-analysis of Optical Coherence Tomography in Multiple Sclerosis
@@ -35,7 +35,7 @@ This systematic review and meta-analysis examines optical coherence tomography (
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-While OCT is primarily a diagnostic imaging tool, RNFL thinning as a biomarker of neurodegeneration connects to the [[gut-brain-axis]] through the mechanisms by which [[gut-microbiome]] [[dysbiosis]] and [[microbial-metabolites]] influence neuronal health. Reduced [[short-chain-fatty-acids]] and altered [[tryptophan]] metabolism (both consequences of [[dysbiosis]]) impair neuroprotective pathways. OCT could serve as an objective outcome measure in clinical trials of [[gut-microbiome]]-targeted interventions in MS, detecting whether microbiome modulation slows neurodegenerative processes.
+While OCT is primarily a diagnostic imaging tool, RNFL thinning as a biomarker of neurodegeneration connects to the [[gut-brain-axis]] through the mechanisms by which [[gut-microbiome]] [[dysbiosis]] and [[short-chain-fatty-acids|microbial-metabolites]] influence neuronal health. Reduced [[short-chain-fatty-acids]] and altered [[tryptophan-metabolism]] metabolism (both consequences of [[dysbiosis]]) impair neuroprotective pathways. OCT could serve as an objective outcome measure in clinical trials of [[gut-microbiome]]-targeted interventions in MS, detecting whether microbiome modulation slows neurodegenerative processes.
 
 ## Limitations
 

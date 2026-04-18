@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, gut-brain-axis, glucose-regulation, enteric-
 library_category: mechanisms
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Glycemia regulation requires tight neuronal detection", "Enteric nervous system and vagus nerve", "Gut microbiota dysregulation in diabetes"]
 ---
 
 # Key Claims

@@ -12,6 +12,8 @@ library_category: review
 platform: cureva
 condition: "postpartum depression"
 evidence_level: expert-opinion
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["PPD affects about 15% of women", "Biological markers", "Strongest biological predictors"]
 ---
 
 # Key Claims

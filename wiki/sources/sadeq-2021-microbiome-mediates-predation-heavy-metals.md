@@ -1,5 +1,4 @@
 ---
-
 title: "The microbiome mediates the interaction between predation and heavy metals"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 tags: [microbiome, predation-risk, copper, Daphnia-pulex, multiple-stressors, antibiotics, gut-microbiota, aquatic-ecotoxicology, causal-mechanisms]
 doi: "10.1016/j.scitotenv.2021.145144"
 platform: wikibiome
+metals_discussed: [copper]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
@@ -33,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Provides rare experimental evidence for causal role of microbiome in mediating [[heavy metals]] toxicity, relevant to [[Gut Microbiome and Metal Exposure]]
+- Provides rare experimental evidence for causal role of microbiome in mediating [[heavy-metals]] toxicity, relevant to [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]]
 - Copper toxicity mechanisms complement [[abdel-azim-2018-heavy-metals-vfas-methanococcus]] methanogen sensitivity findings
-- Multi-stressor framework applicable to understanding how [[Environmental Exposures]] combine with other stressors (diet, infection) to affect gut microbiota
-- Antibiotic-reversal design provides methodological template for testing [[microbiome causality]] in metal exposure studies
-- Digestive physiology as shared mode-of-action connects to [[bile acids]] and [[short-chain fatty acids]] metabolic pathways
+- Multi-stressor framework applicable to understanding how [[environmental-metal-exposure|Environmental Exposures]] combine with other stressors (diet, infection) to affect gut microbiota
+- Antibiotic-reversal design provides methodological template for testing [[dysbiosis|microbiome causality]] in metal exposure studies
+- Digestive physiology as shared mode-of-action connects to [[bile-acid-metabolism]] and [[short-chain-fatty-acids]] metabolic pathways
 - Aquatic model system complements mammalian studies in [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]] and [[richardson-2018-toxic-metals-rat-gut-microbiota]]

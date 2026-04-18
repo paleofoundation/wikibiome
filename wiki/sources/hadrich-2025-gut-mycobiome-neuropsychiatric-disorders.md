@@ -12,6 +12,8 @@ library_category: "Mycobiome"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-15"
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [5, 6]
 ---
 
 # Overview

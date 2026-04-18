@@ -1,5 +1,4 @@
 ---
-
 title: "Multi-omics Mendelian Randomization Reveals Immunometabolic Signatures of the Gut Microbiota in Optic Neuritis and the Potential Therapeutic Role of Vitamin B6"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 doi: 10.1007/s12035-025-04923-4
 tags: [optic-neuritis, gut-microbiota, Mendelian-randomization, vitamin-B6, immune-cells, metabolites, multiple-sclerosis, NMOSD]
 platform: wikibiome
+evidence_level: computational-prediction
+karen_brain_primitives: [4]
+key_findings: ["27 gut microbiota taxa"]
 ---
 
 # Multi-omics Mendelian Randomization Reveals Immunometabolic Signatures of the Gut Microbiota in Optic Neuritis and the Potential Therapeutic Role of Vitamin B6

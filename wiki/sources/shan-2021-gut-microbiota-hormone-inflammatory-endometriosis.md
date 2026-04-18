@@ -1,5 +1,4 @@
 ---
-
 title: "Gut microbiota imbalance and its correlations with hormone and inflammatory factors in patients with stage 3/4 endometriosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2021
 tags: [endometriosis, gut-microbiome, estradiol, IL-8, IL-17A, dysbiosis, Blautia, Dorea, Bifidobacterium, Prevotella, hormone-microbiome-axis]
 doi: "10.1007/s00404-021-06057-z"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [iron, nickel]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, dorea, lachnospira, prevotella, streptococcus, subdoligranulum]
+karen_brain_primitives: [1, 5, 7]
 ---
 
 # Key Claims

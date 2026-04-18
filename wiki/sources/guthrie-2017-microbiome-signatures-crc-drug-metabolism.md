@@ -1,5 +1,4 @@
 ---
-
 title: "Human microbiome signatures of differential colorectal cancer drug metabolism"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2017
 doi: "10.1038/s41522-017-0034-1"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, drug-metabolism, irinotecan, CPT-11, beta-glucuronidase, metabotype, Faecalibacterium-prausnitzii, chemotherapy]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [bacteroides-fragilis, clostridium, faecalibacterium-prausnitzii]
+karen_brain_primitives: [7]
 ---
 
 # Guthrie 2017 -- Human Microbiome Signatures of Differential CRC Drug Metabolism

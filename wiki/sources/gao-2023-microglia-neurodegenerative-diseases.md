@@ -1,5 +1,4 @@
 ---
-
 title: "Microglia in neurodegenerative diseases: mechanism and potential therapeutic targets"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2023
 tags: [microglia, neurodegeneration, Alzheimers-disease, Parkinsons-disease, ALS, neuroinflammation, TREM2, phagocytosis, therapeutic-targets]
 doi: "10.1038/s41392-023-01588-0"
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Key Claims
@@ -50,9 +50,9 @@ platform: wikibiome
 # Connections
 
 - Central to understanding [[neuroinflammation]] in [[alzheimers-disease]] and [[parkinsons-disease]]
-- Connects to [[amyloid-beta-aggregation]] clearance mechanisms
-- Relevant to [[tau-phosphorylation]] and spread via microglial extracellular vesicles
-- Links to [[APOE4]] genotype effects on microglial function
+- Connects to [[amyloid-beta|amyloid-beta-aggregation]] clearance mechanisms
+- Relevant to [[alpha-synuclein|tau-phosphorylation]] and spread via microglial extracellular vesicles
+- Links to [[alzheimers-disease|APOE4]] genotype effects on microglial function
 - Complements [[chin-chan-2015-environmental-pollutants-ad-pd]] on neuroinflammatory pathways from environmental exposures
 - Relates to [[gut-brain-axis]] through peripheral immune signaling discussed in [[gentile-2020-diet-microbiota-brain-health]]
 - Therapeutic targets relevant to [[neurodegeneration]] treatment strategies

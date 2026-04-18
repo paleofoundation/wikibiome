@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, antibiotics, microbiome, autoimmune-diseases
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Rising incidence of autoimmune diseases parallels widespread antibiotic use", "Gut microbiome is key for immune system development and maturation", "Antibiotics may facilitate autoimmunity"]
 ---
 
 # Key Claims
@@ -19,7 +22,7 @@ condition: "type 1 diabetes"
 - **Gut microbiome is key for immune system development and maturation** and normal immune function
 - **Antibiotics may facilitate autoimmunity** through gut [[dysbiosis]] and disrupted immune tolerance
 - **FMT being studied** in clinical trials for several autoimmune diseases
-- **[[Probiotics]] and prebiotics** showing promising results in preclinical studies for autoimmune disease
+- **[[probiotics]] and prebiotics** showing promising results in preclinical studies for autoimmune disease
 
 # Methods & Findings
 

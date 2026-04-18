@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Dysbiosis and Neuroimmune Responses to Brain Infection with Theiler's Murine Encephalomyelitis Virus"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2017
 tags: [TMEV, progressive-MS, gut-dysbiosis, antibiotics, microbiota, microglia, intestinal-permeability, Akkermansia, Clostridium, Eubacterium, neuroimmune, VP2-capsid, CD4-T-cells]
 doi: "10.1038/srep44377"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, alloprevotella, clostridium, eubacterium, streptococcus]
 ---
 
 # Gut Dysbiosis and Neuroimmune Responses to Brain Infection with TMEV

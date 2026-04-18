@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, probiotics, meta-analysis, hba1c, insulin-re
 library_category: meta-analyses
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Significantly greater reduction in HbA1c", "FBG reduction", "15 RCTs with 902 participants"]
 ---
 
 # Key Claims
@@ -30,7 +34,7 @@ Comprehensive meta-analysis of RCTs on probiotics in T2DM:
 
 # Relevance to Metallomic Framework
 
-- **[[zinc]]**: [[Probiotics]] efficacy may be enhanced by concurrent zinc supplementation to support both probiotic survival and insulin signaling
+- **[[zinc]]**: [[probiotics]] efficacy may be enhanced by concurrent zinc supplementation to support both probiotic survival and insulin signaling
 - **[[iron]]**: Iron status may modify probiotic colonization success -- iron-replete environments may support different probiotic strains
 - **[[selenium]]**: Selenium-enriched [[probiotics]] could provide dual metabolic benefit (antioxidant + glycemic)
 - **[[gut-metal-microbiome]]**: Probiotic strains may need metal-optimized formulations for maximum efficacy

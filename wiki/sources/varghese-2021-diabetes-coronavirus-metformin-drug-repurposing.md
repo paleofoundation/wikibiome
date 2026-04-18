@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, metformin, sars-cov-2, drug-repurposing, ant
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Diabetic individuals at increased risk", "Metformin treatment correlated with significant reduction", "Metformin has antioxidant, anti-inflammatory, immunomodulatory, and antiviral capabilities"]
 ---
 
 # Key Claims

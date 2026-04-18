@@ -12,6 +12,7 @@ library_category: "Antibiotics"
 platform: systematic-review
 condition: "autism spectrum disorder"
 source_pages: "pp. 3866-3876"
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Overview

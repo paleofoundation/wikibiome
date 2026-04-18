@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, metformin, gut-microbiome, metagenomics, dru
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, zinc]
+taxa_discussed: [clostridium, dialister, enterococcus, parabacteroides, prevotella]
+karen_brain_primitives: [1, 5]
+key_findings: ["Metformin reduced alpha diversity", "Species-level reductions", "Increase in Parabacteroides distasonis and Oscillibacter"]
 ---
 
 # Key Claims

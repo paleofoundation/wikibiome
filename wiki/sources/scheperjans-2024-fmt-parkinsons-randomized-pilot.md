@@ -11,6 +11,8 @@ tags: [parkinsons-disease, fecal-microbiota-transplant, randomized-controlled-tr
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # Fecal Microbiota Transplantation in Parkinson's Disease: A Randomized Repeat-Dose, Placebo-Controlled Clinical Pilot Study

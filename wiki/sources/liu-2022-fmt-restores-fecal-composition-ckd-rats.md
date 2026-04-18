@@ -9,6 +9,9 @@ journal: "Frontiers in Microbiology"
 doi: "10.3389/fmicb.2022.1037257"
 tags: [chronic-kidney-disease, CKD, FMT, rat-model, Bacteroides-uniformis, Anaerostipes, uremic-toxins, tryptophan-metabolism]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [anaerostipes, bacteroides-fragilis]
+karen_brain_primitives: [5]
 ---
 
 # FMT Restores Fecal Composition and Delays CKD in Rats

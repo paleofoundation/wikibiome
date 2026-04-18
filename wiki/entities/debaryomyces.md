@@ -5,6 +5,7 @@ type: entity
 subtype: fungus
 created: 2026-04-10
 updated: 2026-04-10
+last_substantive_update: 2026-04-10
 sources: [huang-2024-gut-fungi-ibd-colorectal-cancer, rashed-2022-manipulation-gut-microbiota-crohns, zhang-2017-intestinal-microbiota-immune-response-ibd, mok-2024-fungal-gut-pediatric-ms]
 tags: [enriched-in-crohns-disease, opportunistic-pathogen, pro-inflammatory, mycotoxin-producer, type-1-immunity, processed-foods]
 gram_stain: "N/A"

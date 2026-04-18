@@ -86,8 +86,8 @@ why_keystone: "Synthesizes epidemiological evidence linking lead (lifetime cumul
 
 - Key epidemiological reference for [[heavy-metal-neurotoxicity]] and [[alzheimers-disease]] association
 - Complements mechanistic reviews by [[chin-chan-2015-environmental-pollutants-ad-pd]] and [[islam-2022-metal-toxicity-alzheimers-extensive-review]]
-- Relevant to [[lead-neurotoxicity]] and [[epigenetic-modifications]] from early-life exposure
-- Connects to [[mercury-neurotoxicity]] and confounding from fish consumption
+- Relevant to [[heavy-metal-neurotoxicity|lead-neurotoxicity]] and [[epigenetic-modifications]] from early-life exposure
+- Connects to [[heavy-metal-neurotoxicity|mercury-neurotoxicity]] and confounding from fish consumption
 - Supports need for mixed-exposure studies discussed in [[althomali-2024-heavy-metals-neurocognitive-systematic-review]]
 - Links to [[cadmium]] exposure from smoking and diet
 - Relevant to [[manganese]] neurotoxicity distinct from AD patterns

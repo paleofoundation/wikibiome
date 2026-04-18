@@ -12,6 +12,8 @@ library_category: "Mendelian randomization"
 platform: genetic
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-6"
+evidence_level: computational-prediction
+karen_brain_primitives: [5]
 ---
 
 # Overview

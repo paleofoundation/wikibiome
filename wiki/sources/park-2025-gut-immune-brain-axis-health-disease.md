@@ -1,5 +1,4 @@
 ---
-
 title: "Beyond the gut: decoding the gut-immune-brain axis in health and disease"
 type: source
 created: 2026-04-09
@@ -10,13 +9,14 @@ year: 2025
 doi: "10.1038/s41423-025-01333-3"
 tags: [gerd, gastroesophageal-reflux, gut-immune-brain-axis, neuroimmunology, barrier-integrity, SCFAs, tryptophan, bile-acids, vagus-nerve, microglia, T-cells, IgA, blood-brain-barrier, neuroinflammation, microbiome-derived-metabolites]
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Beyond the gut: decoding the gut-immune-brain axis in health and disease
 
 ## Key Claims
 
-- The gut-immune-brain axis is a tridirectional communication system where [[gut microbiota]] and their metabolites influence neural and immunological homeostasis via [[SCFAs]], [[tryptophan]] derivatives, secondary [[bile acids]], and glutamate
+- The gut-immune-brain axis is a tridirectional communication system where [[gut-microbiome]] and their metabolites influence neural and immunological homeostasis via [[short-chain-fatty-acids]], [[tryptophan-metabolism]] derivatives, secondary [[bile-acid-metabolism]], and glutamate
 - Immune cells actively infiltrate the brain and play essential roles in neurodevelopment, homeostasis, and disease; tissue-resident T cells and border-associated macrophages form a functional neuroimmune network
 - SCFAs (produced from dietary fiber fermentation) activate GPR41/43 receptors, promote Treg/Th17 balance, and influence blood-brain barrier integrity
 - Gut microbiota dysbiosis may drive neuroinflammation in multiple neurological disorders including autism spectrum disorder, Alzheimer's, Parkinson's, depression, and anxiety

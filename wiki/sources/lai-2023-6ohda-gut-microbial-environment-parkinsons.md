@@ -11,6 +11,9 @@ tags: [parkinsons-disease, 6-OHDA, animal-model, 16S-rRNA, gut-microbiome, dysbi
 library_category: signatures
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: animal-model
+metals_discussed: [iron]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # High-Throughput 16S rRNA Gene Sequencing Reveals That 6-Hydroxydopamine Affects Gut Microbial Environment

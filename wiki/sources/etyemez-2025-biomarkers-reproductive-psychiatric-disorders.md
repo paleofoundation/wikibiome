@@ -38,7 +38,7 @@ Review synthesizing biomarker literature on PMDD, postpartum depression, and per
 ## Relevance to WikiBiome
 
 - **Disease entity page:** [[pmdd]] — add cytokine and ALLO biomarkers.
-- **Concept pages:** [[allopregnanolone]], [[neurosteroids]], [[cytokines]].
+- **Concept pages:** [[allopregnanolone]], [[neurosteroids]], [[inflammation|cytokines]].
 - **Signature page:** [[pmdd-signature]] — adds inflammation layer complementing estrobolome taxonomic layer.
 
 ## Relevance to Cureva

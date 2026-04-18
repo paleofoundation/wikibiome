@@ -47,9 +47,9 @@ why_keystone: "Establishes cadmium and nickel as metalloestrogens with distinct 
 ## Key Claims
 
 - [[cadmium]] has the strongest correlation with [[breast-cancer]] development among heavy metals, supported by both epidemiological and in vitro/in vivo evidence
-- Cadmium can behave as a [[metalloestrogen]] by binding to [[ERa]] with a Kd nearly equivalent to estradiol, activating it, and inducing expression of ER target genes
+- Cadmium can behave as a [[metalloestrogens|metalloestrogen]] by binding to [[ERa]] with a Kd nearly equivalent to estradiol, activating it, and inducing expression of ER target genes
 - Evidence for [[nickel]] as a metalloestrogen is supportive but more limited; in vitro studies show nickel binds to ERa and induces gene expression, but epidemiological data are scarce
-- Both cadmium and nickel may cause breast cancer through mechanisms **beyond** estrogen receptor signaling, including [[chromatin modifications]], [[DNA methylation]], and [[aneuploidy]]
+- Both cadmium and nickel may cause breast cancer through mechanisms **beyond** estrogen receptor signaling, including [[epigenetic-modifications|chromatin modifications]], [[epigenetic-modifications|DNA methylation]], and [[aneuploidy]]
 - Even chronic, low-level exposure to cadmium and nickel well below WHO limits is potentially dangerous due to bioaccumulation and high affinity for proteins like estrogen receptors
 
 ## Methods/Findings
@@ -68,7 +68,7 @@ why_keystone: "Establishes cadmium and nickel as metalloestrogens with distinct 
 
 ## Connections
 
-- Foundational reference for [[Metalloestrogens]] concept in breast cancer
+- Foundational reference for [[metalloestrogens]] concept in breast cancer
 - Cadmium ERa binding data corroborated and expanded by [[tarhonska-2022-cadmium-breast-cancer-mechanisms]]
 - Nickel findings connect to [[ali-2024-heavy-metals-breast-cancer-review]] section on nickel biomarkers
 - Epidemiological null findings for nickel consistent with [[niehoff-2021-metals-breast-cancer-toenail]] and [[liu-2022-heavy-metals-breast-cancer-meta-analysis]]

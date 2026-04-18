@@ -15,6 +15,7 @@ karen_brain_primitives: [2]
 metals_discussed: []
 evidence_level: expert-opinion
 taxa_discussed: []
+key_findings: ["Gut microbiota dysbiosis", "Loss of intestinal barrier integrity", "Neuroinflammatory biomarkers"]
 ---
 
 # Key Claims

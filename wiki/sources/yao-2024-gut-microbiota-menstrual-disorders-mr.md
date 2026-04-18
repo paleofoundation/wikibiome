@@ -14,7 +14,7 @@ library_category: causal
 platform: both
 condition: pmdd
 karen_brain_primitives: [5, 7]
-metals_discussed: []
+metals_discussed: [calcium]
 taxa_discussed: [escherichia-coli, blautia, lachnospira, anaerotruncus, haemophilus]
 key_findings:
   - "Escherichia/Shigella causally linked to menstrual disorders (OR=1.004, P=0.0003)"

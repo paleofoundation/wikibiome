@@ -1,12 +1,14 @@
 ---
-
 title: Immune Balance
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, kravchenko-2023-thyroid-hormones-minerals-AITD, borghini-2020-endometriosis-nickel-ibs, giambo-2021-toxic-metal-exposure-gut-microbiota-review, gao-2023-microglia-neurodegenerative-diseases, mishra-2022-molecular-mechanisms-heavy-metals-ckd, ahmed-2025-metals-alzheimers-mechanistic-review, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity]
+sources: [khan-2020-environmental-exposures-autoimmune-gut-microbiome, kravchenko-2023-thyroid-hormones-minerals-AITD, borghini-2020-endometriosis-nickel-ibs, giambo-2021-toxic-metal-exposure-gut-microbiota-review, gao-2023-microglia-neurodegenerative-diseases, mishra-2022-molecular-mechanisms-heavy-metals-ckd, ahmed-2025-metals-alzheimers-mechanistic-review, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity]
 tags: [Th1, Th2, Th17, Treg, innate-immunity, adaptive-immunity, metals, microbiome, autoimmunity, tolerance, cytokines]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 5]
+seo_target: "immune balance microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Immune Balance
@@ -28,7 +30,7 @@ The immune system is not a monolith but a dynamic equilibrium between pro-inflam
 ### Th17 (Barrier Immunity/Autoimmunity)
 - **Signature cytokines:** IL-17A, IL-17F, IL-22
 - **Function:** Neutrophil recruitment, antimicrobial peptide induction, mucosal defense
-- **Metal connection:** Nickel strongly activates Th17 in allergic individuals [[nickel-allergy]]; arsenic promotes Th17 differentiation; IL-17 drives tissue damage in [[crohns-disease]], [[rheumatoid-arthritis]], [[psoriasis]]
+- **Metal connection:** Nickel strongly activates Th17 in allergic individuals [[nickel-allergy]]; arsenic promotes Th17 differentiation; IL-17 drives tissue damage in [[crohns-disease]], [[rheumatoid-arthritis]], [[autoimmunity|psoriasis]]
 
 ### Treg (Immune Regulation)
 - **Signature markers:** FoxP3, CD25, CTLA-4
@@ -49,7 +51,7 @@ The innate immune system provides the first response and shapes downstream adapt
 
 The gut microbiome is the largest immune organ by proxy:
 
-- **[[Short-chain-fatty-acids]]** (butyrate, propionate, acetate) -- potent Treg inducers. Butyrate promotes FoxP3 expression via HDAC inhibition. Metal-driven [[dysbiosis]] depletes SCFA producers, removing this Treg brake.
+- **[[short-chain-fatty-acids]]** (butyrate, propionate, acetate) -- potent Treg inducers. Butyrate promotes FoxP3 expression via HDAC inhibition. Metal-driven [[dysbiosis]] depletes SCFA producers, removing this Treg brake.
 - **Segmented filamentous bacteria (SFB)** -- the canonical Th17 inducers in the gut. Their presence/absence shifts the Th17/Treg ratio.
 - **Bacteroides fragilis** -- polysaccharide A (PSA) activates TLR2 on Tregs, promoting IL-10 production.
 - **Clostridia clusters IV and XIVa** -- major butyrate producers whose depletion under metal stress compromises Treg induction.
@@ -59,10 +61,10 @@ The gut microbiome is the largest immune organ by proxy:
 
 | Disease | Immune Skew | Metal Driver | Microbiome Component |
 |---------|------------|--------------|---------------------|
-| [[Crohns-disease]] | Th1/Th17 excess | Fe dysregulation, Zn deficiency | AIEC enrichment, Faecalibacterium depletion |
-| [[Nickel-allergy]] / SNAS | Th1/Th17 via TLR4 | Ni dietary/contact | Histamine-producing taxa |
-| [[Hashimotos-thyroiditis]] | Th1 dominant | Se deficiency, excess I | Molecular mimicry with thyroid peroxidase |
-| [[Rheumatoid-arthritis]] | Th17 dominant | Cd, Pb exposure | Prevotella copri enrichment |
+| [[crohns-disease]] | Th1/Th17 excess | Fe dysregulation, Zn deficiency | AIEC enrichment, Faecalibacterium depletion |
+| [[nickel-allergy]] / SNAS | Th1/Th17 via TLR4 | Ni dietary/contact | Histamine-producing taxa |
+| [[hashimotos-thyroiditis]] | Th1 dominant | Se deficiency, excess I | Molecular mimicry with thyroid peroxidase |
+| [[rheumatoid-arthritis]] | Th17 dominant | Cd, Pb exposure | Prevotella copri enrichment |
 | [[Asthma]] | Th2 dominant | Ni aerosol, Cd inhalation | Reduced microbial diversity |
 | [[depression]] | Neuroinflammation (IL-6, TNF-alpha) | Zn depletion, Cu excess | Coprococcus depletion, IDO activation |
 
@@ -81,8 +83,8 @@ This triangular feedback means that intervening at any vertex can influence the 
 
 - **Zinc supplementation** -- restores thymic function, supports Treg differentiation, strengthens [[intestinal-permeability|gut barrier]]
 - **Selenium supplementation** -- enhances Treg FoxP3 expression, critical in [[hashimotos-thyroiditis]]
-- **[[Probiotics]]** -- Lactobacillus strains promote IL-10; Bifidobacterium enhances Treg populations
-- **[[Short-chain-fatty-acids]]** -- butyrate as HDAC inhibitor → epigenetic Treg programming
+- **[[probiotics]]** -- Lactobacillus strains promote IL-10; Bifidobacterium enhances Treg populations
+- **[[short-chain-fatty-acids]]** -- butyrate as HDAC inhibitor → epigenetic Treg programming
 - **Metal removal** -- chelation or dietary avoidance to remove the immune-distorting stimulus
 
 ## See Also

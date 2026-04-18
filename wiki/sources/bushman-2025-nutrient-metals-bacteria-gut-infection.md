@@ -6,17 +6,22 @@ updated: 2026-04-09
 authors: [Summer D Bushman, Eric P Skaar, N Luisa Hiller]
 year: 2025
 journal: "PLOS Pathogens"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12574912) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: PLOS Pathogens 2025 -->
 pmcid: "PMC12574912"
 tags: [mismetallation, metal-homeostasis, nutritional-immunity, iron, zinc, manganese, copper, gut-microbiota, siderophore, calprotectin, pathogen-metal-acquisition, colonization-resistance]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "metal competition between host, pathogens, and gut microbiota"
+evidence_level: animal-model
+metals_discussed: [copper, iron, manganese, zinc]
+taxa_discussed: [bifidobacterium, clostridium, escherichia-coli, lactobacillus, ruminococcus, salmonella, staphylococcus-aureus]
+karen_brain_primitives: [1, 2, 3, 4, 5, 8]
+key_findings: ["Excess metals are cytotoxic through mismetallation", "Calprotectin"]
 ---
 
 # Why This Paper Matters
 
-This review provides the most comprehensive synthesis of how [[iron]], [[zinc]], [[manganese]], and [[copper]] shape the three-way competition between the vertebrate host, enteric pathogens, and commensal gut microbiota. For the [[mis-metallation]] framework, the paper establishes that excess metals are cytotoxic specifically "through mismetallation of essential proteins and production of chemical species that cause oxidative damage." The review documents how the host exploits this narrow window between metal deficiency and toxicity through [[nutritional-immunity]] -- both withholding metals (via calprotectin, lactoferrin, transferrin) and flooding pathogens with toxic metal concentrations (via neutrophil/macrophage Cu and Zn mobilization). Critically, the paper reveals that gut commensal bacteria possess their own metal competition strategies, including xenosiderophore piracy and metallophore production (yersiniabactin), that provide [[colonization-resistance]] against pathogens.
+This review provides the most comprehensive synthesis of how [[iron]], [[zinc]], [[manganese]], and [[copper]] shape the three-way competition between the vertebrate host, enteric pathogens, and commensal gut microbiota. For the [[mis-metallation]] framework, the paper establishes that excess metals are cytotoxic specifically "through mismetallation of essential proteins and production of chemical species that cause oxidative damage." The review documents how the host exploits this narrow window between metal deficiency and toxicity through [[nutritional-immunity]] -- both withholding metals (via calprotectin, lactoferrin, transferrin) and flooding pathogens with toxic metal concentrations (via neutrophil/macrophage Cu and Zn mobilization). Critically, the paper reveals that gut commensal bacteria possess their own metal competition strategies, including xenosiderophore piracy and metallophore production (yersiniabactin), that provide [[probiotics|colonization-resistance]] against pathogens.
 
 # Key Claims
 
@@ -74,7 +79,7 @@ This review provides the most comprehensive synthesis of how [[iron]], [[zinc]],
 - [[manganese]] -- calprotectin-mediated Mn restriction at infection sites
 - [[copper]] -- phagolysosomal Cu intoxication of engulfed pathogens
 - [[calprotectin]] -- 40-50% of neutrophil protein; binds Zn, Mn, Fe
-- [[siderophore]] -- enterobactin, salmochelin, yersiniabactin, xenosiderophore piracy
-- [[gut-microbiota]] -- metal availability shapes community composition and colonization resistance
-- [[colonization-resistance]] -- commensal metal competition prevents pathogen establishment
+- [[siderophores|siderophore]] -- enterobactin, salmochelin, yersiniabactin, xenosiderophore piracy
+- [[gut-microbiome]] -- metal availability shapes community composition and colonization resistance
+- [[probiotics|colonization-resistance]] -- commensal metal competition prevents pathogen establishment
 - [[staphylococcus-aureus]] -- Mn starvation by calprotectin at abscess sites

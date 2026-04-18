@@ -28,7 +28,7 @@ key_findings:
 - **Co-resistance** between metal(loid)s and antibiotics was observed, indicating that metal exposure may co-select for antibiotic-resistant strains in the CKD gut.
 - Resistance genes **cadA** (cadmium) and **arsC** (arsenic) were detected across isolates.
 - Paradoxically, **total resistance gene count decreased** from healthy controls to advanced CKD stages, possibly reflecting reduced microbial diversity in late-stage CKD.
-- Predominant resistant genera included **[[pseudomonas]]**, **[[escherichia-coli]]**, **[[bacillus]]**, and **[[enterococcus]]**.
+- Predominant resistant genera included **[[pseudomonas-aeruginosa]]**, **[[escherichia-coli]]**, **[[bacillus]]**, and **[[enterococcus]]**.
 
 ## Relevance to WikiBiome
 

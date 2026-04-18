@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut Microbiota in Multiple Sclerosis Varies with Disease Activity"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ platform: wikibiome
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: ["Faecalibacterium"]
+evidence_level: case-control
 ---
 
 # The Gut Microbiota in Multiple Sclerosis Varies with Disease Activity
@@ -21,24 +21,24 @@ taxa_discussed: ["Faecalibacterium"]
 
 - 61 bacterial species were differentially abundant between 148 MS cases and 148 matched healthy controls; 31 enriched in MS and 30 depleted
 - In treatment-naive cases with clinically active disease, bacterial species richness correlated with number of relapses over 2 years (rho = 0.53, P = 0.002), and active cases had significantly richer bacterial communities than clinically non-active cases (P = 0.023)
-- In non-disease-active cases, [[Faecalibacterium-prausnitzii]] and [[Gordonibacter-urolithinfaciens]] (immune-modulating compound producers) were enriched, providing a rationale for testing these as adjunct therapeutics
-- MS-related species correlated with pro-inflammatory plasma cytokines: [[IL-22]], [[IL-17A]], [[IFN-beta]], [[IL-33]], and [[TNF-alpha]]; and with blood cell gene expression of IL17A and IL6
-- MS patients had higher viral species diversity and higher abundance of [[Caudovirales]] bacteriophages
+- In non-disease-active cases, [[faecalibacterium-prausnitzii]] and [[gordonibacter-urolithinfaciens]] (immune-modulating compound producers) were enriched, providing a rationale for testing these as adjunct therapeutics
+- MS-related species correlated with pro-inflammatory plasma cytokines: [[inflammation|IL-22]], [[inflammation|IL-17A]], [[inflammation|IFN-beta]], [[inflammation|IL-33]], and [[inflammation|TNF-alpha]]; and with blood cell gene expression of IL17A and IL6
+- MS patients had higher viral species diversity and higher abundance of [[viral-microbiota|Caudovirales]] bacteriophages
 - Functional modules enriched in MS included methanogenesis, methanol conversion, and chondroitin/dermatan sulfate degradation
 
 ## Methods/Findings
 
 - **Design**: Prospective case-control study with 2-year radiological follow-up, Danish MS Biobank cohort
 - **Participants**: 148 Danish RRMS patients (86% RRMS by McDonald 2017 criteria) and 148 sex/age-matched white Danish healthy controls; mean age 36
-- **Methods**: [[Shotgun-metagenomics]] sequencing; plasma cytokine profiling (Meso Scale Discovery); microarray blood cell gene expression (PAXgene); MiCop for viral analysis
+- **Methods**: [[shotgun-metagenomics|Shotgun-metagenomics]] sequencing; plasma cytokine profiling (Meso Scale Discovery); microarray blood cell gene expression (PAXgene); MiCop for viral analysis
 - **Key Results**: Beta diversity differed between cases and HC (PERMANOVA P < 0.001); MS-related species included depleted *Ruminococcus torques*, *Flavonifractor plautii*, *Lawsonibacter phocaeensis* and enriched *Ruminococcus* sp., *Haemophilus parainfluenzae*, *Veillonella rogosae*
 - **Treatment effects**: Drug treatment (36% untreated, 23% first-line, 41% second-line) was a significant covariate; Gilenya-treated subgroup (n=17) showed altered species richness
 
 ## Connections
 
-- The enrichment of [[Faecalibacterium-prausnitzii]] in non-active MS cases supports its role as a protective commensal, consistent with depletion findings in [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
+- The enrichment of [[faecalibacterium-prausnitzii]] in non-active MS cases supports its role as a protective commensal, consistent with depletion findings in [[miyake-2015-dysbiosis-ms-clostridia-depletion]]
 - The bacteriophage finding connects to approaches and suggests the MS gut virome warrants further investigation
 - Cytokine correlations with specific bacteria provide mechanistic links between and systemic inflammation in MS, extending immune profiling from [[jangi-2016-gut-microbiome-alterations-ms]]
 - The disease activity correlation suggests monitoring could serve as a for relapse prediction
 - Methanogenesis enrichment in MS aligns with elevated [[methanobrevibacter]] and breath methane in [[jangi-2016-gut-microbiome-alterations-ms]]
-- [[Gordonibacter-urolithinfaciens]] produces urolithins from dietary polyphenols, connecting to research in MS
+- [[gordonibacter-urolithinfaciens]] produces urolithins from dietary polyphenols, connecting to research in MS

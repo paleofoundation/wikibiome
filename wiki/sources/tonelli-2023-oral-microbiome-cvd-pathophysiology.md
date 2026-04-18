@@ -23,6 +23,9 @@ tags:
   - bacterial-translocation
   - review
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [staphylococcus-aureus, streptococcus]
+karen_brain_primitives: [1]
 ---
 
 # The Oral Microbiome in the Pathophysiology of Cardiovascular Disease
@@ -61,5 +64,5 @@ This review contributes to understanding [[cardiovascular-disease]] through:
 
 1. **Oral-systemic translocation** parallels gut-to-blood translocation seen with [[lead]] and [[cadmium]] exposure
 2. **LPS-mediated [[inflammation]]** through oral dysbiosis mirrors the gut barrier disruption pathway in metal-exposed individuals
-3. **[[Oxidative-stress]]** from chronic oral infection compounds with metal-induced oxidative damage
+3. **[[oxidative-stress]]** from chronic oral infection compounds with metal-induced oxidative damage
 4. **Multi-site [[dysbiosis]]** - Oral and gut dysbiosis may synergistically amplify CVD risk, especially in metal-exposed populations

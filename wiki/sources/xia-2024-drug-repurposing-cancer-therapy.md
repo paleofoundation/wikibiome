@@ -1,5 +1,4 @@
 ---
-
 title: "Drug Repurposing for Cancer Therapy"
 type: source
 created: 2026-04-09
@@ -7,15 +6,18 @@ updated: 2026-04-09
 authors: [Ying Xia, Ming Sun, Hai Huang, Wei-Lin Jin]
 journal: Signal Transduction and Targeted Therapy
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Signal Transduction and Targeted Therapy 2024 -->
 tags: [colon-cancer, drug-repurposing, cancer-therapy, hallmarks-of-cancer, cell-death, apoptosis, ferroptosis, pyroptosis, autophagy, metformin, statins, disulfiram, organoids, colorectal-cancer, review]
 platform: wikibiome
 evidence_level: expert-opinion
+metals_discussed: [copper, iron]
+taxa_discussed: [fusobacterium-nucleatum]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
-- [[Drug repurposing]] identifies new applications for existing clinically approved drugs, offering cost-effective and faster cancer treatment development due to established safety profiles
+- [[pharmacomicrobiomics|Drug repurposing]] identifies new applications for existing clinically approved drugs, offering cost-effective and faster cancer treatment development due to established safety profiles
 - Repurposed non-oncology candidates target all 14 hallmarks of cancer: metformin (phenotypic plasticity, metabolism), statins (growth suppressors, ferroptosis), disulfiram (cell death, epigenetics), celecoxib (inflammation), mebendazole (invasion/metastasis)
 - Multiple forms of regulated cell death (RCD) can be induced by repurposed drugs: pyroptosis, apoptosis, necroptosis, autophagy, ferroptosis, and cuproptosis
 - Organoid models (patient-derived organoids, PDOs) and tumoroids are key platforms for drug repurposing screening, enabling high-throughput assessment with clinical relevance
@@ -37,8 +39,8 @@ evidence_level: expert-opinion
 
 # Connections
 
-- Provides the broad framework for [[Zhu 2022 - Berberine UC Cancer Therapy]] (BBR as a specific repurposed drug) and [[Metz 2019 - Drug Discovery BFT Inhibition]] (CDCA as bile acid repurposing)
-- Organoid screening platforms applicable to testing microbiome-targeted therapies discussed in [[Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]]
+- Provides the broad framework for [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]] (BBR as a specific repurposed drug) and [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]] (CDCA as bile acid repurposing)
+- Organoid screening platforms applicable to testing microbiome-targeted therapies discussed in [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]]
 - Ferroptosis and cell death pathways connect to iron-dependent mechanisms discussed in broader cancer metabolism literature
 - Disulfiram for CRC connects to [[Simon-Soro 2021 - Thonzonium Bromide Oral-Gut Microbiomes]] concept of repurposed antimicrobials affecting microbiome
 - [[colorectal-cancer]]

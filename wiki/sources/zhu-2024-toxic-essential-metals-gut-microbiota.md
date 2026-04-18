@@ -43,13 +43,16 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: Maps the bidirectional interactions between toxic and essential metals and the gut microbiota, showing how microbial metabolism can both detoxify and activate metal species, and how metal exposure selects for metal-tolerant taxa. Supports the core WikiBiome thesis that the gut microbiota is a primary interface in human metal biology.
+metals_discussed: [arsenic, cadmium, chromium, copper, iron, lead, manganese, mercury, nickel]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, bilophila, blautia, campylobacter-jejuni, coprococcus, enterococcus, escherichia-coli, helicobacter-pylori, lachnospiraceae, lactobacillus, oscillospiraceae, ruminococcus, shigella, streptococcus]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims
 
 - The relationship between heavy metals and [[gut-metal-microbiome|gut microbiota]] is **bidirectional**: metals alter microbiota composition and metabolites, while microbiota modulate metal absorption, speciation, and toxicity
-- Ten common heavy metals are reviewed: [[arsenic]], [[mercury]], [[lead]], [[cadmium]], [[copper]], [[manganese]], [[iron]], [[nickel]], [[chromium]], and [[silicon]]
-- Toxic heavy metals (As, Hg, Pb, Cd) generally decrease microbial diversity, increase Firmicutes/Bacteroidetes ratio shifts, and disrupt [[short-chain-fatty-acids]], [[bile acids]], and amino acid metabolism
+- Ten common heavy metals are reviewed: [[arsenic]], [[mercury]], [[lead]], [[cadmium]], [[copper]], [[manganese]], [[iron]], [[nickel]], [[chromium]], and [[environmental-metal-exposure|silicon]]
+- Toxic heavy metals (As, Hg, Pb, Cd) generally decrease microbial diversity, increase Firmicutes/Bacteroidetes ratio shifts, and disrupt [[short-chain-fatty-acids]], [[bile-acid-metabolism]], and amino acid metabolism
 - Essential trace elements (Fe, Cu, Mn) at physiological levels support microbiota but at excess levels become toxic, demonstrating a dose-dependent relationship
 - [[nickel]] exposure in occupational workers increased Parabacteriadies, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, Blautia; impaired purine degradation and upregulated primary bile acid biosynthesis
 - Combined Cr-Ni exposure caused imbalance of intestinal flora and disorders of metabolites and metabolic pathways, with an antagonistic effect between Ni and Cr
@@ -68,9 +71,9 @@ why_keystone: Maps the bidirectional interactions between toxic and essential me
 
 # Connections
 
-- Directly relevant to [[nickel toxicity]] and [[nickel gut microbiome interactions]]
-- Supports findings in [[Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] on bidirectional HM-microbiota relationship
-- Complements [[Giambo 2021 - Influence Toxic Metal Exposure Gut Microbiota]] on metal-specific microbiome changes
-- Links to [[iron homeostasis]] and [[manganese neurotoxicity]] via gut-brain axis
+- Directly relevant to [[nickel-allergy|nickel toxicity]] and [[nickel-allergy|nickel gut microbiome interactions]]
+- Supports findings in [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] on bidirectional HM-microbiota relationship
+- Complements [[giambo-2021-toxic-metal-exposure-gut-microbiota-review|Giambo 2021 - Influence Toxic Metal Exposure Gut Microbiota]] on metal-specific microbiome changes
+- Links to [[iron-management|iron homeostasis]] and [[heavy-metal-neurotoxicity|manganese neurotoxicity]] via gut-brain axis
 - Relevant to [[probiotic detoxification of heavy metals]] strategies
 - Table 3 provides specific data on Ni effects including occupational worker study (ref 140) showing Ni-induced dysbiosis

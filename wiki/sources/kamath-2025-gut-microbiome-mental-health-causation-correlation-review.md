@@ -10,7 +10,7 @@ institution: "University of South Australia; University of Adelaide; NYU; Univer
 orcid: "0000-0003-3619-7901"
 year: 2025
 journal: "Preprint (no DOI found in document)"
-doi: "not yet verified"
+doi: "not yet verified"  # <!-- DOI lookup needed: Preprint (no DOI found in document) 2025 -->
 pmid: ""
 evidence_level: expert-opinion
 sample_size: "N/A (narrative review)"
@@ -45,7 +45,7 @@ Narrative review. Authors at 8 institutions spanning Australia, USA, UK, Ireland
 - Informs **[[schizophrenia]]** entity page: provides the trichotomy framework for contextualising all observational microbiome-SCZ associations — essential for WikiBiome's stance of not overstating causality.
 - Informs **[[gut-brain-axis]]** concept page: mechanistic detail on SCFA, tryptophan, and neural pathways with evidence grades.
 - Informs **[[tryptophan-metabolism]]** concept page: SCFA-tryptophan-serotonin interplay with specific molecular targets (IDO1, TPH1/2, kynurenic acid vs quinolinic acid balance).
-- Informs **[[depression]]**, **[[anxiety]]**, **[[PTSD]]** entity pages: shared mechanisms across psychiatric disorders.
+- Informs **[[depression]]**, **[[anxiety]]**, **[[gut-brain-axis|PTSD]]** entity pages: shared mechanisms across psychiatric disorders.
 
 # Relevance to Cureva
 

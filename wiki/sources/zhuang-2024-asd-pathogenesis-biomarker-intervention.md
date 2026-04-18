@@ -13,8 +13,8 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: expert-opinion
 karen_brain_primitives: [9]
-metals_discussed: []
-taxa_discussed: []
+metals_discussed: [calcium, iron, magnesium, nickel, zinc]
+taxa_discussed: [faecalibacterium-prausnitzii]
 ---
 
 # Overview

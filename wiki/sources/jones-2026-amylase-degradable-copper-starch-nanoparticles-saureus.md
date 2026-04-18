@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, nanoparticles
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "targeted copper nanoparticle antibacterials"
+metals_discussed: [copper]
+taxa_discussed: [escherichia-coli, staphylococcus-aureus]
+karen_brain_primitives: [3]
+key_findings: ["Composite CuStNPs"]
 ---
 
 # Why This Paper Matters

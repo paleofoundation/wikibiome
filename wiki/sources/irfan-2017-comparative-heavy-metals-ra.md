@@ -1,5 +1,4 @@
 ---
-
 title: "Comparative Evaluation of Heavy Metals in Patients with Rheumatoid Arthritis and Healthy Control in Pakistani Population"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2017
 tags: [rheumatoid-arthritis, lead, cadmium, chromium, nickel, heavy-metals, serum-levels, Pakistan]
 doi: "10.1002/mnfr.202400571"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [cadmium, chromium, lead, nickel]
 ---
 
 # Key Claims
@@ -34,7 +35,7 @@ platform: wikibiome
 # Connections
 
 - Companion study to [[arshad-2023-heavy-metals-rheumatoid-arthritis]] (same research group, Sargodha)
-- Pb and Cd stimulate cytokine production and shift Th1/Th2 balance -- links to [[immune dysregulation]]
+- Pb and Cd stimulate cytokine production and shift Th1/Th2 balance -- links to [[inflammation|immune dysregulation]]
 - Cr important in [[oxidative-stress|oxidative stress]] through ROS generation (Cr VI to Cr III reduction)
-- [[nickel]] depletion of glutathione and protein-bound sulfhydryl groups relevant to [[nickel toxicology]]
+- [[nickel]] depletion of glutathione and protein-bound sulfhydryl groups relevant to [[nickel-allergy|nickel toxicology]]
 - Heavy metals may contribute to RA through [[autoimmunity]] via immune system attacking self-molecules

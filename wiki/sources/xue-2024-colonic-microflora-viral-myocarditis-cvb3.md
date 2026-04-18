@@ -1,5 +1,4 @@
 ---
-
 title: "Altered Colonic Microflora and Its Metabolic Profile in Mice with Acute Viral Myocarditis Induced by Coxsackievirus B3"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ source_pdf: "raw/cardiovascular disease/Viral microbiota cardiovascular disease/
 pages_read: "1-8"
 platform: wikibiome
 evidence_level: animal-model
+taxa_discussed: [alistipes, bacteroides-fragilis, escherichia-coli, lactobacillus, shigella]
 ---
 
 # Key Claims
@@ -34,9 +34,9 @@ evidence_level: animal-model
 
 # Connections
 
-- Demonstrates [[viral microbiota]] (CVB3) disruption of gut microbiome in cardiac disease via [[gut-heart axis]]
-- Omega-3 fatty acid-microbiome correlations extend [[metabolic pathways]] in CVD
-- *Escherichia-Shigella* enrichment in AVMC aligns with [[microbiome composition]] shifts in CVD
-- Lipid metabolism disruption connects to [[microbiome-derived metabolites]] in cardiovascular inflammation
-- Viral myocarditis model relevant to [[microbiome and disease progression]] in heart disease
-- Complements [[Fujimoto 2022 - Gut Virome Metabolic Autoimmune]] on viral-cardiac connections
+- Demonstrates [[viral-microbiota|viral microbiota]] (CVB3) disruption of gut microbiome in cardiac disease via [[gut-heart axis]]
+- Omega-3 fatty acid-microbiome correlations extend [[fermentative-metabolism|metabolic pathways]] in CVD
+- *Escherichia-Shigella* enrichment in AVMC aligns with [[dysbiosis|microbiome composition]] shifts in CVD
+- Lipid metabolism disruption connects to [[microbiome-derived-metabolites]] in cardiovascular inflammation
+- Viral myocarditis model relevant to [[dysbiosis|microbiome and disease progression]] in heart disease
+- Complements [[fujimoto-2022-gut-virome-metabolic-autoimmune|Fujimoto 2022 - Gut Virome Metabolic Autoimmune]] on viral-cardiac connections

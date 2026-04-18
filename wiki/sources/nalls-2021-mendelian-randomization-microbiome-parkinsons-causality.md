@@ -11,13 +11,17 @@ tags: [parkinsons-disease, Mendelian-randomization, causal-inference, gut-microb
 library_category: signatures
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [iron, manganese, nickel]
+taxa_discussed: [bifidobacterium, prevotella]
+karen_brain_primitives: [1, 9]
 ---
 
 # Mendelian Randomization of the Gut Microbiome and Parkinson's Disease
 
 ## Summary
 
-This study uses Mendelian randomization (MR) to assess causal relationships between gut [[microbiome]] composition and [[parkinsons-disease]] risk, leveraging genetic instruments that influence microbiome composition to test whether specific microbial taxa causally affect PD risk.
+This study uses Mendelian randomization (MR) to assess causal relationships between gut [[gut-microbiome|microbiome]] composition and [[parkinsons-disease]] risk, leveraging genetic instruments that influence microbiome composition to test whether specific microbial taxa causally affect PD risk.
 
 ## Key Findings
 

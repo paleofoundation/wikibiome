@@ -1,5 +1,4 @@
 ---
-
 title: Nickel and Reproductive/Developmental Toxicity
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [zhang-2019-nickel-congenital-heart-defects.md, ding-2021-nickel-pregnancy-complications.md, dobrzynska-2025-nickel-children-food.md]
 tags: [nickel, reproductive-toxicity, pregnancy, congenital-heart-defects, placental-barrier]
 platform: wikibiome
+karen_brain_primitives: []
+seo_target: "nickel and reproductive/developmental toxicity microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Nickel and Reproductive/Developmental Toxicity

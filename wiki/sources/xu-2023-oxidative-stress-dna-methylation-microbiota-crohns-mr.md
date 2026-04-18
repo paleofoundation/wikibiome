@@ -1,5 +1,4 @@
 ---
-
 title: "Oxidative Stress Gene Expression, DNA Methylation, and Gut Microbiota Interaction Trigger Crohn's Disease: a Multi-Omics Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ tags: [crohns-disease, oxidative-stress, DNA-methylation, STAT3, GPX3, MUC1, Esc
 doi: "10.1186/s12916-023-02878-8"
 platform: wikibiome
 evidence_level: mendelian-randomization
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims
@@ -35,7 +37,7 @@ evidence_level: mendelian-randomization
 # Connections
 
 - Directly links [[ferroptosis]]-related oxidative stress to Crohn's disease through GPX3 (glutathione peroxidase pathway)
-- STAT3 as a CD-causal gene connects to JAK-STAT signaling in [[inflammation]] and complements [[Knights et al. 2014|knights-2014-host-genetics-microbiome-ibd]]
+- STAT3 as a CD-causal gene connects to JAK-STAT signaling in [[inflammation]] and complements [[knights-2014-host-genetics-microbiome-ibd|knights-2014-host-genetics-microbiome-ibd]]
 - [[escherichia-coli]] interaction with PRKAB1 demonstrates gene-microbiome causal chains in CD
 - MUC1 as barrier gene connecting host genetics to microbial metabolism
 - GPX3 protective effect relevant to [[iron]]-dependent oxidative damage and [[ferroptosis]]

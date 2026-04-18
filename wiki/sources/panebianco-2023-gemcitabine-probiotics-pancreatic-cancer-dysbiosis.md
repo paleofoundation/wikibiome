@@ -1,5 +1,4 @@
 ---
-
 title: "Counteracting gemcitabine+nab-paclitaxel induced dysbiosis in KRAS wild type and KRASG12D mutated pancreatic cancer in vivo model"
 type: source
 created: 2026-04-09
@@ -10,13 +9,16 @@ year: 2023
 tags: [pancreatic-cancer, probiotics, dysbiosis, gemcitabine, chemotherapy, KRAS, gut-microbiome, SCFAs, metabolomics, mouse-model]
 doi: "10.1038/s41420-023-01397-y"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [clostridium, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
 - [[probiotics]] supplementation counteracts gemcitabine+nab-paclitaxel-induced [[dysbiosis]] and ameliorates chemotherapy side effects in [[pancreatic-cancer]] mouse models
 - Combined chemotherapy plus probiotics reduced stroma deposition, increased cell apoptosis, preserved intestinal villi integrity, and reduced chemotherapy-related hematologic toxicity
-- [[16S rRNA sequencing]] showed chemotherapy caused significant drops in microbial species richness, which was restored by probiotic supplementation
+- [[shotgun-metagenomics|16S rRNA sequencing]] showed chemotherapy caused significant drops in microbial species richness, which was restored by probiotic supplementation
 - Serum [[metabolomics]] revealed significant drops in amino acids upon probiotics administration and sharp decline in bile acids in KRASG12D mutated mice
 
 # Methods/Findings
@@ -31,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Chemotherapy-induced [[dysbiosis]] links to [[microbiome-targeted therapy]] approaches for improving treatment outcomes
-- Probiotic restoration of Firmicutes and [[short-chain-fatty-acids]]-producing bacteria connects to [[microbial metabolites]] research
-- KRAS mutation status affects microbiome response, connecting to [[metabolic pathways]] and [[microbiome and disease progression]]
+- Chemotherapy-induced [[dysbiosis]] links to [[probiotics|microbiome-targeted therapy]] approaches for improving treatment outcomes
+- Probiotic restoration of Firmicutes and [[short-chain-fatty-acids]]-producing bacteria connects to [[short-chain-fatty-acids|microbial metabolites]] research
+- KRAS mutation status affects microbiome response, connecting to [[fermentative-metabolism|metabolic pathways]] and [[dysbiosis|microbiome and disease progression]]
 - Supports clinical rationale for [[probiotics]] and [[synbiotics]] supplementation during pancreatic cancer chemotherapy

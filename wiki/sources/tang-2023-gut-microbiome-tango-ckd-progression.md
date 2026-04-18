@@ -73,7 +73,7 @@ Narrative review integrating molecular signaling studies, clinical biomarker dat
 
 The review details three mechanistic arms by which gut-derived toxins accelerate CKD:
 
-1. **IS-AhR-NF-kB axis**: Tryptophan is converted to indole by [[eggerthella-lenta]] and [[clostridiaceae]], then hepatically sulfated to IS. IS binds AhR in renal tubular cells, activating NF-kB and driving pro-fibrotic gene expression.
+1. **IS-AhR-NF-kB axis**: Tryptophan is converted to indole by [[eggerthella-lenta]] and [[clostridium|clostridiaceae]], then hepatically sulfated to IS. IS binds AhR in renal tubular cells, activating NF-kB and driving pro-fibrotic gene expression.
 
 2. **PCS-RAS-EMT axis**: Tyrosine/phenylalanine fermentation by proteolytic bacteria produces p-cresol, sulfated to PCS. PCS activates the intrarenal RAS and TGF-beta signaling, promoting EMT and tubular atrophy.
 

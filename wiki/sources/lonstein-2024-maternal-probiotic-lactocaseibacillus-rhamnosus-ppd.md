@@ -11,6 +11,9 @@ tags: [postpartum-depression, probiotics, Lactocaseibacillus-rhamnosus, HN001, p
 library_category: preclinical
 platform: cureva
 condition: "postpartum mood and anxiety disorders"
+evidence_level: animal-model
+karen_brain_primitives: [5]
+key_findings: ["Peripartum mood and anxiety disorders (PMADs)", "L. rhamnosus HN001"]
 ---
 
 # Key Claims

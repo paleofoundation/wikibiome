@@ -49,9 +49,9 @@ Magnesium deficiency is consistently associated with metabolic features of PCOS:
 
 ### Thyroid Autoimmunity
 
-- Low serum Mg is associated with increased risk of TgAb positivity, [[hashimotos-thyroiditis]], and hypothyroidism (OR = 4.482-4.971 for lowest Mg group) [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
-- Mg exhibits immunomodulating effects through NF-kB, IL-6, and TNF-alpha regulation and is important for mTOR pathway regulation [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
-- Mg supplementation may improve thyroid function, though evidence is less robust than for [[selenium]] [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- Low serum Mg is associated with increased risk of TgAb positivity, [[hashimotos-thyroiditis]], and hypothyroidism (OR = 4.482-4.971 for lowest Mg group) [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
+- Mg exhibits immunomodulating effects through NF-kB, IL-6, and TNF-alpha regulation and is important for mTOR pathway regulation [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
+- Mg supplementation may improve thyroid function, though evidence is less robust than for [[selenium]] [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 
 ### Postpartum Depression
 

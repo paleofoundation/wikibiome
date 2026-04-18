@@ -1,5 +1,4 @@
 ---
-
 title: "Metallomic Signatures of Lung Cancer and Chronic Obstructive Pulmonary Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2023
 tags: [metallomics, lung-cancer, COPD, biomarkers, ICP-MS, nickel, arsenic, cadmium, aluminum, selenium, smoking, PCA, PLS-DA]
 doi: "10.3390/ijms241814250"
 platform: wikibiome
+metals_discussed: [aluminum, arsenic, cadmium, nickel, selenium]
 ---
 
 # Key Claims
@@ -35,7 +35,7 @@ platform: wikibiome
 # Connections
 
 - [[nickel]] elevation in LC and COPD-LC directly supports its role as a pulmonary carcinogen causing [[oxidative-stress]], oncogenic signaling pathway activation, and DNA damage in [[metal-carcinogenesis]]
-- [[arsenic]] and Pb exposure associations with decreased lung function connect to environmental/occupational [[metal-exposure]] risks
+- [[arsenic]] and Pb exposure associations with decreased lung function connect to environmental/occupational [[environmental-metal-exposure|metal-exposure]] risks
 - [[cadmium]] in cigarette smoke destroying lung tissue links to smoking-related COPD and subsequent cancer risk
 - [[aluminum]] elevation in LC patients may relate to energy metabolism imbalances via citrate interactions and potential endocrine disruption
 - [[selenium]] as a biomarker of tobacco-related diseases connects to its antioxidant role via selenoproteins

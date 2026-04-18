@@ -11,6 +11,11 @@ tags: [postpartum-depression, Shatavari, Asparagus-racemosus, psychobiotics, gut
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+evidence_level: expert-opinion
+metals_discussed: [iron, zinc]
+taxa_discussed: [bifidobacterium, clostridium, escherichia-coli, klebsiella-pneumoniae, lactobacillus]
+karen_brain_primitives: [5]
+key_findings: ["Asparagus racemosus (Shatavari)", "Dry Shatavari root", "90% of body's serotonin"]
 ---
 
 # Key Claims

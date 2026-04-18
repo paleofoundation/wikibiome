@@ -1,5 +1,4 @@
 ---
-
 title: "Research on Metabolic Characteristics of Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ platform: wikibiome
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+evidence_level: case-control
 ---
 
 # Research on Metabolic Characteristics of Multiple Sclerosis

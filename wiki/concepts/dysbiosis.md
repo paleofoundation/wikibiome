@@ -1,12 +1,14 @@
 ---
-
 title: Dysbiosis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity, giambo-2021-toxic-metal-exposure-gut-microbiota-review, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, tizabi-2023-lead-gut-microbiota-asd, tao-2024-cadmium-gut-microbiota-dwarf-hamsters, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, lombardi-2020-snas-probiotics-dysbiosis, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, kang-2023-diagnosis-crohns-uc-microbiome, vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]
+sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity, giambo-2021-toxic-metal-exposure-gut-microbiota-review, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, tizabi-2023-lead-gut-microbiota-asd, tao-2024-cadmium-gut-microbiota-dwarf-hamsters, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, khan-2020-environmental-exposures-autoimmune-gut-microbiome, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, lombardi-2020-snas-probiotics-dysbiosis, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, kang-2023-diagnosis-crohns-uc-microbiome, vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]
 tags: [microbiome, gut-barrier, SCFAs, LPS, pathobionts, probiotics, heavy-metals, inflammation, vicious-cycle, alpha-diversity, beta-diversity, F-B-ratio, FMT]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 5, 7, 8]
+seo_target: "dysbiosis"
+last_substantive_update: 2026-04-09
 ---
 
 # Dysbiosis
@@ -141,7 +143,7 @@ Historically used as a simple dysbiosis metric -- decreased F/B ratio in IBD and
 Metal-induced dysbiosis connects to virtually every disease in this wiki:
 
 - **Neurodegenerative disease**: PD and AD patients show dysbiotic patterns consistent with metal-driven shifts; the gut-first hypothesis for PD places dysbiosis as the initiating event [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- **Autoimmune disease**: dysbiosis precedes or accompanies IBD, RA, thyroid autoimmunity, and MS [[khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]]. In Crohn's, dysbiosis persists even during endoscopic remission.
+- **Autoimmune disease**: dysbiosis precedes or accompanies IBD, RA, thyroid autoimmunity, and MS [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]]. In Crohn's, dysbiosis persists even during endoscopic remission.
 - **Metabolic disease**: PCOS and T2D feature gut dysbiosis with reduced SCFA producers and increased TMAO-producing taxa.
 - **Cancer**: CRC has the most developed dysbiosis-cancer link (Fusobacterium nucleatum, ETBF); breast cancer shows estrobolome dysbiosis affecting estrogen recirculation.
 - **Neurodevelopmental disorders**: ASD and ADHD children show both metal dyshomeostasis and characteristic dysbiotic patterns.

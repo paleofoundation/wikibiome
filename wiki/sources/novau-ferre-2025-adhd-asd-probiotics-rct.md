@@ -6,11 +6,15 @@ updated: 2026-04-09
 authors: [Nil Novau-Ferré, Christopher Papandreou, Meritxell Rojo-Marticella, Josefa Canals-Sans, Mónica Bulló]
 year: 2025
 journal: "Research in Developmental Disabilities"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Research in Developmental Disabilities 2025 -->
 tags: [autism, adhd, microbiome, probiotics, intervention, rct]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+metals_discussed: [iron, nickel, zinc]
+karen_brain_primitives: [2, 4, 5, 6, 7]
+key_findings: ["Significant microbiota compositional differences", "Probiotic supplementation", "Microbiota changes"]
 ---
 
 # Key Claims

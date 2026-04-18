@@ -1,5 +1,4 @@
 ---
-
 title: "Editorial: Microbiome in IBD: From Composition to Therapy"
 type: source
 created: 2026-04-09
@@ -11,6 +10,8 @@ tags: [crohns-disease, IBD, microbiome, therapy, drug-repurposing, metformin, FM
 doi: "10.3389/fphar.2021.721992"
 platform: wikibiome
 evidence_level: expert-opinion
+taxa_discussed: [akkermansia-muciniphila, escherichia-coli]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

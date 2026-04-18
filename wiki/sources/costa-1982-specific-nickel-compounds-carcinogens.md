@@ -1,5 +1,4 @@
 ---
-
 title: "Specific Nickel Compounds as Carcinogens"
 type: source
 created: 2026-04-09
@@ -7,10 +6,13 @@ updated: 2026-04-09
 authors: [Costa M, Heck JD]
 journal: Trends in Pharmacological Sciences (TIPS)
 year: 1982
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Trends in Pharmacological Sciences (TIPS) 1982 -->
 volume: "3:408-410"
 tags: [nickel, carcinogenesis, nickel-subsulfide, nickel-oxide, phagocytosis, cell-transformation, structure-activity, crystalline-NiS, amorphous-NiS, surface-charge, DNA-damage, foundational-paper]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [cadmium, nickel]
+key_findings: ["Phagocytosis is the primary determinant"]
 ---
 
 # Specific Nickel Compounds as Carcinogens

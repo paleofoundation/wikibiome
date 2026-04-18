@@ -1,5 +1,4 @@
 ---
-
 title: "Local and systemic effects of microbiome-derived metabolites"
 type: source
 created: 2026-04-09
@@ -10,13 +9,15 @@ year: 2023
 doi: 10.15252/embr.202255664
 tags: [cardiovascular-disease, CVD, microbiome-derived-metabolites, SCFAs, bile-acids, TMAO, BCAAs, tryptophan, LPS, indoles, gut-barrier, immune-system, postbiotics, review]
 platform: wikibiome
+evidence_level: expert-opinion
+key_findings: ["Carboxylic acid intermediates", "Amino acids and derivatives"]
 ---
 
 # Local and Systemic Effects of Microbiome-Derived Metabolites
 
 ## Summary
 
-Comprehensive review from the Weizmann Institute examining the differential roles of key microbial metabolites in their local environment of production and their systemic effects via portal and systemic circulation. Covers [[short-chain-fatty-acids]], [[bile-acids]], [[tmao]], BCAAs, tryptophan metabolites, LPS, flavonoids, and other classes across multiple organ systems including the cardiovascular system.
+Comprehensive review from the Weizmann Institute examining the differential roles of key microbial metabolites in their local environment of production and their systemic effects via portal and systemic circulation. Covers [[short-chain-fatty-acids]], [[bile-acid-metabolism]], [[tmao]], BCAAs, tryptophan metabolites, LPS, flavonoids, and other classes across multiple organ systems including the cardiovascular system.
 
 ## Key Findings
 

@@ -32,20 +32,22 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Maps mineral-specific immunomodulation in autoimmune thyroid disease, showing how selenium supplementation reduces TPO antibodies via selenoprotein GPx upregulation, zinc enables thymulin activation for T cell function, and iron deficiency impairs TPO activity while increasing autoimmune susceptibility. WikiBiome depends on this evidence to establish how dysbiotic organisms (depleted in metal-dependent SCFA producers) directly undermine thyroid barrier tolerance—linking metal dysbiosis to Treg dysfunction via metal-dependent enzyme failures."
+metals_discussed: [calcium, copper, iron, magnesium, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases
 
 ## Key Claims
 
-- There is currently no effective pharmacological therapy for [[autoimmune thyroid disease]] (AITD); treatment remains symptomatic with synthetic TG or thyrostatics
+- There is currently no effective pharmacological therapy for [[thyroid-autoimmunity|autoimmune thyroid disease]] (AITD); treatment remains symptomatic with synthetic TG or thyrostatics
 - Thyroid hormones (TG) and minerals play important immunomodulating roles in both innate and adaptive immunity relevant to AITD
-- [[selenium]] supplementation reduces anti-TPO antibodies, increases GPx and TR enzyme activity, and decreases oxidative stress markers in [[Hashimoto's thyroiditis]]
+- [[selenium]] supplementation reduces anti-TPO antibodies, increases GPx and TR enzyme activity, and decreases oxidative stress markers in [[hashimotos-thyroiditis]]
 - [[iodine]] deficiency and excess both serve as risk factors for AITD; careful monitoring of iodine prophylaxis is essential
 - [[zinc]] is necessary for thymus hormone thymulin activation, T cell differentiation, and melatonin receptor expression; Zn deficiency impairs immune function
 - [[iron]] deficiency decreases TPO activity and is associated with increased autoantibodies (TPOAb, TgAb) in autoimmune thyroiditis
 - [[magnesium]] exhibits immunomodulating effects through NF-kB, IL-6, TNF-a regulation and is important for mTOR pathway regulation
-- [[Calcium]] influences CD8+ T cell apoptosis, Treg regulation, and BAFF/B-cell activation via mTOR pathway
+- [[calcium]] influences CD8+ T cell apoptosis, Treg regulation, and BAFF/B-cell activation via mTOR pathway
 - The immunomodulating targets of minerals in AITD include normalization of neutrophil function, reduction of ROS, and suppression of pro-inflammatory cytokines
 
 ## Methods/Findings

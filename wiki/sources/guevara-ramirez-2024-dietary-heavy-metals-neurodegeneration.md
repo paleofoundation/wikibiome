@@ -16,7 +16,7 @@ authors:
   - Zambrano AK
 journal: Food and Agricultural Immunology
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Food and Agricultural Immunology 2024 -->
 tags:
   - heavy-metals
   - diet
@@ -38,6 +38,8 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Links dietary metal exposure (mercury, cadmium, lead, arsenic in foods) to neurodegenerative disease mechanisms through metal-specific pathways: mercury disrupts glutamate transport, cadmium blocks calcium channels, arsenic dysregulates dopamine, chromium generates ROS, lead crosses the BBB. WikiBiome depends on this evidence to explain how food-borne metal burden—not environmental exposure alone—drives proteinopathy and why dietary interventions (phytochemicals, chelation) can interrupt metal-driven neurodegeneration."
+metals_discussed: [arsenic, cadmium, calcium, chromium, copper, lead, mercury, nickel, zinc]
+karen_brain_primitives: [3, 4]
 ---
 
 # Key Claims
@@ -68,7 +70,7 @@ why_keystone: "Links dietary metal exposure (mercury, cadmium, lead, arsenic in 
  - Hypertension and cardiovascular dysfunction contributing to neurodegeneration
 
  - Dietary modifications: antioxidant-rich diets, phytochemicals (anthocyanins, quercetin), polysaccharides
- - [[Chelation-therapy]]: using glutathione, EDTA, N-acetylcysteine; must form stable non-toxic complexes
+ - [[metal-chelation-therapy|Chelation-therapy]]: using glutathione, EDTA, N-acetylcysteine; must form stable non-toxic complexes
  - Sweating/exercise for metal elimination (nickel, Pb, copper, As higher in exercise-induced sweat)
  - Technological solutions: phytoremediation, soil amendments, advanced detection methods (AAS, fluorescence sensors)
 
@@ -77,8 +79,8 @@ why_keystone: "Links dietary metal exposure (mercury, cadmium, lead, arsenic in 
 - Builds on epidemiological findings in [[althomali-2024-heavy-metals-neurocognitive-systematic-review]]
 - Extends mechanisms discussed in [[jakubowska-2024-metal-toxicity-alzheimers-review]] to dietary exposure context
 - Connects to [[oxidative-stress]] and [[mitochondrial-dysfunction]] as convergent neurotoxicity pathways
-- Relevant to [[ubiquitin-proteasome-system]] dysfunction in [[neurodegeneration]]
-- Treatment strategies link to [[chelation-therapy]] and [[dietary-interventions]] for metal toxicity
+- Relevant to [[alpha-synuclein|ubiquitin-proteasome-system]] dysfunction in [[neurodegeneration]]
+- Treatment strategies link to [[metal-chelation-therapy|chelation-therapy]] and [[dietary-metal-microbiome-interactions|dietary-interventions]] for metal toxicity
 - Discusses [[nickel]] alongside other metals in sweat excretion studies
 - Connects to [[blood-brain-barrier]] permeability mechanisms
 - [[cardiovascular-disease]]

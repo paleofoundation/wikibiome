@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+key_findings: ["mTOR (mammalian target of rapamycin)", "Hyperactivation of mTOR", "Pharmacological inhibition of mTOR"]
 ---
 
 # Key Claims

@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Adapa V, Kada VA, Nunna JSG]
 journal: Journal of Clinical and Pharmaceutical Research
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Clinical and Pharmaceutical Research 2023 -->
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiota, dysbiosis, hypothyroidism, autoimmune-thyroiditis, probiotics, prebiotics, fermented-foods, high-fiber-diet, dietary-fiber, SCFAs, Bifidobacterium, Lactobacillus, Faecalibacterium, intestinal-permeability, molecular-mimicry, autoantigen-presentation, tryptophan, microbiome-diet]
 platform: wikibiome
 evidence_level: expert-opinion
@@ -24,11 +24,11 @@ karen_brain_primitives: [5]
 
 ## Key Claims
 
-- Hypothyroid patients have altered [[gut microbiota]] composition including reduced bacterial diversity and richness, lower levels of [[bifidobacterium]] and [[lactobacillus]], and increased levels of opportunistic pathogens like [[Proteobacteria]] and Fusobacteria
-- [[High-fiber diet]]s promote gut bacterial diversity, growth of [[SCFA]]-producing bacteria like [[faecalibacterium-prausnitzii]] and [[bifidobacterium]], and may improve thyroid hormone levels and reduce thyroid antibodies in patients with autoimmune thyroid disease
-- [[Fermented foods]] (yogurt, kimchi, sauerkraut, miso) provide beneficial bacteria to repopulate the gut microbiome and feed existing healthy bacteria via [[probiotics]]
+- Hypothyroid patients have altered [[gut-microbiome]] composition including reduced bacterial diversity and richness, lower levels of [[bifidobacterium]] and [[lactobacillus]], and increased levels of opportunistic pathogens like [[proteobacteria]] and Fusobacteria
+- [[high-fiber-diet]]s promote gut bacterial diversity, growth of [[short-chain-fatty-acids]]-producing bacteria like [[faecalibacterium-prausnitzii]] and [[bifidobacterium]], and may improve thyroid hormone levels and reduce thyroid antibodies in patients with autoimmune thyroid disease
+- [[prebiotics|Fermented foods]] (yogurt, kimchi, sauerkraut, miso) provide beneficial bacteria to repopulate the gut microbiome and feed existing healthy bacteria via [[probiotics]]
 - Gut dysbiosis may contribute to [[hashimotos-thyroiditis]] pathogenesis through four mechanisms: (1) interference with thyroid autoantigen presentation, (2) induction of [[inflammation]], (3) production of metabolites disrupting thyroid homeostasis, and (4) modulation of TSH release
-- Specific bacterial species may drive thyroid autoimmunity through [[molecular mimicry]], modulation of autoantigen presentation, and regulation of immune cells involved in thyroid inflammation
+- Specific bacterial species may drive thyroid autoimmunity through [[autoimmunity|molecular mimicry]], modulation of autoantigen presentation, and regulation of immune cells involved in thyroid inflammation
 - Hypothyroidism itself may promote dysbiosis by slowing gastrointestinal motility and altering the gut environment
 
 ## Methods/Findings

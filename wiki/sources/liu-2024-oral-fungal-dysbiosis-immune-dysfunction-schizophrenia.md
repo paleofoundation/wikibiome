@@ -11,6 +11,10 @@ tags: [schizophrenia, oral-mycobiome, fungal-dysbiosis, Candida, Malassezia, imm
 library_category: mycobiome
 platform: oral
 condition: "Schizophrenia"
+evidence_level: cross-sectional
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [candida-albicans, malassezia]
+karen_brain_primitives: [1]
 ---
 
 # Oral fungal dysbiosis and systemic immune dysfunction in Chinese patients with schizophrenia

@@ -12,6 +12,9 @@ library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
 evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, lead, nickel]
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [1, 2, 4, 5, 8]
 ---
 
 # Efficacy and Safety of Probiotics for the Treatment of Alzheimer's Disease, Mild Cognitive Impairment, and Parkinson's Disease

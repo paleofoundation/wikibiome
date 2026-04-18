@@ -1,5 +1,4 @@
 ---
-
 title: "Metataxonomic and Metabolic Impact of Fecal Microbiota Transplantation From Patients With Pancreatic Cancer Into Germ-Free Mice: A Pilot Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2021
 tags: [pancreatic-cancer, FMT, germ-free-mice, fecal-microbiota, body-composition, visceral-fat, cachexia, E-coli, Streptococcus-salivarius, metataxonomics]
 doi: "10.3389/fcimb.2021.752889"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [clostridium, escherichia-coli, lachnospiraceae, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -30,7 +32,7 @@ platform: wikibiome
 
 # Connections
 
-- Visceral fat reduction by PC-derived microbiota links to [[cachexia]] and [[metabolic pathways]] in pancreatic cancer
-- *E. coli* enrichment connects to intratumoral bacteria findings in [[microbiome composition]] and [[microbiome and disease progression]] studies
+- Visceral fat reduction by PC-derived microbiota links to [[inflammation|cachexia]] and [[fermentative-metabolism|metabolic pathways]] in pancreatic cancer
+- *E. coli* enrichment connects to intratumoral bacteria findings in [[dysbiosis|microbiome composition]] and [[dysbiosis|microbiome and disease progression]] studies
 - Successful human-to-mouse microbiota transfer validates [[fecal-microbiota-transplant]] as translational model for pancreatic cancer research
-- *Lachnospiraceae* depletion parallels SCFA-producing bacteria loss reported in [[short-chain-fatty-acids]] and [[microbial metabolites]] studies
+- *Lachnospiraceae* depletion parallels SCFA-producing bacteria loss reported in [[short-chain-fatty-acids]] and [[short-chain-fatty-acids|microbial metabolites]] studies

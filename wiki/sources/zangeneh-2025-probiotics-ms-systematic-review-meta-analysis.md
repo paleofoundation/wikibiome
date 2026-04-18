@@ -1,5 +1,4 @@
 ---
-
 title: "The potential effectiveness of probiotics in reducing multiple sclerosis progression in preclinical and clinical studies: A worldwide systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ doi: 10.1371/journal.pone.0319755
 tags: [multiple-sclerosis, probiotics, EAE, meta-analysis, systematic-review, Lactobacillus, Bifidobacterium, Prevotella, IFN-gamma, IL-17, Tregs, clinical-trials]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, lead, nickel]
+taxa_discussed: [bifidobacterium, lactobacillus, prevotella]
+karen_brain_primitives: [1, 5]
 ---
 
 # The Potential Effectiveness of Probiotics in Reducing Multiple Sclerosis Progression in Preclinical and Clinical Studies

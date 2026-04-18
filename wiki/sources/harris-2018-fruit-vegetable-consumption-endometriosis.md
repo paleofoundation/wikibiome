@@ -1,5 +1,4 @@
 ---
-
 title: "Fruit and vegetable consumption and risk of endometriosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2018
 tags: [endometriosis, fruit, vegetables, citrus, cruciferous-vegetables, beta-cryptoxanthin, prospective-cohort, Nurses-Health-Study]
 doi: "10.1093/humrep/dey014"
 platform: wikibiome
+evidence_level: prospective-cohort
+metals_discussed: [nickel]
 ---
 
 # Key Claims

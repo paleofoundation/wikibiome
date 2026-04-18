@@ -1,5 +1,4 @@
 ---
-
 title: "Exposure to arsenic alters the microbiome of larval zebrafish"
 type: source
 created: 2026-04-09
@@ -10,13 +9,15 @@ year: 2018
 tags: [arsenic, zebrafish, microbiome, dysbiosis, integrons, antimicrobial-resistance, heavy-metals, 16S-rRNA]
 doi: "10.3389/fmicb.2018.01323"
 platform: wikibiome
+metals_discussed: [arsenic]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
 - Even low concentrations of [[arsenic]] (10 ppb, at the WHO drinking water limit) significantly alter the overall microbial composition and cause [[dysbiosis]] in developing larval zebrafish
-- High arsenic concentrations (100 ppb) increased the abundance of a class 1 integron (int1), an integrase-dependent system facilitating horizontal transfer of genes conferring resistance to [[heavy metals]] and antibiotics
-- Arsenic exposure explained a high degree of variance (54.7%) in overall bacterial composition, demonstrating it as a dominant driver of [[microbiome composition]]
+- High arsenic concentrations (100 ppb) increased the abundance of a class 1 integron (int1), an integrase-dependent system facilitating horizontal transfer of genes conferring resistance to [[heavy-metals]] and antibiotics
+- Arsenic exposure explained a high degree of variance (54.7%) in overall bacterial composition, demonstrating it as a dominant driver of [[dysbiosis|microbiome composition]]
 - Proteobacteria dominated the zebrafish microbiome across all treatments (94.1% mean relative abundance), with significant shifts in lower-abundance taxa
 
 # Methods/Findings
@@ -32,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- Demonstrates dose-dependent arsenic effects on microbiome relevant to [[arsenic]] and [[Environmental Exposures]]
+- Demonstrates dose-dependent arsenic effects on microbiome relevant to [[arsenic]] and [[environmental-metal-exposure|Environmental Exposures]]
 - int1 integron findings connect to antimicrobial resistance concerns raised in [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]]
 - Supports the broader pattern of metal-induced [[dysbiosis]] documented in [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]
 - Zebrafish as model organism complements mouse studies such as [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]]

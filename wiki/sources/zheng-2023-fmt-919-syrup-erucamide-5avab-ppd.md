@@ -12,6 +12,10 @@ library_category: preclinical
 platform: cureva
 condition: "postpartum depression"
 evidence_level: animal-model
+metals_discussed: [copper, magnesium, zinc]
+taxa_discussed: [bacteroides-fragilis, lactobacillus]
+karen_brain_primitives: [5]
+key_findings: ["FMT from 919 Syrup-treated mice", "Antibiotic-treated mice"]
 ---
 
 # Key Claims

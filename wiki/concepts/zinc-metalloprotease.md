@@ -1,5 +1,4 @@
 ---
-
 title: "Zinc-Metalloprotease"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [virulence-enzyme, zinc-biology, metal-cofactor, tissue-destruction, immune-evasion]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels"
 platform: wikibiome
+karen_brain_primitives: [2, 4, 6]
+seo_target: "zinc-metalloprotease microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview
@@ -90,7 +92,7 @@ Zinc-metalloproteases are a paradigm for **Primitive 4: Metal Dependencies as Ac
 - In dysbiotic states with both metals elevated, both virulence pathways are maximized
 
 **Zinc and immune function:**
-- Host [[zinc]]-dependent enzymes (e.g., [[zinc-finger]] transcription factors, thymulin) are required for Th1 differentiation and neutrophil recruitment
+- Host [[zinc]]-dependent enzymes (e.g., [[metal-homeostasis|zinc-finger]] transcription factors, thymulin) are required for Th1 differentiation and neutrophil recruitment
 - [[zinc]] deficiency → Th2 shift → reduced IFN-γ → reduced immune pressure on BFT-producing B. fragilis
 - This creates a vicious cycle: dysbiosis → [[zinc]] sequestration (nutritional immunity) → [[zinc]] deficiency → impaired Th1 → pathobiont escape
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Tampons as a Source of Exposure to Metal(loid)s"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 tags: [tampons, heavy-metals, lead, cadmium, arsenic, nickel, zinc, calcium, menstrual-products, vaginal-absorption, environmental-exposure, ICP-MS]
 doi: "10.1016/j.envint.2024.108899"
 platform: wikibiome
+metals_discussed: [arsenic, cadmium, calcium, lead, nickel, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Tampons as a Source of Exposure to Metal(loid)s

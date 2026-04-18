@@ -1,5 +1,4 @@
 ---
-
 title: "Location and condition based reconstruction of colon cancer microbiome from human RNA sequencing data"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 doi: "10.1186/s13073-023-01180-9"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, RNA-seq, TCGA, tumor-microbiome, Faecalibacterium-prausnitzii, Fusobacterium-nucleatum, Clostridium, immune-infiltration, molecular-subtypes]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [bacteroides-fragilis, clostridium, coprococcus, faecalibacterium-prausnitzii, fusobacterium-nucleatum]
 ---
 
 # Sambruni 2023 -- Location and Condition Based Reconstruction of Colon Cancer Microbiome from RNA-Seq Data

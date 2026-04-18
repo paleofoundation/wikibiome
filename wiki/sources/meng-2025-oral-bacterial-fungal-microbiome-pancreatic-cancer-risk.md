@@ -1,5 +1,4 @@
 ---
-
 title: "Oral bacterial and fungal microbiome and subsequent risk for pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2025
 tags: [pancreatic-cancer, oral-microbiome, fungal-microbiome, Candida, Malassezia, Porphyromonas-gingivalis, periodontal-pathogens, microbial-risk-score, prospective-cohort, shotgun-metagenomics, ITS-sequencing]
 doi: "10.1001/jamaoncol.2025.3377"
 platform: wikibiome
+evidence_level: prospective-cohort
+metals_discussed: [iron]
+taxa_discussed: [candida-albicans, malassezia, porphyromonas]
+karen_brain_primitives: [1, 6]
 ---
 
 # Key Claims

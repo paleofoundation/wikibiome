@@ -46,8 +46,8 @@ key_findings:
 - **[[cadmium]]** entity page — adds mechanistic detail: Cd disrupts ZO-1, translocates bacteria into blood, generates uremic toxins via microbial perturbation.
 - **[[muribaculaceae]]** — document Cd-driven translocation from gut to blood; mucin-monosaccharide energy source → mucin layer degradation → permeability feedback loop.
 - **[[corynebacterium]]** — Cd drives gut-to-blood translocation; bacteremia marker.
-- **[[intestinal-barrier]]** / **[[leaky-gut]]** concept — Cd as a ZO-1 disruptor.
-- **[[uremic-toxins]]** concept — indoxyl sulfate, phenyl sulfate, p-cresol sulfate as Cd-driven gut-bacterial metabolites linking heavy metal exposure to CKD pathophysiology.
+- **[[intestinal-permeability|intestinal-barrier]]** / **[[intestinal-permeability|leaky-gut]]** concept — Cd as a ZO-1 disruptor.
+- **[[tmao|uremic-toxins]]** concept — indoxyl sulfate, phenyl sulfate, p-cresol sulfate as Cd-driven gut-bacterial metabolites linking heavy metal exposure to CKD pathophysiology.
 
 ## Relevance to Cureva
 

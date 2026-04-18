@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel Content of Food and Estimation of Dietary Intake"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 1984
 tags: [dietary-nickel, food-nickel-content, nickel-intake-estimation, Danish-diet, reference-data]
 doi: "10.1007/BF01043419"
 platform: wikibiome
+metals_discussed: [nickel]
 ---
 
 ## Key Claims
@@ -39,4 +39,4 @@ platform: wikibiome
 - Foundational reference data used by [[mislankar-2013-low-nickel-diet-scoring]], [[braga-2013-snas-nosologic-framework]], and many other dietary nickel studies
 - Intake estimates referenced by [[denkhaus-2002-nickel-essentiality-toxicity]] and [[bergman-2016-low-nickel-diet-review]]
 - Data supports the dietary restriction approach in [[kaaber-1978-low-nickel-diet-chronic-dermatitis]] and [[veien-1993-low-nickel-diet-trial]]
-- Updated by subsequent national surveys but remains a key historical reference for [[dietary nickel exposure]]
+- Updated by subsequent national surveys but remains a key historical reference for [[dietary-nickel-exposure]]

@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Alonso-Garcia P, Martin R, Martinez-Pinilla E]
 journal: Exploration of Neuroprotective Therapy
 year: 2021
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Exploration of Neuroprotective Therapy 2021 -->
 evidence_level: expert-opinion
 tags: [gut-microbiota, proteinopathies, neurodegeneration, Parkinsons-disease, Alzheimers-disease, Huntingtons-disease, gut-brain-axis, dysbiosis, probiotics, FMT]
 platform: wikibiome
@@ -53,7 +53,7 @@ karen_brain_primitives: [1, 5]
  - Limited but emerging evidence for microbiota role
 
  - Probiotics: Lactobacillus, Bifidobacterium strains showing neuroprotective effects in animal models
- - [[Fecal-microbiota-transplantation]]: promising results in PD (constipation relief) and AD (amyloid-beta reduction) in preclinical models
+ - [[fmt-intervention]]: promising results in PD (constipation relief) and AD (amyloid-beta reduction) in preclinical models
  - Safety concerns and limited human data remain challenges
 
 # Connections
@@ -62,6 +62,6 @@ karen_brain_primitives: [1, 5]
 - Complements [[gentile-2020-diet-microbiota-brain-health]] on dietary and metabolic interactions
 - Relates to [[khatoon-2023-gut-microbiota-neurodegenerative]] on therapeutic microbiota interventions
 - Connects [[alpha-synuclein]] gut-to-brain transport to [[parkinsons-disease]] pathogenesis
-- Links [[amyloid-beta-aggregation]] to bacterial products (LPS, Curli proteins)
+- Links [[amyloid-beta|amyloid-beta-aggregation]] to bacterial products (LPS, Curli proteins)
 - Relevant to [[dysbiosis]] as shared mechanism across proteinopathies
-- Discusses [[SCFA-production]] as protective factor against neurodegeneration
+- Discusses [[short-chain-fatty-acids]] as protective factor against neurodegeneration

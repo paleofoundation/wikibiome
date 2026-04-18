@@ -26,6 +26,9 @@ tags:
   - ITS-sequencing
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [cadmium, lead]
+taxa_discussed: [aspergillus, candida-albicans, cladosporium, malassezia, saccharomyces-cerevisiae]
+karen_brain_primitives: [1]
 ---
 
 # Gut Mycobiome Dysbiosis Contributes to the Development of Hypertension and Its Response to Immunoglobulin Light Chains
@@ -57,7 +60,7 @@ Original research examining the gut mycobiome in 38 pre-hypertension (pre-HTN), 
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Early [[dysbiosis]] detection** - Mycobiome shifts occurring at pre-HTN stage could serve as early biomarkers for metal-induced cardiovascular risk
-2. **[[Inflammation]] via immunoglobulin** - Light chain dysregulation connecting to fungal dysbiosis provides a novel immune mechanism linking [[dysbiosis]] to hypertension
+2. **[[inflammation]] via immunoglobulin** - Light chain dysregulation connecting to fungal dysbiosis provides a novel immune mechanism linking [[dysbiosis]] to hypertension
 3. ***Malassezia* as pathobiont** - Known to produce inflammatory lipases and activate immune cells; its enrichment in hypertension may compound [[lead]] and [[cadmium]]-driven [[inflammation]]
 4. ***Mortierella* depletion** - Loss of this potentially protective fungus parallels loss of protective bacterial taxa with metal exposure
 - [[cardiovascular-disease]]

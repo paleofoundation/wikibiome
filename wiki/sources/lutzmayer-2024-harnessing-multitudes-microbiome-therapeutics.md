@@ -1,5 +1,4 @@
 ---
-
 title: "Harnessing the Multitudes: Charting the Future of Microbiome Therapeutics"
 type: source
 created: 2026-04-09
@@ -7,9 +6,10 @@ updated: 2026-04-09
 authors: [Stefan Lutzmayer, Isma Hachi, Isabelle de Cremoux, Tomas de Wouters]
 journal: IQVIA White Paper
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (null); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: IQVIA White Paper 2024 -->
 tags: [microbiome-therapeutics, FMT, live-biotherapeutics, phage-therapy, probiotics, drug-development, regulatory, industry-analysis, multiple-sclerosis]
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Harnessing the Multitudes: Charting the Future of Microbiome Therapeutics

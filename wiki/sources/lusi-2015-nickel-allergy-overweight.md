@@ -1,5 +1,4 @@
 ---
-
 title: "High Prevalence of Nickel Allergy in an Overweight Female Population: A Pilot Observational Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2015
 tags: [nickel-allergy, obesity, overweight, BMI, metabolic-syndrome, low-nickel-diet, weight-loss]
 doi: "10.1371/journal.pone.0123265"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [nickel]
+taxa_discussed: [helicobacter-pylori]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 ## Key Claims

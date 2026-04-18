@@ -111,9 +111,9 @@ Wikipedia covers *Purpureocillium lilacinum* primarily as an entomopathogenic an
 ## Cross-References
 
 - [[aspergillus]] — Opposing mycobiome member; ratio used as diagnostic biomarker
-- [[candida]] — Expands in Candida-dominant E2 enterotype when Purpureocillium is depleted
+- [[candida-albicans|candida]] — Expands in Candida-dominant E2 enterotype when Purpureocillium is depleted
 - [[schizophrenia]] — Primary disease association: nearly eliminated in SCZ patients
-- [[ergothioneine]] — Neuroprotective antioxidant metabolite depleted when Purpureocillium is absent
+- [[oxidative-stress|ergothioneine]] — Neuroprotective antioxidant metabolite depleted when Purpureocillium is absent
 - [[gut-brain-axis]] — Pathway linking mycobiome composition to cognitive function
 - [[mycobiome]] — The gut fungal community in which Purpureocillium operates as a protective regulator
 - [[iron]] — Required for cytochrome P450-dependent secondary metabolite biosynthesis

@@ -12,6 +12,9 @@ library_category: "Functional microbiome shifts"
 platform: sequencing
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, clostridium, desulfovibrio, dialister, lactobacillus, prevotella, veillonella]
+key_findings: ["Beta-diversity", "*Bifidobacterium*, *Blautia*, *Dialister*, *Prevotella*, *Veillonella*, and *Turicibacter", "*Lactobacillus*, *Bacteroides*, *Desulfovibrio*, and *Clostridium"]
 ---
 
 # Overview
@@ -48,4 +51,4 @@ Systematic review of **16 studies (381 ASD patients, 283 healthy controls)** com
 - Methodological concerns validated by [[palkova-2021-16s-primer-sets-asd-microbiota]]
 - Decreased *Bifidobacterium* aligns with [[coretti-2018-gut-microbiota-young-asd-children]]
 - Increased *Clostridium* findings link to [[zheng-2021-bacterial-aromatic-amino-acids-asd]] p-cresol production
-- Supports [[autism-spectrum-disorder-microbiome-signature]]
+- Supports [[autism-spectrum-disorder-signature]]

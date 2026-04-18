@@ -11,6 +11,8 @@ tags: [postpartum-depression, treatment, SSRIs, brexanolone, zuranolone, antidep
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+metals_discussed: [iron, magnesium, zinc]
+key_findings: ["Brexanolone"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Efficacy of Zinc Supplementation in the Management of Primary Dysmenorrhea: A Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 tags: [zinc, dysmenorrhea, meta-analysis, RCT, pain-relief, anti-inflammatory, prostaglandins, menstrual-pain, supplementation]
 doi: "10.3390/nu16234116"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims

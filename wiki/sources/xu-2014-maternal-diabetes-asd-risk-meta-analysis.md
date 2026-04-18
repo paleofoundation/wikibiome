@@ -15,6 +15,7 @@ karen_brain_primitives: []
 metals_discussed: []
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: []
+key_findings: ["Maternal diabetes is significantly associated with a greater risk of ASD", "Pooled relative risk of 1.48", "Pooled odds ratio of 1.72"]
 ---
 
 # Key Claims

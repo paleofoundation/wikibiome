@@ -9,6 +9,7 @@ year: 2005
 doi: "10.1111/j.1600-0447.2005.00634.x"
 tags: [schizophrenia, childhood-trauma, psychosis, hallucinations, abuse, HPA-axis, neurodevelopment]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Childhood Trauma, Psychosis and Schizophrenia: A Literature Review with Theoretical and Clinical Implications

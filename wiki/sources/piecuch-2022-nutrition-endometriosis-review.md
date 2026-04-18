@@ -29,6 +29,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Identifies dietary nickel as a mechanistic driver of endometriosis GI symptoms through allergic contact mucositis, linking metal exposure to disease phenotype via low-nickel dietary intervention evidence. WikiBiome depends on this evidence to establish the dietary-nickel-endometriosis pathway and to integrate nutritional immunity interventions into the endometriosis signature as a validated ecological disruption mechanism."
+evidence_level: in-vitro
+metals_discussed: [iron, nickel]
+karen_brain_primitives: [2, 4]
 ---
 
 # Key Claims

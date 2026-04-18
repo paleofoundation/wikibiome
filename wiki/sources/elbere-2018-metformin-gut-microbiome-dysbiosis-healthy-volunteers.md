@@ -1,5 +1,4 @@
 ---
-
 title: "Association of metformin administration with gut microbiome dysbiosis in healthy volunteers"
 type: source
 created: 2026-04-09
@@ -7,16 +6,17 @@ updated: 2026-04-09
 authors: [Ilze Elbere, Ineta Kalnina, Ivars Silamikelis, Ilze Konrade, Linda Zaharenko, Kristine Sekace, Ize Radovica-Spalvina, Davids Fridmanis, Dita Gudra, Valdis Pirags, Janis Klovins]
 journal: PLOS ONE
 year: 2018
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: PLOS ONE 2018 -->
 tags: [cardiovascular-disease, metformin, gut-microbiome, dysbiosis, Escherichia-Shigella, Peptostreptococcaceae, Clostridiaceae, alpha-diversity]
 platform: wikibiome
+taxa_discussed: [akkermansia-muciniphila, escherichia-coli, shigella]
 ---
 
 # Elbere et al. 2018 -- Metformin and Gut Microbiome Dysbiosis in Healthy Volunteers
 
 ## Key Claims
 
-- [[Metformin]] significantly reduces inner diversity of the [[gut microbiome]] immediately after the first two or three doses (within 24 hours) in healthy individuals, and diversity remains significantly lower than baseline after 7 days
+- [[metformin]] significantly reduces inner diversity of the [[gut-microbiome]] immediately after the first two or three doses (within 24 hours) in healthy individuals, and diversity remains significantly lower than baseline after 7 days
 - One week of metformin treatment was associated with significant decreases in families *Peptostreptococcaceae* and *Clostridiaceae_1*, and four genera within these families
 - The relative abundance of opportunistic pathogen *Escherichia-Shigella* spp. increased in the M7d sample compared to M24h, with greater increases observed in individuals who later experienced GI side effects
 - The increase in *Escherichia-Shigella* abundance and trigger of opportunistic pathogen growth likely explains the GI side effects commonly associated with metformin therapy
@@ -42,6 +42,6 @@ pp. 1-8
 
 ## Connections
 
-- Links to 's mechanism of action via [[gut microbiome]] modulation
+- Links to 's mechanism of action via [[gut-microbiome]] modulation
 - Relevant to [[cardiovascular-disease]] through metformin's cardioprotective effects
 - Connects to [[akkermansia-muciniphila]] (trend toward increase, M0 vs M7d p=0.03 uncorrected)

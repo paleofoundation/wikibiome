@@ -1,5 +1,4 @@
 ---
-
 title: "Dietary fiber intake and pancreatic cancer risk: a meta-analysis of epidemiologic studies"
 type: source
 created: 2026-04-09
@@ -10,11 +9,13 @@ year: 2015
 tags: [pancreatic-cancer, dietary-fiber, meta-analysis, risk-factors, epidemiology, high-fiber-diet, cancer-prevention]
 doi: "10.1038/srep10834"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- High [[dietary fiber]] intake is significantly associated with reduced [[pancreatic-cancer]] risk in case-control studies (OR = 0.54, 95% CI: 0.44-0.67, P = 0.043) but not in the single cohort study included
+- High [[dietary-fiber]] intake is significantly associated with reduced [[pancreatic-cancer]] risk in case-control studies (OR = 0.54, 95% CI: 0.44-0.67, P = 0.043) but not in the single cohort study included
 - The overall summary risk estimate across 14 studies (3,287 PC cases) showed a 46% risk reduction (OR 0.54, 95% CI: 0.44-0.67)
 - Both soluble fiber (OR 0.52) and insoluble fiber (OR 0.49) showed protective associations, with no significant difference between fiber types
 - The protective association was consistent across geographic regions (North America OR 0.57, Europe OR 0.43, Asia OR 0.57)
@@ -31,7 +32,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Dietary fiber]] fermentation by gut bacteria produces [[short-chain-fatty-acids]] including butyrate, linking to [[microbiome-derived metabolites]]
-- [[High-fiber diet]] modulates [[gut microbiome]] composition, increasing beneficial bacteria relevant to [[prebiotics]] effects
-- Anti-inflammatory properties of fiber connect to [[microbiome and inflammation]] pathways in pancreatic cancer prevention
-- Supports [[Mediterranean diet]] and plant-based dietary approaches for cancer risk reduction
+- [[dietary-fiber]] fermentation by gut bacteria produces [[short-chain-fatty-acids]] including butyrate, linking to [[microbiome-derived-metabolites]]
+- [[high-fiber-diet]] modulates [[gut-microbiome]] composition, increasing beneficial bacteria relevant to [[prebiotics]] effects
+- Anti-inflammatory properties of fiber connect to [[inflammation|microbiome and inflammation]] pathways in pancreatic cancer prevention
+- Supports [[mediterranean-diet]] and plant-based dietary approaches for cancer risk reduction

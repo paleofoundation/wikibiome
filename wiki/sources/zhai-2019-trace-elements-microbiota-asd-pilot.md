@@ -14,6 +14,10 @@ library_category: signatures
 platform: both
 condition: "autism spectrum disorder"
 evidence_level: cross-sectional
+metals_discussed: [arsenic, cadmium, calcium, copper, lead, magnesium, mercury, zinc]
+taxa_discussed: [clostridium, escherichia-coli]
+karen_brain_primitives: [1, 3, 4, 5]
+key_findings: ["Elevated trace element burden"]
 ---
 
 # Key Claims

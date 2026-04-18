@@ -29,7 +29,7 @@ A chronic metabolic condition affecting over 1 billion people globally, characte
 
 ### Functional Dysbiosis
 - Obese microbiome has increased capacity for energy harvest from dietary polysaccharides [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]].
-- Depleted [[short-chain-fatty-acids]] producers, particularly butyrate-producing Roseburia and [[faecalibacterium-prausnitzii]] [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- Depleted [[short-chain-fatty-acids]] producers, particularly butyrate-producing Roseburia, [[faecalibacterium-prausnitzii]], and [[oscillospiraceae|Oscillospiraceae]] [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - **Akkermansia muciniphila depletion** is a hallmark obesity signature; restoration improves mucin layer integrity, reduces metabolic endotoxemia, and ameliorates adipose inflammation [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
 - Enriched Enterobacteriaceae and LPS-producing gram-negative species [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - Reduced microbial diversity correlates with metabolic dysfunction severity [[ross-2024-diet-gut-microbiome-interplay-health-disease]].

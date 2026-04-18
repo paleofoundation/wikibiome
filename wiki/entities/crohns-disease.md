@@ -68,6 +68,7 @@ CD is characterized by profound [[dysbiosis]] with reduced alpha diversity, the 
 | **Fusobacterium** | Pro-inflammatory; enrichment associated with CD polygenic risk score independent of disease status [[jacobs-2022-crohns-remission-obesity-mli-microbiome]] |
 | **Ruminococcus gnavus** | Mucin-degrading; directly damages barrier |
 | **Candida albicans** | Fungal component; biofilm formation provides functional shielding for bacterial pathogens |
+| **[[debaryomyces|Debaryomyces]]** | Fungal pathobiont; dramatically enriched in inflamed ileal tissue; activates type 1/17 immunity via beta-glucan/Dectin-1 signaling |
 
 The fundamental ecological pattern: metal dyshomeostasis selects AGAINST SCFA-producing commensals and FOR metal-tolerant or metal-acquiring pathobionts. Dysbiosis persists even during endoscopic remission, indicating it is not purely secondary to inflammation [[jacobs-2022-crohns-remission-obesity-mli-microbiome]].
 

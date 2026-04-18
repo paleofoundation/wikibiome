@@ -133,9 +133,9 @@ The ketogenic diet operates through **metabolic reprogramming** with downstream 
 
 ## Connections
 
-**Entities:** [[beta-hydroxybutyrate]], [[akkermansia-muciniphila]], [[insulin]]
+**Entities:** [[short-chain-fatty-acids|beta-hydroxybutyrate]], [[akkermansia-muciniphila]], [[insulin-resistance|insulin]]
 
-**Concepts:** [[HDAC-inhibition]], [[mitochondrial-dysfunction]], [[SCFA-production]], [[gut-brain-axis]], [[nutritional-ketosis]]
+**Concepts:** [[short-chain-fatty-acids|HDAC-inhibition]], [[mitochondrial-dysfunction]], [[short-chain-fatty-acids]], [[gut-brain-axis]], [[nutritional-ketosis]]
 
 **Related interventions:** [[mediterranean-diet]] (alternative anti-inflammatory diet), [[vitamin-d-supplementation]] (synergistic immune modulation in MS)
 

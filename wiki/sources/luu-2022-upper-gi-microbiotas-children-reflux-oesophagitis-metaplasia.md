@@ -1,5 +1,4 @@
 ---
-
 title: "Changes to the upper gastrointestinal microbiotas of children with reflux oesophagitis and oesophageal metaplasia"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 doi: "10.1099/mgen.0.000870"
 tags: [gerd, gastroesophageal-reflux, pediatric, esophageal-microbiome, oral-microbiome, gastric-microbiome, oesophageal-metaplasia, prevotella-melaninogenica, proton-pump-inhibitors, esophageal-atresia, 16s-rrna, ITS2, shotgun-metagenomics, microbiome-signature]
 platform: wikibiome
+evidence_level: prospective-cohort
+taxa_discussed: [prevotella]
 ---
 
 # Changes to the upper gastrointestinal microbiotas of children with reflux oesophagitis and oesophageal metaplasia
@@ -17,7 +18,7 @@ platform: wikibiome
 ## Key Claims
 
 - [[prevotella]] enrichment is a signature associated with pediatric oesophageal metaplasia, with strain-specific features within *[[Prevotella melaninogenica]]* significantly increased in metaplasia samples via metagenome-derived genome analysis
-- [[Proton pump inhibitor|PPI]] use was associated with increased oral bacterial richness in gastric fluid, correlating with increased levels of gastric pro-inflammatory cytokines
+- [[pharmacomicrobiomics|Proton pump inhibitor]] use was associated with increased oral bacterial richness in gastric fluid, correlating with increased levels of gastric pro-inflammatory cytokines
 - Bacterial diversity and composition showed substantial differences across oral, oesophageal, and gastric fluid samples; reflux led to increased homogeneity in the bacterial component of these three microbiotas
 - The oral and oesophageal microbiotas were associated with age, sex, history of oesophageal atresia, and presence of oesophageal metaplasia
 - Profiling of oesophageal biopsies from a retrospective paediatric cohort confirmed increased *Prevotella* prevalence in metaplasia samples

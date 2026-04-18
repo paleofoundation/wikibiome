@@ -1,5 +1,4 @@
 ---
-
 title: "Insights into Oral Microbiome and Colorectal Cancer - On the Way of Searching New Perspectives"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [colon-cancer, oral-microbiome, Fusobacterium-nucleatum, Porphyromonas-gingivalis, biofilm, periodontitis, virulence-factors, colorectal-cancer, biomarkers, treatment-efficiency]
 doi: "10.3389/fcimb.2023.1159822"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [candida-albicans, fusobacterium-nucleatum, porphyromonas]
 ---
 
 # Insights into Oral Microbiome and Colorectal Cancer - On the Way of Searching New Perspectives

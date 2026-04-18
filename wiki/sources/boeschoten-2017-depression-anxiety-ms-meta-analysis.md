@@ -1,5 +1,4 @@
 ---
-
 title: "Prevalence of depression and anxiety in Multiple Sclerosis: A systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2017
 doi: 10.1016/j.jns.2016.11.067
 tags: [multiple-sclerosis, depression, anxiety, comorbidity, prevalence, meta-analysis, psychiatric-comorbidity]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [4]
+key_findings: ["Depression prevalence", "Anxiety prevalence"]
 ---
 
 # Prevalence of Depression and Anxiety in Multiple Sclerosis: A Systematic Review and Meta-analysis
@@ -34,7 +36,7 @@ This systematic review and meta-analysis of 58 articles (87,756 MS patients) pro
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The high prevalence of depression and anxiety in MS is directly relevant to the [[gut-brain-axis]] hypothesis. The [[gut-microbiome]] modulates neurotransmitter production (serotonin, GABA, dopamine) and the hypothalamic-pituitary-adrenal (HPA) axis, both central to mood regulation. [[Dysbiosis]] in MS may contribute to both neurological disability and psychiatric [[comorbidities]] through shared pathways including [[neuroinflammation]], altered [[tryptophan]] metabolism via the kynurenine pathway, and reduced [[short-chain-fatty-acids]] production. [[Heavy-metals]] exposure is independently associated with depression risk and could compound these effects through [[gut-microbiome]] disruption.
+The high prevalence of depression and anxiety in MS is directly relevant to the [[gut-brain-axis]] hypothesis. The [[gut-microbiome]] modulates neurotransmitter production (serotonin, GABA, dopamine) and the hypothalamic-pituitary-adrenal (HPA) axis, both central to mood regulation. [[dysbiosis]] in MS may contribute to both neurological disability and psychiatric [[comorbidities]] through shared pathways including [[neuroinflammation]], altered [[tryptophan-metabolism]] metabolism via the kynurenine pathway, and reduced [[short-chain-fatty-acids]] production. [[heavy-metals]] exposure is independently associated with depression risk and could compound these effects through [[gut-microbiome]] disruption.
 
 ## Limitations
 

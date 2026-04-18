@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, bacteroidetes, butyrate, dys
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [bacteroides-fragilis]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Testable model proposed", "Dysbiosis causes lack of butyrate production", "Bacteroides genus"]
 ---
 
 # Key Claims

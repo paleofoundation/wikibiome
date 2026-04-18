@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2019
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2019 -->
 tags: [type-1-diabetes, autoimmune, metformin, healthy-volunteers, gut-microbiome, dysbiosis, pharmacomicrobiomics]
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [zinc]
+karen_brain_primitives: [1]
+key_findings: ["Metformin administration in healthy volunteers", "Drug-induced microbiome changes", "Metformin's GI side effects"]
 ---
 
 # Key Claims

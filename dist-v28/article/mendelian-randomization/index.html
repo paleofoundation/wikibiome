@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H480L4E9JF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-H480L4E9JF');
+  </script>
+  <title>Mendelian Randomization — WikiBiome</title>
+  <meta name="description" content="Mendelian randomization (MR) is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (..." />
+  <link rel="canonical" href="https://www.wikibiome.com/article/mendelian-randomization" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mendelian Randomization — WikiBiome" />
+  <meta property="og:description" content="Mendelian randomization (MR) is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (..." />
+  <meta property="og:url" content="https://www.wikibiome.com/article/mendelian-randomization" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="WikiBiome" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mendelian Randomization — WikiBiome" />
+  <meta name="twitter:description" content="Mendelian randomization (MR) is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (..." />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">{"@context":"https://schema.org","url":"https://www.wikibiome.com/article/mendelian-randomization","publisher":{"@type":"Organization","name":"Paleo Foundation","url":"https://paleofoundation.com"},"isPartOf":{"@type":"WebSite","name":"WikiBiome","url":"https://www.wikibiome.com"},"inLanguage":"en","@type":"Article","name":"Mendelian Randomization","headline":"Mendelian Randomization — WikiBiome","description":"Mendelian randomization (MR) is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (...","dateModified":"2026-04-17T00:00:00.000Z"}</script>
+
+  
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    /* Static content styling for crawlers — hidden once SPA hydrates */
+    .static-content { max-width: 800px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #2c2c2c; }
+    .static-content h1 { font-size: 28px; margin-bottom: 16px; color: #1a1a1a; }
+    .static-content h2 { font-size: 20px; margin: 24px 0 12px; color: #333; }
+    .static-content p { margin: 12px 0; }
+    .static-content a { color: #b87333; text-decoration: underline; }
+    .static-content nav { font-size: 14px; margin-bottom: 24px; color: #888; }
+    .static-content nav a { color: #b87333; }
+    .static-content ul, .static-content ol { margin: 12px 0 12px 24px; }
+    .static-content li { margin-bottom: 6px; }
+    .static-content table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 14px; }
+    .static-content th, .static-content td { border: 1px solid #e0dcd7; padding: 8px 12px; text-align: left; }
+    .static-content th { background: #f8f6f3; font-weight: 600; color: #333; }
+    .static-content tr:nth-child(even) { background: #faf9f7; }
+    .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
+    .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <!-- Static HTML for search engines — replaced by React SPA on hydration -->
+    <article class="static-content" itemscope itemtype="https://schema.org/Article">
+      <nav aria-label="Breadcrumb">
+        <a href="/">WikiBiome</a> &rsaquo;
+        <a href="/category/mechanism">Mechanism</a> &rsaquo;
+        <span>Mendelian Randomization</span>
+      </nav>
+
+      <h1 itemprop="headline">Mendelian Randomization</h1>
+
+      <div itemprop="articleBody">
+        <h2>Overview</h2>
+<p><strong>Mendelian randomization (MR)</strong> is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (e.g., gut microbiome composition) and an outcome (e.g., disease). Because genetic variants are randomly allocated at conception (&quot;nature's randomized trial&quot;), MR can distinguish causation from correlation in observational data &mdash; a critical capability for microbiome research, where most evidence is cross-sectional and confounded.</p>
+<p>In the WikiBiome vault, MR studies provide the strongest available evidence for causal direction: <strong>does dysbiosis cause disease, or does disease cause dysbiosis?</strong> The answer is often &quot;both&quot; (bidirectional MR), which has profound implications for intervention timing and strategy.</p>
+<h2>Method</h2>
+<h2>Core Design: Two-Sample MR</h2>
+<p>Nearly all microbiome MR studies in the vault use two-sample bidirectional MR:</p>
+<ol><li><strong>Exposure GWAS</strong>: Genetic variants (SNPs) associated with gut microbiome composition, primarily from the <strong>MiBioGen consortium</strong> (n=18,340; 211 taxa; 16S rRNA; multi-ethnic but predominantly European).</li><li><strong>Outcome GWAS</strong>: Disease-specific GWAS from large biobanks (UK Biobank, FinnGen, etc.).</li><li><strong>Instrumental variable analysis</strong>: SNPs associated with microbiome features serve as instruments to test whether those features causally affect disease risk.</li><li><strong>Bidirectional analysis</strong>: The reverse direction (disease→microbiome) is tested separately.</li></ol>
+<h2>Statistical Methods</h2>
+<ul><li><strong>IVW (inverse-variance weighted)</strong>: Primary analysis</li><li><strong>MR-Egger</strong>: Detects and corrects for directional pleiotropy</li><li><strong>Weighted median</strong>: Robust when up to 50% of instruments are invalid</li><li><strong>MR-PRESSO</strong>: Outlier detection and correction</li><li><strong>Cochran's Q</strong>: Heterogeneity assessment</li></ul>
+<h2>Limitations</h2>
+<ul><li><strong>MiBioGen resolution</strong>: 16S rRNA gene, genus-level maximum. Species-level and functional (shotgun) GWAS are not yet available at comparable scale.</li><li><strong>Population ancestry</strong>: Predominantly European; generalizability to other populations uncertain.</li><li><strong>Weak instruments</strong>: Microbiome GWAS effect sizes are small; weak instrument bias may inflate or attenuate causal estimates.</li><li><strong>Horizontal pleiotropy</strong>: SNPs may affect disease through pathways other than the microbiome.</li><li><strong>Static snapshot</strong>: MR captures genetic predisposition to microbiome composition, not the dynamic, diet-responsive community.</li></ul>
+<h2>Key Causal Findings Across Conditions</h2>
+<h2>Microbiome → Disease (Forward MR)</h2>
+<table><thead><tr><th>Condition</th><th>Causal Taxa</th><th>Direction</th><th>Effect</th><th>Source</th></tr></thead><tbody><tr><td><a href="/article/schizophrenia">schizophrenia</a></td><td>Clostridia, Betaproteobacteria</td><td>Risk</td><td>Causal drivers of SCZ</td><td><a href="/article/zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization">zhou 2024 gut microbiome schizophrenia mendelian randomization</a></td></tr><tr><td><a href="/article/type-1-diabetes">type 1 diabetes</a></td><td>Bacteroidetes</td><td>Risk</td><td>OR=1.24</td><td><a href="/article/luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization">luo 2023 gut microbiota t1d bidirectional mendelian randomization</a></td></tr><tr><td><a href="/article/type-1-diabetes">type 1 diabetes</a></td><td>Eubacterium eligens</td><td>Protective</td><td>OR=0.64</td><td><a href="/article/xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization">xu 2022 gut microbiota autoimmune diseases mendelian randomization</a></td></tr><tr><td><a href="/article/type-1-diabetes">type 1 diabetes</a></td><td><a href="/article/bifidobacterium">bifidobacterium</a></td><td>Risk</td><td>OR=1.605</td><td><a href="/article/xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization">xu 2022 gut microbiota autoimmune diseases mendelian randomization</a></td></tr><tr><td><a href="/article/gerd">gerd</a></td><td><a href="/article/actinobacteria">actinobacteria</a>, <a href="/article/lachnospiraceae">lachnospiraceae</a></td><td>Protective</td><td>OR=0.93</td><td><a href="/article/wang-2024-causal-gut-microbiota-gerd-bidirectional-mr">wang 2024 causal gut microbiota gerd bidirectional mr</a></td></tr><tr><td><a href="/article/coronary-artery-disease">coronary artery disease</a></td><td><a href="/article/odoribacter">odoribacter</a></td><td>Risk</td><td>OR=1.206</td><td><a href="/article/wang-2023-gut-microbiota-cad-mi-mendelian-randomization">wang 2023 gut microbiota cad mi mendelian randomization</a></td></tr><tr><td><a href="/article/graves-disease">graves disease</a></td><td><a href="/article/intestinibacter">intestinibacter</a></td><td>Risk</td><td>OR=1.777</td><td><a href="/article/zheng-2025-gut-thyroid-axis-aitd-mendelian-randomization">zheng 2025 gut thyroid axis aitd mendelian randomization</a></td></tr><tr><td><a href="/article/hashimotos-thyroiditis">hashimotos thyroiditis</a></td><td><a href="/article/akkermansia-muciniphila">akkermansia muciniphila</a></td><td>Protective</td><td>OR=0.71</td><td><a href="/article/zheng-2025-gut-thyroid-axis-aitd-mendelian-randomization">zheng 2025 gut thyroid axis aitd mendelian randomization</a></td></tr><tr><td><a href="/article/colorectal-cancer">colorectal cancer</a></td><td><a href="/article/lachnospira">lachnospira</a></td><td>Risk</td><td>OR=4.43</td><td>MR studies in vault</td></tr><tr><td><a href="/article/celiac-disease">celiac disease</a></td><td><a href="/article/bifidobacterium">bifidobacterium</a></td><td>Risk</td><td>OR=1.401</td><td><a href="/article/xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization">xu 2022 gut microbiota autoimmune diseases mendelian randomization</a></td></tr></tbody></table>
+<h2>Disease → Microbiome (Reverse MR)</h2>
+<table><thead><tr><th>Condition</th><th>Effect on Microbiome</th><th>Source</th></tr></thead><tbody><tr><td><a href="/article/schizophrenia">schizophrenia</a></td><td>Akkermansia enrichment is a <em>consequence</em>, not cause</td><td><a href="/article/zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization">zhou 2024 gut microbiome schizophrenia mendelian randomization</a></td></tr><tr><td><a href="/article/gerd">gerd</a></td><td>GERD causally depletes 13 taxa → bidirectional vicious cycle</td><td><a href="/article/wang-2024-causal-gut-microbiota-gerd-bidirectional-mr">wang 2024 causal gut microbiota gerd bidirectional mr</a></td></tr><tr><td>Hypertension</td><td>Depletes <a href="/article/alistipes">alistipes</a>, <a href="/article/phascolarctobacterium">phascolarctobacterium</a>, <a href="/article/roseburia">roseburia</a></td><td>MR studies in vault</td></tr></tbody></table>
+<h2>Metal → Disease (MR)</h2>
+<table><thead><tr><th>Exposure</th><th>Condition</th><th>Effect</th><th>Source</th></tr></thead><tbody><tr><td><a href="/article/copper">copper</a></td><td><a href="/article/fibromyalgia">fibromyalgia</a></td><td>Causal risk</td><td>OR=1.095</td><td><a href="/article/zeng-2025-copper-iron-trace-elements-fibromyalgia-mr">zeng 2025 copper iron trace elements fibromyalgia mr</a></td></tr><tr><td><a href="/article/iron">iron</a></td><td><a href="/article/fibromyalgia">fibromyalgia</a></td><td>Causal protection</td><td>OR=0.440</td><td><a href="/article/zeng-2025-copper-iron-trace-elements-fibromyalgia-mr">zeng 2025 copper iron trace elements fibromyalgia mr</a></td></tr></tbody></table>
+<h2>Null Results (Equally Important)</h2>
+<ul><li><strong><a href="/article/multiple-sclerosis">multiple sclerosis</a></strong>: No replicable causal single-taxon signal despite many observational associations <a href="/article/xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization">xu 2022 gut microbiota autoimmune diseases mendelian randomization</a>. MR's discriminating power is demonstrated by what it <em>doesn't</em> find.</li></ul>
+<h2>Paradigm-Shifting Insights</h2>
+<h2>The Bifidobacterium Paradox</h2>
+<p><a href="/article/bifidobacterium">bifidobacterium</a> appears protective in observational studies and is widely used as a probiotic. MR reveals it <strong>causally increases risk</strong> for T1D (OR=1.605) and celiac disease (OR=1.401) <a href="/article/xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization">xu 2022 gut microbiota autoimmune diseases mendelian randomization</a>. This does not invalidate probiotic use but demands strain-level and context-specific evaluation rather than blanket recommendations.</p>
+<h2>Bidirectional Vicious Cycles</h2>
+<p>GERD depletes protective taxa, and those taxa causally protect against GERD &mdash; a self-reinforcing cycle that explains disease chronicity <a href="/article/wang-2024-causal-gut-microbiota-gerd-bidirectional-mr">wang 2024 causal gut microbiota gerd bidirectional mr</a>. This pattern likely applies to other chronic conditions.</p>
+<h2>Distinguishing Cause from Consequence</h2>
+<p>The most valuable MR contribution: Akkermansia enrichment in schizophrenia is a disease consequence, not a driver <a href="/article/zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization">zhou 2024 gut microbiome schizophrenia mendelian randomization</a>. This kind of directional clarity prevents misguided therapeutic targeting.</p>
+<h2>Relevance to WikiBiome</h2>
+<p>MR studies serve as the <strong>causal backbone</strong> of WikiBiome's knowledge graph. While observational studies identify associations, MR provides the directional arrows:</p>
+<ul><li><strong>For entity pages</strong>: MR evidence determines whether a taxon-disease association is causal (drives intervention strategy) or consequential (useful as biomarker only).</li><li><strong>For signature pages</strong>: MR helps distinguish which signature layers are causally upstream vs. reactive downstream changes.</li><li><strong>For intervention pages</strong>: Only causally implicated taxa are rational therapeutic targets; MR filters signal from noise.</li></ul>
+<h2>Cross-References</h2>
+<ul><li><a href="/article/gut-microbiome">gut microbiome</a> &mdash; The exposure most commonly instrumented in microbiome MR</li><li><a href="/article/biomarkers">biomarkers</a> &mdash; MR distinguishes causal targets from biomarkers</li><li><a href="/article/bifidobacterium">bifidobacterium</a> &mdash; The paradox case</li><li><a href="/article/akkermansia-muciniphila">akkermansia muciniphila</a> &mdash; Consequence, not cause, in schizophrenia</li><li><a href="/article/co-selection">co selection</a> &mdash; Metal exposure as a confound MR can help untangle</li><li><a href="/article/iron">iron</a> &mdash; Causally protective in fibromyalgia (MR)</li><li><a href="/article/copper">copper</a> &mdash; Causally harmful in fibromyalgia (MR)</li></ul>
+
+      </div>
+
+      
+      <div class="related">
+        <h3>Related Articles</h3>
+        <ul><li><a href="/article/schizophrenia">Schizophrenia</a></li>
+<li><a href="/article/type-1-diabetes">Type 1 Diabetes</a></li>
+<li><a href="/article/bifidobacterium">Bifidobacterium</a></li>
+<li><a href="/article/gerd">Gastroesophageal Reflux Disease (GERD)</a></li>
+<li><a href="/article/actinobacteria">Actinobacteria (Actinomycetota)</a></li>
+<li><a href="/article/lachnospiraceae">Lachnospiraceae</a></li>
+<li><a href="/article/odoribacter">Odoribacter</a></li>
+<li><a href="/article/graves-disease">Graves' Disease</a></li>
+<li><a href="/article/intestinibacter">Intestinibacter</a></li>
+<li><a href="/article/hashimotos-thyroiditis">Hashimoto'S Thyroiditis</a></li>
+<li><a href="/article/akkermansia-muciniphila">Akkermansia Muciniphila</a></li>
+<li><a href="/article/colorectal-cancer">Colorectal Cancer</a></li>
+<li><a href="/article/lachnospira">Lachnospira</a></li>
+<li><a href="/article/celiac-disease">Celiac Disease</a></li>
+<li><a href="/article/alistipes">Alistipes</a></li>
+<li><a href="/article/phascolarctobacterium">Phascolarctobacterium</a></li>
+<li><a href="/article/roseburia">Roseburia</a></li>
+<li><a href="/article/copper">Copper</a></li>
+<li><a href="/article/fibromyalgia">Fibromyalgia</a></li>
+<li><a href="/article/iron">Iron</a></li>
+<li><a href="/article/multiple-sclerosis">Multiple Sclerosis</a></li>
+<li><a href="/article/gut-microbiome">Gut Microbiome</a></li>
+<li><a href="/article/biomarkers">Biomarkers</a></li>
+<li><a href="/article/co-selection">Co Selection</a></li></ul>
+      </div>
+
+      <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
+        <p>WikiBiome is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>, advancing microbiome medicine through open scientific education.</p>
+      </footer>
+    </article>
+  </div>
+  <script type="module" crossorigin src="/assets/index-BbRRbFqo.js"></script>
+</body>
+</html>

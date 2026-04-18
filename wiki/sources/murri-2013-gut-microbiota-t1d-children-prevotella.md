@@ -6,11 +6,15 @@ updated: 2026-04-09
 authors: [M. Murri, I. Leiva, J. M. Gomez-Zumaquero, F. J. Tinahones, F. Cardona, F. Soriguer, M. I. Queipo-Ortuno]
 year: 2013
 journal: "Annals of Nutrition and Metabolism"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Annals of Nutrition and Metabolism 2013 -->
 tags: [type-1-diabetes, autoimmune, gut-microbiota, mediterranean-diet, prevotella, children, dysbiosis, dietary-intervention]
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [prevotella]
+karen_brain_primitives: [1, 5]
+key_findings: ["Mediterranean diet influences gut microbiota composition", "Prevotella and other protective taxa", "Dietary intervention may modulate T1D-associated [[dysbiosis]]"]
 ---
 
 # Key Claims

@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, virome, periodontitis, oral-microbiome, vira
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [porphyromonas]
+karen_brain_primitives: [1, 4]
+key_findings: ["Bidirectional relationship", "Viruses including HBV, HCV, HSV-1, Coronavirus, HCMV, EBV, HIV", "Oral microbiome modulates innate and adaptive immune systems"]
 ---
 
 # Key Claims

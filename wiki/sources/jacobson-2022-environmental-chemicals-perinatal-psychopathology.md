@@ -1,5 +1,4 @@
 ---
-
 title: "Exposure to environmental chemicals and perinatal psychopathology"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 tags: [environmental-chemicals, perinatal-depression, postpartum-depression, antenatal-depression, heavy-metals, POPs, PBDEs, PFAS, phthalates, bisphenols, tobacco-smoke, VOCs, EDCs, scoping-review]
 doi: "10.1016/j.bcp.2022.115005"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [arsenic, cadmium, lead, manganese, zinc]
+key_findings: ["Bisphenols and phthalates"]
 ---
 
 # Key Claims
@@ -19,7 +21,7 @@ platform: wikibiome
 - Literature on **heavy metals** (Mn, As, Pb, Cd) and perinatal depression is **sparse with mixed results** -- only one longitudinal study on prenatal Mn reported a positive association with PPD
 - **PBDEs** were consistently associated with increased antenatal depression symptoms; **PFAS** were not
 - **Bisphenols and phthalates** showed disparate results in the two available human studies, though animal studies strongly support reduced maternal behavior after prenatal BPA exposure
-- Biological mechanisms may include [[endocrine disruption]], [[neurotransmitter]] system impairment, alterations in gene expression, and [[immune activation]] and [[inflammation]]
+- Biological mechanisms may include [[endocrine-disruption|endocrine disruption]], [[gut-brain-axis|neurotransmitter]] system impairment, alterations in gene expression, and [[inflammation|immune activation]] and [[inflammation]]
 
 # Methods/Findings
 
@@ -36,7 +38,7 @@ platform: wikibiome
 # Connections
 
 - Provides context for [[rokoff-2023-metal-mixtures-maternal-depression]] which found weak metal-depression associations in Project Viva
-- Supports the hypothesis that [[endocrine disrupting chemicals]] during pregnancy may act through the [[HPA axis]] and [[dopamine]] pathways
+- Supports the hypothesis that [[endocrine disrupting chemicals]] during pregnancy may act through the [[gut-brain-axis|HPA axis]] and [[dopamine]] pathways
 - Relevant to [[postpartum-depression]] etiology and environmental risk factors
 - Animal model evidence on maternal behavior complements human PPD studies like [[etebary-2010-ppd-serum-trace-elements]]
 - The paucity of metals research noted here underscores the need for studies like [[aoki-2022-zinc-supplementation-ppd-anemia]]

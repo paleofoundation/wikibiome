@@ -1,5 +1,4 @@
 ---
-
 title: "Phage-based peptides for pancreatic cancer diagnosis and treatment: alternative approach"
 type: source
 created: 2026-04-09
@@ -10,11 +9,13 @@ year: 2023
 tags: [pancreatic-cancer, phage-therapy, phage-display, peptide-therapy, cancer-targeting, early-detection, M13-phage, T7-phage, biopanning, drug-delivery]
 doi: "10.3389/fmicb.2023.1231503"
 platform: wikibiome
+evidence_level: in-vitro
+taxa_discussed: [escherichia-coli]
 ---
 
 # Key Claims
 
-- [[Phage therapy]] display technology offers a promising approach for developing novel peptide-based therapeutics for [[pancreatic-cancer]] diagnosis and treatment through high-affinity target-binding peptides
+- [[virome]] display technology offers a promising approach for developing novel peptide-based therapeutics for [[pancreatic-cancer]] diagnosis and treatment through high-affinity target-binding peptides
 - M13 and T7 phages are the most commonly used vectors for phage display, with M13 using non-lytic infection of *E. coli* and T7 using lytic infection allowing display of larger proteins
 - Phage display biopanning can select peptides from libraries of up to 10^13 clones, enabling identification of tumor-targeting peptides with high selectivity and specificity
 - Applications include targeted drug delivery, diagnostic imaging, early detection biomarkers, and cancer cell-specific therapeutic peptides
@@ -29,7 +30,7 @@ platform: wikibiome
 
 # Connections
 
-- Phage display technology for identifying tumor-specific peptides relevant to [[microbiome-targeted therapy]] and precision oncology
-- M13 phage infection of *E. coli* connects to bacteriophage-bacterial interactions in the [[tumor microbiome]]
-- Peptide-based drug delivery links to [[drug repurposing]] and novel therapeutic approaches for PDAC
-- Diagnostic peptide discovery complements [[microbial biomarkers]] and [[microbiome signature]] approaches for early detection
+- Phage display technology for identifying tumor-specific peptides relevant to [[probiotics|microbiome-targeted therapy]] and precision oncology
+- M13 phage infection of *E. coli* connects to bacteriophage-bacterial interactions in the [[metal-carcinogenesis|tumor microbiome]]
+- Peptide-based drug delivery links to [[pharmacomicrobiomics|drug repurposing]] and novel therapeutic approaches for PDAC
+- Diagnostic peptide discovery complements [[microbial-biomarkers]] and [[microbial-biomarkers|microbiome signature]] approaches for early detection

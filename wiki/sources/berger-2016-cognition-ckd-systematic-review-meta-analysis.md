@@ -9,6 +9,7 @@ journal: "BMC Medicine"
 doi: "10.1186/s12916-016-0745-9"
 tags: [chronic-kidney-disease, CKD, cognition, systematic-review, meta-analysis, cognitive-domains, eGFR, neuropsychological-tests]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Cognition in CKD: Systematic Review and Meta-Analysis

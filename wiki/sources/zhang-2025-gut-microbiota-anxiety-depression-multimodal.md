@@ -12,6 +12,9 @@ library_category: review
 platform: cureva
 condition: "depression and anxiety"
 evidence_level: expert-opinion
+metals_discussed: [copper, iron, magnesium, zinc]
+karen_brain_primitives: [5]
+key_findings: ["Depression and anxiety", "Gut microbiota disruptions", "Multimodal interventions"]
 ---
 
 # Key Claims

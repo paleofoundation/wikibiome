@@ -6,24 +6,28 @@ updated: 2026-04-09
 authors: [Yuejuan Nong, Jiaxin Qiao, Yixuan Zhao, Jingjing Wang, Li Xin, Weijie Wang, Weiwei Zhu]
 year: 2026
 journal: "Frontiers in Microbiology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC13010160) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Microbiology 2026 -->
 pmcid: "PMC13010160"
 tags: [mismetallation, metal-homeostasis, superoxide-dismutase, oxidative-stress, iron-sulfur-clusters, manganese, iron, escherichia-coli, metabolic-reprogramming, siderophore]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "bacterial oxidative stress and metal cofactor biology"
+metals_discussed: [iron, manganese]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4, 8]
+key_findings: ["SodA/SodB double deletion", "SOD deficiency suppresses oxidative phosphorylation", "PPP is globally upregulated"]
 ---
 
 # Why This Paper Matters
 
-This study directly illuminates the metabolic consequences of losing the two primary [[superoxide-dismutase]] enzymes in [[escherichia-coli]] -- SodA ([[manganese]]-dependent) and SodB ([[iron]]-dependent). For the [[mis-metallation]] framework, this is critical because SOD enzymes are among the most important metalloenzymes that protect against oxidative damage, and their metal cofactors (Mn vs. Fe) determine catalytic function. When SOD is absent, superoxide attacks [[iron-sulfur-clusters]], releasing free iron that fuels Fenton chemistry and hydroxyl radical generation. The paper reveals that SOD-deficient cells undergo massive metabolic reprogramming -- suppressing oxidative phosphorylation, upregulating the pentose phosphate pathway (PPP), and stimulating [[siderophore]] (enterobactin) synthesis -- yet paradoxically become more sensitive to hydrogen peroxide. This demonstrates that [[metal-homeostasis]] disruption cascades into proteome-wide metabolic rewiring that cannot fully compensate for the loss of metal-dependent antioxidant defenses.
+This study directly illuminates the metabolic consequences of losing the two primary [[superoxide-dismutase]] enzymes in [[escherichia-coli]] -- SodA ([[manganese]]-dependent) and SodB ([[iron]]-dependent). For the [[mis-metallation]] framework, this is critical because SOD enzymes are among the most important metalloenzymes that protect against oxidative damage, and their metal cofactors (Mn vs. Fe) determine catalytic function. When SOD is absent, superoxide attacks [[iron-sulfur-clusters]], releasing free iron that fuels Fenton chemistry and hydroxyl radical generation. The paper reveals that SOD-deficient cells undergo massive metabolic reprogramming -- suppressing oxidative phosphorylation, upregulating the pentose phosphate pathway (PPP), and stimulating [[siderophores|siderophore]] (enterobactin) synthesis -- yet paradoxically become more sensitive to hydrogen peroxide. This demonstrates that [[metal-homeostasis]] disruption cascades into proteome-wide metabolic rewiring that cannot fully compensate for the loss of metal-dependent antioxidant defenses.
 
 # Key Claims
 
 - **SodA/SodB double deletion** induces SoxSR-mediated oxidative stress response, upregulating catalase KatE and organic peroxidases Tpx and BtuE
 - **SOD deficiency suppresses oxidative phosphorylation** by reducing NADH dehydrogenase (Complex I) and succinate dehydrogenase expression, lowering superoxide production at the source
 - **PPP is globally upregulated** in SOD-deficient cells, producing NADPH as an antioxidant and feeding aromatic amino acid synthesis (histidine, tryptophan, phenylalanine)
-- **Enterobactin biosynthesis** is significantly increased -- all Ent proteins are upregulated, linking SOD deficiency to enhanced iron acquisition via [[siderophore]] production
+- **Enterobactin biosynthesis** is significantly increased -- all Ent proteins are upregulated, linking SOD deficiency to enhanced iron acquisition via [[siderophores|siderophore]] production
 - **Despite antioxidant upregulation**, SOD-deficient cells are more sensitive to H2O2 killing in a concentration-dependent manner, revealing that preemptive stress responses do not confer additional protection
 - **Fatty acid degradation pathway** operates independently of PPP but contributes to antioxidant capacity; combined loss of zwf and fadE amplifies H2O2 sensitivity
 
@@ -61,9 +65,9 @@ Superoxide directly attacks iron-sulfur clusters, releasing free iron ions. SOD 
 - [[iron]] -- Fenton chemistry from released Fe2+ drives hydroxyl radical toxicity
 - [[manganese]] -- SodA is Mn-dependent; Mn can substitute for Fe in some enzymes as a mis-metallation defense
 - [[oxidative-stress]] -- comprehensive view of bacterial oxidative stress response hierarchy
-- [[siderophore]] -- enterobactin upregulation links oxidative stress to iron acquisition
+- [[siderophores|siderophore]] -- enterobactin upregulation links oxidative stress to iron acquisition
 - [[escherichia-coli]] -- model organism for metal-dependent stress responses
 - [[metal-homeostasis]] -- SOD deficiency disrupts the entire metal-dependent redox balance
-- [[pentose-phosphate-pathway]] -- NADPH production as primary antioxidant strategy
+- [[fermentative-metabolism|pentose-phosphate-pathway]] -- NADPH production as primary antioxidant strategy
 - [[labile-metal-pool]] -- superoxide-mediated iron release increases the labile iron pool
 - [[nutritional-immunity]] -- bacterial iron acquisition responses relevant to host-pathogen metal competition

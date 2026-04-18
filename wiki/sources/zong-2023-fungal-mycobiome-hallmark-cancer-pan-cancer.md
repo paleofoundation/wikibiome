@@ -1,5 +1,4 @@
 ---
-
 title: "The fungal mycobiome: a new hallmark of cancer revealed by pan-cancer analyses"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ doi: "10.1038/s41392-023-01334-6"
 tags: [colon-cancer, colorectal-cancer, mycobiome, pan-cancer, Candida, Saccharomycetes, Malassezia, hallmarks-of-cancer, fungal-DNA, tumor-microbiome, TCGA, Weizmann]
 platform: wikibiome
 evidence_level: cross-sectional
+taxa_discussed: [candida-albicans, malassezia]
 ---
 
 # Zong 2023 -- Fungal Mycobiome as New Hallmark of Cancer

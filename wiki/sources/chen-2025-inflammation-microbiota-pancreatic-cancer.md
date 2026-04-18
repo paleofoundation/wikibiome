@@ -14,10 +14,10 @@ platform: wikibiome
 
 # Key Claims
 
-- [[NF-kB]], TLRs, and [[TGF-beta]] are key molecular pathways dysregulated in [[pancreatic-cancer]] that aggravate inflammation and accelerate carcinogenesis
+- [[nf-kappa-b|NF-kB]], TLRs, and [[inflammation|TGF-beta]] are key molecular pathways dysregulated in [[pancreatic-cancer]] that aggravate inflammation and accelerate carcinogenesis
 - Various interleukins (IL-1, IL-6, IL-8, IL-10, IL-11, IL-17, IL-18) and chemokines regulate angiogenesis, metastasis, proliferation, inflammation, and therapy resistance in PC cells
 - Both chronic and acute [[pancreatitis]] are risk factors for PC development, further highlighting the role of inflammation
-- [[Gut microbiome]] composition can be a risk factor for PC through affecting pathways such as NF-kB to mediate inflammation
+- [[gut-microbiome]] composition can be a risk factor for PC through affecting pathways such as NF-kB to mediate inflammation
 
 # Methods/Findings
 
@@ -30,7 +30,7 @@ platform: wikibiome
 
 # Connections
 
-- NF-kB activation by [[gut microbiome]] components (LPS, MAMPs) links [[microbiome and inflammation]] to carcinogenesis
-- IL-6/STAT3 axis connects to [[microbiome-host interactions]] and immune modulation in tumor microenvironment
-- Therapeutic targeting of inflammation pathways relevant to [[microbiome-targeted therapy]] and [[drug repurposing]] strategies
-- Chemokine dysregulation connects to [[microbiome and disease progression]] and [[immune response]] in pancreatic cancer
+- NF-kB activation by [[gut-microbiome]] components (LPS, MAMPs) links [[inflammation|microbiome and inflammation]] to carcinogenesis
+- IL-6/STAT3 axis connects to [[gut-metal-microbiome|microbiome-host interactions]] and immune modulation in tumor microenvironment
+- Therapeutic targeting of inflammation pathways relevant to [[probiotics|microbiome-targeted therapy]] and [[pharmacomicrobiomics|drug repurposing]] strategies
+- Chemokine dysregulation connects to [[dysbiosis|microbiome and disease progression]] and [[inflammation|immune response]] in pancreatic cancer

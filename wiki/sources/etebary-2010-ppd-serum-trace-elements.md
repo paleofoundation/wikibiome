@@ -1,5 +1,4 @@
 ---
-
 title: "Postpartum Depression and Role of Serum Trace Elements"
 type: source
 created: 2026-04-09
@@ -7,9 +6,12 @@ updated: 2026-04-09
 authors: [Etebary S, Nikseresht S, Sadeghipour HR, Zarrindast MR]
 journal: Iranian Journal of Psychiatry
 year: 2010
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Iranian Journal of Psychiatry 2010 -->
 tags: [postpartum-depression, trace-elements, zinc, magnesium, iron, copper, review, neurotransmitters, HPA-axis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, magnesium, zinc]
+karen_brain_primitives: [2]
 ---
 
 # Key Claims
@@ -30,7 +32,7 @@ platform: wikibiome
  - **Iron**: Iron deficiency anemia affects postpartum emotions and cognition; serum ferritin < 1 ug increases PPD risk by 3.98 times; iron is needed for dopamine synthesis
  - **Copper**: Elevated serum copper in PPD women; copper is needed for catecholamine and monoamine neurotransmitter synthesis; copper deficiency reduces brain catecholamines
 
- - [[HPA axis]] dysregulation (cortisol response to ACTH)
+ - [[gut-brain-axis|HPA axis]] dysregulation (cortisol response to ACTH)
  - Alterations in neurotransmitter levels in the brain
  - Hormonal changes (estrogen, progesterone withdrawal)
  - Nutritional deficiencies post-delivery
@@ -40,5 +42,5 @@ platform: wikibiome
 - Provides mechanistic background for [[pourmirzaiee-2024-ppd-magnesium-infant-development]] which tested Mg-PPD association and found null results
 - Zinc findings supported by [[hiremath-2021-zinc-ppd-case-control]] and [[aoki-2022-zinc-supplementation-ppd-anemia]]
 - Iron-depression link examined in [[azami-2019-anemia-ppd-meta-analysis]] and [[tian-2020-iron-supplementation-ppd-protocol]]
-- Copper elevation in PPD is a distinctive finding relevant to [[metals and mental health]]
+- Copper elevation in PPD is a distinctive finding relevant to [[heavy-metal-neurotoxicity|metals and mental health]]
 - The review's emphasis on trace element supplementation as treatment is relevant to clinical approaches for [[postpartum-depression]]

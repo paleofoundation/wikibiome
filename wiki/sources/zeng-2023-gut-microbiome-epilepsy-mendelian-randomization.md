@@ -1,5 +1,4 @@
 ---
-
 title: "Roles of gut microbiome in epilepsy risk: a Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ doi: 10.3389/fmicb.2023.1115014
 tags: [gut-microbiome, epilepsy, Mendelian-randomization, MiBioGen, FinnGen, Betaproteobacteria, Akkermansia, Burkholderiales]
 platform: wikibiome
 evidence_level: mendelian-randomization
+taxa_discussed: [akkermansia-muciniphila, eubacterium]
 ---
 
 # Roles of Gut Microbiome in Epilepsy Risk: A Mendelian Randomization Study

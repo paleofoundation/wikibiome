@@ -9,6 +9,9 @@ year: 2024
 doi: "10.1038/s41537-024-00460-6"
 tags: [schizophrenia, FMT, fecal-microbiota-transplant, mouse-model, hyperkinetic-behavior, anxiety, social-interaction, Bifidobacterium, Collinsella, Shigella, brain-transcriptome]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [acinetobacter, bacteroides-fragilis, bifidobacterium, blautia, collinsella, pseudomonas-aeruginosa, shigella]
+karen_brain_primitives: [5]
 ---
 
 # Transplantation of Gut Microbiota Derived from Patients with Schizophrenia Induces Schizophrenia-Like Behaviors in Mice
@@ -20,7 +23,7 @@ platform: wikibiome
 - SCZ fecal microbiota-recipient mice exhibited hyperkinetic behavior (increased total distance and average speed in open field test), decreased time in center area (anxiety), and reduced entries/time in elevated plus maze open arms
 - Three-chamber social interaction test showed SCZ-FMT mice failed to exhibit preference for sociability (p < 0.0001) and social novelty compared to HC-FMT mice
 - At genus level, Bifidobacterium, [[collinsella]], [[blautia]], Shigella, and Acinetobacter were dominant differentially abundant ASVs
-- Twelve metabolism pathways were significantly associated with relative abundances of Nesterenkonia, [[Bacteroides]], Acinetobacter, Shigella, Burkholderia, Brevundimonas, Pseudomonas, Agrobacterium, Cupriavidas, and Acidovorax
+- Twelve metabolism pathways were significantly associated with relative abundances of Nesterenkonia, [[bacteroides]], Acinetobacter, Shigella, Burkholderia, Brevundimonas, Pseudomonas, Agrobacterium, Cupriavidas, and Acidovorax
 - Four key genes were identified correlated with SCZ by integrative brain transcriptome analysis
 - Dysregulated brain transcript response included altered synaptic transmission and alternative splicing of SCZ-relevant genes
 

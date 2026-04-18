@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Oscar J. Pung, Michael I. Luster, Howard T. Hayes, John Rader]
 year: 1984
 journal: "Infection and Immunity"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Infection and Immunity 1984 -->
 tags: [autism-spectrum-disorder, listeria-monocytogenes, estrogen, sex-hormones, immune-suppression, thymus, T-cell, infection-susceptibility, animal-model]
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: animal-model
+taxa_discussed: [listeria]
+key_findings: ["Estrogenic compounds", "Compounds with estrogenic activity", "Estrogen-induced alterations in resistance"]
 ---
 
 # Key Claims

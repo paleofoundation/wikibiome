@@ -1,5 +1,4 @@
 ---
-
 title: "Safety and efficacy of phage therapy in difficult-to-treat infections: a systematic review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 doi: 10.1016/S1473-3099(21)00612-5
 tags: [cardiovascular-disease, phage-therapy, antimicrobial-resistance, systematic-review, safety, efficacy, Pseudomonas, Staphylococcus, LVAD, endocarditis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [pseudomonas-aeruginosa, staphylococcus-aureus]
 ---
 
 # Safety and Efficacy of Phage Therapy in Difficult-to-Treat Infections: A Systematic Review
@@ -47,6 +48,6 @@ Systematic review of clinical data (Jan 2000 - Aug 2021) on phage therapy safety
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Cardiovascular device infections** - [[Phage therapy]] shows promise for treating infections of cardiac devices (LVADs, grafts) where conventional antibiotics fail
+1. **Cardiovascular device infections** - [[virome]] shows promise for treating infections of cardiac devices (LVADs, grafts) where conventional antibiotics fail
 2. **Safety evidence** - Supports phage therapy as generally safe for potential future application in [[cardiovascular-disease]] microbiome modulation
 3. **Antimicrobial resistance** - Addresses growing AMR crisis relevant to CVD patients requiring repeated antibiotic courses

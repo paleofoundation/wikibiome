@@ -9,6 +9,8 @@ year: 2024
 doi: "10.1186/s41983-024-00901-0"
 tags: [schizophrenia, gut-microbiome, dopamine, serotonin, BDNF, shotgun-metagenomics, Roseburia, Alistipes, Parabacteroides, neurotransmitters]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [alistipes, dorea, parabacteroides, roseburia]
 ---
 
 # Functional Associations of the Gut Microbiome with Dopamine, Serotonin, and BDNF in Schizophrenia

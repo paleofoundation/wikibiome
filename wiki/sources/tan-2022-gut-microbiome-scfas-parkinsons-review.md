@@ -11,6 +11,10 @@ tags: [parkinsons-disease, short-chain-fatty-acids, butyrate, gut-brain-axis, ne
 library_category: metabolomics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron]
+taxa_discussed: [coprococcus, faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1, 2, 5, 9]
 ---
 
 # The Role of Short-Chain Fatty Acids in Health and Disease
@@ -23,7 +27,7 @@ This review examines the role of [[short-chain-fatty-acids]] (SCFAs) -- primaril
 
 - SCFAs, particularly [[butyrate]], maintain intestinal epithelial barrier integrity by upregulating tight junction proteins
 - Reduced SCFA levels in PD patients correlate with increased intestinal permeability and systemic inflammation
-- [[Butyrate]] inhibits histone deacetylases (HDACs), providing epigenetic neuroprotective effects
+- [[butyrate]] inhibits histone deacetylases (HDACs), providing epigenetic neuroprotective effects
 - SCFAs modulate microglial activation and reduce pro-inflammatory cytokine production in the CNS
 - Propionate and butyrate enhance regulatory T cell differentiation, suppressing autoimmune neuroinflammation
 - SCFA-producing bacteria (Faecalibacterium, Roseburia, Coprococcus) are consistently depleted in PD microbiomes
@@ -31,7 +35,7 @@ This review examines the role of [[short-chain-fatty-acids]] (SCFAs) -- primaril
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-SCFAs are central to the metal-microbiome connection in [[parkinsons-disease]]. [[Butyrate]] maintains the hypoxic colonic environment that regulates [[iron]] absorption via HIF-2alpha signaling. When SCFA-producing bacteria are depleted in PD [[dysbiosis]], the resulting loss of butyrate compromises this oxygen-sensing pathway, potentially leading to unregulated [[iron]] uptake and subsequent [[ferroptosis]] in dopaminergic neurons. SCFAs also regulate [[hepcidin]] expression, connecting gut microbial metabolism to systemic [[iron]] homeostasis. The depletion of SCFA producers like *Faecalibacterium* and *Roseburia* in PD removes a key buffer against metal-induced oxidative stress.
+SCFAs are central to the metal-microbiome connection in [[parkinsons-disease]]. [[butyrate]] maintains the hypoxic colonic environment that regulates [[iron]] absorption via HIF-2alpha signaling. When SCFA-producing bacteria are depleted in PD [[dysbiosis]], the resulting loss of butyrate compromises this oxygen-sensing pathway, potentially leading to unregulated [[iron]] uptake and subsequent [[ferroptosis]] in dopaminergic neurons. SCFAs also regulate [[hepcidin]] expression, connecting gut microbial metabolism to systemic [[iron]] homeostasis. The depletion of SCFA producers like *Faecalibacterium* and *Roseburia* in PD removes a key buffer against metal-induced oxidative stress.
 
 ## Limitations
 

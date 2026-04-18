@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, copper, aluminum, strontium, Pseudomon
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "carbon source modulation of metal stress"
+metals_discussed: [aluminum, copper, strontium]
+taxa_discussed: [pseudomonas-aeruginosa]
+karen_brain_primitives: [3, 4, 9]
 ---
 
 # Why This Paper Matters
@@ -60,7 +63,7 @@ This paper reveals an unexpected connection between carbon source utilization an
 - [[mis-metallation]] -- carbon source switches trigger metal stress responses, implying metabolic context shapes mis-metallation risk
 - [[copper]] -- massive copper resistance response to malonate utilization
 - [[metal-homeostasis]] -- metabolic rewiring impacts metal homeostasis requirements
-- [[Pseudomonas-aeruginosa]] -- CF lung pathogen adapts metal homeostasis to lung metabolites
+- [[pseudomonas-aeruginosa]] -- CF lung pathogen adapts metal homeostasis to lung metabolites
 - [[oxidative-stress]] -- coupled metal and oxidative stress responses
 - [[antimicrobial-resistance]] -- carbon source modulates antibiotic tolerance
 - [[biofilm]] -- biomineralized aggregates as clinically relevant phenotype

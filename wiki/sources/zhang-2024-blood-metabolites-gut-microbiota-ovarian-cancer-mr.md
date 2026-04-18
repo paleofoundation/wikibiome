@@ -10,6 +10,7 @@ doi: "10.3389/fcimb.2024.1451880"
 tags: [ovarian-cancer, Mendelian-randomization, gut-microbiota, blood-metabolites, Dialister, Bacteroides-massiliensis, lipoproteins, causal-inference]
 platform: wikibiome
 evidence_level: mendelian-randomization
+taxa_discussed: [bacteroides-fragilis, dialister]
 ---
 
 # Blood Metabolites Mediate Gut Microbiota-Ovarian Cancer Relationships

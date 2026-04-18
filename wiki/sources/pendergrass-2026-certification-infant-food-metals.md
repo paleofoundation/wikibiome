@@ -1,5 +1,4 @@
 ---
-
 title: "Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods: Integrating Legal Defensibility, Scientific Rigor, and Commercial Viability"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2026
 tags: [heavy-metals, infant-food-safety, certification, ALARA, regulatory-compliance, lead, arsenic, cadmium, mercury, food-contamination, litigation, third-party-certification]
 doi: "10.5281/zenodo.18905821"
 platform: wikibiome
+metals_discussed: [arsenic, cadmium, lead, mercury, nickel]
 ---
 
 > **Note:** This is a preprint by the WikiBiome founder, not independently peer-reviewed journal literature.

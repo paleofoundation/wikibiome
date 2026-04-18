@@ -1,5 +1,4 @@
 ---
-
 title: "Complex Host Genetics Influence the Microbiome in Inflammatory Bowel Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2014
 tags: [crohns-disease, IBD, ulcerative-colitis, host-genetics, NOD2, microbiome, genotype-microbiome-association, Enterobacteriaceae, JAK-STAT, innate-immunity, dysbiosis]
 doi: "10.1186/s13073-014-0107-1"
 platform: wikibiome
+metals_discussed: [iron]
+taxa_discussed: [collinsella, escherichia-coli, lactobacillus]
+karen_brain_primitives: [1, 2, 4]
 ---
 
 # Key Claims
@@ -35,7 +37,7 @@ platform: wikibiome
 - Foundational study linking host genetics to [[dysbiosis]] in IBD, establishing the genotype-microbiome-environment framework
 - NOD2-Enterobacteriaceae axis directly relevant to [[escherichia-coli]] expansion in Crohn's disease
 - JAK-STAT pathway involvement connects immune signaling to microbial composition
-- Complements [[Yang et al. 2024|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]] on SLC39A8/ZIP8 as another microbiome quantitative trait locus
+- Complements [[yang-2024-causal-gut-microbiota-cervical-cancer-mr|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]] on SLC39A8/ZIP8 as another microbiome quantitative trait locus
 - IL12B associations with Desulfovibrionaceae relevant to sulfate-reducing bacteria and [[iron]] metabolism in the gut
 - [[gut-metal-microbiome]] implications through metal-dependent innate immune mechanisms (defensins, calprotectin)
 - [[crohns-disease]]

@@ -1,5 +1,4 @@
 ---
-
 title: "Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment"
 type: source
 created: 2026-04-09
@@ -7,16 +6,18 @@ updated: 2026-04-09
 authors: [de Paiva EL, Medeiros C, Fioravanti MAI, Milani RF, Morgano MA, Pallone JAL, Arisseto-Bragotto AP]
 journal: Journal of Food Composition and Analysis
 year: 2020
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Food Composition and Analysis 2020 -->
 tags: [aluminum, baby-food, bioaccessibility, in-vitro-digestion, infant-formula, exposure-assessment, Brazil, ICP-OES]
 platform: wikibiome
+evidence_level: in-vitro
+metals_discussed: [aluminum]
 ---
 
 ## Key Claims
 
 - Total [[aluminum]] concentrations in 95 Brazilian infant food samples varied widely: salty purees (SP) up to 2500 ug/kg, fruit purees (FP) up to 4170 ug/kg, infant drinks (ID) up to 4170 ug/kg, and petit suisse (PS) at 830 ug/kg
 - Soy-based drinks and dark chocolate milk drinks had the highest Al content, with soy-based drink reaching 4170 ug/kg and chocolate soy-based drink at 4135 ug/kg
-- [[Bioaccessibility]] of Al varied from 0.5% to 48% depending on sample composition, meaning total content alone underestimates or overestimates actual exposure
+- [[metal-homeostasis|Bioaccessibility]] of Al varied from 0.5% to 48% depending on sample composition, meaning total content alone underestimates or overestimates actual exposure
 - Consumption of 3 portions/day of soy-based drink along the week exceeded 100% of the PTWI (1 mg/kg bw)
 - Chocolate-based and soy-based products consistently showed highest Al levels and bioaccessibility
 - Cocoa and soy are identified as likely dual sources of Al contamination

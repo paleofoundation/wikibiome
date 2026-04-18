@@ -9,6 +9,7 @@ year: 1994
 doi: "10.1176/ajp.151.10.1409"
 tags: [schizophrenia, outcome, meta-analysis, antipsychotics, historical-trends, prognosis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # One Hundred Years of Schizophrenia: A Meta-Analysis of the Outcome Literature

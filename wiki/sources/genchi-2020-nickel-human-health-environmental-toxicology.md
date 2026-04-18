@@ -59,7 +59,7 @@ why_keystone: "Establishes nickel as both a selective pressure (IARC Group 1 car
 # Key Claims
 
 - [[nickel]] is a transition element extensively distributed in the environment that causes a variety of side effects including allergy, cardiovascular and kidney diseases, lung fibrosis, lung and nasal cancer
-- Molecular mechanisms of nickel toxicity involve [[oxidative-stress|oxidative stress]], mitochondrial dysfunction, and [[epigenetic]] alterations (DNA methylation, histone modification, microRNA interference)
+- Molecular mechanisms of nickel toxicity involve [[oxidative-stress|oxidative stress]], mitochondrial dysfunction, and [[epigenetic-modifications|epigenetic]] alterations (DNA methylation, histone modification, microRNA interference)
 - Nickel is the most frequent cause of metal allergy, affecting 13-18% of females and 3-6% of males; approximately 10-15% of global population affected
 - Insoluble nickel compounds (NiS, NiO) are more potent carcinogens than soluble ones (NiSO4, NiCl2)
 - Nickel-induced apoptosis occurs through both intrinsic (mitochondrial/Cyt C release) and extrinsic (Fas/FasL) pathways
@@ -102,4 +102,4 @@ why_keystone: "Establishes nickel as both a selective pressure (IARC Group 1 car
 - Carcinogenicity via chromatin remodeling parallels [[chromium]] carcinogenic mechanisms
 - Nickel in foods (Table 1) relevant to and baby food Ni findings
 - Nickel in IBD context connects to elevated nickel in active CD
-- [[Nickel allergy]] prevalence data relevant to occupational health and consumer product regulation
+- [[nickel-allergy]] prevalence data relevant to occupational health and consumer product regulation

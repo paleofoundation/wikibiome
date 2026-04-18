@@ -1,5 +1,4 @@
 ---
-
 title: "Serum metabolomic analysis in patients with Hashimoto's thyroiditis positive for TgAb or TPOAb: a preliminary study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, metabolomics, bile-acids, tpoab, tgab, biomarkers, lipid-metabolism, amino-acids, glycerophospholipids]
 doi: "10.1038/s41598-025-90467-5"
 platform: wikibiome
+evidence_level: case-control
 ---
 
 # Serum metabolomic analysis in patients with Hashimoto's thyroiditis positive for TgAb or TPOAb: a preliminary study
@@ -21,7 +21,7 @@ platform: wikibiome
 - TgAb(+) group displayed elevated glycoursodeoxycholic acid, glycochenodeoxycholic acid 3-glucuronide, dehydroepiandosterone sulfate, and androsterone sulfates
 - TPOAb was strongly correlated with LPC 16:0 sn-1; TgAb with phenylacetyl-L-glutamine
 - Metabolic pathway analysis revealed significant activation of glycine, serine, and threonine metabolism in the TPOAb group, and galactose metabolism in the TgAb group
-- [[bile acids]] (glycoursodeoxycholic acid, glycocholic acid, glycocholate) were consistently altered in both antibody-positive groups
+- [[bile-acid-metabolism]] (glycoursodeoxycholic acid, glycocholic acid, glycocholate) were consistently altered in both antibody-positive groups
 
 ## Methods/Findings
 

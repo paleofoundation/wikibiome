@@ -6,11 +6,16 @@ updated: 2026-04-09
 authors: [Kausar Sadia Fakhruddin, Iman Kamal, Tatia Maglaperidze, Anand Maryah, Lakshman Samaranayake, Thantrira Porntaveetus]
 year: 2025
 journal: "International Dental Journal"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: International Dental Journal 2025 -->
 tags: [autism, oral-microbiome, dysbiosis, host-microbial-interactions, diversity]
 library_category: causal
 platform: both
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [lead, mercury, tin, zinc]
+taxa_discussed: [candida-albicans, porphyromonas, streptococcus]
+karen_brain_primitives: [1, 5, 6]
+key_findings: ["Emerging evidence for oral-gut-brain axis", "Altered oral microbiota diversity", "Oral dysbiosis may precede or reinforce GI dysbiosis"]
 ---
 
 # Key Claims
@@ -31,7 +36,7 @@ Systematic review synthesizing literature on oral microbiome in ASD:
 
 **Key findings:**
 - ASD groups show reduced microbial diversity in saliva/plaque
-- Enriched pathogenic taxa (e.g., [[streptococcus mutans]], [[porphyromonas gingivalis]])
+- Enriched pathogenic taxa (e.g., [[streptococcus-mutans|streptococcus mutans]], [[porphyromonas-gingivalis]])
 - Depleted protective taxa (e.g., commensal streptococci)
 - Altered oral-gut axis function → bidirectional dysbiosis
 

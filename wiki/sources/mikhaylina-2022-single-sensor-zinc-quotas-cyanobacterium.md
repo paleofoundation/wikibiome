@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, zinc, Zur, metallosensor, metallothion
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "marine cyanobacterial zinc homeostasis"
+metals_discussed: [copper, iron, manganese, nickel, zinc]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
 ---
 
 # Why This Paper Matters

@@ -33,11 +33,14 @@ library_category: causal
 platform: animal-model-16S-metabolomics
 condition: autism spectrum disorder (BTBR mouse model)
 evidence_level: animal-model
+metals_discussed: [iron, zinc]
+taxa_discussed: [faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 5]
 ---
 
 # Overview
 
-Preclinical study demonstrating that **Faecalibacterium hominis 4P-15**, a novel species isolated from typically developing children's feces, ameliorates ASD-like behaviors in **BTBR T+ Itpr3tf/J mice** by reducing intestinal [[indole]] and its derivatives and correcting downstream **AhR signaling dysregulation**. 4P-15 administration restored **glutamate transporter and GABA receptor expression**, correcting excitatory/inhibitory (E/I) imbalance — a hallmark ASD pathophysiology.
+Preclinical study demonstrating that **Faecalibacterium hominis 4P-15**, a novel species isolated from typically developing children's feces, ameliorates ASD-like behaviors in **BTBR T+ Itpr3tf/J mice** by reducing intestinal [[indoles|indole]] and its derivatives and correcting downstream **AhR signaling dysregulation**. 4P-15 administration restored **glutamate transporter and GABA receptor expression**, correcting excitatory/inhibitory (E/I) imbalance — a hallmark ASD pathophysiology.
 
 # Key Findings
 

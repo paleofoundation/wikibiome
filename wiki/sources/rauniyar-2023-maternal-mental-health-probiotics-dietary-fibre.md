@@ -6,11 +6,16 @@ updated: 2026-04-09
 authors: [Anjali Rauniyar]
 year: 2023
 journal: "University of Auckland (Master's thesis)"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: University of Auckland (Master's thesis) 2023 -->
 tags: [postpartum-depression, probiotics, dietary-fibre, Lactobacillus-rhamnosus, PiP-study, RCT, gut-brain-axis, anxiety]
 library_category: clinical-trial
 platform: cureva
 condition: "postpartum depression"
+evidence_level: randomized-controlled-trial
+metals_discussed: [iron, magnesium, zinc]
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5]
+key_findings: ["Low dietary fibre intake", "Probiotic-fibre interaction", "Over 50% of mothers"]
 ---
 
 # Key Claims

@@ -11,6 +11,11 @@ tags: [postpartum-depression, 919-syrup, chinese-herbal-medicine, gut-microbiome
 library_category: interventions
 platform: cureva
 condition: "postpartum depression"
+evidence_level: animal-model
+metals_discussed: [copper, magnesium, zinc]
+taxa_discussed: [alloprevotella, bacteroides-fragilis, bifidobacterium, desulfovibrio, prevotella]
+karen_brain_primitives: [5]
+key_findings: ["919 syrup (919 TJ)", "GABA levels in hippocampus", "Key bacterial species"]
 ---
 
 # Key Claims

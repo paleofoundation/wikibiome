@@ -1,5 +1,4 @@
 ---
-
 title: "Host-microbiome protein-protein interactions capture disease-relevant pathways"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ doi: "10.1186/s13059-022-02643-9"
 tags: [colon-cancer, colorectal-cancer, protein-protein-interactions, metagenomics, host-microbiome, IBD, obesity, T2D, immune-pathways, oncogenic-signaling, NF-kB, Fusobacterium-nucleatum]
 platform: wikibiome
 evidence_level: computational-prediction
+taxa_discussed: [fusobacterium-nucleatum]
 ---
 
 # Zhou 2022 -- Host-Microbiome Protein-Protein Interactions in Disease

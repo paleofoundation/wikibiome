@@ -1,5 +1,4 @@
 ---
-
 title: "Bacterial Exposure to Nickel: Influence on Adhesion and Biofilm Formation on Orthodontic Archwires and Sensitivity to Antimicrobial Agents"
 type: source
 created: 2026-04-09
@@ -12,6 +11,9 @@ pages: "4603"
 doi: "10.3390/ma14164603"
 tags: [nickel, biofilm, staphylococcus-aureus, orthodontic-archwires, antimicrobial-resistance, co-selection, nickel-titanium, adhesion, oral-microbiome, dental-materials, ciprofloxacin, cross-resistance]
 platform: wikibiome
+metals_discussed: [nickel, titanium]
+taxa_discussed: [staphylococcus-aureus]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims

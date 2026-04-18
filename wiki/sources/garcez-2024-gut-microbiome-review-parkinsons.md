@@ -6,18 +6,22 @@ updated: 2026-04-09
 authors: [Marcelo L Garcez, Kelly R Jacobs, Gilles J Bhatt]
 year: 2024
 journal: "Gut Microbes"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Gut Microbes 2024 -->
 tags: [parkinsons-disease, gut-microbiome, review, dysbiosis, alpha-synuclein, gut-brain-axis, neuroinflammation, short-chain-fatty-acids, butyrate, probiotics, fecal-microbiota-transplant]
 library_category: reviews
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, faecalibacterium-prausnitzii, prevotella, roseburia]
+karen_brain_primitives: [1, 4, 5, 8, 9]
 ---
 
 # Gut Microbiome and Its Role in Parkinson's Disease
 
 ## Summary
 
-This comprehensive review synthesizes the current understanding of the gut [[microbiome]] in [[parkinsons-disease]], covering microbial signatures, mechanistic pathways, and therapeutic implications. It provides an updated overview of the field as of 2024.
+This comprehensive review synthesizes the current understanding of the gut [[gut-microbiome|microbiome]] in [[parkinsons-disease]], covering microbial signatures, mechanistic pathways, and therapeutic implications. It provides an updated overview of the field as of 2024.
 
 ## Key Findings
 

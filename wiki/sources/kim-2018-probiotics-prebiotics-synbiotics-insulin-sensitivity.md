@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, probiotics, prebiotics, synbiotics, insulin-
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["SCFAs play key role in glucose homeostasis", "Anti-diabetic effects of [[probiotics]]", "SCFAs can decrease [[intestinal-permeability]]"]
 ---
 
 # Key Claims

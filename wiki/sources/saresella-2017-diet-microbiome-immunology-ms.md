@@ -1,5 +1,4 @@
 ---
-
 title: "Immunological and Clinical Effect of Diet Modulation of the Gut Microbiome in Multiple Sclerosis Patients: A Pilot Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2017
 tags: [multiple-sclerosis, diet, gut-microbiome, Lachnospiraceae, Tregs, Th17, HV/LP-diet, Western-diet, EDSS, relapse-rate, butyrate, immunomodulation]
 doi: "10.3389/fimmu.2017.01391"
 platform: wikibiome
+taxa_discussed: [lachnospiraceae]
 ---
 
 # Immunological and Clinical Effect of Diet Modulation of the Gut Microbiome in MS Patients: A Pilot Study
@@ -18,7 +18,7 @@ platform: wikibiome
 
 - A high-vegetable/low-protein (HV/LP) diet in RRMS patients increases [[lachnospiraceae]] abundance compared to Western Diet (WD), with significant immunological consequences
 - HV/LP diet patients show decreased IL-17-producing CD4+ T lymphocytes (p = 0.04) and PD-1+ CD4+ T lymphocytes (p = 0.0004), and increased PD-L1+ CD14+ monocytes (p = 0.009)
-- *Lachnospiraceae* abundance positively correlates with anti-inflammatory IL-10+ and TGFbeta+ monocytes and with CD4+/CD25+/FoxP3+ [[Tregs]] in HV/LP diet patients
+- *Lachnospiraceae* abundance positively correlates with anti-inflammatory IL-10+ and TGFbeta+ monocytes and with CD4+/CD25+/FoxP3+ [[inflammation|Tregs]] in HV/LP diet patients
 - HV/LP diet significantly reduces relapse rate (3/10 vs 9/10 in WD; p = 0.03) and improves EDSS score over 12 months
 - Butyrate-producing *Lachnospiraceae* may mediate the anti-inflammatory immune shift via Treg induction and IL-10 production
 

@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+key_findings: ["Altered microbiome in early life", "Reduced exposure to microbes, antibiotic use, poor dietary choices, and environmental pollution", "Early alterations"]
 ---
 
 # Key Claims

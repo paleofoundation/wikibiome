@@ -23,9 +23,9 @@ karen_brain_primitives: [1]
 # Key Claims
 
 - Cumulative dietary exposure to hazardous substances such as endocrine disruptor chemicals (EDCs) present in common and processed food is continuously increasing
-- EDC exposure can trigger obesity, insulin resistance, metabolic syndrome, and infertility by modifying the human [[microbiota]] and promoting [[dysbiosis]]
+- EDC exposure can trigger obesity, insulin resistance, metabolic syndrome, and infertility by modifying the human [[gut-microbiome|microbiota]] and promoting [[dysbiosis]]
 - Predictive toxicological models that account for the gut-microbiota-immune axis are needed to understand EDC-related pathogenesis
-- [[heavy metals]] are among the dietary xenobiotics that can alter the gut microbiome composition and promote dysbiosis phenotypes
+- [[heavy-metals]] are among the dietary xenobiotics that can alter the gut microbiome composition and promote dysbiosis phenotypes
 - Probiotic supplementation and microbial modulators like prebiotics offer potential for restoring dysbiotic taxa in EDC-related disorders
 
 # Methods/Findings
@@ -40,8 +40,8 @@ karen_brain_primitives: [1]
 
 # Connections
 
-- Provides context for dietary [[Environmental Exposures]] and their role in [[dysbiosis]] phenotypes
-- Links to [[arsenic]], [[Cadmium Toxicity]], [[Lead Toxicity]] as specific dietary contaminants
+- Provides context for dietary [[environmental-metal-exposure|Environmental Exposures]] and their role in [[dysbiosis]] phenotypes
+- Links to [[arsenic]], [[cadmium|Cadmium Toxicity]], [[lead|Lead Toxicity]] as specific dietary contaminants
 - Supports the use of [[probiotics]] for mitigating chemical-induced dysbiosis, connecting to [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
 - The gut-microbiota-immune axis framework relevant to [[gut-metal-microbiome|gut microbiome and metal exposure]] research
 - Complements [[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]] animal model evidence

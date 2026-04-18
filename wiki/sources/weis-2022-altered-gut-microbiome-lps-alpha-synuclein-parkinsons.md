@@ -11,13 +11,16 @@ tags: [parkinsons-disease, microbiome-chronic-disease, LPS, alpha-synuclein, mou
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: animal-model
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 4]
 ---
 
 # Altered Gut Microbiome in Parkinson's Disease and the Influence of Lipopolysaccharide in a Human Alpha-Synuclein Over-Expressing Mouse Model
 
 ## Summary
 
-This study combines human PD microbiome data with an alpha-synuclein overexpressing mouse model to investigate how gut [[microbiome]] alterations and LPS exposure interact to promote [[parkinsons-disease]] pathology.
+This study combines human PD microbiome data with an alpha-synuclein overexpressing mouse model to investigate how gut [[gut-microbiome|microbiome]] alterations and LPS exposure interact to promote [[parkinsons-disease]] pathology.
 
 ## Key Findings
 
@@ -30,7 +33,7 @@ This study combines human PD microbiome data with an alpha-synuclein overexpress
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The LPS-alpha-synuclein synergy described here operates through metal-dependent mechanisms. LPS activates [[TLR4]], which triggers [[hepcidin]] expression and [[iron]] trapping in microglia and macrophages. Alpha-synuclein has a high-affinity [[iron]]-binding site, and iron-bound alpha-synuclein is more prone to aggregation and prion-like spreading. The combination of microbiome-derived LPS (increasing immune-mediated iron trapping) and alpha-synuclein (creating a sink for trapped iron) creates a positive feedback loop where more iron leads to more aggregation, which triggers more inflammation, which traps more iron. This is the molecular engine of PD progression in the metallomic-microbiome framework.
+The LPS-alpha-synuclein synergy described here operates through metal-dependent mechanisms. LPS activates [[tlr4]], which triggers [[hepcidin]] expression and [[iron]] trapping in microglia and macrophages. Alpha-synuclein has a high-affinity [[iron]]-binding site, and iron-bound alpha-synuclein is more prone to aggregation and prion-like spreading. The combination of microbiome-derived LPS (increasing immune-mediated iron trapping) and alpha-synuclein (creating a sink for trapped iron) creates a positive feedback loop where more iron leads to more aggregation, which triggers more inflammation, which traps more iron. This is the molecular engine of PD progression in the metallomic-microbiome framework.
 
 ## Limitations
 

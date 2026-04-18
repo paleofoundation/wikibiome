@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel Allergy Is Found in a Majority of Women with Chronic Fatigue Syndrome and Muscle Pain - And May Be Triggered by Cigarette Smoke and Dietary Nickel Intake"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2001
 tags: [nickel-allergy, chronic-fatigue-syndrome, fibromyalgia, cigarette-smoke, dietary-nickel, MELISA]
 doi: "10.3389/fgene.2021.746060"
 platform: wikibiome
+evidence_level: case-report
+metals_discussed: [nickel]
+taxa_discussed: [staphylococcus-aureus]
+karen_brain_primitives: [1]
 ---
 
 ## Key Claims

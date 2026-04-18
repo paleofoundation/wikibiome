@@ -1,5 +1,4 @@
 ---
-
 title: Heavy Metals
 type: concept
 created: 2026-04-10
@@ -7,6 +6,9 @@ updated: 2026-04-10
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]
 tags: [heavy-metals, toxic-metals, essential-metals, metal-toxicity, ROS, oxidative-stress, gut-microbiome, environmental-exposure]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 3, 4, 5]
+seo_target: "heavy metals microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 # Heavy Metals
@@ -20,7 +22,7 @@ An umbrella term for metallic elements with relatively high density (conventiona
 - **[[mercury]]** (Hg): Binds sulfhydryl groups, inhibits glutathione peroxidase, crosses BBB as methylmercury. CNS, renal, and GI toxicity.
 - **[[cadmium]]** (Cd): 17-30 year biological half-life; renal primary target; disrupts Ca/Zn/Fe homeostasis; carcinogenic. Induces metallothionein.
 - **[[arsenic]]** (As): Inhibits pyruvate dehydrogenase (blocks Krebs cycle), proinflammatory, carcinogenic. Technically a metalloid.
-- **[[aluminium]]** (Al): Enters brain via transferrin receptor; implicated in [[neurodegeneration]].
+- **[[aluminum|aluminium]]** (Al): Enters brain via transferrin receptor; implicated in [[neurodegeneration]].
 
 ### Essential but Toxic in Excess
 - **[[iron]]** (Fe): Required for heme, electron transport; excess drives [[ferroptosis]] via Fenton chemistry. Both deficiency and overload cause [[dysbiosis]].

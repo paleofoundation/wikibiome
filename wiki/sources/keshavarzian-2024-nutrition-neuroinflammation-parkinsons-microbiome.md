@@ -11,13 +11,16 @@ tags: [parkinsons-disease, nutrition, neuroinflammation, microbiome, diet, ketog
 library_category: diet
 platform: both
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Nutrition, Neuroinflammation, and the Parkinson's Disease Microbiome
 
 ## Summary
 
-This review examines how nutritional factors modulate [[neuroinflammation]] and the gut [[microbiome]] in [[parkinsons-disease]], providing a framework for dietary interventions that target the microbiome-inflammation-neurodegeneration axis.
+This review examines how nutritional factors modulate [[neuroinflammation]] and the gut [[gut-microbiome|microbiome]] in [[parkinsons-disease]], providing a framework for dietary interventions that target the microbiome-inflammation-neurodegeneration axis.
 
 ## Key Findings
 

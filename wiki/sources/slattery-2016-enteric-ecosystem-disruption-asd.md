@@ -12,6 +12,9 @@ library_category: "Statins"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 6107-6121"
+evidence_level: animal-model
+taxa_discussed: [bacteroides-fragilis, desulfovibrio]
+karen_brain_primitives: [5]
 ---
 
 # Overview

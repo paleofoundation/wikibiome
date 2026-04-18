@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Judith Aron-Wisnewsky, Karine Clement]
 year: 2019
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2019 -->
 tags: [type-1-diabetes, autoimmune, fmt, therapeutic-option, gut-microbiome, insulin-sensitivity, dysbiosis]
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 5]
+key_findings: ["FMT represents a future therapeutic option", "Evidence from metabolic syndrome studies", "Donor selection and engraftment factors"]
 ---
 
 # Key Claims

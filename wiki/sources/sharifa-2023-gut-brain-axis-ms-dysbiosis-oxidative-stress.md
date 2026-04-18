@@ -1,5 +1,4 @@
 ---
-
 title: "Unraveling the Gut-Brain Axis in Multiple Sclerosis: Exploring Dysbiosis, Oxidative Stress, and Therapeutic Insights"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2023
 doi: 10.7759/cureus.47058
 tags: [multiple-sclerosis, gut-brain-axis, dysbiosis, oxidative-stress, inflammasome, NLRP3, Nrf2, NF-kB, probiotics, FMT, SCFAs, tryptophan, review]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [cadmium, lead, nickel]
+taxa_discussed: [clostridium, lactobacillus]
+karen_brain_primitives: [1, 5]
 ---
 
 # Unraveling the Gut-Brain Axis in Multiple Sclerosis: Exploring Dysbiosis, Oxidative Stress, and Therapeutic Insights

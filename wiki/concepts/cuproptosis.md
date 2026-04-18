@@ -30,7 +30,7 @@ The cuproptotic cascade proceeds through defined steps:
 
 ## Distinction from Ferroptosis
 
-| Feature | Cuproptosis | [[Ferroptosis]] |
+| Feature | Cuproptosis | [[ferroptosis]] |
 |---------|------------|------------|
 | Metal trigger | Copper (Cu1+) | Iron (Fe2+) |
 | Key regulator | FDX1 | GPX4 |

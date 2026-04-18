@@ -12,6 +12,9 @@ library_category: "Meta-analysis"
 platform: neuropsychological
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [lead, mercury, zinc]
+karen_brain_primitives: [5]
 ---
 
 # Overview

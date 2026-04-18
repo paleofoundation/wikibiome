@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiota Does Not Play a Mediating Role in the Causal Association Between Inflammatory Bowel Disease and Several Its Associated Extraintestinal Manifestations"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 tags: [crohns-disease, IBD, Mendelian-randomization, extraintestinal-manifestations, sarcoidosis, iridocyclitis, psoriatic-arthritis, primary-sclerosing-cholangitis, gut-microbiome]
 doi: "10.3389/fimmu.2023.1296889"
 platform: wikibiome
+metals_discussed: [iron]
+taxa_discussed: [bacteroides-fragilis, ruminococcus]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
@@ -33,5 +35,5 @@ platform: wikibiome
 - Bacteroidaceae and Erysipelatoclostridium increases in IBD relevant to [[gut-metal-microbiome]] metal handling
 - PSC association connects to bile acid metabolism and [[iron]] homeostasis in the liver
 - ILD association relevant to understanding systemic [[inflammation]] in Crohn's disease
-- Complements [[Xu et al. 2022|xu-2022-causal-gut-microbiota-autoimmune-mr]] on causal framework
+- Complements [[xu-2022-causal-gut-microbiota-autoimmune-mr|xu-2022-causal-gut-microbiota-autoimmune-mr]] on causal framework
 - [[crohns-disease]]

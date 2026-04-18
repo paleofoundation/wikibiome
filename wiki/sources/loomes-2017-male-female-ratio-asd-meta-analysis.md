@@ -12,6 +12,10 @@ library_category: "Meta-analysis"
 platform: epidemiological
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [lead, mercury, zinc]
+karen_brain_primitives: [5]
+key_findings: ["High-quality studies", "Active case-finding studies"]
 ---
 
 # Overview
@@ -49,5 +53,5 @@ First systematic meta-analysis to derive a **pooled male-to-female odds ratio (M
 - [[mercury]] -- sex-specific mercury detoxification capacity may partially explain male-female ASD ratio
 - [[developmental-metal-vulnerability]] -- hormonal differences in metal handling during development may underlie sex ratio
 - [[probiotics]] -- sex-stratified microbiome interventions may be needed given diagnostic gender bias
-- Sex ratio differences may affect microbiome study interpretation in [[autism-spectrum-disorder-microbiome-signature]]
+- Sex ratio differences may affect microbiome study interpretation in [[autism-spectrum-disorder-signature]]
 - Underdiagnosis in females relevant to comorbidity patterns in [[tye-2019-asd-comorbid-medical-conditions-review]]

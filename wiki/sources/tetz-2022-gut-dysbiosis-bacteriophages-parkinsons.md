@@ -11,6 +11,10 @@ tags: [parkinsons-disease, bacteriophages, gut-dysbiosis, phage-bacterial-intera
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, zinc]
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # The Effects of Gut Dysbiosis via Bacteriophages and Its Role in Parkinson's Disease

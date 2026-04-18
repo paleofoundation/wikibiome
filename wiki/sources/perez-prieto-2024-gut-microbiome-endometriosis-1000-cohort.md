@@ -33,6 +33,10 @@ tags:
   - beta-glucuronidase
 doi: 10.1186/s12916-024-03503-y
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [iron, nickel]
+taxa_discussed: [acinetobacter, bacteroides-fragilis, clostridium, roseburia, ruminococcus]
+karen_brain_primitives: [1, 5, 7]
 ---
 
 # Key Claims
@@ -57,7 +61,7 @@ platform: wikibiome
 
 # Relevance to Wiki
 
-This large-scale shotgun metagenomics study challenges the notion that gut [[dysbiosis]] is a consistent feature of [[endometriosis]], finding no robust compositional or functional differences after rigorous statistical correction. The null estrobolome findings are particularly notable, as they question whether gut microbial estrogen metabolism is a major driver of endometriosis. However, the study's use of self-reported ICD codes (vs surgical confirmation) and the population-based design may dilute disease-specific signals. These negative results highlight the importance of well-phenotyped cohorts and suggest that [[microbiome]] alterations in endometriosis may be more pronounced in specific niches (peritoneal, vaginal) rather than the gut.
+This large-scale shotgun metagenomics study challenges the notion that gut [[dysbiosis]] is a consistent feature of [[endometriosis]], finding no robust compositional or functional differences after rigorous statistical correction. The null estrobolome findings are particularly notable, as they question whether gut microbial estrogen metabolism is a major driver of endometriosis. However, the study's use of self-reported ICD codes (vs surgical confirmation) and the population-based design may dilute disease-specific signals. These negative results highlight the importance of well-phenotyped cohorts and suggest that [[gut-microbiome|microbiome]] alterations in endometriosis may be more pronounced in specific niches (peritoneal, vaginal) rather than the gut.
 
 ## Connections
 

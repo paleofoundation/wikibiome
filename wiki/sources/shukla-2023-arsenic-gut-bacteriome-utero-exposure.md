@@ -9,6 +9,9 @@ year: 2023
 doi: "10.3389/fmicb.2023.1147505"
 tags: [ovarian-cancer, arsenic, gut-microbiome, in-utero-exposure, 16S-rRNA, Firmicutes, insulin-signaling, epigenetics, dysbiosis]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium]
+karen_brain_primitives: [1]
 ---
 
 # Analysis of Gut Bacteriome of In Utero Arsenic-Exposed Mice

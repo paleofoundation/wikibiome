@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, prebiotics, probiotics, synbiotics, insulin-
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Prebiotics and [[probiotics]] can modulate gut microbiota", "Synbiotic approaches", "Gut microbiota plays a role in insulin sensitivity"]
 ---
 
 # Key Claims

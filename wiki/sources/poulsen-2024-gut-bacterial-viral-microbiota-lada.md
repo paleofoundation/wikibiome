@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, lada, virome, gut-bacteriome, viral-microbio
 library_category: original-research
 platform: cureva
 condition: "latent autoimmune diabetes"
+evidence_level: cross-sectional
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["LADA gut bacteriome resembled T2D", "LADA has unique taxonomical features", "Virome composition reflected stability"]
 ---
 
 # Key Claims

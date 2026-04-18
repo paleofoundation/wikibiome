@@ -1,5 +1,4 @@
 ---
-
 title: "Plasma metallomics reveals potential biomarkers and insights into the ambivalent associations of elements with acute myocardial infarction"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [metallomics, cardiovascular-disease, biomarkers, ICP-MS, copper, selenium, iron, acute-myocardial-infarction]
 doi: "10.1016/j.jtemb.2023.127148"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [arsenic, cadmium, copper, iron, nickel, selenium]
 ---
 
 # Key Claims
@@ -40,6 +41,6 @@ platform: wikibiome
 - Cu elevation in AMI relates to [[oxidative-stress]] through ceruloplasmin release and Cu's role as a cofactor for superoxide dismutase
 - Se depression connects to impaired antioxidant defense via selenoproteins (glutathione peroxidases, thioredoxin reductase), relevant to broader [[selenium]] biology
 - The ambivalent U/J-shaped dose-response for essential elements mirrors the concept seen in [[nickel]] and other metals where both deficiency and excess cause harm
-- Smoking as a major determinant of toxic metal levels (including [[cadmium]], [[arsenic]]) links to broader [[metal-exposure]] and [[cardiovascular-disease]] literature
+- Smoking as a major determinant of toxic metal levels (including [[cadmium]], [[arsenic]]) links to broader [[environmental-metal-exposure|metal-exposure]] and [[cardiovascular-disease]] literature
 - Fe/Cu ratio as a sensitive biomarker connects to [[iron]] dysregulation in cardiovascular pathology
 - Random forest models incorporating metallomic features could serve as templates for similar biomarker discovery in [[metabolic-syndrome]] and other conditions

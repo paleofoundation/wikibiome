@@ -12,6 +12,10 @@ library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
 evidence_level: prospective-cohort
+metals_discussed: [aluminum, arsenic, copper, iron, manganese, selenium, zinc]
+taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [1]
+key_findings: ["Trace elements in maternal hair affect diversity and composition", "Shannon diversity in 3-month infants correlated positively with [[selenium]]", "Bifidobacterium relative abundance increases"]
 ---
 
 # Key Claims

@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, folic-acid, folate, MTHFR, folate-receptor-auto
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+key_findings: ["Prenatal folic acid supplementation", "Folic acid and/or folinic acid supplementation", "Increased frequency of serum auto-antibodies against folate receptor alpha (FRAA)"]
 ---
 
 # Key Claims

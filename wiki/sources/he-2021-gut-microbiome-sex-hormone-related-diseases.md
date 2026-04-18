@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut Microbiome and Sex Hormone-Related Diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2021
 doi: "10.3389/fmicb.2021.711137"
 tags: [colon-cancer, colorectal-cancer, gut-microbiome, sex-hormones, estrogen, testosterone, beta-glucuronidase, ovarian-cancer, PCOS, PMOP, T1D, estrobolome, gonadectomy]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, enterococcus]
+karen_brain_primitives: [5, 7]
 ---
 
 # He 2021 -- Gut Microbiome and Sex Hormone-Related Diseases

@@ -1,5 +1,4 @@
 ---
-
 title: "Causal associations between gut microbiome and cardiovascular disease: A Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ doi: 10.3389/fcvm.2022.971376
 tags: [cardiovascular-disease, CVD, Mendelian-randomization, causality, Oxalobacter, Clostridiaceae, gut-microbiome, coronary-artery-disease, stroke, atrial-fibrillation]
 platform: wikibiome
 evidence_level: mendelian-randomization
+metals_discussed: [cadmium, calcium, copper, iron, lead, selenium]
+taxa_discussed: [clostridium]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Causal Associations Between Gut Microbiome and Cardiovascular Disease: A Mendelian Randomization Study

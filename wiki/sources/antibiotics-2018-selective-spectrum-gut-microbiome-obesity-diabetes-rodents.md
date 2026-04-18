@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2018
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2018 -->
 evidence_level: animal-model
 sample_size: "N/A - rodent models"
 tags: [type-1-diabetes, autoimmune, antibiotics, selective-spectrum, rodent-model, gut-microbiome, obesity, dysbiosis]

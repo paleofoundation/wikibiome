@@ -1,5 +1,4 @@
 ---
-
 title: "Diagnosis of Crohn's Disease and Ulcerative Colitis Using the Microbiome"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [crohns-disease, IBD, ulcerative-colitis, gut-microbiome, machine-learning, diagnostic-biomarkers, dysbiosis, 16S-rRNA, WMS-sequencing, disease-severity]
 doi: "10.1186/s12866-023-03084-5"
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [alistipes, bacteroides-fragilis, bifidobacterium, collinsella, escherichia-coli, faecalibacterium-prausnitzii, fusobacterium-nucleatum, haemophilus, shigella, streptococcus]
+karen_brain_primitives: [2]
 ---
 
 # Key Claims
@@ -37,5 +39,5 @@ platform: wikibiome
 - [[faecalibacterium-prausnitzii]] depletion as reproducible CD biomarker across studies
 - Links to [[calprotectin]] through disease activity monitoring approaches
 - Enterotype analysis relevant to [[gut-metal-microbiome]] -- Bacteroides-dominated enterotype may have different metal handling
-- Complements [[Jacobs et al. 2022|jacobs-2022-crohns-remission-obesity-mli-microbiome]] on mucosal microbiome in CD
+- Complements [[jacobs-2022-crohns-remission-obesity-mli-microbiome|jacobs-2022-crohns-remission-obesity-mli-microbiome]] on mucosal microbiome in CD
 - [[crohns-disease]]

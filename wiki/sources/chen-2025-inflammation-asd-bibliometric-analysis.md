@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, inflammation, neuroinflammation, bibliometrics,
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["1,752 articles", "Keyword burst analysis"]
 ---
 
 # Key Claims

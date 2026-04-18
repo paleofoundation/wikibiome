@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+key_findings: ["Specific bacterial strains in gut microbiome of one-year-old children", "1741 Swedish children", "Certain class II HLA haplotypes"]
 ---
 
 # Key Claims

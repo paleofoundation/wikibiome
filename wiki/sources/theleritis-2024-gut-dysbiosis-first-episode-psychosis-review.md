@@ -40,7 +40,7 @@ This narrative review summarizes the significant differences in altered microbio
 - FMT from schizophrenia patients to germ-free mice induces psychomotor hyperactivity and altered neurotransmitter levels
 - *Streptococcus vestibularis*, a schizophrenia-enriched bacterium, induced social behavior deficits in recipient mice
 - Gut microbiota responsible for GABA, serotonin, [[tryptophan-metabolism]], and dopamine production
-- [[Short-chain-fatty-acids]] from butyrate-producing bacteria (e.g., *Faecalibacterium*) are depleted in FEP
+- [[short-chain-fatty-acids]] from butyrate-producing bacteria (e.g., *Faecalibacterium*) are depleted in FEP
 - Increased intestinal permeability, chronic inflammation, and oxidative stress proposed as mediating mechanisms
 - Treatment with risperidone alters gut microbiome composition and increases butyric acid levels
 

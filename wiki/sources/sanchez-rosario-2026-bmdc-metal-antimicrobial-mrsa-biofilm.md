@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Yamil Sanchez-Rosario, Natasha R Cornejo, Isaiah S Gonzalez, Vanessa Brizuela, Klariza Ochoa, Chloe Scott, Michael D L Johnson, Paul D Fey]
 year: 2026
 journal: "mSphere"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12838442) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: mSphere 2026 -->
 pmcid: "PMC12838442"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, zinc, zinc-toxicity, MRSA, staphylococcus-aureus, staphylococcus-epidermidis, biofilm, antimicrobial-metals, Irving-Williams-series, nutritional-immunity]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "copper and zinc intoxication as antimicrobial strategy against staphylococci"
+metals_discussed: [copper, iron, manganese, zinc]
+taxa_discussed: [staphylococcus-aureus]
+karen_brain_primitives: [3, 4]
+key_findings: ["BMDC enhances intracellular copper accumulation 70-fold", "Copper-BMDC is bacteriostatic"]
 ---
 
 # Why This Paper Matters
@@ -75,5 +79,5 @@ Copper alone increases biofilm production -- an unexpected finding. ICP-OES conf
 - [[biofilm]] -- copper incorporation into biofilm matrix; metal-BMDC disrupts established biofilms
 - [[oxidative-stress]] -- Fenton chemistry from copper, peroxide generation from both metals
 - [[manganese]] -- depletion compromises SOD-dependent antioxidant defense
-- [[Irving-Williams-series]] -- thermodynamic basis for copper and zinc displacing other metals
+- [[irving-williams-series]] -- thermodynamic basis for copper and zinc displacing other metals
 - [[antimicrobial-metals]] -- BMDC as metal-potentiating antimicrobial strategy

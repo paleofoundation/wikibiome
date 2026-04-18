@@ -10,6 +10,7 @@ doi: "10.3389/fmed.2025.1628722"
 tags: [chronic-kidney-disease, CKD, FMT, gut-kidney-axis, review, diabetic-nephropathy, IgA-nephropathy, RAS-inhibition]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [5]
 ---
 
 # FMT Is a Promising Therapy for Kidney Diseases

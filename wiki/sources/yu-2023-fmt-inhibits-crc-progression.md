@@ -1,5 +1,4 @@
 ---
-
 title: "Fecal Microbiota Transplantation Inhibits Colorectal Cancer Progression: Reversing Intestinal Microbial Dysbiosis to Enhance Anti-Cancer Immune Responses"
 type: source
 created: 2026-04-09
@@ -7,10 +6,12 @@ updated: 2026-04-09
 authors: [Hao Yu, Xing-Xiu Li, Xing Han, Bin-Xin Chen, Xing-Hua Zhang, Shan Gao, Dan-Qi Xu, Yao Wang, Zhan-Kui Gao, Lei Yu, Song-Ling Zhu, Li-Chen Yao, Gui-Rong Liu, Shu-Lin Liu, Xiao-Qin Mu]
 journal: Frontiers in Microbiology
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Microbiology 2023 -->
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colorectal-cancer, immune-response, NK-cells, Treg-cells, cytokines, dysbiosis, 16S-rRNA, mouse-model]
 platform: wikibiome
 evidence_level: animal-model
+taxa_discussed: [alloprevotella, desulfovibrio, lachnospiraceae, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -34,8 +35,8 @@ evidence_level: animal-model
 
 # Connections
 
-- Complements [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] which focuses on Treg cell mechanisms in colitis-associated cancer
-- Immune cell infiltration findings connect to [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of FMT enhancing ICB therapy
-- Bacterial correlations with cytokines provide specific therapeutic targets relevant to [[Zhu 2022 - Berberine UC Cancer Therapy]] microbiome modulation
+- Complements [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] which focuses on Treg cell mechanisms in colitis-associated cancer
+- Immune cell infiltration findings connect to [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of FMT enhancing ICB therapy
+- Bacterial correlations with cytokines provide specific therapeutic targets relevant to [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]] microbiome modulation
 - The Firmicutes/Bacteroidetes ratio normalization parallels dysbiosis patterns in [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[colorectal-cancer]]

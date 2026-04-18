@@ -9,6 +9,9 @@ year: 2021
 doi: "10.1186/s13073-021-00923-w"
 tags: [ovarian-cancer, immune-checkpoint-inhibitors, microbiome, microbial-metabolites, FMT, immunotherapy, PD-1, CTLA-4, Bifidobacterium]
 platform: wikibiome
+metals_discussed: [lead]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 5]
 ---
 
 # Intestinal Microbiome and Microbial Metabolites in Immune Checkpoint Immunotherapy

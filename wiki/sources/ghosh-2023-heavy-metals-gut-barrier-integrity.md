@@ -9,7 +9,7 @@ authors:
   - Venkatakrishna Rao Jala
 journal: Metal ions in Life Sciences (Accepted Manuscript)
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Metal ions in Life Sciences (Accepted Manuscript) 2023 -->
 tags:
   - heavy-metals
   - gut-barrier
@@ -32,6 +32,10 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Comprehensively maps metal-specific mechanisms of tight junction disruption (arsenic: paracellular transport; lead: claudin/occludin loss; mercury: permeability increase; cadmium: E-cadherin downregulation) and identifies metal-susceptible vs. metal-resistant microbiota species. WikiBiome depends on this evidence to explain barrier collapse as the critical intermediate step connecting metal burden to systemic dysbiosis—showing how microbial metabolites and probiotic species can counteract metal-induced permeability."
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, chromium, lead, mercury, nickel]
+taxa_discussed: [akkermansia-muciniphila, faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Key Claims
@@ -42,7 +46,7 @@ why_keystone: "Comprehensively maps metal-specific mechanisms of tight junction 
 - Gut microbiota are essential for gut barrier function: germ-free mice have impaired barriers with downregulated claudin 4, occludin, TFF3, and MUC3
 - Microbial metabolites regulate host immunity via receptors: AhR, FXR, PXR, M-BAR/TGR5, P2X7, GPR41/43/109A
 - Heavy metals accumulated significantly more in GF mice organs vs. conventional mice, demonstrating microbiota's role in metal clearance
-- [[Urolithin A]] (UroA), a gut microbial metabolite, protected colon epithelial cells against arsenic-induced oxidative stress and barrier dysfunction
+- [[polyphenols|Urolithin A]] (UroA), a gut microbial metabolite, protected colon epithelial cells against arsenic-induced oxidative stress and barrier dysfunction
 
 # Methods/Findings
 
@@ -55,9 +59,9 @@ why_keystone: "Comprehensively maps metal-specific mechanisms of tight junction 
 
 # Connections
 
-- Central reference for [[gut barrier function]] and [[intestinal permeability]] in metal toxicology
-- Mechanism details extend [[Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] and [[Zhu 2024 - Toxic Essential Metals Gut Microbiota]]
-- UroA protection finding relevant to [[microbial metabolites as therapeutics]]
-- Probiotic barrier restoration connects to [[Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
-- Tight junction disruption mechanisms relevant to [[nickel toxicity]] given Ni's known effects on epithelial integrity
+- Central reference for [[intestinal-permeability|gut barrier function]] and [[intestinal-permeability]] in metal toxicology
+- Mechanism details extend [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] and [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]]
+- UroA protection finding relevant to [[pharmacomicrobiomics|microbial metabolites as therapeutics]]
+- Probiotic barrier restoration connects to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
+- Tight junction disruption mechanisms relevant to [[nickel-allergy|nickel toxicity]] given Ni's known effects on epithelial integrity
 - Links to [[Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]] on probiotic mechanisms

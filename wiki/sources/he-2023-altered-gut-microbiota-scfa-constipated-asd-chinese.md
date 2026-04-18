@@ -11,6 +11,11 @@ tags: [autism-spectrum-disorder, SCFAs, constipation, propionic-acid, Lactobacil
 library_category: metabolomics
 platform: 16S-rRNA-GC-MS
 condition: "constipated autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+taxa_discussed: [anaerostipes, eubacterium, fusobacterium-nucleatum, lactobacillus, parabacteroides, prevotella, ruminococcus]
+karen_brain_primitives: [4]
+key_findings: ["Observe, Chao1, and ACE indices", "Beta diversity"]
 ---
 
 # Overview
@@ -64,9 +69,9 @@ Integrated 16S rRNA and GC-MS SCFA study comparing **40 constipated ASD (C-ASD) 
 
 **High relevance** — propionate-microbiota-severity axis intersects metal metabolism:
 
-- **[[Propionate]]** inhibits histone deacetylases (HDACs) — [[zinc]]-dependent metalloenzymes; chronic PPA exposure reproduces ASD-like behaviors in animal models
+- **[[short-chain-fatty-acids|Propionate]]** inhibits histone deacetylases (HDACs) — [[zinc]]-dependent metalloenzymes; chronic PPA exposure reproduces ASD-like behaviors in animal models
 - PPA affects [[iron]]-dependent mitochondrial function and fatty acid metabolism
-- **[[lactobacillus]]** depletion in C-ASD — this genus binds [[heavy metals]] and produces beneficial metabolites; its loss may increase metal bioavailability
+- **[[lactobacillus]]** depletion in C-ASD — this genus binds [[heavy-metals]] and produces beneficial metabolites; its loss may increase metal bioavailability
 - *Phascolarctobacterium* (PPA-producer) enrichment — may reflect altered carbon/metal availability
 - Constipation as mediator: extended intestinal transit time increases both metal absorption and bacterial PPA production
 - Random forest model (AUC 0.924) could be combined with metallomic biomarkers for improved classification

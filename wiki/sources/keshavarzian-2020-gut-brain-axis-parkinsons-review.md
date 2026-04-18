@@ -11,6 +11,9 @@ tags: [parkinsons-disease, gut-brain-axis, dysbiosis, alpha-synuclein, vagus-ner
 library_category: reviews
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: in-vitro
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [1]
 ---
 
 # The Gut-Brain Axis and Its Relation to Parkinson's Disease: A Review

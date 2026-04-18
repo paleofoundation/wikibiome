@@ -9,6 +9,9 @@ year: 2024
 doi: "10.3389/fpsyt.2024.1366311"
 tags: [schizophrenia, gut-microbiota, systematic-review, vote-counting, Lactobacillus, Faecalibacterium, Roseburia, Coprococcus, Proteobacteria, biomarkers]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [coprococcus, faecalibacterium-prausnitzii, lactobacillus, prevotella, roseburia]
+karen_brain_primitives: [5]
 ---
 
 # Alterations of the Gut Microbiota in Patients with Schizophrenia
@@ -17,7 +20,7 @@ platform: wikibiome
 
 - Systematic search and vote counting analysis of 30 clinical studies (2,001 [[schizophrenia]] patients, 1,694 controls) to identify consistently altered gut microbial taxa
 - No strong evidence for consistent alpha- or beta-diversity differences across studies (only 8.8% showed significant alpha-diversity changes)
-- 8 taxa consistently UP-regulated in schizophrenia: Proteobacteria, Gammaproteobacteria, [[Lactobacillaceae]], [[enterobacteriaceae]], [[lactobacillus]], Succinivibrio, [[prevotella]], Acidaminococcus
+- 8 taxa consistently UP-regulated in schizophrenia: Proteobacteria, Gammaproteobacteria, [[lactobacillus|Lactobacillaceae]], [[enterobacteriaceae]], [[lactobacillus]], Succinivibrio, [[prevotella]], Acidaminococcus
 - 5 taxa consistently DOWN-regulated: Fusicatenibacter, [[faecalibacterium-prausnitzii]], [[roseburia]], [[coprococcus]], Anaerosstipes
 - Gut microbial changes characterized by depletion of anti-inflammatory butyrate-producing genera and enrichment of opportunistic bacteria
 - 88 candidate microbiota reported in 3+ datasets; 13 showed consistent directional changes via vote counting

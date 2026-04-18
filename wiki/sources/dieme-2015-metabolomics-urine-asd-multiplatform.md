@@ -11,11 +11,15 @@ tags: [autism-spectrum-disorder, metabolomics, urine, NMR, LC-HRMS, data-fusion,
 library_category: metabolomics
 platform: NMR-LC-HRMS
 condition: "autism spectrum disorder"
+metals_discussed: [iron]
+taxa_discussed: [clostridium]
+karen_brain_primitives: [4]
+key_findings: ["Fused OPLS-DA model", "Prediction set"]
 ---
 
 # Overview
 
-Multi-platform urinary metabolomics study combining **1H-NMR, 1H-13C-HSQC-NMR, and LC-HRMS** (ESI+ and ESI- on HILIC and C18 columns) to characterize a metabolic signature of ASD. Analyzed urine from **22 autistic children and 24 controls** using OPLS-DA multivariate modeling. Data fusion of 6 analytical modalities yielded enhanced classification performance (AUC = 0.91, p = 0.006). Key discriminating metabolites include **[[indoxyl sulfate]]**, **N-acetyl-L-arginine**, **methylguanidine**, and **phenylacetylglutamine**.
+Multi-platform urinary metabolomics study combining **1H-NMR, 1H-13C-HSQC-NMR, and LC-HRMS** (ESI+ and ESI- on HILIC and C18 columns) to characterize a metabolic signature of ASD. Analyzed urine from **22 autistic children and 24 controls** using OPLS-DA multivariate modeling. Data fusion of 6 analytical modalities yielded enhanced classification performance (AUC = 0.91, p = 0.006). Key discriminating metabolites include **[[tmao|indoxyl sulfate]]**, **N-acetyl-L-arginine**, **methylguanidine**, and **phenylacetylglutamine**.
 
 # Key Findings
 
@@ -28,7 +32,7 @@ Multi-platform urinary metabolomics study combining **1H-NMR, 1H-13C-HSQC-NMR, a
 
 ## Discriminating Metabolites (p < 0.05)
 
-- **[[Indoxyl sulfate]]** — tryptophan-derived microbial metabolite
+- **[[tmao|Indoxyl sulfate]]** — tryptophan-derived microbial metabolite
 - **N-Acetyl-L-arginine** — arginine derivative
 - **Methylguanidine** — creatinine metabolism product
 - **Phenylacetylglutamine** — phenylalanine microbial metabolite
@@ -44,7 +48,7 @@ Multi-platform urinary metabolomics study combining **1H-NMR, 1H-13C-HSQC-NMR, a
 
 **High relevance** — key discriminating metabolites are products of metal-dependent microbial pathways:
 
-- **[[Indoxyl sulfate]]**: produced from [[tryptophan]] by gut bacteria via indole pathway, then sulfated in liver; tryptophan metabolism is [[iron]]-dependent (IDO/TDO enzymes)
+- **[[tmao|Indoxyl sulfate]]**: produced from [[tryptophan-metabolism]] by gut bacteria via indole pathway, then sulfated in liver; tryptophan metabolism is [[iron]]-dependent (IDO/TDO enzymes)
 - **Phenylacetylglutamine**: microbial metabolism of [[phenylalanine]] — related to [[clostridium]] activity
 - **Methylguanidine**: creatinine-derived uremic toxin — accumulates when kidney function impaired by metal toxicity
 - Multi-platform data fusion approach could be applied to metal-metabolite interaction studies

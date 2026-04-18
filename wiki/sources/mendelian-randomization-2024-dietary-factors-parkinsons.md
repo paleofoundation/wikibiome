@@ -11,6 +11,8 @@ tags: [parkinsons-disease, mendelian-randomization, dietary-factors, causal-infe
 library_category: causal
 platform: both
 condition: "Parkinson's disease"
+evidence_level: quasi-experimental
+karen_brain_primitives: [5]
 ---
 
 # Correlation Between Dietary Factors and Parkinson's Disease Revealed by Mendelian Randomization
@@ -30,7 +32,7 @@ This [[mendelian-randomization]] study uses genetic instruments to assess causal
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Dietary factors influence both metal exposure and [[microbiome]] composition. Diets rich in fiber promote SCFA-producing bacteria and reduce metal absorption (phytates, fiber bind metals). Diets high in processed foods increase metal exposure (heavy metals in processed food additives) and promote [[dysbiosis]]. The MR evidence that dietary factors causally affect PD risk suggests that the dietary-microbiome-metal axis is a modifiable risk pathway. Dietary interventions that simultaneously reduce metal exposure and promote beneficial gut bacteria could have synergistic protective effects.
+Dietary factors influence both metal exposure and [[gut-microbiome|microbiome]] composition. Diets rich in fiber promote SCFA-producing bacteria and reduce metal absorption (phytates, fiber bind metals). Diets high in processed foods increase metal exposure (heavy metals in processed food additives) and promote [[dysbiosis]]. The MR evidence that dietary factors causally affect PD risk suggests that the dietary-microbiome-metal axis is a modifiable risk pathway. Dietary interventions that simultaneously reduce metal exposure and promote beneficial gut bacteria could have synergistic protective effects.
 
 ## Limitations
 

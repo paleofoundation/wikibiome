@@ -11,6 +11,8 @@ tags: [parkinsons-disease, nickel, sex-differences, estrogen, neuroprotection, h
 library_category: metals
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 2, 5, 7]
 ---
 
 # Sex Differences in Parkinson's Disease and Nickel Exposure
@@ -31,7 +33,7 @@ This reference analysis examines the intersection of sex differences in [[parkin
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Sex differences in PD connect directly to the metal-microbiome axis through multiple pathways. Estrogen regulates [[hepcidin]] expression, meaning premenopausal women have different [[iron]] homeostasis from men -- potentially explaining the sex difference in PD incidence. Estrogen also influences gut [[microbiome]] composition, with premenopausal women harboring more diverse, SCFA-producing-rich communities. The male gut microbiome may be less resilient to [[nickel]]-driven [[dysbiosis]], compounded by higher occupational [[nickel]] exposure. Post-menopausal estrogen decline simultaneously removes [[iron]]-chelating protection, hepcidin regulation, and microbiome-stabilizing effects, creating a triple vulnerability that increases PD risk. Sex-aware metal-microbiome interventions (e.g., phytoestrogen-rich diets that both chelate metals and modulate the microbiome) deserve investigation in PD prevention.
+Sex differences in PD connect directly to the metal-microbiome axis through multiple pathways. Estrogen regulates [[hepcidin]] expression, meaning premenopausal women have different [[iron]] homeostasis from men -- potentially explaining the sex difference in PD incidence. Estrogen also influences gut [[gut-microbiome|microbiome]] composition, with premenopausal women harboring more diverse, SCFA-producing-rich communities. The male gut microbiome may be less resilient to [[nickel]]-driven [[dysbiosis]], compounded by higher occupational [[nickel]] exposure. Post-menopausal estrogen decline simultaneously removes [[iron]]-chelating protection, hepcidin regulation, and microbiome-stabilizing effects, creating a triple vulnerability that increases PD risk. Sex-aware metal-microbiome interventions (e.g., phytoestrogen-rich diets that both chelate metals and modulate the microbiome) deserve investigation in PD prevention.
 
 ## Limitations
 

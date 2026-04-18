@@ -6,7 +6,7 @@ updated: 2026-04-14
 authors: [Shtrozberg et al.]
 year: 2025
 journal: "Clinical and Experimental Rheumatology"
-doi: "not yet verified"
+doi: "not yet verified"  # <!-- DOI lookup needed: Clinical and Experimental Rheumatology 2025 -->
 evidence_level: expert-opinion
 sample_size: "N/A (review)"
 tags: [fibromyalgia, review, fmt, magnesium, selenium, iron]
@@ -38,7 +38,7 @@ Narrative and critical review covering microbiome, FMT evidence, and micronutrie
 ## Relevance to WikiBiome
 
 - **Entity pages:** [[magnesium]], [[selenium]], [[iron]], [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[flavonifractor]], [[eisenbergiella]].
-- **Concept pages:** [[nmda-receptor]], [[oxidative-stress]], [[nutritional-immunity]].
+- **Concept pages:** [[neuroinflammation|nmda-receptor]], [[oxidative-stress]], [[nutritional-immunity]].
 - **Signature page:** [[fibromyalgia-signature]] — strengthens causality narrative and metallomic layer.
 
 ## Relevance to Cureva

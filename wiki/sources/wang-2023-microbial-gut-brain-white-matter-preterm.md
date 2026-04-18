@@ -31,7 +31,7 @@ key_findings:
 
 ## Relevance to WikiBiome
 
-- Informs entity pages for [[cerebral-palsy]], [[klebsiella-pneumoniae]], [[blood-brain-barrier]], and concept pages on [[myelination]] and [[gut-brain-axis]].
+- Informs entity pages for [[cerebral-palsy]], [[klebsiella-pneumoniae]], [[blood-brain-barrier]], and concept pages on [[neuroinflammation|myelination]] and [[gut-brain-axis]].
 - **Primitive 1** (metals as selective pressures): iron availability in the preterm gut selects for siderophore-producing organisms like Klebsiella.
 - **Primitive 5** (two-sided ecological engineering): both suppressing Klebsiella and restoring SCFA-producing commensals are needed.
 - **Primitive 8** (siderophore competition): Klebsiella's iron piracy machinery gives it competitive dominance in the preterm gut.

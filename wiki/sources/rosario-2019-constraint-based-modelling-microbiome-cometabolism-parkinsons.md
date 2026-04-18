@@ -11,19 +11,22 @@ tags: [parkinsons-disease, systems-biology, constraint-based-modeling, microbiom
 library_category: metabolomics
 platform: both
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [iron, manganese, nickel, zinc]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Constraint-Based Modelling of Host-Microbiome Co-Metabolism in Alzheimer's and Parkinson's Disease
 
 ## Summary
 
-This study applies constraint-based metabolic modeling to predict how altered gut [[microbiome]] composition in [[parkinsons-disease]] affects metabolic exchange between host and microbiome. Using genome-scale metabolic models of both microbiome communities and human host metabolism, it predicts metabolic flux changes associated with PD dysbiosis.
+This study applies constraint-based metabolic modeling to predict how altered gut [[gut-microbiome|microbiome]] composition in [[parkinsons-disease]] affects metabolic exchange between host and microbiome. Using genome-scale metabolic models of both microbiome communities and human host metabolism, it predicts metabolic flux changes associated with PD dysbiosis.
 
 ## Key Findings
 
 - PD-associated microbiome shifts predict reduced SCFA production and altered amino acid exchange
 - Bile acid metabolism is significantly affected by PD microbiome changes
-- [[Tryptophan-metabolism]] partitioning between host and microbiome is altered in PD
+- [[tryptophan-metabolism]] partitioning between host and microbiome is altered in PD
 - Sulfur amino acid exchange between host and microbiome is disrupted
 - The models predict metabolic bottlenecks that could be targeted therapeutically
 - Computational predictions correlate with available metabolomic data from PD cohorts

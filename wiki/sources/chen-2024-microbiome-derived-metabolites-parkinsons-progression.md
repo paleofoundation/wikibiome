@@ -11,6 +11,8 @@ tags: [parkinsons-disease, microbiome-derived-metabolites, disease-progression, 
 library_category: metabolites
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, lead]
+karen_brain_primitives: [1, 5]
 ---
 
 # Microbiome-Derived Metabolites and Parkinson's Disease Progression

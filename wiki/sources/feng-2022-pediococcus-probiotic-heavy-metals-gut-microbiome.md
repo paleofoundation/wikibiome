@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, probiotics, heavy-metals, pediococcus, coppe
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [copper, iron, nickel, selenium, zinc]
+taxa_discussed: [bifidobacterium, blautia]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Probiotic yogurt with Pediococcus acidilactici GR-1", "Conventional yogurt also reduced", "Metagenomic and metabolomic studies"]
 ---
 
 # Key Claims
@@ -32,7 +36,7 @@ Randomized double-blind controlled trial in 152 occupational workers from metal 
 # Relevance to Metallomic Framework
 
 - **[[zinc]]**: Zinc-dependent antioxidant enzymes enhanced by probiotic supplementation -- zinc status may predict probiotic efficacy
-- **[[iron]]**: [[Probiotics]] may reduce toxic iron forms while preserving beneficial iron pools
+- **[[iron]]**: [[probiotics]] may reduce toxic iron forms while preserving beneficial iron pools
 - **[[selenium]]**: Selenium-probiotic co-supplementation could further enhance antioxidant protection against heavy metals
 - **[[gut-metal-microbiome]]**: This study directly demonstrates [[probiotics]] can modify the [[gut-metal-microbiome]] to reduce toxic metal burden
 - **[[dysbiosis]]**: Heavy metal-induced [[dysbiosis]] is reversible through targeted probiotic intervention

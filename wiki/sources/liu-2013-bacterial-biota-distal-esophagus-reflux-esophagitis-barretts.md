@@ -1,5 +1,4 @@
 ---
-
 title: "Characterization of bacterial biota in the distal esophagus of Japanese patients with reflux esophagitis and Barrett's esophagus"
 type: source
 created: 2026-04-09
@@ -10,16 +9,18 @@ year: 2013
 doi: "10.1186/1471-2334-13-130"
 tags: [gerd, gastroesophageal-reflux, esophageal-microbiome, reflux-esophagitis, barretts-esophagus, 16s-rrna, proteobacteria, firmicutes, bacteroidetes, fusobacteria, streptococcus, veillonella, prevotella, klebsiella, haemophilus, microbiome-signature]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [haemophilus, klebsiella-pneumoniae, prevotella, streptococcus, veillonella]
 ---
 
 # Characterization of bacterial biota in the distal esophagus of Japanese patients with reflux esophagitis and Barrett's esophagus
 
 ## Key Claims
 
-- Esophageal bacterial composition differs under conditions of normal esophagus, reflux esophagitis, and [[Barretts esophagus]], with diverse bacterial communities associated with esophageal disease
-- In normal esophagus, [[Proteobacteria]] was most prevalent (49%), followed by [[Firmicutes]] (40%), [[Bacteroidetes]] (8%), and [[Actinobacteria]] (3%); *[[streptococcus]]* dominated at 21%
-- In reflux esophagitis, [[Proteobacteria]] dominated at 43%, followed by Firmicutes (33%), Bacteroidetes (10%), [[Fusobacteria]] (10%), and Actinobacteria (2%); 10 genera observed at >=3% including *Streptococcus* (20%), *Pasteurella* (10%), *Klebsiella* (9%)
-- In [[Barretts esophagus]], [[Firmicutes]] became most prevalent (55%), followed by Proteobacteria (20%), Bacteroidetes (14%), Fusobacteria (9%), with *[[veillonella]]* (19%), *[[prevotella]]* (12%), *Streptococcus* (11%) as dominant genera
+- Esophageal bacterial composition differs under conditions of normal esophagus, reflux esophagitis, and [[barretts-esophagus]], with diverse bacterial communities associated with esophageal disease
+- In normal esophagus, [[proteobacteria]] was most prevalent (49%), followed by [[firmicutes]] (40%), [[bacteroidetes]] (8%), and [[actinobacteria]] (3%); *[[streptococcus]]* dominated at 21%
+- In reflux esophagitis, [[proteobacteria]] dominated at 43%, followed by Firmicutes (33%), Bacteroidetes (10%), [[fusobacterium-nucleatum|Fusobacteria]] (10%), and Actinobacteria (2%); 10 genera observed at >=3% including *Streptococcus* (20%), *Pasteurella* (10%), *Klebsiella* (9%)
+- In [[barretts-esophagus]], [[firmicutes]] became most prevalent (55%), followed by Proteobacteria (20%), Bacteroidetes (14%), Fusobacteria (9%), with *[[veillonella]]* (19%), *[[prevotella]]* (12%), *Streptococcus* (11%) as dominant genera
 - Total bacterial DNA did not significantly differ between the three groups (p>0.1), suggesting shifts in community composition rather than total bacterial load
 - The shift from Proteobacteria-dominant to Firmicutes-dominant communities from esophagitis to Barrett's represents a distinct progression pattern
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Associations between gut microbiota and thyroidal function status in Chinese patients with Graves' disease"
 type: source
 created: 2026-04-09
@@ -10,13 +9,16 @@ year: 2021
 doi: "10.1007/s40618-021-01507-6"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, 16S-rRNA, TRAb, Lactobacillus, Phascolarctobacterium, Synergistetes, Ruminococcus, dysbiosis, methimazole, thyroid-antibodies]
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [bifidobacterium, blautia, lactobacillus, ruminococcus, streptococcus, veillonella]
+karen_brain_primitives: [5]
 ---
 
 # Associations between gut microbiota and thyroidal function status in Chinese patients with Graves' disease
 
 ## Key Claims
 
-- The abundance and diversity of [[gut microbiota]] are significantly reduced in patients with [[graves-disease]] (GD) compared to healthy controls, and increase after methimazole treatment
+- The abundance and diversity of [[gut-microbiome]] are significantly reduced in patients with [[graves-disease]] (GD) compared to healthy controls, and increase after methimazole treatment
 - [[Synergistetes]] and [[phascolarctobacterium]] show negative correlation with TRAb, suggesting a protective role, while [[ruminococcus]] and [[lactobacillus]] may be novel biomarkers for GD
 - [[bifidobacterium]] abundance was positively correlated with TRAb (r=0.588, P=0.002), TGAb (r=0.463, P=0.023), and the change in Bifidobacterium tracked with changes in TPOAb
 - After methimazole treatment (3-5 months), gut microbiota composition and diversity significantly improved, with Phascolarctobacterium increasing and Blautia, Lactobacillus, Veillonella, Streptococcus decreasing
@@ -41,7 +43,7 @@ platform: wikibiome
 - Confirms and extends findings from [[yang-2022-intestinal-flora-graves-methimazole]] using independent cohort from Nanjing (vs Shanghai)
 - Synergistetes protective role consistent across both studies; relevant to understanding immune regulation
 - Bifidobacterium-TRAb positive correlation replicated, consistent with [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] MR risk finding
-- Phascolarctobacterium as protective biomarker connects to [[Short-Chain Fatty Acids]] production (propionate)
+- Phascolarctobacterium as protective biomarker connects to [[short-chain-fatty-acids]] production (propionate)
 - Lactobacillus paradox (positive TRAb correlation despite generally being considered beneficial) requires context of [[probiotics]] in autoimmune thyroid disease
 - Recovery of microbiome diversity after methimazole treatment supports bidirectional hypothesis
-- Ruminococcus changes tracked with TRAb, relevant to its role in [[Bile Acid Metabolism]] and immune modulation
+- Ruminococcus changes tracked with TRAb, relevant to its role in [[bile-acid-metabolism]] and immune modulation

@@ -1,5 +1,4 @@
 ---
-
 title: "Multi-Omics Reveals that Lead Exposure Disturbs Gut Microbiome Development, Key Metabolites, and Metabolic Pathways"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2017
 tags: [lead, gut-microbiota, metabolomics, metagenomics, 16S-rRNA, GC-MS, multi-omics, vitamin-E, bile-acids, oxidative-stress, mice, original-research]
 doi: "10.1021/acs.chemrestox.6b00401"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [lead, nickel]
+taxa_discussed: [oscillospiraceae, ruminococcus]
+karen_brain_primitives: [1, 4]
 ---
 
 # Key Claims
@@ -33,8 +36,8 @@ platform: wikibiome
 
 # Connections
 
-- Pioneering multi-omics study of lead-gut microbiome; methodology parallels [[Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
-- Vitamin E and bile acid reduction findings confirmed by [[Zhu 2024 - Toxic Essential Metals Gut Microbiota]] review
+- Pioneering multi-omics study of lead-gut microbiome; methodology parallels [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
+- Vitamin E and bile acid reduction findings confirmed by [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]] review
 - Oxidative stress mechanisms connect to [[Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]]
-- Detoxification pathway activation relevant to [[Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
+- Detoxification pathway activation relevant to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
 - Multi-omics approach could be applied to study [[nickel]] effects on gut microbiome

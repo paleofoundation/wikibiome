@@ -1,5 +1,4 @@
 ---
-
 title: "The Effects of Probiotic Supplementation on Gene Expression Related to Inflammation, Insulin, and Lipids in Patients With Multiple Sclerosis: A Randomized, Double-Blind, Placebo-Controlled Trial"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2017
 tags: [probiotics, multiple-sclerosis, gene-expression, inflammation, TNF-alpha, IL-8, clinical-trial, Lactobacillus, Bifidobacterium]
 doi: "10.1080/07315724.2017.1347074"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bifidobacterium, lactobacillus, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # The Effects of Probiotic Supplementation on Gene Expression Related to Inflammation, Insulin, and Lipids in Patients With Multiple Sclerosis
@@ -18,8 +20,8 @@ platform: wikibiome
 
 ## Key Claims
 
-- 12-week probiotic supplementation significantly downregulated gene expression of [[IL-8]] (p < 0.001) and [[TNF-alpha]] (p < 0.001) in peripheral blood mononuclear cells (PBMCs) of MS patients compared to placebo
-- No significant effect was observed on gene expression of [[IL-1]], [[PPAR-gamma]], or oxidized low-density lipoprotein receptor (LDLR)
+- 12-week probiotic supplementation significantly downregulated gene expression of [[inflammation|IL-8]] (p < 0.001) and [[inflammation|TNF-alpha]] (p < 0.001) in peripheral blood mononuclear cells (PBMCs) of MS patients compared to placebo
+- No significant effect was observed on gene expression of [[inflammation|IL-1]], [[inflammation|PPAR-gamma]], or oxidized low-density lipoprotein receptor (LDLR)
 - This was claimed as the first study evaluating probiotic effects on gene expression related to inflammation, insulin, and lipids in [[multiple-sclerosis]] patients
 
 ## Methods/Findings

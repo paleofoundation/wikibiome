@@ -9,6 +9,8 @@ year: 2025
 doi: "10.1186/s43045-025-00585-z"
 tags: [schizophrenia, depression, anxiety, gut-brain-axis, SCFAs, kynurenine, neuroinflammation, biomarkers, probiotics, FMT, scoping-review]
 platform: wikibiome
+evidence_level: expert-opinion
+karen_brain_primitives: [5]
 ---
 
 # The Gut-Brain Axis in Depression, Anxiety, and Schizophrenia: A Scoping Review

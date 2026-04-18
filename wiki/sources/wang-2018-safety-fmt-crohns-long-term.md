@@ -1,5 +1,4 @@
 ---
-
 title: "The Safety of Fecal Microbiota Transplantation for Crohn's Disease: Findings from A Long-Term Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2018
 tags: [crohns-disease, IBD, fecal-microbiota-transplantation, FMT, safety, adverse-events, long-term-study, clinical-trial]
 doi: "10.1007/s12325-018-0800-3"
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

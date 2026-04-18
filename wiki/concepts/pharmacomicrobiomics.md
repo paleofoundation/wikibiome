@@ -1,5 +1,4 @@
 ---
-
 title: Pharmacomicrobiomics
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative]
 tags: [drug-metabolism, microbiome, drug-response, L-DOPA, metformin, PPIs, antibiotics, pharmacokinetics, precision-medicine]
 platform: wikibiome
+karen_brain_primitives: [1, 4, 5, 7]
+seo_target: "pharmacomicrobiomics"
+last_substantive_update: 2026-04-09
 ---
 
 # Pharmacomicrobiomics
@@ -28,7 +30,7 @@ The most striking example relevant to this wiki: gut bacteria (Enterococcus faec
 ## Drugs Alter the Microbiome
 
 ### Proton Pump Inhibitors (PPIs)
-Among the most disruptive non-antibiotic drugs for the microbiome. PPIs raise gastric pH, permitting oral bacteria to colonize the gut, increasing Streptococcus and Enterococcus while depleting Clostridiales. PPI use associates with increased [[clostridium-difficile]] infection, reduced [[short-chain-fatty-acids]] production, and altered metal absorption (especially iron, calcium, magnesium).
+Among the most disruptive non-antibiotic drugs for the microbiome. PPIs raise gastric pH, permitting oral bacteria to colonize the gut, increasing Streptococcus and Enterococcus while depleting Clostridiales. PPI use associates with increased [[clostridioides-difficile]] infection, reduced [[short-chain-fatty-acids]] production, and altered metal absorption (especially iron, calcium, magnesium).
 
 ### Metformin
 The first-line [[type-2-diabetes]] drug has profound microbiome effects that may partly explain its therapeutic action. Metformin increases Akkermansia muciniphila, enhances [[short-chain-fatty-acids]] production, and improves gut barrier function. Some of metformin's "side effects" (GI distress) are microbiome-mediated. The drug also affects metal handling -- metformin lowers vitamin B12 absorption (cobalt-containing vitamin), linking pharmacomicrobiomics to metallomics.

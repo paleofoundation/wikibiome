@@ -12,6 +12,8 @@ library_category: "Mendelian randomization"
 platform: genetic
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: systematic-review-meta-analysis
+key_findings: ["CD4+ %leukocyte", "CD20 on CD24+CD27+", "CD28-CD8dim %CD8dim"]
 ---
 
 # Overview
@@ -51,5 +53,5 @@ First bidirectional two-sample MR study to establish **cause-and-effect relation
 # Connections
 
 - Immune dysregulation findings link to [[heidari-2021-immune-system-asd-therapeutic-challenges]]
-- T-cell abnormalities connect to [[zhou-2025-gut-microbiota-immune-nervous-asd]]
+- T-cell abnormalities connect to [[zhou-2025-gut-microbiota-immune-nervous-system-asd]]
 - Complements microbiota-focused MR in [[li-2023-gut-microbiota-asd-bidirectional-mr]]

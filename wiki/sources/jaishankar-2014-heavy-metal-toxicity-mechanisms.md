@@ -38,6 +38,8 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: "Unifies diverse metal toxicity mechanisms (ROS generation, glutathione depletion, mis-metallation, DNA repair inhibition) under a single conceptual framework, enabling WikiBiome to explain why multiple metals—arsenic, lead, cadmium, chromium—converge on dysbiotic inflammation. Critical for understanding why metal burden correlates with dysbiosis across metabolic, autoimmune, and neurological conditions."
+metals_discussed: [aluminum, arsenic, cadmium, calcium, chromium, cobalt, copper, iron, lead, magnesium, mercury, nickel, selenium, vanadium, zinc]
+karen_brain_primitives: [1, 2, 3, 4, 9]
 ---
 
 # Toxicity, Mechanism and Health Effects of Some Heavy Metals

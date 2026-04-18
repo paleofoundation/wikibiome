@@ -40,8 +40,8 @@ key_findings:
 ## Relevance to WikiBiome
 
 - [[arsenic]] entity page — speciation data confirming AsIII dominance in rice.
-- [[rice]] entity/concept — supports Su 2023 on brown > white arsenic but adds speciation data.
-- [[inorganic-arsenic]] concept — quantitative data on EU limit exceedances.
+- [[dietary-arsenic-exposure|rice]] entity/concept — supports Su 2023 on brown > white arsenic but adds speciation data.
+- [[dietary-arsenic-exposure|inorganic-arsenic]] concept — quantitative data on EU limit exceedances.
 
 ## Relevance to Cureva
 

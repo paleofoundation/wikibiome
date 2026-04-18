@@ -33,7 +33,7 @@ The result is that cellular metal availability is precisely controlled to be the
 
 ## How Mis-metallation Occurs
 
-[[Mis-metallation]] is what happens when this inverse relationship breaks down:
+[[mis-metallation]] is what happens when this inverse relationship breaks down:
 
 - **Environmental metal exposure** (dietary [[cadmium]], [[lead]], [[nickel]], [[arsenic]]) introduces metals that can outcompete the correct cofactor based on Irving-Williams affinities.
 - **Cadmium (Cd2+)** has binding properties between Zn2+ and Cu2+ -- it displaces zinc from zinc-finger proteins and enzymes, disrupting DNA repair, transcription, and signaling.

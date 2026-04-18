@@ -1,5 +1,4 @@
 ---
-
 title: "Antidepressants on Multiple Sclerosis: A Review of In Vitro and In Vivo Models"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 tags: [multiple-sclerosis, antidepressants, EAE, fluvoxamine, venlafaxine, clomipramine, desipramine, imipramine, doxepin, neuroprotection, oligodendrocyte, demyelination, Notch-signaling, immunomodulation]
 doi: "10.3389/fimmu.2021.677879"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
 ---
 
 # Antidepressants on Multiple Sclerosis: A Review of In Vitro and In Vivo Models

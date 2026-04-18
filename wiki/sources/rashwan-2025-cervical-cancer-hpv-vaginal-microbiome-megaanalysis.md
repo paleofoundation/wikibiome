@@ -9,6 +9,9 @@ year: 2025
 doi: "10.1186/s40246-025-00795-w"
 tags: [ovarian-cancer, cervical-cancer, HPV, vaginal-microbiome, 16S-rRNA, Porphyromonas, Campylobacter, Anaerococcus, dysbiosis, meta-analysis]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [anaerococcus, campylobacter-jejuni, lactobacillus, porphyromonas]
+karen_brain_primitives: [6]
 ---
 
 # Cervical Cancer, HPV, and the Vaginal Microbiome: A Mega-Analysis

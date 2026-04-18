@@ -11,6 +11,8 @@ tags: [type-1-diabetes, autoimmune, polyphenols, antioxidants, oxidative-stress,
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Key Claims

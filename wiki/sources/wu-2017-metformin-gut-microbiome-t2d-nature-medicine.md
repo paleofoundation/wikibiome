@@ -1,5 +1,4 @@
 ---
-
 title: "Metformin alters the gut microbiome of individuals with treatment-naive type 2 diabetes, contributing to the therapeutic effects of the drug"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2017
 doi: 10.1038/nm.4345
 tags: [cardiovascular-disease, metformin, gut-microbiome, type-2-diabetes, shotgun-metagenomics, SCFAs, bile-acids, Akkermansia, Bifidobacterium, randomized-controlled-trial]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, escherichia-coli]
+karen_brain_primitives: [5]
 ---
 
 # Metformin Alters the Gut Microbiome of Individuals with Treatment-Naive Type 2 Diabetes
@@ -46,6 +48,6 @@ Randomized, placebo-controlled, double-blind study in 40 treatment-naive T2D ind
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Metformin's microbiome-mediated effects** - [[Metformin]] therapeutic effects partly mediated through gut microbiome alterations, relevant to its cardioprotective properties
+1. **Metformin's microbiome-mediated effects** - [[metformin]] therapeutic effects partly mediated through gut microbiome alterations, relevant to its cardioprotective properties
 2. **SCFA production** - Increased [[short-chain-fatty-acids]] production may contribute to metformin's cardiovascular benefits via anti-inflammatory and barrier-protective effects
 3. **Drug repurposing framework** - Demonstrates how understanding drug-microbiome interactions can reveal novel therapeutic mechanisms for [[cardiovascular-disease]]

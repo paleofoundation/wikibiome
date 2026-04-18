@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, oxidative-stress, gestational-diabetes, materna
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["Oxidative stress markers", "Maternal diabetes"]
 ---
 
 # Key Claims

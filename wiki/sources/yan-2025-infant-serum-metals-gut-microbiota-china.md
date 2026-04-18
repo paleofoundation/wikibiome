@@ -1,5 +1,4 @@
 ---
-
 title: "Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ tags: [infants, metals-mixture, gut-microbiota, arsenic, copper, cadmium, mangan
 doi: "10.3389/fmicb.2025.1669475"
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [antimony, arsenic, barium, cadmium, chromium, cobalt, copper, lead, manganese, uranium]
+taxa_discussed: [acinetobacter]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
@@ -19,7 +21,7 @@ evidence_level: cross-sectional
 - Six significant antagonistic metal-metal interactions were identified (Cr-W, Cr-La, Tl-As, As-La, As-Pr, La-Pr), alongside two synergistic interactions (Sb-Pr and Sb-U)
 - Bayesian kernel machine regression (BKMR) identified manganese (Mn) as a key contributor to Burkholderia-Caballeronia-Paraburkholderia abundance (PIP = 0.535), with As driving Ralstonia abundance (PIP = 0.886)
 - Cu was the primary driver of Clostridium_sensu_stricto_1 abundance (PIP = 0.867), with synergistic Mn-Cu and Ba-Cu interactions
-- [[Cadmium Toxicity|Cadmium]] was significantly associated with increased Acinetobacter abundance, a finding previously unreported in humans but supported by murine models
+- [[cadmium|Cadmium Toxicity]] was significantly associated with increased Acinetobacter abundance, a finding previously unreported in humans but supported by murine models
 
 # Methods/Findings
 
@@ -35,9 +37,9 @@ evidence_level: cross-sectional
 
 # Connections
 
-- Novel mixture exposure approach advances beyond single-metal studies in [[Gut Microbiome and Metal Exposure]]
-- BKMR methodology provides causal inference framework relevant to [[Mendelian randomization]] approaches in microbiome research
-- Infant vulnerability to metal-microbiome disruption connects to developmental windows discussed in [[eggers-2023-prenatal-lead-gut-microbiome-childhood]]
+- Novel mixture exposure approach advances beyond single-metal studies in [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]]
+- BKMR methodology provides causal inference framework relevant to [[mendelian-randomization]] approaches in microbiome research
+- Infant vulnerability to metal-microbiome disruption connects to developmental windows discussed in [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]
 - Cu-Clostridium_sensu_stricto_1 finding complements [[abdel-azim-2018-heavy-metals-vfas-methanococcus]] copper toxicity mechanisms
-- Metal-metal antagonistic interactions (As-La, As-Pr) suggest protective combinations relevant to [[Environmental Exposures]] mitigation
-- Cd-Acinetobacter association connects to broader [[Cadmium Toxicity]] microbiome effects
+- Metal-metal antagonistic interactions (As-La, As-Pr) suggest protective combinations relevant to [[environmental-metal-exposure|Environmental Exposures]] mitigation
+- Cd-Acinetobacter association connects to broader [[cadmium|Cadmium Toxicity]] microbiome effects

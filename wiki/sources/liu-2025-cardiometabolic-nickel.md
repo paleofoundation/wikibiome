@@ -1,5 +1,4 @@
 ---
-
 title: "Cardio-Metabolic Effects of Nickel: A Narrative Review"
 type: source
 created: 2026-04-09
@@ -14,6 +13,9 @@ platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 3, 4]
 why_keystone: "This review bridges nickel toxicology and cardio-metabolic disease — two fields that rarely intersect. It provides the epidemiological and mechanistic evidence connecting nickel exposure to cardiovascular disease and metabolic syndrome, which allows WikiBiome to extend its nickel-pathogenesis framework beyond the gut into systemic metabolic consequences. Without this paper, the cross-condition pattern linking nickel to both gut dysbiosis and cardiovascular outcomes could not be drawn."
+evidence_level: cross-sectional
+metals_discussed: [arsenic, chromium, copper, nickel, vanadium, zinc]
+key_findings: ["Nickel exposure is potentially associated with cardiovascular disease (CVD) and metabolic syndrome (MetS)"]
 ---
 
 # Cardio-Metabolic Effects of Nickel: A Narrative Review

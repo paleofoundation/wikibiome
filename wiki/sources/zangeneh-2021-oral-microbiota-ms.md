@@ -1,5 +1,4 @@
 ---
-
 title: "Bacterial Variation in the Oral Microbiota in Multiple Sclerosis Patients"
 type: source
 created: 2026-04-09
@@ -10,7 +9,7 @@ year: 2021
 tags: [oral-microbiome, multiple-sclerosis, 16S-rRNA, DGGE, dysbiosis, Lactobacillus, Peptostreptococcus, Prevotella, Fusobacterium]
 doi: "10.1371/journal.pone.0260384"
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: ["Fusobacterium", "Lactobacillus", "Prevotella"]
 evidence_level: cross-sectional
@@ -22,7 +21,7 @@ evidence_level: cross-sectional
 
 - The oral microbiota of [[multiple-sclerosis]] patients is significantly different from healthy controls, with greater total bacterial diversity in the patient group
 - [[lactobacillus]] and [[peptostreptococcus]] were significantly higher in the healthy group (OR 0.039 and 0.250 respectively), suggesting a protective role against MS pathogenesis
-- [[prevotella]], [[porphyromonas]], [[bacteroides-fragilis]], [[actinomyces]], [[Staphylococcus]], [[fusobacterium]], and [[Propionibacterium]] were significantly more abundant in MS patients
+- [[prevotella]], [[porphyromonas]], [[bacteroides-fragilis]], [[actinomyces]], [[staphylococcus-aureus]], [[fusobacterium]], and [[Propionibacterium]] were significantly more abundant in MS patients
 - [[veillonella]] was found exclusively in the MS patient group
 - DGGE detected more bacterial genera/species than culture methods, identifying at least 10 different bacteria per sample
 
@@ -30,7 +29,7 @@ evidence_level: cross-sectional
 
 - **Design**: Case-control study at Kermanshah University of Medical Sciences, Iran (October 2019 - March 2020)
 - **Participants**: 30 positive MS patients (remission phase) and 30 age/sex/BMI-matched healthy controls; all female, aged 19-42 at onset
-- **Methods**: Oral swab samples analyzed by culture and [[16S-rRNA]] PCR-DGGE (denaturing gradient gel electrophoresis) with sequencing of unique bands
+- **Methods**: Oral swab samples analyzed by culture and [[shotgun-metagenomics|16S-rRNA]] PCR-DGGE (denaturing gradient gel electrophoresis) with sequencing of unique bands
 - **Key Findings**: MS patients had significantly higher BMI (26.89 vs 24.3, p < 0.001); most bacterial genera were more abundant in MS patients; *Lactobacillus* may inhibit oral cancer via MAPK pathway reduction; *Peptostreptococcus* produces indoleacrylic acid that increases IL-10 secretion
 - **Exclusion criteria**: Antibiotic use in prior 3 months, probiotic use in prior month, corticosteroids in prior 2 weeks, other autoimmune diseases, periodontitis
 

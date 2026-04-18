@@ -1,5 +1,4 @@
 ---
-
 title: "Role of immune cells in mediating the effect of gut microbiota on Hashimoto's thyroiditis: a 2-sample Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, mendelian-randomization, gut-microbiota, immune-cells, causality, akkermansia, cd4-t-cells, dysbiosis]
 doi: "10.3389/fmicb.2024.1463394"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [akkermansia-muciniphila, ruminococcus]
+karen_brain_primitives: [5]
 ---
 
 # Role of immune cells in mediating the effect of gut microbiota on Hashimoto's thyroiditis: a 2-sample Mendelian randomization study

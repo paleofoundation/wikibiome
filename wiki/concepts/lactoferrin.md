@@ -1,5 +1,4 @@
 ---
-
 title: Lactoferrin
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [roberts-2019-lactoferrin-genital-infections-iron, maier-2019-nickel-microbial-pathogenesis, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, feng-2025-heavy-metals-bacterial-vaginosis, amerikanou-2022-ibd-biomarkers-trace-metals]
 tags: [nutritional-immunity, iron-binding, mucosal-immunity, breast-milk, neutrophil, antimicrobial, nickel]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 8]
+seo_target: "lactoferrin microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Lactoferrin

@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2021
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2021 -->
 tags: [type-1-diabetes, autoimmune, shotgun-metagenomics, synbiotics, dietary-regulation, gut-microbiome, probiotics, dysbiosis]
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [zinc]
+karen_brain_primitives: [1, 5]
+key_findings: ["Synbiotics and dietary regulation", "Metagenomic sequencing"]
 ---
 
 # Key Claims

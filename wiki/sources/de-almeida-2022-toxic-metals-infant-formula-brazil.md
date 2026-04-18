@@ -1,5 +1,4 @@
 ---
-
 title: "Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2022
 tags: [infant-formula, food-safety, aluminum, arsenic, tin, cadmium, lead, mercury, uranium, ICP-MS, target-hazard-quotient, cancer-risk, Brazil]
 doi: "10.3390/ijerph191811178"
 platform: wikibiome
+metals_discussed: [aluminum, arsenic, cadmium, lead, mercury, tin, uranium]
 ---
 
 # Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil

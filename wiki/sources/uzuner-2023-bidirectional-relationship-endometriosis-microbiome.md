@@ -1,5 +1,4 @@
 ---
-
 title: "The bidirectional relationship between endometriosis and microbiome"
 type: source
 created: 2026-04-09
@@ -12,12 +11,13 @@ doi: "10.3389/fendo.2023.1110824"
 platform: wikibiome
 karen_brain_primitives: [5, 7, 9]
 metals_discussed: ["iron"]
-taxa_discussed: []
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, escherichia-coli, lactobacillus]
+evidence_level: expert-opinion
 ---
 
 # Key Claims
 
-- [[Dysbiosis]] in [[endometriosis]] is both a cause and a consequence of the disease, creating a self-reinforcing cycle
+- [[dysbiosis]] in [[endometriosis]] is both a cause and a consequence of the disease, creating a self-reinforcing cycle
 - Free heme and [[iron]] from retrograde menstruation lead to ROS formation, causing [[oxidative-stress]] that damages cells and alters gene expression via NF-kB
 - The estrobolome (gut bacteria producing beta-glucuronidase) modulates circulating estrogen levels, potentially driving endometriosis progression
 - *Bacteroides*, *Bifidobacterium*, *Escherichia*, and *Lactobacillus* encode beta-glucuronidase, linking [[dysbiosis]] to hyperestrogenic states
@@ -32,7 +32,7 @@ taxa_discussed: []
  - Genetics and epigenetics (GWAS, DNA methylation)
  - Microbiome of endometriosis across body sites (gut, reproductive tract, peritoneal)
  - Estrobolome mechanism and Bacteroidetes/Firmicutes shifts
- - [[Bacterial-contamination-hypothesis]] (LPS/TLR4 pathway)
+ - [[bacterial-contamination-hypothesis]] (LPS/TLR4 pathway)
  - Evidence for therapeutic microbiome manipulation
 
 # Relevance to Wiki

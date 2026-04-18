@@ -11,6 +11,8 @@ tags: [autism, heterogeneity, diagnosis, comorbidities, treatment, review]
 library_category: causal
 platform: wikibiome
 condition: "autism spectrum disorder"
+karen_brain_primitives: [2, 4]
+key_findings: ["ASD is a heterogeneous condition", "High prevalence of comorbid medical/psychiatric conditions"]
 ---
 
 # Key Claims

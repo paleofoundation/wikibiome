@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, zinc, nutritional-immunity, Pseudomona
 library_category: host_pathogen_nutritional_immunity
 platform: wikibiome
 condition: "host zinc restriction and pathogen adaptation"
+metals_discussed: [zinc]
+taxa_discussed: [pseudomonas-aeruginosa]
+karen_brain_primitives: [2, 3, 4, 8]
 ---
 
 # Why This Paper Matters
@@ -53,8 +56,8 @@ This paper validates Galleria mellonella (greater wax moth larvae) as an in vivo
 - [[mis-metallation]] -- zinc starvation increases risk of mis-metallation by forcing enzymes to use non-preferred metals
 - [[zinc]] -- central role of zinc in host-pathogen battle
 - [[nutritional-immunity]] -- invertebrate zinc restriction parallels mammalian nutritional immunity
-- [[Pseudomonas-aeruginosa]] -- zinc acquisition as virulence determinant in CF lung pathogen
+- [[pseudomonas-aeruginosa]] -- zinc acquisition as virulence determinant in CF lung pathogen
 - [[calprotectin]] -- pseudopaline can scavenge zinc from host calprotectin
 - [[metal-homeostasis]] -- Zur regulon activation under host-imposed zinc limitation
-- [[siderophore]] -- pseudopaline is analogous to siderophores but for zinc (zincophore)
-- [[virulence]] -- zinc uptake mutants attenuated in G. mellonella infection model
+- [[siderophores|siderophore]] -- pseudopaline is analogous to siderophores but for zinc (zincophore)
+- [[virulence-factors|virulence]] -- zinc uptake mutants attenuated in G. mellonella infection model

@@ -1,5 +1,4 @@
 ---
-
 title: "Transcriptomics to Study the Effect of a Mediterranean-Inspired Diet on Inflammation in Crohn's Disease Patients"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2013
 tags: [crohns-disease, IBD, Mediterranean-diet, transcriptomics, gene-expression, inflammation, microbiome, IRF2, STAT3, dietary-intervention]
 doi: "10.1186/1479-7364-7-24"
 platform: wikibiome
+taxa_discussed: [clostridium]
 ---
 
 # Key Claims
@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- STAT3 pathway changes connect to [[Xu et al. 2023|xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]] causal STAT3 finding
+- STAT3 pathway changes connect to [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr|xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]] causal STAT3 finding
 - Microbiota normalization by diet supports the [[dysbiosis]] correction framework
 - [[inflammation]] reduction through dietary modulation of gene expression
 - Connects to [[gut-metal-microbiome]] through diet-mediated changes in mineral absorption and microbial composition

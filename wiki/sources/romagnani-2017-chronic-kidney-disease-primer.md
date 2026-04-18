@@ -9,6 +9,7 @@ journal: "Nature Reviews Disease Primers"
 doi: "10.1038/nrdp.2017.88"
 tags: [chronic-kidney-disease, CKD, disease-primer, pathophysiology, review, ESRD, epidemiology, treatment]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Chronic Kidney Disease: Disease Primer

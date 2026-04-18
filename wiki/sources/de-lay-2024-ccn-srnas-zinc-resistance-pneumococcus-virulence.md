@@ -11,6 +11,11 @@ tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, manganese, sRNA, 
 library_category: streptococcus_staphylococcus
 platform: wikibiome
 condition: "sRNA regulation of zinc resistance in pneumococcus"
+evidence_level: animal-model
+metals_discussed: [iron, manganese, zinc]
+taxa_discussed: [streptococcus]
+karen_brain_primitives: [3, 4]
+key_findings: ["Deletion of all five ccn genes"]
 ---
 
 # Why This Paper Matters
@@ -58,7 +63,7 @@ This paper reveals that the five homologous Ccn small regulatory RNAs (sRNAs) of
 - [[manganese]] -- Mn:Zn ratio determines correct metalation of Mn-dependent enzymes
 - [[sRNA]] -- CiaRH-regulated Ccn sRNAs controlling metal homeostasis and virulence
 - [[superoxide-dismutase]] -- SodA mis-metallation by Zn as key vulnerability
-- [[Streptococcus-pneumoniae]] -- Mn-centric pathogen uniquely vulnerable to Zn intoxication
+- [[streptococcus-pneumoniae]] -- Mn-centric pathogen uniquely vulnerable to Zn intoxication
 - [[nutritional-immunity]] -- host Zn weaponization targets pneumococcal Mn-dependent enzymes
-- [[virulence]] -- ccn sRNAs essential for full virulence in invasive pneumonia
+- [[virulence-factors|virulence]] -- ccn sRNAs essential for full virulence in invasive pneumonia
 - [[oxidative-stress]] -- Zn toxicity ultimately manifests as oxidative stress vulnerability

@@ -1,5 +1,4 @@
 ---
-
 title: "Bacterial Composition of the Human Upper Gastrointestinal Tract Microbiome Is Dynamic and Associated with Genomic Instability in a Barrett's Esophagus Cohort"
 type: source
 created: 2026-04-09
@@ -10,14 +9,16 @@ year: 2015
 doi: "10.1371/journal.pone.0129055"
 tags: [gerd, gastroesophageal-reflux, barretts-esophagus, esophageal-adenocarcinoma, upper-gi-microbiome, streptococcus, prevotella, helicobacter-pylori, 16s-rrna, aneuploidy, genomic-instability, microbiome-signature, acid-suppression]
 platform: wikibiome
+evidence_level: prospective-cohort
+taxa_discussed: [helicobacter-pylori, prevotella, streptococcus, veillonella]
 ---
 
 # Bacterial Composition of the Human Upper Gastrointestinal Tract Microbiome Is Dynamic and Associated with Genomic Instability in a Barrett's Esophagus Cohort
 
 ## Key Claims
 
-- [[streptococcus]] and [[prevotella]] species dominate the upper GI tract, and the ratio of these two species is associated with waist-to-hip ratio and hiatal hernia length, two known [[esophageal adenocarcinoma]] risk factors
-- [[helicobacter-pylori]]-positive individuals had a significantly decreased incidence of aneuploidy (22% lower) and a non-significant trend toward lower incidence of EAC in [[Barretts esophagus]]
+- [[streptococcus]] and [[prevotella]] species dominate the upper GI tract, and the ratio of these two species is associated with waist-to-hip ratio and hiatal hernia length, two known [[barretts-esophagus|esophageal adenocarcinoma]] risk factors
+- [[helicobacter-pylori]]-positive individuals had a significantly decreased incidence of aneuploidy (22% lower) and a non-significant trend toward lower incidence of EAC in [[barretts-esophagus]]
 - Bacterial communities of the stomach and esophagus showed overlapping community membership within individuals, but stomach antrum and corpus communities were less similar than antrum and esophageal samples
 - Mucosal brush sampling enriched for bacterial DNA and increased diversity compared to tissue biopsies, with up to two-log improvement in 18S recovery
 - Re-sampling of study participants over time (2-4 years) revealed similar upper GI community membership in two of three cases, demonstrating temporal stability

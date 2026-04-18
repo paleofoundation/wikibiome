@@ -11,6 +11,9 @@ tags: [parkinsons-disease, mycobiome, gut-fungi, ITS-sequencing, Saccharomycetac
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [copper, iron, manganese, zinc]
+karen_brain_primitives: [1, 6]
 ---
 
 # The Gut Mycobiome in Parkinson's Disease
@@ -22,7 +25,7 @@ This study characterizes the gut [[mycobiome]] in [[parkinsons-disease]] patient
 ## Key Findings
 
 - PD patients and controls showed differences in gut fungal community composition
-- [[Saccharomycetaceae]] family members were altered in PD
+- [[saccharomyces-cerevisiae|Saccharomycetaceae]] family members were altered in PD
 - Fungal alpha diversity metrics showed trends toward difference between PD and controls
 - Beta diversity analysis revealed distinct fungal community structures in PD
 - Fungal-bacterial interaction networks were disrupted in PD patients
@@ -30,7 +33,7 @@ This study characterizes the gut [[mycobiome]] in [[parkinsons-disease]] patient
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The disruption of fungal-bacterial interaction networks in [[parkinsons-disease]] is highly relevant to the metallomic-microbiome framework. Fungi and bacteria compete for the same metal resources in the gut -- [[iron]], [[zinc]], [[manganese]], and [[copper]]. When bacterial communities are disrupted (as extensively documented in PD), this alters the competitive landscape for fungi, potentially enabling opportunistic fungal expansion. The [[Saccharomycetaceae]] changes documented here may reflect altered metal availability in the PD gut microenvironment.
+The disruption of fungal-bacterial interaction networks in [[parkinsons-disease]] is highly relevant to the metallomic-microbiome framework. Fungi and bacteria compete for the same metal resources in the gut -- [[iron]], [[zinc]], [[manganese]], and [[copper]]. When bacterial communities are disrupted (as extensively documented in PD), this alters the competitive landscape for fungi, potentially enabling opportunistic fungal expansion. The [[saccharomyces-cerevisiae|Saccharomycetaceae]] changes documented here may reflect altered metal availability in the PD gut microenvironment.
 
 ## Limitations
 

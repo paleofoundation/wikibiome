@@ -1,5 +1,4 @@
 ---
-
 title: "Metal toxicity exposure in Alzheimer's disease - literature review"
 type: source
 created: 2026-04-09
@@ -7,9 +6,11 @@ updated: 2026-04-09
 authors: [Jakubowska E, Hoppe-Mitera E, Sionek I, Slemp J, Pakula A, Kuzma K, Bierc K, Grochowska M, Kisiel-Cybula E, Adamowicz A]
 journal: Journal of Education, Health and Sport
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Education, Health and Sport 2024 -->
 tags: [Alzheimers-disease, aluminum, lead, zinc, copper, metal-toxicity, neurodegeneration, amyloid-beta, tau-protein]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [aluminum, calcium, copper, lead, zinc]
 ---
 
 # Key Claims
@@ -46,9 +47,9 @@ platform: wikibiome
 
 # Connections
 
-- Directly relevant to [[amyloid-beta-aggregation]] and [[tau-phosphorylation]] mechanisms
+- Directly relevant to [[amyloid-beta|amyloid-beta-aggregation]] and [[alpha-synuclein|tau-phosphorylation]] mechanisms
 - Complements [[islam-2022-metal-toxicity-alzheimers-extensive-review]] on metal-specific neurotoxicity pathways
 - Connects to [[blood-brain-barrier]] permeability and metal transport
-- Supports [[chelation-therapy]] as potential intervention discussed in [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]
-- Relates to [[zinc-homeostasis]] disruption in neurodegeneration
-- Links to [[copper-dysregulation]] in AD pathogenesis
+- Supports [[metal-chelation-therapy|chelation-therapy]] as potential intervention discussed in [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]
+- Relates to [[metal-homeostasis|zinc-homeostasis]] disruption in neurodegeneration
+- Links to [[copper|copper-dysregulation]] in AD pathogenesis

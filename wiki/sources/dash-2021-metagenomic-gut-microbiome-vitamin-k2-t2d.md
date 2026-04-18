@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, metagenomics, vitamin-k2, menaquinone, gut-m
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["T2DM enriched in menaquinone (vitamin K2) superpathway biosynthesis", "No significant differences in overall taxonomic composition", "Firmicutes, Actinobacteria, and Bacteroidetes"]
 ---
 
 # Key Claims

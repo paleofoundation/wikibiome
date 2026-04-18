@@ -12,6 +12,8 @@ library_category: interventions
 platform: cureva
 condition: "postpartum depression"
 evidence_level: cross-sectional
+taxa_discussed: [desulfovibrio]
+key_findings: ["47.27% of PPD patients responded", "Paraprevotella and Desulfovibrio", "Beta-diversity"]
 ---
 
 # Key Claims

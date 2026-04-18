@@ -1,5 +1,4 @@
 ---
-
 title: "The microbiota and microbiome in pancreatic cancer: more influential than expected"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2019
 tags: [pancreatic-cancer, microbiome, microbiome-review, oral-microbiota, gut-microbiome, H-pylori, Fusobacterium, tumor-microenvironment, inflammation, metabolism, immunotherapy]
 doi: "10.1186/s12943-019-1008-0"
 platform: wikibiome
+taxa_discussed: [enterobacter, enterococcus, fusobacterium-nucleatum, helicobacter-pylori, porphyromonas]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -31,7 +32,7 @@ platform: wikibiome
 
 # Connections
 
-- [[fusobacterium-nucleatum]] activates NF-kB and Wnt/beta-catenin signaling in carcinogenesis, linking to [[microbiome and disease progression]]
+- [[fusobacterium-nucleatum]] activates NF-kB and Wnt/beta-catenin signaling in carcinogenesis, linking to [[dysbiosis|microbiome and disease progression]]
 - [[fecal-microbiota-transplant]] from long-term survivors modulated antitumor immune responses through CD8+ T cell recruitment
-- [[Microbiome-host interactions]] shape the tumor microenvironment and influence [[immunotherapy]] response
-- Connects to [[microbiome diet]], [[metabolic pathways]], and [[viral microbiota]] research in pancreatic cancer
+- [[gut-metal-microbiome|Microbiome-host interactions]] shape the tumor microenvironment and influence [[pharmacomicrobiomics|immunotherapy]] response
+- Connects to [[dietary-metal-microbiome-interactions|microbiome diet]], [[fermentative-metabolism|metabolic pathways]], and [[viral-microbiota|viral microbiota]] research in pancreatic cancer

@@ -12,15 +12,13 @@ metal_dependencies: [iron, zinc]
 key_enzymes: [zinc metalloprotease, iron-dependent oxidoreductases, hemolysin-type toxins]
 tags: [pathobiont, oral-origin, CRC-enriched, anaerobe, microbial-biomarker, oral-gut-translocation, head-neck-cancer, smoking-enriched]
 platform: wikibiome
-last_substantive_update: 2026-04-16
 seo_target: "Parvimonas micra CRC oral-gut translocation microbial biomarker"
 wikipedia_differentiation: "Cross-cohort CRC biomarker validation data, iron and zinc dependency for virulence enzyme activity, oral-gut translocation mechanism, association with upper GI carcinogenesis in smokers, and immune microenvironment modulation in CRC beyond Wikipedia's clinical infection focus"
 conditions_enriched_in: [colorectal-cancer, head-and-neck-squamous-cell-carcinoma, esophageal-cancer]
 conditions_depleted_in: []
 pathogenic_potential: commensal-turned-pathogen
 gram_stain: "positive"
-oxygen_requirement: "obligate anaerobe"
----
+oxygen_requirement: "obligate anaerobe"---
 
 # Parvimonas
 

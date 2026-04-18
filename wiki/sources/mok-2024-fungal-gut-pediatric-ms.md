@@ -1,5 +1,4 @@
 ---
-
 title: "The Fungal Gut Microbiota in Pediatric-Onset Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 tags: [multiple-sclerosis, pediatric-onset, mycobiome, POMS, monoADS, Saccharomyces, Candida, Agaricus, ITS2-sequencing, Cyberlindnera, Fusarium, beta-diversity]
 doi: "10.3389/fmicb.2024.1258978"
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [aspergillus, candida-albicans, fusarium, saccharomyces-cerevisiae]
 ---
 
 # The Fungal Gut Microbiota in Pediatric-Onset Multiple Sclerosis

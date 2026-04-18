@@ -11,7 +11,7 @@ last_substantive_update: 2026-04-13
 karen_brain_primitives: [5, 8, 9]
 
 triangles:
-  - condition: "[[clostridioides-difficile-infection]]"
+  - condition: "[[clostridioides-difficile|clostridioides-difficile-infection]]"
     I_to_f: "FMT restores colonization resistance by reintroducing a diverse anaerobic community that competes with C. difficile for nutrients (especially bile acid metabolism) and ecological niches. Donor microbiota converts primary bile acids to secondary bile acids that inhibit C. difficile germination."
     I_to_f_evidence: "strong"
     I_to_f_sources: []
@@ -142,11 +142,11 @@ FMT operates through **ecological restoration** rather than single-target pharma
 
 **Entities:** [[clostridioides-difficile]], [[faecalibacterium-prausnitzii]], [[roseburia-spp]]
 
-**Concepts:** [[colonization-resistance]], [[SCFA-production]], [[barrier-integrity]], [[gut-brain-axis]], [[bile-acid-metabolism]]
+**Concepts:** [[probiotics|colonization-resistance]], [[short-chain-fatty-acids]], [[intestinal-permeability|barrier-integrity]], [[gut-brain-axis]], [[bile-acid-metabolism]]
 
 **Related interventions:** [[probiotics-general]] (incremental vs wholesale microbiome modulation), [[mediterranean-diet]] (dietary SCFA promotion)
 
-**Signatures:** [[clostridioides-difficile-infection]], [[ulcerative-colitis]], [[parkinsons-disease]], [[autism-spectrum-disorder]], [[hypertension]]
+**Signatures:** [[clostridioides-difficile|clostridioides-difficile-infection]], [[ulcerative-colitis]], [[parkinsons-disease]], [[autism-spectrum-disorder]], [[hypertension]]
 
 
 ---

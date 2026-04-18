@@ -11,13 +11,16 @@ tags: [parkinsons-disease, alzheimers-disease, microbiome-host-interactions, con
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 4]
 ---
 
 # Constraint-Based Modelling of Host-Microbiome Co-Metabolism in Alzheimer's and Parkinson's Disease
 
 ## Summary
 
-This study applies constraint-based metabolic modelling (flux balance analysis) to simulate [[microbiome-host-interactions]] in [[parkinsons-disease]] and [[alzheimers-disease]], predicting metabolic exchanges between gut bacteria and the host that are altered in neurodegeneration.
+This study applies constraint-based metabolic modelling (flux balance analysis) to simulate [[gut-metal-microbiome|microbiome-host-interactions]] in [[parkinsons-disease]] and [[alzheimers-disease]], predicting metabolic exchanges between gut bacteria and the host that are altered in neurodegeneration.
 
 ## Key Findings
 
@@ -30,7 +33,7 @@ This study applies constraint-based metabolic modelling (flux balance analysis) 
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Constraint-based metabolic modelling provides a powerful framework for integrating metal homeostasis into [[microbiome-host-interactions]]. Many of the metabolic reactions altered in the PD model are metal-dependent: SCFA biosynthesis requires [[iron]]-containing enzymes, amino acid metabolism uses [[zinc]]-dependent aminopeptidases, and bile acid transformation requires [[iron]]-dependent bacterial 7alpha-dehydroxylases. By incorporating metal availability constraints into these models, it would be possible to predict how metal [[dyshomeostasis]] propagates through the microbiome-host metabolic network, identifying therapeutic leverage points.
+Constraint-based metabolic modelling provides a powerful framework for integrating metal homeostasis into [[gut-metal-microbiome|microbiome-host-interactions]]. Many of the metabolic reactions altered in the PD model are metal-dependent: SCFA biosynthesis requires [[iron]]-containing enzymes, amino acid metabolism uses [[zinc]]-dependent aminopeptidases, and bile acid transformation requires [[iron]]-dependent bacterial 7alpha-dehydroxylases. By incorporating metal availability constraints into these models, it would be possible to predict how metal [[dyshomeostasis]] propagates through the microbiome-host metabolic network, identifying therapeutic leverage points.
 
 ## Limitations
 

@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, phageome, bacteriophage, metagenomics, Caudovir
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+taxa_discussed: [faecalibacterium-prausnitzii]
+key_findings: ["ASD gut phageome", "Significant expansion of Caudoviricetes bacteriophages", "Phages infecting Bacteroidaceae"]
 ---
 
 # Key Claims

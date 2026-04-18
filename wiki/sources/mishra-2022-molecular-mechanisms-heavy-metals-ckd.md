@@ -37,6 +37,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Maps distinct metal-specific mechanisms of kidney injury for arsenic (ROS/MAPK/NF-kB activation), cadmium (electron transport chain disruption, ER stress, 10→25% CKD risk), and mercury (mitochondrial depolarization, cytoskeletal damage)—establishing these metals as distinct nephrotoxins with separate mechanistic signatures. WikiBiome depends on this evidence to explain why CKD populations accumulate toxic metals, enabling characterization of the reciprocal metal-kidney-disease pathway across signature layers."
+evidence_level: expert-opinion
+metals_discussed: [arsenic, cadmium, iron, mercury]
+karen_brain_primitives: [4]
 ---
 
 # Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease
@@ -64,8 +67,8 @@ why_keystone: "Maps distinct metal-specific mechanisms of kidney injury for arse
 
 - [[chronic-kidney-disease]] -- comprehensive molecular pathogenesis review
 - -- As, Cd, Hg mechanisms in kidney injury
-- [[Oxidative stress]] -- central mechanism in CKD progression
+- [[oxidative-stress]] -- central mechanism in CKD progression
 - [[ferroptosis]] -- iron-dependent cell death pathway in kidneys
 - -- detailed Cd nephrotoxicity mechanisms
 - -- renal cells' high dependence on oxidative phosphorylation
-- [[Epigenetic modifications]] -- DNA methylation changes driving CKD progression
+- [[epigenetic-modifications]] -- DNA methylation changes driving CKD progression

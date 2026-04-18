@@ -11,13 +11,17 @@ tags: [schizophrenia, dysbiosis, gut-brain-axis, neuroinflammation, microbiome, 
 library_category: dysbiosis
 platform: gut
 condition: "Schizophrenia / Mental illness"
+evidence_level: animal-model
+metals_discussed: [arsenic, lead, mercury]
+taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [1, 5]
 ---
 
 # From gut dysbiosis to altered brain function and mental illness: mechanisms and pathways
 
 ## Summary
 
-This expert review examines the roles of the gut [[microbiome]] in shaping brain development and neurological function, and the mechanisms by which [[dysbiosis]] can contribute to mental illness including schizophrenia. The paper discusses microbiota-targeted therapies and highlights the bidirectional communication between the gut and brain via the [[gut-brain-axis]].
+This expert review examines the roles of the gut [[gut-microbiome|microbiome]] in shaping brain development and neurological function, and the mechanisms by which [[dysbiosis]] can contribute to mental illness including schizophrenia. The paper discusses microbiota-targeted therapies and highlights the bidirectional communication between the gut and brain via the [[gut-brain-axis]].
 
 ## Key Findings
 

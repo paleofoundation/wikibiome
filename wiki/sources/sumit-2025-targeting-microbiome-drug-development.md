@@ -1,5 +1,4 @@
 ---
-
 title: "Targeting the Microbiome: New Frontiers in Drug Development and Therapeutic Strategies"
 type: source
 created: 2026-04-09
@@ -8,8 +7,9 @@ authors: [Sumit]
 journal: "Scholar's Digest: Journal of Pharmacology"
 year: 2025
 tags: [crohns-disease, IBD, microbiome, drug-development, therapeutic-strategies, probiotics, FMT, precision-medicine, dysbiosis]
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Scholar's Digest: Journal of Pharmacology 2025 -->
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Reproducible and opposing gut microbiome signatures distinguish autoimmune diseases and cancers: a systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 doi: "10.1186/s40168-022-01373-1"
 tags: [colon-cancer, colorectal-cancer, autoimmune, systematic-review, meta-analysis, Fusobacterium, Peptostreptococcus, Bacteroides, Enterococcus, Parabacteroides, sulfur-metabolism, opposite-directionality, cancer-microbiome]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bacteroides-fragilis, desulfovibrio, enterococcus, fusobacterium-nucleatum, parabacteroides, peptostreptococcus, porphyromonas]
 ---
 
 # Islam 2022 -- Opposing Microbiome Signatures Distinguish Autoimmune Diseases and Cancers

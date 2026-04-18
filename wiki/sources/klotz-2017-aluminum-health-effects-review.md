@@ -1,5 +1,4 @@
 ---
-
 title: "The Health Effects of Aluminum Exposure"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2017
 tags: [aluminum, neurotoxicity, alzheimers-disease, breast-cancer, occupational-exposure, antiperspirants, dietary-exposure]
 doi: "10.3238/arztebl.2017.0653"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [aluminum, nickel]
 ---
 
 ## Summary

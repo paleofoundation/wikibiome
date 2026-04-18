@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, scfa, dietary-fiber, gut-microbiome, insulin
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Dietary fiber promotes SCFA production", "SCFAs (acetate, propionate, butyrate)", "Fiber-microbiome-SCFA axis"]
 ---
 
 # Key Claims

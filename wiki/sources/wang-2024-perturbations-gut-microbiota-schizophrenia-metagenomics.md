@@ -9,6 +9,8 @@ year: 2024
 doi: "10.1371/journal.pone.0306582"
 tags: [schizophrenia, gut-microbiota, metagenomics, 16S-rRNA, Clostridium, Megasphaera, sphingolipid, glutamine-metabolism]
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [clostridium, megasphaera]
 ---
 
 # Perturbations in Gut Microbiota Composition in Schizophrenia

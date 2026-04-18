@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, nutrition, gut-microbiome, brain-development, c
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["Gut-brain axis", "Healthy dietary patterns", "Disruptions in gut microbiota composition"]
 ---
 
 # Key Claims

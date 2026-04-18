@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel as a potential disruptor of thyroid function: benchmark modelling of human data"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [nickel, thyroid-function, endocrine-disruption, benchmark-dose, SPINA-GT, fT3, fT4]
 doi: "10.3389/fendo.2023.1145153"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [nickel]
 ---
 
 ## Key Claims
@@ -38,4 +39,4 @@ platform: wikibiome
 - Complements the metabolic disruption evidence in [[lu-2024-nickel-diabetes-meta-analysis]] and [[lusi-2015-nickel-allergy-overweight]]
 - Blood nickel levels in context of [[denkhaus-2002-nickel-essentiality-toxicity]] normal ranges
 - Oxidative stress mechanisms align with those reviewed in [[denkhaus-2002-nickel-essentiality-toxicity]]
-- Male susceptibility finding contrasts with the female predominance of [[nickel allergy]] in clinical studies
+- Male susceptibility finding contrasts with the female predominance of [[nickel-allergy]] in clinical studies

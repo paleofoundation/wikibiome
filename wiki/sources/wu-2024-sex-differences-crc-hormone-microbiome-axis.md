@@ -1,5 +1,4 @@
 ---
-
 title: "Sex differences in colorectal cancer: with a focus on sex hormone-gut microbiome axis"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ doi: "10.1186/s12964-024-01549-2"
 tags: [colon-cancer, colorectal-cancer, sex-differences, sex-hormones, estrogen, testosterone, microgenderome, gut-microbiome, ERbeta, PD-L1, immunotherapy, sexual-dimorphism]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [7]
 ---
 
 # Wu 2024 -- Sex Differences in CRC: Sex Hormone-Gut Microbiome Axis

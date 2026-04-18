@@ -1,5 +1,4 @@
 ---
-
 title: "Tryptophan metabolites exert potential therapeutic activity in Graves' orbitopathy by ameliorating orbital fibroblasts inflammation and proliferation"
 type: source
 created: 2026-04-09
@@ -10,9 +9,9 @@ year: 2025
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, graves-disease, tryptophan, indoles, indoleacetic-acid, indolepropionic-acid, indole-3-lactate, gut-microbiota, inflammation, orbital-fibroblasts]
 doi: "10.1007/s40618-025-02593-6"
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [anaerostipes]
 evidence_level: in-vitro
 ---
 

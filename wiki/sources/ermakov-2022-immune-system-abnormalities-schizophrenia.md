@@ -1,5 +1,4 @@
 ---
-
 title: "Immune System Abnormalities in Schizophrenia: An Integrative View and Translational Perspectives"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 doi: "10.3389/fpsyt.2022.880568"
 tags: [schizophrenia, immune-system, inflammation, cytokines, T-cells, B-cells, CRP, neuroinflammation, autoantibodies, complement-system, systematic-review]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [saccharomyces-cerevisiae]
 ---
 
 # Immune System Abnormalities in Schizophrenia: An Integrative View and Translational Perspectives

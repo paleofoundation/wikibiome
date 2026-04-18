@@ -1,5 +1,4 @@
 ---
-
 title: "Does oral exposure to cadmium and lead mediate susceptibility to colitis? The dark-and-bright sides of heavy metals in gut ecology"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2016
 tags: [cadmium, lead, colitis, IBD, gut-ecology, heavy-metals, DSS, TNBS, immunomodulation, intestinal-barrier]
 doi: "10.1038/srep19200"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [cadmium, lead]
+taxa_discussed: [salmonella]
+karen_brain_primitives: [1, 4]
 ---
 
 # Key Claims
@@ -33,10 +36,10 @@ platform: wikibiome
 
 # Connections
 
-- Central to [[Cadmium Toxicity]] and [[Lead Toxicity]] in the GI tract
-- Challenges simple dose-response assumptions in [[metal-toxicology]] -- demonstrates hormesis-like effects
+- Central to [[cadmium|Cadmium Toxicity]] and [[lead|Lead Toxicity]] in the GI tract
+- Challenges simple dose-response assumptions in [[heavy-metals|metal-toxicology]] -- demonstrates hormesis-like effects
 - Relevant to [[inflammatory-bowel-disease]] pathogenesis and environmental risk factors
 - Connects to [[Intestinal Barrier Function]] through TEER experiments
-- Links to [[Gut Microbiome and Metal Exposure]] through modulation of intestinal inflammation
-- Metallothionein induction relates to [[Metal Detoxification Mechanisms]]
-- Complements [[Amerikanou et al. 2022|amerikanou-2022-ibd-biomarkers-trace-metals]] findings on metal-IBD associations in humans
+- Links to [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]] through modulation of intestinal inflammation
+- Metallothionein induction relates to [[heavy-metals|Metal Detoxification Mechanisms]]
+- Complements [[amerikanou-2022-ibd-biomarkers-trace-metals|amerikanou-2022-ibd-biomarkers-trace-metals]] findings on metal-IBD associations in humans

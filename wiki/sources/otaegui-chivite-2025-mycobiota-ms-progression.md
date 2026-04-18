@@ -1,5 +1,4 @@
 ---
-
 title: "Exploring the Mycobiota in Multiple Sclerosis: Its Influence on Disease Development and Progression"
 type: source
 created: 2026-04-09
@@ -10,15 +9,18 @@ year: 2025
 tags: [multiple-sclerosis, mycobiome, Saccharomyces, Torulaspora, Malassezia, Cladosporium, Meyerozyma, HLA-DRB1, chitotriosidase, calprotectin, DMF, dietary-fats, ITS-sequencing, disability]
 doi: "10.3389/fimmu.2025.1625794"
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [aspergillus, candida-albicans, cladosporium, debaryomyces, fusarium, malassezia, saccharomyces-cerevisiae, torulaspora]
+karen_brain_primitives: [2]
 ---
 
 # Exploring the Mycobiota in Multiple Sclerosis: Its Influence on Disease Development and Progression
 
 ## Key Claims
 
-- MS patients show higher fungal diversity and richness compared to controls, with significant enrichment of *Saccharomyces*, *Torulaspora*, and *Malassezia*
+- MS patients show higher fungal diversity and richness compared to controls, with significant enrichment of *Saccharomyces*, [[torulaspora|*Torulaspora*]], and *Malassezia*
 - *Malassezia* demonstrates a strong association with increased disability, aligning with its previous identification in neurodegenerative conditions
-- HLA-DRB1*1501 carriers have a distinct mycobiota composition characterized by *Debaryomyces* and *Talaromyces*; these carriers exhibit more severe MS (worse MSFC scores, higher EDSS)
+- HLA-DRB1*1501 carriers have a distinct mycobiota composition characterized by [[debaryomyces|*Debaryomyces*]] and *Talaromyces*; these carriers exhibit more severe MS (worse MSFC scores, higher EDSS)
 - DMF (dimethyl fumarate) treatment significantly reduces mycobiota presence: from 79.2% detection in naive patients to 42.3% in DMF-treated patients (p = 0.008)
 - Dietary fats show greater impact on mycobiota composition in MS patients than controls, highlighting altered lipid metabolism in MS
 - *Cladosporium* and *Meyerozyma* combination differentiates MS from controls with AUC 0.723; Shannon diversity alone achieves AUC 0.700

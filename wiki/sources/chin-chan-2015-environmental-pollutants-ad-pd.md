@@ -29,6 +29,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Maps the connection between metal exposure (lead, mercury, arsenic, manganese) and proteinopathy mechanisms (amyloid-beta aggregation, tau phosphorylation, alpha-synuclein) in Alzheimer's and Parkinson's disease, with critical emphasis on developmental epigenetic priming. WikiBiome depends on this framework to explain why metal burden during critical windows drives neurodegenerative disease across distinct proteinopathies—establishing lead and manganese as selective pressures that alter both neuroinflammation and protein misfolding cascades."
+evidence_level: animal-model
+metals_discussed: [arsenic, iron, lead, manganese, mercury]
+karen_brain_primitives: [1, 4]
 ---
 
 # Key Claims
@@ -60,10 +63,10 @@ why_keystone: "Maps the connection between metal exposure (lead, mercury, arseni
 
 # Connections
 
-- Foundational review for understanding [[environmental-risk-factors]] in [[alzheimers-disease]] and [[parkinsons-disease]]
-- Directly relevant to [[amyloid-beta-aggregation]], [[tau-phosphorylation]], and [[alpha-synuclein]] pathology
+- Foundational review for understanding [[environmental-metal-exposure|environmental-risk-factors]] in [[alzheimers-disease]] and [[parkinsons-disease]]
+- Directly relevant to [[amyloid-beta|amyloid-beta-aggregation]], [[alpha-synuclein|tau-phosphorylation]], and [[alpha-synuclein]] pathology
 - Connects to [[epigenetic-modifications]] from metal exposure discussed in [[bakulski-2020-heavy-metals-alzheimers-dementias]]
 - Links to [[oxidative-stress]] and [[mitochondrial-dysfunction]] pathways in [[neurodegeneration]]
 - Complements [[gao-2023-microglia-neurodegenerative-diseases]] on neuroinflammatory mechanisms
 - Relevant to [[manganese]] neurotoxicity in PD context
-- Discusses [[nanoparticles]] as emerging environmental risk factor
+- Discusses [[environmental-metal-exposure|nanoparticles]] as emerging environmental risk factor

@@ -60,7 +60,7 @@ sources:
  - hiremath-2021-zinc-ppd-case-control
  - althomali-2024-heavy-metals-neurocognitive-systematic-review
  - yousaf-2021-low-nickel-diet-gerd
- - rizzi-2017-nickel-ibs
+ - rizzi-2017-ibs-nickel-diet
  - borghini-2020-endometriosis-nickel-ibs
  - lopez-botella-2023-peritoneal-fluid-metals-endometriosis
  - huang-2024-zinc-intake-endometriosis-risk
@@ -358,7 +358,7 @@ Metals perturb immune function through overlapping inflammatory pathways:
 
 ### 5.1 Nickel Allergy as Gateway to Systemic Effects
 
-Nickel allergy (affecting up to 17.6% of some populations, with strong female predominance) is not merely a skin condition. [[systemic-nickel-allergy-syndrome]] (SNAS) involves both cutaneous and gastrointestinal manifestations triggered by dietary nickel exposure. SNAS affects approximately 20% of allergic contact dermatitis patients and is associated with lactose intolerance in 63-74% of cases [[di-gioacchino-2018-snas-chapter]].
+Nickel allergy (affecting up to 17.6% of some populations, with strong female predominance) is not merely a skin condition. [[nickel-allergy|systemic-nickel-allergy-syndrome]] (SNAS) involves both cutaneous and gastrointestinal manifestations triggered by dietary nickel exposure. SNAS affects approximately 20% of allergic contact dermatitis patients and is associated with lactose intolerance in 63-74% of cases [[di-gioacchino-2018-snas-chapter]].
 
 The expanded disease matrix now reveals that nickel sensitivity clusters with specific conditions: GERD (95% of refractory patients improve on low-Ni diet), IBS (30-65% Ni sensitization), endometriosis (90.3% Ni ACM), and obesity (59.7% of overweight women are Ni-allergic). This clustering suggests nickel allergy may be a visible marker of a much broader immune and metabolic sensitivity.
 
@@ -435,7 +435,7 @@ The low-nickel diet is the most extensively documented dietary metal interventio
 
 1. **SNAS**: 72.73% achieved eubiosis when combined with probiotics vs. 41.38% with diet alone [[lombardi-2020-snas-probiotics-dysbiosis]]
 2. **GERD**: 95% symptom improvement in Ni-allergic patients [[yousaf-2021-low-nickel-diet-gerd]]
-3. **IBS**: Benefit in Ni-allergic IBS patients [[rizzi-2017-nickel-ibs]]
+3. **IBS**: Benefit in Ni-allergic IBS patients [[rizzi-2017-ibs-nickel-diet]]
 4. **Celiac disease**: Benefit in patients with persistent symptoms despite gluten-free diet
 5. **Endometriosis-related GI symptoms** [[borghini-2020-endometriosis-nickel-ibs]]
 6. **Hand eczema/chronic dermatitis**: Multiple trials

@@ -1,5 +1,4 @@
 ---
-
 title: "Gut macrobiotic and its metabolic pathways modulate cardiovascular disease"
 type: source
 created: 2026-04-09
@@ -11,13 +10,16 @@ doi: 10.3389/fmicb.2023.1272479
 tags: [cardiovascular-disease, CVD, gut-microbiota, metabolic-pathways, SCFAs, TMAO, bile-acids, LPS, hypertension, atherosclerosis, heart-failure, review]
 platform: wikibiome
 evidence_level: expert-opinion
+metals_discussed: [iron]
+taxa_discussed: [blautia, campylobacter-jejuni, collinsella, escherichia-coli, klebsiella-pneumoniae, prevotella, salmonella, shigella, streptococcus]
+karen_brain_primitives: [5, 9]
 ---
 
 # Gut Macrobiotic and Its Metabolic Pathways Modulate Cardiovascular Disease
 
 ## Summary
 
-Review covering the metabolic pathways through which gut microbiota metabolites -- [[short-chain-fatty-acids]], [[tmao]], [[bile-acids]], and LPS -- impact [[cardiovascular-disease]] including hypertension, atherosclerosis, and heart failure. Includes detailed pathway diagrams of healthy vs. impaired gut barrier states.
+Review covering the metabolic pathways through which gut microbiota metabolites -- [[short-chain-fatty-acids]], [[tmao]], [[bile-acid-metabolism]], and LPS -- impact [[cardiovascular-disease]] including hypertension, atherosclerosis, and heart failure. Includes detailed pathway diagrams of healthy vs. impaired gut barrier states.
 
 ## Key Findings
 

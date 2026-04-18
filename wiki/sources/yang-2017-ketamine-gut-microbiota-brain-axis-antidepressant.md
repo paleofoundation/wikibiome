@@ -1,5 +1,4 @@
 ---
-
 title: "Possible Role of the Gut Microbiota-Brain Axis in the Antidepressant Effects of (R)-Ketamine in a Social Defeat Stress Model"
 type: source
 created: 2026-04-09
@@ -12,7 +11,7 @@ tags: [hashimotos-thyroiditis, thyroid, gut-brain-axis, antidepressants, ketamin
 platform: wikibiome
 karen_brain_primitives: []
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [butyricimonas]
 evidence_level: animal-model
 ---
 
@@ -20,11 +19,11 @@ evidence_level: animal-model
 
 ## Key Claims
 
-- The antidepressant effects of ketamine enantiomers may be partially mediated by restoration of the [[gut microbiome]] in a chronic social defeat stress (CSDS) model
-- [[Tenericutes]] were significantly decreased in susceptible mice after CSDS; neither ketamine enantiomer affected the decreased levels
-- [[Deltaproteobacteria]] were significantly increased in susceptible mice after CSDS; both (R)- and (S)-ketamine significantly decreased the increased levels
-- [[Mollicutes]] were significantly decreased in susceptible mice after CSDS; (R)-ketamine but not (S)-ketamine significantly attenuated the reduced levels
-- (R)-ketamine was more potent than (S)-ketamine at improving the altered composition of [[gut microbiome]] in the CSDS depression model
+- The antidepressant effects of ketamine enantiomers may be partially mediated by restoration of the [[gut-microbiome]] in a chronic social defeat stress (CSDS) model
+- [[mollicutes|Tenericutes]] were significantly decreased in susceptible mice after CSDS; neither ketamine enantiomer affected the decreased levels
+- [[desulfovibrio|Deltaproteobacteria]] were significantly increased in susceptible mice after CSDS; both (R)- and (S)-ketamine significantly decreased the increased levels
+- [[mollicutes|Mollicutes]] were significantly decreased in susceptible mice after CSDS; (R)-ketamine but not (S)-ketamine significantly attenuated the reduced levels
+- (R)-ketamine was more potent than (S)-ketamine at improving the altered composition of [[gut-microbiome]] in the CSDS depression model
 - [[butyricimonas]] was significantly decreased in susceptible mice; both ketamine enantiomers significantly increased Butyricimonas
 
 ## Methods/Findings
@@ -39,7 +38,7 @@ evidence_level: animal-model
 
 ## Connections
 
-- Gut-brain axis mechanism relevant to depression in [[Hashimoto's thyroiditis]] and [[graves-disease]] patients
+- Gut-brain axis mechanism relevant to depression in [[hashimotos-thyroiditis]] and [[graves-disease]] patients
 - Butyricimonas modulation links to [[short-chain-fatty-acids]] and butyrate-producing bacteria in thyroid disease
 - Antidepressant-microbiome interactions relevant to pharmacological management of HT-associated depression
 - Deltaproteobacteria findings connect to broader patterns in autoimmune disease

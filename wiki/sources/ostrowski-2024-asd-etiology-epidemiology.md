@@ -11,6 +11,8 @@ tags: [autism, etiology, epidemiology, public-health, neurodevelopmental]
 library_category: causal
 platform: wikibiome
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+key_findings: ["ASD affects 1 in 100 children", "Genetic and environmental factors"]
 ---
 
 # Overview

@@ -1,5 +1,4 @@
 ---
-
 title: "Sodium Butyrate Attenuates Microglia-Mediated Neuroinflammation by Modulating the TLR4/MyD88/NF-kB Pathway and Microbiome-Gut-Brain Axis in Cardiac Arrest Mice"
 type: source
 created: 2026-04-09
@@ -12,6 +11,7 @@ tags: [cardiovascular-disease, sodium-butyrate, neuroinflammation, cardiac-arres
 source_pdf: "raw/cardiovascular disease/Microbiome and neuroinflammation cardiovascular disease/s13041-025-01179-w.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Key Claims
@@ -33,9 +33,9 @@ platform: wikibiome
 
 # Connections
 
-- Demonstrates [[short-chain-fatty-acids]] (butyrate) as neuroprotective through the [[gut-brain axis]] in cardiac arrest
-- TLR4/NF-kB pathway modulation extends [[microbiome and inflammation]] in CVD contexts
-- Microglial polarization connects to [[microbiome and immune system]] in neuroinflammation
-- Gut barrier protection relevant to [[microbiome-host interactions]] and intestinal permeability
-- Butyrate therapeutic potential extends [[microbial metabolites]] applications in CVD
+- Demonstrates [[short-chain-fatty-acids]] (butyrate) as neuroprotective through the [[gut-brain-axis]] in cardiac arrest
+- TLR4/NF-kB pathway modulation extends [[inflammation|microbiome and inflammation]] in CVD contexts
+- Microglial polarization connects to [[inflammation|microbiome and immune system]] in neuroinflammation
+- Gut barrier protection relevant to [[gut-metal-microbiome|microbiome-host interactions]] and intestinal permeability
+- Butyrate therapeutic potential extends [[short-chain-fatty-acids|microbial metabolites]] applications in CVD
 - Cardiac arrest model bridges [[microbiome and neuroinflammation]] with [[cardiovascular-disease]]

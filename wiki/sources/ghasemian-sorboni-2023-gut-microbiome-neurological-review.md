@@ -6,11 +6,16 @@ updated: 2026-04-09
 authors: [Shokufeh Ghasemian Sorboni, Hanieh Shakeri Moghaddam, Reza Jafarzadeh-Esfehani, Saman Soleimanpour]
 year: 2023
 journal: "Unknown"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Unknown 2023 -->
 tags: [microbiome, gut-brain-axis, autism, schizophrenia, neurological-disorders, neurodevelopment]
 library_category: causal
 platform: wikibiome
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [iron, lead, mercury, zinc]
+taxa_discussed: [clostridium]
+karen_brain_primitives: [1, 2, 4, 5]
+key_findings: ["Microbiome-gut-brain axis", "Microbial metabolites", "Immune-mediated signaling"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "The Efficacy of Zinc Administration in the Treatment of Primary Dysmenorrhea"
 type: source
 created: 2026-04-09
@@ -10,9 +9,10 @@ year: 2016
 tags: [zinc, dysmenorrhea, RCT, mefenamic-acid, prostaglandins, menstrual-pain, supplementation, clinical-trial]
 doi: "10.5001/omj.2016.13"
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [4]
 metals_discussed: ["zinc"]
 taxa_discussed: []
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims
@@ -43,4 +43,4 @@ taxa_discussed: []
 - Zinc's prostaglandin-inhibiting mechanism is relevant to the prostaglandin-mediated pain pathway exacerbated by smoking per [[qin-2020-smoking-dysmenorrhea-meta-analysis]]
 - Zinc deficiency impairs reproductive function as discussed in [[canipari-2020-female-fertility-environmental-pollution]] -- suboptimal zinc affects oocyte maturation and meiotic arrest
 - [[cadmium]] displaces zinc from metalloenzymes and zinc-finger proteins per [[canipari-2020-female-fertility-environmental-pollution]], potentially undermining zinc's protective effects against dysmenorrhea
-- Connects to the broader role of [[essential elements]] in PCOS and reproductive health per [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]
+- Connects to the broader role of [[metal-homeostasis|essential elements]] in PCOS and reproductive health per [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]

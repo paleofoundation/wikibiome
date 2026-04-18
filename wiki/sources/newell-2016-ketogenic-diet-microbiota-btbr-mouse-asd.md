@@ -11,6 +11,11 @@ tags: [autism, ketogenic-diet, microbiota, BTBR-mouse, Akkermansia, Firmicutes, 
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: animal-model
+metals_discussed: [cobalt]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, clostridium, lactobacillus]
+karen_brain_primitives: [4]
+key_findings: ["KD triggers gut microbial compositional remodeling", "KD caused anti-microbial-like effect", "KD counteracted the common ASD phenotype"]
 ---
 
 # Key Claims
@@ -29,8 +34,8 @@ condition: "autism spectrum disorder"
 **Cecal microbiota (16S rRNA qRT-PCR):**
 - [[akkermansia-muciniphila]]: BTBR-chow 1011 +/- 153 vs. BTBR-KD 0.2 +/- 0.02 (dramatically reduced by KD)
 - [[bifidobacterium]]: reduced by KD in both genotypes
-- [[Clostridium coccoides]]: BTBR-chow 46,568 vs. BTBR-KD 11,157 (reduced by KD)
-- [[Clostridium leptum]]: relatively maintained in BTBR-KD
+- [[clostridium|Clostridium coccoides]]: BTBR-chow 46,568 vs. BTBR-KD 11,157 (reduced by KD)
+- [[clostridium|Clostridium leptum]]: relatively maintained in BTBR-KD
 - [[lactobacillus]]: dramatically reduced by KD in both genotypes
 - Total Firmicutes: reduced by KD
 - Firmicutes/Bacteroidetes ratio: BTBR-chow 6.9 vs. BTBR-KD 32.5 (reversed by KD)

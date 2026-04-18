@@ -6,17 +6,20 @@ updated: 2026-04-09
 authors: [Nicolas Lenner, Logan Chariker, Stanislas Leibler]
 year: 2025
 journal: "Proceedings of the National Academy of Sciences"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12067259) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Proceedings of the National Academy of Sciences 2025 -->
 pmcid: "PMC12067259"
 tags: [mismetallation, metal-homeostasis, Irving-Williams-series, metalloregulator, metal-sensing, sensor-compatibility, thermodynamic-additivity, zinc, copper, manganese, iron, cobalt, nickel, evolutionary-design]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "theoretical principles for how metal sensors avoid mismetallation"
+metals_discussed: [cobalt, copper, iron, manganese, nickel, zinc]
+karen_brain_primitives: [3, 4]
+key_findings: ["Metal sensors must be both sensitive and specific", "The compatibility condition", "Only a few amino acid compositions"]
 ---
 
 # Why This Paper Matters
 
-This paper from PNAS provides the first rigorous theoretical framework for understanding how bacterial metal sensors can be simultaneously sensitive to their cognate metal AND specific against all other metals -- the "compatibility problem" at the heart of [[mis-metallation]] prevention. The central challenge is that transition metals have nearly identical ionic radii (~0.75 A) and follow the [[Irving-Williams-series]] in binding affinity, meaning Cu(I) and Zn(II) form the most stable complexes. How can a Mn(II) sensor detect Mn at micromolar concentrations when Zn(II) binds the same ligands 10^4 times more strongly? The answer lies in the concept of "mutual compatibility" -- the entire set of metal sensors must be co-evolved so that each sensor's binding site composition ensures that noncognate metals bind preferentially to their own sensor rather than causing cross-talk. Using a thermodynamic additivity model, the authors predict which amino acid compositions (O, N, S residue combinations) are compatible for each metal sensor, finding that the compatibility constraints are so severe that only a few possible sensor designs exist for each metal. Their predictions match experimental data on known bacterial metalloregulators remarkably well.
+This paper from PNAS provides the first rigorous theoretical framework for understanding how bacterial metal sensors can be simultaneously sensitive to their cognate metal AND specific against all other metals -- the "compatibility problem" at the heart of [[mis-metallation]] prevention. The central challenge is that transition metals have nearly identical ionic radii (~0.75 A) and follow the [[irving-williams-series]] in binding affinity, meaning Cu(I) and Zn(II) form the most stable complexes. How can a Mn(II) sensor detect Mn at micromolar concentrations when Zn(II) binds the same ligands 10^4 times more strongly? The answer lies in the concept of "mutual compatibility" -- the entire set of metal sensors must be co-evolved so that each sensor's binding site composition ensures that noncognate metals bind preferentially to their own sensor rather than causing cross-talk. Using a thermodynamic additivity model, the authors predict which amino acid compositions (O, N, S residue combinations) are compatible for each metal sensor, finding that the compatibility constraints are so severe that only a few possible sensor designs exist for each metal. Their predictions match experimental data on known bacterial metalloregulators remarkably well.
 
 # Key Claims
 
@@ -61,7 +64,7 @@ The theory explains why mis-metallation is such a fundamental threat: if any sin
 # Connections
 
 - [[mis-metallation]] -- theoretical foundation for why mis-metallation is prevented by co-evolved sensor networks
-- [[Irving-Williams-series]] -- central to the compatibility framework; explains binding affinity hierarchy
+- [[irving-williams-series]] -- central to the compatibility framework; explains binding affinity hierarchy
 - [[metalloregulator]] -- predictions match known sensor compositions for MntR, Fur, NikR, CueR, Zur/ZntR
 - [[zinc]] -- Zn sensors predicted to use S,N coordination; cytosolic Zn kept at sub-picomolar free concentration
 - [[copper]] -- Cu sensors predicted to use S-rich sites; Cu kept at sub-attomolar free concentration

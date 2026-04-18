@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, environmental-factors, longi
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1]
+key_findings: ["T1D patients have less diverse gut microbiota", "Environmental factors", "Higher levels of diversity"]
 ---
 
 # Key Claims

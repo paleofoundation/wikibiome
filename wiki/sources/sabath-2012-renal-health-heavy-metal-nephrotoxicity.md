@@ -1,5 +1,4 @@
 ---
-
 title: "Renal health and the environment: heavy metal nephrotoxicity"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2012
 tags: [nephrotoxicity, cadmium, lead, arsenic, kidney-disease, proximal-tubule, metallothionein, review]
 doi: "10.1212/WNL.0000000000013121"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, lead, nickel]
 ---
 
 # Key Claims
@@ -19,7 +20,7 @@ platform: wikibiome
 - Pb at "normal" levels is associated with higher morbidity and mortality; there is no established safe threshold
 - [[arsenic]] exposure linked to decreased renal function (OR 1.11, 95% CI 1.09-1.13 for higher As levels)
 - Combination of different metals has cumulative nephrotoxic effects
-- [[Metallothionein]] (MT) plays central role in Cd/Pb metabolism and toxicity; MT knockout mice are more susceptible
+- [[metal-homeostasis|Metallothionein]] (MT) plays central role in Cd/Pb metabolism and toxicity; MT knockout mice are more susceptible
 - No effective treatment exists for Cd nephrotoxicity; prevention is key
 
 # Methods/Findings
@@ -34,9 +35,9 @@ platform: wikibiome
 # Connections
 
 - Foundational review for understanding [[chronic-kidney-disease]] and metal exposure
-- [[DMT-1 transporter]] facilitates absorption of Cd, Ni, Pb, Co, Mn, Zn, Cu -- relevant to [[nickel toxicology]]
-- [[Metallothionein]] system connects to multiple metal toxicity pathways
-- Cd-induced kidney injury mechanism via [[oxidative-stress|oxidative stress]] and [[mitochondrial dysfunction]]
+- [[metal-homeostasis|DMT-1 transporter]] facilitates absorption of Cd, Ni, Pb, Co, Mn, Zn, Cu -- relevant to [[nickel-allergy|nickel toxicology]]
+- [[metal-homeostasis|Metallothionein]] system connects to multiple metal toxicity pathways
+- Cd-induced kidney injury mechanism via [[oxidative-stress|oxidative stress]] and [[mitochondrial-dysfunction|mitochondrial dysfunction]]
 - Pb nephrotoxicity via [[nf-kappa-b]] activation and [[hypertension]]
-- Links to [[chelation therapy]] (EDTA for Pb) as potential treatment
+- Links to [[metal-chelation-therapy|chelation therapy]] (EDTA for Pb) as potential treatment
 - See also kidney disease studies: [[association-low-level-heavy-metal-ckd]], [[toxic-metals-ckd-systematic-review]]

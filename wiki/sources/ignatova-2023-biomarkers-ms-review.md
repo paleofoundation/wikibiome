@@ -1,5 +1,4 @@
 ---
-
 title: "Biomarkers in Multiple Sclerosis: Analysis of the Present Advantages and Look to the Future"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [multiple-sclerosis, biomarkers, neurofilament-light-chain, chitinase-3-like-1, GFAP, tryptophan, kynurenine, SCFAs, gut-microbiome, MRI, oligoclonal-bands, metabolomics, transcriptomics]
 doi: "10.47485/2693-2490.1072"
 platform: wikibiome
+evidence_level: expert-opinion
+taxa_discussed: [bacteroides-fragilis, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # Biomarkers in Multiple Sclerosis: Analysis of the Present Advantages and Look to the Future
@@ -18,7 +20,7 @@ platform: wikibiome
 
 - No single biomarker is sufficiently specific for MS diagnosis, disease activity, or treatment response; a multi-biomarker approach combining clinical, imaging, and molecular markers is needed
 - Gut microbiome-derived [[short-chain-fatty-acids|SCFAs]] and immune dysfunction are linked: relationship between gut microbiome-derived SCFAs and immune dysfunction in early MS was proposed by Trend et al. (2021)
-- [[Tryptophan]] metabolism is a promising biomarker axis: RRMS shows specific urinary Trp metabolic signature with lower kynurenine and lower K/T ratio; K/T negatively correlates with EDSS disability
+- [[tryptophan-metabolism]] metabolism is a promising biomarker axis: RRMS shows specific urinary Trp metabolic signature with lower kynurenine and lower K/T ratio; K/T negatively correlates with EDSS disability
 - Gut microbiome composition could be a potential biomarker: *Bacteroides* enrichment correlates with MS disease activity, and *Prevotella histocola* treatment is as efficacious as interferon beta and glatiramer acetate in EAE
 - Neurofilament light chain (NfL) in serum/CSF is the most promising molecular biomarker: correlates with disease activity, treatment response, and brain atrophy; high NFL is an independent risk factor for CIS-to-MS conversion
 - CHI3L1 (chitinase-3-like-1 or YKL-40) levels > 189 ng/L in CSF predict faster disease conversion from CIS to MS

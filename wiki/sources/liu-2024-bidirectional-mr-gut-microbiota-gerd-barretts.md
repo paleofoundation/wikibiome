@@ -14,7 +14,7 @@ library_category: causal
 platform: both
 condition: "gastroesophageal-reflux-disease"
 karen_brain_primitives: [1, 5]
-metals_discussed: []
+metals_discussed: [iron]
 taxa_discussed: [escherichia-coli, enterobacteriaceae, akkermansia-muciniphila, bifidobacterium, faecalibacterium-prausnitzii, haemophilus]
 key_findings:
   - "Enterobacteriaceae/Escherichia-Shigella causally increase Barrett's risk (OR=1.10)"

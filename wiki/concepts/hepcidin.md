@@ -1,5 +1,4 @@
 ---
-
 title: Hepcidin
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, roberts-2019-lactoferrin-genital-infections-iron, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, mishra-2022-molecular-mechanisms-heavy-metals-ckd, brylinski-2025-trace-elements-thyroid-diseases, maier-2019-nickel-microbial-pathogenesis]
 tags: [iron-homeostasis, ferroportin, nutritional-immunity, inflammation, anemia-of-chronic-disease, iron-supplementation]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 8, 9]
+seo_target: "hepcidin microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Hepcidin

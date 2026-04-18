@@ -1,5 +1,4 @@
 ---
-
 title: "Gut microbiota and vascular biomarkers in patients without clinical cardiovascular diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2017
 doi: 10.1016/j.artres.2017.02.007
 tags: [cardiovascular-disease, CVD, gut-microbiome, arterial-stiffness, intima-media-thickness, atherosclerosis, CRP, inflammation, Serratia, Bacteroides, Blautia, vascular-biomarkers, 16S-rRNA]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [bacteroides-fragilis, blautia, clostridium, faecalibacterium-prausnitzii, prevotella]
 ---
 
 # Gut Microbiota and Vascular Biomarkers in Patients Without Clinical Cardiovascular Diseases

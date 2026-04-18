@@ -39,9 +39,9 @@ PRISMA-compliant narrative review. PubMed searched Jan 2024 for ((cobalt OR lith
 
 ## Relevance to WikiBiome
 
-- [[cobalt]], [[nickel]], [[manganese]], [[lithium]] entity pages — mining exposure patterns, respiratory/neurologic toxicity profiles.
-- [[occupational-exposure]] concept — systematic review evidence base.
-- [[lithium-ion-battery]] concept — environmental justice angle; mining-related health burden in DRC, Chile, etc.
+- [[cobalt]], [[nickel]], [[manganese]], [[environmental-metal-exposure|lithium]] entity pages — mining exposure patterns, respiratory/neurologic toxicity profiles.
+- [[environmental-metal-exposure|occupational-exposure]] concept — systematic review evidence base.
+- [[environmental-metal-exposure|lithium-ion-battery]] concept — environmental justice angle; mining-related health burden in DRC, Chile, etc.
 
 ## Relevance to Cureva
 

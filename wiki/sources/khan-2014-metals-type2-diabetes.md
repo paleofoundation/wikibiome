@@ -32,6 +32,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Establishes that type 2 diabetes is characterized by zinc depletion (via urinary loss and ZnT8 transporter dysfunction) and iron overload (elevated ferritin driving insulin resistance), while toxic metals (lead, nickel, cadmium, arsenic) directly impair insulin signaling and glucose metabolism. WikiBiome depends on this evidence to explain why metal-dysregulated microbiota (depleted in zinc-dependent bacteria) cannot restore insulin sensitivity—linking nutritional immunity failure to dysbiotic metabolic incompetence."
+evidence_level: expert-opinion
+metals_discussed: [arsenic, cadmium, calcium, chromium, copper, iron, lead, magnesium, manganese, nickel, zinc]
+karen_brain_primitives: [2, 3, 4]
 ---
 
 # Key Claims

@@ -7,7 +7,7 @@ authors:
   - "[Extract full author list from PDF]"
 year: 2023
 journal: Protein & Cell
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (None); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Protein & Cell 2023 -->
 tags:
   - microbiota
   - gut-brain-axis
@@ -24,6 +24,9 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: Establishes the bidirectional microbiota-gut-brain axis as the organizing framework for neurodevelopmental disorders, integrating vagal, immune, and metabolite pathways. WikiBiome uses this framework to position metal-driven dysbiosis as an upstream perturbation of the gut-brain axis in autism and related conditions.
+evidence_level: expert-opinion
+metals_discussed: [calcium, iron, zinc]
+karen_brain_primitives: [1, 2, 4, 5]
 ---
 
 # Overview
@@ -58,7 +61,7 @@ Comprehensive review of the **microbiota–gut–brain axis in neurodevelopmenta
 ## 2. Immune Pathway
 
 - **Intestinal immune training**: microbiota educates intestinal immune system
- - Promotes [[Bacteroidetes]]-dependent Treg development
+ - Promotes [[bacteroidetes]]-dependent Treg development
  - Balances Th17 response
  - Trains innate lymphoid cells (ILCs)
 - **Systemic immune priming**: dysbiosis → reduced tolerance → elevated systemic pro-inflammatory state

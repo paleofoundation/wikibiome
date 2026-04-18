@@ -14,7 +14,7 @@ library_category: causal
 platform: both
 condition: "chronic-kidney-disease"
 karen_brain_primitives: [1, 4, 5, 8]
-metals_discussed: []
+metals_discussed: [iron]
 taxa_discussed: [eggerthella-lenta, fusobacterium-nucleatum, alistipes, roseburia, faecalibacterium-prausnitzii, bifidobacterium, prevotella, akkermansia-muciniphila]
 key_findings:
   - "Bidirectional CKD-microbiome relationship where uremia reshapes the gut and the dysbiotic gut accelerates CKD"
@@ -44,7 +44,7 @@ Dietary interventions (high fiber, low protein, resistant starch) consistently r
 
 ## Relevance to WikiBiome
 
-Informs entity pages for all taxa discussed, the [[chronic-kidney-disease]] disease entity, and concept pages on [[uremic-toxins]], [[gut-kidney-axis]], and [[short-chain-fatty-acids]].
+Informs entity pages for all taxa discussed, the [[chronic-kidney-disease]] disease entity, and concept pages on [[tmao|uremic-toxins]], [[gut-kidney-axis]], and [[short-chain-fatty-acids]].
 
 ## Relevance to Cureva
 

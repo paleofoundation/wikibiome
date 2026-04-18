@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, metformin, gut-microbiota, healthy-humans, Inte
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+taxa_discussed: [clostridium]
+key_findings: ["Metformin significantly changed the relative abundance of 11 bacterial genera", "Reduced abundance of Intestinibacter and Clostridium", "Pre-treatment gut microbiota"]
 ---
 
 # Key Claims

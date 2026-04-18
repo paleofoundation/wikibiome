@@ -11,6 +11,10 @@ tags: [parkinsons-disease, dietary-fiber, butyrate, short-chain-fatty-acids, pre
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, lead, manganese, nickel]
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1, 5]
 ---
 
 # Potential of Prebiotic Butyrogenic Fibers in Parkinson's Disease
@@ -23,7 +27,7 @@ This review evaluates the therapeutic potential of prebiotic butyrogenic fibers 
 
 - Butyrogenic fibers (resistant starch, inulin, pectin, beta-glucan) selectively promote growth of butyrate-producing bacteria
 - *Faecalibacterium prausnitzii* and *Roseburia intestinalis* -- both depleted in PD -- are primary targets of butyrogenic fibers
-- [[Butyrate]] provides multiple neuroprotective mechanisms: HDAC inhibition, anti-inflammatory signaling, gut barrier maintenance
+- [[butyrate]] provides multiple neuroprotective mechanisms: HDAC inhibition, anti-inflammatory signaling, gut barrier maintenance
 - Resistant starch is particularly effective at increasing fecal butyrate concentrations
 - Butyrogenic fibers improve constipation, a hallmark prodromal PD symptom
 - The approach is low-cost, safe, and easily implementable in PD dietary management
@@ -31,7 +35,7 @@ This review evaluates the therapeutic potential of prebiotic butyrogenic fibers 
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Butyrogenic fibers directly target the [[butyrate]] deficit that disrupts [[iron]] homeostasis in [[parkinsons-disease]]. [[Butyrate]] is the primary energy source for colonocytes and maintains the hypoxic colonic environment that stabilizes HIF-2alpha, which transcriptionally regulates the [[iron]] transporter DMT1 and the [[iron]] reductase DCYTB. When butyrate is depleted (as in PD [[dysbiosis]]), colonocytes shift to glucose metabolism, the colonic environment becomes more aerobic, HIF-2alpha is degraded, and [[iron]] absorption becomes dysregulated. Restoring butyrate through butyrogenic fibers would re-engage this entire regulatory cascade, normalizing [[iron]] absorption and potentially reducing the [[iron]] overload that drives [[ferroptosis]] in dopaminergic neurons. Resistant starch also binds divalent metals in the gut lumen, providing an additional mechanism to reduce [[nickel]], [[lead]], and [[manganese]] absorption.
+Butyrogenic fibers directly target the [[butyrate]] deficit that disrupts [[iron]] homeostasis in [[parkinsons-disease]]. [[butyrate]] is the primary energy source for colonocytes and maintains the hypoxic colonic environment that stabilizes HIF-2alpha, which transcriptionally regulates the [[iron]] transporter DMT1 and the [[iron]] reductase DCYTB. When butyrate is depleted (as in PD [[dysbiosis]]), colonocytes shift to glucose metabolism, the colonic environment becomes more aerobic, HIF-2alpha is degraded, and [[iron]] absorption becomes dysregulated. Restoring butyrate through butyrogenic fibers would re-engage this entire regulatory cascade, normalizing [[iron]] absorption and potentially reducing the [[iron]] overload that drives [[ferroptosis]] in dopaminergic neurons. Resistant starch also binds divalent metals in the gut lumen, providing an additional mechanism to reduce [[nickel]], [[lead]], and [[manganese]] absorption.
 
 ## Limitations
 

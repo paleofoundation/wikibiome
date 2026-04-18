@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, oral-microbiome, metagenomics, salivary-microbi
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+key_findings: ["Oral microbiome composition can discriminate ASD from neurotypical siblings", "Relative abundance of differentiating species", "ASD children with IQ<70"]
 ---
 
 # Key Claims

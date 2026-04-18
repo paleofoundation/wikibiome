@@ -28,13 +28,13 @@ key_findings:
 
 ## Why This Paper Matters
 
-This is an official technical report from the American Academy of Pediatrics (AAP) Committee on Nutrition -- the authoritative pediatric medical body in the United States. It represents the definitive institutional position on aluminum exposure risks in the most vulnerable population: infants and children. The report is critical for the developmental vulnerability thread of the wiki because it establishes that (1) preterm infants receiving [[parenteral-nutrition]] are at greatest risk due to immature renal function, (2) infant formulas contain significantly higher aluminum than human milk but no clinical toxicity has been documented from formula feeding, and (3) there is a meta-analytic association between aluminum and [[alzheimers-disease]] at high-concentration long-term exposures. This bridges the gap between [[heavy-metals]] environmental exposure science and clinical pediatric practice.
+This is an official technical report from the American Academy of Pediatrics (AAP) Committee on Nutrition -- the authoritative pediatric medical body in the United States. It represents the definitive institutional position on aluminum exposure risks in the most vulnerable population: infants and children. The report is critical for the developmental vulnerability thread of the wiki because it establishes that (1) preterm infants receiving [[infant-exposure|parenteral-nutrition]] are at greatest risk due to immature renal function, (2) infant formulas contain significantly higher aluminum than human milk but no clinical toxicity has been documented from formula feeding, and (3) there is a meta-analytic association between aluminum and [[alzheimers-disease]] at high-concentration long-term exposures. This bridges the gap between [[heavy-metals]] environmental exposure science and clinical pediatric practice.
 
 ## Key Claims
 
 - Aluminum has no known biological function; it is a contaminant present in most foods and medications
 - Aluminum is excreted by the renal system; patients with renal diseases should avoid aluminum-containing medications
-- The greatest risk of aluminum exposure occurs in intravenous preparations for micronutrient delivery in [[parenteral-nutrition]]
+- The greatest risk of aluminum exposure occurs in intravenous preparations for micronutrient delivery in [[infant-exposure|parenteral-nutrition]]
 - Only 0.14% of ingested aluminum is absorbed in adults; one isotope study found absorption to be 0.08%
 - The Agency for Toxic Substances and Disease Registry set minimum risk level for oral aluminum intake at 1 mg/kg per day
 - The gastrointestinal mucosa is exceptionally efficient at preventing absorption of ingested aluminum

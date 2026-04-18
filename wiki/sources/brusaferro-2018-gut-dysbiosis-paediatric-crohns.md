@@ -17,7 +17,7 @@ library_category: causal
 platform: both
 condition: "crohns-disease"
 karen_brain_primitives: [4, 5]
-metals_discussed: []
+metals_discussed: [cadmium, iron, lead, zinc]
 taxa_discussed: [faecalibacterium-prausnitzii, bifidobacterium, firmicutes, bacteroidetes, proteobacteria, escherichia-coli]
 key_findings:
   - "Paediatric Crohn's has distinct phenotype: 43% of paediatric CD presents as panenteric at onset vs only 3% of adult CD; isolated ileal and colonic-only CD are significantly less common in children (2% vs 31% ileal-only, 15% vs 36% colonic-only)"
@@ -42,7 +42,7 @@ PubMed search of studies from January 2008 to June 2018 using "Crohn's disease" 
 - Supports [[crohns-disease]] entity "Microbiome Associations" section with paediatric-specific data.
 - Feeds [[autophagy]] concept page (ATG16L1, IRGM).
 - Supports [[exclusive-enteral-nutrition]] concept as validated paediatric CD intervention.
-- Adds to [[nod2]] entity page (if present) and links innate immunity pathways.
+- Adds to [[autoimmunity|nod2]] entity page (if present) and links innate immunity pathways.
 
 ## Relevance to Cureva
 

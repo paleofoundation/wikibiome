@@ -11,6 +11,9 @@ tags: [postpartum-depression, nutrition, diet, sugar-sweetened-beverages, preval
 library_category: meta-analysis
 platform: cureva
 condition: "postpartum depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["Updated global PPD prevalence", "Sugar-sweetened beverage (SSB) consumption", "Seafood consumption"]
 ---
 
 # Key Claims

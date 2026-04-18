@@ -1,5 +1,4 @@
 ---
-
 title: "Probiotics functionalized with a gallium-polyphenol network modulate the intratumor microbiota and promote anti-tumor immune responses in pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,11 +9,14 @@ year: 2024
 tags: [pancreatic-cancer, probiotics, Lactobacillus-rhamnosus, gallium, polyphenols, intratumor-microbiota, immunotherapy, PD-L1, LPS, immune-checkpoint, tumor-microenvironment]
 doi: "10.1038/s41467-024-51534-z"
 platform: wikibiome
+metals_discussed: [iron]
+taxa_discussed: [escherichia-coli, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- *Lactobacillus rhamnosus* GG (LGG) functionalized with a gallium-polyphenol network (LGG@Ga-poly) selectively eradicates tumor-promoting [[Proteobacteria]] and microbiota-derived LPS in [[pancreatic-cancer]]
+- *Lactobacillus rhamnosus* GG (LGG) functionalized with a gallium-polyphenol network (LGG@Ga-poly) selectively eradicates tumor-promoting [[proteobacteria]] and microbiota-derived LPS in [[pancreatic-cancer]]
 - Elimination of intratumoral microbiota impedes TLR activation, reduces PD-L1 and IL-1beta expression, diminishes immunotolerant myeloid populations, and improves CD8+ cytotoxic T cell infiltration
 - LGG@Ga-poly amplifies the antitumor efficacy of anti-PD-1 immune checkpoint blockade in preclinical pancreatic cancer models
 - The gallium-facilitated disruption of bacterial iron respiration provides selective antimicrobial activity against pathogenic bacteria while preserving the probiotic
@@ -30,7 +32,7 @@ platform: wikibiome
 
 # Connections
 
-- Engineered [[probiotics]] targeting intratumoral microbiota represents novel [[microbiome-targeted therapy]] approach
-- LPS-TLR axis disruption connects to [[microbiome and inflammation]] and [[NF-kB]] signaling in pancreatic cancer
-- Gallium-based antimicrobial strategy relevant to [[microbiome-modulating drugs]] and [[phage therapy]] alternatives
-- Immune checkpoint enhancement links to [[microbiome-host interactions]] and immunotherapy response
+- Engineered [[probiotics]] targeting intratumoral microbiota represents novel [[probiotics|microbiome-targeted therapy]] approach
+- LPS-TLR axis disruption connects to [[inflammation|microbiome and inflammation]] and [[nf-kappa-b|NF-kB]] signaling in pancreatic cancer
+- Gallium-based antimicrobial strategy relevant to [[pharmacomicrobiomics|microbiome-modulating drugs]] and [[virome]] alternatives
+- Immune checkpoint enhancement links to [[gut-metal-microbiome|microbiome-host interactions]] and immunotherapy response

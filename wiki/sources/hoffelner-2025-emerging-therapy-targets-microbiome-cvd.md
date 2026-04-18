@@ -1,5 +1,4 @@
 ---
-
 title: "Emerging therapy targets to modulate microbiome-mediated effects evident in cardiovascular disease"
 type: source
 created: 2026-04-09
@@ -10,13 +9,16 @@ year: 2025
 doi: 10.3389/fcvm.2025.1631841
 tags: [cardiovascular-disease, microbiome-modulating-drugs, probiotics, prebiotics, antibiotics, SCFAs, TMAO, bile-acids, tryptophan, imidazole-propionate, succinate, cholesterol, atherosclerosis]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bifidobacterium, enterococcus, escherichia-coli, eubacterium, lactobacillus, parabacteroides, saccharomyces-cerevisiae, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Emerging Therapy Targets to Modulate Microbiome-Mediated Effects Evident in Cardiovascular Disease
 
 ## Summary
 
-Review summarizing microbiome-derived metabolites that influence CVD and emerging therapeutic approaches including [[probiotics]], [[prebiotics]], and [[antibiotics]] that target microbial diversity and activities to reduce residual CVD risk.
+Review summarizing microbiome-derived metabolites that influence CVD and emerging therapeutic approaches including [[probiotics]], [[prebiotics]], and [[antimicrobial-resistance|antibiotics]] that target microbial diversity and activities to reduce residual CVD risk.
 
 ## Key Findings
 

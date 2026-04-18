@@ -10,6 +10,7 @@ doi: "10.1038/s41467-026-69154-0"
 tags: [chronic-kidney-disease, CKD, bacteriophage, Klebsiella-pneumoniae, peritonitis, peritoneal-dialysis, antimicrobial-resistance]
 platform: wikibiome
 evidence_level: case-report
+taxa_discussed: [klebsiella-pneumoniae]
 ---
 
 # Combined Phage and Antibiotic Therapy for PD Peritonitis

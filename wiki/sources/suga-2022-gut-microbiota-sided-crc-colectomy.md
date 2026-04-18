@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut Microbiota Composition in Patients with Right- and Left-Sided Colorectal Cancer and After Curative Colectomy, as Analyzed by 16S rRNA Gene Amplicon Sequencing"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 tags: [colon-cancer, 16S-rRNA, right-sided-CRC, left-sided-CRC, colectomy, Firmicutes, Verrucomicrobia, Ruminococcaceae, Clostridium, T-RFLP, colorectal-cancer]
 doi: "10.1186/s12876-022-02382-y"
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [clostridium]
 ---
 
 # The Gut Microbiota Composition in Patients with Right- and Left-Sided Colorectal Cancer and After Curative Colectomy

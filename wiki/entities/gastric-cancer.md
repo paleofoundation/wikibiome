@@ -25,7 +25,7 @@ The fifth most common cancer worldwide and third leading cause of cancer death, 
 ### Step 1: Nickel Enables Colonization
 H. pylori cannot survive gastric acid without two nickel-dependent enzymes:
 - **Urease** -- a Ni-containing enzyme that hydrolyzes urea to ammonia + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.
-- **[Ni-Fe] [[Hydrogenase]]** -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density.
+- **[Ni-Fe] [[hydrogenase]]** -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density.
 
 ### Step 2: Nickel Powers Virulence
 The CagA oncoprotein translocation depends on the energy derived from nickel metalloenzymes:
@@ -66,7 +66,7 @@ Each step is driven by chronic [[inflammation]] [[nf-kappa-b]], [[oxidative-stre
 ### Nickel (Beyond H. pylori)
 - Dietary nickel itself may contribute: high-nickel diets provide substrate for H. pylori's metalloenzymes
 - Nickel compounds are IARC Group 1 carcinogens (occupational inhalation → nasal/lung cancer; gastric route less studied)
-- [[Dietary-nickel-exposure]] in H. pylori-infected individuals could accelerate the carcinogenic cascade
+- [[dietary-nickel-exposure]] in H. pylori-infected individuals could accelerate the carcinogenic cascade
 
 ## The Gastric Microbiome Beyond H. pylori
 
@@ -89,7 +89,7 @@ H. pylori dominates the gastric microbiome in infected individuals but is not al
 - **H. pylori eradication** -- the single most effective gastric cancer prevention strategy; triple/quadruple antibiotic therapy. But eradication alters the gastric and intestinal microbiome (a [[pharmacomicrobiomics]] concern).
 - **Nickel restriction** -- untested but theoretically could reduce H. pylori virulence by starving metalloenzymes
 - **Selenium supplementation** -- Se deficiency associates with gastric cancer risk; Se supports antioxidant defense via glutathione peroxidase
-- **[[Probiotics]]** -- Lactobacillus supplementation during H. pylori eradication reduces antibiotic side effects and may improve eradication rates
+- **[[probiotics]]** -- Lactobacillus supplementation during H. pylori eradication reduces antibiotic side effects and may improve eradication rates
 - **Cadmium avoidance** -- smoking cessation (tobacco is a major Cd source), reducing dietary Cd
 
 ## Connections

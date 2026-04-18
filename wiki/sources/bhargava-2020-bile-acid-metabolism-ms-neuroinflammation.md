@@ -1,5 +1,4 @@
 ---
-
 title: "Bile acid metabolism is altered in multiple sclerosis and supplementation ameliorates neuroinflammation"
 type: source
 created: 2026-04-09
@@ -10,13 +9,16 @@ year: 2020
 doi: 10.1172/JCI129401
 tags: [multiple-sclerosis, bile-acids, TUDCA, GPBAR1, FXR, neuroinflammation, astrocytes, microglia, gut-microbiome, metabolomics, EAE]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [bacteroides-fragilis]
+key_findings: ["Pediatric-onset MS"]
 ---
 
 # Bile Acid Metabolism Is Altered in Multiple Sclerosis and Supplementation Ameliorates Neuroinflammation
 
 ## Summary
 
-This landmark study from Johns Hopkins identified altered [[bile-acids]] metabolism in both adult and pediatric MS patients using global and targeted metabolomic profiling, and demonstrated that TUDCA supplementation ameliorates [[neuroinflammation]] in EAE through GPBAR1 receptor signaling.
+This landmark study from Johns Hopkins identified altered [[bile-acid-metabolism]] metabolism in both adult and pediatric MS patients using global and targeted metabolomic profiling, and demonstrated that TUDCA supplementation ameliorates [[neuroinflammation]] in EAE through GPBAR1 receptor signaling.
 
 ## Key Findings
 

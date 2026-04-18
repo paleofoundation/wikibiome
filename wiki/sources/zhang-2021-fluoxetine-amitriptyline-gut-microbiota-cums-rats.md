@@ -15,6 +15,7 @@ karen_brain_primitives: []
 metals_discussed: []
 evidence_level: animal-model
 taxa_discussed: ["Alistipes", "Parabacteroides"]
+key_findings: ["6-week antidepressant treatment", "Fluoxetine was more potent than amitriptyline", "Both antidepressants"]
 ---
 
 # Key Claims

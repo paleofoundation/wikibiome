@@ -1,5 +1,4 @@
 ---
-
 title: "A comparison between children and adolescents with autism spectrum disorders and healthy controls in biomedical factors, trace elements, and microbiota biomarkers: a meta-analysis"
 type: source
 created: 2026-04-09
@@ -7,9 +6,13 @@ updated: 2026-04-09
 authors: [Ping Lin, Qianwen Zhang, Junyu Sun, Qingtian Li, Dan Li, Mengyuan Zhu, Xiaomei Fu, Ling Zhao, Qing Chen, Kangyi Liang, Mengxia Wang, Xiaoyuan Lou, Yuxin Zhu, Caiwei Qu, Zhenhua Li, Peijun Ma, Renyu Wang, Huafen Liu, Ke Dong, Xiaokui Guo, Xunjia Cheng, Yang Sun, Jing Sun]
 journal: Frontiers in Psychiatry
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Psychiatry 2024 -->
 tags: [autism, meta-analysis, trace-elements, iron, zinc, copper, biomarkers, gut-microbiota, CRP, GABA, serotonin, oxytocin]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, faecalibacterium-prausnitzii, parabacteroides]
+karen_brain_primitives: [1]
 ---
 
 # Lin et al. 2024 -- ASD Biomedical Factors, Trace Elements, and Microbiota Meta-Analysis

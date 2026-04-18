@@ -1,5 +1,4 @@
 ---
-
 title: "Microbial Metabolites in Multiple Sclerosis: Implications for Pathogenesis and Treatment"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 tags: [multiple-sclerosis, SCFAs, acetate, propionate, butyrate, polyamines, spermidine, urolithins, gut-metabolites, EAE, Tregs, Th17, gut-brain-axis, therapeutic-targets]
 doi: "10.3389/fnins.2022.885031"
 platform: wikibiome
+evidence_level: in-vitro
+karen_brain_primitives: [5]
 ---
 
 # Microbial Metabolites in Multiple Sclerosis: Implications for Pathogenesis and Treatment
@@ -19,8 +20,8 @@ platform: wikibiome
 - MS patients have reduced levels of SCFA-producing bacteria and reduced fecal SCFAs; acetate is increased in MS but associated with more severe pathology
 - Each SCFA has distinct immunological effects: propionate augments Treg frequency and suppressive capacity (blood, spinal cord, spleen) while upregulating IL-10, TGF-beta, and FOXP3; butyrate inhibits demyelination; acetate can increase IL-10 but also aggravate EAE
 - Long-chain fatty acids (LCFAs) like lauric acid in Western diet augment Th17 differentiation and migration to the CNS, exacerbating EAE; SCFAs counteract this effect in the small intestine
-- [[Spermidine]] (polyamine) is a promising MS therapeutic: promotes FoxP3+ Treg differentiation, shifts macrophages to M2 profile, inhibits macrophage/T cell migration to spinal cord, and decreases astrocyte and microglia number in EAE
-- [[Urolithins]] (from dietary polyphenols via *Gordonibacter* and *Eggerthellaceae*): urolithin A (UA) has anti-inflammatory, anti-aging, and neuroprotective effects; decreases intestinal permeability in Ahr-Nrf2-dependent fashion; reduces Th17 differentiation; UA treatment reduces EAE severity
+- [[short-chain-fatty-acids|Spermidine]] (polyamine) is a promising MS therapeutic: promotes FoxP3+ Treg differentiation, shifts macrophages to M2 profile, inhibits macrophage/T cell migration to spinal cord, and decreases astrocyte and microglia number in EAE
+- [[polyphenols|Urolithins]] (from dietary polyphenols via *Gordonibacter* and *Eggerthellaceae*): urolithin A (UA) has anti-inflammatory, anti-aging, and neuroprotective effects; decreases intestinal permeability in Ahr-Nrf2-dependent fashion; reduces Th17 differentiation; UA treatment reduces EAE severity
 - Behavioral comorbidities (anxiety, depression) in MS are linked to gut metabolites: the autoinducer-2 (AI-2) from SFB increases serum amyloid A and Th17 differentiation, which causes depressive-like behavior via CCL20/CCR6/IL-23 pathway
 
 ## Methods/Findings

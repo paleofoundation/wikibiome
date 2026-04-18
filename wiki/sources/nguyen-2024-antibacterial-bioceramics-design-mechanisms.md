@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, antimicrobial-metals, bioceramics, imp
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "antibacterial bioceramic implants"
+metals_discussed: [bismuth, calcium, cobalt, copper, iron, magnesium, manganese, strontium, zinc]
+taxa_discussed: [escherichia-coli, helicobacter-pylori, shigella, staphylococcus-aureus]
+karen_brain_primitives: [3, 4]
+key_findings: ["Implant-associated infections", "Four generations of bioceramics", "Metal-doped bioceramics"]
 ---
 
 # Why This Paper Matters

@@ -11,9 +11,10 @@ tags: [autism-spectrum-disorder, indole-3-propionic-acid, IPA, AhR, NF-kB, micro
 library_category: causal
 platform: animal-model-16S-metabolomics
 condition: "autism spectrum disorder (IUGR model)"
-karen_brain_primitives: []
-metals_discussed: []
-taxa_discussed: []
+karen_brain_primitives: [1, 4]
+metals_discussed: [iron, zinc]
+taxa_discussed: [bacteroides-fragilis]
+evidence_level: animal-model
 ---
 
 # Overview

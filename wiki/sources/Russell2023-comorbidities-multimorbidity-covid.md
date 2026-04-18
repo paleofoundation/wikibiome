@@ -14,7 +14,7 @@ library_category: associated-conditions
 platform: wikibiome
 condition: "COVID-19"
 karen_brain_primitives: [1, 2, 5]
-metals_discussed: []
+metals_discussed: [iron]
 taxa_discussed: []
 key_findings:
   - "COVID-19 proceeds through three mechanistically distinct phases: viral replication, inflammatory lung injury, post-acute sequelae"

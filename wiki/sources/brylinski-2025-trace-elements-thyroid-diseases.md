@@ -46,6 +46,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Links trace metal and micronutrient status (iron, copper, zinc, selenium, iodine) to thyroid function and autoimmune thyroiditis pathogenesis—bridging nutritional immunity and dysbiosis in Graves' disease and Hashimoto's thyroiditis. Critical for understanding how cadmium/mercury burden drives thyroid-specific dysbiosis and immune dysregulation."
+evidence_level: expert-opinion
+metals_discussed: [cadmium, calcium, cobalt, copper, iron, lead, manganese, mercury, nickel, selenium, zinc]
+karen_brain_primitives: [1, 2]
 ---
 
 # Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases - A Literature Review
@@ -53,10 +56,10 @@ why_keystone: "Links trace metal and micronutrient status (iron, copper, zinc, s
 ## Key Claims
 
 - Trace elements (Fe, Cu, Mn, I, Zn, Se) are part of enzymes involved in [[oxidative-stress|oxidative stress]] reduction, while [[cadmium]], [[mercury]], and [[lead]] can increase ROS production
-- [[iron]] deficiency decreases TPO activity, leading to reduced T3/T4 synthesis and increased TSH; 58% of [[Hashimoto's thyroiditis]] patients have Fe deficiency anemia and 75% have vitamin D deficiency
-- [[copper]] stimulates T4 production and inhibits excessive T4 absorption in blood cells; elevated Cu may be associated with [[thyroid cancer]] mortality in women
+- [[iron]] deficiency decreases TPO activity, leading to reduced T3/T4 synthesis and increased TSH; 58% of [[hashimotos-thyroiditis]] patients have Fe deficiency anemia and 75% have vitamin D deficiency
+- [[copper]] stimulates T4 production and inhibits excessive T4 absorption in blood cells; elevated Cu may be associated with [[hashimotos-thyroiditis|thyroid cancer]] mortality in women
 - [[selenium]] builds deiodinases (DIO1, DIO2, DIO3) essential for T4 to T3 conversion; Se is a component of glutathione peroxidases protecting thyrocytes from oxidative damage
-- [[iodine]] is essential for thyroid hormone synthesis but excess I can paradoxically inhibit TH synthesis (Wolff-Chaikoff effect) and may promote [[autoimmune thyroiditis]]
+- [[iodine]] is essential for thyroid hormone synthesis but excess I can paradoxically inhibit TH synthesis (Wolff-Chaikoff effect) and may promote [[thyroid-autoimmunity|autoimmune thyroiditis]]
 - [[cadmium]] inhibits hepatic 5'-monodeiodinase activity, interfering with T4 to T3 conversion; Cd exposure induces UGT activity increasing T3/T4 metabolism
 - [[lead]] accumulation disrupts cellular energy production and causes DNA damage in thyroid cells; Pb prevents deiodination and reduces T3 levels
 - [[mercury]] interferes with TSH production, inhibits TPO, and both MeHg and inorganic compounds inhibit Tg iodination

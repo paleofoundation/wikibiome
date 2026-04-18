@@ -1,5 +1,4 @@
 ---
-
 title: Metal Chelation Therapy
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, briffa-2020-heavy-metal-pollution-environment-toxicology, jaishankar-2014-heavy-metal-toxicity-mechanisms, passeri-2024-recent-advances-therapeutics-alzheimers, mishra-2022-molecular-mechanisms-heavy-metals-ckd, tizabi-2023-lead-gut-microbiota-asd]
 tags: [chelation, EDTA, DMSA, DMPS, deferoxamine, deferasirox, disulfiram, treatment, metals, detoxification, essential-metal-depletion]
 platform: wikibiome
+karen_brain_primitives: [1, 3, 4, 8]
+seo_target: "metal chelation therapy microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Metal Chelation Therapy

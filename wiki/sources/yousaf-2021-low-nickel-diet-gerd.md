@@ -1,5 +1,4 @@
 ---
-
 title: "The effect of a low-nickel diet and nickel sensitization on gastroesophageal reflux disease: A pilot study"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ tags: [GERD, low-nickel-diet, gastroesophageal-reflux, patch-testing, pilot-stud
 doi: "10.1007/s12664-020-01090-3"
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [chromium, cobalt, nickel]
+taxa_discussed: [helicobacter-pylori]
+karen_brain_primitives: [1]
 ---
 
 ## Key Claims

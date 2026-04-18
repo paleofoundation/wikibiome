@@ -25,7 +25,7 @@ karen_brain_primitives: [2, 5]
 
 ## Summary
 
-This study integrates gut [[microbiome]] composition, fecal [[short-chain-fatty-acids]], markers of intestinal inflammation (calprotectin), and gut barrier integrity (zonulin) in [[parkinsons-disease]] patients versus controls. It provides one of the most comprehensive multi-omic snapshots of the PD gut environment.
+This study integrates gut [[gut-microbiome|microbiome]] composition, fecal [[short-chain-fatty-acids]], markers of intestinal inflammation (calprotectin), and gut barrier integrity (zonulin) in [[parkinsons-disease]] patients versus controls. It provides one of the most comprehensive multi-omic snapshots of the PD gut environment.
 
 ## Key Findings
 

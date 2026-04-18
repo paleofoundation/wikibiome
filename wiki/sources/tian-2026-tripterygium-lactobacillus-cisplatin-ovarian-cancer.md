@@ -9,6 +9,10 @@ year: 2026
 doi: "10.1186/s11658-025-00850-3"
 tags: [ovarian-cancer, cisplatin, Lactobacillus-paracasei, Tripterygium, ferroptosis, Keap1-Nrf2-GPX4, FMT, chemosensitivity, gut-microbiome]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [iron]
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [1, 5]
 ---
 
 # Tripterygium Glycosides and Lactobacillus paracasei Sensitize Ovarian Cancer to Cisplatin

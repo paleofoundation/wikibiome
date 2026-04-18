@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, genetics, gwas, meta-analysis, hla, immune-b
 library_category: genetics
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1]
+key_findings: ["~200 million people affected by diabetes worldwide", "GWAS has revealed >40 genetic loci", "Three new loci with genome-wide significance"]
 ---
 
 # Key Claims

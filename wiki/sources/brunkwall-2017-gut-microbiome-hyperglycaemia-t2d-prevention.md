@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, dysbiosis, metformin, probio
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Microbial genes exceed human coding potential by ~500-fold", "16S rRNA and shotgun metagenomics", "Stool consistency"]
 ---
 
 # Key Claims

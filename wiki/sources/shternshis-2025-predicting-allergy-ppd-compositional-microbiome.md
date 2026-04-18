@@ -11,6 +11,8 @@ tags: [postpartum-depression, gut-microbiome, machine-learning, compositional-da
 library_category: computational
 platform: cureva
 condition: "postpartum depression"
+evidence_level: computational-prediction
+key_findings: ["Machine learning classification", "Bacterial abundance ratios"]
 ---
 
 # Key Claims

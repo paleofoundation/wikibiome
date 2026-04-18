@@ -1,5 +1,4 @@
 ---
-
 title: "Elevated Lead, Nickel, and Bismuth Levels in the Peritoneal Fluid of a Peritoneal Endometriosis Patient without Toxic Habits or Occupational Exposure following a Vegetarian Diet"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [nickel, lead, bismuth, peritoneal-fluid, endometriosis, vegetarian-diet, heavy-metals, potentially-toxic-elements, case-report]
 doi: "10.3390/toxics11040389"
 platform: wikibiome
+evidence_level: case-report
+metals_discussed: [barium, bismuth, cobalt, lead, nickel]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims
@@ -46,4 +48,4 @@ platform: wikibiome
 - [[endocrine-disruption]] -- Cd, Pb, and Hg classified as EDCs; Cd activates ERalpha with estrogenic activity; Ni acts as metalloestrogen
 - [[heavy-metals]] -- multielemental PF profiling reveals accumulation of multiple PTEs in the peritoneal cavity of endometriosis patients
 - [[inflammation]] -- peritoneal fluid is the microenvironment where endometriotic lesions reside and communicate with surrounding tissues
-- [[vegetarian-diet]] -- while often recommended for endometriosis, may paradoxically increase exposure to [[nickel]] and other PTEs through plant-based foods
+- [[mediterranean-diet|vegetarian-diet]] -- while often recommended for endometriosis, may paradoxically increase exposure to [[nickel]] and other PTEs through plant-based foods

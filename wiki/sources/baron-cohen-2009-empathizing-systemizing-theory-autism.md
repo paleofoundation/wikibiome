@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, empathizing-systemizing-theory, cognitive-theor
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["Mind-blindness theory"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Opportunities and challenges in phage therapy for cardiometabolic diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 doi: 10.1016/j.tem.2024.03.007
 tags: [cardiovascular-disease, phage-therapy, bacteriophages, cardiometabolic-disease, virome, FMT, fecal-virome-transplantation, MASLD, precision-medicine]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [enterococcus, escherichia-coli]
+karen_brain_primitives: [5]
 ---
 
 # Opportunities and Challenges in Phage Therapy for Cardiometabolic Diseases
@@ -46,6 +48,6 @@ Opinion article discussing the potential of bacteriophage (phage) therapy as a p
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Precision microbiome modulation** - [[Phage therapy]] offers targeted approach to eliminate specific CVD-associated pathobionts without broad-spectrum damage
+1. **Precision microbiome modulation** - [[virome]] offers targeted approach to eliminate specific CVD-associated pathobionts without broad-spectrum damage
 2. **Virome as therapeutic tool** - Fecal virome transplantation represents emerging intervention for [[cardiovascular-disease]]
 3. **Pipeline framework** - Figure 3 outlines complete pipeline from target identification to clinical trials for phage-based CMD therapeutics

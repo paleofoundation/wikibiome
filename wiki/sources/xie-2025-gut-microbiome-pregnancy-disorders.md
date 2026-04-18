@@ -12,6 +12,9 @@ library_category: review
 platform: cureva
 condition: "pregnancy disorders"
 evidence_level: expert-opinion
+metals_discussed: [copper, iron, magnesium, zinc]
+karen_brain_primitives: [5]
+key_findings: ["Dramatic changes in gut microbiota", "Gut microbiota changes", "Over-proliferation of Proteobacteria"]
 ---
 
 # Key Claims

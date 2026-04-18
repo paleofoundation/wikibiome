@@ -12,6 +12,8 @@ library_category: microbiome-signature
 platform: cureva
 condition: "postpartum depression"
 evidence_level: cross-sectional
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["Third-trimester gut microbiota diversity"]
 ---
 
 # Key Claims

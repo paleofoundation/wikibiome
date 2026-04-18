@@ -1,5 +1,4 @@
 ---
-
 title: "Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis"
 type: source
 created: 2026-04-09
@@ -11,14 +10,17 @@ doi: "10.33073/pjm-2022-016"
 tags: [hashimotos-thyroiditis, thyroid, Graves-disease, gut-microbiota, 16S-rRNA, dysbiosis, KEGG, ABC-transporter, Proteobacteria, Actinobacteria, Bacillaceae, Erysipelotrichaceae, Coriobacteriaceae, Blautia, Dorea, Prevotella, autoimmune, keto-diet]
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [selenium]
+taxa_discussed: [blautia, dorea, lachnospira, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis
 
 ## Key Claims
 
-- The overall structure of [[gut microbiota]] in [[graves-disease]] (GD) and [[hashimotos-thyroiditis]] (HT) patients was significantly different from healthy controls, though bacterial abundance and diversity were similar
-- [[Proteobacteria]] and [[Actinobacteria]] contents were highest in the HT group; GD and HT groups had higher abundance of Erysipelotrichia and Cyanobacteria and lower levels of Bacillaceae and Megamonas compared to controls
+- The overall structure of [[gut-microbiome]] in [[graves-disease]] (GD) and [[hashimotos-thyroiditis]] (HT) patients was significantly different from healthy controls, though bacterial abundance and diversity were similar
+- [[proteobacteria]] and [[actinobacteria]] contents were highest in the HT group; GD and HT groups had higher abundance of Erysipelotrichia and Cyanobacteria and lower levels of Bacillaceae and Megamonas compared to controls
 - KEGG analysis showed that the "ABC transporter" metabolic pathway was highly correlated with the occurrence of GD and HT, with enrichment in carbohydrate transport and metabolism
 - Bacillus, Blautia, and Ornithinimicrobium could be used as potential markers to distinguish GD and HT from healthy populations
 - At genus level, Prevotella_9, Ruminococcus_2, and Lachnospiraceae_NK4A136_group were higher in GD patients, while Coprococcus_3, Ruminococcus_gnavus_group, Acetanaerobacterium, and Ruminiclostridium_5 were enriched in HT

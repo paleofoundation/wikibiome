@@ -38,13 +38,16 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: "Establishes that metals (Hg, Pb, Cu, Zn, Cd, Ni, Cr) directly co-select antibiotic resistance genes through shared resistance mechanisms—efflux pumps, biofilm formation, metallothionein—and shows microplastics as physical vectors concentrating metals and facilitating horizontal gene transfer. WikiBiome depends on this evidence to explain why metal-driven dysbiosis inevitably selects for multidrug-resistant organisms and why nutritional immunity (metal restriction) alone is insufficient without addressing biofilm architecture."
+metals_discussed: [cadmium, chromium, cobalt, copper, iron, lead, manganese, mercury, nickel, zinc]
+taxa_discussed: [pseudomonas-aeruginosa, vibrio]
+karen_brain_primitives: [1, 2, 4, 6]
 ---
 
 # Key Claims
 
 - Heavy metals (Hg, Pb, Cu, Zn, Cd, Ni, Cr) accumulating to critical concentrations in the environment are triggering [[co-selection]] of antibiotic resistance in bacteria through both co-resistance and cross-resistance mechanisms
-- [[Microplastics]] serve as an emerging hotspot for metal-driven co-selection of multidrug resistant human pathogens, acting as vectors that concentrate metals and facilitate horizontal gene transfer between phylogenetically distinct microbes
-- The abundance of [[antibiotic-resistance-genes]] is directly linked to the prevalence of metal concentrations in the environment -- metals persist indefinitely while antibiotics degrade
+- [[environmental-metal-exposure|Microplastics]] serve as an emerging hotspot for metal-driven co-selection of multidrug resistant human pathogens, acting as vectors that concentrate metals and facilitate horizontal gene transfer between phylogenetically distinct microbes
+- The abundance of [[antimicrobial-resistance|antibiotic-resistance-genes]] is directly linked to the prevalence of metal concentrations in the environment -- metals persist indefinitely while antibiotics degrade
 - Human pathogenic *Vibrio* spp. are reported as dangerous hitchhikers on microplastics in marine environments, using them as vectors for spread
 
 # Methods/Findings

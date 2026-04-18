@@ -11,6 +11,11 @@ tags: [mismetallation, metal-homeostasis, copper, zinc, glutathione, Fe-S-cluste
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "bacterial copper and zinc resistance"
+evidence_level: animal-model
+metals_discussed: [copper, iron, manganese, zinc]
+taxa_discussed: [escherichia-coli, staphylococcus-aureus, streptococcus]
+karen_brain_primitives: [3, 4]
+key_findings: ["Cu toxicity operates primarily through Fe-S cluster destruction"]
 ---
 
 # Why This Paper Matters

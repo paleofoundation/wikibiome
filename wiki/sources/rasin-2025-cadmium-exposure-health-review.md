@@ -34,6 +34,10 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Comprehensively maps cadmium toxicology across organ systems—kidneys (25-30 year half-life, tubular reabsorption dynamics), lungs (4-5x elevation in smokers), neurons (voltage-gated Ca channel entry), cardiovascular (endothelial damage, atherosclerosis), placenta (embryonic gene expression disruption via methyltransferase inhibition)—establishing cadmium as a multi-system metal burden. WikiBiome depends on this evidence to explain why cadmium dysregulation appears across disease signatures and to characterize organ-specific accumulation pathways."
+evidence_level: expert-opinion
+metals_discussed: [cadmium, calcium, lead, nickel]
+karen_brain_primitives: [4]
+key_findings: ["Renal tubular dysfunction", "Lung dysfunction", "Neurotoxicity"]
 ---
 
 # Exposure to Cadmium and Its Impacts on Human Health: A Short Review

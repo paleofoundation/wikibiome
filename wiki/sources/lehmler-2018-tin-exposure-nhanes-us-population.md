@@ -1,5 +1,4 @@
 ---
-
 title: "Environmental Tin Exposure in a Nationally Representative Sample of U.S. Adults and Children: the National Health and Nutrition Examination Survey 2011-2014"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2018
 tags: [tin, NHANES, urinary-biomarker, exposure-assessment, demographics, heavy-metals, population-study, ICP-MS]
 doi: "10.1016/j.envpol.2024.124238"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [tin]
 ---
 
 # Key Claims
@@ -43,10 +44,10 @@ platform: wikibiome
 
 # Connections
 
-- Baseline exposure data for [[Tin Toxicity]] in the general population
-- Relevant to [[dietary-metal-exposure]] -- canned food contamination as primary route
-- Age-related accumulation connects to broader [[Metal Bioaccumulation]] patterns
-- Pediatric findings relevant to [[Developmental Toxicology]] and children's heightened vulnerability
-- Racial/socioeconomic disparities connect to [[Environmental Justice]] in metal exposure
-- Complements [[Meli et al. 2024|meli-2024-chemical-characterization-baby-food-italy]] findings on tin in baby food
-- ICP-MS methodology shared with [[Amerikanou et al. 2022|amerikanou-2022-ibd-biomarkers-trace-metals]] plasma metal measurements
+- Baseline exposure data for [[tin|Tin Toxicity]] in the general population
+- Relevant to [[dietary-metal-microbiome-interactions|dietary-metal-exposure]] -- canned food contamination as primary route
+- Age-related accumulation connects to broader [[heavy-metals|Metal Bioaccumulation]] patterns
+- Pediatric findings relevant to [[developmental-metal-vulnerability|Developmental Toxicology]] and children's heightened vulnerability
+- Racial/socioeconomic disparities connect to [[environmental-metal-exposure|Environmental Justice]] in metal exposure
+- Complements [[meli-2024-baby-food-chemical-characterization-italy|meli-2024-chemical-characterization-baby-food-italy]] findings on tin in baby food
+- ICP-MS methodology shared with [[amerikanou-2022-ibd-biomarkers-trace-metals|amerikanou-2022-ibd-biomarkers-trace-metals]] plasma metal measurements

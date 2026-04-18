@@ -1,5 +1,4 @@
 ---
-
 title: "G-protein-coupled receptor for short-chain fatty acids suppresses colon cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2011
 doi: "10.1002/ijc.25638"
 tags: [colon-cancer, colorectal-cancer, SCFAs, GPR43, FFAR2, butyrate, propionate, apoptosis, cell-cycle-arrest, tumor-suppressor, epigenetics]
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Tang 2011 -- GPR43 (FFAR2) for Short-Chain Fatty Acids Suppresses Colon Cancer

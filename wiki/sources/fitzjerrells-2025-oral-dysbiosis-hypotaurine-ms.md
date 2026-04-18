@@ -1,5 +1,4 @@
 ---
-
 title: "Multiple Sclerosis Patients Exhibit Oral Dysbiosis with Decreased Early Colonizers and Lower Hypotaurine Level"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2025
 tags: [multiple-sclerosis, oral-microbiome, oral-metabolome, shotgun-metagenomics, hypotaurine, Streptococcus, Actinomyces, Prevotella, Fusobacterium, L-rhamnose, taurine, RRMS, dysbiosis, biomarkers]
 doi: "10.1038/s41522-025-00787-7"
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [actinomyces, fusobacterium-nucleatum, porphyromonas, prevotella, streptococcus, veillonella]
 ---
 
 # Multiple Sclerosis Patients Exhibit Oral Dysbiosis with Decreased Early Colonizers and Lower Hypotaurine Level
@@ -19,7 +20,7 @@ platform: wikibiome
 - The oral microbiome of pwRRMS is significantly distinct from healthy controls at both compositional and functional levels, with lower Shannon diversity (p = 0.014) and distinct beta diversity clustering (Weighted UniFrac p = 0.004, Aitchison p = 1e-04)
 - 96 bacterial species, 5 viruses, and 1 fungal species were significantly altered in pwRRMS; nearly all significantly reduced bacteria were Gram-positive while the one significantly increased bacterium (*Granulicatella elegans*) was Gram-negative
 - Key early colonizer species depleted in pwRRMS: *Streptococcus* (28 species) and *Actinomyces* (13 species); pathogenic Gram-negative species increased: *Prevotella* (*P. dentalis*, *P. buccalis*, *P. intermedia*, *P. copri*), *Porphyromonas gingivalis*, *Fusobacterium nucleatum*
-- Salivary [[hypotaurine]] is significantly lower in pwRRMS and serves as a potential biomarker: OPLS-DA model achieves ~75% prediction accuracy; random forest classifier achieves 67% HC and 89% pwRRMS correct labeling
+- Salivary [[tryptophan|hypotaurine]] is significantly lower in pwRRMS and serves as a potential biomarker: OPLS-DA model achieves ~75% prediction accuracy; random forest classifier achieves 67% HC and 89% pwRRMS correct labeling
 - 20 functional pathways altered: DETOXI-PWY (superoxide radical degradation) lower in pwRRMS; dTDP-beta-L-rhamnose biosynthesis higher in pwRRMS (L-rhamnose is a pro-inflammatory sugar in Gram-negative bacterial LPS)
 - Hypotaurine reduction linked to taurine biosynthesis pathway downregulation; taurine is critical for myelin sheath maintenance and neurological development
 

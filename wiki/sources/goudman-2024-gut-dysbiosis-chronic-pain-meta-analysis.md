@@ -39,7 +39,7 @@ Systematic review + meta-analysis of 21 studies (962 chronic pain patients, 1,21
 
 - **Signature page:** [[fibromyalgia-signature]] — foundational evidence for the depleted-butyrate-producer / enriched-Eggerthella pattern.
 - **Entity pages:** [[faecalibacterium-prausnitzii]], [[roseburia]], [[lachnospiraceae]], [[eggerthella]], [[flavonifractor]].
-- **Concept pages:** [[butyrate]], [[scfa]] — chronic-pain axis.
+- **Concept pages:** [[butyrate]], [[butyrate|scfa]] — chronic-pain axis.
 
 ## Relevance to Cureva
 

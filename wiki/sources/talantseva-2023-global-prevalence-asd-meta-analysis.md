@@ -12,6 +12,8 @@ library_category: "Meta-analysis"
 platform: epidemiological
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: systematic-review-meta-analysis
+key_findings: ["ASD overall", "Autistic Disorder (AD)", "Asperger Syndrome (AS)"]
 ---
 
 # Overview
@@ -48,6 +50,6 @@ Three-level mixed-effects meta-analysis of ASD prevalence using **85 articles wi
 
 # Connections
 
-- Prevalence data contextualises all ASD microbiome research including [[autism-spectrum-disorder-microbiome-signature]]
+- Prevalence data contextualises all ASD microbiome research including [[autism-spectrum-disorder-signature]]
 - Sex ratio findings align with [[loomes-2017-male-female-ratio-asd-meta-analysis]]
 - Rising prevalence suggests increasing importance of environmental/microbiome factors per [[bolte-2019-environmental-exposure-asd-etiology]]

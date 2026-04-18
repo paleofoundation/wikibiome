@@ -11,13 +11,15 @@ tags: [parkinsons-disease, lead, heavy-metals, gut-microbiome, dysbiosis, epidem
 library_category: metals
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1]
 ---
 
 # Lead Exposure, Gut Microbiome, and Parkinson's Disease Risk
 
 ## Summary
 
-This study investigates the epidemiological association between [[lead]] exposure and [[parkinsons-disease]] risk, examining how lead-induced gut [[microbiome]] changes may mediate this relationship. It integrates environmental exposure data with microbiome analysis to build the case for lead as a PD risk factor operating through the [[gut-brain-axis]].
+This study investigates the epidemiological association between [[lead]] exposure and [[parkinsons-disease]] risk, examining how lead-induced gut [[gut-microbiome|microbiome]] changes may mediate this relationship. It integrates environmental exposure data with microbiome analysis to build the case for lead as a PD risk factor operating through the [[gut-brain-axis]].
 
 ## Key Findings
 

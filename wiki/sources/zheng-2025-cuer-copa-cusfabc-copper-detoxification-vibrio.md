@@ -6,13 +6,17 @@ updated: 2026-04-09
 authors: [Chengkun Zheng, Yimeng Zhai, Mengxian Wang, Zhengzhong Xu, Yunzeng Zhang, Xiaohui Zhou, Xiang Chen, Xinan Jiao]
 year: 2025
 journal: "Virulence"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12341060) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Virulence 2025 -->
 pmcid: "PMC12341060"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, copper-efflux, CueR, CopA, CusFABC, vibrio-parahaemolyticus, iron-homeostasis, Fur-regulon, zebrafish, virulence, nutritional-immunity]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "coordinated copper detoxification and iron homeostasis in an enteric pathogen"
 evidence_level: animal-model
+metals_discussed: [cobalt, copper, iron]
+taxa_discussed: [vibrio]
+karen_brain_primitives: [1, 3, 4, 8]
+key_findings: ["CopA and CusFABC are both regulated by CueR", "Copper treatment activates 172 genes and downregulates 65 genes", "64 of 90 Fur regulon genes are upregulated"]
 ---
 
 # Why This Paper Matters
@@ -67,10 +71,10 @@ This confirms CueR is primarily a copper sensor with minor cobalt cross-reactivi
 - [[copper]] -- CopA and CusFABC as coordinated copper defense systems
 - [[iron]] -- Fur regulon activation indicates copper-induced iron starvation (likely Fe-S cluster damage)
 - [[nutritional-immunity]] -- host copper mobilization as antimicrobial defense in zebrafish gut
-- [[siderophore]] -- copper stress activates siderophore biosynthesis for iron acquisition
+- [[siderophores|siderophore]] -- copper stress activates siderophore biosynthesis for iron acquisition
 - [[metal-homeostasis]] -- CueR metalloregulator coordinates copper detoxification
-- [[virulence]] -- copper resistance required for gut colonization
+- [[virulence-factors|virulence]] -- copper resistance required for gut colonization
 - [[iron-sulfur-clusters]] -- likely targets of Cu+ explaining iron homeostasis disruption
-- [[gut-microbiota]] -- Vibrio as enteric pathogen competing for metals in gut
+- [[gut-microbiome]] -- Vibrio as enteric pathogen competing for metals in gut
 - [[cobalt]] -- minor CueR cross-reactivity with cobalt
 - [[antimicrobial-metals]] -- pyrithione as copper ionophore antimicrobial

@@ -1,5 +1,4 @@
 ---
-
 title: "Prebiotics in Inflammatory Bowel Diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2007
 tags: [crohns-disease, IBD, prebiotics, inulin, oligofructose, lactulose, microbiota, SCFAs, inflammation, animal-models]
 doi: "10.1017/S0007114507832958"
 platform: wikibiome
+metals_discussed: [iron, zinc]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, faecalibacterium-prausnitzii, lactobacillus]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims

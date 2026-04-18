@@ -7,6 +7,9 @@ sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, hopfner-2025-infa
 tags: [diet, cadmium, exposure, food-safety, rice, leafy-greens, hyperaccumulation]
 platform: wikibiome
 karen_brain_primitive: "Primitive 3: Mis-metallation and Toxic Metal Entry"
+karen_brain_primitives: [1, 3]
+seo_target: "dietary cadmium exposure microbiome"
+last_substantive_update: 2026-04-11
 ---
 
 # Dietary Cadmium Exposure

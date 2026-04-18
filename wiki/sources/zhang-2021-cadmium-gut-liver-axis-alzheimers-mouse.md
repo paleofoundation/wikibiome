@@ -1,5 +1,4 @@
 ---
-
 title: "Cadmium exposure modulates the gut-liver axis in an Alzheimer's disease mouse model"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ doi: 10.1038/s42003-021-02898-1
 tags: [cadmium, gut-microbiome, gut-liver-axis, alzheimers, ApoE4, Akkermansia, SCFAs, neurodegeneration, heavy-metals, dysbiosis]
 platform: wikibiome
 evidence_level: animal-model
+metals_discussed: [cadmium]
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, clostridium, prevotella]
+karen_brain_primitives: [1, 5]
 ---
 
 # Cadmium Exposure Modulates the Gut-Liver Axis in an Alzheimer's Disease Mouse Model

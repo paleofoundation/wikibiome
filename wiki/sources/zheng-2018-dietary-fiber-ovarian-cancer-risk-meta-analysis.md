@@ -10,6 +10,7 @@ doi: "10.1186/s12937-018-0407-1"
 tags: [ovarian-cancer, dietary-fiber, meta-analysis, dose-response, protective-factor, cancer-risk]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Dietary Fiber Intake and Reduced Risk of Ovarian Cancer

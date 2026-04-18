@@ -11,13 +11,16 @@ tags: [parkinsons-disease, indoles, tryptophan-metabolism, microbiome-compositio
 library_category: metabolomics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, manganese, nickel, zinc]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Indole Metabolites and Gut Microbiome in Parkinson's Disease
 
 ## Summary
 
-This study characterizes indole metabolite profiles and their relationship to gut [[microbiome]] composition in [[parkinsons-disease]]. Indoles are produced by microbial [[tryptophan-metabolism]] and serve as ligands for the aryl hydrocarbon receptor (AhR), a key regulator of immune function and gut barrier integrity.
+This study characterizes indole metabolite profiles and their relationship to gut [[gut-microbiome|microbiome]] composition in [[parkinsons-disease]]. Indoles are produced by microbial [[tryptophan-metabolism]] and serve as ligands for the aryl hydrocarbon receptor (AhR), a key regulator of immune function and gut barrier integrity.
 
 ## Key Findings
 

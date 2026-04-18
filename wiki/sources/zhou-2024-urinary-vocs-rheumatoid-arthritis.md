@@ -34,9 +34,9 @@ evidence_level: cross-sectional
 
 # Connections
 
-- Relevant to [[environmental pollutants]] and [[autoimmune disease]]
-- Acrolein (parent of CEMC) is a combustion product found in vehicle exhaust and cigarette smoke -- links to [[smoking]] and RA
+- Relevant to [[environmental-metal-exposure|environmental pollutants]] and [[autoimmunity|autoimmune disease]]
+- Acrolein (parent of CEMC) is a combustion product found in vehicle exhaust and cigarette smoke -- links to [[environmental-metal-exposure|smoking]] and RA
 - Acrylonitrile (parent of CYMC) is a known carcinogen used in plastics manufacturing
-- VOCs may cause RA through [[oxidative-stress|oxidative stress]], reduced GSH, and [[immune dysregulation]]
-- Complements heavy metal studies using [[NHANES]] data
-- Related to [[inflammatory cytokines]] (IL-12, IL-23) and T cell/dendritic cell activation pathways
+- VOCs may cause RA through [[oxidative-stress|oxidative stress]], reduced GSH, and [[inflammation|immune dysregulation]]
+- Complements heavy metal studies using [[environmental-metal-exposure|NHANES]] data
+- Related to [[inflammation|inflammatory cytokines]] (IL-12, IL-23) and T cell/dendritic cell activation pathways

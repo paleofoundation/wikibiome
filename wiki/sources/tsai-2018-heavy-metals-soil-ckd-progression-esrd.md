@@ -1,5 +1,4 @@
 ---
-
 title: "Prospective associations between environmental heavy metal exposure and renal outcomes in adults with chronic kidney disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2018
 tags: [chronic-kidney-disease, ESRD, nickel, zinc, copper, chromium, soil-pollution, Taiwan, Changhua]
 doi: "10.1016/j.cct.2022.107065"
 platform: wikibiome
+evidence_level: retrospective-cohort
+metals_discussed: [cadmium, chromium, copper, lead, nickel, zinc]
 ---
 
 # Key Claims
@@ -33,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Critical evidence for [[nickel]] as risk factor for [[ESRD]] progression -- key finding for [[nickel toxicology]]
+- Critical evidence for [[nickel]] as risk factor for [[chronic-kidney-disease|ESRD]] progression -- key finding for [[nickel-allergy|nickel toxicology]]
 - Parallels [[yang-2016-copper-farm-soils-rheumatoid-arthritis]] -- same Changhua County, same soil survey data
-- Supports combined metal exposure effects from [[soil contamination]] and industrial pollution
-- [[chromium]], [[copper]], [[nickel]], [[zinc]] co-occur from electroplating waste -- relevant to [[environmental exposure pathways]]
+- Supports combined metal exposure effects from [[environmental-metal-exposure|soil contamination]] and industrial pollution
+- [[chromium]], [[copper]], [[nickel]], [[zinc]] co-occur from electroplating waste -- relevant to [[environmental-metal-exposure|environmental exposure pathways]]
 - Cadmium and lead NOT significant here, possibly due to background-level soil concentrations
 - Connects to [[danziger-2022-susceptibility-heavy-metal-toxicity-ckd]] on CKD vulnerability to metals

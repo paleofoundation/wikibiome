@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, N-acetylcysteine, NAC, glutathione, glutamate, 
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+key_findings: ["NAC at 900mg daily", "31 males and 2 females"]
 ---
 
 # Key Claims

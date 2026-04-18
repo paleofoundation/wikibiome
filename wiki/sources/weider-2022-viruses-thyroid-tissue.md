@@ -1,5 +1,4 @@
 ---
-
 title: "High Prevalence of Common Human Viruses in Thyroid Tissue"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2022
 doi: "10.3389/fendo.2022.938633"
 tags: [hashimotos-thyroiditis, thyroid, virome, enterovirus, HHV-6, parvovirus-B19, Graves-disease, viral-infection, EBV, CMV, thyroid-tissue]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # High Prevalence of Common Human Viruses in Thyroid Tissue
@@ -17,8 +17,8 @@ platform: wikibiome
 ## Key Claims
 
 - 75% of thyroid tissue samples (40/53) carried an infectious virus; 43% had a single virus and 32% were coinfected by two or more virus types
-- [[Enterovirus]] was found in 27/53 (51%), human [[herpesvirus 6]] (HHV-6) in 16/53 (30%), and [[parvovirus B19]] in 12/53 (23%) of thyroid specimens
-- [[Epstein-Barr virus]] and [[cytomegalovirus]] were found in only a few cases; five gastroenteric virus groups (adenovirus, astrovirus, norovirus, rotavirus, sapovirus) were not detected
+- [[viral-microbiota|Enterovirus]] was found in 27/53 (51%), human [[viral-microbiota|herpesvirus 6]] (HHV-6) in 16/53 (30%), and [[viral-microbiota|parvovirus B19]] in 12/53 (23%) of thyroid specimens
+- [[viral-microbiota|Epstein-Barr virus]] and [[viral-microbiota|cytomegalovirus]] were found in only a few cases; five gastroenteric virus groups (adenovirus, astrovirus, norovirus, rotavirus, sapovirus) were not detected
 - Virus distribution was not statistically different between AITD cases (GD and HT) and controls, suggesting that viral presence in the thyroid is commonplace
 - This is the first study in which multiple viral agents have been explored in thyroid tissue using a combination of virus enrichment in cell culture and molecular detection
 - Enteroviruses were present in a high proportion of samples (63% positive by IF, higher than PCR alone)
@@ -35,7 +35,7 @@ platform: wikibiome
 
 ## Connections
 
-- High viral prevalence in thyroid tissue supports viral trigger hypothesis for [[Hashimoto's thyroiditis]] and [[graves-disease]]
+- High viral prevalence in thyroid tissue supports viral trigger hypothesis for [[hashimotos-thyroiditis]] and [[graves-disease]]
 - Enterovirus and HHV-6 as most common thyroid viruses connects to [[li-2025-viral-infection-thyroid-disorders]] mechanistic review
 - Lack of AITD-specific viral enrichment challenges simple causation models -- connects to [[parrish-2025-blood-dna-virome-autoimmune-diseases]] on virome complexity
 - Methodology (cell culture enrichment + molecular detection) represents gold standard for thyroid virome characterization

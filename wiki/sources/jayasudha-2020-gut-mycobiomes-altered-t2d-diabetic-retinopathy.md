@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, mycobiome, diabetic-retinopathy, fungal-dysb
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 6]
+key_findings: ["Dysbiotic changes observed in gut mycobiomes", "Mycobiomes of HC, T2DM, and DR", "Spearman correlation of fungal genera"]
 ---
 
 # Key Claims

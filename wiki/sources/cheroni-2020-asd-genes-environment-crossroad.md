@@ -1,5 +1,4 @@
 ---
-
 title: "Autism spectrum disorder at the crossroad between genes and environment: contributions, convergences, and interactions in ASD developmental pathophysiology"
 type: source
 created: 2026-04-09
@@ -7,9 +6,12 @@ updated: 2026-04-09
 authors: [Cristina Cheroni, Nicolo Caporale, Giuseppe Testa]
 journal: Molecular Autism
 year: 2020
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Molecular Autism 2020 -->
 tags: [autism, gene-environment-interaction, endocrine-disruptors, heavy-metals, neurodevelopment, epigenetics, stem-cells, organoids]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [arsenic, cadmium, lead, manganese, mercury, nickel]
+karen_brain_primitives: [1]
 ---
 
 # Cheroni et al. 2020 -- ASD at the Crossroad Between Genes and Environment

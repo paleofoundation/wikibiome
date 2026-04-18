@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, glutathione, GABA, MR-spectroscopy, brain-imagi
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["No significant differences", "HERMES MR spectroscopy at 3T", "Regions examined"]
 ---
 
 # Key Claims

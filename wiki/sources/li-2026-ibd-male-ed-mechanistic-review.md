@@ -39,7 +39,7 @@ Narrative review synthesizing IBD epidemiology, systemic inflammation biomarkers
 
 - **Disease entity page:** [[erectile-dysfunction]] — add [[crohns-disease]] and [[ulcerative-colitis]] as associated conditions.
 - **Signature page:** [[erectile-dysfunction-signature]] — add `associated_conditions` overlap with IBD signatures.
-- **Concept pages:** [[gut-penis-axis]], [[enos]], [[th17-treg-balance]].
+- **Concept pages:** [[gut-penis-axis]], [[cardiovascular-disease|enos]], [[inflammation|th17-treg-balance]].
 
 ## Relevance to Cureva
 

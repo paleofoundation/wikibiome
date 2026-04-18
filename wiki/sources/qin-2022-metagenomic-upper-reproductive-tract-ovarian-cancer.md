@@ -9,6 +9,8 @@ year: 2022
 doi: "10.1007/s13167-022-00286-1"
 tags: [ovarian-cancer, metagenomics, upper-reproductive-tract, PPPM, shotgun-sequencing, cervical, fallopian-tube, platinum-therapy, personalized-medicine]
 platform: wikibiome
+metals_discussed: [platinum]
+karen_brain_primitives: [1]
 ---
 
 # Metagenomic Analysis of Upper Reproductive Tract Microbiome in OC

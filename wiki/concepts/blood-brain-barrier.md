@@ -1,5 +1,4 @@
 ---
-
 title: Blood-Brain Barrier
 type: concept
 created: 2026-04-10
@@ -7,6 +6,9 @@ updated: 2026-04-10
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration, patil-2021-infection-metallomics-critical-care]
 tags: [blood-brain-barrier, BBB, neurotoxicity, lead, mercury, manganese, aluminium, nickel, LPS, SCFAs, tight-junctions, neuroinflammation]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 5]
+seo_target: "blood-brain barrier microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 # Blood-Brain Barrier

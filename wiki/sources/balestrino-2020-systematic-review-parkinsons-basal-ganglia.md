@@ -30,7 +30,7 @@ This systematic review provides a comprehensive clinical overview of [[parkinson
 ## Key Findings
 
 - PD is the second most common neurodegenerative disease, affecting 1-2% of people over 60
-- [[Alpha-synuclein]] aggregation (Lewy bodies) is the pathological hallmark, though not universally present
+- [[alpha-synuclein]] aggregation (Lewy bodies) is the pathological hallmark, though not universally present
 - Dopaminergic neuron loss in the substantia nigra pars compacta drives motor symptoms
 - Non-motor symptoms (constipation, anosmia, REM sleep behavior disorder) precede motor onset by years
 - Genetic factors (LRRK2, GBA, SNCA, PARK2) account for 5-10% of cases

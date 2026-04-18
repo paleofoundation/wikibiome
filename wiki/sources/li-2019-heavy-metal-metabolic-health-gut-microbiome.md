@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy Metal Exposure Causes Changes in the Metabolic Health-Associated Gut Microbiome and Metabolites"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2019
 tags: [arsenic, cadmium, gut-microbiota, metabolomics, 16S-rRNA, LC-MS, bile-acids, amino-acids, mice, dysbiosis, metabolic-health, T2DM, original-research]
 doi: "10.1016/j.envint.2019.05.048"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, lead]
+taxa_discussed: [anaerostipes, blautia]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims
@@ -35,8 +38,8 @@ platform: wikibiome
 
 # Connections
 
-- Provides experimental evidence supporting reviews by [[Zhu 2024 - Toxic Essential Metals Gut Microbiota]] and [[Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]]
-- Bile acid disruption findings align with [[Tao 2024 - Cadmium Gut Microbiota Dwarf Hamsters]] on Cd effects
-- Metabolic health implications connect to [[heavy metals and metabolic disease]] including diabetes
-- Methodology parallels [[Gao 2017 - Lead Exposure Multi-Omics Gut Microbiome]] in multi-omics approach
-- Relevant to understanding dose-response relationships in [[environmental metal exposure]]
+- Provides experimental evidence supporting reviews by [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]] and [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]]
+- Bile acid disruption findings align with [[tao-2024-cadmium-gut-microbiota-dwarf-hamsters|Tao 2024 - Cadmium Gut Microbiota Dwarf Hamsters]] on Cd effects
+- Metabolic health implications connect to [[gut-metal-microbiome|heavy metals and metabolic disease]] including diabetes
+- Methodology parallels [[gao-2017-lead-exposure-multi-omics-gut-microbiome|Gao 2017 - Lead Exposure Multi-Omics Gut Microbiome]] in multi-omics approach
+- Relevant to understanding dose-response relationships in [[environmental-metal-exposure]]

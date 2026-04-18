@@ -1,5 +1,4 @@
 ---
-
 title: "Evaluation of the Risk from Potentially Toxic Elements (PTEs) in Italy's Most Consumed Processed Fish Products"
 type: source
 created: 2026-04-09
@@ -11,7 +10,7 @@ doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatte
 tags: [heavy-metals, food-safety, fish-products, PTEs, Italy, dietary-exposure, incomplete]
 platform: wikibiome
 evidence_level: "not yet classified"
-metals_discussed: []
+metals_discussed: [cadmium, lead, mercury, nickel]
 taxa_discussed: []
 key_findings: []
 karen_brain_primitives: []

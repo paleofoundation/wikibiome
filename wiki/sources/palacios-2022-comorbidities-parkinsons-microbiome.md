@@ -11,6 +11,8 @@ tags: [parkinsons-disease, comorbidities, diabetes, depression, cardiovascular-d
 library_category: associated-conditions
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1]
 ---
 
 # Biological and Clinical Implications of Comorbidities in Parkinson's Disease

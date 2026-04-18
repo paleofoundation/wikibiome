@@ -1,5 +1,4 @@
 ---
-
 title: Dietary Nickel Exposure
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [zirwas-2009-dietary-nickel-dermatitis.md, borghini-2020-low-nickel-diet-celiac.md, dobrzynska-2025-nickel-children-food.md, tuchman-2015-nickel-dermatitis-children.md, ahlstrom-2019-nickel-allergy-review.md]
 tags: [diet, nickel, exposure, children, food-safety]
 platform: wikibiome
+karen_brain_primitives: []
+seo_target: "dietary nickel exposure microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Dietary Nickel Exposure

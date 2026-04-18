@@ -15,7 +15,7 @@ library_category: signatures
 platform: both
 condition: "COVID-19"
 karen_brain_primitives: [1, 5]
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed: [bacteriophage, viral-community, crAssphage]
 key_findings: [
   "COVID-19 patients show significantly altered intestinal DNA virome composition compared to healthy controls",

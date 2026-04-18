@@ -36,6 +36,9 @@ tags:
   - sphingolipids
   - diagnostic-marker
 platform: wikibiome
+metals_discussed: [cadmium, lead, selenium]
+taxa_discussed: [clostridium, faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1]
 ---
 
 # Alterations in the Gut Microbiome and Metabolism with Coronary Artery Disease Severity

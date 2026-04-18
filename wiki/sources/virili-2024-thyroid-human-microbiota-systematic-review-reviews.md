@@ -1,5 +1,4 @@
 ---
-
 title: "The Relationship Between Thyroid and Human-Associated Microbiota: A Systematic Review of Reviews"
 type: source
 created: 2026-04-09
@@ -10,17 +9,19 @@ year: 2024
 doi: "10.1007/s11154-023-09839-9"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, autoimmune, systematic-review, probiotics, prebiotics, synbiotics, micronutrients, gut-thyroid-axis, thyroid-cancer]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # The Relationship Between Thyroid and Human-Associated Microbiota: A Systematic Review of Reviews
 
 ## Key Claims
 
-- Significant variations characterize the [[gut microbiome]] composition in patients with [[thyroid disorders]], but geographical clustering of most studies prevents definitive conclusions
+- Significant variations characterize the [[gut-microbiome]] composition in patients with [[hashimotos-thyroiditis|thyroid disorders]], but geographical clustering of most studies prevents definitive conclusions
 - The available knowledge about the effect of [[probiotics]] and [[synbiotics]] is not strong enough to suggest routine use in patients with thyroid disorders
 - Specific elimination nutrition should not be routinely suggested to patients; instead they should be checked for possible micronutrient and vitamin deficiencies
-- The link between gut microbiota composition and [[Hashimoto's thyroiditis]] has not been definitively established, though studies on human beings provide enough clues to support further investigation
-- An altered composition of gut microbiota has been clearly linked to [[thyroid autoimmunity]], but whether this is causative remains debatable
+- The link between gut microbiota composition and [[hashimotos-thyroiditis]] has not been definitively established, though studies on human beings provide enough clues to support further investigation
+- An altered composition of gut microbiota has been clearly linked to [[thyroid-autoimmunity|thyroid autoimmunity]], but whether this is causative remains debatable
 - The bidirectional relationship between microbiota composition and thyroid-related micronutrient intake (oral/peritumoral) has been examined
 
 ## Methods/Findings

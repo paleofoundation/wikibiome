@@ -27,6 +27,11 @@ tags:
   - SCFAs
   - gut-microbiome
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [cadmium, copper, iron, lead, selenium]
+taxa_discussed: [alistipes, bilophila, eubacterium, faecalibacterium-prausnitzii, parabacteroides, roseburia]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Risk factors", "Protective factors"]
 ---
 
 # Causality of Gut Microbiome and Hypertension: A Bidirectional Mendelian Randomization Study

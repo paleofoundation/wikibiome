@@ -9,6 +9,7 @@ journal: "Scientific Reports"
 doi: "10.1038/s41598-020-75336-7"
 tags: [chronic-kidney-disease, CKD, CKDu, water-microbiome, Sri-Lanka, Microcystis, environmental-exposure, household-wells]
 platform: wikibiome
+metals_discussed: [cadmium, lead]
 ---
 
 # Water Chemistry and Microbiome in CKDu-Endemic Sri Lanka

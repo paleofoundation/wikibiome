@@ -6,18 +6,20 @@ updated: 2026-04-09
 authors: [Mike A Nalls, Cornelis Blauwendraat, Andrew B Singleton]
 year: 2015
 journal: "Movement Disorders"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Movement Disorders 2015 -->
 tags: [parkinsons-disease, causal-microbiome, genetic-risk, microbiome-causality, GWAS, bidirectional-causality]
 library_category: causal
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1]
 ---
 
 # Causal Microbiome-Parkinson's Disease Relationships
 
 ## Summary
 
-This study examines potential causal relationships between the gut [[microbiome]] and [[parkinsons-disease]] risk using genetic and epidemiological data. It addresses the fundamental question of whether gut [[dysbiosis]] causes PD, results from PD, or both.
+This study examines potential causal relationships between the gut [[gut-microbiome|microbiome]] and [[parkinsons-disease]] risk using genetic and epidemiological data. It addresses the fundamental question of whether gut [[dysbiosis]] causes PD, results from PD, or both.
 
 ## Key Findings
 

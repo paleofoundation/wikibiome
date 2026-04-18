@@ -1,31 +1,32 @@
 ---
 title: WikiBiome Content Index
 type: index
-updated: 2026-04-16
+updated: 2026-04-18
 ---
 
 # WikiBiome / Cureva Knowledge Base Index
 
-**Last updated:** 2026-04-16
+**Last updated:** 2026-04-18
 
 ## Summary
 
-<!-- Counts derived from filesystem: ls wiki/sources/*.md | wc -l; grep -l "^subtype: metal" wiki/entities/*.md | wc -l; etc. -->
+<!-- Counts derived from filesystem on 2026-04-18 -->
 
 | Category | Count |
 |----------|-------|
-| Sources | 1700 |
-| Entities | 148 |
-| — Metals/Metalloids | 20 |
-| — Microbes | 84 |
-| — Fungi | 7 |
-| — Archaea | 0 |
-| — Diseases | 36 |
-| Concepts | 94 |
-| Disease Signatures (Cureva) | 29 |
-| Interventions (WikiBiome) | 30 |
-| STOPs (Cureva) | 34 |
-| Analyses | 15 |
+| Sources | 1706 |
+| Entities | 214 |
+| — Metals/Metalloids | 24 |
+| — Microbes | 130 |
+| — Fungi | 9 |
+| — Archaea | 1 |
+| — Diseases | 47 |
+| — Other | 3 |
+| Concepts | 170 |
+| Disease Signatures (Cureva) | 41 |
+| Interventions | 29 |
+| STOPs (Cureva) | 8 |
+| Analyses | 16 |
 
 ## Reference Pages
 
@@ -276,6 +277,67 @@ updated: 2026-04-16
 - [[tryptophan-metabolism]]
 - [[urease]]
 - [[zinc-metalloprotease]]
+
+
+## Disease Signatures — Cureva Only (41)
+
+Full 5-layer disease signature pages for Cureva practitioner platform.
+
+- [[alzheimers-disease-signature]]
+- [[anxiety-signature]]
+- [[atherosclerosis-signature]]
+- [[autism-spectrum-disorder-signature]]
+- [[barretts-esophagus-signature]]
+- [[breast-cancer-signature]]
+- [[cardiovascular-disease-signature]]
+- [[celiac-disease-signature]]
+- [[cerebral-palsy-signature]]
+- [[chronic-kidney-disease-signature]]
+- [[colorectal-cancer-signature]]
+- [[crohns-disease-signature]]
+- [[depression-signature]]
+- [[endometriosis-signature]]
+- [[epilepsy-signature]]
+- [[erectile-dysfunction-signature]]
+- [[female-infertility-signature]]
+- [[fibromyalgia-signature]]
+- [[gastric-cancer-signature]]
+- [[gerd-signature]]
+- [[graves-disease-signature]]
+- [[hashimotos-thyroiditis-signature]]
+- [[hypertension-signature]]
+- [[ibs-signature]]
+- [[inflammatory-bowel-disease-signature]]
+- [[long-covid-signature]]
+- [[multiple-sclerosis-signature]]
+- [[necrotizing-enterocolitis-signature]]
+- [[obesity-signature]]
+- [[ovarian-cancer-signature]]
+- [[pancreatic-cancer-signature]]
+- [[pancreatitis-signature]]
+- [[parkinsons-disease-signature]]
+- [[pcos-signature]]
+- [[pmdd-signature]]
+- [[postpartum-depression-signature]]
+- [[rheumatoid-arthritis-signature]]
+- [[schizophrenia-signature]]
+- [[type-1-diabetes-signature]]
+- [[type-2-diabetes-signature]]
+- [[ulcerative-colitis-signature]]
+
+
+## STOPs — Cureva Only (8)
+
+Counterproductive interventions with evidence-based reasoning.
+
+- [[stop-broad-spectrum-antibiotics-dysbiosis]]
+- [[stop-calcium-supplementation-cadmium-exposure]]
+- [[stop-iron-supplementation-colorectal-cancer]]
+- [[stop-iron-supplementation-ibd]]
+- [[stop-iron-supplementation-pcos]]
+- [[stop-nickel-rich-foods-snas]]
+- [[stop-standard-probiotics-endometriosis]]
+- [[stop-zinc-supplementation-h-pylori]]
 
 
 ## Interventions (29)

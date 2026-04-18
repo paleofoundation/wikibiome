@@ -12,6 +12,10 @@ library_category: review
 platform: cureva
 condition: "major depressive disorder"
 evidence_level: expert-opinion
+metals_discussed: [copper, iron, magnesium, zinc]
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [5]
+key_findings: ["Microbiota-gut-brain axis (MGBA)", "Three key pathways", "Advanced therapeutic strategies"]
 ---
 
 # Key Claims

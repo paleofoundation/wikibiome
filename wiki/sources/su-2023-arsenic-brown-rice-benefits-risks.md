@@ -39,9 +39,9 @@ Mini-review synthesizing epidemiological evidence, FDA assessments, IARC classif
 ## Relevance to WikiBiome
 
 - [[arsenic]] entity page — dietary sources (rice, brown > white); concentration data; IARC Group 1 carcinogen classification; mechanism of AsIII toxicity.
-- [[rice]] concept/entity — the bran-germ concentration pattern explains why "healthier" whole grains carry greater metal burden.
-- [[inorganic-arsenic]] concept — speciation, bioavailability, toxicity hierarchy.
-- Disease entity pages: [[bladder-cancer]], [[lung-cancer]], [[type-2-diabetes]], [[cardiovascular-disease]] — arsenic as environmental risk factor.
+- [[dietary-arsenic-exposure|rice]] concept/entity — the bran-germ concentration pattern explains why "healthier" whole grains carry greater metal burden.
+- [[dietary-arsenic-exposure|inorganic-arsenic]] concept — speciation, bioavailability, toxicity hierarchy.
+- Disease entity pages: [[metal-carcinogenesis|bladder-cancer]], [[metal-carcinogenesis|lung-cancer]], [[type-2-diabetes]], [[cardiovascular-disease]] — arsenic as environmental risk factor.
 
 ## Relevance to Cureva
 

@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: []
 year: 2022
 journal: "Virology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Virology 2022 -->
 tags: [parkinsons-disease, virome, phageome, gut-virome, bacteriophages, viral-dysbiosis, viral-dark-matter]
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+karen_brain_primitives: [4]
 ---
 
 # Gut Virome and Phageome in Parkinson's Disease

@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Christine Stephen, Danea E Palmer, Clarisa Bautista, Tatiana V Mishanina]
 year: 2025
 journal: "Nucleic Acids Research"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12153347) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Nucleic Acids Research 2025 -->
 pmcid: "PMC12153347"
 tags: [mismetallation, metal-homeostasis, manganese, riboswitch, metal-sensing, co-transcriptional-folding, yybP-ykoY, gene-regulation, escherichia-coli, manganese-toxicity]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "co-transcriptional RNA metal sensing to prevent manganese toxicity"
+metals_discussed: [manganese]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
+key_findings: ["Metal ion sampling begins before the aptamer is fully transcribed", "The alx (3WJ) and mntP (4WJ) aptamers differ fundamentally", "The L3 loop sequence is critical"]
 ---
 
 # Why This Paper Matters
@@ -58,7 +62,7 @@ The 3WJ architecture of alx enables pH sensitivity through:
 
 - [[mis-metallation]] -- riboswitches prevent Mn toxicity by controlling Mn exporter expression before misincorporation can occur
 - [[manganese]] -- detailed mechanism of Mn sensing at single-nucleotide resolution during transcription
-- [[riboswitch]] -- co-transcriptional folding and metal sampling as fundamental regulatory mechanism
+- [[gene-regulation|riboswitch]] -- co-transcriptional folding and metal sampling as fundamental regulatory mechanism
 - [[metal-homeostasis]] -- RNA-based metal sensing complementing protein metalloregulators
 - [[gene-regulation]] -- kinetic competition between RNA folding and metal binding during transcription
 - [[escherichia-coli]] -- model system for mntP and alx riboswitch characterization

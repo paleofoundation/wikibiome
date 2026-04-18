@@ -1,5 +1,4 @@
 ---
-
 title: Calprotectin (S100A8/A9)
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, amerikanou-2022-ibd-biomarkers-trace-metals, akbari-2022-metal-homeostasis-streptococci, pendergrass-2026-nickel-nec-preterm-gut]
 tags: [nutritional-immunity, metal-sequestration, neutrophil, zinc, manganese, nickel, biomarker, IBD, inflammation]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 6]
+seo_target: "calprotectin s100a8/a9 microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Calprotectin (S100A8/A9)

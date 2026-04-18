@@ -11,6 +11,9 @@ tags: [parkinsons-disease, oxidative-stress, meta-analysis, lipid-peroxidation, 
 library_category: reviews
 platform: blood
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [1, 4]
 ---
 
 # Oxidative Stress in Parkinson's Disease: A Systematic Review and Meta-Analysis

@@ -1,5 +1,4 @@
 ---
-
 title: "Cholesterol-induced colorectal cancer progression and its mitigation through gut microbiota remodeling and simvastatin treatment"
 type: source
 created: 2026-04-09
@@ -11,6 +10,8 @@ doi: "10.1186/s12885-025-14379-3"
 tags: [colon-cancer, colorectal-cancer, cholesterol, LDL, simvastatin, statins, Lactobacillus, gut-microbiota, PD-L1, T-cell-infiltration, MC38, tumor-microenvironment]
 platform: wikibiome
 evidence_level: animal-model
+taxa_discussed: [bacteroides-fragilis, eubacterium, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Xie 2025 -- Cholesterol-Induced CRC Progression and Simvastatin/Lactobacillus Mitigation

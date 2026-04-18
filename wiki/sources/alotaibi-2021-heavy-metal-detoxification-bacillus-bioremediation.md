@@ -77,4 +77,4 @@ This review provides the most comprehensive treatment of how Bacillus species --
 - [[iron]] -- Fe-S cluster vulnerability to copper-mediated displacement
 - [[oxidative-stress]] -- Cr6+ reduction and Cu+ Fenton chemistry generate ROS
 - [[biofilm]] -- metal resistance enhances biofilm formation in contaminated environments
-- [[gut-microbiota]] -- Bacillus spp. are common gut inhabitants and probiotics; their metal handling affects host metal exposure
+- [[gut-microbiome]] -- Bacillus spp. are common gut inhabitants and probiotics; their metal handling affects host metal exposure

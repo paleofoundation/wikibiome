@@ -1,5 +1,4 @@
 ---
-
 title: "The Vaginal Microbiome as a Tool to Predict rASRM Stage of Disease in Endometriosis: a Pilot Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2020
 tags: [endometriosis, vaginal-microbiome, rASRM-staging, Anaerococcus, machine-learning, community-state-types, diagnostic-biomarker, menstrual-cycle]
 doi: "10.1007/s43032-019-00113-5"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [iron, nickel]
+taxa_discussed: [anaerococcus, lactobacillus]
+karen_brain_primitives: [1, 5, 7, 9]
 ---
 
 # Key Claims
@@ -34,7 +37,7 @@ platform: wikibiome
 
 # Relevance to Wiki
 
-This is the first study to demonstrate that vaginal microbiome composition may predict the severity of [[endometriosis]], with *Anaerococcus* species serving as a potential staging [[biomarker]]. The finding that menstrual-phase sampling improves predictive accuracy connects to the known disruption of the vaginal microenvironment during menstruation, when [[iron]]-rich blood and altered pH create conditions favoring anaerobic bacteria. This links menstrual cycle-dependent microbiome shifts to the [[bacterial-contamination-hypothesis]] and [[iron]]-driven [[dysbiosis]].
+This is the first study to demonstrate that vaginal microbiome composition may predict the severity of [[endometriosis]], with *Anaerococcus* species serving as a potential staging [[microbial-biomarkers|biomarker]]. The finding that menstrual-phase sampling improves predictive accuracy connects to the known disruption of the vaginal microenvironment during menstruation, when [[iron]]-rich blood and altered pH create conditions favoring anaerobic bacteria. This links menstrual cycle-dependent microbiome shifts to the [[bacterial-contamination-hypothesis]] and [[iron]]-driven [[dysbiosis]].
 
 ## Connections
 

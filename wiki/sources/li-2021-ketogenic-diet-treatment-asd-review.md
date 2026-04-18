@@ -11,6 +11,11 @@ tags: [autism, ketogenic-diet, neuroprotection, microbiota, GABA, mTOR, energy-m
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [zinc]
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, desulfovibrio, parabacteroides]
+karen_brain_primitives: [1, 4]
+key_findings: ["Ketogenic diet is a safe and effective treatment", "KD mechanisms include", "Clinical evidence"]
 ---
 
 # Key Claims

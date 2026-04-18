@@ -65,9 +65,9 @@ why_keystone: "Establishes that late-onset Alzheimer's disease (>95% of AD cases
 
 # Connections
 
-- Focuses specifically on [[late-onset-Alzheimers-disease]] unlike other reviews covering all AD forms
+- Focuses specifically on [[alzheimers-disease|late-onset-Alzheimers-disease]] unlike other reviews covering all AD forms
 - Complements [[bakulski-2020-heavy-metals-alzheimers-dementias]] from the same research group
 - Connects to [[epigenetic-modifications]] from metal exposure discussed in [[chin-chan-2015-environmental-pollutants-ad-pd]]
 - Relevant to age-related [[blood-brain-barrier]] deterioration
 - Links [[oxidative-stress]] and cumulative metal exposure to [[neurodegeneration]]
-- Supports [[chelation-therapy]] approaches discussed in [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]
+- Supports [[metal-chelation-therapy|chelation-therapy]] approaches discussed in [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]

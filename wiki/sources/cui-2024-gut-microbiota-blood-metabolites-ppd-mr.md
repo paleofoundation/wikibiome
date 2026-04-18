@@ -11,6 +11,9 @@ tags: [postpartum-depression, mendelian-randomization, gut-microbiota, blood-met
 library_category: causal-microbiome
 platform: cureva
 condition: "postpartum depression"
+evidence_level: computational-prediction
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["5 intestinal species and 24 blood metabolites", "Prevotellaceae and Bifidobacteria"]
 ---
 
 # Key Claims

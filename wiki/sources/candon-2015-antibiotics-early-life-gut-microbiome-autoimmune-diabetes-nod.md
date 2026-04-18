@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, antibiotics, early-life, nod-mice, gut-micro
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [escherichia-coli, lachnospiraceae, lactobacillus]
+karen_brain_primitives: [1, 4]
+key_findings: ["Wide spectrum antibiotics", "Vancomycin alone", "Antibiotic treatment increased Escherichia, Lactobacillus, and Sutterella"]
 ---
 
 # Key Claims

@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Yingxian Wang, Tongqiang Wen, Fuchao Mao, Shaozhe Yang, Qingwei Zhang, Xiuhong Fu, Chongkai Zhai, Hewei Zhang]
 year: 2025
 journal: "Frontiers in Bioengineering and Biotechnology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12364917) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Bioengineering and Biotechnology 2025 -->
 pmcid: "PMC12364917"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, antimicrobial-metals, nanocopper, biofilm, ROS, Fenton-chemistry, iron-sulfur-clusters, cuproptosis, surface-engineering]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "copper-based antimicrobial materials and mechanisms of copper toxicity"
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [staphylococcus-aureus]
+karen_brain_primitives: [3, 4, 9]
+key_findings: ["Copper toxicity operates through at least four mechanisms"]
 ---
 
 # Why This Paper Matters
@@ -61,11 +65,11 @@ Nanocopper advantages:
 - [[mis-metallation]] -- copper displaces Fe2+ and Zn2+ from metalloproteins; primary anaerobic toxicity mechanism
 - [[copper]] -- comprehensive review of copper antimicrobial biology
 - [[iron-sulfur-clusters]] -- primary intracellular target of copper mismetallation
-- [[Fenton-chemistry]] -- Cu+ + H2O2 generates hydroxyl radicals
+- [[fenton-chemistry]] -- Cu+ + H2O2 generates hydroxyl radicals
 - [[biofilm]] -- copper nanoparticles disrupt established biofilms via QS interference
 - [[antimicrobial-metals]] -- copper surfaces, nanoparticles, and composites for infection control
 - [[oxidative-stress]] -- ROS generation as one of multiple copper toxicity mechanisms
 - [[zinc]] -- Zn2+ displaced from metalloproteins by copper
 - [[staphylococcus-aureus]] -- MRSA targeted by copper nanoparticles and surfaces
-- [[protein-quality-control]] -- copper-induced protein aggregation and proteotoxic stress
+- [[alpha-synuclein|protein-quality-control]] -- copper-induced protein aggregation and proteotoxic stress
 - [[cuproptosis]] -- bacterial copper-induced cell death through TCA cycle disruption

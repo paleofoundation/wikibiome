@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut-Brain Axis in Multiple Sclerosis. Is Its Dysfunction a Pathological Trigger or a Consequence of the Disease?"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2021
 doi: 10.3389/fimmu.2021.718220
 tags: [multiple-sclerosis, gut-brain-axis, dysbiosis, leaky-gut, vagus-nerve, EAE, intestinal-permeability, SCFAs, tryptophan, bile-acids, Lactobacillus, neuroinflammation, review]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [lactobacillus, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # The Gut-Brain Axis in Multiple Sclerosis: Is Its Dysfunction a Pathological Trigger or a Consequence of the Disease?
@@ -22,7 +24,7 @@ This review examines whether [[gut-brain-axis]] dysfunction in [[multiple-sclero
 
 ### The Gut-Brain Axis Components
 - The ENS (enteric nervous system) is the largest part of the peripheral nervous system, connecting to the CNS via the vagus nerve
-- Microbiota communicates with the host through bacterial metabolites: tryptophan, [[short-chain-fatty-acids]], [[bile-acids]], and LPS
+- Microbiota communicates with the host through bacterial metabolites: tryptophan, [[short-chain-fatty-acids]], [[bile-acid-metabolism]], and LPS
 - The intestinal barrier consists of mucus, epithelium, and lamina propria densely populated by immune cells
 
 ### Vagus Nerve Pathway
@@ -33,7 +35,7 @@ This review examines whether [[gut-brain-axis]] dysfunction in [[multiple-sclero
 ### Sensing Microbial Metabolites
 - [[short-chain-fatty-acids]] (acetate, propionate, butyrate) regulate blood-brain barrier permeability and tight junction expression
 - Tryptophan metabolites activate the aryl hydrocarbon receptor (AHR) - relevant to [[indoles]]
-- [[bile-acids]] are modified by gut bacteria and influence immune function
+- [[bile-acid-metabolism]] are modified by gut bacteria and influence immune function
 
 ### The Leaky Gut in MS
 - Increased intestinal permeability has been demonstrated in MS patients

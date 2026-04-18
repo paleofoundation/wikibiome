@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, drug-repurposing, sarcopenia, metformin, sgl
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: expert-opinion
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [4]
+key_findings: ["T2DM and sarcopenia share common mechanisms", "GLP-1 receptor agonists and SGLT2 inhibitors", "Metformin has mixed evidence"]
 ---
 
 # Key Claims

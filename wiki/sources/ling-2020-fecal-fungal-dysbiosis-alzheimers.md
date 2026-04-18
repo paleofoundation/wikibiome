@@ -11,6 +11,10 @@ tags: [parkinsons-disease, alzheimers-disease, fungal-dysbiosis, mycobiome, Cand
 library_category: associated-conditions
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+taxa_discussed: [candida-albicans, saccharomyces-cerevisiae]
+karen_brain_primitives: [1, 5]
 ---
 
 # Fecal Fungal Dysbiosis in Chinese Patients with Alzheimer's Disease

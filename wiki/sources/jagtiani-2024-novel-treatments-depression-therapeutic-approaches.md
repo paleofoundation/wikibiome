@@ -11,6 +11,9 @@ tags: [postpartum-depression, depression, novel-treatments, ketamine, glutamater
 library_category: review
 platform: cureva
 condition: "depression"
+evidence_level: expert-opinion
+metals_discussed: [magnesium, zinc]
+key_findings: ["Novel treatment avenues", "Gut-brain axis interventions"]
 ---
 
 # Key Claims

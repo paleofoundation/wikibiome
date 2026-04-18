@@ -1,5 +1,4 @@
 ---
-
 title: "From Microbes to Myocardium: A Comprehensive Review of the Impact of the Gut-Brain Axis on Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -12,11 +11,14 @@ tags: [cardiovascular-disease, gut-brain-axis, dysbiosis, TMAO, SCFAs, autonomic
 source_pdf: "raw/cardiovascular disease/Microbiome and gut-brain axis cardiovascular disease/305565-from-microbes-to-myocardium-a-comprehensive-review-of-the-impact-of-the-gut-brain-axis-on-cardiovascular-disease.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: expert-opinion
+taxa_discussed: [akkermansia-muciniphila, escherichia-coli]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- The [[gut-brain axis]] (GBA) is a complex bidirectional communication network involving neural, hormonal, and immune pathways that links the gut microbiota, CNS, and cardiovascular system
+- The [[gut-brain-axis]] (GBA) is a complex bidirectional communication network involving neural, hormonal, and immune pathways that links the gut microbiota, CNS, and cardiovascular system
 - Key microbial metabolites and their cardiovascular effects: TMAO promotes atherosclerosis and thrombosis; SCFAs reduce blood pressure and improve endothelial function; *Akkermansia muciniphila* propionate enhances mucosal barrier and regulates lipid metabolism; *E. coli* LPS triggers TLR4-mediated systemic inflammation; *F. prausnitzii* butyrate produces anti-inflammatory cytokines and reduces oxidative stress
 - Brain regions critical for cardiovascular regulation: medulla oblongata (cardiac/vasomotor centers), hypothalamus (stress-induced BP changes), amygdala (heart rate during emotional stress), insular cortex (visceral autonomic functions), dorsal vagal complex (parasympathetic heart control)
 - Chronic stress activates the HPA axis, elevating cortisol, leading to insulin resistance, inflammation, and endothelial dysfunction -- all significant CVD risk factors
@@ -35,8 +37,8 @@ platform: wikibiome
 # Connections
 
 - Central reference for [[microbiome and gut-brain axis]] in [[cardiovascular-disease]]
-- Autonomic nervous system regulation connects to [[microbiome and immune system]] in CVD
-- Therapeutic strategies extend [[probiotics]], [[fecal-microbiota-transplant]], and [[microbiome-modulating drugs]] approaches
-- Stress-CVD-microbiome triad relevant to [[comorbidities]] and [[microbiome and disease progression]]
+- Autonomic nervous system regulation connects to [[inflammation|microbiome and immune system]] in CVD
+- Therapeutic strategies extend [[probiotics]], [[fecal-microbiota-transplant]], and [[pharmacomicrobiomics|microbiome-modulating drugs]] approaches
+- Stress-CVD-microbiome triad relevant to [[comorbidities]] and [[dysbiosis|microbiome and disease progression]]
 - Brain region-cardiovascular mapping informs [[microbiome and neuroinflammation]] research
-- Psychobiotics concept bridges [[antidepressants]] and microbiome-based CVD interventions
+- Psychobiotics concept bridges [[pharmacomicrobiomics|antidepressants]] and microbiome-based CVD interventions

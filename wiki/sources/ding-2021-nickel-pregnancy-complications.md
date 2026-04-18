@@ -29,6 +29,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Quantifies how pregnancy complications directly weaken placental barrier function and increase fetal nickel exposure, establishing that barrier integrity—not maternal exposure alone—determines fetal metal burden. WikiBiome depends on this evidence to explain how dysbiotic states and systemic inflammation impair multiple mucosal barriers simultaneously, enabling toxic metal accumulation in vulnerable developmental windows and informing cross-condition patterns in reproductive disorders."
+evidence_level: case-control
+metals_discussed: [cadmium, nickel]
+karen_brain_primitives: [4, 5]
 ---
 
 # Pregnancy Complications Effect on the Nickel Content in Maternal Blood, Placenta Blood and Umbilical Cord Blood

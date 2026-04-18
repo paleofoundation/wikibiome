@@ -40,7 +40,7 @@ key_findings:
 
 - [[mercury]] entity — fish as dominant dietary exposure; BHgC data in children.
 - [[glutathione]] concept — nutritional immunity / detoxification linkage with Hg.
-- [[glutathione-s-transferase]] concept — GSTT1/GSTM1/GSTP1 polymorphisms modulate metal detoxification.
+- [[glutathione|glutathione-s-transferase]] concept — GSTT1/GSTM1/GSTP1 polymorphisms modulate metal detoxification.
 - Gene-environment interaction patterns relevant to [[autism-spectrum-disorder]] (parent ERAJ study).
 
 ## Relevance to Cureva

@@ -1,5 +1,4 @@
 ---
-
 title: "Body Mass Index, Interleukin-6 Signaling and Multiple Sclerosis: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 doi: 10.3389/fimmu.2022.834644
 tags: [multiple-sclerosis, Mendelian-randomization, BMI, obesity, IL-6, inflammation, CRP, risk-factor]
 platform: wikibiome
+evidence_level: computational-prediction
+karen_brain_primitives: [5]
+key_findings: ["BMI and MS risk", "IL-6 signaling and MS risk", "Proportion mediated by IL-6 signaling"]
 ---
 
 # Body Mass Index, Interleukin-6 Signaling and Multiple Sclerosis: A Mendelian Randomization Study
@@ -30,7 +32,7 @@ This two-sample Mendelian randomization study using data from the IMSGC (14,802 
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The BMI-IL-6-MS causal pathway identified here intersects with [[gut-microbiome]] biology at multiple points. Obesity-associated [[dysbiosis]] (reduced *Bacteroidetes*, increased *Firmicutes*) promotes systemic inflammation through increased intestinal permeability and elevated LPS translocation, driving IL-6 production. [[Heavy-metals]] accumulate in adipose tissue and further disrupt [[gut-microbiome]] ecology. The finding that IL-6 signaling mediates nearly half of the BMI-MS effect suggests that interventions targeting gut-derived inflammation (including [[probiotics]], dietary modification, or metal chelation) could reduce MS risk in obese individuals by lowering systemic IL-6.
+The BMI-IL-6-MS causal pathway identified here intersects with [[gut-microbiome]] biology at multiple points. Obesity-associated [[dysbiosis]] (reduced *Bacteroidetes*, increased *Firmicutes*) promotes systemic inflammation through increased intestinal permeability and elevated LPS translocation, driving IL-6 production. [[heavy-metals]] accumulate in adipose tissue and further disrupt [[gut-microbiome]] ecology. The finding that IL-6 signaling mediates nearly half of the BMI-MS effect suggests that interventions targeting gut-derived inflammation (including [[probiotics]], dietary modification, or metal chelation) could reduce MS risk in obese individuals by lowering systemic IL-6.
 
 ## Limitations
 

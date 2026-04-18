@@ -9,6 +9,8 @@ year: 2025
 doi: "10.3389/fimmu.2025.1652633"
 tags: [schizophrenia, metabolic-syndrome, mycobiome, mycobiota, Candida, Malassezia, Trichosporon, Saccharomyces, immune-dysfunction, cytokines, ITS1-sequencing]
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [candida-albicans, malassezia, saccharomyces-cerevisiae]
 ---
 
 # Gut Mycobiota Dysbiosis and Systemic Immune Dysfunction in Chinese Schizophrenia Patients with Metabolic Syndrome

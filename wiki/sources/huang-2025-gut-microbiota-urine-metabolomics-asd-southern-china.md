@@ -12,6 +12,8 @@ library_category: "Microbiome-derived metabolites"
 platform: original-research
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-21"
+evidence_level: expert-opinion
+taxa_discussed: [bifidobacterium, blautia, faecalibacterium-prausnitzii]
 ---
 
 # Overview

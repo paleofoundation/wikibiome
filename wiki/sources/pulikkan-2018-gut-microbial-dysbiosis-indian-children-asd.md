@@ -11,11 +11,16 @@ tags: [autism-spectrum-disorder, dysbiosis, 16S-rRNA, gut-microbiota, Lactobacil
 library_category: microbiome-signature
 platform: 16S-rRNA-V3
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
+taxa_discussed: [bifidobacterium, lactobacillus, megasphaera, prevotella]
+karen_brain_primitives: [1]
+key_findings: ["Alpha diversity", "Beta diversity"]
 ---
 
 # Overview
 
-Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian children** (ages 3-16) characterizing fecal microbiota composition. Found prominent [[dysbiosis]] with higher relative abundances of [[Lactobacillaceae]], [[Bifidobacteraceae]], and [[Veillonellaceae]] in ASD, while healthy children were dominated by [[Prevotellaceae]]. Confirmed findings with comparative meta-analysis of a US ASD cohort.
+Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian children** (ages 3-16) characterizing fecal microbiota composition. Found prominent [[dysbiosis]] with higher relative abundances of [[lactobacillus|Lactobacillaceae]], [[bifidobacterium|Bifidobacteraceae]], and [[veillonellaceae|Veillonellaceae]] in ASD, while healthy children were dominated by [[prevotellaceae|Prevotellaceae]]. Confirmed findings with comparative meta-analysis of a US ASD cohort.
 
 # Key Findings
 
@@ -28,14 +33,14 @@ Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian childr
 ## Differentially Abundant Taxa
 
 ### Enriched in ASD
-- **[[Lactobacillaceae]]** (FDR p = 0.018) — ~32-fold higher [[lactobacillus]] in ASD
-- **[[Bifidobacteraceae]]** (FDR p = 0.0054)
-- **[[Veillonellaceae]]** (FDR p = 0.008)
+- **[[lactobacillus|Lactobacillaceae]]** (FDR p = 0.018) — ~32-fold higher [[lactobacillus]] in ASD
+- **[[bifidobacterium|Bifidobacteraceae]]** (FDR p = 0.0054)
+- **[[veillonellaceae|Veillonellaceae]]** (FDR p = 0.008)
 - Genera: [[bifidobacterium]] (p = 0.005), [[lactobacillus]] (p = 0.018), [[Megasphaera]] (p = 0.0008), [[Mitsuokella]] (p = 0.007)
 - *L. ruminis* was most abundant species — 99% of all Lactobacillus in ASD
 
 ### Enriched in Healthy Controls
-- **[[Prevotellaceae]]** (37.8% healthy vs 28.04% ASD)
+- **[[prevotellaceae|Prevotellaceae]]** (37.8% healthy vs 28.04% ASD)
 - Higher relative abundance of Prevotella genus in healthy children
 
 ## Phylum-Level Shifts
@@ -48,7 +53,7 @@ Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian childr
 
 - 121 discriminatory OTUs identified
 - 26 OTUs belonged to genus [[prevotella]] — all abundant in healthy children
-- 57 OTUs from [[Ruminococcaceae]] — 56 abundant in ASD
+- 57 OTUs from [[ruminococcaceae|Ruminococcaceae]] — 56 abundant in ASD
 - Confirmed that Lactobacillus was key discriminating taxon
 
 ## Meta-Analysis Validation
@@ -60,9 +65,9 @@ Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian childr
 
 **Moderate relevance** — establishes Indian ASD microbiome profile with implications for metal metabolism:
 
-- Elevated [[lactobacillus]] is notable as this genus binds [[heavy metals]] (Pb, Cd) on cell surfaces
+- Elevated [[lactobacillus]] is notable as this genus binds [[heavy-metals]] (Pb, Cd) on cell surfaces
 - High Lactobacillus in ASD may reflect compensatory response to metal burden
-- Reduced [[prevotella]] (a key [[SCFA]] producer) may impair [[butyrate]]-dependent processes including [[iron]] absorption
+- Reduced [[prevotella]] (a key [[short-chain-fatty-acids]] producer) may impair [[butyrate]]-dependent processes including [[iron]] absorption
 - Firmicutes/Bacteroidetes ratio shift aligns with inflammatory phenotype
 
 # Methodological Notes

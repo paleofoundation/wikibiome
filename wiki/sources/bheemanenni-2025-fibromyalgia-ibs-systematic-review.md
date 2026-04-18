@@ -37,7 +37,7 @@ Systematic review of 10 clinical and microbiome studies examining FM-IBS comorbi
 
 ## Relevance to WikiBiome
 
-- **Disease entity page:** [[fibromyalgia]] — add prominent [[irritable-bowel-syndrome]] association.
+- **Disease entity page:** [[fibromyalgia]] — add prominent [[ibs|irritable-bowel-syndrome]] association.
 - **Signature page:** [[fibromyalgia-signature]] — populate `associated_conditions` field with IBS overlap (shared_taxa: bifidobacterium, lachnospiraceae).
 - **Concept pages:** [[tryptophan-metabolism]], [[gut-brain-axis]].
 

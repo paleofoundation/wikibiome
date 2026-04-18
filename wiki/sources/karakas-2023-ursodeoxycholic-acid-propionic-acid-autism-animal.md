@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, ursodeoxycholic-acid, propionic-acid, animal-mo
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: animal-model
+key_findings: ["UDCA administration ameliorated", "Sociability, open field, and passive avoidance", "MDA, TNF-alpha, IL-2, IL-17, NF-KB, lactate, NGF, and NRF2"]
 ---
 
 # Key Claims

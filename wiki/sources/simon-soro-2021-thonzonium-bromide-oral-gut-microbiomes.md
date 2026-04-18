@@ -1,5 +1,4 @@
 ---
-
 title: "Impact of the Repurposed Drug Thonzonium Bromide on Host Oral-Gut Microbiomes"
 type: source
 created: 2026-04-09
@@ -7,9 +6,11 @@ updated: 2026-04-09
 authors: [Aurea Simon-Soro, Dongyeop Kim, Yong Li, Yuan Liu, Tatsuro Ito, Kenneth R. Sims Jr., Danielle S. W. Benoit, Kyle Bittinger, Hyun Koo]
 journal: npj Biofilms and Microbiomes
 year: 2021
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: npj Biofilms and Microbiomes 2021 -->
 tags: [colon-cancer, drug-repurposing, microbiome, oral-gut-axis, thonzonium-bromide, nanoparticle-carrier, Rothia, Veillonella, Sutterella, dental-caries, colorectal-cancer]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bacteroides-fragilis, veillonella]
 ---
 
 # Key Claims
@@ -33,8 +34,8 @@ platform: wikibiome
 
 # Connections
 
-- Demonstrates the principle that drug repurposing must consider microbiome impacts, relevant to [[Xia 2024 - Drug Repurposing Cancer Therapy]] and [[Zhu 2022 - Berberine UC Cancer Therapy]]
+- Demonstrates the principle that drug repurposing must consider microbiome impacts, relevant to [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]] and [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]]
 - Oral-gut microbial axis findings connect to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] discussion of oral bacteria (F. nucleatum) colonizing CRC tumors
-- Nanoparticle drug delivery system parallels [[Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]] NP-based microbiome modulation
+- Nanoparticle drug delivery system parallels [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]] NP-based microbiome modulation
 - Sutterella enrichment in gut after oral treatment raises questions about distant microbiome effects of orally administered drugs
 - [[colorectal-cancer]]

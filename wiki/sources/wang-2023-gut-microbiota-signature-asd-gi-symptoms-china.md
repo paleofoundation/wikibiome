@@ -11,11 +11,15 @@ tags: [autism-spectrum-disorder, gut-microbiota, gastrointestinal-symptoms, 16S-
 library_category: microbiome-signature
 platform: 16S-rRNA
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [acinetobacter, lachnospiraceae, ruminococcus, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Overview
 
-16S rRNA gene sequencing study of fecal samples from **42 ASD children and 41 healthy controls** (ages 2.5-9.6 years) in southeastern coastal China (Fujian Province). Identified significant differences in gut microbiota composition and metabolic pathways, with ASD children showing enrichment of [[streptococcus-pneumoniae]], [[ruminococcus]], and [[Ruminiclostridium]] and depletion of [[flavonifractor]] and other beneficial taxa.
+16S rRNA gene sequencing study of fecal samples from **42 ASD children and 41 healthy controls** (ages 2.5-9.6 years) in southeastern coastal China (Fujian Province). Identified significant differences in gut microbiota composition and metabolic pathways, with ASD children showing enrichment of [[streptococcus-pneumoniae]], [[ruminococcus]], and [[ruminococcaceae|Ruminiclostridium]] and depletion of [[flavonifractor]] and other beneficial taxa.
 
 # Key Findings
 
@@ -41,7 +45,7 @@ condition: "autism spectrum disorder"
 ### Dominant/Enriched in ASD
 - **[[streptococcus-pneumoniae]]** (p < 0.05)
 - **[[ruminococcus]]** (p < 0.05) — CARS negatively correlated with *g_Ruminococcus_1*
-- **[[Ruminiclostridium]]** (p < 0.05)
+- **[[ruminococcaceae|Ruminiclostridium]]** (p < 0.05)
 - **[[lactococcus]]** (p < 0.05)
 - *Lachnospiraceae NC2004* (p < 0.05)
 - *Lachnospiraceae ND3007* (p < 0.05)
@@ -62,7 +66,7 @@ condition: "autism spectrum disorder"
 - **Inorganic pyrophosphatase**: notably elevated in ASD
 
 ## Microbial Co-Evolution
-- Continuous evolutionary relationship at 5 taxonomic levels: [[Firmicutes]], [[Bacilli]], [[Lactobacillales]], [[Streptococcaceae]], [[streptococcus-pneumoniae]], Firmicutes, [[Bacilli]], [[Lactobacillales]], [[Streptococcaceae]], and [[lactococcus]]
+- Continuous evolutionary relationship at 5 taxonomic levels: [[firmicutes]], [[bacillus|Bacilli]], [[lactobacillus|Lactobacillales]], [[streptococcus|Streptococcaceae]], [[streptococcus-pneumoniae]], Firmicutes, [[bacillus|Bacilli]], [[lactobacillus|Lactobacillales]], [[streptococcus|Streptococcaceae]], and [[lactococcus]]
 - [[streptococcus-pneumoniae]] and [[lactococcus]] abundance linked through shared evolutionary pathway
 
 # Relevance to Metallomic Framework

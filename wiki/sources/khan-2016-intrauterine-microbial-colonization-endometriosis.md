@@ -1,5 +1,4 @@
 ---
-
 title: "Molecular detection of intrauterine microbial colonization in women with endometriosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2016
 tags: [endometriosis, intrauterine-microbial-colonization, Lactobacillaceae, Streptococcaceae, Staphylococcaceae, Enterobacteriaceae, cystic-fluid, GnRHa, 16S-rDNA]
 doi: "10.1016/j.ejogrb.2016.01.040"
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [escherichia-coli, gardnerella]
 ---
 
 # Key Claims

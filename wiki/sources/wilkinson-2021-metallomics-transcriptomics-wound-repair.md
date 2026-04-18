@@ -1,5 +1,4 @@
 ---
-
 title: "Combined Metallomics/Transcriptomics Profiling Reveals a Major Role for Metals in Wound Repair"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ platform: wikibiome
 karen_brain_primitives: [1]
 metals_discussed: ["aluminum", "cobalt", "copper", "iron", "magnesium", "manganese", "zinc"]
 taxa_discussed: []
+evidence_level: animal-model
 ---
 
 # Combined Metallomics/Transcriptomics Profiling Reveals a Major Role for Metals in Wound Repair

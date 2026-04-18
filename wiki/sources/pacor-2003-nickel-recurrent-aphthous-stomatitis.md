@@ -1,5 +1,4 @@
 ---
-
 title: "Results of Double-Blind Placebo-Controlled Challenge with Nickel Salts in Patients Affected by Recurrent Aphthous Stomatitis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2003
 tags: [recurrent-aphthous-stomatitis, oral-nickel-challenge, DBPC, orthodontic-appliances, oral-mucosa]
 doi: "10.1159/000072142"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+metals_discussed: [nickel]
+karen_brain_primitives: [4]
 ---
 
 ## Key Claims

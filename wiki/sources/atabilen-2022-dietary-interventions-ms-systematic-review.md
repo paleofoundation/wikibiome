@@ -25,10 +25,10 @@ karen_brain_primitives: [5]
 ## Key Claims
 
 - Of 269 studies identified (2018-2022), only 17 met inclusion criteria for this systematic review, highlighting the scarcity of rigorous dietary intervention trials in MS
-- The [[Mediterranean-diet]] is the most recommendable diet model for MS due to positive long-term health results and absence of side effects
+- The [[mediterranean-diet]] is the most recommendable diet model for MS due to positive long-term health results and absence of side effects
 - Energy-restricted/intermittent fasting, [[ketogenic-diet]], and modified Paleolithic diets show positive short-term health outcomes but may not be applicable long-term due to nutrient deficiency risks
 - No current studies were found for low-fat diets, gluten-free diets, or MIND (Mediterranean-DASH Intervention for Neurodegenerative Delay) diets specifically applied to MS patients
-- [[Ketogenic-diet]] effects include: reduced ALOX5 gene expression, improved fatigue/depression scores, decreased insulin/HbA1c/triglycerides, increased PON1 enzyme levels, and improved voice handicap index in speech-impaired MS patients
+- [[ketogenic-diet]] effects include: reduced ALOX5 gene expression, improved fatigue/depression scores, decreased insulin/HbA1c/triglycerides, increased PON1 enzyme levels, and improved voice handicap index in speech-impaired MS patients
 
 ## Methods/Findings
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Urine metallomics signature as an indicator of pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 tags: [metallomics, pancreatic-cancer, biomarkers, urine, zinc-isotopes, copper, calcium, magnesium, non-invasive-diagnostics]
 doi: "10.1109/TCYB.2021.3131292"
 platform: wikibiome
+metals_discussed: [calcium, copper, magnesium, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims

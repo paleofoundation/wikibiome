@@ -17,7 +17,7 @@ library_category: signatures
 platform: both
 condition: "crohns-disease"
 karen_brain_primitives: [4, 8]
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed: [fusobacterium-nucleatum, faecalibacterium-prausnitzii, escherichia-coli]
 key_findings:
   - "In 346 Asian subjects, fecal Fusobacterium nucleatum (Fn) was significantly elevated and F. prausnitzii (Fp) significantly depleted in CD vs healthy; combined Fn+Fp ratio discriminates CD from healthy subjects with AUC=0.867 (sensitivity 79.62%, specificity 63.89%, NPV 73.5%, PPV 80.7%)"

@@ -12,6 +12,9 @@ library_category: "Mendelian randomization"
 platform: genetic
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: animal-model
+taxa_discussed: [bacteroides-fragilis, clostridium]
+key_findings: ["Family Prevotellaceae"]
 ---
 
 # Overview

@@ -48,7 +48,7 @@ key_findings:
 
 ## Relevance to WikiBiome
 
-Anchors entity pages: [[akkermansia-muciniphila]] (enriched in PD), [[faecalibacterium-prausnitzii]] (depleted), [[roseburia-intestinalis]] (depleted). Informs concept pages on [[riboflavin]], [[biotin]], [[scfas]], [[polyamines]], [[mucus-layer]], [[parkinsons-disease]]. Strongest evidence level for PD taxonomic signature across countries.
+Anchors entity pages: [[akkermansia-muciniphila]] (enriched in PD), [[faecalibacterium-prausnitzii]] (depleted), [[roseburia-intestinalis]] (depleted). Informs concept pages on [[dietary-metal-microbiome-interactions|riboflavin]], [[dietary-metal-microbiome-interactions|biotin]], [[butyrate|scfas]], [[polyamines]], [[intestinal-permeability|mucus-layer]], [[parkinsons-disease]]. Strongest evidence level for PD taxonomic signature across countries.
 
 ## Relevance to Cureva
 

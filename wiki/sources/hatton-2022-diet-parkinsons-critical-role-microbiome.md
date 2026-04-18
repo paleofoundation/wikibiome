@@ -11,13 +11,16 @@ tags: [parkinsons-disease, diet, microbiome-composition, Mediterranean-diet, ket
 library_category: reviews
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 2, 4, 5, 8]
 ---
 
 # Diet in Parkinson's Disease: Critical Role for the Microbiome
 
 ## Summary
 
-This review examines how dietary patterns influence [[parkinsons-disease]] outcomes through modulation of the gut [[microbiome]]. It covers the Mediterranean diet, ketogenic diet, high-fiber diets, and specific dietary components (polyphenols, omega-3 fatty acids) and their effects on PD-associated microbial taxa and metabolites.
+This review examines how dietary patterns influence [[parkinsons-disease]] outcomes through modulation of the gut [[gut-microbiome|microbiome]]. It covers the Mediterranean diet, ketogenic diet, high-fiber diets, and specific dietary components (polyphenols, omega-3 fatty acids) and their effects on PD-associated microbial taxa and metabolites.
 
 ## Key Findings
 

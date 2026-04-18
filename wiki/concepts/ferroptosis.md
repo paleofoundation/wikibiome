@@ -1,5 +1,4 @@
 ---
-
 title: Ferroptosis
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, mishra-2022-molecular-mechanisms-heavy-metals-ckd, brylinski-2025-trace-elements-thyroid-diseases, scholefield-2024-brain-metallomics-dementia, balali-mood-2021-toxic-mechanisms-five-heavy-metals, zhang-2022-metallomics-cancer-review, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons, riederer-2021-iron-concert-master-parkinsons]
 tags: [ferroptosis, iron, lipid-peroxidation, cell-death, GPX4, Fenton-reaction, neurodegeneration, cancer, gut-pathology]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 3, 5]
+seo_target: "ferroptosis microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Ferroptosis
@@ -58,7 +60,7 @@ PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, and Faeca
 
 ## Ferroptosis in Cancer
 
-Ferroptosis has emerged as a therapeutic target in oncology. Cancer cells with disrupted iron homeostasis or elevated iron requirements may be selectively vulnerable to ferroptosis induction.
+Ferroptosis has emerged as a therapeutic target in oncology. Cancer cells with disrupted iron homeostasis or elevated iron requirements may be selectively vulnerable to ferroptosis induction. [[platinum|Platinum]]-based chemotherapy (cisplatin, carboplatin) relies partly on ferroptotic cell death, and platinum resistance converges on ferroptosis evasion via the Keap1-Nrf2-GPX4 axis.
 
 ### Thyroid Cancer
 

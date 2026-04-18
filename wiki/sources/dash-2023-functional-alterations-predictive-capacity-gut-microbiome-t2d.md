@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, metagenomics, functional-shi
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, zinc]
+taxa_discussed: [bacteroides-fragilis, blautia, enterococcus, eubacterium, prevotella, ruminococcus]
+karen_brain_primitives: [1, 4]
+key_findings: ["High level of diversity in Firmicutes group (K2)", "Functional enrichment analysis", "Prediction analysis (Predomics)"]
 ---
 
 # Key Claims

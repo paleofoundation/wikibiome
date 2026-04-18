@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, metalloproteome-plasticity, manganese,
 library_category: reviews_mechanisms
 platform: wikibiome
 condition: "bacterial pathogen metal adaptation"
+metals_discussed: [iron, magnesium, manganese]
+taxa_discussed: [escherichia-coli, salmonella, staphylococcus-aureus]
+karen_brain_primitives: [1, 3, 4, 9]
+key_findings: ["Metalloproteome plasticity"]
 ---
 
 # Why This Paper Matters

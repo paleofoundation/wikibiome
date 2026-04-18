@@ -1,5 +1,4 @@
 ---
-
 title: "Aluminum content and effect of in vitro digestion on bioaccessible fraction in cereal-based baby foods"
 type: source
 created: 2026-04-09
@@ -7,15 +6,17 @@ updated: 2026-04-09
 authors: [de Paiva EL, Medeiros C, Milani RF, Morgano MA, Pallone JAL, Arisseto-Bragotto AP]
 journal: Food Research International
 year: 2020
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Food Research International 2020 -->
 tags: [aluminum, cereal, baby-food, bioaccessibility, in-vitro-digestion, infant-formula, Brazil, ICP-OES]
 platform: wikibiome
+evidence_level: in-vitro
+metals_discussed: [aluminum]
 ---
 
 ## Key Claims
 
 - Total [[aluminum]] concentration in 35 Brazilian infant cereal samples ranged from 197 to 1852 ug/kg, with multicereals and fruit-based cereals presenting the highest values (8.82 and 7.49 mg/kg respectively)
-- [[Bioaccessibility]] of Al ranged from 1.5% to 10.4%, generally lower than in non-cereal infant foods
+- [[metal-homeostasis|Bioaccessibility]] of Al ranged from 1.5% to 10.4%, generally lower than in non-cereal infant foods
 - The intake of Al through cereals contributes up to 10.48% of the PTWI (2 mg/kg bw/week), when considering total Al concentrations
 - Corn and rice flour cereals had the lowest Al concentrations (0.92 mg/kg and 1.09 mg/kg respectively)
 - Fruit-based cereals (banana and apple) from brand A had lowest bioaccessibility (3.4%), possibly due to lower polyphenol content reducing Al interaction

@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, antimicrobial-resistance, drug-discove
 library_category: reviews_mechanisms
 platform: wikibiome
 condition: "antibacterial drug discovery"
+metals_discussed: [copper, zinc]
+taxa_discussed: [escherichia-coli, pseudomonas-aeruginosa, salmonella, staphylococcus-aureus]
+karen_brain_primitives: [1, 2, 3, 4]
+key_findings: ["Antibacterial drug discovery has reached a plateau", "The half-life of a drug class", "Target-based drug discovery has largely failed"]
 ---
 
 # Why This Paper Matters

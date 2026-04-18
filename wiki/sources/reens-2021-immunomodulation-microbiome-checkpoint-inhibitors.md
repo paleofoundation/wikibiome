@@ -1,5 +1,4 @@
 ---
-
 title: "Immunomodulation by the Commensal Microbiome During Immune-Targeted Interventions: Focus on Cancer Immune Checkpoint Inhibitor Therapy and Vaccination"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2021
 doi: "10.3389/fimmu.2021.643255"
 tags: [colon-cancer, colorectal-cancer, immune-checkpoint-inhibitors, anti-PD-1, anti-CTLA-4, vaccination, microbiome, immunomodulation, SCFAs, MAMPs, FMT, Bifidobacterium, Akkermansia, Bacteroides-fragilis]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium, faecalibacterium-prausnitzii, ruminococcus]
+karen_brain_primitives: [5]
 ---
 
 # Reens 2021 -- Immunomodulation by Microbiome During Immune Checkpoint Therapy and Vaccination

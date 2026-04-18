@@ -1,5 +1,4 @@
 ---
-
 title: "A probiotic modulates the microbiome and immunity in multiple sclerosis"
 type: source
 created: 2026-04-09
@@ -12,7 +11,7 @@ doi: "10.1002/ana.25244"
 platform: wikibiome
 karen_brain_primitives: [5]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [lactobacillus, streptococcus]
 ---
 
 # A Probiotic Modulates the Microbiome and Immunity in Multiple Sclerosis

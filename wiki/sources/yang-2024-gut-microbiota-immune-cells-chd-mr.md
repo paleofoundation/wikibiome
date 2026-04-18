@@ -1,5 +1,4 @@
 ---
-
 title: "Causal relationship between the gut microbiota, immune cells, and coronary heart disease: a mediated Mendelian randomization analysis"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ doi: 10.3389/fmicb.2024.1449935
 tags: [cardiovascular-disease, CVD, coronary-heart-disease, Mendelian-randomization, immune-cells, Desulfovibrio-piger, DN-T-cells, mediation-analysis, causality]
 platform: wikibiome
 evidence_level: mendelian-randomization
+metals_discussed: [cadmium, lead]
+taxa_discussed: [clostridium, desulfovibrio, escherichia-coli]
+karen_brain_primitives: [1]
 ---
 
 # Causal Relationship Between the Gut Microbiota, Immune Cells, and Coronary Heart Disease: A Mediated Mendelian Randomization Analysis

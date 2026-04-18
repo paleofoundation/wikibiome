@@ -15,8 +15,8 @@ platform: wikibiome
 # Key Claims
 
 - A low-carbohydrate, ketogenic diet (LCKD) with fewer than 20 g carbohydrate/day led to significant improvements in body weight, percent free testosterone, LH/FSH ratio, and fasting insulin over 24 weeks in women with [[pcos]] and obesity
-- Two of the five completers became pregnant during the study despite previous infertility problems, suggesting potential [[fertility]] benefits
-- The reduction in hyperinsulinemia via LCKD may decrease stimulation of ovarian androgen production and increase [[SHBG]] levels, limiting circulating free androgens
+- Two of the five completers became pregnant during the study despite previous infertility problems, suggesting potential [[female-infertility|fertility]] benefits
+- The reduction in hyperinsulinemia via LCKD may decrease stimulation of ovarian androgen production and increase [[hyperandrogenism|SHBG]] levels, limiting circulating free androgens
 
 # Methods/Findings
 
@@ -35,6 +35,6 @@ platform: wikibiome
 # Connections
 
 - Supports the role of [[insulin-resistance]] as a driver of PCOS symptoms via [[hyperinsulinemia]] and androgen excess
-- Early evidence for [[ketogenic diet]] as a therapeutic approach for PCOS, later expanded by [[tsushima-2024-ketogenic-diet-pcos-fertility]]
-- Relates to broader [[low-carbohydrate diet]] evidence for PCOS including [[mei-2022-mediterranean-low-carb-pcos]]
-- Connects to [[dietary intervention]] strategies targeting [[weight loss]] and [[metabolic-syndrome|metabolic syndrome]] in PCOS
+- Early evidence for [[ketogenic-diet]] as a therapeutic approach for PCOS, later expanded by [[tsushima-2024-ketogenic-diet-pcos-fertility]]
+- Relates to broader [[low-carbohydrate-diet]] evidence for PCOS including [[mei-2022-mediterranean-low-carb-pcos]]
+- Connects to [[dietary-metal-microbiome-interactions|dietary intervention]] strategies targeting [[metabolic-syndrome|weight loss]] and [[metabolic-syndrome|metabolic syndrome]] in PCOS

@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2023
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2023 -->
 tags: [type-1-diabetes, autoimmune, metabolic-pathways, gut-microbiome, tryptophan, amino-acids, dysbiosis]
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Gut microbiome metabolic pathways are altered in T1D", "Tryptophan metabolism", "Metabolic pathway analysis"]
 ---
 
 # Key Claims

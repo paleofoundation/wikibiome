@@ -1,5 +1,4 @@
 ---
-
 title: "Investigating the causal relationship of gut microbiota with GERD and BE: a bidirectional mendelian randomization"
 type: source
 created: 2026-04-09
@@ -10,16 +9,18 @@ year: 2024
 doi: "10.1186/s12864-024-10377-0"
 tags: [gerd, gastroesophageal-reflux, barretts-esophagus, mendelian-randomization, gut-microbiota, causal-association, faecalibacterium-prausnitzii, eubacterium-hallii, haemophilus, tenericutes, bacteroidia, metabolic-pathways, BMI, mediation-analysis, gwas]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [eubacterium, faecalibacterium-prausnitzii, haemophilus]
 ---
 
 # Investigating the causal relationship of gut microbiota with GERD and BE: a bidirectional mendelian randomization
 
 ## Key Claims
 
-- Bidirectional [[Mendelian randomization]] identified 11 bacterial taxa and 13 metabolism pathways associated with [[gerd]], and 18 taxa and 5 pathways causally related to [[Barretts esophagus]]
+- Bidirectional [[mendelian-randomization]] identified 11 bacterial taxa and 13 metabolism pathways associated with [[gerd]], and 18 taxa and 5 pathways causally related to [[barretts-esophagus]]
 - Weight and BMI played a crucial mediating role in the GERD-microbiome relationship, acting as key confounders
 - *[[faecalibacterium-prausnitzii]]* had a suggestive impact on both GERD (OR=1.087) and BE (OR=1.388), suggesting it may increase risk for both conditions
-- Phylum *[[Tenericutes]]* (OR 1.11, P=0.02), class *[[Bacteroidia]]* (OR 1.10, P<0.05), and genus *[[Haemophilus]]* (OR 1.09, P=0.02) increased GERD risk
+- Phylum *[[mollicutes|Tenericutes]]* (OR 1.11, P=0.02), class *[[Bacteroidia]]* (OR 1.10, P<0.05), and genus *[[haemophilus]]* (OR 1.09, P=0.02) increased GERD risk
 - LDSC (linkage disequilibrium score regression) identified 1 microbial taxon and 4 metabolism pathways genetically correlated with GERD, and 1 taxon related to BE
 - Reverse MR indicated that BE impacts 10 microbial taxa and 4 metabolic pathways, demonstrating bidirectional causation
 

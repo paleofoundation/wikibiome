@@ -1,5 +1,4 @@
 ---
-
 title: "Graves' Disease: Is It Time for Targeted Therapy? A Narrative Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2022
 doi: "10.1210/clinem/dgac363"
 tags: [graves-disease, thyroid, autoimmune, targeted-therapy, biologics, rituximab, anti-CD20, TSHR-antibodies, immunotherapy, B-cell-depletion, immune-checkpoint, drug-repurposing, JAK-inhibitors]
 platform: wikibiome
+evidence_level: case-series
+metals_discussed: [copper, iron, selenium, zinc]
+taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [5]
 ---
 
 # Graves' Disease: Is It Time for Targeted Therapy? A Narrative Review
@@ -20,7 +23,7 @@ platform: wikibiome
 - Anti-CD20 therapy (rituximab) for B-cell depletion has shown promise in reducing TRAb levels and achieving sustained remission in GD, though results are variable and evidence limited to small trials
 - TSH receptor (TSHR)-targeted therapies including small-molecule TSHR antagonists and TSHR-blocking antibodies represent the most disease-specific approach, directly addressing the pathogenic autoantibody mechanism
 - Anti-neonatal Fc receptor (FcRn) inhibitors that accelerate IgG clearance offer a novel mechanism to reduce circulating TRAb without broad immunosuppression
-- [[JAK/STAT pathway]] inhibitors (baricitinib, tofacitinib) show potential for GD and Graves' orbitopathy by blocking cytokine signaling pathways central to autoimmune [[inflammation]]
+- [[inflammation|JAK/STAT pathway]] inhibitors (baricitinib, tofacitinib) show potential for GD and Graves' orbitopathy by blocking cytokine signaling pathways central to autoimmune [[inflammation]]
 
 ## Methods/Findings
 
@@ -40,7 +43,7 @@ platform: wikibiome
 - B-cell depletion approach connects to understanding of B-cell-TRAb dynamics in [[chen-2021-gut-microbiota-thyroid-graves]] where Bifidobacterium correlated with TRAb
 - Anti-FcRn mechanism addresses TRAb directly, the antibody whose levels correlate with gut microbiota composition per [[chen-2021-gut-microbiota-thyroid-graves]]
 - Conventional ATD limitations motivate microbiome-based adjuncts like berberine in [[han-2022-berberine-methimazole-graves-microbiome]]
-- [[NF-kappa-B]] and cytokine-driven [[inflammation]] as therapeutic targets connect to neuroinflammatory depression pathway in [[siegmann-2020-graves-disease-depression-mechanistic]]
+- [[nf-kappa-b]] and cytokine-driven [[inflammation]] as therapeutic targets connect to neuroinflammatory depression pathway in [[siegmann-2020-graves-disease-depression-mechanistic]]
 - Gut [[dysbiosis]] correction via [[probiotics]] may complement targeted immunotherapy by restoring immune homeostasis
 - [[selenium]] and other trace elements ([[zinc]], [[copper]], [[iron]]) may support immune rebalancing alongside targeted therapies
 - Drug repurposing of JAK inhibitors from RA/IBD to GD exemplifies shared autoimmune mechanisms

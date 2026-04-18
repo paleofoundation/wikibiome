@@ -1,5 +1,4 @@
 ---
-
 title: "Female Fertility and Environmental Pollution"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 tags: [female-fertility, heavy-metals, endocrine-disruptors, lead, cadmium, mercury, nickel, cobalt, zinc, air-pollution, phthalates, BPA, review]
 doi: "10.3390/ijerph17238802"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [cadmium, cobalt, iron, lead, mercury, nickel, zinc]
 ---
 
 # Key Claims
@@ -34,9 +35,9 @@ platform: wikibiome
 
 # Connections
 
-- Comprehensive review linking [[environmental pollutants]] to [[female-infertility]]
-- [[cadmium]] as metalloestrogen -- relevant to [[endocrine disruption]]
-- [[nickel]] reproductive toxicity important for [[nickel toxicology]] wiki
-- [[Iron deficiency]] increases [[cadmium]] absorption in women -- links to [[anemia]] and fertility
-- Placenta as biomarker for fetal metal exposure connects to [[pregnancy outcomes]]
+- Comprehensive review linking [[environmental-metal-exposure|environmental pollutants]] to [[female-infertility]]
+- [[cadmium]] as metalloestrogen -- relevant to [[endocrine-disruption|endocrine disruption]]
+- [[nickel]] reproductive toxicity important for [[nickel-allergy|nickel toxicology]] wiki
+- [[iron|Iron deficiency]] increases [[cadmium]] absorption in women -- links to [[iron|anemia]] and fertility
+- Placenta as biomarker for fetal metal exposure connects to [[female-infertility|pregnancy outcomes]]
 - See also: [[fertility-lead-cadmium]], [[heavy-metals-infertility-nhanes]]

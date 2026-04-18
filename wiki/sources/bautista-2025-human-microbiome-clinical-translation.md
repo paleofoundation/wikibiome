@@ -11,6 +11,9 @@ tags: [postpartum-depression, human-microbiome, clinical-translation, precision-
 library_category: review
 platform: cureva
 condition: "microbiome clinical translation"
+taxa_discussed: [bifidobacterium, lactobacillus, prevotella]
+karen_brain_primitives: [5]
+key_findings: ["Human microbiome"]
 ---
 
 # Key Claims

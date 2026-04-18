@@ -40,7 +40,7 @@ key_findings:
 - Informs **[[type-2-diabetes]]** entity page: documents gut dysbiosis in a Middle Eastern (Emirati) population, providing geographic diversity beyond Western cohorts.
 - Informs **[[malassezia]]** and **[[davidiella]]** entity pages: identifies these fungi as T2DM-enriched in the gut mycobiome.
 - Informs **[[prevotella]]** and **[[bacteroides]]** entity pages: enterotype-level signature shift in T2DM.
-- Informs **[[metabolic-endotoxemia]]** and **[[LPS-biosynthesis]]** concept pages: functional evidence of LPS pathway enrichment in T2DM microbiomes.
+- Informs **[[metabolic-syndrome|metabolic-endotoxemia]]** and **[[toll-like-receptors|LPS-biosynthesis]]** concept pages: functional evidence of LPS pathway enrichment in T2DM microbiomes.
 
 # Relevance to Cureva
 

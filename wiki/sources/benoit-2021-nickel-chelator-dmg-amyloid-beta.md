@@ -1,5 +1,4 @@
 ---
-
 title: "The nickel-chelator dimethylglyoxime inhibits human amyloid beta peptide in vitro aggregation"
 type: source
 created: 2026-04-09
@@ -12,6 +11,10 @@ pages: "6622"
 doi: "10.1038/s41598-021-86060-1"
 tags: [nickel, alzheimers-disease, amyloid-beta, metal-chelation, dimethylglyoxime, copper, zinc, protein-aggregation, ICP-MS, isothermal-titration-calorimetry, FTICR-MS, neurodegeneration, therapeutic-strategy]
 platform: wikibiome
+evidence_level: in-vitro
+metals_discussed: [aluminum, copper, iron, nickel, zinc]
+taxa_discussed: [escherichia-coli, helicobacter-pylori, salmonella]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims
@@ -56,5 +59,5 @@ This paper makes the groundbreaking discovery that [[nickel]] -- a metal rarely 
 - [[oxidative-stress]] -- metal-induced A-beta aggregation leads to ROS production and neuronal damage
 - [[riederer-2021-iron-concert-master-parkinsons]] -- complementary paper on iron's role in neurodegeneration; together they suggest multiple metals contribute
 - [[gut-brain-axis]] -- infections (H. pylori, Salmonella) involve nickel-dependent enzymes; gut pathogens may contribute to AD via nickel-dependent pathways
-- [[metal-chelation]] -- DMG as proof-of-concept for nickel-specific chelation therapy in neurodegeneration
-- [[protein-aggregation]] -- nickel joins Cu, Zn, Al as metals that promote pathological protein aggregation
+- [[metal-chelation-therapy|metal-chelation]] -- DMG as proof-of-concept for nickel-specific chelation therapy in neurodegeneration
+- [[alpha-synuclein|protein-aggregation]] -- nickel joins Cu, Zn, Al as metals that promote pathological protein aggregation

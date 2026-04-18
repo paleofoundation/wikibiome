@@ -1,5 +1,4 @@
 ---
-
 title: "Elevated Levels of Circulating DNA in Cardiovascular Disease Patients: Metagenomic Profiling of Microbiome in the Circulation"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2014
 doi: 10.1371/journal.pone.0105221
 tags: [cardiovascular-disease, CVD, circulating-DNA, blood-microbiome, metagenomics, bacterial-translocation, shotgun-sequencing, biomarker]
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [propionibacterium, pseudomonas-aeruginosa]
+karen_brain_primitives: [1]
 ---
 
 # Elevated Levels of Circulating DNA in Cardiovascular Disease Patients: Metagenomic Profiling of Microbiome in the Circulation
@@ -45,5 +47,5 @@ This study contributes to the [[gut-metal-microbiome]] model by:
 
 1. **Bacterial translocation biomarker** - Elevated circDNA and 16S rRNA in blood provides measurable evidence of increased bacterial translocation in CVD, a process that may be exacerbated by [[lead]] and [[cadmium]] exposure through intestinal barrier disruption
 2. **Circulating [[dysbiosis]]** - The shift from Proteobacteria to Actinobacteria dominance in CVD blood suggests a disease-specific blood microbiome signature
-3. **[[Inflammation]] link** - Increased Actinobacteria and decreased Proteobacteria in CVD circulation may reflect differential bacterial translocation through a compromised gut barrier, directly relevant to systemic [[inflammation]]
+3. **[[inflammation]] link** - Increased Actinobacteria and decreased Proteobacteria in CVD circulation may reflect differential bacterial translocation through a compromised gut barrier, directly relevant to systemic [[inflammation]]
 - [[cardiovascular-disease]]

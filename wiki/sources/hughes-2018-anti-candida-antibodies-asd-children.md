@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, Candida-albicans, antibodies, IgG, mycobiome, f
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: case-control
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [6]
+key_findings: ["36.5% (19/52) of children with ASD", "ASD children had a higher rate of high-positive values", "GI dysfunction found in about half"]
 ---
 
 # Key Claims

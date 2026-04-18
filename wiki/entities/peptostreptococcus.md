@@ -43,7 +43,7 @@ A Gram-positive, obligate anaerobic genus that has emerged as one of the most co
 
 ### Periodontal Disease
 - Core member of the subgingival pathogenic consortium in periodontitis.
-- Oral *Peptostreptococcus* may translocate to the gut, contributing to the [[oral-gut-axis]] in CRC development.
+- Oral *Peptostreptococcus* may translocate to the gut, contributing to the [[biofilm|oral-gut-axis]] in CRC development.
 
 ### Multiple Sclerosis -- Oral Microbiome
 - In the oral cavity, *Peptostreptococcus* was higher in healthy controls than in MS patients, with potential protective effects via indoleacrylic acid production that increases IL-10 secretion [[zangeneh-2021-oral-microbiota-ms]].

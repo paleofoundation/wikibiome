@@ -6,9 +6,10 @@ updated: 2026-04-09
 authors: [Mintz AR]
 journal: University of Calgary (Master's Thesis)
 year: 2001
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: University of Calgary (Master's Thesis) 2001 -->
 tags: [schizophrenia, insight, anosognosia, meta-analysis, positive-symptoms, negative-symptoms, depression]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Insight in Schizophrenia: A Meta-Analysis

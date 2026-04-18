@@ -1,5 +1,4 @@
 ---
-
 title: "Adherence to the Mediterranean Diet, Dietary Patterns and Body Composition in Women with Polycystic Ovary Syndrome (PCOS)"
 type: source
 created: 2026-04-09
@@ -10,12 +9,15 @@ year: 2019
 tags: [PCOS, Mediterranean-diet, dietary-patterns, body-composition, testosterone, CRP, inflammation, PREDIMED, bioelectrical-impedance]
 doi: "10.3390/nu11061594"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [magnesium]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
 - Women with [[pcos]] had significantly lower adherence to the [[mediterranean-diet]] (PREDIMED score 6.97 vs 8.12, p < 0.001) compared to age- and BMI-matched controls
-- Low adherence to the MD was directly associated with higher [[testosterone]] levels, [[CRP]], [[HOMA-IR]], and Ferriman-Gallwey hirsutism scores (all p < 0.001)
+- Low adherence to the MD was directly associated with higher [[testosterone]] levels, [[inflammation|CRP]], [[insulin-resistance|HOMA-IR]], and Ferriman-Gallwey hirsutism scores (all p < 0.001)
 - PCOS women consumed less extra-virgin olive oil, legumes, fish/seafood, and nuts; they consumed more simple carbohydrates, SFA, and n-6 PUFA
 - A PREDIMED score cutoff of 6 or below (AUC 0.848) could predict significantly increased risk of high testosterone levels
 - PCOS women had adverse body composition with lower phase angle (PhA) and fat-free mass, and higher fat mass

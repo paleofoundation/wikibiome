@@ -1,5 +1,4 @@
 ---
-
 title: "The Effects of Probiotics on Colon Cancer Development"
 type: source
 created: 2026-04-09
@@ -7,15 +6,18 @@ updated: 2026-04-09
 authors: [Joseph Rafter]
 journal: Nutrition Research Reviews
 year: 2004
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Nutrition Research Reviews 2004 -->
 tags: [colon-cancer, probiotics, prebiotics, synbiotics, lactic-acid-bacteria, Lactobacillus, Bifidobacterium, anti-cancer, fecal-enzymes, bile-acids, review, colorectal-cancer]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [5, 7]
 ---
 
 # Key Claims
 
 - There is no direct experimental evidence for cancer suppression in humans from probiotic consumption; evidence is largely indirect, from in vitro, animal, and limited epidemiological studies
-- [[probiotics]] may inhibit [[colon cancer]] through multiple mechanisms: binding/degrading carcinogens, reducing fecal enzymes (beta-glucuronidase, nitroreductase, azoreductase), modulating bile acid metabolism, enhancing immune function, and producing anti-mutagenic compounds
+- [[probiotics]] may inhibit [[colorectal-cancer]] through multiple mechanisms: binding/degrading carcinogens, reducing fecal enzymes (beta-glucuronidase, nitroreductase, azoreductase), modulating bile acid metabolism, enhancing immune function, and producing anti-mutagenic compounds
 - Synbiotics (pro + prebiotics combined) may be more effective than either alone, and have only recently come to prominence in cancer prevention research
 - Animal studies strongly demonstrate protective effects: oral administration of L. acidophilus reduced DMH-induced tumors, and BL inhibited AOM-induced colon carcinogenesis
 - Epidemiological evidence is mixed: some studies show inverse association between fermented dairy/yogurt consumption and CRC risk, but others do not
@@ -34,9 +36,9 @@ platform: wikibiome
 
 # Connections
 
-- Directly builds on [[Reddy 1998 - Prebiotics Probiotics Colon Cancer Prevention]] laboratory evidence
-- Butyrate/SCFA production mechanism connects to [[Cummings 1992 - Fecal Weight Colon Cancer Fiber]] fiber-fermentation pathway
-- Immune modulation by probiotics parallels [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] findings on microbiota-immune interactions
-- Fecal enzyme modulation relevant to [[bile acid]] metabolism discussed in [[Donovan 2017 - Mediterranean Diet CRC Prevention]] and [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
+- Directly builds on [[reddy-1998-prebiotics-probiotics-colon-cancer-prevention|Reddy 1998 - Prebiotics Probiotics Colon Cancer Prevention]] laboratory evidence
+- Butyrate/SCFA production mechanism connects to [[cummings-1992-fecal-weight-colon-cancer-fiber|Cummings 1992 - Fecal Weight Colon Cancer Fiber]] fiber-fermentation pathway
+- Immune modulation by probiotics parallels [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] findings on microbiota-immune interactions
+- Fecal enzyme modulation relevant to [[bile-acid-metabolism]] metabolism discussed in [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] and [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
 - The SYNCAN trial concept foreshadows modern synbiotic interventions in CRC prevention research
 - [[colorectal-cancer]]

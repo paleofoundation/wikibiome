@@ -1,5 +1,4 @@
 ---
-
 title: "Metallomic profile in non-cirrhotic hepatocellular carcinoma supports a phenomenon of metal metabolism adaptation in tumor cells"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2021
 doi: "10.1038/s41598-021-93369-4"
 tags: [metallomics, hepatocellular-carcinoma, liver-cancer, iron, copper, selenium, zinc, cadmium, arsenic, manganese, tissue-metallomics]
 platform: wikibiome
+metals_discussed: [arsenic, cadmium, copper, iron, manganese, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Peruvian cohort", "French cohort"]
 ---
 
 # Metallomic Profile in Non-Cirrhotic Hepatocellular Carcinoma

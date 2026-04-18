@@ -37,7 +37,7 @@ An essential trace element that is primarily **protective** in its biological ro
 
 ### Supplementation
 - 200 ug/day selenomethionine or selenite commonly used in clinical trials [[brock-2015-selenium-thyroid-autoimmunity]].
-- Combined selenomethionine + myoinositol reduced TSH and antithyroid antibodies at 6 and 12 months [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- Combined selenomethionine + myoinositol reduced TSH and antithyroid antibodies at 6 and 12 months [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 
 ### Other Sources
 - Tampons: Se detected in 98.3% of samples [[shearston-2024-tampons-metal-exposure]].
@@ -49,7 +49,7 @@ An essential trace element that is primarily **protective** in its biological ro
 | **GPX1-4** (Glutathione peroxidases) | Reduce H2O2 and lipid hydroperoxides | Cancer, neurodegeneration, CKD |
 | **GPX4** | Specifically prevents lipid peroxidation | [[ferroptosis]] -- loss of GPX4 is the key trigger |
 | **TXNRD1/2** (Thioredoxin reductases) | Maintain thioredoxin in reduced state | Redox signaling, cancer |
-| **DIO1/2/3** (Iodothyronine deiodinases) | Convert T4 to T3 (DIO1/2) or inactivate T3 (DIO3) | [[thyroid-hormone-metabolism]] |
+| **DIO1/2/3** (Iodothyronine deiodinases) | Convert T4 to T3 (DIO1/2) or inactivate T3 (DIO3) | [[gut-thyroid-axis|thyroid-hormone-metabolism]] |
 | **Selenoprotein P** | Se transport and delivery; antioxidant | Se status biomarker |
 
 ## Health Effects
@@ -64,7 +64,7 @@ The selenium-thyroid axis is among the most clinically actionable findings in th
 - **Pregnancy**: Selenomethionine 200 ug/day during pregnancy and postpartum decreased risk of permanent hypothyroidism and postpartum thyroiditis [[brock-2015-selenium-thyroid-autoimmunity]].
 - Se builds deiodinases (DIO1/2/3) essential for T4 to T3 conversion; Se is a component of GPx protecting thyrocytes from oxidative damage during thyroid hormone synthesis [[brylinski-2025-trace-elements-thyroid-diseases]].
 - Se deficiency is an independent risk factor for Graves' ophthalmopathy development [[brock-2015-selenium-thyroid-autoimmunity]].
-- Combined selenomethionine and myoinositol reduced TSH and antithyroid antibodies after 6 and 12 months [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- Combined selenomethionine and myoinositol reduced TSH and antithyroid antibodies after 6 and 12 months [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 
 ### Cancer
 Selenium depletion is one of the most consistent findings across cancer metallomic studies.
@@ -95,7 +95,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 1. **Antioxidant defense**: GPX enzymes reduce H2O2 and lipid hydroperoxides; TrxR enzymes maintain the thioredoxin system -- together they constitute the primary enzymatic antioxidant network.
 2. **Anti-ferroptotic activity**: GPX4 specifically prevents lipid peroxidation in membranes; its loss triggers ferroptotic cell death [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 3. **Thyroid hormone activation**: DIO1/2 convert inactive T4 to active T3; DIO3 inactivates T3 -- Se status directly controls thyroid hormone bioavailability [[brock-2015-selenium-thyroid-autoimmunity]].
-4. **Immunomodulation**: Se supplementation increases GPx3 and selenoprotein P1; decreases MDA (oxidative stress marker); modulates anti-TPO antibody production [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+4. **Immunomodulation**: Se supplementation increases GPx3 and selenoprotein P1; decreases MDA (oxidative stress marker); modulates anti-TPO antibody production [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 5. **Heavy metal detoxification**: Se-metal complexes (with Cd, Hg) are less toxic and more readily excreted than free metals.
 
 ## Interactions with Other Metals
@@ -112,7 +112,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 - **Plasma/serum Se**: Directly measurable; decreased in AMI (persistent at 6 months), prostate cancer, and other malignancies [[lim-2023-plasma-metallomics-ami]], [[saleh-2020-serum-trace-elements-prostate-cancer]]].
 - **Cu/Se ratio**: Elevated in AMI; tracks longitudinally; incorporated into a 10-feature random forest model achieving AUC 0.942 -- combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]].
 - **Selenoprotein P**: Se-transport protein; emerging as functional Se status marker (reflects Se available for selenoprotein synthesis rather than total Se).
-- **GPX3 activity**: Functional marker of Se-dependent antioxidant capacity [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- **GPX3 activity**: Functional marker of Se-dependent antioxidant capacity [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 - **Anti-TPO antibodies**: Response to Se supplementation serves as clinical endpoint in thyroid autoimmunity trials [[brock-2015-selenium-thyroid-autoimmunity]].
 
 ## Open Questions

@@ -1,5 +1,4 @@
 ---
-
 title: "Proinflammatory Mucosal-Associated Invariant CD8+ T Cells React to Gut Flora Yeasts and Infiltrate Multiple Sclerosis Brain"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 tags: [multiple-sclerosis, MAIT-cells, mycobiome, Candida-albicans, Saccharomyces-cerevisiae, IL-23, IL-17, GM-CSF, IFN-gamma, CCL20, blood-brain-barrier, brain-infiltration, CD161, twin-study]
 doi: "10.3389/fimmu.2022.890298"
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [candida-albicans, saccharomyces-cerevisiae]
 ---
 
 # Proinflammatory MAIT Cells React to Gut Flora Yeasts and Infiltrate MS Brain

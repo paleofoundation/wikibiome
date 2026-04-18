@@ -12,13 +12,15 @@ library_category: metals
 platform: gut
 condition: "Parkinson's disease"
 evidence_level: expert-opinion
+metals_discussed: [cadmium, iron, lead, manganese, nickel, zinc]
+karen_brain_primitives: [1, 8]
 ---
 
 # Cadmium Exposure and Gut Microbiome Disruption in Neurodegeneration
 
 ## Summary
 
-This study examines how cadmium exposure disrupts the gut [[microbiome]] and contributes to neurodegenerative processes relevant to [[parkinsons-disease]]. Cadmium is a toxic heavy metal with no biological function that accumulates in tissues and is associated with increased neurodegeneration risk.
+This study examines how cadmium exposure disrupts the gut [[gut-microbiome|microbiome]] and contributes to neurodegenerative processes relevant to [[parkinsons-disease]]. Cadmium is a toxic heavy metal with no biological function that accumulates in tissues and is associated with increased neurodegeneration risk.
 
 ## Key Findings
 

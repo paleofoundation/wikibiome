@@ -11,6 +11,8 @@ tags: [postpartum-depression, nutrition, psychoneuroimmunology, n-3-PUFA, vitami
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+metals_discussed: [copper, iron, magnesium, selenium, zinc]
+key_findings: ["Micronutrient deficiencies"]
 ---
 
 # Key Claims

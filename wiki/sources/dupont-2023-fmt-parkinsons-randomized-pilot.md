@@ -46,7 +46,7 @@ key_findings:
 
 ## Relevance to WikiBiome
 
-Informs [[fmt]], [[fecal-microbiota-transplantation]], [[parkinsons-disease]], [[constipation]], [[proteobacteria]], [[firmicutes]]. Supports the mechanism page that **reducing Proteobacteria burden** is feasible via ecosystem replacement.
+Informs [[fmt-intervention]], [[fmt-intervention]], [[parkinsons-disease]], [[ibs|constipation]], [[proteobacteria]], [[firmicutes]]. Supports the mechanism page that **reducing Proteobacteria burden** is feasible via ecosystem replacement.
 
 ## Relevance to Cureva
 

@@ -11,6 +11,10 @@ tags: [postpartum-depression, neuroinflammation, MDD, gut-brain-axis, microglia,
 library_category: review
 platform: cureva
 condition: "major depressive disorder"
+metals_discussed: [copper, iron, magnesium, zinc]
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [5]
+key_findings: ["Neuroinflammation", "P2X7R/NLRP3 signaling pathway", "Gut microbiota can initiate neuroinflammatory processes"]
 ---
 
 # Key Claims

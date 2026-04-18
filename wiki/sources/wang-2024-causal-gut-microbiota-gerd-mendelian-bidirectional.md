@@ -1,5 +1,4 @@
 ---
-
 title: "Causal relationship between gut microbiota and risk of gastroesophageal reflux disease: a genetic correlation and bidirectional Mendelian randomization study"
 type: source
 created: 2026-04-09
@@ -10,18 +9,19 @@ year: 2024
 doi: "10.3389/fimmu.2024.1327503"
 tags: [gerd, gastroesophageal-reflux, mendelian-randomization, gut-microbiota, causal-association, clostridiales, lachnospiraceae, methanobrevibacter, actinobacteria, mollicutes, anaerostipes, tenericutes, gwas, MiBioGen, dysbiosis]
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: ["Anaerostipes", "Methanobrevibacter"]
+evidence_level: randomized-controlled-trial
 ---
 
 # Causal relationship between gut microbiota and risk of gastroesophageal reflux disease: a genetic correlation and bidirectional Mendelian randomization study
 
 ## Key Claims
 
-- [[Mendelian randomization]] analysis established a genetic causal link between [[gut microbiota]] abundance changes and [[gerd]] risk using 78,707 GERD cases and 288,734 controls
-- Four taxa showed protective associations with GERD: Family *Clostridiales Vadin BB60 group* (OR 0.95, P=0.027), Genus *[[lachnospiraceae]] UCG004* (OR 0.91, P=0.026), Genus *[[methanobrevibacter]]* (OR 0.95, P=0.026), Phylum *[[Actinobacteria]]* (OR 0.93, P=0.019)
-- Three taxa showed increased GERD risk: Class *[[Mollicutes]]* (OR 1.09, P=0.037), Genus *[[anaerostipes]]* (OR 1.09, P=0.017), Phylum *[[Tenericutes]]* (OR 1.11, P=0.024)
+- [[mendelian-randomization]] analysis established a genetic causal link between [[gut-microbiome]] abundance changes and [[gerd]] risk using 78,707 GERD cases and 288,734 controls
+- Four taxa showed protective associations with GERD: Family *Clostridiales Vadin BB60 group* (OR 0.95, P=0.027), Genus *[[lachnospiraceae]] UCG004* (OR 0.91, P=0.026), Genus *[[methanobrevibacter]]* (OR 0.95, P=0.026), Phylum *[[actinobacteria]]* (OR 0.93, P=0.019)
+- Three taxa showed increased GERD risk: Class *[[mollicutes|Mollicutes]]* (OR 1.09, P=0.037), Genus *[[anaerostipes]]* (OR 1.09, P=0.017), Phylum *[[mollicutes|Tenericutes]]* (OR 1.11, P=0.024)
 - Reverse MR analysis showed GERD leads to [[dysbiosis]] in 13 distinct gut microbiota classes, including down-regulation of Family *Christensenellaceae* (OR 0.85, P=0.045) and Family *Rikenellaceae* (OR 0.88, P=0.012)
 - This is the first MR study to examine the pathogenic impact of gut microbiome on GERD, establishing bidirectional causation
 

@@ -11,6 +11,11 @@ tags: [postpartum-depression, perinatal-depression, gut-brain-axis, probiotics, 
 library_category: review
 platform: cureva
 condition: "perinatal depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, magnesium, zinc]
+taxa_discussed: [lactobacillus, prevotella]
+karen_brain_primitives: [5]
+key_findings: ["Perinatal depression (PND)", "Gut microbiota communicates with the brain", "Probiotics and FMT"]
 ---
 
 # Key Claims

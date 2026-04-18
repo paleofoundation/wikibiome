@@ -1,5 +1,4 @@
 ---
-
 title: "Protocol of a randomized, double-blind, placebo-controlled study of the effect of probiotics on the gut microbiome of patients with gastro-oesophageal reflux disease treated with rabeprazole"
 type: source
 created: 2026-04-09
@@ -10,18 +9,21 @@ year: 2022
 doi: "10.1186/s12876-022-02320-y"
 tags: [gerd, gastroesophageal-reflux, probiotics, rabeprazole, proton-pump-inhibitors, gut-microbiome, rct, lactobacillus-casei, bifidobacterium-lactis, lactobacillus-plantarum, dysbiosis, metagenomics, fecal-metabolomics, small-intestinal-bacterial-overgrowth]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, lachnospiraceae, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Protocol of a randomized, double-blind, placebo-controlled study of the effect of probiotics on the gut microbiome of patients with gastro-oesophageal reflux disease treated with rabeprazole
 
 ## Key Claims
 
-- Long-term PPI use causes [[gut microbiome]] disturbances including increased *Lactobacillales*, *Enterococcaceae*, *Streptococcaceae*, *Staphylococcaceae*, and decreased *Bifidobacteriaceae*, *Ruminococcaceae*, and *Lachnospiraceae*
-- [[Probiotics]] can reduce the frequency and severity of reflux, heartburn, and dyspepsia in adults with [[gerd]], and reduce gut microbial [[dysbiosis]] in children treated with PPIs
+- Long-term PPI use causes [[gut-microbiome]] disturbances including increased *Lactobacillales*, *Enterococcaceae*, *Streptococcaceae*, *Staphylococcaceae*, and decreased *Bifidobacteriaceae*, *Ruminococcaceae*, and *Lachnospiraceae*
+- [[probiotics]] can reduce the frequency and severity of reflux, heartburn, and dyspepsia in adults with [[gerd]], and reduce gut microbial [[dysbiosis]] in children treated with PPIs
 - This RCT protocol is the first trial to use intestinal flora metagenomics to analyze effects of probiotics on GERD patients receiving long-term PPI treatment
 - In children treated with PPIs combined with probiotics, only 6.2% developed gut dysbiosis versus 56.2% with placebo after 12 weeks
 - Five of eleven studies in a systematic review indicated probiotics are beneficial for reflux symptoms; three showed probiotics reduce reflux symptoms specifically
-- LiHuo probiotics (containing *[[Lactobacillus casei]]* Zhang, *[[Bifidobacterium lactis]]* V9, *[[Lactobacillus plantarum]]* P9) at 100 billion CFU/day combined with rabeprazole 10 mg twice daily
+- LiHuo probiotics (containing *[[lactobacillus|Lactobacillus casei]]* Zhang, *[[bifidobacterium|Bifidobacterium lactis]]* V9, *[[lactobacillus|Lactobacillus plantarum]]* P9) at 100 billion CFU/day combined with rabeprazole 10 mg twice daily
 
 ## Methods/Findings
 

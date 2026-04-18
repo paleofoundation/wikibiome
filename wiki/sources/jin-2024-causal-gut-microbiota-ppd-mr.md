@@ -11,6 +11,10 @@ tags: [postpartum-depression, mendelian-randomization, gut-microbiota, Veillonel
 library_category: causal-microbiome
 platform: cureva
 condition: "postpartum depression"
+evidence_level: case-control
+taxa_discussed: [alistipes, bifidobacterium, bilophila, clostridium, coprococcus, eubacterium, roseburia]
+karen_brain_primitives: [5]
+key_findings: ["12 bacterial taxa", "Protective taxa", "Risk-increasing taxa"]
 ---
 
 # Key Claims

@@ -19,7 +19,7 @@ library_category: diet
 platform: both
 condition: "postpartum depression"
 karen_brain_primitives: [2, 4, 5]
-metals_discussed: []
+metals_discussed: [iron, magnesium, zinc]
 taxa_discussed: []
 key_findings: [
   "Review examining links between micronutrient deficiencies and postpartum anxiety/depression outcomes",

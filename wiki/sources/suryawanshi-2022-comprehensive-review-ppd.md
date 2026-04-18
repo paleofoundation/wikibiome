@@ -11,6 +11,9 @@ tags: [postpartum-depression, methyldopa, SSRIs, antidepressants, risk-factors, 
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+evidence_level: expert-opinion
+metals_discussed: [iron, magnesium, zinc]
+key_findings: ["PPD affects 13-19% of females", "Pathophysiology"]
 ---
 
 # Key Claims

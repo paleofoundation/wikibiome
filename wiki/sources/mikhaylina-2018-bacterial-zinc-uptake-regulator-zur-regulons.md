@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, zinc, Zur, Fur-family, metallosensor, 
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "bacterial zinc sensing and regulation"
+metals_discussed: [cadmium, iron, manganese, nickel, zinc]
+taxa_discussed: [escherichia-coli, pseudomonas-aeruginosa, staphylococcus-aureus]
+karen_brain_primitives: [1, 3, 4]
 ---
 
 # Why This Paper Matters

@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Linda Darwiche, Carlos A Rodriguez-Bornot, Rebecca A Ingrassia, Max J Loccisano, Gray Waldschmidt, Jennifer L Goff, Jennifer B Glass]
 year: 2025
 journal: "Applied and Environmental Microbiology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally recorded as PMC12724342 (a PMC ID, not a DOI). Needs manual lookup from the source PDF or journal page. -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Applied and Environmental Microbiology 2025 -->
 pmcid: "PMC12724342"
 tags: [mismetallation, metal-homeostasis, nickel, copper, iron-sulfur-clusters, synergistic-toxicity, sulfur-metabolism, cysteine, histidine, escherichia-coli, environmental-contamination, metal-mixtures]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "synergistic metal toxicity through iron-sulfur cluster disruption"
+metals_discussed: [copper, iron, nickel]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
+key_findings: ["Ni and Cu are synergistically toxic", "70% of differentially expressed genes (360/512)", "Iron-sulfur cluster assembly (ISC) machinery"]
 ---
 
 # Why This Paper Matters
@@ -71,7 +75,7 @@ Keio collection deletion mutants tested by spot dilution assay:
 - [[nickel]] -- environmental co-contaminant; Ni2+ alone minimally toxic at 30 uM
 - [[copper]] -- Cu+ targets thiolate ligands in Fe-S clusters; Cu alone drives metabolomic changes
 - [[iron]] -- Fe displaced from Fe-S clusters by both Ni and Cu
-- [[sulfur-metabolism]] -- sulfur starvation response activated to supply cysteine for Fe-S cluster repair
+- [[fermentative-metabolism|sulfur-metabolism]] -- sulfur starvation response activated to supply cysteine for Fe-S cluster repair
 - [[metal-homeostasis]] -- emergent synergistic effects not predictable from single-metal studies
 - [[escherichia-coli]] -- model organism for metal mixture toxicity studies
 - [[histidine]] -- metal-chelating amino acid that rescues combined metal toxicity

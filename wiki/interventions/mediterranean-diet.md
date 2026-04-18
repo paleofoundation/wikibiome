@@ -3,10 +3,12 @@ title: "Mediterranean Diet"
 type: intervention
 created: 2026-04-09
 updated: 2026-04-09
+last_substantive_update: 2026-04-09
 sources: []
 tags: [dietary, anti-inflammatory, fiber, polyphenol, SCFA, microbiome-modulation, evidence-based]
 intervention_class: dietary
 cureva_status: partial
+karen_brain_primitives: [1, 4, 5]
 
 triangles:
   - condition: "[[pcos]]"
@@ -71,7 +73,7 @@ platform: cureva
 
 The **Mediterranean diet** emphasizes extra-virgin olive oil, vegetables, fruits, legumes, nuts, whole grains, fish, and moderate wine consumption, while limiting red meat, processed foods, and refined sugars. It is the most extensively studied dietary pattern in medicine, with evidence spanning cardiovascular disease, cancer, neurodegeneration, autoimmunity, and metabolic syndrome.
 
-> **Clinical disclaimer:** The Mediterranean diet is generally safe and broadly recommended. However, for patients with [[nickel]] sensitivity (8-19% of adults), the high legume, nut, and whole grain content creates a significant nickel load that may trigger [[SNAS]] or [[nickel-allergic-contact-mucositis]]. See the Nickel Paradox section below. Always screen for nickel sensitivity before prescribing a plant-forward Mediterranean diet for [[endometriosis]], [[IBS]], or [[celiac-disease]].
+> **Clinical disclaimer:** The Mediterranean diet is generally safe and broadly recommended. However, for patients with [[nickel]] sensitivity (8-19% of adults), the high legume, nut, and whole grain content creates a significant nickel load that may trigger [[nickel-allergy|SNAS]] or [[nickel-allergic-contact-mucositis]]. See the Nickel Paradox section below. Always screen for nickel sensitivity before prescribing a plant-forward Mediterranean diet for [[endometriosis]], [[ibs]], or [[celiac-disease]].
 
 ---
 
@@ -125,7 +127,7 @@ See [[low-nickel-diet]] for the full nickel restriction framework and [[dietary-
 
 ## Contraindications and Risks
 
-- **Nickel sensitivity**: Screen before prescribing, especially in [[endometriosis]], [[IBS]], [[celiac-disease]], and [[gerd]] patients. The nickel paradox makes the standard Mediterranean diet potentially harmful in these populations.
+- **Nickel sensitivity**: Screen before prescribing, especially in [[endometriosis]], [[ibs]], [[celiac-disease]], and [[gerd]] patients. The nickel paradox makes the standard Mediterranean diet potentially harmful in these populations.
 - **FODMAP sensitivity**: High legume and vegetable content may exacerbate IBS symptoms in FODMAP-sensitive individuals. Modified low-FODMAP Mediterranean diet variants exist.
 - **Alcohol**: Wine component is contraindicated in patients with liver disease, alcohol use disorder, or taking metronidazole/disulfiram.
 - **Nut allergies**: Obvious but must be screened for in the PREDIMED nut-supplementation arm.
@@ -134,9 +136,9 @@ See [[low-nickel-diet]] for the full nickel restriction framework and [[dietary-
 
 ## Connections
 
-**Entities:** [[nickel]], [[butyrate]], [[omega-3-fatty-acids]]
+**Entities:** [[nickel]], [[butyrate]], [[dietary-metal-microbiome-interactions|omega-3-fatty-acids]]
 
-**Concepts:** [[SCFA-production]], [[nutritional-immunity]], [[gut-brain-axis]], [[dietary-metal-paradoxes]]
+**Concepts:** [[short-chain-fatty-acids]], [[nutritional-immunity]], [[gut-brain-axis]], [[dietary-metal-paradoxes]]
 
 **Related interventions:** [[low-nickel-diet]] (paradox resolution), [[ketogenic-diet]] (alternative anti-inflammatory diet), [[probiotics-general]] (synergistic microbiome modulation)
 

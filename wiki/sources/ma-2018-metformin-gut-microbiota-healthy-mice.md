@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, metformin, gut-microbiome, Verrucomicrobiaceae,
 library_category: microbiome
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, lachnospiraceae]
+key_findings: ["Metformin treatment for 30 days", "Verrucomicrobiaceae and Prevotellaceae", "Lachnospiraceae and Rhodobacteraceae"]
 ---
 
 # Key Claims

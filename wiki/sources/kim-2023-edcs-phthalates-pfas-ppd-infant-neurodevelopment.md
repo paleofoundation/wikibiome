@@ -11,6 +11,8 @@ tags: [postpartum-depression, endocrine-disrupting-chemicals, phthalates, PFAS, 
 library_category: environmental
 platform: cureva
 condition: "postpartum depression"
+metals_discussed: [copper, iron, zinc]
+key_findings: ["EDC concentrations in breast milk", "Phthalate levels", "PFAS levels"]
 ---
 
 # Key Claims

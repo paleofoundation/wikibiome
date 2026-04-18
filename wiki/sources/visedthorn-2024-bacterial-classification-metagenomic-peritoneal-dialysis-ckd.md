@@ -9,6 +9,7 @@ journal: "Biomedical Reports"
 doi: "10.3892/br.2024.1790"
 tags: [chronic-kidney-disease, CKD, metagenomic, peritoneal-dialysis, peritonitis, Escherichia-coli, Streptococcus-gallolyticus, nanopore]
 platform: wikibiome
+taxa_discussed: [escherichia-coli, streptococcus]
 ---
 
 # Bacterial Classification in PD Effluent of CKD Patients

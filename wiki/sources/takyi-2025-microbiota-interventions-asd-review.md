@@ -11,6 +11,10 @@ tags: [autism, microbiota, interventions, fmt, probiotics, prebiotics, diet]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [cadmium, lead, mercury, nickel, zinc]
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Multiple microbiota-targeting interventions", "Modulation toward neurotypical microbiota", "Long-term benefits"]
 ---
 
 # Key Claims

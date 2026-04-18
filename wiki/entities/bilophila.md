@@ -19,7 +19,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bilophila
 
-*Bilophila wadsworthia* is a Gram-negative, obligate anaerobic, sulfite-reducing bacterium that has emerged as a key pathobiont linking **high-fat diets, taurine metabolism, hydrogen sulfide production**, and inflammatory disease. Its unique metabolic niche -- using taurine-conjugated bile acids as an electron acceptor -- positions it at the intersection of dietary fat intake, [[bile-acids]], and gut inflammation.
+*Bilophila wadsworthia* is a Gram-negative, obligate anaerobic, sulfite-reducing bacterium that has emerged as a key pathobiont linking **high-fat diets, taurine metabolism, hydrogen sulfide production**, and inflammatory disease. Its unique metabolic niche -- using taurine-conjugated bile acids as an electron acceptor -- positions it at the intersection of dietary fat intake, [[bile-acid-metabolism]], and gut inflammation.
 
 ## Metabolic Specialization
 

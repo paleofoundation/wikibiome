@@ -11,6 +11,11 @@ tags: [autism, adhd, psychobiotics, fmt, microbiota-gut-brain, dysbiosis, neurod
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [cadmium, lead, nickel]
+taxa_discussed: [bifidobacterium, eubacterium, faecalibacterium-prausnitzii, lactobacillus, roseburia]
+karen_brain_primitives: [1, 2, 4, 5]
+key_findings: ["Dysbiosis as developmental origin", "Psychobiotics", "FMT proven effective"]
 ---
 
 # Key Claims
@@ -54,7 +59,7 @@ This review focuses on psychobiotic mechanism but lacks metal perspective—crit
 
 - **Primitive 2 (Nutritional Immunity)**: Dysbiosis reflects **failed antimicrobial defense against metal-dependent pathogens**. Psychobiotics work by restoring metal-sequestering capacity (lactoferrin production, calprotectin elevation)
 - **Primitive 4 (Microbial Metal Dependencies)**: Dysbiotic taxa enrichment in ASD/ADHD may select for metal-dependent pathogens. Psychobiotics preferentially survive in **metal-restricted environments** (low [[nickel]], [[cadmium]], [[lead]])
-- **Butyrate production tie to metals**: [[Faecalibacterium-prausnitzii]] requires specific metal cofactors for butyrate synthase—dysbiosis = loss of this taxa = loss of epigenetic remodeling capacity. FMT restores it
+- **Butyrate production tie to metals**: [[faecalibacterium-prausnitzii]] requires specific metal cofactors for butyrate synthase—dysbiosis = loss of this taxa = loss of epigenetic remodeling capacity. FMT restores it
 - **GABA production requires B6 (pyridoxal)**: GABA-producing psychobiotics depend on B6 bioavailability—dysbiotic microbiota may fail to produce/absorb B6, creating vicious cycle
 - **Oral dysbiosis to GI dysbiosis progression**: Dysbiotic oral flora (metal-selected) seed dysbiotic gut flora → loss of psychobiotic potential
 

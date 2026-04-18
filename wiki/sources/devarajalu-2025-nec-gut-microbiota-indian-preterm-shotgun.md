@@ -41,7 +41,7 @@ key_findings:
 - Reinforces [[klebsiella-pneumoniae]] and [[escherichia-coli]] entity pages as NEC-enriched pathogens with iron-acquisition virulence.
 - Supports [[necrotizing-enterocolitis]] disease entity page: LPS and iron transporters are cross-population functional features of NEC dysbiosis.
 - Strengthens [[siderophores]] / iron ecology concept page — iron transport pathway enrichment is NEC-discriminatory in a new geographic cohort.
-- Adds T4SS and quorum sensing as NEC-associated virulence architecture for the [[virulence-enzymes]] concept layer.
+- Adds T4SS and quorum sensing as NEC-associated virulence architecture for the [[virulence-factors|virulence-enzymes]] concept layer.
 
 ## Relevance to Cureva
 

@@ -42,6 +42,10 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: "Defines infection metallomics as a diagnostic platform: microbial metallophores (siderophores and Cu/Zn/Ni/Co-chelators) detected by mass spectrometry can distinguish invasive infection from colonization. Underpins WikiBiome's framing of pathogen virulence as a metal-acquisition phenomenon and establishes metallophores as signature biomarkers across sepsis, pneumonia, UTI, and CNS infection."
+evidence_level: in-vitro
+metals_discussed: [cobalt, copper, iron, nickel, zinc]
+taxa_discussed: [aspergillus, citrobacter, escherichia-coli, klebsiella-pneumoniae]
+karen_brain_primitives: [1, 2, 4, 8]
 ---
 
 # Key Claims
@@ -86,10 +90,10 @@ This review establishes a paradigm-shifting diagnostic approach -- infection met
 - [[antimicrobial-resistance]] -- metallophore detection can guide targeted antimicrobial therapy, reducing empiric broad-spectrum use
 - [[biofilm]] -- siderophore production enhanced in biofilm-forming pathogens; iron availability modulates biofilm formation
 - [[gut-metal-microbiome]] -- the "frenemy" concept illustrates how metal metabolism governs host-microbe dynamics
-- [[COVID-19]] -- post-COVID superinfections detectable by metallophore monitoring; viral metal metabolism exploitation
+- [[long-covid|COVID-19]] -- post-COVID superinfections detectable by metallophore monitoring; viral metal metabolism exploitation
 - [[aspergillus]] -- TAFC as urinary biomarker for invasive aspergillosis; detectable within hours of infection onset
 - [[virulence-factors]] -- metallophores as secreted virulence factors essential for pathogen survival in host
 - [[nutritional-immunity]] -- host metal sequestration as innate immune defense; pathogens overcome this via metallophores
-- [[mass-spectrometry]] -- LC-ESI-MS, FTICR-MS, ICP-MS with isotope data filtering as the analytical foundation
-- [[metal-chelation]] -- metallophore structures suggest therapeutic chelation strategies to deprive pathogens of essential metals
+- [[shotgun-metagenomics|mass-spectrometry]] -- LC-ESI-MS, FTICR-MS, ICP-MS with isotope data filtering as the analytical foundation
+- [[metal-chelation-therapy|metal-chelation]] -- metallophore structures suggest therapeutic chelation strategies to deprive pathogens of essential metals
 - [[benoit-2021-nickel-chelator-dmg-amyloid-beta]] -- complementary application of metal chelation in neurodegeneration context

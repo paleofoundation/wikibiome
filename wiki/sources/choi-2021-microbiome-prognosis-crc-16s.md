@@ -1,5 +1,4 @@
 ---
-
 title: "Analysis of Changes in Microbiome Compositions Related to the Prognosis of Colorectal Cancer Patients Based on Tissue-Derived 16S rRNA Sequences"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2021
 tags: [colon-cancer, 16S-rRNA, Fusobacterium-nucleatum, Bacteroides-fragilis, prognosis, tumor-microbiome, immune-cells, colorectal-cancer, recurrence, host-gene-expression]
 doi: "10.1186/s12967-021-03154-0"
 platform: wikibiome
+evidence_level: retrospective-cohort
+taxa_discussed: [bacteroides-fragilis, campylobacter-jejuni, fusobacterium-nucleatum, treponema]
 ---
 
 # Analysis of Changes in Microbiome Compositions Related to the Prognosis of Colorectal Cancer Patients Based on Tissue-Derived 16S rRNA Sequences

@@ -11,6 +11,10 @@ tags: [parkinsons-disease, gut-brain-axis, dietary-interventions, Mediterranean-
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron]
+taxa_discussed: [akkermansia-muciniphila, faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 2, 5, 8]
 ---
 
 # Microbiome-Gut-Brain Axis and Dietary Interventions in Parkinson's Disease

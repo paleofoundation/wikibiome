@@ -11,6 +11,8 @@ tags: [schizophrenia, aggression, gut-microbiota, short-chain-fatty-acids, neuro
 library_category: SCFAs
 platform: gut
 condition: "Schizophrenia with aggression"
+evidence_level: cross-sectional
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, collinsella, faecalibacterium-prausnitzii, prevotella]
 ---
 
 # Altered gut microbiota and its metabolites correlate with plasma cytokines in schizophrenia inpatients with aggression

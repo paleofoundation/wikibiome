@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiome Associates With Lipid-Lowering Effect of Rosuvastatin in Vivo"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2018
 doi: 10.3389/fmicb.2018.00530
 tags: [cardiovascular-disease, statins, rosuvastatin, hyperlipidemia, gut-microbiome, 16S-rRNA, lipid-lowering, Bacteroidetes, Firmicutes]
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, dialister, faecalibacterium-prausnitzii, lachnospiraceae]
 ---
 
 # Gut Microbiome Associates With Lipid-Lowering Effect of Rosuvastatin in Vivo
@@ -45,6 +45,6 @@ Clinical trial examining the lipid-lowering effect of rosuvastatin (10 mg/day, 4
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Statin-microbiome interaction** - Demonstrates that [[statins]] efficacy correlates with gut microbiome composition, suggesting microbiome-based prediction of treatment response
-2. **Personalized medicine** - Gut microbiome profiling could guide [[statin]] therapy optimization in [[cardiovascular-disease]] patients
+1. **Statin-microbiome interaction** - Demonstrates that [[pharmacomicrobiomics|statins]] efficacy correlates with gut microbiome composition, suggesting microbiome-based prediction of treatment response
+2. **Personalized medicine** - Gut microbiome profiling could guide [[pharmacomicrobiomics|statin]] therapy optimization in [[cardiovascular-disease]] patients
 3. **Lipid-microbiome axis** - Specific taxa correlate with lipid parameters, opening avenues for microbiome-targeted lipid management

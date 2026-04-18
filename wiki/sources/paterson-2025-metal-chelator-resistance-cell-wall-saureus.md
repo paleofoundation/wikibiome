@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Joy R Paterson, Joshua M Wadsworth, Rebecca J Lee, Ping Hu, Jacob Biboy, Daniela Vollmer, Waldemar Vollmer, Jon Marles-Wright, Jana N Radin, Thomas E Kehl-Fie, Mary T Moran, Gary J Sharples]
 year: 2025
 journal: "npj Antimicrobials and Resistance"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12229560) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: npj Antimicrobials and Resistance 2025 -->
 pmcid: "PMC12229560"
 tags: [mismetallation, metal-homeostasis, manganese, zinc, iron, calcium, cell-wall, peptidoglycan, teichoic-acid, chelator-resistance, staphylococcus-aureus, EDTA, DTPMP, calprotectin, nutritional-immunity, PBP2]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "cell wall modification as bacterial defense against metal restriction"
+metals_discussed: [calcium, iron, manganese, zinc]
+taxa_discussed: [staphylococcus-aureus]
+karen_brain_primitives: [2, 3, 5]
+key_findings: ["Metal chelators primarily deplete manganese"]
 ---
 
 # Why This Paper Matters
@@ -69,6 +73,6 @@ All five chelator-resistant strains carry PBP2 mutations (A146V, S147L, Q232H, o
 - [[staphylococcus-aureus]] -- cell wall as underappreciated component of metal homeostasis
 - [[zinc]] -- less affected by chelator treatment than manganese
 - [[iron]] -- modestly depleted by chelators
-- [[cell-wall]] -- peptidoglycan and teichoic acids as divalent cation reservoirs
+- [[pathogen-metal-acquisition|cell-wall]] -- peptidoglycan and teichoic acids as divalent cation reservoirs
 - [[antimicrobial-metals]] -- metal chelation as antimicrobial strategy; resistance mechanisms
 - [[biofilm]] -- cell wall modifications may affect biofilm formation and antibiotic access

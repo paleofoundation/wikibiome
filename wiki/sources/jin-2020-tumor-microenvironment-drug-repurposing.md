@@ -9,6 +9,8 @@ year: 2020
 doi: "10.1038/s41392-020-00280-x"
 tags: [ovarian-cancer, tumor-microenvironment, drug-repurposing, hypoxia, immune-microenvironment, metformin, statins, aspirin, celecoxib]
 platform: wikibiome
+metals_discussed: [iron]
+karen_brain_primitives: [9]
 ---
 
 # The Updated Landscape of Tumor Microenvironment and Drug Repurposing

@@ -25,7 +25,7 @@ key_findings:
 # Key Findings
 
 - **288 differential metabolites identified** in GERD children compared to controls, with arachidonic acid metabolism as the top dysregulated pathway [[ye-2023-gut-microbiota-children-gerd-metagenomics-metabolomics|cross-sectional, n=60]]
-- **Proteobacteria and Bacteroidota enriched** — [[escherichia-coli]], [[klebsiella]], [[haemophilus]], [[bacteroides]], and [[prevotella]] were significantly increased in GERD pediatric gut
+- **Proteobacteria and Bacteroidota enriched** — [[escherichia-coli]], [[klebsiella-pneumoniae]], [[haemophilus]], [[bacteroides]], and [[prevotella]] were significantly increased in GERD pediatric gut
 - **Key commensals depleted** — [[bifidobacterium]], [[faecalibacterium-prausnitzii]], and [[blautia]] (all SCFA producers) were significantly reduced
 - **Alpha diversity significantly reduced** — both Shannon and Simpson indices were lower in GERD children, indicating a less complex and resilient gut ecosystem
 - **Glutathione metabolism disrupted** — connects to heavy metal detoxification pathways
@@ -33,7 +33,7 @@ key_findings:
 # Relevance to WikiBiome
 
 - Provides pediatric-specific GERD signature data — most GERD microbiome studies focus on adults
-- Enrichment of Proteobacteria (especially [[escherichia-coli]] and [[klebsiella]]) parallels patterns seen in IBD and other inflammatory GI conditions — strengthens cross-condition association data
+- Enrichment of Proteobacteria (especially [[escherichia-coli]] and [[klebsiella-pneumoniae]]) parallels patterns seen in IBD and other inflammatory GI conditions — strengthens cross-condition association data
 - Depletion of [[bifidobacterium]] and [[faecalibacterium-prausnitzii]] is consistent with loss of anti-inflammatory SCFA production
 - Arachidonic acid pathway dysregulation connects to pro-inflammatory lipid mediator production
 - Multi-omics approach (metagenomics + metabolomics) provides model for understanding GERD pathogenesis

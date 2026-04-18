@@ -111,7 +111,7 @@ Gingipains perform multiple virulence roles:
 - Mechanical plaque removal disrupts biofilm architecture, eliminating the polymicrobial community structure that sustains *P. gingivalis*.
 - Chlorhexidine and other antimicrobials reduce *P. gingivalis* load but may select for resistant strains, illustrating the limitation of direct-kill approaches.
 - **Zinc sequestration**: Enhancing nutritional immunity mechanisms that restrict zinc in the periodontal pocket suppresses gingipain production by limiting cofactor availability — the organism's primary virulence dependency.
-- **Iron/heme competition**: [[Lactoferrin]] competes with *P. gingivalis* heme acquisition systems, reducing the iron pool that drives pathogen competitiveness in the blood-filled pocket.
+- **Iron/heme competition**: [[lactoferrin]] competes with *P. gingivalis* heme acquisition systems, reducing the iron pool that drives pathogen competitiveness in the blood-filled pocket.
 
 ## Connections
 

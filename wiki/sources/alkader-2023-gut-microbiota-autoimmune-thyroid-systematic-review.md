@@ -24,11 +24,11 @@ karen_brain_primitives: [1, 2]
 
 ## Key Claims
 
-- Both [[graves-disease]] and [[Hashimoto's thyroiditis]] patients show significant changes in [[gut microbiome]] diversity and composition compared to healthy controls
+- Both [[graves-disease]] and [[hashimotos-thyroiditis]] patients show significant changes in [[gut-microbiome]] diversity and composition compared to healthy controls
 - In HT patients, the ACE and Chao1 richness indices had substantially higher mean values compared to healthy controls (p-values of 0.0059 and 0.08, respectively), suggesting increased bacterial richness
-- The HT group showed greater relative abundance of [[Bacteroidetes]] and [[Actinobacteria]] at the phylum level, and [[prevotella]] and [[bifidobacterium]] at the genus level
+- The HT group showed greater relative abundance of [[bacteroidetes]] and [[actinobacteria]] at the phylum level, and [[prevotella]] and [[bifidobacterium]] at the genus level
 - The Simpson index was the only diversity measure considerably lower in GD patients compared to healthy participants
-- The strongest positive and negative correlations were found between [[thyroid peroxidase]] antibodies and bacterial load
+- The strongest positive and negative correlations were found between [[thyroid-autoimmunity|thyroid peroxidase]] antibodies and bacterial load
 - Hypothyroid individuals may have prolonged gastrointestinal transit times due to intestinal dysmotility, making them more susceptible to bacterial overgrowth
 
 ## Methods/Findings

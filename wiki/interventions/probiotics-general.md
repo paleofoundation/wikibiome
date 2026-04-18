@@ -3,10 +3,12 @@ title: "Probiotics (General)"
 type: intervention
 created: 2026-04-09
 updated: 2026-04-09
+last_substantive_update: 2026-04-09
 sources: []
 tags: [probiotic, strain-specific, gut-microbiome, immunomodulation, evidence-based]
 intervention_class: probiotic
 cureva_status: partial
+karen_brain_primitives: [5, 8]
 
 triangles:
   - condition: "[[ulcerative-colitis]]"

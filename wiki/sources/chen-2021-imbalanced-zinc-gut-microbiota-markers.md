@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, zinc, gut-microbiota, dysbiosis, SCFA,
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "dietary zinc and gut microbiome"
+evidence_level: animal-model
+metals_discussed: [iron, zinc]
+taxa_discussed: [akkermansia-muciniphila, alistipes, bacteroides-fragilis, blautia, desulfovibrio, helicobacter-pylori, lactobacillus, parabacteroides]
+karen_brain_primitives: [1, 3, 5]
 ---
 
 # Why This Paper Matters

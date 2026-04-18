@@ -9,6 +9,7 @@ year: 2022
 doi: "10.3389/fphys.2022.1000144"
 tags: [ovarian-cancer, metformin, gut-microbiome, PCOS, broiler-hens, Ruminococcus, Clostridia, dose-dependent, 16S-rRNA]
 platform: wikibiome
+taxa_discussed: [ruminococcus]
 ---
 
 # Metformin Modulates Gut Microbiome in Broiler Breeder Hens

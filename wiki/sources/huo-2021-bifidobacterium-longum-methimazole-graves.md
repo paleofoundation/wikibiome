@@ -1,5 +1,4 @@
 ---
-
 title: "Probiotic Bifidobacterium longum Supplied with Methimazole Improved the Thyroid Function of Graves' Disease Patients Through the Gut-Thyroid Axis"
 type: source
 created: 2026-04-09
@@ -10,18 +9,20 @@ year: 2021
 doi: "10.1038/s42003-021-02587-z"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, probiotics, Bifidobacterium-longum, methimazole, shotgun-metagenomics, TRAb, gut-brain-axis, SCFAs, trace-elements]
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, clostridium, faecalibacterium-prausnitzii, haemophilus, klebsiella-pneumoniae, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # Probiotic Bifidobacterium longum Supplied with Methimazole Improved the Thyroid Function of Graves' Disease Patients Through the Gut-Thyroid Axis
 
 ## Key Claims
 
-- Probiotic [[Bifidobacterium longum]] supplied with [[methimazole]] (MI) significantly improved thyroid function and reduced TRAb concentration to healthy control levels in [[graves-disease]] patients over 6 months
+- Probiotic [[bifidobacterium|Bifidobacterium longum]] supplied with [[thyroid-autoimmunity|methimazole]] (MI) significantly improved thyroid function and reduced TRAb concentration to healthy control levels in [[graves-disease]] patients over 6 months
 - MI intake dramatically altered the intestinal microbiota in ecological and evolutionary aspects, with a sharp decline in Shannon and Simpson indices
-- Specifically, [[faecalibacterium-prausnitzii]], [[Ligilactobacillus salivarius]], [[Lactococcus lactis]], and [[prevotella]] significantly decreased with methimazole treatment
+- Specifically, [[faecalibacterium-prausnitzii]], [[lactobacillus|Ligilactobacillus salivarius]], [[lactobacillus|Lactococcus lactis]], and [[prevotella]] significantly decreased with methimazole treatment
 - Black bean adjuvant methimazole intake maintained intestinal microbiome homeostasis for 3 months, buffering the drastic shock of methimazole
-- The consumed probiotic regulated intestinal microbiota and metabolites, impacting neurotransmitter and blood trace elements through the [[gut-brain axis]] and [[gut-thyroid axis]]
-- [[Bifidobacterium adolescentis]], [[B. angulatum]], [[B. breve]], [[B. longum]], and [[faecalibacterium-prausnitzii]] increased significantly in the probiotic group; [[Blautia hansenii]], [[Clostridium estertheticum]], [[Haemophilus parainfluenzae]], and [[klebsiella-pneumoniae]] decreased
+- The consumed probiotic regulated intestinal microbiota and metabolites, impacting neurotransmitter and blood trace elements through the [[gut-brain-axis]] and [[gut-thyroid-axis|gut-thyroid axis]]
+- [[bifidobacterium|Bifidobacterium adolescentis]], [[B. angulatum]], [[B. breve]], [[B. longum]], and [[faecalibacterium-prausnitzii]] increased significantly in the probiotic group; [[Blautia hansenii]], [[Clostridium estertheticum]], [[haemophilus|Haemophilus parainfluenzae]], and [[klebsiella-pneumoniae]] decreased
 
 ## Methods/Findings
 

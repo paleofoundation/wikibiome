@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Junichi Yatabe, Midori Sasaki Yatabe, Katsuyuki Ishibashi, Yoshihiro Nozawa, Hironobu Sanada]
 journal: Diagnostic Pathology
 year: 2013
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Diagnostic Pathology 2013 -->
 tags: [colon-cancer, amino-acids, biomarkers, AminoIndex, early-detection, screening, colorectal-cancer, metabolomics]
 platform: wikibiome
 evidence_level: case-report
@@ -15,7 +15,7 @@ evidence_level: case-report
 
 # Key Claims
 
-- AminoIndex Cancer Screening (AICS) uses multiple plasma [[amino acid]] concentrations to calculate cancer risk scores and may detect early-stage [[colon cancer]] with high sensitivity
+- AminoIndex Cancer Screening (AICS) uses multiple plasma [[tryptophan|amino acid]] concentrations to calculate cancer risk scores and may detect early-stage [[colorectal-cancer]] with high sensitivity
 - For AICS Rank C (colorectal cancer), sensitivities are 55% for Stage 0 (carcinoma in situ), 30% for Stage I, 43% for Stage II, 42% for Stage III, and 62% for Stage IV
 - AICS has a specificity of 95% and sensitivity of 41% for colorectal cancer, with an estimated positive predictive value of 0.67%
 - This is the first reported case in which a curable cancer was detected using AICS: a 62-year-old Japanese man with ascending colon carcinoma in situ
@@ -34,8 +34,8 @@ evidence_level: case-report
 
 # Connections
 
-- Amino acid profiling as a biomarker approach complements [[Leichtle 2012 - Serum Amino Acid Profiles CRC]] which identifies specific amino acid alterations in CRC serum
-- Isoleucine elevation in CRC patients connects to [[Lieu 2020 - Amino Acids in Cancer]] discussion of branched-chain amino acids as alternative fuels for cancer cells
-- Non-invasive screening approaches relevant to [[gut microbiota]] metabolomics research in CRC detection
+- Amino acid profiling as a biomarker approach complements [[leichtle-2012-serum-amino-acid-profiles-crc|Leichtle 2012 - Serum Amino Acid Profiles CRC]] which identifies specific amino acid alterations in CRC serum
+- Isoleucine elevation in CRC patients connects to [[lieu-2020-amino-acids-cancer|Lieu 2020 - Amino Acids in Cancer]] discussion of branched-chain amino acids as alternative fuels for cancer cells
+- Non-invasive screening approaches relevant to [[gut-microbiome]] metabolomics research in CRC detection
 - The metabolomics approach links to broader [[biomarkers]] research across the colon cancer microbiome field
 - [[colorectal-cancer]]

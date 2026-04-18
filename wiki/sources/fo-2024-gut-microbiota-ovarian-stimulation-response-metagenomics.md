@@ -9,6 +9,8 @@ year: 2024
 doi: "10.1038/s41598-024-65869-6"
 tags: [ovarian-cancer, gut-microbiome, ovarian-stimulation, IVF, Bifidobacterium-longum, metagenomics, follicle-to-oocyte-index, fertility]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bifidobacterium]
 ---
 
 # Gut Microbiota and Ovarian Response to Controlled Ovarian Stimulation

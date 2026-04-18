@@ -11,6 +11,8 @@ tags: [parkinsons-disease, hormonal-therapy, estrogen, neuroprotection, sex-diff
 library_category: interventions
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 7]
 ---
 
 # Potential Therapeutic Approaches of Female Hormones in the Brain
@@ -30,7 +32,7 @@ This review examines the neuroprotective potential of female hormones (particula
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Estrogen's neuroprotective effects in [[parkinsons-disease]] operate through the metallomic-microbiome axis at multiple levels. Estrogen directly regulates [[iron]] homeostasis (suppresses hepcidin, promotes ferroportin-mediated iron export, reducing intracellular iron trapping). Estrogen modulates the gut [[microbiome]] via bile acid metabolism and intestinal immune regulation. Estrogen's anti-inflammatory effects reduce the microbiome-driven [[neuroinflammation]] that promotes brain iron accumulation. The loss of estrogen at menopause may partially explain why PD risk increases in post-menopausal women, as the metallomic-microbiome protective mechanisms weaken.
+Estrogen's neuroprotective effects in [[parkinsons-disease]] operate through the metallomic-microbiome axis at multiple levels. Estrogen directly regulates [[iron]] homeostasis (suppresses hepcidin, promotes ferroportin-mediated iron export, reducing intracellular iron trapping). Estrogen modulates the gut [[gut-microbiome|microbiome]] via bile acid metabolism and intestinal immune regulation. Estrogen's anti-inflammatory effects reduce the microbiome-driven [[neuroinflammation]] that promotes brain iron accumulation. The loss of estrogen at menopause may partially explain why PD risk increases in post-menopausal women, as the metallomic-microbiome protective mechanisms weaken.
 
 ## Limitations
 

@@ -5,6 +5,7 @@ type: entity
 subtype: archaea
 created: 2026-04-10
 updated: 2026-04-10
+last_substantive_update: 2026-04-10
 sources: [abdel-azim-2018-heavy-metals-vfas-methanococcus, jangi-2016-gut-microbiome-alterations-ms, thirion-2023-gut-microbiota-ms-disease-activity, bronzini-2023-feeding-gut-microbiome-ms, mirza-2024-mediterranean-diet-pediatric-ms-microbiota, rashed-2022-manipulation-gut-microbiota-crohns, krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model]
 tags: [methanogen, hydrogen-consumer, nickel-dependent, obesity, constipation, ibs, gut-commensal, archaea]
 oxygen_requirement: "anaerobic"

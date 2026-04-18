@@ -28,11 +28,14 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "PRISMA systematic review showing that toxic metals (Hg, Cd, Pb) and zinc deficiency produce **overlapping gut pathologies**—barrier dysfunction, permeability, inflammation, dysbiosis—establishing a unifying mechanism: metals reduce zinc bioavailability through protein-binding competition, mimicking zinc deficiency. WikiBiome depends on this evidence to connect metal dysregulation to zinc depletion across multiple conditions and to explain why metal burden and zinc loss appear as paired signatures in disease."
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, lead, mercury, nickel, zinc]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Key Claims
 
-- Heavy metal exposure (Hg, Cd, Pb) and [[zinc deficiency]] produce **overlapping gut pathologies**: intestinal barrier dysfunction, increased intestinal permeability, gut inflammation, structural intestinal damage, and microbiota dysbiosis
+- Heavy metal exposure (Hg, Cd, Pb) and [[metal-homeostasis|zinc deficiency]] produce **overlapping gut pathologies**: intestinal barrier dysfunction, increased intestinal permeability, gut inflammation, structural intestinal damage, and microbiota dysbiosis
 - Toxic metals may reduce [[zinc]] bioavailability by competing with it for protein binding sites, effectively mimicking zinc deficiency -- this is proposed as a **unifying mechanism** linking toxic metal exposure and zinc deficiency to gut pathology in ASD
 - **30-70% of children with ASD** suffer from some form of GI disturbance, far exceeding rates in the general pediatric population
 - GI symptoms correlate with ASD severity, with patients exhibiting more severe behavioral symptoms tending to report more significant GI discomfort

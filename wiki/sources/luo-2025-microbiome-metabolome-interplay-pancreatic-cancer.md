@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiome-metabolome interplay in pancreatic cancer progression: insights from multi-omics analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2025
 tags: [pancreatic-cancer, intratumoral-microbiome, metabolomics, Pseudomonas, amino-acids, metabolic-pathways, microbial-metabolites, arginine-metabolism, multi-omics, 16S-rRNA]
 doi: "10.1186/s12943-025-02458-9"
 platform: wikibiome
+taxa_discussed: [acinetobacter, pseudomonas-aeruginosa]
 ---
 
 # Key Claims
@@ -30,7 +30,7 @@ platform: wikibiome
 
 # Connections
 
-- *Pseudomonas* dominance in tumor tissues parallels [[microbiome signature]] findings from basal-like PDAC subtypes
-- Amino acid [[metabolic pathways]] disruption connects to [[microbial metabolites]] and [[microbiome-derived metabolites]] research
-- Arginine metabolism alteration links to [[amino acids]] and immune modulation in the tumor microenvironment
-- Multi-omics approach provides framework for understanding [[functional microbiome shifts]] in pancreatic cancer
+- *Pseudomonas* dominance in tumor tissues parallels [[microbial-biomarkers|microbiome signature]] findings from basal-like PDAC subtypes
+- Amino acid [[fermentative-metabolism|metabolic pathways]] disruption connects to [[short-chain-fatty-acids|microbial metabolites]] and [[microbiome-derived-metabolites]] research
+- Arginine metabolism alteration links to [[tryptophan|amino acids]] and immune modulation in the tumor microenvironment
+- Multi-omics approach provides framework for understanding [[dysbiosis|functional microbiome shifts]] in pancreatic cancer

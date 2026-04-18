@@ -11,6 +11,8 @@ tags: [parkinsons-disease, current-perspectives, microbiome-review, gut-brain-ax
 library_category: associated-conditions
 platform: both
 condition: "Parkinson's disease"
+evidence_level: case-control
+karen_brain_primitives: [4, 5, 8]
 ---
 
 # Current Perspectives on the Parkinson's Disease Microbiome
@@ -30,7 +32,7 @@ This review presents current perspectives on the [[gut-microbiome]] in [[parkins
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The maturation of PD [[microbiome]] research (from case-control taxonomy to functional metagenomics to clinical trials) creates an opportunity to integrate the metallomic dimension. The functional pathway changes identified by metagenomics overlap extensively with metal-dependent pathways: siderophore biosynthesis, metal transport, metalloenzyme expression. Current therapeutic strategies (probiotics, prebiotics, FMT) could be enhanced by incorporating metal-modulating approaches (low-metal diets, metal-binding prebiotics) to address the underlying metallomic [[dyshomeostasis]] that drives [[dysbiosis]].
+The maturation of PD [[gut-microbiome|microbiome]] research (from case-control taxonomy to functional metagenomics to clinical trials) creates an opportunity to integrate the metallomic dimension. The functional pathway changes identified by metagenomics overlap extensively with metal-dependent pathways: siderophore biosynthesis, metal transport, metalloenzyme expression. Current therapeutic strategies (probiotics, prebiotics, FMT) could be enhanced by incorporating metal-modulating approaches (low-metal diets, metal-binding prebiotics) to address the underlying metallomic [[dyshomeostasis]] that drives [[dysbiosis]].
 
 ## Limitations
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Remission of OCD and Ulcerative Colitis with a Ketogenic Diet: Case Report"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2025
 tags: [crohns-disease, IBD, ulcerative-colitis, ketogenic-diet, OCD, gut-brain-axis, inflammation, NLRP3-inflammasome, beta-hydroxybutyrate, case-report]
 doi: "10.3389/fpsyt.2025.1541414"
 platform: wikibiome
+evidence_level: case-report
+karen_brain_primitives: [2, 5]
 ---
 
 # Key Claims
@@ -33,7 +34,7 @@ platform: wikibiome
 
 - Demonstrates gut-brain-skin axis connecting UC to OCD through shared [[inflammation]] pathways
 - NLRP3 inflammasome suppression by BHB relevant to understanding intestinal [[inflammation]] in IBD
-- Complements [[Kong et al. 2021|kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] on ketogenic diet mechanisms in colitis
+- Complements [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome|kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] on ketogenic diet mechanisms in colitis
 - TLR4 inhibition connects to [[dysbiosis]]-driven endotoxemia in IBD
 - Calprotectin as monitoring biomarker connects to [[calprotectin]] in IBD tracking
 - [[crohns-disease]]

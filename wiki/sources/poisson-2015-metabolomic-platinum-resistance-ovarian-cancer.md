@@ -9,6 +9,7 @@ year: 2015
 doi: "10.1186/s13048-015-0140-8"
 tags: [ovarian-cancer, metabolomics, platinum-resistance, methionine, cysteine, glutathione, KEGG-pathways, chemoresistance]
 platform: wikibiome
+metals_discussed: [iron, platinum]
 ---
 
 # Metabolomic Approach to Identifying Platinum Resistance in Ovarian Cancer

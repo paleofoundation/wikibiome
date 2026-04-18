@@ -25,7 +25,7 @@ karen_brain_primitives: [1, 5]
 
 ## Summary
 
-This study examines the longitudinal relationship between gut [[microbiome]] composition and [[parkinsons-disease]] progression, investigating whether baseline microbial features predict clinical outcomes and whether microbiome changes track with disease advancement.
+This study examines the longitudinal relationship between gut [[gut-microbiome|microbiome]] composition and [[parkinsons-disease]] progression, investigating whether baseline microbial features predict clinical outcomes and whether microbiome changes track with disease advancement.
 
 ## Key Findings
 

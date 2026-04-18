@@ -12,6 +12,8 @@ library_category: "NSAIDs"
 platform: original-research
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-20"
+evidence_level: animal-model
+karen_brain_primitives: [5]
 ---
 
 # Overview

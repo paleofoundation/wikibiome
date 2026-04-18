@@ -37,9 +37,9 @@ Case-control serological analysis of two cohorts. Cohort 1: 261 SCZ + 270 BPD + 
 
 # Relevance to WikiBiome
 
-- Informs **[[schizophrenia]]** and **[[bipolar-disorder]]** entity pages: provides the foundational evidence that fungal exposures (specifically C. albicans) are **sex-specifically associated with psychiatric disorder risk and cognition**.
+- Informs **[[schizophrenia]]** and **[[schizophrenia|bipolar-disorder]]** entity pages: provides the foundational evidence that fungal exposures (specifically C. albicans) are **sex-specifically associated with psychiatric disorder risk and cognition**.
 - Informs **[[candida-albicans]]** entity page: extends the pathogenic niche from mucosal sites to systemic/neuropsychiatric effects via IgG exposure.
-- Informs **[[sex-differences-microbiome]]** concept page: strong evidence for sex-specific mycobiome-brain axis.
+- Informs **[[estrobolome|sex-differences-microbiome]]** concept page: strong evidence for sex-specific mycobiome-brain axis.
 - Informs **[[gut-brain-axis]]** concept page: GI disturbances co-occur with fungal IgG, supporting a gut-to-brain route.
 
 # Relevance to Cureva

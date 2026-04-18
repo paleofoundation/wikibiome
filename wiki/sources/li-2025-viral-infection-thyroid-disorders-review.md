@@ -1,5 +1,4 @@
 ---
-
 title: "Viral Infection and Thyroid Disorders: A Narrative Review"
 type: source
 created: 2026-04-09
@@ -10,17 +9,18 @@ year: 2025
 doi: "10.3389/fmicb.2025.1625179"
 tags: [hashimotos-thyroiditis, thyroid, virome, viral-infection, EBV, HHV-6, HSV, HPV, HCV, parvovirus-B19, SARS-CoV-2, thyroid-cancer, autoimmune, molecular-mimicry, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Viral Infection and Thyroid Disorders: A Narrative Review
 
 ## Key Claims
 
-- Viruses like [[HSV]], [[EBV]], [[Hepatitis C virus]], and human [[parvovirus B19]] are potential candidates associated with [[autoimmune thyroid diseases]]
-- [[EBV]] affects thyroid cancer by increasing BRAF activity and inducing the expression of latent membrane proteins to activate the NF-kB signaling pathway
-- [[HHV-6]] infections can enhance the efficiency of autoreactive T cell activation and the innate immune system by upregulating HLA expression on antigen-presenting cells
-- [[HPV]] vaccine recipients showed a significantly higher risk of developing [[Hashimoto's thyroiditis]], suggesting a correlation between HPV infection and HT
-- [[SARS-CoV-2]] may interfere with thyroid function through direct cell entry, cytokine modulation, thyroid autoantibody induction, and thyroid dysfunction mechanisms
+- Viruses like [[viral-microbiota|HSV]], [[viral-microbiota|EBV]], [[Hepatitis C virus]], and human [[viral-microbiota|parvovirus B19]] are potential candidates associated with [[thyroid-autoimmunity|autoimmune thyroid diseases]]
+- [[viral-microbiota|EBV]] affects thyroid cancer by increasing BRAF activity and inducing the expression of latent membrane proteins to activate the NF-kB signaling pathway
+- [[viral-microbiota|HHV-6]] infections can enhance the efficiency of autoreactive T cell activation and the innate immune system by upregulating HLA expression on antigen-presenting cells
+- [[viral-microbiota|HPV]] vaccine recipients showed a significantly higher risk of developing [[hashimotos-thyroiditis]], suggesting a correlation between HPV infection and HT
+- [[long-covid|SARS-CoV-2]] may interfere with thyroid function through direct cell entry, cytokine modulation, thyroid autoantibody induction, and thyroid dysfunction mechanisms
 - Viral infections can trigger autoimmunity through molecular mimicry, direct cell entry, cytokine release, inflammation, autoantibody production, and genomic instability leading to both AITD and thyroid cancer
 
 ## Methods/Findings

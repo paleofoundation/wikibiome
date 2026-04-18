@@ -1,5 +1,4 @@
 ---
-
 title: Gut-Brain Axis
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative, alonso-garcia-2021-gut-microbiota-proteinopathies, gao-2023-microglia-neurodegenerative-diseases, ogrady-2025-metal-dyshomeostasis-asd, blazewicz-2023-metal-profiles-asd, passeri-2024-recent-advances-therapeutics-alzheimers, kouchaki-2017-clinical-metabolic-probiotic-ms, dargahi-2020-streptococcus-thermophilus-ms, libbey-2018-diet-microbiota-eae]
 tags: [gut-brain-axis, vagus-nerve, SCFAs, neuroinflammation, microbiome, neurodegeneration, alpha-synuclein, neurotransmitters, metals, enteric-nervous-system, tryptophan, bile-acids, BBB, cytokines]
 platform: wikibiome
+karen_brain_primitives: [1, 5]
+seo_target: "gut-brain axis"
+last_substantive_update: 2026-04-09
 ---
 
 # Gut-Brain Axis

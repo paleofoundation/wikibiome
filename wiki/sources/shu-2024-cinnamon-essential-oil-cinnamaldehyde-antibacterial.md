@@ -44,9 +44,9 @@ CIEO purchased from Longqing Agricultural Technology Development. CID purified b
 
 ## Relevance to WikiBiome
 
-- [[cinnamon]] entity/concept — antimicrobial phytochemical with broad spectrum.
-- [[cinnamaldehyde]] concept — active compound mechanism, MIC data.
-- [[essential-oils]] concept — dual mechanism (direct antimicrobial + host immune modulation).
+- [[polyphenols|cinnamon]] entity/concept — antimicrobial phytochemical with broad spectrum.
+- [[polyphenols|cinnamaldehyde]] concept — active compound mechanism, MIC data.
+- [[polyphenols|essential-oils]] concept — dual mechanism (direct antimicrobial + host immune modulation).
 
 ## Relevance to Cureva
 

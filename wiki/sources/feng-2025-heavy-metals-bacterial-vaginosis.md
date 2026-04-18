@@ -1,5 +1,4 @@
 ---
-
 title: "Association between heavy metal exposure and bacterial vaginosis: A cross-sectional study"
 type: source
 created: 2026-04-09
@@ -10,11 +9,14 @@ year: 2025
 tags: [heavy-metals, bacterial-vaginosis, lead, cadmium, mercury, NHANES, vaginal-microbiome, cross-sectional, reproductive-health]
 doi: "10.1371/journal.pone.0316927"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, calcium, iron, lead, mercury]
+karen_brain_primitives: [1, 2]
 ---
 
 # Key Claims
 
-- Serum [[lead]] is positively associated with [[bacterial vaginosis]] (BV): overall adjusted OR = 1.11 (95% CI: 1.02-1.19, p = 0.012); highest tertile OR = 1.35 (95% CI: 1.06-1.72, p = 0.016)
+- Serum [[lead]] is positively associated with [[bacterial-vaginosis|bacterial vaginosis]] (BV): overall adjusted OR = 1.11 (95% CI: 1.02-1.19, p = 0.012); highest tertile OR = 1.35 (95% CI: 1.06-1.72, p = 0.016)
 - Serum [[cadmium]] shows an even stronger association with BV: overall adjusted OR = 1.48 (95% CI: 1.25-1.76, p < 0.001); highest tertile OR = 1.41 (95% CI: 1.01-1.98, p = 0.047)
 - No statistically significant association between serum total [[mercury]] and BV risk (p > 0.05)
 - The positive correlations between Pb and Cd with BV were consistent across stratified analyses by age, race, education, marital status, BMI, and other covariates

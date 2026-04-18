@@ -15,7 +15,7 @@ library_category: causal | mechanistic-insights
 platform: both
 condition: "COVID-19 with neurological complications"
 karen_brain_primitives: [2, 5]
-metals_discussed: []
+metals_discussed: [copper, iron, zinc]
 taxa_discussed: []
 key_findings: [
   "COVID-19 neurological complications are primarily immune-mediated and vascular, not direct viral invasion",

@@ -12,13 +12,15 @@ library_category: metals
 platform: gut
 condition: "Parkinson's disease"
 evidence_level: expert-opinion
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 5]
 ---
 
 # Lead Exposure and Gut Microbiome Alterations in Neurodegeneration
 
 ## Summary
 
-This study examines how [[lead]] exposure alters the gut [[microbiome]] and contributes to neurodegenerative processes relevant to [[parkinsons-disease]]. It characterizes the dose-dependent effects of lead on gut microbial composition, intestinal barrier function, and downstream neuroinflammatory signaling.
+This study examines how [[lead]] exposure alters the gut [[gut-microbiome|microbiome]] and contributes to neurodegenerative processes relevant to [[parkinsons-disease]]. It characterizes the dose-dependent effects of lead on gut microbial composition, intestinal barrier function, and downstream neuroinflammatory signaling.
 
 ## Key Findings
 

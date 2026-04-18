@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, gene-environment-interaction, endocrine-disrupt
 library_category: environmental
 platform: review
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [lead, manganese, mercury, zinc]
 ---
 
 # Overview

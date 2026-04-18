@@ -1,5 +1,4 @@
 ---
-
 title: "Role of Gut Microbiome in Cardiovascular Events: A Systematic Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 doi: 10.7759/cureus.32465
 tags: [cardiovascular-disease, CVD, gut-microbiome, systematic-review, TMAO, SCFAs, atherosclerosis, hypertension, dysbiosis, PRISMA, biomarker]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [klebsiella-pneumoniae, lactobacillus, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # Role of Gut Microbiome in Cardiovascular Events: A Systematic Review

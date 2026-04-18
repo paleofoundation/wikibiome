@@ -16,8 +16,8 @@ platform: wikibiome
 
 ## Key Claims
 
-- [[Myelin-basic-protein]] (MBP) from MS patients shows significantly elevated [[isoaspartic-acid]] (isoAsp) formation at specific sites compared to age-matched controls, particularly at Asp34 (p < 0.001) and Asp82
-- A dual modification of isoAsp48 combined with [[citrulline]]49 was detected exclusively in MS patients and not in controls, potentially creating a highly immunogenic epitope
+- [[multiple-sclerosis|Myelin-basic-protein]] (MBP) from MS patients shows significantly elevated [[tryptophan|isoaspartic-acid]] (isoAsp) formation at specific sites compared to age-matched controls, particularly at Asp34 (p < 0.001) and Asp82
+- A dual modification of isoAsp48 combined with [[tryptophan|citrulline]]49 was detected exclusively in MS patients and not in controls, potentially creating a highly immunogenic epitope
 - MBP is a long-lived protein that undergoes extensive age-dependent racemization (L-amino acids converting to D-amino acids), and MS patients show accelerated and MS-specific patterns of these post-translational modifications
 - Racemization of Asx, Glx, and Ser residues was significantly increased overall in MS patients compared to controls
 - The MS-specific modifications cluster in two distinct surface regions of MBP, suggesting these patches could provoke immune responses

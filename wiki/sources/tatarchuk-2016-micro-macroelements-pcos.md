@@ -1,5 +1,4 @@
 ---
-
 title: "Serum Micro- and Macroelements Levels in Women with Polycystic Ovary Syndrome Associated with Pelvic Inflammatory Disease"
 type: source
 created: 2026-04-09
@@ -8,11 +7,12 @@ authors: [Tatarchuk TF, Kosei NV, Vetokh HV, Gunkov SV]
 journal: Reproductive Endocrinology
 year: 2016
 tags: [PCOS, nickel, manganese, zinc, copper, pelvic-inflammatory-disease, microelements, oxidative-stress]
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Reproductive Endocrinology 2016 -->
 platform: wikibiome
 karen_brain_primitives: [1, 7, 9]
 metals_discussed: ["copper", "manganese", "nickel", "zinc"]
 taxa_discussed: []
+evidence_level: cross-sectional
 ---
 
 # Key Claims
@@ -45,7 +45,7 @@ taxa_discussed: []
 - [[pcos]]
 - Provides rare data on [[nickel]] in PCOS -- most other studies in this collection do not measure Ni, making this a uniquely relevant source for the wiki's nickel toxicology focus
 - The elevated Zn finding contradicts [[kirmizi-2020-heavy-metals-pcos]] (which found lower Zn in PCOS) and [[kurdoglu-2012-trace-elements-pcos]] (which found higher Zn), highlighting inconsistency in the Zn-PCOS literature
-- Manganese elevation aligns with some findings from [[smovrsnik-2025-trace-elements-pcos]] and connects to [[manganese]] roles in [[superoxide dismutase (SOD)]] and antioxidant defense
-- The nickel findings connect to broader [[nickel toxicology]] themes: nickel's role in membrane damage, lipid peroxidation, and inflammation parallels mechanisms described for other toxic metals in [[kirmizi-2020-heavy-metals-pcos]]
+- Manganese elevation aligns with some findings from [[smovrsnik-2025-trace-elements-pcos]] and connects to [[manganese]] roles in [[oxidative-stress|superoxide dismutase (SOD)]] and antioxidant defense
+- The nickel findings connect to broader [[nickel-allergy|nickel toxicology]] themes: nickel's role in membrane damage, lipid peroxidation, and inflammation parallels mechanisms described for other toxic metals in [[kirmizi-2020-heavy-metals-pcos]]
 - Diagram in the paper showing "Carcinogenic and Toxic Effects of Nickel in Human Body" provides a useful framework for understanding [[nickel]] pathomechanisms relevant to the wiki
 - The PID comorbidity angle connects inflammatory disease burden in PCOS to metal dysregulation

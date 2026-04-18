@@ -11,6 +11,8 @@ tags: [parkinsons-disease, incidence, meta-analysis, systematic-review, epidemio
 library_category: associated-conditions
 platform: wikibiome
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [4]
 ---
 
 # The Incidence of Parkinson's Disease: A Systematic Review and Meta-Analysis

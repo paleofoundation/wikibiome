@@ -49,7 +49,7 @@ Barrier integrity improvements suggest the intervention addressed not only toxin
 
 ## Relevance to WikiBiome
 
-Informs [[chronic-kidney-disease]] entity and [[lachnospiraceae]] entity (restoration evidence). Supports concept pages on [[synbiotics]], [[saccharolytic-fermentation]], and [[polyphenols]].
+Informs [[chronic-kidney-disease]] entity and [[lachnospiraceae]] entity (restoration evidence). Supports concept pages on [[synbiotics]], [[fermentative-metabolism|saccharolytic-fermentation]], and [[polyphenols]].
 
 ## Relevance to Cureva
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel contact dermatitis in children"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2015
 tags: [nickel, contact-dermatitis, children, allergy, patch-testing, dietary-nickel, treatment]
 doi: "10.1016/j.scib.2017.05.005"
 platform: wikibiome
+metals_discussed: [nickel]
+taxa_discussed: [helicobacter-pylori]
+karen_brain_primitives: [1]
 ---
 
 # Nickel Contact Dermatitis in Children

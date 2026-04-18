@@ -9,6 +9,10 @@ journal: "Pharmacological Reports"
 doi: "10.1007/s43440-025-00793-8"
 tags: [schizophrenia, FMT, mycobiome, archaea, Candida-tropicalis, Malassezia, Cryptococcus-neoformans, Methanobrevibacter, MAM-E17-model, rat-model, kynurenine-pathway, tryptophan, gut-brain-axis]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [candida-albicans, malassezia, methanobrevibacter-smithii, methanosphaera]
+karen_brain_primitives: [5]
+key_findings: ["88 Sprague-Dawley rats"]
 ---
 
 # Why This Paper Matters
@@ -53,9 +57,9 @@ This pilot study is the first to examine the impact of fecal microbiota transpla
 # Connections
 
 - [[schizophrenia]] -- FMT effects on non-bacterial microbiome in SCZ model
-- [[FMT]] -- limited efficacy for modifying fungal colonization in developmental model
+- [[fmt-intervention]] -- limited efficacy for modifying fungal colonization in developmental model
 - [[mycobiome]] -- C. tropicalis expansion independent of treatment source
-- [[gut-microbiota]] -- microbiome maturation may override FMT effects in young animals
+- [[gut-microbiome]] -- microbiome maturation may override FMT effects in young animals
 - [[kynurenine-pathway]] -- tryptophan-kynurenine axis as mechanistic link
-- [[animal-model]] -- MAM-E17 as neurodevelopmental model of schizophrenia
+- [[shotgun-metagenomics|animal-model]] -- MAM-E17 as neurodevelopmental model of schizophrenia
 - [[archaea]] -- absence of methanogens in rat model highlights species-specific colonization

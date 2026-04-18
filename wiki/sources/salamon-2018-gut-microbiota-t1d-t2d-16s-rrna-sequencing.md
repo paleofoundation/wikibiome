@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, 16s-rrna, gut-microbiota, firmicutes, bifido
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Firmicutes bacteria prevailed (>77%)", "Significant differences at L2 (phylum) and L6 (genus)", "Negative correlation observed"]
 ---
 
 # Key Claims

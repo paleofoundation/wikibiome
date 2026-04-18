@@ -11,6 +11,10 @@ tags: [autism, fmt, fecal-microbiota-transplant, clinical-trial, GI-symptoms, ne
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [copper, iron, manganese, zinc]
+taxa_discussed: [eubacterium]
+karen_brain_primitives: [4, 5]
+key_findings: ["FMT improved GI symptoms", "FMT shifted bacterial community", "Serum neurotransmitter levels"]
 ---
 
 # Key Claims

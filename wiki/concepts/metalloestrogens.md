@@ -1,5 +1,4 @@
 ---
-
 title: Metalloestrogens
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [aquino-2012-cadmium-nickel-metalloestrogens, tarhonska-2022-cadmium-breast-cancer-mechanisms, borghini-2020-endometriosis-nickel-ibs, ali-2024-heavy-metals-breast-cancer-review, liu-2022-heavy-metals-breast-cancer-meta-analysis, niehoff-2021-metals-breast-cancer-toenail, genchi-2020-cadmium-toxicity, kirmizi-2020-heavy-metals-pcos, lopez-botella-2023-peritoneal-fluid-metals-endometriosis, ding-2021-nickel-pregnancy-complications, bonamonte-2005-nickel-allergy-menstrual-cycle, lin-2023-heavy-metals-infertility-nhanes, canipari-2020-female-fertility-environmental-pollution]
 tags: [metalloestrogens, cadmium, nickel, estrogen-receptor, ERalpha, GPR30, breast-cancer, endocrine-disruption, PCOS, endometriosis, reproductive-toxicity]
 platform: wikibiome
+karen_brain_primitives: [1, 3, 7]
+seo_target: "metalloestrogens microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Metalloestrogens

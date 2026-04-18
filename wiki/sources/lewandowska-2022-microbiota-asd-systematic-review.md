@@ -11,6 +11,9 @@ tags: [autism, microbiota, dysbiosis, signatures, interventions, probiotics]
 library_category: signatures
 platform: both
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, lactobacillus, streptococcus]
+karen_brain_primitives: [4, 5]
 ---
 
 # Overview
@@ -71,10 +74,10 @@ Comprehensive systematic review of **44 studies** assessing **gut microbiota com
 
 # Relevance to Metallomic Framework
 
-**High relevance** — directly addresses microbiota signatures in ASD. Identifies [[Firmicutes]] enrichment and [[Bacteroidetes]] depletion as core dysbiosis pattern. However, **paper does not assess metal cofactors, metal-dependent enzymes, or microbial metal dependencies**. Could be enhanced by integrating metal-metallome data:
+**High relevance** — directly addresses microbiota signatures in ASD. Identifies [[firmicutes]] enrichment and [[bacteroidetes]] depletion as core dysbiosis pattern. However, **paper does not assess metal cofactors, metal-dependent enzymes, or microbial metal dependencies**. Could be enhanced by integrating metal-metallome data:
 
-- Are [[Firmicutes]] enriched because they tolerate or depend on specific metals?
-- Do metal restrictions correlate with [[Bacteroidetes]] recovery?
+- Are [[firmicutes]] enriched because they tolerate or depend on specific metals?
+- Do metal restrictions correlate with [[bacteroidetes]] recovery?
 - What metal cofactors support the metabolite-producing capacity of depleted taxa?
 
 # Notes

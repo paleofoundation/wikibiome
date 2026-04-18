@@ -11,6 +11,9 @@ tags: [parkinsons-disease, microbiome-therapeutics, probiotics, prebiotics, feca
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # Microbiome-Targeted Therapies for Parkinson's Disease
@@ -23,7 +26,7 @@ This comprehensive review evaluates the current landscape of microbiome-targeted
 
 - [[probiotics]]: Multiple RCTs show improvements in constipation, some motor symptoms, and inflammatory markers
 - Prebiotics: Promote SCFA production and selectively enrich depleted beneficial taxa
-- [[Fecal-microbiota-transplant]]: Most comprehensive approach; early clinical trials show safety and feasibility
+- [[fmt-intervention]]: Most comprehensive approach; early clinical trials show safety and feasibility
 - Postbiotics (heat-killed bacteria, metabolite preparations): Offer standardized, safer alternatives to live organisms
 - Phage therapy: Targeted elimination of specific pathogenic bacteria without disrupting commensals
 - Dietary interventions: Mediterranean and high-fiber diets reshape PD microbiome toward healthier profiles

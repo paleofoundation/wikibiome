@@ -1,5 +1,4 @@
 ---
-
 title: "Stool Microbiome and Metabolome Differences between Colorectal Cancer Patients and Healthy Adults"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2013
 doi: "10.1371/journal.pone.0070803"
 tags: [colon-cancer, colorectal-cancer, stool-microbiome, metabolome, GC-MS, SCFAs, butyrate, acetate, Akkermansia-muciniphila, amino-acids, bile-acids, 16S-rRNA]
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [akkermansia-muciniphila, dialister, prevotella, ruminococcus]
 ---
 
 # Weir 2013 -- Stool Microbiome and Metabolome Differences in CRC vs. Healthy Adults

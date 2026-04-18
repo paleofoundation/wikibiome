@@ -11,6 +11,11 @@ tags: [autism, brain-gut-microbiome, mechanisms, dysbioisis, neuroimaging, senso
 library_category: mechanistic-insights
 platform: wikibiome
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [cadmium, lead, nickel, zinc]
+taxa_discussed: [faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 3, 4]
+key_findings: ["Gastrointestinal dysfunction is prevalent", "Dysbiotic microbiota modulates brain function", "Limited understanding of mechanisms"]
 ---
 
 # Key Claims
@@ -54,10 +59,10 @@ This systematic review of brain-gut-microbiome mechanisms provides **critical fr
 
 - **Metals as upstream cause of dysbiosis**: Review establishes dysbiosis → neurological dysfunction. But **does not address what causes dysbiosis**. Answer: **metal burden as ecological driver**
 - **Primitive 1 integration**: High metal burden selects dysbiotic taxa → dysbiotic metabolite profile → reduced [[butyrate]] → impaired histone deacetylase inhibition → altered brain gene expression
-- **Barrier dysfunction mechanism**: Review notes dysbiotic dysregulation of tight junctions. But tight-junction proteins ([[claudins]], [[occludin]], [[ZO-1]]) are zinc-dependent. **Metal mis-metallation** (cadmium/lead replacing zinc) = tight-junction protein dysfunction
+- **Barrier dysfunction mechanism**: Review notes dysbiotic dysregulation of tight junctions. But tight-junction proteins ([[intestinal-permeability|claudins]], [[intestinal-permeability|occludin]], [[intestinal-permeability|ZO-1]]) are zinc-dependent. **Metal mis-metallation** (cadmium/lead replacing zinc) = tight-junction protein dysfunction
 - **Neuroinflammation etiology**: Review attributes inflammation to dysbiotic LPS. But **where did dysbiotic LPS-producing taxa come from?** Metal selection
 - **Tryptophan metabolite deficiency**: Review notes impaired tryptophan metabolism in dysbiosis. Protective taxa express tryptophanase and indole production enzymes—these require metal cofactors. **Metal limitation** → loss of protective taxa → tryptophan accumulation → loss of AhR signaling
-- **Vagal tone**: Dysbiotic loss of [[faecalibacterium]] reduces [[butyrate]] → reduced histone deacetylase inhibition → loss of vagal tone regulation gene expression
+- **Vagal tone**: Dysbiotic loss of [[faecalibacterium-prausnitzii|faecalibacterium]] reduces [[butyrate]] → reduced histone deacetylase inhibition → loss of vagal tone regulation gene expression
 
 **Integration path**: Combine Chernikova's brain mechanisms + Zhai's metallome signature + Chang's nickel pathway = complete causal model: **metals → dysbiosis → barrier loss → neuroinflammation → altered brain circuits → behavioral phenotype**
 

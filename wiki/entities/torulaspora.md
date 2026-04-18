@@ -5,6 +5,7 @@ type: entity
 subtype: fungus
 created: 2026-04-10
 updated: 2026-04-10
+last_substantive_update: 2026-04-10
 sources: []
 gram_stain: "N/A"
 oxygen_requirement: "facultative anaerobe"
@@ -56,7 +57,7 @@ A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in
 ### Healthy State
 - At very low abundance (<1% of mycobiome in most individuals).
 - May transiently populate following fermented food consumption (dietary source).
-- Typically outcompeted by dominant commensal yeasts [[saccharomyces-cerevisiae]], *Debaryomyces*.
+- Typically outcompeted by dominant commensal yeasts [[saccharomyces-cerevisiae]], [[debaryomyces|*Debaryomyces*]].
 
 ### Disease States
 

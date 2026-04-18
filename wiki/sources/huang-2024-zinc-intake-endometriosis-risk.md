@@ -1,5 +1,4 @@
 ---
-
 title: "Exploring the link between dietary zinc intake and endometriosis risk: insights from a cross-sectional analysis of American women"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 tags: [zinc, endometriosis, trace-elements, NHANES, cross-sectional-study, dietary-intake, oxidative-stress, immune-regulation]
 doi: "10.1186/s12889-024-20433-9"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [nickel, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims

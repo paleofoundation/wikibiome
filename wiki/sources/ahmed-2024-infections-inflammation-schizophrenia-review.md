@@ -61,9 +61,9 @@ This comprehensive review synthesizes the evidence linking infections, immune sy
 
 - [[schizophrenia]] -- infections and inflammation as contributing factors
 - [[neuroinflammation]] -- microglial activation and cytokine elevation in SCZ
-- [[gut-microbiota]] -- microbial translocation and immune activation
+- [[gut-microbiome]] -- microbial translocation and immune activation
 - [[kynurenine-pathway]] -- T. gondii elevation of kynurenic acid as NMDA antagonist
 - [[blood-brain-barrier]] -- BBB disruption allowing pathogen/antibody CNS access
 - [[maternal-immune-activation]] -- prenatal infections increasing SCZ risk in offspring
-- [[autoimmune]] -- shared HLA genetic architecture between SCZ and autoimmune diseases
-- [[COVID-19]] -- emerging evidence for SARS-CoV-2 and psychosis risk
+- [[autoimmunity|autoimmune]] -- shared HLA genetic architecture between SCZ and autoimmune diseases
+- [[long-covid|COVID-19]] -- emerging evidence for SARS-CoV-2 and psychosis risk

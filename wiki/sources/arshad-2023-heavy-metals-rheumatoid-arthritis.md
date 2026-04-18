@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Arshad M, Riaz N, Bashir R, Irfan S, Khan SY, Tahir HM]
 journal: "Research Developments in Medicine and Medical Science Vol. 7"
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Research Developments in Medicine and Medical Science Vol. 7 2023 -->
 evidence_level: case-control
 sample_size: "n=99 (approx.)"
 tags: [rheumatoid-arthritis, copper, zinc, lead, cobalt, nickel, heavy-metals, serum-levels]
@@ -42,6 +42,6 @@ platform: wikibiome
 
 - Supports findings of altered [[copper]] metabolism in [[rheumatoid-arthritis]]
 - Contrasts with studies showing elevated Cu in RA (e.g., Colak et al., Strecker et al.)
-- Related to [[oxidative-stress|oxidative stress]] and [[immune dysfunction]] from heavy metal exposure
-- Links to [[environmental metal exposure]] as potential RA risk factor
+- Related to [[oxidative-stress|oxidative stress]] and [[inflammation|immune dysfunction]] from heavy metal exposure
+- Links to [[environmental-metal-exposure]] as potential RA risk factor
 - See also: [[irfan-2017-comparative-heavy-metals-ra]] for related Pakistani population study

@@ -35,7 +35,7 @@ Intracellular metal quantification (fluorescent probes and ICP-MS), glutathione 
 
 ## Relevance to WikiBiome
 
-Definitive demonstration that innate immune killing depends on metal weaponization. Essential for [[zinc]], [[copper]], [[nutritional-immunity]], [[mis-metallation]], and [[peptidoglycan-recognition-proteins]] pages. The chelation experiment is particularly powerful evidence.
+Definitive demonstration that innate immune killing depends on metal weaponization. Essential for [[zinc]], [[copper]], [[nutritional-immunity]], [[mis-metallation]], and [[nutritional-immunity|peptidoglycan-recognition-proteins]] pages. The chelation experiment is particularly powerful evidence.
 
 ## Relevance to Cureva
 

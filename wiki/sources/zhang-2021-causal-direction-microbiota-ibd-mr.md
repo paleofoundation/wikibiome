@@ -1,5 +1,4 @@
 ---
-
 title: "Assessment of Causal Direction Between Gut Microbiota and Inflammatory Bowel Disease: A Mendelian Randomization Analysis"
 type: source
 created: 2026-04-09
@@ -11,6 +10,9 @@ tags: [crohns-disease, IBD, ulcerative-colitis, Mendelian-randomization, Verruco
 doi: "10.3389/fgene.2021.631061"
 platform: wikibiome
 evidence_level: mendelian-randomization
+metals_discussed: [zinc]
+taxa_discussed: [akkermansia-muciniphila, dorea, faecalibacterium-prausnitzii, lachnospiraceae]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
@@ -33,7 +35,7 @@ evidence_level: mendelian-randomization
 
 - Establishes causal direction from specific microbiota to IBD risk, supporting the [[dysbiosis]]-first hypothesis
 - Akkermansia finding relevant to mucosal barrier integrity and [[inflammation]]
-- SLC39A8 locus (encoding ZIP8 [[zinc]] transporter) near Verrucomicrobiaceae IV -- connects to [[Yang et al. 2024|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]
+- SLC39A8 locus (encoding ZIP8 [[zinc]] transporter) near Verrucomicrobiaceae IV -- connects to [[yang-2024-causal-gut-microbiota-cervical-cancer-mr|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]
 - Dorea depletion links to reduced butyrate production, paralleling [[faecalibacterium-prausnitzii]] loss
 - [[gut-metal-microbiome]] implications through SLC14A1 and metal transporter gene proximity
 - [[crohns-disease]]

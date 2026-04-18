@@ -1,5 +1,4 @@
 ---
-
 title: "The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2026
 tags: [dietary-polyphenols, multiple-sclerosis, oxidative-stress, Nrf2, resveratrol, curcumin, Mediterranean-diet, ketogenic-diet, Paleolithic-diet, G-quadruplexes, epigenetics]
 doi: "10.1007/s12035-026-05748-5"
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms
@@ -17,8 +17,8 @@ platform: wikibiome
 ## Key Claims
 
 - [[Nrf2]] (nuclear factor erythroid 2-related factor 2) is a master regulator of antioxidant defense whose upregulation is associated with beneficial effects in MS; Nrf2-deficient mice show exacerbated [[EAE]] with enhanced inflammation and demyelination
-- Several dietary natural compounds can activate [[Nrf2]]: [[resveratrol]] (activates via PI3K/Akt and ERK1/2 pathways), [[curcumin]] (targets Keap1-Nrf2 interaction), and piperine -- all with demonstrated benefits in preclinical MS models
-- [[Mediterranean-diet]], Okinawan diet, and [[Paleolithic-diet]] can activate Nrf2 signaling; the [[ketogenic-diet]] activates Nrf2 in murine spinal cord injury models and modifies hippocampal mitochondrial H2O2 production
+- Several dietary natural compounds can activate [[Nrf2]]: [[polyphenols|resveratrol]] (activates via PI3K/Akt and ERK1/2 pathways), [[polyphenols|curcumin]] (targets Keap1-Nrf2 interaction), and piperine -- all with demonstrated benefits in preclinical MS models
+- [[mediterranean-diet]], Okinawan diet, and [[mediterranean-diet|Paleolithic-diet]] can activate Nrf2 signaling; the [[ketogenic-diet]] activates Nrf2 in murine spinal cord injury models and modifies hippocampal mitochondrial H2O2 production
 - A novel emerging mechanism involves [[G-quadruplexes]] -- DNA/RNA secondary structures involved in gene expression regulation that may represent nutrition-based therapeutic targets for Nrf2 activation
 - Epigenetic mechanisms including DNA methylation, histone modifications, and microRNA interactions may mediate the link between dietary compounds and Nrf2 pathway activation
 
@@ -32,6 +32,6 @@ platform: wikibiome
 ## Connections
 
 - The Nrf2 pathway connects dietary polyphenols to [[oxidative-stress]] reduction in MS, complementing the SCFA-focused mechanisms in [[hoffman-2023-dietary-strategies-eae-ms]]
-- and as Nrf2 activators connect to and the urolithin-producing [[Gordonibacter-urolithinfaciens]] enriched in non-active MS cases [[thirion-2023-gut-microbiota-ms-disease-activity]]
+- and as Nrf2 activators connect to and the urolithin-producing [[gordonibacter-urolithinfaciens]] enriched in non-active MS cases [[thirion-2023-gut-microbiota-ms-disease-activity]]
 - The epigenetic dimension (HDAC inhibition, DNA methylation) links to [[short-chain-fatty-acids]] as HDAC inhibitors discussed in [[katzsand-2018-diet-ms-mechanistic-review]]
 - KD-Nrf2 activation complements the ketogenic diet effects reviewed in [[atabilen-2022-dietary-interventions-ms-systematic-review]]

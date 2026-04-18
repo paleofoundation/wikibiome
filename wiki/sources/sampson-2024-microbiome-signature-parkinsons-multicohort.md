@@ -6,18 +6,22 @@ updated: 2026-04-09
 authors: [Timothy R Sampson, Andrew S Neish]
 year: 2024
 journal: "Communications Medicine"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Communications Medicine 2024 -->
 tags: [parkinsons-disease, microbiome-signature, multi-cohort, diagnostic-biomarkers, cross-validation, reproducible-signature, dysbiosis]
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [akkermansia-muciniphila, escherichia-coli, faecalibacterium-prausnitzii, klebsiella-pneumoniae, prevotella, roseburia]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # A Microbiome Signature of Parkinson's Disease
 
 ## Summary
 
-This study identifies a reproducible [[microbiome]] signature of [[parkinsons-disease]] by integrating data from multiple international cohorts, demonstrating that core microbial features are consistent across populations.
+This study identifies a reproducible [[gut-microbiome|microbiome]] signature of [[parkinsons-disease]] by integrating data from multiple international cohorts, demonstrating that core microbial features are consistent across populations.
 
 ## Key Findings
 
@@ -30,7 +34,7 @@ This study identifies a reproducible [[microbiome]] signature of [[parkinsons-di
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-A reproducible PD [[microbiome]] signature validated across populations provides the taxonomic foundation for the metallomic-microbiome framework. The consistent taxa (depleted *Faecalibacterium*, *Roseburia*, *Prevotella*; enriched *E. coli*, *Klebsiella*, *Akkermansia*) map directly to metal-functional roles: the depleted taxa are metal-sensitive SCFA producers that buffer gut metal levels, while the enriched taxa are metal-tolerant organisms with siderophore systems for [[iron]] piracy. The universality of this pattern across diverse populations (with different diets and metal exposures) suggests that the metal-selection-driven [[dysbiosis]] model is robust.
+A reproducible PD [[gut-microbiome|microbiome]] signature validated across populations provides the taxonomic foundation for the metallomic-microbiome framework. The consistent taxa (depleted *Faecalibacterium*, *Roseburia*, *Prevotella*; enriched *E. coli*, *Klebsiella*, *Akkermansia*) map directly to metal-functional roles: the depleted taxa are metal-sensitive SCFA producers that buffer gut metal levels, while the enriched taxa are metal-tolerant organisms with siderophore systems for [[iron]] piracy. The universality of this pattern across diverse populations (with different diets and metal exposures) suggests that the metal-selection-driven [[dysbiosis]] model is robust.
 
 ## Limitations
 

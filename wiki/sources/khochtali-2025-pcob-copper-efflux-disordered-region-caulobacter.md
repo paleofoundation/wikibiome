@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Amira Khochtali, Marine Ote, Hugo Balon, Marc Dieu, Patricia Renard, Catherine Michaux, Jean-Yves Matroule]
 year: 2025
 journal: "Journal of Biological Chemistry"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12509749) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Biological Chemistry 2025 -->
 pmcid: "PMC12509749"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, copper-efflux, PcoB, outer-membrane, intrinsically-disordered-region, caulobacter, protein-stability, ATCUN-motif]
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "copper efflux mechanism through outer membrane beta-barrel with disordered metal-binding domain"
+metals_discussed: [copper, iron]
+taxa_discussed: [acinetobacter, escherichia-coli]
+karen_brain_primitives: [3, 4]
+key_findings: ["Copper toxicity results from mismetallation events", "PcoB NTD contains 17 His and 5 Met residues", "Deletion of PcoB NTD (residues 34-109)"]
 ---
 
 # Why This Paper Matters
@@ -62,12 +66,12 @@ The PcoB NTD (residues 1-109 in C. vibrioides) is:
 
 - [[mis-metallation]] -- copper toxicity through mismetallation explicitly identified as mechanism
 - [[copper]] -- three-layer copper efflux system (CopA, CusCBA, PcoB) prevents intracellular accumulation
-- [[copper-toxicity]] -- Cu displaces metals from Fe-S clusters and binds protein thiols
+- [[copper|copper-toxicity]] -- Cu displaces metals from Fe-S clusters and binds protein thiols
 - [[metal-homeostasis]] -- PcoB as outer membrane component of copper resistance
 - [[iron-sulfur-clusters]] -- primary targets of Cu(I)-mediated mismetallation
-- [[protein-quality-control]] -- PcoB NTD stabilizes PcoA, linking metal efflux to proteostasis
+- [[alpha-synuclein|protein-quality-control]] -- PcoB NTD stabilizes PcoA, linking metal efflux to proteostasis
 - [[antimicrobial-metals]] -- copper as antimicrobial agent; understanding resistance mechanisms
 - [[caulobacter]] -- model alphaproteobacterium for copper homeostasis
 - [[biofilm]] -- PcoA/PcoB expressed in sessile stalked cells during cell cycle
 - [[acinetobacter]] -- PcoA and PcoB mutants show attenuated virulence in Galleria infection model
-- [[metalloprotein]] -- ATCUN motif as Cu(II)-binding structural element in disordered protein regions
+- [[metal-homeostasis|metalloprotein]] -- ATCUN motif as Cu(II)-binding structural element in disordered protein regions

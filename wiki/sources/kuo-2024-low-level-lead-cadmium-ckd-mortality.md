@@ -1,5 +1,4 @@
 ---
-
 title: "Association of low-level heavy metal exposure with risk of chronic kidney disease and long-term mortality"
 type: source
 created: 2026-04-09
@@ -7,9 +6,10 @@ updated: 2026-04-09
 authors: [Kuo PF, Huang YT, Chuang MH, Jiang MY]
 journal: "PLOS ONE"
 year: 2024
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: PLOS ONE 2024 -->
 tags: [lead, cadmium, chronic-kidney-disease, mortality, NHANES, nephrotoxicity, low-level-exposure]
 platform: wikibiome
+metals_discussed: [cadmium, lead]
 ---
 
 # Key Claims
@@ -38,5 +38,5 @@ platform: wikibiome
 - Demonstrates health effects at levels below traditional toxic thresholds for [[lead]] and [[cadmium]]
 - Synergistic effect supports [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]] on cumulative nephrotoxicity
 - Links to [[chronic-kidney-disease]] progression and [[all-cause mortality]]
-- Socioeconomic disparities connect to [[environmental justice]] in metal exposure
-- Cadmium-mortality link operates through [[cardiovascular-disease]], cancer, and [[immune dysfunction]]
+- Socioeconomic disparities connect to [[environmental-metal-exposure|environmental justice]] in metal exposure
+- Cadmium-mortality link operates through [[cardiovascular-disease]], cancer, and [[inflammation|immune dysfunction]]

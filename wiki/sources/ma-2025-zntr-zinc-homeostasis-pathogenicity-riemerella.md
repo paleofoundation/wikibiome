@@ -6,12 +6,14 @@ updated: 2026-04-09
 authors: [Hongmeng Ma, Mengying Wang, Yizhou Yao, Shutong Zhang, Mingshu Wang, Dekang Zhu, Renyong Jia, Shun Chen, Xinxin Zhao, Qiao Yang, Ying Wu, Shaqiu Zhang, Juan Huang, Bin Tian, Xumin Ou, Di Sun, Yu He, Zhen Wu, Ling Zhang, Yanling Yu, Anchun Cheng, Mafeng Liu]
 year: 2025
 journal: "Microbiology Spectrum"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC11960050) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Microbiology Spectrum 2025 -->
 pmcid: "PMC11960050"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, ZntR, metalloregulator, riemerella-anatipestifer, poultry-pathogen, oxidative-stress, virulence, manganese, Irving-Williams-series]
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "zinc homeostasis regulation and mismetallation in an avian pathogen"
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [3, 4, 8]
 ---
 
 # Why This Paper Matters
@@ -66,8 +68,8 @@ Among 35 zinc metabolism-related genes affected:
 - [[iron]] -- zinc competitively inhibits iron-dependent Fenton chemistry
 - [[manganese]] -- zinc impairs manganese uptake through mismetallation of Mn substrate-binding proteins
 - [[oxidative-stress]] -- paradoxical oxidant resistance from zinc accumulation via Fe displacement
-- [[Irving-Williams-series]] -- zinc's high binding affinity explains competitive displacement of Fe and Mn
-- [[Fenton-chemistry]] -- zinc inhibits Fe-catalyzed ROS generation
-- [[virulence]] -- zinc homeostasis required for R. anatipestifer colonization
+- [[irving-williams-series]] -- zinc's high binding affinity explains competitive displacement of Fe and Mn
+- [[fenton-chemistry]] -- zinc inhibits Fe-catalyzed ROS generation
+- [[virulence-factors|virulence]] -- zinc homeostasis required for R. anatipestifer colonization
 - [[metal-homeostasis]] -- ZntR coordinates zinc sensing with import/export regulation
 - [[nutritional-immunity]] -- host zinc fluctuations during infection

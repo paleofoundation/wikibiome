@@ -1,5 +1,4 @@
 ---
-
 title: "Two-Sample Mendelian Randomization Analysis Investigates Causal Associations Between Gut Microbial Genera and Inflammatory Bowel Disease, and Specificity Causal Associations in Ulcerative Colitis or Crohn's Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 tags: [crohns-disease, IBD, ulcerative-colitis, Mendelian-randomization, Eubacterium-ventriosum, Coprococcus, Oxalobacter, Lachnospiraceae, gut-microbiome, causal-inference]
 doi: "10.3389/fimmu.2022.921546"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [coprococcus, eubacterium, lachnospiraceae]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -33,5 +35,5 @@ platform: wikibiome
 - Lachnospiraceae UCG001 protection in CD connects to SCFA-producing capacity and [[dysbiosis]] patterns
 - Oxalobacter association with CD risk relevant to hyperoxaluria frequently observed in IBD
 - Coprococcus as a butyrate producer paradoxically increasing UC risk -- may relate to strain-level variation
-- Complements [[Knights et al. 2014|knights-2014-host-genetics-microbiome-ibd]] on genotype-microbiome specificity
+- Complements [[knights-2014-host-genetics-microbiome-ibd|knights-2014-host-genetics-microbiome-ibd]] on genotype-microbiome specificity
 - [[crohns-disease]]

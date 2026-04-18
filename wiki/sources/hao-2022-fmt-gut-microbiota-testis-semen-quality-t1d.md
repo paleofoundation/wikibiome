@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, fmt, gut-microbiota-testis-axis, semen-quali
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: animal-model
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Alginate oligosaccharide (AOS)-improved gut microbiota FMT (A10-FMT)"]
 ---
 
 # Key Claims

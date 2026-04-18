@@ -1,5 +1,4 @@
 ---
-
 title: Hypoxic Signaling (HIF-1α Pathway)
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [HIF-1alpha, nickel, carcinogenesis, signaling]
 platform: wikibiome
+karen_brain_primitives: [2, 9]
+seo_target: "hypoxic signaling hif-1α pathway microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Hypoxic Signaling (HIF-1α Pathway)

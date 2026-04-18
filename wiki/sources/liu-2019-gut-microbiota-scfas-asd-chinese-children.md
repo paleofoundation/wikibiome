@@ -11,14 +11,19 @@ tags: [autism, microbiota, SCFAs, butyrate, valeric-acid, constipation, 16S-rRNA
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [iron, molybdenum]
+taxa_discussed: [eubacterium, fusobacterium-nucleatum, lachnospiraceae]
+karen_brain_primitives: [4]
+key_findings: ["Fecal SCFAs altered", "Key butyrate-producing taxa reduced", "Constipation was the only significant GI symptom"]
 ---
 
 # Key Claims
 
 - **Fecal SCFAs altered** in ASD: lower acetic acid and butyrate, higher valeric acid
-- **Key butyrate-producing taxa reduced** in ASD: [[Ruminococcaceae]], [[eubacterium]], [[lachnospiraceae]], [[Erysipelotrichaceae]]
+- **Key butyrate-producing taxa reduced** in ASD: [[ruminococcaceae|Ruminococcaceae]], [[eubacterium]], [[lachnospiraceae]], [[dysbiosis|Erysipelotrichaceae]]
 - **Constipation was the only significant GI symptom** in ASD (P = 0.035)
-- **Enriched taxa in ASD**: [[fusobacterium]], [[Barnesiella]], [[Coprobacter]], [[Acidobacteria]], [[Actinomycetaceae]]
+- **Enriched taxa in ASD**: [[fusobacterium]], [[parabacteroides|Barnesiella]], [[Coprobacter]], [[dysbiosis|Acidobacteria]], [[actinomyces|Actinomycetaceae]]
 - **Butyrate-producing bacteria** modulation is a promising ASD treatment strategy
 
 # Methods & Findings
@@ -35,16 +40,16 @@ condition: "autism spectrum disorder"
 - Alpha diversity: Shannon and Shannoneven indexes lower in ASD (less even, less diverse)
 - Beta diversity: PCoA showed significant separation between ASD and NT
 - Phylum level: Firmicutes increased, Bacteroidetes not significantly different
-- Family level: [[Veillonellaceae]], [[enterobacteriaceae]] enriched in ASD; [[Ruminococcaceae]], Peptostreptococcaceae, [[Erysipelotrichaceae]] reduced
+- Family level: [[veillonellaceae|Veillonellaceae]], [[enterobacteriaceae]] enriched in ASD; [[ruminococcaceae|Ruminococcaceae]], Peptostreptococcaceae, [[dysbiosis|Erysipelotrichaceae]] reduced
 
 **Correlation analysis (Spearman):**
-- [[Acidobacteria]] positively correlated with valeric acid
-- [[Streptococcaceae]] and [[Desulfovibrionaceae]] positively correlated with butyrate in NT
-- [[Ruminococcaceae]], [[lachnospiraceae]], Lachnospiraceae-NC2004 positively correlated with butyrate
+- [[dysbiosis|Acidobacteria]] positively correlated with valeric acid
+- [[streptococcus|Streptococcaceae]] and [[desulfovibrio|Desulfovibrionaceae]] positively correlated with butyrate in NT
+- [[ruminococcaceae|Ruminococcaceae]], [[lachnospiraceae]], Lachnospiraceae-NC2004 positively correlated with butyrate
 
 **Constipation and microbiota:**
 - Constipated ASD (ASD-C) had distinct beta diversity from non-constipated ASD and NT
-- [[Clostridiales]], [[Lactobacillales]], [[Erysipelotrichales]] represented in ASD-C subjects
+- [[clostridiales|Clostridiales]], [[lactobacillus|Lactobacillales]], [[dysbiosis|Erysipelotrichales]] represented in ASD-C subjects
 
 # Relevance to Metallomic Framework
 

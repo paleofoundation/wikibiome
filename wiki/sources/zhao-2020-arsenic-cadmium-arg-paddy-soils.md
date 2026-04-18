@@ -20,8 +20,8 @@ taxa_discussed: []
 
 # Key Claims
 
-- [[arsenic]] (As) and [[cadmium]] (Cd) are the predominant factors shaping the distribution of [[antibiotic-resistance-genes]] (ARGs) in polluted paddy soils, with As exerting a stronger effect than Cd
-- A total of 119 ARGs and 9 [[mobile-genetic-elements]] (MGEs) were detected across 45 paddy soil samples from the heavily polluted Chang-Zhu-Tan Urban Agglomeration in Hunan Province, China
+- [[arsenic]] (As) and [[cadmium]] (Cd) are the predominant factors shaping the distribution of [[antimicrobial-resistance|antibiotic-resistance-genes]] (ARGs) in polluted paddy soils, with As exerting a stronger effect than Cd
+- A total of 119 ARGs and 9 [[horizontal-gene-transfer]] (MGEs) were detected across 45 paddy soil samples from the heavily polluted Chang-Zhu-Tan Urban Agglomeration in Hunan Province, China
 - The single pollution index (PI) for both As and Cd and the Nemerow integrated pollution index (NIPI) had significant positive correlations with ARG abundance (p < 0.05)
 - Bacterial abundance and MGEs are the two major factors shaping ARGs in paddy soils, with metals acting indirectly through their effects on bacterial community composition
 
@@ -52,8 +52,8 @@ This study is critical for the wiki because it demonstrates that even in agricul
 - [[arsenic]] -- identified as the dominant metal factor shaping ARG distribution in paddy soils, stronger effect than Cd
 - [[cadmium]] -- significant but weaker effect than As on ARG distribution; Cd pollution widespread in study region
 - [[co-selection]] -- structural equation models confirm metal contamination drives ARG proliferation via MGEs and community changes
-- [[antibiotic-resistance-genes]] -- 119 unique ARGs detected spanning all major resistance classes in paddy soils
-- [[mobile-genetic-elements]] -- MGEs as the strongest direct predictor of ARG abundance (R2 = 0.58 in SEM)
+- [[antimicrobial-resistance|antibiotic-resistance-genes]] -- 119 unique ARGs detected spanning all major resistance classes in paddy soils
+- [[horizontal-gene-transfer]] -- MGEs as the strongest direct predictor of ARG abundance (R2 = 0.58 in SEM)
 - [[horizontal-gene-transfer]] -- MGE abundance mediates the pathway from metal contamination to ARG proliferation
 - [[dietary-nickel-exposure]] -- rice grown in metal-contaminated paddy soils as a vector for ARG transfer to humans
 - [[gut-metal-microbiome]] -- food chain transfer of resistant bacteria from contaminated agricultural soils to human gut

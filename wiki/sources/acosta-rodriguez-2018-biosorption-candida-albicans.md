@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Ismael Acosta Rodriguez, Juan Fernando Cardenas-Gonzalez, Victor Manuel Martinez Juarez, Adriana Rodriguez Perez, Maria de Guadalupe Moctezuma Zarate, Nancy Cecilia Pacheco Castillo]
 journal: Advances in Bioremediation and Phytoremediation (IntechOpen)
 year: 2018
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Advances in Bioremediation and Phytoremediation (IntechOpen) 2018 -->
 tags: [Candida-albicans, biosorption, heavy-metals, chromium, bioremediation, metal-resistance, yeast]
 platform: wikibiome
 karen_brain_primitives: [1]

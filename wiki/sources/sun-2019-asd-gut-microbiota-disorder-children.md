@@ -12,6 +12,7 @@ library_category: "16S rRNA sequencing"
 platform: sequencing
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-7"
+key_findings: ["Bacteroidales", "Ruminococcaceae", "Prevotellaceae"]
 ---
 
 # Overview
@@ -25,7 +26,7 @@ source_pages: "pp. 1-7"
 - **Bacteroidales** and **Selenomonadales** abundance significantly lower in ASD group
 - **Ruminococcaceae** abundance higher in ASD (25.4 vs 13.6, p = 0.0285)
 - **Prevotellaceae** significantly lower in ASD (5.5 vs 21.9, p = 0.0111)
-- [[Firmicutes]] was the most abundant phylum in all samples
+- [[firmicutes]] was the most abundant phylum in all samples
 
 ## Functional Pathway Analysis
 
@@ -41,6 +42,6 @@ source_pages: "pp. 1-7"
 
 # Connections
 
-- Supports findings in [[coretti-2018-gut-microbiota-young-asd-children]] regarding reduced [[Bacteroidetes]]
+- Supports findings in [[coretti-2018-gut-microbiota-young-asd-children]] regarding reduced [[bacteroidetes]]
 - KEGG pathway findings complement metabolic analysis in [[chang-2024-metabolome-amino-acids-asd]]
 - Prevotellaceae reduction aligns with [[li-2023-gut-microbiota-asd-bidirectional-mr]]

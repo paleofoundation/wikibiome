@@ -1,5 +1,4 @@
 ---
-
 title: "The Impact of DNA Extraction Methods on Stool Bacterial and Fungal Microbiota Community Recovery"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2019
 doi: 10.3389/fmicb.2019.00821
 tags: [cardiovascular-disease, CVD, DNA-extraction, methods, fungal-microbiota, bacterial-microbiota, mycobiome, 16S-rRNA, ITS, IHMS, methodology]
 platform: wikibiome
+karen_brain_primitives: [6]
 ---
 
 # The Impact of DNA Extraction Methods on Stool Bacterial and Fungal Microbiota Community Recovery

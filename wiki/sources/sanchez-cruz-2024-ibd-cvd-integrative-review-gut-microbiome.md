@@ -1,5 +1,4 @@
 ---
-
 title: "Inflammatory Bowel Disease and Cardiovascular Disease: An Integrative Review With a Focus on the Gut Microbiome"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 doi: 10.7759/cureus.65136
 tags: [cardiovascular-disease, CVD, inflammatory-bowel-disease, IBD, gut-microbiome, dysbiosis, inflammation, endothelial-dysfunction, TMAO, CRP, FMT, probiotics, review]
 platform: wikibiome
+evidence_level: expert-opinion
+taxa_discussed: [bifidobacterium, escherichia-coli, lactobacillus]
+karen_brain_primitives: [2, 5]
 ---
 
 # Inflammatory Bowel Disease and Cardiovascular Disease: An Integrative Review With a Focus on the Gut Microbiome

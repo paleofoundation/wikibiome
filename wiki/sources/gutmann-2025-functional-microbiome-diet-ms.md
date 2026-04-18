@@ -1,5 +1,4 @@
 ---
-
 title: "Functional Microbiome Reprogramming Links Dietary Interventions to Neuroinflammatory Outcomes in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 tags: [multiple-sclerosis, ketogenic-diet, fasting-diet, microbiome, propionate, tryptophan, indoles, SCFAs, Romboutsia, Roseburia, Bacteroides-thetaiotaomicron, MRI-lesions, clinical-trial, metabolomics]
 doi: "10.21203/rs.3.rs-7434844/v1"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, roseburia]
+karen_brain_primitives: [5, 9]
 ---
 
 # Functional Microbiome Reprogramming Links Dietary Interventions to Neuroinflammatory Outcomes in MS
@@ -18,7 +20,7 @@ platform: wikibiome
 
 - Ketogenic diet (KD) benefits MS primarily through direct modulation of gut microbial function, enriching propionate production and glycerol metabolism modules linked to lower MRI lesion volume
 - Three anaerobic SCFA-producing species -- *Romboutsia timonensis*, *Roseburia intestinalis*, and *Bacteroides thetaiotaomicron* -- emerged as key contributors to KD-specific propionate production
-- KD shifted [[tryptophan]] metabolism away from kynurenine toward microbiome-derived [[indoles]] (indole-3-acetate increased significantly), mechanistically linking diet to neuroprotection via the aryl hydrocarbon receptor (AhR) pathway
+- KD shifted [[tryptophan-metabolism]] metabolism away from kynurenine toward microbiome-derived [[indoles]] (indole-3-acetate increased significantly), mechanistically linking diet to neuroprotection via the aryl hydrocarbon receptor (AhR) pathway
 - Stool propionate levels did not reflect metagenomic propionate production potential, underscoring host-microbiome ecosystem complexity
 - Fasting diet (FD) effects were mediated more by periodic nutrient shortages triggering dynamic microbiome shifts rather than stable functional reprogramming
 - KD depleted *Bifidobacterium* genus compared to fasting and control diets
@@ -47,6 +49,6 @@ platform: wikibiome
 - [[indoles]] -- microbiome-derived indole-3-acetate as AhR ligand with anti-inflammatory CNS effects
 - [[roseburia]] -- *R. intestinalis* as key propionate producer enriched by KD
 - -- *R. timonensis* enriched by KD with propionate production capacity
-- [[Bacteroides-thetaiotaomicron]] -- contributes to propionate production under KD
+- [[bacteroides-thetaiotaomicron]] -- contributes to propionate production under KD
 - -- AhR pathway as target of microbiome-derived indoles for neuroprotection
 - [[short-chain-fatty-acids]] -- propionate production as functional mediator between diet and MS lesions

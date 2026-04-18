@@ -1,5 +1,4 @@
 ---
-
 title: "Antidepressants fluoxetine and amitriptyline induce alterations in intestinal microbiota and gut microbiome function in rats exposed to chronic unpredictable mild stress"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ doi: 10.1038/s41398-021-01254-5
 tags: [cardiovascular-disease, antidepressants, fluoxetine, amitriptyline, gut-microbiome, CUMS, depression, antibiotic-resistance, 16S-rRNA, shotgun-metagenomics]
 platform: wikibiome
 evidence_level: animal-model
+taxa_discussed: [alistipes, butyricimonas, parabacteroides]
 ---
 
 # Antidepressants Fluoxetine and Amitriptyline Induce Alterations in Intestinal Microbiota and Gut Microbiome Function
@@ -45,6 +45,6 @@ Study examining the effect of SSRI fluoxetine (Flu) and tricyclic antidepressant
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Antidepressant-microbiome interactions** - [[Antidepressants]] directly reshape gut microbiota, relevant to CVD patients on SSRIs or tricyclics
+1. **Antidepressant-microbiome interactions** - [[pharmacomicrobiomics|Antidepressants]] directly reshape gut microbiota, relevant to CVD patients on SSRIs or tricyclics
 2. **Antibiotic resistance** - Antidepressants alter the gut antibiotic resistome, with implications for infection management in [[cardiovascular-disease]] patients
 3. **Gut-brain-heart axis** - Depression-associated dysbiosis overlaps with CVD-associated microbiome changes, suggesting shared pathophysiology

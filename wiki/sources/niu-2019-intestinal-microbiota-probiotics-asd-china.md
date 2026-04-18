@@ -11,6 +11,10 @@ tags: [autism, probiotics, microbiota, China, clinical-trial, 16S-rRNA, ABA]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [iron, zinc]
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, lachnospira, roseburia, ruminococcus]
+karen_brain_primitives: [4, 5, 8]
+key_findings: ["Intestinal microbiota", "Probiotics combined with ABA training", "ASD children without GI symptoms"]
 ---
 
 # Key Claims
@@ -27,7 +31,7 @@ condition: "autism spectrum disorder"
 **Key microbiota findings:**
 - Shannon index: ASD group significantly higher than NT (greater abundance but lower evenness)
 - Simpson index: ASD with GI events significantly lower than NT
-- At phylum level: [[Bacteroidetes]] significantly lower in ASD; Firmicutes/Bacteroidetes ratio increased
+- At phylum level: [[bacteroidetes]] significantly lower in ASD; Firmicutes/Bacteroidetes ratio increased
 - At genus level: [[bacteroides-fragilis]], [[bifidobacterium]], [[ruminococcus]], [[roseburia]], [[blautia]] significantly lower in ASD
 - [[lachnospira]] significantly more abundant in ASD
 

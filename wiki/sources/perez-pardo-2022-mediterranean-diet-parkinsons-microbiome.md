@@ -11,6 +11,9 @@ tags: [parkinsons-disease, Mediterranean-diet, microbiome-composition, constipat
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, lead, nickel]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Mediterranean Diet Adherence in People with Parkinson's Disease Reduces Constipation Symptoms and Changes Fecal Microbiome

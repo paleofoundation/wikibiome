@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, 16s-rrna, dorea, butyrate, d
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, zinc]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, dorea]
+karen_brain_primitives: [1]
+key_findings: ["Significant decrease in gut microbiota diversity", "Butyrate-producing bacteria (Bifidobacterium, Akkermansia) significantly decreased", "Dorea was significantly increased"]
 ---
 
 # Key Claims

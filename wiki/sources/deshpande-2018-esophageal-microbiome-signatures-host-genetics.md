@@ -14,7 +14,7 @@ library_category: signatures
 platform: both
 condition: "gastroesophageal-reflux-disease"
 karen_brain_primitives: [1, 4, 5, 6]
-metals_discussed: []
+metals_discussed: [copper, iron]
 taxa_discussed: [streptococcus, prevotella, haemophilus, rothia, leptotrichia, fusobacterium, campylobacter, candida-albicans]
 key_findings:
   - "Three esotypes identified: Streptococcus-dominated, Prevotella-dominated, Haemophilus-intermediate"
@@ -28,7 +28,7 @@ key_findings:
 - **Streptococcus-Prevotella co-exclusion** — these two genera showed a consistent mutually exclusive pattern maintained across disease stages, suggesting competitive exclusion as a fundamental ecological dynamic
 - **STEAP2 metalloreductase SNPs associated with microbiome composition** — host genetic variants in STEAP2 (a six-transmembrane epithelial antigen involved in iron and copper reduction/uptake) correlated with esophageal microbial community structure
 - **[[candida-albicans]] detected** as part of the esophageal mycobiome, establishing an interkingdom dimension to esophageal ecology
-- Additional taxa including [[rothia]], [[leptotrichia]], [[fusobacterium]], and [[campylobacter]] contributed to community structure variation
+- Additional taxa including [[rothia]], [[leptotrichia]], [[fusobacterium]], and [[campylobacter-jejuni|campylobacter]] contributed to community structure variation
 
 # Relevance to WikiBiome
 

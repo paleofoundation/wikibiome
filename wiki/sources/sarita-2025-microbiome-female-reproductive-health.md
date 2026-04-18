@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Sarita]
 year: 2025
 journal: "Scholar's Digest: Journal of Gynecology and Obstetrics"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Scholar's Digest: Journal of Gynecology and Obstetrics 2025 -->
 tags: [postpartum-depression, microbiome, female-reproductive-health, menstrual-cycle, pregnancy, vaginal-microbiome, hormonal-regulation, review]
 library_category: review
 platform: cureva
 condition: "female reproductive health"
+evidence_level: expert-opinion
+taxa_discussed: [lactobacillus]
+key_findings: ["Human microbiome plays a pivotal role", "Vaginal microbiome composition", "Dysbiosis in vaginal and gut microbiota"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "Shift work is significantly and positively associated with possible gastro-esophageal reflux disease: A meta-analysis study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2022
 doi: "10.3389/fpubh.2022.980603"
 tags: [gerd, gastroesophageal-reflux, shift-work, circadian-rhythm, occupational-health, night-shift, rotating-shift, meta-analysis, risk-factor]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Shift work is significantly and positively associated with possible gastro-esophageal reflux disease: A meta-analysis study

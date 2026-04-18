@@ -1,5 +1,4 @@
 ---
-
 title: "Population Study of the Gut Microbiome: Associations with Diet, Lifestyle, and Cardiometabolic Disease"
 type: source
 created: 2026-04-09
@@ -12,15 +11,16 @@ tags: [cardiovascular-disease, Framingham-Heart-Study, 16S-rRNA-sequencing, micr
 source_pdf: "raw/cardiovascular disease/Comorbidities cardiovascular disease microbiome/s13073-021-01007-5.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Key Claims
 
 - Overall microbial diversity decreases with increasing 10-year CVD risk and body mass index in the Framingham Heart Study (FHS) population (n=1423)
-- Lifestyle factors, especially diet and exercise, are linked to [[microbial diversity]]; Shannon diversity was significantly lower in participants with CVD and those with the highest CVD risk scores (>=20%)
+- Lifestyle factors, especially diet and exercise, are linked to [[dysbiosis|microbial diversity]]; Shannon diversity was significantly lower in participants with CVD and those with the highest CVD risk scores (>=20%)
 - The study identified significant microbial associations with CVD risk, metabolic syndrome, and type 2 diabetes as well as shared associations between microbial species and cardiometabolic subphenotypes
 - Bacteroidetes and Firmicutes were the dominant phyla; their relative abundances varied greatly (Bacteroidetes 0-98%, Firmicutes 2-99%), with Shannon diversity strongly correlated to Firmicutes abundance
-- Average 267 OTUs per participant (range 32-474), demonstrating substantial inter-individual variation in [[microbiome composition]]
+- Average 267 OTUs per participant (range 32-474), demonstrating substantial inter-individual variation in [[dysbiosis|microbiome composition]]
 - Physical activity, dietary patterns, and medication use (antihypertensives, statins, insulin/hypoglycemic agents, triglyceride-lowering drugs) were all significantly associated with microbiome variation
 
 # Methods/Findings
@@ -34,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Landmark population-level study linking [[microbiome composition]] to [[cardiovascular-disease]] risk factors
-- Diet and exercise findings relevant to [[microbiome diet]] interactions in CVD
-- Medication associations connect to [[microbiome-modulating drugs]] and statin/antihypertensive effects
+- Landmark population-level study linking [[dysbiosis|microbiome composition]] to [[cardiovascular-disease]] risk factors
+- Diet and exercise findings relevant to [[dietary-metal-microbiome-interactions|microbiome diet]] interactions in CVD
+- Medication associations connect to [[pharmacomicrobiomics|microbiome-modulating drugs]] and statin/antihypertensive effects
 - Metabolic syndrome overlap informs [[comorbidities]] in CVD-microbiome research
-- Microbial diversity as risk marker extends [[microbial biomarkers]] for cardiovascular stratification
-- FHS cohort design complements [[Mendelian randomization]] approaches to CVD-microbiome causality
+- Microbial diversity as risk marker extends [[microbial-biomarkers]] for cardiovascular stratification
+- FHS cohort design complements [[mendelian-randomization]] approaches to CVD-microbiome causality

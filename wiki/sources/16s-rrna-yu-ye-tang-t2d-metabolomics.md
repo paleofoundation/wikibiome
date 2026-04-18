@@ -6,16 +6,16 @@ updated: 2026-04-09
 authors: [Various]
 year: 2021
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2021 -->
 tags: [type-1-diabetes, autoimmune, 16s-rrna, metabolomics, traditional-chinese-medicine, yu-ye-tang, gut-microbiome, dysbiosis]
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
-karen_brain_primitives: []
-metals_discussed: []
+karen_brain_primitives: [1]
+metals_discussed: [zinc]
 taxa_discussed: []
 evidence_level: "not yet classified"
-key_findings: []
+key_findings: ["Integrated 16S rRNA sequencing and metabolomics", "Gut microbiota modulation", "Traditional herbal formulations"]
 ---
 
 # Key Claims

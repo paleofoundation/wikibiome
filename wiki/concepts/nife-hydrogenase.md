@@ -1,5 +1,4 @@
 ---
-
 title: "NiFe-Hydrogenase"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [virulence-enzyme, nickel-biology, iron-biology, metal-cofactor, anaerobic-metabolism]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels; Primitive 9: Oxygen State as Ecological Determinant"
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 6, 8, 9]
+seo_target: "nife-hydrogenase microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview
@@ -95,7 +97,7 @@ NiFe-hydrogenase is a paradigm for **Primitive 4: Metal Dependencies as Achilles
 **Iron availability and bacterial competition:**
 
 - [[helicobacter-pylori|H. pylori]] must compete with host [[transferrin]], [[lactoferrin]], and [[lipocalin-2]] for iron
-- In dysbiotic states with [[iron]] overload (e.g., [[crohns-disease]], [[hemochromatosis]]), H. pylori thrives
+- In dysbiotic states with [[iron]] overload (e.g., [[crohns-disease]], [[iron|hemochromatosis]]), H. pylori thrives
 - [[iron]] sequestration via nutritional immunity limits H. pylori burden
 
 **Sulfate-reducer ecology:**

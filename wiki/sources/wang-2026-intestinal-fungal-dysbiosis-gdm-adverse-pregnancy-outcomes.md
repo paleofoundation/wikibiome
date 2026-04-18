@@ -37,8 +37,8 @@ Case-control study of 188 pregnant women (96 GDM diagnosed by 75g OGTT, 92 healt
 
 # Relevance to WikiBiome
 
-- Informs **[[gestational-diabetes]]** entity page: documents fungal dysbiosis signature with clinical relevance to pregnancy outcomes.
-- Informs **[[candida]]** entity page: positive correlation with glucose metabolism in pregnancy, clinical relevance.
+- Informs **[[type-2-diabetes|gestational-diabetes]]** entity page: documents fungal dysbiosis signature with clinical relevance to pregnancy outcomes.
+- Informs **[[candida-albicans|candida]]** entity page: positive correlation with glucose metabolism in pregnancy, clinical relevance.
 - Informs **[[saccharomyces]]** entity page: protective role against adverse pregnancy outcomes.
 - Informs **[[mycobiome]]** concept page: pregnancy-specific mycobiome dynamics.
 

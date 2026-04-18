@@ -1,5 +1,4 @@
 ---
-
 title: "Berberine a Traditional Chinese Drug Repurposing: Its Actions in Inflammation-Associated Ulcerative Colitis and Cancer Therapy"
 type: source
 created: 2026-04-09
@@ -7,15 +6,17 @@ updated: 2026-04-09
 authors: [Cuipeng Zhu, Kaiqi Li, Xiao-Xu Peng, Tong-Jia Yao, Zi-Yu Wang, Ping Hu, Demin Cai, Hao-Yu Liu]
 journal: Frontiers in Immunology
 year: 2022
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Immunology 2022 -->
 tags: [colon-cancer, berberine, drug-repurposing, ulcerative-colitis, NF-kB, AMPK, Wnt-beta-catenin, gut-microbiota, inflammation, Fusobacterium-nucleatum, macrophage-polarization, colorectal-cancer]
 platform: wikibiome
 evidence_level: expert-opinion
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium, blautia, enterococcus, escherichia-coli, fusobacterium-nucleatum, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- [[Berberine]] (BBR), an isoquinoline alkaloid from Coptidis Rhizoma, is a multi-target drug candidate for inflammation-associated [[ulcerative-colitis]] (UC) and [[colon cancer]] therapy
+- [[polyphenols|Berberine]] (BBR), an isoquinoline alkaloid from Coptidis Rhizoma, is a multi-target drug candidate for inflammation-associated [[ulcerative-colitis]] (UC) and [[colorectal-cancer]] therapy
 - BBR modulates gut microbiota composition by boosting Blautia, Lactobacillus, Bacteroides, and Bifidobacterium while inhibiting pathogenic Enterococcus, Escherichia coli, and Akkermansia with inflammation
 - BBR maintains [[fusobacterium-nucleatum]]-induced intracellular signaling pathways and reduces mucosal immune factors (IL-21, IL-22, IL-31, CD40), facilitating intestinal microbiota homeostasis
 - In UC, BBR preserves colonic mucosal tight junction integrity, modifies Th17/Treg balance, reduces pro-inflammatory cytokines (IL-6, IL-1beta, TNF-alpha), and increases anti-inflammatory IL-10
@@ -34,9 +35,9 @@ evidence_level: expert-opinion
 
 # Connections
 
-- BBR as a drug repurposing candidate complements [[Xia 2024 - Drug Repurposing Cancer Therapy]] comprehensive review and [[Metz 2019 - Drug Discovery BFT Inhibition]] in silico approaches
-- NF-kB inhibition parallels [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] where FMT suppresses NF-kB p65 in CAC
-- Microbiome modulation by BBR relevant to [[probiotics]] research in [[Rafter 2004 - Probiotics Colon Cancer Development]]
-- UC-to-CRC progression context connects to [[Simin 2020 - Antibiotic Use CRC Risk]] inflammation-cancer axis
-- Wnt/beta-catenin pathway targeting links to [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] F. nucleatum FadA/Wnt discussion
+- BBR as a drug repurposing candidate complements [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]] comprehensive review and [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]] in silico approaches
+- NF-kB inhibition parallels [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] where FMT suppresses NF-kB p65 in CAC
+- Microbiome modulation by BBR relevant to [[probiotics]] research in [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]]
+- UC-to-CRC progression context connects to [[simin-2020-antibiotic-use-crc-risk|Simin 2020 - Antibiotic Use CRC Risk]] inflammation-cancer axis
+- Wnt/beta-catenin pathway targeting links to [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] F. nucleatum FadA/Wnt discussion
 - [[colorectal-cancer]]

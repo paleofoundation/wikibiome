@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, carbon-monoxide, carboxyhemoglobin, autoimmunit
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5]
+key_findings: ["Elevated levels of serum anti-tubulin, CaM kinase II, anti-dopamine receptor D1, and SpCO", "ASD severity is correlated with SpCO", "Anti-lysoganglioside GM1"]
 ---
 
 # Key Claims

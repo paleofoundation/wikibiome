@@ -1,5 +1,4 @@
 ---
-
 title: "Metabolomics: a promising tool for deciphering metabolic impairment in heavy metal toxicities"
 type: source
 created: 2026-04-09
@@ -17,12 +16,12 @@ key_findings:
   - "Metabolomics is a state-of-the-art analytical tool for identifying perturbations caused by heavy metal exposure; arsenic disrupts amino acid metabolism and TCA cycle with urinary biomarkers strongly associated with endocrine disturbances"
   - "Lead exposure alters four lipid metabolites and six amino acids; cadmium induces mitochondrial electron transport chain dysfunction causing oxidative stress via ROS generation"
   - "Mercury (MeHg) exposure is linked to hepatotoxicity through altered bile acid metabolism and cholesterol pathways"
-karen_brain_primitives: []
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
-- [[metabolomics]] is a state-of-the-art analytical tool for identifying perturbations in metabolic pathways caused by [[heavy metals]] exposure, with critical roles in [[oxidative-stress|oxidative stress]], lipid metabolism, and amino acid metabolism
+- [[metabolomics]] is a state-of-the-art analytical tool for identifying perturbations in metabolic pathways caused by [[heavy-metals]] exposure, with critical roles in [[oxidative-stress|oxidative stress]], lipid metabolism, and amino acid metabolism
 - Arsenic exposure disrupts amino acid metabolism and TCA cycle, with urinary biomarker metabolites strongly associated with endocrine disturbances and oxidative stress
 - Lead exposure alters four lipid metabolites and six amino acids, providing evidence of impairment in specific metabolic pathways through induction of oxidative stress
 - Cadmium induces mitochondrial electron transport chain dysfunction, causing oxidative stress via ROS generation and disruption of cellular redox homeostasis
@@ -42,8 +41,8 @@ karen_brain_primitives: []
 
 # Connections
 
-- Directly relevant to understanding metabolic consequences of [[arsenic]], [[Cadmium Toxicity]], [[Lead Toxicity]], [[Mercury Toxicity]]
-- Lipid and amino acid perturbations link to [[bile acids]] metabolism as described in [[di-ciaula-2017-bile-acid-physiology]]
+- Directly relevant to understanding metabolic consequences of [[arsenic]], [[cadmium|Cadmium Toxicity]], [[lead|Lead Toxicity]], [[mercury|Mercury Toxicity]]
+- Lipid and amino acid perturbations link to [[bile-acid-metabolism]] metabolism as described in [[di-ciaula-2017-bile-acid-physiology]]
 - ROS-mediated toxicity mechanisms connect to [[oxidative-stress|oxidative stress]] pathways disrupted by heavy metals
 - Metabolomics approaches complement microbiome profiling in [[gut-metal-microbiome|gut microbiome and metal exposure]] studies
 - Biomarker discovery relevant to [[li-2019-heavy-metal-metabolic-health-gut-microbiome]] metabolic health findings

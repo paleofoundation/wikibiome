@@ -3,10 +3,12 @@ title: "Vitamin D Supplementation"
 type: intervention
 created: 2026-04-09
 updated: 2026-04-09
+last_substantive_update: 2026-04-09
 sources: []
 tags: [supplement, vitamin-d, immunomodulation, autoimmune, evidence-based]
 intervention_class: supplement
 cureva_status: partial
+karen_brain_primitives: [2, 5]
 
 triangles:
   - condition: "[[multiple-sclerosis]]"

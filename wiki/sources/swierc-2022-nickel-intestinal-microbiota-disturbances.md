@@ -1,5 +1,4 @@
 ---
-
 title: "The influence of nickel on intestinal microbiota disturbances"
 type: source
 created: 2026-04-09
@@ -10,17 +9,21 @@ year: 2022
 doi: "10.21164/pomjlifesci.810"
 tags: [gerd, gastroesophageal-reflux, nickel, heavy-metals, intestinal-microbiota, dysbiosis, nickel-allergy, systemic-nickel-allergy-syndrome, obesity, low-nickel-diet, helicobacter-pylori, lactobacillus, bifidobacterium, firmicutes, bacteroidetes, SNAS]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [lead, nickel]
+taxa_discussed: [bifidobacterium, helicobacter-pylori, lactobacillus]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # The influence of nickel on intestinal microbiota disturbances
 
 ## Key Claims
 
-- [[nickel]] is an essential element for certain biochemical reactions in microorganisms but excess intake contributes to [[dysbiosis]], especially in patients with [[systemic nickel allergy syndrome]]
+- [[nickel]] is an essential element for certain biochemical reactions in microorganisms but excess intake contributes to [[dysbiosis]], especially in patients with [[nickel-allergy|systemic nickel allergy syndrome]]
 - Nickel-dependent enzymes (urease, hydrogenase, CO-dehydrogenase) in bacteria and lower eukaryotes are critical for microbial metabolism; nickel-binding pathogen growth is favored by nickel availability
 - Excess nickel can cause dysbiosis by increasing harmful microorganisms at the expense of [[probiotics|probiotic bacteria]], affecting host metabolism and contributing to [[obesity]]
-- A [[low-nickel diet]] seems beneficial as an additional therapy during eradication of [[helicobacter-pylori]], which uses nickel for its urease enzyme
-- Nickel exposure may lead to decreased *[[bifidobacterium]]* and *[[lactobacillus]]*, with a disturbed ratio of [[Firmicutes]] to [[Bacteroidetes]]
+- A [[low-nickel-diet]] seems beneficial as an additional therapy during eradication of [[helicobacter-pylori]], which uses nickel for its urease enzyme
+- Nickel exposure may lead to decreased *[[bifidobacterium]]* and *[[lactobacillus]]*, with a disturbed ratio of [[firmicutes]] to [[bacteroidetes]]
 - Children with increased body weight have relatively low proportions of *Bifidobacterium* and high concentrations of *Lactobacillus* spp., connecting nickel-microbiome disruption to metabolic outcomes
 - Some strains of bacteria seem to reduce host exposure to nickel by biosorption or sequestration
 
@@ -44,4 +47,4 @@ platform: wikibiome
 - Nickel-dependent urease in H. pylori links to inverse H. pylori-GERD relationship in [[sugihartono-2022-gastric-microbiota-hpylori-gerd]]
 - Low-nickel diet as therapeutic approach relates to dietary interventions for GERD management
 - Firmicutes/Bacteroidetes ratio disruption parallels [[dysbiosis]] patterns seen across GERD studies
-- Heavy metal-microbiome interactions extend to broader [[heavy metals]] and GERD connections
+- Heavy metal-microbiome interactions extend to broader [[heavy-metals]] and GERD connections

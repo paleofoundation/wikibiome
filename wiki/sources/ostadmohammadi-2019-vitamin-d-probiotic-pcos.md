@@ -1,5 +1,4 @@
 ---
-
 title: "Vitamin D and probiotic co-supplementation affects mental health, hormonal, inflammatory and oxidative stress parameters in women with polycystic ovary syndrome"
 type: source
 created: 2026-04-09
@@ -10,14 +9,17 @@ year: 2019
 tags: [PCOS, vitamin-D, probiotics, RCT, mental-health, testosterone, inflammation, oxidative-stress, hs-CRP]
 doi: "10.1186/s13048-019-0480-x"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- Co-administration of [[vitamin D]] (50,000 IU every 2 weeks) and [[probiotics]] (8x10^9 CFU/day) for 12 weeks significantly improved mental health parameters, hormonal profiles, [[inflammatory markers]], and [[oxidative-stress|oxidative stress]] in women with [[pcos]]
-- The intervention significantly reduced total [[testosterone]], [[hirsutism]] (mFG scores), [[hs-CRP]], and [[malondialdehyde]] (MDA) while increasing total antioxidant capacity (TAC) and glutathione (GSH)
+- Co-administration of [[vitamin-d-supplementation]] (50,000 IU every 2 weeks) and [[probiotics]] (8x10^9 CFU/day) for 12 weeks significantly improved mental health parameters, hormonal profiles, [[inflammation|inflammatory markers]], and [[oxidative-stress|oxidative stress]] in women with [[pcos]]
+- The intervention significantly reduced total [[testosterone]], [[hyperandrogenism|hirsutism]] (mFG scores), [[inflammation|hs-CRP]], and [[oxidative-stress|malondialdehyde]] (MDA) while increasing total antioxidant capacity (TAC) and glutathione (GSH)
 - Mental health improved: significant reductions in Beck Depression Inventory, General Health Questionnaire, and Depression Anxiety Stress Scale scores
-- Co-supplementation did not affect [[SHBG]], plasma NO levels, acne, or alopecia
+- Co-supplementation did not affect [[hyperandrogenism|SHBG]], plasma NO levels, acne, or alopecia
 
 # Methods/Findings
 
@@ -36,7 +38,7 @@ platform: wikibiome
 
 # Connections
 
-- Provides evidence for synergistic benefits of [[vitamin D]] and [[probiotics]] in PCOS, supporting [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]]
+- Provides evidence for synergistic benefits of [[vitamin-d-supplementation]] and [[probiotics]] in PCOS, supporting [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]]
 - The gut-brain axis mechanism connects mental health improvements to [[gut-metal-microbiome|gut microbiota]] modulation
 - Anti-inflammatory effects (reduced CRP) relate to [[barrea-2019-mediterranean-diet-pcos]] showing inflammation as a key PCOS feature
 - Supports [[calcaterra-2023-probiotics-pcos-adolescents]] on probiotics as a management strategy for PCOS

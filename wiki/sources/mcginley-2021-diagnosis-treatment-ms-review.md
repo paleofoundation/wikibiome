@@ -1,5 +1,4 @@
 ---
-
 title: "Diagnosis and Treatment of Multiple Sclerosis: A Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2021
 doi: 10.1001/jama.2020.26858
 tags: [multiple-sclerosis, diagnosis, treatment, disease-modifying-therapy, DMT, McDonald-criteria, epidemiology, clinical-review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Diagnosis and Treatment of Multiple Sclerosis: A Review
@@ -52,7 +52,7 @@ Comprehensive table of DMTs with relapse rate reductions:
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This review provides essential clinical context for understanding how DMTs affect the immune system, which in turn shapes the [[gut-microbiome]]. Many DMTs alter lymphocyte populations and cytokine profiles that are also influenced by [[gut-microbiome]] composition and [[microbial-metabolites]]. The environmental risk factors noted (EBV, smoking, vitamin D, obesity) overlap with factors known to influence [[dysbiosis]], suggesting that the [[gut-brain-axis]] may mediate some of these associations.
+This review provides essential clinical context for understanding how DMTs affect the immune system, which in turn shapes the [[gut-microbiome]]. Many DMTs alter lymphocyte populations and cytokine profiles that are also influenced by [[gut-microbiome]] composition and [[short-chain-fatty-acids|microbial-metabolites]]. The environmental risk factors noted (EBV, smoking, vitamin D, obesity) overlap with factors known to influence [[dysbiosis]], suggesting that the [[gut-brain-axis]] may mediate some of these associations.
 
 ## Limitations
 

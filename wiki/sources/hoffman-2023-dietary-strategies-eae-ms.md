@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiome-Modulated Dietary Strategies in EAE and Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,17 +9,20 @@ year: 2023
 tags: [dietary-fiber, multiple-sclerosis, EAE, gut-microbiome, dietary-interventions, SCFA, Mediterranean-diet, ketogenic-diet, intermittent-fasting, Firmicutes-Bacteroidetes-ratio]
 doi: "10.3389/fnut.2023.1146748"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bifidobacterium, blautia, faecalibacterium-prausnitzii, lachnospiraceae]
+karen_brain_primitives: [5]
 ---
 
 # Gut Microbiome-Modulated Dietary Strategies in EAE and Multiple Sclerosis
 
 ## Key Claims
 
-- The Western diet (high fat, high salt, low [[dietary-fiber]]) promotes [[gut-dysbiosis]] and gut barrier leakage leading to exacerbated neuroinflammation in MS
-- [[Short-chain-fatty-acids]] (SCFAs) produced by fiber fermentation promote anti-inflammatory pathways by balancing [[Th17]]/[[Treg]] responses; SCFA levels are reduced in fecal samples from MS patients
+- The Western diet (high fat, high salt, low [[dietary-fiber]]) promotes [[dysbiosis|gut-dysbiosis]] and gut barrier leakage leading to exacerbated neuroinflammation in MS
+- [[short-chain-fatty-acids]] (SCFAs) produced by fiber fermentation promote anti-inflammatory pathways by balancing [[inflammation|Th17]]/[[inflammation|Treg]] responses; SCFA levels are reduced in fecal samples from MS patients
 - Dietary fiber supplementation reduced EAE disease incidence from 55% (normal diet) to 23% (cellulose-rich diet) in animal models, with neurological symptoms delayed by about 1 week
-- The [[Firmicutes]]/[[Bacteroidetes]] ratio is emerging as a biomarker for dysbiosis and disease in MS, though confounding factors remain
-- Multiple dietary strategies show microbiome-mediated benefits: [[Mediterranean-diet]] (reduced endotoxins, anti-inflammatory), isoflavone diet (increased bacteria deficient in MS), high vegetable/low protein diet (increased *Lachnospiraceae*), and intermittent fasting (increased anti-inflammatory microbes and decreased *Bifidobacterium*)
+- The [[firmicutes]]/[[bacteroidetes]] ratio is emerging as a biomarker for dysbiosis and disease in MS, though confounding factors remain
+- Multiple dietary strategies show microbiome-mediated benefits: [[mediterranean-diet]] (reduced endotoxins, anti-inflammatory), isoflavone diet (increased bacteria deficient in MS), high vegetable/low protein diet (increased *Lachnospiraceae*), and intermittent fasting (increased anti-inflammatory microbes and decreased *Bifidobacterium*)
 
 ## Methods/Findings
 
@@ -32,7 +34,7 @@ platform: wikibiome
 
 ## Connections
 
-- Provides the dietary intervention framework connecting , [[Mediterranean-diet]], and [[ketogenic-diet]] approaches to MS via [[gut-microbiome]] modulation
+- Provides the dietary intervention framework connecting , [[mediterranean-diet]], and [[ketogenic-diet]] approaches to MS via [[gut-microbiome]] modulation
 - The SCFA-Treg connection links to clostridial depletion in [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and butyrate-producing bacteria loss in [[jangi-2016-gut-microbiome-alterations-ms]]
 - Relevant to as a complement or alternative to pharmacological disease-modifying therapy
 - The isoflavone findings connect to research in MS

@@ -30,6 +30,8 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Comprehensive review of cadmium's toxicity mechanisms—oxidative stress, mitochondrial damage, metallothionein dysregulation, and carcinogenicity. WikiBiome relies on this for understanding how cadmium burden integrates with dysbiotic inflammation to drive multi-organ pathology across kidney disease, cancer, and metabolic conditions."
+evidence_level: expert-opinion
+metals_discussed: [cadmium, lead, nickel, selenium, zinc]
 ---
 
 # The Effects of Cadmium Toxicity
@@ -38,12 +40,12 @@ why_keystone: "Comprehensive review of cadmium's toxicity mechanisms—oxidative
 
 - [[cadmium]] is a toxic non-essential transition metal with a half-life of 25-30 years in humans, posing long-term accumulation risks
 - Occupational and environmental cadmium exposure is linked to cancers of the breast, lung, prostate, nasopharynx, pancreas, and kidney
-- The liver and kidneys are extremely sensitive to cadmium due to their capacity to synthesize [[metallothioneins]] (MT), which bind toxic Cd ions
-- [[Mitochondria]] are key intracellular targets for cadmium; Cd inhibits respiratory chain complexes II and III, reduces ATP synthesis, generates [[reactive oxygen species]] (ROS), and induces apoptosis via caspase-8 and caspase-9 activation
-- Cadmium induces [[epigenetic changes]] including alterations in DNA methylation, histone modifications, and micro RNA expression
+- The liver and kidneys are extremely sensitive to cadmium due to their capacity to synthesize [[metal-homeostasis|metallothioneins]] (MT), which bind toxic Cd ions
+- [[mitochondrial-dysfunction|Mitochondria]] are key intracellular targets for cadmium; Cd inhibits respiratory chain complexes II and III, reduces ATP synthesis, generates [[oxidative-stress|reactive oxygen species]] (ROS), and induces apoptosis via caspase-8 and caspase-9 activation
+- Cadmium induces [[epigenetic-modifications|epigenetic changes]] including alterations in DNA methylation, histone modifications, and micro RNA expression
 - Cadmium is classified as a proven human carcinogen (IARC Group 1)
 - Cadmium acts as an [[endocrine disruptor]], binding estrogen receptor alpha and affecting MAPK signaling pathways
-- Environmental cadmium may be a risk factor for [[osteoporosis]], rheumatoid arthritis, and osteoarthritis
+- Environmental cadmium may be a risk factor for [[chronic-kidney-disease|osteoporosis]], rheumatoid arthritis, and osteoarthritis
 
 ## Methods/Findings
 

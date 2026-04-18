@@ -1,5 +1,4 @@
 ---
-
 title: "Genomics of Schizophrenia: Time to Consider the Gut Microbiome?"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2014
 doi: "10.1038/mp.2014.93"
 tags: [schizophrenia, gut-microbiome, genomics, neurodevelopment, gut-brain-axis, GABA, serotonin, tryptophan-metabolism, maternal-infection, perinatal]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [bifidobacterium, clostridium, escherichia-coli, lactobacillus]
 ---
 
 # Genomics of Schizophrenia: Time to Consider the Gut Microbiome?

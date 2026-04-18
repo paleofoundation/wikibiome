@@ -11,6 +11,9 @@ tags: [postpartum-depression, metabolomics, mendelian-randomization, blood-metab
 library_category: causal-microbiome
 platform: cureva
 condition: "postpartum depression"
+evidence_level: computational-prediction
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["7 metabolites", "1 metabolite protective"]
 ---
 
 # Key Claims

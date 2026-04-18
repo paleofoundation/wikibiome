@@ -39,6 +39,7 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: Catalogues the molecular mechanisms by which cadmium acts as a metalloestrogen — ERα binding, epigenetic reprogramming, DNA repair inhibition — in breast tissue. Supports the mechanistic layer of WikiBiome's breast cancer signature and the broader metalloestrogen concept that connects Cd exposure to hormone-driven pathology across multiple conditions.
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Cadmium and breast cancer - Current state and research gaps in the underlying mechanisms
@@ -46,11 +47,11 @@ why_keystone: Catalogues the molecular mechanisms by which cadmium acts as a met
 ## Key Claims
 
 - [[cadmium]] (Cd) is a heavy metal with strong carcinogenic properties linked to [[breast-cancer]] risk, though epidemiological data on the association remain inconsistent
-- Cd accumulates preferentially in the [[mammary gland]], with the kidney as the main organ for long-term storage
-- The carcinogenic potential of Cd extends far beyond its [[estrogenic activity]] and involves multiple molecular mechanisms
-- [[Metallothioneins]] are mainly responsible for Cd accumulation in breast cells and their higher expression predicts cancer progression and drug resistance
-- Cd acts as a [[metalloestrogen]] by binding to [[estrogen receptor alpha]] (ERa) with a Kd of 4.5 x 10^-10 M, activating it and inducing expression of estrogen-regulated genes
-- Epigenetic alterations including [[DNA methylation]], [[histone modifications]], and changes in [[miRNA]]/[[lncRNA]] expression are key mechanisms of Cd-induced breast carcinogenesis
+- Cd accumulates preferentially in the [[breast-cancer|mammary gland]], with the kidney as the main organ for long-term storage
+- The carcinogenic potential of Cd extends far beyond its [[metalloestrogens|estrogenic activity]] and involves multiple molecular mechanisms
+- [[metal-homeostasis|Metallothioneins]] are mainly responsible for Cd accumulation in breast cells and their higher expression predicts cancer progression and drug resistance
+- Cd acts as a [[metalloestrogens|metalloestrogen]] by binding to [[estrobolome|estrogen receptor alpha]] (ERa) with a Kd of 4.5 x 10^-10 M, activating it and inducing expression of estrogen-regulated genes
+- Epigenetic alterations including [[epigenetic-modifications|DNA methylation]], [[epigenetic-modifications|histone modifications]], and changes in [[epigenetic-modifications|miRNA]]/[[epigenetic-modifications|lncRNA]] expression are key mechanisms of Cd-induced breast carcinogenesis
 - Cd exposure induces [[oxidative-stress|oxidative stress]] through ROS generation, causing DNA damage and activating multiple signaling pathways
 
 ## Methods/Findings
@@ -68,7 +69,7 @@ why_keystone: Catalogues the molecular mechanisms by which cadmium acts as a met
 
 ## Connections
 
-- Directly relevant to [[Metalloestrogens]] and 
+- Directly relevant to [[metalloestrogens]] and 
 - Overlaps with [[aquino-2012-cadmium-nickel-metalloestrogens]] on ERa binding mechanisms
 - Complements [[liu-2022-heavy-metals-breast-cancer-meta-analysis]] on epidemiological evidence for Cd-breast cancer association
 - Connects to [[ali-2024-heavy-metals-breast-cancer-review]] regarding cadmium biomarker levels in breast cancer patients

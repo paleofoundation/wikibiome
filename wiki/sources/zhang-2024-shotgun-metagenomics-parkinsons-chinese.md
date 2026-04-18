@@ -12,13 +12,15 @@ library_category: signatures
 platform: both
 condition: "Parkinson's disease"
 evidence_level: cross-sectional
+metals_discussed: [arsenic, cadmium]
+karen_brain_primitives: [1, 5]
 ---
 
 # Gut Metagenomics of Parkinson's Disease in a Chinese Cohort
 
 ## Summary
 
-This [[shotgun-metagenomics]] study examines the gut [[microbiome]] of [[parkinsons-disease]] patients in a Chinese population, providing important cross-cultural data that tests the universality of PD microbiome signatures identified in Western populations.
+This [[shotgun-metagenomics]] study examines the gut [[gut-microbiome|microbiome]] of [[parkinsons-disease]] patients in a Chinese population, providing important cross-cultural data that tests the universality of PD microbiome signatures identified in Western populations.
 
 ## Key Findings
 
@@ -31,7 +33,7 @@ This [[shotgun-metagenomics]] study examines the gut [[microbiome]] of [[parkins
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Cross-cultural replication of the PD [[microbiome]] signature in a Chinese cohort strengthens the metallomic-microbiome framework. China has distinct environmental metal exposure profiles (different industrial pollution patterns, dietary metal sources from rice-based diets with arsenic and cadmium exposure). Despite these differences, the core [[dysbiosis]] pattern persists, suggesting that the microbiome-metal disruption in PD operates through conserved mechanisms. The population-specific variations may reflect different metal exposure profiles modulating a universal disease process.
+Cross-cultural replication of the PD [[gut-microbiome|microbiome]] signature in a Chinese cohort strengthens the metallomic-microbiome framework. China has distinct environmental metal exposure profiles (different industrial pollution patterns, dietary metal sources from rice-based diets with arsenic and cadmium exposure). Despite these differences, the core [[dysbiosis]] pattern persists, suggesting that the microbiome-metal disruption in PD operates through conserved mechanisms. The population-specific variations may reflect different metal exposure profiles modulating a universal disease process.
 
 ## Limitations
 

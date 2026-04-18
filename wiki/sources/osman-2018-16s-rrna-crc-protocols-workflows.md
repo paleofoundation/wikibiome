@@ -1,5 +1,4 @@
 ---
-
 title: "16S rRNA Gene Sequencing for Deciphering the Colorectal Cancer Gut Microbiome: Current Protocols and Workflows"
 type: source
 created: 2026-04-09
@@ -10,13 +9,15 @@ year: 2018
 tags: [colon-cancer, 16S-rRNA, sequencing-protocols, microbiome-methods, colorectal-cancer, gut-microbiome, QIIME, MOTHUR, biomarkers]
 doi: "10.3389/fmicb.2018.00767"
 platform: wikibiome
+evidence_level: in-vitro
+taxa_discussed: [bacteroides-fragilis, fusobacterium-nucleatum, peptostreptococcus, porphyromonas]
 ---
 
 # 16S rRNA Gene Sequencing for Deciphering the Colorectal Cancer Gut Microbiome: Current Protocols and Workflows
 
 ## Key Claims
 
-- Lack of standardization in sample handling, nucleic acid extraction, 16S rRNA gene primer selection, sequencing depth, and bioinformatics analysis has contributed to discrepancies across CRC [[microbiome-composition]] studies
+- Lack of standardization in sample handling, nucleic acid extraction, 16S rRNA gene primer selection, sequencing depth, and bioinformatics analysis has contributed to discrepancies across CRC [[dysbiosis|microbiome-composition]] studies
 - CRC-associated bacteria identified across geographically diverse studies consistently include *Fusobacterium nucleatum*, *Bacteroides*, *Porphyromonas*, *Peptostreptococcus*, and *Parvimonas micra* (Table 1 compiles 18 studies from 2011-2016)
 - The most commonly used workflow for CRC 16S rRNA sequencing involves DNA extraction with mechanical homogenization, amplification of V3/V4 regions, OTU picking via QIIME or MOTHUR, and classification against Greengenes or RDP databases
 - *F. nucleatum* has been consistently reported across multiple geographic locations as a CRC biomarker, with its role in tumorigenesis and metastasis confirmed in animal models and cell culture experiments

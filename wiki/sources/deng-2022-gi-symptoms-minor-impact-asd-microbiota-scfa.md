@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, SCFAs, propionic-acid, butyric-acid, valeric-ac
 library_category: metabolomics
 platform: 16S-rRNA-GC-MS
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+taxa_discussed: [bacteroides-fragilis, blautia, campylobacter-jejuni]
+karen_brain_primitives: [4]
 ---
 
 # Overview
@@ -41,10 +45,10 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 - Beta diversity significantly different (ANOSIM R = 0.1337, p = 0.001)
 
 ### Enriched in ASD (LEfSe, LDA > 4)
-- **[[Veillonellaceae]]**, **Selenomonadales**
+- **[[veillonellaceae|Veillonellaceae]]**, **Selenomonadales**
 - **[[Agaribacter]]**, **[[Massilia]]**
 - **[[Oxalobacteraceae]]**, **Burkholderiales**
-- **[[Gammaproteobacteria]]**, **[[Proteobacteria]]**
+- **[[dysbiosis|Gammaproteobacteria]]**, **[[proteobacteria]]**
 
 ### Enriched in TD
 - **[[bacteroides-fragilis]]**, **Bacteroidaceae**, **Bacteroidia**, **Bacteroidota**
@@ -56,22 +60,22 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 - Butyric acid moderately **negatively correlated with SRS** (-0.47)
 - Butyric acid moderately **positively correlated with CSHQ** (0.47)
 - Metastat analysis: [[Massilia]], [[Megamonas]], [[Sphingomonas]], [[Agaribacter]] more abundant in ASD
-- [[Bacteroidetes]] and [[blautia]] less abundant in ASD
+- [[bacteroidetes]] and [[blautia]] less abundant in ASD
 
 ## Metastat/FAPROTAX Functional Profiling
 
 - Alpha diversity significantly positively correlated with eating behaviors
-- [[Hydrogenedentes]], [[Elusimicrobia]], [[Methylomirabilota]], Crenarchaeota, [[Halobacteria]], [[Chloroflexi]], Actinobacteria, [[Campylobacter]] strongly associated with SCFAs
+- [[Hydrogenedentes]], [[Elusimicrobia]], [[Methylomirabilota]], Crenarchaeota, [[Halobacteria]], [[Chloroflexi]], Actinobacteria, [[campylobacter-jejuni]] strongly associated with SCFAs
 - Elusimicrobia negatively associated with SRS score
 
 # Relevance to Metallomic Framework
 
 **High relevance** — SCFA-microbiota-behavior pathway intersects with metal metabolism:
 
-- Elevated [[propionate]] in ASD — propionic acid inhibits histone deacetylases ([[zinc]]-dependent) and affects [[iron]]-dependent mitochondrial function
-- [[Butyrate]] elevation paradox: higher fecal butyrate with impaired social function suggests impaired absorption or utilization
-- [[Veillonellaceae]] enrichment — lactate fermenters that produce propionate; complex metal requirements
-- [[bacteroides-fragilis]] depletion — reduces primary [[bile acid]] deconjugation affecting [[iron]] and [[zinc]] absorption
+- Elevated [[propionic-acid]] in ASD — propionic acid inhibits histone deacetylases ([[zinc]]-dependent) and affects [[iron]]-dependent mitochondrial function
+- [[butyrate]] elevation paradox: higher fecal butyrate with impaired social function suggests impaired absorption or utilization
+- [[veillonellaceae|Veillonellaceae]] enrichment — lactate fermenters that produce propionate; complex metal requirements
+- [[bacteroides-fragilis]] depletion — reduces primary [[bile-acid-metabolism]] deconjugation affecting [[iron]] and [[zinc]] absorption
 - Sleep disruption (CSHQ) as downstream effect — melatonin synthesis is [[iron]]-dependent (tryptophan hydroxylase)
 
 # Methodological Notes

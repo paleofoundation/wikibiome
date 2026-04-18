@@ -11,6 +11,8 @@ tags: [parkinsons-disease, amino-acids, tryptophan-metabolism, tyrosine, phenyla
 library_category: metabolomics
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1, 4, 8]
 ---
 
 # Amino Acid Metabolism in Parkinson's Disease and the Gut Microbiome
@@ -31,7 +33,7 @@ This study investigates altered amino acid metabolism at the gut microbiome-host
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Amino acid metabolism connects the microbiome to metal homeostasis in multiple ways relevant to [[parkinsons-disease]]. [[Tryptophan-metabolism]] is metal-dependent: tryptophan hydroxylase requires [[iron]], and indoleamine 2,3-dioxygenase (IDO) is activated by [[iron]]-containing inflammatory mediators. The shift toward kynurenine pathway metabolites produces quinolinic acid, an [[iron]] chelator that generates neurotoxic hydroxyl radicals. Tyrosine metabolism is directly relevant as tyrosine hydroxylase -- the rate-limiting enzyme in dopamine synthesis -- requires [[iron]] as a cofactor. Bacterial degradation of levodopa involves [[iron]]-dependent enzymes. The competition for aromatic amino acid transporters (which share transporters with metals via DMT1-related pathways) at the gut epithelium creates a direct interface between amino acid absorption, metal uptake, and [[parkinsons-disease]] medication efficacy.
+Amino acid metabolism connects the microbiome to metal homeostasis in multiple ways relevant to [[parkinsons-disease]]. [[tryptophan-metabolism]] is metal-dependent: tryptophan hydroxylase requires [[iron]], and indoleamine 2,3-dioxygenase (IDO) is activated by [[iron]]-containing inflammatory mediators. The shift toward kynurenine pathway metabolites produces quinolinic acid, an [[iron]] chelator that generates neurotoxic hydroxyl radicals. Tyrosine metabolism is directly relevant as tyrosine hydroxylase -- the rate-limiting enzyme in dopamine synthesis -- requires [[iron]] as a cofactor. Bacterial degradation of levodopa involves [[iron]]-dependent enzymes. The competition for aromatic amino acid transporters (which share transporters with metals via DMT1-related pathways) at the gut epithelium creates a direct interface between amino acid absorption, metal uptake, and [[parkinsons-disease]] medication efficacy.
 
 ## Limitations
 

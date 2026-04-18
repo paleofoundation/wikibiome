@@ -1,5 +1,4 @@
 ---
-
 title: "Dose-Dependent Progression of Parkinsonism in Manganese-Exposed Welders"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2017
 tags: [manganese, parkinsonism, welders, occupational-exposure, neurotoxicity, dose-response, UPDRS3, longitudinal-cohort, original-research]
 doi: "10.1212/WNL.0000000000003533"
 platform: wikibiome
+evidence_level: prospective-cohort
+metals_discussed: [manganese, nickel]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims
@@ -35,9 +37,9 @@ platform: wikibiome
 
 # Connections
 
-- Key evidence for [[manganese neurotoxicity]] and [[occupational metal exposure]]
-- Mn neurotoxicity via gut-brain axis discussed in [[Zhu 2024 - Toxic Essential Metals Gut Microbiota]] where Mn exposure alters gut microbiota, tryptamine, taurodeoxycholic acid, and GABA metabolism
-- Parkinsonism phenotype connects to [[Briffa 2020 - Heavy Metal Pollution Environment Toxicology]] description of Mn effects including mimicry of Parkinson's disease
+- Key evidence for [[heavy-metal-neurotoxicity|manganese neurotoxicity]] and [[environmental-metal-exposure|occupational metal exposure]]
+- Mn neurotoxicity via gut-brain axis discussed in [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]] where Mn exposure alters gut microbiota, tryptamine, taurodeoxycholic acid, and GABA metabolism
+- Parkinsonism phenotype connects to [[briffa-2020-heavy-metal-pollution-environment-toxicology|Briffa 2020 - Heavy Metal Pollution Environment Toxicology]] description of Mn effects including mimicry of Parkinson's disease
 - Dose-response methodology could inform studies of [[nickel]] occupational neurotoxicity
 - FMT studies in rats have shown ability to alleviate Mn-induced neurotoxicity via gut microbiota, linking to [[gut-brain-axis]] research
-- Welding fume exposure relevant to [[occupational metal co-exposures]] including Ni, Cr, Fe in welding
+- Welding fume exposure relevant to [[environmental-metal-exposure|occupational metal co-exposures]] including Ni, Cr, Fe in welding

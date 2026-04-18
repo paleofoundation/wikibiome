@@ -1,5 +1,4 @@
 ---
-
 title: "Arsenic concentration and speciation in infant formulas and first foods"
 type: source
 created: 2026-04-09
@@ -10,13 +9,14 @@ year: 2012
 tags: [arsenic, infant-formula, baby-food, speciation, rice, dietary-exposure, ICP-MS]
 doi: "10.1351/PAC-CON-11-07-39"
 platform: wikibiome
+metals_discussed: [arsenic]
 ---
 
 ## Key Claims
 
 - [[arsenic]] is detectable in all infant formulas tested, with total As ranging from 2.2 to 12.6 ng/g (n=15)
 - Non-dairy formulas were significantly higher in As than dairy-based formulas
-- Arsenic in formula was almost exclusively [[inorganic arsenic]], the more toxic form
+- Arsenic in formula was almost exclusively [[dietary-arsenic-exposure|inorganic arsenic]], the more toxic form
 - Rice-fortified foods had significantly higher total As concentrations than non-rice-based foods
 - Pear-containing fruit purees had notably high As concentrations (mean 16.6 ng/g), likely source-related rather than a property of pears generally
 - Even ostensibly low As concentrations in food can exceed the WHO/EPA safe drinking water limit (0.17 ug/kg/d) when expressed on a per-kg body weight basis for infants

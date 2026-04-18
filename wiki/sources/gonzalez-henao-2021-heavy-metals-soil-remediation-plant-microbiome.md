@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy metals in soils and the remediation potential of bacteria associated with the plant microbiome"
 type: source
 created: 2026-04-09
@@ -10,12 +9,16 @@ year: 2021
 tags: [heavy-metals, bioremediation, phytoremediation, plant-microbiome, arsenic, cadmium, lead, bacterial-metal-resistance, MIC]
 doi: "10.3389/fenvs.2021.604216"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [arsenic, cadmium, lead]
+taxa_discussed: [enterobacter, klebsiella-pneumoniae, pseudomonas-aeruginosa]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # Key Claims
 
 - Plant-associated bacteria from 62 genera (424 species/strains across 50 plant species) exhibit significant heavy metal tolerance that can be leveraged for bioremediation and phytoremediation
-- [[Cadmium Toxicity|Cadmium]] and [[Lead Toxicity|lead]] were the most toxic metals (lowest MIC values), while [[arsenic]] resistance was the most widespread and significantly higher
+- [[cadmium|Cadmium Toxicity]] and [[lead|Lead Toxicity]] were the most toxic metals (lowest MIC values), while [[arsenic]] resistance was the most widespread and significantly higher
 - Klebsiella and Enterobacter exhibited the highest tolerance to cadmium and lead, supported by molecular and biochemical mechanisms including cad and ars resistance operons
 - Metal resistance genes (ars operons for arsenic, cad operons for cadmium) are prevalent among plant growth-promoting bacteria and can be identified through genomic approaches
 
@@ -33,6 +36,6 @@ platform: wikibiome
 
 - Bacterial metal resistance mechanisms (ars, cad operons) parallel those found in human [[gut-metal-microbiome|gut microbiota]] as described in [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]]
 - Informs understanding of how environmental metal-tolerant bacteria may enter the human microbiome through food chain contamination
-- Connects to [[arsenic]], [[Cadmium Toxicity]], and [[Lead Toxicity]] entity pages
-- Bioremediation strategies relevant to reducing [[Environmental Exposures]] to heavy metals
+- Connects to [[arsenic]], [[cadmium|Cadmium Toxicity]], and [[lead|Lead Toxicity]] entity pages
+- Bioremediation strategies relevant to reducing [[environmental-metal-exposure|Environmental Exposures]] to heavy metals
 - Plant growth-promoting traits overlap with [[probiotics]] mechanisms (siderophores, organic acid production)

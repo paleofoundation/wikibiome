@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiota-derived short-chain fatty acids: Implications for cardiovascular and metabolic disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 doi: 10.3389/fcvm.2022.900381
 tags: [cardiovascular-disease, CVD, SCFAs, butyrate, propionate, acetate, atherosclerosis, hypertension, myocardial-infarction, stroke, inflammation, gut-brain-axis, review]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [cadmium, iron, lead]
+karen_brain_primitives: [1, 5]
 ---
 
 # Microbiota-Derived Short-Chain Fatty Acids: Implications for Cardiovascular and Metabolic Disease
@@ -51,7 +53,7 @@ Comprehensive review of [[short-chain-fatty-acids]] (SCFAs) in [[cardiovascular-
 ## Relevance to Gut-Metal-Microbiome Axis
 
 1. **Metal-induced SCFA depletion** - [[cadmium]] and [[lead]] exposure depletes SCFA-producing Clostridia, directly reducing the cardioprotective effects described here
-2. **[[Inflammation]] amplification** - Without SCFA-mediated NLRP3 inflammasome suppression, metal-exposed individuals face amplified cardiovascular [[inflammation]]
+2. **[[inflammation]] amplification** - Without SCFA-mediated NLRP3 inflammasome suppression, metal-exposed individuals face amplified cardiovascular [[inflammation]]
 3. **Blood pressure dysregulation** - Metal-induced loss of SCFA producers disrupts the GPR41/Olfr78 balance, potentially contributing to hypertension
-4. **[[Oxidative-stress]] vulnerability** - Reduced butyrate means less ROS scavenging and more [[oxidative-stress]] damage to vasculature
+4. **[[oxidative-stress]] vulnerability** - Reduced butyrate means less ROS scavenging and more [[oxidative-stress]] damage to vasculature
 5. **[[ferroptosis]] connection** - SCFA depletion reduces antioxidant defenses that may normally protect against [[iron]]-mediated lipid peroxidation in cardiac tissue

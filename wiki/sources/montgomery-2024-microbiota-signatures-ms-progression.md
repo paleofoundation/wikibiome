@@ -29,6 +29,9 @@ tags:
   - dysbiosis
   - biomarkers
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [akkermansia-muciniphila, alloprevotella, bilophila, eubacterium, lachnospiraceae, oscillospiraceae, prevotella]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Identification of Commensal Gut Microbiota Signatures as Predictors of Clinical Severity and Disease Progression in Multiple Sclerosis

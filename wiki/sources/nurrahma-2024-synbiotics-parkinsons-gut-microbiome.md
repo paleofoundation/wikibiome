@@ -11,6 +11,9 @@ tags: [parkinsons-disease, synbiotics, probiotics, prebiotics, microbiome-compos
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # Effects of Synbiotic Supplementation on Gut Microbiome and Clinical Outcomes in Parkinson's Disease

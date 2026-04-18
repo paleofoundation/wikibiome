@@ -1,5 +1,4 @@
 ---
-
 title: "Distinct gut microbiome patterns associate with consensus molecular subtypes of colorectal cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2017
 doi: "10.1038/s41598-017-11237-6"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, consensus-molecular-subtypes, CMS, Fusobacterium-hwasooki, Porphyromonas-gingivalis, oral-pathogens, RNA-seq, Kraken]
 platform: wikibiome
+taxa_discussed: [fusobacterium-nucleatum, porphyromonas, prevotella, treponema]
 ---
 
 # Purcell 2017 -- Distinct Gut Microbiome Patterns Associate with CMS Subtypes of CRC

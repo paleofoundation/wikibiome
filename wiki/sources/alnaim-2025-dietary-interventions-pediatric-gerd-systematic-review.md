@@ -25,7 +25,7 @@ karen_brain_primitives: [5]
 ## Key Claims
 
 - Plant-based and exclusion diets demonstrated significant improvements in pediatric [[gerd]] symptoms, likely due to anti-inflammatory properties and elimination of dietary triggers
-- [[Probiotics]] emerged as the most promising intervention, reducing GERD symptoms by enhancing [[gut barrier]] function and modulating [[inflammation]]
+- [[probiotics]] emerged as the most promising intervention, reducing GERD symptoms by enhancing [[intestinal-permeability|gut barrier]] function and modulating [[inflammation]]
 - Evidence on low-fat versus full-fat dairy diets showed mixed results, with no clear consensus on their impact on GERD symptoms
 - Adherence to dietary interventions was identified as a key challenge, particularly in pediatric populations where food preferences and parental factors play crucial roles
 - The review included 11 studies from an initial search of 4,962 records across PubMed, MEDLINE, Embase, Web of Science, and Cochrane databases up to March 2024
@@ -51,5 +51,5 @@ karen_brain_primitives: [5]
 - Probiotic benefit supports rationale in [[liu-2022-probiotics-gut-microbiome-gerd-rabeprazole-rct]]
 - Dietary trigger elimination connects to personalized approaches in [[shen-2025-amino-acids-gerd-mendelian-randomization-glutamate]]
 - Pediatric GERD dietary management complements microbiome findings in [[ye-2023-gut-microbiota-children-gerd-metagenomics-metabolomics]]
-- Plant-based diet anti-inflammatory effects relate to [[Mediterranean diet]] approaches for GERD
+- Plant-based diet anti-inflammatory effects relate to [[mediterranean-diet]] approaches for GERD
 - Gut barrier function improvement connects to barrier integrity mechanisms in [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]]

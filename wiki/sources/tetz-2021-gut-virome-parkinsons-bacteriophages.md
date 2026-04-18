@@ -11,6 +11,9 @@ tags: [parkinsons-disease, virome, bacteriophages, gut-virome, phage-bacterial-i
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Gut Virome Alterations in Parkinson's Disease

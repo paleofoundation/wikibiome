@@ -1,5 +1,4 @@
 ---
-
 title: "Heavy metal exposures in aerodigestive clinic cohort of infants with reflux or dysphagia"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 doi: "10.1038/s41598-025-98768-5"
 tags: [gerd, gastroesophageal-reflux, heavy-metals, arsenic, molybdenum, cadmium, lead, mercury, infant-nutrition, rice-cereal, thickeners, dysphagia, pediatric, toxic-metals, trace-metals, urinary-biomarkers]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [antimony, arsenic, beryllium, cadmium, iron, lead, manganese, mercury, molybdenum, tin]
+karen_brain_primitives: [1]
 ---
 
 # Heavy metal exposures in aerodigestive clinic cohort of infants with reflux or dysphagia
@@ -35,7 +37,7 @@ platform: wikibiome
 
 ## Connections
 
-- Heavy metal exposure in reflux infants connects to broader [[heavy metals]]-microbiome disruption literature
+- Heavy metal exposure in reflux infants connects to broader [[heavy-metals]]-microbiome disruption literature
 - Arsenic in infant diet relates to [[arsenic]] and GI microbiome effects
 - Pediatric GERD population overlaps with children studied in [[ye-2023-gut-microbiota-children-gerd-metagenomics-metabolomics]]
 - Molybdenum as differential element connects to and microbiome interactions

@@ -47,7 +47,7 @@ The following conditions have raw paper libraries already organized by category 
 
 ## Section 2: 180 Unorganized ASD Papers — Incomplete Ingest
 
-The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains **180 PDF files** that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-microbiome-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:
+The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains **180 PDF files** that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:
 
 - Additional metallomic data for the ASD signature (currently `cureva_status: in-progress`)
 - Intervention evidence (particularly for the low-nickel and probiotics pages)
@@ -139,7 +139,7 @@ The `raw/Cerebral Palsy/` folder has 79 organized papers, but unlike the other c
 
 ### 6.2 — ASD signature status should be `partial`, not `in-progress`
 
-`autism-spectrum-disorder-microbiome-signature.md` is marked `cureva_status: in-progress` but it has all 5 signature layers populated, has a linked intervention page, and has a STOP page. By the standard applied to other conditions, this should be `partial`. Upgrade to `partial` once the 180 unorganized papers are reviewed.
+`autism-spectrum-disorder-signature.md` is marked `cureva_status: in-progress` but it has all 5 signature layers populated, has a linked intervention page, and has a STOP page. By the standard applied to other conditions, this should be `partial`. Upgrade to `partial` once the 180 unorganized papers are reviewed.
 
 ### 6.3 — `RE-INGEST-PROMPT.md` exists with unexecuted instructions
 
@@ -155,7 +155,7 @@ The lint report flags RA as a high-priority signature. RA has one of the best-ch
 
 ### 6.6 — `bile-acids` concept page listed in index but file doesn't exist
 
-Index lists `[[bile-acids]]` as a concept, but only `bile-acid-metabolism.md` exists on disk. This is a broken wikilink in the index itself.
+Index lists `[[bile-acid-metabolism]]` as a concept, but only `bile-acid-metabolism.md` exists on disk. This is a broken wikilink in the index itself.
 
 ### 6.7 — `microbiome` and `siderophores` and `tryptophan` concept stubs listed in index but possibly thin
 
@@ -184,7 +184,7 @@ From the v2 roadmap (per memory):
 4. Add `cureva_status:` to 5 intervention pages
 5. Fix misspelled `[[akkermansia-mucinicola]]` wikilink
 6. Create stub entity page for `cerebral-palsy`
-7. Create `[[snas]]` or `[[systemic-nickel-allergy-syndrome]]` concept page
+7. Create `[[snas]]` or `[[nickel-allergy|systemic-nickel-allergy-syndrome]]` concept page
 8. Regenerate `index.md` from filesystem
 
 ### Short Session (1–2 hours)

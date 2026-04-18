@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, dysbiosis, glycemic-control,
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 4, 8]
+key_findings: ["Longitudinal increase in 21 bacterial species"]
 ---
 
 # Key Claims

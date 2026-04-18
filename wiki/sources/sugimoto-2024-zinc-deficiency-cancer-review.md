@@ -1,5 +1,4 @@
 ---
-
 title: "Zinc Deficiency as a General Feature of Cancer: A Review of the Literature"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 tags: [zinc, zinc-deficiency, cancer, biomarker, esophageal-cancer, breast-cancer, liver-cancer, lung-cancer, colon-cancer, trace-elements]
 doi: "10.1007/s12011-024-04062-w"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [cadmium, copper, zinc]
 ---
 
 ## Summary

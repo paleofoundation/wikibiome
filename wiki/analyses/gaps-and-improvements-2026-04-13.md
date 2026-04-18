@@ -131,7 +131,7 @@ These remain broken wikilinks with no backing page:
 - `[[ahr]]` — Aryl Hydrocarbon Receptor; referenced across ASD, MS, Hashimoto's
 - `[[amyloid-beta]]` — Referenced in Alzheimer's signature
 - `[[celiac-disease]]` — Referenced in low-nickel-diet as a condition
-- `[[bile-acids]]` — `bile-acid-metabolism.md` exists; `bile-acids` is a separate broken link
+- `[[bile-acid-metabolism]]` — `bile-acid-metabolism.md` exists; `bile-acids` is a separate broken link
 
 **Action:** Create stubs for `ahr`, `amyloid-beta`, and `celiac-disease`. Resolve `bile-acids` → redirect or merge into `bile-acid-metabolism`.
 
@@ -152,12 +152,12 @@ The 8 new intervention pages greatly expanded the scope of triangle references, 
 | `[[chronic-kidney-disease]]` | iron-management | 🟡 High — metals angle (Cd/As/Pb nephrotoxicity); sources present |
 | `[[hypertension]]` | fmt-intervention | 🟡 Medium — mycobiome data exists (Zou 2022) |
 | `[[ibs]]` | (entity page exists but no signature) | 🟡 Medium — nickel-GERD-IBS connection is core to SNAS framework |
-| `[[clostridioides-difficile-infection]]` | fmt-intervention | 🟢 Medium — CDI is the canonical FMT use-case; signature may be simple |
+| `[[clostridioides-difficile|clostridioides-difficile-infection]]` | fmt-intervention | 🟢 Medium — CDI is the canonical FMT use-case; signature may be simple |
 | `[[dysmenorrhea]]` | zinc-supplementation | 🟢 Medium — shares pathobionts with endometriosis |
 | `[[epilepsy]]` | ketogenic-diet | 🟢 Medium — KD used for epilepsy; microbiome data exists |
 | `[[helicobacter-pylori]]` | (entity page exists as a microbe, not a condition) | 🟢 Low — may not warrant full signature; concept page may suffice |
 | `[[inflammatory-bowel-disease]]` | multiple interventions | As above |
-| `[[prostate-cancer]]` | selenium-supplementation | 🟢 Low — selenium-prostate cancer connection well-known; no source library |
+| `[[metal-carcinogenesis|prostate-cancer]]` | selenium-supplementation | 🟢 Low — selenium-prostate cancer connection well-known; no source library |
 
 Note: `condition-name` also appears as a triangle target — this is a template artifact left in one of the new intervention pages. It must be removed.
 
@@ -165,7 +165,7 @@ Note: `condition-name` also appears as a triangle target — this is a template 
 
 ### 2.2 — `condition-name` template placeholder left in a live intervention file
 
-One of the new intervention pages contains a triangle block with `condition: "[[condition-name]]"` — the unfilled template. This is a live rendering error on Cureva.
+One of the new intervention pages contains a triangle block with `condition: "[[dysbiosis|condition-name]]"` — the unfilled template. This is a live rendering error on Cureva.
 
 **Action:** Find and fix the `condition-name` placeholder. (Run: `grep -r "condition-name" /wiki/interventions/`)
 
@@ -253,7 +253,7 @@ From the April 12 priority list, the following still have no signature page:
 
 ### 5.1 — ASD signature status should be upgraded to `partial`
 
-`autism-spectrum-disorder-microbiome-signature.md` is marked `cureva_status: in-progress` but all 5 layers are populated, there is one intervention page, and one STOP page. This should be `partial`. The 180 unorganized ASD papers remain unprocessed, but they don't preclude upgrading the current status.
+`autism-spectrum-disorder-signature.md` is marked `cureva_status: in-progress` but all 5 layers are populated, there is one intervention page, and one STOP page. This should be `partial`. The 180 unorganized ASD papers remain unprocessed, but they don't preclude upgrading the current status.
 
 ### 5.2 — 46 duplicate sources still not resolved
 

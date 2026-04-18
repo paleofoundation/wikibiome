@@ -9,7 +9,7 @@ corresponding_email: "alaqeelar@moh.gov.sa"
 institution: "Clinical Laboratory Science, King Saud University, Ministry of Health, Saudi Arabia"
 year: 2025
 journal: "TPM (The Primary Care Companion for CNS Disorders)"
-doi: "not yet verified"
+doi: "not yet verified"  # <!-- DOI lookup needed: TPM (The Primary Care Companion for CNS Disorders) 2025 -->
 pmid: "not yet verified"
 evidence_level: systematic-review-meta-analysis
 sample_size: "11 included studies (2015–2025); sample sizes 20–394 participants"
@@ -56,7 +56,7 @@ This review is notable for synthesizing across multiple anatomical compartments 
 - Provides comprehensive summary evidence for [[gerd]] entity page's microbiome section.
 - Connects to [[prevotella]], [[veillonella]], [[leptotrichia]] entity pages with GERD-specific enrichment data.
 - Supports [[barretts-esophagus]] disease entity: *Leptotrichia* as potential progression biomarker.
-- TLR2-claudin-1 mechanism informs the [[gut-permeability]] or [[mucosal-barrier]] concept pages.
+- TLR2-claudin-1 mechanism informs the [[intestinal-permeability|gut-permeability]] or [[intestinal-permeability|mucosal-barrier]] concept pages.
 
 ## Relevance to Cureva
 
@@ -80,11 +80,11 @@ This review is notable for synthesizing across multiple anatomical compartments 
 ## Key Claims
 
 - Microbial [[dysbiosis]] is central to [[gerd]] pathogenesis, influencing mucosal integrity, [[inflammation]], and symptom persistence across 11 included studies (2015-2025)
-- Most studies demonstrated decreased [[streptococcus]] abundance and enrichment of [[prevotella]], [[veillonella]], and [[leptotrichia]] in GERD and [[Barretts esophagus]] patients
-- Dysbiosis was consistently associated with altered [[metabolic pathways]], notably involving [[arachidonic acid]], [[glutathione]], and ABC transporter pathways
-- [[Proton pump inhibitor|PPI]] therapy, [[small intestinal bacterial overgrowth]], and psychological stress were identified as key modulators of microbial imbalance
-- [[Mendelian randomization]] studies supported a genetic causal relationship between [[gut microbiota]] and GERD risk
-- The transition from *Streptococcus*-dominated microbiome to one enriched with Gram-negative species such as *Prevotella* and *Fusobacterium* may promote proinflammatory cytokine-mediated immune response, increasing [[esophageal inflammation]]
+- Most studies demonstrated decreased [[streptococcus]] abundance and enrichment of [[prevotella]], [[veillonella]], and [[leptotrichia]] in GERD and [[barretts-esophagus]] patients
+- Dysbiosis was consistently associated with altered [[fermentative-metabolism|metabolic pathways]], notably involving [[inflammation|arachidonic acid]], [[glutathione]], and ABC transporter pathways
+- [[pharmacomicrobiomics|Proton pump inhibitor]] therapy, [[dysbiosis|small intestinal bacterial overgrowth]], and psychological stress were identified as key modulators of microbial imbalance
+- [[mendelian-randomization]] studies supported a genetic causal relationship between [[gut-microbiome]] and GERD risk
+- The transition from *Streptococcus*-dominated microbiome to one enriched with Gram-negative species such as *Prevotella* and *Fusobacterium* may promote proinflammatory cytokine-mediated immune response, increasing [[gerd|esophageal inflammation]]
 
 ## Methods/Findings
 

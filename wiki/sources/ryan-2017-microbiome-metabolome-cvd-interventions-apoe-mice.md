@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiome and metabolome modifying effects of several cardiovascular disease interventions in apo-E-/- mice"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2017
 doi: 10.1186/s40168-017-0246-x
 tags: [cardiovascular-disease, CVD, atherosclerosis, gut-microbiome, metabolome, plant-sterol-ester, beta-glucan, bile-salt-hydrolase, atorvastatin, Lactobacillus-reuteri, SCFAs, TMAO, apo-E-knockout, mouse-model, intervention]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Microbiome and Metabolome Modifying Effects of Several CVD Interventions in Apo-E-/- Mice
@@ -49,4 +51,4 @@ Preclinical study characterizing the compositional and functional effects of thr
 
 ## Relevance to the Wiki
 
-Demonstrates that dietary and probiotic interventions can simultaneously modify gut microbiome composition, [[metabolites]] including [[tmao]], and [[atherosclerosis]] outcomes. PSE emerges as the most effective intervention for plaque reduction and TMA suppression. Supports the concept that microbiome-targeted therapies have potential for CVD prevention.
+Demonstrates that dietary and probiotic interventions can simultaneously modify gut microbiome composition, [[short-chain-fatty-acids|metabolites]] including [[tmao]], and [[atherosclerosis]] outcomes. PSE emerges as the most effective intervention for plaque reduction and TMA suppression. Supports the concept that microbiome-targeted therapies have potential for CVD prevention.

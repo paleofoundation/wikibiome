@@ -1,5 +1,4 @@
 ---
-
 title: "Types and Amount of Dietary Fat and Colon Cancer Risk: Prevention by Omega-3 Fatty Acid-Rich Diets"
 type: source
 created: 2026-04-09
@@ -7,17 +6,19 @@ updated: 2026-04-09
 authors: [Bandaru S. Reddy]
 journal: Environmental Health and Preventive Medicine
 year: 2002
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Environmental Health and Preventive Medicine 2002 -->
 tags: [colon-cancer, omega-3-fatty-acids, dietary-fat, n-3-PUFAs, n-6-PUFAs, colorectal-cancer, DHA, EPA, COX-2, ras-p21, prevention, review]
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [fusobacterium-nucleatum]
 ---
 
 # Key Claims
 
-- The colon tumor-promoting effect of [[dietary fat]] depends on its fatty acid composition: high dietary n-3 [[PUFAs]] lack tumor-promoting effects compared to diets high in n-6 PUFAs or saturated fats
-- Diets rich in n-3 PUFAs inhibit colon carcinogenesis through modulation of colonic ras-p21, cyclooxygenase-2 [[COX-2]], and inducible nitric oxide synthase activities, and induction of apoptosis
+- The colon tumor-promoting effect of [[dietary-metal-microbiome-interactions|dietary fat]] depends on its fatty acid composition: high dietary n-3 [[dietary-metal-microbiome-interactions|PUFAs]] lack tumor-promoting effects compared to diets high in n-6 PUFAs or saturated fats
+- Diets rich in n-3 PUFAs inhibit colon carcinogenesis through modulation of colonic ras-p21, cyclooxygenase-2 [[inflammation|COX-2]], and inducible nitric oxide synthase activities, and induction of apoptosis
 - Gene expression analysis via DNA microarrays shows n-3 fatty acid (DHA) activates cyclin-dependent kinase inhibitors (p21, p27, p57, p19) and inactivates anti-apoptotic Bcl-2 family genes
-- Decreasing n-6 PUFAs and saturated fats while increasing n-3 PUFAs, particularly EPA and DHA, has the potential to be a major component of [[colon cancer]] control
+- Decreasing n-6 PUFAs and saturated fats while increasing n-3 PUFAs, particularly EPA and DHA, has the potential to be a major component of [[colorectal-cancer]] control
 - The upward trend in colon cancer in Japan since the 1960s correlates with dietary Westernization (increased animal fat consumption)
 - n-3 PUFAs also show cardioprotective effects, suggesting dual benefit of dietary modification
 
@@ -33,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- COX-2 inhibition by n-3 PUFAs connects to [[drug repurposing]] research with celecoxib and NSAIDs in CRC prevention
+- COX-2 inhibition by n-3 PUFAs connects to [[pharmacomicrobiomics|drug repurposing]] research with celecoxib and NSAIDs in CRC prevention
 - Bile acid metabolism discussed here directly relevant to [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] targeting the bile acid-gut microbiome axis
-- Dietary fat-microbiome interactions link to [[Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of olive oil and phenolic compounds
+- Dietary fat-microbiome interactions link to [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of olive oil and phenolic compounds
 - ras-p21 modulation connects to Wnt/beta-catenin signaling pathway disrupted by [[fusobacterium-nucleatum]] in CRC
-- The n-6/n-3 PUFA ratio concept relevant to [[short-chain-fatty-acids]] production and [[gut microbiota]] composition shifts
+- The n-6/n-3 PUFA ratio concept relevant to [[short-chain-fatty-acids]] production and [[gut-microbiome]] composition shifts
 - [[colorectal-cancer]]

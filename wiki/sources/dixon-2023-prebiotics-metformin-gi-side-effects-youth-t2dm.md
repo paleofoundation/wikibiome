@@ -12,6 +12,9 @@ library_category: "Metformin"
 platform: clinical-trial
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-12"
+evidence_level: randomized-controlled-trial
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [5]
 ---
 
 # Overview

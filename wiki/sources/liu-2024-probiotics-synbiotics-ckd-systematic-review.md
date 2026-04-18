@@ -9,6 +9,8 @@ journal: "Frontiers in Nutrition"
 doi: "10.3389/fnut.2024.1434613"
 tags: [chronic-kidney-disease, CKD, probiotics, synbiotics, systematic-review, meta-analysis, RCT, BUN, CRP, renal-function]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Probiotics/Synbiotics Supplementation in CKD: Systematic Review

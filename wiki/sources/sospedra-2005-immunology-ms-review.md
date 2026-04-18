@@ -1,5 +1,4 @@
 ---
-
 title: "Immunology of Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2005
 doi: 10.1146/annurev.immunol.23.021704.115707
 tags: [multiple-sclerosis, immunology, HLA, T-cells, CD4, autoimmunity, EAE, myelin, CNS, neuroimmunology]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Immunology of Multiple Sclerosis
@@ -47,7 +47,7 @@ Comprehensive table of HLA class I and II allele associations:
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This foundational immunology review establishes the immune mechanisms through which [[gut-microbiome]] [[dysbiosis]] could influence MS. The Th1/Th17 balance described here is directly modulated by [[short-chain-fatty-acids]] and other [[microbial-metabolites]]. The HLA-DRB1*15:01 association with MS risk may interact with microbiome composition through antigen presentation of microbial-derived peptides. The environmental triggers discussed (viral infections, diet) are increasingly understood to act through the [[gut-brain-axis]].
+This foundational immunology review establishes the immune mechanisms through which [[gut-microbiome]] [[dysbiosis]] could influence MS. The Th1/Th17 balance described here is directly modulated by [[short-chain-fatty-acids]] and other [[short-chain-fatty-acids|microbial-metabolites]]. The HLA-DRB1*15:01 association with MS risk may interact with microbiome composition through antigen presentation of microbial-derived peptides. The environmental triggers discussed (viral infections, diet) are increasingly understood to act through the [[gut-brain-axis]].
 
 ## Limitations
 

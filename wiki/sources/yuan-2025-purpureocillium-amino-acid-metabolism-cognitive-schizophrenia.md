@@ -61,9 +61,9 @@ This paper provides direct evidence linking a specific gut fungal genus -- Purpu
 
 - [[schizophrenia]] -- mycobiome-metabolome-cognition axis in first-episode SCZ
 - [[mycobiome]] -- Purpureocillium as disease-associated fungal marker
-- [[gut-microbiota]] -- fungal contributions to microbiome-gut-brain axis
-- [[amino-acid-metabolism]] -- arginine, serotonin, and ergothioneine pathways
+- [[gut-microbiome]] -- fungal contributions to microbiome-gut-brain axis
+- [[tryptophan|amino-acid-metabolism]] -- arginine, serotonin, and ergothioneine pathways
 - [[oxidative-stress]] -- ergothioneine depletion and oxidative stress in SCZ
-- [[cognitive-function]] -- speed of processing and attention as most affected domains
+- [[gut-brain-axis|cognitive-function]] -- speed of processing and attention as most affected domains
 - [[neuroinflammation]] -- inflammatory mediation of fungal effects on cognition
-- [[biomarker]] -- P/A ratio as potential diagnostic biomarker
+- [[microbial-biomarkers|biomarker]] -- P/A ratio as potential diagnostic biomarker

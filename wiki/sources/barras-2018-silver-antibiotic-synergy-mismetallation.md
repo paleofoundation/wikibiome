@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, silver, antimicrobial-metals, antibiot
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "silver antimicrobial mechanisms"
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [clostridium, escherichia-coli]
+karen_brain_primitives: [3, 4, 9]
+key_findings: ["Fe-S cluster-containing dehydratases"]
 ---
 
 # Why This Paper Matters
@@ -57,5 +61,5 @@ This review provides the mechanistic foundation for understanding how silver -- 
 - [[antimicrobial-resistance]] -- silver potentiates multiple antibiotic classes, especially aminoglycosides
 - [[copper]] -- silver and copper share thiophilic properties and similar Fe-S cluster targeting mechanisms
 - [[metal-homeostasis]] -- silver overwhelms bacterial metal resistance systems
-- [[Fenton-chemistry]] -- free Fe released from Ag-damaged Fe-S clusters drives hydroxyl radical generation
+- [[fenton-chemistry]] -- free Fe released from Ag-damaged Fe-S clusters drives hydroxyl radical generation
 - [[biofilm]] -- silver-tobramycin combinations showed 3-fold enhancement against E. coli and P. aeruginosa biofilms

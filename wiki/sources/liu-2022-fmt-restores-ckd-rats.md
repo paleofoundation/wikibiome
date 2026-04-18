@@ -45,7 +45,7 @@ Metabolomic analysis showed FMT suppressed the tryptophan->indole->IS pathway an
 
 ## Relevance to WikiBiome
 
-Informs [[chronic-kidney-disease]] entity (microbiome causality evidence), [[bacteroides-uniformis]] entity (pathogenic role in CKD), and concept pages on [[fecal-microbiota-transplant]] and [[uremic-toxins]].
+Informs [[chronic-kidney-disease]] entity (microbiome causality evidence), [[bacteroides-uniformis]] entity (pathogenic role in CKD), and concept pages on [[fecal-microbiota-transplant]] and [[tmao|uremic-toxins]].
 
 ## Relevance to Cureva
 

@@ -11,13 +11,15 @@ tags: [parkinsons-disease, metagenomics, metagenomic-analysis, viral-metagenome,
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+karen_brain_primitives: [2]
 ---
 
 # Functional Implications of Microbial and Viral Gut Metagenome Changes in Early Stage Parkinson's Disease
 
 ## Summary
 
-This early [[shotgun-metagenomics]] study of the gut [[microbiome]] in treatment-naive, early-stage [[parkinsons-disease]] patients reveals both microbial and viral community alterations, providing functional pathway analysis that goes beyond taxonomic profiling.
+This early [[shotgun-metagenomics]] study of the gut [[gut-microbiome|microbiome]] in treatment-naive, early-stage [[parkinsons-disease]] patients reveals both microbial and viral community alterations, providing functional pathway analysis that goes beyond taxonomic profiling.
 
 ## Key Findings
 
@@ -30,7 +32,7 @@ This early [[shotgun-metagenomics]] study of the gut [[microbiome]] in treatment
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This study is particularly valuable because it examines treatment-naive patients, eliminating medication confounders. The finding that LPS biosynthesis is enriched even in early PD implicates [[TLR4]]-mediated [[inflammation]] (and consequent metal redistribution via [[hepcidin]]) from the disease's earliest stages. The altered xenobiotic metabolism may affect metal detoxification pathways, reducing the gut's capacity to manage dietary metal exposure. The viral metagenome changes align with the Tetz group's findings on phage-driven dysbiosis, suggesting that bacteriophage shifts are an early event in PD microbiome disruption.
+This study is particularly valuable because it examines treatment-naive patients, eliminating medication confounders. The finding that LPS biosynthesis is enriched even in early PD implicates [[tlr4]]-mediated [[inflammation]] (and consequent metal redistribution via [[hepcidin]]) from the disease's earliest stages. The altered xenobiotic metabolism may affect metal detoxification pathways, reducing the gut's capacity to manage dietary metal exposure. The viral metagenome changes align with the Tetz group's findings on phage-driven dysbiosis, suggesting that bacteriophage shifts are an early event in PD microbiome disruption.
 
 ## Limitations
 

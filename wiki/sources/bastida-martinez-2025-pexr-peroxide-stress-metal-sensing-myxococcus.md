@@ -6,12 +6,15 @@ updated: 2026-04-09
 authors: [Eva Bastida-Martinez, Irene del Rey-Navalon, Naike Ye, Catherine L Drennan, S Padmanabhan, Montserrat Elias-Arnanz]
 year: 2025
 journal: "Nucleic Acids Research"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12754779) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Nucleic Acids Research 2025 -->
 pmcid: "PMC12754779"
 tags: [mismetallation, metal-homeostasis, zinc, iron, peroxide-stress, metal-sensing, GAF-domain, transcription-regulation, myxococcus, oxidative-stress, Fenton-chemistry]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "metal-dependent peroxide sensing and transcriptional regulation"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [3, 4, 9]
+key_findings: ["PexR is a bacterial enhancer binding protein (bEBP)"]
 ---
 
 # Why This Paper Matters
@@ -68,7 +71,7 @@ PexR is conserved across Myxococcota and predicted to operate in other bacterial
 - [[iron]] -- Fe2+ Fenton chemistry is the sensing mechanism for H2O2
 - [[zinc]] -- Zn2+ binding maintains resting-state autoinhibition
 - [[oxidative-stress]] -- novel H2O2 sensing pathway complementing OxyR and PerR
-- [[Fenton-chemistry]] -- Fe2+ + H2O2 reaction directly drives PexR activation
+- [[fenton-chemistry]] -- Fe2+ + H2O2 reaction directly drives PexR activation
 - [[metal-homeostasis]] -- metal binding/release as regulatory switch in transcription
 - [[iron-sulfur-clusters]] -- related mechanism to PerR Fe-sensing but in a GAF domain context
 - [[gene-regulation]] -- sigma-54-dependent transcription activation by bEBP

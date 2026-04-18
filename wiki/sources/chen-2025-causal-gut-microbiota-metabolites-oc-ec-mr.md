@@ -9,6 +9,8 @@ year: 2025
 doi: "10.1186/s13048-025-01630-5"
 tags: [ovarian-cancer, endometrial-cancer, Mendelian-randomization, gut-microbiota, Escherichia-Shigella, Prevotella9, cytosine]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [christensenellaceae, escherichia-coli, shigella]
 ---
 
 # Causal Relationships of Gut Microbiota and Blood Metabolites with OC and EC

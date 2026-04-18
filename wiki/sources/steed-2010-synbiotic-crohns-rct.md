@@ -1,5 +1,4 @@
 ---
-
 title: "Clinical Trial: The Microbiological and Immunological Effects of Synbiotic Consumption - A Randomised Double-Blind Placebo-Controlled Study in Active Crohn's Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2010
 tags: [crohns-disease, IBD, synbiotic, probiotics, Bifidobacterium-longum, prebiotics, FOS, clinical-trial, TNF-alpha, mucosal-bacteria]
 doi: "10.1111/j.1365-2036.2010.04472.x"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bifidobacterium, escherichia-coli, faecalibacterium-prausnitzii]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

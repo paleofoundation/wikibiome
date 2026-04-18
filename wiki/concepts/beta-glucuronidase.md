@@ -1,5 +1,4 @@
 ---
-
 title: "Beta-Glucuronidase"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [estrobolome, enzyme, estrogen-metabolism, bacterial-enzyme, microbial-virulence]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
 platform: wikibiome
+karen_brain_primitives: [1, 2, 3, 7]
+seo_target: "beta-glucuronidase microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview

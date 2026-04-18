@@ -1,5 +1,4 @@
 ---
-
 title: "Reduced Mass and Diversity of the Colonic Microbiome in Patients with Multiple Sclerosis and Their Improvement with Ketogenic Diet"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2017
 tags: [crohns-disease, IBD, ketogenic-diet, multiple-sclerosis, colonic-microbiome, FISH, Faecalibacterium-prausnitzii, Roseburia, Bacteroides, biofermentation, dysbiosis]
 doi: "10.3389/fmicb.2017.01141"
 platform: wikibiome
+evidence_level: prospective-cohort
+taxa_discussed: [bacteroides-fragilis, faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -33,7 +35,7 @@ platform: wikibiome
 
 - Demonstrates ketogenic diet as a microbiome restoration tool, applicable beyond MS to IBD and Crohn's disease
 - [[faecalibacterium-prausnitzii]] recovery by KD directly relevant to CD where its depletion is a hallmark
-- Complements [[Kong et al. 2021|kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] on KD mechanisms in colitis
+- Complements [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome|kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] on KD mechanisms in colitis
 - Biofermentation restoration connects to SCFA production and [[dysbiosis]] correction
 - [[gut-metal-microbiome]] implications through restored microbial metabolic capacity
 - [[crohns-disease]]

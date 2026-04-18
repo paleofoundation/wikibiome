@@ -22,6 +22,9 @@ tags:
   - inflammation
 doi: 10.3389/fimmu.2015.00489
 platform: wikibiome
+metals_discussed: [iron, lead, zinc]
+taxa_discussed: [escherichia-coli, faecalibacterium-prausnitzii]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Key Claims
@@ -50,5 +53,5 @@ platform: wikibiome
 - Paneth cell dysfunction links to [[zinc]] and other metal-dependent antimicrobial mechanisms (defensins require zinc)
 - [[iron]] availability in the gut may influence AIEC colonization capacity
 - Connects to [[gut-metal-microbiome]] through nutrient competition at the mucosal-luminal interface
-- Complements [[Zhang et al. 2017|zhang-2017-intestinal-microbiota-host-immune-ibd]] with deeper focus on innate immunity
+- Complements [[zhang-2017-intestinal-microbiota-host-immune-ibd|zhang-2017-intestinal-microbiota-host-immune-ibd]] with deeper focus on innate immunity
 - [[crohns-disease]]

@@ -13,6 +13,7 @@ platform: original-research
 condition: "autism spectrum disorder"
 source_pages: "pp. 118-131"
 evidence_level: cross-sectional
+taxa_discussed: [clostridium, coprococcus, enterococcus, faecalibacterium-prausnitzii, klebsiella-pneumoniae, ruminococcus]
 ---
 
 # Overview

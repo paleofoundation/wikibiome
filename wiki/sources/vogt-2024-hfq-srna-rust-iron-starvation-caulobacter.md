@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, iron, zinc, sRNA, Hfq, RusT, Caulobact
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "sRNA regulation of iron homeostasis"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [3, 4]
+key_findings: ["Hfq RNA co-immunoprecipitation", "Iron starvation"]
 ---
 
 # Why This Paper Matters
@@ -63,6 +66,6 @@ This paper identifies RusT as a novel iron-responsive small RNA (sRNA) in the ol
 - [[zinc]] -- zinc excess also induces RusT, suggesting shared downstream effects
 - [[metal-homeostasis]] -- NtrYX TCS as novel regulator of iron homeostasis in alphaproteobacteria
 - [[sRNA]] -- RusT as new member of the metal-responsive sRNA family
-- [[outer-membrane]] -- RusT coordinates TonB-dependent receptor expression
+- [[pathogen-metal-acquisition|outer-membrane]] -- RusT coordinates TonB-dependent receptor expression
 - [[Caulobacter]] -- oligotrophic lifestyle requires sophisticated metal-responsive gene regulation
-- [[Fur]] -- unusual Fur-independent regulation of iron-responsive sRNA
+- [[gene-regulation|Fur]] -- unusual Fur-independent regulation of iron-responsive sRNA

@@ -1,5 +1,4 @@
 ---
-
 title: "Association between dietary patterns and bacterial vaginosis: a case-control study"
 type: source
 created: 2026-04-09
@@ -10,11 +9,15 @@ year: 2022
 tags: [bacterial-vaginosis, dietary-patterns, case-control, vegetarian-diet, unhealthy-diet, vaginal-flora, Iran]
 doi: "10.1038/s41598-022-16505-8"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [calcium]
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
-- The "Unhealthy diet" pattern (high in sugar, solid oils, sweets/desserts, red meat, fried potato, refined grains, visceral meat, sweet drinks) was positively associated with [[bacterial vaginosis]] (aOR = 3.35, 95% CI 1.41-7.94, p-trend = 0.006)
+- The "Unhealthy diet" pattern (high in sugar, solid oils, sweets/desserts, red meat, fried potato, refined grains, visceral meat, sweet drinks) was positively associated with [[bacterial-vaginosis|bacterial vaginosis]] (aOR = 3.35, 95% CI 1.41-7.94, p-trend = 0.006)
 - The "Ovo-vegetarian diet" pattern (high in all vegetables, beans, whole grains, eggs) was associated with reduced odds of BV (aOR = 0.16, 95% CI 0.07-0.34, p-trend < 0.001)
 - The "Pseudo-Mediterranean diet" pattern (nuts, fish, olive oil) showed a borderline negative association with BV in the base model but was not significant after full adjustment
 - No clear associations were found for "Healthy diet" (fruits, poultry) or "Western diet" (processed meat, snacks, pickles) patterns

@@ -13,6 +13,7 @@ platform: computational
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-12"
 evidence_level: computational-prediction
+metals_discussed: [lead]
 ---
 
 # Overview

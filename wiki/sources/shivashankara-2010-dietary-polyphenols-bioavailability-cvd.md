@@ -46,6 +46,6 @@ Review examining the bioavailability of different classes of dietary [[polypheno
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-1. **Microbiota-dependent bioactivation** - Gut microbiota essential for converting [[dietary-polyphenols]] to bioavailable cardioprotective metabolites
+1. **Microbiota-dependent bioactivation** - Gut microbiota essential for converting [[polyphenols|dietary-polyphenols]] to bioavailable cardioprotective metabolites
 2. **Individual variation** - Microbial composition differences explain variable polyphenol responses across individuals
 3. **Multi-pathway cardioprotection** - Polyphenols and their microbial metabolites protect against [[cardiovascular-disease]] via LDL oxidation, vasodilation, and anti-platelet mechanisms simultaneously

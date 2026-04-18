@@ -17,7 +17,7 @@ library_category: associated-conditions
 platform: both
 condition: "hashimotos-thyroiditis"
 karen_brain_primitives: [1, 2, 5]
-metals_discussed: []
+metals_discussed: [iron, selenium]
 taxa_discussed: []
 key_findings:
   - "Co-existing Hashimoto's thyroiditis in PTC patients associated with lower risk of lymph node metastasis (OR 0.787, 95% CI 0.686–0.903), distant metastasis (OR 0.435), and recurrence (OR 0.627)"
@@ -42,7 +42,7 @@ PubMed, Embase, Cochrane, Web of Science through December 2020. 1,992 records sc
 
 - Critical cross-reference on **[[hashimotos-thyroiditis]]** entity page: HT is not simply an autoimmune condition but alters thyroid cancer trajectory — suggesting shared microenvironmental features (lymphocytic infiltration, cytokine milieu) that constrain tumour progression.
 - Supports **Associated Conditions** section: Hashimoto's and PTC share disease space; metallomic and immune signatures likely overlap.
-- Entity cross-link: informs **[[thyroid-cancer]]** signature (if exists) or future thyroid cancer entity.
+- Entity cross-link: informs **[[hashimotos-thyroiditis|thyroid-cancer]]** signature (if exists) or future thyroid cancer entity.
 
 ## Relevance to Cureva
 

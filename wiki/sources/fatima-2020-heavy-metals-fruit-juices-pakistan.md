@@ -1,5 +1,4 @@
 ---
-
 title: "Evaluation of Heavy Metals Content in the Canned/Packed Fruit Juices from Local and Imported Origin in Lahore, Pakistan"
 type: source
 created: 2026-04-09
@@ -7,9 +6,12 @@ updated: 2026-04-09
 authors: [Nazeefa Fatima, Munazza Khan, Muhammad Shuaib Kabeer]
 journal: Journal of Food Safety and Hygiene
 year: 2020
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Food Safety and Hygiene 2020 -->
 tags: [fruit-juice, heavy-metals, nickel, lead, chromium, iron, selenium, manganese, food-contamination, WHO-limits, Pakistan]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [chromium, copper, iron, lead, manganese, nickel, selenium, zinc]
+key_findings: ["Nickel levels were dramatically above WHO limits"]
 ---
 
 # Evaluation of Heavy Metals Content in the Canned/Packed Fruit Juices from Local and Imported Origin in Lahore, Pakistan
@@ -38,5 +40,5 @@ platform: wikibiome
 - -- extremely high nickel contamination in fruit juices (potentially from processing)
 - -- systematic exceedance of WHO safety limits
 - -- canned/packed juices as underrecognized exposure source
-- [[Dietary nickel exposure]] -- juice consumption as significant contributor to nickel intake
+- [[dietary-nickel-exposure]] -- juice consumption as significant contributor to nickel intake
 - [[onyeneto-2015-trace-metals-fruit-juices-nigeria]] -- comparable Nigerian study (did not measure Ni)

@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, faecal-biomarkers, scfa, calprotectin, nephr
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: cross-sectional
+metals_discussed: [calcium, iron, selenium, zinc]
+taxa_discussed: [subdoligranulum]
+karen_brain_primitives: [1, 2, 4]
+key_findings: ["Faecal propionate and butyrate concentrations lower", "Branched SCFA (BCFA) correlated positively", "Macroalbuminuric T1D subjects"]
 ---
 
 # Key Claims

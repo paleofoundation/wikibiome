@@ -9,6 +9,7 @@ year: 2016
 doi: "10.1038/mp.2016.50"
 tags: [schizophrenia, dysbiosis, gut-brain-axis, neurodevelopment, HPA-axis, tryptophan, serotonin, SCFAs, microbiome, depression, bipolar-disorder, aging]
 platform: wikibiome
+taxa_discussed: [bifidobacterium]
 ---
 
 # From Gut Dysbiosis to Altered Brain Function and Mental Illness: Mechanisms and Pathways
@@ -20,7 +21,7 @@ platform: wikibiome
 - Diet is an important determinant of gut microbiome composition; high-fat diet (HFD) is associated with altered microbial diversity and reduced exploratory behavior
 - Disruption of maternal microbiome during pregnancy can affect fetal neurodevelopment; prenatal maternal stress alters offspring microbiome composition
 - The NMDA receptor hypofunction hypothesis and tryptophan/kynurenine dysregulation in schizophrenia may be partly mediated by gut microbiome changes
-- [[Tryptophan-metabolism]] availability is influenced by gut microbiota; gut microbes can divert tryptophan from serotonin synthesis toward kynurenine pathway
+- [[tryptophan-metabolism]] availability is influenced by gut microbiota; gut microbes can divert tryptophan from serotonin synthesis toward kynurenine pathway
 - The gut microbiome also influences age-related cognitive decline; dysbiosis-associated changes in gut composition appear to involve a reduction in microbial diversity with increases in Proteobacteria and reduction in [[bifidobacterium]]
 
 ## Methods/Findings

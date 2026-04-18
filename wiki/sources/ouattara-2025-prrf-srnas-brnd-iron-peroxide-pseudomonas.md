@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, iron, iron-storage, sRNA, PrrF, Fur, B
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "iron-responsive sRNA regulation of oxidative stress defense"
+metals_discussed: [iron]
+taxa_discussed: [pseudomonas-aeruginosa]
+karen_brain_primitives: [3, 4]
+key_findings: ["PrrF1 and PrrF2", "Iron activates brnD expression"]
 ---
 
 # Why This Paper Matters
@@ -54,8 +58,8 @@ This paper reveals a novel and conserved regulatory link between iron homeostasi
 - [[mis-metallation]] -- free iron from impaired storage catalyzes Fenton chemistry; PrrF/BrnD circuit prevents this
 - [[iron]] -- iron-sparing response via PrrF sRNA regulation of non-essential iron proteins
 - [[oxidative-stress]] -- novel peroxide-induced PrrF regulation links iron homeostasis to ROS defense
-- [[Fenton-chemistry]] -- BrnD (Dps-like) prevents free iron from driving hydroxyl radical generation
+- [[fenton-chemistry]] -- BrnD (Dps-like) prevents free iron from driving hydroxyl radical generation
 - [[sRNA]] -- PrrF as paradigm iron-responsive sRNA in pseudomonads
-- [[Pseudomonas-aeruginosa]] -- CF lung pathogen with sophisticated iron regulatory network
+- [[pseudomonas-aeruginosa]] -- CF lung pathogen with sophisticated iron regulatory network
 - [[nutritional-immunity]] -- host iron restriction and oxidative burst target same PrrF circuit
 - [[metal-sensing]] -- Fur as master iron sensor controlling PrrF expression

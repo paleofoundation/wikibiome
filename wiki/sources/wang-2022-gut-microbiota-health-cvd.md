@@ -1,5 +1,4 @@
 ---
-
 title: "The Role of the Gut Microbiota in Health and Cardiovascular Diseases"
 type: source
 created: 2026-04-09
@@ -12,13 +11,14 @@ tags: [cardiovascular-disease, gut-microbiota, TMAO, SCFAs, bile-acids, BCAAs, i
 source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease microbiome/s43556-022-00091-2.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Key Claims
 
 - The gut microbiota composition is relatively stable in healthy individuals but significantly altered in CVD patients, with the Firmicutes/Bacteroidetes ratio serving as a vital health indicator associated with CVD incidence
 - Gut microbiota maintains intestinal barrier through tight junction regulation (ZO-1, occludin, claudin), immune homeostasis, and butyrate-derived epithelial nutrition; [[dysbiosis]] leads to leaky gut and [[inflammation]]
-- LPS from gut microbiota activates TLR4, TLR2, and NLR pathways (including [[NLRP3]] inflammasome), triggering NF-kB and MAPK signaling cascades that drive atherosclerosis and CVD susceptibility
+- LPS from gut microbiota activates TLR4, TLR2, and NLR pathways (including [[inflammation|NLRP3]] inflammasome), triggering NF-kB and MAPK signaling cascades that drive atherosclerosis and CVD susceptibility
 - NOD1/2 receptors mediate immune responses to peptidoglycan components; LDLR-/-NOD1/2-/- mice showed less lipid deposition and reduced atherosclerosis
 - The gut microbiota participates in material metabolism through three major pathways: glucose metabolism (SCFAs via GPR41/GPR43/GPR109A), lipid metabolism (bile acids via FXR/TGR5, TMAO via FMO3), and protein metabolism (BCAAs, indoles, H2S)
 - SCFAs interact with host immunological cells via GPR41/Recombinant Free Fatty Acid Receptor (FFAR3), GPR43/FFAR2, GPR109A, and histone deacetylases (HDACs) to regulate host energy and immune responses
@@ -33,9 +33,9 @@ platform: wikibiome
 
 # Connections
 
-- Central reference linking [[microbiome and immune system]] to [[cardiovascular-disease]] through innate immunity
-- NLRP3 and NF-kB pathway details relevant to [[microbiome and inflammation]] mechanisms
-- Metabolite pathway diagram extends [[metabolic pathways]], [[short-chain-fatty-acids]], [[bile acids]], and [[tmao]] understanding
-- Gut barrier function discussion connects to [[microbiome-host interactions]] and intestinal permeability
-- BCAA and indole metabolite discussion relevant to [[amino acids]] and [[indoles]] in CVD
-- Comprehensive coverage makes this a key [[microbiome review]] for cardiovascular disease
+- Central reference linking [[inflammation|microbiome and immune system]] to [[cardiovascular-disease]] through innate immunity
+- NLRP3 and NF-kB pathway details relevant to [[inflammation|microbiome and inflammation]] mechanisms
+- Metabolite pathway diagram extends [[fermentative-metabolism|metabolic pathways]], [[short-chain-fatty-acids]], [[bile-acid-metabolism]], and [[tmao]] understanding
+- Gut barrier function discussion connects to [[gut-metal-microbiome|microbiome-host interactions]] and intestinal permeability
+- BCAA and indole metabolite discussion relevant to [[tryptophan|amino acids]] and [[indoles]] in CVD
+- Comprehensive coverage makes this a key [[dysbiosis|microbiome review]] for cardiovascular disease

@@ -18,7 +18,7 @@ platform: both
 condition: "schizophrenia"
 karen_brain_primitives: [2, 5]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [faecalibacterium-prausnitzii]
 key_findings:
   - "Four immunophenotypes were causally associated with schizophrenia risk (FDR<0.05): naive CD4+ %T cell (OR=0.986), HLA-DR on CD14-CD16- (OR=0.738), CD33dim HLA-DR+ CD11b- (OR=0.631), activated + resting Treg %CD4 Treg (OR=0.937)"
   - "Two-sample MR of 731 immune cell signatures (MFI, RC, AC, MP) vs schizophrenia GWAS (PGC, n=150,064); seven immunophenotypes nominally significant pre-FDR"
@@ -38,7 +38,7 @@ Two-sample bidirectional Mendelian randomization. Exposure: 731 immune cell sign
 # Relevance to WikiBiome
 
 - Informs **[[schizophrenia]]** entity page: genetic-instrument evidence that immune dysregulation is **causal** for schizophrenia, not merely correlated.
-- Informs **[[regulatory-t-cells]]** / **[[treg]]** concept page: Tregs as neuropsychiatric protective factor.
+- Informs **[[inflammation|regulatory-t-cells]]** / **[[inflammation|treg]]** concept page: Tregs as neuropsychiatric protective factor.
 - Informs **[[immune-system-microbiome-brain-axis]]** concept page: supports the immune branch of the gut-brain-immune triangle.
 
 # Relevance to Cureva

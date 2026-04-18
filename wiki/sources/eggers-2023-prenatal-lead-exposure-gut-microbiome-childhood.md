@@ -1,5 +1,4 @@
 ---
-
 title: "Prenatal Lead Exposure is Negatively Associated with the Gut Microbiome in Childhood"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [crohns-disease, IBD, lead-exposure, heavy-metals, gut-microbiome, prenatal-exposure, Bacteroides-caccae, Bifidobacterium, Ruminococcus-gnavus, Alistipes-indistinctus, dysbiosis]
 doi: "10.3389/fmicb.2023.1193919"
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [alistipes, bacteroides-fragilis, bifidobacterium, eubacterium, ruminococcus]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
@@ -35,5 +37,5 @@ platform: wikibiome
 - B. caccae depletion by lead connects to fiber fermentation capacity and [[gut-metal-microbiome]]
 - Ruminococcus gnavus is commonly increased in Crohn's disease -- its depletion by Pb may be protective or context-dependent
 - [[cadmium]] and lead as environmental contributors to IBD risk through microbiome disruption
-- Complements [[Amerikanou et al. 2022|amerikanou-2022-ibd-biomarkers-trace-metals]] on metal-IBD connections
+- Complements [[amerikanou-2022-ibd-biomarkers-trace-metals|amerikanou-2022-ibd-biomarkers-trace-metals]] on metal-IBD connections
 - [[crohns-disease]]

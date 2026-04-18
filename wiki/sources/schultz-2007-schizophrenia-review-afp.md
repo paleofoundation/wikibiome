@@ -6,9 +6,10 @@ updated: 2026-04-09
 authors: [Schultz SH, North SW, Shields CG]
 journal: American Family Physician
 year: 2007
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: American Family Physician 2007 -->
 tags: [schizophrenia, antipsychotics, dopamine, metabolic-syndrome, diagnosis, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Schizophrenia: A Review

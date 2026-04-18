@@ -28,6 +28,9 @@ keystone_criteria_met:
   - 4
   - 5
 why_keystone: First characterization of the hemoglobin/haem-binding membrane proteins by which S. pneumoniae circumvents host iron sequestration, establishing haem — not transferrin — as its route to iron. Supports the virulence-enzyme layer of WikiBiome's pneumococcal and respiratory infection signatures and the broader principle that pathogen-specific iron routes are exploitable therapeutic targets.
+metals_discussed: [iron, manganese, nickel, zinc]
+taxa_discussed: [helicobacter-pylori, streptococcus]
+karen_brain_primitives: [2, 4]
 ---
 
 ## Summary

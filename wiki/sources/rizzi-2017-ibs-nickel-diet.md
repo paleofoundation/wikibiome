@@ -1,5 +1,4 @@
 ---
-
 title: "Irritable Bowel Syndrome and Nickel Allergy: What Is the Role of the Low Nickel Diet?"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2017
 tags: [IBS, nickel-allergy, low-nickel-diet, intestinal-permeability, quality-of-life, gastrointestinal]
 doi: "10.5056/jnm16027"
 platform: wikibiome
+metals_discussed: [nickel]
+karen_brain_primitives: [5]
 ---
 
 ## Key Claims

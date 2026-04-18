@@ -1,5 +1,4 @@
 ---
-
 title: "Nickel in Foods: Summary Tables, Unweighted Averages"
 type: source
 created: 2026-04-09
@@ -8,8 +7,9 @@ authors: [Rebelytics R&D Inc.]
 journal: Rebelytics R&D Inc. (technical report)
 year: 2023
 tags: [nickel, nickel-in-food, dietary-exposure, food-database, low-nickel-diet, comprehensive-reference]
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("N/A"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Rebelytics R&D Inc. (technical report) 2023 -->
 platform: wikibiome
+metals_discussed: [nickel]
 ---
 
 # Nickel in Foods: Summary Tables, Unweighted Averages (July 2023)
@@ -36,10 +36,10 @@ platform: wikibiome
 
 ## Connections
 
-- [[Low-nickel diet]] -- essential reference for dietary planning and food selection
+- [[low-nickel-diet]] -- essential reference for dietary planning and food selection
 - -- the most comprehensive per-serving nickel database identified
 - -- dietary nickel triggers relevant to SNAS management
-- [[Dietary nickel exposure]] -- enables calculation of daily intake from specific meal patterns
+- [[dietary-nickel-exposure]] -- enables calculation of daily intake from specific meal patterns
 - [[flyvholm-1984-nickel-food-content]] -- earlier Danish dataset; this updates and vastly expands it
 - [[mania-2020-nickel-cereal-grains-poland]] -- cereal-specific data corroborates buckwheat/millet findings
 - [[pendergrass-2026-nickel-nec-preterm-gut]] -- soy formula nickel content relevant to NEC hypothesis

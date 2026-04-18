@@ -1,5 +1,4 @@
 ---
-
 title: "Mediterranean Diet and Associations with the Gut Microbiota and Pediatric-Onset Multiple Sclerosis Using Trivariate Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2024
 tags: [Mediterranean-diet, pediatric-MS, gut-microbiome, trivariate-analysis, Methanobrevibacter, Clostridiales, fiber, iron, dietary-mediation]
 doi: "10.1038/s43856-024-00565-0"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [iron]
+taxa_discussed: [methanobrevibacter-smithii]
+karen_brain_primitives: [5]
 ---
 
 # Mediterranean Diet and Associations with the Gut Microbiota and Pediatric-Onset Multiple Sclerosis Using Trivariate Analysis
@@ -32,7 +35,7 @@ platform: wikibiome
 
 ## Connections
 
-- Provides the first trivariate mediation analysis demonstrating that [[gut-microbiome]] mediates the [[Mediterranean-diet]]-MS risk association
+- Provides the first trivariate mediation analysis demonstrating that [[gut-microbiome]] mediates the [[mediterranean-diet]]-MS risk association
 - [[methanobrevibacter]] as the strongest MS-associated taxon aligns with [[jangi-2016-gut-microbiome-alterations-ms]] findings in adult MS, extending the association to pediatric onset
 - *Ruminococcaceae NK4A214* depletion connects to Clostridia cluster findings in [[miyake-2015-dysbiosis-ms-clostridia-depletion]] and the SCFA-production deficiency theme
 - Fiber and iron intake as protective factors connect to research [[hoffman-2023-dietary-strategies-eae-ms]] and broader nutritional epidemiology

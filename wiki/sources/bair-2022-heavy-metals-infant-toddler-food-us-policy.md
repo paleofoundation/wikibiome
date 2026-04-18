@@ -48,7 +48,7 @@ Narrative review (PubMed 1999-April 2022). Focused on U.S. policy context for he
 
 - [[arsenic]], [[lead]], [[mercury]], [[cadmium]] entity pages — baby food exposure data from U.S. major brands.
 - [[infant-exposure]] concept — synergy of multiple metals in early life.
-- [[rice-cereal]] entity — As contamination pathway.
+- [[dietary-arsenic-exposure|rice-cereal]] entity — As contamination pathway.
 
 ## Relevance to Cureva
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Understanding the Development of Environmental Resistance Among Microbes: A Review"
 type: source
 created: 2026-04-09
@@ -13,13 +12,17 @@ pages: "1-8"
 doi: "10.1002/clen.201300975"
 tags: [antimicrobial-resistance, environmental-resistance, heavy-metals, co-selection, efflux-pumps, horizontal-gene-transfer, plasmids, integrons, multidrug-resistance, environmental-pollution, wastewater, developing-countries]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [cadmium, copper, lead, mercury, nickel, zinc]
+taxa_discussed: [acinetobacter, campylobacter-jejuni, enterococcus, escherichia-coli, klebsiella-pneumoniae, proteus, pseudomonas-aeruginosa, salmonella, vibrio]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
 
 - Environmental microbes are inherently capable of removing/reducing contaminants through bioremediation, but continuous toxic exposure causes genetic alterations that lead to multiple resistance (MR) including co-resistance to antibiotics
 - The development of environmental resistance is contemporary with the evolution of life itself -- antimicrobial resistance existed among microbes prior to clinical antibiotic use
-- Heavy metals in the environment act as indirect selectors for antibiotic resistance emergence, because metal resistance genes and antibiotic resistance genes share the same [[mobile-genetic-elements]] (plasmids, transposons, integrons)
+- Heavy metals in the environment act as indirect selectors for antibiotic resistance emergence, because metal resistance genes and antibiotic resistance genes share the same [[horizontal-gene-transfer]] (plasmids, transposons, integrons)
 - Developing countries face the highest risk due to poor hygiene, environmental pollution, and inadequate surveillance -- the immigration of resistant bacteria between nations makes this a global problem
 
 # Methods/Findings
@@ -51,7 +54,7 @@ This review provides essential context for the wiki by framing the metal-antibio
 
 - [[antimicrobial-resistance]] -- environmental resistance predates clinical antibiotic use; metals are a primary selection pressure
 - [[co-selection]] -- metals and antibiotics share resistance mechanisms through efflux pumps and mobile genetic elements
-- [[efflux-pumps]] -- detailed catalog of efflux systems conferring dual metal and antibiotic resistance (CopB, CusCFBA, CzcCBA, AcrAB-TolC)
+- [[antimicrobial-resistance|efflux-pumps]] -- detailed catalog of efflux systems conferring dual metal and antibiotic resistance (CopB, CusCFBA, CzcCBA, AcrAB-TolC)
 - [[nickel]] -- Ni listed among metals to which *Acinetobacter baumannii* shows resistance; CzcCBA handles Ni efflux
 - [[copper]] -- Cu resistance via CopB and CusCFBA linked to MDR in *E. coli* and *Enterococcus*
 - [[zinc]] -- Zn resistance in *M. tuberculosis* via efflux; MdtABC handles Zn in *Salmonella*

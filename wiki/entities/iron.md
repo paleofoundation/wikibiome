@@ -72,9 +72,9 @@ The most abundant transition metal in the human body and arguably the most conse
 ### Thyroid Disease
 - Iron deficiency decreases **TPO activity**, leading to reduced T3/T4 synthesis and increased TSH [[brylinski-2025-trace-elements-thyroid-diseases]].
 - 58% of Hashimoto's thyroiditis patients have iron deficiency anemia [[brylinski-2025-trace-elements-thyroid-diseases]].
-- Fe deficiency impairs TPO activity and is associated with increased autoantibodies (TPOAb, TgAb) [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- Fe deficiency impairs TPO activity and is associated with increased autoantibodies (TPOAb, TgAb) [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 - Iron facilitates tumor cell proliferation in thyroid cancer via hepcidin [[brylinski-2025-trace-elements-thyroid-diseases]].
-- Iron has immunomodulating effects on M1/M2 macrophage polarization [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- Iron has immunomodulating effects on M1/M2 macrophage polarization [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 
 ### Cardiovascular Disease
 - Iron **decreased** in AMI patients (0.95 vs 1.17 ug/mL); Fe/Cu ratio significantly decreased [[lim-2023-plasma-metallomics-ami]].

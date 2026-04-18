@@ -11,6 +11,8 @@ tags: [postpartum-depression, metabolomics, GC-MS, metabolic-profiling, oxidativ
 library_category: metabolomics
 platform: cureva
 condition: "postpartum depression"
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["Metabolomic profile variations", "Two metabolic clusters", "Five metabolites"]
 ---
 
 # Key Claims

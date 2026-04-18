@@ -1,5 +1,4 @@
 ---
-
 title: "Association between heavy metals exposure and infertility among American women aged 20-44 years: A cross-sectional analysis from 2013 to 2018 NHANES data"
 type: source
 created: 2026-04-09
@@ -7,9 +6,11 @@ updated: 2026-04-09
 authors: [Lin J, Lin X, Qiu J, You X, Xu J]
 journal: "Frontiers in Public Health"
 year: 2023
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Public Health 2023 -->
 tags: [infertility, arsenic, cadmium, lead, mercury, NHANES, female-reproductive-health]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [arsenic, cadmium, lead, mercury]
 ---
 
 # Key Claims

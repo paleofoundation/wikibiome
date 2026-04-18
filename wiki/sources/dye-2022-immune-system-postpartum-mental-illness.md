@@ -11,6 +11,8 @@ tags: [postpartum-depression, immune-system, cytokines, inflammation, microglia,
 library_category: review
 platform: cureva
 condition: "postpartum mental illness"
+metals_discussed: [copper, iron, magnesium, zinc]
+key_findings: ["Immune system aberrations", "Peripheral cytokine signaling", "Pro-inflammatory Th1 response"]
 ---
 
 # Key Claims

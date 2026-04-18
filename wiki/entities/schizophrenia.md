@@ -9,7 +9,6 @@ sources: [saha-2005-prevalence-schizophrenia-systematic-review.md, schultz-2007-
 source_count: 18
 tags: [schizophrenia, neuropsychiatric-disease, copper, zinc, iron, gut-brain-axis, neuroinflammation, dysbiosis, tryptophan-metabolism, immune-balance, metabolic-syndrome, microbiome, mendelian-randomization, first-episode-psychosis, SCFAs, clostridia, betaproteobacteria, desulfovibrio, veillonellaceae]
 platform: wikibiome
-last_substantive_update: 2026-04-16
 associated_conditions: [depression, alzheimers-disease, parkinsons-disease, multiple-sclerosis, bipolar-disorder]
 shared_signature_metals: {depression: [copper, zinc], alzheimers-disease: [copper, zinc-dysregulated], parkinsons-disease: [iron, manganese, lead], multiple-sclerosis: [lead, cadmium], bipolar-disorder: [copper, zinc, iron]}
 shared_signature_taxa: {depression: [clostridium, escherichia-coli, lachnospiraceae], alzheimers-disease: [escherichia-coli, lachnospiraceae-depleted], parkinsons-disease: [enterobacteriaceae, lachnospiraceae], multiple-sclerosis: [lachnospiraceae, candida-albicans, streptococcus], bipolar-disorder: [faecalibacterium-depleted, lachnospiraceae-depleted]}
@@ -17,8 +16,7 @@ seo_target: "schizophrenia heavy metals microbiome copper zinc gut-brain"
 wikipedia_differentiation: "Cu/Zn mis-metallation mechanism at NMDA receptor zinc-finger sites connecting metallomic dysregulation to glutamatergic hypofunction hypothesis; Mendelian randomization causal taxon map distinguishing drivers from consequences; multi-kingdom gut dysbiosis analysis including mycobiome and virome"
 icd_10: "F20"
 global_prevalence: "~7.2 per 1000 adults (lifetime prevalence)"
-signature_page: "[[schizophrenia-signature]]"
----
+signature_page: "[[schizophrenia-signature]]"---
 
 # Schizophrenia
 
@@ -76,7 +74,7 @@ Proxy biomarkers of gut barrier dysfunction are markedly elevated in schizophren
 
 ### Tryptophan/Kynurenine Shunting
 
-[[Tryptophan-metabolism]] is disrupted in schizophrenia via microbiome-mediated diversion from serotonin synthesis toward the kynurenine pathway. Over 90% of the body's serotonin is synthesized in intestinal enterochromaffin cells, making the gut microbiome a primary determinant of serotonin availability [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]. Elevated kynurenine/tryptophan ratios and altered GABA, serotonin, and dopamine precursor availability have been documented in both gut and peripheral blood of schizophrenia patients.
+[[tryptophan-metabolism]] is disrupted in schizophrenia via microbiome-mediated diversion from serotonin synthesis toward the kynurenine pathway. Over 90% of the body's serotonin is synthesized in intestinal enterochromaffin cells, making the gut microbiome a primary determinant of serotonin availability [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]. Elevated kynurenine/tryptophan ratios and altered GABA, serotonin, and dopamine precursor availability have been documented in both gut and peripheral blood of schizophrenia patients.
 
 The shunting is driven both by direct microbial tryptophan catabolism and by inflammatory cytokine induction of indoleamine 2,3-dioxygenase (IDO) in the host [[chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression]]. In the brain, this pathway bifurcates: astrocytes produce neuroprotective kynurenic acid, while microglia produce neurotoxic quinolinic acid — the imbalance toward quinolinic acid contributes to excitotoxicity and the cognitive deficits of schizophrenia. Lactobacillus and Bifidobacterium in the gut can produce GABA directly; their depletion in schizophrenia therefore contributes to reduced GABAergic tone [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
 
@@ -88,7 +86,7 @@ The butyrate-producing taxa depleted in schizophrenia (Faecalibacterium, Rosebur
 
 ## Neuroinflammation
 
-[[Neuroinflammation]] is a central feature of schizophrenia pathophysiology, driven by converging genetic and environmental risk factors.
+[[neuroinflammation]] is a central feature of schizophrenia pathophysiology, driven by converging genetic and environmental risk factors.
 
 ### Microglial Activation and Synaptic Pruning
 
@@ -136,16 +134,16 @@ Heavy metal burden interacts with the microbiome in schizophrenia through two ro
 Schizophrenia shares overlapping metallomic and taxonomic signatures with several conditions, pointing to shared pathophysiological mechanisms rather than coincidental comorbidity:
 
 - **[[depression]]**: Shared Cu/Zn dysregulation; shared Lachnospiraceae and Faecalibacterium depletion; shared tryptophan/kynurenine shunting via IDO activation; Roseburia colonisation reverses depressive phenotypes in animal models by restoring 5-HT [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]. FMT from depressed donors induces depression-like behaviour and increased inflammation in rodents — parallel to the schizophrenia FMT experiments [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
-- **[[Alzheimers-disease]]**: Shared Enterobacteriaceae enrichment and Lachnospiraceae depletion; shared copper dysregulation; shared neuroinflammatory microglial activation. MR studies show causal links between gut microbiome taxa and Alzheimer's risk that parallel the schizophrenia MR findings [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
-- **[[Parkinsons-disease]]**: Shared iron dysregulation and Enterobacteriaceae enrichment; overlapping butyrate-producer depletion; shared gut-first neuroinflammation hypothesis.
-- **[[Multiple-sclerosis]]**: Shared Lachnospiraceae depletion; shared Th17/Treg imbalance; shared Candida albicans enrichment in gut mycobiome.
-- **[[Bipolar-disorder]]**: Closest metabolic overlap — shared Faecalibacterium depletion, Lachnospiraceae depletion, Cu/Zn dysregulation, and Th17 skewing. Distinguishing schizophrenia from bipolar disorder on microbiome grounds alone remains difficult.
+- **[[alzheimers-disease]]**: Shared Enterobacteriaceae enrichment and Lachnospiraceae depletion; shared copper dysregulation; shared neuroinflammatory microglial activation. MR studies show causal links between gut microbiome taxa and Alzheimer's risk that parallel the schizophrenia MR findings [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
+- **[[parkinsons-disease]]**: Shared iron dysregulation and Enterobacteriaceae enrichment; overlapping butyrate-producer depletion; shared gut-first neuroinflammation hypothesis.
+- **[[multiple-sclerosis]]**: Shared Lachnospiraceae depletion; shared Th17/Treg imbalance; shared Candida albicans enrichment in gut mycobiome.
+- **[[schizophrenia|Bipolar-disorder]]**: Closest metabolic overlap — shared Faecalibacterium depletion, Lachnospiraceae depletion, Cu/Zn dysregulation, and Th17 skewing. Distinguishing schizophrenia from bipolar disorder on microbiome grounds alone remains difficult.
 
 ## Comorbidities
 
 Schizophrenia carries a heavy comorbidity burden that intersects with microbiome dysfunction:
 
-- **[[Metabolic-syndrome]]**: Develops in approximately one-third of patients, often within the first few years of antipsychotic treatment; fivefold increase in incidence; body weight increases up to 15 kg; antipsychotics (especially olanzapine, clozapine) drive gut microbiome shifts favoring Firmicutes enrichment. Risperidone treatment over 24 weeks increases body weight, BMI, fasting blood glucose, triglycerides, and LDL alongside major elevation of Bifidobacterium and Escherichia coli [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
+- **[[metabolic-syndrome]]**: Develops in approximately one-third of patients, often within the first few years of antipsychotic treatment; fivefold increase in incidence; body weight increases up to 15 kg; antipsychotics (especially olanzapine, clozapine) drive gut microbiome shifts favoring Firmicutes enrichment. Risperidone treatment over 24 weeks increases body weight, BMI, fasting blood glucose, triglycerides, and LDL alongside major elevation of Bifidobacterium and Escherichia coli [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
 - **[[depression]]**: Depressive episodes occur in the majority of patients; paradoxically, greater insight correlates with more depression; comorbid depression is the strongest risk factor for suicide (OR=3.03).
 - **Type 2 diabetes**: Atypical antipsychotics directly increase diabetes risk independent of weight gain; gut microbiome shifts via SCFA depletion and bile acid alterations may mediate this effect.
 - **Cardiovascular disease**: Leading cause of excess mortality; driven by metabolic syndrome, smoking, and chronic inflammation.

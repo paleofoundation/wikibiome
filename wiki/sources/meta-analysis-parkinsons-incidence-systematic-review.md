@@ -11,6 +11,9 @@ tags: [parkinsons-disease, meta-analysis, epidemiology, incidence, prevalence, a
 library_category: reviews
 platform: both
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [lead, manganese, nickel]
+karen_brain_primitives: [1]
 ---
 
 # The Incidence of Parkinson's Disease: A Systematic Review and Meta-Analysis

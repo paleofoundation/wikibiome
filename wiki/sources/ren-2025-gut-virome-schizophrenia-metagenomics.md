@@ -9,6 +9,8 @@ year: 2025
 doi: "10.1186/s12967-025-06923-3"
 tags: [schizophrenia, virome, gut-virome, bacteriophage, Siphoviridae, Flandersviridae, Akkermansia, metagenomics, diagnostic-biomarker]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [akkermansia-muciniphila]
 ---
 
 # Metagenome-Based Characterization of the Gut Virome in Patients with Schizophrenia

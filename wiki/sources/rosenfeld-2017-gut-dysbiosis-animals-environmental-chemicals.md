@@ -1,5 +1,4 @@
 ---
-
 title: "Gut dysbiosis in animals due to environmental chemical exposures"
 type: source
 created: 2026-04-09
@@ -10,15 +9,19 @@ year: 2017
 tags: [dysbiosis, environmental-chemicals, heavy-metals, arsenic, lead, cadmium, endocrine-disruptors, nanoparticles, gut-microbiome, gut-brain-axis]
 doi: "10.3389/fcimb.2017.00396"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [arsenic, cadmium, iron, lead]
+taxa_discussed: [akkermansia-muciniphila, dorea, lachnospiraceae]
+karen_brain_primitives: [1, 4, 9]
 ---
 
 # Key Claims
 
-- Environmental chemical exposures including [[heavy metals]], endocrine disrupting chemicals (EDCs), and nanoparticles can induce gut [[dysbiosis]] in animal models, favoring pathogenic species that produce virulence factors like lipopolysaccharide
-- [[Arsenic Toxicity|Arsenic]] exposure (10 ppm) in mice for 4 weeks leads to distinct beta-diversity clustering, decreased Erysipelotrichaceae, and increased metabolomic alterations including indolelactic acid changes
+- Environmental chemical exposures including [[heavy-metals]], endocrine disrupting chemicals (EDCs), and nanoparticles can induce gut [[dysbiosis]] in animal models, favoring pathogenic species that produce virulence factors like lipopolysaccharide
+- [[arsenic|Arsenic]] exposure (10 ppm) in mice for 4 weeks leads to distinct beta-diversity clustering, decreased Erysipelotrichaceae, and increased metabolomic alterations including indolelactic acid changes
 - Arsenic-induced gut microbiome changes are sex-dependent and genotype-dependent (wild-type vs. IL10-/- mice show different patterns)
-- [[Lead Toxicity|Lead]] exposure in mice decreases cultivable anaerobes, increases [[lachnospiraceae]] loss, and disrupts metabolic pathways involving vitamin E, bile acids, and nitrogen metabolism
-- [[Cadmium Toxicity|Cadmium]] exposure at environmentally relevant doses also alters gut microbiota in mice
+- [[lead|Lead Toxicity]] exposure in mice decreases cultivable anaerobes, increases [[lachnospiraceae]] loss, and disrupts metabolic pathways involving vitamin E, bile acids, and nitrogen metabolism
+- [[cadmium|Cadmium Toxicity]] exposure at environmentally relevant doses also alters gut microbiota in mice
 - The gut-microbiome-brain axis represents a key pathway through which chemical-induced [[dysbiosis]] may lead to neurobehavioral disorders
 
 # Methods/Findings
@@ -35,7 +38,7 @@ platform: wikibiome
 
 - Provides animal model evidence supporting the epidemiological findings of [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]
 - Arsenic sex-dependent effects complement [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]] mechanistic framework
-- Lead-induced metabolic pathway disruptions (vitamin E, [[bile acids]]) connect to [[di-ciaula-2017-bile-acid-physiology]] and metabolomics approaches
-- Table 1 provides a comprehensive reference for [[Gut Microbiome and Metal Exposure]] studies
-- Neurobehavioral effects via the [[gut-brain axis]] relevant to understanding heavy metal roles in neurodevelopmental conditions
+- Lead-induced metabolic pathway disruptions (vitamin E, [[bile-acid-metabolism]]) connect to [[di-ciaula-2017-bile-acid-physiology]] and metabolomics approaches
+- Table 1 provides a comprehensive reference for [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]] studies
+- Neurobehavioral effects via the [[gut-brain-axis]] relevant to understanding heavy metal roles in neurodevelopmental conditions
 - Complements [[richardson-2018-toxic-metals-rat-gut-microbiota]] dose-response findings

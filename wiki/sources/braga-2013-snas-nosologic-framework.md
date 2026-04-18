@@ -1,5 +1,4 @@
 ---
-
 title: "Systemic Nickel Allergy Syndrome: Nosologic Framework and Usefulness of Diet Regimen for Diagnosis"
 type: source
 created: 2026-04-09
@@ -10,14 +9,16 @@ year: 2013
 tags: [SNAS, low-nickel-diet, diagnosis, oral-nickel-challenge, BraMa-Ni-diet]
 doi: "10.1177/039463201302600314"
 platform: wikibiome
+metals_discussed: [nickel]
+karen_brain_primitives: [5]
 ---
 
 ## Key Claims
 
-- [[systemic-nickel-allergy-syndrome]] (SNAS) affects approximately 20% of patients with [[nickel allergic contact dermatitis]] and is characterized by both cutaneous and gastrointestinal symptoms after ingestion of nickel-rich foods
+- [[nickel-allergy|systemic-nickel-allergy-syndrome]] (SNAS) affects approximately 20% of patients with [[nickel-allergy|nickel allergic contact dermatitis]] and is characterized by both cutaneous and gastrointestinal symptoms after ingestion of nickel-rich foods
 - The BraMa-Ni diet (a nutritionally balanced low-nickel diet containing max 50 ug/day nickel) has significantly higher specificity (93.3%) and sensitivity (94.4%) for detecting SNAS compared to a simple forbidden food list (specificity 44.2%, sensitivity 51.1%)
-- Only cutaneous and gastrointestinal symptoms should clinically characterize SNAS; symptoms like headache, dizziness, chronic fatigue, cough, and dyspnea were never induced by [[oral nickel challenge]] and are likely nonspecific
-- The [[oral nickel challenge]] remains the gold standard for SNAS diagnosis, but the BraMa-Ni diet can be prescribed for treatment
+- Only cutaneous and gastrointestinal symptoms should clinically characterize SNAS; symptoms like headache, dizziness, chronic fatigue, cough, and dyspnea were never induced by [[nickel-allergy|oral nickel challenge]] and are likely nonspecific
+- The [[nickel-allergy|oral nickel challenge]] remains the gold standard for SNAS diagnosis, but the BraMa-Ni diet can be prescribed for treatment
 
 ## Methods/Findings
 

@@ -12,6 +12,9 @@ library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
 evidence_level: expert-opinion
+metals_discussed: [arsenic, cadmium, chromium, copper, iron, lead, manganese, mercury, nickel, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Bidirectional relationships between heavy metals and gut microbiota", "Gut microbiota serves as physical barrier"]
 ---
 
 # Key Claims

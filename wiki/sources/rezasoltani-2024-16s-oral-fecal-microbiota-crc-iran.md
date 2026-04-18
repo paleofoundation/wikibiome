@@ -1,5 +1,4 @@
 ---
-
 title: "16S rRNA Sequencing Analysis of the Oral and Fecal Microbiota in Colorectal Cancer Positives Versus Colorectal Cancer Negatives in Iranian Population"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 tags: [colon-cancer, 16S-rRNA, oral-microbiome, fecal-microbiome, Akkermansia, Fusobacteria, biomarkers, machine-learning, CRC-screening, colorectal-cancer]
 doi: "10.1186/s13099-024-00604-0"
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [akkermansia-muciniphila, lachnospiraceae, streptococcus]
 ---
 
 # 16S rRNA Sequencing Analysis of the Oral and Fecal Microbiota in Colorectal Cancer Positives Versus Negatives in Iranian Population

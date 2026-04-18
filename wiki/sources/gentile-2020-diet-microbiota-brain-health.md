@@ -1,5 +1,4 @@
 ---
-
 title: "Diet, Microbiota and Brain Health: Unraveling the Network Intersecting Metabolism and Neurodegeneration"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 tags: [diet, gut-microbiota, neurodegeneration, Alzheimers-disease, Parkinsons-disease, ALS, metabolism, gut-brain-axis, dysbiosis, Mediterranean-diet]
 doi: "10.3390/ijms21207471"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -54,9 +56,9 @@ platform: wikibiome
 
 - Provides mechanistic framework for [[gut-brain-axis]] in [[neurodegeneration]]
 - Complements [[alonso-garcia-2021-gut-microbiota-proteinopathies]] on microbiota-driven protein aggregation
-- Links [[Mediterranean-diet]] protection to [[alzheimers-disease]] risk reduction
+- Links [[mediterranean-diet]] protection to [[alzheimers-disease]] risk reduction
 - Connects to [[dysbiosis]] and [[neuroinflammation]] pathways
-- Relevant to [[SCFA-production]] and neuroprotection discussed in [[khatoon-2023-gut-microbiota-neurodegenerative]]
-- Supports [[fecal-microbiota-transplantation]] as therapeutic avenue
-- Relates to [[amyloid-beta-aggregation]] triggered by bacterial products (LPS, Curli)
+- Relevant to [[short-chain-fatty-acids]] and neuroprotection discussed in [[khatoon-2023-gut-microbiota-neurodegenerative]]
+- Supports [[fmt-intervention]] as therapeutic avenue
+- Relates to [[amyloid-beta|amyloid-beta-aggregation]] triggered by bacterial products (LPS, Curli)
 - Links metabolic factors ([[obesity]], [[type-2-diabetes]]) to [[neurodegeneration]] risk

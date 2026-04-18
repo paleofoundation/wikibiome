@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, gut-microbiome, metabolomics, dysbiosis, imm
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Gut microbiome is a 'super-organism'", "Diseases influenced by gut microbial metabolism", "Drug metabolism affected by microbiome"]
 ---
 
 # Key Claims

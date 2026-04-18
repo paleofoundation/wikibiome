@@ -1,5 +1,4 @@
 ---
-
 title: "Immunosuppressive Amino-Acid Catabolizing Enzymes in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,17 +9,18 @@ year: 2021
 tags: [amino-acids, multiple-sclerosis, tryptophan, arginine, IDO1, ARG1, kynurenine, mTOR, GCN2K, Treg, Th17, immune-regulation]
 doi: "10.3389/fimmu.2020.600428"
 platform: wikibiome
+evidence_level: animal-model
 ---
 
 # Immunosuppressive Amino-Acid Catabolizing Enzymes in Multiple Sclerosis
 
 ## Key Claims
 
-- [[Amino-acid]] catabolism is decreased in [[multiple-sclerosis]] patients and this decrease has functional consequences: increasing pro-inflammatory cytokines and decreasing [[Treg]] cell numbers
-- [[Tryptophan]] catabolism via [[IDO1]] (indoleamine 2,3-dioxygenase) and the [[kynurenine]] pathway is a critical immune checkpoint; IDO1-deficient mice show exacerbated [[EAE]] with increased [[Th1]] and [[Th17]] cells and decreased Treg cells
-- [[Arginine]] catabolism via [[ARG1]] (arginase 1) transforms L-Arginine to L-Ornithine, facilitating polyamine synthesis which further induces IDO1 expression; these pathways interact synergistically
-- Downstream tryptophan metabolites including 3-HAA (3-hydroxyanthranilic acid) inhibit Th1/Th17 effector cells and promote Treg response by upregulating [[TGF-beta]] production by dendritic cells
-- The [[GCN2K]] (general control nonderepressible 2 kinase) and [[mTOR]] pathways are the two main sensors of amino acid depletion that mediate immunosuppressive effects
+- [[tryptophan|Amino-acid]] catabolism is decreased in [[multiple-sclerosis]] patients and this decrease has functional consequences: increasing pro-inflammatory cytokines and decreasing [[inflammation|Treg]] cell numbers
+- [[tryptophan-metabolism]] catabolism via [[kynurenine-pathway|IDO1]] (indoleamine 2,3-dioxygenase) and the [[kynurenine]] pathway is a critical immune checkpoint; IDO1-deficient mice show exacerbated [[EAE]] with increased [[Th1]] and [[inflammation|Th17]] cells and decreased Treg cells
+- [[tryptophan|Arginine]] catabolism via [[tryptophan|ARG1]] (arginase 1) transforms L-Arginine to L-Ornithine, facilitating polyamine synthesis which further induces IDO1 expression; these pathways interact synergistically
+- Downstream tryptophan metabolites including 3-HAA (3-hydroxyanthranilic acid) inhibit Th1/Th17 effector cells and promote Treg response by upregulating [[inflammation|TGF-beta]] production by dendritic cells
+- The [[insulin-resistance|GCN2K]] (general control nonderepressible 2 kinase) and [[insulin-resistance|mTOR]] pathways are the two main sensors of amino acid depletion that mediate immunosuppressive effects
 
 ## Methods/Findings
 

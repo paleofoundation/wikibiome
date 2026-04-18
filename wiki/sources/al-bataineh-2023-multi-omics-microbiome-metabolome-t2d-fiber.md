@@ -40,7 +40,7 @@ key_findings:
 - Informs **[[type-2-diabetes]]** entity and **mycobiome** concept pages: documents a mycobiome-dominant variance signature in T2DM that is distinct from healthy controls.
 - Informs **[[malassezia]]** entity page: confirms **Malassezia furfur** as a diabetes-discriminating genus with high factor loading (R>0.6).
 - Informs **[[dietary-fiber]]** concept page: shows that fiber's metabolic signaling is **blunted in T2DM**, suggesting the host-microbiome dietary response is ecologically broken.
-- Informs **[[2-hydroxybutyrate]]** and **[[propionate]]** entity pages: fiber-responsive metabolite shifts documented.
+- Informs **[[short-chain-fatty-acids|2-hydroxybutyrate]]** and **[[propionic-acid]]** entity pages: fiber-responsive metabolite shifts documented.
 
 # Relevance to Cureva
 

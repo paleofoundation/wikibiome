@@ -1,5 +1,4 @@
 ---
-
 title: "From Microbes to Myocardium: A Comprehensive Review of the Impact of the Gut-Brain Axis on Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2024
 doi: 10.7759/cureus.70877
 tags: [cardiovascular-disease, CVD, gut-brain-axis, dysbiosis, TMAO, SCFAs, autonomic-nervous-system, HPA-axis, vagus-nerve, neuroinflammation, review]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [cadmium, lead]
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium, escherichia-coli, lachnospiraceae, lactobacillus]
+karen_brain_primitives: [1, 5]
 ---
 
 # From Microbes to Myocardium: A Comprehensive Review of the Impact of the Gut-Brain Axis on Cardiovascular Disease
@@ -24,7 +27,7 @@ Comprehensive review of the gut-brain-cardiovascular axis, covering how the gut 
 - Bidirectional communication via vagus nerve, HPA axis, enteric nervous system (ENS)
 - Gut microbiota produces neuroactive compounds: serotonin, GABA, melatonin
 - SCFAs cross the blood-brain barrier and influence neuroinflammation
-- [[Dysbiosis]] leads to altered neurotransmitter levels, affecting autonomic regulation and stress responses
+- [[dysbiosis]] leads to altered neurotransmitter levels, affecting autonomic regulation and stress responses
 
 ### Key Microbial Metabolites and CVD
 | Microbiota | Metabolites | Cardiovascular Effects |

@@ -6,17 +6,20 @@ updated: 2026-04-09
 authors: [Jinyu Wang, Cuiping Xia, Zhaoxin Xia, Jilu Shen]
 year: 2025
 journal: "Frontiers in Cellular and Infection Microbiology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC11860891) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Cellular and Infection Microbiology 2025 -->
 pmcid: "PMC11860891"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, manganese, antibiotic-resistance, tigecycline, klebsiella-pneumoniae, PBT2, zinc-ionophore, superoxide-dismutase, efflux-pump, cell-wall, Irving-Williams-series]
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "zinc ionophore-mediated reversal of antibiotic resistance through metal dyshomeostasis"
+metals_discussed: [copper, iron, manganese, zinc]
+taxa_discussed: [klebsiella-pneumoniae]
+karen_brain_primitives: [3, 4]
 ---
 
 # Why This Paper Matters
 
-This study demonstrates that the zinc ionophore PBT2 can reverse tigecycline resistance in carbapenem-resistant Klebsiella pneumoniae (CRKP) by disrupting intracellular [[zinc]] homeostasis. For the [[mis-metallation]] framework, the paper provides direct evidence that elevated intracellular zinc causes: (1) decreased [[manganese]] levels, (2) suppressed [[superoxide-dismutase]] activity, (3) elevated H2O2 and ROS, (4) inhibited cell wall biosynthesis through mismetallation of the GlmU enzyme, and (5) restricted efflux pump function. The [[Irving-Williams-series]] is explicitly invoked to explain how zinc (with higher binding affinity) displaces manganese and iron from their protein binding sites, leading to "mismetallation of Mn substrate-binding proteins." PBT2, originally developed as a zinc ionophore for Alzheimer's and Huntington's disease treatment, thus acts as a "resistance breaker" by flooding bacterial cells with zinc and exploiting the toxicity of metal dyshomeostasis to overcome efflux pump-mediated antibiotic resistance.
+This study demonstrates that the zinc ionophore PBT2 can reverse tigecycline resistance in carbapenem-resistant Klebsiella pneumoniae (CRKP) by disrupting intracellular [[zinc]] homeostasis. For the [[mis-metallation]] framework, the paper provides direct evidence that elevated intracellular zinc causes: (1) decreased [[manganese]] levels, (2) suppressed [[superoxide-dismutase]] activity, (3) elevated H2O2 and ROS, (4) inhibited cell wall biosynthesis through mismetallation of the GlmU enzyme, and (5) restricted efflux pump function. The [[irving-williams-series]] is explicitly invoked to explain how zinc (with higher binding affinity) displaces manganese and iron from their protein binding sites, leading to "mismetallation of Mn substrate-binding proteins." PBT2, originally developed as a zinc ionophore for Alzheimer's and Huntington's disease treatment, thus acts as a "resistance breaker" by flooding bacterial cells with zinc and exploiting the toxicity of metal dyshomeostasis to overcome efflux pump-mediated antibiotic resistance.
 
 # Key Claims
 
@@ -60,10 +63,10 @@ Tigecycline resistance in CRKP is primarily mediated by RND-type efflux pumps (A
 - [[zinc]] -- PBT2 as zinc ionophore flooding cells with toxic zinc levels
 - [[manganese]] -- Mn depletion by zinc competition impairs SOD and other Mn-dependent processes
 - [[superoxide-dismutase]] -- SOD suppression by zinc-mediated Mn displacement
-- [[Irving-Williams-series]] -- thermodynamic basis for zinc outcompeting Mn and Fe at binding sites
+- [[irving-williams-series]] -- thermodynamic basis for zinc outcompeting Mn and Fe at binding sites
 - [[oxidative-stress]] -- increased H2O2/ROS from SOD suppression
-- [[antibiotic-resistance]] -- zinc ionophore as resistance-breaking strategy
-- [[cell-wall]] -- GlmU mismetallation disrupts peptidoglycan biosynthesis
+- [[antimicrobial-resistance|antibiotic-resistance]] -- zinc ionophore as resistance-breaking strategy
+- [[pathogen-metal-acquisition|cell-wall]] -- GlmU mismetallation disrupts peptidoglycan biosynthesis
 - [[klebsiella-pneumoniae]] -- CRKP as target for zinc-based antimicrobial strategy
 - [[antimicrobial-metals]] -- zinc ionophores as novel class of resistance breakers
 - [[metal-homeostasis]] -- zinc dyshomeostasis as therapeutic antimicrobial mechanism

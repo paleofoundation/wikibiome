@@ -11,13 +11,17 @@ tags: [parkinsons-disease, microbiome-signature, oral-microbiome, gut-microbiome
 library_category: signatures
 platform: both
 condition: "Parkinson's disease"
+evidence_level: case-control
+metals_discussed: [iron, lead, manganese, nickel]
+taxa_discussed: [akkermansia-muciniphila, alistipes, bifidobacterium, streptococcus]
+karen_brain_primitives: [1, 4, 5]
 ---
 
 # Oral and Gut Microbiome Profiles in People with Early Idiopathic Parkinson's Disease
 
 ## Summary
 
-This large-scale study (445 PD cases, 221 controls for stool; 438 PD, 220 controls for saliva) from 23andMe examined both oral and gut [[microbiome]] signatures in recently diagnosed [[parkinsons-disease]] patients. Using matched case-control shotgun metagenomics, the study found that subspecies-level oral microbiome abundances best distinguish PD with high accuracy (AUC 0.758), and that microbial networks are disrupted in PD cases with reduced connectivity between [[short-chain-fatty-acids]]-producing bacteria.
+This large-scale study (445 PD cases, 221 controls for stool; 438 PD, 220 controls for saliva) from 23andMe examined both oral and gut [[gut-microbiome|microbiome]] signatures in recently diagnosed [[parkinsons-disease]] patients. Using matched case-control shotgun metagenomics, the study found that subspecies-level oral microbiome abundances best distinguish PD with high accuracy (AUC 0.758), and that microbial networks are disrupted in PD cases with reduced connectivity between [[short-chain-fatty-acids]]-producing bacteria.
 
 ## Key Findings
 

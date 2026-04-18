@@ -1,5 +1,4 @@
 ---
-
 title: "Short-chain fatty acids in cancer pathogenesis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [pancreatic-cancer, SCFAs, butyrate, acetate, propionate, cancer-epigenetics, Wnt-signaling, Hedgehog-signaling, HDAC-inhibition, dysbiosis, immunomodulation]
 doi: "10.1007/s10555-023-10117-y"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [iron]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims

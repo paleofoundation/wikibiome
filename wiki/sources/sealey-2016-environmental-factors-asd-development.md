@@ -1,5 +1,4 @@
 ---
-
 title: "Environmental factors in the development of autism spectrum disorders"
 type: source
 created: 2026-04-09
@@ -7,9 +6,12 @@ updated: 2026-04-09
 authors: [L.A. Sealey, B.W. Hughes, A.N. Sriskanda, J.R. Guest, A.D. Gibson, L. Johnson-Williams, D.G. Pace, O. Bagasra]
 journal: Environment International
 year: 2016
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Environment International 2016 -->
 tags: [autism, environmental-factors, neurotoxins, heavy-metals, mercury, aluminum, glyphosate, fragrances, endocrine-disruptors, vaccines, maternal-antibodies]
 platform: wikibiome
+metals_discussed: [aluminum, arsenic, lead, manganese, mercury]
+taxa_discussed: [bacteroides-fragilis, clostridium]
+karen_brain_primitives: [1]
 ---
 
 # Sealey et al. 2016 -- Environmental Factors in the Development of ASD

@@ -17,7 +17,7 @@ library_category: interventions
 platform: cureva
 condition: "Parkinson's disease"
 karen_brain_primitives: [4, 5, 8, 9]
-metals_discussed: []
+metals_discussed: [iron]
 taxa_discussed: [bifidobacterium-animalis, lactobacillus-fermentum, klebsiella-oxytoca, ruminococcaceae, lachnospira]
 key_findings:
   - "Probio-M8 (Bifidobacterium animalis subsp. lactis) added to conventional levodopa/benserazide therapy for 3 months significantly improved sleep quality (PDSS), anxiety (HAMA), depression (HAMD-17), UPDRS-III motor scores, and constipation versus placebo"

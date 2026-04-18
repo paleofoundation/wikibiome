@@ -1,5 +1,4 @@
 ---
-
 title: "Amino Acids in Cancer"
 type: source
 created: 2026-04-09
@@ -7,17 +6,18 @@ updated: 2026-04-09
 authors: [Elizabeth L. Lieu, Tu Nguyen, Shawn Rhyne, Jiyeon Kim]
 journal: Experimental & Molecular Medicine
 year: 2020
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Experimental & Molecular Medicine 2020 -->
 tags: [pancreatic-cancer, colon-cancer, amino-acids, cancer-metabolism, glutamine, serine, glycine, methionine, tryptophan, kynurenine, BCAAs, epigenetic-regulation, immunosuppression, review, colorectal-cancer]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Key Claims
 
-- [[Amino acids]] are vital nutrients for cancer cells, serving as energy sources, biosynthetic materials, redox balance regulators, and epigenetic/immune modulators
-- [[Glutamine]] is the most consumed amino acid in cancer; it fuels the TCA cycle, supports nucleotide biosynthesis, and maintains redox balance via glutathione production
+- [[tryptophan|Amino acids]] are vital nutrients for cancer cells, serving as energy sources, biosynthetic materials, redox balance regulators, and epigenetic/immune modulators
+- [[tryptophan|Glutamine]] is the most consumed amino acid in cancer; it fuels the TCA cycle, supports nucleotide biosynthesis, and maintains redox balance via glutathione production
 - Branched-chain amino acids (BCAAs: valine, leucine, isoleucine) serve as alternative fuel sources and are elevated in plasma of KRAS-mutant pancreatic cancer patients
-- [[Tryptophan]] catabolism via IDO/TDO produces [[kynurenine]], which promotes cancer cell survival by reducing T cell function and inducing immune tolerance in dendritic cells
+- [[tryptophan-metabolism]] catabolism via IDO/TDO produces [[kynurenine]], which promotes cancer cell survival by reducing T cell function and inducing immune tolerance in dendritic cells
 - Amino acid-derived polyamines (putrescine, spermine, spermidine) promote tumor proliferation and aggressiveness through epigenetic chromatin remodeling
 - The system L-type amino acid transporter LAT1 (SLC7A5) is elevated in multiple cancers including colorectal, and represents a therapeutic target
 - Serine and glycine metabolism provides one-carbon units critical for nucleotide synthesis, methylation reactions, and redox balance in cancer cells
@@ -34,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Tryptophan-kynurenine-AhR axis directly relevant to [[gut microbiota]] production of indole derivatives and [[AhR ligands]] in CRC microenvironment
-- Glutamine dependence connects to [[Warburg effect]] and metabolic reprogramming seen in [[colon cancer]]
-- Polyamine metabolism links to [[microbiome-derived metabolites]] as gut bacteria produce polyamines that influence CRC progression
-- Methionine cycle and epigenetic regulation connects to [[Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of folate and one-carbon metabolism in CRC prevention
-- LAT1/ASCT2 transporter upregulation relevant to amino acid-based diagnostic approaches in [[Leichtle 2012 - Serum Amino Acid Profiles CRC]] and [[Yatabe 2013 - Amino Acid Profiling Colon Cancer Detection]]
+- Tryptophan-kynurenine-AhR axis directly relevant to [[gut-microbiome]] production of indole derivatives and [[AhR ligands]] in CRC microenvironment
+- Glutamine dependence connects to [[acidic-microenvironment|Warburg effect]] and metabolic reprogramming seen in [[colorectal-cancer]]
+- Polyamine metabolism links to [[microbiome-derived-metabolites]] as gut bacteria produce polyamines that influence CRC progression
+- Methionine cycle and epigenetic regulation connects to [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of folate and one-carbon metabolism in CRC prevention
+- LAT1/ASCT2 transporter upregulation relevant to amino acid-based diagnostic approaches in [[leichtle-2012-serum-amino-acid-profiles-crc|Leichtle 2012 - Serum Amino Acid Profiles CRC]] and [[yatabe-2013-amino-acid-profiling-colon-cancer-detection|Yatabe 2013 - Amino Acid Profiling Colon Cancer Detection]]
 - [[colorectal-cancer]]

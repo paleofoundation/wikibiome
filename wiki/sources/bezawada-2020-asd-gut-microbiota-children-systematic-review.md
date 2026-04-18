@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, gut-microbiota, systematic-review, Clostridium,
 library_category: review
 platform: systematic-review
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron]
+taxa_discussed: [clostridium, desulfovibrio, lactobacillus]
+karen_brain_primitives: [1, 4]
 ---
 
 # Overview
@@ -72,10 +76,10 @@ Systematic review of **28 studies** (published 1966-July 2019) examining the gut
 
 **Moderate relevance** — identifies key taxa with metal metabolism implications:
 
-- **[[clostridium]]**: produces [[p-cresol]], [[propionic acid]] — affects metal-dependent enzyme function
+- **[[clostridium]]**: produces [[p-cresol]], [[propionic-acid]] — affects metal-dependent enzyme function
 - **[[desulfovibrio]]**: sulfate-reducing bacteria that sequester [[iron]] and produce H2S
 - **[[sutterella]]**: associated with intestinal inflammation that alters metal absorption
-- **[[lactobacillus]]**: binds [[heavy metals]] on cell surfaces — may reflect compensatory response
+- **[[lactobacillus]]**: binds [[heavy-metals]] on cell surfaces — may reflect compensatory response
 - Methodological heterogeneity caution: no single taxon confirmed — need standardized protocols to assess metal-microbiome interactions
 
 # Methodological Notes

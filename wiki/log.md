@@ -2,6 +2,171 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-18] Ghost page remediation — 163 new pages, ~3,290 wikilinks fixed
+
+- 52 new entity pages (162→214): 41 microbes, 7 diseases, 3 metals, 1 fungus
+- 62 new concept pages (108→170): tryptophan, siderophores, gut-brain-axis, polyphenols, autophagy, epigenetics, and 56 more
+- ~3,290 ghost wikilinks fixed via 4 redirect script iterations
+- Ghost count: 1,176 → ~409 (65% reduction)
+- Ingest audit: wiki/analyses/ingest-audit-2026-04-18.md
+
+---
+
+## [2026-04-18] Full wiki health check + mass upgrade (all 8 priority items)
+
+### Task 3: Batch-upgrade 83 concept pages
+- Added `karen_brain_primitives`, `seo_target`, `last_substantive_update` to all 83 pre-v2 concept pages
+- Script: `wiki/scripts/batch-upgrade-concepts.cjs`
+- Result: 108/108 concepts now have all v2 fields (100%)
+
+### Task 4+5: Batch-upgrade 1,368 source pages
+- Added `evidence_level`, `metals_discussed`, `taxa_discussed`, `karen_brain_primitives`, `key_findings` via keyword inference
+- Script: `wiki/scripts/batch-upgrade-sources.cjs`
+- Result: evidence_level 1,272/1,706 (75%), KBP 1,146/1,706 (67%), metals 894/1,706 (52%), taxa 880/1,706 (52%), key_findings 612/1,706 (36%)
+- Remaining gaps: sources without sufficient keywords for reliable inference — left for manual review
+
+### Task 6: Fixed 5 entities + 5 interventions
+- Added `last_substantive_update` to: candida-albicans, debaryomyces, methanobrevibacter-smithii, saccharomyces-cerevisiae, torulaspora
+- Added `karen_brain_primitives` + `last_substantive_update` to: mediterranean-diet [1,4,5], probiotics-general [5,8], selenium-supplementation [1,2,4], vitamin-d-supplementation [2,5], zinc-supplementation [1,2,4]
+- Result: 162/162 entities and 29/29 interventions now have all v2 fields (100%)
+
+### Task 7: Wired 6 orphan entities
+- Added inbound wikilinks for: brucella, debaryomyces, gardnerella, oscillospiraceae, platinum, torulaspora
+- Result: 0 true orphan entities remaining (2 use aliased wikilink format `[[slug|display]]`)
+
+### Task 1: Created 41 disease signature pages
+- Built full 5-layer signatures for all 40 disease entities plus atherosclerosis
+- All pages in `wiki/signatures/` with metallomic, taxonomic, nutritional immunity, ecological, and virulence enzyme layers
+- Confidence levels assigned per layer based on available source evidence
+- Cross-condition overlaps calculated and associated_conditions populated
+
+### Task 2: Created 8 STOP pages
+- stop-iron-supplementation-ibd.md — Iron feeds siderophore pathogens; use lactoferrin/IV iron instead
+- stop-iron-supplementation-colorectal-cancer.md — Iron feeds Fusobacterium/E. coli in tumor microenvironment
+- stop-zinc-supplementation-h-pylori.md — Zinc feeds H. pylori virulence factors
+- stop-standard-probiotics-endometriosis.md — Generic probiotics may contain β-glucuronidase producers
+- stop-nickel-rich-foods-snas.md — Dietary nickel worsens systemic nickel allergy syndrome
+- stop-calcium-supplementation-cadmium-exposure.md — Calcium channels enable cadmium entry (mis-metallation)
+- stop-broad-spectrum-antibiotics-dysbiosis.md — Kills commensals, spares biofilm-protected pathogens
+- stop-iron-supplementation-pcos.md — Iron exacerbates oxidative stress and feeds iron-dependent pathogens
+
+### Task 8: DOI verification
+- Script: `wiki/scripts/verify-dois.cjs`
+- Scanned 201 "not yet verified" DOIs for extractable DOIs from body text
+- Remaining unverified DOIs flagged for manual PDF lookup
+
+### Final inventory
+- Sources: 1,706 | Entities: 162 | Concepts: 108 | Signatures: 41 | Interventions: 29 | STOPs: 8 | Analyses: 15
+
+---
+
+## [2026-04-18] Build 3 disease signature pages (Cureva)
+
+### Signature pages created (3)
+- `wiki/signatures/cardiovascular-disease-signature.md` — Full 5-layer signature. 17 sources. Metallomic: Cu elevated, Se/Fe depleted; Pb/Cd/Ni chronic. Taxonomic: Enterobacteriaceae/Streptococcus/E. coli enriched (TMA lyase, LPS); Roseburia/Faecalibacterium/Clostridiales depleted. Ecological: endotoxemia, TMAO accumulation, oral-gut translocation, fungal co-dysbiosis. Confidence: metallomic high, taxonomic high, nutritional immunity moderate, ecological high, virulence enzymes moderate.
+- `wiki/signatures/type-2-diabetes-signature.md` — Full 5-layer signature. 15 sources. Metallomic: Fe/Cd/Pb/As/Ni elevated; Zn/Cr/Mn/Mg depleted (Zn-insulin nexus via ZnT8). Taxonomic: Enterobacteriaceae/E. coli/Candida enriched; Faecalibacterium/Roseburia/Bifidobacterium/Akkermansia depleted. Ecological: gut barrier disruption, SCFA depletion, bile acid dysregulation, iron overload oxidative stress. Confidence: metallomic high, taxonomic high, nutritional immunity moderate, ecological high, virulence enzymes moderate.
+- `wiki/signatures/depression-signature.md` — Full 5-layer signature. 16 sources. Metallomic: Cu/Pb/Cd/Hg elevated; Zn/Fe/Mg/Se depleted (Cu/Zn ratio as top biomarker). Taxonomic: Eggerthella/Enterobacteriaceae/Flavonifractor enriched; Coprococcus/Faecalibacterium/Bifidobacterium/Lactobacillus/Prevotella depleted. Ecological: tryptophan shunting (IDO), endotoxemia, HPA-axis hyperactivation, BBB disruption, neuroinflammation. Confidence: metallomic high, taxonomic high, nutritional immunity moderate, ecological moderate, virulence enzymes preliminary.
+
+### Cross-condition overlaps detected
+- CVD ↔ T2D: overlap score 0.68 (shared Fe/Ni/Cd, Enterobacteriaceae, SCFA depletion)
+- T2D ↔ obesity: overlap score 0.75 (strongest overlap in the set)
+- Depression ↔ anxiety: overlap score 0.72
+- Depression ↔ T2D: overlap score 0.50 (shared Zn depletion, SCFA-producer loss)
+- CVD ↔ depression: overlap score 0.42
+
+### Index updated
+- Added Disease Signatures section to `wiki/index.md`
+- Updated signature count from 29 to 32
+
+## [2026-04-17] Broken wikilink resolution — batch 4: 4 entity pages + 1,060 automated fixes
+
+### Entity pages created (4)
+- `wiki/entities/anxiety.md` — Disease entity. GAD/panic/phobia; gut-brain axis mechanisms (serotonin, kynurenine, GABA, SCFAs, vagal); SSRI-microbiome bidirectionality; comorbidity across 8+ WikiBiome disease entities. 5 sources.
+- `wiki/entities/epilepsy.md` — Disease entity. Ketogenic diet as microbiome-mediated intervention; CP-epilepsy comorbidity with distinct microbiota; MR causal evidence; kynurenine pathway neuroactive metabolites. 5 sources.
+- `wiki/entities/pancreatitis.md` — Disease entity. Acute/chronic/autoimmune forms; fungal dysbiosis in AP; bacterial translocation; 13-RCT meta-analysis supporting probiotics/synbiotics; pancreatitis-to-PDAC progression. 5 sources.
+- `wiki/entities/bacteroides.md` — Genus-level entity (species pages existed but no genus page). Dominant Western gut genus; B. dorei TLR4-antagonist LPS in T1D; PSA immunomodulation; capsular polysaccharide switching. 4 sources.
+
+### Automated wikilink normalization
+- Created and ran `scripts/fix-wikilinks.cjs` — **1,060 wikilink fixes across 324 files**
+- Fixed case mismatches (e.g., `[[Glutathione]]` → `[[glutathione]]`, `[[Proteobacteria]]` → `[[proteobacteria]]`)
+- Fixed formatting mismatches (e.g., `[[bile acids]]` → `[[bile-acid-metabolism]]`, `[[gut microbiome]]` → `[[gut-microbiome]]`)
+- Fixed abbreviation mismatches (e.g., `[[IBD]]` → `[[ibd]]`, `[[CKD]]` → `[[chronic-kidney-disease]]`)
+- Fixed genus-to-species mapping (e.g., `[[Pseudomonas]]` → `[[pseudomonas-aeruginosa]]`)
+- Fixed disease name variants (e.g., `[[Hashimoto's thyroiditis]]` → `[[hashimotos-thyroiditis]]`)
+- Fixed Clostridioides/Clostridium (e.g., `[[clostridium-difficile]]` → `[[clostridioides-difficile]]`)
+- Fixed newly-created page links (e.g., `[[TLR4]]` → `[[tlr4]]`, `[[Metformin]]` → `[[metformin]]`)
+
+### Full session totals
+- **Total new pages: 28** (13 entities, 15 concepts)
+- **Automated wikilink fixes: 1,060** across 324 files
+- **Estimated broken links resolved: ~1,680** (620 from new pages + 1,060 from normalization)
+
+## [2026-04-17] Phantom link audit — batch 3: 5 more pages (2 entities, 3 concepts)
+
+### Entity pages created (2)
+- `wiki/entities/barretts-esophagus.md` — 15 refs. Disease entity. Microbiome-driven progression model: Streptococcus → Prevotella → Leptotrichia/EAC; three esotypes; Akkermansia protective (MR OR=0.76); H. pylori paradox. 7 sources.
+- `wiki/entities/metformin.md` — 22 refs. Pharmaceutical entity. Microbiome-mediated mechanism (Wu 2017 FMT proof); Akkermansia/Bifidobacterium enrichment; baseline microbiome predicts efficacy; drug repurposing across PD, PCOS, CRC, COVID. 8 sources.
+
+### Concept pages created (3)
+- `wiki/concepts/metabolomics.md` — 17 refs. Methodology + WikiBiome application; metal-metabolomics integration; key metabolite classes (SCFAs, tryptophan, bile acids, uremic toxins). 7 sources, primitives [1,4,5].
+- `wiki/concepts/tlr4.md` — 14 refs. LPS sensor; NF-kB cascade; nickel direct TLR4 activation (human-specific H456/H458); NEC master regulator; cadmium aggravation; butyrate suppression. 8 sources, primitives [1,2,4,9].
+- `wiki/concepts/oral-microbiome.md` — 10 refs. Oral-gut axis; PPI-mediated migration; disease associations across CVD, CRC, ASD, MS, PD, endometriosis; dental metal interactions. 8 sources, primitives [1,6,8,9].
+
+### Session totals
+- **Total pages built: 24** (9 entities, 15 concepts)
+- **Total phantom link references resolved: ~620**
+- Entities: calcium, bacteroidetes, firmicutes, proteobacteria, actinobacteria, dopamine, serotonin, kynurenine, barretts-esophagus, metformin (note: 10 entities but 9 new since calcium counts as first)
+- Concepts: iron-sulfur-clusters, superoxide-dismutase, antimicrobial-metals, synbiotics, virome, bacterial-contamination-hypothesis, mendelian-randomization, fenton-chemistry, metal-sensing, labile-metal-pool, horizontal-gene-transfer, metabolomics, tlr4, oral-microbiome
+
+## [2026-04-17] Phantom link audit — batch 2: 9 more pages (4 entities, 5 concepts)
+
+### Entity pages created (4)
+- `wiki/entities/dopamine.md` — 16 refs. Metabolite entity. Iron-dependent TH as metal-microbiome nexus; p-cresol inhibiting synthesis; ferroptosis in dopaminergic neurons; Probio-M8 RCT evidence. 8 sources.
+- `wiki/entities/serotonin.md` — 14 refs. Metabolite entity. 90%+ gut-produced; Clostridia stimulation of EC cells; IDO1-mediated tryptophan diversion; 3-IAld (Lactobacillus) tipping metabolism toward serotonin via AhR-TPH1. 10 sources.
+- `wiki/entities/kynurenine.md` — 14 refs. Metabolite entity. Dominant tryptophan catabolism pathway; IDO1/TDO iron-dependent; QUIN-Fe Fenton loop; AhR ligand; Treg differentiation. 10 sources.
+- `wiki/entities/actinobacteria.md` — 16 refs. Phylum entity. Causally protective per MR (PPD, GERD, HT, DKD); dramatic ASD depletion (12% vs 47%); diverse Ni biology (urease, Ni-SOD, NiFe-hydrogenase); estrobolome role. 10 sources. Links to 7 existing species/genus pages.
+
+### Concept pages created (5)
+- `wiki/concepts/mendelian-randomization.md` — 30 refs. Statistical method for causal inference; MiBioGen GWAS; Bifidobacterium paradox; bidirectional vicious cycles; 20+ conditions with MR evidence. 14 sources, primitives [1,5].
+- `wiki/concepts/fenton-chemistry.md` — 18 refs. Fe2+/H2O2 → OH.; Haber-Weiss cycle; Cu Fenton-like; Cd/Pb indirect amplification; QUIN-Fe loop; microbial defense strategies (Mn substitution, Dps, PrrF). 10 sources, primitives [1,2,3,4,8].
+- `wiki/concepts/metal-sensing.md` — 16 refs. Fur/Zur/MntR/NikR metalloregulators; yybP-ykoY riboswitches; sensor compatibility theory; flow equilibrium model. 8 sources, primitives [1,2,4].
+- `wiki/concepts/labile-metal-pool.md` — 16 refs. <1 free Zn/Cu atom per cell; ribosome as largest metal buffer; O2 changes metal handling; cross-metal displacement; Fenton substrate. 8 sources, primitives [1,2,3,4].
+- `wiki/concepts/horizontal-gene-transfer.md` — 15 refs. MGEs (plasmids, Tn21, intI1 integrons, ICEs); co-location of MRGs + ARGs; 120-year Enterococcus timeline; diet modulates MGE abundance; metals as permanent selective pressure. 8 sources, primitives [1,4,6].
+
+### Impact (cumulative with batch 1)
+- Total pages built this session: 19 (7 entities, 12 concepts)
+- Total phantom link references resolved: ~507
+
+## [2026-04-17] Phantom link audit + 10 new pages (3 entities, 7 concepts)
+
+### Audit
+- Extracted all wikilinks across wiki/ and identified top 40 phantom links (wikilinks pointing to non-existent pages).
+- 16 phantoms resolved as case/naming mismatches to existing pages (e.g., `[[microbiome]]` → `concepts/gut-microbiome.md`, `[[bile-acid-metabolism]]` → `concepts/bile-acid-metabolism.md`).
+- 11 truly missing pages identified, ranked by reference count and strategic value.
+
+### Entity pages created (3)
+- `wiki/entities/calcium.md` — 22 references. Essential metal entity. Ca channels as primary hijacked pathway for Pb/Cd entry (mis-metallation); calprotectin as Ca-binding immune weapon; S. pneumoniae obligate Ca requirement; Oxalobacter Ca-oxalate axis. 14 sources, primitives [1,2,3,4,5].
+- `wiki/entities/bacteroidetes.md` — 37 references. Phylum entity. Polysaccharide degradation, propionate production, F/B ratio, metal-specific abundance effects (Cd depletes, As/Hg enriches). 10 sources. Links to 11 existing species/genus entity pages.
+- `wiki/entities/firmicutes.md` — 36 references. Phylum entity. SCFA producers, Fe-S cluster vulnerability as unifying mechanism for metal-driven depletion, F/B ratio context. 10 sources. Links to 20+ existing species/genus entity pages.
+- `wiki/entities/proteobacteria.md` — 27 references. Phylum entity. Dysbiosis marker phylum, <1% healthy → 10-50% in disease. Facultative aerobiosis, siderophore advantage, metal tolerance, AMR co-selection. 10 sources. Links to 17 existing species/genus entity pages.
+
+### Concept pages created (7)
+- `wiki/concepts/iron-sulfur-clusters.md` — 28 references. Fe-S clusters as primary intracellular target of metal toxicity (not ROS); metabolic backbone of butyrate producers; synergistic Ni+Cu toxicity mechanism. 15 sources, primitives [1,3,4,5,8].
+- `wiki/concepts/superoxide-dismutase.md` — 22 references. SOD isoforms and metal cofactors; pathogen SOD as virulence factor; host nutritional immunity targeting SOD metalation; mis-metallation (Zn→Mn displacement); SOD as disease biomarker. 12 sources, primitives [1,2,3,4,5,8,9].
+- `wiki/concepts/antimicrobial-metals.md` — 21 references. Cu/Ag/Zn/Ga as antimicrobials; mis-metallation as primary killing mechanism (not ROS); copper surface anaerobic killing; host phagosomal metal deployment; metal-antibiotic synergies. 12 sources, primitives [1,2,3,4].
+- `wiki/concepts/synbiotics.md` — 22 references. Probiotic + prebiotic combinations; clinical evidence across 12 conditions (PCOS, Hashimoto's, PD, ASD, schizophrenia, CKD, etc.); relevance to metal-driven SCFA depletion. 16 sources, primitives [4,5,8].
+- `wiki/concepts/virome.md` — 18 references. Gut virome (90% bacteriophage); virome classifiers outperform bacterial in schizophrenia (AUC 93.2%); NEC virome convergence 10 days before onset; phage therapy; cancer immunotherapy prediction. 18 sources, primitives [1,5,9].
+- `wiki/concepts/bacterial-contamination-hypothesis.md` — 20 references. Khan et al. endometriosis hypothesis; LPS 4-6x elevated in menstrual fluid; E. coli/TLR4/NF-kB cascade; iron-bacterial contamination synergy; estrobolome connection. 11 sources, primitives [1,6,7,8].
+
+### Phantom links remaining (not built — lower priority or better handled by link normalization)
+- `[[mendelian-randomization]]` (21 refs) — methodological concept, not a biological mechanism; low WikiBiome value
+- Generic phrases: `[[metabolic pathways]]` (47), `[[microbiome and disease progression]]` (42), `[[microbiome-host interactions]]` (41), `[[microbiome composition]]` (35), `[[microbiome and inflammation]]` (32), `[[microbiome-targeted therapy]]` (30) — better addressed by link normalization script than new pages
+- 16 case/naming mismatches: should be fixed by a batch wikilink normalization pass
+
+### Impact
+- Total phantom link references resolved: ~253 (sum of reference counts for 10 pages built)
+- New cross-references created: ~90 wikilinks across the 10 new pages
+
 ## [2026-04-17] Nightly deploy check (02:00 automated)
 
 - **Status:** queued — computer-use access timed out (Karen not present to approve at 2am).
@@ -94,7 +259,7 @@ Processed files 1–100 alphabetically (16s-rrna-t1d-t2d… through balestrino-2
 - **57 broken source links** found (links in `sources:` arrays pointing to non-existent `wiki/sources/` files). Logged below — NOT deleted.
 
 **Broken source links (pages with unresolvable sources in frontmatter):**
-- `crohns-disease.md` (8 broken): liu-2022-mendelian-cd-microbiome, zhang-2021-akkermansia-cd, xu-2023-oxidative-stress-cd, breton-2016-cd-pb-colitis, khan-wang-2020-environmental-exposures, eggers-2023-prenatal-lead-gut-microbiome-childhood, pascal-2017-cd-microbial-signature, brusaferro-2018-pediatric-cd-dysbiosis, wang-2024-ibd-virulence-factors
+- `crohns-disease.md` (8 broken): liu-2022-mendelian-cd-microbiome, zhang-2021-akkermansia-cd, xu-2023-oxidative-stress-cd, breton-2016-cd-pb-colitis, khan-wang-2020-environmental-exposures, eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood, pascal-2017-cd-microbial-signature, brusaferro-2018-pediatric-cd-dysbiosis, wang-2024-ibd-virulence-factors
 - `endometriosis.md` (multiple): zinc-endometriosis-2024, lactoferrin-genital-2019, endo-vaginal-microbiota-glycome, altered-microbiota-ovarian-endometrioma-2021, antibiotics-metronidazole-endo-2019, and others (stub-style names, no matching source files)
 - Full list in analysis output above; total 57 broken links across multiple entity pages
 
@@ -376,7 +541,7 @@ Source pages that had no `doi:` field at all received `doi: "not yet verified"` 
 
 **4 Orphaned STOP pages wired to their signatures:**
 - `alzheimers-disease.md`: `stops: []` → `stops: [stop-iron-supplementation-alzheimers]`
-- `autism-spectrum-disorder-microbiome-signature.md`: `stops: []` → `stops: [stop-iron-supplementation-asd]`; `validated_interventions: []` → `validated_interventions: [probiotics-asd-dysbiosis]`
+- `autism-spectrum-disorder-signature.md`: `stops: []` → `stops: [stop-iron-supplementation-asd]`; `validated_interventions: []` → `validated_interventions: [probiotics-asd-dysbiosis]`
 - `colorectal-cancer.md`: `stops: []` → `stops: [stop-iron-supplementation-colorectal-cancer]`; `validated_interventions: []` → `validated_interventions: [mediterranean-diet]`
 - `hashimotos-thyroiditis.md`: fixed STOP name mismatch — `stop-excess-iodine-supplementation-hashimotos` → `stop-iodine-supplementation-hashimotos`
 
@@ -423,7 +588,7 @@ Upgraded: obesity, pancreatic-cancer, parkinsons-disease, pcos, type-2-diabetes.
 Upgraded: depression, endometriosis, graves-disease, hashimotos-thyroiditis, multiple-sclerosis.
 
 ## [2026-04-13] v2 migration | Signature pages batch 1 (5 of 15)
-Upgraded frontmatter to v2 schema: alzheimers-disease, autism-spectrum-disorder-microbiome-signature, cardiovascular-disease, colorectal-cancer, crohns-disease. Added confidence per layer, associated_conditions with overlap scores, karen_brain_primitives, last_substantive_update, source_count.
+Upgraded frontmatter to v2 schema: alzheimers-disease, autism-spectrum-disorder-signature, cardiovascular-disease, colorectal-cancer, crohns-disease. Added confidence per layer, associated_conditions with overlap scores, karen_brain_primitives, last_substantive_update, source_count.
 
 ## [2026-04-13] maintenance | Systematic Gap Remediation
 
@@ -770,7 +935,7 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 
 **Task**: Create comprehensive five-layer disease signature page for Autism Spectrum Disorder (ASD), integrating all 10 ingested papers and metallomic framework.
 
-**Output**: `/wiki/signatures/autism-spectrum-disorder-microbiome-signature.md` (661 lines)
+**Output**: `/wiki/signatures/autism-spectrum-disorder-signature.md` (661 lines)
 
 **Signature Layers Completed**:
 
@@ -939,7 +1104,7 @@ Ingested 10 papers covering autism spectrum disorder (ASD) from Overview, Interv
 
 **Wiki Pages Created**:
 - **Source Pages**: 10 (walsh-2023, ostrowski-2024, lewandowska-2022, hrnciarova-2021, roussin-2020, alharthi-2021, wang-2023, wang-2024, zhuang-2024, fattorusso-2016, microbiota-gut-brain-axis-review)
-- **Disease Signature**: 1 [[autism-spectrum-disorder-microbiome-signature]]
+- **Disease Signature**: 1 [[autism-spectrum-disorder-signature]]
 - **Intervention Pages**: 1 [[probiotics-asd-dysbiosis]]
 - **STOP Pages**: 1 [[iron-supplementation-asd-dysbiosis]]
 
@@ -1277,3 +1442,15 @@ Read 9 previously-unprocessed PDFs across Ovarian Cancer, cardiovascular disease
 - Create [[glp-1-agonist-combination-pcos]] intervention page + update [[metformin]] intervention/entity with PCOS microbiome modulation data.
 - Create [[lactobacillus-crispatus-probiotic]] intervention page.
 - Flag STOP candidate: azithromycin alone for CT + tubal infertility without concomitant L. crispatus restoration (Chen 2021).
+
+## 2026-04-18 02:10 — Nightly auto-deploy (queued)
+
+Scheduled `nightly-vercel-deploy` run.
+
+- **Status:** queued to `.deploy-queued` at vault root (clipboard route unavailable — computer-use `request_access` timed out at 2am, no user present to approve dialog; no `.auto-deploy-approved` flag at vault root).
+- **Last deploy marker:** `2026-04-16 08:22 EEST` — 2 days stale.
+- **Commits since last deploy:** 14 (through `d841ae0` — 8 concept pages + 2 CP source pages deepened).
+- **Working-tree changes:** 816 modified files. Non-`dist-v28/` changes: 286 `wiki/sources/`, 39 `wiki/entities/`, 29 `wiki/concepts/`, 7 `wiki/interventions/`, 6 `wiki/analyses/`, 2 `wiki/scripts/`, `wiki/log.md`, `src/content.generated.json`, `scripts/fix-wikilinks.cjs`.
+- **Lint gate:** most recent Sunday lint report (`lint-report-2026-04-12.md`) flagged 0 contradictions — deploy permitted.
+- **Action for Karen:** `cat .deploy-queued` or open the file at the vault root, then paste into Terminal and run.
+

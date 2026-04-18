@@ -1,5 +1,4 @@
 ---
-
 title: "Susceptibility to Environmental Heavy Metal Toxicity among Americans with Kidney Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 tags: [lead, cadmium, chronic-kidney-disease, NHANES, racial-disparities, urinary-excretion, eGFR]
 doi: "10.1097/MNH.0000000000000991"
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [cadmium, iron, lead]
 ---
 
 # Key Claims
@@ -34,7 +35,7 @@ platform: wikibiome
 # Connections
 
 - Key concept: CKD creates a state of heightened susceptibility to [[lead]] toxicity by reducing excretion
-- Racial disparities in [[lead]] susceptibility connect to [[environmental justice]] and health equity
+- Racial disparities in [[lead]] susceptibility connect to [[environmental-metal-exposure|environmental justice]] and health equity
 - Supports [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]] on proximal tubule dysfunction reducing metal clearance
 - Relevant to understanding reverse causality in cross-sectional metal-CKD studies
-- Black individuals may have additional susceptibility via [[iron deficiency]], vitamin D deficiency, and proximal tubular handling differences
+- Black individuals may have additional susceptibility via [[iron|iron deficiency]], vitamin D deficiency, and proximal tubular handling differences

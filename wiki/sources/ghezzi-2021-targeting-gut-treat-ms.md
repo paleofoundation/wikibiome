@@ -1,5 +1,4 @@
 ---
-
 title: "Targeting the Gut to Treat Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2021
 tags: [gut-brain-axis, multiple-sclerosis, gut-microbiota, intestinal-barrier, SCFA, bile-acids, probiotics, FMT, antibiotics, EAE, review, ENS, HPA-axis]
 doi: "10.1172/JCI143774"
 platform: wikibiome
+evidence_level: case-report
+taxa_discussed: [akkermansia-muciniphila]
+karen_brain_primitives: [5]
 ---
 
 # Targeting the Gut to Treat Multiple Sclerosis
@@ -34,6 +36,6 @@ platform: wikibiome
 
 - The most comprehensive review of gut-targeted MS therapies, integrating evidence from [[tamtaji-2017-probiotic-gene-expression-ms]], [[tankou-2018-probiotic-microbiome-ms]], and [[kouchaki-2017-clinical-metabolic-probiotic-ms]]
 - The propionic acid clinical data strongly supports the SCFA therapeutic approach outlined in [[yu-2022-fatty-acids-metabokines-ms]] and the dietary fiber rationale from [[hoffman-2023-dietary-strategies-eae-ms]]
-- HP2/zonulin gut barrier mechanism connects to elevated LPS/I-FABP findings in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]
+- HP2/zonulin gut barrier mechanism connects to elevated LPS/I-FABP findings in [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]]
 - The ENS/vagus nerve/HPA axis components expand the [[gut-brain-axis]] beyond microbiome composition to neuroendocrine signaling
 - Antibiotic timing paradox (beneficial pre-EAE, harmful during) is critical for research design

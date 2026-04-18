@@ -1,5 +1,4 @@
 ---
-
 title: "Complex interplay of heavy metals and renal injury: New perspectives from longitudinal epidemiological evidence"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ tags: [chromium, cadmium, lead, manganese, kidney-disease, renal-biomarkers, lon
 doi: "10.23749/mdl.v114i3.14422"
 platform: wikibiome
 evidence_level: prospective-cohort
+metals_discussed: [cadmium, chromium, lead, manganese]
 ---
 
 # Key Claims
@@ -36,7 +36,7 @@ evidence_level: prospective-cohort
 # Connections
 
 - Rare longitudinal design strengthens causal inference for [[chronic-kidney-disease]] and metal exposure
-- Synergistic metal interactions support the concept of cumulative [[nephrotoxicity]] from [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]]
+- Synergistic metal interactions support the concept of cumulative [[chronic-kidney-disease|nephrotoxicity]] from [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]]
 - [[chromium]] nephrotoxicity via ROS production, cell apoptosis, mitochondrial dynamics disorder
 - [[cadmium]] damages proximal tubules via [[oxidative-stress|oxidative stress]] and mitochondrial dysfunction
 - [[lead]] activates NF-kappaB, renin-angiotensin system -- inflammatory kidney damage

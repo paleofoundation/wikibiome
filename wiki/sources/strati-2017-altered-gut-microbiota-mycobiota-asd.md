@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, dysbiosis, mycobiome, Candida, Firmicutes-Bacte
 library_category: microbiome-signature
 platform: amplicon-16S-ITS1
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+taxa_discussed: [alistipes, aspergillus, bifidobacterium, bilophila, candida-albicans, clostridium, collinsella, corynebacterium, dialister, dorea, escherichia-coli, lactobacillus, malassezia, parabacteroides, ruminococcus, shigella, veillonella]
+karen_brain_primitives: [2, 4, 6, 8]
 ---
 
 # Overview
@@ -39,7 +43,7 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 - **[[veillonella]]**
 
 ### Constipation Effects
-- [[Escherichia/Shigella]] and [[Clostridium cluster XVIII]] significantly more abundant in constipated ASD (FDR p < 0.05)
+- [[escherichia-coli|Escherichia/Shigella]] and [[clostridium|Clostridium cluster XVIII]] significantly more abundant in constipated ASD (FDR p < 0.05)
 - [[Gemmiger]] anticorrelated with constipation (Spearman's r = -0.39, FDR p < 0.05)
 - [[ruminococcus]] also anticorrelated with constipation (r = -0.36, FDR p < 0.05)
 - Constipation had significant effect on beta diversity in NT (p = 0.046) but not within ASD subjects
@@ -73,8 +77,8 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 - Elevated Candida in ASD may contribute to host metal depletion
 - [[candida-albicans]] overgrowth shifts indoleamine 2,3-dioxygenase activity, reducing [[kynurenine]] (a neuroprotective agent) — this enzyme is [[iron]]-dependent
 - [[lactobacillus]] enrichment — this genus binds heavy metals on cell surfaces
-- Firmicutes/Bacteroidetes ratio shift linked to altered [[SCFA]] production
-- [[collinsella]] enrichment — associated with altered [[bile acid]] metabolism
+- Firmicutes/Bacteroidetes ratio shift linked to altered [[short-chain-fatty-acids]] production
+- [[collinsella]] enrichment — associated with altered [[bile-acid-metabolism]] metabolism
 
 # Methodological Notes
 

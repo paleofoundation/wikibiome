@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, camouflaging, masking, social-compensation, dia
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+key_findings: ["Camouflaging"]
 ---
 
 # Key Claims

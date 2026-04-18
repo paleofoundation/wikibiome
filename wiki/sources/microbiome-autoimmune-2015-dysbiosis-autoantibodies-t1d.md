@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2015
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2015 -->
 tags: [type-1-diabetes, autoimmune, microbiome, autoantibodies, autoimmunity, dysbiosis, islet-autoimmunity, immune-balance]
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [selenium, zinc]
+karen_brain_primitives: [1]
+key_findings: ["Gut microbiome [[dysbiosis]] precedes and promotes", "Autoantibody seroconversion", "Microbiome-driven immune activation"]
 ---
 
 # Key Claims

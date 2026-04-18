@@ -1,5 +1,4 @@
 ---
-
 title: "Relationship between risk factors for infertility in women and lead, cadmium, and arsenic blood levels: a cross-sectional study from Taiwan"
 type: source
 created: 2026-04-09
@@ -7,9 +6,11 @@ updated: 2026-04-09
 authors: [Lei HL, Wei HJ, Ho HY, Liao KW, Chien LC]
 journal: "BMC Public Health"
 year: 2015
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: BMC Public Health 2015 -->
 tags: [female-infertility, lead, cadmium, arsenic, Chinese-herbal-medicine, Taiwan, reproductive-health]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [arsenic, cadmium, lead]
 ---
 
 # Key Claims
@@ -33,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Unique finding: [[Chinese herbal medicine]] as an exposure pathway for [[lead]] in infertile women
+- Unique finding: [[pharmacomicrobiomics|Chinese herbal medicine]] as an exposure pathway for [[lead]] in infertile women
 - Supports [[lee-2020-female-infertility-blood-lead-cadmium]] on Pb-infertility association
 - Physical activity as protective factor may work through increased perspiration/metal excretion
 - [[arsenic]] association with infertility aligns with [[lin-2023-heavy-metals-infertility-nhanes]]
 - Lifestyle factors (alcohol, exercise) as modifiers of metal-fertility relationship
-- Relevant to [[endocrine disruption]] -- Pb, Cd, As can interfere with hormones and disrupt endocrine functions
+- Relevant to [[endocrine-disruption|endocrine disruption]] -- Pb, Cd, As can interfere with hormones and disrupt endocrine functions

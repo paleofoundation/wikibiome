@@ -12,15 +12,13 @@ metal_dependencies: [iron, cobalt]
 key_enzymes: [spore coat proteins, ferredoxin-dependent oxidoreductases, cobalt-dependent methionine synthase]
 tags: [pathobiont, spore-forming, context-dependent, CVD-protective, CRC-risk, Graves-disease-risk, metformin-sensitive, understudied]
 platform: wikibiome
-last_substantive_update: 2026-04-16
 seo_target: "Intestinibacter bartlettii gut microbiome CVD colorectal cancer"
 wikipedia_differentiation: "Contradictory Mendelian randomization data showing CVD-protective but CRC-risk and Graves' disease-risk associations; iron and cobalt dependency; metformin-responsive; spore-forming persistence mechanism; represents the principle that gut bacteria can have tissue-specific opposite effects not captured by simple beneficial/harmful classification"
 conditions_enriched_in: [colorectal-cancer, graves-disease]
 conditions_depleted_in: [cardiovascular-disease]
 pathogenic_potential: commensal-turned-pathogen
 gram_stain: "positive"
-oxygen_requirement: "obligate anaerobe"
----
+oxygen_requirement: "obligate anaerobe"---
 
 # Intestinibacter
 

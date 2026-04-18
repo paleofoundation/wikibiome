@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Tanweer Khan]
 year: 2017
 journal: "Conference Presentation"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Conference Presentation 2017 -->
 tags: [type-1-diabetes, autoimmune, metformin, gut-microbiome, pharmacomicrobiomics, dysbiosis]
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [zinc]
+karen_brain_primitives: [1]
+key_findings: ["Metformin exerts anti-diabetic effects partly through gut microbiome modulation", "Gut microbiome-for-type-2-diabetes research", "Pharmacomicrobiomics"]
 ---
 
 # Key Claims

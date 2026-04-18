@@ -9,6 +9,8 @@ year: 2024
 doi: "10.3892/ijo.2024.5640"
 tags: [ovarian-cancer, fungi, tumorigenesis, Candida, intratumoral-fungi, mycobiome, FMT, probiotics]
 platform: wikibiome
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [5, 6]
 ---
 
 # Fungi and Tumors: The Role of Fungi in Tumorigenesis

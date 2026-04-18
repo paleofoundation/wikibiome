@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, volatilome, VOCs, GC-MS, indole, skatole, p-cre
 library_category: metabolomics
 platform: GC-MS-SPME-16S-rRNA
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [copper, iron]
+taxa_discussed: [clostridium]
+karen_brain_primitives: [4, 5]
 ---
 
 # Overview
@@ -24,7 +28,7 @@ Integrated gut volatilome (GC-MS/SPME) and metataxonomic (16S rRNA) study of **4
 ### ASD-Associated VOCs (27 of 32 significant)
 - **Methyl isobutyl ketone** (p = 0.0001)
 - **Acetic acid** (p = 0.001)
-- **[[Indole]]** (p = 0.02)
+- **[[indoles|Indole]]** (p = 0.02)
 - **Benzeneacetaldehyde** (p = 0.02)
 - **3-Methyl indole (skatole)** (p = 0.01)
 - **Anethole** (p = 0.0001)
@@ -58,9 +62,9 @@ Integrated gut volatilome (GC-MS/SPME) and metataxonomic (16S rRNA) study of **4
 
 **High relevance** — VOC profiling captures metal-dependent metabolic outputs:
 
-- **[[Indole]]** and **skatole**: tryptophan microbial degradation products — tryptophan metabolism is [[iron]]-dependent (IDO/TDO require iron)
-- **[[p-Cresol]]**: tyrosine metabolite produced by [[clostridium]] — inhibits dopamine-beta-hydroxylase (a [[copper]]-dependent enzyme)
-- **Acetic acid**: produced by multiple bacteria including [[Desulfovibrionaceae]] (iron-sequestering sulfate reducers)
+- **[[indoles|Indole]]** and **skatole**: tryptophan microbial degradation products — tryptophan metabolism is [[iron]]-dependent (IDO/TDO require iron)
+- **[[tmao|p-Cresol]]**: tyrosine metabolite produced by [[clostridium]] — inhibits dopamine-beta-hydroxylase (a [[copper]]-dependent enzyme)
+- **Acetic acid**: produced by multiple bacteria including [[desulfovibrio|Desulfovibrionaceae]] (iron-sequestering sulfate reducers)
 - VOC profiles may serve as non-invasive proxy for metal-dependent metabolic pathway disruption
 - Machine learning models could incorporate metallomic features for improved classification
 

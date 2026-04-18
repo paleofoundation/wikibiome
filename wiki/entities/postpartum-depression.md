@@ -191,7 +191,7 @@ Whether fecal microbiome profiling could complement or replace serum trace eleme
 - [[metabolic-syndrome]] -- Insulin resistance common in PPD; overlapping metal signatures with T2D
 - [[actinobacteria]] -- Causally protective against PPD by MR (OR=0.971); also protective against MDD; includes Bifidobacterium
 - [[holdemanella]] -- Causally protective by MR (OR=0.979); linked to omega-3 consumption; depleted in stroke-related depression
-- [[faecalibacterium]] -- Depleted in PPD (9.22% vs. 19.79% in HC); correlates with EPDS severity; master SCFA producer
+- [[faecalibacterium-prausnitzii|faecalibacterium]] -- Depleted in PPD (9.22% vs. 19.79% in HC); correlates with EPDS severity; master SCFA producer
 - [[lachnospiraceae]] -- Depleted in PPD; correlated with sex hormone levels; connected to hormonal regulation
 - [[bifidobacterium]] -- Depleted in infants born to PPD mothers; correlates with NAA and L-Asparagine metabolites
 - [[gut-brain-axis]] -- Multiple causal and observational pathways linking PPD gut dysbiosis to neurochemical outcomes

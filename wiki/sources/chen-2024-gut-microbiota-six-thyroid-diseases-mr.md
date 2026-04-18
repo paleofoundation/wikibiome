@@ -1,5 +1,4 @@
 ---
-
 title: "Uncovering a Causal Connection between Gut Microbiota and Six Thyroid Diseases: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,17 +9,20 @@ year: 2024
 doi: "10.3390/biology13090714"
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, mendelian-randomization, thyroid-nodules, thyroid-cancer, Plummer-disease, gut-thyroid-axis, Bifidobacterium, Lactobacillus]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [bifidobacterium, butyricimonas, collinsella, desulfovibrio, eubacterium, lachnospira, lactobacillus, oscillospiraceae]
+karen_brain_primitives: [5]
 ---
 
 # Uncovering a Causal Connection between Gut Microbiota and Six Thyroid Diseases: A Two-Sample Mendelian Randomization Study
 
 ## Key Claims
 
-- 32 gut microbial taxa are causally linked to the risk of six thyroid diseases (TDs) at the genus level, identified via two-sample [[Mendelian randomization]]
-- For [[graves-disease]] specifically, protective genera include [[Ruminiclostridium]]9, [[Victivallis]], and [[butyricimonas]], while risk-increasing genera include [[Eubacterium rectale group]], [[desulfovibrio]], [[bifidobacterium]], [[collinsella]], [[Oscillospira]], and [[Catenibacterium]]
+- 32 gut microbial taxa are causally linked to the risk of six thyroid diseases (TDs) at the genus level, identified via two-sample [[mendelian-randomization]]
+- For [[graves-disease]] specifically, protective genera include [[ruminococcaceae|Ruminiclostridium]]9, [[Victivallis]], and [[butyricimonas]], while risk-increasing genera include [[Eubacterium rectale group]], [[desulfovibrio]], [[bifidobacterium]], [[collinsella]], [[oscillospiraceae|Oscillospira]], and [[Catenibacterium]]
 - [[bifidobacterium]] shows a paradoxical role: protective against nontoxic multinodular goiter (NMG) but associated with increased risk of [[graves-disease]]
-- [[butyricimonas]] and [[lachnospira]] are protective against both GD and Plummer disease, suggesting shared [[short-chain fatty acid]]-mediated protective mechanisms
-- The [[gut-thyroid axis]] operates through immune regulation, anti-inflammatory responses, increased intestinal permeability, and modulation of trace element absorption
+- [[butyricimonas]] and [[lachnospira]] are protective against both GD and Plummer disease, suggesting shared [[butyrate|short-chain fatty acid]]-mediated protective mechanisms
+- The [[gut-thyroid-axis|gut-thyroid axis]] operates through immune regulation, anti-inflammatory responses, increased intestinal permeability, and modulation of trace element absorption
 
 ## Methods/Findings
 
@@ -37,7 +39,7 @@ platform: wikibiome
 
 - Complements [[xian-2023-graves-disease-ibd-mendelian-randomization]] by identifying specific microbial taxa causally linked to GD
 - Bifidobacterium paradox (protective for NMG, risk for GD) relevant to [[han-2022-berberine-methimazole-graves-microbiome]] findings on Bifidobacterium correlations with TRAb
-- SCFA-producing bacteria (Butyricimonas, Lachnospira) protective role connects to [[Short-Chain Fatty Acids]] and 
+- SCFA-producing bacteria (Butyricimonas, Lachnospira) protective role connects to [[short-chain-fatty-acids]] and 
 - Desulfovibrio as GD risk factor connects to sulfate-reducing bacteria and metabolism in gut
 - Genus-level MR findings complement observational microbiome studies in [[chen-2021-gut-microbiota-thyroid-graves]] and [[yang-2022-intestinal-flora-graves-methimazole]]
 - Oscillospira risk association relevant to patterns across autoimmune thyroid conditions

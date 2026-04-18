@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, manganese, manganese-toxicity, iron, F
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "manganese excess toxicity in cyanobacteria"
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [3, 4]
+key_findings: ["75% of cellular Mn"]
 ---
 
 # Why This Paper Matters
@@ -57,7 +60,7 @@ This paper provides the first mechanistic dissection of manganese excess toxicit
 - [[manganese]] -- Mn excess toxicity mechanism in photosynthetic organisms
 - [[iron]] -- Fur mis-metallation by Mn creates a pseudo-iron-sufficiency signal
 - [[metal-homeostasis]] -- Mnx exporter as critical gatekeeper of Mn homeostasis
-- [[Irving-Williams-series]] -- Mn's weak binding affinity means excess Mn can displace correctly bound metals
+- [[irving-williams-series]] -- Mn's weak binding affinity means excess Mn can displace correctly bound metals
 - [[oxidative-stress]] -- Mn excess combined with photosynthesis generates lethal oxidative stress
-- [[ribosome]] -- upregulation of ribosomes as response to mis-metallation-induced protein damage
+- [[gene-regulation|ribosome]] -- upregulation of ribosomes as response to mis-metallation-induced protein damage
 - [[metal-sensing]] -- Fur as vulnerable target for mis-metallation by competing metals

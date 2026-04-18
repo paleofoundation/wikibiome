@@ -11,13 +11,16 @@ tags: [parkinsons-disease, environmental-exposure, microbiome-composition, neuro
 library_category: environmental
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Enriched Environmental Conditions Modify the Gut Microbiome Composition and Fecal Markers of Inflammation in Parkinson's Disease
 
 ## Summary
 
-This study examines how enriched environmental conditions -- including physical activity, social engagement, and sensory stimulation -- influence the gut [[microbiome]] composition and intestinal inflammation markers in [[parkinsons-disease]].
+This study examines how enriched environmental conditions -- including physical activity, social engagement, and sensory stimulation -- influence the gut [[gut-microbiome|microbiome]] composition and intestinal inflammation markers in [[parkinsons-disease]].
 
 ## Key Findings
 

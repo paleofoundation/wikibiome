@@ -1,5 +1,4 @@
 ---
-
 title: "A meta-analysis of obesity and the risk of pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2003
 tags: [pancreatic-cancer, meta-analysis, obesity, BMI, risk-factors, epidemiology]
 doi: "10.1038/sj.bjc.6601140"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims
@@ -29,6 +29,6 @@ platform: wikibiome
 
 # Connections
 
-- Links to [[metabolic pathways]] through insulin resistance and hyperinsulinemia as potential mechanisms
-- Obesity alters [[gut microbiome]] composition, which may independently contribute to pancreatic cancer risk
-- [[Mediterranean diet]] and [[dietary fiber]] interventions that reduce obesity may also modulate cancer risk through microbiome changes
+- Links to [[fermentative-metabolism|metabolic pathways]] through insulin resistance and hyperinsulinemia as potential mechanisms
+- Obesity alters [[gut-microbiome]] composition, which may independently contribute to pancreatic cancer risk
+- [[mediterranean-diet]] and [[dietary-fiber]] interventions that reduce obesity may also modulate cancer risk through microbiome changes

@@ -9,6 +9,7 @@ journal: "Frontiers in Immunology"
 doi: "10.3389/fimmu.2019.02981"
 tags: [chronic-kidney-disease, CKD, polyphenols, anthocyanin, catechin, chlorogenic-acid, resveratrol, gut-microbiota, kidney-injury, review]
 platform: wikibiome
+evidence_level: expert-opinion
 ---
 
 # Polyphenols Regulate Host Intestinal Microbiota in CKD Prevention

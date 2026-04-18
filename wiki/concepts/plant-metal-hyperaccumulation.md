@@ -6,6 +6,9 @@ updated: 2026-04-11
 sources: [singh-2016-heavy-metal-tolerance-plants-omics, gonzalez-henao-2021-heavy-metals-soil-remediation-plant-microbiome, pendergrass-2026-age-window-vulnerability-vegetable-baby-foods, phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome, agboola-2023-heavy-metals-leafy-vegetables-lagos]
 tags: [plants, hyperaccumulation, bioconcentration, food-safety, soil-contamination, phytoremediation]
 platform: wikibiome
+karen_brain_primitives: [1, 3, 4, 8]
+seo_target: "plant metal hyperaccumulation microbiome"
+last_substantive_update: 2026-04-11
 ---
 
 # Plant Metal Hyperaccumulation

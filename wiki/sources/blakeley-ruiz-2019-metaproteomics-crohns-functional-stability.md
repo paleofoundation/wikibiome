@@ -39,9 +39,9 @@ key_findings:
 
 ## Relevance to WikiBiome
 
-- Supports the [[functional-redundancy]] concept — different taxa occupy equivalent metabolic niches. Key consideration when reading 16S-based signatures that may over-emphasize taxonomic change.
+- Supports the [[dysbiosis|functional-redundancy]] concept — different taxa occupy equivalent metabolic niches. Key consideration when reading 16S-based signatures that may over-emphasize taxonomic change.
 - Informs [[crohns-disease]] entity page's methodological discussion: taxa counts alone under-represent the ecosystem state.
-- Feeds [[metaproteomics]] concept page.
+- Feeds [[shotgun-metagenomics|metaproteomics]] concept page.
 
 ## Relevance to Cureva
 

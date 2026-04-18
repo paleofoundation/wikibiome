@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, mycobiome, fungal-dysbiosis, saccharomyces, 
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: case-control
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [candida-albicans, saccharomyces-cerevisiae]
+karen_brain_primitives: [1, 2, 4, 6]
+key_findings: ["Fungal dysbiosis (high abundance of Saccharomyces and Candida)", "Both fungal and bacterial dysbiosis", "Increased Bacteroidales and Clostridiales ratio"]
 ---
 
 # Key Claims

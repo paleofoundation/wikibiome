@@ -9,6 +9,9 @@ year: 2024
 doi: "10.1186/s12888-024-06061-y"
 tags: [schizophrenia, synbiotics, metabolic-syndrome, RCT, waist-circumference, HbA1c, triglycerides, LDL-cholesterol, Lactobacillus]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Effects of Synbiotic Supplementation on the Components of Metabolic Syndrome in Patients with Schizophrenia

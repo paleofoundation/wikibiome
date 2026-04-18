@@ -12,6 +12,9 @@ library_category: "Drug repurposing"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-12"
+taxa_discussed: [bifidobacterium, lactobacillus, saccharomyces-cerevisiae, salmonella]
+karen_brain_primitives: [5]
+key_findings: ["Salmonella Typhimurium"]
 ---
 
 # Overview

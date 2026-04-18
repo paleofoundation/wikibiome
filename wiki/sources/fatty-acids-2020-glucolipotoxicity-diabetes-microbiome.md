@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Various]
 year: 2020
 journal: "Various"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("various"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Various 2020 -->
 tags: [type-1-diabetes, autoimmune, glucolipotoxicity, fatty-acids, beta-cells, gut-microbiome, lipid-metabolism, dysbiosis]
 library_category: reviews
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4]
+key_findings: ["Glucolipotoxicity contributes to beta-cell dysfunction", "Fatty acid composition of the gut", "Microbiome-derived lipid metabolites"]
 ---
 
 # Key Claims

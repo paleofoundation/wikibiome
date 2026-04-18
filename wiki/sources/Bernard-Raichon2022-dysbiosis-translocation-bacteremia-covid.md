@@ -47,7 +47,7 @@ condition: COVID-19
 karen_brain_primitives:
   - 5
   - 9
-metals_discussed: []
+metals_discussed: [zinc]
 taxa_discussed:
   - staphylococcus
   - enterococcus

@@ -1,5 +1,4 @@
 ---
-
 title: "The mycobiome in human cancer: analytical challenges, molecular mechanisms, and therapeutic implications"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2025
 doi: "10.1186/s12943-025-02227-8"
 tags: [colon-cancer, colorectal-cancer, mycobiome, immuno-oncology-microbiome, Candida, Malassezia, Aspergillus, fungal-detection, ITS-sequencing, WGS, TCGA, intratumoral-mycobiome, pan-cancer, antifungal-therapy]
 platform: wikibiome
+taxa_discussed: [aspergillus, candida-albicans, malassezia]
+karen_brain_primitives: [6]
 ---
 
 # Ding 2025 -- Mycobiome in Human Cancer: Challenges, Mechanisms, Therapeutics

@@ -14,7 +14,7 @@ library_category: mechanistic-insights
 platform: both
 condition: "gastroesophageal-reflux-disease"
 karen_brain_primitives: [1, 4, 5]
-metals_discussed: []
+metals_discussed: [iron]
 taxa_discussed: [pseudomonas, streptococcus]
 key_findings:
   - "Type I (Streptococcus/Gram+) to Type II (Pseudomonas/Gram-) shift in GERD esophagus"
@@ -32,7 +32,7 @@ key_findings:
 # Relevance to WikiBiome
 
 - Informs [[streptococcus]] entity page — establishes Streptococcus as the dominant commensal of healthy esophageal mucosa
-- Informs [[pseudomonas]] entity page — positions Pseudomonas as a marker of esophageal dysbiosis in GERD
+- Informs [[pseudomonas-aeruginosa]] entity page — positions Pseudomonas as a marker of esophageal dysbiosis in GERD
 - Supports the concept of **microbial community type transitions** (Type I → Type II) as a framework for understanding GERD pathogenesis
 - Barrier function disruption via claudin-1 downregulation connects to broader concepts of epithelial permeability
 

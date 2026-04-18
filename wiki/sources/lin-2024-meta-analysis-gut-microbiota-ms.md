@@ -1,5 +1,4 @@
 ---
-
 title: "Meta-Analysis Identifies Common Gut Microbiota Associated with Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 tags: [meta-analysis, gut-microbiome, multiple-sclerosis, Prevotella, Faecalibacterium, Actinomyces, Clostridia, network-analysis, 16S-rRNA, cross-study-comparison]
 doi: "10.1186/s13073-024-01364-x"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [actinomyces, bacteroides-fragilis, clostridium, eubacterium, faecalibacterium-prausnitzii, prevotella, subdoligranulum]
 ---
 
 # Meta-Analysis Identifies Common Gut Microbiota Associated with Multiple Sclerosis

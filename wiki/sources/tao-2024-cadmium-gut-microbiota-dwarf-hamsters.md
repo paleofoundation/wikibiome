@@ -34,6 +34,10 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: Demonstrates dose-dependent cadmium-induced dysbiosis in wild rodents with pathogenic enrichment and collapse of >50% of microbial metabolic pathways, confirming that Cd-driven dysbiosis is an ecologically robust phenomenon outside the lab. Strengthens the ecological case for WikiBiome's cadmium-microbiome mechanism beyond controlled feeding studies.
+evidence_level: animal-model
+metals_discussed: [cadmium, nickel]
+taxa_discussed: [campylobacter-jejuni, lachnospiraceae, lactobacillus, prevotella, treponema]
+karen_brain_primitives: [1]
 ---
 
 # Key Claims
@@ -59,8 +63,8 @@ why_keystone: Demonstrates dose-dependent cadmium-induced dysbiosis in wild rode
 
 # Connections
 
-- Extends Cd toxicity literature beyond lab mice to [[wildlife ecotoxicology]]
-- Complements [[Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]] on Cd-induced metabolic changes
-- Pathogenic bacteria enrichment supports [[Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on Cd barrier disruption
+- Extends Cd toxicity literature beyond lab mice to [[environmental-metal-exposure|wildlife ecotoxicology]]
+- Complements [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]] on Cd-induced metabolic changes
+- Pathogenic bacteria enrichment supports [[ghosh-2023-heavy-metals-gut-barrier-integrity|Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on Cd barrier disruption
 - Dose-response framework applicable to [[nickel]] exposure studies
 - Cysteine/methionine pathway disruption relevant to [[heavy metal detoxification mechanisms]] via glutathione

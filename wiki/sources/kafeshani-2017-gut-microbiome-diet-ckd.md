@@ -5,10 +5,11 @@ created: 2026-04-09
 updated: 2026-04-09
 authors: [Marzieh Kafeshani]
 year: 2017
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Preventive Epidemiology 2017 -->
 journal: "Journal of Preventive Epidemiology"
 tags: [chronic-kidney-disease, CKD, gut-microbiome, diet, Mediterranean-diet, probiotics, prebiotics, review]
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # The Gut Microbiome, Diet, and CKD

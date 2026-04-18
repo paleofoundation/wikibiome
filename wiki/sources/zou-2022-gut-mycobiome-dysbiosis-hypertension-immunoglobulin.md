@@ -10,6 +10,7 @@ doi: "10.3389/fimmu.2022.1089295"
 tags: [chronic-kidney-disease, CKD, mycobiome, hypertension, Malassezia, Mortierella, immunoglobulin-light-chains, fungal-dysbiosis]
 platform: wikibiome
 evidence_level: cross-sectional
+taxa_discussed: [malassezia]
 ---
 
 # Gut Mycobiome Dysbiosis and Hypertension

@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, metabolomics, plasma-biomarkers, mass-spectrome
 library_category: metabolomics
 platform: LC-HRMS-GC-MS
 condition: "autism spectrum disorder"
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [4]
+key_findings: ["Training set", "Independent validation set"]
 ---
 
 # Overview

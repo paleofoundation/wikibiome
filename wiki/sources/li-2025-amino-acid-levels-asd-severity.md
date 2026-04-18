@@ -11,6 +11,10 @@ tags: [autism, amino-acids, severity, CARS, aspartic-acid, glutamic-acid, trypto
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [4]
+key_findings: ["Aspartic acid, glutamic acid, phenylalanine, and leucine/isoleucine", "Tryptophan and valine", "Nonlinear relationships"]
 ---
 
 # Key Claims

@@ -1,5 +1,4 @@
 ---
-
 title: "The impact of Mediterranean diet on coronary plaque vulnerability, microvascular function, inflammation and microbiome after an acute coronary syndrome: study protocol for the MEDIMACS randomized, controlled, mechanistic clinical trial"
 type: source
 created: 2026-04-09
@@ -10,13 +9,15 @@ year: 2021
 tags: [cardiovascular-disease, Mediterranean-diet, acute-coronary-syndrome, atherosclerosis, microbiome, RCT, plaque-vulnerability, OCT, inflammation]
 doi: "10.1186/s13063-021-05746-z"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+karen_brain_primitives: [5]
 ---
 
 # Fernandez et al. 2021 -- MEDIMACS Trial: Mediterranean Diet, Microbiome, and ACS
 
 ## Key Claims
 
-- High-intensity [[Mediterranean diet]] intervention after [[acute coronary syndrome]] (ACS) is hypothesized to decrease atherosclerotic plaque vulnerability through complex interactions between anti-inflammatory effects, [[microbiome]] changes, and gene expression modulation
+- High-intensity [[mediterranean-diet]] intervention after [[cardiovascular-disease|acute coronary syndrome]] (ACS) is hypothesized to decrease atherosclerotic plaque vulnerability through complex interactions between anti-inflammatory effects, [[gut-microbiome|microbiome]] changes, and gene expression modulation
 - The primary endpoint is change in fibrous cap thickness of an intermediate atherosclerotic plaque measured by optical coherence tomography (OCT) over 12 months
 - The trial aims to define molecular pathways by which the Mediterranean diet influences the microbiota and the atherosclerotic substrate, including choline metabolism and lipid metabolism
 - Identification of specific microbial profiles related to cardiovascular health could help design probiotic treatments and microbiota-based diagnostic kits to personalize and monitor cardiovascular risk
@@ -47,5 +48,5 @@ pp. 1-8
 ## Connections
 
 - Links to trial and Mediterranean diet cardiovascular protection
-- Relevant to and [[gut microbiome]] in [[atherosclerosis]] pathogenesis
+- Relevant to and [[gut-microbiome]] in [[atherosclerosis]] pathogenesis
 - Connects to [[inflammation]] and in coronary artery disease

@@ -1,5 +1,4 @@
 ---
-
 title: "Meta-analysis of the Age-Dependent Efficacy of Multiple Sclerosis Treatments"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2017
 doi: 10.3389/fneur.2017.00577
 tags: [multiple-sclerosis, meta-analysis, disease-modifying-therapy, DMT, age, disability-progression, clinical-trials, EDSS]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Meta-analysis of the Age-Dependent Efficacy of Multiple Sclerosis Treatments

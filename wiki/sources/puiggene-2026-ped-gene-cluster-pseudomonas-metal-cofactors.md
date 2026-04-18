@@ -6,17 +6,21 @@ updated: 2026-04-09
 authors: [Oscar Puiggene, Pablo I Nikel, Edward G Dudley]
 year: 2026
 journal: "Applied and Environmental Microbiology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12997753) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Applied and Environmental Microbiology 2026 -->
 pmcid: "PMC12997753"
 tags: [mismetallation, metal-homeostasis, lanthanides, calcium, iron, copper, PQQ, pseudomonas, alcohol-dehydrogenase, rare-earth-elements, metal-cofactor-switching]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "metal cofactor competition in PQQ-dependent dehydrogenases"
+metals_discussed: [calcium, copper, iron, zinc]
+taxa_discussed: [pseudomonas-aeruginosa]
+karen_brain_primitives: [3, 4, 8]
+key_findings: ["The REE switch", "PedH has higher catalytic activity than PedE"]
 ---
 
 # Why This Paper Matters
 
-This review provides a detailed case study of [[mis-metallation]] in the context of lanthanide (rare earth element) vs. calcium cofactor competition in PQQ-dependent alcohol dehydrogenases. The ped gene cluster in [[pseudomonas]] encodes two key enzymes -- PedE (Ca2+-dependent) and PedH (La3+-dependent) -- that catalyze the same reactions but with different metal cofactors. The "REE switch" determines which enzyme is expressed based on lanthanide availability, representing one of the most elegant examples of metalloproteome remodeling in bacteria. Critically, the paper documents that competing metal ions such as Fe2+/Fe3+, Cu2+, and Zn2+ can reduce La3+ availability and impair transporter function, representing direct [[mis-metallation]] events where non-cognate metals displace the correct cofactor. Heavier lanthanides fail to support growth and may be inhibitory "likely due to mismetallation," explicitly naming the phenomenon.
+This review provides a detailed case study of [[mis-metallation]] in the context of lanthanide (rare earth element) vs. calcium cofactor competition in PQQ-dependent alcohol dehydrogenases. The ped gene cluster in [[pseudomonas-aeruginosa]] encodes two key enzymes -- PedE (Ca2+-dependent) and PedH (La3+-dependent) -- that catalyze the same reactions but with different metal cofactors. The "REE switch" determines which enzyme is expressed based on lanthanide availability, representing one of the most elegant examples of metalloproteome remodeling in bacteria. Critically, the paper documents that competing metal ions such as Fe2+/Fe3+, Cu2+, and Zn2+ can reduce La3+ availability and impair transporter function, representing direct [[mis-metallation]] events where non-cognate metals displace the correct cofactor. Heavier lanthanides fail to support growth and may be inhibitory "likely due to mismetallation," explicitly naming the phenomenon.
 
 # Key Claims
 
@@ -62,9 +66,9 @@ PP_2663 and PedS1 encode a nitric oxide (NO)-sensing system homologous to the No
 - [[iron]] -- Fe2+/Fe3+ as a mismetallating competitor for lanthanide binding sites
 - [[copper]] -- Cu2+ interferes with La3+ availability; cbb3 terminal oxidases are copper-dependent
 - [[zinc]] -- Zn2+ competes with La3+ at transporter; PP_2678 is a Zn-dependent metallo-hydrolase
-- [[pseudomonas]] -- P. putida KT2440 and P. aeruginosa PAO1 as model systems
+- [[pseudomonas-aeruginosa]] -- P. putida KT2440 and P. aeruginosa PAO1 as model systems
 - [[biofilm]] -- NO-sensing regulation of biofilm dispersal linked to ped cluster
-- [[siderophore]] -- pyoverdine deletion does not reverse Fe-mediated mismetallation
+- [[siderophores|siderophore]] -- pyoverdine deletion does not reverse Fe-mediated mismetallation
 - [[metallochaperone]] -- PedG as potential metallochaperone assisting correct cofactor insertion
-- [[rare-earth-elements]] -- lanthanide biology as emerging area in metal-dependent enzymology
-- [[metabolic-engineering]] -- ped cluster as modular platform for synthetic biology applications
+- [[environmental-metal-exposure|rare-earth-elements]] -- lanthanide biology as emerging area in metal-dependent enzymology
+- [[gene-regulation|metabolic-engineering]] -- ped cluster as modular platform for synthetic biology applications

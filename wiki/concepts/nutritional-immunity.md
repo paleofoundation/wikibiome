@@ -1,5 +1,4 @@
 ---
-
 title: Nutritional Immunity (Metal Sequestration)
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, robinson-2020-metalation-natures-challenge.md, osman-2017-fine-control-metal-zinc-cobalt.md, chandrangsu-2016-zinc-intoxication-perr-heme-toxicity.md, eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus.md, kashyap-2014-pgrps-kill-bacteria-metal-stress.md, martin-2022-manganese-homeostasis-stress-pathogenesis.md, neville-2020-cadmium-carbon-flux-membrane-pneumococcus.md, bushman-2025-nutrient-metals-bacteria-gut-infection.md, mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md]
 tags: [host-defense, metal-sequestration, innate-immunity, nickel, calprotectin, lactoferrin, hepcidin, mis-metallation]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 3, 4, 8]
+seo_target: "nutritional immunity metal sequestration microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Nutritional Immunity (Metal Sequestration)
@@ -27,7 +29,7 @@ The strategy by which mammalian hosts **withhold essential metals from invading 
 ### Why Nickel is a Good Target
 - **Mammals do not synthesize known Ni-requiring proteins** — so restricting nickel imposes no cost on the host.
 - Nickel is already scarce in mammalian tissues: <5 ppm in most organs, <0.1% of zinc levels.
-- Many important pathogens ([[helicobacter-pylori]], [[staphylococcus-aureus]], *Salmonella*, *Brucella*) depend on Ni-enzymes (urease, hydrogenase) for virulence.
+- Many important pathogens ([[helicobacter-pylori]], [[staphylococcus-aureus]], *Salmonella*, [[brucella|*Brucella*]]) depend on Ni-enzymes (urease, hydrogenase) for virulence.
 
 ### Host Proteins Involved
 - **Calprotectin** (S100A8/A9): neutrophil-derived; >1 mg/mL at infection sites [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. Canonically sequesters Mn and Zn to starve *S. aureus* of Mn-SOD cofactors [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[martin-2022-manganese-homeostasis-stress-pathogenesis]]. Recent finding: also coordinates Ni(II) at the hexahistidine site **preferentially over Zn(II)**, sequestering nickel from *S. aureus* and *K. pneumoniae* and inhibiting their urease activity [[maier-2019-nickel-microbial-pathogenesis]]. In response, *S. aureus* activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]].

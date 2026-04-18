@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, infant-microbiome, longitudinal, microbial-b
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [eubacterium, porphyromonas, ruminococcus]
+karen_brain_primitives: [1, 5]
+key_findings: ["Microbial biomarkers for T1D may be present as early as 1 year of age", "Parasutterella and Eubacterium", "Porphyromonas differentially more abundant"]
 ---
 
 # Key Claims

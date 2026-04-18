@@ -1,5 +1,4 @@
 ---
-
 title: "Probiotic-derived ferrichrome inhibits the growth of refractory pancreatic cancer cells"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 tags: [pancreatic-cancer, probiotics, ferrichrome, Lactobacillus-casei, p53, apoptosis, 5-FU-resistance, cancer-stem-cells, cell-cycle]
 doi: "10.3892/ijo.2020.5096"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [4, 5, 8]
 ---
 
 # Key Claims
@@ -31,7 +33,7 @@ platform: wikibiome
 
 # Connections
 
-- [[probiotics]]-derived metabolites as anticancer agents connects to [[microbial metabolites]] and [[microbiome-derived metabolites]] research
-- Overcoming 5-FU resistance relevant to [[microbiome-targeted therapy]] and [[drug repurposing]] strategies
+- [[probiotics]]-derived metabolites as anticancer agents connects to [[short-chain-fatty-acids|microbial metabolites]] and [[microbiome-derived-metabolites]] research
+- Overcoming 5-FU resistance relevant to [[probiotics|microbiome-targeted therapy]] and [[pharmacomicrobiomics|drug repurposing]] strategies
 - *Lactobacillus casei* ferrichrome production links to [[probiotics]] supplementation approaches in pancreatic cancer
-- p53 activation mechanism connects to [[microbiome-host interactions]] through probiotic-derived bioactive molecules
+- p53 activation mechanism connects to [[gut-metal-microbiome|microbiome-host interactions]] through probiotic-derived bioactive molecules

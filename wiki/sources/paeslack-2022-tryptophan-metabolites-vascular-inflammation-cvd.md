@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiota-derived tryptophan metabolites in vascular inflammation and cardiovascular disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 doi: 10.1007/s00726-022-03161-5
 tags: [cardiovascular-disease, CVD, tryptophan, indoles, indoxyl-sulfate, AHR, vascular-inflammation, atherosclerosis, hypertension, serotonin, kynurenine, endothelium]
 platform: wikibiome
+metals_discussed: [cadmium]
+taxa_discussed: [anaerostipes, bacteroides-fragilis, bifidobacterium, clostridium, desulfovibrio, enterococcus, escherichia-coli, eubacterium, fusobacterium-nucleatum, haemophilus, lactobacillus, parabacteroides, peptostreptococcus]
+karen_brain_primitives: [1, 4]
 ---
 
 # Microbiota-Derived Tryptophan Metabolites in Vascular Inflammation and Cardiovascular Disease
@@ -48,5 +50,5 @@ Invited review covering the emerging role of gut commensal-mediated tryptophan (
 1. **Metal-induced indoxyl sulfate accumulation** - [[cadmium]] exposure upregulates indoxyl sulfate (shown in Liu et al. 2023), connecting metal exposure directly to the pro-atherogenic Trp metabolite pathway
 2. **Loss of protective indoles** - Metal-induced depletion of *Clostridium* and *Lactobacillus* spp. would reduce protective IPA and IAld production
 3. **AHR dysregulation** - Heavy metals can independently activate AHR, and combined with microbial ligand shifts, may drive pathological vascular [[inflammation]]
-4. **[[Oxidative-stress]] amplification** - Indoxyl sulfate promotes ROS and inhibits endothelial NO production, synergizing with metal-induced [[oxidative-stress]]
+4. **[[oxidative-stress]] amplification** - Indoxyl sulfate promotes ROS and inhibits endothelial NO production, synergizing with metal-induced [[oxidative-stress]]
 5. **Kynurenine-IDO1 axis** - Metal-driven [[inflammation]] may upregulate IDO1, shifting Trp away from serotonin toward kynurenine, with implications for both CVD and the gut-brain axis

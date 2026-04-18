@@ -1,5 +1,4 @@
 ---
-
 title: "Identification of Microbial Markers across Populations in Early Detection of Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ platform: wikibiome
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: ["Fusobacterium"]
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Identification of Microbial Markers across Populations in Early Detection of Colorectal Cancer

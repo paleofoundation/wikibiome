@@ -1,5 +1,4 @@
 ---
-
 title: "Antibiotic therapy with metronidazole reduces endometriosis disease progression in mice: a potential role for gut microbiota"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2019
 tags: [endometriosis, gut-microbiome, metronidazole, antibiotics, Bacteroides, inflammation, mouse-model, dysbiosis, IL-1beta, macrophages]
 doi: "10.1093/humrep/dez041"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [iron, nickel]
+taxa_discussed: [bacteroides-fragilis]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims

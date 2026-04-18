@@ -11,19 +11,22 @@ tags: [parkinsons-disease, microbiome-mitochondria, prodromal-PD, immune-respons
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron]
+karen_brain_primitives: [1, 4, 9]
 ---
 
 # The Microbiome-Mitochondria Dance in Prodromal Parkinson's Disease
 
 ## Summary
 
-This review explores the bidirectional relationship between gut [[microbiome]] composition and mitochondrial function in the prodromal phase of [[parkinsons-disease]]. The authors propose that microbiome-derived metabolites regulate mitochondrial bioenergetics, and conversely, mitochondrial dysfunction alters the gut environment to promote [[dysbiosis]].
+This review explores the bidirectional relationship between gut [[gut-microbiome|microbiome]] composition and mitochondrial function in the prodromal phase of [[parkinsons-disease]]. The authors propose that microbiome-derived metabolites regulate mitochondrial bioenergetics, and conversely, mitochondrial dysfunction alters the gut environment to promote [[dysbiosis]].
 
 ## Key Findings
 
 - Microbial metabolites, particularly [[butyrate]], directly regulate mitochondrial complex I activity and biogenesis
-- [[Dysbiosis]]-driven SCFA depletion impairs mitochondrial function in both enterocytes and neurons
-- Mitochondrial dysfunction in gut epithelial cells increases [[reactive-oxygen-species]] (ROS) production, altering the luminal redox environment
+- [[dysbiosis]]-driven SCFA depletion impairs mitochondrial function in both enterocytes and neurons
+- Mitochondrial dysfunction in gut epithelial cells increases [[oxidative-stress|reactive-oxygen-species]] (ROS) production, altering the luminal redox environment
 - The altered redox state favors facultative anaerobes over obligate anaerobes, deepening dysbiosis
 - Prodromal PD features (constipation, REM sleep disorder) may reflect early microbiome-mitochondrial disruption
 - Bacterial-derived urolithins enhance mitophagy and may be protective, but are depleted in PD

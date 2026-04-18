@@ -9,6 +9,8 @@ year: 2011
 doi: "10.1371/journal.pone.0019963"
 tags: [ovarian-cancer, metabolomics, GC-MS, LC-MS, amino-acids, fatty-acids, carnitine, taurine, energy-metabolism]
 platform: wikibiome
+metals_discussed: [iron]
+karen_brain_primitives: [1]
 ---
 
 # Identification of Metabolites in the Normal Ovary and Their Transformation in Primary and Metastatic Ovarian Cancer

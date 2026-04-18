@@ -1,5 +1,4 @@
 ---
-
 title: "Distinct gut virome profiles are associated with response to anti-PD-1 therapy in non-small cell lung cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2026
 tags: [pancreatic-cancer, virome, gut-virome, immunotherapy, PD-1, bacteriophage, NSCLC, Akkermansia-muciniphila, Crevaviridae, immune-checkpoint-inhibitors]
 doi: "10.1186/s12967-026-07900-0"
 platform: wikibiome
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, escherichia-coli, faecalibacterium-prausnitzii, roseburia]
 ---
 
 # Key Claims

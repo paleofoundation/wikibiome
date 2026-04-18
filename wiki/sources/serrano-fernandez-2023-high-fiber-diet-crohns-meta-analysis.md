@@ -1,5 +1,4 @@
 ---
-
 title: "High-Fiber Diet and Crohn's Disease: Systematic Review and Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2023
 tags: [crohns-disease, IBD, high-fiber-diet, systematic-review, meta-analysis, dietary-intervention, remission, SCFAs, dysbiosis, Faecalibacterium-prausnitzii]
 doi: "10.3390/nu15143114"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [copper, iron, zinc]
+taxa_discussed: [bacteroides-fragilis, clostridium, faecalibacterium-prausnitzii]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -34,7 +37,7 @@ platform: wikibiome
 
 - Supports fiber as a modifier of [[dysbiosis]] in Crohn's disease through SCFA production
 - [[faecalibacterium-prausnitzii]] and Bacteroides as fiber-fermenting SCFA producers relevant to CD remission
-- Complements [[Abreu et al. 2024|abreu-2024-high-fiber-low-fat-diet-crohns]] clinical trial evidence
+- Complements [[abreu-2024-high-fiber-low-fat-diet-crohns|abreu-2024-high-fiber-low-fat-diet-crohns]] clinical trial evidence
 - Fiber's mineral-binding properties relevant to [[iron]], [[zinc]], and [[copper]] bioavailability in the gut
 - Challenges prevailing clinical practice of fiber restriction in CD management
 - [[crohns-disease]]

@@ -9,6 +9,9 @@ journal: "Frontiers in Medicine"
 doi: "10.3389/fmed.2025.1620247"
 tags: [chronic-kidney-disease, CKD, gut-microbiome-remodeling, hemodialysis, peritoneal-dialysis, ESRD, probiotics, FMT, review]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [iron]
+karen_brain_primitives: [5]
 ---
 
 # Gut Microbiome Remodeling in CKD

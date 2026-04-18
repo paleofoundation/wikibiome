@@ -9,6 +9,9 @@ year: 2015
 doi: "10.7324/JAPS.2015.501112"
 tags: [ovarian-cancer, indole-3-carbinol, DIM, EGFR, platinum-resistance, molecular-docking, ADME, tyrosine-kinase-inhibitor]
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [platinum]
+karen_brain_primitives: [1]
 ---
 
 # I3C and DIM as EGFR Inhibitors in Platinum Resistant Ovarian Cancer

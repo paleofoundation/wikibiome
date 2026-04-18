@@ -11,6 +11,7 @@ tags: [postpartum-depression, breast-milk, drug-residues, anti-inflammatory-drug
 library_category: environmental
 platform: cureva
 condition: "postpartum depression"
+key_findings: ["Anti-inflammatory drug residues", "94.4% had quinolone"]
 ---
 
 # Key Claims

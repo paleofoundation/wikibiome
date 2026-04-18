@@ -11,6 +11,9 @@ tags: [mismetallation, metal-homeostasis, magnesium, ribosome, antibiotic-resist
 library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "antibiotic resistance fitness cost"
+metals_discussed: [magnesium]
+karen_brain_primitives: [3, 4]
+key_findings: ["ATP levels drop"]
 ---
 
 # Why This Paper Matters
@@ -57,7 +60,7 @@ This paper reveals a previously unknown connection between antibiotic resistance
 
 - [[mis-metallation]] -- demonstrates how altered metal (Mg2+) utilization by a single complex cascades to metabolic consequences
 - [[metal-homeostasis]] -- Mg2+ as an underappreciated essential metal with proteome-wide impact
-- [[ribosome]] -- ribosomes as major intracellular Mg2+ sinks containing >170 structural Mg2+ per complex
+- [[gene-regulation|ribosome]] -- ribosomes as major intracellular Mg2+ sinks containing >170 structural Mg2+ per complex
 - [[antimicrobial-resistance]] -- Mg2+ limitation as an environmental constraint on resistance evolution
 - [[metal-sensing]] -- M-box riboswitch as intracellular Mg2+ sensor
 - [[oxidative-stress]] -- indirect connection through ATP depletion compromising cellular defense

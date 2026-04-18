@@ -1,5 +1,4 @@
 ---
-
 title: "Bacterial Vaginosis Is Associated with Variation in Dietary Indices"
 type: source
 created: 2026-04-09
@@ -13,12 +12,13 @@ platform: wikibiome
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+evidence_level: cross-sectional
 ---
 
 # Key Claims
 
-- [[Glycemic load]] (GL) was consistently and significantly associated with BV prevalence, progression, and persistence in both cross-sectional and prospective analyses
-- Higher dietary [[glycemic index]] (GI) was positively associated with BV compared to normal vaginal flora (adjusted OR = 0.93 per 10-unit increase, inverted: higher GI = more BV)
+- [[insulin-resistance|Glycemic load]] (GL) was consistently and significantly associated with BV prevalence, progression, and persistence in both cross-sectional and prospective analyses
+- Higher dietary [[insulin-resistance|glycemic index]] (GI) was positively associated with BV compared to normal vaginal flora (adjusted OR = 0.93 per 10-unit increase, inverted: higher GI = more BV)
 - The Naturally Nutrient Rich (NNR) score was negatively associated with BV (higher diet quality = less BV), though borderline significant after adjustment
 - Only GL remained significantly associated with BV after adjustment for confounders in prospective analyses; Healthy Eating Index (HEI) was not significantly associated after adjustment
 
@@ -40,5 +40,5 @@ taxa_discussed: []
 - Extends [[neggers-2007-dietary-nutrients-bacterial-vaginosis]] from the same LSVF cohort, shifting from individual nutrients to dietary indices
 - GL link to BV may operate through postprandial hyperglycemia, oxidative stress, and impaired immune response
 - Supports [[noormohammadi-2022-dietary-patterns-bv]] finding that high-sugar/refined carbohydrate "unhealthy diet" increases BV risk
-- Diet may influence [[vaginal microbiota]] through effects on gut microbiome composition, which serves as reservoir for vaginal colonization
+- Diet may influence [[bacterial-vaginosis|vaginal microbiota]] through effects on gut microbiome composition, which serves as reservoir for vaginal colonization
 - Connects to [[noormohammadi-2022-dietary-acid-load-bv]] on the role of diet quality indices and BV

@@ -1,5 +1,4 @@
 ---
-
 title: "The fecal microbiota of patients with pancreatic ductal adenocarcinoma and autoimmune pancreatitis characterized by metagenomic sequencing"
 type: source
 created: 2026-04-09
@@ -11,11 +10,13 @@ tags: [pancreatic-cancer, shotgun-metagenomics, fecal-microbiota, autoimmune-pan
 doi: "10.1186/s12967-021-02882-7"
 platform: wikibiome
 evidence_level: cross-sectional
+taxa_discussed: [clostridium, eubacterium, faecalibacterium-prausnitzii, roseburia, streptococcus, veillonella]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- [[Shotgun metagenomics]] revealed significant depletion of [[Firmicutes]] (especially butyrate-producing bacteria) and increase of [[Proteobacteria]] (Gammaproteobacteria) in PDAC patients
+- [[shotgun-metagenomics|Shotgun metagenomics]] revealed significant depletion of [[firmicutes]] (especially butyrate-producing bacteria) and increase of [[proteobacteria]] (Gammaproteobacteria) in PDAC patients
 - Fecal [[butyrate]] content was significantly decreased in PDAC group, with *Eubacterium rectale*, *Eubacterium ventricosum*, and *Odoribacter splanchnicus* as top discriminating biomarkers (AUC 90.74-88.89%)
 - PDAC gut microbiota displayed higher potential to degrade fatty acids but notably lower metabolic capacity to synthesize [[short-chain-fatty-acids]], especially acetate and butyrate
 - The Wood-Ljungdahl pathway (classic acetate-producing pathway) was depleted in PDAC, and pyruvate metabolism was altered
@@ -32,7 +33,7 @@ evidence_level: cross-sectional
 
 # Connections
 
-- Butyrate depletion connects [[short-chain-fatty-acids]] to [[microbiome-derived metabolites]] and immune regulation in pancreatic cancer
+- Butyrate depletion connects [[short-chain-fatty-acids]] to [[microbiome-derived-metabolites]] and immune regulation in pancreatic cancer
 - *Faecalibacterium prausnitzii* and *Roseburia* depletion relevant to [[probiotics]] and [[prebiotics]] intervention strategies
-- Functional SCFA synthesis loss links to [[metabolic pathways]] disruption and [[functional microbiome shifts]] in PDAC
-- Metagenomics classifier performance supports [[microbial biomarkers]] for non-invasive PDAC diagnosis
+- Functional SCFA synthesis loss links to [[fermentative-metabolism|metabolic pathways]] disruption and [[dysbiosis|functional microbiome shifts]] in PDAC
+- Metagenomics classifier performance supports [[microbial-biomarkers]] for non-invasive PDAC diagnosis

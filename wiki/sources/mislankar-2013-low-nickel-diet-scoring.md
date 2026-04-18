@@ -1,5 +1,4 @@
 ---
-
 title: "Low-Nickel Diet Scoring System for Systemic Nickel Allergy"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2013
 tags: [low-nickel-diet, scoring-system, dietary-nickel, point-system, patient-education]
 doi: "10.1097/DER.0b013e3182937e81"
 platform: wikibiome
+metals_discussed: [aluminum, copper, iron, nickel]
 ---
 
 ## Key Claims

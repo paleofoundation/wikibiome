@@ -1,5 +1,4 @@
 ---
-
 title: "Fermentative Metabolism"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [ecological-feature, metabolism, scfa-production, anaerobiosis, microbiota-function]
 karen_brain_primitive: "Primitive 9: Oxygen State as Ecological Determinant"
 platform: wikibiome
+karen_brain_primitives: [2, 4, 5, 8, 9]
+seo_target: "fermentative metabolism microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview
@@ -44,7 +46,7 @@ In low-carbohydrate or dysbiotic environments, taxa shift to **amino acid fermen
 
 1. **Amino acid breakdown**: Tryptophan → indoles; phenylalanine → phenol; cysteine → H₂S; tyrosine → tyramine, dopamine
 2. **Toxic end products**: These are far more genotoxic and pro-inflammatory than SCFAs.
-3. **Associated taxa**: [[clostridium-difficile]], proteolytic [[bacteroides-fragilis]], [[fusobacterium-nucleatum]]
+3. **Associated taxa**: [[clostridioides-difficile]], proteolytic [[bacteroides-fragilis]], [[fusobacterium-nucleatum]]
 
 **Oxygen state switch**:
 - Healthy colon: Anaerobic, but with localized oxygen gradients near the epithelium. Facultative anaerobes [[escherichia-coli]] are suppressed; obligate anaerobes flourish.

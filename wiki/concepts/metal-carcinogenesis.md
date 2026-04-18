@@ -1,5 +1,4 @@
 ---
-
 title: Metal Carcinogenesis
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md, liu-2025-cardiometabolic-nickel.md]
 tags: [carcinogenesis, toxicology, nickel, arsenic, chromium]
 platform: wikibiome
+karen_brain_primitives: [4]
+seo_target: "metal carcinogenesis microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Metal Carcinogenesis

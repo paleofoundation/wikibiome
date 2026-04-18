@@ -1,5 +1,4 @@
 ---
-
 title: "Chemical characterization of baby food consumed in Italy"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2024
 tags: [baby-food, trace-elements, toxic-metals, nickel, aluminum, infant-formula, dietary-exposure, Italy, ICP-AES, ICP-MS]
 doi: "10.1371/journal.pone.0289126"
 platform: wikibiome
+metals_discussed: [aluminum, mercury, nickel]
 ---
 
 ## Key Claims

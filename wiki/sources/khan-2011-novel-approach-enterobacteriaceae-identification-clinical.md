@@ -1,5 +1,4 @@
 ---
-
 title: "A Novel Approach for Identification of Members of Enterobacteriaceae Isolated from Clinical Samples"
 type: source
 created: 2026-04-09
@@ -7,17 +6,21 @@ updated: 2026-04-09
 authors: [Khan F, Rizvi M, Shukla I, Malik A]
 journal: Biology and Medicine
 year: 2011
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Biology and Medicine 2011 -->
 volume: "3(2) Special Issue:313-319"
 tags: [Enterobacteriaceae, bacterial-identification, clinical-microbiology, biochemical-tests, lactose-fermenters, gram-negative-bacteria, Escherichia-coli, Klebsiella, Salmonella, Shigella, Proteus, Citrobacter, diagnostic-algorithm]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [iron]
+taxa_discussed: [citrobacter, enterobacter, escherichia-coli, klebsiella-pneumoniae, proteus, salmonella, shigella]
+karen_brain_primitives: [1, 4]
 ---
 
 # A Novel Approach for Identification of Members of Enterobacteriaceae Isolated from Clinical Samples
 
 ## Why This Paper Matters
 
-This paper provides a practical, cost-effective identification algorithm for [[enterobacteriaceae]] -- the most frequently encountered family of Gram-negative bacilli in clinical microbiology. The scheme uses only a limited battery of inexpensive biochemical tests (catalase, oxidase, indole, citrate, urease, and phenylalanine) to identify 12 genera and 23 species within 24 hours, compared to the standard 2-3 day turnaround or expensive commercial systems like API-20E. This is directly relevant to the wiki's interest in understanding the microbial ecology of the gut and the identification of pathogenic species that interact with [[heavy-metals]] in the intestinal environment, particularly species like [[Klebsiella]] and [[Escherichia-coli]] that are involved in metal resistance and transformation.
+This paper provides a practical, cost-effective identification algorithm for [[enterobacteriaceae]] -- the most frequently encountered family of Gram-negative bacilli in clinical microbiology. The scheme uses only a limited battery of inexpensive biochemical tests (catalase, oxidase, indole, citrate, urease, and phenylalanine) to identify 12 genera and 23 species within 24 hours, compared to the standard 2-3 day turnaround or expensive commercial systems like API-20E. This is directly relevant to the wiki's interest in understanding the microbial ecology of the gut and the identification of pathogenic species that interact with [[heavy-metals]] in the intestinal environment, particularly species like [[klebsiella-pneumoniae]] and [[escherichia-coli]] that are involved in metal resistance and transformation.
 
 ## Key Claims
 
@@ -68,7 +71,7 @@ The family Enterobacteriaceae is divided into two major groups based on lactose 
 ## Connections
 
 - [[enterobacteriaceae]] identification is fundamental to understanding [[gut-microbiome]] composition and pathogen detection
-- Metal-resistant species within this family (e.g., [[Escherichia-coli]], Citrobacter) are relevant to co-selection as described in 
+- Metal-resistant species within this family (e.g., [[escherichia-coli]], Citrobacter) are relevant to co-selection as described in 
 - Proteus and Morganella species produce H2S, relevant to metabolism in the gut
 - Salmonella and Shigella identification relevant to understanding and their interactions with dietary metals
 - The cost-effective diagnostic approach is relevant to resource-limited settings where [[heavy-metals]] environmental contamination may be highest

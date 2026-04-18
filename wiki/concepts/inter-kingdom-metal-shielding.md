@@ -1,5 +1,4 @@
 ---
-
 title: Inter-Kingdom Metal Shielding
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, pendergrass-2026-nickel-nec-preterm-gut, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, rebelo-2021-enterococcus-metal-antibiotic-resistance, cheng-2021-cadmium-enterococcus-metabolic, braud-2010-siderophores-pseudomonas-metal-tolerance, do-carmo-2023-metal-nanoparticles-candida-review, cassat-2012-metal-acquisition-staphylococcus-aureus, akbari-2022-metal-homeostasis-streptococci, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, chen-2022-living-microorganisms-detoxification-heavy-metals, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]
 tags: [biofilm, polymicrobial, inter-kingdom, metal-cooperation, siderophore-sharing, gut-microbiome, NEC, antibiotic-resistance, co-selection, metal-nanoparticles, Candida, nutritional-immunity]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 5, 6, 8]
+seo_target: "inter-kingdom metal shielding microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Inter-Kingdom Metal Shielding

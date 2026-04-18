@@ -1,5 +1,4 @@
 ---
-
 title: "Coronary artery disease is associated with an altered gut microbiome composition"
 type: source
 created: 2026-04-09
@@ -10,9 +9,10 @@ year: 2020
 doi: 10.1371/journal.pone.0227147
 tags: [cardiovascular-disease, CVD, coronary-artery-disease, gut-microbiome, 16S-rRNA, microbiome-composition, alpha-diversity, Lachnospiraceae, Ruminococcus, dysbiosis, biomarker]
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: ["Ruminococcus"]
+evidence_level: case-control
 ---
 
 # Coronary Artery Disease Is Associated with an Altered Gut Microbiome Composition
@@ -50,7 +50,7 @@ Case-control study at Mayo Clinic comparing gut microbiome composition between 5
 
 ## Relevance to the Wiki
 
-Provides direct evidence linking reduced gut microbial diversity and depletion of butyrate-producing [[lachnospiraceae]] family members to [[coronary-artery-disease]]. The enrichment of *Ruminococcus gnavus* (a pro-inflammatory species) in CAD parallels findings from [[jie-2017-gut-microbiome-acvd]] and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]].
+Provides direct evidence linking reduced gut microbial diversity and depletion of butyrate-producing [[lachnospiraceae]] family members to [[cardiovascular-disease|coronary-artery-disease]]. The enrichment of *Ruminococcus gnavus* (a pro-inflammatory species) in CAD parallels findings from [[jie-2017-gut-microbiome-acvd]] and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]].
 
 ## Connections
 

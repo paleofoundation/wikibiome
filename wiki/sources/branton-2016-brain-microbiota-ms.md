@@ -1,5 +1,4 @@
 ---
-
 title: "Brain Microbiota Disruption Within Inflammatory Demyelinating Lesions in Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,16 +9,17 @@ year: 2016
 tags: [brain-microbiota, multiple-sclerosis, 16S-rRNA, RNAseq, Proteobacteria, peptidoglycan, demyelination, neuroinflammation, NF-kB]
 doi: "10.1038/srep37344"
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Brain Microbiota Disruption Within Inflammatory Demyelinating Lesions in Multiple Sclerosis
 
 ## Key Claims
 
-- Bacterial genomes and proteins are detectable in both MS and non-MS human brain tissue, with [[Proteobacteria]] as the dominant phylum in cerebral white matter
+- Bacterial genomes and proteins are detectable in both MS and non-MS human brain tissue, with [[proteobacteria]] as the dominant phylum in cerebral white matter
 - MS brains showed restricted bacterial molecular diversity compared to non-MS brains, with greater sequence diversity in non-MS white matter (p < 0.05)
-- Progressive MS patients displayed limited molecular diversity while relapsing-remitting MS showed increased [[Actinobacteria]]-like sequences
-- Bacterial [[peptidoglycan]] (PGN) immunodetection correlated with [[demyelination]] and [[neuroinflammation]]: PGN abundance was inversely correlated with LFB staining (myelin integrity) in MS lesions (r = -0.319)
+- Progressive MS patients displayed limited molecular diversity while relapsing-remitting MS showed increased [[actinobacteria]]-like sequences
+- Bacterial [[pathogen-metal-acquisition|peptidoglycan]] (PGN) immunodetection correlated with [[neuroinflammation|demyelination]] and [[neuroinflammation]]: PGN abundance was inversely correlated with LFB staining (myelin integrity) in MS lesions (r = -0.319)
 - Principal component analysis of PGN and inflammatory gene expression (NFKB1, RIPK1, IL-12A) accounted for 86% of observed variance, linking bacterial components to innate immune activation
 
 ## Methods/Findings

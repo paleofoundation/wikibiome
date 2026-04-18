@@ -9,6 +9,8 @@ journal: "BMC Nephrology"
 doi: "10.1186/s12882-019-1668-4"
 tags: [chronic-kidney-disease, CKD, 16S-rRNA, intestinal-flora, hemodialysis, peritoneal-dialysis, enterotype, Faecalibacterium]
 platform: wikibiome
+taxa_discussed: [faecalibacterium-prausnitzii]
+karen_brain_primitives: [4]
 ---
 
 # Intestinal Flora Changes in ESRD and CKD Patients

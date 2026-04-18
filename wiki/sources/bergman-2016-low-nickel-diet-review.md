@@ -1,5 +1,4 @@
 ---
-
 title: "Low Nickel Diet: A Patient-Centered Review"
 type: source
 created: 2026-04-09
@@ -10,11 +9,13 @@ year: 2016
 tags: [low-nickel-diet, SNAS, systemic-contact-dermatitis, patient-education, review]
 doi: "10.4172/2155-9554.1000356"
 platform: wikibiome
+evidence_level: case-series
+metals_discussed: [nickel]
 ---
 
 ## Key Claims
 
-- [[Systemic contact dermatitis]] (SCD) may affect up to 10% of nickel-sensitized patients due to dietary nickel found in normal diets
+- [[nickel-allergy|Systemic contact dermatitis]] (SCD) may affect up to 10% of nickel-sensitized patients due to dietary nickel found in normal diets
 - A targeted, points-based dietary approach is most meaningful for patients with SCD, as the immunologic pathways are complex involving both Th2 and Th1 responses
 - Only 37% of patients in a self-reporting nickel allergy registry recognized that nickel could be found in foods, highlighting the need for patient education
 - Foods highest in nickel per serving include mussels (154 ug), spirulina (151 ug), canned refried beans (131 ug), oatmeal (83 ug), white beans (82 ug), wheat germ (82 ug)

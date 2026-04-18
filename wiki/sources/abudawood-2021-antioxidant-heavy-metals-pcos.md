@@ -78,9 +78,9 @@ karen_brain_primitives: [1, 3]
 ## Connections
 
 - [[pcos]] -- heavy metal burden as aetiological factor
-- [[Oxidative stress]] -- central mechanism linking metal exposure to PCOS pathology
+- [[oxidative-stress]] -- central mechanism linking metal exposure to PCOS pathology
 - -- metals disrupting reproductive hormones
 - -- co-exposure to multiple toxic metals
-- [[Glutathione]] -- GSH depletion as biomarker of metal-induced oxidative damage
+- [[glutathione]] -- GSH depletion as biomarker of metal-induced oxidative damage
 - -- connects to [[ding-2021-nickel-pregnancy-complications]]
 - -- Cd as reproductive toxicant and endocrine disruptor

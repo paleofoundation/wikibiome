@@ -52,7 +52,7 @@ karen_brain_primitives: [1, 4]
 
 # Key Claims
 
-- E-waste recycling facilities harbor airborne [[antibiotic-resistance-genes]] (ARGs) and [[metal-resistance-genes]] (MRGs) at concentrations that pose significant occupational health risks to workers
+- E-waste recycling facilities harbor airborne [[antimicrobial-resistance|antibiotic-resistance-genes]] (ARGs) and [[metal-resistance-genes]] (MRGs) at concentrations that pose significant occupational health risks to workers
 - [[co-selection]] is the primary driving mechanism for ARG acquisition at e-waste facilities, rather than cross-resistance driven by efflux pumps
 - The mobile genetic element *intI1* (class 1 integron-integrase) consistently exhibited high relative abundance rates across all sample types and all four facilities, underscoring its pivotal role in horizontal gene transfer of resistance determinants
 - Gram-negative bacteria carry more ARGs while Gram-positive bacteria carry more MRGs, revealing divergent resistance strategies
@@ -67,7 +67,7 @@ karen_brain_primitives: [1, 4]
 
  - Heavy metal concentrations at all facilities exceeded ambient air levels by 2-5x (measured at up to 0.67 ug/m3 compared to EU monitoring of 0.3-0.47 ug/m3)
  - Battery recycling facility had exceptionally high [[cobalt]] and [[lead]] concentrations; some metals exceeded WHO/Cal-OSHA permissible exposure limits
- - [[Endotoxin]] concentrations at two facilities (e-waste recycling, car demolishing) exceeded 50 EU/m3, significantly higher than at the other two
+ - [[toll-like-receptors|Endotoxin]] concentrations at two facilities (e-waste recycling, car demolishing) exceeded 50 EU/m3, significantly higher than at the other two
  - *blaTEM* was the most predominant ARG in all air samples; *pbrT* and *nccA* were the most prevalent MRGs
  - ARG abundance in river samples were higher than in soil near the e-waste collection site and car demolishing site
  - Absolute abundance of 16S gene ranged from 10^7 copies/m3 in air to 10^10 copies/g in soil
@@ -83,7 +83,7 @@ This study is the first to quantify biological pollutants (ARGs, MRGs, endotoxin
 
 # Connections
 
-- [[co-selection]] -- direct evidence that heavy metal exposure at e-waste facilities drives simultaneous selection of ARGs and MRGs via shared [[mobile-genetic-elements]]
+- [[co-selection]] -- direct evidence that heavy metal exposure at e-waste facilities drives simultaneous selection of ARGs and MRGs via shared [[horizontal-gene-transfer]]
 - [[antimicrobial-resistance]] -- airborne ARGs identified at e-waste facilities include clinically relevant beta-lactam, sulfonamide, tetracycline, and vancomycin resistance genes
 - [[mercury]] -- battery recycling facility with highest mercury concentrations showed the most diverse ARG profiles
 - [[copper]] and [[lead]] -- emerged as the most prevalent metals in air across all four facilities

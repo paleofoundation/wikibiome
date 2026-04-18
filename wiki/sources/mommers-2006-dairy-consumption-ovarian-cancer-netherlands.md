@@ -9,6 +9,7 @@ year: 2006
 doi: "10.1038/sj.bjc.6602890"
 tags: [ovarian-cancer, dairy, milk, lactose, fermented-foods, cohort-study, Netherlands, cancer-risk]
 platform: wikibiome
+evidence_level: prospective-cohort
 ---
 
 # Dairy Consumption and Ovarian Cancer Risk in the Netherlands Cohort Study

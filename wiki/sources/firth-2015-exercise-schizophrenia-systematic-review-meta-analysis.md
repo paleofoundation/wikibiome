@@ -9,6 +9,7 @@ year: 2015
 doi: "10.1017/S0033291714003110"
 tags: [schizophrenia, exercise, meta-analysis, metabolic-syndrome, psychiatric-symptoms, neurocognition]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # A Systematic Review and Meta-Analysis of Exercise Interventions in Schizophrenia Patients

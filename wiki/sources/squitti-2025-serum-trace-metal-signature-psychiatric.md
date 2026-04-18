@@ -1,5 +1,4 @@
 ---
-
 title: "The serum trace metal signature distinguishes patients with psychiatric disorders from healthy controls"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2025
 doi: "10.1007/s10534-025-00723-4"
 tags: [metallomics, psychiatry, copper, zinc, iron, magnesium, Cu-Zn-ratio, mood-disorders, schizophrenia, personality-disorders, transferrin, ferritin, biomarkers]
 platform: wikibiome
+metals_discussed: [copper, iron, magnesium, zinc]
+karen_brain_primitives: [2, 4]
 ---
 
 # The Serum Trace Metal Signature Distinguishes Patients with Psychiatric Disorders from Healthy Controls

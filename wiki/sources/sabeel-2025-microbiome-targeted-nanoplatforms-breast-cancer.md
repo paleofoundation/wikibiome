@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiome-Targeted Nanoplatforms and Engineering Approaches in Breast Cancer Therapy"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 tags: [colon-cancer, breast-cancer, microbiome-targeted-therapy, nanoparticles, Fusobacterium-nucleatum, FMT, probiotics, immunotherapy, nanomedicine, drug-delivery, review]
 doi: "10.1186/s12943-025-02456-x"
 platform: wikibiome
+evidence_level: in-vitro
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, fusobacterium-nucleatum, klebsiella-pneumoniae, mucor]
+karen_brain_primitives: [5, 7]
 ---
 
 # Key Claims
@@ -33,8 +35,8 @@ platform: wikibiome
 
 # Connections
 
-- F. nucleatum targeting by nanoparticles applicable to [[colon cancer]] where F. nucleatum is a major pathogenic driver, as discussed in [[Xu 2022 - FMT Antitumor Cancer Immunotherapy]] and [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
-- Beta-glucuronidase activity connects to [[Rafter 2004 - Probiotics Colon Cancer Development]] discussion of fecal enzyme modulation by probiotics
-- BFT toxin pathogenesis directly relevant to [[Metz 2019 - Drug Discovery BFT Inhibition]] CDCA targeting of BFT
-- Nanoplatform drug delivery concepts applicable to [[Xia 2024 - Drug Repurposing Cancer Therapy]] nanotechnology integration discussion
+- F. nucleatum targeting by nanoparticles applicable to [[colorectal-cancer]] where F. nucleatum is a major pathogenic driver, as discussed in [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] and [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- Beta-glucuronidase activity connects to [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] discussion of fecal enzyme modulation by probiotics
+- BFT toxin pathogenesis directly relevant to [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]] CDCA targeting of BFT
+- Nanoplatform drug delivery concepts applicable to [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]] nanotechnology integration discussion
 - [[colorectal-cancer]]

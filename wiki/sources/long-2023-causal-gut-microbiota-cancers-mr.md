@@ -1,5 +1,4 @@
 ---
-
 title: "Causal Relationship between Gut Microbiota and Cancers: A Two-Sample Mendelian Randomisation Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2023
 tags: [colon-cancer, mendelian-randomization, gut-microbiota, causal-inference, Tyzzerella, Ruminococcus, Verrucomicrobia, Deltaproteobacteria, breast-cancer, lung-cancer, colorectal-cancer, prostate-cancer]
 doi: "10.1186/s12916-023-02761-6"
 platform: wikibiome
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, ruminococcus]
 ---
 
 # Causal Relationship between Gut Microbiota and Cancers: A Two-Sample Mendelian Randomisation Study

@@ -11,6 +11,9 @@ tags: [parkinsons-disease, basal-ganglia, dopamine, substantia-nigra, systematic
 library_category: reviews
 platform: brain
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [1, 4]
 ---
 
 # Basal Ganglia Dysfunction in Parkinson's Disease: A Systematic Review

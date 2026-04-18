@@ -1,5 +1,4 @@
 ---
-
 title: "Effect of Probiotics on Inducing Remission and Maintaining Therapy in Ulcerative Colitis, Crohn's Disease, and Pouchitis: Meta-analysis of Randomized Controlled Trials"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2014
 tags: [crohns-disease, IBD, ulcerative-colitis, pouchitis, probiotics, meta-analysis, VSL3, E-coli-Nissle, remission, clinical-trial]
 doi: "10.1097/01.MIB.0000437495.30052.be"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [bifidobacterium, escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, saccharomyces-cerevisiae]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

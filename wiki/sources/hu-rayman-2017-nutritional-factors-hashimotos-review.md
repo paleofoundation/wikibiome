@@ -40,7 +40,7 @@ Narrative review of PubMed and Cochrane Library through 2016 on iodine, iron, se
 
 ## Relevance to WikiBiome
 
-- Anchor review for **[[iodine]]**, **[[selenium]]**, **[[iron]]**, and **[[vitamin-d]]** entity pages' Hashimoto's sections.
+- Anchor review for **[[iodine]]**, **[[selenium]]**, **[[iron]]**, and **[[vitamin-d-supplementation]]** entity pages' Hashimoto's sections.
 - Supports **[[hashimotos-thyroiditis]]** entity "Metal Associations" section: iodine excess + selenium/iron deficiency as the three-factor metallomic predisposition.
 - Informs **[[nutritional-immunity]]** concept: iron sequestration (autoimmune gastritis) as an interpretive constraint — low serum iron in HT may be autoimmune-driven rather than dietary.
 - Complements **[[brock-2015-selenium-thyroid-autoimmunity]]**, **[[gong-2024-iodine-gut-microbiota-hashimotos]]**, **[[li-2025-trace-elements-autoimmune-thyroid-disease]]**.

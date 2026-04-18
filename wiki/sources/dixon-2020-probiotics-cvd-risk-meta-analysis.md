@@ -1,5 +1,4 @@
 ---
-
 title: "Efficacy of probiotics in patients of cardiovascular disease risk: a systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 tags: [cardiovascular-disease, probiotics, meta-analysis, blood-pressure, cholesterol, LDL, glucose, HbA1c, BMI, metabolic-syndrome]
 doi: "10.1007/s11906-020-01080-y"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Dixon et al. 2020 -- Probiotics Efficacy in CVD Risk: Systematic Review and Meta-Analysis
@@ -17,9 +18,9 @@ platform: wikibiome
 ## Key Claims
 
 - [[probiotics]] significantly reduced systolic blood pressure by -1.31 mmHg (95% CI: -2.23, -0.39, P=0.005) and diastolic blood pressure by -1.87 mmHg (95% CI: -2.41, -1.33, P<0.001) in patients with CVD risk factors
-- Total cholesterol reduced by -6.05 mg/dL (95% CI: -8.49, -3.61, P<0.001) and [[LDL]]-C by -8.77 mg/dL (95% CI: -11.86, -5.69, P<0.001)
-- Serum glucose reduced by -4.92 mg/dL (95% CI: -6.15, -3.69, P<0.001) and [[HbA1c]] by -0.18% (95% CI: -0.31, -0.06, P=0.005)
-- No significant changes observed for triglycerides or [[HDL]]-C
+- Total cholesterol reduced by -6.05 mg/dL (95% CI: -8.49, -3.61, P<0.001) and [[cardiovascular-disease|LDL]]-C by -8.77 mg/dL (95% CI: -11.86, -5.69, P<0.001)
+- Serum glucose reduced by -4.92 mg/dL (95% CI: -6.15, -3.69, P<0.001) and [[type-2-diabetes|HbA1c]] by -0.18% (95% CI: -0.31, -0.06, P=0.005)
+- No significant changes observed for triglycerides or [[cardiovascular-disease|HDL]]-C
 - Effects were stronger with longer treatment duration (>1.5 months), higher dosage (>1.0x10^9 CFU), yoghurt formulation, diabetic patients, and female populations
 
 ## Methods/Findings
@@ -41,6 +42,6 @@ pp. 1-8 (accepted manuscript)
 
 ## Connections
 
-- Links to [[gut microbiome]] modulation for [[cardiovascular-disease]] prevention
+- Links to [[gut-microbiome]] modulation for [[cardiovascular-disease]] prevention
 - Relevant to [[prebiotics]] and as complementary approaches
-- Connects to [[metabolic syndrome]] management via microbiome-targeted interventions
+- Connects to [[metabolic-syndrome]] management via microbiome-targeted interventions

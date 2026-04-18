@@ -1,5 +1,4 @@
 ---
-
 title: "Dietary acid load, alternative healthy eating index score, and bacterial vaginosis: is there any association? A case-control study"
 type: source
 created: 2026-04-09
@@ -10,14 +9,16 @@ year: 2022
 tags: [bacterial-vaginosis, dietary-acid-load, healthy-eating-index, AHEI, case-control, diet-quality, plant-based-diet, Iran]
 doi: "10.1186/s12879-022-07788-3"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [iron]
 ---
 
 # Key Claims
 
-- Higher adherence to the Alternative Healthy Eating Index (AHEI-2010) was associated with a 75% decreased odds of [[bacterial vaginosis]] (aOR = 0.25, 95% CI 0.12-0.53, p-trend = 0.001 for highest vs lowest tertile)
+- Higher adherence to the Alternative Healthy Eating Index (AHEI-2010) was associated with a 75% decreased odds of [[bacterial-vaginosis|bacterial vaginosis]] (aOR = 0.25, 95% CI 0.12-0.53, p-trend = 0.001 for highest vs lowest tertile)
 - Higher intakes of vegetables, nuts/legumes, and red/processed meats (inversely) were key AHEI components driving the protective association
 - Sugar-sweetened beverages and fruit juice (aOR = 3.47), trans fatty acids (aOR = 2.29), and sodium (aOR = 3.44) were directly associated with increased BV odds
-- [[Dietary acid load]] (measured by PRAL and NEAP) was not significantly associated with BV
+- [[dietary-metal-microbiome-interactions|Dietary acid load]] (measured by PRAL and NEAP) was not significantly associated with BV
 
 # Methods/Findings
 

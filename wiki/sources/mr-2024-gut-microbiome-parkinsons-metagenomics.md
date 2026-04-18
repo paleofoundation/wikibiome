@@ -11,13 +11,16 @@ tags: [parkinsons-disease, mendelian-randomization, metagenomics, gut-microbiome
 library_category: causal
 platform: both
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Exploring the Gut Microbiota-Parkinson's Disease Link: Preliminary Insights from Metagenomics and Mendelian Randomization
 
 ## Summary
 
-This study combines [[shotgun-metagenomics]] data with [[mendelian-randomization]] approaches to investigate causal relationships between gut [[microbiome]] composition and [[parkinsons-disease]], providing complementary observational and genetic evidence.
+This study combines [[shotgun-metagenomics]] data with [[mendelian-randomization]] approaches to investigate causal relationships between gut [[gut-microbiome|microbiome]] composition and [[parkinsons-disease]], providing complementary observational and genetic evidence.
 
 ## Key Findings
 
@@ -30,7 +33,7 @@ This study combines [[shotgun-metagenomics]] data with [[mendelian-randomization
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The convergence of metagenomic and MR evidence provides the strongest current support for the causal role of gut [[dysbiosis]] in [[parkinsons-disease]]. The implicated pathways (LPS biosynthesis, SCFA production) are directly connected to metal homeostasis -- LPS activates [[TLR4]]-[[hepcidin]]-[[iron]] trapping, while SCFA depletion impairs gut barrier metal regulation. The bidirectional causality confirms that the microbiome-metal-PD axis is a self-reinforcing cycle: PD-causing factors disrupt the microbiome, and microbiome disruption accelerates PD. Breaking this cycle at the metal level (reducing metal exposure) or the microbiome level (restoring commensals) could be therapeutically synergistic.
+The convergence of metagenomic and MR evidence provides the strongest current support for the causal role of gut [[dysbiosis]] in [[parkinsons-disease]]. The implicated pathways (LPS biosynthesis, SCFA production) are directly connected to metal homeostasis -- LPS activates [[tlr4]]-[[hepcidin]]-[[iron]] trapping, while SCFA depletion impairs gut barrier metal regulation. The bidirectional causality confirms that the microbiome-metal-PD axis is a self-reinforcing cycle: PD-causing factors disrupt the microbiome, and microbiome disruption accelerates PD. Breaking this cycle at the metal level (reducing metal exposure) or the microbiome level (restoring commensals) could be therapeutically synergistic.
 
 ## Limitations
 

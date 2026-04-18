@@ -1,5 +1,4 @@
 ---
-
 title: "Ketogenic diet suppresses colorectal cancer through reshaping gut microbiota and modulating the intestinal FXR/NF-kB signaling pathway"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2026
 doi: "10.26599/FSHW.2025.9250565"
 tags: [colon-cancer, colorectal-cancer, ketogenic-diet, bile-acids, FXR, NF-kB, gut-microbiota, Akkermansia, Lachnospiraceae, beta-hydroxybutyrate, FMT, AOM-DSS]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, lachnospiraceae]
+karen_brain_primitives: [5]
 ---
 
 # Gao 2026 -- Ketogenic Diet Suppresses CRC via FXR/NF-kB Signaling

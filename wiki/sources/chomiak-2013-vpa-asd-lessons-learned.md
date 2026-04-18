@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, valproic-acid, VPA, animal-model, brain-overgro
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: animal-model
+key_findings: ["Two recent epidemiological investigations", "Two important neurobiological findings", "VPA has known teratogenicity"]
 ---
 
 # Key Claims

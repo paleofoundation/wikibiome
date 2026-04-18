@@ -1,5 +1,4 @@
 ---
-
 title: "Corruption of Bacterial-Host Homeostasis as a Potential Risk Factor and Biomarker for Upper Gastrointestinal Carcinogenesis"
 type: source
 created: 2026-04-09
@@ -7,9 +6,12 @@ updated: 2026-04-09
 authors: [Catala-Valentin AR, Mikhail S, Bernard JN, Caldwell M, Moore S, Andl CD]
 journal: Journal of Gastroenterology and Hepatobiliary Medicine
 year: 2021
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Gastroenterology and Hepatobiliary Medicine 2021 -->
 tags: [gerd, gastroesophageal-reflux, carcinogenesis, upper-gi-tract, dysbiosis, fusobacterium-nucleatum, porphyromonas-gingivalis, campylobacter-concisus, oral-microbiome, esophageal-adenocarcinoma, head-neck-cancer, smoking, alcohol, host-pathogen-interactions, biomarker]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [actinomyces, bacteroides-fragilis, campylobacter-jejuni, fusobacterium-nucleatum, porphyromonas, streptococcus, veillonella]
+karen_brain_primitives: [9]
 ---
 
 # Corruption of Bacterial-Host Homeostasis as a Potential Risk Factor and Biomarker for Upper Gastrointestinal Carcinogenesis
@@ -19,7 +21,7 @@ platform: wikibiome
 - Loss of bacterial-host homeostasis [[dysbiosis]] in the upper GI tract can contribute to carcinogenesis through chronic inflammation, disruption of cell signaling, and production of carcinogenic metabolites
 - Risk factors linked to upper GI carcinogenesis including cigarette smoking, alcohol, poor oral hygiene, and [[gerd]] disrupt bacterial homeostasis and create niches for pathogenic bacteria
 - The driver-passenger model proposes that bacterial *drivers* induce DNA damage initiating cancer, while *passengers* (opportunistic pathogens) out-compete drivers and support cancer *progression*
-- *[[fusobacterium-nucleatum]]*, *[[porphyromonas-gingivalis]]*, and *[[Campylobacter concisus]]* are key pathogens that promote upper GI tumorigenesis through inflammation and genotoxin production
+- *[[fusobacterium-nucleatum]]*, *[[porphyromonas-gingivalis]]*, and *[[campylobacter-jejuni|Campylobacter concisus]]* are key pathogens that promote upper GI tumorigenesis through inflammation and genotoxin production
 - Smoking causes dysbiosis by selectively acidifying the environment, favoring anaerobic glycolysis over aerobic pathways, and altering oral microbiome composition
 - Alcohol consumption enriches *Neisseria*, *Actinomyces*, *Leptotrichia*, and *Cardiobacterium* in the oral cavity while depleting *Streptococci*
 - Approximately 25% of cancer cases in developing countries and 8% in developed countries are associated with microbial changes

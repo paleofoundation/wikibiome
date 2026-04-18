@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, mycobiome, fungal-dysbiosis, diabetic-foot, 
 library_category: original-research
 platform: cureva
 condition: "type 2 diabetes"
+evidence_level: cross-sectional
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [1, 4, 6]
+key_findings: ["Gut fungal diversity and composition differ significantly", "Ascomycota and Basidiomycota significantly altered", "Candida abundance specifically seen only"]
 ---
 
 # Key Claims

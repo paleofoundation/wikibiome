@@ -39,7 +39,7 @@ Comparative genomics + proteomics of toxigenic vs. non-toxigenic Clostridium iso
 
 - **Entity pages:** [[clostridium-perfringens]] — nuanced update: toxigenic vs non-toxigenic strains have opposing roles.
 - **Entity pages:** [[klebsiella-pneumoniae]], [[escherichia-coli]], [[enterobacter]] — as suppressed targets.
-- **Concept pages:** [[hmos]], [[interkingdom-relationships]] — metabolic competition mechanism.
+- **Concept pages:** [[prebiotics|hmos]], [[inter-kingdom-metal-shielding|interkingdom-relationships]] — metabolic competition mechanism.
 
 ## Relevance to Cureva
 

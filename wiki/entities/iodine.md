@@ -70,7 +70,7 @@ Combined selenium-iodine deficiency produces more severe thyroid dysfunction tha
 ### Iron-Iodine Interaction
 - **Thyroid peroxidase (TPO)** is an iron-dependent heme enzyme — it catalyzes the iodination of thyroglobulin.
 - Iron deficiency impairs TPO activity, reducing iodine utilization even when iodine status is adequate.
-- Iron-deficient populations respond poorly to iodine supplementation [[kravchenko-2023-thyroid-hormones-minerals-aitd]].
+- Iron-deficient populations respond poorly to iodine supplementation [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 
 ### Heavy Metal Interference
 - **[[cadmium]]** and **[[mercury]]** compete with iodide for uptake via NIS and interfere with thyroid hormone synthesis.

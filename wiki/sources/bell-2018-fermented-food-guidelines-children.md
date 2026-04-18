@@ -6,11 +6,15 @@ updated: 2026-04-09
 authors: [Victoria Bell, Jorge Ferrao, Tito Fernandes]
 year: 2018
 journal: "Journal of Pediatrics and Pediatric Medicine"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("Not available"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Pediatrics and Pediatric Medicine 2018 -->
 tags: [fermented-foods, children, microbiome, autism, probiotics, guidelines, nutrition]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [calcium, cobalt, iron, zinc]
+taxa_discussed: [acinetobacter, clostridium, enterobacter, enterococcus, lactobacillus, salmonella, vibrio]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["Fermented foods and mushroom biomass", "Children with neurobehavioral disorders", "Lactobacillus"]
 ---
 
 # Key Claims

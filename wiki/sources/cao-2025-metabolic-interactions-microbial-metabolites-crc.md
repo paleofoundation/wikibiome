@@ -1,5 +1,4 @@
 ---
-
 title: "Metabolic Interactions: How Gut Microbial Metabolites Influence Colorectal Cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2025
 tags: [colon-cancer, microbial-metabolites, SCFAs, bile-acids, tryptophan, hydrogen-sulfide, polyamines, TMAO, formate, butyrate, biomarkers, colorectal-cancer]
 doi: "10.3389/fmicb.2025.1611698"
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Metabolic Interactions: How Gut Microbial Metabolites Influence Colorectal Cancer

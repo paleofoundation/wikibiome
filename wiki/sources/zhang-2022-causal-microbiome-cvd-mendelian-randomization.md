@@ -1,5 +1,4 @@
 ---
-
 title: "Causal Associations between Gut Microbiome and Cardiovascular Disease: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -13,11 +12,13 @@ source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular d
 pages_read: "1-8"
 platform: wikibiome
 evidence_level: mendelian-randomization
+taxa_discussed: [ruminococcus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- Genus *Oxalobacter* was positively associated with CAD risk (OR=1.06, 95% CI 1.03-1.10, p=1.67x10-4) using two-sample [[Mendelian randomization]]
+- Genus *Oxalobacter* was positively associated with CAD risk (OR=1.06, 95% CI 1.03-1.10, p=1.67x10-4) using two-sample [[mendelian-randomization]]
 - Family *Clostridiaceae_1* was associated with decreased risk of stroke (OR=0.83, 95% CI 0.75-0.93, p=7.76x10-4) and ischemic stroke (OR=0.82, 95% CI 0.74-0.92, p=4.15x10-4)
 - At the genome-wide statistical significance threshold, no causal relationship was found between gut microbiome and CVDs, suggesting effects may be modest
 - The causal association between *Oxalobacter* and CAD attenuated to null after adjusting for blood pressure (SBP or DBP), suggesting blood pressure may mediate the effect
@@ -35,9 +36,9 @@ evidence_level: mendelian-randomization
 
 # Connections
 
-- Key [[Mendelian randomization]] study establishing causal microbiome-CVD links
-- *Oxalobacter* finding relevant to [[microbial biomarkers]] for CAD risk
+- Key [[mendelian-randomization]] study establishing causal microbiome-CVD links
+- *Oxalobacter* finding relevant to [[microbial-biomarkers]] for CAD risk
 - *Clostridiaceae* SCFA-producing properties connect to [[short-chain-fatty-acids]] and stroke neuroprotection
-- Blood pressure mediation links to [[microbiome and disease progression]] mechanisms
-- Complements [[Wang 2023 - Gut Microbiota CAD MI MR]] on protective *Ruminococcus* findings
-- Study design informs [[causal microbiome relationships]] in cardiovascular disease
+- Blood pressure mediation links to [[dysbiosis|microbiome and disease progression]] mechanisms
+- Complements [[wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma|Wang 2023 - Gut Microbiota CAD MI MR]] on protective *Ruminococcus* findings
+- Study design informs [[dysbiosis|causal microbiome relationships]] in cardiovascular disease

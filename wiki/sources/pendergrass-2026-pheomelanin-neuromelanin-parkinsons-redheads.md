@@ -1,5 +1,4 @@
 ---
-
 title: "Pheomelanin, Eumelanin, and Neuromelanin: A Metal-Linked Hypothesis for Parkinson's Risk in Redheads"
 type: source
 created: 2026-04-09
@@ -13,6 +12,9 @@ platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 4, 5]
 why_keystone: "This paper bridged melanin biochemistry, metal chelation chemistry, and Parkinson's neuropathology — three fields that had never been connected through a single mechanistic framework. It explains *why* MC1R variants increase PD risk by identifying the differential metal-binding capacity of pheomelanin versus eumelanin in neuromelanin as the mechanistic linchpin. This reframed Parkinson's susceptibility in redheads from an unexplained epidemiological association into a metal-dependent biochemical vulnerability, opening an entirely new axis of investigation for WikiBiome's neurodegenerative disease signatures."
+evidence_level: in-vitro
+metals_discussed: [copper, iron]
+karen_brain_primitives: [1, 4]
 ---
 
 # Pheomelanin, Eumelanin, and Neuromelanin: A Metal-Linked Hypothesis for Parkinson's Risk in Redheads
@@ -44,9 +46,9 @@ why_keystone: "This paper bridged melanin biochemistry, metal chelation chemistr
 - [[parkinsons-disease]] -- central disease focus; connects to established metal-PD literature
 - -- iron accumulation in substantia nigra as key pathological feature, paralleling findings in [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]
 - [[ferroptosis]] -- proposed cell death mechanism linking iron, lipid peroxidation, and neuronal loss; relates to [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] ferroptosis discussion
-- [[Oxidative stress]] -- pheomelanin as pro-oxidant vs. eumelanin as antioxidant/chelator
+- [[oxidative-stress]] -- pheomelanin as pro-oxidant vs. eumelanin as antioxidant/chelator
 - [[copper]] -- copper-melanin interactions relevant; copper dysregulation in PD discussed in [[scholefield-2024-brain-metallomics-dementia]]
 - [[alpha-synuclein]] -- iron-driven oxidative stress promotes alpha-synuclein aggregation, connecting to [[chin-chan-2015-environmental-pollutants-ad-pd]]
 - [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] -- companion paper exploring gut-brain metal axis in PD
 - [[pendergrass-2026-heavy-metals-obesity-epidemic]] -- related work on systemic metal exposure and disease
-- [[Metallomics]] -- brain metallomic profiling approach parallels [[scholefield-2024-brain-metallomics-dementia]]
+- [[metallomics]] -- brain metallomic profiling approach parallels [[scholefield-2024-brain-metallomics-dementia]]

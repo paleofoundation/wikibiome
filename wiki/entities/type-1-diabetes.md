@@ -151,7 +151,7 @@ T1D shares overlapping metallomic and taxonomic signatures with several conditio
 | [[type-2-diabetes]] | Zinc depletion, iron dysregulation, copper elevation | Bifidobacterium depleted, Faecalibacterium depleted | Shared metabolic environment despite distinct pathogenesis |
 | [[hashimotos-thyroiditis]] | Zinc, iron, selenium depletion | Bifidobacterium and Lactobacillus depleted | Autoimmune clustering; T1D patients have 3× higher thyroid autoimmunity risk |
 | [[multiple-sclerosis]] | Iron dysregulation | Bacteroidetes enriched, butyrate producers depleted | Shared Bacteroidetes enrichment pattern; shared Treg dysfunction mechanism |
-| [[diabetic-kidney-disease]] | Zinc depletion | Bifidobacterium depleted (causally linked) | Direct complication of T1D; Bifidobacterium depletion contributes to both DKD onset and progression [[liu-2024-gut-microbiota-diabetic-complications-mr-study]] |
+| [[chronic-kidney-disease|diabetic-kidney-disease]] | Zinc depletion | Bifidobacterium depleted (causally linked) | Direct complication of T1D; Bifidobacterium depletion contributes to both DKD onset and progression [[liu-2024-gut-microbiota-diabetic-complications-mr-study]] |
 
 ## Gut-Immune Axis: Mechanistic Summary
 
@@ -196,6 +196,6 @@ The CVB4 virus experiments demonstrate that steps 1–4 can be triggered by vira
 - [[bacteroides]] — Bacteroidetes enriched in T1D; Bacteroidia and Bacteroidales causally increase T1D risk (MR evidence)
 - [[lachnospiraceae]] — Multiple protective genera (UCG008, Eubacterium eligens, Dorea) with MR evidence
 - [[dysbiosis]] — Early-life microbiome disruption precedes autoimmune seroconversion; CVB4-driven dysbiosis is transferable via FMT
-- [[gut-barrier]] — Compromised tight junctions enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold
+- [[intestinal-permeability|gut-barrier]] — Compromised tight junctions enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold
 - [[immune-balance]] — Th1/Th2 shift, Treg dysfunction, GPR43/SCFA signaling in T1D pathogenesis
 - [[developmental-metal-vulnerability]] — Critical windows for metal-microbiome-immune programming in infancy

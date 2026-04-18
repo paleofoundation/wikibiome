@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, microbiome-metabolites, gestational-diabetes
 library_category: original-research
 platform: cureva
 condition: "gestational diabetes"
+evidence_level: case-control
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1]
+key_findings: ["140 metabolites of gut microbiome origin", "Carbocyclic acids and branched-chain amino acid clusters", "Prediction model combining metabolites with conventional risk factors"]
 ---
 
 # Key Claims

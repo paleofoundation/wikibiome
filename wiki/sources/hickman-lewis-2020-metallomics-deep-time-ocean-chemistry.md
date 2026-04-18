@@ -1,5 +1,4 @@
 ---
-
 title: "Metallomics in deep time and the influence of ocean chemistry on the metabolic landscapes of Earth's earliest ecosystems"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2020
 doi: "10.1038/s41598-020-61774-w"
 tags: [metallomics, palaeo-metallome, deep-time, Archaean, early-life, iron, vanadium, nickel, cobalt, arsenic, copper, molybdenum, biosignatures, astrobiology, ocean-chemistry]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [arsenic, cobalt, copper, iron, molybdenum, nickel, vanadium, zinc]
+karen_brain_primitives: [1, 4, 9]
 ---
 
 # Metallomics in Deep Time and the Influence of Ocean Chemistry on the Metabolic Landscapes of Earth's Earliest Ecosystems

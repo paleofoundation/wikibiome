@@ -1,5 +1,4 @@
 ---
-
 title: "Assessment of the Causal Relationship between Gut Microbiota and Cardiovascular Diseases: A Bidirectional Mendelian Randomization Analysis"
 type: source
 created: 2026-04-09
@@ -12,6 +11,9 @@ tags: [cardiovascular-disease, Mendelian-randomization, bidirectional, atrial-fi
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/s13040-024-00356-2.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [alistipes, bifidobacterium, coprococcus, dorea, eubacterium, lachnospiraceae, streptococcus]
+key_findings: ["Atrial fibrillation", "Hypertension"]
 ---
 
 # Key Claims
@@ -33,9 +35,9 @@ platform: wikibiome
 
 # Connections
 
-- Most comprehensive bidirectional [[Mendelian randomization]] study on gut microbiota and CVDs
-- Bidirectional findings (CVD altering microbiome) novel for [[microbiome and disease progression]]
-- *Coprococcus* and *Parasutterella* protection for CAD extends [[microbial biomarkers]] panel
-- *Streptococcus*-AF risk aligns with oral microbiome pathogen literature on [[microbiome and inflammation]]
-- Complements [[Zhang 2022]], [[Hu 2024]], [[Wang 2023]] MR studies with expanded disease outcomes
-- Hypertension-microbiome links relevant to [[microbiome composition]] and blood pressure regulation
+- Most comprehensive bidirectional [[mendelian-randomization]] study on gut microbiota and CVDs
+- Bidirectional findings (CVD altering microbiome) novel for [[dysbiosis|microbiome and disease progression]]
+- *Coprococcus* and *Parasutterella* protection for CAD extends [[microbial-biomarkers]] panel
+- *Streptococcus*-AF risk aligns with oral microbiome pathogen literature on [[inflammation|microbiome and inflammation]]
+- Complements [[zhang-2022-causal-gut-microbiome-cvd-mr|Zhang 2022]], [[hu-2024-gut-microbiota-chd-mendelian-randomization|Hu 2024]], [[wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma|Wang 2023]] MR studies with expanded disease outcomes
+- Hypertension-microbiome links relevant to [[dysbiosis|microbiome composition]] and blood pressure regulation

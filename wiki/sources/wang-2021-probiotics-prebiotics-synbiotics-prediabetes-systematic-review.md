@@ -11,12 +11,16 @@ tags: [type-1-diabetes, autoimmune, probiotics, prebiotics, synbiotics, prediabe
 library_category: reviews
 platform: cureva
 condition: "prediabetes"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [zinc]
+karen_brain_primitives: [1, 5]
+key_findings: ["Gut microbiota influences metabolic disorders", "[[probiotics]] can decrease HbA1c", "Prebiotics alone failed to show improvement"]
 ---
 
 # Key Claims
 
 - **Gut microbiota influences metabolic disorders** via SCFA modulation, LPS endotoxin, bile acids, and TMAO
-- **[[Probiotics]] can decrease HbA1c** and improve post-load glucose levels
+- **[[probiotics]] can decrease HbA1c** and improve post-load glucose levels
 - **Prebiotics alone failed to show improvement** in glycemic control, but changed gut microbiota composition
 - **Synbiotics supplementation is more effective** than [[probiotics]] alone in glycemic control
 - **Insufficient evidence overall** to show significant benefits on glucose metabolism and body composition

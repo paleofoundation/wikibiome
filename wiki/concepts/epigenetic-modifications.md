@@ -1,5 +1,4 @@
 ---
-
 title: Epigenetic Modifications in Metal Carcinogenesis
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [epigenetics, DNA-methylation, histone-modification, carcinogenesis]
 platform: wikibiome
+karen_brain_primitives: []
+seo_target: "epigenetic modifications in metal carcinogenesis microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Epigenetic Modifications in Metal Carcinogenesis

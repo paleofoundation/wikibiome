@@ -1,5 +1,4 @@
 ---
-
 title: Metal Homeostasis
 type: concept
 created: 2026-04-10
@@ -7,6 +6,9 @@ updated: 2026-04-10
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, akbari-2022-metal-homeostasis-streptococci, cassat-2012-metal-acquisition-staphylococcus-aureus]
 tags: [metal-homeostasis, iron, zinc, copper, hepcidin, ferroportin, ZIP, ZnT, CTR1, ATP7A, ATP7B, Fur, NikR, nutritional-immunity]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 3, 4, 8, 9]
+seo_target: "metal homeostasis microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 # Metal Homeostasis

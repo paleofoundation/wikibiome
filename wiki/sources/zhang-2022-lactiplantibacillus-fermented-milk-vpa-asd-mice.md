@@ -15,6 +15,7 @@ karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: ["Lactiplantibacillus"]
 evidence_level: animal-model
+key_findings: ["L. plantarum ST-III-fermented milk", "Gender specificity", "Dietary changes"]
 ---
 
 # Key Claims

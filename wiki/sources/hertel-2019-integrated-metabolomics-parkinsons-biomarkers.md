@@ -11,6 +11,9 @@ tags: [parkinsons-disease, metabolomics, sulfur-metabolism, microbiome-host-inte
 library_category: metabolomics
 platform: both
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [1]
 ---
 
 # Integrated Analyses of Microbiome and Longitudinal Metabolomic Data Reveal Microbial-Host Interactions on Sulfur Metabolism in Parkinson's Disease
@@ -23,7 +26,7 @@ This study integrates microbiome and metabolomic data using constraint-based met
 
 - Sulfur amino acid metabolism is significantly altered at the microbiome-host interface in PD
 - Hydrogen sulfide production by gut bacteria is reduced in PD, consistent with depletion of sulfate-reducing bacteria
-- [[Tryptophan-metabolism]] shows altered microbial-host partitioning in PD
+- [[tryptophan-metabolism]] shows altered microbial-host partitioning in PD
 - Bile acid metabolism is disrupted through altered microbial bile salt hydrolase activity
 - Constraint-based modeling predicts metabolic flux changes between microbiome and host
 - Longitudinal metabolomic data show progressive metabolic deterioration

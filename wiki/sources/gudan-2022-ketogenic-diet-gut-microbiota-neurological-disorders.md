@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, ketogenic-diet, gut-microbiome, intestinal-barr
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+taxa_discussed: [alistipes, bacteroides-fragilis, bilophila]
+key_findings: ["Animal-product based diets", "Long-term consumption of animal-based foods", "Ketogenic diet"]
 ---
 
 # Key Claims

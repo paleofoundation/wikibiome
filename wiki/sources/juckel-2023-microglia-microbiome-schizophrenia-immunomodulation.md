@@ -9,6 +9,9 @@ year: 2023
 doi: "10.1007/s00702-023-02605-w"
 tags: [schizophrenia, microglia, neuroinflammation, microbiome, immunomodulation, maternal-immune-activation, minocycline, aspirin, celecoxib, probiotics]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [lead]
+karen_brain_primitives: [5]
 ---
 
 # Microglia and Microbiome in Schizophrenia: Can Immunomodulation Improve Symptoms?

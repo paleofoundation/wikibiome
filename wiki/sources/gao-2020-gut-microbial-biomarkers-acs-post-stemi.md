@@ -1,5 +1,4 @@
 ---
-
 title: "Gut microbial taxa as potential predictive biomarkers for acute coronary syndrome and post-STEMI cardiovascular events"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 doi: 10.1038/s41598-020-59235-5
 tags: [cardiovascular-disease, CVD, acute-coronary-syndrome, STEMI, gut-microbiome, TMAO, biomarker, metagenomics, Aerococcaceae, Eubacterium, Lachnospiraceae, MACE, 16S-rRNA]
 platform: wikibiome
+evidence_level: prospective-cohort
+taxa_discussed: [acinetobacter, escherichia-coli, eubacterium, lachnospira, lachnospiraceae, shigella]
 ---
 
 # Gut Microbial Taxa as Potential Predictive Biomarkers for ACS and Post-STEMI Cardiovascular Events
@@ -47,4 +48,4 @@ Prospective study investigating associations between gut microbial taxa, systemi
 
 ## Relevance to the Wiki
 
-Identifies specific gut microbial taxa correlated with [[tmao]] levels and ACS, suggesting potential use as predictive [[biomarker]]s for [[cardiovascular-disease]] diagnosis. Connects to [[dinakaran-2014-circulating-microbiome-cvd]] on circulating microbiome signatures and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on TMAO as a disease trajectory marker.
+Identifies specific gut microbial taxa correlated with [[tmao]] levels and ACS, suggesting potential use as predictive [[microbial-biomarkers|biomarker]]s for [[cardiovascular-disease]] diagnosis. Connects to [[dinakaran-2014-circulating-microbiome-cvd]] on circulating microbiome signatures and [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]] on TMAO as a disease trajectory marker.

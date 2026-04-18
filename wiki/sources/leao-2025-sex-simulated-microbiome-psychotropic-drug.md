@@ -6,11 +6,16 @@ updated: 2026-04-09
 authors: [Luana Leao]
 year: 2025
 journal: "University of Ottawa (M.Sc. thesis)"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: University of Ottawa (M.Sc. thesis) 2025 -->
 tags: [postpartum-depression, sex-hormones, gut-microbiota, psychotropic-drugs, SCFA, sex-differences, in-vitro, Bacteroidota, Firmicutes]
 library_category: preclinical
 platform: cureva
 condition: "sex-specific microbiome response"
+evidence_level: in-vitro
+metals_discussed: [iron, magnesium, zinc]
+taxa_discussed: [eubacterium]
+karen_brain_primitives: [5]
+key_findings: ["Psychotropic medications influence gut microbial diversity differently", "Females exhibited higher Bacteroidota and lower Firmicutes", "Alpha-diversity was significantly lower in females"]
 ---
 
 # Key Claims

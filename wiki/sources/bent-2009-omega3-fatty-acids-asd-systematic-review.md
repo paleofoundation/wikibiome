@@ -11,6 +11,10 @@ tags: [autism, omega-3, fatty-acids, systematic-review, DHA, EPA, CAM]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [4]
+key_findings: ["Insufficient evidence", "Only one RCT", "Omega-3 fatty acids"]
 ---
 
 # Key Claims

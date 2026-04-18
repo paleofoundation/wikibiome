@@ -1,5 +1,4 @@
 ---
-
 title: "Application of Metabolomics to Epidemiological Studies of Atherosclerosis and Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2019
 doi: 10.5551/jat.RV17036
 tags: [cardiovascular-disease, CVD, metabolomics, atherosclerosis, epidemiology, biomarker, NMR, LC-MS, TMAO, BCAAs, bile-acids, review]
 platform: wikibiome
+evidence_level: prospective-cohort
+metals_discussed: [cadmium, iron, lead, selenium]
+karen_brain_primitives: [1, 4]
 ---
 
 # Application of Metabolomics to Epidemiological Studies of Atherosclerosis and Cardiovascular Disease
@@ -51,4 +53,4 @@ Review article summarizing epidemiological metabolomics studies applied to ather
 2. **BCAAs and metal metabolism** - BCAA alterations in CVD may connect to [[iron]] and [[selenium]]-dependent metabolic pathways
 - [[cardiovascular-disease]]
 3. **Exposome integration** - The review highlights how metabolomics can capture gene-environment interactions, directly relevant to understanding [[lead]] and [[cadmium]] effects on CVD through microbiome disruption
-4. **[[Oxidative-stress]] metabolites** - Lipid peroxidation products and antioxidant metabolites in CVD metabolomics reflect the oxidative burden that metals impose
+4. **[[oxidative-stress]] metabolites** - Lipid peroxidation products and antioxidant metabolites in CVD metabolomics reflect the oxidative burden that metals impose

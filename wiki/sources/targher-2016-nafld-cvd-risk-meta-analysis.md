@@ -1,5 +1,4 @@
 ---
-
 title: "Nonalcoholic Fatty Liver Disease and Risk of Incident Cardiovascular Disease: A Meta-Analysis of Observational Studies"
 type: source
 created: 2026-04-09
@@ -12,6 +11,7 @@ tags: [cardiovascular-disease, NAFLD, meta-analysis, CVD-risk, atherosclerosis, 
 source_pdf: "raw/cardiovascular disease/Meta-analysis cardiovascular disease/DO_20NOT_20DELETE_20-_20396811_201-s2.0-S0168827816301994-main.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims
@@ -34,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Establishes NAFLD as a key [[comorbidity]] linking liver disease to [[cardiovascular-disease]] risk
-- NAFLD-gut microbiome axis connects to [[microbiome-host interactions]] through liver-gut crosstalk
-- Insulin resistance and oxidative stress mechanisms relevant to [[metabolic pathways]] in CVD
-- Complements [[Major 2018 - CVD Risk Factors CKD]] on non-traditional CVD risk factors
-- Liver-gut axis dysbiosis relevant to [[microbiome and disease progression]] in cardiometabolic disease
-- Supports inclusion of hepatic factors in [[meta-analysis]] designs for CVD-microbiome research
+- Establishes NAFLD as a key [[comorbidities|comorbidity]] linking liver disease to [[cardiovascular-disease]] risk
+- NAFLD-gut microbiome axis connects to [[gut-metal-microbiome|microbiome-host interactions]] through liver-gut crosstalk
+- Insulin resistance and oxidative stress mechanisms relevant to [[fermentative-metabolism|metabolic pathways]] in CVD
+- Complements [[major-2018-cvd-risk-factors-ckd-systematic-review|Major 2018 - CVD Risk Factors CKD]] on non-traditional CVD risk factors
+- Liver-gut axis dysbiosis relevant to [[dysbiosis|microbiome and disease progression]] in cardiometabolic disease
+- Supports inclusion of hepatic factors in [[shotgun-metagenomics|meta-analysis]] designs for CVD-microbiome research

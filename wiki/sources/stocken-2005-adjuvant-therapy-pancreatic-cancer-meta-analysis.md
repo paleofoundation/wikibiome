@@ -1,5 +1,4 @@
 ---
-
 title: "Meta-analysis of randomised adjuvant therapy trials for pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2005
 tags: [pancreatic-cancer, meta-analysis, adjuvant-therapy, chemotherapy, chemoradiation, survival, clinical-trials]
 doi: "10.1038/sj.bjc.6602513"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Key Claims
@@ -29,6 +29,6 @@ platform: wikibiome
 
 # Connections
 
-- Adjuvant chemotherapy response may be modulated by the [[tumor microbiome]] and [[gut microbiome]] composition affecting drug metabolism
-- [[Gemcitabine]] resistance has been linked to intratumoral bacteria in PDAC, connecting to [[microbiome-targeted therapy]] approaches
-- Nutritional status and [[microbiome composition]] during perioperative period may influence treatment outcomes
+- Adjuvant chemotherapy response may be modulated by the [[metal-carcinogenesis|tumor microbiome]] and [[gut-microbiome]] composition affecting drug metabolism
+- [[pancreatic-cancer|Gemcitabine]] resistance has been linked to intratumoral bacteria in PDAC, connecting to [[probiotics|microbiome-targeted therapy]] approaches
+- Nutritional status and [[dysbiosis|microbiome composition]] during perioperative period may influence treatment outcomes

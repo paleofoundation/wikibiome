@@ -13,7 +13,7 @@ tags:
   - microbiome
   - metallomics
   - conference
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Conference Presentation 2026 -->
 platform: wikibiome
 keystone: true
 keystone_criteria_met:
@@ -22,6 +22,9 @@ keystone_criteria_met:
   - 3
   - 4
 why_keystone: "Founder's conference presentation integrating all 9 Karen's Brain primitives into a complete endometriosis disease signature: metallomic (Ni/Fe/Pb elevation, glutathione depletion), taxonomic (Ni-dependent pathogens), nutritional immunity (hepcidin/calprotectin elevation as host defense, not deficiency), and validated interventions (low-nickel diet, EcN 1917). WikiBiome depends on this evidence to demonstrate the full pipeline from signature to actionable interventions and to establish endometriosis as a proof-of-concept metal-dysregulated disease model."
+metals_discussed: [iron, nickel, zinc]
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [2, 3, 4, 5, 6, 8]
 ---
 
 # Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)

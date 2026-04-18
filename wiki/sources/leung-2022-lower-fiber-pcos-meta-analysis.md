@@ -1,5 +1,4 @@
 ---
-
 title: "Lower Fiber Consumption in Women with Polycystic Ovary Syndrome: A Meta-Analysis of Observational Studies"
 type: source
 created: 2026-04-09
@@ -10,14 +9,17 @@ year: 2022
 tags: [PCOS, dietary-fiber, meta-analysis, observational-studies, diet, gut-microbiota]
 doi: "10.3390/nu14153122"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [magnesium]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims
 
-- Women with [[pcos]] consume significantly less [[dietary fiber]] than non-PCOS controls (pooled SMD = -0.32, 95% CI: -0.50 to -0.14, p < 0.001), with no significant difference in total energy intake
+- Women with [[pcos]] consume significantly less [[dietary-fiber]] than non-PCOS controls (pooled SMD = -0.32, 95% CI: -0.50 to -0.14, p < 0.001), with no significant difference in total energy intake
 - The finding was consistent across subgroups: case-control studies, cross-sectional designs, adult populations, and studies using Rotterdam diagnostic criteria
 - The association was strongest in studies conducted in Asia (SMD = -0.53, p < 0.001) and those using food diary/records as the dietary assessment method
-- Low dietary fiber intake may contribute to PCOS pathogenesis through effects on [[gut-metal-microbiome|gut microbiota]], [[short-chain fatty acids]] production, and [[insulin-resistance]]
+- Low dietary fiber intake may contribute to PCOS pathogenesis through effects on [[gut-metal-microbiome|gut microbiota]], [[short-chain-fatty-acids]] production, and [[insulin-resistance]]
 
 # Methods/Findings
 

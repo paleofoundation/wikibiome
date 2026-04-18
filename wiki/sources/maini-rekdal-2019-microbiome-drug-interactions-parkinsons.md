@@ -11,6 +11,10 @@ tags: [parkinsons-disease, levodopa, drug-metabolism, gut-microbiome, tyrosine-d
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: in-vitro
+metals_discussed: [iron, manganese]
+taxa_discussed: [enterococcus]
+karen_brain_primitives: [1, 4]
 ---
 
 # Discovery and Inhibition of an Interspecies Gut Bacterial Pathway for Levodopa Metabolism

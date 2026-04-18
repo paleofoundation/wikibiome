@@ -1,5 +1,4 @@
 ---
-
 title: "Hypoxia"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: []
 tags: [ecological-feature, oxygen-biology, tumor-microenvironment, anaerobic-niche, hif-signaling]
 karen_brain_primitive: "Primitive 9: Oxygen State as Ecological Determinant"
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 7, 8, 9]
+seo_target: "hypoxia microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview
@@ -21,13 +23,13 @@ Hypoxia in two key disease contexts:
 
 ## Mechanism
 
-**Oxygen diffusion limitation:** In normal mucosa, oxygen diffuses from capillaries through the epithelium. When mucosal inflammation increases epithelial permeability, infiltrating immune cells consume oxygen faster than it can be replenished. Epithelial tight-junction disruption (e.g., from [[zonula-occludens-1|ZO-1]] loss) exacerbates the gradient.
+**Oxygen diffusion limitation:** In normal mucosa, oxygen diffuses from capillaries through the epithelium. When mucosal inflammation increases epithelial permeability, infiltrating immune cells consume oxygen faster than it can be replenished. Epithelial tight-junction disruption (e.g., from [[intestinal-permeability|ZO-1]] loss) exacerbates the gradient.
 
 **HIF-1α signaling:** Hypoxia-inducible factor 1-alpha (**HIF-1α**) is the master transcription factor sensing low oxygen. At pO₂ < 5%:
 
 - HIF-1α is stabilized (normally hydroxylated and degraded at normoxia)
 - HIF-1α dimerizes with HIF-1β and binds hypoxia response elements (HREs)
-- Upregulates genes for: angiogenesis (VEGF), glycolytic enzymes (PKM2, LDHA), immune evasion [[pd-l1]]
+- Upregulates genes for: angiogenesis (VEGF), glycolytic enzymes (PKM2, LDHA), immune evasion [[inflammation|pd-l1]]
 
 **Metabolic consequences:**
 - Obligate aerobes (e.g., [[faecalibacterium-prausnitzii|faecalibacterium]]) cannot survive; population crashes
@@ -45,13 +47,13 @@ Hypoxia in two key disease contexts:
 
 - [[crohns-disease]]: Chronic inflammation → epithelial barrier disruption → anoxic mucosa → [[escherichia-coli|AIEC]]-dominant dysbiosis
 - [[ulcerative-colitis|ulcerative colitis]]: Similar mechanism; hypoxia enables [[clostridioides-difficile|C. difficile]] proliferation in severe cases
-- [[colorectal-cancer]]: Dysplastic lesions are hypoxic; HIF-1α activates [[pd-l1]], enabling immune evasion; tumors select for [[fusobacterium-nucleatum|Fusobacterium]] and other anaerobes
+- [[colorectal-cancer]]: Dysplastic lesions are hypoxic; HIF-1α activates [[inflammation|pd-l1]], enabling immune evasion; tumors select for [[fusobacterium-nucleatum|Fusobacterium]] and other anaerobes
 - [[obesity]]: Metabolic endotoxemia from Gram-negative bacteria correlates with local adipose tissue hypoxia
 
 **Tumor microenvironments:**
 - Solid tumors grow faster than their vascular supply; central tumor regions are severely hypoxic (pO₂ < 1%)
 - Hypoxia selects for anaerobic metabolism and tolerance to metabolic stress
-- HIF-1α drives metastatic potential, immune evasion ([[pd-l1]], [[tim-3]])
+- HIF-1α drives metastatic potential, immune evasion ([[inflammation|pd-l1]], [[inflammation|tim-3]])
 
 ## Metal Connections
 
@@ -59,7 +61,7 @@ Hypoxia reshapes **metal utilization hierarchies**:
 
 - **Iron ecology**: Anaerobic bacteria rely more heavily on [[siderophores|siderophore]]-mediated iron acquisition because oxygen-dependent iron uptake (ferroxidase activity) is impaired. [[lipocalin-2]] sequestration becomes more potent as a selective pressure.
 - **Nickel dependence**: Anaerobic pathogens like [[helicobacter-pylori|H. pylori]] and oral [[porphyromonas-gingivalis|Porphyromonas gingivalis]] activate [[nickel-urease]] as an energy source; urease-driven ammonia production raises local pH and protects against acids in hypoxic, low-pH niches.
-- **Zinc and sulfide**: Sulfate-reducing bacteria produce H₂S; excess H₂S precipitates bioavailable [[zinc]], shifting zinc speciation and potentially reducing [[zinc]]-dependent immune functions ([[metallothionein]], [[zinc-finger]] transcription factors).
+- **Zinc and sulfide**: Sulfate-reducing bacteria produce H₂S; excess H₂S precipitates bioavailable [[zinc]], shifting zinc speciation and potentially reducing [[zinc]]-dependent immune functions ([[metallothionein]], [[metal-homeostasis|zinc-finger]] transcription factors).
 
 ## Connections
 

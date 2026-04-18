@@ -9,6 +9,8 @@ journal: "Frontiers in Veterinary Science"
 doi: "10.3389/fvets.2025.1590388"
 tags: [chronic-kidney-disease, CKD, probiotics, Lactobacillus, feline, multi-omics, gut-derived-uremic-toxins, SCFAs, metabolomics]
 platform: wikibiome
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Multi-Omics Analysis of Probiotic Strains in Feline CKD

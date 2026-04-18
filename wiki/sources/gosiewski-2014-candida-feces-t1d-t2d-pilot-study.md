@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, candida, fungal-microbiota, qpcr, serum-lipi
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [1, 5]
+key_findings: ["Candida spp. populations larger in both T1DM and T2DM", "No difference found between T1DM and T2DM", "No association between fungal quantity and clinical/biochemical features"]
 ---
 
 # Key Claims

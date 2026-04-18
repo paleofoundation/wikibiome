@@ -1,5 +1,4 @@
 ---
-
 title: "Causal Relationship Between Gut Microbiota and Hidradenitis Suppurativa: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 tags: [crohns-disease, IBD, hidradenitis-suppurativa, Mendelian-randomization, gut-skin-axis, Clostridium-innocuum, Lachnospira, SCFAs, dysbiosis, gut-microbiome]
 doi: "10.3389/fmicb.2024.1302822"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [clostridium, faecalibacterium-prausnitzii, lachnospira]
+karen_brain_primitives: [5, 9]
 ---
 
 # Key Claims
@@ -33,5 +35,5 @@ platform: wikibiome
 - Clostridium innocuum expansion in IBD connects this HS finding to broader Crohn's disease pathology
 - SCFA depletion theme consistent with [[faecalibacterium-prausnitzii]] loss in CD
 - Relevant to understanding extraintestinal manifestations of IBD
-- Complements [[Lu et al. 2024|lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]] on IBD-associated conditions
+- Complements [[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr|lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]] on IBD-associated conditions
 - [[crohns-disease]]

@@ -9,6 +9,7 @@ journal: "Frontiers in Microbiology"
 doi: "10.3389/fmicb.2024.1458090"
 tags: [chronic-kidney-disease, CKD, bile-acids, UDCA, feline, gut-kidney-axis, Oscillospirales, Peptacetobacter-hiranonis, microbiome]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Fecal Bile Acid Dysmetabolism and Reduced Ursodeoxycholic Acid in Feline CKD

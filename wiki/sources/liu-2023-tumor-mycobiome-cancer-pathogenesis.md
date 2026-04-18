@@ -1,5 +1,4 @@
 ---
-
 title: "Influence of tumor mycobiome on cancer pathogenesis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 doi: "10.3892/ol.2023.14128"
 tags: [colon-cancer, colorectal-cancer, mycobiome, tumor-mycobiome, Aspergillus-rambellii, Candida, Malassezia, aflatoxins, fungal-bacterial-interactions, biomarkers, metastasis]
 platform: wikibiome
+evidence_level: in-vitro
+taxa_discussed: [aspergillus, candida-albicans, malassezia]
+karen_brain_primitives: [6]
 ---
 
 # Liu 2023 -- Tumor Mycobiome Influence on Cancer Pathogenesis

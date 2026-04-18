@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, metabolomics, Down-syndrome, developmental-dela
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["Significant associations between 11 plasma metabolites", "Similar perturbation in one-carbon metabolism pathways", "Energy-related tricarboxylic acid cycle"]
 ---
 
 # Key Claims

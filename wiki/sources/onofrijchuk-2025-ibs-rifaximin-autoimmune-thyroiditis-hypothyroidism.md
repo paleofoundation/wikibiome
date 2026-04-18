@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Key Claims
 
-- Additional use of non-systemic antibiotic [[rifaximin]] demonstrated higher efficiency in decreasing abdominal pain (p = 0.037), anxiety (p = 0.01), depression (p = 0.0007), and [[SIBO]] prevalence (p = 0.037) in IBS-C patients with autoimmune thyroiditis and hypothyroidism
+- Additional use of non-systemic antibiotic [[antimicrobial-resistance|rifaximin]] demonstrated higher efficiency in decreasing abdominal pain (p = 0.037), anxiety (p = 0.01), depression (p = 0.0007), and [[dysbiosis|SIBO]] prevalence (p = 0.037) in IBS-C patients with autoimmune thyroiditis and hypothyroidism
 - SIBO prevalence was significantly higher in Group I (n=20, 55.6%) compared to Group II (n=9, 30%) at baseline (p = 0.037)
 - Hydrogen level in exhaled air was significantly lower in rifaximin-treated patients on day 45 (p = 0.019)
 - Quality-of-life domains "Bodily pain," "Role physical," and "Role emotional" were significantly better in rifaximin-treated patients (p < 0.05)

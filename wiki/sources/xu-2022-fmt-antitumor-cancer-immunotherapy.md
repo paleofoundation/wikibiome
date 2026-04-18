@@ -1,5 +1,4 @@
 ---
-
 title: "Antitumor Effects of Fecal Microbiota Transplantation: Implications for Microbiome Modulation in Cancer Treatment"
 type: source
 created: 2026-04-09
@@ -7,17 +6,19 @@ updated: 2026-04-09
 authors: [Hui Xu, Chenxi Cao, Yuqing Ren, Siyuan Weng, Long Liu, Chunguang Guo, Libo Wang, Xinwei Han, Jianzhuang Ren, Zaoqu Liu]
 journal: Frontiers in Immunology
 year: 2022
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Immunology 2022 -->
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, immunotherapy, immune-checkpoint-blockers, gut-microbiota, dysbiosis, Fusobacterium-nucleatum, colorectal-cancer, review]
 platform: wikibiome
 evidence_level: expert-opinion
+taxa_discussed: [enterococcus, escherichia-coli, fusobacterium-nucleatum]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- [[fecal-microbiota-transplant]] from healthy donors can restore the dysbiotic gut, modulating or reconstructing intestinal microbiota to improve [[immunotherapy]] efficacy in cancer treatment
+- [[fecal-microbiota-transplant]] from healthy donors can restore the dysbiotic gut, modulating or reconstructing intestinal microbiota to improve [[pharmacomicrobiomics|immunotherapy]] efficacy in cancer treatment
 - Gut microbiota dysbiosis contributes to CRC development through inflammation (NF-kB, STAT3 pathways), DNA damage (colibactin from E. coli), oxidative stress, and altered metabolite production
-- [[fusobacterium-nucleatum]] activates Wnt/beta-catenin and NF-kB signaling via FadA adhesin, directly promoting [[colon cancer]] cell proliferation
+- [[fusobacterium-nucleatum]] activates Wnt/beta-catenin and NF-kB signaling via FadA adhesin, directly promoting [[colorectal-cancer]] cell proliferation
 - FMT combined with anti-PD-1 immunotherapy can convert non-responders to responders; sterile mice treated with antibiotics then given FMT showed enhanced response to anti-PD-1
 - Multiple ongoing clinical trials (Table 1) combine FMT with immune checkpoint blockers (ICBs) across melanoma, NSCLC, gastrointestinal cancer, and other solid tumors
 - Short-chain fatty acids (butyrate, propionate) inhibit inflammation and tumor development, while secondary bile acids can promote cancerous growth
@@ -34,8 +35,8 @@ evidence_level: expert-opinion
 
 # Connections
 
-- Directly complements [[Yu 2023 - FMT Inhibits CRC Progression]] experimental evidence and [[Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] mechanistic findings
-- F. nucleatum pathogenesis connects to [[Metz 2019 - Drug Discovery BFT Inhibition]] on B. fragilis toxin targeting
+- Directly complements [[yu-2023-fmt-inhibits-crc-progression|Yu 2023 - FMT Inhibits CRC Progression]] experimental evidence and [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] mechanistic findings
+- F. nucleatum pathogenesis connects to [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]] on B. fragilis toxin targeting
 - Immunotherapy enhancement by FMT relevant to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] detailed review of radiation/ICB-microbiome interactions
-- Metabolite-mediated tumorigenesis links to [[Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] bile acid discussion and [[Rafter 2004 - Probiotics Colon Cancer Development]] SCFA/butyrate mechanisms
+- Metabolite-mediated tumorigenesis links to [[reddy-2002-omega3-fatty-acids-colon-cancer|Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] bile acid discussion and [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] SCFA/butyrate mechanisms
 - [[colorectal-cancer]]

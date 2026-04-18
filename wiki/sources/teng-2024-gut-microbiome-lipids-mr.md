@@ -1,5 +1,4 @@
 ---
-
 title: "Causality of the gut microbiome and atherosclerosis-related lipids: a bidirectional Mendelian Randomization study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2024
 doi: 10.1186/s12872-024-03804-3
 tags: [cardiovascular-disease, CVD, Mendelian-randomization, dyslipidemia, lipids, ApoB, ApoA, LDL-C, HDL-C, triglycerides, Desulfovibrionaceae, Ruminococcaceae, atherosclerosis]
 platform: wikibiome
+evidence_level: computational-prediction
+metals_discussed: [cadmium, copper, iron, lead, selenium]
+taxa_discussed: [christensenellaceae, desulfovibrio, dorea, oscillospiraceae, parabacteroides]
+karen_brain_primitives: [1]
 ---
 
 # Causality of the Gut Microbiome and Atherosclerosis-Related Lipids: A Bidirectional Mendelian Randomization Study

@@ -9,6 +9,9 @@ year: 2019
 doi: "10.1186/s12888-019-2059-x"
 tags: [schizophrenia, vitamin-D, probiotics, metabolic-syndrome, RCT, PANSS, insulin-resistance, CRP, Lactobacillus, Bifidobacterium]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bifidobacterium, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Clinical and Metabolic Response to Vitamin D Plus Probiotic in Schizophrenia Patients

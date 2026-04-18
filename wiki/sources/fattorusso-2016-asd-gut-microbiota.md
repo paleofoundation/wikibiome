@@ -11,6 +11,10 @@ tags: [autism, microbiota, dysbiosis, probiotics, gut-brain-axis, interventions]
 library_category: associated-conditions
 platform: both
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [iron, zinc]
+taxa_discussed: [bifidobacterium, lactobacillus, streptococcus]
+karen_brain_primitives: [4, 5, 8]
 ---
 
 # Overview
@@ -60,7 +64,7 @@ Narrative review of **dysbiosis and GI disorders in ASD**, emphasizing **bidirec
 ### Strain Selection
 
 **Most frequently studied strains**:
-- **[[Bifidobacteria]]** species (especially B. longum, B. infantis)
+- **[[bifidobacterium|Bifidobacteria]]** species (especially B. longum, B. infantis)
 - **[[lactobacillus]]** species (especially L. acidophilus, L. rhamnosus, L. plantarum)
 - **[[streptococcus-pneumoniae]]** species (especially S. thermophilus)
 

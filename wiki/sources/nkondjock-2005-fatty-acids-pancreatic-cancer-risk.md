@@ -1,5 +1,4 @@
 ---
-
 title: "Specific fatty acid intake and the risk of pancreatic cancer in Canada"
 type: source
 created: 2026-04-09
@@ -10,12 +9,13 @@ year: 2005
 tags: [pancreatic-cancer, fatty-acids, dietary-fat, risk-factors, epidemiology, saturated-fat, monounsaturated-fat, palmitic-acid, stearic-acid, oleic-acid, obesity]
 doi: "10.1038/sj.bjc.6602380"
 platform: wikibiome
+evidence_level: case-control
 ---
 
 # Key Claims
 
 - Statistically significant inverse associations were observed between [[pancreatic-cancer]] risk and palmitate (OR 0.73, P-trend=0.02), stearate (OR 0.70, P-trend=0.02), oleate (OR 0.75, P-trend=0.04), total saturated FAs (OR 0.67, P-trend=0.01), and monounsaturated FAs (OR 0.72, P-trend=0.02)
-- Among obese subjects (BMI >30), saturated and monounsaturated [[fatty acids]] showed strongly protective associations (saturated FAs OR 0.35, P-trend=0.002; monounsaturated FAs OR 0.32, P-trend=0.001)
+- Among obese subjects (BMI >30), saturated and monounsaturated [[short-chain-fatty-acids|fatty acids]] showed strongly protective associations (saturated FAs OR 0.35, P-trend=0.002; monounsaturated FAs OR 0.32, P-trend=0.001)
 - Substituting polyunsaturated or monounsaturated FAs for saturated FAs may reduce pancreatic cancer risk independently of total energy intake, particularly among obese subjects
 
 # Methods/Findings
@@ -29,7 +29,7 @@ platform: wikibiome
 
 # Connections
 
-- [[Fatty acids]] modulate [[gut microbiome]] composition, with different fat types selecting for different bacterial populations
-- Saturated fat-microbiome interactions relevant to [[microbiome diet]] and [[Mediterranean diet]] approaches
-- Bile acid metabolism links fatty acid intake to [[microbial metabolites]] and [[metabolic pathways]] in pancreatic cancer
+- [[short-chain-fatty-acids|Fatty acids]] modulate [[gut-microbiome]] composition, with different fat types selecting for different bacterial populations
+- Saturated fat-microbiome interactions relevant to [[dietary-metal-microbiome-interactions|microbiome diet]] and [[mediterranean-diet]] approaches
+- Bile acid metabolism links fatty acid intake to [[short-chain-fatty-acids|microbial metabolites]] and [[fermentative-metabolism|metabolic pathways]] in pancreatic cancer
 - Obesity-fat interaction connects to [[comorbidities]] and metabolic risk factors for PDAC

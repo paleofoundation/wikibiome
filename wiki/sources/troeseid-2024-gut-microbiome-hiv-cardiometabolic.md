@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiome and Cardiometabolic Comorbidities in People Living with HIV"
 type: source
 created: 2026-04-09
@@ -12,14 +11,16 @@ tags: [cardiovascular-disease, HIV, gut-microbiome, comorbidities, TMAO, SCFAs, 
 source_pdf: "raw/cardiovascular disease/Comorbidities cardiovascular disease microbiome/s40168-024-01815-y.pdf"
 pages_read: "1-8"
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, lachnospiraceae]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- People living with HIV (PLWH) have an altered gut microbiome even after adjusting for confounders including sexual preference, sharing features with CVD-related microbiota profiles and reduced capacity for [[short-chain fatty acids]] (SCFA) generation
+- People living with HIV (PLWH) have an altered gut microbiome even after adjusting for confounders including sexual preference, sharing features with CVD-related microbiota profiles and reduced capacity for [[short-chain-fatty-acids]] (SCFA) generation
 - HIV-associated [[dysbiosis]] was significantly greater in PLWH who developed CVD compared to matched PLWH without CVD (AGEhIV cohort)
 - Depletion of Lachnospiraceae and Ruminococcaceae and increase in Gammaproteobacteria and Desulfovibrionaceae characterize HIV-related dysbiosis
-- [[Microbial translocation]] (passage of bacterial products like LPS across gut barrier) drives chronic immune activation and is linked to CVD in both PLWH and general populations
+- [[intestinal-permeability|Microbial translocation]] (passage of bacterial products like LPS across gut barrier) drives chronic immune activation and is linked to CVD in both PLWH and general populations
 - Circulating LPS correlated with abundance of gram-negative bacteria producing penta-acylated LPS, including *Bacteroides*; circulating LPS could partly reflect LPS from commensal microbes with low pro-inflammatory potential
 - SCFA production, particularly butyrate, is reduced in PLWH compared to controls; [[tmao]] pathway is linked to CVD via phosphatidylcholine and L-carnitine metabolism
 - Kynurenine pathway metabolites are characteristically depleted in gut of PLWH; serum kynurenine/tryptophan (KT) ratio is a surrogate marker for activity of this pathway
@@ -34,9 +35,9 @@ platform: wikibiome
 
 # Connections
 
-- Bridges [[microbiome and disease progression]] in CVD with HIV-specific immunodeficiency context
-- SCFA and TMAO findings connect to [[microbial metabolites]] and [[microbiome-derived metabolites]] in CVD
-- Microbial translocation concept relevant to [[microbiome and inflammation]] and [[gut barrier function]]
-- Dysbiosis characterization informs [[microbiome composition]] differences in cardiovascular disease
-- Kynurenine pathway links to [[metabolic pathways]] modulating CVD through the microbiome
-- Review of bile acid alterations relevant to [[microbiome-host interactions]] in cardiometabolic disease
+- Bridges [[dysbiosis|microbiome and disease progression]] in CVD with HIV-specific immunodeficiency context
+- SCFA and TMAO findings connect to [[short-chain-fatty-acids|microbial metabolites]] and [[microbiome-derived-metabolites]] in CVD
+- Microbial translocation concept relevant to [[inflammation|microbiome and inflammation]] and [[intestinal-permeability|gut barrier function]]
+- Dysbiosis characterization informs [[dysbiosis|microbiome composition]] differences in cardiovascular disease
+- Kynurenine pathway links to [[fermentative-metabolism|metabolic pathways]] modulating CVD through the microbiome
+- Review of bile acid alterations relevant to [[gut-metal-microbiome|microbiome-host interactions]] in cardiometabolic disease

@@ -12,6 +12,7 @@ library_category: "Comorbidities"
 platform: clinical
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: expert-opinion
 ---
 
 # Overview
@@ -49,5 +50,5 @@ Integrative review of medical conditions most commonly co-occurring with [[autis
 # Connections
 
 - GI findings link to [[casanova-2020-comorbidity-autism-editorial]]
-- Sleep/circadian disruption relevant to [[zhou-2025-gut-microbiota-immune-nervous-asd]]
+- Sleep/circadian disruption relevant to [[zhou-2025-gut-microbiota-immune-nervous-system-asd]]
 - Epilepsy comorbidity connects to immune dysregulation in [[heidari-2021-immune-system-asd-therapeutic-challenges]]

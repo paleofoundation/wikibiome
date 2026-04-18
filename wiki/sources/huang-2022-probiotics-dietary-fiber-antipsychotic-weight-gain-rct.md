@@ -9,6 +9,9 @@ year: 2022
 doi: "10.1038/s41398-022-01958-2"
 tags: [schizophrenia, probiotics, dietary-fiber, weight-gain, antipsychotics, RCT, microbiome, metabolic-syndrome, insulin-resistance, Lactobacillus, Bifidobacterium]
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+taxa_discussed: [bifidobacterium, enterococcus, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # The Effects of Probiotics Plus Dietary Fiber on Antipsychotic-Induced Weight Gain: A Randomized Clinical Trial

@@ -12,6 +12,9 @@ tags: [parkinsons-disease, neuroinflammation, microglia, astrocytes, alpha-synuc
 library_category: reviews
 platform: both
 condition: "Parkinson's disease"
+evidence_level: expert-opinion
+metals_discussed: [iron, lead, manganese, nickel]
+karen_brain_primitives: [1, 2]
 ---
 
 # Outside In: Unraveling the Role of Neuroinflammation in the Progression of Parkinson's Disease

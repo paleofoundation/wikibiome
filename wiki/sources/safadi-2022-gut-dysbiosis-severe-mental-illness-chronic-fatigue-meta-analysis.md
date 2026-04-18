@@ -9,6 +9,7 @@ year: 2022
 doi: "10.1038/s41380-021-01032-1"
 tags: [schizophrenia, dysbiosis, meta-analysis, zonulin, LPS, endotoxin, sCD14, alpha-1-antitrypsin, gut-permeability, depression, bipolar-disorder, chronic-fatigue, sickness-behavior]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Gut Dysbiosis in Severe Mental Illness and Chronic Fatigue: A Novel Trans-Diagnostic Construct?

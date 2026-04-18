@@ -1,5 +1,4 @@
 ---
-
 title: "Potential Application of Living Microorganisms in the Detoxification of Heavy Metals"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2022
 tags: [heavy-metals, probiotics, detoxification, engineered-bacteria, gut-microbiota, biosorption, bioaccumulation, surface-display, GEMs, Lactobacillus, E-coli, review]
 doi: "10.3390/foods11091017"
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [nickel]
+taxa_discussed: [bifidobacterium, clostridium, desulfovibrio, escherichia-coli, lactobacillus, pseudomonas-aeruginosa]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # Key Claims
@@ -39,8 +42,8 @@ platform: wikibiome
 # Connections
 
 - Primary reference for [[probiotic detoxification of heavy metals]] and engineered bacteria approaches
-- Extends [[Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] with GEM perspective
+- Extends [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] with GEM perspective
 - NixA transporter specifically relevant to [[nickel]] uptake and potential Ni-targeted engineered probiotics
-- Surface display technology connects to broader [[bioremediation]] approaches
-- GEM safety concerns relevant to [[food safety regulation]] and clinical translation
+- Surface display technology connects to broader [[environmental-metal-exposure|bioremediation]] approaches
+- GEM safety concerns relevant to [[environmental-metal-exposure|food safety regulation]] and clinical translation
 - Links to [[Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]] on monitoring probiotic efficacy

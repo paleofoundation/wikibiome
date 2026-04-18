@@ -1,5 +1,4 @@
 ---
-
 title: "Associations Between Endometriosis and Gut Microbiota"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2021
 tags: [endometriosis, gut-microbiome, dysbiosis, Bacteroidia, Clostridia, Coriobacteriia, alpha-diversity, beta-diversity, gastrointestinal-symptoms]
 doi: "10.1007/s43032-021-00506-5"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [iron, nickel]
+taxa_discussed: [bacteroides-fragilis, blautia, butyricimonas, oscillospiraceae, prevotella, ruminococcus]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Key Claims

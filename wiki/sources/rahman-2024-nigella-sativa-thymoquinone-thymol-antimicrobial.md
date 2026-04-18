@@ -48,8 +48,8 @@ N. sativa seeds from Peshawar local market. 160 g ground seed extracted in 1000 
 
 - [[nigella-sativa]] / [[black-seed]] entity/concept — thymoquinone-thymol phytochemistry.
 - [[thymoquinone]] concept — primary bioactive with anti-biofilm, anti-quorum-sensing activity.
-- [[thymol]] concept — phenolic monoterpenoid shared with oregano/thyme.
-- [[quorum-sensing]] and [[biofilm]] concepts — natural-product disruption of virulence factors.
+- [[polyphenols|thymol]] concept — phenolic monoterpenoid shared with oregano/thyme.
+- [[biofilm|quorum-sensing]] and [[biofilm]] concepts — natural-product disruption of virulence factors.
 
 ## Relevance to Cureva
 

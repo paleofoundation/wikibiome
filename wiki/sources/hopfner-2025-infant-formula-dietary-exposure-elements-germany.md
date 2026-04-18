@@ -1,5 +1,4 @@
 ---
-
 title: "The contribution of infant formula to the food survey-based dietary exposure of nine selected elements"
 type: source
 created: 2026-04-09
@@ -7,16 +6,18 @@ updated: 2026-04-09
 authors: [Hopfner T, Wollenberg M, Jager A, Stadion M, Jung C, Klook AL, Lindtner O]
 journal: Journal of Environmental Exposure Assessment
 year: 2025
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Environmental Exposure Assessment 2025 -->
 tags: [infant-formula, dietary-exposure, total-diet-study, Germany, arsenic, cadmium, lead, nickel, manganese, zinc, chromium, mercury, selenium, risk-assessment]
 platform: wikibiome
+evidence_level: expert-opinion
+metals_discussed: [arsenic, cadmium, chromium, lead, manganese, mercury, nickel, selenium, zinc]
 ---
 
 ## Key Claims
 
 - Infant formula contributed up to 64% (50th percentile) of total dietary exposure for infants (<1 year) for some contaminants, decreasing to 43% for toddlers (1 to <3 years)
 - [[cadmium]] levels exceeded the HBGV (health-based guidance value) for about 30% of infants and toddlers, with dietary Cd reaching 80%+ of TWI and highly exposed infants at 178% TWI
-- The MoE for [[inorganic arsenic]] was below 1 for all children, indicating a potential health concern for cancer risk (skin cancer benchmark)
+- The MoE for [[dietary-arsenic-exposure|inorganic arsenic]] was below 1 for all children, indicating a potential health concern for cancer risk (skin cancer benchmark)
 - [[nickel]] dietary exposure was 2.96-3.54 ug/kg bw/day in infants, approximately a quarter of the TDI (13 ug/kg bw/day), with high-consuming toddlers reaching 17.9 ug/kg bw/day
 - Cr, Ni, and Se exposures were well below corresponding HBGVs
 - Mn and Zn exposures in the 95th percentile were close to their safe level of intake and upper level respectively

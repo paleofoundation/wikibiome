@@ -12,6 +12,10 @@ library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: randomized-controlled-trial
+metals_discussed: [manganese, zinc]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, clostridium, collinsella, coprococcus, lactobacillus, ruminococcus, streptococcus]
+karen_brain_primitives: [2, 4, 5]
+key_findings: ["Probiotic supplementation", "Bifidobacterium abundance", "Gut-brain axis communication"]
 ---
 
 # Key Claims
@@ -26,7 +30,7 @@ evidence_level: randomized-controlled-trial
 **Study design:** Randomized, double-blind, placebo-controlled, parallel group trial (n = 160 children aged 3-12 years with ASD).
 
 **Intervention:**
-- Lyophilized powder containing [[lactobacillus]], [[Bifidobacteria]], and [[streptococcus-thermophilus]] (10 billion CFU twice daily for 3 months)
+- Lyophilized powder containing [[lactobacillus]], [[bifidobacterium|Bifidobacteria]], and [[streptococcus-thermophilus]] (10 billion CFU twice daily for 3 months)
 - Placebo: maltodextrin
 - 3-month washout, then 6-month follow-up
 - Add-on therapy irrespective of ABA and TEACCH maintenance

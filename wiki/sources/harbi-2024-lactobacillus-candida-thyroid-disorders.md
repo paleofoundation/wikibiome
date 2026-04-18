@@ -1,5 +1,4 @@
 ---
-
 title: "The Occurrence of Lactobacillus and Candida albicans in Patients with Thyroid Disorders"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2024
 doi: "10.54633/2333-049-016"
 tags: [hashimotos-thyroiditis, thyroid, mycobiome, Candida-albicans, Lactobacillus, oral-microbiome, hyperthyroidism, hypothyroidism, salivary-flow-rate, fungal-dysbiosis]
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [candida-albicans, lactobacillus]
+karen_brain_primitives: [6]
 ---
 
 # The Occurrence of Lactobacillus and Candida albicans in Patients with Thyroid Disorders

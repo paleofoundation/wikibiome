@@ -1,5 +1,4 @@
 ---
-
 title: "Polyunsaturated Fatty Acids in the Pathogenesis and Treatment of Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,16 +9,18 @@ year: 2007
 tags: [fatty-acids, PUFA, multiple-sclerosis, linoleic-acid, arachidonic-acid, gamma-linolenic-acid, TGF-beta, cytokines, clinical-trial, n-6-fatty-acids]
 doi: "10.1017/S0007114507833010"
 platform: wikibiome
+evidence_level: randomized-controlled-trial
+karen_brain_primitives: [5]
 ---
 
 # Polyunsaturated Fatty Acids in the Pathogenesis and Treatment of Multiple Sclerosis
 
 ## Key Claims
 
-- [[PUFA]], particularly n-6 fatty acids, play a central role in MS pathogenesis: disturbed n-6 fatty acid metabolism and dysregulation of cytokines are linked and provide a "proof of concept" for fatty acid-based therapy
+- [[dietary-metal-microbiome-interactions|PUFA]], particularly n-6 fatty acids, play a central role in MS pathogenesis: disturbed n-6 fatty acid metabolism and dysregulation of cytokines are linked and provide a "proof of concept" for fatty acid-based therapy
 - MS patients show a 2-fold higher 20:2n-6 in PBMC phospholipids compared to controls; this may be a useful marker of disease progression
 - A randomized double-blind placebo-controlled trial of GLA (18:3n-6)-rich borage oil (BCG20-884) showed: high dose significantly decreased relapse rate (p < 0.01) and disability progression (EDSS) compared to placebo over 18 months
-- In the placebo group, pro-inflammatory cytokines (TNF-alpha, IL-1beta) increased while anti-inflammatory [[TGF-beta]] markedly decreased with loss of n-6 fatty acids (18:2n-6 and arachidonic acid 20:4n-6); the high dose group showed no such deterioration
+- In the placebo group, pro-inflammatory cytokines (TNF-alpha, IL-1beta) increased while anti-inflammatory [[inflammation|TGF-beta]] markedly decreased with loss of n-6 fatty acids (18:2n-6 and arachidonic acid 20:4n-6); the high dose group showed no such deterioration
 - GLA-rich oil is protective in EAE (dose-dependent suppression), and linoleic acid alone or high linoleic/low gamma-linolenic diet (7:1 ratio) partially suppresses EAE incidence and severity
 
 ## Methods/Findings
@@ -32,7 +33,7 @@ platform: wikibiome
 
 ## Connections
 
-- Provides mechanistic basis for therapeutic approaches complementing the SCFA-focused findings in [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]]
+- Provides mechanistic basis for therapeutic approaches complementing the SCFA-focused findings in [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]]
 - The TGF-beta/cytokine connection links PUFA metabolism to immune regulation pathways also modulated by [[probiotics]] in [[tamtaji-2017-probiotic-gene-expression-ms]]
 - The n-6 fatty acid metabolic disturbance connects to the broader metabolic profiling in MS, relevant to approaches
 - Historical Swank diet evidence (low saturated fat) discussed in context of [[katzsand-2018-diet-ms-mechanistic-review]]

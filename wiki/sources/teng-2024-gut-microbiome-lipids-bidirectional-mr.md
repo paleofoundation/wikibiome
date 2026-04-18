@@ -1,5 +1,4 @@
 ---
-
 title: "Causality of the Gut Microbiome and Atherosclerosis-Related Lipids: A Bidirectional Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -12,6 +11,8 @@ tags: [cardiovascular-disease, Mendelian-randomization, lipids, dyslipidemia, Ap
 source_pdf: "raw/cardiovascular disease/Mendelian randomization cardiovascular disease microbiome/s12872-024-03804-3.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [christensenellaceae, desulfovibrio, dorea, oscillospiraceae, parabacteroides]
 ---
 
 # Key Claims
@@ -35,9 +36,9 @@ platform: wikibiome
 
 # Connections
 
-- Novel [[Mendelian randomization]] link between gut microbiome and atherogenic lipid profiles
-- Desulfovibrionaceae-ApoB finding informs [[metabolic pathways]] connecting microbiome to [[atherosclerosis]]
-- *Ruminococcaceae* protective effects align with [[Wang 2023 - Gut Microbiota CAD MI MR]]
-- H2S production mechanism relevant to [[microbial metabolites]] in cardiovascular regulation
-- Lipid mediation extends [[microbiome-derived metabolites]] understanding in CVD pathogenesis
-- Bidirectional design strengthens [[causal microbiome relationships]] evidence
+- Novel [[mendelian-randomization]] link between gut microbiome and atherogenic lipid profiles
+- Desulfovibrionaceae-ApoB finding informs [[fermentative-metabolism|metabolic pathways]] connecting microbiome to [[atherosclerosis]]
+- *Ruminococcaceae* protective effects align with [[wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma|Wang 2023 - Gut Microbiota CAD MI MR]]
+- H2S production mechanism relevant to [[short-chain-fatty-acids|microbial metabolites]] in cardiovascular regulation
+- Lipid mediation extends [[microbiome-derived-metabolites]] understanding in CVD pathogenesis
+- Bidirectional design strengthens [[dysbiosis|causal microbiome relationships]] evidence

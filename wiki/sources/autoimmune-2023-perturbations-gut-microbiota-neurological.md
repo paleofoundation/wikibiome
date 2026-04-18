@@ -25,7 +25,7 @@ karen_brain_primitives: [1, 2, 5]
 
 ## Summary
 
-This systematic review and meta-analysis examines gut [[microbiome]] perturbations across autoimmune neurological diseases (including [[multiple-sclerosis]], myasthenia gravis, and autoimmune aspects of [[parkinsons-disease]]), identifying shared and disease-specific dysbiotic features.
+This systematic review and meta-analysis examines gut [[gut-microbiome|microbiome]] perturbations across autoimmune neurological diseases (including [[multiple-sclerosis]], myasthenia gravis, and autoimmune aspects of [[parkinsons-disease]]), identifying shared and disease-specific dysbiotic features.
 
 ## Key Findings
 

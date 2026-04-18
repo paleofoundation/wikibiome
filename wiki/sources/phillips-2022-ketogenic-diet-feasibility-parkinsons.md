@@ -11,6 +11,8 @@ tags: [parkinsons-disease, ketogenic-diet, beta-hydroxybutyrate, motor-symptoms,
 library_category: therapeutics
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # A Mixed Methods Feasibility Study of a Ketogenic Diet as Treatment for Parkinson's Disease

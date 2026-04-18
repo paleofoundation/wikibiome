@@ -9,6 +9,8 @@ year: 2022
 doi: "10.3389/fmicb.2021.737197"
 tags: [schizophrenia, mendelian-randomization, gut-microbiota, causal-inference, Actinobacteria, Clostridium-innocuum, Prevotellaceae, autism, bipolar-disorder, Tourette-syndrome]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [clostridium]
 ---
 
 # Gut Microbiota and Psychiatric Disorders: A Two-Sample Mendelian Randomization Study

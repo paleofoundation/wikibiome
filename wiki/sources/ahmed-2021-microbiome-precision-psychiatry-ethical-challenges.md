@@ -18,7 +18,7 @@ key_findings:
   - "Ethical challenges surround the use of microbiome big data in precision psychiatry"
   - "Privacy, informed consent, and data ownership issues arise from microbiome profiling"
   - "Microbiome-based interventions (FMT, probiotics) in psychiatry raise unique ethical considerations"
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

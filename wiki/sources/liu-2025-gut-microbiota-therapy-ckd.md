@@ -9,6 +9,7 @@ journal: "Frontiers in Immunology"
 doi: "10.3389/fimmu.2025.1660226"
 tags: [chronic-kidney-disease, CKD, gut-microbiota-therapy, prebiotics, probiotics, FMT, phage-therapy, mini-review]
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Gut Microbiota Therapy for CKD

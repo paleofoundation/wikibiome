@@ -47,4 +47,4 @@ platform: wikibiome
 - Consolidates evidence from individual trials like [[ostadmohammadi-2019-vitamin-d-probiotic-pcos]]
 - Supports [[calcaterra-2023-probiotics-pcos-adolescents]] review conclusions
 - The gut-brain axis mechanism relates to [[wang-2022-high-fiber-acarbose-pcos]] showing microbiota remodeling improves PCOS
-- Connects to broader [[dietary intervention]] strategies for PCOS including [[dietary fiber]] and [[mediterranean-diet]]
+- Connects to broader [[dietary-metal-microbiome-interactions|dietary intervention]] strategies for PCOS including [[dietary-fiber]] and [[mediterranean-diet]]

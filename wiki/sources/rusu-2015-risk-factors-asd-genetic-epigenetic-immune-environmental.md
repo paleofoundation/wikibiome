@@ -6,11 +6,14 @@ updated: 2026-04-09
 authors: [Cristina Rusu, Cristina Preda, Adriana Sireteanu, Carmen Vulpoi]
 year: 2015
 journal: "Environmental Engineering and Management Journal"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (None); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Environmental Engineering and Management Journal 2015 -->
 tags: [autism-spectrum-disorder, environmental-factors, epigenetics, immune-dysregulation, oxidative-stress, mitochondrial-dysfunction, heavy-metals, pesticides, microbiota, review]
 library_category: environmental
 platform: review
 condition: "autism spectrum disorder"
+evidence_level: expert-opinion
+metals_discussed: [cadmium, iron, lead, mercury, zinc]
+karen_brain_primitives: [4]
 ---
 
 # Overview
@@ -51,10 +54,10 @@ Review discussing the interplay of **genetic, epigenetic, immunologic, and envir
 
 **Moderate relevance** — integrates multiple metal-dependent pathways:
 
-- [[Heavy metals]] discussed as direct environmental risk factors
+- [[heavy-metals]] discussed as direct environmental risk factors
 - Epigenetic enzymes (DNMTs, HDACs) are [[zinc]]-dependent metalloenzymes
-- [[Mitochondrial dysfunction]] involves [[iron]]-sulfur cluster proteins
-- [[Oxidative stress]] involves [[iron]]-dependent Fenton chemistry
+- [[mitochondrial-dysfunction|Mitochondrial dysfunction]] involves [[iron]]-sulfur cluster proteins
+- [[oxidative-stress]] involves [[iron]]-dependent Fenton chemistry
 - Methylation cycle requires [[zinc]], [[iron]], B-vitamins as cofactors
 
 # Methodological Notes

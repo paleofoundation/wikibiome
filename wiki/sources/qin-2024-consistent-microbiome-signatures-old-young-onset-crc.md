@@ -1,5 +1,4 @@
 ---
-
 title: "Consistent signatures in the human gut microbiome of old- and young-onset colorectal cancer"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2024
 doi: "10.1038/s41467-024-47523-x"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, young-onset-CRC, metagenomics, Fusobacterium-nucleatum, Bacteroides-fragilis, E-coli, virulence-factors, strain-level-analysis]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [bacteroides-fragilis, clostridium, escherichia-coli, fusobacterium-nucleatum, peptostreptococcus]
 ---
 
 # Qin 2024 -- Consistent Signatures in Human Gut Microbiome of Old- and Young-Onset CRC

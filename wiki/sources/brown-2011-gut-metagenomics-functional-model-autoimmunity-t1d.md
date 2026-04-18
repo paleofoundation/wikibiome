@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, metagenomics, shotgun-sequencing, butyrate, 
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+evidence_level: case-control
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1]
+key_findings: ["Functional model proposed", "Key rate-limiting step", "Consortium of lactate- and butyrate-producing bacteria"]
 ---
 
 # Key Claims

@@ -35,7 +35,7 @@ The hallmark is systematic loss of obligate anaerobic SCFA producers:
 
 ### Enriched Taxa
 Facultative aerobes and pathobionts bloom:
-- **Proteobacteria** (phylum-level, including [[enterobacteriaceae]], [[Klebsiella]], [[Escherichia-coli]]) — LPS production; translocation to blood
+- **Proteobacteria** (phylum-level, including [[enterobacteriaceae]], [[klebsiella-pneumoniae]], [[escherichia-coli]]) — LPS production; translocation to blood
 - **[[streptococcus]]** (S. equinus persists at 6 months)
 - **[[enterococcus]]** — facultative aerobe; translocation marker
 - **[[candida-albicans]]** — multi-kingdom co-expansion with bacterial pathobionts
@@ -55,7 +55,7 @@ Mendelian randomization analyses provide causal support: specific gut taxa (Lach
 - **[[iron]] sequestered**: Hepcidin elevation drives iron sequestration as host antiviral defense — functional anemia, not true deficiency. Iron was **10-fold decreased** in COVID+ human milk [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
 - **[[selenium]] depleted**: **2-fold decrease** in COVID+ mothers; lower Se associated with COVID mortality [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
 - **[[zinc]] elevated**: **1.7-fold increase** in human milk as antiviral defense [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
-- **[[Glutathione]] depleted**: Reduced antioxidant metabolites [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
+- **[[glutathione]] depleted**: Reduced antioxidant metabolites [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
 
 ## Gut-Brain Axis
 LPS translocation crosses the BBB; reduced butyrate impairs BBB tight junctions; altered tryptophan metabolism (reduced kynurenine/AhR signaling) drives neuroinflammation and microglial activation, explaining "brain fog" and cognitive symptoms [[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]], [[brown-2024-covid-19-neuroinflammation-pathophysiology]].

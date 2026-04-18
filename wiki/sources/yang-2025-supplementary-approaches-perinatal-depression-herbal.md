@@ -12,6 +12,8 @@ library_category: review
 platform: cureva
 condition: "perinatal depression"
 evidence_level: expert-opinion
+metals_discussed: [iron, magnesium, zinc]
+key_findings: ["Perinatal depression prevalence", "Saffron and vitamin D", "Herbal remedies"]
 ---
 
 # Key Claims

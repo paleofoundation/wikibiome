@@ -1,5 +1,4 @@
 ---
-
 title: "Physical Activity and Colon Cancer Prevention: A Meta-Analysis"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ platform: wikibiome
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Physical Activity and Colon Cancer Prevention: A Meta-Analysis

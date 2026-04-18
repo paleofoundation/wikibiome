@@ -11,6 +11,11 @@ tags: [type-1-diabetes, autoimmune, gestational-diabetes, 16s-rrna, gut-microbio
 library_category: original-research
 platform: cureva
 condition: "gestational diabetes"
+evidence_level: prospective-cohort
+metals_discussed: [iron, selenium, zinc]
+taxa_discussed: [clostridium, ruminococcus, streptococcus]
+karen_brain_primitives: [1]
+key_findings: ["Significant difference in beta diversity", "Ruminococcus bromii, Clostridium colinum, and Streptococcus infantis", "S. infantis correlated positively"]
 ---
 
 # Key Claims

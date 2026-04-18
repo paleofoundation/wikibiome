@@ -1,5 +1,4 @@
 ---
-
 title: "The way to a man's heart is through his gut microbiota -- dietary pro- and prebiotics for the management of cardiovascular risk"
 type: source
 created: 2026-04-09
@@ -7,21 +6,21 @@ updated: 2026-04-09
 authors: [Kieran M. Tuohy, Francesca Fava, Roberto Viola]
 journal: Proceedings of the Nutrition Society
 year: 2014
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: missing from original frontmatter; needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Proceedings of the Nutrition Society 2014 -->
 tags: [cardiovascular-disease, probiotics, prebiotics, gut-microbiome, cholesterol, bile-acids, TMAO, SCFAs, beta-glucan, oats]
 platform: wikibiome
 karen_brain_primitives: [5]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [akkermansia-muciniphila, eubacterium, lactobacillus]
 ---
 
 # Tuohy et al. 2014 -- Dietary Pro- and Prebiotics for CVD Risk Management
 
 ## Key Claims
 
-- Transfer of [[gut microbiota]] from obese animals induces metabolic disease and obesity in germ-free animals; conversely, transfer of pathogen-free microbiota from lean healthy humans can increase [[insulin]] sensitivity
+- Transfer of [[gut-microbiome]] from obese animals induces metabolic disease and obesity in germ-free animals; conversely, transfer of pathogen-free microbiota from lean healthy humans can increase [[insulin-resistance|insulin]] sensitivity
 - Diet high in fermentable fibres and plant [[polyphenols]] can regulate microbial activities in the gut, supporting the scientific rationale for efficacious [[prebiotics]]
-- [[probiotics]] with carefully selected strains can hydrolyse [[bile acids]] and lower blood [[cholesterol]], a recognized risk factor in CVD
+- [[probiotics]] with carefully selected strains can hydrolyse [[bile-acid-metabolism]] and lower blood [[bile-acid-metabolism|cholesterol]], a recognized risk factor in CVD
 - [[tmao]] production from dietary choline and L-carnitine by gut microbiota contributes to CVD pathology; a vegan diet selects for bacteria with low capacity to metabolize L-carnitine
 - Prebiotic oligofructose reduces gut permeability and associated metabolic endotoxemia; increases relative abundance of *[[akkermansia-muciniphila]]*
 
@@ -45,6 +44,6 @@ pp. 172-185
 
 ## Connections
 
-- Links to [[fecal microbiota transplant]] and metabolic disease
-- Relevant to [[Mediterranean diet]] and [[cardiovascular-disease]] prevention
+- Links to [[fecal-microbiota-transplant]] and metabolic disease
+- Relevant to [[mediterranean-diet]] and [[cardiovascular-disease]] prevention
 - Connects to metabolism and homeostasis

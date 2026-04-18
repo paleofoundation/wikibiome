@@ -9,6 +9,9 @@ year: 2020
 doi: "10.1007/s12325-020-01272-7"
 tags: [schizophrenia, depression, dysbiosis, gut-brain-axis, tryptophan, kynurenine, SCFAs, microbiome, HPA-axis, serotonin, probiotics]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [lachnospiraceae, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # Current Perspectives on Gut Microbiome Dysbiosis and Depression

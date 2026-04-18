@@ -47,4 +47,4 @@ Review examining key sex differences in gut microbiome interactions with four pr
 
 ## Relevance to the Wiki
 
-Provides a framework for understanding how [[sex-differences]] in gut microbiome composition and metabolite production may drive the observed sexual dimorphism in [[cardiovascular-disease]] risk. Highlights that TMAO, SCFAs, BCAAs, and LPS all show sex-dependent patterns that may influence CVD outcomes differently in men and women. Connects to [[bile-acids]] metabolism, [[inflammation]], and [[metabolites]] pathways.
+Provides a framework for understanding how [[estrobolome|sex-differences]] in gut microbiome composition and metabolite production may drive the observed sexual dimorphism in [[cardiovascular-disease]] risk. Highlights that TMAO, SCFAs, BCAAs, and LPS all show sex-dependent patterns that may influence CVD outcomes differently in men and women. Connects to [[bile-acid-metabolism]] metabolism, [[inflammation]], and [[short-chain-fatty-acids|metabolites]] pathways.

@@ -1,5 +1,4 @@
 ---
-
 title: "Gut microbiota short-chain fatty acids and their impact on the host thyroid function and diseases"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2023
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, short-chain-fatty-acids, gut-microbiota, dysbiosis, butyrate, propionate, acetate, iodine, selenium, thyroid-hormones, metabolism]
 doi: "10.3389/fendo.2023.1192216"
 platform: wikibiome
+metals_discussed: [selenium]
+taxa_discussed: [bacteroides-fragilis, clostridium, eubacterium, faecalibacterium-prausnitzii, lactobacillus, propionibacterium, roseburia, ruminococcus]
+karen_brain_primitives: [5, 9]
 ---
 
 # Gut microbiota short-chain fatty acids and their impact on the host thyroid function and diseases

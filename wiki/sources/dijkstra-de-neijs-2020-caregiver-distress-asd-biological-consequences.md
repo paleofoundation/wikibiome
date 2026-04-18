@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, caregiver-distress, cortisol, HPA-axis, immune-
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+metals_discussed: [lead]
+key_findings: ["Caregiver distress", "Pro-inflammatory state", "Gut microbiome imbalance"]
 ---
 
 # Key Claims

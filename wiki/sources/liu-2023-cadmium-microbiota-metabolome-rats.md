@@ -1,5 +1,4 @@
 ---
-
 title: "Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2023
 doi: 10.3389/fvets.2023.1219729
 tags: [cardiovascular-disease, CVD, cadmium, gut-microbiome, blood-microbiome, metabolomics, bacterial-translocation, serum-metabolites, dysbiosis, animal-model]
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [cadmium]
+taxa_discussed: [alloprevotella, corynebacterium, escherichia-coli, lactobacillus, prevotella]
+karen_brain_primitives: [1]
 ---
 
 # Environmental Cadmium Exposure Alters the Internal Microbiota and Metabolome of Sprague-Dawley Rats
@@ -54,6 +57,6 @@ This study contributes to the [[gut-metal-microbiome]] model by:
 
 1. **Bacterial translocation evidence** - Cd exposure causes gut bacteria (especially *Muribaculaceae*) to translocate into the blood, directly demonstrating how [[cadmium]]-induced intestinal barrier damage enables microbial invasion of the circulatory system
 2. **Uremic toxin accumulation** - Upregulation of indoxyl sulfate and p-cresol sulfate (known uremic toxins and CVD risk factors) links Cd exposure to [[cardiovascular-disease]] risk via microbiome-mediated metabolite production
-3. **[[Inflammation]] cascade** - Cd-induced increase of *Clostridia_UCG_014* (a proinflammatory bacterium positively correlated with blood glucose) establishes a pathway from metal exposure through [[dysbiosis]] to systemic [[inflammation]]
-4. **[[Oxidative-stress]] markers** - Downregulation of delta-tocopherol (antioxidant) with concurrent upregulation of inflammatory metabolites suggests Cd-driven oxidative damage
+3. **[[inflammation]] cascade** - Cd-induced increase of *Clostridia_UCG_014* (a proinflammatory bacterium positively correlated with blood glucose) establishes a pathway from metal exposure through [[dysbiosis]] to systemic [[inflammation]]
+4. **[[oxidative-stress]] markers** - Downregulation of delta-tocopherol (antioxidant) with concurrent upregulation of inflammatory metabolites suggests Cd-driven oxidative damage
 5. **Sphingolipid disruption** - Altered sphingolipid metabolism connects to [[metabolic-syndrome]] pathways relevant to CVD

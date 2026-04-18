@@ -14,6 +14,8 @@ condition: "autism spectrum disorder"
 karen_brain_primitives: []
 metals_discussed: []
 taxa_discussed: []
+evidence_level: expert-opinion
+key_findings: ["Abnormalities in GABAergic neurons", "Abnormal GABA levels"]
 ---
 
 # Key Claims

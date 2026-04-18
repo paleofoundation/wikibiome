@@ -11,6 +11,9 @@ tags: [parkinsons-disease, mendelian-randomization, cognitive-impairment, gut-mi
 library_category: causal
 platform: both
 condition: "Parkinson's disease"
+evidence_level: computational-prediction
+metals_discussed: [copper, iron]
+karen_brain_primitives: [1, 4, 5, 8]
 ---
 
 # Effects of Gut Microbiota on Cognitive Impairment in Parkinson's Disease: A Comprehensive Mendelian Randomization and Causal Analysis

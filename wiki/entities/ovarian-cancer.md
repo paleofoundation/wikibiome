@@ -53,7 +53,7 @@ Ferroptosis -- iron-dependent regulated cell death driven by lipid peroxidation 
 
 - Ovarian cancer cells with high iron content are particularly vulnerable to ferroptosis induction
 - Erastin and RSL3 (GPX4 inhibitors) trigger ferroptosis in cisplatin-resistant ovarian cancer cells
-- Combination of ferroptosis inducers with conventional chemotherapy may overcome platinum resistance
+- Combination of ferroptosis inducers with conventional chemotherapy may overcome [[platinum]] resistance
 - The cystine/glutamate antiporter (system Xc-) is a key target; its inhibition depletes glutathione and sensitizes cells to ferroptosis
 - Iron chelation paradoxically reduces ferroptosis susceptibility, confirming iron's central role
 - See [[ferroptosis]] for detailed pathway mechanisms
@@ -89,7 +89,7 @@ Ferroptosis -- iron-dependent regulated cell death driven by lipid peroxidation 
 
 ## Open Questions
 
-1. Can ferroptosis-inducing agents overcome platinum resistance in recurrent ovarian cancer?
+1. Can ferroptosis-inducing agents overcome [[platinum]] resistance in recurrent ovarian cancer?
 2. Does the ovarian tumor microbiome composition predict chemotherapy response?
 3. What is the relative contribution of Cd metalloestrogen signaling vs. genetic/hormonal risk factors?
 4. Can peritoneal microbiome profiling improve early detection through liquid biopsy of ascitic fluid?

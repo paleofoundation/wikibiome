@@ -1,5 +1,4 @@
 ---
-
 title: "Integrated plasma metabolomics and lipidomics profiling highlight distinctive signatures with Hashimoto's thyroiditis"
 type: source
 created: 2026-04-09
@@ -13,6 +12,7 @@ platform: wikibiome
 karen_brain_primitives: [9]
 metals_discussed: []
 taxa_discussed: []
+evidence_level: animal-model
 ---
 
 # Integrated plasma metabolomics and lipidomics profiling highlight distinctive signatures with Hashimoto's thyroiditis

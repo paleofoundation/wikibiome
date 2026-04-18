@@ -1,5 +1,4 @@
 ---
-
 title: "Salivary microbiome with gastroesophageal reflux disease and treatment"
 type: source
 created: 2026-04-09
@@ -10,13 +9,15 @@ year: 2021
 doi: "10.1038/s41598-020-80170-y"
 tags: [gerd, gastroesophageal-reflux, salivary-microbiome, oral-microbiome, proton-pump-inhibitors, prevotella-melaninogenica, prevotella-pallens, leptotrichia, solobacterium-moorei, dysbiosis, 16s-rrna, microbiome-signature, dental-health]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [lachnospiraceae, porphyromonas, prevotella]
 ---
 
 # Salivary microbiome with gastroesophageal reflux disease and treatment
 
 ## Key Claims
 
-- Untreated [[gerd]] patients showed multiple differences in [[salivary microbiome]] compared to healthy controls, with 17 species and subgenera at different levels (FDR < 0.1)
+- Untreated [[gerd]] patients showed multiple differences in [[biofilm|salivary microbiome]] compared to healthy controls, with 17 species and subgenera at different levels (FDR < 0.1)
 - Four taxa were found at lower levels in GERD patients not treated by PPI: *[[Prevotella melaninogenica]]*, *[[Prevotella pallens]]*, *[[Solobacterium moorei]]*, and *[[leptotrichia]]*
 - GERD patients chronically using PPI showed salivary microbiome profiles similar to negative controls, suggesting PPI restores oral microbial balance
 - The presence of GERD is associated with acidic saliva (pH 4.9) versus near-neutral pH of 6.5 in healthy subjects, driving microbial shifts

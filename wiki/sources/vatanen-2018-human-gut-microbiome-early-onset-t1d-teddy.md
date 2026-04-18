@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, teddy-study, gut-microbiome, longitudinal, e
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["T1D is an autoimmune disease targeting pancreatic beta cells", "TEDDY study is the largest longitudinal gut microbiome study", "Species and deficiency of bacteria producing SCFAs"]
 ---
 
 # Key Claims

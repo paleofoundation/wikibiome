@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Virome Profiling Identifies a Widespread Bacteriophage Family Associated with Metabolic Syndrome"
 type: source
 created: 2026-04-09
@@ -12,6 +11,9 @@ tags: [cardiovascular-disease, virome, bacteriophages, metabolic-syndrome, Candi
 source_pdf: "raw/cardiovascular disease/Virome cardiovascular disease/s41467-022-31390-5.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: case-control
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+key_findings: ["Candidatus Heliusviridae"]
 ---
 
 # Key Claims
@@ -33,8 +35,8 @@ platform: wikibiome
 # Connections
 
 - Landmark study establishing [[virome]] alterations in metabolic syndrome relevant to [[cardiovascular-disease]]
-- *Ca.* Heliusviridae as widespread MetS-associated phage family extends [[microbial biomarkers]]
-- Phage-bacteria interaction dynamics inform [[microbiome-host interactions]] and [[phage therapy]] design
-- *Crassvirales* depletion in MetS connects to [[viral dysbiosis]] in cardiometabolic disease
-- Complement to bacterial findings in [[Walker 2021 - Framingham Gut Microbiome]] on MetS
-- VLP vs bulk virome methodology relevant to [[shotgun metagenomics]] approaches
+- *Ca.* Heliusviridae as widespread MetS-associated phage family extends [[microbial-biomarkers]]
+- Phage-bacteria interaction dynamics inform [[gut-metal-microbiome|microbiome-host interactions]] and [[virome]] design
+- *Crassvirales* depletion in MetS connects to [[viral-microbiota|viral dysbiosis]] in cardiometabolic disease
+- Complement to bacterial findings in [[walker-2021-framingham-gut-microbiome-cardiometabolic|Walker 2021 - Framingham Gut Microbiome]] on MetS
+- VLP vs bulk virome methodology relevant to [[shotgun-metagenomics|shotgun metagenomics]] approaches

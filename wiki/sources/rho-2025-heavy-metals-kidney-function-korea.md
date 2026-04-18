@@ -1,5 +1,4 @@
 ---
-
 title: "A Comparative Study on the Paradoxical Relationship Between Heavy Metal Exposure and Kidney Function"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2025
 tags: [heavy-metals, kidney-function, eGFR, lead, mercury, cadmium, CKD, Korea, KoNEHS, vulnerable-populations]
 doi: "10.1352/1934-9556-59.6.459"
 platform: wikibiome
+metals_discussed: [cadmium, lead, mercury]
 ---
 
 # A Comparative Study on the Paradoxical Relationship Between Heavy Metal Exposure and Kidney Function

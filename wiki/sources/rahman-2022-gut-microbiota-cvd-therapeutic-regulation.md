@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut Microbiota (Microbiome) in Cardiovascular Disease and Its Therapeutic Regulation"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2022
 doi: 10.3389/fcimb.2022.903570
 tags: [cardiovascular-disease, CVD, gut-microbiome, TMAO, SCFAs, atherosclerosis, heart-failure, coronary-artery-disease, review, therapeutic-regulation, bile-acids]
 platform: wikibiome
+metals_discussed: [cadmium, lead]
+taxa_discussed: [blautia, enterococcus, escherichia-coli, eubacterium, faecalibacterium-prausnitzii, prevotella, roseburia, shigella]
+karen_brain_primitives: [1, 5]
 ---
 
 # The Gut Microbiota (Microbiome) in Cardiovascular Disease and Its Therapeutic Regulation
@@ -57,4 +59,4 @@ This review connects to the [[gut-metal-microbiome]] model by:
 1. **Butyrate-producing bacteria depletion** - The consistent loss of *Roseburia*, *Faecalibacterium*, and *Eubacterium rectale* in CAD mirrors the taxa most vulnerable to [[cadmium]] and [[lead]] exposure
 2. **TMAO as metal-microbiome mediator** - Since heavy metals promote [[dysbiosis]] favoring TMA-producing bacteria, the TMAO-CVD pathway may be a key mechanism by which metal exposure increases cardiovascular risk
 3. **LPS translocation** - Metal-induced intestinal barrier damage would amplify the LPS-TLR4-NF-kB [[inflammation]] cascade described as central to atherosclerosis
-4. **[[Metabolic-syndrome]] connection** - The F/B ratio disruption seen in CVD parallels patterns observed with metal exposure
+4. **[[metabolic-syndrome]] connection** - The F/B ratio disruption seen in CVD parallels patterns observed with metal exposure

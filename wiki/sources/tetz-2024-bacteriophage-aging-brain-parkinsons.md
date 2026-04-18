@@ -11,6 +11,8 @@ tags: [parkinsons-disease, bacteriophages, aging, neuroinflammation, phage-thera
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1]
 ---
 
 # The Impact of Bacteriophage on the Aging Brain and Inflammatory Response: Relevance to Parkinson's Disease
@@ -24,7 +26,7 @@ This study examines how [[bacteriophages]] influence brain aging and [[neuroinfl
 - Bacteriophages can translocate across the gut barrier and reach the brain via the bloodstream
 - Phage particles activate innate immune responses in brain tissue, triggering [[neuroinflammation]]
 - Aging increases susceptibility to phage-induced neuroinflammatory responses
-- Phage-derived nucleic acids activate [[TLR9]] in microglia, promoting pro-inflammatory cytokine release
+- Phage-derived nucleic acids activate [[toll-like-receptors|TLR9]] in microglia, promoting pro-inflammatory cytokine release
 - The gut phageome composition changes with aging, paralleling increased PD risk
 - Phage translocation may contribute to the chronic low-grade [[neuroinflammation]] observed in prodromal PD
 

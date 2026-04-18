@@ -9,6 +9,7 @@ journal: "Aging Clinical and Experimental Research"
 doi: "10.1007/s40520-023-02645-y"
 tags: [chronic-kidney-disease, CKD, intestinal-flora, cognitive-function, hemodialysis, shotgun-metagenomics, 16S-rRNA, Roseburia]
 platform: wikibiome
+taxa_discussed: [bifidobacterium, faecalibacterium-prausnitzii, roseburia]
 ---
 
 # Intestinal Flora and Cognitive Function in Hemodialysis Patients

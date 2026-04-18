@@ -1,5 +1,4 @@
 ---
-
 title: "An Investigation of the Pattern and Mechanism of Comorbidity in Patients with Hashimoto's Thyroiditis"
 type: source
 created: 2026-04-09
@@ -10,7 +9,7 @@ year: 2025
 doi: "10.3389/fendo.2025.1615095"
 tags: [hashimotos-thyroiditis, thyroid, comorbidities, thyroid-nodules, breast-hyperplasia, uterine-leiomyomas, network-pharmacology, AKT1, TP53, EGFR, PI3K-Akt-pathway, levothyroxine]
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [7]
 metals_discussed: []
 taxa_discussed: []
 evidence_level: computational-prediction
@@ -20,11 +19,11 @@ evidence_level: computational-prediction
 
 ## Key Claims
 
-- Among 429 patients with HT, 348 (81.19%) had comorbidities; the most prevalent were [[thyroid nodules]] (TN, 53.1%), hyperplasia of the mammary gland (HMG, 47.3%), [[uterine leiomyomas]] (UL, 24.2%), and benign breast nodules (BN, 23.5%)
+- Among 429 patients with HT, 348 (81.19%) had comorbidities; the most prevalent were [[hashimotos-thyroiditis|thyroid nodules]] (TN, 53.1%), hyperplasia of the mammary gland (HMG, 47.3%), [[endometriosis|uterine leiomyomas]] (UL, 24.2%), and benign breast nodules (BN, 23.5%)
 - Association rule analysis identified TN as the core binary comorbidity; TN + HMG was central to ternary comorbidities; TN + HMG + UL characterized quaternary comorbidities
 - Female patients with HT were 6.242 times more likely to have comorbidities than male counterparts
-- [[Levothyroxine]] (L-T4) therapy was linked to reduced risk of comorbidities, attributed to correcting hypothyroid state and reducing TSH-driven tissue overstimulation
-- Core targets associated with comorbidity prediction included [[AKT1]], [[TP53]], [[EGFR]], INS, and TNF; key pathways were the cancer pathway and [[PI3K-Akt signaling pathway]]
+- [[gut-thyroid-axis|Levothyroxine]] (L-T4) therapy was linked to reduced risk of comorbidities, attributed to correcting hypothyroid state and reducing TSH-driven tissue overstimulation
+- Core targets associated with comorbidity prediction included [[metal-carcinogenesis|AKT1]], [[metal-carcinogenesis|TP53]], [[metal-carcinogenesis|EGFR]], INS, and TNF; key pathways were the cancer pathway and [[metal-carcinogenesis|PI3K-Akt signaling pathway]]
 - Estrogen receptors present in thyroid, breast, and uterine tissues suggest fluctuations in estrogen may significantly contribute to the comorbidity pattern in female HT patients
 
 ## Methods/Findings

@@ -38,7 +38,7 @@ Narrative review of microbiota–male-reproductive axis across spermatogenesis, 
 ## Relevance to WikiBiome
 
 - **Entity pages:** [[desulfovibrio]], [[lactobacillus]], [[clostridium]], [[bifidobacterium]], [[zinc]], [[calcium]].
-- **Concept pages:** [[hydrogen-sulfide]], [[cgmp-pathway]], [[gut-penis-axis]].
+- **Concept pages:** [[fermentative-metabolism|hydrogen-sulfide]], [[cardiovascular-disease|cgmp-pathway]], [[gut-penis-axis]].
 - **Signature page:** [[erectile-dysfunction-signature]] — adds H2S and micronutrient layers.
 
 ## Relevance to Cureva

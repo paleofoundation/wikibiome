@@ -83,7 +83,7 @@ Unlike [[lead]], [[cadmium]], or [[arsenic]], bismuth contributes negligible bac
 - [[nickel]] -- Urease active site that bismuth inactivates
 - [[siderophores-metallophores]] -- The uptake systems bismuth exploits
 - [[helicobacter-pylori]] -- Primary clinical target
-- [[cefiderocol]] -- Siderophore-antibiotic synergy partner
+- [[antimicrobial-resistance|cefiderocol]] -- Siderophore-antibiotic synergy partner
 - [[biofilm]] -- Disrupted by bismuth-iron competition
 - [[antimicrobial-resistance]] -- Bismuth combinations suppress resistance evolution
 - [[pseudomonas-aeruginosa]] -- Target pathogen for bismuth-cefiderocol synergy

@@ -1,5 +1,4 @@
 ---
-
 title: "The effectiveness of iron supplementation for postpartum depression: A protocol for systematic review and meta-analysis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2020
 tags: [iron, supplementation, postpartum-depression, systematic-review-protocol, meta-analysis-protocol, RCT, EPDS]
 doi: "10.1097/MNM.0000000000001640"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, zinc]
 ---
 
 # Key Claims
@@ -37,6 +38,6 @@ platform: wikibiome
 - Directly motivated by evidence from [[azami-2019-anemia-ppd-meta-analysis]] showing anemia-PPD association
 - Complements [[etebary-2010-ppd-serum-trace-elements]] which reviewed iron's role in PPD pathophysiology
 - Relevant to [[aoki-2022-zinc-supplementation-ppd-anemia]] which found that adding Zn to Fe supplementation was beneficial for PPD but showed transient hematological interaction
-- Addresses the clinical question of whether [[iron supplementation]] can prevent or treat [[postpartum-depression]]
+- Addresses the clinical question of whether [[iron-management|iron supplementation]] can prevent or treat [[postpartum-depression]]
 - The protocol's focus on RCTs represents a higher level of evidence than observational studies in [[azami-2019-anemia-ppd-meta-analysis]]
-- Links to broader [[metals and mental health]] literature on nutritional interventions
+- Links to broader [[heavy-metal-neurotoxicity|metals and mental health]] literature on nutritional interventions

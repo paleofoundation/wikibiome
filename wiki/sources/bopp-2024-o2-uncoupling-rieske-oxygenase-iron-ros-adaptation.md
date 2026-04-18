@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, iron, non-heme-iron, Rieske-oxygenase,
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "iron enzyme evolution under oxidative stress"
+evidence_level: in-vitro
+metals_discussed: [iron]
+karen_brain_primitives: [1, 3, 4, 9]
+key_findings: ["O2 uncoupling"]
 ---
 
 # Why This Paper Matters
@@ -55,5 +59,5 @@ This paper demonstrates that **oxidative stress from reactive oxygen species (RO
 - [[oxidative-stress]] -- ROS from O2 uncoupling as selective force driving enzyme evolution
 - [[metal-homeostasis]] -- cellular buffering of metal-generated ROS has limits
 - [[iron-sulfur-clusters]] -- Rieske [2Fe-2S] cluster transfers electrons to the mononuclear Fe site
-- [[Fenton-chemistry]] -- H2O2 produced by uncoupling can drive secondary Fenton reactions with free Fe
+- [[fenton-chemistry]] -- H2O2 produced by uncoupling can drive secondary Fenton reactions with free Fe
 - [[antimicrobial-resistance]] -- parallels between ROS-driven enzyme evolution and antibiotic resistance

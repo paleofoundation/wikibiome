@@ -7,6 +7,9 @@ sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, duan-202
 tags: [iron, diet, gut-microbiome, nutritional-immunity, siderophores, heme-iron, non-heme-iron, selective-pressure]
 platform: wikibiome
 karen_brain_primitive: "Primitive 1: Metals as Selective Pressures"
+karen_brain_primitives: [1, 2, 4, 5, 8]
+seo_target: "dietary iron and gut ecology"
+last_substantive_update: 2026-04-11
 ---
 
 # Dietary Iron and Gut Ecology

@@ -1,5 +1,4 @@
 ---
-
 title: "Crohn's Disease in Endoscopic Remission, Obesity, and Cases of High Genetic Risk Demonstrate Overlapping Shifts in the Colonic Mucosal-Luminal Interface Microbiome"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2022
 tags: [crohns-disease, IBD, mucosal-microbiome, obesity, polygenic-risk-score, dysbiosis, metabolomics, Escherichia-Shigella, Fusobacterium, disease-progression, bile-acids]
 doi: "10.1186/s13073-022-01099-7"
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [escherichia-coli, faecalibacterium-prausnitzii, fusobacterium-nucleatum, mycoplasma, shigella]
 ---
 
 # Key Claims
@@ -38,5 +39,5 @@ platform: wikibiome
 - [[faecalibacterium-prausnitzii]] depletion confirmed at the mucosal level, not just fecal
 - Bile acid metabolism alterations connect to [[gut-metal-microbiome]] through shared microbial metabolic pathways
 - Obesity-CD microbiome overlap relevant to understanding comorbidity burden in IBD
-- Complements [[Yang et al. 2024|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]] on genetic risk modulating CD microbiome
+- Complements [[yang-2024-causal-gut-microbiota-cervical-cancer-mr|yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]] on genetic risk modulating CD microbiome
 - [[crohns-disease]]

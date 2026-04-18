@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Riley A McFarlane, Jana N Radin, Rafat Mazgaj, Kevin J Waldron, David Lalaouna, Thomas E Kehl-Fie, Marthie M Ehlers]
 year: 2025
 journal: "mBio"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12421985) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: mBio 2025 -->
 pmcid: "PMC12421985"
 tags: [mismetallation, metal-homeostasis, manganese, iron, superoxide-dismutase, small-RNA, nutritional-immunity, calprotectin, staphylococcus-aureus, oxidative-stress, metal-sparing, virulence]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "sRNA-mediated manganese sparing during host-imposed metal starvation"
+metals_discussed: [iron, manganese]
+taxa_discussed: [escherichia-coli, helicobacter-pylori, staphylococcus-aureus]
+karen_brain_primitives: [2, 3, 4]
+key_findings: ["RsaC is a small RNA", "RsaC suppresses SodA translation"]
 ---
 
 # Why This Paper Matters
@@ -83,4 +87,4 @@ These parallels suggest sRNAs may broadly coordinate bacterial responses to inor
 - [[iron]] -- Fe substitution for Mn in enzymes as adaptive response
 - [[gene-regulation]] -- sRNA-mediated post-transcriptional metal sparing response
 - [[metal-homeostasis]] -- MntR metalloregulator controlling mntABC-rsaC operon
-- [[virulence]] -- RsaC required for pathogenesis in tissue-specific Mn-limited environments
+- [[virulence-factors|virulence]] -- RsaC required for pathogenesis in tissue-specific Mn-limited environments

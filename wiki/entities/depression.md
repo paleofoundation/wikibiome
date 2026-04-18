@@ -34,7 +34,7 @@ Serum copper and ceruloplasmin are elevated in depression, creating a high Cu/Zn
 - Free (non-ceruloplasmin-bound) copper generates hydroxyl radicals via Fenton chemistry → [[oxidative-stress]]
 - Copper excess inhibits GABAergic neurotransmission
 - The Cu/Zn ratio may be a better biomarker than either metal alone
-- [[Mis-metallation]] of cuproenzymes (MAO, DBH, tyrosinase) disrupts monoamine metabolism
+- [[mis-metallation]] of cuproenzymes (MAO, DBH, tyrosinase) disrupts monoamine metabolism
 
 ### Iron -- The Fatigue Connection
 Iron deficiency (with or without anemia) is a major contributor to depression, particularly in women:
@@ -59,7 +59,7 @@ Depression is increasingly recognized as a gut-brain disorder:
 
 ### Tryptophan Shunting
 The IDO (indoleamine 2,3-dioxygenase) pathway is central:
-- [[Inflammation]] (IFN-gamma, TNF-alpha) upregulates IDO in macrophages and microglia
+- [[inflammation]] (IFN-gamma, TNF-alpha) upregulates IDO in macrophages and microglia
 - IDO diverts tryptophan from serotonin synthesis → kynurenine pathway; depressed patients show significantly elevated kynurenine/tryptophan ratio (p = 0.008) versus controls [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
 - Kynurenine → quinolinic acid (neurotoxic NMDA agonist) vs. kynurenic acid (neuroprotective)
 - Metal-driven inflammation biases toward the neurotoxic branch
@@ -71,12 +71,12 @@ Increased [[intestinal-permeability]] in depression permits LPS translocation �
 ## Comorbidity Web
 
 Depression co-occurs with virtually every disease in this wiki, amplified by shared metal and microbiome mechanisms:
-- [[Inflammatory-bowel-disease]] -- 30% comorbid depression; shared inflammation and dysbiosis
-- [[Chronic-kidney-disease]] -- depression prevalence 20-40%; shared cadmium, lead pathways
-- [[Parkinsons-disease]] -- depression precedes motor symptoms; shared iron dysregulation
-- [[Type-2-diabetes]] -- bidirectional relationship; shared zinc depletion, inflammation
-- [[Cardiovascular-disease]] -- shared lead exposure, inflammation, microbiome disruption
-- [[Hashimotos-thyroiditis]] -- selenium/iodine imbalance affects mood and thyroid together
+- [[inflammatory-bowel-disease]] -- 30% comorbid depression; shared inflammation and dysbiosis
+- [[chronic-kidney-disease]] -- depression prevalence 20-40%; shared cadmium, lead pathways
+- [[parkinsons-disease]] -- depression precedes motor symptoms; shared iron dysregulation
+- [[type-2-diabetes]] -- bidirectional relationship; shared zinc depletion, inflammation
+- [[cardiovascular-disease]] -- shared lead exposure, inflammation, microbiome disruption
+- [[hashimotos-thyroiditis]] -- selenium/iodine imbalance affects mood and thyroid together
 
 <!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 

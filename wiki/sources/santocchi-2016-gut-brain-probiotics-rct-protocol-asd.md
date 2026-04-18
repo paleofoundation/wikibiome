@@ -11,6 +11,9 @@ tags: [autism-spectrum-disorder, probiotics, RCT-protocol, gastrointestinal-symp
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: randomized-controlled-trial
+karen_brain_primitives: [5]
+key_findings: ["GI disturbances in ASD", "Probiotic supplementation", "Phthalate concentrations"]
 ---
 
 # Key Claims

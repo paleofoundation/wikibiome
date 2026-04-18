@@ -9,6 +9,8 @@ journal: "Journal of Renal Nutrition"
 doi: "10.1053/j.jrn.2016.07.005"
 tags: [chronic-kidney-disease, CKD, uremic-toxins, indoxyl-sulfate, p-cresyl-sulfate, calprotectin, IL-6, MCP-1, inflammation]
 platform: wikibiome
+evidence_level: cross-sectional
+karen_brain_primitives: [2]
 ---
 
 # Protein-Bound Uremic Toxins and Inflammatory Markers in CKD

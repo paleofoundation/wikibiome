@@ -1,5 +1,4 @@
 ---
-
 title: "Dietary Nickel as a Cause of Systemic Contact Dermatitis"
 type: source
 created: 2026-04-09
@@ -11,6 +10,7 @@ tags: [dietary-nickel, systemic-contact-dermatitis, nickel-allergy, low-nickel-d
 doi: "10.2196/47913"
 platform: wikibiome
 evidence_level: expert-opinion
+metals_discussed: [iron, nickel]
 ---
 
 # Dietary Nickel as a Cause of Systemic Contact Dermatitis

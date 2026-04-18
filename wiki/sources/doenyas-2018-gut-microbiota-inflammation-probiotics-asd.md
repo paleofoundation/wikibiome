@@ -12,6 +12,10 @@ library_category: "Microbiome and inflammation"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 271-286"
+evidence_level: animal-model
+taxa_discussed: [bacteroides-fragilis]
+karen_brain_primitives: [5]
+key_findings: ["Gene expression"]
 ---
 
 # Overview

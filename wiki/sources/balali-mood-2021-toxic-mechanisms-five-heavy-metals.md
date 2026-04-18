@@ -91,11 +91,11 @@ why_keystone: "Synthesizes the carcinogenic and neurotoxic mechanisms of mercury
 
 # Connections
 
-- Foundational reference for [[metal-toxicology]] mechanisms across all five metals
-- [[oxidative-stress|oxidative stress]] as unifying mechanism connects to [[Khan & Wang 2020|khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome]] autoimmune disease framework
-- Lead-heme biosynthesis disruption relevant to [[Lead Toxicity]] and anemia
-- Chromium carcinogenicity connects to [[nickel-toxicity]] (shared carcinogenic mechanisms via epigenetics)
-- Cadmium-metallothionein pathway connects to [[Breton et al. 2016|breton-2016-cadmium-lead-oral-exposure-colitis]] MT induction findings
-- Arsenic mechanisms complement [[Coryell et al. 2018|coryell-2018-gut-microbiome-arsenic-toxicity-protection]] microbiome protection studies
-- Epigenetic mechanisms parallel nickel's effects described in [[Genchi et al. 2020|genchi-2020-nickel-human-health-environmental-toxicology]]
+- Foundational reference for [[heavy-metals|metal-toxicology]] mechanisms across all five metals
+- [[oxidative-stress|oxidative stress]] as unifying mechanism connects to [[Khan & Wang 2020|khan-2020-environmental-exposures-autoimmune-gut-microbiome]] autoimmune disease framework
+- Lead-heme biosynthesis disruption relevant to [[lead|Lead Toxicity]] and anemia
+- Chromium carcinogenicity connects to [[nickel-allergy|nickel-toxicity]] (shared carcinogenic mechanisms via epigenetics)
+- Cadmium-metallothionein pathway connects to [[breton-2016-cadmium-lead-oral-exposure-colitis|breton-2016-cadmium-lead-oral-exposure-colitis]] MT induction findings
+- Arsenic mechanisms complement [[coryell-2018-gut-microbiome-arsenic-toxicity-protection|coryell-2018-gut-microbiome-arsenic-toxicity-protection]] microbiome protection studies
+- Epigenetic mechanisms parallel nickel's effects described in [[genchi-2020-cadmium-toxicity|genchi-2020-nickel-human-health-environmental-toxicology]]
 - Table 1 provides comprehensive organ toxicity and mechanism summary for all five metals

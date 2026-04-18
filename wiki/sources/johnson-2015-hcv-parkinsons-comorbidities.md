@@ -11,6 +11,8 @@ tags: [parkinsons-disease, hepatitis-C, comorbidities, viral-infection, neuroinf
 library_category: associated-conditions
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron]
+karen_brain_primitives: [1, 2]
 ---
 
 # Hepatitis C Virus and Parkinson's Disease Comorbidity

@@ -11,6 +11,8 @@ tags: [autism, healthcare, interventions, accessibility, review]
 library_category: causal
 platform: wikibiome
 condition: "autism spectrum disorder"
+evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Overview

@@ -9,6 +9,9 @@ journal: "Food & Function"
 doi: "10.1039/d6fo00213g"
 tags: [schizophrenia, ketogenic-diet, FMT, prepulse-inhibition, NMDA-receptor, MK-801, sensorimotor-gating, gut-microbiota, beta-hydroxybutyrate, mice-model, gut-brain-axis]
 platform: wikibiome
+evidence_level: animal-model
+karen_brain_primitives: [2, 5]
+key_findings: ["Ketogenic diet-derived FMT"]
 ---
 
 # Why This Paper Matters
@@ -54,9 +57,9 @@ This is the first study to demonstrate that **fecal microbiota transplantation f
 # Connections
 
 - [[schizophrenia]] -- first evidence that KD benefits are partly microbiome-mediated
-- [[FMT]] -- KD-derived FMT as novel therapeutic approach
+- [[fmt-intervention]] -- KD-derived FMT as novel therapeutic approach
 - [[ketogenic-diet]] -- microbial vs. metabolic mechanisms of KD effects
 - [[gut-brain-axis]] -- microbiota-dependent modulation of sensorimotor gating
-- [[NMDA-receptor]] -- MK-801 model of glutamatergic hypofunction
-- [[gut-microbiota]] -- KD-shaped microbiome can transfer behavioral effects
-- [[prepulse-inhibition]] -- sensorimotor gating as translational SCZ biomarker
+- [[neuroinflammation|NMDA-receptor]] -- MK-801 model of glutamatergic hypofunction
+- [[gut-microbiome]] -- KD-shaped microbiome can transfer behavioral effects
+- [[schizophrenia|prepulse-inhibition]] -- sensorimotor gating as translational SCZ biomarker

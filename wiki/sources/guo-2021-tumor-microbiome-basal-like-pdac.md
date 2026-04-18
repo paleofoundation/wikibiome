@@ -1,5 +1,4 @@
 ---
-
 title: "Tumor microbiome contributes to an aggressive phenotype in the basal-like subtype of pancreatic cancer"
 type: source
 created: 2026-04-09
@@ -10,14 +9,15 @@ year: 2021
 tags: [pancreatic-cancer, tumor-microbiome, microbiome-signature, basal-like-subtype, Acinetobacter, Pseudomonas, Sphingopyxis, metagenomics, inflammation, PDAC-subtypes]
 doi: "10.1038/s42003-021-02557-5"
 platform: wikibiome
+taxa_discussed: [acinetobacter, pseudomonas-aeruginosa]
 ---
 
 # Key Claims
 
-- The tumor [[microbiome]] differs significantly across PDAC molecular subtypes, with basal-like tumors harboring distinctive microbial communities enriched in *Acinetobacter*, *Pseudomonas*, and *Sphingopyxis*
+- The tumor [[gut-microbiome|microbiome]] differs significantly across PDAC molecular subtypes, with basal-like tumors harboring distinctive microbial communities enriched in *Acinetobacter*, *Pseudomonas*, and *Sphingopyxis*
 - Higher abundance of these three bacterial genera predicted significantly worse outcomes for PDAC patients
 - Functional characterization of microbial genes suggested potential to induce pathogen-related [[inflammation]]
-- Host genetics influence the tumor microbiome composition, demonstrating [[microbiome-host interactions]] in shaping tumor biology
+- Host genetics influence the tumor microbiome composition, demonstrating [[gut-metal-microbiome|microbiome-host interactions]] in shaping tumor biology
 
 # Methods/Findings
 
@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Connections
 
-- Basal-like tumor [[microbiome composition]] links to [[microbiome and disease progression]] through inflammation induction
-- *Pseudomonas* abundance associated with short-term survival parallels findings in [[microbiome signature]] studies
-- Tumor microbiome shaping of immune cell infiltration relevant to [[microbiome-host interactions]] and immunotherapy
-- Functional microbiome shifts in amino acid and carbohydrate metabolism connect to [[metabolic pathways]] research
+- Basal-like tumor [[dysbiosis|microbiome composition]] links to [[dysbiosis|microbiome and disease progression]] through inflammation induction
+- *Pseudomonas* abundance associated with short-term survival parallels findings in [[microbial-biomarkers|microbiome signature]] studies
+- Tumor microbiome shaping of immune cell infiltration relevant to [[gut-metal-microbiome|microbiome-host interactions]] and immunotherapy
+- Functional microbiome shifts in amino acid and carbohydrate metabolism connect to [[fermentative-metabolism|metabolic pathways]] research

@@ -1,5 +1,4 @@
 ---
-
 title: "Physical Activity, Immune System, and the Microbiome in Cardiovascular Disease"
 type: source
 created: 2026-04-09
@@ -12,6 +11,8 @@ tags: [cardiovascular-disease, physical-activity, immune-response, microbiome, a
 source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease microbiome/Physical activity, immune system, and the microbiome in cardiovascular disease.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, collinsella, eubacterium, roseburia]
 ---
 
 # Key Claims
@@ -32,9 +33,9 @@ platform: wikibiome
 
 # Connections
 
-- Links [[immune response]] to [[microbiome and inflammation]] in cardiovascular disease through exercise
-- CANTOS trial evidence connects to [[microbiome and immune system]] therapeutic targets
-- *Collinsella* as atherosclerosis marker relevant to [[microbial biomarkers]] for CVD
-- Exercise-microbiome interaction extends [[functional microbiome shifts]] understanding
-- TMAO and microbial metabolite production during exercise relevant to [[metabolic pathways]] in CVD
+- Links [[inflammation|immune response]] to [[inflammation|microbiome and inflammation]] in cardiovascular disease through exercise
+- CANTOS trial evidence connects to [[inflammation|microbiome and immune system]] therapeutic targets
+- *Collinsella* as atherosclerosis marker relevant to [[microbial-biomarkers]] for CVD
+- Exercise-microbiome interaction extends [[dysbiosis|functional microbiome shifts]] understanding
+- TMAO and microbial metabolite production during exercise relevant to [[fermentative-metabolism|metabolic pathways]] in CVD
 - Cytokine regulation table is a key reference for [[inflammation]] mechanisms in atherosclerosis

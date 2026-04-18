@@ -9,6 +9,7 @@ journal: "Acta Clinica Croatica"
 doi: "10.20471/acc.2021.60.s1.16"
 tags: [chronic-kidney-disease, CKD, probiotics, fiber-rich-diet, anti-inflammatory, eGFR, CRP, time-restricted-eating]
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Probiotics and High Fiber-Rich Diets Decline CKD Progression

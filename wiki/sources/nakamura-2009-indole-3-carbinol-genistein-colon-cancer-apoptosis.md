@@ -1,5 +1,4 @@
 ---
-
 title: "A combination of indole-3-carbinol and genistein synergistically induces apoptosis in human colon cancer HT-29 cells by inhibiting Akt phosphorylation and progression of autophagy"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2009
 doi: "10.1186/1476-4598-8-100"
 tags: [colon-cancer, colorectal-cancer, indole-3-carbinol, I3C, genistein, apoptosis, autophagy, Akt, mTOR, caspase, XIAP, survivin, synergistic, phytochemicals, HT-29]
 platform: wikibiome
+evidence_level: in-vitro
 ---
 
 # Nakamura 2009 -- I3C and Genistein Synergistically Induce Apoptosis in Colon Cancer

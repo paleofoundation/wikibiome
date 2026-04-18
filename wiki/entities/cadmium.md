@@ -43,7 +43,7 @@ The vicious cycle:
 
 ## Metalloestrogen Activity (ERa Binding)
 
-Cadmium is the most potent known metalloestrogen. It binds [[estrogen-receptor]] alpha (ERa) with a dissociation constant (Kd) of approximately **4.5 x 10^-10 M** (picomolar affinity), near-equivalent to estradiol's affinity [[aquino-2012-cadmium-nickel-metalloestrogens]]. This binding:
+Cadmium is the most potent known metalloestrogen. It binds [[estrobolome|estrogen-receptor]] alpha (ERa) with a dissociation constant (Kd) of approximately **4.5 x 10^-10 M** (picomolar affinity), near-equivalent to estradiol's affinity [[aquino-2012-cadmium-nickel-metalloestrogens]]. This binding:
 
 - Activates ER target genes (CycD1, c-myc, CTD) in breast cancer cell lines at concentrations as low as 1 uM [[aquino-2012-cadmium-nickel-metalloestrogens]]
 - Also activates the membrane-bound estrogen receptor GPR30/GPER, inducing proliferative responses via ERK-1/2 at 50-500 nM in ER-negative cells

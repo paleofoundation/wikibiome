@@ -9,6 +9,8 @@ year: 2021
 doi: "10.3389/fendo.2021.794496"
 tags: [ovarian-cancer, premature-ovarian-insufficiency, HRT, gut-microbiome, Eggerthella, TGF-beta1, serum-metabolome, ovarian-fibrosis]
 platform: wikibiome
+evidence_level: animal-model
+karen_brain_primitives: [7]
 ---
 
 # HRT Reverses Gut Microbiome and Serum Metabolome in POI

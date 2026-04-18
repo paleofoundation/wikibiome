@@ -10,6 +10,9 @@ doi: "10.3389/fcimb.2024.1440742"
 tags: [ovarian-cancer, microbiome, inflammatory-microenvironment, Clostridium, Propionibacterium, immune-cells, Lactobacillus, tumor-associated-macrophages]
 platform: wikibiome
 evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [clostridium, lactobacillus, propionibacterium]
+karen_brain_primitives: [1]
 ---
 
 # The OC-Associated Microbiome and the Tumor's Inflammatory Microenvironment

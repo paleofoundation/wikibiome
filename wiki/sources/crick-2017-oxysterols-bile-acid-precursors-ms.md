@@ -1,5 +1,4 @@
 ---
-
 title: "Reduced Plasma Levels of 25-Hydroxycholesterol and Increased Cerebrospinal Fluid Levels of Bile Acid Precursors in Multiple Sclerosis Patients"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2017
 doi: 10.1007/s12035-016-0281-9
 tags: [multiple-sclerosis, oxysterols, bile-acids, 25-hydroxycholesterol, cholesterol, LXR, demyelination, CSF, plasma, sterol-metabolism]
 platform: wikibiome
+evidence_level: cross-sectional
 ---
 
 # Reduced Plasma Levels of 25-Hydroxycholesterol and Increased Cerebrospinal Fluid Levels of Bile Acid Precursors in Multiple Sclerosis Patients
@@ -42,7 +42,7 @@ This study measured over 20 non-esterified sterols in plasma and CSF from MS pat
 
 This study connects to the [[gut-metal-microbiome]] model through:
 
-1. **[[bile-acids]] biosynthesis disruption** - the acidic pathway sterols elevated in CSF reflect demyelination-released cholesterol that cannot be properly metabolized, a process that depends on gut bacterial bile acid metabolism
+1. **[[bile-acid-metabolism]] biosynthesis disruption** - the acidic pathway sterols elevated in CSF reflect demyelination-released cholesterol that cannot be properly metabolized, a process that depends on gut bacterial bile acid metabolism
 2. **25-HC immunoregulation** - its reduction removes a brake on macrophage-driven [[inflammation]] in the CNS; [[heavy-metals]] are known to impair cholesterol hydroxylase activity
 3. **LXR pathway** - LXR activation is critical for remyelination; metal-induced disruption of oxysterol production could impair this repair mechanism
 4. **Bile acid precursor accumulation** in CSF suggests impaired conversion to mature bile acids, which requires gut bacterial enzymes disrupted by [[dysbiosis]]

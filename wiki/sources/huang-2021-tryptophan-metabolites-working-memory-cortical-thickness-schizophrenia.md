@@ -11,6 +11,9 @@ tags: [schizophrenia, tryptophan-metabolism, kynurenic-acid, 5-HI, quinolinic-ac
 library_category: indoles
 platform: serum
 condition: "Schizophrenia"
+evidence_level: cross-sectional
+metals_discussed: [iron, zinc]
+karen_brain_primitives: [1, 3, 4, 5]
 ---
 
 # Effects of neuroactive metabolites of the tryptophan pathway on working memory and cortical thickness in schizophrenia
@@ -31,7 +34,7 @@ This study measured serum levels of KYNA, 5-HI (5-hydroxyindole), and QUIN (quin
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This study directly links altered [[tryptophan-metabolism]] to cognitive dysfunction and brain structure in schizophrenia. The tryptophan-kynurenine pathway is substantially modulated by gut bacteria, making this a key [[gut-brain-axis]] mechanism. [[Dysbiosis]] can shift tryptophan catabolism toward kynurenine and KYNA production, contributing to NMDA receptor hypofunction. Heavy metals, particularly [[iron]] and [[zinc]], are cofactors in tryptophan-degrading enzymes (IDO, TDO), and [[mis-metallation]] could alter pathway flux. The findings support targeting [[tryptophan-metabolism]] through microbiome modulation, potentially via [[probiotics]] that restore healthy tryptophan processing.
+This study directly links altered [[tryptophan-metabolism]] to cognitive dysfunction and brain structure in schizophrenia. The tryptophan-kynurenine pathway is substantially modulated by gut bacteria, making this a key [[gut-brain-axis]] mechanism. [[dysbiosis]] can shift tryptophan catabolism toward kynurenine and KYNA production, contributing to NMDA receptor hypofunction. Heavy metals, particularly [[iron]] and [[zinc]], are cofactors in tryptophan-degrading enzymes (IDO, TDO), and [[mis-metallation]] could alter pathway flux. The findings support targeting [[tryptophan-metabolism]] through microbiome modulation, potentially via [[probiotics]] that restore healthy tryptophan processing.
 
 ## Limitations
 

@@ -11,6 +11,9 @@ tags: [parkinsons-disease, metabolomics, lipidome, plasma, biomarkers, tryptopha
 library_category: metabolomics
 platform: blood
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+karen_brain_primitives: [1, 4]
 ---
 
 # Metabolomics of Parkinson's Disease
@@ -22,7 +25,7 @@ This metabolomics study identifies plasma metabolite signatures associated with 
 ## Key Findings
 
 - Distinct plasma metabolomic signatures differentiate PD patients from healthy controls
-- [[Tryptophan-metabolism]] pathways are significantly altered in PD, with shifts toward the kynurenine pathway
+- [[tryptophan-metabolism]] pathways are significantly altered in PD, with shifts toward the kynurenine pathway
 - Bile acid profiles are altered, reflecting changes in gut microbial bile acid metabolism
 - Lipid metabolism perturbations include changes in sphingolipids and glycerophospholipids
 - Several microbiome-derived metabolites (indoles, phenols) are altered in PD plasma

@@ -14,7 +14,7 @@ library_category: causal
 platform: wikibiome
 condition: "COVID-19"
 karen_brain_primitives: [1, 4, 5]
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed: [faecalibacterium, roseburia, bacteroides, ruminococcus, eubacterium, dialister, coprococcus, prevotella, dorea, lachnospiraceae, clostridia, actinobacteria, firmicutes, bacteroidetes]
 key_findings: 
   - "Forward MR: 3 bacterial taxa associated with COVID-19 severity, 8 with hospitalization, 10 with infection risk"

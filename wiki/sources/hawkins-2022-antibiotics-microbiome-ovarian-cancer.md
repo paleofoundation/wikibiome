@@ -9,6 +9,8 @@ year: 2022
 doi: "10.1158/0008-5472.CAN-22-3013"
 tags: [ovarian-cancer, antibiotics, microbiome, cisplatin-resistance, cancer-stem-cells, indole-3-propionic-acid, indoxyl-sulfate, chemotherapy, dysbiosis]
 platform: wikibiome
+evidence_level: expert-opinion
+karen_brain_primitives: [5]
 ---
 
 # Unintended Consequences of Antibiotic Therapy on the Microbiome in Ovarian Cancer

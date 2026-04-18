@@ -1,13 +1,15 @@
 ---
-
 title: "Estrobolome"
 type: concept
 created: 2026-04-10
 updated: 2026-04-09
-sources: [borghini-2020-endometriosis-nickel-ibs, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]
+sources: [borghini-2020-endometriosis-nickel-ibs, khan-2020-environmental-exposures-autoimmune-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]
 tags: [estrogen-metabolism, microbiome, enterohepatic-circulation, hormone-recirculation, beta-glucuronidase, metalloestrogens, breast-cancer, endometriosis, PCOS, dysbiosis]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
 platform: wikibiome
+karen_brain_primitives: [1, 2, 4, 5, 7]
+seo_target: "estrobolome microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 ## Overview
@@ -83,10 +85,10 @@ Understanding the estrobolome reframes intervention strategy:
 Rather than targeting estrogen directly (e.g., aromatase inhibitors), the metallomics approach targets the **metal dependencies** of estrobolome bacteria. Restricting [[iron]] availability through [[lactoferrin]] or dietary modification reduces the competitive advantage of beta-glucuronidase producers, allowing beneficial taxa to recover and estrogen excretion to normalize.
 
 Additional approaches:
-- **[[Probiotics]]** -- Lactobacillus strains with low beta-glucuronidase activity can shift the estrobolome toward lower estrogen recirculation
+- **[[probiotics]]** -- Lactobacillus strains with low beta-glucuronidase activity can shift the estrobolome toward lower estrogen recirculation
 - **Calcium-D-glucarate** -- inhibits beta-glucuronidase, reducing estrogen deconjugation
 - **Dietary fiber** -- increases fecal estrogen excretion by binding free estrogens and promoting SCFA-producing taxa over beta-glucuronidase producers
-- **[[Metalloestrogens]] avoidance** -- reducing cadmium, aluminum, and other metalloestrogen exposure removes both direct ER activation and dysbiosis-driven estrobolome enrichment
+- **[[metalloestrogens]] avoidance** -- reducing cadmium, aluminum, and other metalloestrogen exposure removes both direct ER activation and dysbiosis-driven estrobolome enrichment
 
 This represents Karen's Brain **Primitive 4** (Microbial Metal Dependencies as Achilles' Heels) applied to hormone-dependent disease.
 

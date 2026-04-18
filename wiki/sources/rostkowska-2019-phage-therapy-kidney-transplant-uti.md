@@ -9,6 +9,7 @@ journal: "Research Square (preprint)"
 doi: "10.21203/rs.2.19685/v1"
 tags: [chronic-kidney-disease, CKD, phage-therapy, kidney-transplant, UTI, antimicrobial-resistance, case-report, bacteriophages]
 platform: wikibiome
+evidence_level: case-report
 ---
 
 # Phage Therapy for Recurrent UTI in Kidney Transplant

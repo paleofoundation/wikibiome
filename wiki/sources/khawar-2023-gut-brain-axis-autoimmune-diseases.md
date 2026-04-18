@@ -11,6 +11,8 @@ tags: [postpartum-depression, gut-brain-axis, autoimmune-diseases, dysbiosis, in
 library_category: review
 platform: cureva
 condition: "autoimmune diseases"
+karen_brain_primitives: [3, 5]
+key_findings: ["Gut-brain axis (GBA)", "Mounting evidence", "Bacterial translocation"]
 ---
 
 # Key Claims

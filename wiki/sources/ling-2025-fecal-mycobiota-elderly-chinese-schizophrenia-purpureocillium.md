@@ -39,8 +39,8 @@ key_findings:
 
 - Informs **[[schizophrenia]]** entity page: documents a **mycobiome enterotype signature** in the elderly SCZ population, distinct from bacterial enterotype concepts.
 - Informs **[[purpureocillium]]** entity page (new entity): identifies a **protective fungal genus** nearly eliminated in SCZ — a novel finding.
-- Informs **[[candida]]**, **[[aspergillus]]**, **[[saccharomyces]]**, **[[malassezia]]** entity pages: adds SCZ-specific enrichment evidence.
-- Informs **[[mycobiome-enterotype]]** concept page (new concept): first documentation of mycobiome enterotypes stratifying disease.
+- Informs **[[candida-albicans|candida]]**, **[[aspergillus]]**, **[[saccharomyces]]**, **[[malassezia]]** entity pages: adds SCZ-specific enrichment evidence.
+- Informs **[[mycobiome|mycobiome-enterotype]]** concept page (new concept): first documentation of mycobiome enterotypes stratifying disease.
 
 # Relevance to Cureva
 

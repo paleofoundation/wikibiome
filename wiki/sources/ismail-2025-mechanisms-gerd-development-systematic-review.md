@@ -1,5 +1,4 @@
 ---
-
 title: "Understanding the Mechanisms Underlying Gastroesophageal Reflux Disease (GERD) Development: A Systematic Review"
 type: source
 created: 2026-04-09
@@ -7,9 +6,11 @@ updated: 2026-04-09
 authors: [Ismail MA, Althiyabi HA, Alotaibi NM, Althobaiti AS, Asiri AA, Alshalawi M, Hamed AT, Elsheikh T, Alfaifi MA, Althomali A]
 journal: TPM
 year: 2025
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing (""); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: TPM 2025 -->
 tags: [gerd, gastroesophageal-reflux, pathophysiology, TLESRs, LES-dysfunction, inflammation, TNF-alpha, IL-6, microbiome, bile-reflux, obesity, visceral-hypersensitivity, TRPV1, ASIC3, sleeve-gastrectomy, systematic-review]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+taxa_discussed: [prevotella, streptococcus]
 ---
 
 # Understanding the Mechanisms Underlying Gastroesophageal Reflux Disease (GERD) Development: A Systematic Review
@@ -18,10 +19,10 @@ platform: wikibiome
 
 - Multiple pathophysiological pathways contribute to [[gerd]] heterogeneity, establishing that acid suppression is not the only treatment option
 - LES malfunction and TLESRs were frequently noted, with 64.3% of patients reporting LES hypotension and 47% with esophageal motility disorders
-- Inflammatory cytokines [[TNF-alpha]] and [[IL-6]] were identified as important indicators of mucosal damage, with oxidative stress proteins 2.3 times more highly expressed in GERD mucosa
-- Changes in the [[microbiome]] contribute to GERD, with proliferation of some bacteria and decrease in *[[streptococcus]]* and *[[prevotella]]* species worsening epithelial barrier dysfunction and encouraging cytokine production
+- Inflammatory cytokines [[inflammation|TNF-alpha]] and [[inflammation|IL-6]] were identified as important indicators of mucosal damage, with oxidative stress proteins 2.3 times more highly expressed in GERD mucosa
+- Changes in the [[gut-microbiome|microbiome]] contribute to GERD, with proliferation of some bacteria and decrease in *[[streptococcus]]* and *[[prevotella]]* species worsening epithelial barrier dysfunction and encouraging cytokine production
 - [[obesity]] was a significant persistent risk factor: GERD detected in 71% of individuals with BMI>35 vs 39% with BMI<25; sleeve gastrectomy worsened GERD in 34.2% to 62.5%
-- Sensory hypersensitivity via [[TRPV1]] and ASIC3 receptors allows nociceptor encountering luminal contents to increase pain perception even without apparent mucosal damage
+- Sensory hypersensitivity via [[inflammation|TRPV1]] and ASIC3 receptors allows nociceptor encountering luminal contents to increase pain perception even without apparent mucosal damage
 - Ghrelin levels showed 21% reduction in GERD populations, correlating with bile acid reflux damage
 
 ## Methods/Findings

@@ -1,5 +1,4 @@
 ---
-
 title: "Developmental Toxicity of Cadmium in Infants and Children: A Review"
 type: source
 created: 2026-04-09
@@ -11,6 +10,8 @@ volume: "36(1):e2021003"
 doi: "10.5620/eaht.2021003"
 tags: [cadmium, developmental-toxicity, infants, children, neurodevelopment, kidney-dysfunction, pregnancy-outcomes, IQ, ADHD, carcinogenesis, in-utero-exposure, biomarkers, placental-transfer]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [aluminum, cadmium, lead, selenium]
 ---
 
 # Developmental Toxicity of Cadmium in Infants and Children: A Review
@@ -25,7 +26,7 @@ This systematic review is the most comprehensive examination of [[cadmium]] deve
 - Cadmium crosses the placental barrier and exposure may occur from the beginning of life
 - In utero or early life exposure can have serious health consequences reflected either in childhood or later stages of life
 - Prenatal cadmium exposure influences anthropometric development and growth; fetal DNA methylation linked to cord blood cadmium levels
-- Low-level cadmium exposure is associated with lower IQ, attention deficit hyperactivity disorder [[ADHD]], learning disabilities, and behavioral problems in children
+- Low-level cadmium exposure is associated with lower IQ, attention deficit hyperactivity disorder [[autism-spectrum-disorder|ADHD]], learning disabilities, and behavioral problems in children
 - Cadmium may act as an endocrine disruptor, influencing estrogens, thyroid, and growth hormones
 - The developing kidney is more at risk than the adult kidney: glomerular and tubular functions continue to develop until 2-3 years of age
 - Smoking is the main factor influencing cadmium toxicity during pregnancy

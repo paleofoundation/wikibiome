@@ -15,7 +15,7 @@ platform: both
 condition: "chronic-kidney-disease"
 karen_brain_primitives: [5]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [bifidobacterium]
 key_findings:
   - "Probiotics/synbiotics reduced BUN (SMD -0.23, p=0.02) and CRP (SMD -0.34, p=0.01) in CKD"
   - "No significant reduction in indoxyl sulfate or p-cresyl sulfate"

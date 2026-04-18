@@ -9,6 +9,9 @@ year: 2019
 doi: "10.4081/oncol.2019.422"
 tags: [ovarian-cancer, probiotics, breast-cancer, beta-glucuronidase, estrogen-metabolism, Lactobacillus-acidophilus, anti-tumor, immunomodulation]
 platform: wikibiome
+evidence_level: in-vitro
+taxa_discussed: [lactobacillus]
+karen_brain_primitives: [5, 7]
 ---
 
 # Potential Effect of Probiotics in the Treatment of Breast Cancer

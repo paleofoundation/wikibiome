@@ -7,6 +7,9 @@ sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, garuba-2024-heavy
 tags: [diet, lead, exposure, food-safety, water, infant-foods, developmental-toxicity]
 platform: wikibiome
 karen_brain_primitive: "Primitive 3: Mis-metallation and Toxic Metal Entry"
+karen_brain_primitives: [1, 3, 4]
+seo_target: "dietary lead exposure microbiome"
+last_substantive_update: 2026-04-11
 ---
 
 # Dietary Lead Exposure

@@ -11,6 +11,10 @@ tags: [parkinsons-disease, fatty-acids, lipid-metabolism, microbiome-composition
 library_category: metabolomics
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron]
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1, 5, 9]
 ---
 
 # Fatty Acid Profiles and Gut Microbiome in Parkinson's Disease

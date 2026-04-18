@@ -1,12 +1,14 @@
 ---
-
 title: Gut-Metal-Microbiome Interactions
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity, li-2019-heavy-metal-metabolic-health-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, zhai-2016-probiotics-cadmium, chen-2022-living-microorganisms-detoxification-heavy-metals, tao-2024-cadmium-gut-microbiota-dwarf-hamsters, gao-2017-lead-exposure-multi-omics-gut-microbiome, coryell-2018-gut-microbiome-arsenic-toxicity-protection, tizabi-2023-lead-gut-microbiota-asd, eggers-2023-prenatal-lead-gut-microbiome-childhood, ogrady-2025-metal-dyshomeostasis-asd, khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, breton-2016-cadmium-lead-oral-exposure-colitis, pendergrass-2026-nickel-nec-preterm-gut, cheng-2021-cadmium-enterococcus-metabolic]
+sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity, li-2019-heavy-metal-metabolic-health-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, zhai-2016-probiotics-cadmium, chen-2022-living-microorganisms-detoxification-heavy-metals, tao-2024-cadmium-gut-microbiota-dwarf-hamsters, gao-2017-lead-exposure-multi-omics-gut-microbiome, coryell-2018-gut-microbiome-arsenic-toxicity-protection, tizabi-2023-lead-gut-microbiota-asd, eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood, ogrady-2025-metal-dyshomeostasis-asd, khan-2020-environmental-exposures-autoimmune-gut-microbiome, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, breton-2016-cadmium-lead-oral-exposure-colitis, pendergrass-2026-nickel-nec-preterm-gut, cheng-2021-cadmium-enterococcus-metabolic]
 tags: [gut-microbiome, heavy-metals, dysbiosis, probiotics, gut-barrier, tight-junctions, SCFAs, bidirectional-interaction, gut-brain-axis, detoxification]
 platform: wikibiome
+karen_brain_primitives: [1, 3, 4, 5, 7, 8]
+seo_target: "gut-metal-microbiome interactions"
+last_substantive_update: 2026-04-09
 ---
 
 # Gut-Metal-Microbiome Interactions
@@ -149,7 +151,7 @@ Advanced biosensor technologies enable monitoring of metal-gut interactions:
 - [[gao-2017-lead-exposure-multi-omics-gut-microbiome]]
 - [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]]
 - [[tizabi-2023-lead-gut-microbiota-asd]]
-- [[eggers-2023-prenatal-lead-gut-microbiome-childhood]]
+- [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]
 
 ## Connections to Other Concepts
 

@@ -6,12 +6,16 @@ updated: 2026-04-09
 authors: [Danea Palmer, Adrien Chauvier, Tomas F D Silva, Avery Ontiveros, Giovanni Bussi, Nils G Walter, Tatiana V Mishanina]
 year: 2026
 journal: "bioRxiv"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12934788) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: bioRxiv 2026 -->
 pmcid: "PMC12934788"
 tags: [mismetallation, metal-homeostasis, manganese, riboswitch, pH-sensing, metal-sensing, manganese-toxicity, alkaline-stress, escherichia-coli, gene-regulation]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "RNA-based dual-input metal and pH sensing in bacteria"
+metals_discussed: [iron, manganese]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
+key_findings: ["The alx riboswitch integrates two orthogonal signals", "Alkaline pH primes the riboswitch", "At neutral pH, the aptamer favors docked sampling"]
 ---
 
 # Why This Paper Matters
@@ -71,4 +75,4 @@ The dual Mn2+/pH riboswitch thus balances Mn2+ as both protector (anti-oxidant c
 - [[superoxide-dismutase]] -- Mn-SOD as example of beneficial Mn2+ enzyme cofactor
 - [[bacillus]] -- alx-like riboswitches conserved in alkaline-adapted Bacillales
 - [[gene-regulation]] -- RNA-based combinatorial signal integration in metallostasis
-- [[riboswitch]] -- paradigmatic example of multi-input riboswitch regulation
+- [[gene-regulation|riboswitch]] -- paradigmatic example of multi-input riboswitch regulation

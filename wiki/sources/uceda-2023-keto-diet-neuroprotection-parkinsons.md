@@ -11,6 +11,8 @@ tags: [parkinsons-disease, ketogenic-diet, beta-hydroxybutyrate, neuroprotection
 library_category: therapeutics
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, manganese]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Ketogenic Diet and Neuroprotection in Parkinson's Disease

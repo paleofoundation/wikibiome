@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Dysbiosis in Pancreatic Diseases: A Causative Factor and a Novel Therapeutic Target"
 type: source
 created: 2026-04-09
@@ -11,12 +10,14 @@ tags: [pancreatic-cancer, dysbiosis, gut-microbiome, pancreatitis, type-1-diabet
 doi: "10.3389/fnut.2022.814269"
 platform: wikibiome
 evidence_level: expert-opinion
+taxa_discussed: [bacteroides-fragilis, bifidobacterium, enterococcus, fusobacterium-nucleatum]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- A subtle yet intimate nexus exists between the [[gut microbiome]] and pancreatic diseases including [[pancreatitis]], [[pancreatic-cancer]], and type 1 diabetes mellitus
-- [[Gut dysbiosis]] has been consistently reported in patients with pancreatic diseases, though causal relationships remain to be fully established
+- A subtle yet intimate nexus exists between the [[gut-microbiome]] and pancreatic diseases including [[pancreatitis]], [[pancreatic-cancer]], and type 1 diabetes mellitus
+- [[dysbiosis|Gut dysbiosis]] has been consistently reported in patients with pancreatic diseases, though causal relationships remain to be fully established
 - [[short-chain-fatty-acids]] production by gut microbiota controls cathelicidin-related antimicrobial peptide (CRAMP) production by insulin-secreting beta-cells, establishing bidirectional gut-pancreas communication
 - Microbiome-based therapeutics including [[probiotics]], [[prebiotics]], [[synbiotics]], and [[fecal-microbiota-transplant]] show promise for pancreatic disease management
 
@@ -31,7 +32,7 @@ evidence_level: expert-opinion
 
 # Connections
 
-- SCFA-CRAMP axis connects [[short-chain-fatty-acids]] to [[microbiome-host interactions]] in pancreatic innate immunity
-- [[Viral dysbiosis]] and bacterial translocation link to [[microbiome and disease progression]] in pancreatic diseases
-- Therapeutic microbiome modulation approaches relevant to [[probiotics]], [[synbiotics]], and [[microbiome-targeted therapy]]
+- SCFA-CRAMP axis connects [[short-chain-fatty-acids]] to [[gut-metal-microbiome|microbiome-host interactions]] in pancreatic innate immunity
+- [[viral-microbiota|Viral dysbiosis]] and bacterial translocation link to [[dysbiosis|microbiome and disease progression]] in pancreatic diseases
+- Therapeutic microbiome modulation approaches relevant to [[probiotics]], [[synbiotics]], and [[probiotics|microbiome-targeted therapy]]
 - Risk factor overlap between pancreatic diseases and [[comorbidities]] including diabetes and obesity

@@ -11,6 +11,10 @@ tags: [type-1-diabetes, autoimmune, fecal-microbiota, oral-microbiota, scfa, str
 library_category: original-research
 platform: cureva
 condition: "type 1 diabetes"
+metals_discussed: [calcium, iron, selenium, zinc]
+taxa_discussed: [streptococcus, subdoligranulum]
+karen_brain_primitives: [1, 2, 4]
+key_findings: ["Oral microbiota markedly different in T1D", "Fecal analysis showed decreased butyrate-producing species", "Plasma levels of acetate and propionate lower"]
 ---
 
 # Key Claims

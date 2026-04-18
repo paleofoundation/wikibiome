@@ -12,6 +12,9 @@ library_category: "Functional microbiome shifts"
 platform: sequencing
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+evidence_level: randomized-controlled-trial
+taxa_discussed: [blautia, debaryomyces, lachnospiraceae, ruminococcus, saccharomyces-cerevisiae]
+key_findings: ["Actinobacteriota"]
 ---
 
 # Overview
@@ -49,4 +52,4 @@ Longitudinal study characterising both bacterial and fungal microbiome and **SCF
 
 - Early microbiome shifts connect to biomarker potential in [[zhao-2023-altered-gut-microbiota-biomarkers-asd]]
 - SCFA findings complement [[coretti-2018-gut-microbiota-young-asd-children]]
-- Fungal component links to [[strati-2017-altered-gut-microbiota-asd]] mycobiome analysis
+- Fungal component links to [[strati-2017-altered-gut-microbiota-mycobiota-asd]] mycobiome analysis

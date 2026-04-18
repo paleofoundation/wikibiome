@@ -1,5 +1,4 @@
 ---
-
 title: "Considering the Microbiome in Stress-Related and Neurodevelopmental Trajectories to Schizophrenia"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2020
 doi: "10.3389/fpsyt.2020.00629"
 tags: [schizophrenia, microbiome, stress, HPA-axis, BDNF, cortisol, neurodevelopment, maternal-infection, gut-brain-axis, perinatal, fetal-growth-restriction]
 platform: wikibiome
+karen_brain_primitives: [9]
 ---
 
 # Considering the Microbiome in Stress-Related and Neurodevelopmental Trajectories to Schizophrenia
@@ -18,7 +18,7 @@ platform: wikibiome
 
 - Early life adversity and prenatal stress are consistently associated with increased risk for [[schizophrenia]], and the HPA axis-microbiome crosstalk is central to understanding this
 - The intestinal microbiome in earliest life, seeded by the vaginal microbiome during delivery, programs the development of the HPA axis in a critical developmental window, determining stress sensitivity and immune system development
-- Gut dysbiosis can indirectly influence cortisol release and sensitivity via chronic cytokine-mediated [[neuroinflammation]], releasing microbial byproducts such as LPS or through bacterial metabolites including [[SCFAs]]
+- Gut dysbiosis can indirectly influence cortisol release and sensitivity via chronic cytokine-mediated [[neuroinflammation]], releasing microbial byproducts such as LPS or through bacterial metabolites including [[short-chain-fatty-acids]]
 - Maternal infection during pregnancy is a well-established risk factor: influenza exposure during the 1957 pandemic was associated with elevated schizophrenia risk in offspring
 - Fetal growth restriction, a surrogate marker of prenatal adversity, was associated with schizophrenia risk; fetal hypoxia predicts earlier age of onset
 - Maternal stress during the first trimester demonstrated increased schizophrenia risk; male fetuses more vulnerable than female

@@ -11,6 +11,10 @@ tags: [parkinsons-disease, meta-analysis, dysbiosis, microbiome-composition, neu
 library_category: signatures
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, lead, manganese, nickel]
+taxa_discussed: [akkermansia-muciniphila, bifidobacterium, faecalibacterium-prausnitzii, lactobacillus, roseburia]
+karen_brain_primitives: [1, 5]
 ---
 
 # Meta-analysis of the Parkinson's Disease Gut Microbiome Suggests Alterations Linked to Intestinal Inflammation

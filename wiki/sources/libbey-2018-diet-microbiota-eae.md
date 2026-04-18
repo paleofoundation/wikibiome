@@ -1,5 +1,4 @@
 ---
-
 title: "Variations in diet cause alterations in microbiota and metabolites that follow changes in disease severity in a multiple sclerosis model"
 type: source
 created: 2026-04-09
@@ -10,16 +9,20 @@ year: 2018
 tags: [multiple-sclerosis, EAE, diet, microbiota, metabolomics, Lactobacillus, glycolysis, TCA-cycle, mouse-model, Lactobacillus-paracasei]
 doi: "10.3920/BM2017.0116"
 platform: wikibiome
+evidence_level: animal-model
+metals_discussed: [iron, manganese, nickel]
+taxa_discussed: [bacteroides-fragilis, lactobacillus, ruminococcus, streptococcus]
+karen_brain_primitives: [4, 5]
 ---
 
 # Variations in Diet Cause Alterations in Microbiota and Metabolites That Follow Changes in Disease Severity in a Multiple Sclerosis Model
 
 ## Key Claims
 
-- Diet composition (irradiated vs. autoclaved rodent chow) is sufficient to alter gut microbial communities and significantly change disease severity in the MOG35-55-induced [[experimental-autoimmune-encephalomyelitis]] (EAE) mouse model of [[multiple-sclerosis]]
+- Diet composition (irradiated vs. autoclaved rodent chow) is sufficient to alter gut microbial communities and significantly change disease severity in the MOG35-55-induced [[multiple-sclerosis|experimental-autoimmune-encephalomyelitis]] (EAE) mouse model of [[multiple-sclerosis]]
 - The genus *[[lactobacillus]]* was inversely correlated with EAE severity (Spearman correlation coefficient = -0.67)
 - Therapeutic treatment with *Lactobacillus paracasei* significantly reduced both disease incidence and clinical scores in EAE mice
-- Metabolic shifts in [[glycolysis]] and the [[TCA-cycle]] may explain diet-driven differences in disease severity
+- Metabolic shifts in [[fermentative-metabolism|glycolysis]] and the [[TCA-cycle]] may explain diet-driven differences in disease severity
 
 ## Methods/Findings
 

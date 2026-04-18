@@ -1,5 +1,4 @@
 ---
-
 title: "A Global View of Comorbidity in Multiple Sclerosis: A Systematic Review with a Focus on Regional Differences, Methodology, and Clinical Implications"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2021
 tags: [multiple-sclerosis, comorbidity, depression, anxiety, cardiovascular, epilepsy, diabetes, cancer, autoimmune, restless-legs, migraine, metabolic-disorders, systematic-review]
 doi: "10.1007/s00415-020-10107-y"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # A Global View of Comorbidity in Multiple Sclerosis: A Systematic Review

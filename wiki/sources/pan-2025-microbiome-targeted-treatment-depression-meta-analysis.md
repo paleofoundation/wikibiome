@@ -11,6 +11,10 @@ tags: [postpartum-depression, microbiome-targeted-therapy, probiotics, synbiotic
 library_category: meta-analysis
 platform: cureva
 condition: "depression"
+evidence_level: systematic-review-meta-analysis
+metals_discussed: [iron, magnesium, zinc]
+karen_brain_primitives: [5]
+key_findings: ["Microbiome-targeted treatment (MTT)", "Geographic variation", "Duration matters"]
 ---
 
 # Key Claims

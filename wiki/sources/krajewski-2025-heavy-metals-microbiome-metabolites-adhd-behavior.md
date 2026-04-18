@@ -11,6 +11,10 @@ tags: [autism-spectrum-disorder, heavy-metals, microbiome-metabolites, catechola
 library_category: environmental
 platform: urine
 condition: "ADHD and social behaviour in typically developing children"
+metals_discussed: [arsenic, cadmium, lead, mercury]
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium, escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, pseudomonas-aeruginosa]
+karen_brain_primitives: [1, 5]
+key_findings: ["Microbiome-associated metabolites", "Executive functions"]
 ---
 
 # Overview
@@ -40,7 +44,7 @@ Path analysis study examining relationships between **urinary heavy metal load, 
 - **3-Phenylpropionic acid** (from bacterial degradation of unabsorbed [[phenylalanine]])
 - **p-OH-phenylacetic acid** (catecholamine/thyroid precursor)
 - **4-Hydroxyhippuric acid** (L-dopa degradation product)
-- **3,4-Dihydroxyphenylpropionic acid** (marker of [[Clostridia]] and [[Pseudomonas]] activity)
+- **3,4-Dihydroxyphenylpropionic acid** (marker of [[clostridia|Clostridia]] and [[pseudomonas-aeruginosa]] activity)
 - Elevated levels indicate potential overgrowth of pathobionts or gut-microbiome alterations
 
 ## Path Analysis Model
@@ -51,18 +55,18 @@ Path analysis study examining relationships between **urinary heavy metal load, 
 
 # Microbiome and Heavy Metals Interactions
 
-- [[arsenic]], [[cadmium]], [[lead]], and [[mercury]] can change composition, diversity, and structure of [[gut microbiota]]
+- [[arsenic]], [[cadmium]], [[lead]], and [[mercury]] can change composition, diversity, and structure of [[gut-microbiome]]
 - Higher arsenic levels → decreased [[bacteroides-fragilis]] and [[bifidobacterium]]
-- [[cadmium]], mercury, lead, arsenic exposure → increased [[Proteobacteria]] and pathogenic bacteria
-- [[lactobacillus]] and [[E. coli]] can bind heavy metals to their surfaces
-- Probiotics ([[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], [[Bacillus cereus]], [[Lactobacillus rhamnosus]]) show protective effects against metal exposure
+- [[cadmium]], mercury, lead, arsenic exposure → increased [[proteobacteria]] and pathogenic bacteria
+- [[lactobacillus]] and [[escherichia-coli]] can bind heavy metals to their surfaces
+- Probiotics ([[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], [[bacillus|Bacillus cereus]], [[lactobacillus|Lactobacillus rhamnosus]]) show protective effects against metal exposure
 
 # Relevance to Metallomic Framework
 
 **High relevance** — demonstrates mechanistic chain from heavy metals through microbiome metabolites to neurobehavioural outcomes:
 
 - Supports **heavy metal → microbiome disruption → altered metabolite production → behavioural impact** pathway
-- Phenylalanine and tyrosine metabolites as markers of [[gut-brain axis]] disruption
+- Phenylalanine and tyrosine metabolites as markers of [[gut-brain-axis]] disruption
 - Catecholamine pathway as downstream target of metal-microbiome interaction
 - Even in typically developing children, heavy metal burden predicts social and cognitive outcomes
 - Implications for ASD: these pathways may be amplified in genetically susceptible individuals

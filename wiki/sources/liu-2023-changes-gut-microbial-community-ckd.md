@@ -9,6 +9,8 @@ journal: "PLOS ONE"
 doi: "10.1371/journal.pone.0283389"
 tags: [chronic-kidney-disease, CKD, gut-microbiota, bioinformatics, Ralstonia, Porphyromonas, metabolic-pathways, eGFR]
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [porphyromonas]
 ---
 
 # Changes in Gut Microbial Community upon CKD

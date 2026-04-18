@@ -6,17 +6,21 @@ updated: 2026-04-09
 authors: [Dietrich H Nies, Julie A Maupin-Furlow]
 year: 2025
 journal: "Journal of Bacteriology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: originally stored PMC ID (PMC12632275) in the doi field; real DOI needs manual lookup -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Bacteriology 2025 -->
 pmcid: "PMC12632275"
 tags: [mismetallation, metal-homeostasis, zinc, iron, copper, cobalt, nickel, manganese, Irving-Williams-series, flow-equilibrium, Cupriavidus-metallidurans, metalloregulator, metal-transport]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "theoretical framework for preventing mis-metalation through flow equilibrium"
+metals_discussed: [cobalt, copper, iron, manganese, nickel, zinc]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [3, 4]
+key_findings: ["The flow equilibrium", "Importers cannot afford high substrate specificity", "Metal discrimination is delegated to metalloregulators"]
 ---
 
 # Why This Paper Matters
 
-This paper presents the most comprehensive theoretical framework for how bacteria prevent [[mis-metallation]] through a "flow equilibrium" of continuous metal import and export. Using the metal-resistant bacterium Cupriavidus metallidurans as the primary model, Nies proposes that cells maintain correct metalation not by achieving static metal concentrations but through continuous cycling of metals in and out of the cytoplasm. The flow equilibrium is formed by broad-specificity importers (that bring in multiple metals simultaneously) balanced against metal-specific efflux systems whose regulators perform the critical discrimination between metals. This framework explains why mis-metalation is an ever-present threat: importers cannot distinguish between metals with nearly identical ionic radii (~0.75 A for Mn2+ through Zn2+), so the cell must rely on post-import sorting via metalloregulators and efflux pumps. The paper provides quantitative metal quotas for C. metallidurans and integrates the [[Irving-Williams-series]] into a predictive model for metal competition.
+This paper presents the most comprehensive theoretical framework for how bacteria prevent [[mis-metallation]] through a "flow equilibrium" of continuous metal import and export. Using the metal-resistant bacterium Cupriavidus metallidurans as the primary model, Nies proposes that cells maintain correct metalation not by achieving static metal concentrations but through continuous cycling of metals in and out of the cytoplasm. The flow equilibrium is formed by broad-specificity importers (that bring in multiple metals simultaneously) balanced against metal-specific efflux systems whose regulators perform the critical discrimination between metals. This framework explains why mis-metalation is an ever-present threat: importers cannot distinguish between metals with nearly identical ionic radii (~0.75 A for Mn2+ through Zn2+), so the cell must rely on post-import sorting via metalloregulators and efflux pumps. The paper provides quantitative metal quotas for C. metallidurans and integrates the [[irving-williams-series]] into a predictive model for metal competition.
 
 # Key Claims
 
@@ -69,7 +73,7 @@ Zn(II) is uniquely problematic because:
 # Connections
 
 - [[mis-metallation]] -- comprehensive theoretical framework for why mis-metalation occurs and how cells prevent it
-- [[Irving-Williams-series]] -- thermodynamic basis integrated into transport kinetics model
+- [[irving-williams-series]] -- thermodynamic basis integrated into transport kinetics model
 - [[zinc]] -- detailed zinc homeostasis model; Zn as kinetically trapped final-destination metal
 - [[iron]] -- Fe-S cluster vulnerability; Mn substitution during oxidative stress
 - [[copper]] -- Cu(I) as only soft transition metal cation; extreme toxicity through sulfur targeting

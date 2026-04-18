@@ -12,11 +12,13 @@ library_category: "16S rRNA sequencing"
 platform: sequencing
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
+taxa_discussed: [bifidobacterium, faecalibacterium-prausnitzii]
+karen_brain_primitives: [5]
 ---
 
 # Overview
 
-Original research characterising gut microbiota and fecal **short-chain fatty acid (SCFA)** levels in a cohort of **11 young ASD children (2-4 years)** compared with 14 age-matched neurotypical controls. Identified phylogenetic shifts, marked reduction in *[[Bifidobacterium longum]]*, and increase in *[[faecalibacterium-prausnitzii]]* in ASD patients.
+Original research characterising gut microbiota and fecal **short-chain fatty acid (SCFA)** levels in a cohort of **11 young ASD children (2-4 years)** compared with 14 age-matched neurotypical controls. Identified phylogenetic shifts, marked reduction in *[[bifidobacterium|Bifidobacterium longum]]*, and increase in *[[faecalibacterium-prausnitzii]]* in ASD patients.
 
 # Key Findings
 
@@ -47,4 +49,4 @@ Original research characterising gut microbiota and fecal **short-chain fatty ac
 
 - *B. longum* depletion relevant to [[kwak-2023-psychobiotics-fmt-asd-adhd]] probiotic strategies
 - SCFA findings connect to [[zheng-2021-bacterial-aromatic-amino-acids-asd]] metabolite pathways
-- Supports [[autism-spectrum-disorder-microbiome-signature]] regarding Bacteroidetes/Proteobacteria enrichment
+- Supports [[autism-spectrum-disorder-signature]] regarding Bacteroidetes/Proteobacteria enrichment

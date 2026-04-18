@@ -14,7 +14,7 @@ library_category: associated-conditions
 platform: both
 condition: "chronic-kidney-disease"
 karen_brain_primitives: [5]
-metals_discussed: []
+metals_discussed: [aluminum, calcium, iron]
 taxa_discussed: []
 key_findings:
   - "Severe constipation quadruples ESRD risk with hazard ratio of 4.41 (95% CI 2.68-7.26)"
@@ -43,7 +43,7 @@ The dose-response gradient (mild to moderate to severe constipation producing pr
 
 ## Relevance to WikiBiome
 
-Informs [[chronic-kidney-disease]] entity (associated conditions section) and supports a concept page on [[gut-transit-time]] as a modifiable risk factor. The iatrogenic cycle is an important educational concept for WikiBiome.
+Informs [[chronic-kidney-disease]] entity (associated conditions section) and supports a concept page on [[dysbiosis|gut-transit-time]] as a modifiable risk factor. The iatrogenic cycle is an important educational concept for WikiBiome.
 
 ## Relevance to Cureva
 

@@ -56,7 +56,7 @@ PRISMA-compliant systematic review. PubMed and Diabetes and Metabolic Syndrome J
 - **[[type-2-diabetes]]** entity page — add female-infertility sub-section documenting Verrucomicrobia/Phascolarctobacterium enrichment and Roseburia depletion.
 - **[[female-infertility]]** entity page — document T2D as a microbiome-mediated subtype of infertility; 3–7% of reproductive-age women with T2D affected.
 - **[[akkermansia-muciniphila]]** entity page — note paradoxical finding: Verrucomicrobia (which includes Akkermansia) was *enriched* in infertile T2D women, contrary to the general pattern of Akkermansia as protective. Possible strain- or context-specific effect.
-- **[[glp-1-receptor-agonists]]** concept/entity page — add reproductive function section; GLP-1 signaling modulates oestrous cycling, ovulation frequency, endometrial inflammation.
+- **[[insulin-resistance|glp-1-receptor-agonists]]** concept/entity page — add reproductive function section; GLP-1 signaling modulates oestrous cycling, ovulation frequency, endometrial inflammation.
 - **[[gut-gonadal-axis]]** concept page — Khan 2022 mouse model demonstrates GIP/GLP-1 as mediators.
 - **[[estrobolome]]** concept page — depleted estrogen in T2D infertility links gut microbiome composition → β-glucuronidase dynamics → estrogen recirculation.
 

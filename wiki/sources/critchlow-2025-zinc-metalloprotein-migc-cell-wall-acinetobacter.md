@@ -11,6 +11,11 @@ tags: [mismetallation, metal-homeostasis, zinc, Acinetobacter-baumannii, metallo
 library_category: copper_zinc_toxicity
 platform: wikibiome
 condition: "zinc metallochaperone and cell wall biogenesis"
+evidence_level: animal-model
+metals_discussed: [copper, manganese, zinc]
+taxa_discussed: [acinetobacter]
+karen_brain_primitives: [2, 3, 4]
+key_findings: ["MigC (A1S_0934)"]
 ---
 
 # Why This Paper Matters

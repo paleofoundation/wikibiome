@@ -9,6 +9,9 @@ year: 2024
 doi: "10.1186/s12866-024-03513-z"
 tags: [ovarian-cancer, PCOS, FMT, germ-free-mice, gut-microbiome, Phocaeicola, Mediterraneibacter, insulin-resistance, ovarian-dysfunction, dysbiosis]
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [oscillospiraceae]
+karen_brain_primitives: [5]
 ---
 
 # FMT from PCOS Patients Induces Metabolic Disorders and Ovarian Dysfunction

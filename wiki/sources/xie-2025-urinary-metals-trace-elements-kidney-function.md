@@ -1,5 +1,4 @@
 ---
-
 title: "Association between urinary heavy metal/trace element concentrations and kidney function: a prospective study"
 type: source
 created: 2026-04-09
@@ -11,11 +10,12 @@ tags: [heavy-metals, trace-elements, kidney-function, eGFR, prospective, cobalt,
 doi: "10.1093/ckj/sfae399"
 platform: wikibiome
 evidence_level: prospective-cohort
+metals_discussed: [cadmium, cobalt, copper, molybdenum, nickel, selenium, vanadium]
 ---
 
 # Key Claims
 
-- Urinary [[vanadium]] (HR 1.07), [[cobalt]] (HR 1.69), [[nickel]] (HR 1.19), [[copper]] (HR 1.03), [[selenium]] (HR 1.48), [[molybdenum]] (HR 1.33), and [[iodine]] (HR 1.10) associated with increased risk of incident IKF or CKD
+- Urinary [[environmental-metal-exposure|vanadium]] (HR 1.07), [[cobalt]] (HR 1.69), [[nickel]] (HR 1.19), [[copper]] (HR 1.03), [[selenium]] (HR 1.48), [[molybdenum]] (HR 1.33), and [[iodine]] (HR 1.10) associated with increased risk of incident IKF or CKD
 - Urinary [[copper]] (OR 1.12), [[silver]] (OR 1.83), [[molybdenum]] (OR 1.05), and [[cadmium]] (OR 1.05) associated with rapid eGFR decline
 - 23 urinary heavy metals/trace elements measured at baseline in a prospective Swiss cohort
 - Participants with IKF/CKD had significantly higher baseline levels of V, Co, Ni, Cu, Se, Mo, Ag, Cd, Sn, Pb, and I
@@ -36,7 +36,7 @@ evidence_level: prospective-cohort
 # Connections
 
 - Prospective design strengthens causal inference vs. cross-sectional studies
-- [[nickel]] association with kidney dysfunction relevant to [[nickel toxicology]]
+- [[nickel]] association with kidney dysfunction relevant to [[nickel-allergy|nickel toxicology]]
 - [[cobalt]] mimics hypoxic conditions via HIF stabilization -- links to [[oxidative-stress|oxidative stress]]
 - [[copper]] nephrotoxicity via oxidative stress, lipid peroxidation, mitochondrial dysfunction
 - Complements [[yin-2024-heavy-metals-renal-injury-longitudinal]] longitudinal China study

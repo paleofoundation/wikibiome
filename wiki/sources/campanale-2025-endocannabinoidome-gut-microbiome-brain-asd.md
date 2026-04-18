@@ -12,6 +12,9 @@ library_category: "Drug repurposing"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-23"
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, clostridium, lachnospiraceae, ruminococcus]
+karen_brain_primitives: [5]
 ---
 
 # Overview

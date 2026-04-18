@@ -61,6 +61,9 @@ tags:
   - drug-confounding
   - functional-microbiome
 platform: wikibiome
+metals_discussed: [cadmium, copper, iron, lead, selenium]
+taxa_discussed: [clostridium, escherichia-coli, lachnospiraceae, roseburia, streptococcus]
+karen_brain_primitives: [1, 4, 8]
 ---
 
 # The Gut Microbiome in Atherosclerotic Cardiovascular Disease

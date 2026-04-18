@@ -1,5 +1,4 @@
 ---
-
 title: "Causal Relationship Between Gut Microbiota and Autoimmune Diseases: A Two-Sample Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -11,6 +10,8 @@ tags: [crohns-disease, IBD, Mendelian-randomization, Bifidobacterium, autoimmune
 doi: "10.3389/fimmu.2021.746998"
 platform: wikibiome
 evidence_level: mendelian-randomization
+taxa_discussed: [bifidobacterium, ruminococcus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -35,5 +36,5 @@ evidence_level: mendelian-randomization
 - Bifidobacterium findings complicate the simple narrative of [[probiotics]] being universally beneficial
 - Relevant to [[inflammation]] pathways through Th17 polarization by specific Bifidobacterium strains
 - Links to [[gut-metal-microbiome]] through Bifidobacterium's known metal-binding capabilities
-- Complements [[Zhang et al. 2021|zhang-2021-causal-direction-microbiota-ibd-mr]] on causal directionality
+- Complements [[zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiome|zhang-2021-causal-direction-microbiota-ibd-mr]] on causal directionality
 - [[crohns-disease]]

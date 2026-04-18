@@ -1,5 +1,4 @@
 ---
-
 title: "Safety and Efficacy of Ketogenic Diet in the Management of Multiple Sclerosis: A Systematic Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2025
 tags: [ketogenic-diet, multiple-sclerosis, systematic-review, PRISMA, NLRP3, BDNF, microbiome, inflammation, EDSS, body-composition, fatigue]
 doi: "10.7759/cureus.89965"
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Safety and Efficacy of Ketogenic Diet in the Management of Multiple Sclerosis: A Systematic Review

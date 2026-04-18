@@ -6,18 +6,21 @@ updated: 2026-04-09
 authors: [Szu-Ju Chen, Chin-Hsien Lin]
 year: 2023
 journal: "npj Parkinson's Disease"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: npj Parkinson's Disease 2023 -->
 tags: [parkinsons-disease, causal-microbiome, constipation, mediation-analysis, microbiome-causality, prodromal-PD, gut-motility]
 library_category: causal
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [iron, manganese]
+taxa_discussed: [escherichia-coli, roseburia, shigella]
+karen_brain_primitives: [1, 9]
 ---
 
 # Exploring the Causal Effect of Constipation on Parkinson's Disease Through Mediation Analysis of Microbial Data
 
 ## Summary
 
-This study uses mediation analysis to investigate whether the well-established association between constipation and subsequent [[parkinsons-disease]] is mediated by gut [[microbiome]] alterations, providing evidence for the causal chain: constipation changes microbiome changes PD risk.
+This study uses mediation analysis to investigate whether the well-established association between constipation and subsequent [[parkinsons-disease]] is mediated by gut [[gut-microbiome|microbiome]] alterations, providing evidence for the causal chain: constipation changes microbiome changes PD risk.
 
 ## Key Findings
 

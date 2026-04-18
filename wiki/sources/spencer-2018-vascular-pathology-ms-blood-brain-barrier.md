@@ -1,5 +1,4 @@
 ---
-
 title: "Vascular Pathology in Multiple Sclerosis: Reframing Pathogenesis Around the Blood-Brain Barrier"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2018
 doi: 10.1136/jnnp-2017-316011
 tags: [multiple-sclerosis, blood-brain-barrier, vascular-pathology, BBB, hypoxia, cerebral-perfusion, environmental-risk-factors, neuroinflammation]
 platform: wikibiome
+karen_brain_primitives: [9]
 ---
 
 # Vascular Pathology in Multiple Sclerosis: Reframing Pathogenesis Around the Blood-Brain Barrier
@@ -34,7 +34,7 @@ This review from Oxford proposes a paradigm shift in understanding [[multiple-sc
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-The BBB-centric model of MS is directly relevant to the [[gut-brain-axis]] because the BBB is the critical interface through which gut-derived factors influence CNS health. [[Heavy-metals]] are known to disrupt endothelial tight junctions and increase BBB permeability. [[Gut-microbiome]]-derived metabolites like [[short-chain-fatty-acids]] (particularly butyrate) strengthen the BBB, while [[dysbiosis]]-associated metabolites (LPS, TMAO) impair it. The proposal that BBB disruption may initiate MS lesion formation suggests that metal-induced BBB damage and dysbiosis-associated barrier dysfunction could be upstream triggers of the autoimmune cascade, not just downstream consequences.
+The BBB-centric model of MS is directly relevant to the [[gut-brain-axis]] because the BBB is the critical interface through which gut-derived factors influence CNS health. [[heavy-metals]] are known to disrupt endothelial tight junctions and increase BBB permeability. [[gut-microbiome]]-derived metabolites like [[short-chain-fatty-acids]] (particularly butyrate) strengthen the BBB, while [[dysbiosis]]-associated metabolites (LPS, TMAO) impair it. The proposal that BBB disruption may initiate MS lesion formation suggests that metal-induced BBB damage and dysbiosis-associated barrier dysfunction could be upstream triggers of the autoimmune cascade, not just downstream consequences.
 
 ## Limitations
 

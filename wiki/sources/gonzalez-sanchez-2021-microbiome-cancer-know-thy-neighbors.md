@@ -1,5 +1,4 @@
 ---
-
 title: "The microbiome(s) and cancer: know thy neighbor(s)"
 type: source
 created: 2026-04-09
@@ -10,11 +9,13 @@ year: 2021
 tags: [pancreatic-cancer, microbiome-host-interactions, intratumoral-microbiota, dysbiosis, DNA-damage, inflammation, microbial-metabolites, tumor-microenvironment]
 doi: "10.1002/path.5661"
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, escherichia-coli, fusobacterium-nucleatum, helicobacter-pylori, malassezia]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
 
-- The intratumoral [[microbiota]] has a distinct signature in each tumor type and contributes to carcinogenesis through barrier failure, immune modulation, DNA damage, and metabolic regulation
+- The intratumoral [[gut-microbiome|microbiota]] has a distinct signature in each tumor type and contributes to carcinogenesis through barrier failure, immune modulation, DNA damage, and metabolic regulation
 - Tumor development is associated with [[dysbiosis]] not only in the gut but also in the tissue from which the tumor originated
 - Organ-specific microbiome signatures have been described for organs 130-451, revealing a different microbiome signature for cancer of organs distant from the gut
 - Microbial toxins (colibactin from *E. coli*, CDT from Gram-negative bacteria) directly damage host DNA and increase oncogenic mutations
@@ -30,6 +31,6 @@ platform: wikibiome
 
 # Connections
 
-- [[Microbial metabolites]] including SCFAs link to [[microbiome-derived metabolites]] research in pancreatic cancer
-- Colibactin-producing *E. coli* and [[DNA damage]] connect to [[microbiome and disease progression]] pathways
-- Intratumoral microbiome diversity in long-term survivors relevant to [[fecal-microbiota-transplant]] and [[microbiome-targeted therapy]] approaches
+- [[short-chain-fatty-acids|Microbial metabolites]] including SCFAs link to [[microbiome-derived-metabolites]] research in pancreatic cancer
+- Colibactin-producing *E. coli* and [[DNA-damage|DNA damage]] connect to [[dysbiosis|microbiome and disease progression]] pathways
+- Intratumoral microbiome diversity in long-term survivors relevant to [[fecal-microbiota-transplant]] and [[probiotics|microbiome-targeted therapy]] approaches

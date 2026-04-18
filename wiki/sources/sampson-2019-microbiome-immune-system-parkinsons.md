@@ -11,6 +11,9 @@ tags: [parkinsons-disease, microbiome-immune-system, innate-immunity, adaptive-i
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+evidence_level: animal-model
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [1, 2, 4]
 ---
 
 # The Microbiome and Immune System in Parkinson's Disease

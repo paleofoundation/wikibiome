@@ -11,6 +11,10 @@ tags: [mismetallation, metal-homeostasis, iron, manganese, zinc, mononuclear-enz
 library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "strategic metal cofactor selection in enzymes"
+metals_discussed: [iron, manganese, zinc]
+taxa_discussed: [bacteroides-fragilis, escherichia-coli, saccharomyces-cerevisiae]
+karen_brain_primitives: [1, 3, 4, 9]
+key_findings: ["Ribulose-5-phosphate 3-epimerase (Rpe)"]
 ---
 
 # Why This Paper Matters
@@ -65,7 +69,7 @@ This is one of the most conceptually important papers in the mismetallation fiel
 - [[manganese]] -- Mn as oxidative-stress-resistant alternative to iron in aerobes
 - [[zinc]] -- Zn as the most stable but least catalytically active alternative
 - [[oxidative-stress]] -- Fenton chemistry at solvent-exposed Fe active sites drives metal cofactor evolution
-- [[Irving-Williams-series]] -- metal binding stability directly determines which metal occupies enzyme sites
+- [[irving-williams-series]] -- metal binding stability directly determines which metal occupies enzyme sites
 - [[metal-homeostasis]] -- OxyR/MntH/Dps system for conditional Fe-to-Mn switching in E. coli
 - [[cambialistic-enzymes]] -- enzymes that function with multiple metal cofactors depending on availability
 - [[nutritional-immunity]] -- host iron restriction could force pathogens into suboptimal metalation states

@@ -9,6 +9,8 @@ year: 2024
 doi: "10.20892/j.issn.2095-3941.2024.0240"
 tags: [ovarian-cancer, fungi, mycobiome, Candida, intratumoral-fungi, tumor-microenvironment, biofilm, immunomodulation]
 platform: wikibiome
+taxa_discussed: [candida-albicans]
+karen_brain_primitives: [6]
 ---
 
 # Tumor-Related Fungi and Crosstalk with Gut Fungi in the Tumor Microenvironment

@@ -17,7 +17,7 @@ library_category: causal
 platform: both
 condition: "ovarian cancer"
 karen_brain_primitives: [1, 4]
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed: [dialister, corynebacterium, prevotella, peptoniphilus, lactobacillus-iners, lactobacillus-crispatus, porphyromonas, fusobacterium-nucleatum, bacteroides-fragilis, ezakiella, streptococcus, fenollaria, facklamia, anaeroglobus, ruminococcus, mobiluncus, dialister-propionicifaciens, microbacterium-lacus, methyloruburm, corynebacterium-tuberculostearicum, achromobacter, atopobium, actinomyces-turicensis, escherichia-coli, faecalibacterium-prausnitzii]
 key_findings:
   - "Ovarian cancer cohort had significantly higher alpha-diversity in the lower reproductive tract vs. benign controls (unweighted UniFrac p=0.049, Observed ASVs p=0.049); beta-diversity significantly differed across multiple body sites"

@@ -11,6 +11,9 @@ tags: [postpartum-depression, sleep-traits, mendelian-randomization, sleep-apnea
 library_category: causal-microbiome
 platform: cureva
 condition: "postpartum depression"
+evidence_level: computational-prediction
+metals_discussed: [magnesium, zinc]
+key_findings: ["Sleep apnea syndrome"]
 ---
 
 # Key Claims

@@ -9,6 +9,7 @@ journal: "Scientific Reports"
 doi: "10.1038/s41598-017-02989-2"
 tags: [chronic-kidney-disease, CKD, gut-microbiota, Chinese-population, ESRD, qPCR, 16S-rRNA, Prevotella, Roseburia, Faecalibacterium]
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, coprococcus, faecalibacterium-prausnitzii, prevotella, roseburia]
 ---
 
 # Gut Microbiota Alteration in Chinese CKD Population

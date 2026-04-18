@@ -11,13 +11,16 @@ tags: [parkinsons-disease, microbiome-composition, nutritional-intake, dietary-p
 library_category: diet
 platform: both
 condition: "Parkinson's disease"
+evidence_level: cross-sectional
+metals_discussed: [iron, manganese, zinc]
+karen_brain_primitives: [1, 5]
 ---
 
 # Nutritional Intake and Gut Microbiome Composition Predict Parkinson's Disease
 
 ## Summary
 
-This study demonstrates that combining nutritional intake data with gut [[microbiome]] composition creates a powerful predictive model for [[parkinsons-disease]], suggesting that diet-microbiome interactions are central to PD pathogenesis.
+This study demonstrates that combining nutritional intake data with gut [[gut-microbiome|microbiome]] composition creates a powerful predictive model for [[parkinsons-disease]], suggesting that diet-microbiome interactions are central to PD pathogenesis.
 
 ## Key Findings
 
@@ -30,7 +33,7 @@ This study demonstrates that combining nutritional intake data with gut [[microb
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Diet is the primary modifiable determinant of both metal exposure and [[microbiome]] composition. Low fiber diets fail to bind dietary metals (phytates, fiber chelate [[iron]], [[zinc]], [[manganese]]), increasing free metal availability to gut bacteria. Low fiber also starves SCFA-producing commensals, enabling metal-tolerant pathobiont expansion. High processed food intake increases dietary metal contaminant exposure. The combined diet-microbiome prediction model likely captures these metal-mediated interactions even without explicitly measuring metals. Adding dietary metal intake data to this model could further improve predictive power.
+Diet is the primary modifiable determinant of both metal exposure and [[gut-microbiome|microbiome]] composition. Low fiber diets fail to bind dietary metals (phytates, fiber chelate [[iron]], [[zinc]], [[manganese]]), increasing free metal availability to gut bacteria. Low fiber also starves SCFA-producing commensals, enabling metal-tolerant pathobiont expansion. High processed food intake increases dietary metal contaminant exposure. The combined diet-microbiome prediction model likely captures these metal-mediated interactions even without explicitly measuring metals. Adding dietary metal intake data to this model could further improve predictive power.
 
 ## Limitations
 

@@ -1,5 +1,4 @@
 ---
-
 title: Metallomics
 type: concept
 created: 2026-04-09
@@ -7,6 +6,9 @@ updated: 2026-04-09
 sources: [zhang-2022-metallomics-cancer-review, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd, scholefield-2024-brain-metallomics-dementia, schilling-2020-urine-metallomics-pancreatic-cancer, lim-2023-plasma-metallomics-ami, patil-2021-infection-metallomics-critical-care, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, brylinski-2025-trace-elements-thyroid-diseases, saleh-2020-serum-trace-elements-prostate-cancer, blazewicz-2023-metal-profiles-asd]
 tags: [metallomics, biomarkers, ICP-MS, cancer-diagnostics, metal-profiling, copper-zinc-ratio, selenoproteins, infection-metallomics, brain-metallomics, precision-medicine]
 platform: wikibiome
+karen_brain_primitives: [1, 3, 4, 8]
+seo_target: "metallomics microbiome"
+last_substantive_update: 2026-04-09
 ---
 
 # Metallomics

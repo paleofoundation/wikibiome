@@ -1,5 +1,4 @@
 ---
-
 title: Microbial Biomarkers
 type: concept
 created: 2026-04-10
@@ -7,6 +6,9 @@ updated: 2026-04-10
 sources: [patil-2021-infection-metallomics-critical-care, zheng-2021-bacterial-aromatic-amino-acids-asd, kang-2023-diagnosis-crohns-uc-microbiome]
 tags: [biomarkers, microbiome, diagnostics, F-nucleatum, F-prausnitzii, TMAO, p-cresol, metallophores, metabolomics, taxa-based, metabolite-based]
 platform: wikibiome
+karen_brain_primitives: [1, 2, 5, 8]
+seo_target: "microbial biomarkers"
+last_substantive_update: 2026-04-10
 ---
 
 # Microbial Biomarkers

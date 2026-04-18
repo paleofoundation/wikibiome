@@ -11,6 +11,10 @@ tags: [postpartum-depression, gut-brain-axis, microbiota, serotonin, SCFA, HPA-a
 library_category: review
 platform: cureva
 condition: "postpartum depression"
+evidence_level: case-control
+metals_discussed: [copper, iron, magnesium, zinc]
+karen_brain_primitives: [5, 7]
+key_findings: ["PPD affects 10-30% of mothers", "Gut microbiota influence PPD", "Estrogen and progesterone"]
 ---
 
 # Key Claims

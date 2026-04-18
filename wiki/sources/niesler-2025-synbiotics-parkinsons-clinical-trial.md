@@ -11,6 +11,10 @@ tags: [parkinsons-disease, synbiotics, probiotics, prebiotics, randomized-contro
 library_category: therapeutics
 platform: gut
 condition: "Parkinson's disease"
+evidence_level: randomized-controlled-trial
+metals_discussed: [iron]
+taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [1, 2, 5]
 ---
 
 # Synbiotic Supplementation in Parkinson's Disease

@@ -11,6 +11,9 @@ tags: [type-1-diabetes, autoimmune, scfa, dietary-fibre, gut-microbiota, insulin
 library_category: reviews
 platform: cureva
 condition: "type 2 diabetes"
+metals_discussed: [iron, selenium, zinc]
+karen_brain_primitives: [1, 4, 5]
+key_findings: ["SCFAs are modulators of metabolic pathways", "Dietary fibre may increase SCFA production", "Main mechanisms of beneficial gut microbiota effect"]
 ---
 
 # Key Claims

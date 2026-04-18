@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Mycobiome in Cardiometabolic Disease Progression: Current Evidence and Future Directions"
 type: source
 created: 2026-04-09
@@ -12,6 +11,8 @@ tags: [cardiovascular-disease, mycobiome, fungi, Candida, Saccharomyces, Malasse
 source_pdf: "raw/cardiovascular disease/Mycobiome cardiovascular disease/Gut mycobiome in cardiometabolic disease progression- current evidence and future directions.pdf"
 pages_read: "1-8"
 platform: wikibiome
+taxa_discussed: [candida-albicans, fusarium, malassezia, mucor, saccharomyces-cerevisiae]
+karen_brain_primitives: [5, 6]
 ---
 
 # Key Claims
@@ -33,9 +34,9 @@ platform: wikibiome
 
 # Connections
 
-- Central reference for [[mycobiome]] and [[fungal dysbiosis]] in [[cardiovascular-disease]]
-- *Candida* and *Saccharomyces* findings relevant to [[fungal microbiota]] in CVD
-- Cross-kingdom bacterial-fungal interactions extend [[microbiome-host interactions]]
-- Fungal metabolite pathways complement [[microbiome-derived metabolites]] understanding
-- Hypertension-mycobiome links inform [[microbiome composition]] in blood pressure regulation
+- Central reference for [[mycobiome]] and [[mycobiome|fungal dysbiosis]] in [[cardiovascular-disease]]
+- *Candida* and *Saccharomyces* findings relevant to [[mycobiome|fungal microbiota]] in CVD
+- Cross-kingdom bacterial-fungal interactions extend [[gut-metal-microbiome|microbiome-host interactions]]
+- Fungal metabolite pathways complement [[microbiome-derived-metabolites]] understanding
+- Hypertension-mycobiome links inform [[dysbiosis|microbiome composition]] in blood pressure regulation
 - GutHeart trial failure relevant to [[probiotics]] intervention design for CVD

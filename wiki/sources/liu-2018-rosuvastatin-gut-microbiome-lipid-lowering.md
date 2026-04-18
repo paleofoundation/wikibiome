@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiome Associates With Lipid-Lowering Effect of Rosuvastatin in Vivo"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2018
 doi: "10.3389/fmicb.2018.00530"
 tags: [colon-cancer, colorectal-cancer, statins, rosuvastatin, gut-microbiome, hyperlipidemia, 16S-rRNA, lipid-metabolism, Firmicutes, Fusobacteria, LDL-C, alpha-diversity]
 platform: wikibiome
+taxa_discussed: [bacteroides-fragilis, dialister, fusobacterium-nucleatum, lactobacillus]
 ---
 
 # Liu 2018 -- Gut Microbiome Associates With Rosuvastatin Lipid-Lowering Effect

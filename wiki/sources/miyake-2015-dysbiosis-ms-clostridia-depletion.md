@@ -1,5 +1,4 @@
 ---
-
 title: "Dysbiosis in the Gut Microbiota of Patients with Multiple Sclerosis, with a Striking Depletion of Species Belonging to Clostridia XIVa and IV Clusters"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2015
 doi: 10.1371/journal.pone.0137429
 tags: [multiple-sclerosis, dysbiosis, Clostridia, Tregs, 16S-rRNA, gut-microbiome, Streptococcus, Eggerthella, Japanese-cohort]
 platform: wikibiome
+evidence_level: cross-sectional
+metals_discussed: [cadmium, lead, nickel]
+taxa_discussed: [anaerostipes, bacteroides-fragilis, bifidobacterium, faecalibacterium-prausnitzii, prevotella, streptococcus]
+karen_brain_primitives: [1]
 ---
 
 # Dysbiosis in the Gut Microbiota of Patients with Multiple Sclerosis, with a Striking Depletion of Species Belonging to Clostridia XIVa and IV Clusters

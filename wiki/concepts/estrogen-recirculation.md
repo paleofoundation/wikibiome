@@ -1,5 +1,4 @@
 ---
-
 title: "Estrogen Recirculation"
 type: concept
 created: 2026-04-10
@@ -8,6 +7,9 @@ sources: [uzuner-2023-bidirectional-relationship-endometriosis-microbiome.md, wu
 tags: [estrobolome, estrogen-metabolism, enterohepatic-circulation, hormone-biology]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
 platform: wikibiome
+karen_brain_primitives: [1, 4, 7]
+seo_target: "estrogen recirculation microbiome"
+last_substantive_update: 2026-04-10
 ---
 
 ## Overview
@@ -41,7 +43,7 @@ Estrogen recirculation is mechanistically linked to:
 - **[[endometriosis]]** — Amplified local estrogen via high β-glucuronidase in dysbiotic microbiota; sustained estrogen drives ectopic endometrial growth and inflammation [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]].
 - **[[breast-cancer]]** — Elevated systemic estrogen from hyperactive recirculation is a major risk factor; estrogen promotes proliferation of ER+ tumor cells. *Eggerthella*, *Bacteroides*, and *Escherichia* enrichment correlate with breast cancer incidence through the estrobolome mechanism (Plottel & Blaser 2011; Kwa et al. 2016) [[wu-2024-estrogens-androgens-microbiota-crc]].
 - **[[pcos]]** — Elevated androgens + recirculated estrogen drive irregular ovulation and metabolic dysfunction [[zim-2025-estrogen-gut-brain-axis-oral-contraceptives]].
-- **[[uterine-fibroids]]** — Estrogen-driven smooth muscle proliferation amplified by dysbiotic recirculation.
+- **[[endometriosis|uterine-fibroids]]** — Estrogen-driven smooth muscle proliferation amplified by dysbiotic recirculation.
 - **[[menstrual-migraine]]** — Estrogen fluctuations trigger migraine; dysbiotic recirculation flattens normal cycle dynamics and shifts trigger thresholds.
 
 ## Metal Connections

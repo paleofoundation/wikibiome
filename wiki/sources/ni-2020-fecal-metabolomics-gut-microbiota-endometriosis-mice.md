@@ -1,5 +1,4 @@
 ---
-
 title: "Correlation of fecal metabolomics and gut microbiota in mice with endometriosis"
 type: source
 created: 2026-04-09
@@ -10,11 +9,14 @@ year: 2020
 tags: [endometriosis, gut-microbiome, metabolomics, bile-acids, mouse-model, dysbiosis, CDCA, UDCA, alpha-linolenic-acid, metabolites]
 doi: "10.1111/aji.13307"
 platform: wikibiome
+evidence_level: animal-model
+taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, lachnospiraceae, lactobacillus]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims
 
-- 156 named differential [[metabolites]] were identified between endometriosis and control mice feces
+- 156 named differential [[short-chain-fatty-acids|metabolites]] were identified between endometriosis and control mice feces
 - Bile acid biosynthesis and alpha-linolenic acid (ALA) metabolism were the most significantly enriched pathways
 - Chenodeoxycholic acid (CDCA) and ursodeoxycholic acid (UDCA) were increased while ALA and 12,13-EOTrE were decreased in endometriosis mice
 - The diversity and abundance of gut microbiota were decreased in the endometriosis mouse model
@@ -34,4 +36,4 @@ platform: wikibiome
 
 # Relevance to Wiki
 
-This study uniquely integrates fecal metabolomics with gut microbiota analysis in [[endometriosis]], identifying bile acid and fatty acid metabolism as key altered pathways. The connection between [[dysbiosis]] and bile acid [[metabolites]] is relevant to understanding how the gut microbiome modulates estrogen metabolism and inflammation in endometriosis. Bile acid metabolism links to the estrobolome concept, where microbial enzymes influence circulating estrogen levels that drive endometriosis progression.
+This study uniquely integrates fecal metabolomics with gut microbiota analysis in [[endometriosis]], identifying bile acid and fatty acid metabolism as key altered pathways. The connection between [[dysbiosis]] and bile acid [[short-chain-fatty-acids|metabolites]] is relevant to understanding how the gut microbiome modulates estrogen metabolism and inflammation in endometriosis. Bile acid metabolism links to the estrobolome concept, where microbial enzymes influence circulating estrogen levels that drive endometriosis progression.

@@ -1,5 +1,4 @@
 ---
-
 title: "Gut Microbiota, Immune Cell, Colorectal Cancer Association Mediators: A Mendelian Randomization Study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2025
 tags: [colon-cancer, mendelian-randomization, immune-cells, mediation-analysis, Collinsella-aerofaciens, Ruminococcus-bromii, HLA-DR, CD127, colorectal-cancer]
 doi: "10.1186/s12885-025-13574-6"
 platform: wikibiome
+evidence_level: computational-prediction
+taxa_discussed: [bifidobacterium, collinsella, ruminococcus, veillonella]
+karen_brain_primitives: [5]
 ---
 
 # Gut Microbiota, Immune Cell, Colorectal Cancer Association Mediators: A Mendelian Randomization Study

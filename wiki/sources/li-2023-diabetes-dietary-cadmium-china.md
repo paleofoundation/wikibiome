@@ -41,7 +41,7 @@ Top-down burden-of-disease calculation. Systematic literature search (PubMed, We
 
 - [[cadmium]] entity page — blood Cd benchmarks; half-life; dietary sources; global comparison.
 - [[type-2-diabetes]] disease page — cadmium as quantified environmental driver with dose-response.
-- [[diet-heavy-metal-exposure]] concept — diet >> water/air as Cd source for non-occupational populations.
+- [[dietary-metal-microbiome-interactions|diet-heavy-metal-exposure]] concept — diet >> water/air as Cd source for non-occupational populations.
 
 ## Relevance to Cureva
 

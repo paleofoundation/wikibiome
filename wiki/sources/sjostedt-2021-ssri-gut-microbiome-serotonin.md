@@ -11,6 +11,7 @@ tags: [autism-spectrum-disorder, SSRI, serotonin, gut-microbiome, psychopharmaco
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+key_findings: ["Majority of serotonin", "SSRIs exhibit antimicrobial properties", "The role of the gut-brain axis"]
 ---
 
 # Key Claims

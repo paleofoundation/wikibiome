@@ -40,7 +40,7 @@ key_findings:
 ## Relevance to WikiBiome
 
 - [[arsenic]] entity — infant exposure window; weaning as inflection point.
-- [[rice-cereal]] concept/entity — primary early-life i-As source in the U.S.
+- [[dietary-arsenic-exposure|rice-cereal]] concept/entity — primary early-life i-As source in the U.S.
 - [[infant-exposure]] concept — breastmilk as protective; formula as elevated-exposure pathway.
 
 ## Relevance to Cureva

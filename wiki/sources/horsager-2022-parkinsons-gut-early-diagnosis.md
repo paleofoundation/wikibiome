@@ -6,11 +6,13 @@ updated: 2026-04-09
 authors: [Jacob Horsager, Per Borghammer]
 year: 2022
 journal: "Lancet Gastroenterology and Hepatology"
-doi: "not yet verified"  # <!-- UNVERIFIED DOI: original value was placeholder/missing ("unverified"); needs manual lookup from source PDF -->
+doi: "not yet verified"  # <!-- DOI lookup needed: Lancet Gastroenterology and Hepatology 2022 -->
 tags: [parkinsons-disease, early-diagnosis, gut-brain-axis, prodromal-PD, body-first-PD, brain-first-PD, alpha-synuclein, current-perspectives]
 library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
+metals_discussed: [manganese, zinc]
+karen_brain_primitives: [1, 2]
 ---
 
 # Parkinson's Disease and the Gut: Future Perspectives for Early Diagnosis

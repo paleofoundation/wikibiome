@@ -1,5 +1,4 @@
 ---
-
 title: "Microbiome of the lower genital tract in Chinese women with endometriosis by 16s-rRNA sequencing technique: a pilot study"
 type: source
 created: 2026-04-09
@@ -10,6 +9,10 @@ year: 2020
 tags: [endometriosis, adenomyosis, cervical-microbiome, vaginal-microbiome, Atopobium, Lactobacillus, 16S-rRNA, PICRUSt, bioinformatics]
 doi: "10.21037/atm-20-1309"
 platform: wikibiome
+evidence_level: case-control
+metals_discussed: [iron, nickel]
+taxa_discussed: [atopobium, campylobacter-jejuni, escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, shigella]
+karen_brain_primitives: [1, 5]
 ---
 
 # Key Claims

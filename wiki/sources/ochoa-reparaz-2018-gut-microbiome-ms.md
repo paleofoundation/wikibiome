@@ -1,5 +1,4 @@
 ---
-
 title: "The Gut Microbiome and Multiple Sclerosis"
 type: source
 created: 2026-04-09
@@ -10,6 +9,9 @@ year: 2018
 tags: [multiple-sclerosis, gut-microbiome, EAE, Tregs, Bacteroides-fragilis, PSA, blood-brain-barrier, dysbiosis, immunomodulation, SCFAs]
 doi: "10.1101/cshperspect.a029017"
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [bacteroides-fragilis, porphyromonas]
+karen_brain_primitives: [5]
 ---
 
 # The Gut Microbiome and Multiple Sclerosis
@@ -18,7 +20,7 @@ platform: wikibiome
 
 - The gut microbiome is proposed as the major environmental risk factor for CNS demyelinating disease
 - Gut dysbiosis can alter both the effector and regulatory phases of [[multiple-sclerosis|MS]] demyelination
-- [[bacteroides-fragilis]] polysaccharide A (PSA) is a potent immunomodulatory symbiont factor that protects against EAE via TLR2-dependent CD4+ T-cell activation and induction of IL-10-producing [[Tregs]]
+- [[bacteroides-fragilis]] polysaccharide A (PSA) is a potent immunomodulatory symbiont factor that protects against EAE via TLR2-dependent CD4+ T-cell activation and induction of IL-10-producing [[inflammation|Tregs]]
 - Fecal transplantation from MS patients into germ-free mice produces more severe EAE than transplants from healthy donors, providing causal evidence for the MS microbiome's functional role
 - Segmented filamentous bacterium (SFB) exacerbates EAE via induction of Th17 cells; *Porphyromonas gingivalis* LPS promotes neuroinflammation via TLR2
 - CD39+ Tregs are reduced in frequency and function in RRMS patients; PSA treatment promotes CD39 expression and restores Treg function in EAE mice

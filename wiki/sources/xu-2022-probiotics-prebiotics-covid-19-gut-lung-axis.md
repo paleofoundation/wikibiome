@@ -15,7 +15,7 @@ library_category: interventions
 platform: both
 condition: "COVID-19 prevention and treatment"
 karen_brain_primitives: [5]
-metals_discussed: []
+metals_discussed: [iron, zinc]
 taxa_discussed: [lactobacillus, bifidobacterium, faecalibacterium, firmicutes, bacteroidetes]
 key_findings: [
   "COVID-19 causes dysbiosis that impairs lung immunity via disrupted gut-lung axis",

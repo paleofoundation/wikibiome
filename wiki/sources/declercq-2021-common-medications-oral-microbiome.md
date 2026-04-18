@@ -1,5 +1,4 @@
 ---
-
 title: "Investigation of the impact of commonly used medications on the oral microbiome of individuals living without major chronic conditions"
 type: source
 created: 2026-04-09
@@ -10,13 +9,15 @@ year: 2021
 doi: 10.1371/journal.pone.0261032
 tags: [oral-microbiome, medications, statins, PPIs, thyroid-hormones, drug-microbiome-interaction, 16S-rRNA, multiple-sclerosis]
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [mycoplasma]
 ---
 
 # Investigation of the Impact of Commonly Used Medications on the Oral Microbiome of Individuals Living Without Major Chronic Conditions
 
 ## Summary
 
-This study from the Atlantic PATH cohort (1,214 saliva samples from healthy adults aged 35-69) investigates the effects of commonly used medications -- particularly thyroid hormones, [[statins]], and proton pump inhibitors (PPIs) -- on the oral microbiome using 16S rRNA gene sequencing.
+This study from the Atlantic PATH cohort (1,214 saliva samples from healthy adults aged 35-69) investigates the effects of commonly used medications -- particularly thyroid hormones, [[pharmacomicrobiomics|statins]], and proton pump inhibitors (PPIs) -- on the oral microbiome using 16S rRNA gene sequencing.
 
 ## Key Findings
 
@@ -30,7 +31,7 @@ This study from the Atlantic PATH cohort (1,214 saliva samples from healthy adul
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This study provides reassuring evidence that common medications including [[statins]] have relatively modest effects on the oral microbiome in otherwise healthy individuals. For [[multiple-sclerosis]] patients taking multiple medications alongside DMTs, this suggests that comorbidity medications are unlikely to be major confounders in oral microbiome studies. However, the subtle genus-level changes observed may be amplified in individuals with pre-existing [[dysbiosis]] or [[heavy-metals]] exposure.
+This study provides reassuring evidence that common medications including [[pharmacomicrobiomics|statins]] have relatively modest effects on the oral microbiome in otherwise healthy individuals. For [[multiple-sclerosis]] patients taking multiple medications alongside DMTs, this suggests that comorbidity medications are unlikely to be major confounders in oral microbiome studies. However, the subtle genus-level changes observed may be amplified in individuals with pre-existing [[dysbiosis]] or [[heavy-metals]] exposure.
 
 ## Limitations
 

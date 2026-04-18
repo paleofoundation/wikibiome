@@ -12,6 +12,10 @@ library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: cross-sectional
+metals_discussed: [nickel]
+taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [1, 4]
+key_findings: ["Poor dietary quality", "ASD children exhibit more pronounced diet-microbiome interaction networks", "Synthetic emulsifiers"]
 ---
 
 # Key Claims

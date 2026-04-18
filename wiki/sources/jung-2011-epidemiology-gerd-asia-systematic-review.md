@@ -1,5 +1,4 @@
 ---
-
 title: "Epidemiology of Gastroesophageal Reflux Disease in Asia: A Systematic Review"
 type: source
 created: 2026-04-09
@@ -10,6 +9,7 @@ year: 2011
 doi: "10.5056/jnm.2011.17.1.14"
 tags: [gerd, gastroesophageal-reflux, epidemiology, asia, prevalence, erosive-esophagitis, barretts-esophagus, extra-esophageal-symptoms, systematic-review]
 platform: wikibiome
+evidence_level: systematic-review-meta-analysis
 ---
 
 # Epidemiology of Gastroesophageal Reflux Disease in Asia: A Systematic Review

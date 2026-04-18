@@ -12,15 +12,13 @@ metal_dependencies: [nickel, iron, zinc, manganese]
 key_enzymes: [Ni-GloI (glyoxalase I), ribonucleotide reductase, transferrin-binding proteins TbpA/TbpB, lactoferrin-binding proteins LbpA/LbpB, Fur (ferric uptake regulator), zinc-dependent carbonic anhydrase]
 tags: [pathogen, meningitis, sepsis, nasopharyngeal-commensal, Ni-GloI, iron-piracy, serogroup-vaccines, meningitis-belt]
 platform: wikibiome
-last_substantive_update: 2026-04-16
 seo_target: "Neisseria meningitidis nickel glyoxalase meningitis iron acquisition virulence"
 wikipedia_differentiation: "Nickel-dependent glyoxalase I as selective drug target with structural distinction from human Zn-GloI; infection metallomics diagnostic framework (siderophore monitoring, metalloprotein tracking); multi-metal dependency map (Ni for GloI, Fe for multiple piracy systems, Zn for carbonic anhydrase, Mn for oxidative defense); meningitidis BBB crossing metal requirements — depth absent from Wikipedia's clinical/epidemiological focus"
 conditions_enriched_in: [bacterial-meningitis, meningococcal-septicemia]
 conditions_depleted_in: []
 pathogenic_potential: commensal-turned-pathogen
 gram_stain: "negative"
-oxygen_requirement: "aerobic/microaerophilic"
----
+oxygen_requirement: "aerobic/microaerophilic"---
 
 # Neisseria meningitidis
 

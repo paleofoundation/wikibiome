@@ -11,6 +11,8 @@ tags: [autism-spectrum-disorder, antidepressants, SSRI, gut-microbiome, anxiety,
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
+evidence_level: cross-sectional
+key_findings: ["Antidepressant use"]
 ---
 
 # Key Claims

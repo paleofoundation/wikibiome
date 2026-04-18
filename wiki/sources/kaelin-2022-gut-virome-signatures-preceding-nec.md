@@ -37,8 +37,8 @@ Nested prospective case-control. 23 preterm infants (9 NEC, 14 controls). Viral 
 
 ## Relevance to WikiBiome
 
-- **Concept pages:** [[interkingdom-relationships]] — adds phage-bacterial ecology to preterm gut narrative.
-- **Entity pages:** [[enterobacteriaceae]], [[escherichia-coli]], [[staphylococcus]], [[bifidobacterium]].
+- **Concept pages:** [[inter-kingdom-metal-shielding|interkingdom-relationships]] — adds phage-bacterial ecology to preterm gut narrative.
+- **Entity pages:** [[enterobacteriaceae]], [[escherichia-coli]], [[staphylococcus-aureus|staphylococcus]], [[bifidobacterium]].
 - **Signature page:** [[necrotizing-enterocolitis-signature]] — adds virome layer.
 
 ## Relevance to Cureva

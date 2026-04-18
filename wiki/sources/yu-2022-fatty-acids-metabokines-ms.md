@@ -1,5 +1,4 @@
 ---
-
 title: "Fatty Acids Role in Multiple Sclerosis as 'Metabokines'"
 type: source
 created: 2026-04-09
@@ -10,7 +9,7 @@ year: 2022
 tags: [fatty-acids, multiple-sclerosis, SCFA, MCFA, LCFA, PUFA, metabokines, Treg, Th17, GPR43, HDAC, remyelination, review]
 doi: "10.1186/s12974-022-02502-1"
 platform: wikibiome
-karen_brain_primitives: []
+karen_brain_primitives: [5]
 metals_discussed: []
 taxa_discussed: []
 evidence_level: expert-opinion
@@ -20,11 +19,11 @@ evidence_level: expert-opinion
 
 ## Key Claims
 
-- Fatty acids (FAs) function as "[[metabokines]]" in MS -- beyond traditional metabolic roles, they serve as critical immune regulators, blood-brain barrier protectors, and materials for [[remyelination]]
-- [[Short-chain-fatty-acids]] (SCFAs) regulate immune function via five major mechanisms: (1) energy substrates for beta-oxidation, (2) membrane dynamics regulators, (3) GPCR activators (GPR41/43/109a), (4) HDAC inhibitors for epigenetic regulation, (5) metabolism of lipid mediators
-- The intracellular SFA/PUFA ratio in T cells determines pathogenic vs non-pathogenic state: unsaturated FA composition facilitates non-pathogenic maintenance while saturated FA promotes [[Th17]] pathogenicity via CD5L-mediated lipolysis
+- Fatty acids (FAs) function as "[[short-chain-fatty-acids|metabokines]]" in MS -- beyond traditional metabolic roles, they serve as critical immune regulators, blood-brain barrier protectors, and materials for [[neuroinflammation|remyelination]]
+- [[short-chain-fatty-acids]] (SCFAs) regulate immune function via five major mechanisms: (1) energy substrates for beta-oxidation, (2) membrane dynamics regulators, (3) GPCR activators (GPR41/43/109a), (4) HDAC inhibitors for epigenetic regulation, (5) metabolism of lipid mediators
+- The intracellular SFA/PUFA ratio in T cells determines pathogenic vs non-pathogenic state: unsaturated FA composition facilitates non-pathogenic maintenance while saturated FA promotes [[inflammation|Th17]] pathogenicity via CD5L-mediated lipolysis
 - Propionic acid supplementation in MS showed significant clinical benefit: a 3-year add-on therapy study demonstrated significantly reduced annual relapse rate, slowed disease progression, and brain atrophy
-- [[Valproic acid]] (a synthetic SCFA) alleviates EAE clinical scores, attenuates local inflammation of optic nerves, and reduces pro-inflammatory cytokine expression via NF-kB pathway
+- [[pharmacomicrobiomics|Valproic acid]] (a synthetic SCFA) alleviates EAE clinical scores, attenuates local inflammation of optic nerves, and reduces pro-inflammatory cytokine expression via NF-kB pathway
 
 ## Methods/Findings
 
@@ -36,7 +35,7 @@ evidence_level: expert-opinion
 
 ## Connections
 
-- The "metabokines" framework integrates [[short-chain-fatty-acids]], and LCFA roles, connecting [[saresella-2020-circulating-fatty-acids-dysbiosis-ms]] butyrate/caproic findings to broader FA biology
+- The "metabokines" framework integrates [[short-chain-fatty-acids]], and LCFA roles, connecting [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]] butyrate/caproic findings to broader FA biology
 - HDAC inhibition by SCFAs links to epigenetic mechanisms discussed in [[bucciero-2026-diet-ms-oxidative-stress-nrf2]] and dietary fiber interventions
 - The propionic acid clinical trial data provides direct therapeutic evidence supporting approaches to boost SCFA production
 - Intracellular FA composition determining Th17 pathogenicity connects to [[correale-2021-amino-acid-catabolizing-enzymes-ms]] on metabolic checkpoints in immune cells

@@ -1,5 +1,4 @@
 ---
-
 title: "Comparative Diet-Gut Microbiome Analysis in Crohn's Disease and Hidradenitis Suppurativa"
 type: source
 created: 2026-04-09
@@ -10,6 +9,8 @@ year: 2023
 tags: [crohns-disease, IBD, hidradenitis-suppurativa, gut-microbiota, diet, Western-diet, dysbiosis, gut-skin-axis, Faecalibacterium, inflammation]
 doi: "10.3389/fmicb.2023.1289374"
 platform: wikibiome
+evidence_level: cross-sectional
+taxa_discussed: [enterococcus, escherichia-coli, faecalibacterium-prausnitzii, shigella, subdoligranulum, veillonella]
 ---
 
 # Key Claims

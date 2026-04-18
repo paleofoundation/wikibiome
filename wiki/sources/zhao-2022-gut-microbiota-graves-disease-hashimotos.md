@@ -1,5 +1,4 @@
 ---
-
 title: "Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis"
 type: source
 created: 2026-04-09
@@ -11,14 +10,15 @@ doi: "10.33073/pjm-2022-016"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, 16S-rRNA, ABC-transporter, Bacteroidetes, Proteobacteria, Actinomycetes, KEGG, biomarkers]
 platform: wikibiome
 evidence_level: cross-sectional
+taxa_discussed: [blautia, christensenellaceae, lachnospiraceae]
 ---
 
 # Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis
 
 ## Key Claims
 
-- The overall structure of [[gut microbiome]] in GD and HT groups was significantly different from the healthy control group
-- [[Proteobacteria]] and [[Actinomycetes]] contents were highest in the HT group; the HT group also contained a small number of [[Verrucomicrobiaceae]]
+- The overall structure of [[gut-microbiome]] in GD and HT groups was significantly different from the healthy control group
+- [[proteobacteria]] and [[actinomyces|Actinomycetes]] contents were highest in the HT group; the HT group also contained a small number of [[akkermansia-muciniphila|Verrucomicrobiaceae]]
 - The "ABC transporter" metabolic pathway was highly correlated with the occurrence of GD and HT
 - GD and HT groups were enriched in carbohydrate transport and metabolism compared to healthy controls
 - [[bacillus]], [[blautia]], and [[Ornithinimicrobium]] could be used as potential markers to distinguish GD and HT from healthy populations
@@ -36,7 +36,7 @@ evidence_level: cross-sectional
 
 ## Connections
 
-- ABC transporter pathway finding connects metabolic dysregulation to [[Microbiome-Derived Metabolites]] in thyroid disease
+- ABC transporter pathway finding connects metabolic dysregulation to [[microbiome-derived-metabolites]] in thyroid disease
 - Proteobacteria enrichment in HT aligns with [[ishaq-2017-gut-microbial-composition-hashimotos]] and [[liu-2022-gut-microbiota-diversity-hashimotos]]
-- Blautia as potential biomarker connects to [[Microbial Biomarkers]] for thyroid autoimmune conditions
+- Blautia as potential biomarker connects to [[microbial-biomarkers]] for thyroid autoimmune conditions
 - KEGG pathway analysis approach parallels [[li-2024-integrative-gut-microbiome-transcriptome-hashimotos]]

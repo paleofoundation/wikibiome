@@ -48,6 +48,6 @@ karen_brain_primitives: [2]
 - Supports [[iron]] deficiency as a PPD risk factor as reviewed in [[etebary-2010-ppd-serum-trace-elements]]
 - Provides evidence base for [[tian-2020-iron-supplementation-ppd-protocol]] which proposes iron supplementation as PPD treatment
 - Relevant to [[aoki-2022-zinc-supplementation-ppd-anemia]] where Fe supplementation was standard and Zn was added
-- Mechanism: Hemoglobin decline may alter [[neurotransmitter]] function, cellular oxidative and thyroid hormone metabolism; reduction of inflammatory cytokines like [[IL-2]] may play a role
+- Mechanism: Hemoglobin decline may alter [[gut-brain-axis|neurotransmitter]] function, cellular oxidative and thyroid hormone metabolism; reduction of inflammatory cytokines like [[inflammation|IL-2]] may play a role
 - Connects to broader [[postpartum-depression]] risk factor literature
-- The ferritin finding links to [[iron deficiency]] as a modifiable risk factor for PPD prevention
+- The ferritin finding links to [[iron|iron deficiency]] as a modifiable risk factor for PPD prevention

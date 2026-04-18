@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Key Claims
 
-- [[bile acids]] (BAs) are synthesized from cholesterol in the liver, conjugated to glycine or taurine, and bio-transformed by the [[gut-metal-microbiome|gut microbiota]] in the colon into secondary BAs (DCA, LCA) and tertiary BAs (UDCA)
+- [[bile-acid-metabolism]] (BAs) are synthesized from cholesterol in the liver, conjugated to glycine or taurine, and bio-transformed by the [[gut-metal-microbiome|gut microbiota]] in the colon into secondary BAs (DCA, LCA) and tertiary BAs (UDCA)
 - BAs function as signaling molecules via farnesoid X receptor (FXR) and G-protein coupled bile acid receptor-1 (GPBAR-1/TGR5), regulating energy, glucose, lipid, and lipoprotein metabolism
 - The intestinal microbiota performs critical deconjugation, 7alpha-dehydroxylation, and epimerization reactions that transform primary BAs into secondary BAs
 - FXR activation regulates BA synthesis via the ileal FGF15/19 pathway and directly controls CYP7A1 transcription, creating a negative feedback loop for hepatic BA production
@@ -36,5 +36,5 @@ platform: wikibiome
 - Secondary BA alterations link to [[dysbiosis]]-associated diseases including colorectal cancer and inflammatory conditions
 - FXR/GPBAR-1 signaling connects to metabolic outcomes of heavy metal exposure including altered lipid and glucose metabolism seen in [[akash-2023-metabolomics-heavy-metal-toxicities]]
 - Diet-BA-microbiome interactions relevant to [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]] findings on HFD increasing metal toxicity
-- BA biosynthesis disruption connects to [[oxidative-stress|oxidative stress]] pathways and liver damage from [[heavy metals]]
+- BA biosynthesis disruption connects to [[oxidative-stress|oxidative stress]] pathways and liver damage from [[heavy-metals]]
 - [[colorectal-cancer]]

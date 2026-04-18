@@ -1,5 +1,4 @@
 ---
-
 title: "Role of the Intestinal Microbiome and Its Therapeutic Intervention in Cardiovascular Disorder"
 type: source
 created: 2026-04-09
@@ -12,6 +11,9 @@ tags: [cardiovascular-disease, gut-microbiome, TMAO, SCFAs, dysbiosis, atheroscl
 source_pdf: "raw/cardiovascular disease/Functional microbiome shifts cardiovascular disease/Role of the intestinal microbiome and its therapeutic intervention in cardiovascular disorder.pdf"
 pages_read: "1-8"
 platform: wikibiome
+evidence_level: expert-opinion
+taxa_discussed: [blautia, collinsella, escherichia-coli, eubacterium, klebsiella-pneumoniae, lachnospiraceae, prevotella, streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims
@@ -33,9 +35,9 @@ platform: wikibiome
 
 # Connections
 
-- Central review linking [[functional microbiome shifts]] to [[cardiovascular-disease]] pathogenesis
-- TMAO pathway details extend [[microbial metabolites]] and [[metabolic pathways]] in CVD
-- Heart failure microbiome changes relevant to [[microbiome and disease progression]]
-- Therapeutic approaches connect to [[phage therapy]], [[prebiotics]], [[probiotics]], and [[fecal-microbiota-transplant]] in CVD
-- Dysbiosis mechanisms overlap with [[microbiome and inflammation]] in cardiovascular contexts
-- Table of CVD-related microbial shifts is a key reference for [[microbiome composition]] changes
+- Central review linking [[dysbiosis|functional microbiome shifts]] to [[cardiovascular-disease]] pathogenesis
+- TMAO pathway details extend [[short-chain-fatty-acids|microbial metabolites]] and [[fermentative-metabolism|metabolic pathways]] in CVD
+- Heart failure microbiome changes relevant to [[dysbiosis|microbiome and disease progression]]
+- Therapeutic approaches connect to [[virome]], [[prebiotics]], [[probiotics]], and [[fecal-microbiota-transplant]] in CVD
+- Dysbiosis mechanisms overlap with [[inflammation|microbiome and inflammation]] in cardiovascular contexts
+- Table of CVD-related microbial shifts is a key reference for [[dysbiosis|microbiome composition]] changes

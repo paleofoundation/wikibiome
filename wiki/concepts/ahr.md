@@ -7,6 +7,9 @@ sources: []
 tags: [immune-regulation, tryptophan-metabolism, gut-barrier, xenobiotic, neuroinflammation, indoles]
 karen_brain_primitive: "Primitive 3 / Primitive 6 — Xenobiotic sensing; microbial metabolite signaling"
 platform: wikibiome
+karen_brain_primitives: [1, 4, 8]
+seo_target: "ahr aryl hydrocarbon receptor microbiome"
+last_substantive_update: 2026-04-13
 ---
 
 The **aryl hydrocarbon receptor (AhR)** is a ligand-activated transcription factor that functions as a master sensor at the intersection of gut microbial metabolism, environmental chemical exposure, and immune regulation. It is expressed broadly across immune cells, intestinal epithelium, neurons, and liver cells. AhR represents one of the key mechanisms through which gut microbiome-derived metabolites directly influence host immunity and systemic inflammation.
@@ -48,7 +51,7 @@ The metal-dysbiosis framework explains this depletion: iron-enriched, oxygen-dep
 
 ## Conditions Where AhR is Implicated
 
-- **[[autism-spectrum-disorder-microbiome-signature|ASD]]** — depleted indole-producing bacteria; AhR hypoactivation linked to social behavior circuits in animal models
+- **[[autism-spectrum-disorder-signature|ASD]]** — depleted indole-producing bacteria; AhR hypoactivation linked to social behavior circuits in animal models
 - **[[multiple-sclerosis]]** — depleted Clostridiales; AhR activates neuroprotective signaling; ILC3 and Treg balance disrupted
 - **[[hashimotos-thyroiditis]]** — tryptophan metabolism disruption noted in metabolomics studies
 - **[[depression]]** — AhR connected to the tryptophan-serotonin-kynurenine axis that is perturbed in MDD
