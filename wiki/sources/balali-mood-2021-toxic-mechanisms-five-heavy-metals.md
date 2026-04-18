@@ -36,6 +36,7 @@ key_findings:
   - "Cadmium has 17-30 year biological half-life; kidney is primary target organ with beta-2 microglobulin as biomarker for tubular toxicity"
 karen_brain_primitives: [1, 3]
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

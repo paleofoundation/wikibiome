@@ -30,6 +30,7 @@ tags:
   - PLS-DA
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [1, 2, 3, 4, 5]
 keystone_criteria_met:
   - 1
   - 2

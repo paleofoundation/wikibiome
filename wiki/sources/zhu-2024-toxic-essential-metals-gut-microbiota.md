@@ -37,6 +37,7 @@ doi: 10.1016/j.biopha.2023.115602
 platform: wikibiome
 evidence_level: expert-opinion
 keystone: true
+keystone_criteria_met: [1, 2, 3]
 keystone_criteria_met:
   - 1
   - 2

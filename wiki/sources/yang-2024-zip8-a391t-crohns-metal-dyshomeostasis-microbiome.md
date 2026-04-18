@@ -41,6 +41,7 @@ metals_discussed:
 taxa_discussed: [akkermansia-muciniphila, lactobacillus, staphylococcus-aureus]
 evidence_level: cross-sectional
 keystone: true
+keystone_criteria_met: [1, 2, 3]
 keystone_criteria_met:
   - 1
   - 2

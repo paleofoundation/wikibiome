@@ -84,11 +84,9 @@ Cu has higher affinity for metallothionein than Zn, and elevated Cu can displace
 - Random forest model achieves AUC 0.942 for AMI classification -- but this was a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]].
 
 ### Rheumatoid Arthritis (Conflicting Findings)
-- RA patients in high soil Cu townships had higher WBC, ESR, DAS28 scores, platelet counts. Blood Cu was the only metal with significant ESR correlation in multiple regression (p = 0.008) [[yang-2016-copper-farm-soils-rheumatoid-arthritis]].
-- RA patients had highest blood Cu among disease groups (RA > gout > AS > steel workers) [[yang-2016-copper-farm-soils-rheumatoid-arthritis]].
 - Cu positively associated with CRP in Crohn's disease [[amerikanou-2022-ibd-biomarkers-trace-metals]].
-- **Contradicting**: One Pakistani study found significantly lower Cu in RA patients (p = 0.04) [[arshad-2023-heavy-metals-rheumatoid-arthritis]].
-- The discrepancy likely reflects Cu as an acute-phase reactant (ceruloplasmin rises with inflammation), making the direction of association context-dependent.
+- Earlier work ([[yang-2016-copper-farm-soils-rheumatoid-arthritis]], 2016, cross-sectional, n=122) suggested elevated blood Cu in RA patients, with Cu being the only metal significantly correlated with ESR in multiple regression (p = 0.008), and RA patients having higher blood Cu than gout, AS, and steel worker groups. This was superseded in evidence level by [[arshad-2023-heavy-metals-rheumatoid-arthritis]] (2023, case-control, n≈99), which found significantly *lower* serum Cu in RA patients compared to controls (p = 0.04). Case-control design ranks above cross-sectional in the evidence hierarchy (see §2b), so the lower-Cu finding carries primary interpretive weight.
+- The discrepancy likely reflects: (a) ceruloplasmin as an acute-phase reactant (serum Cu rises with inflammation, which could explain elevated Cu in the higher-inflammation Taiwanese cohort); (b) population/exposure differences (environmental soil Cu contamination in Changhua County, Taiwan, a heavy-industrial area, versus Sargodha, Pakistan); and (c) biomarker differences (blood vs. serum). Neither study controlled for ceruloplasmin. Conflict is explicitly noted on both source pages.
 
 ### Neurodegeneration (Brain Cu Decreased)
 - **Widespread Cu decreases** are a common feature across all three dementias (DLB, AD, PDD), the most widespread brain metallomic alteration [[scholefield-2024-brain-metallomics-dementia]].

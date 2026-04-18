@@ -23,7 +23,8 @@ tags:
   - phytoremediation
 doi: 10.3390/ijerph17113782
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [2, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -34,6 +35,9 @@ evidence_level: expert-opinion
 metals_discussed: [cadmium, lead, nickel, selenium, zinc]
 karen_brain_primitives: [3]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [2, 4]).
 
 # The Effects of Cadmium Toxicity
 

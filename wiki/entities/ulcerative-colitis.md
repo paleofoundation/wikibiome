@@ -99,7 +99,7 @@ A UC-specific vicious cycle:
 4. More bleeding → more luminal iron → cycle accelerates
 5. Simultaneously, systemic iron deficiency worsens (blood loss outpaces absorption)
 
-This explains why oral iron is contraindicated in active UC and why iron-restricted pathobiont control is a therapeutic target.
+This explains why oral iron is generally avoided during active UC flares and why iron-restricted pathobiont control is a recognized research target.
 
 <!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 

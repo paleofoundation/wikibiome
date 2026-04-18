@@ -25,7 +25,8 @@ tags:
   - endocrine-disruptors
 doi: 10.3390/antiox12010049
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [3]
 keystone_criteria_met:
   - 1
   - 2
@@ -36,6 +37,9 @@ evidence_level: systematic-review-meta-analysis
 metals_discussed: [antimony, arsenic, cadmium, chromium, copper, lead, magnesium, mercury, selenium, thallium, zinc]
 karen_brain_primitives: [4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [3]).
 
 # Key Claims
 

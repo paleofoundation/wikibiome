@@ -165,7 +165,7 @@ A striking connection has emerged between nickel sensitivity and [[endometriosis
 - **90.3% Ni ACM prevalence** in endometriosis patients with GI symptoms (Ni omPT positive). A 3-month low-Ni diet significantly improved all 15 gastrointestinal symptoms, all 7 extra-intestinal symptoms, **and** gynecological symptoms (dysmenorrhea, dyspareunia, pelvic pain) [[borghini-2020-endometriosis-nickel-ibs]].
 - Nickel may act as a [[metalloestrogens|metalloestrogen]] in endometriosis, binding estrogen receptors and promoting proliferation of estrogen-responsive tissue [[borghini-2020-endometriosis-nickel-ibs]].
 - **Peritoneal fluid nickel elevated 4:1** in a vegetarian endometriosis patient compared to controls (40.4 ug/L vs <LOD). The patient's vegetarian diet (high in tomatoes, nuts, legumes) was the likely exposure route [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]].
-- Paradox: vegetarian diets often recommended for endometriosis may increase nickel exposure through high consumption of plant-based, high-nickel foods [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]].
+- Paradox: vegetarian diets frequently adopted for endometriosis management may increase nickel exposure through high consumption of plant-based, high-nickel foods [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]].
 
 ---
 
@@ -352,7 +352,7 @@ Mammals do not synthesize known Ni-requiring proteins, yet nickel is **essential
 2. **Nickel sequestration as therapy**: could targeting nickel availability combat infections without disrupting the microbiome? Aspergillomarasmine A is a candidate nickel chelator [[pendergrass-2026-nickel-nec-preterm-gut]].
 3. **Metal interactions**: nickel levels correlate with [[zinc]], vanadium, [[chromium]] -- combined exposures may matter more than individual metals [[blazewicz-2023-metal-profiles-asd]].
 4. **SNAS beyond patch-test-positive patients**: the GERD study finding that patch-test-negative patients respond to low-Ni diet challenges the standard diagnostic framework [[yousaf-2021-low-nickel-diet-gerd]].
-5. **Vegetarian diet paradox**: plant-based diets recommended for health may increase nickel exposure and exacerbate conditions like endometriosis in susceptible individuals [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]].
+5. **Vegetarian diet paradox**: plant-based diets frequently adopted for health may increase nickel exposure and exacerbate conditions like endometriosis in susceptible individuals [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]].
 6. **Breast milk as nutritional immunity**: is the low nickel content of breast milk an evolved defense against Ni-dependent pathogens in the infant gut? [[pendergrass-2026-nickel-nec-preterm-gut]].
 7. **NEC prevention**: could monitoring formula nickel content or supplementing with nickel-chelating agents reduce NEC incidence in preterm infants? [[pendergrass-2026-nickel-nec-preterm-gut]].
 

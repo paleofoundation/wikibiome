@@ -33,6 +33,7 @@ key_findings:
 karen_brain_primitives: [1, 3, 7]
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

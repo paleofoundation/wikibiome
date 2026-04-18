@@ -35,7 +35,8 @@ tags:
   - endocrine-disruptors
 doi: 10.1038/s41598-021-02120-6
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [2]
 keystone_criteria_met:
   - 1
   - 2
@@ -51,6 +52,9 @@ key_findings:
   - "Significant positive intercorrelations among all four metals suggest co-exposure patterns; metal-induced oxidative stress proposed as paramount cause in PCOS aetiology"
 karen_brain_primitives: [1, 3]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [2]).
 
 # Antioxidant Status in Relation to Heavy Metals Induced Oxidative Stress in PCOS
 

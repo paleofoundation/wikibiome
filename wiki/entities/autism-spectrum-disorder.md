@@ -59,9 +59,12 @@ Zinc depletion is the **most consistent finding** across ASD metal studies:
 - **Arsenic**: Elevated in some studies; disrupts mitochondrial function.
 - Toxic metal levels may correlate with ASD severity, with more severe behavioral symptoms associated with higher metal burden.
 
-### Copper: Variable
+### Copper: Variable (No Significant Difference at Meta-Analytic Level)
 
 - Cu findings in ASD are inconsistent -- elevated in some studies, decreased in others [[blazewicz-2023-metal-profiles-asd]].
+- The higher-evidence synthesis resolves this inconsistency toward null: a 2024 meta-analysis ([[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]], systematic-review-meta-analysis, 4 studies, N=577) found NO significant difference in copper between ASD children and controls (MD = 0.293, 95% CI: -1.349, 1.935, p = 0.726), despite high heterogeneity (I²=84.6%).
+- A 2025 Chinese cross-sectional hair study ([[zhou-2025-hair-heavy-metals-asd-severity]], n=181) found hair Cu significantly elevated in ASD, correlating with severity. This contradicts the meta-analytic null, but reflects a different biomarker matrix (hair vs blood/serum) and a single-region cohort with no population controls for dietary Cu exposure. The meta-analysis takes primary interpretive weight per §2b (systematic-review-meta-analysis > cross-sectional).
+- The residual inconsistency likely reflects: Cu as an acute-phase reactant (ceruloplasmin rises with inflammation, which may be elevated in more severely affected ASD subgroups); biomarker matrix effects; and geographic/dietary variation in Cu exposure.
 - Multiple ASD candidate genes encode copper transport proteins (e.g., COMMD1) [[blazewicz-2023-metal-profiles-asd]].
 
 ## Mis-Metallation: The Unifying Mechanism

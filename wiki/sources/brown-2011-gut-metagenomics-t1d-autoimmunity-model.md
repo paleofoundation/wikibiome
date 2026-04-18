@@ -51,7 +51,8 @@ key_findings:
   - Butyryl-CoA dehydrogenase significantly higher in controls (P=0.0003)
   - T1D cases enriched in virulence factors, LPS biosynthesis, iron acquisition (FecB, IsdDEF)
   - "Functional model: lactate diversion from butyrate to propionate/acetate drives leaky gut"
-keystone: true
+keystone: false
+keystone_criteria_met: []
 keystone_criteria_met:
   - 1
   - 2
@@ -59,6 +60,9 @@ keystone_criteria_met:
   - 4
 why_keystone: "An early demonstration that dysbiotic taxa enriched in T1D (Bacteroides, Veillonella, E. coli) express iron-acquisition systems and virulence factors while SCFA-producing taxa (Faecalibacterium, Roseburia) are depleted. This paper established the iron-dysbiosis-autoimmunity axis that WikiBiome extends across multiple conditions."
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 0 of 5 criteria verified: []).
 
 ## Key Findings
 

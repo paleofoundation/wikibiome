@@ -42,7 +42,8 @@ key_findings:
   - All 4 heavy metals disrupt gut microbiota; Collinsella enriched as pathobiont across metals
   - Prenatal Pb depletes Bifidobacterium bifidum/longum
   - Cd linked to leaky gut and oxidative stress via microbiome disruption
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 3]
 keystone_criteria_met:
   - 1
   - 2
@@ -51,6 +52,9 @@ keystone_criteria_met:
   - 5
 why_keystone: Systematic review confirming that arsenic, lead, mercury, and cadmium all disrupt gut microbiota in consistent ways — enrichment of Collinsella and Desulfovibrio, depletion of Bifidobacterium — across 3000+ subjects. This is the cross-condition evidence WikiBiome relies on to show that different metals converge on a shared dysbiotic phenotype.
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 3]).
 
 ## Key Findings
 

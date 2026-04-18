@@ -47,7 +47,8 @@ key_findings:
   - IS activates AhR->NF-kB signaling cascade causing renal fibrosis and tubular injury
   - PCS activates RAS/TGF-beta->EMT pathway promoting epithelial-to-mesenchymal transition in kidneys
   - Butyrate, propionate, and acetate are renoprotective via HDAC inhibition and GPR43/GPR109a signaling
-keystone: true
+keystone: false
+keystone_criteria_met: [4]
 keystone_criteria_met:
   - 1
   - 2
@@ -55,6 +56,9 @@ keystone_criteria_met:
   - 4
 why_keystone: Establishes the bidirectional loop by which uremic toxins from gut dysbiosis drive CKD progression and CKD-induced intestinal changes perpetuate dysbiosis. Supports the microbiome layer of WikiBiome's CKD signature and explains why metal-driven dysbiosis is both cause and consequence of declining renal function.
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [4]).
 
 ## Key Findings
 

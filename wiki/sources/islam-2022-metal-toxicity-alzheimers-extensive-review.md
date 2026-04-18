@@ -34,7 +34,8 @@ tags:
   - chelation-therapy
 doi: 10.1038/s44439-024-00009-w
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [3]
 keystone_criteria_met:
   - 1
   - 2
@@ -45,6 +46,9 @@ evidence_level: expert-opinion
 metals_discussed: [aluminum, cadmium, calcium, copper, iron, lead, mercury, zinc]
 karen_brain_primitives: [1, 3, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [3]).
 
 # Key Claims
 

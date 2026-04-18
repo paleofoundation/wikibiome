@@ -33,7 +33,8 @@ tags:
   - Burkina-Faso
 doi: 10.1038/s41430-019-0444-7
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -44,6 +45,9 @@ metals_discussed: [cadmium, iron, lead]
 taxa_discussed: [lactobacillus]
 karen_brain_primitives: [2, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 4]).
 
 # Key Claims
 

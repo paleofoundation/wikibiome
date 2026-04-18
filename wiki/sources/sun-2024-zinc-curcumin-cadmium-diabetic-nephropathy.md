@@ -40,7 +40,8 @@ key_findings:
   - Cd aggravated diabetic nephropathy via TLR4/NF-kB
   - Zn/Cd ratio is critical biomarker; ZIP14 transporter downregulated by Cd
   - Zn(II)-curcumin reversed dysbiosis via FMT-confirmed microbiome mediation
-keystone: true
+keystone: false
+keystone_criteria_met: [4]
 keystone_criteria_met:
   - 1
   - 2
@@ -48,6 +49,9 @@ keystone_criteria_met:
   - 4
 why_keystone: Mechanistically shows that cadmium accelerates diabetic nephropathy through TLR4/NF-kB activation and ZIP14-mediated renal accumulation, with the Zn/Cd ratio functioning as a biomarker of injury. Validates zinc repletion as a signature-reversing intervention and anchors the cadmium displacement mechanism across multiple WikiBiome metabolic signatures.
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [4]).
 
 ## Key Findings
 

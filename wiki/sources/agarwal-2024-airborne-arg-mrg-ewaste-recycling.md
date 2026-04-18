@@ -33,7 +33,8 @@ tags:
   - heavy-metals
   - airborne-pollution
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 4]
 keystone_criteria_met:
   - 1
   - 3
@@ -49,6 +50,9 @@ key_findings:
   - "Mercury-rich environments (battery recycling) select for a more diverse ARG profile, with some ARGs detected at 2+ log levels higher than at other facilities"
 karen_brain_primitives: [1, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 4]).
 
 # Key Claims
 

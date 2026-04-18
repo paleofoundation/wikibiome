@@ -27,6 +27,7 @@ doi: 10.1038/s41420-023-01587-8
 platform: wikibiome
 evidence_level: animal-model
 keystone: true
+keystone_criteria_met: [1, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

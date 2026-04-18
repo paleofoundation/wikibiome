@@ -29,6 +29,7 @@ tags:
 doi: 10.1016/j.scitotenv.2020.140429
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [1, 2, 3]
 keystone_criteria_met:
   - 1
   - 2

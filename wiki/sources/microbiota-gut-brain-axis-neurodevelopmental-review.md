@@ -18,6 +18,7 @@ library_category: causal
 platform: both
 condition: autism spectrum disorder
 keystone: true
+keystone_criteria_met: [1, 4, 5]
 keystone_criteria_met:
   - 1
   - 3

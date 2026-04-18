@@ -31,6 +31,7 @@ tags:
 doi: 10.3390/ijms23063997
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

@@ -35,6 +35,7 @@ key_findings:
   - "Gene-environment interactions (e.g., APOE genotype) and mixed metal exposures are critical but understudied for real-world ADRD risk"
 karen_brain_primitives: [1, 3]
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

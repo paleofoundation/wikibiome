@@ -22,7 +22,8 @@ tags:
   - reproductive-toxicity
 doi: 10.12998/wjcc.v9.i28.8340
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: []
 keystone_criteria_met:
   - 1
   - 2
@@ -33,6 +34,9 @@ evidence_level: case-control
 metals_discussed: [cadmium, nickel]
 karen_brain_primitives: [4, 5]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 0 of 5 criteria verified: []).
 
 # Pregnancy Complications Effect on the Nickel Content in Maternal Blood, Placenta Blood and Umbilical Cord Blood
 

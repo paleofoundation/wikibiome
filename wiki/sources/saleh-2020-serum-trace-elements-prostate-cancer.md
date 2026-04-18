@@ -24,6 +24,7 @@ tags:
 doi: 10.1159/000499261
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [1, 3, 4, 5]
 keystone_criteria_met:
   - 1
   - 2

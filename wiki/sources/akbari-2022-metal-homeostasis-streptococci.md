@@ -25,7 +25,8 @@ tags:
   - nutritional-immunity
 doi: 10.3390/microorganisms10081501
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 3]
 keystone_criteria_met:
   - 1
   - 2
@@ -41,6 +42,9 @@ key_findings:
   - "Nickel transport in Streptococci is largely uncharacterized — only the UreMQO system in S. salivarius is known; role of Ni in Streptococcal pathogenesis remains largely unelucidated"
 karen_brain_primitives: [1, 2, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 3]).
 
 # Metal Homeostasis in Pathogenic Streptococci
 

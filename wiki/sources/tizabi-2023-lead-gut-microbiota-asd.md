@@ -30,6 +30,7 @@ metals_discussed:
   - lead
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, coprococcus, desulfovibrio, faecalibacterium-prausnitzii, lactobacillus, parabacteroides]
 keystone: true
+keystone_criteria_met: [1, 2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

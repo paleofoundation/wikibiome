@@ -60,6 +60,7 @@ evidence_level: cross-sectional
 - [[arsenic]] -- severity-dependent elevation; the only metal showing significant difference between severe and mild-moderate ASD
 - [[cadmium]] -- elevated in ASD hair; competes with essential metals for binding sites
 - [[zinc]] -- notably NOT depleted in hair in this study, contrasting with many other studies; may reflect regional/dietary differences
+- **Conflict on Cu**: This study's finding of significantly elevated hair Cu in ASD (p<0.001) is superseded in evidence weight by [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]] (systematic-review-meta-analysis, 4 studies, N=577, blood/serum), which found no significant Cu difference (p=0.726). On the [[autism-spectrum-disorder]] entity page, the meta-analytic null carries primary interpretive weight. The discrepancy likely reflects biomarker matrix (hair vs blood/serum), regional Cu exposure variation, or the severity-enriched population in this study (71/181 were severe ASD cases).
 - [[iron]] -- not significantly different in hair samples
 - [[oxidative-stress]] -- copper overload causes mitochondrial oxidative damage; vanadium linked to oxidative stress via malondialdehyde and hydrogen peroxide elevation
 - [[environmental-metal-exposure]] -- heavy metal body burden increases with ASD severity

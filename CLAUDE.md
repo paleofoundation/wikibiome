@@ -134,6 +134,34 @@ When a newer source contradicts an older one:
 4. **Do not delete the older claim.** Annotate it: "Earlier work ([[source-a]], 2018, n=30) suggested X. This was superseded by [[source-b]] (2024, n=500, prospective cohort) which found Y."
 5. **Update the signature page** if the conflict affects a signature layer. Adjust the confidence level accordingly.
 
+### 2f. Source Density Thresholds
+
+No page publishes to WikiBiome with thin or missing citations. Every publishable page must meet a minimum source count for its type. Pages below threshold are **stubs** and must carry `stub: true` in frontmatter.
+
+Minimums by page type (measured as the `sources:` array length, not body mentions):
+
+| Page type | Minimum sources |
+|-----------|----------------|
+| Metal entity | 5 |
+| Microbe / fungus / archaeon entity | 3 |
+| Disease entity | 5 |
+| Person / organization entity | 2 |
+| Concept | 3 |
+| Signature | 10 (covers 5 layers × 2 minimum) |
+| Intervention | 3 + a complete triangle (I_to_f, I_to_D, f_to_D) for at least one condition |
+| STOP | 2 + populated `conventional_rationale`, `why_counterproductive`, `evidence`, `alternative` |
+| Analysis | 3 |
+
+Claim-level sourcing remains mandatory per §2a: every material claim on a publishable page must resolve to a `[[source-filename]]`. Unsourced claims get `<!-- UNSOURCED: needs attribution -->` and do not count toward source density. A page with 5 sources listed in frontmatter but whose body makes 20 unsourced claims is still a stub in spirit — flag it.
+
+**Enforcement.**
+
+1. `build-content.cjs` must refuse to render any page with `platform: wikibiome` or `platform: both` as a publishable page if it is below threshold and not marked `stub: true`. Sub-threshold stubs either render with a visible "expansion needed" banner or are excluded from `sitemap.xml` entirely (excluded is preferred — SEO should not index thin content).
+2. The lint cycle (see §7 Lint workflow) must detect sub-threshold pages on every run and auto-demote to `stub: true` if the page was previously publishable. Demotion is logged to `wiki/analyses/stub-demotions-YYYY-MM-DD.md`.
+3. New pages may be created below threshold only as explicit stubs (`stub: true` + `stub_reason: "..."` in frontmatter). Stubs are valid waypoints during ingest, not a final state.
+
+Stub pages still exist in the vault — they are drafts, not deletions — and are visible on Cureva where practitioners may need the partial context. They are invisible to the public WikiBiome reader until they cross the threshold.
+
 ---
 
 ## 3. Directory Structure
@@ -579,6 +607,8 @@ When asked to health-check the wiki:
 - Check cross-condition overlap scores are current.
 - Verify `source_count` fields match actual `sources` list lengths.
 - Verify DOIs are formatted correctly (not generated from memory).
+- Enforce source density thresholds per §2f. Auto-demote sub-threshold pages to `stub: true`, log to `wiki/analyses/stub-demotions-YYYY-MM-DD.md`.
+- Flag pages whose body contains unsourced material claims (no `[[source-filename]]` inline) even if frontmatter `sources` meets threshold.
 - Suggest new questions to investigate or sources to find.
 
 ---

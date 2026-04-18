@@ -32,6 +32,7 @@ doi: 10.2478/intox-2014-0009
 evidence_level: animal-model
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [2, 3, 4, 5]
 keystone_criteria_met:
   - 1
   - 2

@@ -45,3 +45,4 @@ platform: wikibiome
 - Related to [[oxidative-stress|oxidative stress]] and [[inflammation|immune dysfunction]] from heavy metal exposure
 - Links to [[environmental-metal-exposure]] as potential RA risk factor
 - See also: [[irfan-2017-comparative-heavy-metals-ra]] for related Pakistani population study
+- **Conflict with [[yang-2016-copper-farm-soils-rheumatoid-arthritis]]**: Yang et al. (2016, cross-sectional, n=122, Taiwan) found elevated blood Cu in RA patients correlating with ESR and disease activity. This study (case-control, n≈99, Pakistan) found the opposite: significantly lower serum Cu in RA (p=0.04). As the higher evidence level (case-control > cross-sectional), this study's finding of lower Cu carries primary interpretive weight on the [[copper]] entity page. The contradiction is annotated there and may reflect ceruloplasmin dynamics, geographic exposure differences, or blood vs. serum measurement.

@@ -99,7 +99,7 @@ The arsenic metabolites as the top RA predictor is notable: arsenic disrupts NF-
 | **Vitamin D supplementation** | Addresses metal-induced VitD deficiency; 50,000 IU every 2 weeks reduced hs-CRP in studies | Clinical trials + mechanistic rationale |
 | **Reducing environmental Cu/Pb/Cd exposure** | Soil-to-food-chain exposure reduction; diet control | Epidemiological (Yang 2016) |
 | **Copper chelation (tetrathiomolybdate)** | Proposed by Yang et al. for RA patients in high-Cu areas | Theoretical; used in Wilson's disease |
-| **Heavy metal screening** | Measure Pb, Cd, Cr alongside standard RA labs; correlate with DAS28 | Emerging clinical recommendation |
+| **Heavy metal screening** | Measure Pb, Cd, Cr alongside standard RA labs; correlate with DAS28 | Emerging research direction |
 | **Selenium supplementation** | Se antagonizes Cd; supports GPx antioxidant defense | Indirect evidence from thyroid/cancer literature |
 | **Probiotics** | Barrier protection; immune modulation; metal detoxification | Limited RA-specific data; strong precedent from MS trials |
 

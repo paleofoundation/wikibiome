@@ -47,7 +47,8 @@ key_findings:
   - Nickel inhibits enzymes by replacing Zn2+/Fe2+/Co2+ at catalytic sites (mis-metallation)
   - IARC Group 1 carcinogen; dietary exposure 100-300 ug/day from cocoa/nuts/grains
   - "Nickel-dependent bacterial enzymes: urease, NiFe-hydrogenase, glyoxalase, acireductone dioxygenase"
-keystone: true
+keystone: false
+keystone_criteria_met: [4]
 keystone_criteria_met:
   - 1
   - 2
@@ -55,6 +56,9 @@ keystone_criteria_met:
   - 4
 why_keystone: "Establishes nickel as both a selective pressure (IARC Group 1 carcinogen inducing epigenetic changes and apoptosis) and an ecological driver through its role in bacterial urease and siderophore metabolism. WikiBiome's understanding of nickel-driven dysbiosis across endometriosis, ASD, and Parkinson's depends on this foundational nickel toxicology."
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [4]).
 
 # Key Claims
 

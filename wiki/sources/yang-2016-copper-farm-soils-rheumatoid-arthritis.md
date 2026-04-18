@@ -42,4 +42,4 @@ karen_brain_primitives: [3]
 - [[nickel]] also associated with increased inflammation in RA -- relevant to [[nickel-allergy|nickel toxicology]]
 - Changhua County context: heavy industrial pollution, high oral cancer incidence linked to soil metals
 - Connects to [[copper|copper-induced cytokine production]] (IL-1beta, TNF-alpha, IL-6)
-- See also: [[arshad-2023-heavy-metals-rheumatoid-arthritis]] for contrasting Cu findings
+- **Conflict**: [[arshad-2023-heavy-metals-rheumatoid-arthritis]] (2023, case-control, n≈99, Pakistan) found significantly *lower* serum Cu in RA patients (p=0.04), directly contradicting this study's finding of elevated blood Cu in RA. The arshad study ranks higher in the evidence hierarchy (case-control > cross-sectional). The discrepancy may reflect ceruloplasmin as an acute-phase reactant, population/soil-exposure differences between Taiwan and Pakistan, or blood vs. serum matrix differences. On the [[copper]] entity page, the arshad finding now carries primary interpretive weight for the RA section.

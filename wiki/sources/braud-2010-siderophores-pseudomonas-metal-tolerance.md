@@ -26,7 +26,8 @@ tags:
 doi: 10.1111/j.1758-2229.2009.00126.x
 evidence_level: expert-opinion
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -37,6 +38,9 @@ metals_discussed: [cadmium, copper, iron, nickel]
 taxa_discussed: [acinetobacter, enterococcus, pseudomonas-aeruginosa, streptococcus]
 karen_brain_primitives: [1, 2, 4, 5, 8]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 4]).
 
 # Presence of the Siderophores Pyoverdine and Pyochelin in the Extracellular Medium Reduces Toxic Metal Accumulation in Pseudomonas aeruginosa and Increases Bacterial Metal Tolerance
 

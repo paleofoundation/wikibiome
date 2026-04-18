@@ -46,7 +46,7 @@ BFT is the defining virulence factor of ETBF and one of the clearest examples of
 The zinc dependence of BFT creates both a vulnerability and a therapeutic concern:
 
 - **Host calprotectin** sequesters zinc at sites of inflammation; whether this inhibits BFT activity in vivo is an active research question with potential therapeutic implications [[nutritional-immunity]].
-- **Zinc supplementation** — commonly recommended for diarrheal disease — could theoretically enhance BFT activity in ETBF-colonized individuals. This represents a potential clinical STOP scenario where standard of care may worsen outcomes in a subpopulation.
+- **Zinc supplementation** — commonly used in diarrheal disease — could theoretically enhance BFT activity in ETBF-colonized individuals. This represents a potential clinical STOP scenario where standard of care may worsen outcomes in a subpopulation.
 - The zinc chelation strategy proposed for metal-dependent pathogens (as with *A. baumannii* and *P. aeruginosa*) has theoretical applicability to ETBF, though direct evidence remains limited.
 
 ## Commensal Functions — Polysaccharide A (PSA)

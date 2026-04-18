@@ -20,7 +20,8 @@ tags:
   - oxidative-stress
   - HIF-1alpha
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [3, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -31,6 +32,9 @@ evidence_level: animal-model
 metals_discussed: [arsenic, chromium, iron, nickel]
 karen_brain_primitives: [2, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [3, 4]).
 
 # Genetic and Epigenetic Mechanisms in Metal Carcinogenesis and Cocarcinogenesis
 

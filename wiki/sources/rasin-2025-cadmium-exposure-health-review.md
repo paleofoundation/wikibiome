@@ -28,6 +28,7 @@ tags:
 doi: 10.1016/j.hazadv.2024.100527
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

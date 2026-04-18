@@ -17,7 +17,8 @@ tags:
   - oxidative-stress
 doi: 10.1016/s1040-8428(01)00214-1
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [4]
 keystone_criteria_met:
   - 1
   - 2
@@ -29,6 +30,9 @@ evidence_level: systematic-review-meta-analysis
 metals_discussed: [calcium, iron, nickel]
 karen_brain_primitives: [9]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [4]).
 
 ## Key Claims
 

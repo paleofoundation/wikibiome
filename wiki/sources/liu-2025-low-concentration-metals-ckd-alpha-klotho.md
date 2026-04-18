@@ -27,7 +27,8 @@ tags:
   - mediation
 doi: 10.1038/s44439-024-00009-w
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [2, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -38,6 +39,9 @@ evidence_level: computational-prediction
 metals_discussed: [cadmium, lead, mercury, thallium]
 karen_brain_primitives: [3]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [2, 4]).
 
 # Key Claims
 

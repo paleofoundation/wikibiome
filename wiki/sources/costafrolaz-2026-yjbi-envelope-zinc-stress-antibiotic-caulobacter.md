@@ -36,6 +36,7 @@ library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: zinc stress and antibiotic susceptibility
 keystone: true
+keystone_criteria_met: [1, 4, 5]
 keystone_criteria_met:
   - 1
   - 3

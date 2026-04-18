@@ -25,7 +25,8 @@ tags:
   - ribosome
 doi: 10.1016/j.csbj.2021.10.021
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -37,6 +38,9 @@ metals_discussed: [cadmium, nickel]
 taxa_discussed: [acinetobacter, enterococcus, pseudomonas-aeruginosa]
 karen_brain_primitives: [1, 2, 4, 8]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 4]).
 
 # Cadmium Stress Triggers Significant Metabolic Reprogramming in Enterococcus faecium CX 2-6
 

@@ -27,6 +27,7 @@ doi: 10.3389/fendo.2023.1225494
 evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

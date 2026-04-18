@@ -51,7 +51,7 @@ karen_brain_primitives: [1]
 
 - [[iron]] -- significantly lower in ASD children (meta-analytic confirmation); Fe deficiency may impair neurotransmitter synthesis and myelination
 - [[zinc]] -- significantly lower in ASD children (meta-analytic confirmation); Zn deficiency disrupts synaptic function and immune regulation
-- [[copper]] -- no significant difference in ASD vs controls, despite individual study variability
+- [[copper]] -- no significant difference in ASD vs controls, despite individual study variability; this null finding at the meta-analytic level (N=577) supersedes individual study reports of Cu elevation in ASD (e.g., [[zhou-2025-hair-heavy-metals-asd-severity]], cross-sectional, n=181) per the evidence hierarchy (systematic-review-meta-analysis > cross-sectional)
 - [[gut-metal-microbiome]] -- simultaneous dysregulation of trace elements and gut microbiota in ASD
 - [[oxidative-stress]] -- elevated CRP indicates systemic inflammation; links to metal-induced oxidative stress
 - [[blazewicz-2023-metal-profiles-asd]] -- individual study-level data supporting these meta-analytic findings

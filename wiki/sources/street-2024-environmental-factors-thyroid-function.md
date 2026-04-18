@@ -37,6 +37,7 @@ tags:
 doi: 10.3389/fendo.2024.1429884
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [1, 2, 4]
 keystone_criteria_met:
   - 1
   - 2

@@ -26,7 +26,8 @@ tags:
   - metal-homeostasis
   - biomarkers
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [2, 3]
 keystone_criteria_met:
   - 1
   - 2
@@ -37,6 +38,9 @@ evidence_level: systematic-review-meta-analysis
 metals_discussed: [calcium, copper, iron, lead, manganese, selenium, zinc]
 karen_brain_primitives: [1, 2, 3, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [2, 3]).
 
 # Key Claims
 

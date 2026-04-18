@@ -22,7 +22,8 @@ tags:
   - review
 doi: 10.3390/nu14245283
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: []
 keystone_criteria_met:
   - 1
   - 2
@@ -33,6 +34,9 @@ evidence_level: in-vitro
 metals_discussed: [iron, nickel]
 karen_brain_primitives: [2, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 0 of 5 criteria verified: []).
 
 # Key Claims
 

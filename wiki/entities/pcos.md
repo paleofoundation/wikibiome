@@ -106,7 +106,7 @@ PCOS presents a striking dietary paradox (see [[dietary-metal-paradoxes]]):
 
 - The [[mediterranean-diet]] significantly improves PCOS outcomes: lower testosterone, CRP, HOMA-IR, and hirsutism. PCOS women have lower MD adherence (PREDIMED 6.97 vs 8.12, p < 0.001) [[barrea-2019-mediterranean-diet-pcos]].
 - Ketogenic diets improve PCOS: significant reductions in LH/FSH ratio, testosterone, fasting insulin, and body weight [[mavropoulos-2005-ketogenic-diet-pcos]], [[tsushima-2024-ketogenic-diet-pcos-fertility]].
-- However, many "healthy" foods recommended for PCOS (legumes, whole grains, nuts, dark chocolate) are high in nickel, cadmium, and other metals.
+- However, many "healthy" foods commonly associated with PCOS management (legumes, whole grains, nuts, dark chocolate) are high in nickel, cadmium, and other metals.
 - Fiber intake is lower in PCOS (meta-analysis confirmed: -1.05 to -2.37 g/day deficit) [[leung-2022-lower-fiber-pcos-meta-analysis]], yet increasing fiber also increases nickel and other metal exposure.
 - The paradox resolves partially through the net benefit of anti-inflammatory, antioxidant-rich diets outweighing the incremental metal exposure -- but for nickel-sensitized PCOS women, this tradeoff may be unfavorable.
 

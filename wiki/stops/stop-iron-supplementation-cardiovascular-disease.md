@@ -1,0 +1,34 @@
+---
+title: "STOP: Iron Supplementation for Cardiovascular Disease-Associated Anemia"
+type: stop
+created: 2026-04-14T00:00:00.000Z
+updated: 2026-04-14T00:00:00.000Z
+last_substantive_update: 2026-04-14T00:00:00.000Z
+sources:
+  - herrema-2020-microbiome-cardiovascular-disease-ascvd
+  - jie-2017-gut-microbiome-acvd
+  - zhen-2023-tmao-cardiovascular-diseases-review
+  - bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota
+  - chambers-2018-scfa-metabolic-cardiovascular-health
+tags: [cardiovascular-disease, iron, atherosclerosis, TMAO, oxidative-stress, hepcidin, Bilophila, functional-anemia]
+cureva_status: complete
+
+condition: "[[cardiovascular-disease]]"
+intervention: "Oral iron supplementation for anemia in cardiovascular disease patients"
+conventional_rationale: "Anemia is highly prevalent in heart failure and ischemic heart disease, associated with worse outcomes. Guidelines recommend iron supplementation for iron-deficiency anemia in heart failure (FAIR-HF, CONFIRM-HF trials)."
+why_counterproductive: "The cardiovascular disease microbiome signature is characterized by enrichment of Bilophila wadsworthia (the primary sulfite-reducing, heme-dependent pathobiont), elevated TMAO-producing bacteria, elevated hepcidin, and depleted SCFA producers. In this dysbiotic context: (1) Oral iron feeds Bilophila wadsworthia directly — this organism is dependent on heme/sulfite as its electron acceptor and proliferates in iron-rich environments; (2) Bilophila-derived hydrogen sulfide (H₂S) promotes vascular oxidative stress and endothelial dysfunction; (3) Iron-enriched Enterobacteriaceae upregulate the TMA lyase enzymes that produce TMAO precursors — the gut metabolite most directly implicated in atherosclerosis progression; (4) Free iron participates in Fenton chemistry within atherosclerotic plaques — oxidized LDL formation, macrophage foam cell development, plaque vulnerability. The FAIR-HF and CONFIRM-HF data supporting IV iron supplementation in HF are not extrapolable to oral iron — IV iron bypasses the gut lumen and the dysbiosis feeding mechanism."
+evidence:
+  - herrema-2020-microbiome-cardiovascular-disease-ascvd
+  - jie-2017-gut-microbiome-acvd
+  - zhen-2023-tmao-cardiovascular-diseases-review
+  - bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota
+evidence_level: "prospective-cohort"
+alternative: "If iron supplementation is clinically required (severe anemia, confirmed true deficiency by bone marrow/sTfR/low hepcidin), use intravenous iron (as per FAIR-HF/CONFIRM-HF protocol) — IV iron has demonstrated cardiovascular outcome benefit and bypasses the gut lumen. For functional anemia (elevated hepcidin + elevated ferritin + dysbiosis pattern), treat the underlying Bilophila overgrowth and Enterobacteriaceae enrichment. [[lactoferrin]] supports iron restriction without Fenton risk. Target TMAO pathway: reduce trimethylamine-generating bacteria, support [[faecalibacterium-prausnitzii]] restoration. The Mediterranean diet has CVD-specific evidence and directly addresses the gut ecology."
+karen_brain_primitives: [2, 4, 8]
+---
+
+<!-- STUB: needs expansion -->
+
+## Overview
+
+STOP: Iron Supplementation for Cardiovascular Disease-Associated Anemia

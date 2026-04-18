@@ -49,7 +49,7 @@ Given the well-documented sensitivity of *A. muciniphila* to heavy metals -- par
 ## Clinical and Research Significance
 
 - The existence of a second *Akkermansia* species complicates the interpretation of studies reporting genus-level changes, since the two species may respond differently to environmental stressors including metals, diet, and medication.
-- Next-generation probiotic development focused on *A. muciniphila* should consider whether *A. mucinicola* offers complementary or superior properties for specific applications.
+- Next-generation probiotic development focused on *A. muciniphila* has not yet examined whether *A. mucinicola* offers complementary or superior properties for specific applications — an open research gap.
 - Strain-level metagenomic analyses (shotgun sequencing rather than 16S amplicon) will be needed to distinguish the two species in clinical cohorts.
 
 ## Cross-References

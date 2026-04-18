@@ -23,6 +23,7 @@ tags:
 doi: 10.3389/fncel.2015.00170
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

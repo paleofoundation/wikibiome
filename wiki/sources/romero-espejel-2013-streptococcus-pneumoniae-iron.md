@@ -20,7 +20,8 @@ tags:
   - nutritional-immunity
 doi: 10.1039/c3mt20244e
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1]
 keystone_criteria_met:
   - 1
   - 2
@@ -32,6 +33,9 @@ metals_discussed: [iron, manganese, nickel, zinc]
 taxa_discussed: [helicobacter-pylori, streptococcus]
 karen_brain_primitives: [2, 4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [1]).
 
 ## Summary
 

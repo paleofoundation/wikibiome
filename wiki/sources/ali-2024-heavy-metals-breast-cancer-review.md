@@ -34,6 +34,7 @@ key_findings:
   - "Zinc and manganese generally decreased in breast cancer patients; deficiency impairs immune function and antioxidant capacity (MnSOD)"
 karen_brain_primitives: [1, 2, 3]
 keystone: true
+keystone_criteria_met: [2, 3, 4]
 keystone_criteria_met:
   - 1
   - 2

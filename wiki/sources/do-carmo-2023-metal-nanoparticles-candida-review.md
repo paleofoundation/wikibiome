@@ -25,7 +25,8 @@ tags:
 doi: 10.3390/microorganisms11010138
 evidence_level: expert-opinion
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1]
 keystone_criteria_met:
   - 1
   - 2
@@ -36,6 +37,9 @@ metals_discussed: [copper, iron, nickel, zinc]
 taxa_discussed: [candida-albicans]
 karen_brain_primitives: [1, 4, 5, 6]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 1 of 5 criteria verified: [1]).
 
 ## Summary
 

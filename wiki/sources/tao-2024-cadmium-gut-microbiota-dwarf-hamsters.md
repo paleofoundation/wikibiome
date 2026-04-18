@@ -27,7 +27,8 @@ tags:
   - original-research
 doi: 10.1002/ece3.11428
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -39,6 +40,9 @@ metals_discussed: [cadmium, nickel]
 taxa_discussed: [campylobacter-jejuni, lachnospiraceae, lactobacillus, prevotella, treponema]
 karen_brain_primitives: [1]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 4]).
 
 # Key Claims
 

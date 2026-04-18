@@ -28,7 +28,8 @@ tags:
   - graves-disease
 doi: 10.3389/fimmu.2025.1662521
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [2, 4]
 keystone_criteria_met:
   - 1
   - 2
@@ -39,6 +40,9 @@ evidence_level: systematic-review-meta-analysis
 metals_discussed: [copper, iron, magnesium, selenium, zinc]
 karen_brain_primitives: [4]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [2, 4]).
 
 # Recent advances of trace elements in autoimmune thyroid disease
 

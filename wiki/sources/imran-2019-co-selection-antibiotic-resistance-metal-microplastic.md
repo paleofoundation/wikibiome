@@ -32,7 +32,8 @@ tags:
   - biofilm
   - metallothionein
 platform: wikibiome
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 4]
 keystone_criteria_met:
   - 1
   - 3
@@ -43,6 +44,9 @@ metals_discussed: [cadmium, chromium, cobalt, copper, iron, lead, manganese, mer
 taxa_discussed: [pseudomonas-aeruginosa, vibrio]
 karen_brain_primitives: [1, 2, 4, 6]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 4]).
 
 # Key Claims
 

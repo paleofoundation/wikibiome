@@ -24,7 +24,8 @@ tags:
 library_category: causal
 platform: both
 condition: autism spectrum disorder
-keystone: true
+keystone: false
+keystone_criteria_met: [1, 5]
 keystone_criteria_met:
   - 1
   - 3
@@ -34,6 +35,9 @@ why_keystone: Comprehensive review synthesizing genetic, environmental, neurobio
 metals_discussed: [iron, nickel, zinc]
 karen_brain_primitives: [1, 2, 4, 5]
 ---
+
+
+> **Note:** Keystone designation removed 2026-04-18 — criteria not met on re-audit (only 2 of 5 criteria verified: [1, 5]).
 
 # Overview
 

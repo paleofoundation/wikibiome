@@ -35,6 +35,7 @@ tags:
   - biofilm
 platform: wikibiome
 keystone: true
+keystone_criteria_met: [1, 3, 4, 5]
 keystone_criteria_met:
   - 1
   - 2
