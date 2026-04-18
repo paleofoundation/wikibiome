@@ -10,6 +10,7 @@ doi: 10.1186/s12916-025-04041-x
 tags: [multiple-sclerosis, bile-acids, GCDCA, disability-worsening, EDSS, sex-differences, Swedish-cohort, metabolomics, longitudinal]
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis]
+karen_brain_primitives: [3]
 ---
 
 # Bile Acid Metabolism in Multiple Sclerosis Is Perturbed and Associated with the Risk of Confirmed Disability Worsening

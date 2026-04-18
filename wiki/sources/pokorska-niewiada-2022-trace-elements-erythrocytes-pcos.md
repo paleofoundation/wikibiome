@@ -10,6 +10,7 @@ tags: [PCOS, trace-elements, nickel, zinc, iron, manganese, copper, magnesium, e
 doi: "10.3390/ijerph19137998"
 platform: wikibiome
 metals_discussed: [copper, iron, magnesium, manganese, nickel, zinc]
+karen_brain_primitives: [7]
 ---
 
 ## Summary

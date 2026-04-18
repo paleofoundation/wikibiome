@@ -11,6 +11,7 @@ doi: 10.3389/fendo.2023.1085041
 tags: [cardiovascular-disease, CVD, TMAO, trimethylamine-N-oxide, gut-microbiota, atherosclerosis, heart-failure, hypertension, arrhythmia, coronary-artery-disease, metabolite, FMO3, choline, L-carnitine, review]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # The Gut Microbial Metabolite Trimethylamine N-Oxide and Cardiovascular Diseases

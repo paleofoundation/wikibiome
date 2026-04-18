@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: animal-model
 key_findings: ["Two recent epidemiological investigations", "Two important neurobiological findings", "VPA has known teratogenicity"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

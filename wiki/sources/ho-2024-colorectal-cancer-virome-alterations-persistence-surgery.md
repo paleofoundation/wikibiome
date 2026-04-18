@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, virome, bacteriophage, Enterobacteria-ph
 platform: wikibiome
 evidence_level: prospective-cohort
 taxa_discussed: [escherichia-coli, faecalibacterium-prausnitzii, klebsiella-pneumoniae, megasphaera, salmonella, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Ho 2024 -- Alterations in Colorectal Cancer Virome and Its Persistence After Surgery

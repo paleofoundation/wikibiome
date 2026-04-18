@@ -7,6 +7,7 @@ authors: [Binta Dieme, Sylvie Mavel, Helene Blasco, Gabriele Tripi, Frederique B
 year: 2015
 journal: "Journal of Proteome Research"
 doi: "10.1021/acs.jproteome.5b00699"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, metabolomics, urine, NMR, LC-HRMS, data-fusion, OPLS-DA, indoxyl-sulfate, phenylacetylglutamine, methylguanidine, biomarkers]
 library_category: metabolomics
 platform: NMR-LC-HRMS

@@ -7,6 +7,7 @@ authors: [Amir Heidari, Nima Yazdanpanah, Nima Rezaei]
 year: 2022
 journal: "Current Neurology and Neuroscience Reports"
 doi: "10.1007/s11910-022-01207-5"
+evidence_level: expert-opinion
 tags: [parkinsons-disease, neuroinflammation, disease-progression, microglia, astrocytes, blood-brain-barrier, peripheral-inflammation, outside-in]
 library_category: mechanistic-insights
 platform: both

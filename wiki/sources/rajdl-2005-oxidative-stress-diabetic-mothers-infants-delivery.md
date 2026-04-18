@@ -12,6 +12,7 @@ library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["Oxidative stress markers", "Maternal diabetes"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

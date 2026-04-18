@@ -10,6 +10,7 @@ tags: [hashimotos-thyroiditis, thyroid, autoimmune, metabolomics, bile-acids, tp
 doi: "10.1038/s41598-025-90467-5"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Serum metabolomic analysis in patients with Hashimoto's thyroiditis positive for TgAb or TPOAb: a preliminary study

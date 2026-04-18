@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, PD-1, immunotherapy, MSS-type, CT26, gut
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Xu 2020 -- Gut Microbiome Influences PD-1 Immunotherapy Efficacy in MSS-Type CRC

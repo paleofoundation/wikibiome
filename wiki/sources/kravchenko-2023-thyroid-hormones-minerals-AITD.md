@@ -24,6 +24,7 @@ tags:
   - graves-disease
   - immunomodulation
 doi: 10.3389/fendo.2023.1225494
+evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

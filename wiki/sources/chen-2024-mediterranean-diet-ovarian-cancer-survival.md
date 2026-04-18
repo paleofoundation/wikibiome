@@ -9,6 +9,7 @@ year: 2024
 doi: "10.1186/s12967-024-05653-2"
 tags: [ovarian-cancer, Mediterranean-diet, survival, cohort-study, AMED, overall-survival, dietary-intervention]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Mediterranean Diet and Ovarian Cancer Survival

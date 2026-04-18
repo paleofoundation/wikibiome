@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [cadmium]
 key_findings: ["Cadmium concentration above detection level", "Doubling of cesium concentration", "Third trimester cesium doubling"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

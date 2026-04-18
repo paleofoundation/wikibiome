@@ -11,6 +11,7 @@ tags: [oral-microbiome, medications, statins, PPIs, thyroid-hormones, drug-micro
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [mycoplasma]
+karen_brain_primitives: [7]
 ---
 
 # Investigation of the Impact of Commonly Used Medications on the Oral Microbiome of Individuals Living Without Major Chronic Conditions

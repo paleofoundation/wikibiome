@@ -12,6 +12,7 @@ library_category: SCFAs
 platform: plasma
 condition: "Schizophrenia / Depression"
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Plasma inflammatory cytokines and short-chain fatty acid in depression and schizophrenia

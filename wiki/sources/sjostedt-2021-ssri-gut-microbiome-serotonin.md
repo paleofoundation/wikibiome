@@ -7,11 +7,13 @@ authors: [Peter Sjostedt, Jesper Enander, Josef Isung]
 year: 2021
 journal: "Frontiers in Psychiatry"
 doi: "10.3389/fpsyt.2021.682868"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, SSRI, serotonin, gut-microbiome, psychopharmacology, monoamine-hypothesis, tachyphylaxis, gut-brain-axis, antimicrobial]
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["Majority of serotonin", "SSRIs exhibit antimicrobial properties", "The role of the gut-brain axis"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -12,6 +12,7 @@ platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [bacteroides-fragilis]
 key_findings: ["Pediatric-onset MS"]
+karen_brain_primitives: [3]
 ---
 
 # Bile Acid Metabolism Is Altered in Multiple Sclerosis and Supplementation Ameliorates Neuroinflammation

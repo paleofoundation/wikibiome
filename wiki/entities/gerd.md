@@ -11,6 +11,7 @@ tags: [gastrointestinal, nickel, microbiome, PPIs, esophageal-microbiome, dysbio
 platform: wikibiome
 last_substantive_update: 2026-04-16
 associated_conditions: [ibs, gastric-cancer, celiac-disease, barretts-esophagus, sibo]
+signature_page: "[[gerd-signature]]"
 shared_signature_metals: {ibs: [nickel], gastric-cancer: [nickel], celiac-disease: [iron, zinc]}
 shared_signature_taxa: {ibs: [helicobacter-pylori, prevotella], gastric-cancer: [helicobacter-pylori, leptotrichia], celiac-disease: [bifidobacterium-depleted], barretts-esophagus: [prevotella, veillonella, leptotrichia]}
 seo_target: "GERD nickel allergy microbiome esophageal low nickel diet"

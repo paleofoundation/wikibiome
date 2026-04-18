@@ -7,6 +7,7 @@ authors: [Various]
 year: 2026
 journal: "BMC Pregnancy and Childbirth"
 doi: "10.1186/s12884-026-08677-2"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, fungal-dysbiosis, pregnancy, gestational-diabetes, mycobiome, reference, dysbiosis]
 library_category: reviews
 platform: cureva

@@ -10,6 +10,7 @@ tags: [obesity, BMI, Firmicutes-Bacteroidetes-ratio, nickel-allergy, low-nickel-
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [type-2-diabetes, pcos, cardiovascular-disease, depression, colorectal-cancer]
+signature_page: "[[obesity-signature]]"
 shared_signature_metals: {type-2-diabetes: [iron, cadmium, nickel, lead], pcos: [cadmium, nickel, lead, iron], cardiovascular-disease: [iron, cadmium, nickel, lead], depression: [iron, cadmium, lead], colorectal-cancer: [iron]}
 shared_signature_taxa: {type-2-diabetes: [escherichia-coli, enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium], pcos: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii], cardiovascular-disease: [escherichia-coli, streptococcus, enterobacteriaceae, lachnospiraceae, roseburia], depression: [escherichia-coli, faecalibacterium-prausnitzii, lachnospiraceae], colorectal-cancer: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]}
 seo_target: "obesity heavy metals microbiome gut bacteria nickel cadmium"

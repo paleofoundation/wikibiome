@@ -11,6 +11,7 @@ tags: [ovarian-cancer, endometrial-cancer, Mendelian-randomization, gut-microbio
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [christensenellaceae, escherichia-coli, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Causal Relationships of Gut Microbiota and Blood Metabolites with OC and EC

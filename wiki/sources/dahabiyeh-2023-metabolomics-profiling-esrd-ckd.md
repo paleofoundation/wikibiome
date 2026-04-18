@@ -9,6 +9,7 @@ journal: "Scientific Reports"
 doi: "10.1038/s41598-023-33377-8"
 tags: [chronic-kidney-disease, CKD, metabolomics, ESRD, kynurenine, tryptophan, BCAA, taurine, biomarker]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Metabolomics Profiling Distinguishes ESRD from CKD

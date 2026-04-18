@@ -7,8 +7,10 @@ authors: [Meng He, Wenqian Wei, Yichen Zhang, Zhouxia Xiang, Dan Peng, Ayijiaken
 year: 2024
 journal: "Journal of Translational Medicine"
 doi: "10.1186/s12967-024-04974-6"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, SCFAs, gut-microbial-metabolites, inflammatory-responses, oxidative-stress, autophagy, biomarker, review]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbial Metabolites SCFAs and CKD

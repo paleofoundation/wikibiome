@@ -10,6 +10,7 @@ doi: "10.3389/fimmu.2025.1579198"
 tags: [chronic-kidney-disease, CKD, editorial, gut-kidney-axis, dysbiosis, inflammation, metabolites, microbiome-targeted-therapy]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Gut Feelings: Microbiota and Kidney Disease Progression

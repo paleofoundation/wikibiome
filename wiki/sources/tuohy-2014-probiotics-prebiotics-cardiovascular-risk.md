@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Kieran M. Tuohy, Francesca Fava, Roberto Viola]
 journal: Proceedings of the Nutrition Society
 year: 2014
-doi: "not yet verified"  # <!-- DOI lookup needed: Proceedings of the Nutrition Society 2014 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, probiotics, prebiotics, gut-microbiome, cholesterol, bile-acids, TMAO, SCFAs, beta-glucan, oats]
 platform: wikibiome
 karen_brain_primitives: [5]

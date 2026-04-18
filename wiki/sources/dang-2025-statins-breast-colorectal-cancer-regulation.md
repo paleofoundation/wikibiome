@@ -9,6 +9,7 @@ year: 2025
 doi: "10.3389/fphar.2025.1578345"
 tags: [ovarian-cancer, statins, breast-cancer, colorectal-cancer, anticancer, EGFR-RhoA, mevalonate-pathway, LKB1-AMPK, combination-therapy]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # The Role of Statins in Breast and Colorectal Cancer Regulation

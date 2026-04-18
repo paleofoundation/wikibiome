@@ -7,6 +7,7 @@ authors: [Jeanne Corrales, Lucia Ramos-Alonso, Javier Gonzalez-Sabin, Nicolas Ri
 year: 2024
 journal: "Microbiology Spectrum"
 doi: "10.1128/spectrum.03009-23"
+evidence_level: animal-model
 tags: [mismetallation, metal-homeostasis, iron, iron-chelation, antifungal, Candida-albicans, Candida-glabrata, collismycin, fluconazole-synergy, mitochondrial-dysfunction, ROS, ATP-depletion, Aft1, iron-sulfur-clusters, mis-metallation]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome

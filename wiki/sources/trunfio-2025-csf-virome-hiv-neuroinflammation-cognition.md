@@ -10,6 +10,7 @@ doi: 10.3389/fmicb.2025.1704392
 tags: [CSF-virome, HIV, neuroinflammation, cognition, shotgun-metagenomics, blood-brain-barrier, prokaryotic-viruses, eukaryotic-viruses]
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # The Cerebrospinal Fluid Virome in People with HIV: Links to Neuroinflammation and Cognition

@@ -7,11 +7,13 @@ authors: [Nisha Mathew]
 year: 2025
 journal: "UNSW Sydney Thesis"
 doi: "10.26190/unsworks/31488"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, gastrointestinal-inflammation, heterogeneity, thesis, comorbidities, GI-symptoms]
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["ASD is highly heterogeneous", "Gastrointestinal inflammation", "Exploring subgroups"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

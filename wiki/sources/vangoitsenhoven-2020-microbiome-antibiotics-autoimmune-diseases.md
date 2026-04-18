@@ -7,6 +7,7 @@ authors: [Roman Vangoitsenhoven, Gail A. M. Cresci]
 year: 2020
 journal: "Nutrition in Clinical Practice"
 doi: "10.1002/ncp.10489"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, antibiotics, microbiome, autoimmune-diseases, ibd, probiotics, fmt, dysbiosis, immune-balance]
 library_category: reviews
 platform: cureva

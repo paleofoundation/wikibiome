@@ -11,6 +11,7 @@ tags: [schizophrenia, neuroinflammation, microglia, MHC, complement, pollution, 
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [copper, lead]
+karen_brain_primitives: [3]
 ---
 
 # The Inflamed Brain in Schizophrenia: The Convergence of Genetic and Environmental Risk Factors That Lead to Uncontrolled Neuroinflammation

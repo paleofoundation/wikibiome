@@ -10,6 +10,7 @@ tags: [hashimotos-thyroiditis, thyroid, autoimmune, amino-acids, papillary-thyro
 doi: "10.3389/fendo.2023.1199291"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Alterations in the amino acid profile in patients with papillary thyroid carcinoma with and without Hashimoto's thyroiditis

@@ -11,6 +11,7 @@ doi: "10.1212/WNL.0000000000013121"
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [arsenic, cadmium, lead, nickel]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

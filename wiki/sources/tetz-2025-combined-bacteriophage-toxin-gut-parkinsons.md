@@ -12,6 +12,7 @@ library_category: mechanistic-insights
 platform: both
 condition: "Parkinson's disease"
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # The Impact of Combined Bacteriophage and Toxin Exposure on Gut Viability in Parkinson's Disease Models

@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["Global pooled prevalence of PPD", "Significant variation", "Key national predictors"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

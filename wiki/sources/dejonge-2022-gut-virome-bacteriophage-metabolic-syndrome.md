@@ -14,6 +14,7 @@ platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
 key_findings: ["Candidatus Heliusviridae"]
+karen_brain_primitives: [6]
 ---
 
 # Key Claims

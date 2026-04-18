@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: cross-sectional
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["Third-trimester gut microbiota diversity"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

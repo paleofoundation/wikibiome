@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Bandaru S. Reddy]
 journal: Environmental Health and Preventive Medicine
 year: 2002
-doi: "not yet verified"  # <!-- DOI lookup needed: Environmental Health and Preventive Medicine 2002 -->
+doi: "not yet verified"
 tags: [colon-cancer, omega-3-fatty-acids, dietary-fat, n-3-PUFAs, n-6-PUFAs, colorectal-cancer, DHA, EPA, COX-2, ras-p21, prevention, review]
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [fusobacterium-nucleatum]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

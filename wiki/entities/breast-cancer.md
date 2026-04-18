@@ -21,6 +21,7 @@ tags: [cancer, copper, cadmium, zinc, manganese, metalloestrogens, microbiome, o
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [endometriosis, ovarian-cancer, colorectal-cancer]
+signature_page: "[[breast-cancer-signature]]"
 shared_signature_metals: {endometriosis: [cadmium, iron, nickel], ovarian-cancer: [cadmium, iron, nickel], colorectal-cancer: [iron, zinc, cadmium]}
 shared_signature_taxa: {endometriosis: [escherichia-coli, bacteroides-fragilis], ovarian-cancer: [escherichia-coli, fusobacterium-nucleatum], colorectal-cancer: [fusobacterium-nucleatum, bacteroides-fragilis]}
 seo_target: "breast cancer heavy metals microbiome cadmium metalloestrogens"

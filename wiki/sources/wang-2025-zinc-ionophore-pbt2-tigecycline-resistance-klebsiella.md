@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Jinyu Wang, Cuiping Xia, Zhaoxin Xia, Jilu Shen]
 year: 2025
 journal: "Frontiers in Cellular and Infection Microbiology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Cellular and Infection Microbiology 2025 -->
+doi: "not yet verified"
 pmcid: "PMC11860891"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, manganese, antibiotic-resistance, tigecycline, klebsiella-pneumoniae, PBT2, zinc-ionophore, superoxide-dismutase, efflux-pump, cell-wall, Irving-Williams-series]
 library_category: copper_zinc_toxicity

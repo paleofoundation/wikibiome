@@ -10,6 +10,7 @@ doi: "10.1038/s41591-023-02324-5"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, multi-omics, immune-infiltration, TCR-clonality, microsatellite-instability, Ruminococcus-bromii, mICRoScore, survival]
 platform: wikibiome
 taxa_discussed: [fusobacterium-nucleatum, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Roelands 2023 -- An Integrated Tumor, Immune and Microbiome Atlas of Colon Cancer

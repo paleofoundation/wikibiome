@@ -7,9 +7,11 @@ authors: [Rodziewicz A, Szewczyk A, Bryl E]
 journal: Nutrients
 year: 2024
 doi: "10.3390/nu16050685"
+evidence_level: randomized-controlled-trial
 tags: [graves-disease, thyroid, autoimmune, autoimmune-thyroiditis, gluten-free-diet, gut-microbiome, Hashimotos-thyroiditis, diet, Desulfobacterota, Proteobacteria, Prevotella, Bifidobacterium, anti-TPO]
 platform: wikibiome
 taxa_discussed: [bifidobacterium, prevotella]
+karen_brain_primitives: [5, 7]
 ---
 
 # Gluten-Free Diet Alters the Gut Microbiome in Women with Autoimmune Thyroiditis

@@ -7,6 +7,7 @@ authors: [Estelle Grasset, Remy Burcelin]
 year: 2019
 journal: "Reviews in Endocrine and Metabolic Disorders"
 doi: "10.1007/s11154-019-09511-1"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, gut-brain-axis, glucose-regulation, enteric-nervous-system, vagus-nerve, dysbiosis]
 library_category: mechanisms
 platform: cureva

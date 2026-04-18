@@ -11,6 +11,7 @@ doi: "10.1016/j.jtemb.2023.127148"
 platform: wikibiome
 evidence_level: case-control
 metals_discussed: [arsenic, cadmium, copper, iron, nickel, selenium]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

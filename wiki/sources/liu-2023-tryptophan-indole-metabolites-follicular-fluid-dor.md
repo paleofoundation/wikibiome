@@ -9,6 +9,7 @@ year: 2023
 doi: "10.1038/s41598-023-44335-9"
 tags: [ovarian-cancer, tryptophan, indole-metabolites, follicular-fluid, diminished-ovarian-reserve, IPA, IAA, metabolomics, intestinal-flora]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Tryptophan and Indole Metabolites in Follicular Fluid with Diminished Ovarian Reserve

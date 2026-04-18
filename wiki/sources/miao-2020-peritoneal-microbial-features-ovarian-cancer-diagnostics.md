@@ -9,6 +9,7 @@ year: 2020
 doi: "10.1371/journal.pone.0227707"
 tags: [ovarian-cancer, peritoneal-microbiome, CA-125, HE4, diagnostic-biomarker, machine-learning, 16S-rRNA, NGS]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Peritoneal Microbial Features and Tumor Markers as OC Diagnostic Tools

@@ -10,6 +10,7 @@ doi: "10.1371/journal.pone.0304370"
 tags: [gerd, gastroesophageal-reflux, migraine, depression, mendelian-randomization, gut-brain-axis, serotonin, neuropeptides, neuroinflammation, mediation-analysis, causal-association, comorbidity]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Migraine and gastroesophageal reflux disease: Disentangling the complex connection with depression as a mediator

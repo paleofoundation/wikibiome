@@ -12,6 +12,7 @@ platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [arsenic, cadmium, lead, manganese, zinc]
 key_findings: ["Bisphenols and phthalates"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

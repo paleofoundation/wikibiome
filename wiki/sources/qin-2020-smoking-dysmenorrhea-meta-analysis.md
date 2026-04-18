@@ -11,6 +11,7 @@ doi: "10.1038/s41467-019-12848-5"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [cadmium, lead, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims
@@ -39,5 +40,5 @@ metals_discussed: [cadmium, lead, zinc]
 - Complements [[choi-2020-smoking-premenstrual-syndrome-meta-analysis]] on smoking and PMS, together establishing smoking as a risk factor for multiple [[dysmenorrhea|menstrual disorders]]
 - Supports [[fernandez-2019-tobacco-pms-case-control]] which found that dysmenorrhea may be an intermediate variable between tobacco and PMS
 - Directly related to [[kuo-2025-smoking-alcohol-dysmenorrhea-taiwan]] which examines combined smoking and alcohol effects on dysmenorrhea
-- Tobacco smoke delivers [[cadmium]] and [[lead]] which are known [[endocrine disruptors]] per [[canipari-2020-female-fertility-environmental-pollution]]
+- Tobacco smoke delivers [[cadmium]] and [[lead]] which are known [[endocrine-disruptors|endocrine disruptors]] per [[canipari-2020-female-fertility-environmental-pollution]]
 - [[zinc]] supplementation for dysmenorrhea ([[hsu-2024-zinc-dysmenorrhea-meta-analysis]], [[teimoori-2016-zinc-dysmenorrhea-treatment]]) may counteract some prostaglandin-mediated pathways that smoking exacerbates

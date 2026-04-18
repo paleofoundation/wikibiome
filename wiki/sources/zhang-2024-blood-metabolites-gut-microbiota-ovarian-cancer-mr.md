@@ -11,6 +11,7 @@ tags: [ovarian-cancer, Mendelian-randomization, gut-microbiota, blood-metabolite
 platform: wikibiome
 evidence_level: mendelian-randomization
 taxa_discussed: [bacteroides-fragilis, dialister]
+karen_brain_primitives: [3]
 ---
 
 # Blood Metabolites Mediate Gut Microbiota-Ovarian Cancer Relationships

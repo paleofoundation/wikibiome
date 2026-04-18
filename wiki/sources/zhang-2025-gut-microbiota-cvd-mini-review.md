@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Shouhong Zhang, Jing Li, Liping Li, Xingxing Yuan]
 journal: Frontiers in Microbiology
 year: 2025
-doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Microbiology 2025 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, gut-microbiome, TMAO, SCFAs, bile-acids, therapeutic-strategies, FMT, probiotics, Mediterranean-diet, statins, metformin]
 platform: wikibiome
 karen_brain_primitives: [5]

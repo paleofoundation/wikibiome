@@ -10,6 +10,7 @@ doi: "10.1038/nrdp.2017.88"
 tags: [chronic-kidney-disease, CKD, disease-primer, pathophysiology, review, ESRD, epidemiology, treatment]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Chronic Kidney Disease: Disease Primer

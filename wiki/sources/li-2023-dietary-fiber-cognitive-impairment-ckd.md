@@ -10,6 +10,7 @@ doi: "10.1371/journal.pone.0291690"
 tags: [chronic-kidney-disease, CKD, dietary-fiber, cognitive-impairment, NHANES, cross-sectional, CKD-cognition]
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Dietary Fiber Intake and Cognitive Impairment in Older CKD Patients

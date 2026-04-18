@@ -8,6 +8,7 @@ journal: Frontiers in Sustainable Food Systems
 year: 2022
 tags: [heavy-metals, metagenomics, metatranscriptomics, metaproteomics, metabolomics, bioremediation, plant-microbiome, soil-microbiome, resistome]
 doi: "10.3389/fsufs.2021.817932"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [arsenic, nickel]
 taxa_discussed: [pseudomonas-aeruginosa]

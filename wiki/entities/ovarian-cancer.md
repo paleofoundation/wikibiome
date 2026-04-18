@@ -10,6 +10,7 @@ tags: [cancer, cadmium, nickel, arsenic, iron, metalloestrogens, ferroptosis, mi
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [endometriosis, breast-cancer, colorectal-cancer]
+signature_page: "[[ovarian-cancer-signature]]"
 shared_signature_metals: {endometriosis: [iron, cadmium, nickel], breast-cancer: [cadmium, iron, nickel], colorectal-cancer: [iron, cadmium]}
 shared_signature_taxa: {endometriosis: [escherichia-coli, fusobacterium-nucleatum], breast-cancer: [escherichia-coli, fusobacterium-nucleatum], colorectal-cancer: [fusobacterium-nucleatum, bacteroides-fragilis]}
 seo_target: "ovarian cancer heavy metals microbiome cadmium metalloestrogens ferroptosis"

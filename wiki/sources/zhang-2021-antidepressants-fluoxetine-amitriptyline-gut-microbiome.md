@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, antidepressants, fluoxetine, amitriptyline, gut-m
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [alistipes, butyricimonas, parabacteroides]
+karen_brain_primitives: [3]
 ---
 
 # Antidepressants Fluoxetine and Amitriptyline Induce Alterations in Intestinal Microbiota and Gut Microbiome Function

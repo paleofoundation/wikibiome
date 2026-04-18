@@ -10,6 +10,7 @@ doi: "10.1038/s41598-025-99912-x"
 tags: [ovarian-cancer, gut-microbiota, 16S-rRNA, Escherichia-Shigella, diagnostic-biomarker, benign-ovarian-tumor, dysbiosis]
 platform: wikibiome
 taxa_discussed: [coprococcus, escherichia-coli, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Characteristics and Potential Diagnostic Value of Gut Microbiota in Ovarian Tumor Patients

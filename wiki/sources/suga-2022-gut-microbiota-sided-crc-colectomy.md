@@ -11,6 +11,7 @@ doi: "10.1186/s12876-022-02382-y"
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [clostridium]
+karen_brain_primitives: [3]
 ---
 
 # The Gut Microbiota Composition in Patients with Right- and Left-Sided Colorectal Cancer and After Curative Colectomy

@@ -12,6 +12,7 @@ year: 2019
 volume: 215
 pages: 846-857
 doi: 10.1016/j.chemosphere.2018.10.114
+evidence_level: expert-opinion
 tags:
   - co-selection
   - antimicrobial-resistance

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Sarah H. Mhaibes, Mohammed A. Taher, Ala H. Badr]
 journal: Iraqi Journal of Pharmaceutical Sciences
 year: 2017
-doi: "not yet verified"  # <!-- DOI lookup needed: Iraqi Journal of Pharmaceutical Sciences 2017 -->
+doi: "not yet verified"
 tags: [PCOS, obesity, lead, cadmium, manganese, magnesium, calcium, trace-elements, hormones, Baghdad, Iraq]
 platform: wikibiome
 evidence_level: case-control

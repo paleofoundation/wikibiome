@@ -7,6 +7,7 @@ authors: [Alastair G. McEwan]
 year: 2024
 journal: "Emerging Topics in Life Sciences"
 doi: "10.1042/ETLS20230040"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, metalloproteome-plasticity, manganese, iron, magnesium, cambialistic-enzymes, nutritional-immunity, Salmonella, oxidative-stress, pathogen-adaptation]
 library_category: reviews_mechanisms
 platform: wikibiome

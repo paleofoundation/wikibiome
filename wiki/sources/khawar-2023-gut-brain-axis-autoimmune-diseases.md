@@ -7,6 +7,7 @@ authors: [Muhammad Muneeb Khawar Sr., Sami Ijaz, Priya Goyal, Dhanuddara Kandamb
 year: 2023
 journal: "Cureus"
 doi: "10.7759/cureus.48655"
+evidence_level: expert-opinion
 tags: [postpartum-depression, gut-brain-axis, autoimmune-diseases, dysbiosis, inflammation, LPS, molecular-mimicry, review]
 library_category: review
 platform: cureva

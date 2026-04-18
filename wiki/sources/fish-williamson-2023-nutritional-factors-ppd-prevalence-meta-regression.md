@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["Updated global PPD prevalence", "Sugar-sweetened beverage (SSB) consumption", "Seafood consumption"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, tumor-microbiome, microbiome-signature, basal-like-sub
 doi: "10.1038/s42003-021-02557-5"
 platform: wikibiome
 taxa_discussed: [acinetobacter, pseudomonas-aeruginosa]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

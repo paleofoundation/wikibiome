@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Jigar Patel, Dae-Wook Kang, James Adams, Rosa Krajmalnik-Brown]
 year: 2018
 journal: "Unpublished/Preprint"
-doi: "not yet verified"  # <!-- DOI lookup needed: Unpublished/Preprint 2018 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, mycobiome, fungal-microbiota, Candida, ITS-sequencing, 16S-rRNA, gut-fungi, GI-symptoms, ATEC]
 library_category: "Fungal microbiota"
 platform: sequencing

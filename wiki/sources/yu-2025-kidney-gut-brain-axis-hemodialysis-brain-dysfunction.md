@@ -10,6 +10,7 @@ doi: "10.3389/fmed.2025.1538048"
 tags: [chronic-kidney-disease, CKD, kidney-gut-brain-axis, hemodialysis, brain-dysfunction, ESRD, uremic-toxins, review]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Kidney-Gut-Brain Axis in Hemodialysis Brain Dysfunction

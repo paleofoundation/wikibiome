@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Dobrzyńska MM, Gajowik A, Jankowska-Steifer EA, Radzikowska J]
 journal: Acta Sci Pol Technol Aliment
 year: 2025
-doi: "not yet verified"  # <!-- DOI lookup needed: Acta Sci Pol Technol Aliment 2025 -->
+doi: "not yet verified"
 tags: [nickel, dietary-exposure, children, review, food-safety, biomonitoring, endocrine-disruption]
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [iron, nickel]
+karen_brain_primitives: [3]
 ---
 
 # Nickel Exposure from Food and Levels in Children's Blood and Tissues: Health Implications

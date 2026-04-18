@@ -10,6 +10,7 @@ doi: "10.1371/journal.pmed.1001200"
 tags: [ovarian-cancer, body-size, BMI, height, meta-analysis, obesity, cancer-risk, epidemiology]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Ovarian Cancer and Body Size: Individual Participant Meta-Analysis

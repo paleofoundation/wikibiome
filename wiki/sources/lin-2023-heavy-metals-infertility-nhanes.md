@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Lin J, Lin X, Qiu J, You X, Xu J]
 journal: "Frontiers in Public Health"
 year: 2023
-doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Public Health 2023 -->
+doi: "not yet verified"
 tags: [infertility, arsenic, cadmium, lead, mercury, NHANES, female-reproductive-health]
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [arsenic, cadmium, lead, mercury]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

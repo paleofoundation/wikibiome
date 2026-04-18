@@ -10,6 +10,7 @@ doi: "10.3389/fimmu.2025.1420132"
 tags: [gerd, gastroesophageal-reflux, amino-acids, glutamate, mendelian-randomization, meta-analysis, metabolomics, personalized-nutrition, histidine, gastric-acid, LES-dysfunction, inflammatory-response]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # The relationship between amino acids and gastroesophageal reflux disease: evidence from a mendelian randomization analysis combined with a meta-analysis

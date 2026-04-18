@@ -7,6 +7,7 @@ authors: [Karishma Bisht, Moamen M Elmassry, Hafij Al Mahmud, Shubhra Bhattachar
 year: 2024
 journal: "Research Square"
 doi: "10.21203/rs.3.rs-4422908/v1"
+evidence_level: animal-model
 tags: [mismetallation, metal-homeostasis, copper, aluminum, strontium, Pseudomonas-aeruginosa, cystic-fibrosis, malonate, carbon-metabolism, stress-response, antibiotic-tolerance, kanamycin, norfloxacin, biomineralized-aggregates, glyoxylate-cycle]
 library_category: metal_homeostasis_bacteria
 platform: wikibiome

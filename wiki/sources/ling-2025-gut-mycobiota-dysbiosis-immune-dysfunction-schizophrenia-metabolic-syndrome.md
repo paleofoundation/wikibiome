@@ -11,6 +11,7 @@ tags: [schizophrenia, metabolic-syndrome, mycobiome, mycobiota, Candida, Malasse
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [candida-albicans, malassezia, saccharomyces-cerevisiae]
+karen_brain_primitives: [5, 6]
 ---
 
 # Gut Mycobiota Dysbiosis and Systemic Immune Dysfunction in Chinese Schizophrenia Patients with Metabolic Syndrome

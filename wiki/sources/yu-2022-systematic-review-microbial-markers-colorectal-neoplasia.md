@@ -11,6 +11,7 @@ doi: "10.1038/s41416-022-01740-7"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [actinomyces, bifidobacterium, enterococcus, fusobacterium-nucleatum, peptostreptococcus, porphyromonas, prevotella, pseudomonas-aeruginosa, roseburia, salmonella, streptococcus, treponema]
+karen_brain_primitives: [3]
 ---
 
 # A Systematic Review of Microbial Markers for Risk Prediction of Colorectal Neoplasia

@@ -11,6 +11,7 @@ doi: "10.1016/j.neuro.2023.04.013"
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [arsenic, cadmium, chromium, copper, lead, mercury, nickel, selenium, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

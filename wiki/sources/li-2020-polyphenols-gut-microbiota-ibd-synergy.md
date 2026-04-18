@@ -23,6 +23,7 @@ tags:
   - SCFAs
   - inflammation
 doi: 10.1039/D0FO00713G
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [copper, iron]
 taxa_discussed: [bacteroides-fragilis, escherichia-coli, eubacterium, faecalibacterium-prausnitzii, lactobacillus, roseburia]

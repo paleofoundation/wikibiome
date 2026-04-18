@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Various]
 year: 2021
 journal: "Various"
-doi: "not yet verified"  # <!-- DOI lookup needed: Various 2021 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, periodontitis, oral-microbiome, microbial-biomarkers, inflammation, dysbiosis]
 library_category: reviews
 platform: cureva

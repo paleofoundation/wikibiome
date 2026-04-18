@@ -10,6 +10,7 @@ tags: [hashimotos-thyroiditis, thyroid, autoimmune, salivary-microbiome, tsh, in
 doi: "10.3389/fcimb.2021.603291"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [7]
 ---
 
 # Association Between Serum Thyroid-Stimulating Hormone Levels and Salivary Microbiome Shifts

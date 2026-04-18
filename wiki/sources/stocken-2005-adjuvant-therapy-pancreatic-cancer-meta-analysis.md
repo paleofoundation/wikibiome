@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, meta-analysis, adjuvant-therapy, chemotherapy, chemora
 doi: "10.1038/sj.bjc.6602513"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

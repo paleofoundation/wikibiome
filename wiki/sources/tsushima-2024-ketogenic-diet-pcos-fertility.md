@@ -9,6 +9,7 @@ journal: Frontiers in Nutrition
 year: 2024
 tags: [PCOS, ketogenic-diet, fertility, menstrual-cycles, pregnancy, retrospective, obesity, ovulation]
 doi: "10.3389/fnut.2024.1450244"
+evidence_level: expert-opinion
 platform: wikibiome
 karen_brain_primitives: [7]
 metals_discussed: []

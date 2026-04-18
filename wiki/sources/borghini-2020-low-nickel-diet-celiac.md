@@ -8,8 +8,10 @@ journal: Nutrients
 year: 2020
 tags: [nickel-allergy, dietary-nickel, celiac-disease, IBS, low-nickel-diet, gluten-free-diet, metalloestrogen]
 doi: "10.3390/nu12082277"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [5]
 ---
 
 # Beneficial Effects of a Low-Nickel Diet on Relapsing IBS-Like and Extraintestinal Symptoms of Celiac Patients during a Proper Gluten-Free Diet

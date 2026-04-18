@@ -20,6 +20,7 @@ tags: [gynecological, nickel-allergy, metalloestrogens, microbiome, dietary-para
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [pcos, ibs, breast-cancer, ovarian-cancer]
+signature_page: "[[endometriosis-signature]]"
 shared_signature_metals: {pcos: [nickel, iron, zinc], ibs: [nickel, iron], breast-cancer: [cadmium, iron, nickel], ovarian-cancer: [iron, cadmium, nickel]}
 shared_signature_taxa: {pcos: [escherichia-coli, bacteroides-fragilis, lachnospiraceae], ibs: [escherichia-coli, lachnospiraceae, ruminococcus], breast-cancer: [escherichia-coli, bacteroides-fragilis], ovarian-cancer: [escherichia-coli, fusobacterium-nucleatum]}
 seo_target: "endometriosis heavy metals microbiome nickel"

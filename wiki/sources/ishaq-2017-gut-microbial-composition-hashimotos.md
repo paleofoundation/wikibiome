@@ -11,6 +11,7 @@ tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, 16S-rRNA, DGGE, pyrosequ
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, dialister, escherichia-coli, lactobacillus, prevotella, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Molecular Estimation of Alteration in Intestinal Microbial Composition in Hashimoto's Thyroiditis Patients

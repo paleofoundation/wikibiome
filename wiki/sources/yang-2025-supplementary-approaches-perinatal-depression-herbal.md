@@ -14,6 +14,7 @@ condition: "perinatal depression"
 evidence_level: expert-opinion
 metals_discussed: [iron, magnesium, zinc]
 key_findings: ["Perinatal depression prevalence", "Saffron and vitamin D", "Herbal remedies"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -9,6 +9,7 @@ year: 2025
 doi: "10.1186/s40170-025-00391-5"
 tags: [ovarian-cancer, microbiota-metabolites, ascites, 4D-metabolomics, hydroxyanthranilic-acid, indole, naringenin, lipid-metabolism, inflammation]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Microbiota-Derived Metabolites in Ascites of Ovarian and GI Cancer

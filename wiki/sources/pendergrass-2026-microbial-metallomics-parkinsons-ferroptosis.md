@@ -8,6 +8,7 @@ journal: "Conference Presentation"
 year: 2025
 tags: [Parkinsons-disease, microbial-metallomics, ferroptosis, gut-dysbiosis, alpha-synuclein, iron, gut-brain-axis, dopaminergic-neurons, heavy-metals, nickel, manganese, LPS, neuroinflammation, SCFA, gut-permeability]
 doi: "10.5281/zenodo.17830083"
+evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 4, 5]

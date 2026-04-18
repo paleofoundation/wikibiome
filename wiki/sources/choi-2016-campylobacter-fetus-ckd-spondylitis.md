@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, 16S-rRNA, Campylobacter-fetus, spondylitis, 
 platform: wikibiome
 evidence_level: case-report
 taxa_discussed: [campylobacter-jejuni]
+karen_brain_primitives: [3]
 ---
 
 # Infectious Spondylitis in a Patient with Chronic Kidney Disease

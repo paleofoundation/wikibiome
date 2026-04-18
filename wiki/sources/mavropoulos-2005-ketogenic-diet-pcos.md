@@ -10,6 +10,7 @@ year: 2005
 tags: [PCOS, ketogenic-diet, low-carbohydrate, insulin-resistance, pilot-study, weight-loss, testosterone]
 doi: "10.1186/1743-7075-2-35"
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

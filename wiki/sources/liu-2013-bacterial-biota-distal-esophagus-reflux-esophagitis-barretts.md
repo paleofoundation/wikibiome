@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, esophageal-microbiome, reflux-esophagitis,
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [haemophilus, klebsiella-pneumoniae, prevotella, streptococcus, veillonella]
+karen_brain_primitives: [3]
 ---
 
 # Characterization of bacterial biota in the distal esophagus of Japanese patients with reflux esophagitis and Barrett's esophagus

@@ -10,6 +10,7 @@ doi: 10.1001/jama.2020.26858
 tags: [multiple-sclerosis, diagnosis, treatment, disease-modifying-therapy, DMT, McDonald-criteria, epidemiology, clinical-review]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Diagnosis and Treatment of Multiple Sclerosis: A Review

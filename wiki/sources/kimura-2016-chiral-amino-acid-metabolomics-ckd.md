@@ -10,6 +10,7 @@ doi: "10.1038/srep26137"
 tags: [chronic-kidney-disease, CKD, metabolomics, D-amino-acids, biomarker, D-serine, D-asparagine, CKD-progression, ESKD]
 platform: wikibiome
 evidence_level: prospective-cohort
+karen_brain_primitives: [3]
 ---
 
 # Chiral Amino Acid Metabolomics for CKD Biomarker Screening

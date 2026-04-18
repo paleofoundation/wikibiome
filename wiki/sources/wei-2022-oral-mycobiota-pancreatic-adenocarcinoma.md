@@ -11,6 +11,7 @@ doi: "10.1186/s12885-022-10329-5"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [aspergillus, candida-albicans, cladosporium, malassezia]
+karen_brain_primitives: [6]
 ---
 
 # Key Claims

@@ -10,6 +10,7 @@ tags: [colon-cancer, 16S-rRNA, shotgun-metagenomics, sequencing-comparison, colo
 doi: "10.1186/s12864-024-10621-7"
 platform: wikibiome
 taxa_discussed: [faecalibacterium-prausnitzii]
+karen_brain_primitives: [3]
 ---
 
 # Comparison between 16S rRNA and Shotgun Sequencing in Colorectal Cancer, Advanced Colorectal Lesions, and Healthy Human Gut Microbiota

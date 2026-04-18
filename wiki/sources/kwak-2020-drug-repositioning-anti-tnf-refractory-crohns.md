@@ -11,6 +11,7 @@ doi: "10.1038/s41598-020-67801-0"
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [6]
 ---
 
 # Key Claims

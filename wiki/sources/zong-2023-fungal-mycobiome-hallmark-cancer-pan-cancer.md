@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, pan-cancer, Candida, Saccharo
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [candida-albicans, malassezia]
+karen_brain_primitives: [6]
 ---
 
 # Zong 2023 -- Fungal Mycobiome as New Hallmark of Cancer

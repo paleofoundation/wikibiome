@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Adapa V, Kada VA, Nunna JSG]
 journal: Journal of Clinical and Pharmaceutical Research
 year: 2023
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Clinical and Pharmaceutical Research 2023 -->
+doi: "not yet verified"
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiota, dysbiosis, hypothyroidism, autoimmune-thyroiditis, probiotics, prebiotics, fermented-foods, high-fiber-diet, dietary-fiber, SCFAs, Bifidobacterium, Lactobacillus, Faecalibacterium, intestinal-permeability, molecular-mimicry, autoantigen-presentation, tryptophan, microbiome-diet]
 platform: wikibiome
 evidence_level: expert-opinion

@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, microbiome-signature, fecal-microbiome, 16S-rRNA, micr
 doi: "10.1038/s41598-019-53041-4"
 platform: wikibiome
 taxa_discussed: [lachnospiraceae, megasphaera, veillonella]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

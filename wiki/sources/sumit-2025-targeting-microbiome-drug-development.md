@@ -7,7 +7,8 @@ authors: [Sumit]
 journal: "Scholar's Digest: Journal of Pharmacology"
 year: 2025
 tags: [crohns-disease, IBD, microbiome, drug-development, therapeutic-strategies, probiotics, FMT, precision-medicine, dysbiosis]
-doi: "not yet verified"  # <!-- DOI lookup needed: Scholar's Digest: Journal of Pharmacology 2025 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 platform: wikibiome
 karen_brain_primitives: [5]
 ---

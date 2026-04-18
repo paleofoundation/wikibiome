@@ -7,12 +7,14 @@ authors: [Hairong Sun, Zhong You, Libo Jia, Fang Wang]
 year: 2019
 journal: "BMC Pediatrics"
 doi: "10.1186/s12887-019-1896-6"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, 16S-rRNA, gut-microbiota, KEGG-pathways, Bacteroidales, Selenomonadales, children]
 library_category: "16S rRNA sequencing"
 platform: sequencing
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-7"
 key_findings: ["Bacteroidales", "Ruminococcaceae", "Prevotellaceae"]
+karen_brain_primitives: [3]
 ---
 
 # Overview

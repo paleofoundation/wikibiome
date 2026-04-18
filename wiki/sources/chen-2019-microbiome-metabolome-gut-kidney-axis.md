@@ -7,6 +7,7 @@ authors: [Yuan-Yuan Chen, Dan-Qian Chen, Lin Chen, Jing-Ru Liu, Nosratola D. Vaz
 year: 2019
 journal: "Journal of Translational Medicine"
 doi: "10.1186/s12967-018-1756-4"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, gut-kidney-axis, metabolome, uremic-toxins, probiotics, review, IgA-nephropathy, hemodialysis]
 platform: wikibiome
 karen_brain_primitives: [5]

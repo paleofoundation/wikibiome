@@ -7,6 +7,7 @@ authors: [Jiayi Li, Bei Wan, Le Zhou, Xin Qian, Fushun Wang, Simeng Gu, Xianjun 
 year: 2025
 journal: "Frontiers in Psychiatry"
 doi: "10.3389/fpsyt.2025.1629182"
+evidence_level: expert-opinion
 tags: [postpartum-depression, neuroinflammation, MDD, gut-brain-axis, microglia, P2X7R-NLRP3, dysbiosis, sleep, review]
 library_category: review
 platform: cureva

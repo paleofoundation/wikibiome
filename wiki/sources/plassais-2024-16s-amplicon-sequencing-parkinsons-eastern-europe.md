@@ -12,6 +12,7 @@ library_category: signatures
 platform: both
 condition: "Parkinson's disease"
 taxa_discussed: [prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Exploring Gut Microbiota Alterations in Parkinson's Disease: Insights from a 16S Amplicon Sequencing Eastern European Pilot Study

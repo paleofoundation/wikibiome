@@ -7,6 +7,7 @@ authors: [Ameer Luqman, Adil Hassan, Mehtab Ullah, Sahar Naseem, Mehraj Ullah, L
 journal: Frontiers in Immunology
 year: 2024
 doi: 10.3389/fimmu.2024.1321395
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, gut-microbiome, TMAO, SCFAs, dysbiosis, FMT, prebiotics, probiotics, antibiotics, review, microbiome-in-chronic-disease]
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, blautia, campylobacter-jejuni, collinsella, escherichia-coli, klebsiella-pneumoniae, prevotella, shigella, streptococcus]

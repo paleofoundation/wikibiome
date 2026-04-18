@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: animal-model
 key_findings: ["Maternal valproate use during pregnancy", "508 children exposed to valproate", "Adjusted HR of 2.9"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

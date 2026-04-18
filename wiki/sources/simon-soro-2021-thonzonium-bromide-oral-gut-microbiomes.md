@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Aurea Simon-Soro, Dongyeop Kim, Yong Li, Yuan Liu, Tatsuro Ito, Kenneth R. Sims Jr., Danielle S. W. Benoit, Kyle Bittinger, Hyun Koo]
 journal: npj Biofilms and Microbiomes
 year: 2021
-doi: "not yet verified"  # <!-- DOI lookup needed: npj Biofilms and Microbiomes 2021 -->
+doi: "not yet verified"
 tags: [colon-cancer, drug-repurposing, microbiome, oral-gut-axis, thonzonium-bromide, nanoparticle-carrier, Rothia, Veillonella, Sutterella, dental-caries, colorectal-cancer]
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [bacteroides-fragilis, veillonella]
+karen_brain_primitives: [6]
 ---
 
 # Key Claims

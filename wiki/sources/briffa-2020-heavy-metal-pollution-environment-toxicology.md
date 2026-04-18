@@ -8,6 +8,7 @@ journal: Heliyon
 year: 2020
 tags: [heavy-metals, environmental-pollution, toxicology, aluminium, vanadium, chromium, manganese, iron, cobalt, nickel, copper, zinc, molybdenum, arsenic, selenium, silver, cadmium, mercury, lead, carcinogenicity, pharmacokinetics, review]
 doi: "10.1016/j.heliyon.2020.e04691"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [aluminum, arsenic, cadmium, chromium, cobalt, copper, iron, lead, manganese, mercury, molybdenum, nickel, selenium, vanadium, zinc]
 karen_brain_primitives: [9]

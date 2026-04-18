@@ -10,6 +10,7 @@ year: 2017
 tags: [pancreatic-cancer, metabolomics, LC-MS, biomarkers, chronic-pancreatitis, glycocholic-acid, hexanoylcarnitine, diagnostics]
 doi: "10.1007/s11306-017-1199-6"
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

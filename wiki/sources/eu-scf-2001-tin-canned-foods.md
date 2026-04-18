@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [European Commission Scientific Committee on Food]
 journal: SCF/CS/CNTM/OTH/18 Final (EU Scientific Opinion)
 year: 2001
-doi: "not yet verified"  # <!-- DOI lookup needed: SCF/CS/CNTM/OTH/18 Final (EU Scientific Opinion) 2001 -->
+doi: "not yet verified"
 tags: [tin, regulatory, EU, canned-food, food-safety, inorganic-tin, gastric-irritation, JECFA]
 platform: wikibiome
 metals_discussed: [tin]
 key_findings: ["Document type"]
+karen_brain_primitives: [3]
 ---
 
 # EU SCF Opinion on Acute Risks Posed by Tin in Canned Foods

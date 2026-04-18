@@ -7,6 +7,7 @@ authors: [Marius Troeseid, Susanne Dam Nielsen, Ivan Vujkovic-Cvijin]
 journal: Microbiome
 year: 2024
 doi: "10.1186/s40168-024-01815-y"
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, HIV, gut-microbiome, comorbidities, TMAO, SCFAs, microbial-translocation, dysbiosis, cardiometabolic-disease, tryptophan, indole-3-propionic-acid, bile-acids, uremic-toxins]
 source_pdf: "raw/cardiovascular disease/Comorbidities cardiovascular disease microbiome/s40168-024-01815-y.pdf"
 pages_read: "1-8"

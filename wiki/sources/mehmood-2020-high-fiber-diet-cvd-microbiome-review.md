@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Mutahar Ahmad Mehmood, Ayush Suri]
 journal: iScientist
 year: 2020
-doi: "not yet verified"  # <!-- DOI lookup needed: iScientist 2020 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, high-fiber-diet, gut-microbiome, SCFA, TMAO, atherosclerosis, hypertension, systematic-review]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis

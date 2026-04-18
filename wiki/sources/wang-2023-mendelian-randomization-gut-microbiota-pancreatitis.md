@@ -11,6 +11,7 @@ doi: "10.3389/fmicb.2023.1290202"
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [eubacterium, lachnospiraceae, oscillospiraceae]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

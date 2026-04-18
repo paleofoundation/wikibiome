@@ -7,6 +7,7 @@ authors: [Various]
 year: 2020
 journal: "Diabetologia"
 doi: "10.1007/s00125-020-05295-1"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, prebiotics, probiotics, synbiotics, insulin-sensitivity, gut-microbiome, clinical-trial, dysbiosis]
 library_category: reviews
 platform: cureva

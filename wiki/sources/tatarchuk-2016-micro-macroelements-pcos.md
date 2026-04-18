@@ -7,7 +7,7 @@ authors: [Tatarchuk TF, Kosei NV, Vetokh HV, Gunkov SV]
 journal: Reproductive Endocrinology
 year: 2016
 tags: [PCOS, nickel, manganese, zinc, copper, pelvic-inflammatory-disease, microelements, oxidative-stress]
-doi: "not yet verified"  # <!-- DOI lookup needed: Reproductive Endocrinology 2016 -->
+doi: "not yet verified"
 platform: wikibiome
 karen_brain_primitives: [1, 7, 9]
 metals_discussed: ["copper", "manganese", "nickel", "zinc"]

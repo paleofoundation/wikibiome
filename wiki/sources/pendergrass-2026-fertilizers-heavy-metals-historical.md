@@ -8,6 +8,7 @@ journal: "Zenodo Preprint"
 year: 2026
 tags: [heavy-metals, fertilizers, cadmium, nickel, lead, chromium, phosphate-fertilizers, urea, agricultural-soils, food-chain-contamination, soil-bioaccumulation]
 doi: "10.5281/zenodo.18439158"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [cadmium, chromium, lead, nickel]
 karen_brain_primitives: [4]

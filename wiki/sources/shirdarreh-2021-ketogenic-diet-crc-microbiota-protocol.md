@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, ketogenic-diet, gut-microbiota, 16S-rRNA
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [fusobacterium-nucleatum, porphyromonas]
+karen_brain_primitives: [5]
 ---
 
 # Shirdarreh 2021 -- KD Impact on CRC Progression and Gut Microbiota Co-evolution Protocol

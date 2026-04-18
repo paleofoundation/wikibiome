@@ -12,7 +12,7 @@ authors:
   - Ahmed SK
 journal: World Academy of Sciences Journal
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: World Academy of Sciences Journal 2024 -->
+doi: "not yet verified"
 evidence_level: expert-opinion
 tags:
   - heavy-metals

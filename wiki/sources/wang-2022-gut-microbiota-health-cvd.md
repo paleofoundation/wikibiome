@@ -12,6 +12,7 @@ source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease m
 pages_read: "1-8"
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

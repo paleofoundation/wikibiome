@@ -13,6 +13,7 @@ pages_read: "1-8"
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [akkermansia-muciniphila, collinsella, eubacterium, roseburia]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

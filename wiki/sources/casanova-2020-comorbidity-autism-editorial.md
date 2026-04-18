@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 source_pages: "pp. 1-7"
 evidence_level: expert-opinion
 taxa_discussed: [candida-albicans]
+karen_brain_primitives: [6]
 ---
 
 # Overview

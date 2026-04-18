@@ -9,6 +9,7 @@ year: 2024
 doi: "10.1186/s13048-024-01573-3"
 tags: [ovarian-cancer, bile-acids, follicular-fluid, diminished-ovarian-reserve, granulosa-cells, metabolomics, random-forest-model]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Bile Acids in Follicular Fluid: Therapeutic Targets for Diminished Ovarian Reserve

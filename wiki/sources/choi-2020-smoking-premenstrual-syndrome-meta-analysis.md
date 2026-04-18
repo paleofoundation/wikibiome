@@ -11,6 +11,7 @@ doi: "10.3389/fpsyt.2020.575526"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [cadmium, lead]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims
@@ -36,7 +37,7 @@ metals_discussed: [cadmium, lead]
 # Connections
 
 - Directly relevant to [[fernandez-2019-tobacco-pms-case-control]] which provides primary case-control data on the smoking-PMS/PMDD relationship
-- Tobacco smoke contains [[cadmium]], [[lead]], and other [[heavy-metals]] that act as [[endocrine disruptors]], connecting to [[canipari-2020-female-fertility-environmental-pollution]]
+- Tobacco smoke contains [[cadmium]], [[lead]], and other [[heavy-metals]] that act as [[endocrine-disruptors|endocrine disruptors]], connecting to [[canipari-2020-female-fertility-environmental-pollution]]
 - HPA axis disruption by smoking parallels the hormonal disruption pathways of heavy metal exposure on the [[hypothalamic-pituitary-ovarian axis]]
 - PMS/PMDD symptom overlap with nicotine withdrawal suggests shared neuroendocrine pathways involving [[serotonin]] and [[dopamine]]
 - Smoking as a risk factor for [[dysmenorrhea|menstrual disorders]] connects to [[qin-2020-smoking-dysmenorrhea-meta-analysis]] and [[kuo-2025-smoking-alcohol-dysmenorrhea-taiwan]]

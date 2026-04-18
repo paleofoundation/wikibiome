@@ -15,6 +15,7 @@ wikipedia_differentiation: "Gut-brain axis mechanisms linking microbiome composi
 icd_10: "F41"
 global_prevalence: "~4.8% of world population; ~280 million affected"
 associated_conditions: [depression, ibs, endometriosis, crohns-disease, graves-disease, parkinsons-disease, multiple-sclerosis, fibromyalgia]
+signature_page: "[[anxiety-signature]]"
 ---
 
 # Anxiety Disorders

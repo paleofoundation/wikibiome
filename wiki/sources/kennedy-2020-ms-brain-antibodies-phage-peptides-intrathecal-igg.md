@@ -10,6 +10,7 @@ year: 2020
 doi: 10.1016/j.jneuroim.2020.577319
 tags: [multiple-sclerosis, phage-display, oligoclonal-bands, IgG, EBV, intrathecal-antibodies, biomarker, plasma-cells, laser-capture-microdissection]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Recombinant Antibodies from MS Brain Plasma Cells Identified Phage Peptides for Characterizing Intrathecal IgG Response

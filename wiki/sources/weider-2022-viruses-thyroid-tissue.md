@@ -10,6 +10,7 @@ doi: "10.3389/fendo.2022.938633"
 tags: [hashimotos-thyroiditis, thyroid, virome, enterovirus, HHV-6, parvovirus-B19, Graves-disease, viral-infection, EBV, CMV, thyroid-tissue]
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # High Prevalence of Common Human Viruses in Thyroid Tissue

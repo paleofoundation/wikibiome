@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: systematic-review-meta-analysis
 key_findings: ["Physical exercise", "Individual exercise programmes", "Communication deficits"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

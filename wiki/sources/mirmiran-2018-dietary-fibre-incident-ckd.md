@@ -10,6 +10,7 @@ doi: "10.1017/S0007114517003671"
 tags: [chronic-kidney-disease, CKD, dietary-fiber, incident-CKD, prospective-cohort, vegetables, legumes, Tehran-Lipid-Glucose-Study]
 platform: wikibiome
 evidence_level: prospective-cohort
+karen_brain_primitives: [3]
 ---
 
 # Dietary Fibre Intake and Risk of Incident CKD

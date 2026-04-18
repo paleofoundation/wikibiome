@@ -11,6 +11,7 @@ doi: "10.3389/fmicb.2018.00767"
 platform: wikibiome
 evidence_level: in-vitro
 taxa_discussed: [bacteroides-fragilis, fusobacterium-nucleatum, peptostreptococcus, porphyromonas]
+karen_brain_primitives: [4]
 ---
 
 # 16S rRNA Gene Sequencing for Deciphering the Colorectal Cancer Gut Microbiome: Current Protocols and Workflows

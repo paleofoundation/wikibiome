@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Al-Natsheh M]
 journal: University of Brighton PhD Thesis
 year: 2022
-doi: "not yet verified"  # <!-- DOI lookup needed: University of Brighton PhD Thesis 2022 -->
+doi: "not yet verified"
 evidence_level: animal-model
 tags: [ovarian-cancer, probiotics, stress, cortisol, EcN, Escherichia-coli-Nissle-1917, psychobiotics, immune-response, dendritic-cells, metastasis]
 platform: wikibiome

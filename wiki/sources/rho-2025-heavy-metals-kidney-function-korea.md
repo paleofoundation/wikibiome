@@ -10,6 +10,7 @@ tags: [heavy-metals, kidney-function, eGFR, lead, mercury, cadmium, CKD, Korea, 
 doi: "10.1352/1934-9556-59.6.459"
 platform: wikibiome
 metals_discussed: [cadmium, lead, mercury]
+karen_brain_primitives: [3]
 ---
 
 # A Comparative Study on the Paradoxical Relationship Between Heavy Metal Exposure and Kidney Function

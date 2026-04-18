@@ -13,6 +13,7 @@ authors:
 journal: Frontiers in Microbiology
 year: 2025
 doi: 10.3389/fmicb.2025.1659654
+evidence_level: expert-opinion
 tags:
   - cardiovascular-disease
   - CVD

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Andres F Londono, Ajay Sharma, Venkatesan Kathiresan, Jared Sealy, Robert P Volpe, Cene Gostincar, Utpal Pal, J Stephen Dumler, Brian M Hoffman, Michael J Daly, K Heran Darwin]
 year: 2025
 journal: "mBio"
-doi: "not yet verified"  # <!-- DOI lookup needed: mBio 2025 -->
+doi: "not yet verified"
 pmcid: "PMC12691683"
 tags: [mismetallation, metal-homeostasis, manganese, iron, superoxide-dismutase, oxidative-stress, borrelia-burgdorferi, Lyme-disease, Mn-antioxidant, nutritional-immunity, radiation-resistance, metal-speciation]
 library_category: antimicrobial_resistance

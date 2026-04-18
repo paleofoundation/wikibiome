@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2021
 journal: "Various"
-doi: "not yet verified"  # <!-- DOI lookup needed: Various 2021 -->
+doi: "not yet verified"
 tags: [type-1-diabetes, autoimmune, 16s-rrna, subgingival-plaque, oral-microbiome, periodontitis, dysbiosis]
 library_category: original-research
 platform: cureva

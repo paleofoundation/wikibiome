@@ -9,6 +9,7 @@ journal: "The Lancet"
 doi: "10.1016/S0140-6736(05)17986-7"
 tags: [chronic-kidney-disease, CKD, epidemiology, global-burden, ESRD, prevention, early-detection, seminar]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Chronic Kidney Disease: The Global Challenge

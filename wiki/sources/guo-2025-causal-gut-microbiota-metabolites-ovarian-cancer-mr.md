@@ -10,6 +10,7 @@ doi: "10.1186/s13048-025-01610-9"
 tags: [ovarian-cancer, Mendelian-randomization, gut-microbiota, plasma-metabolites, Dialister, Bifidobacterium-bifidum, network-pharmacology]
 platform: wikibiome
 taxa_discussed: [bifidobacterium, dialister]
+karen_brain_primitives: [3]
 ---
 
 # Causal Associations of Gut Microbiota and Plasma Metabolites with Ovarian Cancer

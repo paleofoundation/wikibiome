@@ -60,7 +60,7 @@ karen_brain_primitives: [1, 3]
 - Serum antioxidant markers (SOD and GSH) are significantly decreased in PCOS patients (P < 0.001)
 - Strong negative correlations exist between heavy metals (As, Pb, Hg) and GSH levels (P < 0.01 for As, P < 0.05 for Pb, P < 0.01 for Hg)
 - SOD was negatively correlated with As and Pb levels (P < 0.05)
-- Heavy metals act as [[endocrine disruptors]] that can alter hormonal balance, menstrual cycle, ovulation, and fertility
+- Heavy metals act as [[endocrine-disruptors|endocrine disruptors]] that can alter hormonal balance, menstrual cycle, ovulation, and fertility
 - Significant positive intercorrelations among all four metals suggest co-exposure patterns
 - Metal-induced [[oxidative-stress|oxidative stress]] is proposed as a paramount cause in PCOS aetiology
 

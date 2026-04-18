@@ -9,6 +9,7 @@ year: 2020
 doi: "10.1186/s13048-019-0603-4"
 tags: [ovarian-cancer, microbiome, 16S-rRNA, bacteria, oncobiosis, LPS, KEGG-pathways, dysbiosis]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Differential Distribution of Bacteria Between Cancerous and Noncancerous Ovarian Tissues

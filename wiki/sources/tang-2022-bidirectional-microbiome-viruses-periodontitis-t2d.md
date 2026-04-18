@@ -7,6 +7,7 @@ authors: [Boyu Tang, Caixia Yan, Xin Shen, Yan Li]
 year: 2022
 journal: "Frontiers in Immunology"
 doi: "10.3389/fimmu.2022.885029"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, virome, periodontitis, oral-microbiome, viral-dysbiosis, immune-balance, dysbiosis]
 library_category: reviews
 platform: cureva

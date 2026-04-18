@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Di Gioacchino M, Gatta A, Della Valle L, Farinelli A, Caruso R, Pini C, Malandra A, Mangifesta R, Cavallucci E, Petrarca C]
 journal: "Metal Allergy (book chapter)"
 year: 2018
-doi: "not yet verified"  # <!-- DOI lookup needed: Metal Allergy (book chapter) 2018 -->
+doi: "not yet verified"
 tags: [SNAS, review, nickel-metabolism, oral-tolerance, nickel-hyposensitization, diagnosis]
 platform: wikibiome
 evidence_level: randomized-controlled-trial

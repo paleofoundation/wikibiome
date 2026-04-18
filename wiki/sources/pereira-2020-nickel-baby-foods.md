@@ -8,8 +8,10 @@ journal: Journal of Food Composition and Analysis
 year: 2020
 tags: [baby-food, nickel-exposure, dietary-nickel, children, food-safety, EDI, risk-assessment]
 doi: "10.1097/JOM.0000000000001634"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

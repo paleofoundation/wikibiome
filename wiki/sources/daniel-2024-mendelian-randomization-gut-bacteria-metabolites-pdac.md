@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, mendelian-randomization, gut-microbiota, metabolites, 
 doi: "10.1038/s41598-024-77431-5"
 platform: wikibiome
 taxa_discussed: [clostridium]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

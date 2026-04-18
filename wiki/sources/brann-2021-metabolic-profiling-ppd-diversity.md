@@ -13,6 +13,7 @@ platform: cureva
 condition: "postpartum depression"
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["Metabolomic profile variations", "Two metabolic clusters", "Five metabolites"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -7,6 +7,7 @@ authors: [Jonathan I. Spencer, Jack S. Bell, Gabriele C. DeLuca]
 journal: Journal of Neurology, Neurosurgery and Psychiatry
 year: 2018
 doi: 10.1136/jnnp-2017-316011
+evidence_level: animal-model
 tags: [multiple-sclerosis, blood-brain-barrier, vascular-pathology, BBB, hypoxia, cerebral-perfusion, environmental-risk-factors, neuroinflammation]
 platform: wikibiome
 karen_brain_primitives: [9]

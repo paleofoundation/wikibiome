@@ -10,6 +10,7 @@ doi: "10.1186/s12882-025-04527-z"
 tags: [chronic-kidney-disease, CKD, CKDu, viral-etiology, Sri-Lanka, Hantavirus, CMV, EBV, VirScan, NGS]
 platform: wikibiome
 evidence_level: prospective-cohort
+karen_brain_primitives: [3]
 ---
 
 # No Evidence for Viral Etiology in CKDu in Sri Lanka

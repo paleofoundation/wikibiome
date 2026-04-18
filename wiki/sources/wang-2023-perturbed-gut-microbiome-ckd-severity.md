@@ -10,6 +10,7 @@ doi: "10.1186/s40168-022-01443-4"
 tags: [chronic-kidney-disease, CKD, metagenomics, metabolomics, Ruminococcus-bromii, fecal-hydroquinone, CKD-severity, biomarker, multi-omics]
 platform: wikibiome
 taxa_discussed: [ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Perturbed Gut Microbiome and Metabolomes Associated with CKD Severity

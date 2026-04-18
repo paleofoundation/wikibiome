@@ -11,6 +11,7 @@ doi: "10.1136/bmjopen-2024-088813"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [arsenic, cadmium, lead, magnesium, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

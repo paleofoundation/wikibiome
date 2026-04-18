@@ -10,6 +10,7 @@ doi: "10.1371/journal.pone.0237581"
 tags: [gerd, gastroesophageal-reflux, laryngopharyngeal-reflux, dental-erosion, dental-caries, gingivitis, periodontitis, oral-microbiota, salivary-buffering, systematic-review]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [6]
 ---
 
 # Laryngopharyngeal reflux, gastroesophageal reflux and dental disorders: A systematic review

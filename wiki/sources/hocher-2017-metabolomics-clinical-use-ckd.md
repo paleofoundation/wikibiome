@@ -7,8 +7,10 @@ authors: [Berthold Hocher, Jerzy Adamski]
 year: 2017
 journal: "Nature Reviews Nephrology"
 doi: "10.1038/nrneph.2017.30"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, metabolomics, biomarker, mass-spectrometry, NMR, c-mannosyl-tryptophan, pseudouridine, review]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Metabolomics for Clinical Use and Research in CKD

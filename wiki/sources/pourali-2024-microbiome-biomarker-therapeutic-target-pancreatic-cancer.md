@@ -8,6 +8,7 @@ journal: BMC Microbiology
 year: 2024
 tags: [pancreatic-cancer, microbiome, microbial-biomarkers, probiotics, prebiotics, antibiotics, FMT, 16S-rRNA, metagenomics, therapeutic-target]
 doi: "10.1186/s12866-023-03166-4"
+evidence_level: expert-opinion
 platform: wikibiome
 taxa_discussed: [bifidobacterium, citrobacter, enterococcus, escherichia-coli, fusobacterium-nucleatum, haemophilus, helicobacter-pylori, lactobacillus, porphyromonas, streptococcus, veillonella]
 karen_brain_primitives: [5]

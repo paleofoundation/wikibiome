@@ -11,6 +11,7 @@ doi: "10.1371/journal.pone.0218794"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [nickel]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims

@@ -11,6 +11,7 @@ tags: [ovarian-cancer, PCOS, obesity, vaginal-microbiome, shotgun-sequencing, ba
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [lactobacillus, pseudomonas-aeruginosa]
+karen_brain_primitives: [3]
 ---
 
 # Differential Enrichment of Bacteria and Phages in Vaginal Microbiomes in PCOS and Obesity

@@ -10,6 +10,7 @@ doi: "10.1186/s12937-024-00928-2"
 tags: [chronic-kidney-disease, CKD, bile-acids, type-2-diabetes, eGFR, cholate, chenodeoxycholate, cross-sectional]
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Circulating Bile Acids and Prevalent CKD in Type 2 Diabetes

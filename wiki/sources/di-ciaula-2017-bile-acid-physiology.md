@@ -9,7 +9,9 @@ journal: Annals of Hepatology
 year: 2017
 tags: [bile-acids, FXR, GPBAR-1, enterohepatic-circulation, gut-microbiota, cholesterol-metabolism, lipid-metabolism, signaling]
 doi: "10.5604/01.3001.0010.5493"
+evidence_level: expert-opinion
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

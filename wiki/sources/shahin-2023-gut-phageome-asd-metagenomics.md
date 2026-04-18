@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 taxa_discussed: [faecalibacterium-prausnitzii]
 key_findings: ["ASD gut phageome", "Significant expansion of Caudoviricetes bacteriophages", "Phages infecting Bacteroidaceae"]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

@@ -7,6 +7,7 @@ authors: [George Tetz, Victor Tetz]
 year: 2024
 journal: "Scientific Reports"
 doi: "10.1038/s41598-024-77038-w"
+evidence_level: animal-model
 tags: [parkinsons-disease, bacteriophages, aging, neuroinflammation, phage-therapy, gut-brain-axis, immune-response]
 library_category: mechanistic-insights
 platform: both

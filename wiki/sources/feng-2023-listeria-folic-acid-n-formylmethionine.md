@@ -7,11 +7,13 @@ authors: [Ying Feng, Shannon K. Chang, Daniel A. Portnoy]
 year: 2023
 journal: "mBio"
 doi: "10.1128/mbio.01074-23"
+evidence_level: animal-model
 tags: [autism-spectrum-disorder, listeria-monocytogenes, folic-acid, N-formylmethionine, one-carbon-metabolism, virulence, folate, infection]
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
 taxa_discussed: [listeria]
+karen_brain_primitives: [4]
 ---
 
 # Key Claims

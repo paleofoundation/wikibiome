@@ -7,6 +7,7 @@ authors: [Simeng Liu, Enyao Li, Zhenyu Sun, Dongjun Fu, Guiqin Duan, Miaomiao Ji
 year: 2019
 journal: "Scientific Reports"
 doi: "10.1038/s41598-018-36430-z"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, SCFAs, gut-microbiota, butyrate, valeric-acid, acetic-acid, constipation, Clostridium, Fusobacterium, Acidobacteria, Ruminococcaceae, Erysipelotrichaceae, 16S-rRNA]
 library_category: metabolomics
 platform: 16S-rRNA-GC

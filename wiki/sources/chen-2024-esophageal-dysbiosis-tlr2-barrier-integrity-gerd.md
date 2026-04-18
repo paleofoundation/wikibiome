@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, dysbiosis, esophageal-barrier, toll-like-r
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [pseudomonas-aeruginosa, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Esophageal microbial dysbiosis impairs mucosal barrier integrity via toll-like receptor 2 pathway in patients with gastroesophageal reflux symptoms

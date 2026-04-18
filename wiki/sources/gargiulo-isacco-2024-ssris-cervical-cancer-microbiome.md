@@ -7,6 +7,7 @@ authors: [Ciro Gargiulo Isacco, Raffaele Del Prete, Pietro Distratis, Rita Lazza
 journal: Discover Applied Sciences
 year: 2024
 doi: "10.1007/s42452-024-06030-w"
+evidence_level: expert-opinion
 tags: [colon-cancer, colorectal-cancer, antidepressants, SSRIs, cervical-cancer, dysbiosis, antibiotic-resistance, HPV, vaginal-microbiome, menopause, serotonin, inflammation, ROS, oxidative-stress]
 platform: wikibiome
 taxa_discussed: [escherichia-coli, streptococcus]

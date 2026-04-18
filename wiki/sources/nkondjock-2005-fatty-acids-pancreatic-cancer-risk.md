@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, fatty-acids, dietary-fat, risk-factors, epidemiology, 
 doi: "10.1038/sj.bjc.6602380"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

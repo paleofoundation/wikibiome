@@ -10,6 +10,7 @@ doi: 10.1371/journal.pone.0204317
 tags: [cardiovascular-disease, metformin, gut-microbiome, dysbiosis, 16S-rRNA, Escherichia-Shigella, healthy-volunteers, GI-side-effects]
 platform: wikibiome
 taxa_discussed: [escherichia-coli, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Association of Metformin Administration with Gut Microbiome Dysbiosis in Healthy Volunteers

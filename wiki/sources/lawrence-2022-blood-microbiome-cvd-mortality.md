@@ -10,6 +10,7 @@ doi: 10.1186/s12872-022-02791-7
 tags: [cardiovascular-disease, blood-microbiome, 16S-rRNA, comorbidities, microbial-biomarkers, case-cohort-study, Kocuria, Enhydrobacter]
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, porphyromonas, prevotella, staphylococcus-aureus, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # The Blood Microbiome and Its Association to Cardiovascular Disease Mortality: Case-Cohort Study

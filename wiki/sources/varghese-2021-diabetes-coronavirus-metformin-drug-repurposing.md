@@ -7,6 +7,7 @@ authors: [Elizabeth Varghese, Samson Mathews Samuel, Alena Liskova, Peter Kubatk
 year: 2021
 journal: "PLoS Pathogens"
 doi: "10.1371/journal.ppat.1009634"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, metformin, sars-cov-2, drug-repurposing, antiviral, anti-inflammatory, immune-balance]
 library_category: reviews
 platform: cureva

@@ -6,10 +6,11 @@ updated: 2026-04-09
 authors: [Ruxin Shen, Yingying Zhang]
 journal: International Journal of Molecular Medicine
 year: 2025
-doi: "not yet verified"  # <!-- DOI lookup needed: International Journal of Molecular Medicine 2025 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, amino-acids, inflammation, coronary-heart-disease, arginine, glutamate, BCAAs, tryptophan, TMAO, immunometabolic-reprogramming]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3, 5]
 ---
 
 # Shen & Zhang 2025 -- Amino Acid Metabolism and Inflammation in CHD

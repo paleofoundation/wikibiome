@@ -10,6 +10,7 @@ tags: [gastric-cancer, helicobacter-pylori, nickel, hydrogenase, CagA, urease, c
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [colorectal-cancer, pancreatic-cancer, gerd]
+signature_page: "[[gastric-cancer-signature]]"
 shared_signature_metals: {colorectal-cancer: [iron, cadmium, zinc], pancreatic-cancer: [cadmium, iron], gerd: [nickel]}
 shared_signature_taxa: {colorectal-cancer: [fusobacterium-nucleatum, escherichia-coli], pancreatic-cancer: [fusobacterium, porphyromonas-gingivalis], gerd: [helicobacter-pylori]}
 seo_target: "gastric cancer Helicobacter pylori nickel microbiome"

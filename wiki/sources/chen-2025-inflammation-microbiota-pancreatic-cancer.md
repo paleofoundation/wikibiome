@@ -10,6 +10,7 @@ year: 2025
 tags: [pancreatic-cancer, inflammation, microbiota, NF-kB, TLRs, TGF-beta, interleukins, chemokines, tumor-microenvironment, pancreatitis]
 doi: "10.1186/s12935-025-03673-6"
 platform: wikibiome
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

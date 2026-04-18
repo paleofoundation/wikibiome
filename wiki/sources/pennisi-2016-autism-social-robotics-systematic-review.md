@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: systematic-review-meta-analysis
 key_findings: ["ASD subjects often performed better with a robot partner", "ASD patients showed social behaviors toward robots", "Reduced repetitive and stereotyped behaviors"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

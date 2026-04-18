@@ -7,8 +7,10 @@ authors: [Denise Mafra, Natalia A. Borges, Livia Alvarenga, Ludmila Ribeiro, Mil
 year: 2022
 journal: "Critical Reviews in Food Science and Nutrition"
 doi: "10.1080/10408398.2022.2077300"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, fermented-foods, cardiometabolic-disease, Neolithic-diet, review]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Fermented Food and Cardiometabolic Diseases

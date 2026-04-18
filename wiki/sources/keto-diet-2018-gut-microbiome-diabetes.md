@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2018
 journal: "Scientific Reports / International Cardiovascular Forum Journal"
-doi: "not yet verified"  # <!-- DOI lookup needed: Scientific Reports / International Cardiovascular Forum Journal 2018 -->
+doi: "not yet verified"
 tags: [type-1-diabetes, autoimmune, ketogenic-diet, gut-microbiome, metabolic-control, dysbiosis, dietary-intervention]
 library_category: original-research
 platform: cureva

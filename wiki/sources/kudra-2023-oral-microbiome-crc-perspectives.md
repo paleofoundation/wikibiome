@@ -11,6 +11,7 @@ doi: "10.3389/fcimb.2023.1159822"
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [candida-albicans, fusobacterium-nucleatum, porphyromonas]
+karen_brain_primitives: [4, 6]
 ---
 
 # Insights into Oral Microbiome and Colorectal Cancer - On the Way of Searching New Perspectives

@@ -7,6 +7,7 @@ authors: [Chin-Hsien Kuo, Ruey-Meei Wu, Ming-Shiang Wu]
 year: 2022
 journal: "Journal of the Formosan Medical Association"
 doi: "10.1016/j.jfma.2021.12.012"
+evidence_level: prospective-cohort
 tags: [parkinsons-disease, early-diagnosis, gut-brain-axis, biomarkers, microbiome-signature, alpha-synuclein, constipation, prodromal-PD, dysbiosis, screening]
 library_category: reviews
 platform: gut

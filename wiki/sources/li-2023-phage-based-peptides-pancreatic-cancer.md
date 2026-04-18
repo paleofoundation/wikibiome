@@ -11,6 +11,7 @@ doi: "10.3389/fmicb.2023.1231503"
 platform: wikibiome
 evidence_level: in-vitro
 taxa_discussed: [escherichia-coli]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

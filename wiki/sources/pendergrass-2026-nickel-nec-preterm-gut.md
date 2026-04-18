@@ -8,6 +8,7 @@ journal: "Zenodo Preprint"
 year: 2026
 tags: [nickel, necrotizing-enterocolitis, NEC, infant-formula, microbial-metallomics, urease, NiFe-hydrogenase, glyoxalase, E-coli, preterm-infant, soy-formula, nutritional-immunity]
 doi: "10.5281/zenodo.18200348"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [nickel]
 taxa_discussed: [bifidobacterium, citrobacter, enterobacter, escherichia-coli, klebsiella-pneumoniae, lactobacillus, ureaplasma]

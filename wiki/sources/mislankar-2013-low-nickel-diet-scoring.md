@@ -8,8 +8,10 @@ journal: Dermatitis
 year: 2013
 tags: [low-nickel-diet, scoring-system, dietary-nickel, point-system, patient-education]
 doi: "10.1097/DER.0b013e3182937e81"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [aluminum, copper, iron, nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

@@ -13,6 +13,7 @@ platform: cureva
 condition: "postpartum depression"
 evidence_level: computational-prediction
 key_findings: ["Machine learning classification", "Bacterial abundance ratios"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

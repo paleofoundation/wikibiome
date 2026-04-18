@@ -6,12 +6,13 @@ updated: 2026-04-09
 authors: [Nazeefa Fatima, Munazza Khan, Muhammad Shuaib Kabeer]
 journal: Journal of Food Safety and Hygiene
 year: 2020
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Food Safety and Hygiene 2020 -->
+doi: "not yet verified"
 tags: [fruit-juice, heavy-metals, nickel, lead, chromium, iron, selenium, manganese, food-contamination, WHO-limits, Pakistan]
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [chromium, copper, iron, lead, manganese, nickel, selenium, zinc]
 key_findings: ["Nickel levels were dramatically above WHO limits"]
+karen_brain_primitives: [3]
 ---
 
 # Evaluation of Heavy Metals Content in the Canned/Packed Fruit Juices from Local and Imported Origin in Lahore, Pakistan

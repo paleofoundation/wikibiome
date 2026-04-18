@@ -7,6 +7,7 @@ authors: [Joline W. J. Beulens, Maria G. M. Pinho, Taymara C. Abreu, Nicole R. d
 year: 2022
 journal: "Diabetologia"
 doi: "10.1007/s00125-021-05618-w"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, exposome, environmental-risk, air-pollution, built-environment, microbiome, metabolomics, dysbiosis]
 library_category: reviews
 platform: cureva

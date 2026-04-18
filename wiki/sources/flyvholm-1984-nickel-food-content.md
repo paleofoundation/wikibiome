@@ -8,8 +8,10 @@ journal: Zeitschrift fur Lebensmittel-Untersuchung und Forschung
 year: 1984
 tags: [dietary-nickel, food-nickel-content, nickel-intake-estimation, Danish-diet, reference-data]
 doi: "10.1007/BF01043419"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

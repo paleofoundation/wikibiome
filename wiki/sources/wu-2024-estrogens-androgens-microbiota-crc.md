@@ -7,6 +7,7 @@ authors: [Zihong Wu, Yi Sun, Wenbo Huang, Zhenzhen Jin, Fengming You, Xueke Li, 
 journal: Frontiers in Cellular and Infection Microbiology
 year: 2024
 doi: "10.3389/fcimb.2024.1458033"
+evidence_level: expert-opinion
 tags: [colon-cancer, colorectal-cancer, estrogen, androgen, sex-hormones, gut-microbiota, beta-glucuronidase, estrobolome, ERbeta, mismatch-repair, miRNA, GPER, immunotherapy, PD-L1]
 platform: wikibiome
 karen_brain_primitives: [7]

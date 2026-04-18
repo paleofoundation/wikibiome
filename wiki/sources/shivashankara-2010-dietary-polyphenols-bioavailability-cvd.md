@@ -8,8 +8,10 @@ authors: [K. S. Shivashankara, S. N. Acharya]
 journal: The Open Nutraceuticals Journal
 year: 2010
 doi: 10.2174/1876396001003010227
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, dietary-polyphenols, bioavailability, flavonoids, LDL-oxidation, vasodilation, platelet-aggregation, gut-microbiota, phenolic-acids, anthocyanins]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Bioavailability of Dietary Polyphenols and the Cardiovascular Diseases

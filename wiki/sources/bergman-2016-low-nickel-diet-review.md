@@ -11,6 +11,7 @@ doi: "10.4172/2155-9554.1000356"
 platform: wikibiome
 evidence_level: case-series
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

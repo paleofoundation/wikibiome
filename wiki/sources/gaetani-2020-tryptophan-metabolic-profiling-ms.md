@@ -10,6 +10,7 @@ tags: [multiple-sclerosis, tryptophan, kynurenine, indole-3-propionic-acid, meta
 doi: "10.3389/fimmu.2020.00157"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Host and Microbial Tryptophan Metabolic Profiling in Multiple Sclerosis

@@ -12,7 +12,7 @@ authors:
   - Mroczko B
 journal: International Journal of Molecular Sciences
 year: 2023
-doi: "not yet verified"  # <!-- DOI lookup needed: International Journal of Molecular Sciences 2023 -->
+doi: "not yet verified"
 tags:
   - trace-metals
   - Alzheimers-disease

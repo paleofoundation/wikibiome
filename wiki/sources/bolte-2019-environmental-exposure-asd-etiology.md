@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Sven Bolte, Sonya Girdler, Peter B. Marschik]
 journal: Cellular and Molecular Life Sciences
 year: 2019
-doi: "not yet verified"  # <!-- DOI lookup needed: Cellular and Molecular Life Sciences 2019 -->
+doi: "not yet verified"
 tags: [autism, environmental-risk-factors, heavy-metals, zinc, copper, iron, lead, mercury, prenatal-exposure, nutrition, vaccination]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [cadmium, copper, iron, lead, mercury, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Bolte et al. 2019 -- Environmental Exposure and ASD Etiology

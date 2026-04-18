@@ -32,6 +32,7 @@ tags: [cancer, pancreatic-cancer, PDAC, copper, zinc, calcium, magnesium, cadmiu
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [colorectal-cancer, type-2-diabetes, obesity]
+signature_page: "[[pancreatic-cancer-signature]]"
 shared_signature_metals: {colorectal-cancer: [iron, cadmium], type-2-diabetes: [iron, cadmium, arsenic, nickel], obesity: [cadmium, iron]}
 shared_signature_taxa: {colorectal-cancer: [fusobacterium, faecalibacterium-prausnitzii, roseburia], type-2-diabetes: [escherichia-coli, enterobacteriaceae, faecalibacterium-prausnitzii, bifidobacterium], obesity: [fusobacterium, streptococcus, faecalibacterium-prausnitzii, roseburia]}
 seo_target: "pancreatic cancer microbiome oral bacteria metals"

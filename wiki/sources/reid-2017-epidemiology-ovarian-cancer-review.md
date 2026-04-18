@@ -11,6 +11,7 @@ tags: [ovarian-cancer, epidemiology, risk-factors, HGSOC, BRCA, endometriosis, r
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [cadmium, nickel]
+karen_brain_primitives: [3]
 ---
 
 # Epidemiology of Ovarian Cancer: A Review

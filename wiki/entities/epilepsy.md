@@ -15,6 +15,7 @@ wikipedia_differentiation: "Gut microbiome-mediated mechanisms in epilepsy inclu
 icd_10: "G40"
 global_prevalence: "~50 million worldwide; ~0.6% prevalence"
 associated_conditions: [cerebral-palsy, autism-spectrum-disorder, depression, anxiety]
+signature_page: "[[epilepsy-signature]]"
 ---
 
 # Epilepsy

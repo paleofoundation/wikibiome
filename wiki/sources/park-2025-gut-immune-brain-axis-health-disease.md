@@ -7,6 +7,7 @@ authors: [Park JC, Chang L, Kwon HK, Im SH]
 journal: Cellular and Molecular Immunology
 year: 2025
 doi: "10.1038/s41423-025-01333-3"
+evidence_level: expert-opinion
 tags: [gerd, gastroesophageal-reflux, gut-immune-brain-axis, neuroimmunology, barrier-integrity, SCFAs, tryptophan, bile-acids, vagus-nerve, microglia, T-cells, IgA, blood-brain-barrier, neuroinflammation, microbiome-derived-metabolites]
 platform: wikibiome
 karen_brain_primitives: [5]

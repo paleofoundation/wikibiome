@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, RNA-seq, TCGA, tum
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [bacteroides-fragilis, clostridium, coprococcus, faecalibacterium-prausnitzii, fusobacterium-nucleatum]
+karen_brain_primitives: [3]
 ---
 
 # Sambruni 2023 -- Location and Condition Based Reconstruction of Colon Cancer Microbiome from RNA-Seq Data

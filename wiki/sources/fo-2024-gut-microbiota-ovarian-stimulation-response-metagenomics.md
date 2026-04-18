@@ -11,6 +11,7 @@ tags: [ovarian-cancer, gut-microbiome, ovarian-stimulation, IVF, Bifidobacterium
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiota and Ovarian Response to Controlled Ovarian Stimulation

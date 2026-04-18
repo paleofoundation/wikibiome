@@ -10,6 +10,7 @@ tags: [hashimotos-thyroiditis, thyroid, autoimmune, gut-microbiome, transcriptom
 doi: "10.1186/s12967-024-05876-3"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Integrative analysis of gut microbiome and host transcriptome reveal novel molecular signatures in Hashimoto's thyroiditis

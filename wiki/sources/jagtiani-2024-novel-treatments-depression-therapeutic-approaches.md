@@ -14,6 +14,7 @@ condition: "depression"
 evidence_level: expert-opinion
 metals_discussed: [magnesium, zinc]
 key_findings: ["Novel treatment avenues", "Gut-brain axis interventions"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

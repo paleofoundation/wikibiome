@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, CVD, microbiome-derived-metabolites, SCFAs, bile-
 platform: wikibiome
 evidence_level: expert-opinion
 key_findings: ["Carboxylic acid intermediates", "Amino acids and derivatives"]
+karen_brain_primitives: [3]
 ---
 
 # Local and Systemic Effects of Microbiome-Derived Metabolites

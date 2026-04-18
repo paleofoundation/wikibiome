@@ -10,6 +10,7 @@ doi: 10.1136/jnnp-2010-219576
 tags: [multiple-sclerosis, OCT, optical-coherence-tomography, RNFL, neurodegeneration, biomarker, optic-neuritis, meta-analysis]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # A Systematic Review and Meta-analysis of Optical Coherence Tomography in Multiple Sclerosis

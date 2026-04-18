@@ -7,9 +7,11 @@ updated: 2026-04-09
 authors: [Caterina Ferri]
 journal: Doctoral Thesis, University of Ferrara / IIT
 year: 2021
-doi: "not yet verified"  # <!-- DOI lookup needed: Doctoral Thesis, University of Ferrara / IIT 2021 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [multiple-sclerosis, hygiene-hypothesis, gut-microbiota, environmental-exposure, DMT, allergy, sibling-effect, dysbiosis, Italy]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Multiple Sclerosis and the Hygiene Hypothesis: From the Outdoor Exposure to the Indoor Effector

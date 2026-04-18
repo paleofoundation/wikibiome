@@ -8,8 +8,10 @@ journal: Journal of the American Academy of Dermatology
 year: 1993
 tags: [low-nickel-diet, hand-eczema, prospective-trial, oral-nickel-challenge, long-term-outcomes]
 doi: "10.1016/0190-9622(93)70154-L"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

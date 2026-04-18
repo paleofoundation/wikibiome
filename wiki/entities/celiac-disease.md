@@ -9,6 +9,7 @@ tags: [autoimmune, gluten, intestinal, malabsorption, nickel, dietary, gut-barri
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [hashimotos-thyroiditis, type-1-diabetes, ibs, inflammatory-bowel-disease]
+signature_page: "[[celiac-disease-signature]]"
 shared_signature_metals: {hashimotos-thyroiditis: [iron, zinc, selenium], type-1-diabetes: [zinc, iron], ibs: [iron, zinc], inflammatory-bowel-disease: [iron, zinc]}
 shared_signature_taxa: {hashimotos-thyroiditis: [lactobacillus, bifidobacterium, proteobacteria], type-1-diabetes: [bifidobacterium-depleted, bacteroides], ibs: [bifidobacterium-depleted, lactobacillus-depleted], inflammatory-bowel-disease: [faecalibacterium-depleted, lachnospiraceae-depleted]}
 seo_target: "celiac disease microbiome nickel gluten-free diet metals"

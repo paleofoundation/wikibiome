@@ -10,6 +10,7 @@ tags: [crohns-disease, IBD, ulcerative-colitis, Mendelian-randomization, Alzheim
 doi: "10.3389/fgene.2022.846005"
 platform: wikibiome
 evidence_level: computational-prediction
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

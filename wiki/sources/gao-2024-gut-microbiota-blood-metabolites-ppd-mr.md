@@ -13,6 +13,7 @@ platform: cureva
 condition: "postpartum depression"
 evidence_level: computational-prediction
 key_findings: ["13 gut microbiota taxa and 6 blood metabolites", "Alphaproteobacteria", "Odoribacteron"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

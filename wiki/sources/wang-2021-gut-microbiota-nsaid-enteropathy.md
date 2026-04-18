@@ -7,6 +7,7 @@ authors: [Xianglu Wang, Qiang Tang, Huiqin Hou, Wanru Zhang, Mengfan Li, Danfeng
 journal: Frontiers in Cellular and Infection Microbiology
 year: 2021
 doi: 10.3389/fcimb.2021.679396
+evidence_level: animal-model
 tags: [cardiovascular-disease, NSAIDs, gut-microbiota, enteropathy, TLR4, bile-acids, bacterial-translocation, SIBO, dysbiosis, probiotics, FMT]
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, collinsella, enterococcus, lactobacillus, listeria, roseburia, ruminococcus]

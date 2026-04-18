@@ -11,6 +11,7 @@ tags: [hashimotos-thyroiditis, thyroid, autoimmune, diet, nutrition, iodine, iro
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [calcium, iron, lead, selenium, zinc]
+karen_brain_primitives: [3, 5, 7]
 ---
 
 # Role of Food and Nutrition in Pathogenesis and Prevention of Hashimoto's Thyroiditis

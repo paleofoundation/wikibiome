@@ -7,9 +7,11 @@ updated: 2026-04-09
 authors: [Ilze Elbere]
 journal: Doctoral Thesis, University of Latvia
 year: 2021
-doi: "not yet verified"  # <!-- DOI lookup needed: Doctoral Thesis, University of Latvia 2021 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [metformin, gut-microbiome, epigenetics, type-2-diabetes, DNA-methylation, precision-medicine, drug-repurposing, multiple-sclerosis]
 platform: wikibiome
+karen_brain_primitives: [6]
 ---
 
 # Metformin Effects on Gut Microbiome and Epigenetics in Type 2 Diabetes Patients and Healthy Individuals

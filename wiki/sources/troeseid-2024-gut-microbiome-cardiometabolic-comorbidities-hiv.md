@@ -7,6 +7,7 @@ authors: [Marius Troeseid, Susanne Dam Nielsen, Ivan Vujkovic-Cvijin]
 journal: Microbiome
 year: 2024
 doi: 10.1186/s40168-024-01815-y
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, HIV, comorbidities, gut-microbiome, microbial-translocation, SCFAs, indole-3-propionic-acid, dysbiosis, inflammation]
 platform: wikibiome
 taxa_discussed: [clostridium, lachnospiraceae, peptostreptococcus]

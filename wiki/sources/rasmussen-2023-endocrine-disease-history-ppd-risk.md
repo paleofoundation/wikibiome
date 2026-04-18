@@ -13,6 +13,7 @@ platform: cureva
 condition: "postpartum depression"
 metals_discussed: [copper, iron, selenium, zinc]
 key_findings: ["Women with endocrine disease history", "Reverse association", "Bi-directionality"]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims

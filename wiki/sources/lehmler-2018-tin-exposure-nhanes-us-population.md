@@ -11,6 +11,7 @@ doi: "10.1016/j.envpol.2024.124238"
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [tin]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

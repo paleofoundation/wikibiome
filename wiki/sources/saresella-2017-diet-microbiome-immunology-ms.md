@@ -10,6 +10,7 @@ tags: [multiple-sclerosis, diet, gut-microbiome, Lachnospiraceae, Tregs, Th17, H
 doi: "10.3389/fimmu.2017.01391"
 platform: wikibiome
 taxa_discussed: [lachnospiraceae]
+karen_brain_primitives: [3]
 ---
 
 # Immunological and Clinical Effect of Diet Modulation of the Gut Microbiome in MS Patients: A Pilot Study

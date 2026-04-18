@@ -7,9 +7,11 @@ authors: [Park CH, Seo SI, Kim JS, Kang SH, Kim BJ, Choi YJ, Byun HJ, Yoon JH, L
 journal: Scientific Reports
 year: 2020
 doi: "10.1038/s41598-020-72082-8"
+evidence_level: expert-opinion
 tags: [gerd, gastroesophageal-reflux, non-erosive-reflux-disease, esophageal-microbiome, proton-pump-inhibitors, esomeprazole, inflammatory-cytokines, IL-6, IL-8, NF-kB, TNF-alpha, TRPV1, streptococcus, prevotella, veillonella, neisseria, granulicatella, oropharyngeal-microbiome, microbiome-signature]
 platform: wikibiome
 taxa_discussed: [haemophilus, prevotella, streptococcus, veillonella]
+karen_brain_primitives: [3]
 ---
 
 # Treatment of non-erosive reflux disease and dynamics of the esophageal microbiome: a prospective multicenter study

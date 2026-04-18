@@ -7,12 +7,14 @@ authors: [Courtney Dye, Kathryn M. Lenz, Benedetta Leuner]
 year: 2022
 journal: "Frontiers in Global Women's Health"
 doi: "10.3389/fgwh.2021.758748"
+evidence_level: animal-model
 tags: [postpartum-depression, immune-system, cytokines, inflammation, microglia, postpartum-anxiety, postpartum-psychosis, review]
 library_category: review
 platform: cureva
 condition: "postpartum mental illness"
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["Immune system aberrations", "Peripheral cytokine signaling", "Pro-inflammatory Th1 response"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

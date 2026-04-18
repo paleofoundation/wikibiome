@@ -7,6 +7,7 @@ authors: [Dominic Salamone, Angela Albarosa Rivellese, Claudia Vetrani]
 year: 2021
 journal: "Acta Diabetologica"
 doi: "10.1007/s00592-021-01727-5"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, scfa, dietary-fibre, gut-microbiota, insulin-resistance, intestinal-permeability, dysbiosis]
 library_category: reviews
 platform: cureva

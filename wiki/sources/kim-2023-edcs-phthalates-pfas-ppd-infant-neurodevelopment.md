@@ -13,6 +13,7 @@ platform: cureva
 condition: "postpartum depression"
 metals_discussed: [copper, iron, zinc]
 key_findings: ["EDC concentrations in breast milk", "Phthalate levels", "PFAS levels"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

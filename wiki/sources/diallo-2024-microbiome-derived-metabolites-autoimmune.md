@@ -7,7 +7,7 @@ authors: [Diallo A]
 journal: Future Publishing House
 year: 2024
 tags: [microbiome-metabolites, autoimmune-diseases, multiple-sclerosis, SCFA, tryptophan, bile-acids, polyamines, therapeutic-targets, probiotics, prebiotics, synthetic-biology]
-doi: "not yet verified"  # <!-- DOI lookup needed: Future Publishing House 2024 -->
+doi: "not yet verified"
 platform: wikibiome
 evidence_level: expert-opinion
 taxa_discussed: [lactobacillus]

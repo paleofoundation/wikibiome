@@ -16,7 +16,8 @@ authors:
   - Zambrano AK
 journal: Food and Agricultural Immunology
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: Food and Agricultural Immunology 2024 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags:
   - heavy-metals
   - diet

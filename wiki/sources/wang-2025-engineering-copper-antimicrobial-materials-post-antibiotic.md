@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Yingxian Wang, Tongqiang Wen, Fuchao Mao, Shaozhe Yang, Qingwei Zhang, Xiuhong Fu, Chongkai Zhai, Hewei Zhang]
 year: 2025
 journal: "Frontiers in Bioengineering and Biotechnology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Bioengineering and Biotechnology 2025 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 pmcid: "PMC12364917"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, antimicrobial-metals, nanocopper, biofilm, ROS, Fenton-chemistry, iron-sulfur-clusters, cuproptosis, surface-engineering]
 library_category: antimicrobial_resistance

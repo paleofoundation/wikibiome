@@ -10,6 +10,7 @@ tags: [crohns-disease, IBD, Mediterranean-diet, prospective-cohort, dietary-patt
 doi: "10.1136/gutjnl-2023-331587"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -11,6 +11,7 @@ doi: "10.1093/humrep/dey005"
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [lead, selenium]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

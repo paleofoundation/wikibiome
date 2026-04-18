@@ -10,6 +10,7 @@ doi: "10.1038/s41588-024-02022-z"
 tags: [hashimotos-thyroiditis, thyroid, virome, autoimmune, eHHV-6, anellovirus, SLE, rheumatoid-arthritis, COVID-19, GWAS, endoimmunity, whole-genome-sequencing]
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Blood DNA Virome Associates with Autoimmune Diseases and COVID-19

@@ -7,9 +7,11 @@ authors: [Hashimoto K]
 journal: Molecular Psychiatry
 year: 2023
 doi: "10.1038/s41380-023-02287-6"
+evidence_level: expert-opinion
 tags: [schizophrenia, microbiome, oral-microbiome, nasal-microbiome, gut-brain-axis, neuropsychiatric, dysbiosis, periodontitis, depression, ASD]
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis]
+karen_brain_primitives: [3]
 ---
 
 # Emerging Role of the Host Microbiome in Neuropsychiatric Disorders: Overview and Future Directions

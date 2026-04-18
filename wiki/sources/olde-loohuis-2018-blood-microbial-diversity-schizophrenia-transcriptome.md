@@ -10,6 +10,7 @@ doi: "10.1038/s41398-018-0107-9"
 tags: [schizophrenia, blood-microbiome, transcriptome, microbial-diversity, RNA-seq, Proteobacteria, CD8-T-cells, immune-balance]
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [6]
 ---
 
 # Transcriptome Analysis in Whole Blood Reveals Increased Microbial Diversity in Schizophrenia

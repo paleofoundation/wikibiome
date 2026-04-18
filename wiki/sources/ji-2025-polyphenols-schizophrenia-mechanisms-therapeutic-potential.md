@@ -11,6 +11,7 @@ tags: [schizophrenia, polyphenols, curcumin, EGCG, quercetin, antioxidant, neuro
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [copper, iron]
+karen_brain_primitives: [3, 5]
 ---
 
 # Plant-Derived Polyphenolic Compounds for Managing Schizophrenia: Mechanisms and Therapeutic Potential

@@ -7,6 +7,7 @@ authors: [Cano L, Bertani S, Island ML, Cerapio JP, Ruiz E, Pineau P, Monbet V, 
 journal: Scientific Reports
 year: 2021
 doi: "10.1038/s41598-021-93369-4"
+evidence_level: expert-opinion
 tags: [metallomics, hepatocellular-carcinoma, liver-cancer, iron, copper, selenium, zinc, cadmium, arsenic, manganese, tissue-metallomics]
 platform: wikibiome
 metals_discussed: [arsenic, cadmium, copper, iron, manganese, selenium, zinc]

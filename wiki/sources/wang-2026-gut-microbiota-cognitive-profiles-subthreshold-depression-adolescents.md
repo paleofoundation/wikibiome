@@ -10,6 +10,7 @@ doi: "10.1038/s44184-026-00202-9"
 tags: [depression, subthreshold-depression, adolescents, gut-microbiome, shotgun-metagenomics, Spirochaetes, cognitive-function, neurodegenerative-pathways]
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Exploratory Characterization of Gut Microbiota and Cognitive Profiles in Adolescents with Subthreshold Depression

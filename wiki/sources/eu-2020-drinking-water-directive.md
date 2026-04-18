@@ -6,11 +6,13 @@ updated: 2026-04-09
 authors: [European Parliament, Council of the European Union]
 journal: Official Journal of the European Union (L 435/1)
 year: 2020
-doi: "not yet verified"  # <!-- DOI lookup needed: Official Journal of the European Union (L 435/1) 2020 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [EU-directive, drinking-water, regulatory, lead, chromium, arsenic, water-quality, parametric-values, risk-based-approach, endocrine-disruptors]
 platform: wikibiome
 metals_discussed: [arsenic, cadmium, chromium, lead, nickel]
 key_findings: ["Document type"]
+karen_brain_primitives: [3]
 ---
 
 # EU Drinking Water Directive 2020/2184

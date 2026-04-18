@@ -7,6 +7,7 @@ authors: [Kieran M. Tuohy, Francesca Fava, Roberto Viola]
 journal: Proceedings of the Nutrition Society
 year: 2014
 doi: 10.1017/S0029665113003911
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, prebiotics, probiotics, diet, gut-microbiota, cholesterol, TMAO, bile-acids, polyphenols, fermentable-fibers, Lactobacillus, Bifidobacterium]
 platform: wikibiome
 metals_discussed: [selenium]

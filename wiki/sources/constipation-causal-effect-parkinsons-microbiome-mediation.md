@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Qian Wang, Lin Lu, Jian-Guo Zhang]
 year: 2024
 journal: "Gut Microbes"
-doi: "not yet verified"  # <!-- DOI lookup needed: Gut Microbes 2024 -->
+doi: "not yet verified"
 tags: [parkinsons-disease, constipation, Mendelian-randomization, mediation-analysis, gut-microbiome, dysbiosis, causal-inference, prodromal-PD, gut-brain-axis]
 library_category: signatures
 platform: gut

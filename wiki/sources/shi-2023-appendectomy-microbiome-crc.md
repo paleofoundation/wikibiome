@@ -11,6 +11,7 @@ doi: "10.1038/s41388-022-02569-3"
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [bacteroides-fragilis, blautia, collinsella, enterococcus, lachnospiraceae, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # Altered Gut Microbiome Composition by Appendectomy Contributes to Colorectal Cancer

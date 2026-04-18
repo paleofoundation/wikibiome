@@ -7,6 +7,7 @@ authors: [Nadja Paeslack, Maximilian Mimmler, Stefanie Becker, Zhenling Gao, My 
 journal: Amino Acids
 year: 2022
 doi: 10.1007/s00726-022-03161-5
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, CVD, tryptophan, indoles, indoxyl-sulfate, AHR, vascular-inflammation, atherosclerosis, hypertension, serotonin, kynurenine, endothelium]
 platform: wikibiome
 metals_discussed: [cadmium]

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Etebary S, Nikseresht S, Sadeghipour HR, Zarrindast MR]
 journal: Iranian Journal of Psychiatry
 year: 2010
-doi: "not yet verified"  # <!-- DOI lookup needed: Iranian Journal of Psychiatry 2010 -->
+doi: "not yet verified"
 tags: [postpartum-depression, trace-elements, zinc, magnesium, iron, copper, review, neurotransmitters, HPA-axis]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis

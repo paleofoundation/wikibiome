@@ -13,6 +13,7 @@ platform: gut
 condition: "Schizophrenia with aggression"
 evidence_level: cross-sectional
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, collinsella, faecalibacterium-prausnitzii, prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Altered gut microbiota and its metabolites correlate with plasma cytokines in schizophrenia inpatients with aggression

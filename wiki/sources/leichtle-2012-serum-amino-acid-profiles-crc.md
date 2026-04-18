@@ -6,10 +6,11 @@ updated: 2026-04-09
 authors: [Alexander Benedikt Leichtle, Jean-Marc Nuoffer, Uta Ceglarek, Julia Kase, Tim Conrad, Helmut Witzigmann, Joachim Thiery, Georg Martin Fiedler]
 journal: Metabolomics
 year: 2012
-doi: "not yet verified"  # <!-- DOI lookup needed: Metabolomics 2012 -->
+doi: "not yet verified"
 tags: [colon-cancer, amino-acids, metabolomics, biomarkers, serum-profiling, mass-spectrometry, CEA, colorectal-cancer, diagnostic]
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

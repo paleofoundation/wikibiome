@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, mendelian-randomization, chronic-renal-failu
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [escherichia-coli, ruminococcus, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Causal Relationship between Gut Microbiota and Chronic Renal Failure

@@ -28,6 +28,7 @@ tags: [cancer, colorectal-cancer, copper, zinc, selenium, cadmium, arsenic, chro
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [crohns-disease, pancreatic-cancer, obesity]
+signature_page: "[[colorectal-cancer-signature]]"
 shared_signature_metals: {crohns-disease: [iron, zinc, cadmium], pancreatic-cancer: [iron, cadmium], obesity: [iron]}
 shared_signature_taxa: {crohns-disease: [escherichia-coli, fusobacterium-nucleatum, bacteroides-fragilis, lachnospiraceae-depleted, faecalibacterium-depleted], pancreatic-cancer: [fusobacterium-nucleatum, porphyromonas-gingivalis, escherichia-coli], obesity: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]}
 seo_target: "colorectal cancer microbiome metals Fusobacterium iron"

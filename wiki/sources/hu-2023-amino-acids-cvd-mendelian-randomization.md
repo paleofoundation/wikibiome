@@ -6,10 +6,11 @@ updated: 2026-04-09
 authors: [Song Hu, Zhennan Lin, Meng-Jin Hu, Jiang-Shan Tan, Ting-Ting Guo, Xin Huang, Lu Hua]
 journal: Journal of Translational Medicine
 year: 2023
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Translational Medicine 2023 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, amino-acids, mendelian-randomization, glycine, serine, leucine, tyrosine, alanine, BCAAs, causal-inference]
 platform: wikibiome
 evidence_level: computational-prediction
+karen_brain_primitives: [3]
 ---
 
 # Hu et al. 2023 -- Causal Amino Acid-CVD Relationships via Mendelian Randomization

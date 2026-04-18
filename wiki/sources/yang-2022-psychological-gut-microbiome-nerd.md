@@ -11,6 +11,7 @@ doi: "10.3389/fpsyt.2021.741049"
 tags: [gerd, gastroesophageal-reflux, non-erosive-reflux-disease, gut-microbiome, psychology, anxiety, depression, somatoform-disorders, microbiome-brain-gut-axis, firmicutes, bacteroidetes, TM7, 16s-rrna, alpha-diversity, beta-diversity]
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Analysis of Psychological and Gut Microbiome Characteristics in Patients With Non-erosive Reflux Disease

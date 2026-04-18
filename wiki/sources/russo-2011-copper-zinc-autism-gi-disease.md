@@ -12,6 +12,7 @@ library_category: heavy-metals
 platform: cureva
 condition: "autism spectrum disorder"
 metals_discussed: [copper, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

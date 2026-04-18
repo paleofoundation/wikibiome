@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [MaryAnn Udechukwu]
 year: 2024
 journal: "University of Ottawa (PhD thesis)"
-doi: "not yet verified"  # <!-- DOI lookup needed: University of Ottawa (PhD thesis) 2024 -->
+doi: "not yet verified"
 tags: [postpartum-depression, mediterranean-diet, prenatal-stress, neuroinflammation, gut-microbiota, HPA-axis, mouse-model, offspring]
 library_category: preclinical
 platform: cureva
@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: animal-model
 metals_discussed: [iron, magnesium, zinc]
 key_findings: ["Mediterranean-based diet", "Diet may improve mental health"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -7,11 +7,13 @@ authors: [Yue Jiang, Yuanyuan Li]
 year: 2025
 journal: "Frontiers in Nutrition"
 doi: "10.3389/fnut.2025.1590172"
+evidence_level: animal-model
 tags: [autism-spectrum-disorder, nutrition, gut-microbiome, brain-development, childhood, maternal-nutrition, ADHD, neurodevelopment, bioactive-compounds]
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["Gut-brain axis", "Healthy dietary patterns", "Disruptions in gut microbiota composition"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

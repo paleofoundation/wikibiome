@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, dysbiosis, microbiome, Fusobacterium, mu
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [escherichia-coli, fusobacterium-nucleatum, peptostreptococcus, prevotella, pseudomonas-aeruginosa, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Gao 2015 -- Microbiota Dysbiosis Is Associated with Colorectal Cancer

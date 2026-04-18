@@ -10,6 +10,7 @@ doi: "10.1007/s00253-025-13481-7"
 tags: [chronic-kidney-disease, CKD, TMAO, metabolite, meta-analysis, population-based, biomarker, CKD-risk]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # TMAO Is Associated with CKD Risk

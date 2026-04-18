@@ -13,6 +13,7 @@ pages_read: "1-8"
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [christensenellaceae, desulfovibrio, dorea, oscillospiraceae, parabacteroides]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

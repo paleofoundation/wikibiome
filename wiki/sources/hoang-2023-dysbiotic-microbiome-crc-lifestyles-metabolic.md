@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, dysbiosis, lifestyle, metabolic-disease,
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [lachnospiraceae]
+karen_brain_primitives: [3]
 ---
 
 # Hoang 2023 -- Dysbiotic Microbiome Variation in CRC Linked to Lifestyles and Metabolic Diseases

@@ -10,6 +10,7 @@ doi: "10.1111/j.1572-0241.2006.00849.x"
 tags: [gerd, gastroesophageal-reflux, obesity, BMI, meta-analysis, systematic-review, overweight, esophagitis, risk-factor, intra-abdominal-pressure, hiatal-hernia]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Body Mass Index and Gastroesophageal Reflux Disease: A Systematic Review and Meta-Analysis

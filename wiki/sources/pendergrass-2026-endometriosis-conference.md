@@ -13,7 +13,8 @@ tags:
   - microbiome
   - metallomics
   - conference
-doi: "not yet verified"  # <!-- DOI lookup needed: Conference Presentation 2026 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

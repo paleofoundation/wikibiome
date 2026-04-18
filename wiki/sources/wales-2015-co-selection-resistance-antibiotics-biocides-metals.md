@@ -10,6 +10,7 @@ year: 2015
 volume: 4
 pages: "567-604"
 doi: "10.3390/antibiotics4040567"
+evidence_level: expert-opinion
 tags: [co-selection, co-resistance, cross-resistance, antimicrobial-resistance, heavy-metals, biocides, foodborne-pathogens, copper, zinc, livestock, efflux-pumps, biofilm, Salmonella, E-coli, MRSA, triclosan, quaternary-ammonium-compounds, food-chain, zoonoses]
 platform: wikibiome
 karen_brain_primitives: [1, 6]

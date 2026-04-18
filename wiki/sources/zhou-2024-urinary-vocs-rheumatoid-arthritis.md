@@ -11,6 +11,7 @@ tags: [VOCs, volatile-organic-compounds, rheumatoid-arthritis, NHANES, environme
 doi: "10.1038/s41598-023-44606-5"
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

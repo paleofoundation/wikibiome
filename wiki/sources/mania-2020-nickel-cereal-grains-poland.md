@@ -10,6 +10,7 @@ tags: [nickel, cereal-grains, dietary-exposure, food-contamination, TDI, Poland,
 doi: "10.32394/rpzh.2020.0142"
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 # Assessment of Exposure to Nickel Intake with Selected Cereal Grains and Cereal-Based Products

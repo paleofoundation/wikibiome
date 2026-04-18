@@ -7,6 +7,7 @@ authors: [Lorena Coretti, Lorella Paparo, Maria Pia Riccio, Felice Amato, Mariel
 year: 2018
 journal: "Frontiers in Microbiology"
 doi: "10.3389/fmicb.2018.03146"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, 16S-rRNA, SCFAs, Bifidobacterium-longum, Faecalibacterium-prausnitzii, butyrate, propionate, young-children]
 library_category: "16S rRNA sequencing"
 platform: sequencing

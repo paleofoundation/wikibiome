@@ -8,8 +8,10 @@ journal: International Journal of Immunopathology and Pharmacology
 year: 2010
 tags: [oral-hyposensitization, NiOH, cytokines, Th1, Th2, SNAS, immunology]
 doi: "10.1177/039463201002300117"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

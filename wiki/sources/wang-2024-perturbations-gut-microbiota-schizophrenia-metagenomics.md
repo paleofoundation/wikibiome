@@ -11,6 +11,7 @@ tags: [schizophrenia, gut-microbiota, metagenomics, 16S-rRNA, Clostridium, Megas
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [clostridium, megasphaera]
+karen_brain_primitives: [3]
 ---
 
 # Perturbations in Gut Microbiota Composition in Schizophrenia

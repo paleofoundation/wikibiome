@@ -16,6 +16,7 @@ why_keystone: "This review bridges nickel toxicology and cardio-metabolic diseas
 evidence_level: cross-sectional
 metals_discussed: [arsenic, chromium, copper, nickel, vanadium, zinc]
 key_findings: ["Nickel exposure is potentially associated with cardiovascular disease (CVD) and metabolic syndrome (MetS)"]
+karen_brain_primitives: [3, 4]
 ---
 
 # Cardio-Metabolic Effects of Nickel: A Narrative Review

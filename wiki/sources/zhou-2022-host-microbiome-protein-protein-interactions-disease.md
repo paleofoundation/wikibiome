@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, protein-protein-interactions, metagenomi
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [fusobacterium-nucleatum]
+karen_brain_primitives: [3]
 ---
 
 # Zhou 2022 -- Host-Microbiome Protein-Protein Interactions in Disease

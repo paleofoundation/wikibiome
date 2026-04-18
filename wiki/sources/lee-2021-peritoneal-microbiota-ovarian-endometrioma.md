@@ -11,6 +11,7 @@ doi: "10.3390/ijms22094608"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [acinetobacter, actinomyces, propionibacterium, pseudomonas-aeruginosa, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

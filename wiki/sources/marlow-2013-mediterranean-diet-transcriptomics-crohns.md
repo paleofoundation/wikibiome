@@ -10,6 +10,7 @@ tags: [crohns-disease, IBD, Mediterranean-diet, transcriptomics, gene-expression
 doi: "10.1186/1479-7364-7-24"
 platform: wikibiome
 taxa_discussed: [clostridium]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

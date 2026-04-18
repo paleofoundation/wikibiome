@@ -11,6 +11,7 @@ tags: [graves-disease, thyroid, autoimmune, diet, selenium, vitamin-D, PFAS, tra
 platform: wikibiome
 evidence_level: randomized-controlled-trial
 metals_discussed: [mercury, selenium]
+karen_brain_primitives: [3, 5]
 ---
 
 # Editorial: How can diet impair thyroid function?

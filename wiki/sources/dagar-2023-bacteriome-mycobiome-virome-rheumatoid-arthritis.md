@@ -7,6 +7,7 @@ authors: [Dagar S, Singh J, Saini A, Kumar Y, Chhabra S, Minz RW, Rani L]
 journal: Frontiers in Endocrinology
 year: 2023
 doi: "10.3389/fendo.2022.1044673"
+evidence_level: expert-opinion
 tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, mycobiome, virome, rheumatoid-arthritis, autoimmune, Prevotella-copri, Candida-albicans, bacteriophage, inter-kingdom-interactions, dysbiosis]
 platform: wikibiome
 taxa_discussed: [aspergillus, candida-albicans, cladosporium, faecalibacterium-prausnitzii, lactobacillus, malassezia, prevotella]

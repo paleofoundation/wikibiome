@@ -9,7 +9,7 @@ corresponding_email: "alaqeelar@moh.gov.sa"
 institution: "Clinical Laboratory Science, King Saud University, Ministry of Health, Saudi Arabia"
 year: 2025
 journal: "TPM (The Primary Care Companion for CNS Disorders)"
-doi: "not yet verified"  # <!-- DOI lookup needed: TPM (The Primary Care Companion for CNS Disorders) 2025 -->
+doi: "not yet verified"
 pmid: "not yet verified"
 evidence_level: systematic-review-meta-analysis
 sample_size: "11 included studies (2015–2025); sample sizes 20–394 participants"

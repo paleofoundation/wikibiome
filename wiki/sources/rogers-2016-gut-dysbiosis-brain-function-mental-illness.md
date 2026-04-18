@@ -7,9 +7,11 @@ authors: [Rogers GB, Keating DJ, Young RL, Wong ML, Licinio J, Wesselingh S]
 journal: Molecular Psychiatry
 year: 2016
 doi: "10.1038/mp.2016.50"
+evidence_level: expert-opinion
 tags: [schizophrenia, dysbiosis, gut-brain-axis, neurodevelopment, HPA-axis, tryptophan, serotonin, SCFAs, microbiome, depression, bipolar-disorder, aging]
 platform: wikibiome
 taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [3]
 ---
 
 # From Gut Dysbiosis to Altered Brain Function and Mental Illness: Mechanisms and Pathways

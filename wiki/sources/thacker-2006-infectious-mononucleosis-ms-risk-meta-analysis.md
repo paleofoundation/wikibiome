@@ -10,6 +10,7 @@ doi: 10.1002/ana.20820
 tags: [multiple-sclerosis, EBV, Epstein-Barr-virus, infectious-mononucleosis, meta-analysis, risk-factor, viral-infection]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Infectious Mononucleosis and Risk for Multiple Sclerosis: A Meta-analysis

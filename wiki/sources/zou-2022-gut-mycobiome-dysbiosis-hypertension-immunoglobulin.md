@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, mycobiome, hypertension, Malassezia, Mortier
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [malassezia]
+karen_brain_primitives: [3]
 ---
 
 # Gut Mycobiome Dysbiosis and Hypertension

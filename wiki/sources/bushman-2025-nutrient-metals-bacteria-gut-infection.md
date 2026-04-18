@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Summer D Bushman, Eric P Skaar, N Luisa Hiller]
 year: 2025
 journal: "PLOS Pathogens"
-doi: "not yet verified"  # <!-- DOI lookup needed: PLOS Pathogens 2025 -->
+doi: "not yet verified"
 pmcid: "PMC12574912"
 tags: [mismetallation, metal-homeostasis, nutritional-immunity, iron, zinc, manganese, copper, gut-microbiota, siderophore, calprotectin, pathogen-metal-acquisition, colonization-resistance]
 library_category: metal_homeostasis_bacteria

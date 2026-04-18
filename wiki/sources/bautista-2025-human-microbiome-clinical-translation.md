@@ -7,6 +7,7 @@ authors: [Jhommara Bautista, Carolina E. Echeverria, Ivan Maldonado-Noboa, Sofia
 year: 2025
 journal: "Frontiers in Microbiology"
 doi: "10.3389/fmicb.2025.1632435"
+evidence_level: expert-opinion
 tags: [postpartum-depression, human-microbiome, clinical-translation, precision-medicine, biomarkers, phage-therapy, FMT, review]
 library_category: review
 platform: cureva

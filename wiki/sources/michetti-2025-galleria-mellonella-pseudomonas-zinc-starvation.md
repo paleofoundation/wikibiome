@@ -7,6 +7,7 @@ authors: [Emma Michetti, Tulasi Abinya Mandava, Valerio Secli, Francesca Pacello
 year: 2025
 journal: "Microbiology"
 doi: "10.1099/mic.0.001528"
+evidence_level: animal-model
 tags: [mismetallation, metal-homeostasis, zinc, nutritional-immunity, Pseudomonas-aeruginosa, Galleria-mellonella, Zur, znuABC, zrmABCD, pseudopaline, metallophore, virulence, cystic-fibrosis, in-vivo-model, czcABCD]
 library_category: host_pathogen_nutritional_immunity
 platform: wikibiome

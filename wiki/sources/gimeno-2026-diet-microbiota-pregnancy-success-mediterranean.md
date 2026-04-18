@@ -10,6 +10,7 @@ doi: "10.1039/d5fo04208a"
 tags: [ovarian-cancer, Mediterranean-diet, vaginal-microbiome, pregnancy, artificial-insemination, Lactobacillus, community-state-type, fertility]
 platform: wikibiome
 taxa_discussed: [lactobacillus]
+karen_brain_primitives: [3]
 ---
 
 # Diet-Microbiota Interactions Influence Pregnancy Success

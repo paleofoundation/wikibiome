@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: cross-sectional
 key_findings: ["Antidepressant use"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -10,6 +10,7 @@ tags: [neurodegenerative-disease, copper, iron, lead, aluminum, cadmium, mercury
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [parkinsons-disease, depression, schizophrenia]
+signature_page: "[[alzheimers-disease-signature]]"
 shared_signature_metals: {parkinsons-disease: [iron, copper-depleted, lead, cadmium], depression: [zinc-depleted, iron], schizophrenia: [copper, zinc-dysregulated]}
 shared_signature_taxa: {parkinsons-disease: [escherichia-coli, lachnospiraceae-depleted, roseburia-depleted, faecalibacterium-depleted], depression: [lachnospiraceae-depleted, faecalibacterium-depleted, roseburia-depleted], schizophrenia: [escherichia-coli, lachnospiraceae-depleted]}
 seo_target: "Alzheimer's disease heavy metals microbiome copper iron"

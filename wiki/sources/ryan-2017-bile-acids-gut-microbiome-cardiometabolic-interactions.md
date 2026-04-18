@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, CVD, bile-acids, FXR, TGR5, gut-microbiome, metab
 platform: wikibiome
 evidence_level: randomized-controlled-trial
 taxa_discussed: [bacteroides-fragilis, clostridium, eubacterium, lactobacillus, listeria]
+karen_brain_primitives: [3]
 ---
 
 # Bile Acids at the Cross-Roads of Gut Microbiome-Host Cardiometabolic Interactions

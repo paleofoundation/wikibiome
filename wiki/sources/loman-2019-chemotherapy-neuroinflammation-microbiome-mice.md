@@ -10,6 +10,7 @@ doi: "10.1038/s41598-019-52893-0"
 tags: [ovarian-cancer, chemotherapy, neuroinflammation, paclitaxel, gut-microbiome, microglia, colonic-homeostasis, IL-1beta, TNF-alpha, gut-brain-axis]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # Chemotherapy-Induced Neuroinflammation and Disrupted Colonic/Bacterial Homeostasis

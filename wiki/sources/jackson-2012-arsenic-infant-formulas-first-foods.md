@@ -10,6 +10,7 @@ tags: [arsenic, infant-formula, baby-food, speciation, rice, dietary-exposure, I
 doi: "10.1351/PAC-CON-11-07-39"
 platform: wikibiome
 metals_discussed: [arsenic]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

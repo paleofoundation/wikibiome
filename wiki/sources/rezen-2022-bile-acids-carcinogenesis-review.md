@@ -7,6 +7,7 @@ authors: [Rezen T, Rozman D, Kovacs T, Kovacs P, Sipos A, Bai P, Miko E]
 journal: Cellular and Molecular Life Sciences
 year: 2022
 doi: "10.1007/s00018-022-04278-2"
+evidence_level: expert-opinion
 tags: [ovarian-cancer, bile-acids, carcinogenesis, FXR, TGR5, breast-cancer, colorectal-cancer, gut-microbiome, secondary-bile-acids, UDCA]
 platform: wikibiome
 metals_discussed: [iron]

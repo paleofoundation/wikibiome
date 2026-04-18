@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 taxa_discussed: [listeria]
 key_findings: ["VPA reduced mast cell degranulation", "MC activation during L.m. infection", "VPA decreased MC activation"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -10,6 +10,7 @@ tags: [colon-cancer, mendelian-randomization, immune-cells, mediation-analysis, 
 doi: "10.1186/s13027-025-00653-3"
 platform: wikibiome
 evidence_level: computational-prediction
+karen_brain_primitives: [3]
 ---
 
 # Novel Insights into Immune-Gut Microbiota Interactions in Colorectal Cancer: A Mendelian Randomization Study

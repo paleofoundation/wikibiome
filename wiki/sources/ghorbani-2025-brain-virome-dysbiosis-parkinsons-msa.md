@@ -12,6 +12,7 @@ platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [saccharomyces-cerevisiae, salmonella]
 key_findings: ["Nine viral species enriched"]
+karen_brain_primitives: [3]
 ---
 
 # Brain Virome Dysbiosis in Parkinson's Disease and Multiple System Atrophy

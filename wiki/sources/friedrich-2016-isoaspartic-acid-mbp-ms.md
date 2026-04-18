@@ -10,6 +10,7 @@ year: 2016
 tags: [amino-acids, multiple-sclerosis, myelin-basic-protein, isoaspartic-acid, racemization, post-translational-modifications, autoimmunity, citrullination, proteomics]
 doi: "10.1186/s40478-016-0348-x"
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Isoaspartic Acid Is Present at Specific Sites in Myelin Basic Protein from Multiple Sclerosis Patients

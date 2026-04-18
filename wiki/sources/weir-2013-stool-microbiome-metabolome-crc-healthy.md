@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, stool-microbiome, metabolome, GC-MS, SCF
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [akkermansia-muciniphila, dialister, prevotella, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Weir 2013 -- Stool Microbiome and Metabolome Differences in CRC vs. Healthy Adults

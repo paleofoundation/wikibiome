@@ -11,6 +11,7 @@ doi: "10.1186/s41927-024-00420-8"
 platform: wikibiome
 evidence_level: case-control
 metals_discussed: [aluminum, cadmium, chromium, lead]
+karen_brain_primitives: [3, 7]
 ---
 
 # Key Claims

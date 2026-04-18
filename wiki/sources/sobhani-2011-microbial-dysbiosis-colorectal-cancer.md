@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, dysbiosis, microbiome, Bacteroides, Prev
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [alistipes, bacteroides-fragilis, collinsella, dorea, faecalibacterium-prausnitzii, lachnospira, prevotella, subdoligranulum]
+karen_brain_primitives: [3]
 ---
 
 # Sobhani 2011 -- Microbial Dysbiosis in Colorectal Cancer (CRC) Patients

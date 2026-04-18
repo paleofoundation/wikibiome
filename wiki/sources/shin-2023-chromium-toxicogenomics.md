@@ -12,6 +12,7 @@ platform: wikibiome
 evidence_level: computational-prediction
 metals_discussed: [arsenic, cadmium, chromium, nickel]
 key_findings: ["Dermal exposure", "Inhalation exposure"]
+karen_brain_primitives: [3]
 ---
 
 # Adverse Human Health Effects of Chromium by Exposure Route

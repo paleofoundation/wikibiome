@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Eva Bastida-Martinez, Irene del Rey-Navalon, Naike Ye, Catherine L Drennan, S Padmanabhan, Montserrat Elias-Arnanz]
 year: 2025
 journal: "Nucleic Acids Research"
-doi: "not yet verified"  # <!-- DOI lookup needed: Nucleic Acids Research 2025 -->
+doi: "not yet verified"
 pmcid: "PMC12754779"
 tags: [mismetallation, metal-homeostasis, zinc, iron, peroxide-stress, metal-sensing, GAF-domain, transcription-regulation, myxococcus, oxidative-stress, Fenton-chemistry]
 library_category: metal_homeostasis_bacteria

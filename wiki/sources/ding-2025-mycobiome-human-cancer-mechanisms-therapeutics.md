@@ -7,6 +7,7 @@ authors: [Ting Ding, Chang Liu, Zhengyu Li]
 journal: Molecular Cancer
 year: 2025
 doi: "10.1186/s12943-025-02227-8"
+evidence_level: expert-opinion
 tags: [colon-cancer, colorectal-cancer, mycobiome, immuno-oncology-microbiome, Candida, Malassezia, Aspergillus, fungal-detection, ITS-sequencing, WGS, TCGA, intratumoral-mycobiome, pan-cancer, antifungal-therapy]
 platform: wikibiome
 taxa_discussed: [aspergillus, candida-albicans, malassezia]

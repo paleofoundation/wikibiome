@@ -10,6 +10,7 @@ doi: "10.3389/fimmu.2022.843695"
 tags: [chronic-kidney-disease, CKD, mycobiome, ITS-sequencing, Candida, Saccharomyces, Ganoderma, kappa-light-chain, fungal-dysbiosis]
 platform: wikibiome
 taxa_discussed: [candida-albicans, saccharomyces-cerevisiae]
+karen_brain_primitives: [6]
 ---
 
 # Gut Mycobiome in CKD Patients and Immunological Profiles

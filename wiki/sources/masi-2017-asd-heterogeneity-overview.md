@@ -7,6 +7,7 @@ authors: [Anne Masi, Marilena M. DeMayo, Nicholas Glozier, Adam J. Guastella]
 year: 2017
 journal: "Neuroscience Bulletin"
 doi: "10.1007/s12264-017-0100-y"
+evidence_level: expert-opinion
 tags: [autism, heterogeneity, diagnosis, comorbidities, treatment, review]
 library_category: causal
 platform: wikibiome

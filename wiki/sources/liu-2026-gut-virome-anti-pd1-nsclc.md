@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, virome, gut-virome, immunotherapy, PD-1, bacteriophage
 doi: "10.1186/s12967-026-07900-0"
 platform: wikibiome
 taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, escherichia-coli, faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -7,6 +7,7 @@ authors: [Shuai Nie, Wei Wang]
 year: 2025
 journal: "npj Parkinson's Disease"
 doi: "10.1038/s41531-025-01040-w"
+evidence_level: prospective-cohort
 tags: [parkinsons-disease, microbiome-derived-metabolites, biomarkers, metabolomics, diagnostic-panel, SCFA, indoles, gut-brain-axis]
 library_category: metabolites
 platform: both

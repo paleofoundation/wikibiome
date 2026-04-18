@@ -11,6 +11,7 @@ authors:
 journal: Current Nutrition Reports
 year: 2018
 doi: 10.1007/s13668-018-0248-8
+evidence_level: animal-model
 tags:
   - cardiovascular-disease
   - CVD

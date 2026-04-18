@@ -10,6 +10,7 @@ doi: "10.1371/journal.pone.0324742"
 tags: [ovarian-cancer, breast-cancer, gut-brain-axis, chemotherapy, gut-microbiome, Firmicutes, Pseudomonas, Akkermansia, KEGG-pathways]
 platform: wikibiome
 taxa_discussed: [akkermansia-muciniphila, pseudomonas-aeruginosa, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiota and the Gut-Brain Axis in Cancer Chemotherapy Patients

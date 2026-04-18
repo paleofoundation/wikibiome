@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, bacteriophage, Klebsiella-pneumoniae, perito
 platform: wikibiome
 evidence_level: case-report
 taxa_discussed: [klebsiella-pneumoniae]
+karen_brain_primitives: [3]
 ---
 
 # Combined Phage and Antibiotic Therapy for PD Peritonitis

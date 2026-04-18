@@ -12,6 +12,7 @@ platform: wikibiome
 seo_target: "erectile dysfunction microbiome gut penis axis testosterone"
 wikipedia_differentiation: "Gut-penis axis concept showing LPS translocation from dysbiotic gut suppresses eNOS and NO synthesis in penile vasculature, Lachnospiraceae as consistent MR-validated causal risk taxon (OR=1.265 across 3 studies), and Ruminococcaceae UCG013 as consistently protective (OR=0.761-0.827)"
 associated_conditions: [cardiovascular-disease, type-2-diabetes, depression]
+signature_page: "[[erectile-dysfunction-signature]]"
 shared_signature_metals: {cardiovascular-disease: [cadmium]}
 shared_signature_taxa: {cardiovascular-disease: [lachnospiraceae-enriched, ruminococcus-gnavus-enriched], depression: [lachnospiraceae-enriched], type-2-diabetes: [lachnospiraceae-enriched]}
 ---

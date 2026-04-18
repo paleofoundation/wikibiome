@@ -10,6 +10,7 @@ tags: [multiple-sclerosis, comorbidity, depression, anxiety, cardiovascular, epi
 doi: "10.1007/s00415-020-10107-y"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # A Global View of Comorbidity in Multiple Sclerosis: A Systematic Review

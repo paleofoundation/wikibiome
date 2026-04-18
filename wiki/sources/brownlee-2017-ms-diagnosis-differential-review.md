@@ -8,8 +8,10 @@ authors: [Wallace J. Brownlee, Todd A. Hardy, Franz Fazekas, David H. Miller]
 journal: The Lancet
 year: 2017
 doi: 10.1016/S0140-6736(16)30959-X
+evidence_level: expert-opinion
 tags: [multiple-sclerosis, diagnosis, MRI, differential-diagnosis, McDonald-criteria, oligoclonal-bands, clinically-isolated-syndrome]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # The Diagnosis and Differential Diagnosis of Multiple Sclerosis: Progress and Challenges

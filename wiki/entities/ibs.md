@@ -10,6 +10,7 @@ tags: [IBS, nickel, FODMAP, gut-barrier, visceral-hypersensitivity, microbiome, 
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [endometriosis, gerd, inflammatory-bowel-disease, celiac-disease]
+signature_page: "[[ibs-signature]]"
 shared_signature_metals: {endometriosis: [nickel, iron], gerd: [nickel], inflammatory-bowel-disease: [iron, nickel], celiac-disease: [iron, zinc]}
 shared_signature_taxa: {endometriosis: [escherichia-coli, lachnospiraceae, ruminococcus], gerd: [helicobacter-pylori], inflammatory-bowel-disease: [escherichia-coli, faecalibacterium-depleted], celiac-disease: [bifidobacterium-depleted, lactobacillus-depleted]}
 seo_target: "IBS nickel allergy microbiome low nickel diet SNAS"

@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, autoimmune, systematic-review, meta-anal
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [bacteroides-fragilis, desulfovibrio, enterococcus, fusobacterium-nucleatum, parabacteroides, peptostreptococcus, porphyromonas]
+karen_brain_primitives: [3]
 ---
 
 # Islam 2022 -- Opposing Microbiome Signatures Distinguish Autoimmune Diseases and Cancers

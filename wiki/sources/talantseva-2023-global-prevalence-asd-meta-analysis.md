@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
 evidence_level: systematic-review-meta-analysis
 key_findings: ["ASD overall", "Autistic Disorder (AD)", "Asperger Syndrome (AS)"]
+karen_brain_primitives: [3]
 ---
 
 # Overview

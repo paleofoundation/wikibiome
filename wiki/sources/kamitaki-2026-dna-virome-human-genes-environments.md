@@ -10,6 +10,7 @@ doi: 10.1038/s41586-026-10288-y
 tags: [virome, EBV, HHV-6, HHV-7, human-genetics, MHC, HLA, ERAP1, viral-load, UK-Biobank, multiple-sclerosis]
 platform: wikibiome
 evidence_level: computational-prediction
+karen_brain_primitives: [3]
 ---
 
 # The DNA Virome Varies with Human Genes and Environments

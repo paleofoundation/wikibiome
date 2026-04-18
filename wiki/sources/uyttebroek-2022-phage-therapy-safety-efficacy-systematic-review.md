@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, phage-therapy, antimicrobial-resistance, systemat
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [pseudomonas-aeruginosa, staphylococcus-aureus]
+karen_brain_primitives: [3]
 ---
 
 # Safety and Efficacy of Phage Therapy in Difficult-to-Treat Infections: A Systematic Review

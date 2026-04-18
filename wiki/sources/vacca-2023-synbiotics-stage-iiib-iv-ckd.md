@@ -7,6 +7,7 @@ authors: [Mirco Vacca, Giuseppe Celano, Francesco Maria Calabrese, Maria Teresa 
 year: 2023
 journal: "Frontiers in Nutrition"
 doi: "10.3389/fnut.2023.1215836"
+evidence_level: animal-model
 tags: [chronic-kidney-disease, CKD, synbiotics, clinical-trial, uremic-toxins, indoxyl-sulfate, p-cresyl-sulfate, saccharolytic-metabolism]
 platform: wikibiome
 karen_brain_primitives: [5]

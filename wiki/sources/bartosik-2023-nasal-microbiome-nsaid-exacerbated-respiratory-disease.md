@@ -11,6 +11,7 @@ tags: [nasal-microbiome, NSAIDs, chronic-rhinosinusitis, N-ERD, Staphylococcus, 
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [staphylococcus-aureus]
+karen_brain_primitives: [3]
 ---
 
 # The Nasal Microbiome in Patients Suffering from Non-Steroidal Anti-Inflammatory Drugs-Exacerbated Respiratory Disease in Absence of Corticosteroids

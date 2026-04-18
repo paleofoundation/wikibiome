@@ -7,6 +7,7 @@ authors: [Alevtina Mikhaylina, Amira Z. Ksibe, David J. Scanlan, Claudia A. Blin
 year: 2018
 journal: "Biochemical Society Transactions"
 doi: "10.1042/BST20170228"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, zinc, Zur, Fur-family, metallosensor, regulon, metallophore, ribosomal-proteins, virulence]
 library_category: copper_zinc_toxicity
 platform: wikibiome

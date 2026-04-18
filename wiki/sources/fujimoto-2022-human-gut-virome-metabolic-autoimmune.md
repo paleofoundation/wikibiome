@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, virome, bacteriophage, viral-dysbiosis, metabolic
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [escherichia-coli, faecalibacterium-prausnitzii, lachnospiraceae, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Characterization of the Human Gut Virome in Metabolic and Autoimmune Diseases

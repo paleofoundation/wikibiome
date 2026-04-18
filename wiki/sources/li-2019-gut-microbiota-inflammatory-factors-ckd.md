@@ -10,6 +10,7 @@ doi: "10.3389/fcimb.2019.00206"
 tags: [chronic-kidney-disease, CKD, gut-microbiota, inflammation, 16S-rRNA, Akkermansia, interleukin-10, Desulfovibrio, CKD-severity]
 platform: wikibiome
 taxa_discussed: [akkermansia-muciniphila, desulfovibrio, lactobacillus]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiota Alterations and Inflammatory Factors in CKD

@@ -7,6 +7,7 @@ authors: [W. Andrew Lancaster, Angeli Lal Menon, Israel Scott, Farris L. Poole, 
 year: 2014
 journal: "Metallomics"
 doi: "10.1039/c4mt00050a"
+evidence_level: computational-prediction
 tags: [autism-spectrum-disorder, metallomics, metalloproteins, bioremediation, Desulfovibrio, Enterobacter, heavy-metals, uranium, chromium, metal-assimilation]
 library_category: heavy-metals
 platform: cureva

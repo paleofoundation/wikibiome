@@ -5,11 +5,12 @@ created: 2026-04-09
 updated: 2026-04-09
 authors: [F. Franceschi, F. Manca, A. Piccioni, A. Saviano, M.C. Bungaro, F. Valletta, M. Covino, M. Candelli]
 year: 2026
-doi: "not yet verified"  # <!-- DOI lookup needed: Microbiota in Health and Disease 2026 -->
+doi: "not yet verified"
 journal: "Microbiota in Health and Disease"
 tags: [chronic-kidney-disease, CKD, NSAIDs, paracetamol, adverse-drug-reactions, gut-microbiota, renal-failure, GI-bleeding]
 platform: wikibiome
 evidence_level: retrospective-cohort
+karen_brain_primitives: [3]
 ---
 
 # NSAIDs/Paracetamol Adverse Drug Reactions and Gut Microbiota

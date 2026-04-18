@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: in-vitro
 key_findings: ["Physiologically relevant propionate concentrations", "Propionate inhibited"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

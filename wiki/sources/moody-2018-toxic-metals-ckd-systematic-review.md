@@ -11,6 +11,7 @@ doi: "10.1007/s40572-018-0212-1"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [arsenic, cadmium, lead]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

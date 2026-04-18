@@ -10,6 +10,7 @@ tags: [nickel-allergy, endometriosis, low-nickel-diet, IBS, allergic-contact-muc
 doi: "10.3390/nu12082277"
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims

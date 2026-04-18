@@ -8,6 +8,7 @@ journal: Alimentary Pharmacology & Therapeutics
 year: 2005
 tags: [crohns-disease, IBD, FODMAP, diet, fructose, intestinal-permeability, western-diet, fermentation, bacterial-overgrowth]
 doi: "10.1111/j.1365-2036.2005.02506.x"
+evidence_level: expert-opinion
 platform: wikibiome
 taxa_discussed: [escherichia-coli]
 karen_brain_primitives: [2, 5]

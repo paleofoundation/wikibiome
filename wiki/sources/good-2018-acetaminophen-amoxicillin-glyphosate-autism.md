@@ -7,6 +7,7 @@ authors: [Peter Good]
 year: 2018
 journal: "Clinical Nutrition ESPEN"
 doi: "10.1016/j.clnesp.2017.10.005"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, acetaminophen, Tylenol, amoxicillin, Augmentin, glyphosate, Roundup, sulfate-depletion, glutathione, serotonin, methionine, epigenetics]
 library_category: "NSAIDs"
 platform: original-article

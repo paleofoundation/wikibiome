@@ -24,6 +24,7 @@ tags: [cardiovascular-disease, CVD, TMAO, copper, selenium, lead, cadmium, nicke
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [type-2-diabetes, obesity, chronic-kidney-disease, depression]
+signature_page: "[[cardiovascular-disease-signature]]"
 shared_signature_metals: {type-2-diabetes: [iron, nickel, cadmium], obesity: [iron], chronic-kidney-disease: [lead, cadmium], depression: [iron]}
 shared_signature_taxa: {type-2-diabetes: [enterobacteriaceae, escherichia-coli, roseburia-depleted, faecalibacterium-depleted], obesity: [enterobacteriaceae, faecalibacterium-depleted, lachnospiraceae-depleted], chronic-kidney-disease: [enterobacteriaceae, escherichia-coli], depression: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted]}
 seo_target: "cardiovascular disease microbiome TMAO heavy metals gut bacteria"

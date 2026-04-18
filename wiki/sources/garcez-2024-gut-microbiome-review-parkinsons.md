@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Marcelo L Garcez, Kelly R Jacobs, Gilles J Bhatt]
 year: 2024
 journal: "Gut Microbes"
-doi: "not yet verified"  # <!-- DOI lookup needed: Gut Microbes 2024 -->
+doi: "not yet verified"
 tags: [parkinsons-disease, gut-microbiome, review, dysbiosis, alpha-synuclein, gut-brain-axis, neuroinflammation, short-chain-fatty-acids, butyrate, probiotics, fecal-microbiota-transplant]
 library_category: reviews
 platform: gut

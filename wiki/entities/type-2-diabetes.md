@@ -23,6 +23,7 @@ tags: [disease, diabetes, metabolic, metabolic-disease, metals, zinc, chromium, 
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [obesity, cardiovascular-disease, pcos, chronic-kidney-disease, depression]
+signature_page: "[[type-2-diabetes-signature]]"
 shared_signature_metals: {obesity: [iron, cadmium, nickel, lead], cardiovascular-disease: [iron, nickel, cadmium], pcos: [iron, cadmium, nickel, lead], chronic-kidney-disease: [cadmium, nickel, lead, iron], depression: [iron, cadmium, lead]}
 shared_signature_taxa: {obesity: [escherichia-coli, enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium], cardiovascular-disease: [enterobacteriaceae, escherichia-coli, roseburia-depleted, faecalibacterium-depleted], pcos: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii, prevotella], chronic-kidney-disease: [enterobacteriaceae, faecalibacterium-prausnitzii, akkermansia-muciniphila, lachnospiraceae], depression: [escherichia-coli, faecalibacterium-prausnitzii, lachnospiraceae, bifidobacterium]}
 seo_target: "type 2 diabetes heavy metals microbiome gut bacteria"

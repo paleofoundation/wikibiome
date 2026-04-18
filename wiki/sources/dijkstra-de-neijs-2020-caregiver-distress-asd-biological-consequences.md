@@ -7,12 +7,14 @@ authors: [L. Dijkstra-de Neijs, P. J. M. Leenen, J. P. Hays, E. S. van der Valk,
 year: 2020
 journal: "Current Epidemiology Reports"
 doi: "10.1007/s40471-020-00237-2"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, caregiver-distress, cortisol, HPA-axis, immune-system, microbiome-imbalance, chronic-stress, cancer-risk]
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
 metals_discussed: [lead]
 key_findings: ["Caregiver distress", "Pro-inflammatory state", "Gut microbiome imbalance"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -11,6 +11,7 @@ doi: "10.1186/s13099-024-00604-0"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [akkermansia-muciniphila, lachnospiraceae, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # 16S rRNA Sequencing Analysis of the Oral and Fecal Microbiota in Colorectal Cancer Positives Versus Negatives in Iranian Population

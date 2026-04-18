@@ -11,6 +11,7 @@ doi: "10.3389/fnut.2024.1422617"
 platform: wikibiome
 evidence_level: computational-prediction
 metals_discussed: [antimony, arsenic, cadmium, cobalt, iron, lead, mercury, molybdenum, thallium, tungsten]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

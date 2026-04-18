@@ -25,6 +25,7 @@ tags: [hashimotos-thyroiditis, autoimmune, thyroid, selenium, iron, zinc, copper
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [graves-disease, depression, celiac-disease, pcos]
+signature_page: "[[hashimotos-thyroiditis-signature]]"
 shared_signature_metals: {graves-disease: [selenium, iodine, iron, zinc], depression: [iron, zinc, selenium], celiac-disease: [iron, zinc, selenium], pcos: [iron, zinc, selenium]}
 shared_signature_taxa: {graves-disease: [faecalibacterium-prausnitzii, lachnospiraceae, proteobacteria, prevotella], depression: [faecalibacterium-prausnitzii, bifidobacterium, lachnospiraceae], celiac-disease: [lactobacillus, bifidobacterium, proteobacteria], pcos: [lactobacillus, prevotella, bifidobacterium]}
 seo_target: "Hashimoto's thyroiditis microbiome selenium iodine gut"

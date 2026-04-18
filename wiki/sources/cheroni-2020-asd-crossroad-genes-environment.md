@@ -13,6 +13,7 @@ platform: review
 condition: "autism spectrum disorder"
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [lead, manganese, mercury, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Overview

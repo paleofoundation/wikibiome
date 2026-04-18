@@ -11,6 +11,7 @@ doi: "10.1093/jn/137.9.2128"
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [calcium]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

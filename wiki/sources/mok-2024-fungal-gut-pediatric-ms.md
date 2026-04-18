@@ -11,6 +11,7 @@ doi: "10.3389/fmicb.2024.1258978"
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [aspergillus, candida-albicans, fusarium, saccharomyces-cerevisiae]
+karen_brain_primitives: [6]
 ---
 
 # The Fungal Gut Microbiota in Pediatric-Onset Multiple Sclerosis

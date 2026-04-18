@@ -7,6 +7,7 @@ authors: [Yisen Hou, Xinzhe Zhai, Xiaotao Wang, Yi Wu, Heyue Wang, Yaxin Qin, Ji
 year: 2023
 journal: "Diabetology & Metabolic Syndrome"
 doi: "10.1186/s13098-023-01207-6"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, bile-acids, fxr, tgr5, glucose-metabolism, gut-microbiome, dysbiosis]
 library_category: reviews
 platform: cureva

@@ -10,6 +10,7 @@ doi: "10.12290/xhyxzz.2025-0016"
 tags: [chronic-kidney-disease, CKD, intestinal-fungi, heart-failure, CKD-HF, Ascomycota, Candiada-Lodderomyces-clade, mouse-model]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # Intestinal Fungi and Heart Failure Progression in CKD

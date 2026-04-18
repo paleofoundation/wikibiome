@@ -11,6 +11,7 @@ doi: "10.1371/journal.pone.0212406"
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [actinomyces, fusobacterium-nucleatum, peptostreptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Metagenomic Analyses of the Gut Microbiota Associated with Colorectal Adenoma

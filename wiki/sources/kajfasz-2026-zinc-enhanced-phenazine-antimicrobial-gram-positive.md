@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Jessica K Kajfasz, Hannah B Hosay, Qiwen Gao, Robert W Huigens, Jose A Lemos, Johann Heider]
 year: 2026
 journal: "mSphere"
-doi: "not yet verified"  # <!-- DOI lookup needed: mSphere 2026 -->
+doi: "not yet verified"
 pmcid: "PMC12931261"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, manganese, iron, halogenated-phenazine, streptococcus-mutans, staphylococcus-aureus, enterococcus-faecalis, antimicrobial-metals, metal-dyshomeostasis]
 library_category: antimicrobial_resistance

@@ -24,6 +24,7 @@ tags:
   - cadmium
   - extracellular-sequestration
 doi: 10.1111/j.1758-2229.2009.00126.x
+evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

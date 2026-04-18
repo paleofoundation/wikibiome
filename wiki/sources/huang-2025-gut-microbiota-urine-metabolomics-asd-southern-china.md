@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 source_pages: "pp. 1-21"
 evidence_level: expert-opinion
 taxa_discussed: [bifidobacterium, blautia, faecalibacterium-prausnitzii]
+karen_brain_primitives: [3]
 ---
 
 # Overview

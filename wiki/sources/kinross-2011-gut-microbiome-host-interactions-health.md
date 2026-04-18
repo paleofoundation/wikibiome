@@ -7,6 +7,7 @@ authors: [James M. Kinross, Ara W. Darzi, Jeremy K. Nicholson]
 year: 2011
 journal: "Genome Medicine"
 doi: "10.1186/gm228"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, gut-microbiome, metabolomics, dysbiosis, immune-balance, review]
 library_category: reviews
 platform: cureva

@@ -10,6 +10,7 @@ doi: "10.3389/fmicb.2025.1535356"
 tags: [chronic-kidney-disease, CKD, gut-brain-kidney-axis, uremic-toxins, metabolites, neuroinflammation, review]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiota and the Gut-Brain-Kidney Axis in CKD

@@ -11,6 +11,7 @@ doi: "10.3238/arztebl.2017.0653"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [aluminum, nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Summary

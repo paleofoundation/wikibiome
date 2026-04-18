@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Victoria Bell, Jorge Ferrao, Tito Fernandes]
 year: 2018
 journal: "Journal of Pediatrics and Pediatric Medicine"
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Pediatrics and Pediatric Medicine 2018 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [fermented-foods, children, microbiome, autism, probiotics, guidelines, nutrition]
 library_category: interventions
 platform: cureva

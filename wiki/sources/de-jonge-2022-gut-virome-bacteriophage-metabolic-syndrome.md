@@ -10,6 +10,7 @@ doi: 10.1038/s41467-022-31390-5
 tags: [cardiovascular-disease, virome, metabolic-syndrome, bacteriophage, Heliusviridae, Crassvirales, gut-phage, shotgun-metagenomics, viral-dysbiosis]
 platform: wikibiome
 taxa_discussed: [faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [5, 6]
 ---
 
 # Gut Virome Profiling Identifies a Widespread Bacteriophage Family Associated with Metabolic Syndrome

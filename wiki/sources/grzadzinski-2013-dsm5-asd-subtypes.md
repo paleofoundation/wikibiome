@@ -7,11 +7,13 @@ authors: [Rebecca Grzadzinski, Marisela Huerta, Catherine Lord]
 year: 2013
 journal: "Molecular Autism"
 doi: "10.1186/2040-2392-4-12"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, DSM-5, diagnostic-criteria, subtypes, social-communication, restricted-repetitive-behaviors, heterogeneity]
 library_category: "Literature review"
 platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-6"
+karen_brain_primitives: [3]
 ---
 
 # Overview

@@ -7,6 +7,7 @@ authors: [Hoffman KW, Lee JJ, Corcoran CM, Kimhy D, Kranz TM, Malaspina D]
 journal: Frontiers in Psychiatry
 year: 2020
 doi: "10.3389/fpsyt.2020.00629"
+evidence_level: animal-model
 tags: [schizophrenia, microbiome, stress, HPA-axis, BDNF, cortisol, neurodevelopment, maternal-infection, gut-brain-axis, perinatal, fetal-growth-restriction]
 platform: wikibiome
 karen_brain_primitives: [9]

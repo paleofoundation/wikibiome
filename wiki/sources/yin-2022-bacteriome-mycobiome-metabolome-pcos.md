@@ -11,6 +11,7 @@ tags: [ovarian-cancer, PCOS, mycobiome, bacteriome, metabolome, Mortierella, Pre
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Bacteriome, Mycobiome and Metabolome Alterations in PCOS

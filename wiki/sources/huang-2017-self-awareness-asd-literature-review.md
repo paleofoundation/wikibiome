@@ -13,6 +13,7 @@ platform: review
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-12"
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Overview

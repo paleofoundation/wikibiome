@@ -10,6 +10,7 @@ doi: 10.1146/annurev.immunol.23.021704.115707
 tags: [multiple-sclerosis, immunology, HLA, T-cells, CD4, autoimmunity, EAE, myelin, CNS, neuroimmunology]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Immunology of Multiple Sclerosis

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Mike A Nalls, Cornelis Blauwendraat, Andrew B Singleton]
 year: 2015
 journal: "Movement Disorders"
-doi: "not yet verified"  # <!-- DOI lookup needed: Movement Disorders 2015 -->
+doi: "not yet verified"
 tags: [parkinsons-disease, causal-microbiome, genetic-risk, microbiome-causality, GWAS, bidirectional-causality]
 library_category: causal
 platform: both

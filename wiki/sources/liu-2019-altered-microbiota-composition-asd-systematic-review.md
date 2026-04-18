@@ -15,6 +15,7 @@ source_pages: "pp. 1-8"
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, blautia, clostridium, desulfovibrio, dialister, lactobacillus, prevotella, veillonella]
 key_findings: ["Beta-diversity", "*Bifidobacterium*, *Blautia*, *Dialister*, *Prevotella*, *Veillonella*, and *Turicibacter", "*Lactobacillus*, *Bacteroides*, *Desulfovibrio*, and *Clostridium"]
+karen_brain_primitives: [3]
 ---
 
 # Overview

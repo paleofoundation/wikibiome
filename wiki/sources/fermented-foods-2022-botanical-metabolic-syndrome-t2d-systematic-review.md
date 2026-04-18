@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2022
 journal: "Various"
-doi: "not yet verified"  # <!-- DOI lookup needed: Various 2022 -->
+doi: "not yet verified"
 tags: [type-1-diabetes, autoimmune, fermented-foods, metabolic-syndrome, gut-microbiome, probiotics, polyphenols, dysbiosis]
 library_category: reviews
 platform: cureva

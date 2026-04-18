@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Amira Khochtali, Marine Ote, Hugo Balon, Marc Dieu, Patricia Renard, Catherine Michaux, Jean-Yves Matroule]
 year: 2025
 journal: "Journal of Biological Chemistry"
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Biological Chemistry 2025 -->
+doi: "not yet verified"
 pmcid: "PMC12509749"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, copper-efflux, PcoB, outer-membrane, intrinsically-disordered-region, caulobacter, protein-stability, ATCUN-motif]
 library_category: antimicrobial_resistance

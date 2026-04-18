@@ -9,6 +9,7 @@ journal: "Lipids in Health and Disease"
 doi: "10.1186/s12944-020-01258-y"
 tags: [chronic-kidney-disease, CKD, fatty-acids, lipid-biomarker, CKD-progression, EPA, DHA, adrenic-acid]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # The C18:3n6/C22:4n6 Ratio as a Lipid Marker of CKD Progression

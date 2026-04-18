@@ -10,6 +10,7 @@ tags: [neurodevelopmental-disease, zinc, lead, mercury, cadmium, nickel, iron, g
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [depression, schizophrenia, adhd]
+signature_page: "[[autism-spectrum-disorder-signature]]"
 shared_signature_metals: {depression: [zinc-depleted, iron], schizophrenia: [copper, zinc-dysregulated], adhd: [zinc-depleted, iron-dysregulated]}
 shared_signature_taxa: {depression: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted], schizophrenia: [escherichia-coli, lachnospiraceae-depleted], adhd: [faecalibacterium-depleted, bifidobacterium-depleted]}
 seo_target: "autism spectrum disorder heavy metals microbiome zinc lead gut-brain"

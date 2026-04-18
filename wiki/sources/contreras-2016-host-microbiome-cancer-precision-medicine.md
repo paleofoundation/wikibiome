@@ -10,6 +10,7 @@ doi: "10.3389/fphys.2016.00606"
 tags: [colon-cancer, colorectal-cancer, precision-medicine, microbiome, next-generation-sequencing, metabolome, systems-biology, bioinformatics, Illumina, PacBio, Ion-Torrent, Oxford-Nanopore]
 platform: wikibiome
 evidence_level: computational-prediction
+karen_brain_primitives: [3]
 ---
 
 # Contreras 2016 -- Host-Microbiome Interaction and Cancer: Precision Medicine

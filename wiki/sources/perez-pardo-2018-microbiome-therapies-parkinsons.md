@@ -7,6 +7,7 @@ authors: [Paula Perez-Pardo, Mitch Hartog, Silvia Garssen, Johan Garssen, Aletta
 year: 2018
 journal: "Current Pharmaceutical Design"
 doi: "10.2174/1381612824666180928100928"
+evidence_level: expert-opinion
 tags: [parkinsons-disease, probiotics, prebiotics, fecal-microbiota-transplant, microbiome-therapeutics, gut-brain-axis, dysbiosis, short-chain-fatty-acids, neuroinflammation, dietary-fiber]
 library_category: therapeutics
 platform: gut

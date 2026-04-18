@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, CVD, acute-coronary-syndrome, STEMI, gut-microbio
 platform: wikibiome
 evidence_level: prospective-cohort
 taxa_discussed: [acinetobacter, escherichia-coli, eubacterium, lachnospira, lachnospiraceae, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbial Taxa as Potential Predictive Biomarkers for ACS and Post-STEMI Cardiovascular Events

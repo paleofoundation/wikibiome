@@ -11,6 +11,7 @@ doi: "10.3389/fimmu.2022.890298"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [candida-albicans, saccharomyces-cerevisiae]
+karen_brain_primitives: [6]
 ---
 
 # Proinflammatory MAIT Cells React to Gut Flora Yeasts and Infiltrate MS Brain

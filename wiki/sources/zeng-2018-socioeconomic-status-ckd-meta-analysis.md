@@ -10,6 +10,7 @@ doi: "10.1136/jech-2017-209815"
 tags: [chronic-kidney-disease, CKD, socioeconomic-status, meta-analysis, income, education, CKD-prevalence, ESRD-progression]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Socioeconomic Status and CKD: A Meta-Analysis

@@ -10,6 +10,7 @@ doi: "10.1371/journal.pone.0204317"
 tags: [chronic-kidney-disease, CKD, metformin, gut-microbiome, healthy-volunteers, Escherichia-Shigella, dysbiosis]
 platform: wikibiome
 taxa_discussed: [escherichia-coli, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Metformin and Gut Microbiome Dysbiosis

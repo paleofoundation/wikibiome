@@ -8,8 +8,10 @@ journal: Frontiers in Microbiology
 year: 2017
 tags: [ketogenic-diet, multiple-sclerosis, colonic-microbiome, FISH, biofermentation, Roseburia, Faecalibacterium-prausnitzii, Bacteroides, dysbiosis]
 doi: "10.3389/fmicb.2017.01141"
+evidence_level: expert-opinion
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, faecalibacterium-prausnitzii, roseburia]
+karen_brain_primitives: [3]
 ---
 
 # Reduced Mass and Diversity of the Colonic Microbiome in Patients with Multiple Sclerosis and Their Improvement with Ketogenic Diet

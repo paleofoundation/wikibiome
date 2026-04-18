@@ -8,6 +8,7 @@ journal: Molecular Cancer
 year: 2019
 tags: [pancreatic-cancer, microbiome, microbiome-review, oral-microbiota, gut-microbiome, H-pylori, Fusobacterium, tumor-microenvironment, inflammation, metabolism, immunotherapy]
 doi: "10.1186/s12943-019-1008-0"
+evidence_level: expert-opinion
 platform: wikibiome
 taxa_discussed: [enterobacter, enterococcus, fusobacterium-nucleatum, helicobacter-pylori, porphyromonas]
 karen_brain_primitives: [5]

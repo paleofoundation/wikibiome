@@ -10,6 +10,7 @@ tags: [hypertension, blood-pressure, SCFAs, TMAO, mycobiome, Malassezia, FMT, le
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [cardiovascular-disease, chronic-kidney-disease, type-2-diabetes, obesity]
+signature_page: "[[hypertension-signature]]"
 shared_signature_metals: {cardiovascular-disease: [lead, cadmium, nickel], chronic-kidney-disease: [lead, cadmium], type-2-diabetes: [lead, cadmium, iron], obesity: [lead, cadmium, nickel]}
 shared_signature_taxa: {cardiovascular-disease: [enterobacteriaceae, roseburia-depleted, lachnospiraceae-depleted], chronic-kidney-disease: [enterobacteriaceae, lachnospiraceae-depleted], type-2-diabetes: [enterobacteriaceae, faecalibacterium-depleted, lachnospiraceae-depleted], obesity: [enterobacteriaceae, faecalibacterium-depleted, roseburia-depleted]}
 seo_target: "hypertension microbiome gut bacteria SCFAs blood pressure heavy metals"

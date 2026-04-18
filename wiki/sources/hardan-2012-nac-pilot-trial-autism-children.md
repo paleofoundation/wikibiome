@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: randomized-controlled-trial
 key_findings: ["NAC at 900mg daily", "31 males and 2 females"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

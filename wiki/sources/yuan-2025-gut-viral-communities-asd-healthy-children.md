@@ -13,6 +13,7 @@ platform: original-research
 condition: "autism spectrum disorder"
 source_pages: "pp. 1-12"
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Overview

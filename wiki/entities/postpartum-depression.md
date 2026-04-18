@@ -24,6 +24,7 @@ platform: wikibiome
 last_substantive_update: 2026-04-16
 source_count: 13
 associated_conditions: [depression, pcos, iron-deficiency-anemia]
+signature_page: "[[postpartum-depression-signature]]"
 shared_signature_metals: {depression: [zinc, copper, iron, magnesium], pcos: [copper, zinc, iron], iron-deficiency-anemia: [iron, zinc]}
 shared_signature_taxa: {depression: [faecalibacterium-depleted, bifidobacterium-depleted, lachnospiraceae-depleted], pcos: [lactobacillus-depleted, bifidobacterium-depleted]}
 seo_target: "postpartum depression zinc iron magnesium metals microbiome"

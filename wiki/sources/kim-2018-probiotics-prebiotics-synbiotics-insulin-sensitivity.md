@@ -7,6 +7,7 @@ authors: [Y. A. Kim, J. B. Keogh, P. M. Clifton]
 year: 2018
 journal: "Nutrition Research Reviews"
 doi: "10.1017/S095442241700018X"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, probiotics, prebiotics, synbiotics, insulin-sensitivity, scfa, intestinal-permeability, review]
 library_category: reviews
 platform: cureva

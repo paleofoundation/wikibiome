@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, 16S-rRNA, gut-microbiota, Faecalibacterium-p
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [faecalibacterium-prausnitzii]
+karen_brain_primitives: [3]
 ---
 
 # Uncovering Specific Taxonomic and Functional Alteration of Gut Microbiota in CKD through 16S rRNA Data

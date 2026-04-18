@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, barretts-esophagus, mendelian-randomizatio
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [eubacterium, faecalibacterium-prausnitzii, haemophilus]
+karen_brain_primitives: [3]
 ---
 
 # Investigating the causal relationship of gut microbiota with GERD and BE: a bidirectional mendelian randomization

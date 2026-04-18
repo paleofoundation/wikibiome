@@ -11,6 +11,7 @@ tags: [schizophrenia, gut-microbiome, dopamine, serotonin, BDNF, shotgun-metagen
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [alistipes, dorea, parabacteroides, roseburia]
+karen_brain_primitives: [3]
 ---
 
 # Functional Associations of the Gut Microbiome with Dopamine, Serotonin, and BDNF in Schizophrenia

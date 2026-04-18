@@ -11,6 +11,7 @@ tags: [schizophrenia, gut-microbiome, brain-structure, fMRI, MRI, Roseburia, Rum
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [akkermansia-muciniphila, faecalibacterium-prausnitzii, roseburia, ruminococcus, veillonella]
+karen_brain_primitives: [3]
 ---
 
 # The Gut Microbiome is Associated with Brain Structure and Function in Schizophrenia

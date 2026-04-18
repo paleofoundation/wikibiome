@@ -10,6 +10,7 @@ tags: [inflammatory-bowel-disease, autoimmune, gastrointestinal, iron, zinc, cop
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [ulcerative-colitis, colorectal-cancer, depression, rheumatoid-arthritis]
+signature_page: "[[crohns-disease-signature]]"
 shared_signature_metals: {ulcerative-colitis: [iron, zinc, cadmium], colorectal-cancer: [iron, zinc, cadmium], depression: [zinc, iron], rheumatoid-arthritis: [iron, zinc, copper]}
 shared_signature_taxa: {ulcerative-colitis: [escherichia-coli, bacteroides-fragilis, faecalibacterium-depleted, roseburia-depleted, lachnospiraceae-depleted], colorectal-cancer: [escherichia-coli, fusobacterium-nucleatum, bacteroides-fragilis, lachnospiraceae-depleted, faecalibacterium-depleted], depression: [faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted], rheumatoid-arthritis: [escherichia-coli, lachnospiraceae-depleted]}
 seo_target: "Crohn's disease heavy metals microbiome iron zinc"

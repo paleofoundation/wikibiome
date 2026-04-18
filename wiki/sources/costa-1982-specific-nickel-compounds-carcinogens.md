@@ -6,13 +6,14 @@ updated: 2026-04-09
 authors: [Costa M, Heck JD]
 journal: Trends in Pharmacological Sciences (TIPS)
 year: 1982
-doi: "not yet verified"  # <!-- DOI lookup needed: Trends in Pharmacological Sciences (TIPS) 1982 -->
+doi: "not yet verified"
 volume: "3:408-410"
 tags: [nickel, carcinogenesis, nickel-subsulfide, nickel-oxide, phagocytosis, cell-transformation, structure-activity, crystalline-NiS, amorphous-NiS, surface-charge, DNA-damage, foundational-paper]
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [cadmium, nickel]
 key_findings: ["Phagocytosis is the primary determinant"]
+karen_brain_primitives: [3]
 ---
 
 # Specific Nickel Compounds as Carcinogens

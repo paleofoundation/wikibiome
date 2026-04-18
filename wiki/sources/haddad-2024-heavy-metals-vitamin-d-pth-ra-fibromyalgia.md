@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Haddad R, Elbeialy A, El Sawy S, Elzomor H]
 journal: "Research Square (Preprint)"
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: Research Square (Preprint) 2024 -->
+doi: "not yet verified"
 tags: [heavy-metals, vitamin-D, parathyroid-hormone, rheumatoid-arthritis, fibromyalgia, lead, cadmium, chromium, aluminium]
 platform: wikibiome
 evidence_level: case-control
 metals_discussed: [aluminum, cadmium, chromium, copper, lead]
+karen_brain_primitives: [3, 7]
 ---
 
 # Key Claims

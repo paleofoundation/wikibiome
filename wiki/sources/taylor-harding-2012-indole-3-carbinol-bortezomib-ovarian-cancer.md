@@ -7,8 +7,10 @@ authors: [Taylor-Harding B, Agadjanian H, Nassanian H, Kwon S, Guo C, Miller BY,
 journal: British Journal of Cancer
 year: 2012
 doi: "10.1038/bjc.2011.546"
+evidence_level: animal-model
 tags: [ovarian-cancer, indole-3-carbinol, bortezomib, chemosensitization, cisplatin, carboplatin, synergy, proteasome-inhibitor]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # I3C Synergistically Sensitises Ovarian Cancer to Bortezomib

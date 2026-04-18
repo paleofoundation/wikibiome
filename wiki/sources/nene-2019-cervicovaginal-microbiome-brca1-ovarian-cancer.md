@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Nene NR, Reisel D, Leimbach A, Franchi D, Jones A, Evans I, Knapp S, Ryan A, Ghazali S, Timms JF, Paprotka T, Bjorge L, Zikan M, Cibula D, Colombo N, Widschwendter M]
 journal: The Lancet Oncology
 year: 2019
-doi: "not yet verified"  # <!-- DOI lookup needed: The Lancet Oncology 2019 -->
+doi: "not yet verified"
 tags: [ovarian-cancer, cervicovaginal-microbiome, BRCA1, Lactobacillus, 16S-rRNA, case-control, community-state-type, cancer-risk]
 platform: wikibiome
 evidence_level: case-control

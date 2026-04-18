@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Various]
 year: 2012
 journal: "Various"
-doi: "not yet verified"  # <!-- DOI lookup needed: Various 2012 -->
+doi: "not yet verified"
 tags: [type-1-diabetes, autoimmune, metabolomics, nmr, lc-ms, metabolic-pathways, biomarkers]
 library_category: original-research
 platform: cureva

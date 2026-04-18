@@ -11,6 +11,7 @@ doi: "10.3390/cancers13123045"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [aluminum, antimony, arsenic, cadmium, chromium, cobalt, copper, iron, lead, manganese, molybdenum, nickel, selenium, tin, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Metals and Breast Cancer Risk: A Prospective Study Using Toenail Biomarkers

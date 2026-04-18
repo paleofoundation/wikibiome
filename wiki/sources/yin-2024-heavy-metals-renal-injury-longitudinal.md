@@ -11,6 +11,7 @@ doi: "10.23749/mdl.v114i3.14422"
 platform: wikibiome
 evidence_level: prospective-cohort
 metals_discussed: [cadmium, chromium, lead, manganese]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

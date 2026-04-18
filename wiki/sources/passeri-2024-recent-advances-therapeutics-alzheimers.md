@@ -8,7 +8,8 @@ authors:
   - et al.
 journal: (Brain Sciences / related journal)
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: (Brain Sciences / related journal) 2024 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags:
   - Alzheimers-disease
   - therapeutics
@@ -21,6 +22,7 @@ tags:
   - neuroprotection
 platform: wikibiome
 metals_discussed: [copper, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

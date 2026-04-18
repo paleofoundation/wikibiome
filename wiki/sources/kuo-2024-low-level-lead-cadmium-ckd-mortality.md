@@ -6,10 +6,11 @@ updated: 2026-04-09
 authors: [Kuo PF, Huang YT, Chuang MH, Jiang MY]
 journal: "PLOS ONE"
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: PLOS ONE 2024 -->
+doi: "not yet verified"
 tags: [lead, cadmium, chronic-kidney-disease, mortality, NHANES, nephrotoxicity, low-level-exposure]
 platform: wikibiome
 metals_discussed: [cadmium, lead]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

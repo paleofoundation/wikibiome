@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [M. Murri, I. Leiva, J. M. Gomez-Zumaquero, F. J. Tinahones, F. Cardona, F. Soriguer, M. I. Queipo-Ortuno]
 year: 2013
 journal: "Annals of Nutrition and Metabolism"
-doi: "not yet verified"  # <!-- DOI lookup needed: Annals of Nutrition and Metabolism 2013 -->
+doi: "not yet verified"
 tags: [type-1-diabetes, autoimmune, gut-microbiota, mediterranean-diet, prevotella, children, dysbiosis, dietary-intervention]
 library_category: original-research
 platform: cureva

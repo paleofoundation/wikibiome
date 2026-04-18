@@ -11,6 +11,7 @@ doi: "10.3389/fmicb.2023.1289374"
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [enterococcus, escherichia-coli, faecalibacterium-prausnitzii, shigella, subdoligranulum, veillonella]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, mycobiome, systematic-review, Ascomycota
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [aspergillus, candida-albicans, malassezia, saccharomyces-cerevisiae]
+karen_brain_primitives: [6]
 ---
 
 # Szklenarik 2024 -- Cancer-Related Mycobiome in GI Cancers: Systematic Review

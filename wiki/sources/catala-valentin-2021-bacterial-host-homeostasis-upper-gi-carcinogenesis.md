@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Catala-Valentin AR, Mikhail S, Bernard JN, Caldwell M, Moore S, Andl CD]
 journal: Journal of Gastroenterology and Hepatobiliary Medicine
 year: 2021
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Gastroenterology and Hepatobiliary Medicine 2021 -->
+doi: "not yet verified"
 tags: [gerd, gastroesophageal-reflux, carcinogenesis, upper-gi-tract, dysbiosis, fusobacterium-nucleatum, porphyromonas-gingivalis, campylobacter-concisus, oral-microbiome, esophageal-adenocarcinoma, head-neck-cancer, smoking, alcohol, host-pathogen-interactions, biomarker]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis

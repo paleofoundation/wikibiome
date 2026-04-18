@@ -9,6 +9,7 @@ year: 2024
 doi: "10.3389/fimmu.2024.1402862"
 tags: [ovarian-cancer, phage-display, immunodiagnostics, targeted-drug-delivery, precision-medicine, peptide-libraries]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Advancements in OC Immunodiagnostics via Phage Display Technology

@@ -11,6 +11,7 @@ tags: [schizophrenia, gut-microbiome, 16S-rRNA, alpha-diversity, beta-diversity,
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [bacteroides-fragilis, blautia, clostridium, coprococcus, faecalibacterium-prausnitzii, lachnospira, megasphaera, parabacteroides, prevotella, roseburia, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # A Comparative Study to Determine the Association of Gut Microbiome with Schizophrenia in Zhejiang, China

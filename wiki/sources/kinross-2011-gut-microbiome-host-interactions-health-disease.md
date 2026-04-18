@@ -7,9 +7,11 @@ authors: [James M Kinross, Ara W Darzi, Jeremy K Nicholson]
 journal: Genome Medicine
 year: 2011
 doi: "10.1186/gm228"
+evidence_level: expert-opinion
 tags: [colon-cancer, colorectal-cancer, gut-microbiome, host-interactions, metagenomics, metabolomics, drug-metabolism, core-microbiome, IBD, obesity, precision-medicine]
 platform: wikibiome
 metals_discussed: [lead]
+karen_brain_primitives: [3]
 ---
 
 # Kinross 2011 -- Gut Microbiome-Host Interactions in Health and Disease

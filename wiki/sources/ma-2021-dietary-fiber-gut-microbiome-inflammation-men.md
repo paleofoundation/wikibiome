@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Wenjie Ma, Long H. Nguyen, Mingyang Song, Dong D. Wang, Eric A. Franzosa, Yin Cao, Amit Joshi, David A. Drew, Raaj Mehta, Kerry L. Ivey, Lisa L. Strate, Edward L. Giovannucci, Jacques Izard, Wendy Garrett, Eric B. Rimm, Curtis Huttenhower, Andrew T. Chan]
 journal: Genome Medicine
 year: 2021
-doi: "not yet verified"  # <!-- DOI lookup needed: Genome Medicine 2021 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, dietary-fiber, gut-microbiome, CRP, inflammation, Prevotella-copri, metagenomics, Clostridiales, pectin]
 platform: wikibiome
 evidence_level: prospective-cohort
 taxa_discussed: [bacteroides-fragilis, eubacterium, parabacteroides, prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Ma et al. 2021 -- Dietary Fiber, Gut Microbiome, and Chronic Systemic Inflammation

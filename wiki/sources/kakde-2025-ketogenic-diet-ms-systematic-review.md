@@ -10,6 +10,7 @@ tags: [ketogenic-diet, multiple-sclerosis, systematic-review, PRISMA, NLRP3, BDN
 doi: "10.7759/cureus.89965"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Safety and Efficacy of Ketogenic Diet in the Management of Multiple Sclerosis: A Systematic Review

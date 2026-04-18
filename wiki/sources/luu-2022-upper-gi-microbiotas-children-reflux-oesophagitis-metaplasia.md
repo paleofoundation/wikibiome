@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, pediatric, esophageal-microbiome, oral-mic
 platform: wikibiome
 evidence_level: prospective-cohort
 taxa_discussed: [prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Changes to the upper gastrointestinal microbiotas of children with reflux oesophagitis and oesophageal metaplasia

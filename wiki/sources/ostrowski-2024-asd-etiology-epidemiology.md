@@ -13,6 +13,7 @@ platform: wikibiome
 condition: "autism spectrum disorder"
 evidence_level: expert-opinion
 key_findings: ["ASD affects 1 in 100 children", "Genetic and environmental factors"]
+karen_brain_primitives: [3]
 ---
 
 # Overview

@@ -11,6 +11,7 @@ tags: [schizophrenia, immune-system, inflammation, cytokines, T-cells, B-cells, 
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [saccharomyces-cerevisiae]
+karen_brain_primitives: [3]
 ---
 
 # Immune System Abnormalities in Schizophrenia: An Integrative View and Translational Perspectives

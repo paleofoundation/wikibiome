@@ -11,6 +11,7 @@ doi: "10.3389/fcimb.2024.1452392"
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [streptococcus]
+karen_brain_primitives: [5]
 ---
 
 # Revealing the Association between East Asian Oral Microbiome and Colorectal Cancer through Mendelian Randomization and Multi-Omics Analysis

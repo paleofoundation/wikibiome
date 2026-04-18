@@ -11,6 +11,7 @@ doi: "10.7860/JCDR/2021/48341.14649"
 platform: wikibiome
 evidence_level: case-control
 metals_discussed: [zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -12,6 +12,7 @@ platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [nickel]
 key_findings: ["Open Field Test:"]
+karen_brain_primitives: [3]
 ---
 
 # Effect of Chronic Administration of Nickel on Affective and Cognitive Behavior in Male and Female Rats

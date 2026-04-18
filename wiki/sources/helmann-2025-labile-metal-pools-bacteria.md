@@ -7,6 +7,7 @@ authors: [John D. Helmann]
 year: 2025
 journal: "Biochemistry"
 doi: "10.1021/acs.biochem.4c00684"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, labile-metal-pool, ribosome, metallochaperone, iron, zinc, copper, manganese, magnesium, potassium, metal-buffering]
 library_category: reviews_mechanisms
 platform: wikibiome

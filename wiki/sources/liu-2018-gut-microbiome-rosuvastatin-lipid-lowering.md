@@ -7,9 +7,11 @@ authors: [Yinhui Liu, Xiaobo Song, Huimin Zhou, Xue Zhou, Yunlong Xia, Xin Dong,
 journal: Frontiers in Microbiology
 year: 2018
 doi: 10.3389/fmicb.2018.00530
+evidence_level: animal-model
 tags: [cardiovascular-disease, statins, rosuvastatin, hyperlipidemia, gut-microbiome, 16S-rRNA, lipid-lowering, Bacteroidetes, Firmicutes]
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, dialister, faecalibacterium-prausnitzii, lachnospiraceae]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiome Associates With Lipid-Lowering Effect of Rosuvastatin in Vivo

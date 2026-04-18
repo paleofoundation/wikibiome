@@ -12,6 +12,7 @@ source_pdf: "raw/cardiovascular disease/Comorbidities cardiovascular disease mic
 pages_read: "1-8"
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

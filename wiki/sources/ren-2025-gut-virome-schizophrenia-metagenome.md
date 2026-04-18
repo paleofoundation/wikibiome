@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 evidence_level: cross-sectional
 taxa_discussed: [akkermansia-muciniphila]
 key_findings: ["171 vOTUs differed significantly"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

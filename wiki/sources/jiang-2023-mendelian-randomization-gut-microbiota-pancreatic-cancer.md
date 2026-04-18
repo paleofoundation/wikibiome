@@ -11,6 +11,7 @@ doi: "10.1186/s12885-023-11493-y"
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

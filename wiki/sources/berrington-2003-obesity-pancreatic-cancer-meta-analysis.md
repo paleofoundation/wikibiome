@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, meta-analysis, obesity, BMI, risk-factors, epidemiolog
 doi: "10.1038/sj.bjc.6601140"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

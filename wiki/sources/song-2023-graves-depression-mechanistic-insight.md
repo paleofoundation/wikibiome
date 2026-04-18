@@ -10,6 +10,7 @@ doi: "10.3389/fendo.2023.1162445"
 tags: [hashimotos-thyroiditis, thyroid, Graves-disease, depression, neuroinflammation, gut-brain-axis, serotonin, dopamine, HPA-axis, cytokines, tryptophan, BBB-disruption, review]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [7]
 ---
 
 # Graves' Disease as a Driver of Depression: A Mechanistic Insight

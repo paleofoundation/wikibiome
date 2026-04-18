@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: cross-sectional
 taxa_discussed: [desulfovibrio]
 key_findings: ["47.27% of PPD patients responded", "Paraprevotella and Desulfovibrio", "Beta-diversity"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

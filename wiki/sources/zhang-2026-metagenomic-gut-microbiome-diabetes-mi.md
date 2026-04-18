@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, shotgun-metagenomics, type-2-diabetes, myocardial
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [bacteroides-fragilis, clostridium, enterococcus, eubacterium, lachnospiraceae, streptococcus, subdoligranulum]
+karen_brain_primitives: [3]
 ---
 
 # A Metagenomic Study of the Gut Microbiome in Patients with Type 2 Diabetes Mellitus and Myocardial Infarction

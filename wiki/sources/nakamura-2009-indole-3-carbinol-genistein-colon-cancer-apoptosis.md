@@ -10,6 +10,7 @@ doi: "10.1186/1476-4598-8-100"
 tags: [colon-cancer, colorectal-cancer, indole-3-carbinol, I3C, genistein, apoptosis, autophagy, Akt, mTOR, caspase, XIAP, survivin, synergistic, phytochemicals, HT-29]
 platform: wikibiome
 evidence_level: in-vitro
+karen_brain_primitives: [3]
 ---
 
 # Nakamura 2009 -- I3C and Genistein Synergistically Induce Apoptosis in Colon Cancer

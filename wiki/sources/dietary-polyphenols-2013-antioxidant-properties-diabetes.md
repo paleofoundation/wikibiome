@@ -7,6 +7,7 @@ authors: [Various]
 year: 2013
 journal: "Journal of Diabetes & Metabolic Disorders"
 doi: "10.1186/2251-6581-12-43"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, polyphenols, antioxidants, oxidative-stress, gut-microbiome, beta-cells, immune-balance]
 library_category: reviews
 platform: cureva

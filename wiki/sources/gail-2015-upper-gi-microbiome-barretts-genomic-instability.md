@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, barretts-esophagus, esophageal-adenocarcin
 platform: wikibiome
 evidence_level: prospective-cohort
 taxa_discussed: [helicobacter-pylori, prevotella, streptococcus, veillonella]
+karen_brain_primitives: [3]
 ---
 
 # Bacterial Composition of the Human Upper Gastrointestinal Tract Microbiome Is Dynamic and Associated with Genomic Instability in a Barrett's Esophagus Cohort

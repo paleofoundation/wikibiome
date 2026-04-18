@@ -10,6 +10,7 @@ doi: "10.1186/1471-2105-10-259"
 tags: [ovarian-cancer, metabolomics, LC-MS, support-vector-machines, biomarker-detection, mass-spectrometry, diagnostics]
 platform: wikibiome
 evidence_level: computational-prediction
+karen_brain_primitives: [3]
 ---
 
 # OC Detection from Metabolomic LC/MS Data by Support Vector Machines

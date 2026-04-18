@@ -11,6 +11,7 @@ doi: 10.1038/s41598-024-57400-8
 tags: [multiple-sclerosis, indoles, aryl-hydrocarbon-receptor, 3-IAld, mast-cells, serotonin, Tph1, EAE, gut-microbiome, tryptophan, tolerance]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # A Microbially Produced AhR Ligand Promotes a Tph1-Driven Tolerogenic Program in Multiple Sclerosis

@@ -9,6 +9,7 @@ journal: "Journal of Renal Nutrition"
 doi: "10.1053/j.jrn.2021.10.003"
 tags: [chronic-kidney-disease, CKD, diet-quality, protein-bound-uraemic-toxins, microbiome, risk-factors]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Diet Quality and Protein-Bound Uraemic Toxins in CKD

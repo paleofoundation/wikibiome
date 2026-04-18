@@ -11,6 +11,7 @@ doi: "10.1038/s41522-025-00787-7"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [actinomyces, fusobacterium-nucleatum, porphyromonas, prevotella, streptococcus, veillonella]
+karen_brain_primitives: [6]
 ---
 
 # Multiple Sclerosis Patients Exhibit Oral Dysbiosis with Decreased Early Colonizers and Lower Hypotaurine Level

@@ -11,6 +11,7 @@ doi: "10.3389/fnut.2023.1089891"
 platform: wikibiome
 evidence_level: prospective-cohort
 metals_discussed: [nickel]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims

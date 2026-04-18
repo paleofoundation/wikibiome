@@ -5,7 +5,7 @@ created: 2026-04-09
 updated: 2026-04-09
 authors: [Harithaa Anandakumar]
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: PhD Dissertation, Charite Universitatsmedizin Berlin 2024 -->
+doi: "not yet verified"
 journal: "PhD Dissertation, Charite Universitatsmedizin Berlin"
 evidence_level: expert-opinion
 sample_size: "N/A - PhD dissertation"

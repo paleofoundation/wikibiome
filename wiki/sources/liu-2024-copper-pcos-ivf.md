@@ -12,6 +12,7 @@ platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [copper, iron]
 key_findings: ["Serum copper was significantly elevated"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

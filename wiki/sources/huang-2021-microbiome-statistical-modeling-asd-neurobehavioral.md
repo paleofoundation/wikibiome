@@ -15,6 +15,7 @@ source_pages: "pp. 1-8"
 evidence_level: case-control
 taxa_discussed: [akkermansia-muciniphila, escherichia-coli, shigella]
 key_findings: ["Enterobacteriaceae", "*Akkermansia"]
+karen_brain_primitives: [3]
 ---
 
 # Overview

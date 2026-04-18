@@ -10,6 +10,7 @@ doi: "10.1186/s13287-016-0439-4"
 tags: [colon-cancer, colorectal-cancer, bile-acids, cancer-stem-cells, DCA, LCA, Wnt-beta-catenin, M3R, EGFR, EMT, drug-resistance, colonospheres]
 platform: wikibiome
 evidence_level: in-vitro
+karen_brain_primitives: [3]
 ---
 
 # Farhana 2016 -- Bile Acid: A Potential Inducer of Colon Cancer Stem Cells

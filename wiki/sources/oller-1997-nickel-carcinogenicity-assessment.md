@@ -11,6 +11,7 @@ doi: "10.1006/taap.1996.8075"
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 # Carcinogenicity Assessment of Selected Nickel Compounds

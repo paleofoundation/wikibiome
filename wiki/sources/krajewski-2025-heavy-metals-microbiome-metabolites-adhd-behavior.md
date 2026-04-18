@@ -7,6 +7,7 @@ authors: [Kristin Krajewski]
 year: 2025
 journal: "Scientific Reports"
 doi: "10.1038/s41598-025-00680-5"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, heavy-metals, microbiome-metabolites, catecholamines, ADHD, executive-function, social-behaviour, arsenic, cadmium, lead, mercury, phenylalanine, tyrosine, path-analysis]
 library_category: environmental
 platform: urine

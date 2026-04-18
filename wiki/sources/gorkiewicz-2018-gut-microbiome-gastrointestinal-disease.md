@@ -7,6 +7,7 @@ authors: [Gorkiewicz G, Moschen A]
 journal: Virchows Archiv
 year: 2018
 doi: "10.1007/s00428-017-2277-x"
+evidence_level: expert-opinion
 tags: [gerd, gastroesophageal-reflux, gut-microbiome, spatial-organization, dysbiosis, inflammation, carcinogenesis, fecal-microbiota-transplantation, SCFAs, bile-acids, mucus-layer, esophageal-microbiome, gastric-microbiome, review]
 platform: wikibiome
 taxa_discussed: [akkermansia-muciniphila, lactobacillus, streptococcus, veillonella]

@@ -13,6 +13,7 @@ pages_read: "1-6"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [lactobacillus, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

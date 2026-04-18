@@ -10,6 +10,7 @@ doi: "10.1038/s41398-025-03239-0"
 tags: [schizophrenia, gut-virome, bacteriome, metabolome, multi-omics, transkingdom-interactions, Coprobacillaceae, Enterococcaceae, Suoliviridae, Rountreeviridae, mediation-analysis, bile-acids, eicosanoids, SCFA, dysbiosis]
 platform: wikibiome
 taxa_discussed: [aspergillus]
+karen_brain_primitives: [3]
 ---
 
 # Why This Paper Matters

@@ -32,6 +32,7 @@ keystone_criteria_met:
 why_keystone: "Comprehensive review of cadmium's toxicity mechanisms—oxidative stress, mitochondrial damage, metallothionein dysregulation, and carcinogenicity. WikiBiome relies on this for understanding how cadmium burden integrates with dysbiotic inflammation to drive multi-organ pathology across kidney disease, cancer, and metabolic conditions."
 evidence_level: expert-opinion
 metals_discussed: [cadmium, lead, nickel, selenium, zinc]
+karen_brain_primitives: [3]
 ---
 
 # The Effects of Cadmium Toxicity

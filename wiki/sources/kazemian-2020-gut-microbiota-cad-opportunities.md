@@ -7,6 +7,7 @@ authors: [Negin Kazemian, Morteza Mahmoudi, Frank Halperin, Joseph C. Wu, Sepide
 journal: Microbiome
 year: 2020
 doi: "10.1186/s40168-020-00821-0"
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, gut-microbiota, cholesterol, bile-acids, coprostanol, SCFAs, TMAO, LPS, immune-response, demographics, aging, sex-differences, ethnicity, coronary-artery-disease, review, immune-response, viral-microbiota]
 source_pdf: "raw/cardiovascular disease/Immune response cardiovascular disease microbiome/s40168-020-00821-0.pdf"
 pages_read: "1-8"

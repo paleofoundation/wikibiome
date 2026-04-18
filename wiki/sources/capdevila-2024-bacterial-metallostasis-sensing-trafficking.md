@@ -7,6 +7,7 @@ authors: [Daiana A. Capdevila, Johnma J. Rondon, Katherine A. Edmonds, Joseph S.
 year: 2024
 journal: "Chemical Reviews"
 doi: "10.1021/acs.chemrev.4c00132"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, metallostasis, metallosensor, riboswitch, metallochaperone, metalloproteome, Irving-Williams-series, zinc, copper, iron, manganese, nickel]
 library_category: reviews_mechanisms
 platform: wikibiome

@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: computational-prediction
 metals_discussed: [copper, iron, zinc]
 key_findings: ["Class Alphaproteobacteria", "Family Clostridialesvadinbb60group", "Inflammatory factors CCL5 and CCL3"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, gut-microbiota, bioinformatics, Ralstonia, P
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [porphyromonas]
+karen_brain_primitives: [3]
 ---
 
 # Changes in Gut Microbial Community upon CKD

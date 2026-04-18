@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Althomali RH, Abbood MA, Saleh EAM, Djuraeva L, Abdullaeva BS, Habash RT, Alhassan MS, Alawady AHR, Alsaalamy AH, Lari Najafi M]
 journal: Environmental Sciences Europe
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: Environmental Sciences Europe 2024 -->
+doi: "not yet verified"
 evidence_level: systematic-review-meta-analysis
 sample_size: "n=1,828,126 (across 8 studies)"
 tags: [heavy-metals, neurocognitive-function, cadmium, mercury, systematic-review, adults, cognitive-decline]

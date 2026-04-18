@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, intratumoral-microbiome, metabolomics, Pseudomonas, am
 doi: "10.1186/s12943-025-02458-9"
 platform: wikibiome
 taxa_discussed: [acinetobacter, pseudomonas-aeruginosa]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

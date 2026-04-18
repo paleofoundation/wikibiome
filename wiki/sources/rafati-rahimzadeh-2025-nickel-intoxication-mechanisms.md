@@ -12,6 +12,7 @@ tags: [nickel, intoxication, chelation-therapy, carcinogenicity, oxidative-stres
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [iron, nickel, zinc]
+karen_brain_primitives: [3, 5]
 ---
 
 # Nickel; A Metal with Threats to Human Health, Focusing on Its Intoxication Mechanisms

@@ -10,7 +10,7 @@ institution: "The Third Affiliated Hospital of Sun Yat-sen University, Guangzhou
 orcid: "not yet verified"
 year: 2025
 journal: "Current Neuropharmacology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Current Neuropharmacology 2025 -->
+doi: "not yet verified"
 pmid: "not yet verified"
 evidence_level: expert-opinion
 sample_size: "N/A"

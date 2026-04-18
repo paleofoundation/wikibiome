@@ -7,6 +7,7 @@ authors: [Chunguang Liu, Junhong Wang, Lei Lei, Liping Li, Xingxing Yuan]
 year: 2025
 journal: "Frontiers in Immunology"
 doi: "10.3389/fimmu.2025.1660226"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, gut-microbiota-therapy, prebiotics, probiotics, FMT, phage-therapy, mini-review]
 platform: wikibiome
 karen_brain_primitives: [5]

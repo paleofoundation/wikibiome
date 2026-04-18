@@ -10,6 +10,7 @@ doi: 10.3389/fcimb.2021.708088
 tags: [cardiovascular-disease, CVD, carotid-atherosclerosis, gut-microbiome, urine-metabolome, trans-omics, integrative-omics, biomarker, network-analysis, shotgun-metagenomics, Chinese-cohort]
 platform: wikibiome
 taxa_discussed: [clostridium, eubacterium, faecalibacterium-prausnitzii, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Network of Interactions Between Gut Microbiome, Host Biomarkers, and Urine Metabolome in Carotid Atherosclerosis

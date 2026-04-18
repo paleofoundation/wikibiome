@@ -7,6 +7,7 @@ authors: [Various]
 year: 2020
 journal: "European Journal of Nutrition"
 doi: "10.1007/s00394-020-02282-5"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, scfa, dietary-fiber, gut-microbiome, insulin-resistance, intestinal-permeability, dysbiosis]
 library_category: reviews
 platform: cureva

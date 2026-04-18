@@ -12,6 +12,7 @@ platform: wikibiome
 evidence_level: randomized-controlled-trial
 metals_discussed: [magnesium, zinc]
 key_findings: ["No significant association"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

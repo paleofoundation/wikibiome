@@ -7,6 +7,7 @@ authors: [Md. Mominur Rahman, Fahadul Islam, Md. Harun-Or-Rashid, Abdullah Al Ma
 journal: Frontiers in Cellular and Infection Microbiology
 year: 2022
 doi: 10.3389/fcimb.2022.903570
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, CVD, gut-microbiome, TMAO, SCFAs, atherosclerosis, heart-failure, coronary-artery-disease, review, therapeutic-regulation, bile-acids]
 platform: wikibiome
 metals_discussed: [cadmium, lead]

@@ -9,7 +9,9 @@ journal: Nature Reviews Disease Primers
 year: 2016
 tags: [pancreatic-cancer, systematic-review, epidemiology, PDAC, tumor-microenvironment, KRAS, risk-factors]
 doi: "10.1038/nrdp.2016.22"
+evidence_level: expert-opinion
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

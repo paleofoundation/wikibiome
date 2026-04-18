@@ -7,6 +7,7 @@ authors: [Jiang N, Gao Y, Liu Y, Zhang H, Li Y, Song Q, Wang L, Chen X]
 journal: Frontiers in Immunology
 year: 2023
 doi: "10.3389/fimmu.2023.1218678"
+evidence_level: expert-opinion
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, metabolomics, short-chain-fatty-acids, bile-acids, tryptophan, SCFA, butyrate, dysbiosis, immune-regulation, gut-thyroid-axis, metabolites]
 platform: wikibiome
 metals_discussed: [copper, iron, selenium, zinc]

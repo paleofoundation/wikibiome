@@ -7,6 +7,7 @@ authors: [L. Palkova, A. Tomova, G. Repiska, K. Babinska, B. Bokor, I. Mikula, G
 year: 2021
 journal: "Scientific Reports"
 doi: "10.1038/s41598-021-86378-w"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, 16S-rRNA, primer-bias, microbiome-methodology, Bacteroidetes, Firmicutes]
 library_category: "16S rRNA sequencing"
 platform: sequencing
@@ -14,6 +15,7 @@ condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
 taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium, clostridium, corynebacterium, lactobacillus, prevotella]
 key_findings: ["Primer set#1"]
+karen_brain_primitives: [3]
 ---
 
 # Overview

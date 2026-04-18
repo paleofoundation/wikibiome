@@ -7,6 +7,7 @@ authors: [Joris H. J. van Sadelhoff, Paula Perez Pardo, Jiangbo Wu, Johan Garsse
 year: 2019
 journal: "Frontiers in Endocrinology"
 doi: "10.3389/fendo.2019.00247"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, amino-acids, gut-immune-brain-axis, mTOR, nutritional-intervention, gut-barrier, microbiota-composition, rapamycin]
 library_category: microbiome
 platform: cureva

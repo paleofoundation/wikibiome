@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Khan F, Rizvi M, Shukla I, Malik A]
 journal: Biology and Medicine
 year: 2011
-doi: "not yet verified"  # <!-- DOI lookup needed: Biology and Medicine 2011 -->
+doi: "not yet verified"
 volume: "3(2) Special Issue:313-319"
 tags: [Enterobacteriaceae, bacterial-identification, clinical-microbiology, biochemical-tests, lactose-fermenters, gram-negative-bacteria, Escherichia-coli, Klebsiella, Salmonella, Shigella, Proteus, Citrobacter, diagnostic-algorithm]
 platform: wikibiome

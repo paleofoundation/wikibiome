@@ -10,6 +10,7 @@ tags: [diet, multiple-sclerosis, fatty-acids, PUFA, saturated-fat, Mediterranean
 doi: "10.1007/s13668-018-0236-z"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # The Role of Diet in Multiple Sclerosis: Mechanistic Connections and Current Evidence

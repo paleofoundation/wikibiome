@@ -7,6 +7,7 @@ authors: [Paul D. Juarez, Darryl B. Hood, Min-Ae Song, Aramandla Ramesh]
 journal: Frontiers in Public Health
 year: 2020
 doi: 10.3389/fpubh.2020.00379
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, CVD, exposome, environmental-exposure, heavy-metals, air-pollution, epigenomics, racial-disparities, genomics, transcriptomics, metabolomics, review]
 platform: wikibiome
 metals_discussed: [arsenic, cadmium, lead, mercury]

@@ -7,6 +7,7 @@ authors: [Susannah L. Parkhill, Eachan O. Johnson]
 year: 2024
 journal: "Biochemical Journal"
 doi: "10.1042/BCJ20220062"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, antimicrobial-resistance, drug-discovery, chemical-genomics, CRISPRi, essentiality, gene-interactions, target-deconvolution, resistance-evolution]
 library_category: reviews_mechanisms
 platform: wikibiome

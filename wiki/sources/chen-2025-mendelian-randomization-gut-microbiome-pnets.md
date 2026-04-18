@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, mendelian-randomization, pNETs, neuroendocrine-tumors,
 doi: "10.1007/s12672-025-02761-3"
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

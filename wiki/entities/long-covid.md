@@ -10,6 +10,7 @@ tags: [long-covid, post-acute-sequelae, gut-lung-axis, gut-brain-axis, SCFA-depl
 platform: wikibiome
 last_substantive_update: 2026-04-15
 associated_conditions: [depression, chronic-kidney-disease, alzheimers-disease]
+signature_page: "[[long-covid-signature]]"
 shared_signature_metals: {depression: [iron-dysregulated, zinc], chronic-kidney-disease: [iron-sequestered], alzheimers-disease: [iron, zinc]}
 shared_signature_taxa: {depression: [faecalibacterium-prausnitzii-depleted, roseburia-depleted, bifidobacterium-depleted], chronic-kidney-disease: [enterobacteriaceae-enriched, faecalibacterium-depleted], alzheimers-disease: [faecalibacterium-depleted, enterobacteriaceae]}
 seo_target: "long COVID microbiome gut dysbiosis persistent symptoms fatigue"

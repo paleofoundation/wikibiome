@@ -11,6 +11,7 @@ doi: "10.1186/s12879-022-07788-3"
 platform: wikibiome
 evidence_level: case-control
 metals_discussed: [iron]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

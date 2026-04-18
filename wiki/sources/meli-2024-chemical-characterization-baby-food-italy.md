@@ -10,6 +10,7 @@ tags: [baby-food, trace-elements, toxic-metals, nickel, aluminum, infant-formula
 doi: "10.1371/journal.pone.0289126"
 platform: wikibiome
 metals_discussed: [aluminum, mercury, nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

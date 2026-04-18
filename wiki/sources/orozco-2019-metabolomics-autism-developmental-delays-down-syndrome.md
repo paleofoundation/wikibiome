@@ -7,11 +7,13 @@ authors: [Jennie Sotelo Orozco, Irva Hertz-Picciotto, Leonard Abbeduto, Carolyn 
 year: 2019
 journal: "Translational Psychiatry"
 doi: "10.1038/s41398-019-0578-3"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, metabolomics, Down-syndrome, developmental-delay, one-carbon-metabolism, NMR, amino-acids, CHARGE-study, plasma-metabolites]
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["Significant associations between 11 plasma metabolites", "Similar perturbation in one-carbon metabolism pathways", "Energy-related tricarboxylic acid cycle"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

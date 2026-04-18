@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, young-onset-CRC, m
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [bacteroides-fragilis, clostridium, escherichia-coli, fusobacterium-nucleatum, peptostreptococcus]
+karen_brain_primitives: [4]
 ---
 
 # Qin 2024 -- Consistent Signatures in Human Gut Microbiome of Old- and Young-Onset CRC

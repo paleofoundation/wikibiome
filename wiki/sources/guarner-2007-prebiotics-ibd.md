@@ -8,6 +8,7 @@ journal: British Journal of Nutrition
 year: 2007
 tags: [crohns-disease, IBD, prebiotics, inulin, oligofructose, lactulose, microbiota, SCFAs, inflammation, animal-models]
 doi: "10.1017/S0007114507832958"
+evidence_level: animal-model
 platform: wikibiome
 metals_discussed: [iron, zinc]
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, faecalibacterium-prausnitzii, lactobacillus]

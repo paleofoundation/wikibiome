@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: cross-sectional
 metals_discussed: [iron, magnesium, zinc]
 key_findings: ["PPD prevalence", "Higher MIND diet adherence"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -10,6 +10,7 @@ tags: [infant-formula, food-safety, aluminum, arsenic, tin, cadmium, lead, mercu
 doi: "10.3390/ijerph191811178"
 platform: wikibiome
 metals_discussed: [aluminum, arsenic, cadmium, lead, mercury, tin, uranium]
+karen_brain_primitives: [3]
 ---
 
 # Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil

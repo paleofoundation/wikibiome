@@ -76,7 +76,7 @@ In a case report of FMT capsule treatment for MS, *Phocaeicola* appeared from 0%
 
 - [[bacteroides-vulgatus]] -- the former classification; literature must be reinterpreted
 - [[mediterraneibacter]] -- co-enriched in PCOS FMT microbiota
-- [[polycystic-ovary-syndrome]] -- causal FMT evidence for PCOS phenotype transfer
+- [[pcos]] -- causal FMT evidence for PCOS phenotype transfer
 - [[type-2-diabetes]] -- disease-discriminating taxon
 - [[multiple-sclerosis]] -- rapid colonizer after FMT
 - [[iron]] -- TonB-dependent iron acquisition

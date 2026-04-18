@@ -10,6 +10,7 @@ doi: 10.3389/fneur.2017.00577
 tags: [multiple-sclerosis, meta-analysis, disease-modifying-therapy, DMT, age, disability-progression, clinical-trials, EDSS]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Meta-analysis of the Age-Dependent Efficacy of Multiple Sclerosis Treatments

@@ -8,8 +8,10 @@ journal: "International Journal of Environmental Research and Public Health"
 year: 2020
 tags: [female-infertility, lead, cadmium, NHANES, reproductive-health, blood-metals]
 doi: "10.5772/intechopen.89462"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [arsenic, cadmium, lead]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

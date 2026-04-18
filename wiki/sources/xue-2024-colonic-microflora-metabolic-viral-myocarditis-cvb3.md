@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, viral-microbiota, coxsackievirus-B3, acute-viral-
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [bilophila, escherichia-coli, lactobacillus, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Altered Colonic Microflora and Its Metabolic Profile in Mice with Acute Viral Myocarditis Induced by Coxsackievirus B3

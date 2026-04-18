@@ -10,6 +10,7 @@ doi: "10.1038/s41598-025-06620-7"
 tags: [gerd, gastroesophageal-reflux, environmental-exposure, smoking, particulate-matter, air-pollution, esophagitis, barretts-esophagus, esophageal-adenocarcinoma, peptic-ulcer, gastric-cancer, meta-analysis, systematic-review, inhalational-exposure]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Gastroesophageal disease risk and inhalational exposure: a systematic review and meta-analysis

@@ -10,6 +10,7 @@ tags: [crohns-disease, IBD, antidepressants, anxiety, depression, drug-repurposi
 doi: "10.1097/MIB.0000000000001059"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

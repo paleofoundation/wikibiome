@@ -11,6 +11,7 @@ tags: [hashimotos-thyroiditis, thyroid, microbiome-derived-metabolites, SCFAs, b
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [bifidobacterium]
+karen_brain_primitives: [5]
 ---
 
 # Local and Systemic Effects of Microbiome-Derived Metabolites

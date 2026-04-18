@@ -10,6 +10,7 @@ doi: "10.1186/s12885-015-1891-8"
 tags: [ovarian-cancer, phage-display, peptide, SWQIGGN, tumor-suppression, cell-adhesion, invasion, metastasis]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # Phage Display Screening Identifies Novel Peptide to Suppress Ovarian Cancer

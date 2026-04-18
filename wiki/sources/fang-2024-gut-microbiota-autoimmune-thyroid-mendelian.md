@@ -11,6 +11,7 @@ doi: "10.3389/fmicb.2024.1443643"
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium]
+karen_brain_primitives: [3]
 ---
 
 # Gut microbiota and autoimmune thyroid disease: a bidirectional Mendelian randomization study and mediation analysis

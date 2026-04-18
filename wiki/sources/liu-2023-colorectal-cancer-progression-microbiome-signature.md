@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, microbiome-signature, CRC-progression, s
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [alistipes, citrobacter, corynebacterium, faecalibacterium-prausnitzii, parabacteroides, proteus, roseburia, ruminococcus]
+karen_brain_primitives: [5]
 ---
 
 # Liu 2023 -- CRC Progression-Associated Intestinal Microbiome and Predictive Signature

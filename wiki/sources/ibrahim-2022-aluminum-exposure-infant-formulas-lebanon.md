@@ -10,6 +10,7 @@ tags: [aluminum, infant-formula, baby-food, risk-assessment, Lebanon, FAAS, diet
 doi: "10.3390/foods11091177"
 platform: wikibiome
 metals_discussed: [aluminum]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

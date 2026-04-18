@@ -10,6 +10,7 @@ doi: "10.1038/s41598-017-11237-6"
 tags: [colon-cancer, colorectal-cancer, microbiome-signature, consensus-molecular-subtypes, CMS, Fusobacterium-hwasooki, Porphyromonas-gingivalis, oral-pathogens, RNA-seq, Kraken]
 platform: wikibiome
 taxa_discussed: [fusobacterium-nucleatum, porphyromonas, prevotella, treponema]
+karen_brain_primitives: [3]
 ---
 
 # Purcell 2017 -- Distinct Gut Microbiome Patterns Associate with CMS Subtypes of CRC

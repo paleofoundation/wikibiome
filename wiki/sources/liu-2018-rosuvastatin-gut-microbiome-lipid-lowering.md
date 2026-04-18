@@ -7,9 +7,11 @@ authors: [Yinhui Liu, Xiaobo Song, Huimin Zhou, Xue Zhou, Yunlong Xia, Xin Dong,
 journal: Frontiers in Microbiology
 year: 2018
 doi: "10.3389/fmicb.2018.00530"
+evidence_level: animal-model
 tags: [colon-cancer, colorectal-cancer, statins, rosuvastatin, gut-microbiome, hyperlipidemia, 16S-rRNA, lipid-metabolism, Firmicutes, Fusobacteria, LDL-C, alpha-diversity]
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, dialister, fusobacterium-nucleatum, lactobacillus]
+karen_brain_primitives: [3]
 ---
 
 # Liu 2018 -- Gut Microbiome Associates With Rosuvastatin Lipid-Lowering Effect

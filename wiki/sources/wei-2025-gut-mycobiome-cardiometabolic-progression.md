@@ -7,6 +7,7 @@ authors: [Xiaoyu Wei, Zixin Guo, Jingyang Wang, Dan Gao, Qiang Xu, Shengyu Hua]
 journal: Frontiers in Microbiology
 year: 2025
 doi: "10.3389/fmicb.2025.1659654"
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, mycobiome, fungi, Candida, Saccharomyces, Malassezia, cardiometabolic-disease, obesity, diabetes, atherosclerosis, hypertension, heart-failure, fungal-dysbiosis, fungal-metabolites]
 source_pdf: "raw/cardiovascular disease/Mycobiome cardiovascular disease/Gut mycobiome in cardiometabolic disease progression- current evidence and future directions.pdf"
 pages_read: "1-8"

@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Isabella Williams, Jacob S Tuckerman, Daniel I Peters, Madisen Bangs, Emily Williams, Iris J Shin, Justin R Kaspar, Isaac Cann]
 year: 2025
 journal: "Applied and Environmental Microbiology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Applied and Environmental Microbiology 2025 -->
+doi: "not yet verified"
 pmcid: "PMC11921374"
 tags: [mismetallation, metal-homeostasis, hydrogen-peroxide, oxidative-stress, streptococcus-mitis, streptococcus-mutans, oral-microbiome, biofilm, iron-sulfur-clusters, probiotic, SpxB, pyruvate-oxidase]
 library_category: streptococcus_staphylococcus

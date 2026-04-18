@@ -11,6 +11,7 @@ doi: "10.3389/fnut.2023.1273976"
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

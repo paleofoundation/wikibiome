@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Cuipeng Zhu, Kaiqi Li, Xiao-Xu Peng, Tong-Jia Yao, Zi-Yu Wang, Ping Hu, Demin Cai, Hao-Yu Liu]
 journal: Frontiers in Immunology
 year: 2022
-doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Immunology 2022 -->
+doi: "not yet verified"
 tags: [colon-cancer, berberine, drug-repurposing, ulcerative-colitis, NF-kB, AMPK, Wnt-beta-catenin, gut-microbiota, inflammation, Fusobacterium-nucleatum, macrophage-polarization, colorectal-cancer]
 platform: wikibiome
 evidence_level: expert-opinion

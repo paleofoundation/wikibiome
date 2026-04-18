@@ -7,11 +7,13 @@ authors: [Ana Larroya, Jorge Pantoja, Pilar Codoner-Franch, Maria Carmen Cenit]
 year: 2021
 journal: "Frontiers in Pediatrics"
 doi: "10.3389/fped.2021.705859"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, precision-nutrition, gut-microbiome, neurodevelopment, dietary-interventions, brain-gut-axis, exposome, microbiome-signatures]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["Mental health", "Diet and gut microbiota", "Nutritional deficiencies and gut microbiota alterations"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

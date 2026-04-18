@@ -11,6 +11,7 @@ tags: [schizophrenia, mendelian-randomization, gut-microbiota, causal-inference,
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [clostridium]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiota and Psychiatric Disorders: A Two-Sample Mendelian Randomization Study

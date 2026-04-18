@@ -14,6 +14,7 @@ platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [campylobacter-jejuni, candida-albicans, shigella]
 key_findings: ["Phenylalanine"]
+karen_brain_primitives: [6]
 ---
 
 # Key Claims

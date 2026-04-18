@@ -7,6 +7,7 @@ authors: [Kristyna Fiedorova, Matej Radvansky, Eva Nemcova, Hana Grombiriikova, 
 journal: Frontiers in Microbiology
 year: 2019
 doi: 10.3389/fmicb.2019.00821
+evidence_level: animal-model
 tags: [cardiovascular-disease, CVD, DNA-extraction, methods, fungal-microbiota, bacterial-microbiota, mycobiome, 16S-rRNA, ITS, IHMS, methodology]
 platform: wikibiome
 karen_brain_primitives: [6]

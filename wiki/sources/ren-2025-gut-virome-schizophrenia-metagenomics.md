@@ -11,6 +11,7 @@ tags: [schizophrenia, virome, gut-virome, bacteriophage, Siphoviridae, Flandersv
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [akkermansia-muciniphila]
+karen_brain_primitives: [3]
 ---
 
 # Metagenome-Based Characterization of the Gut Virome in Patients with Schizophrenia

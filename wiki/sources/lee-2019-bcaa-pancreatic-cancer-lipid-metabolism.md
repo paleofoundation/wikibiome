@@ -11,6 +11,7 @@ doi: "10.1038/s12276-019-0350-z"
 platform: wikibiome
 evidence_level: in-vitro
 metals_discussed: [iron]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

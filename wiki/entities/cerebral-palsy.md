@@ -12,6 +12,7 @@ platform: wikibiome
 seo_target: "cerebral palsy microbiome gut brain axis preterm infant"
 wikipedia_differentiation: "NEC-to-CP pathway via TLR4/LPS-mediated microglial activation causing white matter injury in 20% of NEC survivors, Klebsiella overgrowth as predictive biomarker for brain injury, and oral-gut inflammatory axis with 96% periodontitis prevalence in CP children"
 associated_conditions: [necrotizing-enterocolitis, epilepsy]
+signature_page: "[[cerebral-palsy-signature]]"
 shared_signature_metals: {necrotizing-enterocolitis: [iron-depleted, zinc-depleted]}
 shared_signature_taxa: {necrotizing-enterocolitis: [klebsiella-enriched, bifidobacterium-depleted, enterococcus-enriched], epilepsy: [faecalibacterium-depleted]}
 ---

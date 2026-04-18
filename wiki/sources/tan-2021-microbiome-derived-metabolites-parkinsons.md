@@ -7,6 +7,7 @@ authors: [Ai Huey Tan, Shen Yang Lim, Anthony E Lang]
 year: 2021
 journal: "Molecular Neurodegeneration"
 doi: "10.1007/s12035-021-02375-0"
+evidence_level: expert-opinion
 tags: [parkinsons-disease, microbial-metabolites, microbiome-derived-metabolites, SCFA, tryptophan, bile-acids, p-cresol, gut-brain-axis]
 library_category: metabolites
 platform: both

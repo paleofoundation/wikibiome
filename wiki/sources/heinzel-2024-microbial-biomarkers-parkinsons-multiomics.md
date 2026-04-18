@@ -7,6 +7,7 @@ authors: [Sebastian Heinzel, Stefano Romano, Arjan Hillebrand]
 year: 2024
 journal: "npj Parkinson's Disease"
 doi: "10.1038/s41531-024-00802-2"
+evidence_level: prospective-cohort
 tags: [parkinsons-disease, microbial-biomarkers, multi-omics, metabolomics, metagenomics, diagnostic-panel, early-detection]
 library_category: signatures
 platform: both

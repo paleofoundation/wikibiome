@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Lei HL, Wei HJ, Ho HY, Liao KW, Chien LC]
 journal: "BMC Public Health"
 year: 2015
-doi: "not yet verified"  # <!-- DOI lookup needed: BMC Public Health 2015 -->
+doi: "not yet verified"
 tags: [female-infertility, lead, cadmium, arsenic, Chinese-herbal-medicine, Taiwan, reproductive-health]
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [arsenic, cadmium, lead]
+karen_brain_primitives: [3, 7]
 ---
 
 # Key Claims

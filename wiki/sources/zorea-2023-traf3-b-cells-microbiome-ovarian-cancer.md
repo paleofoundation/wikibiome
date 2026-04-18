@@ -10,6 +10,7 @@ doi: "10.1186/s13046-023-02680-7"
 tags: [ovarian-cancer, TRAF3, B-cells, microbiome, IgA, immune-response, BRCA1, tumor-immunity]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # TRAF3 Suppression Encourages B Cell Recruitment in Microbiome-Intact OC Mice

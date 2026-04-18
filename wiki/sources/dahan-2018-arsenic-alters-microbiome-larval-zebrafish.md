@@ -8,6 +8,7 @@ journal: Frontiers in Microbiology
 year: 2018
 tags: [arsenic, zebrafish, microbiome, dysbiosis, integrons, antimicrobial-resistance, heavy-metals, 16S-rRNA]
 doi: "10.3389/fmicb.2018.01323"
+evidence_level: animal-model
 platform: wikibiome
 metals_discussed: [arsenic]
 karen_brain_primitives: [1]

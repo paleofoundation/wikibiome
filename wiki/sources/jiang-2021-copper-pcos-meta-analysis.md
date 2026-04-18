@@ -11,6 +11,7 @@ doi: "10.3346/jkms.2021.36.15.e120"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [copper, zinc]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims
@@ -41,7 +42,7 @@ metals_discussed: [copper, zinc]
 - [[pcos]]
 - Provides the strongest pooled evidence for elevated [[copper]] in PCOS, supporting individual findings in [[smovrsnik-2025-trace-elements-pcos]], [[kurdoglu-2012-trace-elements-pcos]], and [[liu-2024-copper-pcos-ivf]]
 - Identifies [[kirmizi-2020-heavy-metals-pcos]] as the sole contradictory study driving heterogeneity
-- Cu's estrogen-like properties connect to the broader theme of metals as [[endocrine disruptors]] relevant across PCOS and potentially [[autism-spectrum-disorder|autism spectrum disorders]]
+- Cu's estrogen-like properties connect to the broader theme of metals as [[endocrine-disruptors|endocrine disruptors]] relevant across PCOS and potentially [[autism-spectrum-disorder|autism spectrum disorders]]
 - The ROS/oxidative stress mechanism aligns with [[kirmizi-2020-heavy-metals-pcos]] findings on TAS/TOS/SOD abnormalities in PCOS
 - Complements the more recent and larger study by [[liu-2024-copper-pcos-ivf]] which confirmed elevated Cu in PCOS with n=766
 - The Cu/Zn ratio discussed connects to [[zinc]] deficiency themes seen across both PCOS and ASD literatures

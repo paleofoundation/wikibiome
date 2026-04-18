@@ -11,6 +11,7 @@ tags: [systemic-sclerosis, gut-microbiome, plasma-metabolome, Mendelian-randomiz
 platform: wikibiome
 evidence_level: mendelian-randomization
 taxa_discussed: [lachnospiraceae, prevotella]
+karen_brain_primitives: [5]
 ---
 
 # The Effect of Gut Microbiome and Plasma Metabolome on Systemic Sclerosis: A Bidirectional Two-Sample Mendelian Randomization Study

@@ -13,6 +13,7 @@ authors:
 year: 2024
 journal: Brain Research Bulletin
 doi: 10.1016/j.brainresbull.2024.111059
+evidence_level: expert-opinion
 tags:
   - autism
   - etiology

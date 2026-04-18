@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Arshad M, Riaz N, Bashir R, Irfan S, Khan SY, Tahir HM]
 journal: "Research Developments in Medicine and Medical Science Vol. 7"
 year: 2023
-doi: "not yet verified"  # <!-- DOI lookup needed: Research Developments in Medicine and Medical Science Vol. 7 2023 -->
+doi: "not yet verified"
 evidence_level: case-control
 sample_size: "n=99 (approx.)"
 tags: [rheumatoid-arthritis, copper, zinc, lead, cobalt, nickel, heavy-metals, serum-levels]

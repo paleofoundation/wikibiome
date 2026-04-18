@@ -11,6 +11,7 @@ doi: "10.1038/srep44377"
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [akkermansia-muciniphila, alloprevotella, clostridium, eubacterium, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Gut Dysbiosis and Neuroimmune Responses to Brain Infection with TMEV

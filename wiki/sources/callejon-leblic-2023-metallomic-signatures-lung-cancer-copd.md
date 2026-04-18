@@ -10,6 +10,7 @@ tags: [metallomics, lung-cancer, COPD, biomarkers, ICP-MS, nickel, arsenic, cadm
 doi: "10.3390/ijms241814250"
 platform: wikibiome
 metals_discussed: [aluminum, arsenic, cadmium, nickel, selenium]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

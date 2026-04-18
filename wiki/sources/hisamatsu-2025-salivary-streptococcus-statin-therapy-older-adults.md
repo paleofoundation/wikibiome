@@ -11,6 +11,7 @@ tags: [statins, salivary-microbiome, Streptococcus, oral-microbiome, drug-microb
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [streptococcus]
+karen_brain_primitives: [6]
 ---
 
 # Alteration of Salivary Streptococcus is Associated with Statin Therapy in Older Adults: A Cohort Study

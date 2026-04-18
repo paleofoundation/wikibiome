@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, gut-microbiota, CKD-subtypes, Klebsiella, Ak
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [akkermansia-muciniphila, klebsiella-pneumoniae]
+karen_brain_primitives: [3]
 ---
 
 # Compositional and Functional Imbalance of Gut Microbiota in CKD

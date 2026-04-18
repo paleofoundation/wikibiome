@@ -12,7 +12,7 @@ authors:
   - Lingbin Liu
 journal: International Journal of Molecular Sciences
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: International Journal of Molecular Sciences 2024 -->
+doi: "not yet verified"
 tags:
   - iron
   - iron-homeostasis

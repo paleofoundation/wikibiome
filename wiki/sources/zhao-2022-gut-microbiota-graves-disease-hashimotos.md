@@ -11,6 +11,7 @@ tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, Graves-disease, 16S-rRNA
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [blautia, christensenellaceae, lachnospiraceae]
+karen_brain_primitives: [3]
 ---
 
 # Alterations and Mechanism of Gut Microbiota in Graves' Disease and Hashimoto's Thyroiditis

@@ -10,6 +10,7 @@ year: 2022
 doi: 10.1038/s41598-022-12075-x
 tags: [cardiovascular-disease, virome, viral-microbiota, STEMI, ventricular-fibrillation, Herpesviridae, Anelloviridae, circulating-virome, inflammation]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Circulating Virome and Inflammatory Proteome in Patients with STEMI and Primary Ventricular Fibrillation

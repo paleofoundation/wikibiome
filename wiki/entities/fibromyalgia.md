@@ -12,6 +12,7 @@ platform: wikibiome
 seo_target: "fibromyalgia microbiome gut brain heavy metals"
 wikipedia_differentiation: "Cu/Fe MR-validated metallomic signature with copper as causal risk factor (OR=1.095) and iron as protective (OR=0.440), Eggerthella/Flavonifractor enrichment pattern, and SCFA imbalance paradox (elevated serum butyrate despite depleted butyrate producers)"
 associated_conditions: [depression, chronic-fatigue-syndrome, irritable-bowel-syndrome]
+signature_page: "[[fibromyalgia-signature]]"
 shared_signature_metals: {depression: [magnesium-depleted, selenium-depleted], irritable-bowel-syndrome: [magnesium-depleted]}
 shared_signature_taxa: {depression: [faecalibacterium-depleted, bifidobacterium-depleted, lachnospiraceae-depleted], irritable-bowel-syndrome: [faecalibacterium-depleted, bifidobacterium-depleted], chronic-fatigue-syndrome: [faecalibacterium-depleted]}
 ---

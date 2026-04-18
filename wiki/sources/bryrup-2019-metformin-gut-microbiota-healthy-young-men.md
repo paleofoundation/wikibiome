@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 taxa_discussed: [clostridium]
 key_findings: ["Metformin significantly changed the relative abundance of 11 bacterial genera", "Reduced abundance of Intestinibacter and Clostridium", "Pre-treatment gut microbiota"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

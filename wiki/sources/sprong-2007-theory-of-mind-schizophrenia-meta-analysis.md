@@ -10,6 +10,7 @@ doi: "10.1192/bjp.bp.107.035899"
 tags: [schizophrenia, theory-of-mind, mentalising, social-cognition, meta-analysis, disorganisation]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Theory of Mind in Schizophrenia: Meta-Analysis

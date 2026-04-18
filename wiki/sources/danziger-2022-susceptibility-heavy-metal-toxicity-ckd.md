@@ -11,6 +11,7 @@ doi: "10.1097/MNH.0000000000000991"
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [cadmium, iron, lead]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

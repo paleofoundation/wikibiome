@@ -11,6 +11,7 @@ tags: [hashimotos-thyroiditis, thyroid, salivary-microbiome, TSH, 16S-rRNA, insu
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [treponema]
+karen_brain_primitives: [7]
 ---
 
 # Association Between Serum Thyroid-Stimulating Hormone Levels and Salivary Microbiome Shifts

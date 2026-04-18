@@ -21,6 +21,7 @@ tags:
   - gut-microbiome
   - inflammation
 doi: 10.3389/fimmu.2015.00489
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [iron, lead, zinc]
 taxa_discussed: [escherichia-coli, faecalibacterium-prausnitzii]

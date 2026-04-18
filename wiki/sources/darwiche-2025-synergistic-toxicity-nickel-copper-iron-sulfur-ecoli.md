@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Linda Darwiche, Carlos A Rodriguez-Bornot, Rebecca A Ingrassia, Max J Loccisano, Gray Waldschmidt, Jennifer L Goff, Jennifer B Glass]
 year: 2025
 journal: "Applied and Environmental Microbiology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Applied and Environmental Microbiology 2025 -->
+doi: "not yet verified"
 pmcid: "PMC12724342"
 tags: [mismetallation, metal-homeostasis, nickel, copper, iron-sulfur-clusters, synergistic-toxicity, sulfur-metabolism, cysteine, histidine, escherichia-coli, environmental-contamination, metal-mixtures]
 library_category: metal_homeostasis_bacteria

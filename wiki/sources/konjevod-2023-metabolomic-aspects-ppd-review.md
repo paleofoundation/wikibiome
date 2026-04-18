@@ -6,13 +6,15 @@ updated: 2026-04-09
 authors: [Marcela Konjevod, Martin Gredicak, Barbara Vuic, Lucija Tudor, Matea Nikolac Perkovic, Tina Milos, Dubravka Svob Strac, Nela Pivac, Gordana Nedic Erjavec]
 year: 2023
 journal: "manuscript (Rudjer Boskovic Institute, Zagreb, Croatia)"
-doi: "not yet verified"  # <!-- DOI lookup needed: manuscript (Rudjer Boskovic Institute, Zagreb, Croatia) 2023 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [postpartum-depression, metabolomics, biomarkers, tryptophan, amino-acids, steroid-metabolism, purine-cycle, xenobiotic, review]
 library_category: review
 platform: cureva
 condition: "postpartum depression"
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["PPD develops in about 15% of women", "Multiple metabolic pathways", "Metabolomics"]
+karen_brain_primitives: [7]
 ---
 
 # Key Claims

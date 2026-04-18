@@ -7,6 +7,7 @@ authors: [Frederic Barras, Laurent Aussel, Benjamin Ezraty]
 year: 2018
 journal: "Antibiotics"
 doi: "10.3390/antibiotics7030079"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, silver, antimicrobial-metals, antibiotic-synergy, aminoglycosides, iron-sulfur-clusters, Fe-S-clusters, ROS, mis-metallation, membrane-disruption, protein-mistranslation, PMF]
 library_category: antimicrobial_resistance
 platform: wikibiome

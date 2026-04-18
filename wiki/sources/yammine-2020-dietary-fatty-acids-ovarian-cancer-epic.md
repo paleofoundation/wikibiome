@@ -6,10 +6,11 @@ updated: 2026-04-09
 authors: [Yammine SG, Huybrechts I, Biessy C, Dossus L, Aglago EK, Naudin S, Ferrari P, Weiderpass E, Tjonneland A, Hansen L, Overvad K, Mancini FR, Boutron-Ruault MC, Kvaskoff M, Fortner RT, Kaaks R, Schulze MB, Boeing H, Trichopoulou A, Karakatsani A, La Vecchia C, Benetou V, Masala G, Krogh V, Mattiello A, Macciotta A, Gram IT, Skeie G, Quiros JR, Sanchez MJ, Chirlaque MD, Ardanaz E, Gil L, Sartor H, Drake I, Idahl A, Lundin E, Aune D, Ward H, Merritt MA, Allen NE, Gunter MJ, Chajes V]
 journal: Cancer Epidemiology Biomarkers and Prevention
 year: 2020
-doi: "not yet verified"  # <!-- DOI lookup needed: Cancer Epidemiology Biomarkers and Prevention 2020 -->
+doi: "not yet verified"
 tags: [ovarian-cancer, fatty-acids, EPIC-cohort, dietary-fat, circulating-lipids, cancer-risk, prospective-study]
 platform: wikibiome
 evidence_level: prospective-cohort
+karen_brain_primitives: [3]
 ---
 
 # Dietary and Circulating Fatty Acids and Ovarian Cancer Risk in EPIC

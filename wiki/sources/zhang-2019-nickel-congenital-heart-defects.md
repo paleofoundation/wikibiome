@@ -11,6 +11,7 @@ doi: "10.1097/MD.0000000000015352"
 platform: wikibiome
 evidence_level: case-control
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 # Metal Nickel Exposure Increase the Risk of Congenital Heart Defects Occurrence in Offspring

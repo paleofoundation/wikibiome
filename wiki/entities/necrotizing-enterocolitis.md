@@ -12,6 +12,7 @@ platform: wikibiome
 seo_target: "necrotizing enterocolitis microbiome preterm infant prevention"
 wikipedia_differentiation: "TLR4 as master regulator of NEC pathogenesis with Proteobacteria bloom detectable 2 weeks before diagnosis, virome convergence 10 days pre-NEC, non-toxigenic Clostridia as novel probiotics metabolizing HMOs to suppress pathobionts, and bovine lactoferrin + L. rhamnosus GG as top-ranked NEC prevention (SUCRA 95.7%)"
 associated_conditions: [cerebral-palsy]
+signature_page: "[[necrotizing-enterocolitis-signature]]"
 shared_signature_metals: {cerebral-palsy: [iron-depleted, zinc-depleted]}
 shared_signature_taxa: {cerebral-palsy: [klebsiella-enriched, bifidobacterium-depleted, enterococcus-enriched]}
 ---

@@ -10,6 +10,7 @@ tags: [female-infertility, estrobolome, PCOS, premature-ovarian-insufficiency, I
 platform: wikibiome
 last_substantive_update: 2026-04-15
 associated_conditions: [pcos, endometriosis, depression]
+signature_page: "[[female-infertility-signature]]"
 shared_signature_metals: {pcos: [cadmium, lead, nickel, zinc-depleted], endometriosis: [cadmium, nickel, iron], depression: [zinc-depleted, iron]}
 shared_signature_taxa: {pcos: [faecalibacterium-depleted, eggerthella], endometriosis: [escherichia-coli, lachnospiraceae-depleted], depression: [faecalibacterium-depleted, bifidobacterium-depleted]}
 seo_target: "female infertility microbiome gut ovarian axis estrogen metals"

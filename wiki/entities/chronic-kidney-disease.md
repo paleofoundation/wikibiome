@@ -13,6 +13,7 @@ platform: wikibiome
 icd_10: "N18"
 global_prevalence: "~10–14% of adults; ~850 million people worldwide; 1.2 million deaths annually"
 associated_conditions: [type-2-diabetes, cardiovascular-disease, hypertension, pcos, parkinsons-disease, alzheimers-disease]
+signature_page: "[[chronic-kidney-disease-signature]]"
 shared_signature_metals: {type-2-diabetes: [cadmium, nickel, lead, iron], cardiovascular-disease: [lead, cadmium], hypertension: [lead, cadmium]}
 shared_signature_taxa: {type-2-diabetes: [enterobacteriaceae, faecalibacterium-prausnitzii, akkermansia-muciniphila, lachnospiraceae], cardiovascular-disease: [enterobacteriaceae, escherichia-coli], hypertension: [enterobacteriaceae, lachnospiraceae-depleted]}
 seo_target: "chronic kidney disease heavy metals cadmium lead nephrotoxicity microbiome"

@@ -8,6 +8,7 @@ journal: Frontiers in Endocrinology
 year: 2023
 tags: [hashimotos-thyroiditis, thyroid, autoimmune, short-chain-fatty-acids, gut-microbiota, dysbiosis, butyrate, propionate, acetate, iodine, selenium, thyroid-hormones, metabolism]
 doi: "10.3389/fendo.2023.1192216"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [selenium]
 taxa_discussed: [bacteroides-fragilis, clostridium, eubacterium, faecalibacterium-prausnitzii, lactobacillus, propionibacterium, roseburia, ruminococcus]

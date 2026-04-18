@@ -10,7 +10,7 @@ authors:
   - Khalid M. Khan
 journal: Preprints.org (not peer-reviewed)
 year: 2025
-doi: "not yet verified"  # <!-- DOI lookup needed: Preprints.org (not peer-reviewed) 2025 -->
+doi: "not yet verified"
 tags:
   - Alzheimers-disease
   - arsenic

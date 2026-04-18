@@ -7,6 +7,7 @@ authors: [Pengya Feng, Jinfeng Yang, Shuai Zhao, Zhenmin Ling, Rong Han, Ying Wu
 year: 2022
 journal: "npj Biofilms and Microbiomes"
 doi: "10.1038/s41522-022-00326-8"
+evidence_level: randomized-controlled-trial
 tags: [type-1-diabetes, autoimmune, probiotics, heavy-metals, pediococcus, copper, nickel, gut-microbiome, metabolome, dysbiosis]
 library_category: original-research
 platform: cureva

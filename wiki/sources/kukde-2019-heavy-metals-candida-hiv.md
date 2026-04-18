@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Monal M. Kukde, Silpi Basak, Deepak P. Selkar]
 journal: Journal of Clinical and Diagnostic Research
 year: 2019
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Clinical and Diagnostic Research 2019 -->
+doi: "not yet verified"
 tags: [Candida, heavy-metals, HIV, silver, mercury, cadmium, zinc, antifungal, oral-candidiasis, metal-resistance]
 platform: wikibiome
 metals_discussed: [cadmium, cobalt, copper, lead, mercury, nickel, zinc]

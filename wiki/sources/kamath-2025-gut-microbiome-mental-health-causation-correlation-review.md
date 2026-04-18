@@ -10,7 +10,7 @@ institution: "University of South Australia; University of Adelaide; NYU; Univer
 orcid: "0000-0003-3619-7901"
 year: 2025
 journal: "Preprint (no DOI found in document)"
-doi: "not yet verified"  # <!-- DOI lookup needed: Preprint (no DOI found in document) 2025 -->
+doi: "not yet verified"
 pmid: ""
 evidence_level: expert-opinion
 sample_size: "N/A (narrative review)"

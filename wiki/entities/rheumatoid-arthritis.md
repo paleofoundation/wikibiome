@@ -17,6 +17,7 @@ tags: [autoimmune, copper, zinc, nickel, lead, cadmium, chromium, environmental-
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [crohns-disease, hashimotos-thyroiditis, multiple-sclerosis]
+signature_page: "[[rheumatoid-arthritis-signature]]"
 shared_signature_metals: {crohns-disease: [iron, zinc, copper], hashimotos-thyroiditis: [iron, zinc, copper], multiple-sclerosis: [lead, cadmium]}
 shared_signature_taxa: {crohns-disease: [escherichia-coli, lachnospiraceae-depleted], hashimotos-thyroiditis: [faecalibacterium-prausnitzii, prevotella], multiple-sclerosis: [lachnospiraceae-depleted, faecalibacterium-prausnitzii]}
 seo_target: "rheumatoid arthritis heavy metals microbiome copper zinc"

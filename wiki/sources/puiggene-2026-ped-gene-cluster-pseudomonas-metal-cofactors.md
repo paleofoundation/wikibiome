@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Oscar Puiggene, Pablo I Nikel, Edward G Dudley]
 year: 2026
 journal: "Applied and Environmental Microbiology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Applied and Environmental Microbiology 2026 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 pmcid: "PMC12997753"
 tags: [mismetallation, metal-homeostasis, lanthanides, calcium, iron, copper, PQQ, pseudomonas, alcohol-dehydrogenase, rare-earth-elements, metal-cofactor-switching]
 library_category: metal_homeostasis_bacteria

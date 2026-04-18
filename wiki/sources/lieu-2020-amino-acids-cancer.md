@@ -6,10 +6,11 @@ updated: 2026-04-09
 authors: [Elizabeth L. Lieu, Tu Nguyen, Shawn Rhyne, Jiyeon Kim]
 journal: Experimental & Molecular Medicine
 year: 2020
-doi: "not yet verified"  # <!-- DOI lookup needed: Experimental & Molecular Medicine 2020 -->
+doi: "not yet verified"
 tags: [pancreatic-cancer, colon-cancer, amino-acids, cancer-metabolism, glutamine, serine, glycine, methionine, tryptophan, kynurenine, BCAAs, epigenetic-regulation, immunosuppression, review, colorectal-cancer]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

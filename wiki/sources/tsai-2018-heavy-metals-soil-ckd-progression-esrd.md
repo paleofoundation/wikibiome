@@ -11,6 +11,7 @@ doi: "10.1016/j.cct.2022.107065"
 platform: wikibiome
 evidence_level: retrospective-cohort
 metals_discussed: [cadmium, chromium, copper, lead, nickel, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

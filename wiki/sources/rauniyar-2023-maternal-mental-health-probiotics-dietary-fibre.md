@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Anjali Rauniyar]
 year: 2023
 journal: "University of Auckland (Master's thesis)"
-doi: "not yet verified"  # <!-- DOI lookup needed: University of Auckland (Master's thesis) 2023 -->
+doi: "not yet verified"
 tags: [postpartum-depression, probiotics, dietary-fibre, Lactobacillus-rhamnosus, PiP-study, RCT, gut-brain-axis, anxiety]
 library_category: clinical-trial
 platform: cureva

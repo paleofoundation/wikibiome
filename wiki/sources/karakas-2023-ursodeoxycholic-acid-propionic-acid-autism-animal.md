@@ -13,6 +13,7 @@ platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: animal-model
 key_findings: ["UDCA administration ameliorated", "Sociability, open field, and passive avoidance", "MDA, TNF-alpha, IL-2, IL-17, NF-KB, lactate, NGF, and NRF2"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

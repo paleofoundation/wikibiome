@@ -11,6 +11,7 @@ doi: "10.1093/ckj/sfae399"
 platform: wikibiome
 evidence_level: prospective-cohort
 metals_discussed: [cadmium, cobalt, copper, molybdenum, nickel, selenium, vanadium]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

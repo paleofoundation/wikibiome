@@ -10,6 +10,7 @@ tags: [amino-acids, multiple-sclerosis, tryptophan, arginine, IDO1, ARG1, kynure
 doi: "10.3389/fimmu.2020.600428"
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # Immunosuppressive Amino-Acid Catabolizing Enzymes in Multiple Sclerosis

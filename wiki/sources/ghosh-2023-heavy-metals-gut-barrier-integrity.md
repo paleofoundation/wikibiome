@@ -9,7 +9,7 @@ authors:
   - Venkatakrishna Rao Jala
 journal: Metal ions in Life Sciences (Accepted Manuscript)
 year: 2023
-doi: "not yet verified"  # <!-- DOI lookup needed: Metal ions in Life Sciences (Accepted Manuscript) 2023 -->
+doi: "not yet verified"
 tags:
   - heavy-metals
   - gut-barrier

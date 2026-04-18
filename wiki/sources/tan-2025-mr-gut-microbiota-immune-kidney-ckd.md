@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, mendelian-randomization, immune-cells, eGFR,
 platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [alistipes]
+karen_brain_primitives: [3]
 ---
 
 # MR Study Revealed a Gut Microbiota-Immune System-Kidney Junction Axis in CKD

@@ -7,11 +7,13 @@ authors: [Yajing Chen, Xiaohuan Du, Xianming Zhang, Fang Li, Shuwei Yuan, Wenjin
 year: 2025
 journal: "Frontiers in Immunology"
 doi: "10.3389/fimmu.2025.1534660"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, inflammation, neuroinflammation, bibliometrics, oxidative-stress, cytokines, IBD, microbiota, research-trends]
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["1,752 articles", "Keyword burst analysis"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

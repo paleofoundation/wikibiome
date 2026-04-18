@@ -12,6 +12,7 @@ tags: [cadmium, developmental-toxicity, infants, children, neurodevelopment, kid
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [aluminum, cadmium, lead, selenium]
+karen_brain_primitives: [3, 7]
 ---
 
 # Developmental Toxicity of Cadmium in Infants and Children: A Review

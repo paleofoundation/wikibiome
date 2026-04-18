@@ -10,6 +10,7 @@ doi: "10.3389/fmicb.2025.1625179"
 tags: [hashimotos-thyroiditis, thyroid, virome, viral-infection, EBV, HHV-6, HSV, HPV, HCV, parvovirus-B19, SARS-CoV-2, thyroid-cancer, autoimmune, molecular-mimicry, review]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3, 6]
 ---
 
 # Viral Infection and Thyroid Disorders: A Narrative Review

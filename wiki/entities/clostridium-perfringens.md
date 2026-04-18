@@ -89,4 +89,4 @@ Pathogenic *C. perfringens* diverts tryptophan toward the **kynurenine pathway**
 - [[escherichia-coli]] -- NEC pathobiont suppressed by non-toxigenic strains
 - [[bifidobacterium]] -- co-depleted in NEC; also metabolizes HMOs
 - [[tryptophan-metabolism]] -- kynurenine diversion reducing serotonin
-- [[polycystic-ovary-syndrome]] -- vaginal pathobiont enrichment
+- [[pcos]] -- vaginal pathobiont enrichment

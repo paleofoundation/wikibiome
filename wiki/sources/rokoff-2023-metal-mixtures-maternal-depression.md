@@ -11,6 +11,7 @@ doi: "10.1016/j.neuro.2022.12.005"
 platform: wikibiome
 evidence_level: prospective-cohort
 metals_discussed: [arsenic, barium, cadmium, copper, lead, magnesium, manganese, mercury, selenium, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

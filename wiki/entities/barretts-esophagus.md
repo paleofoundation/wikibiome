@@ -15,6 +15,7 @@ wikipedia_differentiation: "Microbiome-driven progression model from Streptococc
 icd_10: "K22.7"
 global_prevalence: "5.6% of US adults; 6-12% of GERD patients"
 associated_conditions: [gerd, esophageal-adenocarcinoma]
+signature_page: "[[barretts-esophagus-signature]]"
 ---
 
 # Barrett's Esophagus

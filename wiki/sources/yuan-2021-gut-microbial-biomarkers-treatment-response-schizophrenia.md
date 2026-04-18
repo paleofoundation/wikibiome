@@ -11,6 +11,7 @@ tags: [schizophrenia, first-episode-psychosis, microbiome, biomarkers, risperido
 platform: wikibiome
 evidence_level: prospective-cohort
 taxa_discussed: [alistipes, blautia, dorea, haemophilus, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbial Biomarkers for the Treatment Response in First-Episode, Drug-Naive Schizophrenia

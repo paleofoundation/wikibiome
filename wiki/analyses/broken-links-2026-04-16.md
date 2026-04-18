@@ -742,7 +742,7 @@ Total pages with broken links: 957
 - [[dietary-arsenic-exposure|inorganic-arsenic]]
 
 ## abudawood-2021-antioxidant-heavy-metals-pcos
-- [[endocrine disruptors]]
+- [[endocrine-disruptors|endocrine disruptors]]
 - [[oxidative-stress]]
 - [[glutathione]]
 
@@ -1390,7 +1390,7 @@ Total pages with broken links: 957
 - [[pmdd|premenstrual dysphoric disorder]]
 - [[gut-brain-axis|HPA axis]]
 - [[heavy-metals|heavy metals]]
-- [[endocrine disruptors]]
+- [[endocrine-disruptors|endocrine disruptors]]
 - [[hypothalamic-pituitary-ovarian axis]]
 - [[serotonin]]
 - [[dopamine]]
@@ -2414,7 +2414,7 @@ Total pages with broken links: 957
 
 ## jiang-2021-copper-pcos-meta-analysis
 - [[hyperandrogenism|luteinizing hormone]]
-- [[endocrine disruptors]]
+- [[endocrine-disruptors|endocrine disruptors]]
 - [[autism-spectrum-disorder|autism spectrum disorders]]
 
 ## jiang-2021-gut-dysbiosis-treg-th17-graves
@@ -3717,7 +3717,7 @@ Total pages with broken links: 957
 - [[dysmenorrhea]]
 - [[inflammation|prostaglandin]]
 - [[dysmenorrhea|menstrual disorders]]
-- [[endocrine disruptors]]
+- [[endocrine-disruptors|endocrine disruptors]]
 
 ## qiu-2023-gut-mycobiome-hypertension-ckd
 - [[inflammation]]

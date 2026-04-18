@@ -6,7 +6,7 @@ updated: 2026-04-14
 authors: [Shtrozberg et al.]
 year: 2025
 journal: "Clinical and Experimental Rheumatology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Clinical and Experimental Rheumatology 2025 -->
+doi: "not yet verified"
 evidence_level: expert-opinion
 sample_size: "N/A (review)"
 tags: [fibromyalgia, review, fmt, magnesium, selenium, iron]

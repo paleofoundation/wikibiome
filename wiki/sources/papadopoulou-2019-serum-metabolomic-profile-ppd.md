@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: case-control
 metals_discussed: [copper, iron, magnesium, selenium, zinc]
 key_findings: ["First serum metabolomic analysis", "Increased levels", "Molecular changes related to PPD"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

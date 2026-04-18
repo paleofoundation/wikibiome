@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Zitao Wang, Wenjie Hua, Chen Li, Hao Chang, Ran Liu, Yangyue Ni, Hongzhi Sun, Yangyang Li, Xinyue Wang, Min Hou, Yu Liu, Zhipeng Xu, Minjun Ji]
 journal: Frontiers in Microbiology
 year: 2019
-doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Microbiology 2019 -->
+doi: "not yet verified"
 tags: [colon-cancer, FMT, fecal-microbiota-transplantation, colitis-associated-cancer, Treg-cells, NF-kB, inflammation, butyrate, AOM-DSS, mouse-model, colorectal-cancer]
 platform: wikibiome
 evidence_level: animal-model

@@ -7,11 +7,13 @@ authors: [Marvin R. Natowicz, Margaret L. Bauman, Stephen M. Edelson]
 year: 2024
 journal: "Frontiers in Neurology"
 doi: "10.3389/fneur.2024.1486227"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, postmortem-brain, neuropathology, brain-donation, autopsy, neurobiology]
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["Postmortem brain tissue", "Etiological basis", "Many genetic variants"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

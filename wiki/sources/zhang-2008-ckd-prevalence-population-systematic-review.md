@@ -10,6 +10,7 @@ doi: "10.1186/1471-2458-8-117"
 tags: [chronic-kidney-disease, CKD, prevalence, systematic-review, epidemiology, eGFR, population-based]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # CKD Prevalence in Population-Based Studies

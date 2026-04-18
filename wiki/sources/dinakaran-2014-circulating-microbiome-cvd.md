@@ -13,6 +13,7 @@ pages_read: "1-8"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [propionibacterium, pseudomonas-aeruginosa]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

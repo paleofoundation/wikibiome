@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, eosinophilic-esophagitis, esophageal-micro
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [haemophilus, streptococcus]
+karen_brain_primitives: [3]
 ---
 
 # Esophageal Microbiome in Eosinophilic Esophagitis

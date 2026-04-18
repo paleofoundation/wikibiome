@@ -14,6 +14,7 @@ condition: "perinatal depression"
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["10-20% of pregnant women", "Several inflammatory markers"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -7,6 +7,7 @@ authors: [Reda R. Mabrouk, Amani Magdy Beshbishy, Waad Mohamed Elmalah, Ola Moha
 year: 2026
 journal: "Beni-Suef University Journal of Basic and Applied Sciences"
 doi: "10.1186/s43088-025-00727-6"
+evidence_level: animal-model
 tags: [drug-repurposing, gut-microbiota-modulators, probiotics, prebiotics, synbiotics, antibiotics, neurodegeneration, ASD, ADHD, gut-brain-axis, CDI, Salmonella]
 library_category: "Drug repurposing"
 platform: review

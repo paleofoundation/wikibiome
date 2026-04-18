@@ -10,6 +10,7 @@ doi: "10.1038/s41581-020-00345-8"
 tags: [chronic-kidney-disease, CKD, food-as-medicine, uraemic-phenotype, dietary-interventions, review]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Food as Medicine: Targeting the Uraemic Phenotype in CKD

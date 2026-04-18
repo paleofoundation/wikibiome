@@ -10,6 +10,7 @@ year: 2013
 tags: [pancreatic-cancer, metabolomics, serum-biomarkers, GC-MS, diagnostics, early-detection, chronic-pancreatitis]
 doi: "10.1158/1055-9965.EPI-12-1033"
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

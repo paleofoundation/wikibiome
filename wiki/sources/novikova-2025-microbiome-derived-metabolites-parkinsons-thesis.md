@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Polina Novikova]
 year: 2025
 journal: "PhD Thesis"
-doi: "not yet verified"  # <!-- DOI lookup needed: PhD Thesis 2025 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [parkinsons-disease, microbiome-derived-metabolites, thesis, metabolomics, SCFA, bile-acids, tryptophan, gut-brain-axis]
 library_category: metabolites
 platform: both

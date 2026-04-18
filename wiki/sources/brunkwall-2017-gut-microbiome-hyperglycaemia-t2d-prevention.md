@@ -7,6 +7,7 @@ authors: [Louise Brunkwall, Marju Orho-Melander]
 year: 2017
 journal: "Diabetologia"
 doi: "10.1007/s00125-017-4278-3"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, gut-microbiome, dysbiosis, metformin, probiotics, personalized-nutrition]
 library_category: reviews
 platform: cureva

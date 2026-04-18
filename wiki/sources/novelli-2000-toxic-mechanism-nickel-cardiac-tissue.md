@@ -6,12 +6,13 @@ updated: 2026-04-09
 authors: [Novelli ELB, Diniz YS, Almeida JA, Machado T, Proenca V, Tibirica T, Faine L, Ribas BO]
 journal: Toxic Substance Mechanisms
 year: 2000
-doi: "not yet verified"  # <!-- DOI lookup needed: Toxic Substance Mechanisms 2000 -->
+doi: "not yet verified"
 volume: "19:177-187"
 tags: [nickel, cardiac-toxicity, oxidative-stress, vitamin-E, tocopherol, lipid-peroxidation, SOD, GSH-Px, superoxide-radical, cholesterol, LDH, ALT, rat-model, cardiovascular-disease, foundational-paper]
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [nickel]
+karen_brain_primitives: [4]
 ---
 
 # Toxic Mechanism of Nickel Exposure on Cardiac Tissue

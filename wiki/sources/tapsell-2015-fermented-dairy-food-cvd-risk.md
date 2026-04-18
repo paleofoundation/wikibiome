@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Linda C. Tapsell]
 journal: British Journal of Nutrition
 year: 2015
-doi: "not yet verified"  # <!-- DOI lookup needed: British Journal of Nutrition 2015 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, fermented-foods, dairy, yoghurt, cheese, Mediterranean-diet, PREDIMED, cholesterol]
 platform: wikibiome
 karen_brain_primitives: [5]

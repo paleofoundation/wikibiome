@@ -9,6 +9,7 @@ journal: "Scientific Reports"
 doi: "10.1038/srep33327"
 tags: [chronic-kidney-disease, CKD, virome, kidney-transplant, BK-virus, JC-virus, Polyomaviridae, shotgun-metagenomics]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Diverse Virome in Kidney Transplant Patients

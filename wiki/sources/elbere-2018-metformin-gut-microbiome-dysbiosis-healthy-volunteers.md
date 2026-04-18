@@ -6,10 +6,11 @@ updated: 2026-04-09
 authors: [Ilze Elbere, Ineta Kalnina, Ivars Silamikelis, Ilze Konrade, Linda Zaharenko, Kristine Sekace, Ize Radovica-Spalvina, Davids Fridmanis, Dita Gudra, Valdis Pirags, Janis Klovins]
 journal: PLOS ONE
 year: 2018
-doi: "not yet verified"  # <!-- DOI lookup needed: PLOS ONE 2018 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, metformin, gut-microbiome, dysbiosis, Escherichia-Shigella, Peptostreptococcaceae, Clostridiaceae, alpha-diversity]
 platform: wikibiome
 taxa_discussed: [akkermansia-muciniphila, escherichia-coli, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Elbere et al. 2018 -- Metformin and Gut Microbiome Dysbiosis in Healthy Volunteers

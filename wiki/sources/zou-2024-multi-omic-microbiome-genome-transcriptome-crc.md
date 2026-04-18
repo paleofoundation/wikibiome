@@ -11,6 +11,7 @@ tags: [colon-cancer, colorectal-cancer, metagenomics, exome-sequencing, transcri
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [bacteroides-fragilis, clostridium, eubacterium, faecalibacterium-prausnitzii, fusobacterium-nucleatum, parabacteroides, prevotella, roseburia]
+karen_brain_primitives: [5]
 ---
 
 # Zou 2024 -- Multi-omic Profiling of Microbiome, Genome, and Transcriptome in CRC

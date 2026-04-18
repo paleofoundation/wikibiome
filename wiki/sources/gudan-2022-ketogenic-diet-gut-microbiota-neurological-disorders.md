@@ -7,12 +7,14 @@ authors: [Anna Gudan, Ewa Stachowska]
 year: 2022
 journal: "Advances in Hygiene and Experimental Medicine"
 doi: "10.2478/ahem-2022-0019"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, ketogenic-diet, gut-microbiome, intestinal-barrier, neurological-disorders, epilepsy, Alzheimers, multiple-sclerosis, Bacteroides, Bifidobacteria]
 library_category: interventions
 platform: cureva
 condition: "autism spectrum disorder"
 taxa_discussed: [alistipes, bacteroides-fragilis, bilophila]
 key_findings: ["Animal-product based diets", "Long-term consumption of animal-based foods", "Ketogenic diet"]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

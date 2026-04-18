@@ -8,6 +8,7 @@ journal: European Review for Medical and Pharmacological Sciences
 year: 2018
 tags: [endometriosis, peritoneal-fluid, inflammatory-cytokines, infertility, IL-6, TNF-alpha, Proteobacteria, Firmicutes, bacterial-flora]
 doi: "10.26355/eurrev_201804_14826"
+evidence_level: expert-opinion
 platform: wikibiome
 karen_brain_primitives: [1, 2, 5]
 metals_discussed: [iron, nickel]

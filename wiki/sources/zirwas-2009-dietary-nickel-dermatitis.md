@@ -11,6 +11,7 @@ doi: "10.2196/47913"
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [iron, nickel]
+karen_brain_primitives: [3]
 ---
 
 # Dietary Nickel as a Cause of Systemic Contact Dermatitis

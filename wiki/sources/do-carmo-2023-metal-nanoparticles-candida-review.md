@@ -23,6 +23,7 @@ tags:
   - drug-resistance
   - nanotechnology
 doi: 10.3390/microorganisms11010138
+evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
 keystone_criteria_met:

@@ -10,6 +10,7 @@ tags: [depression, zinc, copper, iron, lead, cadmium, mercury, tryptophan, serot
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [anxiety, schizophrenia, parkinsons-disease, multiple-sclerosis, pcos]
+signature_page: "[[depression-signature]]"
 shared_signature_metals: {anxiety: [copper, zinc], schizophrenia: [copper, zinc], parkinsons-disease: [iron, lead], multiple-sclerosis: [cadmium, lead], pcos: [zinc, iron]}
 shared_signature_taxa: {anxiety: [faecalibacterium-prausnitzii, bifidobacterium, lachnospiraceae], schizophrenia: [clostridium, escherichia-coli, lachnospiraceae], parkinsons-disease: [faecalibacterium-prausnitzii, lachnospiraceae, prevotella], multiple-sclerosis: [faecalibacterium-prausnitzii, lachnospiraceae, candida-albicans], pcos: [bacteroides, escherichia-coli]}
 seo_target: "depression heavy metals microbiome zinc copper gut-brain axis"

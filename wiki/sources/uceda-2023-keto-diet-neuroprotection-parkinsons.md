@@ -7,6 +7,7 @@ authors: [Sara Uceda, Vittoria Echeverry-Alzate, Mercedes Reiriz]
 year: 2023
 journal: "Cell Death Discovery"
 doi: "10.1038/s41420-023-01549-0"
+evidence_level: animal-model
 tags: [parkinsons-disease, ketogenic-diet, beta-hydroxybutyrate, neuroprotection, mitochondrial-function, HDAC-inhibition, neuroinflammation, oxidative-stress, dopaminergic-neurons, gut-brain-axis]
 library_category: therapeutics
 platform: both

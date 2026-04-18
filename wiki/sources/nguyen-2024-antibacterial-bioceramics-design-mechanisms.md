@@ -7,6 +7,7 @@ authors: [Ngoc Huu Nguyen, Zufu Lu, Aaron Elbourne, Krasimir Vasilev, Iman Rooha
 year: 2024
 journal: "Materials Today Bio"
 doi: "10.1016/j.mtbio.2024.100985"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, antimicrobial-metals, bioceramics, implant-infection, silver, copper, zinc, gallium, magnesium, biofilm, tissue-engineering, osteomyelitis, nanoparticles, 3D-printing]
 library_category: antimicrobial_resistance
 platform: wikibiome

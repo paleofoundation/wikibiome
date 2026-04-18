@@ -7,6 +7,7 @@ authors: [Aline Corado Gomes, Allain Amador Bueno, Ravila Graziany Machado de So
 year: 2014
 journal: "Nutrition Journal"
 doi: "10.1186/1475-2891-13-60"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, probiotics, gut-microbiota, inflammation, insulin-resistance, intestinal-permeability, review]
 library_category: reviews
 platform: cureva

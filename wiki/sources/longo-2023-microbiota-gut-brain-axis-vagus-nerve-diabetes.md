@@ -7,6 +7,7 @@ authors: [Susanna Longo, Stefano Rizza, Massimo Federici]
 year: 2023
 journal: "Acta Diabetologica"
 doi: "10.1007/s00592-023-02088-x"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, gut-brain-axis, vagus-nerve, glp-1, dysbiosis, obesity]
 library_category: mechanisms
 platform: cureva

@@ -7,6 +7,7 @@ authors: [Paul R. West, David G. Amaral, Preeti Bais, Alan M. Smith, Laura A. Eg
 year: 2014
 journal: "PLOS ONE"
 doi: "10.1371/journal.pone.0112445"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, metabolomics, plasma-biomarkers, mass-spectrometry, LC-HRMS, GC-MS, machine-learning, SVM, PLS-DA, diagnostic]
 library_category: metabolomics
 platform: LC-HRMS-GC-MS

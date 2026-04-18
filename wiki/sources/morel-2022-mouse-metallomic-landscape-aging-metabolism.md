@@ -11,6 +11,7 @@ tags: [metallomics, aging, metabolism, copper, zinc, iron, isotope-composition, 
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [copper, iron, zinc]
+karen_brain_primitives: [3]
 ---
 
 # The Mouse Metallomic Landscape of Aging and Metabolism

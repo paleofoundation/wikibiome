@@ -7,9 +7,10 @@ authors: [Rebelytics R&D Inc.]
 journal: Rebelytics R&D Inc. (technical report)
 year: 2023
 tags: [nickel, nickel-in-food, dietary-exposure, food-database, low-nickel-diet, comprehensive-reference]
-doi: "not yet verified"  # <!-- DOI lookup needed: Rebelytics R&D Inc. (technical report) 2023 -->
+doi: "not yet verified"
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 # Nickel in Foods: Summary Tables, Unweighted Averages (July 2023)

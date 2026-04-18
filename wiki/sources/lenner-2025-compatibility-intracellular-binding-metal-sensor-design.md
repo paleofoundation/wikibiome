@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Nicolas Lenner, Logan Chariker, Stanislas Leibler]
 year: 2025
 journal: "Proceedings of the National Academy of Sciences"
-doi: "not yet verified"  # <!-- DOI lookup needed: Proceedings of the National Academy of Sciences 2025 -->
+doi: "not yet verified"
 pmcid: "PMC12067259"
 tags: [mismetallation, metal-homeostasis, Irving-Williams-series, metalloregulator, metal-sensing, sensor-compatibility, thermodynamic-additivity, zinc, copper, manganese, iron, cobalt, nickel, evolutionary-design]
 library_category: metal_homeostasis_bacteria

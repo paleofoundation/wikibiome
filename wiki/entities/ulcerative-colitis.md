@@ -10,6 +10,7 @@ tags: [ulcerative-colitis, IBD, iron, copper, zinc, selenium, gut-barrier, micro
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [crohns-disease, colorectal-cancer, inflammatory-bowel-disease]
+signature_page: "[[ulcerative-colitis-signature]]"
 shared_signature_metals: {crohns-disease: [iron, zinc, cadmium], colorectal-cancer: [iron, zinc], inflammatory-bowel-disease: [iron, zinc, copper]}
 shared_signature_taxa: {crohns-disease: [escherichia-coli, bacteroides-fragilis, faecalibacterium-depleted, roseburia-depleted, lachnospiraceae-depleted], colorectal-cancer: [escherichia-coli, fusobacterium-nucleatum, faecalibacterium-depleted], inflammatory-bowel-disease: [escherichia-coli, faecalibacterium-depleted, lachnospiraceae-depleted]}
 seo_target: "ulcerative colitis microbiome iron metals gut bacteria"

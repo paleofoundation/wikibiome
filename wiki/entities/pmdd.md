@@ -12,6 +12,7 @@ platform: wikibiome
 seo_target: "PMDD microbiome gut hormones premenstrual"
 wikipedia_differentiation: "Gut-hormone axis with Bacteroidetes depletion correlating with symptom severity, tryptophan-kynurenine shunting via IDO upregulation during luteal phase, and GABA-A receptor modulation by inflammatory cytokines linking gut dysbiosis to mood symptoms"
 associated_conditions: [depression, female-infertility]
+signature_page: "[[pmdd-signature]]"
 shared_signature_metals: {depression: [magnesium-depleted]}
 shared_signature_taxa: {depression: [faecalibacterium-depleted, blautia-depleted]}
 ---

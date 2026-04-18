@@ -7,12 +7,14 @@ authors: [Li-Na Guan, Li Li, Hui-Hua Li, Zhen Wang, Jia-Jia Yun, Wei-Fang Ding, 
 year: 2025
 journal: "Cellular and Molecular Neurobiology"
 doi: "10.1007/s10571-025-01542-4"
+evidence_level: expert-opinion
 tags: [postpartum-depression, treatment, SSRIs, brexanolone, zuranolone, antidepressants, pharmacological, non-pharmacological, review]
 library_category: review
 platform: cureva
 condition: "postpartum depression"
 metals_discussed: [iron, magnesium, zinc]
 key_findings: ["Brexanolone"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

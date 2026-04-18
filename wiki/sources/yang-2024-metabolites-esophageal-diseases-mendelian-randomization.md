@@ -11,6 +11,7 @@ doi: "10.1186/s12876-024-03411-8"
 tags: [gerd, gastroesophageal-reflux, mendelian-randomization, metabolites, metabolite-ratios, esophageal-diseases, barretts-esophagus, esophagitis, lipids, amino-acids, bile-acids, glycine, hexadecenedioate, nucleotides, phospholipids, metabolomics]
 platform: wikibiome
 evidence_level: mendelian-randomization
+karen_brain_primitives: [6, 7]
 ---
 
 # Causal effects of genetically determined metabolites and metabolite ratios on esophageal diseases: a two-sample Mendelian randomization study

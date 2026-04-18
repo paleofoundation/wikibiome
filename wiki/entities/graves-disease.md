@@ -20,6 +20,7 @@ tags: [graves-disease, autoimmune, thyroid, selenium, iron, copper, zinc, iodine
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [hashimotos-thyroiditis, depression, inflammatory-bowel-disease]
+signature_page: "[[graves-disease-signature]]"
 shared_signature_metals: {hashimotos-thyroiditis: [selenium, iodine, iron, zinc], depression: [lead, iron, selenium], inflammatory-bowel-disease: [iron, zinc]}
 shared_signature_taxa: {hashimotos-thyroiditis: [faecalibacterium-prausnitzii, lachnospiraceae, proteobacteria, prevotella], depression: [faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli], inflammatory-bowel-disease: [bacteroides-fragilis, faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli]}
 seo_target: "Graves disease microbiome thyroid selenium gut"

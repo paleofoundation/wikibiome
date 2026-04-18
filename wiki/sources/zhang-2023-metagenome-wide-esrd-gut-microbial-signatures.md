@@ -11,6 +11,7 @@ tags: [chronic-kidney-disease, CKD, metagenomics, ESRD, hemodialysis, Blautia, D
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [blautia, dorea, prevotella, roseburia]
+karen_brain_primitives: [3]
 ---
 
 # Metagenome-Wide Gut Microbial Signatures in ESRD

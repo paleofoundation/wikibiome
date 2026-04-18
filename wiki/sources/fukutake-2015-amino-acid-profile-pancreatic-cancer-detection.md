@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, amino-acids, biomarkers, plasma-free-amino-acids, PFAA
 doi: "10.1371/journal.pone.0132223"
 platform: wikibiome
 evidence_level: cross-sectional
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

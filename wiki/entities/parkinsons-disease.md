@@ -10,6 +10,7 @@ tags: [neurodegenerative-disease, iron, manganese, copper, ferroptosis, alpha-sy
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [alzheimers-disease, depression, schizophrenia, multiple-sclerosis]
+signature_page: "[[parkinsons-disease-signature]]"
 shared_signature_metals: {alzheimers-disease: [iron, copper, lead], depression: [iron, lead, copper], schizophrenia: [iron, manganese, lead], multiple-sclerosis: [iron, nickel, copper, lead]}
 shared_signature_taxa: {alzheimers-disease: [enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, roseburia], depression: [enterobacteriaceae, faecalibacterium-prausnitzii, lachnospiraceae, prevotella], schizophrenia: [enterobacteriaceae, lachnospiraceae], multiple-sclerosis: [enterobacteriaceae, faecalibacterium-prausnitzii, prevotella, roseburia]}
 seo_target: "Parkinson's disease heavy metals microbiome iron ferroptosis"

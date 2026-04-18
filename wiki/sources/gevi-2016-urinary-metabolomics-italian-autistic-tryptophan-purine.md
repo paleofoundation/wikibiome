@@ -7,6 +7,7 @@ authors: [Federica Gevi, Lello Zolla, Stefano Gabriele, Antonio M. Persico]
 year: 2016
 journal: "Molecular Autism"
 doi: "10.1186/s13229-016-0109-5"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, metabolomics, tryptophan, kynurenine, indoxyl-sulfate, indolyl-lactate, melatonin, serotonin, purine, quinolinic-acid, xanthurenic-acid, HILIC-UHPLC, urinary-biomarkers]
 library_category: metabolomics
 platform: HILIC-UHPLC-MS

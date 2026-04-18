@@ -11,6 +11,7 @@ doi: "10.3390/ijerph17238802"
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [cadmium, cobalt, iron, lead, mercury, nickel, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

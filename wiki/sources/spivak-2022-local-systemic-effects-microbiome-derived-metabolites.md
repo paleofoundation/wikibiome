@@ -7,6 +7,7 @@ authors: [Igor Spivak, Leviel Fluhr, Eran Elinav]
 year: 2022
 journal: "EMBO Reports"
 doi: "10.15252/embr.202255664"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, microbiome-metabolites, postbiotics, scfa, bile-acids, tryptophan, immune-balance, dysbiosis]
 library_category: reviews
 platform: cureva

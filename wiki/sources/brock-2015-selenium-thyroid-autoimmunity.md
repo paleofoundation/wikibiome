@@ -11,6 +11,7 @@ tags: [selenium, thyroid, autoimmunity, Hashimotos-thyroiditis, graves-disease, 
 platform: wikibiome
 evidence_level: randomized-controlled-trial
 metals_discussed: [cadmium, mercury, selenium]
+karen_brain_primitives: [3, 7]
 ---
 
 # The Role of Selenium in Thyroid Autoimmunity: A Review

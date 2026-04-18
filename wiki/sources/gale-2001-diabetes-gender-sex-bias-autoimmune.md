@@ -7,6 +7,7 @@ authors: [E. A. M. Gale, K. M. Gillespie]
 year: 2001
 journal: "Diabetologia"
 doi: "10.1007/s001250051573"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, sex-differences, epidemiology, genetics]
 library_category: reviews
 platform: cureva

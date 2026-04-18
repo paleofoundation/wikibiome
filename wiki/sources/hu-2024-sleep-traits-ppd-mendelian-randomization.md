@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: computational-prediction
 metals_discussed: [magnesium, zinc]
 key_findings: ["Sleep apnea syndrome"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

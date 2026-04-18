@@ -7,12 +7,14 @@ authors: [E. R. Ellsworth-Bowers, E. J. Corwin]
 year: 2012
 journal: "Nutrition Research Reviews"
 doi: "10.1017/S0954422412000091"
+evidence_level: expert-opinion
 tags: [postpartum-depression, nutrition, psychoneuroimmunology, n-3-PUFA, vitamin-D, zinc, selenium, B-vitamins, trace-elements, inflammation, review]
 library_category: review
 platform: cureva
 condition: "postpartum depression"
 metals_discussed: [copper, iron, magnesium, selenium, zinc]
 key_findings: ["Micronutrient deficiencies"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

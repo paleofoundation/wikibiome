@@ -10,6 +10,7 @@ doi: "10.1038/s41598-021-98718-x"
 tags: [chronic-kidney-disease, CKD, amino-acids, uremic-toxins, p-cresyl-sulfate, indoxyl-sulfate, diet-therapy, renal-fibrosis, mouse-model]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # A Low Aromatic Amino-Acid Diet Improves Renal Function in CKD Mice

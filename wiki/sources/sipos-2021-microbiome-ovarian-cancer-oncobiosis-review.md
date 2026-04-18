@@ -7,6 +7,7 @@ authors: [Sipos A, Ujlaki G, Miko E, Maka E, Szabo J, Uray K, Krasznai Z, Bai P]
 journal: Molecular Medicine
 year: 2021
 doi: "10.1186/s10020-021-00295-2"
+evidence_level: expert-opinion
 tags: [ovarian-cancer, microbiome, oncobiosis, EMT, microbial-metabolites, indole-derivatives, LPS, probiotics, SCFAs, bile-acids, lysophosphatidic-acid, dysbiosis]
 platform: wikibiome
 metals_discussed: [cadmium, iron, nickel]

@@ -11,6 +11,7 @@ doi: "10.3389/fmicb.2024.1309111"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [lachnospira, lachnospiraceae]
+karen_brain_primitives: [3]
 ---
 
 # Association between the Gut Microbiota, Inflammatory Factors, and Colorectal Cancer: Evidence from Mendelian Randomization Analysis

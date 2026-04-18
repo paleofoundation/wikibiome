@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Dietrich H Nies, Julie A Maupin-Furlow]
 year: 2025
 journal: "Journal of Bacteriology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Bacteriology 2025 -->
+doi: "not yet verified"
 pmcid: "PMC12632275"
 tags: [mismetallation, metal-homeostasis, zinc, iron, copper, cobalt, nickel, manganese, Irving-Williams-series, flow-equilibrium, Cupriavidus-metallidurans, metalloregulator, metal-transport]
 library_category: metal_homeostasis_bacteria

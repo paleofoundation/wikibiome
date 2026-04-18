@@ -11,6 +11,7 @@ doi: "10.1038/s41598-024-76125-2"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [anaerococcus, lactobacillus, porphyromonas, prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

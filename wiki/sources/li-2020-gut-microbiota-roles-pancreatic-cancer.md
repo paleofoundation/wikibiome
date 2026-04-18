@@ -11,6 +11,7 @@ doi: "10.3389/fcimb.2020.572492"
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [bacteroides-fragilis, fusobacterium-nucleatum, helicobacter-pylori, porphyromonas]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

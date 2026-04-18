@@ -11,6 +11,7 @@ doi: "10.3389/fnut.2022.876620"
 platform: wikibiome
 evidence_level: randomized-controlled-trial
 metals_discussed: [magnesium]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

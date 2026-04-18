@@ -10,6 +10,7 @@ doi: "10.1038/s41581-020-0297-2"
 tags: [chronic-kidney-disease, CKD, plant-based-diet, CKD-management, complications, review, dietary-guidelines]
 platform: wikibiome
 evidence_level: expert-opinion
+karen_brain_primitives: [3]
 ---
 
 # Plant-Based Diets to Manage CKD Risks and Complications

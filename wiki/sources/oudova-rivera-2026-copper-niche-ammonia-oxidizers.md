@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Barbora Oudova-Rivera, Andrew T Crombie, J Colin Murrell, Laura E Lehtovirta-Morley, Ian Anderson]
 year: 2026
 journal: "FEMS Microbiology Ecology"
-doi: "not yet verified"  # <!-- DOI lookup needed: FEMS Microbiology Ecology 2026 -->
+doi: "not yet verified"
 pmcid: "PMC13003922"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, ammonia-oxidizing-archaea, ammonia-oxidizing-bacteria, niche-differentiation, copper-enzymes, nutritional-immunity]
 library_category: antimicrobial_resistance

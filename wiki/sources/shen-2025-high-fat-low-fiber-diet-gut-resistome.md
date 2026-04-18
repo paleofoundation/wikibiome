@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [Yingbo Shen, Da Sun, Kun Chen, Junyao Jiang, Dongyan Shao, Lu Yang, Chengtao Sun, Dejun Liu, Yuebin Ke, Congming Wu, Timothy R. Walsh, Jianzhong Shen, Ziquan Lv, Yang Wang]
 journal: npj Biofilms and Microbiomes
 year: 2025
-doi: "not yet verified"  # <!-- DOI lookup needed: npj Biofilms and Microbiomes 2025 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, high-fiber-diet, high-fat-diet, antimicrobial-resistance, gut-resistome, metagenomics, ARGs, virulence-genes]
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [alistipes, bacteroides-fragilis, enterococcus, escherichia-coli, klebsiella-pneumoniae, parabacteroides, pseudomonas-aeruginosa, staphylococcus-aureus]
+karen_brain_primitives: [4, 6]
 ---
 
 # Shen et al. 2025 -- High-Fat and Low-Fiber Diet Elevates the Gut Resistome

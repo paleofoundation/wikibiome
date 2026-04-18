@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Callahan Katrak, Sydney Reed, Miranda Carter, Malak Khatib, Alexandra Peterson, Kyra Martin, Jessica K Kajfasz, Jacqueline Abranches]
 year: 2026
 journal: "Frontiers in Cellular and Infection Microbiology"
-doi: "not yet verified"  # <!-- DOI lookup needed: Frontiers in Cellular and Infection Microbiology 2026 -->
+doi: "not yet verified"
 pmcid: "PMC12957169"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, streptococcus-mutans, oral-microbiome, biofilm, fluoride, antimicrobial-metals, dental-caries]
 library_category: streptococcus_staphylococcus

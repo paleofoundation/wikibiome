@@ -8,6 +8,7 @@ journal: Digestive Diseases and Sciences
 year: 2014
 tags: [nickel-free-diet, H-pylori, eradication, triple-therapy, gastric-mucosa]
 doi: "10.1007/s10620-014-3060-3"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [iron, nickel]
 taxa_discussed: [helicobacter-pylori]

@@ -2,6 +2,32 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-18] Overnight continuous improvement — Cycle 1
+
+**Health check:** Fixed 200 malformed DOI lines (trailing crud on "not yet verified"). No source_count drift, no duplicate YAML keys, no URL-format DOIs.
+
+**Lint fixes:** Inferred `evidence_level` for 207 source pages from body keywords. Inferred `karen_brain_primitives` for 528 source pages. Fixed 3 [[polycystic-ovary-syndrome]] wikilinks → [[pcos]]. Added `signature_page` to 38 disease entity pages. Identified 14 orphan pages and 223 sources needing manual evidence_level review.
+
+**New pages created:**
+- `wiki/entities/gestational-diabetes.md` (stub, 6 sources)
+- `wiki/signatures/gestational-diabetes-signature.md` (stub, all layers preliminary)
+- 8 new source pages:
+  - `smovrsnik-2025-trace-elements-pcos-case-control.md` (case-control, n=70, Mo depletion in PCOS)
+  - `borghini-2020-low-nickel-diet-celiac-ibs-symptoms.md` (quasi-experimental, n=20, Ni ACM in celiac)
+  - `pourmirzaiee-2024-postpartum-depression-magnesium-infant-development.md` (prospective cohort, n=224)
+  - `hsu-2024-zinc-supplementation-primary-dysmenorrhea-meta-analysis.md` (systematic review, 6 RCTs, n=739)
+  - `ogundare-2024-metals-behavioral-factors-depression-women.md` (cross-sectional, NHANES)
+  - `rho-2025-heavy-metals-kidney-function-paradoxical.md` (cross-sectional, KoNEHS)
+  - `lamtai-2018-chronic-nickel-affective-cognitive-behavior-rats.md` (animal model, n=48)
+  - `tao-2024-cadmium-gut-microbiota-hamsters.md` (animal model, Cd → Prevotella/Treponema)
+
+**Cross-condition patterns detected:**
+- Cd-depression link (ogundare-2024) overlaps depression-signature metallomic layer
+- Ni-neurobehavior (lamtai-2018) connects nickel to anxiety/depression via oxidative stress
+- Cd-microbiome (tao-2024) supports Primitive 1 (metals as selective pressures)
+
+**Contradictions flagged:** None requiring supersession.
+
 ## [2026-04-18] Ghost page remediation — 163 new pages, ~3,290 wikilinks fixed
 
 - 52 new entity pages (162→214): 41 microbes, 7 diseases, 3 metals, 1 fungus
@@ -1432,7 +1458,7 @@ Read 9 previously-unprocessed PDFs across Ovarian Cancer, cardiovascular disease
 - Chen 2021: Azithromycin fails to fully eradicate CT genome in 100% of treated patients; L. iners persists post-antibiotic — challenges gold-standard monotherapy.
 
 **Next:**
-- Update [[polycystic-ovary-syndrome]] entity page — add Hungatella, Mortierella, Alloprevotella, Parasutterella, and BMI-stratified mycobiome findings.
+- Update [[pcos]] entity page — add Hungatella, Mortierella, Alloprevotella, Parasutterella, and BMI-stratified mycobiome findings.
 - Update [[ovarian-cancer]] entity page — add Dialister, Peptoniphilus, Facklamia hominis, Anaeroglobus geminatus; note multi-site sampling prognostic value.
 - Update [[cardiovascular-disease]] entity — add Cd/Hg/As/Pb exposure associations with plasma thresholds.
 - Update [[cadmium]] entity — add Liu 2023 mechanism (ZO-1 disruption, bacterial translocation, uremic toxins).

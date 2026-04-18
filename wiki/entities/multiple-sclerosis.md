@@ -15,6 +15,7 @@ tags: [autoimmune, neurological, probiotics, gut-brain-axis, microbiome, cytokin
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [depression, parkinsons-disease, inflammatory-bowel-disease, schizophrenia]
+signature_page: "[[multiple-sclerosis-signature]]"
 shared_signature_metals: {depression: [cadmium, lead], parkinsons-disease: [iron, lead, nickel], inflammatory-bowel-disease: [iron, nickel], schizophrenia: [lead, cadmium]}
 shared_signature_taxa: {depression: [faecalibacterium-prausnitzii, lachnospiraceae, candida-albicans], parkinsons-disease: [faecalibacterium-prausnitzii, lachnospiraceae, roseburia, akkermansia-muciniphila], inflammatory-bowel-disease: [faecalibacterium-prausnitzii, lachnospiraceae, ruminococcus, roseburia, escherichia-coli], schizophrenia: [lachnospiraceae, candida-albicans, streptococcus]}
 seo_target: "multiple sclerosis microbiome gut-brain axis probiotics"

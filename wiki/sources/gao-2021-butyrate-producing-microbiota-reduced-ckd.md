@@ -9,6 +9,7 @@ journal: "Scientific Reports"
 doi: "10.1038/s41598-021-02865-0"
 tags: [chronic-kidney-disease, CKD, butyrate, shotgun-metagenomics, CKD-severity, functional-analysis, two-component-systems]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Butyrate Producing Microbiota Are Reduced in CKD

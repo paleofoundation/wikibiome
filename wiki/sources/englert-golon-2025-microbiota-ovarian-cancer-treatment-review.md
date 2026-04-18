@@ -9,6 +9,7 @@ year: 2025
 doi: "10.5114/aoms/209544"
 tags: [ovarian-cancer, microbiota, chemotherapy, PARP-inhibitors, anti-angiogenic-therapy, immunotherapy, treatment-resistance, dysbiosis, biomarkers]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Potential Role of Microbiota in Ovarian Cancer Treatment

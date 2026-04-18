@@ -7,8 +7,10 @@ authors: [Elisavet Stavropoulou, Konstantina Kantartzi, Christina Tsigalou, Kons
 year: 2021
 journal: "Frontiers in Medicine"
 doi: "10.3389/fmed.2021.661203"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, immunosenescence, aging, gut-kidney-axis, microbiome, review]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Microbiome, Immunosenescence, and CKD

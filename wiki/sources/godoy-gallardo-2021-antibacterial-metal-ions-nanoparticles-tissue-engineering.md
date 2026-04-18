@@ -7,6 +7,7 @@ authors: [Maria Godoy-Gallardo, Ulrich Eckhard, Luis M Delgado, Yolanda J D de R
 year: 2021
 journal: "Bioactive Materials"
 doi: "10.1016/j.bioactmat.2021.04.033"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, antimicrobial-metals, silver, copper, zinc, gold, iron, nanoparticles, tissue-engineering, biofilm, ROS, membrane-disruption, implant-infection, biomaterials]
 library_category: antimicrobial_resistance
 platform: wikibiome

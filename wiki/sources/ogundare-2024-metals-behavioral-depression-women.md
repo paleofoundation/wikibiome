@@ -11,6 +11,7 @@ doi: "10.3390/toxics12120879"
 platform: wikibiome
 evidence_level: cross-sectional
 metals_discussed: [cadmium, lead, mercury, nickel]
+karen_brain_primitives: [3]
 ---
 
 # Association of Combined Effect of Metals Exposure and Behavioral Factors on Depressive Symptoms in Women

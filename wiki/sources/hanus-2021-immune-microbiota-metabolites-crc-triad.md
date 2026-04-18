@@ -8,6 +8,7 @@ journal: Frontiers in Immunology
 year: 2021
 tags: [colon-cancer, tumor-microenvironment, SCFAs, butyrate, polyamines, pks-E-coli, Fusobacterium-nucleatum, colibactin, Warburg-effect, immune-escape, colorectal-cancer, microbial-metabolites]
 doi: "10.3389/fimmu.2021.612826"
+evidence_level: expert-opinion
 platform: wikibiome
 taxa_discussed: [enterococcus, escherichia-coli, fusobacterium-nucleatum, peptostreptococcus]
 karen_brain_primitives: [9]

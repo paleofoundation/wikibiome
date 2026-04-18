@@ -8,8 +8,10 @@ journal: "Zenodo Preprint"
 year: 2026
 tags: [heavy-metals, food-safety, public-disclosure, naming-and-shaming, compliance-theory, game-theory, third-party-certification, supply-chain, litigation, consumer-protection]
 doi: "10.5281/zenodo.19470572"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [arsenic, cadmium, lead, mercury, nickel]
+karen_brain_primitives: [3]
 ---
 
 > **Note:** This is a preprint by the WikiBiome founder, not independently peer-reviewed journal literature.

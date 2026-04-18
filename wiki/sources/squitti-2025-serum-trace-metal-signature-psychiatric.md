@@ -7,6 +7,7 @@ authors: [Squitti R, Bonvicini C, Fostinelli S, Rongioletti M, Severino A, Gevit
 journal: Biometals
 year: 2025
 doi: "10.1007/s10534-025-00723-4"
+evidence_level: expert-opinion
 tags: [metallomics, psychiatry, copper, zinc, iron, magnesium, Cu-Zn-ratio, mood-disorders, schizophrenia, personality-disorders, transferrin, ferritin, biomarkers]
 platform: wikibiome
 metals_discussed: [copper, iron, magnesium, zinc]

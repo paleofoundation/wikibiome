@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: expert-opinion
 metals_discussed: [iron, magnesium, zinc]
 key_findings: ["PPD affects 13-19% of females", "Pathophysiology"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

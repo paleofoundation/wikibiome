@@ -10,6 +10,7 @@ tags: [pancreatic-cancer, meta-analysis, type-2-diabetes, risk-factors, epidemio
 doi: "10.1038/sj.bjc.6602619"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

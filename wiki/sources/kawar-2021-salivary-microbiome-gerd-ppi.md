@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, salivary-microbiome, oral-microbiome, prot
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [lachnospiraceae, porphyromonas, prevotella]
+karen_brain_primitives: [5, 6]
 ---
 
 # Salivary microbiome with gastroesophageal reflux disease and treatment

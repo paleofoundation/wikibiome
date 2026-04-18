@@ -10,6 +10,7 @@ doi: 10.1186/1471-2377-13-128
 tags: [multiple-sclerosis, epidemiology, incidence, prevalence, Europe, systematic-review, geographical-variation, sex-ratio]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Incidence and Prevalence of Multiple Sclerosis in Europe: A Systematic Review

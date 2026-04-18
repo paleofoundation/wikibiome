@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [de Paiva EL, Medeiros C, Milani RF, Morgano MA, Pallone JAL, Arisseto-Bragotto AP]
 journal: Food Research International
 year: 2020
-doi: "not yet verified"  # <!-- DOI lookup needed: Food Research International 2020 -->
+doi: "not yet verified"
 tags: [aluminum, cereal, baby-food, bioaccessibility, in-vitro-digestion, infant-formula, Brazil, ICP-OES]
 platform: wikibiome
 evidence_level: in-vitro
 metals_discussed: [aluminum]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

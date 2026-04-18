@@ -5,11 +5,12 @@ created: 2026-04-09
 updated: 2026-04-09
 authors: [Benjamin Lidgard, Amanda M. Fretts, Leila R. Zelnick]
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: Manuscript (FORCE consortium) 2024 -->
+doi: "not yet verified"
 journal: "Manuscript (FORCE consortium)"
 tags: [chronic-kidney-disease, CKD, fatty-acids, saturated-fat, meta-analysis, prospective-cohort, incident-CKD]
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
+karen_brain_primitives: [3]
 ---
 
 # Circulating Saturated Fatty Acids and Incident CKD

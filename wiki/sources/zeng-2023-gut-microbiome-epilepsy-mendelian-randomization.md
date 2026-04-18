@@ -11,6 +11,7 @@ tags: [gut-microbiome, epilepsy, Mendelian-randomization, MiBioGen, FinnGen, Bet
 platform: wikibiome
 evidence_level: mendelian-randomization
 taxa_discussed: [akkermansia-muciniphila, eubacterium]
+karen_brain_primitives: [3]
 ---
 
 # Roles of Gut Microbiome in Epilepsy Risk: A Mendelian Randomization Study

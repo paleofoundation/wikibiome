@@ -7,6 +7,7 @@ authors: [Hilde Herrema, Jan Hendrik Niess]
 year: 2020
 journal: "Diabetologia"
 doi: "10.1007/s00125-020-05268-4"
+evidence_level: animal-model
 tags: [type-1-diabetes, autoimmune, microbial-metabolites, scfa, bile-acids, tmao, intestinal-permeability, gut-microbiome, dysbiosis]
 library_category: reviews
 platform: cureva

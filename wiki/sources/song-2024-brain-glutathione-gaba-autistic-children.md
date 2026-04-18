@@ -7,11 +7,13 @@ authors: [Yulu Song, Kathleen E. Hupfeld, Christopher W. Davies-Jenkins, Helge J
 year: 2024
 journal: "Autism Research"
 doi: "10.1002/aur.3097"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, glutathione, GABA, MR-spectroscopy, brain-imaging, motor-cortex, prefrontal-cortex, thalamus, oxidative-stress]
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["No significant differences", "HERMES MR spectroscopy at 3T", "Regions examined"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

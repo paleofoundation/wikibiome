@@ -10,6 +10,7 @@ tags: [oral-hyposensitization, nickel-allergy, SNAS, immunotherapy, clinical-tri
 doi: "10.1177/039463200601900120"
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

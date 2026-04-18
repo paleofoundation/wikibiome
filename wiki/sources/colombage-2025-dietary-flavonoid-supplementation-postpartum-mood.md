@@ -6,13 +6,14 @@ updated: 2026-04-09
 authors: [Rebecca Colombage]
 year: 2025
 journal: "University of Reading (PhD thesis)"
-doi: "not yet verified"  # <!-- DOI lookup needed: University of Reading (PhD thesis) 2025 -->
+doi: "not yet verified"
 tags: [postpartum-depression, flavonoids, anthocyanins, blueberry, cognition, mood, dietary-intervention, polyphenols]
 library_category: clinical-trial
 platform: cureva
 condition: "postpartum depression"
 metals_discussed: [copper, iron, zinc]
 key_findings: ["Dietary flavonoid supplementation", "Earlier postpartum intervention", "Acute anthocyanin-rich wild blueberry"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

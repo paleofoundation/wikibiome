@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [L.A. Sealey, B.W. Hughes, A.N. Sriskanda, J.R. Guest, A.D. Gibson, L. Johnson-Williams, D.G. Pace, O. Bagasra]
 journal: Environment International
 year: 2016
-doi: "not yet verified"  # <!-- DOI lookup needed: Environment International 2016 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [autism, environmental-factors, neurotoxins, heavy-metals, mercury, aluminum, glyphosate, fragrances, endocrine-disruptors, vaccines, maternal-antibodies]
 platform: wikibiome
 metals_discussed: [aluminum, arsenic, lead, manganese, mercury]

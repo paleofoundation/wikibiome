@@ -8,6 +8,7 @@ journal: Frontiers in Medicine
 year: 2022
 tags: [crohns-disease, IBD, microbiota-manipulation, probiotics, prebiotics, FMT, antibiotics, mycobiome, virome, archaeome, dysbiosis]
 doi: "10.3389/fmed.2022.887044"
+evidence_level: expert-opinion
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, candida-albicans, escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, methanosphaera, roseburia, saccharomyces-cerevisiae]
 karen_brain_primitives: [5, 6]

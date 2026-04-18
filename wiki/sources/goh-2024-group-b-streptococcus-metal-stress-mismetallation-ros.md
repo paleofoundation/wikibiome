@@ -7,6 +7,7 @@ authors: [Kelvin G K Goh, Devika Desai, Ruby Thapa, Darren Prince, Dhruba Achary
 year: 2024
 journal: "FEMS Microbiology Reviews"
 doi: "10.1093/femsre/fuae009"
+evidence_level: expert-opinion
 tags: [mismetallation, metal-homeostasis, copper, zinc, manganese, iron, oxidative-stress, nitrosative-stress, Group-B-Streptococcus, Streptococcus-agalactiae, nutritional-immunity, neonatal-sepsis, virulence, ROS, RNS, phagocyte]
 library_category: streptococcus_staphylococcus
 platform: wikibiome

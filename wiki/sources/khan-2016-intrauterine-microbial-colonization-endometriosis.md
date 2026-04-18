@@ -11,6 +11,7 @@ doi: "10.1016/j.ejogrb.2016.01.040"
 platform: wikibiome
 evidence_level: case-control
 taxa_discussed: [escherichia-coli, gardnerella]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

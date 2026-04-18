@@ -12,6 +12,7 @@ library_category: environmental
 platform: cureva
 condition: "postpartum depression"
 key_findings: ["Anti-inflammatory drug residues", "94.4% had quinolone"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

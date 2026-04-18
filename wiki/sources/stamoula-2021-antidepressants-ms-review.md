@@ -11,6 +11,7 @@ doi: "10.3389/fimmu.2021.677879"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [iron]
+karen_brain_primitives: [5]
 ---
 
 # Antidepressants on Multiple Sclerosis: A Review of In Vitro and In Vivo Models

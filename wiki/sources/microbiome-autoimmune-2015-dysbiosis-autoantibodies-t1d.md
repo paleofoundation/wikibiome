@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Various]
 year: 2015
 journal: "Various"
-doi: "not yet verified"  # <!-- DOI lookup needed: Various 2015 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, microbiome, autoantibodies, autoimmunity, dysbiosis, islet-autoimmunity, immune-balance]
 library_category: reviews
 platform: cureva

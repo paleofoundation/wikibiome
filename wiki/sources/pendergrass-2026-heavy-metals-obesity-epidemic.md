@@ -8,6 +8,7 @@ journal: "Zenodo Preprint"
 year: 2026
 tags: [obesity, heavy-metals, microbial-metallomics, gut-microbiome, insulin-resistance, cadmium, nickel, phosphate-fertilizers, SCFA, dysbiosis, metabolic-syndrome, environmental-obesogens]
 doi: "10.5281/zenodo.18434951"
+evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 3, 5]

@@ -10,6 +10,7 @@ year: 2018
 tags: [colon-cancer, 16S-rRNA, metabolomics, LC-MS, colorectal-cancer, serotonin, tryptophan, S-adenosyl-homocysteine, Anaerotruncs, Intestinimonas, steroid-biosynthesis, biofilm]
 doi: "10.1371/journal.pone.0208584"
 platform: wikibiome
+karen_brain_primitives: [6]
 ---
 
 # Metabolomics and 16S rRNA Sequencing of Human Colorectal Cancers and Adjacent Mucosa

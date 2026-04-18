@@ -10,6 +10,7 @@ doi: "10.3389/fnut.2024.1444483"
 tags: [schizophrenia, bipolar-disorder, ketogenic-diet, metabolic-therapy, RCT, brain-bioenergetics, glucose-metabolism, microbiome, PANSS]
 platform: wikibiome
 evidence_level: randomized-controlled-trial
+karen_brain_primitives: [3]
 ---
 
 # The Effects of Ketogenic Metabolic Therapy on Mental Health and Metabolic Outcomes in Schizophrenia and Bipolar Disorder

@@ -8,8 +8,10 @@ authors: [Alexander C. Razavi, Kaitlin S. Potts, Tanika N. Kelly, Lydia A. Bazza
 journal: Biology of Sex Differences
 year: 2019
 doi: 10.1186/s13293-019-0240-z
+evidence_level: expert-opinion
 tags: [cardiovascular-disease, CVD, gut-microbiome, sex-differences, TMAO, SCFAs, BCAAs, LPS, blood-pressure, dyslipidemia, hypertension, obesity, review]
 platform: wikibiome
+karen_brain_primitives: [4, 7]
 ---
 
 # Sex, Gut Microbiome, and Cardiovascular Disease Risk

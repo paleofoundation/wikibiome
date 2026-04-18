@@ -11,6 +11,7 @@ tags: [ovarian-cancer, Mendelian-randomization, gut-microbiota, Lachnospiraceae,
 platform: wikibiome
 evidence_level: mendelian-randomization
 taxa_discussed: [lachnospiraceae]
+karen_brain_primitives: [3]
 ---
 
 # Causal Relationship Between Gut Microbiota and Gynecological Tumor

@@ -10,6 +10,7 @@ tags: [low-nickel-diet, hand-eczema, dyshidrotic-dermatitis, urinary-nickel, pio
 doi: "10.1111/j.1365-2133.1978.tb01622.x"
 platform: wikibiome
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 ## Key Claims

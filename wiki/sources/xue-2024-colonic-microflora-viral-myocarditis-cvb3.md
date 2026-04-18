@@ -13,6 +13,7 @@ pages_read: "1-8"
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [alistipes, bacteroides-fragilis, escherichia-coli, lactobacillus, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

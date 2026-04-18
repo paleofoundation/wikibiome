@@ -11,6 +11,7 @@ tags: [graves-disease, thyroid, autoimmune, rheumatoid-arthritis, mendelian-rand
 platform: wikibiome
 evidence_level: computational-prediction
 metals_discussed: [copper, iron, selenium, zinc]
+karen_brain_primitives: [3]
 ---
 
 # Graves' Disease and Rheumatoid Arthritis: A Bidirectional Mendelian Randomization Study

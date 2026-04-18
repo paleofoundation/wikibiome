@@ -7,6 +7,7 @@ authors: [Yong Tang, Yakun Chen, Hongmei Jiang, Gregory T. Robbins, Daotai Nie]
 journal: International Journal of Cancer
 year: 2011
 doi: "10.1002/ijc.25638"
+evidence_level: in-vitro
 tags: [colon-cancer, colorectal-cancer, SCFAs, GPR43, FFAR2, butyrate, propionate, apoptosis, cell-cycle-arrest, tumor-suppressor, epigenetics]
 platform: wikibiome
 karen_brain_primitives: [5]

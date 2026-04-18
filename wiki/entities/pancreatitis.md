@@ -15,6 +15,7 @@ wikipedia_differentiation: "Fungal dysbiosis in acute pancreatitis; autoimmune p
 icd_10: "K85 (acute), K86.1 (chronic)"
 global_prevalence: "Acute: 34 per 100,000/year; Chronic: 10 per 100,000"
 associated_conditions: [pancreatic-cancer, type-2-diabetes, obesity]
+signature_page: "[[pancreatitis-signature]]"
 ---
 
 # Pancreatitis

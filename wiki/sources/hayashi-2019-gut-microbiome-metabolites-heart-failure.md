@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, CVD, heart-failure, gut-microbiome, TMAO, indoxyl
 platform: wikibiome
 evidence_level: prospective-cohort
 taxa_discussed: [bifidobacterium, escherichia-coli, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiome and Plasma Microbiome-Related Metabolites in Patients With Decompensated and Compensated Heart Failure

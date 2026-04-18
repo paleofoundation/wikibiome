@@ -8,6 +8,7 @@ journal: Clin Dermatol
 year: 2015
 tags: [nickel, contact-dermatitis, children, allergy, patch-testing, dietary-nickel, treatment]
 doi: "10.1016/j.scib.2017.05.005"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [nickel]
 taxa_discussed: [helicobacter-pylori]

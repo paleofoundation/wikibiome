@@ -6,7 +6,8 @@ updated: 2026-04-09
 authors: [Kishore Vipperla, Stephen J. O'Keefe]
 journal: Food & Function
 year: 2016
-doi: "not yet verified"  # <!-- DOI lookup needed: Food & Function 2016 -->
+doi: "not yet verified"
+evidence_level: expert-opinion
 tags: [colon-cancer, colorectal-cancer, dysbiosis, diet, microbiome, butyrate, bile-acids, hydrogen-sulfide, SCFAs, red-meat, fiber, metabolome]
 platform: wikibiome
 karen_brain_primitives: [1]

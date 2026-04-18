@@ -8,6 +8,7 @@ journal: Environmental Microbiology Reports
 year: 2020
 tags: [pancreatic-cancer, arsenic, gut-microbiome, arsenic-resistance, arsenic-methylation, arsenic-biotransformation, GIT-microbiome, heavy-metals]
 doi: "10.1111/1758-2229.12814"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [arsenic]
 taxa_discussed: [citrobacter, desulfovibrio]

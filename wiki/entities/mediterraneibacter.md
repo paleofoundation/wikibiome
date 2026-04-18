@@ -77,7 +77,7 @@ The dietary cycling data linking *Mediterraneibacter* to LDL-C fluctuations [[zh
 ## Cross-References
 
 - [[phocaeicola]] -- co-enriched in PCOS FMT microbiota
-- [[polycystic-ovary-syndrome]] -- PCOS phenotype transfer via enriched microbiota
+- [[pcos]] -- PCOS phenotype transfer via enriched microbiota
 - [[lachnospiraceae]] -- parent family
 - [[ruminococcus-gnavus]] -- related taxonomic revision; disambiguation required
 - [[collinsella]] -- co-cycling with dietary changes in CVD context

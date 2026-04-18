@@ -10,6 +10,7 @@ tags: [hashimotos-thyroiditis, thyroid, autoimmune, metabolomics, follicular-flu
 doi: "10.1038/s41598-023-39514-7"
 platform: wikibiome
 evidence_level: case-control
+karen_brain_primitives: [3]
 ---
 
 # Metabolomic analysis of follicular fluid from women with Hashimoto thyroiditis

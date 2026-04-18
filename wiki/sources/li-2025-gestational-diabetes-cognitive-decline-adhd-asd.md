@@ -6,13 +6,14 @@ updated: 2026-04-09
 authors: [Queenie Li Ling Jun]
 year: 2025
 journal: "NUS Medicine Press Release / European Association for the Study of Diabetes (EASD)"
-doi: "not yet verified"  # <!-- DOI lookup needed: NUS Medicine Press Release / European Association for the Study of Diabetes (EASD) 2025 -->
+doi: "not yet verified"
 tags: [autism-spectrum-disorder, gestational-diabetes, ADHD, cognitive-decline, maternal-health, pregnancy, metabolic-disorders]
 library_category: associated-conditions
 platform: cureva
 condition: "autism spectrum disorder"
 evidence_level: systematic-review-meta-analysis
 key_findings: ["Gestational diabetes (GDM)", "Mothers with GDM history", "Children exposed to GDM"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

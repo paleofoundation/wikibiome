@@ -6,11 +6,12 @@ updated: 2026-04-09
 authors: [David Ma, Amy C. Wang, Ishita Parikh, Stefan J. Green, Jared D. Hoffman, George Chlipala, M. Paul Murphy, Brent S. Bhatt, Bjorn Bauer, Anika M. S. Hartz, Ai-Ling Lin]
 journal: Scientific Reports
 year: 2018
-doi: "not yet verified"  # <!-- DOI lookup needed: Scientific Reports 2018 -->
+doi: "not yet verified"
 tags: [cardiovascular-disease, ketogenic-diet, gut-microbiome, neurovascular-function, cerebral-blood-flow, Akkermansia, Lactobacillus, mTOR, eNOS, BBB]
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [akkermansia-muciniphila, clostridium, desulfovibrio, dorea, lactobacillus]
+karen_brain_primitives: [5]
 ---
 
 # Ma et al. 2018 -- Ketogenic Diet Enhances Neurovascular Function via Gut Microbiome

@@ -7,8 +7,10 @@ authors: [Panagiotis Theofilis, Aikaterini Vordoni, Maria Koukoulaki, Georgios V
 year: 2021
 journal: "American Journal of Nephrology"
 doi: "10.1159/000518456"
+evidence_level: expert-opinion
 tags: [chronic-kidney-disease, CKD, dyslipidemia, statins, gut-microbiota, PCSK9, lipoprotein-a, review]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Dyslipidemia in CKD: Concepts and Perspectives

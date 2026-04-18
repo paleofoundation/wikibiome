@@ -10,6 +10,7 @@ authors:
 journal: Nature Reviews Cardiology
 year: 2023
 doi: 10.1038/s41569-022-00825-3
+evidence_level: expert-opinion
 tags:
   - cardiovascular-disease
   - CVD

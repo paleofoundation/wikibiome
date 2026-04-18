@@ -11,6 +11,7 @@ doi: "10.1007/s12011-024-04062-w"
 platform: wikibiome
 evidence_level: case-control
 metals_discussed: [cadmium, copper, zinc]
+karen_brain_primitives: [3]
 ---
 
 ## Summary

@@ -11,6 +11,7 @@ tags: [gerd, gastroesophageal-reflux, reflux-esophagitis, helicobacter-pylori, o
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [actinomyces, campylobacter-jejuni, haemophilus, helicobacter-pylori, megasphaera, prevotella, streptococcus, veillonella]
+karen_brain_primitives: [3]
 ---
 
 # Effects of Helicobacter pylori Infection on the Oral Microbiota of Reflux Esophagitis Patients

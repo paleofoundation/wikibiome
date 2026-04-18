@@ -8,6 +8,7 @@ journal: Frontiers in Plant Science
 year: 2016
 tags: [heavy-metals, metabolomics, ionomics, transcriptomics, proteomics, plant-tolerance, oxidative-stress, metallophytes, ROS]
 doi: "10.3389/fpls.2015.01143"
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [arsenic, cadmium, lead, zinc]
 karen_brain_primitives: [1, 4]

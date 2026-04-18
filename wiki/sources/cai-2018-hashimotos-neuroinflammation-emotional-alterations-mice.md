@@ -10,6 +10,7 @@ doi: "10.1186/s12974-018-1341-z"
 tags: [hashimotos-thyroiditis, thyroid, neuroinflammation, depression, anxiety, serotonin, microglia, astroglia, IL-1beta, TNF-alpha, IDO1, SERT, frontal-cortex, euthyroid]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [7]
 ---
 
 # Hashimoto's Thyroiditis Induces Neuroinflammation and Emotional Alterations in Euthyroid Mice

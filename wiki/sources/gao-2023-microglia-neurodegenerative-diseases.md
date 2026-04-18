@@ -10,6 +10,7 @@ tags: [microglia, neurodegeneration, Alzheimers-disease, Parkinsons-disease, ALS
 doi: "10.1038/s41392-023-01588-0"
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

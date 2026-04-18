@@ -11,6 +11,7 @@ tags: [ovarian-cancer, HPV16, vaginal-microbiome, shotgun-metagenomics, Gardnere
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [gardnerella, lactobacillus, peptostreptococcus, prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Vaginal Microbiome Alterations in HPV16 Infection

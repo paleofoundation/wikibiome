@@ -14,6 +14,7 @@ platform: wikibiome
 evidence_level: computational-prediction
 taxa_discussed: [alistipes, bifidobacterium, coprococcus, dorea, eubacterium, lachnospiraceae, streptococcus]
 key_findings: ["Atrial fibrillation", "Hypertension"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

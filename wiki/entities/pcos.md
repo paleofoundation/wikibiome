@@ -10,6 +10,7 @@ tags: [endocrine-disease, copper, zinc, nickel, cadmium, lead, metalloestrogens,
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [type-2-diabetes, obesity, endometriosis, cardiovascular-disease, depression]
+signature_page: "[[pcos-signature]]"
 shared_signature_metals: {type-2-diabetes: [iron, cadmium, lead, nickel], obesity: [cadmium, nickel, lead, iron], endometriosis: [cadmium, lead, nickel, iron, copper], cardiovascular-disease: [cadmium, lead, iron, copper], depression: [iron, cadmium, lead, copper]}
 shared_signature_taxa: {type-2-diabetes: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii], obesity: [escherichia-coli, bifidobacterium, faecalibacterium-prausnitzii], endometriosis: [escherichia-coli, lactobacillus], cardiovascular-disease: [escherichia-coli, faecalibacterium-prausnitzii], depression: [escherichia-coli, faecalibacterium-prausnitzii, lactobacillus, bifidobacterium]}
 seo_target: "PCOS heavy metals microbiome copper cadmium"

@@ -14,6 +14,7 @@ condition: "autism spectrum disorder"
 source_pages: "pp. 1-8"
 evidence_level: systematic-review-meta-analysis
 key_findings: ["CD4+ %leukocyte", "CD20 on CD24+CD27+", "CD28-CD8dim %CD8dim"]
+karen_brain_primitives: [3]
 ---
 
 # Overview

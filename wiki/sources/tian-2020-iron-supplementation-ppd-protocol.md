@@ -11,6 +11,7 @@ doi: "10.1097/MNM.0000000000001640"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [iron, zinc]
+karen_brain_primitives: [5]
 ---
 
 # Key Claims

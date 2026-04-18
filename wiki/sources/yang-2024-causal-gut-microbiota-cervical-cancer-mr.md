@@ -11,6 +11,7 @@ tags: [ovarian-cancer, cervical-cancer, Mendelian-randomization, gut-microbiota,
 platform: wikibiome
 evidence_level: mendelian-randomization
 taxa_discussed: [dialister]
+karen_brain_primitives: [3]
 ---
 
 # Causal Correlation Between Gut Microbiota and Cervical Cancer Pathogenesis

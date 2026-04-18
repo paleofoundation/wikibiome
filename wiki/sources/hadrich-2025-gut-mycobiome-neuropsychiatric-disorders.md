@@ -7,6 +7,7 @@ authors: [Ines Hadrich, Mariem Turki, Imen Chaari, Balkiss Abdelmoula, Rahma Gar
 year: 2025
 journal: "Frontiers in Cellular Neuroscience"
 doi: "10.3389/fncel.2024.1495224"
+evidence_level: expert-opinion
 tags: [mycobiome, neuropsychiatric-disorders, Candida, Saccharomycetaceae, Debaryomycetaceae, schizophrenia, ASD, ADHD, depression, Alzheimers, gut-brain-axis, antifungal-therapy]
 library_category: "Mycobiome"
 platform: review

@@ -11,6 +11,7 @@ doi: "10.1186/s13287-018-1015-x"
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [nickel]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

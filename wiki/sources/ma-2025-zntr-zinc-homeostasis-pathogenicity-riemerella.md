@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Hongmeng Ma, Mengying Wang, Yizhou Yao, Shutong Zhang, Mingshu Wang, Dekang Zhu, Renyong Jia, Shun Chen, Xinxin Zhao, Qiao Yang, Ying Wu, Shaqiu Zhang, Juan Huang, Bin Tian, Xumin Ou, Di Sun, Yu He, Zhen Wu, Ling Zhang, Yanling Yu, Anchun Cheng, Mafeng Liu]
 year: 2025
 journal: "Microbiology Spectrum"
-doi: "not yet verified"  # <!-- DOI lookup needed: Microbiology Spectrum 2025 -->
+doi: "not yet verified"
 pmcid: "PMC11960050"
 tags: [mismetallation, metal-homeostasis, zinc, zinc-toxicity, ZntR, metalloregulator, riemerella-anatipestifer, poultry-pathogen, oxidative-stress, virulence, manganese, Irving-Williams-series]
 library_category: copper_zinc_toxicity

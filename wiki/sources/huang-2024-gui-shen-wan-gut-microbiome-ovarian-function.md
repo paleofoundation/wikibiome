@@ -10,6 +10,7 @@ doi: "10.3389/fcimb.2024.1505958"
 tags: [ovarian-cancer, traditional-Chinese-medicine, Gui-Shen-Wan, gut-microbiome, ovarian-dysfunction, proteome, oxidative-phosphorylation]
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [5]
 ---
 
 # Gut Microbiome Depletion Impairs Gui-Shen-Wan's Ovarian Function Restoration

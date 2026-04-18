@@ -10,6 +10,7 @@ doi: "10.1371/journal.pone.0228530"
 tags: [chronic-kidney-disease, CKD, gut-microbiota, frailty, elderly, 16S-rRNA, Citrobacter, Coprobacillus, Akkermansia, inflammation]
 platform: wikibiome
 taxa_discussed: [akkermansia-muciniphila, citrobacter, eubacterium, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiota Composition and Frailty in Elderly Patients with Chronic Kidney Disease

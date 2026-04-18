@@ -10,6 +10,7 @@ tags: [dietary-polyphenols, multiple-sclerosis, oxidative-stress, Nrf2, resverat
 doi: "10.1007/s12035-026-05748-5"
 platform: wikibiome
 evidence_level: animal-model
+karen_brain_primitives: [5]
 ---
 
 # The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms

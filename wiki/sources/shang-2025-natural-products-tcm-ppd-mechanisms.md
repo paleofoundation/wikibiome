@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["PPD is more prevalent in developing countries", "TCM formulas", "Neuroinflammation"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

@@ -10,6 +10,7 @@ tags: [colon-cancer, functional-microbiome, KEGG, metagenomics, SVM, enzyme-comm
 doi: "10.3389/fmicb.2019.03117"
 platform: wikibiome
 taxa_discussed: [bacteroides-fragilis, escherichia-coli, fusobacterium-nucleatum, peptostreptococcus, porphyromonas]
+karen_brain_primitives: [3]
 ---
 
 # Beyond Taxonomic Analysis of Microbiomes: A Functional Approach for Revisiting Microbiome Changes in Colorectal Cancer

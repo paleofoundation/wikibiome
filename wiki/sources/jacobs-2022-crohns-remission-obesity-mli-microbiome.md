@@ -11,6 +11,7 @@ doi: "10.1186/s13073-022-01099-7"
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [escherichia-coli, faecalibacterium-prausnitzii, fusobacterium-nucleatum, mycoplasma, shigella]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

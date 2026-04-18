@@ -7,6 +7,7 @@ authors: [Evelyn Takyi, Khemlal Nirmalkara, James Adams, Rosa Krajmalnik-Brown]
 year: 2025
 journal: "Gut Microbes"
 doi: "10.1080/19490976.2025.2499580"
+evidence_level: expert-opinion
 tags: [autism, microbiota, interventions, fmt, probiotics, prebiotics, diet]
 library_category: interventions
 platform: cureva

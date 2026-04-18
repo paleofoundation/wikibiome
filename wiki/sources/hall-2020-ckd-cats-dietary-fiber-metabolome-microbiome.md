@@ -9,6 +9,7 @@ journal: "PLOS ONE"
 doi: "10.1371/journal.pone.0235480"
 tags: [chronic-kidney-disease, CKD, feline, dietary-fiber, scFOS, apple-pomace, metabolome, tryptophan, kynurenine, Bacteroidales]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # CKD in Cats Alters Metabolome and Microbiome Response to Dietary Fiber

@@ -10,6 +10,7 @@ tags: [IBD, Crohns-disease, ulcerative-colitis, calprotectin, hepcidin, iron, zi
 platform: wikibiome
 last_substantive_update: 2026-04-13
 associated_conditions: [crohns-disease, ulcerative-colitis, colorectal-cancer, multiple-sclerosis, graves-disease]
+signature_page: "[[inflammatory-bowel-disease-signature]]"
 shared_signature_metals: {crohns-disease: [iron, zinc, cadmium, copper], ulcerative-colitis: [iron, zinc, copper], colorectal-cancer: [iron, zinc, cadmium], multiple-sclerosis: [iron, nickel], graves-disease: [iron, zinc]}
 shared_signature_taxa: {crohns-disease: [escherichia-coli, faecalibacterium-depleted, lachnospiraceae-depleted, roseburia-depleted], ulcerative-colitis: [escherichia-coli, faecalibacterium-depleted, lachnospiraceae-depleted], colorectal-cancer: [escherichia-coli, fusobacterium-nucleatum, faecalibacterium-depleted], multiple-sclerosis: [faecalibacterium-prausnitzii, lachnospiraceae, ruminococcus, roseburia, escherichia-coli], graves-disease: [bacteroides-fragilis, faecalibacterium-prausnitzii, lachnospiraceae, escherichia-coli]}
 seo_target: "inflammatory bowel disease heavy metals microbiome iron zinc dysbiosis"

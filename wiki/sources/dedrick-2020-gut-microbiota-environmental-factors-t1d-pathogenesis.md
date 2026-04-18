@@ -7,6 +7,7 @@ authors: [Sandra Dedrick, Bharathi Sundaresh, Qian Huang, Claudia Brady, Tessa Y
 year: 2020
 journal: "Frontiers in Endocrinology"
 doi: "10.3389/fendo.2020.00078"
+evidence_level: expert-opinion
 tags: [type-1-diabetes, autoimmune, gut-microbiome, environmental-factors, longitudinal, virome, metabolites, dysbiosis, immune-balance]
 library_category: reviews
 platform: cureva

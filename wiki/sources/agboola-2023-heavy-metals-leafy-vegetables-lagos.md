@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [O. O. Agboola, S. Oyedeji, T. A. Olawoyin, I. E. Unazi, K. A. Bolarinwa, S. C. Eze, J. O. Olowoyo]
 journal: Journal of Applied Sciences and Environmental Management
 year: 2023
-doi: "not yet verified"  # <!-- DOI lookup needed: Journal of Applied Sciences and Environmental Management 2023 -->
+doi: "not yet verified"
 tags: [heavy-metals, food-safety, leafy-vegetables, copper, zinc, chromium, nickel, hazard-quotient, Lagos, Nigeria, dietary-exposure, ICP-MS, original-research]
 platform: wikibiome
 evidence_level: cross-sectional

@@ -11,6 +11,7 @@ doi: "10.1186/s13073-024-01364-x"
 platform: wikibiome
 evidence_level: systematic-review-meta-analysis
 taxa_discussed: [actinomyces, bacteroides-fragilis, clostridium, eubacterium, faecalibacterium-prausnitzii, prevotella, subdoligranulum]
+karen_brain_primitives: [3]
 ---
 
 # Meta-Analysis Identifies Common Gut Microbiota Associated with Multiple Sclerosis

@@ -21,6 +21,7 @@ tags:
   - SCFAs
   - intestinal-permeability
 doi: 10.1002/ncp.10489
+evidence_level: expert-opinion
 platform: wikibiome
 metals_discussed: [iron, zinc]
 taxa_discussed: [akkermansia-muciniphila, bacteroides-fragilis, bifidobacterium, clostridium, faecalibacterium-prausnitzii, lactobacillus, prevotella, roseburia, ruminococcus]

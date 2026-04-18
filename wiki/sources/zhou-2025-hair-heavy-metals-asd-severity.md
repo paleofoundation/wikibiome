@@ -7,7 +7,7 @@ updated: 2026-04-09
 authors: [Xulan Zhou, Xiaochun Xia, Liming Li, Yaohui Ye, Qihui Chen, Mingyue Ke, Qian Cui, Yuling He, Yiting Chen, Shaoqing Lin, Wenlong Liu, Juan Wang]
 journal: Biological Trace Element Research
 year: 2025
-doi: "not yet verified"  # <!-- DOI lookup needed: Biological Trace Element Research 2025 -->
+doi: "not yet verified"
 tags: [autism, heavy-metals, hair-analysis, copper, nickel, arsenic, cadmium, lead, vanadium, cobalt, severity, ICP-MS, children]
 platform: wikibiome
 karen_brain_primitives: [1]

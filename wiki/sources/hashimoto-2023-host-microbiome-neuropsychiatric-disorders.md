@@ -11,6 +11,7 @@ tags: [hashimotos-thyroiditis, thyroid, gut-microbiome, neuropsychiatric-disorde
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [lactobacillus]
+karen_brain_primitives: [3]
 ---
 
 # Emerging Role of the Host Microbiome in Neuropsychiatric Disorders: Overview and Future Directions

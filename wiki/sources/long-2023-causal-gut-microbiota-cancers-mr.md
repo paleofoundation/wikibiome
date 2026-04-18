@@ -10,6 +10,7 @@ tags: [colon-cancer, mendelian-randomization, gut-microbiota, causal-inference, 
 doi: "10.1186/s12916-023-02761-6"
 platform: wikibiome
 taxa_discussed: [akkermansia-muciniphila, bifidobacterium, ruminococcus]
+karen_brain_primitives: [3]
 ---
 
 # Causal Relationship between Gut Microbiota and Cancers: A Two-Sample Mendelian Randomisation Study

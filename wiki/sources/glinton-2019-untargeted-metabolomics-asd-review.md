@@ -7,6 +7,7 @@ authors: [Kevin E. Glinton, Sarah H. Elsea]
 year: 2019
 journal: "Frontiers in Psychiatry"
 doi: "10.3389/fpsyt.2019.00647"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, metabolomics, untargeted, review, inborn-errors-of-metabolism, mitochondrial-dysfunction, creatine-deficiency, cholesterol, mass-spectrometry, NMR]
 library_category: metabolomics
 platform: review

@@ -11,6 +11,7 @@ tags: [schizophrenia, gut-microbiome, genomics, neurodevelopment, gut-brain-axis
 platform: wikibiome
 evidence_level: animal-model
 taxa_discussed: [bifidobacterium, clostridium, escherichia-coli, lactobacillus]
+karen_brain_primitives: [3]
 ---
 
 # Genomics of Schizophrenia: Time to Consider the Gut Microbiome?

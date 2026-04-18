@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Yamil Sanchez-Rosario, Natasha R Cornejo, Isaiah S Gonzalez, Vanessa Brizuela, Klariza Ochoa, Chloe Scott, Michael D L Johnson, Paul D Fey]
 year: 2026
 journal: "mSphere"
-doi: "not yet verified"  # <!-- DOI lookup needed: mSphere 2026 -->
+doi: "not yet verified"
 pmcid: "PMC12838442"
 tags: [mismetallation, metal-homeostasis, copper, copper-toxicity, zinc, zinc-toxicity, MRSA, staphylococcus-aureus, staphylococcus-epidermidis, biofilm, antimicrobial-metals, Irving-Williams-series, nutritional-immunity]
 library_category: metal_homeostasis_bacteria

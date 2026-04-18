@@ -6,9 +6,10 @@ updated: 2026-04-09
 authors: [Otto LD]
 journal: The Ohio State University PhD Dissertation
 year: 2024
-doi: "not yet verified"  # <!-- DOI lookup needed: The Ohio State University PhD Dissertation 2024 -->
+doi: "not yet verified"
 tags: [ovarian-cancer, cancer-treatment, immune-dysfunction, gut-microbiome, behavioral-symptoms, chemotherapy, neuroinflammation, gut-brain-axis]
 platform: wikibiome
+karen_brain_primitives: [3]
 ---
 
 # Cancer and Cancer Treatments Induce Immune Dysfunction, Gut Microbiome Disruption

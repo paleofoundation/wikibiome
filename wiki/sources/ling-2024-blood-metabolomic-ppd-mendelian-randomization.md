@@ -14,6 +14,7 @@ condition: "postpartum depression"
 evidence_level: computational-prediction
 metals_discussed: [copper, iron, magnesium, zinc]
 key_findings: ["7 metabolites", "1 metabolite protective"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

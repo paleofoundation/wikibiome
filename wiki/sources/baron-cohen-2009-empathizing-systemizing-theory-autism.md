@@ -7,11 +7,13 @@ authors: [Simon Baron-Cohen]
 year: 2009
 journal: "Annals of the New York Academy of Sciences"
 doi: "10.1111/j.1749-6632.2009.04467.x"
+evidence_level: expert-opinion
 tags: [autism-spectrum-disorder, empathizing-systemizing-theory, cognitive-theory, extreme-male-brain, theory-of-mind, sex-differences, executive-function]
 library_category: overview
 platform: cureva
 condition: "autism spectrum disorder"
 key_findings: ["Mind-blindness theory"]
+karen_brain_primitives: [3]
 ---
 
 # Key Claims

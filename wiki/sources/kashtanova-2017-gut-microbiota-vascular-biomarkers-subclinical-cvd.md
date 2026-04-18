@@ -11,6 +11,7 @@ tags: [cardiovascular-disease, CVD, gut-microbiome, arterial-stiffness, intima-m
 platform: wikibiome
 evidence_level: cross-sectional
 taxa_discussed: [bacteroides-fragilis, blautia, clostridium, faecalibacterium-prausnitzii, prevotella]
+karen_brain_primitives: [3]
 ---
 
 # Gut Microbiota and Vascular Biomarkers in Patients Without Clinical Cardiovascular Diseases
