@@ -708,3 +708,89 @@ The vault already contains ~1,515 source pages, ~135 entities, ~90 concepts, and
 - **Existing pages**: Upgrade by priority tier. Work in batches of 10–20 pages per session.
 - **Batch inference**: For source pages, many new fields can be derived programmatically from existing content using grep/regex rather than re-reading every PDF.
 - **Track progress**: After each migration batch, update `wiki/log.md` with what was upgraded and what remains.
+
+---
+
+## 12. Operational Rules for Claude
+
+These rules govern autonomous and semi-autonomous work in this vault, especially under `--dangerously-skip-permissions`. They exist because permissionless mode removes the human brake — so the brake has to be written into the protocol. Each rule states the rule, the reason, and the trigger.
+
+### Rule 1 — Never delete
+
+**Rule:** Do not delete source files, entity pages, concept pages, signature pages, intervention pages, STOP pages, `wiki/log.md`, or any `dist-*` build artifact without explicit user instruction in the current session. Retirement happens via annotation, stub demotion (§2f), or Supersession Protocol (§2e) — never removal.
+
+**Why:** The vault is an accumulating knowledge graph. A deleted page breaks inbound `[[wikilinks]]` on every page that referenced it, silently degrading the build and the knowledge graph. Past sessions have lost work to overeager cleanup.
+
+**How to apply:** If a page seems stale, wrong, or redundant, annotate it, demote it to `stub: true`, or supersede it. If genuine deletion is needed, surface the candidates to Karen and wait for explicit approval before removing anything.
+
+### Rule 2 — Fail loud, not silent
+
+**Rule:** Build, lint, and ingest scripts must surface errors, not swallow them. `scripts/build-content.cjs` must refuse to skip pages with YAML parse errors — it must halt, name the file, name the error, and exit non-zero.
+
+**Why:** The April 2026 silent-drop incident hid six entity pages from every build because YAML duplicate keys were caught and discarded without logging. Silent skips corrupt the public site while looking like success.
+
+**How to apply:** When writing or modifying build/lint/ingest scripts, every caught exception must either re-raise or log the file path + error message to stderr before continuing. `process.exit(1)` on any YAML parse failure. No `try { ... } catch { continue }` patterns.
+
+### Rule 3 — No fabrication
+
+**Rule:** DOIs, authors, journal names, and publication years come from the source document itself. If the source PDF is unreadable or missing metadata, set `doi: "not yet verified"` and flag the page with `<!-- NEEDS VERIFICATION -->`. Never fill these fields from memory, inference, or pattern-matching on the filename.
+
+**Why:** A fabricated DOI that resolves to the wrong paper is indistinguishable from a real one at skim-read, and destroys the credibility of every adjacent claim. The vault has been close to this failure mode before.
+
+**How to apply:** Every new source page's frontmatter must trace to text actually extracted from the PDF. If you generated a field without reading it from the source, strip it and flag the page.
+
+### Rule 4 — Ingest atomicity
+
+**Rule:** Each source ingest is a single git commit titled `ingest: <source-slug>`. The commit is only created after `node scripts/build-content.cjs` completes successfully against the new state. If the build fails, revert the working tree and surface the error — do not commit a broken state.
+
+**Why:** Overnight runs that commit after every file change leave mid-ingest garbage in history when an error hits. Atomic per-source commits make every commit a valid waypoint, enabling safe resume and clean bisect.
+
+**How to apply:** Ingest workflow is: create/update pages → run build → if build passes, `git add` all changed paths and commit → if build fails, `git checkout` the affected paths and log the failure to `wiki/log.md`. Never bundle two unrelated ingests in one commit.
+
+### Rule 5 — Batch preview before bulk transform
+
+**Rule:** Any transformation that will touch more than 20 files (batch frontmatter fixes, wikilink rewrites, mass stub demotions, field backfills) runs against 3 representative samples first. Write the before/after diff to `wiki/analyses/batch-preview-YYYY-MM-DD-<slug>.md`. Only proceed to the full batch if the preview diffs look clean.
+
+**Why:** A wrong regex against 1,515 source pages rewrites them all before you notice. Recovering from a 1,515-file mistake requires `git reset` and loses any concurrent work. A 3-file preview costs nothing and catches the mistake cheaply.
+
+**How to apply:** Before running any bulk file transform, pick 3 files covering different shapes (e.g., one with the field, one without, one edge case). Write the diff file. If the preview is wrong, iterate on the transform against the same 3 files until correct. Then apply broadly.
+
+### Rule 6 — Context budget
+
+**Rule:** When context window usage reaches ~75%, stop the current unit of work, write a resume file to `wiki/analyses/overnight-resume-YYYY-MM-DD.md` with current state and next step, and end the session cleanly.
+
+**Why:** The last 25% of context is where hallucinations spike, frontmatter gets malformed, and "just one more batch" produces the worst output of the run. A clean exit with a resume file lets the next session pick up accurately.
+
+**How to apply:** Treat the 75% mark as a hard stop for starting new work. Finish the file in hand, write the resume file, commit, stop. The resume file names the last completed commit, the next intended batch, and any anomalies to watch for.
+
+### Rule 7 — Stub discipline
+
+**Rule:** New pages below §2f source density thresholds must be created with `stub: true` AND `stub_reason: "..."` in frontmatter. Existing pages that fall below threshold are auto-demoted to stubs by the lint cycle and logged to `wiki/analyses/stub-demotions-YYYY-MM-DD.md`. Stubs older than 90 days without a threshold crossing are surfaced in a monthly `wiki/analyses/stub-aging-YYYY-MM.md` report.
+
+**Why:** §2f prevents thin pages from being published, but without aging visibility, stubs accumulate forever and the vault silently holds hundreds of half-pages. The aging report forces a decision: expand, supersede, or annotate.
+
+**How to apply:** Never create a page below threshold without `stub: true` + `stub_reason`. Never silently demote — always log. On the first of every month, generate the aging report and list stubs older than 90 days with their `sources` count and the deficit to threshold.
+
+### Rule 8 — Boundary discipline
+
+**Rule:** Pages with `platform: wikibiome` or `platform: both` must not contain clinical-recommendation language — no "should take," "recommend," "avoid," "stop," "use X for Y condition," or intervention/STOP framing tied to a specific disease. The lint cycle flags such language as a boundary violation and demotes the page to `platform: cureva` pending rewrite.
+
+**Why:** §9 is the commercial firewall between WikiBiome (public, factual) and Cureva (practitioner, clinical). A single leaked recommendation on WikiBiome becomes "medical advice" in a lawsuit and collapses the firewall. Discipline here is infrastructure, not style.
+
+**How to apply:** When writing entity, concept, or analysis pages, read every paragraph for clinical-recommendation phrasing before saving. Factual mechanism statements are fine on WikiBiome ("metformin disrupts biofilm formation via AMPK"). Clinical recommendations are not ("use metformin for biofilm disruption in endometriosis"). When in doubt, route it to Cureva.
+
+### Rule 9 — No self-modifying governance
+
+**Rule:** `CLAUDE.md`, `wiki/index.md` structural rewrites, and anything under `raw/karens-brain/` are edited only on explicit user instruction in the current session. Governance edits are committed separately with `governance: <summary>` and never bundled with content work.
+
+**Why:** Autonomous sessions that edit their own rulebook drift the project away from Karen's intent. A separate governance commit makes the drift visible in `git log` and reversible.
+
+**How to apply:** If a governance file seems wrong during autonomous work, note the issue in `wiki/log.md` and continue — do not self-patch. If Karen asks for a governance change, make it in a standalone commit before resuming content work.
+
+### Rule 10 — Session bookends
+
+**Rule:** At the start of every session, read the last ~200 lines of `wiki/log.md` and any `wiki/analyses/overnight-resume-*.md` file newer than 7 days. At the end of every session, append a single-line summary to `wiki/log.md` with date, scope, and notable outcomes (pages created, contradictions flagged, stubs demoted, errors encountered).
+
+**Why:** The vault persists across sessions; conversation memory does not. Without bookends, each session starts blind to what the last one did — repeating ingests, re-flagging resolved contradictions, or missing a resume file that names the exact next step.
+
+**How to apply:** First tool call of any substantive session reads `wiki/log.md`. Last tool call before exit appends one line. Overnight cycles append one line per completed cycle, not one line per file change.
