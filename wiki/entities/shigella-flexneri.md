@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, zhu-2024-toxic-essential-metals-gut-microbiota, khatoon-2023-gut-microbiota-neurodegenerative]
+source_count: 3
 metal_dependencies: [nickel, iron]
 key_enzymes: [NiFe-hydrogenase-Hya, NiFe-hydrogenase-Hyb]
 tags: [pathogen, dysentery, intracellular, phagolysosomal-survival, Enterobacteriaceae]

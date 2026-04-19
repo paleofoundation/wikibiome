@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
+source_count: 1
 tags: [pathogen, nickel, iron, hydrogenase, urease, UPEC, UTI, yersiniabactin, NikABCDE]
 metal_dependencies: [nickel, iron, zinc, manganese, cobalt]
 key_enzymes: [NiFe-hydrogenase (Hyd-1/2/3/4), urease (STEC), enterobactin/aerobactin/yersiniabactin (siderophores), zinc-metalloproteinase, MnSOD]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Escherichia coli nickel hydrogenase urease UPEC iron siderophore"
 wikipedia_differentiation: "Complete NikABCDE transport biology plus yersiniabactin dual iron-nickel metallophore system linking pathotype-specific metal dependencies to virulence"

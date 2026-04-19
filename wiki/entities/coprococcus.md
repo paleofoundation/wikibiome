@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, dai-2024-gut-microbiota-cvd-bidirectional-mr, sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction, zhu-2024-toxic-essential-metals-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd, yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s, patrono-2021-schizophrenia-gut-microbiota-optogenetics-nmda-gaba, gong-2025-gut-microbiota-diagnostic-ovarian-tumor, gao-2021-butyrate-producing-microbiota-reduced-ckd, he-2024-gut-microbial-scfas-ckd]
+source_count: 11
 metal_dependencies: [cobalt -- B12-dependent metabolic pathways; sensitive to heavy metal disruption]
 tags: [commensal, butyrate-producer, depleted-in-depression, depleted-in-MS, depleted-in-IBD, mental-health, happiness-bug, metal-sensitive]
 platform: wikibiome

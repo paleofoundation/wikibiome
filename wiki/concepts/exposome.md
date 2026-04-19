@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [briffa-2020-heavy-metal-pollution-environment-toxicology, khan-2020-environmental-exposures-autoimmune-gut-microbiome, chin-chan-2015-environmental-pollutants-ad-pd, jaishankar-2014-heavy-metal-toxicity-mechanisms, balali-mood-2021-toxic-mechanisms-five-heavy-metals]
+source_count: 5
 tags: [exposome, environmental-exposure, metals, diet, air, water, occupation, consumer-products, developmental-origins, public-health]
 platform: wikibiome
 karen_brain_primitives: [1, 3, 4]

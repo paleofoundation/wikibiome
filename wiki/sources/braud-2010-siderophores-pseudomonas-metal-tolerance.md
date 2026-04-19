@@ -28,11 +28,6 @@ evidence_level: expert-opinion
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Demonstrates that bacterial siderophores function as broad-spectrum extracellular metal sequestration systems—not merely iron foragers but virulence factors selective for nickel, cadmium, and copper. This paper establishes the molecular link between metal availability, siderophore expression, and pathogenic persistence that underlies WikiBiome's metal-dependent dysbiosis signatures."
 metals_discussed: [cadmium, copper, iron, nickel]
 taxa_discussed: [acinetobacter, enterococcus, pseudomonas-aeruginosa, streptococcus]

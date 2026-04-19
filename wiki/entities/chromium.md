@@ -8,6 +8,8 @@ updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
 tags: [transition-metal, carcinogen, DNA-damage, toxicology]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 5 required"
 last_substantive_update: 2026-04-13
 seo_target: "chromium hexavalent carcinogen DNA damage health"
 wikipedia_differentiation: "Detailed ascorbate paradox in Cr(VI) reduction, ternary Cr-DNA adduct formation mechanisms, mismatch repair inhibition creating selection model, and comparative carcinogenic mechanisms across metals"

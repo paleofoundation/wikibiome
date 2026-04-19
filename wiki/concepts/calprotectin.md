@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, amerikanou-2022-ibd-biomarkers-trace-metals, akbari-2022-metal-homeostasis-streptococci, pendergrass-2026-nickel-nec-preterm-gut]
+source_count: 4
 tags: [nutritional-immunity, metal-sequestration, neutrophil, zinc, manganese, nickel, biomarker, IBD, inflammation]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 4, 6]

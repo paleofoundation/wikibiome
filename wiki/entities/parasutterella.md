@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-11
 sources: [dai-2024-gut-microbiota-cvd-bidirectional-mr, ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice, yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice, rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis, xie-2025-cholesterol-crc-simvastatin-lactobacillus, gao-2026-ketogenic-diet-fxr-nfkb-crc, teng-2024-gut-microbiome-lipids-mr]
+source_count: 7
 metal_dependencies: [iron, molybdenum]
 tags: [commensal, Proteobacteria, succinate-producer, IBD-associated, bile-acid-metabolism, lipid-metabolism]
 platform: wikibiome

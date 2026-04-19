@@ -2,6 +2,16 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-19] 02:00 — Nightly auto-deploy
+
+**Status:** Queued (Terminal access approval timed out — user asleep).
+
+**Changes since last deploy (Apr 16):** 5 commits, 1,994 wiki file changes. Top commit `432d7cea` (semantic integrity pass: 10 interventions, 31 STOPs, 2 supersessions, keystone revalidation).
+
+**Lint gate:** Most recent Sunday lint (`lint-report-2026-04-12.md`) shows 16 structural issues, 0 factual contradictions. Deploy not blocked.
+
+**Action:** Deploy command queued in `.deploy-queued`; notes written to `DEPLOY-NOTES-2026-04-19.md`. Karen to paste one-liner into Terminal on wake, or `touch .auto-deploy-approved` to permit direct Bash-path deploys on future nightly runs.
+
 ## [2026-04-18] Overnight continuous improvement — Cycle 1
 
 **Health check:** Fixed 200 malformed DOI lines (trailing crud on "not yet verified"). No source_count drift, no duplicate YAML keys, no URL-format DOIs.

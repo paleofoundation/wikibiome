@@ -28,11 +28,6 @@ evidence_level: expert-opinion
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Maps mineral-specific immunomodulation in autoimmune thyroid disease, showing how selenium supplementation reduces TPO antibodies via selenoprotein GPx upregulation, zinc enables thymulin activation for T cell function, and iron deficiency impairs TPO activity while increasing autoimmune susceptibility. WikiBiome depends on this evidence to establish how dysbiotic organisms (depleted in metal-dependent SCFA producers) directly undermine thyroid barrier tolerance—linking metal dysbiosis to Treg dysfunction via metal-dependent enzyme failures."
 metals_discussed: [calcium, copper, iron, magnesium, selenium, zinc]
 karen_brain_primitives: [1, 4, 5]

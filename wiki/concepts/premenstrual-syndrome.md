@@ -10,6 +10,8 @@ tags: [premenstrual-syndrome, PMS, hormones, microbiome, estrobolome, magnesium,
 karen_brain_primitives: [1, 7]
 seo_target: "premenstrual syndrome PMS microbiome hormones gut"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Premenstrual Syndrome

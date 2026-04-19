@@ -7,12 +7,15 @@ created: 2026-04-10
 updated: 2026-04-10
 last_substantive_update: 2026-04-10
 sources: []
+source_count: 0
 gram_stain: "N/A"
 oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [zinc, manganese, iron]
 key_enzymes: [alcohol-dehydrogenase, glycolytic-enzymes, biofilm-carbohydrates]
 tags: [yeast, fungus, food-associated, mycobiome, fermentation, probiotic-potential, zinc-dependent]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "Torulaspora gut mycobiome dysbiosis IBS"
 wikipedia_differentiation: "Gut mycobiome role — alterations in IBS and IBD, zinc/manganese dependencies, and ecological interactions with bacteria — entirely absent from Wikipedia, which covers only winemaking applications"
 ---

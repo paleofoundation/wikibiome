@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [cutler-2019-fiber-magnesium-pcos, barrea-2019-mediterranean-diet-pcos, khan-2014-metals-type2-diabetes, kirmizi-2020-heavy-metals-pcos, mhaibes-2017-blood-metals-pcos-obese, wang-2022-high-fiber-acarbose-pcos, calcaterra-2023-probiotics-pcos-adolescents, mavropoulos-2005-ketogenic-diet-pcos, pendergrass-2026-heavy-metals-obesity-epidemic, smovrsnik-2025-trace-elements-pcos]
+source_count: 10
 tags: [insulin-resistance, HOMA-IR, PCOS, type-2-diabetes, metabolic-syndrome, chromium, zinc, magnesium, cadmium, arsenic, lead, fiber, diet]
 platform: wikibiome
 karen_brain_primitives: [1, 3, 5]

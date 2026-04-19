@@ -4,9 +4,12 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [ecological-feature, metabolism, scfa-production, anaerobiosis, microbiota-function]
 karen_brain_primitive: "Primitive 9: Oxygen State as Ecological Determinant"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [2, 4, 5, 8, 9]
 seo_target: "fermentative metabolism microbiome"
 last_substantive_update: 2026-04-10

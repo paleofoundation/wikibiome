@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 gram_stain: "negative"
 oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron]
 key_enzymes: [iron-acquisition-siderophores, glycoside-hydrolases, fiber-degrading-carbohydrate-active-enzymes]
 tags: [rheumatoid-arthritis, metabolic-syndrome, context-dependent-pathobiont, fiber-degrader, iron-acquisition]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Prevotella copri rheumatoid arthritis iron gut microbiome"
 wikipedia_differentiation: "Context-dependent commensal-pathobiont spectrum with iron-modulated pathogenic potential in rheumatoid arthritis and metabolic syndrome"

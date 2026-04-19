@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [braud-2010-siderophores-pseudomonas-metal-tolerance, cassat-2012-metal-acquisition-staphylococcus-aureus, maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care, akbari-2022-metal-homeostasis-streptococci, pendergrass-2026-nickel-nec-preterm-gut, romero-espejel-2013-streptococcus-pneumoniae-iron]
+source_count: 7
 tags: [siderophores, metallophores, nickelophores, iron, nickel, zinc, copper, cobalt, metal-acquisition, virulence, diagnostics, nutritional-immunity]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 4, 6, 8]

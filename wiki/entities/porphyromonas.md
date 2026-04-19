@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, zangeneh-2021-oral-microbiota-ms, kudra-2023-oral-microbiome-crc-perspectives, fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms, khatoon-2023-gut-microbiota-neurodegenerative, norouzi-beirami-2020-functional-microbiome-crc]
+source_count: 6
 metal_dependencies: [zinc -- Zn-dependent gingipain proteases; iron -- hemin acquisition for growth and porphyrin ring]
 tags: [pathobiont, periodontal-pathogen, zinc-dependent, iron-dependent, CVD-associated, Alzheimers-linked, oral-gut-axis, CRC-enriched]
 platform: wikibiome

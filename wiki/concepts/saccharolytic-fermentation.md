@@ -10,6 +10,8 @@ tags: [saccharolytic, carbohydrate-fermentation, SCFA, butyrate, dietary-fiber, 
 karen_brain_primitives: [5, 9]
 seo_target: "saccharolytic fermentation SCFA gut microbiome carbohydrate fiber"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Saccharolytic Fermentation

@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
 sources: [romero-espejel-2013-streptococcus-pneumoniae-iron.md, akbari-2022-metal-homeostasis-streptococci.md]
+source_count: 2
 tags: [pathogen, iron, manganese, zinc, copper, meningitis, pneumonia, otitis-media, nutritional-immunity]
 metal_dependencies: [manganese, zinc, iron]
 key_enzymes: [PsaA (Mn-binding lipoprotein — essential for virulence), AdcABC (zinc uptake), PiaA/PiuA (iron uptake), Mn-SOD, IgA1 protease (Zn-metalloprotease)]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Streptococcus pneumoniae manganese zinc iron nutritional immunity"
 wikipedia_differentiation: "Complete metal transporter virulence factor profile (PsaA, AdcABC, PiaA/PiuA) with nutritional immunity evasion at every infection site"

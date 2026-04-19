@@ -28,6 +28,7 @@ sources:
  - zhou-2010-quercetin-pancreatic-cancer-stem-cells
  - yamamura-2025-fmt-therapeutic-strategy-pancreatic-cancer
  - han-2024-lgg-gallium-polyphenol-intratumor-microbiota-pancreatic-cancer
+source_count: 22
 tags: [cancer, pancreatic-cancer, PDAC, copper, zinc, calcium, magnesium, cadmium, metallomics, microbiome, oral-microbiome, mycobiome, virome, metabolomics, Mendelian-randomization, probiotics, synbiotics, ferroptosis, metal-carcinogenesis]
 platform: wikibiome
 last_substantive_update: 2026-04-13

@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [liu-2025-cardiometabolic-nickel.md, salnikov-2008-metal-carcinogenesis.md, maier-2019-nickel-microbial-pathogenesis.md, balali-mood-2021-toxic-mechanisms-five-heavy-metals.md, jaishankar-2014-heavy-metal-toxicity-mechanisms.md, briffa-2020-heavy-metal-pollution-environment-toxicology.md, abudawood-2021-antioxidant-heavy-metals-pcos.md, smovrsnik-2023-heavy-metals-oxidative-stress-pcos.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, genchi-2020-cadmium-toxicity.md, tarhonska-2022-cadmium-breast-cancer-mechanisms.md, rasin-2025-cadmium-exposure-health-review.md, blazewicz-2023-metal-profiles-asd.md, piecuch-2022-nutrition-endometriosis-review.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md, akbari-2022-metal-homeostasis-streptococci.md, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors.md, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.md, shin-2023-chromium-toxicogenomics.md, kravchenko-2023-thyroid-hormones-minerals-AITD.md, brock-2015-selenium-thyroid-autoimmunity.md, lopez-botella-2023-peritoneal-fluid-metals-endometriosis.md, ogrady-2025-metal-dyshomeostasis-asd.md]
+source_count: 24
 tags: [mechanism, toxicology, ROS, pathogenesis, antioxidant, biomarker, Fenton-reaction, free-radicals]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 4, 5]

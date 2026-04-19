@@ -30,10 +30,10 @@ why_counterproductive: "**In ASD dysbiosis, elevated serum iron is NOT a deficie
 5. **ROS amplification** — Dysbiotic iron elevation + dysbiotic oxidative stress-producing metabolites → Fenton chemistry (Fe²⁺ + H₂O₂ → Fe³⁺ + OH•) → oxidative stress amplification.
 "
 evidence:
-  - [[zhuang-2024-asd-pathogenesis-biomarker-intervention]] describes dysbiotic iron dysregulation as selective pressure favoring iron-dependent pathogens; iron restriction recommended as intervention, not supplementation
-  - [[lewandowska-2022-microbiota-asd-systematic-review]] documents elevated siderophore-producing E. coli (78% of studies); dysbiotic expansion correlates with behavioral severity
-  - [[wang-2023-microbiota-gut-brain-axis-neurodevelopmental]] maps iron-dependent mechanisms in dysbiosis-driven neuroinflammation; iron sequestration (hepcidin) is appropriate host response, not deficiency
-  - [[wang-2024-understanding-autism-causes-diagnosis-therapies]] notes nutritional immunity as environmental factor in ASD; suggests metal homeostasis disruption as mechanism, not simple deficiency
+  - "zhuang-2024-asd-pathogenesis-biomarker-intervention — describes dysbiotic iron dysregulation as selective pressure favoring iron-dependent pathogens"
+  - "lewandowska-2022-microbiota-asd-systematic-review — documents elevated siderophore-producing E. coli (78% of studies)"
+  - "wang-2023-microbiota-gut-brain-axis-neurodevelopmental — maps iron-dependent mechanisms in dysbiosis-driven neuroinflammation"
+  - "wang-2024-understanding-autism-causes-diagnosis-therapies — notes nutritional immunity as environmental factor in ASD"
 evidence_level: "cross-sectional"
 alternative: "**Instead of iron supplementation, support nutritional immunity**:
 

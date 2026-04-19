@@ -28,11 +28,6 @@ tags:
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [2, 3]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Maps distinct metal dysfunction patterns in Alzheimer's (iron and copper accumulation, zinc sequestration in plaques) versus Parkinson's (manganese toxicity, iron ferroptosis), revealing that metal-specific biomarkers differentiate neurodegenerative pathologies. WikiBiome depends on this evidence to explain how metal selectivity shapes disease phenotype—establishing that disease pathology results not from generic metal burden but from the specific metal-enzyme mismatches that characterize each condition's signature."
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [calcium, copper, iron, lead, manganese, selenium, zinc]

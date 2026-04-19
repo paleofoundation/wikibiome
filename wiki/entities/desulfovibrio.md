@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, appunni-2021-dietary-factors-gut-microbiome-crc, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, almeida-2023-gut-microbiota-cardiovascular-axis, svensson-2021-endometriosis-gut-microbiota-associations]
+source_count: 5
 metal_dependencies: [iron, nickel, molybdenum]
 tags: [pathobiont, sulfate-reducer, H2S-producer, metal-dependent, enriched-in-disease, barrier-disruptor]
 platform: wikibiome

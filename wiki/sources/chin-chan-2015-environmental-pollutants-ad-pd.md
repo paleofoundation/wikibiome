@@ -24,11 +24,6 @@ doi: 10.3389/fncel.2015.00170
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Maps the connection between metal exposure (lead, mercury, arsenic, manganese) and proteinopathy mechanisms (amyloid-beta aggregation, tau phosphorylation, alpha-synuclein) in Alzheimer's and Parkinson's disease, with critical emphasis on developmental epigenetic priming. WikiBiome depends on this framework to explain why metal burden during critical windows drives neurodegenerative disease across distinct proteinopathies—establishing lead and manganese as selective pressures that alter both neuroinflammation and protein misfolding cascades."
 evidence_level: animal-model
 metals_discussed: [arsenic, iron, lead, manganese, mercury]

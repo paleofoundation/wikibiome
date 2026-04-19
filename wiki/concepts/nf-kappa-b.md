@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis, briffa-2020-heavy-metal-pollution-environment-toxicology, mishra-2022-molecular-mechanisms-heavy-metals-ckd, sabath-2012-renal-health-heavy-metal-nephrotoxicity, ahmed-2025-metals-alzheimers-mechanistic-review, liu-2025-low-concentration-metals-ckd-alpha-klotho, kravchenko-2023-thyroid-hormones-minerals-AITD, khan-2020-environmental-exposures-autoimmune-gut-microbiome, borghini-2020-endometriosis-nickel-ibs]
+source_count: 9
 tags: [signaling-pathway, inflammation, transcription-factor, nickel, arsenic, cadmium, lead, cytokines, cell-survival]
 platform: wikibiome
 karen_brain_primitives: [1]

@@ -34,11 +34,6 @@ tags:
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1, 4]
-keystone_criteria_met:
-  - 1
-  - 3
-  - 4
-  - 5
 why_keystone: "Establishes that metals (Hg, Pb, Cu, Zn, Cd, Ni, Cr) directly co-select antibiotic resistance genes through shared resistance mechanisms—efflux pumps, biofilm formation, metallothionein—and shows microplastics as physical vectors concentrating metals and facilitating horizontal gene transfer. WikiBiome depends on this evidence to explain why metal-driven dysbiosis inevitably selects for multidrug-resistant organisms and why nutritional immunity (metal restriction) alone is insufficient without addressing biofilm architecture."
 metals_discussed: [cadmium, chromium, cobalt, copper, iron, lead, manganese, mercury, nickel, zinc]
 taxa_discussed: [pseudomonas-aeruginosa, vibrio]

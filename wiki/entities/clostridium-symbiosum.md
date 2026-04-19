@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [zhang-2025-gut-virome-premalignant-colorectal-adenoma, zou-2024-multi-omic-microbiome-genome-transcriptome-crc, qin-2024-consistent-microbiome-signatures-old-young-onset-crc, ajouz-2014-secondary-bile-acids-colon-cancer, farhana-2016-bile-acid-colon-cancer-stem-cells, rezen-2022-bile-acids-carcinogenesis-review, weir-2013-stool-microbiome-metabolome-crc-healthy]
+source_count: 7
 tags: [clostridium, gram-positive, obligate-anaerobe, bile-acid-metabolism, butyrate-producer, colorectal-cancer, iron-dependent, crc-driver]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"

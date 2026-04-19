@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
 sources: [braud-2010-siderophores-pseudomonas-metal-tolerance.md, maier-2019-nickel-microbial-pathogenesis.md]
+source_count: 2
 tags: [pathogen, siderophore, pyoverdine, pyochelin, nickel, iron, lung-infection, cystic-fibrosis, wound-infection]
 metal_dependencies: [iron, zinc, manganese, copper]
 key_enzymes: [pyoverdine (siderophore), pyochelin (siderophore), elastase/LasB (Zn-metalloprotease), alkaline protease (Zn-dependent), MnSOD, Cu/Zn-SOD]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Pseudomonas aeruginosa pyoverdine siderophore metal tolerance cystic fibrosis"
 wikipedia_differentiation: "Dual-use siderophore system (pyoverdine/pyochelin) for iron acquisition and toxic metal chelation with zinc-metalloprotease virulence profile"

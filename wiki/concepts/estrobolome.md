@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-09
 sources: [borghini-2020-endometriosis-nickel-ibs, khan-2020-environmental-exposures-autoimmune-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]
+source_count: 4
 tags: [estrogen-metabolism, microbiome, enterohepatic-circulation, hormone-recirculation, beta-glucuronidase, metalloestrogens, breast-cancer, endometriosis, PCOS, dysbiosis]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
 platform: wikibiome

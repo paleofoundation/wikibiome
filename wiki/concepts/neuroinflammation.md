@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [gao-2023-microglia-neurodegenerative-diseases, ahmed-2025-metals-alzheimers-mechanistic-review, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest, tizabi-2023-lead-gut-microbiota-asd, zhou-2025-gut-microbiota-immune-nervous-system-asd, arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd, spencer-2018-vascular-pathology-ms-blood-brain-barrier, martinelli-2022-gut-oriented-interventions-ms]
+source_count: 9
 tags: [neuroinflammation, microglia, blood-brain-barrier, cytokines, LPS, neurodegeneration, gut-brain-axis, metals, NF-kB, M1-M2-polarization]
 platform: wikibiome
 karen_brain_primitives: [1, 3]

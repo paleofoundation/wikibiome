@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 # Plain-text attributions used throughout: cellulosome architecture (Bayer et al., Fontes & Gilbert); Ruminococcus cellulosome (Rincon et al. 2003, 2005); fiber-SCFA (Louis & Flint 2017)
 tags: [cellulolytic, fiber-degradation, short-chain-fatty-acid-producer, butyrate-producer, depleted-in-western-diet, cellulosome]
 gram_stain: "positive"
@@ -13,6 +14,8 @@ oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, zinc]
 key_enzymes: [cellulosome-complex, glycoside-hydrolases, endoglucanases, exoglucanases]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Ruminococcus albus cellulosome fiber degradation gut microbiome"
 wikipedia_differentiation: "Iron and zinc dependent cellulosome complex for fiber degradation with Western diet depletion data and restoration intervention potential"

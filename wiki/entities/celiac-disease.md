@@ -5,8 +5,11 @@ subtype: disease
 created: 2026-04-13
 updated: 2026-04-13
 sources: [borghini-2020-low-nickel-diet-celiac]
+source_count: 1
 tags: [autoimmune, gluten, intestinal, malabsorption, nickel, dietary, gut-barrier]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 5 required"
 last_substantive_update: 2026-04-13
 associated_conditions: [hashimotos-thyroiditis, type-1-diabetes, ibs, inflammatory-bowel-disease]
 signature_page: "[[celiac-disease-signature]]"

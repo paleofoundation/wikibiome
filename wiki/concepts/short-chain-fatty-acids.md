@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [pendergrass-2026-heavy-metals-obesity-epidemic, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, zhao-2022-high-fiber-diet-myocardial-infarction-microbiota, sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest, he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese, liu-2019-altered-gut-microbiota-scfa-chinese-children-asd, ma-2021-dietary-fiber-gut-microbiome-inflammation-men]
+source_count: 9
 tags: [SCFAs, butyrate, propionate, acetate, gut-barrier, Treg, HDAC-inhibition, GPR41, GPR43, GPR109A, colonocyte-energy, microbiome-metabolites]
 platform: wikibiome
 karen_brain_primitives: [1, 5]

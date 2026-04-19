@@ -34,11 +34,6 @@ metals_discussed:
 taxa_discussed: []
 keystone: false
 keystone_criteria_met: [2, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Catalogues the molecular mechanisms by which cadmium acts as a metalloestrogen — ERα binding, epigenetic reprogramming, DNA repair inhibition — in breast tissue. Supports the mechanistic layer of WikiBiome's breast cancer signature and the broader metalloestrogen concept that connects Cd exposure to hormone-driven pathology across multiple conditions.
 evidence_level: systematic-review-meta-analysis
 ---

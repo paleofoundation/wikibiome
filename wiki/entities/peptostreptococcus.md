@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, hanus-2021-immune-microbiota-metabolites-crc-triad, qin-2024-consistent-microbiome-signatures-old-young-onset-crc, yu-2022-systematic-review-microbial-markers-colorectal-neoplasia, zangeneh-2021-oral-microbiota-ms, norouzi-beirami-2020-functional-microbiome-crc]
+source_count: 6
 metal_dependencies: [iron -- iron-dependent growth; ROS generation linked to iron metabolism]
 tags: [pathobiont, CRC-enriched, iron-dependent, NF-kB-activator, cholesterol-biosynthesis, periodontal-disease, oral-gut-axis]
 platform: wikibiome

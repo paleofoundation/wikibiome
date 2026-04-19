@@ -4,8 +4,11 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md]
+source_count: 2
 tags: [nickel-enzyme, glyoxalase, methylglyoxal, detoxification, drug-target, Leishmania, Pseudomonas, virulence, mis-metallation]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 karen_brain_primitives: [2, 3, 4]
 seo_target: "glyoxalase i microbiome"
 last_substantive_update: 2026-04-09

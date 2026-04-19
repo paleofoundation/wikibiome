@@ -36,11 +36,6 @@ karen_brain_primitives: [1, 4, 5]
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Synthesizes metal-dysbiosis interactions with eight distinct probiotic detoxification mechanisms (biosorption, bioprecipitation, bioassimilation, biotransformation) and real-time biosensor monitoring of metal clearance. WikiBiome depends on this paper to link microbiota-mediated metal sequestration to barrier function recovery—establishing that probiotic interventions can interrupt the metal-dysbiosis feedback loop by enabling both metal excretion and restoration of tight junction integrity."
 ---
 

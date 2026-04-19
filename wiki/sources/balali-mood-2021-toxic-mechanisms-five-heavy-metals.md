@@ -37,11 +37,6 @@ key_findings:
 karen_brain_primitives: [1, 3]
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Synthesizes the carcinogenic and neurotoxic mechanisms of mercury, lead, chromium, cadmium, and arsenic, emphasizing how each metal generates ROS and triggers oxidative-stress-dependent dysbiosis. WikiBiome depends on this comprehensive toxicology to connect multi-metal environmental exposures to the cross-condition dysbiotic signatures observed in neurodegenerative, metabolic, and cancer-associated signatures."
 ---
 

@@ -33,11 +33,6 @@ doi: 10.3389/fnut.2022.838869
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Meta-analytic confirmation that copper, cadmium, and lead are elevated while zinc and manganese are depleted in breast cancer patients across 36 case-control studies. Anchors the metallomic layer of the breast cancer signature and supports the cross-condition pattern in which Cd-driven estrogen mimicry and Cu/Zn dyshomeostasis recur across estrogen-sensitive conditions.
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [cadmium, chromium, cobalt, copper, iron, lead, manganese, nickel, zinc]

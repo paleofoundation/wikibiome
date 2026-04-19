@@ -4,9 +4,12 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [virulence-enzyme, nickel-biology, metal-cofactor, bacterial-survival, gastric-pathogen]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [4]
 seo_target: "nickel-urease microbiome"
 last_substantive_update: 2026-04-10

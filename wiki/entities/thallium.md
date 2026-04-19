@@ -11,6 +11,8 @@ tags: [toxic-metal, rare-metal, CKD, alpha-klotho, potassium-mimicry, nephrotoxi
 seo_target: "thallium toxicity kidney disease potassium mimicry"
 wikipedia_differentiation: "Thallium's role in CKD metallomic signatures via alpha-klotho mediation, its highest posterior inclusion probability among all metals in BKMR models for kidney disease, and its K+ mimicry as a mechanism for cellular entry -- connections to WikiBiome's disease signature framework absent from Wikipedia"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 5 required"
 ---
 
 # Thallium (Tl)

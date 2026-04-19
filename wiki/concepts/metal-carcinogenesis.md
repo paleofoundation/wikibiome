@@ -4,8 +4,11 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md, liu-2025-cardiometabolic-nickel.md]
+source_count: 2
 tags: [carcinogenesis, toxicology, nickel, arsenic, chromium]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 karen_brain_primitives: [4]
 seo_target: "metal carcinogenesis microbiome"
 last_substantive_update: 2026-04-09

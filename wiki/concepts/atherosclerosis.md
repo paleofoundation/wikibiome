@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [herrema-2020-microbiome-cardiovascular-disease-ascvd, luqman-2024-intestinal-microbiome-cvd-intervention, wei-2025-gut-mycobiome-cardiometabolic-disease]
+source_count: 3
 tags: [atherosclerosis, ASCVD, cardiovascular-disease, TMAO, foam-cells, plaque, oral-microbiome, gut-microbiome, heavy-metals, inflammation]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 5]

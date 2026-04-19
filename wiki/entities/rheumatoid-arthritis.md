@@ -13,6 +13,7 @@ sources:
  - haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia
  - elbeialy-2024-environmental-pollution-rheumatic-diseases
  - zhou-2024-urinary-vocs-rheumatoid-arthritis
+source_count: 7
 tags: [autoimmune, copper, zinc, nickel, lead, cadmium, chromium, environmental-pollution, vitamin-D, machine-learning]
 platform: wikibiome
 last_substantive_update: 2026-04-13

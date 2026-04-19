@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [giambo-2021-toxic-metal-exposure-gut-microbiota-review, zhu-2024-toxic-essential-metals-gut-microbiota, briffa-2020-heavy-metal-pollution-environment-toxicology, jaishankar-2014-heavy-metal-toxicity-mechanisms, balali-mood-2021-toxic-mechanisms-five-heavy-metals, mishra-2022-molecular-mechanisms-heavy-metals-ckd]
+source_count: 6
 tags: [gastric-cancer, helicobacter-pylori, nickel, hydrogenase, CagA, urease, carcinogenesis, nitrosamine, cadmium, iron, microbiome, stomach]
 platform: wikibiome
 last_substantive_update: 2026-04-13

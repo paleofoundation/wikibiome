@@ -24,11 +24,6 @@ doi: 10.12998/wjcc.v9.i28.8340
 platform: wikibiome
 keystone: false
 keystone_criteria_met: []
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Quantifies how pregnancy complications directly weaken placental barrier function and increase fetal nickel exposure, establishing that barrier integrity—not maternal exposure alone—determines fetal metal burden. WikiBiome depends on this evidence to explain how dysbiotic states and systemic inflammation impair multiple mucosal barriers simultaneously, enabling toxic metal accumulation in vulnerable developmental windows and informing cross-condition patterns in reproductive disorders."
 evidence_level: case-control
 metals_discussed: [cadmium, nickel]

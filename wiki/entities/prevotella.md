@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [bronzini-2023-feeding-gut-microbiome-ms, svensson-2021-endometriosis-gut-microbiota-associations, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort, ross-2024-diet-gut-microbiome-interplay-health-disease]
+source_count: 5
 metal_dependencies: [iron -- some species are iron-dependent for heme acquisition]
 tags: [commensal, pathobiont, context-dependent, fiber-fermenter, depleted-in-MS, depleted-in-PD]
 platform: wikibiome

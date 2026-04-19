@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [siderophore-uptake, proteases, hemolysin, biofilm-matrix-synthesis]
 tags: [gram-negative, anaerobe, iron-dependent, oral-microbiome, gut-pathobiont, biofilm, colorectal-cancer, translocation]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Leptotrichia oral gut translocation colorectal cancer iron biofilm"
 wikipedia_differentiation: "Iron-dependent biofilm formation enabling oral-gut translocation with CRC tissue enrichment data"

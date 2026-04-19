@@ -19,11 +19,6 @@ platform: both
 condition: autism spectrum disorder
 keystone: true
 keystone_criteria_met: [1, 4, 5]
-keystone_criteria_met:
-  - 1
-  - 3
-  - 4
-  - 5
 why_keystone: Establishes the bidirectional microbiota-gut-brain axis as the organizing framework for neurodevelopmental disorders, integrating vagal, immune, and metabolite pathways. WikiBiome uses this framework to position metal-driven dysbiosis as an upstream perturbation of the gut-brain axis in autism and related conditions.
 evidence_level: expert-opinion
 metals_discussed: [calcium, iron, zinc]

@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md, campanale-2014-nickel-free-diet-h-pylori.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md]
+source_count: 4
 tags: [nickel-enzyme, hydrogenase, NiFe, virulence, hydrogen-metabolism, CagA, cancer, energy-metabolism, H-pylori, Salmonella]
 platform: wikibiome
 karen_brain_primitives: [4]

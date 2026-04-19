@@ -22,11 +22,6 @@ tags:
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Landmark mechanistic dissection showing three carcinogenic metals operate via distinct pathways: nickel through epigenetic silencing and HIF-1α stabilization; arsenic through proliferation signaling and SAM depletion; chromium through direct DNA ternary adducts and MMR inhibition. WikiBiome depends on this evidence to establish metal-specific carcinogenic mechanisms and to explain why different metals drive disease through different ecological vulnerabilities."
 evidence_level: animal-model
 metals_discussed: [arsenic, chromium, iron, nickel]

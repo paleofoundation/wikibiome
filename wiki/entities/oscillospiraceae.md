@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [pendergrass-2026-heavy-metals-obesity-epidemic, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity, zhang-2025-gut-virome-premalignant-colorectal-adenoma, teng-2024-gut-microbiome-lipids-mr, svensson-2021-endometriosis-gut-microbiota-associations]
+source_count: 6
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, zinc]

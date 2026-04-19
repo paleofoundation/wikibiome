@@ -12,6 +12,8 @@ metal_dependencies: [iron, selenium, cobalt]
 key_enzymes: [butyryl-CoA transferase, ferredoxin oxidoreductases, tryptophan hydroxylase stimulators]
 tags: [firmicutes, class-level, SCFA-producer, butyrate, serotonin-regulator, schizophrenia-risk, Treg-induction, functional-diversity]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Clostridia class gut bacteria serotonin butyrate immune regulation"
 wikipedia_differentiation: "Mendelian randomization evidence establishing class Clostridia as a causal schizophrenia risk factor (OR 1.16), resolving directionality; serotonin regulation pathway where spore-forming Clostridia stimulate 90%+ of body serotonin production by enterochromaffin cells; ecological framework showing why class-level modulation is clinically dangerous given functional diversity spanning essential commensals and lethal pathogens"
 conditions_enriched_in: [schizophrenia]

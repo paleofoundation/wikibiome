@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [borghini-2020-endometriosis-nickel-ibs, lombardi-2020-snas-probiotics-dysbiosis, rizzi-2017-ibs-nickel-diet, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-2020-environmental-exposures-autoimmune-gut-microbiome]
+source_count: 5
 tags: [IBS, nickel, FODMAP, gut-barrier, visceral-hypersensitivity, microbiome, SNAS, mast-cells, serotonin, low-nickel-diet]
 platform: wikibiome
 last_substantive_update: 2026-04-13

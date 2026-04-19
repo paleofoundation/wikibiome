@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [amerikanou-2022-ibd-biomarkers-trace-metals, sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, li-2019-timing-second-fmt-crohns, sokol-2020-fmt-remission-crohns-pilot-rct, shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis, zhu-2021-editorial-microbiome-ibd-composition-therapy, rashed-2022-manipulation-gut-microbiota-crohns, borghini-2020-endometriosis-nickel-ibs, syer-2015-nsaid-enteropathy-bacteria, mermans-2019-nsaids-gut-microbiome-chronic-inflammation]
+source_count: 11
 tags: [IBD, Crohns-disease, ulcerative-colitis, calprotectin, hepcidin, iron, zinc, dysbiosis, FMT, gut-barrier, inflammation, Faecalibacterium, Enterobacteriaceae]
 platform: wikibiome
 last_substantive_update: 2026-04-13

@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, pendergrass-2026-nickel-nec-preterm-gut, patil-2021-infection-metallomics-critical-care]
+source_count: 3
 metal_dependencies: [nickel, iron, zinc]
 key_enzymes: [Ni-urease, Ni-GloI, yersiniabactin]
 tags: [pathogen, UTI, pneumonia, sepsis, NEC, antibiotic-resistance, ESKAPE]

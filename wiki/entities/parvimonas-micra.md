@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [gram-positive, obligate-anaerobe, oral-pathobiont, colorectal-cancer, iron-dependent, biofilm-former, adhesins, oral-colorectal-axis]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron, nickel]
 key_enzymes: [adhesins, proteases, siderophore-receptors, biofilm-matrix-proteins]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Parvimonas micra colorectal cancer biomarker oral-gut iron"
 wikipedia_differentiation: "Iron piracy and biofilm nucleation in CRC with strongest single-taxon biomarker specificity across multiple large cohorts and geographic regions"

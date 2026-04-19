@@ -10,6 +10,8 @@ tags: [parenteral-nutrition, TPN, IV-nutrition, aluminum, iron, preterm, NEC, mi
 karen_brain_primitives: [1, 2, 3, 4]
 seo_target: "parenteral nutrition metal contamination aluminum microbiome impact"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Parenteral Nutrition

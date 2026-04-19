@@ -4,9 +4,12 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [virulence-enzyme, zinc-biology, metal-cofactor, tissue-destruction, immune-evasion]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [2, 4, 6]
 seo_target: "zinc-metalloprotease microbiome"
 last_substantive_update: 2026-04-10

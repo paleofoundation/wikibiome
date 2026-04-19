@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 gram_stain: "negative"
 oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, zinc]
 key_enzymes: [beta-glucuronidase, iron-acquisition-siderophores, zinc-metalloproteases]
 tags: [commensal-pathobiont, colorectal-cancer, depression, dysbiosis-marker, beta-glucuronidase, iron-siderophores]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Bacteroides vulgatus iron siderophore colorectal cancer depression"
 wikipedia_differentiation: "Iron-scavenging specialist with beta-glucuronidase activity linking metal-driven competitive advantage to CRC and depression enrichment"

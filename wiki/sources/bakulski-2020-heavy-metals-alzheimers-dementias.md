@@ -36,11 +36,6 @@ key_findings:
 karen_brain_primitives: [1, 3]
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Synthesizes epidemiological evidence linking lead (lifetime cumulative exposure), mercury (organic and inorganic forms), cadmium, and arsenic to Alzheimer's disease and related dementias through multiple pathways: direct neurotoxicity, calcium channel disruption, and epigenetic silencing. Critical for WikiBiome because it establishes metal exposure assessment methodology (bone lead vs. blood lead, biomarker selection) essential for accurate metallomics phenotyping across neurodegenerative disease signatures."
 ---
 

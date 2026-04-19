@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
+source_count: 1
 tags: [pathogen, nickel, iron, hydrogenase, macrophage-survival, gut-invasion, typhoid]
 metal_dependencies: [iron, zinc, manganese, magnesium]
 key_enzymes: [enterobactin/salmochelin (siderophores), ZnuABC (zinc uptake), MntH (manganese transporter), SodCI (Cu/Zn-SOD)]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Salmonella Typhimurium NiFe hydrogenase iron siderophore macrophage"
 wikipedia_differentiation: "Four distinct NiFe-hydrogenases with triple mutant 100% avirulence data plus salmochelin and ZnuABC metal acquisition systems"

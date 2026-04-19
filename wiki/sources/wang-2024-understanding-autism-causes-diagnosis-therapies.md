@@ -26,11 +26,6 @@ platform: both
 condition: autism spectrum disorder
 keystone: false
 keystone_criteria_met: [1, 5]
-keystone_criteria_met:
-  - 1
-  - 3
-  - 4
-  - 5
 why_keystone: Comprehensive review synthesizing genetic, environmental, neurobiological, and gut-microbiome contributions to autism spectrum disorder under a unified multifactorial model. Provides the scaffolding WikiBiome uses to situate metal-driven dysbiosis among the other established ASD drivers and to identify where metallomics adds explanatory power.
 metals_discussed: [iron, nickel, zinc]
 karen_brain_primitives: [1, 2, 4, 5]

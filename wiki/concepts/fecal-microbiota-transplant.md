@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [martinelli-2022-gut-oriented-interventions-ms, herrema-2020-microbiome-cardiovascular-disease-ascvd, luqman-2024-intestinal-microbiome-cvd-intervention, zheng-2021-bacterial-aromatic-amino-acids-asd]
+source_count: 4
 tags: [FMT, fecal-transplant, microbiome-restoration, C-difficile, dysbiosis, clinical-trials, CVD, MS, ASD, IBD]
 platform: wikibiome
 karen_brain_primitives: [1, 5]

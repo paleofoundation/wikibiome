@@ -11,6 +11,8 @@ tags: [spirochete, Lyme-disease, tick-borne, iron-free, manganese-dependent, MnS
 seo_target: "Borrelia burgdorferi manganese iron-free Lyme disease metal biology"
 wikipedia_differentiation: "Complete elimination of iron from biology as evolutionary anti-Fenton strategy; dual MnSOD/H-Mn antioxidant system characterized by EPR spectroscopy; manganese toxicity under metabolite depletion as self-poisoning vulnerability"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 gram_stain: "negative"
 oxygen_requirement: "microaerophilic"
 metal_dependencies: [manganese]

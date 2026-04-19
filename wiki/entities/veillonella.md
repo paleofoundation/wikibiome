@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [su-2020-gut-microbiota-immune-imbalance-graves, zangeneh-2021-oral-microbiota-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes, fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms, thirion-2023-gut-microbiota-ms-disease-activity]
+source_count: 6
 metal_dependencies: [none confirmed]
 tags: [mixed, lactate-utilizer, oral-microbiome, enriched-in-MS, enriched-in-Graves, oral-gut-translocation, cross-feeder]
 platform: wikibiome

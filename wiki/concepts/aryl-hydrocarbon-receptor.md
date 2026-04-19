@@ -10,6 +10,8 @@ tags: [AhR, aryl-hydrocarbon-receptor, tryptophan, indole, immune-regulation, gu
 karen_brain_primitives: [1, 4, 8]
 seo_target: "aryl hydrocarbon receptor AhR microbiome tryptophan indole signaling"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Aryl Hydrocarbon Receptor (AhR)

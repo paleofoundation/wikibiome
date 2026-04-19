@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [zou-2022-mycobiome-dysbiosis-hypertension-light-chains, qiu-2023-gut-mycobiome-hypertension-ckd, wei-2025-gut-mycobiome-cardiometabolic-disease, huang-2024-gut-fungi-ibd-colorectal-cancer, strati-2017-altered-gut-microbiota-mycobiota-asd]
+source_count: 5
 metal_dependencies: [lipid-dependent rather than metal-dependent; possible indirect metal interactions via lipase activity]
 tags: [fungus, skin-commensal, gut-mycobiome, lipid-dependent, CVD-enriched, hypertension-associated, immunomodulatory]
 platform: wikibiome

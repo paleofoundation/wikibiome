@@ -32,11 +32,6 @@ doi: 10.3390/ijms23063997
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Maps distinct metal-specific mechanisms of kidney injury for arsenic (ROS/MAPK/NF-kB activation), cadmium (electron transport chain disruption, ER stress, 10→25% CKD risk), and mercury (mitochondrial depolarization, cytoskeletal damage)—establishing these metals as distinct nephrotoxins with separate mechanistic signatures. WikiBiome depends on this evidence to explain why CKD populations accumulate toxic metals, enabling characterization of the reciprocal metal-kidney-disease pathway across signature layers."
 evidence_level: expert-opinion
 metals_discussed: [arsenic, cadmium, iron, mercury]

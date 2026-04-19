@@ -27,11 +27,6 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Comprehensively maps metal-specific mechanisms of tight junction disruption (arsenic: paracellular transport; lead: claudin/occludin loss; mercury: permeability increase; cadmium: E-cadherin downregulation) and identifies metal-susceptible vs. metal-resistant microbiota species. WikiBiome depends on this evidence to explain barrier collapse as the critical intermediate step connecting metal burden to systemic dysbiosis—showing how microbial metabolites and probiotic species can counteract metal-induced permeability."
 evidence_level: animal-model
 metals_discussed: [arsenic, cadmium, chromium, lead, mercury, nickel]

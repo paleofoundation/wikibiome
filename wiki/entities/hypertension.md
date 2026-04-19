@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [fan-2025-fmt-hypertension-rct, zou-2022-mycobiome-dysbiosis-hypertension-light-chains, qiu-2023-gut-mycobiome-hypertension-ckd, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, zhen-2023-tmao-cardiovascular-diseases-review, dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis, spivak-2023-local-systemic-microbiome-derived-metabolites]
+source_count: 8
 tags: [hypertension, blood-pressure, SCFAs, TMAO, mycobiome, Malassezia, FMT, lead, cadmium, Olfr78, GPR41, renal-metals, gut-microbiome, cardiovascular-disease]
 platform: wikibiome
 last_substantive_update: 2026-04-13

@@ -30,11 +30,6 @@ doi: 10.1016/j.scitotenv.2020.140429
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 3]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Frames the bidirectional relationship between metals and dysbiosis: metals drive dysbiosis, and dysbiosis impairs metal detoxification—a positive feedback loop central to WikiBiome's pathophysiology model. Critical for understanding why probiotic intervention (Lactobacillus, Bifidobacterium) can interrupt metal-driven disease across autism, allergies, and metabolic conditions."
 evidence_level: animal-model
 metals_discussed: [arsenic, cadmium, lead, mercury, nickel]

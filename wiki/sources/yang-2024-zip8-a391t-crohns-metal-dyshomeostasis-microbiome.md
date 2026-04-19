@@ -42,11 +42,6 @@ taxa_discussed: [akkermansia-muciniphila, lactobacillus, staphylococcus-aureus]
 evidence_level: cross-sectional
 keystone: true
 keystone_criteria_met: [1, 2, 3]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Shows that the Crohn's-linked ZIP8 A391T variant produces colonic metal ion dyshomeostasis — specifically disrupted zinc and manganese handling — that reshapes the microbiome and inflammatory state. Direct genetic evidence that metal transporters sit upstream of IBD microbiome composition and a mechanistic linchpin for WikiBiome's Crohn's signature.
 ---
 

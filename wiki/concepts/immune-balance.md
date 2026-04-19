@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [khan-2020-environmental-exposures-autoimmune-gut-microbiome, kravchenko-2023-thyroid-hormones-minerals-AITD, borghini-2020-endometriosis-nickel-ibs, giambo-2021-toxic-metal-exposure-gut-microbiota-review, gao-2023-microglia-neurodegenerative-diseases, mishra-2022-molecular-mechanisms-heavy-metals-ckd, ahmed-2025-metals-alzheimers-mechanistic-review, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity]
+source_count: 9
 tags: [Th1, Th2, Th17, Treg, innate-immunity, adaptive-immunity, metals, microbiome, autoimmunity, tolerance, cytokines]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 5]

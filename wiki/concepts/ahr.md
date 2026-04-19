@@ -4,9 +4,12 @@ type: concept
 created: 2026-04-13
 updated: 2026-04-13
 sources: []
+source_count: 0
 tags: [immune-regulation, tryptophan-metabolism, gut-barrier, xenobiotic, neuroinflammation, indoles]
 karen_brain_primitive: "Primitive 3 / Primitive 6 — Xenobiotic sensing; microbial metabolite signaling"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [1, 4, 8]
 seo_target: "ahr aryl hydrocarbon receptor microbiome"
 last_substantive_update: 2026-04-13

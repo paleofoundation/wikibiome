@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, jie-2017-gut-microbiome-acvd, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, hanus-2021-immune-microbiota-metabolites-crc-triad, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]
+source_count: 5
 metal_dependencies: [iron -- siderophore-mediated acquisition is central to virulence; nickel -- Ni-dependent urease and hydrogenase; zinc -- Zn-dependent metalloproteases]
 tags: [pathogen-family, iron-dependent, siderophore-producers, dysbiosis-bloom, LPS-producers, metal-resistant, antibiotic-resistance]
 platform: wikibiome

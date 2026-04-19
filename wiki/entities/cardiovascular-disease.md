@@ -20,6 +20,7 @@ sources:
  - wei-2025-gut-mycobiome-cardiometabolic-disease
  - liu-2025-cardiometabolic-nickel
  - rasin-2025-cadmium-exposure-health-review
+source_count: 14
 tags: [cardiovascular-disease, CVD, TMAO, copper, selenium, lead, cadmium, nickel, Cu-Se-ratio, SCFAs, bile-acids, microbiome, mycobiome, oral-microbiome, atherosclerosis, hypertension, heart-failure, dysbiosis, tryptophan, indoxyl-sulfate, metabolomics]
 platform: wikibiome
 last_substantive_update: 2026-04-13

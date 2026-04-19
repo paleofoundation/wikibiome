@@ -10,6 +10,8 @@ tags: [hyperparathyroidism, PTH, calcium, vitamin-D, heavy-metals, lead, cadmium
 karen_brain_primitives: [1, 2, 3]
 seo_target: "hyperparathyroidism heavy metals vitamin D calcium microbiome"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Hyperparathyroidism

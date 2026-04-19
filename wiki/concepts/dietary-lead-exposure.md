@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-11
 updated: 2026-04-11
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, garuba-2024-heavy-metals-commercial-baby-foods, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements, eu-2020-drinking-water-directive, pendergrass-2026-certification-infant-food-metals]
+source_count: 5
 tags: [diet, lead, exposure, food-safety, water, infant-foods, developmental-toxicity]
 platform: wikibiome
 karen_brain_primitive: "Primitive 3: Mis-metallation and Toxic Metal Entry"

@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care, cassat-2012-metal-acquisition-staphylococcus-aureus, akbari-2022-metal-homeostasis-streptococci]
+source_count: 4
 metal_dependencies: [nickel, iron, zinc, copper]
 key_enzymes: [NiFe-hydrogenase-Hyc, Ni-urease, mycobactin, carboxymycobactin]
 tags: [pathogen, tuberculosis, intracellular, macrophage-survival, siderophore, global-burden]

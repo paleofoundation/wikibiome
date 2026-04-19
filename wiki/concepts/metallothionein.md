@@ -10,6 +10,8 @@ tags: [metal-binding-protein, detoxification, cadmium, zinc, copper, cysteine-ri
 karen_brain_primitives: [1, 2, 3]
 seo_target: "metallothionein heavy metal detoxification zinc cadmium binding protein"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Metallothionein

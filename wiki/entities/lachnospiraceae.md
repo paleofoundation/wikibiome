@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, toya-2020-coronary-artery-disease-altered-gut-microbiome, gao-2026-ketogenic-diet-fxr-nfkb-crc, jie-2017-gut-microbiome-acvd, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]
+source_count: 5
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis enzymes; sensitive to heavy metal perturbation]
 tags: [family-level, sentinel-family, SCFA-producers, depleted-in-disease, butyrate-producers, dysbiosis-marker]
 platform: wikibiome

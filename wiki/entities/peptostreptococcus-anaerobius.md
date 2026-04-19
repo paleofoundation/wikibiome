@@ -12,6 +12,8 @@ metal_dependencies: [iron]
 key_enzymes: [putrescine biosynthesis enzymes, TLR2/TLR4 ligands]
 tags: [CRC-enriched, tumor-microenvironment, pro-inflammatory, firmicutes, NF-kB, cholesterol-biosynthesis, ROS]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Peptostreptococcus anaerobius colorectal cancer tumor microbiome"
 wikipedia_differentiation: "Role as a tumor microenvironment colonizer in CRC with mechanistic detail on TLR2/TLR4-mediated NF-kB activation, cholesterol biosynthesis pathway upregulation, and ROS-driven pro-tumorigenic signaling distinct from the better-known Fusobacterium nucleatum CRC mechanism"
 conditions_enriched_in: [colorectal-cancer]

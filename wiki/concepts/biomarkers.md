@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, patil-2021-infection-metallomics-critical-care, akash-2023-metabolomics-heavy-metal-toxicities]
+source_count: 3
 tags: [biomarkers, metallomics, diagnostics, blood-metals, urine-metals, hair-metals, metabolomics, microbiome-biomarkers, exposure-assessment]
 platform: wikibiome
 karen_brain_primitives: [1, 2]

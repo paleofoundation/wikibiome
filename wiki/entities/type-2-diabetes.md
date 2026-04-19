@@ -19,6 +19,7 @@ sources:
  - shin-2023-chromium-toxicogenomics
  - zhu-2024-toxic-essential-metals-gut-microbiota
  - li-2019-heavy-metal-metabolic-health-gut-microbiome
+source_count: 13
 tags: [disease, diabetes, metabolic, metabolic-disease, metals, zinc, chromium, iron, nickel, cadmium, insulin-resistance, microbiome, obesogens]
 platform: wikibiome
 last_substantive_update: 2026-04-13

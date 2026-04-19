@@ -10,6 +10,8 @@ tags: [anti-aging, CKD, nephroprotection, metal-toxicity, antioxidant, NF-kappaB
 karen_brain_primitives: [1, 2, 3]
 seo_target: "alpha klotho kidney disease heavy metals aging"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Alpha-Klotho

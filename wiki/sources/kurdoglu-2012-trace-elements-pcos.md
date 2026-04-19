@@ -26,11 +26,6 @@ doi: 10.1177/0960327111424299
 platform: wikibiome
 keystone: false
 keystone_criteria_met: []
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "First study quantifying seven metals simultaneously in PCOS serum, showing copper and zinc elevation, manganese and lead depletion, and novel inverse correlation between lead and total testosterone. WikiBiome depends on this evidence to establish PCOS as a metal-dysregulated endocrine disease where dysbiotic taxa unable to support metal-dependent redox metabolism (mCu-SOD, Mn-SOD) cannot sustain the tight junction and hormone-modulating capacity needed for ovulatory homeostasis."
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [cadmium, cobalt, copper, lead, magnesium, manganese, zinc]

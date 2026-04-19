@@ -11,6 +11,7 @@ sources:
  - tankou-2018-probiotic-microbiome-ms
  - dargahi-2020-streptococcus-thermophilus-ms
  - libbey-2018-diet-microbiota-eae
+source_count: 5
 tags: [autoimmune, neurological, probiotics, gut-brain-axis, microbiome, cytokines, Th1-Th2-balance]
 platform: wikibiome
 last_substantive_update: 2026-04-13

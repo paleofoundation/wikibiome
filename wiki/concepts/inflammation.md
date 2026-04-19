@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [ahmed-2025-metals-alzheimers-mechanistic-review, balali-mood-2021-toxic-mechanisms-five-heavy-metals, mishra-2022-molecular-mechanisms-heavy-metals-ckd, khan-2020-environmental-exposures-autoimmune-gut-microbiome, briffa-2020-heavy-metal-pollution-environment-toxicology, kravchenko-2023-thyroid-hormones-minerals-AITD, amerikanou-2022-ibd-biomarkers-trace-metals, gao-2023-microglia-neurodegenerative-diseases, borghini-2020-endometriosis-nickel-ibs, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, hanus-2021-immune-microbiota-metabolites-crc-triad, carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]
+source_count: 12
 tags: [inflammation, NF-kB, NLRP3, cytokines, oxidative-stress, innate-immunity, chronic-inflammation, metals, convergent-pathways, CRP, IL-6, TNF-alpha, calprotectin, COX-2, resolution]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 5]

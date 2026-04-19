@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [bronzini-2023-feeding-gut-microbiome-ms, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, giambo-2021-toxic-metal-exposure-gut-microbiota-review, ghosh-2023-heavy-metals-gut-barrier-integrity]
+source_count: 8
 metal_dependencies: [indirect -- sensitive to metal perturbation]
 key_enzymes: [mucin-degrading glycosidases]
 tags: [commensal, next-generation-probiotic, mucin-degrading, gut-barrier, depleted-in-disease, metal-sensitive]

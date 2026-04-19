@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [patil-2021-infection-metallomics-critical-care, zheng-2021-bacterial-aromatic-amino-acids-asd, kang-2023-diagnosis-crohns-uc-microbiome]
+source_count: 3
 tags: [biomarkers, microbiome, diagnostics, F-nucleatum, F-prausnitzii, TMAO, p-cresol, metallophores, metabolomics, taxa-based, metabolite-based]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 5, 8]

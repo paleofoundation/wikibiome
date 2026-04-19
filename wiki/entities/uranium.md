@@ -1,0 +1,17 @@
+---
+title: "Uranium"
+type: entity
+subtype: metal
+created: 2026-04-19
+updated: 2026-04-19
+sources: []
+source_count: 0
+tags: [actinide, radioactive, nephrotoxic]
+platform: wikibiome
+stub: true
+stub_reason: "auto-discovered from source mention — 4 sources discuss this metal, awaiting content expansion"
+---
+
+# Uranium
+
+<!-- Auto-created stub from Rule 13 scope discovery. 4 source pages mention this metal. Awaiting content expansion. -->

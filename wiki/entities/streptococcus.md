@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 gram_stain: "positive"
 oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [manganese, zinc, iron]
 key_enzymes: [MnSOD, superoxide-dismutase, hyaluronidase, streptokinase, streptolysins]
 tags: [gram-positive, facultative-anaerobe, manganese-dependent, pathogenic-commensal, oral-gut-microbiome, rheumatic-fever, PIMS]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Streptococcus manganese superoxide dismutase pathogen commensal"
 wikipedia_differentiation: "Unique manganese dependency for ROS scavenging via MnSOD providing both metabolic advantage and therapeutic vulnerability"

@@ -31,11 +31,6 @@ key_findings:
 karen_brain_primitives: [1, 3]
 keystone: false
 keystone_criteria_met: [2, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Establishes that late-onset Alzheimer's disease (>95% of AD cases) results from cumulative metal burden interacting with genetic risk (APOE) and age-related vulnerability—declining blood-brain barrier, impaired metal clearance, and neuroinflammatory amplification. WikiBiome uses this paper to explain why metal-driven dysbiosis signatures may be particularly toxic in aging populations where homeostatic reserves are depleted."
 ---
 

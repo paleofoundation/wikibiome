@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [coryell-2018-gut-microbiome-arsenic-toxicity-protection, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, bronzini-2023-feeding-gut-microbiome-ms, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-heavy-metals-obesity-epidemic, ghosh-2023-heavy-metals-gut-barrier-integrity, zhu-2024-toxic-essential-metals-gut-microbiota]
+source_count: 7
 metal_dependencies: [indirect -- iron-sulfur cluster enzymes for butyrate production]
 key_enzymes: [butyryl-CoA dehydrogenase, butyrate kinase]
 tags: [commensal, next-generation-probiotic, butyrate-producer, anti-inflammatory, depleted-in-disease, arsenic-protection]

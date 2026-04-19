@@ -4,9 +4,12 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [nutritional-immunity, iron-biology, siderophore-defense, innate-immune, inflammatory-marker]
 karen_brain_primitive: "Primitive 2: Nutritional Immunity as Interpretive Constraint; Primitive 8: Siderophore Competition and Iron Ecology"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [2, 4, 6, 8]
 seo_target: "lipocalin-2 microbiome"
 last_substantive_update: 2026-04-10

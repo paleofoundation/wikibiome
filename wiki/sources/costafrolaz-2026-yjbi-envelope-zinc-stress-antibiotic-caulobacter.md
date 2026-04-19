@@ -37,11 +37,6 @@ platform: wikibiome
 condition: zinc stress and antibiotic susceptibility
 keystone: true
 keystone_criteria_met: [1, 4, 5]
-keystone_criteria_met:
-  - 1
-  - 3
-  - 4
-  - 5
 why_keystone: "Reveals that zinc stress doesn't merely inhibit cytoplasmic enzymes but triggers outer membrane proteome remodeling, exposing normally-impermeable antibiotic binding sites (TonB-dependent receptor BugA) that confer vancomycin and bacitracin susceptibility. WikiBiome uses this evidence to explain why zinc-restricted environments (nutritional immunity response, dysbiotic low-zinc states) become selective for zinc-efflux-pump-expressing pathogens while paradoxically increasing antibiotic vulnerability—a mechanism enabling zinc-based ecological engineering."
 metals_discussed: [copper, iron, zinc]
 karen_brain_primitives: [2, 3, 4, 5]

@@ -12,6 +12,8 @@ metal_dependencies: [iron, selenium, cobalt]
 key_enzymes: [butyryl-CoA transferase, ferredoxin oxidoreductases, bile acid 7-alpha-dehydroxylase]
 tags: [firmicutes, clostridia, SCFA-producer, butyrate, order-level, GERD-protective, schizophrenia-risk, cardiovascular-depleted, Treg-induction]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Clostridiales butyrate producing gut bacteria immune regulation microbiome"
 wikipedia_differentiation: "Mendelian randomization data showing Clostridiales as both a GERD-protective taxon (Vadin BB60 group, OR 0.95) and a schizophrenia risk factor at the class level (Clostridia OR 1.16); functional diversity spanning health-essential butyrate producers, Treg-inducing immunomodulators, and opportunistic pathogens within the same taxonomic order; ecological engineering framework requiring targeted modulation rather than blanket suppression or enrichment"
 conditions_enriched_in: []

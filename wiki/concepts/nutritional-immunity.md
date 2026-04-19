@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis.md, robinson-2020-metalation-natures-challenge.md, osman-2017-fine-control-metal-zinc-cobalt.md, chandrangsu-2016-zinc-intoxication-perr-heme-toxicity.md, eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus.md, kashyap-2014-pgrps-kill-bacteria-metal-stress.md, martin-2022-manganese-homeostasis-stress-pathogenesis.md, neville-2020-cadmium-carbon-flux-membrane-pneumococcus.md, bushman-2025-nutrient-metals-bacteria-gut-infection.md, mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection.md, cassat-2012-metal-acquisition-staphylococcus-aureus.md]
+source_count: 11
 tags: [host-defense, metal-sequestration, innate-immunity, nickel, calprotectin, lactoferrin, hepcidin, mis-metallation]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 3, 4, 8]

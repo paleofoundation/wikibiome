@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhen-2023-tmao-cardiovascular-diseases-review, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome, herrema-2020-microbiome-cardiovascular-disease-ascvd, mansuri-2022-gut-microbiome-cardiovascular-events-systematic-review, gao-2020-gut-microbial-biomarkers-acs-post-stemi, khatoon-2023-gut-microbiota-neurodegenerative]
+source_count: 7
 tags: [TMAO, trimethylamine, FMO3, choline, carnitine, betaine, atherosclerosis, CVD, platelet-hyperreactivity, endothelial-dysfunction, gut-microbiome-metabolite]
 platform: wikibiome
 karen_brain_primitives: [1, 5]

@@ -9,6 +9,8 @@ sources: [toya-2020-coronary-artery-disease-altered-gut-microbiome, liu-2019-gut
 source_count: 2
 tags: [coronary-artery-disease, CAD, atherosclerosis, TMAO, microbiome, copper, selenium, lead, cadmium, CVD, plaque, endothelial-dysfunction, SCFAs, bile-acids]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 5 required"
 icd_10: "I25"
 global_prevalence: "~7-9% of adults; leading global cause of death (~9 million deaths/year)"
 associated_conditions: [cardiovascular-disease, atherosclerosis, type-2-diabetes, hypertension, chronic-kidney-disease, erectile-dysfunction]

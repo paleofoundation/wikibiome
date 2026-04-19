@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhai-2016-probiotics-cadmium, libbey-2018-diet-microbiota-eae, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, bronzini-2023-feeding-gut-microbiome-ms, zhu-2024-toxic-essential-metals-gut-microbiota, pendergrass-2026-nickel-nec-preterm-gut, chen-2022-living-microorganisms-detoxification-heavy-metals, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]
+source_count: 9
 metal_dependencies: [manganese, iron -- for core metabolism; not Ni-dependent]
 key_enzymes: [Mn-SOD, lactate dehydrogenase, metal-binding surface proteins]
 tags: [commensal, probiotic, metal-detoxification, anti-inflammatory, depleted-by-metals, MS, NEC-protective]

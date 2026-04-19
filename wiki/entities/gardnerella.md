@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis, hernandes-2020-microbiome-deep-endometriosis-vaginal-lesion, khan-2016-intrauterine-microbial-colonization-endometriosis, akiyama-2019-cervical-mucus-microbial-colonization-endometriosis]
+source_count: 4
 metal_dependencies: [iron -- siderophore-mediated iron acquisition for growth; potentially influenced by metalloestrogen exposure]
 tags: [pathobiont, BV-associated, sialidase-producer, biofilm-former, vaginal-microbiome, endometriosis-associated]
 platform: wikibiome

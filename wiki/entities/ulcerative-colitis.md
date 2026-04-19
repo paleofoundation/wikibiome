@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [amerikanou-2022-ibd-biomarkers-trace-metals, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, ghosh-2023-heavy-metals-gut-barrier-integrity, khan-2020-environmental-exposures-autoimmune-gut-microbiome, giambo-2021-toxic-metal-exposure-gut-microbiota-review, zhu-2024-toxic-essential-metals-gut-microbiota]
+source_count: 6
 tags: [ulcerative-colitis, IBD, iron, copper, zinc, selenium, gut-barrier, microbiome, FMT, calprotectin, inflammation, colon]
 platform: wikibiome
 last_substantive_update: 2026-04-13

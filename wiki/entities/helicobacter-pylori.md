@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
+source_count: 1
 tags: [pathogen, gastric, nickel-dependent, urease, hydrogenase, cancer]
 metal_dependencies: [nickel, iron, zinc, cobalt, bismuth-sensitive]
 key_enzymes: [urease (UreAB — Ni-dependent), NiFe-hydrogenase (HydABCD), iron-cofactored SOD, catalase (Fe-dependent)]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Helicobacter pylori nickel urease hydrogenase gastric cancer CagA"
 wikipedia_differentiation: "Complete nickel trafficking system (NiuBDE, NixA, FrpB4) with hydrogenase-powered CagA translocation linking nickel metabolism to gastric cancer"

@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care]
+source_count: 2
 metal_dependencies: [nickel, iron, copper]
 key_enzymes: [Ni-urease, laccase]
 tags: [pathogen, fungal, meningitis, HIV-AIDS, brain-invasion, immunocompromised, urease-Achilles-heel]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Cryptococcus neoformans nickel urease brain invasion meningitis"
 wikipedia_differentiation: "Nickel-urease as Achilles heel for brain invasion with infection metallomics framework for diagnostic and therapeutic targeting"

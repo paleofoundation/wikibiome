@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, abudawood-2021-antioxidant-heavy-metals-pcos, smovrsnik-2023-heavy-metals-oxidative-stress-pcos, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, mishra-2022-molecular-mechanisms-heavy-metals-ckd, brock-2015-selenium-thyroid-autoimmunity, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons, salnikov-2008-metal-carcinogenesis, blazewicz-2023-metal-profiles-asd, tao-2024-cadmium-gut-microbiota-dwarf-hamsters]
+source_count: 10
 tags: [antioxidant, thiol, oxidative-stress, detoxification, ferroptosis, GPX4, glyoxalase]
 platform: wikibiome
 karen_brain_primitives: [1]

@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [althomali-2024-heavy-metals-neurocognitive-systematic-review, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative, gao-2023-microglia-neurodegenerative-diseases, balali-mood-2021-toxic-mechanisms-five-heavy-metals, jaishankar-2014-heavy-metal-toxicity-mechanisms, chin-chan-2015-environmental-pollutants-ad-pd, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration, briffa-2020-heavy-metal-pollution-environment-toxicology, rasin-2025-cadmium-exposure-health-review]
+source_count: 10
 tags: [depression, zinc, copper, iron, lead, cadmium, mercury, tryptophan, serotonin, gut-brain-axis, microbiome, neuroinflammation, IDO, HPA-axis]
 platform: wikibiome
 last_substantive_update: 2026-04-13
@@ -19,7 +20,7 @@ wikipedia_differentiation: "Cu/Zn ratio as biological psychiatry biomarker, tryp
 
 # Depression (Major Depressive Disorder)
 
-Depression is the most prevalent mental health disorder globally, affecting over 280 million people [[zhu-2025-microbiota-gut-brain-axis-depression-review]], and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a metallomics perspective, depression features a distinctive signature of **zinc depletion, copper elevation, and iron dysregulation** [[ogundare-2024-metals-behavioral-depression-women]], with toxic metals (lead, cadmium, mercury) acting as additional risk factors.
+Depression is the most prevalent mental health disorder globally, affecting over 280 million people [[zhu-2025-microbiota-gut-brain-axis-depression-review]], and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a metallomics perspective, depression features a distinctive signature of **zinc depletion, copper elevation, and iron dysregulation** [[ogundare-2024-metals-behavioral-factors-depression-women]], with toxic metals (lead, cadmium, mercury) acting as additional risk factors.
 
 ## Metal Signatures
 
@@ -45,8 +46,8 @@ Iron deficiency (with or without anemia) is a major contributor to depression, p
 - Hepcidin elevation from chronic [[inflammation]] sequesters iron, creating functional deficiency even with adequate stores
 
 ### Toxic Metals
-- **Lead** -- childhood lead exposure predicts adult depression [[ogundare-2024-metals-behavioral-depression-women]]; Pb disrupts dopaminergic and serotonergic neurotransmission, impairs BDNF signaling, and causes epigenetic changes in stress-response genes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
-- **Cadmium** -- associated with depression in NHANES data with conditional PIP = 0.447 in BKMR analysis [[ogundare-2024-metals-behavioral-depression-women]]; Cd depletes zinc (competitive absorption), compounds [[oxidative-stress]], and disrupts HPA axis function [[rasin-2025-cadmium-exposure-health-review]]
+- **Lead** -- childhood lead exposure predicts adult depression [[ogundare-2024-metals-behavioral-factors-depression-women]]; Pb disrupts dopaminergic and serotonergic neurotransmission, impairs BDNF signaling, and causes epigenetic changes in stress-response genes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
+- **Cadmium** -- associated with depression in NHANES data with conditional PIP = 0.447 in BKMR analysis [[ogundare-2024-metals-behavioral-factors-depression-women]]; Cd depletes zinc (competitive absorption), compounds [[oxidative-stress]], and disrupts HPA axis function [[rasin-2025-cadmium-exposure-health-review]]
 - **Mercury** -- occupational and dietary MeHg exposure associates with depressive symptoms; Hg depletes selenium (required for glutathione peroxidase → antioxidant defense) [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 
 ## The Gut-Brain Axis in Depression

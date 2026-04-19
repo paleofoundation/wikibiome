@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [commensal, mucin-degrading, gut-barrier, next-generation-probiotic, Verrucomicrobia]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "Akkermansia mucinicola sister species muciniphila gut microbiome"
 wikipedia_differentiation: "Contextualizes A. mucinicola within the metallomics framework as a second mucin-degrading Akkermansia species with potential differential metal sensitivity"
 gram_stain: "negative"

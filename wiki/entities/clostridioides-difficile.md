@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse, zhu-2024-toxic-essential-metals-gut-microbiota]
+source_count: 3
 metal_dependencies: [nickel, zinc, iron]
 key_enzymes: [Ni-GloI (predicted), Zn-dependent toxins TcdA/TcdB]
 tags: [pathogen, opportunistic, antibiotic-associated, colitis, metal-antibiotic-co-selection, spore-forming]

@@ -27,11 +27,6 @@ doi: 10.3390/antiox12010049
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [3]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Systematic review consolidating 15 controlled studies shows consistent PCOS metallomic signature: elevated antimony, cadmium, lead, mercury alongside zinc depletion, coupled with elevated oxidative stress (TOS, MDA, TNF-alpha) and reduced antioxidants (TAS, SOD). WikiBiome depends on this evidence to establish the cross-study robustness of the PCOS metal pattern and to distinguish signal from methodological heterogeneity, anchoring confidence in the metallomic signature layer."
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [antimony, arsenic, cadmium, chromium, copper, lead, magnesium, mercury, selenium, thallium, zinc]

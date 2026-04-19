@@ -36,11 +36,6 @@ doi: 10.1038/s44439-024-00009-w
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [3]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Comprehensively maps metal-specific mechanisms in Alzheimer's disease: iron and copper promote amyloid-beta aggregation and tau phosphorylation; zinc precipitates and traps amyloid-beta in plaques; aluminum, lead, and cadmium cross the blood-brain barrier and amplify neuroinflammation. WikiBiome depends on this evidence to establish that AD pathology results not from generic metal burden but from specific metal-protein interactions—explaining why distinct metal signatures may classify AD subtypes and guide targeted chelation strategies."
 evidence_level: expert-opinion
 metals_discussed: [aluminum, cadmium, calcium, copper, iron, lead, mercury, zinc]

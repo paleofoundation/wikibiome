@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [luqman-2024-intestinal-microbiome-cvd-intervention, reddy-1998-prebiotics-probiotics-colon-cancer-prevention, li-2020-polyphenols-gut-microbiota-ibd-synergy]
+source_count: 3
 tags: [prebiotics, FOS, GOS, inulin, resistant-starch, fiber, Bifidobacterium, SCFA-production, gut-barrier, dietary-intervention]
 platform: wikibiome
 karen_brain_primitives: [1, 5]

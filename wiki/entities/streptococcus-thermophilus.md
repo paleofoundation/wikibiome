@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [dargahi-2020-streptococcus-thermophilus-ms, akbari-2022-metal-homeostasis-streptococci, tao-2020-probiotics-effects-t2d-meta-analysis, shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis]
+source_count: 4
 tags: [probiotic, yogurt-fermentation, beta-galactosidase, lactose-digestion, anti-inflammatory, lactic-acid-producer]
 gram_stain: "positive"
 oxygen_requirement: "facultative-anaerobe"

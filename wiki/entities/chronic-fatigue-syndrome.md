@@ -9,6 +9,8 @@ sources: [safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-a
 source_count: 3
 tags: [chronic-fatigue-syndrome, ME-CFS, myalgic-encephalomyelitis, nickel, microbiome, dysbiosis, post-exertional-malaise, neuroinflammation, mitochondria, long-covid, immune-dysregulation]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 3 sources, minimum 5 required"
 icd_10: "G93.3"
 global_prevalence: "~0.4-1% of adults; 17-24 million people globally; 75% female"
 associated_conditions: [fibromyalgia, depression, long-covid, irritable-bowel-syndrome, pcos]

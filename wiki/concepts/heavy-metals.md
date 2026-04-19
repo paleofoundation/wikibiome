@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]
+source_count: 3
 tags: [heavy-metals, toxic-metals, essential-metals, metal-toxicity, ROS, oxidative-stress, gut-microbiome, environmental-exposure]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 3, 4, 5]

@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [gutmann-2025-functional-microbiome-diet-ms, zheng-2021-bacterial-aromatic-amino-acids-asd, spivak-2023-local-systemic-microbiome-derived-metabolites, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]
+source_count: 4
 tags: [indoles, tryptophan, AhR, indole-3-propionic-acid, indole-3-aldehyde, indole-3-acetic-acid, tryptamine, gut-brain-axis, neuroprotection, microbiome-metabolites]
 platform: wikibiome
 karen_brain_primitives: [1, 5]

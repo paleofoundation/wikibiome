@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-11
 updated: 2026-04-11
 sources: [liu-2020-high-fat-diet-heavy-metal-gut-microbiota, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, richardson-2018-toxic-metals-rat-gut-microbiota, aguilera-2021-dietary-hazardous-substances-microbiota-dysbiosis, ross-2024-diet-gut-microbiome-interplay-health-disease, shen-2025-high-fat-low-fiber-diet-gut-resistome, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, imran-2019-co-selection-antibiotic-resistance-metal-microplastic]
+source_count: 8
 tags: [diet, metals, gut-microbiome, selective-pressure, co-selection, resistome, dysbiosis]
 platform: wikibiome
 karen_brain_primitive: "Primitive 1: Metals as Selective Pressures"

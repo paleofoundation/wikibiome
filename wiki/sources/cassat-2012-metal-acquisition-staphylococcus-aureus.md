@@ -26,11 +26,6 @@ doi: 10.1007/s00281-011-0294-4
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Maps the complete metal acquisition arsenal of Staphylococcus aureus and the nutritional immunity systems the host deploys to counter each—transforming WikiBiome's understanding of how calprotectin-mediated manganese/zinc sequestration drives both pathogenic persistence and dysbiotic inflammation. This mechanistic completeness is foundational to modeling metal-dependent pathogenesis across wound, respiratory, and systemic infections."
 evidence_level: animal-model
 metals_discussed: [cobalt, copper, iron, manganese, nickel, zinc]

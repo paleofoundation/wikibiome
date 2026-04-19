@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [zonulin, intestinal-permeability, tight-junctions, leaky-gut, biomarker]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "zonulin intestinal permeability leaky gut biomarker"
 karen_brain_primitives: [2, 5]
 ---

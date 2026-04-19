@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [jie-2017-gut-microbiome-acvd, liu-2019-gut-microbiome-metabolism-cad-severity, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, almeida-2023-gut-microbiota-cardiovascular-axis, perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]
+source_count: 5
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis pathway; sensitive to heavy metal stress]
 tags: [commensal, butyrate-producer, SCFA-producer, depleted-in-disease, metal-sensitive, anti-inflammatory]
 platform: wikibiome

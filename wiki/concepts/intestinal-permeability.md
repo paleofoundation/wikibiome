@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [ghosh-2023-heavy-metals-gut-barrier-integrity, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-2020-environmental-exposures-autoimmune-gut-microbiome, zhu-2024-toxic-essential-metals-gut-microbiota, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, briffa-2020-heavy-metal-pollution-environment-toxicology, amerikanou-2022-ibd-biomarkers-trace-metals, lombardi-2020-snas-probiotics-dysbiosis]
+source_count: 8
 tags: [gut-barrier, tight-junctions, zonulin, LPS, translocation, leaky-gut, metals, permeability, biomarkers]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 3]

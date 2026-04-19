@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [irving-williams, metal-binding, mis-metallation, selectivity, thermodynamics]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "Irving-Williams series metal binding affinity mis-metallation"
 karen_brain_primitives: [1, 3, 4]
 ---

@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads.md, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons.md, racette-2017-manganese-parkinsonism-welders.md, scholefield-2024-brain-metallomics-dementia.md, bakulski-2020-heavy-metals-alzheimers-dementias.md, khatoon-2023-gut-microbiota-neurodegenerative.md, alonso-garcia-2021-gut-microbiota-proteinopathies.md, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.md, gao-2023-microglia-neurodegenerative-diseases.md, gentile-2020-diet-microbiota-brain-health.md, chin-chan-2015-environmental-pollutants-ad-pd.md, giambo-2021-toxic-metal-exposure-gut-microbiota-review.md, rasin-2025-cadmium-exposure-health-review.md]
+source_count: 14
 tags: [neurodegenerative-disease, iron, manganese, copper, ferroptosis, alpha-synuclein, neuromelanin, gut-brain-axis, microbiome, occupational-exposure, dopaminergic-neurons]
 platform: wikibiome
 last_substantive_update: 2026-04-13

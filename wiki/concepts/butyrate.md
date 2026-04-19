@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, spivak-2023-local-systemic-microbiome-derived-metabolites, luqman-2024-intestinal-microbiome-cvd-intervention]
+source_count: 3
 tags: [butyrate, SCFA, HDAC-inhibition, GPR109A, colonocyte-energy, Treg, gut-barrier, Roseburia, Faecalibacterium, anti-inflammatory, epigenetics]
 platform: wikibiome
 karen_brain_primitives: [5, 9]

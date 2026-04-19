@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [bronzini-2023-feeding-gut-microbiome-ms, perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort, liu-2019-gut-microbiome-metabolism-cad-severity, wang-2021-gut-microbiota-nsaid-enteropathy, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]
+source_count: 5
 metal_dependencies: [iron -- iron-sulfur clusters in ferredoxins; cobalt -- B12-dependent enzymes in some species; zinc -- botulinum toxin is a Zn-metalloprotease]
 tags: [mixed-genus, butyrate-producers, pathogens, commensal, context-dependent, depleted-in-disease]
 platform: wikibiome

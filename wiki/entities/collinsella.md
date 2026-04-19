@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, strati-2017-altered-gut-microbiota-mycobiota-asd, li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis, luqman-2024-intestinal-microbiome-cvd-intervention, zhu-2023-gut-microbiota-metabolic-pathways-cvd]
+source_count: 5
 metal_dependencies: [none well-characterized; enriched by heavy metal exposure]
 tags: [pathobiont, enriched-in-disease, bile-acid-deconjugator, gut-permeability, atherosclerosis, metal-enriched]
 platform: wikibiome

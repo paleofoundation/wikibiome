@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [necrotizing-enterocolitis, neonatal, preterm, TLR4, LPS, Enterobacteriaceae, lactoferrin, zinc, HMO]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 5 required"
 seo_target: "necrotizing enterocolitis microbiome preterm infant prevention"
 wikipedia_differentiation: "TLR4 as master regulator of NEC pathogenesis with Proteobacteria bloom detectable 2 weeks before diagnosis, virome convergence 10 days pre-NEC, non-toxigenic Clostridia as novel probiotics metabolizing HMOs to suppress pathobionts, and bovine lactoferrin + L. rhamnosus GG as top-ranked NEC prevention (SUCRA 95.7%)"
 associated_conditions: [cerebral-palsy]

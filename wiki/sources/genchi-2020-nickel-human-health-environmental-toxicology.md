@@ -49,11 +49,6 @@ key_findings:
   - "Nickel-dependent bacterial enzymes: urease, NiFe-hydrogenase, glyoxalase, acireductone dioxygenase"
 keystone: false
 keystone_criteria_met: [4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Establishes nickel as both a selective pressure (IARC Group 1 carcinogen inducing epigenetic changes and apoptosis) and an ecological driver through its role in bacterial urease and siderophore metabolism. WikiBiome's understanding of nickel-driven dysbiosis across endometriosis, ASD, and Parkinson's depends on this foundational nickel toxicology."
 ---
 

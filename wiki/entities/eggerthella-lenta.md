@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 gram_stain: "positive"
 oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, molybdenum]
 key_enzymes: [beta-glucuronidase, cardiac-glycoside-inactivating-enzyme, iron-acquisition-systems, molybdenum-containing-oxidoreductases]
 tags: [estrobolome, endometriosis, cardiac-glycoside-metabolism, hormone-recirculation, beta-glucuronidase-producer]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Eggerthella lenta estrobolome beta-glucuronidase endometriosis"
 wikipedia_differentiation: "Beta-glucuronidase estrogen recirculation mechanism with iron and molybdenum cofactor dependency linking to endometriosis and digoxin inactivation"

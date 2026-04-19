@@ -9,6 +9,8 @@ sources: [zhang-2024-bile-acid-metabolism-diabetic-kidney-disease, sun-2024-zinc
 source_count: 3
 tags: [diabetic-kidney-disease, diabetic-nephropathy, DKD, CKD, type-2-diabetes, cadmium, TLR4, NF-kB, bile-acids, microbiome, ferroptosis, zinc, curcumin, uremic-toxins]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 3 sources, minimum 5 required"
 icd_10: "E11.22"
 global_prevalence: "~30-40% of diabetes patients; ~160 million people affected globally"
 associated_conditions: [type-2-diabetes, chronic-kidney-disease, cardiovascular-disease, hypertension]

@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [jangi-2016-gut-microbiome-alterations-ms, bronzini-2023-feeding-gut-microbiome-ms, dai-2024-gut-microbiota-cvd-bidirectional-mr, teng-2024-gut-microbiome-lipids-mr, martinelli-2022-gut-oriented-interventions-ms, bezawada-2020-asd-gut-microbiota-children-systematic-review, wu-2021-premature-ovarian-insufficiency-gut-microbiota]
+source_count: 7
 metal_dependencies: [none confirmed]
 tags: [pathobiont, IgA-degrading, enriched-in-ASD, IBD-associated, mucosal-immunity, contradictory-findings]
 platform: wikibiome

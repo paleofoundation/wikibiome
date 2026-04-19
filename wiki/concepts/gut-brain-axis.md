@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative, alonso-garcia-2021-gut-microbiota-proteinopathies, gao-2023-microglia-neurodegenerative-diseases, ogrady-2025-metal-dyshomeostasis-asd, blazewicz-2023-metal-profiles-asd, passeri-2024-recent-advances-therapeutics-alzheimers, kouchaki-2017-clinical-metabolic-probiotic-ms, dargahi-2020-streptococcus-thermophilus-ms, libbey-2018-diet-microbiota-eae]
+source_count: 13
 tags: [gut-brain-axis, vagus-nerve, SCFAs, neuroinflammation, microbiome, neurodegeneration, alpha-synuclein, neurotransmitters, metals, enteric-nervous-system, tryptophan, bile-acids, BBB, cytokines]
 platform: wikibiome
 karen_brain_primitives: [1, 5]
@@ -121,21 +122,16 @@ PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, and Faeca
 - Whether metal dyshomeostasis causes dysbiosis or dysbiosis impairs metal handling (or both) remains unresolved.
 - GI symptoms are present in up to 70% of ASD children, and FMT has shown sustained improvements in both GI and behavioral symptoms.
 
-## Therapeutic Implications
+## Research Directions
 
-### Probiotics as Neuromodulators
-The term "psychobiotics" describes probiotics with demonstrated effects on brain function:
-- Multi-strain Lactobacillus + Bifidobacterium formulations show the strongest clinical evidence (MS, depression).
-- S. thermophilus produces folate and modulates Th1/Th2 balance.
-- Metal-sequestering probiotic strains (L. plantarum CCFM8610 for Cd, L. rhamnosus GR-1 for Pb) could simultaneously detoxify metals and modulate the gut-brain axis.
+### Psychobiotics
+The term "psychobiotics" describes probiotics with demonstrated effects on brain function. Multi-strain *Lactobacillus* + *Bifidobacterium* formulations have shown effects in clinical studies of depression and MS. *S. thermophilus* produces folate and modulates Th1/Th2 balance. Metal-sequestering probiotic strains (*L. plantarum* CCFM8610 for cadmium, *L. rhamnosus* GR-1 for lead) are under investigation for their dual capacity to bind metals and influence gut-brain signaling.
 
-### Dietary Approaches
-- High-fiber diets support SCFA production, maintaining the metabolite bridge to the brain.
-- Mediterranean diet is associated with lower depression, PD, and AD risk.
-- Reducing dietary metal exposure (low-nickel diets, avoiding contaminated foods) may protect the gut-brain axis by preventing metal-driven dysbiosis.
+### Dietary Associations
+High-fiber diets support SCFA production, maintaining the metabolite bridge to the brain. Mediterranean diet patterns are associated with lower incidence of depression, PD, and AD in epidemiological studies. Dietary metal exposure (nickel, cadmium, lead) is an emerging variable in gut-brain axis research, as metal-driven dysbiosis alters the microbial metabolite landscape.
 
-### FMT
-Fecal microbiota transplant has shown promise in ASD (sustained behavioral improvements) and Mn-induced parkinsonism (animal models). The gut-brain axis provides the mechanistic rationale.
+### Fecal Microbiota Transplant
+FMT studies in ASD have reported sustained changes in gut microbiome composition and behavioral assessments. Animal models of manganese-induced parkinsonism have used FMT to investigate gut-brain axis mediation. These remain active areas of investigation.
 
 ## Key Sources
 

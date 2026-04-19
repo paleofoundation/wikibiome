@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [patil-2021-infection-metallomics-critical-care, patil-2021-infection-metallomics-covid-era, radojevic-2023-microbiome-gut-brain-axis-ms, ding-2025-mycobiome-human-cancer-mechanisms-therapeutics, wei-2025-gut-mycobiome-cardiometabolic-disease, huang-2024-gut-fungi-ibd-colorectal-cancer, forbes-2019-fungal-mycobiome-neurological-disease]
+source_count: 7
 metal_dependencies: [iron -- essential for growth; acquired via siderophores TAFC, ferricrocin, coprogen]
 tags: [fungus, pathobiont, iron-dependent, siderophore-producer, aspergillosis, mycobiome, infection-biomarker]
 platform: wikibiome

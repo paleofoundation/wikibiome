@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [zhang-2019-nickel-congenital-heart-defects.md, ding-2021-nickel-pregnancy-complications.md, dobrzynska-2025-nickel-children-food.md]
+source_count: 3
 tags: [nickel, reproductive-toxicity, pregnancy, congenital-heart-defects, placental-barrier]
 platform: wikibiome
 karen_brain_primitives: []

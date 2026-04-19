@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [jangi-2016-gut-microbiome-alterations-ms, abdel-azim-2018-heavy-metals-vfas-methanococcus, bronzini-2023-feeding-gut-microbiome-ms, thirion-2023-gut-microbiota-ms-disease-activity, mirza-2024-mediterranean-diet-pediatric-ms-microbiota]
+source_count: 5
 metal_dependencies: [nickel -- Ni-dependent coenzyme F430 in methyl-CoM reductase; cobalt -- corrinoid cofactors; iron -- Fe-S clusters in hydrogenases; zinc -- structural roles; copper -- sensitive to Cu toxicity]
 tags: [archaeon, methanogen, not-bacteria, enriched-in-MS, constipation-IBS, hydrogen-consumer, metal-dependent, NF-kB-activator]
 platform: wikibiome

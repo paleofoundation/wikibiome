@@ -6,8 +6,11 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [cheng-2021-cadmium-enterococcus-metabolic.md, rebelo-2021-enterococcus-metal-antibiotic-resistance.md]
+source_count: 2
 tags: [pathogen, cadmium, mercury, arsenic, copper, antibiotic-resistance, co-selection, hospital-acquired, VRE, mobile-genetic-elements]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Enterococcus metal antibiotic resistance co-selection cadmium mercury"
 wikipedia_differentiation: "120-year co-evolution survey of metal-antibiotic resistance on shared mobile genetic elements with cadmium metabolic reprogramming transcriptomics"

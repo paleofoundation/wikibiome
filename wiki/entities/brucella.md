@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis]
+source_count: 1
 metal_dependencies: [nickel, iron]
 key_enzymes: [Ni-urease]
 tags: [pathogen, zoonotic, brucellosis, urease-vaccine-target]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Brucella nickel urease vaccine target zoonosis"
 wikipedia_differentiation: "Urease immunization protection data establishing Ni-dependent enzymes as viable vaccine targets for zoonotic pathogens"

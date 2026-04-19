@@ -53,11 +53,6 @@ key_findings:
   - "Functional model: lactate diversion from butyrate to propionate/acetate drives leaky gut"
 keystone: false
 keystone_criteria_met: []
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "An early demonstration that dysbiotic taxa enriched in T1D (Bacteroides, Veillonella, E. coli) express iron-acquisition systems and virulence factors while SCFA-producing taxa (Faecalibacterium, Roseburia) are depleted. This paper established the iron-dysbiosis-autoimmunity axis that WikiBiome extends across multiple conditions."
 ---
 

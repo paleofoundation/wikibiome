@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [hanus-2021-immune-microbiota-metabolites-crc-triad, islam-2022-opposing-microbiome-signatures-autoimmune-cancer, appunni-2021-dietary-factors-gut-microbiome-crc, zou-2024-multi-omic-microbiome-genome-transcriptome-crc, song-2025-targeting-tumor-associated-microbiome-editorial]
+source_count: 5
 metal_dependencies: [iron -- obligate iron requirement for growth; uses FeoB iron transporter]
 tags: [pathobiont, CRC-driver, oral-gut-translocation, iron-dependent, immune-evasion, biofilm-former]
 platform: wikibiome

@@ -49,11 +49,6 @@ key_findings:
   - Butyrate, propionate, and acetate are renoprotective via HDAC inhibition and GPR43/GPR109a signaling
 keystone: false
 keystone_criteria_met: [4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Establishes the bidirectional loop by which uremic toxins from gut dysbiosis drive CKD progression and CKD-induced intestinal changes perpetuate dysbiosis. Supports the microbiome layer of WikiBiome's CKD signature and explains why metal-driven dysbiosis is both cause and consequence of declining renal function.
 ---
 

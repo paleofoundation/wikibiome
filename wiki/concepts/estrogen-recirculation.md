@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [uzuner-2023-bidirectional-relationship-endometriosis-microbiome.md, wu-2024-estrogens-androgens-microbiota-crc.md, zim-2025-estrogen-gut-brain-axis-oral-contraceptives.md]
+source_count: 3
 tags: [estrobolome, estrogen-metabolism, enterohepatic-circulation, hormone-biology]
 karen_brain_primitive: "Primitive 7: Estrobolome and Hormone Recirculation"
 platform: wikibiome

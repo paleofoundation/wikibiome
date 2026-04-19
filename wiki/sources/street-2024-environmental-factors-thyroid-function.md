@@ -38,11 +38,6 @@ doi: 10.3389/fendo.2024.1429884
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Synthesizes how environmental metal exposure (Cd, Pb, As, Hg) perturbs thyroid hormone synthesis, transport, and peripheral deiodination, independent of iodine status. Provides the environmental-exposure layer of WikiBiome's thyroid signatures and links occupational and dietary metal burden to subclinical thyroid dysfunction.
 evidence_level: expert-opinion
 metals_discussed: [arsenic, beryllium, cadmium, chromium, lead, nickel, selenium]

@@ -12,6 +12,8 @@ metal_dependencies: [iron, molybdenum, nickel]
 key_enzymes: [dissimilatory sulfite reductase (DsrAB), hydrogenase, sulfate adenylyltransferase]
 tags: [sulfate-reducing-bacteria, hydrogen-sulfide, CKD-risk, causal-MR, deltaproteobacteria, anaerobe, cytotoxin]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Desulfovibrionales sulfate reducing bacteria hydrogen sulfide chronic kidney disease"
 wikipedia_differentiation: "Mendelian randomization evidence establishing Desulfovibrionales as the only Bonferroni-significant causal risk taxon for CKD (OR 1.15, power 0.93); H2S-mediated renal injury mechanism linking sulfate-reducing metabolism to endothelial damage and cholesterol absorption; metal cofactor dependencies creating potential intervention targets"
 conditions_enriched_in: [chronic-kidney-disease]

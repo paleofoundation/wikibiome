@@ -21,6 +21,7 @@ sources:
  - bastos-2023-metabolomic-follicular-fluid-hashimotos
  - maric-2023-nickel-thyroid-function
  - street-2024-environmental-factors-thyroid-function
+source_count: 15
 tags: [hashimotos-thyroiditis, autoimmune, thyroid, selenium, iron, zinc, copper, iodine, cadmium, mercury, lead, nickel, gut-thyroid-axis, microbiome, anti-TPO, anti-Tg, dysbiosis, SCFAs, tryptophan, diet, probiotics, comorbidities]
 platform: wikibiome
 last_substantive_update: 2026-04-13

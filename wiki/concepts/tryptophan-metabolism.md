@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [aziz-zadeh-2025-brain-activity-tryptophan-gut-metabolites-asd, yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr, wang-2023-microbiota-indole-3-propionic-acid-brain-asd-iugr, gevi-2016-urinary-metabolomics-italian-autistic-tryptophan-purine, vernocchi-2023-gut-microbiota-vocs-asd-biomarkers-predictors, zheng-2021-bacterial-aromatic-amino-acids-asd, martinelli-2022-gut-oriented-interventions-ms, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, pendergrass-2026-heavy-metals-obesity-epidemic]
+source_count: 9
 tags: [tryptophan, kynurenine, serotonin, indole, AhR, IDO, TDO, quinolinic-acid, IPA, IAA, gut-brain-axis, microbiome-metabolites]
 platform: wikibiome
 karen_brain_primitives: [1]

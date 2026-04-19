@@ -10,6 +10,8 @@ sources: []
 source_count: 0
 tags: [platinum, cisplatin, chemotherapy, chemoresistance, ferroptosis, ovarian-cancer]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 5 required"
 seo_target: "platinum cisplatin chemoresistance microbiome ferroptosis"
 wikipedia_differentiation: "Microbiome-dependent cisplatin efficacy — gut dysbiosis increases tumor growth AND platinum resistance, with Keap1-Nrf2-GPX4 ferroptosis resistance as the primary mechanism; glutathione as the most altered pathway in platinum-resistant cells"
 ---

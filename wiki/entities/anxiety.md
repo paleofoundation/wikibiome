@@ -10,6 +10,8 @@ sources: [zhang-2025-gut-microbiota-anxiety-depression-multimodal, kamath-2025-g
 source_count: 5
 tags: [anxiety, GAD, mental-health, gut-brain-axis, HPA-axis, serotonin, GABA, comorbidity]
 platform: wikibiome
+stub: true
+stub_reason: "claim-level citation deficit — 1 citation across 9 material paragraphs (ratio 0.11, threshold 0.33). Adversarial audit 2026-04-19."
 seo_target: "anxiety gut microbiome gut brain axis"
 wikipedia_differentiation: "Gut-brain axis mechanisms linking microbiome composition to anxiety; SCFA/tryptophan/serotonin pathways as microbially-modulated anxiety mediators; SSRI bidirectional effects on gut microbiome; anxiety as comorbidity across WikiBiome disease entities (endometriosis, IBD, PD, MS, Graves')"
 icd_10: "F41"

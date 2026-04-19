@@ -42,11 +42,6 @@ karen_brain_primitives: [1, 4]
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Reveals cadmium-induced dysregulation of zinc and copper homeostasis in A. baumannii through CzcE/CzcCBA efflux—the molecular basis for cadmium's cross-metal toxicity signature. WikiBiome uses this paper to explain how cadmium exposure selects for A. baumannii while simultaneously disrupting the metal balance that favors commensal taxa, driving dysbiotic colonization in respiratory and wound settings."
 ---
 

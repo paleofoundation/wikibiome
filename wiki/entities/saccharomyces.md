@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [huang-2024-gut-fungi-ibd-colorectal-cancer, wei-2025-gut-mycobiome-cardiometabolic-disease, qiu-2023-gut-mycobiome-hypertension-ckd, strati-2017-altered-gut-microbiota-mycobiota-asd, li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort, motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]
+source_count: 6
 metal_dependencies: [zinc -- Zn-dependent alcohol dehydrogenase; copper -- Cu/Zn-SOD for oxidative stress defense; metal biosorption capacity]
 tags: [fungus, probiotic, pathobiont, CRC-mycobiome, metal-biosorption, ASCA-antibodies]
 platform: wikibiome

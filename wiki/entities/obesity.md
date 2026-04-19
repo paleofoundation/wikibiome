@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [pendergrass-2026-heavy-metals-obesity-epidemic, lusi-2015-nickel-allergy-overweight, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome, dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, ross-2024-diet-gut-microbiome-interplay-health-disease, lombardi-2020-snas-probiotics-dysbiosis, lu-2024-nickel-diabetes-meta-analysis]
+source_count: 9
 tags: [obesity, BMI, Firmicutes-Bacteroidetes-ratio, nickel-allergy, low-nickel-diet, heavy-metals, obesogens, SCFA, dysbiosis, adipose-inflammation, insulin-resistance, TMAO, metabolic-syndrome]
 platform: wikibiome
 last_substantive_update: 2026-04-13

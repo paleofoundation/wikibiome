@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [jangi-2016-gut-microbiome-alterations-ms, troci-2022-b-cell-depletion-reverses-dysbiosis-ms, bronzini-2023-feeding-gut-microbiome-ms, zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiome, svensson-2021-endometriosis-gut-microbiota-associations, chen-2024-gut-microbiota-six-thyroid-diseases-mr]
+source_count: 6
 metal_dependencies: [none confirmed]
 tags: [commensal, butyrate-producer, depleted-in-MS, anti-inflammatory, protective-consortium, Bacteroidetes]
 platform: wikibiome

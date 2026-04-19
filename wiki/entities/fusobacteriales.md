@@ -12,6 +12,8 @@ metal_dependencies: [iron]
 key_enzymes: [butyrate kinase, FadA adhesin]
 tags: [fusobacteria, oral-microbiome, oral-gut-translocation, CKD-risk, glomerular-injury, LPS, anaerobe, order-level]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Fusobacteriales oral bacteria kidney disease gut microbiome"
 wikipedia_differentiation: "Mendelian randomization evidence establishing Fusobacteriales as a causal risk factor for glomerular injury via urinary albumin-to-creatinine ratio elevation; oral-gut-kidney axis mechanism linking periodontal dysbiosis to CKD progression; LPS-mediated systemic inflammation pathway"
 conditions_enriched_in: [chronic-kidney-disease, autism-spectrum-disorder, colorectal-cancer]

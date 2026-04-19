@@ -7,6 +7,7 @@ created: 2026-04-09
 updated: 2026-04-09
 last_substantive_update: 2026-04-09
 sources: [acosta-rodriguez-2018-biosorption-candida-albicans.md, kukde-2019-heavy-metals-candida-hiv.md, do-carmo-2023-metal-nanoparticles-candida-review.md, maier-2019-nickel-microbial-pathogenesis.md]
+source_count: 4
 tags: [pathogen, fungal, biosorption, heavy-metals, nickel, zinc, iron, copper, immunocompromised, candidiasis, Cryptococcus]
 platform: wikibiome
 seo_target: "Candida albicans gut microbiome heavy metals"

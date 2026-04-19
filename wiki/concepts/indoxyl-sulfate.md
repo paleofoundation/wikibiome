@@ -10,6 +10,8 @@ tags: [uremic-toxin, tryptophan, indole, nephrotoxic, cardiovascular, CKD, dysbi
 karen_brain_primitives: [1, 4, 5]
 seo_target: "indoxyl sulfate uremic toxin tryptophan gut microbiome CKD"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Indoxyl Sulfate

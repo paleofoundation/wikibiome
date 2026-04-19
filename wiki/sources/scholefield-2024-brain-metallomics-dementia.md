@@ -31,12 +31,6 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 3, 4, 5]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
 why_keystone: Shows that brain metallomic signatures — the spatial distribution of Fe, Cu, Zn, Mn across specific regions — discriminate dementia with Lewy bodies from Alzheimer's and Parkinson's disease dementia. Establishes that neurodegenerative diseases are metallomically distinct phenotypes, not variants of a single cascade, and grounds WikiBiome's differential signatures for DLB, AD, and PDD.
 evidence_level: case-control
 metals_discussed: [calcium, copper, iron, lead, manganese, selenium]

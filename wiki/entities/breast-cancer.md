@@ -17,6 +17,7 @@ sources:
  - zhu-2024-toxic-essential-metals-gut-microbiota
  - salnikov-2008-metal-carcinogenesis
  - klotz-2017-aluminum-health-effects-review
+source_count: 11
 tags: [cancer, copper, cadmium, zinc, manganese, metalloestrogens, microbiome, oxidative-stress, Cu-Zn-ratio]
 platform: wikibiome
 last_substantive_update: 2026-04-13

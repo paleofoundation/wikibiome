@@ -34,12 +34,6 @@ karen_brain_primitives: [1, 3, 7]
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
 why_keystone: "Establishes cadmium and nickel as metalloestrogens with distinct mechanistic signatures: cadmium binds ERα with affinity near estradiol, activating classical estrogen target genes; nickel induces histone deacetylation and tumor suppressor methylation without competing for estradiol binding. WikiBiome depends on this evidence to explain how metal burden drives estrogen-dependent dysbiosis (estrobolome expansion) in endometriosis and hormonally-sensitive cancers—linking metallomics to the estrobolome pathway."
 ---
 

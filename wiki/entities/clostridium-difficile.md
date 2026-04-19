@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [redirect, taxonomy, historical-name]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "Clostridium difficile C diff infection"
 wikipedia_differentiation: "Redirect to the current taxonomic name with historical context"
 ---

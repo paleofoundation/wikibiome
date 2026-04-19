@@ -23,11 +23,6 @@ doi: 10.1111/jnc.70041
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "PRISMA systematic review showing that toxic metals (Hg, Cd, Pb) and zinc deficiency produce **overlapping gut pathologies**—barrier dysfunction, permeability, inflammation, dysbiosis—establishing a unifying mechanism: metals reduce zinc bioavailability through protein-binding competition, mimicking zinc deficiency. WikiBiome depends on this evidence to connect metal dysregulation to zinc depletion across multiple conditions and to explain why metal burden and zinc loss appear as paired signatures in disease."
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [cadmium, lead, mercury, nickel, zinc]

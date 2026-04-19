@@ -9,6 +9,8 @@ sources: [chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression, seve
 source_count: 4
 tags: [bipolar-disorder, neuropsychiatric, copper, zinc, lithium, gut-brain-axis, microbiome, Candida, inflammation, mood-disorder, mania, depression]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 4 sources, minimum 5 required"
 icd_10: "F31"
 global_prevalence: "~1-2.4% lifetime prevalence globally; ~46 million people affected"
 associated_conditions: [schizophrenia, depression, cardiovascular-disease, type-2-diabetes, anxiety-disorders]

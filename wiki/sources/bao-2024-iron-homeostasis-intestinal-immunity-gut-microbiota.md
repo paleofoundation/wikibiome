@@ -28,11 +28,6 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Establishes iron homeostasis as a critical junction between host immunity (hepcidin-ferroportin axis) and microbiota composition—demonstrating how iron deficiency depletes Lactobacillus while iron excess enriches pathogenic Bacteroides and E. coli. This paper is foundational to WikiBiome's iron signatures across anemia, IBD, and metabolic disease."
 evidence_level: animal-model
 metals_discussed: [iron, manganese, nickel]

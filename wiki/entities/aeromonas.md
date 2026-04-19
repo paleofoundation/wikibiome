@@ -5,6 +5,7 @@ subtype: microbe
 created: 2026-04-13
 updated: 2026-04-13
 sources: []
+source_count: 0
 tags: [opportunistic-pathogen, gram-negative, waterborne, gut-dysbiosis, iron-dependent, siderophore]
 gram_stain: "negative"
 oxygen_requirement: "facultative anaerobe"

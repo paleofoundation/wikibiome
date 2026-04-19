@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [barrea-2019-mediterranean-diet-pcos, mei-2022-mediterranean-low-carb-pcos, cutler-2019-fiber-magnesium-pcos, leung-2022-lower-fiber-pcos-meta-analysis, barnard-2023-nutrition-prevention-treatment-endometriosis, piecuch-2022-nutrition-endometriosis-review, mazza-2023-endometriosis-dietary-choices-everyday-life]
+source_count: 7
 tags: [diet, anti-inflammatory, PCOS, endometriosis, PREDIMED, fiber, MUFA, olive-oil, nickel-paradox, metabolic-health]
 platform: wikibiome
 karen_brain_primitives: [5]

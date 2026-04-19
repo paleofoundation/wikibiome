@@ -4,9 +4,12 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [virulence-enzyme, nickel-biology, iron-biology, metal-cofactor, anaerobic-metabolism]
 karen_brain_primitive: "Primitive 4: Microbial Metal Dependencies as Achilles' Heels; Primitive 9: Oxygen State as Ecological Determinant"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [1, 2, 4, 6, 8, 9]
 seo_target: "nife-hydrogenase microbiome"
 last_substantive_update: 2026-04-10

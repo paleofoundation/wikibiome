@@ -4,8 +4,11 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [liu-2025-cardiometabolic-nickel.md]
+source_count: 1
 tags: [metabolic-syndrome, nickel, epidemiology, NHANES]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 karen_brain_primitives: []
 seo_target: "metabolic syndrome and metal exposure microbiome"
 last_substantive_update: 2026-04-09

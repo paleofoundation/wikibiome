@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative]
+source_count: 5
 tags: [drug-metabolism, microbiome, drug-response, L-DOPA, metformin, PPIs, antibiotics, pharmacokinetics, precision-medicine]
 platform: wikibiome
 karen_brain_primitives: [1, 4, 5, 7]

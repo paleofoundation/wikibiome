@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [cuproptosis, copper, cell-death, lipoylation, FDX1, cancer]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "cuproptosis copper dependent cell death cancer"
 karen_brain_primitives: [1, 3, 4]
 ---

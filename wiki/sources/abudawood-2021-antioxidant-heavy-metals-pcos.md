@@ -37,11 +37,6 @@ doi: 10.1038/s41598-021-02120-6
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [2]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Demonstrates that PCOS patients carry systematically elevated body burdens of arsenic, cadmium, lead, and mercury alongside depleted glutathione and superoxide dismutase, establishing metal-induced oxidative stress as a driver of endocrine dysregulation. WikiBiome uses this paper to link metal accumulation to hormonal dysbiosis—explaining how cadmium and mercury burden may select for dysbiotic taxa that produce estrobolome-dependent estrogen recirculation, creating a bidirectional metal-dysbiosis-endocrine loop in PCOS."
 evidence_level: case-control
 metals_discussed: [arsenic, cadmium, lead, mercury]

@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-11
 updated: 2026-04-11
 sources: [jackson-2012-arsenic-infant-formulas-first-foods, hopfner-2025-infant-formula-dietary-exposure-elements-germany, garuba-2024-heavy-metals-commercial-baby-foods, pendergrass-2026-age-window-vulnerability-vegetable-baby-foods, gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements, pereira-2020-nickel-baby-foods, meli-2024-chemical-characterization-baby-food-italy, de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility, de-paiva-2020-aluminium-infant-foods-bioaccessibility, pendergrass-2026-certification-infant-food-metals]
+source_count: 10
 tags: [infant-food, baby-food, formula, heavy-metals, developmental-toxicity, food-safety, regulatory-gaps]
 platform: wikibiome
 karen_brain_primitive: "Primitive 3: Mis-metallation and Toxic Metal Entry"

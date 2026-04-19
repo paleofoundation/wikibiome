@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: [wei-2025-gut-mycobiome-cardiometabolic-disease, ding-2025-mycobiome-human-cancer-mechanisms-therapeutics, zou-2022-mycobiome-dysbiosis-hypertension-light-chains]
+source_count: 3
 tags: [mycobiome, fungi, Candida, Saccharomyces, Malassezia, Aspergillus, cross-kingdom, ITS-sequencing, fungal-dysbiosis]
 platform: wikibiome
 karen_brain_primitives: [1, 4, 5, 6]

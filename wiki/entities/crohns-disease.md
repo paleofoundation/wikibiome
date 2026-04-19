@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, amerikanou-2022-ibd-biomarkers-trace-metals, khalili-2024-mediterranean-diet-later-onset-crohns, haag-2015-intestinal-microbiota-innate-immunity-crohns, knights-2014-host-genetics-microbiome-ibd, serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis, abreu-2024-high-fiber-low-fat-diet-crohns, jacobs-2022-crohns-remission-obesity-mli-microbiome, kang-2023-diagnosis-crohns-uc-microbiome, zhang-2017-intestinal-microbiota-host-immune-ibd, xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr, lu-2024-ibd-extraintestinal-manifestations-microbiota-mr, liu-2022-mr-gut-microbial-genera-ibd-uc-cd, li-2020-polyphenols-gut-microbiota-ibd-synergy, vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]
+source_count: 15
 tags: [inflammatory-bowel-disease, autoimmune, gastrointestinal, iron, zinc, copper, cadmium, dysbiosis, microbiome, ferroptosis, nutritional-immunity, siderophores, gut-barrier]
 platform: wikibiome
 last_substantive_update: 2026-04-13

@@ -7,11 +7,14 @@ created: 2026-04-10
 updated: 2026-04-10
 last_substantive_update: 2026-04-10
 sources: []
+source_count: 0
 tags: [fungus, yeast, probiotic, s-boulardii, zinc-dependent, candida-antagonist, fermentation, crohns-disease, dsbiosis]
 oxygen_requirement: "facultative"
 metal_dependencies: [zinc, manganese, copper, iron]
 key_enzymes: [alcohol-dehydrogenase, pyruvate-dehydrogenase, cytochrome-c-oxidase]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "Saccharomyces cerevisiae gut microbiome probiotic zinc"
 wikipedia_differentiation: "Gut microbiome roles — zinc-dependent probiotic activity, antagonism of Candida albicans, S. boulardii therapeutic applications in IBD, and metal-binding capacity — all absent from Wikipedia's fermentation-focused entry"
 ---

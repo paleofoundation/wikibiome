@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, pendergrass-2026-nickel-nec-preterm-gut, pendergrass-2026-heavy-metals-obesity-epidemic, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]
+source_count: 6
 metal_dependencies: [manganese, iron -- for core metabolism; Ni-urease in some species]
 key_enzymes: [Ni-urease (some species), metal-binding surface proteins]
 tags: [commensal, probiotic, infant-colonizer, metal-binding, depleted-in-disease, SCFA-producer]

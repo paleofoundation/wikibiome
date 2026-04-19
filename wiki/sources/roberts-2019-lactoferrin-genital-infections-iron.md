@@ -35,11 +35,6 @@ doi: 10.1038/s41430-019-0444-7
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Demonstrates that mucosal lactoferrin surges during BV and Trichomonas infection and scales with systemic iron stores and hepcidin, tying vaginal nutritional immunity to body iron economy. Supports the nutritional-immunity layer of WikiBiome's vaginal microbiome and STI signatures and complicates the interpretation of low serum iron in women with recurrent genital infections.
 metals_discussed: [cadmium, iron, lead]
 taxa_discussed: [lactobacillus]

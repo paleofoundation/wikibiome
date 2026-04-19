@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [polyphenol-metabolizer, urolithin-producer, short-chain-fatty-acid, anti-inflammatory, ellagic-acid, cardiovascular-protective]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [urolithin-synthesis-pathway, lactonase]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Gordonibacter urolithinfaciens urolithin A polyphenol metabolism"
 wikipedia_differentiation: "Iron-dependent ellagic acid to urolithin A conversion pathway linking dietary polyphenol bioactivation to cardiovascular protection"

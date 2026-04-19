@@ -29,11 +29,6 @@ doi: 10.1002/ece3.11428
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Demonstrates dose-dependent cadmium-induced dysbiosis in wild rodents with pathogenic enrichment and collapse of >50% of microbial metabolic pathways, confirming that Cd-driven dysbiosis is an ecologically robust phenomenon outside the lab. Strengthens the ecological case for WikiBiome's cadmium-microbiome mechanism beyond controlled feeding studies.
 evidence_level: animal-model
 metals_discussed: [cadmium, nickel]

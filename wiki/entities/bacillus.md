@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, chen-2022-living-microorganisms-detoxification-heavy-metals, zhai-2016-probiotics-cadmium, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, cassat-2012-metal-acquisition-staphylococcus-aureus, phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]
+source_count: 6
 metal_dependencies: [iron -- siderophore production (bacillibactin); manganese -- SOD enzymes; multiple metal resistance genes]
 tags: [mixed, spore-forming, probiotic, metal-resistance, food-poisoning, soil-gut-axis, heat-stable]
 platform: wikibiome

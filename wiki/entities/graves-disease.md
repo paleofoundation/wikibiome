@@ -16,6 +16,7 @@ sources:
  - kravchenko-2023-thyroid-hormones-minerals-AITD
  - mian-2022-editorial-diet-impair-thyroid-function
  - rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis
+source_count: 10
 tags: [graves-disease, autoimmune, thyroid, selenium, iron, copper, zinc, iodine, cadmium, mercury, lead, gut-thyroid-axis, microbiome, TRAb, Fusobacterium, Bifidobacterium, SCFAs, diet, methimazole, berberine]
 platform: wikibiome
 last_substantive_update: 2026-04-13

@@ -28,11 +28,6 @@ platform: wikibiome
 evidence_level: animal-model
 keystone: true
 keystone_criteria_met: [1, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Demonstrates that specific Lactobacillus strains sequester cadmium and protect against Cd-induced gut damage in vivo, establishing probiotics as a tractable intervention against metal toxicity. Grounds the intervention layer of WikiBiome's cadmium-microbiome framework and supports probiotic metal-sequestration as a cross-condition therapeutic lever.
 metals_discussed: [cadmium, nickel]
 taxa_discussed: [lactobacillus]

@@ -9,7 +9,8 @@ year: 2020
 doi: "10.1007/s12325-020-01272-7"
 tags: [schizophrenia, depression, dysbiosis, gut-brain-axis, tryptophan, kynurenine, SCFAs, microbiome, HPA-axis, serotonin, probiotics]
 platform: wikibiome
-evidence_level: animal-model
+evidence_level: expert-opinion
+evidence_level_note: "corrected 2026-04-19 — previously misclassified as animal-model; this is a narrative review paper"
 taxa_discussed: [lachnospiraceae, prevotella]
 karen_brain_primitives: [5]
 ---

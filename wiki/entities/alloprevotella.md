@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre, li-2020-gut-microbiome-composition-t2d-northern-china, herrema-2020-intestinal-microbial-metabolites-t2d, hoyles-2018-propionate-blood-brain-barrier-microbiome, dash-2023-functional-alterations-predictive-capacity-gut-microbiome-t2d, bile-acids-t1d-calprotectin-scfa]
+source_count: 6
 tags: [depleted-in-type-2-diabetes, short-chain-fatty-acid-producer, oral-commensal, glucose-metabolism, metabolic-health]
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"

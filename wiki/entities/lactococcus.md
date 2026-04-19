@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [han-2022-berberine-methimazole-graves-microbiome, fujimoto-2022-human-gut-virome-metabolic-autoimmune, gao-2015-microbiota-disbiosis-colorectal-cancer, wang-2023-gut-microbiota-signature-asd-gi-symptoms-china, mirza-2024-mediterranean-diet-pediatric-ms-microbiota, khatoon-2023-gut-microbiota-neurodegenerative]
+source_count: 6
 metal_dependencies: [manganese -- Mn-dependent superoxide dismutase; zinc -- Zn-dependent peptidases for casein degradation]
 tags: [probiotic, food-grade, GRAS, nisin-producer, fermented-foods, therapeutic-delivery-vehicle]
 platform: wikibiome

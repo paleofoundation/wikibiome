@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [mcleod-2023-bridge-crc-mediterranean-diet-trial, montgomery-2024-microbiota-signatures-ms-progression, xue-2024-colonic-microflora-metabolic-viral-myocarditis-cvb3, zhu-2024-toxic-essential-metals-gut-microbiota, li-2023-gut-microbiome-hypertension-bidirectional-mr, strati-2017-altered-gut-microbiota-mycobiota-asd, khatoon-2023-gut-microbiota-neurodegenerative]
+source_count: 7
 metal_dependencies: [iron -- Fe-S clusters in dissimilatory sulfite reductase (dsrAB); molybdenum -- Mo-cofactor in taurine dehydrogenase]
 tags: [pathobiont, sulfate-reducing, H2S-producer, taurine-metabolizer, high-fat-diet-enriched, IBD-associated, CVD-associated]
 platform: wikibiome

@@ -24,6 +24,7 @@ sources:
  - donovan-2017-mediterranean-diet-crc-prevention
  - appunni-2021-dietary-factors-gut-microbiome-crc
  - mcleod-2023-bridge-crc-mediterranean-diet-trial
+source_count: 18
 tags: [cancer, colorectal-cancer, copper, zinc, selenium, cadmium, arsenic, chromium, iron, ferroptosis, Fusobacterium-nucleatum, Bacteroides-fragilis, bile-acids, SCFAs, butyrate, GPR43, microbiome, mycobiome, virome, diet, Mediterranean-diet, Cu-Zn-ratio, metal-carcinogenesis]
 platform: wikibiome
 last_substantive_update: 2026-04-13

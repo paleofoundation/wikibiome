@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-11
 updated: 2026-04-11
 sources: [balali-mood-2021-toxic-mechanisms-five-heavy-metals, hopfner-2025-infant-formula-dietary-exposure-elements-germany, agboola-2023-heavy-metals-leafy-vegetables-lagos, liu-2020-high-fat-diet-heavy-metal-gut-microbiota, zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice, pendergrass-2026-age-window-vulnerability-vegetable-baby-foods]
+source_count: 6
 tags: [diet, cadmium, exposure, food-safety, rice, leafy-greens, hyperaccumulation]
 platform: wikibiome
 karen_brain_primitive: "Primitive 3: Mis-metallation and Toxic Metal Entry"

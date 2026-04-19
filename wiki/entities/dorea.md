@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [radojevic-2023-microbiome-gut-brain-axis-ms, saresella-2020-fatty-acids-dysbiosis-inflammation-ms, romano-2023-gut-microbiome-children-mental-health-umbrella-review, sobhani-2011-microbial-dysbiosis-colorectal-cancer, dai-2024-gut-microbiota-cvd-bidirectional-mr, zhang-2021-causal-direction-microbiota-ibd-mr, wu-2021-premature-ovarian-insufficiency-gut-microbiota]
+source_count: 7
 metal_dependencies: [none confirmed]
 tags: [mixed, Lachnospiraceae, MS-biomarker, formate-producer, enriched-in-autoimmunity]
 platform: wikibiome

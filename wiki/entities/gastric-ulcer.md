@@ -9,6 +9,8 @@ sources: [maier-2019-nickel-microbial-pathogenesis, shi-2023-ppi-fungal-dysbiosi
 source_count: 3
 tags: [upper-GI, peptic-ulcer, Helicobacter-pylori, nickel, urease, acid-neutralization]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 3 sources, minimum 5 required"
 seo_target: "gastric ulcer H pylori nickel urease microbiome"
 wikipedia_differentiation: "Metal-dependent virulence framework for H. pylori gastric ulceration: nickel-urease acid neutralization, NiFe-hydrogenase energy metabolism, and PPI-induced mycobiome disruption as iatrogenic consequence"
 icd_10: "K25"

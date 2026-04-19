@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [pendergrass-2026-heavy-metals-obesity-epidemic, ismail-2022-gut-microbiome-obesity-t1d-review, yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]
+source_count: 3
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]

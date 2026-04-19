@@ -4,9 +4,12 @@ type: concept
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [interkingdom-interaction, biofilm, immune-evasion, fungal-bacterial-cooperation]
 karen_brain_primitive: "Primitive 6: Interkingdom Relationships and Functional Shielding"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [2, 6]
 seo_target: "functional shielding microbiome"
 last_substantive_update: 2026-04-10

@@ -12,6 +12,8 @@ metal_dependencies: [iron]
 key_enzymes: [bile salt hydrolase, short-chain fatty acid synthesis enzymes]
 tags: [firmicutes, lachnospiraceae, recently-reclassified, PCOS-enriched, FMT-transferred, ex-ruminococcus, dietary-responsive, cholesterol-cycling]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Mediterraneibacter Ruminococcus reclassification PCOS gut microbiome diet"
 wikipedia_differentiation: "FMT evidence linking Mediterraneibacter enrichment to causal transfer of the PCOS phenotype (insulin resistance, ovarian dysfunction); dietary responsiveness data showing cycling of Mediterraneibacter with repeated adoption and abandonment of healthy diets, mirrored by LDL-C and total cholesterol fluctuations; the reclassification from Ruminococcus illustrating ongoing taxonomic revision in gut microbiome science"
 conditions_enriched_in: [polycystic-ovary-syndrome]

@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [depleted-in-depression, gut-brain-axis, succinate-producer, short-chain-fatty-acid, periodontitis, mental-health]
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [succinate-synthase, formate-acetyltransferase, lactate-permease]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Dialister depression gut-brain axis succinate producer"
 wikipedia_differentiation: "Strongest single-genus protective association in depression research with dual gut-brain and periodontal health roles"

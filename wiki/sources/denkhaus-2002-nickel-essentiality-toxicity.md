@@ -19,12 +19,6 @@ doi: 10.1016/s1040-8428(01)00214-1
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
 why_keystone: "Establishes the epigenetic and HIF-1 pathway mechanisms by which nickel mimics hypoxic signaling, reframing nickel not as a simple toxicant but as an environmental driver of dysbiotic inflammation. WikiBiome depends on this foundational toxicology to explain why nickel-enriched environments select for anaerobic pathogenic taxa across multiple disease signatures (IBD, endometriosis, ASD)."
 evidence_level: systematic-review-meta-analysis
 metals_discussed: [calcium, iron, nickel]

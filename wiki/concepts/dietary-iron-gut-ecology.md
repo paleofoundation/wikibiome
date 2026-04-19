@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-11
 updated: 2026-04-11
 sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, liu-2020-high-fat-diet-heavy-metal-gut-microbiota, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]
+source_count: 4
 tags: [iron, diet, gut-microbiome, nutritional-immunity, siderophores, heme-iron, non-heme-iron, selective-pressure]
 platform: wikibiome
 karen_brain_primitive: "Primitive 1: Metals as Selective Pressures"

@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [islam-2022-opposing-microbiome-signatures-autoimmune-cancer, troci-2022-b-cell-depletion-reverses-dysbiosis-ms, su-2020-gut-microbiota-immune-imbalance-graves, liu-2023-colorectal-cancer-progression-microbiome-signature, teng-2024-gut-microbiome-lipids-mr, song-2023-anti-pdl1-estradiol-mc38-colon-microbiome, takeda-2022-gut-microbiota-premenstrual-symptoms, minerbi-2019-altered-microbiome-fibromyalgia]
+source_count: 8
 metal_dependencies: [none confirmed -- iron-independent Bacteroidetes metabolism]
 tags: [commensal, anti-inflammatory, bile-acid-metabolism, depleted-in-obesity, depleted-in-T2D, protective]
 platform: wikibiome

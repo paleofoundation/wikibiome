@@ -4,8 +4,11 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [lamtai-2018-nickel-neurobehavior.md, dobrzynska-2025-nickel-children-food.md]
+source_count: 2
 tags: [nickel, neurotoxicity, oxidative-stress, anxiety, depression, memory]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 karen_brain_primitives: []
 seo_target: "nickel neurotoxicity microbiome"
 last_substantive_update: 2026-04-09

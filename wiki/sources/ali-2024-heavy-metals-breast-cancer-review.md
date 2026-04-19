@@ -35,11 +35,6 @@ key_findings:
 karen_brain_primitives: [1, 2, 3]
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Establishes a metal-specific biomarker signature in breast cancer: copper accumulation (especially metastatic), cadmium elevation (endocrine disruption via ERα), zinc/manganese depletion (immune deficiency), and nickel/lead as metalloestrogens. WikiBiome depends on this evidence to explain how metal burden drives both nutritional immunity dysregulation and estrogen-dependent dysbiosis—linking metallomics to the estrobolome pathway across endocrine cancers."
 ---
 

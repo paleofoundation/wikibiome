@@ -26,13 +26,9 @@ doi: 10.1007/s12011-020-02220-w
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Quantifies heavy metal burden in PCOS showing antimony and cadmium elevated with direct correlation to insulin resistance, while zinc depletion parallels findings in autism and autoimmune conditions—establishing metal dysregulation as a cross-condition pattern selecting for dysbiotic organisms. WikiBiome depends on this evidence to explain how endocrine dysbiosis (estrobolome expansion) emerges from metal-driven immune dysfunction and zinc-dependent barrier failure in reproductive disease."
-evidence_level: systematic-review-meta-analysis
+evidence_level: case-control
+evidence_level_note: "corrected 2026-04-19 — previously misclassified as systematic-review-meta-analysis; this is a case-control study measuring metal levels in PCOS vs controls"
 metals_discussed: [antimony, cadmium, copper, lead, manganese, mercury, nickel, zinc]
 karen_brain_primitives: [1, 4, 7]
 ---

@@ -4,8 +4,11 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
+source_count: 1
 tags: [HIF-1alpha, nickel, carcinogenesis, signaling]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 karen_brain_primitives: [2, 9]
 seo_target: "hypoxic signaling hif-1α pathway microbiome"
 last_substantive_update: 2026-04-09

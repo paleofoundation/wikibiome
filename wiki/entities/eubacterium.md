@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [almeida-2023-gut-microbiota-cardiovascular-axis, liu-2019-gut-microbiome-metabolism-cad-severity, zou-2024-multi-omic-microbiome-genome-transcriptome-crc, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, li-2020-polyphenols-gut-microbiota-ibd-synergy]
+source_count: 5
 metal_dependencies: [iron -- iron-sulfur clusters in butyrate synthesis enzymes]
 tags: [commensal, butyrate-producer, depleted-in-disease, fiber-fermenter, anti-inflammatory]
 platform: wikibiome

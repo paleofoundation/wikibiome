@@ -11,6 +11,8 @@ tags: [antimicrobial-metal, mis-metallation, iron-sulfur-clusters, antibiotic-sy
 seo_target: "silver antimicrobial bacteria iron sulfur cluster mis-metallation"
 wikipedia_differentiation: "Mechanistic depth on silver's Fe-S cluster targeting as primary killing mechanism (not ROS), silver-aminoglycoside synergy through PMF bypass, and silver as paradigmatic mis-metallation agent -- connections to WikiBiome's broader metal toxicity framework that Wikipedia does not make"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 3 sources, minimum 5 required"
 ---
 
 # Silver (Ag)

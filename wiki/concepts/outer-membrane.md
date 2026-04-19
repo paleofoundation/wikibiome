@@ -10,6 +10,8 @@ tags: [outer-membrane, gram-negative, LPS, lipopolysaccharide, porins, metal-tra
 karen_brain_primitives: [1, 4, 8]
 seo_target: "gram negative outer membrane LPS metal transport microbiome"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Outer Membrane

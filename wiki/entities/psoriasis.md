@@ -9,6 +9,8 @@ sources: [hashimoto-2023-host-microbiome-neuropsychiatric-disorders, parrish-202
 source_count: 2
 tags: [psoriasis, autoimmune, skin-microbiome, gut-skin-axis, Th17, IL-17, TNF-alpha, heavy-metals, nickel, copper, zinc, keratinocytes, dysbiosis]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 5 required"
 icd_10: "L40"
 global_prevalence: "~2-3% of adults globally; ~125 million people affected"
 associated_conditions: [cardiovascular-disease, type-2-diabetes, depression, inflammatory-bowel-disease, psoriatic-arthritis]

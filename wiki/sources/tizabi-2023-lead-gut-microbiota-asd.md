@@ -31,11 +31,6 @@ metals_discussed:
 taxa_discussed: [bacteroides-fragilis, bifidobacterium, clostridium, coprococcus, desulfovibrio, faecalibacterium-prausnitzii, lactobacillus, parabacteroides]
 keystone: true
 keystone_criteria_met: [1, 2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Links lead exposure to autism-spectrum gut dysbiosis via specific taxa shifts — Faecalibacterium depletion, Lactobacillus loss, Desulfovibrio enrichment — consistent with the broader ASD microbial signature. Anchors lead as a metal driver of the autism signature and contributes to the cross-condition pattern in which Pb recurs across neurodevelopmental and neurodegenerative conditions.
 evidence_level: animal-model
 key_findings: ["Lead (Pb) exposure", "Pb-induced gut dysbiosis"]

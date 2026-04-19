@@ -27,14 +27,9 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
 why_keystone: "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 46 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
-evidence_level: systematic-review-meta-analysis
+evidence_level: expert-opinion
+evidence_level_note: "corrected 2026-04-19 — previously misclassified as systematic-review-meta-analysis; this is a narrative review published on Preprints.org (not peer-reviewed)"
 metals_discussed: [arsenic, manganese, lead, cadmium]
 taxa_discussed: []
 key_findings:

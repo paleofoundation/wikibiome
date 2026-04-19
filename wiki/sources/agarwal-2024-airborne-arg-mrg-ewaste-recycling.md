@@ -35,11 +35,6 @@ tags:
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1, 4]
-keystone_criteria_met:
-  - 1
-  - 3
-  - 4
-  - 5
 why_keystone: "Demonstrates metal-driven co-selection of antibiotic resistance genes and metal resistance genes in occupational settings, establishing that metal burden acts as a selective pressure that enriches pathogens with parallel antimicrobial and metal defense strategies. WikiBiome depends on this evidence to explain why metal-exposed environments (endometriosis lesions, dysbiotic GI tracts with metallomics signatures) select for multidrug-resistant organisms—reframing resistance evolution as an ecological consequence of metal abundance rather than antibiotic exposure alone."
 evidence_level: cross-sectional
 metals_discussed: [mercury, copper, lead, zinc, cadmium, cobalt]

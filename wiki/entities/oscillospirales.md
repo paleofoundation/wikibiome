@@ -12,6 +12,8 @@ metal_dependencies: [iron]
 key_enzymes: [butyryl-CoA dehydrogenase, bile acid 7-alpha-dehydroxylase]
 tags: [firmicutes, clostridia, butyrate-producer, lean-phenotype, breast-cancer-depleted, health-associated, order-level, SCFA, bile-acid-metabolism]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Oscillospirales gut bacteria lean phenotype butyrate health microbiome"
 wikipedia_differentiation: "Depletion in breast cancer patients alongside Christensenellaceae and Dialister as part of a health-associated SCFA-producing cluster; role in secondary bile acid metabolism linking Oscillospirales to gut-liver axis; the paradox of a health-associated order that remains poorly cultured and taxonomically unstable"
 conditions_enriched_in: []

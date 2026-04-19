@@ -10,6 +10,8 @@ tags: [oxalate, calcium-oxalate, kidney-stones, Oxalobacter, metal-bioavailabili
 karen_brain_primitives: [1, 4, 5]
 seo_target: "oxalates calcium oxalate kidney stones Oxalobacter gut microbiome"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Oxalates

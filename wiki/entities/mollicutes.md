@@ -12,6 +12,8 @@ metal_dependencies: []
 key_enzymes: []
 tags: [tenericutes, class-level, GERD-risk, depression-related, ketamine-responsive, cell-wall-deficient, minimal-genome, parasitic]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Mollicutes gut bacteria GERD depression ketamine microbiome"
 wikipedia_differentiation: "Mendelian randomization evidence establishing class Mollicutes as a causal GERD risk factor (OR 1.09); ketamine's selective restoration of Mollicutes in depression-susceptible mice distinguishing (R)-ketamine from (S)-ketamine; ecological significance of cell-wall-deficient bacteria in the gut microbiome context"
 conditions_enriched_in: [gerd]

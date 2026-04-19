@@ -38,11 +38,6 @@ platform: wikibiome
 evidence_level: expert-opinion
 keystone: true
 keystone_criteria_met: [1, 2, 3]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Maps the bidirectional interactions between toxic and essential metals and the gut microbiota, showing how microbial metabolism can both detoxify and activate metal species, and how metal exposure selects for metal-tolerant taxa. Supports the core WikiBiome thesis that the gut microbiota is a primary interface in human metal biology.
 metals_discussed: [arsenic, cadmium, chromium, copper, iron, lead, manganese, mercury, nickel]
 taxa_discussed: [akkermansia-muciniphila, bifidobacterium, bilophila, blautia, campylobacter-jejuni, coprococcus, enterococcus, escherichia-coli, helicobacter-pylori, lachnospiraceae, lactobacillus, oscillospiraceae, ruminococcus, shigella, streptococcus]

@@ -27,11 +27,6 @@ evidence_level: expert-opinion
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Demonstrates that metal ions and nanoparticles (especially nickel, iron, zinc, copper, silver) directly disable Candida albicans through multiple mechanisms—ROS generation, membrane disruption, efflux pump inhibition—showing metals as Achilles' heels for fungal pathogens. WikiBiome depends on this evidence to establish how metal-dependent enzymes and biofilm architecture create vulnerabilities that enable ecological engineering interventions across interkingdom dysbiotic systems."
 metals_discussed: [copper, iron, nickel, zinc]
 taxa_discussed: [candida-albicans]

@@ -29,11 +29,6 @@ doi: 10.1038/s44439-024-00009-w
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [2, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: Identifies alpha-klotho as the mediator converting low-dose Cd/Hg/Pb/Tl exposure into chronic kidney disease risk and uses Mendelian randomization to confirm causal directionality. Provides the mechanistic linchpin for WikiBiome's CKD signature and connects heavy metals to renal pathology at exposures below established regulatory thresholds.
 evidence_level: computational-prediction
 metals_discussed: [cadmium, lead, mercury, thallium]

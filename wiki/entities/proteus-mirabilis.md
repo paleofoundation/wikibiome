@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md]
+source_count: 1
 tags: [pathogen, nickel, urease, urinary-tract-infection, catheter, biofilm, struvite, CAUTI]
 metal_dependencies: [nickel, iron, zinc, manganese]
 key_enzymes: [urease (Ni-dependent — major virulence factor), zinc-metalloprotease (ZapA), siderophores (proteobactin, yersiniabactin-like)]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Proteus mirabilis nickel urease catheter UTI struvite kidney stones"
 wikipedia_differentiation: "39% histidine accessory protein for nickel handling and urease-mediated struvite crystallization mechanism in CAUTI pathogenesis"

@@ -10,6 +10,8 @@ tags: [HMO, human-milk, infant-microbiome, Bifidobacterium, NEC, prebiotics, col
 karen_brain_primitives: [5, 8]
 seo_target: "human milk oligosaccharides HMOs infant microbiome Bifidobacterium"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Human Milk Oligosaccharides (HMOs)

@@ -32,11 +32,6 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Comprehensive synthesis of how arsenic, cadmium, mercury, lead, and trace metals reshape microbiota composition and functionality. This cross-metal framework enables WikiBiome to explain why multiple metals—whether individually or as an environmental metal burden—converge on the dysbiotic signatures observed across disease states."
 evidence_level: animal-model
 metals_discussed: [arsenic, cadmium, chromium, copper, lead, manganese, mercury, nickel, zinc]

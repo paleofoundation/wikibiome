@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [bronzini-2023-feeding-gut-microbiome-ms, svensson-2021-endometriosis-gut-microbiota-associations, li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis, huang-2025-gut-microbiota-urine-metabolomics-asd-southern-china, zhu-2023-gut-microbiota-metabolic-pathways-cvd]
+source_count: 5
 metal_dependencies: [iron -- indirect via Fe-S cluster enzymes in SCFA synthesis]
 tags: [commensal, SCFA-producer, bile-acid-metabolizer, context-dependent, depleted-in-IBD]
 platform: wikibiome

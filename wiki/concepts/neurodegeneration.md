@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [ahmed-2025-metals-alzheimers-mechanistic-review, doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons, scholefield-2024-brain-metallomics-dementia, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads, bakulski-2020-heavy-metals-alzheimers-dementias, armstrong-2024-alzheimers-extrinsic-factors-development, chin-chan-2015-environmental-pollutants-ad-pd, guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative, alonso-garcia-2021-gut-microbiota-proteinopathies, gao-2023-microglia-neurodegenerative-diseases, althomali-2024-heavy-metals-neurocognitive-systematic-review]
+source_count: 14
 tags: [neurodegeneration, Alzheimers, Parkinsons, ferroptosis, iron, copper, zinc, lead, aluminum, manganese, BBB, gut-brain-axis, protein-aggregation]
 platform: wikibiome
 karen_brain_primitives: [1, 5]

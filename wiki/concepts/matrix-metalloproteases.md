@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [huang-2024-zinc-intake-endometriosis-risk, zhang-2022-metallomics-cancer-review, cassat-2012-metal-acquisition-staphylococcus-aureus, akbari-2022-metal-homeostasis-streptococci, maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care]
+source_count: 6
 tags: [zinc, metalloproteases, MMPs, tissue-invasion, cancer, endometriosis, extracellular-matrix, TIMPs, collagenase, gelatinase, microbial-proteases]
 platform: wikibiome
 karen_brain_primitives: [2, 4]

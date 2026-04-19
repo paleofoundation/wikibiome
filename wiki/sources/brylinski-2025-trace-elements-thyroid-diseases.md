@@ -41,11 +41,6 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Links trace metal and micronutrient status (iron, copper, zinc, selenium, iodine) to thyroid function and autoimmune thyroiditis pathogenesis—bridging nutritional immunity and dysbiosis in Graves' disease and Hashimoto's thyroiditis. Critical for understanding how cadmium/mercury burden drives thyroid-specific dysbiosis and immune dysregulation."
 evidence_level: expert-opinion
 metals_discussed: [cadmium, calcium, cobalt, copper, iron, lead, manganese, mercury, nickel, selenium, zinc]

@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros, akbari-2022-metal-homeostasis-streptococci, sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria, ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis, wei-2020-microbiota-composition-distribution-reproductive-tract-endometriosis, chen-2020-microbiome-lower-genital-tract-endometriosis-chinese]
+source_count: 6
 tags: [gram-positive, group-b-streptococcus, gbs, facultative-anaerobe, zinc-dependent, beta-glucuronidase, estrogen-recirculation, neonatal-pathogen, endometriosis, biofilm-former]
 gram_stain: "positive"
 oxygen_requirement: "facultative"

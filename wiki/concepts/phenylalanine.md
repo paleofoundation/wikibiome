@@ -10,6 +10,8 @@ tags: [amino-acid, aromatic, phenylalanine, tyrosine, dopamine, cardiovascular, 
 karen_brain_primitives: [4, 5]
 seo_target: "phenylalanine gut microbiome metabolism amino acid"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Phenylalanine

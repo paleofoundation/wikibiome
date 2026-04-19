@@ -12,6 +12,8 @@ metal_dependencies: [iron, nickel]
 key_enzymes: [cytochrome oxidases, metal efflux pumps, siderophore receptors]
 tags: [proteobacteria, class-level, schizophrenia-risk, bipolar-disorder, epilepsy-risk, metal-tolerant, cognitive-impairment, causal-MR]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Betaproteobacteria schizophrenia bipolar disorder gut brain axis microbiome"
 wikipedia_differentiation: "Mendelian randomization evidence establishing class Betaproteobacteria as a causal schizophrenia risk factor (OR 1.13) linked to cognitive impairment; causal association with bipolar disorder via separate MR study; metal tolerance mechanisms of Burkholderiales explaining enrichment in heavy-metal-contaminated environments; ecological engineering framework requiring suppression of Betaproteobacteria alongside Clostridia restoration for neuropsychiatric intervention"
 conditions_enriched_in: [schizophrenia, bipolar-disorder, epilepsy]

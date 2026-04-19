@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care]
+source_count: 2
 metal_dependencies: [nickel, iron, copper]
 key_enzymes: [Ni-GloI, yersiniabactin]
 tags: [pathogen, plague, bioweapon, siderophore, Tier-1-select-agent]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Yersinia pestis nickel glyoxalase yersiniabactin plague metallophore"
 wikipedia_differentiation: "Nickel-dependent GloI metabolic detoxification plus yersiniabactin dual iron-nickel metallophore as archetypal metal virulence system"

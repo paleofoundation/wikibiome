@@ -34,11 +34,6 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 2, 4]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Links dietary metal exposure (mercury, cadmium, lead, arsenic in foods) to neurodegenerative disease mechanisms through metal-specific pathways: mercury disrupts glutamate transport, cadmium blocks calcium channels, arsenic dysregulates dopamine, chromium generates ROS, lead crosses the BBB. WikiBiome depends on this evidence to explain how food-borne metal burden—not environmental exposure alone—drives proteinopathy and why dietary interventions (phytochemicals, chelation) can interrupt metal-driven neurodegeneration."
 metals_discussed: [arsenic, cadmium, calcium, chromium, copper, lead, mercury, nickel, zinc]
 karen_brain_primitives: [3, 4]

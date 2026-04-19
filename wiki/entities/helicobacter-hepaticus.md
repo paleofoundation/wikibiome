@@ -12,6 +12,8 @@ metal_dependencies: [nickel, iron]
 key_enzymes: [NiFe-hydrogenase, cytolethal distending toxin]
 tags: [epsilonproteobacteria, hepatobiliary-pathogen, nickel-dependent, hydrogenase, liver-disease, animal-model, helicobacter]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Helicobacter hepaticus liver disease nickel hydrogenase gut microbiome"
 wikipedia_differentiation: "Nickel-dependent hydrogenase as the metabolic engine supporting amino acid uptake and hepatic colonization; zinc-diet-dependent enrichment linking dietary metal imbalance to pathogen expansion; cross-species virulence comparison with H. pylori showing divergent metalloenzyme strategies"
 conditions_enriched_in: [hepatitis, colorectal-cancer, inflammatory-bowel-disease]

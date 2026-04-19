@@ -6,6 +6,7 @@ subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
 sources: [alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse, al-natsheh-2022-stress-probiotics-ovarian-cancer-thesis, qin-2022-metagenomic-upper-reproductive-tract-ovarian-cancer, chen-2024-mediterranean-diet-ovarian-cancer-survival, reid-2017-epidemiology-ovarian-cancer-review, yammine-2020-dietary-fatty-acids-ovarian-cancer-epic]
+source_count: 6
 tags: [cancer, cadmium, nickel, arsenic, iron, metalloestrogens, ferroptosis, microbiome, mycobiome, fusobacterium]
 platform: wikibiome
 last_substantive_update: 2026-04-13

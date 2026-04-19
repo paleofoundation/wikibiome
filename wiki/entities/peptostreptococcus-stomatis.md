@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 tags: [gram-positive, obligate-anaerobe, oral-pathobiont, colorectal-cancer, genotoxin, colibactin, pks-operon, iron-dependent, dna-damage, oral-colorectal-axis]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [polyketide-synthase, colibactin-biosynthesis-enzymes, proteases]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Peptostreptococcus stomatis colibactin genotoxin colorectal cancer"
 wikipedia_differentiation: "Polyketide synthase gene cluster homologous to colibactin biosynthesis enabling direct DNA damage in colonocytes with iron dependency"

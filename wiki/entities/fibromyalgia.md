@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [fibromyalgia, chronic-pain, central-sensitization, gut-brain-axis, copper, iron, magnesium, selenium]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 5 required"
 seo_target: "fibromyalgia microbiome gut brain heavy metals"
 wikipedia_differentiation: "Cu/Fe MR-validated metallomic signature with copper as causal risk factor (OR=1.095) and iron as protective (OR=0.440), Eggerthella/Flavonifractor enrichment pattern, and SCFA imbalance paradox (elevated serum butyrate despite depleted butyrate producers)"
 associated_conditions: [depression, chronic-fatigue-syndrome, irritable-bowel-syndrome]

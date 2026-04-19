@@ -27,11 +27,6 @@ doi: 10.3390/microorganisms10081501
 platform: wikibiome
 keystone: false
 keystone_criteria_met: [1, 3]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
 why_keystone: "Provides the first systematic map of metal transport redundancy in Streptococcus species, showing how redundant ABC importers and CDF/P-type ATPase exporters lock pathogenic streptococci into metal-dependent ecological niches. Essential for understanding nickel-driven dysbiosis in polymicrobial biofilms (oral, respiratory, urogenital) where Streptococcus competes with Candida and Actinobacteria for scarce metals."
 evidence_level: expert-opinion
 metals_discussed: [zinc, manganese, iron, copper, nickel, cadmium]

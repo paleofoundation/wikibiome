@@ -9,6 +9,8 @@ sources: []
 source_count: 0
 tags: [pmdd, premenstrual, estrobolome, tryptophan-kynurenine, GABA, neuroinflammation]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 5 required"
 seo_target: "PMDD microbiome gut hormones premenstrual"
 wikipedia_differentiation: "Gut-hormone axis with Bacteroidetes depletion correlating with symptom severity, tryptophan-kynurenine shunting via IDO upregulation during luteal phase, and GABA-A receptor modulation by inflammatory cytokines linking gut dysbiosis to mood symptoms"
 associated_conditions: [depression, female-infertility]

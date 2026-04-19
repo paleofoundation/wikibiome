@@ -36,12 +36,6 @@ tags:
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [1, 3, 4, 5]
-keystone_criteria_met:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
 why_keystone: "Defines infection metallomics as a diagnostic platform: microbial metallophores (siderophores and Cu/Zn/Ni/Co-chelators) detected by mass spectrometry can distinguish invasive infection from colonization. Underpins WikiBiome's framing of pathogen virulence as a metal-acquisition phenomenon and establishes metallophores as signature biomarkers across sepsis, pneumonia, UTI, and CNS infection."
 evidence_level: in-vitro
 metals_discussed: [cobalt, copper, iron, nickel, zinc]

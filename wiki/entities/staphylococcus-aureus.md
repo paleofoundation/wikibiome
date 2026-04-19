@@ -6,10 +6,13 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
 sources: [maier-2019-nickel-microbial-pathogenesis.md, akbari-2022-metal-homeostasis-streptococci.md]
+source_count: 2
 tags: [pathogen, nickel, zinc, iron, manganese, MRSA, skin-infection, biofilm, urease, nutritional-immunity]
 metal_dependencies: [iron, manganese, zinc, nickel]
 key_enzymes: [staphyloferrin A/B (siderophores), IsdBCH (heme uptake), MntABC (manganese import), aureolysin (Zn-metalloprotease), urease (Ni-dependent)]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Staphylococcus aureus nutritional immunity staphylopine iron manganese zinc"
 wikipedia_differentiation: "Staphylopine multi-metal metallophore discovery plus complete nutritional immunity evasion system for iron, manganese, zinc, and nickel"

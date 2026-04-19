@@ -4,6 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, martinelli-2022-gut-oriented-interventions-ms, ajouz-2014-secondary-bile-acids-colon-cancer, wu-2024-sex-differences-crc-hormone-microbiome-axis, reens-2021-immunomodulation-microbiome-checkpoint-inhibitors, maddu-2025-microbiome-drug-interactions-pharmacokinetic-review, wang-2021-gut-microbiota-nsaid-enteropathy]
+source_count: 8
 tags: [bile-acids, FXR, TGR5, BSH, deoxycholic-acid, lithocholic-acid, CDCA, secondary-bile-acids, Collinsella, microbiome-metabolites, enterohepatic-circulation]
 platform: wikibiome
 karen_brain_primitives: [1, 5]

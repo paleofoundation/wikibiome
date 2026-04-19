@@ -10,6 +10,8 @@ tags: [gut-kidney-axis, CKD, uremic-toxins, indoxyl-sulfate, p-cresol, TMAO, int
 karen_brain_primitives: [1, 2, 5]
 seo_target: "gut kidney axis CKD microbiome uremic toxins"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Gut-Kidney Axis

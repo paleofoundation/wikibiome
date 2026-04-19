@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
 sources: [maier-2019-nickel-microbial-pathogenesis, zhu-2024-toxic-essential-metals-gut-microbiota, tao-2024-cadmium-gut-microbiota-dwarf-hamsters, bushman-2025-nutrient-metals-bacteria-gut-infection, choi-2016-campylobacter-fetus-ckd-spondylitis]
+source_count: 5
 metal_dependencies: [nickel, iron]
 key_enzymes: [NiFe-hydrogenase]
 tags: [pathogen, diarrheal-disease, foodborne, chicken-colonization, no-urease]

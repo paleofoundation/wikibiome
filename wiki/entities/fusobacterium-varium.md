@@ -6,12 +6,15 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: []
+source_count: 0
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [hemolysins, proteases, siderophore-uptake, butyrate-synthesis]
 tags: [gram-negative, anaerobe, iron-dependent, gut-pathobiont, inflammatory-bowel-disease, ulcerative-colitis, epithelial-invasion, butyrate-producer]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 last_substantive_update: 2026-04-13
 seo_target: "Fusobacterium varium ulcerative colitis epithelial invasion iron"
 wikipedia_differentiation: "Paradoxical butyrate production vs epithelial invasion with iron-dependent hemolysis distinguishing it from F. nucleatum in UC pathogenesis"

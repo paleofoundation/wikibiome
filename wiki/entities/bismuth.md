@@ -12,6 +12,8 @@ sources: [wang-2023-metallo-sideromycin-bismuth-cefiderocol.md]
 source_count: 1
 tags: [bismuth, antimicrobial, synergy, cefiderocol, H-pylori, metallodrug, siderophore]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 5 required"
 primary_exposure: "Pharmaceutical (bismuth subsalicylate, subcitrate); minor dietary"
 dietary_sources: ["negligible — crustal abundance 8-17 µg/kg", "pharmaceutical formulations dominate total exposure"]
 seo_target: "bismuth antimicrobial H pylori cefiderocol synergy"

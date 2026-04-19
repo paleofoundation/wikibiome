@@ -10,6 +10,8 @@ tags: [polyamines, spermidine, putrescine, spermine, cadaverine, microbial-metab
 karen_brain_primitives: [4, 5]
 seo_target: "polyamines spermidine putrescine gut microbiome health"
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Polyamines

@@ -4,8 +4,11 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 sources: [salnikov-2008-metal-carcinogenesis.md]
+source_count: 1
 tags: [epigenetics, DNA-methylation, histone-modification, carcinogenesis]
 platform: wikibiome
+stub: true
+stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 karen_brain_primitives: []
 seo_target: "epigenetic modifications in metal carcinogenesis microbiome"
 last_substantive_update: 2026-04-09

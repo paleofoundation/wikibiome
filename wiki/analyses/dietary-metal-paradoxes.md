@@ -37,7 +37,8 @@ sources:
  - smovrsnik-2025-trace-elements-pcos
  - kirmizi-2020-heavy-metals-pcos
 tags: [synthesis, paradox, diet, clinical-decision-making, metals]
-platform: wikibiome
+platform: cureva
+boundary_demotion: "2026-04-19 — demoted from wikibiome; clinical-recommendation language throughout (Rule 8). Clinical Decision Framework section, iron/zinc/nickel supplementation directives, and practitioner screening guidance are Cureva content."
 ---
 
 # Dietary Metal Paradoxes: When Healthy Foods and Good Intentions Backfire

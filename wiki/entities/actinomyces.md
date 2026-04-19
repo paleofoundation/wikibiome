@@ -6,6 +6,7 @@ subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
 sources: [boussamet-2024-oral-microbiota-metabolite-signature-ms, saito-2019-metagenomic-gut-microbiota-colorectal-adenoma, hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis, lee-2021-peritoneal-microbiota-ovarian-endometrioma, zangeneh-2021-oral-microbiota-ms, fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms, yu-2022-systematic-review-microbial-markers-colorectal-neoplasia, lin-2024-meta-analysis-gut-microbiota-ms]
+source_count: 8
 metal_dependencies: [nickel -- A. naeslundii uses Ni-dependent urease for acid tolerance in oral biofilms]
 tags: [pathobiont, oral-origin, Ni-urease, dental-caries, actinomycosis, oral-gut-translocation]
 platform: wikibiome
