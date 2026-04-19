@@ -2,6 +2,12 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-19] Nightly maintenance cycle
+
+**Commit:** `c16b7077` — 329 files changed. **Lint:** 94 stub demotions (§2f), 181 source_count additions, 3 Rule 8 boundary fixes (dietary-metal-paradoxes→cureva, gut-brain-axis rewrite, metal-disease-matrix Section 7 removed). **Adversarial audit:** 5 pages audited (depression REMEDIATE, anxiety DEMOTE, dysbiosis REMEDIATE, gut-brain-axis REMEDIATE, metal-disease-matrix REMEDIATE); 1 stub demotion, 2 boundary rewrites, 1 broken wikilink fixed. **Auto-discovery:** 22 new entity stubs (5 metals, 17 taxa; shigella at 36 mentions was largest gap). **Supersession:** 3 evidence-level misclassifications corrected (kirmizi-2020, ahmed-2025, capuco-2020). **Keystone re-audit:** all 37 pass. **Preview deploy:** wikibiome-6ceqn9v38-karen-pendergrass-projects.vercel.app.
+
+---
+
 ## [2026-04-19] 02:00 — Nightly auto-deploy
 
 **Status:** Queued (Terminal access approval timed out — user asleep).
