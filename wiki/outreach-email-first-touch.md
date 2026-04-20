@@ -1,3 +1,10 @@
+---
+title: "Author Outreach — First Touch (Template)"
+type: internal
+platform: cureva
+tags: [outreach, email-template]
+---
+
 # Author Outreach — First Touch
 
 **Purpose:** Introduce WikiBiome to cited authors. Build the relationship. No money ask.

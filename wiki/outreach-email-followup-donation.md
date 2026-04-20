@@ -1,3 +1,10 @@
+---
+title: "Author Outreach — Follow-Up Submission + Donation (Template)"
+type: internal
+platform: cureva
+tags: [outreach, email-template, donation]
+---
+
 # Author Outreach — Follow-Up (Submission + Donation)
 
 **Purpose:** Introduce the paper submission pathway with suggested donation. Sent only to authors who engaged with the first email (replied, visited their source page, or submitted corrections).

@@ -1472,7 +1472,6 @@ const LeftSidebar = ({ onNavigate }) => {
       {[
         { label: 'Submit a paper', view: 'submit' },
         { label: 'Vote: Next Condition', view: 'vote' },
-        { label: 'Author Outreach', view: 'outreach' },
       ].map((item) => (
         <div key={item.label} onClick={() => onNavigate({ view: item.view })} style={{
           display: 'flex', alignItems: 'center', gap: '8px',
@@ -1520,7 +1519,7 @@ const HERO_SLIDES = [
   { image: '/images/colorcheck/7FA78B5F-5A2A-4151-83954B5602F056E0_source.webp', pageId: 'nickel', caption: 'Candida — fungal morphogenesis' },
   { image: '/images/colorcheck/WD6V32WHA36TPFFJYTPFGTMCEU.jpg', pageId: 'helicobacter-pylori', caption: 'Fungal hyphae — branching structures' },
   { image: '/images/colorcheck/5ltwkj7lwzfe1.jpg', pageId: 'endometriosis', caption: 'Colony morphology — blood agar' },
-  { image: '/images/colorcheck/cover_article_18691_en_US.jpg', pageId: 'nutritional-immunity', caption: 'Bacteriophages — viral predators' },
+  { image: '/images/colorcheck/cover_article_18691_en_US.jpg', pageId: 'bacteriophages', caption: 'Bacteriophages — viral predators' },
   { image: '/images/colorcheck/rotifers-charmingly-bizarre-_-often-ignored-landscape-2.webp', pageId: 'functional-shielding', caption: 'Rotifers — microscopic ecology' },
   { image: '/images/colorcheck/07251714f11f73563f036b56c76afa7f00e2faa7-5824x3264.jpg', pageId: 'escherichia-coli', caption: 'E. coli — flagellated pathogen' },
   { image: '/images/colorcheck/1d517bb26620b4ffadfb35ea79901168e40acb2f-7360x4912.jpg', pageId: 'nickel', caption: 'Human impact — disease burden' },
@@ -1778,7 +1777,6 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
           {[
             { label: 'Submit a paper', view: 'submit' },
             { label: 'Vote: Next Condition', view: 'vote' },
-            { label: 'Author Outreach', view: 'outreach' },
           ].map(item => (
             <div key={item.label} onClick={() => onNavigate({ view: item.view })} style={{
               fontSize: '13px', padding: '6px 10px', borderRadius: '5px',
@@ -2242,6 +2240,28 @@ const ArticleView = ({ pageId, onNavigate }) => {
           <div style={{ fontSize: '11px', textTransform: 'uppercase', color: P.teal, fontWeight: 600, marginBottom: '10px', letterSpacing: '0.8px', fontFamily: "'Inter', sans-serif" }}>{catLabel}</div>
           <h1 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '36px', fontWeight: 700, marginBottom: '24px', color: P.ink, lineHeight: 1.15 }}>{page.title}</h1>
 
+          {/* §2f stub banner — honest admission that this page is below the
+              source-density threshold. Better a visible stub than a page that
+              looks authoritative with an empty References section. */}
+          {(page.isStub || page.belowThreshold) && (
+            <div role="note" aria-label="stub notice" style={{
+              display: 'flex', alignItems: 'flex-start', gap: '12px',
+              background: '#fff8e6', border: '1px solid #e8c86a',
+              borderRadius: '8px', padding: '14px 18px', marginBottom: '24px',
+            }}>
+              <span style={{
+                display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                width: '22px', height: '22px', borderRadius: '50%',
+                background: '#d4a853', color: '#fff', fontSize: '13px', fontWeight: 700,
+                flexShrink: 0, fontFamily: "'Inter', sans-serif",
+              }}>!</span>
+              <div style={{ fontSize: '13px', lineHeight: 1.55, color: '#6a5418', fontFamily: "'Inter', sans-serif" }}>
+                <strong style={{ color: '#5a4410' }}>This page is a stub.</strong>{' '}
+                Source attribution is {page.sourceCount === 0 ? 'missing' : `incomplete (${page.sourceCount} of ${page.threshold} required)`} and claims have not yet been bound to primary references. WikiBiome holds pages to a minimum citation density before treating them as published content. This page is excluded from the sitemap until it meets threshold.
+              </div>
+            </div>
+          )}
+
           {/* Keystone badge for qualifying source pages */}
           {(() => {
             const srcMeta = CONTENT.sourceLookup && CONTENT.sourceLookup[pageId];
@@ -2537,7 +2557,27 @@ const ArticleView = ({ pageId, onNavigate }) => {
                     {ref.year && <span> ({ref.year})</span>}
                     {'. '}<span style={{ fontStyle: 'italic' }}>{ref.title}</span>
                     {ref.journal && <span>. <em style={{ color: P.textMuted }}>{ref.journal}</em></span>}
-                    {ref.doi && <span>{'. '}<a href={ref.doi.startsWith('http') ? ref.doi : `https://doi.org/${ref.doi}`} target="_blank" rel="noopener noreferrer" style={{ color: P.teal, textDecoration: 'underline', fontSize: '12px' }}>{ref.doi.startsWith('http') ? ref.doi : `doi:${ref.doi}`}</a></span>}
+                    {(() => {
+                      // Normalize: strip whitespace, leading "doi:" prefix, doi.org URL form, and common trailing punctuation drift.
+                      // Reject invalid DOIs so we never emit a broken href.
+                      const DOI_RE = /^10\.\d{4,9}\/[-._;()\/:A-Za-z0-9<>+]+$/;
+                      const raw = (ref.doi || '').trim();
+                      if (!raw || raw === 'not yet verified') return null;
+                      const isUrl = /^https?:\/\//i.test(raw);
+                      const bare = raw
+                        .replace(/^https?:\/\/(dx\.)?doi\.org\//i, '')
+                        .replace(/^doi:\s*/i, '')
+                        .replace(/[.,;:\s]+$/g, '')
+                        .trim();
+                      if (!DOI_RE.test(bare)) {
+                        // Surface the bad value in the page so it gets caught in review, but do not link to a broken URL.
+                        return <span style={{ color: P.textMuted, fontSize: '12px' }}>{'. '}<em>doi: {raw} (malformed — flagged for audit)</em></span>;
+                      }
+                      const href = isUrl ? raw : `https://doi.org/${bare}`;
+                      return (
+                        <span>{'. '}<a href={href} target="_blank" rel="noopener noreferrer" style={{ color: P.teal, textDecoration: 'underline', fontSize: '12px' }}>{`doi:${bare}`}</a></span>
+                      );
+                    })()}
                   </li>
                   );
                 })}
@@ -5444,16 +5484,29 @@ const KeystoneView = ({ onNavigate }) => {
                           </div>
                         </div>
                       )}
-                      {s.doi && (
-                        <a href={s.doi.startsWith('http') ? s.doi : `https://doi.org/${s.doi}`}
-                          target="_blank" rel="noopener noreferrer"
-                          style={{ fontSize: '13px', color: P.teal, textDecoration: 'none' }}
-                          onMouseEnter={e => e.target.style.textDecoration = 'underline'}
-                          onMouseLeave={e => e.target.style.textDecoration = 'none'}
-                        >
-                          View original publication →
-                        </a>
-                      )}
+                      {(() => {
+                        const DOI_RE = /^10\.\d{4,9}\/[-._;()\/:A-Za-z0-9<>+]+$/;
+                        const raw = (s.doi || '').trim();
+                        if (!raw || raw === 'not yet verified') return null;
+                        const isUrl = /^https?:\/\//i.test(raw);
+                        const bare = raw
+                          .replace(/^https?:\/\/(dx\.)?doi\.org\//i, '')
+                          .replace(/^doi:\s*/i, '')
+                          .replace(/[.,;:\s]+$/g, '')
+                          .trim();
+                        if (!DOI_RE.test(bare)) return null;
+                        const href = isUrl ? raw : `https://doi.org/${bare}`;
+                        return (
+                          <a href={href}
+                            target="_blank" rel="noopener noreferrer"
+                            style={{ fontSize: '13px', color: P.teal, textDecoration: 'none' }}
+                            onMouseEnter={e => e.target.style.textDecoration = 'underline'}
+                            onMouseLeave={e => e.target.style.textDecoration = 'none'}
+                          >
+                            View original publication →
+                          </a>
+                        );
+                      })()}
                     </div>
                   )}
                 </div>
@@ -5862,7 +5915,6 @@ function AppInner() {
                       { label: 'Contact', view: 'contact' },
                       { label: 'Support', view: 'support' },
                       { label: 'Submit a paper', view: 'submit' },
-                      { label: 'Author Outreach', view: 'outreach' },
                       { label: 'Keystone Studies', view: 'keystone' },
                     ].map(l => (
                       <div key={l.label} onClick={() => navigate({ view: l.view })} style={{ fontSize: '13px', color: P.textMuted, cursor: 'pointer', marginBottom: '5px', transition: 'color 0.15s' }}
