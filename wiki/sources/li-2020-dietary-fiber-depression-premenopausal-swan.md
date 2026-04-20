@@ -1,52 +1,67 @@
 ---
-title: "Li 2020 — Dietary Fiber and Depression in Premenopausal Women (SWAN)"
+title: "Li 2020 — Dietary Fiber Inversely Associated with Depressive Symptoms in Premenopausal Women (SWAN)"
 type: source
 created: 2026-04-14
-updated: 2026-04-14
-authors: [Li et al.]
+updated: 2026-04-20
+authors: [Di Li, Yongqing Tong, Yan Li]
+corresponding_author: "Yan Li"
+corresponding_email: "yanli1120@163.com"
+institution: "Renmin Hospital of Wuhan University"
 year: 2020
 journal: "Frontiers in Neuroscience"
 doi: "10.3389/fnins.2020.00373"
 evidence_level: cross-sectional
-sample_size: "n=3054 (SWAN cohort)"
-tags: [pmdd, depression, dietary-fiber, swan, premenopausal]
+sample_size: "n=3,054 (from SWAN cohort)"
+tags: [dietary-fiber, depression, premenopausal, perimenopausal, estrogen, gut-microbiota, beta-glucuronidase]
 library_category: diet
 platform: both
 condition: pmdd
 karen_brain_primitives: [5, 7]
 metals_discussed: []
-taxa_discussed: []
+taxa_discussed: [clostridium, bifidobacterium, lactobacillus]
 key_findings:
-  - "Dietary fiber inversely associated with CES-D depression (β=-0.146, P=0.001)"
-  - "Highest fiber quartile OR=0.483 for depression vs lowest"
-  - "Protective above ~10 g/day (L-shaped dose-response)"
+  - "Dietary fiber inversely associated with depressive symptoms in premenopausal women (β=-0.146, p=0.001) but NOT early perimenopausal women"
+  - "Highest fiber quartile (≥15.22 g/d) OR=0.483 (0.314-0.745) for depressive symptoms vs. lowest quartile"
+  - "Dose-response relationship: L-shaped curve with strongest protective effect at moderate-high fiber intake"
+keystone: false
 ---
 
-# Li 2020 — Dietary Fiber and Depression in Premenopausal Women (SWAN)
+# Li 2020 — Dietary Fiber Inversely Associated with Depressive Symptoms in Premenopausal Women (SWAN)
 
 ## Key Findings
 
-- **Dietary fiber inversely associated** with CES-D depression score (β = -0.146, P = 0.001) in 3,054 premenopausal women.
-- **Highest vs. lowest fiber quartile** OR = 0.483 for depression — roughly halving the odds.
-- **L-shaped dose–response:** protective effect plateaus above ~10 g/day intake.
-- Supports the **fiber → SCFA → gut–brain axis** hypothesis in a reproductive-aged female cohort relevant to PMDD.
+- **Dietary fiber inversely associated with CES-D scores** in premenopausal women: fully adjusted β=−0.146 (95%CI −0.235 to −0.058, p=0.001) ([[li-2020-dietary-fiber-depression-premenopausal-swan]], cross-sectional, n=3,054).
+- **Dose-response:** highest fiber quartile (≥15.22 g/day) had OR=0.483 (95%CI 0.314–0.745, p-trend=0.001) for depressive symptoms (CES-D ≥16) compared to lowest quartile (<8.39 g/day) ([[li-2020-dietary-fiber-depression-premenopausal-swan]]).
+- **No significant association** in early perimenopausal women (β=−0.040, p=0.443) — suggesting estrogen status modifies the fiber-depression relationship ([[li-2020-dietary-fiber-depression-premenopausal-swan]]).
+- Restricted cubic spline showed **L-shaped association** — steepest protective slope at lower fiber intakes, plateauing at ~15 g/day ([[li-2020-dietary-fiber-depression-premenopausal-swan]]).
+- The paper explicitly discusses the **estrobolome mechanism**: gut microbes with β-glucosidase and β-glucuronidase (Clostridium, Bifidobacterium, Lactobacillus) convert estrogens from inactive to active forms. Dietary fiber modulates these microbiota and thus estrogen recirculation ([[li-2020-dietary-fiber-depression-premenopausal-swan]]).
+- Estrogen receptor β (ERβ) expressed in mouse/human colon epithelium; ERβ knockout mice show altered gut microbiome in diet-specific manner ([[li-2020-dietary-fiber-depression-premenopausal-swan]]).
 
 ## Methods
 
-Cross-sectional analysis of SWAN (Study of Women's Health Across the Nation). n = 3,054 premenopausal women. Dietary fiber assessed via validated FFQ. Depression assessed via CES-D. Multivariable adjustment for income, BMI, physical activity.
+Cross-sectional analysis of SWAN (Study of Women's Health Across the Nation) baseline data. 3,054 midlife women (age 42–52) stratified into premenopausal (n=1,651) and early perimenopausal (n=1,403) by menstrual bleeding patterns. CES-D for depressive symptoms (cutoff ≥16). Food frequency questionnaire for fiber intake. Linear regression, logistic regression (quartiles), restricted cubic spline analysis. Fully adjusted for antidepressant use, dietary total caloric intake, BMI, sport, education, total family income, age, race/ethnicity, SHBG, and FSH.
+
+## Detailed Summary
+
+This is the **first study** to examine the association between dietary fiber and depressive symptoms specifically in midlife women stratified by menopausal status. The SWAN cohort is ethnically diverse (28% Black/African American, 48% White, 8% Japanese American, 8% Chinese American, 8% Hispanic). The finding that the protective association exists in premenopausal but not early perimenopausal women strongly suggests that **estrogen status mediates the fiber-depression pathway** — when estrogen levels are declining, the estrobolome-mediated mechanism loses effectiveness. The L-shaped dose-response indicates diminishing returns above ~15 g/day.
 
 ## Relevance to WikiBiome
 
-- **Concept pages:** [[dietary-fiber]], [[butyrate|scfa]], [[gut-brain-axis]].
-- **Disease entity page:** [[pmdd]] — general nutritional context.
+- **Concept pages:** [[estrobolome]], [[beta-glucuronidase]], [[dietary-fiber]] — fiber → microbiome → estrogen recirculation → mood.
+- **Entity pages:** [[depression]] — dietary fiber as protective factor with estrogen-dependent mechanism.
 
 ## Relevance to Cureva
 
-- **Dietary intervention (Cureva):** fiber target of ≥10 g/day as minimum threshold for mood-protective effect.
-- Pairs with primitive 5 (restore SCFA producers) and primitive 7 (estrobolome modulation via fiber-driven microbial shifts).
-- **Triangle I→D** evidence tier: cross-sectional (limits causal strength); should be triangulated with RCTs.
+- **Intervention hypothesis:** fiber supplementation (≥15 g/day threshold) as PMDD/PMD intervention via estrobolome modulation.
+- Primitive 5 (ecological engineering): fiber feeds SCFA producers AND modulates estrobolome.
+- Primitive 7 (estrobolome): fiber → β-glucuronidase-producing bacteria → estrogen recirculation.
+
+## Contradictions / Tensions
+
+- Effect absent in early perimenopausal women — may reflect declining estrogen substrate making the estrobolome pathway less relevant.
 
 ## Open Questions
 
-- Specific fiber fractions (soluble vs. insoluble, fermentable) responsible for the signal.
-- Direct application to luteal-phase PMDD symptom outcomes (SWAN measured general depression, not cyclic mood).
+- Would fiber supplementation reduce PMDD symptoms specifically (not just general depression)?
+- What is the optimal fiber type (soluble vs. insoluble) for estrobolome modulation?
+- Does the SWAN finding replicate in non-US populations?
