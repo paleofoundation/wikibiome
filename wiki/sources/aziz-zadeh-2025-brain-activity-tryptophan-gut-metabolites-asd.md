@@ -67,7 +67,7 @@ Cross-sectional study combining **fecal metabolomics, task-based fMRI, and behav
 
 **Very high relevance** — tryptophan pathway metabolites are produced by metal-dependent enzymes:
 
-- **Kynurenate** depletion in ASD: kynurenine aminotransferase (KAT) is a [[PLP]]/[[zinc]]-dependent enzyme; reduced KA may reflect cofactor deficiency
+- **Kynurenate** depletion in ASD: kynurenine aminotransferase (KAT) is a [[tryptophan|PLP]]/[[zinc]]-dependent enzyme; reduced KA may reflect cofactor deficiency
 - **Indolelactate** production: bacterial aromatic lactate dehydrogenase often requires metal cofactors
 - **Indole-3-carboxylate**: product of bacterial indole oxidation — [[iron]]-dependent oxidases
 - **AhR signaling** (discussed in paper): regulated by indole derivatives; AhR-mediated neuroprotection is [[iron]]-sensitive

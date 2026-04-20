@@ -64,7 +64,7 @@ This paper reports the first discovery and characterization of a **lanthanide-sp
 - [[metal-homeostasis]] -- first dedicated lanthanide acquisition system characterized
 - [[iron]] -- cross-talk between iron and lanthanide homeostasis regulation
 - [[siderophores|siderophore]] -- MLL is a lanthanophore with structural similarity to NRPS-independent siderophores
-- [[TonB-dependent-transporter]] -- mluA as Ln-specific outer membrane receptor
+- [[siderophores|TonB-dependent-transporter]] -- mluA as Ln-specific outer membrane receptor
 - [[metal-sensing]] -- regulatory mechanisms for sensing lanthanide availability
 - [[environmental-metal-exposure|rare-earth-elements]] -- lanthanides as newly recognized biological metals
 - [[biofilm]] -- implications for Ln-dependent bacteria in natural biofilms

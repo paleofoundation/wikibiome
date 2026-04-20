@@ -1,6 +1,7 @@
 ---
 title: "Ingest Completeness Audit — 2026-04-18"
 type: analysis
+platform: cureva
 created: 2026-04-18
 updated: 2026-04-18
 tags: [audit, data-quality, frontmatter, wikilinks, ghost-pages]

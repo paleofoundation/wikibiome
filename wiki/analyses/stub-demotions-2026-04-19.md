@@ -2,125 +2,68 @@
 title: "Stub Demotions — 2026-04-19"
 type: analysis
 created: 2026-04-19
+updated: 2026-04-19
+sources: []
+tags: [stub-demotion, section-2f, rule-7, quality-control]
+platform: cureva
 ---
 
-# Stub Demotions — 2026-04-19
+## Context
 
-94 publishable pages demoted to `stub: true` for failing §2f source density thresholds.
+Per §2f and Operational Rule 7, pages below source-density threshold must carry `stub: true` + `stub_reason`. This batch fixes pages that were below threshold with `stub: false` — an accumulation of Rule 7 violations. Triggered by Karen's 2026-04-19 complaint about zero-reference pages on WikiBiome.
 
-## Summary
+## Demoted pages
 
-| Category | Count | Threshold |
-|----------|-------|-----------|
-| Microbe entities | 38 | 3 sources |
-| Concept pages | 37 | 3 sources |
-| Disease entities | 11 | 5 sources |
-| Metal entities | 6 | 5 sources |
-| Fungus entities | 2 | 3 sources |
+49 pages demoted to `stub: true`. All will now show the stub banner and be excluded from `sitemap.xml`.
 
-## Demoted Entities (57)
-
-### Microbes (38)
-- akkermansia-mucinicola (0/3)
-- bacteroides-vulgatus (0/3)
-- betaproteobacteria (2/3)
-- borrelia (2/3)
-- brucella (1/3)
-- clostridia (2/3)
-- clostridiales (2/3)
-- clostridium-difficile (0/3)
-- cryptococcus-neoformans (2/3)
-- desulfovibrionales (2/3)
-- dialister (0/3)
-- eggerthella-lenta (0/3)
-- enterococcus (2/3)
-- escherichia-coli (1/3)
-- fusobacteriales (2/3)
-- fusobacterium-nucleatum (0/3)
-- fusobacterium-varium (0/3)
-- gordonibacter-urolithinfaciens (0/3)
-- helicobacter-hepaticus (2/3)
-- helicobacter-pylori (1/3)
-- leptotrichia (0/3)
-- mediterraneibacter (2/3)
-- mollicutes (2/3)
-- oscillospirales (2/3)
-- parvimonas-micra (0/3)
-- peptostreptococcus-anaerobius (2/3)
-- peptostreptococcus-stomatis (0/3)
-- porphyromonas-gingivalis (0/3)
-- prevotella-copri (0/3)
-- proteus-mirabilis (1/3)
-- pseudomonas-aeruginosa (2/3)
-- ruminococcus-albus (0/3)
-- ruminococcus-gnavus (0/3)
-- salmonella-typhimurium (1/3)
-- staphylococcus-aureus (2/3)
-- streptococcus (0/3)
-- streptococcus-pneumoniae (2/3)
-- yersinia-pestis (2/3)
-
-### Diseases (11)
-- bipolar-disorder (4/5)
-- celiac-disease (1/5)
-- chronic-fatigue-syndrome (3/5)
-- coronary-artery-disease (2/5)
-- diabetic-kidney-disease (3/5)
-- erectile-dysfunction (0/5)
-- fibromyalgia (0/5)
-- gastric-ulcer (3/5)
-- necrotizing-enterocolitis (0/5)
-- pmdd (0/5)
-- psoriasis (2/5)
-
-### Metals (6)
-- arsenic (1/5)
-- bismuth (1/5)
-- chromium (1/5)
-- platinum (0/5)
-- silver (3/5)
-- thallium (2/5)
-
-### Fungi (2)
-- saccharomyces-cerevisiae (0/3)
-- torulaspora (0/3)
-
-## Demoted Concepts (37)
-
-- DNA-damage (1/3)
-- acidic-microenvironment (0/3)
-- ahr (0/3)
-- alpha-klotho (2/3)
-- aryl-hydrocarbon-receptor (2/3)
-- beta-glucuronidase (0/3)
-- cuproptosis (0/3)
-- enterohepatic-circulation (0/3)
-- epigenetic-modifications (1/3)
-- fermentative-metabolism (0/3)
-- functional-shielding (0/3)
-- glyoxalase (2/3)
-- gut-kidney-axis (2/3)
-- hmos (2/3)
-- hyperparathyroidism (2/3)
-- hypoxia (0/3)
-- hypoxic-signaling (1/3)
-- indoxyl-sulfate (2/3)
-- irving-williams-series (0/3)
-- lipocalin-2 (0/3)
-- metabolic-syndrome (1/3)
-- metal-carcinogenesis (2/3)
-- metallothionein (2/3)
-- nickel-glyoxalase (0/3)
-- nickel-neurotoxicity (2/3)
-- nickel-urease (0/3)
-- nife-hydrogenase (0/3)
-- outer-membrane (2/3)
-- oxalates (2/3)
-- parenteral-nutrition (2/3)
-- phenylalanine (2/3)
-- polyamines (2/3)
-- premenstrual-syndrome (2/3)
-- saccharolytic-fermentation (2/3)
-- transferrin (0/3)
-- zinc-metalloprotease (0/3)
-- zonulin (0/3)
+| File | Sources | Minimum | Reason |
+|---|---:|---:|---|
+| wiki/concepts/cambialistic-enzymes.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/edta.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/epithelial-mesenchymal-transition.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/fxr.md | 1 | 3 | §2f auto-demotion 2026-04-19 — 1 sources, minimum 3 |
+| wiki/concepts/gut-gonadal-axis.md | 1 | 3 | §2f auto-demotion 2026-04-19 — 1 sources, minimum 3 |
+| wiki/concepts/gut-vagina-axis.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/lipopolysaccharide.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/metal-speciation.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/molecular-mimicry.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/n-acetyl-cysteine.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/nitric-oxide.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/oxygen-state.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/pH-sensing.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/concepts/prenatal-metal-exposure.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/aeromonas.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/alternaria.md | 1 | 3 | §2f auto-demotion 2026-04-19 — 1 sources, minimum 3 |
+| wiki/entities/anaerotruncus.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/atopobium-parvulum.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/atopobium-vaginae.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/bacteroides-caccae.md | 2 | 3 | §2f auto-demotion 2026-04-19 — 2 sources, minimum 3 |
+| wiki/entities/bifidobacterium-longum.md | 2 | 3 | §2f auto-demotion 2026-04-19 — 2 sources, minimum 3 |
+| wiki/entities/candida-auris.md | 1 | 3 | §2f auto-demotion 2026-04-19 — 1 sources, minimum 3 |
+| wiki/entities/caulobacter.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/chlamydia-trachomatis.md | 1 | 3 | §2f auto-demotion 2026-04-19 — 1 sources, minimum 3 |
+| wiki/entities/cholestasis.md | 0 | 5 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 5 |
+| wiki/entities/cystic-fibrosis.md | 2 | 5 | §2f auto-demotion 2026-04-19 — 2 sources, minimum 5 |
+| wiki/entities/davidiella.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/deinococcus.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/dermatitis-herpetiformis.md | 0 | 5 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 5 |
+| wiki/entities/enterobacter-cloacae.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/eubacterium-eligens.md | 1 | 3 | §2f auto-demotion 2026-04-19 — 1 sources, minimum 3 |
+| wiki/entities/fusicatenibacter.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/hidradenitis-suppurativa.md | 2 | 5 | §2f auto-demotion 2026-04-19 — 2 sources, minimum 5 |
+| wiki/entities/huntingtons-disease.md | 1 | 5 | §2f auto-demotion 2026-04-19 — 1 sources, minimum 5 |
+| wiki/entities/lactobacillus-rhamnosus.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/lodderomyces-elongisporus.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/migraine.md | 0 | 5 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 5 |
+| wiki/entities/morganella-morganii.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/non-alcoholic-fatty-liver-disease.md | 0 | 5 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 5 |
+| wiki/entities/olsenella.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/parabacteroides-distasonis.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/pelvic-inflammatory-disease.md | 0 | 5 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 5 |
+| wiki/entities/premature-ovarian-insufficiency.md | 2 | 5 | §2f auto-demotion 2026-04-19 — 2 sources, minimum 5 |
+| wiki/entities/roseburia-intestinalis.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/ruminococcus-bromii.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/serratia-marcescens.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/streptococcus-salivarius.md | 2 | 3 | §2f auto-demotion 2026-04-19 — 2 sources, minimum 3 |
+| wiki/entities/trichoderma.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |
+| wiki/entities/trichosporon-asahii.md | 0 | 3 | §2f auto-demotion 2026-04-19 — 0 sources, minimum 3 |

@@ -22,7 +22,7 @@ karen_brain_primitives: [4, 5]
 - Diet composition (irradiated vs. autoclaved rodent chow) is sufficient to alter gut microbial communities and significantly change disease severity in the MOG35-55-induced [[multiple-sclerosis|experimental-autoimmune-encephalomyelitis]] (EAE) mouse model of [[multiple-sclerosis]]
 - The genus *[[lactobacillus]]* was inversely correlated with EAE severity (Spearman correlation coefficient = -0.67)
 - Therapeutic treatment with *Lactobacillus paracasei* significantly reduced both disease incidence and clinical scores in EAE mice
-- Metabolic shifts in [[fermentative-metabolism|glycolysis]] and the [[TCA-cycle]] may explain diet-driven differences in disease severity
+- Metabolic shifts in [[fermentative-metabolism|glycolysis]] and the [[fermentative-metabolism|TCA-cycle]] may explain diet-driven differences in disease severity
 
 ## Methods/Findings
 

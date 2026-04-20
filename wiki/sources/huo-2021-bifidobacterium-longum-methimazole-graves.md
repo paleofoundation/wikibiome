@@ -22,7 +22,7 @@ karen_brain_primitives: [5]
 - Specifically, [[faecalibacterium-prausnitzii]], [[lactobacillus|Ligilactobacillus salivarius]], [[lactobacillus|Lactococcus lactis]], and [[prevotella]] significantly decreased with methimazole treatment
 - Black bean adjuvant methimazole intake maintained intestinal microbiome homeostasis for 3 months, buffering the drastic shock of methimazole
 - The consumed probiotic regulated intestinal microbiota and metabolites, impacting neurotransmitter and blood trace elements through the [[gut-brain-axis]] and [[gut-thyroid-axis|gut-thyroid axis]]
-- [[bifidobacterium|Bifidobacterium adolescentis]], [[B. angulatum]], [[B. breve]], [[B. longum]], and [[faecalibacterium-prausnitzii]] increased significantly in the probiotic group; [[Blautia hansenii]], [[Clostridium estertheticum]], [[haemophilus|Haemophilus parainfluenzae]], and [[klebsiella-pneumoniae]] decreased
+- [[bifidobacterium|Bifidobacterium adolescentis]], [[bifidobacterium|B. angulatum]], [[bifidobacterium|B. breve]], [[bifidobacterium-longum|B. longum]], and [[faecalibacterium-prausnitzii]] increased significantly in the probiotic group; [[blautia|Blautia hansenii]], [[clostridium|Clostridium estertheticum]], [[haemophilus|Haemophilus parainfluenzae]], and [[klebsiella-pneumoniae]] decreased
 
 ## Methods/Findings
 

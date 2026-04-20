@@ -18,7 +18,7 @@ karen_brain_primitives: [3, 7]
 
 ## Key Claims
 
-- Thyroid tissue contains the highest concentration of [[selenium]] in the body, owing to its crucial role in [[glutathione|glutathione peroxidases]] (GPx), [[selenium|thioredoxin reductases]] (TrxR), and [[iodothyronine deiodinases]] (DIOs)
+- Thyroid tissue contains the highest concentration of [[selenium]] in the body, owing to its crucial role in [[glutathione|glutathione peroxidases]] (GPx), [[selenium|thioredoxin reductases]] (TrxR), and [[selenium|iodothyronine deiodinases]] (DIOs)
 - [[selenium]] deficiency is a risk factor for both [[hashimotos-thyroiditis]] and [[graves-disease]]
 - Selenium supplementation decreases anti-TPO antibodies in autoimmune thyroiditis with varying impact based on baseline thyroid function and initial anti-TPO levels
 - There is a two-way relationship between selenium status and thyroid hormones, with animal models suggesting thyroid hormones themselves regulate selenoprotein expression

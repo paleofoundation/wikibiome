@@ -40,7 +40,7 @@ key_findings:
 
 - [[mercury]] entity page — infant exposure data; fish as dominant source; MeHg fraction of THg.
 - [[infant-exposure]] concept — critical windows during weaning and complementary feeding.
-- [[methylmercury]] entity/concept — speciation and bioavailability in food.
+- [[mercury|methylmercury]] entity/concept — speciation and bioavailability in food.
 
 ## Relevance to Cureva
 

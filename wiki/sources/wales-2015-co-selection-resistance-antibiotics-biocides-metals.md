@@ -68,7 +68,7 @@ This is the most comprehensive review connecting [[co-selection]] to food safety
 - [[antimicrobial-resistance|efflux-pumps]] -- AcrAB-TolC, CzcCBA, and other multi-drug efflux systems as central cross-resistance mechanisms
 - [[gut-metal-microbiome]] -- livestock gut bacteria acquire metal/antibiotic co-resistance that transfers to humans via food
 - [[dietary-nickel-exposure]] -- food-chain transfer of metal-selected resistant bacteria from farm to table
-- [[Salmonella]] -- DT104 as canonical example of chromosomally-encoded multi-resistance linked to metal tolerance
+- [[salmonella|Salmonella]] -- DT104 as canonical example of chromosomally-encoded multi-resistance linked to metal tolerance
 - [[staphylococcus-aureus]] -- LA-MRSA as livestock-associated pathogen with metal-antibiotic co-resistance
 - [[baker-austin-2006-co-selection-antibiotic-metal-resistance]] -- foundational framework that this review extends to food safety context
 - [[hu-2016-nickel-contamination-antibiotic-resistance-soils]] -- parallel evidence from agricultural soils receiving livestock manure

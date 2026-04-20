@@ -39,7 +39,7 @@ Enhanced LYHBHI anaerobic medium inoculated with mixed caecum community from 3 h
 
 ## Relevance to WikiBiome
 
-- [[oregano]] entity/concept — antimicrobial herb mechanism.
+- [[polyphenols|oregano]] entity/concept — antimicrobial herb mechanism.
 - [[polyphenols|carvacrol]] and [[polyphenols|thymol]] concept pages — membrane-disrupting phytochemicals with microbiota-shaping effects.
 - [[short-chain-fatty-acids]] and [[butyrate]] concepts — dietary inputs that preserve SCFA-producer function.
 - [[streptococcus]] entity — sensitive to phytobiotic pressure.

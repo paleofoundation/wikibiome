@@ -16,7 +16,7 @@ karen_brain_primitives: [5]
 
 # Key Claims
 
-- The [[gut-microbiome]] plays a significant role in [[pancreatic-cancer]] development through persistent inflammation, impaired antitumor immune surveillance, and altered cellular processes in the tumor [[microenvironment]]
+- The [[gut-microbiome]] plays a significant role in [[pancreatic-cancer]] development through persistent inflammation, impaired antitumor immune surveillance, and altered cellular processes in the tumor [[acidic-microenvironment|microenvironment]]
 - Oral [[microbial-biomarkers]] including *Porphyromonas gingivalis*, *Aggregatibacter actinomycetemcomitans*, and *Fusobacterium* are associated with increased PDAC risk, while *Veillonella* and *Neisseria* are protective
 - [[shotgun-metagenomics|16S rRNA sequencing]] and [[shotgun-metagenomics|shotgun metagenomics]] can characterize the gut microbiota in PC patients for diagnostic and prognostic purposes
 - [[probiotics]], [[prebiotics]], [[antimicrobial-resistance|antibiotics]], [[fecal-microbiota-transplant]], and bacteriophage therapy show potential for modulating the microbiome to improve treatment outcomes

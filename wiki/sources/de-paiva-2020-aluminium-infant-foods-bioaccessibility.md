@@ -35,7 +35,7 @@ karen_brain_primitives: [3]
 
 ## Connections
 
-- Directly complements [[de Paiva et al 2020 cereals]] from same research group on cereal-based baby foods
+- Directly complements [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility|de Paiva et al 2020 cereals]] from same research group on cereal-based baby foods
 - Bioaccessibility data critical context for -- total content alone is insufficient for risk assessment
 - Soy-based formula Al contamination connects to prescription formula findings
 - Supports Lebanon study showing HQ >1 for Al in some infant food products

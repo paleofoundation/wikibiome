@@ -38,6 +38,6 @@ karen_brain_primitives: [1, 4]
 
 - Pioneering multi-omics study of lead-gut microbiome; methodology parallels [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
 - Vitamin E and bile acid reduction findings confirmed by [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]] review
-- Oxidative stress mechanisms connect to [[Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]]
+- Oxidative stress mechanisms connect to [[balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]]
 - Detoxification pathway activation relevant to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
 - Multi-omics approach could be applied to study [[nickel]] effects on gut microbiome

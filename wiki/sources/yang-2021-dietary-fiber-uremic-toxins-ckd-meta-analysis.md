@@ -2,7 +2,7 @@
 title: "Yang 2021 — Dietary Fiber Supplementation Reduces Uremic Toxins in CKD: Meta-Analysis"
 type: source
 created: 2026-04-09
-updated: 2026-04-14
+updated: 2026-04-17
 authors: [Hui-Li Yang, Ping Feng, Yi Xu, Yun-Ying Hou, Omorogieva Ojo, Xiao-Hua Wang]
 year: 2021
 journal: "Journal of Renal Nutrition"
@@ -29,6 +29,19 @@ key_findings:
 - Secondary outcomes showed reductions in **BUN and uric acid**, though effects on creatinine and eGFR were not significant.
 - **Indoxyl sulfate reduction was more pronounced in dialysis patients** compared to pre-dialysis CKD, suggesting greater benefit in advanced disease where uremic toxin burden is highest.
 - This is the **highest evidence level** (systematic review of RCTs) supporting a dietary intervention for uremic toxin reduction in CKD.
+
+## Methods
+
+- **Study design**: Systematic review and meta-analysis of randomized controlled trials
+- **Included studies**: 10 RCTs with a total of 292 CKD patients (both pre-dialysis and dialysis populations)
+- **Intervention**: Dietary fiber supplementation (various forms including inulin, oligofructose, resistant starch, and mixed fiber supplements)
+- **Outcomes**: Indoxyl sulfate, p-cresyl sulfate, BUN, uric acid, creatinine, eGFR
+- **Analysis**: Random-effects meta-analysis with standardized mean differences; subgroup analysis by dialysis status
+- **Limitations**: Moderate sample size (292 total); heterogeneity in fiber types and dosages; some studies of short duration
+
+## Detailed Summary
+
+Yang et al. provide the highest-level evidence (systematic review of RCTs) supporting a dietary intervention for uremic toxin reduction in CKD. The mechanism is substrate diversion: dietary fiber provides fermentable carbohydrate that feeds saccharolytic (sugar-fermenting) bacteria including SCFA producers like [[faecalibacterium-prausnitzii]] and [[roseburia]], shifting the overall metabolic activity of the gut microbiome away from proteolytic (protein-fermenting) pathways that generate IS and pCS from aromatic amino acids. The differential response between dialysis and pre-dialysis patients (greater IS reduction in dialysis patients) may reflect the higher baseline uremic toxin burden in dialysis, providing more room for improvement, or may indicate that the dialysis patient microbiome is more responsive to fiber substrate. The success of fiber where probiotics failed (Liu 2024) is a key comparative finding: modifying the substrate environment may be more effective than introducing new organisms into an established dysbiotic ecosystem.
 
 ## Relevance to WikiBiome
 

@@ -17,10 +17,10 @@ karen_brain_primitives: [5]
 
 ## Key Claims
 
-- [[Nrf2]] (nuclear factor erythroid 2-related factor 2) is a master regulator of antioxidant defense whose upregulation is associated with beneficial effects in MS; Nrf2-deficient mice show exacerbated [[EAE]] with enhanced inflammation and demyelination
-- Several dietary natural compounds can activate [[Nrf2]]: [[polyphenols|resveratrol]] (activates via PI3K/Akt and ERK1/2 pathways), [[polyphenols|curcumin]] (targets Keap1-Nrf2 interaction), and piperine -- all with demonstrated benefits in preclinical MS models
+- [[nrf2|Nrf2]] (nuclear factor erythroid 2-related factor 2) is a master regulator of antioxidant defense whose upregulation is associated with beneficial effects in MS; Nrf2-deficient mice show exacerbated [[multiple-sclerosis|EAE]] with enhanced inflammation and demyelination
+- Several dietary natural compounds can activate [[nrf2|Nrf2]]: [[polyphenols|resveratrol]] (activates via PI3K/Akt and ERK1/2 pathways), [[polyphenols|curcumin]] (targets Keap1-Nrf2 interaction), and piperine -- all with demonstrated benefits in preclinical MS models
 - [[mediterranean-diet]], Okinawan diet, and [[mediterranean-diet|Paleolithic-diet]] can activate Nrf2 signaling; the [[ketogenic-diet]] activates Nrf2 in murine spinal cord injury models and modifies hippocampal mitochondrial H2O2 production
-- A novel emerging mechanism involves [[G-quadruplexes]] -- DNA/RNA secondary structures involved in gene expression regulation that may represent nutrition-based therapeutic targets for Nrf2 activation
+- A novel emerging mechanism involves [[gene-regulation|G-quadruplexes]] -- DNA/RNA secondary structures involved in gene expression regulation that may represent nutrition-based therapeutic targets for Nrf2 activation
 - Epigenetic mechanisms including DNA methylation, histone modifications, and microRNA interactions may mediate the link between dietary compounds and Nrf2 pathway activation
 
 ## Methods/Findings

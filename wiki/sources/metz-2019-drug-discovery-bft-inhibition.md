@@ -37,8 +37,8 @@ karen_brain_primitives: [4, 5]
 
 # Connections
 
-- CDCA as a bile acid connects to [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] which targets the bile acid-gut microbiome axis to reduce CRC risk
-- B. fragilis BFT pathogenesis discussed in [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] and [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- CDCA as a bile acid connects to [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] which targets the bile acid-gut microbiome axis to reduce CRC risk
+- B. fragilis BFT pathogenesis discussed in [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] and [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - Drug repurposing approach complements [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]] and [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]]
 - E-cadherin cleavage/Wnt-beta-catenin disruption connects to [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]] F. nucleatum FadA/E-cadherin mechanism
 - FXR agonism by CDCA links to bile acid metabolism research in [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]]

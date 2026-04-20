@@ -1,1 +1,22 @@
 [Sun Apr 19 08:17:47 EEST 2026] Starting nightly maintenance cycle.
+Nightly maintenance cycle complete. Summary:
+
+**329 files changed across 2 commits.**
+
+| Step | Result |
+|------|--------|
+| Lint: stub demotions | 94 pages demoted to `stub: true` (§2f) |
+| Lint: source_count | 181 pages fixed + nickel.md dedup |
+| Lint: boundary (Rule 8) | 3 fixes — dietary-metal-paradoxes→cureva, gut-brain-axis rewrite, metal-disease-matrix Section 7 removed |
+| Adversarial audit (Rule 12) | 5 pages: 1 DEMOTE (anxiety), 4 REMEDIATE (deferred citation work) |
+| Auto-discovery (Rule 13) | 22 new stubs (5 metals, 17 taxa) |
+| Keystone re-audit | All 37 pass |
+| Supersession sweep (§2e) | 3 evidence-level corrections |
+| Build + preview deploy | Successful |
+
+Preview URL deployed (not prod). To promote:
+
+```
+cd ~/Documents/Claude/Raw && vercel deploy --prod
+```
+[Sun Apr 19 08:34:03 EEST 2026] Maintenance cycle complete.

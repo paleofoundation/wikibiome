@@ -20,8 +20,8 @@ karen_brain_primitives: [5, 8]
 
 - [[polyphenols|Berberine]] combined with [[thyroid-autoimmunity|methimazole]] (MI) is more effective than methimazole alone in treating [[graves-disease]], significantly improving thyroid function and restoring TSH, FT3, and FT3 to healthy thresholds by 6 months
 - Methimazole alone restored only FT3 and failed to modulate the gut microbiota, while berberine addition significantly altered microbiota structure
-- Berberine supplementation increased beneficial bacteria [[lactococcus|*Lactococcus lactis*]] and [[Enterococcus hirae]] while decreasing pathogenic [[Enterobacter hormaechei]] and [[Chryseobacterium indologenes]]
-- Berberine resulted in significant upregulation of [[enterobactin]] biosynthesis, which is essential for [[iron]] uptake and may help improve thyroid function given iron's role in thyroid hormone synthesis
+- Berberine supplementation increased beneficial bacteria [[lactococcus|*Lactococcus lactis*]] and [[enterococcus|Enterococcus hirae]] while decreasing pathogenic [[enterobacter-cloacae|Enterobacter hormaechei]] and [[dysbiosis|Chryseobacterium indologenes]]
+- Berberine resulted in significant upregulation of [[siderophores|enterobactin]] biosynthesis, which is essential for [[iron]] uptake and may help improve thyroid function given iron's role in thyroid hormone synthesis
 - [[faecalibacterium-prausnitzii]] and Lactococcus lactis were negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH, indicating their role in thyroid homeostasis
 - The combination provides evidence for effectiveness of integrating Chinese and Western medicine via gut microbiota modulation
 

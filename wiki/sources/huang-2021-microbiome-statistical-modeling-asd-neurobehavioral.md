@@ -51,4 +51,4 @@ Case-control study using a **microbiome-specific multivariate modeling approach 
 
 - Tryptophan/tyrosine pathway deficits link to [[zheng-2021-bacterial-aromatic-amino-acids-asd]]
 - Enterobacteriaceae enrichment aligns with [[strati-2017-altered-gut-microbiota-mycobiota-asd]]
-- Biomarker approach complements [[zhao-2023-altered-gut-microbiota-biomarkers-asd]]
+- Biomarker approach complements [[zhao-2023-altered-gut-microbiota-biomarkers-asd-early-childhood|zhao-2023-altered-gut-microbiota-biomarkers-asd]]

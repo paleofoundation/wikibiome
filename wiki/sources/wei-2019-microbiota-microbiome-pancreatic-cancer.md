@@ -18,7 +18,7 @@ karen_brain_primitives: [5]
 
 - Specific well-studied oral, gastrointestinal, and intrapancreatic microbes have potential etiological roles in [[pancreatic-cancer]] carcinogenesis
 - *Porphyromonas gingivalis* is the periodontal pathogen most strongly associated with elevated PDAC risk, with a 59% greater risk of development and 2-fold higher risk based on antibody levels
-- The microbiota influences PDAC through five key mechanisms: persistent inflammation, immune modulation, metabolism regulation, tumor [[microenvironment]] alteration, and bacteria-virus interaction
+- The microbiota influences PDAC through five key mechanisms: persistent inflammation, immune modulation, metabolism regulation, tumor [[acidic-microenvironment|microenvironment]] alteration, and bacteria-virus interaction
 - Hepatotropic viruses (HBV, HCV) have potential oncogenic roles, with *H. pylori* infection linked to increased PDAC risk
 
 # Methods/Findings

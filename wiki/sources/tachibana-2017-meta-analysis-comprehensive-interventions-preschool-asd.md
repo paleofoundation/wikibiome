@@ -53,4 +53,4 @@ Systematic review and meta-analysis of **32 RCTs (594 children from 14 RCTs in m
 - [[developmental-metal-vulnerability]] -- preschool age (0-6) overlaps with peak developmental metal vulnerability window
 - [[probiotics]] -- microbiome-targeted approaches may enhance social interaction outcomes (SMD=0.53)
 - Intervention outcomes may be enhanced by microbiome-targeted approaches in [[takyi-2025-microbiota-interventions-asd-review]]
-- Behavioural improvements link to gut-brain mechanisms in [[morton-2023-multi-level-gut-brain-axis-asd]]
+- Behavioural improvements link to gut-brain mechanisms in Morton et al. 2023

@@ -39,8 +39,8 @@ key_findings:
 ## Relevance to WikiBiome
 
 - [[cadmium]], [[lead]], [[arsenic]], [[nickel]], [[mercury]], [[chromium]] entity pages — leafy vegetable exposure pattern data.
-- [[atmospheric-deposition]] concept — gold-mining regions and urban traffic as major contributors to food-chain metal burden.
-- [[leafy-greens]] entity/concept — hyperaccumulator function and WHO-recommended intake vs real-world exposure.
+- [[environmental-metal-exposure|atmospheric-deposition]] concept — gold-mining regions and urban traffic as major contributors to food-chain metal burden.
+- [[dietary-metal-microbiome-interactions|leafy-greens]] entity/concept — hyperaccumulator function and WHO-recommended intake vs real-world exposure.
 
 ## Relevance to Cureva
 

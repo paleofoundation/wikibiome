@@ -51,7 +51,7 @@ No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22
 - **[[clostridium]]** (FDR p < 0.001)
 - **[[desulfovibrio]]** (FDR p < 0.001)
 - **[[streptococcus-pneumoniae]]** (FDR p < 0.05)
-- Also: [[neisseria-meningitidis|Neisseria]], [[bacillus]], [[Streptomyces]]
+- Also: [[neisseria-meningitidis|Neisseria]], [[bacillus]], [[actinomyces|Streptomyces]]
 
 ## Cytokine-Microbiota Correlations
 

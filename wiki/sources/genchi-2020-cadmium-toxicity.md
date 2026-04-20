@@ -44,7 +44,7 @@ karen_brain_primitives: [3]
 - [[mitochondrial-dysfunction|Mitochondria]] are key intracellular targets for cadmium; Cd inhibits respiratory chain complexes II and III, reduces ATP synthesis, generates [[oxidative-stress|reactive oxygen species]] (ROS), and induces apoptosis via caspase-8 and caspase-9 activation
 - Cadmium induces [[epigenetic-modifications|epigenetic changes]] including alterations in DNA methylation, histone modifications, and micro RNA expression
 - Cadmium is classified as a proven human carcinogen (IARC Group 1)
-- Cadmium acts as an [[endocrine disruptor]], binding estrogen receptor alpha and affecting MAPK signaling pathways
+- Cadmium acts as an [[endocrine-disruptors|endocrine disruptor]], binding estrogen receptor alpha and affecting MAPK signaling pathways
 - Environmental cadmium may be a risk factor for [[chronic-kidney-disease|osteoporosis]], rheumatoid arthritis, and osteoarthritis
 
 ## Methods/Findings

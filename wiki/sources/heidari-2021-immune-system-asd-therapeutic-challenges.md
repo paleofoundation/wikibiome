@@ -57,5 +57,5 @@ Review of **autoimmune involvement in ASD pathogenesis**, covering the microbiom
 # Connections
 
 - Cytokine findings link to [[zhou-2025-gut-microbiota-immune-nervous-system-asd]]
-- Microglial activation connects to [[morton-2023-multi-level-gut-brain-axis-asd]]
+- Microglial activation connects to Morton et al. 2023
 - Autoimmune family history relevant to [[casanova-2020-comorbidity-autism-editorial]]

@@ -66,4 +66,4 @@ karen_brain_primitives: [1]
 - Complements [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]] on Cd-induced metabolic changes
 - Pathogenic bacteria enrichment supports [[ghosh-2023-heavy-metals-gut-barrier-integrity|Ghosh 2023 - Heavy Metals Gut Barrier Integrity]] on Cd barrier disruption
 - Dose-response framework applicable to [[nickel]] exposure studies
-- Cysteine/methionine pathway disruption relevant to [[heavy metal detoxification mechanisms]] via glutathione
+- Cysteine/methionine pathway disruption relevant to [[metal-chelation-therapy|heavy metal detoxification mechanisms]] via glutathione

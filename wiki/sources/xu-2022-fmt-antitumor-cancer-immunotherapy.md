@@ -37,6 +37,6 @@ karen_brain_primitives: [5]
 
 - Directly complements [[yu-2023-fmt-inhibits-crc-progression|Yu 2023 - FMT Inhibits CRC Progression]] experimental evidence and [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] mechanistic findings
 - F. nucleatum pathogenesis connects to [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]] on B. fragilis toxin targeting
-- Immunotherapy enhancement by FMT relevant to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] detailed review of radiation/ICB-microbiome interactions
+- Immunotherapy enhancement by FMT relevant to [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] detailed review of radiation/ICB-microbiome interactions
 - Metabolite-mediated tumorigenesis links to [[reddy-2002-omega3-fatty-acids-colon-cancer|Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] bile acid discussion and [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] SCFA/butyrate mechanisms
 - [[colorectal-cancer]]

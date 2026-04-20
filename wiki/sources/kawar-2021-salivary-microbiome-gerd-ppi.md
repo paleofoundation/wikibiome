@@ -19,7 +19,7 @@ karen_brain_primitives: [5, 6]
 ## Key Claims
 
 - Untreated [[gerd]] patients showed multiple differences in [[biofilm|salivary microbiome]] compared to healthy controls, with 17 species and subgenera at different levels (FDR < 0.1)
-- Four taxa were found at lower levels in GERD patients not treated by PPI: *[[Prevotella melaninogenica]]*, *[[Prevotella pallens]]*, *[[Solobacterium moorei]]*, and *[[leptotrichia]]*
+- Four taxa were found at lower levels in GERD patients not treated by PPI: *[[prevotella|Prevotella melaninogenica]]*, *[[prevotella|Prevotella pallens]]*, *[[dysbiosis|Solobacterium moorei]]*, and *[[leptotrichia]]*
 - GERD patients chronically using PPI showed salivary microbiome profiles similar to negative controls, suggesting PPI restores oral microbial balance
 - The presence of GERD is associated with acidic saliva (pH 4.9) versus near-neutral pH of 6.5 in healthy subjects, driving microbial shifts
 - No significant alpha diversity differences were observed between groups, but beta diversity analysis (PCoA with Bray-Curtis) showed subtle clustering differences

@@ -1,6 +1,7 @@
 ---
 title: "WikiBiome Lint Report — 2026-04-12"
 type: analysis
+platform: cureva
 created: 2026-04-12
 updated: 2026-04-12
 tags: [maintenance, lint, health-check]
@@ -176,9 +177,9 @@ The following organisms are wikilinked from content pages but have no entity fil
 
 ---
 
-### 10. `[[b-cell-depletion-therapy]]` concept page is missing
+### 10. `[[autoimmunity|b-cell-depletion-therapy]]` concept page is missing
 
-The intervention page `b-cell-depletion-therapy-ms.md` links to `[[b-cell-depletion-therapy]]` as a standalone concept, but this page doesn't exist. Only the intervention page exists. A concept stub explaining the mechanism class would prevent the broken link.
+The intervention page `b-cell-depletion-therapy-ms.md` links to `[[autoimmunity|b-cell-depletion-therapy]]` as a standalone concept, but this page doesn't exist. Only the intervention page exists. A concept stub explaining the mechanism class would prevent the broken link.
 
 ---
 
@@ -213,8 +214,8 @@ These terms appear as wikilinks across multiple content pages but have no page o
 - `[[amyloid-beta]]` — Referenced in Alzheimer's signature
 - `[[bile-acid-metabolism]]` — `[[bile-acid-metabolism]]` exists but `[[bile-acid-metabolism]]` is a separate referenced stub; should redirect or merge
 - `[[celiac-disease]]` — Referenced in low-nickel-diet intervention as a condition; no entity page
-- `[[activated-charcoal]]` — Referenced in intervention context but no page
-- `[[butyrate-supplementation]]` — Referenced separately from `[[butyrate]]`; consider whether a stub is needed
+- `[[metal-chelation-therapy|activated charcoal]]` — Referenced in intervention context but no page
+- `[[short-chain-fatty-acids|butyrate supplementation]]` — Referenced separately from `[[butyrate]]`; consider whether a stub is needed
 
 **Action:** Create stub entity/concept pages for `ahr` and `amyloid-beta` at minimum. Consider redirect for `bile-acids → bile-acid-metabolism`. Add `celiac-disease` as a disease entity.
 

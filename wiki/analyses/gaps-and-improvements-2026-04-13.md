@@ -1,6 +1,7 @@
 ---
 title: "WikiBiome / Cureva — Gaps & Improvement Report 2026-04-13"
 type: analysis
+platform: cureva
 created: 2026-04-13
 updated: 2026-04-13
 tags: [maintenance, gaps, improvements, roadmap]
@@ -304,7 +305,7 @@ The original `ketogenic-diet-ms.md` is MS-specific. The new `ketogenic-diet.md` 
 
 - **Should `bile-acids` and `bile-acid-metabolism` be merged?** The `bile-acids` entry in the index is a broken link. Recommended: redirect `bile-acids` → `bile-acid-metabolism` and add an alias.
 - **Should `SNAS` get its own page?** Systemic Nickel Allergy Syndrome is central to the nickel-GERD-endometriosis framework and is referenced in `low-nickel-diet.md`. A concept or entity page would anchor these connections.
-- **`helicobacter-pylori` is referenced as a `[[condition]]` in an intervention triangle** — but it's a microbe entity, not a disease. Should H. pylori infection get a disease entity/signature, or should the triangle reference be refactored to point to `[[gerd]]` or `[[gastric-cancer]]`?
+- **`helicobacter-pylori` is referenced as a `condition` in an intervention triangle** — but it's a microbe entity, not a disease. Should H. pylori infection get a disease entity/signature, or should the triangle reference be refactored to point to `[[gerd]]` or `[[gastric-cancer]]`?
 - **`prostate-cancer` is referenced in selenium-supplementation triangle** but has no entity page, no source library, and no signature. Is Karen planning to develop this condition, or should the triangle reference be removed/noted as out-of-scope?
 - **Should `inflammatory-bowel-disease` get an umbrella signature**, or should Crohn's and UC each have separate pages (with the IBD page linking both)?
 - **Should `dysmenorrhea` get a signature page?** It's referenced in the zinc-supplementation triangle and shares endometriosis pathobionts. It may be best handled as a section within the endometriosis signature rather than a standalone page.

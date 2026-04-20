@@ -19,7 +19,7 @@ karen_brain_primitives: [7]
 ## Key Claims
 
 - The salivary microbiome in individuals with higher [[gut-thyroid-axis|TSH]] levels showed significantly higher taxa diversity compared to normal TSH groups
-- [[Granulicatella]] was found to possess significantly higher abundance in the Abnormal Group compared to Normal Group (Adonis, p = 0.032)
+- [[streptococcus|Granulicatella]] was found to possess significantly higher abundance in the Abnormal Group compared to Normal Group (Adonis, p = 0.032)
 - Principal coordinates analysis and partial least squares discriminant analysis showed distinct clustering between Abnormal (TSH > 4.2 mIU/L) and Normal Groups
 - HOMA-IR (insulin resistance) was significantly elevated in the Abnormal Group (p < 0.05), demonstrating the presence of [[insulin-resistance]] with abnormally higher serum TSH levels
 - Fasting serum insulin, hemoglobin A1 were elevated in the Abnormal Group, showing the presence of insulin resistance in individuals with higher serum TSH

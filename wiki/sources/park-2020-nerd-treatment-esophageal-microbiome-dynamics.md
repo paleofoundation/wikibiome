@@ -20,7 +20,7 @@ karen_brain_primitives: [3]
 
 - Half-dose PPI therapy (esomeprazole 20 mg) for 8 weeks effectively controlled [[gerd|NERD]] symptoms with complete response rates of 60.0% for heartburn and 61.8% for regurgitation
 - Expression of several inflammatory cytokines including [[inflammation|IL-6]], [[inflammation|IL-8]], [[nf-kappa-b|NF-kB]], [[inflammation|TNF-alpha]], and [[inflammation|TRPV1]] significantly decreased after PPI administration in the esophageal mucosa
-- [[streptococcus]], [[haemophilus]], [[prevotella]], [[veillonella]], [[neisseria-meningitidis|Neisseria]], and [[Granulicatella]] were prevalent in both oropharyngeal and esophageal microbiomes regardless of time point
+- [[streptococcus]], [[haemophilus]], [[prevotella]], [[veillonella]], [[neisseria-meningitidis|Neisseria]], and [[streptococcus|Granulicatella]] were prevalent in both oropharyngeal and esophageal microbiomes regardless of time point
 - The overall composition of oropharyngeal and esophageal microbiomes showed significant difference at baseline (P=0.004) but not at week eight (P=0.140), suggesting PPI therapy aligns these microbiomes
 - No significant difference was identified between baseline and week eight in the esophageal microbiome itself (P=0.334 and P=0.920), indicating microbial compositions remained stable despite symptom improvement
 - Correlations between biologic markers and bacterial taxa were observed: NF-kB and IL-1beta correlated with esophageal *Fusobacteria* (gamma=0.64, P=0.048); IL-8 and esophageal *Spirochaetes* (gamma=0.72, P=0.018)

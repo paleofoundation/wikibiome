@@ -34,5 +34,5 @@ karen_brain_primitives: [7]
 - Bidirectional drug-microbiome interaction extends [[wang-2021-gut-microbiota-nsaid-enteropathy]] mechanistic detail
 - COX-2 in CRC connects to [[simin-2020-antibiotic-use-crc-risk]] drug-CRC risk associations
 - Colon-targeted delivery concept relates to [[xia-2024-drug-repurposing-cancer-therapy]] drug repurposing strategies
-- Pharmacomicrobiomics framework connects to [[guthrie-2017-microbiome-consensus-molecular-subtypes-crc]] drug metabolism
+- Pharmacomicrobiomics framework connects to [[guthrie-2017-microbiome-signatures-crc-drug-metabolism|guthrie-2017-microbiome-consensus-molecular-subtypes-crc]] drug metabolism
 - [[colorectal-cancer]]

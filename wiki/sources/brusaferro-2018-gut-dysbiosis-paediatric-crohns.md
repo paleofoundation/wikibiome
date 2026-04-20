@@ -41,13 +41,13 @@ PubMed search of studies from January 2008 to June 2018 using "Crohn's disease" 
 
 - Supports [[crohns-disease]] entity "Microbiome Associations" section with paediatric-specific data.
 - Feeds [[autophagy]] concept page (ATG16L1, IRGM).
-- Supports [[exclusive-enteral-nutrition]] concept as validated paediatric CD intervention.
+- Supports [[prebiotics|exclusive-enteral-nutrition]] concept as validated paediatric CD intervention.
 - Adds to [[autoimmunity|nod2]] entity page (if present) and links innate immunity pathways.
 
 ## Relevance to Cureva
 
 - Confirms that paediatric [[crohns-disease-signature]] differs from adult in extent of involvement — Cureva outputs for paediatric vs adult CD should consider panenteric vs ileal phenotype.
-- Supports EEN as a validated [[interventions/exclusive-enteral-nutrition-crohns|intervention]] for paediatric CD.
+- Supports EEN as a validated [[prebiotics|intervention]] for paediatric CD.
 - Primitive 4 (microbial metal dependencies) indirectly active: autophagy defects impair mucosal clearance of pathobionts with iron/zinc dependencies.
 
 ## Open Questions

@@ -36,7 +36,7 @@ karen_brain_primitives: [6]
 # Connections
 
 - Demonstrates the principle that drug repurposing must consider microbiome impacts, relevant to [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]] and [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]]
-- Oral-gut microbial axis findings connect to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] discussion of oral bacteria (F. nucleatum) colonizing CRC tumors
+- Oral-gut microbial axis findings connect to [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] discussion of oral bacteria (F. nucleatum) colonizing CRC tumors
 - Nanoparticle drug delivery system parallels [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]] NP-based microbiome modulation
 - Sutterella enrichment in gut after oral treatment raises questions about distant microbiome effects of orally administered drugs
 - [[colorectal-cancer]]

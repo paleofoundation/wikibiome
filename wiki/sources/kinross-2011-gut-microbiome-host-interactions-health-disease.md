@@ -35,5 +35,5 @@ karen_brain_primitives: [3]
 - Foundational review for [[contreras-2016-host-microbiome-cancer-precision-medicine]] systems biology approach
 - Colon cancer mechanism via bile acids connects to [[ajouz-2014-secondary-bile-acids-colon-cancer]] and [[cao-2025-metabolic-interactions-microbial-metabolites-crc]]
 - Core microbiome concept relates to [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]] cross-cohort consistency
-- Drug metabolism implications connect to [[guthrie-2017-microbiome-consensus-molecular-subtypes-crc]]
+- Drug metabolism implications connect to [[guthrie-2017-microbiome-signatures-crc-drug-metabolism|guthrie-2017-microbiome-consensus-molecular-subtypes-crc]]
 - [[colorectal-cancer]]

@@ -22,6 +22,10 @@ key_findings:
   - "FLC kappa (free light chains) was dramatically elevated in CKD, with CRP also significantly higher (4.92 vs 2.53, P=0.001)"
 ---
 
+## Methods
+
+Cross-sectional study comparing gut mycobiome profiles between CKD patients (n=184) and healthy controls using ITS sequencing. Immunological profiling included serum CRP, free light chains (FLC kappa/lambda), and inflammatory cytokines. Fungal community composition analyzed by alpha/beta diversity metrics and differential abundance testing. <!-- NEEDS VERIFICATION: exact CKD staging distribution and control group size -->
+
 ## Key Findings
 
 - **CKD gut mycobiome differed significantly** from healthy controls, establishing that fungal dysbiosis accompanies bacterial dysbiosis in kidney disease.
@@ -38,3 +42,10 @@ One of few studies characterizing the gut mycobiome in CKD. Supports the [[candi
 ## Relevance to Cureva
 
 Supports Primitive 6 (interkingdom relationships and functional shielding). The mycobiome dimension must be integrated into the CKD signature page — bacterial signatures alone are incomplete. The Candida depletion is a critical nuance: interventions designed to suppress Candida (appropriate in other conditions) would be counterproductive in CKD. This may warrant a STOP page. The FLC kappa elevation suggests an immune monitoring biomarker for fungal-driven inflammation in CKD.
+
+## Open Questions
+
+- Why is Candida depleted in CKD when it is enriched in most other dysbiotic conditions? Is uremic toxin accumulation antifungal?
+- Does Saccharomyces enrichment represent a compensatory protective response or passive overgrowth in a depleted mycobiome?
+- Would antifungal therapy worsen CKD outcomes by eliminating potentially protective Saccharomyces?
+- Can FLC kappa serve as a clinical biomarker for mycobiome-driven immune activation in CKD staging?

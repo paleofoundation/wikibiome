@@ -19,7 +19,7 @@ karen_brain_primitives: [5]
 ## Key Claims
 
 - 32 gut microbial taxa are causally linked to the risk of six thyroid diseases (TDs) at the genus level, identified via two-sample [[mendelian-randomization]]
-- For [[graves-disease]] specifically, protective genera include [[ruminococcaceae|Ruminiclostridium]]9, [[Victivallis]], and [[butyricimonas]], while risk-increasing genera include [[Eubacterium rectale group]], [[desulfovibrio]], [[bifidobacterium]], [[collinsella]], [[oscillospiraceae|Oscillospira]], and [[Catenibacterium]]
+- For [[graves-disease]] specifically, protective genera include [[ruminococcaceae|Ruminiclostridium]]9, [[dysbiosis|Victivallis]], and [[butyricimonas]], while risk-increasing genera include [[eubacterium-rectale|Eubacterium rectale group]], [[desulfovibrio]], [[bifidobacterium]], [[collinsella]], [[oscillospiraceae|Oscillospira]], and [[dysbiosis|Catenibacterium]]
 - [[bifidobacterium]] shows a paradoxical role: protective against nontoxic multinodular goiter (NMG) but associated with increased risk of [[graves-disease]]
 - [[butyricimonas]] and [[lachnospira]] are protective against both GD and Plummer disease, suggesting shared [[butyrate|short-chain fatty acid]]-mediated protective mechanisms
 - The [[gut-thyroid-axis|gut-thyroid axis]] operates through immune regulation, anti-inflammatory responses, increased intestinal permeability, and modulation of trace element absorption

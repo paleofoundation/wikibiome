@@ -39,9 +39,9 @@ karen_brain_primitives: [9]
 
 # Connections
 
-- Foundational reference for [[heavy metal toxicology]] overview
+- Foundational reference for [[heavy-metals|heavy metal toxicology]] overview
 - Nickel carcinogenicity data essential for [[nickel-allergy|nickel toxicity]] and [[metal-carcinogenesis|nickel carcinogenesis]] wiki pages
 - Nickel threshold data relevant to [[dietary-nickel-exposure|nickel exposure limits]] and [[environmental-metal-exposure|occupational nickel exposure]]
-- Complements [[Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]] on mechanistic details
+- Complements [[balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]] on mechanistic details
 - Environmental pollution context relevant to [[agboola-2023-heavy-metals-leafy-vegetables-lagos|Agboola 2023 - Heavy Metals Leafy Vegetables Lagos]]
 - Pharmacokinetic data for all metals provides basis for [[metal-homeostasis|bioavailability]] comparisons

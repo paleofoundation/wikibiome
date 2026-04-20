@@ -35,7 +35,7 @@ karen_brain_primitives: [3]
 
 # Connections
 
-- Demonstrates [[viral-microbiota|viral microbiota]] (CVB3) disruption of gut microbiome in cardiac disease via [[gut-heart axis]]
+- Demonstrates [[viral-microbiota|viral microbiota]] (CVB3) disruption of gut microbiome in cardiac disease via [[cardiovascular-disease|gut-heart axis]]
 - Omega-3 fatty acid-microbiome correlations extend [[fermentative-metabolism|metabolic pathways]] in CVD
 - *Escherichia-Shigella* enrichment in AVMC aligns with [[dysbiosis|microbiome composition]] shifts in CVD
 - Lipid metabolism disruption connects to [[microbiome-derived-metabolites]] in cardiovascular inflammation

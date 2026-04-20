@@ -40,12 +40,12 @@ karen_brain_primitives: [2, 4, 5, 6]
 
 **Bacterial microbiota:**
 - Significant differences in beta diversity between ASD and HC
-- [[blautia]], [[Sellimonas]] more abundant in ASD pre-FMT; decreased after treatment
+- [[blautia]], [[dysbiosis|Sellimonas]] more abundant in ASD pre-FMT; decreased after treatment
 - [[dorea]] less abundant in ASD; increased after FMT
 
 **Fungal microbiota (ITS sequencing):**
-- [[Saccharomycopsis]], [[Cystobasidium]] more abundant in ASD; decreased after FMT
-- [[Fusicatenibacter]], [[Erysipelotrichaceae_UCG-003]], [[saccharomyces]], [[Rhodotorula]], [[Cutaneotrichosporon]], [[Zygosaccharomyces]] negatively correlated with ASD core symptom scores
+- [[mycobiome|Saccharomycopsis]], [[mycobiome|Cystobasidium]] more abundant in ASD; decreased after FMT
+- [[fusicatenibacter|Fusicatenibacter]], [[dysbiosis|Erysipelotrichaceae_UCG-003]], [[saccharomyces]], [[mycobiome|Rhodotorula]], [[mycobiome|Cutaneotrichosporon]], [[mycobiome|Zygosaccharomyces]] negatively correlated with ASD core symptom scores
 
 # Relevance to Metallomic Framework
 

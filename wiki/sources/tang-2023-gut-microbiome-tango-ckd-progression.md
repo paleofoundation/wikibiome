@@ -84,7 +84,7 @@ The iron ecology dimension is notable: CKD-associated hepcidin elevation restric
 
 ## Relevance to WikiBiome
 
-Informs concept pages on [[AhR-signaling]], [[epithelial-to-mesenchymal-transition]], [[toll-like-receptors]], and [[short-chain-fatty-acids]]. Updates [[iron]] entity with CKD-specific ecology.
+Informs concept pages on [[ahr|AhR-signaling]], [[epithelial-mesenchymal-transition|epithelial-to-mesenchymal-transition]], [[toll-like-receptors]], and [[short-chain-fatty-acids]]. Updates [[iron]] entity with CKD-specific ecology.
 
 ## Relevance to Cureva
 

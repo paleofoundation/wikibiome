@@ -40,7 +40,7 @@ Metagenomic data from three public IBDMDB studies (PRJNA400072, PRJNA398089, PRJ
 ## Relevance to WikiBiome
 
 - Strongly supports [[escherichia-coli]] entity page's role as the dominant IBD pathobiont — provides species-level evidence that distinguishes CD (E. coli + Morganella + K. oxytoca) from UC (Proteus + Citrobacter subspecies).
-- Substantially informs [[aerobactin]] / [[siderophores]] concept pages — aerobactin biosynthesis is the single most CD-differentiating pathway.
+- Substantially informs [[siderophores|aerobactin]] / [[siderophores]] concept pages — aerobactin biosynthesis is the single most CD-differentiating pathway.
 - Feeds [[klebsiella-pneumoniae]], [[proteus-mirabilis]], [[citrobacter]], [[morganella-morganii]] entity pages.
 - Supports [[crohns-disease]] and [[ulcerative-colitis]] entity "Microbiome Associations" sections with IBDMDB-grade evidence.
 

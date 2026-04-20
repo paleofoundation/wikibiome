@@ -71,5 +71,5 @@ karen_brain_primitives: [1, 5]
 - Supports findings in [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] on bidirectional HM-microbiota relationship
 - Complements [[giambo-2021-toxic-metal-exposure-gut-microbiota-review|Giambo 2021 - Influence Toxic Metal Exposure Gut Microbiota]] on metal-specific microbiome changes
 - Links to [[iron-management|iron homeostasis]] and [[heavy-metal-neurotoxicity|manganese neurotoxicity]] via gut-brain axis
-- Relevant to [[probiotic detoxification of heavy metals]] strategies
+- Relevant to [[probiotics|probiotic detoxification of heavy metals]] strategies
 - Table 3 provides specific data on Ni effects including occupational worker study (ref 140) showing Ni-induced dysbiosis

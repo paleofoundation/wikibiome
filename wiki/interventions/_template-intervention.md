@@ -9,7 +9,7 @@ intervention_class: dietary | supplement | pharmaceutical | biophysical | probio
 
 # Triangle validation for each condition
 triangles:
-  - condition: "[[condition-name]]"
+  - condition: "condition-name"
     I_to_f: "How intervention affects the signature feature"
     I_to_f_evidence: "strong | moderate | preliminary"
     I_to_D: "Clinical evidence for this condition"
@@ -30,7 +30,7 @@ How this intervention works at the metallomic/microbiome level.
 
 ## Triangle Evidence
 
-### Condition: [[condition-name]]
+### Condition: condition-name
 
 **I → f (Intervention affects feature):**
 Evidence that the intervention modifies the signature feature.
@@ -53,4 +53,4 @@ Known risks or interactions.
 
 ## Sources
 
-Cited evidence with `[[wikilinks]]` to source pages.
+Cited evidence with `wikilinks` to source pages.

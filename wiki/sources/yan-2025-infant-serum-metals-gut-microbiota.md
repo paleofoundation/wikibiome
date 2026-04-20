@@ -32,7 +32,7 @@ keystone: false
 - **Arsenic (As) and copper (Cu) were the most influential metals** shaping infant gut microbial diversity, with distinct effects on community structure.
 - **Metal-specific taxon selection**: manganese drove Burkholderia abundance while copper drove [[clostridium]] sensu stricto 1 expansion — demonstrating that different metals select for different organisms (Primitive 1).
 - **Metal-metal interactions**: 6 antagonistic and 2 synergistic interactions were identified among the metals studied, indicating that metal toxicity cannot be assessed in isolation.
-- [[enterococcus]] and [[ralstonia]] abundances were associated with specific metal profiles.
+- [[enterococcus]] and [[dysbiosis|ralstonia]] abundances were associated with specific metal profiles.
 - The study examined arsenic, copper, manganese, cadmium, lead, and chromium in infant serum alongside 16S gut microbiome profiling.
 
 ## Relevance to WikiBiome

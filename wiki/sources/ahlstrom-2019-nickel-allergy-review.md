@@ -7,7 +7,10 @@ updated: 2026-04-09
 authors: [Ahlström MG, Thyssen JP, Wennervaldt M, Menné T, Johansen JD]
 journal: Contact Dermatitis
 year: 2019
-doi: "10.1111/cod.13272"
+doi: "10.1111/cod.13327"
+pmid: "31140194"
+doi_verified: 2026-04-19
+doi_verified_source: pubmed
 tags: [nickel-allergy, contact-dermatitis, immunology, regulation, patch-testing, EU-nickel-directive]
 platform: wikibiome
 evidence_level: expert-opinion

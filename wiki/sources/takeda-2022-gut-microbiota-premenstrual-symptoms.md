@@ -38,7 +38,7 @@ Cross-sectional case-control. 21 women with premenstrual disorders + 22 controls
 ## Relevance to WikiBiome
 
 - **Signature page:** [[pmdd-signature]] — taxonomic layer foundational signal.
-- **Entity pages:** [[parabacteroides]], [[megasphaera]], [[anaerotaenia]], [[butyricicoccus]], [[extibacter]].
+- **Entity pages:** [[parabacteroides]], [[megasphaera]], [[dysbiosis|anaerotaenia]], [[butyricicoccus]], [[dysbiosis|extibacter]].
 - **Concept pages:** [[estrobolome]], [[beta-glucuronidase]].
 
 ## Relevance to Cureva

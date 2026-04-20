@@ -21,9 +21,9 @@ karen_brain_primitives: [9]
 - Gastric [[gut-microbiome|microbiota]] diversity differs significantly between [[gerd]] subtypes (ERD, NERD) and gastritis, with Shannon and Simpson indices showing significant differences (P=0.0016 and P=0.017 respectively)
 - [[helicobacter-pylori]] infection rate was lowest in ERD patients (3/57, 5.2%) compared to gastritis (18/68, 26.4%), supporting an inverse correlation between H. pylori and GERD
 - ERD patients had significantly lower microbial richness compared to other groups, consistent with mechanical and chemical changes during reflux causing [[dysbiosis]]
-- *[[Anaerobacillus]]* sp. was uniquely abundant in the GERD environment and could not be found in other disease groups, serving as a potential [[microbial-biomarkers|biomarker]]
+- *[[dysbiosis|Anaerobacillus]]* sp. was uniquely abundant in the GERD environment and could not be found in other disease groups, serving as a potential [[microbial-biomarkers|biomarker]]
 - Alpha diversity decreased significantly in NERD with *H. pylori*-positive subjects, indicating *H. pylori* significantly impacts diversity in the stomach
-- The predominant phyla across all groups were [[firmicutes]], [[dysbiosis|Proteobacteriota]], and [[Bacteroidota]], consistent with normal gastric microbiota
+- The predominant phyla across all groups were [[firmicutes]], [[dysbiosis|Proteobacteriota]], and [[bacteroides-fragilis|Bacteroidota]], consistent with normal gastric microbiota
 
 ## Methods/Findings
 

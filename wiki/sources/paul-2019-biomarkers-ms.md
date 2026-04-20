@@ -23,7 +23,7 @@ karen_brain_primitives: [3]
 - MRI remains the most important clinical biomarker: T2-weighted lesions indicate CIS-to-MS progression; Gd-enhancing lesions predict active inflammation; brain atrophy (0.5-1% annual in MS vs 0.1-0.3% in controls) predicts disability
 - CSF oligoclonal bands (OCBs) are present in up to 90% of MS patients; included in 1983-2005 McDonald criteria and remain criterion for PPMS diagnosis
 - IgG index (ratio of CSF/serum IgG to CSF/serum albumin) is an established diagnostic tool
-- [[Neurofilament light chain]] in CSF and blood is the most promising emerging biomarker: correlates with disease activity, brain atrophy, and treatment response
+- [[neuroinflammation|Neurofilament light chain]] in CSF and blood is the most promising emerging biomarker: correlates with disease activity, brain atrophy, and treatment response
 - JCV antibody titers are clinically useful for stratifying PML risk in natalizumab-treated patients (~50% seropositive; < 1% PML risk at titers < 0.9)
 - Anti-IFN-beta neutralizing antibodies identify treatment nonresponders (~40% of IFN-beta-treated patients)
 - Table 1 provides comprehensive classification: ~80 exploratory biomarkers, ~25 validated biomarkers, ~8 clinically useful biomarkers

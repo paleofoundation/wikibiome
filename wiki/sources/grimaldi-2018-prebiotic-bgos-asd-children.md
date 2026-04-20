@@ -39,7 +39,7 @@ key_findings: ["First study", "B-GOS supplementation improved anti-sociability s
 
 **Microbiota changes (16S rRNA):**
 - B-GOS increased [[bifidobacterium]], [[ruminococcus]], Lachnospiraceae family
-- [[coprococcus]], [[Dorea formicigenerans]], [[Oribacterium]], [[Eubacterium dolchum]], TM7-3 family, Mogibacteriaceae also associated with B-GOS
+- [[coprococcus]], [[dorea|Dorea formicigenerans]], [[dysbiosis|Oribacterium]], [[dysbiosis|Eubacterium dolchum]], TM7-3 family, Mogibacteriaceae also associated with B-GOS
 - Increased diversity (rarefaction curves) though not statistically significant
 
 **Metabolomic findings (1H-NMR):**

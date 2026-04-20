@@ -18,7 +18,7 @@ karen_brain_primitives: [3]
 
 ## Key Claims
 
-- [[prevotella]] enrichment is a signature associated with pediatric oesophageal metaplasia, with strain-specific features within *[[Prevotella melaninogenica]]* significantly increased in metaplasia samples via metagenome-derived genome analysis
+- [[prevotella]] enrichment is a signature associated with pediatric oesophageal metaplasia, with strain-specific features within *[[prevotella|Prevotella melaninogenica]]* significantly increased in metaplasia samples via metagenome-derived genome analysis
 - [[pharmacomicrobiomics|Proton pump inhibitor]] use was associated with increased oral bacterial richness in gastric fluid, correlating with increased levels of gastric pro-inflammatory cytokines
 - Bacterial diversity and composition showed substantial differences across oral, oesophageal, and gastric fluid samples; reflux led to increased homogeneity in the bacterial component of these three microbiotas
 - The oral and oesophageal microbiotas were associated with age, sex, history of oesophageal atresia, and presence of oesophageal metaplasia

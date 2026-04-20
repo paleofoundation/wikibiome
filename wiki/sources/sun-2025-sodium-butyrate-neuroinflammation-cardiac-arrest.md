@@ -17,7 +17,7 @@ karen_brain_primitives: [3]
 
 # Key Claims
 
-- Sodium butyrate (SB) markedly improved neurological scores and reduced neuronal death and apoptosis in cardiac arrest (CA) mice via the [[microbiome-gut-brain axis]]
+- Sodium butyrate (SB) markedly improved neurological scores and reduced neuronal death and apoptosis in cardiac arrest (CA) mice via the [[gut-brain-axis|microbiome-gut-brain axis]]
 - SB reduced M1 microglia and [[neuroinflammation]] in CA mice by modulating TLR4/MyD88/NF-kB signaling pathway; SB enhanced the phenotypic transition from pro-inflammatory M1 to anti-inflammatory M2 microglia
 - SB increased intestinal integrity and alleviated systemic inflammation; H&E staining showed SB mitigated intestinal mucosal damage in CA mice
 - 16S rDNA sequencing showed SB intervention mitigated CA-induced gut microbiota dysbiosis and SCFA depletion, restoring microbial community balance
@@ -39,4 +39,4 @@ karen_brain_primitives: [3]
 - Microglial polarization connects to [[inflammation|microbiome and immune system]] in neuroinflammation
 - Gut barrier protection relevant to [[gut-metal-microbiome|microbiome-host interactions]] and intestinal permeability
 - Butyrate therapeutic potential extends [[short-chain-fatty-acids|microbial metabolites]] applications in CVD
-- Cardiac arrest model bridges [[microbiome and neuroinflammation]] with [[cardiovascular-disease]]
+- Cardiac arrest model bridges [[neuroinflammation|microbiome and neuroinflammation]] with [[cardiovascular-disease]]

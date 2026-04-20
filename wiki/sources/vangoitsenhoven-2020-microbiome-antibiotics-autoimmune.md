@@ -54,5 +54,5 @@ karen_brain_primitives: [1, 5]
 - [[bacteroides-fragilis]] immune modulation relevant to maintaining tolerance
 - Links to [[iron]] and [[zinc]] through antibiotic effects on metal-handling commensals
 - FMT as microbiome reset connects to [[gut-metal-microbiome]] restoration
-- Complements [[Haag & Siegmund 2015|haag-2015-intestinal-microbiota-innate-immunity-crohns]] on mechanistic basis
+- Complements [[haag-2015-intestinal-microbiota-innate-immunity-crohns|haag-2015-intestinal-microbiota-innate-immunity-crohns]] on mechanistic basis
 - [[crohns-disease]]

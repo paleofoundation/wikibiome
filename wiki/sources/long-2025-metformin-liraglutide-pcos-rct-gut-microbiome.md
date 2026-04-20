@@ -70,7 +70,7 @@ key_findings:
 ## Relevance to Cureva
 
 - **[[pcos-signature]]**: Update taxonomic layer — add Alloprevotella and Parasutterella as depleted in PCOS (protective); Prevotella_1/_9, Escherichia-Shigella, Parabacteroides as enriched (pathogenic).
-- **[[pcos-metformin-liraglutide-combination]]** (new intervention page): Triangle validation.
+- **[[pcos|pcos-metformin-liraglutide-combination]]** (new intervention page): Triangle validation.
   - I → f (intervention → signature feature): Combination increases Alloprevotella/Parasutterella, reduces Escherichia-Shigella; evidence level RCT + animal model.
   - I → D (intervention → disease): 94.1% of COM patients achieved ≥5% weight loss with 35.71% insulin-resistance reversal; evidence level RCT, n=60.
   - f → D (feature → disease): Alloprevotella/Parasutterella negatively correlate with testosterone (the primary PCOS driver).

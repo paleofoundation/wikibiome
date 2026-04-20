@@ -40,7 +40,7 @@ Case-control study, n=210 (109 hospitalized SZ-MetS patients aged 28-64 + 101 ag
 - Informs **[[schizophrenia]]** entity page: documents a **comorbidity-specific mycobiome signature** (SZ-MetS) distinct from SCZ alone — one-third of SCZ patients develop MetS.
 - Informs **[[metabolic-syndrome]]** entity page: links fungal dysbiosis (Trichosporon, Lodderomyces) to the metabolic comorbidity, not just bacterial taxa.
 - Informs **[[trichosporon-asahii]]**, **[[lodderomyces-elongisporus]]** entity pages (potentially new entities): emerging pathobionts in the psychiatric-metabolic axis.
-- Informs **[[saccharomyces-cerevisiae]]** and **[[pleurotus-ostreatus]]** entity pages: protective fungi inversely related to symptom severity.
+- Informs **[[saccharomyces-cerevisiae]]** and **[[mycobiome|pleurotus-ostreatus]]** entity pages: protective fungi inversely related to symptom severity.
 
 # Relevance to Cureva
 

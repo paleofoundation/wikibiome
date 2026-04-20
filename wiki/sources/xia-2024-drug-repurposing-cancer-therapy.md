@@ -42,5 +42,5 @@ karen_brain_primitives: [1]
 - Provides the broad framework for [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]] (BBR as a specific repurposed drug) and [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]] (CDCA as bile acid repurposing)
 - Organoid screening platforms applicable to testing microbiome-targeted therapies discussed in [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]]
 - Ferroptosis and cell death pathways connect to iron-dependent mechanisms discussed in broader cancer metabolism literature
-- Disulfiram for CRC connects to [[Simon-Soro 2021 - Thonzonium Bromide Oral-Gut Microbiomes]] concept of repurposed antimicrobials affecting microbiome
+- Disulfiram for CRC connects to [[simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes|Simon-Soro 2021 - Thonzonium Bromide Oral-Gut Microbiomes]] concept of repurposed antimicrobials affecting microbiome
 - [[colorectal-cancer]]

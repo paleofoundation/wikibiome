@@ -62,13 +62,13 @@ PRISMA-compliant systematic review. PubMed and Diabetes and Metabolic Syndrome J
 
 ## Relevance to Cureva
 
-- **[[t2d-infertility-signature]]** (new signature candidate): Layer 2 (taxonomic) — enriched Verrucomicrobia, Phascolarctobacterium; depleted Roseburia, Stenotrophomonas, Streptococcus. Layer 3 (hormonal/immunity) — depleted estrogen, elevated androgens, endometrial inflammation.
-- **[[phgg-partially-hydrolyzed-guar-gum-t2d-infertility]]** intervention page (new):
+- **[[type-2-diabetes|t2d-infertility-signature]]** (new signature candidate): Layer 2 (taxonomic) — enriched Verrucomicrobia, Phascolarctobacterium; depleted Roseburia, Stenotrophomonas, Streptococcus. Layer 3 (hormonal/immunity) — depleted estrogen, elevated androgens, endometrial inflammation.
+- **[[prebiotics|phgg-partially-hydrolyzed-guar-gum-t2d-infertility]]** intervention page (new):
   - I → f: PHGG homogenizes infertile microbiome toward fertile profile (evidence: moderate, case-control n=36).
   - I → D: 58.3% pregnancy success in supplemented infertile patients (evidence: moderate, small trial, n=12 supplemented).
   - f → D: Roseburia restoration supports SCFA production → intestinal barrier → metabolic/hormonal normalization.
-- **[[lactobacillus-casei-t2d]]** intervention page: I → D evidence from Khalili 2019 (RCT, n=40): improves glycemic response, fetuin-A, SIRT1.
-- **[[glp-1-agonist-reproductive-function]]** intervention page: exenatide, liraglutide, tirzepatide improve ovulation, menstrual regularity, and pregnancy potential in T2D/obese women.
+- **[[lactobacillus|lactobacillus-casei-t2d]]** intervention page: I → D evidence from Khalili 2019 (RCT, n=40): improves glycemic response, fetuin-A, SIRT1.
+- **[[insulin-resistance|glp-1-agonist-reproductive-function]]** intervention page: exenatide, liraglutide, tirzepatide improve ovulation, menstrual regularity, and pregnancy potential in T2D/obese women.
 - Cross-reference with [[long-2025-metformin-liraglutide-pcos-rct-gut-microbiome]]: GLP-1 agonists act on both PCOS and T2D-infertility via shared mechanisms (microbiome remodeling + GLP-1R signaling in endometrium).
 
 ## Contradictions / Tensions

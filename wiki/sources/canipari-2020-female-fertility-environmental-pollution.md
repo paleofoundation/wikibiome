@@ -41,4 +41,4 @@ karen_brain_primitives: [3]
 - [[nickel]] reproductive toxicity important for [[nickel-allergy|nickel toxicology]] wiki
 - [[iron|Iron deficiency]] increases [[cadmium]] absorption in women -- links to [[iron|anemia]] and fertility
 - Placenta as biomarker for fetal metal exposure connects to [[female-infertility|pregnancy outcomes]]
-- See also: [[fertility-lead-cadmium]], [[heavy-metals-infertility-nhanes]]
+- See also: [[female-infertility|fertility-lead-cadmium]], [[female-infertility|heavy-metals-infertility-nhanes]]

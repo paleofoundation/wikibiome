@@ -1,6 +1,7 @@
 ---
 title: "WikiBiome / Cureva — Gaps & Improvement Report 2026-04-12"
 type: analysis
+platform: cureva
 created: 2026-04-12
 updated: 2026-04-12
 tags: [maintenance, gaps, improvements, roadmap]
@@ -184,7 +185,7 @@ From the v2 roadmap (per memory):
 4. Add `cureva_status:` to 5 intervention pages
 5. Fix misspelled `[[akkermansia-mucinicola]]` wikilink
 6. Create stub entity page for `cerebral-palsy`
-7. Create `[[snas]]` or `[[nickel-allergy|systemic-nickel-allergy-syndrome]]` concept page
+7. Create `[[nickel-allergy|SNAS]]` or `[[nickel-allergy|systemic-nickel-allergy-syndrome]]` concept page
 8. Regenerate `index.md` from filesystem
 
 ### Short Session (1–2 hours)

@@ -17,7 +17,7 @@ karen_brain_primitives: [3, 6]
 
 ## Key Claims
 
-- Viruses like [[viral-microbiota|HSV]], [[viral-microbiota|EBV]], [[Hepatitis C virus]], and human [[viral-microbiota|parvovirus B19]] are potential candidates associated with [[thyroid-autoimmunity|autoimmune thyroid diseases]]
+- Viruses like [[viral-microbiota|HSV]], [[viral-microbiota|EBV]], [[viral-microbiota|Hepatitis C virus]], and human [[viral-microbiota|parvovirus B19]] are potential candidates associated with [[thyroid-autoimmunity|autoimmune thyroid diseases]]
 - [[viral-microbiota|EBV]] affects thyroid cancer by increasing BRAF activity and inducing the expression of latent membrane proteins to activate the NF-kB signaling pathway
 - [[viral-microbiota|HHV-6]] infections can enhance the efficiency of autoreactive T cell activation and the innate immune system by upregulating HLA expression on antigen-presenting cells
 - [[viral-microbiota|HPV]] vaccine recipients showed a significantly higher risk of developing [[hashimotos-thyroiditis]], suggesting a correlation between HPV infection and HT

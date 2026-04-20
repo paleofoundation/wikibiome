@@ -43,8 +43,8 @@ key_findings:
 ## Relevance to WikiBiome
 
 - [[cadmium]], [[lead]], [[chromium]], [[arsenic]] entity pages — spice-based dietary exposure source.
-- [[chili-pepper]] and [[spices]] concept/entity — overlooked contaminated-food category in disease signatures.
-- [[coal-combustion]] concept — regional As contamination pathway.
+- [[polyphenols|chili-pepper]] and [[polyphenols|spices]] concept/entity — overlooked contaminated-food category in disease signatures.
+- [[environmental-metal-exposure|coal-combustion]] concept — regional As contamination pathway.
 
 ## Relevance to Cureva
 

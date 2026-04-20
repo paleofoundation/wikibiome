@@ -18,7 +18,7 @@ karen_brain_primitives: [3]
 ## Key Claims
 
 - [[tryptophan|Amino-acid]] catabolism is decreased in [[multiple-sclerosis]] patients and this decrease has functional consequences: increasing pro-inflammatory cytokines and decreasing [[inflammation|Treg]] cell numbers
-- [[tryptophan-metabolism]] catabolism via [[kynurenine-pathway|IDO1]] (indoleamine 2,3-dioxygenase) and the [[kynurenine]] pathway is a critical immune checkpoint; IDO1-deficient mice show exacerbated [[EAE]] with increased [[Th1]] and [[inflammation|Th17]] cells and decreased Treg cells
+- [[tryptophan-metabolism]] catabolism via [[kynurenine-pathway|IDO1]] (indoleamine 2,3-dioxygenase) and the [[kynurenine]] pathway is a critical immune checkpoint; IDO1-deficient mice show exacerbated [[multiple-sclerosis|EAE]] with increased [[inflammation|Th1]] and [[inflammation|Th17]] cells and decreased Treg cells
 - [[tryptophan|Arginine]] catabolism via [[tryptophan|ARG1]] (arginase 1) transforms L-Arginine to L-Ornithine, facilitating polyamine synthesis which further induces IDO1 expression; these pathways interact synergistically
 - Downstream tryptophan metabolites including 3-HAA (3-hydroxyanthranilic acid) inhibit Th1/Th17 effector cells and promote Treg response by upregulating [[inflammation|TGF-beta]] production by dendritic cells
 - The [[insulin-resistance|GCN2K]] (general control nonderepressible 2 kinase) and [[insulin-resistance|mTOR]] pathways are the two main sensors of amino acid depletion that mediate immunosuppressive effects

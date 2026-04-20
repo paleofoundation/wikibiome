@@ -40,7 +40,7 @@ Integrated 16S rRNA and GC-MS SCFA study comparing **40 constipated ASD (C-ASD) 
 
 ### Enriched in TD
 - *Lachnospiraceae_NK4A136_group*, *Ralstonia*
-- *[[Eubacterium eligens]]* group, *[[ruminococcus]] gnavus* group
+- *[[eubacterium|Eubacterium eligens]]* group, *[[ruminococcus]] gnavus* group
 - *[[ruminococcus]]_1*, *[[lactobacillus]]*
 - *[[anaerostipes]]*
 

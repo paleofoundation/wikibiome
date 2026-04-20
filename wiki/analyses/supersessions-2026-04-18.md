@@ -1,6 +1,7 @@
 ---
 title: "Supersession Compliance Audit — 2026-04-18"
 type: analysis
+platform: cureva
 created: 2026-04-18
 updated: 2026-04-18
 ---
@@ -30,8 +31,8 @@ updated: 2026-04-18
 ### 2. Copper in Autism Spectrum Disorder — wiki/entities/autism-spectrum-disorder.md
 
 **Conflict:** Cu level in ASD
-- **Earlier work**: [[zhou-2025-metals-asd-severity-hair-correlation]] (cross-sectional, n=181, hair biomarker) — Cu elevated, severity-correlated
-- **Superseding**: [[lin-2024-trace-elements-asd-meta-analysis]] (systematic-review-meta-analysis, 4 studies, N=577, blood/serum) — No significant Cu difference (P=0.726)
+- **Earlier work**: [[zhou-2025-gut-microbiota-immune-nervous-system-asd|zhou-2025-metals-asd-severity-hair-correlation]] (cross-sectional, n=181, hair biomarker) — Cu elevated, severity-correlated
+- **Superseding**: [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis|lin-2024-trace-elements-asd-meta-analysis]] (systematic-review-meta-analysis, 4 studies, N=577, blood/serum) — No significant Cu difference (P=0.726)
 
 **Evidence hierarchy**: systematic-review-meta-analysis > cross-sectional → lin-2024 null finding takes primary position.
 

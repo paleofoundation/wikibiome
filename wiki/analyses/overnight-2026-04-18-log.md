@@ -1,6 +1,7 @@
 ---
 title: "Overnight Continuous Improvement Log — 2026-04-18"
 type: analysis
+platform: cureva
 created: 2026-04-18
 updated: 2026-04-18
 ---
@@ -34,7 +35,7 @@ Starting state: 1706 sources, 216 entities, 171 concepts, 41 signatures, 30 inte
 | Signatures missing confidence | 0 | — | — | All present |
 | Intervention triangle completeness | 0 | — | — | All complete |
 | Case-mismatched wikilinks | 0 | — | — | — |
-| Ghost wikilink [[polycystic-ovary-syndrome]] | 3 refs | 3 | 0 | Normalized to [[pcos]] |
+| Ghost wikilink [[pcos|polycystic ovary syndrome]] | 3 refs | 3 | 0 | Normalized to [[pcos]] |
 | Orphan pages | 14 | 0 | 14 | Logged to manual-review-2026-04-18.md |
 
 ### Step 3 — Missing Conditions + Signatures

@@ -74,6 +74,6 @@ Delta-MnSOD mutants supplemented with 0.5 uM MnCl2 at day-6 (metabolite-depleted
 - [[nutritional-immunity]] -- host targeting of Mn as anti-pathogen strategy; B. burgdorferi's iron-free biology circumvents iron restriction
 - [[labile-metal-pool]] -- H-Mn as the labile, substitutionally exchangeable Mn pool
 - [[fenton-chemistry]] -- avoided by eliminating intracellular iron; Mn2+ does not catalyze Fenton reactions
-- [[Lyme-disease]] -- B. burgdorferi pathogenesis and host immune evasion through Mn-dependent antioxidant defense
+- [[borrelia|Lyme-disease]] -- B. burgdorferi pathogenesis and host immune evasion through Mn-dependent antioxidant defense
 - [[metal-speciation]] -- EPR/ENDOR as non-invasive technique for in vivo metal speciation
 - [[antimicrobial-resistance|radiation-resistance]] -- H-Mn content predicts radioresistance across all domains of life

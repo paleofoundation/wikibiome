@@ -20,7 +20,11 @@ tags:
   - tau-protein
   - alpha-synuclein
   - epigenetics
-doi: 10.3389/fncel.2015.00170
+doi: 10.3389/fncel.2015.00124
+pmid: "25914621"
+pmc: "PMC4392704"
+doi_verified: 2026-04-19
+doi_verified_source: pubmed
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]

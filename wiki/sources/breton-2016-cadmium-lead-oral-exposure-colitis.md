@@ -39,7 +39,7 @@ karen_brain_primitives: [1, 4]
 - Central to [[cadmium|Cadmium Toxicity]] and [[lead|Lead Toxicity]] in the GI tract
 - Challenges simple dose-response assumptions in [[heavy-metals|metal-toxicology]] -- demonstrates hormesis-like effects
 - Relevant to [[inflammatory-bowel-disease]] pathogenesis and environmental risk factors
-- Connects to [[Intestinal Barrier Function]] through TEER experiments
+- Connects to [[intestinal-permeability|Intestinal Barrier Function]] through TEER experiments
 - Links to [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]] through modulation of intestinal inflammation
 - Metallothionein induction relates to [[heavy-metals|Metal Detoxification Mechanisms]]
 - Complements [[amerikanou-2022-ibd-biomarkers-trace-metals|amerikanou-2022-ibd-biomarkers-trace-metals]] findings on metal-IBD associations in humans

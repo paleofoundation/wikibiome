@@ -36,7 +36,7 @@ karen_brain_primitives: [3]
 # Connections
 
 - Foundational systematic review for [[chronic-kidney-disease]] and environmental metal exposure
-- Highlights importance of distinguishing CKD from CKDu [[chronic kidney disease of unknown etiology]]
+- Highlights importance of distinguishing CKD from CKDu [[chronic-kidney-disease|chronic kidney disease of unknown etiology]]
 - Complements [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]] mechanistic review
 - Reverse causality concern: impaired kidneys retain metals, creating apparent associations
 - Recommends novel biomarkers (tooth Pb, hair/nail As) for historical exposure assessment

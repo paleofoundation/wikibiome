@@ -39,10 +39,10 @@ karen_brain_primitives: [1, 4, 5, 8]
 
 # Key Claims
 
-- [[Gut microbiota]] are the **first line of defense** against heavy metal (HM) toxic effects, with a dynamic, bidirectional interaction
+- [[dysbiosis|Gut microbiota]] are the **first line of defense** against heavy metal (HM) toxic effects, with a dynamic, bidirectional interaction
 - HM exposure alters microbiota composition and metabolic profiles at the functional level; in turn, microbiota alter HM absorption by acting as a physical barrier, modifying pH, oxidative balance, and detoxification enzymes
 - The gut microbiota can bioaccumulate, bind, or transform HMs via enzymatic reactions, facilitating fecal excretion
-- Specific microbiota mechanisms include: siderophore production by [[pseudomonas-aeruginosa]], sulfide production by sulfate-reducing bacteria (SRB), oxalate production by [[Oxalobacter formigenes]], and metal transport proteins
+- Specific microbiota mechanisms include: siderophore production by [[pseudomonas-aeruginosa]], sulfide production by sulfate-reducing bacteria (SRB), oxalate production by [[oxalates|Oxalobacter formigenes]], and metal transport proteins
 - Probiotics (especially [[lactobacillus]] and [[bifidobacterium]]) reduce HM absorption via intestinal sequestration, detoxification, changing metal transporter expression, and maintaining gut barrier
 - Dietary components, soil pH, and host age/sex are possible factors affecting the HM-microbiota relationship
 - HM-induced microbiota changes lead to downstream health effects: weight loss, diabetes, early onset allergy/asthma, increased fat accumulation, autism
@@ -62,6 +62,6 @@ karen_brain_primitives: [1, 4, 5, 8]
 
 - Core reference for [[gut-metal-microbiome|heavy metals and gut microbiome]] wiki topic
 - Directly supports [[zhu-2024-toxic-essential-metals-gut-microbiota|Zhu 2024 - Toxic Essential Metals Gut Microbiota]] on bidirectional framework
-- Probiotic data connects to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]] and [[Anchidin-Norocel 2025 - Heavy Metal Gut Microbiota Probiotics Biosensors]]
+- Probiotic data connects to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]] and [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors|Anchidin-Norocel 2025 - Heavy Metal Gut Microbiota Probiotics Biosensors]]
 - HM-induced metabolite changes link to [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
 - Relevant to [[nickel-allergy|nickel gut microbiome interactions]] as a framework reference, though Ni is not a primary focus

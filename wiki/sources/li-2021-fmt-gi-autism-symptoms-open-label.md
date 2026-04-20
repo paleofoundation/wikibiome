@@ -46,7 +46,7 @@ key_findings: ["FMT improved GI symptoms", "FMT shifted bacterial community", "S
 - ASD children had higher protein consumption (P < 0.05) and more antibiotic use in first 3 years (P < 0.001)
 - Higher food allergy incidence in ASD (60% vs. 6.25%, P < 0.001)
 - FMT promoted colonization of donor microbes
-- [[Eubacterium coprostanoligenes]] decreased by FMT, associated with FMT response
+- [[bile-acid-metabolism|Eubacterium coprostanoligenes]] decreased by FMT, associated with FMT response
 
 # Relevance to Metallomic Framework
 

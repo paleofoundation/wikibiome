@@ -61,7 +61,7 @@ evidence_level: systematic-review-meta-analysis
 - **Oxidative stress**: Cd induces ROS, inhibits DNA repair enzymes (hOGG1), and disrupts the function of DNA repair pathways including NER and BER
 - **Epigenetic effects**: Cd treatment of MCF-7 cells (60 uM CdCl2 for 72h) altered 997 genes by epigenetic modification, 400 associated with breast cancer
 - **DNA methylation**: Cd can cause both hypomethylation and hypermethylation depending on dose and duration; chronic exposure leads to global DNA hypomethylation
-- **E-cadherin pathway**: Cd promotes [[epithelial-mesenchymal transition]] (EMT) by downregulating E-cadherin through Snail upregulation, enhancing migration and invasion
+- **E-cadherin pathway**: Cd promotes [[epithelial-mesenchymal-transition|epithelial-mesenchymal transition]] (EMT) by downregulating E-cadherin through Snail upregulation, enhancing migration and invasion
 - **miRNA involvement**: miR-374c-5p inhibition leads to upregulation of GRM3; miR-30 downregulation facilitates EMT; miR-21 upregulation promotes cell proliferation
 - **Xenobiotic interactions**: Co-exposure with other metals (bisphenol A, microplastics, mycotoxins, polycyclic aromatic hydrocarbons, nanoparticles) can potentiate Cd toxicity
 - **Protective factors**: Smoking cessation (35% decrease in breast cancer mortality); selenium may have modified protective effect

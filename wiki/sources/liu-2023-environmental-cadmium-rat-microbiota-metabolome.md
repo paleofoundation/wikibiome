@@ -44,14 +44,14 @@ key_findings:
 ## Relevance to WikiBiome
 
 - **[[cadmium]]** entity page — adds mechanistic detail: Cd disrupts ZO-1, translocates bacteria into blood, generates uremic toxins via microbial perturbation.
-- **[[muribaculaceae]]** — document Cd-driven translocation from gut to blood; mucin-monosaccharide energy source → mucin layer degradation → permeability feedback loop.
+- **[[prebiotics|muribaculaceae]]** — document Cd-driven translocation from gut to blood; mucin-monosaccharide energy source → mucin layer degradation → permeability feedback loop.
 - **[[corynebacterium]]** — Cd drives gut-to-blood translocation; bacteremia marker.
 - **[[intestinal-permeability|intestinal-barrier]]** / **[[intestinal-permeability|leaky-gut]]** concept — Cd as a ZO-1 disruptor.
 - **[[tmao|uremic-toxins]]** concept — indoxyl sulfate, phenyl sulfate, p-cresol sulfate as Cd-driven gut-bacterial metabolites linking heavy metal exposure to CKD pathophysiology.
 
 ## Relevance to Cureva
 
-- Mechanistic support for **[[cadmium-gut-dysbiosis]]** pathway — Cd exposure → barrier loss → bacterial translocation → systemic inflammation → uremic toxin accumulation.
+- Mechanistic support for **[[cadmium|cadmium-gut-dysbiosis]]** pathway — Cd exposure → barrier loss → bacterial translocation → systemic inflammation → uremic toxin accumulation.
 - Cross-condition: indoxyl/p-cresol sulfates are canonical CKD toxins and also implicated in cardiovascular disease — creates mechanistic bridge between Cd exposure, microbiome, CKD, and CVD signatures.
 - Candidate intervention targets: ZO-1 restoration (glutamine, 6-tocopherol), alpha-linolenic acid supplementation (inhibits inflammation, restores barrier), Muribaculaceae suppression.
 

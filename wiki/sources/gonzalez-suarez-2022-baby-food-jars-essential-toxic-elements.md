@@ -38,7 +38,7 @@ karen_brain_primitives: [3]
 - Directly relevant to as Ni reached 79.4% of TDI at standard consumption
 - Supports argument that vegetable-based baby foods carry higher metal accumulation, especially for Al
 - Complements Italian baby food analysis with Spanish market data
-- The Al findings connect to and [[de Paiva et al 2020 cereals]] on aluminum bioaccessibility in baby foods
+- The Al findings connect to and [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility|de Paiva et al 2020 cereals]] on aluminum bioaccessibility in baby foods
 - Mn overexposure finding aligns with concerns about in early life
 - Risk framework using MOE, TDI, TWI comparable to and approaches
 - Relates to [[developmental-metal-vulnerability]] -- critical windows of susceptibility during complementary feeding

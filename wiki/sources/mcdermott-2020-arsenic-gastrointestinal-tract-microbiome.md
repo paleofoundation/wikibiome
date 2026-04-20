@@ -22,7 +22,7 @@ karen_brain_primitives: [1, 5, 9]
 - The variability in arsenicosis symptoms among individuals sharing similar exposure may be partly explained by differences in GIT [[dysbiosis|microbiome composition]]
 - Arsenic resistance via ArsB/Acr3 extrusion is the most common microbial response, but its relevance to the GIT is neutral with respect to host toxicity
 - Arsenic methylation by ArsM can produce more toxic trivalent methylated species (MAs(III), DMAs(III), TMAs(III)), potentially worsening host exposure
-- [[short-chain-fatty-acids|SCFAs]] production and thiolation reactions by sulfate-reducing bacteria ([[desulfovibrio]], [[Desulfosporosinus]]) represent under-explored GIT-relevant arsenic transformations
+- [[short-chain-fatty-acids|SCFAs]] production and thiolation reactions by sulfate-reducing bacteria ([[desulfovibrio]], [[desulfovibrio|Desulfosporosinus]]) represent under-explored GIT-relevant arsenic transformations
 
 # Methods/Findings
 

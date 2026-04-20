@@ -19,7 +19,7 @@ karen_brain_primitives: [7]
 
 - [[hashimotos-thyroiditis]] itself is capable of triggering [[neuroinflammation]] accompanied by emotional alterations even in the euthyroid state, independent of thyroid hormone levels
 - HT mice displayed anxiety- and depressive-like behaviors in open field, elevated plus maze, forced swimming, and tail suspension tests while maintaining normal T3, T4, and TSH levels
-- HT mice showed microglial and astrocyte activation in the [[frontal cortex]] detected by immunohistochemistry, real-time RT-PCR, and transmission electron microscopy
+- HT mice showed microglial and astrocyte activation in the [[neuroinflammation|frontal cortex]] detected by immunohistochemistry, real-time RT-PCR, and transmission electron microscopy
 - Enhanced gene expression of proinflammatory cytokines [[inflammation|IL-1beta]] and [[inflammation|TNF-alpha]] in the frontal cortex was observed, with a tendency for higher IL-6 expression
 - Key [[serotonin]]-system-related genes activated by proinflammatory cytokines were upregulated in HT mice: [[kynurenine-pathway|IDO1]] and [[gut-brain-axis|SERT]], accompanied by reduced frontal cortex serotonin levels
 - No signs of neuronal apoptosis were visible by TUNEL staining and TEM in the frontal cortex despite the inflammatory response

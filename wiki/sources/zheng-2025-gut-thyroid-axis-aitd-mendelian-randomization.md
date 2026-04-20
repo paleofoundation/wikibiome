@@ -45,7 +45,7 @@ Two-sample MR with IVW as primary, MR-Egger, weighted median, weighted mode, sim
 
 ## Relevance to WikiBiome
 
-- Strong evidence for **[[hashimotos-thyroiditis]]** entity page: depletion of SCFA producers (**[[butyrivibrio]]**, *Ruminococcaceae*, *Prevotella 7*, *Lactobacillales*) is *causally upstream* of autoimmune thyroiditis, not merely a marker.
+- Strong evidence for **[[hashimotos-thyroiditis]]** entity page: depletion of SCFA producers (**[[short-chain-fatty-acids|butyrivibrio]]**, *Ruminococcaceae*, *Prevotella 7*, *Lactobacillales*) is *causally upstream* of autoimmune thyroiditis, not merely a marker.
 - Expands **[[gut-thyroid-axis]]** concept: specific taxa with directional evidence.
 - *Intestinimonas* as novel HT risk genus warrants a new microbe entity page if sufficient corroborating evidence accumulates.
 - Informs **[[graves-disease]]** entity (distinct autoimmune thyroid) with non-overlapping risk set (Intestinibacter, Barnesiella, NB1n).

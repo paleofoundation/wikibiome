@@ -35,7 +35,7 @@ This large-scale [[shotgun-metagenomics]] study characterizes the gut [[gut-micr
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-This landmark study provides the species-level resolution needed to map the PD [[gut-microbiome|microbiome]] signature to metal-dependent mechanisms. The enrichment of *E. coli* (with its enterobactin siderophore system for [[iron]] piracy) and *Klebsiella* (with iron-scavenging aerobactin) directly implicates metal competition in PD [[dysbiosis]]. The depletion of *Faecalibacterium* and *Roseburia* removes butyrate producers that maintain the hypoxic gut environment and regulate [[iron]] absorption via [[HIF-2alpha]]. The enrichment of LPS biosynthesis genes indicates increased [[tlr4]] ligand production, connecting to [[hepcidin]]-mediated iron trapping. This study anchors the metallomic-microbiome framework in high-resolution metagenomic data.
+This landmark study provides the species-level resolution needed to map the PD [[gut-microbiome|microbiome]] signature to metal-dependent mechanisms. The enrichment of *E. coli* (with its enterobactin siderophore system for [[iron]] piracy) and *Klebsiella* (with iron-scavenging aerobactin) directly implicates metal competition in PD [[dysbiosis]]. The depletion of *Faecalibacterium* and *Roseburia* removes butyrate producers that maintain the hypoxic gut environment and regulate [[iron]] absorption via [[hypoxia|HIF-2alpha]]. The enrichment of LPS biosynthesis genes indicates increased [[tlr4]] ligand production, connecting to [[hepcidin]]-mediated iron trapping. This study anchors the metallomic-microbiome framework in high-resolution metagenomic data.
 
 ## Limitations
 

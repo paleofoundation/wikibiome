@@ -59,7 +59,7 @@ The co-occurrence network reveals that Bacteroides normally competitively suppre
 
 ## Relevance to Cureva
 
-- Backbone of Layer 2 (taxonomic signature) for [[cureva/signatures/cerebral-palsy]].
+- Backbone of Layer 2 (taxonomic signature) for [[cerebral-palsy|cureva/signatures/cerebral-palsy]].
 - Anaerostipes/Faecalibacterium co-depletion → acetate accumulation → parasympathetic activation → seizure: a mechanistic intervention target (Primitive 5).
 - Intervention hypothesis: restore Bacteroides dominance to re-establish competitive suppression of pathobionts (Primitive 5).
 

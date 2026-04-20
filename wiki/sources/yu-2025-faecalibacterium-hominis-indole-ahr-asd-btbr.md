@@ -71,8 +71,8 @@ In BTBR mouse feces (comparing C57BL/6J control, BTBR+PBS, BTBR+4P-15):
 ## Mechanism: Reduced Indole-Producing Bacteria
 
 - 4P-15 did not directly reduce indole/IPA in vitro (YCFA medium)
-- 16S rRNA sequencing: 4P-15 reduced abundance of **[[Peptococcus]]** and **Tuzzerella** (p = 0.036 and 0.034)
-- [[Peptococcus]] is identified as a potential indole-producing bacterium
+- 16S rRNA sequencing: 4P-15 reduced abundance of **[[dysbiosis|Peptococcus]]** and **Tuzzerella** (p = 0.036 and 0.034)
+- [[dysbiosis|Peptococcus]] is identified as a potential indole-producing bacterium
 - 4P-15 reshapes microbiota composition to reduce indole production
 
 ## AhR/Glutamate/GABA Pathway Correction

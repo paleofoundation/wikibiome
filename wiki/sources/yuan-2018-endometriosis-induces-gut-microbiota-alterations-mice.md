@@ -1,53 +1,100 @@
 ---
-title: "Endometriosis induces gut microbiota alterations in mice"
+title: "Yuan 2018 — Endometriosis Induces Gut Microbiota Alterations in Mice"
 type: source
-created: 2026-04-09
-updated: 2026-04-09
-authors: [Yuan M, Li D, Zhang Z, Sun H, An M, Wang G]
-journal: Human Reproduction
+created: 2026-04-19
+updated: 2026-04-19
+authors: [Ming Yuan, Dong Li, Zhe Zhang, Huihui Sun, Min An, Guoyun Wang]
+corresponding_author: "Guoyun Wang"
+corresponding_email: "wangguoy@sdu.edu.cn"
+institution: "Qilu Hospital of Shandong University"
 year: 2018
-tags: [endometriosis, gut-microbiome, mouse-model, Firmicutes-Bacteroidetes-ratio, dysbiosis, Bifidobacterium, 16S-rRNA, beta-diversity]
+journal: "Human Reproduction"
 doi: "10.1093/humrep/dex372"
-platform: wikibiome
-karen_brain_primitives: [1, 4, 5, 7]
-metals_discussed: [iron, nickel]
-taxa_discussed: ["Bifidobacterium"]
+pmid: ""
 evidence_level: animal-model
+sample_size: "n=44 mice (endometriosis n=22, mock n=20, plus donor mice)"
+tags: [endometriosis, gut-microbiota, dysbiosis, 16S-rRNA, mouse-model, firmicutes-bacteroidetes-ratio, immune-system]
+library_category: signatures
+platform: both
+condition: "endometriosis"
+karen_brain_primitives: [1, 5, 9]
+metals_discussed: []
+taxa_discussed: [firmicutes, bacteroidetes, actinobacteria, proteobacteria, bifidobacterium, parasutterella, ruminococcaceae, bifidobacteriaceae, alcaligenaceae, betaproteobacteria, bacteroidia, bacteroidales, bifidobacteriales, burkholderiales]
+key_findings: ["Mice with endometriosis developed distinct gut microbiota composition at 42 days post-modeling, despite similar alpha diversity and richness to controls", "Firmicutes/Bacteroidetes ratio was nearly twofold higher in endometriosis mice (P=0.0028), indicating dysbiosis", "Bifidobacterium, Parasutterella, and Ruminococcaceae-UGG-014 were enriched at the genus level in endometriosis mice"]
+keystone: false
 ---
 
-# Key Claims
+## Key Findings
 
-- Mice with endometriosis develop a distinct gut microbiota composition at 42 days after modeling, but not earlier
-- The Firmicutes/Bacteroidetes ratio was significantly higher in endometriosis mice (P=0.0028)
-- *Firmicutes* and *Actinobacteria* were enriched in the endometriosis group while *Bacteroidetes* were prevalent in controls
-- *Bifidobacterium* was increased in mice with endometriosis, and *Ruminococcaceae UCG-014* and *Parasutterella* were also enriched
-- Alpha diversity (Shannon, Simpson) did not significantly differ, but beta diversity was significantly different at 42 days
+- **Endometriosis alters gut microbiota composition over time** — mice with persistent endometrial lesions for 42 days developed significantly different microbial communities compared with mock controls, despite no differences at earlier time points (7, 14, 28 days) ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]], animal-model).
+- **Elevated Firmicutes/Bacteroidetes ratio** — endometriosis mice showed a nearly twofold increase in the F/B ratio compared to controls (P = 0.0028), a recognized marker of [[dysbiosis]] associated with obesity, hypertension, and irritable bowel syndrome ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]], animal-model).
+- **Bifidobacterium enrichment in endometriosis** — paradoxically, this commonly used probiotic genus was significantly increased in endometriosis mice (P = 0.020), along with [[Parasutterella]] (P = 0.017) and Ruminococcaceae-UGG-014 (P = 0.024) ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]], animal-model).
+- **Alpha diversity unchanged** — Shannon, Simpson, Chao1, and ACE indices showed no significant differences between endometriosis and mock groups at any time point, suggesting compositional shifts without loss of overall diversity ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]], animal-model).
+- **Peritoneal macrophages as potential mediators** — abnormal peritoneal macrophage morphology was detected in all endometriosis mice, and the authors propose macrophage-mediated immune remodeling (including Th17 cell elevation and IL-17 secretion) as a pathway linking ectopic lesions to gut microbial alterations ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]], animal-model).
 
-# Methods/Findings
+## Methods
 
-- **Study design**: Prospective randomized mouse experiment with endometrial tissue injection
-- **Model**: C57BL/6 mice with intraperitoneal endometrial segment injection; mock controls received saline with adipose tissue
-- **Timepoints**: Fecal collection at days 7, 14, 28, and 42
-- **Methods**: 16S rRNA sequencing, LEfSe analysis
+- **Study design:** Prospective, randomized animal experiment using a murine endometriosis model in C57BL/6 mice maintained under SPF conditions.
+- **Model induction:** Endometriosis was established by intraperitoneal injection of 15 endometrial segments in 200 ul sterile PBS per recipient mouse. Donor mice were pre-treated with estradiol benzoate (3 ug/mouse). Endometrial fragments from every two donors were mixed and equally injected into four recipients.
+- **Groups and time points:** Mice were divided into endometriosis and mock (PBS injection) groups, sacrificed at 7, 14, 28, and 42 days post-modeling. n=4 per group at days 7, 14, and 28; n=10 endometriosis and n=8 mock at day 42.
+- **Model confirmation:** Ectopic endometrial foci were confirmed by gross observation, HE staining, and immunofluorescent staining for E-cadherin and vimentin. Peritoneal macrophages were identified by flow cytometry (F4/80+, CD11b+).
+- **Microbiota analysis:** 16S rRNA gene sequencing (V4 region, 515F-806R primers) on Illumina HiSeq2500, 250 bp paired-end reads. QIIME v1.7.0 for quality control; Uparse v7.0.1001 for OTU clustering at 97% similarity; GreenGene Database with RDP classifier v2.2 for taxonomic annotation.
+- **Statistical analysis:** Alpha diversity (Shannon, Simpson, Chao1, ACE, observed species, Good's coverage). Beta diversity (weighted/unweighted UniFrac). PCoA analysis. UPGMA clustering. LEfSe method (LDA score threshold = 4, alpha = 0.05). T-test and Wilcoxon test for group comparisons.
 
- - No differences at 7, 14, or 28 days; significant changes only at 42 days
- - UPGMA clustering showed distinct groups at 42 days on weighted UniFrac (P=0.006)
- - PCoA analysis confirmed separation of endometriosis vs mock at 42 days
- - Six discriminative features identified by LEfSe at 42 days
- - Peritoneal macrophages showed abnormal morphology in endometriosis mice
+## Detailed Summary
 
-# Relevance to Wiki
+### Model Validation
+Adherent ectopic endometrial foci were found in fatty tissues around the bladder in all endometriosis mice at 14, 28, and 42 days. At 7 days, most fragments remained isolated in the peritoneal cavity. Abnormal peritoneal macrophage morphology was observed in all endometriosis mice. HE and immunofluorescence confirmed the presence of both glandular epithelial (E-cadherin+) and stromal (vimentin+) cells in ectopic tissues. No body weight differences were observed between groups. No significant structural changes or inflammatory cell infiltration were found in colon HE staining.
 
-This study provides the first comprehensive data on how [[endometriosis]] alters gut microbiota over time in a murine model. The finding that changes emerge only after 42 days (not 21) reconciles conflicting results in the field and suggests that chronic inflammation from established endometriotic lesions is needed to induce [[dysbiosis]]. The elevated Firmicutes/Bacteroidetes ratio parallels findings in human inflammatory conditions and connects to estrogen-driven microbial shifts relevant to [[endometriosis]] pathogenesis.
+### Alpha Diversity
+Good's coverage >99.0% confirmed adequate sequencing depth. No significant differences in Shannon (P = 0.9501, 0.8759, 0.7836, 1.0 at days 7, 14, 28, 42 respectively) or Simpson indices between groups. Chao richness index also showed no significant differences (P = 0.6073, 0.1203, 0.9414, 0.5621 at days 7, 14, 28, 42).
 
-## Connections
+### Beta Diversity and Compositional Shift
+Beta diversity analysis revealed that the endometriosis group at 42 days was significantly different from the mock group (weighted UniFrac P = 0.0046) and showed obviously higher beta diversity than other groups. UPGMA clustering on weighted UniFrac at the phylum level separated the endometriosis-42d group clearly from all other groups. PCoA analysis (PC1 = 44.51%, PC2 = 21.02%) confirmed the distinct clustering.
 
-- [[endometriosis]] -- first longitudinal murine study showing disease-induced gut microbiota changes at 42 days
-- [[dysbiosis]] -- elevated Firmicutes/Bacteroidetes ratio parallels human inflammatory dysbiosis patterns
-- [[inflammation]] -- chronic peritoneal inflammation from established lesions required to shift gut microbiota
-- [[iron]] -- peritoneal iron overload from ectopic endometrial tissue may drive systemic microbial changes
-- [[gut-metal-microbiome]] -- Bifidobacterium enrichment in endometriosis mice may reflect metal-dependent selection
-- [[metalloestrogens]] -- estrogen-driven microbial shifts in murine model relevant to metalloestrogen-exposed populations
-- [[nickel-allergy]] -- metal sensitization not assessed but may influence murine microbiome responses
-- [[probiotics]] -- Bifidobacterium increase suggests complex probiotic dynamics in endometriosis
-- [[dietary-nickel-exposure]] -- standardized mouse chow controls for dietary metal variation
+### Taxonomic Differences at 42 Days (LEfSe and T-test)
+| Taxon Level | Enriched in Endometriosis | Enriched in Mock | P-value |
+|---|---|---|---|
+| Phylum | [[Firmicutes]] (P=0.001), [[Actinobacteria]] (P=0.022) | [[Bacteroidetes]] (P=0.001) | — |
+| Class | Unidentified Actinobacteria (P=0.027), Betaproteobacteria (P=0.055) | Bacteroidia (P=0.002) | — |
+| Order | [[Bifidobacteriales]] (P=0.020), [[Burkholderiales]] (P=0.022) | [[Bacteroidales]] (P=0.001) | — |
+| Family | [[Bifidobacteriaceae]] (P=0.020), Alcaligenaceae (P=0.018) | Bacteroidales_S24-7_group (P=0.006) | — |
+| Genus | Ruminococcaceae-UGG-014 (P=0.024), [[Bifidobacterium]] (P=0.020), [[Parasutterella]] (P=0.017) | — | — |
+
+### Firmicutes/Bacteroidetes Ratio
+The F/B ratio was nearly twofold higher in endometriosis mice versus mock at 42 days (P = 0.0028). The authors note this ratio is an established indicator of dysbiosis, previously linked to obesity, hypertension, and irritable bowel disease.
+
+### Proposed Mechanism
+The authors hypothesize that peritoneal macrophages mediate bidirectional communication between endometriosis and gut microbiota. Ectopic endometrial tissues activate monocyte-derived and resident peritoneal macrophages, which remodel the peritoneal immune environment by affecting CD4+ T cell differentiation. Th17 cells are elevated in the peritoneal cavity in murine endometriosis, and IL-17 stimulates production of antimicrobial proteins by intestinal epithelial cells, forms tight junctions, mediates IgA transportation, and recruits granulocytes. Conversely, enhanced gut permeability and leakage of bacterial products may dysregulate peritoneal macrophage function and promote endometrial lesion survival.
+
+## Relevance to WikiBiome
+
+This study informs several entity and concept pages:
+
+- **[[endometriosis]]** — first 16S rRNA sequencing study demonstrating gut microbiota changes in an endometriosis model; establishes the disease-microbiome axis
+- **[[bifidobacterium]]** — paradoxical enrichment in an inflammatory condition; complicates the "always beneficial probiotic" narrative
+- **[[parasutterella]]** — enriched in endometriosis; emerging as a taxon of interest in inflammatory conditions
+- **[[firmicutes]]** / **[[bacteroidetes]]** — F/B ratio as a dysbiosis marker applies to endometriosis
+- **[[dysbiosis]]** concept page — endometriosis as another condition featuring elevated F/B ratio
+- **[[gut-immune-axis]]** concept — peritoneal macrophage-gut microbiota bidirectional communication pathway
+
+## Relevance to Cureva
+
+- **Signature evidence:** Supports the taxonomic layer of the [[endometriosis-signature]] — specifically the enrichment of [[Firmicutes]], [[Actinobacteria]], [[Bifidobacterium]], [[Parasutterella]], and depletion of [[Bacteroidetes]]/Bacteroidales. Confidence: preliminary (single animal study).
+- **Ecological features:** Supports immune-mediated ecological remodeling as a driver of endometriosis-associated dysbiosis. Peritoneal macrophage dysfunction -> Th17 elevation -> altered intestinal antimicrobial peptide production -> microbiota shift.
+- **Intervention hypotheses:** The bidirectional relationship suggests that FMT or targeted probiotic intervention could modulate endometriosis progression. However, the paradoxical [[Bifidobacterium]] enrichment means that generic Bifidobacterium-based probiotics should be evaluated carefully in endometriosis — potential STOP signal pending further evidence.
+- **Primitive 5 (Two-Sided Ecological Engineering):** The bidirectional gut-peritoneum axis means interventions must address both the ectopic lesion-driven immune remodeling AND the resulting dysbiosis.
+
+## Contradictions / Tensions
+
+- **Bifidobacterium enrichment vs. probiotic conventions:** [[Bifidobacterium]] is widely promoted as a beneficial probiotic, yet this study finds it enriched in endometriosis mice. This could represent a compensatory/protective response, or it could indicate that specific Bifidobacterium species play context-dependent roles in inflammatory environments. This tension should be noted on the [[bifidobacterium]] entity page. <!-- NEEDS VERIFICATION: Does this finding hold in human endometriosis studies? -->
+- **No alpha diversity change:** Many inflammatory conditions show reduced alpha diversity. Endometriosis here shows compositional shifts without diversity loss, which differs from patterns seen in IBD and other chronic inflammatory diseases. This may reflect the peritoneal (rather than luminal) nature of the inflammatory stimulus.
+
+## Open Questions
+
+1. **Does this pattern replicate in human endometriosis?** The authors explicitly acknowledge this limitation — mouse models cannot fully represent human gut-endometriosis interactions, particularly given that human lesions persist longer and at more diverse anatomical sites.
+2. **What is the functional role of elevated Bifidobacterium?** Is it a compensatory protective response, or does it contribute to disease progression through immune modulation?
+3. **What happens beyond 42 days?** The long-term trajectory of the dysbiosis is unknown — does it stabilize, worsen, or resolve if lesions are removed?
+4. **Does FMT from endometriosis mice to germ-free mice induce or promote endometriosis?** This would establish causality in the bidirectional relationship.
+5. **Which specific Bifidobacterium species are enriched?** 16S V4 sequencing has limited species-level resolution; shotgun metagenomics would clarify whether pathogenic or commensal strains dominate.
+6. **Are metal cofactors involved in the immune-mediated pathway?** The study does not address metallomics, but the Th17/IL-17 axis and macrophage dysfunction may intersect with iron ecology and nutritional immunity — worth investigating against the endometriosis metallomic signature.

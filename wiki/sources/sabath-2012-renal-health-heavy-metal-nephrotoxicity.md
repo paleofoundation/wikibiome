@@ -41,4 +41,4 @@ karen_brain_primitives: [3]
 - Cd-induced kidney injury mechanism via [[oxidative-stress|oxidative stress]] and [[mitochondrial-dysfunction|mitochondrial dysfunction]]
 - Pb nephrotoxicity via [[nf-kappa-b]] activation and [[hypertension]]
 - Links to [[metal-chelation-therapy|chelation therapy]] (EDTA for Pb) as potential treatment
-- See also kidney disease studies: [[association-low-level-heavy-metal-ckd]], [[toxic-metals-ckd-systematic-review]]
+- See also kidney disease studies: [[chronic-kidney-disease|association-low-level-heavy-metal-ckd]], [[chronic-kidney-disease|toxic-metals-ckd-systematic-review]]

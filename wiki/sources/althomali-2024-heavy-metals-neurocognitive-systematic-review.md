@@ -47,5 +47,5 @@ platform: wikibiome
 - Complements [[jakubowska-2024-metal-toxicity-alzheimers-review]] on metal-specific neurological effects
 - Relates to [[oxidative-stress]] as primary mechanism of [[heavy-metal-neurotoxicity]]
 - Relevant to [[blood-brain-barrier]] disruption by heavy metals
-- Links to [[neurocognitive-assessment]] methodologies for metal exposure studies
+- Links to [[gut-brain-axis|neurocognitive-assessment]] methodologies for metal exposure studies
 - Connects to broader [[neurodegeneration]] and [[alzheimers-disease]] risk from environmental exposures

@@ -45,7 +45,7 @@ Cross-sectional multi-omics at Shantou University (2019 IRB). 88 women, 4 groups
 ## Relevance to WikiBiome
 
 - **[[pcos|polycystic-ovary-syndrome]]** entity page — add BMI-stratified microbiome section. Document that PCOS signature is BMI-independent (Lachnospira, E. coli-Shigella, Hungatella enriched) but mycobiome signature interacts strongly with BMI.
-- **[[mortierella]]** / **[[mortierellomycota]]** — create entity page; protective in healthy individuals, depleted in PCOS; decoupler of metabolic and hormonal axes.
+- **[[mortierella]]** / **[[mortierella|mortierellomycota]]** — create entity page; protective in healthy individuals, depleted in PCOS; decoupler of metabolic and hormonal axes.
 - **[[candida-albicans]]** and **[[candida-albicans|candida]]** — link to PCOS mycobiome; Candida positively correlated with HDL-C is a surprising finding.
 - **[[malassezia]]** — add PCOS context.
 - **[[hungatella]]** — create entity page; enriched in PCOS, known for trimethylamine production (cardiometabolic bridge).
@@ -57,7 +57,7 @@ Cross-sectional multi-omics at Shantou University (2019 IRB). 88 women, 4 groups
 
 - **[[pcos-signature]]** — update Layer 2 (taxonomic) to include BMI-independent enrichment of Lachnospira, E-Shigella, Erysipelotrichaceae_UCG-003, Hungatella; and BMI-dependent mycobiome enrichment of Candida, Malassezia, Kazachstania, Sclerophora.
 - **[[pcos-signature]]** — add Layer 6 (interkingdom) — fungal and bacterial enrichment patterns co-occur, supporting [[functional-shielding|interkingdom-relationships-and-functional-shielding]] primitive.
-- **[[pcos-diagnostic-metabolome-model]]** (new analysis page candidate): Document the 30-metabolite random forest as a deployable diagnostic candidate; metabolome outperforms microbiome for PCOS discrimination.
+- **[[pcos|pcos-diagnostic-metabolome-model]]** (new analysis page candidate): Document the 30-metabolite random forest as a deployable diagnostic candidate; metabolome outperforms microbiome for PCOS discrimination.
 - Candidate intervention targets (Karen's Brain Primitive 4 — metal dependencies as Achilles' heels):
   - Lachnospira, E. coli, Hungatella — all metal-dependent for key enzymes.
   - Candida and Malassezia biofilms — interkingdom shielding of bacterial pathogens (Primitive 6).

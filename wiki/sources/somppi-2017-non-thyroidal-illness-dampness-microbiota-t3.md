@@ -17,8 +17,8 @@ karen_brain_primitives: [7]
 
 ## Key Claims
 
-- Long-term exposure to dampness microbiota (indoor mold) induces multi-organ morbidity including [[non-thyroidal illness syndrome]] (NTIS) that can be treated with [[T3]]-based thyroid hormone therapy
-- All nine patients reported improvements in all symptom groups when switched from [[LT4]] monotherapy to T3-based therapy; symptoms reduced across 16 categories including GI, neurological, and allergic symptoms
+- Long-term exposure to dampness microbiota (indoor mold) induces multi-organ morbidity including [[gut-thyroid-axis|non-thyroidal illness syndrome]] (NTIS) that can be treated with [[gut-thyroid-axis|T3]]-based thyroid hormone therapy
+- All nine patients reported improvements in all symptom groups when switched from [[gut-thyroid-axis|LT4]] monotherapy to T3-based therapy; symptoms reduced across 16 categories including GI, neurological, and allergic symptoms
 - T3-based therapy is indicated when the FT3/rT3 ratio is abnormal due to overproduction of rT3, suggesting impaired [[gut-thyroid-axis|DIO2]] enzyme activity
 - [[gut-thyroid-axis|DIO2]] polymorphism (CT or CC genotypes) may explain why some patients benefit from T3 therapy versus LT4 monotherapy
 - Mycotoxin exposure via diet (gluten-containing cereals harboring trichothecene mycotoxins and ergot alkaloids) and inhalation potentiate mold-induced symptoms

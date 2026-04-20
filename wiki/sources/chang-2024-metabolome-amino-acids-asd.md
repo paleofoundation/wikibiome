@@ -21,7 +21,7 @@ key_findings: ["Altered microbiota community structure", "Five dominant dysbioti
 # Key Claims
 
 - **Altered microbiota community structure** in ASD: reduced richness, higher evenness, compositional shifts
-- **Five dominant dysbiotic taxa** identified: [[subdoligranulum]], [[faecalibacterium-praushitzii]], [[faecalibacterium-prausnitzii|faecalibacterium]], [[veillonellaceae]], [[rumminococcaceae]]
+- **Five dominant dysbiotic taxa** identified: [[subdoligranulum]], [[faecalibacterium-prausnitzii|faecalibacterium-praushitzii]], [[faecalibacterium-prausnitzii|faecalibacterium]], [[veillonellaceae]], [[ruminococcaceae|rumminococcaceae]]
 - **Nickel transport system** is the primary differential metabolic pathway in ASD microbiota
 - **Decreased ornithine, elevated valine** in serum—marker of dysregulated metabolic exchange between microbiota and host
 - **Functional dysbiosis** manifests as altered galactose metabolism capacity
@@ -32,13 +32,13 @@ Non-randomized controlled study (30 ASD, 30 neurotypical controls):
 
 **Microbiota profiling (metagenomic sequencing):**
 - ASD microbiota: lower richness, higher evenness (dominance by fewer taxa)
-- Significantly reduced: [[deinococcus-thermus]], [[deinococcus]], [[holophagae]]
+- Significantly reduced: [[deinococcus|deinococcus-thermus]], [[deinococcus]], [[dysbiosis|holophagae]]
 - Five dominant altered species identified (LDA score > 2.0, P < 0.05)
 
 **Functional analysis:**
 - **Nickel transport system** significantly enriched in ASD microbiota—key finding implicating [[nickel]] metabolism
 - Galactose metabolism pathway disrupted
-- Microbial metabolism in diverse environments pathway negatively correlated with [[phascolarctobacterium-succinatutens]]
+- Microbial metabolism in diverse environments pathway negatively correlated with [[short-chain-fatty-acids|phascolarctobacterium-succinatutens]]
 
 **Metabolome findings:**
 - Ornithine (amino acid) significantly decreased in ASD sera

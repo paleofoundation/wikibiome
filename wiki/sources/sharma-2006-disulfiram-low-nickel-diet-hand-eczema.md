@@ -16,7 +16,7 @@ karen_brain_primitives: [4]
 
 ## Key Claims
 
-- Combined [[disulfiram]] (nickel-chelating agent) and [[low-nickel-diet]] therapy achieved complete healing in 90.9% (10/11) of nickel-sensitive patients with chronic vesicular hand eczema after 4 weeks
+- Combined [[pharmacomicrobiomics|disulfiram]] (nickel-chelating agent) and [[low-nickel-diet]] therapy achieved complete healing in 90.9% (10/11) of nickel-sensitive patients with chronic vesicular hand eczema after 4 weeks
 - Only 10% (1/10) of the placebo/normal diet control group showed improvement at 4 weeks
 - The improvement was statistically significant (P<0.001) and sustained during the 12-week follow-up with only 2 patients requiring a repeat one-week disulfiram course
 - Disulfiram (tetraethyl thiuram disulphide) chelates nickel in the body, and its metabolite diethyldithiocarbamate causes excretion through urine, bile, and sweat

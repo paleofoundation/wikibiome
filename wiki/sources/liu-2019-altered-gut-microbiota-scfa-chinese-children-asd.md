@@ -41,7 +41,7 @@ Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and
 ### Enriched in ASD (LEfSe)
 - **[[veillonellaceae|Veillonellaceae]]** and **[[enterobacteriaceae]]**: significantly enriched
 - [[dysbiosis|Acidobacteria]], [[enterobacteriaceae]], [[pseudomonas-aeruginosa|Pseudomonadaceae]]: increased
-- [[Megamonas]]: overrepresented in ASD
+- [[megasphaera|Megamonas]]: overrepresented in ASD
 
 ### Depleted in ASD
 - **[[ruminococcaceae|Ruminococcaceae]]**, **[[streptococcus|Streptococcaceae]]**, **[[eubacterium]]**: reduced within Firmicutes
@@ -62,7 +62,7 @@ Integrated 16S rRNA gene sequencing and fecal SCFA analysis of **30 autistic and
 
 - Constipation significantly higher in ASD (26.7% moderate + 3.3% severe vs 5% in controls, p = 0.035)
 - Constipated ASD microbiota diverged from non-constipated ASD on weighted UniFrac (beta diversity)
-- **[[fusobacterium]]**, [[parabacteroides|Barnesiella]], [[Coprobacter]], [[Olsenella]], [[allisonella]], [[actinomyces|Actinomycetaceae]]: associated with constipated ASD
+- **[[fusobacterium]]**, [[parabacteroides|Barnesiella]], [[parabacteroides|Coprobacter]], [[olsenella|Olsenella]], [[allisonella]], [[actinomyces|Actinomycetaceae]]: associated with constipated ASD
 - [[holdemanella|Holdemanella]] overrepresented in non-constipated ASD
 
 # Relevance to Metallomic Framework

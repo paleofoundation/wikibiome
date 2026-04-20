@@ -88,7 +88,7 @@ why_keystone: "Synthesizes the carcinogenic and neurotoxic mechanisms of mercury
 # Connections
 
 - Foundational reference for [[heavy-metals|metal-toxicology]] mechanisms across all five metals
-- [[oxidative-stress|oxidative stress]] as unifying mechanism connects to [[Khan & Wang 2020|khan-2020-environmental-exposures-autoimmune-gut-microbiome]] autoimmune disease framework
+- [[oxidative-stress|oxidative stress]] as unifying mechanism connects to [[khan-2020-environmental-exposures-autoimmune-gut-microbiome|khan-2020-environmental-exposures-autoimmune-gut-microbiome]] autoimmune disease framework
 - Lead-heme biosynthesis disruption relevant to [[lead|Lead Toxicity]] and anemia
 - Chromium carcinogenicity connects to [[nickel-allergy|nickel-toxicity]] (shared carcinogenic mechanisms via epigenetics)
 - Cadmium-metallothionein pathway connects to [[breton-2016-cadmium-lead-oral-exposure-colitis|breton-2016-cadmium-lead-oral-exposure-colitis]] MT induction findings

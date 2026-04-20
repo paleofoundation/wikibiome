@@ -34,6 +34,6 @@ karen_brain_primitives: [5]
 # Connections
 
 - [[dysbiosis]] with elevated Firmicutes/Bacteroidetes ratio parallels findings in other [[pancreatic-cancer]] microbiome studies
-- Links [[microbiome and gut-brain axis]] to neuropsychological outcomes in pancreatic disease
+- Links [[gut-brain-axis|microbiome and gut-brain axis]] to neuropsychological outcomes in pancreatic disease
 - Reduced *Lactobacillus* and *Bifidobacterium* in mucinous neoplasms relevant to [[probiotics]] intervention strategies
 - Inflammatory marker elevation connects to [[inflammation|microbiome and inflammation]] pathways in pancreatic cancer

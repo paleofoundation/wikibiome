@@ -43,7 +43,7 @@ karen_brain_primitives: [1, 2]
 
 ## Connections
 
-- Richness findings in HT contrast with [[gong-2024-iodine-intake-gut-microbiota-metabolites-hashimotos]] which found significantly reduced observed species in HT
+- Richness findings in HT contrast with [[gong-2024-iodine-gut-microbiota-hashimotos|gong-2024-iodine-intake-gut-microbiota-metabolites-hashimotos]] which found significantly reduced observed species in HT
 - Prevotella and Bifidobacterium enrichment in HT connects to [[liu-2022-gut-microbiota-diversity-hashimotos]] and [[zhao-2022-gut-microbiota-graves-disease-hashimotos]]
-- TPOAb-bacterial load correlation supports immune-microbiome crosstalk in [[pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian-randomization]]
+- TPOAb-bacterial load correlation supports immune-microbiome crosstalk in [[pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian|pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian-randomization]]
 - SCFA-thyroid axis discussed here is expanded in [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]]

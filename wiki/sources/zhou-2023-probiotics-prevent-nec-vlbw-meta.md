@@ -42,7 +42,7 @@ Network meta-analysis of 27 randomized controlled trials. Outcome: NEC incidence
 
 ## Relevance to Cureva
 
-- **Intervention page:** [[lactoferrin-probiotic-combination]] — triangle: I→f (iron restriction + competitive colonization), I→D (RCT meta-analysis, strongest evidence), f→D (mechanistic link via siderophore restriction and SCFA recovery).
+- **Intervention page:** [[lactoferrin|lactoferrin-probiotic-combination]] — triangle: I→f (iron restriction + competitive colonization), I→D (RCT meta-analysis, strongest evidence), f→D (mechanistic link via siderophore restriction and SCFA recovery).
 - **Karen's Brain primitives:** 2 (nutritional immunity), 4 (Achilles' heel — iron dependency), 5 (two-sided — suppress Enterobacteriaceae, restore Bifidobacterium), 8 (siderophore competition).
 
 ## Open Questions

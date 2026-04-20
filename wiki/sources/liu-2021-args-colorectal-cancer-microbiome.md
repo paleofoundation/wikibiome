@@ -38,5 +38,5 @@ karen_brain_primitives: [5, 9]
 - ARG enrichment in CRC patients raises questions about antibiotic use as a CRC risk factor, directly connecting to [[simin-2020-antibiotic-use-crc-risk|Simin 2020 - Antibiotic Use CRC Risk]] meta-analysis
 - E. coli as primary ARG reservoir connects to [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of E. coli colibactin as a CRC-promoting genotoxin
 - Butyrate-producing species (F. prausnitzii, Anaerobutyricum) depleted in CRC link to [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] and [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] probiotic/FMT restoration strategies
-- Species-level analysis complements [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] microbiome-as-biomarker discussion
+- Species-level analysis complements [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] microbiome-as-biomarker discussion
 - [[colorectal-cancer]]

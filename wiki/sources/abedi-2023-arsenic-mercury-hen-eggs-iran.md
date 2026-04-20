@@ -42,7 +42,7 @@ key_findings:
 
 - [[arsenic]] entity — eggs as dietary As source; moderate relative to rice.
 - [[mercury]] entity — egg Hg tracks feed contamination.
-- [[poultry]] / [[eggs]] entity — often overlooked contamination vector; feed-water-industrial waste pathway.
+- [[dietary-metal-microbiome-interactions|poultry]] / [[dietary-metal-microbiome-interactions|eggs]] entity — often overlooked contamination vector; feed-water-industrial waste pathway.
 - [[dietary-arsenic-exposure|inorganic-arsenic]] concept — total As vs speciated As in animal products.
 
 ## Relevance to Cureva

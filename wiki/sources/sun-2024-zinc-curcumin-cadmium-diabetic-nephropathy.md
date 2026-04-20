@@ -53,7 +53,7 @@ why_keystone: Mechanistically shows that cadmium accelerates diabetic nephropath
 - **Cadmium aggravates diabetic nephropathy**: Cd exposure in STZ-induced diabetic mice activated the TLR4/NF-kB inflammatory pathway, worsening renal damage and dysbiosis simultaneously (Sun et al. 2024, animal model, n=32)
 - **Zn/Cd ratio as biomarker**: The zinc-to-cadmium ratio was identified as a critical biomarker — Cd downregulated the ZIP14 zinc transporter, reducing zinc bioavailability and creating a functional zinc deficiency even with normal dietary zinc intake
 - **Zn(II)-curcumin reversal via microbiome**: A zinc-curcumin complex reversed Cd-induced dysbiosis and nephropathy. FMT from Zn(II)-curcumin-treated mice into untreated diabetic mice reproduced the protective effect, confirming microbiome mediation
-- **Dysbiosis pattern**: Cd exposure depleted **[[ruminococcaceae]]** (butyrate producers) and shifted **[[bacteroidales]]** composition, paralleling the SCFA depletion seen in T1D
+- **Dysbiosis pattern**: Cd exposure depleted **[[ruminococcaceae]]** (butyrate producers) and shifted **[[bacteroides-fragilis|bacteroidales]]** composition, paralleling the SCFA depletion seen in T1D
 
 ## Relevance to WikiBiome
 

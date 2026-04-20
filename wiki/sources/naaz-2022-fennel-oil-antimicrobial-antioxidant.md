@@ -42,8 +42,8 @@ Fennel plants grown in 1:4 earthen:soil ratio; ISA applied as foliar spray at 0,
 
 ## Relevance to WikiBiome
 
-- [[fennel]] entity/concept — antimicrobial essential oil.
-- [[trans-anethole]] concept — dominant fennel bioactive.
+- [[polyphenols|fennel]] entity/concept — antimicrobial essential oil.
+- [[polyphenols|trans-anethole]] concept — dominant fennel bioactive.
 - [[polyphenols|essential-oils]] concept — broad-spectrum activity at low MICs.
 
 ## Relevance to Cureva

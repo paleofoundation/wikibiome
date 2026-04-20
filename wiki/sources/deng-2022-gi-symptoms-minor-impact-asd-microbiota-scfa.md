@@ -46,8 +46,8 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 
 ### Enriched in ASD (LEfSe, LDA > 4)
 - **[[veillonellaceae|Veillonellaceae]]**, **Selenomonadales**
-- **[[Agaribacter]]**, **[[Massilia]]**
-- **[[Oxalobacteraceae]]**, **Burkholderiales**
+- **[[dysbiosis|Agaribacter]]**, **[[dysbiosis|Massilia]]**
+- **[[dysbiosis|Oxalobacteraceae]]**, **Burkholderiales**
 - **[[dysbiosis|Gammaproteobacteria]]**, **[[proteobacteria]]**
 
 ### Enriched in TD
@@ -59,13 +59,13 @@ Integrated 16S rRNA sequencing and fecal SCFA (GC-MS) study of **45 ASD and 45 T
 
 - Butyric acid moderately **negatively correlated with SRS** (-0.47)
 - Butyric acid moderately **positively correlated with CSHQ** (0.47)
-- Metastat analysis: [[Massilia]], [[Megamonas]], [[Sphingomonas]], [[Agaribacter]] more abundant in ASD
+- Metastat analysis: [[dysbiosis|Massilia]], [[megasphaera|Megamonas]], [[dysbiosis|Sphingomonas]], [[dysbiosis|Agaribacter]] more abundant in ASD
 - [[bacteroidetes]] and [[blautia]] less abundant in ASD
 
 ## Metastat/FAPROTAX Functional Profiling
 
 - Alpha diversity significantly positively correlated with eating behaviors
-- [[Hydrogenedentes]], [[Elusimicrobia]], [[Methylomirabilota]], Crenarchaeota, [[Halobacteria]], [[Chloroflexi]], Actinobacteria, [[campylobacter-jejuni]] strongly associated with SCFAs
+- [[dysbiosis|Hydrogenedentes]], [[dysbiosis|Elusimicrobia]], [[dysbiosis|Methylomirabilota]], Crenarchaeota, [[methanobrevibacter-smithii|Halobacteria]], [[dysbiosis|Chloroflexi]], Actinobacteria, [[campylobacter-jejuni]] strongly associated with SCFAs
 - Elusimicrobia negatively associated with SRS score
 
 # Relevance to Metallomic Framework

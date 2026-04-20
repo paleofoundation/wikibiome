@@ -38,5 +38,5 @@ karen_brain_primitives: [5]
 - Complements [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] which focuses on Treg cell mechanisms in colitis-associated cancer
 - Immune cell infiltration findings connect to [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of FMT enhancing ICB therapy
 - Bacterial correlations with cytokines provide specific therapeutic targets relevant to [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]] microbiome modulation
-- The Firmicutes/Bacteroidetes ratio normalization parallels dysbiosis patterns in [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- The Firmicutes/Bacteroidetes ratio normalization parallels dysbiosis patterns in [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[colorectal-cancer]]

@@ -39,10 +39,10 @@ RISK cohort: 1,276 pediatric IBD patients at diagnosis across 28 North American 
 
 ## Relevance to WikiBiome
 
-- Supports [[crohns-disease]] and [[pediatric-crohns]] entity pages.
+- Supports [[crohns-disease]] and [[crohns-disease|pediatric-crohns]] entity pages.
 - Informs [[oxidative-stress|duox2]] concept page — NADPH oxidase family enzyme producing H₂O₂ as innate antimicrobial defense; elevated DUOX2 in iCD suggests ongoing oxidative host response to Enterobacteriaceae/Pasteurellaceae burden.
 - Feeds [[cardiovascular-disease|apoa1]] concept/entity — reduced APOA1 in ileal CD links lipid homeostasis and anti-inflammatory HDL function to disease.
-- Supports the thesis that [[enterobacteriaceae]], [[pasteurellaceae]], [[fusobacteriaceae]] are the trio enriched in CD ileum.
+- Supports the thesis that [[enterobacteriaceae]], [[haemophilus|pasteurellaceae]], [[fusobacterium-nucleatum|fusobacteriaceae]] are the trio enriched in CD ileum.
 
 ## Relevance to Cureva
 

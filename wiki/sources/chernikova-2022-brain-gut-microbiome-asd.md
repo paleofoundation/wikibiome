@@ -6,7 +6,10 @@ updated: 2026-04-09
 authors: [Michelle A. Chernikova, Genesis D. Flores, Emily Kilroy, Jennifer S. Labus, Emeran A. Mayer, Lisa Aziz-Zadeh]
 year: 2022
 journal: "Nutrients"
-doi: "10.3390/nu14071459"
+doi: "10.3390/nu13124497"
+pmid: "34960049"
+doi_verified: 2026-04-19
+doi_verified_source: pubmed
 tags: [autism, brain-gut-microbiome, mechanisms, dysbioisis, neuroimaging, sensorimotor]
 library_category: mechanistic-insights
 platform: wikibiome

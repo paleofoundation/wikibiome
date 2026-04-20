@@ -35,7 +35,7 @@ karen_brain_primitives: [3]
 
 # Connections
 
-- Supports the role of [[insulin-resistance]] as a driver of PCOS symptoms via [[hyperinsulinemia]] and androgen excess
+- Supports the role of [[insulin-resistance]] as a driver of PCOS symptoms via [[insulin-resistance|hyperinsulinemia]] and androgen excess
 - Early evidence for [[ketogenic-diet]] as a therapeutic approach for PCOS, later expanded by [[tsushima-2024-ketogenic-diet-pcos-fertility]]
 - Relates to broader [[low-carbohydrate-diet]] evidence for PCOS including [[mei-2022-mediterranean-low-carb-pcos]]
 - Connects to [[dietary-metal-microbiome-interactions|dietary intervention]] strategies targeting [[metabolic-syndrome|weight loss]] and [[metabolic-syndrome|metabolic syndrome]] in PCOS

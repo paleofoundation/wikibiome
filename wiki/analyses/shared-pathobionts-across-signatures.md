@@ -95,7 +95,7 @@ This cross-signature analysis supports three conclusions:
 
 ## Connections
 
-- [[iron-supplementation-stops-across-conditions]] — the clinical consequence of the shared iron-dependent pathobiont pattern
+- [[iron-management|iron supplementation STOPs]] — the clinical consequence of the shared iron-dependent pathobiont pattern
 - [[metal-disease-matrix]] — the comprehensive metal-disease interaction landscape
 - [[dietary-metal-paradoxes]] — paradoxes arising from shared dietary metal sources
 - [[nutritional-immunity]] — the host defense that pathobionts are evolved to overcome

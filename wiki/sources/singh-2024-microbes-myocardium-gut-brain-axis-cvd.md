@@ -36,9 +36,9 @@ karen_brain_primitives: [5]
 
 # Connections
 
-- Central reference for [[microbiome and gut-brain axis]] in [[cardiovascular-disease]]
+- Central reference for [[gut-brain-axis|microbiome and gut-brain axis]] in [[cardiovascular-disease]]
 - Autonomic nervous system regulation connects to [[inflammation|microbiome and immune system]] in CVD
 - Therapeutic strategies extend [[probiotics]], [[fecal-microbiota-transplant]], and [[pharmacomicrobiomics|microbiome-modulating drugs]] approaches
 - Stress-CVD-microbiome triad relevant to [[comorbidities]] and [[dysbiosis|microbiome and disease progression]]
-- Brain region-cardiovascular mapping informs [[microbiome and neuroinflammation]] research
+- Brain region-cardiovascular mapping informs [[neuroinflammation|microbiome and neuroinflammation]] research
 - Psychobiotics concept bridges [[pharmacomicrobiomics|antidepressants]] and microbiome-based CVD interventions

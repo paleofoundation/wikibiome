@@ -39,7 +39,7 @@ Two-sample bidirectional Mendelian randomization. Exposure: 731 immune cell sign
 
 - Informs **[[schizophrenia]]** entity page: genetic-instrument evidence that immune dysregulation is **causal** for schizophrenia, not merely correlated.
 - Informs **[[inflammation|regulatory-t-cells]]** / **[[inflammation|treg]]** concept page: Tregs as neuropsychiatric protective factor.
-- Informs **[[immune-system-microbiome-brain-axis]]** concept page: supports the immune branch of the gut-brain-immune triangle.
+- Informs **[[gut-brain-axis|immune-system-microbiome-brain-axis]]** concept page: supports the immune branch of the gut-brain-immune triangle.
 
 # Relevance to Cureva
 

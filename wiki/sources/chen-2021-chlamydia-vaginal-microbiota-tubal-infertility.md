@@ -47,13 +47,13 @@ key_findings:
 - **[[lactobacillus-iners]]** — reinforce dysbiosis-marker status; confirms that iners-dominance is compatible with low diversity, active pathogen colonization, and tubal pathology.
 - **[[lactobacillus-crispatus]]** — confirm protective specificity: L. crispatus (not iners) is the Lactobacillus that restricts CT.
 - **[[female-infertility]]** entity page — add vaginal microbiome layer, document CT as a microbiome-modifying pathogen.
-- **[[tubal-infertility]]** — create/expand entity; microbiome signature distinct from general infertility.
+- **[[female-infertility|tubal-infertility]]** — create/expand entity; microbiome signature distinct from general infertility.
 - **[[pelvic-inflammatory-disease]]** — document upstream role of L. iners dominance.
 
 ## Relevance to Cureva
 
-- **[[female-infertility-signature]]** and **[[tubal-infertility-signature]]**: Add L. iners dominance and L. crispatus depletion as taxonomic signature components. Add IFN-γ/IL-10 elevation as immune layer.
-- **[[lactobacillus-crispatus-probiotic]]** intervention page: Triangle evidence — I→f (L. crispatus restoration displaces iners), I→D (reduces CT colonization), f→D (crispatus produces D-lactic acid + H₂O₂, restricts CT adhesion).
+- **[[female-infertility-signature]]** and **[[female-infertility|tubal-infertility-signature]]**: Add L. iners dominance and L. crispatus depletion as taxonomic signature components. Add IFN-γ/IL-10 elevation as immune layer.
+- **[[lactobacillus-crispatus|lactobacillus-crispatus-probiotic]]** intervention page: Triangle evidence — I→f (L. crispatus restoration displaces iners), I→D (reduces CT colonization), f→D (crispatus produces D-lactic acid + H₂O₂, restricts CT adhesion).
 - **STOP candidate — azithromycin alone for chronic CT + tubal infertility**: This study shows azithromycin fails to eradicate CT genome in 100% of treated patients and does not fully restore L. crispatus dominance. Practitioner guidance should combine azithromycin with Lactobacillus crispatus probiotic to restore the protective niche.
 
 ## Contradictions / Tensions

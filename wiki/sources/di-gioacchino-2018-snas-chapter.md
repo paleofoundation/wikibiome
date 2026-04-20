@@ -16,7 +16,7 @@ karen_brain_primitives: [5]
 
 ## Key Claims
 
-- [[nickel-allergy|systemic-nickel-allergy-syndrome]] (SNAS) affects approximately 20% of [[allergic contact dermatitis]] (ACD) patients and involves both Th1 and Th2 cytokine patterns
+- [[nickel-allergy|systemic-nickel-allergy-syndrome]] (SNAS) affects approximately 20% of [[nickel-allergy|allergic contact dermatitis]] (ACD) patients and involves both Th1 and Th2 cytokine patterns
 - SNAS is associated with lactose intolerance in 63-74% of patients, possibly due to nickel-induced brush border enzymatic impairment
 - Nickel oral hyposensitization (NiOHT) at 1.5 ug Ni/week is effective and has proven to reduce symptoms and medication needs; clinical benefits maintained for at least 1 year
 - The diagnosis of SNAS requires a positive [[nickel-allergy|oral nickel challenge]] after symptom improvement on a [[low-nickel-diet]]; the gold standard is the double-blind placebo-controlled oral nickel challenge

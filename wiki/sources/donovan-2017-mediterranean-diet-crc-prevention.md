@@ -37,7 +37,7 @@ karen_brain_primitives: [5]
 
 - Fiber-butyrate-NF-kB axis connects to [[cummings-1992-fecal-weight-colon-cancer-fiber|Cummings 1992 - Fecal Weight Colon Cancer Fiber]] and [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] NF-kB findings
 - n-3 fatty acid evidence directly builds on [[reddy-2002-omega3-fatty-acids-colon-cancer|Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]] COX-2 and ras-p21 mechanisms
-- MD effects on microbiome composition foreshadow [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] bile acid-gut microbiome axis hypothesis
+- MD effects on microbiome composition foreshadow [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] bile acid-gut microbiome axis hypothesis
 - Polyphenol/resveratrol anti-inflammatory effects connect to phenolic compound research applicable to [[gut-microbiome]] modulation
 - IBD-CRC connection relevant to [[simin-2020-antibiotic-use-crc-risk|Simin 2020 - Antibiotic Use CRC Risk]] inflammation-driven carcinogenesis discussion
 - [[colorectal-cancer]]

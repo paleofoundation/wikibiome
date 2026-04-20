@@ -46,14 +46,14 @@ Prospective case-control at Mayo Clinic (2013 IRB). 64 women undergoing hysterec
 - **[[ovarian-cancer]]** entity page — document that the OC signature is not limited to the upper reproductive tract; pathobiont enrichment spans vagina through stool. Add Dialister, Peptoniphilus, Facklamia hominis, Anaeroglobus geminatus as OC-enriched taxa.
 - **[[bacteroides-fragilis]]**, **[[fusobacterium-nucleatum]]**, **[[escherichia-coli]]** — enriched in high-grade OC LRT. Reinforces the cross-condition pattern (shared with CRC, endometriosis, breast cancer).
 - **[[lactobacillus-iners]]** — enriched in serous OC LRT. Consistent with L. iners as a dysbiosis marker rather than eubiosis marker.
-- **[[microbacterium-lacus]]** — depleted in OC ovaries, a novel ovarian-specific biomarker.
+- **[[dysbiosis|microbacterium-lacus]]** — depleted in OC ovaries, a novel ovarian-specific biomarker.
 - Concept — multi-site microbiome sampling as a clinical tool; microbiome as prognostic marker beyond CA-125.
 
 ## Relevance to Cureva
 
 - **Signature layer 2 (taxonomic)**: Adds confirmation of Dialister/Corynebacterium/Peptoniphilus/Prevotella enrichment on the [[ovarian-cancer-signature]]. Advance confidence for taxonomic layer.
 - **Prognostic stratification**: Microbiome-based risk stratification for treatment response — candidate for a Cureva decision-support signal (adverse events predicted by gasseri/ovatus enrichment patterns).
-- **Intervention targets**: Pathobionts enriched across sites (E. coli, F. nucleatum, B. fragilis in high-grade) suggest shared virulence-enzyme targets — [[beta-glucuronidase]], [[zinc-metalloprotease]], siderophore-mediated iron acquisition. Supports [[target-eco-niche-shared-with-crc]].
+- **Intervention targets**: Pathobionts enriched across sites (E. coli, F. nucleatum, B. fragilis in high-grade) suggest shared virulence-enzyme targets — [[beta-glucuronidase]], [[zinc-metalloprotease]], siderophore-mediated iron acquisition. Supports [[colorectal-cancer|target-eco-niche-shared-with-crc]].
 
 ## Contradictions / Tensions
 

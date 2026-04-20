@@ -19,7 +19,7 @@ karen_brain_primitives: [3]
 ## Key Claims
 
 - [[hashimotos-thyroiditis]] patients have intestinal microbial [[dysbiosis]], with the current study being among the first to characterize gut microbial composition in HT using multiple molecular methods
-- Declined abundance of [[Prevotella_9]] and [[dialister]] was observed, while elevated genera including [[escherichia-coli|Escherichia-Shigella]] and [[parasutterella]] were found in the diseased group
+- Declined abundance of [[prevotella|Prevotella_9]] and [[dialister]] was observed, while elevated genera including [[escherichia-coli|Escherichia-Shigella]] and [[parasutterella]] were found in the diseased group
 - Increased abundance of E. coli was confirmed at the species level in HT patients
 - The PCR-DGGE targeted V3 site of 16S rRNA gene and real-time PCR for [[bifidobacterium]], [[lactobacillus]], [[bacteroides-vulgatus]], and [[clostridium|Clostridium leptum]] were performed
 - Pyrosequencing of 16S rRNA gene with V4 location was performed on 20 randomly selected samples, revealing diversification of gut microbiota in HT compared to controls

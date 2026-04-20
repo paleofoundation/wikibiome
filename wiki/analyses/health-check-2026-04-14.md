@@ -1,6 +1,7 @@
 ---
 title: "Wiki Health Check — 2026-04-14"
 type: analysis
+platform: cureva
 created: 2026-04-14
 updated: 2026-04-14
 tags: [maintenance, health-check, lint, automated]

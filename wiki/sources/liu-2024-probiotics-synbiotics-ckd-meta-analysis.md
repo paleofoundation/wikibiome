@@ -2,7 +2,7 @@
 title: "Liu 2024 — Probiotics/Synbiotics in CKD: Meta-Analysis of 21 RCTs"
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-17
 authors: [Liu, Zhang, Chen, Li, Wang]
 year: 2024
 journal: "Frontiers in Nutrition"
@@ -28,6 +28,19 @@ key_findings:
 - **Neither indoxyl sulfate nor p-cresyl sulfate were significantly reduced**, contrasting with the fiber meta-analysis (Yang 2021) which did show IS/pCS reduction. This suggests generic probiotic supplementation does not adequately redirect tryptophan/tyrosine metabolism.
 - **No eGFR improvement** was observed, indicating probiotics do not reverse established renal function decline.
 - The CRP reduction is clinically relevant given the chronic inflammatory state in CKD, but the failure to reduce key uremic toxins limits the clinical utility of current probiotic formulations.
+
+## Methods
+
+- **Study design**: Systematic review and meta-analysis of randomized controlled trials
+- **Included studies**: 21 RCTs with a total of 869 CKD patients
+- **Interventions**: Probiotics and synbiotics (probiotic + prebiotic combinations)
+- **Outcomes**: BUN, creatinine, eGFR, CRP, indoxyl sulfate, p-cresyl sulfate
+- **Analysis**: Random-effects meta-analysis with standardized mean differences (SMD)
+- **Limitations**: Heterogeneity in probiotic strains, dosages, and treatment durations across included RCTs; most studies used generic multi-strain formulations rather than signature-informed strain selection
+
+## Detailed Summary
+
+Liu et al. pool data from 21 RCTs to assess the efficacy of probiotics and synbiotics in CKD. The results reveal a nuanced picture: probiotics reduce BUN (reflecting improved nitrogen metabolism) and CRP (reflecting reduced systemic inflammation), but fail to reduce the key uremic toxins indoxyl sulfate and p-cresyl sulfate, and do not improve eGFR. This disconnect is informative -- it suggests that generic probiotic supplementation can modulate systemic inflammation (possibly through barrier restoration and immune signaling) but cannot adequately redirect the specific microbial metabolic pathways that generate IS and pCS. These pathways require specific taxa (tryptophanase-expressing indole producers, tyrosine-fermenting phenol producers) to be suppressed or outcompeted, which generic Bifidobacterium/Lactobacillus formulations may not achieve. The contrast with Yang 2021 (where dietary fiber successfully reduced IS and pCS) suggests that substrate modification is more effective than organism introduction for uremic toxin reduction.
 
 ## Relevance to WikiBiome
 

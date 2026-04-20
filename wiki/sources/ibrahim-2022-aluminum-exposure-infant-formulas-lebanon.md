@@ -36,7 +36,7 @@ karen_brain_primitives: [3]
 ## Connections
 
 - HQ >1 finding contrasts with where all THQ/HI <1, highlighting [[aluminum]] as higher-risk contaminant than Cr/As/Cd/Pb in formula
-- Complements and [[de Paiva et al 2020 cereals]] Brazilian bioaccessibility data
+- Complements and [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility|de Paiva et al 2020 cereals]] Brazilian bioaccessibility data
 - Lower Al levels than prescription formula findings in the UK
 - Supports call for age-specific regulatory limits and continuous monitoring
 - PTWI framework consistent with and approaches

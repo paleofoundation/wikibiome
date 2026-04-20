@@ -39,7 +39,7 @@ karen_brain_primitives: [3]
 # Connections
 
 - Provides context for [[rokoff-2023-metal-mixtures-maternal-depression]] which found weak metal-depression associations in Project Viva
-- Supports the hypothesis that [[endocrine disrupting chemicals]] during pregnancy may act through the [[gut-brain-axis|HPA axis]] and [[dopamine]] pathways
+- Supports the hypothesis that [[endocrine-disruptors|endocrine disrupting chemicals]] during pregnancy may act through the [[gut-brain-axis|HPA axis]] and [[dopamine]] pathways
 - Relevant to [[postpartum-depression]] etiology and environmental risk factors
 - Animal model evidence on maternal behavior complements human PPD studies like [[etebary-2010-ppd-serum-trace-elements]]
 - The paucity of metals research noted here underscores the need for studies like [[aoki-2022-zinc-supplementation-ppd-anemia]]

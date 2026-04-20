@@ -18,7 +18,7 @@ evidence_level: systematic-review-meta-analysis
 # Key Claims
 
 - A high-fiber diet (whole grains, traditional Chinese medicinal foods, prebiotics) alleviates the chronic metabolic inflammation, reproductive dysfunction, and brain-gut peptide secretion in [[pcos]] patients by remodeling [[gut-metal-microbiome|gut microbiota]]
-- Combining high-fiber diet with [[acarbose]] (an alpha-glucosidase inhibitor) produced superior improvements in [[hyperandrogenism]] and [[insulin-resistance]] compared to the fiber-only group
+- Combining high-fiber diet with [[acarbose-fiber-synergy|acarbose]] (an alpha-glucosidase inhibitor) produced superior improvements in [[hyperandrogenism]] and [[insulin-resistance]] compared to the fiber-only group
 - Gut microbiota co-abundance groups (CAGs) enriched by the intervention (predominantly Bifidobacterium and Lactobacillus) were negatively correlated with LH/FSH ratio, testosterone, FINS, and HOMA-IR
 - CAGs inhibited by the intervention (Bacteroides vulgatus, Alistipes) showed opposite correlations
 

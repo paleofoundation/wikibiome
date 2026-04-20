@@ -43,7 +43,7 @@ key_findings:
 - Establishes **formate** as a novel NEC pathogenicity metabolite — belongs as a concept/entity-level entry in the gut metabolite catalog.
 - Strengthens [[necrotizing-enterocolitis]] disease entity with a biochemical (not just taxonomic) mechanism: dysbiotic fermentation → formate accumulation → enterocyte injury.
 - Reinforces [[enterobacter-cloacae]] and [[klebsiella-pneumoniae]] as NEC-driving Enterobacteriaceae with specific metabolic pathways (pyruvate-formate lyase).
-- Feeds [[oxygen-state]] / ecological primitive #9: formate fermentation is a facultative-anaerobic pathway, dominant when oxygen ecology destabilizes.
+- Feeds [[hypoxia|oxygen-state]] / ecological primitive #9: formate fermentation is a facultative-anaerobic pathway, dominant when oxygen ecology destabilizes.
 
 ## Relevance to Cureva
 

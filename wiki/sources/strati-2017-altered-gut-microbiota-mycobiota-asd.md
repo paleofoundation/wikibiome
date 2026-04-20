@@ -19,7 +19,7 @@ karen_brain_primitives: [2, 4, 6, 8]
 
 # Overview
 
-Characterization of both **bacterial and fungal (mycobiota) gut communities** in 40 autistic vs 40 neurotypical Italian subjects using amplicon-based metataxonomic sequencing of 16S rRNA (V3-V5) and fungal ITS1. Found altered Firmicutes/Bacteroidetes ratio, enrichment of [[lactobacillus]], [[collinsella]], [[Corynebacterium]], and notably a trend toward doubled [[candida-albicans]] abundance in ASD. First study to characterize gut mycobiota in ASD.
+Characterization of both **bacterial and fungal (mycobiota) gut communities** in 40 autistic vs 40 neurotypical Italian subjects using amplicon-based metataxonomic sequencing of 16S rRNA (V3-V5) and fungal ITS1. Found altered Firmicutes/Bacteroidetes ratio, enrichment of [[lactobacillus]], [[collinsella]], [[corynebacterium|Corynebacterium]], and notably a trend toward doubled [[candida-albicans]] abundance in ASD. First study to characterize gut mycobiota in ASD.
 
 # Key Findings
 
@@ -32,7 +32,7 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 ### Enriched in ASD (LEfSe, LDA > 2.0)
 - **[[lactobacillus]]**
 - **[[collinsella]]**
-- **[[Corynebacterium]]**
+- **[[corynebacterium|Corynebacterium]]**
 - **[[dorea]]**
 
 ### Depleted in ASD
@@ -44,7 +44,7 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 
 ### Constipation Effects
 - [[escherichia-coli|Escherichia/Shigella]] and [[clostridium|Clostridium cluster XVIII]] significantly more abundant in constipated ASD (FDR p < 0.05)
-- [[Gemmiger]] anticorrelated with constipation (Spearman's r = -0.39, FDR p < 0.05)
+- [[dysbiosis|Gemmiger]] anticorrelated with constipation (Spearman's r = -0.39, FDR p < 0.05)
 - [[ruminococcus]] also anticorrelated with constipation (r = -0.36, FDR p < 0.05)
 - Constipation had significant effect on beta diversity in NT (p = 0.046) but not within ASD subjects
 
@@ -57,7 +57,7 @@ Characterization of both **bacterial and fungal (mycobiota) gut communities** in
 ### Key Fungal Genera
 - **[[aspergillus]]**: 24.2% AD vs 28% NT
 - **[[candida-albicans]]**: 37.7% AD vs 23.5% NT (>2x in ASD, but high dispersion; uncorrected p = 0.006, FDR p = 0.09)
-- **[[Penicillium]]**: 13.2% AD vs 23.5% NT
+- **[[mycobiome|Penicillium]]**: 13.2% AD vs 23.5% NT
 - **[[malassezia]]**: 3.05% AD vs 3.3% NT
 
 ### Candida Correlations

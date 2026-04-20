@@ -35,4 +35,4 @@ karen_brain_primitives: [7]
 - SSRI-microbiome disruption extends [[teng-2024-fluoxetine-colitis-intestinal-microenvironment]] to cancer risk context
 - Antibiotic resistance implications connect to [[liu-2021-args-colorectal-cancer-microbiome]] ARG enrichment in CRC
 - Dysbiosis-cancer pathway relates broadly to [[vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer]]
-- Hormonal disruption connects to [[wu-2024-sex-hormones-microbiota-crc]] estrogen-microbiome-CRC axis
+- Hormonal disruption connects to [[wu-2024-estrogens-androgens-microbiota-crc|wu-2024-sex-hormones-microbiota-crc]] estrogen-microbiome-CRC axis

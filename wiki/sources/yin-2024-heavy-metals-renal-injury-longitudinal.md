@@ -41,4 +41,4 @@ karen_brain_primitives: [3]
 - [[chromium]] nephrotoxicity via ROS production, cell apoptosis, mitochondrial dynamics disorder
 - [[cadmium]] damages proximal tubules via [[oxidative-stress|oxidative stress]] and mitochondrial dysfunction
 - [[lead]] activates NF-kappaB, renin-angiotensin system -- inflammatory kidney damage
-- Sex and smoking as effect modifiers relevant to [[environmental health disparities]]
+- Sex and smoking as effect modifiers relevant to [[environmental-metal-exposure|environmental health disparities]]

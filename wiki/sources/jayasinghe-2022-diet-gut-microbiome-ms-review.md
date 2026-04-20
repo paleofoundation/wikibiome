@@ -18,7 +18,7 @@ karen_brain_primitives: [5]
 ## Key Claims
 
 - The [[gut-brain-axis]] modulates MS pathogenesis through neuroanatomic, endocrine, humoral, metabolic, and immunologic bidirectional communication involving enteroendocrine cells (EECs), vagus nerve, and HPA axis
-- [[vitamin-d-supplementation]] supplementation in MS patients led to significant increases in MutT homolog 1, 8-oxoguanine glycosylase, and [[Nrf2]] expression, suggesting DNA repair gene activation; the CHOLINE trial showed cholecalciferol reduced new T1 lesions and slowed EDSS progression
+- [[vitamin-d-supplementation]] supplementation in MS patients led to significant increases in MutT homolog 1, 8-oxoguanine glycosylase, and [[nrf2|Nrf2]] expression, suggesting DNA repair gene activation; the CHOLINE trial showed cholecalciferol reduced new T1 lesions and slowed EDSS progression
 - [[dietary-metal-microbiome-interactions|Vitamin-A]] (retinoic acid) modulates Th17/Treg balance through RORgamma and Foxp3 pathways; combined vitamins A and C decrease proinflammatory cytokines and increase IL-10 and Nrf2 expression
 - Obesity increases BBB permeability through adipokine-mediated inflammation; leptin-deficient obese mice were resistant to EAE onset, and exogenous leptin administration reversed this protection
 - Propionic acid as add-on therapy decreased Th1 activity, increased Treg function, and reduced relapse rate, supporting the role of microbiome-derived [[short-chain-fatty-acids]] in MS treatment

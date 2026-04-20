@@ -1,6 +1,7 @@
 ---
 title: "WikiBiome Lint Report — 2026-04-14"
 type: analysis
+platform: cureva
 created: 2026-04-14
 updated: 2026-04-14
 tags: [lint, health-check, maintenance]
@@ -96,11 +97,11 @@ The `wiki/entities/pancreatic-cancer.md` page has a `subtype:` field appearing a
 
 A large number of wikilinks in signature pages point to pages that do not exist. 606 unique link targets could not be resolved. Examples:
 
-- `[[tnf-alpha]]`, `[[il-1beta]]`, `[[il-6]]` in `alzheimers-disease.md`
-- `[[firmicutes]]`, `[[pseudomonadota]]` in `autism-spectrum-disorder-signature.md`
+- `[[inflammation|TNF-α]]`, `[[inflammation|IL-1β]]`, `[[inflammation|IL-6]]` in `alzheimers-disease.md`
+- `[[firmicutes]]`, `[[dysbiosis|Pseudomonadota]]` in `autism-spectrum-disorder-signature.md`
 - `[[metformin]]`, `[[lactoferrin-supplementation]]`, `[[nac-supplementation]]` in `crohns-disease.md`
-- `[[dialister-invisus]]` in `colorectal-cancer.md`
-- `[[high-fiber-prebiotics]]`, `[[tributyrin]]` in `crohns-disease.md`
+- `[[dialister|Dialister invisus]]` in `colorectal-cancer.md`
+- `[[high-fiber-prebiotics]]`, `[[short-chain-fatty-acids|tributyrin]]` in `crohns-disease.md`
 
 Many of these are missing microbe entity stubs, missing concept pages for cytokines/immune molecules, or intervention pages not yet created. This is the highest-volume structural gap in the vault.
 

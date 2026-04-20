@@ -1,6 +1,7 @@
 ---
 title: "Adversarial Audit — 2026-04-19"
 type: analysis
+platform: cureva
 created: 2026-04-19
 ---
 

@@ -39,7 +39,7 @@ Prospective case-control at University of Florida NICU. 53 preterm infants (18 N
 
 - **Signature page:** [[necrotizing-enterocolitis-signature]] — foundational evidence for the pre-NEC Proteobacteria bloom and Bifidobacterium depletion pattern.
 - **Entity pages:** [[klebsiella-pneumoniae]], [[clostridium-perfringens]], [[escherichia-coli]], [[bifidobacterium]], [[proteobacteria]].
-- **Concept pages:** [[oxygen-state-ecological-determinant]] — facultative anaerobe bloom in oxygen-exposed preterm gut.
+- **Concept pages:** [[hypoxia|oxygen-state-ecological-determinant]] — facultative anaerobe bloom in oxygen-exposed preterm gut.
 
 ## Relevance to Cureva
 

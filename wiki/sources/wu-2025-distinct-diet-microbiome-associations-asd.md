@@ -41,8 +41,8 @@ key_findings: ["Poor dietary quality", "ASD children exhibit more pronounced die
 - Protein intake: 28 significant microbial associations in ASD
 - CCDI scores: 27 significant associations
 - Bean consumption: 18 significant associations
-- [[Lacrimispora amygdalina]]: specifically correlated with insufficient vitamin/mineral intake in ASD (coefficient > 0.5, qval < 0.1)
-- [[Massilioclostridium coli]] and [[escherichia-coli]]: exhibited inverse correlations with dietary metrics
+- [[clostridium|Lacrimispora amygdalina]]: specifically correlated with insufficient vitamin/mineral intake in ASD (coefficient > 0.5, qval < 0.1)
+- [[clostridium|Massilioclostridium coli]] and [[escherichia-coli]]: exhibited inverse correlations with dietary metrics
 
 **Emulsifier findings:**
 - Polysorbate-80 and carrageenan demonstrated stronger associations with microbial features in ASD children

@@ -22,6 +22,10 @@ key_findings:
   - "Symptom relief wanes requiring repeated FMT — maintenance therapy not cure"
 ---
 
+## Methods
+
+Open-label case series of 17 T1D patients with diabetic gastroenteropathy receiving repeated fecal microbiota transplantation from healthy donors. Primary outcome was change in GSRS-IBS score. Stool frequency and consistency tracked longitudinally. FMT administered via colonoscopy or nasojejunal tube with repeated courses at 3-6 month intervals when symptoms recurred. <!-- NEEDS VERIFICATION: exact FMT delivery method and dosing intervals -->
+
 ## Key Findings
 
 - **First direct FMT trial in T1D**: This is the only study to date performing fecal microbiota transplantation directly in T1D patients for gastrointestinal symptoms, rather than in animal models or T2D patients (Hoyer et al. 2025, case series, n=17)

@@ -19,7 +19,7 @@ evidence:
   - jangi-2016-gut-microbiome-alterations-ms
   - thirion-2023-gut-microbiota-ms-disease-activity
 evidence_level: "cross-sectional"
-alternative: "Support nutritional immunity with [[lactoferrin]] or transferrin support; address underlying dysbiosis via [[ketogenic-diet-ms]] or [[b-cell-depletion-therapy-ms]]; if iron absolutely required, co-administer with iron-restricting agents (hepcidin inducers) only in monitored setting"
+alternative: "Support nutritional immunity with [[lactoferrin]] or transferrin support; address underlying dysbiosis via [[ketogenic-diet|ketogenic-diet-ms]] or [[autoimmunity|b-cell-depletion-therapy-ms]]; if iron absolutely required, co-administer with iron-restricting agents (hepcidin inducers) only in monitored setting"
 karen_brain_primitives: [1, 2, 4, 8]
 ---
 

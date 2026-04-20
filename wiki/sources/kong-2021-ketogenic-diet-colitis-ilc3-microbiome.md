@@ -37,6 +37,6 @@ karen_brain_primitives: [5]
 - Demonstrates diet as a modifiable factor for [[dysbiosis]] and [[inflammation]] in colitis
 - Akkermansia enrichment by KD connects to its known role in mucosal barrier protection
 - [[escherichia-coli]] expansion by LCD parallels pathogenic expansion seen in Crohn's disease
-- ILC3 reduction mechanism relevant to understanding innate immunity in IBD, complementing [[Haag & Siegmund 2015|haag-2015-intestinal-microbiota-innate-immunity-crohns]]
+- ILC3 reduction mechanism relevant to understanding innate immunity in IBD, complementing [[haag-2015-intestinal-microbiota-innate-immunity-crohns|haag-2015-intestinal-microbiota-innate-immunity-crohns]]
 - FMT proof-of-concept connects to [[probiotics]] and microbiome restoration strategies
 - [[crohns-disease]]

@@ -19,7 +19,7 @@ evidence:
   - becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility
   - bhargava-2020-bile-acid-metabolism-ms-neuroinflammation
 evidence_level: "quasi-experimental"
-alternative: "Combine SCFA supplementation WITH dysbiosis-reversal interventions: [[ketogenic-diet-ms]] to restore Clostridial SCFA producers, or [[b-cell-depletion-therapy-ms]] to reduce inflammatory selection pressure against dysbiosis-depleted taxa; also address secondary bile acid depletion with [[tudca]] supplementation"
+alternative: "Combine SCFA supplementation WITH dysbiosis-reversal interventions: [[ketogenic-diet|ketogenic-diet-ms]] to restore Clostridial SCFA producers, or [[autoimmunity|b-cell-depletion-therapy-ms]] to reduce inflammatory selection pressure against dysbiosis-depleted taxa; also address secondary bile acid depletion with [[bile-acid-metabolism|tudca]] supplementation"
 karen_brain_primitives: [5]
 ---
 

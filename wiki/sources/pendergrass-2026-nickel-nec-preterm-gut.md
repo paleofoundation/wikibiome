@@ -22,7 +22,7 @@ karen_brain_primitives: [1, 2, 4, 5, 9]
 ## Key Claims
 
 - Dietary nickel from infant formula (especially soy-based) may be a critical but overlooked contributor to necrotizing enterocolitis (NEC) pathogenesis in preterm infants
-- Key NEC-associated pathogens (E. coli, Klebsiella, Enterobacter, Citrobacter, Ureaplasma) all rely on [[nickel-dependent enzymes]]: urease, [NiFe]-hydrogenase, and glyoxalase I
+- Key NEC-associated pathogens (E. coli, Klebsiella, Enterobacter, Citrobacter, Ureaplasma) all rely on [[metal-dependent-virulence|nickel-dependent enzymes]]: urease, [NiFe]-hydrogenase, and glyoxalase I
 - Soy-based formula contains ~10x more nickel than cow's milk formula (0.45 vs 0.03 mg/L) and orders of magnitude more than human breast milk (0.005-0.016 mg/L)
 - Human breast milk is naturally nickel-poor, potentially as an evolved mechanism of [[nutritional-immunity|nutritional immunity]] -- starving Ni-dependent pathogens of their essential cofactor
 - Excess dietary nickel creates a positive feedback loop: Ni-fueled urease raises gut pH, favoring Proteobacteria over acid-producing commensals like Lactobacillus

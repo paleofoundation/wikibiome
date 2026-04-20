@@ -46,8 +46,8 @@ N. sativa seeds from Peshawar local market. 160 g ground seed extracted in 1000 
 
 ## Relevance to WikiBiome
 
-- [[nigella-sativa]] / [[black-seed]] entity/concept — thymoquinone-thymol phytochemistry.
-- [[thymoquinone]] concept — primary bioactive with anti-biofilm, anti-quorum-sensing activity.
+- [[polyphenols|nigella-sativa]] / [[polyphenols|black-seed]] entity/concept — thymoquinone-thymol phytochemistry.
+- [[polyphenols|thymoquinone]] concept — primary bioactive with anti-biofilm, anti-quorum-sensing activity.
 - [[polyphenols|thymol]] concept — phenolic monoterpenoid shared with oregano/thyme.
 - [[biofilm|quorum-sensing]] and [[biofilm]] concepts — natural-product disruption of virulence factors.
 

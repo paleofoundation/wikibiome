@@ -32,7 +32,7 @@ karen_brain_primitives: [5]
  - Indican significantly decreased in fermentative (p<0.001) and mixed (p=0.001) groups
  - Ni-OST (oral stimulation test) increased from median 1.8 to 4.0 mg (p=0.002), indicating reduced Ni sensitivity
  - Diet + probiotics: 72.73% reached eubiosis vs 41.38% with diet alone (p=0.026)
- - Overweight/obese males with mixed dysbiosis (grade II-III) were noted, consistent with the [[nickel-obesity]] hypothesis
+ - Overweight/obese males with mixed dysbiosis (grade II-III) were noted, consistent with the [[nickel-allergy|nickel-obesity]] hypothesis
 - **Limitations**: Observational design; small sample; urinary markers are indirect measures; benefits not sustained long-term
 
 ## Connections

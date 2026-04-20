@@ -38,6 +38,6 @@ karen_brain_primitives: [5]
 - Provides the epidemiological context for [[liu-2021-args-colorectal-cancer-microbiome|Liu 2021 - ARGs Colorectal Cancer Microbiome]] findings on enriched antibiotic resistance genes in CRC patients
 - Antibiotic-induced dysbiosis connects to [[xu-2022-fmt-antitumor-cancer-immunotherapy|Xu 2022 - FMT Antitumor Cancer Immunotherapy]] discussion of dysbiosis mechanisms in CRC carcinogenesis
 - Inflammation-cancer link reinforced here supports [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] colitis-to-cancer model
-- Broad-spectrum vs narrow-spectrum distinction relevant to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] antibiotic effects on radiotherapy microbiome
+- Broad-spectrum vs narrow-spectrum distinction relevant to [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] antibiotic effects on radiotherapy microbiome
 - Long latency period suggests chronic microbiome disruption, connecting to [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] rationale for probiotic restoration
 - [[colorectal-cancer]]

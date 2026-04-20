@@ -17,7 +17,7 @@ karen_brain_primitives: [7]
 
 ## Key Claims
 
-- [[graves-disease]] promotes [[depression]] through multiple mechanisms: triggering [[autoimmunity|autoimmune]] responses, inducing hormonal disorders, and influencing the [[thyroid-gut-microbiome-brain axis]]
+- [[graves-disease]] promotes [[depression]] through multiple mechanisms: triggering [[autoimmunity|autoimmune]] responses, inducing hormonal disorders, and influencing the [[gut-thyroid-axis|thyroid-gut-microbiome-brain axis]]
 - [[graves-disease|GD]] increases depression risk by disrupting neurotransmitter metabolism including [[serotonin]] (5-HT), [[dopamine]] (DA), and norepinephrine (NE) through inflammatory cytokine cascades
 - Proinflammatory cytokines (IL-1beta, IL-6, TNF-alpha) are significantly increased in GD patients and can cross the [[blood-brain-barrier]], activating microglia and promoting [[neuroinflammation]]
 - [[dysbiosis|Gut dysbiosis]] in GD can result in lower accessibility to 5-HT and activate host immune responses via the [[gut-brain-axis]], contributing to depressive behaviors

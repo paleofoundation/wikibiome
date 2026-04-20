@@ -34,7 +34,7 @@ This review synthesizes evidence for bacteriophage-driven gut [[dysbiosis]] as a
 
 ## Relevance to Gut-Metal-Microbiome Axis
 
-Phage-driven loss of SCFA-producing bacteria directly connects to metal [[dyshomeostasis]]. Butyrate and propionate maintain gut epithelial integrity and regulate [[iron]] absorption through modulation of [[HIF-2alpha]] and [[ferroportin]] expression. When phages eliminate these SCFA producers, [[iron]] absorption becomes dysregulated, contributing to the systemic and brain iron accumulation seen in [[parkinsons-disease]]. Additionally, SCFA depletion impairs [[zinc]]-dependent tight junction protein expression, increasing gut permeability to both metals and microbial products.
+Phage-driven loss of SCFA-producing bacteria directly connects to metal [[dyshomeostasis]]. Butyrate and propionate maintain gut epithelial integrity and regulate [[iron]] absorption through modulation of [[hypoxia|HIF-2alpha]] and [[ferroportin]] expression. When phages eliminate these SCFA producers, [[iron]] absorption becomes dysregulated, contributing to the systemic and brain iron accumulation seen in [[parkinsons-disease]]. Additionally, SCFA depletion impairs [[zinc]]-dependent tight junction protein expression, increasing gut permeability to both metals and microbial products.
 
 ## Limitations
 

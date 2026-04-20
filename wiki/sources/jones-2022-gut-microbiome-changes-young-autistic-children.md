@@ -51,6 +51,6 @@ Longitudinal study characterising both bacterial and fungal microbiome and **SCF
 
 # Connections
 
-- Early microbiome shifts connect to biomarker potential in [[zhao-2023-altered-gut-microbiota-biomarkers-asd]]
+- Early microbiome shifts connect to biomarker potential in [[zhao-2023-altered-gut-microbiota-biomarkers-asd-early-childhood|zhao-2023-altered-gut-microbiota-biomarkers-asd]]
 - SCFA findings complement [[coretti-2018-gut-microbiota-young-asd-children]]
 - Fungal component links to [[strati-2017-altered-gut-microbiota-mycobiota-asd]] mycobiome analysis

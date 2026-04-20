@@ -1,6 +1,7 @@
 ---
 title: "Author Outreach Campaign — Operational Plan"
 type: analysis
+platform: cureva
 created: 2026-04-15
 updated: 2026-04-15
 tags: [outreach, keystone, fundraising, authors, campaign, operations]

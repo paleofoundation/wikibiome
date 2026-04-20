@@ -21,7 +21,7 @@ evidence:
   - shi-2023-ppi-fungal-dysbiosis-gerd.md
   - park-2020-nerd-treatment-esophageal-microbiome.md
 evidence_level: "randomized-controlled-trial + cross-sectional + prospective-cohort"
-alternative: "Co-administer probiotics (Bifidobacterium + Lactobacillus strains) with PPI therapy (see [[probiotics-with-ppi-gerd]]). Consider dietary adjuncts: Mediterranean diet (47% lower GERD odds), low-carbohydrate diet (acid exposure reduced 5.1%→2.5%), soluble fiber supplementation. For mild GERD, evaluate whether dietary approaches alone can replace PPI. For all patients, minimize PPI duration and dose."
+alternative: "Co-administer probiotics (Bifidobacterium + Lactobacillus strains) with PPI therapy (see [[probiotics|probiotics-with-ppi-gerd]]). Consider dietary adjuncts: Mediterranean diet (47% lower GERD odds), low-carbohydrate diet (acid exposure reduced 5.1%→2.5%), soluble fiber supplementation. For mild GERD, evaluate whether dietary approaches alone can replace PPI. For all patients, minimize PPI duration and dose."
 karen_brain_primitives: [5, 6]
 ---
 

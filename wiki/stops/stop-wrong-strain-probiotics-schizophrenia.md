@@ -20,7 +20,7 @@ evidence:
   - ye-2025-gut-microbiota-interventions-schizophrenia-systematic-review-meta-analysis.md
   - ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct.md
 evidence_level: "systematic-review-meta-analysis"
-alternative: "Use validated multi-strain formulations containing L. acidophilus, B. bifidum, L. reuteri, L. fermentum (see [[multi-strain-synbiotic-schizophrenia]] and [[vitamin-d-probiotic-schizophrenia]]). The 12-strain synbiotic from Basafa-Roodi 2024 and the 4-strain + vitamin D combination from Ghaderi 2019 both showed significant benefit."
+alternative: "Use validated multi-strain formulations containing L. acidophilus, B. bifidum, L. reuteri, L. fermentum (see [[probiotics|multi-strain-synbiotic-schizophrenia]] and [[vitamin-d-supplementation|vitamin-d-probiotic-schizophrenia]]). The 12-strain synbiotic from Basafa-Roodi 2024 and the 4-strain + vitamin D combination from Ghaderi 2019 both showed significant benefit."
 karen_brain_primitives: [5]
 ---
 

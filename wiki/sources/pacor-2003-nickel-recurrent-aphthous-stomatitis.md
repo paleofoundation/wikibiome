@@ -16,7 +16,7 @@ karen_brain_primitives: [4]
 
 ## Key Claims
 
-- Ingested nickel may be the cause of [[recurrent aphthous stomatitis]] (RAS) in patients sensitized to the metal through prior contact, independent of direct oral contact with orthodontic appliances
+- Ingested nickel may be the cause of [[nickel-allergy|recurrent aphthous stomatitis]] (RAS) in patients sensitized to the metal through prior contact, independent of direct oral contact with orthodontic appliances
 - 70/380 (18.4%) RAS patients had a positive patch test to nickel sulphate; after orthodontic appliance removal, only 28/70 fully remitted, while 42/70 still had symptoms
 - Of 70 nickel-sensitive RAS patients who underwent oral DBPC, 32 (45.7%) had a positive challenge; the reactive doses were 2.5 mg (31 patients) and 5 mg (1 patient) of elemental nickel
 - Nickel appears to induce inflammation selectively at the target organ (oral mucosa) without necessarily causing skin reactions at other sites

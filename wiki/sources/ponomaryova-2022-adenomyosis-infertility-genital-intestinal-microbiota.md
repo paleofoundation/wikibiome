@@ -53,9 +53,9 @@ Case-control cultural microbiology study. 64 women with adenomyosis and infertil
 
 ## Relevance to Cureva
 
-- **[[adenomyosis-signature]]** (create or expand) — taxonomic layer: enriched E. coli, Candida, staphylococci, Peptostreptococcus, Atopobium, Fusobacterium; depleted Lactobacillus (>1000-fold), Bifidobacterium, Bacteroides.
+- **[[endometriosis|adenomyosis-signature]]** (create or expand) — taxonomic layer: enriched E. coli, Candida, staphylococci, Peptostreptococcus, Atopobium, Fusobacterium; depleted Lactobacillus (>1000-fold), Bifidobacterium, Bacteroides.
 - **Cross-condition overlap with [[endometriosis-signature]]**: both show E. coli, Fusobacterium, Peptostreptococcus enrichment and Lactobacillus depletion. Jaccard overlap estimate ≥0.5 — supports the "adenomyosis is an endometriosis-adjacent signature" framing.
-- **Cross-condition overlap with [[bacterial-vaginosis-signature]]** and **[[female-infertility|recurrent-implantation-failure]]**: shared enrichment of Atopobium vaginae, Gardnerella-associated markers, and diversity shift.
+- **Cross-condition overlap with [[bacterial-vaginosis|bacterial-vaginosis-signature]]** and **[[female-infertility|recurrent-implantation-failure]]**: shared enrichment of Atopobium vaginae, Gardnerella-associated markers, and diversity shift.
 - Intervention hypotheses:
   - Lactobacillus crispatus restoration (support vaginal eubiosis).
   - E. coli / Candida targeting via metallomic restriction (the [[siderophore-competition]] primitive — restrict iron availability).

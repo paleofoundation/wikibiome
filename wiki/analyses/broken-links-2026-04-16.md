@@ -1,3 +1,10 @@
+---
+title: "Broken Wikilinks — 2026-04-16"
+type: analysis
+platform: cureva
+created: 2026-04-16
+---
+
 # Broken Wikilinks — 2026-04-16
 
 Total pages with broken links: 957
@@ -10,20 +17,20 @@ Total pages with broken links: 957
 - [[clostridioides-difficile]]
 
 ## _template-signature
-- [[taxon-name]]
-- [[taxon]]
+- taxon
+- taxon
 
 ## alzheimers-disease
-- [[tnf-alpha]]
-- [[il-1beta]]
-- [[il-6]]
-- [[cd4+-t-cells]]
-- [[th1-cells]]
-- [[indole-derivatives]]
+- [[inflammation|TNF-α]]
+- [[inflammation|IL-1β]]
+- [[inflammation|IL-6]]
+- [[inflammation|CD4+ T cells]]
+- [[inflammation|Th1 cells]]
+- [[indoles|indole derivatives]]
 
 ## autism-spectrum-disorder
 - [[bacteroides]]
-- [[eubacterium-coprostanoligenes]]
+- [[bile-acid-metabolism|Eubacterium coprostanoligenes]]
 - [[zinc]]
 - [[lead]]
 - [[mercury]]
@@ -52,7 +59,7 @@ Total pages with broken links: 957
 ## chronic-kidney-disease
 - [[desulfovibrionales]]
 - [[clostridium|clostridiaceae]]
-- [[methanobacteria]]
+- [[methanobrevibacter-smithii|Methanobacteria]]
 - [[eubacterium-rectale]]
 - [[ruminococcus-bromii]]
 - [[cadmium]]
@@ -73,10 +80,10 @@ Total pages with broken links: 957
 - [[coprococcus]]
 - [[prevotella]]
 - [[akkermansia-muciniphila]]
-- [[Ruminococcus bromii]]
+- [[ruminococcus-bromii|Ruminococcus bromii]]
 - [[candida-albicans]]
 - [[saccharomyces]]
-- [[Ganoderma]]
+- [[mycobiome|Ganoderma]]
 - [[type-2-diabetes]]
 - [[cardiovascular-disease]]
 - [[depression]]
@@ -85,20 +92,20 @@ Total pages with broken links: 957
 - [[stop-probiotics-alone-uremic-toxins-ckd]]
 
 ## colorectal-cancer
-- [[dialister-invisus]]
+- [[dialister|Dialister invisus]]
 
 ## crohns-disease
 - [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]
 - [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]]
-- [[liu-2022-mendelian-cd-microbiome]]
-- [[zhang-2021-akkermansia-cd]]
-- [[tributyrin]]
+- [[liu-2022-fmt-restores-ckd-rats|liu-2022-mendelian-cd-microbiome]]
+- [[zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiome|zhang-2021-akkermansia-cd]]
+- [[short-chain-fatty-acids|tributyrin]]
 - [[metformin]]
-- [[xu-2023-oxidative-stress-cd]]
-- [[breton-2016-cd-pb-colitis]]
+- [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr|xu-2023-oxidative-stress-cd]]
+- [[breton-2016-cadmium-lead-oral-exposure-colitis|breton-2016-cd-pb-colitis]]
 - [[pascal-2017-cd-microbial-signature]]
-- [[brusaferro-2018-pediatric-cd-dysbiosis]]
-- [[wang-2024-ibd-virulence-factors]]
+- [[brusaferro-2018-gut-dysbiosis-paediatric-crohns|brusaferro-2018-pediatric-cd-dysbiosis]]
+- [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr|wang-2024-ibd-virulence-factors]]
 
 ## depression
 - [[anxiety]]
@@ -170,7 +177,7 @@ Total pages with broken links: 957
 - [[graves-ibd-mendelian-2023]]
 - [[graves-ra-mendelian-2021]]
 - [[antonelli-2016-graves-epidemiology]]
-- [[song-2023-graves-depression]]
+- [[song-2023-anti-pdl1-estradiol-mc38-colon-microbiome|song-2023-graves-depression]]
 - [[uncovering-causal-gut-thyroid-2024]]
 - [[maciejewski-2025-trace-elements-thyroid]]
 - [[yao-2023-oral-gut-thyroid-cancer]]
@@ -179,7 +186,7 @@ Total pages with broken links: 957
 - [[abraham-2005-drug-therapy-graves]]
 - [[preliminary-flora-changes-graves-2022]]
 - [[berberine-methimazole-graves-2021]]
-- [[mian-2022-diet-thyroid]]
+- [[mian-2022-editorial-diet-impair-thyroid-function|mian-2022-diet-thyroid]]
 - [[gluten-free-thyroiditis-2024]]
 - [[gut-microbiome-metabolites-graves-2022]]
 
@@ -210,16 +217,16 @@ Total pages with broken links: 957
 
 ## multiple-sclerosis
 - [[inflammatory-bowel-disease]]
-- [[akkermansia]]
-- [[clostridia-cluster-xiva]]
-- [[clostridia-cluster-iv]]
-- [[eubacterium-ventriosum]]
+- [[akkermansia-muciniphila|Akkermansia]]
+- [[clostridium|Clostridia cluster XIVa]]
+- [[clostridium|Clostridia cluster IV]]
+- [[eubacterium-rectale|E. ventriosum]]
 - [[chitotriosidase]]
-- [[sialic-acid]]
-- [[secondary-bile-acids]]
-- [[tryptophan-metabolites]]
-- [[b-cell-depletion-therapy]]
-- [[tudca]]
+- [[pathogen-metal-acquisition|sialic acid]]
+- [[bile-acid-metabolism|secondary bile acids]]
+- [[tryptophan|tryptophan metabolites]]
+- [[autoimmunity|b-cell-depletion-therapy]]
+- [[bile-acid-metabolism|tudca]]
 
 ## necrotizing-enterocolitis
 - [[klebsiella-pneumoniae]]
@@ -229,8 +236,8 @@ Total pages with broken links: 957
 
 ## obesity
 - [[cardiovascular-disease]]
-- [[depleted]]
-- [[tributyrin-supplementation]]
+- depleted
+- [[short-chain-fatty-acids|tributyrin supplementation]]
 
 ## ovarian-cancer
 - [[proteobacteria]]
@@ -247,27 +254,27 @@ Total pages with broken links: 957
 - [[pancreatic-cancer]]
 
 ## pancreatic-cancer
-- [[gammaproteobacteria]]
-- [[romboutsia]]
+- [[dysbiosis|Gammaproteobacteria]]
+- [[dysbiosis|romboutsia]]
 - [[senegalimassilia]]
 
 ## parkinsons-disease
-- [[lactic-acid-bacteria]]
+- [[lactobacillus|lactic acid bacteria]]
 
 ## pcos
 - [[cardiovascular-disease]]
 
 ## pmdd
-- [[anaerotaenia]]
+- [[dysbiosis|anaerotaenia]]
 - [[butyricicoccus]]
 - [[megasphaera]]
 
 ## postpartum-depression
-- [[alphaproteobacteria]]
+- [[dysbiosis|Alphaproteobacteria]]
 
 ## schizophrenia
-- [[succinivibrio]]
-- [[trichosporon]]
+- [[dysbiosis|Succinivibrio]]
+- [[trichosporon-asahii|Trichosporon]]
 - [[copper]]
 - [[zinc]]
 - [[iron]]
@@ -302,7 +309,7 @@ Total pages with broken links: 957
 
 ## _template-stop
 - [[dysbiosis|condition-name]]
-- [[intervention-page]]
+- intervention page
 
 ## stop-iodine-supplementation-graves
 - [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
@@ -315,16 +322,16 @@ Total pages with broken links: 957
 - [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 
 ## stop-scfa-replacement-without-dysbiosis-restoration-ms
-- [[tudca]]
-- [[triangle-test]]
+- [[bile-acid-metabolism|tudca]]
+- triangle test
 
 ## acidic-microenvironment
 - [[metal-carcinogenesis|cancer]]
-- [[primitive-9]]
-- [[candidiasis]]
-- [[chronic-wounds]]
+- [[hypoxia|primitive-9]]
+- [[candida-albicans|candidiasis]]
+- [[biofilm|chronic-wounds]]
 - [[nickel-transporters]]
-- [[primitive-3]]
+- [[mis-metallation|primitive-3]]
 
 ## ahr
 - [[autism-spectrum-disorder-signature]]
@@ -333,7 +340,7 @@ Total pages with broken links: 957
 - [[bile-acid-metabolism]]
 
 ## beta-glucuronidase
-- [[vulvovaginitis-recurrent]]
+- [[bacterial-vaginosis|vulvovaginitis-recurrent]]
 
 ## cuproptosis
 - [[ferroptosis]]
@@ -342,10 +349,10 @@ Total pages with broken links: 957
 - [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]
 
 ## dietary-arsenic-exposure
-- [[zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice]]
+- Zhang et al. 2015
 
 ## dietary-cadmium-exposure
-- [[zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice]]
+- Zhang et al. 2015
 
 ## dietary-iron-gut-ecology
 - [[siderophores]]
@@ -354,33 +361,33 @@ Total pages with broken links: 957
 - [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]]
 
 ## enterohepatic-circulation
-- [[primitive-7]]
+- [[estrobolome|primitive-7]]
 - [[cholestasis]]
-- [[drug-metabolism-variability]]
+- [[pharmacomicrobiomics|drug-metabolism-variability]]
 
 ## estrobolome
 - [[probiotics]]
 - [[metalloestrogens]]
 
 ## estrogen-recirculation
-- [[primitive-7]]
+- [[estrobolome|primitive-7]]
 - [[endometriosis|uterine-fibroids]]
-- [[menstrual-migraine]]
+- [[migraine|menstrual-migraine]]
 
 ## fermentative-metabolism
-- [[primitive-9]]
-- [[clostridium-cluster-iv]]
+- [[hypoxia|primitive-9]]
+- [[clostridium|clostridium-cluster-iv]]
 - [[clostridioides-difficile]]
 - [[adherent-invasive-e-coli]]
 - [[siderophores]]
 
 ## functional-shielding
-- [[primitive-6]]
+- [[functional-shielding|primitive-6]]
 - [[siderophores]]
-- [[chronic-pelvic-inflammatory-disease]]
-- [[neisseria-gonorrhoeae]]
-- [[diabetic-wounds]]
-- [[chronic-sinusitis]]
+- [[pelvic-inflammatory-disease|chronic-pelvic-inflammatory-disease]]
+- [[pelvic-inflammatory-disease|neisseria-gonorrhoeae]]
+- [[type-2-diabetes|diabetic-wounds]]
+- [[biofilm|chronic-sinusitis]]
 
 ## gut-metal-microbiome
 - [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]
@@ -406,7 +413,7 @@ Total pages with broken links: 957
 - [[nickel-allergy|Nickel-allergy]]
 - [[hashimotos-thyroiditis]]
 - [[rheumatoid-arthritis|Rheumatoid-arthritis]]
-- [[Asthma]]
+- [[inflammation|Asthma]]
 - [[depression]]
 - [[probiotics]]
 
@@ -444,23 +451,23 @@ Total pages with broken links: 957
 - [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]]
 
 ## nickel-glyoxalase
-- [[primitive-4]]
+- [[metal-dependent-virulence|primitive-4]]
 - [[nickel-transporters]]
 
 ## nickel-urease
-- [[nixa]]
-- [[ured]]
-- [[uree]]
-- [[uref]]
-- [[ureg]]
+- [[nickel-transporters|nixa]]
+- [[urease|ured]]
+- [[urease|uree]]
+- [[urease|uref]]
+- [[urease|ureg]]
 - [[gastric-ulcer]]
 - [[gastric-adenocarcinoma]]
-- [[malt-lymphoma]]
+- [[helicobacter-pylori|malt-lymphoma]]
 - [[edta]]
-- [[dithiocarbamate]]
+- [[metal-chelation-therapy|dithiocarbamate]]
 
 ## nife-hydrogenase
-- [[desulfomonas]]
+- [[desulfovibrio|desulfomonas]]
 - [[gastric-ulcer]]
 - [[gastric-adenocarcinoma]]
 - [[iron|hemochromatosis]]
@@ -475,7 +482,7 @@ Total pages with broken links: 957
 - [[tryptophan|tyrosine]]
 - [[histidine]]
 - [[tryptophan|aspartate]]
-- [[carbonate]]
+- [[metal-speciation|carbonate]]
 - [[adherent-invasive-e-coli]]
 - [[ferroportin]]
 
@@ -491,7 +498,7 @@ Total pages with broken links: 957
 - [[dietary-arsenic-exposure|rice]]
 
 ## aspergillus
-- [[infection-metallomics]]
+- [[metallomics|infection-metallomics]]
 
 ## bacteroides-thetaiotaomicron
 - [[intestinal-permeability|mucin]]
@@ -507,13 +514,13 @@ Total pages with broken links: 957
 
 ## candida-auris
 - [[ceruloplasmin]]
-- [[deferasirox]]
+- [[metal-chelation-therapy|deferasirox]]
 - [[enterococcus-faecium]]
 
 ## candida-tropicalis
 - [[candida-glabrata]]
 - [[serratia-marcescens]]
-- [[asca]]
+- [[crohns-disease|asca]]
 
 ## celiac-disease
 - [[proteobacteria]]
@@ -577,7 +584,7 @@ Total pages with broken links: 957
 - [[anxiety]]
 
 ## hungatella
-- [[metal-toxicity]]
+- [[heavy-metals|metal toxicity]]
 
 ## ibs
 - [[nickel-allergy|Nickel-allergy]]
@@ -643,7 +650,7 @@ Total pages with broken links: 957
 - [[anxiety]]
 
 ## pcos
-- [[endocrine-disruptor]]
+- [[endocrine-disruptors|endocrine-disruptor]]
 
 ## peptostreptococcus
 - [[biofilm|oral-gut-axis]]
@@ -675,7 +682,7 @@ Total pages with broken links: 957
 - [[gut-thyroid-axis|thyroid-hormone-metabolism]]
 
 ## streptococcus-thermophilus
-- [[lactobacillus-bulgaricus]]
+- [[lactobacillus|lactobacillus-bulgaricus]]
 - [[lactobacillus-rhamnosus]]
 
 ## ulcerative-colitis
@@ -690,7 +697,7 @@ Total pages with broken links: 957
 
 ## fmt-intervention
 - [[clostridioides-difficile|clostridioides-difficile-infection]]
-- [[roseburia-spp]]
+- [[roseburia|roseburia-spp]]
 - [[probiotics|colonization-resistance]]
 - [[short-chain-fatty-acids]]
 - [[intestinal-permeability|barrier-integrity]]
@@ -702,11 +709,11 @@ Total pages with broken links: 957
 - [[short-chain-fatty-acids|HDAC-inhibition]]
 - [[mitochondrial-dysfunction]]
 - [[short-chain-fatty-acids]]
-- [[nutritional-ketosis]]
+- [[ketogenic-diet|nutritional-ketosis]]
 
 ## mediterranean-diet
 - [[nickel-allergy|SNAS]]
-- [[nickel-allergic-contact-mucositis]]
+- [[nickel-allergy|nickel-allergic-contact-mucositis]]
 - [[ibs]]
 - [[gerd]]
 - [[dietary-metal-microbiome-interactions|omega-3-fatty-acids]]
@@ -737,8 +744,8 @@ Total pages with broken links: 957
 - [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]]
 
 ## abedi-2023-arsenic-mercury-hen-eggs-iran
-- [[poultry]]
-- [[eggs]]
+- [[dietary-metal-microbiome-interactions|poultry]]
+- [[dietary-metal-microbiome-interactions|eggs]]
 - [[dietary-arsenic-exposure|inorganic-arsenic]]
 
 ## abudawood-2021-antioxidant-heavy-metals-pcos
@@ -755,8 +762,8 @@ Total pages with broken links: 957
 - [[autoimmunity|molecular mimicry]]
 
 ## adhikari-2024-leafy-vegetables-heavy-metals-johannesburg
-- [[atmospheric-deposition]]
-- [[leafy-greens]]
+- [[environmental-metal-exposure|atmospheric-deposition]]
+- [[dietary-metal-microbiome-interactions|leafy-greens]]
 
 ## agarwal-2024-airborne-arg-mrg-ewaste-recycling
 - [[antimicrobial-resistance|antibiotic-resistance-genes]]
@@ -843,8 +850,8 @@ Total pages with broken links: 957
 - [[bacteroidetes]]
 - [[actinobacteria]]
 - [[thyroid-autoimmunity|thyroid peroxidase]]
-- [[gong-2024-iodine-intake-gut-microbiota-metabolites-hashimotos]]
-- [[pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian-randomization]]
+- [[gong-2024-iodine-gut-microbiota-hashimotos|gong-2024-iodine-intake-gut-microbiota-metabolites-hashimotos]]
+- [[pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian|pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian-randomization]]
 
 ## alnaim-2025-dietary-interventions-pediatric-gerd-systematic-review
 - [[gerd]]
@@ -865,7 +872,7 @@ Total pages with broken links: 957
 
 ## althomali-2024-heavy-metals-neurocognitive-systematic-review
 - [[heavy-metal-neurotoxicity]]
-- [[neurocognitive-assessment]]
+- [[gut-brain-axis|neurocognitive-assessment]]
 
 ## alves-2020-candida-adapting-survive-host-constraints
 - [[candida-glabrata]]
@@ -885,7 +892,7 @@ Total pages with broken links: 957
 - [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]]
 - [[chen-2022-16s-rrna-microbial-blood-parkinsons|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
 - [[ghosh-2023-heavy-metals-gut-barrier-integrity|Ghosh 2023 - Heavy Metals Gut Barrier Integrity]]
-- [[heavy metal exposure routes]]
+- [[environmental-metal-exposure|heavy metal exposure routes]]
 
 ## andrei-2020-copper-homeostasis-bacteria-ins-outs
 - [[iron-sulfur-clusters]]
@@ -901,10 +908,10 @@ Total pages with broken links: 957
 
 ## aquino-2012-cadmium-nickel-metalloestrogens
 - [[metalloestrogen]]
-- [[ERa]]
+- [[metalloestrogens|ERa]]
 - [[epigenetic-modifications|chromatin modifications]]
 - [[epigenetic-modifications|DNA methylation]]
-- [[aneuploidy]]
+- [[metal-carcinogenesis|aneuploidy]]
 - [[metalloestrogens]]
 
 ## arshad-2023-heavy-metals-rheumatoid-arthritis
@@ -913,9 +920,9 @@ Total pages with broken links: 957
 
 ## asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic
 - [[lactobacillus-iners]]
-- [[microbacterium-lacus]]
+- [[dysbiosis|microbacterium-lacus]]
 - [[ovarian-cancer-signature]]
-- [[target-eco-niche-shared-with-crc]]
+- [[colorectal-cancer|target-eco-niche-shared-with-crc]]
 
 ## atabilen-2022-dietary-interventions-ms-systematic-review
 - [[mediterranean-diet|Mediterranean-diet]]
@@ -933,7 +940,7 @@ Total pages with broken links: 957
 - [[iron|iron deficiency]]
 
 ## aziz-zadeh-2025-brain-activity-tryptophan-gut-metabolites-asd
-- [[PLP]]
+- [[tryptophan|PLP]]
 
 ## azizi-2017-systematic-review-drug-therapy-graves
 - [[oxidative-stress]]
@@ -958,7 +965,7 @@ Total pages with broken links: 957
 
 ## balali-mood-2021-toxic-mechanisms-five-heavy-metals
 - [[heavy-metals|metal-toxicology]]
-- [[Khan & Wang 2020]]
+- [[khan-2020-environmental-exposures-autoimmune-gut-microbiome|Khan & Wang 2020]]
 - [[lead|Lead Toxicity]]
 - [[nickel-allergy|nickel-toxicity]]
 - [[breton-2016-cadmium-lead-oral-exposure-colitis|Breton et al. 2016]]
@@ -1001,7 +1008,7 @@ Total pages with broken links: 957
 - [[metal-sensing]]
 
 ## bauer-2019-oregano-streptococcus-scfa-microbiota
-- [[oregano]]
+- [[polyphenols|oregano]]
 - [[polyphenols|carvacrol]]
 - [[polyphenols|thymol]]
 
@@ -1013,10 +1020,10 @@ Total pages with broken links: 957
 ## bellemartin-2024-gut-hormone-therapy-t2d-infertility-review
 - [[insulin-resistance|glp-1-receptor-agonists]]
 - [[gut-gonadal-axis]]
-- [[t2d-infertility-signature]]
-- [[phgg-partially-hydrolyzed-guar-gum-t2d-infertility]]
-- [[lactobacillus-casei-t2d]]
-- [[glp-1-agonist-reproductive-function]]
+- [[type-2-diabetes|t2d-infertility-signature]]
+- [[prebiotics|phgg-partially-hydrolyzed-guar-gum-t2d-infertility]]
+- [[lactobacillus|lactobacillus-casei-t2d]]
+- [[insulin-resistance|glp-1-agonist-reproductive-function]]
 
 ## benoit-2021-nickel-chelator-dmg-amyloid-beta
 - [[metal-chelation-therapy|metal-chelation]]
@@ -1097,7 +1104,7 @@ Total pages with broken links: 957
 - [[lead|Lead Toxicity]]
 - [[heavy-metals|metal-toxicology]]
 - [[inflammatory-bowel-disease]]
-- [[Intestinal Barrier Function]]
+- [[intestinal-permeability|Intestinal Barrier Function]]
 - [[gut-metal-microbiome|Gut Microbiome and Metal Exposure]]
 - [[heavy-metals|Metal Detoxification Mechanisms]]
 - [[amerikanou-2022-ibd-biomarkers-trace-metals|Amerikanou et al. 2022]]
@@ -1108,19 +1115,19 @@ Total pages with broken links: 957
 - [[nickel-allergy|Contact Dermatitis]]
 
 ## briffa-2020-heavy-metal-pollution-environment-toxicology
-- [[heavy metal toxicology]]
+- [[heavy-metals|heavy metal toxicology]]
 - [[nickel-allergy|nickel toxicity]]
 - [[metal-carcinogenesis|nickel carcinogenesis]]
 - [[dietary-nickel-exposure|nickel exposure limits]]
 - [[environmental-metal-exposure|occupational nickel exposure]]
-- [[Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]]
+- [[balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]]
 - [[agboola-2023-heavy-metals-leafy-vegetables-lagos|Agboola 2023 - Heavy Metals Leafy Vegetables Lagos]]
 - [[metal-homeostasis|bioavailability]]
 
 ## brock-2015-selenium-thyroid-autoimmunity
 - [[glutathione|glutathione peroxidases]]
 - [[selenium|thioredoxin reductases]]
-- [[iodothyronine deiodinases]]
+- [[selenium|iodothyronine deiodinases]]
 - [[hashimotos-thyroiditis]]
 - [[graves-disease]]
 
@@ -1134,10 +1141,10 @@ Total pages with broken links: 957
 
 ## brusaferro-2018-gut-dysbiosis-paediatric-crohns
 - [[autophagy]]
-- [[exclusive-enteral-nutrition]]
+- [[prebiotics|exclusive-enteral-nutrition]]
 - [[autoimmunity|nod2]]
 - [[crohns-disease-signature]]
-- [[interventions/exclusive-enteral-nutrition-crohns]]
+- [[prebiotics|exclusive enteral nutrition]]
 
 ## brylinski-2025-trace-elements-thyroid-diseases
 - [[hashimotos-thyroiditis]]
@@ -1147,13 +1154,13 @@ Total pages with broken links: 957
 - [[cobalt]]
 
 ## bucciero-2026-diet-ms-oxidative-stress-nrf2
-- [[Nrf2]]
-- [[EAE]]
+- [[nrf2|Nrf2]]
+- [[multiple-sclerosis|EAE]]
 - [[polyphenols|resveratrol]]
 - [[polyphenols|curcumin]]
 - [[mediterranean-diet|Mediterranean-diet]]
 - [[mediterranean-diet|Paleolithic-diet]]
-- [[G-quadruplexes]]
+- [[gene-regulation|G-quadruplexes]]
 - [[gordonibacter-urolithinfaciens|Gordonibacter-urolithinfaciens]]
 
 ## bushman-2025-nutrient-metals-bacteria-gut-infection
@@ -1168,7 +1175,7 @@ Total pages with broken links: 957
 
 ## cai-2018-hashimotos-neuroinflammation-emotional-alterations-mice
 - [[hashimotos-thyroiditis]]
-- [[frontal cortex]]
+- [[neuroinflammation|frontal cortex]]
 - [[inflammation|IL-1beta]]
 - [[inflammation|TNF-alpha]]
 - [[serotonin]]
@@ -1213,14 +1220,14 @@ Total pages with broken links: 957
 - [[iron|Iron deficiency]]
 - [[iron|anemia]]
 - [[female-infertility|pregnancy outcomes]]
-- [[fertility-lead-cadmium]]
-- [[heavy-metals-infertility-nhanes]]
+- [[female-infertility|fertility-lead-cadmium]]
+- [[female-infertility|heavy-metals-infertility-nhanes]]
 
 ## cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd
 - [[lachnospiraceae]]
 - [[neisseria-meningitidis|Neisseria]]
 - [[bacillus]]
-- [[Streptomyces]]
+- [[actinomyces|Streptomyces]]
 - [[short-chain-fatty-acids]]
 - [[p-cresol]]
 
@@ -1240,7 +1247,7 @@ Total pages with broken links: 957
 
 ## casaburi-2022-formate-nec-enteric-dysbiosis-metabolic-model
 - [[enterobacter-cloacae]]
-- [[oxygen-state]]
+- [[hypoxia|oxygen-state]]
 
 ## casanova-2020-comorbidity-autism-editorial
 - [[strati-2017-altered-gut-microbiota-mycobiota-asd]]
@@ -1259,14 +1266,14 @@ Total pages with broken links: 957
 
 ## chang-2024-metabolome-amino-acids-asd
 - [[subdoligranulum]]
-- [[faecalibacterium-praushitzii]]
+- [[faecalibacterium-prausnitzii|faecalibacterium-praushitzii]]
 - [[faecalibacterium-prausnitzii|faecalibacterium]]
 - [[veillonellaceae]]
-- [[rumminococcaceae]]
-- [[deinococcus-thermus]]
+- [[ruminococcaceae|rumminococcaceae]]
+- [[deinococcus|deinococcus-thermus]]
 - [[deinococcus]]
-- [[holophagae]]
-- [[phascolarctobacterium-succinatutens]]
+- [[dysbiosis|holophagae]]
+- [[short-chain-fatty-acids|phascolarctobacterium-succinatutens]]
 
 ## chapman-2026-clostridia-hmos-pathobiont-suppression-nec
 - [[clostridium-perfringens]]
@@ -1278,25 +1285,25 @@ Total pages with broken links: 957
 - [[chlamydia-trachomatis]]
 - [[lactobacillus-iners]]
 - [[lactobacillus-crispatus]]
-- [[tubal-infertility]]
+- [[female-infertility|tubal-infertility]]
 - [[pelvic-inflammatory-disease]]
 - [[female-infertility-signature]]
-- [[tubal-infertility-signature]]
-- [[lactobacillus-crispatus-probiotic]]
+- [[female-infertility|tubal-infertility-signature]]
+- [[lactobacillus-crispatus|lactobacillus-crispatus-probiotic]]
 
 ## chen-2021-gut-microbiota-thyroid-graves
 - [[gut-microbiome]]
-- [[Synergistetes]]
+- [[dysbiosis|Synergistetes]]
 - [[phascolarctobacterium]]
 - [[short-chain-fatty-acids|Short-Chain Fatty Acids]]
 - [[bile-acid-metabolism]]
 
 ## chen-2022-living-microorganisms-detoxification-heavy-metals
-- [[probiotic detoxification of heavy metals]]
+- [[probiotics|probiotic detoxification of heavy metals]]
 - [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]]
 - [[environmental-metal-exposure|bioremediation]]
 - [[environmental-metal-exposure|food safety regulation]]
-- [[Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]]
+- [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors|Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]]
 
 ## chen-2022-shift-work-gerd-meta-analysis
 - [[gerd]]
@@ -1336,12 +1343,12 @@ Total pages with broken links: 957
 ## chen-2024-gut-microbiota-six-thyroid-diseases-mr
 - [[mendelian-randomization]]
 - [[ruminococcaceae|Ruminiclostridium]]
-- [[Victivallis]]
+- [[dysbiosis|Victivallis]]
 - [[butyricimonas]]
-- [[Eubacterium rectale group]]
+- [[eubacterium-rectale|Eubacterium rectale group]]
 - [[collinsella]]
 - [[oscillospiraceae|Oscillospira]]
-- [[Catenibacterium]]
+- [[dysbiosis|Catenibacterium]]
 - [[lachnospira]]
 - [[short-chain-fatty-acids|short-chain fatty acid]]
 - [[gut-thyroid-axis|gut-thyroid axis]]
@@ -1391,7 +1398,7 @@ Total pages with broken links: 957
 - [[gut-brain-axis|HPA axis]]
 - [[heavy-metals|heavy metals]]
 - [[endocrine-disruptors|endocrine disruptors]]
-- [[hypothalamic-pituitary-ovarian axis]]
+- [[gut-gonadal-axis|hypothalamic-pituitary-ovarian axis]]
 - [[serotonin]]
 - [[dopamine]]
 - [[dysmenorrhea|menstrual disorders]]
@@ -1455,8 +1462,8 @@ Total pages with broken links: 957
 - [[tryptophan|Tryptophan]]
 - [[kynurenine-pathway|IDO1]]
 - [[kynurenine]]
-- [[EAE]]
-- [[Th1]]
+- [[multiple-sclerosis|EAE]]
+- [[inflammation|Th1]]
 - [[inflammation|Th17]]
 - [[tryptophan|Arginine]]
 - [[tryptophan|ARG1]]
@@ -1474,7 +1481,7 @@ Total pages with broken links: 957
 
 ## costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter
 - [[pathogen-metal-acquisition|outer-membrane]]
-- [[Caulobacter]]
+- [[dysbiosis|Caulobacter]]
 
 ## crick-2017-oxysterols-bile-acid-precursors-ms
 - [[bile-acid-metabolism]]
@@ -1503,7 +1510,7 @@ Total pages with broken links: 957
 - [[rheumatoid-arthritis]]
 - [[mycobiome|Ascomycota]]
 - [[mycobiome|Basidiomycota]]
-- [[Wallemia]]
+- [[mycobiome|Wallemia]]
 - [[virome]]
 - [[bacteroidetes]]
 - [[firmicutes]]
@@ -1552,7 +1559,7 @@ Total pages with broken links: 957
 - [[sRNA]]
 - [[superoxide-dismutase]]
 - [[streptococcus-pneumoniae|Streptococcus-pneumoniae]]
-- [[virulence]]
+- [[virulence-factors|virulence]]
 
 ## de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons
 - [[shotgun-metagenomics|metabolome]]
@@ -1562,7 +1569,7 @@ Total pages with broken links: 957
 
 ## de-paiva-2020-aluminium-infant-foods-bioaccessibility
 - [[metal-homeostasis|Bioaccessibility]]
-- [[de Paiva et al 2020 cereals]]
+- [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility|de Paiva et al 2020 cereals]]
 
 ## de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility
 - [[metal-homeostasis|Bioaccessibility]]
@@ -1581,24 +1588,24 @@ Total pages with broken links: 957
 - [[shotgun-metagenomics|shotgun metagenomics]]
 
 ## demetriou-2018-asd-executive-function-meta-analysis
-- [[morton-2023-multi-level-gut-brain-axis-asd]]
+- Morton et al. 2023
 
 ## deng-2022-gi-symptoms-minor-impact-asd-microbiota-scfa
 - [[veillonellaceae|Veillonellaceae]]
-- [[Agaribacter]]
-- [[Massilia]]
-- [[Oxalobacteraceae]]
+- [[dysbiosis|Agaribacter]]
+- [[dysbiosis|Massilia]]
+- [[dysbiosis|Oxalobacteraceae]]
 - [[dysbiosis|Gammaproteobacteria]]
 - [[proteobacteria]]
 - [[blautia]]
-- [[Megamonas]]
-- [[Sphingomonas]]
+- [[megasphaera|Megamonas]]
+- [[dysbiosis|Sphingomonas]]
 - [[bacteroidetes]]
-- [[Hydrogenedentes]]
-- [[Elusimicrobia]]
-- [[Methylomirabilota]]
-- [[Halobacteria]]
-- [[Chloroflexi]]
+- [[dysbiosis|Hydrogenedentes]]
+- [[dysbiosis|Elusimicrobia]]
+- [[dysbiosis|Methylomirabilota]]
+- [[methanobrevibacter-smithii|Halobacteria]]
+- [[dysbiosis|Chloroflexi]]
 - [[campylobacter-jejuni]]
 - [[propionic-acid]]
 - [[butyrate]]
@@ -1610,7 +1617,7 @@ Total pages with broken links: 957
 
 ## devarajalu-2025-nec-gut-microbiota-indian-preterm-shotgun
 - [[siderophores]]
-- [[virulence-enzymes]]
+- [[virulence-factors|virulence enzymes]]
 
 ## di-ciaula-2017-bile-acid-physiology
 - [[bile-acid-metabolism]]
@@ -1618,7 +1625,7 @@ Total pages with broken links: 957
 
 ## di-gioacchino-2018-snas-chapter
 - [[nickel-allergy|systemic-nickel-allergy-syndrome]]
-- [[allergic contact dermatitis]]
+- [[nickel-allergy|allergic contact dermatitis]]
 - [[nickel-allergy|oral nickel challenge]]
 
 ## diallo-2024-microbiome-derived-metabolites-autoimmune
@@ -1685,7 +1692,7 @@ Total pages with broken links: 957
 
 ## dong-2021-salivary-microbiome-tsh-shifts
 - [[gut-thyroid-axis|TSH]]
-- [[Granulicatella]]
+- [[streptococcus|Granulicatella]]
 - [[insulin-resistance|insulin resistance]]
 - [[metabolic-syndrome|Metabolic Syndrome]]
 - [[pcos]]
@@ -1696,7 +1703,7 @@ Total pages with broken links: 957
 - [[cummings-1992-fecal-weight-colon-cancer-fiber|Cummings 1992 - Fecal Weight Colon Cancer Fiber]]
 - [[wang-2019-fecal-scfa-not-associated-asd-chinese-children|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]]
 - [[reddy-2002-omega3-fatty-acids-colon-cancer|Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]]
-- [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
+- [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
 - [[gut-microbiome]]
 - [[simin-2020-antibiotic-use-crc-risk|Simin 2020 - Antibiotic Use CRC Risk]]
 
@@ -1710,13 +1717,13 @@ Total pages with broken links: 957
 - [[heavy-metals|heavy metals]]
 
 ## duan-2020-gut-microbiota-heavy-metal-probiotic-strategy
-- [[Gut microbiota]]
+- [[dysbiosis|Gut microbiota]]
 - [[pseudomonas-aeruginosa]]
-- [[Oxalobacter formigenes]]
+- [[oxalates|Oxalobacter formigenes]]
 - [[gut-metal-microbiome|heavy metals and gut microbiome]]
 - [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos|Zhu 2024 - Toxic Essential Metals Gut Microbiota]]
 - [[chen-2022-16s-rrna-microbial-blood-parkinsons|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
-- [[Anchidin-Norocel 2025 - Heavy Metal Gut Microbiota Probiotics Biosensors]]
+- [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors|Anchidin-Norocel 2025 - Heavy Metal Gut Microbiota Probiotics Biosensors]]
 - [[li-2019-gut-microbiota-inflammatory-factors-ckd|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
 - [[nickel-allergy|nickel gut microbiome interactions]]
 
@@ -1746,7 +1753,7 @@ Total pages with broken links: 957
 
 ## elbeialy-2024-environmental-pollution-rheumatic-diseases
 - [[aluminum|aluminium]]
-- [[Vitamin D]]
+- [[vitamin-d-supplementation|Vitamin D]]
 - [[vitamin-d-supplementation|vitamin D]]
 - [[chronic-kidney-disease|hyperparathyroidism]]
 - [[metal-chelation-therapy|chelation therapy]]
@@ -1779,8 +1786,8 @@ Total pages with broken links: 957
 - [[heavy-metal-neurotoxicity|metals and mental health]]
 
 ## etyemez-2025-biomarkers-reproductive-psychiatric-disorders
-- [[allopregnanolone]]
-- [[neurosteroids]]
+- [[gut-brain-axis|allopregnanolone]]
+- [[gut-brain-axis|neurosteroids]]
 - [[inflammation|cytokines]]
 - [[pmdd-signature]]
 
@@ -1808,7 +1815,7 @@ Total pages with broken links: 957
 ## fang-2024-gut-microbiota-thyroid-disease-advances
 - [[gut-microbiome]]
 - [[bacillus|Bacillaceae]]
-- [[Megamonas]]
+- [[megasphaera|Megamonas]]
 - [[proteobacteria]]
 - [[actinobacteria]]
 - [[desulfovibrio|Desulfobacterota]]
@@ -1931,7 +1938,7 @@ Total pages with broken links: 957
 ## gao-2017-lead-exposure-multi-omics-gut-microbiome
 - [[li-2019-gut-microbiota-inflammatory-factors-ckd|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
 - [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos|Zhu 2024 - Toxic Essential Metals Gut Microbiota]]
-- [[Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]]
+- [[balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood 2021 - Toxic Mechanisms Five Heavy Metals]]
 - [[chen-2022-16s-rrna-microbial-blood-parkinsons|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
 
 ## gao-2020-gut-microbial-biomarkers-acs-post-stemi
@@ -1949,14 +1956,14 @@ Total pages with broken links: 957
 - [[saccharomyces]]
 
 ## gargiulo-isacco-2024-ssris-cervical-cancer-microbiome
-- [[wu-2024-sex-hormones-microbiota-crc]]
+- [[wu-2024-estrogens-androgens-microbiota-crc|wu-2024-sex-hormones-microbiota-crc]]
 
 ## genchi-2020-cadmium-toxicity
 - [[metal-homeostasis|metallothioneins]]
 - [[mitochondrial-dysfunction|Mitochondria]]
 - [[oxidative-stress|reactive oxygen species]]
 - [[epigenetic-modifications|epigenetic changes]]
-- [[endocrine disruptor]]
+- [[endocrine-disruptors|endocrine disruptor]]
 - [[chronic-kidney-disease|osteoporosis]]
 
 ## genchi-2020-nickel-human-health-environmental-toxicology
@@ -2006,7 +2013,7 @@ Total pages with broken links: 957
 - [[pharmacomicrobiomics|microbial metabolites as therapeutics]]
 - [[chen-2022-16s-rrna-microbial-blood-parkinsons|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
 - [[nickel-allergy|nickel toxicity]]
-- [[Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]]
+- [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors|Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]]
 
 ## giambo-2021-toxic-metal-exposure-gut-microbiota-review
 - [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos|Zhu 2024 - Toxic Essential Metals Gut Microbiota]]
@@ -2020,7 +2027,7 @@ Total pages with broken links: 957
 
 ## goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros
 - [[iron-sulfur-clusters]]
-- [[virulence]]
+- [[virulence-factors|virulence]]
 
 ## golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter
 - [[acinetobacter-baumannii]]
@@ -2043,7 +2050,7 @@ Total pages with broken links: 957
 
 ## gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements
 - [[environmental-metal-exposure|Lithium]]
-- [[de Paiva et al 2020 cereals]]
+- [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility|de Paiva et al 2020 cereals]]
 
 ## gorkiewicz-2018-gut-microbiome-gastrointestinal-disease
 - [[lactobacillus]]
@@ -2060,9 +2067,9 @@ Total pages with broken links: 957
 
 ## grimaldi-2018-prebiotic-bgos-asd-children
 - [[coprococcus]]
-- [[Dorea formicigenerans]]
-- [[Oribacterium]]
-- [[Eubacterium dolchum]]
+- [[dorea|Dorea formicigenerans]]
+- [[dysbiosis|Oribacterium]]
+- [[dysbiosis|Eubacterium dolchum]]
 
 ## guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration
 - [[metal-chelation-therapy|Chelation-therapy]]
@@ -2090,15 +2097,15 @@ Total pages with broken links: 957
 - [[zhang-2008-ckd-prevalence-population-systematic-review|Zhang et al. 2017]]
 
 ## haberman-2014-pediatric-cd-ileal-transcriptome-microbiome
-- [[pediatric-crohns]]
+- [[crohns-disease|pediatric-crohns]]
 - [[oxidative-stress|duox2]]
 - [[cardiovascular-disease|apoa1]]
-- [[pasteurellaceae]]
-- [[fusobacteriaceae]]
+- [[haemophilus|pasteurellaceae]]
+- [[fusobacterium-nucleatum|fusobacteriaceae]]
 - [[crohns-disease-signature]]
 
 ## haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia
-- [[Vitamin D]]
+- [[vitamin-d-supplementation|Vitamin D]]
 - [[aluminum|aluminium]]
 - [[vitamin-d-supplementation|vitamin D deficiency]]
 - [[chronic-kidney-disease|hyperparathyroidism]]
@@ -2115,10 +2122,10 @@ Total pages with broken links: 957
 ## han-2022-berberine-methimazole-graves-microbiome
 - [[polyphenols|Berberine]]
 - [[thyroid-autoimmunity|methimazole]]
-- [[Enterococcus hirae]]
-- [[Enterobacter hormaechei]]
-- [[Chryseobacterium indologenes]]
-- [[enterobactin]]
+- [[enterococcus|Enterococcus hirae]]
+- [[enterobacter-cloacae|Enterobacter hormaechei]]
+- [[dysbiosis|Chryseobacterium indologenes]]
+- [[siderophores|enterobactin]]
 - [[faecalibacterium-prausnitzii]]
 - [[short-chain-fatty-acids|Short-Chain Fatty Acids]]
 
@@ -2184,7 +2191,7 @@ Total pages with broken links: 957
 - [[short-chain-fatty-acids|microbiome-derived metabolites]]
 
 ## he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese
-- [[Eubacterium eligens]]
+- [[eubacterium|Eubacterium eligens]]
 - [[anaerostipes]]
 - [[short-chain-fatty-acids|Propionate]]
 - [[heavy-metals|heavy metals]]
@@ -2194,7 +2201,7 @@ Total pages with broken links: 957
 
 ## heidari-2021-immune-system-asd-therapeutic-challenges
 - [[zhou-2025-gut-microbiota-immune-nervous-system-asd]]
-- [[morton-2023-multi-level-gut-brain-axis-asd]]
+- Morton et al. 2023
 
 ## heidari-2022-neuroinflammation-progression-parkinsons
 - [[neuroinflammation|Microglia]]
@@ -2297,7 +2304,7 @@ Total pages with broken links: 957
 
 ## huang-2021-microbiome-statistical-modeling-asd-neurobehavioral
 - [[strati-2017-altered-gut-microbiota-mycobiota-asd]]
-- [[zhao-2023-altered-gut-microbiota-biomarkers-asd]]
+- [[zhao-2023-altered-gut-microbiota-biomarkers-asd-early-childhood|zhao-2023-altered-gut-microbiota-biomarkers-asd]]
 
 ## huang-2021-tryptophan-metabolites-working-memory-cortical-thickness-schizophrenia
 - [[dysbiosis]]
@@ -2317,11 +2324,11 @@ Total pages with broken links: 957
 - [[gut-brain-axis|gut-brain axis]]
 - [[gut-thyroid-axis|gut-thyroid axis]]
 - [[bifidobacterium|Bifidobacterium adolescentis]]
-- [[B. angulatum]]
-- [[B. breve]]
-- [[B. longum]]
-- [[Blautia hansenii]]
-- [[Clostridium estertheticum]]
+- [[bifidobacterium|B. angulatum]]
+- [[bifidobacterium|B. breve]]
+- [[bifidobacterium-longum|B. longum]]
+- [[blautia|Blautia hansenii]]
+- [[clostridium|Clostridium estertheticum]]
 - [[haemophilus|Haemophilus parainfluenzae]]
 - [[klebsiella-pneumoniae]]
 
@@ -2336,7 +2343,7 @@ Total pages with broken links: 957
 - [[comorbidities|Comorbidities]]
 
 ## ibrahim-2022-aluminum-exposure-infant-formulas-lebanon
-- [[de Paiva et al 2020 cereals]]
+- [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility|de Paiva et al 2020 cereals]]
 
 ## ignatova-2023-biomarkers-ms-review
 - [[tryptophan|Tryptophan]]
@@ -2356,7 +2363,7 @@ Total pages with broken links: 957
 
 ## ishaq-2017-gut-microbial-composition-hashimotos
 - [[hashimotos-thyroiditis]]
-- [[Prevotella_9]]
+- [[prevotella|Prevotella_9]]
 - [[dialister]]
 - [[escherichia-coli|Escherichia-Shigella]]
 - [[parasutterella]]
@@ -2392,7 +2399,7 @@ Total pages with broken links: 957
 - [[endocrine-disruption|endocrine disruption]]
 - [[gut-brain-axis|neurotransmitter]]
 - [[inflammation|immune activation]]
-- [[endocrine disrupting chemicals]]
+- [[endocrine-disruptors|endocrine disrupting chemicals]]
 - [[gut-brain-axis|HPA axis]]
 - [[dopamine]]
 
@@ -2405,7 +2412,7 @@ Total pages with broken links: 957
 
 ## jayasinghe-2022-diet-gut-microbiome-ms-review
 - [[vitamin-d-supplementation|Vitamin-D]]
-- [[Nrf2]]
+- [[nrf2|Nrf2]]
 - [[dietary-metal-microbiome-interactions|Vitamin-A]]
 - [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]]
 
@@ -2431,7 +2438,7 @@ Total pages with broken links: 957
 - [[dysbiosis|microbiome]]
 
 ## jones-2022-gut-microbiome-changes-young-autistic-children
-- [[zhao-2023-altered-gut-microbiota-biomarkers-asd]]
+- [[zhao-2023-altered-gut-microbiota-biomarkers-asd-early-childhood|zhao-2023-altered-gut-microbiota-biomarkers-asd]]
 - [[strati-2017-altered-gut-microbiota-mycobiota-asd]]
 
 ## jones-2026-amylase-degradable-copper-starch-nanoparticles-saureus
@@ -2489,9 +2496,9 @@ Total pages with broken links: 957
 ## kawar-2021-salivary-microbiome-gerd-ppi
 - [[gerd]]
 - [[biofilm|salivary microbiome]]
-- [[Prevotella melaninogenica]]
-- [[Prevotella pallens]]
-- [[Solobacterium moorei]]
+- [[prevotella|Prevotella melaninogenica]]
+- [[prevotella|Prevotella pallens]]
+- [[dysbiosis|Solobacterium moorei]]
 - [[leptotrichia]]
 
 ## kazemian-2020-gut-microbiota-cad-opportunities
@@ -2508,7 +2515,7 @@ Total pages with broken links: 957
 - [[dysbiosis|microbiome]]
 
 ## khalili-2024-mediterranean-diet-later-onset-crohns
-- [[Serrano Fernandez et al. 2023]]
+- [[serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis|Serrano Fernandez et al. 2023]]
 - [[abreu-2024-high-fiber-low-fat-diet-crohns|Abreu et al. 2024]]
 
 ## khan-2011-novel-approach-enterobacteriaceae-identification-clinical
@@ -2539,7 +2546,7 @@ Total pages with broken links: 957
 - [[metal-homeostasis|metalloprotein]]
 
 ## khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics
-- [[aerobactin]]
+- [[siderophores|aerobactin]]
 - [[siderophores]]
 - [[citrobacter]]
 - [[morganella-morganii]]
@@ -2553,7 +2560,7 @@ Total pages with broken links: 957
 - [[heavy-metals|heavy metals]]
 
 ## kinross-2011-gut-microbiome-host-interactions-health-disease
-- [[guthrie-2017-microbiome-consensus-molecular-subtypes-crc]]
+- [[guthrie-2017-microbiome-signatures-crc-drug-metabolism|guthrie-2017-microbiome-consensus-molecular-subtypes-crc]]
 
 ## kirmizi-2020-heavy-metals-pcos
 - [[hyperandrogenism|hirsutism]]
@@ -2591,7 +2598,7 @@ Total pages with broken links: 957
 - [[bacteroides]]
 
 ## kong-2021-ketogenic-diet-colitis-ilc3-microbiome
-- [[Haag & Siegmund 2015]]
+- [[haag-2015-intestinal-microbiota-innate-immunity-crohns|Haag & Siegmund 2015]]
 
 ## kraeuter-2026-ketogenic-diet-fmt-sensorimotor-gating-schizophrenia-mice
 - [[fmt-intervention]]
@@ -2626,7 +2633,7 @@ Total pages with broken links: 957
 - [[gut-microbiome]]
 - [[kynurenine-pathway]]
 - [[shotgun-metagenomics|animal-model]]
-- [[archaea]]
+- [[methanobrevibacter-smithii|archaea]]
 
 ## kun-2023-microbiota-thyroid-cancer
 - [[hashimotos-thyroiditis|Thyroid cancer]]
@@ -2635,7 +2642,7 @@ Total pages with broken links: 957
 
 ## kuo-2024-low-level-lead-cadmium-ckd-mortality
 - [[chronic-kidney-disease]]
-- [[all-cause mortality]]
+- [[biomarkers|all-cause mortality]]
 - [[environmental-metal-exposure|environmental justice]]
 - [[inflammation|immune dysfunction]]
 
@@ -2722,7 +2729,7 @@ Total pages with broken links: 957
 - [[short-chain-fatty-acids|scfa]]
 
 ## li-2021-fmt-gi-autism-symptoms-open-label
-- [[Eubacterium coprostanoligenes]]
+- [[bile-acid-metabolism|Eubacterium coprostanoligenes]]
 
 ## li-2021-gut-microbiome-brain-structure-function-schizophrenia
 - [[ruminococcus]]
@@ -2762,16 +2769,16 @@ Total pages with broken links: 957
 
 ## li-2024-oral-lyophilized-fmt-asd-children
 - [[blautia]]
-- [[Sellimonas]]
+- [[dysbiosis|Sellimonas]]
 - [[dorea]]
-- [[Saccharomycopsis]]
-- [[Cystobasidium]]
-- [[Fusicatenibacter]]
-- [[Erysipelotrichaceae_UCG-003]]
+- [[mycobiome|Saccharomycopsis]]
+- [[mycobiome|Cystobasidium]]
+- [[fusicatenibacter|Fusicatenibacter]]
+- [[dysbiosis|Erysipelotrichaceae_UCG-003]]
 - [[saccharomyces]]
-- [[Rhodotorula]]
-- [[Cutaneotrichosporon]]
-- [[Zygosaccharomyces]]
+- [[mycobiome|Rhodotorula]]
+- [[mycobiome|Cutaneotrichosporon]]
+- [[mycobiome|Zygosaccharomyces]]
 
 ## li-2025-acupuncture-autoimmune-thyroiditis-microbiota-palmitic-acid
 - [[pharmacomicrobiomics|Acupuncture]]
@@ -2780,7 +2787,7 @@ Total pages with broken links: 957
 ## li-2025-viral-infection-thyroid-disorders-review
 - [[viral-microbiota|HSV]]
 - [[viral-microbiota|EBV]]
-- [[Hepatitis C virus]]
+- [[viral-microbiota|Hepatitis C virus]]
 - [[viral-microbiota|parvovirus B19]]
 - [[thyroid-autoimmunity|autoimmune thyroid diseases]]
 - [[viral-microbiota|HHV-6]]
@@ -2807,7 +2814,7 @@ Total pages with broken links: 957
 ## libbey-2018-diet-microbiota-eae
 - [[multiple-sclerosis|experimental-autoimmune-encephalomyelitis]]
 - [[fermentative-metabolism|glycolysis]]
-- [[TCA-cycle]]
+- [[fermentative-metabolism|TCA-cycle]]
 
 ## lieu-2020-amino-acids-cancer
 - [[tryptophan|Amino acids]]
@@ -2815,7 +2822,7 @@ Total pages with broken links: 957
 - [[tryptophan|Tryptophan]]
 - [[kynurenine]]
 - [[gut-microbiome]]
-- [[AhR ligands]]
+- [[ahr|AhR ligands]]
 - [[acidic-microenvironment|Warburg effect]]
 - [[colorectal-cancer]]
 - [[short-chain-fatty-acids|microbiome-derived metabolites]]
@@ -2855,7 +2862,7 @@ Total pages with broken links: 957
 ## ling-2025-gut-mycobiota-schizophrenia-metabolic-syndrome-trichosporon
 - [[trichosporon-asahii]]
 - [[lodderomyces-elongisporus]]
-- [[pleurotus-ostreatus]]
+- [[mycobiome|pleurotus-ostreatus]]
 
 ## liu-2013-bacterial-biota-distal-esophagus-reflux-esophagitis-barretts
 - [[barretts-esophagus]]
@@ -2881,14 +2888,14 @@ Total pages with broken links: 957
 - [[enterobacteriaceae]]
 - [[veillonellaceae|Veillonellaceae]]
 - [[pseudomonas-aeruginosa|Pseudomonadaceae]]
-- [[Megamonas]]
+- [[megasphaera|Megamonas]]
 - [[streptococcus|Streptococcaceae]]
 - [[lactobacillus|Lactobacillaceae]]
 - [[clostridium|Clostridiaceae_1]]
 - [[desulfovibrio|Desulfovibrionaceae]]
 - [[parabacteroides|Barnesiella]]
-- [[Coprobacter]]
-- [[Olsenella]]
+- [[parabacteroides|Coprobacter]]
+- [[olsenella|Olsenella]]
 - [[allisonella]]
 - [[actinomyces|Actinomycetaceae]]
 - [[holdemanella|Holdemanella]]
@@ -2902,7 +2909,7 @@ Total pages with broken links: 957
 - [[lachnospiraceae]]
 - [[dysbiosis|Erysipelotrichaceae]]
 - [[parabacteroides|Barnesiella]]
-- [[Coprobacter]]
+- [[parabacteroides|Coprobacter]]
 - [[dysbiosis|Acidobacteria]]
 - [[actinomyces|Actinomycetaceae]]
 - [[veillonellaceae|Veillonellaceae]]
@@ -2931,7 +2938,7 @@ Total pages with broken links: 957
 - [[xu-2022-causal-gut-microbiota-autoimmune-mr|Xu 2022 - FMT Antitumor Cancer Immunotherapy]]
 - [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]]
 - [[wang-2019-fecal-scfa-not-associated-asd-chinese-children|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 
 ## liu-2022-fmt-restores-ckd-rats
 - [[bacteroides-uniformis]]
@@ -2953,12 +2960,12 @@ Total pages with broken links: 957
 - [[oxidative-stress]]
 
 ## liu-2023-environmental-cadmium-rat-microbiota-metabolome
-- [[muribaculaceae]]
+- [[prebiotics|muribaculaceae]]
 - [[corynebacterium]]
 - [[intestinal-permeability|intestinal-barrier]]
 - [[intestinal-permeability|leaky-gut]]
 - [[tmao|uremic-toxins]]
-- [[cadmium-gut-dysbiosis]]
+- [[cadmium|cadmium-gut-dysbiosis]]
 
 ## liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts
 - [[haemophilus]]
@@ -2969,7 +2976,7 @@ Total pages with broken links: 957
 - [[barretts-esophagus]]
 - [[faecalibacterium-prausnitzii]]
 - [[mollicutes|Tenericutes]]
-- [[Bacteroidia]]
+- [[bacteroides-fragilis|Bacteroidia]]
 - [[haemophilus]]
 
 ## liu-2024-copper-pcos-ivf
@@ -2993,13 +3000,13 @@ Total pages with broken links: 957
 - [[tryptophan]]
 
 ## lombardi-2020-snas-probiotics-dysbiosis
-- [[nickel-obesity]]
+- [[nickel-allergy|nickel-obesity]]
 
 ## londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi
 - [[fenton-chemistry]]
 - [[superoxide-dismutase]]
 - [[labile-metal-pool]]
-- [[Lyme-disease]]
+- [[borrelia|Lyme-disease]]
 - [[metal-speciation]]
 - [[antimicrobial-resistance|radiation-resistance]]
 
@@ -3009,7 +3016,7 @@ Total pages with broken links: 957
 - [[insulin-resistance|liraglutide]]
 - [[insulin-resistance|glp-1-receptor-agonists]]
 - [[pcos-signature]]
-- [[pcos-metformin-liraglutide-combination]]
+- [[pcos|pcos-metformin-liraglutide-combination]]
 
 ## loomes-2017-male-female-ratio-asd-meta-analysis
 - [[autism-spectrum-disorder-signature]]
@@ -3086,7 +3093,7 @@ Total pages with broken links: 957
 
 ## luu-2022-upper-gi-microbiotas-children-reflux-oesophagitis-metaplasia
 - [[prevotella]]
-- [[Prevotella melaninogenica]]
+- [[prevotella|Prevotella melaninogenica]]
 - [[pharmacomicrobiomics|Proton pump inhibitor]]
 
 ## lyu-2024-care-mode-gut-microbiota-cp-children
@@ -3110,7 +3117,7 @@ Total pages with broken links: 957
 - [[metalloregulator]]
 - [[irving-williams-series|Irving-Williams-series]]
 - [[fenton-chemistry]]
-- [[virulence]]
+- [[virulence-factors|virulence]]
 
 ## macsharry-2024-endometriosis-vaginal-microbiota-n-glycome
 - [[endometriosis]]
@@ -3163,7 +3170,7 @@ Total pages with broken links: 957
 ## mavropoulos-2005-ketogenic-diet-pcos
 - [[female-infertility|fertility]]
 - [[hyperandrogenism|SHBG]]
-- [[hyperinsulinemia]]
+- [[insulin-resistance|hyperinsulinemia]]
 - [[ketogenic-diet]]
 - [[low-carbohydrate-diet|low-carbohydrate diet]]
 - [[dietary-metal-microbiome-interactions|dietary intervention]]
@@ -3172,13 +3179,13 @@ Total pages with broken links: 957
 ## mcdermott-2020-arsenic-gastrointestinal-tract-microbiome
 - [[dysbiosis|microbiome composition]]
 - [[short-chain-fatty-acids]]
-- [[Desulfosporosinus]]
+- [[desulfovibrio|Desulfosporosinus]]
 - [[environmental-metal-exposure|Environmental Exposures]]
 
 ## mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection
 - [[superoxide-dismutase]]
 - [[gene-regulation]]
-- [[virulence]]
+- [[virulence-factors|virulence]]
 
 ## mcginley-2021-diagnosis-treatment-ms-review
 - [[short-chain-fatty-acids|microbial-metabolites]]
@@ -3189,7 +3196,7 @@ Total pages with broken links: 957
 - [[gut-microbiome]]
 - [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]]
 - [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]]
 - [[wang-2019-fecal-scfa-not-associated-asd-chinese-children|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]]
 
@@ -3209,7 +3216,7 @@ Total pages with broken links: 957
 - [[low-carbohydrate-diet|low-carbohydrate diet]]
 
 ## melamed-2022-eae-advantages-limitations-microbiome-ms
-- [[saresella-2017-diet-modulation-microbiome-ms-pilot]]
+- [[multiple-sclerosis|saresella-2017-diet-modulation-microbiome-ms-pilot]]
 
 ## meli-2024-baby-food-chemical-characterization-italy
 - [[antimony]]
@@ -3223,7 +3230,7 @@ Total pages with broken links: 957
 - [[dysbiosis|microbiome]]
 
 ## mermans-2019-nsaids-gut-microbiome-chronic-inflammation
-- [[guthrie-2017-microbiome-consensus-molecular-subtypes-crc]]
+- [[guthrie-2017-microbiome-signatures-crc-drug-metabolism|guthrie-2017-microbiome-consensus-molecular-subtypes-crc]]
 
 ## mertsalmi-2021-viral-gut-microbiota-parkinsons
 - [[virome]]
@@ -3238,9 +3245,9 @@ Total pages with broken links: 957
 ## metz-2019-drug-discovery-bft-inhibition
 - [[bile-acid-metabolism|bile acid]]
 - [[bacteroides-fragilis]]
-- [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
+- [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
 - [[xu-2022-causal-gut-microbiota-autoimmune-mr|Xu 2022 - FMT Antitumor Cancer Immunotherapy]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]]
 - [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]]
 - [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]]
@@ -3257,7 +3264,7 @@ Total pages with broken links: 957
 ## michetti-2025-galleria-mellonella-pseudomonas-zinc-starvation
 - [[pseudomonas-aeruginosa|Pseudomonas-aeruginosa]]
 - [[siderophores|siderophore]]
-- [[virulence]]
+- [[virulence-factors|virulence]]
 
 ## microbiome-diet-endometriosis-food-tables
 - [[endometriosis]]
@@ -3285,7 +3292,7 @@ Total pages with broken links: 957
 - [[epigenetic-modifications|Epigenetic modifications]]
 
 ## mislankar-2013-low-nickel-diet-scoring
-- [[BraMa-Ni diet]]
+- [[low-nickel-diet|BraMa-Ni diet]]
 
 ## mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca
 - [[dysbiosis|microbiome]]
@@ -3305,7 +3312,7 @@ Total pages with broken links: 957
 
 ## moody-2018-toxic-metals-ckd-systematic-review
 - [[chronic-kidney-disease]]
-- [[chronic kidney disease of unknown etiology]]
+- [[chronic-kidney-disease|chronic kidney disease of unknown etiology]]
 
 ## moon-2024-physiological-cost-antibiotic-resistance-ribosome-magnesium
 - [[gene-regulation|ribosome]]
@@ -3321,8 +3328,8 @@ Total pages with broken links: 957
 - [[mendelian-randomization]]
 
 ## naaz-2022-fennel-oil-antimicrobial-antioxidant
-- [[fennel]]
-- [[trans-anethole]]
+- [[polyphenols|fennel]]
+- [[polyphenols|trans-anethole]]
 - [[polyphenols|essential-oils]]
 
 ## nalls-2015-causal-microbiome-parkinsons-genetics
@@ -3332,7 +3339,7 @@ Total pages with broken links: 957
 - [[dysbiosis|microbiome]]
 
 ## nannan-2025-probiotics-rabeprazole-gut-microbiota-gerd
-- [[rabeprazole]]
+- [[pharmacomicrobiomics|rabeprazole]]
 - [[gut-microbiome]]
 - [[gerd]]
 - [[inflammation|CRP]]
@@ -3435,7 +3442,7 @@ Total pages with broken links: 957
 - [[shotgun-metagenomics|16S rRNA sequencing]]
 - [[dysbiosis]]
 - [[pancreatic-cancer]]
-- [[microbiome and gut-brain axis]]
+- [[gut-brain-axis|microbiome and gut-brain axis]]
 - [[inflammation|microbiome and inflammation]]
 
 ## ochoa-reparaz-2018-gut-microbiome-ms
@@ -3455,7 +3462,7 @@ Total pages with broken links: 957
 ## opoku-2024-calcium-rescues-streptococcus-pneumoniae-manganese-toxicity
 - [[calcium]]
 - [[streptococcus-pneumoniae|Streptococcus-pneumoniae]]
-- [[virulence]]
+- [[virulence-factors|virulence]]
 
 ## osman-2018-16s-rrna-crc-protocols-workflows
 - [[dysbiosis|microbiome-composition]]
@@ -3486,7 +3493,7 @@ Total pages with broken links: 957
 - [[antimicrobial-metals]]
 
 ## pacor-2003-nickel-recurrent-aphthous-stomatitis
-- [[recurrent aphthous stomatitis]]
+- [[nickel-allergy|recurrent aphthous stomatitis]]
 
 ## paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd
 - [[oxidative-stress]]
@@ -3528,7 +3535,7 @@ Total pages with broken links: 957
 - [[prevotella]]
 - [[veillonella]]
 - [[neisseria-meningitidis|Neisseria]]
-- [[Granulicatella]]
+- [[streptococcus|Granulicatella]]
 
 ## park-2020-nerd-treatment-esophageal-microbiome
 - [[haemophilus]]
@@ -3546,7 +3553,7 @@ Total pages with broken links: 957
 - [[rheumatoid-arthritis]]
 - [[thyroid-autoimmunity|autoimmune thyroid diseases]]
 - [[hashimotos-thyroiditis]]
-- [[li-2025-viral-infection-thyroid-disorders]]
+- [[li-2025-acupuncture-autoimmune-thyroiditis-microbiota-palmitic-acid|li-2025-viral-infection-thyroid-disorders]]
 
 ## passari-2023-siderophores-medical-applications
 - [[siderophores]]
@@ -3579,7 +3586,7 @@ Total pages with broken links: 957
 - [[coprococcus]]
 
 ## paul-2019-biomarkers-ms
-- [[Neurofilament light chain]]
+- [[neuroinflammation|Neurofilament light chain]]
 
 ## pavlic-2021-nickel-bacterial-adhesion-biofilm-orthodontic
 - [[oral-microbiome]]
@@ -3593,7 +3600,7 @@ Total pages with broken links: 957
 - [[short-chain-fatty-acids]]
 
 ## pendergrass-2026-nickel-nec-preterm-gut
-- [[nickel-dependent enzymes]]
+- [[metal-dependent-virulence|nickel-dependent enzymes]]
 - [[nutritional-immunity|Nutritional immunity]]
 - [[urease|Urease]]
 
@@ -3607,11 +3614,11 @@ Total pages with broken links: 957
 ## peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning
 - [[lachnospiraceae]]
 - [[lachnospira]]
-- [[Sarcina]]
+- [[dysbiosis|Sarcina]]
 - [[enterobacteriaceae]]
-- [[Anaerotruncus]]
+- [[anaerotruncus|Anaerotruncus]]
 - [[butyricicoccus|Butyricicoccus]]
-- [[Eubacterium eligens]]
+- [[eubacterium|Eubacterium eligens]]
 - [[oscillospiraceae|Oscillospira]]
 - [[collinsella]]
 - [[p-cresol]]
@@ -3658,16 +3665,16 @@ Total pages with broken links: 957
 - [[endometriosis|adenomyosis]]
 - [[atopobium-vaginae]]
 - [[gut-vagina-axis]]
-- [[adenomyosis-signature]]
+- [[endometriosis|adenomyosis-signature]]
 - [[endometriosis-signature]]
-- [[bacterial-vaginosis-signature]]
+- [[bacterial-vaginosis|bacterial-vaginosis-signature]]
 - [[female-infertility|recurrent-implantation-failure]]
 - [[siderophore-competition]]
 
 ## pourali-2024-microbiome-biomarker-therapeutic-target-pancreatic-cancer
 - [[gut-microbiome]]
 - [[pancreatic-cancer]]
-- [[microenvironment]]
+- [[acidic-microenvironment|microenvironment]]
 - [[microbial-biomarkers|microbial biomarkers]]
 - [[shotgun-metagenomics|16S rRNA sequencing]]
 - [[shotgun-metagenomics|shotgun metagenomics]]
@@ -3700,8 +3707,8 @@ Total pages with broken links: 957
 - [[bifidobacterium|Bifidobacteraceae]]
 - [[veillonellaceae|Veillonellaceae]]
 - [[prevotellaceae|Prevotellaceae]]
-- [[Megasphaera]]
-- [[Mitsuokella]]
+- [[megasphaera|Megasphaera]]
+- [[dysbiosis|Mitsuokella]]
 - [[ruminococcaceae|Ruminococcaceae]]
 - [[heavy-metals|heavy metals]]
 - [[short-chain-fatty-acids]]
@@ -3736,15 +3743,15 @@ Total pages with broken links: 957
 - [[wang-2019-fecal-scfa-not-associated-asd-chinese-children|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]]
 - [[bile-acid-metabolism|bile acid]]
 - [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]]
-- [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
+- [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
 
 ## rahman-2022-gut-microbiota-cvd-therapeutic-regulation
 - [[metabolic-syndrome|Metabolic-syndrome]]
 
 ## rahman-2024-nigella-sativa-thymoquinone-thymol-antimicrobial
-- [[nigella-sativa]]
-- [[black-seed]]
-- [[thymoquinone]]
+- [[polyphenols|nigella-sativa]]
+- [[polyphenols|black-seed]]
+- [[polyphenols|thymoquinone]]
 - [[polyphenols|thymol]]
 - [[biofilm|quorum-sensing]]
 
@@ -3787,7 +3794,7 @@ Total pages with broken links: 957
 - [[inflammation|COX-2]]
 - [[colorectal-cancer]]
 - [[pharmacomicrobiomics|drug repurposing]]
-- [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
+- [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
 - [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]]
 - [[fusobacterium-nucleatum]]
 - [[gut-microbiome]]
@@ -3820,7 +3827,7 @@ Total pages with broken links: 957
 
 ## roberts-2019-lactoferrin-genital-infections-iron
 - [[bacterial-vaginosis|bacterial vaginosis]]
-- [[Trichomonas vaginalis]]
+- [[bacterial-vaginosis|Trichomonas vaginalis]]
 - [[ferritin]]
 - [[heavy-metals|heavy metals]]
 - [[dysbiosis|microbiome]]
@@ -3917,15 +3924,15 @@ Total pages with broken links: 957
 - [[nickel-allergy|nickel toxicology]]
 - [[mitochondrial-dysfunction|mitochondrial dysfunction]]
 - [[metal-chelation-therapy|chelation therapy]]
-- [[association-low-level-heavy-metal-ckd]]
-- [[toxic-metals-ckd-systematic-review]]
+- [[chronic-kidney-disease|association-low-level-heavy-metal-ckd]]
+- [[chronic-kidney-disease|toxic-metals-ckd-systematic-review]]
 
 ## sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer
 - [[fusobacterium-nucleatum]]
 - [[bacteroides-fragilis]]
 - [[colorectal-cancer]]
 - [[xu-2022-causal-gut-microbiota-autoimmune-mr|Xu 2022 - FMT Antitumor Cancer Immunotherapy]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]]
 - [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]]
 - [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]]
@@ -3942,17 +3949,17 @@ Total pages with broken links: 957
 - [[short-chain-fatty-acids]]
 
 ## salem-2023-syzygium-essential-oil-oral-pathogens
-- [[syzygium]]
-- [[myrtaceae]]
-- [[caryophyllene-oxide]]
-- [[squalene]]
+- [[polyphenols|syzygium]]
+- [[polyphenols|myrtaceae]]
+- [[polyphenols|caryophyllene-oxide]]
+- [[polyphenols|squalene]]
 
 ## sami-2023-human-milk-nutrients-preventing-nec
 - [[calcium]]
 - [[prebiotics|hmos]]
 
 ## sampah-2021-prenatal-immunity-nec
-- [[tlr4-signaling]]
+- [[toll-like-receptors|TLR4 signaling]]
 - [[proteobacteria]]
 - [[necrotizing-enterocolitis-signature]]
 
@@ -4016,7 +4023,7 @@ Total pages with broken links: 957
 - [[barretts-esophagus]]
 
 ## sharma-2006-disulfiram-low-nickel-diet-hand-eczema
-- [[disulfiram]]
+- [[pharmacomicrobiomics|disulfiram]]
 
 ## shen-2024-migraine-gerd-depression-mendelian-randomization
 - [[mendelian-randomization]]
@@ -4058,9 +4065,9 @@ Total pages with broken links: 957
 
 ## shi-2024-gut-microbiota-hypothyroidism-mendelian-randomization
 - [[hashimotos-thyroiditis|hypothyroidism]]
-- [[Butyrivibrio]]
-- [[Holdemania]]
-- [[Anaerotstipes]]
+- [[short-chain-fatty-acids|Butyrivibrio]]
+- [[dysbiosis|Holdemania]]
+- [[anaerostipes|Anaerotstipes]]
 - [[intestinimonas|Intestinimonas]]
 - [[ruminococcaceae|Ruminiclostridium5]]
 
@@ -4072,7 +4079,7 @@ Total pages with broken links: 957
 - [[polyphenols|dietary-polyphenols]]
 
 ## shtrozberg-2025-gut-microbiome-fibromyalgia-review
-- [[eisenbergiella]]
+- [[dysbiosis|eisenbergiella]]
 - [[neuroinflammation|nmda-receptor]]
 - [[fibromyalgia-signature]]
 
@@ -4098,13 +4105,13 @@ Total pages with broken links: 957
 - [[liu-2021-args-colorectal-cancer-microbiome|Liu 2021 - ARGs Colorectal Cancer Microbiome]]
 - [[xu-2022-causal-gut-microbiota-autoimmune-mr|Xu 2022 - FMT Antitumor Cancer Immunotherapy]]
 - [[wang-2019-fecal-scfa-not-associated-asd-chinese-children|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]]
 
 ## simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes
 - [[xia-2024-drug-repurposing-cancer-therapy|Xia 2024 - Drug Repurposing Cancer Therapy]]
 - [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]]
 
 ## singh-2016-heavy-metal-tolerance-plants-omics
@@ -4118,34 +4125,34 @@ Total pages with broken links: 957
 
 ## singh-2024-microbes-myocardium-gut-brain-axis-cvd
 - [[gut-brain-axis|gut-brain axis]]
-- [[microbiome and gut-brain axis]]
+- [[gut-brain-axis|microbiome and gut-brain axis]]
 - [[cardiovascular-disease]]
 - [[inflammation|microbiome and immune system]]
 - [[pharmacomicrobiomics|microbiome-modulating drugs]]
 - [[dysbiosis|microbiome and disease progression]]
-- [[microbiome and neuroinflammation]]
+- [[neuroinflammation|microbiome and neuroinflammation]]
 - [[pharmacomicrobiomics|antidepressants]]
 
 ## smovrsnik-2023-heavy-metals-oxidative-stress-pcos
 - [[oxidative-stress]]
 
 ## smovrsnik-2025-trace-elements-pcos
-- [[leukocyte count]]
+- [[inflammation|leukocyte count]]
 - [[hyperandrogenism|luteinizing hormone (LH)]]
 - [[oxidative-stress|xanthine oxidase]]
 - [[bile-acid-metabolism|lipid metabolism]]
-- [[metal interactions]]
+- [[metal-homeostasis|metal interactions]]
 
 ## somppi-2017-non-thyroidal-illness-dampness-microbiota-t3
-- [[non-thyroidal illness syndrome]]
-- [[T3]]
-- [[LT4]]
+- [[gut-thyroid-axis|non-thyroidal illness syndrome]]
+- [[gut-thyroid-axis|T3]]
+- [[gut-thyroid-axis|LT4]]
 - [[gut-thyroid-axis|DIO2]]
 - [[hashimotos-thyroiditis]]
 
 ## song-2023-graves-depression-mechanistic-insight
 - [[autoimmunity|autoimmune]]
-- [[thyroid-gut-microbiome-brain axis]]
+- [[gut-thyroid-axis|thyroid-gut-microbiome-brain axis]]
 - [[graves-disease|GD]]
 - [[serotonin]]
 - [[dopamine]]
@@ -4210,7 +4217,7 @@ Total pages with broken links: 957
 
 ## strati-2017-altered-gut-microbiota-mycobiota-asd
 - [[collinsella]]
-- [[Corynebacterium]]
+- [[corynebacterium|Corynebacterium]]
 - [[dorea]]
 - [[alistipes]]
 - [[bilophila]]
@@ -4219,9 +4226,9 @@ Total pages with broken links: 957
 - [[veillonella]]
 - [[escherichia-coli|Escherichia/Shigella]]
 - [[clostridium|Clostridium cluster XVIII]]
-- [[Gemmiger]]
+- [[dysbiosis|Gemmiger]]
 - [[aspergillus]]
-- [[Penicillium]]
+- [[mycobiome|Penicillium]]
 - [[malassezia]]
 - [[kynurenine]]
 - [[short-chain-fatty-acids]]
@@ -4243,18 +4250,18 @@ Total pages with broken links: 957
 - [[erectile-dysfunction-signature]]
 
 ## sugihartono-2022-gastric-microbiota-h-pylori-gerd
-- [[anaerobacillus]]
+- [[dysbiosis|anaerobacillus]]
 - [[rothia]]
 
 ## sugihartono-2022-gastric-microbiota-hpylori-gerd
 - [[dysbiosis|microbiota]]
 - [[gerd]]
 - [[helicobacter-pylori]]
-- [[Anaerobacillus]]
+- [[dysbiosis|Anaerobacillus]]
 - [[microbial-biomarkers|biomarker]]
 - [[firmicutes]]
 - [[dysbiosis|Proteobacteriota]]
-- [[Bacteroidota]]
+- [[bacteroides-fragilis|Bacteroidota]]
 
 ## sun-2019-asd-gut-microbiota-disorder-children
 - [[firmicutes]]
@@ -4274,16 +4281,16 @@ Total pages with broken links: 957
 
 ## sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy
 - [[ruminococcaceae]]
-- [[bacteroidales]]
+- [[bacteroides-fragilis|bacteroidales]]
 
 ## sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest
-- [[microbiome-gut-brain axis]]
+- [[gut-brain-axis|microbiome-gut-brain axis]]
 - [[gut-brain-axis|gut-brain axis]]
 - [[inflammation|microbiome and inflammation]]
 - [[inflammation|microbiome and immune system]]
 - [[gut-metal-microbiome|microbiome-host interactions]]
 - [[short-chain-fatty-acids|microbial metabolites]]
-- [[microbiome and neuroinflammation]]
+- [[neuroinflammation|microbiome and neuroinflammation]]
 - [[cardiovascular-disease]]
 
 ## swidsinski-2017-colonic-microbiome-ms-ketogenic
@@ -4314,7 +4321,7 @@ Total pages with broken links: 957
 - [[gut-brain-axis|BDNF]]
 
 ## tachibana-2017-meta-analysis-comprehensive-interventions-preschool-asd
-- [[morton-2023-multi-level-gut-brain-axis-asd]]
+- Morton et al. 2023
 
 ## taha-2025-microbiota-interventions-asd-systematic-review
 - [[lactobacillus|Lactobacillus plantarum]]
@@ -4323,9 +4330,9 @@ Total pages with broken links: 957
 ## takeda-2022-gut-microbiota-premenstrual-symptoms
 - [[pmdd-signature]]
 - [[megasphaera]]
-- [[anaerotaenia]]
+- [[dysbiosis|anaerotaenia]]
 - [[butyricicoccus]]
-- [[extibacter]]
+- [[dysbiosis|extibacter]]
 
 ## talantseva-2023-global-prevalence-asd-meta-analysis
 - [[autism-spectrum-disorder-signature]]
@@ -4351,8 +4358,8 @@ Total pages with broken links: 957
 
 ## tang-2023-gut-microbiome-tango-ckd-progression
 - [[clostridium|clostridiaceae]]
-- [[AhR-signaling]]
-- [[epithelial-to-mesenchymal-transition]]
+- [[ahr|AhR-signaling]]
+- [[epithelial-mesenchymal-transition|epithelial-to-mesenchymal-transition]]
 - [[toll-like-receptors]]
 
 ## taniya-2022-therapeutic-regulation-asd-microbiome
@@ -4370,7 +4377,7 @@ Total pages with broken links: 957
 - [[environmental-metal-exposure|wildlife ecotoxicology]]
 - [[li-2019-gut-microbiota-inflammatory-factors-ckd|Li 2019 - Heavy Metal Metabolic Health Gut Microbiome]]
 - [[ghosh-2023-heavy-metals-gut-barrier-integrity|Ghosh 2023 - Heavy Metals Gut Barrier Integrity]]
-- [[heavy metal detoxification mechanisms]]
+- [[metal-chelation-therapy|heavy metal detoxification mechanisms]]
 
 ## tao-2025-fecal-virome-bacteriome-metabolite-interplay-schizophrenia
 - [[viral-microbiota|gut-virome]]
@@ -4403,7 +4410,7 @@ Total pages with broken links: 957
 - [[epigenetic-modifications|histone modifications]]
 - [[epigenetic-modifications|miRNA]]
 - [[epigenetic-modifications|lncRNA]]
-- [[epithelial-mesenchymal transition]]
+- [[epithelial-mesenchymal-transition|epithelial-mesenchymal transition]]
 - [[metalloestrogens]]
 
 ## taroncher-oldenburg-2023-multi-level-gut-brain-axis-asd
@@ -4416,7 +4423,7 @@ Total pages with broken links: 957
 
 ## tatsuta-2024-methylmercury-dietary-intake-japanese-children
 - [[infant-exposure]]
-- [[methylmercury]]
+- [[mercury|methylmercury]]
 
 ## tavanaeian-2025-oral-fecal-microbiome-pancreatic-cancer-biomarkers
 - [[pancreatic-cancer]]
@@ -4449,7 +4456,7 @@ Total pages with broken links: 957
 - [[lactococcus]]
 
 ## tetz-2022-gut-dysbiosis-bacteriophages-parkinsons
-- [[HIF-2alpha]]
+- [[hypoxia|HIF-2alpha]]
 - [[ferroportin]]
 
 ## tetz-2024-bacteriophage-aging-brain-parkinsons
@@ -4504,7 +4511,7 @@ Total pages with broken links: 957
 - [[necrotizing-enterocolitis-signature]]
 - [[clostridium-perfringens]]
 - [[proteobacteria]]
-- [[oxygen-state-ecological-determinant]]
+- [[hypoxia|oxygen-state-ecological-determinant]]
 
 ## toya-2020-coronary-artery-disease-altered-gut-microbiome
 - [[lachnospiraceae]]
@@ -4582,7 +4589,7 @@ Total pages with broken links: 957
 - [[probiotics]]
 
 ## vangoitsenhoven-2020-microbiome-antibiotics-autoimmune
-- [[Haag & Siegmund 2015]]
+- [[haag-2015-intestinal-microbiota-innate-immunity-crohns|Haag & Siegmund 2015]]
 
 ## vascellari-2022-microbial-biomarkers-parkinsons-shotgun
 - [[shotgun-metagenomics]]
@@ -4616,7 +4623,7 @@ Total pages with broken links: 957
 ## vogt-2024-hfq-srna-rust-iron-starvation-caulobacter
 - [[sRNA]]
 - [[pathogen-metal-acquisition|outer-membrane]]
-- [[Caulobacter]]
+- [[dysbiosis|Caulobacter]]
 - [[gene-regulation|Fur]]
 
 ## vollenweider-2024-pyoverdines-antimicrobial-iron-depriving
@@ -4628,7 +4635,7 @@ Total pages with broken links: 957
 
 ## wales-2015-co-selection-resistance-antibiotics-biocides-metals
 - [[antimicrobial-resistance|efflux-pumps]]
-- [[Salmonella]]
+- [[salmonella|Salmonella]]
 
 ## walker-2021-framingham-gut-microbiome-cardiometabolic
 - [[dysbiosis|microbial diversity]]
@@ -4643,7 +4650,7 @@ Total pages with broken links: 957
 - [[shotgun-metagenomics]]
 - [[dysbiosis|microbiome]]
 - [[faecalibacterium-prausnitzii]]
-- [[HIF-2alpha]]
+- [[hypoxia|HIF-2alpha]]
 - [[tlr4]]
 
 ## wallen-2024-nutritional-intake-microbiome-parkinsons
@@ -4705,7 +4712,7 @@ Total pages with broken links: 957
 - [[dysbiosis|microbiome review]]
 
 ## wang-2022-high-fiber-acarbose-pcos
-- [[acarbose]]
+- [[acarbose-fiber-synergy|acarbose]]
 - [[hyperandrogenism]]
 - [[dietary-fiber]]
 - [[short-chain-fatty-acids]]
@@ -4735,7 +4742,7 @@ Total pages with broken links: 957
 ## wang-2023-immune-cells-schizophrenia-mendelian-randomization
 - [[inflammation|regulatory-t-cells]]
 - [[inflammation|treg]]
-- [[immune-system-microbiome-brain-axis]]
+- [[gut-brain-axis|immune-system-microbiome-brain-axis]]
 
 ## wang-2023-microbial-gut-brain-white-matter-preterm
 - [[neuroinflammation|myelination]]
@@ -4807,7 +4814,7 @@ Total pages with broken links: 957
 
 ## wei-2019-microbiota-microbiome-pancreatic-cancer
 - [[pancreatic-cancer]]
-- [[microenvironment]]
+- [[acidic-microenvironment|microenvironment]]
 - [[fusobacterium-nucleatum]]
 - [[dysbiosis|microbiome and disease progression]]
 - [[gut-metal-microbiome|Microbiome-host interactions]]
@@ -4843,7 +4850,7 @@ Total pages with broken links: 957
 - [[viral-microbiota|Epstein-Barr virus]]
 - [[viral-microbiota|cytomegalovirus]]
 - [[hashimotos-thyroiditis]]
-- [[li-2025-viral-infection-thyroid-disorders]]
+- [[li-2025-acupuncture-autoimmune-thyroiditis-microbiota-palmitic-acid|li-2025-viral-infection-thyroid-disorders]]
 
 ## weis-2022-altered-gut-microbiome-lps-alpha-synuclein-parkinsons
 - [[dysbiosis|microbiome]]
@@ -4887,8 +4894,8 @@ Total pages with broken links: 957
 - [[cardiovascular-disease]]
 
 ## wu-2025-distinct-diet-microbiome-associations-asd
-- [[Lacrimispora amygdalina]]
-- [[Massilioclostridium coli]]
+- [[clostridium|Lacrimispora amygdalina]]
+- [[clostridium|Massilioclostridium coli]]
 - [[escherichia-coli]]
 
 ## xia-2024-drug-repurposing-cancer-therapy
@@ -4896,7 +4903,7 @@ Total pages with broken links: 957
 - [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]]
 - [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]]
 - [[sabeel-2025-microbiome-targeted-nanoplatforms-breast-cancer|Sabeel 2025 - Microbiome-Targeted Nanoplatforms Breast Cancer]]
-- [[Simon-Soro 2021 - Thonzonium Bromide Oral-Gut Microbiomes]]
+- [[simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes|Simon-Soro 2021 - Thonzonium Bromide Oral-Gut Microbiomes]]
 
 ## xian-2023-graves-disease-ibd-mendelian-randomization
 - [[inflammatory-bowel-disease]]
@@ -4928,7 +4935,7 @@ Total pages with broken links: 957
 - [[yu-2023-fmt-inhibits-crc-progression|Yu 2023 - FMT Inhibits CRC Progression]]
 - [[wang-2019-fecal-scfa-not-associated-asd-chinese-children|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]]
 - [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 - [[reddy-2002-omega3-fatty-acids-colon-cancer|Reddy 2002 - Omega-3 Fatty Acids Colon Cancer]]
 - [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]]
 
@@ -4940,7 +4947,7 @@ Total pages with broken links: 957
 
 ## xue-2024-colonic-microflora-viral-myocarditis-cvb3
 - [[viral-microbiota|viral microbiota]]
-- [[gut-heart axis]]
+- [[cardiovascular-disease|gut-heart axis]]
 - [[fermentative-metabolism|metabolic pathways]]
 - [[dysbiosis|microbiome composition]]
 - [[short-chain-fatty-acids|microbiome-derived metabolites]]
@@ -4980,7 +4987,7 @@ Total pages with broken links: 957
 - [[environmental-metal-exposure|Environmental Exposures]]
 
 ## yan-2025-infant-serum-metals-gut-microbiota
-- [[ralstonia]]
+- [[dysbiosis|ralstonia]]
 
 ## yang-2016-copper-farm-soils-rheumatoid-arthritis
 - [[environmental-metal-exposure|soil contamination]]
@@ -4999,7 +5006,7 @@ Total pages with broken links: 957
 ## yang-2022-intestinal-flora-graves-methimazole
 - [[thyroid-autoimmunity|methimazole]]
 - [[collinsella]]
-- [[Synergistetes]]
+- [[dysbiosis|Synergistetes]]
 - [[phascolarctobacterium]]
 - [[rheumatoid-arthritis]]
 - [[type-1-diabetes]]
@@ -5008,7 +5015,7 @@ Total pages with broken links: 957
 - [[gerd|NERD]]
 - [[firmicutes]]
 - [[bacteroidetes]]
-- [[microbiome-brain-gut axis]]
+- [[gut-brain-axis|microbiome-brain-gut axis]]
 
 ## yang-2024-metabolites-esophageal-diseases-mendelian-randomization
 - [[gerd]]
@@ -5048,16 +5055,16 @@ Total pages with broken links: 957
 ## yin-2022-pcos-bacteriome-mycobiome-metabolome-bmi
 - [[pcos|polycystic-ovary-syndrome]]
 - [[mortierella]]
-- [[mortierellomycota]]
+- [[mortierella|mortierellomycota]]
 - [[candida-albicans|candida]]
 - [[pcos-signature]]
 - [[functional-shielding|interkingdom-relationships-and-functional-shielding]]
-- [[pcos-diagnostic-metabolome-model]]
+- [[pcos|pcos-diagnostic-metabolome-model]]
 
 ## yin-2024-heavy-metals-renal-injury-longitudinal
 - [[chronic-kidney-disease]]
 - [[chronic-kidney-disease|nephrotoxicity]]
-- [[environmental health disparities]]
+- [[environmental-metal-exposure|environmental health disparities]]
 
 ## yu-2022-fatty-acids-metabokines-ms
 - [[short-chain-fatty-acids|metabokines]]
@@ -5071,14 +5078,14 @@ Total pages with broken links: 957
 - [[wang-2019-fecal-scfa-not-associated-asd-chinese-children|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]]
 - [[xu-2022-causal-gut-microbiota-autoimmune-mr|Xu 2022 - FMT Antitumor Cancer Immunotherapy]]
 - [[zhu-2022-berberine-uc-cancer-therapy|Zhu 2022 - Berberine UC Cancer Therapy]]
-- [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]]
 
 ## yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr
 - [[indoles|indole]]
-- [[Peptococcus]]
+- [[dysbiosis|Peptococcus]]
 
 ## yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia
-- [[Romboutsia]]
+- [[dysbiosis|Romboutsia]]
 - [[streptococcus]]
 - [[blautia]]
 - [[alistipes]]
@@ -5098,7 +5105,7 @@ Total pages with broken links: 957
 - [[porphyromonas]]
 - [[actinomyces]]
 - [[staphylococcus-aureus]]
-- [[Propionibacterium]]
+- [[propionibacterium|Propionibacterium]]
 - [[veillonella]]
 - [[shotgun-metagenomics|16S-rRNA]]
 
@@ -5213,10 +5220,10 @@ Total pages with broken links: 957
 - [[akkermansia-muciniphila|Verrucomicrobiaceae]]
 - [[bacillus]]
 - [[blautia]]
-- [[Ornithinimicrobium]]
-- [[Prevotella_9]]
-- [[Ruminococcus_2]]
-- [[Lachnospiraceae_NK4A136_group]]
+- [[dysbiosis|Ornithinimicrobium]]
+- [[prevotella|Prevotella_9]]
+- [[ruminococcaceae|Ruminococcus_2]]
+- [[lachnospiraceae|Lachnospiraceae_NK4A136_group]]
 - [[short-chain-fatty-acids|Microbiome-Derived Metabolites]]
 - [[microbial-biomarkers|Microbial Biomarkers]]
 
@@ -5254,20 +5261,20 @@ Total pages with broken links: 957
 - [[pcos-signature]]
 - [[endometriosis-signature]]
 - [[female-infertility|recurrent-implantation-failure]]
-- [[shared-pcos-endometriosis-signature]]
+- [[pcos|shared-pcos-endometriosis-signature]]
 
 ## zheng-2024-znta-zinc-cadmium-homeostasis-vibrio-parahaemolyticus
-- [[virulence]]
+- [[virulence-factors|virulence]]
 
 ## zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio
 - [[siderophores|siderophore]]
-- [[virulence]]
+- [[virulence-factors|virulence]]
 - [[iron-sulfur-clusters]]
 - [[gut-microbiome]]
 - [[antimicrobial-metals]]
 
 ## zheng-2025-gut-thyroid-axis-aitd-mendelian-randomization
-- [[butyrivibrio]]
+- [[short-chain-fatty-acids|butyrivibrio]]
 - [[gut-thyroid-axis]]
 
 ## zheng-2025-multidimensional-mechanisms-gerd-immunity-signaling-microbiota-gut-brain
@@ -5307,7 +5314,7 @@ Total pages with broken links: 957
 
 ## zhou-2023-probiotics-prevent-nec-vlbw-meta
 - [[siderophore-competition]]
-- [[lactoferrin-probiotic-combination]]
+- [[lactoferrin|lactoferrin-probiotic-combination]]
 
 ## zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization
 - [[clostridia]]
@@ -5329,9 +5336,9 @@ Total pages with broken links: 957
 - [[nutritional-immunity|nutritional immunity]]
 
 ## zhou-liu-2024-heavy-metals-dried-chili-guizhou
-- [[chili-pepper]]
-- [[spices]]
-- [[coal-combustion]]
+- [[polyphenols|chili-pepper]]
+- [[polyphenols|spices]]
+- [[environmental-metal-exposure|coal-combustion]]
 
 ## zhu-2022-berberine-uc-cancer-therapy
 - [[polyphenols|Berberine]]
@@ -5361,7 +5368,7 @@ Total pages with broken links: 957
 - [[giambo-2021-toxic-metal-exposure-gut-microbiota-review|Giambo 2021 - Influence Toxic Metal Exposure Gut Microbiota]]
 - [[iron|iron homeostasis]]
 - [[heavy-metal-neurotoxicity|manganese neurotoxicity]]
-- [[probiotic detoxification of heavy metals]]
+- [[probiotics|probiotic detoxification of heavy metals]]
 
 ## zhuang-2024-asd-pathogenesis-biomarker-intervention
 - [[faecalibacterium-prausnitzii]]
@@ -5379,7 +5386,7 @@ Total pages with broken links: 957
 
 ## zytnick-2024-methylolanthanin-lanthanide-metallophore-methylobacterium
 - [[siderophores|siderophore]]
-- [[TonB-dependent-transporter]]
+- [[siderophores|TonB-dependent-transporter]]
 - [[metal-sensing]]
 - [[environmental-metal-exposure|rare-earth-elements]]
 

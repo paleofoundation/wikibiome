@@ -44,8 +44,8 @@ Leaves harvested from Mazhar Botanical Garden, Cairo. HD (Clevenger), SF (SFE-2/
 
 ## Relevance to WikiBiome
 
-- [[syzygium]] / [[myrtaceae]] entity — ethnobotanical family with broad antimicrobial chemistry.
-- [[caryophyllene-oxide]] and [[squalene]] concepts — oxygenated sesquiterpene and triterpenoid bioactives.
+- [[polyphenols|syzygium]] / [[polyphenols|myrtaceae]] entity — ethnobotanical family with broad antimicrobial chemistry.
+- [[polyphenols|caryophyllene-oxide]] and [[polyphenols|squalene]] concepts — oxygenated sesquiterpene and triterpenoid bioactives.
 - [[biofilm]] concept — essential oils as biofilm disruptors.
 
 ## Relevance to Cureva

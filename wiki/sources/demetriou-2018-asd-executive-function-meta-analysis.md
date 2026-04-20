@@ -61,5 +61,5 @@ Large meta-analysis of **235 studies (N = 14,081; ASD = 6,816, Controls = 7,265)
 - [[mercury]] -- mercury exposure linked to working memory and cognitive flexibility deficits
 - [[developmental-metal-vulnerability]] -- EF deficits persist across lifespan but may originate in developmental metal exposure window
 - [[probiotics]] -- microbiome restoration may support EF through improved serotonin and SCFA production
-- Cognitive deficits may be partially modulated via gut-brain axis per [[morton-2023-multi-level-gut-brain-axis-asd]]
+- Cognitive deficits may be partially modulated via gut-brain axis per Morton et al. 2023
 - Executive function links to serotonin pathways discussed in [[liu-2023-intestinal-metabolites-asd-mr]]

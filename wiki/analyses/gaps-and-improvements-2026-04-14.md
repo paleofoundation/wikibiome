@@ -1,6 +1,7 @@
 ---
 title: "WikiBiome / Cureva — Gaps & Improvement Report 2026-04-14"
 type: analysis
+platform: cureva
 created: 2026-04-14
 updated: 2026-04-14
 tags: [maintenance, gaps, improvements, roadmap]

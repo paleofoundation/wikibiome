@@ -19,7 +19,7 @@ karen_brain_primitives: [5]
 ## Key Claims
 
 - The abundance and diversity of [[gut-microbiome]] are significantly reduced in patients with [[graves-disease]] (GD) compared to healthy controls, and increase after methimazole treatment
-- [[Synergistetes]] and [[phascolarctobacterium]] show negative correlation with TRAb, suggesting a protective role, while [[ruminococcus]] and [[lactobacillus]] may be novel biomarkers for GD
+- [[dysbiosis|Synergistetes]] and [[phascolarctobacterium]] show negative correlation with TRAb, suggesting a protective role, while [[ruminococcus]] and [[lactobacillus]] may be novel biomarkers for GD
 - [[bifidobacterium]] abundance was positively correlated with TRAb (r=0.588, P=0.002), TGAb (r=0.463, P=0.023), and the change in Bifidobacterium tracked with changes in TPOAb
 - After methimazole treatment (3-5 months), gut microbiota composition and diversity significantly improved, with Phascolarctobacterium increasing and Blautia, Lactobacillus, Veillonella, Streptococcus decreasing
 - Functional status and TRAb level in GD are associated with composition and biological function of gut microbiota

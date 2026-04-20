@@ -24,7 +24,7 @@ evidence_level: cross-sectional
 - [[bifidobacterium]] abundance is positively correlated with TRAb (r=0.588, P=0.002), TGAb (r=0.463, P=0.023), suggesting it may be involved in the immune process of GD
 - After [[thyroid-autoimmunity|methimazole]] treatment and thyroid function recovery, gut microbiota diversity significantly improved, indicating the relationship between thyroid function and microbiome composition is bidirectional
 - [[collinsella]] was significantly higher in untreated GD patients compared to both controls and treated patients
-- [[Synergistetes]] and [[phascolarctobacterium]] were protective (negatively correlated with TRAb, TGAb, TPOAb), while [[ruminococcus]] and [[lactobacillus]] correlated positively with TRAb
+- [[dysbiosis|Synergistetes]] and [[phascolarctobacterium]] were protective (negatively correlated with TRAb, TGAb, TPOAb), while [[ruminococcus]] and [[lactobacillus]] correlated positively with TRAb
 
 ## Methods/Findings
 

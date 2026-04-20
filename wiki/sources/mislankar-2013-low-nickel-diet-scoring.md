@@ -28,7 +28,7 @@ karen_brain_primitives: [3]
 - **Lowest nickel foods (0 points)**: Apple, beer, butter, cheddar cheese, chicken breast (skin removed), cottage cheese, eggs, eggplant, honey, ice cream, milk, mushrooms, olive oil, steak, sugar, tuna (canned)
 - **Highest nickel foods (Avoid)**: Lima beans, pinto beans, refried beans, pork and beans, sunflower seeds, chili with beans (canned), cake with chocolate icing, cereal (oat ring)
 - **Diet instructions**: Use only bottled/distilled water; avoid cooking acidic foods in stainless steel; avoid nonstick coated cookware of any type, aluminum, copper, cast iron; no vitamins/supplements except vitamin C; diet may take up to 2 months for benefits
-- **US-focused**: Based on American dietary patterns and FDA data, complementing European-focused diets like the [[BraMa-Ni diet]]
+- **US-focused**: Based on American dietary patterns and FDA data, complementing European-focused diets like the [[low-nickel-diet|BraMa-Ni diet]]
 
 ## Connections
 

@@ -60,4 +60,4 @@ karen_brain_primitives: [1, 4, 5]
 - UroA protection finding relevant to [[pharmacomicrobiomics|microbial metabolites as therapeutics]]
 - Probiotic barrier restoration connects to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
 - Tight junction disruption mechanisms relevant to [[nickel-allergy|nickel toxicity]] given Ni's known effects on epithelial integrity
-- Links to [[Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]] on probiotic mechanisms
+- Links to [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors|Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]] on probiotic mechanisms

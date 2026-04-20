@@ -63,5 +63,5 @@ why_keystone: "Synthesizes metal-dysbiosis interactions with eight distinct prob
 - Probiotic detoxification mechanisms connect to [[chen-2022-living-microorganisms-detoxification-heavy-metals|Chen 2022 - Living Microorganisms Detoxification Heavy Metals]]
 - Barrier integrity findings relevant to [[ghosh-2023-heavy-metals-gut-barrier-integrity|Ghosh 2023 - Heavy Metals Gut Barrier Integrity]]
 - Biosensor approaches could monitor [[nickel]] exposure via urine, though Cu biosensors are more developed for Wilson's disease
-- Links to [[heavy metal exposure routes]] and dietary monitoring
+- Links to [[environmental-metal-exposure|heavy metal exposure routes]] and dietary monitoring
 - [[cardiovascular-disease]]

@@ -46,7 +46,7 @@ karen_brain_primitives: [2, 4]
 
 # Key Claims
 
-- Vaginal [[lactoferrin]] (Lf) concentrations increase significantly with genital infections: 6.6-fold higher with [[bacterial-vaginosis|bacterial vaginosis]] (BV), 11.5-fold higher with [[Trichomonas vaginalis]], and 1.8-fold higher with vaginal discharge
+- Vaginal [[lactoferrin]] (Lf) concentrations increase significantly with genital infections: 6.6-fold higher with [[bacterial-vaginosis|bacterial vaginosis]] (BV), 11.5-fold higher with [[bacterial-vaginosis|Trichomonas vaginalis]], and 1.8-fold higher with vaginal discharge
 - Lf concentration is positively associated with serum [[hepcidin]] (P = 0.047), serum [[ferritin]] (P = 0.018), and total body [[iron]] stores (P = 0.042), suggesting nutritional and iron status influence mucosal Lf responses
 - Lf concentrations increased with higher BMI, MUAC (mid-upper-arm circumference), and sexual activity
 - Women who maintained persistently high or low Lf concentrations from before through pregnancy, suggesting stable individual variation

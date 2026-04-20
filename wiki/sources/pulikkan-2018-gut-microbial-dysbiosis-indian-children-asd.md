@@ -36,7 +36,7 @@ Case-control 16S rRNA (V3 region) study of **30 ASD and 24 healthy Indian childr
 - **[[lactobacillus|Lactobacillaceae]]** (FDR p = 0.018) — ~32-fold higher [[lactobacillus]] in ASD
 - **[[bifidobacterium|Bifidobacteraceae]]** (FDR p = 0.0054)
 - **[[veillonellaceae|Veillonellaceae]]** (FDR p = 0.008)
-- Genera: [[bifidobacterium]] (p = 0.005), [[lactobacillus]] (p = 0.018), [[Megasphaera]] (p = 0.0008), [[Mitsuokella]] (p = 0.007)
+- Genera: [[bifidobacterium]] (p = 0.005), [[lactobacillus]] (p = 0.018), [[megasphaera|Megasphaera]] (p = 0.0008), [[dysbiosis|Mitsuokella]] (p = 0.007)
 - *L. ruminis* was most abundant species — 99% of all Lactobacillus in ASD
 
 ### Enriched in Healthy Controls

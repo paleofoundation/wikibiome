@@ -21,7 +21,7 @@ karen_brain_primitives: [3]
 - [[gerd|NERD]] symptoms overlap with somatoform disorders in 50% of patients, accompanied by anxiety and depression of different degrees that are correlated with GERD severity
 - Alpha diversity of the [[gerd|NERD]] group was significantly higher than healthy controls (P<0.05), and beta diversity significantly different between groups (P=0.026 for HC vs NERD, P=0.009 for males vs females)
 - [[firmicutes]] and TM7 were enriched in NERD patients, while [[bacteroidetes]] were enriched in healthy controls
-- The composition of gut microbiome in NERD patients with or without somatoform disorders is significantly different, suggesting [[microbiome-brain-gut axis]] interactions
+- The composition of gut microbiome in NERD patients with or without somatoform disorders is significantly different, suggesting [[gut-brain-axis|microbiome-brain-gut axis]] interactions
 - Main NERD symptoms were regurgitation (87.5%), belching (66.7%), pharyngeal discomfort (50%), and heartburn (37.5%), with GerdQ average score of 13.42
 - Among 24 NERD patients, 17 had no anxiety, 6 had mild anxiety (25%), 1 moderate (4.2%); 22 (91.7%) had no depression, 2 (8.33%) had mild depression
 

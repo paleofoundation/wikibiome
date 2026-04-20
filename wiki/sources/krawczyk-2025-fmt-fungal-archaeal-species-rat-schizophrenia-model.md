@@ -62,4 +62,4 @@ This pilot study is the first to examine the impact of fecal microbiota transpla
 - [[gut-microbiome]] -- microbiome maturation may override FMT effects in young animals
 - [[kynurenine-pathway]] -- tryptophan-kynurenine axis as mechanistic link
 - [[shotgun-metagenomics|animal-model]] -- MAM-E17 as neurodevelopmental model of schizophrenia
-- [[archaea]] -- absence of methanogens in rat model highlights species-specific colonization
+- [[methanobrevibacter-smithii|archaea]] -- absence of methanogens in rat model highlights species-specific colonization

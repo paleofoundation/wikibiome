@@ -35,7 +35,7 @@ karen_brain_primitives: [3]
 
 # Connections
 
-- Tryptophan-kynurenine-AhR axis directly relevant to [[gut-microbiome]] production of indole derivatives and [[AhR ligands]] in CRC microenvironment
+- Tryptophan-kynurenine-AhR axis directly relevant to [[gut-microbiome]] production of indole derivatives and [[ahr|AhR ligands]] in CRC microenvironment
 - Glutamine dependence connects to [[acidic-microenvironment|Warburg effect]] and metabolic reprogramming seen in [[colorectal-cancer]]
 - Polyamine metabolism links to [[microbiome-derived-metabolites]] as gut bacteria produce polyamines that influence CRC progression
 - Methionine cycle and epigenetic regulation connects to [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of folate and one-carbon metabolism in CRC prevention

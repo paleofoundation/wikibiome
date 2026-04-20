@@ -2,7 +2,7 @@
 title: "Calabrese et al. 2021 — Mediterranean Diet and the Type 1 Diabetes Microbiome"
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-17
 authors: [Claudio M. Calabrese, Alice Valentini, Giorgio Calabrese]
 year: 2021
 journal: "Frontiers in Nutrition"
@@ -28,6 +28,16 @@ key_findings:
 - **Microbiome mechanism**: The Mediterranean diet promotes **[[faecalibacterium-prausnitzii]]** and **[[prevotella]]** abundance, restoring butyrate production and addressing the core SCFA deficit in T1D
 - **L. johnsonii N6.2 synergy**: **[[lactobacillus]]** johnsonii N6.2 supplementation alongside the Mediterranean diet is proposed as a T1D-specific intervention — L. johnsonii N6.2 previously showed immunomodulatory effects in T1D models
 - **Fiber as butyrate substrate**: High dietary fiber from the Mediterranean diet provides substrate for butyrate-producing taxa, directly addressing the lactate-to-butyrate diversion defect identified in T1D metagenomes
+
+## Methods
+
+- **Study design**: Review/expert opinion synthesizing clinical and preclinical evidence for Mediterranean diet in T1D
+- **Key evidence cited**: SEARCH study (prospective cohort of T1D youth), mechanistic studies on Mediterranean diet and microbiome, L. johnsonii N6.2 immunomodulation data
+- **Limitations**: Expert opinion level; underlying SEARCH study is observational; L. johnsonii N6.2 proposal is hypothesis-generating, not yet validated in T1D RCTs
+
+## Detailed Summary
+
+Calabrese et al. build the case for the Mediterranean diet as a microbiome-modulating dietary intervention in T1D. The SEARCH study provides the clinical anchor: Mediterranean diet adherence correlated with improved glycemic control and cardiovascular risk reduction in T1D youth. The mechanistic argument centers on fiber as a substrate for butyrate-producing taxa -- the Mediterranean diet's high fiber content feeds F. prausnitzii and Prevotella, restoring the SCFA deficit that characterizes T1D dysbiosis. The L. johnsonii N6.2 synergy proposal is forward-looking: this specific strain has shown immunomodulatory effects in T1D models, and combining it with the Mediterranean diet's prebiotic fiber could create a synergistic probiotic + dietary intervention.
 
 ## Relevance to WikiBiome
 

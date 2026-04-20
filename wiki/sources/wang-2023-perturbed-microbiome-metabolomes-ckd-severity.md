@@ -2,7 +2,7 @@
 title: "Wang 2023 — Perturbed Gut Microbiome and Metabolomes Across CKD Severity"
 type: source
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-17
 authors: [Wang, Li, Zhang, Chen, Liu]
 year: 2023
 journal: "Microbiome"
@@ -30,6 +30,19 @@ key_findings:
 - **Gut disruption is detectable earlier than conventional biomarkers**, supporting the use of microbiome signatures for early CKD screening.
 - **[[faecalibacterium-prausnitzii]]** and **[[eubacterium-rectale]]** were depleted (SCFA loss), while **[[citrobacter]]** and **[[flavonifractor]]** were enriched (uremic toxin production).
 
+## Methods
+
+- **Study design**: Cross-sectional multi-omic study (metagenomics + metabolomics)
+- **Population**: 88 subjects across CKD severity stages and healthy controls
+- **Sequencing**: Metagenomic sequencing for taxonomic and functional profiling
+- **Metabolomics**: Serum and fecal metabolomic profiling
+- **Analysis**: Microbial co-occurrence network analysis, multi-omic diagnostic model construction, CKD-stage correlation
+- **Limitations**: Moderate sample size (n=88); cross-sectional design; single cohort
+
+## Detailed Summary
+
+Wang et al. combined metagenomics and metabolomics to create an integrated view of the gut-kidney axis across CKD severity stages. The identification of Ruminococcus bromii as the keystone species in the microbial co-occurrence network is the study's most distinctive contribution -- loss of this resistant starch degrader may cascade through the ecosystem by removing a critical substrate (partially degraded starch) that feeds downstream SCFA producers. The combined microbiome + metabolite diagnostic model (AUC 0.972 for mild CKD) demonstrates that gut-derived biomarkers can detect CKD earlier than serum creatinine, which only rises significantly after substantial nephron loss. The progressive depletion of SCFA producers (F. prausnitzii, Eubacterium rectale) alongside enrichment of uremic toxin producers (Citrobacter, Flavonifractor) describes a coherent ecological transition from health-promoting to disease-amplifying microbial communities.
+
 ## Relevance to WikiBiome
 
 Strengthens the case for microbiome-based early detection of CKD. The Ruminococcus bromii keystone finding is novel and relevant to entity pages — loss of a single keystone species may trigger broader ecological collapse. Supports the [[biomarkers]] page with a practical diagnostic application. Complements Zhang 2023 with a focus on CKD staging rather than ESRD endpoint.
@@ -37,3 +50,9 @@ Strengthens the case for microbiome-based early detection of CKD. The Ruminococc
 ## Relevance to Cureva
 
 The early detectability finding (AUC 0.972 for mild CKD) directly supports Cureva's diagnostic value proposition. Identifies **Ruminococcus bromii as a potential intervention target** — restoring this keystone species may have outsized ecological benefits (Primitive 5). The staged progression data allows Cureva to tailor interventions by CKD stage. The Citrobacter and Flavonifractor enrichment informs the suppression arm of two-sided ecological engineering.
+
+## Open Questions
+
+- Can R. bromii supplementation restore the broader SCFA-producing community in CKD?
+- Does the AUC 0.972 diagnostic model perform equally across different CKD etiologies?
+- At what CKD stage does the metabolomic signature become irreversible?

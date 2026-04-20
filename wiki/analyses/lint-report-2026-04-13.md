@@ -1,6 +1,7 @@
 ---
 title: "WikiBiome Lint Report — 2026-04-13"
 type: analysis
+platform: cureva
 created: 2026-04-13
 updated: 2026-04-13
 tags: [maintenance, lint, health-check]
@@ -178,7 +179,7 @@ Carried over from April 12. These terms are wikilinked from content pages but ha
 
 - `[[ahr]]` (Aryl Hydrocarbon Receptor) — referenced in ASD signature, MS, Hashimoto's, depression, and tryptophan-metabolism pages; the glossary defines it briefly but no concept page exists
 - `[[amyloid-beta]]` — referenced in Alzheimer's signature; foundational to the amyloid cascade discussion
-- `[[b-cell-depletion-therapy]]` — linked from `b-cell-depletion-therapy-ms.md` as a concept page, but only the intervention page exists
+- `[[autoimmunity|b-cell-depletion-therapy]]` — linked from `b-cell-depletion-therapy-ms.md` as a concept page, but only the intervention page exists
 - `[[celiac-disease]]` — referenced in `low-nickel-diet.md`; no entity page
 
 ---

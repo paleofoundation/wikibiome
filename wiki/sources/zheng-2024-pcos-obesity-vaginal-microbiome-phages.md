@@ -55,7 +55,7 @@ Cross-sectional shotgun metagenomic analysis. 41 women: 11 PCOS+obese (PO), 8 PC
 - **[[pcos-signature]]** taxonomic layer: add vaginal compartment pathobionts as distinct from gut layer.
 - **Intervention candidate**: Lactobacillus phage supplementation (or preservation via avoidance of broad-spectrum antibiotics) as a phage-mediated route to restore L. crispatus-dominance.
 - **[[endometriosis-signature]]** and **[[female-infertility|recurrent-implantation-failure]]** cross-reference: many of the pathobionts enriched in PCOS+obese vagina (Streptococcus, Staphylococcus, Clostridium perfringens) overlap with infertility signatures.
-- Karen's Brain Primitive 7 (estrobolome / hormone recirculation) — PCOS hyperandrogenism + dysbiosis creates conditions similar to the estrogen-recirculation dysbiosis in endometriosis; supports [[shared-pcos-endometriosis-signature]].
+- Karen's Brain Primitive 7 (estrobolome / hormone recirculation) — PCOS hyperandrogenism + dysbiosis creates conditions similar to the estrogen-recirculation dysbiosis in endometriosis; supports [[pcos|shared-pcos-endometriosis-signature]].
 
 ## Contradictions / Tensions
 

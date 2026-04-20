@@ -36,7 +36,7 @@ karen_brain_primitives: [3]
 # Connections
 
 - COX-2 inhibition by n-3 PUFAs connects to [[pharmacomicrobiomics|drug repurposing]] research with celecoxib and NSAIDs in CRC prevention
-- Bile acid metabolism discussed here directly relevant to [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] targeting the bile acid-gut microbiome axis
+- Bile acid metabolism discussed here directly relevant to [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]] targeting the bile acid-gut microbiome axis
 - Dietary fat-microbiome interactions link to [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] discussion of olive oil and phenolic compounds
 - ras-p21 modulation connects to Wnt/beta-catenin signaling pathway disrupted by [[fusobacterium-nucleatum]] in CRC
 - The n-6/n-3 PUFA ratio concept relevant to [[short-chain-fatty-acids]] production and [[gut-microbiome]] composition shifts

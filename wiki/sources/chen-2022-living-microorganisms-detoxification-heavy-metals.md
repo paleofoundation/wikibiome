@@ -41,9 +41,9 @@ karen_brain_primitives: [1, 4, 5, 8]
 
 # Connections
 
-- Primary reference for [[probiotic detoxification of heavy metals]] and engineered bacteria approaches
+- Primary reference for [[probiotics|probiotic detoxification of heavy metals]] and engineered bacteria approaches
 - Extends [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy|Duan 2020 - Gut Microbiota Heavy Metal Target Probiotic Strategy]] with GEM perspective
 - NixA transporter specifically relevant to [[nickel]] uptake and potential Ni-targeted engineered probiotics
 - Surface display technology connects to broader [[environmental-metal-exposure|bioremediation]] approaches
 - GEM safety concerns relevant to [[environmental-metal-exposure|food safety regulation]] and clinical translation
-- Links to [[Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]] on monitoring probiotic efficacy
+- Links to [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors|Anchidin-Norocel 2025 - Heavy Metal Gut Probiotics Biosensors]] on monitoring probiotic efficacy

@@ -37,7 +37,7 @@ Narrative and critical review covering microbiome, FMT evidence, and micronutrie
 
 ## Relevance to WikiBiome
 
-- **Entity pages:** [[magnesium]], [[selenium]], [[iron]], [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[flavonifractor]], [[eisenbergiella]].
+- **Entity pages:** [[magnesium]], [[selenium]], [[iron]], [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[flavonifractor]], [[dysbiosis|eisenbergiella]].
 - **Concept pages:** [[neuroinflammation|nmda-receptor]], [[oxidative-stress]], [[nutritional-immunity]].
 - **Signature page:** [[fibromyalgia-signature]] — strengthens causality narrative and metallomic layer.
 

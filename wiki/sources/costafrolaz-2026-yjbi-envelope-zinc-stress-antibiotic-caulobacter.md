@@ -87,4 +87,4 @@ This paper reveals a previously unknown mechanism linking zinc stress to antibio
 - [[pathogen-metal-acquisition|outer-membrane]] -- TBDR-mediated import as Achilles heel of Gram-negative barrier
 - [[iron]] -- iron starvation and zinc excess converge on same stress pathways
 - [[oxidative-stress]] -- envelope stress from metal imbalance
-- [[Caulobacter]] -- oligotrophic lifestyle with extensive TBDR repertoire
+- [[dysbiosis|Caulobacter]] -- oligotrophic lifestyle with extensive TBDR repertoire

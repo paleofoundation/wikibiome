@@ -39,6 +39,6 @@ karen_brain_primitives: [5, 7]
 - Directly builds on [[reddy-1998-prebiotics-probiotics-colon-cancer-prevention|Reddy 1998 - Prebiotics Probiotics Colon Cancer Prevention]] laboratory evidence
 - Butyrate/SCFA production mechanism connects to [[cummings-1992-fecal-weight-colon-cancer-fiber|Cummings 1992 - Fecal Weight Colon Cancer Fiber]] fiber-fermentation pathway
 - Immune modulation by probiotics parallels [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] findings on microbiota-immune interactions
-- Fecal enzyme modulation relevant to [[bile-acid-metabolism]] metabolism discussed in [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] and [[McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
+- Fecal enzyme modulation relevant to [[bile-acid-metabolism]] metabolism discussed in [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] and [[mcleod-2023-bridge-crc-mediterranean-diet-trial|McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial]]
 - The SYNCAN trial concept foreshadows modern synbiotic interventions in CRC prevention research
 - [[colorectal-cancer]]

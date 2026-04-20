@@ -37,7 +37,7 @@ karen_brain_primitives: [5]
 
 - Tests mechanisms proposed in [[donovan-2017-mediterranean-diet-crc-prevention|Donovan 2017 - Mediterranean Diet CRC Prevention]] review in a rigorous clinical trial
 - Bile acid-microbiome axis directly relevant to [[metz-2019-drug-discovery-bft-inhibition|Metz 2019 - Drug Discovery BFT Inhibition]] CDCA/FXR discussion
-- B. wadsworthia and C. scindens as CRC-relevant bacteria connect to [[Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] microbiome biomarker research
+- B. wadsworthia and C. scindens as CRC-relevant bacteria connect to [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc|Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC]] microbiome biomarker research
 - SCFA/butyrate outcomes connect to [[rafter-2004-probiotics-colon-cancer-development|Rafter 2004 - Probiotics Colon Cancer Development]] and [[wang-2019-fmt-colitis-associated-colon-cancer-treg|Wang 2019 - FMT Colitis-Associated Colon Cancer Treg]] butyrate-Treg mechanisms
 - Health disparities focus provides unique equity lens applicable to all microbiome-CRC intervention research
 - [[colorectal-cancer]]
