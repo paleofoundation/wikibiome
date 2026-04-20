@@ -164,8 +164,19 @@ function classifyCategory(frontmatter, dirName) {
 }
 
 // ─── Platform Visibility Filter ────────────────────────────────────────
+// Internal types (operational templates, outreach drafts, build artifacts)
+// never render on WikiBiome — only on Cureva or when explicitly requested.
+// This is a §9 boundary defense: the default for an untagged file is
+// "do NOT publish publicly." See Rule 2 (fail loud, not silent) and Rule 8
+// (boundary discipline) in CLAUDE.md.
+const INTERNAL_TYPES = new Set(['internal', 'template', 'operational']);
+
 function isVisibleOnPlatform(category, frontmatter, platform) {
   if (platform === 'all') return true;
+
+  // type: internal / template / operational — never public
+  const fmType = String(frontmatter.type || '').toLowerCase();
+  if (INTERNAL_TYPES.has(fmType) && platform === 'wikibiome') return false;
 
   // Explicit platform tag in frontmatter overrides category rules
   if (frontmatter.platform) {
@@ -184,6 +195,52 @@ function isVisibleOnPlatform(category, frontmatter, platform) {
   }
 
   return true;
+}
+
+// ─── §2f Source Density Thresholds ─────────────────────────────────────
+// Per CLAUDE.md §2f. `build-content.cjs` MUST refuse to render sub-threshold
+// non-stub pages as publishable to WikiBiome. Stubs (stub:true) are allowed
+// but carry a visible banner in the UI (see wikibiome-v8.jsx).
+const SECTION_2F_THRESHOLDS = {
+  metal: 5,
+  microbe: 3, fungus: 3, archaeon: 3,
+  disease: 5,
+  person: 2, organization: 2,
+  concept: 3,
+  signature: 10,
+  intervention: 3,
+  stop: 2,
+  // Fallback: 'entity' without subtype
+  entity: 3,
+};
+
+function sourceCountFor(page) {
+  const fm = page.frontmatter || {};
+  const sources = Array.isArray(fm.sources) ? fm.sources.filter(Boolean) : [];
+  return sources.length;
+}
+
+function thresholdFor(page) {
+  const fm = page.frontmatter || {};
+  const subtype = fm.subtype || '';
+  const type = fm.type || '';
+  return SECTION_2F_THRESHOLDS[subtype] || SECTION_2F_THRESHOLDS[type] || 3;
+}
+
+function isStub(page) {
+  const fm = page.frontmatter || {};
+  return fm.stub === true || fm.stub === 'true';
+}
+
+// Attach audit flags to every page. The renderer uses page.isStub and
+// page.belowThreshold to decide whether to show the stub banner.
+function annotatePageWithThreshold(page) {
+  const count = sourceCountFor(page);
+  const threshold = thresholdFor(page);
+  page.sourceCount = count;
+  page.threshold = threshold;
+  page.belowThreshold = count < threshold;
+  page.isStub = isStub(page);
 }
 
 // ─── Read All Pages from a Directory ───────────────────────────────────
@@ -622,8 +679,75 @@ function main() {
   console.log(`  Sources: ${sourcesCount}`);
   console.log(`  Total: ${allPages.length} content pages`);
 
+  // Annotate every page with §2f source-density flags so the renderer can
+  // show a stub banner. This runs before filtering so cureva builds also
+  // get the flags.
+  for (const p of allPages) annotatePageWithThreshold(p);
+
   // Filter by platform visibility
-  const visiblePages = allPages.filter(p => isVisibleOnPlatform(p.category, p.frontmatter, platformFlag));
+  let visiblePages = allPages.filter(p => isVisibleOnPlatform(p.category, p.frontmatter, platformFlag));
+
+  // §2f enforcement (WikiBiome only): refuse sub-threshold non-stub pages.
+  // Sub-threshold pages may publish ONLY if they carry stub:true + stub_reason.
+  // This is the fix for the 2026-04-19 zero-reference embarrassment:
+  // https://www.wikibiome.com/article/acidic-microenvironment had 0 sources
+  // and was published anyway because the build had no threshold check.
+  //
+  // Primary content types (entity/concept/signature/intervention/stop) are
+  // enforced. Operational types (analysis/reference/overview) are exempt —
+  // they serve as internal logs or navigation pages and should be routed via
+  // explicit platform: cureva rather than via source-density refusal.
+  const PRIMARY_CONTENT_TYPES = new Set(['entity', 'concept', 'signature', 'intervention', 'stop']);
+  if (platformFlag === 'wikibiome') {
+    const refused = [];
+    const kept = [];
+    for (const p of visiblePages) {
+      const fmType = p.frontmatter?.type || '';
+      const isPrimary = PRIMARY_CONTENT_TYPES.has(fmType);
+      if (isPrimary && p.belowThreshold && !p.isStub) {
+        refused.push({
+          id: p.id,
+          file: `${p.sourceDir}/${p.id}.md`,
+          type: p.frontmatter?.subtype || fmType || 'unknown',
+          sources: p.sourceCount,
+          threshold: p.threshold,
+          reason: `§2f violation — ${p.sourceCount} sources, minimum ${p.threshold}, not marked stub:true`,
+        });
+      } else {
+        kept.push(p);
+      }
+    }
+    visiblePages = kept;
+    if (refused.length > 0) {
+      console.warn(`  §2f REFUSED: ${refused.length} page(s) below threshold without stub:true`);
+      const today = new Date().toISOString().slice(0, 10);
+      const refusalPath = path.join(__dirname, '..', 'wiki', 'analyses', `build-refusals-${today}.md`);
+      const lines = [
+        '---',
+        `title: "Build Refusals — ${today}"`,
+        'type: analysis',
+        `created: ${today}`,
+        `updated: ${today}`,
+        'sources: []',
+        'tags: [build-refusal, section-2f, quality-control]',
+        'platform: cureva',
+        '---',
+        '',
+        '## Refused pages',
+        '',
+        'These pages were excluded from the WikiBiome build because they are below their §2f source-density threshold and are not marked `stub: true`. Per §2f, sub-threshold pages may only publish as explicit stubs.',
+        '',
+        '| File | Type | Sources | Minimum | Reason |',
+        '|---|---|---:|---:|---|',
+      ];
+      for (const r of refused.sort((a, b) => a.file.localeCompare(b.file))) {
+        lines.push(`| ${r.file} | ${r.type} | ${r.sources} | ${r.threshold} | ${r.reason} |`);
+      }
+      fs.writeFileSync(refusalPath, lines.join('\n'));
+      console.warn(`  Logged to ${path.relative(path.join(__dirname, '..'), refusalPath)}`);
+    }
+  }
+
   console.log(`  Visible on ${platformFlag}: ${visiblePages.length}`);
 
   // Build derived data structures

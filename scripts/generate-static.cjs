@@ -664,6 +664,7 @@ ${entries}
 function generateRobotsTxt() {
   return `User-agent: *
 Allow: /
+Disallow: /outreach
 
 Sitemap: ${DOMAIN}/sitemap.xml
 Sitemap: ${DOMAIN}/sitemap-full.xml
@@ -684,6 +685,7 @@ const articleDir = path.join(DIST_DIR, 'article');
 if (!fs.existsSync(articleDir)) fs.mkdirSync(articleDir, { recursive: true });
 
 let articleCount = 0;
+let stubExcludedFromSitemap = 0;
 const seenArticleIds = new Set();
 for (const page of CONTENT.pages) {
   const pageDir = path.join(articleDir, page.id);
@@ -691,6 +693,15 @@ for (const page of CONTENT.pages) {
 
   const html = generatePageHtml(page, `/article/${page.id}`);
   fs.writeFileSync(path.join(pageDir, 'index.html'), html);
+
+  // §2f: stubs render (so direct links work and the UI banner can admit the
+  // stub status) but they are excluded from sitemaps so Google does not index
+  // thin or zero-reference pages. `isStub` is set by build-content.cjs.
+  if (page.isStub) {
+    stubExcludedFromSitemap++;
+    articleCount++;
+    continue;
+  }
 
   // Deduplicate sitemap entries — keep the highest priority version
   if (!seenArticleIds.has(page.id)) {
@@ -718,7 +729,7 @@ for (const page of CONTENT.pages) {
   }
   articleCount++;
 }
-console.log(`  Generated: ${articleCount} article pages`);
+console.log(`  Generated: ${articleCount} article pages (${stubExcludedFromSitemap} stubs excluded from sitemap)`);
 
 // 3. Category pages
 const categories = {};
@@ -743,7 +754,11 @@ for (const [cat, pages] of Object.entries(categories)) {
 console.log(`  Generated: ${catCount} category pages`);
 
 // 4. Special pages (signatures, explore, matrix)
-for (const special of ['signatures', 'explore', 'matrix', 'tags', 'about', 'privacy', 'terms', 'contact', 'support', 'submit', 'vote', 'compare', 'outreach']) {
+// NOTE: /outreach is intentionally excluded — it is an internal author-contact
+// dashboard (exposes corresponding-author emails) and must not be indexed or
+// discoverable via navigation. The route still resolves in the SPA for direct
+// URL access during local work.
+for (const special of ['signatures', 'explore', 'matrix', 'tags', 'about', 'privacy', 'terms', 'contact', 'support', 'submit', 'vote', 'compare']) {
   const specialDir = path.join(DIST_DIR, special);
   if (!fs.existsSync(specialDir)) fs.mkdirSync(specialDir, { recursive: true });
   // Copy the main index.html for SPA fallback — these are interactive and don't benefit as much from static HTML
@@ -751,7 +766,7 @@ for (const special of ['signatures', 'explore', 'matrix', 'tags', 'about', 'priv
   const prio = special === 'signatures' ? '0.8' : ['about', 'support', 'submit'].includes(special) ? '0.6' : '0.4';
   urls.push({ path: `/${special}`, priority: prio, changefreq: 'monthly' });
 }
-console.log('  Generated: 13 special pages (signatures, explore, matrix, tags, about, privacy, terms, contact, support, submit, vote, compare, outreach)');
+console.log('  Generated: 12 special pages (signatures, explore, matrix, tags, about, privacy, terms, contact, support, submit, vote, compare)');
 
 // 5. Sitemaps — focused flagship + full
 // Strategy: a new domain with no backlinks cannot get 270 URLs crawled. We submit

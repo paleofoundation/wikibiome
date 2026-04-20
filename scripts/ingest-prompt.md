@@ -4,7 +4,7 @@ Autonomous ingest cycle. Project rules in CLAUDE.md are authoritative. Operate u
 
 2. Find PDFs in `raw/` (recursive) that have not been ingested. A PDF is considered ingested if a page in `wiki/sources/` references it via `pdf_source:` frontmatter or has a slug derived from the PDF filename. Compare normalized slugs.
 
-3. Process up to 5 un-ingested PDFs this cycle (more risks the 75% context cap in Rule 6). For each PDF:
+3. Process up to 10 un-ingested PDFs this cycle. Stop sooner if context approaches 75% (Rule 6). For each PDF:
    a. Read it fully. Extract DOI, authors, journal, year directly from the document. Rule 3: never fabricate. If a field is unreadable, set `doi: "not yet verified"` and add `<!-- NEEDS VERIFICATION -->`.
    b. Create `wiki/sources/<slug>.md` with full v2 frontmatter per §4 (evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings, library_category, platform, condition).
    c. Update or create the entity, concept, and signature pages affected by this source per the §7 Ingest Source workflow. Run cross-condition pattern detection per step 7 of that workflow.

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.wikibiome.ingest</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-l</string>
+        <string>-c</string>
+        <string>$HOME/Documents/Claude/Raw/scripts/autonomous-ingest.sh</string>
+    </array>
+
+    <!-- Poll every 5 minutes. WatchPaths is not used because it does not
+         recurse into raw/'s 42 subfolders on macOS. Polling is bulletproof.
+         If a cycle is still running when a tick fires, the mkdir lock in
+         autonomous-ingest.sh makes the new tick exit immediately — no
+         contention, no duplicate work. -->
+    <key>StartInterval</key>
+    <integer>300</integer>
+
+    <!-- Run once when the agent loads, so a fresh boot picks up any
+         PDFs dropped while the machine was off. -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- One-shot per invocation. The script exits after each cycle;
+         launchd re-fires per StartInterval. -->
+    <key>KeepAlive</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/wikibiome-ingest.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/wikibiome-ingest.err.log</string>
+
+    <!-- Inherit user PATH so `claude` resolves. -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>
