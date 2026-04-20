@@ -2,21 +2,36 @@
 title: Aeromonas
 type: entity
 subtype: microbe
-created: 2026-04-13
-updated: 2026-04-13
+created: 2026-04-13T00:00:00.000Z
+updated: 2026-04-13T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [opportunistic-pathogen, gram-negative, waterborne, gut-dysbiosis, iron-dependent, siderophore]
-gram_stain: "negative"
-oxygen_requirement: "facultative anaerobe"
-metal_dependencies: [iron, zinc]
-key_enzymes: [aerolysin, metalloprotease, siderophores]
-last_substantive_update: 2026-04-13
-seo_target: "Aeromonas hydrophila iron siderophore gut dysbiosis"
-wikipedia_differentiation: "Iron-dependent virulence regulation and siderophore-mediated competitive advantage in dysbiotic gut signatures"
-conditions_enriched_in: [gastroenteritis, dysbiosis]
+tags:
+  - opportunistic-pathogen
+  - gram-negative
+  - waterborne
+  - gut-dysbiosis
+  - iron-dependent
+  - siderophore
+gram_stain: negative
+oxygen_requirement: facultative anaerobe
+metal_dependencies:
+  - iron
+  - zinc
+key_enzymes:
+  - aerolysin
+  - metalloprotease
+  - siderophores
+last_substantive_update: 2026-04-13T00:00:00.000Z
+seo_target: Aeromonas hydrophila iron siderophore gut dysbiosis
+wikipedia_differentiation: Iron-dependent virulence regulation and siderophore-mediated competitive advantage in dysbiotic gut signatures
+conditions_enriched_in:
+  - gastroenteritis
+  - dysbiosis
 conditions_depleted_in: []
 pathogenic_potential: opportunistic
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 **Aeromonas** is a genus of Gram-negative, facultatively anaerobic bacteria found in aquatic environments and, increasingly recognized as an opportunistic gut pathogen. Several species — particularly *Aeromonas hydrophila*, *A. veronii*, and *A. caviae* — are associated with gastrointestinal illness, dysbiosis, and, in immunocompromised hosts, systemic infection. Within the gut microbiome literature, *Aeromonas* is increasingly observed as an enriched organism in dysbiotic signatures.

@@ -27,7 +27,7 @@ A Gram-positive, facultatively anaerobic bacterium that is the **dominant specie
 ## Vaginal Ecosystem Dominance
 
 - *L. crispatus* maintains vaginal pH at 3.5-4.5 through vigorous production of **D- and L-lactic acid**, creating an environment hostile to most pathogenic bacteria and fungi.
-- Produces **hydrogen peroxide (H2O2)**, which directly kills or inhibits anaerobic pathogens including [[gardnerella-vaginalis]] and [[prevotella]] species.
+- Produces **hydrogen peroxide (H2O2)**, which directly kills or inhibits anaerobic pathogens including [[gardnerella|gardnerella-vaginalis]] and [[prevotella]] species.
 - Adheres to vaginal epithelial cells via surface-layer proteins, competitively excluding pathogens from mucosal binding sites.
 - CST-I (L. crispatus-dominant) communities show the **lowest inflammatory cytokine profiles** among all vaginal community state types, indicating active immune modulation rather than merely passive acidification.
 

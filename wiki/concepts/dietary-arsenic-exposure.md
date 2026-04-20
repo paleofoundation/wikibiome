@@ -69,7 +69,7 @@ Arsenic exposure reshapes the gut microbial community, creating a feed-forward l
 
 **Microbial arsenic metabolism.** Gut bacteria can both methylate and demethylate arsenic. Some species (e.g., certain [[escherichia-coli|E. coli]] strains) express arsenite efflux pumps and arsenic methyltransferases, conferring resistance. Arsenic exposure selects for these resistant organisms, shifting community composition toward arsenic-tolerant taxa [[dahan-2018-arsenic-alters-microbiome-larval-zebrafish]].
 
-**Dysbiosis amplifies arsenic toxicity.** Co-exposure to arsenic and cadmium (common in rice-based diets) produces synergistic liver toxicity mediated through gut microbiota disruption — neither metal alone produced the same damage as the combination [[zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice]].
+**Dysbiosis amplifies arsenic toxicity.** Co-exposure to arsenic and cadmium (common in rice-based diets) produces synergistic liver toxicity mediated through gut microbiota disruption — neither metal alone produced the same damage as the combination Zhang et al. 2015.
 
 **Soil-plant-microbiome axis.** In agricultural systems, 83% of soil microbes show RNA-level changes under arsenic stress, fundamentally altering the rhizosphere ecology that determines how much arsenic enters the food chain [[phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]].
 

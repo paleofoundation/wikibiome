@@ -109,7 +109,7 @@ pathogenic_potential: commensal
 
 ### Traditional and Commercial Sources
 
-- **Plain yogurt**: Contains 10^8–10^9 CFU/mL of live *S. thermophilus* (and typically [[lactobacillus-bulgaricus]])
+- **Plain yogurt**: Contains 10^8–10^9 CFU/mL of live *S. thermophilus* (and typically [[lactobacillus|lactobacillus-bulgaricus]])
 - **Greek yogurt**: Concentrated cells (higher CFU per serving due to straining)
 - **Other fermented dairy**: Kefir, lassi, some cheeses (retain viable cells if unpasteurized)
 - **Probiotic yogurts**: May contain additional species (e.g., Bifidobacterium, [[lactobacillus-rhamnosus]])

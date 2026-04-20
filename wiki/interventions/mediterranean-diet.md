@@ -73,7 +73,7 @@ platform: cureva
 
 The **Mediterranean diet** emphasizes extra-virgin olive oil, vegetables, fruits, legumes, nuts, whole grains, fish, and moderate wine consumption, while limiting red meat, processed foods, and refined sugars. It is the most extensively studied dietary pattern in medicine, with evidence spanning cardiovascular disease, cancer, neurodegeneration, autoimmunity, and metabolic syndrome.
 
-> **Clinical disclaimer:** The Mediterranean diet is generally safe and broadly recommended. However, for patients with [[nickel]] sensitivity (8-19% of adults), the high legume, nut, and whole grain content creates a significant nickel load that may trigger [[nickel-allergy|SNAS]] or [[nickel-allergic-contact-mucositis]]. See the Nickel Paradox section below. Always screen for nickel sensitivity before prescribing a plant-forward Mediterranean diet for [[endometriosis]], [[ibs]], or [[celiac-disease]].
+> **Clinical disclaimer:** The Mediterranean diet is generally safe and broadly recommended. However, for patients with [[nickel]] sensitivity (8-19% of adults), the high legume, nut, and whole grain content creates a significant nickel load that may trigger [[nickel-allergy|SNAS]] or [[nickel-allergy|nickel-allergic-contact-mucositis]]. See the Nickel Paradox section below. Always screen for nickel sensitivity before prescribing a plant-forward Mediterranean diet for [[endometriosis]], [[ibs]], or [[celiac-disease]].
 
 ---
 

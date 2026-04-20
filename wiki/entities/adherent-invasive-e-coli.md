@@ -45,7 +45,7 @@ The reference strain **LF82**, isolated from a chronic ileal lesion, is the most
 
 ### Zinc and Defensin Resistance
 
-- Paneth cell [[defensins]] -- zinc-dependent antimicrobial peptides -- are the primary innate immune defense in the ileal niche where AIEC colonizes.
+- Paneth cell [[nutritional-immunity|defensins]] -- zinc-dependent antimicrobial peptides -- are the primary innate immune defense in the ileal niche where AIEC colonizes.
 - NOD2 loss-of-function mutations, the strongest genetic risk factor for ileal Crohn's disease, impair defensin production and bacterial sensing, creating a **defensin-depleted niche** that favors AIEC expansion [[haag-2015-intestinal-microbiota-innate-immunity-crohns]].
 
 ### Nickel Enzymes

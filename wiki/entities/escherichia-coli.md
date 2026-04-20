@@ -92,7 +92,7 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 - **Neonatal meningitis**: K1 capsular strains.
 - **Traveler's diarrhea**: ETEC strains.
 - **Crohn's disease-associated**: adherent-invasive *E. coli* (AIEC) in the ileum.
-- **Bacteremia/sepsis**: from urinary or GI source; *E. coli* translocation from the gut is a major source of sepsis in severe COVID-19 [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
+- **Bacteremia/sepsis**: from urinary or GI source; *E. coli* translocation from the gut is a major source of sepsis in severe COVID-19 [[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid|Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
 - **Chronic kidney disease**: Enterobacteriaceae including *E. coli* are enriched and LPS translocation contributes to uremic inflammation [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]] [[borges-2016-uremic-toxins-inflammatory-markers-ckd]].
 - **GERD / esophageal dysbiosis**: Enterobacteriaceae including *E. coli* are enriched in a Type II (LPS-driven) esophageal microbiome signature associated with erosive disease [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]] [[alageel-2025-microbiome-composition-gerd-systematic-review]].
 - **Endometriosis**: Gram-negative *E. coli* and related Enterobacteriaceae are enriched in cervical, vaginal, and gut compartments; nickel-sensitive IBS symptoms overlap with endometriosis dysbiosis [[akiyama-2019-cervical-mucus-microbial-colonization-endometriosis]] [[borghini-2020-endometriosis-nickel-ibs]] [[colonetti-2023-gut-vaginal-microbiota-endometriosis-meta-analysis]].

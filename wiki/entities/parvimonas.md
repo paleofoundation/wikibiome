@@ -53,7 +53,7 @@ These metal dependencies are consistent with the general principle that tumor mi
 *P. micra* appears across virtually every major CRC microbiome study as a robust, cross-cohort biomarker:
 
 - Significantly enriched in both **old-onset and young-onset CRC**, demonstrating that its association is age-independent — an important validation because confounders affecting the elderly cannot explain enrichment in young-onset CRC [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
-- Present in **intramucosal CRC tissue** alongside *Peptostreptococcus*, *Actinomyces*, and *Fusobacterium*, suggesting involvement from early carcinogenesis stages prior to deep invasion [[saito-2019-metagenomic-gut-microtiota-colorectal-adenoma]].
+- Present in **intramucosal CRC tissue** alongside *Peptostreptococcus*, *Actinomyces*, and *Fusobacterium*, suggesting involvement from early carcinogenesis stages prior to deep invasion [[saito-2019-metagenomic-gut-microbiota-colorectal-adenoma|saito-2019-metagenomic-gut-microtiota-colorectal-adenoma]].
 - Identified as a **population-wide early CRC marker** across geographically diverse cohorts spanning Asian and Western populations [[wu-2021-microbial-markers-populations-early-crc]].
 - Part of the **core CRC microbiome signature** that is reproducible across both 16S rRNA amplicon sequencing and shotgun metagenomic approaches — a methodological robustness that elevates its biomarker credibility [[bars-cortina-2024-16s-vs-shotgun-crc]].
 - Enriched alongside **antibiotic resistance genes** in the CRC microbiome, raising questions about co-selection in the inflammatory tumor microenvironment [[liu-2021-args-colorectal-cancer-microbiome]].

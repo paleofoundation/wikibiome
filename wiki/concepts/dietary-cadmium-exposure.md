@@ -69,7 +69,7 @@ Dietary cadmium exposure alters gut microbial composition in ways that compound 
 
 - **High-fat diets amplify cadmium accumulation** — mice on HFD showed increased Cd retention in liver and kidney compared to normal diet controls, with corresponding dysbiotic shifts [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]].
 - **Cadmium depletes [[glutathione]]** — the primary intracellular antioxidant and cadmium detoxification molecule. Chronic low-level exposure progressively exhausts glutathione reserves.
-- **Cadmium and arsenic co-exposure** (common in rice-based diets) produces synergistic gut microbiota disruption and liver toxicity beyond what either metal causes alone [[zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice]].
+- **Cadmium and arsenic co-exposure** (common in rice-based diets) produces synergistic gut microbiota disruption and liver toxicity beyond what either metal causes alone Zhang et al. 2015.
 
 ## Regulatory Landscape
 

@@ -51,7 +51,7 @@ taxonomic_signature:
       role: "Primary butyrate producer -- loss removes anti-inflammatory protection; responder-enriched phages target this taxon"
     - taxon: "[[roseburia]]"
       role: "Butyrate/propionate producer -- depleted; phages targeting Roseburia enriched in immunotherapy responders"
-    - taxon: "[[romboutsia]]"
+    - taxon: "[[dysbiosis|romboutsia]]"
       role: "MR-confirmed protective (OR 0.87) -- depleted in PDAC across multiple sensitivity analyses"
     - taxon: "[[senegalimassilia]]"
       role: "MR-confirmed protective (OR 0.635) -- depleted in PDAC"

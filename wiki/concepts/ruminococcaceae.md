@@ -33,7 +33,7 @@ Ruminococcaceae members are among the few gut bacteria capable of degrading **re
 Several Ruminococcaceae members produce butyrate directly:
 
 - Butyrate is the primary energy source for colonocytes (70% of epithelial energy).
-- Butyrate maintains [[gut-barrier-integrity]] by promoting tight junction protein expression.
+- Butyrate maintains [[intestinal-permeability|gut-barrier-integrity]] by promoting tight junction protein expression.
 - Butyrate induces FoxP3+ Treg differentiation, suppressing inflammation and supporting immune tolerance.
 - Butyrate strengthens the [[blood-brain-barrier]] via histone deacetylase inhibition.
 

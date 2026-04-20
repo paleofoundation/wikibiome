@@ -123,4 +123,4 @@ The ecological picture mirrors that of other opportunistic fungi: *C. tropicalis
 - [[iron]] — iron scavenging via multiple acquisition systems supports growth in host environment
 - [[zinc]] — zinc-dependent secreted aspartic proteinases enable host tissue invasion
 - [[copper]] — required for Cu/Zn-SOD antioxidant defense
-- [[asca]] — serologic Crohn's marker; cross-reacts with *C. tropicalis* antigens
+- [[crohns-disease|asca]] — serologic Crohn's marker; cross-reacts with *C. tropicalis* antigens

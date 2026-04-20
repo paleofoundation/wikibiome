@@ -1,70 +1,106 @@
 ---
-title: "Necrotizing Enterocolitis — Microbiome Signature"
+title: Necrotizing Enterocolitis — Microbiome Signature
 type: signature
-created: 2026-04-15
-updated: 2026-04-15
-last_substantive_update: 2026-04-15
+created: 2026-04-15T00:00:00.000Z
+updated: 2026-04-15T00:00:00.000Z
+last_substantive_update: 2026-04-15T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [necrotizing-enterocolitis, neonatal, preterm, TLR4, Proteobacteria, lactoferrin, HMO, prevention]
+tags:
+  - necrotizing-enterocolitis
+  - neonatal
+  - preterm
+  - TLR4
+  - Proteobacteria
+  - lactoferrin
+  - HMO
+  - prevention
 platform: both
 cureva_status: partial
-validated_interventions: [lactoferrin-lgg-nec-prevention, breast-milk-hmo-nec]
-stops: [stop-formula-feeding-without-supplementation-nec, stop-broad-spectrum-antibiotics-pre-nec]
-
-# Confidence per layer
+validated_interventions:
+  - lactoferrin-lgg-nec-prevention
+  - breast-milk-hmo-nec
+stops:
+  - stop-formula-feeding-without-supplementation-nec
+  - stop-broad-spectrum-antibiotics-pre-nec
 confidence:
   metallomic: preliminary
   taxonomic: high
   nutritional_immunity: moderate
   ecological: high
   virulence_enzymes: moderate
-
-# Cross-condition pattern detection
 associated_conditions:
-  - condition: "[[cerebral-palsy]]"
-    shared_metals: [iron, zinc]
-    shared_taxa: [klebsiella, bifidobacterium, enterococcus]
-    shared_ecological: [Proteobacteria-bloom, barrier-dysfunction, TLR4-activation]
-    overlap_score: 0.70
-
-karen_brain_primitives: [1, 2, 4, 5, 8, 9]
-
-# Layer 1: Metallomic signature
+  - condition: '[[cerebral-palsy]]'
+    shared_metals:
+      - iron
+      - zinc
+    shared_taxa:
+      - klebsiella
+      - bifidobacterium
+      - enterococcus
+    shared_ecological:
+      - Proteobacteria-bloom
+      - barrier-dysfunction
+      - TLR4-activation
+    overlap_score: 0.7
+karen_brain_primitives:
+  - 1
+  - 2
+  - 4
+  - 5
+  - 8
+  - 9
 metallomic_signature:
-  elevated: [iron]
-  depleted: [zinc]
-
-# Layer 2: Taxonomic signature
+  elevated:
+    - iron
+  depleted:
+    - zinc
 taxonomic_signature:
   enriched:
-    - taxon: "[[klebsiella]]"
-      role: "Present in 11/12 NEC cases — primary pathobiont; iron-dependent siderophores, LPS production drives TLR4-mediated intestinal destruction"
-    - taxon: "[[escherichia-coli]]"
-      role: "Enriched — LPS producer; synergizes with Klebsiella in Proteobacteria bloom; siderophore competition"
-    - taxon: "[[clostridium-perfringens|Clostridium perfringens]]"
-      role: "Toxigenic strains — alpha-toxin and perfringolysin O cause gas gangrene pattern in intestinal wall"
-    - taxon: "[[staphylococcus]]"
-      role: "S. epidermidis — biofilm formation on indwelling catheters serves as reservoir; contributes to nosocomial colonization"
+    - taxon: '[[klebsiella]]'
+      role: >-
+        Present in 11/12 NEC cases — primary pathobiont; iron-dependent siderophores, LPS production drives
+        TLR4-mediated intestinal destruction
+    - taxon: '[[escherichia-coli]]'
+      role: Enriched — LPS producer; synergizes with Klebsiella in Proteobacteria bloom; siderophore competition
+    - taxon: '[[clostridium-perfringens|Clostridium perfringens]]'
+      role: Toxigenic strains — alpha-toxin and perfringolysin O cause gas gangrene pattern in intestinal wall
+    - taxon: '[[staphylococcus]]'
+      role: >-
+        S. epidermidis — biofilm formation on indwelling catheters serves as reservoir; contributes to nosocomial
+        colonization
   depleted:
-    - taxon: "[[bifidobacterium]]"
-      role: "Most critically depleted taxon — metabolizes HMOs to acetate/lactate, lowers intestinal pH, suppresses Proteobacteria; its absence is a necessary precondition for the bloom"
-    - taxon: "[[lactobacillus]]"
-      role: "Depleted — loss removes lactic acid production and bacteriocin-mediated pathogen exclusion"
-    - taxon: "[[bacteroides]]"
-      role: "Bacteroidetes phylum depleted — loss reduces polysaccharide fermentation and immune education"
-
-# Layer 3: Nutritional immunity profile
+    - taxon: '[[bifidobacterium]]'
+      role: >-
+        Most critically depleted taxon — metabolizes HMOs to acetate/lactate, lowers intestinal pH, suppresses
+        Proteobacteria; its absence is a necessary precondition for the bloom
+    - taxon: '[[lactobacillus]]'
+      role: Depleted — loss removes lactic acid production and bacteriocin-mediated pathogen exclusion
+    - taxon: '[[bacteroides]]'
+      role: Bacteroidetes phylum depleted — loss reduces polysaccharide fermentation and immune education
 nutritional_immunity:
-  elevated: [calprotectin, lactoferrin-endogenous, pro-inflammatory-cytokines]
-  depleted: [zinc, defensins]
-
-# Layer 4: Ecological features
-ecological_features: [Proteobacteria-bloom-2-weeks-pre-diagnosis, virome-convergence-10-days-pre-onset, TLR4-upregulation-in-premature-epithelium, Bifidobacterium-absence-as-precondition, HMO-mediated-colonization-resistance, feed-forward-barrier-destruction]
-
-# Layer 5: Key virulence enzymes expressed
-virulence_enzymes: [siderophores, LPS-biosynthesis, alpha-toxin, perfringolysin-O, biofilm-formation-enzymes]
-
+  elevated:
+    - calprotectin
+    - lactoferrin-endogenous
+    - pro-inflammatory-cytokines
+  depleted:
+    - zinc
+    - defensins
+ecological_features:
+  - Proteobacteria-bloom-2-weeks-pre-diagnosis
+  - virome-convergence-10-days-pre-onset
+  - TLR4-upregulation-in-premature-epithelium
+  - Bifidobacterium-absence-as-precondition
+  - HMO-mediated-colonization-resistance
+  - feed-forward-barrier-destruction
+virulence_enzymes:
+  - siderophores
+  - LPS-biosynthesis
+  - alpha-toxin
+  - perfringolysin-O
+  - biofilm-formation-enzymes
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 ## Overview

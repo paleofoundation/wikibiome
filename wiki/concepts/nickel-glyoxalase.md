@@ -19,7 +19,7 @@ last_substantive_update: 2026-04-10
 
 **Nickel-glyoxalase** (Ni-GlxI) is a bacterial variant of the **glyoxalase I** enzyme system that depends on **nickel** as its essential metal cofactor. This enzyme detoxifies **methylglyoxal** (MG), a toxic glycolysis byproduct that accumulates under glucose fermentation. Unlike the human cytoplasmic **zinc-glyoxalase** (Zn-GlxI), the bacterial Ni-dependent form creates a targeting opportunity: inhibiting Ni-GlxI disables pathogenic nickel-dependent bacteria without harming the host's zinc-dependent enzyme.
 
-This is a core example of [[primitive-4|primitive-4-metal-dependencies]]: pathogens depend on metals for essential detoxification, and depriving them of that metal is lethal.
+This is a core example of [[metal-dependent-virulence|primitive-4-metal-dependencies]]: pathogens depend on metals for essential detoxification, and depriving them of that metal is lethal.
 
 ## Mechanism
 

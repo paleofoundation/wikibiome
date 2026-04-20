@@ -1,73 +1,109 @@
 ---
-title: "Erectile Dysfunction — Microbiome Signature"
+title: Erectile Dysfunction — Microbiome Signature
 type: signature
-created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
+created: 2026-04-18T00:00:00.000Z
+updated: 2026-04-18T00:00:00.000Z
+last_substantive_update: 2026-04-18T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [erectile-dysfunction, gut-penis-axis, eNOS, testosterone, cadmium, SCFA, endothelial-dysfunction]
-
+tags:
+  - erectile-dysfunction
+  - gut-penis-axis
+  - eNOS
+  - testosterone
+  - cadmium
+  - SCFA
+  - endothelial-dysfunction
 metallomic_signature:
-  elevated: [cadmium, lead, mercury]
-  depleted: [zinc]
-
+  elevated:
+    - cadmium
+    - lead
+    - mercury
+  depleted:
+    - zinc
 taxonomic_signature:
   enriched:
-    - taxon: "[[lachnospiraceae]]"
-      role: "Family-level MR-validated causal risk (OR=1.265 across 3 independent MR studies); most consistently validated risk taxon; may reflect pro-inflammatory species within a normally beneficial family"
-    - taxon: "Senegalimassilia"
-      role: "MR-validated risk taxon (OR=1.355)"
-    - taxon: "Oscillibacter"
-      role: "MR-validated risk taxon (OR=1.201)"
-    - taxon: "Tyzzerella 3"
-      role: "Enriched in ED; pro-inflammatory"
-    - taxon: "[[ruminococcus-gnavus]]"
-      role: "Pro-inflammatory; enriched in multiple inflammatory conditions including CVD"
+    - taxon: '[[lachnospiraceae]]'
+      role: >-
+        Family-level MR-validated causal risk (OR=1.265 across 3 independent MR studies); most consistently validated
+        risk taxon; may reflect pro-inflammatory species within a normally beneficial family
+    - taxon: Senegalimassilia
+      role: MR-validated risk taxon (OR=1.355)
+    - taxon: Oscillibacter
+      role: MR-validated risk taxon (OR=1.201)
+    - taxon: Tyzzerella 3
+      role: Enriched in ED; pro-inflammatory
+    - taxon: '[[ruminococcus-gnavus]]'
+      role: Pro-inflammatory; enriched in multiple inflammatory conditions including CVD
   depleted:
-    - taxon: "Ruminococcaceae UCG013"
-      role: "MR-validated protective taxon (OR=0.761-0.827 across 3 studies); most consistently validated protective taxon"
-    - taxon: "Bacteroides intestinalis"
-      role: "Protective association; polysaccharide fermenter"
-    - taxon: "[[desulfovibrio]]"
-      role: "H2S producer; H2S relaxes corporal smooth muscle independently of NO; depletion compounds NO deficit"
-
+    - taxon: Ruminococcaceae UCG013
+      role: MR-validated protective taxon (OR=0.761-0.827 across 3 studies); most consistently validated protective taxon
+    - taxon: Bacteroides intestinalis
+      role: Protective association; polysaccharide fermenter
+    - taxon: '[[desulfovibrio]]'
+      role: H2S producer; H2S relaxes corporal smooth muscle independently of NO; depletion compounds NO deficit
 nutritional_immunity:
-  elevated: [LPS, TNF-alpha, IL-6, cadmium-testicular]
-  depleted: [nitric-oxide, testosterone, hydrogen-sulfide, zinc]
-
-ecological_features: [endothelial-dysfunction, LPS-translocation, eNOS-suppression, gut-barrier-dysfunction, testosterone-dysregulation]
-
-virulence_enzymes: [LPS-biosynthesis, hydroxysteroid-dehydrogenase-dysregulation]
-
+  elevated:
+    - LPS
+    - TNF-alpha
+    - IL-6
+    - cadmium-testicular
+  depleted:
+    - nitric-oxide
+    - testosterone
+    - hydrogen-sulfide
+    - zinc
+ecological_features:
+  - endothelial-dysfunction
+  - LPS-translocation
+  - eNOS-suppression
+  - gut-barrier-dysfunction
+  - testosterone-dysregulation
+virulence_enzymes:
+  - LPS-biosynthesis
+  - hydroxysteroid-dehydrogenase-dysregulation
 confidence:
   metallomic: preliminary
   taxonomic: moderate
   nutritional_immunity: preliminary
   ecological: moderate
   virulence_enzymes: preliminary
-
 associated_conditions:
-  - condition: "[[cardiovascular-disease]]"
-    shared_metals: [cadmium-elevated]
-    shared_taxa: [lachnospiraceae-enriched, ruminococcus-gnavus-enriched]
-    shared_ecological: [endothelial-dysfunction, LPS-translocation]
-    overlap_score: 0.60
-  - condition: "[[type-2-diabetes]]"
+  - condition: '[[cardiovascular-disease]]'
+    shared_metals:
+      - cadmium-elevated
+    shared_taxa:
+      - lachnospiraceae-enriched
+      - ruminococcus-gnavus-enriched
+    shared_ecological:
+      - endothelial-dysfunction
+      - LPS-translocation
+    overlap_score: 0.6
+  - condition: '[[type-2-diabetes]]'
     shared_metals: []
-    shared_taxa: [lachnospiraceae-enriched]
-    shared_ecological: [endothelial-dysfunction, gut-barrier-dysfunction]
+    shared_taxa:
+      - lachnospiraceae-enriched
+    shared_ecological:
+      - endothelial-dysfunction
+      - gut-barrier-dysfunction
     overlap_score: 0.35
-  - condition: "[[depression]]"
+  - condition: '[[depression]]'
     shared_metals: []
-    shared_taxa: [lachnospiraceae-enriched]
-    shared_ecological: [gut-barrier-dysfunction]
+    shared_taxa:
+      - lachnospiraceae-enriched
+    shared_ecological:
+      - gut-barrier-dysfunction
     overlap_score: 0.25
-
 cureva_status: partial
 validated_interventions: []
 stops: []
-karen_brain_primitives: [1, 3, 4, 5]
+karen_brain_primitives:
+  - 1
+  - 3
+  - 4
+  - 5
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 # Erectile Dysfunction — Microbiome Signature

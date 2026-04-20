@@ -23,11 +23,11 @@ Post-acute sequelae of SARS-CoV-2 infection (PASC), affecting an estimated **10-
 
 ## Microbiome Signature
 
-The microbiome disruption in Long COVID is distinguished from acute COVID and recovery by three features: (1) **persistence** — dysbiosis maintained months to years post-infection, (2) **non-linear recovery** — beneficial taxa peak at 3 months then regress as pathogens persist at 6 months [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]], and (3) **strain-level collapse** — not just species depletion but loss of intra-species genetic diversity in beneficial taxa [[Ke2022-microbiome-covid-metagenome-genomes]].
+The microbiome disruption in Long COVID is distinguished from acute COVID and recovery by three features: (1) **persistence** — dysbiosis maintained months to years post-infection, (2) **non-linear recovery** — beneficial taxa peak at 3 months then regress as pathogens persist at 6 months [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]], and (3) **strain-level collapse** — not just species depletion but loss of intra-species genetic diversity in beneficial taxa [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]].
 
 ### Depleted Taxa
 The hallmark is systematic loss of obligate anaerobic SCFA producers:
-- **[[faecalibacterium-prausnitzii]]** — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary butyrate producer
+- **[[faecalibacterium-prausnitzii]]** — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary butyrate producer
 - **[[roseburia]]** — replicated across 5+ studies; SCFA producer [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
 - **[[bifidobacterium]]** — immune education; SCFA production [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]]
 - **[[lactobacillus]]** — immune modulation; barrier function [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]]
@@ -47,7 +47,7 @@ Coordinated bacterial + fungal + viral community disruption. Bacteriophage popul
 
 ## The Self-Perpetuating Loop
 
-Dysbiosis → SCFA depletion → barrier dysfunction → LPS translocation → systemic inflammation → further dysbiosis. This feedback loop explains why symptoms persist long after viral clearance. Approximately **~30% of hospitalized COVID patients had positive blood cultures** matching gut organisms — direct evidence that barrier dysfunction drives bacteremia in the acute phase [[Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
+Dysbiosis → SCFA depletion → barrier dysfunction → LPS translocation → systemic inflammation → further dysbiosis. This feedback loop explains why symptoms persist long after viral clearance. Approximately **~30% of hospitalized COVID patients had positive blood cultures** matching gut organisms — direct evidence that barrier dysfunction drives bacteremia in the acute phase [[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid|Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
 
 Mendelian randomization analyses provide causal support: specific gut taxa (Lachnospiraceae, Ruminococcaceae) show causal relationships with Long COVID risk [[li-2024-causal-role-gut-microbiota-long-covid-mendelian-randomization]], and broader COVID-19 susceptibility shows causal microbiome contributions [[zhong-2023-causal-effects-gut-microbiome-covid-19-mendelian-randomization]].
 

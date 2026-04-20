@@ -27,7 +27,7 @@ taxonomic_signature:
       role: "SCFA producer; loss compromises gut barrier and epithelial fuel supply; depleted pre-seroconversion"
     - taxon: "[[lachnospiraceae]]"
       role: "Multiple protective genera: UCG008 (MR OR=0.86), Dorea (MR OR=0.81); depletion in pre-T1D children consistent across cohorts"
-    - taxon: "[[peptococcaceae]]"
+    - taxon: "[[clostridium|peptococcaceae]]"
       role: "Causally protective (MR OR=0.82); Firmicutes family contributing to SCFA production"
 
 nutritional_immunity:

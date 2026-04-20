@@ -45,7 +45,7 @@ Beta-glucuronidase is produced by a wide range of Gram-positive and Gram-negativ
 - [[breast-cancer]]: Prolonged estrogen exposure (especially estradiol) increases breast tissue proliferation; estrobolome dysbiosis with high beta-glucuronidase is associated with tamoxifen resistance
 - [[pcos]]: Elevated serum estrogen linked to estrobolome dysbiosis; beta-glucuronidase-rich dysbiosis observed in PCOS patient cohorts
 - [[obesity]]: Estrogen dysbiosis contributes to weight gain and metabolic dysfunction; elevated estrogen promotes fat storage and insulin resistance
-- [[vulvovaginitis-recurrent]]: High vaginal beta-glucuronidase enables recurrent yeast overgrowth by maintaining estrogen levels that promote [[candida-albicans|C. albicans]] hyphal formation
+- [[bacterial-vaginosis|vulvovaginitis-recurrent]]: High vaginal beta-glucuronidase enables recurrent yeast overgrowth by maintaining estrogen levels that promote [[candida-albicans|C. albicans]] hyphal formation
 
 **Key pathogens with high beta-glucuronidase:**
 

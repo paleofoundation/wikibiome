@@ -19,7 +19,7 @@ last_substantive_update: 2026-04-10
 
 **Fermentative metabolism** is the set of anaerobic metabolic pathways by which bacteria break down carbohydrates and amino acids in the absence of oxygen, producing **short-chain fatty acids (SCFAs)** (primarily butyrate, propionate, acetate), gases (H₂, CO₂, CH₄), and organic acids (lactate, formate). In a healthy colon, fermentation is the dominant metabolic mode for the majority of the microbiota, and SCFA production is protective: butyrate feeds colonocytes, propionate regulates immunity, and acetate is a substrate for systemic metabolism. In dysbiosis, fermentation shifts toward **proteolytic fermentation**—breakdown of amino acids rather than carbohydrates—producing toxic byproducts (ammonia, phenols, indoles, hydrogen sulfide) that damage the epithelium and drive inflammation.
 
-This exemplifies [[primitive-9|primitive-9-oxygen-state]]: the oxygenation state of an ecological niche determines which metabolic pathways dominate and which taxa thrive.
+This exemplifies [[hypoxia|primitive-9-oxygen-state]]: the oxygenation state of an ecological niche determines which metabolic pathways dominate and which taxa thrive.
 
 ## Mechanism
 
@@ -33,7 +33,7 @@ This exemplifies [[primitive-9|primitive-9-oxygen-state]]: the oxygenation state
 - **Acetate fermentation**: Pyruvate → Acetyl-CoA → acetate (via acetyl-CoA synthetase)
  - Example taxa: [[bacteroides-fragilis|bacteroides]], [[prevotella]]
 - **Butyrate fermentation**: Pyruvate → Acetyl-CoA → butyryl-CoA → butyrate (via key pathway enzyme butyrate kinase)
- - Example taxa: [[lachnospiraceae]] (Roseburia, Faecalibacterium), [[clostridium-cluster-iv]]
+ - Example taxa: [[lachnospiraceae]] (Roseburia, Faecalibacterium), [[clostridium|clostridium-cluster-iv]]
 - **Propionate fermentation**: Succinate or pyruvate → propionyl-CoA → propionate
  - Example taxa: [[phascolarctobacterium]], [[bacteroides-vulgatus]]
 

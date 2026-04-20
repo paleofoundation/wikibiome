@@ -1,68 +1,114 @@
 ---
-title: "Necrotizing Enterocolitis — Microbiome Signature"
+title: Necrotizing Enterocolitis — Microbiome Signature
 type: signature
-created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
+created: 2026-04-18T00:00:00.000Z
+updated: 2026-04-18T00:00:00.000Z
+last_substantive_update: 2026-04-18T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [necrotizing-enterocolitis, neonatal, preterm, TLR4, Proteobacteria-bloom, lactoferrin, HMO, NEC-prevention]
-
+tags:
+  - necrotizing-enterocolitis
+  - neonatal
+  - preterm
+  - TLR4
+  - Proteobacteria-bloom
+  - lactoferrin
+  - HMO
+  - NEC-prevention
 metallomic_signature:
-  elevated: [iron]
-  depleted: [zinc]
-
+  elevated:
+    - iron
+  depleted:
+    - zinc
 taxonomic_signature:
   enriched:
-    - taxon: "[[klebsiella-pneumoniae]]"
-      role: "Primary NEC pathobiont; present in 11/12 cases in prospective cohort; siderophore-dependent iron piracy; LPS drives TLR4 cascade"
-    - taxon: "[[escherichia-coli]]"
-      role: "LPS producer; synergizes with Klebsiella in the Proteobacteria bloom"
-    - taxon: "Clostridium perfringens (toxigenic)"
-      role: "Alpha-toxin and perfringolysin O produce gas gangrene pattern in intestinal wall"
-    - taxon: "Staphylococcus epidermidis"
-      role: "Biofilm former on indwelling catheters; reservoir for continued colonization"
-    - taxon: "[[enterococcus]]"
-      role: "Opportunistic; thrives in antibiotic-exposed neonatal gut"
+    - taxon: '[[klebsiella-pneumoniae]]'
+      role: >-
+        Primary NEC pathobiont; present in 11/12 cases in prospective cohort; siderophore-dependent iron piracy; LPS
+        drives TLR4 cascade
+    - taxon: '[[escherichia-coli]]'
+      role: LPS producer; synergizes with Klebsiella in the Proteobacteria bloom
+    - taxon: Clostridium perfringens (toxigenic)
+      role: Alpha-toxin and perfringolysin O produce gas gangrene pattern in intestinal wall
+    - taxon: Staphylococcus epidermidis
+      role: Biofilm former on indwelling catheters; reservoir for continued colonization
+    - taxon: '[[enterococcus]]'
+      role: Opportunistic; thrives in antibiotic-exposed neonatal gut
   depleted:
-    - taxon: "[[bifidobacterium]]"
-      role: "Most critical depleted taxon; metabolizes HMOs producing acetate/lactate that suppress Proteobacteria; its absence is a precondition for the bloom"
-    - taxon: "[[lactobacillus]]"
-      role: "Produces lactic acid and bacteriocins; loss removes competitive exclusion of pathogens"
-    - taxon: "Bacteroidetes (phylum)"
-      role: "Loss reduces polysaccharide fermentation and immune education"
-
+    - taxon: '[[bifidobacterium]]'
+      role: >-
+        Most critical depleted taxon; metabolizes HMOs producing acetate/lactate that suppress Proteobacteria; its
+        absence is a precondition for the bloom
+    - taxon: '[[lactobacillus]]'
+      role: Produces lactic acid and bacteriocins; loss removes competitive exclusion of pathogens
+    - taxon: Bacteroidetes (phylum)
+      role: Loss reduces polysaccharide fermentation and immune education
 nutritional_immunity:
-  elevated: [TLR4-expression, LPS, TNF-alpha, IL-1beta, IL-6]
-  depleted: [acetate, lactate, defensins, secretory-IgA]
-
-ecological_features: [Proteobacteria-bloom, TLR4-feed-forward-loop, virome-convergence, immature-barrier, parenteral-iron-overload, biofilm]
-
-virulence_enzymes: [siderophores, alpha-toxin, perfringolysin-O, LPS-biosynthesis]
-
+  elevated:
+    - TLR4-expression
+    - LPS
+    - TNF-alpha
+    - IL-1beta
+    - IL-6
+  depleted:
+    - acetate
+    - lactate
+    - defensins
+    - secretory-IgA
+ecological_features:
+  - Proteobacteria-bloom
+  - TLR4-feed-forward-loop
+  - virome-convergence
+  - immature-barrier
+  - parenteral-iron-overload
+  - biofilm
+virulence_enzymes:
+  - siderophores
+  - alpha-toxin
+  - perfringolysin-O
+  - LPS-biosynthesis
 confidence:
   metallomic: preliminary
   taxonomic: moderate
   nutritional_immunity: moderate
   ecological: moderate
   virulence_enzymes: moderate
-
 associated_conditions:
-  - condition: "[[cerebral-palsy]]"
-    shared_metals: [iron-depleted, zinc-depleted]
-    shared_taxa: [klebsiella-enriched, bifidobacterium-depleted, enterococcus-enriched]
-    shared_ecological: [Proteobacteria-bloom, SCFA-depletion, gut-barrier-dysfunction]
+  - condition: '[[cerebral-palsy]]'
+    shared_metals:
+      - iron-depleted
+      - zinc-depleted
+    shared_taxa:
+      - klebsiella-enriched
+      - bifidobacterium-depleted
+      - enterococcus-enriched
+    shared_ecological:
+      - Proteobacteria-bloom
+      - SCFA-depletion
+      - gut-barrier-dysfunction
     overlap_score: 0.72
-  - condition: "[[pancreatitis]]"
+  - condition: '[[pancreatitis]]'
     shared_metals: []
-    shared_taxa: [klebsiella-enriched, escherichia-coli-enriched, bifidobacterium-depleted]
-    shared_ecological: [bacterial-translocation, gut-barrier-dysfunction]
+    shared_taxa:
+      - klebsiella-enriched
+      - escherichia-coli-enriched
+      - bifidobacterium-depleted
+    shared_ecological:
+      - bacterial-translocation
+      - gut-barrier-dysfunction
     overlap_score: 0.35
-
 cureva_status: partial
 validated_interventions: []
 stops: []
-karen_brain_primitives: [1, 2, 4, 5, 8, 9]
+karen_brain_primitives:
+  - 1
+  - 2
+  - 4
+  - 5
+  - 8
+  - 9
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 # Necrotizing Enterocolitis — Microbiome Signature

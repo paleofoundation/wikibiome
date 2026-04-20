@@ -42,8 +42,8 @@ Urease requires two Ni²⁺ per active site. The nickel atoms are:
 - Functionally important for substrate binding and catalytic turnover
 
 **Nickel acquisition:**
-- H. pylori encodes a [[nickel]] permease [[nixa]] to transport Ni²⁺ from the hostile gastric environment
-- In the cytoplasm, accessory proteins ([[ured]], [[uree]], [[uref]], [[ureg]]) insert nickel into the urease apoprotein during maturation
+- H. pylori encodes a [[nickel]] permease [[nickel-transporters|nixa]] to transport Ni²⁺ from the hostile gastric environment
+- In the cytoplasm, accessory proteins ([[urease|ured]], [[urease|uree]], [[urease|uref]], [[urease|ureg]]) insert nickel into the urease apoprotein during maturation
 - Mutations in these maturation factors → catalytically inactive urease → loss of virulence
 
 ## Role in Disease
@@ -52,7 +52,7 @@ Urease requires two Ni²⁺ per active site. The nickel atoms are:
 
 - [[gastric-ulcer]]: H. pylori colonization → urease-driven ammonia → local pH buffering → epithelial invasion and inflammation → ulcer formation
 - [[gastric-adenocarcinoma]]: Chronic H. pylori infection (urease-mediated persistence) → chronic atrophic gastritis → intestinal metaplasia → gastric cancer (WHO Group 1 carcinogen)
-- [[malt-lymphoma]] (mucosa-associated lymphoid tissue lymphoma): Indolent B-cell lymphoma driven by chronic H. pylori antigen stimulation; urease is an immunogen
+- [[helicobacter-pylori|malt-lymphoma]] (mucosa-associated lymphoid tissue lymphoma): Indolent B-cell lymphoma driven by chronic H. pylori antigen stimulation; urease is an immunogen
 - **Dyspepsia and functional gastric disease**: H. pylori-negative dyspepsia may be associated with other urease-producing bacteria ([[proteus-mirabilis|Proteus mirabilis]], [[klebsiella-pneumoniae|Klebsiella pneumoniae]])
 
 **Urease as biomarker:**
@@ -70,7 +70,7 @@ Nickel-urease exemplifies **Primitive 4: Microbial Metal Dependencies as Achille
 **Nickel bioavailability in the stomach:**
 - Gastric pH (1.5–2) solubilizes nickel; Ni²⁺ is biologically available
 - H. pylori NixA permease transports Ni²⁺ against concentration gradient
-- Nickel chelators ([[edta]], [[dithiocarbamate]]) in gastric juice may limit nickel availability and reduce H. pylori colonization density
+- Nickel chelators ([[edta]], [[metal-chelation-therapy|dithiocarbamate]]) in gastric juice may limit nickel availability and reduce H. pylori colonization density
 
 **Cross-talk with [[iron]] and [[zinc]]:**
 - [[iron]]-dependent enzymes: H. pylori also produces [[iron]]-dependent catalase and superoxide dismutase; dual metal starvation (nickel + iron) is more potent than single-metal depletion

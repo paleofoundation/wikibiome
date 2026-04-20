@@ -65,7 +65,7 @@ Environmental heavy metal exposure is emerging as a contributor to vaginal dysbi
 - **[[lead]]**: Pb exposure correlates with reduced Lactobacillus dominance.
 - **[[mercury]]**: Hg exposure is linked to altered vaginal microbial communities.
 
-The proposed mechanism: heavy metals selectively disadvantage Lactobacillus (which has limited metal resistance mechanisms) while BV-associated organisms -- many of which are Gram-negative with outer membrane barriers and metal efflux pumps -- survive and expand. This is a direct application of **[[metals-as-selective-pressures]]** (Karen's Brain Primitive 1) to the vaginal ecosystem.
+The proposed mechanism: heavy metals selectively disadvantage Lactobacillus (which has limited metal resistance mechanisms) while BV-associated organisms -- many of which are Gram-negative with outer membrane barriers and metal efflux pumps -- survive and expand. This is a direct application of **[[heavy-metals|metals-as-selective-pressures]]** (Karen's Brain Primitive 1) to the vaginal ecosystem.
 
 ## BV and Reproductive Health
 

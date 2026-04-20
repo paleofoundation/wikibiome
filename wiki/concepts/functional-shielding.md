@@ -19,7 +19,7 @@ last_substantive_update: 2026-04-10
 
 **Functional shielding** is the phenomenon in which fungal biofilms—particularly **[[candida-albicans]]** hyphae and pseudohyphae—physically protect co-resident bacterial pathogens from host immune attack, antimicrobial peptides, antibiotics, and oxidative stress. The fungal extracellular matrix (ECM) acts as a permeability barrier while the fungus benefits from bacterial metabolites and cross-kingdom signaling. This symbiotic arrangement is especially common in dysbiosis-driven conditions where both fungi and bacteria proliferate unchecked, creating "super-biofilms" that are far more resilient than single-species communities.
 
-This exemplifies [[primitive-6|primitive-6-interkingdom-relationships]]: understanding disease requires examining not just pathogens in isolation, but the entire ecological network they inhabit.
+This exemplifies [[functional-shielding|primitive-6-interkingdom-relationships]]: understanding disease requires examining not just pathogens in isolation, but the entire ecological network they inhabit.
 
 ## Mechanism
 
@@ -41,10 +41,10 @@ This exemplifies [[primitive-6|primitive-6-interkingdom-relationships]]: underst
 Fungal-bacterial biofilms with functional shielding are documented in:
 
 - **[[endometriosis]]** — [[candida-albicans]] + [[escherichia-coli]] biofilms in endometrial lesions; shielding enables persistent bacterial survival despite repeated immune attack.
-- **[[chronic-pelvic-inflammatory-disease]]** — [[neisseria-gonorrhoeae]] shielded by [[candida-albicans|candida]] biofilms; reduced antibiotic penetration leads to treatment failure.
+- **[[pelvic-inflammatory-disease|chronic-pelvic-inflammatory-disease]]** — [[pelvic-inflammatory-disease|neisseria-gonorrhoeae]] shielded by [[candida-albicans|candida]] biofilms; reduced antibiotic penetration leads to treatment failure.
 - **[[inflammatory-bowel-disease]]** — [[candida-tropicalis]] + pathogenic [[bacteroides-fragilis|bacteroides]] biofilms in inflamed mucosa; shielding perpetuates dysbiosis despite immune activation.
-- **[[diabetic-wounds]]** — [[candida-auris]] biofilms protect wound-colonizing [[staphylococcus-aureus]]; impaired wound healing.
-- **[[chronic-sinusitis]]** — [[candida-auris]] and [[pseudomonas-aeruginosa]] biofilms in sinus cavities; resist topical antifungals and antibiotics.
+- **[[type-2-diabetes|diabetic-wounds]]** — [[candida-auris]] biofilms protect wound-colonizing [[staphylococcus-aureus]]; impaired wound healing.
+- **[[biofilm|chronic-sinusitis]]** — [[candida-auris]] and [[pseudomonas-aeruginosa]] biofilms in sinus cavities; resist topical antifungals and antibiotics.
 
 ## Metal Connections
 

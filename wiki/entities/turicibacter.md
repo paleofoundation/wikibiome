@@ -95,6 +95,6 @@ Paradoxically, *Turicibacter* is protective against atrial fibrillation (OR = 0.
 - [[intestinimonas]] -- co-identified as HT risk taxon
 - [[serotonin]] -- Turicibacter interacts with host serotonin transporter
 - [[clostridia]] -- spore-forming Clostridia regulate EC cell serotonin, linking to Turicibacter's serotonin niche
-- [[coronary-heart-disease]] -- CHD risk factor via MR
+- [[cardiovascular-disease|coronary-heart-disease]] -- CHD risk factor via MR
 - [[autism-spectrum-disorder]] -- complex association (MR risk vs. observational depletion)
 - [[bile-acid-metabolism]] -- Turicibacter participates in bile acid modification

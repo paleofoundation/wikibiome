@@ -28,7 +28,7 @@ In the forward direction, H₂ is oxidized to protons and electrons, releasing e
 NiFe-hydrogenases are found in:
 - [[helicobacter-pylori|H. pylori]] (survival in the microaerophilic gastric niche)
 - [[methanobrevibacter-smithii|Methanobrevibacter smithii]] (methane production; H₂ consumption)
-- **Sulfate-reducing bacteria** ([[desulfovibrio]], [[desulfomonas]]) — H₂ is the preferred electron donor in sulfate reduction
+- **Sulfate-reducing bacteria** ([[desulfovibrio]], [[desulfovibrio|desulfomonas]]) — H₂ is the preferred electron donor in sulfate reduction
 
 NiFe-hydrogenases are virulence factors enabling **anaerobic persistence** and **interkingdom cooperation** (H₂ produced by one organism consumed by another in the same biofilm).
 

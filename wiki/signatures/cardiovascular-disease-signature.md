@@ -54,7 +54,7 @@ taxonomic_signature:
       role: "SCFA-producing family — reduced capacity for butyrate synthesis in ACVD"
     - taxon: "[[clostridiales]]"
       role: "Butyrate producers and protective IPA (indole-3-propionic acid) producers — depleted in untreated ACVD"
-    - taxon: "[[mucor]]"
+    - taxon: "[[mycobiome|mucor]]"
       role: "Mycobiome: M. racemosus decreased in CHD; potentially protective fungal taxon"
 
 nutritional_immunity:

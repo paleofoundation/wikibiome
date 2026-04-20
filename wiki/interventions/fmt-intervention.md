@@ -140,7 +140,7 @@ FMT operates through **ecological restoration** rather than single-target pharma
 
 ## Connections
 
-**Entities:** [[clostridioides-difficile]], [[faecalibacterium-prausnitzii]], [[roseburia-spp]]
+**Entities:** [[clostridioides-difficile]], [[faecalibacterium-prausnitzii]], [[roseburia|roseburia-spp]]
 
 **Concepts:** [[probiotics|colonization-resistance]], [[short-chain-fatty-acids]], [[intestinal-permeability|barrier-integrity]], [[gut-brain-axis]], [[bile-acid-metabolism]]
 

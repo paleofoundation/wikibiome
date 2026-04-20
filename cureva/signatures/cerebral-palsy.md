@@ -1,85 +1,121 @@
 ---
-title: "Cerebral Palsy — Microbiome Signature"
+title: Cerebral Palsy — Microbiome Signature
 type: signature
-created: 2026-04-15
-updated: 2026-04-15
-last_substantive_update: 2026-04-15
-sources: [huang-2019-gut-microbiota-cerebral-palsy-epilepsy.md, peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy.md, wang-2023-microbial-gut-brain-white-matter-preterm.md, huang-2022-dietary-fiber-probiotics-constipation-cp.md, ferreira-2021-oral-gut-inflammation-cerebral-palsy.md, allen-2021-multi-organ-dysfunction-cerebral-palsy.md, yan-2025-infant-serum-metals-gut-microbiota.md, lyu-2024-care-mode-gut-microbiota-cp-children.md]
+created: 2026-04-15T00:00:00.000Z
+updated: 2026-04-15T00:00:00.000Z
+last_substantive_update: 2026-04-15T00:00:00.000Z
+sources:
+  - huang-2019-gut-microbiota-cerebral-palsy-epilepsy.md
+  - peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy.md
+  - wang-2023-microbial-gut-brain-white-matter-preterm.md
+  - huang-2022-dietary-fiber-probiotics-constipation-cp.md
+  - ferreira-2021-oral-gut-inflammation-cerebral-palsy.md
+  - allen-2021-multi-organ-dysfunction-cerebral-palsy.md
+  - yan-2025-infant-serum-metals-gut-microbiota.md
+  - lyu-2024-care-mode-gut-microbiota-cp-children.md
 source_count: 8
-tags: [cerebral-palsy, neurodevelopmental, preterm, white-matter-injury, gut-brain-axis, NEC]
+tags:
+  - cerebral-palsy
+  - neurodevelopmental
+  - preterm
+  - white-matter-injury
+  - gut-brain-axis
+  - NEC
 platform: both
 cureva_status: partial
-validated_interventions: [dietary-fiber-probiotics-cp-constipation]
+validated_interventions:
+  - dietary-fiber-probiotics-cp-constipation
 stops: []
-
-# Confidence per layer
 confidence:
   metallomic: preliminary
   taxonomic: moderate
   nutritional_immunity: preliminary
   ecological: moderate
   virulence_enzymes: preliminary
-
-# Cross-condition pattern detection
 associated_conditions:
-  - condition: "[[necrotizing-enterocolitis]]"
-    shared_metals: [iron, zinc]
-    shared_taxa: [klebsiella, bifidobacterium, enterococcus]
-    shared_ecological: [Proteobacteria-bloom, barrier-dysfunction, TLR4-activation]
-    overlap_score: 0.70
-  - condition: "[[epilepsy]]"
+  - condition: '[[necrotizing-enterocolitis]]'
+    shared_metals:
+      - iron
+      - zinc
+    shared_taxa:
+      - klebsiella
+      - bifidobacterium
+      - enterococcus
+    shared_ecological:
+      - Proteobacteria-bloom
+      - barrier-dysfunction
+      - TLR4-activation
+    overlap_score: 0.7
+  - condition: '[[epilepsy]]'
     shared_metals: []
-    shared_taxa: [faecalibacterium-prausnitzii]
-    shared_ecological: [kynurenine-pathway-dysregulation, neuroinflammation]
+    shared_taxa:
+      - faecalibacterium-prausnitzii
+    shared_ecological:
+      - kynurenine-pathway-dysregulation
+      - neuroinflammation
     overlap_score: 0.32
-
-karen_brain_primitives: [1, 3, 5, 9]
-
-# Layer 1: Metallomic signature
+karen_brain_primitives:
+  - 1
+  - 3
+  - 5
+  - 9
 metallomic_signature:
-  elevated: [lead, arsenic, copper]
-  depleted: [iron, zinc]
-
-# Layer 2: Taxonomic signature
+  elevated:
+    - lead
+    - arsenic
+    - copper
+  depleted:
+    - iron
+    - zinc
 taxonomic_signature:
   enriched:
-    - taxon: "[[streptococcus]]"
-      role: "Oral-gut axis — enriched due to swallowing dysfunction; maintains chronic low-grade inflammation"
-    - taxon: "[[enterococcus]]"
-      role: "Opportunistic — thrives in antibiotic-exposed neonatal gut; contributes to dysbiotic state"
-    - taxon: "[[akkermansia-muciniphila]]"
-      role: "Paradoxically enriched — may reflect mucin layer compensation or barrier dysfunction"
-    - taxon: "[[prevotella]]"
-      role: "Enriched in some CP cohorts — may relate to oral dysbiosis and swallowing dysfunction"
-    - taxon: "[[veillonella]]"
-      role: "Lactate-fermenting organism enriched in CP — metabolic adaptation to altered substrate availability"
-    - taxon: "[[klebsiella]]"
-      role: "NEC-to-CP driver — predictive biomarker for brain injury in preterm infants; LPS-mediated microglial activation"
+    - taxon: '[[streptococcus]]'
+      role: Oral-gut axis — enriched due to swallowing dysfunction; maintains chronic low-grade inflammation
+    - taxon: '[[enterococcus]]'
+      role: Opportunistic — thrives in antibiotic-exposed neonatal gut; contributes to dysbiotic state
+    - taxon: '[[akkermansia-muciniphila]]'
+      role: Paradoxically enriched — may reflect mucin layer compensation or barrier dysfunction
+    - taxon: '[[prevotella]]'
+      role: Enriched in some CP cohorts — may relate to oral dysbiosis and swallowing dysfunction
+    - taxon: '[[veillonella]]'
+      role: Lactate-fermenting organism enriched in CP — metabolic adaptation to altered substrate availability
+    - taxon: '[[klebsiella]]'
+      role: NEC-to-CP driver — predictive biomarker for brain injury in preterm infants; LPS-mediated microglial activation
   depleted:
-    - taxon: "[[bacteroides]]"
-      role: "Depleted — loss reduces polysaccharide fermentation, immune education, and colonization resistance"
-    - taxon: "[[faecalibacterium-prausnitzii|faecalibacterium]]"
-      role: "Primary butyrate producer — depletion impairs anti-inflammatory signaling via gut-brain axis"
-    - taxon: "[[blautia]]"
-      role: "Acetate/propionate producer — loss reduces SCFA-mediated immune tolerance"
-    - taxon: "[[ruminococcus]]"
-      role: "Fiber-degrading commensal — depleted in CP gut ecology"
-    - taxon: "[[roseburia]]"
-      role: "Butyrate producer — depletion compounds SCFA deficit"
-    - taxon: "[[lactobacillus]]"
-      role: "Depleted — loss reduces lactic acid production and competitive exclusion of pathogens"
-
-# Layer 3: Nutritional immunity profile
+    - taxon: '[[bacteroides]]'
+      role: Depleted — loss reduces polysaccharide fermentation, immune education, and colonization resistance
+    - taxon: '[[faecalibacterium-prausnitzii|faecalibacterium]]'
+      role: Primary butyrate producer — depletion impairs anti-inflammatory signaling via gut-brain axis
+    - taxon: '[[blautia]]'
+      role: Acetate/propionate producer — loss reduces SCFA-mediated immune tolerance
+    - taxon: '[[ruminococcus]]'
+      role: Fiber-degrading commensal — depleted in CP gut ecology
+    - taxon: '[[roseburia]]'
+      role: Butyrate producer — depletion compounds SCFA deficit
+    - taxon: '[[lactobacillus]]'
+      role: Depleted — loss reduces lactic acid production and competitive exclusion of pathogens
 nutritional_immunity:
-  elevated: [pro-inflammatory-cytokines, TNF-alpha, IL-1beta]
-  depleted: [iron, zinc]
-
-# Layer 4: Ecological features
-ecological_features: [NEC-to-CP-pathway, TLR4-LPS-microglial-activation, oral-gut-inflammatory-axis, white-matter-injury, SCFA-depletion, Proteobacteria-bloom, kynurenine-pathway-dysregulation]
-
-# Layer 5: Key virulence enzymes expressed
-virulence_enzymes: [LPS-biosynthesis, siderophores, tryptophanase]
-
+  elevated:
+    - pro-inflammatory-cytokines
+    - TNF-alpha
+    - IL-1beta
+  depleted:
+    - iron
+    - zinc
+ecological_features:
+  - NEC-to-CP-pathway
+  - TLR4-LPS-microglial-activation
+  - oral-gut-inflammatory-axis
+  - white-matter-injury
+  - SCFA-depletion
+  - Proteobacteria-bloom
+  - kynurenine-pathway-dysregulation
+virulence_enzymes:
+  - LPS-biosynthesis
+  - siderophores
+  - tryptophanase
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 8 sources, signature minimum 10
 ---
 
 ## Overview

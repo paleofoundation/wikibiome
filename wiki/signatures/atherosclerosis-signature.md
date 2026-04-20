@@ -24,7 +24,7 @@ taxonomic_signature:
       role: "Enriched in ACVD; pro-inflammatory mucin degrader"
     - taxon: "[[eggerthella]]"
       role: "E. lenta enriched in ACVD; pro-inflammatory"
-    - taxon: "[[serratia]]"
+    - taxon: "[[serratia-marcescens|serratia]]"
       role: "Positively associated with CRP levels (P=0.0001), intima-media thickness, and carotid artery stenosis in subclinical CVD"
     - taxon: "[[atopobium-parvulum]]"
       role: "Enriched in ACVD; positively correlated with triglyceride levels (r=0.39)"
@@ -144,7 +144,7 @@ karen_brain_primitives: [1, 3, 4, 5, 8]
 | [[escherichia-coli]] | Multiple MLGs with unique ACVD features; copper homeostasis systems | [[jie-2017-gut-microbiome-acvd]] |
 | [[streptococcus]] spp. | Oral streptococci translocated to gut; enriched in ACVD and cirrhosis; oral bacteria found in atherosclerotic plaques | [[jie-2017-gut-microbiome-acvd]], [[tonelli-2023-oral-microbiome-cvd-pathophysiology]] |
 | [[ruminococcus-gnavus]] | Enriched in ACVD; pro-inflammatory mucin degrader | [[jie-2017-gut-microbiome-acvd]] |
-| [[serratia]] | Positively associated with CRP (P=0.0001), IMT, and carotid stenosis | [[kashtanova-2017-gut-microbiota-vascular-biomarkers-subclinical-cvd]] |
+| [[serratia-marcescens|serratia]] | Positively associated with CRP (P=0.0001), IMT, and carotid stenosis | [[kashtanova-2017-gut-microbiota-vascular-biomarkers-subclinical-cvd]] |
 | [[atopobium-parvulum]] | Correlated with triglyceride levels (r=0.39) | [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]] |
 
 ### Depleted Taxa

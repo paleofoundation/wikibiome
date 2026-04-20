@@ -73,7 +73,7 @@ Abrupt dietary shifts (especially low-fiber diets) starve SCFA-producing commens
 
 ### Ecological Engineering
 
-The [[karen-brain-primitives|Two-Sided Ecological Engineering]] principle (Primitive 5) applies directly to colonization resistance restoration:
+The [[heavy-metals|Two-Sided Ecological Engineering]] principle (Primitive 5) applies directly to colonization resistance restoration:
 
 - **Suppress side**: Remove or reduce pathobionts (targeted antimicrobials, metal restriction)
 - **Restore side**: Reintroduce missing beneficial functions (probiotics, prebiotics, FMT)

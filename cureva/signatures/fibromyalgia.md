@@ -1,86 +1,128 @@
 ---
-title: "Fibromyalgia — Microbiome Signature"
+title: Fibromyalgia — Microbiome Signature
 type: signature
-created: 2026-04-15
-updated: 2026-04-15
-last_substantive_update: 2026-04-15
+created: 2026-04-15T00:00:00.000Z
+updated: 2026-04-15T00:00:00.000Z
+last_substantive_update: 2026-04-15T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [fibromyalgia, chronic-pain, central-sensitization, gut-brain-axis, metallomic]
+tags:
+  - fibromyalgia
+  - chronic-pain
+  - central-sensitization
+  - gut-brain-axis
+  - metallomic
 platform: both
 cureva_status: partial
-validated_interventions: [mediterranean-diet-fibromyalgia]
+validated_interventions:
+  - mediterranean-diet-fibromyalgia
 stops: []
-
-# Confidence per layer
 confidence:
   metallomic: moderate
   taxonomic: moderate
   nutritional_immunity: preliminary
   ecological: preliminary
   virulence_enzymes: preliminary
-
-# Cross-condition pattern detection
 associated_conditions:
-  - condition: "[[depression]]"
-    shared_metals: [magnesium, selenium]
-    shared_taxa: [faecalibacterium-prausnitzii, bifidobacterium, lachnospiraceae]
-    shared_ecological: [tryptophan-kynurenine-shunting, SCFA-depletion, leaky-gut]
+  - condition: '[[depression]]'
+    shared_metals:
+      - magnesium
+      - selenium
+    shared_taxa:
+      - faecalibacterium-prausnitzii
+      - bifidobacterium
+      - lachnospiraceae
+    shared_ecological:
+      - tryptophan-kynurenine-shunting
+      - SCFA-depletion
+      - leaky-gut
     overlap_score: 0.62
-  - condition: "[[irritable-bowel-syndrome]]"
-    shared_metals: [magnesium]
-    shared_taxa: [faecalibacterium-prausnitzii, bifidobacterium, eggerthella]
-    shared_ecological: [visceral-hypersensitivity, SCFA-depletion, barrier-dysfunction]
+  - condition: '[[irritable-bowel-syndrome]]'
+    shared_metals:
+      - magnesium
+    shared_taxa:
+      - faecalibacterium-prausnitzii
+      - bifidobacterium
+      - eggerthella
+    shared_ecological:
+      - visceral-hypersensitivity
+      - SCFA-depletion
+      - barrier-dysfunction
     overlap_score: 0.58
-  - condition: "[[chronic-fatigue-syndrome]]"
-    shared_metals: [magnesium, selenium]
-    shared_taxa: [faecalibacterium-prausnitzii, bifidobacterium]
-    shared_ecological: [SCFA-depletion, mitochondrial-dysfunction]
+  - condition: '[[chronic-fatigue-syndrome]]'
+    shared_metals:
+      - magnesium
+      - selenium
+    shared_taxa:
+      - faecalibacterium-prausnitzii
+      - bifidobacterium
+    shared_ecological:
+      - SCFA-depletion
+      - mitochondrial-dysfunction
     overlap_score: 0.52
-
-karen_brain_primitives: [1, 2, 3, 5]
-
-# Layer 1: Metallomic signature
+karen_brain_primitives:
+  - 1
+  - 2
+  - 3
+  - 5
 metallomic_signature:
-  elevated: [copper]
-  depleted: [iron, magnesium, selenium, glutathione]
-
-# Layer 2: Taxonomic signature
+  elevated:
+    - copper
+  depleted:
+    - iron
+    - magnesium
+    - selenium
+    - glutathione
 taxonomic_signature:
   enriched:
-    - taxon: "[[eggerthella]]"
-      role: "MR-validated causal taxon (OR=1.897) — neurotoxic metabolites, pro-inflammatory activation, enriched across neuropsychiatric conditions"
-    - taxon: "[[flavonifractor]]"
-      role: "Enriched in FM — associated with oxidative stress, tryptophan catabolism"
-    - taxon: "[[coprococcus]]"
-      role: "Coprococcus 2 — MR causal (OR=2.317); paradoxical enrichment of butyrate-associated genus suggests strain-level functional divergence"
-    - taxon: "[[streptococcus]]"
-      role: "Streptococcus salivarius — enriched in oral and gut communities; may reflect oral-gut axis"
-    - taxon: "[[collinsella]]"
-      role: "Pro-inflammatory; promotes IL-17A signaling; enriched in FM and rheumatoid arthritis"
+    - taxon: '[[eggerthella]]'
+      role: >-
+        MR-validated causal taxon (OR=1.897) — neurotoxic metabolites, pro-inflammatory activation, enriched across
+        neuropsychiatric conditions
+    - taxon: '[[flavonifractor]]'
+      role: Enriched in FM — associated with oxidative stress, tryptophan catabolism
+    - taxon: '[[coprococcus]]'
+      role: >-
+        Coprococcus 2 — MR causal (OR=2.317); paradoxical enrichment of butyrate-associated genus suggests strain-level
+        functional divergence
+    - taxon: '[[streptococcus]]'
+      role: Streptococcus salivarius — enriched in oral and gut communities; may reflect oral-gut axis
+    - taxon: '[[collinsella]]'
+      role: Pro-inflammatory; promotes IL-17A signaling; enriched in FM and rheumatoid arthritis
   depleted:
-    - taxon: "[[faecalibacterium-prausnitzii|faecalibacterium]]"
-      role: "Most consistently depleted taxon (5+ studies) — primary colonic butyrate producer; loss impairs anti-inflammatory signaling and barrier integrity"
-    - taxon: "[[bifidobacterium]]"
-      role: "Depleted — loss reduces lactate cross-feeding, barrier support, and pathogen exclusion"
-    - taxon: "[[bacteroides-vulgatus|Bacteroides uniformis]]"
-      role: "Depleted — impaired polysaccharide degradation and immune regulation"
-    - taxon: "[[lachnospiraceae]]"
-      role: "SCFA-producing family depleted — reduced colonocyte nutrition and immune tolerance"
-    - taxon: "[[roseburia]]"
-      role: "Butyrate producer — depletion compounds SCFA deficit and barrier dysfunction"
-
-# Layer 3: Nutritional immunity profile
+    - taxon: '[[faecalibacterium-prausnitzii|faecalibacterium]]'
+      role: >-
+        Most consistently depleted taxon (5+ studies) — primary colonic butyrate producer; loss impairs
+        anti-inflammatory signaling and barrier integrity
+    - taxon: '[[bifidobacterium]]'
+      role: Depleted — loss reduces lactate cross-feeding, barrier support, and pathogen exclusion
+    - taxon: '[[bacteroides-vulgatus|Bacteroides uniformis]]'
+      role: Depleted — impaired polysaccharide degradation and immune regulation
+    - taxon: '[[lachnospiraceae]]'
+      role: SCFA-producing family depleted — reduced colonocyte nutrition and immune tolerance
+    - taxon: '[[roseburia]]'
+      role: Butyrate producer — depletion compounds SCFA deficit and barrier dysfunction
 nutritional_immunity:
-  elevated: [ceruloplasmin, pro-inflammatory-cytokines]
-  depleted: [glutathione, GPX3, ferritin]
-
-# Layer 4: Ecological features
-ecological_features: [SCFA-depletion, butyrate-paradox, barrier-dysfunction, tryptophan-kynurenine-shunting, copper-iron-axis-imbalance, central-sensitization]
-
-# Layer 5: Key virulence enzymes expressed
-virulence_enzymes: [tryptophanase, pro-inflammatory-metabolite-synthesis, copper-dependent-oxidases]
-
+  elevated:
+    - ceruloplasmin
+    - pro-inflammatory-cytokines
+  depleted:
+    - glutathione
+    - GPX3
+    - ferritin
+ecological_features:
+  - SCFA-depletion
+  - butyrate-paradox
+  - barrier-dysfunction
+  - tryptophan-kynurenine-shunting
+  - copper-iron-axis-imbalance
+  - central-sensitization
+virulence_enzymes:
+  - tryptophanase
+  - pro-inflammatory-metabolite-synthesis
+  - copper-dependent-oxidases
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 ## Overview

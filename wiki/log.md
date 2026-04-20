@@ -2,6 +2,43 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-19] Bulk ingest session — 87 papers (endometriosis + erectile dysfunction)
+
+- **Endometriosis folder complete**: 17 new source pages ingested from raw/endometriosis/ subfolders (microbiome-signatures, overview, heavy-metals, metabolites). Notable papers: Perez-Prieto 2024 (n=1,000 cohort, no gut dysbiosis after FDR), Svensson 2021 (reduced alpha diversity), Hantschel 2019 (negative finding — no acute dysbiosis), Khan 2016 (molecular detection intrauterine colonization).
+- **Erectile dysfunction folder complete**: 67 new source pages from raw/erectile dysfunction/. 3 PDFs skipped (misfiled: plant virology, geophysics column, irrelevant). 2 duplicates detected. Multiple misfiled papers ingested with corrected condition tags (BV, BPH, PND, MDD, HPV16, preterm birth, SBS).
+- Key cross-condition findings: cadmium-testicular degeneration reversed by FMT (Ghosh 2023), IBD causally linked to ED via MR (Chen 2024), ferroptosis/GPX4 gut-testis axis (Jin 2023), beta-glucuronidase androgen recirculation extends Primitive 7 beyond estrogen.
+- Resume file written to wiki/analyses/overnight-resume-2026-04-19.md for next session continuation.
+- ~3,600 PDFs remain across ~40 condition folders. Next priority: PMDD, Fibromyalgia, Cerebral Palsy.
+
+## [2026-04-19] Ingest: Jin 2025 — Dietary Fiber and PID (NHANES)
+
+- Created `wiki/sources/jin-2025-dietary-fiber-pelvic-inflammatory-disease-nhanes.md` — cross-sectional NHANES study (n=2,345) finding inverse L-shaped association between dietary fiber intake and PID prevalence, threshold at 19.45 g/day.
+- Updated `wiki/entities/pelvic-inflammatory-disease.md` — added source, new "Environmental and Dietary Factors" section with fiber finding.
+- Note: PDF was in `raw/erectile dysfunction/` folder but paper is about pelvic inflammatory disease, not ED.
+- No cross-condition signature overlap detected (PID has no signature page yet; metals discussed limited to magnesium).
+
+## [2026-04-19] §9/Rule 8 boundary sweep — operational analyses routed off wikibiome
+- **Trigger:** Karen pointed at https://www.wikibiome.com/article/landmark-outreach-email — an internal operational email template rendering publicly. Investigation revealed the leak extended to 27 dated operational analyses (adversarial audits, lint reports, overnight logs, DOI correction logs, stub demotions, boundary violations, broken-links/orphans reports, etc.).
+- **Fix (data):** Added `platform: cureva` to 23 files via Python batch transform (after Rule 5 preview at `wiki/analyses/batch-preview-2026-04-19-operational-cureva.md`). 2 files (`broken-links-2026-04-16.md`, `orphans-2026-04-16.md`) had no frontmatter at all — added full blocks. 2 files were previously mis-tagged `platform: wikibiome` (the batch-preview logs from the stub-demotion sweep) and were flipped to cureva. 4 were already correct.
+- **Fix (build):** `scripts/build-content.cjs` now filters out `type: internal | template | operational` pages from wikibiome regardless of frontmatter — belt-and-suspenders with §9.
+- **Also fixed:** 3 outreach email templates (`landmark-outreach-email.md`, `outreach-email-first-touch.md`, `outreach-email-followup-donation.md`) and the `author-outreach-campaign-2026` analysis tagged `platform: cureva`.
+- **Result:** wikibiome public pages drop from 494 → 470. Zero outreach leaks, zero operational-analysis leaks verified against `src/content.generated.json`. Dated-operational undated content analyses (`dietary-metal-exposure-by-life-stage`, `dietary-metal-paradoxes`, `metal-disease-matrix`, `shared-pathobionts-across-signatures`) kept public — these are legitimate educational content.
+- **Known pre-existing issue:** three source pages emit YAML "duplicated mapping key" warnings during build. Rule 2 says build should fail loud — those need a separate fix pass.
+
+## [2026-04-19] §2f enforcement — zero-reference pages no longer publish
+- **Trigger:** Karen pointed at https://www.wikibiome.com/article/acidic-microenvironment asking why any public page had zero references. Audit found 98 publishable pages with `sources: []` (36 of them not even flagged as stubs) plus 69 sub-threshold and 83 claim-level deficit pages.
+- **Enforcement:** `scripts/build-content.cjs` now refuses to publish below-threshold non-stub pages of primary content types (entity/concept/signature/intervention/stop) to WikiBiome. Refusals log to `wiki/analyses/build-refusals-YYYY-MM-DD.md`. `scripts/generate-static.cjs` excludes `stub: true` pages from both sitemaps. `wikibiome-v8.jsx` renders a visible "This page is a stub" banner above stub content.
+- **Auto-demotion:** 49 unflagged sub-threshold pages demoted to `stub: true` in `wiki/entities/` and `wiki/concepts/`. 5 flagship signatures in `cureva/signatures/` demoted. Log at `wiki/analyses/stub-demotions-2026-04-19.md`.
+- **Exemplar fix:** `wiki/concepts/acidic-microenvironment.md` rewritten with 17 real vault sources attached inline per Rule 11. Stripped out claims that couldn't be defended by available sources (Kanso). Now meets §2f.
+- **Result:** build reports 0 §2f refusals; 494 pages visible on WikiBiome (down from 498 because the 4 remaining zero-ref pages that weren't auto-demoted were exempt-category analyses). Direct visitors to any stub see an explicit banner admitting the page is incomplete.
+- **Reports:** `wiki/analyses/zero-reference-pages-2026-04-19.md`, `wiki/analyses/stub-demotions-2026-04-19.md`, `wiki/analyses/build-refusals-2026-04-19.md`.
+
+## [2026-04-19] Link Health audit tooling + defensive DOI renderer
+- Added `scripts/link-health-audit.cjs`: site-wide Link Health audit with `--offline` (format + wikilinks, no network) and `--online` (Crossref DOI resolution + title/author parity) modes.
+- Ran offline pass: 1,515 format-valid DOIs, 201 `not yet verified`, 0 malformed. 49 broken internal wikilinks (most already logged in `broken-links-2026-04-16.md`).
+- Hardened DOI renderer in `wikibiome-v8.jsx` (References section + source-page "View original publication" link): strips whitespace, `doi:` prefix, `doi.org` URL form, and trailing punctuation; refuses to emit a link for malformed DOIs.
+- Report: `wiki/analyses/link-health-2026-04-19.md`. Triggered by Karen's observation that Chin-Chan 2015 DOI link resolves incorrectly — root cause is stored DOI data, not the code path. Full resolution requires the `--online` pass, which must run from Karen's machine (sandbox has no egress to api.crossref.org).
+
 ## [2026-04-19] Nightly maintenance cycle
 
 **Commit:** `c16b7077` — 329 files changed. **Lint:** 94 stub demotions (§2f), 181 source_count additions, 3 Rule 8 boundary fixes (dietary-metal-paradoxes→cureva, gut-brain-axis rewrite, metal-disease-matrix Section 7 removed). **Adversarial audit:** 5 pages audited (depression REMEDIATE, anxiety DEMOTE, dysbiosis REMEDIATE, gut-brain-axis REMEDIATE, metal-disease-matrix REMEDIATE); 1 stub demotion, 2 boundary rewrites, 1 broken wikilink fixed. **Auto-discovery:** 22 new entity stubs (5 metals, 17 taxa; shigella at 36 mentions was largest gap). **Supersession:** 3 evidence-level misclassifications corrected (kirmizi-2020, ahmed-2025, capuco-2020). **Keystone re-audit:** all 37 pass. **Preview deploy:** wikibiome-6ceqn9v38-karen-pendergrass-projects.vercel.app.
@@ -22,7 +59,7 @@
 
 **Health check:** Fixed 200 malformed DOI lines (trailing crud on "not yet verified"). No source_count drift, no duplicate YAML keys, no URL-format DOIs.
 
-**Lint fixes:** Inferred `evidence_level` for 207 source pages from body keywords. Inferred `karen_brain_primitives` for 528 source pages. Fixed 3 [[polycystic-ovary-syndrome]] wikilinks → [[pcos]]. Added `signature_page` to 38 disease entity pages. Identified 14 orphan pages and 223 sources needing manual evidence_level review.
+**Lint fixes:** Inferred `evidence_level` for 207 source pages from body keywords. Inferred `karen_brain_primitives` for 528 source pages. Fixed 3 [[pcos|polycystic ovary syndrome]] wikilinks → [[pcos]]. Added `signature_page` to 38 disease entity pages. Identified 14 orphan pages and 223 sources needing manual evidence_level review.
 
 **New pages created:**
 - `wiki/entities/gestational-diabetes.md` (stub, 6 sources)
@@ -309,7 +346,7 @@ Processed files 1–100 alphabetically (16s-rrna-t1d-t2d… through balestrino-2
 
 - **File written:** `wiki/analyses/broken-links-2026-04-16.md`
 - **957 pages** have at least one broken `[[wikilink]]`
-- Common patterns: capitalization mismatches ([[Zinc]] vs [[zinc]]), missing cytokine pages ([[tnf-alpha]], [[il-6]]), missing STOP pages referenced from signatures
+- Common patterns: capitalization mismatches ([[Zinc]] vs [[zinc]]), missing cytokine pages ([[inflammation|TNF-α]], [[inflammation|IL-6]]), missing STOP pages referenced from signatures
 - No fixes applied — list only
 
 ### Task 4: Orphan Page Detection
@@ -1496,3 +1533,22 @@ Scheduled `nightly-vercel-deploy` run.
 - **Lint gate:** most recent Sunday lint report (`lint-report-2026-04-12.md`) flagged 0 contradictions — deploy permitted.
 - **Action for Karen:** `cat .deploy-queued` or open the file at the vault root, then paste into Terminal and run.
 
+
+## [2026-04-19] DOI corrections — Chin-Chan and 3 other semantically-wrong DOIs verified via PubMed
+
+Karen's recurring complaint that the Chin-Chan 2015 reference link lands on a different paper turned out to be real. Stored DOI `10.3389/fncel.2015.00170` resolves to an unrelated G93A skeletal-muscle ER-stress paper; the correct Chin-Chan DOI is `10.3389/fncel.2015.00124` (PMID 25914621). The earlier renderer fix (defensive DOI normalization) addressed the wrong layer — the data itself was incorrect, which §2a forbids.
+
+Link Health audit `wiki/analyses/link-health-2026-04-19.md` had already flagged this on line 156 (similarity 0.00 — authors did not match). The audit identified 222 wrong-title cases total, 67 with similarity 0.00 (definitely wrong DOI).
+
+This session: verified and corrected four sources via PubMed MCP lookups. Each corrected file now carries `pmid`, `doi_verified: 2026-04-19`, and `doi_verified_source: pubmed`:
+
+- `chin-chan-2015-environmental-pollutants-ad-pd.md` → 10.3389/fncel.2015.00124 (PMID 25914621)
+- `ahlstrom-2019-nickel-allergy-review.md` → 10.1111/cod.13327 (PMID 31140194)
+- `capdevila-2024-bacterial-metallostasis-sensing-trafficking.md` → 10.1021/acs.chemrev.4c00264 (PMID 39658019)
+- `chernikova-2022-brain-gut-microbiome-asd.md` → 10.3390/nu13124497 (PMID 34960049)
+
+Two cases confirmed unresolvable via PubMed (journals not indexed): `bergman-2016-low-nickel-diet-review.md` and `brock-2015-selenium-thyroid-autoimmunity.md`. These need Crossref (currently egress-blocked) or Karen's manual lookup.
+
+Full remediation plan and regeneration procedure for the remaining 61 sim-0 cases recorded in `wiki/analyses/doi-corrections-2026-04-19.md`.
+
+2026-04-19 — weekly lint run: 65 orphans, 0 new contradictions, 16 missing signatures, 15 incomplete intervention triangles, 98 duplicate-DOI clusters, 201 unverified DOIs. See [[lint-report-2026-04-19]].

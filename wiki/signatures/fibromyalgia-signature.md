@@ -1,82 +1,134 @@
 ---
-title: "Fibromyalgia — Microbiome Signature"
+title: Fibromyalgia — Microbiome Signature
 type: signature
-created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
+created: 2026-04-18T00:00:00.000Z
+updated: 2026-04-18T00:00:00.000Z
+last_substantive_update: 2026-04-18T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [fibromyalgia, chronic-pain, central-sensitization, gut-brain-axis, copper, iron, butyrate-paradox]
-
+tags:
+  - fibromyalgia
+  - chronic-pain
+  - central-sensitization
+  - gut-brain-axis
+  - copper
+  - iron
+  - butyrate-paradox
 metallomic_signature:
-  elevated: [copper]
-  depleted: [iron, magnesium, selenium]
-
+  elevated:
+    - copper
+  depleted:
+    - iron
+    - magnesium
+    - selenium
 taxonomic_signature:
   enriched:
-    - taxon: "[[eggerthella-lenta]]"
-      role: "MR-validated causal risk taxon (OR=1.897); produces neurotoxic metabolites; activates pro-inflammatory pathways"
-    - taxon: "Flavonifractor"
-      role: "Enriched in FM; associated with oxidative stress and depression comorbidity"
-    - taxon: "Coprococcus 2"
-      role: "MR-validated causal risk (OR=2.317); paradoxically butyrate-associated genus, suggesting strain-level functional divergence"
-    - taxon: "[[collinsella]]"
-      role: "Pro-inflammatory; enriched in FM and rheumatoid arthritis; promotes gut permeability"
-    - taxon: "[[streptococcus]]"
-      role: "S. salivarius enriched in oral and gut communities of FM patients"
+    - taxon: '[[eggerthella-lenta]]'
+      role: MR-validated causal risk taxon (OR=1.897); produces neurotoxic metabolites; activates pro-inflammatory pathways
+    - taxon: Flavonifractor
+      role: Enriched in FM; associated with oxidative stress and depression comorbidity
+    - taxon: Coprococcus 2
+      role: >-
+        MR-validated causal risk (OR=2.317); paradoxically butyrate-associated genus, suggesting strain-level functional
+        divergence
+    - taxon: '[[collinsella]]'
+      role: Pro-inflammatory; enriched in FM and rheumatoid arthritis; promotes gut permeability
+    - taxon: '[[streptococcus]]'
+      role: S. salivarius enriched in oral and gut communities of FM patients
   depleted:
-    - taxon: "[[faecalibacterium-prausnitzii]]"
-      role: "Most consistently depleted taxon across 5+ independent studies; primary butyrate producer; loss is the core taxonomic finding"
-    - taxon: "[[bifidobacterium]]"
-      role: "Depleted; loss reduces lactate cross-feeding and barrier support"
-    - taxon: "Bacteroides uniformis"
-      role: "Depleted; loss impairs polysaccharide degradation and immune regulation"
-    - taxon: "[[lachnospiraceae]]"
-      role: "SCFA-producing family; depletion reduces colonocyte nutrition"
-    - taxon: "[[roseburia]]"
-      role: "Butyrate producer; loss contributes to barrier dysfunction"
-
+    - taxon: '[[faecalibacterium-prausnitzii]]'
+      role: >-
+        Most consistently depleted taxon across 5+ independent studies; primary butyrate producer; loss is the core
+        taxonomic finding
+    - taxon: '[[bifidobacterium]]'
+      role: Depleted; loss reduces lactate cross-feeding and barrier support
+    - taxon: Bacteroides uniformis
+      role: Depleted; loss impairs polysaccharide degradation and immune regulation
+    - taxon: '[[lachnospiraceae]]'
+      role: SCFA-producing family; depletion reduces colonocyte nutrition
+    - taxon: '[[roseburia]]'
+      role: Butyrate producer; loss contributes to barrier dysfunction
 nutritional_immunity:
-  elevated: [copper, serum-butyrate, TNF-alpha, IL-6]
-  depleted: [iron, ferritin, selenium, glutathione-peroxidase-3, serotonin]
-
-ecological_features: [SCFA-depletion, butyrate-paradox, central-sensitization, tryptophan-kynurenine-shunting, gut-barrier-dysfunction, copper-iron-axis-imbalance]
-
-virulence_enzymes: [indoleamine-2-3-dioxygenase, LPS-biosynthesis, neurotoxic-metabolite-production]
-
+  elevated:
+    - copper
+    - serum-butyrate
+    - TNF-alpha
+    - IL-6
+  depleted:
+    - iron
+    - ferritin
+    - selenium
+    - glutathione-peroxidase-3
+    - serotonin
+ecological_features:
+  - SCFA-depletion
+  - butyrate-paradox
+  - central-sensitization
+  - tryptophan-kynurenine-shunting
+  - gut-barrier-dysfunction
+  - copper-iron-axis-imbalance
+virulence_enzymes:
+  - indoleamine-2-3-dioxygenase
+  - LPS-biosynthesis
+  - neurotoxic-metabolite-production
 confidence:
   metallomic: moderate
   taxonomic: high
   nutritional_immunity: moderate
   ecological: moderate
   virulence_enzymes: preliminary
-
 associated_conditions:
-  - condition: "[[depression]]"
-    shared_metals: [magnesium-depleted, selenium-depleted]
-    shared_taxa: [faecalibacterium-depleted, bifidobacterium-depleted, lachnospiraceae-depleted]
-    shared_ecological: [SCFA-depletion, tryptophan-kynurenine-shunting]
-    overlap_score: 0.60
-  - condition: "[[ibs|irritable-bowel-syndrome]]"
-    shared_metals: [magnesium-depleted]
-    shared_taxa: [faecalibacterium-depleted, bifidobacterium-depleted]
-    shared_ecological: [gut-barrier-dysfunction, SCFA-depletion]
+  - condition: '[[depression]]'
+    shared_metals:
+      - magnesium-depleted
+      - selenium-depleted
+    shared_taxa:
+      - faecalibacterium-depleted
+      - bifidobacterium-depleted
+      - lachnospiraceae-depleted
+    shared_ecological:
+      - SCFA-depletion
+      - tryptophan-kynurenine-shunting
+    overlap_score: 0.6
+  - condition: '[[ibs|irritable-bowel-syndrome]]'
+    shared_metals:
+      - magnesium-depleted
+    shared_taxa:
+      - faecalibacterium-depleted
+      - bifidobacterium-depleted
+    shared_ecological:
+      - gut-barrier-dysfunction
+      - SCFA-depletion
     overlap_score: 0.55
-  - condition: "[[fibromyalgia|chronic-fatigue-syndrome]]"
+  - condition: '[[fibromyalgia|chronic-fatigue-syndrome]]'
     shared_metals: []
-    shared_taxa: [faecalibacterium-depleted]
-    shared_ecological: [SCFA-depletion, central-sensitization]
-    overlap_score: 0.40
-  - condition: "[[anxiety]]"
-    shared_metals: [magnesium-depleted]
-    shared_taxa: [faecalibacterium-depleted, bifidobacterium-depleted, lachnospiraceae-depleted]
-    shared_ecological: [SCFA-depletion, tryptophan-kynurenine-shunting]
-    overlap_score: 0.50
-
+    shared_taxa:
+      - faecalibacterium-depleted
+    shared_ecological:
+      - SCFA-depletion
+      - central-sensitization
+    overlap_score: 0.4
+  - condition: '[[anxiety]]'
+    shared_metals:
+      - magnesium-depleted
+    shared_taxa:
+      - faecalibacterium-depleted
+      - bifidobacterium-depleted
+      - lachnospiraceae-depleted
+    shared_ecological:
+      - SCFA-depletion
+      - tryptophan-kynurenine-shunting
+    overlap_score: 0.5
 cureva_status: partial
 validated_interventions: []
 stops: []
-karen_brain_primitives: [1, 3, 4, 5]
+karen_brain_primitives:
+  - 1
+  - 3
+  - 4
+  - 5
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 # Fibromyalgia — Microbiome Signature

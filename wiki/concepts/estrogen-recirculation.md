@@ -17,7 +17,7 @@ last_substantive_update: 2026-04-10
 
 **Estrogen recirculation** is the recycling loop by which conjugated estrogens excreted in bile are deconjugated by gut bacterial [[beta-glucuronidase]], reabsorbed across the intestinal epithelium, and returned to systemic circulation [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]], [[wu-2024-estrogens-androgens-microbiota-crc]]. This process, driven by the **estrobolome** (estrogen-metabolizing bacterial community), effectively amplifies circulating estrogen levels and duration [[zim-2025-estrogen-gut-brain-axis-oral-contraceptives]]. Dysbiosis-induced overgrowth of high-glucuronidase taxa — including [[escherichia-coli]], [[bacteroides-fragilis]], *Bifidobacterium*, *Lactobacillus*, and the genus ***Eggerthella*** (notably *E. lenta*, one of the most potent deconjugators in the human gut, Plottel & Blaser 2011; Ervin et al. 2019) — hyperactivates this loop, driving estrogen-dependent diseases including [[endometriosis]], [[breast-cancer]], and [[pcos]] [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]], [[wu-2024-estrogens-androgens-microbiota-crc]].
 
-This exemplifies [[primitive-7|primitive-7-estrobolome]]: the bacterial metabolic capacity to recirculate hormones is a controllable lever in hormone-dependent disease.
+This exemplifies [[estrobolome|primitive-7-estrobolome]]: the bacterial metabolic capacity to recirculate hormones is a controllable lever in hormone-dependent disease.
 
 ## Mechanism
 
@@ -45,7 +45,7 @@ Estrogen recirculation is mechanistically linked to:
 - **[[breast-cancer]]** — Elevated systemic estrogen from hyperactive recirculation is a major risk factor; estrogen promotes proliferation of ER+ tumor cells. *Eggerthella*, *Bacteroides*, and *Escherichia* enrichment correlate with breast cancer incidence through the estrobolome mechanism (Plottel & Blaser 2011; Kwa et al. 2016) [[wu-2024-estrogens-androgens-microbiota-crc]].
 - **[[pcos]]** — Elevated androgens + recirculated estrogen drive irregular ovulation and metabolic dysfunction [[zim-2025-estrogen-gut-brain-axis-oral-contraceptives]].
 - **[[endometriosis|uterine-fibroids]]** — Estrogen-driven smooth muscle proliferation amplified by dysbiotic recirculation.
-- **[[menstrual-migraine]]** — Estrogen fluctuations trigger migraine; dysbiotic recirculation flattens normal cycle dynamics and shifts trigger thresholds.
+- **[[migraine|menstrual-migraine]]** — Estrogen fluctuations trigger migraine; dysbiotic recirculation flattens normal cycle dynamics and shifts trigger thresholds.
 
 ## Metal Connections
 

@@ -97,4 +97,4 @@ Metals may push individuals toward either pole depending on the specific metal, 
 - [[nutritional-immunity]] -- host metal sequestration and its paradoxical effects
 - [[mis-metallation]] -- toxic metals replacing essential cofactors
 - [[butyrate]] -- SCFA-dependent Treg induction
-- [[gut-barrier-integrity]] -- metal-driven permeability
+- [[intestinal-permeability|gut-barrier-integrity]] -- metal-driven permeability

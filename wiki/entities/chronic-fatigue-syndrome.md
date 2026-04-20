@@ -101,7 +101,7 @@ The ME/CFS gut-brain axis involves:
 |-----------|---------|-------------|
 | **[[fibromyalgia]]** | 30-70% comorbidity; shared butyrate depletion, chronic pain | May be the same condition manifesting differently |
 | **Long-COVID** | Shared post-infectious phenotype; identical microbiome signature | Post-COVID ME/CFS may account for millions of new cases |
-| **[[irritable-bowel-syndrome]]** | 50-90% IBS in ME/CFS | Gut dysbiosis likely the common driver |
+| **[[ibs|irritable-bowel-syndrome]]** | 50-90% IBS in ME/CFS | Gut dysbiosis likely the common driver |
 | **[[depression]]** | High comorbidity; shared tryptophan diversion | Bidirectional causation likely |
 
 ## Open Questions

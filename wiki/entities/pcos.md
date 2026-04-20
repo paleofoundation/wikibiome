@@ -40,7 +40,7 @@ The [[metal-disease-matrix]] identifies PCOS's metallomic profile as: Ni ↑, Cu
 
 - All four major toxic metals (As, Cd, Pb, Hg) significantly elevated in PCOS patients (p < 0.001 for all) [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 - Strong positive intercorrelations among all four metals suggest co-exposure patterns [[abudawood-2021-antioxidant-heavy-metals-pcos]].
-- Antimony (Sb) also elevated, with positive correlation to HOMA-IR and fasting glucose, suggesting a role as [[endocrine-disruptor]] [[kirmizi-2020-heavy-metals-pcos]].
+- Antimony (Sb) also elevated, with positive correlation to HOMA-IR and fasting glucose, suggesting a role as [[endocrine-disruptors|endocrine-disruptor]] [[kirmizi-2020-heavy-metals-pcos]].
 - Cd correlates positively with fasting glucose, insulin, and HOMA-IR [[kirmizi-2020-heavy-metals-pcos]].
 
 ### Nickel Elevation

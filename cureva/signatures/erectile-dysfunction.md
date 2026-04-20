@@ -1,80 +1,106 @@
 ---
-title: "Erectile Dysfunction — Microbiome Signature"
+title: Erectile Dysfunction — Microbiome Signature
 type: signature
-created: 2026-04-15
-updated: 2026-04-15
-last_substantive_update: 2026-04-15
+created: 2026-04-15T00:00:00.000Z
+updated: 2026-04-15T00:00:00.000Z
+last_substantive_update: 2026-04-15T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [erectile-dysfunction, gut-penis-axis, testosterone, cadmium, eNOS, vascular]
+tags:
+  - erectile-dysfunction
+  - gut-penis-axis
+  - testosterone
+  - cadmium
+  - eNOS
+  - vascular
 platform: both
 cureva_status: partial
 validated_interventions: []
 stops: []
-
-# Confidence per layer
 confidence:
   metallomic: preliminary
   taxonomic: moderate
   nutritional_immunity: preliminary
   ecological: moderate
   virulence_enzymes: preliminary
-
-# Cross-condition pattern detection
 associated_conditions:
-  - condition: "[[cardiovascular-disease]]"
-    shared_metals: [cadmium]
-    shared_taxa: [lachnospiraceae, ruminococcus-gnavus]
-    shared_ecological: [endothelial-dysfunction, LPS-translocation, chronic-inflammation]
+  - condition: '[[cardiovascular-disease]]'
+    shared_metals:
+      - cadmium
+    shared_taxa:
+      - lachnospiraceae
+      - ruminococcus-gnavus
+    shared_ecological:
+      - endothelial-dysfunction
+      - LPS-translocation
+      - chronic-inflammation
     overlap_score: 0.55
-  - condition: "[[type-2-diabetes]]"
+  - condition: '[[type-2-diabetes]]'
     shared_metals: []
-    shared_taxa: [lachnospiraceae]
-    shared_ecological: [endothelial-dysfunction, insulin-resistance, chronic-inflammation]
+    shared_taxa:
+      - lachnospiraceae
+    shared_ecological:
+      - endothelial-dysfunction
+      - insulin-resistance
+      - chronic-inflammation
     overlap_score: 0.42
-  - condition: "[[depression]]"
+  - condition: '[[depression]]'
     shared_metals: []
-    shared_taxa: [lachnospiraceae]
-    shared_ecological: [gut-brain-axis-dysfunction, chronic-inflammation]
+    shared_taxa:
+      - lachnospiraceae
+    shared_ecological:
+      - gut-brain-axis-dysfunction
+      - chronic-inflammation
     overlap_score: 0.35
-
-karen_brain_primitives: [1, 5, 7]
-
-# Layer 1: Metallomic signature
+karen_brain_primitives:
+  - 1
+  - 5
+  - 7
 metallomic_signature:
-  elevated: [cadmium]
+  elevated:
+    - cadmium
   depleted: []
-
-# Layer 2: Taxonomic signature
 taxonomic_signature:
   enriched:
-    - taxon: "[[lachnospiraceae]]"
-      role: "MR-validated causal risk taxon (OR=1.265 across 3 concordant studies) — family-level enrichment; specific pro-inflammatory species likely drive the association"
-    - taxon: "[[senegalimassilia]]"
-      role: "MR causal (OR=1.355) — enriched in ED; functional role under investigation"
-    - taxon: "[[oscillibacter]]"
-      role: "MR causal (OR=1.201) — associated with metabolic dysfunction and inflammation"
-    - taxon: "[[tyzzerella]]"
-      role: "Tyzzerella 3 — enriched in ED; associated with cardiovascular risk"
-    - taxon: "[[ruminococcus-gnavus|Ruminococcus gnavus]]"
-      role: "Pro-inflammatory; produces inflammatory polysaccharides; enriched in multiple inflammatory conditions"
+    - taxon: '[[lachnospiraceae]]'
+      role: >-
+        MR-validated causal risk taxon (OR=1.265 across 3 concordant studies) — family-level enrichment; specific
+        pro-inflammatory species likely drive the association
+    - taxon: '[[senegalimassilia]]'
+      role: MR causal (OR=1.355) — enriched in ED; functional role under investigation
+    - taxon: '[[oscillibacter]]'
+      role: MR causal (OR=1.201) — associated with metabolic dysfunction and inflammation
+    - taxon: '[[tyzzerella]]'
+      role: Tyzzerella 3 — enriched in ED; associated with cardiovascular risk
+    - taxon: '[[ruminococcus-gnavus|Ruminococcus gnavus]]'
+      role: Pro-inflammatory; produces inflammatory polysaccharides; enriched in multiple inflammatory conditions
   depleted:
-    - taxon: "[[ruminococcaceae]]"
-      role: "Ruminococcaceae UCG013 — MR-validated protective (OR=0.761-0.827 across 3 studies); most consistently protective taxon in ED"
-    - taxon: "[[bacteroides]]"
-      role: "Bacteroides intestinalis — protective association; loss impairs polysaccharide fermentation"
-
-# Layer 3: Nutritional immunity profile
+    - taxon: '[[ruminococcaceae]]'
+      role: >-
+        Ruminococcaceae UCG013 — MR-validated protective (OR=0.761-0.827 across 3 studies); most consistently protective
+        taxon in ED
+    - taxon: '[[bacteroides]]'
+      role: Bacteroides intestinalis — protective association; loss impairs polysaccharide fermentation
 nutritional_immunity:
-  elevated: [TNF-alpha, IL-6, LPS, CRP]
+  elevated:
+    - TNF-alpha
+    - IL-6
+    - LPS
+    - CRP
   depleted: []
-
-# Layer 4: Ecological features
-ecological_features: [gut-penis-axis, LPS-mediated-eNOS-suppression, endothelial-dysfunction, testosterone-modulation-by-HSDH, H2S-signaling-disruption, chronic-low-grade-inflammation]
-
-# Layer 5: Key virulence enzymes expressed
-virulence_enzymes: [LPS-biosynthesis, hydroxysteroid-dehydrogenase, pro-inflammatory-polysaccharide-synthesis]
-
+ecological_features:
+  - gut-penis-axis
+  - LPS-mediated-eNOS-suppression
+  - endothelial-dysfunction
+  - testosterone-modulation-by-HSDH
+  - H2S-signaling-disruption
+  - chronic-low-grade-inflammation
+virulence_enzymes:
+  - LPS-biosynthesis
+  - hydroxysteroid-dehydrogenase
+  - pro-inflammatory-polysaccharide-synthesis
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 ## Overview

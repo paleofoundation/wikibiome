@@ -2,20 +2,41 @@
 title: Candida auris
 type: entity
 subtype: fungus
-created: 2026-04-13
-updated: 2026-04-13
-last_substantive_update: 2026-04-14
-sources: [alves-2020-candida-adapting-survive-host-constraints.md]
+created: 2026-04-13T00:00:00.000Z
+updated: 2026-04-13T00:00:00.000Z
+last_substantive_update: 2026-04-14T00:00:00.000Z
+sources:
+  - alves-2020-candida-adapting-survive-host-constraints.md
 source_count: 1
-tags: [fungus, pathogen, multidrug-resistant, nosocomial, emerging-pathogen, mycobiome]
-oxygen_requirement: "facultative anaerobe"
-metal_dependencies: [zinc, iron, copper, manganese]
-key_enzymes: [secreted aspartyl proteases (SAPs), zinc metalloproteases, Cu/Zn superoxide dismutase, multicopper ferroxidase Fet3]
-pathogenic_potential: "obligate pathogen in hospital settings; rare gut commensal"
-conditions_enriched_in: [nosocomial-candidemia, icu-bloodstream-infection]
+tags:
+  - fungus
+  - pathogen
+  - multidrug-resistant
+  - nosocomial
+  - emerging-pathogen
+  - mycobiome
+oxygen_requirement: facultative anaerobe
+metal_dependencies:
+  - zinc
+  - iron
+  - copper
+  - manganese
+key_enzymes:
+  - secreted aspartyl proteases (SAPs)
+  - zinc metalloproteases
+  - Cu/Zn superoxide dismutase
+  - multicopper ferroxidase Fet3
+pathogenic_potential: obligate pathogen in hospital settings; rare gut commensal
+conditions_enriched_in:
+  - nosocomial-candidemia
+  - icu-bloodstream-infection
 conditions_depleted_in: []
-seo_target: "Candida auris gut microbiome metals resistance"
-wikipedia_differentiation: "Metal-dependent virulence mechanisms, zinc/iron/copper acquisition strategies under hospital nutritional immunity pressure, and the gut-to-bloodstream translocation pathway that Wikipedia does not cover"
+seo_target: Candida auris gut microbiome metals resistance
+wikipedia_differentiation: >-
+  Metal-dependent virulence mechanisms, zinc/iron/copper acquisition strategies under hospital nutritional immunity
+  pressure, and the gut-to-bloodstream translocation pathway that Wikipedia does not cover
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 1 sources, minimum 3
 ---
 
 **Candida auris** is an emerging multidrug-resistant fungal pathogen first identified in 2009 (Satoh et al. 2009, from a Japanese patient's ear canal) and now classified as a critical-priority pathogen by the WHO (WHO Fungal Priority Pathogens List 2022) and CDC (CDC 2019 Antibiotic Resistance Threats Report). Unlike other *Candida* species, *C. auris* is predominantly a nosocomial (healthcare-associated) pathogen with documented outbreak potential in intensive care settings. It is notable for its resistance to multiple antifungal drug classes and its persistence on environmental surfaces (Welsh et al. 2017). In some endemic regions, *C. auris* accounts for up to ~40-67% of ICU candidemia cases (Chowdhary et al. 2017, Indian ICU surveillance).
@@ -66,7 +87,7 @@ Unlike [[candida-albicans]], *C. auris* rarely causes invasive candidiasis via d
 ## Therapeutic Implications
 
 The metal-dependence profile suggests several adjunct strategies relevant to a fungus with limited antifungal options:
-- **Iron restriction** -- [[lactoferrin]], [[deferasirox]], and [[gallium]] maltolate have all demonstrated in-vitro activity against *Candida* spp. by competing with fungal siderophores (Lai et al. 2016; Venturini et al. 2011).
+- **Iron restriction** -- [[lactoferrin]], [[metal-chelation-therapy|deferasirox]], and [[gallium]] maltolate have all demonstrated in-vitro activity against *Candida* spp. by competing with fungal siderophores (Lai et al. 2016; Venturini et al. 2011).
 - **Copper-based coatings** on hospital surfaces reduce *C. auris* persistence; copper-impregnated textiles are under evaluation for ICU use (Souli et al. 2019).
 - **Zinc chelation** via clioquinol or calprotectin-mimetic peptides (Crawford & Wilson 2015) potentiates azole activity in other *Candida* species and is a plausible *C. auris* adjunct.
 - **Echinocandin + copper** combinations have shown synergy against *C. auris* biofilms in preclinical work (Hu et al. 2022).

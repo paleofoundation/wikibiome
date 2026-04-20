@@ -1,83 +1,148 @@
 ---
-title: "Cerebral Palsy — Microbiome Signature"
+title: Cerebral Palsy — Microbiome Signature
 type: signature
-created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [huang-2019-gut-microbiota-cerebral-palsy-epilepsy, peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy, wang-2023-microbial-gut-brain-white-matter-preterm, huang-2022-dietary-fiber-probiotics-constipation-cp, ferreira-2021-oral-gut-inflammation-cerebral-palsy, allen-2021-multi-organ-dysfunction-cerebral-palsy, yan-2025-infant-serum-metals-gut-microbiota, lyu-2024-care-mode-gut-microbiota-cp-children, huang-2022-oral-gut-microbiota-cpe-correlations]
+created: 2026-04-18T00:00:00.000Z
+updated: 2026-04-18T00:00:00.000Z
+last_substantive_update: 2026-04-18T00:00:00.000Z
+sources:
+  - huang-2019-gut-microbiota-cerebral-palsy-epilepsy
+  - peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy
+  - wang-2023-microbial-gut-brain-white-matter-preterm
+  - huang-2022-dietary-fiber-probiotics-constipation-cp
+  - ferreira-2021-oral-gut-inflammation-cerebral-palsy
+  - allen-2021-multi-organ-dysfunction-cerebral-palsy
+  - yan-2025-infant-serum-metals-gut-microbiota
+  - lyu-2024-care-mode-gut-microbiota-cp-children
+  - huang-2022-oral-gut-microbiota-cpe-correlations
 source_count: 9
-tags: [cerebral-palsy, neurodevelopmental, preterm, gut-brain-axis, NEC-to-CP, oral-gut-axis, constipation, white-matter-injury]
-
+tags:
+  - cerebral-palsy
+  - neurodevelopmental
+  - preterm
+  - gut-brain-axis
+  - NEC-to-CP
+  - oral-gut-axis
+  - constipation
+  - white-matter-injury
 metallomic_signature:
-  elevated: [copper, arsenic, lead]
-  depleted: [iron, zinc]
-
+  elevated:
+    - copper
+    - arsenic
+    - lead
+  depleted:
+    - iron
+    - zinc
 taxonomic_signature:
   enriched:
-    - taxon: "[[streptococcus]]"
-      role: "Oral-origin pathobiont; drives neuroinflammation via IL-6/TNF-alpha; co-occurs with Actinomyces (r=0.833)"
-    - taxon: "[[enterococcus]]"
-      role: "Opportunistic colonizer of antibiotic-exposed neonatal gut (1.88% in CPE)"
-    - taxon: "[[akkermansia-muciniphila]]"
-      role: "Paradoxically enriched; mucin degradation increases mucosal permeability and immune antigen exposure"
-    - taxon: "[[prevotella]]"
-      role: "Enriched in CPE and welfare-centered care; includes oral species reflecting oral-gut translocation"
-    - taxon: "[[veillonella]]"
-      role: "Lactate fermenter enriched in CPE (0.98%); produces propionate"
-    - taxon: "[[klebsiella-pneumoniae]]"
-      role: "NEC-to-CP pathway driver; siderophore-dependent iron piracy; LPS activates TLR4; predictive biomarker for brain injury in preterm infants"
-    - taxon: "[[fusobacterium]]"
-      role: "Enriched in welfare-centered care; pro-inflammatory biofilm former"
+    - taxon: '[[streptococcus]]'
+      role: Oral-origin pathobiont; drives neuroinflammation via IL-6/TNF-alpha; co-occurs with Actinomyces (r=0.833)
+    - taxon: '[[enterococcus]]'
+      role: Opportunistic colonizer of antibiotic-exposed neonatal gut (1.88% in CPE)
+    - taxon: '[[akkermansia-muciniphila]]'
+      role: Paradoxically enriched; mucin degradation increases mucosal permeability and immune antigen exposure
+    - taxon: '[[prevotella]]'
+      role: Enriched in CPE and welfare-centered care; includes oral species reflecting oral-gut translocation
+    - taxon: '[[veillonella]]'
+      role: Lactate fermenter enriched in CPE (0.98%); produces propionate
+    - taxon: '[[klebsiella-pneumoniae]]'
+      role: >-
+        NEC-to-CP pathway driver; siderophore-dependent iron piracy; LPS activates TLR4; predictive biomarker for brain
+        injury in preterm infants
+    - taxon: '[[fusobacterium]]'
+      role: Enriched in welfare-centered care; pro-inflammatory biofilm former
   depleted:
-    - taxon: "[[bacteroides]]"
-      role: "Primary polysaccharide fermenter; loss releases competitive brake on immature-pattern taxa (10.94% in CPE)"
-    - taxon: "[[faecalibacterium-prausnitzii]]"
-      role: "Major butyrate producer; depletion impairs anti-inflammatory gut-brain signaling (0.78% in CPE)"
-    - taxon: "[[blautia]]"
-      role: "Acetate/propionate producer; loss reduces colonocyte nutrition (1.44% in CPE)"
-    - taxon: "[[roseburia]]"
-      role: "Butyrate producer; near-complete depletion (0.00% in CPE)"
-    - taxon: "[[lactobacillus]]"
-      role: "Depleted; loss reduces lactic acid production, pathogen exclusion, and GABA production"
-    - taxon: "[[bacteroides-fragilis]]"
-      role: "Immunomodulatory commensal; depleted specifically in CP+epilepsy; linked to kynurenine pathway modulation"
-
+    - taxon: '[[bacteroides]]'
+      role: Primary polysaccharide fermenter; loss releases competitive brake on immature-pattern taxa (10.94% in CPE)
+    - taxon: '[[faecalibacterium-prausnitzii]]'
+      role: Major butyrate producer; depletion impairs anti-inflammatory gut-brain signaling (0.78% in CPE)
+    - taxon: '[[blautia]]'
+      role: Acetate/propionate producer; loss reduces colonocyte nutrition (1.44% in CPE)
+    - taxon: '[[roseburia]]'
+      role: Butyrate producer; near-complete depletion (0.00% in CPE)
+    - taxon: '[[lactobacillus]]'
+      role: Depleted; loss reduces lactic acid production, pathogen exclusion, and GABA production
+    - taxon: '[[bacteroides-fragilis]]'
+      role: Immunomodulatory commensal; depleted specifically in CP+epilepsy; linked to kynurenine pathway modulation
 nutritional_immunity:
-  elevated: [calprotectin, IL-1beta, IL-6, IL-8, IL-10, TNF-alpha, hepcidin]
-  depleted: [butyrate, vitamin-D]
-
-ecological_features: [SCFA-depletion, oral-gut-translocation, NEC-to-CP-pathway, mucin-degradation, white-matter-injury, constipation-driven-oxygen-shift, biofilm]
-
-virulence_enzymes: [siderophores, TLR4-LPS-signaling, beta-glucosidase, tryptophanase]
-
+  elevated:
+    - calprotectin
+    - IL-1beta
+    - IL-6
+    - IL-8
+    - IL-10
+    - TNF-alpha
+    - hepcidin
+  depleted:
+    - butyrate
+    - vitamin-D
+ecological_features:
+  - SCFA-depletion
+  - oral-gut-translocation
+  - NEC-to-CP-pathway
+  - mucin-degradation
+  - white-matter-injury
+  - constipation-driven-oxygen-shift
+  - biofilm
+virulence_enzymes:
+  - siderophores
+  - TLR4-LPS-signaling
+  - beta-glucosidase
+  - tryptophanase
 confidence:
   metallomic: moderate
   taxonomic: high
   nutritional_immunity: moderate
   ecological: high
   virulence_enzymes: moderate
-
 associated_conditions:
-  - condition: "[[necrotizing-enterocolitis]]"
-    shared_metals: [iron-depleted, zinc-depleted]
-    shared_taxa: [klebsiella-enriched, bifidobacterium-depleted, enterococcus-enriched]
-    shared_ecological: [NEC-to-CP-pathway, SCFA-depletion]
+  - condition: '[[necrotizing-enterocolitis]]'
+    shared_metals:
+      - iron-depleted
+      - zinc-depleted
+    shared_taxa:
+      - klebsiella-enriched
+      - bifidobacterium-depleted
+      - enterococcus-enriched
+    shared_ecological:
+      - NEC-to-CP-pathway
+      - SCFA-depletion
     overlap_score: 0.72
-  - condition: "[[epilepsy]]"
-    shared_metals: [iron-depleted, zinc-depleted]
-    shared_taxa: [faecalibacterium-depleted, bacteroides-depleted, blautia-depleted, streptococcus-enriched, akkermansia-enriched]
-    shared_ecological: [SCFA-depletion, oral-gut-translocation, neuroinflammation]
+  - condition: '[[epilepsy]]'
+    shared_metals:
+      - iron-depleted
+      - zinc-depleted
+    shared_taxa:
+      - faecalibacterium-depleted
+      - bacteroides-depleted
+      - blautia-depleted
+      - streptococcus-enriched
+      - akkermansia-enriched
+    shared_ecological:
+      - SCFA-depletion
+      - oral-gut-translocation
+      - neuroinflammation
     overlap_score: 0.82
-  - condition: "[[autism-spectrum-disorder]]"
+  - condition: '[[autism-spectrum-disorder]]'
     shared_metals: []
-    shared_taxa: [bacteroides-fragilis-altered, bifidobacterium-depleted, clostridium-enriched]
-    shared_ecological: [SCFA-depletion, gut-barrier-dysfunction]
-    overlap_score: 0.40
-
+    shared_taxa:
+      - bacteroides-fragilis-altered
+      - bifidobacterium-depleted
+      - clostridium-enriched
+    shared_ecological:
+      - SCFA-depletion
+      - gut-barrier-dysfunction
+    overlap_score: 0.4
 cureva_status: partial
 validated_interventions: []
 stops: []
-karen_brain_primitives: [1, 2, 5, 8, 9]
+karen_brain_primitives:
+  - 1
+  - 2
+  - 5
+  - 8
+  - 9
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 9 sources, signature minimum 10
 ---
 
 # Cerebral Palsy — Microbiome Signature

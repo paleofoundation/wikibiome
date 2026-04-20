@@ -1,73 +1,90 @@
 ---
-title: "Premenstrual Dysphoric Disorder — Microbiome Signature"
+title: Premenstrual Dysphoric Disorder — Microbiome Signature
 type: signature
-created: 2026-04-15
-updated: 2026-04-15
-last_substantive_update: 2026-04-15
+created: 2026-04-15T00:00:00.000Z
+updated: 2026-04-15T00:00:00.000Z
+last_substantive_update: 2026-04-15T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [pmdd, premenstrual, estrobolome, neuroinflammation, gut-hormone-axis]
+tags:
+  - pmdd
+  - premenstrual
+  - estrobolome
+  - neuroinflammation
+  - gut-hormone-axis
 platform: both
 cureva_status: in-progress
 validated_interventions: []
 stops: []
-
-# Confidence per layer
 confidence:
   metallomic: preliminary
   taxonomic: preliminary
   nutritional_immunity: preliminary
   ecological: moderate
   virulence_enzymes: preliminary
-
-# Cross-condition pattern detection
 associated_conditions:
-  - condition: "[[depression]]"
-    shared_metals: [magnesium]
-    shared_taxa: [blautia, escherichia-coli]
-    shared_ecological: [tryptophan-kynurenine-shunting, neuroinflammation, SCFA-depletion]
+  - condition: '[[depression]]'
+    shared_metals:
+      - magnesium
+    shared_taxa:
+      - blautia
+      - escherichia-coli
+    shared_ecological:
+      - tryptophan-kynurenine-shunting
+      - neuroinflammation
+      - SCFA-depletion
     overlap_score: 0.48
-  - condition: "[[endometriosis]]"
+  - condition: '[[endometriosis]]'
     shared_metals: []
-    shared_taxa: [escherichia-coli]
-    shared_ecological: [estrobolome-dysfunction, beta-glucuronidase-activity]
+    shared_taxa:
+      - escherichia-coli
+    shared_ecological:
+      - estrobolome-dysfunction
+      - beta-glucuronidase-activity
     overlap_score: 0.35
-
-karen_brain_primitives: [5, 7]
-
-# Layer 1: Metallomic signature
+karen_brain_primitives:
+  - 5
+  - 7
 metallomic_signature:
   elevated: []
-  depleted: [magnesium]
-
-# Layer 2: Taxonomic signature
+  depleted:
+    - magnesium
 taxonomic_signature:
   enriched:
-    - taxon: "[[anaerotaenia]]"
-      role: "Enriched in PMDD — functional significance under investigation"
-    - taxon: "[[escherichia-coli]]"
-      role: "MR-validated causal association — LPS production drives luteal-phase inflammatory signaling"
+    - taxon: '[[anaerotaenia]]'
+      role: Enriched in PMDD — functional significance under investigation
+    - taxon: '[[escherichia-coli]]'
+      role: MR-validated causal association — LPS production drives luteal-phase inflammatory signaling
   depleted:
-    - taxon: "[[butyricicoccus]]"
-      role: "Butyrate producer — loss reduces colonocyte health and anti-inflammatory signaling"
-    - taxon: "[[megasphaera]]"
-      role: "Valerate and SCFA producer — abundance inversely predicts symptom severity"
-    - taxon: "[[parabacteroides]]"
-      role: "Depleted — inversely correlates with PMDD symptom severity; candidate biomarker"
-    - taxon: "[[blautia]]"
-      role: "MR-validated protective taxon — acetate/propionate producer supporting anti-inflammatory signaling"
-
-# Layer 3: Nutritional immunity profile
+    - taxon: '[[butyricicoccus]]'
+      role: Butyrate producer — loss reduces colonocyte health and anti-inflammatory signaling
+    - taxon: '[[megasphaera]]'
+      role: Valerate and SCFA producer — abundance inversely predicts symptom severity
+    - taxon: '[[parabacteroides]]'
+      role: Depleted — inversely correlates with PMDD symptom severity; candidate biomarker
+    - taxon: '[[blautia]]'
+      role: MR-validated protective taxon — acetate/propionate producer supporting anti-inflammatory signaling
 nutritional_immunity:
-  elevated: [IL-8, TNF-alpha, pro-inflammatory-cytokines]
-  depleted: [magnesium]
-
-# Layer 4: Ecological features
-ecological_features: [tryptophan-kynurenine-shunting, estrobolome-dysfunction, GABA-A-receptor-modulation, luteal-phase-inflammation, SCFA-depletion, beta-glucuronidase-dysregulation]
-
-# Layer 5: Key virulence enzymes expressed
-virulence_enzymes: [beta-glucuronidase, tryptophanase, IDO-upregulation, LPS-biosynthesis]
-
+  elevated:
+    - IL-8
+    - TNF-alpha
+    - pro-inflammatory-cytokines
+  depleted:
+    - magnesium
+ecological_features:
+  - tryptophan-kynurenine-shunting
+  - estrobolome-dysfunction
+  - GABA-A-receptor-modulation
+  - luteal-phase-inflammation
+  - SCFA-depletion
+  - beta-glucuronidase-dysregulation
+virulence_enzymes:
+  - beta-glucuronidase
+  - tryptophanase
+  - IDO-upregulation
+  - LPS-biosynthesis
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 ## Overview

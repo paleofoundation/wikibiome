@@ -1,71 +1,105 @@
 ---
-title: "Premenstrual Dysphoric Disorder — Microbiome Signature"
+title: Premenstrual Dysphoric Disorder — Microbiome Signature
 type: signature
-created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
+created: 2026-04-18T00:00:00.000Z
+updated: 2026-04-18T00:00:00.000Z
+last_substantive_update: 2026-04-18T00:00:00.000Z
 sources: []
 source_count: 0
-tags: [pmdd, premenstrual, estrobolome, tryptophan-kynurenine, GABA, neuroinflammation, luteal-phase]
-
+tags:
+  - pmdd
+  - premenstrual
+  - estrobolome
+  - tryptophan-kynurenine
+  - GABA
+  - neuroinflammation
+  - luteal-phase
 metallomic_signature:
-  elevated: [copper]
-  depleted: [magnesium, zinc]
-
+  elevated:
+    - copper
+  depleted:
+    - magnesium
+    - zinc
 taxonomic_signature:
   enriched:
-    - taxon: "[[escherichia-coli]]"
-      role: "MR-validated causal association (OR=1.004); LPS production drives inflammatory signaling during luteal phase"
-    - taxon: "Anaerotaenia"
-      role: "Enriched in PMDD, correlated with symptom severity (r=0.292)"
+    - taxon: '[[escherichia-coli]]'
+      role: MR-validated causal association (OR=1.004); LPS production drives inflammatory signaling during luteal phase
+    - taxon: Anaerotaenia
+      role: Enriched in PMDD, correlated with symptom severity (r=0.292)
   depleted:
-    - taxon: "[[blautia]]"
-      role: "MR-validated protective taxon (OR=0.994); acetate/propionate producer; loss reduces anti-inflammatory signaling"
-    - taxon: "Parabacteroides"
-      role: "Depleted; abundance inversely predicts symptom severity (R2=0.29 combined with Megasphaera)"
-    - taxon: "Megasphaera"
-      role: "Depleted; produces valerate and SCFAs supporting barrier integrity"
-    - taxon: "Butyricicoccus"
-      role: "Depleted; butyrate producer whose loss reduces colonocyte health"
-    - taxon: "[[faecalibacterium-prausnitzii]]"
-      role: "Presumed depleted based on shared signature with depression; butyrate producer"
-
+    - taxon: '[[blautia]]'
+      role: MR-validated protective taxon (OR=0.994); acetate/propionate producer; loss reduces anti-inflammatory signaling
+    - taxon: Parabacteroides
+      role: Depleted; abundance inversely predicts symptom severity (R2=0.29 combined with Megasphaera)
+    - taxon: Megasphaera
+      role: Depleted; produces valerate and SCFAs supporting barrier integrity
+    - taxon: Butyricicoccus
+      role: Depleted; butyrate producer whose loss reduces colonocyte health
+    - taxon: '[[faecalibacterium-prausnitzii]]'
+      role: Presumed depleted based on shared signature with depression; butyrate producer
 nutritional_immunity:
-  elevated: [IL-8, TNF-alpha, copper-zinc-ratio]
-  depleted: [serotonin, GABA, allopregnanolone-sensitivity, butyrate]
-
-ecological_features: [estrogen-recirculation, beta-glucuronidase-activity, tryptophan-kynurenine-shunting, SCFA-depletion, GABA-A-receptor-modulation]
-
-virulence_enzymes: [beta-glucuronidase, indoleamine-2-3-dioxygenase, tryptophanase]
-
+  elevated:
+    - IL-8
+    - TNF-alpha
+    - copper-zinc-ratio
+  depleted:
+    - serotonin
+    - GABA
+    - allopregnanolone-sensitivity
+    - butyrate
+ecological_features:
+  - estrogen-recirculation
+  - beta-glucuronidase-activity
+  - tryptophan-kynurenine-shunting
+  - SCFA-depletion
+  - GABA-A-receptor-modulation
+virulence_enzymes:
+  - beta-glucuronidase
+  - indoleamine-2-3-dioxygenase
+  - tryptophanase
 confidence:
   metallomic: preliminary
   taxonomic: preliminary
   nutritional_immunity: preliminary
   ecological: preliminary
   virulence_enzymes: preliminary
-
 associated_conditions:
-  - condition: "[[depression]]"
-    shared_metals: [magnesium-depleted]
-    shared_taxa: [faecalibacterium-depleted, blautia-depleted]
-    shared_ecological: [tryptophan-kynurenine-shunting, SCFA-depletion]
+  - condition: '[[depression]]'
+    shared_metals:
+      - magnesium-depleted
+    shared_taxa:
+      - faecalibacterium-depleted
+      - blautia-depleted
+    shared_ecological:
+      - tryptophan-kynurenine-shunting
+      - SCFA-depletion
     overlap_score: 0.55
-  - condition: "[[endometriosis]]"
+  - condition: '[[endometriosis]]'
     shared_metals: []
     shared_taxa: []
-    shared_ecological: [estrogen-recirculation, beta-glucuronidase-activity]
+    shared_ecological:
+      - estrogen-recirculation
+      - beta-glucuronidase-activity
     overlap_score: 0.35
-  - condition: "[[anxiety]]"
-    shared_metals: [magnesium-depleted]
-    shared_taxa: [blautia-depleted, faecalibacterium-depleted]
-    shared_ecological: [tryptophan-kynurenine-shunting, SCFA-depletion]
+  - condition: '[[anxiety]]'
+    shared_metals:
+      - magnesium-depleted
+    shared_taxa:
+      - blautia-depleted
+      - faecalibacterium-depleted
+    shared_ecological:
+      - tryptophan-kynurenine-shunting
+      - SCFA-depletion
     overlap_score: 0.45
-
 cureva_status: partial
 validated_interventions: []
 stops: []
-karen_brain_primitives: [1, 5, 7]
+karen_brain_primitives:
+  - 1
+  - 5
+  - 7
+stub: true
+stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 ---
 
 # Premenstrual Dysphoric Disorder — Microbiome Signature

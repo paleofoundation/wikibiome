@@ -19,7 +19,7 @@ last_substantive_update: 2026-04-10
 
 **Enterohepatic circulation** (EHC) is the recycling loop by which compounds—primarily **bile acids**, **conjugated estrogens**, **conjugated glucuronides**, and metabolites of drugs and xenobiotics—are excreted in bile, reach the intestine, undergo deconjugation or dehydroxylation by bacterial enzymes (especially [[beta-glucuronidase]] and bile salt hydrolase), are reabsorbed across the intestinal epithelium, and return to systemic circulation via the portal blood to the liver. This recycling amplifies the bioavailability and lifetime in circulation of these compounds. In a healthy microbiota, the efficiency of EHC is tightly regulated; in dysbiosis, dysbiotic taxa often hyperexpress deconjugating enzymes, causing pathological overrecirculation of estrogens, bile acids, and drug metabolites. The [[estrobolome]] is the best-studied example, but EHC failures drive multiple disease states.
 
-This exemplifies [[primitive-7|primitive-7-estrobolome]] extended beyond estrogen: the gut microbiota controls the fate of systemically recycled compounds.
+This exemplifies [[estrobolome|primitive-7-estrobolome]] extended beyond estrogen: the gut microbiota controls the fate of systemically recycled compounds.
 
 ## Mechanism
 
@@ -58,7 +58,7 @@ Dysbiotic hyperactivation of EHC is implicated in multiple conditions:
 
 - **[[cholestasis]]** — Dysbiotic hyperactivation of BSH increases secondary bile acid production and reabsorption, exacerbating bile acid–induced liver damage in primary biliary cirrhosis (PBC) and primary sclerosing cholangitis (PSC).
 
-- **[[drug-metabolism-variability]]** — High dysbiotic β-Glu causes unpredictable reabsorption of glucuronidated drugs (acetaminophen, irinotecan, morphine), reducing drug clearance and increasing systemic exposure. This explains "slow metabolizer" phenotypes in dysbiotic patients.
+- **[[pharmacomicrobiomics|drug-metabolism-variability]]** — High dysbiotic β-Glu causes unpredictable reabsorption of glucuronidated drugs (acetaminophen, irinotecan, morphine), reducing drug clearance and increasing systemic exposure. This explains "slow metabolizer" phenotypes in dysbiotic patients.
 
 - **[[inflammatory-bowel-disease]]** — Dysbiotic EHC of inflammatory lipid mediators (e.g., eicosanoids) and estrogens perpetuates systemic inflammation and female-predominant severity.
 

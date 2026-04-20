@@ -23,7 +23,7 @@ Transferrin is not itself an antimicrobial; it is a **scavenging protein** that 
 
 ## Mechanism
 
-Transferrin binds Fe³⁺ at two high-affinity sites, each coordinated by two [[tryptophan|tyrosine]] residues, one [[histidine]], and one [[tryptophan|aspartate]], plus a synergistic [[carbonate]] ion. The protein exists in multiple iron-saturation states:
+Transferrin binds Fe³⁺ at two high-affinity sites, each coordinated by two [[tryptophan|tyrosine]] residues, one [[histidine]], and one [[tryptophan|aspartate]], plus a synergistic [[metal-speciation|carbonate]] ion. The protein exists in multiple iron-saturation states:
 
 - **Apo-transferrin** (0% saturated): Iron-free; circulates looking for iron
 - **Monoferric transferrin** (1 site occupied): Intermediate state

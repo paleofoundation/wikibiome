@@ -20,7 +20,7 @@ pathogenic_potential: opportunistic
 
 # Aspergillus
 
-A ubiquitous filamentous fungal genus that is both an environmental saprophyte and an opportunistic human pathogen. *A. fumigatus* is the primary cause of **invasive aspergillosis** in immunocompromised patients, while *A. niger* is relevant to food contamination. The genus is strongly **iron-dependent**, producing multiple siderophores that serve as both virulence factors and emerging diagnostic biomarkers through the [[infection-metallomics]] framework.
+A ubiquitous filamentous fungal genus that is both an environmental saprophyte and an opportunistic human pathogen. *A. fumigatus* is the primary cause of **invasive aspergillosis** in immunocompromised patients, while *A. niger* is relevant to food contamination. The genus is strongly **iron-dependent**, producing multiple siderophores that serve as both virulence factors and emerging diagnostic biomarkers through the [[metallomics|infection-metallomics]] framework.
 
 ## Iron Dependency and Siderophores
 
@@ -43,7 +43,7 @@ A ubiquitous filamentous fungal genus that is both an environmental saprophyte a
 ### Invasive Aspergillosis
 - Primarily affects immunocompromised patients: post-transplant, chemotherapy, prolonged corticosteroids, and critically ill ICU patients [[patil-2021-infection-metallomics-critical-care]].
 - COVID-19-associated pulmonary aspergillosis (CAPA) emerged as a significant complication, with 19.4% mortality in critically ill patients [[patil-2021-infection-metallomics-critical-care]] [[patil-2021-infection-metallomics-covid-era]].
-- Diagnosis via siderophore detection (TAFC in serum/urine by LC-MS) represents a paradigm shift from culture-based methods to [[infection-metallomics]]-based approaches [[patil-2021-infection-metallomics-critical-care]].
+- Diagnosis via siderophore detection (TAFC in serum/urine by LC-MS) represents a paradigm shift from culture-based methods to [[metallomics|infection-metallomics]]-based approaches [[patil-2021-infection-metallomics-critical-care]].
 
 ### Neurological Disease
 - Anti-*Aspergillus* antibodies detected in CSF of MS patients, suggesting CNS fungal exposure may contribute to neuroinflammation [[forbes-2019-fungal-mycobiome-neurological-disease]].

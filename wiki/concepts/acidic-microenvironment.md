@@ -2,95 +2,83 @@
 title: "Acidic Microenvironment"
 type: concept
 created: 2026-04-10
-updated: 2026-04-10
-sources: []
-source_count: 0
+updated: 2026-04-19
+last_substantive_update: 2026-04-19
+sources:
+  - aho-2021-gut-microbiome-scfas-inflammation-parkinsons
+  - chambers-2018-scfa-metabolic-cardiovascular-health
+  - louis-2022-microbial-lactate-utilisation-gut-stability
+  - gao-2015-microbiota-disbiosis-colorectal-cancer
+  - appunni-2021-dietary-factors-gut-microbiome-crc
+  - catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis
+  - bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota
+  - akbari-2022-metal-homeostasis-streptococci
+  - amerikanou-2022-ibd-biomarkers-trace-metals
+  - abreu-2024-high-fiber-low-fat-diet-crohns
+  - borghini-2020-endometriosis-nickel-ibs
+  - aquino-2012-cadmium-nickel-metalloestrogens
+  - ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis
+  - perrotta-2020-vaginal-microbiome-predict-rASRM-endometriosis
+  - harbi-2024-lactobacillus-candida-thyroid-disorders
+  - li-2022-candida-resident-microbiota-interactions
+  - darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli
+source_count: 17
 tags: [ecological-feature, ph-biology, metal-bioavailability, inflammation]
 karen_brain_primitive: "Primitive 9: Oxygen State as Ecological Determinant"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 karen_brain_primitives: [1, 3, 4, 5, 8, 9]
 seo_target: "acidic microenvironment microbiome"
-last_substantive_update: 2026-04-10
 ---
 
 ## Overview
 
-**Acidic microenvironment** is the local reduction of pH in tissues, organs, or ecological niches, typically to pH 4.5–6.0. Acidification occurs via bacterial [[fermentative-metabolism]] (production of lactic acid, acetic acid, and other organic acids), tumor metabolism (**Warburg effect**), or inflammatory cell infiltration (lactic acidosis from activated immune cells). The local acidic pH has profound consequences for microbiota composition (favoring acid-tolerant taxa), metal bioavailability (higher proton concentration increases solubility of divalent metal ions like Zn²⁺, Fe²⁺, Ni²⁺, Cd²⁺), enzyme activity, and tissue damage. In disease states like [[inflammatory-bowel-disease]], [[metal-carcinogenesis|cancer]], and [[endometriosis]], acidic microenvironments often signal active dysbiosis and inflammation.
+An **acidic microenvironment** is a local drop in pH — typically into the 4.5–6.5 range — inside a tissue, organ, or ecological niche. Acidification arises from three recurring sources: bacterial [[fermentative-metabolism]] that releases short-chain fatty acids and lactate ([[louis-2022-microbial-lactate-utilisation-gut-stability]], [[chambers-2018-scfa-metabolic-cardiovascular-health]]), tumor glycolysis (the Warburg effect) that accumulates lactate in cancerous tissue ([[gao-2015-microbiota-disbiosis-colorectal-cancer]]), and inflammatory infiltration where activated immune cells release lactic acid during respiratory burst. The consequences are ecological: acid-tolerant taxa thrive, acid-sensitive commensals lose ground, and the solubility of divalent metals rises sharply, amplifying metal-driven dysbiosis ([[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]], [[akbari-2022-metal-homeostasis-streptococci]]).
 
-This exemplifies [[primitive-9|primitive-9-oxygen-state]] extended to pH: ecological niche chemistry (both oxygenation and acidity) shapes which taxa thrive and what metabolic modes dominate.
+This extends [[hypoxia|primitive-9-oxygen-state]] to pH: niche chemistry — both oxygenation and acidity — selects which organisms can persist.
 
 ## Mechanism
 
-**Sources of acidification**:
+**Sources of acidification.** Colonic pH is set largely by microbial fermentation end products. Butyrate, acetate, and propionate produced by SCFA-fermenting commensals maintain a mildly acidic lumen that is part of normal gut function ([[chambers-2018-scfa-metabolic-cardiovascular-health]], [[aho-2021-gut-microbiome-scfas-inflammation-parkinsons]]). Lactate is normally cross-fed between producing and utilizing taxa; failure of lactate utilization leads to lactate accumulation and a steeper pH drop ([[louis-2022-microbial-lactate-utilisation-gut-stability]]). In tumors, aerobic glycolysis drives lactate export and a stable tissue pH of roughly 5.5–6.5 ([[gao-2015-microbiota-disbiosis-colorectal-cancer]]).
 
-1. **Bacterial fermentation**: [[fermentative-metabolism]] produces end-product organic acids (lactate, acetate, formate, butyrate) that lower local pH. In dysbiotic niches with high proteolytic fermentation, ammonia production increases local pH transiently, but organic acids dominate overall.
+**pH-dependent metal bioavailability.** Lower pH raises proton competition at metal-binding sites and increases the free, soluble fraction of divalent cations. Iron homeostasis in the intestine is pH-sensitive, with ferrous iron (Fe²⁺) uptake via DMT1 favored under acidic conditions ([[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]). The same transporter family moves other divalent metals — zinc, manganese, nickel, cadmium — so acidification broadly hyperabsorbs them into inflamed tissue ([[akbari-2022-metal-homeostasis-streptococci]]).
 
-2. **Tumor metabolism (Warburg effect)**: Cancer cells preferentially use glycolysis even under aerobic conditions, producing lactate that accumulates in the tumor microenvironment, lowering local pH to 5.5–6.5. Lactate is then exported via monocarboxylate transporters (MCTs).
-
-3. **Immune cell activation**: Infiltrating neutrophils and macrophages undergo lactic acidosis due to high glycolytic rates during respiratory burst and phagocytosis; in concentrated immune infiltrates, pH can drop to 5.5.
-
-4. **Epithelial barrier dysfunction**: In [[inflammatory-bowel-disease]], tight junction loss allows bacterial acids to penetrate deeper into tissue layers, creating acidic pockets.
-
-**pH-dependent metal bioavailability**:
-
-Metal solubility and absorption are highly pH-dependent:
-- **At low pH (< 6)**: Protons compete with metal-binding sites on transporters and proteins; divalent metals (Zn²⁺, Fe²⁺, Ni²⁺, Cd²⁺) become more soluble and bioavailable.
-- **Metal speciation**: At pH 7, some metals precipitate or bind strongly to proteins; at pH 5–6, they remain free and mobile.
-- **Transporter activity**: Many metal transporters (DMT1, SLC39A family Zn transporters) have optimal activity at acidic pH (5–6), making acidic tissues hyperabsorb metals.
-
-**Consequence**: Acidified inflamed tissues hyperaccumulate metals—especially iron, zinc, and nickel. This creates a selective pressure for metal-tolerant pathogenic taxa.
+**The feedback loop.** Acidified niche → higher divalent-metal bioavailability → metal-dependent pathogens expand → more fermentative/proteolytic output → further acidification. The loop explains why once dysbiotic niches are acidified they are hard to reverse without changing both the pH and the metal flux.
 
 ## Role in Disease
 
-Acidic microenvironments are hallmark features of dysbiosis-driven diseases:
+**Inflammatory bowel disease.** Active IBD is associated with altered colonic metal handling and SCFA profiles consistent with a shifted pH environment; circulating trace-metal biomarkers track disease activity ([[amerikanou-2022-ibd-biomarkers-trace-metals]]). High-fiber, low-fat dietary patterns that favor SCFA producers show signal in Crohn's disease, consistent with restoring protective short-chain-fatty-acid tone rather than pathological acidification ([[abreu-2024-high-fiber-low-fat-diet-crohns]]).
 
-- **[[inflammatory-bowel-disease]]** — Acidified colonic mucosa (pH 5.5–6.5 vs. 7–7.5 in health) from bacterial fermentation and immune infiltration. Low pH favors acid-tolerant dysbiotic taxa ([[bacteroides-fragilis]], pathogenic [[escherichia-coli]]) while inhibiting acid-sensitive commensals ([[roseburia]], [[faecalibacterium-prausnitzii|faecalibacterium]]).
+**Colorectal cancer.** The tumor microenvironment is characteristically acidic from Warburg-style glycolysis, and the associated microbiota is enriched for acid-tolerant, pro-inflammatory taxa while depleted of butyrate producers ([[gao-2015-microbiota-disbiosis-colorectal-cancer]], [[appunni-2021-dietary-factors-gut-microbiome-crc]]). Bacterial communities in the upper GI tract similarly track with local pH and oxygenation across the carcinogenic trajectory ([[catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis]]).
 
-- **[[colorectal-cancer]]** — Tumor microenvironment pH 5.5–6.5. Acidification selects for [[fusobacterium-nucleatum]] (acid-tolerant, pro-inflammatory) while suppressing butyrate-producing [[lachnospiraceae]].
+**Endometriosis.** Lesional tissue shows elevated nickel, and dysbiosis patterns across vaginal, cervical, and gut compartments ([[aquino-2012-cadmium-nickel-metalloestrogens]], [[borghini-2020-endometriosis-nickel-ibs]], [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]], [[perrotta-2020-vaginal-microbiome-predict-rASRM-endometriosis]]). The pH-metal interaction is central: acidified lesions hyperabsorb divalent cations, feeding metal-dependent pathogens implicated in lesion biology.
 
-- **[[endometriosis]]** — Lesional pH is acidified (5.8–6.2) by macrophage infiltration (lactic acidosis) and dysbiotic bacterial fermentation. Low pH hyperabsorbs iron and nickel into lesional tissue, driving [[escherichia-coli]] overgrowth and [[nickel-glyoxalase]] upregulation.
-
-- **[[candidiasis]]** (vaginal and oral) — [[candida-albicans]] prefers slightly acidic pH (4.5–6.0); Lactobacillus-dominated healthy flora maintains pH 3.8–4.5 through lactic acid production; overgrowth of candida often follows dysbiosis-driven pH rise.
-
-- **[[chronic-wounds]]** — Wound fluid pH 5.5–7.5 (acidic compared to dermis pH 7.4); acidification favors [[pseudomonas-aeruginosa]] and other wound biofilm pathogens.
+**Candidiasis.** Lactobacillus-produced lactic acid is the primary maintainer of the vaginal acidic environment, and the balance between *Lactobacillus* and *Candida* shifts with pH and with the wider microbial community ([[harbi-2024-lactobacillus-candida-thyroid-disorders]], [[li-2022-candida-resident-microbiota-interactions]]).
 
 ## Metal Connections
 
-**Acidic microenvironments amplify metal-driven dysbiosis**:
+**Iron.** Acidic tissue favors Fe²⁺ solubility and DMT1-mediated uptake; inflamed niches are iron-replete even while circulating iron falls ([[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]). Siderophore-producing pathogens exploit this local iron pool even when systemic [[nutritional-immunity]] is withholding.
 
-1. **Iron overload**: Low pH increases Fe²⁺ absorption and reduces ferroportin export, trapping iron in inflamed tissue. Siderophore-producing pathogens like [[escherichia-coli]] thrive.
+**Zinc, manganese, nickel.** Metal homeostasis in streptococci and other pathogens is tuned to the elevated divalent-cation availability of acidified tissue; transporters for Zn, Mn, and Ni become more productive at lower pH ([[akbari-2022-metal-homeostasis-streptococci]]).
 
-2. **Zinc hyperabsorption**: Acidified endometriosis lesions hyperabsorb zinc via DMT1. This paradoxically impairs [[nutritional-immunity]] (which relies on zinc withholding) and enables zinc-dependent pathogens.
+**Nickel in E. coli.** Nickel, iron, and copper act synergistically in E. coli iron-sulfur metabolism — the pH-dependent rise in metal availability is a lever on virulence, not just a passive consequence ([[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]).
 
-3. **Nickel bioavailability**: Acidic pH increases Ni²⁺ solubility and tissue uptake. In acidified endometriotic lesions, tissue nickel accumulates, selecting for Ni-dependent [[escherichia-coli]] with [[nickel-glyoxalase]] and [[nickel-transporters]].
-
-4. **Cadmium and lead displacement**: At acidic pH, Cd²⁺ and Pb²⁺ compete more effectively for divalent metal transporters (DMT1), displacing correct cofactors (Zn²⁺, Ca²⁺) — [[primitive-3|primitive-3-mis-metallation]] mechanism.
-
-**Feedback loop**: 
-Acidic microenvironment → metal hyperabsorption → metal-dependent pathogen overgrowth → further dysbiotic fermentation → further acidification.
+**Cadmium displacement.** Cadmium exposure restructures microbial communities and metabolite profiles in the gut, consistent with divalent-metal competition at acidic sites ([[cheng-2021-cadmium-enterococcus-metabolic]]).
 
 ## Connections
 
-**Linked concepts**:
-- [[fermentative-metabolism]] — Primary source of organic acids that lower pH.
-- [[nutritional-immunity]] — Acidic pH undermines metal-withholding defenses.
-- — Acidity is a major determinant of whether metals are free/bioavailable or sequestered.
-- [[inflammation]] — Inflammatory cell infiltration drives acidification; acidification in turn promotes pro-inflammatory taxa.
-- — Acidic microenvironments select for dysbiotic, pro-inflammatory taxa.
+**Linked concepts**
+- [[fermentative-metabolism]] — produces the organic acids that set pH.
+- [[nutritional-immunity]] — metal withholding is less effective where local acidification frees metal.
+- [[hypoxia]] — anaerobic conditions and acidity co-occur in dysbiotic niches.
 
-**Linked entities**:
-- [[fermentative-metabolism]] — Produces the acids.
-- [[bacteroides-fragilis]] — Acid-tolerant dysbiotic pathogen; high proteolytic fermentation.
-- [[escherichia-coli]] — Acid-tolerant; benefits from elevated Ni and Fe bioavailability in acidified niches.
-- [[fusobacterium-nucleatum]] — Acid-tolerant; pro-inflammatory; selects for in acidified colonic tumors.
-- [[lachnospiraceae]], [[faecalibacterium-prausnitzii]] — Acid-sensitive commensals; suppressed by acidification.
-- [[candida-albicans]] — Prefers slightly acidic pH; overgrows when pH rises above yeast-optimal range.
-- [[iron]], [[zinc]], [[nickel]] — Metals whose bioavailability increases with acidification.
+**Linked entities**
+- [[escherichia-coli]] — acid-tolerant; expands under iron/nickel availability in acidified tissue.
+- [[fusobacterium-nucleatum]] — acid-tolerant; enriched in the colorectal tumor microenvironment.
+- [[candida-albicans]] — morphogenesis and community context both respond to local pH.
+- [[iron]], [[zinc]], [[nickel]] — bioavailability rises with acidification.
 
-**Intervention implications**:
-- **pH buffering**: Alkalinizing compounds (calcium carbonate, sodium bicarbonate) may shift dysbiotic communities toward acid-sensitive commensals.
-- **Acid-producing prebiotics**: Inulin and FOS feed SCFA producers, which produce their own acids; the goal is controlled, protective acidification (via butyrate) rather than dysbiotic proteolytic acidification.
-- **Anti-inflammatory intervention**: Suppressing immune infiltration (via resolution-phase lipid mediators, polyphenols) reduces lactic acidosis.
-- **Metal restriction**: In acidified niches, reducing dietary metal load (especially iron and nickel) may slow pathogenic overgrowth.
+## Open Questions
+
+- At what pH thresholds does the feedback loop (acidification → metal hyperabsorption → pathogen expansion) become self-sustaining rather than recoverable?
+- Do interventions that restore butyrate tone (and thus a *protective* mild acidity) rescue the niche without feeding pathogenic acidification?
+- How much of the metal flux into inflamed tissue is host-driven (transporter upregulation) versus pH-driven (chemical speciation)?
