@@ -1,54 +1,82 @@
 ---
-title: "Gut microbiota short-chain fatty acids and their impact on the host thyroid function and diseases"
+title: "Mendoza-Leon et al. 2023 — Gut Microbiota Short-Chain Fatty Acids and Their Impact on the Host Thyroid Function and Diseases"
 type: source
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-20
 authors: [Mendoza-Leon MJ, Mangalam AK, Regaldiz A, Gonzalez-Madrid E, Rangel-Ramirez MA, Alvarez-Mardonez O, Vallejos OP, Mendez C, Bueno SM, Melo-Gonzalez F, Duarte Y, Opazo MC, Kalergis AM, Riedel CA]
+corresponding_author: "Claudia A. Riedel"
+corresponding_email: "Claudia.riedel@unab.cl"
+institution: "Departamento de Ciencias Biologicas, Universidad Andres Bello, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy"
 journal: Frontiers in Endocrinology
 year: 2023
-tags: [hashimotos-thyroiditis, thyroid, autoimmune, short-chain-fatty-acids, gut-microbiota, dysbiosis, butyrate, propionate, acetate, iodine, selenium, thyroid-hormones, metabolism]
 doi: "10.3389/fendo.2023.1192216"
 evidence_level: expert-opinion
+sample_size: "N/A (comprehensive review)"
+tags: [hashimotos-thyroiditis, thyroid, autoimmune, short-chain-fatty-acids, gut-microbiota, dysbiosis, butyrate, propionate, acetate, iodine, selenium, thyroid-hormones, metabolism]
+library_category: mechanistic-insights
 platform: wikibiome
-metals_discussed: [selenium]
-taxa_discussed: [bacteroides-fragilis, clostridium, eubacterium, faecalibacterium-prausnitzii, lactobacillus, propionibacterium, roseburia, ruminococcus]
+condition: "thyroid diseases"
 karen_brain_primitives: [5, 9]
+metals_discussed: [selenium, iodine]
+taxa_discussed: [bacteroides-fragilis, clostridium, eubacterium, faecalibacterium-prausnitzii, lactobacillus, propionibacterium, roseburia, ruminococcus, prevotella, veillonella, bifidobacterium]
+key_findings:
+  - "SCFAs are produced in a normal molar ratio of 60:20:20 (acetate:propionate:butyrate); alterations in this ratio are linked to thyroid disorders"
+  - "Butyrate producers are Clostridium cluster IV (F. prausnitzii) and cluster XIVa (E. rectale/Roseburia spp.); their depletion in thyroid disease reduces anti-inflammatory SCFA supply"
+  - "SCFAs regulate immune function through GPR41, GPR43, GPR109A receptors and MCT1/SMCT1 transporters; dietary fiber content directly regulates MCT1 expression"
+keystone: false
 ---
 
-# Gut microbiota short-chain fatty acids and their impact on the host thyroid function and diseases
+# Gut Microbiota Short-Chain Fatty Acids and Their Impact on the Host Thyroid Function and Diseases
 
-## Key Claims
+## Key Findings
 
-- [[short-chain-fatty-acids]] (SCFAs) are produced by gut microbiota from dietary fiber in a normal molar ratio of 60:20:20 (acetate:propionate:butyrate); alterations in this ratio are linked to thyroid disorders
-- [[dysbiosis]] in thyroid disease patients shows increased pathogenic bacteria and reduced commensal/SCFA-producing bacteria, directly affecting SCFA production
-- SCFAs enhance ATP synthesis, affect cell metabolism, supply energy, and control the immune system by generating a tolerogenic environment
-- Butyrate production involves Clostridium cluster IV (Faecalibacterium prausnitzii) and cluster XIVa (Eubacterium rectale/Roseburia spp.) as primary colonic producers
-- SCFAs are transported through G-protein-coupled receptors (GPR41, GPR43, GPR109A) and monocarboxylate transporters (MCT1, SMCT1) that regulate their luminal concentrations
-- The bidirectional relationship between thyroid function and gut microbiota means that thyroid disorders can alter SCFA production, and altered SCFAs can further exacerbate thyroid dysfunction
+- **SCFA ratio and thyroid disorders**: [[short-chain-fatty-acids]] are produced by gut microbiota from dietary fiber in a normal molar ratio of 60:20:20 (acetate:propionate:butyrate); alterations in this ratio are linked to thyroid disorders including hypothyroidism, hyperthyroidism, and Hashimoto's thyroiditis ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
+- **Key butyrate producers**: Butyrate production involves Clostridium cluster IV ([[faecalibacterium-prausnitzii]]) and cluster XIVa ([[eubacterium]] rectale/[[roseburia]] spp.) as primary colonic producers. These bacteria are consistently depleted in thyroid disease patients ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
+- **SCFA transport and signaling**: SCFAs are transported through G-protein-coupled receptors (GPR41/FFAR3, GPR43/FFAR2, GPR109A) and monocarboxylate transporters (MCT1, SMCT1/SLC5A8, SMCT2/SLC5A12). MCT1 expression is regulated by dietary fiber content and butyrate; low-fiber diets reduce MCT1 transporter expression ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
+- **Selenium-dependent thyroid metabolism**: T4-to-T3 conversion by deiodinases (DIO1, DIO2, DIO3) is [[selenium]]-dependent. Gut microbiota composition affects selenium bioavailability, creating a metabolic link between dysbiosis and impaired thyroid hormone activation ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
+- **Immune regulation by SCFAs**: SCFAs inhibit HDAC activity, promote Treg differentiation via FoxP3 expression, suppress pro-inflammatory cytokines (IFN-gamma, TNF-alpha), and maintain intestinal barrier integrity. Butyrate can signal through GPR109a in macrophages, promoting Treg expansion ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
 
-## Methods/Findings
+## Methods
 
-- **Study type**: Comprehensive review (published June 2023)
+- **Study type**: Comprehensive review (published June 30, 2023; 20 pages, 327 references)
+- **Scope**: Thyroid hormone synthesis and regulation, thyroid disorders (hypothyroidism, hyperthyroidism, gestational hypothyroxinemia), nutrition and thyroid function (iodine, selenium), gut microbiota and SCFA production, SCFA effects on cellular metabolism and immune regulation, dysbiosis in thyroid diseases, SCFA detection methods
+- **Data presentation**: Tables 1-3 (microbial changes in hypothyroidism, HT, and GD/hyperthyroidism with SCFA associations); Figures 1-3 (thyroid hormone synthesis, HPT axis, thyroid function-dysbiosis cycle)
 
- - Thyroid hormones (T3, T4) are synthesized from thyroglobulin (Tg) via TPO-catalyzed iodination and coupling reactions requiring H2O2 generated by DUOX enzymes
- - THs are transported by TBG, transthyretin, and albumin; enter cells via MCT1, MCT4, MCT8, MCT10, OATP1A2, and LAT1/2 transporters
- - T4-to-T3 conversion by deiodinases (DIO1, DIO2, DIO3) is selenium-dependent
+## Detailed Summary
 
- - Acetate produced by most anaerobic bacteria; propionate by Bacteroides, Ruminococcus, Veionella, Lactobacillus, Propionibacterium
- - Butyrate producers belong to phylum Firmicutes: Clostridia class (Clostridium cluster XIV, Faecalibacterium, Bacteroidetes, Proteobacteria)
- - MCT1 expression regulated by dietary fiber content and butyrate; low-fiber diets reduce MCT1 transporter expression
+**Thyroid hormone synthesis**: THs are synthesized from thyroglobulin via TPO-catalyzed iodination requiring H2O2 generated by DUOX enzymes. T4-to-T3 conversion by deiodinases is selenium-dependent. THs are transported by TBG, transthyretin, and albumin; enter cells via MCT1, MCT4, MCT8, MCT10, OATP1A2, and LAT1/2 transporters ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
 
- - In [[hashimotos-thyroiditis]], altered Firmicutes/Bacteroidetes ratio leads to reduced butyrate production
- - [[iodine]] is essential for thyroid function; gut microbiota facilitate iodine availability through mineral absorption
- - [[selenium]] is required for deiodinase activity; gut microbiota composition affects selenium bioavailability
-- **Immune modulation**: SCFAs inhibit HDAC activity, promote Treg differentiation, suppress pro-inflammatory cytokines, and maintain intestinal barrier integrity
+**SCFA production pathways**: Acetate produced by most anaerobic bacteria. Propionate by [[bacteroides-fragilis|Bacteroides]], [[ruminococcus]], Veillonella, [[lactobacillus]], [[propionibacterium]] via succinate/propanediol pathways. Butyrate by Firmicutes phylum members (Clostridia class): Clostridium cluster XIV, Faecalibacterium prausnitzii. Butyrate can also be produced from condensation of acetyl-CoA with butyryl-CoA reductase, or from carbohydrates, organic acids, glutamate, and lysine substrates ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
 
-## Connections
+**SCFA effects on cellular metabolism**: Butyrate is the principal SCFA for energy homeostasis in colonocytes. It increases FAO in keratinocytes (99% due to FAO), regulates acyl-CoA dehydrogenase, supports energy homeostasis through incorporation into TCA cycle and OXPHOS. In macrophages, butyrate increases OXPHOS for alternative cell activation and anti-inflammatory effects. Butyrate induces peripheral iTreg cells by transformation via acyl-CoA synthetase short-chain family member 2 (ACSS2) producing butyryl-CoA (BCoA) ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
 
-- SCFA depletion in HT connects to [[gong-2024-iodine-gut-microbiota-hashimotos]] findings on butyrate decrease
-- Butyrate-thyroid connections align with [[legakis-2023-thyroid-diseases-intestinal-microbiome]] on butyric acid-producing bacteria in thyroid nodules
-- [[selenium]]-dependent deiodinase function links to [[li-2025-trace-elements-autoimmune-thyroid-disease]]
-- [[iodine]] and SCFA interactions relevant to microbiota-gut-thyroid axis
-- [[dysbiosis]] patterns in HT documented in [[liu-2022-gut-microbiota-diversity-hashimotos]]
-- [[inflammation]] modulation by SCFAs connects to [[nf-kappa-b]] pathway inhibition
-- [[probiotics]] that enhance SCFA production relevant to therapeutic strategies in [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]]
+**Dysbiosis in thyroid disorders** (Tables 1-3): In subclinical hypothyroidism, increased Odoribacter and Enterococcus with altered L-thyroxine dosing. In HT, consistent patterns of increased Lachnospiraceae, Holdemamiawere, Akkermansia, Megamonas and decreased Bifidobacterium, Klebsiella. In GD, reduced Bifidobacterium/Lactobacillus, increased Bacteroidetes proportion, decreased propionic and butyric acid levels measured by GC-MS ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
+
+**SCFA detection methods**: GC and GC-MS most commonly used (90-95% of SCFA subtypes detected). HPLC also used. ELISA available but less sensitive. Derivatization strategies enhance detection. Enzymatic detection converts SCFAs to detectable products via UV spectrophotometry ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion).
+
+## Relevance to WikiBiome
+
+- Definitive reference for SCFA-thyroid axis mechanism — informs [[short-chain-fatty-acids]] concept page with production pathways, transport mechanisms, and immune effects
+- Selenium-deiodinase dependency connects to [[selenium]] entity page
+- MCT1 transporter regulation by fiber/butyrate is a novel concept linking [[dietary-fiber]] to thyroid function
+- Tables 1-3 provide comprehensive microbiota-SCFA-thyroid disorder mapping for cross-referencing
+
+## Relevance to Cureva
+
+- Dietary fiber as an intervention to restore MCT1 expression and SCFA transport — mechanism for fiber-thyroid intervention triangle
+- Butyrate supplementation or butyrate-producing probiotic strains as targeted intervention for thyroid autoimmunity
+- GPR109A receptor as a drug target for thyroid immune modulation (niacin activates this receptor)
+- SCFA measurement (GC-MS) as a biomarker for monitoring gut-thyroid axis status in patients
+
+## Contradictions / Tensions
+
+- Despite extensive mechanistic rationale, direct evidence linking SCFA supplementation to thyroid hormone improvement in humans is limited
+- The review notes GC-MS measurement of SCFAs in only a few GD studies — direct SCFA quantification in HT patients is largely absent
+- The bidirectional relationship (thyroid dysfunction altering SCFA production AND altered SCFAs worsening thyroid dysfunction) makes causal inference difficult
+
+## Open Questions
+
+- Whether oral butyrate supplementation can improve thyroid function independently of microbiome changes
+- Whether MCT1 transporter expression in the gut could serve as a biomarker for thyroid disease risk
+- The specific SCFA ratio (acetate:propionate:butyrate) in HT vs. GD patients — no study has comprehensively measured this
+- Whether SCFA detection could be incorporated into clinical thyroid disease monitoring
