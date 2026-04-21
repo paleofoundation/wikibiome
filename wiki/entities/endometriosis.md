@@ -16,7 +16,8 @@ sources:
  - mazza-2023-endometriosis-dietary-choices-everyday-life
  - microbiome-diet-endometriosis-food-tables
  - aquino-2012-cadmium-nickel-metalloestrogens
-source_count: 10
+ - quaranta-2019-fmt-female-reproductive-tract-diseases
+source_count: 11
 tags: [gynecological, nickel-allergy, metalloestrogens, microbiome, dietary-paradox, estrogen-dependent, chronic-inflammatory]
 platform: wikibiome
 last_substantive_update: 2026-04-13
