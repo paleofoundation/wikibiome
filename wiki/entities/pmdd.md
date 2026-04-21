@@ -3,14 +3,14 @@ title: Premenstrual Dysphoric Disorder
 type: entity
 subtype: disease
 created: 2026-04-15
-updated: 2026-04-15
-last_substantive_update: 2026-04-15
-sources: []
-source_count: 0
-tags: [pmdd, premenstrual, estrobolome, tryptophan-kynurenine, GABA, neuroinflammation]
+updated: 2026-04-21
+last_substantive_update: 2026-04-21
+sources: [nexha-2024-biological-rhythms-pmdd-systematic-review, nabeh-2024-diabetes-pms-gut-microbiome-review]
+source_count: 2
+tags: [pmdd, premenstrual, estrobolome, tryptophan-kynurenine, GABA, neuroinflammation, circadian-rhythms, melatonin]
 platform: wikibiome
 stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 5 required"
+stub_reason: "below §2f source density threshold — 2 sources, minimum 5 required"
 seo_target: "PMDD microbiome gut hormones premenstrual"
 wikipedia_differentiation: "Gut-hormone axis with Bacteroidetes depletion correlating with symptom severity, tryptophan-kynurenine shunting via IDO upregulation during luteal phase, and GABA-A receptor modulation by inflammatory cytokines linking gut dysbiosis to mood symptoms"
 associated_conditions: [depression, female-infertility]
@@ -63,6 +63,26 @@ Dietary fiber intake shows a protective association: women consuming >10 g/day o
 ## Metal Associations
 
 Direct metallomic data for PMDD is limited. However, magnesium depletion is documented in premenstrual disorders broadly, and magnesium's role as an NMDA receptor antagonist and cofactor for serotonin synthesis makes it mechanistically relevant. Copper-zinc ratio fluctuations across the menstrual cycle may also modulate PMDD symptom expression, though this remains preliminary.
+
+## Circadian and Biological Rhythm Disruption
+
+PMDD involves widespread biological rhythm disruption beyond the luteal phase alone:
+
+- **Reduced melatonin AUC** in the luteal phase — supported by 4 of 8 studies in a systematic review ([[nexha-2024-biological-rhythms-pmdd-systematic-review]], systematic review, 25 studies); earlier melatonin offset time also observed
+- **Elevated nocturnal core body temperature** throughout the entire menstrual cycle (not confined to the luteal phase) — suggests a persistent circadian state alteration rather than purely a hormonal-phase phenomenon ([[nexha-2024-biological-rhythms-pmdd-systematic-review]])
+- **Sleep architecture disruption**: increased slow-wave sleep (SWS), reduced Stage 1 sleep, longer REM sleep latency, and significantly worse subjective sleep quality in the late luteal phase ([[nexha-2024-biological-rhythms-pmdd-systematic-review]])
+- **Higher prolactin peak** throughout the menstrual cycle in PMDD; earlier TSH acrophase — suggesting broader neuroendocrine circadian disruption ([[nexha-2024-biological-rhythms-pmdd-systematic-review]])
+- **BRIAN scale assessment**: PMDD patients scored higher in all four biological rhythm disruption domains — sleep, social rhythms, activity, and eating — compared to healthy controls ([[nexha-2024-biological-rhythms-pmdd-systematic-review]])
+
+The gut microbiome is subject to circadian entrainment via the host's SCN-driven clock; disrupted melatonin signaling may alter gut epithelial permeability and microbiota composition, providing a mechanistic bridge from circadian disruption to the dysbiosis pattern observed in PMDD.
+
+## Comorbidity with Diabetes and Metabolic Conditions
+
+Diabetes mellitus increases PMS/PMDD incidence via shared disruption of estrogen, progesterone, serotonin, and GABA — the same neuroendocrine mediators implicated in PMDD pathophysiology ([[nabeh-2024-diabetes-pms-gut-microbiome-review]], narrative review). The shared mechanism runs through:
+
+- **Gut dysbiosis as bridge**: DM disrupts gut microbiota, reducing SCFAs and serotonin that guard against PMDD severity ([[nabeh-2024-diabetes-pms-gut-microbiome-review]])
+- **Bidirectional hormonal dysregulation**: estrogen/progesterone fluctuations can impair glucose control in diabetic women, while chronic hyperglycemia disrupts hormonal balance ([[nabeh-2024-diabetes-pms-gut-microbiome-review]])
+- **Insulin resistance** as a common downstream pathway — present in both DM and PMDD independently ([[nabeh-2024-diabetes-pms-gut-microbiome-review]])
 
 ## Open Questions
 

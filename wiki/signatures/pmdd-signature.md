@@ -2,10 +2,10 @@
 title: Premenstrual Dysphoric Disorder — Microbiome Signature
 type: signature
 created: 2026-04-18T00:00:00.000Z
-updated: 2026-04-18T00:00:00.000Z
-last_substantive_update: 2026-04-18T00:00:00.000Z
-sources: []
-source_count: 0
+updated: 2026-04-21T00:00:00.000Z
+last_substantive_update: 2026-04-21T00:00:00.000Z
+sources: [nexha-2024-biological-rhythms-pmdd-systematic-review, nabeh-2024-diabetes-pms-gut-microbiome-review]
+source_count: 2
 tags:
   - pmdd
   - premenstrual
@@ -14,6 +14,8 @@ tags:
   - GABA
   - neuroinflammation
   - luteal-phase
+  - circadian-rhythms
+  - melatonin
 metallomic_signature:
   elevated:
     - copper
@@ -53,6 +55,8 @@ ecological_features:
   - tryptophan-kynurenine-shunting
   - SCFA-depletion
   - GABA-A-receptor-modulation
+  - circadian-rhythm-disruption
+  - melatonin-amplitude-reduction
 virulence_enzymes:
   - beta-glucuronidase
   - indoleamine-2-3-dioxygenase
