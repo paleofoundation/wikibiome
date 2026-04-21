@@ -78,7 +78,7 @@
 <p><strong>Cerebral Palsy is an additional gap</strong>: 79 raw papers exist but there is no entity page, no sources ingested, and no signature. This condition may warrant a dedicated entity page before a signature can be built.</p>
 <p>&mdash;-</p>
 <h2>Section 2: 180 Unorganized ASD Papers — Incomplete Ingest</h2>
-<p>The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains <strong>180 PDF files</strong> that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-microbiome-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:</p>
+<p>The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains <strong>180 PDF files</strong> that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:</p>
 <ul><li>Additional metallomic data for the ASD signature (currently `cureva_status: in-progress`)</li><li>Intervention evidence (particularly for the low-nickel and probiotics pages)</li><li>Additional STOP candidates</li><li>Relevant microbe entity data</li></ul>
 <p><strong>Recommended action:</strong> Run the structured ingest workflow on this folder. Given the volume (180 papers), this is a multi-session effort. Suggest prioritizing: (1) any papers about metals + ASD, (2) any RCT intervention papers, (3) any signature/microbiome composition papers.</p>
 <p>&mdash;-</p>
@@ -103,7 +103,7 @@
 <h2>6.1 — No Cerebral Palsy entity page despite 79 raw papers</h2>
 <p>The `raw/Cerebral Palsy/` folder has 79 organized papers, but unlike the other conditions with raw folders, there is no entity page in `wiki/entities/`. This condition should be tracked even if signature work is deferred.</p>
 <h2>6.2 — ASD signature status should be `partial`, not `in-progress`</h2>
-<p>`autism-spectrum-disorder-microbiome-signature.md` is marked `cureva_status: in-progress` but it has all 5 signature layers populated, has a linked intervention page, and has a STOP page. By the standard applied to other conditions, this should be `partial`. Upgrade to `partial` once the 180 unorganized papers are reviewed.</p>
+<p>`autism-spectrum-disorder-signature.md` is marked `cureva_status: in-progress` but it has all 5 signature layers populated, has a linked intervention page, and has a STOP page. By the standard applied to other conditions, this should be `partial`. Upgrade to `partial` once the 180 unorganized papers are reviewed.</p>
 <h2>6.3 — `RE-INGEST-PROMPT.md` exists with unexecuted instructions</h2>
 <p>The file `raw/RE-INGEST-PROMPT.md` contains a detailed re-ingest workflow that may not have been fully executed. Specifically, it asks to run `node scripts/build-content.cjs &mdash;platform all` after ingest. This should be verified.</p>
 <h2>6.4 — No concept page for `SNAS` (Systemic Nickel Allergy Syndrome)</h2>
@@ -121,7 +121,7 @@
 <p>&mdash;-</p>
 <h2>Recommended Action Sequence for Next Session</h2>
 <h2>Immediate (&lt; 30 min, no new content required)</h2>
-<ol><li>Fix backslash wikilinks in `dietary-metal-microbiome-interactions.md`</li><li>Complete GERD triangle in `low-nickel-diet.md`</li><li>Add `subtype:` to 14 entity pages (aluminum, arsenic, cadmium, candida-albicans, chromium, copper, enterococcus, iron, lead, manganese, mercury, nickel, selenium, zinc)</li><li>Add `cureva_status:` to 5 intervention pages</li><li>Fix misspelled `<a href="/article/akkermansia-mucinicola">akkermansia mucinicola</a>` wikilink</li><li>Create stub entity page for `cerebral-palsy`</li><li>Create `<a href="/article/snas">snas</a>` or `<a href="/article/systemic-nickel-allergy-syndrome">systemic nickel allergy syndrome</a>` concept page</li><li>Regenerate `index.md` from filesystem</li></ol>
+<ol><li>Fix backslash wikilinks in `dietary-metal-microbiome-interactions.md`</li><li>Complete GERD triangle in `low-nickel-diet.md`</li><li>Add `subtype:` to 14 entity pages (aluminum, arsenic, cadmium, candida-albicans, chromium, copper, enterococcus, iron, lead, manganese, mercury, nickel, selenium, zinc)</li><li>Add `cureva_status:` to 5 intervention pages</li><li>Fix misspelled `<a href="/article/akkermansia-mucinicola">akkermansia mucinicola</a>` wikilink</li><li>Create stub entity page for `cerebral-palsy`</li><li>Create `<a href="/article/nickel-allergy">SNAS</a>` or `<a href="/article/nickel-allergy">systemic-nickel-allergy-syndrome</a>` concept page</li><li>Regenerate `index.md` from filesystem</li></ol>
 <h2>Short Session (1–2 hours)</h2>
 <ol><li>Build `hashimotos-thyroiditis` signature (73 raw papers, strong iodine/selenium metallomic angle)</li><li>Create 4 missing entity stubs: `bacteroides-thetaiotaomicron`, `candida-auris`, `candida-tropicalis`, `aeromonas`</li><li>Create `stop-iron-supplementation-parkinsons.md` and `stop-iron-supplementation-depression.md`</li><li>Verify Pendergrass DOIs against actual Zenodo records</li></ol>
 <h2>Full Session</h2>
@@ -135,7 +135,9 @@
       
       <div class="related">
         <h3>Related Articles</h3>
-        <ul><li><a href="/article/bile-acid-metabolism">Bile Acid Metabolism</a></li></ul>
+        <ul><li><a href="/article/bile-acid-metabolism">Bile Acid Metabolism</a></li>
+<li><a href="/article/akkermansia-mucinicola">Akkermansia Mucinicola</a></li>
+<li><a href="/article/nickel-allergy">Nickel Allergy And Allergic Contact Dermatitis</a></li></ul>
       </div>
 
       <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
@@ -143,6 +145,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-BbRRbFqo.js"></script>
+  <script type="module" crossorigin src="/assets/index-GCleNnYl.js"></script>
 </body>
 </html>

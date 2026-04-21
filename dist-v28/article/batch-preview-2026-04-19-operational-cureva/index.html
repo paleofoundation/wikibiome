@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H480L4E9JF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-H480L4E9JF');
+  </script>
+  <title>Batch Preview — Operational Analyses → Cureva — WikiBiome</title>
+  <meta name="description" content="Purpose: Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: c..." />
+  <link rel="canonical" href="https://www.wikibiome.com/article/batch-preview-2026-04-19-operational-cureva" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Batch Preview — Operational Analyses → Cureva — WikiBiome" />
+  <meta property="og:description" content="Purpose: Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: c..." />
+  <meta property="og:url" content="https://www.wikibiome.com/article/batch-preview-2026-04-19-operational-cureva" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="WikiBiome" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Batch Preview — Operational Analyses → Cureva — WikiBiome" />
+  <meta name="twitter:description" content="Purpose: Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: c..." />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">{"@context":"https://schema.org","url":"https://www.wikibiome.com/article/batch-preview-2026-04-19-operational-cureva","publisher":{"@type":"Organization","name":"Paleo Foundation","url":"https://paleofoundation.com"},"isPartOf":{"@type":"WebSite","name":"WikiBiome","url":"https://www.wikibiome.com"},"inLanguage":"en","@type":"Article","name":"Batch Preview — Operational Analyses → Cureva","headline":"Batch Preview — Operational Analyses → Cureva — WikiBiome","description":"Purpose: Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: c...","dateModified":"2026-04-19T00:00:00.000Z"}</script>
+
+  
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    /* Static content styling for crawlers — hidden once SPA hydrates */
+    .static-content { max-width: 800px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #2c2c2c; }
+    .static-content h1 { font-size: 28px; margin-bottom: 16px; color: #1a1a1a; }
+    .static-content h2 { font-size: 20px; margin: 24px 0 12px; color: #333; }
+    .static-content p { margin: 12px 0; }
+    .static-content a { color: #b87333; text-decoration: underline; }
+    .static-content nav { font-size: 14px; margin-bottom: 24px; color: #888; }
+    .static-content nav a { color: #b87333; }
+    .static-content ul, .static-content ol { margin: 12px 0 12px 24px; }
+    .static-content li { margin-bottom: 6px; }
+    .static-content table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 14px; }
+    .static-content th, .static-content td { border: 1px solid #e0dcd7; padding: 8px 12px; text-align: left; }
+    .static-content th { background: #f8f6f3; font-weight: 600; color: #333; }
+    .static-content tr:nth-child(even) { background: #faf9f7; }
+    .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
+    .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <!-- Static HTML for search engines — replaced by React SPA on hydration -->
+    <article class="static-content" itemscope itemtype="https://schema.org/Article">
+      <nav aria-label="Breadcrumb">
+        <a href="/">WikiBiome</a> &rsaquo;
+        <a href="/category/analysis">Analysis</a> &rsaquo;
+        <span>Batch Preview — Operational Analyses → Cureva</span>
+      </nav>
+
+      <h1 itemprop="headline">Batch Preview — Operational Analyses → Cureva</h1>
+
+      <div itemprop="articleBody">
+        <p><strong>Purpose:</strong> Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: cureva` to all 27.</p>
+<p><strong>Why this change:</strong> Dated operational analyses (audits, lint reports, overnight logs, DOI correction logs, stub demotions, boundary violations, etc.) are internal maintenance records. They document what the system did to itself — they are not public educational content. Per §9 and Rule 8, they must not render on wikibiome.com. The fix is a single-field frontmatter addition (`platform: cureva`) that routes them to Cureva's full-dataset view only.</p>
+<p><strong>Scope:</strong> 27 files in `wiki/analyses/` matching the dated-operational pattern. Undated content analyses (`dietary-metal-exposure-by-life-stage.md`, `dietary-metal-paradoxes.md`, `metal-disease-matrix.md`, `shared-pathobionts-across-signatures.md`) are legitimate public content and are EXCLUDED.</p>
+<p>&mdash;-</p><h2>Sample 1 — `adversarial-audit-2026-04-19.md`</h2>
+<h2>Before</h2>
+<p>```yaml &mdash;- title: &quot;Adversarial Audit — 2026-04-19&quot; type: analysis created: 2026-04-19 &mdash;- ```</p>
+<h2>After</h2>
+<p>```yaml &mdash;- title: &quot;Adversarial Audit — 2026-04-19&quot; type: analysis platform: cureva created: 2026-04-19 &mdash;- ```</p>
+<h2>Rationale</h2>
+<p>Hostile-reviewer audit of 5 pages. Internal QA output. Not educational for public readers.</p>
+<p>&mdash;-</p>
+<h2>Sample 2 — `lint-report-2026-04-14.md`</h2>
+<h2>Before</h2>
+<p>```yaml &mdash;- title: &quot;WikiBiome Lint Report — 2026-04-14&quot; type: analysis created: 2026-04-14 updated: 2026-04-14 tags: [lint, health-check, maintenance] &mdash;- ```</p>
+<h2>After</h2>
+<p>```yaml &mdash;- title: &quot;WikiBiome Lint Report — 2026-04-14&quot; type: analysis platform: cureva created: 2026-04-14 updated: 2026-04-14 tags: [lint, health-check, maintenance] &mdash;- ```</p>
+<h2>Rationale</h2>
+<p>Automated health check output. Existing `tags: [lint, health-check, maintenance]` already declare this as internal maintenance. The `platform: cureva` field makes the visibility explicit to the build.</p>
+<p>&mdash;-</p>
+<h2>Sample 3 — `overnight-resume-2026-04-18.md`</h2>
+<h2>Before</h2>
+<p>```yaml &mdash;- title: &quot;Overnight Resume — 2026-04-18&quot; type: analysis created: 2026-04-18 updated: 2026-04-18 &mdash;- ```</p>
+<h2>After</h2>
+<p>```yaml &mdash;- title: &quot;Overnight Resume — 2026-04-18&quot; type: analysis platform: cureva created: 2026-04-18 updated: 2026-04-18 &mdash;- ```</p>
+<h2>Rationale</h2>
+<p>Per Rule 6, resume files document where an autonomous session stopped. They are Claude's working memory across sessions, not reader-facing content.</p>
+<p>&mdash;-</p>
+<h2>Transform</h2>
+<p>Add `platform: cureva` as the second line of frontmatter (immediately after `type:`) on each of the 27 files. No body edits, no other frontmatter edits.</p>
+<h2>Full file list (27)</h2>
+<p>``` adversarial-audit-2026-04-19.md auto-discovered-stubs-2026-04-19.md batch-preview-2026-04-19-auto-discovered-stubs.md batch-preview-2026-04-19-stub-demotions.md boundary-violations-2026-04-18.md broken-links-2026-04-16.md build-refusals-2026-04-19.md doi-corrections-2026-04-19.md gaps-and-improvements-2026-04-12.md gaps-and-improvements-2026-04-13.md gaps-and-improvements-2026-04-14.md health-check-2026-04-14.md ingest-audit-2026-04-18.md link-health-2026-04-19.md lint-2026-04-13.md lint-report-2026-04-12.md lint-report-2026-04-13.md lint-report-2026-04-14.md manual-review-2026-04-18.md orphans-2026-04-16.md overnight-2026-04-18-log.md overnight-resume-2026-04-18.md semantic-pass-2026-04-18-log.md semantic-pass-resume-2026-04-18.md stub-demotions-2026-04-19.md supersessions-2026-04-18.md zero-reference-pages-2026-04-19.md ```</p>
+<h2>Verdict</h2>
+<p>Preview is clean. The diff is additive, minimal, and doesn't touch body content. Proceeding to full batch.</p>
+
+      </div>
+
+      
+
+      <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
+        <p>WikiBiome is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>, advancing microbiome medicine through open scientific education.</p>
+      </footer>
+    </article>
+  </div>
+  <script type="module" crossorigin src="/assets/index-GCleNnYl.js"></script>
+</body>
+</html>

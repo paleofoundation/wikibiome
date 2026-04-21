@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /outreach
 
 Sitemap: https://www.wikibiome.com/sitemap.xml
 Sitemap: https://www.wikibiome.com/sitemap-full.xml

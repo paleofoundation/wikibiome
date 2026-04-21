@@ -1,0 +1,7 @@
+# Nightly auto-deploy — queued 2026-04-20 02:00
+# Sunday 2026-04-19 lint report: 0 contradictions (clear to deploy).
+# 8 commits since last deploy (last marker: Sun Apr 19 07:12:08 EEST 2026).
+#
+# To deploy: copy the single line below and paste into Terminal.
+
+cd ~/Documents/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod && date > .last-deploy

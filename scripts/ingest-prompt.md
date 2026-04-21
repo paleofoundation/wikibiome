@@ -4,7 +4,34 @@ Autonomous ingest cycle. Project rules in CLAUDE.md are authoritative. Operate u
 
 2. Find PDFs in `raw/` (recursive) that have not been ingested. A PDF is considered ingested if a page in `wiki/sources/` references it via `pdf_source:` frontmatter or has a slug derived from the PDF filename. Compare normalized slugs.
 
-3. Process up to 10 un-ingested PDFs this cycle. Stop sooner if context approaches 75% (Rule 6). For each PDF:
+2a. **Priority routing.** The un-ingested queue is not first-come-first-served — it is prioritized by folder. Select the next 5 PDFs to ingest this cycle by walking down this priority list and taking the first 5 un-ingested PDFs you encounter:
+
+   **Tier 1 — DARK folders (highest priority).** These folders have severe content gaps and must be closed first:
+   - `raw/Necrotizing Enterocolitis NEC/`
+   - `raw/Cerebral Palsy/`
+   - `raw/Fibromyalgia/`
+
+   **Tier 2 — THIN folders with large gaps.** After Tier 1 is empty:
+   - `raw/Postpartum Depression/`
+   - `raw/Food Metal Contamination/`
+   - `raw/GERD/`
+   - `raw/Schizophrenia/`
+   - `raw/Ovarian Cancer/`
+   - `raw/Hashimoto's/` (or `Hashimotos/` — match whichever folder exists)
+   - `raw/Pancreatic Cancer/`
+
+   **Tier 3 — remaining autism queue.** After Tier 1 and 2 are empty:
+   - `raw/Autism papers, but disorganized. Not yet added or ingested/`
+   - `raw/Autism spectrum disorder (ASD)/`
+
+   **Tier 4 — everything else.** Any remaining un-ingested PDFs under `raw/`.
+
+2b. **Exclusions.** Do NOT ingest PDFs from these folders — they are being worked on by a parallel interactive Claude session and would collide on git lock and source-page writes:
+   - (none currently)
+
+   Also skip any PDF larger than 18 MB — they blow Claude's read cap (20 MB). Log the skip to `wiki/log.md` with filename and size so it can be manually handled (OCR/compress/split).
+
+3. Process up to 5 un-ingested PDFs this cycle, drawn from the priority tiers above. Stop sooner if context approaches 75% (Rule 6). For each PDF:
    a. Read it fully. Extract DOI, authors, journal, year directly from the document. Rule 3: never fabricate. If a field is unreadable, set `doi: "not yet verified"` and add `<!-- NEEDS VERIFICATION -->`.
    b. Create `wiki/sources/<slug>.md` with full v2 frontmatter per §4 (evidence_level, karen_brain_primitives, metals_discussed, taxa_discussed, key_findings, library_category, platform, condition).
    c. Update or create the entity, concept, and signature pages affected by this source per the §7 Ingest Source workflow. Run cross-condition pattern detection per step 7 of that workflow.

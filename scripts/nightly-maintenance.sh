@@ -26,6 +26,14 @@ if ! mkdir "$LOCKDIR" 2>/dev/null; then
 fi
 trap "rmdir '$LOCKDIR'" EXIT
 
+# Run every other night to halve token burn. Odd day-of-year = run, even = skip.
+# Maintenance work (lint, adversarial audit, scope discovery) is low-urgency and
+# accumulates gracefully across 48h gaps.
+if (( 10#$(date +%j) % 2 == 0 )); then
+  echo "[$(date)] Even day-of-year — skipping maintenance cycle to conserve tokens." >> "$LOG"
+  exit 0
+fi
+
 if [[ -f "$ROOT/.git/index.lock" ]]; then
   echo "[$(date)] Git lock present — deferring." >> "$LOG"
   exit 0
@@ -35,7 +43,7 @@ cd "$ROOT"
 
 echo "[$(date)] Starting nightly maintenance cycle." >> "$LOG"
 
-"$CLAUDE_BIN" --dangerously-skip-permissions -p "$(cat "$PROMPT")" \
+"$CLAUDE_BIN" --dangerously-skip-permissions --model sonnet -p "$(cat "$PROMPT")" \
   >> "$LOG" 2>&1 || {
     echo "[$(date)] Claude exited non-zero. See log above." >> "$LOG"
     exit 1

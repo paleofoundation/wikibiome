@@ -11,7 +11,7 @@ Nightly maintenance cycle. CLAUDE.md and §12 Operational Rules are authoritativ
    - Verify DOIs resolve in format (not a memory artifact — Rule 3).
    - Enforce Rule 11 claim-level citation density. For every publishable page, count inline `[[source-filename]]` references against publishable paragraphs. If the ratio is below 1 citation per 3 paragraphs, attempt remediation by adding citations from the existing source pool; if remediation is not possible, demote to `stub: true` with `stub_reason: "claim-level citation deficit — N citations across M paragraphs"` and log to `wiki/analyses/citation-deficit-YYYY-MM-DD.md`. The Celiac Disease page is a known offender — start there.
 
-3. Adversarial audit (Rule 12). Sample 5 publishable pages weighted toward those with no `audit_passed` date or the oldest dates. For each:
+3. Adversarial audit (Rule 12). Sample 3 publishable pages weighted toward those with no `audit_passed` date or the oldest dates. For each:
    - Read as a hostile reviewer. List every claim lacking citation, every contradiction with another vault page, every hand-wave, every place a domain expert would attack.
    - If the missing citations exist elsewhere in `wiki/sources/`, apply them and recommit.
    - If the page is fundamentally thin, demote to `stub: true` and note why.

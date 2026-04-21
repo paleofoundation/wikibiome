@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.wikibiome.com/sitemap.xml
-Sitemap: https://www.wikibiome.com/sitemap-full.xml
