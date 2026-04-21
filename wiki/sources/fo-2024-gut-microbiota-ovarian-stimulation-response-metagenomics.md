@@ -15,7 +15,6 @@ key_findings:
   - "Bifidobacterium longum more abundant in good ovarian responders (FOI>=0.5)"
   - "B. longum gavage in mice improved ovarian response to stimulation"
   - "Gut microbiome related to serum E2, FSH, oocytes retrieved, and pregnancy rate"
-evidence_level: cross-sectional
 karen_brain_primitives: [3, 5]
 ---
 

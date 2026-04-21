@@ -12,7 +12,6 @@ platform: wikibiome
 evidence_level: mendelian-randomization
 taxa_discussed: [desulfovibrio, parabacteroides]
 karen_brain_primitives: [3]
-evidence_level: computational-prediction
 sample_size: "GWAS summary statistics"
 library_category: causal
 condition: "ovarian-cancer"

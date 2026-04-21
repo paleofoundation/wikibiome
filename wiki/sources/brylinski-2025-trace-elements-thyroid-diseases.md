@@ -24,7 +24,6 @@ key_findings:
   - "Iron deficiency decreases TPO activity, reduces T3/T4 synthesis; 58% of Hashimoto's patients have Fe deficiency anemia and 75% have vitamin D deficiency"
   - "Cadmium inhibits hepatic 5'-monodeiodinase and triggers UGT activity, interfering with T4-to-T3 conversion and increasing TH metabolism"
   - "Cobalt irradiation treats severe Graves' ophthalmopathy with 96% response rate; Co also causes hypothyroidism by decreasing iodine uptake"
-keystone: true
 library_category: heavy-metals
 condition: "graves-disease"
 ---

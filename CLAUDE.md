@@ -819,6 +819,8 @@ These rules govern autonomous and semi-autonomous work in this vault, especially
 
 **How to apply:** Grep all source pages for bolded terms, frontmatter fields (`metals_discussed`, `taxa_discussed`, `condition`, `associated_conditions`), and tag values. Cross-reference against `wiki/entities/`, `wiki/concepts/`, `wiki/signatures/`. For every term with ≥3 distinct source mentions and no corresponding page, create a stub with the right type-specific frontmatter. Stubs enter the ingest queue automatically — the next source covering the topic populates the page. Discovery and stub creation happen on every maintenance cycle, not as a one-time pass.
 
+**Limitation:** This rule scans structured frontmatter fields only. Terms that appear exclusively in body text (cytokines, enzymes, metabolites, pathways) are invisible to Rule 13. Rule 15 (mention-density page discovery) fills this gap by scanning inline body text across the entire wiki. The two rules are complementary — Rule 13 catches structured metadata gaps cheaply; Rule 15 catches unstructured body-text gaps that Rule 13 misses.
+
 ### Rule 14 — Continuous operation, not batch operation
 
 **Rule:** The autonomous ingest and maintenance cycles run in perpetuity. They have no "complete" state — only "idle pending new input" (ingest) or "idle pending next scheduled tick" (maintenance). A Claude session running inside either cycle does not wind down, hand back to Karen, or wait for instruction. It ingests available PDFs, runs available lint, performs available audits, then exits clean so the next launchd tick fires the next cycle. The only human input required is (a) dropping PDFs into `raw/`, and (b) manually promoting a preview to production.
@@ -826,3 +828,20 @@ These rules govern autonomous and semi-autonomous work in this vault, especially
 **Why:** Karen's stated requirement is zero-touch operation beyond file drops. A Claude session that "finishes the queue and stops" is the wrong shape — the queue is never finished, because the adversarial audit always has more pages to sample and the scope-discovery always has more stubs to surface. The system's resting state is "quiet and ready," not "done."
 
 **How to apply:** The ingest prompt and maintenance prompt never include a "done" checkpoint — they include exit conditions (empty queue, 75% context per Rule 6, or hard errors). Launchd reinvokes per schedule. Future Claude sessions reading these prompts do not interpret "empty queue" as "project complete" — they interpret it as "no work this tick." Even if the vault reaches a state where every PDF is ingested, every page is audited, every stub is expanded, and every wikilink resolves — the maintenance cycle still runs nightly, sampling pages for adversarial audit. There is no end state.
+
+### Rule 15 — Mention-density page discovery
+
+**Rule:** Every maintenance cycle runs a mention-density scan across the entire `wiki/` directory (not just source frontmatter). For every term that appears inline in ≥20 distinct files and lacks a corresponding page in `wiki/entities/` or `wiki/concepts/`, the system creates a prioritized report at `wiki/analyses/mention-density-gaps-YYYY-MM-DD.md`. Terms are ranked by file count (not raw occurrence count — a term mentioned 50 times in one file is less important than a term mentioned once each in 50 files). Terms appearing in ≥50 distinct files without a page are **critical gaps** and must be auto-created as stubs with `stub: true`, `stub_reason: "mention-density auto-discovery — referenced in N files without dedicated page"`, in the same maintenance cycle — do not wait for the next tick.
+
+The scan targets:
+1. **Cytokines and immune mediators**: IL-*, TNF-*, IFN-*, TGF-*, NF-kB-adjacent terms
+2. **Enzymes and proteins**: named enzymes, receptors, transporters referenced inline
+3. **Metabolites**: SCFA subtypes, amino acid derivatives, signaling molecules
+4. **Pathways and processes**: named signaling cascades, biological processes
+5. **Conditions and anatomical terms**: diseases, organs, systems referenced but lacking pages
+
+The scan excludes terms that already have pages (match against existing filenames after slug normalization), common English words, and generic scientific terms (e.g., "cell", "gene", "protein").
+
+**Why:** Rule 13 catches terms named in source frontmatter fields (`metals_discussed`, `taxa_discussed`). It misses terms that appear only in body text — which is where most cytokines, enzymes, metabolites, and pathways live. IL-6 was referenced in 250+ files (467 total occurrences) but had no page, because no source frontmatter field lists cytokines. The vault was silently treating its most cross-referenced immune mediator as a parenthetical. Mention density across distinct files is the strongest signal of a term's structural importance to the knowledge graph — higher than any single curator's judgment of what "deserves a page."
+
+**How to apply:** The scan runs `grep -rli` (or equivalent) for candidate terms across `wiki/`, counts distinct files per term, and filters against existing page slugs. The report ranks gaps by file count and flags critical gaps (≥50 files). Critical gaps become stubs immediately. Moderate gaps (20–49 files) are listed for the next interactive session. The report persists so Karen can review priorities, but critical stubs are created without waiting for review. When creating stubs from this scan, infer the page type (entity vs. concept) from context: if the term is a molecule, pathway, or process → concept; if it's an organism, disease, element, or person → entity with appropriate subtype.

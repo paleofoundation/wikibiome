@@ -6,11 +6,11 @@ updated: 2026-04-19
 
 # WikiBiome / Cureva Knowledge Base Index
 
-**Last updated:** 2026-04-19
+**Last updated:** 2026-04-21
 
 ## Summary
 
-<!-- Counts derived from filesystem on 2026-04-19 -->
+<!-- Counts derived from filesystem on 2026-04-21 -->
 
 | Category | Count |
 |----------|-------|
@@ -22,7 +22,7 @@ updated: 2026-04-19
 | — Archaea | 1 |
 | — Diseases | 54 |
 | — Other | 3 |
-| Concepts | 190 |
+| Concepts | 191 |
 | Disease Signatures (Cureva) | 42 |
 | Interventions | 29 |
 | STOPs (Cureva) | 39 |
@@ -239,6 +239,7 @@ updated: 2026-04-19
 - [[insulin-resistance]]
 - [[inter-kingdom-metal-shielding]]
 - [[intestinal-permeability]]
+- [[interleukin-6]]
 - [[lactoferrin]]
 - [[lipocalin-2]]
 - [[matrix-metalloproteases]]

@@ -2,6 +2,21 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-04-21] Propagation fix: han-2022-berberine-methimazole-graves-microbiome
+
+- Source was ingested but downstream pages were not fully updated. Fixed 5 pages:
+  - `wiki/interventions/berberine.md` — populated from empty stub with Graves' disease triangle evidence, mechanism, cross-references. No longer a stub.
+  - `wiki/entities/enterococcus.md` — added source (now 3 sources, exits stub status). Added beneficial roles section (E. hirae increased by berberine).
+  - `wiki/entities/faecalibacterium-prausnitzii.md` — added source, added Graves' disease to conditions_depleted_in, added body text for Graves' association.
+  - `wiki/concepts/siderophores.md` — added source, added "Therapeutic Siderophore Upregulation" section for enterobactin-berberine finding.
+  - `wiki/entities/iron.md` — added source to frontmatter (54 → 55).
+- Added Rule 15 (mention-density page discovery) to CLAUDE.md to catch high-mention terms lacking pages. Added limitation note to Rule 13.
+
+## [2026-04-21] Created concept page: Interleukin-6 (IL-6)
+
+- Created `wiki/concepts/interleukin-6.md` — pleiotropic cytokine referenced in 250+ vault files but previously had no dedicated page. 13 sources, covers metal-driven IL-6 production, microbiome interactions (dysbiosis drives IL-6 / commensals suppress it), the IL-6 → hepcidin → iron sequestration axis, condition-specific roles across MS/COVID/endometriosis/ASD/IBD/CKD/depression, and therapeutic implications including STOP signal for anti-IL-6 therapy without addressing dysbiosis.
+- Updated `wiki/index.md` — added to Concepts listing, count 190 → 191.
+
 ## [2026-04-19] Bulk ingest session — 87 papers (endometriosis + erectile dysfunction)
 
 - **Endometriosis folder complete**: 17 new source pages ingested from raw/endometriosis/ subfolders (microbiome-signatures, overview, heavy-metals, metabolites). Notable papers: Perez-Prieto 2024 (n=1,000 cohort, no gut dysbiosis after FDR), Svensson 2021 (reduced alpha diversity), Hantschel 2019 (negative finding — no acute dysbiosis), Khan 2016 (molecular detection intrauterine colonization).

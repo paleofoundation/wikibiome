@@ -373,6 +373,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wikibiome.com/article/enterococcus</loc>
+    <lastmod>2026-04-09T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wikibiome.com/article/epilepsy</loc>
     <lastmod>2026-04-17T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -1399,6 +1405,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.wikibiome.com/article/interleukin-6</loc>
+    <lastmod>2026-04-21T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.wikibiome.com/article/intestinal-permeability</loc>
     <lastmod>2026-04-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -2211,6 +2223,12 @@
   <url>
     <loc>https://www.wikibiome.com/article/acarbose-fiber-synergy</loc>
     <lastmod>2026-04-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.wikibiome.com/article/berberine</loc>
+    <lastmod>2026-04-21T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -5,17 +5,17 @@ type: entity
 subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
-sources: [coryell-2018-gut-microbiome-arsenic-toxicity-protection, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, bronzini-2023-feeding-gut-microbiome-ms, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-heavy-metals-obesity-epidemic, ghosh-2023-heavy-metals-gut-barrier-integrity, zhu-2024-toxic-essential-metals-gut-microbiota]
-source_count: 7
+sources: [coryell-2018-gut-microbiome-arsenic-toxicity-protection, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, bronzini-2023-feeding-gut-microbiome-ms, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, pendergrass-2026-heavy-metals-obesity-epidemic, ghosh-2023-heavy-metals-gut-barrier-integrity, zhu-2024-toxic-essential-metals-gut-microbiota, han-2022-berberine-methimazole-graves-microbiome]
+source_count: 8
 metal_dependencies: [indirect -- iron-sulfur cluster enzymes for butyrate production]
 key_enzymes: [butyryl-CoA dehydrogenase, butyrate kinase]
 tags: [commensal, next-generation-probiotic, butyrate-producer, anti-inflammatory, depleted-in-disease, arsenic-protection]
 platform: wikibiome
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-21
 seo_target: "Faecalibacterium prausnitzii butyrate arsenic protection gut barrier"
 wikipedia_differentiation: "Direct arsenic toxicity protection data from gnotobiotic mouse models plus iron-sulfur dependency for butyrate synthesis across 10+ disease depletions"
 conditions_enriched_in: []
-conditions_depleted_in: [crohns-disease, ulcerative-colitis, obesity, type-2-diabetes, parkinsons-disease, multiple-sclerosis, colorectal-cancer, cardiovascular-disease]
+conditions_depleted_in: [crohns-disease, ulcerative-colitis, obesity, type-2-diabetes, parkinsons-disease, multiple-sclerosis, colorectal-cancer, cardiovascular-disease, graves-disease]
 pathogenic_potential: commensal
 ---
 
@@ -62,6 +62,7 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 - **Type 2 diabetes**: inversely correlated with HbA1c and fasting glucose; fiber interventions that restore *F. prausnitzii* improve glycemic control [[salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre]] [[scfa-2020-dietary-fiber-t2d-gut-microbiome]].
 - **Autism spectrum disorder**: reduced; butyrate-producer depletion is a recurring ASD signature and *Faecalibacterium hominis*-derived indole signaling via AhR is under active study [[yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr]] [[liu-2019-gut-microbiota-scfas-asd-chinese-children]].
 - **Schizophrenia**: altered SCFA producers including *F. prausnitzii* are linked to ultra-high-risk state and symptom severity [[peng-2022-scfas-schizophrenia-ultra-high-risk]] [[yu-2024-plasma-cytokines-scfas-depression-schizophrenia]].
+- **Graves' disease**: negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH; berberine supplementation increased *F. prausnitzii* alongside thyroid function recovery [[han-2022-berberine-methimazole-graves-microbiome]].
 - **Obesity**: inversely correlated with BMI and metabolic inflammation [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - **Colorectal cancer**: reduced; butyrate loss may diminish anti-tumorigenic HDAC inhibition [[feitelson-2023-scfas-cancer-pathogenesis]] [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].
 - **Post-COVID / Long COVID**: depletion of SCFA producers including *F. prausnitzii* associated with altered immune response [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]].

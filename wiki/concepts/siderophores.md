@@ -4,8 +4,8 @@ type: concept
 created: 2026-04-18
 updated: 2026-04-18
 last_substantive_update: 2026-04-18
-sources: [patil-2021-infection-metallomics-covid-era, khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics, carvalho-2014-siderophores-trojan-horses-mdr, devarajalu-2025-nec-gut-microbiota-indian-preterm-shotgun, pandey-2021-galbofloxacin-gallium-siderophore-staph, chairatana-2015-salmochelin-pathogen-selective-killing, passari-2023-siderophores-medical-applications, braud-2010-siderophores-pseudomonas-metal-tolerance, cassat-2012-metal-acquisition-staphylococcus-aureus, maier-2019-nickel-microbial-pathogenesis, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, pendergrass-2026-nickel-nec-preterm-gut, romero-espejel-2013-streptococcus-pneumoniae-iron]
-source_count: 13
+sources: [patil-2021-infection-metallomics-covid-era, khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics, carvalho-2014-siderophores-trojan-horses-mdr, devarajalu-2025-nec-gut-microbiota-indian-preterm-shotgun, pandey-2021-galbofloxacin-gallium-siderophore-staph, chairatana-2015-salmochelin-pathogen-selective-killing, passari-2023-siderophores-medical-applications, braud-2010-siderophores-pseudomonas-metal-tolerance, cassat-2012-metal-acquisition-staphylococcus-aureus, maier-2019-nickel-microbial-pathogenesis, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, pendergrass-2026-nickel-nec-preterm-gut, romero-espejel-2013-streptococcus-pneumoniae-iron, han-2022-berberine-methimazole-graves-microbiome]
+source_count: 14
 tags: [siderophores, iron-acquisition, virulence, nutritional-immunity, iron, chelation, pathogenesis, competitive-exclusion, Trojan-horse]
 karen_brain_primitives: [4, 8]
 seo_target: "siderophores iron bacteria"
@@ -51,6 +51,9 @@ The dependence of pathogens on siderophores creates therapeutic opportunities:
 
 ### Trojan Horse Antibiotics
 Siderophore-antibiotic conjugates exploit bacterial iron-uptake machinery to deliver drugs directly into pathogen cells. The bacterium imports what it thinks is an iron-loaded siderophore, but instead internalizes a lethal antibiotic payload. Cefiderocol is the first FDA-approved siderophore-cephalosporin conjugate. Gallium-siderophore hybrids (e.g., galbofloxacin) are in development -- gallium mimics iron but cannot be reduced, jamming iron-dependent enzymes once inside the cell [[pandey-2021-galbofloxacin-gallium-siderophore-staph]] [[carvalho-2014-siderophores-trojan-horses-mdr]].
+
+### Therapeutic Siderophore Upregulation
+Berberine supplementation in Graves' disease patients significantly upregulated enterobactin biosynthesis pathways, improving iron acquisition and correlating with thyroid function recovery — since iron is required for thyroid peroxidase (TPO) activity [[han-2022-berberine-methimazole-graves-microbiome]]. This demonstrates that siderophore modulation can be therapeutically beneficial, not just a pathogenic strategy.
 
 ### Competitive Exclusion
 Probiotic organisms that produce their own siderophores can outcompete pathogens for iron. This is the ecological logic of Karen's Brain Primitive 8 (Siderophore Competition and Iron Ecology): introduce organisms with superior iron-acquisition systems to displace pathogenic siderophore-producers [[passari-2023-siderophores-medical-applications]].
