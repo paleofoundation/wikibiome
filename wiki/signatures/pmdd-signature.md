@@ -4,8 +4,8 @@ type: signature
 created: 2026-04-18T00:00:00.000Z
 updated: 2026-04-21T00:00:00.000Z
 last_substantive_update: 2026-04-21T00:00:00.000Z
-sources: [nexha-2024-biological-rhythms-pmdd-systematic-review, nabeh-2024-diabetes-pms-gut-microbiome-review]
-source_count: 2
+sources: [nexha-2024-biological-rhythms-pmdd-systematic-review, nabeh-2024-diabetes-pms-gut-microbiome-review, yang-2023-childhood-asthma-allergy-premenstrual-disorders, fakruddin-2025-probiotics-menstrual-health-systematic-review, rocha-filho-2011-essential-fatty-acids-pms-rct, itriyeva-2022-pms-pmdd-adolescents-review]
+source_count: 6
 tags:
   - pmdd
   - premenstrual

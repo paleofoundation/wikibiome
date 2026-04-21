@@ -5,12 +5,11 @@ subtype: disease
 created: 2026-04-15
 updated: 2026-04-21
 last_substantive_update: 2026-04-21
-sources: [nexha-2024-biological-rhythms-pmdd-systematic-review, nabeh-2024-diabetes-pms-gut-microbiome-review]
-source_count: 2
+sources: [nexha-2024-biological-rhythms-pmdd-systematic-review, nabeh-2024-diabetes-pms-gut-microbiome-review, yang-2023-childhood-asthma-allergy-premenstrual-disorders, fakruddin-2025-probiotics-menstrual-health-systematic-review, rocha-filho-2011-essential-fatty-acids-pms-rct, itriyeva-2022-pms-pmdd-adolescents-review]
+source_count: 6
 tags: [pmdd, premenstrual, estrobolome, tryptophan-kynurenine, GABA, neuroinflammation, circadian-rhythms, melatonin]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 5 required"
+stub: false
 seo_target: "PMDD microbiome gut hormones premenstrual"
 wikipedia_differentiation: "Gut-hormone axis with Bacteroidetes depletion correlating with symptom severity, tryptophan-kynurenine shunting via IDO upregulation during luteal phase, and GABA-A receptor modulation by inflammatory cytokines linking gut dysbiosis to mood symptoms"
 associated_conditions: [depression, female-infertility]
