@@ -763,6 +763,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wikibiome.com/article/pmdd</loc>
+    <lastmod>2026-04-21T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wikibiome.com/article/porphyromonas</loc>
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -2659,6 +2665,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.wikibiome.com/article/dedup-2026-04-21-autism-papers-but-disorganized-not-yet-added-or-ingested</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.wikibiome.com/article/dietary-metal-exposure-by-life-stage</loc>
     <lastmod>2026-04-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -2787,6 +2799,12 @@
   <url>
     <loc>https://www.wikibiome.com/article/overnight-resume-2026-04-20</loc>
     <lastmod>2026-04-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.wikibiome.com/article/overnight-resume-2026-04-21</loc>
+    <lastmod>2026-04-21T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
