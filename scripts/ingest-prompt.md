@@ -42,7 +42,7 @@ Autonomous ingest cycle. Project rules in CLAUDE.md are authoritative. Operate u
 
 4a. Claim-level citation self-check (Rule 11). Before committing any newly-written or updated page, count inline `[[source-filename]]` references against publishable paragraphs. If the ratio is below 1 citation per 3 paragraphs, revise the page — either tighten the prose to remove unsupported claims, add citations from the existing source pool, or demote the page to `stub: true` with a citation-deficit `stub_reason`. Wikipedia-parity is the standard: every material claim resolves to its source at the point of the claim.
 
-5. After the batch, run the build pipeline once: `node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy` — preview deployment, not `--prod`. Karen promotes to prod manually after review.
+5. After the batch, run the build pipeline once: `node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod` — direct production deploy. wikibiome.com updates with every cycle. (Changed 2026-05-04 from preview-only after Karen verified autonomous output quality on today first end-to-end cycle.)
 
 6. Append one line to `wiki/log.md` (Rule 10) summarizing: PDFs ingested this cycle, signature pages touched, contradictions flagged, stubs created, errors encountered.
 
