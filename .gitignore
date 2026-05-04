@@ -4,6 +4,18 @@ node_modules/
 # Raw source documents (PDFs, papers — too large for git)
 raw/
 
+# Archive files (raw.zip was 11GB and blocked deploys for 12 nights)
+*.zip
+
+# Deploy state markers (transient, regenerated each deploy)
+.last-deploy
+.queued-deploy-command.txt
+.queued-deploy-stamp.txt
+DEPLOY_QUEUED.txt
+.autonomous-ingest.marker
+.autonomous-ingest.lock.d/
+.nightly-maintenance.lock.d/
+
 # Build output directories
 dist/
 dist-preview/
