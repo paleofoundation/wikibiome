@@ -3,8 +3,8 @@ title: Necrotizing Enterocolitis
 type: entity
 subtype: disease
 created: 2026-04-15
-updated: 2026-04-15
-last_substantive_update: 2026-04-22
+updated: 2026-05-04
+last_substantive_update: 2026-05-04
 sources:
   - ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia
   - daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac
@@ -19,7 +19,12 @@ sources:
   - stewart-2013-preterm-gut-microbiome-twins-nec-sepsis
   - till-2015-intestinal-microbiome-disruptions-nec-sbs-haec
   - agakidou-2020-nec-biomarkers-metabolomics-proteomics
-source_count: 13
+  - martin-2011-bile-acids-mucin2-nec
+  - hulzebos-2017-fecal-bile-salts-nec-preterm
+  - stewart-2013-bacterial-fungal-viability-preterm-nec
+  - manohar-2023-gut-brain-nec-neurodevelopmental
+  - brower-sinning-2014-mucosa-bacterial-diversity-nec
+source_count: 18
 tags: [necrotizing-enterocolitis, neonatal, preterm, TLR4, LPS, Enterobacteriaceae, lactoferrin, zinc, HMO]
 platform: wikibiome
 seo_target: "necrotizing enterocolitis microbiome preterm infant prevention"
@@ -57,9 +62,19 @@ The signature microbial event in NEC is a Proteobacteria bloom detectable 2 week
 
 ### Additional NEC-Enriched Taxa
 
+- **Sphingomonas** spp. — significantly associated with NEC development (p=0.0001) in a prospective cohort of 32 preterm infants (<32 weeks) [[stewart-2013-bacterial-fungal-viability-preterm-nec]]. An environmental, Gram-negative alpha-Proteobacterium (normally soil/water/hospital surfaces) rarely considered in NEC pathogenesis. Its strong statistical association suggests NICU environmental contamination routes as an underappreciated NEC risk factor.
 - **Methylobacterium** -- an environmental alpha-Proteobacterium (normally soil/water-associated) enriched at NEC onset; positively correlated with CRP and negatively with platelet count [[lin-2023-gut-microbiota-alteration-surgery-nec]]. Its presence likely reflects NICU environmental colonization. A novel NEC-associated taxon worthy of surveillance attention
 - **Clostridium butyricum** -- enriched at NEC onset in surgical cases [[lin-2023-gut-microbiota-alteration-surgery-nec]]; strain identity critical — probiotic and pathogenic strains exist within this species
 - **Acidobacteria** -- soil-associated phylum enriched in NEC recovery (full enteral nutrition stage), suggesting environmental NICU colonization persists even after clinical recovery [[lin-2023-gut-microbiota-alteration-surgery-nec]]
+
+### Mucosa-Associated vs. Fecal Microbiome
+
+The first study of **mucosa-associated (tissue-embedded) bacteria** in NEC revealed that the organisms invading the intestinal wall differ substantially from those detected in fecal samples [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]. NEC tissue shows two distinct microbial phenotypes:
+
+1. **Enterobacteriaceae cluster**: Near-monoculture of *Klebsiella* and *Escherichia/Shigella* — consistent with the Proteobacteria bloom model. Reduced diversity. Higher total bacterial load (p=0.01 vs. non-NEC controls).
+2. **Obligate anaerobe cluster**: *Clostridium*, *Bacteroides*, *Prevotella* — found almost exclusively in NEC tissue, not controls. Indicates advanced mucosal hypoxia — the intestinal wall has become sufficiently anoxic to support obligate anaerobe invasion. *Clostridium perfringens* detected across multiple NEC samples (2 distinct OTUs), consistent with its gas-producing alpha-toxin mechanism and the pneumatosis intestinalis hallmark of NEC [[brower-sinning-2014-mucosa-bacterial-diversity-nec]].
+
+This tissue-level evidence establishes that prior fecal microbiome studies of NEC captured an incomplete picture of which organisms are actually driving mucosal invasion.
 
 ### Two-Pattern NEC Dysbiosis
 
@@ -133,6 +148,20 @@ This represents a maternal dietary intervention that protects the infant through
 
 A paradigm-shifting finding: non-toxigenic Clostridium perfringens strains metabolize HMOs and suppress pathogenic E. coli and Klebsiella by 40-90% in vitro Chapman et al. 2023. These strains lack the toxin genes that make C. perfringens pathogenic but retain the metabolic machinery to compete with Enterobacteriaceae. This opens a novel probiotic strategy based on competitive exclusion by a traditionally "pathogenic" genus.
 
+## Bile Acid Ecology
+
+A developmentally specific pathway drives mucosal vulnerability in the neonatal ileum. **ASBT (apical sodium-dependent bile acid transporter)** is dramatically upregulated in neonatal ileum compared to mature ileum, causing excessive bile acid reabsorption [[martin-2011-bile-acids-mucin2-nec]]. The resulting bile acid accumulation depletes **Muc2** — the primary mucin protecting the ileal mucosa — exposing the epithelium to luminal bacteria. ASBT knockout mice are protected from Muc2 depletion; cholestyramine (bile acid sequestrant) normalizes Muc2 expression (animal model evidence) [[martin-2011-bile-acids-mucin2-nec]].
+
+Clinical evidence confirms this model: in a nested case-control (n=10 NEC, n=20 controls), **total unconjugated fecal bile salts are 3-fold elevated** in NEC infants (0.41 vs. 0.14 μmol/g, p<0.05), rising to **4-fold elevation 5–6 days before NEC diagnosis** (0.65 vs. 0.16 μmol/g, p=0.02) [[hulzebos-2017-fecal-bile-salts-nec-preterm]]. The signal is specific to unconjugated species, implicating microbial bile salt hydrolase (BSH) activity — BSH-producing bacteria deconjugate bile acids to their more cytotoxic forms. ROC analysis: bile salts >13 μmol/g yields 93% sensitivity, 47% specificity (AUC 0.74) for NEC [[hulzebos-2017-fecal-bile-salts-nec-preterm]].
+
+## Gut-Brain Axis and Neurodevelopmental Impairment
+
+NEC is not solely a gastrointestinal disease. **20–50% of NEC survivors develop neurodevelopmental impairment (NDI)**, including cerebral palsy, white matter injury, cognitive deficits, and behavioral abnormalities at rates exceeding gestational-age-matched controls without NEC [[manohar-2023-gut-brain-nec-neurodevelopmental]].
+
+The mechanism proceeds via the gut-brain axis: LPS → TLR4 → NF-κB → systemic pro-inflammatory cytokines (TNF-α, IL-1β, IL-6) → BBB disruption → microglial activation → white matter injury and impaired myelination [[manohar-2023-gut-brain-nec-neurodevelopmental]]. **HMGB1** (high-mobility group box 1 protein), released by necrotic enterocytes, can cross the BBB and directly trigger neuroinflammation. **SCFAs** (butyrate, propionate) normally maintain BBB integrity; their depletion in NEC-associated dysbiosis removes a key neuroprotective mechanism.
+
+**Surgical NEC** (requiring bowel resection) produces significantly worse NDI outcomes than medical NEC, likely due to greater systemic inflammatory burden, loss of intestinal surface area reducing SCFA production, and disruption of vagal anti-inflammatory signaling [[manohar-2023-gut-brain-nec-neurodevelopmental]]. This links NEC to the CP literature: see [[cerebral-palsy]].
+
 ## Metal Associations
 
 | Metal | Direction | Relevance |
@@ -189,3 +218,7 @@ Human RCT evidence for BCFA supplementation in preterm formula is not yet availa
 - [[methylobacterium]] -- environmental alpha-Proteobacterium enriched at NEC onset; NICU colonization signal
 - [[clostridium-butyricum]] -- enriched at NEC onset; strain-level distinction critical
 - [[bacillus-subtilis]] -- 5-fold elevated in healthy vs NEC rats; probiotic candidate
+- [[sphingomonas]] -- significantly associated with NEC (p=0.0001); NICU environmental source
+- [[clostridium-perfringens]] -- detected in NEC tissue across 2 distinct OTUs; gas-producing alpha-toxin
+- [[bile-acids]] -- unconjugated fecal bile salts 3-4x elevated in NEC; 5-6 day pre-diagnostic window
+- [[muc2]] -- mucin-2 depletion via ASBT-mediated bile acid accumulation; mucosal barrier loss

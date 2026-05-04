@@ -2,10 +2,20 @@
 title: Necrotizing Enterocolitis — Microbiome Signature
 type: signature
 created: 2026-04-18T00:00:00.000Z
-updated: 2026-04-18T00:00:00.000Z
-last_substantive_update: 2026-04-18T00:00:00.000Z
-sources: []
-source_count: 0
+updated: 2026-05-04
+last_substantive_update: 2026-05-04
+sources:
+  - martin-2011-bile-acids-mucin2-nec
+  - hulzebos-2017-fecal-bile-salts-nec-preterm
+  - stewart-2013-bacterial-fungal-viability-preterm-nec
+  - manohar-2023-gut-brain-nec-neurodevelopmental
+  - brower-sinning-2014-mucosa-bacterial-diversity-nec
+  - lin-2023-gut-microbiota-alteration-surgery-nec
+  - ran-ressler-2011-bcfa-nec-incidence-microbiota-rat
+  - stewart-2013-preterm-gut-microbiome-twins-nec-sepsis
+  - till-2015-intestinal-microbiome-disruptions-nec-sbs-haec
+  - agakidou-2020-nec-biomarkers-metabolomics-proteomics
+source_count: 10
 tags:
   - necrotizing-enterocolitis
   - neonatal
@@ -29,7 +39,13 @@ taxonomic_signature:
     - taxon: '[[escherichia-coli]]'
       role: LPS producer; synergizes with Klebsiella in the Proteobacteria bloom
     - taxon: Clostridium perfringens (toxigenic)
-      role: Alpha-toxin and perfringolysin O produce gas gangrene pattern in intestinal wall
+      role: Alpha-toxin and perfringolysin O produce gas gangrene pattern; detected in NEC tissue across 2 distinct OTUs (tissue-level evidence) [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]
+    - taxon: Sphingomonas spp.
+      role: Environmental alpha-Proteobacterium significantly associated with NEC (p=0.0001, prospective cohort) [[stewart-2013-bacterial-fungal-viability-preterm-nec]]; likely NICU environmental source
+    - taxon: Clostridium spp. (obligate anaerobe cluster)
+      role: Obligate anaerobes found almost exclusively in NEC tissue (not controls) — indicate advanced mucosal hypoxia and wall necrosis [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]
+    - taxon: Bacteroides/Prevotella (obligate anaerobe cluster)
+      role: Co-enriched with Clostridium in NEC tissue anaerobe cluster; absent from non-NEC controls [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]
     - taxon: Staphylococcus epidermidis
       role: Biofilm former on indwelling catheters; reservoir for continued colonization
     - taxon: '[[enterococcus]]'
@@ -62,6 +78,11 @@ ecological_features:
   - immature-barrier
   - parenteral-iron-overload
   - biofilm
+  - bile-acid-accumulation-ASBT-upregulation
+  - Muc2-depletion-mucosal-barrier-failure
+  - obligate-anaerobe-mucosal-invasion
+  - gut-brain-axis-NDI-risk
+  - antibiotic-driven-richness-nadir-week4
 virulence_enzymes:
   - siderophores
   - alpha-toxin
@@ -107,8 +128,7 @@ karen_brain_primitives:
   - 5
   - 8
   - 9
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
+stub: false
 ---
 
 # Necrotizing Enterocolitis — Microbiome Signature
