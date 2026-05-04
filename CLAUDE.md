@@ -10,9 +10,9 @@ This is the knowledge base powering **WikiBiome** (public encyclopedia) and **Cu
 - Any session that modifies files in `wiki/`, `cureva/`, `src/`, `scripts/`, `api/`, or the root config files is a **deploy-affecting session**.
 - At the end of every deploy-affecting session, write the clipboard with the full deploy one-liner AND end the response with it in a fenced code block so Karen can paste into Terminal with one ⌘V:
   ```
-  cd ~/Documents/Claude/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
+  cd ~/Code/wikibiome && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
   ```
-  Project path is `~/Documents/Claude/Raw`, NOT `~/Documents/Raw`.
+  Project path is `~/Code/wikibiome` (relocated 2026-05-04 from `~/Documents/Claude/Raw` to escape iCloud-induced lock contention; the `.git/` directory does not belong inside iCloud-synced folders).
 - Never say "would you like to deploy?" — the answer is always yes. Just present the command.
 - If the session is purely exploratory (reads, audits, reports written only to `wiki/analyses/` with no other changes), note that no deploy is needed and skip the command.
 
