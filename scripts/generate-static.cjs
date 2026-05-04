@@ -16,6 +16,105 @@ const path = require('path');
 // Read the generated content
 const CONTENT = require('../src/content.generated.json');
 
+// Pre-build the Set of valid article IDs (mirrors PAGE_IDS in the SPA).
+// Used to distinguish true entity/concept wikilinks (which become article
+// links) from source-reference wikilinks (which become numbered citations).
+const PAGE_IDS = new Set(CONTENT.pages.map(p => p.id));
+const SOURCE_LOOKUP = CONTENT.sourceLookup || {};
+
+// Author-year slug pattern — source citations look like
+//   kushkevych-2021-microbial-ecosystem-ibd
+// whereas entity slugs look like
+//   escherichia-coli, aluminum, crohns-disease
+function isSourceRef(rawId) {
+  const norm = rawId.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+  if (norm in SOURCE_LOOKUP) return true;
+  return /^[a-z]+-(?:[a-z]+-)*\d{4}-/.test(norm);
+}
+
+// Build the citationMap + references list for a single page.
+// Mirrors wikibiome-v8.jsx lines 2159-2192 exactly so the pre-hydration
+// static view matches the post-hydration React view — no jarring reflow.
+function buildCitations(page) {
+  const map = {};
+  let num = 1;
+  const sourceRegex = /\[?\[\[([^\]|]+?)(?:\|[^\]]+)?\]\]\]?/g;
+  const allText = (page.overview || '') + '\n' +
+    (page.sections || []).map(s => s.body || '').join('\n');
+  let m;
+  while ((m = sourceRegex.exec(allText)) !== null) {
+    const id = m[1];
+    const normId = id.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    if (!PAGE_IDS.has(normId) && !(normId in map) && isSourceRef(id)) {
+      map[normId] = num++;
+    }
+  }
+  // Ensure every frontmatter-declared source gets a number even if never cited inline
+  const pageSources = (page.sources || []).map(s => s.replace(/\.md$/, ''));
+  for (const slug of pageSources) {
+    if (!(slug in map)) map[slug] = num++;
+  }
+  const refs = Object.entries(map)
+    .sort((a, b) => a[1] - b[1])
+    .map(([slug, number]) => {
+      const meta = SOURCE_LOOKUP[slug] || {};
+      return {
+        slug, number,
+        title: meta.title || slug.replace(/-/g, ' '),
+        authors: meta.authors || [],
+        year: meta.year || '',
+        journal: meta.journal || '',
+        doi: meta.doi || '',
+        keystone: meta.keystone === true,
+      };
+    });
+  return { citationMap: map, references: refs };
+}
+
+// DOI validator — mirrors the SPA's sanitizer so the static HTML never
+// emits a broken href.
+function renderDoi(raw) {
+  const DOI_RE = /^10\.\d{4,9}\/[-._;()\/:A-Za-z0-9<>+]+$/;
+  const v = (raw || '').trim();
+  if (!v || v === 'not yet verified') return '';
+  const isUrl = /^https?:\/\//i.test(v);
+  const bare = v
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, '')
+    .replace(/^doi:\s*/i, '')
+    .replace(/[.,;:\s]+$/g, '')
+    .trim();
+  if (!DOI_RE.test(bare)) {
+    return `. <em style="color:#888;">doi: ${escapeHtml(v)} (malformed — flagged for audit)</em>`;
+  }
+  const href = isUrl ? v : `https://doi.org/${bare}`;
+  return `. <a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:${escapeHtml(bare)}</a>`;
+}
+
+// Render the numbered References section for a page.
+function renderReferences(references) {
+  if (!references.length) return '';
+  const items = references.map(ref => {
+    const authors = ref.authors && ref.authors.length
+      ? `<span style="font-weight:500;">${escapeHtml(ref.authors.length <= 3 ? ref.authors.join(', ') : `${ref.authors.slice(0, 3).join(', ')} et al.`)}</span>`
+      : '';
+    const year = ref.year ? ` (${escapeHtml(String(ref.year))})` : '';
+    const title = `<span style="font-style:italic;">${escapeHtml(ref.title)}</span>`;
+    const journal = ref.journal ? `. <em style="color:#888;">${escapeHtml(ref.journal)}</em>` : '';
+    const doi = renderDoi(ref.doi);
+    const keystoneBadge = ref.keystone
+      ? '<span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span>'
+      : '';
+    return `<li id="ref-${ref.number}" style="font-size:13px;margin-bottom:10px;">${keystoneBadge}${authors}${year}. ${title}${journal}${doi}</li>`;
+  }).join('\n');
+  return `
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (${references.length})</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+${items}
+        </ol>
+      </section>`;
+}
+
 // Resolve dist directory from vite.config.js
 const viteConfig = fs.readFileSync(path.join(__dirname, '..', 'vite.config.js'), 'utf8');
 const distMatch = viteConfig.match(/outDir:\s*['"]([^'"]+)['"]/);
@@ -100,7 +199,7 @@ function getCategoryDescription(cat) {
 }
 
 // Convert markdown-ish text to rich HTML for crawlers
-function markdownToHtml(text) {
+function markdownToHtml(text, citationMap) {
   if (!text) return '';
 
   // Process block-level elements first, then inline
@@ -121,7 +220,7 @@ function markdownToHtml(text) {
         tableLines.push(lines[i]);
         i++;
       }
-      blocks.push(renderTable(tableLines));
+      blocks.push(renderTable(tableLines, citationMap));
       continue;
     }
 
@@ -132,7 +231,7 @@ function markdownToHtml(text) {
         listItems.push(lines[i].trim().replace(/^[-*]\s+/, ''));
         i++;
       }
-      blocks.push('<ul>' + listItems.map(li => `<li>${inlineMarkdown(escapeHtml(li))}</li>`).join('') + '</ul>');
+      blocks.push('<ul>' + listItems.map(li => `<li>${inlineMarkdown(escapeHtml(li), citationMap)}</li>`).join('') + '</ul>');
       continue;
     }
 
@@ -143,7 +242,7 @@ function markdownToHtml(text) {
         listItems.push(lines[i].trim().replace(/^\d+[.)]\s+/, ''));
         i++;
       }
-      blocks.push('<ol>' + listItems.map(li => `<li>${inlineMarkdown(escapeHtml(li))}</li>`).join('') + '</ol>');
+      blocks.push('<ol>' + listItems.map(li => `<li>${inlineMarkdown(escapeHtml(li), citationMap)}</li>`).join('') + '</ol>');
       continue;
     }
 
@@ -157,7 +256,7 @@ function markdownToHtml(text) {
       i++;
     }
     if (paraLines.length) {
-      blocks.push(`<p>${inlineMarkdown(escapeHtml(paraLines.join(' ')))}</p>`);
+      blocks.push(`<p>${inlineMarkdown(escapeHtml(paraLines.join(' ')), citationMap)}</p>`);
     }
   }
 
@@ -165,7 +264,7 @@ function markdownToHtml(text) {
 }
 
 // Render a markdown table to HTML
-function renderTable(tableLines) {
+function renderTable(tableLines, citationMap) {
   if (tableLines.length < 2) return '';
   const parseRow = (line) => line.replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
   const headers = parseRow(tableLines[0]);
@@ -173,17 +272,19 @@ function renderTable(tableLines) {
   const rows = tableLines.slice(2).map(parseRow);
 
   let html = '<table><thead><tr>';
-  html += headers.map(h => `<th>${inlineMarkdown(escapeHtml(h))}</th>`).join('');
+  html += headers.map(h => `<th>${inlineMarkdown(escapeHtml(h), citationMap)}</th>`).join('');
   html += '</tr></thead><tbody>';
   for (const row of rows) {
-    html += '<tr>' + row.map(c => `<td>${inlineMarkdown(escapeHtml(c))}</td>`).join('') + '</tr>';
+    html += '<tr>' + row.map(c => `<td>${inlineMarkdown(escapeHtml(c), citationMap)}</td>`).join('') + '</tr>';
   }
   html += '</tbody></table>';
   return html;
 }
 
-// Process inline markdown: bold, italic, wikilinks, source refs, em dashes
-function inlineMarkdown(html) {
+// Process inline markdown: bold, italic, wikilinks, source refs, em dashes.
+// If citationMap is provided, source-reference wikilinks become numbered
+// <sup>[N]</sup> superscripts pointing to the References section.
+function inlineMarkdown(html, citationMap) {
   // Bold
   html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   // Italic
@@ -193,12 +294,34 @@ function inlineMarkdown(html) {
   // Wikilinks with display text
   html = html.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, (_, target, display) => {
     const slug = target.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    if (PAGE_IDS.has(slug)) {
+      return `<a href="/article/${slug}">${display}</a>`;
+    }
+    if (citationMap && slug in citationMap) {
+      const n = citationMap[slug];
+      return `<sup class="cite-sup"><a href="#ref-${n}" style="color:#b87333;text-decoration:none;">[${n}]</a></sup>`;
+    }
+    if (isSourceRef(target)) {
+      // Source ref not in map (shouldn't happen after buildCitations) —
+      // render as plain text rather than a dead article link.
+      return `<span style="color:#888;">${display}</span>`;
+    }
     return `<a href="/article/${slug}">${display}</a>`;
   });
   // Wikilinks without display text
   html = html.replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
     const slug = target.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     const display = target.replace(/-/g, ' ');
+    if (PAGE_IDS.has(slug)) {
+      return `<a href="/article/${slug}">${display}</a>`;
+    }
+    if (citationMap && slug in citationMap) {
+      const n = citationMap[slug];
+      return `<sup class="cite-sup"><a href="#ref-${n}" style="color:#b87333;text-decoration:none;">[${n}]</a></sup>`;
+    }
+    if (isSourceRef(target)) {
+      return `<span style="color:#888;">${display}</span>`;
+    }
     return `<a href="/article/${slug}">${display}</a>`;
   });
   // Double-dash to em-dash
@@ -358,10 +481,14 @@ function generatePageHtml(page, urlPath) {
   const canonicalUrl = `${DOMAIN}${urlPath}`;
   const jsonLd = JSON.stringify(getJsonLd(page, canonicalUrl));
 
+  // Build citation map + references before rendering body so source-ref
+  // wikilinks can be numbered inline.
+  const { citationMap, references } = buildCitations(page);
+
   // Build the article body HTML from sections
   let bodyHtml = '';
   if (page.overview) {
-    bodyHtml += markdownToHtml(page.overview);
+    bodyHtml += markdownToHtml(page.overview, citationMap);
   }
   if (page.sections) {
     for (const section of page.sections) {
@@ -369,10 +496,13 @@ function generatePageHtml(page, urlPath) {
         bodyHtml += `<h2>${escapeHtml(section.heading)}</h2>\n`;
       }
       if (section.body) {
-        bodyHtml += markdownToHtml(section.body) + '\n';
+        bodyHtml += markdownToHtml(section.body, citationMap) + '\n';
       }
     }
   }
+
+  // Numbered References section (mirrors the SPA's rendering).
+  const referencesHtml = renderReferences(references);
 
   // Build internal link list for crawlers
   const relatedLinks = (page.wikilinks || [])
@@ -434,6 +564,13 @@ function generatePageHtml(page, urlPath) {
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -451,6 +588,8 @@ function generatePageHtml(page, urlPath) {
       <div itemprop="articleBody">
         ${bodyHtml}
       </div>
+
+      ${referencesHtml}
 
       ${relatedLinks ? `
       <div class="related">
@@ -768,37 +907,21 @@ for (const special of ['signatures', 'explore', 'matrix', 'tags', 'about', 'priv
 }
 console.log('  Generated: 12 special pages (signatures, explore, matrix, tags, about, privacy, terms, contact, support, submit, vote, compare)');
 
-// 5. Sitemaps — focused flagship + full
-// Strategy: a new domain with no backlinks cannot get 270 URLs crawled. We submit
-// a tiny flagship sitemap so Google spends crawl budget on the pages that matter.
-// The full sitemap stays available for discovery but is deprioritized.
-const FLAGSHIP_SLUGS = new Set([
-  // Signatures (priority 1.0 — most commercially and narratively important)
-  'cerebral-palsy', 'depression', 'erectile-dysfunction', 'fibromyalgia',
-  'necrotizing-enterocolitis', 'pmdd', 'female-infertility',
-  // Metal anchors
-  'lead', 'cadmium', 'mercury', 'arsenic', 'nickel', 'iron', 'zinc', 'copper',
-  // Microbe anchors (highest-traffic search potential)
-  'escherichia-coli', 'candida-albicans', 'akkermansia-muciniphila',
-  'bacteroides-fragilis', 'fusobacterium-nucleatum', 'pseudomonas-aeruginosa',
-  // Concept anchors
-  'nutritional-immunity', 'heavy-metals', 'mis-metallation',
-]);
-const FLAGSHIP_PATHS = new Set([
-  '/', '/signatures',
-  '/category/signature', '/category/metal', '/category/microbe', '/category/disease',
-  ...Array.from(FLAGSHIP_SLUGS).map(s => `/article/${s}`),
-]);
+// 5. Sitemaps — single comprehensive list
+// Prior strategy (2026-04-15): a 23-URL "flagship" sitemap was submitted to
+// focus Google's crawl budget on new-domain anchors. After a full week Google
+// was still stuck at 39 crawled URLs — the constraint turned out to be domain
+// authority / backlinks, not sitemap size. Reverting to a full sitemap so
+// Google has the whole graph and can decide what to crawl.
+//
+// sitemap.xml and sitemap-full.xml are now identical (kept as aliases so
+// existing Search Console submissions don't 404).
 
-const flagshipUrls = urls
-  .filter(u => FLAGSHIP_PATHS.has(u.path))
-  .map(u => ({ ...u, priority: u.path === '/' ? '1.0' : '0.9', changefreq: 'daily' }));
-
-fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), generateSitemap(flagshipUrls));
-console.log(`  Generated: sitemap.xml — FLAGSHIP (${flagshipUrls.length} URLs)`);
+fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), generateSitemap(urls));
+console.log(`  Generated: sitemap.xml (${urls.length} URLs — full)`);
 
 fs.writeFileSync(path.join(DIST_DIR, 'sitemap-full.xml'), generateSitemap(urls));
-console.log(`  Generated: sitemap-full.xml (${urls.length} URLs)`);
+console.log(`  Generated: sitemap-full.xml (${urls.length} URLs — alias)`);
 
 // 6. Robots.txt
 fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), generateRobotsTxt());

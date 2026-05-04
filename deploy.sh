@@ -40,10 +40,11 @@ else
   echo "No GitHub remote configured — skipping git push"
 fi
 
-# Step 5: Deploy to Vercel
+# Step 5: Deploy to Vercel (with retry + exponential backoff on transient
+# network errors like EPIPE/ECONNRESET from api.vercel.com)
 echo ""
 echo "Deploying to Vercel..."
-npx vercel deploy --prod --yes
+VERCEL_CMD="npx vercel" bash "$(dirname "$0")/scripts/deploy-with-retry.sh" deploy --prod --yes
 echo ""
 echo "=== Deploy complete! ==="
 echo ""
