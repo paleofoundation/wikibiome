@@ -5,8 +5,8 @@ subtype: microbe
 created: 2026-04-18
 updated: 2026-04-18
 last_substantive_update: 2026-04-18
-sources: [chapman-2026-clostridia-hmos-pathobiont-suppression-nec, torrazza-2013-intestinal-microbial-ecology-nec, zhou-2015-premature-infant-microbiome-prior-nec, zheng-2024-pcos-obesity-vaginal-microbiome-phages, dafini-2025-shatavari-neuro-gut-axis-ppd]
-source_count: 5
+sources: [chapman-2026-clostridia-hmos-pathobiont-suppression-nec, torrazza-2013-intestinal-microbial-ecology-nec, zhou-2015-premature-infant-microbiome-prior-nec, zheng-2024-pcos-obesity-vaginal-microbiome-phages, dafini-2025-shatavari-neuro-gut-axis-ppd, brower-sinning-2014-mucosa-bacterial-diversity-nec]
+source_count: 6
 tags: [gram-positive, strict-anaerobe, spore-former, toxin-producer, gas-gangrene, necrotizing-enterocolitis, food-poisoning, alpha-toxin, perfringolysin, tryptophan-diverter, strain-level-distinction]
 seo_target: "Clostridium perfringens gut microbiome toxin NEC strain diversity"
 wikipedia_differentiation: "Strain-level toxigenicity distinction where non-toxigenic pfoA-negative strains metabolize HMOs and suppress Enterobacteriaceae pathobionts by 40-90%, overturning the assumption that all C. perfringens are harmful and opening a novel probiotic class for neonates"
