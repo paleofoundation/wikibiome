@@ -2,6 +2,30 @@
 
 > Chronological record of all wiki operations.
 
+## [2026-05-04] Deploy unblocked + mismetallation + metallomic_signatures + metal_chelation ingest
+
+- **Deploy fixed**: raw.zip (11GB) moved out of deploy path → 12 days shipped to wikibiome.com.
+- **Critical Papers**: All 24 confirmed already ingested.
+- **metallomic_signatures_pdfs**: All 9 confirmed already ingested.
+- **candida_functional_shielding**: 3 new beta-glucan masking papers (Pan 2024, Sem 2016, Wagner 2022). functional-shielding 7→10, C. albicans 10→13.
+- **mismetallation_pathogens**: 10 source pages from first read + 12 more via background agent (22 total new). Key papers: zinc ionophores reverse Klebsiella AMR, enterobactin-copper paradox, Mn-driven CoQ deficiency, SOD1 copper→Parkinson's, zinc powers Salmonella in macrophages, dual nutritional immunity, dinickel metformin enzyme.
+- **metal_chelation_ABX**: KEYSTONE — Behnsen 2021 yersiniabactin as ZINCOPHORE (not just siderophore). E. coli Nissle uses Ybt for zinc acquisition to resist calprotectin and colonize inflamed gut. pH-dependent metal switching. Paradigm shift for siderophore biology.
+- **metal_chelation_LIG**: Triaged 202 PDFs; 24 antimicrobial-relevant, 178 synthetic chemistry (skip). 12 being read by background agent.
+
+- **Deploy fixed**: Moved 11GB raw.zip out of deploy path → Vercel deploy succeeded. 12 days of backed-up work now live at wikibiome.com. Added raw.zip and *.zip to .vercelignore.
+- **Critical Papers folder**: All 24 papers confirmed already ingested.
+- **candida_functional_shielding**: 47/55 already ingested. 3 new beta-glucan masking papers ingested (Pan 2024 baicalin unmasking, Sem 2016 glucan=fitness, Wagner 2022 Cek1/calcineurin switchboard). Functional-shielding 7→10 sources, C. albicans 10→13 sources.
+- **Random Papers**: All 3 ingested + propagated to 9 downstream pages.
+- **mismetallation_pathogens**: 35/76 already ingested. 8 new source pages created from first batch of 15 reads:
+  - wang-2025: zinc ionophores reverse tigecycline resistance in Klebsiella
+  - peralta-2022: enterobactin-copper paradox (low=protective, high=toxic)
+  - diessl-2022: manganese-driven CoQ deficiency (Nature Comms)
+  - abdeen-2025: SOD1 copper deficiency → Parkinson's neurodegeneration
+  - fitzsimons-2018: zinc-dependent phosphorylation powers Salmonella in macrophages
+  - branch-2022: dual nutritional immunity (restriction + intoxication) in Neisseria
+  - upadhyay-2022: manganese in Salmonella beyond antioxidant (metabolic homeostasis)
+  - cornejo-2023: soft metalloids induce ROS-independent protein aggregation in E. coli
+
 2026-05-02 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (ELEVENTH night running). .last-deploy still Tue Apr 21 18:30 CDT — eleven days of unshipped work. Delta vs night 10's queue: +1 analysis (keystone-outreach-2026-05-01.md) plus the usual operational log moves; within noise. Tonight's sandbox build re-verified clean: build-content.cjs → 864 content pages (335 entities, 264 concepts, 70 signatures, 72 interventions, 72 STOPs, 46 analyses, 1851 sources), 2400 association pairs, 11 clusters, 8011 graph links, 9874 backlinks, 17.1 MB content.generated.json, 0 YAML errors. Sunday 2026-04-26 lint: 0 new claim-level contradictions, deploy gate clear (next Sunday lint 2026-05-03). Computer-use request_access for Terminal timed out at 180s — no user awake at 2am to approve, same structural failure as nights 1–10. DEPLOY_QUEUED.txt remains the only handoff channel. Files changed vs last deploy: 792 non-dist (1636 incl. dist-v28). Karen action: paste the one-liner from DEPLOY_QUEUED.txt to ship; or move the schedule to wake hours; or wire a local launchd job that watches DEPLOY_QUEUED.txt mtime and runs the deploy directly.
 
 2026-04-27 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (SIXTH night running). .last-deploy still Tue Apr 21 18:30 CDT — six days of unshipped work. Only operational logs (wiki/log.md, autonomous-ingest.log, nightly-maintenance.log) and the new lint-report-2026-04-26 have moved since the 04-26 02:00 cycle — no new vault content. Tonight's sandbox build re-verified clean: build-content.cjs → 863 content pages, 2400 association pairs, 8011 graph links, 9874 backlinks, 17.1 MB content.generated.json, 0 YAML errors. Sunday 2026-04-26 lint: 0 new claim-level contradictions, deploy gate clear. Computer-use request_access timed out twice (no user awake to approve), so clipboard handoff impossible — DEPLOY_QUEUED.txt is the only handoff channel for the sixth consecutive night. Bundle unchanged from 04-22 → 04-26 queues. Karen action: paste the one-liner from DEPLOY_QUEUED.txt to ship; or move the schedule to wake hours; or wire a local launchd/cron job that runs the deploy directly when DEPLOY_QUEUED.txt's mtime advances.

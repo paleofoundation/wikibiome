@@ -2273,3 +2273,22 @@ cd ~/Documents/Claude/Raw && node scripts/build-content.cjs && npx vite build &&
 [Mon May  4 12:42:55 MDT 2026] Git lock present — deferring to interactive session.
 [Mon May  4 12:47:55 MDT 2026] Git lock present — deferring to interactive session.
 [Mon May  4 12:52:55 MDT 2026] Git lock present — deferring to interactive session.
+[Mon May  4 12:57:56 MDT 2026] Un-ingested PDF detected (e.g. raw/Random Papers/nihms-1660994.pdf). Launching Claude.
+Session complete. Here's the summary:
+
+**5 NEC sources ingested** (all atomic commits, all builds passed):
+- `lin-2023-gut-microbiota-alteration-surgery-nec` — Methylobacterium + C. butyricum enriched at NEC onset; persistent diversity deficit post-surgical recovery
+- `ran-ressler-2011-bcfa-nec-incidence-microbiota-rat` — BCFA reduced NEC 56% in rat model; Bacillus subtilis 5x in healthy vs NEC; IL-10 induction mechanism
+- `stewart-2013-preterm-gut-microbiome-twins-nec-sepsis` — Within-twin: Escherichia bloom ≥5 days pre-NEC; post-antibiotic Klebsiella succession
+- `till-2015-intestinal-microbiome-disruptions-nec-sbs-haec` — Two-pattern NEC timing; Clostridia depletion → severity; Candida in HAEC
+- `agakidou-2020-nec-biomarkers-metabolomics-proteomics` — 7-protein urine panel (AUC 98%); ceramide/sphingomyelin severity markers; acylcarnitine pre-NEC signal
+
+**Entity updates:** NEC page (source_count 8→13, 4 new sections). New `methylobacterium` stub.
+
+**Critical fix:** `raw.zip` (11GB) was missing from `.vercelignore` — this was blocking all nightly deploys for 12 consecutive nights. Added `raw.zip` and `*.zip` to `.vercelignore`. **Deploy to wikibiome.com succeeded.**
+
+```
+cd ~/Documents/Claude/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
+```
+[Mon May  4 13:16:08 MDT 2026] Cycle complete.
+[Mon May  4 14:04:27 MDT 2026] Git lock present — deferring to interactive session.
