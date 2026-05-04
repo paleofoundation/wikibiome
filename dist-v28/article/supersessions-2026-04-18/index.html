@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,24 +74,35 @@
 
       <div itemprop="articleBody">
         <h2>Summary</h2>
-<ul><li><strong>Entity/concept pages scanned:</strong> ~389 (all with ≥2 sources)</li><li><strong>Paragraphs with contradiction language:</strong> 30</li><li><strong>Genuine supersessions applied:</strong> 2</li><li><strong>Biological complexity (not supersession cases):</strong> 28</li><li><strong>Both source summary pages updated:</strong> Yes (4 source pages annotated)</li></ul>
+<ul><li>Entity/concept pages scanned: ~389 (all with ≥2 sources)</li><li>Paragraphs with contradiction language: 30</li><li>Genuine supersessions applied: 2</li><li>Biological complexity (not supersession cases): 28</li><li>Both source summary pages updated: Yes (4 source pages annotated)</li></ul>
 <h2>Supersessions Applied</h2>
 <h2>1. Copper in Rheumatoid Arthritis — wiki/entities/copper.md</h2>
-<p><strong>Conflict:</strong> Cu direction in RA serum</p>
-<ul><li><strong>Earlier work</strong>: <a href="/article/yang-2016-copper-farm-soils-rheumatoid-arthritis">yang 2016 copper farm soils rheumatoid arthritis</a> (2016, cross-sectional, n=122, Taiwan) — Cu elevated in RA, correlated with ESR</li><li><strong>Superseding</strong>: <a href="/article/arshad-2023-heavy-metals-rheumatoid-arthritis">arshad 2023 heavy metals rheumatoid arthritis</a> (2023, case-control, n≈99, Pakistan) — Cu significantly lower in RA (P=0.04)</li></ul>
-<p><strong>Evidence hierarchy</strong>: case-control &gt; cross-sectional → arshad-2023 takes primary position.</p>
-<p><strong>Action</strong>: Rewrote RA section to lead with arshad-2023 finding; annotated yang-2016 as earlier cross-sectional work with geographic exposure differences. Updated both source summary pages with explicit conflict notes.</p>
+<p>Conflict: Cu direction in RA serum</p>
+<ul><li>Earlier work: <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup> (2016, cross-sectional, n=122, Taiwan) — Cu elevated in RA, correlated with ESR</li><li>Superseding: <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup> (2023, case-control, n≈99, Pakistan) — Cu significantly lower in RA (P=0.04)</li></ul>
+<p>Evidence hierarchy: case-control &gt; cross-sectional → arshad-2023 takes primary position.</p>
+<p>Action: Rewrote RA section to lead with arshad-2023 finding; annotated yang-2016 as earlier cross-sectional work with geographic exposure differences. Updated both source summary pages with explicit conflict notes.</p>
 <h2>2. Copper in Autism Spectrum Disorder — wiki/entities/autism-spectrum-disorder.md</h2>
-<p><strong>Conflict:</strong> Cu level in ASD</p>
-<ul><li><strong>Earlier work</strong>: <a href="/article/zhou-2025-gut-microbiota-immune-nervous-system-asd">zhou-2025-metals-asd-severity-hair-correlation</a> (cross-sectional, n=181, hair biomarker) — Cu elevated, severity-correlated</li><li><strong>Superseding</strong>: <a href="/article/lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis">lin-2024-trace-elements-asd-meta-analysis</a> (systematic-review-meta-analysis, 4 studies, N=577, blood/serum) — No significant Cu difference (P=0.726)</li></ul>
-<p><strong>Evidence hierarchy</strong>: systematic-review-meta-analysis &gt; cross-sectional → lin-2024 null finding takes primary position.</p>
-<p><strong>Action</strong>: Rewrote Cu subsection to lead with meta-analytic null; annotated zhou-2025 as single-region study with different biomarker matrix. Updated both source summary pages.</p>
+<p>Conflict: Cu level in ASD</p>
+<ul><li>Earlier work: <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup> (cross-sectional, n=181, hair biomarker) — Cu elevated, severity-correlated</li><li>Superseding: <sup class="cite-sup"><a href="#ref-4" style="color:#b87333;text-decoration:none;">[4]</a></sup> (systematic-review-meta-analysis, 4 studies, N=577, blood/serum) — No significant Cu difference (P=0.726)</li></ul>
+<p>Evidence hierarchy: systematic-review-meta-analysis &gt; cross-sectional → lin-2024 null finding takes primary position.</p>
+<p>Action: Rewrote Cu subsection to lead with meta-analytic null; annotated zhou-2025 as single-region study with different biomarker matrix. Updated both source summary pages.</p>
 <h2>Verified as Non-Supersession Cases</h2>
 <p>The remaining 28 contradiction-flagged paragraphs were reviewed and determined to be:</p>
-<ul><li><strong>Biological complexity</strong> (different strains, tissues, or conditions showing different patterns) — 18 cases</li><li><strong>Biomarker matrix differences</strong> (hair vs blood vs tissue — genuinely different measurements) — 5 cases</li><li><strong>Already properly annotated</strong> (existing supersession annotations in place) — 3 cases</li><li><strong>Uncertainty properly represented</strong> (page correctly notes inconclusive evidence) — 2 cases</li></ul>
+<ul><li>Biological complexity (different strains, tissues, or conditions showing different patterns) — 18 cases</li><li>Biomarker matrix differences (hair vs blood vs tissue — genuinely different measurements) — 5 cases</li><li>Already properly annotated (existing supersession annotations in place) — 3 cases</li><li>Uncertainty properly represented (page correctly notes inconclusive evidence) — 2 cases</li></ul>
 <p>No further action required.</p>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (4)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Yang TH, Yuan TH, Hwang YH et al.</span> (2016). <span style="font-style:italic;">Increased inflammation in rheumatoid arthritis patients living where farm soils contain high levels of copper</span>. <em style="color:#888;">Journal of the Formosan Medical Association</em>. <a href="https://doi.org/10.1016/j.neuro.2023.04.013" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1016/j.neuro.2023.04.013</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Arshad M, Riaz N, Bashir R et al.</span> (2023). <span style="font-style:italic;">Role of Some Heavy Metals in Rheumatoid Arthritis</span>. <em style="color:#888;">Research Developments in Medicine and Medical Science Vol. 7</em></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Min Zhou, Baoming Niu, Jiarui Ma et al.</span> (2025). <span style="font-style:italic;">Zhou 2025 -- Intervention and Research Progress of Gut Microbiota-Immune-Nervous System in Autism Spectrum Disorders Among Students</span>. <em style="color:#888;">Frontiers in Microbiology</em>. <a href="https://doi.org/10.3389/fmicb.2025.1535455" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmicb.2025.1535455</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Ping Lin, Qianwen Zhang, Junyu Sun et al.</span> (2024). <span style="font-style:italic;">A comparison between children and adolescents with autism spectrum disorders and healthy controls in biomedical factors, trace elements, and microbiota biomarkers: a meta-analysis</span>. <em style="color:#888;">Frontiers in Psychiatry</em></li>
+        </ol>
+      </section>
 
       
 
@@ -93,6 +111,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

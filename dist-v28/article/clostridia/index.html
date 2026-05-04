@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,18 +73,18 @@
       <h1 itemprop="headline">Clostridia</h1>
 
       <div itemprop="articleBody">
-        <p>A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the <strong>most functionally diverse and clinically significant taxonomic class in the human gut microbiome</strong>. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens (<a href="/article/clostridium-difficile">clostridium difficile</a>, <a href="/article/clostridium-perfringens">clostridium perfringens</a>, <em>C. botulinum</em>, <em>C. tetani</em>). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.</p><h2>Taxonomy</h2>
+        <p>A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the most functionally diverse and clinically significant taxonomic class in the human gut microbiome. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens (<a href="/article/clostridium-difficile">clostridium difficile</a>, <a href="/article/clostridium-perfringens">clostridium perfringens</a>, <em>C. botulinum</em>, <em>C. tetani</em>). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.</p><h2>Taxonomy</h2>
 <ul><li>Class Clostridia, phylum Firmicutes.</li><li>Major orders: <a href="/article/clostridiales">clostridiales</a> (the dominant gut order), <a href="/article/oscillospirales">oscillospirales</a> (in revised schemes), Peptostreptococcales, Tissierellales.</li><li>Key health-associated families: <a href="/article/lachnospiraceae">lachnospiraceae</a>, <a href="/article/ruminococcaceae">ruminococcaceae</a>, <a href="/article/christensenellaceae">christensenellaceae</a>, Oscillospiraceae.</li><li>Key pathogenic families: Clostridiaceae, Peptostreptococcaceae.</li><li>Taxonomic note: Clostridia has been heavily reclassified in recent years. The original genus <em>Clostridium</em> was polyphyletic, containing over 200 species now distributed across multiple families and orders.</li></ul>
 <h2>Metal Dependencies</h2>
-<p><strong>Iron</strong>:</p>
+<p>Iron:</p>
 <ul><li>Ferredoxin-dependent metabolism is the hallmark of Clostridia biochemistry. Iron-sulfur cluster proteins enable electron transfer in butyrate synthesis, amino acid fermentation, and hydrogen production.</li><li>Clostridia's iron requirements are significant but typically met through passive ferrous iron uptake rather than siderophore-mediated scavenging.</li></ul>
-<p><strong>Selenium</strong>:</p>
+<p>Selenium:</p>
 <ul><li>Selenoproteins (selenocysteine-containing enzymes) are particularly abundant in Clostridia, including glycine reductase and formate dehydrogenase. Host selenium status directly influences the metabolic capacity of Clostridia.</li></ul>
-<p><strong>Cobalt</strong>:</p>
+<p>Cobalt:</p>
 <ul><li>Corrinoid-dependent enzymes support one-carbon metabolism. Several Clostridia synthesize vitamin B12 de novo, contributing to host B12 supply.</li></ul>
 <h2>Key Functions</h2>
 <h2>Serotonin Regulation</h2>
-<p><strong>Spore-forming Clostridia</strong> (primarily clusters IV and XIVa) stimulate enterochromaffin (EC) cells to produce serotonin. Since EC cells produce over 90% of the body's serotonin, Clostridia are arguably the single most important microbial regulator of serotonin biology <a href="/article/serotonin">serotonin</a>. This makes Clostridia directly relevant to gut motility, mood regulation, bone metabolism, and pain perception.</p>
+<p>Spore-forming Clostridia (primarily clusters IV and XIVa) stimulate enterochromaffin (EC) cells to produce serotonin. Since EC cells produce over 90% of the body's serotonin, Clostridia are arguably the single most important microbial regulator of serotonin biology <a href="/article/serotonin">serotonin</a>. This makes Clostridia directly relevant to gut motility, mood regulation, bone metabolism, and pain perception.</p>
 <h2>Butyrate Production and Immune Regulation</h2>
 <p>Clostridia clusters IV and XIVa are the most potent microbial inducers of colonic regulatory T cells (Tregs). Their SCFA production &mdash; particularly butyrate &mdash; supports:</p>
 <ul><li>Colonocyte energy metabolism</li><li>Anti-inflammatory signaling via HDAC inhibition</li><li>Gut barrier integrity via tight junction protein expression</li><li>Cancer immune surveillance</li></ul>
@@ -85,17 +92,34 @@
 <p>The ability to form endospores allows Clostridia to survive antibiotic exposure, gastric transit, and environmental extremes. This is clinically relevant: <em>C. difficile</em> spores persist in hospital environments and enable recurrent infection after antibiotic-mediated dysbiosis.</p>
 <h2>Conditions Associated</h2>
 <h2>Schizophrenia (Causal Risk Factor)</h2>
-<p>Class Clostridia is a <strong>causal risk factor for schizophrenia</strong> (OR = 1.16, 95% CI 1.01-1.33, MR) <a href="/article/zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization">zhou 2024 gut microbiome schizophrenia mendelian randomization</a>. This class-level signal likely reflects specific sub-lineages rather than all Clostridia, but the directionality is established: genetically determined higher Clostridia abundance increases schizophrenia risk. The finding contrasts with Clostridia's health-promoting roles, underscoring the class's functional diversity.</p>
+<p>Class Clostridia is a causal risk factor for schizophrenia (OR = 1.16, 95% CI 1.01-1.33, MR) <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>. This class-level signal likely reflects specific sub-lineages rather than all Clostridia, but the directionality is established: genetically determined higher Clostridia abundance increases schizophrenia risk. The finding contrasts with Clostridia's health-promoting roles, underscoring the class's functional diversity.</p>
 <h2>Pancreatitis (Depleted)</h2>
-<p>Acute pancreatitis decreases Firmicutes, Tenericutes, Clostridia, and <a href="/article/mollicutes">mollicutes</a> <a href="/article/wang-2023-mendelian-randomization-gut-microbiota-pancreatitis">wang 2023 mendelian randomization gut microbiota pancreatitis</a>, consistent with the broader pattern of Clostridia depletion in acute inflammatory conditions.</p>
+<p>Acute pancreatitis decreases Firmicutes, Tenericutes, Clostridia, and <a href="/article/mollicutes">mollicutes</a> <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>, consistent with the broader pattern of Clostridia depletion in acute inflammatory conditions.</p>
 <h2>Multiple Sclerosis and Crohn's Disease (Depleted)</h2>
 <p>Clostridia clusters IV and XIVa are consistently depleted in MS and CD, representing the loss of Treg-inducing butyrate producers.</p>
 <h2>Key Studies</h2>
-<ul><li><a href="/article/zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization">zhou 2024 gut microbiome schizophrenia mendelian randomization</a> (Mendelian randomization, n=148,984) &mdash; Established class Clostridia as a causal schizophrenia risk factor (OR 1.16); resolved directionality via bidirectional MR.</li><li><a href="/article/wang-2023-mendelian-randomization-gut-microbiota-pancreatitis">wang 2023 mendelian randomization gut microbiota pancreatitis</a> (Mendelian randomization) &mdash; Clostridia depleted in acute pancreatitis.</li></ul>
+<ul><li><sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup> (Mendelian randomization, n=148,984) &mdash; Established class Clostridia as a causal schizophrenia risk factor (OR 1.16); resolved directionality via bidirectional MR.</li><li><sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup> (Mendelian randomization) &mdash; Clostridia depleted in acute pancreatitis.</li></ul>
 <h2>Cross-References</h2>
 <ul><li><a href="/article/clostridiales">clostridiales</a> &mdash; the primary order within Clostridia</li><li><a href="/article/lachnospiraceae">lachnospiraceae</a> &mdash; the dominant health-associated family</li><li><a href="/article/ruminococcaceae">ruminococcaceae</a> &mdash; a second major butyrate-producing family</li><li><a href="/article/serotonin">serotonin</a> &mdash; spore-forming Clostridia stimulate EC cell serotonin production</li><li><a href="/article/butyrate">butyrate</a> &mdash; the key beneficial metabolite</li><li><a href="/article/schizophrenia">schizophrenia</a> &mdash; Clostridia as causal risk factor via MR</li><li><a href="/article/clostridium-difficile">clostridium difficile</a> &mdash; the pathogenic counterpart within the class</li><li><a href="/article/betaproteobacteria">betaproteobacteria</a> &mdash; co-identified as schizophrenia risk taxon</li><li><a href="/article/veillonellaceae">veillonellaceae</a> &mdash; causally protective in the same schizophrenia MR study</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (10)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Keer Zhou, Ancha Baranova, Hongbao Cao et al.</span> (2024). <span style="font-style:italic;">Zhou 2024 — Gut Microbiome and Schizophrenia: Insights from Two-Sample Mendelian Randomization</span>. <em style="color:#888;">Schizophrenia (Nature Partner Journal)</em>. <a href="https://doi.org/10.1038/s41537-024-00497-7" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41537-024-00497-7</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Kui Wang, Xianzheng Qin, Taojing Ran et al.</span> (2023). <span style="font-style:italic;">Causal link between gut microbiota and four types of pancreatitis: a genetic association and bidirectional Mendelian randomization study</span>. <em style="color:#888;">Frontiers in Microbiology</em>. <a href="https://doi.org/10.3389/fmicb.2023.1290202" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmicb.2023.1290202</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Atabilen B, Akdevelioglu Y</span> (2022). <span style="font-style:italic;">Effects of Different Dietary Interventions in Multiple Sclerosis: A Systematic Review of Evidence from 2018 to 2022</span>. <em style="color:#888;">Nutritional Neuroscience</em>. <a href="https://doi.org/10.1080/1028415X.2022.2146843" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1080/1028415X.2022.2146843</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Zhuye Jie, Huihua Xia, Shi-Long Zhong et al.</span> (2017). <span style="font-style:italic;">The gut microbiome in atherosclerotic cardiovascular disease</span>. <em style="color:#888;">Nature Communications</em>. <a href="https://doi.org/10.1038/s41467-017-00900-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41467-017-00900-1</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Svensson A, Brunkwall L, Roth B et al.</span> (2021). <span style="font-style:italic;">Associations Between Endometriosis and Gut Microbiota</span>. <em style="color:#888;">Reproductive Sciences</em>. <a href="https://doi.org/10.1007/s43032-021-00506-5" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1007/s43032-021-00506-5</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Natalia A. Borges, Amanda F. Barros, Lia S. Nakao et al.</span> (2016). <span style="font-style:italic;">Protein-Bound Uremic Toxins from Gut Microbiota and Inflammatory Markers in CKD</span>. <em style="color:#888;">Journal of Renal Nutrition</em>. <a href="https://doi.org/10.1053/j.jrn.2016.07.005" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1053/j.jrn.2016.07.005</a></li>
+<li id="ref-7" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Lucia N. Peralta-Marzal, David Rojas-Velazquez, Douwe Rigters et al.</span> (2024). <span style="font-style:italic;">Peralta-Marzal 2024 — A Robust Microbiome Signature for Autism Spectrum Disorder Across Different Studies Using Machine Learning</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-023-50601-7" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-023-50601-7</a></li>
+<li id="ref-8" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Docimo G, Cangiano A, Romano RM et al.</span> (2020). <span style="font-style:italic;">Docimo et al. 2020 — The Human Microbiota in Endocrinology: Implications for Pathophysiology, Treatment, and Prognosis in Thyroid Diseases</span>. <em style="color:#888;">Frontiers in Endocrinology</em>. <a href="https://doi.org/10.3389/fendo.2020.586529" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fendo.2020.586529</a></li>
+<li id="ref-9" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Adriel Latorre-Pérez, Marta Hernández, Jose Ramón Iglesias et al.</span> (2021). <span style="font-style:italic;">Latorre-Pérez 2021 — The Spanish Gut Microbiome Reveals Links Between Microorganisms and Mediterranean Diet</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-021-01002-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-021-01002-1</a></li>
+<li id="ref-10" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Swidsinski A, Dorfel Y, Loening-Baucke V et al.</span> (2017). <span style="font-style:italic;">Reduced Mass and Diversity of the Colonic Microbiome in Patients with Multiple Sclerosis and Their Improvement with Ketogenic Diet</span>. <em style="color:#888;">Frontiers in Microbiology</em>. <a href="https://doi.org/10.3389/fmicb.2017.01141" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmicb.2017.01141</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -120,6 +144,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

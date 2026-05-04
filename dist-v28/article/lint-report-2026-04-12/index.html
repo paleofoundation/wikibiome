@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,51 +73,51 @@
       <h1 itemprop="headline">WikiBiome Lint Report — 2026 04 12</h1>
 
       <div itemprop="articleBody">
-        <p><strong>Automated health check run:</strong> 2026-04-12  <strong>Wiki pages scanned:</strong> 1,684 total (1,426 sources + 258 content pages)  <strong>Issues found:</strong> 6 critical, 8 high-priority, 5 medium-priority</p>
+        <p>Automated health check run: 2026-04-12  Wiki pages scanned: 1,684 total (1,426 sources + 258 content pages)  Issues found: 6 critical, 8 high-priority, 5 medium-priority</p>
 <p>&mdash;-</p><h2>🔴 CRITICAL</h2>
 <h2>1. Index is severely stale</h2>
 <p>`wiki/index.md` has not been regenerated since the April 11 session. Actual counts diverge significantly from what the index claims.</p>
-<table><thead><tr><th>Category</th><th>Index Claims</th><th>Actual Count</th><th>Delta</th></tr></thead><tbody><tr><td>Sources</td><td>982</td><td>1,426</td><td><strong>+444</strong></td></tr><tr><td>Entities (total)</td><td>126</td><td>130</td><td>+4</td></tr><tr><td>— Metals/Metalloids</td><td>19</td><td>5 w/ correct subtype</td><td>—</td></tr><tr><td>— Microbes</td><td>83</td><td>79 w/ `subtype: microbe`</td><td>—</td></tr><tr><td>— Diseases</td><td>20</td><td>28 w/ `subtype: disease`</td><td>+8</td></tr><tr><td>Concepts</td><td>88</td><td>88</td><td>✓</td></tr><tr><td>Disease Signatures</td><td>14</td><td>13</td><td>-1</td></tr><tr><td>Interventions</td><td>6</td><td>5</td><td>-1</td></tr><tr><td>STOPs</td><td>12</td><td>11</td><td>-1</td></tr><tr><td>Analyses</td><td>5</td><td>5 → 6 after this report</td><td>+1</td></tr></tbody></table>
-<p><strong>Action:</strong> Regenerate `index.md` from filesystem.</p>
+<table><thead><tr><th>Category</th><th>Index Claims</th><th>Actual Count</th><th>Delta</th></tr></thead><tbody><tr><td>Sources</td><td>982</td><td>1,426</td><td>+444</td></tr><tr><td>Entities (total)</td><td>126</td><td>130</td><td>+4</td></tr><tr><td>— Metals/Metalloids</td><td>19</td><td>5 w/ correct subtype</td><td>—</td></tr><tr><td>— Microbes</td><td>83</td><td>79 w/ `subtype: microbe`</td><td>—</td></tr><tr><td>— Diseases</td><td>20</td><td>28 w/ `subtype: disease`</td><td>+8</td></tr><tr><td>Concepts</td><td>88</td><td>88</td><td>✓</td></tr><tr><td>Disease Signatures</td><td>14</td><td>13</td><td>-1</td></tr><tr><td>Interventions</td><td>6</td><td>5</td><td>-1</td></tr><tr><td>STOPs</td><td>12</td><td>11</td><td>-1</td></tr><tr><td>Analyses</td><td>5</td><td>5 → 6 after this report</td><td>+1</td></tr></tbody></table>
+<p>Action: Regenerate `index.md` from filesystem.</p>
 <p>&mdash;-</p>
 <h2>2. 46 duplicate source files confirmed (same DOI, two filenames)</h2>
 <p>DOI matching identified 46 pairs (and 3 triplets) where the same paper was ingested twice under slightly different filenames. The worst cases involve obviously different papers that were erroneously assigned the same DOI during ingestion.</p>
-<p><strong>Suspected wrong-DOI assignments (different papers, not true duplicates):</strong></p>
+<p>Suspected wrong-DOI assignments (different papers, not true duplicates):</p>
 <table><thead><tr><th>File A</th><th>File B</th><th>Shared DOI</th><th>Problem</th></tr></thead><tbody><tr><td>`mcewan-2024-metalloproteome-plasticity...`</td><td>`sullivan-2024-resisting-death-metal...`</td><td>10.1042/ETLS20230040</td><td>Different authors/years — one DOI is wrong</td></tr><tr><td>`islam-2022-metal-toxicity-alzheimers...`</td><td>`liu-2025-low-concentration-metals-ckd...`</td><td>10.1038/s44439-024-00009-w</td><td>Different years (2022 vs 2025) — one DOI is wrong</td></tr><tr><td>`zhang-2021-cadmium-gut-liver-axis-alzheimers...`</td><td>`zhang-2021-cadmium-gut-microbiome-parkinsons...`</td><td>10.1038/s42003-021-02898-1</td><td>Different diseases — one DOI is wrong</td></tr><tr><td>`borghini-2020-endometriosis-nickel-ibs...`</td><td>`borghini-2020-low-nickel-diet-celiac...`</td><td>10.3390/nu12082277</td><td>Different papers (endometriosis vs celiac) in same journal/year — one DOI is wrong</td></tr><tr><td>`ling-2024-fungal-dysbiosis-gut-brain-axis...`</td><td>`liu-2024-oral-fungal-dysbiosis-immune-dysfunction...`</td><td>10.1038/s41398-024-03183-5</td><td>Different authors — one DOI is wrong</td></tr></tbody></table>
-<p><strong>Confirmed true duplicates (same paper, two filenames — keep one, delete other):</strong></p>
+<p>Confirmed true duplicates (same paper, two filenames — keep one, delete other):</p>
 <table><thead><tr><th>Keep</th><th>Delete</th><th>DOI</th></tr></thead><tbody><tr><td>`zou-2022-gut-mycobiome-dysbiosis-hypertension-immunoglobulin.md`</td><td>`zou-2022-mycobiome-dysbiosis-hypertension-light-chains.md` AND `zou-2022-mycobiome-hypertension-immunoglobulin.md`</td><td>10.3389/fimmu.2022.1089295</td></tr><tr><td>`spivak-2022-local-systemic-effects-microbiome-derived-metabolites.md`</td><td>`spivak-2023-local-systemic-microbiome-derived-metabolites.md` AND `spivak-2023-microbiome-derived-metabolites-local-systemic-effects.md`</td><td>10.15252/embr.202255664</td></tr><tr><td>`eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood.md`</td><td>`eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood.md`</td><td>10.3389/fmicb.2023.1193919</td></tr><tr><td>`ni-2022-gut-microbiota-psychiatric-disorders-mendelian-randomization.md`</td><td>`ni-2022-gut-microbiota-psychiatric-disorders-mr.md`</td><td>10.3389/fmicb.2021.737197</td></tr><tr><td>`he-2021-gut-microbiome-sex-hormone-related-diseases.md`</td><td>`he-2021-gut-microbiome-sex-hormones-disease.md`</td><td>10.3389/fmicb.2021.711137</td></tr><tr><td>`liu-2020-high-fat-diet-heavy-metal-gut-microbiota.md`</td><td>`liu-2020-high-fat-diet-heavy-metals-gut-microbiota-kidney.md`</td><td>10.3389/fmicb.2020.01604</td></tr><tr><td>`swidsinski-2017-ketogenic-diet-colonic-microbiome-ms.md`</td><td>`swidsinski-2017-colonic-microbiome-ms-ketogenic.md`</td><td>10.3389/fmicb.2017.01141</td></tr><tr><td>`xu-2022-causal-gut-microbiota-autoimmune-mr.md`</td><td>`xu-2022-causal-microbiota-autoimmune-mr.md`</td><td>10.3389/fimmu.2021.746998</td></tr><tr><td>`zhang-2017-intestinal-microbiota-host-immune-ibd.md`</td><td>`zhang-2017-intestinal-microbiota-immune-response-ibd.md`</td><td>10.3389/fimmu.2017.00942</td></tr><tr><td>`zhang-2022-causal-gut-microbiome-cvd-mr.md`</td><td>`zhang-2022-causal-microbiome-cvd-mendelian-randomization.md`</td><td>10.3389/fcvm.2022.971376</td></tr><tr><td>`dong-2021-salivary-microbiome-tsh-shifts.md`</td><td>`dong-2021-tsh-salivary-microbiome-shifts.md`</td><td>10.3389/fcimb.2021.603291</td></tr><tr><td>`zhao-2022-gut-microbiota-graves-disease-hashimotos.md`</td><td>`zhao-2022-gut-microbiota-graves-hashimotos.md`</td><td>10.33073/pjm-2022-016</td></tr><tr><td>`elbere-2018-metformin-gut-microbiome-dysbiosis-healthy.md`</td><td>`elbere-2018-metformin-gut-microbiome-dysbiosis.md`</td><td>10.1371/journal.pone.0204317</td></tr><tr><td>`dinakaran-2014-circdna-circulating-microbiome-cvd.md`</td><td>`dinakaran-2014-circulating-microbiome-cvd.md`</td><td>10.1371/journal.pone.0105221</td></tr><tr><td>`wang-2022-gut-microbiota-health-cvd-review.md`</td><td>`wang-2022-gut-microbiota-health-cvd.md`</td><td>10.1186/s43556-022-00091-2</td></tr><tr><td>`zhou-2022-host-microbiome-protein-interactions-disease-pathways.md`</td><td>`zhou-2022-host-microbiome-protein-protein-interactions-disease.md`</td><td>10.1186/s13059-022-02643-9</td></tr><tr><td>`zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiome.md`</td><td>`zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiota.md`</td><td>10.1038/s41398-021-01254-5</td></tr><tr><td>`safadi-2021-gut-dysbiosis-severe-mental-illness-meta-analysis.md`</td><td>`safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis.md`</td><td>10.1038/s41380-021-01032-1</td></tr><tr><td>`wei-2025-gut-mycobiome-cardiometabolic-disease.md`</td><td>`wei-2025-gut-mycobiome-cardiometabolic-progression.md`</td><td>10.3389/fmicb.2025.1659654</td></tr><tr><td>`singh-2024-gut-brain-axis-cvd-review.md`</td><td>`singh-2024-microbes-myocardium-gut-brain-axis-cvd.md`</td><td>10.7759/cureus.70877</td></tr><tr><td>`luqman-2024-intestinal-microbiome-cvd-intervention.md`</td><td>`luqman-2024-intestinal-microbiome-cvd-therapeutic.md`</td><td>10.3389/fimmu.2024.1321395</td></tr><tr><td>`liu-2018-gut-microbiome-rosuvastatin-lipid-lowering.md`</td><td>`liu-2018-rosuvastatin-gut-microbiome-lipid-lowering.md`</td><td>10.3389/fmicb.2018.00530</td></tr></tbody></table>
-<p><strong>Additional duplicates to verify</strong> (partial DOI match, need manual check): `hashimoto-2023-host-microbiome-neuropsychiatric-disorders-review.md` vs `hashimoto-2023-host-microbiome-neuropsychiatric-disorders.md`, `virili-2024-thyroid-human-microbiota-systematic-review-reviews.md` vs `virili-2024-thyroid-microbiota-systematic-review.md`, and ~18 more pairs.</p>
-<p><strong>Action:</strong> For each confirmed pair, check whether wikilinks reference either file, consolidate, update wikilinks, delete the duplicate.</p>
+<p>Additional duplicates to verify (partial DOI match, need manual check): `hashimoto-2023-host-microbiome-neuropsychiatric-disorders-review.md` vs `hashimoto-2023-host-microbiome-neuropsychiatric-disorders.md`, `virili-2024-thyroid-human-microbiota-systematic-review-reviews.md` vs `virili-2024-thyroid-microbiota-systematic-review.md`, and ~18 more pairs.</p>
+<p>Action: For each confirmed pair, check whether wikilinks reference either file, consolidate, update wikilinks, delete the duplicate.</p>
 <p>&mdash;-</p>
 <h2>3. 14 entity pages missing `subtype:` field</h2>
 <p>These metal and organism pages have no `subtype:` in their frontmatter, which breaks entity filtering in any pipeline that depends on it:</p>
 <p>aluminum, arsenic, cadmium, candida-albicans, chromium, copper, enterococcus, iron, lead, manganese, mercury, nickel, selenium, zinc</p>
-<p><strong>Action:</strong> Add appropriate `subtype:` field. Metals get `subtype: metal`. Candida albicans is `subtype: fungus`. Enterococcus is `subtype: microbe`.</p>
+<p>Action: Add appropriate `subtype:` field. Metals get `subtype: metal`. Candida albicans is `subtype: fungus`. Enterococcus is `subtype: microbe`.</p>
 <p>&mdash;-</p>
 <h2>4. All 5 intervention pages are missing `cureva_status:` frontmatter field</h2>
 <p>Per schema, intervention pages require a `cureva_status: complete | partial | in-progress` field. None of the current intervention pages have it:</p>
 <ul><li>`b-cell-depletion-therapy-ms.md`</li><li>`ecoli-nissle-1917.md`</li><li>`ketogenic-diet-ms.md`</li><li>`low-nickel-diet.md`</li><li>`probiotics-asd-dysbiosis.md`</li></ul>
-<p><strong>Action:</strong> Add `cureva_status:` field to each intervention page. Based on content completeness: `low-nickel-diet.md` → `complete`; others → `partial`.</p>
+<p>Action: Add `cureva_status:` field to each intervention page. Based on content completeness: `low-nickel-diet.md` → `complete`; others → `partial`.</p>
 <p>&mdash;-</p>
 <h2>5. Broken wikilinks in `dietary-metal-microbiome-interactions.md`</h2>
 <p>Four wikilinks in a table (lines 58–61) use pipe-alias syntax with backslashes instead of forward slashes, rendering as broken:</p>
 <p>``` <a href="/article/lactobacillus">Lactobacillus</a> → should be <a href="/article/lactobacillus">Lactobacillus</a> <a href="/article/bifidobacterium">Bifidobacterium</a> → should be <a href="/article/bifidobacterium">Bifidobacterium</a> <a href="/article/saccharomyces-cerevisiae">Saccharomyces cerevisiae</a> → should be <a href="/article/saccharomyces-cerevisiae">Saccharomyces cerevisiae</a> <a href="/article/bacillus">Bacillus</a> → should be <a href="/article/bacillus">Bacillus</a> ```</p>
-<p><strong>Action:</strong> Fix the four backslash-broken links in `wiki/concepts/dietary-metal-microbiome-interactions.md`.</p>
+<p>Action: Fix the four backslash-broken links in `wiki/concepts/dietary-metal-microbiome-interactions.md`.</p>
 <p>&mdash;-</p>
 <h2>6. GERD triangle in `low-nickel-diet.md` is incomplete (missing `status:` field)</h2>
 <p>The fifth triangle condition (`GERD (refractory)`) in `wiki/interventions/low-nickel-diet.md` has `I_to_f` defined but is missing `status:`, `I_to_D`, `I_to_D_evidence`, `I_to_f_evidence`, and `f_to_D`. This will cause rendering errors on Cureva.</p>
-<p><strong>Action:</strong> Complete the GERD triangle block. Based on the current text, `status: promising` is appropriate.</p>
+<p>Action: Complete the GERD triangle block. Based on the current text, `status: promising` is appropriate.</p>
 <p>&mdash;-</p>
 <h2>🟡 HIGH PRIORITY</h2>
 <h2>7. 15 disease entity pages have no companion signature page</h2>
 <p>The following diseases have `subtype: disease` entity pages but no corresponding page in `wiki/signatures/`. These represent the biggest content gaps for Cureva pipeline completeness:</p>
-<p><strong>High clinical relevance (likely to be built first):</strong></p>
+<p>High clinical relevance (likely to be built first):</p>
 <ul><li>`hashimotos-thyroiditis` — Thyroid autoimmunity; iodine/selenium/zinc signature likely exists in sources</li><li>`postpartum-depression` — PPD; significant source library ingested; links to estrobolome</li><li>`rheumatoid-arthritis` — RA; copper/zinc/iron signature; heavy source library</li><li>`inflammatory-bowel-disease` — IBD umbrella; Crohn's signature exists; UC and IBD-general still missing</li><li>`chronic-kidney-disease` — CKD; significant metals angle (cadmium, arsenic, lead renal toxicity)</li></ul>
-<p><strong>Active research area, ready for signature build:</strong></p>
+<p>Active research area, ready for signature build:</p>
 <ul><li>`schizophrenia` — 14 sources ingested; copper/zinc/tryptophan signature likely buildable</li><li>`pancreatic-cancer` — Source library exists; mycobiome and iron angle</li><li>`colorectal-cancer` — Wait, `colorectal-cancer.md` IS in signatures — but the entity page may need a signature link check</li></ul>
-<p><strong>Early-stage, foundational work needed:</strong></p>
+<p>Early-stage, foundational work needed:</p>
 <ul><li>`breast-cancer`, `ovarian-cancer`, `gastric-cancer` — Cancer signatures; metalloestrogen angle</li><li>`hypertension`, `ibs`, `gerd`, `ulcerative-colitis`, `type-1-diabetes`</li></ul>
-<p><strong>Action:</strong> Prioritize `hashimotos-thyroiditis`, `postpartum-depression`, and `rheumatoid-arthritis` for signature build next session.</p>
+<p>Action: Prioritize `hashimotos-thyroiditis`, `postpartum-depression`, and `rheumatoid-arthritis` for signature build next session.</p>
 <p>&mdash;-</p>
 <h2>8. Index lists `[[colorectal-cancer]]` in Disease Signatures but missing from entity links section</h2>
 <p>Cross-referencing: `wiki/signatures/colorectal-cancer.md` exists, but the entity page for `colorectal-cancer` should link to it explicitly. Verify bidirectional link is present.</p>
@@ -118,7 +125,7 @@
 <h2>9. 4 microbe entity pages referenced in content but never created</h2>
 <p>The following organisms are wikilinked from content pages but have no entity file:</p>
 <ul><li>`<a href="/article/bacteroides-thetaiotaomicron">bacteroides thetaiotaomicron</a>` — Major commensal; zinc-dependent; referenced multiple times</li><li>`<a href="/article/candida-auris">candida auris</a>` — Emerging pathogen; referenced in candida context</li><li>`<a href="/article/candida-tropicalis">candida tropicalis</a>` — Candida species; referenced in mycobiome contexts</li><li>`<a href="/article/aeromonas">aeromonas</a>` — Opportunistic pathogen; referenced in gut context</li></ul>
-<p><strong>Action:</strong> Create stub entity pages for these four organisms.</p>
+<p>Action: Create stub entity pages for these four organisms.</p>
 <p>&mdash;-</p>
 <h2>10. `[[autoimmunity|b-cell-depletion-therapy]]` concept page is missing</h2>
 <p>The intervention page `b-cell-depletion-therapy-ms.md` links to `<a href="/article/autoimmunity">b-cell-depletion-therapy</a>` as a standalone concept, but this page doesn't exist. Only the intervention page exists. A concept stub explaining the mechanism class would prevent the broken link.</p>
@@ -130,25 +137,25 @@
 <p>Three intervention pages are missing the full triangle field set (`I_to_f_evidence`, `I_to_D_evidence`, `f_to_D`):</p>
 <ul><li>`ecoli-nissle-1917.md` — Triangle present but missing evidence fields and `f_to_D`</li><li>`probiotics-asd-dysbiosis.md` — Triangle present but missing evidence fields and `f_to_D`</li><li>`b-cell-depletion-therapy-ms.md` — Triangle present but missing evidence fields and `f_to_D`</li><li>`ketogenic-diet-ms.md` — Triangle present but missing evidence fields and `f_to_D`</li></ul>
 <p>`low-nickel-diet.md` has all fields correctly populated for its completed triangles.</p>
-<p><strong>Action:</strong> Add `I_to_f_evidence`, `I_to_D_evidence`, and `f_to_D` to these four pages.</p>
+<p>Action: Add `I_to_f_evidence`, `I_to_D_evidence`, and `f_to_D` to these four pages.</p>
 <p>&mdash;-</p>
 <h2>🟢 MEDIUM PRIORITY</h2>
 <h2>13. Missing concept pages referenced in content</h2>
 <p>These terms appear as wikilinks across multiple content pages but have no page of their own:</p>
 <ul><li>`<a href="/article/ahr">ahr</a>` (Aryl Hydrocarbon Receptor) — Referenced across ASD, MS, and Hashimoto's content</li><li>`<a href="/article/amyloid-beta">amyloid beta</a>` — Referenced in Alzheimer's signature</li><li>`<a href="/article/bile-acid-metabolism">bile acid metabolism</a>` — `<a href="/article/bile-acid-metabolism">bile acid metabolism</a>` exists but `<a href="/article/bile-acid-metabolism">bile acid metabolism</a>` is a separate referenced stub; should redirect or merge</li><li>`<a href="/article/celiac-disease">celiac disease</a>` — Referenced in low-nickel-diet intervention as a condition; no entity page</li><li>`<a href="/article/metal-chelation-therapy">activated charcoal</a>` — Referenced in intervention context but no page</li><li>`<a href="/article/short-chain-fatty-acids">butyrate supplementation</a>` — Referenced separately from `<a href="/article/butyrate">butyrate</a>`; consider whether a stub is needed</li></ul>
-<p><strong>Action:</strong> Create stub entity/concept pages for `ahr` and `amyloid-beta` at minimum. Consider redirect for `bile-acids → bile-acid-metabolism`. Add `celiac-disease` as a disease entity.</p>
+<p>Action: Create stub entity/concept pages for `ahr` and `amyloid-beta` at minimum. Consider redirect for `bile-acids → bile-acid-metabolism`. Add `celiac-disease` as a disease entity.</p>
 <p>&mdash;-</p>
 <h2>14. `[[akkermansia-mucinicola]]` is a misspelling</h2>
 <p>One content page links to `<a href="/article/akkermansia-mucinicola">akkermansia mucinicola</a>`, which doesn't exist. The correct entity is `<a href="/article/akkermansia-muciniphila">akkermansia muciniphila</a>`. Misspelling appears to be a one-off wikilink error.</p>
-<p><strong>Action:</strong> Find and correct the misspelled wikilink.</p>
+<p>Action: Find and correct the misspelled wikilink.</p>
 <p>&mdash;-</p>
 <h2>15. `gerd` and `ibs` entity pages have no sources in frontmatter</h2>
 <p>The newly created entity pages for `gerd` and `type-1-diabetes` and `ovarian-cancer` have `sources: []` — empty source lists — suggesting they were scaffolded but never connected to ingested papers. Both conditions have relevant sources in `wiki/sources/`.</p>
-<p><strong>Action:</strong> Review `wiki/sources/` for GERD, T1D, and ovarian cancer papers and add source filenames to these entity page frontmatter `sources:` fields.</p>
+<p>Action: Review `wiki/sources/` for GERD, T1D, and ovarian cancer papers and add source filenames to these entity page frontmatter `sources:` fields.</p>
 <p>&mdash;-</p>
 <h2>16. Schizophrenia entity has `.md` extensions in source filenames</h2>
 <p>The `schizophrenia` entity page lists sources with `.md` extensions appended (e.g., `saha-2005-prevalence-schizophrenia-systematic-review.md`), which is inconsistent with the convention of listing bare filenames without the extension. Other entity pages use bare filenames.</p>
-<p><strong>Action:</strong> Strip `.md` extensions from the `sources:` list in `wiki/entities/schizophrenia.md`.</p>
+<p>Action: Strip `.md` extensions from the `sources:` list in `wiki/entities/schizophrenia.md`.</p>
 <p>&mdash;-</p>
 <h2>17. `pharmacomicrobiomics` concept page exists but is not in the index</h2>
 <p>The file `wiki/concepts/pharmacomicrobiomics.md` exists on disk but doesn't appear in the index concept list. Minor index staleness aside, verify the page exists and is linked from relevant content.</p>
@@ -157,12 +164,14 @@
 <table><thead><tr><th>Severity</th><th>Count</th><th>Description</th></tr></thead><tbody><tr><td>🔴 Critical</td><td>6</td><td>Index stale, 46 duplicate sources, 14 missing subtypes, 5 missing cureva_status, 4 backslash links, 1 incomplete triangle</td></tr><tr><td>🟡 High</td><td>6</td><td>15 diseases without signatures, 4 missing entity pages, missing b-cell-depletion concept, 7 entities not in index, 4 incomplete triangles, GERD entity empty sources</td></tr><tr><td>🟢 Medium</td><td>5</td><td>6 missing concept pages, misspelling, empty source lists on 3 entities, .md extensions in frontmatter, pharmacomicrobiomics not indexed</td></tr></tbody></table>
 <p>&mdash;-</p>
 <h2>RECOMMENDED ACTION SEQUENCE</h2>
-<ol><li><strong>Fix backslash links</strong> in `dietary-metal-microbiome-interactions.md` (5 minutes)</li><li><strong>Complete GERD triangle</strong> in `low-nickel-diet.md` (10 minutes)</li><li><strong>Add `subtype:` fields</strong> to 14 entity pages (15 minutes)</li><li><strong>Add `cureva_status:` fields</strong> to 5 intervention pages (10 minutes)</li><li><strong>Add triangle evidence fields</strong> to 4 intervention pages (30 minutes)</li><li><strong>Create stub entity pages</strong> for `bacteroides-thetaiotaomicron`, `candida-auris`, `candida-tropicalis`, `aeromonas` (20 minutes)</li><li><strong>Resolve 46 duplicate sources</strong> — consolidate and delete duplicates; verify DOIs on suspected mis-assigned pairs (60–90 minutes)</li><li><strong>Regenerate `index.md`</strong> from filesystem (10 minutes)</li><li><strong>Begin signature pages</strong> for `hashimotos-thyroiditis` and `postpartum-depression` (next full session)</li></ol>
+<ol><li>Fix backslash links in `dietary-metal-microbiome-interactions.md` (5 minutes)</li><li>Complete GERD triangle in `low-nickel-diet.md` (10 minutes)</li><li>Add `subtype:` fields to 14 entity pages (15 minutes)</li><li>Add `cureva_status:` fields to 5 intervention pages (10 minutes)</li><li>Add triangle evidence fields to 4 intervention pages (30 minutes)</li><li>Create stub entity pages for `bacteroides-thetaiotaomicron`, `candida-auris`, `candida-tropicalis`, `aeromonas` (20 minutes)</li><li>Resolve 46 duplicate sources — consolidate and delete duplicates; verify DOIs on suspected mis-assigned pairs (60–90 minutes)</li><li>Regenerate `index.md` from filesystem (10 minutes)</li><li>Begin signature pages for `hashimotos-thyroiditis` and `postpartum-depression` (next full session)</li></ol>
 <p>&mdash;-</p>
 <h2>OPEN QUESTIONS</h2>
 <ul><li>Should `inflammatory-bowel-disease` get a signature page as an umbrella, or should `crohns-disease` and `ulcerative-colitis` each get their own (in addition to the existing Crohn's page)?</li><li>Is `SNAS / Systemic Nickel Allergy Syndrome` a disease that warrants its own entity page? It's referenced in the low-nickel-diet intervention but has no entity page.</li><li>Should `bile-acids` and `bile-acid-metabolism` be merged into one page, or kept separate (concept vs metabolite)?</li><li>The `pharmacomicrobiomics` concept page exists but appears underlinked — is it meant to be a prominent concept or a niche stub?</li></ul>
 
       </div>
+
+      
 
       
       <div class="related">
@@ -193,6 +202,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

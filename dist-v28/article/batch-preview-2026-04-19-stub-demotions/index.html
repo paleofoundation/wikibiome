@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,18 +74,20 @@
 
       <div itemprop="articleBody">
         <p>Previewing frontmatter changes for §2f source density demotion. 68 publishable pages are below threshold and need `stub: true` + `stub_reason`.</p><h2>Sample 1: Microbe entity (betaproteobacteria.md)</h2>
-<p><strong>Before:</strong> ```yaml source_count: 2 platform: wikibiome ```</p>
-<p><strong>After:</strong> ```yaml source_count: 2 platform: wikibiome stub: true stub_reason: &quot;below §2f source density threshold — 2 sources, minimum 3 required&quot; ```</p>
+<p>Before: ```yaml source_count: 2 platform: wikibiome ```</p>
+<p>After: ```yaml source_count: 2 platform: wikibiome stub: true stub_reason: &quot;below §2f source density threshold — 2 sources, minimum 3 required&quot; ```</p>
 <h2>Sample 2: Disease entity (celiac-disease.md)</h2>
-<p><strong>Before:</strong> ```yaml source_count: 1 platform: wikibiome ```</p>
-<p><strong>After:</strong> ```yaml source_count: 1 platform: wikibiome stub: true stub_reason: &quot;below §2f source density threshold — 1 sources, minimum 5 required&quot; ```</p>
+<p>Before: ```yaml source_count: 1 platform: wikibiome ```</p>
+<p>After: ```yaml source_count: 1 platform: wikibiome stub: true stub_reason: &quot;below §2f source density threshold — 1 sources, minimum 5 required&quot; ```</p>
 <h2>Sample 3: Metal entity (bismuth.md)</h2>
-<p><strong>Before:</strong> ```yaml source_count: 1 platform: wikibiome ```</p>
-<p><strong>After:</strong> ```yaml source_count: 1 platform: wikibiome stub: true stub_reason: &quot;below §2f source density threshold — 1 sources, minimum 5 required&quot; ```</p>
+<p>Before: ```yaml source_count: 1 platform: wikibiome ```</p>
+<p>After: ```yaml source_count: 1 platform: wikibiome stub: true stub_reason: &quot;below §2f source density threshold — 1 sources, minimum 5 required&quot; ```</p>
 <h2>Assessment</h2>
 <p>Pattern is consistent across all 3 subtypes. The transform adds two YAML lines after `platform:`. No existing content is modified. Proceeding to full batch.</p>
 
       </div>
+
+      
 
       
 
@@ -87,6 +96,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

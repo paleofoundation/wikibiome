@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,15 +73,15 @@
       <h1 itemprop="headline">Cuproptosis</h1>
 
       <div itemprop="articleBody">
-        <p>A distinct form of regulated cell death caused by <strong>excess intracellular copper binding to lipoylated proteins in the TCA cycle</strong>, first characterized by Tsvetkov et al. in <em>Science</em> (2022). Unlike <a href="/article/ferroptosis">ferroptosis</a> (iron-dependent lipid peroxidation) or apoptosis (caspase-dependent), cuproptosis operates through a unique mechanism: copper-induced aggregation of lipoylated mitochondrial proteins and destabilization of iron-sulfur cluster proteins.</p><h2>Mechanism</h2>
+        <p>A distinct form of regulated cell death caused by excess intracellular copper binding to lipoylated proteins in the TCA cycle, first characterized by Tsvetkov et al. in <em>Science</em> (2022). Unlike <a href="/article/ferroptosis">ferroptosis</a> (iron-dependent lipid peroxidation) or apoptosis (caspase-dependent), cuproptosis operates through a unique mechanism: copper-induced aggregation of lipoylated mitochondrial proteins and destabilization of iron-sulfur cluster proteins.</p><h2>Mechanism</h2>
 <p>The cuproptotic cascade proceeds through defined steps:</p>
-<ol><li><strong>Copper accumulation</strong> &mdash; Excess Cu2+ enters cells through copper transporters (CTR1/SLC31A1) or when copper chaperones and export systems (ATP7A/ATP7B) are overwhelmed.</li><li><strong>FDX1-dependent reduction</strong> &mdash; <strong>Ferredoxin 1 (FDX1)</strong> reduces Cu2+ to Cu1+, the biologically active form. FDX1 is the essential upstream regulator of cuproptosis.</li><li><strong>Lipoylated protein binding</strong> &mdash; Cu1+ directly binds <strong>lipoylated TCA cycle enzymes</strong> including dihydrolipoamide S-acetyltransferase (DLAT, a component of the pyruvate dehydrogenase complex) and dihydrolipoamide S-succinyltransferase (DLST).</li><li><strong>Protein aggregation</strong> &mdash; Copper-bound lipoylated proteins form insoluble aggregates, disrupting TCA cycle function and triggering proteotoxic stress.</li><li><strong>Fe-S cluster destabilization</strong> &mdash; Copper simultaneously destabilizes iron-sulfur cluster proteins, compounding mitochondrial dysfunction.</li><li><strong>Cell death</strong> &mdash; The combined proteotoxic stress and metabolic collapse triggers cell death through a pathway independent of known apoptotic, necroptotic, or ferroptotic machinery.</li></ol>
+<ol><li>Copper accumulation &mdash; Excess Cu2+ enters cells through copper transporters (CTR1/SLC31A1) or when copper chaperones and export systems (ATP7A/ATP7B) are overwhelmed.</li><li>FDX1-dependent reduction &mdash; Ferredoxin 1 (FDX1) reduces Cu2+ to Cu1+, the biologically active form. FDX1 is the essential upstream regulator of cuproptosis.</li><li>Lipoylated protein binding &mdash; Cu1+ directly binds lipoylated TCA cycle enzymes including dihydrolipoamide S-acetyltransferase (DLAT, a component of the pyruvate dehydrogenase complex) and dihydrolipoamide S-succinyltransferase (DLST).</li><li>Protein aggregation &mdash; Copper-bound lipoylated proteins form insoluble aggregates, disrupting TCA cycle function and triggering proteotoxic stress.</li><li>Fe-S cluster destabilization &mdash; Copper simultaneously destabilizes iron-sulfur cluster proteins, compounding mitochondrial dysfunction.</li><li>Cell death &mdash; The combined proteotoxic stress and metabolic collapse triggers cell death through a pathway independent of known apoptotic, necroptotic, or ferroptotic machinery.</li></ol>
 <h2>Distinction from Ferroptosis</h2>
 <table><thead><tr><th>Feature</th><th>Cuproptosis</th><th><a href="/article/ferroptosis">ferroptosis</a></th></tr></thead><tbody><tr><td>Metal trigger</td><td>Copper (Cu1+)</td><td>Iron (Fe2+)</td></tr><tr><td>Key regulator</td><td>FDX1</td><td>GPX4</td></tr><tr><td>Target</td><td>Lipoylated TCA proteins</td><td>Membrane lipids (PUFAs)</td></tr><tr><td>Mechanism</td><td>Protein aggregation</td><td>Lipid peroxidation</td></tr><tr><td>Metabolic dependency</td><td>Cells relying on mitochondrial respiration are more sensitive</td><td>Cells with high PUFA content are more sensitive</td></tr><tr><td>Protective factor</td><td>Copper chelators (tetrathiomolybdate)</td><td>Lipophilic antioxidants (ferrostatin-1)</td></tr></tbody></table>
 <p>Both cuproptosis and ferroptosis are relevant to the <a href="/article/mis-metallation">mis metallation</a> framework: they represent what happens when metal homeostasis fails and the wrong metal accumulates in the wrong compartment.</p>
 <h2>Therapeutic Relevance</h2>
 <h2>Cancer</h2>
-<ul><li><strong>Copper chelators</strong> (tetrathiomolybdate, disulfiram/Cu) are being explored as anti-cancer agents that reshape the tumor microenvironment by inducing cuproptosis in copper-dependent tumor cells.</li><li><strong>FDX1 expression</strong> correlates with cuproptosis sensitivity and may serve as a biomarker for patient stratification.</li><li><strong>Immune checkpoint synergy</strong> &mdash; Cuproptosis-induced cell death releases damage-associated molecular patterns (DAMPs) that enhance anti-tumor immunity, potentially synergizing with checkpoint blockade.</li></ul>
+<ul><li>Copper chelators (tetrathiomolybdate, disulfiram/Cu) are being explored as anti-cancer agents that reshape the tumor microenvironment by inducing cuproptosis in copper-dependent tumor cells.</li><li>FDX1 expression correlates with cuproptosis sensitivity and may serve as a biomarker for patient stratification.</li><li>Immune checkpoint synergy &mdash; Cuproptosis-induced cell death releases damage-associated molecular patterns (DAMPs) that enhance anti-tumor immunity, potentially synergizing with checkpoint blockade.</li></ul>
 <h2>Wilson's Disease and Copper Toxicosis</h2>
 <ul><li>Wilson's disease (ATP7B mutations) causes copper accumulation that may partly kill hepatocytes through cuproptosis, not just oxidative damage as traditionally assumed.</li><li>This reframes copper chelation therapy as cuproptosis prevention rather than simply reducing oxidative stress.</li></ul>
 <h2>Microbiome Intersection</h2>
@@ -83,6 +90,17 @@
 <ul><li><a href="/article/copper">copper</a> &mdash; The metal driving cuproptosis</li><li><a href="/article/ferroptosis">ferroptosis</a> &mdash; Parallel metal-dependent cell death pathway</li><li><a href="/article/mis-metallation">mis metallation</a> &mdash; Framework for understanding metal-triggered pathology</li><li><a href="/article/iron">iron</a> &mdash; Fe-S cluster destabilization as secondary cuproptosis mechanism</li><li><a href="/article/glutathione">glutathione</a> &mdash; Copper detoxification pathway upstream of cuproptosis</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (4)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Yingxian Wang, Tongqiang Wen, Fuchao Mao et al.</span> (2025). <span style="font-style:italic;">Wang 2025 — Engineering Copper and Copper-Based Materials for a Post-Antibiotic Era</span>. <em style="color:#888;">Frontiers in Bioengineering and Biotechnology</em></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Ying Xia, Ming Sun, Hai Huang et al.</span> (2024). <span style="font-style:italic;">Drug Repurposing for Cancer Therapy</span>. <em style="color:#888;">Signal Transduction and Targeted Therapy</em></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Chen, et al.</span> (2026). <span style="font-style:italic;">Chen et al. 2026 — Metalloimmunology in the Tumor Microenvironment</span>. <em style="color:#888;">Theranostics</em>. <a href="https://doi.org/10.7150/thno.121988" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.7150/thno.121988</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Brylinski L, Kostelecka K, Wolinski F et al.</span> (2025). <span style="font-style:italic;">Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases — A Literature Review</span>. <em style="color:#888;">Nutrients</em>. <a href="https://doi.org/10.3390/nu17030398" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/nu17030398</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -99,6 +117,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,32 +74,45 @@
 
       <div itemprop="articleBody">
         <h2>Overview</h2>
-<p><strong>Nickel-glyoxalase</strong> (Ni-GlxI) is a bacterial variant of the <strong>glyoxalase I</strong> enzyme system that depends on <strong>nickel</strong> as its essential metal cofactor. This enzyme detoxifies <strong>methylglyoxal</strong> (MG), a toxic glycolysis byproduct that accumulates under glucose fermentation. Unlike the human cytoplasmic <strong>zinc-glyoxalase</strong> (Zn-GlxI), the bacterial Ni-dependent form creates a targeting opportunity: inhibiting Ni-GlxI disables pathogenic nickel-dependent bacteria without harming the host's zinc-dependent enzyme.</p>
+<p>Nickel-glyoxalase (Ni-GlxI) is a bacterial variant of the glyoxalase I enzyme system that depends on nickel as its essential metal cofactor. This enzyme detoxifies methylglyoxal (MG), a toxic glycolysis byproduct that accumulates under glucose fermentation. Unlike the human cytoplasmic zinc-glyoxalase (Zn-GlxI), the bacterial Ni-dependent form creates a targeting opportunity: inhibiting Ni-GlxI disables pathogenic nickel-dependent bacteria without harming the host's zinc-dependent enzyme.</p>
 <p>This is a core example of <a href="/article/metal-dependent-virulence">primitive-4-metal-dependencies</a>: pathogens depend on metals for essential detoxification, and depriving them of that metal is lethal.</p>
 <h2>Mechanism</h2>
-<p>Methylglyoxal (MG) is a reactive dicarbonyl compound formed during glycolytic overflow metabolism. At high concentrations, MG damages DNA, proteins, and lipids. Bacteria defend via the <strong>glyoxalase system</strong>:</p>
-<ol><li><strong>Glyoxalase I</strong> catalyzes: MG + glutathione → S-D-lactoylglutathione</li><li><strong>Glyoxalase II</strong> hydrolyzes: S-D-lactoylglutathione → D-lactate + glutathione</li></ol>
-<p>In bacteria like <a href="/article/escherichia-coli">escherichia coli</a>, some <strong>Vibrio</strong> species, and certain pathogens, Glyoxalase I uses <strong>Ni²⁺</strong> rather than Zn²⁺ as its catalytic cofactor. The nickel ion coordinates the thiolate of glutathione and stabilizes the enediol intermediate during transglycosylation.</p>
-<p><strong>Key difference from human enzyme</strong>: Human cytoplasmic Zn-GlxI has different catalytic geometry and cofactor selectivity. Bacterial Ni-GlxI evolved to exploit environmental nickel availability in the gut.</p>
+<p>Methylglyoxal (MG) is a reactive dicarbonyl compound formed during glycolytic overflow metabolism. At high concentrations, MG damages DNA, proteins, and lipids. Bacteria defend via the glyoxalase system:</p>
+<ol><li>Glyoxalase I catalyzes: MG + glutathione → S-D-lactoylglutathione</li><li>Glyoxalase II hydrolyzes: S-D-lactoylglutathione → D-lactate + glutathione</li></ol>
+<p>In bacteria like <a href="/article/escherichia-coli">escherichia coli</a>, some Vibrio species, and certain pathogens, Glyoxalase I uses Ni²⁺ rather than Zn²⁺ as its catalytic cofactor. The nickel ion coordinates the thiolate of glutathione and stabilizes the enediol intermediate during transglycosylation.</p>
+<p>Key difference from human enzyme: Human cytoplasmic Zn-GlxI has different catalytic geometry and cofactor selectivity. Bacterial Ni-GlxI evolved to exploit environmental nickel availability in the gut.</p>
 <h2>Role in Disease</h2>
 <p><a href="/article/escherichia-coli">escherichia coli</a> with active Ni-GlxI is especially prominent in dysbiosis-driven conditions:</p>
-<ul><li><strong><a href="/article/endometriosis">endometriosis</a></strong> — Ni-rich, estrogen-dependent E. coli proliferation; Ni-GlxI enables rapid growth under fermentative stress.</li><li><strong><a href="/article/inflammatory-bowel-disease">inflammatory bowel disease</a></strong> — Dysbiotic E. coli with Ni-dependent detoxification; low-oxygen environments favor MG accumulation.</li><li><strong><a href="/article/colorectal-cancer">colorectal cancer</a></strong> — Genotoxic stress from MG increases reliance on Ni-GlxI.</li></ul>
+<ul><li><a href="/article/endometriosis">endometriosis</a> — Ni-rich, estrogen-dependent E. coli proliferation; Ni-GlxI enables rapid growth under fermentative stress.</li><li><a href="/article/inflammatory-bowel-disease">inflammatory bowel disease</a> — Dysbiotic E. coli with Ni-dependent detoxification; low-oxygen environments favor MG accumulation.</li><li><a href="/article/colorectal-cancer">colorectal cancer</a> — Genotoxic stress from MG increases reliance on Ni-GlxI.</li></ul>
 <p>Bacteria without functional Ni-GlxI (or starved of nickel) accumulate MG, triggering DNA damage, oxidative stress, and growth arrest.</p>
 <h2>Metal Connections</h2>
-<p><strong>Nickel dependency</strong> is the defining feature. Pathogenic bacteria upregulate Ni-GlxI when:</p>
+<p>Nickel dependency is the defining feature. Pathogenic bacteria upregulate Ni-GlxI when:</p>
 <ul><li>Environmental nickel is available (dietary, via bioaccumulation in plants)</li><li>Intracellular nickel accumulates via <a href="/article/nickel-transporters">nickel transporters</a> or biofilm sequestration</li><li>Metabolic demand for MG detoxification rises (high glucose, high fermentation rate)</li></ul>
-<p><strong>Zinc antagonism</strong>: Some evidence suggests pharmacological zinc supplementation may compete for the Ni binding site, though this mechanism is not yet definitively proven in vivo.</p>
-<p><strong>Related enzymes with Ni cofactors</strong>:</p>
+<p>Zinc antagonism: Some evidence suggests pharmacological zinc supplementation may compete for the Ni binding site, though this mechanism is not yet definitively proven in vivo.</p>
+<p>Related enzymes with Ni cofactors:</p>
 <ul><li><a href="/article/nickel-urease">nickel urease</a> (H. pylori, some gut commensals) — ammonia production, pH buffering</li><li><a href="/article/nife-hydrogenase">nife hydrogenase</a> (anaerobic bacteria) — H₂ metabolism under hypoxia</li><li>Ni-superoxide dismutase — oxidative stress defense</li></ul>
 <h2>Connections</h2>
-<p><strong>Linked concepts</strong>:</p>
+<p>Linked concepts:</p>
 <ul><li>— How excess nickel itself causes damage; Ni-GlxI is an adaptation to tolerate high Ni.</li><li>— The substrate and cellular damage context.</li><li><a href="/article/fermentative-metabolism">fermentative metabolism</a> — High glycolytic flux under anaerobiosis drives MG production.</li></ul>
-<p><strong>Linked entities</strong>:</p>
+<p>Linked entities:</p>
 <ul><li><a href="/article/escherichia-coli">escherichia coli</a> — Primary pathogenic carrier of Ni-GlxI in gut dysbiosis.</li><li>— Marine pathogens with strong Ni-GlxI dependence.</li><li><a href="/article/nickel">nickel</a> — The essential cofactor and selective pressure.</li><li><a href="/article/glutathione">glutathione</a> — Substrate cofactor; depletion impairs MG detoxification.</li></ul>
-<p><strong>Intervention relevance</strong>: </p>
+<p>Intervention relevance: </p>
 <ul><li>Nickel restriction (low-Ni diet, nickel chelation) may selectively suppress Ni-GlxI-dependent pathogens.</li><li>GlxI inhibitors (under research) could be repurposed as antimicrobials if they show selectivity for Ni-form over human Zn-form.</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (6)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Karen Pendergrass</span> (2026). <span style="font-style:italic;">Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)</span>. <em style="color:#888;">Conference Presentation</em></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Xuening Chang, Yuchen Zhang, Xue Chen et al.</span> (2024). <span style="font-style:italic;">Chang 2024 — Gut Microbiome and Serum Amino Acid Metabolome Alterations in ASD</span>. <em style="color:#888;">Nature Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-024-54717-2" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-024-54717-2</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Genchi G, Carocci A, Lauria G et al.</span> (2020). <span style="font-style:italic;">Genchi 2020 — Nickel: Human Health and Environmental Toxicology</span>. <em style="color:#888;">International Journal of Environmental Research and Public Health</em>. <a href="https://doi.org/10.3390/ijerph17030679" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/ijerph17030679</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Stéphane L. Benoit, Alan A. Schmalstig, John Glushka et al.</span> (2019). <span style="font-style:italic;">Benoit et al. 2019 — Nickel Chelation Therapy as an Approach to Combat Multi-Drug Resistant Enteric Pathogens</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-019-50027-0" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-019-50027-0</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Robert J. Maier, Stéphane L. Benoit</span> (2019). <span style="font-style:italic;">Role of Nickel in Microbial Pathogenesis</span>. <em style="color:#888;">Inorganics</em>. <a href="https://doi.org/10.3390/inorganics7070080" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/inorganics7070080</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Karen Pendergrass</span> (2026). <span style="font-style:italic;">Nickel as a Catalytic Driver of Necrotizing Enterocolitis: Dietary Nickel, Microbial Metallomics, and the Activation of Nickel-Dependent Virulence Pathways in the Preterm Gut</span>. <em style="color:#888;">Zenodo Preprint</em>. <a href="https://doi.org/10.5281/zenodo.18200348" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.5281/zenodo.18200348</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -115,6 +135,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

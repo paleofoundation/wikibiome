@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,25 +73,25 @@
       <h1 itemprop="headline">Metalloregulator</h1>
 
       <div itemprop="articleBody">
-        <p>Protein-based transcription factors that <strong>sense intracellular metal concentrations and regulate gene expression accordingly</strong>. Metalloregulators are the decision-making layer of bacterial <a href="/article/metal-homeostasis">metal homeostasis</a> &mdash; they read the <a href="/article/labile-metal-pool">labile metal pool</a>, determine whether a specific metal is scarce or abundant, and activate or repress genes for metal import, export, storage, and enzyme expression. In the host-pathogen arena, metalloregulators are the pathogen's first responders to <a href="/article/nutritional-immunity">nutritional immunity</a>: when the host deploys <a href="/article/calprotectin">calprotectin</a> or <a href="/article/lactoferrin">lactoferrin</a> to restrict iron or zinc, metalloregulators detect the shortage and activate the virulence arsenal.</p>
+        <p>Protein-based transcription factors that sense intracellular metal concentrations and regulate gene expression accordingly. Metalloregulators are the decision-making layer of bacterial <a href="/article/metal-homeostasis">metal homeostasis</a> &mdash; they read the <a href="/article/labile-metal-pool">labile metal pool</a>, determine whether a specific metal is scarce or abundant, and activate or repress genes for metal import, export, storage, and enzyme expression. In the host-pathogen arena, metalloregulators are the pathogen's first responders to <a href="/article/nutritional-immunity">nutritional immunity</a>: when the host deploys <a href="/article/calprotectin">calprotectin</a> or <a href="/article/lactoferrin">lactoferrin</a> to restrict iron or zinc, metalloregulators detect the shortage and activate the virulence arsenal.</p>
 <p>This page focuses on the protein-based regulators. For RNA-based metal sensors, see <a href="/article/gene-regulation">riboswitch</a>. For the broader regulatory framework, see <a href="/article/metal-sensing">metal sensing</a>.</p><h2>Operating Principles</h2>
 <h2>Sensing the Labile Pool</h2>
-<p>Metalloregulators do not measure total cellular metal content. They sample only the <a href="/article/labile-metal-pool">labile metal pool</a> &mdash; the tiny fraction of bioavailable, loosely bound metal ions. This means a cell can have abundant total iron (stored in ferritin) while Fur still senses &quot;iron starvation&quot; because the labile pool is depleted <a href="/article/helmann-2025-labile-metal-pools-bacteria">helmann 2025 labile metal pools bacteria</a>.</p>
+<p>Metalloregulators do not measure total cellular metal content. They sample only the <a href="/article/labile-metal-pool">labile metal pool</a> &mdash; the tiny fraction of bioavailable, loosely bound metal ions. This means a cell can have abundant total iron (stored in ferritin) while Fur still senses &quot;iron starvation&quot; because the labile pool is depleted <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>.</p>
 <h2>Discrimination Challenge</h2>
-<p>Each metalloregulator must distinguish its cognate metal from all others in the cytoplasm. This is achieved through coordination chemistry <a href="/article/capdevila-2024-bacterial-metallostasis-sensing-trafficking">capdevila 2024 bacterial metallostasis sensing trafficking</a>:</p>
-<ul><li><strong>Oxygen (O) and nitrogen (N) donors</strong>: Favor hard Lewis acid metals (Mn2+, Fe2+)</li><li><strong>Sulfur (S) donors</strong>: Favor soft Lewis acid metals (Cu+, Zn2+)</li><li><strong>Mixed O/N/S coordination</strong>: Intermediate metals (Ni2+, Co2+)</li></ul>
-<p>Sensors for weak-binding metals (Mn, Fe) must use <strong>kinetic</strong> discrimination &mdash; sensing metal before thermodynamic equilibrium is reached. Sensors for strong-binding metals (Zn, Cu) can rely on <strong>thermodynamic</strong> discrimination.</p>
+<p>Each metalloregulator must distinguish its cognate metal from all others in the cytoplasm. This is achieved through coordination chemistry <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>:</p>
+<ul><li>Oxygen (O) and nitrogen (N) donors: Favor hard Lewis acid metals (Mn2+, Fe2+)</li><li>Sulfur (S) donors: Favor soft Lewis acid metals (Cu+, Zn2+)</li><li>Mixed O/N/S coordination: Intermediate metals (Ni2+, Co2+)</li></ul>
+<p>Sensors for weak-binding metals (Mn, Fe) must use kinetic discrimination &mdash; sensing metal before thermodynamic equilibrium is reached. Sensors for strong-binding metals (Zn, Cu) can rely on thermodynamic discrimination.</p>
 <h2>The Sensor Compatibility Requirement</h2>
-<p>A critical insight: <strong>the entire set of metalloregulators in a cell must be co-evolved</strong> to work as a system. Each sensor's set-point (the metal concentration at which it switches) must be compatible with all other sensors' set-points, maintaining the inverse Irving-Williams hierarchy of metal availability. Disrupting a single sensor collapses the network, explaining why single-metal perturbations cascade into multi-metal <a href="/article/dyshomeostasis">dyshomeostasis</a> <a href="/article/capdevila-2024-bacterial-metallostasis-sensing-trafficking">capdevila 2024 bacterial metallostasis sensing trafficking</a>.</p>
+<p>A critical insight: the entire set of metalloregulators in a cell must be co-evolved to work as a system. Each sensor's set-point (the metal concentration at which it switches) must be compatible with all other sensors' set-points, maintaining the inverse Irving-Williams hierarchy of metal availability. Disrupting a single sensor collapses the network, explaining why single-metal perturbations cascade into multi-metal <a href="/article/dyshomeostasis">dyshomeostasis</a> <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>.</p>
 <h2>The Flow Equilibrium Model</h2>
-<p>Nies (2025) proposed that metalloregulators achieve discrimination not by controlling import (importers lack specificity &mdash; most transition metals are ~0.75 A diameter) but by <strong>controlling efflux pumps</strong> <a href="/article/nies-2025-flow-equilibrium-model-mis-metalation-zinc">nies 2025 flow equilibrium model mis metalation zinc</a>:</p>
+<p>Nies (2025) proposed that metalloregulators achieve discrimination not by controlling import (importers lack specificity &mdash; most transition metals are ~0.75 A diameter) but by controlling efflux pumps <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup>:</p>
 <ul><li>Metals flow continuously through the cell: import, labile pool, protein binding or efflux</li><li>Metalloregulators sample the labile pool and adjust <a href="/article/antimicrobial-resistance">efflux-pumps</a> rates</li><li>Correct metalation depends on maintaining the inverse Irving-Williams hierarchy</li><li>Metal-binding buffers (glutathione, polyphosphate, ribosomes) quench oscillations</li></ul>
 <h2>Major Metalloregulator Families</h2>
 <h2>Fur Superfamily</h2>
 <p>The most widely distributed metal sensors in bacteria. See <a href="/article/metal-sensing">metal sensing</a> for the full table.</p>
-<ul><li><strong>Fur (Ferric Uptake Regulator)</strong>: Senses Fe2+. When iron is abundant, Fe-Fur represses iron import genes. When iron is scarce (host restriction), Fur derepresses a regulon of 50-100+ genes including siderophore biosynthesis, virulence factors, toxins, and stress responses</li><li><strong>Zur (Zinc Uptake Regulator)</strong>: Senses Zn2+. Controls zinc import (adcABC), alternative ribosomal proteins, and zinc-independent enzyme paralogs</li><li><strong>PerR</strong>: Senses Fe2+ and Mn2+. The peroxide stress regulator &mdash; when mis-metalated by excess zinc, PerR loses function, causing lethal heme toxicity. This is a vulnerability exploited by host zinc flooding</li></ul>
+<ul><li>Fur (Ferric Uptake Regulator): Senses Fe2+. When iron is abundant, Fe-Fur represses iron import genes. When iron is scarce (host restriction), Fur derepresses a regulon of 50-100+ genes including siderophore biosynthesis, virulence factors, toxins, and stress responses</li><li>Zur (Zinc Uptake Regulator): Senses Zn2+. Controls zinc import (adcABC), alternative ribosomal proteins, and zinc-independent enzyme paralogs</li><li>PerR: Senses Fe2+ and Mn2+. The peroxide stress regulator &mdash; when mis-metalated by excess zinc, PerR loses function, causing lethal heme toxicity. This is a vulnerability exploited by host zinc flooding</li></ul>
 <h2>Other Key Metalloregulators</h2>
-<ul><li><strong>MntR</strong>: Mn2+ sensor that balances manganese import and export. Works in concert with other sensors (SczA in pneumococcus) to discriminate Mn from Zn</li><li><strong>NikR</strong>: Ni2+ sensor. In <a href="/article/helicobacter-pylori">helicobacter pylori</a>, NikR is a dual activator/repressor controlling <a href="/article/urease">urease</a> expression and nickel import &mdash; essential for gastric survival</li><li><strong>CopY/CsoR</strong>: Cu+ sensors controlling copper <a href="/article/antimicrobial-resistance">efflux-pumps</a> expression</li><li><strong>PexR</strong>: A dual Fe2+/peroxide sensor in <em>Myxococcus</em> that integrates metal status with oxidative stress</li></ul>
+<ul><li>MntR: Mn2+ sensor that balances manganese import and export. Works in concert with other sensors (SczA in pneumococcus) to discriminate Mn from Zn</li><li>NikR: Ni2+ sensor. In <a href="/article/helicobacter-pylori">helicobacter pylori</a>, NikR is a dual activator/repressor controlling <a href="/article/urease">urease</a> expression and nickel import &mdash; essential for gastric survival</li><li>CopY/CsoR: Cu+ sensors controlling copper <a href="/article/antimicrobial-resistance">efflux-pumps</a> expression</li><li>PexR: A dual Fe2+/peroxide sensor in <em>Myxococcus</em> that integrates metal status with oxidative stress</li></ul>
 <h2>Clinical Relevance</h2>
 <h2>Metalloregulators as Drug Targets</h2>
 <p>Because metalloregulators control virulence gene expression, they are potential anti-virulence targets:</p>
@@ -95,6 +102,16 @@
 <ul><li><a href="/article/metal-sensing">metal sensing</a> &mdash; metalloregulators are the protein-based component of the broader metal-sensing framework</li><li><a href="/article/gene-regulation">riboswitch</a> &mdash; RNA-based metal sensors that complement metalloregulators</li><li><a href="/article/labile-metal-pool">labile metal pool</a> &mdash; what metalloregulators actually measure</li><li><a href="/article/antimicrobial-resistance">efflux-pumps</a> &mdash; primary targets of metalloregulator control</li><li><a href="/article/mis-metallation">mis metallation</a> &mdash; sensor mis-metalation (e.g., PerR by Zn) is a host killing mechanism</li><li><a href="/article/nutritional-immunity">nutritional immunity</a> &mdash; metalloregulators detect and respond to host metal restriction</li><li><a href="/article/co-selection">co selection</a> &mdash; metalloregulator-controlled efflux drives cross-resistance</li><li><a href="/article/irving-williams-series">irving williams series</a> &mdash; thermodynamic basis for sensor discrimination</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (3)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">John D. Helmann</span> (2025). <span style="font-style:italic;">Helmann 2025 — Metals in Motion: Understanding Labile Metal Pools in Bacteria</span>. <em style="color:#888;">Biochemistry</em>. <a href="https://doi.org/10.1021/acs.biochem.4c00684" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1021/acs.biochem.4c00684</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Daiana A. Capdevila, Johnma J. Rondon, Katherine A. Edmonds et al.</span> (2024). <span style="font-style:italic;">Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking</span>. <em style="color:#888;">Chemical Reviews</em>. <a href="https://doi.org/10.1021/acs.chemrev.4c00264" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1021/acs.chemrev.4c00264</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Dietrich H Nies, Julie A Maupin-Furlow</span> (2025). <span style="font-style:italic;">Nies 2025 — A Flow Equilibrium Model Controlling Cytoplasmic Transition Metal Cation Pools and Preventing Mis-Metalation</span>. <em style="color:#888;">Journal of Bacteriology</em></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -120,6 +137,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

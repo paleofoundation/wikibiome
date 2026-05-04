@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,32 +73,32 @@
       <h1 itemprop="headline">WikiBiome / Cureva — Gaps &amp; Improvement Report 2026 04 12</h1>
 
       <div itemprop="articleBody">
-        <p><strong>Generated:</strong> 2026-04-12 (automated scheduled run) <strong>Scope:</strong> Full audit of wiki content, raw paper library, index accuracy, and roadmap alignment <strong>Related:</strong> See also `wiki/analyses/lint-report-2026-04-12.md` for structural/formatting issues</p>
+        <p>Generated: 2026-04-12 (automated scheduled run) Scope: Full audit of wiki content, raw paper library, index accuracy, and roadmap alignment Related: See also `wiki/analyses/lint-report-2026-04-12.md` for structural/formatting issues</p>
 <p>&mdash;-</p><h2>Executive Summary</h2>
-<p>The knowledge base is in strong structural shape with 13 complete signatures, 88 concept pages, 130+ entity pages, and ~1,426 source pages. The lint report captures all formatting and schema issues. This report focuses on <strong>content gaps</strong> and <strong>strategic improvements</strong> not fully covered by the lint report.</p>
-<p><strong>The three biggest gaps:</strong></p>
-<ol><li><strong>9 conditions with 65–79 raw papers each have no signature page</strong> — Hashimoto's, PPD, Rheumatoid Arthritis, CKD, Schizophrenia, Type 1 Diabetes, GERD, Ovarian Cancer, Pancreatic Cancer</li><li><strong>180 unorganized ASD papers</strong> remain in the disorganized holding folder and have not been ingested</li><li><strong>Intervention coverage is thin</strong> — only 5 intervention pages exist despite 13 signatures; most conditions have zero linked interventions</li></ol>
+<p>The knowledge base is in strong structural shape with 13 complete signatures, 88 concept pages, 130+ entity pages, and ~1,426 source pages. The lint report captures all formatting and schema issues. This report focuses on content gaps and strategic improvements not fully covered by the lint report.</p>
+<p>The three biggest gaps:</p>
+<ol><li>9 conditions with 65–79 raw papers each have no signature page — Hashimoto's, PPD, Rheumatoid Arthritis, CKD, Schizophrenia, Type 1 Diabetes, GERD, Ovarian Cancer, Pancreatic Cancer</li><li>180 unorganized ASD papers remain in the disorganized holding folder and have not been ingested</li><li>Intervention coverage is thin — only 5 intervention pages exist despite 13 signatures; most conditions have zero linked interventions</li></ol>
 <p>&mdash;-</p>
 <h2>Section 1: Missing Signature Pages — Readiness Assessment</h2>
-<p>The following conditions have raw paper libraries already organized by category (65–79 papers each) but no signature page exists. These are <strong>ready to build</strong> in order of strategic priority:</p>
+<p>The following conditions have raw paper libraries already organized by category (65–79 papers each) but no signature page exists. These are ready to build in order of strategic priority:</p>
 <table><thead><tr><th>Condition</th><th>Raw Papers</th><th>Ingested Sources (approx)</th><th>Metallomic Angle</th><th>Priority</th></tr></thead><tbody><tr><td>Hashimoto's Thyroiditis</td><td>73</td><td>Partial (ingested)</td><td>Iodine/selenium/zinc; iodine-autoimmunity paradox</td><td>🔴 Highest</td></tr><tr><td>Postpartum Depression</td><td>74</td><td>40 ingested</td><td>Iron functional anemia; estrobolome; perinatal window</td><td>🔴 Highest</td></tr><tr><td>Rheumatoid Arthritis</td><td>— (in raw/)</td><td>Multiple sources</td><td>Copper/zinc/iron signature; E. coli and Prevotella copri</td><td>🔴 Highest</td></tr><tr><td>Chronic Kidney Disease</td><td>65</td><td>Sources present</td><td>Cadmium/arsenic/lead nephrotoxicity; urease pathogens</td><td>🟡 High</td></tr><tr><td>Schizophrenia</td><td>71</td><td>14 ingested</td><td>Copper/zinc dyshomeostasis; tryptophan pathway disruption</td><td>🟡 High</td></tr><tr><td>Type 1 Diabetes</td><td>68</td><td>57 ingested</td><td>Iron and zinc in beta-cell destruction; Bacteroides signature</td><td>🟡 High</td></tr><tr><td>GERD</td><td>70</td><td>Sources present</td><td>Nickel allergy connection; H. pylori iron ecology</td><td>🟢 Medium</td></tr><tr><td>Ovarian Cancer</td><td>68</td><td>Sources present</td><td>Metalloestrogen angle; cadmium; Fusobacterium</td><td>🟢 Medium</td></tr><tr><td>Pancreatic Cancer</td><td>67</td><td>Sources present</td><td>Mycobiome (Malassezia); iron ecology; Fusobacterium</td><td>🟢 Medium</td></tr></tbody></table>
-<p><strong>Cerebral Palsy is an additional gap</strong>: 79 raw papers exist but there is no entity page, no sources ingested, and no signature. This condition may warrant a dedicated entity page before a signature can be built.</p>
+<p>Cerebral Palsy is an additional gap: 79 raw papers exist but there is no entity page, no sources ingested, and no signature. This condition may warrant a dedicated entity page before a signature can be built.</p>
 <p>&mdash;-</p>
 <h2>Section 2: 180 Unorganized ASD Papers — Incomplete Ingest</h2>
-<p>The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains <strong>180 PDF files</strong> that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:</p>
+<p>The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains 180 PDF files that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:</p>
 <ul><li>Additional metallomic data for the ASD signature (currently `cureva_status: in-progress`)</li><li>Intervention evidence (particularly for the low-nickel and probiotics pages)</li><li>Additional STOP candidates</li><li>Relevant microbe entity data</li></ul>
-<p><strong>Recommended action:</strong> Run the structured ingest workflow on this folder. Given the volume (180 papers), this is a multi-session effort. Suggest prioritizing: (1) any papers about metals + ASD, (2) any RCT intervention papers, (3) any signature/microbiome composition papers.</p>
+<p>Recommended action: Run the structured ingest workflow on this folder. Given the volume (180 papers), this is a multi-session effort. Suggest prioritizing: (1) any papers about metals + ASD, (2) any RCT intervention papers, (3) any signature/microbiome composition papers.</p>
 <p>&mdash;-</p>
 <h2>Section 3: RE-INGEST-PROMPT.md — Pendergrass Papers Verification</h2>
 <p>A `raw/RE-INGEST-PROMPT.md` file exists with instructions to verify and re-ingest 9 Karen Pendergrass papers. Cross-checking against the current wiki:</p>
 <table><thead><tr><th>Paper</th><th>Required DOI</th><th>Source Page Exists?</th><th>Notes</th></tr></thead><tbody><tr><td>Dysbiosis to Dyshomeostasis (Parkinson's)</td><td>10.5281/zenodo.18068369</td><td>✅ Yes (`pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic.md`)</td><td>DOI confirmed match</td></tr><tr><td>Age-Window Baby Foods</td><td>10.5281/zenodo.18366816</td><td>✅ Yes (`pendergrass-2026-age-window-vulnerability-vegetable-baby-foods.md`)</td><td>Verify DOI</td></tr><tr><td>Nickel as Catalytic Driver of NEC</td><td>10.5281/zenodo.18200348</td><td>✅ Yes (`pendergrass-2026-nickel-nec-preterm-gut.md`)</td><td>Verify DOI</td></tr><tr><td>Microbial Metallomics + Parkinson's</td><td>10.5281/zenodo.17830083</td><td>✅ Yes (`pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md`)</td><td>Verify DOI</td></tr><tr><td>Pheomelanin / Redheads + Parkinson's</td><td>10.5281/zenodo.17976306</td><td>✅ Yes (`pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads.md`)</td><td>Verify co-author Eyer K is listed</td></tr><tr><td>Fertilizers Heavy Metals Historical</td><td>10.5281/zenodo.18439158</td><td>✅ Yes (`pendergrass-2026-fertilizers-heavy-metals-historical.md`)</td><td>Verify DOI</td></tr><tr><td>Heavy Metals + Obesity</td><td>10.5281/zenodo.18434951</td><td>✅ Yes (`pendergrass-2026-heavy-metals-obesity-epidemic.md`)</td><td>Verify DOI</td></tr><tr><td>Counterproductive Exposé Testing</td><td>10.5281/zenodo.19470572</td><td>✅ Yes (`pendergrass-2026-counterproductive-expose-testing.md`)</td><td>Verify DOI</td></tr><tr><td>Certification Framework + Infant Foods</td><td>10.5281/zenodo.18905821</td><td>✅ Yes (`pendergrass-2026-certification-infant-food-metals.md`)</td><td>Verify DOI</td></tr></tbody></table>
-<p>All 9 papers appear to have source pages. <strong>Recommended action:</strong> Verify each DOI matches the actual Zenodo record to guard against hallucinated DOIs (a known past issue per memory). The re-ingest prompt also asks to check whether the content JSON was rebuilt with `node scripts/build-content.cjs &mdash;platform all`.</p>
+<p>All 9 papers appear to have source pages. Recommended action: Verify each DOI matches the actual Zenodo record to guard against hallucinated DOIs (a known past issue per memory). The re-ingest prompt also asks to check whether the content JSON was rebuilt with `node scripts/build-content.cjs &mdash;platform all`.</p>
 <p>&mdash;-</p>
 <h2>Section 4: Intervention Coverage Gap</h2>
-<p>Only <strong>5 intervention pages</strong> exist for <strong>13 disease signatures</strong>. This is the most significant Cureva platform gap. Coverage by condition:</p>
+<p>Only 5 intervention pages exist for 13 disease signatures. This is the most significant Cureva platform gap. Coverage by condition:</p>
 <table><thead><tr><th>Condition</th><th>Has Linked Intervention?</th><th>Has STOP(s)?</th><th>Intervention Gap</th></tr></thead><tbody><tr><td>Endometriosis</td><td>✅ (low-nickel-diet)</td><td>✅ (zinc, iron)</td><td>Additional interventions possible: lactoferrin, biofilm agents</td></tr><tr><td>Multiple Sclerosis</td><td>✅ (ketogenic-diet, b-cell-depletion)</td><td>✅ (iron, SCFA)</td><td>Well covered for a partial status</td></tr><tr><td>ASD</td><td>✅ (probiotics-asd-dysbiosis)</td><td>✅ (iron)</td><td>180 unprocessed papers likely contain more</td></tr><tr><td>Crohn's Disease</td><td>✅ (ecoli-nissle-1917)</td><td>✅ (iron, antibiotics)</td><td>Moderately covered</td></tr><tr><td>Graves' Disease</td><td>❌</td><td>✅ (iodine, iron)</td><td>No intervention page — only STOPs</td></tr><tr><td>PCOS</td><td>❌</td><td>✅ (iron, zinc)</td><td>No intervention page — only STOPs</td></tr><tr><td>Parkinson's Disease</td><td>❌</td><td>❌</td><td>No interventions or STOPs at all</td></tr><tr><td>Alzheimer's Disease</td><td>❌</td><td>❌</td><td>No interventions or STOPs at all</td></tr><tr><td>Cardiovascular Disease</td><td>❌</td><td>❌</td><td>No interventions or STOPs at all</td></tr><tr><td>Depression</td><td>❌</td><td>❌</td><td>No interventions or STOPs at all</td></tr><tr><td>Colorectal Cancer</td><td>❌</td><td>❌</td><td>No interventions or STOPs at all</td></tr><tr><td>Obesity</td><td>❌</td><td>❌</td><td>No interventions or STOPs at all</td></tr><tr><td>Type 2 Diabetes</td><td>❌</td><td>❌</td><td>No interventions or STOPs at all</td></tr></tbody></table>
-<p><strong>8 of 13 signatures have no linked intervention page.</strong> This is the core clinical intelligence gap for the Cureva platform.</p>
-<p><strong>Recommended quick wins:</strong></p>
+<p>8 of 13 signatures have no linked intervention page. This is the core clinical intelligence gap for the Cureva platform.</p>
+<p>Recommended quick wins:</p>
 <ul><li>Create `stop-iron-supplementation-parkinsons.md` — Parkinson's has clear hepcidin elevation and siderophore-producing pathobiont enrichment; fits the cross-condition STOP pattern</li><li>Create `stop-iron-supplementation-depression.md` — same pattern; functional anemia vs true deficiency</li><li>Create intervention pages for Parkinson's: low-nickel diet (via shared H. pylori / Proteus mechanism) and iron chelation (ferroptosis angle from the Pendergrass 2025 paper)</li></ul>
 <p>&mdash;-</p>
 <h2>Section 5: Index &amp; Count Discrepancies (Beyond Lint Report)</h2>
@@ -117,7 +124,7 @@
 <p>&mdash;-</p>
 <h2>Section 7: WikiBiome v2 Roadmap Alignment</h2>
 <p>From the v2 roadmap (per memory):</p>
-<ul><li><strong>Signature sidebars</strong> — Requires complete intervention + STOP coverage per condition (currently only 4/13 conditions covered)</li><li><strong>50 microbe pages target</strong> — Currently 83 microbe entities, so target is exceeded in count; quality audit of thin pages needed</li><li><strong>Author outreach</strong> — Pendergrass paper pages exist; ensure they link back to her Zenodo profile</li><li><strong>Chat feature</strong> — Requires structured data quality; index staleness is a blocker</li><li><strong>User accounts</strong> — No blockers identified</li></ul>
+<ul><li>Signature sidebars — Requires complete intervention + STOP coverage per condition (currently only 4/13 conditions covered)</li><li>50 microbe pages target — Currently 83 microbe entities, so target is exceeded in count; quality audit of thin pages needed</li><li>Author outreach — Pendergrass paper pages exist; ensure they link back to her Zenodo profile</li><li>Chat feature — Requires structured data quality; index staleness is a blocker</li><li>User accounts — No blockers identified</li></ul>
 <p>&mdash;-</p>
 <h2>Recommended Action Sequence for Next Session</h2>
 <h2>Immediate (&lt; 30 min, no new content required)</h2>
@@ -133,6 +140,8 @@
       </div>
 
       
+
+      
       <div class="related">
         <h3>Related Articles</h3>
         <ul><li><a href="/article/bile-acid-metabolism">Bile Acid Metabolism</a></li>
@@ -145,6 +154,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

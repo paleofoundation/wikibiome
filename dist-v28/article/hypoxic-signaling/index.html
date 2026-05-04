@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,20 +73,20 @@
       <h1 itemprop="headline">Hypoxic Signaling (HIF 1α Pathway)</h1>
 
       <div itemprop="articleBody">
-        <p>Activation of the hypoxia-inducible factor pathway under <strong>normoxic conditions</strong> is a hallmark mechanism of <a href="/article/nickel">nickel</a> carcinogenesis, distinguishing it from <a href="/article/arsenic">arsenic</a> and <a href="/article/chromium">chromium</a>.</p><h2>Normal HIF-1α Regulation</h2>
+        <p>Activation of the hypoxia-inducible factor pathway under normoxic conditions is a hallmark mechanism of <a href="/article/nickel">nickel</a> carcinogenesis, distinguishing it from <a href="/article/arsenic">arsenic</a> and <a href="/article/chromium">chromium</a>.</p><h2>Normal HIF-1α Regulation</h2>
 <p>Under normal oxygen levels:</p>
-<ol><li>HIF-prolyl hydroxylases (using Fe(II), O₂, 2-oxoglutarate, and <strong>ascorbate</strong>) hydroxylate HIF-1α at Pro-402 and Pro-564.</li><li>Hydroxylated HIF-1α is recognized by the von Hippel-Lindau protein (pVHL).</li><li>pVHL tags HIF-1α for proteasomal degradation via ubiquitination.</li><li>Result: HIF-1α is rapidly degraded under normoxia.</li></ol>
+<ol><li>HIF-prolyl hydroxylases (using Fe(II), O₂, 2-oxoglutarate, and ascorbate) hydroxylate HIF-1α at Pro-402 and Pro-564.</li><li>Hydroxylated HIF-1α is recognized by the von Hippel-Lindau protein (pVHL).</li><li>pVHL tags HIF-1α for proteasomal degradation via ubiquitination.</li><li>Result: HIF-1α is rapidly degraded under normoxia.</li></ol>
 <p>Under hypoxia, hydroxylation doesn't occur → HIF-1α accumulates → dimerizes with HIF-1β (ARNT) → activates hundreds of target genes.</p>
 <h2>How Nickel Activates HIF-1α</h2>
-<p>Ni(II) causes <strong>&quot;pseudo-hypoxia&quot;</strong> through multiple converging mechanisms <a href="/article/salnikov-2008-metal-carcinogenesis">salnikov 2008 metal carcinogenesis</a>:</p>
-<ol><li><strong>Direct inhibition of HIF-prolyl hydroxylases</strong>: Ni(II) may replace Fe(II) in the active site.</li><li><strong>Ascorbate depletion</strong>: nickel depletes intracellular ascorbate, which is a critical cofactor for the hydroxylases. Without ascorbate, Fe(II) cannot be maintained in its reduced state.</li><li><strong>Iron homeostasis disruption</strong>: Ni(II) oxidizes iron in iron-sulfur clusters → activates IRP-1 → affects transferrin receptor and ferritin expression → disrupts cellular iron pools needed for hydroxylases.</li></ol>
+<p>Ni(II) causes &quot;pseudo-hypoxia&quot; through multiple converging mechanisms <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
+<ol><li>Direct inhibition of HIF-prolyl hydroxylases: Ni(II) may replace Fe(II) in the active site.</li><li>Ascorbate depletion: nickel depletes intracellular ascorbate, which is a critical cofactor for the hydroxylases. Without ascorbate, Fe(II) cannot be maintained in its reduced state.</li><li>Iron homeostasis disruption: Ni(II) oxidizes iron in iron-sulfur clusters → activates IRP-1 → affects transferrin receptor and ferritin expression → disrupts cellular iron pools needed for hydroxylases.</li></ol>
 <p>The structural basis: Ni(II) is similar to Fe(II), and the oxygen of the Ni(II) hydroxyl group at the proline C4 position provides the specific interaction with VHL Ser-111 and His-115 residues — enabling discrimination between hydroxylated and non-hydroxylated HIF-1α.</p>
 <h2>Downstream Effects</h2>
 <p>HIF-1α activation promotes:</p>
-<ul><li><strong>Angiogenesis</strong> (VEGF)</li><li><strong>Glycolytic metabolism</strong> (glucose transporters, glycolytic enzymes)</li><li><strong>Cell survival</strong> (anti-apoptotic genes)</li><li><strong>Erythropoietin</strong> production</li></ul>
+<ul><li>Angiogenesis (VEGF)</li><li>Glycolytic metabolism (glucose transporters, glycolytic enzymes)</li><li>Cell survival (anti-apoptotic genes)</li><li>Erythropoietin production</li></ul>
 <p>All of these promote tumor growth and survival.</p>
 <h2>Connection to Epigenetics</h2>
-<p>The hypoxic signaling and <a href="/article/epigenetic-modifications">epigenetic modifications</a> pathways share a critical upstream target: <strong>2-oxoglutarate/Fe(II)-dependent dioxygenases</strong>. This enzyme family includes:</p>
+<p>The hypoxic signaling and <a href="/article/epigenetic-modifications">epigenetic modifications</a> pathways share a critical upstream target: 2-oxoglutarate/Fe(II)-dependent dioxygenases. This enzyme family includes:</p>
 <ul><li>HIF-prolyl hydroxylases (hypoxic signaling)</li><li>JMJD2 family histone demethylases (epigenetics)</li><li>TET family DNA demethylases (epigenetics)</li></ul>
 <p>Nickel's ability to disrupt this entire family through iron displacement and ascorbate depletion provides a unified mechanism for both its hypoxic and epigenetic effects.</p>
 <h2>Connections</h2>
@@ -88,12 +95,27 @@
       </div>
 
       
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (8)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Konstantin Salnikov, Anatoly Zhitkovich</span> (2008). <span style="font-style:italic;">Genetic and Epigenetic Mechanisms in Metal Carcinogenesis and Cocarcinogenesis: Nickel, Arsenic, and Chromium</span>. <em style="color:#888;">Chemical Research in Toxicology</em>. <a href="https://doi.org/10.1021/tx700198a" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1021/tx700198a</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Englert-Golon M, Sajdak S, Plagens-Rotman KM et al.</span> (2025). <span style="font-style:italic;">Englert-Golon 2025 — Potential Role of Microbiota in Ovarian Cancer Treatment</span>. <em style="color:#888;">Archives of Medical Science</em>. <a href="https://doi.org/10.5114/aoms/209544" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.5114/aoms/209544</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Cano L, Bertani S, Island ML et al.</span> (2021). <span style="font-style:italic;">Metallomic profile in non-cirrhotic hepatocellular carcinoma supports a phenomenon of metal metabolism adaptation in tumor cells</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-021-93369-4" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-021-93369-4</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Hongliang Cao, Difei Zhang, Pengyu Wang et al.</span> (2024). <span style="font-style:italic;">Cao 2024 — Gut Microbiome: A Novel Preventive and Therapeutic Target for Prostatic Disease</span>. <em style="color:#888;">Frontiers in Cellular and Infection Microbiology</em>. <a href="https://doi.org/10.3389/fcimb.2024.1431088" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fcimb.2024.1431088</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Ji Sung Shim, Dae Hee Kim, Jae Hyun Bae et al.</span> (2016). <span style="font-style:italic;">Shim 2016 — Omega-3 Fatty Acids Improve Erectile Function in Atherosclerosis-induced Chronic Pelvic Ischemia Rat Model</span>. <em style="color:#888;">Journal of Korean Medical Science</em>. <a href="https://doi.org/10.3346/jkms.2016.31.4.585" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3346/jkms.2016.31.4.585</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Denkhaus E, Salnikov K</span> (2002). <span style="font-style:italic;">Nickel essentiality, toxicity, and carcinogenicity</span>. <em style="color:#888;">Critical Reviews in Oncology/Hematology</em>. <a href="https://doi.org/10.1016/s1040-8428(01)00214-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1016/s1040-8428(01)00214-1</a></li>
+<li id="ref-7" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Jessica Briffa, Emmanuel Sinagra, Renald Blundell</span> (2020). <span style="font-style:italic;">Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans</span>. <em style="color:#888;">Heliyon</em>. <a href="https://doi.org/10.1016/j.heliyon.2020.e04691" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1016/j.heliyon.2020.e04691</a></li>
+<li id="ref-8" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Rafati Rahimzadeh M, Rafati Rahimzadeh M, Kazemi S et al.</span> (2025). <span style="font-style:italic;">Nickel; A Metal with Threats to Human Health, Focusing on Its Intoxication Mechanisms</span>. <em style="color:#888;">Human and Experimental Toxicology</em>. <a href="https://doi.org/10.1177/09603271251361197" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1177/09603271251361197</a></li>
+        </ol>
+      </section>
+
+      
       <div class="related">
         <h3>Related Articles</h3>
         <ul><li><a href="/article/nickel">Nickel</a></li>
 <li><a href="/article/arsenic">Arsenic</a></li>
 <li><a href="/article/chromium">Chromium</a></li>
-<li><a href="/article/epigenetic-modifications">Epigenetic Modifications In Metal Carcinogenesis</a></li>
+<li><a href="/article/epigenetic-modifications">Epigenetic Modifications</a></li>
 <li><a href="/article/metal-carcinogenesis">Metal Carcinogenesis</a></li></ul>
       </div>
 
@@ -102,6 +124,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

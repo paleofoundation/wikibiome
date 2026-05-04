@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -70,14 +77,16 @@
 <table><thead><tr><th>Page</th><th>Type</th><th>Citations/Paragraphs</th><th>Ratio</th><th>Verdict</th><th>Key Issues</th></tr></thead><tbody><tr><td>depression.md</td><td>entity</td><td>14/18</td><td>0.78</td><td>REMEDIATE</td><td>Copper/Iron/Comorbidity sections unsourced; broken wikilink fixed</td></tr><tr><td>anxiety.md</td><td>entity</td><td>1/9</td><td>0.11</td><td>DEMOTE</td><td>Catastrophically below citation threshold; demoted to stub</td></tr><tr><td>dysbiosis.md</td><td>concept</td><td>11/30</td><td>0.37</td><td>REMEDIATE</td><td>Barely passes; 13+ unsourced claims; borderline boundary violation</td></tr><tr><td>gut-brain-axis.md</td><td>concept</td><td>13/30</td><td>0.43</td><td>REMEDIATE</td><td>~50% body unsourced; &quot;Therapeutic Implications&quot; was Rule 8 violation — rewritten to &quot;Research Directions&quot;</td></tr><tr><td>metal-disease-matrix.md</td><td>analysis</td><td>93/109</td><td>0.85</td><td>REMEDIATE</td><td>Section 7 &quot;Therapeutic Implications&quot; was critical Rule 8 violation — 90 lines of clinical guidance removed, replaced with Cureva redirect</td></tr></tbody></table>
 <h2>Actions Taken</h2>
 <h2>Immediate fixes applied this cycle:</h2>
-<ol><li><strong>anxiety.md</strong> — demoted to `stub: true` (citation ratio 0.11)</li><li><strong>depression.md</strong> — fixed broken wikilink `ogundare-2024-metals-behavioral-depression-women` → `ogundare-2024-metals-behavioral-factors-depression-women` (3 occurrences)</li><li><strong>gut-brain-axis.md</strong> — rewrote &quot;Therapeutic Implications&quot; → &quot;Research Directions&quot; to remove clinical recommendation language (Rule 8)</li><li><strong>metal-disease-matrix.md</strong> — replaced Section 7 (90 lines of clinical intervention guidance) with Cureva redirect note (Rule 8)</li></ol>
+<ol><li>anxiety.md — demoted to `stub: true` (citation ratio 0.11)</li><li>depression.md — fixed broken wikilink `ogundare-2024-metals-behavioral-depression-women` → `ogundare-2024-metals-behavioral-factors-depression-women` (3 occurrences)</li><li>gut-brain-axis.md — rewrote &quot;Therapeutic Implications&quot; → &quot;Research Directions&quot; to remove clinical recommendation language (Rule 8)</li><li>metal-disease-matrix.md — replaced Section 7 (90 lines of clinical intervention guidance) with Cureva redirect note (Rule 8)</li></ol>
 <h2>Deferred to next cycle:</h2>
-<ul><li><strong>depression.md</strong> — add inline citations to Copper, Iron, and Comorbidity sections from existing vault sources</li><li><strong>dysbiosis.md</strong> — add inline citations to Diet, Stress, Metabolite Shifts, Systemic Inflammation sections; rename &quot;Restoration Strategies&quot; to factual framing</li><li><strong>gut-brain-axis.md</strong> — add inline citations to tryptophan, bile acid, SCFA, and ENS sections</li><li><strong>depression.md</strong> — create or remove phantom source pages (capuco-2020, zhu-2025) — capuco-2020 exists, zhu-2025 needs verification</li><li><strong>metal-disease-matrix.md</strong> — add inline citations for schizophrenia, T1D, ferroptosis claims</li></ul>
+<ul><li>depression.md — add inline citations to Copper, Iron, and Comorbidity sections from existing vault sources</li><li>dysbiosis.md — add inline citations to Diet, Stress, Metabolite Shifts, Systemic Inflammation sections; rename &quot;Restoration Strategies&quot; to factual framing</li><li>gut-brain-axis.md — add inline citations to tryptophan, bile acid, SCFA, and ENS sections</li><li>depression.md — create or remove phantom source pages (capuco-2020, zhu-2025) — capuco-2020 exists, zhu-2025 needs verification</li><li>metal-disease-matrix.md — add inline citations for schizophrenia, T1D, ferroptosis claims</li></ul>
 <h2>No pages passed clean audit — `audit_passed` not set on any page this cycle.</h2>
 <h2>Observations</h2>
-<ul><li>None of the 5 sampled pages had prior `audit_passed` dates — this is the first adversarial audit cycle.</li><li>The dominant failure pattern is <strong>sections of well-structured content with zero inline citations</strong>. Pages pass the aggregate citation threshold but fail claim-level scrutiny in specific sections.</li><li>Rule 8 boundary violations are concentrated in &quot;Therapeutic Implications&quot; and &quot;Clinical Implications&quot; sections. A vault-wide scan for these section headers on wikibiome pages is recommended.</li><li>The anxiety page demonstrates that `source_count` meeting threshold (5 sources, minimum 5) is not sufficient — claim-level citation density is the binding constraint.</li></ul>
+<ul><li>None of the 5 sampled pages had prior `audit_passed` dates — this is the first adversarial audit cycle.</li><li>The dominant failure pattern is sections of well-structured content with zero inline citations. Pages pass the aggregate citation threshold but fail claim-level scrutiny in specific sections.</li><li>Rule 8 boundary violations are concentrated in &quot;Therapeutic Implications&quot; and &quot;Clinical Implications&quot; sections. A vault-wide scan for these section headers on wikibiome pages is recommended.</li><li>The anxiety page demonstrates that `source_count` meeting threshold (5 sources, minimum 5) is not sufficient — claim-level citation density is the binding constraint.</li></ul>
 
       </div>
+
+      
 
       
 
@@ -86,6 +95,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

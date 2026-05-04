@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -75,13 +82,13 @@
 <h2>Step 3 — Missing Conditions + Signatures</h2>
 <table><thead><tr><th>Item</th><th>Action</th><th>Notes</th></tr></thead><tbody><tr><td>gestational-diabetes entity</td><td>Created</td><td>6 sources, stub</td></tr><tr><td>gestational-diabetes-signature</td><td>Created</td><td>5-layer stub, all preliminary, cross-condition overlaps computed</td></tr><tr><td>Disease entities missing signature_page field</td><td>38 fixed</td><td>Added `signature_page` to entities where signature already existed</td></tr><tr><td>&quot;parkinson&quot; (121 sources)</td><td>Skipped</td><td>`parkinsons-disease-signature.md` exists; condition field naming variant</td></tr><tr><td>&quot;cross-condition&quot; (51 sources)</td><td>Skipped</td><td>Category label, not a disease</td></tr><tr><td>&quot;gastroesophageal-reflux-disease&quot; (11 sources)</td><td>Skipped</td><td>`gerd-signature.md` exists; naming variant</td></tr><tr><td>&quot;covid-19&quot; (9 sources)</td><td>Deferred</td><td>Distinct from long-covid; needs manual review</td></tr><tr><td>&quot;perinatal-depression&quot; (3 sources)</td><td>Skipped</td><td>Covered by postpartum-depression-signature</td></tr><tr><td>bipolar-disorder, chronic-fatigue-syndrome, coronary-artery-disease, diabetic-kidney-disease, psoriasis</td><td>Deferred</td><td>Disease entities exist but &lt;3 condition-tagged sources each</td></tr></tbody></table>
 <h2>Step 4 — Ingest Raw Folder</h2>
-<ul><li><strong>Unmatched raw PDFs detected:</strong> 59 (after filtering hash-named files and improving slug matching)</li><li><strong>Ingested this cycle:</strong> 8 new source pages</li></ul>
+<ul><li>Unmatched raw PDFs detected: 59 (after filtering hash-named files and improving slug matching)</li><li>Ingested this cycle: 8 new source pages</li></ul>
 <ol><li>`smovrsnik-2025-trace-elements-pcos-case-control.md` — Mo/Cu in PCOS (case-control, n=70)</li><li>`borghini-2020-low-nickel-diet-celiac-ibs-symptoms.md` — Ni ACM in celiac (quasi-experimental, n=20)</li><li>`pourmirzaiee-2024-postpartum-depression-magnesium-infant-development.md` — Mg-PPD (prospective cohort, n=224)</li><li>`hsu-2024-zinc-supplementation-primary-dysmenorrhea-meta-analysis.md` — Zinc for dysmenorrhea (SR/MA, 6 RCTs, n=739)</li><li>`ogundare-2024-metals-behavioral-factors-depression-women.md` — Pb/Cd/Hg depression in women (cross-sectional, NHANES)</li><li>`rho-2025-heavy-metals-kidney-function-paradoxical.md` — Paradoxical metal-kidney relationship (cross-sectional)</li><li>`lamtai-2018-chronic-nickel-affective-cognitive-behavior-rats.md` — Ni neurobehavior in rats (animal model)</li><li>`tao-2024-cadmium-gut-microbiota-hamsters.md` — Cd gut microbiome disruption (animal model)</li></ol>
-<ul><li><strong>Entities/concepts updated:</strong> 0 (entity pages already existed for all referenced metals/diseases)</li><li><strong>Contradictions flagged:</strong> 0</li><li><strong>Remaining unmatched:</strong> ~51 raw PDFs</li></ul>
+<ul><li>Entities/concepts updated: 0 (entity pages already existed for all referenced metals/diseases)</li><li>Contradictions flagged: 0</li><li>Remaining unmatched: ~51 raw PDFs</li></ul>
 <h2>Step 5 — Create Pages That Should Exist</h2>
-<ul><li><strong>Ghost wikilinks with ≥3 refs:</strong> 6 detected</li><li><strong>Stubs created:</strong> 2</li><li>`wiki/concepts/nrf2.md` — Nrf2 transcription factor (3 refs from MS/oxidative stress sources)</li><li>`wiki/entities/megamonas.md` — Megamonas microbe genus (3 refs from ASD/thyroid sources)</li><li><strong>Deferred (source-page-format ghosts, not entities/concepts):</strong> 4</li><li>`Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC` (8 refs) — source page reference, PDF likely unmatched</li><li>`McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial` (4 refs) — source page reference</li><li>`de Paiva et al 2020 cereals` (3 refs) — source page reference</li><li>`morton-2023-multi-level-gut-brain-axis-asd` (3 refs) — source page reference</li></ul>
+<ul><li>Ghost wikilinks with ≥3 refs: 6 detected</li><li>Stubs created: 2</li><li>`wiki/concepts/nrf2.md` — Nrf2 transcription factor (3 refs from MS/oxidative stress sources)</li><li>`wiki/entities/megamonas.md` — Megamonas microbe genus (3 refs from ASD/thyroid sources)</li><li>Deferred (source-page-format ghosts, not entities/concepts): 4</li><li>`Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC` (8 refs) — source page reference, PDF likely unmatched</li><li>`McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial` (4 refs) — source page reference</li><li>`de Paiva et al 2020 cereals` (3 refs) — source page reference</li><li>`morton-2023-multi-level-gut-brain-axis-asd` (3 refs) — source page reference</li></ul>
 <h2>Step 6 — Commit + Cycle Summary</h2>
-<ul><li><strong>Commit:</strong> `db335ed3` — &quot;cycle 1: health check + lint fixes + 8 ingests + 2 stubs + gestational-diabetes signature&quot;</li><li><strong>Files changed:</strong> 884</li><li><strong>Total detected:</strong> 1,236 (200 DOIs + 430 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 14 orphans + 6 ghosts + 8 ingests + 2 stubs + 1 entity + 1 signature + 5 deferred conditions)</li><li><strong>Total fixed:</strong> 985 (200 DOIs + 207 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 8 ingests + 1 entity + 1 signature)</li><li><strong>Total deferred:</strong> 251 (223 evidence_level + 14 orphans + 4 ghost source refs + 5 conditions + 5 disease entities without sigs)</li></ul>
+<ul><li>Commit: `db335ed3` — &quot;cycle 1: health check + lint fixes + 8 ingests + 2 stubs + gestational-diabetes signature&quot;</li><li>Files changed: 884</li><li>Total detected: 1,236 (200 DOIs + 430 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 14 orphans + 6 ghosts + 8 ingests + 2 stubs + 1 entity + 1 signature + 5 deferred conditions)</li><li>Total fixed: 985 (200 DOIs + 207 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 8 ingests + 1 entity + 1 signature)</li><li>Total deferred: 251 (223 evidence_level + 14 orphans + 4 ghost source refs + 5 conditions + 5 disease entities without sigs)</li></ul>
 <p>&mdash;-</p>
 <h2>Cycle 2</h2>
 <h2>Step 1 — Health Check: CLEAN</h2>
@@ -89,12 +96,14 @@
 <h2>Step 2 — Lint Check: NO NEW FIXES</h2>
 <ul><li>Sources missing evidence_level: 223 (same as Cycle 1 — all deferred, need manual PDF review)</li><li>Sources missing karen_brain_primitives: 0</li><li>No new ghost wikilinks in created pages</li></ul>
 <h2>Steps 3-5 — No new gaps detected</h2>
-<p><strong>EXIT: Cycle 2 produced zero fixes and zero new ingests. Stopping per exit condition.</strong></p>
+<p>EXIT: Cycle 2 produced zero fixes and zero new ingests. Stopping per exit condition.</p>
 <p>&mdash;-</p>
 <h2>Final Summary</h2>
 <table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody><tr><td>Cycles completed</td><td>2 (Cycle 2 was clean → exit)</td></tr><tr><td>Total detected</td><td>1,236</td></tr><tr><td>Total fixed</td><td>985</td></tr><tr><td>Total deferred</td><td>251</td></tr><tr><td>Files changed (Cycle 1)</td><td>884</td></tr><tr><td>New source pages</td><td>8</td></tr><tr><td>New entity pages</td><td>2 (gestational-diabetes, megamonas)</td></tr><tr><td>New concept pages</td><td>1 (nrf2)</td></tr><tr><td>New signature pages</td><td>1 (gestational-diabetes-signature)</td></tr><tr><td>Commits</td><td>1 (db335ed3)</td></tr></tbody></table>
 
       </div>
+
+      
 
       
       <div class="related">
@@ -107,6 +116,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

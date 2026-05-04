@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,32 +73,42 @@
       <h1 itemprop="headline">Ferritin</h1>
 
       <div itemprop="articleBody">
-        <p>The primary intracellular iron storage protein, capable of sequestering up to <strong>4,500 iron atoms</strong> in a single molecule as a mineralized ferric oxyhydroxide core. Ferritin is one of the most elegant solutions evolution has produced for the iron paradox: iron is essential for life but toxic when free. By encapsulating iron in a protein shell, ferritin simultaneously keeps iron available for metabolic needs and prevents it from participating in <a href="/article/fenton-chemistry">fenton chemistry</a>.</p>
-<p>Ferritin is also an acute-phase reactant, which creates the same interpretive challenge seen with <a href="/article/ceruloplasmin">ceruloplasmin</a>: <strong>elevated serum ferritin in disease may reflect iron overload, inflammation, or both</strong>.</p><h2>Structure and Function</h2>
+        <p>The primary intracellular iron storage protein, capable of sequestering up to 4,500 iron atoms in a single molecule as a mineralized ferric oxyhydroxide core. Ferritin is one of the most elegant solutions evolution has produced for the iron paradox: iron is essential for life but toxic when free. By encapsulating iron in a protein shell, ferritin simultaneously keeps iron available for metabolic needs and prevents it from participating in <a href="/article/fenton-chemistry">fenton chemistry</a>.</p>
+<p>Ferritin is also an acute-phase reactant, which creates the same interpretive challenge seen with <a href="/article/ceruloplasmin">ceruloplasmin</a>: elevated serum ferritin in disease may reflect iron overload, inflammation, or both.</p><h2>Structure and Function</h2>
 <h2>Iron Cage Architecture</h2>
-<ul><li>Ferritin is a hollow spherical shell composed of <strong>24 subunits</strong> (H-chain and L-chain in varying ratios depending on tissue)</li><li><strong>H-chain (heavy)</strong>: Contains ferroxidase activity that oxidizes Fe2+ to Fe3+ for safe mineralized storage</li><li><strong>L-chain (light)</strong>: Facilitates iron nucleation and long-term storage</li><li>The hollow interior accommodates up to 4,500 Fe3+ atoms as ferrihydrite mineral</li><li>Iron enters through channels in the shell; release requires reduction back to Fe2+</li></ul>
+<ul><li>Ferritin is a hollow spherical shell composed of 24 subunits (H-chain and L-chain in varying ratios depending on tissue)</li><li>H-chain (heavy): Contains ferroxidase activity that oxidizes Fe2+ to Fe3+ for safe mineralized storage</li><li>L-chain (light): Facilitates iron nucleation and long-term storage</li><li>The hollow interior accommodates up to 4,500 Fe3+ atoms as ferrihydrite mineral</li><li>Iron enters through channels in the shell; release requires reduction back to Fe2+</li></ul>
 <h2>Regulation by Iron Regulatory Proteins</h2>
-<p>Ferritin expression is controlled post-transcriptionally by the <strong>IRP1/IRP2 system</strong> <a href="/article/bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota">bao 2024 iron homeostasis intestinal immunity gut microbiota</a>:</p>
-<ul><li><strong>Low iron</strong>: IRP1/IRP2 bind the iron-responsive element (IRE) in ferritin mRNA 5'-UTR, blocking translation. Cell makes less ferritin, conserving iron for essential enzymes</li><li><strong>High iron</strong>: IRPs release from ferritin IRE, allowing translation. Cell makes more ferritin, sequestering excess iron</li><li>Simultaneously, IRPs control transferrin receptor (inverse regulation), <a href="/article/ferroportin">ferroportin</a>, and DMT1 expression</li><li>This system creates coordinated iron homeostasis: when iron is scarce, import rises and storage falls; when iron is abundant, import falls and storage rises</li></ul>
+<p>Ferritin expression is controlled post-transcriptionally by the IRP1/IRP2 system <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
+<ul><li>Low iron: IRP1/IRP2 bind the iron-responsive element (IRE) in ferritin mRNA 5'-UTR, blocking translation. Cell makes less ferritin, conserving iron for essential enzymes</li><li>High iron: IRPs release from ferritin IRE, allowing translation. Cell makes more ferritin, sequestering excess iron</li><li>Simultaneously, IRPs control transferrin receptor (inverse regulation), <a href="/article/ferroportin">ferroportin</a>, and DMT1 expression</li><li>This system creates coordinated iron homeostasis: when iron is scarce, import rises and storage falls; when iron is abundant, import falls and storage rises</li></ul>
 <h2>Clinical Significance</h2>
 <h2>The Dual Identity Problem</h2>
 <p>Serum ferritin serves as both an iron status marker and an inflammatory marker, creating diagnostic ambiguity:</p>
-<table><thead><tr><th>Scenario</th><th>Serum Ferritin</th><th>Interpretation</th></tr></thead><tbody><tr><td>True iron deficiency</td><td>Low (&lt;30 ng/mL)</td><td>Iron stores depleted; supplementation appropriate</td></tr><tr><td>Iron overload</td><td>High (&gt;300 ng/mL)</td><td>Excess iron in tissues; supplementation harmful</td></tr><tr><td>Inflammation without iron excess</td><td>High (acute-phase elevation)</td><td>Ferritin rises as an acute-phase reactant; iron stores may be normal or even depleted</td></tr><tr><td>Inflammatory iron trapping</td><td>High ferritin + low serum iron</td><td><a href="/article/hepcidin">hepcidin</a>-mediated iron sequestration; iron is trapped in cells, not available systemically. This is <strong>functional deficiency</strong>, not true overload</td></tr></tbody></table>
-<p>The last scenario is clinically critical and directly relevant to WikiBiome's iron supplementation STOP framework: high ferritin in IBD, CKD, or chronic infection does <strong>not</strong> mean iron supplementation should be withheld solely on ferritin levels. The key discriminator is <a href="/article/hepcidin">hepcidin</a> &mdash; high hepcidin + high ferritin = functional restriction (treat inflammation); low hepcidin + low ferritin = true deficiency (supplement cautiously).</p>
+<table><thead><tr><th>Scenario</th><th>Serum Ferritin</th><th>Interpretation</th></tr></thead><tbody><tr><td>True iron deficiency</td><td>Low (&lt;30 ng/mL)</td><td>Iron stores depleted; supplementation appropriate</td></tr><tr><td>Iron overload</td><td>High (&gt;300 ng/mL)</td><td>Excess iron in tissues; supplementation harmful</td></tr><tr><td>Inflammation without iron excess</td><td>High (acute-phase elevation)</td><td>Ferritin rises as an acute-phase reactant; iron stores may be normal or even depleted</td></tr><tr><td>Inflammatory iron trapping</td><td>High ferritin + low serum iron</td><td><a href="/article/hepcidin">hepcidin</a>-mediated iron sequestration; iron is trapped in cells, not available systemically. This is functional deficiency, not true overload</td></tr></tbody></table>
+<p>The last scenario is clinically critical and directly relevant to WikiBiome's iron supplementation STOP framework: high ferritin in IBD, CKD, or chronic infection does not mean iron supplementation should be withheld solely on ferritin levels. The key discriminator is <a href="/article/hepcidin">hepcidin</a> &mdash; high hepcidin + high ferritin = functional restriction (treat inflammation); low hepcidin + low ferritin = true deficiency (supplement cautiously).</p>
 <h2>Neurodegeneration</h2>
-<p>Elevated ferritin and reduced transferrin saturation in cerebrospinal fluid are <strong>early biomarkers of Alzheimer's disease progression</strong> <a href="/article/doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons">doroszkiewicz 2023 common trace metals alzheimers parkinsons</a>:</p>
+<p>Elevated ferritin and reduced transferrin saturation in cerebrospinal fluid are early biomarkers of Alzheimer's disease progression <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>:</p>
 <ul><li>CSF ferritin levels track with ApoE4 status and predict cognitive decline</li><li>Iron accumulation in the hippocampus (stored partly as ferritin) correlates with disease severity</li><li>When ferritin's capacity is overwhelmed, labile iron spills out, driving <a href="/article/ferroptosis">ferroptosis</a></li></ul>
 <h2>Chronic Kidney Disease</h2>
-<p>In CKD, ferritin interpretation is particularly challenging <a href="/article/mishra-2022-molecular-mechanisms-heavy-metals-ckd">mishra 2022 molecular mechanisms heavy metals ckd</a>:</p>
+<p>In CKD, ferritin interpretation is particularly challenging <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup>:</p>
 <ul><li>Chronic inflammation elevates ferritin as an acute-phase reactant</li><li>Reduced erythropoietin production decreases iron utilization</li><li><a href="/article/hepcidin">hepcidin</a> accumulates (reduced renal clearance), trapping iron in macrophages and raising ferritin</li><li>Guidelines use higher ferritin thresholds (&gt;500 ng/mL) to define iron overload in CKD, acknowledging the inflammatory confound</li></ul>
 <h2>Bacterial Ferritins and the Infection Context</h2>
 <p>Bacteria produce their own ferritin-like proteins to manage intracellular iron:</p>
-<ul><li><strong>Dps</strong> (DNA-binding protein from starved cells): Protects DNA from Fe2+-mediated Fenton damage during oxidative stress</li><li><strong>Bacterioferritin (Bfr)</strong>: Stores iron in a heme-containing shell</li><li><strong>Ferritin (Ftn)</strong>: Classical ferritin, structurally similar to mammalian ferritin</li></ul>
+<ul><li>Dps (DNA-binding protein from starved cells): Protects DNA from Fe2+-mediated Fenton damage during oxidative stress</li><li>Bacterioferritin (Bfr): Stores iron in a heme-containing shell</li><li>Ferritin (Ftn): Classical ferritin, structurally similar to mammalian ferritin</li></ul>
 <p>Bacterial iron storage competes with host iron restriction strategies. When macrophages sequester iron in ferritin as part of <a href="/article/nutritional-immunity">nutritional immunity</a>, intracellular pathogens must access this stored iron to survive &mdash; making ferritin a battleground in the host-pathogen metal war.</p>
 <h2>Connections</h2>
 <ul><li><a href="/article/iron">iron</a> &mdash; ferritin is the primary intracellular iron storage protein</li><li><a href="/article/hepcidin">hepcidin</a> &mdash; controls systemic iron flow; elevated hepcidin leads to ferritin accumulation</li><li><a href="/article/ferroportin">ferroportin</a> &mdash; when ferroportin is degraded, iron accumulates in ferritin</li><li><a href="/article/ferroptosis">ferroptosis</a> &mdash; ferritin overflow releases labile iron that drives lipid peroxidation</li><li><a href="/article/fenton-chemistry">fenton chemistry</a> &mdash; ferritin prevents Fenton reactions by sequestering Fe2+/Fe3+</li><li><a href="/article/ceruloplasmin">ceruloplasmin</a> &mdash; ferroxidase activity parallels ferritin H-chain function</li><li><a href="/article/nutritional-immunity">nutritional immunity</a> &mdash; ferritin is part of the host's iron sequestration defense</li><li><a href="/article/transferrin">transferrin</a> &mdash; iron released from ferritin enters plasma via ferroportin and loads onto transferrin</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (3)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Honghong Bao, Yi Wang, Hanlin Xiong et al.</span> (2024). <span style="font-style:italic;">Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling</span>. <em style="color:#888;">International Journal of Molecular Sciences</em></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Doroszkiewicz J, Farhan JA, Mroczko J et al.</span> (2023). <span style="font-style:italic;">Common and Trace Metals in Alzheimer's and Parkinson's Diseases</span>. <em style="color:#888;">International Journal of Molecular Sciences</em></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Manish Mishra, Larry Nichols, Aditi A. Dave et al.</span> (2022). <span style="font-style:italic;">Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease</span>. <em style="color:#888;">International Journal of Molecular Sciences</em>. <a href="https://doi.org/10.3390/ijms23063997" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/ijms23063997</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -111,6 +128,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

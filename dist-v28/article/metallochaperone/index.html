@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,27 +73,27 @@
       <h1 itemprop="headline">Metallochaperone</h1>
 
       <div itemprop="articleBody">
-        <p>Specialized proteins that <strong>escort metal ions from their point of entry to specific metalloenzyme targets</strong>, ensuring correct metalation in a cytoplasm crowded with competing metal-binding sites. Metallochaperones solve a fundamental problem in metal biology: how does the right metal reach the right protein when thermodynamics (the <a href="/article/irving-williams-series">irving williams series</a>) would often favor the wrong metal binding?</p>
-<p>The answer is <strong>kinetic control</strong>. Metallochaperones physically hand off metals through protein-protein interactions, bypassing the thermodynamic free-for-all of the <a href="/article/labile-metal-pool">labile metal pool</a> <a href="/article/capdevila-2024-bacterial-metallostasis-sensing-trafficking">capdevila 2024 bacterial metallostasis sensing trafficking</a>.</p><h2>Why Metallochaperones Are Necessary</h2>
+        <p>Specialized proteins that escort metal ions from their point of entry to specific metalloenzyme targets, ensuring correct metalation in a cytoplasm crowded with competing metal-binding sites. Metallochaperones solve a fundamental problem in metal biology: how does the right metal reach the right protein when thermodynamics (the <a href="/article/irving-williams-series">irving williams series</a>) would often favor the wrong metal binding?</p>
+<p>The answer is kinetic control. Metallochaperones physically hand off metals through protein-protein interactions, bypassing the thermodynamic free-for-all of the <a href="/article/labile-metal-pool">labile metal pool</a> <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>.</p><h2>Why Metallochaperones Are Necessary</h2>
 <h2>The Thermodynamic Problem</h2>
 <p>The Irving-Williams series dictates that Cu2+ and Zn2+ bind most biological ligands more tightly than Fe2+ or Mn2+. Without protective trafficking, copper would displace iron from every iron-binding protein it encountered. Cells solve this by:</p>
-<ol><li>Keeping the <a href="/article/labile-metal-pool">labile metal pool</a> of strong binders (Cu, Zn) at <strong>&lt;1 free atom per cell</strong> <a href="/article/helmann-2025-labile-metal-pools-bacteria">helmann 2025 labile metal pools bacteria</a></li><li>Delivering these metals <strong>exclusively via metallochaperones</strong> rather than allowing free diffusion</li><li>Maintaining weak binders (Fe, Mn) at higher labile concentrations where free diffusion to target proteins is feasible</li></ol>
+<ol><li>Keeping the <a href="/article/labile-metal-pool">labile metal pool</a> of strong binders (Cu, Zn) at &lt;1 free atom per cell <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup></li><li>Delivering these metals exclusively via metallochaperones rather than allowing free diffusion</li><li>Maintaining weak binders (Fe, Mn) at higher labile concentrations where free diffusion to target proteins is feasible</li></ol>
 <h2>The Selectivity Challenge</h2>
 <p>A metallochaperone must:</p>
 <ul><li>Accept its cognate metal from an importer or storage protein</li><li>Protect the metal from non-specific binding during transit</li><li>Transfer it specifically to the correct apoenzyme through a direct protein-protein docking interaction</li><li>Avoid delivering the metal to the wrong target</li></ul>
 <h2>Major Metallochaperone Systems</h2>
 <h2>Copper Chaperones</h2>
-<p>Copper is the metal most dependent on chaperone-mediated delivery, because free Cu+ is maintained at essentially <strong>zero</strong> free atoms per bacterial or eukaryotic cell <a href="/article/capdevila-2024-bacterial-metallostasis-sensing-trafficking">capdevila 2024 bacterial metallostasis sensing trafficking</a>:</p>
-<table><thead><tr><th>Chaperone</th><th>Target</th><th>Function</th></tr></thead><tbody><tr><td><strong>CopZ</strong> (bacteria)</td><td>CopA (Cu-ATPase efflux pump)</td><td>Delivers Cu+ for export when copper is in excess</td></tr><tr><td><strong>Atx1/ATOX1</strong> (eukaryotes)</td><td>ATP7A/ATP7B (Menkes/Wilson proteins)</td><td>Delivers Cu to trans-Golgi for <a href="/article/ceruloplasmin">ceruloplasmin</a> loading and biliary excretion</td></tr><tr><td><strong>CCS</strong></td><td>Cu/Zn-SOD (SOD1)</td><td>Inserts Cu into the antioxidant enzyme; without CCS, SOD1 remains inactive</td></tr><tr><td><strong>Cox17</strong></td><td>Cytochrome c oxidase</td><td>Delivers Cu to mitochondrial respiratory complex IV</td></tr><tr><td><strong>Sco1/Sco2</strong></td><td>Cytochrome c oxidase (CuA site)</td><td>Downstream of Cox17; specific for the binuclear CuA center</td></tr></tbody></table>
+<p>Copper is the metal most dependent on chaperone-mediated delivery, because free Cu+ is maintained at essentially zero free atoms per bacterial or eukaryotic cell <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
+<table><thead><tr><th>Chaperone</th><th>Target</th><th>Function</th></tr></thead><tbody><tr><td>CopZ (bacteria)</td><td>CopA (Cu-ATPase efflux pump)</td><td>Delivers Cu+ for export when copper is in excess</td></tr><tr><td>Atx1/ATOX1 (eukaryotes)</td><td>ATP7A/ATP7B (Menkes/Wilson proteins)</td><td>Delivers Cu to trans-Golgi for <a href="/article/ceruloplasmin">ceruloplasmin</a> loading and biliary excretion</td></tr><tr><td>CCS</td><td>Cu/Zn-SOD (SOD1)</td><td>Inserts Cu into the antioxidant enzyme; without CCS, SOD1 remains inactive</td></tr><tr><td>Cox17</td><td>Cytochrome c oxidase</td><td>Delivers Cu to mitochondrial respiratory complex IV</td></tr><tr><td>Sco1/Sco2</td><td>Cytochrome c oxidase (CuA site)</td><td>Downstream of Cox17; specific for the binuclear CuA center</td></tr></tbody></table>
 <h2>Nickel Chaperones</h2>
-<p>Nickel-requiring enzymes (<a href="/article/urease">urease</a>, <a href="/article/hydrogenase">hydrogenase</a>) need specific chaperones for metalation <a href="/article/cassat-2012-metal-acquisition-staphylococcus-aureus">cassat 2012 metal acquisition staphylococcus aureus</a>:</p>
-<ul><li><strong>UreE</strong>: Delivers Ni2+ to urease. In <a href="/article/helicobacter-pylori">helicobacter pylori</a>, the urease maturation pathway (UreD/UreF/UreG/UreE) forms a multiprotein complex that loads Ni into the urease active site</li><li><strong>HypA/HypB</strong>: Deliver Ni to NiFe-hydrogenase. GTP hydrolysis by HypB may power the metal insertion step</li><li><strong>SlyD</strong>: A prolyl isomerase with a metal-binding tail that functions as a nickel reservoir and delivery system</li></ul>
+<p>Nickel-requiring enzymes (<a href="/article/urease">urease</a>, <a href="/article/hydrogenase">hydrogenase</a>) need specific chaperones for metalation <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup>:</p>
+<ul><li>UreE: Delivers Ni2+ to urease. In <a href="/article/helicobacter-pylori">helicobacter pylori</a>, the urease maturation pathway (UreD/UreF/UreG/UreE) forms a multiprotein complex that loads Ni into the urease active site</li><li>HypA/HypB: Deliver Ni to NiFe-hydrogenase. GTP hydrolysis by HypB may power the metal insertion step</li><li>SlyD: A prolyl isomerase with a metal-binding tail that functions as a nickel reservoir and delivery system</li></ul>
 <h2>Iron Chaperones</h2>
 <p>Iron trafficking is less dependent on dedicated chaperones because labile iron is maintained at micromolar concentrations (higher than Cu or Zn). However:</p>
-<ul><li><strong>Frataxin</strong>: Delivers iron to Fe-S cluster assembly machinery; frataxin deficiency causes Friedreich's ataxia (iron accumulation in mitochondria)</li><li><strong>Poly-rC binding proteins (PCBPs)</strong>: Function as cytosolic iron chaperones in eukaryotes, delivering Fe to <a href="/article/ferritin">ferritin</a> and non-heme iron enzymes</li></ul>
+<ul><li>Frataxin: Delivers iron to Fe-S cluster assembly machinery; frataxin deficiency causes Friedreich's ataxia (iron accumulation in mitochondria)</li><li>Poly-rC binding proteins (PCBPs): Function as cytosolic iron chaperones in eukaryotes, delivering Fe to <a href="/article/ferritin">ferritin</a> and non-heme iron enzymes</li></ul>
 <h2>Metallochaperones in Virulence</h2>
 <p>For pathogens facing <a href="/article/nutritional-immunity">nutritional immunity</a>, metallochaperones are essential survival tools:</p>
-<ul><li>Under host metal restriction (calprotectin sequestering Zn/Mn, <a href="/article/lactoferrin">lactoferrin</a> sequestering Fe), pathogens must traffic their scarce metal supplies with maximum efficiency</li><li><strong>Staphylopine</strong> and <strong>pseudopaline</strong> function as extracellular metal-scavenging molecules (metallophores) that hand off captured metals to ABC importers, which then rely on intracellular chaperones for target delivery <a href="/article/cassat-2012-metal-acquisition-staphylococcus-aureus">cassat 2012 metal acquisition staphylococcus aureus</a></li><li>Disrupting metallochaperone function is a potential anti-virulence strategy: without correct metalation, virulence enzymes remain inactive even if the metal is available</li></ul>
+<ul><li>Under host metal restriction (calprotectin sequestering Zn/Mn, <a href="/article/lactoferrin">lactoferrin</a> sequestering Fe), pathogens must traffic their scarce metal supplies with maximum efficiency</li><li>Staphylopine and pseudopaline function as extracellular metal-scavenging molecules (metallophores) that hand off captured metals to ABC importers, which then rely on intracellular chaperones for target delivery <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup></li><li>Disrupting metallochaperone function is a potential anti-virulence strategy: without correct metalation, virulence enzymes remain inactive even if the metal is available</li></ul>
 <h2>Relevance to Mis-Metallation</h2>
 <p>Metallochaperones are the cell's defense against <a href="/article/mis-metallation">mis metallation</a>. When chaperone systems are overwhelmed or disrupted:</p>
 <ul><li>Toxic metals (Cd2+, Ag+, Pb2+) can mis-metalate proteins that would normally receive their correct metal via chaperone delivery</li><li>Zinc flooding by the host immune system (via calprotectin or PGRP-mediated intoxication) can saturate chaperone capacity, leading to Zn mis-metalation of Mn-dependent enzymes</li><li>Copper intoxication in macrophage phagolysosomes overwhelms bacterial copper chaperone/efflux capacity, leading to lethal Cu+ accumulation</li></ul>
@@ -94,6 +101,16 @@
 <ul><li><a href="/article/labile-metal-pool">labile metal pool</a> &mdash; metallochaperones bypass the labile pool for safe delivery</li><li><a href="/article/irving-williams-series">irving williams series</a> &mdash; explains why strong-binding metals need chaperone delivery</li><li><a href="/article/mis-metallation">mis metallation</a> &mdash; chaperone failure enables mis-metallation</li><li><a href="/article/nutritional-immunity">nutritional immunity</a> &mdash; metal restriction increases dependence on chaperone efficiency</li><li><a href="/article/metal-homeostasis">metal homeostasis</a> &mdash; chaperones are a core component of metallostasis</li><li><a href="/article/urease">urease</a> &mdash; requires UreE chaperone for nickel loading</li><li><a href="/article/hydrogenase">hydrogenase</a> &mdash; requires HypA/HypB for nickel insertion</li><li><a href="/article/copper">copper</a> &mdash; most chaperone-dependent metal in biology</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (3)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Daiana A. Capdevila, Johnma J. Rondon, Katherine A. Edmonds et al.</span> (2024). <span style="font-style:italic;">Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking</span>. <em style="color:#888;">Chemical Reviews</em>. <a href="https://doi.org/10.1021/acs.chemrev.4c00264" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1021/acs.chemrev.4c00264</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">John D. Helmann</span> (2025). <span style="font-style:italic;">Helmann 2025 — Metals in Motion: Understanding Labile Metal Pools in Bacteria</span>. <em style="color:#888;">Biochemistry</em>. <a href="https://doi.org/10.1021/acs.biochem.4c00684" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1021/acs.biochem.4c00684</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">James E. Cassat, Eric P. Skaar</span> (2012). <span style="font-style:italic;">Metal Ion Acquisition in Staphylococcus aureus: Overcoming Nutritional Immunity</span>. <em style="color:#888;">Seminars in Immunopathology</em>. <a href="https://doi.org/10.1007/s00281-011-0294-4" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1007/s00281-011-0294-4</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -117,6 +134,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

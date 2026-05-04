@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,30 +73,40 @@
       <h1 itemprop="headline">Ferroportin</h1>
 
       <div itemprop="articleBody">
-        <p>The <strong>only known cellular iron exporter</strong> in mammals. Encoded by the <em>SLC40A1</em> gene, ferroportin (FPN) sits on the basolateral membrane of enterocytes, the surface of macrophages, and the membrane of hepatocytes, controlling the flow of iron from these cells into the bloodstream. Every atom of dietary iron that reaches the plasma, every atom of recycled iron released from aged red blood cells, and every atom of stored iron mobilized from the liver must pass through ferroportin. This makes it the single most consequential gatekeeper of systemic iron availability &mdash; and the direct target of <a href="/article/hepcidin">hepcidin</a>, the master iron-regulatory hormone.</p><h2>Mechanism</h2>
+        <p>The only known cellular iron exporter in mammals. Encoded by the <em>SLC40A1</em> gene, ferroportin (FPN) sits on the basolateral membrane of enterocytes, the surface of macrophages, and the membrane of hepatocytes, controlling the flow of iron from these cells into the bloodstream. Every atom of dietary iron that reaches the plasma, every atom of recycled iron released from aged red blood cells, and every atom of stored iron mobilized from the liver must pass through ferroportin. This makes it the single most consequential gatekeeper of systemic iron availability &mdash; and the direct target of <a href="/article/hepcidin">hepcidin</a>, the master iron-regulatory hormone.</p><h2>Mechanism</h2>
 <h2>Iron Export</h2>
-<ul><li>Ferroportin transports <strong>Fe2+</strong> (ferrous iron) from the cytoplasm across the cell membrane</li><li>Exported Fe2+ is immediately oxidized to <strong>Fe3+</strong> (ferric iron) by <a href="/article/ceruloplasmin">ceruloplasmin</a> (in blood) or hephaestin (in enterocytes) for loading onto <a href="/article/transferrin">transferrin</a></li><li>Without this oxidation step, Fe2+ accumulates at the cell surface and generates hydroxyl radicals via <a href="/article/fenton-chemistry">fenton chemistry</a></li></ul>
+<ul><li>Ferroportin transports Fe2+ (ferrous iron) from the cytoplasm across the cell membrane</li><li>Exported Fe2+ is immediately oxidized to Fe3+ (ferric iron) by <a href="/article/ceruloplasmin">ceruloplasmin</a> (in blood) or hephaestin (in enterocytes) for loading onto <a href="/article/transferrin">transferrin</a></li><li>Without this oxidation step, Fe2+ accumulates at the cell surface and generates hydroxyl radicals via <a href="/article/fenton-chemistry">fenton chemistry</a></li></ul>
 <h2>The Hepcidin-Ferroportin Axis</h2>
-<p>This axis is the master regulator of systemic iron homeostasis <a href="/article/bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota">bao 2024 iron homeostasis intestinal immunity gut microbiota</a>:</p>
-<ul><li><strong>Hepcidin binds ferroportin</strong> on the cell surface, triggering its internalization, ubiquitination, and lysosomal degradation</li><li><strong>High hepcidin</strong> = ferroportin destroyed = iron trapped inside cells = serum iron falls</li><li><strong>Low hepcidin</strong> = ferroportin expressed = iron flows into plasma = serum iron rises</li><li>This axis integrates signals from iron stores (BMP-SMAD pathway), inflammation (IL-6/JAK-STAT3), erythropoietic demand, and hypoxia (HIF pathway)</li></ul>
+<p>This axis is the master regulator of systemic iron homeostasis <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
+<ul><li>Hepcidin binds ferroportin on the cell surface, triggering its internalization, ubiquitination, and lysosomal degradation</li><li>High hepcidin = ferroportin destroyed = iron trapped inside cells = serum iron falls</li><li>Low hepcidin = ferroportin expressed = iron flows into plasma = serum iron rises</li><li>This axis integrates signals from iron stores (BMP-SMAD pathway), inflammation (IL-6/JAK-STAT3), erythropoietic demand, and hypoxia (HIF pathway)</li></ul>
 <h2>Role in Nutritional Immunity</h2>
 <p>Ferroportin degradation by hepcidin is a central arm of <a href="/article/nutritional-immunity">nutritional immunity</a>:</p>
-<ul><li>During infection, IL-6 upregulates hepcidin, which destroys ferroportin on macrophages and enterocytes</li><li>Iron is deliberately trapped inside cells, reducing plasma iron availability to extracellular pathogens</li><li>This is the molecular basis of <strong>anemia of chronic disease</strong> (also called anemia of inflammation) &mdash; the host intentionally restricts iron to starve pathogens, creating apparent iron deficiency</li><li>Clinically, this means low serum iron + high hepcidin = functional iron restriction (host defense), <strong>not</strong> true deficiency requiring supplementation</li></ul>
+<ul><li>During infection, IL-6 upregulates hepcidin, which destroys ferroportin on macrophages and enterocytes</li><li>Iron is deliberately trapped inside cells, reducing plasma iron availability to extracellular pathogens</li><li>This is the molecular basis of anemia of chronic disease (also called anemia of inflammation) &mdash; the host intentionally restricts iron to starve pathogens, creating apparent iron deficiency</li><li>Clinically, this means low serum iron + high hepcidin = functional iron restriction (host defense), not true deficiency requiring supplementation</li></ul>
 <h2>Disease Contexts</h2>
 <h2>Iron Supplementation Paradox</h2>
-<p>The hepcidin-ferroportin axis explains why oral iron supplementation can be harmful in inflammatory conditions <a href="/article/bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota">bao 2024 iron homeostasis intestinal immunity gut microbiota</a>:</p>
+<p>The hepcidin-ferroportin axis explains why oral iron supplementation can be harmful in inflammatory conditions <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
 <ol><li>Inflammation raises hepcidin, destroying ferroportin</li><li>With ferroportin gone, supplemental iron cannot be exported from enterocytes into blood</li><li>Unabsorbed iron reaches the colon, where it feeds siderophore-producing Enterobacteriaceae</li><li>Gut dysbiosis worsens, increasing inflammation, raising hepcidin further &mdash; a vicious cycle</li></ol>
 <p>This is the mechanistic basis for the <a href="/article/stop-iron-supplementation-ibd">STOP: Iron supplementation in IBD</a> and similar STOP pages.</p>
 <h2>Chronic Kidney Disease</h2>
-<p>In CKD, hepcidin accumulates due to reduced renal clearance and chronic inflammation, driving persistent ferroportin degradation. The resulting functional iron deficiency contributes to CKD anemia, and iron supplementation faces the same paradox as in IBD <a href="/article/mishra-2022-molecular-mechanisms-heavy-metals-ckd">mishra 2022 molecular mechanisms heavy metals ckd</a>.</p>
+<p>In CKD, hepcidin accumulates due to reduced renal clearance and chronic inflammation, driving persistent ferroportin degradation. The resulting functional iron deficiency contributes to CKD anemia, and iron supplementation faces the same paradox as in IBD <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>.</p>
 <h2>Neurodegeneration</h2>
-<p>Brain ferroportin expression is disrupted in Parkinson's disease and Alzheimer's disease. Reduced ferroportin in the substantia nigra (PD) and hippocampus (AD) contributes to regional iron accumulation, increasing <a href="/article/ferroptosis">ferroptosis</a> vulnerability <a href="/article/pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis">pendergrass 2026 microbial metallomics parkinsons ferroptosis</a>.</p>
+<p>Brain ferroportin expression is disrupted in Parkinson's disease and Alzheimer's disease. Reduced ferroportin in the substantia nigra (PD) and hippocampus (AD) contributes to regional iron accumulation, increasing <a href="/article/ferroptosis">ferroptosis</a> vulnerability <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup>.</p>
 <h2>Cancer</h2>
 <p>Many cancer types downregulate ferroportin to create an iron-accumulating phenotype that supports rapid cell division. Ovarian cancer cells upregulate transferrin receptor 1 (TfR1) while downregulating ferroportin, trapping iron for proliferative metabolism.</p>
 <h2>Connections</h2>
 <ul><li><a href="/article/hepcidin">hepcidin</a> &mdash; the hormone that controls ferroportin degradation</li><li><a href="/article/iron">iron</a> &mdash; ferroportin is the only cellular iron exporter</li><li><a href="/article/ceruloplasmin">ceruloplasmin</a> &mdash; oxidizes Fe2+ exported by ferroportin for transferrin loading</li><li><a href="/article/transferrin">transferrin</a> &mdash; carries the Fe3+ generated after ferroportin export</li><li><a href="/article/ferritin">ferritin</a> &mdash; intracellular iron storage when ferroportin is degraded</li><li><a href="/article/nutritional-immunity">nutritional immunity</a> &mdash; ferroportin degradation restricts iron availability to pathogens</li><li><a href="/article/ferroptosis">ferroptosis</a> &mdash; ferroportin loss increases intracellular iron and ferroptotic vulnerability</li><li><a href="/article/fenton-chemistry">fenton chemistry</a> &mdash; Fe2+ accumulation from failed export drives ROS generation</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (3)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Honghong Bao, Yi Wang, Hanlin Xiong et al.</span> (2024). <span style="font-style:italic;">Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling</span>. <em style="color:#888;">International Journal of Molecular Sciences</em></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Manish Mishra, Larry Nichols, Aditi A. Dave et al.</span> (2022). <span style="font-style:italic;">Molecular Mechanisms of Cellular Injury and Role of Toxic Heavy Metals in Chronic Kidney Disease</span>. <em style="color:#888;">International Journal of Molecular Sciences</em>. <a href="https://doi.org/10.3390/ijms23063997" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/ijms23063997</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Karen Pendergrass</span> (2025). <span style="font-style:italic;">Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology</span>. <em style="color:#888;">Conference Presentation</em>. <a href="https://doi.org/10.5281/zenodo.17830083" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.5281/zenodo.17830083</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -110,6 +127,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

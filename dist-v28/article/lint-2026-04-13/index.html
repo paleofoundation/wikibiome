@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,10 +73,10 @@
       <h1 itemprop="headline">Wiki Lint Report — 2026 04 13</h1>
 
       <div itemprop="articleBody">
-        <p><strong>Automated lint run.</strong> Full scan of all wiki pages for structural integrity, broken references, missing pages, and coverage gaps.</p>
+        <p>Automated lint run. Full scan of all wiki pages for structural integrity, broken references, missing pages, and coverage gaps.</p>
 <p>&mdash;-</p><h2>Executive Summary</h2>
 <p>The wiki has strong structural foundations with 1,426 source documents and complete schema compliance in sampled pages. However, significant gaps exist in content coverage, index accuracy, and intervention linking.</p>
-<p><strong>By the numbers:</strong></p>
+<p>By the numbers:</p>
 <ul><li>15 signature pages exist; 14 additional diseases listed in index have no signature page yet</li><li>13 intervention pages exist; 24 intervention IDs referenced in signatures have no backing file</li><li>2 STOP IDs referenced in signatures have no backing file</li><li>7 intervention files exist but are not referenced in any signature</li><li>index.md counts are incorrect across multiple sections</li></ul>
 <p>&mdash;-</p>
 <h2>Critical Issues (Blocking)</h2>
@@ -113,20 +120,22 @@
 <h2>Triangle Evidence Status</h2>
 <p>Sampled intervention files (b-cell-depletion-therapy-ms, ecoli-nissle-1917, ketogenic-diet-ms, low-nickel-diet) all contain complete triangle evidence with all required fields:</p>
 <ul><li>`I_to_f` + `I_to_f_evidence`</li><li>`I_to_D` + `I_to_D_evidence`</li><li>`f_to_D`</li><li>`status`</li></ul>
-<p><strong>No triangle evidence gaps detected in existing intervention files.</strong> ✓</p>
+<p>No triangle evidence gaps detected in existing intervention files. ✓</p>
 <p>&mdash;-</p>
 <h2>Recommended Next Steps</h2>
-<p><strong>Immediate (blocking):</strong></p>
+<p>Immediate (blocking):</p>
 <ol><li>Fix `depression.md` — add `validated_interventions: []` and `stops: []` frontmatter fields</li><li>Create 2 missing STOP stubs: `stop-diagnostic-overclaiming-discovery-phase`, `stop-excess-iodine-supplementation-hashimotos`</li><li>Update `index.md` — fix counts and add missing signature entries</li></ol>
-<p><strong>High priority:</strong></p>
+<p>High priority:</p>
 <ol><li>Reconcile 7 orphaned intervention files — link to signatures or remove</li><li>Link `stop-iron-supplementation-asd` to autism signature</li><li>Build the 3 highest-priority missing signatures: Hashimoto's, Postpartum Depression, Rheumatoid Arthritis</li><li>Create stubs for the 24 missing intervention files (even empty stubs break no links)</li></ol>
-<p><strong>Medium priority:</strong></p>
+<p>Medium priority:</p>
 <ol><li>Audit entity references across all 15 signatures; create missing entity pages</li><li>Process 180 ASD papers; expand autism signature to `cureva_status: partial`</li><li>Resolve autism signature naming inconsistency</li></ol>
 <p>&mdash;-</p>
 <h2>Files Scanned</h2>
 <ul><li>`wiki/index.md`</li><li>`wiki/log.md`</li><li>All 15 files in `wiki/signatures/`</li><li>All 13 files in `wiki/interventions/`</li><li>All 11 files in `wiki/stops/`</li><li>Sample of `wiki/sources/` and `wiki/entities/`</li><li>`wiki/analyses/gaps-and-improvements-2026-04-12.md` (prior gap analysis)</li></ul>
 
       </div>
+
+      
 
       
       <div class="related">
@@ -140,6 +149,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,44 +74,59 @@
 
       <div itemprop="articleBody">
         <h2>Overview</h2>
-<p><strong>Nickel-urease</strong> (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to ammonia (NH₃) and carbon dioxide (CO₂). The active site contains two <strong>nickel ions (Ni²⁺)</strong> coordinated by histidine and cysteine residues. Nickel-urease is expressed by <a href="/article/helicobacter-pylori">H. pylori</a> as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.</p>
-<p>For <a href="/article/helicobacter-pylori">H. pylori</a>, urease is the <strong>Achilles' heel</strong>: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics.</p>
+<p>Nickel-urease (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to ammonia (NH₃) and carbon dioxide (CO₂). The active site contains two nickel ions (Ni²⁺) coordinated by histidine and cysteine residues. Nickel-urease is expressed by <a href="/article/helicobacter-pylori">H. pylori</a> as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.</p>
+<p>For <a href="/article/helicobacter-pylori">H. pylori</a>, urease is the Achilles' heel: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics.</p>
 <h2>Mechanism</h2>
-<p><strong>Urea hydrolysis and ammonia production:</strong></p>
-<p>H. pylori lives in the stomach (pH 1.5–2). The gastric mucus layer is acidic. Ammonia-producing urease provides <strong>local pH buffering</strong>:</p>
+<p>Urea hydrolysis and ammonia production:</p>
+<p>H. pylori lives in the stomach (pH 1.5–2). The gastric mucus layer is acidic. Ammonia-producing urease provides local pH buffering:</p>
 <p>``` H. pylori + urea (via urease) → NH₃ + CO₂ + H₂O NH₃ + H⁺ → NH₄⁺ (ammonium, pKa 9.25) ```</p>
 <p>Even modest ammonia production (locally around the bacterium) raises pH from 2 to ~4–5, creating a microenvironment permissive for survival and motility. Without urease, H. pylori is killed by gastric acid within minutes.</p>
-<p><strong>Nickel coordination in the active site:</strong></p>
+<p>Nickel coordination in the active site:</p>
 <p>Urease requires two Ni²⁺ per active site. The nickel atoms are:</p>
 <ul><li>Bridged by a hydroxyl group</li><li>Coordinated by histidine and cysteine residues</li><li>Functionally important for substrate binding and catalytic turnover</li></ul>
-<p><strong>Nickel acquisition:</strong></p>
+<p>Nickel acquisition:</p>
 <ul><li>H. pylori encodes a <a href="/article/nickel">nickel</a> permease <a href="/article/nickel-transporters">nixa</a> to transport Ni²⁺ from the hostile gastric environment</li><li>In the cytoplasm, accessory proteins (<a href="/article/urease">ured</a>, <a href="/article/urease">uree</a>, <a href="/article/urease">uref</a>, <a href="/article/urease">ureg</a>) insert nickel into the urease apoprotein during maturation</li><li>Mutations in these maturation factors → catalytically inactive urease → loss of virulence</li></ul>
 <h2>Role in Disease</h2>
-<p><strong>H. pylori-associated gastric disease:</strong></p>
-<ul><li><a href="/article/gastric-ulcer">gastric ulcer</a>: H. pylori colonization → urease-driven ammonia → local pH buffering → epithelial invasion and inflammation → ulcer formation</li><li><a href="/article/gastric-adenocarcinoma">gastric adenocarcinoma</a>: Chronic H. pylori infection (urease-mediated persistence) → chronic atrophic gastritis → intestinal metaplasia → gastric cancer (WHO Group 1 carcinogen)</li><li><a href="/article/helicobacter-pylori">malt-lymphoma</a> (mucosa-associated lymphoid tissue lymphoma): Indolent B-cell lymphoma driven by chronic H. pylori antigen stimulation; urease is an immunogen</li><li><strong>Dyspepsia and functional gastric disease</strong>: H. pylori-negative dyspepsia may be associated with other urease-producing bacteria (<a href="/article/proteus-mirabilis">Proteus mirabilis</a>, <a href="/article/klebsiella-pneumoniae">Klebsiella pneumoniae</a>)</li></ul>
-<p><strong>Urease as biomarker:</strong></p>
-<ul><li><strong>Urease breath test (UBT)</strong>: Diagnostic gold standard for H. pylori. Patient ingests ¹³C- or ¹⁴C-labeled urea; if H. pylori is present, urease cleaves it → labeled CO₂ is absorbed and exhaled → detected in breath. This is the most accurate non-invasive H. pylori test.</li></ul>
+<p>H. pylori-associated gastric disease:</p>
+<ul><li><a href="/article/gastric-ulcer">gastric ulcer</a>: H. pylori colonization → urease-driven ammonia → local pH buffering → epithelial invasion and inflammation → ulcer formation</li><li><a href="/article/gastric-adenocarcinoma">gastric adenocarcinoma</a>: Chronic H. pylori infection (urease-mediated persistence) → chronic atrophic gastritis → intestinal metaplasia → gastric cancer (WHO Group 1 carcinogen)</li><li><a href="/article/helicobacter-pylori">malt-lymphoma</a> (mucosa-associated lymphoid tissue lymphoma): Indolent B-cell lymphoma driven by chronic H. pylori antigen stimulation; urease is an immunogen</li><li>Dyspepsia and functional gastric disease: H. pylori-negative dyspepsia may be associated with other urease-producing bacteria (<a href="/article/proteus-mirabilis">Proteus mirabilis</a>, <a href="/article/klebsiella-pneumoniae">Klebsiella pneumoniae</a>)</li></ul>
+<p>Urease as biomarker:</p>
+<ul><li>Urease breath test (UBT): Diagnostic gold standard for H. pylori. Patient ingests ¹³C- or ¹⁴C-labeled urea; if H. pylori is present, urease cleaves it → labeled CO₂ is absorbed and exhaled → detected in breath. This is the most accurate non-invasive H. pylori test.</li></ul>
 <h2>Metal Connections</h2>
-<p>Nickel-urease exemplifies <strong>Primitive 4: Microbial Metal Dependencies as Achilles' Heels</strong>:</p>
-<p><strong>Nickel requirement:</strong></p>
-<ul><li>H. pylori CANNOT survive without urease (no other catabolic pathway to survive gastric acid)</li><li>Urease CANNOT function without two Ni²⁺ per active site (unlike many enzymes with loosely-bound cofactors)</li><li>Therefore: <strong>Nickel starvation → urease inactivation → H. pylori eradication</strong></li></ul>
-<p><strong>Nickel bioavailability in the stomach:</strong></p>
+<p>Nickel-urease exemplifies Primitive 4: Microbial Metal Dependencies as Achilles' Heels:</p>
+<p>Nickel requirement:</p>
+<ul><li>H. pylori CANNOT survive without urease (no other catabolic pathway to survive gastric acid)</li><li>Urease CANNOT function without two Ni²⁺ per active site (unlike many enzymes with loosely-bound cofactors)</li><li>Therefore: Nickel starvation → urease inactivation → H. pylori eradication</li></ul>
+<p>Nickel bioavailability in the stomach:</p>
 <ul><li>Gastric pH (1.5–2) solubilizes nickel; Ni²⁺ is biologically available</li><li>H. pylori NixA permease transports Ni²⁺ against concentration gradient</li><li>Nickel chelators (<a href="/article/edta">edta</a>, <a href="/article/metal-chelation-therapy">dithiocarbamate</a>) in gastric juice may limit nickel availability and reduce H. pylori colonization density</li></ul>
-<p><strong>Cross-talk with <a href="/article/iron">iron</a> and <a href="/article/zinc">zinc</a>:</strong></p>
+<p>Cross-talk with <a href="/article/iron">iron</a> and <a href="/article/zinc">zinc</a>:</p>
 <ul><li><a href="/article/iron">iron</a>-dependent enzymes: H. pylori also produces <a href="/article/iron">iron</a>-dependent catalase and superoxide dismutase; dual metal starvation (nickel + iron) is more potent than single-metal depletion</li><li><a href="/article/zinc">zinc</a>: Host <a href="/article/zinc">zinc</a>-dependent immune functions (Th1 differentiation, neutrophil recruitment) oppose H. pylori; zinc deficiency worsens infection</li></ul>
 <h2>Connections</h2>
-<p><strong>Related enzymes:</strong></p>
+<p>Related enzymes:</p>
 <ul><li><a href="/article/nife-hydrogenase">nife hydrogenase</a> — another nickel-iron enzyme used by H. pylori (and sulfate-reducing bacteria) for anaerobic energy metabolism</li><li><a href="/article/zinc-metalloprotease">zinc metalloprotease</a> — H. pylori's vacuolating cytotoxin (VacA) is a zinc-dependent protease; complements urease virulence</li></ul>
-<p><strong>Related organisms:</strong></p>
+<p>Related organisms:</p>
 <ul><li><a href="/article/helicobacter-pylori">Helicobacter pylori</a> — the primary pathogen expressing nickel-urease</li><li><a href="/article/proteus-mirabilis">Proteus mirabilis</a> — soil bacterium; also urease-positive; causes urinary tract infections via urease-driven ammonia and crystal formation</li><li><a href="/article/klebsiella-pneumoniae">Klebsiella pneumoniae</a> — urease-positive; can cause gastric and respiratory infections</li><li>— H. pylori-like species in oral cavities; urease-positive</li></ul>
-<p><strong>Related concepts:</strong></p>
+<p>Related concepts:</p>
 <ul><li><a href="/article/nutritional-immunity">nutritional immunity</a> — nickel starvation as a host defense mechanism</li><li><a href="/article/metal-dependent-virulence">metal-cofactor-dependency</a> — general principle of which urease is an example</li><li>— gastric niche where urease enables survival</li><li>— complementary H. pylori virulence factor</li></ul>
-<p><strong>Related metals:</strong></p>
+<p>Related metals:</p>
 <ul><li><a href="/article/nickel">nickel</a> — the essential cofactor; nickel depletion is therapeutic strategy</li><li><a href="/article/iron">iron</a> — H. pylori expresses iron-dependent catalase; dual-metal targeting increases efficacy</li></ul>
-<p><strong>Disease pages:</strong></p>
+<p>Disease pages:</p>
 <ul><li>, — H. pylori-driven conditions where urease is the enabling virulence factor</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (8)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Denise Mafra, Natalia A. Borges, Livia Alvarenga et al.</span> (2022). <span style="font-style:italic;">Fermented Food: Should Patients with Cardiometabolic Diseases Go Back to an Early Neolithic Diet?</span>. <em style="color:#888;">Critical Reviews in Food Science and Nutrition</em>. <a href="https://doi.org/10.1080/10408398.2022.2077300" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1080/10408398.2022.2077300</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Benoit, S.L., Bhatt et al.</span> (2021). <span style="font-style:italic;">Benoit &amp; Maier 2021 — Nickel Chelator Inhibits Amyloid-Beta Aggregation</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-021-86060-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-021-86060-1</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Benoit SL, Bhatt RJ, Maier RJ</span> (2021). <span style="font-style:italic;">The nickel-chelator dimethylglyoxime inhibits human amyloid beta peptide in vitro aggregation</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-021-86060-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-021-86060-1</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Yuqi Wu, Oscar Wong, Sizhe Chen et al.</span> (2025). <span style="font-style:italic;">Wu 2025 — Distinct Diet-Microbiome Associations in Autism Spectrum Disorder</span>. <em style="color:#888;">Nature Communications</em>. <a href="https://doi.org/10.1038/s41467-025-67711-7" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41467-025-67711-7</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Swierc J, Drzymala S, Wozniak D et al.</span> (2022). <span style="font-style:italic;">The influence of nickel on intestinal microbiota disturbances</span>. <em style="color:#888;">Pomeranian Journal of Life Sciences</em>. <a href="https://doi.org/10.21164/pomjlifesci.810" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.21164/pomjlifesci.810</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Karen Pendergrass</span> (2026). <span style="font-style:italic;">Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)</span>. <em style="color:#888;">Conference Presentation</em></li>
+<li id="ref-7" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Patil RH, Luptakova D, Havlicek V</span> (2021). <span style="font-style:italic;">Infection metallomics for critical care in the post-COVID era</span>. <em style="color:#888;">Mass Spectrometry Reviews</em>. <a href="https://doi.org/10.1002/mas.21755" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1002/mas.21755</a></li>
+<li id="ref-8" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Genchi G, Carocci A, Lauria G et al.</span> (2020). <span style="font-style:italic;">Genchi 2020 — Nickel: Human Health and Environmental Toxicology</span>. <em style="color:#888;">International Journal of Environmental Research and Public Health</em>. <a href="https://doi.org/10.3390/ijerph17030679" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/ijerph17030679</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -132,6 +154,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

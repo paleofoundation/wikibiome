@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -69,7 +76,7 @@
         <h2>Last completed commit</h2>
 <p>`08e3a047` — ingest: PMDD batch 4 — 3 new source pages</p>
 <h2>Session summary</h2>
-<p>Ingested <strong>20 source pages</strong> from `raw/Premenstrual Dysphoric Disorder (PMDD)/` folder (15 new, 5 expanded):</p>
+<p>Ingested 20 source pages from `raw/Premenstrual Dysphoric Disorder (PMDD)/` folder (15 new, 5 expanded):</p>
 <h2>New source pages created (15):</h2>
 <ol><li>`bengi-2025-pmdd-pms-mood-disorder-comorbidity-meta-analysis.md` — PMDD/PMS–mood disorder comorbidity, 42-49% bidirectional (BJPsych, SR/MA)</li><li>`gao-2023-allopregnanolone-gaba-receptor-pmdd.md` — ALLO-GABA_A receptor sensitivity, sepranolone (Frontiers Psychiatry, review)</li><li>`lin-2023-gut-microbiota-perimenopausal-panic-disorder.md` — Gut microbiota in perimenopausal panic, n=80 (Frontiers Psychiatry, case-control)</li><li>`liu-2014-gaba-glutamate-pmdd-mrs.md` — GABA/Glx MRS in PMDD, n=44 (Psychiatry Research: Neuroimaging)</li><li>`shi-2024-dietary-patterns-premenstrual-disorders-china.md` — TSCD inversely associated with PMDs, n=1382 (Food &amp; Function)</li><li>`yang-2025-pmdd-alzheimers-predisposing-review.md` — PMDD as AD precursor, 5 shared mechanisms (Frontiers Endocrinology)</li><li>`yu-2025-microbiota-gut-brain-perimenopausal-depression.md` — MGB axis in PMD, F/B ratio, SCFAs (Expert Reviews Molecular Medicine)</li><li>`slyepchenko-2021-comorbid-pmdd-bipolar-review.md` — BD-PMDD comorbidity, 10-21% prevalence (Frontiers Psychiatry)</li><li>`takeda-2023-premenstrual-disorders-pms-pmdd-review.md` — Comprehensive PMD overview (J Obstet Gynaecol Res)</li><li>`syan-2018-brain-structure-function-bipolar-pmdd.md` — Brain MRI BD+PMDD, n=85 (Frontiers Psychiatry)</li><li>`draper-2018-menstrual-cycle-metabolomics.md` — Menstrual cycle metabolomics, 208 metabolites rhythmic, n=34 (Scientific Reports)</li><li>`guo-2025-radish-seed-diet-gut-brain-perimenopausal.md` — RSL diet pilot, gut-brain, n=10 (Scientific Reports)</li><li>`nguyen-2017-steroid-metabolome-pmdd-gnrh-suppression.md` — PMDD steroid metabolome, sulfotransferase hypothesis, n=30 (Translational Psychiatry)</li><li>`sundstrom-poromaa-2023-pmdd-pharmacology-sprm.md` — PMDD pharmacology, ulipristal acetate SPRM (CNS Drugs)</li><li>`liang-2023-gut-microbiome-reproductive-endocrine-mr.md` — Gut microbiome → PCOS/endometriosis/infertility MR (Frontiers Endocrinology)</li></ol>
 <h2>Expanded source pages (5):</h2>
@@ -79,11 +86,13 @@
 <h2>Skipped but potentially ingestable under other conditions:</h2>
 <ul><li>s41598-025-00680-5 (heavy metals/ADHD children) — for metals entity pages</li><li>s41564-025-02241-y (T3SS immune modulation) — for virulence enzymes concept</li></ul>
 <h2>Next intended batch (priority order)</h2>
-<ol><li><strong>Remaining PMDD PDFs</strong> (~20 files): numbered unknowns (140161462, 1742-4755-8-2, 19146011_PHR, 20, 211109020633106, 32051, p918, p1239, EmanPublisher, FSHW, s10068, s12905, s12986, s13300, s43088, s44220), plus named ones (Premenstrual_Syndrome.PDF, premenstrual-syndrome.pdf, FMT for female repro tract, air pollution, fungus CNS, acupoint dysmenorrhea, Rosso PhD thesis, female repro health microbiome, personalized microbiota-driven therapies)</li><li><strong>PMDD disease entity page</strong> creation/update</li><li><strong>PMDD signature page</strong> build (sufficient sources now: ~21 PMDD-relevant pages)</li><li><strong>Fibromyalgia folder</strong> (58 PDFs, 7 source pages — next condition per resume-2026-04-19)</li></ol>
+<ol><li>Remaining PMDD PDFs (~20 files): numbered unknowns (140161462, 1742-4755-8-2, 19146011_PHR, 20, 211109020633106, 32051, p918, p1239, EmanPublisher, FSHW, s10068, s12905, s12986, s13300, s43088, s44220), plus named ones (Premenstrual_Syndrome.PDF, premenstrual-syndrome.pdf, FMT for female repro tract, air pollution, fungus CNS, acupoint dysmenorrhea, Rosso PhD thesis, female repro health microbiome, personalized microbiota-driven therapies)</li><li>PMDD disease entity page creation/update</li><li>PMDD signature page build (sufficient sources now: ~21 PMDD-relevant pages)</li><li>Fibromyalgia folder (58 PDFs, 7 source pages — next condition per resume-2026-04-19)</li></ol>
 <h2>Anomalies to watch for</h2>
 <ul><li>High misfiling rate in PMDD folder (~40% of PDFs were not PMDD-relevant)</li><li>Several PCOS papers misfiled here — check if already ingested under PCOS condition</li><li>Two papers with same first author (Takeda 2022, Takeda 2023) — different studies, both valuable</li></ul>
 
       </div>
+
+      
 
       
 
@@ -92,6 +101,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

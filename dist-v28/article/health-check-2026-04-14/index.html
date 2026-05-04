@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,35 +73,35 @@
       <h1 itemprop="headline">Wiki Health Check — 2026 04 14</h1>
 
       <div itemprop="articleBody">
-        <p><strong>Automated run.</strong> Scope: full wiki (1,515 sources + 273 content pages).</p>
+        <p>Automated run. Scope: full wiki (1,515 sources + 273 content pages).</p>
 <p>This report covers what improved since the April 13 lint, what remains unresolved, and what is newly flagged today.</p>
 <p>&mdash;-</p><h2>Summary Table</h2>
 <table><thead><tr><th>Category</th><th>Index Claims</th><th>Actual</th><th>Status</th></tr></thead><tbody><tr><td>Sources</td><td>1,515</td><td>1,515</td><td>✅ Accurate</td></tr><tr><td>Entities</td><td>130</td><td>135</td><td>🔴 Stale (+5)</td></tr><tr><td>— Metals/Metalloids</td><td>17</td><td>17</td><td>✅</td></tr><tr><td>— Microbes</td><td>80</td><td>82</td><td>🟡 Stale (+2)</td></tr><tr><td>— Fungi</td><td>4</td><td>6</td><td>🔴 Stale (+2)</td></tr><tr><td>— Archaea</td><td>1</td><td>1</td><td>✅</td></tr><tr><td>— Diseases</td><td>28</td><td>29</td><td>🟡 Stale (+1)</td></tr><tr><td>Concepts</td><td>88</td><td>90</td><td>🟡 Stale (+2)</td></tr><tr><td>Disease Signatures</td><td>15</td><td>15</td><td>✅ Accurate</td></tr><tr><td>Interventions</td><td>13</td><td>13</td><td>✅ Accurate</td></tr><tr><td>STOPs</td><td>11</td><td>14</td><td>🔴 Stale (+3)</td></tr><tr><td>Analyses</td><td>10</td><td>10</td><td>✅ Accurate</td></tr></tbody></table>
-<p><strong>Index must be updated:</strong> Entities (+5), Concepts (+2), STOPs (+3).</p>
+<p>Index must be updated: Entities (+5), Concepts (+2), STOPs (+3).</p>
 <p>&mdash;-</p>
 <h2>🔴 Critical Issues</h2>
 <h2>1. All 1,515 Source Pages Missing v2 Frontmatter Fields</h2>
 <p>Every source page in the vault is missing the following v2-required fields:</p>
 <ul><li>`evidence_level` — 0/1,515 populated</li><li>`karen_brain_primitives` — 0/1,515 populated</li><li>`key_findings` — 0/1,515 populated</li><li>`metals_discussed` — 0/1,515 populated</li><li>`taxa_discussed` — 0/1,515 populated</li></ul>
-<p><strong>Impact:</strong> Cureva's pipeline cannot filter sources by evidence level or reasoning primitive. Cross-condition pattern detection cannot run. This is the known Priority 5 migration backlog.</p>
-<p><strong>Action:</strong> Batch inference run needed. These fields can be inferred programmatically from existing page content (evidence level from study design language, primitives from metals/taxa mentioned). See CLAUDE.md §11 Migration Plan.</p>
-<p><strong>Grep command used:</strong> `grep -rl &quot;^evidence_level:&quot; wiki/sources/ | wc -l` → 0</p>
+<p>Impact: Cureva's pipeline cannot filter sources by evidence level or reasoning primitive. Cross-condition pattern detection cannot run. This is the known Priority 5 migration backlog.</p>
+<p>Action: Batch inference run needed. These fields can be inferred programmatically from existing page content (evidence level from study design language, primitives from metals/taxa mentioned). See CLAUDE.md §11 Migration Plan.</p>
+<p>Grep command used: `grep -rl &quot;^evidence_level:&quot; wiki/sources/ | wc -l` → 0</p>
 <p>&mdash;-</p>
 <h2>2. Akkermansia Misspelling in Parkinson's Signature — Still Unresolved</h2>
 <p>`parkinsons-disease.md` references `<a href="/article/akkermansia-mucinicola">akkermansia mucinicola</a>` — this entity does not exist. The correct name is `<a href="/article/akkermansia-muciniphila">akkermansia muciniphila</a>`.</p>
-<p><strong>Occurrences:</strong> 2 uses in `parkinsons-disease.md` (taxonomic signature section and virulence table).</p>
-<p><strong>Fix:</strong> Find/replace `akkermansia-mucinicola` → `akkermansia-muciniphila` in `wiki/signatures/parkinsons-disease.md`.</p>
+<p>Occurrences: 2 uses in `parkinsons-disease.md` (taxonomic signature section and virulence table).</p>
+<p>Fix: Find/replace `akkermansia-mucinicola` → `akkermansia-muciniphila` in `wiki/signatures/parkinsons-disease.md`.</p>
 <p>&mdash;-</p>
 <h2>3. DOI Quality Issues in Source Pages</h2>
-<table><thead><tr><th>Issue</th><th>Count</th></tr></thead><tbody><tr><td>`doi: &quot;&quot;` (empty)</td><td>28</td></tr><tr><td>`doi: &quot;various&quot;`</td><td>24</td></tr><tr><td>`doi: &quot;N/A&quot;`</td><td>2</td></tr><tr><td><strong>Total problematic</strong></td><td><strong>54</strong></td></tr></tbody></table>
+<table><thead><tr><th>Issue</th><th>Count</th></tr></thead><tbody><tr><td>`doi: &quot;&quot;` (empty)</td><td>28</td></tr><tr><td>`doi: &quot;various&quot;`</td><td>24</td></tr><tr><td>`doi: &quot;N/A&quot;`</td><td>2</td></tr><tr><td>Total problematic</td><td>54</td></tr></tbody></table>
 <p>Sources with `doi: &quot;various&quot;` are typically batch-summary pages created before individual paper ingestion. Sources with empty DOIs need manual lookup or should be flagged as `doi: &quot;not yet verified&quot;` per v2 spec.</p>
-<p><strong>Notable examples:</strong> `metabolic-pathways-2023-2025-gut-microbiome-t1d.md`, `fmt-2025-promising-treatment-t2d-insulin-resistance.md`, `high-fiber-diet-2025-gut-microbiome-diabetes-interventions.md`</p>
+<p>Notable examples: `metabolic-pathways-2023-2025-gut-microbiome-t1d.md`, `fmt-2025-promising-treatment-t2d-insulin-resistance.md`, `high-fiber-diet-2025-gut-microbiome-diabetes-interventions.md`</p>
 <p>&mdash;-</p>
 <h2>🟡 Significant Gaps</h2>
 <h2>4. Index Stale — 5 Entity + 2 Concept + 3 STOP Pages Not Listed</h2>
-<p><strong>Missing from index entity listings:</strong></p>
+<p>Missing from index entity listings:</p>
 <ul><li>Entities: 5 new pages created since last index update (actual 135 vs claimed 130). The new fungi/archaea entities (candida-albicans, candida-auris, candida-tropicalis, debaryomyces, methanobrevibacter-smithii, saccharomyces-cerevisiae, torulaspora) account for the discrepancy.</li><li>Concepts: 2 new concept pages not in index (actual 90 vs claimed 88).</li></ul>
-<p><strong>Missing from index STOP listings (3 STOPs not included):</strong></p>
+<p>Missing from index STOP listings (3 STOPs not included):</p>
 <ul><li>`stop iodine supplementation hashimotos`</li><li>`stop iron supplementation alzheimers`</li><li>`stop iron supplementation colorectal cancer`</li></ul>
 <p>&mdash;-</p>
 <h2>5. Seven Entity Pages Missing Core v2 Fields</h2>
@@ -110,17 +117,17 @@
 <h2>7. Seven Signature Pages With No Linked Interventions</h2>
 <p>The following signature pages have `validated_interventions: []`:</p>
 <ul><li>`alzheimers-disease.md`</li><li>`autism-spectrum-disorder-signature.md`</li><li>`cardiovascular-disease.md`</li><li>`colorectal-cancer.md`</li><li>`obesity.md`</li><li>`parkinsons-disease.md`</li><li>`type-2-diabetes.md`</li></ul>
-<p><strong>Impact:</strong> Cureva cannot surface intervention recommendations for these conditions. These represent 7 of the 15 signatures — nearly half the platform's clinical value is blocked.</p>
-<p><strong>Priority order by source library size:</strong> Type-2 Diabetes (30 sources), Parkinson's (118 sources in vault), Alzheimer's (large library), CRC, CVD, Obesity, ASD (173 sources — largest single condition library).</p>
+<p>Impact: Cureva cannot surface intervention recommendations for these conditions. These represent 7 of the 15 signatures — nearly half the platform's clinical value is blocked.</p>
+<p>Priority order by source library size: Type-2 Diabetes (30 sources), Parkinson's (118 sources in vault), Alzheimer's (large library), CRC, CVD, Obesity, ASD (173 sources — largest single condition library).</p>
 <p>&mdash;-</p>
 <h2>8. Eight Signature Pages With No Linked STOPs</h2>
 <p>Signatures with `stops: []` or missing stops field:</p>
 <ul><li>`alzheimers-disease.md`</li><li>`autism-spectrum-disorder-signature.md`</li><li>`cardiovascular-disease.md`</li><li>`colorectal-cancer.md`</li><li>`depression.md` <em>(field absent from frontmatter)</em></li><li>`obesity.md`</li><li>`parkinsons-disease.md`</li><li>`type-2-diabetes.md`</li></ul>
-<p><strong>Note on `depression.md`:</strong> The `validated_interventions` and `stops` fields are absent from the frontmatter entirely (not just empty arrays). This needs to be added.</p>
+<p>Note on `depression.md`: The `validated_interventions` and `stops` fields are absent from the frontmatter entirely (not just empty arrays). This needs to be added.</p>
 <p>&mdash;-</p>
 <h2>9. All 29 Disease Entities Missing `signature_page` Frontmatter Field</h2>
 <p>Every disease entity page is missing the `signature_page:` field in frontmatter. This field enables platform routing (WikiBiome → Cureva cross-link). Even for diseases without a signature yet, the field should be present as blank or pointing to a planned page.</p>
-<p><strong>Disease entities that DO have a companion signature:</strong> alzheimers, autism-spectrum-disorder, cardiovascular-disease, colorectal-cancer, crohns-disease, depression, endometriosis, graves-disease, hashimotos-thyroiditis, multiple-sclerosis, obesity, pancreatic-cancer, parkinsons-disease, pcos, type-2-diabetes (15 total).</p>
+<p>Disease entities that DO have a companion signature: alzheimers, autism-spectrum-disorder, cardiovascular-disease, colorectal-cancer, crohns-disease, depression, endometriosis, graves-disease, hashimotos-thyroiditis, multiple-sclerosis, obesity, pancreatic-cancer, parkinsons-disease, pcos, type-2-diabetes (15 total).</p>
 <p>&mdash;-</p>
 <h2>10. All 90 Concept Pages Missing v2 Fields</h2>
 <p>The entire concept library (90 pages) is missing:</p>
@@ -134,11 +141,11 @@
 <h2>12. High-Priority Diseases Lacking Signature Pages</h2>
 <p>The following diseases have large source libraries but no companion signature page. These represent significant untapped Cureva value:</p>
 <table><thead><tr><th>Disease</th><th>Sources Referencing It</th></tr></thead><tbody><tr><td>Type 1 Diabetes</td><td>~99</td></tr><tr><td>Chronic Kidney Disease</td><td>~97</td></tr><tr><td>Postpartum Depression</td><td>~40+ condition-matched</td></tr><tr><td>Schizophrenia</td><td>~66</td></tr><tr><td>Ovarian Cancer</td><td>~75</td></tr><tr><td>Hypertension</td><td>~48</td></tr><tr><td>GERD</td><td>~41</td></tr><tr><td>Breast Cancer</td><td>~17</td></tr><tr><td>Ulcerative Colitis</td><td>~12</td></tr><tr><td>Rheumatoid Arthritis</td><td>~12</td></tr><tr><td>IBS</td><td>~8</td></tr><tr><td>Celiac Disease</td><td>~3</td></tr></tbody></table>
-<p><strong>Recommendation:</strong> Prioritize Type 1 Diabetes, CKD, and Postpartum Depression signatures next — each has 40+ sources and a complete entity page already in place.</p>
+<p>Recommendation: Prioritize Type 1 Diabetes, CKD, and Postpartum Depression signatures next — each has 40+ sources and a complete entity page already in place.</p>
 <p>&mdash;-</p>
 <h2>13. Missing Concept and Entity Pages Referenced by Wikilinks</h2>
 <p>The following pages are linked from signatures/entities but do not exist:</p>
-<p><strong>Concepts/entities that need pages:</strong></p>
+<p>Concepts/entities that need pages:</p>
 <ul><li>`<a href="/article/bile-acid-metabolism">bile acid metabolism</a>` (concept — links exist in multiple signatures; `bile-acid-metabolism.md` exists but not `bile-acids.md`)</li><li>`<a href="/article/dietary-fiber">dietary fiber</a>` (concept)</li><li>`<a href="/article/firmicutes">firmicutes</a>` (should be entity — phylum-level)</li><li>`<a href="/article/hbot">hbot</a>` (intervention linked from endometriosis signature)</li><li>`<a href="/article/lactoferrin-supplementation">lactoferrin supplementation</a>` (intervention — linked from signatures)</li><li>`<a href="/article/faecalibacterium-restoration">faecalibacterium restoration</a>` (intervention — linked from crohns signature)</li><li>`<a href="/article/high-fiber-prebiotics">high fiber prebiotics</a>` (intervention — linked from crohns signature)</li><li>`berberine methimazole` (intervention — linked from graves signature)</li><li>`<a href="/article/citrus-fruits">citrus fruits</a>` (intervention — linked from endometriosis signature)</li><li>`<a href="/article/low-fat-diet">low fat diet</a>` (intervention — linked from endometriosis signature)</li><li>`synbiotics pdac`, `<a href="/article/quercetin">quercetin</a>`, `<a href="/article/ferrichrome-probiotics">ferrichrome probiotics</a>` (interventions in pancreatic-cancer signature)</li><li>`<a href="/article/acarbose-fiber-synergy">acarbose fiber synergy</a>`, `<a href="/article/vitamin-d-probiotic-synergy">vitamin d probiotic synergy</a>`, `<a href="/article/magnesium-supplementation">magnesium supplementation</a>` (interventions in pcos signature)</li></ul>
 <p>Several of these are referenced in signature `validated_interventions` lists but have no intervention page — meaning the signature links are broken.</p>
 <p>&mdash;-</p>
@@ -146,21 +153,23 @@
 <p>`lachnospira.md` has only 1 inbound link. `lachnospiraceae.md` is the more commonly referenced entity. This may be a duplicate or a page that needs promotion into more signature pages.</p>
 <p>&mdash;-</p>
 <h2>✅ Issues Resolved Since April 13</h2>
-<ul><li><strong>Backslash-broken wikilinks</strong> in `dietary-metal-microbiome-interactions.md` — ✅ Fixed</li><li><strong>Metal entity pages missing `subtype:` field</strong> — ✅ All metal/metalloid entities now have subtype</li><li><strong>Missing entity stubs</strong> (bacteroides-thetaiotaomicron, candida-auris, candida-tropicalis, aeromonas) — ✅ Stub pages now exist (though lacking full v2 fields)</li><li><strong>Index source count</strong> — ✅ 1,515 accurate</li><li><strong>All 15 signature pages have full v2 confidence blocks</strong> — ✅ Confirmed</li><li><strong>All 14 STOP pages have complete frontmatter</strong> — ✅ Confirmed</li><li><strong>New ASD-related stops added</strong> (stop-iron-supplementation-asd) — ✅ Confirmed</li></ul>
+<ul><li>Backslash-broken wikilinks in `dietary-metal-microbiome-interactions.md` — ✅ Fixed</li><li>Metal entity pages missing `subtype:` field — ✅ All metal/metalloid entities now have subtype</li><li>Missing entity stubs (bacteroides-thetaiotaomicron, candida-auris, candida-tropicalis, aeromonas) — ✅ Stub pages now exist (though lacking full v2 fields)</li><li>Index source count — ✅ 1,515 accurate</li><li>All 15 signature pages have full v2 confidence blocks — ✅ Confirmed</li><li>All 14 STOP pages have complete frontmatter — ✅ Confirmed</li><li>New ASD-related stops added (stop-iron-supplementation-asd) — ✅ Confirmed</li></ul>
 <p>&mdash;-</p>
 <h2>Action Priority Queue</h2>
-<p><strong>Immediate (before next content session):</strong></p>
+<p>Immediate (before next content session):</p>
 <ol><li>Fix `akkermansia-mucinicola` → `akkermansia-muciniphila` in `parkinsons-disease.md` (2 occurrences)</li><li>Update index: add 5 entities, 2 concepts, 3 STOPs to listings; update counts table</li><li>Add `validated_interventions` and `stops` fields to `depression.md` frontmatter</li></ol>
-<p><strong>High priority (next 1–2 sessions):</strong></p>
+<p>High priority (next 1–2 sessions):</p>
 <ol><li>Add `karen_brain_primitives` and `last_substantive_update` to 6 intervention pages</li><li>Add `seo_target`, `wikipedia_differentiation`, `last_substantive_update` to 7 fungi/archaea entity pages</li><li>Create intervention pages for conditions listed in signatures but lacking pages (lactoferrin-supplementation, hbot, faecalibacterium-restoration, berberine-methimazole, high-fiber-prebiotics)</li><li>Add `signature_page:` field to all 29 disease entity frontmatters</li></ol>
-<p><strong>Medium priority (migration batch work):</strong></p>
+<p>Medium priority (migration batch work):</p>
 <ol><li>Add `signature_page` links for the 15 diseases with existing signatures</li><li>Begin source page v2 migration: batch-infer `evidence_level`, `karen_brain_primitives`, `metals_discussed` for highest-traffic condition source libraries (start with Parkinson's 118, ASD 173, T2D 30)</li><li>Add `source_count` field to 118 entity pages missing it</li></ol>
-<p><strong>Longer term:</strong></p>
+<p>Longer term:</p>
 <ol><li>Build signature pages for T1D, CKD, Postpartum Depression, Schizophrenia (high source support)</li><li>Add `karen_brain_primitives` and `seo_target` to all 90 concept pages</li><li>Resolve 54 source pages with problematic DOIs (empty, &quot;various&quot;, &quot;N/A&quot;)</li></ol>
 <p>&mdash;-</p>
 <p><em>Automated health check — 2026-04-14. Grep commands used are noted inline. No content was modified during this run.</em></p>
 
       </div>
+
+      
 
       
       <div class="related">
@@ -170,7 +179,7 @@
 <li><a href="/article/bile-acid-metabolism">Bile Acid Metabolism</a></li>
 <li><a href="/article/dietary-fiber">Dietary Fiber (Cross Condition)</a></li>
 <li><a href="/article/firmicutes">Firmicutes (Bacillota)</a></li>
-<li><a href="/article/hbot">Hyperbaric Oxygen Therapy For Endometriosis</a></li>
+<li><a href="/article/hbot">Hyperbaric Oxygen Therapy (HBOT)</a></li>
 <li><a href="/article/lactoferrin-supplementation">Lactoferrin Supplementation (Cross Condition)</a></li>
 <li><a href="/article/faecalibacterium-restoration">Faecalibacterium Prausnitzii Restoration</a></li>
 <li><a href="/article/high-fiber-prebiotics">High Fiber Prebiotics For Crohn'S Disease</a></li>
@@ -188,6 +197,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

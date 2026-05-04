@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -69,12 +76,12 @@
         <h2>Last completed commit</h2>
 <p>Not yet committed — all new source pages are in working tree, uncommitted.</p>
 <h2>Session summary</h2>
-<p>Ingested <strong>87 papers</strong> across two condition folders:</p>
-<ul><li><strong>Endometriosis</strong> (raw/endometriosis/): 17 papers ingested, folder COMPLETE</li><li><strong>Erectile Dysfunction</strong> (raw/erectile dysfunction/): 67 papers ingested, 3 skipped (misfiled/irrelevant), 2 duplicates, 1 already existed. Folder COMPLETE.</li></ul>
+<p>Ingested 87 papers across two condition folders:</p>
+<ul><li>Endometriosis (raw/endometriosis/): 17 papers ingested, folder COMPLETE</li><li>Erectile Dysfunction (raw/erectile dysfunction/): 67 papers ingested, 3 skipped (misfiled/irrelevant), 2 duplicates, 1 already existed. Folder COMPLETE.</li></ul>
 <p>Several misfiled papers were noted in the ED folder:</p>
 <ul><li>Plant virology paper (s12985-024-02361-7.pdf) — skip</li><li>CSEG Recorder phage column (2019-09-RECORDER) — skip</li><li>Papers actually about: PND, HPV16/cervical, BV, short bowel syndrome, MDD, BPH, vaginal immunology, pregnancy/preterm birth — ingested with correct condition tags</li></ul>
 <h2>Next intended batch (priority order)</h2>
-<ol><li><strong>PMDD</strong> (raw/Premenstrual Dysphoric Disorder (PMDD)/): 69 PDFs, only 1 source page exists — nearly dark</li><li><strong>Fibromyalgia</strong> (raw/Fibromyalgia/): 58 PDFs, 7 source pages — very thin</li><li><strong>Cerebral Palsy</strong> (raw/Cerebral Palsy/): 79 PDFs, 4 source pages — nearly dark</li><li><strong>Graves' Disease</strong> (raw/graves-disease/): 21 PDFs, 17 source pages — small gap</li><li><strong>Crohn's</strong> (raw/crohns/): 129 PDFs, 23 source pages — large gap</li><li><strong>NEC</strong> (raw/Necrotizing Enterocolitis NEC/): 76 PDFs, 16 source pages</li><li><strong>Long COVID</strong> (raw/Long COVID/): 122 PDFs, 26 source pages</li><li><strong>Hashimoto's</strong> (raw/Hashimotos-Thyroiditis/): 237 PDFs, 25 source pages</li><li><strong>GERD</strong> (raw/Gastroesophageal reflux disease (GERD)/): 239 PDFs, 37 source pages</li><li><strong>PPD</strong> (raw/Postpartum Depression (PPD)/): 349 PDFs, 52 source pages</li><li><strong>Schizophrenia</strong> (raw/Schizophrenia/): 211 PDFs, 53 source pages</li><li><strong>Parkinson's</strong> (raw/parkinsons-disease/): 208 PDFs, 122 source pages</li><li><strong>Root-level raw/ PDFs</strong> (~260 PDFs): mixed topics, many may already be ingested</li><li><strong>Specialty collections</strong>: food_heavy_metal_contamination (301), essential_oils (252), metal_chelation_* (multiple folders ~500 total), mismetallation (76), candida_functional_shielding (55), metallomic_signatures (9)</li><li><strong>Large disease folders</strong>: Autism (199+203), Diabetes Type I (202), Multiple Sclerosis (198), Ovarian Cancer (191), CKD (181), Cardiovascular (172), Colon Cancer (163), Pancreatic Cancer (135), Female Infertility (109)</li></ol>
+<ol><li>PMDD (raw/Premenstrual Dysphoric Disorder (PMDD)/): 69 PDFs, only 1 source page exists — nearly dark</li><li>Fibromyalgia (raw/Fibromyalgia/): 58 PDFs, 7 source pages — very thin</li><li>Cerebral Palsy (raw/Cerebral Palsy/): 79 PDFs, 4 source pages — nearly dark</li><li>Graves' Disease (raw/graves-disease/): 21 PDFs, 17 source pages — small gap</li><li>Crohn's (raw/crohns/): 129 PDFs, 23 source pages — large gap</li><li>NEC (raw/Necrotizing Enterocolitis NEC/): 76 PDFs, 16 source pages</li><li>Long COVID (raw/Long COVID/): 122 PDFs, 26 source pages</li><li>Hashimoto's (raw/Hashimotos-Thyroiditis/): 237 PDFs, 25 source pages</li><li>GERD (raw/Gastroesophageal reflux disease (GERD)/): 239 PDFs, 37 source pages</li><li>PPD (raw/Postpartum Depression (PPD)/): 349 PDFs, 52 source pages</li><li>Schizophrenia (raw/Schizophrenia/): 211 PDFs, 53 source pages</li><li>Parkinson's (raw/parkinsons-disease/): 208 PDFs, 122 source pages</li><li>Root-level raw/ PDFs (~260 PDFs): mixed topics, many may already be ingested</li><li>Specialty collections: food_heavy_metal_contamination (301), essential_oils (252), metal_chelation_* (multiple folders ~500 total), mismetallation (76), candida_functional_shielding (55), metallomic_signatures (9)</li><li>Large disease folders: Autism (199+203), Diabetes Type I (202), Multiple Sclerosis (198), Ovarian Cancer (191), CKD (181), Cardiovascular (172), Colon Cancer (163), Pancreatic Cancer (135), Female Infertility (109)</li></ol>
 <h2>Anomalies to watch for</h2>
 <ul><li>Many ED PDFs were misfiled (vaginal microbiome, BPH, plant virology, etc.) — other condition folders may have similar misfiling</li><li>UUID and journal-code filenames are common and require full PDF reading to identify</li><li>Some folders (PPD, GERD, Hashimoto's, etc.) have nested subdirectories organizing papers by theme — need recursive traversal</li><li>Duplicate PDFs exist (e.g., microorganisms-13-00130.pdf and microorganisms-13-00130-1.pdf) — check before creating duplicates</li></ul>
 <h2>Estimated remaining work</h2>
@@ -84,11 +91,13 @@
 
       
 
+      
+
       <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
         <p>WikiBiome is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>, advancing microbiome medicine through open scientific education.</p>
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

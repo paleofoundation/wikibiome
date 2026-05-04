@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,9 +73,9 @@
       <h1 itemprop="headline">Batch Preview — Operational Analyses → Cureva</h1>
 
       <div itemprop="articleBody">
-        <p><strong>Purpose:</strong> Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: cureva` to all 27.</p>
-<p><strong>Why this change:</strong> Dated operational analyses (audits, lint reports, overnight logs, DOI correction logs, stub demotions, boundary violations, etc.) are internal maintenance records. They document what the system did to itself — they are not public educational content. Per §9 and Rule 8, they must not render on wikibiome.com. The fix is a single-field frontmatter addition (`platform: cureva`) that routes them to Cureva's full-dataset view only.</p>
-<p><strong>Scope:</strong> 27 files in `wiki/analyses/` matching the dated-operational pattern. Undated content analyses (`dietary-metal-exposure-by-life-stage.md`, `dietary-metal-paradoxes.md`, `metal-disease-matrix.md`, `shared-pathobionts-across-signatures.md`) are legitimate public content and are EXCLUDED.</p>
+        <p>Purpose: Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: cureva` to all 27.</p>
+<p>Why this change: Dated operational analyses (audits, lint reports, overnight logs, DOI correction logs, stub demotions, boundary violations, etc.) are internal maintenance records. They document what the system did to itself — they are not public educational content. Per §9 and Rule 8, they must not render on wikibiome.com. The fix is a single-field frontmatter addition (`platform: cureva`) that routes them to Cureva's full-dataset view only.</p>
+<p>Scope: 27 files in `wiki/analyses/` matching the dated-operational pattern. Undated content analyses (`dietary-metal-exposure-by-life-stage.md`, `dietary-metal-paradoxes.md`, `metal-disease-matrix.md`, `shared-pathobionts-across-signatures.md`) are legitimate public content and are EXCLUDED.</p>
 <p>&mdash;-</p><h2>Sample 1 — `adversarial-audit-2026-04-19.md`</h2>
 <h2>Before</h2>
 <p>```yaml &mdash;- title: &quot;Adversarial Audit — 2026-04-19&quot; type: analysis created: 2026-04-19 &mdash;- ```</p>
@@ -104,11 +111,13 @@
 
       
 
+      
+
       <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
         <p>WikiBiome is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>, advancing microbiome medicine through open scientific education.</p>
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,33 +73,46 @@
       <h1 itemprop="headline">Salmonella Enterica Serovar Typhimurium</h1>
 
       <div itemprop="articleBody">
-        <p>A Gram-negative enteric pathogen that possesses <strong>four distinct [NiFe] hydrogenases</strong> &mdash; the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is <strong>100% avirulent</strong> in mouse typhoid models, making nickel-dependent hydrogen metabolism (via <a href="/article/nife-hydrogenase">nife hydrogenase</a>) a central pillar of Salmonella virulence.</p><h2>Metal-Dependent Virulence Factors</h2>
+        <p>A Gram-negative enteric pathogen that possesses four distinct [NiFe] hydrogenases &mdash; the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is 100% avirulent in mouse typhoid models, making nickel-dependent hydrogen metabolism (via <a href="/article/nife-hydrogenase">nife hydrogenase</a>) a central pillar of Salmonella virulence.</p><h2>Metal-Dependent Virulence Factors</h2>
 <h2>[NiFe] Hydrogenases -- The Core of Ni-Dependent Virulence</h2>
-<p><em>S.</em> Typhimurium encodes four distinct [NiFe] hydrogenases, each with different roles <a href="/article/maier-2019-nickel-microbial-pathogenesis">maier 2019 nickel microbial pathogenesis</a>:</p>
-<ol><li><strong>Hya (hydrogenase-1)</strong>: membrane-bound, H2-uptake. Contributes to respiratory H2 oxidation.</li><li><strong>Hyb (hydrogenase-2)</strong>: membrane-bound, H2-uptake. <strong>Most important for virulence</strong>. Primary contributor to macrophage survival and systemic infection.</li><li><strong>Hyc (hydrogenase-3)</strong>: cytoplasmic, part of the formate hydrogenlyase (FHL) complex. Produces H2 under fermentative conditions. Likely important for anaerobic gut survival.</li><li><strong>Hyd (hydrogenase-4)</strong>: second FHL-associated hydrogenase.</li></ol>
+<p><em>S.</em> Typhimurium encodes four distinct [NiFe] hydrogenases, each with different roles <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
+<ol><li>Hya (hydrogenase-1): membrane-bound, H2-uptake. Contributes to respiratory H2 oxidation.</li><li>Hyb (hydrogenase-2): membrane-bound, H2-uptake. Most important for virulence. Primary contributor to macrophage survival and systemic infection.</li><li>Hyc (hydrogenase-3): cytoplasmic, part of the formate hydrogenlyase (FHL) complex. Produces H2 under fermentative conditions. Likely important for anaerobic gut survival.</li><li>Hyd (hydrogenase-4): second FHL-associated hydrogenase.</li></ol>
 <h2>Avirulence of Hydrogenase Mutants</h2>
-<ul><li>Triple mutant (<strong>DeltahyaDeltahybDeltahyd</strong>): <strong>100% survival in a mouse typhoid fever model</strong> &mdash; completely avirulent <a href="/article/maier-2019-nickel-microbial-pathogenesis">maier 2019 nickel microbial pathogenesis</a>.</li><li>This demonstrates that H2 metabolism is not merely advantageous but <strong>essential</strong> for Salmonella systemic virulence.</li><li>Hyb is the single most important hydrogenase: Hyb mutants alone show significant attenuation.</li></ul>
+<ul><li>Triple mutant (DeltahyaDeltahybDeltahyd): 100% survival in a mouse typhoid fever model &mdash; completely avirulent <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>.</li><li>This demonstrates that H2 metabolism is not merely advantageous but essential for Salmonella systemic virulence.</li><li>Hyb is the single most important hydrogenase: Hyb mutants alone show significant attenuation.</li></ul>
 <h2>Hydrogenase Function in Macrophage Survival</h2>
 <ul><li>After phagocytosis, <em>S.</em> Typhimurium resides in the Salmonella-containing vacuole (SCV).</li><li>H2 oxidation by Hyb provides electrons to the respiratory chain, generating PMF for ATP synthesis inside the nutrient-limited SCV.</li><li>This H2-powered energy source allows survival in the hostile intracellular environment where carbon sources are scarce.</li></ul>
 <h2>Fe-Dependent Systems</h2>
-<ul><li><strong>Enterobactin</strong>: primary siderophore for iron acquisition in iron-limited host environments.</li><li><strong>Salmochelin</strong>: glycosylated enterobactin derivative that evades host lipocalin-2 (which sequesters enterobactin).</li><li><strong>SitABCD</strong>: Mn/Fe ABC transporter required for full virulence.</li><li><strong>Fur regulon</strong>: iron-responsive regulation of virulence genes.</li></ul>
+<ul><li>Enterobactin: primary siderophore for iron acquisition in iron-limited host environments.</li><li>Salmochelin: glycosylated enterobactin derivative that evades host lipocalin-2 (which sequesters enterobactin).</li><li>SitABCD: Mn/Fe ABC transporter required for full virulence.</li><li>Fur regulon: iron-responsive regulation of virulence genes.</li></ul>
 <h2>Metal Acquisition Systems</h2>
 <h2>Nickel Import</h2>
-<ul><li><strong>NikABCDE</strong>: ABC-type nickel transporter homologous to the <em>E. coli</em> system.</li><li>Nickel import is essential for metalation of all four hydrogenase active sites.</li><li>Nickel import likely upregulated during intracellular infection to support hydrogenase-dependent energy generation.</li></ul>
+<ul><li>NikABCDE: ABC-type nickel transporter homologous to the <em>E. coli</em> system.</li><li>Nickel import is essential for metalation of all four hydrogenase active sites.</li><li>Nickel import likely upregulated during intracellular infection to support hydrogenase-dependent energy generation.</li></ul>
 <h2>Hydrogenase Maturation</h2>
-<ul><li><strong>HypABCDEF</strong> accessory proteins: required for [NiFe] active site assembly in all four hydrogenases.</li><li>The maturation machinery must supply nickel to four separate enzyme complexes &mdash; a significant metabolic investment reflecting the importance of H2 metabolism.</li></ul>
+<ul><li>HypABCDEF accessory proteins: required for [NiFe] active site assembly in all four hydrogenases.</li><li>The maturation machinery must supply nickel to four separate enzyme complexes &mdash; a significant metabolic investment reflecting the importance of H2 metabolism.</li></ul>
 <h2>Iron Acquisition</h2>
 <ul><li>Multiple redundant systems: enterobactin, salmochelin, SitABCD, FeoABC (ferrous iron).</li><li>Redundancy ensures iron access across diverse host niches (gut lumen, macrophage SCV, bloodstream).</li></ul>
 <h2>Nutritional Immunity Evasion</h2>
-<ul><li><strong>Host calprotectin</strong>: released by neutrophils at gut infection sites; sequesters Zn and Mn (and likely Ni).</li><li><strong>Lipocalin-2</strong>: sequesters enterobactin; <em>S.</em> Typhimurium evades this with salmochelin.</li><li><strong>NRAMP1 (SLC11A1)</strong>: macrophage phagosomal metal exporter. Restricts Fe, Mn, and Ni availability within the SCV. NRAMP1-deficient mice are highly susceptible to Salmonella, demonstrating the importance of metal restriction.</li><li><em>S.</em> Typhimurium counters NRAMP1 by upregulating high-affinity metal transporters and relying on H2 as an alternative energy source.</li></ul>
+<ul><li>Host calprotectin: released by neutrophils at gut infection sites; sequesters Zn and Mn (and likely Ni).</li><li>Lipocalin-2: sequesters enterobactin; <em>S.</em> Typhimurium evades this with salmochelin.</li><li>NRAMP1 (SLC11A1): macrophage phagosomal metal exporter. Restricts Fe, Mn, and Ni availability within the SCV. NRAMP1-deficient mice are highly susceptible to Salmonella, demonstrating the importance of metal restriction.</li><li><em>S.</em> Typhimurium counters NRAMP1 by upregulating high-affinity metal transporters and relying on H2 as an alternative energy source.</li></ul>
 <h2>Disease Associations</h2>
-<ul><li><strong>Gastroenteritis</strong> (non-typhoidal salmonellosis): most common manifestation in humans</li><li><strong>Typhoid-like systemic disease</strong> in mice (model for <em>S.</em> Typhi typhoid fever)</li><li><strong>Bacteremia</strong> in immunocompromised patients (HIV/AIDS, sickle cell)</li><li><strong>Osteomyelitis</strong> (especially in sickle cell disease)</li><li><strong>Reactive arthritis</strong> (post-infection complication)</li></ul>
+<ul><li>Gastroenteritis (non-typhoidal salmonellosis): most common manifestation in humans</li><li>Typhoid-like systemic disease in mice (model for <em>S.</em> Typhi typhoid fever)</li><li>Bacteremia in immunocompromised patients (HIV/AIDS, sickle cell)</li><li>Osteomyelitis (especially in sickle cell disease)</li><li>Reactive arthritis (post-infection complication)</li></ul>
 <h2>Connection to Environmental Metal Exposure</h2>
 <ul><li>Gut H2 is produced by commensal microbiota during fermentation of dietary fiber &mdash; dietary patterns that increase colonic H2 production could theoretically provide more energy substrate for Salmonella hydrogenases.</li><li>Environmental nickel in drinking water or food may increase nickel availability for hydrogenase metalation during gut colonization.</li><li>Agricultural use of heavy metals in livestock operations promotes metal-tolerant Salmonella populations.</li></ul>
 <h2>Connections</h2>
 <ul><li><a href="/article/metal-dependent-virulence">metal dependent virulence</a> &mdash; four [NiFe] hydrogenases; triple mutant 100% avirulent</li><li><a href="/article/nickel">nickel</a> &mdash; essential cofactor for all four [NiFe] hydrogenases</li><li><a href="/article/iron">iron</a> &mdash; acquired via enterobactin/salmochelin; regulated by Fur</li><li><a href="/article/helicobacter-pylori">helicobacter pylori</a> &mdash; both use [NiFe] hydrogenases for virulence, but H. pylori has one while Salmonella has four</li><li><a href="/article/nutritional-immunity">nutritional immunity</a> &mdash; NRAMP1-mediated metal export from SCV is critical host defense</li><li><a href="/article/escherichia-coli">escherichia coli</a> &mdash; closely related; shares NikABCDE transporter architecture</li><li><a href="/article/staphylococcus-aureus">staphylococcus aureus</a> &mdash; both face calprotectin-mediated metal restriction</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (6)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Robert J. Maier, Stéphane L. Benoit</span> (2019). <span style="font-style:italic;">Role of Nickel in Microbial Pathogenesis</span>. <em style="color:#888;">Inorganics</em>. <a href="https://doi.org/10.3390/inorganics7070080" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/inorganics7070080</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Stéphane L. Benoit, Alan A. Schmalstig, John Glushka et al.</span> (2019). <span style="font-style:italic;">Benoit et al. 2019 — Nickel Chelation Therapy as an Approach to Combat Multi-Drug Resistant Enteric Pathogens</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-019-50027-0" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-019-50027-0</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Reda R. Mabrouk, Amani Magdy Beshbishy, Waad Mohamed Elmalah et al.</span> (2026). <span style="font-style:italic;">Mabrouk 2026 -- Repurposing Gut Microbiota Modulators: Insights into Current and Novel Applications</span>. <em style="color:#888;">Beni-Suef University Journal of Basic and Applied Sciences</em>. <a href="https://doi.org/10.1186/s43088-025-00727-6" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1186/s43088-025-00727-6</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Breton J, Daniel C, Vignal C et al.</span> (2016). <span style="font-style:italic;">Does oral exposure to cadmium and lead mediate susceptibility to colitis? The dark-and-bright sides of heavy metals in gut ecology</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/srep19200" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/srep19200</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Alastair G. McEwan</span> (2024). <span style="font-style:italic;">McEwan 2024 — Metalloproteome Plasticity: A Factor in Bacterial Pathogen Adaptive Responses?</span>. <em style="color:#888;">Emerging Topics in Life Sciences</em>. <a href="https://doi.org/10.1042/ETLS20230040" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1042/ETLS20230040</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Shaun Trecarten, Michael A. Liss, Jill Hamilton-Reeves et al.</span> (2025). <span style="font-style:italic;">Trecarten 2025 — Obesity, Dietary Interventions and Microbiome Alterations in Prostate Cancer</span>. <em style="color:#888;">Frontiers in Immunology</em>. <a href="https://doi.org/10.3389/fimmu.2024.1448116" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fimmu.2024.1448116</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -112,6 +132,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

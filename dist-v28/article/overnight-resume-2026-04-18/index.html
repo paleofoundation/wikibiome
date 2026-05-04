@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,24 +74,26 @@
 
       <div itemprop="articleBody">
         <h2>Session Summary</h2>
-<ul><li><strong>Cycles completed:</strong> 2 (Cycle 2 clean → exit)</li><li><strong>Total fixes applied:</strong> 985</li><li><strong>Total deferred:</strong> 251</li><li><strong>Commits:</strong> 1 (`db335ed3`)</li></ul>
+<ul><li>Cycles completed: 2 (Cycle 2 clean → exit)</li><li>Total fixes applied: 985</li><li>Total deferred: 251</li><li>Commits: 1 (`db335ed3`)</li></ul>
 <h2>Remaining Work Per Step</h2>
 <h2>Step 1 — Health Check</h2>
-<ul><li><strong>CLEAN.</strong> No remaining issues.</li></ul>
+<ul><li>CLEAN. No remaining issues.</li></ul>
 <h2>Step 2 — Lint</h2>
-<ul><li><strong>223 source pages</strong> still missing `evidence_level`. These cannot be auto-inferred from body keywords — the PDFs need to be re-read to determine study design. List them with:</li></ul>
+<ul><li>223 source pages still missing `evidence_level`. These cannot be auto-inferred from body keywords — the PDFs need to be re-read to determine study design. List them with:</li></ul>
 <p>  ```bash   cd ~/Documents/Claude/Raw &amp;&amp; grep -rL '^evidence_level:' wiki/sources/*.md | wc -l   ```</p>
-<ul><li><strong>14 orphan pages</strong> (entities/concepts with no inbound wikilinks). See `wiki/analyses/manual-review-2026-04-18.md`.</li></ul>
+<ul><li>14 orphan pages (entities/concepts with no inbound wikilinks). See `wiki/analyses/manual-review-2026-04-18.md`.</li></ul>
 <h2>Step 3 — Missing Conditions + Signatures</h2>
-<ul><li><strong>5 disease entities</strong> without signatures (bipolar-disorder, chronic-fatigue-syndrome, coronary-artery-disease, diabetic-kidney-disease, psoriasis). Each has &lt;3 condition-tagged sources — need more source ingestion before signature stubs are warranted.</li><li><strong>covid-19</strong> (9 sources) may warrant its own signature distinct from long-covid.</li></ul>
+<ul><li>5 disease entities without signatures (bipolar-disorder, chronic-fatigue-syndrome, coronary-artery-disease, diabetic-kidney-disease, psoriasis). Each has &lt;3 condition-tagged sources — need more source ingestion before signature stubs are warranted.</li><li>covid-19 (9 sources) may warrant its own signature distinct from long-covid.</li></ul>
 <h2>Step 4 — Ingest Raw Folder</h2>
-<ul><li><strong>~51 unmatched raw PDFs</strong> remain. Priority ingests:</li><li>Heavy metals + rheumatoid arthritis papers (3-4 PDFs)</li><li>Alzheimer's/neurodegeneration + metals papers (5-6 PDFs)</li><li>Cadmium gut microbiota papers</li><li>Nickel neurotoxicity papers</li></ul>
+<ul><li>~51 unmatched raw PDFs remain. Priority ingests:</li><li>Heavy metals + rheumatoid arthritis papers (3-4 PDFs)</li><li>Alzheimer's/neurodegeneration + metals papers (5-6 PDFs)</li><li>Cadmium gut microbiota papers</li><li>Nickel neurotoxicity papers</li></ul>
 <h2>Step 5 — Ghost Pages</h2>
-<ul><li><strong>4 ghost source-page-format wikilinks</strong> with ≥3 refs (Van Dingenen 2023, McLeod 2023, de Paiva 2020, morton-2023). These need their raw PDFs located and ingested, or the wikilinks need to be corrected to the actual source page slug.</li></ul>
+<ul><li>4 ghost source-page-format wikilinks with ≥3 refs (Van Dingenen 2023, McLeod 2023, de Paiva 2020, morton-2023). These need their raw PDFs located and ingested, or the wikilinks need to be corrected to the actual source page slug.</li></ul>
 <h2>Resume Command</h2>
 <p>```bash ```</p>
 
       </div>
+
+      
 
       
 
@@ -93,6 +102,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

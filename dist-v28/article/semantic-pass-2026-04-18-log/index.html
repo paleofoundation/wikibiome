@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,18 +74,18 @@
 
       <div itemprop="articleBody">
         <h2>Audit 1 — Cureva/WikiBiome Boundary</h2>
-<ul><li><strong>Scanned:</strong> ~409 pages (entities, concepts, analyses)</li><li><strong>Violations detected:</strong> 43 across 18 pages</li><li><strong>Fixed:</strong> 9 violations across 8 pages (mechanical rewrites to factual framing)</li><li><strong>Verified factual (no fix needed):</strong> 34 violations across 10 pages (study-result dosage reporting)</li><li><strong>Remaining:</strong> 0</li><li><strong>Report:</strong> `wiki/analyses/boundary-violations-2026-04-18.md`</li></ul>
+<ul><li>Scanned: ~409 pages (entities, concepts, analyses)</li><li>Violations detected: 43 across 18 pages</li><li>Fixed: 9 violations across 8 pages (mechanical rewrites to factual framing)</li><li>Verified factual (no fix needed): 34 violations across 10 pages (study-result dosage reporting)</li><li>Remaining: 0</li><li>Report: `wiki/analyses/boundary-violations-2026-04-18.md`</li></ul>
 <h2>Audit 2 — Missing Intervention and STOP Pages</h2>
 <h2>Interventions</h2>
-<ul><li><strong>Scanned:</strong> 1,714 source pages for named interventions</li><li><strong>Missing intervention pages detected:</strong> 15 (≥2 sources each)</li><li><strong>Intervention stubs created:</strong> 10</li></ul>
+<ul><li>Scanned: 1,714 source pages for named interventions</li><li>Missing intervention pages detected: 15 (≥2 sources each)</li><li>Intervention stubs created: 10</li></ul>
 <ol><li>omega-3-fatty-acids (33 sources discuss)</li><li>chelation-therapy (45 sources)</li><li>glutathione-supplementation (32 sources)</li><li>metformin-intervention (25 sources)</li><li>statin-therapy (18 sources)</li><li>berberine (16 sources)</li><li>gluten-free-diet (7 sources)</li><li>melatonin (7 sources)</li><li>resveratrol (5 sources)</li><li>curcumin (4 sources)</li></ol>
-<ul><li><strong>Deferred:</strong> 5 lower-priority interventions (vitamin-e, vitamin-c, plant-based-diet, butyrate-supplementation — &lt;5 sources or overlaps with existing pages)</li></ul>
+<ul><li>Deferred: 5 lower-priority interventions (vitamin-e, vitamin-c, plant-based-diet, butyrate-supplementation — &lt;5 sources or overlaps with existing pages)</li></ul>
 <h2>STOPs</h2>
-<ul><li><strong>Existing wiki/stops/ files:</strong> 8</li><li><strong>STOP pages in dist-v28 (from build JSON):</strong> 39</li><li><strong>Missing wiki/stops/ files regenerated from content.generated.json:</strong> 31</li><li><strong>Total wiki/stops/ now:</strong> 39</li></ul>
+<ul><li>Existing wiki/stops/ files: 8</li><li>STOP pages in dist-v28 (from build JSON): 39</li><li>Missing wiki/stops/ files regenerated from content.generated.json: 31</li><li>Total wiki/stops/ now: 39</li></ul>
 <h2>Audit 3 — Supersession Compliance</h2>
-<ul><li><strong>Entity/concept pages scanned:</strong> ~389 (all with ≥2 sources)</li><li><strong>Paragraphs with contradiction language:</strong> 30</li><li><strong>Genuine supersessions applied:</strong> 2</li><li>Copper in RA: arshad-2023 (case-control) supersedes yang-2016 (cross-sectional)</li><li>Copper in ASD: lin-2024 (meta-analysis, null) supersedes zhou-2025 (cross-sectional)</li><li><strong>Source pages annotated:</strong> 4 (both sides of each conflict)</li><li><strong>Biological complexity / already annotated:</strong> 28 (no action needed)</li><li><strong>Report:</strong> `wiki/analyses/supersessions-2026-04-18.md`</li></ul>
+<ul><li>Entity/concept pages scanned: ~389 (all with ≥2 sources)</li><li>Paragraphs with contradiction language: 30</li><li>Genuine supersessions applied: 2</li><li>Copper in RA: arshad-2023 (case-control) supersedes yang-2016 (cross-sectional)</li><li>Copper in ASD: lin-2024 (meta-analysis, null) supersedes zhou-2025 (cross-sectional)</li><li>Source pages annotated: 4 (both sides of each conflict)</li><li>Biological complexity / already annotated: 28 (no action needed)</li><li>Report: `wiki/analyses/supersessions-2026-04-18.md`</li></ul>
 <h2>Audit 4 — Keystone Re-Validation</h2>
-<ul><li><strong>Total keystone: true sources:</strong> 68</li><li><strong>Already had ≥3 criteria listed:</strong> 5</li><li><strong>Auto-evaluated (no criteria field):</strong> 63</li><li><strong>Retained (≥3 criteria verified):</strong> 32 (criteria field added)</li><li><strong>Demoted (&lt;3 criteria):</strong> 31 (set keystone: false, demotion note added)</li><li><strong>Total keystones retained:</strong> 37</li><li><strong>Total keystones demoted:</strong> 31</li></ul>
+<ul><li>Total keystone: true sources: 68</li><li>Already had ≥3 criteria listed: 5</li><li>Auto-evaluated (no criteria field): 63</li><li>Retained (≥3 criteria verified): 32 (criteria field added)</li><li>Demoted (&lt;3 criteria): 31 (set keystone: false, demotion note added)</li><li>Total keystones retained: 37</li><li>Total keystones demoted: 31</li></ul>
 <p>Top keystones by criteria count:</p>
 <ul><li>scholefield-2024 (5/5): Cross-Domain, Signature Dependency, Cross-Condition, Mechanistic Linchpin, Paradigm Reframe</li><li>ghosh-2023 (4/5), giambo-2021 (4/5), jaishankar-2014 (4/5), patil-2021 (4/5), maier-2019 (4/5), pendergrass-2026-parkinsons (4/5)</li></ul>
 <p>Demoted sources retain all content; only `keystone: true` → `keystone: false` with a dated audit note in the body.</p>
@@ -87,11 +94,13 @@
 
       
 
+      
+
       <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
         <p>WikiBiome is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>, advancing microbiome medicine through open scientific education.</p>
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

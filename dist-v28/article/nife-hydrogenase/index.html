@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,54 +74,69 @@
 
       <div itemprop="articleBody">
         <h2>Overview</h2>
-<p><strong>NiFe-hydrogenase</strong> (also called [Ni-Fe] hydrogenase or nickel-iron hydrogenase) is a class of enzymes that catalyze reversible hydrogen (H₂) oxidation. The active site contains both <strong>nickel (Ni)</strong> and <strong>iron (Fe)</strong> metal atoms arranged in a sophisticated bimetallic cluster. The reaction catalyzed is:</p>
+<p>NiFe-hydrogenase (also called [Ni-Fe] hydrogenase or nickel-iron hydrogenase) is a class of enzymes that catalyze reversible hydrogen (H₂) oxidation. The active site contains both nickel (Ni) and iron (Fe) metal atoms arranged in a sophisticated bimetallic cluster. The reaction catalyzed is:</p>
 <p>``` H₂ ↔ 2H⁺ + 2e⁻ ```</p>
 <p>In the forward direction, H₂ is oxidized to protons and electrons, releasing energy that powers ATP synthesis (in some bacteria). In the reverse direction, protons are reduced to H₂ (used for energy storage or stress relief).</p>
 <p>NiFe-hydrogenases are found in:</p>
-<ul><li><a href="/article/helicobacter-pylori">H. pylori</a> (survival in the microaerophilic gastric niche)</li><li><a href="/article/methanobrevibacter-smithii">Methanobrevibacter smithii</a> (methane production; H₂ consumption)</li><li><strong>Sulfate-reducing bacteria</strong> (<a href="/article/desulfovibrio">desulfovibrio</a>, <a href="/article/desulfovibrio">desulfomonas</a>) — H₂ is the preferred electron donor in sulfate reduction</li></ul>
-<p>NiFe-hydrogenases are virulence factors enabling <strong>anaerobic persistence</strong> and <strong>interkingdom cooperation</strong> (H₂ produced by one organism consumed by another in the same biofilm).</p>
+<ul><li><a href="/article/helicobacter-pylori">H. pylori</a> (survival in the microaerophilic gastric niche)</li><li><a href="/article/methanobrevibacter-smithii">Methanobrevibacter smithii</a> (methane production; H₂ consumption)</li><li>Sulfate-reducing bacteria (<a href="/article/desulfovibrio">desulfovibrio</a>, <a href="/article/desulfovibrio">desulfomonas</a>) — H₂ is the preferred electron donor in sulfate reduction</li></ul>
+<p>NiFe-hydrogenases are virulence factors enabling anaerobic persistence and interkingdom cooperation (H₂ produced by one organism consumed by another in the same biofilm).</p>
 <h2>Mechanism</h2>
-<p><strong>Active site structure:</strong></p>
+<p>Active site structure:</p>
 <p>The NiFe-hydrogenase active site is a bi-metallic cluster containing:</p>
-<ul><li><strong>Nickel (Ni)</strong> — the main catalytic site</li><li><strong>Iron (Fe)</strong> — coordinates the substrate and facilitates electron transfer</li><li><strong>Bridging ligands</strong>: cyanide (CN⁻) and carbonyl (CO) groups stabilize the Fe center</li><li><strong>Nickel coordination</strong>: Histidine and cysteine residues</li></ul>
+<ul><li>Nickel (Ni) — the main catalytic site</li><li>Iron (Fe) — coordinates the substrate and facilitates electron transfer</li><li>Bridging ligands: cyanide (CN⁻) and carbonyl (CO) groups stabilize the Fe center</li><li>Nickel coordination: Histidine and cysteine residues</li></ul>
 <p>The bimetallic arrangement is critical: neither metal alone is sufficient; both Ni and Fe are required for catalysis.</p>
-<p><strong>Catalytic cycle:</strong></p>
+<p>Catalytic cycle:</p>
 <p>``` H₂ binding → heterolytic cleavage of H-H → H⁺ released to solvent  → 2e⁻ transferred to electron transport chain (quinone, NAD⁺, etc.) ```</p>
 <p>This is energetically favorable under anaerobic or microaerophilic conditions (when dissolved O₂ is low).</p>
-<p><strong>Nickel and iron acquisition:</strong></p>
-<ul><li>Bacteria must acquire both Ni and Fe from the environment</li><li><a href="/article/helicobacter-pylori">H. pylori</a>: Uses NixA (nickel permease) and iron transporters; competes with host <a href="/article/transferrin">transferrin</a> and <a href="/article/lactoferrin">lactoferrin</a> for iron</li><li><strong>Sulfate-reducing bacteria</strong>: Acquire metals from sediment or gut contents; highly dependent on <a href="/article/iron">iron</a> and <a href="/article/nickel">nickel</a> availability</li></ul>
+<p>Nickel and iron acquisition:</p>
+<ul><li>Bacteria must acquire both Ni and Fe from the environment</li><li><a href="/article/helicobacter-pylori">H. pylori</a>: Uses NixA (nickel permease) and iron transporters; competes with host <a href="/article/transferrin">transferrin</a> and <a href="/article/lactoferrin">lactoferrin</a> for iron</li><li>Sulfate-reducing bacteria: Acquire metals from sediment or gut contents; highly dependent on <a href="/article/iron">iron</a> and <a href="/article/nickel">nickel</a> availability</li></ul>
 <h2>Role in Disease</h2>
-<p><strong>H. pylori persistence in the microaerophilic gastric niche:</strong></p>
+<p>H. pylori persistence in the microaerophilic gastric niche:</p>
 <p><a href="/article/helicobacter-pylori">H. pylori</a> lives in the mucus layer where O₂ is scarce but not zero (microaerophilic, ~1–5% O₂). Under these conditions:</p>
-<ul><li><strong>Oxidative phosphorylation is insufficient</strong> (not enough O₂ for efficient ATP synthesis)</li><li><strong>H₂ oxidation via NiFe-hydrogenase becomes critical</strong> — provides additional ATP and electrons for reducing O₂ via cytochrome c oxidase</li><li>Without NiFe-hydrogenase: H. pylori cannot thrive in low-O₂ niches; burden is reduced</li></ul>
-<p><strong>Related conditions:</strong></p>
-<ul><li><a href="/article/gastric-ulcer">gastric ulcer</a>, <a href="/article/gastric-adenocarcinoma">gastric adenocarcinoma</a> — H. pylori NiFe-hydrogenase enables persistent colonization</li><li><strong>Methane-predominant SIBO</strong> (small intestinal bacterial overgrowth): <a href="/article/methanobrevibacter-smithii">M. smithii</a> NiFe-hydrogenase consumes H₂ produced by fermentative bacteria; enables overgrowth by reducing H₂-induced inhibition</li></ul>
-<p><strong>Interkingdom cooperation in biofilms:</strong></p>
+<ul><li>Oxidative phosphorylation is insufficient (not enough O₂ for efficient ATP synthesis)</li><li>H₂ oxidation via NiFe-hydrogenase becomes critical — provides additional ATP and electrons for reducing O₂ via cytochrome c oxidase</li><li>Without NiFe-hydrogenase: H. pylori cannot thrive in low-O₂ niches; burden is reduced</li></ul>
+<p>Related conditions:</p>
+<ul><li><a href="/article/gastric-ulcer">gastric ulcer</a>, <a href="/article/gastric-adenocarcinoma">gastric adenocarcinoma</a> — H. pylori NiFe-hydrogenase enables persistent colonization</li><li>Methane-predominant SIBO (small intestinal bacterial overgrowth): <a href="/article/methanobrevibacter-smithii">M. smithii</a> NiFe-hydrogenase consumes H₂ produced by fermentative bacteria; enables overgrowth by reducing H₂-induced inhibition</li></ul>
+<p>Interkingdom cooperation in biofilms:</p>
 <p>In polymicrobial biofilms (e.g., cystic fibrosis lung, diabetic foot ulcers):</p>
 <ul><li>Fermentative bacteria (e.g., <a href="/article/bacteroides-fragilis">bacteroides</a>) produce H₂ as a metabolic byproduct</li><li><a href="/article/methanobrevibacter-smithii">M. smithii</a> or sulfate-reducers (via NiFe-hydrogenase) consume H₂</li><li>This removes H₂ (which inhibits fermentation), enabling primary fermenters to proliferate</li><li>The biofilm becomes self-sustaining; difficult to eradicate</li></ul>
 <h2>Metal Connections</h2>
-<p>NiFe-hydrogenase is a paradigm for <strong>Primitive 4: Metal Dependencies as Achilles' Heels</strong>:</p>
-<p><strong>Dual metal requirement:</strong></p>
-<ul><li>Bacteria cannot substitute monometallic hydrogenases if both Ni and Fe are depleted</li><li><strong>Simultaneous Ni and Fe starvation is more potent than either metal alone</strong></li><li>This is clinically relevant for <a href="/article/helicobacter-pylori">H. pylori</a> and dysbiotic methanogens</li></ul>
-<p><strong>Nickel availability in the stomach:</strong></p>
-<ul><li><a href="/article/helicobacter-pylori">H. pylori</a> gastric infection depends on both NiFe-hydrogenase AND <a href="/article/nickel-urease">nickel urease</a></li><li>Both enzymes require Ni; nickel-limited conditions → both virulence pathways compromised</li><li><strong>Therapeutic target</strong>: Nickel chelation or dietary nickel restriction in H. pylori-infected patients</li></ul>
-<p><strong>Iron availability and bacterial competition:</strong></p>
+<p>NiFe-hydrogenase is a paradigm for Primitive 4: Metal Dependencies as Achilles' Heels:</p>
+<p>Dual metal requirement:</p>
+<ul><li>Bacteria cannot substitute monometallic hydrogenases if both Ni and Fe are depleted</li><li>Simultaneous Ni and Fe starvation is more potent than either metal alone</li><li>This is clinically relevant for <a href="/article/helicobacter-pylori">H. pylori</a> and dysbiotic methanogens</li></ul>
+<p>Nickel availability in the stomach:</p>
+<ul><li><a href="/article/helicobacter-pylori">H. pylori</a> gastric infection depends on both NiFe-hydrogenase AND <a href="/article/nickel-urease">nickel urease</a></li><li>Both enzymes require Ni; nickel-limited conditions → both virulence pathways compromised</li><li>Therapeutic target: Nickel chelation or dietary nickel restriction in H. pylori-infected patients</li></ul>
+<p>Iron availability and bacterial competition:</p>
 <ul><li><a href="/article/helicobacter-pylori">H. pylori</a> must compete with host <a href="/article/transferrin">transferrin</a>, <a href="/article/lactoferrin">lactoferrin</a>, and <a href="/article/lipocalin-2">lipocalin 2</a> for iron</li><li>In dysbiotic states with <a href="/article/iron">iron</a> overload (e.g., <a href="/article/crohns-disease">crohns disease</a>, <a href="/article/iron">hemochromatosis</a>), H. pylori thrives</li><li><a href="/article/iron">iron</a> sequestration via nutritional immunity limits H. pylori burden</li></ul>
-<p><strong>Sulfate-reducer ecology:</strong></p>
+<p>Sulfate-reducer ecology:</p>
 <ul><li>Sulfate-reducing bacteria (via NiFe-hydrogenase) thrive in <a href="/article/iron">iron</a>-rich, anaerobic environments</li><li>They produce H₂S, which precipitates bioavailable <a href="/article/zinc">zinc</a> and <a href="/article/iron">iron</a>, creating further metal dysbiosis</li><li>This is a self-amplifying pathological cycle: <a href="/article/iron">iron</a> overload → H₂S production → further metal dysbiosis</li></ul>
 <h2>Connections</h2>
-<p><strong>Related enzymes:</strong></p>
-<ul><li><a href="/article/nickel-urease">nickel urease</a> — complementary H. pylori virulence factor; both require nickel</li><li><strong>[FeFe]-hydrogenases</strong> — simpler hydrogenases containing only iron; less common in pathogens</li><li><strong>Cytochrome c oxidase</strong> — uses H₂ electrons; works in tandem with NiFe-hydrogenase in H. pylori</li></ul>
-<p><strong>Related organisms:</strong></p>
-<ul><li><a href="/article/helicobacter-pylori">H. pylori</a> — primary pathogen expressing NiFe-hydrogenase; microaerophilic survival</li><li><a href="/article/methanobrevibacter-smithii">M. smithii</a> — methane-producing archaeon; H₂ consumer in the gut</li><li><strong>Sulfate-reducing bacteria</strong> (<a href="/article/desulfovibrio">desulfovibrio</a>, ) — H₂-dependent sulfate reducers in anaerobic environments</li><li><a href="/article/bacteroides-fragilis">bacteroides</a> — H₂ producers in fermentation; work synergistically with H₂-consuming methanogens</li></ul>
-<p><strong>Related concepts:</strong></p>
+<p>Related enzymes:</p>
+<ul><li><a href="/article/nickel-urease">nickel urease</a> — complementary H. pylori virulence factor; both require nickel</li><li>[FeFe]-hydrogenases — simpler hydrogenases containing only iron; less common in pathogens</li><li>Cytochrome c oxidase — uses H₂ electrons; works in tandem with NiFe-hydrogenase in H. pylori</li></ul>
+<p>Related organisms:</p>
+<ul><li><a href="/article/helicobacter-pylori">H. pylori</a> — primary pathogen expressing NiFe-hydrogenase; microaerophilic survival</li><li><a href="/article/methanobrevibacter-smithii">M. smithii</a> — methane-producing archaeon; H₂ consumer in the gut</li><li>Sulfate-reducing bacteria (<a href="/article/desulfovibrio">desulfovibrio</a>, ) — H₂-dependent sulfate reducers in anaerobic environments</li><li><a href="/article/bacteroides-fragilis">bacteroides</a> — H₂ producers in fermentation; work synergistically with H₂-consuming methanogens</li></ul>
+<p>Related concepts:</p>
 <ul><li><a href="/article/hypoxia">hypoxia</a>/ — low-O₂ niches where NiFe-hydrogenase enables survival</li><li><a href="/article/nutritional-immunity">nutritional immunity</a> — nickel and <a href="/article/iron">iron</a> sequestration as defenses against NiFe-hydrogenase-dependent pathogens</li><li><a href="/article/biofilm">biofilm</a> — interkingdom cooperation via H₂ consumption</li><li>— H. pylori NiFe-hydrogenase enables co-persistence with other microaerophiles</li><li><a href="/article/metal-dependent-virulence">metal-cofactor-dependency</a> — dual-metal requirement is a strategic vulnerability</li></ul>
-<p><strong>Related metals and proteins:</strong></p>
+<p>Related metals and proteins:</p>
 <ul><li><a href="/article/nickel">nickel</a> — essential cofactor; nickel depletion disables NiFe-hydrogenase</li><li><a href="/article/iron">iron</a> — essential cofactor; iron sequestration limits H. pylori persistence</li><li>— product of sulfate-reducer NiFe-hydrogenase coupled to sulfate reduction; dysbiotic byproduct</li></ul>
-<p><strong>Disease pages:</strong></p>
-<ul><li>, — H. pylori-driven diseases where NiFe-hydrogenase enables microaerophilic survival</li><li><strong>SIBO</strong>, <strong>methane-predominant dysbiosis</strong> — conditions with elevated <a href="/article/methanobrevibacter-smithii">M. smithii</a> and H₂-consuming activity</li></ul>
+<p>Disease pages:</p>
+<ul><li>, — H. pylori-driven diseases where NiFe-hydrogenase enables microaerophilic survival</li><li>SIBO, methane-predominant dysbiosis — conditions with elevated <a href="/article/methanobrevibacter-smithii">M. smithii</a> and H₂-consuming activity</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (8)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Benoit SL, Bhatt RJ, Maier RJ</span> (2021). <span style="font-style:italic;">The nickel-chelator dimethylglyoxime inhibits human amyloid beta peptide in vitro aggregation</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-021-86060-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-021-86060-1</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Alexander C. Razavi, Kaitlin S. Potts, Tanika N. Kelly et al.</span> (2019). <span style="font-style:italic;">Sex, gut microbiome, and cardiovascular disease risk</span>. <em style="color:#888;">Biology of Sex Differences</em>. <a href="https://doi.org/10.1186/s13293-019-0240-z" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1186/s13293-019-0240-z</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Monisha Jaishankar, Tenzin Tseten, Naresh Anbalagan et al.</span> (2014). <span style="font-style:italic;">Toxicity, Mechanism and Health Effects of Some Heavy Metals</span>. <em style="color:#888;">Interdisciplinary Toxicology</em>. <a href="https://doi.org/10.2478/intox-2014-0009" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.2478/intox-2014-0009</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Jhommara Bautista, Walter D. Cardona-Maya, Kelly Gancino-Guevara et al.</span> (2025). <span style="font-style:italic;">Bautista 2025 — Reprogramming Prostate Cancer Through the Microbiome</span>. <em style="color:#888;">Frontiers in Medicine</em>. <a href="https://doi.org/10.3389/fmed.2025.1690498" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmed.2025.1690498</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Shuya Lv, Jingrong Huang, Yadan Luo et al.</span> (2024). <span style="font-style:italic;">Lv 2024 — Gut Microbiota Is Involved in Male Reproductive Function: A Review</span>. <em style="color:#888;">Frontiers in Microbiology</em>. <a href="https://doi.org/10.3389/fmicb.2024.1371667" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmicb.2024.1371667</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Yuqi Wu, Oscar Wong, Sizhe Chen et al.</span> (2025). <span style="font-style:italic;">Wu 2025 — Distinct Diet-Microbiome Associations in Autism Spectrum Disorder</span>. <em style="color:#888;">Nature Communications</em>. <a href="https://doi.org/10.1038/s41467-025-67711-7" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41467-025-67711-7</a></li>
+<li id="ref-7" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Swierc J, Drzymala S, Wozniak D et al.</span> (2022). <span style="font-style:italic;">The influence of nickel on intestinal microbiota disturbances</span>. <em style="color:#888;">Pomeranian Journal of Life Sciences</em>. <a href="https://doi.org/10.21164/pomjlifesci.810" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.21164/pomjlifesci.810</a></li>
+<li id="ref-8" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Babak Khorsand, Hamid Asadzadeh Aghdaei, Ehsan Nazemalhosseini-Mojarad et al.</span> (2022). <span style="font-style:italic;">Khorsand 2022 — Overrepresentation of Enterobacteriaceae and Escherichia coli is the major gut microbiome signature in Crohn's and UC: comprehensive metagenomic analysis of IBDMDB datasets</span>. <em style="color:#888;">Frontiers in Cellular and Infection Microbiology</em>. <a href="https://doi.org/10.3389/fcimb.2022.1015890" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fcimb.2022.1015890</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -144,6 +166,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

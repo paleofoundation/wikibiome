@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,23 +73,23 @@
       <h1 itemprop="headline">Efflux Pumps</h1>
 
       <div itemprop="articleBody">
-        <p>Membrane-spanning protein complexes that <strong>actively export substrates from the bacterial cell</strong>, using energy from ATP hydrolysis or the proton motive force. In the context of metal-microbiome biology, efflux pumps serve a dual role that has profound clinical consequences: they export toxic metals to maintain <a href="/article/metal-homeostasis">metal homeostasis</a>, but many of the same pumps also export antibiotics &mdash; creating <strong>cross-resistance</strong> that links environmental metal exposure directly to antimicrobial resistance.</p><h2>Role in Metal Homeostasis</h2>
+        <p>Membrane-spanning protein complexes that actively export substrates from the bacterial cell, using energy from ATP hydrolysis or the proton motive force. In the context of metal-microbiome biology, efflux pumps serve a dual role that has profound clinical consequences: they export toxic metals to maintain <a href="/article/metal-homeostasis">metal homeostasis</a>, but many of the same pumps also export antibiotics &mdash; creating cross-resistance that links environmental metal exposure directly to antimicrobial resistance.</p><h2>Role in Metal Homeostasis</h2>
 <h2>The Flow Equilibrium Model</h2>
-<p>Nies (2025) proposed that efflux pumps, not importers, are the primary determinants of intracellular metal speciation <a href="/article/nies-2025-flow-equilibrium-model-mis-metalation-zinc">nies 2025 flow equilibrium model mis metalation zinc</a>:</p>
-<ul><li>Metal importers lack specificity &mdash; most divalent transition metals are ~0.75 A diameter and enter through the same channels</li><li><strong><a href="/article/metalloregulator">Metalloregulator</a> control efflux pump expression</strong>, adjusting export rates to maintain correct metal concentrations</li><li>Metals flow continuously through the cell: import into the <a href="/article/labile-metal-pool">labile metal pool</a>, protein binding or efflux</li><li>The balance between import and efflux determines the steady-state labile pool concentration</li></ul>
+<p>Nies (2025) proposed that efflux pumps, not importers, are the primary determinants of intracellular metal speciation <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
+<ul><li>Metal importers lack specificity &mdash; most divalent transition metals are ~0.75 A diameter and enter through the same channels</li><li><a href="/article/metalloregulator">Metalloregulator</a> control efflux pump expression, adjusting export rates to maintain correct metal concentrations</li><li>Metals flow continuously through the cell: import into the <a href="/article/labile-metal-pool">labile metal pool</a>, protein binding or efflux</li><li>The balance between import and efflux determines the steady-state labile pool concentration</li></ul>
 <h2>Metal-Specific Efflux Systems</h2>
-<table><thead><tr><th>Pump Family</th><th>Metals Exported</th><th>Energy Source</th><th>Key Examples</th></tr></thead><tbody><tr><td><strong>P-type ATPases</strong></td><td>Cu+, Zn2+, Cd2+, Pb2+</td><td>ATP</td><td>CopA (Cu export), ZntA (Zn/Cd/Pb export)</td></tr><tr><td><strong>RND (Resistance-Nodulation-Division)</strong></td><td>Co2+, Zn2+, Cd2+, Ni2+</td><td>Proton motive force</td><td>CzcCBA (Co/Zn/Cd in <em>Ralstonia</em>)</td></tr><tr><td><strong>CDF (Cation Diffusion Facilitator)</strong></td><td>Zn2+, Fe2+, Co2+, Mn2+</td><td>Proton antiport</td><td>YiiP/FieF (Fe/Zn), MntP (Mn)</td></tr><tr><td><strong>MFS (Major Facilitator Superfamily)</strong></td><td>Various</td><td>Proton antiport</td><td>Some metal-specific members</td></tr></tbody></table>
+<table><thead><tr><th>Pump Family</th><th>Metals Exported</th><th>Energy Source</th><th>Key Examples</th></tr></thead><tbody><tr><td>P-type ATPases</td><td>Cu+, Zn2+, Cd2+, Pb2+</td><td>ATP</td><td>CopA (Cu export), ZntA (Zn/Cd/Pb export)</td></tr><tr><td>RND (Resistance-Nodulation-Division)</td><td>Co2+, Zn2+, Cd2+, Ni2+</td><td>Proton motive force</td><td>CzcCBA (Co/Zn/Cd in <em>Ralstonia</em>)</td></tr><tr><td>CDF (Cation Diffusion Facilitator)</td><td>Zn2+, Fe2+, Co2+, Mn2+</td><td>Proton antiport</td><td>YiiP/FieF (Fe/Zn), MntP (Mn)</td></tr><tr><td>MFS (Major Facilitator Superfamily)</td><td>Various</td><td>Proton antiport</td><td>Some metal-specific members</td></tr></tbody></table>
 <h2>Cross-Resistance: The Metal-Antibiotic Bridge</h2>
-<p>The most clinically consequential feature of efflux pumps: many have <strong>broad substrate ranges</strong> that encompass both metals and antibiotics <a href="/article/baker-austin-2006-co-selection-antibiotic-metal-resistance">baker austin 2006 co selection antibiotic metal resistance</a>:</p>
+<p>The most clinically consequential feature of efflux pumps: many have broad substrate ranges that encompass both metals and antibiotics <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>:</p>
 <h2>Direct Cross-Resistance Examples</h2>
-<ul><li><strong>CzcCBA</strong> (RND family): Expels cobalt, zinc, and cadmium &mdash; but its broad substrate range also includes certain antibiotics. Metal exposure selects for CzcCBA overexpression, conferring antibiotic resistance without any antibiotic exposure</li><li><strong>AcrAB-TolC</strong> (RND family): The major multidrug efflux system in Gram-negative bacteria. Copper stress activates the MarR repressor, which induces AcrAB-TolC expression, creating broad-spectrum antibiotic resistance via a <strong>metal intermediate</strong> <a href="/article/wales-2015-co-selection-resistance-antibiotics-biocides-metals">wales 2015 co selection resistance antibiotics biocides metals</a></li><li><strong>TetL</strong>: Transports both tetracycline and cobalt</li><li><strong>MexAB-OprM</strong>: The <em>Pseudomonas aeruginosa</em> multidrug efflux pump that also exports metals; linked to imipenem resistance through co-regulatory circuits with metal efflux operons</li></ul>
+<ul><li>CzcCBA (RND family): Expels cobalt, zinc, and cadmium &mdash; but its broad substrate range also includes certain antibiotics. Metal exposure selects for CzcCBA overexpression, conferring antibiotic resistance without any antibiotic exposure</li><li>AcrAB-TolC (RND family): The major multidrug efflux system in Gram-negative bacteria. Copper stress activates the MarR repressor, which induces AcrAB-TolC expression, creating broad-spectrum antibiotic resistance via a metal intermediate <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup></li><li>TetL: Transports both tetracycline and cobalt</li><li>MexAB-OprM: The <em>Pseudomonas aeruginosa</em> multidrug efflux pump that also exports metals; linked to imipenem resistance through co-regulatory circuits with metal efflux operons</li></ul>
 <h2>The Regulatory Cascade</h2>
 <p>Metal exposure does not always directly induce antibiotic efflux pumps. Sometimes the connection is indirect:</p>
 <ol><li>Metal stress damages the cell envelope</li><li>Envelope stress activates sigma factors or two-component systems</li><li>These regulators induce efflux pump expression as part of a general stress response</li><li>The induced pumps happen to also export antibiotics</li></ol>
-<p>This mechanism means that <strong>sub-inhibitory metal concentrations</strong> &mdash; levels too low to kill bacteria &mdash; can still drive antibiotic resistance by activating stress-response efflux systems.</p>
+<p>This mechanism means that sub-inhibitory metal concentrations &mdash; levels too low to kill bacteria &mdash; can still drive antibiotic resistance by activating stress-response efflux systems.</p>
 <h2>Relevance to Co-Selection</h2>
-<p>Efflux pumps are the dominant mechanism of the <strong>cross-resistance</strong> arm of <a href="/article/co-selection">co selection</a> <a href="/article/baker-austin-2006-co-selection-antibiotic-metal-resistance">baker austin 2006 co selection antibiotic metal resistance</a>:</p>
-<ul><li>Unlike <strong>co-resistance</strong> (where distinct resistance genes ride the same mobile element), cross-resistance requires no genetic linkage &mdash; a single pump does double duty</li><li>This means cross-resistance can arise in any bacterium with broad-substrate efflux pumps, without horizontal gene transfer</li><li>Reduced outer membrane permeability (another cross-resistance mechanism selected by metals) further reduces antibiotic entry, compounding efflux-mediated resistance</li></ul>
+<p>Efflux pumps are the dominant mechanism of the cross-resistance arm of <a href="/article/co-selection">co selection</a> <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>:</p>
+<ul><li>Unlike co-resistance (where distinct resistance genes ride the same mobile element), cross-resistance requires no genetic linkage &mdash; a single pump does double duty</li><li>This means cross-resistance can arise in any bacterium with broad-substrate efflux pumps, without horizontal gene transfer</li><li>Reduced outer membrane permeability (another cross-resistance mechanism selected by metals) further reduces antibiotic entry, compounding efflux-mediated resistance</li></ul>
 <h2>Efflux Pumps as Drug Targets</h2>
 <h2>Efflux Pump Inhibitors (EPIs)</h2>
 <p>Blocking efflux could simultaneously resensitize bacteria to both metals and antibiotics:</p>
@@ -94,6 +101,16 @@
 <ul><li><a href="/article/co-selection">co selection</a> &mdash; efflux pumps are the primary mechanism of cross-resistance</li><li><a href="/article/metalloregulator">metalloregulator</a> &mdash; metalloregulators control efflux pump expression</li><li><a href="/article/labile-metal-pool">labile metal pool</a> &mdash; efflux pumps maintain the labile pool steady state</li><li><a href="/article/antimicrobial-resistance">antimicrobial resistance</a> &mdash; efflux-mediated antibiotic resistance</li><li><a href="/article/antimicrobial-metals">antimicrobial metals</a> &mdash; metals exploit efflux capacity limitations</li><li><a href="/article/metal-homeostasis">metal homeostasis</a> &mdash; efflux is one of the three pillars (import, storage, efflux)</li><li><a href="/article/metal-sensing">metal sensing</a> &mdash; efflux pump expression is controlled by metal sensors</li><li><a href="/article/biofilm">biofilm</a> &mdash; biofilm formation can be an alternative to efflux for metal tolerance</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (3)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Dietrich H Nies, Julie A Maupin-Furlow</span> (2025). <span style="font-style:italic;">Nies 2025 — A Flow Equilibrium Model Controlling Cytoplasmic Transition Metal Cation Pools and Preventing Mis-Metalation</span>. <em style="color:#888;">Journal of Bacteriology</em></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Baker-Austin C, Wright MS, Stepanauskas R et al.</span> (2006). <span style="font-style:italic;">Baker-Austin 2006 — Co-selection of Antibiotic and Metal Resistance</span>. <em style="color:#888;">Trends in Microbiology</em>. <a href="https://doi.org/10.1016/j.tim.2006.02.006" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1016/j.tim.2006.02.006</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Wales AD, Davies RH</span> (2015). <span style="font-style:italic;">Co-Selection of Resistance to Antibiotics, Biocides and Heavy Metals, and Its Relevance to Foodborne Pathogens</span>. <em style="color:#888;">Antibiotics</em>. <a href="https://doi.org/10.3390/antibiotics4040567" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/antibiotics4040567</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -113,6 +130,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

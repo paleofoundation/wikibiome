@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,22 +74,22 @@
 
       <div itemprop="articleBody">
         <h2>Overview</h2>
-<p><strong>Toll-like receptors (TLRs)</strong> are a family of pattern recognition receptors (PRRs) that form the front line of the innate immune system. They detect conserved molecular patterns from microbes &mdash; pathogen-associated molecular patterns (PAMPs) &mdash; and damage-associated molecular patterns (DAMPs) from injured host tissue. In the gut, TLRs are the molecular interface between the microbiome and the immune system, continuously sampling luminal contents and calibrating inflammatory responses.</p>
-<p>What makes TLRs distinctive in the WikiBiome framework is their dual role as <strong>microbe sensors</strong> and <strong>metal responders</strong>. Nickel directly activates TLR4 in a human-specific manner, and metal-induced tissue damage generates DAMPs that trigger TLR signaling. This positions TLRs at the intersection of metallomics, microbiology, and immunology.</p>
+<p>Toll-like receptors (TLRs) are a family of pattern recognition receptors (PRRs) that form the front line of the innate immune system. They detect conserved molecular patterns from microbes &mdash; pathogen-associated molecular patterns (PAMPs) &mdash; and damage-associated molecular patterns (DAMPs) from injured host tissue. In the gut, TLRs are the molecular interface between the microbiome and the immune system, continuously sampling luminal contents and calibrating inflammatory responses.</p>
+<p>What makes TLRs distinctive in the WikiBiome framework is their dual role as microbe sensors and metal responders. Nickel directly activates TLR4 in a human-specific manner, and metal-induced tissue damage generates DAMPs that trigger TLR signaling. This positions TLRs at the intersection of metallomics, microbiology, and immunology.</p>
 <h2>The TLR Family</h2>
-<table><thead><tr><th>Receptor</th><th>Location</th><th>Ligand</th><th>Microbial Source</th><th>Metal Connection</th></tr></thead><tbody><tr><td><strong>TLR1/2</strong></td><td>Cell surface</td><td>Triacyl lipopeptides</td><td>Gram-positive bacteria</td><td>&mdash;</td></tr><tr><td><strong>TLR2</strong></td><td>Cell surface</td><td>Lipoteichoic acid, zymosan</td><td>Gram-positives, fungi</td><td>Barrier integrity in esophageal dysbiosis <a href="/article/chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd">chen 2024 esophageal dysbiosis tlr2 barrier integrity gerd</a></td></tr><tr><td><strong>TLR3</strong></td><td>Endosomal</td><td>dsRNA</td><td>Viruses</td><td>&mdash;</td></tr><tr><td>**[[tlr4</td><td>TLR4]]**</td><td>Cell surface</td><td>LPS</td><td>Gram-negative bacteria</td><td><strong>Nickel direct activation</strong> (human-specific) <a href="/article/ahlstrom-2019-nickel-allergy-review">ahlstrom 2019 nickel allergy review</a></td></tr><tr><td><strong>TLR5</strong></td><td>Cell surface</td><td>Flagellin</td><td>Motile bacteria</td><td>&mdash;</td></tr><tr><td><strong>TLR7/8</strong></td><td>Endosomal</td><td>ssRNA</td><td>Viruses</td><td>&mdash;</td></tr><tr><td><strong>TLR9</strong></td><td>Endosomal</td><td>CpG DNA</td><td>Bacteria, viruses</td><td>&mdash;</td></tr></tbody></table>
+<table><thead><tr><th>Receptor</th><th>Location</th><th>Ligand</th><th>Microbial Source</th><th>Metal Connection</th></tr></thead><tbody><tr><td>TLR1/2</td><td>Cell surface</td><td>Triacyl lipopeptides</td><td>Gram-positive bacteria</td><td>&mdash;</td></tr><tr><td>TLR2</td><td>Cell surface</td><td>Lipoteichoic acid, zymosan</td><td>Gram-positives, fungi</td><td>Barrier integrity in esophageal dysbiosis <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup></td></tr><tr><td>TLR3</td><td>Endosomal</td><td>dsRNA</td><td>Viruses</td><td>&mdash;</td></tr><tr><td>[[tlr4</td><td>TLR4]]</td><td>Cell surface</td><td>LPS</td><td>Gram-negative bacteria</td><td>Nickel direct activation (human-specific) <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup></td></tr><tr><td>TLR5</td><td>Cell surface</td><td>Flagellin</td><td>Motile bacteria</td><td>&mdash;</td></tr><tr><td>TLR7/8</td><td>Endosomal</td><td>ssRNA</td><td>Viruses</td><td>&mdash;</td></tr><tr><td>TLR9</td><td>Endosomal</td><td>CpG DNA</td><td>Bacteria, viruses</td><td>&mdash;</td></tr></tbody></table>
 <h2>TLR4: The Metal-Responsive Sentinel</h2>
-<p>TLR4 is covered in depth on its own page (<a href="/article/tlr4">tlr4</a>), but its significance warrants summary here. TLR4 is the primary receptor for bacterial lipopolysaccharide (LPS) and is <strong>directly activated by nickel</strong> through histidine residues (H456, H458) unique to the human receptor <a href="/article/ahlstrom-2019-nickel-allergy-review">ahlstrom 2019 nickel allergy review</a>. This means:</p>
-<ul><li><strong>Dietary nickel</strong> can trigger innate immune activation without any microbial involvement</li><li><strong>Mouse models fail</strong> to recapitulate nickel-driven inflammation because murine TLR4 lacks these histidine residues</li><li><strong>Nickel allergy</strong> (affecting ~15% of humans) is fundamentally a TLR4-mediated response</li><li>The combination of nickel exposure and Gram-negative <a href="/article/dysbiosis">dysbiosis</a> (LPS source) creates <strong>additive TLR4 activation</strong></li></ul>
+<p>TLR4 is covered in depth on its own page (<a href="/article/tlr4">tlr4</a>), but its significance warrants summary here. TLR4 is the primary receptor for bacterial lipopolysaccharide (LPS) and is directly activated by nickel through histidine residues (H456, H458) unique to the human receptor <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>. This means:</p>
+<ul><li>Dietary nickel can trigger innate immune activation without any microbial involvement</li><li>Mouse models fail to recapitulate nickel-driven inflammation because murine TLR4 lacks these histidine residues</li><li>Nickel allergy (affecting ~15% of humans) is fundamentally a TLR4-mediated response</li><li>The combination of nickel exposure and Gram-negative <a href="/article/dysbiosis">dysbiosis</a> (LPS source) creates additive TLR4 activation</li></ul>
 <h2>TLR2: Barrier Integrity and Esophageal Dysbiosis</h2>
-<p>TLR2 plays a protective role in maintaining epithelial barrier integrity. In the esophagus, <a href="/article/dysbiosis">dysbiosis</a> with loss of normal flora disrupts TLR2 signaling, contributing to barrier breakdown in <a href="/article/gerd">gastroesophageal reflux disease</a> <a href="/article/chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd">chen 2024 esophageal dysbiosis tlr2 barrier integrity gerd</a>. This is a counterpoint to the pro-inflammatory reputation of TLRs: TLR2 activation by commensal-derived lipoteichoic acid actually strengthens tight junctions.</p>
+<p>TLR2 plays a protective role in maintaining epithelial barrier integrity. In the esophagus, <a href="/article/dysbiosis">dysbiosis</a> with loss of normal flora disrupts TLR2 signaling, contributing to barrier breakdown in <a href="/article/gerd">gastroesophageal reflux disease</a> <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>. This is a counterpoint to the pro-inflammatory reputation of TLRs: TLR2 activation by commensal-derived lipoteichoic acid actually strengthens tight junctions.</p>
 <h2>TLRs in the Gut-Brain Axis</h2>
-<p>The Parkinson's disease gut-brain connection is partially mediated through TLR signaling <a href="/article/perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain">perez pardo 2022 toll like receptors parkinsons microbiome gut brain</a>:</p>
-<ol><li><strong>Gut dysbiosis</strong> increases luminal LPS and other TLR ligands</li><li><strong>Enteric TLR activation</strong> drives local inflammation and barrier dysfunction</li><li><strong><a href="/article/alpha-synuclein">alpha synuclein</a></strong> aggregation in the enteric nervous system</li><li><strong>Vagal nerve transmission</strong> of inflammatory signals to the brainstem</li><li><strong>Microglial TLR4 activation</strong> by alpha-synuclein aggregates in the brain</li><li><strong><a href="/article/neuroinflammation">neuroinflammation</a></strong> and dopaminergic neuron death</li></ol>
+<p>The Parkinson's disease gut-brain connection is partially mediated through TLR signaling <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup>:</p>
+<ol><li>Gut dysbiosis increases luminal LPS and other TLR ligands</li><li>Enteric TLR activation drives local inflammation and barrier dysfunction</li><li><a href="/article/alpha-synuclein">alpha synuclein</a> aggregation in the enteric nervous system</li><li>Vagal nerve transmission of inflammatory signals to the brainstem</li><li>Microglial TLR4 activation by alpha-synuclein aggregates in the brain</li><li><a href="/article/neuroinflammation">neuroinflammation</a> and dopaminergic neuron death</li></ol>
 <p>This cascade illustrates how TLRs function as relay stations in the gut-brain axis, converting microbial signals into neural and immune responses.</p>
 <h2>Metal Activation of TLRs</h2>
 <p>Beyond nickel's direct TLR4 activation, metals influence TLR signaling through several mechanisms:</p>
-<ul><li><strong>Cadmium</strong> aggravates TLR4/NF-kB signaling in diabetic nephropathy, attenuated by zinc + curcumin</li><li><strong>Iron</strong> overload generates DAMPs (HMGB1, free heme) that activate TLR4</li><li><strong>Zinc</strong> deficiency impairs TLR-mediated immune responses and increases susceptibility to infection</li><li><strong><a href="/article/copper">copper</a></strong> excess generates ROS that produce DAMPs activating TLR2 and TLR4</li></ul>
+<ul><li>Cadmium aggravates TLR4/NF-kB signaling in diabetic nephropathy, attenuated by zinc + curcumin</li><li>Iron overload generates DAMPs (HMGB1, free heme) that activate TLR4</li><li>Zinc deficiency impairs TLR-mediated immune responses and increases susceptibility to infection</li><li><a href="/article/copper">copper</a> excess generates ROS that produce DAMPs activating TLR2 and TLR4</li></ul>
 <h2>TLR Signaling Downstream</h2>
 <p>All TLRs signal through two major pathways:</p>
 <h2>MyD88-Dependent (All TLRs except TLR3)</h2>
@@ -99,6 +106,16 @@
 <ul><li><a href="/article/tlr4">tlr4</a> &mdash; detailed TLR4 biology and disease connections</li><li><a href="/article/nickel-allergy">nickel allergy</a> &mdash; TLR4-mediated contact allergy</li><li><a href="/article/neuroinflammation">neuroinflammation</a> &mdash; TLR-driven brain inflammation</li><li><a href="/article/bacterial-contamination-hypothesis">bacterial contamination hypothesis</a> &mdash; TLR4/LPS in endometriosis</li><li><a href="/article/inflammation">inflammation</a> &mdash; NF-kB as convergence node</li><li><a href="/article/alpha-synuclein">alpha synuclein</a> &mdash; TLR4 ligand in neurodegeneration</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (3)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Chen S, Jiang D, Zhuang Q et al.</span> (2024). <span style="font-style:italic;">Esophageal microbial dysbiosis impairs mucosal barrier integrity via toll-like receptor 2 pathway in patients with gastroesophageal reflux symptoms</span>. <em style="color:#888;">Journal of Translational Medicine</em>. <a href="https://doi.org/10.1186/s12967-024-05878-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1186/s12967-024-05878-1</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Ahlström MG, Thyssen JP, Wennervaldt M et al.</span> (2019). <span style="font-style:italic;">Nickel Allergy and Allergic Contact Dermatitis: A Clinical Review</span>. <em style="color:#888;">Contact Dermatitis</em>. <a href="https://doi.org/10.1111/cod.13327" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1111/cod.13327</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Paula Perez-Pardo, Mitch Hartog, Aletta D Kraneveld</span> (2022). <span style="font-style:italic;">Perez-Pardo 2022 -- How Toll-Like Receptors Influence Parkinson's Disease in the Microbiome-Gut-Brain Axis</span>. <em style="color:#888;">Frontiers in Immunology</em>. <a href="https://doi.org/10.3389/fimmu.2022.1154626" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fimmu.2022.1154626</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -123,6 +140,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

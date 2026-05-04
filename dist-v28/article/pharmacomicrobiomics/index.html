@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -70,7 +77,7 @@
 <h2>The L-DOPA Paradigm</h2>
 <p>The most striking example relevant to this wiki: gut bacteria (Enterococcus faecalis, via tyrosine decarboxylase) convert L-DOPA to dopamine in the gut lumen before it reaches the brain. This directly reduces the efficacy of the primary <a href="/article/parkinsons-disease">parkinsons disease</a> treatment. The bacterial enzyme is metal-dependent (pyridoxal phosphate cofactor), linking drug metabolism to microbial metallomics. Patients with higher Enterococcus abundance require higher L-DOPA doses &mdash; a direct pharmacomicrobiomic effect.</p>
 <h2>Other Drug-Metabolizing Reactions</h2>
-<ul><li><strong>Digoxin</strong> &mdash; Eggerthella lenta reduces the lactone ring, inactivating digoxin. A single bacterial species determines whether a cardiac glycoside works.</li><li><strong>Sulfasalazine</strong> &mdash; Bacterial azoreductases cleave the azo bond to release 5-ASA, the active anti-inflammatory component used in <a href="/article/inflammatory-bowel-disease">inflammatory bowel disease</a>.</li><li><strong>Irinotecan</strong> &mdash; Bacterial <a href="/article/beta-glucuronidase">beta glucuronidase</a> reactivates the glucuronidated metabolite SN-38G to toxic SN-38 in the colon, causing severe diarrhea. The same enzyme central to the <a href="/article/estrobolome">estrobolome</a>.</li><li><strong>Nitrazepam, clonazepam</strong> &mdash; Bacterial nitroreductases activate/inactivate benzodiazepines.</li><li><strong>Methotrexate</strong> &mdash; Gut bacteria influence folate metabolism and methotrexate polyglutamation, affecting efficacy in <a href="/article/rheumatoid-arthritis">rheumatoid arthritis</a>.</li></ul>
+<ul><li>Digoxin &mdash; Eggerthella lenta reduces the lactone ring, inactivating digoxin. A single bacterial species determines whether a cardiac glycoside works.</li><li>Sulfasalazine &mdash; Bacterial azoreductases cleave the azo bond to release 5-ASA, the active anti-inflammatory component used in <a href="/article/inflammatory-bowel-disease">inflammatory bowel disease</a>.</li><li>Irinotecan &mdash; Bacterial <a href="/article/beta-glucuronidase">beta glucuronidase</a> reactivates the glucuronidated metabolite SN-38G to toxic SN-38 in the colon, causing severe diarrhea. The same enzyme central to the <a href="/article/estrobolome">estrobolome</a>.</li><li>Nitrazepam, clonazepam &mdash; Bacterial nitroreductases activate/inactivate benzodiazepines.</li><li>Methotrexate &mdash; Gut bacteria influence folate metabolism and methotrexate polyglutamation, affecting efficacy in <a href="/article/rheumatoid-arthritis">rheumatoid arthritis</a>.</li></ul>
 <h2>Drugs Alter the Microbiome</h2>
 <h2>Proton Pump Inhibitors (PPIs)</h2>
 <p>Among the most disruptive non-antibiotic drugs for the microbiome. PPIs raise gastric pH, permitting oral bacteria to colonize the gut, increasing Streptococcus and Enterococcus while depleting Clostridiales. PPI use associates with increased <a href="/article/clostridioides-difficile">clostridioides difficile</a> infection, reduced <a href="/article/short-chain-fatty-acids">short chain fatty acids</a> production, and altered metal absorption (especially iron, calcium, magnesium).</p>
@@ -84,7 +91,7 @@
 <p>Increase <a href="/article/intestinal-permeability">intestinal permeability</a> directly and shift microbiome composition. The combination of NSAID-induced barrier damage and metal exposure represents a compounding risk.</p>
 <h2>Implications for Drug Dosing</h2>
 <p>The microbiome introduces a layer of pharmacokinetic variability invisible to standard pharmacogenomics:</p>
-<ul><li><strong>Inter-individual variation</strong> &mdash; microbial enzyme activity varies 100-fold between individuals</li><li><strong>Diet effects</strong> &mdash; dietary metal intake alters the microbiome, which alters drug metabolism</li><li><strong>Antibiotic co-administration</strong> &mdash; can ablate the microbial enzymes needed to activate or inactivate co-prescribed drugs</li><li><strong>Probiotic interactions</strong> &mdash; <a href="/article/probiotics">probiotics</a> may restore or introduce drug-metabolizing capacity</li></ul>
+<ul><li>Inter-individual variation &mdash; microbial enzyme activity varies 100-fold between individuals</li><li>Diet effects &mdash; dietary metal intake alters the microbiome, which alters drug metabolism</li><li>Antibiotic co-administration &mdash; can ablate the microbial enzymes needed to activate or inactivate co-prescribed drugs</li><li>Probiotic interactions &mdash; <a href="/article/probiotics">probiotics</a> may restore or introduce drug-metabolizing capacity</li></ul>
 <h2>The Metals Connection</h2>
 <p>Pharmacomicrobiomics intersects with metallomics in underappreciated ways:</p>
 <ul><li>Metal-dependent microbial enzymes metabolize drugs (L-DOPA example)</li><li>Drugs that alter metal absorption (PPIs → Fe, Ca, Mg) change the metal landscape of the gut</li><li>Metal chelators <a href="/article/metal-chelation-therapy">metal chelation therapy</a> alter luminal metal availability, reshaping the microbiome</li><li>Metal-induced <a href="/article/dysbiosis">dysbiosis</a> changes the drug-metabolizing capacity of the gut</li><li>Metal supplements (Fe, Zn) directly alter microbiome composition and drug metabolism</li></ul>
@@ -94,6 +101,18 @@
 <ul><li><a href="/article/dysbiosis">dysbiosis</a> &mdash; the microbiome disruption drugs can cause</li><li><a href="/article/probiotics">probiotics</a> &mdash; potential co-therapeutics to optimize drug metabolism</li><li><a href="/article/parkinsons-disease">parkinsons disease</a> &mdash; the L-DOPA paradigm case</li><li><a href="/article/beta-glucuronidase">beta glucuronidase</a> &mdash; key enzyme in both drug metabolism and <a href="/article/estrobolome">estrobolome</a></li><li><a href="/article/gut-metal-microbiome">gut metal microbiome</a> &mdash; the framework connecting metals, microbes, and now drugs</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (5)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Hui Duan, Leilei Yu, Fengwei Tian et al.</span> (2020). <span style="font-style:italic;">Gut Microbiota: A Target for Heavy Metal Toxicity and a Probiotic Protective Strategy</span>. <em style="color:#888;">Science of the Total Environment</em>. <a href="https://doi.org/10.1016/j.scitotenv.2020.140429" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1016/j.scitotenv.2020.140429</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Liliana Anchidin-Norocel, Oana C. Iatcu, Andrei Lobiuc et al.</span> (2025). <span style="font-style:italic;">Heavy Metal-Gut Microbiota Interactions: Probiotics Modulation and Biosensors Detection</span>. <em style="color:#888;">Biosensors</em>. <a href="https://doi.org/10.3390/bios15030188" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/bios15030188</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Karen Pendergrass</span> (2025). <span style="font-style:italic;">Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology</span>. <em style="color:#888;">Conference Presentation</em>. <a href="https://doi.org/10.5281/zenodo.17830083" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.5281/zenodo.17830083</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Gentile F, Doneddu PE, Riva N et al.</span> (2020). <span style="font-style:italic;">Diet, Microbiota and Brain Health: Unraveling the Network Intersecting Metabolism and Neurodegeneration</span>. <em style="color:#888;">International Journal of Molecular Sciences</em>. <a href="https://doi.org/10.3390/ijms21207471" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3390/ijms21207471</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Khatoon S, Kalam N, Rashid S et al.</span> (2023). <span style="font-style:italic;">Effects of gut microbiota on neurodegenerative diseases</span>. <em style="color:#888;">Frontiers in Aging Neuroscience</em>. <a href="https://doi.org/10.2147/DDDT.S580330" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.2147/DDDT.S580330</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -120,6 +139,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

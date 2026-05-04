@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -66,34 +73,45 @@
       <h1 itemprop="headline">Ceruloplasmin</h1>
 
       <div itemprop="articleBody">
-        <p>The major copper-carrying protein in human blood, binding approximately <strong>95% of circulating copper</strong>. Ceruloplasmin is far more than a passive transport vehicle &mdash; it is a multicopper oxidase with ferroxidase activity, an acute-phase reactant that rises with inflammation, and a protein whose dysfunction sits at the intersection of copper toxicity, iron dysregulation, and neurodegeneration. Understanding ceruloplasmin is essential for interpreting serum copper levels across virtually every disease studied in this wiki: <strong>elevated serum copper nearly always reflects elevated ceruloplasmin, which nearly always reflects inflammation</strong>.</p><h2>Structure and Function</h2>
+        <p>The major copper-carrying protein in human blood, binding approximately 95% of circulating copper. Ceruloplasmin is far more than a passive transport vehicle &mdash; it is a multicopper oxidase with ferroxidase activity, an acute-phase reactant that rises with inflammation, and a protein whose dysfunction sits at the intersection of copper toxicity, iron dysregulation, and neurodegeneration. Understanding ceruloplasmin is essential for interpreting serum copper levels across virtually every disease studied in this wiki: elevated serum copper nearly always reflects elevated ceruloplasmin, which nearly always reflects inflammation.</p><h2>Structure and Function</h2>
 <h2>Copper Carrier</h2>
-<ul><li>Synthesized in the liver; loaded with 6 copper atoms per molecule via <strong>ATP7B</strong> (the Wilson disease protein) in hepatocyte trans-Golgi network</li><li>Secreted as holoceruloplasmin (copper-loaded) into blood</li><li>Without copper loading (as in Wilson disease), apoceruloplasmin is rapidly degraded, resulting in paradoxically low serum ceruloplasmin despite hepatic copper overload</li></ul>
+<ul><li>Synthesized in the liver; loaded with 6 copper atoms per molecule via ATP7B (the Wilson disease protein) in hepatocyte trans-Golgi network</li><li>Secreted as holoceruloplasmin (copper-loaded) into blood</li><li>Without copper loading (as in Wilson disease), apoceruloplasmin is rapidly degraded, resulting in paradoxically low serum ceruloplasmin despite hepatic copper overload</li></ul>
 <h2>Ferroxidase Activity</h2>
-<p>Ceruloplasmin's most critical enzymatic function is <strong>oxidizing Fe2+ to Fe3+</strong>, enabling iron loading onto <a href="/article/transferrin">transferrin</a>:</p>
-<ul><li>Fe2+ (ferrous) is the form exported from cells via <a href="/article/ferroportin">ferroportin</a></li><li>Fe3+ (ferric) is the form that binds transferrin for safe plasma transport</li><li>Without ceruloplasmin's ferroxidase activity, iron accumulates as toxic Fe2+ in tissues</li><li>This connects copper metabolism directly to iron homeostasis: <strong>copper deficiency causes iron overload</strong> through failed ferroxidase activity</li></ul>
+<p>Ceruloplasmin's most critical enzymatic function is oxidizing Fe2+ to Fe3+, enabling iron loading onto <a href="/article/transferrin">transferrin</a>:</p>
+<ul><li>Fe2+ (ferrous) is the form exported from cells via <a href="/article/ferroportin">ferroportin</a></li><li>Fe3+ (ferric) is the form that binds transferrin for safe plasma transport</li><li>Without ceruloplasmin's ferroxidase activity, iron accumulates as toxic Fe2+ in tissues</li><li>This connects copper metabolism directly to iron homeostasis: copper deficiency causes iron overload through failed ferroxidase activity</li></ul>
 <h2>Acute-Phase Reactant</h2>
-<p>Ceruloplasmin is upregulated by <strong>IL-6</strong> during inflammation, making it a positive acute-phase protein. This has profound implications for interpreting serum copper:</p>
+<p>Ceruloplasmin is upregulated by IL-6 during inflammation, making it a positive acute-phase protein. This has profound implications for interpreting serum copper:</p>
 <ul><li>Elevated serum Cu in cancer, PCOS, IBD, RA, depression, and schizophrenia may largely reflect ceruloplasmin's acute-phase elevation rather than true copper excess</li><li>The Cu/Zn ratio &mdash; one of the most replicated biomarkers across diseases &mdash; is partly an inflammation marker (ceruloplasmin up) combined with a zinc consumption marker (zinc used in immune cell proliferation)</li></ul>
 <h2>The Interpretive Challenge</h2>
-<p>Ceruloplasmin creates a fundamental conundrum for metallomic studies: <strong>is elevated serum copper a cause or consequence of disease?</strong></p>
-<p>Three possibilities exist for any condition showing elevated Cu <a href="/article/zhang-2022-metallomics-cancer-review">zhang 2022 metallomics cancer review</a>:</p>
-<ol><li><strong>Copper drives pathology</strong>: Excess Cu generates ROS via Fenton-like chemistry, promotes cuproplasia in cancer, or acts as a <a href="/article/metalloestrogens">metalloestrogen</a></li><li><strong>Inflammation drives copper</strong>: Ceruloplasmin rises as an acute-phase reactant; Cu rises passively as cargo. The copper elevation is epiphenomenal</li><li><strong>Bidirectional amplification</strong>: Inflammation raises ceruloplasmin/Cu, and elevated free (non-ceruloplasmin-bound) Cu generates additional oxidative damage, which drives more inflammation</li></ol>
-<p>Distinguishing these requires measuring <strong>free copper</strong> (non-ceruloplasmin-bound Cu), which is not part of standard clinical panels. Free copper is the fraction capable of redox cycling and mis-metallation; ceruloplasmin-bound copper is largely inert.</p>
+<p>Ceruloplasmin creates a fundamental conundrum for metallomic studies: is elevated serum copper a cause or consequence of disease?</p>
+<p>Three possibilities exist for any condition showing elevated Cu <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>:</p>
+<ol><li>Copper drives pathology: Excess Cu generates ROS via Fenton-like chemistry, promotes cuproplasia in cancer, or acts as a <a href="/article/metalloestrogens">metalloestrogen</a></li><li>Inflammation drives copper: Ceruloplasmin rises as an acute-phase reactant; Cu rises passively as cargo. The copper elevation is epiphenomenal</li><li>Bidirectional amplification: Inflammation raises ceruloplasmin/Cu, and elevated free (non-ceruloplasmin-bound) Cu generates additional oxidative damage, which drives more inflammation</li></ol>
+<p>Distinguishing these requires measuring free copper (non-ceruloplasmin-bound Cu), which is not part of standard clinical panels. Free copper is the fraction capable of redox cycling and mis-metallation; ceruloplasmin-bound copper is largely inert.</p>
 <h2>Disease Contexts</h2>
 <h2>Cancer (Pan-Cancer Elevation)</h2>
-<p>Serum copper is elevated across virtually all cancer types. Ceruloplasmin-mediated copper transport delivers Cu to tumor-promoting enzymes including lysyl oxidase-like proteins (extracellular matrix remodeling) and supports the <a href="/article/cuproptosis">cuproptosis</a>/cuproplasia axis <a href="/article/zhang-2022-metallomics-cancer-review">zhang 2022 metallomics cancer review</a>.</p>
+<p>Serum copper is elevated across virtually all cancer types. Ceruloplasmin-mediated copper transport delivers Cu to tumor-promoting enzymes including lysyl oxidase-like proteins (extracellular matrix remodeling) and supports the <a href="/article/cuproptosis">cuproptosis</a>/cuproplasia axis <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>.</p>
 <h2>Neurodegeneration (Paradoxical Reduction)</h2>
-<p>In <a href="/article/alzheimers-disease">alzheimers disease</a>, ceruloplasmin activity is <strong>reduced</strong> in brain tissue despite elevated peripheral copper <a href="/article/islam-2022-metal-toxicity-alzheimers-extensive-review">islam 2022 metal toxicity alzheimers extensive review</a>:</p>
-<ul><li>Reduced ferroxidase activity impairs iron oxidation, promoting Fe2+ accumulation in amyloid plaques</li><li>This creates a dual metal problem: copper mislocalized to plaques (driving <a href="/article/amyloid-beta">amyloid-beta-aggregation</a>) and iron trapped in reduced form (driving <a href="/article/ferroptosis">ferroptosis</a>)</li><li>Brain ceruloplasmin reduction may contribute to the paradox of peripheral copper excess and central copper deficiency in AD <a href="/article/scholefield-2024-brain-metallomics-dementia">scholefield 2024 brain metallomics dementia</a></li></ul>
+<p>In <a href="/article/alzheimers-disease">alzheimers disease</a>, ceruloplasmin activity is reduced in brain tissue despite elevated peripheral copper <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>:</p>
+<ul><li>Reduced ferroxidase activity impairs iron oxidation, promoting Fe2+ accumulation in amyloid plaques</li><li>This creates a dual metal problem: copper mislocalized to plaques (driving <a href="/article/amyloid-beta">amyloid-beta-aggregation</a>) and iron trapped in reduced form (driving <a href="/article/ferroptosis">ferroptosis</a>)</li><li>Brain ceruloplasmin reduction may contribute to the paradox of peripheral copper excess and central copper deficiency in AD <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup></li></ul>
 <h2>Cardiovascular Disease</h2>
-<p>Ceruloplasmin-bound Cu is elevated in acute myocardial infarction (0.85 vs 0.73 ug/mL, p&lt;0.01) and remains elevated one month post-PCI, tracking the acute-phase inflammatory response <a href="/article/lim-2023-plasma-metallomics-ami">lim 2023 plasma metallomics ami</a>.</p>
+<p>Ceruloplasmin-bound Cu is elevated in acute myocardial infarction (0.85 vs 0.73 ug/mL, p&lt;0.01) and remains elevated one month post-PCI, tracking the acute-phase inflammatory response <sup class="cite-sup"><a href="#ref-4" style="color:#b87333;text-decoration:none;">[4]</a></sup>.</p>
 <h2>Depression and Schizophrenia</h2>
 <p>Elevated serum Cu and ceruloplasmin with depressed Zn yields the high Cu/Zn ratio that is among the most replicated findings in biological psychiatry. Whether this reflects genuine copper toxicity in the brain or simply systemic inflammation remains debated.</p>
 <h2>Connections</h2>
 <ul><li><a href="/article/copper">copper</a> &mdash; ceruloplasmin carries &gt;95% of circulating Cu</li><li><a href="/article/iron">iron</a> &mdash; ceruloplasmin ferroxidase activity is essential for iron homeostasis</li><li><a href="/article/ferroportin">ferroportin</a> &mdash; iron exported via ferroportin requires ceruloplasmin for oxidation</li><li><a href="/article/transferrin">transferrin</a> &mdash; Fe3+ generated by ceruloplasmin loads onto transferrin</li><li><a href="/article/copper">copper-dysregulation</a> &mdash; ceruloplasmin dysfunction is central to Cu/Zn ratio pathology</li><li><a href="/article/oxidative-stress">oxidative stress</a> &mdash; free (non-ceruloplasmin) copper drives Fenton-like ROS</li><li><a href="/article/amyloid-beta">amyloid beta</a> &mdash; reduced ceruloplasmin in AD brain promotes iron/copper mislocalization</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (4)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Yan Zhang, Jie He, Jiao Jin et al.</span> (2022). <span style="font-style:italic;">Recent advances in the application of metallomics in diagnosis and prognosis of human cancer</span>. <em style="color:#888;">Metallomics</em>. <a href="https://doi.org/10.1007/s10653-023-01737-y" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1007/s10653-023-01737-y</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Islam F, Shohag S, Akhter S et al.</span> (2022). <span style="font-style:italic;">Exposure of metal toxicity in Alzheimer's disease: An extensive review</span>. <em style="color:#888;">Frontiers in Pharmacology</em>. <a href="https://doi.org/10.1038/s44439-024-00009-w" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s44439-024-00009-w</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span title="Keystone Study" style="display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#d4a853,#b8922e);color:#fff;font-size:8px;text-align:center;line-height:14px;margin-right:6px;vertical-align:middle;">★</span><span style="font-weight:500;">Melissa Scholefield, Stephanie J. Church, Jingshu Xu et al.</span> (2024). <span style="font-style:italic;">Scholefield et al. 2024 — Brain Metallomic Signatures Distinguish DLB from AD and PDD</span>. <em style="color:#888;">Frontiers in Neuroscience</em>. <a href="https://doi.org/10.3389/fnins.2024.1412356" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fnins.2024.1412356</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Si Ying Lim, Hiranya Dayal, Song Jie Seah et al.</span> (2023). <span style="font-style:italic;">Plasma metallomics reveals potential biomarkers and insights into the ambivalent associations of elements with acute myocardial infarction</span>. <em style="color:#888;">Journal of Trace Elements in Medicine and Biology</em>. <a href="https://doi.org/10.1016/j.jtemb.2023.127148" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1016/j.jtemb.2023.127148</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -115,6 +133,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

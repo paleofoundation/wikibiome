@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,12 +74,12 @@
 
       <div itemprop="articleBody">
         <h2>Overview</h2>
-<p><em><strong>Eubacterium eligens</strong></em> is a Gram-positive, obligate anaerobic bacterium within the <a href="/article/lachnospiraceae">lachnospiraceae</a> family and a significant butyrate producer in the human colon. While less well-known than <em>Faecalibacterium prausnitzii</em> or <em>Roseburia</em>, <em>E. eligens</em> has emerged as one of the most statistically robust causally protective organisms against <a href="/article/type-1-diabetes">type 1 diabetes</a> in Mendelian randomization (MR) studies — a finding that has received surprisingly little attention given its significance.</p>
+<p><em>Eubacterium eligens</em> is a Gram-positive, obligate anaerobic bacterium within the <a href="/article/lachnospiraceae">lachnospiraceae</a> family and a significant butyrate producer in the human colon. While less well-known than <em>Faecalibacterium prausnitzii</em> or <em>Roseburia</em>, <em>E. eligens</em> has emerged as one of the most statistically robust causally protective organisms against <a href="/article/type-1-diabetes">type 1 diabetes</a> in Mendelian randomization (MR) studies — a finding that has received surprisingly little attention given its significance.</p>
 <h2>Metal Dependencies</h2>
 <p>As a member of the Firmicutes, <em>E. eligens</em> likely depends on iron for iron-sulfur cluster enzymes in its butyrate biosynthesis pathway (butyryl-CoA dehydrogenase). This iron dependency makes it vulnerable to both iron restriction by host nutritional immunity and iron-sulfur cluster damage by toxic metals — a pattern shared across the butyrate-producing Firmicutes guild.</p>
 <h2>Key Enzymes and Virulence Factors</h2>
 <p><em>E. eligens</em> has no virulence factors. Its functional significance derives from:</p>
-<ul><li><strong>Butyryl-CoA dehydrogenase</strong> — Central enzyme in the butyrate synthesis pathway; produces butyrate from dietary fiber fermentation</li><li><strong>Pectinase and pectin lyase</strong> — <em>E. eligens</em> is a pectin specialist, distinguishing its substrate niche from resistant-starch degraders like <a href="/article/ruminococcus-bromii">ruminococcus bromii</a> or xylan degraders like <em>Roseburia</em>. This pectin specificity means its abundance responds to fruit and vegetable intake rather than whole grain consumption.</li></ul>
+<ul><li>Butyryl-CoA dehydrogenase — Central enzyme in the butyrate synthesis pathway; produces butyrate from dietary fiber fermentation</li><li>Pectinase and pectin lyase — <em>E. eligens</em> is a pectin specialist, distinguishing its substrate niche from resistant-starch degraders like <a href="/article/ruminococcus-bromii">ruminococcus bromii</a> or xylan degraders like <em>Roseburia</em>. This pectin specificity means its abundance responds to fruit and vegetable intake rather than whole grain consumption.</li></ul>
 <h2>Ecological Role</h2>
 <p>In the healthy gut, <em>E. eligens</em> occupies the pectin-degradation niche within the broader butyrate-producing community. Its butyrate output contributes to:</p>
 <ul><li>Colonocyte energy metabolism and <a href="/article/oxygen-state">oxygen state</a> maintenance</li><li>Tight junction protein expression and barrier integrity</li><li>Regulatory T cell induction and anti-inflammatory signaling</li><li>Competitive exclusion of pathobionts through SCFA-mediated pH reduction</li></ul>
@@ -80,8 +87,8 @@
 <h2>Conditions Associated</h2>
 <h2>Type 1 Diabetes — Causal Protection</h2>
 <p>The <em>Eubacterium eligens</em> group shows the most robust causal protective signal in the T1D MR dataset:</p>
-<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody><tr><td>OR (95% CI)</td><td><strong>0.64 (0.50-0.81)</strong></td></tr><tr><td>P-value</td><td><strong>2.84 x 10^-4</strong></td></tr><tr><td>FDR-adjusted P</td><td><strong>0.031</strong></td></tr><tr><td>Heterogeneity</td><td>None detected</td></tr><tr><td>Pleiotropy</td><td>None detected</td></tr></tbody></table>
-<p>This is FDR-significant with no confounding detected — the gold standard for MR evidence <a href="/article/luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization">luo 2023 gut microbiota t1d bidirectional mendelian randomization</a>. Whether the protective mechanism operates through butyrate production, immune modulation, or pectin-derived metabolites remains unknown and represents a major open question.</p>
+<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody><tr><td>OR (95% CI)</td><td>0.64 (0.50-0.81)</td></tr><tr><td>P-value</td><td>2.84 x 10^-4</td></tr><tr><td>FDR-adjusted P</td><td>0.031</td></tr><tr><td>Heterogeneity</td><td>None detected</td></tr><tr><td>Pleiotropy</td><td>None detected</td></tr></tbody></table>
+<p>This is FDR-significant with no confounding detected — the gold standard for MR evidence <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>. Whether the protective mechanism operates through butyrate production, immune modulation, or pectin-derived metabolites remains unknown and represents a major open question.</p>
 <h2>Chronic Kidney Disease — Context-Dependent</h2>
 <p>Nominally significant as a risk-increasing taxon for CKD (OR 1.19), illustrating that the same organism can be protective in one disease context and detrimental in another — likely reflecting the different ecological and immunological environments of autoimmune versus metabolic-renal disease.</p>
 <h2>Interkingdom Relationships</h2>
@@ -90,6 +97,22 @@
 <ul><li><a href="/article/type-1-diabetes">type 1 diabetes</a> — causal MR protection (FDR-significant)</li><li><a href="/article/lachnospiraceae">lachnospiraceae</a> — parent family; multiple protective genera in MR data</li><li><a href="/article/butyrate">butyrate</a> — primary metabolic product</li><li><a href="/article/faecalibacterium-prausnitzii">faecalibacterium prausnitzii</a> — complementary butyrate producer with different substrate niche</li><li><a href="/article/oxygen-state">oxygen state</a> — butyrate maintains colonocyte oxygen consumption</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (9)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Luo M, Sun M, Wang T et al.</span> (2023). <span style="font-style:italic;">Luo 2023 — Gut microbiota and type 1 diabetes: a two-sample bidirectional Mendelian randomization study</span>. <em style="color:#888;">Frontiers in Cellular and Infection Microbiology</em>. <a href="https://doi.org/10.3389/fcimb.2023.1163898" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fcimb.2023.1163898</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Shoshannah Eggers, Vishal Midya, Moira Bixby et al.</span> (2023). <span style="font-style:italic;">Eggers 2023 — Prenatal lead exposure is negatively associated with gut microbiome in childhood (PROGRESS cohort)</span>. <em style="color:#888;">Frontiers in Microbiology</em>. <a href="https://doi.org/10.3389/fmicb.2023.1193919" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmicb.2023.1193919</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Lucia N. Peralta-Marzal, David Rojas-Velazquez, Douwe Rigters et al.</span> (2024). <span style="font-style:italic;">Peralta-Marzal 2024 — A Robust Microbiome Signature for Autism Spectrum Disorder Across Different Studies Using Machine Learning</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-023-50601-7" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-023-50601-7</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Adriel Latorre-Pérez, Marta Hernández, Jose Ramón Iglesias et al.</span> (2021). <span style="font-style:italic;">Latorre-Pérez 2021 — The Spanish Gut Microbiome Reveals Links Between Microorganisms and Mediterranean Diet</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-021-01002-1" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-021-01002-1</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Eggers S, Midya V, Bixby M et al.</span> (2023). <span style="font-style:italic;">Prenatal Lead Exposure is Negatively Associated with the Gut Microbiome in Childhood</span>. <em style="color:#888;">Frontiers in Microbiology</em>. <a href="https://doi.org/10.3389/fmicb.2023.1193919" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmicb.2023.1193919</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Wenjie Ma, Long H. Nguyen, Mingyang Song et al.</span> (2021). <span style="font-style:italic;">Dietary fiber intake, the gut microbiome, and chronic systemic inflammation in a cohort of adult men</span>. <em style="color:#888;">Genome Medicine</em></li>
+<li id="ref-7" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Yufan Yao, Haoran Hu, Longhao Chen et al.</span> (2024). <span style="font-style:italic;">Yao 2024 — Gut Microbiota and Menstrual Disorders: Two-Sample MR Study</span>. <em style="color:#888;">Frontiers in Microbiology</em>. <a href="https://doi.org/10.3389/fmicb.2024.1321268" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fmicb.2024.1321268</a></li>
+<li id="ref-8" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Mingli Luo, Jiahao Cai, Shulu Luo et al.</span> (2023). <span style="font-style:italic;">Luo 2023 — Causal Effects of Gut Microbiota on the Risk of Chronic Kidney Disease: A Mendelian Randomization Study</span>. <em style="color:#888;">Frontiers in Cellular and Infection Microbiology</em>. <a href="https://doi.org/10.3389/fcimb.2023.1142140" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fcimb.2023.1142140</a></li>
+<li id="ref-9" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Jianquan He, Xiuhua Gong, Bing Hu et al.</span> (2023). <span style="font-style:italic;">He 2023 — Altered Gut Microbiota and Short-Chain Fatty Acids in Chinese Children with Constipated Autism Spectrum Disorder</span>. <em style="color:#888;">Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-023-46566-2" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1038/s41598-023-46566-2</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -107,6 +130,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>

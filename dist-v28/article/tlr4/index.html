@@ -51,6 +51,13 @@
     .static-content tr:nth-child(even) { background: #faf9f7; }
     .static-content .related { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e8e4df; }
     .static-content .related h3 { font-size: 16px; margin-bottom: 12px; color: #666; }
+    .static-content .cite-sup { font-size: 0.72em; vertical-align: super; line-height: 0; margin: 0 1px; }
+    .static-content .cite-sup a { color: #b87333; text-decoration: none; }
+    .static-content .cite-sup a:hover { text-decoration: underline; }
+    .static-content #references { margin-top: 48px; padding-top: 28px; border-top: 2px solid #b87333; }
+    .static-content #references h2 { font-size: 22px; margin-bottom: 20px; }
+    .static-content #references ol { margin: 0; padding-left: 24px; line-height: 1.9; }
+    .static-content #references li { font-size: 13px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -67,36 +74,51 @@
 
       <div itemprop="articleBody">
         <h2>Overview</h2>
-<p><strong>Toll-like receptor 4 (TLR4)</strong> is the primary innate immune sensor for bacterial lipopolysaccharide (LPS) &mdash; the endotoxin coating the outer membrane of all Gram-negative bacteria. TLR4 activation triggers the <strong>NF-kB signaling cascade</strong>, driving production of pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6, IL-8) that orchestrate the immune response. In the WikiBiome context, TLR4 is the molecular bridge between <a href="/article/proteobacteria">proteobacteria</a> expansion (LPS source) and systemic inflammation &mdash; and it is directly activated by <strong>nickel</strong>, creating a metal-immune axis unique to humans.</p>
+<p>Toll-like receptor 4 (TLR4) is the primary innate immune sensor for bacterial lipopolysaccharide (LPS) &mdash; the endotoxin coating the outer membrane of all Gram-negative bacteria. TLR4 activation triggers the NF-kB signaling cascade, driving production of pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6, IL-8) that orchestrate the immune response. In the WikiBiome context, TLR4 is the molecular bridge between <a href="/article/proteobacteria">proteobacteria</a> expansion (LPS source) and systemic inflammation &mdash; and it is directly activated by nickel, creating a metal-immune axis unique to humans.</p>
 <h2>Signaling Cascade</h2>
 <p>``` LPS (from Gram-negative bacteria)     │     └─→ LBP → CD14 → MD-2/TLR4 complex                             │                    ┌────────┴────────┐                    │                 │               MyD88-dependent    TRIF-dependent                    │                 │               NF-kB activation   IRF3 activation                    │                 │            TNF-alpha, IL-1beta   IFN-beta            IL-6, IL-8, COX-2    Type I interferons ```</p>
 <h2>Metal Activation of TLR4</h2>
 <h2>Nickel: Direct TLR4 Activation (Human-Specific)</h2>
-<p><strong>Nickel directly activates TLR4</strong> on dendritic cells &mdash; a mechanism that is <strong>human-specific</strong> because it depends on histidine residues (H456 and H458) in human TLR4 that are absent in mouse TLR4 <a href="/article/ahlstrom-2019-nickel-allergy-review">ahlstrom 2019 nickel allergy review</a>. This explains:</p>
+<p>Nickel directly activates TLR4 on dendritic cells &mdash; a mechanism that is human-specific because it depends on histidine residues (H456 and H458) in human TLR4 that are absent in mouse TLR4 <sup class="cite-sup"><a href="#ref-1" style="color:#b87333;text-decoration:none;">[1]</a></sup>. This explains:</p>
 <ul><li>Why nickel allergy is the most common contact allergy in humans (~15% prevalence).</li><li>Why mouse models poorly recapitulate nickel-driven inflammation.</li><li>Why nickel from dietary sources, dental materials, and occupational exposure can trigger systemic inflammation through a pathway distinct from LPS.</li></ul>
 <h2>Cadmium: TLR4/NF-kB Aggravation</h2>
-<p>Cadmium aggravates diabetic nephropathy through the TLR4/NF-kB pathway. Zinc + curcumin intervention attenuates this Cd-TLR4 signaling <a href="/article/sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy">sun 2024 zinc curcumin cadmium diabetic nephropathy</a>.</p>
+<p>Cadmium aggravates diabetic nephropathy through the TLR4/NF-kB pathway. Zinc + curcumin intervention attenuates this Cd-TLR4 signaling <sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup>.</p>
 <h2>TLR4 in Disease</h2>
 <h2>Necrotizing Enterocolitis</h2>
-<p>TLR4 is the <strong>master regulator of NEC</strong>. The premature intestine over-expresses TLR4, creating hypersensitivity to luminal LPS. TLR4 activation in the neonatal gut:</p>
-<ul><li>Triggers epithelial apoptosis and barrier breakdown</li><li>Impairs mucosal repair (inhibits Wnt/beta-catenin signaling)</li><li>Activates microglia and causes dysmyelination in the developing brain &mdash; linking intestinal NEC to <a href="/article/cerebral-palsy">cerebral palsy</a> <a href="/article/sampah-2021-prenatal-immunity-nec">sampah 2021 prenatal immunity nec</a></li></ul>
+<p>TLR4 is the master regulator of NEC. The premature intestine over-expresses TLR4, creating hypersensitivity to luminal LPS. TLR4 activation in the neonatal gut:</p>
+<ul><li>Triggers epithelial apoptosis and barrier breakdown</li><li>Impairs mucosal repair (inhibits Wnt/beta-catenin signaling)</li><li>Activates microglia and causes dysmyelination in the developing brain &mdash; linking intestinal NEC to <a href="/article/cerebral-palsy">cerebral palsy</a> <sup class="cite-sup"><a href="#ref-3" style="color:#b87333;text-decoration:none;">[3]</a></sup></li></ul>
 <h2>Endometriosis ([[bacterial-contamination-hypothesis]])</h2>
-<p>LPS/TLR4/NF-kB cascade in endometriotic tissue drives HGF, VEGF, and inflammatory cytokine production. <strong>Anti-TLR4 antibody blocked LPS-stimulated endometriotic cell proliferation</strong>, confirming functional requirement <a href="/article/khan-2018-bacterial-contamination-hypothesis-endometriosis">khan 2018 bacterial contamination hypothesis endometriosis</a>.</p>
+<p>LPS/TLR4/NF-kB cascade in endometriotic tissue drives HGF, VEGF, and inflammatory cytokine production. Anti-TLR4 antibody blocked LPS-stimulated endometriotic cell proliferation, confirming functional requirement <sup class="cite-sup"><a href="#ref-4" style="color:#b87333;text-decoration:none;">[4]</a></sup>.</p>
 <h2>Colorectal Cancer</h2>
-<p><a href="/article/fusobacterium-nucleatum">fusobacterium nucleatum</a> promotes tumorigenesis via miR21/TLR4/NF-kB signaling <a href="/article/appunni-2021-dietary-factors-gut-microbiome-crc">appunni 2021 dietary factors gut microbiome crc</a>.</p>
+<p><a href="/article/fusobacterium-nucleatum">fusobacterium nucleatum</a> promotes tumorigenesis via miR21/TLR4/NF-kB signaling <sup class="cite-sup"><a href="#ref-5" style="color:#b87333;text-decoration:none;">[5]</a></sup>.</p>
 <h2>Neurodegeneration</h2>
 <p><a href="/article/alpha-synuclein">alpha synuclein</a> aggregates activate microglia through TLR4, driving neuroinflammation in <a href="/article/parkinsons-disease">parkinsons disease</a>.</p>
 <h2>Type 1 Diabetes</h2>
-<p><em><a href="/article/bacteroides-fragilis">bacteroides fragilis</a></em> <em>dorei</em> produces TLR4-antagonist LPS that is immunoinhibitory &mdash; preventing immune education and potentially contributing to autoimmune risk <a href="/article/davis-richardson-2015-bacteroides-dorei-t1d-model">davis richardson 2015 bacteroides dorei t1d model</a>.</p>
+<p><em><a href="/article/bacteroides-fragilis">bacteroides fragilis</a></em> <em>dorei</em> produces TLR4-antagonist LPS that is immunoinhibitory &mdash; preventing immune education and potentially contributing to autoimmune risk <sup class="cite-sup"><a href="#ref-6" style="color:#b87333;text-decoration:none;">[6]</a></sup>.</p>
 <h2>TLR4 Modulators</h2>
 <h2>Suppressors</h2>
-<table><thead><tr><th>Agent</th><th>Mechanism</th><th>Source</th></tr></thead><tbody><tr><td><strong><a href="/article/butyrate">butyrate</a></strong></td><td>Suppresses TLR4/MyD88/NF-kB pathway</td><td><a href="/article/sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest">sun 2025 sodium butyrate neuroinflammation cardiac arrest</a></td></tr><tr><td><strong>BHB (ketone body)</strong></td><td>Directly inhibits TLR4 signaling</td><td>Ketogenic diet studies</td></tr><tr><td><strong>Anti-TLR4 antibody</strong></td><td>Blocks LPS binding</td><td><a href="/article/khan-2018-bacterial-contamination-hypothesis-endometriosis">khan 2018 bacterial contamination hypothesis endometriosis</a></td></tr><tr><td><strong>Zinc + curcumin</strong></td><td>Attenuates Cd-TLR4 signaling</td><td><a href="/article/sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy">sun 2024 zinc curcumin cadmium diabetic nephropathy</a></td></tr></tbody></table>
+<table><thead><tr><th>Agent</th><th>Mechanism</th><th>Source</th></tr></thead><tbody><tr><td><a href="/article/butyrate">butyrate</a></td><td>Suppresses TLR4/MyD88/NF-kB pathway</td><td><sup class="cite-sup"><a href="#ref-7" style="color:#b87333;text-decoration:none;">[7]</a></sup></td></tr><tr><td>BHB (ketone body)</td><td>Directly inhibits TLR4 signaling</td><td>Ketogenic diet studies</td></tr><tr><td>Anti-TLR4 antibody</td><td>Blocks LPS binding</td><td><sup class="cite-sup"><a href="#ref-4" style="color:#b87333;text-decoration:none;">[4]</a></sup></td></tr><tr><td>Zinc + curcumin</td><td>Attenuates Cd-TLR4 signaling</td><td><sup class="cite-sup"><a href="#ref-2" style="color:#b87333;text-decoration:none;">[2]</a></sup></td></tr></tbody></table>
 <h2>Activators</h2>
-<table><thead><tr><th>Agent</th><th>Mechanism</th></tr></thead><tbody><tr><td><strong>LPS</strong> (Gram-negative)</td><td>Canonical TLR4 ligand</td></tr><tr><td><strong>Nickel (Ni2+)</strong></td><td>Direct binding to H456/H458 (human-specific)</td></tr><tr><td><strong>Cadmium (Cd2+)</strong></td><td>TLR4/NF-kB aggravation</td></tr><tr><td><strong>Alpha-synuclein aggregates</strong></td><td>Microglial TLR4 activation</td></tr><tr><td><strong>Saturated fatty acids</strong></td><td>Non-canonical TLR4 activation</td></tr></tbody></table>
+<table><thead><tr><th>Agent</th><th>Mechanism</th></tr></thead><tbody><tr><td>LPS (Gram-negative)</td><td>Canonical TLR4 ligand</td></tr><tr><td>Nickel (Ni2+)</td><td>Direct binding to H456/H458 (human-specific)</td></tr><tr><td>Cadmium (Cd2+)</td><td>TLR4/NF-kB aggravation</td></tr><tr><td>Alpha-synuclein aggregates</td><td>Microglial TLR4 activation</td></tr><tr><td>Saturated fatty acids</td><td>Non-canonical TLR4 activation</td></tr></tbody></table>
 <h2>Cross-References</h2>
 <ul><li><a href="/article/proteobacteria">proteobacteria</a> &mdash; Primary LPS source in the dysbiotic gut</li><li><a href="/article/bacterial-contamination-hypothesis">bacterial contamination hypothesis</a> &mdash; LPS/TLR4 in endometriosis</li><li><a href="/article/nickel">nickel</a> &mdash; Human-specific TLR4 activation</li><li><a href="/article/cadmium">cadmium</a> &mdash; Cd-TLR4/NF-kB in diabetic nephropathy</li><li><a href="/article/butyrate">butyrate</a> &mdash; TLR4 suppressor</li><li><a href="/article/inflammation">inflammation</a> &mdash; TLR4 as master inflammatory switch</li><li><a href="/article/necrotizing-enterocolitis">necrotizing enterocolitis</a> &mdash; TLR4 over-expression as disease driver</li><li><a href="/article/fusobacterium-nucleatum">fusobacterium nucleatum</a> &mdash; TLR4-mediated tumorigenesis</li><li><a href="/article/alpha-synuclein">alpha synuclein</a> &mdash; TLR4-mediated neuroinflammation</li><li><a href="/article/intestinal-permeability">intestinal permeability</a> &mdash; TLR4 activation disrupts barrier</li></ul>
 
       </div>
+
+      
+      <section id="references" style="margin-top:48px;padding-top:28px;border-top:2px solid #b87333;">
+        <h2 style="font-size:22px;margin-bottom:20px;">References (8)</h2>
+        <ol style="margin:0;padding-left:24px;line-height:1.9;">
+<li id="ref-1" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Ahlström MG, Thyssen JP, Wennervaldt M et al.</span> (2019). <span style="font-style:italic;">Nickel Allergy and Allergic Contact Dermatitis: A Clinical Review</span>. <em style="color:#888;">Contact Dermatitis</em>. <a href="https://doi.org/10.1111/cod.13327" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1111/cod.13327</a></li>
+<li id="ref-2" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Yujie Sun, Xiaoyu Zhang, Yingying Liu et al.</span> (2024). <span style="font-style:italic;">Sun et al. 2024 — Zinc-Curcumin Complex Reverses Cadmium-Aggravated Diabetic Nephropathy via Microbiome Mediation</span>. <em style="color:#888;">Frontiers in Pharmacology</em>. <a href="https://doi.org/10.3389/fphar.2024.1411230" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fphar.2024.1411230</a></li>
+<li id="ref-3" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Sampah MES, Hackam DJ</span> (2021). <span style="font-style:italic;">Sampah &amp; Hackam 2021 — Prenatal Immunity and Pathophysiology of NEC</span>. <em style="color:#888;">Frontiers in Immunology</em>. <a href="https://doi.org/10.3389/fimmu.2021.650709" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fimmu.2021.650709</a></li>
+<li id="ref-4" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Khan KN, Fujishita A, Hiraki K et al.</span> (2018). <span style="font-style:italic;">Bacterial contamination hypothesis: a new concept in endometriosis</span>. <em style="color:#888;">Reproductive Medicine and Biology</em>. <a href="https://doi.org/10.1002/rmb2.12083" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1002/rmb2.12083</a></li>
+<li id="ref-5" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Appunni S, Rubens M, Ramamoorthy V et al.</span> (2021). <span style="font-style:italic;">Emerging Evidence on the Effects of Dietary Factors on the Gut Microbiome in Colorectal Cancer</span>. <em style="color:#888;">Frontiers in Nutrition</em>. <a href="https://doi.org/10.3389/fnut.2021.718389" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.3389/fnut.2021.718389</a></li>
+<li id="ref-6" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Austin G. Davis-Richardson, Eric W. Triplett</span> (2015). <span style="font-style:italic;">Davis-Richardson &amp; Triplett 2015 — Bacteroides dorei as a Model for T1D Microbiome Pathogenesis</span>. <em style="color:#888;">Diabetologia</em>. <a href="https://doi.org/10.1007/s00125-015-3614-8" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1007/s00125-015-3614-8</a></li>
+<li id="ref-7" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Jianfei Sun, Liping Lu, Yingtao Lian et al.</span> (2025). <span style="font-style:italic;">Sodium Butyrate Attenuates Microglia-Mediated Neuroinflammation by Modulating the TLR4/MyD88/NF-kB Pathway and Microbiome-Gut-Brain Axis in Cardiac Arrest Mice</span>. <em style="color:#888;">Molecular Brain</em>. <a href="https://doi.org/10.1186/s13041-025-01179-w" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1186/s13041-025-01179-w</a></li>
+<li id="ref-8" style="font-size:13px;margin-bottom:10px;"><span style="font-weight:500;">Rekatsina M, Paladini A, Cifone MG et al.</span> (2020). <span style="font-style:italic;">Influence of Microbiota on NSAID Enteropathy: A Systematic Review of Current Knowledge and the Role of Probiotics</span>. <em style="color:#888;">Advances in Therapy</em>. <a href="https://doi.org/10.1007/s12325-020-01338-6" target="_blank" rel="noopener noreferrer" style="color:#b87333;text-decoration:underline;font-size:12px;">doi:10.1007/s12325-020-01338-6</a></li>
+        </ol>
+      </section>
 
       
       <div class="related">
@@ -121,6 +143,6 @@
       </footer>
     </article>
   </div>
-  <script type="module" crossorigin src="/assets/index-4cAlSi1r.js"></script>
+  <script type="module" crossorigin src="/assets/index-DVymKR7R.js"></script>
 </body>
 </html>
