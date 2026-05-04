@@ -9,7 +9,7 @@ Neither job promotes to production. You promote to prod manually after reviewing
 
 ## Install
 
-From `~/Documents/Claude/Raw`:
+From `~/Code/wikibiome`:
 
 ```bash
 chmod +x scripts/autonomous-ingest.sh scripts/nightly-maintenance.sh
@@ -32,8 +32,8 @@ Should show both labels with a PID (if mid-cycle) or `-` (between cycles). A num
 ## Watch it work
 
 ```bash
-tail -f ~/Documents/Claude/Raw/wiki/autonomous-ingest.log
-tail -f ~/Documents/Claude/Raw/wiki/nightly-maintenance.log
+tail -f ~/Code/wikibiome/wiki/autonomous-ingest.log
+tail -f ~/Code/wikibiome/wiki/nightly-maintenance.log
 tail -f /tmp/wikibiome-ingest.err.log
 ```
 
@@ -51,13 +51,13 @@ Unload stops future runs. A cycle already in flight finishes.
 When you review a preview and want it live:
 
 ```bash
-cd ~/Documents/Claude/Raw && vercel promote <preview-url> --prod
+cd ~/Code/wikibiome && vercel promote <preview-url> --prod
 ```
 
 Or just rerun the full pipeline manually with `--prod`:
 
 ```bash
-cd ~/Documents/Claude/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
+cd ~/Code/wikibiome && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
 ```
 
 ## What the jobs will and will not do

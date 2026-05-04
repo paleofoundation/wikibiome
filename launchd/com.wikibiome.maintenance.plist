@@ -10,7 +10,7 @@
         <string>/bin/bash</string>
         <string>-l</string>
         <string>-c</string>
-        <string>$HOME/Documents/Claude/Raw/scripts/nightly-maintenance.sh</string>
+        <string>$HOME/Code/wikibiome/scripts/nightly-maintenance.sh</string>
     </array>
 
     <!-- Run nightly at 2:30am — well after the ingest cycle would have

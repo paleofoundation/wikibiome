@@ -252,8 +252,9 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Only print what would happen")
     args = parser.parse_args()
 
-    source_dir = Path("/Users/kmfp/Documents/Claude/Raw/raw/Autism papers, but disorganized. Not yet added or ingested")
-    canonical_dir = Path("/Users/kmfp/Documents/Claude/Raw/raw/Autism spectrum disorder (ASD)")
+    BASE = Path(__file__).resolve().parent.parent
+    source_dir = BASE / "raw" / "Autism papers, but disorganized. Not yet added or ingested"
+    canonical_dir = BASE / "raw" / "Autism spectrum disorder (ASD)"
     
     # Track categorization results
     categorizations = defaultdict(list)

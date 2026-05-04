@@ -6,7 +6,9 @@
 
 set -euo pipefail
 
-ROOT="$HOME/Documents/Claude/Raw"
+# ROOT is derived from this script's own location so the project is
+# relocatable: scripts/autonomous-ingest.sh -> $ROOT. No hardcoded path.
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
 LOCKDIR="$ROOT/.autonomous-ingest.lock.d"
 MARKER="$ROOT/.autonomous-ingest.marker"
 LOG="$ROOT/wiki/autonomous-ingest.log"
@@ -62,6 +64,18 @@ echo "[$(date)] Un-ingested PDF detected (e.g. $newest). Launching Claude." >> "
     echo "[$(date)] Claude exited non-zero. See log above." >> "$LOG"
     exit 1
   }
+
+# Push any new commits to GitHub so the work doesn't live only on this disk.
+# Soft-fail: if push errors (network, auth), log and continue. Commits are local;
+# next cycle will retry. The marker still advances on a clean Claude exit so we
+# don't re-ingest the same PDFs.
+if git -C "$ROOT" rev-parse --quiet --verify HEAD >/dev/null 2>&1; then
+  if git -C "$ROOT" push 2>>"$LOG"; then
+    echo "[$(date)] git push succeeded." >> "$LOG"
+  else
+    echo "[$(date)] git push failed (commits are local; will retry next cycle)." >> "$LOG"
+  fi
+fi
 
 # Marker advances only on successful run, so a failed cycle re-attempts next tick.
 touch "$MARKER"

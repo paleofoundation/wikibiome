@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/Users/kmfp/Documents/Claude/Raw")
+BASE = Path(__file__).resolve().parent.parent
 
 # Directories to search
 SEARCH_DIRS = [

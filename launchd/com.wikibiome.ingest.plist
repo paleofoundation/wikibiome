@@ -10,7 +10,7 @@
         <string>/bin/bash</string>
         <string>-l</string>
         <string>-c</string>
-        <string>$HOME/Documents/Claude/Raw/scripts/autonomous-ingest.sh</string>
+        <string>$HOME/Code/wikibiome/scripts/autonomous-ingest.sh</string>
     </array>
 
     <!-- Poll every 5 minutes. WatchPaths is not used because it does not

@@ -5,7 +5,9 @@
 
 set -euo pipefail
 
-ROOT="$HOME/Documents/Claude/Raw"
+# ROOT is derived from this script's own location so the project is
+# relocatable: scripts/nightly-maintenance.sh -> $ROOT. No hardcoded path.
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
 LOCKDIR="$ROOT/.nightly-maintenance.lock.d"
 LOG="$ROOT/wiki/nightly-maintenance.log"
 PROMPT="$ROOT/scripts/maintenance-prompt.md"
@@ -48,5 +50,14 @@ echo "[$(date)] Starting nightly maintenance cycle." >> "$LOG"
     echo "[$(date)] Claude exited non-zero. See log above." >> "$LOG"
     exit 1
   }
+
+# Push any new commits to GitHub. Soft-fail (see autonomous-ingest.sh for rationale).
+if git -C "$ROOT" rev-parse --quiet --verify HEAD >/dev/null 2>&1; then
+  if git -C "$ROOT" push 2>>"$LOG"; then
+    echo "[$(date)] git push succeeded." >> "$LOG"
+  else
+    echo "[$(date)] git push failed (commits are local; will retry next cycle)." >> "$LOG"
+  fi
+fi
 
 echo "[$(date)] Maintenance cycle complete." >> "$LOG"
