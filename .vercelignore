@@ -1,4 +1,6 @@
 raw/
+raw.zip
+*.zip
 node_modules/
 .git/
 .claude/
@@ -14,8 +16,18 @@ wikibiome-v7e/
 wikibiome-v7f/
 wikibiome-v7g/
 dist/
+dist-v19/
+dist-v24/
+dist-v25/
+dist-v26/
+dist-v27/
+dist-v29/
+dist-v30/
+dist-v31/
 dist-preview/
 preview/
+wiki/sources/
+public/
 *.pdf
 *.PDF
 doi-lookup-results.json
