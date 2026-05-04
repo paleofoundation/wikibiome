@@ -54,6 +54,9 @@ if [[ -z "$newest" ]]; then
   exit 0
 fi
 
+# Capture source count before Claude runs, for backlog detection at cycle end.
+sources_before=$(find wiki/sources -name "*.md" -type f 2>/dev/null | wc -l | tr -d ' ')
+
 echo "[$(date)] Un-ingested PDF detected (e.g. $newest). Launching Claude." >> "$LOG"
 
 # Run Claude headless with the standing ingest prompt.
@@ -77,6 +80,16 @@ if git -C "$ROOT" rev-parse --quiet --verify HEAD >/dev/null 2>&1; then
   fi
 fi
 
-# Marker advances only on successful run, so a failed cycle re-attempts next tick.
-touch "$MARKER"
+# Marker advance is conditional: only advance when no progress was made
+# OR when the backlog has been fully drained. This turns single-trigger cycles
+# into a draining loop -- every 5-min tick keeps firing until raw/ is fully ingested.
+sources_after=$(find wiki/sources -name "*.md" -type f 2>/dev/null | wc -l | tr -d ' ')
+pdf_count=$(find raw -type f -iname "*.pdf" 2>/dev/null | wc -l | tr -d ' ')
+
+if [[ "$sources_after" -gt "${sources_before:-0}" ]] && [[ "$pdf_count" -gt "$sources_after" ]]; then
+  echo "[$(date)] Progress: $((sources_after - ${sources_before:-0})) new sources. Backlog remains ($pdf_count PDFs / $sources_after sources). Marker NOT advanced; next tick will re-fire." >> "$LOG"
+else
+  touch "$MARKER"
+  echo "[$(date)] Marker advanced (sources_before=${sources_before:-0} sources_after=$sources_after pdf_count=$pdf_count)." >> "$LOG"
+fi
 echo "[$(date)] Cycle complete." >> "$LOG"
