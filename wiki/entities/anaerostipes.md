@@ -23,26 +23,26 @@ wikipedia_differentiation: "Key lactate-to-butyrate cross-feeding species (A. ca
 
 # Anaerostipes
 
-A genus of Gram-positive obligate anaerobes in the family Lachnospiraceae (Clostridium cluster XIVa) that occupy a critical metabolic relay position in gut ecosystem stability: **converting lactate to [[butyrate]]**. *Anaerostipes* is one of the most consistently depleted genera across inflammatory and metabolic disease states, with loss cascading into lactate accumulation, pH disruption, and pathogen expansion through mechanisms that extend into fungal immunology and neurological function.
+A genus of Gram-positive obligate anaerobes in the family Lachnospiraceae (Clostridium cluster XIVa) that occupy a critical metabolic relay position in gut ecosystem stability: converting lactate to [[butyrate]]. *Anaerostipes* is one of the most consistently depleted genera across inflammatory and metabolic disease states, with loss cascading into lactate accumulation, pH disruption, and pathogen expansion through mechanisms that extend into fungal immunology and neurological function.
 
 ## Classification and Prevalence
 
 *Anaerostipes* belongs to the Lachnospiraceae family (Clostridium cluster XIVa), closely related to *Roseburia*, *Coprococcus*, and *Butyrivibrio*. Two species dominate:
 
-- **A. caccae**: present in ~66% of healthy adults
-- **A. hadrus**: present in ~80% of healthy adults; the more prevalent species and primary lactate utilizer in most individuals
+- A. caccae: present in ~66% of healthy adults
+- A. hadrus: present in ~80% of healthy adults; the more prevalent species and primary lactate utilizer in most individuals
 
 Both species are among the most common lactate-utilizing genera in the human gut [[louis-2022-microbial-lactate-utilisation-gut-stability]], making *Anaerostipes* an essential functional node in the fermentation network.
 
 ## The Lactate-to-Butyrate Relay — Core Ecological Function
 
-The defining ecological role of *Anaerostipes* is the **metabolic relay** between primary lactate producers and the butyrate-dependent gut:
+The defining ecological role of *Anaerostipes* is the metabolic relay between primary lactate producers and the butyrate-dependent gut:
 
-1. **Lactobacillus** and **[[bifidobacterium]]** ferment dietary carbohydrates to **lactate** as their primary end product.
-2. ***Anaerostipes* converts lactate to butyrate** via the butyryl-CoA:acetate CoA-transferase pathway [[louis-2022-microbial-lactate-utilisation-gut-stability]].
+1. Lactobacillus and [[bifidobacterium]] ferment dietary carbohydrates to lactate as their primary end product.
+2. *Anaerostipes* converts lactate to butyrate via the butyryl-CoA:acetate CoA-transferase pathway [[louis-2022-microbial-lactate-utilisation-gut-stability]].
 3. This relay simultaneously:
-   - **Removes accumulated lactate** (which at high concentrations inhibits lactate-producer growth, drops gut pH, and favors acid-tolerant pathogens)
-   - **Produces butyrate** (the primary colonocyte energy source; key anti-inflammatory signaling molecule via HDAC inhibition and GPR109a activation)
+   - Removes accumulated lactate (which at high concentrations inhibits lactate-producer growth, drops gut pH, and favors acid-tolerant pathogens)
+   - Produces butyrate (the primary colonocyte energy source; key anti-inflammatory signaling molecule via HDAC inhibition and GPR109a activation)
 
 This cross-feeding relationship is mutualistic: lactate-producers benefit from lactate removal, while *Anaerostipes* gains an energy source that other anaerobes cannot readily utilize.
 
@@ -50,14 +50,14 @@ This cross-feeding relationship is mutualistic: lactate-producers benefit from l
 
 Beyond butyrate production, *Anaerostipes* contributes to the gut's tryptophan metabolite pool:
 
-- Produces **indole-3-lactic acid (ILA)** from tryptophan [[paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd]].
+- Produces indole-3-lactic acid (ILA) from tryptophan [[paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd]].
 - ILA is an aryl hydrocarbon receptor (AhR) ligand with anti-inflammatory properties; it modulates mucosal immunity and gut barrier integrity through AhR-ARNT signaling.
 - Depleted *Anaerostipes* reduces ILA availability, potentially impairing AhR-mediated immune regulation alongside the more recognized SCFA deficit.
 - In Graves' orbitopathy (GO), *Anaerostipes* is significantly downregulated alongside other Firmicutes, corresponding to decreased serum levels of IPA, ILA, and IAA [[yang-2025-tryptophan-metabolites-graves-orbitopathy]]. The correlation between *Anaerostipes* depletion and reduced ILA levels supports the tryptophan metabolism contribution as functionally relevant.
 
 ## Metal Dependencies and Heavy Metal Vulnerability
 
-- **Iron-sulfur (Fe-S) clusters** in butyryl-CoA dehydrogenase are essential for the butyrate production pathway.
+- Iron-sulfur (Fe-S) clusters in butyryl-CoA dehydrogenase are essential for the butyrate production pathway.
 - Heavy metal exposure — particularly [[cadmium]] and [[lead]] — disrupts Fe-S cluster assembly and selectively depletes butyrate-producing Lachnospiraceae members [[li-2019-heavy-metal-metabolic-health-gut-microbiome]].
 - The selective sensitivity of *Anaerostipes* to metal stress (relative to acid-tolerant pathogens) means that environmental heavy metal burden can shift gut ecology away from the protective lactate-to-butyrate relay toward a pathogen-favorable, acidic, lactate-rich state.
 
@@ -84,26 +84,26 @@ Reduced *Anaerostipes* is part of the broader loss of butyrate-producing Lachnos
 Persistent *Anaerostipes* depletion documented in post-COVID gut microbiome studies, potentially contributing to ongoing gut barrier dysfunction and systemic inflammation in long COVID.
 
 ### Schizophrenia
-Butyrate-producing Lachnospiraceae are enriched in **healthy controls** compared to SCZ patients, with *Anaerostipes* among the protective taxa enriched in controls in schizophrenia microbiome profiling [[ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia]].
+Butyrate-producing Lachnospiraceae are enriched in healthy controls compared to SCZ patients, with *Anaerostipes* among the protective taxa enriched in controls in schizophrenia microbiome profiling [[ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia]].
 
 ## GERD — An Unexpected Risk Association
 
-In Mendelian randomization analysis of gut microbiota and gastroesophageal reflux disease, *Anaerostipes* shows an **increased GERD risk** (OR=1.09, p=0.017) [[wang-2024-causal-gut-microbiota-gerd-mendelian-bidirectional]]. This counter-intuitive finding — a butyrate producer associated with increased GERD risk — may reflect the distinct immune environment of the upper GI tract where SCFA-mediated effects differ from those in the colon, or may represent reverse causation.
+In Mendelian randomization analysis of gut microbiota and gastroesophageal reflux disease, *Anaerostipes* shows an increased GERD risk (OR=1.09, p=0.017) [[wang-2024-causal-gut-microbiota-gerd-mendelian-bidirectional]]. This counter-intuitive finding — a butyrate producer associated with increased GERD risk — may reflect the distinct immune environment of the upper GI tract where SCFA-mediated effects differ from those in the colon, or may represent reverse causation.
 
 ## The Candida Connection — Lactate Accumulation and Immune Evasion
 
 The depletion of *Anaerostipes* has a specific and underappreciated consequence for fungal pathogenesis:
 
 - When lactate accumulates due to loss of lactate-utilizing bacteria, gut pH drops and the metabolic environment favors acid-tolerant organisms.
-- **[[candida-albicans]] exploits elevated lactate** to mask its beta-glucan cell wall component, evading immune recognition by Dectin-1 receptors. This **beta-glucan masking** is a key virulence strategy that depends on the metabolic disruption caused by *Anaerostipes* loss [[louis-2022-microbial-lactate-utilisation-gut-stability]].
+- [[candida-albicans]] exploits elevated lactate to mask its beta-glucan cell wall component, evading immune recognition by Dectin-1 receptors. This beta-glucan masking is a key virulence strategy that depends on the metabolic disruption caused by *Anaerostipes* loss [[louis-2022-microbial-lactate-utilisation-gut-stability]].
 - The cascade: *Anaerostipes* depletion → lactate accumulation → *Candida* beta-glucan masking → Dectin-1 immune evasion → fungal overgrowth → further dysbiosis.
 - This mechanism establishes *Anaerostipes* as an indirect gatekeeper of anti-fungal innate immunity through metabolic ecosystem maintenance.
 
 ## Ecological Interactions
 
-- **Upstream**: *Lactobacillus*, *Bifidobacterium*, and other lactate producers provide the substrate.
-- **Downstream**: Butyrate produced by *Anaerostipes* feeds colonocytes directly and supports [[faecalibacterium-prausnitzii]] through complementary fermentation.
-- **Disruption cascade**: Loss of *Anaerostipes* → lactate buildup → pH drop → favors acid-tolerant Enterobacteriaceae, *Candida*, and other opportunists → further SCFA producer displacement → self-reinforcing dysbiosis.
+- Upstream: *Lactobacillus*, *Bifidobacterium*, and other lactate producers provide the substrate.
+- Downstream: Butyrate produced by *Anaerostipes* feeds colonocytes directly and supports [[faecalibacterium-prausnitzii]] through complementary fermentation.
+- Disruption cascade: Loss of *Anaerostipes* → lactate buildup → pH drop → favors acid-tolerant Enterobacteriaceae, *Candida*, and other opportunists → further SCFA producer displacement → self-reinforcing dysbiosis.
 
 ## What Wikipedia Doesn't Cover
 

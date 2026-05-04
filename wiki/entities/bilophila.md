@@ -20,17 +20,17 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bilophila
 
-*Bilophila wadsworthia* is a Gram-negative, obligate anaerobic, sulfite-reducing bacterium that has emerged as a key pathobiont linking **high-fat diets, taurine metabolism, hydrogen sulfide production**, and inflammatory disease. Its unique metabolic niche -- using taurine-conjugated bile acids as an electron acceptor -- positions it at the intersection of dietary fat intake, [[bile-acid-metabolism]], and gut inflammation.
+*Bilophila wadsworthia* is a Gram-negative, obligate anaerobic, sulfite-reducing bacterium that has emerged as a key pathobiont linking high-fat diets, taurine metabolism, hydrogen sulfide production, and inflammatory disease. Its unique metabolic niche -- using taurine-conjugated bile acids as an electron acceptor -- positions it at the intersection of dietary fat intake, [[bile-acid-metabolism]], and gut inflammation.
 
 ## Metabolic Specialization
 
 ### Taurine to H2S Pathway
-- *B. wadsworthia* metabolizes taurine (from taurine-conjugated bile acids) via taurine dehydrogenase, producing **hydrogen sulfide (H2S)** as an end product.
+- *B. wadsworthia* metabolizes taurine (from taurine-conjugated bile acids) via taurine dehydrogenase, producing hydrogen sulfide (H2S) as an end product.
 - H2S is genotoxic, inhibits butyrate oxidation in colonocytes, and disrupts the mucus barrier.
 - Taurine-conjugated bile acids increase with high-saturated-fat diets, providing the metabolic substrate that fuels *B. wadsworthia* expansion.
 
 ### Hydrogen Utilization
-- Uses **H2 as an energy source** via hydrogenase enzymes, positioning it within the gut hydrogen economy.
+- Uses H2 as an energy source via hydrogenase enzymes, positioning it within the gut hydrogen economy.
 - H2 consumption by *B. wadsworthia* can shift the thermodynamics of fermentation by other gut bacteria, influencing overall community metabolism.
 
 ### Iron and Molybdenum Dependencies
@@ -66,8 +66,8 @@ pathogenic_potential: commensal-turned-pathogen
 
 The abundance of *B. wadsworthia* is highly responsive to diet:
 
-- **Increased by**: high-saturated-fat diets, high-taurine diets (animal protein), Western-style diets.
-- **Decreased by**: Mediterranean diet, plant-based diets, high-fiber diets that shift bile acid profiles toward glycine conjugation.
+- Increased by: high-saturated-fat diets, high-taurine diets (animal protein), Western-style diets.
+- Decreased by: Mediterranean diet, plant-based diets, high-fiber diets that shift bile acid profiles toward glycine conjugation.
 
 ## Connections
 

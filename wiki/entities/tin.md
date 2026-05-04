@@ -18,7 +18,7 @@ source_count: 9
 
 # Tin (Sn)
 
-A non-essential metal with a dual toxicological profile: **inorganic tin** (from canned foods) causes primarily gastric irritation at high concentrations, while **organotin compounds** (tributyltin, trimethyltin) are far more toxic, acting as endocrine disruptors and neurotoxins. Tin exposure is nearly ubiquitous in the US population and is primarily a food safety concern rather than an occupational or environmental one for the general public.
+A non-essential metal with a dual toxicological profile: inorganic tin (from canned foods) causes primarily gastric irritation at high concentrations, while organotin compounds (tributyltin, trimethyltin) are far more toxic, acting as endocrine disruptors and neurotoxins. Tin exposure is nearly ubiquitous in the US population and is primarily a food safety concern rather than an occupational or environmental one for the general public.
 
 ## Chemical Properties
 
@@ -50,13 +50,13 @@ Canned foods in unlacquered or partially lacquered tinplate cans are the princip
 ## Population Exposure
 
 US population data from NHANES 2011-2014 provides the most comprehensive exposure assessment [[lehmler-2018-tin-exposure-nhanes-us-population]]:
-- **Detection frequency**: 87% in adults, 91% in children -- exposure is nearly ubiquitous.
-- **Median urinary tin**: 0.42 ug/L in adults; 0.60 ug/L in children.
-- **Age**: The strongest predictor; levels in the >=60 year group are ~2-fold higher than the 20-39 group, suggesting bioaccumulation.
-- **Children**: 6-11 year olds have ~2-fold higher levels than 12-19 year olds.
-- **Race/ethnicity**: Non-Hispanic Black individuals have the highest levels (0.74 ug/L).
-- **Income**: Inverse association; low-income groups have significantly higher tin levels.
-- **Canned food consumption**: Surprisingly, not consistently associated with urinary tin levels in this study, suggesting other exposure routes or that total urinary tin does not distinguish organic from inorganic forms [[lehmler-2018-tin-exposure-nhanes-us-population]].
+- Detection frequency: 87% in adults, 91% in children -- exposure is nearly ubiquitous.
+- Median urinary tin: 0.42 ug/L in adults; 0.60 ug/L in children.
+- Age: The strongest predictor; levels in the >=60 year group are ~2-fold higher than the 20-39 group, suggesting bioaccumulation.
+- Children: 6-11 year olds have ~2-fold higher levels than 12-19 year olds.
+- Race/ethnicity: Non-Hispanic Black individuals have the highest levels (0.74 ug/L).
+- Income: Inverse association; low-income groups have significantly higher tin levels.
+- Canned food consumption: Surprisingly, not consistently associated with urinary tin levels in this study, suggesting other exposure routes or that total urinary tin does not distinguish organic from inorganic forms [[lehmler-2018-tin-exposure-nhanes-us-population]].
 
 ## Health Effects
 
@@ -64,16 +64,16 @@ US population data from NHANES 2011-2014 provides the most comprehensive exposur
 
 The primary health effect of inorganic tin exposure is acute GI disturbance:
 - Tin salts are corrosive; acute toxicity manifests as gastric irritation, nausea, vomiting, abdominal discomfort, and diarrhea within 0.5-3.0 hours of ingestion, resolving within 48 hours [[eu-scf-2001-tin-canned-foods]].
-- Toxicity depends more on **tin concentration in the foodstuff** than on total tin intake per body weight [[eu-scf-2001-tin-canned-foods]].
-- Regulatory thresholds: The EU SCF concurs with JECFA that tin levels of **150 mg/kg in beverages** or **250 mg/kg in other canned foods** may cause gastric irritation in some individuals [[eu-scf-2001-tin-canned-foods]].
+- Toxicity depends more on tin concentration in the foodstuff than on total tin intake per body weight [[eu-scf-2001-tin-canned-foods]].
+- Regulatory thresholds: The EU SCF concurs with JECFA that tin levels of 150 mg/kg in beverages or 250 mg/kg in other canned foods may cause gastric irritation in some individuals [[eu-scf-2001-tin-canned-foods]].
 - No data available on whether infants are more sensitive than older children and adults [[eu-scf-2001-tin-canned-foods]].
 - Low oral absorption means systemic toxicity from inorganic tin is rare.
 
 ### Organotin Compounds -- Endocrine Disruption and Neurotoxicity
 
 Organotin compounds are orders of magnitude more toxic than inorganic tin:
-- **Tributyltin (TBT)**: Endocrine disruptor; causes imposex in gastropod mollusks at ng/L concentrations; obesogen (promotes adipogenesis via PPARgamma/RXR activation); immunotoxic.
-- **Trimethyltin (TMT)**: Potent neurotoxin targeting the hippocampus and limbic system; causes seizures, cognitive impairment, and neuronal death.
+- Tributyltin (TBT): Endocrine disruptor; causes imposex in gastropod mollusks at ng/L concentrations; obesogen (promotes adipogenesis via PPARgamma/RXR activation); immunotoxic.
+- Trimethyltin (TMT): Potent neurotoxin targeting the hippocampus and limbic system; causes seizures, cognitive impairment, and neuronal death.
 - ATSDR profile covers both inorganic and organotin health effects across inhalation, oral, and dermal routes at acute, intermediate, and chronic durations [[atsdr-2005-tin-toxicological-profile]].
 
 ### Cancer
@@ -82,10 +82,10 @@ Organotin compounds are orders of magnitude more toxic than inorganic tin:
 
 ## Regulatory Framework
 
-- **EU SCF**: Tin levels of 150 mg/kg (beverages) and 250 mg/kg (other foods) as thresholds for gastric irritation [[eu-scf-2001-tin-canned-foods]].
-- **ATSDR**: Comprehensive toxicological profile prepared under CERCLA/Superfund mandates [[atsdr-2005-tin-toxicological-profile]].
-- **EU Drinking Water Directive**: Tin included in monitoring parameters [[eu-2020-drinking-water-directive]].
-- **Codex Alimentarius**: Maximum level of 250 mg/kg for canned foods (general) and 150 mg/kg for canned beverages.
+- EU SCF: Tin levels of 150 mg/kg (beverages) and 250 mg/kg (other foods) as thresholds for gastric irritation [[eu-scf-2001-tin-canned-foods]].
+- ATSDR: Comprehensive toxicological profile prepared under CERCLA/Superfund mandates [[atsdr-2005-tin-toxicological-profile]].
+- EU Drinking Water Directive: Tin included in monitoring parameters [[eu-2020-drinking-water-directive]].
+- Codex Alimentarius: Maximum level of 250 mg/kg for canned foods (general) and 150 mg/kg for canned beverages.
 
 ## Connections
 

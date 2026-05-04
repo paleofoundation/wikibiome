@@ -24,7 +24,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Intestinimonas
 
-A Gram-positive, obligate anaerobic genus within the Firmicutes phylum (family Oscillospiraceae or Ruminococcaceae depending on classification) that possesses a **unique metabolic capability: butyrate production from lysine fermentation** rather than from dietary fiber. This substrate-level distinction separates *Intestinimonas* from the major fiber-dependent butyrate producers ([[lachnospiraceae]], [[faecalibacterium]]) and places it at the intersection of protein metabolism, thyroid autoimmunity, and metal-microbiome interactions. Two independent Mendelian randomization studies have identified *Intestinimonas* as a **causal risk factor for Hashimoto's thyroiditis**.
+A Gram-positive, obligate anaerobic genus within the Firmicutes phylum (family Oscillospiraceae or Ruminococcaceae depending on classification) that possesses a unique metabolic capability: butyrate production from lysine fermentation rather than from dietary fiber. This substrate-level distinction separates *Intestinimonas* from the major fiber-dependent butyrate producers ([[lachnospiraceae]], [[faecalibacterium]]) and places it at the intersection of protein metabolism, thyroid autoimmunity, and metal-microbiome interactions. Two independent Mendelian randomization studies have identified *Intestinimonas* as a causal risk factor for Hashimoto's thyroiditis.
 
 ## Taxonomy
 
@@ -34,7 +34,7 @@ A Gram-positive, obligate anaerobic genus within the Firmicutes phylum (family O
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Iron-sulfur cluster proteins in ferredoxins support the electron transfer chain required for lysine-to-butyrate fermentation.
 - The lysine fermentation pathway is less iron-intensive than the complex respiratory chains of siderophore-producing pathogens, but still requires baseline iron availability.
 
@@ -43,14 +43,14 @@ A Gram-positive, obligate anaerobic genus within the Firmicutes phylum (family O
 
 ## Key Enzymes and Metabolic Features
 
-- **Lysine fermentation pathway**: *Intestinimonas* converts lysine to butyrate through a dedicated pathway (lysine → 3-amino-butyryl-CoA → crotonyl-CoA → butyryl-CoA → butyrate). This is significant because it means butyrate production can occur independent of dietary fiber intake.
-- **Butyryl-CoA dehydrogenase**: Shared with other butyrate producers; converts butyryl-CoA to butyrate with concomitant ATP generation.
-- **Steroid metabolism association**: In CRC tumor tissue, *Intestinimonas* abundance correlates with steroid biosynthesis and terpenoid pathways [[loke-2018-metabolomics-16s-crc-mucosa]], suggesting metabolic interactions with host steroid metabolism.
+- Lysine fermentation pathway: *Intestinimonas* converts lysine to butyrate through a dedicated pathway (lysine → 3-amino-butyryl-CoA → crotonyl-CoA → butyryl-CoA → butyrate). This is significant because it means butyrate production can occur independent of dietary fiber intake.
+- Butyryl-CoA dehydrogenase: Shared with other butyrate producers; converts butyryl-CoA to butyrate with concomitant ATP generation.
+- Steroid metabolism association: In CRC tumor tissue, *Intestinimonas* abundance correlates with steroid biosynthesis and terpenoid pathways [[loke-2018-metabolomics-16s-crc-mucosa]], suggesting metabolic interactions with host steroid metabolism.
 
 ## Ecological Role
 
 ### In the Healthy Gut
-*Intestinimonas* occupies a specialized niche as a **protein-derived butyrate producer**. While fiber-dependent butyrate producers dominate in individuals consuming plant-rich diets, *Intestinimonas* may be more relevant in protein-rich dietary contexts where lysine is abundant. This positions it as a butyrate source that is diet-independent of fiber intake.
+*Intestinimonas* occupies a specialized niche as a protein-derived butyrate producer. While fiber-dependent butyrate producers dominate in individuals consuming plant-rich diets, *Intestinimonas* may be more relevant in protein-rich dietary contexts where lysine is abundant. This positions it as a butyrate source that is diet-independent of fiber intake.
 
 ### In Thyroid Autoimmunity
 The mechanism linking *Intestinimonas* to Hashimoto's thyroiditis is not yet established, but possibilities include:

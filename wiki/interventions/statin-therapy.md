@@ -3,12 +3,14 @@ title: "Statin Therapy"
 type: intervention
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: []
+last_substantive_update: 2026-04-22
+sources:
+  - zhu-2023-ldl-hmgcr-erectile-dysfunction-mendelian-randomization
+  - liu-2018-rosuvastatin-gut-microbiome-lipid-lowering
+  - hisamatsu-2025-salivary-streptococcus-statin-therapy-older-adults
 tags: [pharmaceutical, cardiovascular, anti-inflammatory, cholesterol]
 intervention_class: pharmaceutical
 cureva_status: in-progress
-stub: true
 
 triangles: []
 
@@ -26,7 +28,7 @@ karen_brain_primitives: [5]
 
 ## Overview
 
-**Statin Therapy** is discussed across 18 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
+Statin Therapy is discussed across 18 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
 
 ## Triangle Evidence
 

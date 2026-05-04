@@ -3,12 +3,19 @@ title: "Resveratrol"
 type: intervention
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: []
+last_substantive_update: 2026-04-22
+sources:
+  - piecuch-2022-nutrition-endometriosis-review
+  - ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential
+  - kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility
+  - martin-2015-dietary-polyphenols-ibd-models
+  - bucciero-2026-diet-ms-oxidative-stress-nrf2
+  - donovan-2017-mediterranean-diet-crc-prevention
+  - malekpour-2025-anti-inflammatory-interventions-mental-health-sexual-performance
+  - vacca-2023-synbiotic-ckd-stage-iiib-iv
 tags: [polyphenol, antioxidant, anti-inflammatory]
 intervention_class: supplement
 cureva_status: in-progress
-stub: true
 
 triangles: []
 
@@ -26,7 +33,7 @@ karen_brain_primitives: [5]
 
 ## Overview
 
-**Resveratrol** is discussed across 5 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
+Resveratrol is discussed across 5 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
 
 ## Triangle Evidence
 

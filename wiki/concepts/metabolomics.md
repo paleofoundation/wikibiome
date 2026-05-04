@@ -17,20 +17,20 @@ platform: wikibiome
 
 ## Overview
 
-**Metabolomics** is the comprehensive measurement of small-molecule metabolites (<1,500 Da) in a biological sample -- the functional readout of what the genome, transcriptome, and microbiome are actually *doing*. While genomics tells you what organisms are present and metagenomics tells you what genes they carry, metabolomics reveals the metabolic products that directly affect the host.
+Metabolomics is the comprehensive measurement of small-molecule metabolites (<1,500 Da) in a biological sample -- the functional readout of what the genome, transcriptome, and microbiome are actually *doing*. While genomics tells you what organisms are present and metagenomics tells you what genes they carry, metabolomics reveals the metabolic products that directly affect the host.
 
-In the WikiBiome context, metabolomics bridges two layers of evidence: it translates **metal exposure** and **microbiome composition** into measurable functional consequences. The integration of **metallomics + metabolomics** -- measuring both metal speciation and metabolite profiles simultaneously -- is a distinctive WikiBiome analytical approach.
+In the WikiBiome context, metabolomics bridges two layers of evidence: it translates metal exposure and microbiome composition into measurable functional consequences. The integration of metallomics + metabolomics -- measuring both metal speciation and metabolite profiles simultaneously -- is a distinctive WikiBiome analytical approach.
 
 ## Key Analytical Platforms
 
 | Platform | Strengths | Common Use |
 |----------|-----------|-----------|
-| **LC-MS/MS (untargeted)** | Broadest coverage; discovery mode | Serum, urine, fecal metabolomics |
-| **UHPLC-Q-TOF-MS** | High mass accuracy for identification | Biomarker discovery |
-| **GC-MS** | Best for volatile/semi-volatile metabolites | SCFA quantification |
-| **HILIC-UHPLC** | Polar metabolite separation | Amino acids, nucleotides |
-| **NMR** | Non-destructive; quantitative | Urine, serum profiling |
-| **ICP-MS** | Metal speciation | Metallomic-metabolomic integration |
+| LC-MS/MS (untargeted) | Broadest coverage; discovery mode | Serum, urine, fecal metabolomics |
+| UHPLC-Q-TOF-MS | High mass accuracy for identification | Biomarker discovery |
+| GC-MS | Best for volatile/semi-volatile metabolites | SCFA quantification |
+| HILIC-UHPLC | Polar metabolite separation | Amino acids, nucleotides |
+| NMR | Non-destructive; quantitative | Urine, serum profiling |
+| ICP-MS | Metal speciation | Metallomic-metabolomic integration |
 
 ## Metabolite Classes Relevant to WikiBiome
 
@@ -51,22 +51,22 @@ Indoxyl sulfate, p-cresyl sulfate, TMAO -- microbially-derived metabolites that 
 
 ## Metal-Metabolomics Integration
 
-The most distinctive WikiBiome application: **simultaneous measurement of metal speciation and metabolite profiles** reveals how metal exposure reshapes microbial metabolism.
+The most distinctive WikiBiome application: simultaneous measurement of metal speciation and metabolite profiles reveals how metal exposure reshapes microbial metabolism.
 
-- **Iron exposure produces the most distinct metabolomic signature** in *C. elegans* -- more disruptive than zinc or manganese [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].
-- **Heavy metal toxicity metabolomics** reveals shared metabolic disruption patterns across Pb, Cd, Hg, As exposures (oxidative stress markers, amino acid depletion, energy metabolism disruption) [[akash-2023-metabolomics-heavy-metal-toxicities]].
-- **Metallomic-metabolomic COVID profiling** in mother-infant dyads revealed coordinated metal-metabolite disruption during SARS-CoV-2 infection [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- Iron exposure produces the most distinct metabolomic signature in *C. elegans* -- more disruptive than zinc or manganese [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].
+- Heavy metal toxicity metabolomics reveals shared metabolic disruption patterns across Pb, Cd, Hg, As exposures (oxidative stress markers, amino acid depletion, energy metabolism disruption) [[akash-2023-metabolomics-heavy-metal-toxicities]].
+- Metallomic-metabolomic COVID profiling in mother-infant dyads revealed coordinated metal-metabolite disruption during SARS-CoV-2 infection [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
 
 ## Disease Applications
 
 | Condition | Key Metabolomic Findings |
 |-----------|------------------------|
-| **[[parkinsons-disease]]** | Serum metabolomics predicts motor progression; p-cresol elevated |
-| **[[autism-spectrum-disorder]]** | Urinary tryptophan/purine metabolite disruption [[gevi-2016-urinary-metabolomics-italian-autistic-tryptophan-purine]] |
-| **[[necrotizing-enterocolitis]]** | Formate as NEC-specific metabolic marker of enteric dysbiosis [[casaburi-2022-formate-nec-enteric-dysbiosis-metabolic-model]] |
-| **[[type-2-diabetes]]** | Multi-omics (microbiome + metabolome) response to dietary fiber [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]] |
-| **[[cerebral-palsy]]** | Amino acid metabolomics reveals reduced tryptophan pool [[wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma]] |
-| **[[multiple-sclerosis]]** | Pro-inflammatory metabolic signatures in Graves'/Hashimoto's/MS |
+| [[parkinsons-disease]] | Serum metabolomics predicts motor progression; p-cresol elevated |
+| [[autism-spectrum-disorder]] | Urinary tryptophan/purine metabolite disruption [[gevi-2016-urinary-metabolomics-italian-autistic-tryptophan-purine]] |
+| [[necrotizing-enterocolitis]] | Formate as NEC-specific metabolic marker of enteric dysbiosis [[casaburi-2022-formate-nec-enteric-dysbiosis-metabolic-model]] |
+| [[type-2-diabetes]] | Multi-omics (microbiome + metabolome) response to dietary fiber [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]] |
+| [[cerebral-palsy]] | Amino acid metabolomics reveals reduced tryptophan pool [[wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma]] |
+| [[multiple-sclerosis]] | Pro-inflammatory metabolic signatures in Graves'/Hashimoto's/MS |
 
 ## Cross-References
 

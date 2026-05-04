@@ -51,23 +51,23 @@ targets:
 platform: cureva
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
-**Selenium supplementation** provides the essential trace element required for synthesis of 25 human selenoproteins, including the glutathione peroxidase family (GPX1-4), thioredoxin reductases (TrxR1-3), and iodothyronine deiodinases (DIO1-3). The thyroid gland has the highest selenium concentration per gram of any human organ, making thyroid autoimmune conditions the primary indication.
+Selenium supplementation provides the essential trace element required for synthesis of 25 human selenoproteins, including the glutathione peroxidase family (GPX1-4), thioredoxin reductases (TrxR1-3), and iodothyronine deiodinases (DIO1-3). The thyroid gland has the highest selenium concentration per gram of any human organ, making thyroid autoimmune conditions the primary indication.
 
-> **Clinical disclaimer:** Selenium has a narrow therapeutic window. The difference between therapeutic dose (200 ug/day) and toxicity threshold (400 ug/day) is only 2x. All supplementation should include baseline and follow-up serum selenium monitoring.
+> Clinical disclaimer: Selenium has a narrow therapeutic window. The difference between therapeutic dose (200 ug/day) and toxicity threshold (400 ug/day) is only 2x. All supplementation should include baseline and follow-up serum selenium monitoring.
 
 ---
 
 ## Mechanism of Action
 
-Selenium is incorporated as **selenocysteine** (the "21st amino acid") into selenoproteins via a unique UGA codon recoding mechanism. Key functional classes:
+Selenium is incorporated as selenocysteine (the "21st amino acid") into selenoproteins via a unique UGA codon recoding mechanism. Key functional classes:
 
-- **GPX1-4**: Reduce hydrogen peroxide and lipid hydroperoxides, protecting cell membranes from oxidative damage
-- **TrxR1-3**: Regenerate thioredoxin, maintaining intracellular redox balance and regulating NF-kB signaling
-- **DIO1-3**: Catalyze T4→T3 conversion (DIO1/2) and T4/T3 inactivation (DIO3), governing thyroid hormone metabolism
+- GPX1-4: Reduce hydrogen peroxide and lipid hydroperoxides, protecting cell membranes from oxidative damage
+- TrxR1-3: Regenerate thioredoxin, maintaining intracellular redox balance and regulating NF-kB signaling
+- DIO1-3: Catalyze T4→T3 conversion (DIO1/2) and T4/T3 inactivation (DIO3), governing thyroid hormone metabolism
 
 In selenium deficiency, these enzymes lose function in a hierarchical manner — brain and endocrine tissues are protected last, but thyroid GPX activity drops early, increasing vulnerability to [[oxidative-stress|hydrogen-peroxide]]-mediated autoimmune attack.
 
@@ -77,44 +77,44 @@ In selenium deficiency, these enzymes lose function in a hierarchical manner —
 
 | Parameter | Recommendation |
 |-----------|---------------|
-| **Form** | Selenomethionine (best absorbed, most studied in RCTs) |
-| **Therapeutic dose** | 200 ug/day for autoimmune thyroid conditions |
-| **Maintenance dose** | 55-100 ug/day (varies by baseline status) |
-| **Duration** | Minimum 3 months for anti-TPO response; 6-12 months for full assessment |
-| **Upper limit** | 400 ug/day (includes dietary intake) |
-| **Dietary sources** | Brazil nuts (1-2 nuts = ~100 ug; highly variable by soil), seafood, organ meats |
+| Form | Selenomethionine (best absorbed, most studied in RCTs) |
+| Therapeutic dose | 200 ug/day for autoimmune thyroid conditions |
+| Maintenance dose | 55-100 ug/day (varies by baseline status) |
+| Duration | Minimum 3 months for anti-TPO response; 6-12 months for full assessment |
+| Upper limit | 400 ug/day (includes dietary intake) |
+| Dietary sources | Brazil nuts (1-2 nuts = ~100 ug; highly variable by soil), seafood, organ meats |
 
 ---
 
 ## Monitoring
 
-- **Serum selenium**: Baseline and at 3 months. Target range 100-130 ng/mL. Below 70 ng/mL indicates deficiency; above 150 ng/mL increases toxicity risk.
-- **Anti-TPO antibodies**: For [[hashimotos-thyroiditis]] — check at baseline, 3 months, 6 months.
-- **Cu/Se ratio**: For cardiovascular risk assessment. Elevated ratio warrants selenium repletion before copper reduction.
-- **Selenosis signs**: Monitor for garlic breath, brittle nails/hair, GI disturbance, peripheral neuropathy.
+- Serum selenium: Baseline and at 3 months. Target range 100-130 ng/mL. Below 70 ng/mL indicates deficiency; above 150 ng/mL increases toxicity risk.
+- Anti-TPO antibodies: For [[hashimotos-thyroiditis]] — check at baseline, 3 months, 6 months.
+- Cu/Se ratio: For cardiovascular risk assessment. Elevated ratio warrants selenium repletion before copper reduction.
+- Selenosis signs: Monitor for garlic breath, brittle nails/hair, GI disturbance, peripheral neuropathy.
 
 ---
 
 ## Contraindications and Risks
 
-- **Toxicity above 400 ug/day**: Selenosis presents as hair loss, nail brittleness, garlic-odor breath, fatigue, irritability, and peripheral neuropathy. Chronic excess may increase type 2 diabetes risk (SELECT trial signal).
-- **Selenium-replete populations**: No benefit demonstrated in individuals with adequate baseline selenium (>106 ng/mL for prostate cancer; >100 ng/mL generally). The SELECT trial's null result likely reflects supplementation of already-replete American men.
-- **U-shaped dose-response**: Both deficiency and excess associate with adverse outcomes. "More is not better" applies strongly to selenium.
-- **Drug interactions**: May potentiate anticoagulant effects; may interact with statins and cisplatin.
+- Toxicity above 400 ug/day: Selenosis presents as hair loss, nail brittleness, garlic-odor breath, fatigue, irritability, and peripheral neuropathy. Chronic excess may increase type 2 diabetes risk (SELECT trial signal).
+- Selenium-replete populations: No benefit demonstrated in individuals with adequate baseline selenium (>106 ng/mL for prostate cancer; >100 ng/mL generally). The SELECT trial's null result likely reflects supplementation of already-replete American men.
+- U-shaped dose-response: Both deficiency and excess associate with adverse outcomes. "More is not better" applies strongly to selenium.
+- Drug interactions: May potentiate anticoagulant effects; may interact with statins and cisplatin.
 
 ---
 
 ## Connections
 
-**Entities:** [[selenium]], [[copper]]
+Entities: [[selenium]], [[copper]]
 
-**Concepts:** [[selenium|selenoprotein-synthesis]], [[nutritional-immunity]], [[oxidative-stress]], [[thyroid-autoimmunity]]
+Concepts: [[selenium|selenoprotein-synthesis]], [[nutritional-immunity]], [[oxidative-stress]], [[thyroid-autoimmunity]]
 
-**Related interventions:** [[vitamin-d-supplementation]] (synergistic with Se for Hashimoto's), [[iron-management]] (thyroid function requires both Se and Fe)
+Related interventions: [[vitamin-d-supplementation]] (synergistic with Se for Hashimoto's), [[iron-management]] (thyroid function requires both Se and Fe)
 
-**Signatures:** [[hashimotos-thyroiditis]], [[graves-disease]], [[cardiovascular-disease]]
+Signatures: [[hashimotos-thyroiditis]], [[graves-disease]], [[cardiovascular-disease]]
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

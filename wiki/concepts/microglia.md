@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Microglia
 
-**Microglia** are the resident immune cells of the central nervous system, constituting 5-12% of all brain cells. They function as the brain's surveillance and defense system -- scanning for damage, clearing debris, pruning synapses during development, and mounting inflammatory responses against pathogens. What makes microglia critically relevant to the metallomics-microbiome story is that they are the primary brain cells activated by both heavy metals and gut-derived inflammatory signals, making them the cellular mediator through which the [[gut-brain-axis]] produces neurodegeneration.
+Microglia are the resident immune cells of the central nervous system, constituting 5-12% of all brain cells. They function as the brain's surveillance and defense system -- scanning for damage, clearing debris, pruning synapses during development, and mounting inflammatory responses against pathogens. What makes microglia critically relevant to the metallomics-microbiome story is that they are the primary brain cells activated by both heavy metals and gut-derived inflammatory signals, making them the cellular mediator through which the [[gut-brain-axis]] produces neurodegeneration.
 
 ## Biology and Polarization States
 
@@ -22,8 +22,8 @@ Microglia derive from yolk sac progenitors during embryonic development and are 
 
 Upon activation, microglia adopt states along a polarization spectrum:
 
-- **M1 (pro-inflammatory)**: Produces TNF-alpha, IL-1beta, IL-6, ROS, and reactive nitrogen species (NO). Mediates neuronal damage through excitotoxicity and oxidative attack. Activated by LPS, IFN-gamma, amyloid-beta, alpha-synuclein, and heavy metals.
-- **M2 (anti-inflammatory/reparative)**: Produces IL-10, TGF-beta, and neurotrophic factors (BDNF, NGF). Promotes phagocytic clearance of debris and tissue repair.
+- M1 (pro-inflammatory): Produces TNF-alpha, IL-1beta, IL-6, ROS, and reactive nitrogen species (NO). Mediates neuronal damage through excitotoxicity and oxidative attack. Activated by LPS, IFN-gamma, amyloid-beta, alpha-synuclein, and heavy metals.
+- M2 (anti-inflammatory/reparative): Produces IL-10, TGF-beta, and neurotrophic factors (BDNF, NGF). Promotes phagocytic clearance of debris and tissue repair.
 
 The M1/M2 framework is a simplification -- single-cell transcriptomics reveals a diverse landscape of microglial states -- but it captures the essential tension: microglia can protect or destroy neurons depending on their activation state and chronicity.
 
@@ -31,14 +31,14 @@ The M1/M2 framework is a simplification -- single-cell transcriptomics reveals a
 
 Heavy metals are potent and persistent microglial activators:
 
-- **Lead**: Activates microglia via NF-kB signaling, increasing TNF-alpha and IL-6 production. Lead-activated microglia resist polarization back to the M2 state, creating chronic [[neuroinflammation]] that outlasts the exposure [[chin-chan-2015-environmental-pollutants-ad-pd]].
-- **Mercury**: Methylmercury activates microglial NLRP3 inflammasome, driving IL-1beta release and neuronal apoptosis.
-- **Manganese**: Accumulates preferentially in the basal ganglia (same regions as PD pathology); activates microglia through mitochondrial ROS production and NF-kB signaling [[heidari-2022-neuroinflammation-progression-parkinsons]].
-- **Cadmium**: Activates microglia via TLR4 signaling; Cd-exposed microglia produce exaggerated inflammatory responses to subsequent LPS stimulation (priming effect).
-- **Aluminum**: Activates microglia and promotes amyloid-beta aggregation. Al-activated microglia show impaired phagocytic clearance of amyloid, worsening plaque burden [[ahmed-2025-metals-alzheimers-mechanistic-review]].
-- **Iron**: Excess iron in microglia generates ROS via Fenton chemistry and promotes the pro-inflammatory M1 phenotype. Iron-loaded microglia around amyloid plaques amplify oxidative damage to surrounding neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Lead: Activates microglia via NF-kB signaling, increasing TNF-alpha and IL-6 production. Lead-activated microglia resist polarization back to the M2 state, creating chronic [[neuroinflammation]] that outlasts the exposure [[chin-chan-2015-environmental-pollutants-ad-pd]].
+- Mercury: Methylmercury activates microglial NLRP3 inflammasome, driving IL-1beta release and neuronal apoptosis.
+- Manganese: Accumulates preferentially in the basal ganglia (same regions as PD pathology); activates microglia through mitochondrial ROS production and NF-kB signaling [[heidari-2022-neuroinflammation-progression-parkinsons]].
+- Cadmium: Activates microglia via TLR4 signaling; Cd-exposed microglia produce exaggerated inflammatory responses to subsequent LPS stimulation (priming effect).
+- Aluminum: Activates microglia and promotes amyloid-beta aggregation. Al-activated microglia show impaired phagocytic clearance of amyloid, worsening plaque burden [[ahmed-2025-metals-alzheimers-mechanistic-review]].
+- Iron: Excess iron in microglia generates ROS via Fenton chemistry and promotes the pro-inflammatory M1 phenotype. Iron-loaded microglia around amyloid plaques amplify oxidative damage to surrounding neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
-A critical feature of metal-activated microglia is their **resistance to phenotype switching**: once pushed into a pro-inflammatory state by metals, microglia remain activated even after metal levels normalize, creating a self-perpetuating neuroinflammatory environment [[gao-2023-microglia-neurodegenerative-diseases]].
+A critical feature of metal-activated microglia is their resistance to phenotype switching: once pushed into a pro-inflammatory state by metals, microglia remain activated even after metal levels normalize, creating a self-perpetuating neuroinflammatory environment [[gao-2023-microglia-neurodegenerative-diseases]].
 
 ## The Gut-Brain-Microglia Axis
 
@@ -55,7 +55,7 @@ When [[gut-barrier-dysfunction]] permits LPS translocation into the bloodstream,
 
 ## TREM2: The Key Therapeutic Target
 
-**TREM2** (triggering receptor expressed on myeloid cells 2) is a microglial surface receptor critical for phagocytic clearance and inflammatory regulation:
+TREM2 (triggering receptor expressed on myeloid cells 2) is a microglial surface receptor critical for phagocytic clearance and inflammatory regulation:
 
 - TREM2 variants (R47H) are associated with 2-4 fold increased Alzheimer's disease risk
 - TREM2 enables disease-associated microglia (DAM) to transition from homeostatic to phagocytic states

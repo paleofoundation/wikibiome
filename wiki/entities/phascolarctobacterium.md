@@ -23,7 +23,7 @@ pathogenic_potential: commensal
 
 # Phascolarctobacterium
 
-A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (family Acidaminococcaceae, class Negativicutes). The primary species *P. faecium* and the recently characterized *P. succinatutens* are specialized **propionate producers** that utilize succinate as their main carbon source, occupying a unique metabolic niche in the cross-feeding network of the human colon. Named after its original isolation from koala feces, *Phascolarctobacterium* has emerged as a **protective commensal** in autoimmune and metabolic disease contexts — though with notable exceptions in psychiatric conditions.
+A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (family Acidaminococcaceae, class Negativicutes). The primary species *P. faecium* and the recently characterized *P. succinatutens* are specialized propionate producers that utilize succinate as their main carbon source, occupying a unique metabolic niche in the cross-feeding network of the human colon. Named after its original isolation from koala feces, *Phascolarctobacterium* has emerged as a protective commensal in autoimmune and metabolic disease contexts — though with notable exceptions in psychiatric conditions.
 
 ## Classification and Ecology
 
@@ -31,11 +31,11 @@ The Negativicutes class within Firmicutes is distinctive: these organisms stain 
 
 ## Role in Gut Ecosystem — The Succinate Cross-Feeding Niche
 
-The defining ecological feature of *Phascolarctobacterium* is its role as a **second-tier cross-feeder** in the colonic fermentation network:
+The defining ecological feature of *Phascolarctobacterium* is its role as a second-tier cross-feeder in the colonic fermentation network:
 
-1. **Primary fermenters** ([[bacteroides-fragilis]], [[parabacteroides]], and other Bacteroidetes) ferment complex carbohydrates and produce succinate as an intermediate metabolic product.
-2. ***Phascolarctobacterium* converts succinate to propionate** via the methylmalonyl-CoA decarboxylase pathway — a sodium-gradient-coupled mechanism distinct from the acrylate pathway used by other propionate producers.
-3. By consuming succinate, it **prevents succinate accumulation**, which at high concentrations:
+1. Primary fermenters ([[bacteroides-fragilis]], [[parabacteroides]], and other Bacteroidetes) ferment complex carbohydrates and produce succinate as an intermediate metabolic product.
+2. *Phascolarctobacterium* converts succinate to propionate via the methylmalonyl-CoA decarboxylase pathway — a sodium-gradient-coupled mechanism distinct from the acrylate pathway used by other propionate producers.
+3. By consuming succinate, it prevents succinate accumulation, which at high concentrations:
    - Acts as a pro-inflammatory signal via SUCNR1 (GPR91) receptor activation
    - Promotes HIF-1α stabilization and macrophage activation in gut tissue
    - Creates a metabolic environment that favors pathogen expansion
@@ -61,12 +61,12 @@ No essential metal dependencies specific to the succinate-to-propionate pathway 
 ## Disease Associations
 
 ### Graves' Disease — Protective
-*Phascolarctobacterium* is identified as a **protective taxon** in [[graves-disease]] through multiple lines of evidence:
+*Phascolarctobacterium* is identified as a protective taxon in [[graves-disease]] through multiple lines of evidence:
 
 - Mendelian randomization analysis supports a causal protective role [[jiang-2023-gut-microbiome-metabolites-graves]].
 - Propionate production by *Phascolarctobacterium* promotes Treg differentiation via GPR43 signaling, counteracting the Th17/Treg imbalance that drives GD pathogenesis.
 - Depleted in untreated GD patients alongside other SCFA-producing commensals [[chen-2021-gut-microbiota-thyroid-graves]].
-- After methimazole treatment and thyroid function recovery, *Phascolarctobacterium* **increases significantly**, establishing it as a **biomarker of thyroid function restoration** [[yang-2022-intestinal-flora-graves-methimazole]]. Concurrently, *Ruminococcus*, *Streptococcus*, and *Blautia* decrease — suggesting that propionate-producing Negativicutes recover as immune normalization proceeds.
+- After methimazole treatment and thyroid function recovery, *Phascolarctobacterium* increases significantly, establishing it as a biomarker of thyroid function restoration [[yang-2022-intestinal-flora-graves-methimazole]]. Concurrently, *Ruminococcus*, *Streptococcus*, and *Blautia* decrease — suggesting that propionate-producing Negativicutes recover as immune normalization proceeds.
 - Negatively correlated with TRAb (thyroid receptor antibody), TGAb, and TPOAb in untreated GD, supporting a direct immunomodulatory link [[yang-2022-intestinal-flora-graves-methimazole]].
 
 ### Hypertension — Depleted by Disease
@@ -76,7 +76,7 @@ Hypertension causally decreases *Phascolarctobacterium* abundance in reverse Men
 Depletion in ASD children with constipation, consistent with the broader loss of SCFA producers in constipation-predominant ASD; lower propionate may contribute to reduced Treg activity and gut-brain axis disruption [[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]].
 
 ### Schizophrenia — Enriched (Paradox)
-*P. succinatutens* is **enriched in schizophrenia patients** in shotgun metagenomic analysis, alongside *Paraprevotella clara* (another succinate-pathway organism) [[ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia]]. This is paradoxical given the protective associations in autoimmune and cardiovascular conditions, and may reflect:
+*P. succinatutens* is enriched in schizophrenia patients in shotgun metagenomic analysis, alongside *Paraprevotella clara* (another succinate-pathway organism) [[ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia]]. This is paradoxical given the protective associations in autoimmune and cardiovascular conditions, and may reflect:
 - Elevated succinate availability in the SCZ gut (from altered fermentation) providing substrate for *P. succinatutens* enrichment
 - Species-level differences between *P. faecium* (depleted in autoimmunity) and *P. succinatutens* (enriched in SCZ)
 - Disrupted downstream propionate signaling in SCZ — propionate produced but not properly utilized in a neuroinflammatory context
@@ -90,9 +90,9 @@ Identified among differentially abundant taxa in [[endometriosis]] stool microbi
 
 The succinate-to-propionate cross-feeding niche makes *Phascolarctobacterium* sensitive to diet through an indirect mechanism:
 
-- **Mediterranean diet** enriches *Phascolarctobacterium* through increased availability of complex carbohydrates that promote succinate-producing Bacteroidetes, which in turn feed *Phascolarctobacterium*.
-- **High-fiber diets** generally support the succinate cross-feeding network, though the effect is indirect and dependent on upstream Bacteroidetes proliferation.
-- **Western diet** (high fat, low fiber) depletes upstream succinate producers, indirectly starving *Phascolarctobacterium*.
+- Mediterranean diet enriches *Phascolarctobacterium* through increased availability of complex carbohydrates that promote succinate-producing Bacteroidetes, which in turn feed *Phascolarctobacterium*.
+- High-fiber diets generally support the succinate cross-feeding network, though the effect is indirect and dependent on upstream Bacteroidetes proliferation.
+- Western diet (high fat, low fiber) depletes upstream succinate producers, indirectly starving *Phascolarctobacterium*.
 - This fiber-indirect dependency means that prebiotic interventions targeting *Phascolarctobacterium* should focus on Bacteroidetes-promoting fiber types (pectin, inulin) rather than direct substrate provision.
 
 ## What Wikipedia Doesn't Cover

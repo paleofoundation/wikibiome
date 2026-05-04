@@ -3,25 +3,31 @@ title: Hypoxic Signaling (HIF-1α Pathway)
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [salnikov-2008-metal-carcinogenesis.md]
-source_count: 1
+sources:
+  - englert-golon-2025-microbiota-ovarian-cancer-treatment-review
+  - salnikov-2008-metal-carcinogenesis
+  - cano-2021-metallomic-profile-hepatocellular-carcinoma
+  - cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease
+  - shim-2016-omega3-erectile-dysfunction-chronic-pelvic-ischemia
+  - denkhaus-2002-nickel-essentiality-toxicity
+  - briffa-2020-heavy-metal-pollution-environment-toxicology
+  - rafati-rahimzadeh-2025-nickel-intoxication-mechanisms
+source_count: 8
 tags: [HIF-1alpha, nickel, carcinogenesis, signaling]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
 karen_brain_primitives: [2, 9]
 seo_target: "hypoxic signaling hif-1α pathway microbiome"
-last_substantive_update: 2026-04-09
+last_substantive_update: 2026-04-22
 ---
 
 # Hypoxic Signaling (HIF-1α Pathway)
 
-Activation of the hypoxia-inducible factor pathway under **normoxic conditions** is a hallmark mechanism of [[nickel]] carcinogenesis, distinguishing it from [[arsenic]] and [[chromium]].
+Activation of the hypoxia-inducible factor pathway under normoxic conditions is a hallmark mechanism of [[nickel]] carcinogenesis, distinguishing it from [[arsenic]] and [[chromium]].
 
 ## Normal HIF-1α Regulation
 
 Under normal oxygen levels:
-1. HIF-prolyl hydroxylases (using Fe(II), O₂, 2-oxoglutarate, and **ascorbate**) hydroxylate HIF-1α at Pro-402 and Pro-564.
+1. HIF-prolyl hydroxylases (using Fe(II), O₂, 2-oxoglutarate, and ascorbate) hydroxylate HIF-1α at Pro-402 and Pro-564.
 2. Hydroxylated HIF-1α is recognized by the von Hippel-Lindau protein (pVHL).
 3. pVHL tags HIF-1α for proteasomal degradation via ubiquitination.
 4. Result: HIF-1α is rapidly degraded under normoxia.
@@ -30,27 +36,27 @@ Under hypoxia, hydroxylation doesn't occur → HIF-1α accumulates → dimerizes
 
 ## How Nickel Activates HIF-1α
 
-Ni(II) causes **"pseudo-hypoxia"** through multiple converging mechanisms [[salnikov-2008-metal-carcinogenesis]]:
+Ni(II) causes "pseudo-hypoxia" through multiple converging mechanisms [[salnikov-2008-metal-carcinogenesis]]:
 
-1. **Direct inhibition of HIF-prolyl hydroxylases**: Ni(II) may replace Fe(II) in the active site.
-2. **Ascorbate depletion**: nickel depletes intracellular ascorbate, which is a critical cofactor for the hydroxylases. Without ascorbate, Fe(II) cannot be maintained in its reduced state.
-3. **Iron homeostasis disruption**: Ni(II) oxidizes iron in iron-sulfur clusters → activates IRP-1 → affects transferrin receptor and ferritin expression → disrupts cellular iron pools needed for hydroxylases.
+1. Direct inhibition of HIF-prolyl hydroxylases: Ni(II) may replace Fe(II) in the active site.
+2. Ascorbate depletion: nickel depletes intracellular ascorbate, which is a critical cofactor for the hydroxylases. Without ascorbate, Fe(II) cannot be maintained in its reduced state.
+3. Iron homeostasis disruption: Ni(II) oxidizes iron in iron-sulfur clusters → activates IRP-1 → affects transferrin receptor and ferritin expression → disrupts cellular iron pools needed for hydroxylases.
 
 The structural basis: Ni(II) is similar to Fe(II), and the oxygen of the Ni(II) hydroxyl group at the proline C4 position provides the specific interaction with VHL Ser-111 and His-115 residues — enabling discrimination between hydroxylated and non-hydroxylated HIF-1α.
 
 ## Downstream Effects
 
 HIF-1α activation promotes:
-- **Angiogenesis** (VEGF)
-- **Glycolytic metabolism** (glucose transporters, glycolytic enzymes)
-- **Cell survival** (anti-apoptotic genes)
-- **Erythropoietin** production
+- Angiogenesis (VEGF)
+- Glycolytic metabolism (glucose transporters, glycolytic enzymes)
+- Cell survival (anti-apoptotic genes)
+- Erythropoietin production
 
 All of these promote tumor growth and survival.
 
 ## Connection to Epigenetics
 
-The hypoxic signaling and [[epigenetic-modifications]] pathways share a critical upstream target: **2-oxoglutarate/Fe(II)-dependent dioxygenases**. This enzyme family includes:
+The hypoxic signaling and [[epigenetic-modifications]] pathways share a critical upstream target: 2-oxoglutarate/Fe(II)-dependent dioxygenases. This enzyme family includes:
 - HIF-prolyl hydroxylases (hypoxic signaling)
 - JMJD2 family histone demethylases (epigenetics)
 - TET family DNA demethylases (epigenetics)

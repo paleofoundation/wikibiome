@@ -19,44 +19,44 @@ wikipedia_differentiation: "Self-perpetuating dysbiosis-translocation-inflammati
 
 # Long COVID
 
-Post-acute sequelae of SARS-CoV-2 infection (PASC), affecting an estimated **10-30% of COVID-19 survivors** (WHO and CDC post-acute surveillance estimates) with symptoms persisting >12 weeks. Characterized by fatigue, cognitive dysfunction ("brain fog"), exercise intolerance, and multi-system involvement. The emerging microbiome evidence reveals that Long COVID is not simply "slow recovery" — it is a **self-perpetuating dysbiosis-translocation-inflammation feedback loop** where persistent gut microbiome disruption drives ongoing symptoms through the gut-lung and gut-brain axes [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]].
+Post-acute sequelae of SARS-CoV-2 infection (PASC), affecting an estimated 10-30% of COVID-19 survivors (WHO and CDC post-acute surveillance estimates) with symptoms persisting >12 weeks. Characterized by fatigue, cognitive dysfunction ("brain fog"), exercise intolerance, and multi-system involvement. The emerging microbiome evidence reveals that Long COVID is not simply "slow recovery" — it is a self-perpetuating dysbiosis-translocation-inflammation feedback loop where persistent gut microbiome disruption drives ongoing symptoms through the gut-lung and gut-brain axes [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]].
 
 ## Microbiome Signature
 
-The microbiome disruption in Long COVID is distinguished from acute COVID and recovery by three features: (1) **persistence** — dysbiosis maintained months to years post-infection, (2) **non-linear recovery** — beneficial taxa peak at 3 months then regress as pathogens persist at 6 months [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]], and (3) **strain-level collapse** — not just species depletion but loss of intra-species genetic diversity in beneficial taxa [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]].
+The microbiome disruption in Long COVID is distinguished from acute COVID and recovery by three features: (1) persistence — dysbiosis maintained months to years post-infection, (2) non-linear recovery — beneficial taxa peak at 3 months then regress as pathogens persist at 6 months [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]], and (3) strain-level collapse — not just species depletion but loss of intra-species genetic diversity in beneficial taxa [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]].
 
 ### Depleted Taxa
 The hallmark is systematic loss of obligate anaerobic SCFA producers:
-- **[[faecalibacterium-prausnitzii]]** — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary butyrate producer
-- **[[roseburia]]** — replicated across 5+ studies; SCFA producer [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
-- **[[bifidobacterium]]** — immune education; SCFA production [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]]
-- **[[lactobacillus]]** — immune modulation; barrier function [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]]
-- **[[akkermansia-muciniphila]]** — mucus layer maintenance [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
-- **[[lachnospiraceae]]** family — SCFA producers [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]]
+- [[faecalibacterium-prausnitzii]] — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary butyrate producer
+- [[roseburia]] — replicated across 5+ studies; SCFA producer [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
+- [[bifidobacterium]] — immune education; SCFA production [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]]
+- [[lactobacillus]] — immune modulation; barrier function [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]]
+- [[akkermansia-muciniphila]] — mucus layer maintenance [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
+- [[lachnospiraceae]] family — SCFA producers [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]]
 
 ### Enriched Taxa
 Facultative aerobes and pathobionts bloom:
-- **Proteobacteria** (phylum-level, including [[enterobacteriaceae]], [[klebsiella-pneumoniae]], [[escherichia-coli]]) — LPS production; translocation to blood
-- **[[streptococcus]]** (S. equinus persists at 6 months)
-- **[[enterococcus]]** — facultative aerobe; translocation marker
-- **[[candida-albicans]]** — multi-kingdom co-expansion with bacterial pathobionts
-- **[[fusobacterium-nucleatum]]** — enhanced LPS synthesis genes in dysbiotic strains
+- Proteobacteria (phylum-level, including [[enterobacteriaceae]], [[klebsiella-pneumoniae]], [[escherichia-coli]]) — LPS production; translocation to blood
+- [[streptococcus]] (S. equinus persists at 6 months)
+- [[enterococcus]] — facultative aerobe; translocation marker
+- [[candida-albicans]] — multi-kingdom co-expansion with bacterial pathobionts
+- [[fusobacterium-nucleatum]] — enhanced LPS synthesis genes in dysbiotic strains
 
 ### Multi-Kingdom Dysbiosis
 Coordinated bacterial + fungal + viral community disruption. Bacteriophage populations shift in parallel; reduced phage diversity limits natural pathobiont predation [[lu-2021-intestinal-dna-virome-covid-19]].
 
 ## The Self-Perpetuating Loop
 
-Dysbiosis → SCFA depletion → barrier dysfunction → LPS translocation → systemic inflammation → further dysbiosis. This feedback loop explains why symptoms persist long after viral clearance. Approximately **~30% of hospitalized COVID patients had positive blood cultures** matching gut organisms — direct evidence that barrier dysfunction drives bacteremia in the acute phase [[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid|Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
+Dysbiosis → SCFA depletion → barrier dysfunction → LPS translocation → systemic inflammation → further dysbiosis. This feedback loop explains why symptoms persist long after viral clearance. Approximately ~30% of hospitalized COVID patients had positive blood cultures matching gut organisms — direct evidence that barrier dysfunction drives bacteremia in the acute phase [[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid|Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid]].
 
 Mendelian randomization analyses provide causal support: specific gut taxa (Lachnospiraceae, Ruminococcaceae) show causal relationships with Long COVID risk [[li-2024-causal-role-gut-microbiota-long-covid-mendelian-randomization]], and broader COVID-19 susceptibility shows causal microbiome contributions [[zhong-2023-causal-effects-gut-microbiome-covid-19-mendelian-randomization]].
 
 ## Metal Associations
 
-- **[[iron]] sequestered**: Hepcidin elevation drives iron sequestration as host antiviral defense — functional anemia, not true deficiency. Iron was **10-fold decreased** in COVID+ human milk [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
-- **[[selenium]] depleted**: **2-fold decrease** in COVID+ mothers; lower Se associated with COVID mortality [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
-- **[[zinc]] elevated**: **1.7-fold increase** in human milk as antiviral defense [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
-- **[[glutathione]] depleted**: Reduced antioxidant metabolites [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
+- [[iron]] sequestered: Hepcidin elevation drives iron sequestration as host antiviral defense — functional anemia, not true deficiency. Iron was 10-fold decreased in COVID+ human milk [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- [[selenium]] depleted: 2-fold decrease in COVID+ mothers; lower Se associated with COVID mortality [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- [[zinc]] elevated: 1.7-fold increase in human milk as antiviral defense [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- [[glutathione]] depleted: Reduced antioxidant metabolites [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
 
 ## Gut-Brain Axis
 LPS translocation crosses the BBB; reduced butyrate impairs BBB tight junctions; altered tryptophan metabolism (reduced kynurenine/AhR signaling) drives neuroinflammation and microglial activation, explaining "brain fog" and cognitive symptoms [[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]], [[brown-2024-covid-19-neuroinflammation-pathophysiology]].

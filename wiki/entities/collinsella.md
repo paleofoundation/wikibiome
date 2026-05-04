@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Collinsella
 
-A genus of Gram-positive, obligate anaerobic bacteria within the Actinobacteria phylum (family Coriobacteriaceae) that has emerged as a consistent **pathobiont enriched in cardiometabolic and autoimmune diseases**. *C. aerofaciens* is the most studied species, with established roles in bile acid deconjugation, increased gut permeability, and promotion of atherosclerosis. Notably, Collinsella is one of the few genera enriched by heavy metal exposure across multiple metals.
+A genus of Gram-positive, obligate anaerobic bacteria within the Actinobacteria phylum (family Coriobacteriaceae) that has emerged as a consistent pathobiont enriched in cardiometabolic and autoimmune diseases. *C. aerofaciens* is the most studied species, with established roles in bile acid deconjugation, increased gut permeability, and promotion of atherosclerosis. Notably, Collinsella is one of the few genera enriched by heavy metal exposure across multiple metals.
 
 ## Mechanisms of Pathogenicity
 
@@ -41,24 +41,24 @@ A genus of Gram-positive, obligate anaerobic bacteria within the Actinobacteria 
 
 ## Disease Associations
 
-- **Cardiovascular disease/atherosclerosis**: one of the most consistently enriched taxa in CVD. Linked to arterial stiffness and carotid intima-media thickness [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]]. Part of the pro-atherogenic microbiome signature [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]].
-- **Rheumatoid arthritis**: enriched in RA patients; *C. aerofaciens* promotes Th17 polarization and increases gut permeability, potentially enabling molecular mimicry and autoimmune activation.
-- **Type 2 diabetes**: enriched in T2D; associated with insulin resistance and altered glucose metabolism.
-- **Autism spectrum disorder**: enriched in ASD children alongside [[lactobacillus]] and Corynebacterium; associated with altered bile acid metabolism [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
-- **Symptomatic atherosclerosis**: enriched in patients with symptomatic vs asymptomatic carotid plaques.
+- Cardiovascular disease/atherosclerosis: one of the most consistently enriched taxa in CVD. Linked to arterial stiffness and carotid intima-media thickness [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]]. Part of the pro-atherogenic microbiome signature [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]].
+- Rheumatoid arthritis: enriched in RA patients; *C. aerofaciens* promotes Th17 polarization and increases gut permeability, potentially enabling molecular mimicry and autoimmune activation.
+- Type 2 diabetes: enriched in T2D; associated with insulin resistance and altered glucose metabolism.
+- Autism spectrum disorder: enriched in ASD children alongside [[lactobacillus]] and Corynebacterium; associated with altered bile acid metabolism [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
+- Symptomatic atherosclerosis: enriched in patients with symptomatic vs asymptomatic carotid plaques.
 
 ## Heavy Metal Enrichment
 
-- Collinsella is a **shared pathobiont across multiple metal exposures** -- enriched by [[arsenic]], [[lead]], and [[mercury]] in human studies [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
+- Collinsella is a shared pathobiont across multiple metal exposures -- enriched by [[arsenic]], [[lead]], and [[mercury]] in human studies [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
 - This cross-metal enrichment pattern is unusual and suggests that Collinsella possesses inherent metal tolerance mechanisms or benefits from the ecological vacuum created when metal-sensitive commensals are depleted.
 - Metal-driven Collinsella expansion may represent a direct mechanistic link between environmental metal exposure and [[cardiovascular-disease]] via bile acid dysregulation and barrier disruption.
 - Depleted by Mediterranean diet interventions, which also reduce heavy metal bioavailability through chelation by polyphenols and fiber.
 
 ## Key Metabolites
 
-- **Deconjugated bile acids** -- BSH-mediated deconjugation alters enterohepatic circulation.
-- **Hydrogen and CO2** -- gas production from carbohydrate fermentation.
-- **Lactate** -- minor fermentation product.
+- Deconjugated bile acids -- BSH-mediated deconjugation alters enterohepatic circulation.
+- Hydrogen and CO2 -- gas production from carbohydrate fermentation.
+- Lactate -- minor fermentation product.
 
 ## Key Sources
 

@@ -4,13 +4,14 @@ type: entity
 subtype: disease
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [zhang-2024-bile-acid-metabolism-diabetic-kidney-disease, sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy, liu-2024-gut-microbiota-diabetic-complications-mr-study]
+last_substantive_update: 2026-04-22
+sources:
+  - zhang-2024-bile-acid-metabolism-diabetic-kidney-disease
+  - geng-2024-circulating-bile-acids-ckd-type2-diabetes
+  - liu-2024-gut-microbiota-diabetic-complications-mr-study
 source_count: 3
 tags: [diabetic-kidney-disease, diabetic-nephropathy, DKD, CKD, type-2-diabetes, cadmium, TLR4, NF-kB, bile-acids, microbiome, ferroptosis, zinc, curcumin, uremic-toxins]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 3 sources, minimum 5 required"
 icd_10: "E11.22"
 global_prevalence: "~30-40% of diabetes patients; ~160 million people affected globally"
 associated_conditions: [type-2-diabetes, chronic-kidney-disease, cardiovascular-disease, hypertension]
@@ -24,7 +25,7 @@ wikipedia_differentiation: "Cadmium-TLR4-NF-kB pathway driving diabetic nephropa
 
 ## Overview
 
-**Diabetic kidney disease (DKD)**, also known as diabetic nephropathy, is the leading cause of end-stage renal disease (ESRD) worldwide, affecting 30-40% of patients with [[type-2-diabetes]] and [[type-1-diabetes]]. DKD is defined by progressive albuminuria, declining glomerular filtration rate (GFR), and ultimately renal failure requiring dialysis or transplantation. It represents the convergence of two conditions that individually disrupt the gut microbiome -- diabetes and [[chronic-kidney-disease]] -- creating a compounded dysbiosis-metal-inflammation cycle.
+Diabetic kidney disease (DKD), also known as diabetic nephropathy, is the leading cause of end-stage renal disease (ESRD) worldwide, affecting 30-40% of patients with [[type-2-diabetes]] and [[type-1-diabetes]]. DKD is defined by progressive albuminuria, declining glomerular filtration rate (GFR), and ultimately renal failure requiring dialysis or transplantation. It represents the convergence of two conditions that individually disrupt the gut microbiome -- diabetes and [[chronic-kidney-disease]] -- creating a compounded dysbiosis-metal-inflammation cycle.
 
 In the WikiBiome framework, DKD is where the [[gut-kidney-axis]] meets the metabolic syndrome signature, and where cadmium toxicity intersects with hyperglycemia-driven microvascular damage.
 
@@ -34,14 +35,14 @@ In the WikiBiome framework, DKD is where the [[gut-kidney-axis]] meets the metab
 
 Cadmium is the most important metal in DKD because it attacks both the diabetes and the kidney components simultaneously [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]]:
 
-- **Pancreatic beta-cell toxicity**: Cadmium impairs insulin secretion, worsening diabetes
-- **Proximal tubular damage**: Cadmium accumulates in kidney proximal tubules (30-year half-life), causing direct nephrotoxicity
-- **TLR4/NF-kB activation**: Cadmium activates the TLR4/NF-kB inflammatory cascade in renal tissue, driving fibrosis
-- **Oxidative stress**: Cadmium depletes glutathione and generates reactive oxygen species in both kidney and pancreas
+- Pancreatic beta-cell toxicity: Cadmium impairs insulin secretion, worsening diabetes
+- Proximal tubular damage: Cadmium accumulates in kidney proximal tubules (30-year half-life), causing direct nephrotoxicity
+- TLR4/NF-kB activation: Cadmium activates the TLR4/NF-kB inflammatory cascade in renal tissue, driving fibrosis
+- Oxidative stress: Cadmium depletes glutathione and generates reactive oxygen species in both kidney and pancreas
 
 ### Zinc-Curcumin Attenuation
 
-A key finding: **zinc + curcumin combination attenuates cadmium-induced diabetic nephropathy** through [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]]:
+A key finding: zinc + curcumin combination attenuates cadmium-induced diabetic nephropathy through [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]]:
 
 - Zinc competes with cadmium for cellular uptake (shared ZIP/ZnT transporters)
 - Curcumin chelates cadmium and suppresses NF-kB activation
@@ -62,13 +63,13 @@ Iron dysregulation contributes to DKD through [[ferroptosis]] -- iron-dependent 
 
 DKD patients carry the combined microbiome disruption of diabetes AND kidney disease:
 
-**From diabetes:**
+From diabetes:
 - Reduced [[bifidobacterium]], [[lactobacillus]], [[akkermansia-muciniphila]]
 - Increased Proteobacteria and [[enterobacteriaceae]]
 - Impaired SCFA production
 - Altered bile acid metabolism
 
-**From CKD (added as kidney function declines):**
+From CKD (added as kidney function declines):
 - Uremic toxin-producing bacteria increase ([[escherichia-coli]], Clostridium species)
 - Further SCFA depletion as dietary fiber is restricted
 - Metal-resistant bacteria enriched due to impaired cadmium/lead excretion
@@ -116,10 +117,10 @@ This convergence explains why DKD progresses more rapidly than either diabetes o
 
 | Condition | Relationship | Shared Features |
 |-----------|-------------|----------------|
-| **[[type-2-diabetes]]** | Primary driver | Insulin resistance, cadmium exposure, gut dysbiosis |
-| **[[chronic-kidney-disease]]** | Consequence that amplifies cause | Vicious cycle of metal accumulation and dysbiosis |
-| **[[cardiovascular-disease]]** | Major comorbidity (leading cause of death in DKD) | Endothelial dysfunction, TMAO, systemic inflammation |
-| **[[hypertension]]** | Both cause and consequence | Lead/cadmium vascular toxicity; RAAS dysregulation |
+| [[type-2-diabetes]] | Primary driver | Insulin resistance, cadmium exposure, gut dysbiosis |
+| [[chronic-kidney-disease]] | Consequence that amplifies cause | Vicious cycle of metal accumulation and dysbiosis |
+| [[cardiovascular-disease]] | Major comorbidity (leading cause of death in DKD) | Endothelial dysfunction, TMAO, systemic inflammation |
+| [[hypertension]] | Both cause and consequence | Lead/cadmium vascular toxicity; RAAS dysregulation |
 
 ## Open Questions
 

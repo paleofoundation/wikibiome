@@ -24,4 +24,4 @@ karen_brain_primitives: [5, 8]
 
 ## Overview
 
-**Harm potential: RED** — Following this STOP inappropriately could delay life-saving antibiotic therapy.
+Harm potential: RED — Following this STOP inappropriately could delay life-saving antibiotic therapy.

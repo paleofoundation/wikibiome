@@ -20,21 +20,21 @@ updated: 2026-04-18
 
 ## Total Changes
 
-- **Boundary rewrites:** 9 entity/concept pages
-- **New intervention stubs:** 10
-- **Regenerated STOP files:** 31
-- **Supersession annotations:** 2 entity pages + 4 source pages
-- **Keystone criteria added:** 32 source pages
-- **Keystone demotions:** 31 source pages
-- **Reports written:** 3 (boundary-violations, supersessions, this resume)
+- Boundary rewrites: 9 entity/concept pages
+- New intervention stubs: 10
+- Regenerated STOP files: 31
+- Supersession annotations: 2 entity pages + 4 source pages
+- Keystone criteria added: 32 source pages
+- Keystone demotions: 31 source pages
+- Reports written: 3 (boundary-violations, supersessions, this resume)
 
 ## Remaining Work
 
-1. **5 deferred intervention stubs** (vitamin-e, vitamin-c, plant-based-diet, butyrate-supplementation, synbiotics as intervention — concept page exists but intervention page doesn't)
-2. **10 intervention stubs need triangle evidence** populated from source literature
-3. **31 demoted keystones** — Karen may want to manually review some for reinstatement if they meet criteria not detectable by keyword scan (especially Criterion 5: Paradigm Reframe)
-4. **223 source pages** still need manual `evidence_level` assignment (from overnight pass)
-5. **14 orphan pages** need review (from overnight pass)
+1. 5 deferred intervention stubs (vitamin-e, vitamin-c, plant-based-diet, butyrate-supplementation, synbiotics as intervention — concept page exists but intervention page doesn't)
+2. 10 intervention stubs need triangle evidence populated from source literature
+3. 31 demoted keystones — Karen may want to manually review some for reinstatement if they meet criteria not detectable by keyword scan (especially Criterion 5: Paradigm Reframe)
+4. 223 source pages still need manual `evidence_level` assignment (from overnight pass)
+5. 14 orphan pages need review (from overnight pass)
 
 ## Resume Command
 

@@ -32,16 +32,16 @@ How this intervention works at the metallomic/microbiome level.
 
 ### Condition: condition-name
 
-**I → f (Intervention affects feature):**
+I → f (Intervention affects feature):
 Evidence that the intervention modifies the signature feature.
 
-**I → D (Intervention affects disease):**
+I → D (Intervention affects disease):
 Independent clinical evidence that the intervention helps the condition.
 
-**f → D (Feature linked to disease):**
+f → D (Feature linked to disease):
 Evidence that the feature is mechanistically linked to the disease.
 
-**Status:** validated | promising | in-progress
+Status: validated | promising | in-progress
 
 ## Dosage and Administration
 

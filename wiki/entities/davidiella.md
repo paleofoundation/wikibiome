@@ -4,9 +4,15 @@ type: entity
 subtype: fungus
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
+  - shi-2023-ppi-fungal-dysbiosis-gerd
+  - de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons
+  - mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca
+  - krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model
+  - gosiewski-2014-candida-feces-t1d-t2d-pilot-study
+source_count: 6
 tags:
   - ascomycota
   - dothideomycetes
@@ -28,17 +34,15 @@ conditions_enriched_in:
   - inflammatory-bowel-disease
   - allergic-disease
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Davidiella** is the teleomorphic (sexual) state of *Cladosporium*, one of the most abundant environmental fungi worldwide. While primarily a saprophyte on plant material, Davidiella/Cladosporium species are commonly detected in gut mycobiome surveys, where their presence reflects both dietary intake and genuine mucosal colonization.
+Davidiella is the teleomorphic (sexual) state of *Cladosporium*, one of the most abundant environmental fungi worldwide. While primarily a saprophyte on plant material, Davidiella/Cladosporium species are commonly detected in gut mycobiome surveys, where their presence reflects both dietary intake and genuine mucosal colonization.
 
 ## Metal Dependencies
 
-Davidiella species produce **melanin** — a pigment synthesized through laccase enzymes requiring **copper** — that confers resistance to UV radiation, oxidative stress, and heavy metal toxicity. This melanin also chelates **zinc**, **iron**, and toxic metals like cadmium, potentially altering metal bioavailability for co-occurring gut bacteria and fungi.
+Davidiella species produce melanin — a pigment synthesized through laccase enzymes requiring copper — that confers resistance to UV radiation, oxidative stress, and heavy metal toxicity. This melanin also chelates zinc, iron, and toxic metals like cadmium, potentially altering metal bioavailability for co-occurring gut bacteria and fungi.
 
 ## Ecological Role
 

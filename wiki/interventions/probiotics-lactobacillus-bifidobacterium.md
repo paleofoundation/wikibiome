@@ -29,7 +29,7 @@ targets:
 karen_brain_primitives: [5, 7]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Probiotics (Lactobacillus + Bifidobacterium) for PCOS
 
@@ -39,18 +39,18 @@ Multi-strain probiotic supplementation combining Lactobacillus and Bifidobacteri
 
 ## Evidence
 
-- **Metabolic outcomes**: RCTs show probiotic supplementation reduces fasting insulin (-2.1 microIU/mL), HOMA-IR, and fasting glucose in PCOS women
-- **Hormonal outcomes**: Reductions in total testosterone and free androgen index reported in multiple trials; improvements in menstrual regularity
-- **Inflammatory markers**: hs-CRP and IL-6 reduced with 8-12 week probiotic courses
-- **Strain-specific**: L. acidophilus, L. rhamnosus, B. longum, and B. bifidum are the most studied strains in PCOS trials
-- **Synbiotic advantage**: Combination with prebiotics (see [[prebiotics-inulin-fructo-oligosaccharide]]) shows larger effect sizes than probiotics alone
+- Metabolic outcomes: RCTs show probiotic supplementation reduces fasting insulin (-2.1 microIU/mL), HOMA-IR, and fasting glucose in PCOS women
+- Hormonal outcomes: Reductions in total testosterone and free androgen index reported in multiple trials; improvements in menstrual regularity
+- Inflammatory markers: hs-CRP and IL-6 reduced with 8-12 week probiotic courses
+- Strain-specific: L. acidophilus, L. rhamnosus, B. longum, and B. bifidum are the most studied strains in PCOS trials
+- Synbiotic advantage: Combination with prebiotics (see [[prebiotics-inulin-fructo-oligosaccharide]]) shows larger effect sizes than probiotics alone
 
 ## Mechanism
 
-1. **Barrier restoration**: Lactobacillus and Bifidobacterium strengthen tight junctions and produce bacteriocins that reduce pathobiont colonization, decreasing LPS translocation
-2. **Insulin sensitization**: Reduced endotoxemia lowers TLR4-NF-kB signaling, breaking the inflammation-insulin resistance cycle central to PCOS
-3. **Estrobolome modulation**: Competitive exclusion of beta-glucuronidase-producing Proteobacteria reduces aberrant estrogen recirculation (Primitive 7)
-4. **SCFA production**: Bifidobacterium produces acetate and lactate that cross-feed butyrate producers, supporting colonocyte health
+1. Barrier restoration: Lactobacillus and Bifidobacterium strengthen tight junctions and produce bacteriocins that reduce pathobiont colonization, decreasing LPS translocation
+2. Insulin sensitization: Reduced endotoxemia lowers TLR4-NF-kB signaling, breaking the inflammation-insulin resistance cycle central to PCOS
+3. Estrobolome modulation: Competitive exclusion of beta-glucuronidase-producing Proteobacteria reduces aberrant estrogen recirculation (Primitive 7)
+4. SCFA production: Bifidobacterium produces acetate and lactate that cross-feed butyrate producers, supporting colonocyte health
 
 ## Clinical Context
 
@@ -59,4 +59,4 @@ Multi-strain formulations at >10^9 CFU/day for minimum 8 weeks. Strain selection
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

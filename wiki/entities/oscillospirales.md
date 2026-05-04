@@ -5,15 +5,21 @@ type: entity
 subtype: microbe
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: [altinok-dindar-2023-gut-microbiota-breast-cancer-diet, rowe-2024-bile-acid-dysmetabolism-feline-ckd]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - svensson-2021-endometriosis-gut-microbiota-associations
+  - peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning
+  - latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet
+  - cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease
+  - leao-2025-sex-simulated-microbiome-psychotropic-drug
+  - chen-2024-gut-microbiota-six-thyroid-diseases-mr
+  - teng-2024-gut-microbiome-lipids-bidirectional-mr
+  - romano-2023-gut-microbiome-children-mental-health-umbrella-review
+source_count: 8
 metal_dependencies: [iron]
 key_enzymes: [butyryl-CoA dehydrogenase, bile acid 7-alpha-dehydroxylase]
 tags: [firmicutes, clostridia, butyrate-producer, lean-phenotype, breast-cancer-depleted, health-associated, order-level, SCFA, bile-acid-metabolism]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Oscillospirales gut bacteria lean phenotype butyrate health microbiome"
 wikipedia_differentiation: "Depletion in breast cancer patients alongside Christensenellaceae and Dialister as part of a health-associated SCFA-producing cluster; role in secondary bile acid metabolism linking Oscillospirales to gut-liver axis; the paradox of a health-associated order that remains poorly cultured and taxonomically unstable"
 conditions_enriched_in: []
@@ -26,7 +32,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Oscillospirales
 
-An order of Gram-positive, obligate anaerobic bacteria within the class Clostridia (phylum Firmicutes) that has emerged as one of the **most consistent markers of a healthy gut ecosystem**. Oscillospirales members are butyrate producers associated with leanness and metabolic health, yet the order remains paradoxically understudied because many of its key taxa resist laboratory cultivation. Depletion of Oscillospirales is observed in breast cancer, obesity, and metabolic syndrome, positioning this order alongside [[lachnospiraceae]] and [[christensenellaceae]] as part of the health-associated SCFA-producing backbone of the gut microbiome.
+An order of Gram-positive, obligate anaerobic bacteria within the class Clostridia (phylum Firmicutes) that has emerged as one of the most consistent markers of a healthy gut ecosystem. Oscillospirales members are butyrate producers associated with leanness and metabolic health, yet the order remains paradoxically understudied because many of its key taxa resist laboratory cultivation. Depletion of Oscillospirales is observed in breast cancer, obesity, and metabolic syndrome, positioning this order alongside [[lachnospiraceae]] and [[christensenellaceae]] as part of the health-associated SCFA-producing backbone of the gut microbiome.
 
 ## Taxonomy
 
@@ -37,15 +43,15 @@ An order of Gram-positive, obligate anaerobic bacteria within the class Clostrid
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Iron-sulfur cluster proteins support the anaerobic electron transport required for butyrate production via the butyryl-CoA pathway.
 - Ferredoxin-dependent energy metabolism is characteristic of Oscillospirales, linking iron availability to their capacity for SCFA production.
 - Unlike pathobionts that aggressively acquire iron via siderophores, Oscillospirales appear to have modest iron acquisition systems, making them vulnerable to competitive exclusion in iron-replete inflammatory environments.
 
 ## Key Enzymes and Metabolic Features
 
-- **Butyryl-CoA dehydrogenase**: Part of the butyrate synthesis pathway from acetyl-CoA. Butyrate is the primary energy source for colonocytes and has anti-inflammatory, anti-tumorigenic, and barrier-strengthening properties.
-- **Bile acid 7-alpha-dehydroxylase**: Some Oscillospirales members participate in secondary bile acid metabolism, converting primary bile acids to secondary forms (deoxycholic acid, lithocholic acid). This function links the order to the gut-liver axis and bile acid signaling.
+- Butyryl-CoA dehydrogenase: Part of the butyrate synthesis pathway from acetyl-CoA. Butyrate is the primary energy source for colonocytes and has anti-inflammatory, anti-tumorigenic, and barrier-strengthening properties.
+- Bile acid 7-alpha-dehydroxylase: Some Oscillospirales members participate in secondary bile acid metabolism, converting primary bile acids to secondary forms (deoxycholic acid, lithocholic acid). This function links the order to the gut-liver axis and bile acid signaling.
 
 ## Ecological Role
 
@@ -77,8 +83,8 @@ Oscillospirales appear in bile acid dysmetabolism patterns associated with CKD p
 
 ## Open Questions
 
-1. **Can Oscillospirales taxa be cultured and developed as next-generation probiotics?** Their consistent health associations make them attractive candidates, but cultivation challenges have been a bottleneck.
-2. **What is the functional overlap between Oscillospirales and Lachnospiraceae in butyrate production?** Both orders produce butyrate but may occupy different ecological niches (substrate preferences, oxygen tolerance gradients).
+1. Can Oscillospirales taxa be cultured and developed as next-generation probiotics? Their consistent health associations make them attractive candidates, but cultivation challenges have been a bottleneck.
+2. What is the functional overlap between Oscillospirales and Lachnospiraceae in butyrate production? Both orders produce butyrate but may occupy different ecological niches (substrate preferences, oxygen tolerance gradients).
 
 ## Cross-References
 

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-The **gut-penis axis** is an emerging concept describing the systemic pathway by which gut microbiome dysbiosis impairs erectile function through endothelial nitric oxide (NO) suppression and chronic inflammation. Though less established than the gut-brain or gut-heart axes, this axis is supported by three concordant Mendelian randomization (MR) studies and a detailed mechanistic pathway linking intestinal barrier dysfunction to penile vascular impairment.
+The gut-penis axis is an emerging concept describing the systemic pathway by which gut microbiome dysbiosis impairs erectile function through endothelial nitric oxide (NO) suppression and chronic inflammation. Though less established than the gut-brain or gut-heart axes, this axis is supported by three concordant Mendelian randomization (MR) studies and a detailed mechanistic pathway linking intestinal barrier dysfunction to penile vascular impairment.
 
 Erectile dysfunction (ED) has long been recognized as a sentinel marker for [[cardiovascular-disease]] -- penile arteries are smaller than coronary arteries and show endothelial dysfunction 3-5 years earlier. The gut-penis axis provides a mechanistic explanation for this association: the same dysbiosis-driven inflammatory pathway damages both vascular beds.
 
@@ -24,11 +24,11 @@ Erectile dysfunction (ED) has long been recognized as a sentinel marker for [[ca
 
 The gut-penis axis operates through a five-step cascade [[li-2026-ibd-male-ed-mechanistic-review]]:
 
-1. **Gut dysbiosis** -- Expansion of pro-inflammatory taxa and depletion of SCFA-producing commensals shifts the luminal environment toward LPS overproduction
-2. **Barrier breakdown** -- Reduced [[butyrate]] production deprives colonocytes of their primary fuel, weakening tight junctions and increasing [[intestinal-permeability]]
-3. **Endotoxemia** -- Bacterial lipopolysaccharide (LPS) translocates into systemic circulation
-4. **eNOS suppression** -- LPS activates [[tlr4]] on penile vascular endothelial cells. TNF-alpha and IL-6 produced downstream suppress endothelial nitric oxide synthase (eNOS) activity
-5. **Erectile failure** -- Reduced NO synthesis impairs smooth muscle relaxation in the corpus cavernosum, preventing adequate blood flow for erection
+1. Gut dysbiosis -- Expansion of pro-inflammatory taxa and depletion of SCFA-producing commensals shifts the luminal environment toward LPS overproduction
+2. Barrier breakdown -- Reduced [[butyrate]] production deprives colonocytes of their primary fuel, weakening tight junctions and increasing [[intestinal-permeability]]
+3. Endotoxemia -- Bacterial lipopolysaccharide (LPS) translocates into systemic circulation
+4. eNOS suppression -- LPS activates [[tlr4]] on penile vascular endothelial cells. TNF-alpha and IL-6 produced downstream suppress endothelial nitric oxide synthase (eNOS) activity
+5. Erectile failure -- Reduced NO synthesis impairs smooth muscle relaxation in the corpus cavernosum, preventing adequate blood flow for erection
 
 This pathway is pharmacologically validated: PDE5 inhibitors (sildenafil, tadalafil) work by prolonging NO signaling downstream -- but they cannot compensate if NO production itself is inadequate due to eNOS suppression.
 
@@ -40,17 +40,17 @@ Three independent MR studies using genetic instruments to eliminate reverse caus
 
 | Taxon | OR | Studies Confirming | Proposed Mechanism |
 |-------|----|--------------------|-------------------|
-| **[[lachnospiraceae]]** (family) | 1.265 | 3/3 | Pro-inflammatory species enrichment; LPS production |
-| **Senegalimassilia** | 1.355 | 1/3 | Uncertain |
-| **Oscillibacter** | 1.201 | 1/3 | Uncertain |
-| **Ruminococcus gnavus** | Enriched | 2/3 | Pro-inflammatory; mucin degradation |
+| [[lachnospiraceae]] (family) | 1.265 | 3/3 | Pro-inflammatory species enrichment; LPS production |
+| Senegalimassilia | 1.355 | 1/3 | Uncertain |
+| Oscillibacter | 1.201 | 1/3 | Uncertain |
+| Ruminococcus gnavus | Enriched | 2/3 | Pro-inflammatory; mucin degradation |
 
 ### Protective Taxa
 
 | Taxon | OR | Studies Confirming | Proposed Mechanism |
 |-------|----|--------------------|-------------------|
-| **Ruminococcaceae UCG013** | 0.761-0.827 | 3/3 | Butyrate production; barrier support |
-| **Bacteroides intestinalis** | Protective | 1/3 | SCFA production |
+| Ruminococcaceae UCG013 | 0.761-0.827 | 3/3 | Butyrate production; barrier support |
+| Bacteroides intestinalis | Protective | 1/3 | SCFA production |
 
 The remarkable consistency of Lachnospiraceae as a risk factor and Ruminococcaceae UCG013 as protective across three independent genetic-instrument analyses provides strong evidence for causality.
 
@@ -68,7 +68,7 @@ The remarkable consistency of Lachnospiraceae as a risk factor and Ruminococcace
 
 ### Cadmium as Reproductive Toxicant
 
-**[[cadmium]]** directly damages erectile function through multiple pathways:
+[[cadmium]] directly damages erectile function through multiple pathways:
 
 - Accumulates in testicular tissue and disrupts testosterone biosynthesis
 - Generates oxidative stress in penile vasculature
@@ -78,7 +78,7 @@ The remarkable consistency of Lachnospiraceae as a risk factor and Ruminococcace
 
 ### Zinc Depletion
 
-**[[zinc]]** is essential for testosterone synthesis and NO signaling:
+[[zinc]] is essential for testosterone synthesis and NO signaling:
 - Zinc deficiency reduces testosterone production
 - Zinc is a cofactor for Cu/Zn-SOD, which protects penile endothelium from oxidative stress
 - Cadmium competes with zinc for intestinal absorption, creating functional zinc depletion in smokers
@@ -87,9 +87,9 @@ The remarkable consistency of Lachnospiraceae as a risk factor and Ruminococcace
 
 Nitric oxide links the microbiome to erectile function at multiple levels:
 
-- **Nitrate-reducing bacteria**: Oral bacteria reduce dietary nitrate to nitrite, which is further reduced to NO in acidic environments. This microbial NO production pathway contributes to systemic NO bioavailability.
-- **SCFA-mediated eNOS regulation**: Butyrate upregulates eNOS expression. Loss of butyrate-producing bacteria reduces baseline NO production.
-- **[[tmao]]**: The microbial metabolite TMAO promotes atherosclerosis in penile arteries, further impairing erectile blood flow.
+- Nitrate-reducing bacteria: Oral bacteria reduce dietary nitrate to nitrite, which is further reduced to NO in acidic environments. This microbial NO production pathway contributes to systemic NO bioavailability.
+- SCFA-mediated eNOS regulation: Butyrate upregulates eNOS expression. Loss of butyrate-producing bacteria reduces baseline NO production.
+- [[tmao]]: The microbial metabolite TMAO promotes atherosclerosis in penile arteries, further impairing erectile blood flow.
 
 ## Clinical Significance
 

@@ -85,25 +85,25 @@ targets:
 platform: cureva
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
-**Fecal microbiota transplantation (FMT)** transfers a complete microbial community from a healthy screened donor to a recipient, aiming to restore microbial diversity, colonization resistance, and metabolic function. It represents the most direct form of microbiome intervention — a wholesale ecological reset rather than incremental modulation.
+Fecal microbiota transplantation (FMT) transfers a complete microbial community from a healthy screened donor to a recipient, aiming to restore microbial diversity, colonization resistance, and metabolic function. It represents the most direct form of microbiome intervention — a wholesale ecological reset rather than incremental modulation.
 
-> **Clinical disclaimer:** FMT carries risks of pathogen transmission (including multidrug-resistant organisms and viruses), variable engraftment, and unknown long-term consequences. Currently FDA-approved only for recurrent C. difficile infection. All other indications are investigational.
+> Clinical disclaimer: FMT carries risks of pathogen transmission (including multidrug-resistant organisms and viruses), variable engraftment, and unknown long-term consequences. Currently FDA-approved only for recurrent C. difficile infection. All other indications are investigational.
 
 ---
 
 ## Mechanism of Action
 
-FMT operates through **ecological restoration** rather than single-target pharmacology:
+FMT operates through ecological restoration rather than single-target pharmacology:
 
-1. **Colonization resistance**: Donor anaerobes compete with pathogens for nutrients and attachment sites, re-establishing the competitive exclusion that antibiotics destroyed
-2. **SCFA restoration**: Reintroduced Firmicutes (Faecalibacterium, Roseburia, Eubacterium) produce butyrate, propionate, and acetate — fueling colonocytes, maintaining barrier integrity, and modulating immune tolerance
-3. **Bile acid metabolism**: Donor bacteria expressing bile salt hydrolase convert primary bile acids to secondary forms (deoxycholic, lithocholic acid) that inhibit C. difficile spore germination
-4. **Barrier repair**: SCFA-driven colonocyte nutrition restores tight junction integrity, reducing translocation of LPS and microbial metabolites
-5. **Immune retraining**: Diverse microbial antigens re-educate mucosal immune responses toward tolerance (Treg induction) rather than chronic inflammation
+1. Colonization resistance: Donor anaerobes compete with pathogens for nutrients and attachment sites, re-establishing the competitive exclusion that antibiotics destroyed
+2. SCFA restoration: Reintroduced Firmicutes (Faecalibacterium, Roseburia, Eubacterium) produce butyrate, propionate, and acetate — fueling colonocytes, maintaining barrier integrity, and modulating immune tolerance
+3. Bile acid metabolism: Donor bacteria expressing bile salt hydrolase convert primary bile acids to secondary forms (deoxycholic, lithocholic acid) that inhibit C. difficile spore germination
+4. Barrier repair: SCFA-driven colonocyte nutrition restores tight junction integrity, reducing translocation of LPS and microbial metabolites
+5. Immune retraining: Diverse microbial antigens re-educate mucosal immune responses toward tolerance (Treg induction) rather than chronic inflammation
 
 ---
 
@@ -111,44 +111,44 @@ FMT operates through **ecological restoration** rather than single-target pharma
 
 | Parameter | Options | Notes |
 |-----------|---------|-------|
-| **Delivery route** | Colonoscopy, nasogastric tube, capsule (oral) | Colonoscopy has highest single-dose efficacy for CDI; capsules improving |
-| **Donor screening** | Stool + blood panel (MDRO, HIV, HBV, HCV, parasites, C. diff) | Universal donor programs (stool banks) standardize screening |
-| **Donor selection** | "Super-donors" with high diversity and SCFA production | Donor effects explain much of the outcome variance in UC trials |
-| **Dosing frequency** | Single infusion (CDI) vs multi-session (UC, 5-40 infusions) | UC and other chronic conditions may require intensive protocols |
-| **FDA-approved products** | Rebyota (rectal), Vowst (oral capsules) | For recurrent CDI only; standardized manufactured products |
+| Delivery route | Colonoscopy, nasogastric tube, capsule (oral) | Colonoscopy has highest single-dose efficacy for CDI; capsules improving |
+| Donor screening | Stool + blood panel (MDRO, HIV, HBV, HCV, parasites, C. diff) | Universal donor programs (stool banks) standardize screening |
+| Donor selection | "Super-donors" with high diversity and SCFA production | Donor effects explain much of the outcome variance in UC trials |
+| Dosing frequency | Single infusion (CDI) vs multi-session (UC, 5-40 infusions) | UC and other chronic conditions may require intensive protocols |
+| FDA-approved products | Rebyota (rectal), Vowst (oral capsules) | For recurrent CDI only; standardized manufactured products |
 
 ---
 
 ## Monitoring
 
-- **Engraftment**: 16S rRNA or metagenomic sequencing at baseline, 1 month, 3 months to assess donor microbiota colonization
-- **Clinical response**: Condition-specific outcome measures (CDI recurrence, UC Mayo score, PD UPDRS)
-- **Adverse events**: Monitor for fever, abdominal pain, bacteremia, new infections for 30 days post-FMT
-- **Long-term**: Metabolic and autoimmune screening annually (unknown long-term donor microbiota effects on recipient metabolism)
+- Engraftment: 16S rRNA or metagenomic sequencing at baseline, 1 month, 3 months to assess donor microbiota colonization
+- Clinical response: Condition-specific outcome measures (CDI recurrence, UC Mayo score, PD UPDRS)
+- Adverse events: Monitor for fever, abdominal pain, bacteremia, new infections for 30 days post-FMT
+- Long-term: Metabolic and autoimmune screening annually (unknown long-term donor microbiota effects on recipient metabolism)
 
 ---
 
 ## Contraindications and Risks
 
-- **Immunocompromised patients**: Risk of bacteremia and invasive infections. Absolute contraindication in severe immunosuppression (neutropenia, uncontrolled HIV).
-- **Pathogen transmission**: Cases of ESBL-producing E. coli bacteremia (including one death) prompted enhanced donor screening requirements.
-- **Unknown long-term effects**: Donor microbiota may transmit metabolic phenotypes (obesity, autoimmune risk). Long-term registry data still accumulating.
-- **Regulatory status**: Investigational for all indications except recurrent CDI. IRB approval required for research use in other conditions.
-- **Antibiotic exposure**: Recent broad-spectrum antibiotics in the recipient reduce engraftment. Vancomycin taper-then-FMT protocol for CDI optimizes niche availability.
+- Immunocompromised patients: Risk of bacteremia and invasive infections. Absolute contraindication in severe immunosuppression (neutropenia, uncontrolled HIV).
+- Pathogen transmission: Cases of ESBL-producing E. coli bacteremia (including one death) prompted enhanced donor screening requirements.
+- Unknown long-term effects: Donor microbiota may transmit metabolic phenotypes (obesity, autoimmune risk). Long-term registry data still accumulating.
+- Regulatory status: Investigational for all indications except recurrent CDI. IRB approval required for research use in other conditions.
+- Antibiotic exposure: Recent broad-spectrum antibiotics in the recipient reduce engraftment. Vancomycin taper-then-FMT protocol for CDI optimizes niche availability.
 
 ---
 
 ## Connections
 
-**Entities:** [[clostridioides-difficile]], [[faecalibacterium-prausnitzii]], [[roseburia|roseburia-spp]]
+Entities: [[clostridioides-difficile]], [[faecalibacterium-prausnitzii]], [[roseburia|roseburia-spp]]
 
-**Concepts:** [[probiotics|colonization-resistance]], [[short-chain-fatty-acids]], [[intestinal-permeability|barrier-integrity]], [[gut-brain-axis]], [[bile-acid-metabolism]]
+Concepts: [[probiotics|colonization-resistance]], [[short-chain-fatty-acids]], [[intestinal-permeability|barrier-integrity]], [[gut-brain-axis]], [[bile-acid-metabolism]]
 
-**Related interventions:** [[probiotics-general]] (incremental vs wholesale microbiome modulation), [[mediterranean-diet]] (dietary SCFA promotion)
+Related interventions: [[probiotics-general]] (incremental vs wholesale microbiome modulation), [[mediterranean-diet]] (dietary SCFA promotion)
 
-**Signatures:** [[clostridioides-difficile|clostridioides-difficile-infection]], [[ulcerative-colitis]], [[parkinsons-disease]], [[autism-spectrum-disorder]], [[hypertension]]
+Signatures: [[clostridioides-difficile|clostridioides-difficile-infection]], [[ulcerative-colitis]], [[parkinsons-disease]], [[autism-spectrum-disorder]], [[hypertension]]
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

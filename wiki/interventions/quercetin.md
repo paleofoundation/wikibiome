@@ -29,7 +29,7 @@ targets:
 karen_brain_primitives: [4, 5]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Quercetin (Cross-Condition)
 
@@ -39,17 +39,17 @@ Quercetin is a flavonoid polyphenol with dual anti-inflammatory and metal-chelat
 
 ## Evidence
 
-- **Inflammation**: RCTs demonstrate reduced CRP and TNF-alpha with quercetin 500-1000mg/day in metabolic syndrome and inflammatory conditions
-- **Cardiovascular**: Reduces blood pressure (meta-analysis: -3.0 mmHg systolic), LDL oxidation, and endothelial dysfunction
-- **Immune function**: Reduces upper respiratory infection incidence and severity in athletes under physical stress
-- **Microbiome interaction**: Quercetin glycosides are hydrolyzed by gut bacterial beta-glucosidases; aglycone is further metabolized to 3,4-dihydroxyphenylacetic acid by Eubacterium and Clostridium species
+- Inflammation: RCTs demonstrate reduced CRP and TNF-alpha with quercetin 500-1000mg/day in metabolic syndrome and inflammatory conditions
+- Cardiovascular: Reduces blood pressure (meta-analysis: -3.0 mmHg systolic), LDL oxidation, and endothelial dysfunction
+- Immune function: Reduces upper respiratory infection incidence and severity in athletes under physical stress
+- Microbiome interaction: Quercetin glycosides are hydrolyzed by gut bacterial beta-glucosidases; aglycone is further metabolized to 3,4-dihydroxyphenylacetic acid by Eubacterium and Clostridium species
 
 ## Mechanism
 
-1. **NF-kB inhibition**: Quercetin blocks IKK-mediated phosphorylation of IkB-alpha, preventing NF-kB p65 nuclear translocation and downstream inflammatory gene expression
-2. **Metal chelation**: Binds Cu2+ and Fe2+/Fe3+ at the catechol and carbonyl groups, reducing free metal availability for Fenton reactions and pathogen metal acquisition
-3. **Microbiota modulation**: Acts as a prebiotic-like substrate for beneficial bacteria; increases Bifidobacterium and Lactobacillus while reducing Enterobacteriaceae in animal models
-4. **Mast cell stabilization**: Inhibits histamine release from mast cells, relevant to conditions with mast cell activation
+1. NF-kB inhibition: Quercetin blocks IKK-mediated phosphorylation of IkB-alpha, preventing NF-kB p65 nuclear translocation and downstream inflammatory gene expression
+2. Metal chelation: Binds Cu2+ and Fe2+/Fe3+ at the catechol and carbonyl groups, reducing free metal availability for Fenton reactions and pathogen metal acquisition
+3. Microbiota modulation: Acts as a prebiotic-like substrate for beneficial bacteria; increases Bifidobacterium and Lactobacillus while reducing Enterobacteriaceae in animal models
+4. Mast cell stabilization: Inhibits histamine release from mast cells, relevant to conditions with mast cell activation
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ Quercetin has poor oral bioavailability (~2%) unless formulated with absorption 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

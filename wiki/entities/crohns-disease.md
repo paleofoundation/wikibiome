@@ -20,15 +20,15 @@ wikipedia_differentiation: "Metal compartmentalization analysis showing ZIP8-med
 
 # Crohn's Disease (CD)
 
-A chronic, relapsing-remitting inflammatory bowel disease (IBD) characterized by transmural [[inflammation]] of the gastrointestinal tract, most commonly affecting the terminal ileum and colon but capable of involving any segment from mouth to anus [[zhang-2017-intestinal-microbiota-host-immune-ibd]]. Prevalence is increasing globally, particularly in newly industrialized countries, with current estimates exceeding 3 million affected individuals in Europe and North America combined [[khalili-2024-mediterranean-diet-later-onset-crohns]]. From a metal-microbiome perspective, Crohn's disease represents one of the clearest examples of **ecological collapse driven by metal dyshomeostasis**: restricted luminal metal availability selects against SCFA-producing commensals, enables pathobiont expansion, and establishes a self-reinforcing cycle of [[dysbiosis]], barrier dysfunction, and chronic inflammation.
+A chronic, relapsing-remitting inflammatory bowel disease (IBD) characterized by transmural [[inflammation]] of the gastrointestinal tract, most commonly affecting the terminal ileum and colon but capable of involving any segment from mouth to anus [[zhang-2017-intestinal-microbiota-host-immune-ibd]]. Prevalence is increasing globally, particularly in newly industrialized countries, with current estimates exceeding 3 million affected individuals in Europe and North America combined [[khalili-2024-mediterranean-diet-later-onset-crohns]]. From a metal-microbiome perspective, Crohn's disease represents one of the clearest examples of ecological collapse driven by metal dyshomeostasis: restricted luminal metal availability selects against SCFA-producing commensals, enables pathobiont expansion, and establishes a self-reinforcing cycle of [[dysbiosis]], barrier dysfunction, and chronic inflammation.
 
 ## Metallomic Signature
 
-The metallomic profile in Crohn's disease is defined not by simple deficiency or excess but by **redistribution of metals** across tissue compartments. The ZIP8 A391T variant studies provide the mechanistic template: metals are trapped in mucosal tissue while being depleted from the lumen where commensal bacteria need them [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
+The metallomic profile in Crohn's disease is defined not by simple deficiency or excess but by redistribution of metals across tissue compartments. The ZIP8 A391T variant studies provide the mechanistic template: metals are trapped in mucosal tissue while being depleted from the lumen where commensal bacteria need them [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
 ### Iron Dysregulation
 
-[[iron]] status in CD is complex because two distinct mechanisms coexist [[amerikanou-2022-ibd-biomarkers-trace-metals]]. **True iron deficiency** arises from chronic blood loss (ulceration, fistulae) and malabsorption (especially with ileal disease). **Anemia of chronic disease** results from [[hepcidin]] elevation as part of the acute-phase response, which blocks iron absorption and sequesters iron in macrophages [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]]. Hepcidin is the key differentiator: elevated hepcidin indicates functional iron withholding (the body is deliberately restricting iron from pathogens via [[nutritional-immunity]]), while low hepcidin with low ferritin indicates true deficiency. This distinction is clinically critical because iron supplementation in the setting of high hepcidin feeds siderophore-producing pathogens without correcting the underlying problem.
+[[iron]] status in CD is complex because two distinct mechanisms coexist [[amerikanou-2022-ibd-biomarkers-trace-metals]]. True iron deficiency arises from chronic blood loss (ulceration, fistulae) and malabsorption (especially with ileal disease). Anemia of chronic disease results from [[hepcidin]] elevation as part of the acute-phase response, which blocks iron absorption and sequesters iron in macrophages [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]]. Hepcidin is the key differentiator: elevated hepcidin indicates functional iron withholding (the body is deliberately restricting iron from pathogens via [[nutritional-immunity]]), while low hepcidin with low ferritin indicates true deficiency. This distinction is clinically critical because iron supplementation in the setting of high hepcidin feeds siderophore-producing pathogens without correcting the underlying problem.
 
 ### Zinc Depletion
 
@@ -54,23 +54,23 @@ CD is characterized by profound [[dysbiosis]] with reduced alpha diversity, the 
 
 | Taxon | Normal Function | Evidence |
 |-------|----------------|----------|
-| **[[faecalibacterium-prausnitzii]]** | Primary butyrate producer; anti-inflammatory (suppresses [[nf-kappa-b]], induces IL-10) | Most consistently depleted taxon across all CD cohorts; low abundance predicts post-surgical recurrence [[haag-2015-intestinal-microbiota-innate-immunity-crohns]] |
-| **Roseburia** | Butyrate and propionate production | Consistently reduced in CD; part of Clostridia cluster XIVa |
-| **Clostridia clusters IV/XIVa** | SCFA production, Treg induction | Depleted as a group; includes key butyrate producers |
-| **[[lachnospiraceae-family]]** | SCFA production, barrier support | Mendelian randomization confirms causal protective role; Lachnospiraceae UCG001 protective (OR: 0.81) [[liu-2022-mr-gut-microbial-genera-ibd-uc-cd]] |
-| **Akkermansia muciniphila** | Mucus layer maintenance | Depleted in inflamed gut; MR supports causal protective association |
-| **Eubacterium** | SCFA production | MR confirms protective causal role; Eubacterium ventriosum protective (OR: 0.68) [[liu-2022-mr-gut-microbial-genera-ibd-uc-cd]] |
+| [[faecalibacterium-prausnitzii]] | Primary butyrate producer; anti-inflammatory (suppresses [[nf-kappa-b]], induces IL-10) | Most consistently depleted taxon across all CD cohorts; low abundance predicts post-surgical recurrence [[haag-2015-intestinal-microbiota-innate-immunity-crohns]] |
+| Roseburia | Butyrate and propionate production | Consistently reduced in CD; part of Clostridia cluster XIVa |
+| Clostridia clusters IV/XIVa | SCFA production, Treg induction | Depleted as a group; includes key butyrate producers |
+| [[lachnospiraceae-family]] | SCFA production, barrier support | Mendelian randomization confirms causal protective role; Lachnospiraceae UCG001 protective (OR: 0.81) [[liu-2022-mr-gut-microbial-genera-ibd-uc-cd]] |
+| Akkermansia muciniphila | Mucus layer maintenance | Depleted in inflamed gut; MR supports causal protective association |
+| Eubacterium | SCFA production | MR confirms protective causal role; Eubacterium ventriosum protective (OR: 0.68) [[liu-2022-mr-gut-microbial-genera-ibd-uc-cd]] |
 
 ### Enriched Taxa
 
 | Taxon | Role in CD |
 |-------|-----------|
-| **Adherent-invasive [[escherichia-coli]]** (AIEC) | Found in 75% of ileal CD mucosa vs 6% in healthy; invades epithelial cells, replicates in macrophages, induces granuloma-like structures [[li-2020-polyphenols-gut-microbiota-ibd-synergy]] |
-| **Enterobacteriaceae** | Bloom associated with NOD2 risk allele dosage [[knights-2014-host-genetics-microbiome-ibd]]; thrive in inflamed, iron-rich mucosal environment |
-| **Fusobacterium** | Pro-inflammatory; enrichment associated with CD polygenic risk score independent of disease status [[jacobs-2022-crohns-remission-obesity-mli-microbiome]] |
-| **Ruminococcus gnavus** | Mucin-degrading; directly damages barrier |
-| **Candida albicans** | Fungal component; biofilm formation provides functional shielding for bacterial pathogens |
-| **[[debaryomyces|Debaryomyces]]** | Fungal pathobiont; dramatically enriched in inflamed ileal tissue; activates type 1/17 immunity via beta-glucan/Dectin-1 signaling |
+| Adherent-invasive [[escherichia-coli]] (AIEC) | Found in 75% of ileal CD mucosa vs 6% in healthy; invades epithelial cells, replicates in macrophages, induces granuloma-like structures [[li-2020-polyphenols-gut-microbiota-ibd-synergy]] |
+| Enterobacteriaceae | Bloom associated with NOD2 risk allele dosage [[knights-2014-host-genetics-microbiome-ibd]]; thrive in inflamed, iron-rich mucosal environment |
+| Fusobacterium | Pro-inflammatory; enrichment associated with CD polygenic risk score independent of disease status [[jacobs-2022-crohns-remission-obesity-mli-microbiome]] |
+| Ruminococcus gnavus | Mucin-degrading; directly damages barrier |
+| Candida albicans | Fungal component; biofilm formation provides functional shielding for bacterial pathogens |
+| [[debaryomyces|Debaryomyces]] | Fungal pathobiont; dramatically enriched in inflamed ileal tissue; activates type 1/17 immunity via beta-glucan/Dectin-1 signaling |
 
 The fundamental ecological pattern: metal dyshomeostasis selects AGAINST SCFA-producing commensals and FOR metal-tolerant or metal-acquiring pathobionts. Dysbiosis persists even during endoscopic remission, indicating it is not purely secondary to inflammation [[jacobs-2022-crohns-remission-obesity-mli-microbiome]].
 
@@ -92,27 +92,27 @@ Barrier integrity in CD is compromised at multiple levels. Tight junction protei
 
 This is the central metallomic paradox in CD and one of the clearest examples of [[dietary-metal-paradoxes]]:
 
-1. **Patients are iron-deficient**: Chronic blood loss from ulceration, impaired absorption (especially ileal disease), and hepcidin-mediated sequestration all contribute to anemia, affecting up to 70% of CD patients.
+1. Patients are iron-deficient: Chronic blood loss from ulceration, impaired absorption (especially ileal disease), and hepcidin-mediated sequestration all contribute to anemia, affecting up to 70% of CD patients.
 
-2. **Iron supplementation feeds pathogens**: Oral iron supplementation provides substrate for AIEC and other siderophore-producing Enterobacteriaceae [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. These organisms possess dedicated [[siderophores-metallophores]] systems specifically evolved to scavenge iron in the gut lumen. Supplemental iron bypasses host [[nutritional-immunity]] defenses.
+2. Iron supplementation feeds pathogens: Oral iron supplementation provides substrate for AIEC and other siderophore-producing Enterobacteriaceae [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. These organisms possess dedicated [[siderophores-metallophores]] systems specifically evolved to scavenge iron in the gut lumen. Supplemental iron bypasses host [[nutritional-immunity]] defenses.
 
-3. **Iron supplementation worsens dysbiosis**: Free luminal iron shifts the competitive balance away from SCFA-producing commensals (which have modest iron requirements) toward iron-scavenging pathobionts, deepening [[dysbiosis]] [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
+3. Iron supplementation worsens dysbiosis: Free luminal iron shifts the competitive balance away from SCFA-producing commensals (which have modest iron requirements) toward iron-scavenging pathobionts, deepening [[dysbiosis]] [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
-4. **Iron drives [[ferroptosis]] in inflamed mucosa**: Iron accumulation in inflamed tissue catalyzes lipid peroxidation through Fenton chemistry. GPX3 (glutathione peroxidase 3) is causally protective against CD -- its role in preventing iron-dependent [[oxidative-stress]] connects ferroptosis to disease pathogenesis [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
+4. Iron drives [[ferroptosis]] in inflamed mucosa: Iron accumulation in inflamed tissue catalyzes lipid peroxidation through Fenton chemistry. GPX3 (glutathione peroxidase 3) is causally protective against CD -- its role in preventing iron-dependent [[oxidative-stress]] connects ferroptosis to disease pathogenesis [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
 
-5. **Hepcidin-guided management is critical**: Measuring [[hepcidin]] distinguishes true iron deficiency (low hepcidin -- supplement cautiously, prefer IV iron) from anemia of chronic disease (high hepcidin -- treat inflammation first, do not give oral iron). IV iron bypasses the luminal compartment, avoiding the dysbiosis-amplifying effect of oral supplementation.
+5. Hepcidin-guided management is critical: Measuring [[hepcidin]] distinguishes true iron deficiency (low hepcidin -- supplement cautiously, prefer IV iron) from anemia of chronic disease (high hepcidin -- treat inflammation first, do not give oral iron). IV iron bypasses the luminal compartment, avoiding the dysbiosis-amplifying effect of oral supplementation.
 
 ## ZIP8 A391T Variant
 
 The rs13107325 SNP in the SLC39A8 gene (encoding the ZIP8 metal transporter) is a Crohn's disease risk allele that provides the most direct genetic evidence linking metal dyshomeostasis to IBD [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
-**Metal effects**: Homozygous A393T mice show increased cobalt uptake in mucosal epithelium, higher cadmium and manganese in bulk colon tissue, and reduced luminal availability of [[iron]], [[zinc]], manganese, [[copper]], cobalt, and [[cadmium]] -- a comprehensive redistribution affecting all tested metals.
+Metal effects: Homozygous A393T mice show increased cobalt uptake in mucosal epithelium, higher cadmium and manganese in bulk colon tissue, and reduced luminal availability of [[iron]], [[zinc]], manganese, [[copper]], cobalt, and [[cadmium]] -- a comprehensive redistribution affecting all tested metals.
 
-**Microbiome effects**: Genotype-microbiome association strengthens with age (R-squared increases from 3% at 2 months to 9% at 12 months). Lactobacillus is reduced early; by 12 months, 18-29 genera are differentially abundant. Predicted functional pathways show altered "cofactor biosynthesis" -- the microbiota is adapting to metal restriction.
+Microbiome effects: Genotype-microbiome association strengthens with age (R-squared increases from 3% at 2 months to 9% at 12 months). Lactobacillus is reduced early; by 12 months, 18-29 genera are differentially abundant. Predicted functional pathways show altered "cofactor biosynthesis" -- the microbiota is adapting to metal restriction.
 
-**The temporal sequence**: Microbiome shifts were detectable at 2 months, but spontaneous intestinal inflammation did not develop until 10 months. This demonstrates that **dysbiosis precedes inflammation** -- the microbiome change is the driving force, not merely a consequence. This positions ZIP8 A391T as a microbiome quantitative trait locus (mb-QTL).
+The temporal sequence: Microbiome shifts were detectable at 2 months, but spontaneous intestinal inflammation did not develop until 10 months. This demonstrates that dysbiosis precedes inflammation -- the microbiome change is the driving force, not merely a consequence. This positions ZIP8 A391T as a microbiome quantitative trait locus (mb-QTL).
 
-**Clinical implications**: ZIP8 A391T carriers may require different metal supplementation strategies. The variant affects manganese, zinc, iron, cobalt, and cadmium handling simultaneously, meaning single-metal interventions may be insufficient.
+Clinical implications: ZIP8 A391T carriers may require different metal supplementation strategies. The variant affects manganese, zinc, iron, cobalt, and cadmium handling simultaneously, meaning single-metal interventions may be insufficient.
 
 ## Diet
 
@@ -126,7 +126,7 @@ EEN is the first-line induction therapy for pediatric CD in most guidelines, ach
 
 ### The Fiber Paradox
 
-High-fiber diets are generally protective in CD, contrary to the longstanding clinical belief that fiber restriction was necessary for patients with the disease. A meta-analysis of 11 studies (2,389 CD patients) shows improved remission rates and reduced hospitalizations with high-fiber intake [[serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis]]. Infliximab combined with a high-fiber vegetarian diet achieved 84% clinical remission with 46% mucosal healing. A catered high-fiber (14g/1000 kcal), low-fat diet was well-tolerated even in fibrostenotic disease [[abreu-2024-high-fiber-low-fat-diet-crohns]]. However, fiber can worsen **stricturing disease** where luminal narrowing creates mechanical obstruction risk -- this is a structural contraindication, not a metabolic one. Fiber also binds metals (iron, zinc, copper), modulating their luminal bioavailability -- which may actually be therapeutic by limiting free iron available to pathogens.
+High-fiber diets are generally protective in CD, contrary to the longstanding clinical belief that fiber restriction was necessary for patients with the disease. A meta-analysis of 11 studies (2,389 CD patients) shows improved remission rates and reduced hospitalizations with high-fiber intake [[serrano-fernandez-2023-high-fiber-diet-crohns-meta-analysis]]. Infliximab combined with a high-fiber vegetarian diet achieved 84% clinical remission with 46% mucosal healing. A catered high-fiber (14g/1000 kcal), low-fat diet was well-tolerated even in fibrostenotic disease [[abreu-2024-high-fiber-low-fat-diet-crohns]]. However, fiber can worsen stricturing disease where luminal narrowing creates mechanical obstruction risk -- this is a structural contraindication, not a metabolic one. Fiber also binds metals (iron, zinc, copper), modulating their luminal bioavailability -- which may actually be therapeutic by limiting free iron available to pathogens.
 
 ### Polyphenols
 
@@ -152,13 +152,13 @@ CD is causally associated with 8 extraintestinal manifestations including primar
 
 The metal-microbiome framework reveals Crohn's disease as a self-amplifying ecological collapse:
 
-1. **Initiating event**: Metal dyshomeostasis (genetic via ZIP8 A391T, environmental via [[cadmium]]/lead exposure, or dietary)
-2. **SCFA producer depletion**: [[faecalibacterium-prausnitzii]], Roseburia, Lachnospiraceae cannot compete in metal-restricted or metal-toxic environments
-3. **Butyrate collapse**: Colonocyte starvation, tight junction loss, increased permeability
-4. **Pathobiont bloom**: AIEC, Fusobacterium, Enterococcus expand using [[siderophores-metallophores]] and metal resistance systems
-5. **Barrier failure**: Bacterial translocation triggers innate immune activation via [[nf-kappa-b]]
-6. **Inflammation reinforces dysbiosis**: [[hepcidin]] elevation, [[calprotectin]] release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals
-7. **[[ferroptosis]]**: Iron accumulation in inflamed tissue drives lipid peroxidation and mucosal cell death
+1. Initiating event: Metal dyshomeostasis (genetic via ZIP8 A391T, environmental via [[cadmium]]/lead exposure, or dietary)
+2. SCFA producer depletion: [[faecalibacterium-prausnitzii]], Roseburia, Lachnospiraceae cannot compete in metal-restricted or metal-toxic environments
+3. Butyrate collapse: Colonocyte starvation, tight junction loss, increased permeability
+4. Pathobiont bloom: AIEC, Fusobacterium, Enterococcus expand using [[siderophores-metallophores]] and metal resistance systems
+5. Barrier failure: Bacterial translocation triggers innate immune activation via [[nf-kappa-b]]
+6. Inflammation reinforces dysbiosis: [[hepcidin]] elevation, [[calprotectin]] release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals
+7. [[ferroptosis]]: Iron accumulation in inflamed tissue drives lipid peroxidation and mucosal cell death
 
 Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 months but inflammation only at 10 months -- [[dysbiosis]] is the cause, not the consequence [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 

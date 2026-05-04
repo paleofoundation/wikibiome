@@ -51,13 +51,13 @@ targets:
 platform: cureva
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
-**Probiotics** are live microorganisms that, when administered in adequate amounts, confer a health benefit on the host. The critical principle in probiotic medicine is **strain specificity** -- benefits demonstrated for one strain do NOT transfer to other strains, even within the same species. *Lactobacillus rhamnosus* GG and *Lactobacillus rhamnosus* ATCC 7469 are as different therapeutically as aspirin and acetaminophen.
+Probiotics are live microorganisms that, when administered in adequate amounts, confer a health benefit on the host. The critical principle in probiotic medicine is strain specificity -- benefits demonstrated for one strain do NOT transfer to other strains, even within the same species. *Lactobacillus rhamnosus* GG and *Lactobacillus rhamnosus* ATCC 7469 are as different therapeutically as aspirin and acetaminophen.
 
-> **Clinical disclaimer:** Probiotic selection must be strain-specific and condition-matched. "Take a probiotic" is not a medical recommendation. Immunocompromised patients (transplant, chemotherapy, advanced HIV) face risk of bacteremia/fungemia from live organisms. Probiotic quality varies enormously between manufacturers; third-party-verified products are preferred. All probiotic decisions should involve clinical supervision.
+> Clinical disclaimer: Probiotic selection must be strain-specific and condition-matched. "Take a probiotic" is not a medical recommendation. Immunocompromised patients (transplant, chemotherapy, advanced HIV) face risk of bacteremia/fungemia from live organisms. Probiotic quality varies enormously between manufacturers; third-party-verified products are preferred. All probiotic decisions should involve clinical supervision.
 
 ---
 
@@ -82,9 +82,9 @@ platform: cureva
 
 Effective probiotic strains must satisfy two functional requirements simultaneously:
 
-1. **Ecological function**: The strain must survive transit, engraft (even transiently), and modify the gut ecosystem -- competing with pathobionts for niche space, producing SCFAs, strengthening the barrier, or producing antimicrobial compounds.
+1. Ecological function: The strain must survive transit, engraft (even transiently), and modify the gut ecosystem -- competing with pathobionts for niche space, producing SCFAs, strengthening the barrier, or producing antimicrobial compounds.
 
-2. **Immunological function**: The strain must interact with the mucosal immune system to modulate the Th1/Th2/Th17/Treg balance, reduce inflammatory cytokines, or activate tolerogenic pathways (e.g., AhR ligand production, butyrate-mediated HDAC inhibition).
+2. Immunological function: The strain must interact with the mucosal immune system to modulate the Th1/Th2/Th17/Treg balance, reduce inflammatory cytokines, or activate tolerogenic pathways (e.g., AhR ligand production, butyrate-mediated HDAC inhibition).
 
 Strains that only survive transit without immune engagement, or that modulate immunity without ecological persistence, show weaker clinical effects. The strongest-evidence strains (VSL#3, E. coli Nissle 1917, B. infantis 35624) demonstrably satisfy both requirements.
 
@@ -94,44 +94,44 @@ Strains that only survive transit without immune engagement, or that modulate im
 
 Many probiotic organisms bind and sequester heavy metals in the gut lumen -- a property sometimes marketed as "detoxification." This has important implications:
 
-- **Benefit**: Lactobacillus and Bifidobacterium strains can bind [[lead]], [[cadmium]], [[mercury]], and [[arsenic]], reducing intestinal absorption (demonstrated in animal models and limited human trials)
-- **Risk**: Metal-binding probiotics may also sequester essential metals ([[zinc]], [[iron]], [[selenium]]), potentially worsening nutritional deficiencies in already-depleted patients
-- **Clinical implication**: When using probiotics in patients with both toxic metal exposure AND essential metal deficiency, separate probiotic dosing from essential metal supplementation by 2+ hours
-- **Research gap**: No RCTs have systematically evaluated the impact of probiotic metal sequestration on essential mineral status in deficient populations
+- Benefit: Lactobacillus and Bifidobacterium strains can bind [[lead]], [[cadmium]], [[mercury]], and [[arsenic]], reducing intestinal absorption (demonstrated in animal models and limited human trials)
+- Risk: Metal-binding probiotics may also sequester essential metals ([[zinc]], [[iron]], [[selenium]]), potentially worsening nutritional deficiencies in already-depleted patients
+- Clinical implication: When using probiotics in patients with both toxic metal exposure AND essential metal deficiency, separate probiotic dosing from essential metal supplementation by 2+ hours
+- Research gap: No RCTs have systematically evaluated the impact of probiotic metal sequestration on essential mineral status in deficient populations
 
 ---
 
 ## Dosage and Administration
 
-- **CFU range**: Most evidence supports 1-50 billion CFU/day, strain-dependent
-- **Timing**: Generally with or shortly before meals (bile acid exposure varies by strain)
-- **Duration**: Minimum 4-8 weeks for clinical assessment; effects often wane after discontinuation
-- **Form**: Refrigerated capsules or sachets generally preferred; some spore-forming strains (B. coagulans) are shelf-stable
-- **Quality**: Third-party verification (USP, NSF, ConsumerLab) recommended; label claims frequently inaccurate
+- CFU range: Most evidence supports 1-50 billion CFU/day, strain-dependent
+- Timing: Generally with or shortly before meals (bile acid exposure varies by strain)
+- Duration: Minimum 4-8 weeks for clinical assessment; effects often wane after discontinuation
+- Form: Refrigerated capsules or sachets generally preferred; some spore-forming strains (B. coagulans) are shelf-stable
+- Quality: Third-party verification (USP, NSF, ConsumerLab) recommended; label claims frequently inaccurate
 
 ---
 
 ## Contraindications and Risks
 
-- **Immunocompromised patients**: Risk of bacteremia (Lactobacillus), fungemia (Saccharomyces), or endocarditis; probiotics should be used with extreme caution or avoided
-- **Short bowel syndrome**: Increased risk of D-lactic acidosis from Lactobacillus overgrowth
-- **Central venous catheters**: Saccharomyces boulardii can contaminate lines and cause fungemia
-- **Critically ill patients**: PROPATRIA trial showed increased mortality with probiotics in severe acute pancreatitis
-- **SIBO**: Some patients with small intestinal bacterial overgrowth may worsen with additional live organisms
+- Immunocompromised patients: Risk of bacteremia (Lactobacillus), fungemia (Saccharomyces), or endocarditis; probiotics should be used with extreme caution or avoided
+- Short bowel syndrome: Increased risk of D-lactic acidosis from Lactobacillus overgrowth
+- Central venous catheters: Saccharomyces boulardii can contaminate lines and cause fungemia
+- Critically ill patients: PROPATRIA trial showed increased mortality with probiotics in severe acute pancreatitis
+- SIBO: Some patients with small intestinal bacterial overgrowth may worsen with additional live organisms
 
 ---
 
 ## Connections
 
-**Entities:** [[lactobacillus]], [[bifidobacterium]], [[streptococcus-thermophilus]], [[faecalibacterium-prausnitzii]], [[escherichia-coli]]
+Entities: [[lactobacillus]], [[bifidobacterium]], [[streptococcus-thermophilus]], [[faecalibacterium-prausnitzii]], [[escherichia-coli]]
 
-**Concepts:** [[dysbiosis]], [[gut-microbiome]], [[immune-balance]], [[gut-brain-axis]], [[short-chain-fatty-acids]], [[indoles]]
+Concepts: [[dysbiosis]], [[gut-microbiome]], [[immune-balance]], [[gut-brain-axis]], [[short-chain-fatty-acids]], [[indoles]]
 
-**Related interventions:** [[ecoli-nissle-1917]] (specific strain page), probiotics asd dysbiosis (ASD-specific), [[fmt-intervention]] (related live biotherapeutic), [[vitamin-d-supplementation]] (synergistic in PCOS), [[prebiotics]] (synergistic with probiotics as synbiotics)
+Related interventions: [[ecoli-nissle-1917]] (specific strain page), probiotics asd dysbiosis (ASD-specific), [[fmt-intervention]] (related live biotherapeutic), [[vitamin-d-supplementation]] (synergistic in PCOS), [[prebiotics]] (synergistic with probiotics as synbiotics)
 
-**Signatures:** [[ulcerative-colitis]], [[ibs]], [[multiple-sclerosis]], [[depression]], [[autism-spectrum-disorder]]
+Signatures: [[ulcerative-colitis]], [[ibs]], [[multiple-sclerosis]], [[depression]], [[autism-spectrum-disorder]]
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

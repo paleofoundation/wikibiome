@@ -11,13 +11,13 @@ Previewing frontmatter changes for §2f source density demotion. 68 publishable 
 
 ## Sample 1: Microbe entity (betaproteobacteria.md)
 
-**Before:**
+Before:
 ```yaml
 source_count: 2
 platform: wikibiome
 ```
 
-**After:**
+After:
 ```yaml
 source_count: 2
 platform: wikibiome
@@ -27,13 +27,13 @@ stub_reason: "below §2f source density threshold — 2 sources, minimum 3 requi
 
 ## Sample 2: Disease entity (celiac-disease.md)
 
-**Before:**
+Before:
 ```yaml
 source_count: 1
 platform: wikibiome
 ```
 
-**After:**
+After:
 ```yaml
 source_count: 1
 platform: wikibiome
@@ -43,13 +43,13 @@ stub_reason: "below §2f source density threshold — 1 sources, minimum 5 requi
 
 ## Sample 3: Metal entity (bismuth.md)
 
-**Before:**
+Before:
 ```yaml
 source_count: 1
 platform: wikibiome
 ```
 
-**After:**
+After:
 ```yaml
 source_count: 1
 platform: wikibiome

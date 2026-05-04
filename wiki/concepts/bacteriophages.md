@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Bacteriophages
 
-Viruses that exclusively infect bacteria. Bacteriophages -- phages for short -- are the most abundant biological entities on Earth, outnumbering bacteria in most environments by ratios of 1:1 to 10:1. In the human gut, the **phageome** represents a powerful but underexplored force shaping microbial community structure. Where traditional microbiome research has focused on bacteria, a growing body of evidence reveals that phages act as selective predators capable of driving dysbiosis patterns in diseases ranging from Parkinson's disease to colorectal cancer -- and that this predatory activity intersects with metal ecology in ways that are only beginning to be understood.
+Viruses that exclusively infect bacteria. Bacteriophages -- phages for short -- are the most abundant biological entities on Earth, outnumbering bacteria in most environments by ratios of 1:1 to 10:1. In the human gut, the phageome represents a powerful but underexplored force shaping microbial community structure. Where traditional microbiome research has focused on bacteria, a growing body of evidence reveals that phages act as selective predators capable of driving dysbiosis patterns in diseases ranging from Parkinson's disease to colorectal cancer -- and that this predatory activity intersects with metal ecology in ways that are only beginning to be understood.
 
 ## Phage Biology
 
@@ -22,9 +22,9 @@ Viruses that exclusively infect bacteria. Bacteriophages -- phages for short -- 
 
 Phages follow three major life cycles, each with different ecological consequences:
 
-- **Lytic** -- The phage hijacks bacterial machinery, replicates, and lyses the host cell to release progeny. This is the "predator" mode that directly reduces bacterial populations.
-- **Lysogenic (temperate)** -- The phage integrates its genome into the bacterial chromosome as a prophage, replicating passively with the host. Lysogeny can alter bacterial function through **lysogenic conversion** -- adding virulence factors, metabolic capabilities, or antibiotic resistance genes.
-- **Chronic** -- The phage reduces bacterial growth without killing, maintaining a parasitic relationship that shifts competitive dynamics without eliminating the host.
+- Lytic -- The phage hijacks bacterial machinery, replicates, and lyses the host cell to release progeny. This is the "predator" mode that directly reduces bacterial populations.
+- Lysogenic (temperate) -- The phage integrates its genome into the bacterial chromosome as a prophage, replicating passively with the host. Lysogeny can alter bacterial function through lysogenic conversion -- adding virulence factors, metabolic capabilities, or antibiotic resistance genes.
+- Chronic -- The phage reduces bacterial growth without killing, maintaining a parasitic relationship that shifts competitive dynamics without eliminating the host.
 
 ### Host Specificity
 
@@ -52,7 +52,7 @@ Phage therapy -- using phages to target specific pathogenic bacteria -- is being
 
 ### Cardiometabolic Applications
 
-Targeted phage therapy against specific gut bacteria has shown promise in animal models: phages against cytolysin-positive *Enterococcus faecalis* reduced liver disease in humanized mice, and *Klebsiella pneumoniae*-targeting phages reduced steatohepatitis inflammation without altering the broader microbiota ([[wortelboer-2024-phage-therapy-cardiometabolic-diseases]], animal-model). **Fecal virome transplantation (FVT)** -- transferring the phage-containing filtrate of fecal matter -- can alter gut microbiota composition similarly to full FMT, offering a bacteria-free alternative.
+Targeted phage therapy against specific gut bacteria has shown promise in animal models: phages against cytolysin-positive *Enterococcus faecalis* reduced liver disease in humanized mice, and *Klebsiella pneumoniae*-targeting phages reduced steatohepatitis inflammation without altering the broader microbiota ([[wortelboer-2024-phage-therapy-cardiometabolic-diseases]], animal-model). Fecal virome transplantation (FVT) -- transferring the phage-containing filtrate of fecal matter -- can alter gut microbiota composition similarly to full FMT, offering a bacteria-free alternative.
 
 ### Temperate Phage Engineering
 
@@ -62,16 +62,16 @@ An emerging approach uses temperate phages not to kill bacteria but to alter the
 
 The intersection of phages and metal ecology remains largely unexplored but mechanistically compelling:
 
-- **Phage predation of metal-buffering commensals** -- Lactic acid bacteria, bifidobacteria, and other commensals bind dietary metals and maintain gut barrier integrity. Their phage-mediated depletion releases metals into the luminal environment, potentially feeding metal-dependent pathogens.
-- **Prophage induction by metal stress** -- Environmental stressors including oxidative stress and DNA damage (both downstream of metal toxicity) can trigger prophage induction, converting lysogenic bacteria to lytic phage factories.
-- **Phage-resistant mutants** -- Bacteria that survive phage predation often carry surface modifications that also alter metal binding and transport properties.
+- Phage predation of metal-buffering commensals -- Lactic acid bacteria, bifidobacteria, and other commensals bind dietary metals and maintain gut barrier integrity. Their phage-mediated depletion releases metals into the luminal environment, potentially feeding metal-dependent pathogens.
+- Prophage induction by metal stress -- Environmental stressors including oxidative stress and DNA damage (both downstream of metal toxicity) can trigger prophage induction, converting lysogenic bacteria to lytic phage factories.
+- Phage-resistant mutants -- Bacteria that survive phage predation often carry surface modifications that also alter metal binding and transport properties.
 
 ## Key Studies
 
-- **[[tetz-2018-parkinsons-bacteriophage-gut-dysbiosis]]** (cross-sectional) -- Foundational study demonstrating >10-fold enrichment of lytic Lactococcus phages in PD gut; proposes phage-driven dysbiosis model.
-- **[[uyttebroek-2022-phage-therapy-safety-efficacy-systematic-review]]** (systematic-review-meta-analysis) -- 59-study systematic review confirming phage therapy safety across multiple clinical indications.
-- **[[wortelboer-2024-phage-therapy-cardiometabolic-diseases]]** (animal-model) -- Reviews phage therapy potential for cardiometabolic diseases; introduces FVT and temperate phage engineering concepts.
-- **[[shahin-2023-gut-phageome-asd-metagenomics]]** (computational-prediction) -- Demonstrates expanded Caudoviricetes phageome in ASD with Bacteroidaceae-targeting and Faecalibacterium prophage enrichment.
+- [[tetz-2018-parkinsons-bacteriophage-gut-dysbiosis]] (cross-sectional) -- Foundational study demonstrating >10-fold enrichment of lytic Lactococcus phages in PD gut; proposes phage-driven dysbiosis model.
+- [[uyttebroek-2022-phage-therapy-safety-efficacy-systematic-review]] (systematic-review-meta-analysis) -- 59-study systematic review confirming phage therapy safety across multiple clinical indications.
+- [[wortelboer-2024-phage-therapy-cardiometabolic-diseases]] (animal-model) -- Reviews phage therapy potential for cardiometabolic diseases; introduces FVT and temperate phage engineering concepts.
+- [[shahin-2023-gut-phageome-asd-metagenomics]] (computational-prediction) -- Demonstrates expanded Caudoviricetes phageome in ASD with Bacteroidaceae-targeting and Faecalibacterium prophage enrichment.
 
 ## Cross-References
 

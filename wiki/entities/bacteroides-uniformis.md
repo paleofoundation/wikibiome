@@ -22,18 +22,18 @@ conditions_depleted_in: [chronic-kidney-disease, autism-spectrum-disorder, gerd]
 
 # Bacteroides uniformis
 
-A Gram-negative, obligate anaerobic bacterium within the phylum Bacteroidetes and a common member of the healthy human gut microbiota. **B. uniformis** is a versatile polysaccharide degrader with emerging significance as an anti-inflammatory commensal whose depletion appears across multiple disease states linked to metal dyshomeostasis.
+A Gram-negative, obligate anaerobic bacterium within the phylum Bacteroidetes and a common member of the healthy human gut microbiota. B. uniformis is a versatile polysaccharide degrader with emerging significance as an anti-inflammatory commensal whose depletion appears across multiple disease states linked to metal dyshomeostasis.
 
 ## Metabolic Functions
 
-- Possesses an extensive repertoire of **polysaccharide utilization loci (PULs)** enabling degradation of complex dietary fibers, resistant starches, and host-derived glycans.
+- Possesses an extensive repertoire of polysaccharide utilization loci (PULs) enabling degradation of complex dietary fibers, resistant starches, and host-derived glycans.
 - Produces [[short-chain-fatty-acids]] -- primarily acetate and propionate -- from fiber fermentation, contributing to colonocyte energy supply and immune regulation.
 - Dietary fiber intake directly increases *B. uniformis* abundance. In a cohort of healthy men, higher fiber consumption correlated with enrichment of *B. uniformis* alongside reduced systemic inflammation markers [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
 - Participates in [[bile-acid-metabolism]] through bile salt hydrolase activity, influencing the enterohepatic circulation of bile acids.
 
 ## Immune Modulation
 
-- *B. uniformis* has demonstrated **anti-inflammatory properties** in preclinical models, reducing pro-inflammatory cytokine production (TNF-alpha, IL-6) while promoting regulatory T cell differentiation.
+- *B. uniformis* has demonstrated anti-inflammatory properties in preclinical models, reducing pro-inflammatory cytokine production (TNF-alpha, IL-6) while promoting regulatory T cell differentiation.
 - Its polysaccharide capsule components interact with the host immune system via TLR2 and Dectin-1 pathways.
 - Unlike some *Bacteroides* species (e.g., [[bacteroides-fragilis]] with its BFT toxin), *B. uniformis* lacks known virulence factors and is considered a beneficial commensal.
 
@@ -41,9 +41,9 @@ A Gram-negative, obligate anaerobic bacterium within the phylum Bacteroidetes an
 
 *B. uniformis* depletion is a recurring finding across conditions with distinct metal and inflammatory profiles:
 
-- **Chronic kidney disease (CKD)**: Depleted in CKD rat models, where uremic toxin accumulation and metal dyshomeostasis reshape the gut microbiome. Fecal microbiota transplantation from healthy donors restores *B. uniformis* abundance alongside improvements in renal function markers [[liu-2022-fmt-restores-ckd-rats]].
-- **Autism spectrum disorder (ASD)**: Reduced in young ASD children compared to neurotypical controls. The depletion correlates with altered [[short-chain-fatty-acids]] profiles and may contribute to the GI symptoms common in ASD [[coretti-2018-gut-microbiota-young-asd-children]].
-- **Gastroesophageal reflux disease (GERD)**: Identified as a depleted taxon in GERD patients in systematic review findings, suggesting a role in upper GI homeostasis [[alageel-2025-microbiome-composition-gerd-systematic-review]].
+- Chronic kidney disease (CKD): Depleted in CKD rat models, where uremic toxin accumulation and metal dyshomeostasis reshape the gut microbiome. Fecal microbiota transplantation from healthy donors restores *B. uniformis* abundance alongside improvements in renal function markers [[liu-2022-fmt-restores-ckd-rats]].
+- Autism spectrum disorder (ASD): Reduced in young ASD children compared to neurotypical controls. The depletion correlates with altered [[short-chain-fatty-acids]] profiles and may contribute to the GI symptoms common in ASD [[coretti-2018-gut-microbiota-young-asd-children]].
+- Gastroesophageal reflux disease (GERD): Identified as a depleted taxon in GERD patients in systematic review findings, suggesting a role in upper GI homeostasis [[alageel-2025-microbiome-composition-gerd-systematic-review]].
 
 ## Metal Dependencies and Sensitivity
 
@@ -52,7 +52,7 @@ A Gram-negative, obligate anaerobic bacterium within the phylum Bacteroidetes an
 
 ## Ecological Role
 
-- Functions as a **primary degrader** in the gut, breaking down complex polysaccharides into simpler substrates that feed secondary fermenters including butyrate producers like [[faecalibacterium-prausnitzii]] and [[eubacterium-rectale]].
+- Functions as a primary degrader in the gut, breaking down complex polysaccharides into simpler substrates that feed secondary fermenters including butyrate producers like [[faecalibacterium-prausnitzii]] and [[eubacterium-rectale]].
 - Its loss disrupts the fiber fermentation cascade, reducing SCFA availability and potentially contributing to the pro-inflammatory environment seen in dysbiotic states.
 
 ## Cross-References

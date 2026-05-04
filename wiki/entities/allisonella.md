@@ -23,27 +23,27 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Allisonella
 
-A Gram-negative obligate anaerobe identified as a histamine-producing bacterium enriched in dysbiotic microbiota associated with obesity, metabolic syndrome, and metabolic endotoxemia. *Allisonella* is a minor but functionally significant genus whose primary clinical relevance derives from its capacity to convert the amino acid histidine into histamine via bacterial **histidine decarboxylase**, bypassing normal host-mediated histamine synthesis and degradation pathways. This microbial histamine production drives mast cell activation, local and systemic inflammation, and may perpetuate metabolic dysregulation in obesity and cardiometabolic disease.
+A Gram-negative obligate anaerobe identified as a histamine-producing bacterium enriched in dysbiotic microbiota associated with obesity, metabolic syndrome, and metabolic endotoxemia. *Allisonella* is a minor but functionally significant genus whose primary clinical relevance derives from its capacity to convert the amino acid histidine into histamine via bacterial histidine decarboxylase, bypassing normal host-mediated histamine synthesis and degradation pathways. This microbial histamine production drives mast cell activation, local and systemic inflammation, and may perpetuate metabolic dysregulation in obesity and cardiometabolic disease.
 
 ## Taxonomy and Classification
 
-- **Phylum**: Bacteroidetes (Gram-negative, filamentous or coccobacillary morphology).
-- **Species of note**: *Allisonella hiatal* (formerly *Alistipes* sp.) -- primary gut isolate; anaerobic, slow-growing.
-- **Habitat**: Colonic lumen; associated with mucus layer biofilms in dysbiotic states.
+- Phylum: Bacteroidetes (Gram-negative, filamentous or coccobacillary morphology).
+- Species of note: *Allisonella hiatal* (formerly *Alistipes* sp.) -- primary gut isolate; anaerobic, slow-growing.
+- Habitat: Colonic lumen; associated with mucus layer biofilms in dysbiotic states.
 
 ## Histamine Production and Metabolism
 
 ### Bacterial Histidine Decarboxylase (HDC)
 
 - *Allisonella* expresses histidine decarboxylase, a pyridoxal phosphate (PLP, Vitamin B6)-dependent enzyme that catalyzes the conversion of free histidine to histamine (Garner-Spitzer et al. 2009; Barcik et al. 2017 FEMS Microbiol Rev).
-- **Reaction**: L-histidine → histamine + CO2
+- Reaction: L-histidine → histamine + CO2
 - This is the same enzymatic pathway used by mammalian mast cells and basophils, but constitutively expressed by *Allisonella* as part of normal metabolism (Barcik et al. 2017 FEMS Microbiol Rev; Garvey 1989 — original *Allisonella* characterization in Garner et al. 2002 Syst Appl Microbiol).
 
 ### Histamine Physiology in Dysbiosis
 
 #### Host Histamine Degradation Impairment
-- **Diamine oxidase (DAO)**: Intestinal epithelial enzyme that degrades histamine in the lamina propria. DAO activity is **suppressed in inflammation and dysbiosis** (Maintz & Novak 2007 Am J Clin Nutr).
-- **Histamine-N-methyltransferase (HNMT)**: Liver and immune cell enzyme; limited capacity for high histamine loads (Maintz & Novak 2007 Am J Clin Nutr).
+- Diamine oxidase (DAO): Intestinal epithelial enzyme that degrades histamine in the lamina propria. DAO activity is suppressed in inflammation and dysbiosis (Maintz & Novak 2007 Am J Clin Nutr).
+- Histamine-N-methyltransferase (HNMT): Liver and immune cell enzyme; limited capacity for high histamine loads (Maintz & Novak 2007 Am J Clin Nutr).
 - In dysbiotic states (inflammation, altered epithelial barrier), DAO suppression allows microbial histamine to accumulate.
 
 #### Mast Cell Activation
@@ -52,8 +52,8 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 - Local and systemic inflammatory response; contributes to "mast cell activation syndrome" (MCAS) phenotypes.
 
 #### H1 and H2 Signaling Consequences
-- **H1 receptor (Gq-coupled)**: Promotes smooth muscle contraction, vasodilation, increased vascular permeability, IL-4 and IL-13 Th2 driving.
-- **H2 receptor (Gs-coupled)**: Promotes cyclic AMP accumulation; immunomodulatory (suppresses IL-12, promotes IL-10).
+- H1 receptor (Gq-coupled): Promotes smooth muscle contraction, vasodilation, increased vascular permeability, IL-4 and IL-13 Th2 driving.
+- H2 receptor (Gs-coupled): Promotes cyclic AMP accumulation; immunomodulatory (suppresses IL-12, promotes IL-10).
 - Net effect: pro-inflammatory and anti-inflammatory signals, creating dysregulated immune state.
 
 ## Iron Dependency
@@ -66,10 +66,10 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 
 ### Obesity and Metabolic Syndrome
 
-- **Dysbiotic marker**: *Allisonella* abundance is consistently elevated in obese microbiota vs. lean controls (Zhang et al. 2009 PNAS; [[yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]]; [[ismail-2022-gut-microbiome-obesity-t1d-review]]).
-- **Functional link**: Microbial histamine production may perpetuate mast cell activation, driving chronic low-grade inflammation characteristic of obesity (Barcik et al. 2019 Curr Opin Immunol).
-- **Metabolic endotoxemia**: *Allisonella* co-expands with other gram-negative bacteria ([[bacteroides-fragilis]], *E. coli*), increasing luminal LPS load ([[pendergrass-2026-heavy-metals-obesity-epidemic]]).
-- **Barrier dysfunction**: Histamine-driven increased intestinal permeability allows LPS translocation (lipopolysaccharide) → systemic inflammation (Cani et al. 2007 Diabetes).
+- Dysbiotic marker: *Allisonella* abundance is consistently elevated in obese microbiota vs. lean controls (Zhang et al. 2009 PNAS; [[yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]]; [[ismail-2022-gut-microbiome-obesity-t1d-review]]).
+- Functional link: Microbial histamine production may perpetuate mast cell activation, driving chronic low-grade inflammation characteristic of obesity (Barcik et al. 2019 Curr Opin Immunol).
+- Metabolic endotoxemia: *Allisonella* co-expands with other gram-negative bacteria ([[bacteroides-fragilis]], *E. coli*), increasing luminal LPS load ([[pendergrass-2026-heavy-metals-obesity-epidemic]]).
+- Barrier dysfunction: Histamine-driven increased intestinal permeability allows LPS translocation (lipopolysaccharide) → systemic inflammation (Cani et al. 2007 Diabetes).
 
 ### Insulin Resistance and Type 2 Diabetes
 
@@ -87,7 +87,7 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 
 ### Atopic and Allergic Diseases
 
-- **Hypothesis**: Dysbiotic *Allisonella* expansion drives mast cell activation and tissue Th2 bias, predisposing to atopy and allergic diseases.
+- Hypothesis: Dysbiotic *Allisonella* expansion drives mast cell activation and tissue Th2 bias, predisposing to atopy and allergic diseases.
 - Epidemiological links between obesity, dysbiosis, and increased prevalence of atopic dermatitis, asthma, and food allergies support this mechanism.
 
 ## Ecological Context
@@ -117,14 +117,14 @@ A Gram-negative obligate anaerobe identified as a histamine-producing bacterium 
 
 ### Dietary Modulation
 
-- **Prebiotics** (inulin, FOS): Selectively promote Faecalibacterium and other butyrate producers, shifting ecological balance away from *Allisonella* through competitive exclusion.
-- **Histamine load reduction**: Reducing dietary histamine precursors (aged meats, fermented foods) decreases the substrate pool that amplifies histamine-mediated inflammatory signaling during dysbiosis.
-- **Low-fat, high-fiber patterns**: Restore normal colonic luminal chemistry, favoring commensal recovery over pathobiont expansion.
+- Prebiotics (inulin, FOS): Selectively promote Faecalibacterium and other butyrate producers, shifting ecological balance away from *Allisonella* through competitive exclusion.
+- Histamine load reduction: Reducing dietary histamine precursors (aged meats, fermented foods) decreases the substrate pool that amplifies histamine-mediated inflammatory signaling during dysbiosis.
+- Low-fat, high-fiber patterns: Restore normal colonic luminal chemistry, favoring commensal recovery over pathobiont expansion.
 
 ### DAO Pathway Support
 
-- **DAO supplementation**: Enhances histamine degradation capacity, counteracting the elevated histamine output from *Allisonella*-dominated communities.
-- **Mast cell stabilization** (e.g., sodium cromoglycate): Modulates downstream histamine signaling, reducing the inflammatory cascade driven by microbial histamine production.
+- DAO supplementation: Enhances histamine degradation capacity, counteracting the elevated histamine output from *Allisonella*-dominated communities.
+- Mast cell stabilization (e.g., sodium cromoglycate): Modulates downstream histamine signaling, reducing the inflammatory cascade driven by microbial histamine production.
 
 ### Competitive Exclusion
 

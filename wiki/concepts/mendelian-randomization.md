@@ -17,9 +17,9 @@ platform: wikibiome
 
 ## Overview
 
-**Mendelian randomization (MR)** is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (e.g., gut microbiome composition) and an outcome (e.g., disease). Because genetic variants are randomly allocated at conception ("nature's randomized trial"), MR can distinguish causation from correlation in observational data -- a critical capability for microbiome research, where most evidence is cross-sectional and confounded.
+Mendelian randomization (MR) is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (e.g., gut microbiome composition) and an outcome (e.g., disease). Because genetic variants are randomly allocated at conception ("nature's randomized trial"), MR can distinguish causation from correlation in observational data -- a critical capability for microbiome research, where most evidence is cross-sectional and confounded.
 
-In the WikiBiome vault, MR studies provide the strongest available evidence for causal direction: **does dysbiosis cause disease, or does disease cause dysbiosis?** The answer is often "both" (bidirectional MR), which has profound implications for intervention timing and strategy.
+In the WikiBiome vault, MR studies provide the strongest available evidence for causal direction: does dysbiosis cause disease, or does disease cause dysbiosis? The answer is often "both" (bidirectional MR), which has profound implications for intervention timing and strategy.
 
 ## Method
 
@@ -27,26 +27,26 @@ In the WikiBiome vault, MR studies provide the strongest available evidence for 
 
 Nearly all microbiome MR studies in the vault use two-sample bidirectional MR:
 
-1. **Exposure GWAS**: Genetic variants (SNPs) associated with gut microbiome composition, primarily from the **MiBioGen consortium** (n=18,340; 211 taxa; 16S rRNA; multi-ethnic but predominantly European).
-2. **Outcome GWAS**: Disease-specific GWAS from large biobanks (UK Biobank, FinnGen, etc.).
-3. **Instrumental variable analysis**: SNPs associated with microbiome features serve as instruments to test whether those features causally affect disease risk.
-4. **Bidirectional analysis**: The reverse direction (disease→microbiome) is tested separately.
+1. Exposure GWAS: Genetic variants (SNPs) associated with gut microbiome composition, primarily from the MiBioGen consortium (n=18,340; 211 taxa; 16S rRNA; multi-ethnic but predominantly European).
+2. Outcome GWAS: Disease-specific GWAS from large biobanks (UK Biobank, FinnGen, etc.).
+3. Instrumental variable analysis: SNPs associated with microbiome features serve as instruments to test whether those features causally affect disease risk.
+4. Bidirectional analysis: The reverse direction (disease→microbiome) is tested separately.
 
 ### Statistical Methods
 
-- **IVW (inverse-variance weighted)**: Primary analysis
-- **MR-Egger**: Detects and corrects for directional pleiotropy
-- **Weighted median**: Robust when up to 50% of instruments are invalid
-- **MR-PRESSO**: Outlier detection and correction
-- **Cochran's Q**: Heterogeneity assessment
+- IVW (inverse-variance weighted): Primary analysis
+- MR-Egger: Detects and corrects for directional pleiotropy
+- Weighted median: Robust when up to 50% of instruments are invalid
+- MR-PRESSO: Outlier detection and correction
+- Cochran's Q: Heterogeneity assessment
 
 ### Limitations
 
-- **MiBioGen resolution**: 16S rRNA gene, genus-level maximum. Species-level and functional (shotgun) GWAS are not yet available at comparable scale.
-- **Population ancestry**: Predominantly European; generalizability to other populations uncertain.
-- **Weak instruments**: Microbiome GWAS effect sizes are small; weak instrument bias may inflate or attenuate causal estimates.
-- **Horizontal pleiotropy**: SNPs may affect disease through pathways other than the microbiome.
-- **Static snapshot**: MR captures genetic predisposition to microbiome composition, not the dynamic, diet-responsive community.
+- MiBioGen resolution: 16S rRNA gene, genus-level maximum. Species-level and functional (shotgun) GWAS are not yet available at comparable scale.
+- Population ancestry: Predominantly European; generalizability to other populations uncertain.
+- Weak instruments: Microbiome GWAS effect sizes are small; weak instrument bias may inflate or attenuate causal estimates.
+- Horizontal pleiotropy: SNPs may affect disease through pathways other than the microbiome.
+- Static snapshot: MR captures genetic predisposition to microbiome composition, not the dynamic, diet-responsive community.
 
 ## Key Causal Findings Across Conditions
 
@@ -82,12 +82,12 @@ Nearly all microbiome MR studies in the vault use two-sample bidirectional MR:
 
 ### Null Results (Equally Important)
 
-- **[[multiple-sclerosis]]**: No replicable causal single-taxon signal despite many observational associations [[xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization]]. MR's discriminating power is demonstrated by what it *doesn't* find.
+- [[multiple-sclerosis]]: No replicable causal single-taxon signal despite many observational associations [[xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization]]. MR's discriminating power is demonstrated by what it *doesn't* find.
 
 ## Paradigm-Shifting Insights
 
 ### The Bifidobacterium Paradox
-[[bifidobacterium]] appears protective in observational studies and is widely used as a probiotic. MR reveals it **causally increases risk** for T1D (OR=1.605) and celiac disease (OR=1.401) [[xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization]]. This does not invalidate probiotic use but demands strain-level and context-specific evaluation rather than blanket recommendations.
+[[bifidobacterium]] appears protective in observational studies and is widely used as a probiotic. MR reveals it causally increases risk for T1D (OR=1.605) and celiac disease (OR=1.401) [[xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization]]. This does not invalidate probiotic use but demands strain-level and context-specific evaluation rather than blanket recommendations.
 
 ### Bidirectional Vicious Cycles
 GERD depletes protective taxa, and those taxa causally protect against GERD -- a self-reinforcing cycle that explains disease chronicity [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]]. This pattern likely applies to other chronic conditions.
@@ -97,11 +97,11 @@ The most valuable MR contribution: Akkermansia enrichment in schizophrenia is a 
 
 ## Relevance to WikiBiome
 
-MR studies serve as the **causal backbone** of WikiBiome's knowledge graph. While observational studies identify associations, MR provides the directional arrows:
+MR studies serve as the causal backbone of WikiBiome's knowledge graph. While observational studies identify associations, MR provides the directional arrows:
 
-- **For entity pages**: MR evidence determines whether a taxon-disease association is causal (drives intervention strategy) or consequential (useful as biomarker only).
-- **For signature pages**: MR helps distinguish which signature layers are causally upstream vs. reactive downstream changes.
-- **For intervention pages**: Only causally implicated taxa are rational therapeutic targets; MR filters signal from noise.
+- For entity pages: MR evidence determines whether a taxon-disease association is causal (drives intervention strategy) or consequential (useful as biomarker only).
+- For signature pages: MR helps distinguish which signature layers are causally upstream vs. reactive downstream changes.
+- For intervention pages: Only causally implicated taxa are rational therapeutic targets; MR filters signal from noise.
 
 ## Cross-References
 

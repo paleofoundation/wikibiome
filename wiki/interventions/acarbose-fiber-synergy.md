@@ -29,21 +29,21 @@ targets:
 karen_brain_primitives: [5]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Mechanism
 
-**Acarbose** inhibits alpha-glucosidase in the small intestine, reducing glucose absorption and delivering undigested carbohydrate to the colon. Combined with a **high-fiber diet**, this dramatically increases substrate for saccharolytic fermentation, boosting SCFA production (butyrate, propionate, acetate). The metabolic shift improves insulin sensitivity via GLP-1 signaling and reduces hepatic androgen production.
+Acarbose inhibits alpha-glucosidase in the small intestine, reducing glucose absorption and delivering undigested carbohydrate to the colon. Combined with a high-fiber diet, this dramatically increases substrate for saccharolytic fermentation, boosting SCFA production (butyrate, propionate, acetate). The metabolic shift improves insulin sensitivity via GLP-1 signaling and reduces hepatic androgen production.
 
 ## Rationale
 
-PCOS is characterized by insulin resistance, hyperandrogenism, and gut dysbiosis with reduced SCFA producers. This intervention applies **two-sided ecological engineering** (Primitive 5) — the pharmaceutical component redirects nutrients to beneficial colonic fermenters, while the dietary component provides the substrate they need to outcompete pathobionts.
+PCOS is characterized by insulin resistance, hyperandrogenism, and gut dysbiosis with reduced SCFA producers. This intervention applies two-sided ecological engineering (Primitive 5) — the pharmaceutical component redirects nutrients to beneficial colonic fermenters, while the dietary component provides the substrate they need to outcompete pathobionts.
 
 ## Evidence Status
 
-- **Clinical**: Quasi-experimental studies show improved HOMA-IR, reduced testosterone, and improved menstrual regularity with acarbose in PCOS.
-- **Mechanistic**: Acarbose increases colonic SCFA production and shifts microbiome composition toward saccharolytic taxa.
-- **Dietary synergy**: High-fiber diets independently improve PCOS metabolic markers; combination effect appears synergistic.
+- Clinical: Quasi-experimental studies show improved HOMA-IR, reduced testosterone, and improved menstrual regularity with acarbose in PCOS.
+- Mechanistic: Acarbose increases colonic SCFA production and shifts microbiome composition toward saccharolytic taxa.
+- Dietary synergy: High-fiber diets independently improve PCOS metabolic markers; combination effect appears synergistic.
 
 ## Open Questions
 
@@ -54,4 +54,4 @@ PCOS is characterized by insulin resistance, hyperandrogenism, and gut dysbiosis
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

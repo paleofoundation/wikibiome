@@ -78,21 +78,21 @@ karen_brain_primitives: [1, 2, 5, 9]
 
 ## Overview
 
-**Epilepsy** affects ~50 million people worldwide, with ~30% experiencing drug-resistant seizures. The gut-brain axis provides a mechanistic framework for understanding how intestinal dysbiosis modulates seizure thresholds through neuroactive metabolites, immune signaling, and SCFA-mediated neural communication. The strongest clinical evidence for microbiome involvement comes from the **ketogenic diet**, whose anti-seizure efficacy is abolished by microbiome ablation in animal models [[gudan-2022-ketogenic-diet-gut-microbiota-neurological-disorders]].
+Epilepsy affects ~50 million people worldwide, with ~30% experiencing drug-resistant seizures. The gut-brain axis provides a mechanistic framework for understanding how intestinal dysbiosis modulates seizure thresholds through neuroactive metabolites, immune signaling, and SCFA-mediated neural communication. The strongest clinical evidence for microbiome involvement comes from the ketogenic diet, whose anti-seizure efficacy is abolished by microbiome ablation in animal models [[gudan-2022-ketogenic-diet-gut-microbiota-neurological-disorders]].
 
 This signature draws substantially from cerebral palsy-epilepsy (CPE) comorbidity data, as most microbiome profiling in epilepsy has been conducted in this population. Mendelian randomization provides additional causal evidence for taxa-epilepsy relationships independent of CP [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]].
 
 ## Metallomic Signature
 
-**Confidence: preliminary**
+Confidence: preliminary
 
 Direct metallomic profiling specific to epilepsy is limited. The metal associations derive primarily from the CPE population and infant metal-microbiome studies:
 
-- **Iron (depleted)**: Iron deficiency is common in epilepsy patients, particularly those with CP comorbidity (13-48% prevalence) [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. Whether this represents true deficiency or hepcidin-mediated sequestration (nutritional immunity) remains unresolved. Anticonvulsant medications may compound iron malabsorption.
-- **Zinc (depleted)**: Zinc is critical for GABA-A receptor function and synaptic plasticity. Deficiency amplifies excitatory neurotransmission and may lower seizure thresholds.
-- **Magnesium (depleted)**: NMDA receptor antagonist; deficiency permits excessive glutamatergic signaling. Magnesium is a cofactor for >300 enzymes including those in serotonin synthesis.
-- **Copper (elevated)**: Copper excess promotes oxidative stress in neural tissue. Elevated Cu/Zn ratios may impair GABAergic signaling.
-- **Arsenic (elevated)**: Most influential metal on infant gut microbial alpha diversity [[yan-2025-infant-serum-metals-gut-microbiota]]; environmental arsenic exposure during neurodevelopment may contribute to seizure susceptibility.
+- Iron (depleted): Iron deficiency is common in epilepsy patients, particularly those with CP comorbidity (13-48% prevalence) [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. Whether this represents true deficiency or hepcidin-mediated sequestration (nutritional immunity) remains unresolved. Anticonvulsant medications may compound iron malabsorption.
+- Zinc (depleted): Zinc is critical for GABA-A receptor function and synaptic plasticity. Deficiency amplifies excitatory neurotransmission and may lower seizure thresholds.
+- Magnesium (depleted): NMDA receptor antagonist; deficiency permits excessive glutamatergic signaling. Magnesium is a cofactor for >300 enzymes including those in serotonin synthesis.
+- Copper (elevated): Copper excess promotes oxidative stress in neural tissue. Elevated Cu/Zn ratios may impair GABAergic signaling.
+- Arsenic (elevated): Most influential metal on infant gut microbial alpha diversity [[yan-2025-infant-serum-metals-gut-microbiota]]; environmental arsenic exposure during neurodevelopment may contribute to seizure susceptibility.
 
 ## Environmental Exposures
 
@@ -100,52 +100,52 @@ Anticonvulsant medications represent the dominant environmental factor shaping t
 
 ## Nutritional Immunity Response
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-- **Elevated IL-1beta, IL-6, TNF-alpha**: Systemic inflammatory markers are elevated in epilepsy, particularly in the CPE population. Salivary IL-1beta correlates strongly with systemic levels (R=0.720) [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]].
-- **Elevated calprotectin**: Intestinal inflammation marker consistent with gut barrier dysfunction.
-- **Depleted butyrate**: The comprehensive loss of butyrate-producing taxa (Faecalibacterium, Roseburia, Blautia, Anaerostipes) creates a profound SCFA deficit. Butyrate normally crosses the BBB and promotes myelination via HDAC inhibition [[wang-2023-microbial-gut-brain-white-matter-preterm]].
-- **Depleted GABA**: Microbial GABA production (from Lactobacillus, Bifidobacterium) is reduced; combined with host GABAergic dysfunction, this lowers seizure threshold.
+- Elevated IL-1beta, IL-6, TNF-alpha: Systemic inflammatory markers are elevated in epilepsy, particularly in the CPE population. Salivary IL-1beta correlates strongly with systemic levels (R=0.720) [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]].
+- Elevated calprotectin: Intestinal inflammation marker consistent with gut barrier dysfunction.
+- Depleted butyrate: The comprehensive loss of butyrate-producing taxa (Faecalibacterium, Roseburia, Blautia, Anaerostipes) creates a profound SCFA deficit. Butyrate normally crosses the BBB and promotes myelination via HDAC inhibition [[wang-2023-microbial-gut-brain-white-matter-preterm]].
+- Depleted GABA: Microbial GABA production (from Lactobacillus, Bifidobacterium) is reduced; combined with host GABAergic dysfunction, this lowers seizure threshold.
 
 ## Taxonomic Analysis
 
-**Confidence: moderate**
+Confidence: moderate
 
 ### Enriched Taxa
 
-**[[akkermansia-muciniphila]]** is an MR-validated risk factor for epilepsy, with particularly strong association for focal epilepsy (OR=1.739) [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]]. Akkermansia degrades mucin, increasing mucosal permeability and exposing the immune system to bacterial antigens. The KEGG functional analysis attributes elevated immune system disease risk to Akkermansia overgrowth [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
+[[akkermansia-muciniphila]] is an MR-validated risk factor for epilepsy, with particularly strong association for focal epilepsy (OR=1.739) [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]]. Akkermansia degrades mucin, increasing mucosal permeability and exposing the immune system to bacterial antigens. The KEGG functional analysis attributes elevated immune system disease risk to Akkermansia overgrowth [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
 
-**[[streptococcus]]** (4.70% in CPE) drives neurodegenerative disease risk via KEGG pathway analysis, primarily through IL-6 and TNF-alpha elevation [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]. Strong co-occurrence with Actinomyces (r=0.833) suggests an oral-origin consortium.
+[[streptococcus]] (4.70% in CPE) drives neurodegenerative disease risk via KEGG pathway analysis, primarily through IL-6 and TNF-alpha elevation [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]. Strong co-occurrence with Actinomyces (r=0.833) suggests an oral-origin consortium.
 
-**Betaproteobacteria** (class) and **Burkholderiales** (order) are MR risk factors (OR=1.357 and 1.336 respectively) [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]]. Burkholderiales includes metal-tolerant species that thrive in heavy-metal contaminated environments.
+Betaproteobacteria (class) and Burkholderiales (order) are MR risk factors (OR=1.357 and 1.336 respectively) [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]]. Burkholderiales includes metal-tolerant species that thrive in heavy-metal contaminated environments.
 
 ### Depleted Taxa
 
-The SCFA-producing community is comprehensively depleted in epilepsy: **[[bacteroides]]** (from dominant to 10.94%), **[[faecalibacterium-prausnitzii]]** (0.78%), **[[blautia]]** (1.44%), **Ruminococcus** (0.01%), **[[roseburia]]** (0.00%), and **Anaerostipes** (0.04%) — all P<0.001 [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
+The SCFA-producing community is comprehensively depleted in epilepsy: [[bacteroides]] (from dominant to 10.94%), [[faecalibacterium-prausnitzii]] (0.78%), [[blautia]] (1.44%), Ruminococcus (0.01%), [[roseburia]] (0.00%), and Anaerostipes (0.04%) — all P<0.001 [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
 
-**[[bacteroides-fragilis]]** and Dialister invisus are depleted specifically in CP+epilepsy (not CP alone), and both are linked to [[kynurenine]] pathway modulation [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]]. Their loss may shift tryptophan metabolism toward excitotoxic quinolinic acid.
+[[bacteroides-fragilis]] and Dialister invisus are depleted specifically in CP+epilepsy (not CP alone), and both are linked to [[kynurenine]] pathway modulation [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]]. Their loss may shift tryptophan metabolism toward excitotoxic quinolinic acid.
 
-**Eubacterium xylanophilum group** is MR-validated as protective (OR=0.816) [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]].
+Eubacterium xylanophilum group is MR-validated as protective (OR=0.816) [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]].
 
 ## Virulence Enzymes and Features
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-- **Indoleamine 2,3-dioxygenase (IDO)**: Upregulated by pro-inflammatory cytokines from Streptococcus/Akkermansia-driven inflammation; shunts tryptophan from serotonin toward kynurenine, producing neurotoxic quinolinic acid.
-- **Tryptophanase**: Microbial enzyme that diverts tryptophan from host serotonin synthesis; its activity is enhanced in the enriched taxa profile.
-- **Acetate accumulation**: With Anaerostipes and Faecalibacterium depleted, their normal co-production of butyrate from acetate is lost, causing acetate to accumulate. Excess acetate activates the parasympathetic nervous system and may directly trigger seizures [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
+- Indoleamine 2,3-dioxygenase (IDO): Upregulated by pro-inflammatory cytokines from Streptococcus/Akkermansia-driven inflammation; shunts tryptophan from serotonin toward kynurenine, producing neurotoxic quinolinic acid.
+- Tryptophanase: Microbial enzyme that diverts tryptophan from host serotonin synthesis; its activity is enhanced in the enriched taxa profile.
+- Acetate accumulation: With Anaerostipes and Faecalibacterium depleted, their normal co-production of butyrate from acetate is lost, causing acetate to accumulate. Excess acetate activates the parasympathetic nervous system and may directly trigger seizures [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
 
 ## Ecological State
 
-**Confidence: moderate**
+Confidence: moderate
 
 The epilepsy gut ecosystem is characterized by:
 
-1. **SCFA depletion** — Near-total loss of butyrate producers removes a critical anti-inflammatory and neuroprotective metabolite. Butyrate normally crosses the BBB and inhibits HDACs, promoting BDNF expression and myelination.
-2. **Kynurenine pathway shunting** — The balance between neuroprotective kynurenic acid (KA, NMDA antagonist) and neurotoxic quinolinic acid (QUIN, NMDA agonist) shifts toward QUIN under inflammatory conditions. B. fragilis depletion exacerbates this shift [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]].
-3. **Oral-gut translocation** — Streptococcus and Prevotella enrichment in the gut reflects oral pathobiont colonization of intestinal niches, particularly relevant in CPE where 96.3% have periodontitis [[huang-2022-oral-gut-microbiota-cpe-correlations]].
-4. **Mucin degradation** — Akkermansia overgrowth degrades the mucus barrier, increasing antigen exposure and perpetuating immune activation.
-5. **Paradoxical diversity increase** — CPE gut has higher Shannon diversity (2.33 vs 1.49) than healthy controls, but this reflects pathobiont expansion into vacated commensal niches, not ecological health [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
+1. SCFA depletion — Near-total loss of butyrate producers removes a critical anti-inflammatory and neuroprotective metabolite. Butyrate normally crosses the BBB and inhibits HDACs, promoting BDNF expression and myelination.
+2. Kynurenine pathway shunting — The balance between neuroprotective kynurenic acid (KA, NMDA antagonist) and neurotoxic quinolinic acid (QUIN, NMDA agonist) shifts toward QUIN under inflammatory conditions. B. fragilis depletion exacerbates this shift [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]].
+3. Oral-gut translocation — Streptococcus and Prevotella enrichment in the gut reflects oral pathobiont colonization of intestinal niches, particularly relevant in CPE where 96.3% have periodontitis [[huang-2022-oral-gut-microbiota-cpe-correlations]].
+4. Mucin degradation — Akkermansia overgrowth degrades the mucus barrier, increasing antigen exposure and perpetuating immune activation.
+5. Paradoxical diversity increase — CPE gut has higher Shannon diversity (2.33 vs 1.49) than healthy controls, but this reflects pathobiont expansion into vacated commensal niches, not ecological health [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
 
 ## Associated Conditions
 
@@ -171,7 +171,7 @@ Shared B. fragilis alterations, Akkermansia changes, kynurenine pathway involvem
 
 ## Karen's Brain Primitives Active
 
-- **Primitive 1 (Metals as Selective Pressures)**: Iron and zinc depletion shape the microbial community, favoring taxa that are less dependent on these metals. Copper and arsenic exposure may select for tolerant organisms like Burkholderiales.
-- **Primitive 2 (Nutritional Immunity as Interpretive Constraint)**: Iron deficiency in epilepsy patients (13-48%) may represent host defense rather than true deficiency — supplementation could fuel siderophore-producing pathobionts.
-- **Primitive 5 (Two-Sided Ecological Engineering)**: The ketogenic diet exemplifies this — it simultaneously enriches Akkermansia and suppresses Enterobacteriaceae, reshaping the ecosystem rather than targeting single organisms.
-- **Primitive 9 (Oxygen State as Ecological Determinant)**: Constipation (26-74% in CPE) alters colonic oxygen gradients, favoring facultative anaerobes over obligate anaerobic SCFA producers.
+- Primitive 1 (Metals as Selective Pressures): Iron and zinc depletion shape the microbial community, favoring taxa that are less dependent on these metals. Copper and arsenic exposure may select for tolerant organisms like Burkholderiales.
+- Primitive 2 (Nutritional Immunity as Interpretive Constraint): Iron deficiency in epilepsy patients (13-48%) may represent host defense rather than true deficiency — supplementation could fuel siderophore-producing pathobionts.
+- Primitive 5 (Two-Sided Ecological Engineering): The ketogenic diet exemplifies this — it simultaneously enriches Akkermansia and suppresses Enterobacteriaceae, reshaping the ecosystem rather than targeting single organisms.
+- Primitive 9 (Oxygen State as Ecological Determinant): Constipation (26-74% in CPE) alters colonic oxygen gradients, favoring facultative anaerobes over obligate anaerobic SCFA producers.

@@ -110,17 +110,17 @@ stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 
 ## Overview
 
-**Premenstrual Dysphoric Disorder (PMDD)** affects 3-8% of menstruating individuals, causing severe mood disturbances, irritability, anxiety, and physical symptoms during the luteal phase. PMDD is increasingly recognized as a neuroimmune disorder where gut microbiome composition modulates hormonal sensitivity, tryptophan metabolism, and GABAergic neurotransmission. The [[estrobolome]] — the collection of gut microbial genes capable of metabolizing estrogens — is directly relevant, as bacterial [[beta-glucuronidase]] activity drives estrogen recirculation that may amplify luteal-phase hormonal sensitivity.
+Premenstrual Dysphoric Disorder (PMDD) affects 3-8% of menstruating individuals, causing severe mood disturbances, irritability, anxiety, and physical symptoms during the luteal phase. PMDD is increasingly recognized as a neuroimmune disorder where gut microbiome composition modulates hormonal sensitivity, tryptophan metabolism, and GABAergic neurotransmission. The [[estrobolome]] — the collection of gut microbial genes capable of metabolizing estrogens — is directly relevant, as bacterial [[beta-glucuronidase]] activity drives estrogen recirculation that may amplify luteal-phase hormonal sensitivity.
 
-This signature is at **preliminary** confidence across all layers due to the absence of dedicated source studies in the current knowledge base. The taxonomic and mechanistic data derive from the entity page synthesis of external literature (Takeda et al. 2022, Yao et al. 2024, Etyemez et al. 2025, Cheng et al. 2025) referenced in the PMDD entity but not yet ingested as source pages. Dedicated source ingestion is needed to elevate confidence.
+This signature is at preliminary confidence across all layers due to the absence of dedicated source studies in the current knowledge base. The taxonomic and mechanistic data derive from the entity page synthesis of external literature (Takeda et al. 2022, Yao et al. 2024, Etyemez et al. 2025, Cheng et al. 2025) referenced in the PMDD entity but not yet ingested as source pages. Dedicated source ingestion is needed to elevate confidence.
 
 ## Metallomic Signature
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-- **Magnesium (depleted)**: Documented in premenstrual disorders broadly. Magnesium is an NMDA receptor antagonist and cofactor for serotonin synthesis — its depletion during the luteal phase amplifies excitatory neurotransmission and reduces serotonin availability.
-- **Copper (elevated)**: Copper-zinc ratio fluctuations across the menstrual cycle may modulate PMDD symptom expression. Elevated copper promotes oxidative stress and displaces zinc in metalloenzymes.
-- **Zinc (depleted)**: Essential for GABA-A receptor function. Zinc deficiency may compound the reduced allopregnanolone sensitivity that characterizes PMDD.
+- Magnesium (depleted): Documented in premenstrual disorders broadly. Magnesium is an NMDA receptor antagonist and cofactor for serotonin synthesis — its depletion during the luteal phase amplifies excitatory neurotransmission and reduces serotonin availability.
+- Copper (elevated): Copper-zinc ratio fluctuations across the menstrual cycle may modulate PMDD symptom expression. Elevated copper promotes oxidative stress and displaces zinc in metalloenzymes.
+- Zinc (depleted): Essential for GABA-A receptor function. Zinc deficiency may compound the reduced allopregnanolone sensitivity that characterizes PMDD.
 
 ## Environmental Exposures
 
@@ -128,53 +128,53 @@ Hormonal fluctuations during the menstrual cycle are the primary environmental d
 
 ## Nutritional Immunity Response
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-- **Elevated IL-8 and TNF-alpha**: Both elevated in PMDD during the luteal phase (Etyemez et al. 2025). These cytokines upregulate IDO, shunting tryptophan from serotonin toward kynurenine.
-- **Elevated copper-zinc ratio**: Fluctuates across the menstrual cycle; elevated ratio correlates with neuropsychiatric symptom severity.
-- **Depleted serotonin**: Created by dual mechanism — reduced Bacteroidetes/SCFA-producer support for enterochromaffin cell function AND IDO-mediated tryptophan diversion to kynurenine.
-- **Depleted GABA**: Loss of GABA-producing taxa (Lactobacillus, Bifidobacterium presumed depleted) reduces inhibitory neurotransmitter availability.
-- **Reduced allopregnanolone sensitivity**: Inflammatory cytokines from gut dysbiosis alter GABA-A receptor subunit expression, converting the normally anxiolytic progesterone metabolite signal into an insufficient or paradoxically anxiogenic one.
+- Elevated IL-8 and TNF-alpha: Both elevated in PMDD during the luteal phase (Etyemez et al. 2025). These cytokines upregulate IDO, shunting tryptophan from serotonin toward kynurenine.
+- Elevated copper-zinc ratio: Fluctuates across the menstrual cycle; elevated ratio correlates with neuropsychiatric symptom severity.
+- Depleted serotonin: Created by dual mechanism — reduced Bacteroidetes/SCFA-producer support for enterochromaffin cell function AND IDO-mediated tryptophan diversion to kynurenine.
+- Depleted GABA: Loss of GABA-producing taxa (Lactobacillus, Bifidobacterium presumed depleted) reduces inhibitory neurotransmitter availability.
+- Reduced allopregnanolone sensitivity: Inflammatory cytokines from gut dysbiosis alter GABA-A receptor subunit expression, converting the normally anxiolytic progesterone metabolite signal into an insufficient or paradoxically anxiogenic one.
 
 ## Taxonomic Analysis
 
-**Confidence: preliminary**
+Confidence: preliminary
 
 ### Enriched Taxa
 
-**Escherichia/Shigella** has MR-validated causal association with PMDD (OR=1.004, Yao et al. 2024). LPS production from these organisms drives the inflammatory signaling that upregulates IDO and disrupts GABA-A receptor sensitivity during the luteal phase.
+Escherichia/Shigella has MR-validated causal association with PMDD (OR=1.004, Yao et al. 2024). LPS production from these organisms drives the inflammatory signaling that upregulates IDO and disrupts GABA-A receptor sensitivity during the luteal phase.
 
-**Anaerotaenia** is enriched in PMDD and correlated with symptom severity (r=0.292, Takeda et al. 2022), though its functional significance remains under investigation.
+Anaerotaenia is enriched in PMDD and correlated with symptom severity (r=0.292, Takeda et al. 2022), though its functional significance remains under investigation.
 
 ### Depleted Taxa
 
-**Bacteroidetes** (phylum-level) depletion correlates with symptom severity (P=0.015, Takeda et al. 2022), suggesting a dose-response relationship between microbial diversity loss and mood disruption.
+Bacteroidetes (phylum-level) depletion correlates with symptom severity (P=0.015, Takeda et al. 2022), suggesting a dose-response relationship between microbial diversity loss and mood disruption.
 
-**[[blautia]]** is MR-validated as protective (OR=0.994, Yao et al. 2024), producing acetate and propionate that support anti-inflammatory signaling.
+[[blautia]] is MR-validated as protective (OR=0.994, Yao et al. 2024), producing acetate and propionate that support anti-inflammatory signaling.
 
-**Parabacteroides** and **Megasphaera** are depleted, with their combined abundance inversely predicting symptom severity (R2=0.29, Takeda et al. 2022). Megasphaera produces valerate and other SCFAs supporting barrier integrity.
+Parabacteroides and Megasphaera are depleted, with their combined abundance inversely predicting symptom severity (R2=0.29, Takeda et al. 2022). Megasphaera produces valerate and other SCFAs supporting barrier integrity.
 
-**Butyricicoccus** depletion reduces butyrate production and colonocyte health.
+Butyricicoccus depletion reduces butyrate production and colonocyte health.
 
 ## Virulence Enzymes and Features
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-- **[[beta-glucuronidase]]**: The key estrobolome enzyme. Bacterial beta-glucuronidase deconjugates estrogens in the gut, increasing their reabsorption into systemic circulation. Dysbiotic communities with altered beta-glucuronidase activity may amplify estrogen fluctuations during the luteal phase, exacerbating PMDD's hallmark hormonal sensitivity.
-- **Indoleamine 2,3-dioxygenase (IDO)**: Upregulated by IL-8 and TNF-alpha during the luteal phase (Cheng et al. 2025). Shunts tryptophan from serotonin toward kynurenine, creating both serotonin deficit and neurotoxic quinolinic acid excess.
-- **Tryptophanase**: Microbial enzyme that diverts tryptophan. Dysbiotic communities produce less indole (an AhR ligand that suppresses IDO), permitting greater tryptophan diversion toward kynurenine.
+- [[beta-glucuronidase]]: The key estrobolome enzyme. Bacterial beta-glucuronidase deconjugates estrogens in the gut, increasing their reabsorption into systemic circulation. Dysbiotic communities with altered beta-glucuronidase activity may amplify estrogen fluctuations during the luteal phase, exacerbating PMDD's hallmark hormonal sensitivity.
+- Indoleamine 2,3-dioxygenase (IDO): Upregulated by IL-8 and TNF-alpha during the luteal phase (Cheng et al. 2025). Shunts tryptophan from serotonin toward kynurenine, creating both serotonin deficit and neurotoxic quinolinic acid excess.
+- Tryptophanase: Microbial enzyme that diverts tryptophan. Dysbiotic communities produce less indole (an AhR ligand that suppresses IDO), permitting greater tryptophan diversion toward kynurenine.
 
 ## Ecological State
 
-**Confidence: preliminary**
+Confidence: preliminary
 
 The PMDD gut ecosystem involves a cyclical interaction between hormonal fluctuations and microbial activity:
 
-1. **Estrogen recirculation** — Bacterial beta-glucuronidase deconjugates estrogens, driving reabsorption that amplifies luteal-phase hormonal sensitivity. The [[estrobolome]] composition determines the magnitude of this amplification.
-2. **Tryptophan-kynurenine shunting** — Luteal-phase inflammation (IL-8, TNF-alpha) activates IDO, diverting tryptophan from serotonin toward neurotoxic kynurenine metabolites. This creates the serotonin deficit that SSRIs partially address.
-3. **SCFA depletion** — Bacteroidetes, Parabacteroides, and Megasphaera depletion reduces SCFA production, compromising barrier integrity and removing anti-inflammatory metabolites.
-4. **GABA-A receptor modulation** — Inflammatory cytokines from gut dysbiosis alter GABA-A receptor subunit expression, reducing sensitivity to allopregnanolone. This converts progesterone's normally calming metabolite into an insufficient signal.
-5. **Dietary fiber mediates protection** — The OR=0.483 for high fiber intake (>10 g/day) is consistent with fiber supporting the depleted SCFA-producing taxa.
+1. Estrogen recirculation — Bacterial beta-glucuronidase deconjugates estrogens, driving reabsorption that amplifies luteal-phase hormonal sensitivity. The [[estrobolome]] composition determines the magnitude of this amplification.
+2. Tryptophan-kynurenine shunting — Luteal-phase inflammation (IL-8, TNF-alpha) activates IDO, diverting tryptophan from serotonin toward neurotoxic kynurenine metabolites. This creates the serotonin deficit that SSRIs partially address.
+3. SCFA depletion — Bacteroidetes, Parabacteroides, and Megasphaera depletion reduces SCFA production, compromising barrier integrity and removing anti-inflammatory metabolites.
+4. GABA-A receptor modulation — Inflammatory cytokines from gut dysbiosis alter GABA-A receptor subunit expression, reducing sensitivity to allopregnanolone. This converts progesterone's normally calming metabolite into an insufficient signal.
+5. Dietary fiber mediates protection — The OR=0.483 for high fiber intake (>10 g/day) is consistent with fiber supporting the depleted SCFA-producing taxa.
 
 ## Associated Conditions
 
@@ -200,6 +200,6 @@ Shared estrogen-dependent mechanisms and estrobolome involvement. Both condition
 
 ## Karen's Brain Primitives Active
 
-- **Primitive 1 (Metals as Selective Pressures)**: Copper-zinc ratio fluctuations across the menstrual cycle may selectively favor copper-tolerant taxa while disadvantaging zinc-dependent commensals, creating a cyclical dysbiotic pressure.
-- **Primitive 5 (Two-Sided Ecological Engineering)**: PMDD intervention requires both restoring depleted SCFA producers (Parabacteroides, Megasphaera, Blautia) and modulating the estrobolome to reduce excessive estrogen recirculation.
-- **Primitive 7 (Estrobolome and Hormone Recirculation)**: The defining primitive for PMDD. Bacterial beta-glucuronidase activity determines the magnitude of estrogen recirculation, amplifying hormonal sensitivity that is the hallmark of PMDD. This connects gut microbiome composition directly to the hormonal cyclicity of symptoms.
+- Primitive 1 (Metals as Selective Pressures): Copper-zinc ratio fluctuations across the menstrual cycle may selectively favor copper-tolerant taxa while disadvantaging zinc-dependent commensals, creating a cyclical dysbiotic pressure.
+- Primitive 5 (Two-Sided Ecological Engineering): PMDD intervention requires both restoring depleted SCFA producers (Parabacteroides, Megasphaera, Blautia) and modulating the estrobolome to reduce excessive estrogen recirculation.
+- Primitive 7 (Estrobolome and Hormone Recirculation): The defining primitive for PMDD. Bacterial beta-glucuronidase activity determines the magnitude of estrogen recirculation, amplifying hormonal sensitivity that is the hallmark of PMDD. This connects gut microbiome composition directly to the hormonal cyclicity of symptoms.

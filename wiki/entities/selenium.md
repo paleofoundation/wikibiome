@@ -18,16 +18,16 @@ source_count: 50
 
 # Selenium (Se)
 
-An essential trace element that is primarily **protective** in its biological roles. Unlike most metals in this wiki, selenium's toxicological significance lies more in the consequences of its *deficiency* than its excess. Selenium is the backbone of the **selenoproteome** -- a family of ~25 selenoproteins including glutathione peroxidases, thioredoxin reductases, and iodothyronine deiodinases -- that collectively defend against oxidative stress, regulate thyroid hormone metabolism, and modulate immune function. Selenium depletion is among the most consistent metallomic findings across cancer, cardiovascular disease, inflammatory bowel disease, and neurodegeneration, positioning it as a critical node in the metal-microbe-disease landscape.
+An essential trace element that is primarily protective in its biological roles. Unlike most metals in this wiki, selenium's toxicological significance lies more in the consequences of its *deficiency* than its excess. Selenium is the backbone of the selenoproteome -- a family of ~25 selenoproteins including glutathione peroxidases, thioredoxin reductases, and iodothyronine deiodinases -- that collectively defend against oxidative stress, regulate thyroid hormone metabolism, and modulate immune function. Selenium depletion is among the most consistent metallomic findings across cancer, cardiovascular disease, inflammatory bowel disease, and neurodegeneration, positioning it as a critical node in the metal-microbe-disease landscape.
 
 ## Chemical Properties and Forms
 
-- Metalloid (Group 16), incorporated into proteins as the amino acid **selenocysteine** (the "21st amino acid").
-- Key organic forms: **selenomethionine** (dietary, supplement), **selenocysteine** (in selenoproteins), **methylselenocysteine**.
-- Inorganic forms: **selenite** (SeO3 2-), **selenate** (SeO4 2-) -- used in some supplements.
+- Metalloid (Group 16), incorporated into proteins as the amino acid selenocysteine (the "21st amino acid").
+- Key organic forms: selenomethionine (dietary, supplement), selenocysteine (in selenoproteins), methylselenocysteine.
+- Inorganic forms: selenite (SeO3 2-), selenate (SeO4 2-) -- used in some supplements.
 - Narrow therapeutic window: deficiency below ~40 ug/day; toxicity (selenosis) above ~400 ug/day.
-- The thyroid gland contains the **highest concentration of selenium** per gram of any organ in the body [[brock-2015-selenium-thyroid-autoimmunity]].
-- IARC classification: **Group 3** (not classifiable as carcinogenic to humans) -- selenium and selenium compounds [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].
+- The thyroid gland contains the highest concentration of selenium per gram of any organ in the body [[brock-2015-selenium-thyroid-autoimmunity]].
+- IARC classification: Group 3 (not classifiable as carcinogenic to humans) -- selenium and selenium compounds [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].
 
 ## Biological Roles
 
@@ -37,27 +37,27 @@ Selenium's biological significance is mediated almost entirely through its incor
 
 | Selenoprotein | Function | Disease Relevance |
 |---|---|---|
-| **GPX1-4** (Glutathione peroxidases) | Reduce H2O2 and lipid hydroperoxides | Cancer, neurodegeneration, CKD |
-| **GPX4** | Specifically prevents membrane lipid peroxidation | [[ferroptosis]] -- loss of GPX4 is the key trigger |
-| **GPX3** | Plasma-phase extracellular antioxidant | Functional Se status marker; decreased in fibromyalgia ([[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]]) |
-| **TXNRD1/2** (Thioredoxin reductases) | Maintain thioredoxin in reduced state | Redox signaling, cancer |
-| **DIO1/2/3** (Iodothyronine deiodinases) | Convert T4 to T3 (DIO1/2) or inactivate T3 (DIO3) | [[gut-thyroid-axis|thyroid-hormone-metabolism]] |
-| **Selenoprotein P (SELENOP)** | Se transport and delivery; antioxidant | Primary Se status biomarker |
-| **Selenoprotein S (SELENOS)** | Anti-inflammatory; ER stress response | Genetic variants implicated in Hashimoto's susceptibility [[hu-rayman-2017-nutritional-factors-hashimotos-review]] |
+| GPX1-4 (Glutathione peroxidases) | Reduce H2O2 and lipid hydroperoxides | Cancer, neurodegeneration, CKD |
+| GPX4 | Specifically prevents membrane lipid peroxidation | [[ferroptosis]] -- loss of GPX4 is the key trigger |
+| GPX3 | Plasma-phase extracellular antioxidant | Functional Se status marker; decreased in fibromyalgia ([[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]]) |
+| TXNRD1/2 (Thioredoxin reductases) | Maintain thioredoxin in reduced state | Redox signaling, cancer |
+| DIO1/2/3 (Iodothyronine deiodinases) | Convert T4 to T3 (DIO1/2) or inactivate T3 (DIO3) | [[gut-thyroid-axis|thyroid-hormone-metabolism]] |
+| Selenoprotein P (SELENOP) | Se transport and delivery; antioxidant | Primary Se status biomarker |
+| Selenoprotein S (SELENOS) | Anti-inflammatory; ER stress response | Genetic variants implicated in Hashimoto's susceptibility [[hu-rayman-2017-nutritional-factors-hashimotos-review]] |
 
 ### Core Biological Functions
 
-1. **Antioxidant defense**: GPX enzymes reduce H2O2 and lipid hydroperoxides; TrxR enzymes maintain the thioredoxin system -- together they constitute the primary enzymatic antioxidant network [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
-2. **Anti-ferroptotic activity**: GPX4 specifically prevents lipid peroxidation in membranes; its loss triggers ferroptotic cell death. This mechanism links selenium deficiency directly to iron-dependent cellular damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-3. **Thyroid hormone activation**: DIO1/2 convert inactive T4 to active T3; DIO3 inactivates T3 -- Se status directly controls thyroid hormone bioavailability [[brock-2015-selenium-thyroid-autoimmunity]], [[brylinski-2025-trace-elements-thyroid-diseases]].
-4. **Immunomodulation**: Se supports regulatory T cells and suppresses Th1/Th17 responses. Supplementation increases GPx3 and selenoprotein P1; decreases MDA (oxidative stress marker); modulates anti-TPO antibody production [[kravchenko-2023-thyroid-hormones-minerals-AITD]], [[li-2025-trace-elements-autoimmune-thyroid-disease]].
-5. **H2O2 clearance in thyroid**: Thyroglobulin iodination by thyroid peroxidase (TPO) generates substantial H2O2 via DUOX1/2. GPx1, GPx3, and GPx4 neutralize this H2O2, protecting thyrocytes from oxidative damage. Without adequate selenium, thyroid tissue accumulates oxidative damage during normal hormone synthesis [[hu-rayman-2017-nutritional-factors-hashimotos-review]].
+1. Antioxidant defense: GPX enzymes reduce H2O2 and lipid hydroperoxides; TrxR enzymes maintain the thioredoxin system -- together they constitute the primary enzymatic antioxidant network [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
+2. Anti-ferroptotic activity: GPX4 specifically prevents lipid peroxidation in membranes; its loss triggers ferroptotic cell death. This mechanism links selenium deficiency directly to iron-dependent cellular damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+3. Thyroid hormone activation: DIO1/2 convert inactive T4 to active T3; DIO3 inactivates T3 -- Se status directly controls thyroid hormone bioavailability [[brock-2015-selenium-thyroid-autoimmunity]], [[brylinski-2025-trace-elements-thyroid-diseases]].
+4. Immunomodulation: Se supports regulatory T cells and suppresses Th1/Th17 responses. Supplementation increases GPx3 and selenoprotein P1; decreases MDA (oxidative stress marker); modulates anti-TPO antibody production [[kravchenko-2023-thyroid-hormones-minerals-AITD]], [[li-2025-trace-elements-autoimmune-thyroid-disease]].
+5. H2O2 clearance in thyroid: Thyroglobulin iodination by thyroid peroxidase (TPO) generates substantial H2O2 via DUOX1/2. GPx1, GPx3, and GPx4 neutralize this H2O2, protecting thyrocytes from oxidative damage. Without adequate selenium, thyroid tissue accumulates oxidative damage during normal hormone synthesis [[hu-rayman-2017-nutritional-factors-hashimotos-review]].
 
 ## Dietary and Environmental Sources
 
 ### Dietary Sources
 
-- **Brazil nuts** are the highest natural source of selenium (ranges vary widely with soil selenium, but can deliver >50 ug per nut).
+- Brazil nuts are the highest natural source of selenium (ranges vary widely with soil selenium, but can deliver >50 ug per nut).
 - Seafood, organ meats, eggs, and dairy products are reliable dietary sources.
 - Cereal selenium content varies geographically -- soils in parts of China, Finland, New Zealand, and central Europe are Se-poor, creating population-level deficiency zones [[brock-2015-selenium-thyroid-autoimmunity]].
 - Fruit juices tested in Pakistan contained measurable selenium across all categories, though the primary concern in those samples was other metals (Ni, Pb, Fe) exceeding WHO limits [[fatima-2020-heavy-metals-fruit-juices-pakistan]].
@@ -65,7 +65,7 @@ Selenium's biological significance is mediated almost entirely through its incor
 ### Infant Exposure
 
 - Infant formula selenium concentration measured at 130 ug/kg in German market samples, well below the health-based guidance value [[hopfner-2025-infant-formula-dietary-exposure-elements-germany]].
-- Selenium in human milk decreases during SARS-CoV-2 infection: **0.5-fold** reduction compared to prepandemic controls (p=0.0001), alongside reductions in iron, copper, and nickel [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
+- Selenium in human milk decreases during SARS-CoV-2 infection: 0.5-fold reduction compared to prepandemic controls (p=0.0001), alongside reductions in iron, copper, and nickel [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
 - Human milk selenium is part of the micronutrient layer of milk-mediated neonatal protection, complementing zinc, lactoferrin-iron handling, and HMOs [[sami-2023-human-milk-nutrients-preventing-nec]].
 
 ### Supplementation Forms
@@ -84,14 +84,14 @@ This is where WikiBiome's coverage departs most significantly from conventional 
 
 ### Selenium Shapes Gut Microbial Diversity
 
-- **Infant gut diversity**: In a prospective cohort of 146 mother-infant pairs, Shannon diversity in 3-month-old infants correlated **positively** with maternal selenium exposure (measured in hair) and **negatively** with copper -- suggesting selenium promotes a more diverse early-life microbial ecosystem [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]], [[xiong-2025-prenatal-trace-elements-mother-infant-gut-microbiome]].
+- Infant gut diversity: In a prospective cohort of 146 mother-infant pairs, Shannon diversity in 3-month-old infants correlated positively with maternal selenium exposure (measured in hair) and negatively with copper -- suggesting selenium promotes a more diverse early-life microbial ecosystem [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]], [[xiong-2025-prenatal-trace-elements-mother-infant-gut-microbiome]].
 - This stands in contrast to toxic metals such as copper and arsenic, which at high levels enriched antibiotic resistance genes and drove dysbiosis in the same cohort [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
 
 ### Selenium Protects Against Metal-Induced Dysbiosis
 
-- **Mercury antagonism**: Selenium directly antagonizes mercury toxicity and protects gut microbiota from mercury-induced compositional disruption. The Se-Hg binding complex is biologically inert, and the Se:Hg molar ratio determines net toxicity [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review-nutritional]], [[brock-2015-selenium-thyroid-autoimmunity]].
-- **Selenoprotein protection**: Selenium-dependent selenoproteins (GPX, TrxR) protect against the oxidative stress cascade generated by toxic metals (cadmium, lead, arsenic, mercury), which deplete glutathione through direct thiol binding [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. Selenium supplementation can partially restore antioxidant capacity in metal-exposed populations [[genchi-2020-cadmium-toxicity]].
-- **Cadmium antagonism**: Selenium binds cadmium and facilitates biliary excretion, reducing cadmium's half-life in tissues. The cadmium-selenium antagonistic interaction in pregnant women is a developing research area with implications for developmental protection [[chandravanshi-2021-developmental-cadmium-toxicity-children]], [[brock-2015-selenium-thyroid-autoimmunity]].
+- Mercury antagonism: Selenium directly antagonizes mercury toxicity and protects gut microbiota from mercury-induced compositional disruption. The Se-Hg binding complex is biologically inert, and the Se:Hg molar ratio determines net toxicity [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review-nutritional]], [[brock-2015-selenium-thyroid-autoimmunity]].
+- Selenoprotein protection: Selenium-dependent selenoproteins (GPX, TrxR) protect against the oxidative stress cascade generated by toxic metals (cadmium, lead, arsenic, mercury), which deplete glutathione through direct thiol binding [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. Selenium supplementation can partially restore antioxidant capacity in metal-exposed populations [[genchi-2020-cadmium-toxicity]].
+- Cadmium antagonism: Selenium binds cadmium and facilitates biliary excretion, reducing cadmium's half-life in tissues. The cadmium-selenium antagonistic interaction in pregnant women is a developing research area with implications for developmental protection [[chandravanshi-2021-developmental-cadmium-toxicity-children]], [[brock-2015-selenium-thyroid-autoimmunity]].
 
 ### Mercury Disrupts Selenoprotein Function
 
@@ -110,9 +110,9 @@ The selenium-mercury interaction deserves special attention because mercury toxi
 
 Selenium occupies an unusual position in the nutritional immunity framework. Unlike iron, zinc, manganese, and nickel -- which are actively sequestered by the host to starve pathogens -- selenium does not appear to function as a direct antimicrobial withholding metal. Instead, selenium supports immune function indirectly through selenoprotein-dependent pathways:
 
-- **Th1/Th2/Treg balance**: Selenium deficiency skews immune responses. Mice on high-Se diets showed increased T cell receptor signaling in CD4+ T cells and shifted balance toward Th1 phenotype. In humans, Se supplementation increases Tregs and reduces Foxp3 deficiency [[li-2025-trace-elements-autoimmune-thyroid-disease]].
-- **Anti-inflammatory selenoproteins**: Selenoprotein S (SELENOS) is a key anti-inflammatory protein in the ER stress response. Genetic variants in SELENOS are implicated in Hashimoto's thyroiditis susceptibility [[hu-rayman-2017-nutritional-factors-hashimotos-review]].
-- **Magnesium-selenium interaction**: Magnesium modulates selenium bioavailability and tissue distribution, indirectly supporting T4-to-T3 conversion as a cofactor for deiodinases. Serum Mg <0.55 mmol/L is associated with higher TgAb positivity [[li-2025-trace-elements-autoimmune-thyroid-disease]].
+- Th1/Th2/Treg balance: Selenium deficiency skews immune responses. Mice on high-Se diets showed increased T cell receptor signaling in CD4+ T cells and shifted balance toward Th1 phenotype. In humans, Se supplementation increases Tregs and reduces Foxp3 deficiency [[li-2025-trace-elements-autoimmune-thyroid-disease]].
+- Anti-inflammatory selenoproteins: Selenoprotein S (SELENOS) is a key anti-inflammatory protein in the ER stress response. Genetic variants in SELENOS are implicated in Hashimoto's thyroiditis susceptibility [[hu-rayman-2017-nutritional-factors-hashimotos-review]].
+- Magnesium-selenium interaction: Magnesium modulates selenium bioavailability and tissue distribution, indirectly supporting T4-to-T3 conversion as a cofactor for deiodinases. Serum Mg <0.55 mmol/L is associated with higher TgAb positivity [[li-2025-trace-elements-autoimmune-thyroid-disease]].
 
 ## Conditions Associated
 
@@ -120,47 +120,47 @@ Selenium occupies an unusual position in the nutritional immunity framework. Unl
 
 The selenium-thyroid axis is among the most clinically significant and well-evidenced associations in trace element medicine.
 
-**Hashimoto's thyroiditis:**
+Hashimoto's thyroiditis:
 - Se levels are significantly lower in HT patients (104.36 ug/l) and GD patients (97.68 ug/l) compared to controls (122.63 ug/l, P<0.001) [[li-2025-trace-elements-autoimmune-thyroid-disease]].
-- **Network meta-analysis of 7 RCTs**: Selenium supplementation (200 ug/day selenomethionine) significantly reduced TPOAb (SMD -2.44, 95% CI -4.19 to -0.69) and TgAb (SMD -2.76, 95% CI -4.50 to -1.02) in euthyroid Hashimoto's patients. A 6-month treatment duration was required for detectable effects; 3-month studies were insufficient [[peng-2024-supplements-hashimotos-network-meta-analysis]].
+- Network meta-analysis of 7 RCTs: Selenium supplementation (200 ug/day selenomethionine) significantly reduced TPOAb (SMD -2.44, 95% CI -4.19 to -0.69) and TgAb (SMD -2.76, 95% CI -4.50 to -1.02) in euthyroid Hashimoto's patients. A 6-month treatment duration was required for detectable effects; 3-month studies were insufficient [[peng-2024-supplements-hashimotos-network-meta-analysis]].
 - A separate meta-analysis confirmed Se supplementation reduced FT3 (MD=-0.40, P=0.009), FT4 (MD=-0.76, P=0.07), and TPOAb (MD=-150.25, P<0.00001) [[li-2025-trace-elements-autoimmune-thyroid-disease]].
 - Se monotherapy (83 ug/day selenomethionine, 196 patients, 4 months) normalized TSH in 17.2% of subjects [[li-2025-trace-elements-autoimmune-thyroid-disease]].
 - Combined selenomethionine + myoinositol reduced TSH, TPOAb, and TgAb after 6 and 12 months [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 - Se is essential for GPx-mediated H2O2 clearance during thyroglobulin iodination; selenoprotein S genetic variants are implicated in HT risk [[hu-rayman-2017-nutritional-factors-hashimotos-review]].
 - Greatest antibody reduction (40%) seen in those with anti-TPO >1200 IU/mL [[brock-2015-selenium-thyroid-autoimmunity]].
 
-**Graves' disease and ophthalmopathy:**
+Graves' disease and ophthalmopathy:
 - GD patients with ophthalmopathy have even lower Se (96.82 ug/dL) than GD patients without (94.53 ug/dL) vs. controls (102.55 ug/dL) [[li-2025-trace-elements-autoimmune-thyroid-disease]].
 - Double-blind RCT: 200 ug Se/day for 6 months significantly decreased GO severity, improved quality of life; benefits persisted after withdrawal [[brock-2015-selenium-thyroid-autoimmunity]].
 - Se deficiency is an independent risk factor for Graves' ophthalmopathy [[brock-2015-selenium-thyroid-autoimmunity]].
 
-**Pregnancy:**
+Pregnancy:
 - Selenomethionine 200 ug/day during pregnancy and postpartum decreased risk of permanent hypothyroidism and postpartum thyroiditis [[brock-2015-selenium-thyroid-autoimmunity]].
 - The iodine-selenium interaction is clinically important: in combined Se and iodine deficiency, normalizing Se without iodine worsens hypothyroidism; Se co-administration maintains GPx function during iodine repletion [[brock-2015-selenium-thyroid-autoimmunity]].
 
-**Hashimoto's and thyroid cancer:**
+Hashimoto's and thyroid cancer:
 - In a meta-analysis of 65 studies (n=47,237), coexisting HT in papillary thyroid carcinoma (PTC) patients was associated with lower risk of lymph node metastasis (OR 0.787), distant metastasis (OR 0.435), and better 20-year survival (OR 1.396). Selenium status is a candidate mediator of this protective effect, alongside the immune microenvironment created by HT lymphocytic infiltration [[tang-2022-hashimotos-papillary-thyroid-carcinoma-meta-analysis]].
 
 ### Cancer
 
 Selenium depletion is one of the most consistent findings across cancer metallomic studies.
 
-- **Pan-cancer metallomic pattern**: Se tends to decrease across cancer types in blood/serum/plasma, alongside Cu elevation and Zn depletion. Selenoprotein gene variants (GPX1, GPX4, TXNRD1/2) are associated with cancer risk and susceptibility [[zhang-2022-metallomics-cancer-review]].
-- **Prostate cancer**: Se significantly decreased (0.07 vs 0.13 ug/ml, p<0.005); low Se correlates with carcinogenesis risk through impaired antioxidant defense [[saleh-2020-serum-trace-elements-prostate-cancer]].
-- **Hepatocellular carcinoma**: In non-cirrhotic HCC, tumor tissue shows metal depletion relative to non-tumoral liver for most elements including selenium, suggesting cancer cells systematically modulate their metal metabolism. Se concentration in tumor tissue was associated with extended survival **only in the Peruvian cohort** (above 1.48 ug/g: mean survival 323 weeks vs. 50 weeks below threshold, p=0.048) [[cano-2021-metallomic-profile-hepatocellular-carcinoma]].
-- **Lung cancer/COPD**: Se elevated 1.23-fold in the COPD-to-lung-cancer transition group vs. healthy controls; the normally strong Zn-Se correlation (rho=0.69) is disrupted in disease states [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
-- **Breast cancer**: Decreased Se reported in multiple metallomic studies alongside elevated Cu [[zhang-2022-metallomics-cancer-review]]. However, a large prospective study (Sister Study, n=1,495 cases) using toenail biomarkers found **little evidence** for individual metal-breast cancer associations; the authors note toenail Se reflects longer-term exposure (6-12 months) which may explain discrepancies with blood/serum studies [[niehoff-2021-metals-breast-cancer-toenail]].
-- **Cadmium-selenium interaction in breast cancer**: Selenium may have a modified protective effect against cadmium-driven breast carcinogenesis, where cadmium acts as a metalloestrogen by binding ERa (Kd = 4.5x10^-10 M) [[tarhonska-2022-cadmium-breast-cancer-mechanisms]].
+- Pan-cancer metallomic pattern: Se tends to decrease across cancer types in blood/serum/plasma, alongside Cu elevation and Zn depletion. Selenoprotein gene variants (GPX1, GPX4, TXNRD1/2) are associated with cancer risk and susceptibility [[zhang-2022-metallomics-cancer-review]].
+- Prostate cancer: Se significantly decreased (0.07 vs 0.13 ug/ml, p<0.005); low Se correlates with carcinogenesis risk through impaired antioxidant defense [[saleh-2020-serum-trace-elements-prostate-cancer]].
+- Hepatocellular carcinoma: In non-cirrhotic HCC, tumor tissue shows metal depletion relative to non-tumoral liver for most elements including selenium, suggesting cancer cells systematically modulate their metal metabolism. Se concentration in tumor tissue was associated with extended survival only in the Peruvian cohort (above 1.48 ug/g: mean survival 323 weeks vs. 50 weeks below threshold, p=0.048) [[cano-2021-metallomic-profile-hepatocellular-carcinoma]].
+- Lung cancer/COPD: Se elevated 1.23-fold in the COPD-to-lung-cancer transition group vs. healthy controls; the normally strong Zn-Se correlation (rho=0.69) is disrupted in disease states [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
+- Breast cancer: Decreased Se reported in multiple metallomic studies alongside elevated Cu [[zhang-2022-metallomics-cancer-review]]. However, a large prospective study (Sister Study, n=1,495 cases) using toenail biomarkers found little evidence for individual metal-breast cancer associations; the authors note toenail Se reflects longer-term exposure (6-12 months) which may explain discrepancies with blood/serum studies [[niehoff-2021-metals-breast-cancer-toenail]].
+- Cadmium-selenium interaction in breast cancer: Selenium may have a modified protective effect against cadmium-driven breast carcinogenesis, where cadmium acts as a metalloestrogen by binding ERa (Kd = 4.5x10^-10 M) [[tarhonska-2022-cadmium-breast-cancer-mechanisms]].
 
 ### Cardiovascular Disease
 
-- Se **decreased** in AMI patients (90.31 vs. 99.98 ng/mL, p<0.01), with **persistent depression at 6 months** post-event [[lim-2023-plasma-metallomics-ami]].
-- **Cu/Se ratio** increased in AMI and showed significant longitudinal trajectory; identified as one of the most specific AMI biomarkers. A 10-feature random forest model incorporating metallomic ratios (Cu/Se, Fe/Cu) with traditional risk factors achieved AUC 0.942 [[lim-2023-plasma-metallomics-ami]].
+- Se decreased in AMI patients (90.31 vs. 99.98 ng/mL, p<0.01), with persistent depression at 6 months post-event [[lim-2023-plasma-metallomics-ami]].
+- Cu/Se ratio increased in AMI and showed significant longitudinal trajectory; identified as one of the most specific AMI biomarkers. A 10-feature random forest model incorporating metallomic ratios (Cu/Se, Fe/Cu) with traditional risk factors achieved AUC 0.942 [[lim-2023-plasma-metallomics-ami]].
 - Cu elevated and Se decreased represents a consistent cardiovascular risk metallomic signature [[lim-2023-plasma-metallomics-ami]].
 
 ### Inflammatory Bowel Disease
 
-- In a Greek cross-sectional study (76 CD + 39 UC + 38 HC), **plasma selenium was significantly lower** in both Crohn's disease (50 ug/L) and ulcerative colitis (44 ug/L) compared to healthy controls (77 ug/L, p=0.009) [[amerikanou-2022-ibd-biomarkers-trace-metals]].
+- In a Greek cross-sectional study (76 CD + 39 UC + 38 HC), plasma selenium was significantly lower in both Crohn's disease (50 ug/L) and ulcerative colitis (44 ug/L) compared to healthy controls (77 ug/L, p=0.009) [[amerikanou-2022-ibd-biomarkers-trace-metals]].
 - Manganese, zinc, and strontium were also depleted in IBD, while nickel was elevated in active Crohn's disease [[amerikanou-2022-ibd-biomarkers-trace-metals]].
 - The selenium depletion in IBD parallels findings across autoimmune conditions and may reflect both malabsorption from inflamed gut epithelium and increased antioxidant demand from chronic inflammation.
 
@@ -182,7 +182,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 
 ### Fibromyalgia
 
-- In a multi-omics study (199 FM patients + 43 controls), **GPX3** (selenium-dependent glutathione peroxidase-3) was decreased to 0.85-fold in fibromyalgia plasma, alongside 2.05-fold elevation of zinc-alpha-2-glycoprotein (ZA2G). This links FM to impaired selenium-dependent antioxidant capacity [[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]].
+- In a multi-omics study (199 FM patients + 43 controls), GPX3 (selenium-dependent glutathione peroxidase-3) was decreased to 0.85-fold in fibromyalgia plasma, alongside 2.05-fold elevation of zinc-alpha-2-glycoprotein (ZA2G). This links FM to impaired selenium-dependent antioxidant capacity [[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]].
 - A Mendelian randomization study (n>400,000) found no significant causal association for selenium and FM risk, though copper was positively associated and iron inversely associated [[zeng-2025-copper-iron-trace-elements-fibromyalgia-mr]].
 
 ### COVID-19 and Long COVID
@@ -248,22 +248,22 @@ Mg modulates Se bioavailability and tissue distribution; indirectly supports T4-
 
 | Biomarker | What it measures | Clinical context |
 |---|---|---|
-| **Plasma/serum Se** | Total circulating selenium | Decreased in AMI (persistent at 6 months), prostate cancer, IBD, and other malignancies [[lim-2023-plasma-metallomics-ami]], [[saleh-2020-serum-trace-elements-prostate-cancer]], [[amerikanou-2022-ibd-biomarkers-trace-metals]] |
-| **Cu/Se ratio** | Oxidative stress balance | Elevated in AMI; tracks longitudinally; incorporated into a 10-feature random forest model achieving AUC 0.942 [[lim-2023-plasma-metallomics-ami]] |
-| **Selenoprotein P** | Functional Se status | Reflects Se available for selenoprotein synthesis rather than total Se |
-| **GPX3 activity** | Se-dependent extracellular antioxidant capacity | Decreased to 0.85-fold in fibromyalgia [[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]]; functional marker in AITD [[kravchenko-2023-thyroid-hormones-minerals-AITD]] |
-| **Anti-TPO antibodies** | Thyroid autoimmune response | Response to Se supplementation serves as clinical endpoint in thyroid autoimmunity trials (SMD -2.44 reduction) [[peng-2024-supplements-hashimotos-network-meta-analysis]] |
-| **Urinary Se** | Renal Se handling | Associated with kidney function decline in prospective studies (HR 1.48), likely reflecting filtration dynamics [[xie-2025-urinary-metals-trace-elements-kidney-function]] |
-| **Hair Se** | Chronic Se exposure | Used in prenatal/maternal studies; correlates with infant gut microbial diversity [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]] |
+| Plasma/serum Se | Total circulating selenium | Decreased in AMI (persistent at 6 months), prostate cancer, IBD, and other malignancies [[lim-2023-plasma-metallomics-ami]], [[saleh-2020-serum-trace-elements-prostate-cancer]], [[amerikanou-2022-ibd-biomarkers-trace-metals]] |
+| Cu/Se ratio | Oxidative stress balance | Elevated in AMI; tracks longitudinally; incorporated into a 10-feature random forest model achieving AUC 0.942 [[lim-2023-plasma-metallomics-ami]] |
+| Selenoprotein P | Functional Se status | Reflects Se available for selenoprotein synthesis rather than total Se |
+| GPX3 activity | Se-dependent extracellular antioxidant capacity | Decreased to 0.85-fold in fibromyalgia [[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]]; functional marker in AITD [[kravchenko-2023-thyroid-hormones-minerals-AITD]] |
+| Anti-TPO antibodies | Thyroid autoimmune response | Response to Se supplementation serves as clinical endpoint in thyroid autoimmunity trials (SMD -2.44 reduction) [[peng-2024-supplements-hashimotos-network-meta-analysis]] |
+| Urinary Se | Renal Se handling | Associated with kidney function decline in prospective studies (HR 1.48), likely reflecting filtration dynamics [[xie-2025-urinary-metals-trace-elements-kidney-function]] |
+| Hair Se | Chronic Se exposure | Used in prenatal/maternal studies; correlates with infant gut microbial diversity [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]] |
 
 ## Key Studies
 
-- **Peng 2024**: Network meta-analysis of 10 RCTs establishing Se as the most effective supplement for reducing TPOAb and TgAb in euthyroid Hashimoto's patients, requiring 6-month treatment duration [[peng-2024-supplements-hashimotos-network-meta-analysis]].
-- **Lim 2023**: Prospective plasma metallomics study identifying Cu/Se ratio as a longitudinal AMI biomarker within a 10-feature model achieving AUC 0.942 [[lim-2023-plasma-metallomics-ami]].
-- **Cano 2021**: Tissue metallomics of HCC demonstrating tumor Se concentration predicts survival in Peruvian cohort (323 vs. 50 weeks) [[cano-2021-metallomic-profile-hepatocellular-carcinoma]].
-- **Xiong 2025**: Nature Communications study demonstrating maternal Se exposure positively correlates with infant gut microbial diversity -- first direct evidence linking selenium to early-life microbiome development [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
-- **Amerikanou 2022**: Cross-sectional study quantifying Se depletion in both CD (50 ug/L) and UC (44 ug/L) vs. controls (77 ug/L, p=0.009) [[amerikanou-2022-ibd-biomarkers-trace-metals]].
-- **Duran-Gonzalez 2025**: Multi-omics fibromyalgia study identifying GPX3 (Se-dependent) as a depressed protein biomarker alongside zinc-alpha-2-glycoprotein [[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]].
+- Peng 2024: Network meta-analysis of 10 RCTs establishing Se as the most effective supplement for reducing TPOAb and TgAb in euthyroid Hashimoto's patients, requiring 6-month treatment duration [[peng-2024-supplements-hashimotos-network-meta-analysis]].
+- Lim 2023: Prospective plasma metallomics study identifying Cu/Se ratio as a longitudinal AMI biomarker within a 10-feature model achieving AUC 0.942 [[lim-2023-plasma-metallomics-ami]].
+- Cano 2021: Tissue metallomics of HCC demonstrating tumor Se concentration predicts survival in Peruvian cohort (323 vs. 50 weeks) [[cano-2021-metallomic-profile-hepatocellular-carcinoma]].
+- Xiong 2025: Nature Communications study demonstrating maternal Se exposure positively correlates with infant gut microbial diversity -- first direct evidence linking selenium to early-life microbiome development [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
+- Amerikanou 2022: Cross-sectional study quantifying Se depletion in both CD (50 ug/L) and UC (44 ug/L) vs. controls (77 ug/L, p=0.009) [[amerikanou-2022-ibd-biomarkers-trace-metals]].
+- Duran-Gonzalez 2025: Multi-omics fibromyalgia study identifying GPX3 (Se-dependent) as a depressed protein biomarker alongside zinc-alpha-2-glycoprotein [[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]].
 
 ## Open Questions
 

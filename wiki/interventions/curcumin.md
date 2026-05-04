@@ -3,12 +3,19 @@ title: "Curcumin"
 type: intervention
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: []
+last_substantive_update: 2026-04-22
+sources:
+  - ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential
+  - kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility
+  - appunni-2021-dietary-factors-gut-microbiome-crc
+  - sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy
+  - martin-2015-dietary-polyphenols-ibd-models
+  - bucciero-2026-diet-ms-oxidative-stress-nrf2
+  - magri-2018-multidisciplinary-prostatitis
+  - wentz-2015-hashimotos-root-cause-lifestyle-interventions
 tags: [polyphenol, anti-inflammatory, antioxidant, turmeric]
 intervention_class: supplement
 cureva_status: in-progress
-stub: true
 
 triangles: []
 
@@ -26,7 +33,7 @@ karen_brain_primitives: [3, 5]
 
 ## Overview
 
-**Curcumin** is discussed across 4 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
+Curcumin is discussed across 4 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
 
 ## Triangle Evidence
 

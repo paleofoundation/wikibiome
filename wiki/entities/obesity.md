@@ -5,8 +5,8 @@ type: entity
 subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
-sources: [pendergrass-2026-heavy-metals-obesity-epidemic, lusi-2015-nickel-allergy-overweight, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome, dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, ross-2024-diet-gut-microbiome-interplay-health-disease, lombardi-2020-snas-probiotics-dysbiosis, lu-2024-nickel-diabetes-meta-analysis]
-source_count: 9
+sources: [pendergrass-2026-heavy-metals-obesity-epidemic, lusi-2015-nickel-allergy-overweight, ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions, de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome, dixon-2020-probiotics-cvd-risk-systematic-review-meta-analysis, hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic, ross-2024-diet-gut-microbiome-interplay-health-disease, lombardi-2020-snas-probiotics-dysbiosis, lu-2024-nickel-diabetes-meta-analysis, alcock-2014-microbiota-manipulate-eating-behavior, gupta-2020-brain-gut-microbiome-obesity-food-addiction]
+source_count: 11
 tags: [obesity, BMI, Firmicutes-Bacteroidetes-ratio, nickel-allergy, low-nickel-diet, heavy-metals, obesogens, SCFA, dysbiosis, adipose-inflammation, insulin-resistance, TMAO, metabolic-syndrome]
 platform: wikibiome
 last_substantive_update: 2026-04-13
@@ -32,7 +32,7 @@ A chronic metabolic condition affecting over 1 billion people globally, characte
 ### Functional Dysbiosis
 - Obese microbiome has increased capacity for energy harvest from dietary polysaccharides [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]].
 - Depleted [[short-chain-fatty-acids]] producers, particularly butyrate-producing Roseburia, [[faecalibacterium-prausnitzii]], and [[oscillospiraceae|Oscillospiraceae]] [[pendergrass-2026-heavy-metals-obesity-epidemic]].
-- **Akkermansia muciniphila depletion** is a hallmark obesity signature; restoration improves mucin layer integrity, reduces metabolic endotoxemia, and ameliorates adipose inflammation [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
+- Akkermansia muciniphila depletion is a hallmark obesity signature; restoration improves mucin layer integrity, reduces metabolic endotoxemia, and ameliorates adipose inflammation [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
 - Enriched Enterobacteriaceae and LPS-producing gram-negative species [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - Reduced microbial diversity correlates with metabolic dysfunction severity [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 
@@ -44,15 +44,15 @@ A chronic metabolic condition affecting over 1 billion people globally, characte
 ## The Nickel-Allergy-Obesity Connection
 
 One of the most striking findings in this wiki:
-- **59.7% of overweight women** (BMI >26) are nickel-allergic, compared to 12.5% in the general female population (p<0.001) [[lusi-2015-nickel-allergy-overweight]].
+- 59.7% of overweight women (BMI >26) are nickel-allergic, compared to 12.5% in the general female population (p<0.001) [[lusi-2015-nickel-allergy-overweight]].
 - In overweight patients with [[metabolic-syndrome]] and liver steatosis, [[nickel-allergy]] prevalence reaches 61.1%.
-- A normocaloric [[low-nickel-diet]] produced dramatic results: **BMI decrease of 4.2**, body fat decrease of 5.1%, waist circumference decrease of 11.7 cm over 6 months -- without caloric restriction [[lusi-2015-nickel-allergy-overweight]].
+- A normocaloric [[low-nickel-diet]] produced dramatic results: BMI decrease of 4.2, body fat decrease of 5.1%, waist circumference decrease of 11.7 cm over 6 months -- without caloric restriction [[lusi-2015-nickel-allergy-overweight]].
 
 ### Proposed Mechanisms
-- **IL-17/Th17 pathway**: Nickel-specific T cells produce IL-17, which is independently upregulated in obesity and drives chronic metabolic inflammation and [[insulin-resistance]].
-- **Metalloestrogen effects**: [[nickel]] activates estrogen receptors [[metalloestrogens]], promoting adipose accumulation -- explaining the sex-specific prevalence pattern.
-- **Gut microbiota disruption**: Dietary nickel alters the [[gut-metal-microbiome]], shifting metabolism toward increased energy harvest and impaired SCFA profiles.
-- **Insulin-like effects**: Nickel induces insulin-like actions, promotes glycogenolysis, and causes hyperglycemia in animal models [[lusi-2015-nickel-allergy-overweight]].
+- IL-17/Th17 pathway: Nickel-specific T cells produce IL-17, which is independently upregulated in obesity and drives chronic metabolic inflammation and [[insulin-resistance]].
+- Metalloestrogen effects: [[nickel]] activates estrogen receptors [[metalloestrogens]], promoting adipose accumulation -- explaining the sex-specific prevalence pattern.
+- Gut microbiota disruption: Dietary nickel alters the [[gut-metal-microbiome]], shifting metabolism toward increased energy harvest and impaired SCFA profiles.
+- Insulin-like effects: Nickel induces insulin-like actions, promotes glycogenolysis, and causes hyperglycemia in animal models [[lusi-2015-nickel-allergy-overweight]].
 
 ## Heavy Metals as Obesogens: The Pendergrass Framework
 

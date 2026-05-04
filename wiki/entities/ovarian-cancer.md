@@ -64,7 +64,7 @@ Ferroptosis -- iron-dependent regulated cell death driven by lipid peroxidation 
 
 ### Distinct Tumor-Associated Microbiome
 - Ovarian cancer tissues harbor a distinct microbiome compared to normal ovarian tissue and adjacent peritoneum
-- **Fusobacterium** enrichment has been documented in ovarian cancer tissue, paralleling its well-established role in colorectal cancer
+- Fusobacterium enrichment has been documented in ovarian cancer tissue, paralleling its well-established role in colorectal cancer
 - *Fusobacterium nucleatum* promotes tumor progression through FadA adhesin binding to E-cadherin, activating beta-catenin signaling and NF-kB-mediated inflammation
 - See [[fusobacterium]] for detailed mechanisms
 
@@ -83,11 +83,11 @@ Ferroptosis -- iron-dependent regulated cell death driven by lipid peroxidation 
 
 | Source | Metals | Relevance |
 |--------|--------|-----------|
-| **Smoking** | Cd (primary) | 35-50% higher Cd body burden in smokers |
-| **Diet** | Cd, As, Ni | Contaminated soils, rice, shellfish, leafy greens |
-| **Occupational** | Cd, Ni, As | Battery production, smelting, electronics |
-| **Talc** | As, trace metals | Historical concern for perineal talc use |
-| **Water** | As | Arsenic-contaminated groundwater in endemic areas |
+| Smoking | Cd (primary) | 35-50% higher Cd body burden in smokers |
+| Diet | Cd, As, Ni | Contaminated soils, rice, shellfish, leafy greens |
+| Occupational | Cd, Ni, As | Battery production, smelting, electronics |
+| Talc | As, trace metals | Historical concern for perineal talc use |
+| Water | As | Arsenic-contaminated groundwater in endemic areas |
 
 ## Open Questions
 

@@ -4,13 +4,19 @@ type: entity
 subtype: microbe
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - cilia-2020-microbiome-gut-dietary-interventions-parkinsons
+  - xu-2026-gut-prostate-axis-bph-systematic-review
+  - saresella-2020-fatty-acids-dysbiosis-inflammation-ms
+  - loganathan-2025-gut-microbiota-gut-brain-axis-breast-cancer-chemotherapy
+  - morse-2023-virus-induced-dysbiosis-t1d
+  - weir-2013-stool-microbiome-metabolome-crc-healthy
+  - latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet
+  - rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals
+source_count: 8
 tags: [commensal, mucin-degrading, gut-barrier, next-generation-probiotic, Verrucomicrobia]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "Akkermansia mucinicola sister species muciniphila gut microbiome"
 wikipedia_differentiation: "Contextualizes A. mucinicola within the metallomics framework as a second mucin-degrading Akkermansia species with potential differential metal sensitivity"
 gram_stain: "negative"
@@ -36,9 +42,9 @@ A Gram-negative, obligate anaerobic, mucin-degrading bacterium first isolated fr
 
 Both *Akkermansia* species share core functional traits that make the genus a keystone of gut barrier integrity:
 
-- **Mucin degradation**: Both utilize mucin glycoproteins (MUC2) as primary substrates, producing [[short-chain-fatty-acids]] (primarily acetate and propionate) that feed butyrate-producing cross-feeding partners like [[faecalibacterium-prausnitzii]] and [[eubacterium-rectale]].
-- **Barrier stimulation**: Mucin turnover by *Akkermansia* species paradoxically stimulates goblet cell mucin secretion, maintaining a thicker, healthier mucus layer.
-- **Immune modulation**: Outer membrane proteins from *Akkermansia* species interact with Toll-like receptor 2 (TLR2), promoting anti-inflammatory signaling.
+- Mucin degradation: Both utilize mucin glycoproteins (MUC2) as primary substrates, producing [[short-chain-fatty-acids]] (primarily acetate and propionate) that feed butyrate-producing cross-feeding partners like [[faecalibacterium-prausnitzii]] and [[eubacterium-rectale]].
+- Barrier stimulation: Mucin turnover by *Akkermansia* species paradoxically stimulates goblet cell mucin secretion, maintaining a thicker, healthier mucus layer.
+- Immune modulation: Outer membrane proteins from *Akkermansia* species interact with Toll-like receptor 2 (TLR2), promoting anti-inflammatory signaling.
 
 ## Potential Differential Metal Sensitivity
 

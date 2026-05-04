@@ -22,46 +22,46 @@ conditions_depleted_in: []
 
 # Enterococcus faecalis
 
-***Enterococcus faecalis*** is a Gram-positive, facultatively anaerobic coccus that inhabits the gastrointestinal tract, oral cavity, and genitourinary tract of humans. It is a commensal in the healthy gut at low abundance but is one of the most clinically significant **opportunistic pathogens**, causing urinary tract infections, bacteremia, endocarditis, and surgical site infections -- particularly in hospital settings where vancomycin-resistant enterococci (VRE) are a critical public health threat.
+*Enterococcus faecalis* is a Gram-positive, facultatively anaerobic coccus that inhabits the gastrointestinal tract, oral cavity, and genitourinary tract of humans. It is a commensal in the healthy gut at low abundance but is one of the most clinically significant opportunistic pathogens, causing urinary tract infections, bacteremia, endocarditis, and surgical site infections -- particularly in hospital settings where vancomycin-resistant enterococci (VRE) are a critical public health threat.
 
-From a WikiBiome perspective, *E. faecalis* is remarkable for two reasons that Wikipedia does not cover well: its role in an **interspecies drug-degradation pathway** that reduces levodopa efficacy in Parkinson's disease, and its **superoxide-mediated DNA damage** that contributes to colorectal carcinogenesis. Both mechanisms illustrate how a single commensal-turned-pathogen can influence diseases far removed from traditional infectious disease.
+From a WikiBiome perspective, *E. faecalis* is remarkable for two reasons that Wikipedia does not cover well: its role in an interspecies drug-degradation pathway that reduces levodopa efficacy in Parkinson's disease, and its superoxide-mediated DNA damage that contributes to colorectal carcinogenesis. Both mechanisms illustrate how a single commensal-turned-pathogen can influence diseases far removed from traditional infectious disease.
 
 ## Metal Dependencies
 
 *E. faecalis* has a sophisticated relationship with metals:
 
-- **Manganese**: Unlike most bacteria that rely primarily on iron, *E. faecalis* uses **manganese** as a key cofactor for superoxide dismutase (MnSOD) and as a substitute for iron in many metabolic enzymes. This manganese-centered metabolism makes it inherently resistant to iron limitation by the host (nutritional immunity).
-- **Iron**: Required for some redox enzymes but not as critical as for most Gram-negatives, contributing to *E. faecalis* resilience in iron-restricted environments.
-- **Zinc susceptibility**: *E. faecalis* is susceptible to **zinc-enhanced antimicrobial strategies**. A zinc-potentiated halogenated phenazine disrupted metal homeostasis in *E. faecalis* by causing intracellular zinc and iron accumulation, manganese depletion, and ultimately bacterial killing. This mis-metallation mechanism represents a novel antimicrobial approach ([[kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive]], in-vitro).
+- Manganese: Unlike most bacteria that rely primarily on iron, *E. faecalis* uses manganese as a key cofactor for superoxide dismutase (MnSOD) and as a substitute for iron in many metabolic enzymes. This manganese-centered metabolism makes it inherently resistant to iron limitation by the host (nutritional immunity).
+- Iron: Required for some redox enzymes but not as critical as for most Gram-negatives, contributing to *E. faecalis* resilience in iron-restricted environments.
+- Zinc susceptibility: *E. faecalis* is susceptible to zinc-enhanced antimicrobial strategies. A zinc-potentiated halogenated phenazine disrupted metal homeostasis in *E. faecalis* by causing intracellular zinc and iron accumulation, manganese depletion, and ultimately bacterial killing. This mis-metallation mechanism represents a novel antimicrobial approach ([[kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive]], in-vitro).
 
 ## Key Enzymes and Virulence Factors
 
-- **Tyrosine decarboxylase (TyrDC)**: The enzyme that converts L-DOPA (levodopa) to dopamine in the gut. This is the first step of an interspecies relay where *E. faecalis* produces dopamine, which is then dehydroxylated to m-tyramine by [[eggerthella|Eggerthella lenta]]. The combined pathway significantly reduces levodopa bioavailability in Parkinson's patients. AFMT (alpha-fluoromethyltyrosine) can selectively inhibit bacterial TyrDC without affecting host DOPA decarboxylase ([[maini-rekdal-2019-microbiome-drug-interactions-parkinsons]], in-vitro).
-- **Extracellular superoxide**: *E. faecalis* produces **extracellular superoxide and hydrogen peroxide** that generate reactive oxygen species (ROS), causing oxidative DNA damage in nearby colonocytes. This mechanism contributes to genomic instability and colorectal carcinogenesis ([[hanus-2021-immune-microbiota-metabolites-crc-triad]], expert-opinion).
-- **Cytolysin**: A two-peptide bacteriocin/toxin that lyses eukaryotic cells and is associated with increased disease severity in enterococcal infections.
-- **Gelatinase (GelE)**: A metalloprotease that degrades host tissue proteins, facilitating invasion and biofilm maturation.
-- **Biofilm formation**: *E. faecalis* forms robust biofilms on medical devices and mucosal surfaces, contributing to antibiotic tolerance and chronic infection.
+- Tyrosine decarboxylase (TyrDC): The enzyme that converts L-DOPA (levodopa) to dopamine in the gut. This is the first step of an interspecies relay where *E. faecalis* produces dopamine, which is then dehydroxylated to m-tyramine by [[eggerthella|Eggerthella lenta]]. The combined pathway significantly reduces levodopa bioavailability in Parkinson's patients. AFMT (alpha-fluoromethyltyrosine) can selectively inhibit bacterial TyrDC without affecting host DOPA decarboxylase ([[maini-rekdal-2019-microbiome-drug-interactions-parkinsons]], in-vitro).
+- Extracellular superoxide: *E. faecalis* produces extracellular superoxide and hydrogen peroxide that generate reactive oxygen species (ROS), causing oxidative DNA damage in nearby colonocytes. This mechanism contributes to genomic instability and colorectal carcinogenesis ([[hanus-2021-immune-microbiota-metabolites-crc-triad]], expert-opinion).
+- Cytolysin: A two-peptide bacteriocin/toxin that lyses eukaryotic cells and is associated with increased disease severity in enterococcal infections.
+- Gelatinase (GelE): A metalloprotease that degrades host tissue proteins, facilitating invasion and biofilm maturation.
+- Biofilm formation: *E. faecalis* forms robust biofilms on medical devices and mucosal surfaces, contributing to antibiotic tolerance and chronic infection.
 
 ## Ecological Role
 
 In the healthy gut, *E. faecalis* is a minor member of the Firmicutes community, kept in check by competitive exclusion from dominant anaerobes and antimicrobial peptides. It becomes ecologically significant when:
 
-- **Antibiotic disruption**: Broad-spectrum antibiotics (especially vancomycin, paradoxically) can eliminate competing commensals and allow *E. faecalis* expansion. In EAE (MS model), *E. faecalis* did not ameliorate neuroinflammation when administered, confirming it lacks the anti-inflammatory properties of beneficial commensals ([[bianchimano-2022-vancomycin-gut-commensals-neuroinflammation-eae]], animal-model).
-- **Inflammation**: Enriched in IBD, particularly UC, where disrupted barrier function and oxidative stress create favorable conditions.
-- **Reproductive tract dysbiosis**: Significantly enriched in the vaginal and intestinal microbiota of women with adenomyosis and infertility ([[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]], cross-sectional).
+- Antibiotic disruption: Broad-spectrum antibiotics (especially vancomycin, paradoxically) can eliminate competing commensals and allow *E. faecalis* expansion. In EAE (MS model), *E. faecalis* did not ameliorate neuroinflammation when administered, confirming it lacks the anti-inflammatory properties of beneficial commensals ([[bianchimano-2022-vancomycin-gut-commensals-neuroinflammation-eae]], animal-model).
+- Inflammation: Enriched in IBD, particularly UC, where disrupted barrier function and oxidative stress create favorable conditions.
+- Reproductive tract dysbiosis: Significantly enriched in the vaginal and intestinal microbiota of women with adenomyosis and infertility ([[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]], cross-sectional).
 
 ## Conditions Associated
 
 ### Enriched in:
 
-- **Colorectal cancer**: Cataloged as a pro-tumor bacterium through extracellular superoxide/ROS-mediated DNA damage, contributing to genomic instability ([[hanus-2021-immune-microbiota-metabolites-crc-triad]], expert-opinion; [[xu-2022-fmt-antitumor-cancer-immunotherapy]], expert-opinion).
-- **Adenomyosis/infertility**: Enriched in vaginal and intestinal microbiota of women with adenomyosis alongside *E. coli*, *S. epidermidis*, and *Candida* ([[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]], cross-sectional).
-- **Ulcerative colitis**: Markedly elevated in UC patients, distinguishing UC from CD taxonomically ([[kang-2023-diagnosis-crohns-uc-microbiome]], cross-sectional).
-- **Pancreatic cancer**: Found in duodenal microbiota of PC patients ([[pourali-2024-microbiome-biomarker-therapeutic-target-pancreatic-cancer]], expert-opinion).
+- Colorectal cancer: Cataloged as a pro-tumor bacterium through extracellular superoxide/ROS-mediated DNA damage, contributing to genomic instability ([[hanus-2021-immune-microbiota-metabolites-crc-triad]], expert-opinion; [[xu-2022-fmt-antitumor-cancer-immunotherapy]], expert-opinion).
+- Adenomyosis/infertility: Enriched in vaginal and intestinal microbiota of women with adenomyosis alongside *E. coli*, *S. epidermidis*, and *Candida* ([[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]], cross-sectional).
+- Ulcerative colitis: Markedly elevated in UC patients, distinguishing UC from CD taxonomically ([[kang-2023-diagnosis-crohns-uc-microbiome]], cross-sectional).
+- Pancreatic cancer: Found in duodenal microbiota of PC patients ([[pourali-2024-microbiome-biomarker-therapeutic-target-pancreatic-cancer]], expert-opinion).
 
 ### Drug interaction:
 
-- **Parkinson's disease (levodopa)**: *E. faecalis* TyrDC converts L-DOPA to dopamine in the gut, the first step in an interspecies pathway that can account for significant drug loss before systemic absorption. Variability in *E. faecalis* TyrDC gene carriage among patients explains variable levodopa responses ([[maini-rekdal-2019-microbiome-drug-interactions-parkinsons]], in-vitro).
+- Parkinson's disease (levodopa): *E. faecalis* TyrDC converts L-DOPA to dopamine in the gut, the first step in an interspecies pathway that can account for significant drug loss before systemic absorption. Variability in *E. faecalis* TyrDC gene carriage among patients explains variable levodopa responses ([[maini-rekdal-2019-microbiome-drug-interactions-parkinsons]], in-vitro).
 
 ## Key Studies
 

@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Parabacteroides
 
-A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, closely related to [[bacteroides-fragilis]]. The best-characterized species, *P. distasonis*, has emerged as a **key anti-inflammatory commensal** with significant roles in bile acid metabolism and metabolic health. *Parabacteroides* shows a distinctive pattern of being depleted in metabolic and autoimmune diseases while enriched in certain cancers, making it part of the "opposite directionality" signature described across disease categories.
+A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, closely related to [[bacteroides-fragilis]]. The best-characterized species, *P. distasonis*, has emerged as a key anti-inflammatory commensal with significant roles in bile acid metabolism and metabolic health. *Parabacteroides* shows a distinctive pattern of being depleted in metabolic and autoimmune diseases while enriched in certain cancers, making it part of the "opposite directionality" signature described across disease categories.
 
 ## Role in Gut Ecosystem
 
@@ -40,7 +40,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 - Decreased in [[multiple-sclerosis]] at baseline; B-cell depletion therapy (ocrelizumab) further reduces *Parabacteroides* as the overall microbiome shifts toward Firmicutes restoration [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]].
 
 ### Cancer -- Opposite Directionality
-- Shows true **opposite directionality** in the Islam 2022 meta-analysis: increased in cancer cohorts but decreased in autoimmune disease cohorts [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
+- Shows true opposite directionality in the Islam 2022 meta-analysis: increased in cancer cohorts but decreased in autoimmune disease cohorts [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
 - Enriched in [[colorectal-cancer]] progression -- identified among genera contributing to CRC stage advancement alongside *Proteus* and [[alistipes]] [[liu-2023-colorectal-cancer-progression-microbiome-signature]].
 - This paradox may reflect context-dependent bile acid metabolism: protective secondary bile acids in healthy mucosa versus tumor-promoting deoxycholic acid in the dysbiotic cancer microenvironment.
 
@@ -55,9 +55,9 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 
 ## Key Metabolites
 
-- **Secondary bile acids** (lithocholic acid, ursodeoxycholic acid) -- immunomodulatory via FXR/TGR5
-- **Succinate** -- intermediate metabolite; fuel for cross-feeding networks
-- **Acetate** -- contributes to gut barrier maintenance and systemic anti-inflammatory signaling
+- Secondary bile acids (lithocholic acid, ursodeoxycholic acid) -- immunomodulatory via FXR/TGR5
+- Succinate -- intermediate metabolite; fuel for cross-feeding networks
+- Acetate -- contributes to gut barrier maintenance and systemic anti-inflammatory signaling
 
 ## Key Sources
 

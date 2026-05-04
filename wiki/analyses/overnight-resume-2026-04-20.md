@@ -11,7 +11,7 @@ updated: 2026-04-20
 `08e3a047` — ingest: PMDD batch 4 — 3 new source pages
 
 ## Session summary
-Ingested **20 source pages** from `raw/Premenstrual Dysphoric Disorder (PMDD)/` folder (15 new, 5 expanded):
+Ingested 20 source pages from `raw/Premenstrual Dysphoric Disorder (PMDD)/` folder (15 new, 5 expanded):
 
 ### New source pages created (15):
 1. `bengi-2025-pmdd-pms-mood-disorder-comorbidity-meta-analysis.md` — PMDD/PMS–mood disorder comorbidity, 42-49% bidirectional (BJPsych, SR/MA)
@@ -58,10 +58,10 @@ Ingested **20 source pages** from `raw/Premenstrual Dysphoric Disorder (PMDD)/` 
 - s41564-025-02241-y (T3SS immune modulation) — for virulence enzymes concept
 
 ## Next intended batch (priority order)
-1. **Remaining PMDD PDFs** (~20 files): numbered unknowns (140161462, 1742-4755-8-2, 19146011_PHR, 20, 211109020633106, 32051, p918, p1239, EmanPublisher, FSHW, s10068, s12905, s12986, s13300, s43088, s44220), plus named ones (Premenstrual_Syndrome.PDF, premenstrual-syndrome.pdf, FMT for female repro tract, air pollution, fungus CNS, acupoint dysmenorrhea, Rosso PhD thesis, female repro health microbiome, personalized microbiota-driven therapies)
-2. **PMDD disease entity page** creation/update
-3. **PMDD signature page** build (sufficient sources now: ~21 PMDD-relevant pages)
-4. **Fibromyalgia folder** (58 PDFs, 7 source pages — next condition per resume-2026-04-19)
+1. Remaining PMDD PDFs (~20 files): numbered unknowns (140161462, 1742-4755-8-2, 19146011_PHR, 20, 211109020633106, 32051, p918, p1239, EmanPublisher, FSHW, s10068, s12905, s12986, s13300, s43088, s44220), plus named ones (Premenstrual_Syndrome.PDF, premenstrual-syndrome.pdf, FMT for female repro tract, air pollution, fungus CNS, acupoint dysmenorrhea, Rosso PhD thesis, female repro health microbiome, personalized microbiota-driven therapies)
+2. PMDD disease entity page creation/update
+3. PMDD signature page build (sufficient sources now: ~21 PMDD-relevant pages)
+4. Fibromyalgia folder (58 PDFs, 7 source pages — next condition per resume-2026-04-19)
 
 ## Anomalies to watch for
 - High misfiling rate in PMDD folder (~40% of PDFs were not PMDD-relevant)

@@ -19,51 +19,51 @@ The exposome is the totality of environmental exposures an individual experience
 ## Structure of the Exposome
 
 ### General External Environment
-- **Air quality** -- industrial emissions, vehicular exhaust (lead historically, now cadmium, arsenic, nickel particulates), wildfire smoke
-- **Water** -- arsenic in groundwater (Bangladesh, West Bengal, parts of the US), lead from aging infrastructure (Flint, Michigan), cadmium from mining runoff
-- **Soil** -- legacy contamination from smelting, mining, agricultural chemicals (arsenic-based pesticides, cadmium in phosphate fertilizers)
-- **Food** -- rice (arsenic accumulator), cocoa/chocolate (cadmium), seafood (mercury), leafy greens and legumes (nickel). See [[dietary-nickel-exposure]], [[environmental-metal-exposure]]
+- Air quality -- industrial emissions, vehicular exhaust (lead historically, now cadmium, arsenic, nickel particulates), wildfire smoke
+- Water -- arsenic in groundwater (Bangladesh, West Bengal, parts of the US), lead from aging infrastructure (Flint, Michigan), cadmium from mining runoff
+- Soil -- legacy contamination from smelting, mining, agricultural chemicals (arsenic-based pesticides, cadmium in phosphate fertilizers)
+- Food -- rice (arsenic accumulator), cocoa/chocolate (cadmium), seafood (mercury), leafy greens and legumes (nickel). See [[dietary-nickel-exposure]], [[environmental-metal-exposure]]
 
 ### Specific External Environment
-- **Occupation** -- welders (nickel, chromium, manganese), miners (multiple metals), battery workers (lead, cadmium), dental workers (mercury)
-- **Consumer products** -- cosmetics (lead in lipstick, mercury in skin-lightening creams), cookware (aluminum), jewelry (nickel), cigarettes (cadmium, lead)
-- **Medical exposures** -- implants (cobalt, chromium, nickel from joint prostheses), dental amalgam (mercury), contrast agents (gadolinium)
-- **Lifestyle** -- smoking (cadmium, lead), alcohol (alters metal absorption), recreational drug use
+- Occupation -- welders (nickel, chromium, manganese), miners (multiple metals), battery workers (lead, cadmium), dental workers (mercury)
+- Consumer products -- cosmetics (lead in lipstick, mercury in skin-lightening creams), cookware (aluminum), jewelry (nickel), cigarettes (cadmium, lead)
+- Medical exposures -- implants (cobalt, chromium, nickel from joint prostheses), dental amalgam (mercury), contrast agents (gadolinium)
+- Lifestyle -- smoking (cadmium, lead), alcohol (alters metal absorption), recreational drug use
 
 ### Internal Environment
-- **Microbiome** -- the [[gut-metal-microbiome]] as a metabolic filter that transforms the external exposome into internal exposures. Microbial metal biotransformation (methylation of mercury and arsenic by gut bacteria) means the internal metal exposome differs from the external one.
-- **Metabolome** -- downstream metabolic consequences of metal exposure
-- **Epigenome** -- metal-induced epigenetic modifications that persist beyond the original exposure. See [[developmental-metal-vulnerability]]
-- **Inflammasome** -- the chronic inflammatory state resulting from cumulative exposures
+- Microbiome -- the [[gut-metal-microbiome]] as a metabolic filter that transforms the external exposome into internal exposures. Microbial metal biotransformation (methylation of mercury and arsenic by gut bacteria) means the internal metal exposome differs from the external one.
+- Metabolome -- downstream metabolic consequences of metal exposure
+- Epigenome -- metal-induced epigenetic modifications that persist beyond the original exposure. See [[developmental-metal-vulnerability]]
+- Inflammasome -- the chronic inflammatory state resulting from cumulative exposures
 
 ## Why Metals Are the Ideal Exposome Component
 
 Metals offer unique advantages for exposome research:
 
-1. **Measurable** -- blood, urine, hair, and nail metal levels can be quantified with high precision (ICP-MS)
-2. **Persistent** -- many metals have long biological half-lives (cadmium: 10-30 years; lead in bone: decades), providing integrated exposure measures
-3. **Mechanistically understood** -- unlike many environmental chemicals, metals have well-characterized molecular targets ([[oxidative-stress]], [[nf-kappa-b]], [[DNA-damage]], [[mis-metallation]])
-4. **Dose-response relationships** -- even at "low" levels, metals show continuous dose-response curves for many outcomes
-5. **Modifiable** -- dietary changes, water filtration, occupational protections, and [[metal-chelation-therapy]] can reduce exposure
+1. Measurable -- blood, urine, hair, and nail metal levels can be quantified with high precision (ICP-MS)
+2. Persistent -- many metals have long biological half-lives (cadmium: 10-30 years; lead in bone: decades), providing integrated exposure measures
+3. Mechanistically understood -- unlike many environmental chemicals, metals have well-characterized molecular targets ([[oxidative-stress]], [[nf-kappa-b]], [[DNA-damage]], [[mis-metallation]])
+4. Dose-response relationships -- even at "low" levels, metals show continuous dose-response curves for many outcomes
+5. Modifiable -- dietary changes, water filtration, occupational protections, and [[metal-chelation-therapy]] can reduce exposure
 
 ## The Mixture Problem
 
 Real-world exposure is never to a single metal. Humans carry detectable levels of dozens of metals simultaneously. The exposome framework forces confrontation with:
 
-- **Additive effects** -- do Cd + Pb + As simply sum their toxicities?
-- **Synergistic effects** -- evidence that Cd + Pb together produce more than additive kidney damage
-- **Antagonistic effects** -- Se protects against Hg toxicity; Zn partially protects against Cd
-- **Essential-toxic interactions** -- iron deficiency increases lead and cadmium absorption; zinc deficiency increases cadmium retention
+- Additive effects -- do Cd + Pb + As simply sum their toxicities?
+- Synergistic effects -- evidence that Cd + Pb together produce more than additive kidney damage
+- Antagonistic effects -- Se protects against Hg toxicity; Zn partially protects against Cd
+- Essential-toxic interactions -- iron deficiency increases lead and cadmium absorption; zinc deficiency increases cadmium retention
 
 ## Temporal Dimensions
 
 The exposome is not static. Critical windows include:
 
-- **Preconception** -- parental metal exposure affects gamete epigenetics
-- **In utero** -- the [[developmental-metal-vulnerability|developmental window]] where metals cross the placenta and program lifelong disease risk
-- **Early childhood** -- developing blood-brain barrier, immature detoxification, hand-to-mouth behavior
-- **Occupational years** -- peak exposure period for many metals
-- **Aging** -- bone remodeling releases stored lead; declining renal function reduces metal excretion
+- Preconception -- parental metal exposure affects gamete epigenetics
+- In utero -- the [[developmental-metal-vulnerability|developmental window]] where metals cross the placenta and program lifelong disease risk
+- Early childhood -- developing blood-brain barrier, immature detoxification, hand-to-mouth behavior
+- Occupational years -- peak exposure period for many metals
+- Aging -- bone remodeling releases stored lead; declining renal function reduces metal excretion
 
 ## Relevance to This Wiki
 

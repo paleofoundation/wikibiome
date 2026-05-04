@@ -40,18 +40,18 @@ stub_reason: §2f auto-demotion 2026-04-19 — 2 sources, minimum 5
 
 ## Overview
 
-**Hidradenitis suppurativa (HS)** is a chronic, relapsing inflammatory skin disease characterized by painful nodules, abscesses, and sinus tracts in apocrine gland-bearing skin (axillae, groin, inframammary folds). Long classified as a purely dermatological condition, emerging evidence reveals HS as a systemic inflammatory disorder with a significant gut microbiome component — connecting it to the broader gut-skin axis framework.
+Hidradenitis suppurativa (HS) is a chronic, relapsing inflammatory skin disease characterized by painful nodules, abscesses, and sinus tracts in apocrine gland-bearing skin (axillae, groin, inframammary folds). Long classified as a purely dermatological condition, emerging evidence reveals HS as a systemic inflammatory disorder with a significant gut microbiome component — connecting it to the broader gut-skin axis framework.
 
 ## Microbiome Associations
 
 ### Gut Microbiome
 
-Mendelian randomization analysis has identified two gut taxa with **causal risk effects** on HS:
+Mendelian randomization analysis has identified two gut taxa with causal risk effects on HS:
 
-- **Clostridium innocuum group** — OR 2.17 (P = 0.00038); the strongest causal signal [[liu-2024-gut-microbiota-hidradenitis-suppurativa-mr]]
-- **[[lachnospira]]** — OR 2.45 (P = 0.017); a paradoxical risk association for an SCFA-producing genus, suggesting that the mechanism may involve SCFA-mediated alteration of cutaneous immune responses rather than simple inflammation [[liu-2024-gut-microbiota-hidradenitis-suppurativa-mr]]
+- Clostridium innocuum group — OR 2.17 (P = 0.00038); the strongest causal signal [[liu-2024-gut-microbiota-hidradenitis-suppurativa-mr]]
+- [[lachnospira]] — OR 2.45 (P = 0.017); a paradoxical risk association for an SCFA-producing genus, suggesting that the mechanism may involve SCFA-mediated alteration of cutaneous immune responses rather than simple inflammation [[liu-2024-gut-microbiota-hidradenitis-suppurativa-mr]]
 
-Remarkably, **40% of HS patients harbor a gut microbiota configuration similar to Crohn's disease**, characterized by enrichment of pathogenic genera and depletion of beneficial genera including [[faecalibacterium-prausnitzii]] [[cronin-2023-diet-microbiome-crohns-hidradenitis]]. This overlap is consistent with clinical observations that HS and CD frequently co-occur and share TNF-alpha-driven pathology.
+Remarkably, 40% of HS patients harbor a gut microbiota configuration similar to Crohn's disease, characterized by enrichment of pathogenic genera and depletion of beneficial genera including [[faecalibacterium-prausnitzii]] [[cronin-2023-diet-microbiome-crohns-hidradenitis]]. This overlap is consistent with clinical observations that HS and CD frequently co-occur and share TNF-alpha-driven pathology.
 
 ### Skin Microbiome
 
@@ -63,13 +63,13 @@ Direct metal studies in HS are limited. However, the strong overlap with Crohn's
 
 ## Associated Conditions
 
-- **[[crohns-disease]]** — 40% gut microbiota overlap; shared TNF-alpha pathology; clinical co-occurrence well-documented. Both conditions respond to anti-TNF therapy (adalimumab is approved for both).
+- [[crohns-disease]] — 40% gut microbiota overlap; shared TNF-alpha pathology; clinical co-occurrence well-documented. Both conditions respond to anti-TNF therapy (adalimumab is approved for both).
 
 ## Environmental Factors
 
-- **Diet** — Western diet patterns (high-fat, low-fiber) are associated with HS severity, consistent with the gut-microbiome-mediated mechanism
-- **Smoking** — Strong independent risk factor; may influence both skin and gut microbiome composition
-- **Obesity** — Mechanical and inflammatory contributor; shared metabolic endotoxemia pathway
+- Diet — Western diet patterns (high-fat, low-fiber) are associated with HS severity, consistent with the gut-microbiome-mediated mechanism
+- Smoking — Strong independent risk factor; may influence both skin and gut microbiome composition
+- Obesity — Mechanical and inflammatory contributor; shared metabolic endotoxemia pathway
 
 ## Key Studies
 

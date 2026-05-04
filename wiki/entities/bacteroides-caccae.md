@@ -4,11 +4,17 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
+last_substantive_update: 2026-04-22
 sources:
-  - eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood
+  - ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia
+  - xu-2026-gut-prostate-axis-bph-systematic-review
   - eggers-2023-prenatal-lead-childhood-gut-microbiome-progress
-source_count: 2
+  - svensson-2021-endometriosis-gut-microbiota-associations
+  - borges-2016-uremic-toxins-inflammatory-markers-ckd
+  - gutmann-2025-functional-microbiome-diet-ms
+  - vocca-2025-probiotics-chronic-bacterial-prostatitis-rct
+  - chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression
+source_count: 8
 tags:
   - Bacteroides
   - fiber-degrader
@@ -33,15 +39,13 @@ conditions_enriched_in: []
 conditions_depleted_in:
   - lead-exposed-populations
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 2 sources, minimum 3
 ---
 
 # Bacteroides caccae
 
 ## Overview
 
-***Bacteroides caccae*** is a Gram-negative, obligate anaerobic member of the [[bacteroidetes]] phylum and a common fiber-degrading commensal in the human colon. While less individually prominent than [[bacteroides-fragilis]] or [[bacteroides-thetaiotaomicron]], *B. caccae* has emerged as a significant organism in the [[developmental-metal-vulnerability]] framework — it is the **most reproducible lead-depleted taxon** across multiple study populations, suggesting particular sensitivity to heavy metal disruption during critical developmental windows.
+*Bacteroides caccae* is a Gram-negative, obligate anaerobic member of the [[bacteroidetes]] phylum and a common fiber-degrading commensal in the human colon. While less individually prominent than [[bacteroides-fragilis]] or [[bacteroides-thetaiotaomicron]], *B. caccae* has emerged as a significant organism in the [[developmental-metal-vulnerability]] framework — it is the most reproducible lead-depleted taxon across multiple study populations, suggesting particular sensitivity to heavy metal disruption during critical developmental windows.
 
 ## Metal Dependencies
 
@@ -49,9 +53,9 @@ Like other Bacteroides, *B. caccae* requires iron for various metabolic processe
 
 ## Key Enzymes and Functional Features
 
-- **Polysaccharide utilization loci (PULs)** — *B. caccae* encodes multiple PUL systems for degrading complex dietary fibers including plant cell wall polysaccharides, pectins, and hemicelluloses
-- **Beta-glucosidase** — Contributes to the breakdown of dietary glycosides and plant polyphenol metabolism
-- **Bile salt hydrolase** — Participates in bile acid deconjugation, contributing to the broader Bacteroides role in bile acid metabolism and [[fxr]] signaling
+- Polysaccharide utilization loci (PULs) — *B. caccae* encodes multiple PUL systems for degrading complex dietary fibers including plant cell wall polysaccharides, pectins, and hemicelluloses
+- Beta-glucosidase — Contributes to the breakdown of dietary glycosides and plant polyphenol metabolism
+- Bile salt hydrolase — Participates in bile acid deconjugation, contributing to the broader Bacteroides role in bile acid metabolism and [[fxr]] signaling
 
 ## Ecological Role
 
@@ -59,9 +63,9 @@ In the healthy gut, *B. caccae* contributes to the primary degradation of dietar
 
 ## Lead Sensitivity — The Defining Feature
 
-The PROGRESS cohort study (prospective, n=123, Mexico City) demonstrated that **prenatal lead exposure** in both the 2nd and 3rd trimesters was consistently associated with depletion of *B. caccae* in the childhood gut microbiome at ages 9-11 years [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]. Key findings:
+The PROGRESS cohort study (prospective, n=123, Mexico City) demonstrated that prenatal lead exposure in both the 2nd and 3rd trimesters was consistently associated with depletion of *B. caccae* in the childhood gut microbiome at ages 9-11 years [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]. Key findings:
 
-- *B. caccae* exceeded the weighted quantile sum (WQS) importance threshold in ≥80% of repeated holdouts for **both trimesters**, making it one of the most reproducibly Pb-depleted taxa
+- *B. caccae* exceeded the weighted quantile sum (WQS) importance threshold in ≥80% of repeated holdouts for both trimesters, making it one of the most reproducibly Pb-depleted taxa
 - This depletion persisted years after the prenatal exposure window, consistent with developmental programming of the gut microbiome
 - Co-depleted taxa included [[bifidobacterium-longum]], *Bifidobacterium bifidum*, *Ruminococcus gnavus*, and *Alistipes indistinctus* — suggesting a lead-sensitive microbial consortium
 

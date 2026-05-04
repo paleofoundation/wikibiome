@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Methanobrevibacter
 
-The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* is the dominant methane-producing microorganism in the human gut, belonging to the domain Archaea rather than Bacteria. As a hydrogenotrophic methanogen, it converts H2 + CO2 into methane (CH4), playing a critical role in **hydrogen disposal** that profoundly influences the entire gut fermentation ecosystem. Its unique metal dependencies and consistent enrichment in [[multiple-sclerosis]] make it a key organism in the [[gut-metal-microbiome]] framework.
+The only archaeon represented in this wiki -- *Methanobrevibacter smithii* is the dominant methane-producing microorganism in the human gut, belonging to the domain Archaea rather than Bacteria. As a hydrogenotrophic methanogen, it converts H2 + CO2 into methane (CH4), playing a critical role in hydrogen disposal that profoundly influences the entire gut fermentation ecosystem. Its unique metal dependencies and consistent enrichment in [[multiple-sclerosis]] make it a key organism in the [[gut-metal-microbiome]] framework.
 
 ## Archaeal Biology -- Not Bacteria
 
@@ -30,13 +30,13 @@ The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* i
 
 ## Metal Dependencies
 
-*Methanobrevibacter* is among the most **metal-dependent organisms** in the human gut:
+*Methanobrevibacter* is among the most metal-dependent organisms in the human gut:
 
-- **Nickel**: The key enzyme methyl-coenzyme M reductase (MCR) contains **coenzyme F430**, a Ni-tetrapyrrole unique to methanogens. Without nickel, methanogenesis cannot occur. This makes *Methanobrevibacter* exquisitely sensitive to nickel availability and competition.
-- **Cobalt**: Required for corrinoid cofactors involved in methyl group transfer during methanogenesis.
-- **Iron**: Fe-S clusters are essential for hydrogenase enzymes that oxidize H2 -- the first step of hydrogenotrophic methanogenesis.
-- **Zinc**: Structural roles in metalloenzymes.
-- **Copper sensitivity**: Cu is toxic to methanogens at very low concentrations (1.9 umol/L inhibits the related *Methanococcus maripaludis*). Zinc at 1.0 mmol/L can rescue copper toxicity through competitive transporter interactions [[abdel-azim-2018-heavy-metals-vfas-methanococcus]].
+- Nickel: The key enzyme methyl-coenzyme M reductase (MCR) contains coenzyme F430, a Ni-tetrapyrrole unique to methanogens. Without nickel, methanogenesis cannot occur. This makes *Methanobrevibacter* exquisitely sensitive to nickel availability and competition.
+- Cobalt: Required for corrinoid cofactors involved in methyl group transfer during methanogenesis.
+- Iron: Fe-S clusters are essential for hydrogenase enzymes that oxidize H2 -- the first step of hydrogenotrophic methanogenesis.
+- Zinc: Structural roles in metalloenzymes.
+- Copper sensitivity: Cu is toxic to methanogens at very low concentrations (1.9 umol/L inhibits the related *Methanococcus maripaludis*). Zinc at 1.0 mmol/L can rescue copper toxicity through competitive transporter interactions [[abdel-azim-2018-heavy-metals-vfas-methanococcus]].
 
 ## Role in Gut Ecosystem
 
@@ -48,9 +48,9 @@ The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* i
 ## Disease Associations
 
 ### Multiple Sclerosis
-- **Increased in MS patients** in the landmark Jangi 2016 study, alongside [[akkermansia-muciniphila]] [[jangi-2016-gut-microbiome-alterations-ms]].
+- Increased in MS patients in the landmark Jangi 2016 study, alongside [[akkermansia-muciniphila]] [[jangi-2016-gut-microbiome-alterations-ms]].
 - Positively correlated with pro-inflammatory gene expression: dendritic cell maturation, interferon signaling, [[nf-kappa-b]] signaling, CASP1, TRAF5, and STAT5 in circulating T cells and monocytes.
-- MS patients show **elevated breath methane** consistent with increased gut *Methanobrevibacter* abundance.
+- MS patients show elevated breath methane consistent with increased gut *Methanobrevibacter* abundance.
 - LPS-like molecules from *Methanobrevibacter* activate inflammatory cells and dendritic cells.
 - Expresses adhesin-like proteins enabling mucosal adhesion, placing it near gut-associated lymphoid tissue where it can stimulate immune responses.
 
@@ -60,8 +60,8 @@ The **only archaeon** represented in this wiki -- *Methanobrevibacter smithii* i
 
 ## Key Metabolites
 
-- **Methane (CH4)** -- inhibits colonic motility; contributes to breath methane as clinical biomarker
-- **Short-chain lipids** -- cell membrane ether lipids unique to archaea
+- Methane (CH4) -- inhibits colonic motility; contributes to breath methane as clinical biomarker
+- Short-chain lipids -- cell membrane ether lipids unique to archaea
 
 ## Key Sources
 

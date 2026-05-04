@@ -10,11 +10,11 @@ updated: 2026-04-18
 
 ## Summary
 
-- **Pages scanned:** All entities (~218), concepts (~173), analyses (~18)
-- **Total violations detected:** 43 (across 18 pages)
-- **Fixed (mechanical rewrites):** 8 pages, 9 specific violations
-- **Verified as factual reporting (no fix needed):** 10 pages (dosage data from study results, not prescriptive)
-- **Remaining violations:** 0 in entities/concepts
+- Pages scanned: All entities (~218), concepts (~173), analyses (~18)
+- Total violations detected: 43 (across 18 pages)
+- Fixed (mechanical rewrites): 8 pages, 9 specific violations
+- Verified as factual reporting (no fix needed): 10 pages (dosage data from study results, not prescriptive)
+- Remaining violations: 0 in entities/concepts
 
 ## Fixes Applied
 

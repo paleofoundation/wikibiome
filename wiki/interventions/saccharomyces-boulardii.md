@@ -29,33 +29,33 @@ targets:
 karen_brain_primitives: [5, 6]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Saccharomyces boulardii for Endometriosis
 
 ## Intervention Summary
 
-**Saccharomyces boulardii** is a non-pathogenic yeast used as a probiotic that directly competes with pathogenic Candida species. In the endometriosis context, S. boulardii addresses the interkingdom component of the disease signature — Candida enrichment, fungal-bacterial biofilm cooperation, and the functional shielding that protects beta-glucuronidase-producing bacteria involved in estrogen recirculation.
+Saccharomyces boulardii is a non-pathogenic yeast used as a probiotic that directly competes with pathogenic Candida species. In the endometriosis context, S. boulardii addresses the interkingdom component of the disease signature — Candida enrichment, fungal-bacterial biofilm cooperation, and the functional shielding that protects beta-glucuronidase-producing bacteria involved in estrogen recirculation.
 
 ## Evidence
 
-- **Anti-Candida**: S. boulardii inhibits Candida albicans adhesion, filamentation (yeast-to-hypha transition), and biofilm formation in vitro and in animal models
-- **AAD/CDI prevention**: Multiple RCTs and meta-analyses confirm S. boulardii prevents antibiotic-associated diarrhea and C. difficile recurrence
-- **IBD**: Modest evidence for reduced relapse in Crohn's disease when used adjunctively
-- **Endometriosis-specific**: Direct clinical trials are lacking; rationale derives from the endometriosis signature (Candida enrichment, biofilm, estrogen recirculation)
+- Anti-Candida: S. boulardii inhibits Candida albicans adhesion, filamentation (yeast-to-hypha transition), and biofilm formation in vitro and in animal models
+- AAD/CDI prevention: Multiple RCTs and meta-analyses confirm S. boulardii prevents antibiotic-associated diarrhea and C. difficile recurrence
+- IBD: Modest evidence for reduced relapse in Crohn's disease when used adjunctively
+- Endometriosis-specific: Direct clinical trials are lacking; rationale derives from the endometriosis signature (Candida enrichment, biofilm, estrogen recirculation)
 
 ## Mechanism
 
-1. **Competitive exclusion**: S. boulardii competes with Candida for adhesion sites on intestinal epithelium and for luminal nutrients
-2. **Anti-filamentation**: Produces capric acid and other medium-chain fatty acids that inhibit Candida morphogenesis (yeast-to-hypha transition critical for tissue invasion)
-3. **Biofilm disruption**: Disrupts fungal-bacterial biofilm architecture, potentially exposing shielded beta-glucuronidase producers to immune clearance
-4. **Barrier support**: Stimulates secretory IgA production and enterocyte brush border enzyme activity
+1. Competitive exclusion: S. boulardii competes with Candida for adhesion sites on intestinal epithelium and for luminal nutrients
+2. Anti-filamentation: Produces capric acid and other medium-chain fatty acids that inhibit Candida morphogenesis (yeast-to-hypha transition critical for tissue invasion)
+3. Biofilm disruption: Disrupts fungal-bacterial biofilm architecture, potentially exposing shielded beta-glucuronidase producers to immune clearance
+4. Barrier support: Stimulates secretory IgA production and enterocyte brush border enzyme activity
 
 ## Clinical Context
 
-S. boulardii (250-500mg twice daily) is well-tolerated and safe in immunocompetent patients. As a yeast, it is inherently resistant to antibacterial antibiotics, making it useful during antibiotic courses. **Contraindicated in immunocompromised patients and those with central venous catheters** due to rare fungemia risk. For endometriosis, S. boulardii addresses the interkingdom (fungal) component that bacterial probiotics cannot.
+S. boulardii (250-500mg twice daily) is well-tolerated and safe in immunocompetent patients. As a yeast, it is inherently resistant to antibacterial antibiotics, making it useful during antibiotic courses. Contraindicated in immunocompromised patients and those with central venous catheters due to rare fungemia risk. For endometriosis, S. boulardii addresses the interkingdom (fungal) component that bacterial probiotics cannot.
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

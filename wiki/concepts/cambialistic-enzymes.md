@@ -3,9 +3,13 @@ title: Cambialistic Enzymes
 type: concept
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection
+  - cassat-2012-metal-acquisition-staphylococcus-aureus
+  - mcewan-2024-metalloproteome-plasticity-pathogen-adaptation
+  - rohaun-2024-microbes-strategic-metalation-mononuclear-enzymes
+source_count: 4
 tags:
   - enzymology
   - metal-cofactors
@@ -16,17 +20,15 @@ karen_brain_primitives:
   - 1
   - 4
 seo_target: cambialistic enzymes metal cofactor flexibility bacteria
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Cambialistic enzymes** are enzymes that can function with more than one metal cofactor, switching between metals depending on environmental availability. The term derives from the Latin *cambium* ("exchange") and describes a remarkable adaptation: rather than being locked into a single metal dependency, these enzymes maintain catalytic activity across different metal environments.
+Cambialistic enzymes are enzymes that can function with more than one metal cofactor, switching between metals depending on environmental availability. The term derives from the Latin *cambium* ("exchange") and describes a remarkable adaptation: rather than being locked into a single metal dependency, these enzymes maintain catalytic activity across different metal environments.
 
 ## The Paradigm: Superoxide Dismutase
 
-The best-characterized cambialistic enzymes are **superoxide dismutases** (SODs) found in certain bacteria. While most organisms produce either Fe-SOD or Mn-SOD exclusively, cambialistic SODs — first described in *Propionibacterium shermanii* and later in *Streptococcus mutans* — function with either iron or manganese. This flexibility allows the organism to maintain oxidative stress defense regardless of which metal the host makes available, effectively sidestepping [[nutritional-immunity]].
+The best-characterized cambialistic enzymes are superoxide dismutases (SODs) found in certain bacteria. While most organisms produce either Fe-SOD or Mn-SOD exclusively, cambialistic SODs — first described in *Propionibacterium shermanii* and later in *Streptococcus mutans* — function with either iron or manganese. This flexibility allows the organism to maintain oxidative stress defense regardless of which metal the host makes available, effectively sidestepping [[nutritional-immunity]].
 
 ## Ecological Advantage
 

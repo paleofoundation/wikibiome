@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Colonization Resistance
 
-The collective ability of the resident gut microbiome to **prevent colonization by exogenous pathogens and suppress expansion of resident pathobionts**. Colonization resistance is not a property of any single organism but an emergent function of the whole microbial community -- a biological firewall built from nutrient competition, metabolite-mediated inhibition, immune priming, and ecological niche occupation. When this firewall fails -- through antibiotics, heavy metal exposure, dietary disruption, or disease-driven dysbiosis -- the consequences cascade through virtually every disease domain covered in this wiki.
+The collective ability of the resident gut microbiome to prevent colonization by exogenous pathogens and suppress expansion of resident pathobionts. Colonization resistance is not a property of any single organism but an emergent function of the whole microbial community -- a biological firewall built from nutrient competition, metabolite-mediated inhibition, immune priming, and ecological niche occupation. When this firewall fails -- through antibiotics, heavy metal exposure, dietary disruption, or disease-driven dysbiosis -- the consequences cascade through virtually every disease domain covered in this wiki.
 
 ## Mechanisms
 
@@ -22,9 +22,9 @@ The collective ability of the resident gut microbiome to **prevent colonization 
 
 The commensal microbiome occupies metabolic niches that deprive incoming pathogens of essential resources:
 
-- **Carbon source competition**: Established commensals consume available sugars, amino acids, and other carbon sources more efficiently than newly arriving organisms
-- **Metal competition**: Commensal bacteria compete for iron, zinc, and manganese. Siderophore-producing commensals can outcompete pathogens for iron in the same ecological niche [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. This connects colonization resistance directly to [[nutritional-immunity]] -- both the host and the commensals are restricting metal availability to pathogens
-- **Bile acid metabolism**: Commensal bacteria convert primary bile acids to secondary bile acids (e.g., deoxycholic acid) that inhibit *C. difficile* germination. Loss of this metabolic function after antibiotics is a primary reason CDI occurs
+- Carbon source competition: Established commensals consume available sugars, amino acids, and other carbon sources more efficiently than newly arriving organisms
+- Metal competition: Commensal bacteria compete for iron, zinc, and manganese. Siderophore-producing commensals can outcompete pathogens for iron in the same ecological niche [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. This connects colonization resistance directly to [[nutritional-immunity]] -- both the host and the commensals are restricting metal availability to pathogens
+- Bile acid metabolism: Commensal bacteria convert primary bile acids to secondary bile acids (e.g., deoxycholic acid) that inhibit *C. difficile* germination. Loss of this metabolic function after antibiotics is a primary reason CDI occurs
 
 ### Short-Chain Fatty Acid Production
 
@@ -75,17 +75,17 @@ Abrupt dietary shifts (especially low-fiber diets) starve SCFA-producing commens
 
 The [[heavy-metals|Two-Sided Ecological Engineering]] principle (Primitive 5) applies directly to colonization resistance restoration:
 
-- **Suppress side**: Remove or reduce pathobionts (targeted antimicrobials, metal restriction)
-- **Restore side**: Reintroduce missing beneficial functions (probiotics, prebiotics, FMT)
+- Suppress side: Remove or reduce pathobionts (targeted antimicrobials, metal restriction)
+- Restore side: Reintroduce missing beneficial functions (probiotics, prebiotics, FMT)
 - Neither side alone is sufficient -- suppressing pathogens without restoring commensals leaves ecological niches open for recolonization
 
 ## Metal Dimensions
 
 Colonization resistance has a distinctly metallomic dimension that distinguishes WikiBiome's treatment from conventional microbiome science:
 
-- **Iron ecology**: The gut iron environment determines which organisms can compete. High luminal iron favors siderophore-producers (Enterobacteriaceae); low iron favors organisms adapted to iron scarcity (Lactobacillus, some Bifidobacterium)
-- **Zinc**: Supports defensin production by Paneth cells; zinc deficiency impairs antimicrobial peptide-mediated colonization resistance
-- **[[lactoferrin|Lactoferrin]]**: Chelates iron at mucosal surfaces, simultaneously starving iron-dependent pathogens and supporting iron-independent commensals -- a molecular embodiment of colonization resistance
+- Iron ecology: The gut iron environment determines which organisms can compete. High luminal iron favors siderophore-producers (Enterobacteriaceae); low iron favors organisms adapted to iron scarcity (Lactobacillus, some Bifidobacterium)
+- Zinc: Supports defensin production by Paneth cells; zinc deficiency impairs antimicrobial peptide-mediated colonization resistance
+- [[lactoferrin|Lactoferrin]]: Chelates iron at mucosal surfaces, simultaneously starving iron-dependent pathogens and supporting iron-independent commensals -- a molecular embodiment of colonization resistance
 
 ## Connections
 

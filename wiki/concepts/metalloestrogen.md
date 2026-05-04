@@ -14,28 +14,28 @@ platform: wikibiome
 
 # Metalloestrogen
 
-A metal ion that activates estrogen receptors and mimics the biological effects of estradiol. Metalloestrogens represent a distinct class of endocrine-disrupting compounds where the active agent is an **inorganic metal** rather than an organic xenoestrogen like BPA or phthalates. The concept bridges environmental metal exposure and hormone-dependent disease in a way that conventional endocrinology rarely considers: the same [[cadmium]], [[nickel]], and [[copper]] measured in metallomic disease signatures may be directly driving estrogenic signaling.
+A metal ion that activates estrogen receptors and mimics the biological effects of estradiol. Metalloestrogens represent a distinct class of endocrine-disrupting compounds where the active agent is an inorganic metal rather than an organic xenoestrogen like BPA or phthalates. The concept bridges environmental metal exposure and hormone-dependent disease in a way that conventional endocrinology rarely considers: the same [[cadmium]], [[nickel]], and [[copper]] measured in metallomic disease signatures may be directly driving estrogenic signaling.
 
 For the full mechanistic treatment, see [[metalloestrogens]]. This page provides a concise conceptual overview of the metalloestrogen framework and its significance to WikiBiome's disease signatures.
 
 ## Core Concept
 
-The defining feature of a metalloestrogen is its ability to **bind and activate estrogen receptors** at physiologically relevant concentrations [[aquino-2012-cadmium-nickel-metalloestrogens]]:
+The defining feature of a metalloestrogen is its ability to bind and activate estrogen receptors at physiologically relevant concentrations [[aquino-2012-cadmium-nickel-metalloestrogens]]:
 
-- **Classical pathway**: Metal ions bind estrogen receptor alpha (ERa) in the ligand-binding domain, activating nuclear transcription of estrogen-responsive genes (cyclin D1, c-myc, cathepsin D)
-- **Non-classical pathway**: Metal ions activate the membrane-bound estrogen receptor GPR30/GPER, triggering ERK-1/2 signaling cascades -- even in cells lacking nuclear ERa
-- **Dual activation**: Some metalloestrogens activate both pathways, creating estrogenic effects across diverse tissue types
+- Classical pathway: Metal ions bind estrogen receptor alpha (ERa) in the ligand-binding domain, activating nuclear transcription of estrogen-responsive genes (cyclin D1, c-myc, cathepsin D)
+- Non-classical pathway: Metal ions activate the membrane-bound estrogen receptor GPR30/GPER, triggering ERK-1/2 signaling cascades -- even in cells lacking nuclear ERa
+- Dual activation: Some metalloestrogens activate both pathways, creating estrogenic effects across diverse tissue types
 
 ## Known Metalloestrogens
 
 | Metal | ERa Binding | GPR30 Activation | Strength of Evidence |
 |-------|-------------|-------------------|---------------------|
-| **[[cadmium|Cadmium]]** | Kd ~4.5 x 10^-10 M (near-estradiol affinity) | Yes, at 50-500 nM | Strong (in vitro + in vivo + epidemiological) |
-| **[[nickel|Nickel]]** | Non-competitive binding; reduces binding sites | Plausible but less characterized | Moderate (in vitro + clinical observations) |
-| **[[copper|Copper]]** | Evidence suggestive | Pituitary effects on LH/ACTH release | Moderate (PCOS context) |
-| **[[lead|Lead]]** | Yes | Unknown | Preliminary |
-| **[[cobalt|Cobalt]]** | Yes | Unknown | Preliminary |
-| **Chromium** | Yes | Unknown | Preliminary |
+| [[cadmium|Cadmium]] | Kd ~4.5 x 10^-10 M (near-estradiol affinity) | Yes, at 50-500 nM | Strong (in vitro + in vivo + epidemiological) |
+| [[nickel|Nickel]] | Non-competitive binding; reduces binding sites | Plausible but less characterized | Moderate (in vitro + clinical observations) |
+| [[copper|Copper]] | Evidence suggestive | Pituitary effects on LH/ACTH release | Moderate (PCOS context) |
+| [[lead|Lead]] | Yes | Unknown | Preliminary |
+| [[cobalt|Cobalt]] | Yes | Unknown | Preliminary |
+| Chromium | Yes | Unknown | Preliminary |
 
 ## Significance for Disease Signatures
 
@@ -54,8 +54,8 @@ Multiple toxic metals (Cd, Ni, Cu) are elevated in PCOS. Copper's pituitary effe
 
 The metalloestrogen concept intersects with the [[estrobolome]] -- the collection of gut microbial genes whose products metabolize estrogens. Metalloestrogens add a second layer of estrogenic pressure:
 
-1. **Microbial beta-glucuronidase** deconjugates estrogens in the gut, recirculating them into the bloodstream ([[estrogen-recirculation]])
-2. **Metalloestrogens** simultaneously activate estrogen receptors directly
+1. Microbial beta-glucuronidase deconjugates estrogens in the gut, recirculating them into the bloodstream ([[estrogen-recirculation]])
+2. Metalloestrogens simultaneously activate estrogen receptors directly
 3. The combined estrogenic burden from both microbial and metallic sources may exceed the threshold for estrogen-dependent pathology
 
 This dual-source model explains why endometriosis, breast cancer, and PCOS show both dysbiotic microbiomes AND elevated metallomic signatures -- the two sources converge on the same receptors.

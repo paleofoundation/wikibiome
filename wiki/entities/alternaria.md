@@ -4,10 +4,15 @@ type: entity
 subtype: fungus
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
+last_substantive_update: 2026-04-22
 sources:
+  - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
   - shi-2023-ppi-fungal-dysbiosis-gerd
-source_count: 1
+  - de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons
+  - mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca
+  - krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model
+  - gosiewski-2014-candida-feces-t1d-t2d-pilot-study
+source_count: 6
 tags:
   - Alternaria
   - environmental-mold
@@ -39,29 +44,27 @@ conditions_enriched_in:
   - gerd-ppi-associated
 conditions_depleted_in: []
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 1 sources, minimum 3
 ---
 
 # Alternaria
 
 ## Overview
 
-***Alternaria*** is a ubiquitous environmental mold genus comprising over 300 species, with *A. alternata* as the most common human-associated species. Primarily recognized as an outdoor allergen and plant pathogen, *Alternaria* is increasingly documented as a component of the human **gut mycobiome** — particularly under conditions that reduce gastric acidity. In the WikiBiome framework, *Alternaria* is relevant as a mycotoxin producer (alternariol), a PPI-associated gut colonizer, and a participant in the interkingdom dynamics that shape mucosal immunity.
+*Alternaria* is a ubiquitous environmental mold genus comprising over 300 species, with *A. alternata* as the most common human-associated species. Primarily recognized as an outdoor allergen and plant pathogen, *Alternaria* is increasingly documented as a component of the human gut mycobiome — particularly under conditions that reduce gastric acidity. In the WikiBiome framework, *Alternaria* is relevant as a mycotoxin producer (alternariol), a PPI-associated gut colonizer, and a participant in the interkingdom dynamics that shape mucosal immunity.
 
 ## Metal Dependencies
 
 *Alternaria* requires zinc, copper, and iron for its metalloenzymes:
 
-- **Zinc** — Cofactor for zinc-finger transcription factors regulating secondary metabolite production (including mycotoxin biosynthesis) and for extracellular proteases
-- **Copper** — Required for laccase and tyrosinase enzymes involved in melanin biosynthesis, a key virulence factor providing UV protection and immune evasion
-- **Iron** — Essential for cytochrome P450 enzymes and siderophore-mediated iron acquisition from plant hosts and environmental substrates
+- Zinc — Cofactor for zinc-finger transcription factors regulating secondary metabolite production (including mycotoxin biosynthesis) and for extracellular proteases
+- Copper — Required for laccase and tyrosinase enzymes involved in melanin biosynthesis, a key virulence factor providing UV protection and immune evasion
+- Iron — Essential for cytochrome P450 enzymes and siderophore-mediated iron acquisition from plant hosts and environmental substrates
 
 ## Key Enzymes and Virulence Factors
 
-- **Melanin biosynthesis** — DHN-melanin (1,8-dihydroxynaphthalene pathway) provides protection against oxidative stress, UV radiation, and host immune defenses. Melanized conidia are more resistant to macrophage killing.
-- **Cellulase and pectinase** — Cell wall-degrading enzymes primarily evolved for plant pathogenesis; may contribute to mucosal tissue degradation in immunocompromised hosts
-- **Alternariol (AOH) and alternariol monomethyl ether (AME)** — Mycotoxins with genotoxic, estrogenic, and immunomodulatory properties. AOH inhibits topoisomerase II, induces DNA strand breaks, and acts as a weak estrogen receptor agonist.
+- Melanin biosynthesis — DHN-melanin (1,8-dihydroxynaphthalene pathway) provides protection against oxidative stress, UV radiation, and host immune defenses. Melanized conidia are more resistant to macrophage killing.
+- Cellulase and pectinase — Cell wall-degrading enzymes primarily evolved for plant pathogenesis; may contribute to mucosal tissue degradation in immunocompromised hosts
+- Alternariol (AOH) and alternariol monomethyl ether (AME) — Mycotoxins with genotoxic, estrogenic, and immunomodulatory properties. AOH inhibits topoisomerase II, induces DNA strand breaks, and acts as a weak estrogen receptor agonist.
 
 ## Ecological Role
 
@@ -73,8 +76,8 @@ stub_reason: §2f auto-demotion 2026-04-19 — 1 sources, minimum 3
 
 In the gastrointestinal tract, *Alternaria* is typically a transient colonizer — ingested with food and unable to establish permanent colonization under normal gastric acid conditions. However, acid suppression creates a permissive environment:
 
-- **PPI-associated enrichment**: *Alternaria* was enriched in both short-term and long-term PPI-treated GERD patients, alongside [[aspergillus]] and other environmental fungi [[shi-2023-ppi-fungal-dysbiosis-gerd]]. Reduced gastric acidity allows viable conidia to survive transit and reach the intestine.
-- **Fecal mycobiota shifts**: GERD patients showed distinct fecal fungal communities regardless of PPI status, with *Alternaria* and *Aspergillus* more abundant compared to healthy controls.
+- PPI-associated enrichment: *Alternaria* was enriched in both short-term and long-term PPI-treated GERD patients, alongside [[aspergillus]] and other environmental fungi [[shi-2023-ppi-fungal-dysbiosis-gerd]]. Reduced gastric acidity allows viable conidia to survive transit and reach the intestine.
+- Fecal mycobiota shifts: GERD patients showed distinct fecal fungal communities regardless of PPI status, with *Alternaria* and *Aspergillus* more abundant compared to healthy controls.
 
 ### Respiratory Significance
 

@@ -3,9 +3,17 @@ title: Oxygen State
 type: concept
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - morse-2023-virus-induced-dysbiosis-t1d
+  - salvador-2023-strain-sex-diet-gut-microbiota-qtl-keystone
+  - bautista-2025-reprogramming-prostate-cancer-microbiome
+  - pruski-2021-desi-ms-vaginal-microbiome-preterm-birth
+  - vatanen-2018-teddy-gut-microbiome-t1d-nature
+  - yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics
+  - blakeley-ruiz-2019-metaproteomics-crohns-functional-stability
+  - yasuno-2024-dysbiosis-gut-microbiota-ckd
+source_count: 8
 tags:
   - oxygen-gradient
   - hypoxia
@@ -18,17 +26,15 @@ karen_brain_primitives:
   - 9
 seo_target: gut oxygen gradient microbiome anaerobe ecology
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 # Oxygen State
 
 ## Overview
 
-**Oxygen state** is a master ecological variable in the gut that determines which microorganisms thrive and which are excluded. The healthy colon maintains a steep oxygen gradient — oxygenated tissue at the epithelial surface drops to near-anaerobic conditions in the lumen, favoring obligate anaerobes that produce short-chain fatty acids (SCFAs). When this gradient collapses, the resulting oxygenation of the lumen drives a characteristic shift from beneficial anaerobes to facultative aerobes, particularly [[proteobacteria]] — a signature event in dysbiosis across multiple disease states.
+Oxygen state is a master ecological variable in the gut that determines which microorganisms thrive and which are excluded. The healthy colon maintains a steep oxygen gradient — oxygenated tissue at the epithelial surface drops to near-anaerobic conditions in the lumen, favoring obligate anaerobes that produce short-chain fatty acids (SCFAs). When this gradient collapses, the resulting oxygenation of the lumen drives a characteristic shift from beneficial anaerobes to facultative aerobes, particularly [[proteobacteria]] — a signature event in dysbiosis across multiple disease states.
 
-This concept corresponds to **Karen's Brain Primitive 9: Oxygen State as Ecological Determinant**.
+This concept corresponds to Karen's Brain Primitive 9: Oxygen State as Ecological Determinant.
 
 ## The Healthy Oxygen Gradient
 
@@ -56,9 +62,9 @@ This "oxygen hypothesis of dysbiosis" explains why [[proteobacteria]] blooms are
 
 Heavy metals contribute to oxygen gradient collapse through multiple mechanisms:
 
-- **Iron excess** — Luminal iron excess feeds siderophore-producing Proteobacteria; simultaneously, iron catalyzes Fenton chemistry generating ROS that damage anaerobic commensals
-- **Cadmium** and **lead** — Damage iron-sulfur clusters in butyrate-producing Firmicutes, reducing SCFA output and breaking the colonocyte oxygen consumption cycle
-- **Nickel** — Supports NiFe-hydrogenase in hydrogen-utilizing pathogens, enabling energy generation under the fluctuating redox conditions at the gradient boundary
+- Iron excess — Luminal iron excess feeds siderophore-producing Proteobacteria; simultaneously, iron catalyzes Fenton chemistry generating ROS that damage anaerobic commensals
+- Cadmium and lead — Damage iron-sulfur clusters in butyrate-producing Firmicutes, reducing SCFA output and breaking the colonocyte oxygen consumption cycle
+- Nickel — Supports NiFe-hydrogenase in hydrogen-utilizing pathogens, enabling energy generation under the fluctuating redox conditions at the gradient boundary
 
 ## Disease Relevance
 

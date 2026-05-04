@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Dorea
 
-A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family (Firmicutes phylum). *Dorea* occupies a **mixed role** in the gut ecosystem -- while it is a core member of the healthy human microbiome, several species are consistently enriched in autoimmune and neurological conditions, particularly [[multiple-sclerosis]], making it a potential **disease biomarker** rather than a straightforwardly beneficial commensal.
+A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family (Firmicutes phylum). *Dorea* occupies a mixed role in the gut ecosystem -- while it is a core member of the healthy human microbiome, several species are consistently enriched in autoimmune and neurological conditions, particularly [[multiple-sclerosis]], making it a potential disease biomarker rather than a straightforwardly beneficial commensal.
 
 ## Role in Gut Ecosystem
 
@@ -32,7 +32,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 ## Disease Associations
 
 ### Multiple Sclerosis
-- Consistently **enriched in MS patients**, particularly during relapse phases, alongside *Blautia* [[radojevic-2023-microbiome-gut-brain-axis-ms]].
+- Consistently enriched in MS patients, particularly during relapse phases, alongside *Blautia* [[radojevic-2023-microbiome-gut-brain-axis-ms]].
 - In the Saresella 2020 study, *Dorea* was decreased in SPMS compared to RRMS, suggesting it may track with active inflammatory disease rather than progressive neurodegeneration [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]].
 - Atrial fibrillation causally affects *Dorea* abundance in bidirectional MR analysis, indicating that cardiovascular pathology can alter this genus [[dai-2024-gut-microbiota-cvd-bidirectional-mr]].
 
@@ -51,9 +51,9 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 
 ## Key Metabolites
 
-- **Formate** -- primary fermentation product of *D. formicigenerans*; substrate for other gut microbes
-- **Hydrogen gas (H2)** -- produced by *D. longicatena*; feeds methanogens and sulfate reducers
-- **Acetate** -- secondary fermentation product
+- Formate -- primary fermentation product of *D. formicigenerans*; substrate for other gut microbes
+- Hydrogen gas (H2) -- produced by *D. longicatena*; feeds methanogens and sulfate reducers
+- Acetate -- secondary fermentation product
 
 ## Mechanistic Considerations
 

@@ -20,9 +20,9 @@ source_count: 56
 
 # Copper (Cu)
 
-An essential trace element with a striking dual nature: required for survival as a cofactor for critical enzymes (SOD1, cytochrome c oxidase, ceruloplasmin), yet toxic in excess through Fenton-like redox cycling and [[mis-metallation]] of iron-sulfur clusters. **Copper is elevated in nearly every disease state examined in this wiki** -- PCOS, breast cancer, lung cancer, prostate cancer, pancreatic cancer, colorectal cancer, AMI, IBD, and rheumatoid arthritis -- making it perhaps the most pervasive metallomic disease signature. Simultaneously, copper is **decreased in neurodegenerative brain tissue**, creating a paradox of peripheral excess and central deficiency [[scholefield-2024-brain-metallomics-dementia]].
+An essential trace element with a striking dual nature: required for survival as a cofactor for critical enzymes (SOD1, cytochrome c oxidase, ceruloplasmin), yet toxic in excess through Fenton-like redox cycling and [[mis-metallation]] of iron-sulfur clusters. Copper is elevated in nearly every disease state examined in this wiki -- PCOS, breast cancer, lung cancer, prostate cancer, pancreatic cancer, colorectal cancer, AMI, IBD, and rheumatoid arthritis -- making it perhaps the most pervasive metallomic disease signature. Simultaneously, copper is decreased in neurodegenerative brain tissue, creating a paradox of peripheral excess and central deficiency [[scholefield-2024-brain-metallomics-dementia]].
 
-Copper sits at the apex of the **Irving-Williams series** (Mg < Mn < Fe < Co < Ni < Cu > Zn), meaning it binds biological ligands more tightly than any other divalent metal ion [[robinson-2020-metalation-natures-challenge]]. This thermodynamic property makes copper the metal most likely to cause [[mis-metallation]] when its concentration rises -- displacing iron from Fe-S clusters, zinc from zinc-finger proteins, and manganese from SOD active sites [[andrei-2020-copper-homeostasis-bacteria-ins-outs]]. Cells counter this by maintaining cytosolic copper at extraordinarily low free concentrations -- estimated at less than one free Cu+ ion per cell -- and delivering it exclusively through metallochaperones [[helmann-2025-labile-metal-pools-bacteria]], [[robinson-2020-metalation-natures-challenge]].
+Copper sits at the apex of the Irving-Williams series (Mg < Mn < Fe < Co < Ni < Cu > Zn), meaning it binds biological ligands more tightly than any other divalent metal ion [[robinson-2020-metalation-natures-challenge]]. This thermodynamic property makes copper the metal most likely to cause [[mis-metallation]] when its concentration rises -- displacing iron from Fe-S clusters, zinc from zinc-finger proteins, and manganese from SOD active sites [[andrei-2020-copper-homeostasis-bacteria-ins-outs]]. Cells counter this by maintaining cytosolic copper at extraordinarily low free concentrations -- estimated at less than one free Cu+ ion per cell -- and delivering it exclusively through metallochaperones [[helmann-2025-labile-metal-pools-bacteria]], [[robinson-2020-metalation-natures-challenge]].
 
 The host immune system exploits copper's toxicity as a deliberate antimicrobial weapon: macrophages pump copper into phagosomes at concentrations exceeding 500 uM to kill engulfed bacteria through Fe-S cluster destruction and Fenton chemistry [[bushman-2025-nutrient-metals-bacteria-gut-infection]], [[andrei-2020-copper-homeostasis-bacteria-ins-outs]]. Pathogens that lack copper efflux systems cannot survive inside host cells [[andrei-2020-copper-homeostasis-bacteria-ins-outs]]. This dual identity -- essential nutrient at trace levels, lethal weapon at elevated concentrations -- makes copper one of the most biologically consequential metals in human health.
 
@@ -33,12 +33,12 @@ The host immune system exploits copper's toxicity as a deliberate antimicrobial 
 - Intracellular copper trafficking involves ATP7A (Menkes protein, intestinal absorption) and ATP7B (Wilson disease protein, biliary excretion and ceruloplasmin loading).
 - Essential cofactor for: Cu/Zn-SOD (SOD1, antioxidant defense), cytochrome c oxidase (mitochondrial respiration), ceruloplasmin (iron oxidation), lysyl oxidase (collagen/elastin crosslinking), dopamine beta-hydroxylase (catecholamine synthesis), tyrosinase (melanin synthesis).
 - U-shaped dose-response curve: both deficiency and excess cause harm [[briffa-2020-heavy-metal-pollution-environment-toxicology]].
-- **Approximately 30% of all bacterial proteins depend on metals** for function; copper's position atop the Irving-Williams series makes it the most dangerous displacer when homeostasis fails [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
-- Almost all cuproenzymes in bacteria are metalated in the **periplasm** or at the membrane surface, not in the cytoplasm -- a key evolutionary strategy to prevent cytoplasmic copper toxicity [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
+- Approximately 30% of all bacterial proteins depend on metals for function; copper's position atop the Irving-Williams series makes it the most dangerous displacer when homeostasis fails [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
+- Almost all cuproenzymes in bacteria are metalated in the periplasm or at the membrane surface, not in the cytoplasm -- a key evolutionary strategy to prevent cytoplasmic copper toxicity [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
 
 ## Evolutionary Context
 
-Copper's biological role is shaped by Earth's geochemical history. On the early anoxic Earth (>2.4 Ga), copper was sequestered as insoluble copper sulfides (Cu2S, Ksp = 6.1 x 10^-49), making it virtually unavailable to life [[helmann-2025-labile-metal-pools-bacteria]]. The palaeo-metallome of 3.33-billion-year-old fossils shows modest copper enrichment relative to iron, vanadium, and nickel, consistent with limited bioavailability in anoxic oceans [[hickman-lewis-2020-metallomics-deep-time-ocean-chemistry]]. The **Great Oxygenation Event** (~2.4 Ga) oxidized sulfide minerals and released copper into solution, fundamentally changing its bioavailability [[helmann-2025-labile-metal-pools-bacteria]]. This drove the evolution of copper efflux systems, metallochaperones, and the integration of copper into aerobic enzymes like cytochrome c oxidase and SOD1 -- enzymes that became essential for oxygen-dependent metabolism.
+Copper's biological role is shaped by Earth's geochemical history. On the early anoxic Earth (>2.4 Ga), copper was sequestered as insoluble copper sulfides (Cu2S, Ksp = 6.1 x 10^-49), making it virtually unavailable to life [[helmann-2025-labile-metal-pools-bacteria]]. The palaeo-metallome of 3.33-billion-year-old fossils shows modest copper enrichment relative to iron, vanadium, and nickel, consistent with limited bioavailability in anoxic oceans [[hickman-lewis-2020-metallomics-deep-time-ocean-chemistry]]. The Great Oxygenation Event (~2.4 Ga) oxidized sulfide minerals and released copper into solution, fundamentally changing its bioavailability [[helmann-2025-labile-metal-pools-bacteria]]. This drove the evolution of copper efflux systems, metallochaperones, and the integration of copper into aerobic enzymes like cytochrome c oxidase and SOD1 -- enzymes that became essential for oxygen-dependent metabolism.
 
 ## Biological Roles
 
@@ -46,11 +46,11 @@ Copper's biological role is shaped by Earth's geochemical history. On the early 
 
 Copper is required by enzymes spanning energy metabolism, antioxidant defense, connective tissue integrity, and neurotransmitter synthesis:
 
-- **Cu/Zn-SOD (SOD1)**: Converts superoxide anion to hydrogen peroxide. Requires both copper (catalytic site) and zinc (structural). Disruption of SOD1 copper loading is implicated in motor neuron disease.
-- **Cytochrome c oxidase**: Terminal enzyme of the mitochondrial electron transport chain. Contains two copper centers (CuA, CuB). Bacterial cytochrome c oxidase biogenesis requires the dedicated copper importer CcoA [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
-- **Ceruloplasmin**: Ferroxidase that oxidizes Fe2+ to Fe3+ for transferrin loading. Contains six copper atoms per molecule. Its dysfunction in Wilson disease leads to iron accumulation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
-- **Lysyl oxidase (LOX)**: Cross-links collagen and elastin. Copper-dependent LOX also promotes tumor angiogenesis via VEGF signaling [[chen-2026-metalloimmunology-tumor-microenvironment]].
-- **Dopamine beta-hydroxylase**: Converts dopamine to norepinephrine. Copper deficiency impairs catecholamine synthesis, with implications for psychiatric conditions [[squitti-2025-serum-trace-metal-signature-psychiatric]].
+- Cu/Zn-SOD (SOD1): Converts superoxide anion to hydrogen peroxide. Requires both copper (catalytic site) and zinc (structural). Disruption of SOD1 copper loading is implicated in motor neuron disease.
+- Cytochrome c oxidase: Terminal enzyme of the mitochondrial electron transport chain. Contains two copper centers (CuA, CuB). Bacterial cytochrome c oxidase biogenesis requires the dedicated copper importer CcoA [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
+- Ceruloplasmin: Ferroxidase that oxidizes Fe2+ to Fe3+ for transferrin loading. Contains six copper atoms per molecule. Its dysfunction in Wilson disease leads to iron accumulation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
+- Lysyl oxidase (LOX): Cross-links collagen and elastin. Copper-dependent LOX also promotes tumor angiogenesis via VEGF signaling [[chen-2026-metalloimmunology-tumor-microenvironment]].
+- Dopamine beta-hydroxylase: Converts dopamine to norepinephrine. Copper deficiency impairs catecholamine synthesis, with implications for psychiatric conditions [[squitti-2025-serum-trace-metal-signature-psychiatric]].
 
 ### Copper in Wound Healing
 
@@ -62,20 +62,20 @@ Copper stabilizes hypoxia-inducible factor 1-alpha (HIF-1alpha) by mediating inh
 
 ## Dietary and Environmental Sources
 
-- **Dietary**: Liver and organ meats, shellfish (oysters), nuts, seeds, chocolate, whole grains, legumes. Beef consumption correlates with serum Cu in PCOS [[smovrsnik-2025-trace-elements-pcos]].
-- **Drinking water**: Copper pipes leach Cu, especially with acidic water; regulated by EPA and WHO.
-- **Environmental**: Farm soil contamination from pesticides and fungicides -- high soil Cu correlated with RA disease activity in Taiwan [[yang-2016-copper-farm-soils-rheumatoid-arthritis]]. Copper and nickel commonly co-contaminate freshwater environments (log-log correlation R2 = 0.493 across 239 global water bodies) [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
-- **Occupational**: Mining, smelting, welding, electronics manufacturing, brick kiln factories. A randomized controlled trial in Pakistani brick kiln workers (n=152) found blood Cu levels of 1,246 +/- 20.7 ug/L at baseline, substantially above population norms [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]].
-- **Supplements and devices**: Copper IUDs; multivitamins; some traditional remedies.
-- **Prenatal transfer**: Maternal hair trace element levels predict infant gut microbiome diversity; Shannon diversity in 3-month-old infants correlated negatively with copper exposure [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
+- Dietary: Liver and organ meats, shellfish (oysters), nuts, seeds, chocolate, whole grains, legumes. Beef consumption correlates with serum Cu in PCOS [[smovrsnik-2025-trace-elements-pcos]].
+- Drinking water: Copper pipes leach Cu, especially with acidic water; regulated by EPA and WHO.
+- Environmental: Farm soil contamination from pesticides and fungicides -- high soil Cu correlated with RA disease activity in Taiwan [[yang-2016-copper-farm-soils-rheumatoid-arthritis]]. Copper and nickel commonly co-contaminate freshwater environments (log-log correlation R2 = 0.493 across 239 global water bodies) [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
+- Occupational: Mining, smelting, welding, electronics manufacturing, brick kiln factories. A randomized controlled trial in Pakistani brick kiln workers (n=152) found blood Cu levels of 1,246 +/- 20.7 ug/L at baseline, substantially above population norms [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]].
+- Supplements and devices: Copper IUDs; multivitamins; some traditional remedies.
+- Prenatal transfer: Maternal hair trace element levels predict infant gut microbiome diversity; Shannon diversity in 3-month-old infants correlated negatively with copper exposure [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
 
 ## Mechanisms of Toxicity
 
 ### Fe-S Cluster Destruction (Primary Intracellular Target)
 
-The primary mechanism of copper toxicity at the molecular level is **destruction of iron-sulfur clusters** in metabolic enzymes. Copper binds to and destroys solvent-accessible Fe-S clusters in enzymes including isopropylmalate isomerase (IPMI, leucine biosynthesis), fumarase A (TCA cycle), and GOGAT (glutamate synthase, contains 4Fe-4S cluster), causing branched-chain amino acid auxotrophy and glutamate starvation [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]. This damage proceeds even under anaerobic conditions where ROS cannot form, demonstrating that Fe-S cluster destruction is independent of oxidative stress [[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]], [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]].
+The primary mechanism of copper toxicity at the molecular level is destruction of iron-sulfur clusters in metabolic enzymes. Copper binds to and destroys solvent-accessible Fe-S clusters in enzymes including isopropylmalate isomerase (IPMI, leucine biosynthesis), fumarase A (TCA cycle), and GOGAT (glutamate synthase, contains 4Fe-4S cluster), causing branched-chain amino acid auxotrophy and glutamate starvation [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]. This damage proceeds even under anaerobic conditions where ROS cannot form, demonstrating that Fe-S cluster destruction is independent of oxidative stress [[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]], [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]].
 
-**Synergistic metal toxicity**: When nickel and copper co-occur at environmentally relevant concentrations (30 uM Ni + 15 uM Cu), neither metal alone causes significant toxicity, but the combination triggers massive transcriptomic disruption with 70% of differentially expressed genes (360/512) uniquely affected by the combination. Iron-sulfur cluster assembly machinery (ISC) is upregulated only during combined exposure [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
+Synergistic metal toxicity: When nickel and copper co-occur at environmentally relevant concentrations (30 uM Ni + 15 uM Cu), neither metal alone causes significant toxicity, but the combination triggers massive transcriptomic disruption with 70% of differentially expressed genes (360/512) uniquely affected by the combination. Iron-sulfur cluster assembly machinery (ISC) is upregulated only during combined exposure [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
 
 ### Oxidative Stress via Fenton Chemistry
 
@@ -141,11 +141,11 @@ The host immune system deploys copper deliberately as a bactericidal agent -- a 
 
 ### Phagosomal Copper Burst
 
-Macrophages pump copper into phagolysosomes at concentrations exceeding **500 uM** to kill engulfed bacteria. This is mediated by the macrophage copper-ATPase ATP7A, which translocates to the phagosomal membrane during infection [[bushman-2025-nutrient-metals-bacteria-gut-infection]], [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]. The killing mechanism operates through Fe-S cluster destruction and Fenton chemistry, not through a single target -- making copper resistance require multiple simultaneous adaptations [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
+Macrophages pump copper into phagolysosomes at concentrations exceeding 500 uM to kill engulfed bacteria. This is mediated by the macrophage copper-ATPase ATP7A, which translocates to the phagosomal membrane during infection [[bushman-2025-nutrient-metals-bacteria-gut-infection]], [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]. The killing mechanism operates through Fe-S cluster destruction and Fenton chemistry, not through a single target -- making copper resistance require multiple simultaneous adaptations [[andrei-2020-copper-homeostasis-bacteria-ins-outs]].
 
 ### PGRP Triple-Stress Killing
 
-Host peptidoglycan recognition proteins (PGRPs) kill bacteria through a synergistic triple-stress mechanism: oxidative stress, glutathione (thiol) depletion, and metal intoxication. PGRPs induce **60-100x increases in intracellular Cu+** in target bacteria. Critically, chelation of copper with BCS completely abolished PGRP bactericidal activity, demonstrating that metal intoxication is a **required** component of immune killing, not a side effect [[kashyap-2014-pgrps-kill-bacteria-metal-stress]].
+Host peptidoglycan recognition proteins (PGRPs) kill bacteria through a synergistic triple-stress mechanism: oxidative stress, glutathione (thiol) depletion, and metal intoxication. PGRPs induce 60-100x increases in intracellular Cu+ in target bacteria. Critically, chelation of copper with BCS completely abolished PGRP bactericidal activity, demonstrating that metal intoxication is a required component of immune killing, not a side effect [[kashyap-2014-pgrps-kill-bacteria-metal-stress]].
 
 ### Copper on Contact Surfaces
 
@@ -161,43 +161,43 @@ Bacteria survive phagosomal copper through dedicated resistance systems. These s
 
 | System | Function | Organism | Reference |
 |--------|----------|----------|-----------|
-| **CopA** (P1B-type ATPase) | Primary cytoplasmic Cu+ exporter | Universal in bacteria | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
-| **CusFABC** (RND-type efflux) | Periplasmic Cu+ export | E. coli, Vibrio | [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]] |
-| **CueO** (multicopper oxidase) | Oxidizes Cu(I) to less toxic Cu(II) | E. coli | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
-| **CueR** (Cu-sensing regulator) | Activates copA and cueO expression | Multiple species | [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]] |
-| **Glutathione** | Buffers free Cu as Cu4GS6 clusters | Multiple species | [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]] |
-| **Csp** (Cu storage proteins) | Bind up to 80 Cu atoms per tetramer | Multiple species | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
-| **Methanobactin** | Copper metallophore (chalkophore) | Methanotrophs | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
+| CopA (P1B-type ATPase) | Primary cytoplasmic Cu+ exporter | Universal in bacteria | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
+| CusFABC (RND-type efflux) | Periplasmic Cu+ export | E. coli, Vibrio | [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]] |
+| CueO (multicopper oxidase) | Oxidizes Cu(I) to less toxic Cu(II) | E. coli | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
+| CueR (Cu-sensing regulator) | Activates copA and cueO expression | Multiple species | [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]] |
+| Glutathione | Buffers free Cu as Cu4GS6 clusters | Multiple species | [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]] |
+| Csp (Cu storage proteins) | Bind up to 80 Cu atoms per tetramer | Multiple species | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
+| Methanobactin | Copper metallophore (chalkophore) | Methanotrophs | [[andrei-2020-copper-homeostasis-bacteria-ins-outs]] |
 
 In *V. parahaemolyticus*, double deletion of copA and cusFABC significantly attenuates intestinal colonization in zebrafish, while single mutants remain virulent -- demonstrating functional redundancy in copper defense [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]]. In *S. agalactiae* (Group B Streptococcus), CopA is essential for survival within macrophages, and the hypervirulent ST-17 neonatal meningitis lineage shows enhanced copper stress resistance [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].
 
 ### Copper-Antibiotic Co-Selection
 
-Copper resistance genes can co-locate with antibiotic resistance genes on mobile genetic elements. The copper resistance gene *tcrB* is physically linked to *vanA* (vancomycin resistance) and *ermB* (macrolide resistance) on a single transferable plasmid in *Enterococcus faecium*. Copper exposure alone selects for macrolide and glycopeptide resistance [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]. Unlike antibiotics, metals are not degradable and thus represent a **persistent, indefinite selection pressure** for resistance gene maintenance [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
+Copper resistance genes can co-locate with antibiotic resistance genes on mobile genetic elements. The copper resistance gene *tcrB* is physically linked to *vanA* (vancomycin resistance) and *ermB* (macrolide resistance) on a single transferable plasmid in *Enterococcus faecium*. Copper exposure alone selects for macrolide and glycopeptide resistance [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]. Unlike antibiotics, metals are not degradable and thus represent a persistent, indefinite selection pressure for resistance gene maintenance [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
 
 ### Copper-Drug Synergies
 
 Several compounds enhance copper's antimicrobial activity by overwhelming bacterial defenses:
-- **Disulfiram** (FDA-approved): Synergizes with copper to kill *M. tuberculosis* and *S. aureus* without increasing intracellular copper, penetrating the cell envelope in a porin-independent manner [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]
-- **PBT2** (zinc ionophore): Breaks antibiotic resistance in *S. pyogenes*, *S. aureus*, and *E. faecalis*; reduces MICs of erythromycin, methicillin, and vancomycin [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]
-- **Cu-bisthiosemicarbazones**: Membrane-permeable copper ionophores showing enhanced toxicity against *N. gonorrhoeae* [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]
-- **8-hydroxyquinoline (8HQ)**: Potent copper-dependent bactericidal compound against *M. tuberculosis* [[andrei-2020-copper-homeostasis-bacteria-ins-outs]]
+- Disulfiram (FDA-approved): Synergizes with copper to kill *M. tuberculosis* and *S. aureus* without increasing intracellular copper, penetrating the cell envelope in a porin-independent manner [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]
+- PBT2 (zinc ionophore): Breaks antibiotic resistance in *S. pyogenes*, *S. aureus*, and *E. faecalis*; reduces MICs of erythromycin, methicillin, and vancomycin [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]
+- Cu-bisthiosemicarbazones: Membrane-permeable copper ionophores showing enhanced toxicity against *N. gonorrhoeae* [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]
+- 8-hydroxyquinoline (8HQ): Potent copper-dependent bactericidal compound against *M. tuberculosis* [[andrei-2020-copper-homeostasis-bacteria-ins-outs]]
 
 ## Conditions Associated
 
 ### Cancer (Nearly Universal Elevation)
 
-**Cu is elevated in blood/serum/plasma across virtually all cancer types studied** -- the most consistent metallomic finding in cancer biology [[zhang-2022-metallomics-cancer-review]].
+Cu is elevated in blood/serum/plasma across virtually all cancer types studied -- the most consistent metallomic finding in cancer biology [[zhang-2022-metallomics-cancer-review]].
 
-- **Breast cancer**: Significantly higher Cu in plasma/serum and tissue; SMD 2.44 (1.80, 3.09) in Africa/Europe. Associated with lysyl oxidase-like proteins and GPER1 signaling [[liu-2022-heavy-metals-breast-cancer-meta-analysis]], [[ali-2024-heavy-metals-breast-cancer-review]].
-- **Lung cancer**: Elevated in serum alongside disrupted Cu-Fe and Cu-Zn correlations [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
-- **Prostate cancer**: Significantly increased (1.69 vs 1.02 ug/mL, p < 0.005) with corresponding Zn decrease [[saleh-2020-serum-trace-elements-prostate-cancer]].
-- **Pancreatic cancer**: Urinary Cu significantly higher in PDAC; combined Ca/Mg/Cu/Zn panel achieves 99.5% sensitivity [[schilling-2020-urine-metallomics-pancreatic-cancer]].
-- **Hepatocellular carcinoma**: Cu was the only metal higher in tumor tissue than non-tumoral liver in the French cohort (median 12.35 ug/g), consistent with tumor copper accumulation for angiogenesis via HIF-1alpha stabilization. This pattern was observed across geographically distinct cohorts (Peru and France) despite dramatically different environmental contexts [[cano-2021-metallomic-profile-hepatocellular-carcinoma]].
-- **Colorectal cancer**: Cu/Zn ratio first suggested as a CRC marker [[zhang-2022-metallomics-cancer-review]].
-- **Thyroid cancer**: Cu elevated among multiple altered metals [[zhang-2022-metallomics-cancer-review]].
-- **Copper chelators reshape the immunosuppressive tumor microenvironment**, converting it from immune-evasive to immune-permissive. Copper ionophores (e.g., elesclomol) can induce cuproptosis selectively in tumor cells with higher copper uptake [[chen-2026-metalloimmunology-tumor-microenvironment]].
-- **However**: Toenail Cu showed no association with breast cancer risk in the Sister Study prospective analysis, suggesting biomarker matrix matters [[niehoff-2021-metals-breast-cancer-toenail]].
+- Breast cancer: Significantly higher Cu in plasma/serum and tissue; SMD 2.44 (1.80, 3.09) in Africa/Europe. Associated with lysyl oxidase-like proteins and GPER1 signaling [[liu-2022-heavy-metals-breast-cancer-meta-analysis]], [[ali-2024-heavy-metals-breast-cancer-review]].
+- Lung cancer: Elevated in serum alongside disrupted Cu-Fe and Cu-Zn correlations [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
+- Prostate cancer: Significantly increased (1.69 vs 1.02 ug/mL, p < 0.005) with corresponding Zn decrease [[saleh-2020-serum-trace-elements-prostate-cancer]].
+- Pancreatic cancer: Urinary Cu significantly higher in PDAC; combined Ca/Mg/Cu/Zn panel achieves 99.5% sensitivity [[schilling-2020-urine-metallomics-pancreatic-cancer]].
+- Hepatocellular carcinoma: Cu was the only metal higher in tumor tissue than non-tumoral liver in the French cohort (median 12.35 ug/g), consistent with tumor copper accumulation for angiogenesis via HIF-1alpha stabilization. This pattern was observed across geographically distinct cohorts (Peru and France) despite dramatically different environmental contexts [[cano-2021-metallomic-profile-hepatocellular-carcinoma]].
+- Colorectal cancer: Cu/Zn ratio first suggested as a CRC marker [[zhang-2022-metallomics-cancer-review]].
+- Thyroid cancer: Cu elevated among multiple altered metals [[zhang-2022-metallomics-cancer-review]].
+- Copper chelators reshape the immunosuppressive tumor microenvironment, converting it from immune-evasive to immune-permissive. Copper ionophores (e.g., elesclomol) can induce cuproptosis selectively in tumor cells with higher copper uptake [[chen-2026-metalloimmunology-tumor-microenvironment]].
+- However: Toenail Cu showed no association with breast cancer risk in the Sister Study prospective analysis, suggesting biomarker matrix matters [[niehoff-2021-metals-breast-cancer-toenail]].
 
 ### PCOS (Consistently Elevated)
 
@@ -205,7 +205,7 @@ Several compounds enhance copper's antimicrobial activity by overwhelming bacter
 - Confirmed in large retrospective study (n=766): PCOS 17.27 vs controls 15.4 mcmol/L (p < 0.001) [[liu-2024-copper-pcos-ivf]].
 - Cu positively correlates with BMI (r = 0.198) and triglycerides (r = 0.214) in PCOS -- reflects metabolic status [[liu-2024-copper-pcos-ivf]].
 - Cu-serum levels positively correlate with leukocyte count in PCOS women, suggesting a role in inflammatory/oxidative stress response [[smovrsnik-2025-trace-elements-pcos]].
-- **One contradictory study** (Kirmizi 2020) found lower Cu in PCOS; when removed from meta-analysis, heterogeneity dropped from I2=78% to 43% [[jiang-2021-copper-pcos-meta-analysis]], [[kirmizi-2020-heavy-metals-pcos]].
+- One contradictory study (Kirmizi 2020) found lower Cu in PCOS; when removed from meta-analysis, heterogeneity dropped from I2=78% to 43% [[jiang-2021-copper-pcos-meta-analysis]], [[kirmizi-2020-heavy-metals-pcos]].
 - Cu does NOT independently predict IVF outcomes, suggesting it reflects metabolic status rather than directly causing reproductive failure [[liu-2024-copper-pcos-ivf]].
 
 ### Cardiovascular Disease / AMI
@@ -217,9 +217,9 @@ Several compounds enhance copper's antimicrobial activity by overwhelming bacter
 
 ### Psychiatric Disorders (Transdiagnostic Elevation)
 
-- In a study of 168 psychiatric patients (mood disorders, schizophrenia spectrum, personality disorders), the **Cu/Zn ratio was the most consistent discriminator** across all subgroups (MHD 1.16 vs HC 0.75, p < 0.001) [[squitti-2025-serum-trace-metal-signature-psychiatric]].
+- In a study of 168 psychiatric patients (mood disorders, schizophrenia spectrum, personality disorders), the Cu/Zn ratio was the most consistent discriminator across all subgroups (MHD 1.16 vs HC 0.75, p < 0.001) [[squitti-2025-serum-trace-metal-signature-psychiatric]].
 - The copper PCA component was associated with 84% increased odds of psychiatric disease per unit increase (OR = 1.84, p = 0.047) [[squitti-2025-serum-trace-metal-signature-psychiatric]].
-- A combined multi-metal model (Zn, TF, Fe, Cu PCA components + age/sex) achieved **AUC = 0.92** for distinguishing psychiatric patients from controls [[squitti-2025-serum-trace-metal-signature-psychiatric]].
+- A combined multi-metal model (Zn, TF, Fe, Cu PCA components + age/sex) achieved AUC = 0.92 for distinguishing psychiatric patients from controls [[squitti-2025-serum-trace-metal-signature-psychiatric]].
 - Cu elevation was significant only in women (16.3 vs 14.5 uM, p = 0.026), highlighting sex-dependent metal metabolism [[squitti-2025-serum-trace-metal-signature-psychiatric]].
 
 ### Rheumatoid Arthritis (Conflicting Findings)
@@ -229,20 +229,20 @@ Several compounds enhance copper's antimicrobial activity by overwhelming bacter
 
 ### Neurodegeneration (Brain Cu Decreased)
 
-- **Widespread Cu decreases** are a common feature across all three dementias (DLB, AD, PDD), the most widespread brain metallomic alteration [[scholefield-2024-brain-metallomics-dementia]].
+- Widespread Cu decreases are a common feature across all three dementias (DLB, AD, PDD), the most widespread brain metallomic alteration [[scholefield-2024-brain-metallomics-dementia]].
 - Cu decreases in 5/10 brain regions in DLB; Cu changes contributed most to VIP scores in PLS-DA disease separation [[scholefield-2024-brain-metallomics-dementia]].
 - Cu-amyloid-beta complexes are highly toxic; AD brains show paradoxical redistribution -- increased Cu in plaques but decreased intracellular Cu [[islam-2022-metal-toxicity-alzheimers-extensive-review]].
 - Ceruloplasmin dysfunction alters copper distribution; Wilson's disease serves as a model of Cu neurotoxicity [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
 
 ### Autism Spectrum Disorder (Variable)
 
-- A systematic review/meta-analysis of ASD biomedical factors (43 studies, N=577 for copper) found **no significant difference** in copper between ASD children and controls (MD = 0.293, p = 0.726) [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]]. This meta-analytic null finding supersedes individual study reports of copper elevation per the evidence hierarchy.
-- However, a **metal profile** approach suggests the copper-zinc ratio (rather than copper alone) may be clinically relevant: autistic individuals had significantly elevated plasma Cu/Zn ratio, and zinc therapy reduced copper only in the ASD subgroup with concurrent GI disease [[russo-2011-copper-zinc-autism-gi-disease]].
+- A systematic review/meta-analysis of ASD biomedical factors (43 studies, N=577 for copper) found no significant difference in copper between ASD children and controls (MD = 0.293, p = 0.726) [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]]. This meta-analytic null finding supersedes individual study reports of copper elevation per the evidence hierarchy.
+- However, a metal profile approach suggests the copper-zinc ratio (rather than copper alone) may be clinically relevant: autistic individuals had significantly elevated plasma Cu/Zn ratio, and zinc therapy reduced copper only in the ASD subgroup with concurrent GI disease [[russo-2011-copper-zinc-autism-gi-disease]].
 - ASD candidate genes include COMMD1 (copper metabolism) and MTF1 (metal regulatory transcription), linking genetic variation in copper handling to ASD risk [[blazewicz-2023-metal-profiles-asd]].
 
 ### Fibromyalgia (Causal Signal)
 
-- Two-sample Mendelian randomization (n > 400,000) established a causal association between higher copper status and fibromyalgia risk (**OR = 1.095, p = 0.018**), with iron showing an inverse association (OR = 0.440, p = 0.012) [[zeng-2025-copper-iron-trace-elements-fibromyalgia-mr]].
+- Two-sample Mendelian randomization (n > 400,000) established a causal association between higher copper status and fibromyalgia risk (OR = 1.095, p = 0.018), with iron showing an inverse association (OR = 0.440, p = 0.012) [[zeng-2025-copper-iron-trace-elements-fibromyalgia-mr]].
 - No significant causal signal for Ca, Zn, Se, Mg, or folate in the same analysis, making Cu-Fe the dominant trace-element axis in fibromyalgia [[zeng-2025-copper-iron-trace-elements-fibromyalgia-mr]].
 
 ### Kidney Disease
@@ -266,23 +266,23 @@ Ceruloplasmin is an acute-phase reactant that rises during inflammation. Since >
 ## The Cu/Zn Ratio
 
 The Cu/Zn ratio emerges as one of the most consistent disease biomarkers across the wiki:
-- **Elevated** in breast, prostate, colorectal, pancreatic, and other cancers [[zhang-2022-metallomics-cancer-review]].
-- **Elevated** in PCOS (most studies) [[jiang-2021-copper-pcos-meta-analysis]].
-- **Elevated** in AMI [[lim-2023-plasma-metallomics-ami]].
-- **Elevated** across all psychiatric subgroups (mood, schizophrenia, personality disorders), where it was the most consistent single discriminator with AUC = 0.77 [[squitti-2025-serum-trace-metal-signature-psychiatric]].
+- Elevated in breast, prostate, colorectal, pancreatic, and other cancers [[zhang-2022-metallomics-cancer-review]].
+- Elevated in PCOS (most studies) [[jiang-2021-copper-pcos-meta-analysis]].
+- Elevated in AMI [[lim-2023-plasma-metallomics-ami]].
+- Elevated across all psychiatric subgroups (mood, schizophrenia, personality disorders), where it was the most consistent single discriminator with AUC = 0.77 [[squitti-2025-serum-trace-metal-signature-psychiatric]].
 - The ratio captures the simultaneous Cu accumulation and Zn depletion that characterizes many disease states.
 - In prostate cancer, the mechanism may involve Cu displacing Zn from metallothionein due to higher binding affinity [[saleh-2020-serum-trace-elements-prostate-cancer]].
 - Recognized as a biomarker of systemic inflammation and oxidative stress; mechanistically, excess Cu displaces Zn from metallothionein, reducing Zn-dependent protein function while simultaneously generating oxidative stress via Fenton-type reactions [[squitti-2025-serum-trace-metal-signature-psychiatric]].
 
 ## Interactions with Other Metals
 
-- **[[zinc]]**: The most important interaction. Cu and Zn compete for metallothionein binding, intestinal absorption (DMT-1), and SOD1 cofactor sites. Elevated Cu/Zn ratio is a pan-disease biomarker. Zinc supplementation induces metallothionein in enterocytes, which binds copper with high affinity and prevents its absorption -- the basis for zinc therapy in Wilson's disease [[russo-2011-copper-zinc-autism-gi-disease]].
-- **[[iron]]**: Cu is required for ceruloplasmin-mediated iron oxidation (Fe2+ to Fe3+); Cu deficiency impairs iron metabolism. Fe/Cu ratio is an AMI biomarker [[lim-2023-plasma-metallomics-ami]]. Cu+ destroys Fe-S clusters in metabolic enzymes, causing iron starvation responses even when total iron is adequate [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]].
-- **[[nickel]]**: Co-elevated in lung cancer; commonly co-contaminates freshwater. At environmentally relevant concentrations, Ni and Cu are synergistically toxic through converging Fe-S cluster destruction -- 70% of affected genes are unique to the combination [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]. Histidine supplementation rescues combined Ni/Cu toxicity by chelating both metals [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
-- **Molybdenum**: Antagonistic relationship -- excess Cu decreases Mo absorption by forming non-absorbable Cu-Mo complexes in the GI tract. Mo deficiency may exacerbate Cu excess [[smovrsnik-2025-trace-elements-pcos]]. Copper chelators like tetrathiomolybdate exploit this interaction therapeutically.
-- **[[selenium]]**: Cu/Se ratio is an AMI biomarker; both are altered in cancer [[lim-2023-plasma-metallomics-ami]].
-- **[[cadmium]]**: Cd disrupts Cu homeostasis; both are elevated in cancer biofluids.
-- **[[manganese]]**: Copper displaces manganese from Mn-dependent enzymes including SodA, compromising antioxidant defense [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]. Calprotectin-mediated Mn restriction synergizes with copper toxicity in the phagosome [[bushman-2025-nutrient-metals-bacteria-gut-infection]].
+- [[zinc]]: The most important interaction. Cu and Zn compete for metallothionein binding, intestinal absorption (DMT-1), and SOD1 cofactor sites. Elevated Cu/Zn ratio is a pan-disease biomarker. Zinc supplementation induces metallothionein in enterocytes, which binds copper with high affinity and prevents its absorption -- the basis for zinc therapy in Wilson's disease [[russo-2011-copper-zinc-autism-gi-disease]].
+- [[iron]]: Cu is required for ceruloplasmin-mediated iron oxidation (Fe2+ to Fe3+); Cu deficiency impairs iron metabolism. Fe/Cu ratio is an AMI biomarker [[lim-2023-plasma-metallomics-ami]]. Cu+ destroys Fe-S clusters in metabolic enzymes, causing iron starvation responses even when total iron is adequate [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]].
+- [[nickel]]: Co-elevated in lung cancer; commonly co-contaminates freshwater. At environmentally relevant concentrations, Ni and Cu are synergistically toxic through converging Fe-S cluster destruction -- 70% of affected genes are unique to the combination [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]. Histidine supplementation rescues combined Ni/Cu toxicity by chelating both metals [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
+- Molybdenum: Antagonistic relationship -- excess Cu decreases Mo absorption by forming non-absorbable Cu-Mo complexes in the GI tract. Mo deficiency may exacerbate Cu excess [[smovrsnik-2025-trace-elements-pcos]]. Copper chelators like tetrathiomolybdate exploit this interaction therapeutically.
+- [[selenium]]: Cu/Se ratio is an AMI biomarker; both are altered in cancer [[lim-2023-plasma-metallomics-ami]].
+- [[cadmium]]: Cd disrupts Cu homeostasis; both are elevated in cancer biofluids.
+- [[manganese]]: Copper displaces manganese from Mn-dependent enzymes including SodA, compromising antioxidant defense [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]. Calprotectin-mediated Mn restriction synergizes with copper toxicity in the phagosome [[bushman-2025-nutrient-metals-bacteria-gut-infection]].
 
 ## Biomarkers
 
@@ -315,14 +315,14 @@ The Cu/Zn ratio emerges as one of the most consistent disease biomarkers across 
 
 ## Open Questions
 
-1. **Why is Cu elevated in so many diseases?** Is it a cause, consequence (acute-phase response), or mediator of disease? Ceruloplasmin is an acute-phase reactant, so inflammation alone could drive Cu elevation -- but the consistency across cancers, PCOS, AMI, psychiatry, and RA suggests a deeper biological pattern.
-2. **Brain Cu paradox**: Cu is decreased in neurodegenerative brain tissue but often elevated in serum. Is the problem one of redistribution rather than total body copper?
-3. **Gut-tumor metal axis**: Does the gut microbiome's metal metabolism influence systemic metal availability and thus tumor microenvironment copper composition [[chen-2026-metalloimmunology-tumor-microenvironment]]?
-4. **Cuproplasia as a therapeutic target**: Can Cu-dependent cancer cell growth be inhibited without disrupting essential Cu-dependent enzymes?
-5. **Copper-antibiotic co-selection**: How much does environmental copper contamination contribute to the global antibiotic resistance burden [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]?
-6. **Synergistic metal toxicity**: Most toxicological studies examine metals individually, but real-world exposures are mixtures. The Ni-Cu synergy data [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]] suggests current risk assessments systematically underestimate harm.
-7. **Cu/Zn ratio clinical utility**: Could this ratio be standardized as a screening biomarker across cancer, psychiatric, and cardiovascular contexts?
-8. **Infant metal programming**: How do prenatal copper levels shape the developing gut microbiome and influence long-term disease risk [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]], [[yan-2025-infant-serum-metals-gut-microbiota]]?
+1. Why is Cu elevated in so many diseases? Is it a cause, consequence (acute-phase response), or mediator of disease? Ceruloplasmin is an acute-phase reactant, so inflammation alone could drive Cu elevation -- but the consistency across cancers, PCOS, AMI, psychiatry, and RA suggests a deeper biological pattern.
+2. Brain Cu paradox: Cu is decreased in neurodegenerative brain tissue but often elevated in serum. Is the problem one of redistribution rather than total body copper?
+3. Gut-tumor metal axis: Does the gut microbiome's metal metabolism influence systemic metal availability and thus tumor microenvironment copper composition [[chen-2026-metalloimmunology-tumor-microenvironment]]?
+4. Cuproplasia as a therapeutic target: Can Cu-dependent cancer cell growth be inhibited without disrupting essential Cu-dependent enzymes?
+5. Copper-antibiotic co-selection: How much does environmental copper contamination contribute to the global antibiotic resistance burden [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]?
+6. Synergistic metal toxicity: Most toxicological studies examine metals individually, but real-world exposures are mixtures. The Ni-Cu synergy data [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]] suggests current risk assessments systematically underestimate harm.
+7. Cu/Zn ratio clinical utility: Could this ratio be standardized as a screening biomarker across cancer, psychiatric, and cardiovascular contexts?
+8. Infant metal programming: How do prenatal copper levels shape the developing gut microbiome and influence long-term disease risk [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]], [[yan-2025-infant-serum-metals-gut-microbiota]]?
 
 ## Cross-References
 

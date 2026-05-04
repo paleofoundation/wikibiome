@@ -28,7 +28,7 @@ The [[metal-disease-matrix]] identifies PCOS's metallomic profile as: Ni ↑, Cu
 
 ### Copper: The Most Robust Finding
 
-**Serum copper is significantly elevated in PCOS** -- the single most replicated metallomic finding in this disease.
+Serum copper is significantly elevated in PCOS -- the single most replicated metallomic finding in this disease.
 
 - Meta-analysis of 9 studies (n=2,274) confirmed elevated Cu with SMD = 0.51 (95% CI 0.30-0.72, p < 0.0001) [[jiang-2021-copper-pcos-meta-analysis]]. When the sole contradictory study [[kirmizi-2020-heavy-metals-pcos]] was removed, SMD increased to 0.59 with reduced heterogeneity (I2 from 78% to 43%).
 - Replicated in a large n=766 IVF cohort [[liu-2024-copper-pcos-ivf]].
@@ -89,7 +89,7 @@ PCOS is increasingly recognized as a disease with a strong gut microbiome compon
 - Probiotics significantly decrease FPG, FBI, TG, and inflammatory markers (CRP, MDA) across multiple meta-analyses [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]].
 - Prebiotics decrease BMI, waist circumference, and FPG more effectively than probiotics alone [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]].
 - Vitamin D + probiotic co-supplementation (L. acidophilus, B. bifidum, L. reuteri, L. fermentum) for 12 weeks significantly reduced testosterone, hirsutism, hs-CRP, and MDA while increasing TAC and GSH [[ostadmohammadi-2019-vitamin-d-probiotic-pcos]].
-- **FMT transfer of the PCOS microbiome** to germ-free mice induced insulin resistance, ovarian dysfunction, and obese-like phenotype -- direct causal evidence that gut dysbiosis drives PCOS pathology [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]].
+- FMT transfer of the PCOS microbiome to germ-free mice induced insulin resistance, ovarian dysfunction, and obese-like phenotype -- direct causal evidence that gut dysbiosis drives PCOS pathology [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]].
 - Combined bacteriome-mycobiome-metabolome analysis reveals hyperandrogenemia as a central driver of PCOS dysbiosis, with Mortierella enrichment distinguishing PCOS from healthy controls [[yin-2022-bacteriome-mycobiome-metabolome-pcos]].
 - *Lactobacillus* depletion and altered Bifidobacterium abundance are replicated findings; restoration with specific probiotic strains improves androgen and metabolic markers [[ostadmohammadi-2019-vitamin-d-probiotic-pcos]] [[calcaterra-2023-probiotics-pcos-adolescents]].
 - The metal-microbiome interaction is bidirectional: toxic metals reshape gut flora (favoring metal-tolerant species), and dysbiotic gut flora impairs metal detoxification and antioxidant capacity.
@@ -135,12 +135,12 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 
 ## Open Questions
 
-1. **Does nickel sensitization modify PCOS severity?** Nickel allergy affects up to 17.6% of women; no study has examined whether nickel-allergic PCOS patients have worse outcomes or respond differently to dietary intervention.
-2. **Is the Cu/Zn ratio a better biomarker than either element alone?** Conflicting Zn results suggest the ratio captures the relevant biology more reliably.
-3. **Can low-nickel diets improve PCOS outcomes?** Given Ni elevation [[tatarchuk-2016-micro-macroelements-pcos]] and metalloestrogen activity [[aquino-2012-cadmium-nickel-metalloestrogens]], this is a testable hypothesis with no current trial data.
-4. **Does antimony (Sb) deserve more attention?** Only one study measured it [[kirmizi-2020-heavy-metals-pcos]], but its correlation with HOMA-IR is provocative.
-5. **What is the optimal probiotic strain for metal-burdened PCOS patients?** Metal-sequestering Lactobacillus strains exist but have not been tested specifically in PCOS.
-6. **Causal direction**: Are elevated metals a cause of PCOS, a consequence of metabolic dysfunction, or both? Longitudinal and Mendelian randomization studies are needed.
+1. Does nickel sensitization modify PCOS severity? Nickel allergy affects up to 17.6% of women; no study has examined whether nickel-allergic PCOS patients have worse outcomes or respond differently to dietary intervention.
+2. Is the Cu/Zn ratio a better biomarker than either element alone? Conflicting Zn results suggest the ratio captures the relevant biology more reliably.
+3. Can low-nickel diets improve PCOS outcomes? Given Ni elevation [[tatarchuk-2016-micro-macroelements-pcos]] and metalloestrogen activity [[aquino-2012-cadmium-nickel-metalloestrogens]], this is a testable hypothesis with no current trial data.
+4. Does antimony (Sb) deserve more attention? Only one study measured it [[kirmizi-2020-heavy-metals-pcos]], but its correlation with HOMA-IR is provocative.
+5. What is the optimal probiotic strain for metal-burdened PCOS patients? Metal-sequestering Lactobacillus strains exist but have not been tested specifically in PCOS.
+6. Causal direction: Are elevated metals a cause of PCOS, a consequence of metabolic dysfunction, or both? Longitudinal and Mendelian randomization studies are needed.
 
 ## Comorbidities
 
@@ -161,12 +161,12 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 
 ## Connections
 
-- **Metals**: [[copper]], [[nickel]], [[zinc]], [[cadmium]], [[lead]], [[mercury]], [[arsenic]], [[manganese]]
-- **Concepts**: [[metalloestrogens]], [[oxidative-stress|oxidative stress]], [[insulin-resistance]], [[mis-metallation]]
-- **Analyses**: [[metal-disease-matrix]], [[dietary-metal-paradoxes]]
-- **Related diseases**: [[breast-cancer]] (shared metalloestrogen pathway), [[type-2-diabetes]] (shared insulin resistance and metal signature), [[autism-spectrum-disorder]] (shared Zn depletion and toxic metal burden)
-- **Pathogens**: Indirect -- gut dysbiosis patterns overlap with metal-driven dysbiosis described in 
-- **Interventions**: [[mediterranean-diet]], [[probiotics]], [[ketogenic-diet]], [[zinc-supplementation]]
+- Metals: [[copper]], [[nickel]], [[zinc]], [[cadmium]], [[lead]], [[mercury]], [[arsenic]], [[manganese]]
+- Concepts: [[metalloestrogens]], [[oxidative-stress|oxidative stress]], [[insulin-resistance]], [[mis-metallation]]
+- Analyses: [[metal-disease-matrix]], [[dietary-metal-paradoxes]]
+- Related diseases: [[breast-cancer]] (shared metalloestrogen pathway), [[type-2-diabetes]] (shared insulin resistance and metal signature), [[autism-spectrum-disorder]] (shared Zn depletion and toxic metal burden)
+- Pathogens: Indirect -- gut dysbiosis patterns overlap with metal-driven dysbiosis described in 
+- Interventions: [[mediterranean-diet]], [[probiotics]], [[ketogenic-diet]], [[zinc-supplementation]]
 - [[prebiotics]] -- prebiotic fiber supports gut microbiome restoration and insulin sensitization in PCOS
 - [[environmental-metal-exposure]] -- dietary and cosmetic metal exposures contribute to PCOS metal burden
 - [[biomarkers]] -- Cu/Zn ratio, toxic metal panels, and hormonal markers for PCOS diagnosis and monitoring

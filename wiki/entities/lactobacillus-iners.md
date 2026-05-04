@@ -22,40 +22,40 @@ conditions_depleted_in: []
 
 # Lactobacillus iners
 
-***Lactobacillus iners*** is a Gram-positive, facultatively anaerobic bacterium that dominates the vaginal microbiome of many women worldwide, defining **Community State Type III (CST-III)** in vaginal microbiome classification. For decades, all vaginal *Lactobacillus* species were assumed to be protective. The accumulating evidence tells a different story: *L. iners* is increasingly recognized as a **dysbiosis marker** rather than a guardian of vaginal health.
+*Lactobacillus iners* is a Gram-positive, facultatively anaerobic bacterium that dominates the vaginal microbiome of many women worldwide, defining Community State Type III (CST-III) in vaginal microbiome classification. For decades, all vaginal *Lactobacillus* species were assumed to be protective. The accumulating evidence tells a different story: *L. iners* is increasingly recognized as a dysbiosis marker rather than a guardian of vaginal health.
 
-This distinction matters enormously for clinical interpretation. A vaginal microbiome report showing "Lactobacillus-dominant" is reassuring only if the dominant species is [[lactobacillus-crispatus]] (CST-I). When *L. iners* dominates, the microbiome is often in a **transitional state** -- compatible with low diversity, active pathogen colonization, and progression toward bacterial vaginosis or disease.
+This distinction matters enormously for clinical interpretation. A vaginal microbiome report showing "Lactobacillus-dominant" is reassuring only if the dominant species is [[lactobacillus-crispatus]] (CST-I). When *L. iners* dominates, the microbiome is often in a transitional state -- compatible with low diversity, active pathogen colonization, and progression toward bacterial vaginosis or disease.
 
 ## Metal Dependencies
 
-- **Manganese**: *L. iners* relies on manganese-dependent enzymes for oxidative stress defense. Unlike *L. crispatus*, which produces robust hydrogen peroxide, *L. iners* produces minimal H2O2 -- a critical functional deficit.
-- **Iron**: Required for basic metabolic processes, though *L. iners* has a streamlined genome with reduced biosynthetic capacity compared to other vaginal lactobacilli.
+- Manganese: *L. iners* relies on manganese-dependent enzymes for oxidative stress defense. Unlike *L. crispatus*, which produces robust hydrogen peroxide, *L. iners* produces minimal H2O2 -- a critical functional deficit.
+- Iron: Required for basic metabolic processes, though *L. iners* has a streamlined genome with reduced biosynthetic capacity compared to other vaginal lactobacilli.
 
 ## Key Enzymes and Virulence Factors
 
 The key distinction between *L. iners* and protective vaginal lactobacilli lies in its enzymatic profile:
 
-- **Inerolysin**: A cholesterol-dependent cytolysin (CDC) unique to *L. iners*. This pore-forming toxin can damage vaginal epithelial cells and may contribute to the breakdown of the mucosal barrier. No other vaginal *Lactobacillus* produces a CDC.
-- **L-lactate dehydrogenase**: *L. iners* produces only **L-lactic acid**, whereas *L. crispatus* produces both D- and L-lactic acid. D-lactic acid is the form with stronger antimicrobial activity and is associated with greater protection against HIV and other sexually transmitted infections.
-- **Absent H2O2 production**: *L. iners* produces little to no hydrogen peroxide, eliminating a key antimicrobial mechanism that other vaginal lactobacilli use to suppress pathobionts.
-- **Minimal bacteriocin production**: Unlike *L. crispatus*, *L. iners* has a reduced genome (~1.3 Mb, among the smallest of lactobacilli) with limited capacity for antimicrobial peptide synthesis.
+- Inerolysin: A cholesterol-dependent cytolysin (CDC) unique to *L. iners*. This pore-forming toxin can damage vaginal epithelial cells and may contribute to the breakdown of the mucosal barrier. No other vaginal *Lactobacillus* produces a CDC.
+- L-lactate dehydrogenase: *L. iners* produces only L-lactic acid, whereas *L. crispatus* produces both D- and L-lactic acid. D-lactic acid is the form with stronger antimicrobial activity and is associated with greater protection against HIV and other sexually transmitted infections.
+- Absent H2O2 production: *L. iners* produces little to no hydrogen peroxide, eliminating a key antimicrobial mechanism that other vaginal lactobacilli use to suppress pathobionts.
+- Minimal bacteriocin production: Unlike *L. crispatus*, *L. iners* has a reduced genome (~1.3 Mb, among the smallest of lactobacilli) with limited capacity for antimicrobial peptide synthesis.
 
 ## Ecological Role
 
-*L. iners* occupies a paradoxical ecological position -- it is a *Lactobacillus* that **does not protect**:
+*L. iners* occupies a paradoxical ecological position -- it is a *Lactobacillus* that does not protect:
 
-- **Transitional state indicator**: *L. iners*-dominant communities are frequently the transitional state between *L. crispatus* dominance (healthy) and BV-associated polymicrobial dysbiosis. Women can shift rapidly from CST-III to CST-IV (BV) and back.
-- **Pathogen permissive**: In women with tubal infertility and *Chlamydia trachomatis* infection, the vaginal microbiota was *L. iners*-dominated rather than *L. crispatus*-dominated, with significantly lower Shannon diversity. *L. crispatus* (not *L. iners*) is the species that restricts CT colonization ([[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]], case-control, n=25).
-- **Failure to suppress *S. aureus***: In PCOS vaginal microbiomes, *L. iners* did not correlate with *S. aureus* suppression, reinforcing that it lacks the antimicrobial activity of *L. crispatus* ([[zheng-2024-pcos-obesity-vaginal-microbiome-phages]], cross-sectional).
+- Transitional state indicator: *L. iners*-dominant communities are frequently the transitional state between *L. crispatus* dominance (healthy) and BV-associated polymicrobial dysbiosis. Women can shift rapidly from CST-III to CST-IV (BV) and back.
+- Pathogen permissive: In women with tubal infertility and *Chlamydia trachomatis* infection, the vaginal microbiota was *L. iners*-dominated rather than *L. crispatus*-dominated, with significantly lower Shannon diversity. *L. crispatus* (not *L. iners*) is the species that restricts CT colonization ([[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]], case-control, n=25).
+- Failure to suppress *S. aureus*: In PCOS vaginal microbiomes, *L. iners* did not correlate with *S. aureus* suppression, reinforcing that it lacks the antimicrobial activity of *L. crispatus* ([[zheng-2024-pcos-obesity-vaginal-microbiome-phages]], cross-sectional).
 
 ## Conditions Associated
 
 ### Enriched in:
 
-- **Endometriosis**: *L. iners* significantly reduced in endometriosis-associated chronic pelvic pain patients alongside *L. jensenii* and *L. reuteri*, while pathogenic Clostridia expanded ([[chao-2021-vaginal-microbiome-chronic-pelvic-pain-endometriosis]], cross-sectional). Separately, *L. iners* was implicated in endometriosis vaginal microbiota-N-glycome studies ([[macsharry-2024-endometriosis-vaginal-microbiota-n-glycome]], case-control).
-- **Ovarian cancer (serous histology)**: *L. iners* enriched in the lower reproductive tract of serous ovarian cancer patients alongside *Facklamia hominis*, *Anaerococcus senegalensis*, and *Actinomyces turicensis*. Consistent with *L. iners* as a dysbiosis marker rather than a eubiosis marker ([[asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic]], cross-sectional).
-- **PCOS**: Part of the altered vaginal microbiome in PCOS patients, where shotgun sequencing confirmed dysbiosis with reduced Lactobacillus diversity. Pathobionts including *Streptococcus pyogenes* and *Clostridium perfringens* were enriched in PCOS groups ([[zheng-2024-pcos-obesity-vaginal-microbiome-phages]], cross-sectional).
-- **Tubal infertility**: *L. iners*-dominated vaginal microbiota was associated with *C. trachomatis* infection and significantly lower diversity compared to healthy controls ([[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]], case-control, n=25).
+- Endometriosis: *L. iners* significantly reduced in endometriosis-associated chronic pelvic pain patients alongside *L. jensenii* and *L. reuteri*, while pathogenic Clostridia expanded ([[chao-2021-vaginal-microbiome-chronic-pelvic-pain-endometriosis]], cross-sectional). Separately, *L. iners* was implicated in endometriosis vaginal microbiota-N-glycome studies ([[macsharry-2024-endometriosis-vaginal-microbiota-n-glycome]], case-control).
+- Ovarian cancer (serous histology): *L. iners* enriched in the lower reproductive tract of serous ovarian cancer patients alongside *Facklamia hominis*, *Anaerococcus senegalensis*, and *Actinomyces turicensis*. Consistent with *L. iners* as a dysbiosis marker rather than a eubiosis marker ([[asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic]], cross-sectional).
+- PCOS: Part of the altered vaginal microbiome in PCOS patients, where shotgun sequencing confirmed dysbiosis with reduced Lactobacillus diversity. Pathobionts including *Streptococcus pyogenes* and *Clostridium perfringens* were enriched in PCOS groups ([[zheng-2024-pcos-obesity-vaginal-microbiome-phages]], cross-sectional).
+- Tubal infertility: *L. iners*-dominated vaginal microbiota was associated with *C. trachomatis* infection and significantly lower diversity compared to healthy controls ([[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]], case-control, n=25).
 
 ## Key Studies
 

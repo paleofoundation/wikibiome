@@ -9,9 +9,9 @@ tags: [maintenance, lint, health-check]
 
 # WikiBiome Lint Report — 2026-04-12
 
-**Automated health check run:** 2026-04-12 
-**Wiki pages scanned:** 1,684 total (1,426 sources + 258 content pages) 
-**Issues found:** 6 critical, 8 high-priority, 5 medium-priority
+Automated health check run: 2026-04-12 
+Wiki pages scanned: 1,684 total (1,426 sources + 258 content pages) 
+Issues found: 6 critical, 8 high-priority, 5 medium-priority
 
 ---
 
@@ -23,7 +23,7 @@ tags: [maintenance, lint, health-check]
 
 | Category | Index Claims | Actual Count | Delta |
 |----------|-------------|--------------|-------|
-| Sources | 982 | 1,426 | **+444** |
+| Sources | 982 | 1,426 | +444 |
 | Entities (total) | 126 | 130 | +4 |
 | — Metals/Metalloids | 19 | 5 w/ correct subtype | — |
 | — Microbes | 83 | 79 w/ `subtype: microbe` | — |
@@ -34,7 +34,7 @@ tags: [maintenance, lint, health-check]
 | STOPs | 12 | 11 | -1 |
 | Analyses | 5 | 5 → 6 after this report | +1 |
 
-**Action:** Regenerate `index.md` from filesystem.
+Action: Regenerate `index.md` from filesystem.
 
 ---
 
@@ -42,7 +42,7 @@ tags: [maintenance, lint, health-check]
 
 DOI matching identified 46 pairs (and 3 triplets) where the same paper was ingested twice under slightly different filenames. The worst cases involve obviously different papers that were erroneously assigned the same DOI during ingestion.
 
-**Suspected wrong-DOI assignments (different papers, not true duplicates):**
+Suspected wrong-DOI assignments (different papers, not true duplicates):
 
 | File A | File B | Shared DOI | Problem |
 |--------|--------|-----------|---------|
@@ -52,7 +52,7 @@ DOI matching identified 46 pairs (and 3 triplets) where the same paper was inges
 | `borghini-2020-endometriosis-nickel-ibs...` | `borghini-2020-low-nickel-diet-celiac...` | 10.3390/nu12082277 | Different papers (endometriosis vs celiac) in same journal/year — one DOI is wrong |
 | `ling-2024-fungal-dysbiosis-gut-brain-axis...` | `liu-2024-oral-fungal-dysbiosis-immune-dysfunction...` | 10.1038/s41398-024-03183-5 | Different authors — one DOI is wrong |
 
-**Confirmed true duplicates (same paper, two filenames — keep one, delete other):**
+Confirmed true duplicates (same paper, two filenames — keep one, delete other):
 
 | Keep | Delete | DOI |
 |------|--------|-----|
@@ -79,9 +79,9 @@ DOI matching identified 46 pairs (and 3 triplets) where the same paper was inges
 | `luqman-2024-intestinal-microbiome-cvd-intervention.md` | `luqman-2024-intestinal-microbiome-cvd-therapeutic.md` | 10.3389/fimmu.2024.1321395 |
 | `liu-2018-gut-microbiome-rosuvastatin-lipid-lowering.md` | `liu-2018-rosuvastatin-gut-microbiome-lipid-lowering.md` | 10.3389/fmicb.2018.00530 |
 
-**Additional duplicates to verify** (partial DOI match, need manual check): `hashimoto-2023-host-microbiome-neuropsychiatric-disorders-review.md` vs `hashimoto-2023-host-microbiome-neuropsychiatric-disorders.md`, `virili-2024-thyroid-human-microbiota-systematic-review-reviews.md` vs `virili-2024-thyroid-microbiota-systematic-review.md`, and ~18 more pairs.
+Additional duplicates to verify (partial DOI match, need manual check): `hashimoto-2023-host-microbiome-neuropsychiatric-disorders-review.md` vs `hashimoto-2023-host-microbiome-neuropsychiatric-disorders.md`, `virili-2024-thyroid-human-microbiota-systematic-review-reviews.md` vs `virili-2024-thyroid-microbiota-systematic-review.md`, and ~18 more pairs.
 
-**Action:** For each confirmed pair, check whether wikilinks reference either file, consolidate, update wikilinks, delete the duplicate.
+Action: For each confirmed pair, check whether wikilinks reference either file, consolidate, update wikilinks, delete the duplicate.
 
 ---
 
@@ -91,7 +91,7 @@ These metal and organism pages have no `subtype:` in their frontmatter, which br
 
 aluminum, arsenic, cadmium, candida-albicans, chromium, copper, enterococcus, iron, lead, manganese, mercury, nickel, selenium, zinc
 
-**Action:** Add appropriate `subtype:` field. Metals get `subtype: metal`. Candida albicans is `subtype: fungus`. Enterococcus is `subtype: microbe`.
+Action: Add appropriate `subtype:` field. Metals get `subtype: metal`. Candida albicans is `subtype: fungus`. Enterococcus is `subtype: microbe`.
 
 ---
 
@@ -105,7 +105,7 @@ Per schema, intervention pages require a `cureva_status: complete | partial | in
 - `low-nickel-diet.md`
 - `probiotics-asd-dysbiosis.md`
 
-**Action:** Add `cureva_status:` field to each intervention page. Based on content completeness: `low-nickel-diet.md` → `complete`; others → `partial`.
+Action: Add `cureva_status:` field to each intervention page. Based on content completeness: `low-nickel-diet.md` → `complete`; others → `partial`.
 
 ---
 
@@ -120,7 +120,7 @@ Four wikilinks in a table (lines 58–61) use pipe-alias syntax with backslashes
 [[bacillus|Bacillus]] → should be [[bacillus|Bacillus]]
 ```
 
-**Action:** Fix the four backslash-broken links in `wiki/concepts/dietary-metal-microbiome-interactions.md`.
+Action: Fix the four backslash-broken links in `wiki/concepts/dietary-metal-microbiome-interactions.md`.
 
 ---
 
@@ -128,7 +128,7 @@ Four wikilinks in a table (lines 58–61) use pipe-alias syntax with backslashes
 
 The fifth triangle condition (`GERD (refractory)`) in `wiki/interventions/low-nickel-diet.md` has `I_to_f` defined but is missing `status:`, `I_to_D`, `I_to_D_evidence`, `I_to_f_evidence`, and `f_to_D`. This will cause rendering errors on Cureva.
 
-**Action:** Complete the GERD triangle block. Based on the current text, `status: promising` is appropriate.
+Action: Complete the GERD triangle block. Based on the current text, `status: promising` is appropriate.
 
 ---
 
@@ -138,23 +138,23 @@ The fifth triangle condition (`GERD (refractory)`) in `wiki/interventions/low-ni
 
 The following diseases have `subtype: disease` entity pages but no corresponding page in `wiki/signatures/`. These represent the biggest content gaps for Cureva pipeline completeness:
 
-**High clinical relevance (likely to be built first):**
+High clinical relevance (likely to be built first):
 - `hashimotos-thyroiditis` — Thyroid autoimmunity; iodine/selenium/zinc signature likely exists in sources
 - `postpartum-depression` — PPD; significant source library ingested; links to estrobolome
 - `rheumatoid-arthritis` — RA; copper/zinc/iron signature; heavy source library
 - `inflammatory-bowel-disease` — IBD umbrella; Crohn's signature exists; UC and IBD-general still missing
 - `chronic-kidney-disease` — CKD; significant metals angle (cadmium, arsenic, lead renal toxicity)
 
-**Active research area, ready for signature build:**
+Active research area, ready for signature build:
 - `schizophrenia` — 14 sources ingested; copper/zinc/tryptophan signature likely buildable
 - `pancreatic-cancer` — Source library exists; mycobiome and iron angle
 - `colorectal-cancer` — Wait, `colorectal-cancer.md` IS in signatures — but the entity page may need a signature link check
 
-**Early-stage, foundational work needed:**
+Early-stage, foundational work needed:
 - `breast-cancer`, `ovarian-cancer`, `gastric-cancer` — Cancer signatures; metalloestrogen angle
 - `hypertension`, `ibs`, `gerd`, `ulcerative-colitis`, `type-1-diabetes`
 
-**Action:** Prioritize `hashimotos-thyroiditis`, `postpartum-depression`, and `rheumatoid-arthritis` for signature build next session.
+Action: Prioritize `hashimotos-thyroiditis`, `postpartum-depression`, and `rheumatoid-arthritis` for signature build next session.
 
 ---
 
@@ -173,7 +173,7 @@ The following organisms are wikilinked from content pages but have no entity fil
 - `[[candida-tropicalis]]` — Candida species; referenced in mycobiome contexts
 - `[[aeromonas]]` — Opportunistic pathogen; referenced in gut context
 
-**Action:** Create stub entity pages for these four organisms.
+Action: Create stub entity pages for these four organisms.
 
 ---
 
@@ -200,7 +200,7 @@ Three intervention pages are missing the full triangle field set (`I_to_f_eviden
 
 `low-nickel-diet.md` has all fields correctly populated for its completed triangles.
 
-**Action:** Add `I_to_f_evidence`, `I_to_D_evidence`, and `f_to_D` to these four pages.
+Action: Add `I_to_f_evidence`, `I_to_D_evidence`, and `f_to_D` to these four pages.
 
 ---
 
@@ -217,7 +217,7 @@ These terms appear as wikilinks across multiple content pages but have no page o
 - `[[metal-chelation-therapy|activated charcoal]]` — Referenced in intervention context but no page
 - `[[short-chain-fatty-acids|butyrate supplementation]]` — Referenced separately from `[[butyrate]]`; consider whether a stub is needed
 
-**Action:** Create stub entity/concept pages for `ahr` and `amyloid-beta` at minimum. Consider redirect for `bile-acids → bile-acid-metabolism`. Add `celiac-disease` as a disease entity.
+Action: Create stub entity/concept pages for `ahr` and `amyloid-beta` at minimum. Consider redirect for `bile-acids → bile-acid-metabolism`. Add `celiac-disease` as a disease entity.
 
 ---
 
@@ -225,7 +225,7 @@ These terms appear as wikilinks across multiple content pages but have no page o
 
 One content page links to `[[akkermansia-mucinicola]]`, which doesn't exist. The correct entity is `[[akkermansia-muciniphila]]`. Misspelling appears to be a one-off wikilink error.
 
-**Action:** Find and correct the misspelled wikilink.
+Action: Find and correct the misspelled wikilink.
 
 ---
 
@@ -233,7 +233,7 @@ One content page links to `[[akkermansia-mucinicola]]`, which doesn't exist. The
 
 The newly created entity pages for `gerd` and `type-1-diabetes` and `ovarian-cancer` have `sources: []` — empty source lists — suggesting they were scaffolded but never connected to ingested papers. Both conditions have relevant sources in `wiki/sources/`.
 
-**Action:** Review `wiki/sources/` for GERD, T1D, and ovarian cancer papers and add source filenames to these entity page frontmatter `sources:` fields.
+Action: Review `wiki/sources/` for GERD, T1D, and ovarian cancer papers and add source filenames to these entity page frontmatter `sources:` fields.
 
 ---
 
@@ -241,7 +241,7 @@ The newly created entity pages for `gerd` and `type-1-diabetes` and `ovarian-can
 
 The `schizophrenia` entity page lists sources with `.md` extensions appended (e.g., `saha-2005-prevalence-schizophrenia-systematic-review.md`), which is inconsistent with the convention of listing bare filenames without the extension. Other entity pages use bare filenames.
 
-**Action:** Strip `.md` extensions from the `sources:` list in `wiki/entities/schizophrenia.md`.
+Action: Strip `.md` extensions from the `sources:` list in `wiki/entities/schizophrenia.md`.
 
 ---
 
@@ -263,15 +263,15 @@ The file `wiki/concepts/pharmacomicrobiomics.md` exists on disk but doesn't appe
 
 ## RECOMMENDED ACTION SEQUENCE
 
-1. **Fix backslash links** in `dietary-metal-microbiome-interactions.md` (5 minutes)
-2. **Complete GERD triangle** in `low-nickel-diet.md` (10 minutes)
-3. **Add `subtype:` fields** to 14 entity pages (15 minutes)
-4. **Add `cureva_status:` fields** to 5 intervention pages (10 minutes)
-5. **Add triangle evidence fields** to 4 intervention pages (30 minutes)
-6. **Create stub entity pages** for `bacteroides-thetaiotaomicron`, `candida-auris`, `candida-tropicalis`, `aeromonas` (20 minutes)
-7. **Resolve 46 duplicate sources** — consolidate and delete duplicates; verify DOIs on suspected mis-assigned pairs (60–90 minutes)
-8. **Regenerate `index.md`** from filesystem (10 minutes)
-9. **Begin signature pages** for `hashimotos-thyroiditis` and `postpartum-depression` (next full session)
+1. Fix backslash links in `dietary-metal-microbiome-interactions.md` (5 minutes)
+2. Complete GERD triangle in `low-nickel-diet.md` (10 minutes)
+3. Add `subtype:` fields to 14 entity pages (15 minutes)
+4. Add `cureva_status:` fields to 5 intervention pages (10 minutes)
+5. Add triangle evidence fields to 4 intervention pages (30 minutes)
+6. Create stub entity pages for `bacteroides-thetaiotaomicron`, `candida-auris`, `candida-tropicalis`, `aeromonas` (20 minutes)
+7. Resolve 46 duplicate sources — consolidate and delete duplicates; verify DOIs on suspected mis-assigned pairs (60–90 minutes)
+8. Regenerate `index.md` from filesystem (10 minutes)
+9. Begin signature pages for `hashimotos-thyroiditis` and `postpartum-depression` (next full session)
 
 ---
 

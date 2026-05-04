@@ -1,65 +1,46 @@
 ---
-title: Molecular Mimicry
+title: "Molecular Mimicry"
 type: concept
-created: 2026-04-17T00:00:00.000Z
-updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
-tags:
-  - autoimmunity
-  - molecular-mimicry
-  - cross-reactivity
-  - metal-amplification
-  - immune-tolerance
-karen_brain_primitives:
-  - 4
-  - 5
-seo_target: molecular mimicry autoimmune microbiome
+created: 2026-04-17
+updated: 2026-04-21
+last_substantive_update: 2026-04-21
+sources:
+  - morse-2023-virus-induced-dysbiosis-t1d
+  - docimo-2020-human-microbiota-endocrinology-thyroid
+  - legakis-2023-thyroid-diseases-intestinal-microbiome
+  - lazarova-2021-graves-disease-epidemiology-risk-factors
+  - salnikov-2008-metal-carcinogenesis
+  - ochoa-reparaz-2018-gut-microbiome-ms
+source_count: 6
+tags: [autoimmunity, cross-reactive-antigens, Guillain-Barre, T1D, Hashimotos, Graves, MS, campylobacter]
+seo_target: "molecular mimicry autoimmunity microbiome cross-reactive antigens"
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
+karen_brain_primitives: [5, 6]
 ---
 
 # Molecular Mimicry
 
 ## Overview
 
-**Molecular mimicry** refers to the structural similarity between microbial peptides and host proteins, which can trigger autoimmune responses when the immune system mistakes self-antigens for foreign ones. In the gut microbiome context, this mechanism connects chronic microbial colonization patterns to organ-specific autoimmune destruction — a link that conventional immunology has struggled to explain without invoking the microbial ecology.
+Molecular mimicry occurs when microbial antigens share structural similarity with host proteins, triggering cross-reactive immune responses that attack host tissue. It is a primary mechanism linking infections and [[dysbiosis]] to autoimmune disease — the immune system correctly targets a pathogen but collaterally damages self-tissue bearing similar epitopes.
 
-## Mechanism
+## Key Examples
 
-The process unfolds in stages. First, a microbial antigen shares amino acid sequence homology or three-dimensional conformational similarity with a host protein. Antigen-presenting cells process the microbial peptide and activate T cells or B cells that cross-react with the structurally similar host target. Once tolerance is broken, the autoimmune response becomes self-sustaining even if the original microbial trigger is cleared.
+- Campylobacter → Guillain-Barré: *[[campylobacter]]* lipooligosaccharide (LOS) mimics ganglioside GM1 on peripheral nerve myelin. Anti-LOS antibodies cross-react with nerve tissue → acute demyelinating polyneuropathy.
+- Gut microbiota → Type 1 diabetes: Virus-induced dysbiosis alters gut microbial antigens that cross-react with pancreatic beta-cell proteins [[morse-2023-virus-induced-dysbiosis-t1d]].
+- Gut microbiota → Graves' disease: Microbial antigens mimicking TSH receptor may trigger stimulatory autoantibodies [[lazarova-2021-graves-disease-epidemiology-risk-factors]] [[legakis-2023-thyroid-diseases-intestinal-microbiome]].
+- Gut microbiota → Hashimoto's: Microbial homologues of thyroid peroxidase (TPO) and thyroglobulin [[docimo-2020-human-microbiota-endocrinology-thyroid]].
+- Gut microbiota → MS: Cross-reactive T cells recognizing both microbial and myelin antigens [[ochoa-reparaz-2018-gut-microbiome-ms]].
 
-Key examples include:
+## Metal Connection
 
-- **[[prevotella-copri]]** — Strongly enriched in early rheumatoid arthritis; Prevotella antigens share epitopes with joint cartilage proteins, driving anti-CCP antibody production at mucosal sites before joint symptoms appear ([[rheumatoid-arthritis-signature|RA signature]])
-- **Helicobacter pylori CagA** — The CagA oncoprotein mimics host SHP-2 phosphatase substrates, activating proliferative signaling in gastric epithelium
-- **[[streptococcus]]** — Group A streptococcal M protein mimics cardiac myosin, triggering rheumatic heart disease
-
-## Metal Amplification of Mimicry
-
-Heavy metals intensify molecular mimicry through several converging pathways. Metal-induced oxidative stress damages host proteins, exposing cryptic epitopes that were normally hidden from the immune system. **Cadmium** and **lead** displace zinc from metalloprotein folding, creating misfolded proteins that the immune system may treat as foreign. Additionally, metals such as nickel act as haptens — binding to host proteins and creating novel antigenic determinants that break tolerance.
-
-This metal amplification explains why autoimmune conditions cluster in populations with elevated environmental metal exposure: the metals do not merely trigger inflammation, they actively reshape the antigenic landscape.
-
-## Ecological Context
-
-From a WikiBiome perspective, molecular mimicry is not a random event. It correlates with specific ecological states. Barrier dysfunction permits microbial translocation, exposing the systemic immune system to gut-derived antigens that were previously compartmentalized. Biofilm communities maintain chronic antigen presentation. The taxonomic signature of the dysbiotic community determines which host tissues are targeted — [[prevotella-copri]] enrichment predicts joint involvement, while oral pathobiont translocation predicts thyroid and vascular targets.
-
-## Disease Associations
-
-| Condition | Microbial Mimic | Host Target |
-|-----------|----------------|-------------|
-| [[rheumatoid-arthritis]] | Prevotella copri antigens | Joint cartilage, citrullinated proteins |
-| [[graves-disease]] | Prevotella, Bacteroides | Thyroid peroxidase epitopes |
-| [[type-1-diabetes]] | Translocated bacteria | GAD65, IA-2, ZnT8 islet antigens |
-| [[atherosclerosis]] | Oral bacterial antigens | Atherosclerotic plaque components |
-| [[hashimotos-thyroiditis]] | Prevotella spp. | Thyroid antigens |
+Metal-driven dysbiosis may increase molecular mimicry risk by selecting for pathobionts with cross-reactive antigens, enhancing epitope exposure through metal-induced cell lysis, and promoting inflammatory environments that break immune tolerance [[salnikov-2008-metal-carcinogenesis]].
 
 ## Cross-References
 
-- [[autoimmunity]] — broader framework for immune tolerance breakdown
-- [[intestinal-permeability|barrier-dysfunction]] — prerequisite for systemic antigen exposure
-- [[prevotella-copri]] — canonical molecular mimic in RA
-- [[nutritional-immunity]] — host metal sequestration as immune defense context
+- [[campylobacter]] — Guillain-Barré via ganglioside mimicry
+- [[hashimotos-thyroiditis]] — TPO/thyroglobulin mimicry
+- [[graves-disease]] — TSHR mimicry
+- [[type-1-diabetes]] — beta-cell antigen mimicry
+- [[multiple-sclerosis]] — myelin antigen cross-reactivity
+- [[immune-balance]] — tolerance breakdown enabling cross-reactive attack

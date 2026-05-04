@@ -48,14 +48,14 @@ The metallomic profile of CRC from [[zhang-2022-metallomics-cancer-review]] and 
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[copper|Cu]]** | Elevated | Increased in serum/plasma across multiple studies; Cu/Zn ratio first proposed as a CRC marker |
-| **[[zinc|Zn]]** | Depleted | European study of 58,221 participants confirmed significant association; Zn deficiency is a general cancer feature across multiple meta-analyses |
-| **[[selenium|Se]]** | Depleted | Decreased across cancer types; impairs glutathione peroxidase defense |
-| **[[iron|Fe]]** | Elevated (tissue) | Heme iron from red meat drives N-nitroso compound formation and oxidative DNA damage; Fe dysregulation via ferroptosis pathways |
-| **[[cadmium|Cd]]** | Exposure risk | IARC Group 1 carcinogen; disrupts DNA repair and epigenetic modification |
-| **[[arsenic|As]]** | Exposure risk | IARC Group 1 carcinogen; environmental contamination source |
-| **[[chromium|Cr]]** | Exposure risk (Cr VI) | Ingestion route associated with CRC and GI tract diseases; hub genes include VEGFA and EGFR |
-| **[[nickel|Ni]]** | Elevated (inconsistent) | Increased in some studies; IARC Group 1 carcinogen alongside Cr and Cd |
+| [[copper|Cu]] | Elevated | Increased in serum/plasma across multiple studies; Cu/Zn ratio first proposed as a CRC marker |
+| [[zinc|Zn]] | Depleted | European study of 58,221 participants confirmed significant association; Zn deficiency is a general cancer feature across multiple meta-analyses |
+| [[selenium|Se]] | Depleted | Decreased across cancer types; impairs glutathione peroxidase defense |
+| [[iron|Fe]] | Elevated (tissue) | Heme iron from red meat drives N-nitroso compound formation and oxidative DNA damage; Fe dysregulation via ferroptosis pathways |
+| [[cadmium|Cd]] | Exposure risk | IARC Group 1 carcinogen; disrupts DNA repair and epigenetic modification |
+| [[arsenic|As]] | Exposure risk | IARC Group 1 carcinogen; environmental contamination source |
+| [[chromium|Cr]] | Exposure risk (Cr VI) | Ingestion route associated with CRC and GI tract diseases; hub genes include VEGFA and EGFR |
+| [[nickel|Ni]] | Elevated (inconsistent) | Increased in some studies; IARC Group 1 carcinogen alongside Cr and Cd |
 
 ### The Cu/Zn Ratio
 
@@ -71,10 +71,10 @@ The Cu/Zn ratio was first proposed as a CRC biomarker and captures the two most 
 
 *Fusobacterium nucleatum* is the most consistently enriched bacterium in CRC across global cohorts [[marchesi-2011-towards-human-crc-microbiome]] [[gao-2015-microbiota-disbiosis-colorectal-cancer]]. Its pro-tumorigenic mechanisms are multifaceted:
 
-- **FadA adhesin** disrupts E-cadherin, activating beta-catenin/Wnt signaling and promoting proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
-- **Fap2 protein** binds TIGIT receptor on NK cells, inhibiting anti-tumor immunity, and binds Gal-GalNAc on tumor cells for selective colonization [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
-- **LPS-TLR4 interaction** activates NF-kB signaling, autophagy, and chemotherapy resistance (5-FU)
-- **miR21/TLR4/NF-kB** axis and **ULK1/ATG7** autophagy pathway activation
+- FadA adhesin disrupts E-cadherin, activating beta-catenin/Wnt signaling and promoting proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
+- Fap2 protein binds TIGIT receptor on NK cells, inhibiting anti-tumor immunity, and binds Gal-GalNAc on tumor cells for selective colonization [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
+- LPS-TLR4 interaction activates NF-kB signaling, autophagy, and chemotherapy resistance (5-FU)
+- miR21/TLR4/NF-kB axis and ULK1/ATG7 autophagy pathway activation
 
 *F. nucleatum* abundance increases progressively through the adenoma-carcinoma sequence, validated by qPCR in cohorts exceeding 400 patients [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]].
 
@@ -86,10 +86,10 @@ Enterotoxigenic *B. fragilis* (ETBF) is found in the mucosa of >80% of CRC patie
 
 From [[hanus-2021-immune-microbiota-metabolites-crc-triad]] Table 1 and supporting studies:
 
-- **pks+ *E. coli***: produces colibactin genotoxin causing double-strand DNA breaks and single-base substitutions [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
-- ***S. gallolyticus***: classic CRC-associated bacterium [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
-- ***Peptostreptococcus anaerobius***: enriched in tumor microenvironment [[gao-2015-microbiota-disbiosis-colorectal-cancer]]
-- ***Enterococcus faecalis***: produces extracellular superoxide and hydroxyl radicals
+- pks+ *E. coli*: produces colibactin genotoxin causing double-strand DNA breaks and single-base substitutions [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
+- *S. gallolyticus*: classic CRC-associated bacterium [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
+- *Peptostreptococcus anaerobius*: enriched in tumor microenvironment [[gao-2015-microbiota-disbiosis-colorectal-cancer]]
+- *Enterococcus faecalis*: produces extracellular superoxide and hydroxyl radicals
 
 Bacteria consistently depleted in CRC include *Bifidobacterium*, *Lactobacillus*, *Roseburia*, *Faecalibacterium prausnitzii*, and *Ruminococcus* -- the core SCFA-producing community [[gao-2015-microbiota-disbiosis-colorectal-cancer]] [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
@@ -97,12 +97,12 @@ Bacteria consistently depleted in CRC include *Bifidobacterium*, *Lactobacillus*
 
 Secondary bile acids (deoxycholic acid/DCA and lithocholic acid/LCA), converted from primary bile acids by gut bacterial 7-alpha dehydroxylation, are potent CRC promoters. Their carcinogenic mechanisms include:
 
-- **ROS/RNS generation** via NAD(P)H oxidase activation and mitochondrial membrane disruption
-- **NF-kB activation** determining intestinal epithelial cell fate; persistent activation drives colitis-associated CRC
-- **DNA damage** through oxidative base modification and disruption of base excision repair
-- **Cancer stem cell induction**: DCA/LCA induce CSC markers (CD44, CD166, ALDHA1) and pluripotency genes (KLF4, Nanog, OCT4, SOX2) through M3R/Wnt/beta-catenin signaling, with 12-15 fold increases in c-Myc
-- **EMT promotion**: MMP upregulation (MMP1, MMP3, MMP10) and mesenchymal marker activation
-- **Drug resistance**: upregulation of ABCB1 and ABCG2 transporters in bile acid-exposed colonocytes
+- ROS/RNS generation via NAD(P)H oxidase activation and mitochondrial membrane disruption
+- NF-kB activation determining intestinal epithelial cell fate; persistent activation drives colitis-associated CRC
+- DNA damage through oxidative base modification and disruption of base excision repair
+- Cancer stem cell induction: DCA/LCA induce CSC markers (CD44, CD166, ALDHA1) and pluripotency genes (KLF4, Nanog, OCT4, SOX2) through M3R/Wnt/beta-catenin signaling, with 12-15 fold increases in c-Myc
+- EMT promotion: MMP upregulation (MMP1, MMP3, MMP10) and mesenchymal marker activation
+- Drug resistance: upregulation of ABCB1 and ABCG2 transporters in bile acid-exposed colonocytes
 
 High dietary fat and red meat consumption increase secondary bile acid levels. Western diet populations bear up to 60% of the global CRC burden. Vitamin D deficiency compounds the risk, as VDR functions as a secondary bile acid receptor (LCA) and activates detoxification pathways via PXR/SXR.
 
@@ -121,16 +121,16 @@ Butyrate exhibits a dual role explained by the metabolic state of colonocytes: i
 ### SCFA Receptor Network
 
 Three GPCRs mediate SCFA tumor suppression:
-- **FFAR2/GPR43**: promotes IL-18 secretion via NLRP3 inflammasome; enhances Treg differentiation; deficiency promotes tumorigenesis via Wnt/beta-catenin
-- **FFAR3/GPR41**: expressed on intestinal epithelial and immune cells
-- **HCAR2/GPR109A**: butyrate-specific; suppresses carcinogenesis; knockdown accelerates colonic inflammation and cancer progression
+- FFAR2/GPR43: promotes IL-18 secretion via NLRP3 inflammasome; enhances Treg differentiation; deficiency promotes tumorigenesis via Wnt/beta-catenin
+- FFAR3/GPR41: expressed on intestinal epithelial and immune cells
+- HCAR2/GPR109A: butyrate-specific; suppresses carcinogenesis; knockdown accelerates colonic inflammation and cancer progression
 
 ## Fungal Microbiome (Mycobiome) in CRC
 
 Fungi represent ~0.1% of gut microorganisms but play important roles in CRC:
 
-- **Candida albicans** and **Saccharomyces cerevisiae** show significantly increasing abundance in CRC vs healthy controls, validated by qPCR (n=402)
-- **Basidiomycota/Ascomycota ratio** increases with disease progression through the adenoma-carcinoma sequence
+- Candida albicans and Saccharomyces cerevisiae show significantly increasing abundance in CRC vs healthy controls, validated by qPCR (n=402)
+- Basidiomycota/Ascomycota ratio increases with disease progression through the adenoma-carcinoma sequence
 - Bacterial-fungal antagonistic interactions (R = -0.17 to -0.32) suggest disruption of cross-kingdom balance contributes to CRC
 - Fungal beta-glucans can be protective (upregulating tight junction proteins Claudin-1 and ZO-1), while *C. albicans* can be destructive (GelE-mediated E-cadherin degradation)
 - Dectin-1 and TLR4 signaling are essential for anti-fungal immunity in the gut; *C. albicans* can inhibit NLRP3/NLRP6 inflammasomes
@@ -148,8 +148,8 @@ Fungi represent ~0.1% of gut microorganisms but play important roles in CRC:
 
 Iron intersects with CRC through multiple pathways:
 
-- **Heme iron** from red meat generates N-nitroso compounds (NOCs) causing KRAS mutations (G>A transitions at codons 12/13) and oxidative DNA damage
-- **Ferroptosis** (iron-dependent lipid peroxidation cell death) represents both a vulnerability and a defense mechanism in CRC cells; GPX4 is the key ferroptosis regulator
+- Heme iron from red meat generates N-nitroso compounds (NOCs) causing KRAS mutations (G>A transitions at codons 12/13) and oxidative DNA damage
+- Ferroptosis (iron-dependent lipid peroxidation cell death) represents both a vulnerability and a defense mechanism in CRC cells; GPX4 is the key ferroptosis regulator
 - Iron dysregulation parallels the mitochondrial membrane disruption caused by secondary bile acids
 - Metal-induced dysbiosis depletes butyrate-producing Firmicutes, reducing antioxidant defenses that normally protect against iron-mediated lipid peroxidation
 
@@ -157,16 +157,16 @@ Iron intersects with CRC through multiple pathways:
 
 ### Protective Factors
 
-- **Dietary fiber**: metabolized by gut microbiome into SCFAs (butyrate, propionate, acetate); maintains microbial diversity; 20-30g daily recommended [[appunni-2021-dietary-factors-gut-microbiome-crc]] [[vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer]]
-- **Mediterranean diet**: multi-component protection via n-3 fatty acids (COX-2/TNF-alpha suppression), fiber/butyrate (NF-kB inhibition), olive oil (COX-2/iNOS/STAT3 reduction), and polyphenols (IL-1beta/IL-6/TNF-alpha reduction) [[donovan-2017-mediterranean-diet-crc-prevention]] [[mcleod-2023-bridge-crc-mediterranean-diet-trial]]
-- **Polyphenols**: function as prebiotics increasing *Bifidobacterium*, *Lactobacillus*, and *Akkermansia*; curcumin increases *Lactobacillales* and decreases *Coriobacteriales* in CRC models [[appunni-2021-dietary-factors-gut-microbiome-crc]]
+- Dietary fiber: metabolized by gut microbiome into SCFAs (butyrate, propionate, acetate); maintains microbial diversity; 20-30g daily recommended [[appunni-2021-dietary-factors-gut-microbiome-crc]] [[vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer]]
+- Mediterranean diet: multi-component protection via n-3 fatty acids (COX-2/TNF-alpha suppression), fiber/butyrate (NF-kB inhibition), olive oil (COX-2/iNOS/STAT3 reduction), and polyphenols (IL-1beta/IL-6/TNF-alpha reduction) [[donovan-2017-mediterranean-diet-crc-prevention]] [[mcleod-2023-bridge-crc-mediterranean-diet-trial]]
+- Polyphenols: function as prebiotics increasing *Bifidobacterium*, *Lactobacillus*, and *Akkermansia*; curcumin increases *Lactobacillales* and decreases *Coriobacteriales* in CRC models [[appunni-2021-dietary-factors-gut-microbiome-crc]]
 
 ### Risk Factors
 
-- **Red and processed meat**: generates NOCs, heterocyclic amines, and heme iron-mediated genotoxicity; gut microbiome metabolizes these into more harmful compounds
-- **High-fat diet**: increases secondary bile acid production via microbial 7-alpha dehydroxylation
-- **Alcohol**: metabolized to acetaldehyde (DNA-damaging intermediate) via gut microbiome pathways; increases *Bacteroidetes* and *Ruminococcaceae*
-- **Low-fiber Western diet**: predisposes to CRC via reduced SCFA production and increased pathobiont abundance
+- Red and processed meat: generates NOCs, heterocyclic amines, and heme iron-mediated genotoxicity; gut microbiome metabolizes these into more harmful compounds
+- High-fat diet: increases secondary bile acid production via microbial 7-alpha dehydroxylation
+- Alcohol: metabolized to acetaldehyde (DNA-damaging intermediate) via gut microbiome pathways; increases *Bacteroidetes* and *Ruminococcaceae*
+- Low-fiber Western diet: predisposes to CRC via reduced SCFA production and increased pathobiont abundance
 
 ### Geographic Diet Contrasts
 

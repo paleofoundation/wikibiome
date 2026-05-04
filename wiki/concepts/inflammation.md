@@ -24,9 +24,9 @@ A rapid, self-limiting response to tissue damage or infection. Neutrophils are r
 ### Chronic Inflammation
 When acute inflammation fails to resolve, it becomes chronic -- a persistent, low-grade inflammatory state characterized by simultaneous tissue destruction and repair. Chronic inflammation is the pathological form relevant to every disease in this wiki. It is driven by:
 
-- **Persistent stimuli**: ongoing metal exposure that continuously activates inflammatory pathways.
-- **Failed resolution**: metals deplete the substrates (omega-3 fatty acids, glutathione) and enzymes required for pro-resolving mediator synthesis.
-- **Positive feedback loops**: inflammation causes [[dysbiosis]], which generates more inflammatory stimuli (LPS), which drives more inflammation.
+- Persistent stimuli: ongoing metal exposure that continuously activates inflammatory pathways.
+- Failed resolution: metals deplete the substrates (omega-3 fatty acids, glutathione) and enzymes required for pro-resolving mediator synthesis.
+- Positive feedback loops: inflammation causes [[dysbiosis]], which generates more inflammatory stimuli (LPS), which drives more inflammation.
 
 In metal-exposed individuals, the acute-to-chronic transition is favored because the metal stimulus cannot be eliminated by the immune response -- unlike a pathogen, lead or cadmium cannot be killed.
 
@@ -82,10 +82,10 @@ In metal-exposed individuals, the acute-to-chronic transition is favored because
 
 In healthy individuals, inflammation resolves through active processes:
 
-- **Lipoxins** (from arachidonic acid via 15-LOX): stop neutrophil recruitment, promote macrophage phagocytosis of apoptotic cells.
-- **Resolvins** (from EPA/DHA): reduce neutrophil infiltration, promote tissue repair.
-- **Protectins and maresins** (from DHA): neuroprotective, enhance macrophage efferocytosis.
-- **Macrophage M1-to-M2 switching**: requires IL-4, IL-10, and resolution mediators; produces TGF-beta and growth factors for tissue repair.
+- Lipoxins (from arachidonic acid via 15-LOX): stop neutrophil recruitment, promote macrophage phagocytosis of apoptotic cells.
+- Resolvins (from EPA/DHA): reduce neutrophil infiltration, promote tissue repair.
+- Protectins and maresins (from DHA): neuroprotective, enhance macrophage efferocytosis.
+- Macrophage M1-to-M2 switching: requires IL-4, IL-10, and resolution mediators; produces TGF-beta and growth factors for tissue repair.
 
 Metal exposure impairs resolution at multiple points:
 - Depletes omega-3 fatty acid substrates for resolvin synthesis.
@@ -129,18 +129,18 @@ The critical insight: metals and pathogens activate the same inflammatory pathwa
 ## Biomarkers
 
 ### Systemic Markers
-- **CRP (C-reactive protein)**: the most widely used systemic inflammation marker. Elevated in metal-exposed populations and correlated with disease severity across PCOS, RA, IBD, CVD. hs-CRP (high-sensitivity) detects the low-grade chronic inflammation most relevant to metal-driven disease.
-- **IL-6**: pleiotropic cytokine; drives hepatic CRP synthesis; elevated by both metals and infection. Key mediator in the gut-brain axis (crosses BBB).
-- **TNF-alpha**: master pro-inflammatory cytokine; target of anti-TNF biologics (infliximab, adalimumab) in IBD and RA. Metal and LPS exposure both drive TNF-alpha via NF-kB.
-- **IL-1beta**: NLRP3 inflammasome product; marks pyroptotic inflammation; elevated in gout, IBD, and autoinflammatory conditions.
+- CRP (C-reactive protein): the most widely used systemic inflammation marker. Elevated in metal-exposed populations and correlated with disease severity across PCOS, RA, IBD, CVD. hs-CRP (high-sensitivity) detects the low-grade chronic inflammation most relevant to metal-driven disease.
+- IL-6: pleiotropic cytokine; drives hepatic CRP synthesis; elevated by both metals and infection. Key mediator in the gut-brain axis (crosses BBB).
+- TNF-alpha: master pro-inflammatory cytokine; target of anti-TNF biologics (infliximab, adalimumab) in IBD and RA. Metal and LPS exposure both drive TNF-alpha via NF-kB.
+- IL-1beta: NLRP3 inflammasome product; marks pyroptotic inflammation; elevated in gout, IBD, and autoinflammatory conditions.
 
 ### Gut-Specific Markers
-- **Fecal [[calprotectin]]**: gold-standard non-invasive marker for intestinal inflammation [[amerikanou-2022-ibd-biomarkers-trace-metals]]. Both a diagnostic marker and an active participant in [[nutritional-immunity]].
-- **Fecal lactoferrin**: neutrophil-derived iron-binding protein; correlates with mucosal inflammation.
-- **Fecal LPS/endotoxin**: direct measurement of barrier failure and gram-negative overgrowth.
+- Fecal [[calprotectin]]: gold-standard non-invasive marker for intestinal inflammation [[amerikanou-2022-ibd-biomarkers-trace-metals]]. Both a diagnostic marker and an active participant in [[nutritional-immunity]].
+- Fecal lactoferrin: neutrophil-derived iron-binding protein; correlates with mucosal inflammation.
+- Fecal LPS/endotoxin: direct measurement of barrier failure and gram-negative overgrowth.
 
 ### Limitations
-**These biomarkers cannot distinguish metal-driven from pathogen-driven inflammation** -- a major diagnostic limitation. CRP elevation in a PCOS patient could reflect copper-driven oxidative stress, gut dysbiosis-derived LPS, or both. This diagnostic ambiguity is why the metal-microbiome framework emphasizes treating both root causes simultaneously.
+These biomarkers cannot distinguish metal-driven from pathogen-driven inflammation -- a major diagnostic limitation. CRP elevation in a PCOS patient could reflect copper-driven oxidative stress, gut dysbiosis-derived LPS, or both. This diagnostic ambiguity is why the metal-microbiome framework emphasizes treating both root causes simultaneously.
 
 ## Key Sources
 

@@ -81,22 +81,22 @@ karen_brain_primitives: [1, 2, 3, 4, 5]
 
 ## Overview
 
-**Celiac disease** is a chronic autoimmune condition triggered by dietary gluten in genetically susceptible individuals (HLA-DQ2/DQ8). Gluten exposure causes immune-mediated destruction of small intestinal villi, resulting in malabsorption of critical metals and minerals. The microbiome signature is distinctive because it involves a paradoxical metal intersection: the standard treatment (gluten-free diet) inadvertently increases dietary nickel exposure through high-nickel substitute foods, while villous atrophy causes malabsorption of iron, zinc, selenium, copper, calcium, and magnesium. The gut microbiome functions as a checkpoint on gluten immunogenicity rather than a passive observer — specific bacterial proteases can either fully degrade immunogenic gliadin peptides (protective) or generate residual antigenic epitopes (pathogenic).
+Celiac disease is a chronic autoimmune condition triggered by dietary gluten in genetically susceptible individuals (HLA-DQ2/DQ8). Gluten exposure causes immune-mediated destruction of small intestinal villi, resulting in malabsorption of critical metals and minerals. The microbiome signature is distinctive because it involves a paradoxical metal intersection: the standard treatment (gluten-free diet) inadvertently increases dietary nickel exposure through high-nickel substitute foods, while villous atrophy causes malabsorption of iron, zinc, selenium, copper, calcium, and magnesium. The gut microbiome functions as a checkpoint on gluten immunogenicity rather than a passive observer — specific bacterial proteases can either fully degrade immunogenic gliadin peptides (protective) or generate residual antigenic epitopes (pathogenic).
 
 ## Metallomic Signature
 
-**Confidence: moderate**
+Confidence: moderate
 
 The metallomic pattern in celiac disease is driven by two distinct mechanisms operating simultaneously:
 
-**Elevated:**
-- **Nickel** — Dietary nickel intake increases paradoxically on a gluten-free diet because GFD substitute foods (rice, corn, oats, soy, quinoa, amaranth, legumes) are high-nickel foods. In patients with nickel allergic contact mucositis (NACM), this triggers gastrointestinal inflammation that mimics celiac symptoms [[borghini-2020-low-nickel-diet-celiac]]. Estimated prevalence of Ni ACM exceeds 30% in the general population based on patch test positivity.
+Elevated:
+- Nickel — Dietary nickel intake increases paradoxically on a gluten-free diet because GFD substitute foods (rice, corn, oats, soy, quinoa, amaranth, legumes) are high-nickel foods. In patients with nickel allergic contact mucositis (NACM), this triggers gastrointestinal inflammation that mimics celiac symptoms [[borghini-2020-low-nickel-diet-celiac]]. Estimated prevalence of Ni ACM exceeds 30% in the general population based on patch test positivity.
 
-**Depleted:**
-- **Iron** — Villous atrophy in the upper small intestine severely impairs iron absorption. This creates a diagnostic challenge: distinguishing absorptive iron deficiency (celiac-driven) from functional anemia (nutritional immunity) requires celiac antibody testing and duodenal biopsy.
-- **Zinc** — Malabsorbed due to villous atrophy; zinc deficiency compounds immune dysregulation.
-- **Selenium** — Depleted through malabsorption; shared deficiency with [[hashimotos-thyroiditis]] comorbidity.
-- **Copper, calcium, magnesium** — All malabsorbed in untreated celiac disease.
+Depleted:
+- Iron — Villous atrophy in the upper small intestine severely impairs iron absorption. This creates a diagnostic challenge: distinguishing absorptive iron deficiency (celiac-driven) from functional anemia (nutritional immunity) requires celiac antibody testing and duodenal biopsy.
+- Zinc — Malabsorbed due to villous atrophy; zinc deficiency compounds immune dysregulation.
+- Selenium — Depleted through malabsorption; shared deficiency with [[hashimotos-thyroiditis]] comorbidity.
+- Copper, calcium, magnesium — All malabsorbed in untreated celiac disease.
 
 The iron and zinc depletion pattern superficially resembles [[nutritional-immunity]] but arises from absorptive failure rather than host metal sequestration — a critical distinction for Cureva's interpretation pipeline (Primitive 2).
 
@@ -106,19 +106,19 @@ Dietary nickel is the primary environmental metal exposure in celiac disease. Av
 
 ## Nutritional Immunity Response
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-**Elevated:**
-- **Zonulin** — Elevated serum levels signal active tight-junction disassembly; gluten-triggered zonulin release increases intestinal permeability, representing the "leaky gut" phase of celiac pathogenesis.
+Elevated:
+- Zonulin — Elevated serum levels signal active tight-junction disassembly; gluten-triggered zonulin release increases intestinal permeability, representing the "leaky gut" phase of celiac pathogenesis.
 
-**Depleted:**
-- **Glutathione** — Reduced antioxidant capacity compounds oxidative damage to the intestinal epithelium.
+Depleted:
+- Glutathione — Reduced antioxidant capacity compounds oxidative damage to the intestinal epithelium.
 
 The nutritional immunity picture in celiac disease is atypical: metal depletions are driven by malabsorption rather than host sequestration. This means the standard WikiBiome interpretive framework (Primitive 2 — low serum metals as host defense) does not directly apply. Celiac patients may genuinely require metal supplementation, unlike conditions where low serum iron reflects hepcidin-mediated sequestration.
 
 ## Taxonomic Analysis
 
-**Confidence: moderate**
+Confidence: moderate
 
 The celiac gut microbiome shows a characteristic dysbiosis present in both active disease and GFD-adherent patients:
 
@@ -141,26 +141,26 @@ The celiac gut microbiome shows a characteristic dysbiosis present in both activ
 | [[lachnospiraceae]] | SCFA producers — loss worsens mucosal healing capacity | Multiple cohorts |
 | [[prevotella]] spp. | Depleted in active disease | De Palma et al. 2010 |
 
-**Mechanistic bridge:** Caminero et al. (2016, *Gut*) demonstrated that lactobacilli from healthy subjects fully degrade the immunogenic 33-mer gliadin peptide, while pseudomonal and *E. coli* proteases from celiac patients only partially cleave it, generating residual epitopes that remain antigenic. This establishes the microbiome as a **checkpoint on gluten immunogenicity**. Wheat-associated *Pseudomonas aeruginosa* specifically produces elastase-like proteases that generate more, not fewer, HLA-DQ2-binding peptides.
+Mechanistic bridge: Caminero et al. (2016, *Gut*) demonstrated that lactobacilli from healthy subjects fully degrade the immunogenic 33-mer gliadin peptide, while pseudomonal and *E. coli* proteases from celiac patients only partially cleave it, generating residual epitopes that remain antigenic. This establishes the microbiome as a checkpoint on gluten immunogenicity. Wheat-associated *Pseudomonas aeruginosa* specifically produces elastase-like proteases that generate more, not fewer, HLA-DQ2-binding peptides.
 
 ## Virulence Enzymes and Features
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-- **Bacterial proteases** — E. coli and Pseudomonas proteases that partially cleave gliadin, generating immunogenic fragments rather than destroying them.
-- **Beta-glucuronidase** — Elevated in Proteobacteria-enriched dysbiosis; may contribute to altered bile acid and hormone metabolism.
-- **tTG2-mimicry activity** — B. fragilis proteolytic strains perform gliadin deamidation similarly to tissue transglutaminase 2, the autoantigen in celiac disease.
+- Bacterial proteases — E. coli and Pseudomonas proteases that partially cleave gliadin, generating immunogenic fragments rather than destroying them.
+- Beta-glucuronidase — Elevated in Proteobacteria-enriched dysbiosis; may contribute to altered bile acid and hormone metabolism.
+- tTG2-mimicry activity — B. fragilis proteolytic strains perform gliadin deamidation similarly to tissue transglutaminase 2, the autoantigen in celiac disease.
 
 ## Ecological State
 
-**Confidence: moderate**
+Confidence: moderate
 
 The celiac gut ecosystem is characterized by:
 
-- **Villous atrophy** — Immune-mediated destruction of absorptive surface reduces nutrient uptake and creates an energy-depleted epithelial environment.
-- **Increased intestinal permeability** — Zonulin-mediated tight junction disassembly allows gliadin peptides to reach the lamina propria, perpetuating the autoimmune cycle.
-- **Gluten-mediated tight junction disassembly** — Gliadin triggers zonulin release, a direct molecular mechanism for barrier failure.
-- **Nickel allergic contact mucositis** — In the subset of patients with Ni ACM (potentially >30%), dietary nickel from GFD substitute foods triggers a local allergic response in the gut mucosa, producing IBS-like symptoms that compound celiac pathology.
+- Villous atrophy — Immune-mediated destruction of absorptive surface reduces nutrient uptake and creates an energy-depleted epithelial environment.
+- Increased intestinal permeability — Zonulin-mediated tight junction disassembly allows gliadin peptides to reach the lamina propria, perpetuating the autoimmune cycle.
+- Gluten-mediated tight junction disassembly — Gliadin triggers zonulin release, a direct molecular mechanism for barrier failure.
+- Nickel allergic contact mucositis — In the subset of patients with Ni ACM (potentially >30%), dietary nickel from GFD substitute foods triggers a local allergic response in the gut mucosa, producing IBS-like symptoms that compound celiac pathology.
 
 The ecological state creates a self-reinforcing cycle: villous atrophy → malabsorption → metal deficiency → impaired epithelial repair → persistent villous atrophy. Adding nickel exposure from GFD foods creates a second inflammatory loop in nickel-sensitive patients.
 
@@ -170,10 +170,10 @@ Celiac disease shares microbiome and metallomic features with several autoimmune
 
 | Condition | Shared Metals | Shared Taxa | Shared Ecology | Overlap Score |
 |-----------|--------------|-------------|----------------|---------------|
-| **[[type-1-diabetes]]** | Iron, zinc depleted | Bifidobacterium depleted, Bacteroides | Increased permeability | 0.55 |
-| **[[hashimotos-thyroiditis]]** | Iron, zinc, selenium depleted | Bifidobacterium depleted, Lactobacillus depleted, Proteobacteria | Increased permeability | 0.58 |
-| **[[ibs]]** | Iron, zinc depleted; nickel elevated | Bifidobacterium depleted, Lactobacillus depleted | Increased permeability | 0.50 |
-| **[[inflammatory-bowel-disease]]** | Iron, zinc depleted | Faecalibacterium depleted, Lachnospiraceae depleted, Proteobacteria | Increased permeability | 0.52 |
+| [[type-1-diabetes]] | Iron, zinc depleted | Bifidobacterium depleted, Bacteroides | Increased permeability | 0.55 |
+| [[hashimotos-thyroiditis]] | Iron, zinc, selenium depleted | Bifidobacterium depleted, Lactobacillus depleted, Proteobacteria | Increased permeability | 0.58 |
+| [[ibs]] | Iron, zinc depleted; nickel elevated | Bifidobacterium depleted, Lactobacillus depleted | Increased permeability | 0.50 |
+| [[inflammatory-bowel-disease]] | Iron, zinc depleted | Faecalibacterium depleted, Lachnospiraceae depleted, Proteobacteria | Increased permeability | 0.52 |
 
 The overlap with type-1-diabetes is particularly notable given shared HLA-DQ2/DQ8 risk haplotypes (~8% of T1D patients carry celiac antibodies) and early-life Bifidobacterium depletion as a shared feature.
 
@@ -187,8 +187,8 @@ The overlap with type-1-diabetes is particularly notable given shared HLA-DQ2/DQ
 
 ## Karen's Brain Primitives Active
 
-- **Primitive 1 (Metals as Selective Pressures)**: Nickel exposure from GFD foods selectively affects nickel-sensitive patients; iron/zinc malabsorption alters the competitive landscape for metal-dependent taxa.
-- **Primitive 2 (Nutritional Immunity as Interpretive Constraint)**: Critical distinction — iron/zinc depletion in celiac is absorptive rather than host-mediated sequestration. Supplementation may be genuinely indicated, unlike conditions where low serum iron reflects hepcidin defense.
-- **Primitive 3 (Mis-metallation and Toxic Metal Entry)**: Nickel acts as a metalloestrogen, binding estrogen receptors; nickel from GFD substitute foods may enter through compromised intestinal barrier.
-- **Primitive 4 (Microbial Metal Dependencies as Achilles' Heels)**: E. coli and Proteobacteria enrichment in celiac reflects iron-dependent growth advantage in a metal-depleted gut environment.
-- **Primitive 5 (Two-Sided Ecological Engineering)**: Suppress pathogenic proteolytic bacteria (E. coli, Pseudomonas) that generate immunogenic gliadin fragments AND restore Lactobacillus/Bifidobacterium that fully degrade gliadin peptides.
+- Primitive 1 (Metals as Selective Pressures): Nickel exposure from GFD foods selectively affects nickel-sensitive patients; iron/zinc malabsorption alters the competitive landscape for metal-dependent taxa.
+- Primitive 2 (Nutritional Immunity as Interpretive Constraint): Critical distinction — iron/zinc depletion in celiac is absorptive rather than host-mediated sequestration. Supplementation may be genuinely indicated, unlike conditions where low serum iron reflects hepcidin defense.
+- Primitive 3 (Mis-metallation and Toxic Metal Entry): Nickel acts as a metalloestrogen, binding estrogen receptors; nickel from GFD substitute foods may enter through compromised intestinal barrier.
+- Primitive 4 (Microbial Metal Dependencies as Achilles' Heels): E. coli and Proteobacteria enrichment in celiac reflects iron-dependent growth advantage in a metal-depleted gut environment.
+- Primitive 5 (Two-Sided Ecological Engineering): Suppress pathogenic proteolytic bacteria (E. coli, Pseudomonas) that generate immunogenic gliadin fragments AND restore Lactobacillus/Bifidobacterium that fully degrade gliadin peptides.

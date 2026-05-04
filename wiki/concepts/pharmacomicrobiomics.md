@@ -22,11 +22,11 @@ Pharmacomicrobiomics is the study of bidirectional interactions between drugs an
 The most striking example relevant to this wiki: gut bacteria (Enterococcus faecalis, via tyrosine decarboxylase) convert L-DOPA to dopamine in the gut lumen before it reaches the brain. This directly reduces the efficacy of the primary [[parkinsons-disease]] treatment. The bacterial enzyme is metal-dependent (pyridoxal phosphate cofactor), linking drug metabolism to microbial metallomics. Patients with higher Enterococcus abundance require higher L-DOPA doses -- a direct pharmacomicrobiomic effect.
 
 ### Other Drug-Metabolizing Reactions
-- **Digoxin** -- Eggerthella lenta reduces the lactone ring, inactivating digoxin. A single bacterial species determines whether a cardiac glycoside works.
-- **Sulfasalazine** -- Bacterial azoreductases cleave the azo bond to release 5-ASA, the active anti-inflammatory component used in [[inflammatory-bowel-disease]].
-- **Irinotecan** -- Bacterial [[beta-glucuronidase]] reactivates the glucuronidated metabolite SN-38G to toxic SN-38 in the colon, causing severe diarrhea. The same enzyme central to the [[estrobolome]].
-- **Nitrazepam, clonazepam** -- Bacterial nitroreductases activate/inactivate benzodiazepines.
-- **Methotrexate** -- Gut bacteria influence folate metabolism and methotrexate polyglutamation, affecting efficacy in [[rheumatoid-arthritis]].
+- Digoxin -- Eggerthella lenta reduces the lactone ring, inactivating digoxin. A single bacterial species determines whether a cardiac glycoside works.
+- Sulfasalazine -- Bacterial azoreductases cleave the azo bond to release 5-ASA, the active anti-inflammatory component used in [[inflammatory-bowel-disease]].
+- Irinotecan -- Bacterial [[beta-glucuronidase]] reactivates the glucuronidated metabolite SN-38G to toxic SN-38 in the colon, causing severe diarrhea. The same enzyme central to the [[estrobolome]].
+- Nitrazepam, clonazepam -- Bacterial nitroreductases activate/inactivate benzodiazepines.
+- Methotrexate -- Gut bacteria influence folate metabolism and methotrexate polyglutamation, affecting efficacy in [[rheumatoid-arthritis]].
 
 ## Drugs Alter the Microbiome
 
@@ -49,10 +49,10 @@ Increase [[intestinal-permeability]] directly and shift microbiome composition. 
 
 The microbiome introduces a layer of pharmacokinetic variability invisible to standard pharmacogenomics:
 
-- **Inter-individual variation** -- microbial enzyme activity varies 100-fold between individuals
-- **Diet effects** -- dietary metal intake alters the microbiome, which alters drug metabolism
-- **Antibiotic co-administration** -- can ablate the microbial enzymes needed to activate or inactivate co-prescribed drugs
-- **Probiotic interactions** -- [[probiotics]] may restore or introduce drug-metabolizing capacity
+- Inter-individual variation -- microbial enzyme activity varies 100-fold between individuals
+- Diet effects -- dietary metal intake alters the microbiome, which alters drug metabolism
+- Antibiotic co-administration -- can ablate the microbial enzymes needed to activate or inactivate co-prescribed drugs
+- Probiotic interactions -- [[probiotics]] may restore or introduce drug-metabolizing capacity
 
 ## The Metals Connection
 

@@ -3,15 +3,21 @@ title: Metallothionein
 type: concept
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [tarhonska-2022-cadmium-breast-cancer-mechanisms, genchi-2020-cadmium-toxicity]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - jaishankar-2014-heavy-metal-toxicity-mechanisms
+  - rasin-2025-cadmium-exposure-health-review
+  - rosario-2019-constraint-based-modelling-microbiome-cometabolism-parkinsons
+  - rahim-2023-probiotics-prebiotics-synbiotics-asd-meta-analysis
+  - genchi-2020-cadmium-toxicity
+  - saleh-2020-serum-trace-elements-prostate-cancer
+  - blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans
+  - chen-2022-living-microorganisms-detoxification-heavy-metals
+source_count: 8
 tags: [metal-binding-protein, detoxification, cadmium, zinc, copper, cysteine-rich, cancer-progression, drug-resistance]
 karen_brain_primitives: [1, 2, 3]
 seo_target: "metallothionein heavy metal detoxification zinc cadmium binding protein"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Metallothionein
@@ -20,16 +26,16 @@ A family of small (6-7 kDa), cysteine-rich proteins that bind heavy metals with 
 
 ## Structure and Binding
 
-- **Cysteine content**: ~30% of amino acid residues are cysteine, providing abundant thiol (-SH) groups for metal coordination
-- **Two domains**: Alpha domain binds 4 divalent metal ions; beta domain binds 3 divalent metal ions
-- A single MT molecule can bind **7 zinc or cadmium atoms**, or **12 copper(I) atoms**
-- **Binding hierarchy** (affinity): Hg2+ > Cu+ > Cd2+ > Zn2+ -- meaning toxic metals displace zinc when they arrive, which is both protective (sequestering the toxicant) and disruptive (liberating zinc)
+- Cysteine content: ~30% of amino acid residues are cysteine, providing abundant thiol (-SH) groups for metal coordination
+- Two domains: Alpha domain binds 4 divalent metal ions; beta domain binds 3 divalent metal ions
+- A single MT molecule can bind 7 zinc or cadmium atoms, or 12 copper(I) atoms
+- Binding hierarchy (affinity): Hg2+ > Cu+ > Cd2+ > Zn2+ -- meaning toxic metals displace zinc when they arrive, which is both protective (sequestering the toxicant) and disruptive (liberating zinc)
 
 ## Dual Role in Metal Homeostasis
 
 ### Zinc Buffering
 
-Under normal conditions, metallothionein functions as a **zinc buffer**:
+Under normal conditions, metallothionein functions as a zinc buffer:
 
 - Stores zinc in a readily exchangeable form
 - Releases zinc in response to oxidative stress (ROS oxidize MT cysteine residues, liberating bound Zn)
@@ -43,7 +49,7 @@ When cadmium enters the cell, MT is the primary defense [[genchi-2020-cadmium-to
 - Cd2+ displaces Zn2+ from MT due to higher binding affinity
 - Cd-MT complex is thermodynamically stable, reducing free Cd availability
 - MT expression is strongly induced by Cd exposure (positive feedback loop)
-- **However**, Cd-MT is not permanently inactivated -- it is filtered at the renal glomerulus and reabsorbed in proximal tubules, where lysosomal degradation (pH 4.5-5.5) releases free Cd, causing tubular damage. This is the molecular basis of cadmium nephrotoxicity and its connection to [[chronic-kidney-disease]]
+- However, Cd-MT is not permanently inactivated -- it is filtered at the renal glomerulus and reabsorbed in proximal tubules, where lysosomal degradation (pH 4.5-5.5) releases free Cd, causing tubular damage. This is the molecular basis of cadmium nephrotoxicity and its connection to [[chronic-kidney-disease]]
 
 ### Copper Regulation
 
@@ -63,7 +69,7 @@ In breast cancer, metallothionein plays a double-edged role [[tarhonska-2022-cad
 
 ### Enabling Progression (Subsequently)
 
-- Higher MT expression in breast tumors **predicts cancer progression and drug resistance**
+- Higher MT expression in breast tumors predicts cancer progression and drug resistance
 - MT sequesters platinum-based chemotherapy drugs (cisplatin, carboplatin) via the same thiol-binding mechanism used for cadmium, reducing drug efficacy
 - Cd accumulates preferentially in mammary tissue bound to MT (0.053 ug/g malignant vs 0.02 ug/g normal) -- MT enables the accumulation by preventing acute toxicity while permitting chronic estrogenic stimulation
 - MT-mediated zinc release under oxidative stress may activate metalloproteinases and other zinc-dependent enzymes that promote invasion and metastasis

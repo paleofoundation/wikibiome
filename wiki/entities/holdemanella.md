@@ -22,7 +22,7 @@ conditions_depleted_in: [inflammatory-bowel-disease, postpartum-depression, hash
 
 # Holdemanella
 
-A genus of Gram-positive, strictly anaerobic bacteria in the family Erysipelotrichaceae (phylum Firmicutes) that is emerging as one of the most consistently protective gut commensals in human disease. *Holdemanella* is depleted across a striking range of conditions -- inflammatory bowel disease, postpartum depression, thyroid disorders, and neurodevelopmental conditions -- and Mendelian randomization studies provide evidence that this depletion is not merely a consequence of disease but may be causally related to disease risk. Its consistent loss across multiple unrelated conditions marks it as a candidate **keystone commensal** whose absence destabilizes the gut ecosystem.
+A genus of Gram-positive, strictly anaerobic bacteria in the family Erysipelotrichaceae (phylum Firmicutes) that is emerging as one of the most consistently protective gut commensals in human disease. *Holdemanella* is depleted across a striking range of conditions -- inflammatory bowel disease, postpartum depression, thyroid disorders, and neurodevelopmental conditions -- and Mendelian randomization studies provide evidence that this depletion is not merely a consequence of disease but may be causally related to disease risk. Its consistent loss across multiple unrelated conditions marks it as a candidate keystone commensal whose absence destabilizes the gut ecosystem.
 
 ## Metal Dependencies
 
@@ -32,8 +32,8 @@ A genus of Gram-positive, strictly anaerobic bacteria in the family Erysipelotri
 
 *Holdemanella* is not a pathogen; its biological significance lies in its beneficial metabolic contributions:
 
-- **Butyrate production** -- As a member of Erysipelotrichaceae, *Holdemanella* contributes to [[butyrate]] generation, supporting gut barrier integrity, colonocyte energy supply, and anti-inflammatory signaling
-- **Saccharolytic fermentation** -- Participates in carbohydrate fermentation pathways that compete with proteolytic (toxin-generating) metabolism
+- Butyrate production -- As a member of Erysipelotrichaceae, *Holdemanella* contributes to [[butyrate]] generation, supporting gut barrier integrity, colonocyte energy supply, and anti-inflammatory signaling
+- Saccharolytic fermentation -- Participates in carbohydrate fermentation pathways that compete with proteolytic (toxin-generating) metabolism
 
 ## Ecological Role
 
@@ -53,21 +53,21 @@ In a randomized controlled trial of probiotic supplementation during thyroid hor
 
 ### Causal Protective Evidence (Mendelian Randomization)
 
-- **Postpartum depression** -- *Holdemanella* is causally protective: OR=0.979 (95% CI 0.961-0.997, P=0.023) via IVW Mendelian randomization. No heterogeneity or horizontal pleiotropy detected; Steiger test confirmed causal directionality (microbiome to PPD) ([[zhang-2024-gut-microbiota-ppd-mendelian-randomization]], computational-prediction, n=38,007).
+- Postpartum depression -- *Holdemanella* is causally protective: OR=0.979 (95% CI 0.961-0.997, P=0.023) via IVW Mendelian randomization. No heterogeneity or horizontal pleiotropy detected; Steiger test confirmed causal directionality (microbiome to PPD) ([[zhang-2024-gut-microbiota-ppd-mendelian-randomization]], computational-prediction, n=38,007).
 
 ### Consistent Depletion Pattern
 
-- **Inflammatory bowel disease** -- Depleted in both Crohn's disease and ulcerative colitis as part of the healthy core microbiota ([[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]], case-control). IBD causally decreases *Holdemanella* abundance ([[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]], computational-prediction).
-- **Hashimoto's thyroiditis** -- Depleted in autoimmune thyroid disease ([[fang-2024-gut-microbiota-autoimmune-thyroid-mendelian]])
-- **Post-thyroidectomy dysbiosis** -- Restored by probiotic intervention ([[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]], RCT)
-- **Post-stroke depression** -- Negatively correlated with HAMD depression scores
+- Inflammatory bowel disease -- Depleted in both Crohn's disease and ulcerative colitis as part of the healthy core microbiota ([[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]], case-control). IBD causally decreases *Holdemanella* abundance ([[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]], computational-prediction).
+- Hashimoto's thyroiditis -- Depleted in autoimmune thyroid disease ([[fang-2024-gut-microbiota-autoimmune-thyroid-mendelian]])
+- Post-thyroidectomy dysbiosis -- Restored by probiotic intervention ([[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]], RCT)
+- Post-stroke depression -- Negatively correlated with HAMD depression scores
 
 ## Key Studies
 
-- **[[zhang-2024-gut-microbiota-ppd-mendelian-randomization]]** (computational-prediction, n=38,007) -- Provides Mendelian randomization evidence for causal protective effect of *Holdemanella* against postpartum depression; links omega-3 fish consumption to *Holdemanella* abundance.
-- **[[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]]** (case-control, n=36) -- Identifies *Holdemanella* as part of the healthy core microbiota depleted in both CD and UC.
-- **[[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]]** (computational-prediction) -- MR evidence that IBD causally decreases *Holdemanella*; gut microbiota does not mediate IBD-to-extraintestinal manifestation pathway.
-- **[[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]]** (RCT, n=39) -- Probiotic restoration of *Holdemanella* during thyroid hormone withdrawal with clinical benefit.
+- [[zhang-2024-gut-microbiota-ppd-mendelian-randomization]] (computational-prediction, n=38,007) -- Provides Mendelian randomization evidence for causal protective effect of *Holdemanella* against postpartum depression; links omega-3 fish consumption to *Holdemanella* abundance.
+- [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]] (case-control, n=36) -- Identifies *Holdemanella* as part of the healthy core microbiota depleted in both CD and UC.
+- [[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]] (computational-prediction) -- MR evidence that IBD causally decreases *Holdemanella*; gut microbiota does not mediate IBD-to-extraintestinal manifestation pathway.
+- [[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]] (RCT, n=39) -- Probiotic restoration of *Holdemanella* during thyroid hormone withdrawal with clinical benefit.
 
 ## Cross-References
 

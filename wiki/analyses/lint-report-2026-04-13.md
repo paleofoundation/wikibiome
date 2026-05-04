@@ -9,9 +9,9 @@ tags: [maintenance, lint, health-check]
 
 # WikiBiome Lint Report — 2026-04-13
 
-**Automated health check run:** 2026-04-13 
-**Wiki pages scanned:** 1,773 total (1,515 sources + 258 content pages) 
-**Issues found:** 4 critical, 5 high-priority, 7 medium-priority
+Automated health check run: 2026-04-13 
+Wiki pages scanned: 1,773 total (1,515 sources + 258 content pages) 
+Issues found: 4 critical, 5 high-priority, 7 medium-priority
 
 ---
 
@@ -39,15 +39,15 @@ Significant work has been done since the last lint report. Before cataloguing ne
 
 | Category | Index Claims | Actual Count | Delta |
 |----------|-------------|--------------|-------|
-| Sources | 1,426 | 1,515 | **+89** |
-| Disease Signatures | 13 | 15 | **+2** |
-| Interventions | 5 | 13 | **+8** |
+| Sources | 1,426 | 1,515 | +89 |
+| Disease Signatures | 13 | 15 | +2 |
+| Interventions | 5 | 13 | +8 |
 | Glossary | — | 1 | new file |
 | Overview | — | 1 | new file |
 
 The body of index.md also does not list `hashimotos-thyroiditis`, `pancreatic-cancer`, or `depression` under signatures, and the 8 new intervention pages are absent entirely.
 
-**Action:** Regenerate `index.md` from filesystem. Update `updated:` date to 2026-04-13.
+Action: Regenerate `index.md` from filesystem. Update `updated:` date to 2026-04-13.
 
 ---
 
@@ -61,20 +61,20 @@ This issue was flagged in the April 12 report and remains unresolved. Line 58 st
 
 All four broken links use backslash instead of forward slash. These will render as broken links on WikiBiome.
 
-**Action:** Fix the four backslash-broken links in `wiki/concepts/dietary-metal-microbiome-interactions.md`. Change `\|` to `|` in all four wikilinks.
+Action: Fix the four backslash-broken links in `wiki/concepts/dietary-metal-microbiome-interactions.md`. Change `\|` to `|` in all four wikilinks.
 
 ---
 
 ### 3. Metal entity `subtype:` fields still missing
 
-14 entity pages were flagged for missing `subtype:` in the April 12 report. Checking today: **12 of 19 metal pages still lack the field**. Only cobalt, iodine, magnesium, molybdenum, and tin have `subtype:` set.
+14 entity pages were flagged for missing `subtype:` in the April 12 report. Checking today: 12 of 19 metal pages still lack the field. Only cobalt, iodine, magnesium, molybdenum, and tin have `subtype:` set.
 
 Still missing:
 `aluminum`, `arsenic`, `cadmium`, `chromium`, `copper`, `iron`, `lead`, `manganese`, `mercury`, `nickel`, `selenium`, `zinc`
 
 Also still missing: `candida-albicans` (subtype: fungus), `enterococcus` (subtype: microbe)
 
-**Action:** Add `subtype: metal` to all 12 metal entity pages. Add `subtype: fungus` to candida-albicans. Add `subtype: microbe` to enterococcus.
+Action: Add `subtype: metal` to all 12 metal entity pages. Add `subtype: fungus` to candida-albicans. Add `subtype: microbe` to enterococcus.
 
 ---
 
@@ -82,14 +82,14 @@ Also still missing: `candida-albicans` (subtype: fungus), `enterococcus` (subtyp
 
 Per schema, intervention pages require a `cureva_status: complete | partial | in-progress` field. None of the 13 current intervention pages have it:
 
-**Original 5 (carried over from April 12 report):**
+Original 5 (carried over from April 12 report):
 - `b-cell-depletion-therapy-ms.md`
 - `ecoli-nissle-1917.md`
 - `ketogenic-diet-ms.md`
 - `low-nickel-diet.md`
 - `probiotics-asd-dysbiosis.md`
 
-**8 new pages (added since April 12):**
+8 new pages (added since April 12):
 - `fmt-intervention.md`
 - `iron-management.md`
 - `ketogenic-diet.md`
@@ -99,7 +99,7 @@ Per schema, intervention pages require a `cureva_status: complete | partial | in
 - `vitamin-d-supplementation.md`
 - `zinc-supplementation.md`
 
-**Suggested assignments based on triangle completeness:**
+Suggested assignments based on triangle completeness:
 - `low-nickel-diet.md` → `complete` (5 validated triangles)
 - `ecoli-nissle-1917.md` → `partial` (strong endometriosis triangle; other conditions partial)
 - `fmt-intervention.md` → `partial` (C. diff validated; IBD promising)
@@ -108,7 +108,7 @@ Per schema, intervention pages require a `cureva_status: complete | partial | in
 - `vitamin-d-supplementation.md` → `partial` (MS, Hashimoto's triangles promising)
 - `b-cell-depletion-therapy-ms.md`, `ketogenic-diet-ms.md`, `ketogenic-diet.md`, `mediterranean-diet.md`, `probiotics-general.md`, `probiotics-asd-dysbiosis.md`, `zinc-supplementation.md` → `partial`
 
-**Action:** Add `cureva_status:` field to all 13 intervention pages.
+Action: Add `cureva_status:` field to all 13 intervention pages.
 
 ---
 
@@ -118,7 +118,7 @@ Per schema, intervention pages require a `cureva_status: complete | partial | in
 
 The duplicate source cleanup identified in the April 12 report was not performed. The zou-2022 triplet (three filenames for one paper) was confirmed still present. Per the April 12 report, there are 46 pairs and 3 triplets total. This inflates the source count by roughly 50 files and clutters cross-references.
 
-**Action:** Execute the duplicate cleanup from the April 12 report's table. Priority: delete the confirmed duplicates first (22 pairs), then investigate the suspected wrong-DOI assignments.
+Action: Execute the duplicate cleanup from the April 12 report's table. Priority: delete the confirmed duplicates first (22 pairs), then investigate the suspected wrong-DOI assignments.
 
 ---
 
@@ -126,17 +126,17 @@ The duplicate source cleanup identified in the April 12 report was not performed
 
 Reduced from 15 to 13 since the April 12 report (hashimotos-thyroiditis and pancreatic-cancer signatures now exist). Still missing:
 
-**Highest priority (large source libraries, strong metallomic angle):**
+Highest priority (large source libraries, strong metallomic angle):
 - `postpartum-depression` — PPD; significant source library; estrobolome, zinc/iron angle; iron-management intervention page exists
 - `rheumatoid-arthritis` — RA; copper/zinc/iron signature; heavy source library
 - `schizophrenia` — 14+ sources ingested; copper/zinc/tryptophan signature buildable
 - `chronic-kidney-disease` — CKD; cadmium, arsenic, lead renal toxicity; large source library
 
-**Active research areas:**
+Active research areas:
 - `breast-cancer`, `ovarian-cancer`, `gastric-cancer` — Cancer signatures; metalloestrogen angle
 - `type-1-diabetes`, `ulcerative-colitis` — Separate from T2D and Crohn's signatures
 
-**Foundational work needed:**
+Foundational work needed:
 - `hypertension`, `ibs`, `gerd`, `inflammatory-bowel-disease`
 
 ---
@@ -147,7 +147,7 @@ The April 12 gaps report explicitly identified this: both Parkinson's disease an
 
 The `iron-management.md` intervention page exists but provides conditional guidance, not a categorical STOP. The pattern is clear enough for both conditions to warrant dedicated STOP pages.
 
-**Action:** Create `stop-iron-supplementation-parkinsons.md` and `stop-iron-supplementation-depression.md` following the existing STOP template.
+Action: Create `stop-iron-supplementation-parkinsons.md` and `stop-iron-supplementation-depression.md` following the existing STOP template.
 
 ---
 
@@ -155,7 +155,7 @@ The `iron-management.md` intervention page exists but provides conditional guida
 
 Flagged in the April 12 report. The misspelling appears on line 20 and again in the taxa table of `wiki/signatures/parkinsons-disease.md`. The correct entity is `[[akkermansia-muciniphila]]`.
 
-**Action:** Open `wiki/signatures/parkinsons-disease.md` and replace both instances of `[[akkermansia-mucinicola]]` with `[[akkermansia-muciniphila]]`.
+Action: Open `wiki/signatures/parkinsons-disease.md` and replace both instances of `[[akkermansia-mucinicola]]` with `[[akkermansia-muciniphila]]`.
 
 ---
 
@@ -167,7 +167,7 @@ Also carried over from the April 12 report without resolution:
 - `[[candida-tropicalis]]` — Candida species; mycobiome contexts
 - `[[aeromonas]]` — opportunistic pathogen; gut contexts
 
-**Action:** Create stub entity pages for these four organisms with at minimum `title`, `type`, `subtype`, `created`, `tags` frontmatter.
+Action: Create stub entity pages for these four organisms with at minimum `title`, `type`, `subtype`, `created`, `tags` frontmatter.
 
 ---
 
@@ -194,7 +194,7 @@ Carried over from April 12. These terms are wikilinked from content pages but ha
 
 Identified in the April 12 gaps report: ~79 raw papers; no entity page; no signature. Still not actioned. Given the source volume, a stub entity and eventual signature are warranted.
 
-**Action:** Create `wiki/entities/cerebral-palsy.md` stub.
+Action: Create `wiki/entities/cerebral-palsy.md` stub.
 
 ---
 
@@ -202,7 +202,7 @@ Identified in the April 12 gaps report: ~79 raw papers; no entity page; no signa
 
 SNAS is referenced as a condition in `low-nickel-diet.md` and in several sources, but has no entity page. It sits at the intersection of the nickel, endometriosis, IBS, and GERD signature clusters — a WikiBiome entity page would connect these threads.
 
-**Action:** Create `wiki/entities/snas.md` entity page.
+Action: Create `wiki/entities/snas.md` entity page.
 
 ---
 
@@ -210,7 +210,7 @@ SNAS is referenced as a condition in `low-nickel-diet.md` and in several sources
 
 Flagged in April 12 report. `wiki/entities/schizophrenia.md` lists source filenames with `.md` extensions appended (e.g., `saha-2005-prevalence-schizophrenia-systematic-review.md`), inconsistent with convention.
 
-**Action:** Strip `.md` extensions from the `sources:` list in `wiki/entities/schizophrenia.md`.
+Action: Strip `.md` extensions from the `sources:` list in `wiki/entities/schizophrenia.md`.
 
 ---
 
@@ -218,7 +218,7 @@ Flagged in April 12 report. `wiki/entities/schizophrenia.md` lists source filena
 
 Confirmed: `wiki/concepts/pharmacomicrobiomics.md` exists on disk but does not appear in the concept list in `wiki/index.md`. This is partly an index-staleness issue, but the page also appears to have few inbound links.
 
-**Action:** Add to index; verify inbound links from relevant intervention and source pages.
+Action: Add to index; verify inbound links from relevant intervention and source pages.
 
 ---
 
@@ -240,20 +240,20 @@ Confirmed: `wiki/concepts/pharmacomicrobiomics.md` exists on disk but does not a
 
 ## RECOMMENDED ACTION SEQUENCE
 
-**Quick wins (< 5 min each):**
+Quick wins (< 5 min each):
 1. Fix 4 backslash links in `dietary-metal-microbiome-interactions.md`
 2. Fix `[[akkermansia-mucinicola]]` misspelling in `parkinsons-disease.md` (2 occurrences)
 3. Strip `.md` extensions from schizophrenia entity sources list
 4. Add `cureva_status:` to all 13 intervention pages (batch edit)
 
-**Short tasks (15–30 min each):**
+Short tasks (15–30 min each):
 5. Add `subtype: metal` to 12 metal entity pages + candida-albicans + enterococcus
 6. Create 4 missing entity stubs (bacteroides-thetaiotaomicron, candida-auris, candida-tropicalis, aeromonas)
 7. Create STOP pages for iron supplementation in Parkinson's and Depression
 8. Create `ahr` and `amyloid-beta` concept stubs (highest-traffic missing pages)
 9. Regenerate `index.md` from filesystem
 
-**Longer tasks (next sessions):**
+Longer tasks (next sessions):
 10. Execute duplicate source cleanup (46+ pairs from April 12 report)
 11. Build signature pages for postpartum-depression and rheumatoid-arthritis
 12. Create SNAS entity page; create b-cell-depletion-therapy concept page

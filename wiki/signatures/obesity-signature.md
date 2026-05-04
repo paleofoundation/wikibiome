@@ -83,12 +83,12 @@ Obesity affects over 1 billion people globally and is characterized by excess ad
 
 ## Metallomic Signature
 
-**Confidence: moderate** (2 independent studies with consistent findings; additional supportive epidemiological data)
+Confidence: moderate (2 independent studies with consistent findings; additional supportive epidemiological data)
 
-Obese individuals show a distinctive fecal metal profile: elevated **Cd, Zn, Fe, Mn** and reduced **Ba, V, Ti** [[pendergrass-2026-heavy-metals-obesity-epidemic]]. The metallomic signature operates through two primary metals:
+Obese individuals show a distinctive fecal metal profile: elevated Cd, Zn, Fe, Mn and reduced Ba, V, Ti [[pendergrass-2026-heavy-metals-obesity-epidemic]]. The metallomic signature operates through two primary metals:
 
-- **Cadmium**: Bifidobacteriaceae abundance negatively correlated with fecal Cd, establishing a direct link between metal burden and beneficial taxon loss [[pendergrass-2026-heavy-metals-obesity-epidemic]]. Cd in phosphate fertilizers peaked at 12-14 mg/kg during the 1980s-1990s, temporally aligned with the obesity epidemic onset.
-- **Nickel**: 59.7% of overweight women (BMI >26) are nickel-allergic vs. 12.5% in the general female population (p<0.001) [[lusi-2015-nickel-allergy-overweight]]. Urinary nickel is independently associated with metabolic dysfunction-associated steatotic liver disease, with [[insulin-resistance]] mediating ~73.69% of the association [[lu-2024-nickel-diabetes-meta-analysis]]. Nickel acts as a [[metalloestrogens|metalloestrogen]], activating estrogen receptors and promoting adiposity.
+- Cadmium: Bifidobacteriaceae abundance negatively correlated with fecal Cd, establishing a direct link between metal burden and beneficial taxon loss [[pendergrass-2026-heavy-metals-obesity-epidemic]]. Cd in phosphate fertilizers peaked at 12-14 mg/kg during the 1980s-1990s, temporally aligned with the obesity epidemic onset.
+- Nickel: 59.7% of overweight women (BMI >26) are nickel-allergic vs. 12.5% in the general female population (p<0.001) [[lusi-2015-nickel-allergy-overweight]]. Urinary nickel is independently associated with metabolic dysfunction-associated steatotic liver disease, with [[insulin-resistance]] mediating ~73.69% of the association [[lu-2024-nickel-diabetes-meta-analysis]]. Nickel acts as a [[metalloestrogens|metalloestrogen]], activating estrogen receptors and promoting adiposity.
 
 A dose-response paradox characterizes both metals: low-dose exposure stimulates adipogenesis while higher doses inhibit adipocyte differentiation and promote ectopic lipid accumulation [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 
@@ -96,62 +96,62 @@ A dose-response paradox characterizes both metals: low-dose exposure stimulates 
 
 The primary exposure routes trace to agricultural intensification:
 
-1. **Phosphate fertilizer expansion** introduces Cd into soils; Cd in fertilizers increased rapidly from the early 1970s through the 1990s [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-2. **Urea fertilizers** introduce Ni into soils; Ni content increased from ~0.3 to >3.5 mg/kg over the same period [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-3. **Food chain bioaccumulation** through contaminated crops: legumes, cocoa, nuts, whole grains are high-Ni foods; rice and leafy vegetables accumulate Cd from contaminated soils
-4. **Dietary nickel** at typical intake levels (100-300 ug/day) triggers immunological and metabolic effects in sensitized individuals [[lusi-2015-nickel-allergy-overweight]]
+1. Phosphate fertilizer expansion introduces Cd into soils; Cd in fertilizers increased rapidly from the early 1970s through the 1990s [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+2. Urea fertilizers introduce Ni into soils; Ni content increased from ~0.3 to >3.5 mg/kg over the same period [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+3. Food chain bioaccumulation through contaminated crops: legumes, cocoa, nuts, whole grains are high-Ni foods; rice and leafy vegetables accumulate Cd from contaminated soils
+4. Dietary nickel at typical intake levels (100-300 ug/day) triggers immunological and metabolic effects in sensitized individuals [[lusi-2015-nickel-allergy-overweight]]
 
 ## Nutritional Immunity Response
 
-**Confidence: preliminary** (inferred from related metabolic syndrome data; no direct obesity-specific nutritional immunity studies)
+Confidence: preliminary (inferred from related metabolic syndrome data; no direct obesity-specific nutritional immunity studies)
 
 The nutritional immunity layer in obesity is underdeveloped relative to infectious disease signatures, but available evidence suggests:
 
-- **Hepcidin elevation** in obesity reflects chronic inflammation-driven iron sequestration rather than true iron excess; adipose tissue inflammation drives IL-6-mediated hepcidin induction
-- **Ferritin elevation** as an acute-phase reactant in obese individuals may represent inflammatory iron trapping rather than iron overload
-- **Glutathione depletion** results from sustained oxidative stress driven by adipose tissue macrophage activation and metal-catalyzed Fenton chemistry
+- Hepcidin elevation in obesity reflects chronic inflammation-driven iron sequestration rather than true iron excess; adipose tissue inflammation drives IL-6-mediated hepcidin induction
+- Ferritin elevation as an acute-phase reactant in obese individuals may represent inflammatory iron trapping rather than iron overload
+- Glutathione depletion results from sustained oxidative stress driven by adipose tissue macrophage activation and metal-catalyzed Fenton chemistry
 
 <!-- NEEDS VERIFICATION: Hepcidin and ferritin data extrapolated from metabolic syndrome studies; obesity-specific nutritional immunity profiling lacking -->
 
 ## Taxonomic Analysis
 
-**Confidence: high** (5+ independent studies with consistent findings across cohorts and methods)
+Confidence: high (5+ independent studies with consistent findings across cohorts and methods)
 
 ### Enriched Taxa
 
-- **[[enterobacteriaceae]]**: LPS-producing gram-negative family enriched in the obese gut; metal-tolerant species dominate when SCFA producers are eliminated by Cd/Ni exposure [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-- **[[escherichia-coli]]**: Iron- and zinc-dependent pathobiont contributing to metabolic endotoxemia via TLR4/NF-kB activation in adipose tissue macrophages
-- **[[streptococcus]]**: Enriched in metabolic syndrome; associated phages (Streptococcaceae-infecting) enriched in MetS viromes [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]]
+- [[enterobacteriaceae]]: LPS-producing gram-negative family enriched in the obese gut; metal-tolerant species dominate when SCFA producers are eliminated by Cd/Ni exposure [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+- [[escherichia-coli]]: Iron- and zinc-dependent pathobiont contributing to metabolic endotoxemia via TLR4/NF-kB activation in adipose tissue macrophages
+- [[streptococcus]]: Enriched in metabolic syndrome; associated phages (Streptococcaceae-infecting) enriched in MetS viromes [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]]
 
 ### Depleted Taxa
 
-- **[[roseburia]]**: Butyrate producer directly eliminated by Cd exposure; its loss reduces colonocyte fuel supply and compromises gut barrier integrity [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-- **[[faecalibacterium-prausnitzii]]**: Major butyrate producer; its depletion correlates with increased adipose inflammation and insulin resistance; Western diet accelerates its loss [[ross-2024-diet-gut-microbiome-interplay-health-disease]]
-- **[[bifidobacterium]]**: Abundance negatively correlated with fecal Cd; its loss impairs regulatory T-cell induction and barrier function [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-- **[[akkermansia-muciniphila]]**: Depletion is a hallmark obesity signature; restoration improves mucin layer integrity, reduces metabolic endotoxemia, and ameliorates adipose inflammation [[ross-2024-diet-gut-microbiome-interplay-health-disease]]
-- **[[oscillospiraceae]]**: SCFA producer depleted in obesity; contributes to overall reduced microbial diversity [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+- [[roseburia]]: Butyrate producer directly eliminated by Cd exposure; its loss reduces colonocyte fuel supply and compromises gut barrier integrity [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+- [[faecalibacterium-prausnitzii]]: Major butyrate producer; its depletion correlates with increased adipose inflammation and insulin resistance; Western diet accelerates its loss [[ross-2024-diet-gut-microbiome-interplay-health-disease]]
+- [[bifidobacterium]]: Abundance negatively correlated with fecal Cd; its loss impairs regulatory T-cell induction and barrier function [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+- [[akkermansia-muciniphila]]: Depletion is a hallmark obesity signature; restoration improves mucin layer integrity, reduces metabolic endotoxemia, and ameliorates adipose inflammation [[ross-2024-diet-gut-microbiome-interplay-health-disease]]
+- [[oscillospiraceae]]: SCFA producer depleted in obesity; contributes to overall reduced microbial diversity [[pendergrass-2026-heavy-metals-obesity-epidemic]]
 
 The F/B (Firmicutes/Bacteroidetes) ratio — the original obesity-microbiome observation — is now recognized as an oversimplification; genus- and species-level analyses provide more actionable resolution [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 
 ## Virulence Enzymes and Features
 
-**Confidence: preliminary** (inferred from enriched taxa enzyme profiles; no direct virulence enzyme profiling in obesity cohorts)
+Confidence: preliminary (inferred from enriched taxa enzyme profiles; no direct virulence enzyme profiling in obesity cohorts)
 
-- **LPS biosynthesis**: Enriched Enterobacteriaceae produce lipopolysaccharide that drives TLR4/NF-kB activation in adipose tissue, sustaining chronic low-grade inflammation [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-- **Beta-glucuronidase**: Produced by enriched Enterobacteriaceae; deconjugates estrogen metabolites, contributing to estrogen recirculation that promotes adiposity — particularly relevant given the metalloestrogen activity of nickel [[lusi-2015-nickel-allergy-overweight]]
-- **TMA lyase**: Converts dietary choline/carnitine to TMA, which is oxidized to [[tmao]] in the liver; TMAO contributes to cardiovascular disease comorbidity in obesity [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]
+- LPS biosynthesis: Enriched Enterobacteriaceae produce lipopolysaccharide that drives TLR4/NF-kB activation in adipose tissue, sustaining chronic low-grade inflammation [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+- Beta-glucuronidase: Produced by enriched Enterobacteriaceae; deconjugates estrogen metabolites, contributing to estrogen recirculation that promotes adiposity — particularly relevant given the metalloestrogen activity of nickel [[lusi-2015-nickel-allergy-overweight]]
+- TMA lyase: Converts dietary choline/carnitine to TMA, which is oxidized to [[tmao]] in the liver; TMAO contributes to cardiovascular disease comorbidity in obesity [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]
 
 ## Ecological State
 
-**Confidence: moderate** (3 independent lines of evidence)
+Confidence: moderate (3 independent lines of evidence)
 
 The obese gut ecosystem is characterized by:
 
-1. **Metabolic endotoxemia**: Gut barrier disruption permits LPS translocation, activating TLR4/NF-kB on adipose tissue macrophages; this drives TNF-alpha, IL-6, MCP-1 elevation in visceral adipose [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-2. **Reduced microbial diversity**: Correlates with metabolic dysfunction severity; Western diet accelerates diversity loss [[ross-2024-diet-gut-microbiome-interplay-health-disease]]
-3. **Increased energy harvest capacity**: The obese microbiome has increased capacity for extracting energy from dietary polysaccharides [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]
-4. **Bile acid dysregulation**: Loss of BSH-expressing and 7-alpha-dehydroxylating bacteria disrupts bile acid-FXR-FGF19 signaling [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]
-5. **Virome depletion**: Decreased phage richness and diversity in metabolic syndrome; depleted Bifidobacteriaceae-infecting phages; depleted Crassvirales [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]]
+1. Metabolic endotoxemia: Gut barrier disruption permits LPS translocation, activating TLR4/NF-kB on adipose tissue macrophages; this drives TNF-alpha, IL-6, MCP-1 elevation in visceral adipose [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+2. Reduced microbial diversity: Correlates with metabolic dysfunction severity; Western diet accelerates diversity loss [[ross-2024-diet-gut-microbiome-interplay-health-disease]]
+3. Increased energy harvest capacity: The obese microbiome has increased capacity for extracting energy from dietary polysaccharides [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]
+4. Bile acid dysregulation: Loss of BSH-expressing and 7-alpha-dehydroxylating bacteria disrupts bile acid-FXR-FGF19 signaling [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]
+5. Virome depletion: Decreased phage richness and diversity in metabolic syndrome; depleted Bifidobacteriaceae-infecting phages; depleted Crassvirales [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]]
 
 ## Associated Conditions
 
@@ -168,17 +168,17 @@ The obesity-T2D overlap (0.75) is the highest in this signature, consistent with
 
 ## Open Questions
 
-1. **Can the Pendergrass causal pathway be validated prospectively?** Populations with lower dietary metal exposure should retain greater SCFA-producing bacteria abundance and show relative protection against metabolic dysfunction — this is a testable prediction [[pendergrass-2026-heavy-metals-obesity-epidemic]].
-2. **Does the low-nickel diet produce sustained weight loss beyond 6 months?** The Lusi et al. 6-month trial (n=24) showed dramatic results (BMI decrease of 4.2) but needs replication in larger, longer RCTs [[lusi-2015-nickel-allergy-overweight]].
-3. **What is the relative contribution of Cd vs. Ni to SCFA-producer elimination?** Both metals are elevated in obese fecal samples, but their independent and synergistic effects on specific taxa are not yet disentangled.
-4. **Is Akkermansia muciniphila depletion a cause or consequence of obesity?** Restoration studies are promising but causal direction from MR evidence is lacking for obesity specifically.
-5. **Does virome restoration (phage therapy targeting Enterobacteriaceae) improve metabolic parameters?** The virome depletion in MetS is well-documented [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]] but therapeutic implications are unexplored.
-6. **What is the threshold metal exposure below which SCFA-producer populations are preserved?** This has direct public health implications for fertilizer regulation.
+1. Can the Pendergrass causal pathway be validated prospectively? Populations with lower dietary metal exposure should retain greater SCFA-producing bacteria abundance and show relative protection against metabolic dysfunction — this is a testable prediction [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+2. Does the low-nickel diet produce sustained weight loss beyond 6 months? The Lusi et al. 6-month trial (n=24) showed dramatic results (BMI decrease of 4.2) but needs replication in larger, longer RCTs [[lusi-2015-nickel-allergy-overweight]].
+3. What is the relative contribution of Cd vs. Ni to SCFA-producer elimination? Both metals are elevated in obese fecal samples, but their independent and synergistic effects on specific taxa are not yet disentangled.
+4. Is Akkermansia muciniphila depletion a cause or consequence of obesity? Restoration studies are promising but causal direction from MR evidence is lacking for obesity specifically.
+5. Does virome restoration (phage therapy targeting Enterobacteriaceae) improve metabolic parameters? The virome depletion in MetS is well-documented [[de-jonge-2022-gut-virome-bacteriophage-metabolic-syndrome]] but therapeutic implications are unexplored.
+6. What is the threshold metal exposure below which SCFA-producer populations are preserved? This has direct public health implications for fertilizer regulation.
 
 ## Karen's Brain Primitives Active
 
-- **Primitive 1 — Metals as Selective Pressures**: Cd and Ni from fertilizers selectively eliminate SCFA-producing bacteria while enriching metal-tolerant Enterobacteriaceae, reshaping the gut ecosystem toward an obesogenic profile [[pendergrass-2026-heavy-metals-obesity-epidemic]]
-- **Primitive 2 — Nutritional Immunity as Interpretive Constraint**: Elevated hepcidin and ferritin in obesity may reflect inflammatory iron sequestration (host defense) rather than true iron excess; this distinction is clinically important for intervention design
-- **Primitive 4 — Microbial Metal Dependencies as Achilles' Heels**: Restricting dietary nickel (low-Ni diet) produced dramatic weight loss (BMI -4.2) without caloric restriction, suggesting Ni-dependent pathobionts can be starved by metal restriction [[lusi-2015-nickel-allergy-overweight]]
-- **Primitive 5 — Two-Sided Ecological Engineering**: Effective intervention requires both suppressing metal-tolerant Enterobacteriaceae AND restoring depleted SCFA producers (Roseburia, Faecalibacterium, Bifidobacterium, Akkermansia)
-- **Primitive 7 — Estrobolome and Hormone Recirculation**: Nickel as a metalloestrogen combined with beta-glucuronidase-mediated estrogen recirculation by enriched Enterobacteriaceae may contribute to the sex-specific prevalence pattern of nickel-allergy-associated obesity [[lusi-2015-nickel-allergy-overweight]]
+- Primitive 1 — Metals as Selective Pressures: Cd and Ni from fertilizers selectively eliminate SCFA-producing bacteria while enriching metal-tolerant Enterobacteriaceae, reshaping the gut ecosystem toward an obesogenic profile [[pendergrass-2026-heavy-metals-obesity-epidemic]]
+- Primitive 2 — Nutritional Immunity as Interpretive Constraint: Elevated hepcidin and ferritin in obesity may reflect inflammatory iron sequestration (host defense) rather than true iron excess; this distinction is clinically important for intervention design
+- Primitive 4 — Microbial Metal Dependencies as Achilles' Heels: Restricting dietary nickel (low-Ni diet) produced dramatic weight loss (BMI -4.2) without caloric restriction, suggesting Ni-dependent pathobionts can be starved by metal restriction [[lusi-2015-nickel-allergy-overweight]]
+- Primitive 5 — Two-Sided Ecological Engineering: Effective intervention requires both suppressing metal-tolerant Enterobacteriaceae AND restoring depleted SCFA producers (Roseburia, Faecalibacterium, Bifidobacterium, Akkermansia)
+- Primitive 7 — Estrobolome and Hormone Recirculation: Nickel as a metalloestrogen combined with beta-glucuronidase-mediated estrogen recirculation by enriched Enterobacteriaceae may contribute to the sex-specific prevalence pattern of nickel-allergy-associated obesity [[lusi-2015-nickel-allergy-overweight]]

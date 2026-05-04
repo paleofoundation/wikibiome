@@ -3,15 +3,16 @@ title: Alpha-Klotho
 type: concept
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [liu-2025-low-concentration-metals-ckd-alpha-klotho, mishra-2022-molecular-mechanisms-heavy-metals-ckd]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - mishra-2022-molecular-mechanisms-heavy-metals-ckd
+  - di-ciaula-2017-bile-acid-physiology
+  - liu-2025-low-concentration-metals-ckd-alpha-klotho
+source_count: 3
 tags: [anti-aging, CKD, nephroprotection, metal-toxicity, antioxidant, NF-kappaB, mediation]
 karen_brain_primitives: [1, 2, 3]
 seo_target: "alpha klotho kidney disease heavy metals aging"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Alpha-Klotho
@@ -22,20 +23,20 @@ An anti-aging protein that has emerged as a critical mediator between heavy meta
 
 ### Expression and Forms
 
-- Primarily expressed in the **kidney (distal convoluted tubule)**, with lower expression in brain choroid plexus and parathyroid glands
+- Primarily expressed in the kidney (distal convoluted tubule), with lower expression in brain choroid plexus and parathyroid glands
 - Exists in two forms:
-  - **Membrane-bound**: Functions as a co-receptor for fibroblast growth factor 23 (FGF23), regulating phosphate and calcium homeostasis
-  - **Soluble (secreted/cleaved)**: Circulates in blood and CSF; acts as an endocrine factor with pleiotropic protective effects
+  - Membrane-bound: Functions as a co-receptor for fibroblast growth factor 23 (FGF23), regulating phosphate and calcium homeostasis
+  - Soluble (secreted/cleaved): Circulates in blood and CSF; acts as an endocrine factor with pleiotropic protective effects
 
 ### Protective Functions
 
 Alpha-klotho exerts renal and systemic protection through multiple mechanisms [[liu-2025-low-concentration-metals-ckd-alpha-klotho]]:
 
-- **Antioxidant enzyme regulation**: Upregulates superoxide dismutase (SOD), catalase (CAT), and glutathione peroxidase 4 (GPX-4) -- the same enzyme whose loss triggers [[ferroptosis]]
-- **TLR4 signaling suppression**: Inhibits toll-like receptor 4 activation, reducing innate immune inflammatory cascades
-- **NF-kappaB inhibition**: Blocks the master inflammatory transcription factor, reducing pro-inflammatory cytokine production
-- **Autophagy promotion**: Facilitates cellular cleanup of damaged organelles and protein aggregates
-- **Calcium/vitamin D homeostasis**: Regulates mineral metabolism through FGF23 co-receptor function
+- Antioxidant enzyme regulation: Upregulates superoxide dismutase (SOD), catalase (CAT), and glutathione peroxidase 4 (GPX-4) -- the same enzyme whose loss triggers [[ferroptosis]]
+- TLR4 signaling suppression: Inhibits toll-like receptor 4 activation, reducing innate immune inflammatory cascades
+- NF-kappaB inhibition: Blocks the master inflammatory transcription factor, reducing pro-inflammatory cytokine production
+- Autophagy promotion: Facilitates cellular cleanup of damaged organelles and protein aggregates
+- Calcium/vitamin D homeostasis: Regulates mineral metabolism through FGF23 co-receptor function
 
 ## The Metal-Klotho-CKD Axis
 
@@ -43,9 +44,9 @@ A machine learning analysis of 51 pollutants identified heavy metals (cadmium, [
 
 ### Mediation Evidence
 
-- Alpha-klotho mediates **34.55%** of the mercury-CKD association
-- **Mendelian randomization** confirmed directionality: higher alpha-klotho levels causally reduce CKD risk (OR 0.9842, using 6 genetic instruments)
-- Alpha-klotho levels are **significantly lower** in CKD patients (727.65 vs 798.80 pg/mL, p < 0.0001)
+- Alpha-klotho mediates 34.55% of the mercury-CKD association
+- Mendelian randomization confirmed directionality: higher alpha-klotho levels causally reduce CKD risk (OR 0.9842, using 6 genetic instruments)
+- Alpha-klotho levels are significantly lower in CKD patients (727.65 vs 798.80 pg/mL, p < 0.0001)
 
 ### Proposed Mechanism
 
@@ -63,9 +64,9 @@ This creates a vulnerability loop: as kidney function declines, metal clearance 
 
 Alpha-klotho decline is one of the earliest detectable changes in CKD progression, occurring before significant GFR reduction [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]:
 
-- **Cadmium** specifically targets proximal tubular cells, where it accumulates bound to [[metallothionein]]; lysosomal degradation releases free Cd, suppressing klotho
-- **Mercury** and **lead** contribute to tubular injury through oxidative mechanisms
-- **[[thallium|Thallium]]** had the highest posterior inclusion probability (PIP = 1.0) in BKMR models, suggesting it may be particularly potent in suppressing klotho pathways
+- Cadmium specifically targets proximal tubular cells, where it accumulates bound to [[metallothionein]]; lysosomal degradation releases free Cd, suppressing klotho
+- Mercury and lead contribute to tubular injury through oxidative mechanisms
+- [[thallium|Thallium]] had the highest posterior inclusion probability (PIP = 1.0) in BKMR models, suggesting it may be particularly potent in suppressing klotho pathways
 
 ## Microbiome Relevance
 

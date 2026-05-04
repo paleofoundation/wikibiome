@@ -67,42 +67,42 @@ targets:
 platform: cureva
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
-The **Mediterranean diet** emphasizes extra-virgin olive oil, vegetables, fruits, legumes, nuts, whole grains, fish, and moderate wine consumption, while limiting red meat, processed foods, and refined sugars. It is the most extensively studied dietary pattern in medicine, with evidence spanning cardiovascular disease, cancer, neurodegeneration, autoimmunity, and metabolic syndrome.
+The Mediterranean diet emphasizes extra-virgin olive oil, vegetables, fruits, legumes, nuts, whole grains, fish, and moderate wine consumption, while limiting red meat, processed foods, and refined sugars. It is the most extensively studied dietary pattern in medicine, with evidence spanning cardiovascular disease, cancer, neurodegeneration, autoimmunity, and metabolic syndrome.
 
-> **Clinical disclaimer:** The Mediterranean diet is generally safe and broadly recommended. However, for patients with [[nickel]] sensitivity (8-19% of adults), the high legume, nut, and whole grain content creates a significant nickel load that may trigger [[nickel-allergy|SNAS]] or [[nickel-allergy|nickel-allergic-contact-mucositis]]. See the Nickel Paradox section below. Always screen for nickel sensitivity before prescribing a plant-forward Mediterranean diet for [[endometriosis]], [[ibs]], or [[celiac-disease]].
+> Clinical disclaimer: The Mediterranean diet is generally safe and broadly recommended. However, for patients with [[nickel]] sensitivity (8-19% of adults), the high legume, nut, and whole grain content creates a significant nickel load that may trigger [[nickel-allergy|SNAS]] or [[nickel-allergy|nickel-allergic-contact-mucositis]]. See the Nickel Paradox section below. Always screen for nickel sensitivity before prescribing a plant-forward Mediterranean diet for [[endometriosis]], [[ibs]], or [[celiac-disease]].
 
 ---
 
 ## Mechanism of Action
 
-The Mediterranean diet operates through **multiple converging pathways**:
+The Mediterranean diet operates through multiple converging pathways:
 
-1. **Fiber → SCFA production**: Legumes, vegetables, and whole grains provide fermentable substrate for Faecalibacterium, Roseburia, and Eubacterium, yielding butyrate, propionate, and acetate. Butyrate fuels colonocytes, maintains barrier integrity, inhibits HDACs, and induces Treg differentiation.
-2. **Polyphenols**: Olive oil (hydroxytyrosol, oleocanthal), red wine (resveratrol), and berries provide polyphenols that suppress NF-kB, modulate gut microbiome composition, and cross the blood-brain barrier.
-3. **Omega-3 fatty acids**: Fish and seafood provide EPA/DHA that compete with arachidonic acid, reducing pro-inflammatory eicosanoid synthesis (PGE2, LTB4) and producing pro-resolving mediators (resolvins, protectins).
-4. **Microbiome remodeling**: Shifts the Firmicutes/Bacteroidetes ratio toward SCFA-producing Firmicutes, reduces Enterobacteriaceae, and increases overall alpha-diversity.
+1. Fiber → SCFA production: Legumes, vegetables, and whole grains provide fermentable substrate for Faecalibacterium, Roseburia, and Eubacterium, yielding butyrate, propionate, and acetate. Butyrate fuels colonocytes, maintains barrier integrity, inhibits HDACs, and induces Treg differentiation.
+2. Polyphenols: Olive oil (hydroxytyrosol, oleocanthal), red wine (resveratrol), and berries provide polyphenols that suppress NF-kB, modulate gut microbiome composition, and cross the blood-brain barrier.
+3. Omega-3 fatty acids: Fish and seafood provide EPA/DHA that compete with arachidonic acid, reducing pro-inflammatory eicosanoid synthesis (PGE2, LTB4) and producing pro-resolving mediators (resolvins, protectins).
+4. Microbiome remodeling: Shifts the Firmicutes/Bacteroidetes ratio toward SCFA-producing Firmicutes, reduces Enterobacteriaceae, and increases overall alpha-diversity.
 
 ---
 
 ## The Nickel Paradox
 
-The Mediterranean diet's core plant foods — **legumes, nuts, whole grains, and certain vegetables** — are systematically the highest-nickel foods in the Western diet. For the 8-19% of adults with nickel sensitivity, a Mediterranean diet may paradoxically **worsen** the conditions it is prescribed to treat.
+The Mediterranean diet's core plant foods — legumes, nuts, whole grains, and certain vegetables — are systematically the highest-nickel foods in the Western diet. For the 8-19% of adults with nickel sensitivity, a Mediterranean diet may paradoxically worsen the conditions it is prescribed to treat.
 
-**Conflict foods:**
+Conflict foods:
 - Legumes (lentils, chickpeas, beans) — high fiber AND high nickel
 - Nuts (almonds, walnuts) — healthy fats AND high nickel
 - Whole grains (oats, buckwheat) — fiber AND high nickel
 - Chocolate — polyphenols AND very high nickel
 
-**Adaptation for nickel-sensitive patients:** Replace high-nickel plant foods with low-nickel alternatives that preserve the anti-inflammatory benefits:
-- **Protein**: Fish, poultry, eggs (all low-nickel) instead of legumes
-- **Fats**: Extra-virgin olive oil (low-nickel) as primary fat source; avocado
-- **Fiber**: Low-nickel vegetables (lettuce, zucchini, peppers, eggplant) and fruits (apples, pears, berries)
-- **Grains**: White rice, refined wheat bread (lower nickel than whole grains) — accept the fiber tradeoff
+Adaptation for nickel-sensitive patients: Replace high-nickel plant foods with low-nickel alternatives that preserve the anti-inflammatory benefits:
+- Protein: Fish, poultry, eggs (all low-nickel) instead of legumes
+- Fats: Extra-virgin olive oil (low-nickel) as primary fat source; avocado
+- Fiber: Low-nickel vegetables (lettuce, zucchini, peppers, eggplant) and fruits (apples, pears, berries)
+- Grains: White rice, refined wheat bread (lower nickel than whole grains) — accept the fiber tradeoff
 
 See [[low-nickel-diet]] for the full nickel restriction framework and [[dietary-metal-paradoxes]] for broader analysis.
 
@@ -112,39 +112,39 @@ See [[low-nickel-diet]] for the full nickel restriction framework and [[dietary-
 
 | Component | Target | Evidence Base |
 |-----------|--------|---------------|
-| **Olive oil** | 4+ tablespoons/day EVOO | PREDIMED protocol |
-| **Vegetables** | 2+ servings/day | Fiber and polyphenol supply |
-| **Fruits** | 3+ servings/day | Antioxidant and fiber supply |
-| **Fish/seafood** | 3+ servings/week | Omega-3 supply |
-| **Legumes** | 3+ servings/week | Fiber (screen for Ni sensitivity first) |
-| **Nuts** | 30g/day mixed nuts | PREDIMED arm (screen for Ni sensitivity) |
-| **Red meat** | <2 servings/week | TMAO reduction |
-| **Wine** | Moderate if consumed (1 glass/day women, 2 men) | Optional; not required for benefit |
+| Olive oil | 4+ tablespoons/day EVOO | PREDIMED protocol |
+| Vegetables | 2+ servings/day | Fiber and polyphenol supply |
+| Fruits | 3+ servings/day | Antioxidant and fiber supply |
+| Fish/seafood | 3+ servings/week | Omega-3 supply |
+| Legumes | 3+ servings/week | Fiber (screen for Ni sensitivity first) |
+| Nuts | 30g/day mixed nuts | PREDIMED arm (screen for Ni sensitivity) |
+| Red meat | <2 servings/week | TMAO reduction |
+| Wine | Moderate if consumed (1 glass/day women, 2 men) | Optional; not required for benefit |
 
-**Adherence scoring**: PREDIMED 14-item questionnaire provides a validated measure of adherence.
+Adherence scoring: PREDIMED 14-item questionnaire provides a validated measure of adherence.
 
 ---
 
 ## Contraindications and Risks
 
-- **Nickel sensitivity**: Screen before prescribing, especially in [[endometriosis]], [[ibs]], [[celiac-disease]], and [[gerd]] patients. The nickel paradox makes the standard Mediterranean diet potentially harmful in these populations.
-- **FODMAP sensitivity**: High legume and vegetable content may exacerbate IBS symptoms in FODMAP-sensitive individuals. Modified low-FODMAP Mediterranean diet variants exist.
-- **Alcohol**: Wine component is contraindicated in patients with liver disease, alcohol use disorder, or taking metronidazole/disulfiram.
-- **Nut allergies**: Obvious but must be screened for in the PREDIMED nut-supplementation arm.
+- Nickel sensitivity: Screen before prescribing, especially in [[endometriosis]], [[ibs]], [[celiac-disease]], and [[gerd]] patients. The nickel paradox makes the standard Mediterranean diet potentially harmful in these populations.
+- FODMAP sensitivity: High legume and vegetable content may exacerbate IBS symptoms in FODMAP-sensitive individuals. Modified low-FODMAP Mediterranean diet variants exist.
+- Alcohol: Wine component is contraindicated in patients with liver disease, alcohol use disorder, or taking metronidazole/disulfiram.
+- Nut allergies: Obvious but must be screened for in the PREDIMED nut-supplementation arm.
 
 ---
 
 ## Connections
 
-**Entities:** [[nickel]], [[butyrate]], [[dietary-metal-microbiome-interactions|omega-3-fatty-acids]]
+Entities: [[nickel]], [[butyrate]], [[dietary-metal-microbiome-interactions|omega-3-fatty-acids]]
 
-**Concepts:** [[short-chain-fatty-acids]], [[nutritional-immunity]], [[gut-brain-axis]], [[dietary-metal-paradoxes]]
+Concepts: [[short-chain-fatty-acids]], [[nutritional-immunity]], [[gut-brain-axis]], [[dietary-metal-paradoxes]]
 
-**Related interventions:** [[low-nickel-diet]] (paradox resolution), [[ketogenic-diet]] (alternative anti-inflammatory diet), [[probiotics-general]] (synergistic microbiome modulation)
+Related interventions: [[low-nickel-diet]] (paradox resolution), [[ketogenic-diet]] (alternative anti-inflammatory diet), [[probiotics-general]] (synergistic microbiome modulation)
 
-**Signatures:** [[pcos]], [[cardiovascular-disease]], [[colorectal-cancer]], [[depression]], [[multiple-sclerosis]]
+Signatures: [[pcos]], [[cardiovascular-disease]], [[colorectal-cancer]], [[depression]], [[multiple-sclerosis]]
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

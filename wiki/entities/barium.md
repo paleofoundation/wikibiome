@@ -4,12 +4,18 @@ type: entity
 subtype: metal
 created: 2026-04-19
 updated: 2026-04-19
-sources: []
-source_count: 0
+sources:
+  - yan-2025-infant-serum-metals-gut-microbiota
+  - meli-2024-baby-food-chemical-characterization-italy
+  - kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility
+  - yan-2025-infant-serum-metals-gut-microbiota-china
+  - rokoff-2023-metal-mixtures-maternal-depression
+  - lopez-botella-2023-peritoneal-fluid-metals-endometriosis
+source_count: 6
 tags: [alkaline-earth-metal, environmental-contaminant]
 platform: wikibiome
-stub: true
-stub_reason: "auto-discovered from source mention — 4 sources discuss this metal, awaiting content expansion"
+
+last_substantive_update: 2026-04-22
 ---
 
 # Barium

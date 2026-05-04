@@ -14,15 +14,15 @@ Karen, 2026-04-19, pointing at https://www.wikibiome.com/article/acidic-microenv
 
 > Why do any files on our website contain zero references? These references should be full and complete for every single claim that's made on any page. This is embarrassing.
 
-This audit answers the scope of that question. The specific page she named is one of **98** publishable pages on WikiBiome that currently have an empty sources array in frontmatter, plus **83** publishable pages with a claim-level citation deficit (Rule 11).
+This audit answers the scope of that question. The specific page she named is one of 98 publishable pages on WikiBiome that currently have an empty sources array in frontmatter, plus 83 publishable pages with a claim-level citation deficit (Rule 11).
 
 ## Headline numbers
 
 | Class | Count | §/Rule |
 |---|---:|---|
-| Zero-reference publishable pages (sources: []) | **98** | §2f |
+| Zero-reference publishable pages (sources: []) | 98 | §2f |
 | — of which flagged (stub: true) | 62 | — |
-| — of which NOT flagged (stub: false — worst) | **36** | §2f, Rule 7 |
+| — of which NOT flagged (stub: false — worst) | 36 | §2f, Rule 7 |
 | Sub-threshold publishable pages (below §2f minimum) | 69 | §2f |
 | Claim-level citation deficit (<1 cite per 3 paragraphs) | 83 | Rule 11 |
 
@@ -30,9 +30,9 @@ This audit answers the scope of that question. The specific page she named is on
 
 The build pipeline does not enforce §2f. Three gaps, stacked:
 
-1. **`scripts/build-content.cjs` `isVisibleOnPlatform()`** accepts any page with `platform: wikibiome` or `platform: both` regardless of source count. It has no stub check and no threshold check. Pages with empty `sources: []` and `stub: true` currently publish to WikiBiome anyway.
-2. **`scripts/generate-static.cjs` sitemap generator** includes every built page. Stubs appear in `sitemap.xml` and are indexable.
-3. **`wikibiome-v8.jsx` article renderer** does not show a "stub — expansion needed" banner. A zero-reference page is indistinguishable from a fully cited one to the reader.
+1. `scripts/build-content.cjs` `isVisibleOnPlatform()` accepts any page with `platform: wikibiome` or `platform: both` regardless of source count. It has no stub check and no threshold check. Pages with empty `sources: []` and `stub: true` currently publish to WikiBiome anyway.
+2. `scripts/generate-static.cjs` sitemap generator includes every built page. Stubs appear in `sitemap.xml` and are indexable.
+3. `wikibiome-v8.jsx` article renderer does not show a "stub — expansion needed" banner. A zero-reference page is indistinguishable from a fully cited one to the reader.
 
 CLAUDE.md §2f says build-content.cjs MUST refuse to render sub-threshold non-stub pages. That enforcement was never implemented. Rule 7 requires sub-threshold demotion to `stub: true` during lint. 36 of the 98 zero-ref pages are not even stubs — they have `sources: []` and `stub: false`, which is a Rule 7 violation that accumulated silently.
 
@@ -225,15 +225,15 @@ CLAUDE.md §2f says build-content.cjs MUST refuse to render sub-threshold non-st
 
 ## Remediation plan
 
-**Immediate (this session):**
+Immediate (this session):
 
-1. **Enforce at build time.** Modify `scripts/build-content.cjs` to refuse to publish sub-threshold non-stub pages to WikiBiome. Sub-threshold pages publish only if explicitly marked `stub: true`. Log refusals to `wiki/analyses/build-refusals-YYYY-MM-DD.md`.
-2. **Auto-demote unflagged zero-ref pages.** The 36 unflagged (stub:false) pages listed above get `stub: true` + `stub_reason: "auto-demoted by §2f enforcement, 2026-04-19"` appended to frontmatter. Log to `wiki/analyses/stub-demotions-2026-04-19.md` per §2f enforcement clause.
-3. **Exclude stubs from sitemap.** Modify `scripts/generate-static.cjs` so `stub: true` pages do not appear in `sitemap.xml`. This stops Google from indexing embarrassing thin pages.
-4. **Render a visible stub banner.** Modify `wikibiome-v8.jsx` to show a prominent "This page is a stub — source attribution is incomplete. Expansion is in progress." banner above stub content. Readers who find a stub via direct link see a visible admission instead of a fabricated authoritative-looking page.
-5. **Fix the exemplar.** Attach real vault sources to every material claim on `wiki/concepts/acidic-microenvironment.md`, bringing it across the §2f threshold and demonstrating the standard for remediating the other 97.
+1. Enforce at build time. Modify `scripts/build-content.cjs` to refuse to publish sub-threshold non-stub pages to WikiBiome. Sub-threshold pages publish only if explicitly marked `stub: true`. Log refusals to `wiki/analyses/build-refusals-YYYY-MM-DD.md`.
+2. Auto-demote unflagged zero-ref pages. The 36 unflagged (stub:false) pages listed above get `stub: true` + `stub_reason: "auto-demoted by §2f enforcement, 2026-04-19"` appended to frontmatter. Log to `wiki/analyses/stub-demotions-2026-04-19.md` per §2f enforcement clause.
+3. Exclude stubs from sitemap. Modify `scripts/generate-static.cjs` so `stub: true` pages do not appear in `sitemap.xml`. This stops Google from indexing embarrassing thin pages.
+4. Render a visible stub banner. Modify `wikibiome-v8.jsx` to show a prominent "This page is a stub — source attribution is incomplete. Expansion is in progress." banner above stub content. Readers who find a stub via direct link see a visible admission instead of a fabricated authoritative-looking page.
+5. Fix the exemplar. Attach real vault sources to every material claim on `wiki/concepts/acidic-microenvironment.md`, bringing it across the §2f threshold and demonstrating the standard for remediating the other 97.
 
-**Ongoing (next sessions):**
+Ongoing (next sessions):
 
 - Remediate the remaining 97 zero-ref pages in priority order: disease entities first (9), then concepts (29), then metal entities (6), then microbe/fungus entities (54). The microbe/fungus stubs are the largest category but lowest individual SEO impact.
 - Remediate the 69 sub-threshold pages by attaching additional sources from the vault until each meets §2f minimum.

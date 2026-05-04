@@ -15,17 +15,17 @@ last_substantive_update: 2026-04-11
 
 # Dietary Lead Exposure
 
-**[[lead]]** (Pb) has no safe level of exposure. Unlike most dietary metals, lead does not play any known biological role — every atom absorbed represents toxic burden. While environmental lead exposure (paint, soil, air) has decreased dramatically since leaded gasoline phase-outs, **dietary lead exposure persists** through water infrastructure, food processing, spices, and legacy soil contamination.
+[[lead]] (Pb) has no safe level of exposure. Unlike most dietary metals, lead does not play any known biological role — every atom absorbed represents toxic burden. While environmental lead exposure (paint, soil, air) has decreased dramatically since leaded gasoline phase-outs, dietary lead exposure persists through water infrastructure, food processing, spices, and legacy soil contamination.
 
 ## How Lead Enters the Diet
 
-**Water infrastructure.** Lead service lines, lead solder in copper pipes, and brass fixtures leach lead into drinking water. The first draw from a faucet after stagnation contains the highest concentrations. The EU Drinking Water Directive (2020/2184) set a parametric value of 10 μg/L with a 15-year transition to 5 μg/L — acknowledging that current infrastructure still delivers lead [[eu-2020-drinking-water-directive]].
+Water infrastructure. Lead service lines, lead solder in copper pipes, and brass fixtures leach lead into drinking water. The first draw from a faucet after stagnation contains the highest concentrations. The EU Drinking Water Directive (2020/2184) set a parametric value of 10 μg/L with a 15-year transition to 5 μg/L — acknowledging that current infrastructure still delivers lead [[eu-2020-drinking-water-directive]].
 
-**Legacy soil contamination.** Root vegetables, leafy greens, and herbs grown in lead-contaminated soil (urban gardens near pre-1978 buildings, areas with historical industrial activity) absorb lead through root uptake. Unlike cadmium, lead has relatively low translocation to above-ground plant parts — root vegetables carry higher burdens than leafy greens.
+Legacy soil contamination. Root vegetables, leafy greens, and herbs grown in lead-contaminated soil (urban gardens near pre-1978 buildings, areas with historical industrial activity) absorb lead through root uptake. Unlike cadmium, lead has relatively low translocation to above-ground plant parts — root vegetables carry higher burdens than leafy greens.
 
-**Food processing and packaging.** Canned foods (especially from older production facilities), certain spices (turmeric adulteration with lead chromate is documented in South Asia), and imported candies/snacks have been identified as lead sources.
+Food processing and packaging. Canned foods (especially from older production facilities), certain spices (turmeric adulteration with lead chromate is documented in South Asia), and imported candies/snacks have been identified as lead sources.
 
-**Animal products.** Organ meats (liver, kidney) and bone broth can concentrate lead from the animal's lifetime environmental exposure.
+Animal products. Organ meats (liver, kidney) and bone broth can concentrate lead from the animal's lifetime environmental exposure.
 
 ## Lead Content in Foods
 
@@ -42,23 +42,23 @@ last_substantive_update: 2026-04-11
 
 ## Lead and Calcium Channel Mis-metallation
 
-Lead's toxicity is fundamentally a **[[mis-metallation]]** story. Pb²⁺ mimics Ca²⁺ and enters cells through calcium channels, then displaces calcium, zinc, and iron from critical enzymes and structural proteins [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]:
+Lead's toxicity is fundamentally a [[mis-metallation]] story. Pb²⁺ mimics Ca²⁺ and enters cells through calcium channels, then displaces calcium, zinc, and iron from critical enzymes and structural proteins [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]:
 
-- **Lead crosses the blood-brain barrier** via calcium channels, accumulating in the hippocampus and prefrontal cortex
-- **Lead replaces calcium in bone**, creating a decades-long storage depot that mobilizes during pregnancy, lactation, and osteoporosis
-- **Lead inhibits ALAD** (aminolevulinic acid dehydratase) — a zinc-dependent enzyme in heme synthesis — causing anemia through enzyme displacement, not iron deficiency
-- **Lead displaces zinc from zinc finger proteins**, disrupting DNA repair and gene regulation
+- Lead crosses the blood-brain barrier via calcium channels, accumulating in the hippocampus and prefrontal cortex
+- Lead replaces calcium in bone, creating a decades-long storage depot that mobilizes during pregnancy, lactation, and osteoporosis
+- Lead inhibits ALAD (aminolevulinic acid dehydratase) — a zinc-dependent enzyme in heme synthesis — causing anemia through enzyme displacement, not iron deficiency
+- Lead displaces zinc from zinc finger proteins, disrupting DNA repair and gene regulation
 
-**Calcium and iron status modify lead absorption.** Calcium deficiency increases lead absorption 2-3x through upregulated calcium channels. Iron deficiency does the same through shared DMT1 transporters. This means populations with the poorest nutritional status — often the same populations with highest environmental lead exposure — absorb lead most efficiently.
+Calcium and iron status modify lead absorption. Calcium deficiency increases lead absorption 2-3x through upregulated calcium channels. Iron deficiency does the same through shared DMT1 transporters. This means populations with the poorest nutritional status — often the same populations with highest environmental lead exposure — absorb lead most efficiently.
 
 ## Infant and Child Vulnerability
 
 Children absorb 40-50% of ingested lead (vs. 3-10% in adults) due to immature gut barrier function and developing calcium-absorption machinery [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]:
 
-- **All 10 commercial baby food products** tested in one study contained detectable lead [[garuba-2024-heavy-metals-commercial-baby-foods]]
-- **Baby food jars** (Tenerife study) showed lead among detected contaminants, alongside aluminum, nickel, and cadmium [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]]
-- **FDA has established an action level** of 20 ppb for lead in baby food (one of the few regulated metals in infant foods) [[pendergrass-2026-certification-infant-food-metals]]
-- **345 pending legal claims** related to heavy metals in baby food underscore the regulatory failure
+- All 10 commercial baby food products tested in one study contained detectable lead [[garuba-2024-heavy-metals-commercial-baby-foods]]
+- Baby food jars (Tenerife study) showed lead among detected contaminants, alongside aluminum, nickel, and cadmium [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]]
+- FDA has established an action level of 20 ppb for lead in baby food (one of the few regulated metals in infant foods) [[pendergrass-2026-certification-infant-food-metals]]
+- 345 pending legal claims related to heavy metals in baby food underscore the regulatory failure
 
 ## Lead and the Gut Microbiome
 
@@ -73,11 +73,11 @@ Lead exposure alters gut microbial ecology:
 
 Lead is the most heavily regulated dietary metal due to its recognized developmental neurotoxicity:
 
-- **CDC BLL reference value**: 3.5 μg/dL (children); no safe level acknowledged
-- **FDA action levels**: 20 ppb in baby food; 50 ppb in fruit juice; 12.5 ppb in candy
-- **EU maximum**: 0.02-0.30 mg/kg depending on food category
-- **EPA MCL for water**: 15 μg/L action level (not a health-based standard)
-- **EU Drinking Water**: 10 μg/L, transitioning to 5 μg/L [[eu-2020-drinking-water-directive]]
+- CDC BLL reference value: 3.5 μg/dL (children); no safe level acknowledged
+- FDA action levels: 20 ppb in baby food; 50 ppb in fruit juice; 12.5 ppb in candy
+- EU maximum: 0.02-0.30 mg/kg depending on food category
+- EPA MCL for water: 15 μg/L action level (not a health-based standard)
+- EU Drinking Water: 10 μg/L, transitioning to 5 μg/L [[eu-2020-drinking-water-directive]]
 
 ## Connections
 

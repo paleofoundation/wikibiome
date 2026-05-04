@@ -24,15 +24,15 @@ The term parallels genomics, proteomics, and metabolomics, and reflects the reco
 
 ### ICP-MS (Inductively Coupled Plasma Mass Spectrometry)
 The workhorse of metallomics. Enables simultaneous quantification of 20-30+ elements in a single sample with detection limits in the parts-per-trillion range. Variants include:
-- **ICP-MS/MS (triple quadrupole)**: Enhanced interference removal for complex biological matrices
-- **MC-ICP-MS (multi-collector)**: Enables measurement of natural stable isotope ratios (e.g., Zn isotope fractionation)
-- **HPLC-ICP-MS**: Coupling liquid chromatography with ICP-MS for metal speciation (e.g., inorganic vs. organic arsenic)
-- **LA-ICP-MS (laser ablation)**: Spatial mapping of metals in tissue sections
+- ICP-MS/MS (triple quadrupole): Enhanced interference removal for complex biological matrices
+- MC-ICP-MS (multi-collector): Enables measurement of natural stable isotope ratios (e.g., Zn isotope fractionation)
+- HPLC-ICP-MS: Coupling liquid chromatography with ICP-MS for metal speciation (e.g., inorganic vs. organic arsenic)
+- LA-ICP-MS (laser ablation): Spatial mapping of metals in tissue sections
 
 ### Complementary Methods
-- **MALDI-MS and FTICR-MS**: For identification of metal-containing biomolecules (metallophores, metallopeptides)
-- **LC-ESI-MS**: For detecting metallophores with isotope data filtering to selectively identify metal-containing species
-- **Synchrotron X-ray fluorescence**: Subcellular metal mapping
+- MALDI-MS and FTICR-MS: For identification of metal-containing biomolecules (metallophores, metallopeptides)
+- LC-ESI-MS: For detecting metallophores with isotope data filtering to selectively identify metal-containing species
+- Synchrotron X-ray fluorescence: Subcellular metal mapping
 
 ## Cancer Metallomics
 
@@ -40,10 +40,10 @@ The workhorse of metallomics. Enables simultaneous quantification of 20-30+ elem
 
 A comprehensive review of metallomic studies across lung, prostate, colorectal, gastric, esophageal, breast, thyroid, pancreatic, laryngeal, gallbladder, renal cell, and hepatocellular cancers reveals recurring patterns:
 
-- **Copper elevation** is the most consistent finding across nearly all cancer types in blood/serum/plasma, suggesting Cu accumulation as a general cancer biomarker
-- **Zinc dysregulation** shows mixed patterns but the **Cu/Zn ratio** is consistently increased in cancer patients
-- **Selenium tends to decrease** across cancers, reflecting impaired selenoprotein-mediated antioxidant defense
-- **Cadmium accumulation** is elevated in multiple cancer types, consistent with its IARC Group 1 carcinogen status
+- Copper elevation is the most consistent finding across nearly all cancer types in blood/serum/plasma, suggesting Cu accumulation as a general cancer biomarker
+- Zinc dysregulation shows mixed patterns but the Cu/Zn ratio is consistently increased in cancer patients
+- Selenium tends to decrease across cancers, reflecting impaired selenoprotein-mediated antioxidant defense
+- Cadmium accumulation is elevated in multiple cancer types, consistent with its IARC Group 1 carcinogen status
 
 ### Cancer-Specific Metallomic Fingerprints
 
@@ -67,16 +67,16 @@ Urine metallomics achieved 99.5% sensitivity for discriminating pancreatic ducta
 ### Metalloprotein Genetics
 
 Metallomic studies are increasingly integrated with genetics:
-- **MMP gene variants** (Zn-dependent matrix metalloproteinases): linked to carcinogenesis across multiple cancers
-- **Selenoprotein gene variants** (GPX1, GPX4, TXNRD1/2): associated with cancer risk
-- **Cu-transporting ATPase variants** (ATP7B): linked to chemotherapy response
-- **Cu/Zn-SOD and ceruloplasmin variants**: associated with cancer susceptibility
+- MMP gene variants (Zn-dependent matrix metalloproteinases): linked to carcinogenesis across multiple cancers
+- Selenoprotein gene variants (GPX1, GPX4, TXNRD1/2): associated with cancer risk
+- Cu-transporting ATPase variants (ATP7B): linked to chemotherapy response
+- Cu/Zn-SOD and ceruloplasmin variants: associated with cancer susceptibility
 
 ## Brain Metallomics and Dementia
 
 Post-mortem brain metallomic profiling using ICP-MS across 10 brain regions can distinguish between dementia with Lewy bodies (DLB), Alzheimer's disease (AD), and Parkinson's disease dementia (PDD):
 
-- **Widespread copper decreases** are common across all three dementias, suggesting shared pathogenic mechanisms
+- Widespread copper decreases are common across all three dementias, suggesting shared pathogenic mechanisms
 - Despite shared Cu deficiencies, other metal alterations (Na, Mn, Ca, Fe, Se) differ between disease types, creating distinct metallomic signatures
 - PCA and PLS-DA analysis of as few as three brain regions achieves clear disease separation
 - Cu changes contribute most to variable importance in projection (VIP) scores
@@ -86,20 +86,20 @@ Post-mortem brain metallomic profiling using ICP-MS across 10 brain regions can 
 
 Plasma metallomic profiling identifies biomarkers for acute myocardial infarction (AMI):
 
-- **Copper significantly elevated** and **selenium decreased** in AMI patients
-- **Element-pair ratios** (Cu/Se, Fe/Cu) are more sensitive than individual element concentrations
+- Copper significantly elevated and selenium decreased in AMI patients
+- Element-pair ratios (Cu/Se, Fe/Cu) are more sensitive than individual element concentrations
 - Random forest models incorporating metallomic features (Cu/Se, Fe/Cu) alongside traditional risk factors achieved AUC of 0.942 in a 10-feature model -- not from metals alone
 - Longitudinal tracking shows Cu and Se remain significantly altered at 6 months post-infarction while Fe normalizes
-- Essential elements exhibit **ambivalent (U- or J-shaped)** relationships with AMI risk, meaning both deficiency and excess are harmful
+- Essential elements exhibit ambivalent (U- or J-shaped) relationships with AMI risk, meaning both deficiency and excess are harmful
 
 ## Infection Metallomics
 
 A distinct branch of metallomics focuses on detecting microbial metallophores -- metal-chelating small molecules produced by pathogens as virulence factors:
 
 ### Metallophore Types
-- **Bacterial siderophores**: Enterobactin, yersiniabactin (binds Fe and Cu), aerobactin, pyoverdine
-- **Mycobacterial siderophores**: Mycobactins and carboxymycobactins from M. tuberculosis
-- **Fungal siderophores**: TAFC (triacetylfusarinine C), ferricrocin from [[aspergillus|*Aspergillus fumigatus*]]
+- Bacterial siderophores: Enterobactin, yersiniabactin (binds Fe and Cu), aerobactin, pyoverdine
+- Mycobacterial siderophores: Mycobactins and carboxymycobactins from M. tuberculosis
+- Fungal siderophores: TAFC (triacetylfusarinine C), ferricrocin from [[aspergillus|*Aspergillus fumigatus*]]
 
 ### Clinical Applications
 - TAFC detected in human serum and urine of aspergillosis patients, enabling real-time fungal infection tracking
@@ -113,19 +113,19 @@ The emerging field of microbial metallomics extends the metallomic approach to t
 
 ## Metallomic Signatures as a Diagnostic Pillar
 
-A key insight emerging from the convergence of these studies: **diseases have metallomic signatures** — characteristic, reproducible patterns of metal elevation and depletion that are disease-specific and diagnostically useful. This parallels the established concept of microbiome signatures (taxonomic profiles that distinguish disease states) and metabolomic signatures (metabolite panels that identify pathology).
+A key insight emerging from the convergence of these studies: diseases have metallomic signatures — characteristic, reproducible patterns of metal elevation and depletion that are disease-specific and diagnostically useful. This parallels the established concept of microbiome signatures (taxonomic profiles that distinguish disease states) and metabolomic signatures (metabolite panels that identify pathology).
 
 The evidence across this wiki demonstrates three tiers of metallomic diagnostic power:
 
 ### Tier 1: Disease Detection (Is disease present?)
-- **Pancreatic cancer**: Ca+Mg+Zn+Cu urine panel achieves AUC 0.99 [[schilling-2020-urine-metallomics-pancreatic-cancer]]
-- **AMI**: Random forest model achieves AUC 0.942 -- in a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]]
-- **Lung cancer**: Al and Mn achieve near-perfect AUC [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
+- Pancreatic cancer: Ca+Mg+Zn+Cu urine panel achieves AUC 0.99 [[schilling-2020-urine-metallomics-pancreatic-cancer]]
+- AMI: Random forest model achieves AUC 0.942 -- in a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]]
+- Lung cancer: Al and Mn achieve near-perfect AUC [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
 
 ### Tier 2: Disease Differentiation (Which disease is it?)
-- **DLB vs AD vs PDD**: PCA/PLS-DA on brain metals from 3 regions separates all three dementias with 94% sensitivity/specificity [[scholefield-2024-brain-metallomics-dementia]]
-- **Lung cancer vs COPD**: Distinct serum metallomic profiles despite overlapping symptoms [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
-- **ASD severity grading**: Hair metal patterns correlate with autism severity [[zhou-2025-hair-heavy-metals-asd-severity]]
+- DLB vs AD vs PDD: PCA/PLS-DA on brain metals from 3 regions separates all three dementias with 94% sensitivity/specificity [[scholefield-2024-brain-metallomics-dementia]]
+- Lung cancer vs COPD: Distinct serum metallomic profiles despite overlapping symptoms [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
+- ASD severity grading: Hair metal patterns correlate with autism severity [[zhou-2025-hair-heavy-metals-asd-severity]]
 
 ### Tier 3: Mechanistic Insight (Why does this pattern exist?)
 - Metal-metal correlation disruption reveals systemic dyshomeostasis (loss of Zn-Se correlation in cancer, Cu-Fe decoupling in DLB)

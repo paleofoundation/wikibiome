@@ -3,8 +3,8 @@ title: Gut-Brain Axis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative, alonso-garcia-2021-gut-microbiota-proteinopathies, gao-2023-microglia-neurodegenerative-diseases, ogrady-2025-metal-dyshomeostasis-asd, blazewicz-2023-metal-profiles-asd, passeri-2024-recent-advances-therapeutics-alzheimers, kouchaki-2017-clinical-metabolic-probiotic-ms, dargahi-2020-streptococcus-thermophilus-ms, libbey-2018-diet-microbiota-eae]
-source_count: 13
+sources: [pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, tizabi-2023-lead-gut-microbiota-asd, gentile-2020-diet-microbiota-brain-health, khatoon-2023-gut-microbiota-neurodegenerative, alonso-garcia-2021-gut-microbiota-proteinopathies, gao-2023-microglia-neurodegenerative-diseases, ogrady-2025-metal-dyshomeostasis-asd, blazewicz-2023-metal-profiles-asd, passeri-2024-recent-advances-therapeutics-alzheimers, kouchaki-2017-clinical-metabolic-probiotic-ms, dargahi-2020-streptococcus-thermophilus-ms, libbey-2018-diet-microbiota-eae, alcock-2014-microbiota-manipulate-eating-behavior, han-2022-vagus-nerve-gut-microbiota-brain-axis-neurodegeneration, gupta-2020-brain-gut-microbiome-obesity-food-addiction]
+source_count: 16
 tags: [gut-brain-axis, vagus-nerve, SCFAs, neuroinflammation, microbiome, neurodegeneration, alpha-synuclein, neurotransmitters, metals, enteric-nervous-system, tryptophan, bile-acids, BBB, cytokines]
 platform: wikibiome
 karen_brain_primitives: [1, 5]
@@ -20,20 +20,20 @@ Bidirectional communication between the gut microbiota and the central nervous s
 
 ### Vagal Pathway (Neural -- Direct)
 
-The **vagus nerve** (cranial nerve X) provides the most direct and rapid gut-to-brain connection, with ~80% of fibers being afferent (gut-to-brain) and ~20% efferent (brain-to-gut).
+The vagus nerve (cranial nerve X) provides the most direct and rapid gut-to-brain connection, with ~80% of fibers being afferent (gut-to-brain) and ~20% efferent (brain-to-gut).
 
-**Afferent signaling (gut to brain)**:
+Afferent signaling (gut to brain):
 - Vagal afferent terminals in the gut mucosa and muscularis detect microbial metabolites (SCFAs, indoles), gut hormones (GLP-1, PYY, CCK), and inflammatory signals.
 - SCFAs activate vagal afferents via FFAR2/FFAR3 receptors, signaling satiety and modulating inflammation.
 - Bacterial metabolites that activate vagal afferents include serotonin (produced by enterochromaffin cells stimulated by microbial SCFAs), tryptamine, and GABA.
 - Vagal signals terminate in the nucleus tractus solitarius (NTS) in the brainstem, which relays to the hypothalamus, amygdala, and cortex.
 
-**Efferent signaling (brain to gut)**:
+Efferent signaling (brain to gut):
 - The vagal efferent "cholinergic anti-inflammatory pathway" releases acetylcholine, which binds alpha-7 nicotinic receptors on macrophages, suppressing TNF-alpha and IL-1beta release.
 - Stress-induced vagal withdrawal reduces this anti-inflammatory brake, contributing to gut inflammation.
 - Vagal efferents modulate gut motility, acid secretion, and mucosal blood flow.
 
-**Critical evidence**: Vagotomy (severing the vagus nerve) is associated with lower Parkinson's disease risk in epidemiological studies [[gentile-2020-diet-microbiota-brain-health]], providing direct evidence that the vagus nerve serves as a conduit for gut-to-brain pathology.
+Critical evidence: Vagotomy (severing the vagus nerve) is associated with lower Parkinson's disease risk in epidemiological studies [[gentile-2020-diet-microbiota-brain-health]], providing direct evidence that the vagus nerve serves as a conduit for gut-to-brain pathology.
 
 ### Enteric Nervous System
 
@@ -49,8 +49,8 @@ The immune route is slower but more sustained than vagal signaling:
 
 - Gut [[dysbiosis]] increases intestinal permeability, permitting translocation of LPS and bacterial metabolites into systemic circulation.
 - Circulating LPS activates peripheral monocytes/macrophages, which produce TNF-alpha, IL-1beta, and IL-6.
-- **IL-6 crosses the [[blood-brain-barrier]]** via saturable transport systems and activates the JAK/STAT3 pathway in microglia and astrocytes.
-- **TNF-alpha** signals through circumventricular organs (which lack a BBB) and through TNF receptor-mediated transcytosis.
+- IL-6 crosses the [[blood-brain-barrier]] via saturable transport systems and activates the JAK/STAT3 pathway in microglia and astrocytes.
+- TNF-alpha signals through circumventricular organs (which lack a BBB) and through TNF receptor-mediated transcytosis.
 - Circulating LPS directly activates microglia via TLR4/[[nf-kappa-b]] signaling, driving [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]].
 - Activated microglia adopt a pro-inflammatory M1 phenotype, releasing ROS, NO, and additional cytokines that damage neurons.
 - In Alzheimer's disease, this microglial activation promotes amyloid-beta aggregation and tau phosphorylation [[passeri-2024-recent-advances-therapeutics-alzheimers]].
@@ -61,16 +61,16 @@ The immune route is slower but more sustained than vagal signaling:
 #### SCFAs (Butyrate, Propionate, Acetate)
 Produced by fiber-fermenting commensals, SCFAs are central mediators of gut-brain communication:
 - Bind FFAR2/FFAR3 (GPR43/GPR41) and GPR109A on enteric neurons, immune cells, and vagal afferents.
-- **Butyrate** strengthens gut barrier integrity, reduces intestinal inflammation, and modulates microglial activation in the brain -- butyrate-treated microglia show reduced inflammatory cytokine production [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
-- **Propionate** crosses the BBB and reduces microglial activation and neuroinflammation in animal models.
+- Butyrate strengthens gut barrier integrity, reduces intestinal inflammation, and modulates microglial activation in the brain -- butyrate-treated microglia show reduced inflammatory cytokine production [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
+- Propionate crosses the BBB and reduces microglial activation and neuroinflammation in animal models.
 - SCFAs promote the integrity of the blood-brain barrier itself; germ-free mice (no SCFAs) have a leaky BBB.
 - Metal-induced loss of SCFA-producing bacteria (Faecalibacterium, Roseburia, Lachnospiraceae) removes these neuroprotective signals.
 
 #### Tryptophan and Indole Derivatives
 Microbial tryptophan metabolism produces neuroactive metabolites through three pathways:
-- **Kynurenine pathway** (host IDO1/TDO2): produces kynurenic acid (neuroprotective NMDA antagonist) and quinolinic acid (neurotoxic NMDA agonist). Inflammation shifts the balance toward quinolinic acid.
-- **Indole pathway** (microbial tryptophanase): produces indole, indole-3-propionic acid (IPA), and indole-3-aldehyde. IPA is a potent antioxidant that protects against oxidative stress; it and indole-3-aldehyde activate the aryl hydrocarbon receptor (AhR), modulating neuroinflammation.
-- **Serotonin pathway**: gut bacteria produce ~95% of the body's serotonin via enterochromaffin cell stimulation. Serotonin does not cross the BBB but affects the brain indirectly through vagal signaling and through tryptophan availability (serotonin synthesis in the brain depends on peripheral tryptophan levels).
+- Kynurenine pathway (host IDO1/TDO2): produces kynurenic acid (neuroprotective NMDA antagonist) and quinolinic acid (neurotoxic NMDA agonist). Inflammation shifts the balance toward quinolinic acid.
+- Indole pathway (microbial tryptophanase): produces indole, indole-3-propionic acid (IPA), and indole-3-aldehyde. IPA is a potent antioxidant that protects against oxidative stress; it and indole-3-aldehyde activate the aryl hydrocarbon receptor (AhR), modulating neuroinflammation.
+- Serotonin pathway: gut bacteria produce ~95% of the body's serotonin via enterochromaffin cell stimulation. Serotonin does not cross the BBB but affects the brain indirectly through vagal signaling and through tryptophan availability (serotonin synthesis in the brain depends on peripheral tryptophan levels).
 - Metal-induced depletion of Clostridium and Lactobacillus reduces IPA and indole-3-aldehyde production, diminishing AhR-mediated anti-inflammatory signaling.
 
 #### Bile Acids

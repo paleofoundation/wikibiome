@@ -19,11 +19,11 @@ The co-occurrence of multiple diseases in the same individual at rates exceeding
 ## Metal Exposure as Shared Upstream Driver
 
 A single metal exposure can simultaneously damage multiple organ systems:
-- **Lead**: Neurotoxicity (cognitive decline, ADHD), cardiovascular disease (hypertension, atherosclerosis), nephrotoxicity, anemia, reproductive toxicity -- all from the same exposure.
-- **Cadmium**: Renal tubular damage, osteoporosis, cardiovascular disease, cancer -- 17-30 year half-life means decades of multi-organ damage.
-- **Mercury**: Neurotoxicity and cardiovascular risk from methylmercury; renal and immunological effects from inorganic forms.
-- **Arsenic**: Skin lesions, cancer (lung, bladder, skin), cardiovascular disease, diabetes -- dose-dependent multi-system toxicity.
-- **Nickel**: Allergy/dermatitis, reproductive toxicity, neurotoxicity, GI inflammation -- overlapping exposure through diet and occupation.
+- Lead: Neurotoxicity (cognitive decline, ADHD), cardiovascular disease (hypertension, atherosclerosis), nephrotoxicity, anemia, reproductive toxicity -- all from the same exposure.
+- Cadmium: Renal tubular damage, osteoporosis, cardiovascular disease, cancer -- 17-30 year half-life means decades of multi-organ damage.
+- Mercury: Neurotoxicity and cardiovascular risk from methylmercury; renal and immunological effects from inorganic forms.
+- Arsenic: Skin lesions, cancer (lung, bladder, skin), cardiovascular disease, diabetes -- dose-dependent multi-system toxicity.
+- Nickel: Allergy/dermatitis, reproductive toxicity, neurotoxicity, GI inflammation -- overlapping exposure through diet and occupation.
 
 Because metals accumulate over a lifetime and affect multiple tissues simultaneously, they naturally produce multi-morbidity patterns.
 
@@ -62,11 +62,11 @@ Because metals accumulate over a lifetime and affect multiple tissues simultaneo
 
 The metal-microbiome-inflammation triad explains comorbidity through convergent pathology:
 
-1. **Metal exposure** disrupts the gut microbiome.
-2. **Dysbiosis** reduces SCFA/indole production and increases LPS/TMAO.
-3. **Barrier breakdown** allows metal absorption, bacterial translocation, and endotoxemia.
-4. **Systemic inflammation** damages cardiovascular, neurological, metabolic, and immune systems simultaneously.
-5. **Organ-specific vulnerability** determines which disease manifests first, but the underlying disruption is shared.
+1. Metal exposure disrupts the gut microbiome.
+2. Dysbiosis reduces SCFA/indole production and increases LPS/TMAO.
+3. Barrier breakdown allows metal absorption, bacterial translocation, and endotoxemia.
+4. Systemic inflammation damages cardiovascular, neurological, metabolic, and immune systems simultaneously.
+5. Organ-specific vulnerability determines which disease manifests first, but the underlying disruption is shared.
 
 This framework predicts that interventions targeting the shared mediator (microbiome restoration via [[probiotics]], [[prebiotics]], [[fecal-microbiota-transplant]], or metal exposure reduction) should benefit multiple comorbid conditions simultaneously.
 

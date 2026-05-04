@@ -4,24 +4,30 @@ type: entity
 subtype: metal
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [liu-2025-low-concentration-metals-ckd-alpha-klotho, yan-2025-infant-serum-metals-gut-microbiota]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - yan-2025-infant-serum-metals-gut-microbiota
+  - meli-2024-baby-food-chemical-characterization-italy
+  - smovrsnik-2023-heavy-metals-oxidative-stress-pcos
+  - amerikanou-2022-ibd-biomarkers-trace-metals
+  - fan-2024-heavy-metal-arthritis-machine-learning
+  - arias-borrego-2022-metallomic-metabolomic-covid-mothers
+  - liu-2025-low-concentration-metals-ckd-alpha-klotho
+  - dou-2024-heavy-metals-utero-asd-age3-meta-analysis
+source_count: 8
 tags: [toxic-metal, rare-metal, CKD, alpha-klotho, potassium-mimicry, nephrotoxicity]
 seo_target: "thallium toxicity kidney disease potassium mimicry"
 wikipedia_differentiation: "Thallium's role in CKD metallomic signatures via alpha-klotho mediation, its highest posterior inclusion probability among all metals in BKMR models for kidney disease, and its K+ mimicry as a mechanism for cellular entry -- connections to WikiBiome's disease signature framework absent from Wikipedia"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 5 required"
 ---
 
 # Thallium (Tl)
 
-One of the most toxic metals known to biology, thallium earns its reputation through a deceptively simple trick: it masquerades as potassium. With an ionic radius (1.50 A) nearly identical to K+ (1.38 A) and a +1 charge, **thallium enters cells through potassium channels and Na+/K+-ATPase pumps**, distributing itself wherever potassium is needed -- which is everywhere. This potassium mimicry makes thallium uniquely dangerous at low concentrations, and recent evidence positions it as a significant player in [[chronic-kidney-disease]] pathogenesis through the [[alpha-klotho]] axis.
+One of the most toxic metals known to biology, thallium earns its reputation through a deceptively simple trick: it masquerades as potassium. With an ionic radius (1.50 A) nearly identical to K+ (1.38 A) and a +1 charge, thallium enters cells through potassium channels and Na+/K+-ATPase pumps, distributing itself wherever potassium is needed -- which is everywhere. This potassium mimicry makes thallium uniquely dangerous at low concentrations, and recent evidence positions it as a significant player in [[chronic-kidney-disease]] pathogenesis through the [[alpha-klotho]] axis.
 
 ## Chemical Properties
 
-- **Atomic number**: 81; Group 13 (post-transition metal)
+- Atomic number: 81; Group 13 (post-transition metal)
 - Exists as Tl+ (thallous, predominant in biology) and Tl3+ (thallic, more toxic but less stable)
 - Tl+ has the same charge and similar radius as K+, enabling entry through potassium transport systems
 - Strong affinity for sulfhydryl groups, disrupting mitochondrial sulfhydryl-containing enzymes
@@ -29,18 +35,18 @@ One of the most toxic metals known to biology, thallium earns its reputation thr
 
 ## Sources of Exposure
 
-- **Industrial**: Coal combustion, cement production, smelting of zinc and lead ores (thallium is a byproduct)
-- **Agricultural**: Some rodenticides (now largely banned due to extreme toxicity)
-- **Environmental**: Naturally present in some soils and groundwater; mobilized by acidic conditions
-- **Dietary**: Low-level exposure through vegetables grown in contaminated soils and seafood
+- Industrial: Coal combustion, cement production, smelting of zinc and lead ores (thallium is a byproduct)
+- Agricultural: Some rodenticides (now largely banned due to extreme toxicity)
+- Environmental: Naturally present in some soils and groundwater; mobilized by acidic conditions
+- Dietary: Low-level exposure through vegetables grown in contaminated soils and seafood
 
 ## The CKD Connection
 
 The most striking finding for thallium in this wiki comes from a machine learning-guided analysis of 51 pollutants and CKD risk [[liu-2025-low-concentration-metals-ckd-alpha-klotho]]:
 
-- **Highest posterior inclusion probability (PIP = 1.0)** in the Bayesian Kernel Machine Regression (BKMR) model among all metals tested (cadmium, mercury, lead, thallium)
-- Thallium and lead concentrations were **significantly negatively correlated** with CKD risk after full adjustment -- a counterintuitive finding likely reflecting reverse causality from impaired renal excretion
-- The relationship is mediated through **[[alpha-klotho]]**, an anti-aging protein with renal protective functions
+- Highest posterior inclusion probability (PIP = 1.0) in the Bayesian Kernel Machine Regression (BKMR) model among all metals tested (cadmium, mercury, lead, thallium)
+- Thallium and lead concentrations were significantly negatively correlated with CKD risk after full adjustment -- a counterintuitive finding likely reflecting reverse causality from impaired renal excretion
+- The relationship is mediated through [[alpha-klotho]], an anti-aging protein with renal protective functions
 - Alpha-klotho mediates the mercury-CKD association (34.55% mediation proportion), and Mendelian randomization confirmed that higher alpha-klotho levels causally reduce CKD risk (OR 0.9842)
 
 The negative association between thallium concentration and CKD risk underscores a critical interpretive challenge: in kidney disease, low serum metal levels may reflect impaired filtration and altered metal handling rather than protective effects. This aligns with the [[nutritional-immunity]] framework's emphasis on interpreting metal levels within physiological context.
@@ -50,9 +56,9 @@ The negative association between thallium concentration and CKD risk underscores
 ### Potassium Channel Mimicry
 
 Tl+ enters cells through:
-- **Na+/K+-ATPase**: Tl+ is transported in place of K+, disrupting the electrochemical gradient essential for all cellular function
-- **Potassium channels**: Tl+ passes through K+ channels, which cannot discriminate between the two ions
-- **Widespread distribution**: Because potassium is ubiquitous, thallium distributes to every tissue -- nervous system, kidneys, GI tract, skin, hair
+- Na+/K+-ATPase: Tl+ is transported in place of K+, disrupting the electrochemical gradient essential for all cellular function
+- Potassium channels: Tl+ passes through K+ channels, which cannot discriminate between the two ions
+- Widespread distribution: Because potassium is ubiquitous, thallium distributes to every tissue -- nervous system, kidneys, GI tract, skin, hair
 
 ### Mitochondrial Disruption
 

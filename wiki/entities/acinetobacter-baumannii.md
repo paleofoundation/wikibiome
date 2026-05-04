@@ -22,7 +22,7 @@ conditions_depleted_in: []
 
 # Acinetobacter baumannii
 
-**WHO Priority 1: Critical.** A Gram-negative, strictly aerobic coccobacillus and one of the most dangerous nosocomial pathogens on the planet. *A. baumannii* belongs to the **ESKAPE** group and causes ventilator-associated pneumonia, wound infections, and bloodstream infections with mortality rates exceeding 50% in some intensive care settings. What makes this organism so formidable is not simply its antibiotic resistance -- it is the deep integration of metal homeostasis systems with both virulence and resistance, creating multiple interdependent vulnerabilities that the host immune system and novel therapeutics can exploit.
+WHO Priority 1: Critical. A Gram-negative, strictly aerobic coccobacillus and one of the most dangerous nosocomial pathogens on the planet. *A. baumannii* belongs to the ESKAPE group and causes ventilator-associated pneumonia, wound infections, and bloodstream infections with mortality rates exceeding 50% in some intensive care settings. What makes this organism so formidable is not simply its antibiotic resistance -- it is the deep integration of metal homeostasis systems with both virulence and resistance, creating multiple interdependent vulnerabilities that the host immune system and novel therapeutics can exploit.
 
 This page covers the species *A. baumannii* specifically; for the broader genus, see [[acinetobacter]].
 
@@ -30,7 +30,7 @@ This page covers the species *A. baumannii* specifically; for the broader genus,
 
 ### Zinc: The Cell Wall Architect
 
-*A. baumannii* depends on [[zinc]] for a recently discovered cell wall regulatory system. **MigC** (A1S_0934), a COG0523 family GTPase, is a zinc-binding metallochaperone that interacts with and inhibits **MurD**, an essential peptidoglycan synthesis enzyme ([[critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter]], animal-model). MigC binds zinc with extremely high affinity (KZn1 = 7.0 x 10^10 M-1), increasing 20-fold with GDP and approximately 40-fold with GTP. When zinc is available, Zn-MigC inhibits MurD (Ki = 32 +/- 6 uM, noncompetitive), modulating cell wall architecture. When zinc is depleted -- as occurs during host [[nutritional-immunity]] via [[calprotectin]] -- MigC function is lost, sensitizing the bacterium to beta-lactam antibiotics like ceftriaxone.
+*A. baumannii* depends on [[zinc]] for a recently discovered cell wall regulatory system. MigC (A1S_0934), a COG0523 family GTPase, is a zinc-binding metallochaperone that interacts with and inhibits MurD, an essential peptidoglycan synthesis enzyme ([[critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter]], animal-model). MigC binds zinc with extremely high affinity (KZn1 = 7.0 x 10^10 M-1), increasing 20-fold with GDP and approximately 40-fold with GTP. When zinc is available, Zn-MigC inhibits MurD (Ki = 32 +/- 6 uM, noncompetitive), modulating cell wall architecture. When zinc is depleted -- as occurs during host [[nutritional-immunity]] via [[calprotectin]] -- MigC function is lost, sensitizing the bacterium to beta-lactam antibiotics like ceftriaxone.
 
 MurD itself requires [[manganese]] or magnesium as catalytic cofactors, meaning that [[mis-metallation]] at this single enzyme can cascade into morphological changes, antibiotic susceptibility, and virulence attenuation. MigC-deficient cells show elongated morphology, thinner peptidoglycan, and reduced colonization in murine pneumonia models.
 
@@ -60,20 +60,20 @@ Cadmium exposure creates a cascade of metal dysregulation in *A. baumannii*. At 
 ## Conditions Associated
 
 *A. baumannii* is primarily a healthcare-associated pathogen:
-- **Ventilator-associated pneumonia** -- the most common and lethal manifestation
-- **Wound infections** -- particularly in combat and burn injuries
-- **Bloodstream infections** -- often catheter-related
-- **Urinary tract infections** -- catheter-associated
+- Ventilator-associated pneumonia -- the most common and lethal manifestation
+- Wound infections -- particularly in combat and burn injuries
+- Bloodstream infections -- often catheter-related
+- Urinary tract infections -- catheter-associated
 
 The organism's ability to persist on hospital surfaces and medical devices, combined with its metal-antibiotic co-resistance phenotype, makes it a persistent threat in ICU environments.
 
 ## Key Studies
 
-- **[[critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter]]** (animal-model) -- Discovery of MigC zinc metallochaperone regulating cell wall biogenesis through MurD interaction; demonstrates calprotectin-sensitive zinc dependency as virulence determinant.
-- **[[alquethamy-2021-acinetobacter-cadmium-resistance]]** (in-vitro, keystone) -- Maps the cadmium resistome (67 genes) and demonstrates cadmium-induced zinc depletion and copper hyperaccumulation; establishes cross-metal toxicity framework.
-- **[[golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter]]** (expert-opinion) -- Reviews multi-metal chelation as virulence disarmament strategy for *A. baumannii* and *P. aeruginosa*.
-- **[[vollenweider-2024-pyoverdines-antimicrobial-iron-depriving]]** (in-vitro) -- 320 pyoverdine variants screened; specific structural variants potently inhibit *A. baumannii* through iron deprivation.
-- **[[carvalho-2014-siderophores-trojan-horses-mdr]]** (expert-opinion) -- Siderophore-antibiotic conjugates exploiting iron transport to bypass outer membrane.
+- [[critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter]] (animal-model) -- Discovery of MigC zinc metallochaperone regulating cell wall biogenesis through MurD interaction; demonstrates calprotectin-sensitive zinc dependency as virulence determinant.
+- [[alquethamy-2021-acinetobacter-cadmium-resistance]] (in-vitro, keystone) -- Maps the cadmium resistome (67 genes) and demonstrates cadmium-induced zinc depletion and copper hyperaccumulation; establishes cross-metal toxicity framework.
+- [[golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter]] (expert-opinion) -- Reviews multi-metal chelation as virulence disarmament strategy for *A. baumannii* and *P. aeruginosa*.
+- [[vollenweider-2024-pyoverdines-antimicrobial-iron-depriving]] (in-vitro) -- 320 pyoverdine variants screened; specific structural variants potently inhibit *A. baumannii* through iron deprivation.
+- [[carvalho-2014-siderophores-trojan-horses-mdr]] (expert-opinion) -- Siderophore-antibiotic conjugates exploiting iron transport to bypass outer membrane.
 
 ## Cross-References
 

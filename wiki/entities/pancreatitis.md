@@ -22,25 +22,25 @@ signature_page: "[[pancreatitis-signature]]"
 
 ## Overview
 
-**Pancreatitis** is inflammation of the pancreas, occurring in acute (AP) and chronic (CP) forms. Acute pancreatitis ranges from mild self-limiting disease to severe necrotizing pancreatitis with 20-30% mortality. Chronic pancreatitis is a risk factor for [[pancreatic-cancer]] (relative risk 2.7-16x), making the pancreatitis→PDAC progression a clinically important trajectory where microbiome interventions may have preventive value.
+Pancreatitis is inflammation of the pancreas, occurring in acute (AP) and chronic (CP) forms. Acute pancreatitis ranges from mild self-limiting disease to severe necrotizing pancreatitis with 20-30% mortality. Chronic pancreatitis is a risk factor for [[pancreatic-cancer]] (relative risk 2.7-16x), making the pancreatitis→PDAC progression a clinically important trajectory where microbiome interventions may have preventive value.
 
 ## Microbiome Associations
 
 ### Acute Pancreatitis
-- **Fungal dysbiosis** is a feature of acute pancreatitis, with altered intestinal fungal communities detected early in the disease course [[zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis]].
-- **Bacterial translocation** from a dysbiotic gut is a major driver of secondary pancreatic infection in severe AP [[sun-2023-pancreatic-infections-16s-rrna-pancreatitis]].
+- Fungal dysbiosis is a feature of acute pancreatitis, with altered intestinal fungal communities detected early in the disease course [[zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis]].
+- Bacterial translocation from a dysbiotic gut is a major driver of secondary pancreatic infection in severe AP [[sun-2023-pancreatic-infections-16s-rrna-pancreatitis]].
 - 16S rRNA sequencing of pancreatic infections identifies specific bacterial communities driving infectious complications [[sun-2023-pancreatic-infections-16s-rrna-pancreatitis]].
 
 ### Autoimmune Pancreatitis
-Autoimmune pancreatitis (AIP) has a **distinct fecal microbiota** compared to pancreatic ductal adenocarcinoma (PDAC), despite overlapping clinical presentations. Shotgun metagenomics revealed differential functional profiles that may serve as diagnostic biomarkers [[zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics]].
+Autoimmune pancreatitis (AIP) has a distinct fecal microbiota compared to pancreatic ductal adenocarcinoma (PDAC), despite overlapping clinical presentations. Shotgun metagenomics revealed differential functional profiles that may serve as diagnostic biomarkers [[zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics]].
 
 ### Causal Evidence
-[[mendelian-randomization]] supports a **causal relationship** between specific gut microbiota and pancreatitis risk [[wang-2023-mendelian-randomization-gut-microbiota-pancreatitis]].
+[[mendelian-randomization]] supports a causal relationship between specific gut microbiota and pancreatitis risk [[wang-2023-mendelian-randomization-gut-microbiota-pancreatitis]].
 
 ## Interventions
 
 ### Probiotics/Prebiotics/Synbiotics in Severe AP
-Meta-analysis of **13 RCTs** found that probiotics, prebiotics, and [[synbiotics]] reduce infectious complications in severe acute pancreatitis [[tian-2018-prebiotics-probiotics-synbiotics-severe-acute-pancreatitis-meta-analysis]]. The mechanism likely involves:
+Meta-analysis of 13 RCTs found that probiotics, prebiotics, and [[synbiotics]] reduce infectious complications in severe acute pancreatitis [[tian-2018-prebiotics-probiotics-synbiotics-severe-acute-pancreatitis-meta-analysis]]. The mechanism likely involves:
 - Strengthening gut barrier integrity to prevent bacterial translocation
 - Modulating immune response to reduce pancreatic necrosis infection
 - Competing with pathobionts for intestinal niches

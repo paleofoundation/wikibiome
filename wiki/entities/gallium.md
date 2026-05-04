@@ -18,11 +18,11 @@ wikipedia_differentiation: "Gallium as therapeutic iron mimic exploiting bacteri
 
 # Gallium (Ga)
 
-A group 13 post-transition metal (atomic number 31) with no known biological function in any organism — yet one of the most promising antimicrobial metals precisely because of what it *cannot* do. **Ga3+ is nearly identical to Fe3+ in ionic radius (0.62 Å vs 0.645 Å) and coordination chemistry**, but it cannot be reduced to Ga2+ under physiological conditions. This makes gallium a perfect Trojan horse: bacteria import it through their iron uptake systems, and it irreversibly jams the iron-dependent enzymes they need to survive.
+A group 13 post-transition metal (atomic number 31) with no known biological function in any organism — yet one of the most promising antimicrobial metals precisely because of what it *cannot* do. Ga3+ is nearly identical to Fe3+ in ionic radius (0.62 Å vs 0.645 Å) and coordination chemistry, but it cannot be reduced to Ga2+ under physiological conditions. This makes gallium a perfect Trojan horse: bacteria import it through their iron uptake systems, and it irreversibly jams the iron-dependent enzymes they need to survive.
 
 ## The Iron Mimic Principle
 
-The core insight is deceptively simple. **Bacterial iron acquisition is a life-or-death process** — iron is essential for DNA synthesis (ribonucleotide reductase), electron transport (cytochromes, Fe-S clusters), and many other central metabolic reactions. Bacteria have evolved extraordinarily efficient systems to acquire scarce iron from the environment: siderophores, transferrin receptors, hemoglobin piracy. These systems cannot easily distinguish Ga3+ from Fe3+, because the ionic properties are so similar.
+The core insight is deceptively simple. Bacterial iron acquisition is a life-or-death process — iron is essential for DNA synthesis (ribonucleotide reductase), electron transport (cytochromes, Fe-S clusters), and many other central metabolic reactions. Bacteria have evolved extraordinarily efficient systems to acquire scarce iron from the environment: siderophores, transferrin receptors, hemoglobin piracy. These systems cannot easily distinguish Ga3+ from Fe3+, because the ionic properties are so similar.
 
 When Ga3+ is imported in place of Fe3+:
 - It binds iron-coordination sites but cannot undergo Fe3+ → Fe2+ redox cycling
@@ -34,19 +34,19 @@ This makes gallium effective against bacteria that have evolved resistance to co
 
 ## Mechanisms of Antimicrobial Action
 
-**1. Siderophore hijacking**
+1. Siderophore hijacking
 Bacteria secrete siderophores to scavenge scarce iron. These chelators bind Ga3+ with similar affinity to Fe3+, and bacteria import the gallium-loaded siderophore through their normal outer membrane receptors [[carvalho-2014-siderophores-trojan-horses-mdr]]. Every siderophore-mediated iron import is a potential gallium delivery route.
 
-**2. Ribonucleotide reductase (RNR) inhibition**
+2. Ribonucleotide reductase (RNR) inhibition
 Ga3+ occupies the Fe3+ active site in class I RNR — the enzyme that reduces ribonucleotides to deoxyribonucleotides, an obligate step in DNA synthesis. RNR requires redox-active iron to generate the tyrosyl radical needed for catalysis. Ga3+ is coordination-compatible but redox-inactive, producing a dead-end inhibited enzyme complex and halting DNA replication [[ikhazuagbe-2025-gallium-nanoparticles-antimicrobial]].
 
-**3. Cytochrome disruption**
+3. Cytochrome disruption
 Ga3+ displaces iron in cytochrome complexes in the electron transport chain. Without functional cytochromes, oxidative phosphorylation collapses. This effect is particularly potent in biofilm-embedded bacteria that depend on cytochrome-mediated respiration for the sustained energy demands of biofilm maintenance [[ikhazuagbe-2025-gallium-nanoparticles-antimicrobial]].
 
-**4. Fe-S cluster poisoning**
+4. Fe-S cluster poisoning
 Incorporation of Ga3+ into iron-sulfur cluster assembly machinery renders clusters non-functional. Fe-S clusters are involved in central metabolic enzymes (aconitase, succinate dehydrogenase) and transcriptional regulators (Fur, IscR). Their failure disrupts metabolism at multiple levels simultaneously [[golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter]].
 
-**5. Biofilm disruption**
+5. Biofilm disruption
 *Pseudomonas aeruginosa* biofilms require iron acquisition for structural integrity and maintenance. Gallium nitrate (Ga(NO3)3) disrupts biofilm formation and eradicates established *P. aeruginosa* biofilms by starving biofilm-embedded cells of functional iron [[golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter]]. This anti-biofilm activity is significant because biofilm-embedded organisms are notoriously resistant to conventional antibiotics.
 
 ## Pharmacological Applications
@@ -60,9 +60,9 @@ The simplest clinical form. Previously approved for hypercalcemia of malignancy 
 
 ### Galbofloxacin
 
-A gallium-siderophore-fluoroquinolone conjugate: gallium is conjugated to a hydroxamate siderophore that is itself linked to a fluoroquinolone antibiotic. The result is **dual targeting** — Ga3+ mimics iron to gain entry, and once inside, the fluoroquinolone inhibits DNA gyrase [[pandey-2021-galbofloxacin-gallium-siderophore-staph]].
+A gallium-siderophore-fluoroquinolone conjugate: gallium is conjugated to a hydroxamate siderophore that is itself linked to a fluoroquinolone antibiotic. The result is dual targeting — Ga3+ mimics iron to gain entry, and once inside, the fluoroquinolone inhibits DNA gyrase [[pandey-2021-galbofloxacin-gallium-siderophore-staph]].
 
-Against *Staphylococcus aureus*, galbofloxacin achieves an MIC of **93 nM versus 920 nM for ciprofloxacin alone** — a 10-fold potency improvement through siderophore-mediated targeted delivery. The specificity of the siderophore determines which bacteria import the conjugate, theoretically enabling pathogen-selective activity.
+Against *Staphylococcus aureus*, galbofloxacin achieves an MIC of 93 nM versus 920 nM for ciprofloxacin alone — a 10-fold potency improvement through siderophore-mediated targeted delivery. The specificity of the siderophore determines which bacteria import the conjugate, theoretically enabling pathogen-selective activity.
 
 ### Cefiderocol
 
@@ -90,7 +90,7 @@ This represents a convergence of gallium antimicrobial chemistry with the emergi
 
 ## Microbiome Selectivity: The Key Advantage
 
-The most compelling property of siderophore-gallium strategies is their **taxonomic selectivity**. Different bacterial genera use different siderophore structures and receptor systems:
+The most compelling property of siderophore-gallium strategies is their taxonomic selectivity. Different bacterial genera use different siderophore structures and receptor systems:
 
 - Enteric pathogens (Enterobacteriaceae) use enterobactin-type catechol siderophores
 - *Pseudomonas* uses pyoverdine and pyochelin
@@ -101,14 +101,14 @@ Salmochelin conjugates — derived from the enterobactin of *E. coli* — select
 
 ## Advantages Over Conventional Antibiotics
 
-- **Targets fundamental metabolism**: Iron-dependent processes are not optional for bacteria; developing resistance requires rewiring core biochemistry, not just modifying a single target site [[passari-2023-siderophores-medical-applications]].
-- **Exploits bacterial weaponry against itself**: Siderophores bacteria evolved for iron acquisition become the delivery vehicle for their own destruction.
-- **Reduced resistance evolution**: Bypasses porin mutations and efflux pumps — the primary resistance mechanisms in carbapenem-resistant Gram-negatives [[carvalho-2014-siderophores-trojan-horses-mdr]].
-- **Host compatibility**: Human cells do not express bacterial-type siderophore receptors; gallium's iron-mimic toxicity is bacterium-specific.
+- Targets fundamental metabolism: Iron-dependent processes are not optional for bacteria; developing resistance requires rewiring core biochemistry, not just modifying a single target site [[passari-2023-siderophores-medical-applications]].
+- Exploits bacterial weaponry against itself: Siderophores bacteria evolved for iron acquisition become the delivery vehicle for their own destruction.
+- Reduced resistance evolution: Bypasses porin mutations and efflux pumps — the primary resistance mechanisms in carbapenem-resistant Gram-negatives [[carvalho-2014-siderophores-trojan-horses-mdr]].
+- Host compatibility: Human cells do not express bacterial-type siderophore receptors; gallium's iron-mimic toxicity is bacterium-specific.
 
 ## Connection to WikiBiome Metallomics Framework
 
-Gallium therapeutics represent a **deliberate application of mis-metallation as antimicrobial strategy** — the same principle that makes cadmium and lead toxic to humans (displacement of correct metal cofactors) is weaponized here against bacterial pathogens. The difference is directionality: toxic metal contamination poisons human enzymes through mis-metallation; gallium therapy poisons bacterial enzymes through the same mechanism, but selectively in organisms with iron-dependent biochemistry. This positions gallium as a therapeutic inversion of the nutritional immunity concept: where the host withholds iron from pathogens, gallium provides a counterfeit iron that poisons rather than feeds.
+Gallium therapeutics represent a deliberate application of mis-metallation as antimicrobial strategy — the same principle that makes cadmium and lead toxic to humans (displacement of correct metal cofactors) is weaponized here against bacterial pathogens. The difference is directionality: toxic metal contamination poisons human enzymes through mis-metallation; gallium therapy poisons bacterial enzymes through the same mechanism, but selectively in organisms with iron-dependent biochemistry. This positions gallium as a therapeutic inversion of the nutritional immunity concept: where the host withholds iron from pathogens, gallium provides a counterfeit iron that poisons rather than feeds.
 
 ## Cross-References
 

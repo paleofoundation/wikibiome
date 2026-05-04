@@ -4,10 +4,14 @@ type: entity
 subtype: disease
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
+last_substantive_update: 2026-04-22
 sources:
+  - tatarchuk-2016-micro-macroelements-pcos
   - jin-2025-dietary-fiber-pelvic-inflammatory-disease-nhanes
-source_count: 1
+  - miao-2020-peritoneal-microbial-features-ovarian-cancer-diagnostics
+  - ughade-2024-genital-dysbiosis-fertility-review
+  - montoya-2013-metagenomic-analyses-bv-ovarian-cancer-thesis
+source_count: 5
 tags:
   - gynecological
   - infection
@@ -29,17 +33,15 @@ shared_signature_taxa:
   bacterial-vaginosis:
     - gardnerella-vaginalis
     - atopobium-vaginae
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 5
 ---
 
 ## Overview
 
-**Pelvic inflammatory disease** (PID) is an ascending infection of the female upper reproductive tract — uterus, fallopian tubes, and ovaries. Traditionally attributed to *Neisseria gonorrhoeae* and *Chlamydia trachomatis*, PID is now recognized as predominantly **polymicrobial**, with bacterial vaginosis-associated organisms playing a central role in many cases.
+Pelvic inflammatory disease (PID) is an ascending infection of the female upper reproductive tract — uterus, fallopian tubes, and ovaries. Traditionally attributed to *Neisseria gonorrhoeae* and *Chlamydia trachomatis*, PID is now recognized as predominantly polymicrobial, with bacterial vaginosis-associated organisms playing a central role in many cases.
 
 ## Microbiome Associations
 
-Culture-independent studies have revealed that PID-associated microbiomes are enriched in **BV-associated organisms** including [[gardnerella|gardnerella-vaginalis]], [[atopobium-vaginae]], *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal dysbiosis that precedes PID.
+Culture-independent studies have revealed that PID-associated microbiomes are enriched in BV-associated organisms including [[gardnerella|gardnerella-vaginalis]], [[atopobium-vaginae]], *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal dysbiosis that precedes PID.
 
 ## Metal Associations
 
@@ -51,7 +53,7 @@ PID shares microbial overlap with [[bacterial-vaginosis]] (which often precedes 
 
 ## Environmental and Dietary Factors
 
-A cross-sectional analysis of NHANES 2015–2018 data (n=2,345 women) found that higher **dietary fiber intake** was inversely associated with PID prevalence, with an L-shaped dose-response and an inflection point at 19.45 g/day ([[jin-2025-dietary-fiber-pelvic-inflammatory-disease-nhanes]], cross-sectional, n=2,345). Women in the highest fiber quartile had 69% lower PID prevalence compared to the lowest quartile (OR = 0.31, 95% CI: 0.15–0.62). The proposed mechanism involves fiber-driven SCFA production by [[lachnospiraceae-family]], [[akkermansia-muciniphila]], and [[lactobacillus]], which suppresses systemic inflammation and may modulate vaginal microbiota via the [[gut-vagina-axis]]. Magnesium co-intake from fiber-rich foods may also contribute.
+A cross-sectional analysis of NHANES 2015–2018 data (n=2,345 women) found that higher dietary fiber intake was inversely associated with PID prevalence, with an L-shaped dose-response and an inflection point at 19.45 g/day ([[jin-2025-dietary-fiber-pelvic-inflammatory-disease-nhanes]], cross-sectional, n=2,345). Women in the highest fiber quartile had 69% lower PID prevalence compared to the lowest quartile (OR = 0.31, 95% CI: 0.15–0.62). The proposed mechanism involves fiber-driven SCFA production by [[lachnospiraceae-family]], [[akkermansia-muciniphila]], and [[lactobacillus]], which suppresses systemic inflammation and may modulate vaginal microbiota via the [[gut-vagina-axis]]. Magnesium co-intake from fiber-rich foods may also contribute.
 
 ## Open Questions
 

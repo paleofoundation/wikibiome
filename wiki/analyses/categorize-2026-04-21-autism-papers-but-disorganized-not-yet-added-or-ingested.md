@@ -2,8 +2,8 @@
 - Source:    `raw/Autism papers, but disorganized. Not yet added or ingested` (now removed)
 - Canonical: `raw/Autism spectrum disorder (ASD)`
 - Method:    Keyword-based routing via `scripts/categorize-and-move-files.py`
-- Total files moved: **123**
-- Errors: **0**
+- Total files moved: 123
+- Errors: 0
 
 ## Files moved per subtopic folder
 

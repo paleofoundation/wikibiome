@@ -29,34 +29,34 @@ targets:
 karen_brain_primitives: [5]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Citrus Fruits for Endometriosis
 
 ## Intervention Summary
 
-Increased citrus fruit consumption as a dietary source of anti-estrogenic and anti-inflammatory flavonoids — particularly **naringenin** (grapefruit), **hesperidin** (oranges, lemons), and **nobiletin** (citrus peel). These compounds inhibit aromatase, compete at estrogen receptors, and suppress NF-kB signaling. Gut bacteria activate citrus flavonoid glycosides into their bioactive aglycone forms.
+Increased citrus fruit consumption as a dietary source of anti-estrogenic and anti-inflammatory flavonoids — particularly naringenin (grapefruit), hesperidin (oranges, lemons), and nobiletin (citrus peel). These compounds inhibit aromatase, compete at estrogen receptors, and suppress NF-kB signaling. Gut bacteria activate citrus flavonoid glycosides into their bioactive aglycone forms.
 
 ## Evidence
 
-- **Epidemiological**: Higher citrus fruit intake associated with reduced endometriosis risk in large cohort studies
-- **In vitro**: Naringenin inhibits aromatase (CYP19A1) activity in endometrial stromal cells and competes with estradiol at ERalpha and ERbeta
-- **Animal models**: Hesperidin reduces endometriotic lesion size and vascularization in rat models; nobiletin suppresses MMP-9 expression
-- **Microbiome interaction**: Citrus flavonoid glycosides (naringin, hesperidin) are hydrolyzed by gut bacterial beta-glucosidases (Bifidobacterium, Lactobacillus) to release bioactive aglycones
-- **Limitation**: No RCTs specifically testing citrus fruit intervention for endometriosis outcomes
+- Epidemiological: Higher citrus fruit intake associated with reduced endometriosis risk in large cohort studies
+- In vitro: Naringenin inhibits aromatase (CYP19A1) activity in endometrial stromal cells and competes with estradiol at ERalpha and ERbeta
+- Animal models: Hesperidin reduces endometriotic lesion size and vascularization in rat models; nobiletin suppresses MMP-9 expression
+- Microbiome interaction: Citrus flavonoid glycosides (naringin, hesperidin) are hydrolyzed by gut bacterial beta-glucosidases (Bifidobacterium, Lactobacillus) to release bioactive aglycones
+- Limitation: No RCTs specifically testing citrus fruit intervention for endometriosis outcomes
 
 ## Mechanism
 
-1. **Aromatase inhibition**: Naringenin competitively inhibits CYP19A1 aromatase, reducing local estrogen production in ectopic endometrial tissue
-2. **Estrogen receptor competition**: Citrus flavonoids act as selective estrogen receptor modulators (SERMs), binding ERbeta with higher affinity and exerting anti-proliferative effects
-3. **NF-kB suppression**: Hesperidin and nobiletin inhibit IKK phosphorylation, reducing NF-kB-driven IL-6, IL-8, and MCP-1 expression in endometrial cells
-4. **Microbiome-dependent activation**: Bioavailability depends on gut bacterial deglycosylation — a healthy Bifidobacterium population enhances citrus flavonoid activation
+1. Aromatase inhibition: Naringenin competitively inhibits CYP19A1 aromatase, reducing local estrogen production in ectopic endometrial tissue
+2. Estrogen receptor competition: Citrus flavonoids act as selective estrogen receptor modulators (SERMs), binding ERbeta with higher affinity and exerting anti-proliferative effects
+3. NF-kB suppression: Hesperidin and nobiletin inhibit IKK phosphorylation, reducing NF-kB-driven IL-6, IL-8, and MCP-1 expression in endometrial cells
+4. Microbiome-dependent activation: Bioavailability depends on gut bacterial deglycosylation — a healthy Bifidobacterium population enhances citrus flavonoid activation
 
 ## Clinical Context
 
-Citrus fruits are a low-risk dietary intervention with plausible mechanism. Two to three servings daily provide meaningful flavonoid doses. Grapefruit specifically contains naringenin but also inhibits CYP3A4 — **practitioners must check for drug interactions** (oral contraceptives, statins, immunosuppressants). The microbiome-dependent activation creates a positive feedback loop: restoring Bifidobacterium (via prebiotics) enhances citrus flavonoid bioavailability.
+Citrus fruits are a low-risk dietary intervention with plausible mechanism. Two to three servings daily provide meaningful flavonoid doses. Grapefruit specifically contains naringenin but also inhibits CYP3A4 — practitioners must check for drug interactions (oral contraceptives, statins, immunosuppressants). The microbiome-dependent activation creates a positive feedback loop: restoring Bifidobacterium (via prebiotics) enhances citrus flavonoid bioavailability.
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

@@ -24,10 +24,10 @@ Metalloestrogens are metal ions that activate estrogen receptors and mimic the b
 
 Cadmium is the best-characterized metalloestrogen. Key findings:
 
-- **Binding affinity**: Cd binds ERa with a Kd of approximately 4.5 x 10^-10 M, nearly equivalent to estradiol's affinity
-- **Binding mechanism**: Cd occupies the ligand-binding domain (LBD) of ERa; it blocks 17beta-estradiol binding but does not alter the binding affinity of the remaining sites (competitive displacement)
-- **Gene activation**: Cd activates classical ER target genes including cyclin D1, c-myc, and cathepsin D (CTD) in MCF-7, T-47D, and ZR-75-1 breast cancer cell lines at concentrations as low as 1 uM
-- **Cell proliferation**: Cd stimulates proliferation of ER-positive breast cancer cells in a manner indistinguishable from estradiol stimulation
+- Binding affinity: Cd binds ERa with a Kd of approximately 4.5 x 10^-10 M, nearly equivalent to estradiol's affinity
+- Binding mechanism: Cd occupies the ligand-binding domain (LBD) of ERa; it blocks 17beta-estradiol binding but does not alter the binding affinity of the remaining sites (competitive displacement)
+- Gene activation: Cd activates classical ER target genes including cyclin D1, c-myc, and cathepsin D (CTD) in MCF-7, T-47D, and ZR-75-1 breast cancer cell lines at concentrations as low as 1 uM
+- Cell proliferation: Cd stimulates proliferation of ER-positive breast cancer cells in a manner indistinguishable from estradiol stimulation
 
 ### GPR30/GPER Pathway
 
@@ -44,10 +44,10 @@ Cd also activates the membrane-bound estrogen receptor GPR30, inducing prolifera
 
 The carcinogenic potential of Cd extends far beyond estrogenic activity:
 
-- **Epigenetic modifications**: Cd alters DNA methylation (both hypo- and hypermethylation), histone modifications, and miRNA/lncRNA expression; 997 genes epigenetically altered by Cd in MCF-7 cells, with 400 associated with breast cancer
-- **Oxidative stress**: ROS generation, DNA repair enzyme (hOGG1) inhibition, disruption of NER and BER pathways
-- **Epithelial-mesenchymal transition**: Cd promotes EMT by downregulating E-cadherin through Snail upregulation, enhancing migration and invasion
-- **Aneuploidy**: CdCl2 (1-4 uM) and CdSO4 (0.033-0.134 uM) induce aneuploidy in human fibroblasts; estrogen itself also induces aneuploidy via Aurora kinase pathway, suggesting convergent genomic instability mechanisms
+- Epigenetic modifications: Cd alters DNA methylation (both hypo- and hypermethylation), histone modifications, and miRNA/lncRNA expression; 997 genes epigenetically altered by Cd in MCF-7 cells, with 400 associated with breast cancer
+- Oxidative stress: ROS generation, DNA repair enzyme (hOGG1) inhibition, disruption of NER and BER pathways
+- Epithelial-mesenchymal transition: Cd promotes EMT by downregulating E-cadherin through Snail upregulation, enhancing migration and invasion
+- Aneuploidy: CdCl2 (1-4 uM) and CdSO4 (0.033-0.134 uM) induce aneuploidy in human fibroblasts; estrogen itself also induces aneuploidy via Aurora kinase pathway, suggesting convergent genomic instability mechanisms
 
 ## Nickel as a Metalloestrogen
 

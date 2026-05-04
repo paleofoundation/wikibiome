@@ -3,12 +3,13 @@ title: "Glutathione Supplementation"
 type: intervention
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: []
+last_substantive_update: 2026-04-22
+sources:
+  - kashyap-2014-pgrps-kill-bacteria-metal-stress
+  - kern-2011-glutathione-supplementation-asd-clinical-trial
 tags: [antioxidant, detoxification, glutathione, oxidative-stress]
 intervention_class: supplement
 cureva_status: in-progress
-stub: true
 
 triangles: []
 
@@ -26,7 +27,7 @@ karen_brain_primitives: [3, 5]
 
 ## Overview
 
-**Glutathione Supplementation** is discussed across 32 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
+Glutathione Supplementation is discussed across 32 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
 
 ## Triangle Evidence
 

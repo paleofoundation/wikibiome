@@ -32,11 +32,11 @@ An essential halogen required for thyroid hormone synthesis (T3 and T4). The thy
 ## Sources of Exposure
 
 ### Dietary
-- **Seafood**: Highest natural source (cod: ~99 μg per 3 oz; seaweed: 16-2,984 μg per sheet depending on type)
-- **Dairy**: Iodophor sanitizers in dairy processing contribute significantly (1 cup milk: ~56 μg)
-- **Iodized salt**: 45 μg per 1/4 teaspoon (primary public health intervention against deficiency)
-- **Eggs**: ~24 μg per egg
-- **Bread**: Iodate-conditioned dough contains variable iodine
+- Seafood: Highest natural source (cod: ~99 μg per 3 oz; seaweed: 16-2,984 μg per sheet depending on type)
+- Dairy: Iodophor sanitizers in dairy processing contribute significantly (1 cup milk: ~56 μg)
+- Iodized salt: 45 μg per 1/4 teaspoon (primary public health intervention against deficiency)
+- Eggs: ~24 μg per egg
+- Bread: Iodate-conditioned dough contains variable iodine
 
 ### Environmental
 - Iodine content in food is highly geography-dependent — soils near coastlines have more iodine than inland/mountainous regions.
@@ -44,7 +44,7 @@ An essential halogen required for thyroid hormone synthesis (T3 and T4). The thy
 
 ## The U-Shaped Dose-Response
 
-Iodine's relationship to health is **non-linear** — both deficiency and excess cause thyroid dysfunction:
+Iodine's relationship to health is non-linear — both deficiency and excess cause thyroid dysfunction:
 
 | Iodine Status (UIC) | Classification | Thyroid Effect |
 |---------------------|----------------|---------------|
@@ -61,27 +61,27 @@ This U-shaped curve is a critical interpretive constraint — iodine supplementa
 
 ### Selenium-Iodine Axis
 The most important metal interaction for iodine. Three selenium-dependent enzyme families are required for iodine utilization [[brock-2015-selenium-thyroid-autoimmunity]]:
-- **Deiodinases** (DIO1, DIO2, DIO3) — convert T4 to T3 (the active hormone). Without selenium, the thyroid produces T4 it cannot activate.
-- **Glutathione peroxidases** (GPx) — neutralize the H₂O₂ generated during thyroid hormone synthesis. Without selenium, iodine-driven H₂O₂ damages thyroid tissue.
-- **Thioredoxin reductases** — maintain intracellular redox balance in thyrocytes.
+- Deiodinases (DIO1, DIO2, DIO3) — convert T4 to T3 (the active hormone). Without selenium, the thyroid produces T4 it cannot activate.
+- Glutathione peroxidases (GPx) — neutralize the H₂O₂ generated during thyroid hormone synthesis. Without selenium, iodine-driven H₂O₂ damages thyroid tissue.
+- Thioredoxin reductases — maintain intracellular redox balance in thyrocytes.
 
 Combined selenium-iodine deficiency produces more severe thyroid dysfunction than either alone. Selenium supplementation reduces anti-TPO antibodies in autoimmune thyroiditis [[brock-2015-selenium-thyroid-autoimmunity]].
 
 ### Iron-Iodine Interaction
-- **Thyroid peroxidase (TPO)** is an iron-dependent heme enzyme — it catalyzes the iodination of thyroglobulin.
+- Thyroid peroxidase (TPO) is an iron-dependent heme enzyme — it catalyzes the iodination of thyroglobulin.
 - Iron deficiency impairs TPO activity, reducing iodine utilization even when iodine status is adequate.
 - Iron-deficient populations respond poorly to iodine supplementation [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 
 ### Heavy Metal Interference
-- **[[cadmium]]** and **[[mercury]]** compete with iodide for uptake via NIS and interfere with thyroid hormone synthesis.
-- **[[lead]]** disrupts HPT (hypothalamic-pituitary-thyroid) axis signaling.
+- [[cadmium]] and [[mercury]] compete with iodide for uptake via NIS and interfere with thyroid hormone synthesis.
+- [[lead]] disrupts HPT (hypothalamic-pituitary-thyroid) axis signaling.
 - These interferences mean that populations with high heavy metal exposure may develop functional iodine insufficiency despite adequate dietary intake — the metals block iodine's biological utilization.
 
 ## Iodine and the Gut Microbiome
 
 An emerging area connecting iodine to the gut-thyroid axis [[gong-2024-iodine-gut-microbiota-hashimotos]]:
 
-- **Excess iodine alters gut microbial composition** — high iodine intake shifts microbiota toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] and [[bifidobacterium|Bifidobacterium]]
+- Excess iodine alters gut microbial composition — high iodine intake shifts microbiota toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] and [[bifidobacterium|Bifidobacterium]]
 - This dysbiotic pattern mirrors the Hashimoto's disease microbiome signature
 - The gut microbiome modulates immune tolerance — dysbiosis may trigger the autoimmune response against TPO that defines [[hashimotos-thyroiditis]]
 - Thyroid hormones (T3, T4) regulate gut motility; hypothyroidism slows transit time, promoting bacterial overgrowth and further dysbiosis
@@ -89,10 +89,10 @@ An emerging area connecting iodine to the gut-thyroid axis [[gong-2024-iodine-gu
 ## Dietary Considerations
 
 Iodine content in food intersects with other metal exposures in complex ways [[puszkarz-2018-food-nutrition-hashimotos-prevention]]:
-- **Seaweed** delivers high iodine but may also contain [[arsenic]] (especially hijiki seaweed)
-- **Dairy** provides iodine with relatively low heavy metal contamination
-- **Seafood** provides iodine + selenium (protective combination) but also [[mercury]] (depending on species)
-- **Cruciferous vegetables** contain goitrogens (thiocyanates) that competitively inhibit iodide uptake — relevant for populations eating both high-cruciferous and low-iodine diets
+- Seaweed delivers high iodine but may also contain [[arsenic]] (especially hijiki seaweed)
+- Dairy provides iodine with relatively low heavy metal contamination
+- Seafood provides iodine + selenium (protective combination) but also [[mercury]] (depending on species)
+- Cruciferous vegetables contain goitrogens (thiocyanates) that competitively inhibit iodide uptake — relevant for populations eating both high-cruciferous and low-iodine diets
 
 ## Connections
 

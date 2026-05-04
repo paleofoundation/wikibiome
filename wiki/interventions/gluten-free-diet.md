@@ -3,12 +3,19 @@ title: "Gluten-Free Diet"
 type: intervention
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: []
+last_substantive_update: 2026-04-22
+sources:
+  - atabilen-2022-dietary-interventions-ms-systematic-review
+  - piecuch-2022-nutrition-endometriosis-review
+  - liu-2025-gut-microbiota-therapy-ckd
+  - ogrady-2025-metal-dyshomeostasis-asd
+  - li-2021-ketogenic-diet-treatment-asd-review
+  - marlow-2013-mediterranean-diet-transcriptomics-crohns
+  - somppi-2017-non-thyroidal-illness-dampness-microbiota-t3
+  - wentz-2015-hashimotos-root-cause-lifestyle-interventions
 tags: [dietary, celiac-disease, gluten, autoimmune]
 intervention_class: dietary
 cureva_status: in-progress
-stub: true
 
 triangles: []
 
@@ -26,7 +33,7 @@ karen_brain_primitives: [1, 5]
 
 ## Overview
 
-**Gluten-Free Diet** is discussed across 7 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
+Gluten-Free Diet is discussed across 7 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.
 
 ## Triangle Evidence
 

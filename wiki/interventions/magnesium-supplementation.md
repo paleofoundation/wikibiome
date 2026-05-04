@@ -29,7 +29,7 @@ targets:
 karen_brain_primitives: [3, 4]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Magnesium Supplementation for Fibromyalgia
 
@@ -39,17 +39,17 @@ Magnesium supplementation to address the documented magnesium deficiency in fibr
 
 ## Evidence
 
-- **RCTs**: Magnesium citrate (300mg/day, 8 weeks) reduced tender point count and FIQ scores compared to placebo in FM patients
-- **Cross-sectional**: Low serum Mg correlates with higher pain scores, worse sleep quality, and elevated substance P in FM
-- **Intracellular Mg**: Red blood cell magnesium (a more accurate measure than serum) is consistently low in FM cohorts
-- **Combination**: Magnesium + malic acid combination showed pain reduction in early clinical trials, though replication is needed
+- RCTs: Magnesium citrate (300mg/day, 8 weeks) reduced tender point count and FIQ scores compared to placebo in FM patients
+- Cross-sectional: Low serum Mg correlates with higher pain scores, worse sleep quality, and elevated substance P in FM
+- Intracellular Mg: Red blood cell magnesium (a more accurate measure than serum) is consistently low in FM cohorts
+- Combination: Magnesium + malic acid combination showed pain reduction in early clinical trials, though replication is needed
 
 ## Mechanism
 
-1. **NMDA receptor blockade**: Mg2+ sits in the NMDA receptor channel at resting potential, preventing calcium influx. Mg deficiency removes this block, facilitating glutamate excitotoxicity and central sensitization
-2. **ATP cofactor**: Mg-ATP is the biologically active form of ATP; Mg deficiency impairs cellular energy production, contributing to the fatigue hallmark of FM
-3. **Calcium channel modulation**: Mg competes with Ca2+ at voltage-gated channels, reducing neuronal hyperexcitability
-4. **Sleep architecture**: Mg deficiency disrupts sleep quality; supplementation improves sleep onset and slow-wave sleep duration
+1. NMDA receptor blockade: Mg2+ sits in the NMDA receptor channel at resting potential, preventing calcium influx. Mg deficiency removes this block, facilitating glutamate excitotoxicity and central sensitization
+2. ATP cofactor: Mg-ATP is the biologically active form of ATP; Mg deficiency impairs cellular energy production, contributing to the fatigue hallmark of FM
+3. Calcium channel modulation: Mg competes with Ca2+ at voltage-gated channels, reducing neuronal hyperexcitability
+4. Sleep architecture: Mg deficiency disrupts sleep quality; supplementation improves sleep onset and slow-wave sleep duration
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ Magnesium glycinate or citrate are preferred forms for bioavailability (magnesiu
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

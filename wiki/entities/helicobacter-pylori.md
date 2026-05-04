@@ -5,15 +5,18 @@ type: entity
 subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
-sources: [maier-2019-nickel-microbial-pathogenesis.md]
-source_count: 1
+sources:
+  - sugihartono-2022-gastric-microbiota-hpylori-gerd
+  - chen-2023-hpylori-antibodies-gerd-mendelian-study
+  - maurya-2020-arg-soil-microbiomes-co-selection
+  - liang-2021-hpylori-oral-microbiota-reflux-esophagitis
+  - campanale-2014-nickel-free-diet-h-pylori
+source_count: 5
 tags: [pathogen, gastric, nickel-dependent, urease, hydrogenase, cancer]
 metal_dependencies: [nickel, iron, zinc, cobalt, bismuth-sensitive]
 key_enzymes: [urease (UreAB — Ni-dependent), NiFe-hydrogenase (HydABCD), iron-cofactored SOD, catalase (Fe-dependent)]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Helicobacter pylori nickel urease hydrogenase gastric cancer CagA"
 wikipedia_differentiation: "Complete nickel trafficking system (NiuBDE, NixA, FrpB4) with hydrogenase-powered CagA translocation linking nickel metabolism to gastric cancer"
 conditions_enriched_in: [gastric-cancer, gastritis, peptic-ulcer-disease]
@@ -23,14 +26,14 @@ pathogenic_potential: obligate
 
 # Helicobacter pylori
 
-A gastric pathogen that is arguably the **most nickel-dependent human pathogen known**. Two of its key virulence factors — urease and [NiFe] hydrogenase — require [[nickel]], and the bacterium has evolved an elaborate nickel trafficking, storage, and regulation system to support them.
+A gastric pathogen that is arguably the most nickel-dependent human pathogen known. Two of its key virulence factors — urease and [NiFe] hydrogenase — require [[nickel]], and the bacterium has evolved an elaborate nickel trafficking, storage, and regulation system to support them.
 
 ## Nickel-Dependent Virulence Factors
 
 ### Urease
-- Up to **10% of total proteome**.
+- Up to 10% of total proteome.
 - Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
-- **Roles beyond acid neutralization** [[maier-2019-nickel-microbial-pathogenesis]]:
+- Roles beyond acid neutralization [[maier-2019-nickel-microbial-pathogenesis]]:
  - Required for persistence even at neutral gastric pH.
  - Promotes angiogenesis.
  - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).
@@ -46,36 +49,36 @@ A gastric pathogen that is arguably the **most nickel-dependent human pathogen k
 ### [NiFe] Hydrogenase
 - Single H₂-uptake type (*hydABCDE* operon).
 - H₂ is chronically available in the stomach (dissolved H₂ ~80 μM; enzyme Km ~1.8 μM — always saturated).
-- **Powers CagA translocation**: the carcinogenic effector. Hydrogenase deletion mutants **cannot translocate CagA** and do not induce gastric cancer in gerbils.
-- Enables **H₂-stimulated CO₂ fixation** (mixotrophy) — a growth mode never before described in a human pathogen.
-- Strains from **cancer patients have higher hydrogenase activity** than gastritis-only strains.
+- Powers CagA translocation: the carcinogenic effector. Hydrogenase deletion mutants cannot translocate CagA and do not induce gastric cancer in gerbils.
+- Enables H₂-stimulated CO₂ fixation (mixotrophy) — a growth mode never before described in a human pathogen.
+- Strains from cancer patients have higher hydrogenase activity than gastritis-only strains.
 
 ## Nickel Trafficking System
 
 ### Transport
-- **NiuBDE** (ABC-type): the only transporter operating at both acidic and neutral pH. Can also transport cobalt/bismuth (relevant to bismuth-based eradication therapy).
-- **NixA** (NiCoT-type): secondary, Ni-only. Required in vivo (nixA mutants cannot colonize mouse stomachs) but nixA mutants retain some colonization in other models.
-- TonB-dependent **FrpB4** for outer membrane transport.
+- NiuBDE (ABC-type): the only transporter operating at both acidic and neutral pH. Can also transport cobalt/bismuth (relevant to bismuth-based eradication therapy).
+- NixA (NiCoT-type): secondary, Ni-only. Required in vivo (nixA mutants cannot colonize mouse stomachs) but nixA mutants retain some colonization in other models.
+- TonB-dependent FrpB4 for outer membrane transport.
 
 ### Storage
-- **Hpn**: 47% histidine, 20-mer binding 5 Ni(II)/monomer. Present in all gastric *Helicobacter*. Primary nickel reservoir.
-- **HpnI** (Hpn-like): 25% histidine. Restricted to *H. pylori* and *H. acinonychis*.
+- Hpn: 47% histidine, 20-mer binding 5 Ni(II)/monomer. Present in all gastric *Helicobacter*. Primary nickel reservoir.
+- HpnI (Hpn-like): 25% histidine. Restricted to *H. pylori* and *H. acinonychis*.
 - Both compete for nickel under limiting conditions.
-- Recent discovery: storage proteins interact with a **wide array of metabolic proteins** — AmiE (aliphatic amidase), PepA (aminopeptidase), and maturation proteins. Suggests a central hub role in nickel metabolism far beyond simple storage.
+- Recent discovery: storage proteins interact with a wide array of metabolic proteins — AmiE (aliphatic amidase), PepA (aminopeptidase), and maturation proteins. Suggests a central hub role in nickel metabolism far beyond simple storage.
 
 ### Regulation
 - NikR: nickel-responsive transcriptional regulator controlling urease and hydrogenase expression.
 - Fur: iron-responsive regulator that also influences *hyd* gene expression.
 
 ### Export
-- **CznABC**: cobalt-zinc-nickel efflux pump. Critical for nickel homeostasis and in vivo colonization.
+- CznABC: cobalt-zinc-nickel efflux pump. Critical for nickel homeostasis and in vivo colonization.
 
 ## Clinical Significance
 
 - Infects ~50% of the global population.
 - Causes gastritis, peptic ulcers, gastric adenocarcinoma, MALT lymphoma.
-- **Eradication therapy** often includes bismuth — which competes with nickel transport via NiuBDE [[maier-2019-nickel-microbial-pathogenesis]].
-- HspA (GroES homolog with His-rich Ni-binding C-terminus) has been explored as a **vaccine candidate** — partial protection in mice via intranasal administration.
+- Eradication therapy often includes bismuth — which competes with nickel transport via NiuBDE [[maier-2019-nickel-microbial-pathogenesis]].
+- HspA (GroES homolog with His-rich Ni-binding C-terminus) has been explored as a vaccine candidate — partial protection in mice via intranasal administration.
 
 ## Connections
 

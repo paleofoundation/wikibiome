@@ -1,53 +1,64 @@
 ---
-title: "Ingest Resume — 2026-04-21"
+title: "Resume File — 2026-04-21 Moderate-Tier Page Creation"
 type: analysis
 created: 2026-04-21
 updated: 2026-04-21
 ---
 
-# Ingest Resume — 2026-04-21
+# Resume: Moderate-Tier Pages (10-19 mentions)
 
-## Last completed commit
-`3867e177` — update: pmdd entity and signature — source density threshold crossed
+Last session: Created 21 pages in the 20+ mention tier (critical + high priority). All complete.
+Next intended batch: Create pages for all terms with 10-19 vault mentions from Karen's priority list.
 
-## Session summary
-Ingested **7 source pages** from the PMDD PDF folder (all new):
+## Pages To Create (10-19 mentions)
 
-### New source pages created (7):
-1. `nexha-2024-biological-rhythms-pmdd-systematic-review.md` — SR 25 studies, melatonin amplitude reduction + elevated nocturnal core body temp in PMDD (BMC Women's Health)
-2. `nabeh-2024-diabetes-pms-gut-microbiome-review.md` — DM↔PMS shared pathophysiology via gut dysbiosis/SCFAs; metformin/GLP-1 most favorable (Diabetes Therapy)
-3. `quaranta-2019-fmt-female-reproductive-tract-diseases.md` — FMT for PCOS/endometriosis/BV; letrozole rat PCOS model normalized by FMT; gut-vagina LPS/NF-kB axis (Frontiers Immunology) — filed under condition: pcos
-4. `yang-2023-childhood-asthma-allergy-premenstrual-disorders.md` — Prospective cohort n=6,524; childhood asthma aRR 1.20, food allergy aRR 1.28 for PMDs in adulthood (Nature Mental Health)
-5. `fakruddin-2025-probiotics-menstrual-health-systematic-review.md` — SR 15 studies; L. casei PMS RCT (n=100, 3 months), estrobolome modulation mechanism (Microbial Bioactives)
-6. `rocha-filho-2011-essential-fatty-acids-pms-rct.md` — RCT n=116; 2g/day EFA (GLA/PUFA) > placebo for PMS symptoms at 6 months; no prolactin/cholesterol effect (Reproductive Health)
-7. `itriyeva-2022-pms-pmdd-adolescents-review.md` — ALLO-GABA-A receptor mechanism; SSRIs (intermittent); drospirenone OCP; calcium 1200mg best supplement evidence (Curr Probl Pediatr Adolesc Health Care)
+| Term | Mentions | Type | Notes |
+|------|----------|------|-------|
+| rikenella | 18 | entity/microbe | |
+| polyunsaturated-fatty-acids | 19 | concept | PUFAs umbrella page |
+| bacteroidaceae | 19 | entity/microbe | Family page |
+| molecular-mimicry | 18 | concept | STUB exists, expand |
+| lactobacillaceae | 17 | entity/microbe | Family page |
+| major-depressive-disorder | 17 | entity/disease | |
+| bifidobacterium-bifidum | 17 | entity/microbe | |
+| lactobacillus-gasseri | 17 | entity/microbe | |
+| paraprevotella | 15 | entity/microbe | |
+| propionibacterium | 14 | entity/microbe | STUB exists, expand |
+| homocysteine | 13 | concept | CVD biomarker |
+| clostridium-butyricum | 13 | entity/microbe | Next-gen probiotic |
+| bifidobacterium-infantis | 12 | entity/microbe | |
+| bifidobacteriaceae | 12 | entity/microbe | Family page |
+| lactobacillus-jensenii | 12 | entity/microbe | Vaginal commensal |
+| allopregnanolone | 11 | concept | GABA-A modulator, PMDD |
+| isoflavones | 10 | concept | Phytoestrogens |
+| penicillium | 10 | entity/fungus | |
+| bacteremia | 10 | concept | |
 
-### Entity/signature updates:
-- `wiki/entities/pmdd.md` — stub demoted (now 6 sources, threshold 5); circadian rhythm and DM comorbidity sections added
-- `wiki/signatures/pmdd-signature.md` — sources updated to 6; circadian features added to ecological_features
-- `wiki/entities/pcos.md` — quaranta-2019 added (source_count: 22)
-- `wiki/entities/endometriosis.md` — quaranta-2019 added (source_count: 11)
+## Low-Tier Stubs To Create (3-9 mentions)
 
-### PMDD PDF triage completed:
-All ~65 PDFs in `raw/Premenstrual Dysphoric Disorder (PMDD)/` reviewed. Triage outcome:
-- **Ingested this session (7)**: listed above
-- **Already ingested in prior sessions (25+)**: takeda-2022, yao-2024, cheng-2025, pan-2025, bengi-2025, gao-2023, lin-2023, liu-2014, shi-2024, yang-2025, yu-2025, slyepchenko-2021, takeda-2023, syan-2018, draper-2018, guo-2025, nguyen-2017, sundstrom-poromaa-2023, liang-2023, etyemez-2025, li-2020
-- **Misfiled — not PMDD relevant (~30)**: UC papers, PCOS papers, preterm birth, MS, CRC, honeybee, fine motor skills, schizophrenia MetS, T3SS, heavy metals/ADHD, adolescent RTIs, Metoprolol metabolomics, PCOS exercise/virome/drospirenone, psychology of anger, HormoneFix bonus PDF
-- **Skip — low quality/thesis**: Rauniyar (PPD thesis), Rosso thesis, Kelvin 2021 (n=85 negative), Wei 2022 editorial, Ni 2025 qualitative psychedelics, 19146011 (Brac thesis), 32051 (Thessaly MSc), Exploring Female Repro Health (Scholar's Digest no DOI), conference abstract book (140161462)
+| Term | Mentions | Type |
+|------|----------|------|
+| aspirin | 9 | concept/intervention |
+| vitamin-b12 / cobalamin | 8+4 | concept |
+| gut-testis-axis | 8 | concept |
+| staphylococcus-epidermidis | 7 | entity/microbe |
+| gordonibacter | 6 | entity/microbe |
+| semen-microbiome | 6 | concept |
+| n-glycosylation | 6 | concept |
+| dimethylglyoxime | 5 | concept (selective nickel chelator) |
+| gut-prostate-axis | 5 | concept |
+| finegoldia | 5 | entity/microbe |
+| burkholderiales | 4 | entity/microbe |
+| sphingobium | 4 | entity/microbe |
+| phosphodiesterase | 4 | concept (PDE5) |
+| adlercreutzia | 4 | entity/microbe |
+| flavobacterium | 4 | entity/microbe |
+| alishewanella | 3 | entity/microbe |
+| trichomonas-vaginalis | 3 | entity (parasite) |
+| bifidobacteriales | 3 | entity/microbe |
 
-## PMDD source page inventory (cumulative)
-**29 source pages** with `condition: pmdd` now in wiki/sources/
+## Also Still Needed
 
-## Next intended work (priority order)
-1. **PMDD disease entity page** — now publishable (6 sources, threshold met); needs content expansion with all new sources; key additions: circadian layer, DM comorbidity, probiotics section, asthma/allergy risk factor, EFA intervention
-2. **PMDD signature page** — still stub at 6/10 sources; needs 4 more to reach threshold; consider building content from existing sources while accumulating more
-3. **Fibromyalgia folder** — ~58 PDFs, 7 source pages already; per ingest-priority-queue.md, next condition
-4. **Cross-condition flag**: quaranta-2019 connects PCOS/endometriosis/BV via FMT — consider creating or updating `wiki/interventions/fmt.md` with PCOS triangle evidence (animal model only)
-5. **New concept page candidates**: `wiki/concepts/gut-vagina-axis.md` (mentioned in 3+ sources without own page — Quaranta 2019, Fakruddin 2025, plus others)
-
-## Key anomalies to watch
-- PMDD PDF folder had ~40% misfiling rate — all resolved in this session
-- quaranta-2019 filed under condition: pcos (not pmdd) — relevant cross-condition but not PMDD-primary
-- yang-2023 food allergy → PMD finding is novel and not yet reflected in PMDD entity body content — add in next entity expansion
-- Fakruddin 2025 published October 2025 (Microbial Bioactives) — very recent; verify DOI resolution
-- itriyeva-2022 DOI resolves to doi.org/10.1016/j.cppeds.2022.101187 — verify before outreach
+- omega-3-fatty-acids: STUB exists (57 mentions) — needs full content expansion with triangle evidence
+- serotonin-estrogen-axis: New concept connecting serotonin signaling to estrogen metabolism
+- co-aggregation: If more sources are ingested (currently 10 mentions), may merit standalone page

@@ -8,11 +8,11 @@ tags: [batch-preview, boundary-discipline, rule-5]
 
 # Batch Preview — Tagging Dated Operational Analyses `platform: cureva`
 
-**Purpose:** Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: cureva` to all 27.
+Purpose: Per Rule 5 (batch preview before bulk transform), preview the diff on 3 representative dated operational analysis files before applying `platform: cureva` to all 27.
 
-**Why this change:** Dated operational analyses (audits, lint reports, overnight logs, DOI correction logs, stub demotions, boundary violations, etc.) are internal maintenance records. They document what the system did to itself — they are not public educational content. Per §9 and Rule 8, they must not render on wikibiome.com. The fix is a single-field frontmatter addition (`platform: cureva`) that routes them to Cureva's full-dataset view only.
+Why this change: Dated operational analyses (audits, lint reports, overnight logs, DOI correction logs, stub demotions, boundary violations, etc.) are internal maintenance records. They document what the system did to itself — they are not public educational content. Per §9 and Rule 8, they must not render on wikibiome.com. The fix is a single-field frontmatter addition (`platform: cureva`) that routes them to Cureva's full-dataset view only.
 
-**Scope:** 27 files in `wiki/analyses/` matching the dated-operational pattern. Undated content analyses (`dietary-metal-exposure-by-life-stage.md`, `dietary-metal-paradoxes.md`, `metal-disease-matrix.md`, `shared-pathobionts-across-signatures.md`) are legitimate public content and are EXCLUDED.
+Scope: 27 files in `wiki/analyses/` matching the dated-operational pattern. Undated content analyses (`dietary-metal-exposure-by-life-stage.md`, `dietary-metal-paradoxes.md`, `metal-disease-matrix.md`, `shared-pathobionts-across-signatures.md`) are legitimate public content and are EXCLUDED.
 
 ---
 

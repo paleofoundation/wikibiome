@@ -23,82 +23,82 @@ pathogenic_potential: commensal
 
 # Oscillospiraceae
 
-A family of Gram-positive obligate anaerobes (formerly classified as the genus *Oscillospira*, now reclassified into *Oscillibacter* and related genera within Oscillospiraceae) that serve as keystone butyrate producers in the healthy human distal colonic microbiota (Konikoff and Gophna 2016). Members of this family are consistently and significantly **depleted in obesity, inflammatory bowel disease, colorectal cancer, and other dysbiotic states** [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[zhu-2024-toxic-essential-metals-gut-microbiota]], with their loss correlating with reduced fecal butyrate and impaired intestinal barrier function. Oscillospiraceae represent a prime target for next-generation probiotic development due to their metabolic role, rarity in culture collections, and therapeutic potential in restoring SCFA-mediated immune homeostasis (Yang et al. 2021).
+A family of Gram-positive obligate anaerobes (formerly classified as the genus *Oscillospira*, now reclassified into *Oscillibacter* and related genera within Oscillospiraceae) that serve as keystone butyrate producers in the healthy human distal colonic microbiota (Konikoff and Gophna 2016). Members of this family are consistently and significantly depleted in obesity, inflammatory bowel disease, colorectal cancer, and other dysbiotic states [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[zhu-2024-toxic-essential-metals-gut-microbiota]], with their loss correlating with reduced fecal butyrate and impaired intestinal barrier function. Oscillospiraceae represent a prime target for next-generation probiotic development due to their metabolic role, rarity in culture collections, and therapeutic potential in restoring SCFA-mediated immune homeostasis (Yang et al. 2021).
 
 ## Taxonomy and Reclassification
 
-- **Traditional name**: *Oscillospira* (based on spiral morphology; genus no longer valid).
-- **Current classification**: Family **Oscillospiraceae**, containing genera *Oscillibacter*, *Subdoligranulum*, and others.
-- **Key species**: *Oscillibacter valericigenes*, *Subdoligranulum variabile* -- most frequently detected in 16S surveys.
-- **Morphology**: Large (5-10 μm), elongated rods; gram-positive cell wall (though some strains stain variable); obligate anaerobes; difficult to culture (fastidious growth requirements).
+- Traditional name: *Oscillospira* (based on spiral morphology; genus no longer valid).
+- Current classification: Family Oscillospiraceae, containing genera *Oscillibacter*, *Subdoligranulum*, and others.
+- Key species: *Oscillibacter valericigenes*, *Subdoligranulum variabile* -- most frequently detected in 16S surveys.
+- Morphology: Large (5-10 μm), elongated rods; gram-positive cell wall (though some strains stain variable); obligate anaerobes; difficult to culture (fastidious growth requirements).
 
 ## Butyrate Synthesis and Metabolic Role
 
 ### Butyrate Synthesis Pathway
 
-- Oscillospiraceae use the **acetyl-CoA pathway** for butyrate synthesis:
+- Oscillospiraceae use the acetyl-CoA pathway for butyrate synthesis:
  - Two acetyl-CoA molecules → acetoacetyl-CoA (via thiophorase) → butyryl-CoA (via butyryl-CoA dehydrogenase) → butyrate
 - This is distinct from the phosphotransferase system (PTS) used by Roseburia and Faecalibacterium, which utilize lactate or glucose-derived substrates.
 - Oscillospiraceae ferment diverse carbohydrate substrates (cellulose, hemicellulose, inulin, resistant starch) when available.
 
 ### Butyrate Bioavailability and Host Effects
 
-- **Intestinal epithelial fuel**: Colonocytes derive 60-80% of energy from butyrate oxidation; butyrate deficiency impairs epithelial energetics.
-- **Histone deacetylase (HDAC) inhibition**: Butyrate inhibits HDAC classes 1 and 2, increasing histone acetylation and gene expression related to barrier function genes, tight junction proteins (claudins, occludin, ZO-1), and anti-inflammatory markers.
-- **GPR43 and GPR109A signaling**: Butyrate activates these G-protein-coupled receptors on epithelial cells and immune cells (dendritic cells, T cells), promoting IL-10-producing regulatory T cells (Tregs) and suppressing pro-inflammatory Th17 differentiation.
-- **Colonic pH**: Butyrate fermentation lowers pH, creating selective pressure against pathogens and favoring beneficial anaerobes.
+- Intestinal epithelial fuel: Colonocytes derive 60-80% of energy from butyrate oxidation; butyrate deficiency impairs epithelial energetics.
+- Histone deacetylase (HDAC) inhibition: Butyrate inhibits HDAC classes 1 and 2, increasing histone acetylation and gene expression related to barrier function genes, tight junction proteins (claudins, occludin, ZO-1), and anti-inflammatory markers.
+- GPR43 and GPR109A signaling: Butyrate activates these G-protein-coupled receptors on epithelial cells and immune cells (dendritic cells, T cells), promoting IL-10-producing regulatory T cells (Tregs) and suppressing pro-inflammatory Th17 differentiation.
+- Colonic pH: Butyrate fermentation lowers pH, creating selective pressure against pathogens and favoring beneficial anaerobes.
 
 ## Iron and Zinc Dependencies
 
 ### Metal Requirements
 
-- Oscillospiraceae require **iron and zinc** for core metabolic enzymes.
-- **Iron**: Essential cofactor for cytochrome oxidase, ferredoxin, and other electron transport components.
-- **Zinc**: Cofactor for proteases, RNA polymerase, and metabolic regulatory enzymes.
+- Oscillospiraceae require iron and zinc for core metabolic enzymes.
+- Iron: Essential cofactor for cytochrome oxidase, ferredoxin, and other electron transport components.
+- Zinc: Cofactor for proteases, RNA polymerase, and metabolic regulatory enzymes.
 - In iron-deficient, zinc-restricted microenvironments, Oscillospiraceae are outcompeted; in metal-replete dysbiotic states, they remain suppressed by dominant pathobionts.
 
 ### Metal Availability and Dysbiosis Link
 
-- **Iron availability paradox**: While obligate anaerobes, Oscillospiraceae require basal iron for respiratory chain remnants and other enzymes. In dysbiotic, bleeding gut with elevated [[hepcidin]] (inflammation-driven), iron sequestration is ineffective, allowing pathobionts [[fusobacterium-varium]], [[bacteroides-fragilis]] to thrive while Oscillospiraceae remain outcompeted due to altered competitive balance (not iron limitation per se, but ecological shift).
+- Iron availability paradox: While obligate anaerobes, Oscillospiraceae require basal iron for respiratory chain remnants and other enzymes. In dysbiotic, bleeding gut with elevated [[hepcidin]] (inflammation-driven), iron sequestration is ineffective, allowing pathobionts [[fusobacterium-varium]], [[bacteroides-fragilis]] to thrive while Oscillospiraceae remain outcompeted due to altered competitive balance (not iron limitation per se, but ecological shift).
 - Selective iron/zinc supplementation or restoration of dysbiosis-related iron overload may indirectly support Oscillospiraceae recovery by tipping competitive interactions.
 
 ## Disease Associations and Depletion Patterns
 
 ### Obesity
 
-- **Consistent depletion**: Reduced abundance in obese microbiota vs. lean controls; reduction correlates with severity of adiposity (Konikoff and Gophna 2016; Tavella et al. 2021).
-- **Mechanistic link**: Loss of butyrate producers → reduced SCFA → impaired barrier function → increased LPS translocation → systemic inflammation → insulin resistance → obesity perpetuation [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
-- **Iron paradox**: Although obligate anaerobes, Oscillospiraceae are outcompeted in iron-replete dysbiotic states by metal-tolerant pathobionts; heavy metal exposure (Cd, Ni) selectively eliminates SCFA-producing taxa including Oscillospiraceae while enriching metal-tolerant Proteobacteria [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[zhu-2024-toxic-essential-metals-gut-microbiota]].
-- **Temporal association**: Oscillospiraceae depletion may precede weight gain in longitudinal studies, suggesting causal role (or shared cause with other dysbiosis markers).
+- Consistent depletion: Reduced abundance in obese microbiota vs. lean controls; reduction correlates with severity of adiposity (Konikoff and Gophna 2016; Tavella et al. 2021).
+- Mechanistic link: Loss of butyrate producers → reduced SCFA → impaired barrier function → increased LPS translocation → systemic inflammation → insulin resistance → obesity perpetuation [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
+- Iron paradox: Although obligate anaerobes, Oscillospiraceae are outcompeted in iron-replete dysbiotic states by metal-tolerant pathobionts; heavy metal exposure (Cd, Ni) selectively eliminates SCFA-producing taxa including Oscillospiraceae while enriching metal-tolerant Proteobacteria [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[zhu-2024-toxic-essential-metals-gut-microbiota]].
+- Temporal association: Oscillospiraceae depletion may precede weight gain in longitudinal studies, suggesting causal role (or shared cause with other dysbiosis markers).
 
 ### Inflammatory Bowel Disease (IBD)
 
-- **Depleted in both Crohn's and Ulcerative Colitis**: Reduced fecal abundance during flares; partial recovery during remission [[zhu-2024-toxic-essential-metals-gut-microbiota]].
-- **Disease activity correlation**: Lower Oscillospiraceae abundance predicts worse disease outcomes and flare risk.
-- **Mechanistic contribution**: Loss of SCFA producers → reduced epithelial energy → barrier dysfunction → increased paracellular permeability → antigen breach → immune activation [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
-- **Interkingdom context**: Reduced Oscillospiraceae allows [[candida-albicans]] and [[fusobacterium-varium]] expansion, perpetuating dysbiotic state.
+- Depleted in both Crohn's and Ulcerative Colitis: Reduced fecal abundance during flares; partial recovery during remission [[zhu-2024-toxic-essential-metals-gut-microbiota]].
+- Disease activity correlation: Lower Oscillospiraceae abundance predicts worse disease outcomes and flare risk.
+- Mechanistic contribution: Loss of SCFA producers → reduced epithelial energy → barrier dysfunction → increased paracellular permeability → antigen breach → immune activation [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
+- Interkingdom context: Reduced Oscillospiraceae allows [[candida-albicans]] and [[fusobacterium-varium]] expansion, perpetuating dysbiotic state.
 
 ### Colorectal Cancer (CRC)
 
-- **Significantly depleted in CRC tissue and feces**: Compared to polyp-free controls [[zhang-2025-gut-virome-premalignant-colorectal-adenoma]].
-- **Mechanistic relevance**: Loss of butyrate-driven anti-inflammatory differentiation → increased Th17/Treg imbalance → elevated IL-17, TNF-α → chronic colonic inflammation → adenoma initiation and progression.
+- Significantly depleted in CRC tissue and feces: Compared to polyp-free controls [[zhang-2025-gut-virome-premalignant-colorectal-adenoma]].
+- Mechanistic relevance: Loss of butyrate-driven anti-inflammatory differentiation → increased Th17/Treg imbalance → elevated IL-17, TNF-α → chronic colonic inflammation → adenoma initiation and progression.
 
 ### Other Dysbiotic Conditions
 
-- **Type 2 Diabetes**: Reduced Oscillospiraceae; associated with insulin resistance independent of obesity.
-- **Atopic Dermatitis**: Dysbiotic microbiota with Oscillospiraceae depletion; reduced SCFA production linked to impaired Th1 polarization and exaggerated Th2 response.
-- **Celiac Disease**: Reduced Oscillospiraceae in untreated patients; partial recovery on gluten-free diet.
+- Type 2 Diabetes: Reduced Oscillospiraceae; associated with insulin resistance independent of obesity.
+- Atopic Dermatitis: Dysbiotic microbiota with Oscillospiraceae depletion; reduced SCFA production linked to impaired Th1 polarization and exaggerated Th2 response.
+- Celiac Disease: Reduced Oscillospiraceae in untreated patients; partial recovery on gluten-free diet.
 
 ## Culturability and Probiotic Potential
 
 ### Fastidiousness and Culture Challenges
 
-- Oscillospiraceae are **difficult to culture** in standard media. Most isolates require:
+- Oscillospiraceae are difficult to culture in standard media. Most isolates require:
  - Complex anaerobic conditions (< 0.1% O2; often using Hungate tubes or anaerobic chambers).
  - Specific substrates (cellulose, resistant starch, inulin).
  - Refined medium compositions (YCFA - yeast casitone fatty acid medium, or similar).
  - Extended incubation periods (7-14 days).
-- **Result**: Limited representation in culture collections; fewer genetic tools available compared to model organisms like *E. coli* or *Faecalibacterium prausnitzii*.
+- Result: Limited representation in culture collections; fewer genetic tools available compared to model organisms like *E. coli* or *Faecalibacterium prausnitzii*.
 
 ### Next-Generation Probiotic Candidates
 
@@ -118,21 +118,21 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 
 - Oscillospiraceae abundance often correlates with overall microbiota diversity and presence of other butyrate producers.
 - In healthy microbiota, form mutualistic relationships with amylolytic bacteria that break down complex carbohydrates, releasing simple sugars that Oscillospiraceae ferment to SCFA.
-- Loss of Oscillospiraceae is associated with **loss of functional butyrate synthesis** even when other SCFA producers are present (suggesting non-redundant ecological niche).
+- Loss of Oscillospiraceae is associated with loss of functional butyrate synthesis even when other SCFA producers are present (suggesting non-redundant ecological niche).
 
 ### Resilience and Dysbiosis Recovery
 
 - Restoration of Oscillospiraceae is a key marker of microbiota recovery after dysbiotic insults (antibiotics, high-fat diet, inflammation).
 - In studies where dysbiosis is reversed (dietary intervention, FMT, targeted probiotics), Oscillospiraceae reappear alongside improved barrier function and reduced inflammation.
-- **Lag time**: Recovery often takes weeks to months; slower than some faster-growing genera, reflecting tradeoff between fastidiousness and metabolic efficiency.
+- Lag time: Recovery often takes weeks to months; slower than some faster-growing genera, reflecting tradeoff between fastidiousness and metabolic efficiency.
 
 ## Ecological Modulators
 
 ### Dietary Prebiotic Approaches
 
-- **Inulin and fructooligosaccharides (FOS)**: Selectively fermented by Oscillospiraceae (and Bifidobacterium); promote abundance recovery.
-- **Resistant starch**: Whole-food source (green banana, cooled potatoes) that favors Oscillospiraceae and other complex carbohydrate fermenters.
-- **High-fiber diet**: Supports Oscillospiraceae-dominant state and reduces dysbiotic pathobionts.
+- Inulin and fructooligosaccharides (FOS): Selectively fermented by Oscillospiraceae (and Bifidobacterium); promote abundance recovery.
+- Resistant starch: Whole-food source (green banana, cooled potatoes) that favors Oscillospiraceae and other complex carbohydrate fermenters.
+- High-fiber diet: Supports Oscillospiraceae-dominant state and reduces dysbiotic pathobionts.
 
 ### Probiotic Strain Development
 

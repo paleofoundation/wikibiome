@@ -20,10 +20,10 @@ The intestinal epithelium is a single-cell-thick barrier separating the lumen --
 
 Paracellular permeability is governed by the tight junction (TJ) complex:
 
-- **Occludin** -- the first TJ protein discovered; regulates macromolecular flux and is downregulated by cadmium and arsenic exposure.
-- **Claudins** -- a family of ~27 proteins forming the structural backbone of TJ strands. Claudin-2 is "pore-forming" (increases permeability); claudin-1, -3, -4 are "sealing." Metal exposure shifts the ratio toward pore-forming claudins.
-- **Zonula occludens (ZO-1, ZO-2, ZO-3)** -- scaffolding proteins anchoring transmembrane TJ proteins to the actin cytoskeleton. ZO-1 displacement from the junction is a hallmark of barrier failure.
-- **Junctional adhesion molecules (JAMs)** -- regulate immune cell transmigration across the epithelium.
+- Occludin -- the first TJ protein discovered; regulates macromolecular flux and is downregulated by cadmium and arsenic exposure.
+- Claudins -- a family of ~27 proteins forming the structural backbone of TJ strands. Claudin-2 is "pore-forming" (increases permeability); claudin-1, -3, -4 are "sealing." Metal exposure shifts the ratio toward pore-forming claudins.
+- Zonula occludens (ZO-1, ZO-2, ZO-3) -- scaffolding proteins anchoring transmembrane TJ proteins to the actin cytoskeleton. ZO-1 displacement from the junction is a hallmark of barrier failure.
+- Junctional adhesion molecules (JAMs) -- regulate immune cell transmigration across the epithelium.
 
 ## The Zonulin Pathway
 
@@ -33,11 +33,11 @@ Zonulin (pre-haptoglobin 2) is the only known physiological regulator of intesti
 
 | Metal | Primary Mechanism | Key TJ Targets |
 |-------|------------------|----------------|
-| **Cadmium** | Oxidative stress, [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |
-| **Lead** | PKC activation, calcium mimicry at TJ signaling | ZO-1, occludin phosphorylation |
-| **Arsenic** | [[nf-kappa-b]] activation, mucus layer degradation | Claudin-1, -4; MUC2 depletion |
-| **Mercury** | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |
-| **Nickel** | TLR4 activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |
+| Cadmium | Oxidative stress, [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |
+| Lead | PKC activation, calcium mimicry at TJ signaling | ZO-1, occludin phosphorylation |
+| Arsenic | [[nf-kappa-b]] activation, mucus layer degradation | Claudin-1, -4; MUC2 depletion |
+| Mercury | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |
+| Nickel | TLR4 activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |
 
 All five metals converge on [[oxidative-stress]] as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side.
 
@@ -57,13 +57,13 @@ This feed-forward loop explains why acute metal exposure can produce chronic dis
 
 ## Biomarkers of Permeability
 
-- **Lactulose/mannitol ratio** -- the classical dual-sugar absorption test. Lactulose (large) crosses paracellularly; mannitol (small) crosses transcellularly. Elevated ratio = increased paracellular permeability.
-- **Serum zonulin** -- correlates with TJ opening but assay cross-reactivity with complement C3 limits specificity.
-- **Serum LPS / endotoxin** -- direct indicator of bacterial translocation.
-- **LPS-binding protein (LBP)** -- more stable than LPS itself as a translocation marker.
-- **[[calprotectin]]** (fecal) -- marker of neutrophil infiltration; indicates inflammation secondary to barrier failure.
-- **Intestinal fatty acid-binding protein (I-FABP)** -- marker of enterocyte damage.
-- **Claudin-3** (urinary) -- emerging marker of TJ disruption.
+- Lactulose/mannitol ratio -- the classical dual-sugar absorption test. Lactulose (large) crosses paracellularly; mannitol (small) crosses transcellularly. Elevated ratio = increased paracellular permeability.
+- Serum zonulin -- correlates with TJ opening but assay cross-reactivity with complement C3 limits specificity.
+- Serum LPS / endotoxin -- direct indicator of bacterial translocation.
+- LPS-binding protein (LBP) -- more stable than LPS itself as a translocation marker.
+- [[calprotectin]] (fecal) -- marker of neutrophil infiltration; indicates inflammation secondary to barrier failure.
+- Intestinal fatty acid-binding protein (I-FABP) -- marker of enterocyte damage.
+- Claudin-3 (urinary) -- emerging marker of TJ disruption.
 
 ## Disease Connections
 

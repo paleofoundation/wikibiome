@@ -15,15 +15,15 @@ last_substantive_update: 2026-04-11
 
 # Dietary Metal-Microbiome Interactions
 
-Every meal delivers metals to the gut lumen — essential minerals, trace elements, and contaminants alike. These metals do not passively transit the GI tract. They **actively reshape the microbial ecosystem**, selecting for metal-tolerant organisms, enabling virulence in metal-dependent pathogens, and depleting commensals that lack metal defense mechanisms. Diet is the primary modifiable variable that determines the metal environment the gut microbiome experiences.
+Every meal delivers metals to the gut lumen — essential minerals, trace elements, and contaminants alike. These metals do not passively transit the GI tract. They actively reshape the microbial ecosystem, selecting for metal-tolerant organisms, enabling virulence in metal-dependent pathogens, and depleting commensals that lack metal defense mechanisms. Diet is the primary modifiable variable that determines the metal environment the gut microbiome experiences.
 
 ## The Dual Effect: Metals Shape Microbiota, Microbiota Shape Metal Fate
 
 This is a bidirectional relationship:
 
-**Metals → Microbiota.** Dietary metals act as selective pressures (Primitive 1). Iron feeds siderophore-producers. Nickel enables urease-positive organisms. Cadmium selects for metallothionein-expressing taxa. The metal profile of the diet determines which microbial niches are viable.
+Metals → Microbiota. Dietary metals act as selective pressures (Primitive 1). Iron feeds siderophore-producers. Nickel enables urease-positive organisms. Cadmium selects for metallothionein-expressing taxa. The metal profile of the diet determines which microbial niches are viable.
 
-**Microbiota → Metal fate.** Gut bacteria modify metal speciation, bioavailability, and host absorption. Bacteria can methylate arsenic (changing its toxicity), reduce chromium (changing its valence state), bind lead and cadmium to cell walls (reducing absorption), and produce organic acids that solubilize insoluble metal complexes. The composition of your gut microbiome determines how much dietary metal actually reaches your tissues [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
+Microbiota → Metal fate. Gut bacteria modify metal speciation, bioavailability, and host absorption. Bacteria can methylate arsenic (changing its toxicity), reduce chromium (changing its valence state), bind lead and cadmium to cell walls (reducing absorption), and produce organic acids that solubilize insoluble metal complexes. The composition of your gut microbiome determines how much dietary metal actually reaches your tissues [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 
 ## How Dietary Patterns Create Metal Ecologies
 
@@ -47,7 +47,7 @@ The standard Western diet creates a worst-case metal ecology: high fat (increase
 
 ## Metal-Antibiotic Resistance Co-Selection
 
-A critical and underappreciated connection: **dietary metals co-select for antibiotic resistance** [[imran-2019-co-selection-antibiotic-resistance-metal-microplastic]].
+A critical and underappreciated connection: dietary metals co-select for antibiotic resistance [[imran-2019-co-selection-antibiotic-resistance-metal-microplastic]].
 
 Metal resistance genes and antibiotic resistance genes are frequently located on the same mobile genetic elements (plasmids, transposons, integrons). When dietary metals select for metal-resistant organisms, they simultaneously select for antibiotic-resistant organisms — even in the absence of antibiotic exposure.
 
@@ -70,14 +70,14 @@ Dysbiosis that depletes these organisms reduces the gut's capacity to buffer aga
 
 Metals do not arrive alone in food. They co-occur with other dietary xenobiotics that interact synergistically [[aguilera-2021-dietary-hazardous-substances-microbiota-dysbiosis]]:
 
-- **Pesticide residues + metals** — both disrupt gut microbiota; combined exposure worse than additive
-- **Food additives (emulsifiers, preservatives) + metals** — emulsifiers thin the mucus layer, increasing metal contact with epithelium
-- **Microplastics + metals** — microplastics adsorb metals and deliver concentrated doses to the gut; metal leaching from microplastic surfaces provides bioavailable metals in novel locations
-- **Endocrine-disrupting compounds (EDCs) + metals** — both present in processed foods; combined disruption of hormonal and microbial systems
+- Pesticide residues + metals — both disrupt gut microbiota; combined exposure worse than additive
+- Food additives (emulsifiers, preservatives) + metals — emulsifiers thin the mucus layer, increasing metal contact with epithelium
+- Microplastics + metals — microplastics adsorb metals and deliver concentrated doses to the gut; metal leaching from microplastic surfaces provides bioavailable metals in novel locations
+- Endocrine-disrupting compounds (EDCs) + metals — both present in processed foods; combined disruption of hormonal and microbial systems
 
 ## Practical Implications
 
-The metallomic lens on diet reveals that **food quality is a microbial ecology question, not just a nutrition question**. The metals in food determine which microbes can thrive, and the microbes present determine how much metal reaches the host. Dietary interventions that ignore this bidirectional relationship are operating with an incomplete model.
+The metallomic lens on diet reveals that food quality is a microbial ecology question, not just a nutrition question. The metals in food determine which microbes can thrive, and the microbes present determine how much metal reaches the host. Dietary interventions that ignore this bidirectional relationship are operating with an incomplete model.
 
 ## Key Sources
 

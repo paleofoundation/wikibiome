@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Autophagy
 
-**Autophagy** (from Greek, "self-eating") is the cellular process of degrading and recycling damaged organelles, misfolded proteins, and intracellular pathogens through lysosomal digestion. It is the cell's primary quality control mechanism -- a housekeeping system that becomes critically important under stress. Heavy metals disrupt autophagy at multiple levels, and the gut microbiome both regulates and is regulated by autophagic activity, making autophagy a convergent node where metal toxicity meets microbial ecology.
+Autophagy (from Greek, "self-eating") is the cellular process of degrading and recycling damaged organelles, misfolded proteins, and intracellular pathogens through lysosomal digestion. It is the cell's primary quality control mechanism -- a housekeeping system that becomes critically important under stress. Heavy metals disrupt autophagy at multiple levels, and the gut microbiome both regulates and is regulated by autophagic activity, making autophagy a convergent node where metal toxicity meets microbial ecology.
 
 ## Types of Autophagy
 
@@ -23,10 +23,10 @@ The best-characterized form, involving the formation of double-membrane autophag
 
 ### Selective Autophagy
 Targeted degradation of specific substrates:
-- **Mitophagy**: Selective removal of damaged mitochondria. Critical for preventing the accumulation of ROS-generating, dysfunctional mitochondria. Defective mitophagy is a hallmark of [[parkinsons-disease]] (PINK1/Parkin pathway) and contributes to neurodegeneration.
-- **Xenophagy**: Selective degradation of intracellular bacteria and viruses. A key innate immune defense in intestinal epithelial cells against invasive pathogens like adherent-invasive *E. coli* (AIEC) in Crohn's disease.
-- **Ferritinophagy**: Autophagic degradation of ferritin, releasing stored iron. When excessive, ferritinophagy contributes to iron overload and [[ferroptosis]].
-- **Aggrephagy**: Clearance of protein aggregates including [[amyloid-beta]] and [[alpha-synuclein]].
+- Mitophagy: Selective removal of damaged mitochondria. Critical for preventing the accumulation of ROS-generating, dysfunctional mitochondria. Defective mitophagy is a hallmark of [[parkinsons-disease]] (PINK1/Parkin pathway) and contributes to neurodegeneration.
+- Xenophagy: Selective degradation of intracellular bacteria and viruses. A key innate immune defense in intestinal epithelial cells against invasive pathogens like adherent-invasive *E. coli* (AIEC) in Crohn's disease.
+- Ferritinophagy: Autophagic degradation of ferritin, releasing stored iron. When excessive, ferritinophagy contributes to iron overload and [[ferroptosis]].
+- Aggrephagy: Clearance of protein aggregates including [[amyloid-beta]] and [[alpha-synuclein]].
 
 ### Chaperone-Mediated Autophagy (CMA)
 Direct translocation of substrate proteins across the lysosomal membrane via LAMP2A receptor. Important for alpha-synuclein degradation; impaired in Parkinson's disease.
@@ -53,13 +53,13 @@ Excess [[iron]] can paradoxically suppress autophagy through mTOR activation whi
 ## Microbiome-Autophagy Crosstalk
 
 ### Microbial Regulation of Autophagy
-- **SCFAs and autophagy**: [[butyrate|Butyrate]] activates autophagy in colonocytes through AMPK signaling, promoting mitochondrial quality control and barrier integrity. Loss of butyrate-producing bacteria impairs this autophagic housekeeping.
-- **LPS and autophagy**: Bacterial lipopolysaccharide induces autophagy via TLR4 signaling, which is initially protective (xenophagy of invading bacteria) but becomes pathological when chronic.
-- **Microbial metabolites**: Indole derivatives and other [[microbiome-derived-metabolites]] modulate autophagic flux through AhR and other signaling pathways.
+- SCFAs and autophagy: [[butyrate|Butyrate]] activates autophagy in colonocytes through AMPK signaling, promoting mitochondrial quality control and barrier integrity. Loss of butyrate-producing bacteria impairs this autophagic housekeeping.
+- LPS and autophagy: Bacterial lipopolysaccharide induces autophagy via TLR4 signaling, which is initially protective (xenophagy of invading bacteria) but becomes pathological when chronic.
+- Microbial metabolites: Indole derivatives and other [[microbiome-derived-metabolites]] modulate autophagic flux through AhR and other signaling pathways.
 
 ### Autophagy Regulation of the Microbiome
-- **Xenophagy in intestinal defense**: Autophagy in Paneth cells and intestinal epithelial cells clears intracellular bacteria, maintaining the mucosal barrier. Defective xenophagy -- as in ATG16L1 and IRGM variants associated with [[crohns-disease]] -- permits intracellular bacterial survival and drives chronic inflammation [[brusaferro-2018-gut-dysbiosis-paediatric-crohns]].
-- **Paneth cell autophagy**: Paneth cells depend on autophagy for proper granule secretion of antimicrobial peptides (defensins, lysozyme). ATG16L1 deficiency produces abnormal Paneth cell granules, reducing antimicrobial defense and reshaping the gut microbiome.
+- Xenophagy in intestinal defense: Autophagy in Paneth cells and intestinal epithelial cells clears intracellular bacteria, maintaining the mucosal barrier. Defective xenophagy -- as in ATG16L1 and IRGM variants associated with [[crohns-disease]] -- permits intracellular bacterial survival and drives chronic inflammation [[brusaferro-2018-gut-dysbiosis-paediatric-crohns]].
+- Paneth cell autophagy: Paneth cells depend on autophagy for proper granule secretion of antimicrobial peptides (defensins, lysozyme). ATG16L1 deficiency produces abnormal Paneth cell granules, reducing antimicrobial defense and reshaping the gut microbiome.
 
 ## Disease Relevance
 

@@ -21,11 +21,11 @@ pathogenic_potential: commensal
 
 # Faecalibacterium prausnitzii
 
-The most abundant bacterium in the healthy human colon (5-15% of total fecal microbiota), *F. prausnitzii* is the **premier butyrate producer** in the gut and a cornerstone of anti-inflammatory intestinal homeostasis. Its depletion is one of the most consistent microbiome signatures across diseases linked to metal dyshomeostasis, and it has been directly demonstrated to protect against arsenic toxicity.
+The most abundant bacterium in the healthy human colon (5-15% of total fecal microbiota), *F. prausnitzii* is the premier butyrate producer in the gut and a cornerstone of anti-inflammatory intestinal homeostasis. Its depletion is one of the most consistent microbiome signatures across diseases linked to metal dyshomeostasis, and it has been directly demonstrated to protect against arsenic toxicity.
 
 ## Butyrate Production and Barrier Protection
 
-- Produces **butyrate** as its primary fermentation end-product. Butyrate is the preferred energy source for colonocytes and the most potent SCFA for:
+- Produces butyrate as its primary fermentation end-product. Butyrate is the preferred energy source for colonocytes and the most potent SCFA for:
  - Strengthening tight junction protein expression (ZO-1, occludin, claudin-1).
  - Suppressing NF-kB-mediated [[inflammation]] via HDAC inhibition and GPR109A signaling.
  - Promoting regulatory T cell (Treg) differentiation -- critical for immune tolerance.
@@ -36,7 +36,7 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 
 ### Arsenic
 
-- The landmark Coryell et al. (2018) study demonstrated that *F. prausnitzii* is **sufficient for at least partial protection against acute arsenic toxicity** [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]].
+- The landmark Coryell et al. (2018) study demonstrated that *F. prausnitzii* is sufficient for at least partial protection against acute arsenic toxicity [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]].
 - Germ-free mice mono-associated with *E. coli* alone died rapidly from arsenic exposure; bi-colonization with *E. coli + F. prausnitzii* significantly extended survival.
 - *F. prausnitzii* abundance was consistently associated with survival across human stool transplant experiments.
 - The gut microbiome is required for full arsenic protection; antibiotic-treated mice accumulate more arsenic in organs and excrete less in feces.
@@ -45,7 +45,7 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 
 - Depleted by cadmium and lead exposure in multiple mouse models [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 - Its loss under Cd/Pb exposure reduces butyrate production, compromising barrier integrity and increasing systemic metal absorption -- a vicious cycle.
-- Classified as a **next-generation probiotic** for metal detoxification alongside [[akkermansia-muciniphila]] [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
+- Classified as a next-generation probiotic for metal detoxification alongside [[akkermansia-muciniphila]] [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 
 ### Mechanism
 
@@ -55,17 +55,17 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 
 *F. prausnitzii* depletion is among the most reproducible microbiome findings in disease:
 
-- **IBD (Crohn's disease)**: dramatically reduced; inversely correlated with disease severity and relapse risk. The strongest single-organism biomarker for Crohn's remission.
-- **Multiple sclerosis**: decreased in MS patients; negatively associated with TNF-alpha levels [[bronzini-2023-feeding-gut-microbiome-ms]] [[olsson-2021-serum-scfas-inflammation-newly-diagnosed-ms]] [[becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility]].
-- **Parkinson's disease**: reduced abundance linked to decreased butyrate and increased gut permeability, potentially facilitating alpha-synuclein propagation via the [[gut-brain-axis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[aho-2021-gut-microbiome-scfas-inflammation-parkinsons]] [[tan-2022-gut-microbiome-scfas-parkinsons-review]].
-- **Chronic kidney disease**: depleted, contributing to uremic toxin accumulation; butyrate-producing taxa are reduced with disease progression [[gao-2021-butyrate-producing-microbiota-reduced-ckd]] [[he-2024-gut-microbial-scfas-ckd]].
-- **Type 2 diabetes**: inversely correlated with HbA1c and fasting glucose; fiber interventions that restore *F. prausnitzii* improve glycemic control [[salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre]] [[scfa-2020-dietary-fiber-t2d-gut-microbiome]].
-- **Autism spectrum disorder**: reduced; butyrate-producer depletion is a recurring ASD signature and *Faecalibacterium hominis*-derived indole signaling via AhR is under active study [[yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr]] [[liu-2019-gut-microbiota-scfas-asd-chinese-children]].
-- **Schizophrenia**: altered SCFA producers including *F. prausnitzii* are linked to ultra-high-risk state and symptom severity [[peng-2022-scfas-schizophrenia-ultra-high-risk]] [[yu-2024-plasma-cytokines-scfas-depression-schizophrenia]].
-- **Graves' disease**: negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH; berberine supplementation increased *F. prausnitzii* alongside thyroid function recovery [[han-2022-berberine-methimazole-graves-microbiome]].
-- **Obesity**: inversely correlated with BMI and metabolic inflammation [[pendergrass-2026-heavy-metals-obesity-epidemic]].
-- **Colorectal cancer**: reduced; butyrate loss may diminish anti-tumorigenic HDAC inhibition [[feitelson-2023-scfas-cancer-pathogenesis]] [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].
-- **Post-COVID / Long COVID**: depletion of SCFA producers including *F. prausnitzii* associated with altered immune response [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]].
+- IBD (Crohn's disease): dramatically reduced; inversely correlated with disease severity and relapse risk. The strongest single-organism biomarker for Crohn's remission.
+- Multiple sclerosis: decreased in MS patients; negatively associated with TNF-alpha levels [[bronzini-2023-feeding-gut-microbiome-ms]] [[olsson-2021-serum-scfas-inflammation-newly-diagnosed-ms]] [[becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility]].
+- Parkinson's disease: reduced abundance linked to decreased butyrate and increased gut permeability, potentially facilitating alpha-synuclein propagation via the [[gut-brain-axis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[aho-2021-gut-microbiome-scfas-inflammation-parkinsons]] [[tan-2022-gut-microbiome-scfas-parkinsons-review]].
+- Chronic kidney disease: depleted, contributing to uremic toxin accumulation; butyrate-producing taxa are reduced with disease progression [[gao-2021-butyrate-producing-microbiota-reduced-ckd]] [[he-2024-gut-microbial-scfas-ckd]].
+- Type 2 diabetes: inversely correlated with HbA1c and fasting glucose; fiber interventions that restore *F. prausnitzii* improve glycemic control [[salamone-2021-gut-microbiota-scfa-t2d-dietary-fibre]] [[scfa-2020-dietary-fiber-t2d-gut-microbiome]].
+- Autism spectrum disorder: reduced; butyrate-producer depletion is a recurring ASD signature and *Faecalibacterium hominis*-derived indole signaling via AhR is under active study [[yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr]] [[liu-2019-gut-microbiota-scfas-asd-chinese-children]].
+- Schizophrenia: altered SCFA producers including *F. prausnitzii* are linked to ultra-high-risk state and symptom severity [[peng-2022-scfas-schizophrenia-ultra-high-risk]] [[yu-2024-plasma-cytokines-scfas-depression-schizophrenia]].
+- Graves' disease: negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH; berberine supplementation increased *F. prausnitzii* alongside thyroid function recovery [[han-2022-berberine-methimazole-graves-microbiome]].
+- Obesity: inversely correlated with BMI and metabolic inflammation [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- Colorectal cancer: reduced; butyrate loss may diminish anti-tumorigenic HDAC inhibition [[feitelson-2023-scfas-cancer-pathogenesis]] [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].
+- Post-COVID / Long COVID: depletion of SCFA producers including *F. prausnitzii* associated with altered immune response [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]].
 
 ## The Metal-Dysbiosis-Disease Cycle
 

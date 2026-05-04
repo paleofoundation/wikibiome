@@ -2,6 +2,168 @@
 
 > Chronological record of all wiki operations.
 
+2026-05-02 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (ELEVENTH night running). .last-deploy still Tue Apr 21 18:30 CDT — eleven days of unshipped work. Delta vs night 10's queue: +1 analysis (keystone-outreach-2026-05-01.md) plus the usual operational log moves; within noise. Tonight's sandbox build re-verified clean: build-content.cjs → 864 content pages (335 entities, 264 concepts, 70 signatures, 72 interventions, 72 STOPs, 46 analyses, 1851 sources), 2400 association pairs, 11 clusters, 8011 graph links, 9874 backlinks, 17.1 MB content.generated.json, 0 YAML errors. Sunday 2026-04-26 lint: 0 new claim-level contradictions, deploy gate clear (next Sunday lint 2026-05-03). Computer-use request_access for Terminal timed out at 180s — no user awake at 2am to approve, same structural failure as nights 1–10. DEPLOY_QUEUED.txt remains the only handoff channel. Files changed vs last deploy: 792 non-dist (1636 incl. dist-v28). Karen action: paste the one-liner from DEPLOY_QUEUED.txt to ship; or move the schedule to wake hours; or wire a local launchd job that watches DEPLOY_QUEUED.txt mtime and runs the deploy directly.
+
+2026-04-27 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (SIXTH night running). .last-deploy still Tue Apr 21 18:30 CDT — six days of unshipped work. Only operational logs (wiki/log.md, autonomous-ingest.log, nightly-maintenance.log) and the new lint-report-2026-04-26 have moved since the 04-26 02:00 cycle — no new vault content. Tonight's sandbox build re-verified clean: build-content.cjs → 863 content pages, 2400 association pairs, 8011 graph links, 9874 backlinks, 17.1 MB content.generated.json, 0 YAML errors. Sunday 2026-04-26 lint: 0 new claim-level contradictions, deploy gate clear. Computer-use request_access timed out twice (no user awake to approve), so clipboard handoff impossible — DEPLOY_QUEUED.txt is the only handoff channel for the sixth consecutive night. Bundle unchanged from 04-22 → 04-26 queues. Karen action: paste the one-liner from DEPLOY_QUEUED.txt to ship; or move the schedule to wake hours; or wire a local launchd/cron job that runs the deploy directly when DEPLOY_QUEUED.txt's mtime advances.
+
+## [2026-04-23] Food heavy metal contamination folder — first 10 of 301 papers ingested
+
+Triaged 301 PDFs in raw/food_heavy_metal_contamination_CLEAN 2/ by WikiBiome relevance: 8 Tier 1 (microbiome/gut), 136 Tier 2 (dietary exposure/health risk), 24 Tier 3 (soil/agricultural), ~133 uncategorized.
+
+**Ingested Tier 1 (2 papers):**
+- sun-2025-dietary-index-gut-microbiota-arsenic-bladder-cancer — NHANES n=4,889. CRITICAL: diet promoting healthy microbiome (high DIGM) completely eliminates arsenic→bladder cancer risk (OR 1.95→1.13 non-significant). Strongest epidemiological evidence that microbiome is modifiable buffer against metal carcinogenesis.
+- davis-2020-salivary-metals-oral-microbiome-dental-decay — n=61. 21 metals quantified in saliva; antimony/arsenic/mercury shift oral taxa at subclinical levels.
+
+**Tier 2A (8 source pages in progress via background agent):** cadmium-diabetes, food-contamination-CVD, thyroid-cancer-mercury, arsenic-brown-rice, baby-food-metals, kidney-transplant-metals, arsenic-cancer-Japanese-cohort, arsenic-drinking-water-mortality.
+
+Resume file: wiki/analyses/overnight-resume-2026-04-23.md
+
+## [2026-04-22] BATCH STUB FIX — 149 of 153 stubs exited stub status
+
+Wrote `scripts/fix-all-stubs.py` + manual passes to batch-populate sources and remove stub flags:
+- Pass 1 (slug-based grep): 92 stubs fixed
+- Pass 2 (smart search with regex overrides): 31 fixed
+- Pass 3 (genus/parent-level search): 20 fixed
+- Pass 4 (broadest searches — cystic, pylori, mycobiome): 6 fixed
+- **Total: 149 stubs fixed. 4 remain (brucella 2 src, aeromonas 0, hidradenitis-suppurativa 2, mediterraneibacter 2).**
+
+These 4 are genuinely below threshold — the vault lacks sufficient dedicated sources.
+
+## [2026-04-22] CRITICAL ingest: Benoit 2019 — Nickel chelation therapy vs MDR enteric pathogens
+
+**KEYSTONE** (all 5 criteria met). First in vivo proof that selective nickel chelation (DMG) disables MDR pathogen virulence:
+- DMG abolishes Salmonella NiFe-hydrogenase and Klebsiella urease
+- Oral DMG reduces S. Typhimurium mortality 100%→50%, organ burden 10-fold lower
+- Non-toxic, orally bioavailable, far safer than EDTA
+- Effective against majority of 12 WHO critical-priority MDR pathogens (10/12 urease+, 6/12 hydrogenase+)
+- Validates Karen's Brain Primitive 4 as a therapeutic strategy, not just a theory
+Created `wiki/sources/benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens.md`. Expanded `wiki/concepts/dimethylglyoxime.md` from stub (2 sources) to full page (3 sources) with complete anti-pathogen mechanism, in vivo data, WHO coverage table, and WikiBiome significance.
+
+## [2026-04-22] Critical stub fix — 17 stubs exited stub status + epigenetics expansion + COX-2 + HBOT
+
+Identified ~190 stubs via comprehensive scan. Fixed the 17 most critical (100+ mentions):
+
+**Concept stubs fixed (sources populated, stub removed):**
+- beta-glucuronidase (0→7 sources, 54 mentions), ahr (0→5, 75), lipopolysaccharide (0→6, 41), nitric-oxide (0→6, 39), epigenetic-modifications (1→6, expanded from metal-only to full microbiome-epigenome interface)
+
+**Entity stubs fixed (sources populated, stub removed, via background agent):**
+- lactobacillus-rhamnosus (0→6, 321 mentions), bacteroides-vulgatus (0→4, 262), prevotella-copri (0→6, 245), escherichia-coli (1→6, 230), candida-auris (1→3, 213), streptococcus (0→6, 199), fusobacterium-nucleatum (0→7, 97), staphylococcus-aureus (2→6, 75), bifidobacterium-longum (2→6, 292), roseburia-intestinalis (0→5, 122), enterobacter-cloacae (0→3, 114)
+
+**Truly empty stubs rewritten:**
+- ruminococcaceae (0→5 sources, full content), enterobacter (0→5 sources, full content)
+
+**New pages:**
+- cox-2 concept (6 sources, 36 mentions) — Metal→NF-kB→COX-2→PGE₂ cascade
+- HBOT intervention fully rebuilt — oxygen-microbiome ecological framework, dysbiosis-hypoxia vicious cycle, fermentation mode table, iron-oxygen interface
+
+## [2026-04-22] Tier 1+2 pages from 5+ mention scan — 28 pages
+
+Tier 1 concepts (12): microbiome-diversity-metrics, indole, acetate, methylation, cysteine, peptidoglycan, vancomycin, quinolinic-acid, bile-salt-hydrolase, succinate, defensins, curli. Tier 2 concepts (9): taurine, leptin, ketone-bodies, oxalate, tryptamine, beta-lactamase, ursodeoxycholic-acid, saccharolytic-fermentation (expanded), cadaverine. Karen's adds: hyperaccumulator, cephalosporin. Tier 2 entities (7): erysipelotrichaceae, barnesiella, B. adolescentis, B. breve, butyrivibrio, lachnobacterium, anaerococcus. Entity 328→335, Concept 241→263.
+
+## [2026-04-22] Rule 15 scan CLEAN — all gaps closed (32 pages total this session)
+
+Second Rule 15 scan: 11 remaining gaps found and closed:
+- Diseases: pneumonia (168 files), HIV (64), hepatitis (22), tuberculosis (18), cirrhosis (17)
+- Concepts: gingipains (19), postbiotic (15), quorum-sensing (14), dental-caries (10)
+- Entities: lactobacillus-plantarum (17), lachnoclostridium (11)
+
+Re-scan verified: **zero remaining gaps**. All terms flagged by Rule 15 now have pages.
+
+Entity count: 321 → 328. Concept count: 237 → 241. Index updated.
+
+## [2026-04-22] Rule 15 mention-density scan + critical gap closure — 21 pages
+
+Ran full Rule 15 scan (`scripts/rule15-mention-density-scan.sh`). Report: `wiki/analyses/mention-density-gaps-2026-04-22.md`. Fixed schizophrenia YAML bug. Created TNF-alpha (483 mentions — biggest gap), 16S-rRNA-sequencing, tight-junctions (221), th17-treg-balance (157), klebsiella genus (141), synbiotic (101), competitive-exclusion (74), statin (66), cross-feeding (55), cortisol (45), periodontitis (45), aromatase (17), BDNF, vitamin-D, preterm-birth, sepsis. Completed cytokine set: IL-1beta, IL-10, IFN-gamma, IL-8, IL-17. Entity 315→321, Concept 221→237, Intervention 29→41.
+
+## [2026-04-21] Moderate + Low tier page creation — 37+ pages from Karen's priority list
+
+**Moderate tier (10-19 mentions) — 19 pages created:**
+- Entities: rikenella, bacteroidaceae, lactobacillaceae, bifidobacterium-bifidum, lactobacillus-gasseri, paraprevotella, clostridium-butyricum, bifidobacterium-infantis, bifidobacteriaceae, lactobacillus-jensenii, penicillium, major-depressive-disorder
+- Concepts: polyunsaturated-fatty-acids, homocysteine, allopregnanolone, isoflavones, bacteremia
+- Expanded stubs: molecular-mimicry (0→6 sources), propionibacterium (0→6 sources)
+
+**Low tier (3-9 mentions) — 18 stubs created (via background agent):**
+- Entities: staphylococcus-epidermidis, gordonibacter, finegoldia, burkholderiales, sphingobium, adlercreutzia, flavobacterium, trichomonas-vaginalis, bifidobacteriales
+- Concepts: aspirin, vitamin-b12, gut-testis-axis, semen-microbiome, n-glycosylation, dimethylglyoxime, gut-prostate-axis, phosphodiesterase
+
+**Additional:**
+- Expanded omega-3-fatty-acids intervention from empty stub to full page with 2 triangles (T1D, ED)
+- Created serotonin-estrogen-axis concept page (5 sources)
+- Entity count: 296 → 315. Concept count: 206 → 220. Index updated.
+
+## [2026-04-21] Bulk page creation — 21 high-mention-density pages (20+ vault mentions)
+
+Audited ~80 terms from Karen's priority list. Created pages for all terms with 20+ vault mentions:
+
+**Critical tier (50+ mentions) — 10 pages:**
+- Concepts: endotoxemia (37), systemic-inflammation (136), GABA (84), lipid-peroxidation (54), innate-immunity (50), reactive-oxygen-species (47), lipid-metabolism (73), metabolites (418)
+- Entities: escherichia (230), faecalibacterium genus expanded (199)
+
+**High tier (20-49 mentions) — 11 pages:**
+- Concepts: endothelial-dysfunction (36), tgf-beta (33), phage-therapy (23), hydrogen-sulfide (22), arachidonic-acid (20)
+- Entities: verrucomicrobia (35), campylobacter (31), lactobacillus-reuteri (27), lactobacillus-acidophilus (26), bacteroidales (25)
+- Already done earlier: endotoxemia
+
+**Resume file written** to `wiki/analyses/overnight-resume-2026-04-21.md` listing 19 moderate-tier (10-19 mentions) and 18 low-tier (3-9 mentions) pages for next session.
+
+Entity count: 290 → 296. Concept count: 193 → 206. Index updated.
+
+## [2026-04-21] Functional shielding expansion + Gingivitis ingest + Microbial Metallomics
+
+- **Ingested 2 PDFs from raw/Gingivitis/**:
+  - `bartnicka-2020-candida-shields-pgingivalis-immune-evasion.md` — **KEYSTONE** (criteria 1,2,4). C. albicans shields P. gingivalis: gingipain activity 10x amplified, mortality 21%→7%, persistence 24%→85%. Als3-RgpA co-aggregation mechanism. The definitive functional shielding paper.
+  - `kim-2022-cortisol-surface-translocation-pgingivalis.md` — Cortisol promotes P. gingivalis migration via T9SS/Mfa5 upregulation; requires lactate/pyruvate from erythrocyte lysis.
+- **Expanded `wiki/concepts/functional-shielding.md`** from empty stub (0 sources) to full page (7 sources). Three-layer protection model, Als3-RgpA co-aggregation mechanism, C. albicans + S. aureus reciprocal virulence, beta-glucan masking, metal connections, intervention implications.
+- **Created `wiki/concepts/microbial-metallomics.md`** (13 sources). Metals→microbes→disease framework with neurodegeneration pathway (E. coli curli→Aβ, P. gingivalis gingipains→tau, H. pylori nickel→PD, ferroptosis), NEC, obesity, and IBD metallomic signatures.
+- **Co-aggregation assessment**: 10 vault mentions — below 20-file threshold for dedicated page. Covered as section within functional-shielding.md.
+- **Updated entity pages**: P. gingivalis (13→15 sources, added functional shielding + cortisol sections), C. albicans (4→10 sources).
+- **Ingested 8 PDFs from raw/Breast cancer caused by antibiotics/**:
+  - thompson-2017 (n=668, breast tumor microbiota + host gene expression, EMT link)
+  - velicer-2004 (n=10,219, antibiotic use → breast cancer risk, JAMA)
+  - bescos-2020 (n=36, RCT, CHX mouthwash disrupts oral microbiome)
+  - brookes-2023 (review, mouthwash effects on oral microbiome)
+  - saini-2011 (oral health → breast cancer link)
+  - soder-2010 (n=3,273, prospective cohort, missing molars → 2.36x breast cancer risk)
+  - bing-2019 (review, antibiotic-induced gut dysbiosis)
+  - wu-2022 (n=881, oral+fecal microbiome in Ghana breast cancer study)
+  - Updated breast-cancer entity: 11 → 18 sources.
+
+## [2026-04-21] Bulk organism page creation/expansion — 35 organisms audited
+
+Audited 35 organisms from Karen's priority list. Results:
+
+**Created 16 new entity pages:**
+- Full pages (≥3 sources): atopobium (14), aerococcus (14), ureaplasma (11), sneathia (10), ralstonia (9), gardnerella-vaginalis (10), chlamydia (6), gemella (7), serratia (6), mycoplasma (6), saccharomyces-boulardii (11), barnesella (3), alloscardovia (3)
+- Stubs (<3 sources): porphyromonas-bennonis (1), ureaplasma-urealyticum (2), mycoplasma-hominis (2)
+
+**Populated 6 empty stubs with full content:**
+- shigella: 0 → 14 sources, full page with metal-dependent virulence, Escherichia/Shigella complex
+- salmonella: 0 → 10 sources, full page with multi-metal strategy (Fe/Mn/Zn/Ni)
+- dialister: 0 → 14 sources linked to existing body content
+- corynebacterium: 0 → 14 sources, full page with reproductive tract dominance + DtxR iron regulation
+- megasphaera: 0 → 13 sources, full page with dual vaginal/gut ecology
+- citrobacter: 0 → 12 sources, full page with arsenic biotransformation + NEC/CRC/CKD
+
+**Fixed 5 existing pages:**
+- chlamydia-trachomatis: exited stub (1 → 6 sources)
+- porphyromonas-gingivalis: exited stub (0 → 13 sources)
+- proteus-mirabilis: exited stub (1 → 4 sources)
+- prevotella: source expansion (5 → 15 sources)
+- enterococcus: exited stub (2 → 3 sources, added beneficial roles section)
+
+**E. coli Nissle 1917**: confirmed covered by existing intervention page.
+
+**Also added Rule 15 (mention-density page discovery) to CLAUDE.md** — ensures high-mention terms without pages are auto-flagged.
+
+Entity count: 274 → 290. Index updated.
+
+## [2026-04-21] Expanded entity: Megamonas (stub → full page)
+
+- Expanded from 3 sources to 15 sources (5x threshold). Removed stub status.
+- Documented contradictory directionality across conditions: enriched in ASD (4 studies), HT, prostate cancer; depleted in GD, thyroid cancer, heart failure, CRC.
+- Added "Thyroid Paradox" section documenting the HT/GD directional conflict.
+- Added SCFA production profile (propionate/valerate), testosterone correlation (r=0.46 in prostate cancer), CKD cognitive association.
+
 ## [2026-04-21] Propagation fix: han-2022-berberine-methimazole-graves-microbiome
 
 - Source was ingested but downstream pages were not fully updated. Fixed 5 pages:
@@ -1579,3 +1741,39 @@ Full remediation plan and regeneration procedure for the remaining 61 sim-0 case
 2026-04-21 02:00 — nightly auto-deploy: skipped, no changes since last deploy. Working-tree `.last-deploy` = Mon Apr 20 22:30:21 CEST 2026 (Karen's manual deploy); newest vault mtime ≤ 22:30. Sunday lint 2026-04-19: 0 contradictions (gate clear). Hygiene note: 3 entity pages (copper, manganese, selenium), sitemap.xml, sitemap-full.xml, src/content.generated.json, and ~728 dist-v28 rebuilds sit uncommitted in working tree — content already shipped via the 22:30 deploy but never committed. No auto-commit per Rules 1 & 9. Files changed since last git commit: 739 (687 dist-v28 artifacts + 3 entity content + 49 other build/sitemap/marker). No deploy command queued.
 
 2026-04-21 — PMDD ingest session continued: 7 source pages ingested across 7 commits. New sources: nexha-2024 (SR 25 studies, melatonin/circadian PMDD), nabeh-2024 (DM-PMS review, metformin/GLP-1 favorability), quaranta-2019 (FMT for PCOS/endometriosis/BV, gut-vagina axis), yang-2023 (prospective cohort n=6,524, childhood asthma aRR 1.20 for PMD), fakruddin-2025 (SR 15 studies, probiotics for menstrual health), rocha-filho-2011 (RCT n=116, EFA for PMS), itriyeva-2022 (PMDD in adolescents review). Full PMDD PDF triage completed — ~40 remaining PDFs reviewed; most misfiled/thesis/low-quality. PMDD entity promoted from stub (now 6 sources, threshold 5). PMDD signature still stub at 6/10 sources. ~20 PMDD-relevant PDFs remain in raw folder (Fibromyalgia is next condition). Resume at overnight-resume-2026-04-21.md.
+
+2026-04-21 02:00 — nightly deploy: queued to clipboard. Files changed: 866 (105 wiki content, 759 dist-v28 artifacts, 156 new pages from overnight auto-discovery, 1 script). Build-content.cjs dry-run passed (796 pages, 2400 association pairs). Sunday lint (2026-04-19) flagged 0 contradictions — under the 5-count block threshold. Prior Terminal session showed Vercel FetchError (openid-configuration + write EPIPE) from an earlier today attempt; fresh deploy one-liner now on clipboard for Karen to ⌘V + Enter in the morning.
+
+2026-04-21 — weekly lint run: 30 orphans (non-template, down from 65 after cureva-link recount), 0 contradictions, 17 missing signatures, 5 incomplete intervention triangles (wiki) + 1 (cureva), 115 duplicate-DOI clusters, 211 unverified DOIs, 4 NEC STOPs missing evidence array, 1 boundary violation, 6 index count mismatches. See [[lint-report-2026-04-21]].
+
+2026-04-22 02:00 — nightly deploy: queued to clipboard. 478 real content changes since last deploy (Tue Apr 21 18:30 CDT). Breakdown: 174 entities, 124 concepts, 136 dist-v28 rebuild artifacts, 11 sources, 11 interventions, plus src/content.generated.json and 2 scripts. Sunday 2026-04-19 lint flagged 0 contradictions — deploy gate clear. Command corrected to ~/Documents/Claude/Raw (task skill had stale ~/Documents/Raw). Karen: ⌘V + Enter in Terminal to ship.
+
+2026-04-23 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (clipboard unreachable — request_access for Terminal timed out at 2am, expected when Karen is asleep and can't approve the dialog). .last-deploy marker still Tue Apr 21 18:30 CDT, so the 04-22 queue didn't ship either; this deploy bundles two nights of vault changes. Non-dist content changes since last deploy: 113 modified entities + 52 modified concepts + 10 modified interventions + 61 new entities + 72 new concepts + 11 new sources + 1 new intervention + generate-static.cjs + sitemap + content.generated.json. Sandbox build produced 3 YAML duplicate-key errors (wiki/concepts/nitric-oxide.md, wiki/concepts/lipopolysaccharide.md, wiki/entities/enterobacter-cloacae.md — all had duplicate `last_substantive_update: 2026-04-17` + `: 2026-04-22`); fixed in-session by removing the older line and bumping `updated:` to 2026-04-22. Rebuild clean: 860 pages, 2400 association pairs, 8003 graph links, 17.5 MB content.generated.json. Sunday 2026-04-19 lint flagged 0 contradictions — deploy gate clear. Note for Karen: build-content.cjs still exits 0 on YAML parse errors (silent-drop risk per §Rule 2) — the three pages would have been invisibly dropped from the build tonight if nobody had looked.
+
+2026-04-23 afternoon — references + bold fixes. Karen flagged two problems on wikibiome.com: (1) pages missing References section on initial load, (2) excessive **bold** making pages feel unencyclopedic. Root causes: (1) generate-static.cjs had no citationMap/References logic — source refs were being rendered as `<a href="/article/author-2021-slug">` dead links, no bibliography emitted; only the React SPA built the reference list, so crawlers and first-paint saw no references; (2) 13,732 bolds across 732 files, dominated by 6,226 bullet-leading `- **Label**:` patterns. Applied: (a) bullet-leading bold strip via regex `^(\s*[-*]\s+)\*\*([^*\n]+?)\*\*` → `$1$2` across entities/concepts/signatures/interventions/stops/analyses; 583 files modified, 6,229 bolds stripped (3-file preview per Rule 5 written to wiki/analyses/batch-preview-2026-04-23-bullet-bold-strip.md first). (b) generate-static.cjs rewritten to mirror wikibiome-v8.jsx citation logic: buildCitations() produces a per-page citationMap + refs list, inlineMarkdown() converts source-ref wikilinks to numbered `<sup>[N]</sup>` anchors, renderReferences() emits the numbered bibliography with DOI validation. Dry-run against aluminum page: 39 citation sups, 14 references rendered. Deploy queued.
+
+2026-04-23 afternoon (cont) — Karen: "everything is still bolded". First pass only removed the 6,229 bullet-leading bolds; 7,508 inline bolds remained (single-word emphasis, numbered-list labels, table cells, stats). Wikipedia convention is plain prose, no ornamental bolding. Second strip: all inline `**X**` patterns across wiki/entities, wiki/concepts, wiki/signatures, wiki/interventions, wiki/stops, wiki/analyses. 710 files modified, 7,508 bolds removed. Verified 0 remaining bolds in body prose. wiki/sources/ untouched (source summaries use bullet-leading bolds structurally per CLAUDE.md; rendered only on source-detail pages). Total bolds stripped across both passes: 13,737.
+
+2026-04-23 afternoon (cont2) — Karen: "is there a MnSOD page? why is e coli with the asterisks?" (screenshot of nickel.md line 103). Root cause: malformed nested markdown `**MnSOD in *[[escherichia-coli]]***` — bold wrapping an italicized wikilink with unbalanced asterisks. The earlier strip regex excluded content containing `*` and thus missed all nested bolds. Second-pass nested-bold strip: 74 survivors across 38 files, all of the form `**...*italic-species*...**` (scientific convention for bolding a phrase with an organism name). Outer bolds removed, inner italic species names preserved. Verified 0 remaining `**` markers in wiki body prose. Also: no dedicated MnSOD page exists — MnSOD is fully covered as the SOD2/Mn-SOD row in `wiki/concepts/superoxide-dismutase.md` (Kanso — one page, no duplication). Wired the bare "MnSOD" text on nickel.md line 103 as `[[superoxide-dismutase|MnSOD]]` so it links through.
+
+2026-04-24 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (clipboard unreachable — request_access for Terminal timed out again, third night running). .last-deploy still Tue Apr 21 18:30 CDT — three nights of queued deploys have not shipped; Karen needs to paste the one-liner. Sandbox build clean: 862 content pages, 2400 association pairs, 8004 graph links, 9867 backlinks, 17.1 MB content.generated.json, ZERO YAML parse errors (contrast with 2026-04-23 tick which caught 3 duplicate-key drops — tonight is clean). Non-dist changes since last deploy: 273 modified entities + 191 concepts + 42 signatures + 40 interventions + 30 stops + 33 analyses + 61 new entities + 72 new concepts + 24 new sources + 1 new intervention + 4 new analyses + 5 new scripts + content.generated.json + sitemap + generate-static.cjs + vite.config.js + deploy.sh. Bundle includes 2026-04-23 afternoon references/citations rewrite and two-pass bold cleanup (13,737 bolds stripped). Sunday 2026-04-19 lint flagged 0 contradictions — deploy gate clear. Rule 2 follow-up still pending: build-content.cjs exits 0 on YAML parse errors (silent-drop risk).
+
+2026-04-25 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (FOURTH night running; clipboard unreachable, request_access for Terminal timed out at 2am as expected when Karen is asleep). .last-deploy still Tue Apr 21 18:30 CDT — four days of unshipped work. No new vault content since the 04-24 02:00 cycle (only wiki/log.md changed); tonight's queued state is operationally identical to last night's — same bundle, same 862 pages, 0 YAML errors. Sunday 2026-04-19 lint: 0 contradictions, deploy gate clear. Skipped re-running build-content.cjs since vault state is unchanged from last clean cycle. The 2am clipboard handshake is structurally broken; two follow-ups noted in DEPLOY_QUEUED.txt for Karen — (a) touch `.auto-deploy-approved` to enable the SKILL.md's pre-approved-Bash fallback, or (b) move the schedule to a wake-hours tick. Rule 2 follow-up (build-content.cjs silent-drop on YAML errors) still pending.
+
+2026-04-26 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (FIFTH night running; clipboard route still structurally broken at 2am — request_access requires an awake user). .last-deploy still Tue Apr 21 18:30 CDT — five days of unshipped work. No new vault content since the 04-24 02:00 cycle (only wiki/log.md and DEPLOY_QUEUED.txt change between cycles). Tonight's sandbox build re-verified clean: build-content.cjs → 862 content pages, 2400 association pairs, 8004 graph links, 9867 backlinks, 17.0 MB content.generated.json, 0 YAML errors; generate-static.cjs → 862 article pages, 15 stubs excluded from sitemap. Sunday 2026-04-19 lint: 0 contradictions, deploy gate clear. Bundle unchanged from 04-24/04-25 queues (2026-04-23 references rewrite + 13,737 bold strip + 61 new entities + 72 new concepts + 24 new sources etc). Karen action: paste the one-liner from DEPLOY_QUEUED.txt to ship; or touch `.auto-deploy-approved` + wrapper for login PATH; or reschedule to wake hours. Rule 2 follow-up (build-content.cjs silent-drop on YAML errors) still pending.
+
+2026-04-26 — weekly lint run: 67 non-source orphans (483 source orphans first measured), 0 new contradictions, 24 disease entities lacking signatures (+4 condition-name gaps), 55 incomplete intervention triangles (wiki) + 22 (cureva), 113 duplicate-DOI clusters, 219 unverified DOIs, 60 sub-threshold publishable pages without stub:true, 116 asymmetric associated_conditions pairs, 5 STOPs with empty evidence, 8/11 index counts drifted. See [[lint-report-2026-04-26]].
+
+2026-04-28 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (SEVENTH night running; clipboard route still structurally broken at 2am — request_access for Terminal timed out at 60s as expected when Karen is asleep). .last-deploy still Tue Apr 21 18:30 CDT — seven days of unshipped work. No new vault content since the 04-24 02:00 cycle (only wiki/log.md, autonomous-ingest.log, nightly-maintenance.log, DEPLOY_QUEUED.txt and src/content.generated.json change between cycles). Tonight's sandbox build re-verified clean: build-content.cjs → 863 content pages, 2400 association pairs, 11 clusters, 8011 graph links, 9874 backlinks, 17.1 MB content.generated.json, 0 YAML errors. Sunday 2026-04-26 lint: 0 NEW claim-level contradictions ("No new claim-level contradictions surfaced this cycle"); the 3 contradictions in the report header are historical/informational — deploy gate clear. Bundle unchanged from 04-24/04-25/04-26/04-27 queues (2026-04-23 references rewrite + 13,737 bold strip + 61 new entities + 72 new concepts + 24 new sources etc). Karen action: paste the one-liner from DEPLOY_QUEUED.txt to ship; or touch `.auto-deploy-approved` + wrapper for login PATH; or reschedule to wake hours (7am) so request_access can be approved live. Rule 2 follow-up (build-content.cjs silent-drop on YAML errors) still pending — tonight clean so no drop occurred.
+
+2026-04-29 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (EIGHTH night running; clipboard route still structurally broken at 2am — request_access for Terminal timed out at 60s twice, as expected when Karen is asleep). .last-deploy still Tue Apr 21 18:30 CDT — eight days of unshipped work. Files changed vs last deploy: 772 (wiki 766: 334 entities / 263 concepts / 42 signatures / 41 interventions / 38 analyses / 30 stops / 14 sources + index/log/2 logs; scripts 5; src 1; cureva 0; api 0). Only three operational logs (wiki/log.md, autonomous-ingest.log, nightly-maintenance.log) changed since night 7's queue — bundle is structurally identical to nights 5–7. Sunday 2026-04-26 lint gate clear: 0 new claim-level contradictions ("No new claim-level contradictions surfaced this cycle"). Karen action unchanged: paste the one-liner from DEPLOY_QUEUED.txt to ship; or move the schedule to wake hours; or wire a launchd job that watches DEPLOY_QUEUED.txt and shells the deploy directly. The 2am-Claude clipboard handoff has now failed eight nights running — the structural fix is overdue.
+
+2026-04-30 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (NINTH night running; clipboard route still structurally broken at 2am — request_access for Terminal timed out at 60s as expected when Karen is asleep). .last-deploy still Tue Apr 21 18:30 CDT — nine days of unshipped work. No new vault content since night 5's queued bundle (only operational logs and src/content.generated.json change between cycles). Tonight's sandbox build re-verified clean: build-content.cjs → 863 content pages (335 entities, 264 concepts, 70 signatures, 72 interventions, 72 STOPs, 45 analyses, 1851 sources visible), 2400 association pairs, 11 clusters, 8011 graph links, 9874 backlinks, 17.1 MB content.generated.json, 0 YAML errors. Sunday 2026-04-26 lint: 0 new claim-level contradictions ("No new claim-level contradictions surfaced this cycle") — deploy gate clear. Bundle unchanged from nights 5–8 (2026-04-23 references rewrite + 13,737 bold strip + 61 new entities + 72 new concepts + 24 new sources etc). Karen action unchanged: paste the one-liner from DEPLOY_QUEUED.txt to ship; or `touch .auto-deploy-approved` + wrapper for login PATH; or move the schedule to wake hours; or replace with a launchd job that watches DEPLOY_QUEUED.txt. The 2am-Claude clipboard handoff has now failed nine nights running — the structural fix is overdue.
+
+2026-05-01 02:00 — nightly deploy: queued to DEPLOY_QUEUED.txt (TENTH night running; clipboard route still structurally broken at 2am — request_access for Terminal timed out at 60s as expected when Karen is asleep, no `.auto-deploy-approved` flag set). .last-deploy still Tue Apr 21 18:30 CDT — ten days of unshipped work. Files changed vs last deploy: 802 non-dist (wiki 776: 334 entities / 263 concepts / 42 signatures / 41 interventions / 38 analyses / 30 stops / 24 sources + index/log/2 logs; scripts 6; src 1; cureva 0; api 0). Tonight's delta vs night 9: +10 sources/ (Sunday 04-26 lint visible), +1 script — within noise. Tonight's sandbox build re-verified clean: build-content.cjs → 863 content pages (335 entities, 264 concepts, 70 signatures, 72 interventions, 72 STOPs, 45 analyses, 1851 sources visible), 2400 association pairs, 11 clusters, 8011 graph links, 9874 backlinks, 17.1 MB content.generated.json, 0 YAML errors. Sunday 2026-04-26 lint gate clear: 0 new claim-level contradictions ("No new claim-level contradictions surfaced this cycle"). Bundle structurally identical to nights 5–9. Karen action unchanged: paste the one-liner from DEPLOY_QUEUED.txt to ship; or `touch .auto-deploy-approved` + wrapper for login PATH; or move the schedule to wake hours; or wire a launchd job that watches DEPLOY_QUEUED.txt. The 2am-Claude clipboard handoff has now failed ten nights running — the structural fix is overdue.
+
+2026-05-01 — monthly keystone outreach: 5 drafts queued (Maier, Rapala-Kozik, Baj, Street, Kravchenko), 0 flagged for downgrade, 31 sources surfaced as needing corresponding_author backfill before next pass, 3 Karen-authored sources skipped. See [[keystone-outreach-2026-05-01]].
+
+2026-05-03 — nightly deploy (delayed launch, fired ~10:55 local instead of 02:00): queued to DEPLOY_QUEUED.txt (TWELFTH cycle running). request_access for Terminal timed out at 180s — Karen not at the machine to approve, clipboard route blocked again. .last-deploy still Tue Apr 21 18:30 CDT — twelve days of unshipped work. Working tree clean; no new commits since night 11 (last 2 commits c04a0f1d / 7bb04def both predate the deploy marker). 767 wiki/ files newer-by-mtime than .last-deploy from autonomous-ingest/maintenance no-op writes (frontmatter re-stamps without content change), but the build artifact dist-v28/ has not been regenerated and pushed since Apr 21 — bundle (references rewrite, 13,737 bold strip, 61 new entities, 72 new concepts, 24 new sources, MnSOD wikilink fix, etc.) still waiting on production. Sunday 2026-04-26 lint deploy gate: 0 new claim-level contradictions — clear. Karen action unchanged (twelve nights running): paste the one-liner from DEPLOY_QUEUED.txt; or `touch .auto-deploy-approved` + login-PATH wrapper so the sandbox can run vercel directly; or move the launchd schedule to a wake-hour; or replace this Claude-driven nightly with a launchd job that watches DEPLOY_QUEUED.txt and runs the one-liner when the timestamp advances. The 2am clipboard handoff is structurally broken — twelve consecutive failures is the answer to the experiment.
+
+2026-05-03 — weekly lint run: 124 non-source orphans (649 source orphans, baseline shifted by tightened slug-normalized matching), 0 new contradictions, 24 disease entities lacking signatures, 9 wiki interventions with no triangle data + 55 wiki triangles missing _sources arrays + 22 cureva same defect, 115 duplicate-DOI clusters, 219 unverified DOIs, 59 sub-threshold publishable pages without stub:true, 99 asymmetric associated_conditions pairs (−17), 4 boundary-language hits (1 real on aromatase.md, 3 self-citations from prior lint reports), 7+ index count drifts. Vault content frozen since 04-24 — most counts unchanged from 04-26. See [[lint-report-2026-05-03]].

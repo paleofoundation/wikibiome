@@ -20,12 +20,12 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Clostridium
 
-A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming bacteria encompassing both **critical beneficial commensals and dangerous pathogens**. Former Clostridium clusters IV and XIVa are now reclassified into [[ruminococcus]]-family Ruminococcaceae and [[lachnospiraceae]] respectively, though legacy nomenclature persists widely. Distinguishing beneficial from pathogenic species is essential when interpreting microbiome data.
+A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming bacteria encompassing both critical beneficial commensals and dangerous pathogens. Former Clostridium clusters IV and XIVa are now reclassified into [[ruminococcus]]-family Ruminococcaceae and [[lachnospiraceae]] respectively, though legacy nomenclature persists widely. Distinguishing beneficial from pathogenic species is essential when interpreting microbiome data.
 
 ## Beneficial Species
 
 ### Clusters IV and XIVa (Reclassified)
-- The **dominant butyrate-producing communities** in the healthy human colon, representing up to 40% of total fecal bacteria.
+- The dominant butyrate-producing communities in the healthy human colon, representing up to 40% of total fecal bacteria.
 - Depleted in [[multiple-sclerosis]]: loss reduces SCFA production, impairs Treg differentiation and anti-inflammatory cytokine output [[bronzini-2023-feeding-gut-microbiome-ms]].
 - Depleted across [[crohns-disease]], IBD broadly, [[colorectal-cancer]], and [[cardiovascular-disease]].
 - Induce colonic Tregs via butyrate-HDAC inhibition, a cornerstone of mucosal immune tolerance.
@@ -52,16 +52,16 @@ A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming 
 
 ## Metal Dependencies
 
-- **Iron**: Ferredoxin iron-sulfur clusters are central to clostridial anaerobic metabolism and butyrate synthesis. Iron perturbation in the gut directly affects the metabolic output of beneficial species.
-- **Cobalt**: Some species require B12 (cobalamin) for key enzymatic reactions.
-- **Zinc**: Botulinum toxin is a Zn-metalloprotease; C. perfringens phospholipase C also requires metal cofactors.
+- Iron: Ferredoxin iron-sulfur clusters are central to clostridial anaerobic metabolism and butyrate synthesis. Iron perturbation in the gut directly affects the metabolic output of beneficial species.
+- Cobalt: Some species require B12 (cobalamin) for key enzymatic reactions.
+- Zinc: Botulinum toxin is a Zn-metalloprotease; C. perfringens phospholipase C also requires metal cofactors.
 - Heavy metal stress [[cadmium]], [[lead]] preferentially depletes beneficial clostridial clusters while sparing spore-forming pathogenic species, shifting the genus balance toward virulence.
 
 ## Key Metabolites
 
-- **Butyrate** -- primary SCFA from clusters IV/XIVa; HDAC inhibitor, colonocyte fuel, anti-inflammatory.
-- **Secondary bile acids** -- 7-alpha-dehydroxylation by *C. scindens* and related species converts primary to secondary bile acids (DCA, LCA), influencing [[cardiovascular-disease]] and CRC risk [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
-- **Indole derivatives** -- tryptophan metabolism by some Clostridium species produces AHR ligands with immune-modulatory activity.
+- Butyrate -- primary SCFA from clusters IV/XIVa; HDAC inhibitor, colonocyte fuel, anti-inflammatory.
+- Secondary bile acids -- 7-alpha-dehydroxylation by *C. scindens* and related species converts primary to secondary bile acids (DCA, LCA), influencing [[cardiovascular-disease]] and CRC risk [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
+- Indole derivatives -- tryptophan metabolism by some Clostridium species produces AHR ligands with immune-modulatory activity.
 
 ## Disease Associations
 

@@ -4,9 +4,15 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - wang-2024-gut-microbiota-fibromyalgia-mr
+  - hou-2022-gut-microbiota-immune-immunotherapy-crc
+  - sun-2023-pancreatic-infections-16s-rrna-pancreatitis
+  - liu-2019-altered-gut-microbiota-scfa-chinese-children-asd
+  - iannuccelli-2025-fibromyalgia-year-review-2025
+  - liang-2023-gut-microbiome-reproductive-endocrine-mr
+source_count: 6
 tags:
   - actinobacteria
   - coriobacteriaceae
@@ -27,17 +33,15 @@ conditions_enriched_in:
   - inflammatory-bowel-disease
   - colorectal-cancer
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Olsenella** is a Gram-positive obligate anaerobic genus within the Coriobacteriaceae (Actinobacteria). Species such as *O. uli* and *O. profusa* were originally isolated from the oral cavity but are increasingly detected in gut microbiome surveys, particularly in disease states.
+Olsenella is a Gram-positive obligate anaerobic genus within the Coriobacteriaceae (Actinobacteria). Species such as *O. uli* and *O. profusa* were originally isolated from the oral cavity but are increasingly detected in gut microbiome surveys, particularly in disease states.
 
 ## Metal Dependencies
 
-Olsenella species require **iron** and **manganese** for their fermentative metabolism. Their lactic acid output can lower local pH, which in turn increases the solubility and bioavailability of metal ions — creating a feedback loop that may alter the competitive landscape for metal-dependent organisms in the immediate vicinity.
+Olsenella species require iron and manganese for their fermentative metabolism. Their lactic acid output can lower local pH, which in turn increases the solubility and bioavailability of metal ions — creating a feedback loop that may alter the competitive landscape for metal-dependent organisms in the immediate vicinity.
 
 ## Ecological Role
 

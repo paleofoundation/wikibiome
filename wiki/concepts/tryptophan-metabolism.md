@@ -20,34 +20,34 @@ Tryptophan (Trp) is an essential amino acid metabolized via three competing path
 
 ### 1. Kynurenine Pathway (~95% of Trp)
 The dominant route of tryptophan catabolism, controlled by two iron-dependent rate-limiting enzymes:
-- **IDO1/IDO2 (indoleamine 2,3-dioxygenase)**: Expressed in immune cells and gut epithelium; induced by IFN-gamma and [[inflammation]]. Requires **heme iron** as a cofactor.
-- **TDO (tryptophan 2,3-dioxygenase)**: Expressed primarily in the liver; constitutive. Also requires **heme iron**.
+- IDO1/IDO2 (indoleamine 2,3-dioxygenase): Expressed in immune cells and gut epithelium; induced by IFN-gamma and [[inflammation]]. Requires heme iron as a cofactor.
+- TDO (tryptophan 2,3-dioxygenase): Expressed primarily in the liver; constitutive. Also requires heme iron.
 
 Downstream metabolites:
-- **Kynurenine (KYN)**: Immunomodulatory; activates the aryl hydrocarbon receptor (AhR).
-- **Kynurenic acid (KA)**: Neuroprotective; NMDA receptor antagonist. Depleted in ASD fecal samples [[aziz-zadeh-2025-brain-activity-tryptophan-gut-metabolites-asd]].
-- **3-Hydroxykynurenine (3-HK)**: Neurotoxic; generates free radicals.
-- **Quinolinic acid (QUIN)**: Potent neurotoxin; NMDA receptor agonist and excitotoxin. Elevated in neuroinflammatory conditions.
+- Kynurenine (KYN): Immunomodulatory; activates the aryl hydrocarbon receptor (AhR).
+- Kynurenic acid (KA): Neuroprotective; NMDA receptor antagonist. Depleted in ASD fecal samples [[aziz-zadeh-2025-brain-activity-tryptophan-gut-metabolites-asd]].
+- 3-Hydroxykynurenine (3-HK): Neurotoxic; generates free radicals.
+- Quinolinic acid (QUIN): Potent neurotoxin; NMDA receptor agonist and excitotoxin. Elevated in neuroinflammatory conditions.
 
 The KA/QUIN ratio reflects the neuroprotective-neurotoxic balance: inflammation shifts this ratio toward QUIN, driving [[neuroinflammation]].
 
 ### 2. Serotonin Pathway (~1-2% of Trp)
-- **TPH1/TPH2 (tryptophan hydroxylase)**: Rate-limiting enzymes; TPH1 in gut enterochromaffin cells, TPH2 in CNS neurons.
-- Produces **5-hydroxytryptophan (5-HTP)** then **serotonin (5-HT)**.
+- TPH1/TPH2 (tryptophan hydroxylase): Rate-limiting enzymes; TPH1 in gut enterochromaffin cells, TPH2 in CNS neurons.
+- Produces 5-hydroxytryptophan (5-HTP) then serotonin (5-HT).
 - ~95% of body serotonin is produced in the gut by enterochromaffin cells, regulated by gut bacteria (Clostridia, spore-forming bacteria).
 - Gut serotonin regulates motility, secretion, and visceral sensation; does not cross the BBB.
 - ASD children show reduced fecal 5-HTP and altered serotonin metabolism [[aziz-zadeh-2025-brain-activity-tryptophan-gut-metabolites-asd]].
 
 ### 3. Microbial Indole Pathway
 Gut bacteria directly metabolize tryptophan to produce indole derivatives:
-- **Indole**: Produced by tryptophanase (TnaA) in E. coli, Bacteroides, Clostridium, Proteus.
-- **Indole-3-propionic acid (IPA)**: Produced by Clostridium sporogenes; atheroprotective in [[cardiovascular-disease]]; inversely correlated with arterial plaque size [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
-- **Indole-3-acetic acid (IAA)**: Produced by multiple genera; AhR ligand.
-- **Indole-3-aldehyde (IAld)**: Produced by Lactobacillus; potent AhR activator driving IL-22 production.
-- **Tryptamine**: Produced by Clostridium and Ruminococcus; serotonin receptor agonist.
+- Indole: Produced by tryptophanase (TnaA) in E. coli, Bacteroides, Clostridium, Proteus.
+- Indole-3-propionic acid (IPA): Produced by Clostridium sporogenes; atheroprotective in [[cardiovascular-disease]]; inversely correlated with arterial plaque size [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
+- Indole-3-acetic acid (IAA): Produced by multiple genera; AhR ligand.
+- Indole-3-aldehyde (IAld): Produced by Lactobacillus; potent AhR activator driving IL-22 production.
+- Tryptamine: Produced by Clostridium and Ruminococcus; serotonin receptor agonist.
 
 ### AhR Activation: The Therapeutic Target
-Indole derivatives activate the **aryl hydrocarbon receptor (AhR)** on intestinal epithelial cells, immune cells, and astrocytes:
+Indole derivatives activate the aryl hydrocarbon receptor (AhR) on intestinal epithelial cells, immune cells, and astrocytes:
 - Drives IL-22 production, which strengthens gut barrier integrity and stimulates antimicrobial peptide production.
 - Promotes Treg differentiation and suppresses Th17 responses -- directly relevant to [[multiple-sclerosis]] and autoimmunity.
 - In the CNS, AhR activation on astrocytes is anti-neuroinflammatory [[martinelli-2022-gut-oriented-interventions-ms]].
@@ -74,9 +74,9 @@ Indole derivatives activate the **aryl hydrocarbon receptor (AhR)** on intestina
 
 ## Metal Connections
 
-- **Iron dependence of IDO/TDO**: Both rate-limiting kynurenine pathway enzymes require heme iron. Iron dyshomeostasis directly alters the kynurenine/serotonin balance.
-- **Metal-induced inflammation upregulates IDO1**: Via IFN-gamma induction, metals shift tryptophan catabolism toward the neurotoxic kynurenine arm.
-- **Metal-driven dysbiosis reduces indole-producing commensals**: Loss of AhR ligand production impairs gut barrier integrity and removes anti-inflammatory signaling [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- Iron dependence of IDO/TDO: Both rate-limiting kynurenine pathway enzymes require heme iron. Iron dyshomeostasis directly alters the kynurenine/serotonin balance.
+- Metal-induced inflammation upregulates IDO1: Via IFN-gamma induction, metals shift tryptophan catabolism toward the neurotoxic kynurenine arm.
+- Metal-driven dysbiosis reduces indole-producing commensals: Loss of AhR ligand production impairs gut barrier integrity and removes anti-inflammatory signaling [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - The net effect of metal exposure is a triple hit: more neurotoxic QUIN, less serotonin, and fewer protective AhR ligands.
 
 ## Key Sources

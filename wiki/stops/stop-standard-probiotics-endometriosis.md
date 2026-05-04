@@ -20,7 +20,7 @@ karen_brain_primitives: [5, 7]
 
 # STOP: Standard (Unselected) Probiotics for Endometriosis
 
-> **Research summary -- not medical advice.** This page synthesizes published research on why a commonly recommended intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
+> Research summary -- not medical advice. This page synthesizes published research on why a commonly recommended intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
 
 ## The Problem
 
@@ -30,7 +30,7 @@ Endometriosis patients suffer from GI symptoms at rates far exceeding the genera
 
 ### 1. The Estrobolome Problem
 
-Endometriosis is an **estrogen-dependent disease**. The endometriotic lesions depend on estrogen for growth and survival. The gut microbiome plays a critical role in estrogen metabolism through the **[[estrobolome]]** -- the subset of microbial genes encoding [[beta-glucuronidase]], the enzyme that deconjugates estrogen-glucuronides in the colon.
+Endometriosis is an estrogen-dependent disease. The endometriotic lesions depend on estrogen for growth and survival. The gut microbiome plays a critical role in estrogen metabolism through the [[estrobolome]] -- the subset of microbial genes encoding [[beta-glucuronidase]], the enzyme that deconjugates estrogen-glucuronides in the colon.
 
 The normal pathway:
 - Liver conjugates estrogens with glucuronic acid (Phase II metabolism)
@@ -38,7 +38,7 @@ The normal pathway:
 - If bacterial beta-glucuronidase cleaves the conjugate, free estrogen is reabsorbed
 - This enterohepatic recirculation keeps estrogen levels artificially elevated
 
-In endometriosis, the estrobolome is already dysbiotic with **enrichment of high-beta-glucuronidase taxa**: [[escherichia-coli]], [[bacteroides-fragilis]], and [[eggerthella-lenta]] [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]], [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]]. This drives excessive estrogen recirculation, fueling lesion growth and disease progression.
+In endometriosis, the estrobolome is already dysbiotic with enrichment of high-beta-glucuronidase taxa: [[escherichia-coli]], [[bacteroides-fragilis]], and [[eggerthella-lenta]] [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]], [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]]. This drives excessive estrogen recirculation, fueling lesion growth and disease progression.
 
 ### 2. Many Standard Probiotics Contain Beta-Glucuronidase Producers
 
@@ -46,7 +46,7 @@ Generic multi-strain probiotic formulations do not screen for beta-glucuronidase
 
 ### 3. Candida Functional Shielding Is Not Addressed
 
-The endometriosis microbiome features [[candida-albicans]] biofilms that provide **functional shielding** for bacterial pathobionts [[khan-2018-bacterial-contamination-hypothesis-endometriosis]]. Standard bacterial probiotics do not compete with Candida for niche space. Without addressing the fungal component, bacterial probiotics may fail to establish because they cannot penetrate the Candida-dominated biofilm architecture. Worse, some Lactobacillus strains coexist with Candida in biofilms, potentially stabilizing rather than disrupting the pathogenic community.
+The endometriosis microbiome features [[candida-albicans]] biofilms that provide functional shielding for bacterial pathobionts [[khan-2018-bacterial-contamination-hypothesis-endometriosis]]. Standard bacterial probiotics do not compete with Candida for niche space. Without addressing the fungal component, bacterial probiotics may fail to establish because they cannot penetrate the Candida-dominated biofilm architecture. Worse, some Lactobacillus strains coexist with Candida in biofilms, potentially stabilizing rather than disrupting the pathogenic community.
 
 ### 4. Metal-Dependent Pathogen Ecology Is Ignored
 
@@ -56,21 +56,21 @@ The enriched pathogenic consortium in endometriosis (E. coli, B. fragilis, S. ag
 
 ### Strain-Specific Selection
 
-The critical principle is **strain specificity with endometriosis-relevant selection criteria**:
+The critical principle is strain specificity with endometriosis-relevant selection criteria:
 
 | Probiotic | Why It Works for Endometriosis |
 |-----------|-------------------------------|
-| **[[saccharomyces-boulardii]]** | Outcompetes Candida for niche space; cell walls bind cadmium and lead (reducing metalloestrogen burden); does not produce beta-glucuronidase |
-| **[[ecoli-nissle-1917]]** | Outcompetes pathogenic E. coli via superior siderophore systems (enterobactin, salmochelin, yersiniabactin); lacks pathogenic virulence genes and beta-glucuronidase activity |
-| **Selected Bifidobacterium strains** | Generally low beta-glucuronidase activity; SCFA production supports colonocyte health; competes with pathobionts for niche space |
-| **L. rhamnosus GG** | Low beta-glucuronidase; anti-inflammatory via IL-10 induction; well-studied safety profile |
+| [[saccharomyces-boulardii]] | Outcompetes Candida for niche space; cell walls bind cadmium and lead (reducing metalloestrogen burden); does not produce beta-glucuronidase |
+| [[ecoli-nissle-1917]] | Outcompetes pathogenic E. coli via superior siderophore systems (enterobactin, salmochelin, yersiniabactin); lacks pathogenic virulence genes and beta-glucuronidase activity |
+| Selected Bifidobacterium strains | Generally low beta-glucuronidase activity; SCFA production supports colonocyte health; competes with pathobionts for niche space |
+| L. rhamnosus GG | Low beta-glucuronidase; anti-inflammatory via IL-10 induction; well-studied safety profile |
 
 ### Combined Ecological Approach
 
 Effective probiotic intervention in endometriosis requires integration with:
-- **[[low-nickel-diet]]**: Disables nickel-dependent virulence enzymes (glyoxalase, urease) across the pathogenic consortium
-- **[[lactoferrin-supplementation]]**: Sequesters iron from siderophore-producing pathobionts
-- **[[nac-supplementation]]**: Replenishes glutathione, the primary defense against cadmium and lead (metalloestrogens)
+- [[low-nickel-diet]]: Disables nickel-dependent virulence enzymes (glyoxalase, urease) across the pathogenic consortium
+- [[lactoferrin-supplementation]]: Sequesters iron from siderophore-producing pathobionts
+- [[nac-supplementation]]: Replenishes glutathione, the primary defense against cadmium and lead (metalloestrogens)
 
 This combination addresses the metal ecology, the estrobolome, and the fungal component simultaneously -- which no standard probiotic can do alone.
 
@@ -87,4 +87,4 @@ This combination addresses the metal ecology, the estrobolome, and the fungal co
 
 ---
 
-> **Educational content, not medical advice.** Probiotic selection for endometriosis should be guided by strain-specific evidence, beta-glucuronidase activity profiles, and integration with the broader metal-microbiome ecology. Generic "take a probiotic" advice is insufficient for this condition.
+> Educational content, not medical advice. Probiotic selection for endometriosis should be guided by strain-specific evidence, beta-glucuronidase activity profiles, and integration with the broader metal-microbiome ecology. Generic "take a probiotic" advice is insufficient for this condition.

@@ -14,23 +14,23 @@ platform: wikibiome
 
 # Ferroportin
 
-The **only known cellular iron exporter** in mammals. Encoded by the *SLC40A1* gene, ferroportin (FPN) sits on the basolateral membrane of enterocytes, the surface of macrophages, and the membrane of hepatocytes, controlling the flow of iron from these cells into the bloodstream. Every atom of dietary iron that reaches the plasma, every atom of recycled iron released from aged red blood cells, and every atom of stored iron mobilized from the liver must pass through ferroportin. This makes it the single most consequential gatekeeper of systemic iron availability -- and the direct target of [[hepcidin]], the master iron-regulatory hormone.
+The only known cellular iron exporter in mammals. Encoded by the *SLC40A1* gene, ferroportin (FPN) sits on the basolateral membrane of enterocytes, the surface of macrophages, and the membrane of hepatocytes, controlling the flow of iron from these cells into the bloodstream. Every atom of dietary iron that reaches the plasma, every atom of recycled iron released from aged red blood cells, and every atom of stored iron mobilized from the liver must pass through ferroportin. This makes it the single most consequential gatekeeper of systemic iron availability -- and the direct target of [[hepcidin]], the master iron-regulatory hormone.
 
 ## Mechanism
 
 ### Iron Export
 
-- Ferroportin transports **Fe2+** (ferrous iron) from the cytoplasm across the cell membrane
-- Exported Fe2+ is immediately oxidized to **Fe3+** (ferric iron) by [[ceruloplasmin]] (in blood) or hephaestin (in enterocytes) for loading onto [[transferrin]]
+- Ferroportin transports Fe2+ (ferrous iron) from the cytoplasm across the cell membrane
+- Exported Fe2+ is immediately oxidized to Fe3+ (ferric iron) by [[ceruloplasmin]] (in blood) or hephaestin (in enterocytes) for loading onto [[transferrin]]
 - Without this oxidation step, Fe2+ accumulates at the cell surface and generates hydroxyl radicals via [[fenton-chemistry]]
 
 ### The Hepcidin-Ferroportin Axis
 
 This axis is the master regulator of systemic iron homeostasis [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]:
 
-- **Hepcidin binds ferroportin** on the cell surface, triggering its internalization, ubiquitination, and lysosomal degradation
-- **High hepcidin** = ferroportin destroyed = iron trapped inside cells = serum iron falls
-- **Low hepcidin** = ferroportin expressed = iron flows into plasma = serum iron rises
+- Hepcidin binds ferroportin on the cell surface, triggering its internalization, ubiquitination, and lysosomal degradation
+- High hepcidin = ferroportin destroyed = iron trapped inside cells = serum iron falls
+- Low hepcidin = ferroportin expressed = iron flows into plasma = serum iron rises
 - This axis integrates signals from iron stores (BMP-SMAD pathway), inflammation (IL-6/JAK-STAT3), erythropoietic demand, and hypoxia (HIF pathway)
 
 ## Role in Nutritional Immunity
@@ -39,8 +39,8 @@ Ferroportin degradation by hepcidin is a central arm of [[nutritional-immunity]]
 
 - During infection, IL-6 upregulates hepcidin, which destroys ferroportin on macrophages and enterocytes
 - Iron is deliberately trapped inside cells, reducing plasma iron availability to extracellular pathogens
-- This is the molecular basis of **anemia of chronic disease** (also called anemia of inflammation) -- the host intentionally restricts iron to starve pathogens, creating apparent iron deficiency
-- Clinically, this means low serum iron + high hepcidin = functional iron restriction (host defense), **not** true deficiency requiring supplementation
+- This is the molecular basis of anemia of chronic disease (also called anemia of inflammation) -- the host intentionally restricts iron to starve pathogens, creating apparent iron deficiency
+- Clinically, this means low serum iron + high hepcidin = functional iron restriction (host defense), not true deficiency requiring supplementation
 
 ## Disease Contexts
 

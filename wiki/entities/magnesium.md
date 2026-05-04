@@ -55,7 +55,7 @@ Magnesium deficiency is consistently associated with metabolic features of PCOS:
 
 ### Postpartum Depression
 
-- In the PERSIAN Birth Cohort study (n=224), **no significant association** was found between maternal serum Mg levels (measured at 38 weeks gestation) and postpartum depression risk (OR: 0.29, 95% CI: 0.04-1.77) [[pourmirzaiee-2024-ppd-magnesium-infant-development]].
+- In the PERSIAN Birth Cohort study (n=224), no significant association was found between maternal serum Mg levels (measured at 38 weeks gestation) and postpartum depression risk (OR: 0.29, 95% CI: 0.04-1.77) [[pourmirzaiee-2024-ppd-magnesium-infant-development]].
 - Mean Mg was similar between depressed (1.91 mg/dL) and non-depressed (1.97 mg/dL) mothers [[pourmirzaiee-2024-ppd-magnesium-infant-development]].
 - This null finding may reflect that Mg levels within the normal range are not a risk factor; deficiency rather than sufficiency may be the relevant threshold [[pourmirzaiee-2024-ppd-magnesium-infant-development]].
 - Contrasts with [[etebary-2010-ppd-serum-trace-elements]], which found roles for multiple trace elements in PPD pathophysiology.

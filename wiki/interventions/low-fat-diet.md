@@ -29,7 +29,7 @@ targets:
 karen_brain_primitives: [7]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Low-Fat Diet for Endometriosis
 
@@ -39,17 +39,17 @@ Reduction of total dietary fat intake to lower estrogenic burden in endometriosi
 
 ## Evidence
 
-- **Observational**: Cross-sectional studies associate higher dietary fat intake (particularly saturated and trans fats) with increased endometriosis risk and symptom severity
-- **Intervention**: Small clinical studies show reduced serum estradiol and prostaglandin E2 levels after 4-6 weeks on low-fat diets (<25% energy from fat)
-- **Pain outcomes**: Some evidence for reduced dysmenorrhea and chronic pelvic pain with fat restriction, though RCTs are lacking
-- **Limitations**: Most evidence is cross-sectional or from small uncontrolled studies; confounding by overall dietary quality is difficult to exclude
+- Observational: Cross-sectional studies associate higher dietary fat intake (particularly saturated and trans fats) with increased endometriosis risk and symptom severity
+- Intervention: Small clinical studies show reduced serum estradiol and prostaglandin E2 levels after 4-6 weeks on low-fat diets (<25% energy from fat)
+- Pain outcomes: Some evidence for reduced dysmenorrhea and chronic pelvic pain with fat restriction, though RCTs are lacking
+- Limitations: Most evidence is cross-sectional or from small uncontrolled studies; confounding by overall dietary quality is difficult to exclude
 
 ## Mechanism
 
-1. **Estrogen reduction**: Lower dietary fat reduces adipose tissue mass and aromatase substrate availability, decreasing peripheral estrogen production
-2. **Bile acid modulation**: Reduced fat intake decreases bile acid secretion; bile acids stimulate beta-glucuronidase-producing bacteria that deconjugate estrogen glucuronides for reabsorption
-3. **Prostaglandin reduction**: Lower arachidonic acid intake (from animal fats) reduces substrate for COX-2-mediated prostaglandin synthesis in endometrial lesions
-4. **Microbiome shift**: Lower fat intake shifts gut microbiota composition away from Bilophila and other bile-tolerant, beta-glucuronidase-producing species
+1. Estrogen reduction: Lower dietary fat reduces adipose tissue mass and aromatase substrate availability, decreasing peripheral estrogen production
+2. Bile acid modulation: Reduced fat intake decreases bile acid secretion; bile acids stimulate beta-glucuronidase-producing bacteria that deconjugate estrogen glucuronides for reabsorption
+3. Prostaglandin reduction: Lower arachidonic acid intake (from animal fats) reduces substrate for COX-2-mediated prostaglandin synthesis in endometrial lesions
+4. Microbiome shift: Lower fat intake shifts gut microbiota composition away from Bilophila and other bile-tolerant, beta-glucuronidase-producing species
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ Evidence is preliminary and this intervention should be considered adjunctive ra
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

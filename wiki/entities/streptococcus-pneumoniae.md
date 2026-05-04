@@ -5,15 +5,20 @@ type: entity
 subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
-sources: [romero-espejel-2013-streptococcus-pneumoniae-iron.md, akbari-2022-metal-homeostasis-streptococci.md]
-source_count: 2
+sources:
+  - eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus
+  - opoku-2024-calcium-rescues-streptococcus-pneumoniae-manganese-toxicity
+  - begg-2015-cadmium-toxicity-transition-metal-pneumococcus
+  - de-lay-2024-ccn-srnas-zinc-resistance-pneumococcus-virulence
+  - neville-2020-cadmium-carbon-flux-membrane-pneumococcus
+  - romero-espejel-2013-streptococcus-pneumoniae-iron
+  - martin-2022-manganese-homeostasis-stress-pathogenesis
+source_count: 7
 tags: [pathogen, iron, manganese, zinc, copper, meningitis, pneumonia, otitis-media, nutritional-immunity]
 metal_dependencies: [manganese, zinc, iron]
 key_enzymes: [PsaA (Mn-binding lipoprotein — essential for virulence), AdcABC (zinc uptake), PiaA/PiuA (iron uptake), Mn-SOD, IgA1 protease (Zn-metalloprotease)]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Streptococcus pneumoniae manganese zinc iron nutritional immunity"
 wikipedia_differentiation: "Complete metal transporter virulence factor profile (PsaA, AdcABC, PiaA/PiuA) with nutritional immunity evasion at every infection site"
 conditions_enriched_in: [pneumonia, meningitis, otitis-media]
@@ -23,19 +28,19 @@ pathogenic_potential: opportunistic
 
 # Streptococcus pneumoniae
 
-A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese, and zinc** for virulence and has evolved dedicated transport systems for each. Iron is required for viability itself, manganese powers the superoxide dismutase needed to survive the oxidative burst, and zinc homeostasis (import via AdcABC, export via CzcD) is critical for colonization. The pneumococcus faces aggressive host nutritional immunity at every infection site -- meninges, lungs, middle ear, blood -- and its metal transporters are among its most important virulence factors.
+A Gram-positive pathogen (the "pneumococcus") that depends on iron, manganese, and zinc for virulence and has evolved dedicated transport systems for each. Iron is required for viability itself, manganese powers the superoxide dismutase needed to survive the oxidative burst, and zinc homeostasis (import via AdcABC, export via CzcD) is critical for colonization. The pneumococcus faces aggressive host nutritional immunity at every infection site -- meninges, lungs, middle ear, blood -- and its metal transporters are among its most important virulence factors.
 
 ## Metal-Dependent Virulence Factors
 
 ### Iron -- Required for Viability
-- *S. pneumoniae* **requires iron for growth and viability** [[romero-espejel-2013-streptococcus-pneumoniae-iron]].
+- *S. pneumoniae* requires iron for growth and viability [[romero-espejel-2013-streptococcus-pneumoniae-iron]].
 - Iron starvation arrested growth and reduced viability to ~50% within 5 hours.
 - Supplementation with hemoglobin restored viability to ~90% within 5 hours.
-- Can use **hemoglobin and heme** as sole iron sources, but **not** holo-transferrin or holo-lactoferrin -- indicating it has evolved to scavenge iron from damaged red blood cells rather than competing for host iron-binding proteins.
+- Can use hemoglobin and heme as sole iron sources, but not holo-transferrin or holo-lactoferrin -- indicating it has evolved to scavenge iron from damaged red blood cells rather than competing for host iron-binding proteins.
 
 ### Mn-Dependent Superoxide Dismutase (Mn-SOD)
-- **SodA**: Mn-dependent superoxide dismutase, the primary defense against reactive oxygen species [[akbari-2022-metal-homeostasis-streptococci]] [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
-- Essential for surviving the **neutrophil oxidative burst** during pneumonia and bacteremia [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]].
+- SodA: Mn-dependent superoxide dismutase, the primary defense against reactive oxygen species [[akbari-2022-metal-homeostasis-streptococci]] [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
+- Essential for surviving the neutrophil oxidative burst during pneumonia and bacteremia [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]].
 - Mn acquisition via PsaA/MtsABC is therefore directly linked to oxidative stress survival [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
 - Cadmium can disrupt Mn uptake/efflux, indirectly increasing oxidative stress susceptibility -- a vulnerability that could be exploited therapeutically [[begg-2015-cadmium-toxicity-transition-metal-pneumococcus]] [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]].
 
@@ -46,65 +51,65 @@ A Gram-positive pathogen (the "pneumococcus") that depends on **iron, manganese,
 ## Metal Acquisition Systems
 
 ### Iron Acquisition
-- **PiaA/PiuA**: ABC-type iron uptake lipoproteins [[akbari-2022-metal-homeostasis-streptococci]].
+- PiaA/PiuA: ABC-type iron uptake lipoproteins [[akbari-2022-metal-homeostasis-streptococci]].
  - PiaA and PiuA are independently important for virulence; double mutants are severely attenuated.
  - Part of iron-regulated operons induced under iron limitation.
-- **22 kDa and 37 kDa membrane proteins**: the first characterized hemoglobin/heme-binding proteins in *S. pneumoniae* [[romero-espejel-2013-streptococcus-pneumoniae-iron]].
+- 22 kDa and 37 kDa membrane proteins: the first characterized hemoglobin/heme-binding proteins in *S. pneumoniae* [[romero-espejel-2013-streptococcus-pneumoniae-iron]].
  - Both bind hemoglobin AND free heme.
  - Compete for the tetrapyrrole ring (shared binding with vitamin B12).
- - Contain the **KVAFDH motif** essential for heme binding, conserved with the Shr protein of *S. pyogenes*.
-- **FeoABC**: ferrous iron transporter for anaerobic/low-oxygen environments.
-- Notably, *S. pneumoniae* does **not** produce classical siderophores -- it relies on direct heme/hemoglobin binding and ABC transporters.
+ - Contain the KVAFDH motif essential for heme binding, conserved with the Shr protein of *S. pyogenes*.
+- FeoABC: ferrous iron transporter for anaerobic/low-oxygen environments.
+- Notably, *S. pneumoniae* does not produce classical siderophores -- it relies on direct heme/hemoglobin binding and ABC transporters.
 
 ### Manganese Acquisition
-- **PsaA/PsaBCA (MtsABC/SloABC)**: the primary Mn ABC transporter [[akbari-2022-metal-homeostasis-streptococci]].
+- PsaA/PsaBCA (MtsABC/SloABC): the primary Mn ABC transporter [[akbari-2022-metal-homeostasis-streptococci]].
  - PsaA is a surface-exposed lipoprotein and vaccine candidate.
  - PsaA mutants are severely attenuated in colonization, pneumonia, and bacteremia models.
  - Also transports Zn at lower affinity.
-- **MntH (NRAMP family)**: secondary Mn importer.
+- MntH (NRAMP family): secondary Mn importer.
 
 ### Manganese Export
-- **MntE**: CDF-family Mn exporter to prevent manganese toxicity [[akbari-2022-metal-homeostasis-streptococci]].
+- MntE: CDF-family Mn exporter to prevent manganese toxicity [[akbari-2022-metal-homeostasis-streptococci]].
 - Balances Mn import via PsaA; mntE mutants accumulate toxic Mn levels.
 
 ### Zinc Homeostasis
-- **AdcABC/AdcAII**: ABC-type zinc import system [[akbari-2022-metal-homeostasis-streptococci]].
+- AdcABC/AdcAII: ABC-type zinc import system [[akbari-2022-metal-homeostasis-streptococci]].
  - AdcA and AdcAII are two distinct solute-binding proteins with different zinc affinities.
- - **Pht (polyhistidine triad) proteins**: surface-exposed zinc-binding/storage proteins that feed zinc to AdcAII.
+ - Pht (polyhistidine triad) proteins: surface-exposed zinc-binding/storage proteins that feed zinc to AdcAII.
  - Adc mutants show attenuated nasopharyngeal colonization and meningitis.
-- **CzcD**: CDF-family zinc exporter.
+- CzcD: CDF-family zinc exporter.
  - Exports zinc (and possibly cadmium) to prevent intracellular toxicity.
  - Essential when host neutrophils pump zinc into phagosomes as an antimicrobial strategy.
 
 ### Copper Homeostasis
-- **CopA**: P-type ATPase for copper efflux [[akbari-2022-metal-homeostasis-streptococci]].
-- **CopY**: copper-responsive repressor regulating copA expression.
+- CopA: P-type ATPase for copper efflux [[akbari-2022-metal-homeostasis-streptococci]].
+- CopY: copper-responsive repressor regulating copA expression.
 - Copper intoxication by macrophages is a key host defense; CopA enables survival.
 
 ### Nickel
 - Largely uncharacterized in *S. pneumoniae* [[akbari-2022-metal-homeostasis-streptococci]].
-- A **LarA homolog** (Ni-dependent lactate racemase) is present in the genome, suggesting some nickel utilization.
+- A LarA homolog (Ni-dependent lactate racemase) is present in the genome, suggesting some nickel utilization.
 - No characterized Ni transporter; the UreMQO system known in *S. salivarius* has not been identified in pneumococcus.
 
 ## Nutritional Immunity Evasion
 
 *S. pneumoniae* encounters metal restriction at every infection site:
 
-- **Calprotectin (S100A8/A9)**: sequesters Zn and Mn at infection sites. Released by neutrophils infiltrating the lung, meninges, and middle ear. Directly inhibits pneumococcal growth by starving PsaA and AdcABC of their substrates [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
-- **Lactoferrin**: sequesters iron in mucosal secretions. Notably, *S. pneumoniae* cannot use lactoferrin-bound iron, making lactoferrin an effective barrier.
-- **Transferrin**: sequesters iron in blood. Again, pneumococcus cannot access transferrin-bound iron -- it must wait for red blood cell lysis to access hemoglobin.
-- **Zinc intoxication**: neutrophils pump zinc into phagosomes to toxic levels; CzcD exports excess zinc as a countermeasure.
-- **Copper intoxication**: macrophage copper pumps target engulfed pneumococci; CopA provides defense.
+- Calprotectin (S100A8/A9): sequesters Zn and Mn at infection sites. Released by neutrophils infiltrating the lung, meninges, and middle ear. Directly inhibits pneumococcal growth by starving PsaA and AdcABC of their substrates [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
+- Lactoferrin: sequesters iron in mucosal secretions. Notably, *S. pneumoniae* cannot use lactoferrin-bound iron, making lactoferrin an effective barrier.
+- Transferrin: sequesters iron in blood. Again, pneumococcus cannot access transferrin-bound iron -- it must wait for red blood cell lysis to access hemoglobin.
+- Zinc intoxication: neutrophils pump zinc into phagosomes to toxic levels; CzcD exports excess zinc as a countermeasure.
+- Copper intoxication: macrophage copper pumps target engulfed pneumococci; CopA provides defense.
 
-The pneumococcus is therefore caught in a dual bind: **metal starvation** in extracellular spaces (calprotectin, lactoferrin) and **metal intoxication** inside phagocytes (Zn, Cu poisoning).
+The pneumococcus is therefore caught in a dual bind: metal starvation in extracellular spaces (calprotectin, lactoferrin) and metal intoxication inside phagocytes (Zn, Cu poisoning).
 
 ## Disease Associations
 
-- **Community-acquired pneumonia**: the most common bacterial cause worldwide.
-- **Bacterial meningitis**: leading cause in children and adults; iron acquisition is critical in CSF.
-- **Otitis media**: the most common cause of middle ear infection in children.
-- **Bacteremia/sepsis**: especially in asplenic patients and young children.
-- **Sinusitis**: common upper respiratory infection.
+- Community-acquired pneumonia: the most common bacterial cause worldwide.
+- Bacterial meningitis: leading cause in children and adults; iron acquisition is critical in CSF.
+- Otitis media: the most common cause of middle ear infection in children.
+- Bacteremia/sepsis: especially in asplenic patients and young children.
+- Sinusitis: common upper respiratory infection.
 
 ## Connection to Environmental Metal Exposure
 

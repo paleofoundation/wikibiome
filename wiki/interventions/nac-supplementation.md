@@ -29,7 +29,7 @@ targets:
 karen_brain_primitives: [3]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # N-Acetylcysteine (NAC) Supplementation (Cross-Condition)
 
@@ -39,17 +39,17 @@ N-acetylcysteine as a glutathione precursor and glutamatergic modulator. Address
 
 ## Evidence
 
-- **ASD**: Multiple pilot RCTs show NAC (900-2700mg/day) reduces irritability scores on the ABC scale; effects on social communication less consistent
-- **Schizophrenia**: Adjunctive NAC (2g/day) improves negative symptoms and working memory in multiple small RCTs; meta-analytic trend toward benefit
-- **Long COVID**: Early trials show NAC reduces fatigue and improves cognitive function in post-acute sequelae
-- **Mis-metallation support**: NAC-derived glutathione conjugates toxic metals for biliary and renal excretion
+- ASD: Multiple pilot RCTs show NAC (900-2700mg/day) reduces irritability scores on the ABC scale; effects on social communication less consistent
+- Schizophrenia: Adjunctive NAC (2g/day) improves negative symptoms and working memory in multiple small RCTs; meta-analytic trend toward benefit
+- Long COVID: Early trials show NAC reduces fatigue and improves cognitive function in post-acute sequelae
+- Mis-metallation support: NAC-derived glutathione conjugates toxic metals for biliary and renal excretion
 
 ## Mechanism
 
-1. **Glutathione synthesis**: NAC provides cysteine — the rate-limiting amino acid for glutathione (GSH) production. GSH is the master intracellular antioxidant depleted across multiple disease signatures
-2. **Glutamatergic modulation**: NAC activates the cystine-glutamate antiporter (system Xc-), increasing extracellular glutamate at extrasynaptic sites, which activates inhibitory mGluR2/3 receptors and reduces excitotoxicity
-3. **Metal detoxification support**: Glutathione conjugation is a primary phase II pathway for cadmium, lead, mercury, and arsenic elimination
-4. **Anti-inflammatory**: Reduces NF-kB activation and pro-inflammatory cytokine production
+1. Glutathione synthesis: NAC provides cysteine — the rate-limiting amino acid for glutathione (GSH) production. GSH is the master intracellular antioxidant depleted across multiple disease signatures
+2. Glutamatergic modulation: NAC activates the cystine-glutamate antiporter (system Xc-), increasing extracellular glutamate at extrasynaptic sites, which activates inhibitory mGluR2/3 receptors and reduces excitotoxicity
+3. Metal detoxification support: Glutathione conjugation is a primary phase II pathway for cadmium, lead, mercury, and arsenic elimination
+4. Anti-inflammatory: Reduces NF-kB activation and pro-inflammatory cytokine production
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ NAC is well-tolerated (most common side effect: GI discomfort at higher doses) a
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

@@ -5,17 +5,23 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
-source_count: 0
+sources:
+  - catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis
+  - gao-2015-microbiota-disbiosis-colorectal-cancer
+  - boussamet-2024-oral-microbiota-metabolite-signature-ms
+  - deshpande-2018-esophageal-microbiome-signatures-host-genetics
+  - qing-2021-salivary-microbiome-dysbiotic-schizophrenia
+  - pourali-2024-microbiome-biomarker-therapeutic-target-pancreatic-cancer
+  - kawar-2021-salivary-microbiome-gerd-ppi
+  - liang-2021-hpylori-oral-microbiota-reflux-esophagitis
+source_count: 8
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [siderophore-uptake, proteases, hemolysin, biofilm-matrix-synthesis]
 tags: [gram-negative, anaerobe, iron-dependent, oral-microbiome, gut-pathobiont, biofilm, colorectal-cancer, translocation]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Leptotrichia oral gut translocation colorectal cancer iron biofilm"
 wikipedia_differentiation: "Iron-dependent biofilm formation enabling oral-gut translocation with CRC tissue enrichment data"
 conditions_enriched_in: [colorectal-cancer, periodontal-disease]
@@ -25,14 +31,14 @@ pathogenic_potential: opportunistic
 
 # Leptotrichia
 
-A Gram-negative obligate anaerobe traditionally considered an oral commensal, but increasingly recognized as an opportunistic pathobiont with the ability to translocate from oral biofilms to the gastrointestinal tract and bloodstream. *Leptotrichia* species are prominently enriched in oral biofilms associated with poor hygiene and periodontal disease, and show elevated abundance in [[colorectal-cancer]] tissue and fecal microbiota, supporting a potential role in oncogenic pathways. The genus is **iron-dependent** for virulence factor production and biofilm formation, making iron availability a key determinant of pathogenic activity.
+A Gram-negative obligate anaerobe traditionally considered an oral commensal, but increasingly recognized as an opportunistic pathobiont with the ability to translocate from oral biofilms to the gastrointestinal tract and bloodstream. *Leptotrichia* species are prominently enriched in oral biofilms associated with poor hygiene and periodontal disease, and show elevated abundance in [[colorectal-cancer]] tissue and fecal microbiota, supporting a potential role in oncogenic pathways. The genus is iron-dependent for virulence factor production and biofilm formation, making iron availability a key determinant of pathogenic activity.
 
 ## Taxonomy and Habitat
 
-- **Primary habitat**: Oral biofilms (supragingival and subgingival plaque), gingival sulcus.
-- **Secondary habitat**: Gut microbiota (often at low abundance in healthy controls, enriched in disease).
-- **Species of interest**: *Leptotrichia buccalis*, *L. wadei*, *L. trevisanii* (oral); emerging oral-to-gut translocation events.
-- **Classification**: Bacteroidetes phylum (despite Gram-negative appearance, phylogenetically related to Bacteroides).
+- Primary habitat: Oral biofilms (supragingival and subgingival plaque), gingival sulcus.
+- Secondary habitat: Gut microbiota (often at low abundance in healthy controls, enriched in disease).
+- Species of interest: *Leptotrichia buccalis*, *L. wadei*, *L. trevisanii* (oral); emerging oral-to-gut translocation events.
+- Classification: Bacteroidetes phylum (despite Gram-negative appearance, phylogenetically related to Bacteroides).
 
 ## Iron Acquisition and Virulence
 
@@ -44,10 +50,10 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 
 ### Virulence Factors
 
-- **Hemolysins** -- pore-forming toxins; mediate red blood cell lysis in bleeding periodontal sites and support nutrient scavenging.
-- **Proteases** -- degrade collagen, elastin, and other tissue components; facilitate biofilm invasion and barrier disruption.
-- **Lipopolysaccharide (LPS)** -- Gram-negative endotoxin; triggers TLR4 signaling and pro-inflammatory cytokine production (IL-6, TNF-α, IL-8).
-- **Biofilm architecture**: Polysaccharide-rich matrix; iron-dependent synthesis and maintenance.
+- Hemolysins -- pore-forming toxins; mediate red blood cell lysis in bleeding periodontal sites and support nutrient scavenging.
+- Proteases -- degrade collagen, elastin, and other tissue components; facilitate biofilm invasion and barrier disruption.
+- Lipopolysaccharide (LPS) -- Gram-negative endotoxin; triggers TLR4 signaling and pro-inflammatory cytokine production (IL-6, TNF-α, IL-8).
+- Biofilm architecture: Polysaccharide-rich matrix; iron-dependent synthesis and maintenance.
 
 ## Oral Biofilm Ecology
 
@@ -68,9 +74,9 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 
 ### Oral-to-Gut Translocation Pathways
 
-1. **Oropharyngeal aspiration**: Biofilm fragments, saliva, and bacteria aspirated during swallowing; colonize esophagus and proximal gut.
-2. **Increased intestinal permeability**: In IBD or dysbiosis, damaged epithelium allows bacterial translocation across mucosa.
-3. **Impaired clearance**: Reduced saliva flow or altered oral immunity enables *Leptotrichia* persistence and higher aspiration burden.
+1. Oropharyngeal aspiration: Biofilm fragments, saliva, and bacteria aspirated during swallowing; colonize esophagus and proximal gut.
+2. Increased intestinal permeability: In IBD or dysbiosis, damaged epithelium allows bacterial translocation across mucosa.
+3. Impaired clearance: Reduced saliva flow or altered oral immunity enables *Leptotrichia* persistence and higher aspiration burden.
 
 ### Gut Colonization Mechanisms
 
@@ -82,23 +88,23 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 
 ### Oral and Periodontal Disease
 
-- **Gingivitis**: Elevated *Leptotrichia* abundance; associated with bleeding and increased gingival crevicular fluid iron.
-- **Periodontitis**: Significantly enriched in subgingival biofilms; tissue destruction correlates with *Leptotrichia* burden.
-- **Poor oral hygiene**: Biofilm accumulation favors *Leptotrichia* dominance.
+- Gingivitis: Elevated *Leptotrichia* abundance; associated with bleeding and increased gingival crevicular fluid iron.
+- Periodontitis: Significantly enriched in subgingival biofilms; tissue destruction correlates with *Leptotrichia* burden.
+- Poor oral hygiene: Biofilm accumulation favors *Leptotrichia* dominance.
 
 ### Colorectal Cancer
 
-- **Enrichment in CRC tissue and feces**: Multiple studies report elevated *Leptotrichia* abundance in CRC patients vs. controls.
+- Enrichment in CRC tissue and feces: Multiple studies report elevated *Leptotrichia* abundance in CRC patients vs. controls.
 
- - **Translocation from oral biofilms**: Oral disease as reservoir; microaspiration seeds colorectal biofilms.
- - **LPS-driven chronic inflammation**: TLR4 signaling promotes NF-κB and IL-6 secretion, linking to CRC-associated inflammatory pathways.
- - **Protease activity**: Tissue degradation and barrier disruption create pro-tumorigenic microenvironment.
- - **Interkingdom cooperation**: *Leptotrichia* in fungal-bacterial biofilms may suppress local immunity.
+ - Translocation from oral biofilms: Oral disease as reservoir; microaspiration seeds colorectal biofilms.
+ - LPS-driven chronic inflammation: TLR4 signaling promotes NF-κB and IL-6 secretion, linking to CRC-associated inflammatory pathways.
+ - Protease activity: Tissue degradation and barrier disruption create pro-tumorigenic microenvironment.
+ - Interkingdom cooperation: *Leptotrichia* in fungal-bacterial biofilms may suppress local immunity.
 
 ### Other GI Conditions
 
-- **Inflammatory Bowel Disease**: Variable enrichment; oral-derived microbes may exacerbate colonic inflammation in genetically predisposed individuals.
-- **Intra-abdominal abscess and bacteremia**: Translocated *Leptotrichia* from dental procedures or oral infection; rarely cultured from blood but PCR-detectable.
+- Inflammatory Bowel Disease: Variable enrichment; oral-derived microbes may exacerbate colonic inflammation in genetically predisposed individuals.
+- Intra-abdominal abscess and bacteremia: Translocated *Leptotrichia* from dental procedures or oral infection; rarely cultured from blood but PCR-detectable.
 
 ## Biofilm Architecture and Niche
 

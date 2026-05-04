@@ -22,7 +22,7 @@ conditions_depleted_in: []
 
 # Streptococcus mutans
 
-The primary architect of dental caries -- the most prevalent chronic infectious disease worldwide. *S. mutans* is a Gram-positive, facultative anaerobe that colonizes tooth surfaces and produces the acid-rich, metal-managed biofilms known as dental plaque. What sets this organism apart from other oral streptococci is not merely its acid production, but its **uniquely sophisticated zinc resistance system** that allows it to persist in the oral cavity even when the host deploys zinc as an antimicrobial weapon.
+The primary architect of dental caries -- the most prevalent chronic infectious disease worldwide. *S. mutans* is a Gram-positive, facultative anaerobe that colonizes tooth surfaces and produces the acid-rich, metal-managed biofilms known as dental plaque. What sets this organism apart from other oral streptococci is not merely its acid production, but its uniquely sophisticated zinc resistance system that allows it to persist in the oral cavity even when the host deploys zinc as an antimicrobial weapon.
 
 For the genus-level page covering all pathogenic and commensal streptococci, see [[streptococcus]].
 
@@ -30,13 +30,13 @@ For the genus-level page covering all pathogenic and commensal streptococci, see
 
 ### Manganese and Iron: Essential Cofactors
 
-*S. mutans* requires [[manganese]] and [[iron]] for core metabolic functions, importing both through the **SloABC** ABC transporter regulated by the metalloregulator **SloR** ([[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]], in-vitro). A second manganese transporter, **MntH** (Nramp-type), provides redundancy. Manganese serves as the cofactor for superoxide dismutase and other oxidative stress defense enzymes, while iron supports glycolytic enzymes critical for the acid production that drives tooth demineralization.
+*S. mutans* requires [[manganese]] and [[iron]] for core metabolic functions, importing both through the SloABC ABC transporter regulated by the metalloregulator SloR ([[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]], in-vitro). A second manganese transporter, MntH (Nramp-type), provides redundancy. Manganese serves as the cofactor for superoxide dismutase and other oxidative stress defense enzymes, while iron supports glycolytic enzymes critical for the acid production that drives tooth demineralization.
 
 ### Zinc: Resistance as Survival Strategy
 
-Zinc is simultaneously an essential nutrient and a potent antimicrobial threat to *S. mutans*. Excess zinc is toxic because it binds to non-cognate metalloproteins ([[mis-metallation]]) and interferes with uptake of manganese and iron ([[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]], in-vitro). However, *S. mutans* has evolved **ZccE**, a zinc exporter unique to this species among streptococci, that confers remarkably high zinc tolerance ([[akbari-2022-metal-homeostasis-streptococci]], expert-opinion). A ZccE-deletion mutant is highly susceptible to zinc, confirming that this single exporter is the primary defense against zinc toxicity.
+Zinc is simultaneously an essential nutrient and a potent antimicrobial threat to *S. mutans*. Excess zinc is toxic because it binds to non-cognate metalloproteins ([[mis-metallation]]) and interferes with uptake of manganese and iron ([[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]], in-vitro). However, *S. mutans* has evolved ZccE, a zinc exporter unique to this species among streptococci, that confers remarkably high zinc tolerance ([[akbari-2022-metal-homeostasis-streptococci]], expert-opinion). A ZccE-deletion mutant is highly susceptible to zinc, confirming that this single exporter is the primary defense against zinc toxicity.
 
-This zinc resistance explains a persistent clinical puzzle: despite promising in vitro data showing zinc inhibits *S. mutans* acid production, ATPase activity, and sugar transport, **clinical studies have consistently failed to show significant anti-caries effects of zinc alone**. Zinc concentrations in oral hygiene products (30-150 mM) create sustained elevated oral zinc levels, but ZccE-mediated resistance is sufficient to overcome therapeutic concentrations in vivo.
+This zinc resistance explains a persistent clinical puzzle: despite promising in vitro data showing zinc inhibits *S. mutans* acid production, ATPase activity, and sugar transport, clinical studies have consistently failed to show significant anti-caries effects of zinc alone. Zinc concentrations in oral hygiene products (30-150 mM) create sustained elevated oral zinc levels, but ZccE-mediated resistance is sufficient to overcome therapeutic concentrations in vivo.
 
 ## Key Enzymes and Virulence Factors
 
@@ -69,15 +69,15 @@ When the ecological balance tips -- through high-sugar diets, reduced salivary f
 
 ## Conditions Associated
 
-- **Dental caries** -- Primary etiological agent; acid production drives tooth demineralization
-- **Autism spectrum disorder** -- Enriched in the oral microbiome of ASD children ([[fakhruddin-2025-oral-microbiome-asd-systematic-review]], systematic-review-meta-analysis); mechanism unclear but may relate to altered oral-gut axis
-- **Infective endocarditis** -- Occasional cause following dental procedures with bacteremia
+- Dental caries -- Primary etiological agent; acid production drives tooth demineralization
+- Autism spectrum disorder -- Enriched in the oral microbiome of ASD children ([[fakhruddin-2025-oral-microbiome-asd-systematic-review]], systematic-review-meta-analysis); mechanism unclear but may relate to altered oral-gut axis
+- Infective endocarditis -- Occasional cause following dental procedures with bacteremia
 
 ## Key Studies
 
-- **[[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]]** (in-vitro) -- Comprehensive review of zinc antimicrobial mechanisms against *S. mutans*; identifies ZccE as the critical resistance determinant explaining the clinical failure of zinc-only anti-caries strategies.
-- **[[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]]** (in-vitro) -- Demonstrates near-complete elimination of *S. mutans* biofilm by *S. mitis* H2O2 production; explicitly identifies mismetallation as damage mechanism.
-- **[[akbari-2022-metal-homeostasis-streptococci]]** (expert-opinion, keystone) -- Systematic map of metal transport in pathogenic streptococci; identifies ZccE as unique to *S. mutans* and maps the full SloR/AdcR/CopY metalloregulatory network.
+- [[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]] (in-vitro) -- Comprehensive review of zinc antimicrobial mechanisms against *S. mutans*; identifies ZccE as the critical resistance determinant explaining the clinical failure of zinc-only anti-caries strategies.
+- [[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]] (in-vitro) -- Demonstrates near-complete elimination of *S. mutans* biofilm by *S. mitis* H2O2 production; explicitly identifies mismetallation as damage mechanism.
+- [[akbari-2022-metal-homeostasis-streptococci]] (expert-opinion, keystone) -- Systematic map of metal transport in pathogenic streptococci; identifies ZccE as unique to *S. mutans* and maps the full SloR/AdcR/CopY metalloregulatory network.
 
 ## Cross-References
 

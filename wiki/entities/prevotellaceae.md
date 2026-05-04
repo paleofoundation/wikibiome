@@ -24,7 +24,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Prevotellaceae
 
-A family of Gram-negative, obligate anaerobic bacteria within the phylum Bacteroidota (formerly Bacteroidetes) that includes the genus [[prevotella]] and the recently described [[alloprevotella]]. Prevotellaceae are **specialist fiber fermenters** producing short-chain fatty acids, yet their relationship with human disease is strikingly paradoxical: they are the **most consistently depleted family in Parkinson's disease** but a **causal risk factor for autism spectrum disorder** via Mendelian randomization. This duality makes Prevotellaceae one of the most instructive examples of context-dependent host-microbe interactions in the gut.
+A family of Gram-negative, obligate anaerobic bacteria within the phylum Bacteroidota (formerly Bacteroidetes) that includes the genus [[prevotella]] and the recently described [[alloprevotella]]. Prevotellaceae are specialist fiber fermenters producing short-chain fatty acids, yet their relationship with human disease is strikingly paradoxical: they are the most consistently depleted family in Parkinson's disease but a causal risk factor for autism spectrum disorder via Mendelian randomization. This duality makes Prevotellaceae one of the most instructive examples of context-dependent host-microbe interactions in the gut.
 
 ## Taxonomy
 
@@ -34,16 +34,16 @@ A family of Gram-negative, obligate anaerobic bacteria within the phylum Bactero
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Iron-dependent succinate dehydrogenase participates in the fumarate respiration pathway, a key anaerobic energy-generating strategy in Bacteroidales.
 - Prevotellaceae encode iron uptake systems including TonB-dependent receptors for iron-siderophore complexes, though they are generally less aggressive iron competitors than Enterobacteriaceae.
 - In iron-depleted environments (host nutritional immunity), Prevotellaceae may lose competitive advantage to siderophore-producing pathobionts, contributing to their depletion in inflammatory conditions.
 
 ## Key Enzymes and Metabolic Features
 
-- **Glycoside hydrolases**: Prevotellaceae encode extensive polysaccharide utilization loci (PUL) for degrading plant-derived complex carbohydrates -- xylan, arabinoxylan, pectin. This makes them indicators of fiber-rich diets.
-- **Peptidases**: Prevotella species also degrade host-derived glycoproteins, including mucin, which can trigger inflammatory responses when Prevotellaceae infiltrate the mucosal layer.
-- **Succinate dehydrogenase**: Iron-dependent enzyme in fumarate respiration.
+- Glycoside hydrolases: Prevotellaceae encode extensive polysaccharide utilization loci (PUL) for degrading plant-derived complex carbohydrates -- xylan, arabinoxylan, pectin. This makes them indicators of fiber-rich diets.
+- Peptidases: Prevotella species also degrade host-derived glycoproteins, including mucin, which can trigger inflammatory responses when Prevotellaceae infiltrate the mucosal layer.
+- Succinate dehydrogenase: Iron-dependent enzyme in fumarate respiration.
 
 ## Ecological Role
 
@@ -55,16 +55,16 @@ Prevotellaceae thrive in individuals consuming plant-rich, fiber-heavy diets. Th
 
 ### The Prevotellaceae Paradox
 The family's dual role as both beneficial (SCFA production, fiber fermentation) and potentially harmful (mucosal invasion, T-cell activation) depends on context:
-- **Beneficial**: In the gut lumen, Prevotellaceae ferment dietary fiber into SCFAs and maintain community diversity
-- **Harmful**: When Prevotellaceae infiltrate the mucosal layer, they can trigger T-cell and antibody responses, promoting inflammation [[li-2023-gut-microbiota-asd-bidirectional-mr]]
+- Beneficial: In the gut lumen, Prevotellaceae ferment dietary fiber into SCFAs and maintain community diversity
+- Harmful: When Prevotellaceae infiltrate the mucosal layer, they can trigger T-cell and antibody responses, promoting inflammation [[li-2023-gut-microbiota-asd-bidirectional-mr]]
 
 ## Conditions Associated
 
 ### Parkinson's Disease (Depleted)
-Reduced Prevotellaceae is **the most consistent PD microbiome finding** across multiple meta-analyses [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[romano-2021-meta-analysis-gut-microbiome-parkinsons]]. Depletion correlates with reduced SCFA production and increased gut permeability, potentially facilitating [[alpha-synuclein]] propagation from gut to brain via the vagus nerve. Loss of Prevotellaceae alongside [[lachnospiraceae]] and [[faecalibacterium-prausnitzii|faecalibacterium]] represents the core PD dysbiosis signature.
+Reduced Prevotellaceae is the most consistent PD microbiome finding across multiple meta-analyses [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[romano-2021-meta-analysis-gut-microbiome-parkinsons]]. Depletion correlates with reduced SCFA production and increased gut permeability, potentially facilitating [[alpha-synuclein]] propagation from gut to brain via the vagus nerve. Loss of Prevotellaceae alongside [[lachnospiraceae]] and [[faecalibacterium-prausnitzii|faecalibacterium]] represents the core PD dysbiosis signature.
 
 ### Autism Spectrum Disorder (Risk Factor)
-Prevotellaceae **causally increases ASD risk** (IVW OR = 1.24, 95% CI: 1.09-1.40, p = 9.2 x 10^-4), surviving FDR correction [[li-2023-gut-microbiota-asd-bidirectional-mr]]. The mechanism may involve mucosal infiltration by Prevotellaceae, triggering T-cell and antibody responses that exacerbate neuroinflammation via the gut-brain axis.
+Prevotellaceae causally increases ASD risk (IVW OR = 1.24, 95% CI: 1.09-1.40, p = 9.2 x 10^-4), surviving FDR correction [[li-2023-gut-microbiota-asd-bidirectional-mr]]. The mechanism may involve mucosal infiltration by Prevotellaceae, triggering T-cell and antibody responses that exacerbate neuroinflammation via the gut-brain axis.
 
 ### Schizophrenia (Enriched)
 Prevotellaceae is enriched in schizophrenia patients with violent behaviors (OR = 1.11, 95% CI 1.03-1.20, p = 1.4 x 10^-3) by MR, contrasting with its depletion in PD and depression.
@@ -80,8 +80,8 @@ Prevotellaceae show the most pronounced reduction in depressed patients, with de
 
 ## Open Questions
 
-1. **Why is Prevotellaceae protective in PD but a risk factor in ASD?** The opposing directionality across neurological conditions is unexplained. Species-level differences (P. copri vs. P. melaninogenica), mucosal vs. luminal location, and immune context may resolve this paradox.
-2. **Does dietary fiber supplementation restore Prevotellaceae in PD patients?** Prebiotic intervention targeting Prevotellaceae expansion is an untested therapeutic hypothesis for PD.
+1. Why is Prevotellaceae protective in PD but a risk factor in ASD? The opposing directionality across neurological conditions is unexplained. Species-level differences (P. copri vs. P. melaninogenica), mucosal vs. luminal location, and immune context may resolve this paradox.
+2. Does dietary fiber supplementation restore Prevotellaceae in PD patients? Prebiotic intervention targeting Prevotellaceae expansion is an untested therapeutic hypothesis for PD.
 
 ## Cross-References
 

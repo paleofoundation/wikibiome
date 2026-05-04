@@ -27,4 +27,4 @@ karen_brain_primitives: [5, 6]
 
 ## Overview
 
-**Harm potential: GREEN** — PPIs remain appropriate first-line therapy; this STOP recommends co-administration of probiotics, not PPI avoidance.
+Harm potential: GREEN — PPIs remain appropriate first-line therapy; this STOP recommends co-administration of probiotics, not PPI avoidance.

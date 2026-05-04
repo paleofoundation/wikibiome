@@ -14,21 +14,21 @@ platform: wikibiome
 
 # Epigenetics
 
-**Epigenetics** is the study of heritable changes in gene expression that occur without alterations to the DNA sequence itself. These changes -- primarily DNA methylation, histone modifications, and non-coding RNA regulation -- represent a molecular memory system that can be reprogrammed by environmental exposures, including heavy metals and microbial signals. Epigenetics provides the mechanistic bridge between metal exposure and long-term disease risk, explaining how a transient environmental insult can produce lasting biological consequences, and why developmental timing of exposure matters as much as dose.
+Epigenetics is the study of heritable changes in gene expression that occur without alterations to the DNA sequence itself. These changes -- primarily DNA methylation, histone modifications, and non-coding RNA regulation -- represent a molecular memory system that can be reprogrammed by environmental exposures, including heavy metals and microbial signals. Epigenetics provides the mechanistic bridge between metal exposure and long-term disease risk, explaining how a transient environmental insult can produce lasting biological consequences, and why developmental timing of exposure matters as much as dose.
 
 For the specific role of epigenetic mechanisms in cancer, see [[epigenetic-modifications]].
 
 ## Core Mechanisms
 
 ### DNA Methylation
-The addition of methyl groups to cytosine residues (predominantly at CpG dinucleotides) by DNA methyltransferases (DNMTs) using **S-adenosylmethionine (SAM)** as the methyl donor. Methylation of promoter regions generally silences gene expression. The process is reversible through TET (ten-eleven translocation) enzymes, which are **iron-dependent and 2-oxoglutarate-dependent dioxygenases** -- a critical detail for the metallomics connection.
+The addition of methyl groups to cytosine residues (predominantly at CpG dinucleotides) by DNA methyltransferases (DNMTs) using S-adenosylmethionine (SAM) as the methyl donor. Methylation of promoter regions generally silences gene expression. The process is reversible through TET (ten-eleven translocation) enzymes, which are iron-dependent and 2-oxoglutarate-dependent dioxygenases -- a critical detail for the metallomics connection.
 
 ### Histone Modifications
 Post-translational modifications of histone tails regulate chromatin structure:
-- **Acetylation** (by HATs): Opens chromatin, promotes transcription
-- **Deacetylation** (by HDACs): Closes chromatin, silences genes
-- **Methylation** (by HMTs): Context-dependent; H3K4me3 activates, H3K9me2/3 and H3K27me3 silence
-- **Demethylation** (by JMJD family): Many are iron-dependent and 2-oxoglutarate-dependent dioxygenases
+- Acetylation (by HATs): Opens chromatin, promotes transcription
+- Deacetylation (by HDACs): Closes chromatin, silences genes
+- Methylation (by HMTs): Context-dependent; H3K4me3 activates, H3K9me2/3 and H3K27me3 silence
+- Demethylation (by JMJD family): Many are iron-dependent and 2-oxoglutarate-dependent dioxygenases
 
 The dependence of both TET enzymes and JMJD histone demethylases on iron and 2-oxoglutarate creates a direct connection between metal homeostasis and epigenetic regulation.
 
@@ -39,15 +39,15 @@ microRNAs (miRNAs) and long non-coding RNAs (lncRNAs) regulate gene expression p
 
 ### Nickel
 [[nickel|Nickel]] is the most potent epigenetic disruptor among common metals:
-- Induces **DNA hypermethylation** by inhibiting iron-dependent TET demethylases (Ni displaces Fe from the active site)
-- Causes **histone deacetylation** and increased H3K9 dimethylation (heterochromatin marks) by inhibiting JMJD2 family demethylases
+- Induces DNA hypermethylation by inhibiting iron-dependent TET demethylases (Ni displaces Fe from the active site)
+- Causes histone deacetylation and increased H3K9 dimethylation (heterochromatin marks) by inhibiting JMJD2 family demethylases
 - Silences tumor suppressor genes (p16, FHIT) through promoter hypermethylation
 - The shared mechanism: nickel inhibits 2-oxoglutarate/Fe(II)-dependent dioxygenases by competing with iron and depleting ascorbate (the reducing cofactor) [[salnikov-2008-metal-carcinogenesis]]
 
 ### Arsenic
 [[arsenic|Arsenic]] creates a unique epigenetic paradox -- producing both hypo- and hypermethylation:
 - Arsenic detoxification requires methylation (by arsenic methyltransferase, AS3MT), consuming SAM
-- This **depletes the cellular methyl donor pool**, leading to global DNA hypomethylation
+- This depletes the cellular methyl donor pool, leading to global DNA hypomethylation
 - Simultaneously, compensatory upregulation of DNMTs can produce locus-specific hypermethylation
 - Nutritional status (folate, methionine, B12) modulates susceptibility by determining SAM availability [[salnikov-2008-metal-carcinogenesis]]
 
@@ -65,8 +65,8 @@ microRNAs (miRNAs) and long non-coding RNAs (lncRNAs) regulate gene expression p
 ## Developmental Windows and Transgenerational Effects
 
 Epigenetic reprogramming occurs during two critical developmental windows:
-1. **Gametogenesis**: When primordial germ cells are demethylated and remethylated
-2. **Early embryogenesis**: When the zygotic epigenome is established
+1. Gametogenesis: When primordial germ cells are demethylated and remethylated
+2. Early embryogenesis: When the zygotic epigenome is established
 
 Metal exposure during these windows can produce effects that persist across generations. Lead exposure in pregnant rats alters DNA methylation patterns in grandoffspring (F2 generation) that were never directly exposed -- a transgenerational epigenetic effect mediated through the germline [[chin-chan-2015-environmental-pollutants-ad-pd]].
 
@@ -76,18 +76,18 @@ This has profound implications: the metal burden of a grandmother may influence 
 
 The gut microbiome influences host epigenetics through several mechanisms:
 
-- **SCFA-mediated histone modification**: [[butyrate|Butyrate]] is a potent HDAC inhibitor, promoting histone acetylation and open chromatin in colonocytes and immune cells. This is one of the primary mechanisms by which butyrate exerts anti-inflammatory and anti-cancer effects. Loss of butyrate-producing bacteria reduces this epigenetic regulation.
-- **Folate production**: Gut bacteria synthesize folate and other B vitamins essential for the one-carbon metabolism cycle that produces SAM. Dysbiosis that reduces folate-producing organisms may limit methyl donor availability, compounding metal-induced SAM depletion.
-- **Microbial metabolites**: Various bacterial metabolites (including [[indoles]], [[polyphenols]] metabolites, and bile acid derivatives) influence DNMT and HDAC activity in intestinal epithelial cells.
-- **Bidirectional relationship**: Metal-induced epigenetic changes in intestinal epithelial cells alter antimicrobial peptide expression, mucin production, and immune signaling, reshaping the microbiome -- which in turn produces metabolites that further modify the epigenome.
+- SCFA-mediated histone modification: [[butyrate|Butyrate]] is a potent HDAC inhibitor, promoting histone acetylation and open chromatin in colonocytes and immune cells. This is one of the primary mechanisms by which butyrate exerts anti-inflammatory and anti-cancer effects. Loss of butyrate-producing bacteria reduces this epigenetic regulation.
+- Folate production: Gut bacteria synthesize folate and other B vitamins essential for the one-carbon metabolism cycle that produces SAM. Dysbiosis that reduces folate-producing organisms may limit methyl donor availability, compounding metal-induced SAM depletion.
+- Microbial metabolites: Various bacterial metabolites (including [[indoles]], [[polyphenols]] metabolites, and bile acid derivatives) influence DNMT and HDAC activity in intestinal epithelial cells.
+- Bidirectional relationship: Metal-induced epigenetic changes in intestinal epithelial cells alter antimicrobial peptide expression, mucin production, and immune signaling, reshaping the microbiome -- which in turn produces metabolites that further modify the epigenome.
 
 ## Disease Relevance
 
-- **Cancer**: Metal-induced epigenetic silencing of tumor suppressors is a primary mechanism for [[nickel]]-, [[arsenic]]-, and [[cadmium]]-associated cancers. See [[epigenetic-modifications]] and [[metal-carcinogenesis]].
-- **Neurodevelopmental disorders**: Lead-induced epigenetic reprogramming during brain development may contribute to [[autism-spectrum-disorder]] risk [[blazewicz-2023-metal-profiles-asd]].
-- **Neurodegenerative diseases**: Developmental metal exposure creates epigenetic "time bombs" that manifest as AD or PD decades later [[chin-chan-2015-environmental-pollutants-ad-pd]].
-- **Endometriosis**: Epigenetic dysregulation of estrogen receptor and immune genes, potentially influenced by metal exposure, contributes to disease pathogenesis [[piecuch-2022-nutrition-endometriosis-review]].
-- **Schizophrenia**: Epigenetic mechanisms may mediate the effects of environmental metal exposure on neurodevelopment, contributing to schizophrenia risk [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
+- Cancer: Metal-induced epigenetic silencing of tumor suppressors is a primary mechanism for [[nickel]]-, [[arsenic]]-, and [[cadmium]]-associated cancers. See [[epigenetic-modifications]] and [[metal-carcinogenesis]].
+- Neurodevelopmental disorders: Lead-induced epigenetic reprogramming during brain development may contribute to [[autism-spectrum-disorder]] risk [[blazewicz-2023-metal-profiles-asd]].
+- Neurodegenerative diseases: Developmental metal exposure creates epigenetic "time bombs" that manifest as AD or PD decades later [[chin-chan-2015-environmental-pollutants-ad-pd]].
+- Endometriosis: Epigenetic dysregulation of estrogen receptor and immune genes, potentially influenced by metal exposure, contributes to disease pathogenesis [[piecuch-2022-nutrition-endometriosis-review]].
+- Schizophrenia: Epigenetic mechanisms may mediate the effects of environmental metal exposure on neurodevelopment, contributing to schizophrenia risk [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
 
 ## Cross-References
 

@@ -4,9 +4,12 @@ type: entity
 subtype: fungus
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome
+  - ling-2025-gut-mycobiota-schizophrenia-metabolic-syndrome-trichosporon
+  - li-2025-intestinal-fungi-ckd-heart-failure
+source_count: 3
 tags:
   - ascomycota
   - saccharomycetaceae
@@ -30,17 +33,15 @@ conditions_enriched_in:
   - fungemia
   - catheter-related-infection
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Lodderomyces elongisporus** is an ascomycetous yeast and the closest known phylogenetic relative of *Candida parapsilosis*. Originally considered non-pathogenic, it has emerged as a rare but clinically significant cause of fungemia, particularly in patients with indwelling catheters or immunosuppression. It is frequently misidentified as *C. parapsilosis* by conventional methods.
+Lodderomyces elongisporus is an ascomycetous yeast and the closest known phylogenetic relative of *Candida parapsilosis*. Originally considered non-pathogenic, it has emerged as a rare but clinically significant cause of fungemia, particularly in patients with indwelling catheters or immunosuppression. It is frequently misidentified as *C. parapsilosis* by conventional methods.
 
 ## Metal Dependencies
 
-L. elongisporus shares with its Candida relatives a dependence on **iron** for growth, **zinc** for protease activity, and **copper** for superoxide dismutase-mediated oxidative defense. Its iron acquisition strategies likely mirror those of *C. parapsilosis*, including reductive iron uptake and possible siderophore utilization.
+L. elongisporus shares with its Candida relatives a dependence on iron for growth, zinc for protease activity, and copper for superoxide dismutase-mediated oxidative defense. Its iron acquisition strategies likely mirror those of *C. parapsilosis*, including reductive iron uptake and possible siderophore utilization.
 
 ## Ecological Role
 

@@ -22,7 +22,7 @@ conditions_depleted_in: [colorectal-cancer, multiple-sclerosis, inflammatory-bow
 
 # Butyricicoccus
 
-A genus of Gram-positive, strictly anaerobic, butyrate-producing bacteria in the order Clostridiales (phylum Firmicutes). The type species, *Butyricicoccus pullicaecorum*, was originally isolated from chicken caecal content but has since been identified as a significant member of the healthy human gut microbiome. *Butyricicoccus* has attracted attention as a candidate **next-generation probiotic** because of its consistent depletion in colorectal cancer, multiple sclerosis, and inflammatory bowel disease -- conditions characterized by impaired butyrate production and compromised gut barrier integrity.
+A genus of Gram-positive, strictly anaerobic, butyrate-producing bacteria in the order Clostridiales (phylum Firmicutes). The type species, *Butyricicoccus pullicaecorum*, was originally isolated from chicken caecal content but has since been identified as a significant member of the healthy human gut microbiome. *Butyricicoccus* has attracted attention as a candidate next-generation probiotic because of its consistent depletion in colorectal cancer, multiple sclerosis, and inflammatory bowel disease -- conditions characterized by impaired butyrate production and compromised gut barrier integrity.
 
 ## Metal Dependencies
 
@@ -32,9 +32,9 @@ As a strictly anaerobic Firmicute, *Butyricicoccus* requires [[iron]] for iron-s
 
 *Butyricicoccus* is not pathogenic. Its significance is entirely beneficial:
 
-- **Butyryl-CoA dehydrogenase** -- Key enzyme in the butyrate biosynthesis pathway via the acetyl-CoA route
-- **Butyrate kinase** -- Terminal enzyme in the butyrate kinase pathway for butyrate production
-- **Short-chain fatty acid production** -- [[butyrate|Butyrate]] is the primary metabolic output, serving as the preferred energy source for colonocytes and a potent anti-inflammatory signaling molecule
+- Butyryl-CoA dehydrogenase -- Key enzyme in the butyrate biosynthesis pathway via the acetyl-CoA route
+- Butyrate kinase -- Terminal enzyme in the butyrate kinase pathway for butyrate production
+- Short-chain fatty acid production -- [[butyrate|Butyrate]] is the primary metabolic output, serving as the preferred energy source for colonocytes and a potent anti-inflammatory signaling molecule
 
 ## Ecological Role
 
@@ -48,15 +48,15 @@ As a strictly anaerobic Firmicute, *Butyricicoccus* requires [[iron]] for iron-s
 
 ## Conditions Associated
 
-- **Colorectal cancer** -- Depleted in CRC patients across multiple studies. In a systematic review of microbial markers for colorectal neoplasia, butyrate-producing taxa including *Butyricicoccus* are consistently reduced in tumor-bearing patients ([[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]], systematic-review-meta-analysis). Multi-omic profiling confirms depletion of butyrate producers in CRC with corresponding enrichment of pathogenic taxa like *Fusobacterium nucleatum* and *Bacteroides fragilis* ([[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]], cross-sectional, n=41).
-- **Multiple sclerosis** -- Altered in the oral microbiome of relapsing-remitting MS patients, with MS showing a broad shift away from Gram-positive early colonizers toward Gram-negative pathobionts ([[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]], case-control, n=100).
-- **Inflammatory bowel disease** -- Reduced as part of the general loss of butyrate-producing Firmicutes in IBD.
+- Colorectal cancer -- Depleted in CRC patients across multiple studies. In a systematic review of microbial markers for colorectal neoplasia, butyrate-producing taxa including *Butyricicoccus* are consistently reduced in tumor-bearing patients ([[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]], systematic-review-meta-analysis). Multi-omic profiling confirms depletion of butyrate producers in CRC with corresponding enrichment of pathogenic taxa like *Fusobacterium nucleatum* and *Bacteroides fragilis* ([[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]], cross-sectional, n=41).
+- Multiple sclerosis -- Altered in the oral microbiome of relapsing-remitting MS patients, with MS showing a broad shift away from Gram-positive early colonizers toward Gram-negative pathobionts ([[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]], case-control, n=100).
+- Inflammatory bowel disease -- Reduced as part of the general loss of butyrate-producing Firmicutes in IBD.
 
 ## Key Studies
 
-- **[[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]]** (systematic-review-meta-analysis) -- Comprehensive review identifying butyrate-producing taxa including *Butyricicoccus* as consistently depleted CRC biomarkers across 45 observational and 30 prediction studies.
-- **[[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]** (cross-sectional, n=41) -- Multi-omic study confirming depletion of butyrate producers in CRC; identifies metabolic pathway enrichments in tumor microenvironment.
-- **[[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]]** (case-control, n=100) -- Documents oral microbiome alterations in MS including shifts in *Butyricicoccus* and related taxa.
+- [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]] (systematic-review-meta-analysis) -- Comprehensive review identifying butyrate-producing taxa including *Butyricicoccus* as consistently depleted CRC biomarkers across 45 observational and 30 prediction studies.
+- [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] (cross-sectional, n=41) -- Multi-omic study confirming depletion of butyrate producers in CRC; identifies metabolic pathway enrichments in tumor microenvironment.
+- [[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]] (case-control, n=100) -- Documents oral microbiome alterations in MS including shifts in *Butyricicoccus* and related taxa.
 
 ## Cross-References
 

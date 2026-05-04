@@ -135,24 +135,24 @@ stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10
 
 ## Overview
 
-**Fibromyalgia (FM)** affects 2-4% of the global population (Heidari et al. 2017), characterized by widespread musculoskeletal pain, fatigue, cognitive dysfunction ("fibro fog"), and sleep disturbances. The microbiome offers both a **diagnostic biomarker** (AUC=87.8%, Minerbi et al. 2019 — outperforming most conventional diagnostic approaches) and a mechanistic explanation linking metal dysregulation, microbial ecology, and neurotransmitter imbalance through the gut-brain axis.
+Fibromyalgia (FM) affects 2-4% of the global population (Heidari et al. 2017), characterized by widespread musculoskeletal pain, fatigue, cognitive dysfunction ("fibro fog"), and sleep disturbances. The microbiome offers both a diagnostic biomarker (AUC=87.8%, Minerbi et al. 2019 — outperforming most conventional diagnostic approaches) and a mechanistic explanation linking metal dysregulation, microbial ecology, and neurotransmitter imbalance through the gut-brain axis.
 
-FM has the most well-characterized metallomic signature among the diseases in this batch, with MR-validated causal roles for copper (risk factor, OR=1.095) and iron (protective, OR=0.440) (Zeng et al. 2025). The **copper-iron axis** is particularly informative and mechanistically links the metallomic and taxonomic layers.
+FM has the most well-characterized metallomic signature among the diseases in this batch, with MR-validated causal roles for copper (risk factor, OR=1.095) and iron (protective, OR=0.440) (Zeng et al. 2025). The copper-iron axis is particularly informative and mechanistically links the metallomic and taxonomic layers.
 
 This signature lacks dedicated ingested source pages but draws from richly detailed entity page synthesis of multiple external references. Confidence levels reflect the strength of the underlying evidence despite the source page gap.
 
 ## Metallomic Signature
 
-**Confidence: moderate**
+Confidence: moderate
 
 | Metal | Direction | Evidence | Mechanism |
 |-------|-----------|----------|-----------|
-| **Copper (Cu)** | Elevated (causal) | MR OR=1.095 (Zeng et al. 2025) | Promotes oxidative stress, displaces zinc in metalloenzymes, amplifies neuroinflammation. Elevated Cu/Zn ratio correlates with pain severity |
-| **Iron (Fe)** | Depleted (protective when present) | MR OR=0.440 (protective, Zeng et al. 2025); ferritin <50 ng/mL = 6.5x FM risk (Shtrozberg et al. 2025) | Impairs mitochondrial function and dopamine synthesis. Hepcidin-mediated sequestration may explain functional iron deficiency |
-| **Magnesium (Mg)** | Depleted | Observational studies | Cofactor for >300 enzymes; deficiency amplifies NMDA receptor activation, central sensitization, and muscle hyperexcitability |
-| **Selenium (Se)** | Depleted | Observational studies | Cofactor for glutathione peroxidase (GPX); depletion impairs antioxidant defense. GPX3 expression decreased 0.85x in FM (Duran-Gonzalez et al. 2025) |
+| Copper (Cu) | Elevated (causal) | MR OR=1.095 (Zeng et al. 2025) | Promotes oxidative stress, displaces zinc in metalloenzymes, amplifies neuroinflammation. Elevated Cu/Zn ratio correlates with pain severity |
+| Iron (Fe) | Depleted (protective when present) | MR OR=0.440 (protective, Zeng et al. 2025); ferritin <50 ng/mL = 6.5x FM risk (Shtrozberg et al. 2025) | Impairs mitochondrial function and dopamine synthesis. Hepcidin-mediated sequestration may explain functional iron deficiency |
+| Magnesium (Mg) | Depleted | Observational studies | Cofactor for >300 enzymes; deficiency amplifies NMDA receptor activation, central sensitization, and muscle hyperexcitability |
+| Selenium (Se) | Depleted | Observational studies | Cofactor for glutathione peroxidase (GPX); depletion impairs antioxidant defense. GPX3 expression decreased 0.85x in FM (Duran-Gonzalez et al. 2025) |
 
-The **copper-iron axis** is the defining metallomic feature: elevated copper competes with iron for transport and binding sites, potentially explaining functional iron deficiency in FM patients even when serum iron appears normal. This creates a mis-metallation scenario where copper displaces iron in critical metalloenzymes.
+The copper-iron axis is the defining metallomic feature: elevated copper competes with iron for transport and binding sites, potentially explaining functional iron deficiency in FM patients even when serum iron appears normal. This creates a mis-metallation scenario where copper displaces iron in critical metalloenzymes.
 
 ## Environmental Exposures
 
@@ -160,57 +160,57 @@ Copper exposure sources include drinking water from copper pipes, copper-rich fo
 
 ## Nutritional Immunity Response
 
-**Confidence: moderate**
+Confidence: moderate
 
-- **Elevated copper**: Promotes oxidative stress that selectively favors copper-tolerant taxa while suppressing copper-sensitive commensals [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]].
-- **Elevated serum butyrate** (paradoxical): FM patients show elevated serum butyrate despite depletion of canonical butyrate-producing taxa. This likely reflects impaired colonocyte butyrate uptake (barrier dysfunction causes butyrate to "leak" into systemic circulation) rather than increased production.
-- **Depleted ferritin**: Ferritin <50 ng/mL creates 6.5x FM risk. Iron restriction by hepcidin starves iron-dependent beneficial taxa (Faecalibacterium requires iron for butyrate synthesis) while sparing iron-independent opportunists.
-- **Depleted glutathione peroxidase 3 (GPX3)**: Expression decreased 0.85x in FM (Duran-Gonzalez et al. 2025), reducing capacity to neutralize oxidative stress from copper excess.
-- **Depleted serotonin**: Tryptophan-kynurenine shunting via IDO upregulation from pro-inflammatory cytokines reduces serotonin availability, contributing to pain amplification and mood disturbance.
+- Elevated copper: Promotes oxidative stress that selectively favors copper-tolerant taxa while suppressing copper-sensitive commensals [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]].
+- Elevated serum butyrate (paradoxical): FM patients show elevated serum butyrate despite depletion of canonical butyrate-producing taxa. This likely reflects impaired colonocyte butyrate uptake (barrier dysfunction causes butyrate to "leak" into systemic circulation) rather than increased production.
+- Depleted ferritin: Ferritin <50 ng/mL creates 6.5x FM risk. Iron restriction by hepcidin starves iron-dependent beneficial taxa (Faecalibacterium requires iron for butyrate synthesis) while sparing iron-independent opportunists.
+- Depleted glutathione peroxidase 3 (GPX3): Expression decreased 0.85x in FM (Duran-Gonzalez et al. 2025), reducing capacity to neutralize oxidative stress from copper excess.
+- Depleted serotonin: Tryptophan-kynurenine shunting via IDO upregulation from pro-inflammatory cytokines reduces serotonin availability, contributing to pain amplification and mood disturbance.
 
 ## Taxonomic Analysis
 
-**Confidence: high**
+Confidence: high
 
 ### Enriched Taxa
 
-**[[eggerthella-lenta]]** is MR-validated as causal (OR=1.897, Wang et al. 2024) — the strongest validated risk taxon. Eggerthella produces neurotoxic metabolites, activates pro-inflammatory pathways, and is enriched in multiple neuropsychiatric conditions. Its copper tolerance may explain its competitive advantage in the copper-elevated FM environment.
+[[eggerthella-lenta]] is MR-validated as causal (OR=1.897, Wang et al. 2024) — the strongest validated risk taxon. Eggerthella produces neurotoxic metabolites, activates pro-inflammatory pathways, and is enriched in multiple neuropsychiatric conditions. Its copper tolerance may explain its competitive advantage in the copper-elevated FM environment.
 
-**Coprococcus 2** has MR causal association (OR=2.317, Wang et al. 2024), creating the **Coprococcus paradox**: this butyrate-associated genus is enriched in a butyrate-depleted state, suggesting strain-level functional divergence where FM-enriched strains may not produce butyrate or may produce alternative metabolites.
+Coprococcus 2 has MR causal association (OR=2.317, Wang et al. 2024), creating the Coprococcus paradox: this butyrate-associated genus is enriched in a butyrate-depleted state, suggesting strain-level functional divergence where FM-enriched strains may not produce butyrate or may produce alternative metabolites.
 
-**Flavonifractor** is enriched and associated with oxidative stress and depression — bridging the FM-depression comorbidity at the taxonomic level.
+Flavonifractor is enriched and associated with oxidative stress and depression — bridging the FM-depression comorbidity at the taxonomic level.
 
-**[[collinsella]]** is pro-inflammatory, enriched in FM and rheumatoid arthritis, and promotes gut permeability through tight junction disruption.
+[[collinsella]] is pro-inflammatory, enriched in FM and rheumatoid arthritis, and promotes gut permeability through tight junction disruption.
 
 ### Depleted Taxa
 
-**[[faecalibacterium-prausnitzii]]** depletion is the most consistent finding in FM, reported across **5+ independent studies** (Goudman et al. 2024, meta-analysis). This is the single most replicated taxonomic finding in FM. F. prausnitzii is the primary butyrate producer; its depletion reduces anti-inflammatory signaling and compromises intestinal barrier integrity. Iron is required for F. prausnitzii butyrate synthesis — the hepcidin-mediated iron restriction in FM may directly cause this depletion.
+[[faecalibacterium-prausnitzii]] depletion is the most consistent finding in FM, reported across 5+ independent studies (Goudman et al. 2024, meta-analysis). This is the single most replicated taxonomic finding in FM. F. prausnitzii is the primary butyrate producer; its depletion reduces anti-inflammatory signaling and compromises intestinal barrier integrity. Iron is required for F. prausnitzii butyrate synthesis — the hepcidin-mediated iron restriction in FM may directly cause this depletion.
 
-**[[bifidobacterium]]**, **Bacteroides uniformis**, **[[lachnospiraceae]]**, and **[[roseburia]]** are all depleted, compounding the SCFA deficit and barrier dysfunction.
+[[bifidobacterium]], Bacteroides uniformis, [[lachnospiraceae]], and [[roseburia]] are all depleted, compounding the SCFA deficit and barrier dysfunction.
 
 ### Diagnostic Classifier
 
-Minerbi et al. 2019 demonstrated that a microbiome-based classifier (primarily using Faecalibacterium depletion and Eggerthella/Flavonifractor enrichment) achieves **AUC=87.8%** for distinguishing FM from healthy controls — outperforming most conventional approaches for a condition that currently lacks any objective biomarker.
+Minerbi et al. 2019 demonstrated that a microbiome-based classifier (primarily using Faecalibacterium depletion and Eggerthella/Flavonifractor enrichment) achieves AUC=87.8% for distinguishing FM from healthy controls — outperforming most conventional approaches for a condition that currently lacks any objective biomarker.
 
 ## Virulence Enzymes and Features
 
-**Confidence: preliminary**
+Confidence: preliminary
 
-- **Neurotoxic metabolite production (Eggerthella)**: Eggerthella produces metabolites that activate pro-inflammatory pathways and may directly sensitize nociceptive neurons. The specific metabolites are under investigation but include phenol and p-cresol derivatives.
-- **Indoleamine 2,3-dioxygenase (IDO)**: Upregulated by pro-inflammatory cytokines from dysbiotic community; shunts tryptophan from serotonin toward neurotoxic quinolinic acid.
-- **LPS translocation**: Barrier dysfunction from butyrate depletion and Collinsella tight junction disruption permits endotoxin entry, activating TLR4 on microglia and amplifying central sensitization.
+- Neurotoxic metabolite production (Eggerthella): Eggerthella produces metabolites that activate pro-inflammatory pathways and may directly sensitize nociceptive neurons. The specific metabolites are under investigation but include phenol and p-cresol derivatives.
+- Indoleamine 2,3-dioxygenase (IDO): Upregulated by pro-inflammatory cytokines from dysbiotic community; shunts tryptophan from serotonin toward neurotoxic quinolinic acid.
+- LPS translocation: Barrier dysfunction from butyrate depletion and Collinsella tight junction disruption permits endotoxin entry, activating TLR4 on microglia and amplifying central sensitization.
 
 ## Ecological State
 
-**Confidence: moderate**
+Confidence: moderate
 
 ### The Copper-Iron Axis
 
-The defining ecological feature of FM is the **copper-iron imbalance** that creates two simultaneous selective pressures: (1) elevated copper favors copper-tolerant organisms (Eggerthella, Collinsella) while suppressing copper-sensitive commensals, and (2) iron restriction (hepcidin-mediated) starves iron-dependent beneficial taxa (Faecalibacterium) while sparing iron-independent opportunists. The result is a community restructured around metal tolerance rather than metabolic function.
+The defining ecological feature of FM is the copper-iron imbalance that creates two simultaneous selective pressures: (1) elevated copper favors copper-tolerant organisms (Eggerthella, Collinsella) while suppressing copper-sensitive commensals, and (2) iron restriction (hepcidin-mediated) starves iron-dependent beneficial taxa (Faecalibacterium) while sparing iron-independent opportunists. The result is a community restructured around metal tolerance rather than metabolic function.
 
 ### The Butyrate Paradox
 
-Elevated serum butyrate despite depleted butyrate-producing taxa is explained by **impaired colonocyte butyrate uptake**. Barrier dysfunction from Collinsella tight junction disruption and butyrate-producer depletion causes butyrate to "leak" into systemic circulation rather than being consumed by colonocytes. This paradox is clinically important: serum butyrate measurement is misleading if not interpreted in the context of colonocyte function.
+Elevated serum butyrate despite depleted butyrate-producing taxa is explained by impaired colonocyte butyrate uptake. Barrier dysfunction from Collinsella tight junction disruption and butyrate-producer depletion causes butyrate to "leak" into systemic circulation rather than being consumed by colonocytes. This paradox is clinically important: serum butyrate measurement is misleading if not interpreted in the context of colonocyte function.
 
 ### Central Sensitization from the Gut
 
@@ -248,7 +248,7 @@ Overlapping fatigue, cognitive dysfunction, and Faecalibacterium depletion. FM a
 
 ## Karen's Brain Primitives Active
 
-- **Primitive 1 (Metals as Selective Pressures)**: Copper excess selects for copper-tolerant taxa (Eggerthella, Collinsella) while iron restriction via hepcidin selects against iron-dependent commensals (Faecalibacterium). The metal landscape determines community composition.
-- **Primitive 3 (Mis-metallation and Toxic Metal Entry)**: Copper displacing zinc and iron in metalloenzymes is a mis-metallation event. Elevated copper competes with iron for transport proteins, creating functional iron deficiency even when dietary iron is adequate.
-- **Primitive 4 (Microbial Metal Dependencies as Achilles' Heels)**: Faecalibacterium's iron dependence is its vulnerability in the FM context. If iron can be selectively delivered to the colonic lumen (bypassing hepcidin) or copper can be chelated, the competitive landscape shifts back toward commensals.
-- **Primitive 5 (Two-Sided Ecological Engineering)**: FM intervention requires both copper reduction/iron restoration (metal axis normalization) and direct microbial support (Faecalibacterium, Bifidobacterium supplementation with dietary fiber substrate).
+- Primitive 1 (Metals as Selective Pressures): Copper excess selects for copper-tolerant taxa (Eggerthella, Collinsella) while iron restriction via hepcidin selects against iron-dependent commensals (Faecalibacterium). The metal landscape determines community composition.
+- Primitive 3 (Mis-metallation and Toxic Metal Entry): Copper displacing zinc and iron in metalloenzymes is a mis-metallation event. Elevated copper competes with iron for transport proteins, creating functional iron deficiency even when dietary iron is adequate.
+- Primitive 4 (Microbial Metal Dependencies as Achilles' Heels): Faecalibacterium's iron dependence is its vulnerability in the FM context. If iron can be selectively delivered to the colonic lumen (bypassing hepcidin) or copper can be chelated, the competitive landscape shifts back toward commensals.
+- Primitive 5 (Two-Sided Ecological Engineering): FM intervention requires both copper reduction/iron restoration (metal axis normalization) and direct microbial support (Faecalibacterium, Bifidobacterium supplementation with dietary fiber substrate).

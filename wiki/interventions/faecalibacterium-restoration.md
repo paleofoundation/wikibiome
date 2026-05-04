@@ -29,28 +29,28 @@ targets:
 karen_brain_primitives: [5, 9]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Faecalibacterium prausnitzii Restoration
 
 ## Intervention Summary
 
-Targeted restoration of **Faecalibacterium prausnitzii** — the most consistently depleted commensal across nearly every disease signature in the knowledge base (IBD, CRC, ASD, neuropsychiatric conditions, metabolic disease). F. prausnitzii is an obligate anaerobe that produces butyrate, secretes the microbial anti-inflammatory molecule (MAM), induces IL-10 from dendritic cells, and suppresses NF-kB signaling.
+Targeted restoration of Faecalibacterium prausnitzii — the most consistently depleted commensal across nearly every disease signature in the knowledge base (IBD, CRC, ASD, neuropsychiatric conditions, metabolic disease). F. prausnitzii is an obligate anaerobe that produces butyrate, secretes the microbial anti-inflammatory molecule (MAM), induces IL-10 from dendritic cells, and suppresses NF-kB signaling.
 
 ## Evidence
 
 - F. prausnitzii abundance inversely correlates with Crohn's disease relapse risk in prospective cohorts
 - Post-surgical recurrence of CD is predicted by low F. prausnitzii counts at resection margins
 - Animal models confirm oral F. prausnitzii reduces colitis severity and restores barrier function
-- **Direct human supplementation trials are in early stages** — the organism's extreme oxygen sensitivity (dies within minutes of air exposure) makes formulation challenging
+- Direct human supplementation trials are in early stages — the organism's extreme oxygen sensitivity (dies within minutes of air exposure) makes formulation challenging
 - Indirect restoration via prebiotic feeding (see [[high-fiber-prebiotics]]) is the current practical approach
 
 ## Mechanism
 
-1. **Butyrate production**: F. prausnitzii is one of the top butyrate producers in the human colon, feeding colonocytes and maintaining the anaerobic lumen
-2. **MAM secretion**: The microbial anti-inflammatory molecule directly inhibits NF-kB in epithelial cells
-3. **IL-10 induction**: F. prausnitzii stimulates anti-inflammatory IL-10 production from dendritic cells
-4. **Oxygen consumption**: As an obligate anaerobe dependent on butyrate-driven colonocyte oxygen consumption, its restoration helps re-establish the steep oxygen gradient that maintains healthy anaerobic ecology
+1. Butyrate production: F. prausnitzii is one of the top butyrate producers in the human colon, feeding colonocytes and maintaining the anaerobic lumen
+2. MAM secretion: The microbial anti-inflammatory molecule directly inhibits NF-kB in epithelial cells
+3. IL-10 induction: F. prausnitzii stimulates anti-inflammatory IL-10 production from dendritic cells
+4. Oxygen consumption: As an obligate anaerobe dependent on butyrate-driven colonocyte oxygen consumption, its restoration helps re-establish the steep oxygen gradient that maintains healthy anaerobic ecology
 
 ## Clinical Context
 
@@ -59,4 +59,4 @@ Direct F. prausnitzii supplementation is not yet commercially available as a pro
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

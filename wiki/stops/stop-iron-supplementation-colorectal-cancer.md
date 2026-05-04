@@ -20,7 +20,7 @@ karen_brain_primitives: [1, 2, 4, 8]
 
 # STOP: Oral Iron Supplementation in Colorectal Cancer
 
-> **Research summary -- not medical advice.** This page synthesizes published research on why a commonly prescribed intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
+> Research summary -- not medical advice. This page synthesizes published research on why a commonly prescribed intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
 
 ## The Problem
 
@@ -32,10 +32,10 @@ CRC patients commonly present with iron deficiency anemia -- occult blood loss f
 
 The CRC tumor microenvironment harbors a distinctive consortium of iron-dependent pathobionts:
 
-- **[[fusobacterium-nucleatum]]**: The most consistently enriched bacterium in CRC globally. Its FadA adhesin disrupts E-cadherin, activating beta-catenin/Wnt proliferative signaling. Fap2 protein binds TIGIT receptors on NK cells, inhibiting anti-tumor immunity [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. F. nucleatum abundance increases progressively through the adenoma-carcinoma sequence [[marchesi-2011-towards-human-crc-microbiome]].
-- **pks+ [[escherichia-coli]]**: Produces colibactin, a genotoxin causing double-strand DNA breaks and characteristic single-base substitutions [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. Siderophore-producing E. coli strains thrive on luminal iron.
-- **[[enterococcus-faecalis]]**: Produces extracellular superoxide and hydroxyl radicals, directly damaging colonic DNA.
-- **Enterotoxigenic [[bacteroides-fragilis]]**: BFT metalloprotease toxin cleaves E-cadherin and activates NF-kB/Wnt signaling [[gao-2015-microbiota-disbiosis-colorectal-cancer]].
+- [[fusobacterium-nucleatum]]: The most consistently enriched bacterium in CRC globally. Its FadA adhesin disrupts E-cadherin, activating beta-catenin/Wnt proliferative signaling. Fap2 protein binds TIGIT receptors on NK cells, inhibiting anti-tumor immunity [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. F. nucleatum abundance increases progressively through the adenoma-carcinoma sequence [[marchesi-2011-towards-human-crc-microbiome]].
+- pks+ [[escherichia-coli]]: Produces colibactin, a genotoxin causing double-strand DNA breaks and characteristic single-base substitutions [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. Siderophore-producing E. coli strains thrive on luminal iron.
+- [[enterococcus-faecalis]]: Produces extracellular superoxide and hydroxyl radicals, directly damaging colonic DNA.
+- Enterotoxigenic [[bacteroides-fragilis]]: BFT metalloprotease toxin cleaves E-cadherin and activates NF-kB/Wnt signaling [[gao-2015-microbiota-disbiosis-colorectal-cancer]].
 
 All of these organisms benefit from increased luminal iron availability. Oral iron supplementation selectively enriches them at the expense of protective SCFA-producing commensals ([[faecalibacterium-prausnitzii]], Roseburia, [[bifidobacterium]]) [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 
@@ -57,13 +57,13 @@ CRC tissue shows elevated iron alongside elevated copper and depleted zinc and s
 
 ## Alternatives
 
-1. **IV iron (ferric carboxymaltose)**: Corrects anemia without delivering iron to the colonic lumen. Increasingly used in preoperative CRC protocols. Avoids the dysbiosis-promoting and oxidative-damage effects of oral iron.
+1. IV iron (ferric carboxymaltose): Corrects anemia without delivering iron to the colonic lumen. Increasingly used in preoperative CRC protocols. Avoids the dysbiosis-promoting and oxidative-damage effects of oral iron.
 
-2. **[[lactoferrin-supplementation]]**: Delivers iron to host cells via lactoferrin receptors while sequestering free iron from tumor-associated pathobionts. Has additional anti-biofilm and immunomodulatory properties.
+2. [[lactoferrin-supplementation]]: Delivers iron to host cells via lactoferrin receptors while sequestering free iron from tumor-associated pathobionts. Has additional anti-biofilm and immunomodulatory properties.
 
-3. **Address the bleeding source**: Surgical resection or endoscopic treatment of the tumor eliminates the primary cause of iron loss.
+3. Address the bleeding source: Surgical resection or endoscopic treatment of the tumor eliminates the primary cause of iron loss.
 
-4. **Hepcidin-guided approach**: Measure hepcidin to distinguish true deficiency (low hepcidin -- IV iron appropriate) from functional anemia (high hepcidin -- treat the cancer/inflammation first).
+4. Hepcidin-guided approach: Measure hepcidin to distinguish true deficiency (low hepcidin -- IV iron appropriate) from functional anemia (high hepcidin -- treat the cancer/inflammation first).
 
 ## Connections
 
@@ -78,4 +78,4 @@ CRC tissue shows elevated iron alongside elevated copper and depleted zinc and s
 
 ---
 
-> **Educational content, not medical advice.** Clinical decisions about iron management in CRC should be made with an oncologist or gastroenterologist who can assess the anemia etiology and determine the appropriate route of iron repletion.
+> Educational content, not medical advice. Clinical decisions about iron management in CRC should be made with an oncologist or gastroenterologist who can assess the anemia etiology and determine the appropriate route of iron repletion.

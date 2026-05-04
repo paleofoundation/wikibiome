@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-**Immunotherapy** harnesses the patient's own immune system to fight disease, most notably cancer. Immune checkpoint inhibitors (ICIs) -- antibodies that block PD-1, PD-L1, or CTLA-4 -- have revolutionized oncology since their introduction in the 2010s, producing durable responses in melanoma, lung cancer, renal cell carcinoma, and other malignancies. However, only 20-40% of patients respond to ICIs, and the search for response predictors has converged on an unexpected target: the gut microbiome.
+Immunotherapy harnesses the patient's own immune system to fight disease, most notably cancer. Immune checkpoint inhibitors (ICIs) -- antibodies that block PD-1, PD-L1, or CTLA-4 -- have revolutionized oncology since their introduction in the 2010s, producing durable responses in melanoma, lung cancer, renal cell carcinoma, and other malignancies. However, only 20-40% of patients respond to ICIs, and the search for response predictors has converged on an unexpected target: the gut microbiome.
 
 In the WikiBiome framework, immunotherapy sits at the intersection of [[immune-balance]], [[microbial-biomarkers]], and metal-dependent immune regulation. The microbiome determines whether the immune system can be effectively unleashed against tumors, and metal status modulates both immune checkpoint expression and microbial community composition.
 
@@ -26,20 +26,20 @@ In the WikiBiome framework, immunotherapy sits at the intersection of [[immune-b
 
 Multiple independent studies have demonstrated that gut microbiome composition predicts ICI response:
 
-- **Responders** harbor distinct microbial communities enriched in specific taxa
-- **Germ-free mice** do not respond to anti-PD-1 therapy
-- **Fecal microbiota transplant (FMT)** from responders to non-responders can convert non-responders to responders
-- **Antibiotic use** before ICI therapy dramatically reduces response rates and survival
+- Responders harbor distinct microbial communities enriched in specific taxa
+- Germ-free mice do not respond to anti-PD-1 therapy
+- Fecal microbiota transplant (FMT) from responders to non-responders can convert non-responders to responders
+- Antibiotic use before ICI therapy dramatically reduces response rates and survival
 
 ### Responder-Associated Taxa
 
 | Taxon | ICI Type | Evidence |
 |-------|----------|---------|
-| **[[faecalibacterium-prausnitzii]]** | Anti-PD-1 | Butyrate production; Treg induction |
-| **[[bifidobacterium]]** | Anti-PD-L1 | DC maturation; enhanced T cell priming |
-| **[[akkermansia-muciniphila]]** | Anti-PD-1 | Barrier integrity; IL-12 signaling |
-| **Ruminococcaceae** | Anti-CTLA-4 | SCFA production |
-| **[[bacteroides-fragilis]]** (non-toxigenic) | Anti-CTLA-4 | Polysaccharide A-driven Th1 response |
+| [[faecalibacterium-prausnitzii]] | Anti-PD-1 | Butyrate production; Treg induction |
+| [[bifidobacterium]] | Anti-PD-L1 | DC maturation; enhanced T cell priming |
+| [[akkermansia-muciniphila]] | Anti-PD-1 | Barrier integrity; IL-12 signaling |
+| Ruminococcaceae | Anti-CTLA-4 | SCFA production |
+| [[bacteroides-fragilis]] (non-toxigenic) | Anti-CTLA-4 | Polysaccharide A-driven Th1 response |
 
 ### Non-Responder-Associated Taxa
 
@@ -77,14 +77,14 @@ The gut virome also predicts ICI response [[liu-2026-gut-virome-anti-pd1-nsclc]]
 
 Metal homeostasis influences immune checkpoint expression:
 
-- **[[zinc]]**: Zinc deficiency impairs T cell function and may increase PD-1 expression on exhausted T cells
-- **[[copper]]**: Copper accumulates in the tumor microenvironment and promotes immunosuppressive M2 macrophage polarization ([[cuproptosis]])
-- **[[iron]]**: Iron-loaded macrophages in the tumor microenvironment suppress anti-tumor immunity; [[ferroptosis]] can release tumor antigens
-- **[[selenium]]**: Selenoproteins are required for optimal T cell proliferation and effector function
+- [[zinc]]: Zinc deficiency impairs T cell function and may increase PD-1 expression on exhausted T cells
+- [[copper]]: Copper accumulates in the tumor microenvironment and promotes immunosuppressive M2 macrophage polarization ([[cuproptosis]])
+- [[iron]]: Iron-loaded macrophages in the tumor microenvironment suppress anti-tumor immunity; [[ferroptosis]] can release tumor antigens
+- [[selenium]]: Selenoproteins are required for optimal T cell proliferation and effector function
 
 ### Calprotectin as Response Biomarker
 
-**[[calprotectin]]** -- the zinc/manganese-sequestering protein central to [[nutritional-immunity]] -- is being explored as an immunotherapy response biomarker. Fecal calprotectin levels correlate with gut inflammation status and may predict ICI-induced colitis.
+[[calprotectin]] -- the zinc/manganese-sequestering protein central to [[nutritional-immunity]] -- is being explored as an immunotherapy response biomarker. Fecal calprotectin levels correlate with gut inflammation status and may predict ICI-induced colitis.
 
 ### Metal-Dependent Microbial Metabolites
 
@@ -104,11 +104,11 @@ ICI therapy frequently causes immune-related adverse events (irAEs), most common
 
 ## Clinical Implications
 
-- **Pre-treatment microbiome profiling** could stratify patients into likely responders and non-responders
-- **Antibiotic stewardship**: Avoiding unnecessary antibiotics before ICI therapy
-- **FMT**: Clinical trials of FMT to convert non-responders (NCT03341143, NCT04116775)
-- **Dietary intervention**: High-fiber diets increase SCFA-producing bacteria and may enhance ICI response
-- **Metal supplementation**: Correcting zinc and selenium deficiency before ICI therapy
+- Pre-treatment microbiome profiling could stratify patients into likely responders and non-responders
+- Antibiotic stewardship: Avoiding unnecessary antibiotics before ICI therapy
+- FMT: Clinical trials of FMT to convert non-responders (NCT03341143, NCT04116775)
+- Dietary intervention: High-fiber diets increase SCFA-producing bacteria and may enhance ICI response
+- Metal supplementation: Correcting zinc and selenium deficiency before ICI therapy
 
 ## Open Questions
 

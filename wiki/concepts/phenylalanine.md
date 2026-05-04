@@ -3,20 +3,26 @@ title: Phenylalanine
 type: concept
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: [luo-2022-gut-microbiota-metabolites-heart-failure-mr, sorrentino-2020-amino-acid-metabolism-parkinsons-microbiome]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - luo-2022-gut-microbiota-metabolites-heart-failure-mr
+  - borges-2016-uremic-toxins-inflammatory-markers-ckd
+  - carrero-2020-plant-based-diets-ckd
+  - lv-2024-gut-microbiota-male-reproductive-function-review
+  - wang-2023-amino-acid-metabolomics-cerebral-palsy-plasma
+  - gevi-2016-urinary-metabolomics-italian-autistic-tryptophan-purine
+  - noce-2022-gut-microbiota-dysbiosis-ckd-link
+  - wang-2026-fecal-metabolomics-ms
+source_count: 8
 tags: [amino-acid, aromatic, phenylalanine, tyrosine, dopamine, cardiovascular, neurotransmitter, microbial-metabolism]
 karen_brain_primitives: [4, 5]
 seo_target: "phenylalanine gut microbiome metabolism amino acid"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Phenylalanine
 
-**Phenylalanine** is an essential aromatic amino acid that sits at a metabolic crossroads: it is the precursor to tyrosine (and through it to dopamine, norepinephrine, and epinephrine), a substrate for microbial conversion to cardiovascular risk metabolites, and a participant in oxidative stress defense. The gut microbiome metabolizes phenylalanine through pathways that can be either protective or pathogenic, depending on community composition.
+Phenylalanine is an essential aromatic amino acid that sits at a metabolic crossroads: it is the precursor to tyrosine (and through it to dopamine, norepinephrine, and epinephrine), a substrate for microbial conversion to cardiovascular risk metabolites, and a participant in oxidative stress defense. The gut microbiome metabolizes phenylalanine through pathways that can be either protective or pathogenic, depending on community composition.
 
 ## Metabolic Pathways
 
@@ -25,16 +31,16 @@ stub_reason: "below §2f source density threshold — 2 sources, minimum 3 requi
 Phenylalanine → (PAH, BH4 cofactor) → Tyrosine → (TH) → L-DOPA → Dopamine → Norepinephrine → Epinephrine
 ```
 
-**Phenylalanine hydroxylase (PAH)** converts phenylalanine to tyrosine, requiring tetrahydrobiopterin (BH4) as a cofactor. This is the rate-limiting step for catecholamine neurotransmitter synthesis.
+Phenylalanine hydroxylase (PAH) converts phenylalanine to tyrosine, requiring tetrahydrobiopterin (BH4) as a cofactor. This is the rate-limiting step for catecholamine neurotransmitter synthesis.
 
 ### Microbial Metabolism
 
 Gut bacteria metabolize phenylalanine through several pathways:
 
-- **Phenylacetylglutamine (PAGln)**: Produced from phenylalanine by gut bacteria; **activates adrenergic receptors on platelets**, increasing platelet aggregation and cardiovascular event risk. This is a newly identified TMAO-independent cardiovascular risk metabolite [[microbiome-derived-metabolites]].
-- **Phenol and p-cresol**: Microbial decarboxylation and deamination products; contribute to uremic toxin burden in [[chronic-kidney-disease]].
-- **Phenylacetic acid**: Produced by Clostridioides and other aromatic amino acid fermenters; associated with [[autism-spectrum-disorder]] behavioral phenotypes.
-- **4-Ethylphenyl sulfate (4-EPS)**: Tyrosine/phenylalanine-derived metabolite elevated in ASD; anxiety-inducing in mouse models [[zheng-2021-bacterial-aromatic-amino-acids-asd]].
+- Phenylacetylglutamine (PAGln): Produced from phenylalanine by gut bacteria; activates adrenergic receptors on platelets, increasing platelet aggregation and cardiovascular event risk. This is a newly identified TMAO-independent cardiovascular risk metabolite [[microbiome-derived-metabolites]].
+- Phenol and p-cresol: Microbial decarboxylation and deamination products; contribute to uremic toxin burden in [[chronic-kidney-disease]].
+- Phenylacetic acid: Produced by Clostridioides and other aromatic amino acid fermenters; associated with [[autism-spectrum-disorder]] behavioral phenotypes.
+- 4-Ethylphenyl sulfate (4-EPS): Tyrosine/phenylalanine-derived metabolite elevated in ASD; anxiety-inducing in mouse models [[zheng-2021-bacterial-aromatic-amino-acids-asd]].
 
 ### Fermentative Breakdown
 Phenylalanine is a substrate for [[fermentative-metabolism]]:
@@ -47,7 +53,7 @@ This proteolytic fermentation pathway is enhanced when [[fermentative-metabolism
 
 ### Cardiovascular Disease
 
-**Phenylalanine elevates heart failure risk** (OR 1.017, p=0.037) and hypertrophic cardiomyopathy risk (OR 1.080, p=0.046) based on Mendelian randomization evidence. It was an independent predictor of HF death in the PROSPER/FINRISK cohorts [[luo-2022-gut-microbiota-metabolites-heart-failure-mr]].
+Phenylalanine elevates heart failure risk (OR 1.017, p=0.037) and hypertrophic cardiomyopathy risk (OR 1.080, p=0.046) based on Mendelian randomization evidence. It was an independent predictor of HF death in the PROSPER/FINRISK cohorts [[luo-2022-gut-microbiota-metabolites-heart-failure-mr]].
 
 The cardiovascular mechanism operates through PAGln-mediated platelet activation -- a pathway independent of the more studied TMAO pathway but potentially equally important.
 
@@ -69,9 +75,9 @@ Elevated phenylalanine/tyrosine ratio is part of the amino acid dysregulation pa
 
 ## Metal Connections
 
-- **SOD-deficient E. coli** upregulates aromatic amino acid synthesis (including phenylalanine) as an antioxidant compensatory mechanism. Deletion of pheA (disrupting phenylalanine synthesis) increased H2O2 sensitivity, suggesting the intermediate metabolic pathways -- not phenylalanine itself -- provide antioxidant protection [[nong-2026-sod-deficiency-oxidative-stress-ecoli]].
-- **Plant-based diets** reduce phenylalanine availability for bacterial metabolism in CKD, decreasing uremic toxin (IS, PCS) production [[carrero-2020-plant-based-diets-ckd-nature-reviews]].
-- **Prenatal lead exposure** affects amino acid biosynthesis pathways in the developing gut microbiome, including phenylalanine metabolism [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].
+- SOD-deficient E. coli upregulates aromatic amino acid synthesis (including phenylalanine) as an antioxidant compensatory mechanism. Deletion of pheA (disrupting phenylalanine synthesis) increased H2O2 sensitivity, suggesting the intermediate metabolic pathways -- not phenylalanine itself -- provide antioxidant protection [[nong-2026-sod-deficiency-oxidative-stress-ecoli]].
+- Plant-based diets reduce phenylalanine availability for bacterial metabolism in CKD, decreasing uremic toxin (IS, PCS) production [[carrero-2020-plant-based-diets-ckd-nature-reviews]].
+- Prenatal lead exposure affects amino acid biosynthesis pathways in the developing gut microbiome, including phenylalanine metabolism [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].
 
 ## Open Questions
 

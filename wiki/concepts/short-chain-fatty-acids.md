@@ -32,9 +32,9 @@ The most extensively referenced missing concept in this wiki. SCFAs -- acetate (
 
 ## Receptor Signaling
 
-- **GPR43 (FFAR2)**: Activated by acetate and propionate. Expressed on immune cells, enteroendocrine cells. Drives anti-inflammatory responses; stimulates GLP-1 and PYY secretion.
-- **GPR41 (FFAR3)**: Activated by propionate and butyrate. Expressed on enteric neurons and sympathetic ganglia. Regulates gut motility, energy expenditure, and blood pressure via Olfr78 counter-regulation [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
-- **GPR109A (HCAR2)**: Activated by butyrate and niacin. Expressed on colonocytes, macrophages, dendritic cells. Promotes Treg differentiation and IL-10 production; suppresses NF-kB.
+- GPR43 (FFAR2): Activated by acetate and propionate. Expressed on immune cells, enteroendocrine cells. Drives anti-inflammatory responses; stimulates GLP-1 and PYY secretion.
+- GPR41 (FFAR3): Activated by propionate and butyrate. Expressed on enteric neurons and sympathetic ganglia. Regulates gut motility, energy expenditure, and blood pressure via Olfr78 counter-regulation [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
+- GPR109A (HCAR2): Activated by butyrate and niacin. Expressed on colonocytes, macrophages, dendritic cells. Promotes Treg differentiation and IL-10 production; suppresses NF-kB.
 
 ## Epigenetic Mechanism: HDAC Inhibition
 
@@ -62,19 +62,19 @@ SCFAs -- especially butyrate -- are essential for intestinal barrier integrity:
 
 This is the most critical metal connection in the wiki:
 
-1. **Metal exposure** (Cd, Ni, Pb, Hg, As) selectively eliminates SCFA-producing bacteria -- Roseburia, [[faecalibacterium-prausnitzii]], [[bifidobacterium]] -- which are metal-sensitive obligate anaerobes [[pendergrass-2026-heavy-metals-obesity-epidemic]].
-2. **SCFA depletion** compromises gut barrier integrity (reduced butyrate for colonocytes, reduced tight junction expression).
-3. **Barrier failure** increases paracellular permeability to bacterial LPS, food antigens, AND the metals themselves.
-4. **Increased metal absorption** further damages SCFA producers, completing the vicious cycle.
-5. **Systemic consequences**: LPS translocation activates [[inflammation]] via TLR4/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.
+1. Metal exposure (Cd, Ni, Pb, Hg, As) selectively eliminates SCFA-producing bacteria -- Roseburia, [[faecalibacterium-prausnitzii]], [[bifidobacterium]] -- which are metal-sensitive obligate anaerobes [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+2. SCFA depletion compromises gut barrier integrity (reduced butyrate for colonocytes, reduced tight junction expression).
+3. Barrier failure increases paracellular permeability to bacterial LPS, food antigens, AND the metals themselves.
+4. Increased metal absorption further damages SCFA producers, completing the vicious cycle.
+5. Systemic consequences: LPS translocation activates [[inflammation]] via TLR4/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.
 
 This cycle operates in virtually every disease in the wiki -- from [[inflammatory-bowel-disease]] and [[cardiovascular-disease]] to [[alzheimers-disease]], [[parkinsons-disease]], [[autism-spectrum-disorder]], and [[obesity]].
 
 ## SCFAs and Blood Pressure Regulation
 
 SCFAs regulate blood pressure through opposing receptor systems:
-- **GPR41**: propionate binding causes vasodilation and BP reduction.
-- **Olfr78**: propionate/acetate binding on renal juxtaglomerular cells stimulates renin release, raising BP.
+- GPR41: propionate binding causes vasodilation and BP reduction.
+- Olfr78: propionate/acetate binding on renal juxtaglomerular cells stimulates renin release, raising BP.
 - Net effect depends on SCFA concentration and receptor balance; SCFA depletion from [[dysbiosis]] generally associates with [[hypertension]] [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
 
 ## Key Sources

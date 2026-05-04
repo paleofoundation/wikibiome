@@ -24,7 +24,7 @@ A genus of Gram-positive, facultatively anaerobic, filamentous bacteria that are
 
 ## Metal Dependencies: Nickel-Urease System
 
-*A. naeslundii* harbors a **[[nickel]]-dependent [[urease]]** that is critical for its survival in acidic oral environments:
+*A. naeslundii* harbors a [[nickel]]-dependent [[urease]] that is critical for its survival in acidic oral environments:
 
 - The Ni-urease hydrolyzes urea to ammonia and CO2, raising local pH in dental plaque and enabling acid-tolerant biofilm persistence.
 - This enzyme requires two Ni2+ ions per active site, making *A. naeslundii* dependent on nickel availability for its acid-survival strategy.
@@ -33,10 +33,10 @@ A genus of Gram-positive, facultatively anaerobic, filamentous bacteria that are
 
 ## Role in Oral Ecosystem
 
-- **Early colonizer**: *Actinomyces* species are among the first bacteria to adhere to tooth surfaces, forming the foundational layer of dental [[biofilm]] (plaque).
-- **Co-aggregation partner**: provides attachment sites for secondary colonizers including [[fusobacterium-nucleatum]], bridging early and late plaque communities.
-- **Dental caries**: contributes to root surface caries through acid production from carbohydrate fermentation.
-- **Periodontal health**: *A. naeslundii* is present in both health and disease, with its pathogenic potential dependent on community context.
+- Early colonizer: *Actinomyces* species are among the first bacteria to adhere to tooth surfaces, forming the foundational layer of dental [[biofilm]] (plaque).
+- Co-aggregation partner: provides attachment sites for secondary colonizers including [[fusobacterium-nucleatum]], bridging early and late plaque communities.
+- Dental caries: contributes to root surface caries through acid production from carbohydrate fermentation.
+- Periodontal health: *A. naeslundii* is present in both health and disease, with its pathogenic potential dependent on community context.
 
 ## Disease Associations
 

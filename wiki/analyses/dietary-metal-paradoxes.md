@@ -55,13 +55,13 @@ Anti-inflammatory and plant-forward diets are the standard nutritional recommend
 
 ### The Evidence
 
-**Endometriosis**: Borghini et al. (2020) found that 90.3% of endometriosis patients with GI symptoms tested positive for Ni ACM via oral mucosa patch test. A 3-month low-nickel diet produced statistically significant improvement in all 15 gastrointestinal symptoms, all 7 extraintestinal symptoms, AND the three cardinal gynecological symptoms -- dysmenorrhea, dyspareunia, and pelvic pain (all p < 0.005) [[borghini-2020-endometriosis-nickel-ibs]].
+Endometriosis: Borghini et al. (2020) found that 90.3% of endometriosis patients with GI symptoms tested positive for Ni ACM via oral mucosa patch test. A 3-month low-nickel diet produced statistically significant improvement in all 15 gastrointestinal symptoms, all 7 extraintestinal symptoms, AND the three cardinal gynecological symptoms -- dysmenorrhea, dyspareunia, and pelvic pain (all p < 0.005) [[borghini-2020-endometriosis-nickel-ibs]].
 
-**The vegetarian case**: Lopez-Botella et al. (2023) documented a 22-year-old vegetarian woman with peritoneal endometriosis whose peritoneal fluid nickel was 40.4 ug/L -- a 4:1 ratio versus the control -- with no occupational exposure. Her regular consumption of tomatoes (3x/week), nuts (1x/week), and other high-nickel plant foods was identified as the plausible exposure route. She had chosen her diet for health reasons [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]].
+The vegetarian case: Lopez-Botella et al. (2023) documented a 22-year-old vegetarian woman with peritoneal endometriosis whose peritoneal fluid nickel was 40.4 ug/L -- a 4:1 ratio versus the control -- with no occupational exposure. Her regular consumption of tomatoes (3x/week), nuts (1x/week), and other high-nickel plant foods was identified as the plausible exposure route. She had chosen her diet for health reasons [[lopez-botella-2023-peritoneal-fluid-metals-endometriosis]].
 
-**The fruit-vegetable divergence**: Harris et al. (2018), analyzing 70,835 women from the Nurses' Health Study II over 22 years, found that citrus fruits (high in beta-cryptoxanthin, low in nickel) reduced endometriosis risk by 22%, while cruciferous vegetables, corn, and peas/lima beans -- all high-nickel foods -- INCREASED risk by 13-30%. This pattern is invisible without the nickel lens: the protective effect of fruit and the harmful effect of specific vegetables maps precisely onto their nickel content [[harris-2018-fruit-vegetable-consumption-endometriosis]].
+The fruit-vegetable divergence: Harris et al. (2018), analyzing 70,835 women from the Nurses' Health Study II over 22 years, found that citrus fruits (high in beta-cryptoxanthin, low in nickel) reduced endometriosis risk by 22%, while cruciferous vegetables, corn, and peas/lima beans -- all high-nickel foods -- INCREASED risk by 13-30%. This pattern is invisible without the nickel lens: the protective effect of fruit and the harmful effect of specific vegetables maps precisely onto their nickel content [[harris-2018-fruit-vegetable-consumption-endometriosis]].
 
-**Scale of the problem**: Mazza et al. (2023) found that 66% of endometriosis patients make dietary changes after diagnosis, with many increasing their vegetable, cereal, and legume intake -- inadvertently raising their nickel exposure [[mazza-2023-endometriosis-dietary-choices-everyday-life]]. Barnard et al. (2023) explicitly recommend plant-based diets for endometriosis without mentioning nickel, noting that these diets can reduce circulating estrogen by 10-25% [[barnard-2023-nutrition-prevention-treatment-endometriosis]]. This is correct for most patients but potentially harmful for the nickel-sensitive subgroup.
+Scale of the problem: Mazza et al. (2023) found that 66% of endometriosis patients make dietary changes after diagnosis, with many increasing their vegetable, cereal, and legume intake -- inadvertently raising their nickel exposure [[mazza-2023-endometriosis-dietary-choices-everyday-life]]. Barnard et al. (2023) explicitly recommend plant-based diets for endometriosis without mentioning nickel, noting that these diets can reduce circulating estrogen by 10-25% [[barnard-2023-nutrition-prevention-treatment-endometriosis]]. This is correct for most patients but potentially harmful for the nickel-sensitive subgroup.
 
 ### Why It Matters
 
@@ -83,9 +83,9 @@ Celiac patients achieve serological remission on a gluten-free diet (GFD), confi
 
 Borghini et al. (2020, Nutrients) studied 20 celiac patients with persistent or relapsing symptoms despite confirmed serological remission on GFD. Every single one -- 100% -- tested positive for Ni ACM on oral mucosa patch testing. The trajectory was revealing:
 
-- **T1 (diagnosis, before GFD)**: Baseline symptoms from celiac disease
-- **T2 (prolonged GFD)**: 83.4% of tracked symptoms WORSENED, with 41.7% reaching statistical significance
-- **T3 (GFD + low-nickel diet added)**: 83.4% of symptoms IMPROVED, with 41.7% reaching statistical significance
+- T1 (diagnosis, before GFD): Baseline symptoms from celiac disease
+- T2 (prolonged GFD): 83.4% of tracked symptoms WORSENED, with 41.7% reaching statistical significance
+- T3 (GFD + low-nickel diet added): 83.4% of symptoms IMPROVED, with 41.7% reaching statistical significance
 
 The worsening at T2 was paradoxical -- the GFD was working immunologically (antibodies normalized) but failing clinically. The authors identified the mechanism: patients replacing wheat with corn, rice, buckwheat, chickpeas, and legume-based products were substituting one dietary trigger (gluten) for another (nickel) [[borghini-2020-low-nickel-diet-celiac]].
 
@@ -115,7 +115,7 @@ Any celiac patient with persistent or new-onset GI symptoms despite serological 
 
 Zinc is depleted in nearly every disease state examined in this wiki -- cancer (breast, prostate, lung, pancreatic, esophageal, colorectal), type 2 diabetes, PCOS, autism, postpartum depression, and IBD. Zinc supplementation is generally beneficial: it reduces PPD risk by 75% (OR 0.249), improves gut barrier function, supports immune defense, and acts as an antioxidant cofactor for SOD1 [[zinc]]. The default clinical instinct is that zinc supplementation is safe and helpful.
 
-Yet Huang et al. (2024) found the opposite in endometriosis: women consuming >14 mg/day dietary zinc had a **60% increased odds of endometriosis** compared to those consuming 8 mg/day or less (adjusted OR 1.6, 95% CI 1.12-2.27, p = 0.009). The trend was dose-dependent (p = 0.008) and robust across subgroup analyses [[huang-2024-zinc-intake-endometriosis-risk]].
+Yet Huang et al. (2024) found the opposite in endometriosis: women consuming >14 mg/day dietary zinc had a 60% increased odds of endometriosis compared to those consuming 8 mg/day or less (adjusted OR 1.6, 95% CI 1.12-2.27, p = 0.009). The trend was dose-dependent (p = 0.008) and robust across subgroup analyses [[huang-2024-zinc-intake-endometriosis-risk]].
 
 ### The Mechanism
 
@@ -147,7 +147,7 @@ The host deliberately restricts iron availability to starve pathogens -- this is
 
 Iron supplementation in infants increased Enterobacteriaceae and decreased Lactobacillus; iron fortification in African children increased Bacteroidetes [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]. Iron-deficient women had lower vaginal lactoferrin and were more susceptible to genital infections, but supplementing iron to boost lactoferrin also makes more iron available to pathogens in the genital tract [[roberts-2019-lactoferrin-genital-infections-iron]].
 
-The question clinicians rarely ask: **is the anemia functional or pathological?** In infection and inflammation, hepcidin rises deliberately, sequestering iron to starve pathogens. This "anemia of chronic disease" is not a deficiency to be corrected but an immune defense to be respected. Supplementing iron in this context can feed the very pathogens the body is trying to starve.
+The question clinicians rarely ask: is the anemia functional or pathological? In infection and inflammation, hepcidin rises deliberately, sequestering iron to starve pathogens. This "anemia of chronic disease" is not a deficiency to be corrected but an immune defense to be respected. Supplementing iron in this context can feed the very pathogens the body is trying to starve.
 
 ### 2. Driving Ferroptosis
 
@@ -188,8 +188,8 @@ More ascorbate means more Cr(VI) reduction, which means MORE Cr-DNA adducts. Sal
 ### The Two-Metal Problem
 
 This creates a clinical fork:
-- **For nickel-exposed individuals**: Vitamin C supplementation is protective. It reduces nickel absorption and supports the DNA repair enzymes that nickel inhibits.
-- **For chromium-exposed individuals**: Vitamin C supplementation could theoretically INCREASE cancer risk by accelerating Cr(VI) bioactivation.
+- For nickel-exposed individuals: Vitamin C supplementation is protective. It reduces nickel absorption and supports the DNA repair enzymes that nickel inhibits.
+- For chromium-exposed individuals: Vitamin C supplementation could theoretically INCREASE cancer risk by accelerating Cr(VI) bioactivation.
 
 A worker in a stainless steel facility may be exposed to BOTH nickel and chromium simultaneously. Vitamin C helps with one exposure and hurts with the other. No clinical guideline addresses this dual-exposure scenario.
 
@@ -300,18 +300,18 @@ Low-nickel diets should be paired with targeted probiotic supplementation, as de
 
 ## Clinical Decision Framework
 
-The paradoxes above converge on a single insight: **dietary advice must be personalized by metallomic status**. The same food, supplement, or dietary pattern can help one patient and harm another, depending on their metal sensitivity, metal status, microbiome composition, and disease biology. The following framework translates the paradoxes into actionable clinical decision points.
+The paradoxes above converge on a single insight: dietary advice must be personalized by metallomic status. The same food, supplement, or dietary pattern can help one patient and harm another, depending on their metal sensitivity, metal status, microbiome composition, and disease biology. The following framework translates the paradoxes into actionable clinical decision points.
 
 ### When to Screen for Nickel Sensitivity
 
 Screen BEFORE prescribing plant-forward diets in patients with:
 
-- **Endometriosis with GI symptoms**: 90.3% Ni ACM prevalence in this population warrants routine testing [[borghini-2020-endometriosis-nickel-ibs]]
-- **Celiac disease with persistent symptoms on GFD**: 100% Ni ACM prevalence in symptomatic-despite-serological-remission subgroup [[borghini-2020-low-nickel-diet-celiac]]
-- **IBS or IBS-like symptoms in women**: given 14-20% nickel allergy prevalence in women, dietary nickel should be in the differential
-- **Any condition where a plant-forward diet produces paradoxical symptom worsening**: if legumes, whole grains, and nuts make a patient worse, nickel sensitivity should be considered before attributing the response to FODMAPs or food intolerances
+- Endometriosis with GI symptoms: 90.3% Ni ACM prevalence in this population warrants routine testing [[borghini-2020-endometriosis-nickel-ibs]]
+- Celiac disease with persistent symptoms on GFD: 100% Ni ACM prevalence in symptomatic-despite-serological-remission subgroup [[borghini-2020-low-nickel-diet-celiac]]
+- IBS or IBS-like symptoms in women: given 14-20% nickel allergy prevalence in women, dietary nickel should be in the differential
+- Any condition where a plant-forward diet produces paradoxical symptom worsening: if legumes, whole grains, and nuts make a patient worse, nickel sensitivity should be considered before attributing the response to FODMAPs or food intolerances
 
-**Screening method**: Nickel oral mucosa patch test (Ni omPT) is the preferred diagnostic for Ni ACM. Standard epicutaneous patch testing detects cutaneous sensitivity but may miss mucosal-only presentations.
+Screening method: Nickel oral mucosa patch test (Ni omPT) is the preferred diagnostic for Ni ACM. Standard epicutaneous patch testing detects cutaneous sensitivity but may miss mucosal-only presentations.
 
 ### When Iron Supplementation Helps vs. Harms
 
@@ -324,7 +324,7 @@ Screen BEFORE prescribing plant-forward diets in patients with:
 | Parkinson's disease with comorbid anemia | Measure | Proceed with extreme caution | Substantia nigra already has iron excess; peripheral supplementation could worsen central ferroptosis |
 | Pregnancy | Low | Supplement; IV if gut dysbiosis present | Maternal and fetal needs outweigh microbiome risk, but route matters |
 
-The critical distinction is between **true deficiency** (the body needs iron and cannot get it) and **functional restriction** (the body is deliberately withholding iron via hepcidin as an immune strategy). Hepcidin measurement resolves this ambiguity but is not yet standard clinical practice.
+The critical distinction is between true deficiency (the body needs iron and cannot get it) and functional restriction (the body is deliberately withholding iron via hepcidin as an immune strategy). Hepcidin measurement resolves this ambiguity but is not yet standard clinical practice.
 
 ### How to Navigate the Zinc Question in Endometriosis
 
@@ -343,14 +343,14 @@ The nine paradoxes on this page share a common root cause: dietary advice is cur
 - The anemic patient whose iron supplements feed her gut pathogens
 - The chromate worker whose vitamin C accelerates his cancer risk
 
-**What a metallomics-informed dietary consult would include:**
+What a metallomics-informed dietary consult would include:
 
-1. **Nickel sensitivity testing** (patch test or oral mucosa patch test) before prescribing plant-forward diets in at-risk populations
-2. **Hepcidin measurement** before iron supplementation to distinguish true deficiency from functional restriction
-3. **Cu/Zn ratio** as a baseline metabolic biomarker, with monitoring during dietary interventions
-4. **Occupational/environmental metal exposure history** before recommending antioxidant supplementation (the vitamin C / chromium problem)
-5. **Microbiome status assessment** before nickel restriction (to anticipate commensal disruption) or iron supplementation (to anticipate pathogen expansion)
-6. **Disease-specific zinc risk assessment** -- supplementation benefit in most contexts, but caution in endometriosis
+1. Nickel sensitivity testing (patch test or oral mucosa patch test) before prescribing plant-forward diets in at-risk populations
+2. Hepcidin measurement before iron supplementation to distinguish true deficiency from functional restriction
+3. Cu/Zn ratio as a baseline metabolic biomarker, with monitoring during dietary interventions
+4. Occupational/environmental metal exposure history before recommending antioxidant supplementation (the vitamin C / chromium problem)
+5. Microbiome status assessment before nickel restriction (to anticipate commensal disruption) or iron supplementation (to anticipate pathogen expansion)
+6. Disease-specific zinc risk assessment -- supplementation benefit in most contexts, but caution in endometriosis
 
 None of these assessments are currently standard of care. Each is individually available, evidence-supported, and clinically actionable. The barrier is not technology or evidence but awareness: clinicians and nutritionists are not trained to think about the metallomic dimension of diet.
 

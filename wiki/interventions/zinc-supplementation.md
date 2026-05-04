@@ -59,13 +59,13 @@ targets:
 platform: cureva
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
-**Zinc supplementation** provides the second most abundant trace element in the human body, serving as a cofactor for over 300 enzymes and a structural component of approximately 3,000 proteins (zinc finger motifs). Zinc governs immune cell function, intestinal barrier integrity, neurotransmitter metabolism, and insulin signaling.
+Zinc supplementation provides the second most abundant trace element in the human body, serving as a cofactor for over 300 enzymes and a structural component of approximately 3,000 proteins (zinc finger motifs). Zinc governs immune cell function, intestinal barrier integrity, neurotransmitter metabolism, and insulin signaling.
 
-> **Clinical disclaimer:** Zinc supplementation above 40 mg/day requires copper co-supplementation (2 mg Cu per 30 mg Zn) to prevent copper deficiency. Monitor Cu/Zn ratio. **STOP zinc supplementation in [[endometriosis]]** — zinc activates matrix metalloproteinases (MMPs) that promote lesion invasion and tissue remodeling.
+> Clinical disclaimer: Zinc supplementation above 40 mg/day requires copper co-supplementation (2 mg Cu per 30 mg Zn) to prevent copper deficiency. Monitor Cu/Zn ratio. STOP zinc supplementation in [[endometriosis]] — zinc activates matrix metalloproteinases (MMPs) that promote lesion invasion and tissue remodeling.
 
 ---
 
@@ -73,9 +73,9 @@ platform: cureva
 
 Zinc operates through three primary pathways relevant to the conditions above:
 
-1. **Immune modulation**: Zinc balances Th1/Th2 responses, supports NK cell cytotoxicity, and maintains thymic function. Deficiency skews toward Th2 dominance and impairs innate immunity.
-2. **Barrier integrity**: Zinc stabilizes tight junction proteins (claudins, occludins) in intestinal and blood-brain barrier epithelium. Deficiency increases intestinal permeability ("leaky gut").
-3. **Enzyme cofactor**: As a Lewis acid catalyst in 300+ enzymes, zinc deficiency causes simultaneous failure across multiple metabolic pathways — neurotransmitter synthesis, antioxidant defense, protein folding, DNA repair.
+1. Immune modulation: Zinc balances Th1/Th2 responses, supports NK cell cytotoxicity, and maintains thymic function. Deficiency skews toward Th2 dominance and impairs innate immunity.
+2. Barrier integrity: Zinc stabilizes tight junction proteins (claudins, occludins) in intestinal and blood-brain barrier epithelium. Deficiency increases intestinal permeability ("leaky gut").
+3. Enzyme cofactor: As a Lewis acid catalyst in 300+ enzymes, zinc deficiency causes simultaneous failure across multiple metabolic pathways — neurotransmitter synthesis, antioxidant defense, protein folding, DNA repair.
 
 ---
 
@@ -89,42 +89,42 @@ Zinc operates through three primary pathways relevant to the conditions above:
 | [[depression]] (adjunct) | 25-50 mg/day | Zinc picolinate | 8-12 weeks minimum | Best as SSRI adjunct |
 | [[autism-spectrum-disorder]] | 15-30 mg/day (pediatric) | Zinc picolinate | Ongoing if deficient | Test baseline Zn and Cu first |
 
-**General form preference:** Zinc picolinate and zinc bisglycinate show superior absorption over zinc oxide.
+General form preference: Zinc picolinate and zinc bisglycinate show superior absorption over zinc oxide.
 
 ---
 
 ## Monitoring
 
-- **Serum zinc**: Baseline and every 3 months. Note: serum zinc drops during infection/inflammation (acute phase response) — interpret in clinical context.
-- **Cu/Zn ratio**: Critical. Target ratio ~0.7-1.0. Prolonged zinc supplementation without copper causes copper deficiency (neutropenia, anemia, myelopathy).
-- **Copper**: Monitor at baseline, 6 weeks, and 3 months when dosing >40 mg/day zinc. Co-supplement 2 mg copper per 30 mg zinc.
-- **Alkaline phosphatase**: Low ALP may indicate zinc deficiency (zinc-dependent enzyme).
+- Serum zinc: Baseline and every 3 months. Note: serum zinc drops during infection/inflammation (acute phase response) — interpret in clinical context.
+- Cu/Zn ratio: Critical. Target ratio ~0.7-1.0. Prolonged zinc supplementation without copper causes copper deficiency (neutropenia, anemia, myelopathy).
+- Copper: Monitor at baseline, 6 weeks, and 3 months when dosing >40 mg/day zinc. Co-supplement 2 mg copper per 30 mg zinc.
+- Alkaline phosphatase: Low ALP may indicate zinc deficiency (zinc-dependent enzyme).
 
 ---
 
 ## Contraindications and Risks
 
-- **STOP: [[endometriosis]]** — Zinc activates MMP-2 and MMP-9, matrix metalloproteinases that drive endometrial lesion invasion, angiogenesis, and tissue remodeling. Zinc supplementation is contraindicated in endometriosis unless documented severe deficiency warrants cautious repletion.
-- **Copper depletion**: Zinc competes with copper for intestinal absorption via metallothionein induction. Chronic high-dose zinc without copper supplementation causes hypocupremia.
-- **GI disturbance**: Nausea on empty stomach is common. Take with food (reduces absorption ~20% but improves tolerance).
-- **Iron interaction**: High-dose zinc impairs non-heme iron absorption. Separate dosing by 2+ hours if co-supplementing.
-- **Prostate cancer concern**: Some evidence that very high zinc (>100 mg/day) increases advanced prostate cancer risk.
+- STOP: [[endometriosis]] — Zinc activates MMP-2 and MMP-9, matrix metalloproteinases that drive endometrial lesion invasion, angiogenesis, and tissue remodeling. Zinc supplementation is contraindicated in endometriosis unless documented severe deficiency warrants cautious repletion.
+- Copper depletion: Zinc competes with copper for intestinal absorption via metallothionein induction. Chronic high-dose zinc without copper supplementation causes hypocupremia.
+- GI disturbance: Nausea on empty stomach is common. Take with food (reduces absorption ~20% but improves tolerance).
+- Iron interaction: High-dose zinc impairs non-heme iron absorption. Separate dosing by 2+ hours if co-supplementing.
+- Prostate cancer concern: Some evidence that very high zinc (>100 mg/day) increases advanced prostate cancer risk.
 
 ---
 
 ## Connections
 
-**Entities:** [[zinc]], [[copper]]
+Entities: [[zinc]], [[copper]]
 
-**Concepts:** [[nutritional-immunity]], [[intestinal-permeability|barrier-integrity]], [[inflammation|immune-modulation]], [[autism-spectrum-disorder|SHANK3]]
+Concepts: [[nutritional-immunity]], [[intestinal-permeability|barrier-integrity]], [[inflammation|immune-modulation]], [[autism-spectrum-disorder|SHANK3]]
 
-**Related interventions:** [[iron-management]] (Zn/Fe absorption competition), [[selenium-supplementation]] (both trace element repletion)
+Related interventions: [[iron-management]] (Zn/Fe absorption competition), [[selenium-supplementation]] (both trace element repletion)
 
-**Related STOPs:** Zinc supplementation in [[endometriosis]] (MMP activation)
+Related STOPs: Zinc supplementation in [[endometriosis]] (MMP activation)
 
-**Signatures:** [[postpartum-depression]], [[type-2-diabetes]], [[autism-spectrum-disorder]], [[depression]]
+Signatures: [[postpartum-depression]], [[type-2-diabetes]], [[autism-spectrum-disorder]], [[depression]]
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

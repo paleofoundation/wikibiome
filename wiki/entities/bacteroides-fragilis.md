@@ -23,7 +23,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bacteroides fragilis
 
-A Gram-negative obligate anaerobe and the most clinically significant member of the *Bacteroides* genus. *B. fragilis* occupies a unique dual position in gut microbiology: as a **non-toxigenic commensal** (NTBF), it produces polysaccharide A (PSA) that shapes immune tolerance; as an **enterotoxigenic pathobiont** (ETBF), it secretes the zinc-dependent Bacteroides fragilis toxin (BFT/fragilysin), a metalloprotease that drives inflammation, epithelial disruption, and colorectal carcinogenesis. The balance between these two strains within an individual's microbiome has major implications for immune homeostasis and cancer risk.
+A Gram-negative obligate anaerobe and the most clinically significant member of the *Bacteroides* genus. *B. fragilis* occupies a unique dual position in gut microbiology: as a non-toxigenic commensal (NTBF), it produces polysaccharide A (PSA) that shapes immune tolerance; as an enterotoxigenic pathobiont (ETBF), it secretes the zinc-dependent Bacteroides fragilis toxin (BFT/fragilysin), a metalloprotease that drives inflammation, epithelial disruption, and colorectal carcinogenesis. The balance between these two strains within an individual's microbiome has major implications for immune homeostasis and cancer risk.
 
 ## Classification
 
@@ -35,26 +35,26 @@ A Gram-negative obligate anaerobe and the most clinically significant member of 
 
 BFT is the defining virulence factor of ETBF and one of the clearest examples of metal-dependent pathogenesis in the gut:
 
-- BFT is a **Zn-dependent [[zinc-metalloprotease]]** (EC 3.4.24.-) that requires a zinc ion in its active site for all catalytic activity [[metz-2019-drug-discovery-bft-inhibition]].
-- Cleaves **E-cadherin**, the intercellular adhesion molecule of intestinal epithelial cells. E-cadherin cleavage disrupts cell-cell junctions, increases paracellular permeability, and activates **beta-catenin/Wnt signaling** — a pro-tumorigenic pathway central to CRC initiation.
-- Triggers **NF-κB activation, IL-8 secretion**, and neutrophil recruitment, driving chronic intestinal inflammation that precedes malignant transformation.
-- Three isoforms exist (BFT-1, BFT-2, BFT-3); **BFT-2 is the most biologically active**.
+- BFT is a Zn-dependent [[zinc-metalloprotease]] (EC 3.4.24.-) that requires a zinc ion in its active site for all catalytic activity [[metz-2019-drug-discovery-bft-inhibition]].
+- Cleaves E-cadherin, the intercellular adhesion molecule of intestinal epithelial cells. E-cadherin cleavage disrupts cell-cell junctions, increases paracellular permeability, and activates beta-catenin/Wnt signaling — a pro-tumorigenic pathway central to CRC initiation.
+- Triggers NF-κB activation, IL-8 secretion, and neutrophil recruitment, driving chronic intestinal inflammation that precedes malignant transformation.
+- Three isoforms exist (BFT-1, BFT-2, BFT-3); BFT-2 is the most biologically active.
 - ETBF colonization promotes colonic tumorigenesis in APC-Min mice in a Th17-dependent manner, providing strong animal model evidence for the E-cadherin/beta-catenin carcinogenesis pathway.
 
 ### Metal Context and Therapeutic Implications
 
 The zinc dependence of BFT creates both a vulnerability and a therapeutic concern:
 
-- **Host calprotectin** sequesters zinc at sites of inflammation; whether this inhibits BFT activity in vivo is an active research question with potential therapeutic implications [[nutritional-immunity]].
-- **Zinc supplementation** — commonly used in diarrheal disease — could theoretically enhance BFT activity in ETBF-colonized individuals. This represents a potential clinical STOP scenario where standard of care may worsen outcomes in a subpopulation.
+- Host calprotectin sequesters zinc at sites of inflammation; whether this inhibits BFT activity in vivo is an active research question with potential therapeutic implications [[nutritional-immunity]].
+- Zinc supplementation — commonly used in diarrheal disease — could theoretically enhance BFT activity in ETBF-colonized individuals. This represents a potential clinical STOP scenario where standard of care may worsen outcomes in a subpopulation.
 - The zinc chelation strategy proposed for metal-dependent pathogens (as with *A. baumannii* and *P. aeruginosa*) has theoretical applicability to ETBF, though direct evidence remains limited.
 
 ## Commensal Functions — Polysaccharide A (PSA)
 
-Non-toxigenic *B. fragilis* (NTBF) produces **polysaccharide A (PSA)**, a zwitterionic capsular polysaccharide with potent immunomodulatory effects:
+Non-toxigenic *B. fragilis* (NTBF) produces polysaccharide A (PSA), a zwitterionic capsular polysaccharide with potent immunomodulatory effects:
 
 - Activates CD4+ T cells via TLR2 signaling on dendritic cells.
-- Promotes IL-10-producing **regulatory T cells (Tregs)**, establishing immune tolerance to gut commensals.
+- Promotes IL-10-producing regulatory T cells (Tregs), establishing immune tolerance to gut commensals.
 - Suppresses Th17 inflammatory responses; corrects Th1/Th2 imbalance in germ-free mice.
 - PSA-mediated immunomodulation is protective against colitis in multiple animal models.
 - This dual nature (PSA-mediated protection vs. BFT-mediated pathology) makes *B. fragilis* the canonical example of the commensal-pathobiont spectrum.
@@ -67,31 +67,31 @@ Non-toxigenic *B. fragilis* (NTBF) produces **polysaccharide A (PSA)**, a zwitte
 
 ## Beta-Glucuronidase Activity
 
-- *B. fragilis* expresses **beta-glucuronidase**, the enzyme that deconjugates glucuronide-bound estrogens (and other compounds) in the gut, liberating free estrogens for reabsorption via the enterohepatic circulation.
+- *B. fragilis* expresses beta-glucuronidase, the enzyme that deconjugates glucuronide-bound estrogens (and other compounds) in the gut, liberating free estrogens for reabsorption via the enterohepatic circulation.
 - This estrobolome activity links *B. fragilis* to estrogen-dependent conditions including [[endometriosis]], [[breast-cancer]], and estrogen-receptor-positive [[colorectal-cancer]].
 - In the context of elevated ETBF in CRC, the combination of BFT-mediated E-cadherin cleavage AND beta-glucuronidase-driven estrogen recirculation may create synergistic carcinogenic pressure.
 
 ## Disease Associations
 
 ### Colorectal Cancer — ETBF Enriched
-ETBF is significantly enriched in **CRC tumor tissue** across multiple studies [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]], [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]. BFT-mediated E-cadherin cleavage and beta-catenin activation provide a mechanistic link to carcinogenesis [[metz-2019-drug-discovery-bft-inhibition]]. A cataloging study of CRC-promoting bacteria names ETBF alongside pks+ *E. coli*, *F. nucleatum*, *S. gallolyticus*, and *P. anaerobius* as organisms with specific pro-tumor mechanisms [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
+ETBF is significantly enriched in CRC tumor tissue across multiple studies [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]], [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]. BFT-mediated E-cadherin cleavage and beta-catenin activation provide a mechanistic link to carcinogenesis [[metz-2019-drug-discovery-bft-inhibition]]. A cataloging study of CRC-promoting bacteria names ETBF alongside pks+ *E. coli*, *F. nucleatum*, *S. gallolyticus*, and *P. anaerobius* as organisms with specific pro-tumor mechanisms [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
-**Appendectomy connection**: After appendectomy, *B. fragilis* and *B. vulgatus* emerged as **central network hubs** with the strongest negative correlations to beneficial commensals, particularly in subjects >50 years old [[shi-2023-appendectomy-microbiome-crc]]. This positions appendectomy-driven ETBF expansion as a microbiome mechanism for the 73% increased CRC incidence observed after appendectomy in a population-based cohort of 129,155 subjects.
+Appendectomy connection: After appendectomy, *B. fragilis* and *B. vulgatus* emerged as central network hubs with the strongest negative correlations to beneficial commensals, particularly in subjects >50 years old [[shi-2023-appendectomy-microbiome-crc]]. This positions appendectomy-driven ETBF expansion as a microbiome mechanism for the 73% increased CRC incidence observed after appendectomy in a population-based cohort of 129,155 subjects.
 
 ### Crohn's Disease
 The direction of *Bacteroides* change in Crohn's disease depends on whether ETBF or NTBF is measured. NTBF (PSA-producing) may be depleted, while ETBF strains contribute to mucosal inflammation. Zinc dyshomeostasis in the Crohn's gut (documented via ZIP8 variant studies) potentially modulates BFT activity by altering luminal zinc availability [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
 ### Graves' Disease — NTBF Depleted
-**Non-toxigenic *B. fragilis*** is significantly depleted in [[graves-disease]] patients alongside [[alistipes]] and [[parabacteroides]], contributing to the loss of anti-inflammatory commensals and reduced Treg-supporting activity [[su-2020-gut-microbiota-immune-imbalance-graves]].
+Non-toxigenic *B. fragilis* is significantly depleted in [[graves-disease]] patients alongside [[alistipes]] and [[parabacteroides]], contributing to the loss of anti-inflammatory commensals and reduced Treg-supporting activity [[su-2020-gut-microbiota-immune-imbalance-graves]].
 
 ### Intra-Abdominal Abscess
-*B. fragilis* is the **most common anaerobic isolate from intra-abdominal infections**, where its capsular polysaccharide (PSA) paradoxically promotes abscess formation. The same PSA that induces immune tolerance in the gut lumen drives localized encapsulation when translocated into the peritoneum.
+*B. fragilis* is the most common anaerobic isolate from intra-abdominal infections, where its capsular polysaccharide (PSA) paradoxically promotes abscess formation. The same PSA that induces immune tolerance in the gut lumen drives localized encapsulation when translocated into the peritoneum.
 
 ### Neurodegenerative Disease
 Altered *Bacteroides* abundance is reported in Parkinson's and Alzheimer's disease microbiome profiles, though species-level attribution to *B. fragilis* specifically is not always established [[khatoon-2023-gut-microbiota-neurodegenerative]].
 
 ### Heavy Metal Sensitivity
-*B. fragilis* is depleted by **arsenic exposure** — higher arsenic levels in the gut environment decrease *B. fragilis* alongside [[bifidobacterium]] [[krajewski-2025-heavy-metals-microbiome-metabolites-adhd-behavior]]. This arsenic-driven depletion of a PSA-producing commensal may disinhibit immune pathways normally modulated by NTBF, representing a heavy metal → microbiome → immune consequence chain.
+*B. fragilis* is depleted by arsenic exposure — higher arsenic levels in the gut environment decrease *B. fragilis* alongside [[bifidobacterium]] [[krajewski-2025-heavy-metals-microbiome-metabolites-adhd-behavior]]. This arsenic-driven depletion of a PSA-producing commensal may disinhibit immune pathways normally modulated by NTBF, representing a heavy metal → microbiome → immune consequence chain.
 
 ## Key Virulence Enzymes Summary
 

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Tau Phosphorylation
 
-**Tau** is a microtubule-associated protein essential for maintaining the structural integrity of neuronal axons. In health, tau binds to and stabilizes microtubules, enabling axonal transport of organelles, vesicles, and signaling molecules. When tau becomes hyperphosphorylated -- acquiring excess phosphate groups at specific serine and threonine residues -- it detaches from microtubules, misfolds, and aggregates into **neurofibrillary tangles (NFTs)**, one of the two hallmark pathological features of [[alzheimers-disease]] (the other being [[amyloid-beta]] plaques).
+Tau is a microtubule-associated protein essential for maintaining the structural integrity of neuronal axons. In health, tau binds to and stabilizes microtubules, enabling axonal transport of organelles, vesicles, and signaling molecules. When tau becomes hyperphosphorylated -- acquiring excess phosphate groups at specific serine and threonine residues -- it detaches from microtubules, misfolds, and aggregates into neurofibrillary tangles (NFTs), one of the two hallmark pathological features of [[alzheimers-disease]] (the other being [[amyloid-beta]] plaques).
 
 The metallomics perspective reveals that heavy metals promote tau hyperphosphorylation through multiple converging mechanisms, and that the gut microbiome contributes to this process via neuroinflammatory signaling through the [[gut-brain-axis]].
 
@@ -22,8 +22,8 @@ The metallomics perspective reveals that heavy metals promote tau hyperphosphory
 
 Tau phosphorylation is a normal, regulated process. In healthy neurons, tau carries 2-3 phosphate groups that modulate its binding affinity to microtubules. This dynamic phosphorylation-dephosphorylation cycle is controlled by:
 
-- **Kinases** (add phosphate groups): GSK-3beta (glycogen synthase kinase 3-beta), CDK5 (cyclin-dependent kinase 5), MAPK, DYRK1A, CK1
-- **Phosphatases** (remove phosphate groups): PP2A (protein phosphatase 2A, responsible for ~70% of tau dephosphorylation), PP1, PP5
+- Kinases (add phosphate groups): GSK-3beta (glycogen synthase kinase 3-beta), CDK5 (cyclin-dependent kinase 5), MAPK, DYRK1A, CK1
+- Phosphatases (remove phosphate groups): PP2A (protein phosphatase 2A, responsible for ~70% of tau dephosphorylation), PP1, PP5
 
 In Alzheimer's disease, tau carries 5-9 phosphate groups per molecule, and up to 45 of its 85 potential phosphorylation sites become occupied. This hyperphosphorylation reduces tau's microtubule affinity by 10-fold, causing it to detach, aggregate into paired helical filaments (PHFs), and eventually form the dense neurofibrillary tangles that correlate more closely with cognitive decline than amyloid plaque burden [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]].
 
@@ -91,10 +91,10 @@ The relationship between [[amyloid-beta]] and tau is sequential and synergistic:
 ## Tau Pathology Beyond Alzheimer's
 
 Hyperphosphorylated tau is found in multiple neurodegenerative conditions (collectively called "tauopathies"):
-- **Frontotemporal dementia**: Tau mutations directly cause some familial forms
-- **Chronic traumatic encephalopathy (CTE)**: Repetitive head trauma promotes tau phosphorylation
-- **Progressive supranuclear palsy**: Predominantly 4-repeat tau
-- **Parkinson's disease**: Tau pathology co-occurs with [[alpha-synuclein]] in some cases
+- Frontotemporal dementia: Tau mutations directly cause some familial forms
+- Chronic traumatic encephalopathy (CTE): Repetitive head trauma promotes tau phosphorylation
+- Progressive supranuclear palsy: Predominantly 4-repeat tau
+- Parkinson's disease: Tau pathology co-occurs with [[alpha-synuclein]] in some cases
 
 The common thread across these conditions is that metal dyshomeostasis and [[neuroinflammation]] converge on the same kinase/phosphatase imbalance that drives tau hyperphosphorylation.
 

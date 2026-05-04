@@ -26,7 +26,7 @@ A functional gastrointestinal disorder affecting 10-15% of the global population
 
 ### Nickel Allergic Contact Mucositis (ACM)
 Rizzi et al. (2017) demonstrated that a subset of IBS patients have nickel ACM -- allergic inflammation of the intestinal mucosa triggered by dietary nickel. Key findings:
-- Nickel patch test-positive IBS patients improve dramatically on a **low-nickel diet**
+- Nickel patch test-positive IBS patients improve dramatically on a low-nickel diet
 - Symptoms (bloating, pain, diarrhea) are indistinguishable from "classical" IBS
 - Mucosal biopsies show increased eosinophils and mast cells at sites of nickel contact
 - The prevalence of nickel sensitization in IBS cohorts ranges from 30-65% in European studies
@@ -43,10 +43,10 @@ The overlap between IBS and SNAS is so extensive that Lombardi et al. (2020) pro
 ## The FODMAP-Nickel Overlap
 
 A critical observation: many high-FODMAP foods are also high-nickel foods:
-- Legumes (beans, lentils, chickpeas) -- high FODMAP **and** high nickel
-- Whole wheat -- fructans (FODMAP) **and** nickel
-- Onions, garlic -- fructans **and** moderate nickel
-- Nuts -- some are high FODMAP **and** high nickel
+- Legumes (beans, lentils, chickpeas) -- high FODMAP and high nickel
+- Whole wheat -- fructans (FODMAP) and nickel
+- Onions, garlic -- fructans and moderate nickel
+- Nuts -- some are high FODMAP and high nickel
 
 This overlap means the clinical response to a low-FODMAP diet in IBS may partly reflect nickel avoidance. Patients who respond to low-FODMAP should be evaluated for nickel sensitization, as a targeted low-nickel diet may be less restrictive than full FODMAP elimination.
 
@@ -71,11 +71,11 @@ The hallmark of IBS -- exaggerated pain perception to normal intestinal distensi
 ## Microbiome in IBS
 
 IBS microbiome signatures are distinct from [[inflammatory-bowel-disease]]:
-- **Reduced diversity** -- less dramatic than IBD but consistently found
-- **Depleted:** Lactobacillus, Bifidobacterium, Faecalibacterium prausnitzii
-- **Enriched:** Firmicutes/Bacteroidetes ratio often increased; Ruminococcus, Dorea
-- **Methanogenic archaea** -- Methanobrevibacter smithii enrichment in constipation-predominant IBS (methane slows transit)
-- **SIBO (Small Intestinal Bacterial Overgrowth)** -- overlaps with IBS; lactulose breath test positive in 30-85% depending on criteria
+- Reduced diversity -- less dramatic than IBD but consistently found
+- Depleted: Lactobacillus, Bifidobacterium, Faecalibacterium prausnitzii
+- Enriched: Firmicutes/Bacteroidetes ratio often increased; Ruminococcus, Dorea
+- Methanogenic archaea -- Methanobrevibacter smithii enrichment in constipation-predominant IBS (methane slows transit)
+- SIBO (Small Intestinal Bacterial Overgrowth) -- overlaps with IBS; lactulose breath test positive in 30-85% depending on criteria
 
 Metal exposure compounds these shifts: [[dysbiosis]] from dietary nickel, cadmium (in tobacco), and other metals overlays the existing IBS microbiome disruption.
 

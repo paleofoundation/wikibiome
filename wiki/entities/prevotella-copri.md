@@ -5,17 +5,21 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
-source_count: 0
+sources:
+  - weir-2013-stool-microbiome-metabolome-crc-healthy
+  - quaranta-2019-fmt-female-reproductive-tract-diseases
+  - lv-2024-gut-microbiota-male-reproductive-function-review
+  - ross-2024-diet-gut-microbiome-interplay-health-disease
+  - dagar-2023-bacteriome-mycobiome-virome-rheumatoid-arthritis
+  - fan-2025-fmt-hypertension-rct
+source_count: 6
 gram_stain: "negative"
 oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron]
 key_enzymes: [iron-acquisition-siderophores, glycoside-hydrolases, fiber-degrading-carbohydrate-active-enzymes]
 tags: [rheumatoid-arthritis, metabolic-syndrome, context-dependent-pathobiont, fiber-degrader, iron-acquisition]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Prevotella copri rheumatoid arthritis iron gut microbiome"
 wikipedia_differentiation: "Context-dependent commensal-pathobiont spectrum with iron-modulated pathogenic potential in rheumatoid arthritis and metabolic syndrome"
 conditions_enriched_in: [rheumatoid-arthritis, metabolic-syndrome]
@@ -25,28 +29,28 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Prevotella copri
 
-A Gram-negative obligate anaerobe that occupies a unique **context-dependent niche** in the human gut microbiome. *P. copri* is significantly enriched in [[rheumatoid-arthritis]] patients and is associated with metabolic syndrome and obesity, yet in other contexts it can function as a commensal or even beneficial fiber-degrader. Its abundance and pathogenic potential are modulated by **iron availability** and by the presence of other community members -- making *P. copri* a key example of the commensal-pathobiont spectrum.
+A Gram-negative obligate anaerobe that occupies a unique context-dependent niche in the human gut microbiome. *P. copri* is significantly enriched in [[rheumatoid-arthritis]] patients and is associated with metabolic syndrome and obesity, yet in other contexts it can function as a commensal or even beneficial fiber-degrader. Its abundance and pathogenic potential are modulated by iron availability and by the presence of other community members -- making *P. copri* a key example of the commensal-pathobiont spectrum.
 
 ## The Paradox of Prevotella copri
 
 ### Disease Association Context
 
-- Notably **enriched in untreated RA patients**, particularly those positive for anti-CCP antibodies or rheumatoid factor.
+- Notably enriched in untreated RA patients, particularly those positive for anti-CCP antibodies or rheumatoid factor.
 - RA microbiome signatures show elevated *P. copri* often alongside elevated iron and depleted [[faecalibacterium-prausnitzii]].
 - In metabolic syndrome and obesity cohorts, *P. copri* dominance is associated with worse metabolic markers (higher fasting glucose, HOMA-IR, triglycerides).
 - Yet *P. copri* is a normal component of healthy gut microbiota in many individuals and populations (particularly high in non-industrialized cohorts).
 
 ### The Context Dependency
 
-- **Pathogenic behavior** occurs when *P. copri* dominates numerically and metabolic conditions favor its expansion (high-carbohydrate/low-fiber diets, iron elevation).
-- **Commensal behavior** is observed when *P. copri* exists at moderate abundance within a diverse community, particularly when [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], and other barrier-protective taxa are abundant.
-- This suggests that *P. copri* pathogenicity is **dose-dependent and context-dependent**, not intrinsic to the species itself.
+- Pathogenic behavior occurs when *P. copri* dominates numerically and metabolic conditions favor its expansion (high-carbohydrate/low-fiber diets, iron elevation).
+- Commensal behavior is observed when *P. copri* exists at moderate abundance within a diverse community, particularly when [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]], and other barrier-protective taxa are abundant.
+- This suggests that *P. copri* pathogenicity is dose-dependent and context-dependent, not intrinsic to the species itself.
 
 ## Iron Acquisition and Metal Dependency
 
 ### Iron Specialization
 
-- *P. copri* expresses robust **siderophore-mediated iron acquisition systems** and can scavenge heme-iron from lysed cells.
+- *P. copri* expresses robust siderophore-mediated iron acquisition systems and can scavenge heme-iron from lysed cells.
 - Outcompetes less metal-savvy anaerobes under high-iron conditions, making iron availability a key determinant of *P. copri* prevalence.
 - In RA microbiome signatures, elevated systemic iron (sometimes reflected in elevated serum ferritin and tissue iron deposition) selects for iron-dependent pathobionts like *P. copri*.
 
@@ -59,15 +63,15 @@ A Gram-negative obligate anaerobe that occupies a unique **context-dependent nic
 
 ### Glycoside Hydrolases and CAZymes
 
-- *P. copri* expresses a large suite of **glycoside hydrolases** and carbohydrate-active enzymes (CAZymes) for breaking down plant polysaccharides.
+- *P. copri* expresses a large suite of glycoside hydrolases and carbohydrate-active enzymes (CAZymes) for breaking down plant polysaccharides.
 - Can degrade resistant starch, beta-glucans, xylans, and other complex carbohydrates that humans cannot digest.
-- This is a **beneficial function**: in a diverse, balanced microbiota, *P. copri*-mediated fiber degradation produces short-chain fatty acids (primarily acetate and propionate) that benefit the host and feed downstream SCFA producers.
+- This is a beneficial function: in a diverse, balanced microbiota, *P. copri*-mediated fiber degradation produces short-chain fatty acids (primarily acetate and propionate) that benefit the host and feed downstream SCFA producers.
 
 ### Dysbiotic Context
 
 - In dysbiotic states (high *P. copri*, low [[faecalibacterium-prausnitzii]]), the balance tips: *P. copri* acetate and propionate may not be efficiently captured by SCFA-producing commensals, leading to:
- - **Acetate overflow** → hyperacetylation that can promote Th17 differentiation (pro-inflammatory in RA context).
- - **Loss of butyrate production** → reduced short-chain fatty acid diversity and Treg induction.
+ - Acetate overflow → hyperacetylation that can promote Th17 differentiation (pro-inflammatory in RA context).
+ - Loss of butyrate production → reduced short-chain fatty acid diversity and Treg induction.
 
 ## Disease Mechanisms in Rheumatoid Arthritis
 
@@ -75,10 +79,10 @@ A Gram-negative obligate anaerobe that occupies a unique **context-dependent nic
 
 The *P. copri*-dominant dysbiosis in RA involves:
 
-1. **Iron elevation** (from bleeding joints and systemic inflammation).
-2. **Zinc depletion** (sequestered by [[calprotectin]] in inflamed joints; lost in feces).
-3. **Reduced barrier colonizers** [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]].
-4. **Reduced diversity** overall, with *P. copri* as the dominant or co-dominant genus.
+1. Iron elevation (from bleeding joints and systemic inflammation).
+2. Zinc depletion (sequestered by [[calprotectin]] in inflamed joints; lost in feces).
+3. Reduced barrier colonizers [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]].
+4. Reduced diversity overall, with *P. copri* as the dominant or co-dominant genus.
 
 ### Mechanism: Iron-Driven Selection and Epithelial Dysfunction
 
@@ -109,7 +113,7 @@ The *P. copri*-dominant dysbiosis in RA involves:
 ### Sensitivity to Diversity
 
 - Introduction of [[faecalibacterium-prausnitzii]] or supplementation with inulin (prebiotic promoting butyrate producers) can reduce *P. copri* relative abundance, even without targeting *P. copri* directly.
-- This suggests that *P. copri* dominance is not due to intrinsic fitness, but to the **absence of competitors** in dysbiotic microbiota.
+- This suggests that *P. copri* dominance is not due to intrinsic fitness, but to the absence of competitors in dysbiotic microbiota.
 
 ## Ecological Modulators
 
@@ -120,8 +124,8 @@ The *P. copri*-dominant dysbiosis in RA involves:
 
 ### Metal Modulation
 
-- **Zinc repletion**: Restoring zinc availability supports barrier-protective taxa and reduces the iron-driven selective pressure that favors *P. copri* expansion.
-- **Iron restriction**: Reducing bioavailable luminal iron removes a key growth advantage for *P. copri* in dysbiotic, iron-enriched environments.
+- Zinc repletion: Restoring zinc availability supports barrier-protective taxa and reduces the iron-driven selective pressure that favors *P. copri* expansion.
+- Iron restriction: Reducing bioavailable luminal iron removes a key growth advantage for *P. copri* in dysbiotic, iron-enriched environments.
 
 ### Context-Dependent Ecology
 

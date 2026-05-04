@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Peptostreptococcus
 
-A Gram-positive, obligate anaerobic genus that has emerged as one of the most consistently **enriched taxa in [[colorectal-cancer]]**. The key pathogenic species *P. anaerobius* promotes colorectal carcinogenesis through multiple mechanisms including cholesterol biosynthesis induction, reactive oxygen species (ROS) generation, and [[nf-kappa-b]] activation. The genus also plays a role in periodontal disease, connecting oral and gut pathology.
+A Gram-positive, obligate anaerobic genus that has emerged as one of the most consistently enriched taxa in [[colorectal-cancer]]. The key pathogenic species *P. anaerobius* promotes colorectal carcinogenesis through multiple mechanisms including cholesterol biosynthesis induction, reactive oxygen species (ROS) generation, and [[nf-kappa-b]] activation. The genus also plays a role in periodontal disease, connecting oral and gut pathology.
 
 ## Role in Gut Ecosystem
 
@@ -30,15 +30,15 @@ A Gram-positive, obligate anaerobic genus that has emerged as one of the most co
 
 ## Mechanisms of CRC Promotion
 
-- **Cholesterol biosynthesis**: *P. anaerobius* activates cholesterol biosynthesis pathways in colonic epithelial cells, promoting cell proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. This connects to the broader observation that altered lipid metabolism characterizes CRC progression.
-- **ROS generation**: Induces reactive oxygen species in host cells, contributing to DNA damage, genomic instability, and mutagenesis -- hallmarks of carcinogenesis [[hanus-2021-immune-microbiota-metabolites-crc-triad]] [[norouzi-beirami-2020-functional-microbiome-crc]].
-- **NF-kB activation**: Triggers [[nf-kappa-b]] signaling in colonic epithelial and immune cells, driving chronic inflammation that supports tumor initiation and progression [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
-- **Immune modulation**: Promotes a pro-tumor immune microenvironment by recruiting myeloid-derived suppressor cells (MDSCs) and polarizing tumor-associated macrophages [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]].
+- Cholesterol biosynthesis: *P. anaerobius* activates cholesterol biosynthesis pathways in colonic epithelial cells, promoting cell proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. This connects to the broader observation that altered lipid metabolism characterizes CRC progression.
+- ROS generation: Induces reactive oxygen species in host cells, contributing to DNA damage, genomic instability, and mutagenesis -- hallmarks of carcinogenesis [[hanus-2021-immune-microbiota-metabolites-crc-triad]] [[norouzi-beirami-2020-functional-microbiome-crc]].
+- NF-kB activation: Triggers [[nf-kappa-b]] signaling in colonic epithelial and immune cells, driving chronic inflammation that supports tumor initiation and progression [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
+- Immune modulation: Promotes a pro-tumor immune microenvironment by recruiting myeloid-derived suppressor cells (MDSCs) and polarizing tumor-associated macrophages [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]].
 
 ## Disease Associations
 
 ### Colorectal Cancer
-- Among the **top 3 most consistently enriched genera** in CRC across the Islam 2022 meta-analysis of 27 CRC studies, alongside [[fusobacterium]] and [[porphyromonas]] [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
+- Among the top 3 most consistently enriched genera in CRC across the Islam 2022 meta-analysis of 27 CRC studies, alongside [[fusobacterium]] and [[porphyromonas]] [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
 - Enriched in both old-onset and young-onset CRC, demonstrating a consistent CRC-microbiome signature [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
 - Listed in the Hanus 2021 comprehensive catalog of bacteria involved in colorectal carcinogenesis alongside *F. nucleatum*, enterotoxigenic *B. fragilis*, and pks+ [[escherichia-coli]] [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
@@ -51,9 +51,9 @@ A Gram-positive, obligate anaerobic genus that has emerged as one of the most co
 
 ## Key Metabolites
 
-- **Indoleacrylic acid** -- tryptophan derivative; increases IL-10 (anti-inflammatory) in oral context
-- **ROS-inducing factors** -- promote oxidative DNA damage in colonic epithelium
-- **Cholesterol pathway activators** -- drive epithelial proliferation in CRC
+- Indoleacrylic acid -- tryptophan derivative; increases IL-10 (anti-inflammatory) in oral context
+- ROS-inducing factors -- promote oxidative DNA damage in colonic epithelium
+- Cholesterol pathway activators -- drive epithelial proliferation in CRC
 
 ## Key Sources
 

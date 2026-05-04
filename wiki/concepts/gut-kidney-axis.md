@@ -3,24 +3,30 @@ title: Gut-Kidney Axis
 type: concept
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics, chen-2019-microbiome-metabolome-gut-kidney-axis]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - mafra-2022-fermented-food-cardiometabolic-diseases
+  - borges-2016-uremic-toxins-inflammatory-markers-ckd
+  - mafra-2021-food-as-medicine-uraemic-phenotype-ckd
+  - lu-2019-constipation-esrd-risk-ckd
+  - zhang-2008-ckd-prevalence-population-systematic-review
+  - wehedy-2022-human-microbiome-ckd-double-edged-sword
+  - yu-2025-kidney-gut-brain-axis-hemodialysis-brain-dysfunction
+  - hall-2020-ckd-cats-dietary-fiber-metabolome-microbiome
+source_count: 8
 tags: [gut-kidney-axis, CKD, uremic-toxins, indoxyl-sulfate, p-cresol, TMAO, intestinal-permeability, dysbiosis, dialysis, microbiome]
 karen_brain_primitives: [1, 2, 5]
 seo_target: "gut kidney axis CKD microbiome uremic toxins"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Gut-Kidney Axis
 
 ## Overview
 
-The **gut-kidney axis** describes the bidirectional relationship between the gut microbiome and kidney function. As kidney disease progresses, the resulting biochemical changes (uremia, altered pH, fluid shifts) reshape the gut microbiome. The dysbiotic microbiome, in turn, generates uremic toxins and inflammatory mediators that accelerate kidney damage -- creating a vicious cycle that is the hallmark of [[chronic-kidney-disease]] progression.
+The gut-kidney axis describes the bidirectional relationship between the gut microbiome and kidney function. As kidney disease progresses, the resulting biochemical changes (uremia, altered pH, fluid shifts) reshape the gut microbiome. The dysbiotic microbiome, in turn, generates uremic toxins and inflammatory mediators that accelerate kidney damage -- creating a vicious cycle that is the hallmark of [[chronic-kidney-disease]] progression.
 
-This axis is distinctive in the WikiBiome knowledge graph because it illustrates the **amplification loop** principle: the disease changes the microbiome, and the changed microbiome worsens the disease. Metals add a third dimension, as declining kidney function impairs metal excretion, increasing metal-driven toxicity and microbial selection pressure.
+This axis is distinctive in the WikiBiome knowledge graph because it illustrates the amplification loop principle: the disease changes the microbiome, and the changed microbiome worsens the disease. Metals add a third dimension, as declining kidney function impairs metal excretion, increasing metal-driven toxicity and microbial selection pressure.
 
 ## The Vicious Cycle
 
@@ -44,19 +50,19 @@ Kidney Dysfunction
 
 As kidney function declines [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]]:
 
-1. **Urea influx**: Elevated blood urea diffuses into the intestinal lumen, where bacterial urease hydrolyzes it to ammonia. Ammonia raises luminal pH, favoring Proteobacteria over acid-producing commensals.
-2. **Fluid and electrolyte shifts**: Altered colonic transit and fluid handling change the gut microenvironment
-3. **Dietary restrictions**: CKD dietary protocols (low potassium, low phosphorus) inadvertently reduce fiber intake, starving butyrate-producing bacteria
-4. **Medications**: Phosphate binders, antibiotics, and iron supplements reshape the microbiome
-5. **Impaired metal excretion**: Cadmium, lead, and other nephrotoxic metals accumulate, exerting selective pressure on gut bacteria (see [[chronic-kidney-disease]])
+1. Urea influx: Elevated blood urea diffuses into the intestinal lumen, where bacterial urease hydrolyzes it to ammonia. Ammonia raises luminal pH, favoring Proteobacteria over acid-producing commensals.
+2. Fluid and electrolyte shifts: Altered colonic transit and fluid handling change the gut microenvironment
+3. Dietary restrictions: CKD dietary protocols (low potassium, low phosphorus) inadvertently reduce fiber intake, starving butyrate-producing bacteria
+4. Medications: Phosphate binders, antibiotics, and iron supplements reshape the microbiome
+5. Impaired metal excretion: Cadmium, lead, and other nephrotoxic metals accumulate, exerting selective pressure on gut bacteria (see [[chronic-kidney-disease]])
 
 ### The Dysbiotic Microbiome Damages Kidneys
 
 The CKD-associated microbiome is characterized by:
 
-- **Enriched**: Proteobacteria ([[enterobacteriaceae]], [[escherichia-coli]]), [[desulfovibrio]], urease-positive organisms
-- **Depleted**: [[bifidobacterium]], [[lactobacillus]], [[faecalibacterium-prausnitzii]], [[roseburia]] -- SCFA producers
-- **Functional shift**: From saccharolytic (fiber-fermenting, SCFA-producing) to proteolytic (amino acid-fermenting, uremic toxin-producing)
+- Enriched: Proteobacteria ([[enterobacteriaceae]], [[escherichia-coli]]), [[desulfovibrio]], urease-positive organisms
+- Depleted: [[bifidobacterium]], [[lactobacillus]], [[faecalibacterium-prausnitzii]], [[roseburia]] -- SCFA producers
+- Functional shift: From saccharolytic (fiber-fermenting, SCFA-producing) to proteolytic (amino acid-fermenting, uremic toxin-producing)
 
 ## Uremic Toxins of Microbial Origin
 
@@ -64,11 +70,11 @@ The most clinically significant products of the dysbiotic CKD microbiome:
 
 | Toxin | Precursor | Bacterial Source | Kidney Effect |
 |-------|-----------|-----------------|---------------|
-| **Indoxyl sulfate (IS)** | Tryptophan → indole | [[escherichia-coli]], Clostridium | Tubular injury, fibrosis, oxidative stress |
-| **p-Cresyl sulfate (pCS)** | Tyrosine → p-cresol | Clostridioides, Blautia | Tubular damage, cardiovascular toxicity |
-| **[[tmao|TMAO]]** | Choline, carnitine → TMA | Proteobacteria | Renal fibrosis, atherosclerosis |
-| **Phenylacetylglutamine** | Phenylalanine | Clostridium, Bacteroides | Cardiovascular events |
-| **Hippuric acid** | Polyphenols → benzoic acid | Multiple taxa | Moderate nephrotoxicity |
+| Indoxyl sulfate (IS) | Tryptophan → indole | [[escherichia-coli]], Clostridium | Tubular injury, fibrosis, oxidative stress |
+| p-Cresyl sulfate (pCS) | Tyrosine → p-cresol | Clostridioides, Blautia | Tubular damage, cardiovascular toxicity |
+| [[tmao|TMAO]] | Choline, carnitine → TMA | Proteobacteria | Renal fibrosis, atherosclerosis |
+| Phenylacetylglutamine | Phenylalanine | Clostridium, Bacteroides | Cardiovascular events |
+| Hippuric acid | Polyphenols → benzoic acid | Multiple taxa | Moderate nephrotoxicity |
 
 These toxins accumulate as kidney filtration declines, reaching concentrations 10-100 times normal in end-stage renal disease (ESRD). They cannot be efficiently cleared by conventional hemodialysis because they are protein-bound.
 
@@ -87,10 +93,10 @@ Indoxyl sulfate exemplifies the gut-kidney axis [[chen-2019-microbiome-metabolom
 
 The gut-kidney axis intersects with metallomics in ways unique to CKD:
 
-- **Cadmium accumulation**: The kidney is the primary target organ for cadmium toxicity. As CKD progresses, cadmium excretion fails and tissue levels rise, driving further damage
-- **Lead retention**: Blood lead increases 4x more per unit GFR decline in Black individuals than White -- a racial disparity with environmental justice implications
-- **Iron supplementation paradox**: CKD patients often receive IV iron, which feeds gut Proteobacteria and may worsen dysbiosis
-- **Metal-resistant bacteria**: CKD gut bacteria carry more metal resistance genes (cadA, czc operons), suggesting metal-driven selection pressure in the uremic gut [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]]
+- Cadmium accumulation: The kidney is the primary target organ for cadmium toxicity. As CKD progresses, cadmium excretion fails and tissue levels rise, driving further damage
+- Lead retention: Blood lead increases 4x more per unit GFR decline in Black individuals than White -- a racial disparity with environmental justice implications
+- Iron supplementation paradox: CKD patients often receive IV iron, which feeds gut Proteobacteria and may worsen dysbiosis
+- Metal-resistant bacteria: CKD gut bacteria carry more metal resistance genes (cadA, czc operons), suggesting metal-driven selection pressure in the uremic gut [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]]
 
 ## Intestinal Barrier Disruption
 
@@ -105,11 +111,11 @@ CKD erodes the intestinal barrier through multiple mechanisms:
 
 Understanding the gut-kidney axis opens intervention opportunities:
 
-- **Dietary fiber**: Shifting the microbiome from proteolytic to saccharolytic metabolism reduces uremic toxin production
-- **Probiotics/synbiotics**: Restoring SCFA-producing taxa
-- **AST-120 (oral adsorbent)**: Binds indole in the gut lumen, reducing IS production
-- **Targeted dietary amino acid restriction**: Reducing tryptophan and tyrosine substrates for uremic toxin production
-- **FMT**: Preliminary evidence of microbiome restoration in CKD animal models
+- Dietary fiber: Shifting the microbiome from proteolytic to saccharolytic metabolism reduces uremic toxin production
+- Probiotics/synbiotics: Restoring SCFA-producing taxa
+- AST-120 (oral adsorbent): Binds indole in the gut lumen, reducing IS production
+- Targeted dietary amino acid restriction: Reducing tryptophan and tyrosine substrates for uremic toxin production
+- FMT: Preliminary evidence of microbiome restoration in CKD animal models
 
 ## Open Questions
 

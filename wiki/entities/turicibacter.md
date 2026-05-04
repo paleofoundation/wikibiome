@@ -24,7 +24,7 @@ oxygen_requirement: "facultative anaerobe"
 
 # Turicibacter
 
-A Gram-positive, facultatively anaerobic genus within the class Erysipelotrichia (phylum Firmicutes) that has become one of the **most frequently identified taxa in gut-brain and gut-immune Mendelian randomization studies**. *Turicibacter sanguinis*, the type species, possesses a remarkable property: it directly interacts with the host **serotonin transporter (SERT)**, making it one of the few bacteria known to modulate host serotonin biology at the molecular level. This serotonin connection, combined with MR evidence linking *Turicibacter* to Hashimoto's thyroiditis, coronary heart disease, and ASD, positions it as a multi-system immunomodulatory taxon.
+A Gram-positive, facultatively anaerobic genus within the class Erysipelotrichia (phylum Firmicutes) that has become one of the most frequently identified taxa in gut-brain and gut-immune Mendelian randomization studies. *Turicibacter sanguinis*, the type species, possesses a remarkable property: it directly interacts with the host serotonin transporter (SERT), making it one of the few bacteria known to modulate host serotonin biology at the molecular level. This serotonin connection, combined with MR evidence linking *Turicibacter* to Hashimoto's thyroiditis, coronary heart disease, and ASD, positions it as a multi-system immunomodulatory taxon.
 
 ## Taxonomy
 
@@ -34,7 +34,7 @@ A Gram-positive, facultatively anaerobic genus within the class Erysipelotrichia
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - *Turicibacter* has modest iron requirements typical of low-GC Firmicutes.
 - Iron-dependent oxidoreductases support its facultative metabolism.
 - The genus name *sanguinis* (from blood) reflects its original isolation site, not an iron-piracy strategy, though its ability to survive in blood suggests adaptation to iron-rich environments.
@@ -42,7 +42,7 @@ A Gram-positive, facultatively anaerobic genus within the class Erysipelotrichia
 ## Key Features
 
 ### Serotonin Transporter Interaction
-*Turicibacter* is one of the few gut bacteria demonstrated to **directly interact with the host serotonin transporter (SERT/SLC6A4)**. This interaction:
+*Turicibacter* is one of the few gut bacteria demonstrated to directly interact with the host serotonin transporter (SERT/SLC6A4). This interaction:
 - Allows *Turicibacter* to sense and respond to host serotonin levels
 - Influences local serotonin availability in the gut, affecting motility, secretion, and immune signaling
 - Creates a bidirectional communication channel between host serotonin biology and microbial ecology
@@ -58,7 +58,7 @@ A Gram-positive, facultatively anaerobic genus within the class Erysipelotrichia
 
 ### Dietary Responsiveness
 *Turicibacter* shows dramatic dietary responsiveness:
-- **Ketogenic diet**: 120-fold increase in abundance in mice [[ma-2018-ketogenic-diet-neurovascular-function-gut-microbiome-mice]], among the most extreme dietary expansions reported for any gut taxon
+- Ketogenic diet: 120-fold increase in abundance in mice [[ma-2018-ketogenic-diet-neurovascular-function-gut-microbiome-mice]], among the most extreme dietary expansions reported for any gut taxon
 - This extreme responsiveness suggests *Turicibacter* thrives on the metabolic byproducts of ketosis (ketone bodies, altered bile acid composition) rather than dietary fiber
 
 ## Conditions Associated
@@ -72,7 +72,7 @@ A Gram-positive, facultatively anaerobic genus within the class Erysipelotrichia
 ### Autism Spectrum Disorder
 The picture is complex:
 - MR suggests a possible positive association with ASD (OR = 1.14, borderline significance) [[li-2023-gut-microbiota-asd-bidirectional-mr]]
-- A systematic review found *Turicibacter* consistently **decreased** in ASD alongside *Bifidobacterium*, *Blautia*, *Dialister*, *Prevotella*, and *Veillonella* [[liu-2019-altered-microbiota-composition-asd-systematic-review]]
+- A systematic review found *Turicibacter* consistently decreased in ASD alongside *Bifidobacterium*, *Blautia*, *Dialister*, *Prevotella*, and *Veillonella* [[liu-2019-altered-microbiota-composition-asd-systematic-review]]
 - The discrepancy may reflect the difference between causal (MR) and observational findings, or treatment effects in observational cohorts
 
 ### Multiple Sclerosis / EAE

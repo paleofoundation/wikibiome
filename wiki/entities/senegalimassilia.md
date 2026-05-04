@@ -24,7 +24,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Senegalimassilia
 
-A Gram-positive, obligate anaerobic genus within the phylum Actinobacteria (family Coriobacteriaceae) that has emerged as one of the **most frequently identified taxa in Mendelian randomization studies across disparate conditions** -- erectile dysfunction, chronic kidney disease, hypertension, pancreatic cancer, and epilepsy. The genus is named after Senegal and Marseille (the isolation sources of early strains) and belongs to the Coriobacteriaceae, a family known for **phytoestrogen metabolism** and equol production. This metabolic capability may explain why *Senegalimassilia* appears in hormone-sensitive and vascular conditions with opposing directionality.
+A Gram-positive, obligate anaerobic genus within the phylum Actinobacteria (family Coriobacteriaceae) that has emerged as one of the most frequently identified taxa in Mendelian randomization studies across disparate conditions -- erectile dysfunction, chronic kidney disease, hypertension, pancreatic cancer, and epilepsy. The genus is named after Senegal and Marseille (the isolation sources of early strains) and belongs to the Coriobacteriaceae, a family known for phytoestrogen metabolism and equol production. This metabolic capability may explain why *Senegalimassilia* appears in hormone-sensitive and vascular conditions with opposing directionality.
 
 ## Taxonomy
 
@@ -34,14 +34,14 @@ A Gram-positive, obligate anaerobic genus within the phylum Actinobacteria (fami
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Standard iron requirements for anaerobic Actinobacteria metabolism.
 - Coriobacteriaceae generally have modest iron acquisition systems, consistent with their ecological niche as secondary metabolizers rather than primary fermenters.
 
 ## Key Enzymes and Metabolic Features
 
-- **Phytoestrogen metabolism**: Coriobacteriaceae, including *Senegalimassilia*, participate in the conversion of dietary isoflavones (daidzein, genistein) to bioactive metabolites. Some members produce **equol**, a potent estrogen receptor modulator with cardiovascular and anti-cancer properties.
-- **Bile acid transformation**: Coriobacteriaceae contribute to secondary bile acid metabolism, linking them to cholesterol homeostasis and gut-liver axis signaling.
+- Phytoestrogen metabolism: Coriobacteriaceae, including *Senegalimassilia*, participate in the conversion of dietary isoflavones (daidzein, genistein) to bioactive metabolites. Some members produce equol, a potent estrogen receptor modulator with cardiovascular and anti-cancer properties.
+- Bile acid transformation: Coriobacteriaceae contribute to secondary bile acid metabolism, linking them to cholesterol homeostasis and gut-liver axis signaling.
 
 ## Ecological Role
 
@@ -50,9 +50,9 @@ A Gram-positive, obligate anaerobic genus within the phylum Actinobacteria (fami
 
 ### Multi-Disease MR Profile
 The opposing directionality of *Senegalimassilia* across conditions is striking and may reflect:
-- **Phytoestrogen metabolism**: Equol production could be protective in cancer (anti-proliferative) but contributory in erectile dysfunction (estrogen modulation of vascular function)
-- **Bile acid effects**: Secondary bile acid production may have opposing effects on renal vs. cardiovascular endpoints
-- **Population-specific effects**: MR instruments may capture different Senegalimassilia strains or genetic contexts across GWAS populations
+- Phytoestrogen metabolism: Equol production could be protective in cancer (anti-proliferative) but contributory in erectile dysfunction (estrogen modulation of vascular function)
+- Bile acid effects: Secondary bile acid production may have opposing effects on renal vs. cardiovascular endpoints
+- Population-specific effects: MR instruments may capture different Senegalimassilia strains or genetic contexts across GWAS populations
 
 ## Conditions Associated
 
@@ -63,7 +63,7 @@ The opposing directionality of *Senegalimassilia* across conditions is striking 
 Nominally significant CKD risk factor (OR = 1.13, p < 0.05) [[luo-2023-causal-effects-gut-microbiota-ckd-mr]], though not reaching Bonferroni significance (unlike [[desulfovibrionales]]).
 
 ### Hypertension (Protective)
-*Senegalimassilia* is the **most statistically significant protective factor** against hypertension (p < 0.01) [[li-2023-gut-microbiome-hypertension-bidirectional-mr]], contrasting sharply with its risk role in ED and CKD. The cardiovascular protection may operate through equol-mediated vasodilation or bile acid signaling.
+*Senegalimassilia* is the most statistically significant protective factor against hypertension (p < 0.01) [[li-2023-gut-microbiome-hypertension-bidirectional-mr]], contrasting sharply with its risk role in ED and CKD. The cardiovascular protection may operate through equol-mediated vasodilation or bile acid signaling.
 
 ### Pancreatic Cancer (Protective)
 MR-confirmed protective factor (OR = 0.635) [[jiang-2023-mendelian-randomization-gut-microbiota-pancreatic-cancer]], suggesting anti-tumorigenic metabolite production.
@@ -81,8 +81,8 @@ Gut *Senegalimassilia* abundance positively correlates with spasm frequency (r =
 
 ## Open Questions
 
-1. **Why is Senegalimassilia protective for hypertension but a risk factor for ED?** Both conditions involve vascular function, yet the directionality is opposite. Species-level resolution and metabolomics (equol, bile acids) could resolve this paradox.
-2. **Is equol production the common mechanistic thread?** If confirmed, dietary isoflavone intake could modulate the effects of *Senegalimassilia* across conditions.
+1. Why is Senegalimassilia protective for hypertension but a risk factor for ED? Both conditions involve vascular function, yet the directionality is opposite. Species-level resolution and metabolomics (equol, bile acids) could resolve this paradox.
+2. Is equol production the common mechanistic thread? If confirmed, dietary isoflavone intake could modulate the effects of *Senegalimassilia* across conditions.
 
 ## Cross-References
 

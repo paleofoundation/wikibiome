@@ -54,8 +54,8 @@ Starting state: 1706 sources, 216 entities, 171 concepts, 41 signatures, 30 inte
 
 ### Step 4 — Ingest Raw Folder
 
-- **Unmatched raw PDFs detected:** 59 (after filtering hash-named files and improving slug matching)
-- **Ingested this cycle:** 8 new source pages
+- Unmatched raw PDFs detected: 59 (after filtering hash-named files and improving slug matching)
+- Ingested this cycle: 8 new source pages
   1. `smovrsnik-2025-trace-elements-pcos-case-control.md` — Mo/Cu in PCOS (case-control, n=70)
   2. `borghini-2020-low-nickel-diet-celiac-ibs-symptoms.md` — Ni ACM in celiac (quasi-experimental, n=20)
   3. `pourmirzaiee-2024-postpartum-depression-magnesium-infant-development.md` — Mg-PPD (prospective cohort, n=224)
@@ -64,17 +64,17 @@ Starting state: 1706 sources, 216 entities, 171 concepts, 41 signatures, 30 inte
   6. `rho-2025-heavy-metals-kidney-function-paradoxical.md` — Paradoxical metal-kidney relationship (cross-sectional)
   7. `lamtai-2018-chronic-nickel-affective-cognitive-behavior-rats.md` — Ni neurobehavior in rats (animal model)
   8. `tao-2024-cadmium-gut-microbiota-hamsters.md` — Cd gut microbiome disruption (animal model)
-- **Entities/concepts updated:** 0 (entity pages already existed for all referenced metals/diseases)
-- **Contradictions flagged:** 0
-- **Remaining unmatched:** ~51 raw PDFs
+- Entities/concepts updated: 0 (entity pages already existed for all referenced metals/diseases)
+- Contradictions flagged: 0
+- Remaining unmatched: ~51 raw PDFs
 
 ### Step 5 — Create Pages That Should Exist
 
-- **Ghost wikilinks with ≥3 refs:** 6 detected
-- **Stubs created:** 2
+- Ghost wikilinks with ≥3 refs: 6 detected
+- Stubs created: 2
   - `wiki/concepts/nrf2.md` — Nrf2 transcription factor (3 refs from MS/oxidative stress sources)
   - `wiki/entities/megamonas.md` — Megamonas microbe genus (3 refs from ASD/thyroid sources)
-- **Deferred (source-page-format ghosts, not entities/concepts):** 4
+- Deferred (source-page-format ghosts, not entities/concepts): 4
   - `Van Dingenen 2023 - Gut Microbiome Radio-Immunotherapy CRC` (8 refs) — source page reference, PDF likely unmatched
   - `McLeod 2023 - BRIDGE-CRC Mediterranean Diet Trial` (4 refs) — source page reference
   - `de Paiva et al 2020 cereals` (3 refs) — source page reference
@@ -82,11 +82,11 @@ Starting state: 1706 sources, 216 entities, 171 concepts, 41 signatures, 30 inte
 
 ### Step 6 — Commit + Cycle Summary
 
-- **Commit:** `db335ed3` — "cycle 1: health check + lint fixes + 8 ingests + 2 stubs + gestational-diabetes signature"
-- **Files changed:** 884
-- **Total detected:** 1,236 (200 DOIs + 430 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 14 orphans + 6 ghosts + 8 ingests + 2 stubs + 1 entity + 1 signature + 5 deferred conditions)
-- **Total fixed:** 985 (200 DOIs + 207 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 8 ingests + 1 entity + 1 signature)
-- **Total deferred:** 251 (223 evidence_level + 14 orphans + 4 ghost source refs + 5 conditions + 5 disease entities without sigs)
+- Commit: `db335ed3` — "cycle 1: health check + lint fixes + 8 ingests + 2 stubs + gestational-diabetes signature"
+- Files changed: 884
+- Total detected: 1,236 (200 DOIs + 430 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 14 orphans + 6 ghosts + 8 ingests + 2 stubs + 1 entity + 1 signature + 5 deferred conditions)
+- Total fixed: 985 (200 DOIs + 207 evidence_level + 528 kbp + 3 wikilinks + 38 signature_page + 8 ingests + 1 entity + 1 signature)
+- Total deferred: 251 (223 evidence_level + 14 orphans + 4 ghost source refs + 5 conditions + 5 disease entities without sigs)
 
 ---
 
@@ -104,7 +104,7 @@ Starting state: 1706 sources, 216 entities, 171 concepts, 41 signatures, 30 inte
 
 ### Steps 3-5 — No new gaps detected
 
-**EXIT: Cycle 2 produced zero fixes and zero new ingests. Stopping per exit condition.**
+EXIT: Cycle 2 produced zero fixes and zero new ingests. Stopping per exit condition.
 
 ---
 

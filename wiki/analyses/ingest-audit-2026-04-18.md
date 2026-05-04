@@ -9,9 +9,9 @@ tags: [audit, data-quality, frontmatter, wikilinks, ghost-pages]
 
 # Ingest Completeness Audit
 
-**Scope:** Full audit of `/wiki/` against 6 completeness checks.
-**Run date:** 2026-04-18
-**Inventory:** 1,706 source pages | 162 entities | 108 concepts | 41 signatures | 30 interventions | 8 STOPs
+Scope: Full audit of `/wiki/` against 6 completeness checks.
+Run date: 2026-04-18
+Inventory: 1,706 source pages | 162 entities | 108 concepts | 41 signatures | 30 interventions | 8 STOPs
 
 ## Summary
 
@@ -28,11 +28,11 @@ tags: [audit, data-quality, frontmatter, wikilinks, ghost-pages]
 
 ## Check 1: Orphan PDFs
 
-**5,420 PDFs** found in `raw/` (including subdirectories). **~3,548** lack a clearly matching source page.
+5,420 PDFs found in `raw/` (including subdirectories). ~3,548 lack a clearly matching source page.
 
 Many orphans are expected: hash-named files (`337cd8506ea601f8edce5cf40e4e2206.pdf`), duplicates with slight name variations, supplementary tables, and non-research PDFs. A substantial subset are legitimately un-ingested papers.
 
-**Representative orphan examples:**
+Representative orphan examples:
 
 | PDF | Likely reason |
 |-----|--------------|
@@ -47,13 +47,13 @@ Many orphans are expected: hash-named files (`337cd8506ea601f8edce5cf40e4e2206.p
 | `s00018-018-2988-4.pdf` | DOI-based filename |
 | `out110_en.pdf` | Regulatory document |
 
-**Action:** Batch-triage orphan PDFs. Hash-named and duplicate files can be identified and excluded. Remaining un-ingested papers should be queued for ingest.
+Action: Batch-triage orphan PDFs. Hash-named and duplicate files can be identified and excluded. Remaining un-ingested papers should be queued for ingest.
 
 ---
 
 ## Check 2: Frontmatter Gaps
 
-Total source pages: **1,706**. Fields checked against v2 schema requirements.
+Total source pages: 1,706. Fields checked against v2 schema requirements.
 
 | Field | Missing | Invalid/Empty | Total gap | % gap |
 |-------|---------|---------------|-----------|-------|
@@ -66,74 +66,74 @@ Total source pages: **1,706**. Fields checked against v2 schema requirements.
 | `library_category` | 982 | -- | 982 | 58% |
 | `key_findings` | 1,092 | 2 (empty `[]`) | 1,094 | 64% |
 
-**5 examples per gap:**
+5 examples per gap:
 
-**evidence_level missing:**
+evidence_level missing:
 - `daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac.md`
 - `mafra-2022-fermented-food-cardiometabolic-diseases.md`
 - `dinakaran-2014-circdna-circulating-microbiome-cvd.md`
 - `jie-2017-gut-microbiome-acvd.md`
 - `pendergrass-2026-counterproductive-expose-testing.md`
 
-**evidence_level "not yet classified" (invalid):**
+evidence_level "not yet classified" (invalid):
 - `16s-rrna-t2d-subgingival-plaque-microbiota.md`
 - `NOTE-evaluation-risk-ptes-italy-fish-products.md`
 - `16s-rrna-yu-ye-tang-t2d-metabolomics.md`
 - `16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis.md`
 
-**library_category missing:**
+library_category missing:
 - `ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia.md`
 - `daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac.md`
 - `saha-2005-prevalence-schizophrenia-systematic-review.md`
 - `atabilen-2022-dietary-interventions-ms-systematic-review.md`
 - `mafra-2022-fermented-food-cardiometabolic-diseases.md`
 
-**karen_brain_primitives missing:**
+karen_brain_primitives missing:
 - `ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia.md`
 - `daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac.md`
 - `saha-2005-prevalence-schizophrenia-systematic-review.md`
 - `mafra-2022-fermented-food-cardiometabolic-diseases.md`
 - `luo-2022-gut-microbiota-metabolites-heart-failure-mr.md`
 
-**karen_brain_primitives empty `[]`:**
+karen_brain_primitives empty `[]`:
 - `west-2022-multi-angle-meta-analysis-gut-microbiome-asd.md`
 - `zhang-2021-fluoxetine-amitriptyline-gut-microbiota-cums-rats.md`
 - `wang-2026-fecal-metabolomics-ms.md`
 - `alibek-2022-torch-infections-dysbiotic-microbiome-asd.md`
 - `van-sadelhoff-2019-gut-immune-brain-axis-asd-amino-acids.md`
 
-**key_findings missing:**
+key_findings missing:
 - `ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia.md`
 - `daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac.md`
 - `saha-2005-prevalence-schizophrenia-systematic-review.md`
 - `mafra-2022-fermented-food-cardiometabolic-diseases.md`
 - `dinakaran-2014-circdna-circulating-microbiome-cvd.md`
 
-**metals_discussed missing:**
+metals_discussed missing:
 - `ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia.md`
 - `daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac.md`
 - `saha-2005-prevalence-schizophrenia-systematic-review.md`
 - `mafra-2022-fermented-food-cardiometabolic-diseases.md`
 - `luo-2022-gut-microbiota-metabolites-heart-failure-mr.md`
 
-**taxa_discussed missing:**
+taxa_discussed missing:
 - `saha-2005-prevalence-schizophrenia-systematic-review.md`
 - `mafra-2022-fermented-food-cardiometabolic-diseases.md`
 - `pendergrass-2026-counterproductive-expose-testing.md`
 - `liu-2025-immune-gut-microbiota-crc-mr-mediation.md`
 - `liu-2019-urinary-amino-acids-asd-biomarkers.md`
 
-**Pattern:** The same ~500-1000 source pages consistently lack multiple v2 fields. These are v1-era batch-migrated pages that received only `platform` and `doi` but not the deeper classification fields. A single batch migration pass targeting these pages would close most gaps.
+Pattern: The same ~500-1000 source pages consistently lack multiple v2 fields. These are v1-era batch-migrated pages that received only `platform` and `doi` but not the deeper classification fields. A single batch migration pass targeting these pages would close most gaps.
 
 ---
 
 ## Check 3: Unreferenced Source Pages
 
-**905 of 1,706 source pages (53%)** are not referenced by any entity, concept, signature, intervention, or STOP page.
+905 of 1,706 source pages (53%) are not referenced by any entity, concept, signature, intervention, or STOP page.
 
 These sources exist in isolation -- they have been ingested and summarized but their findings have not been wired into the knowledge graph.
 
-**15 representative unreferenced sources:**
+15 representative unreferenced sources:
 - `16s-rrna-t2d-subgingival-plaque-microbiota`
 - `16s-rrna-yu-ye-tang-t2d-metabolomics`
 - `Chen2023-gut-microbiota-inflammatory-mendelian-covid`
@@ -150,19 +150,19 @@ These sources exist in isolation -- they have been ingested and summarized but t
 - `agagunduz-2023-dietary-lipids-lipidomics-gut-brain-t2d`
 - `agrawal-2022-risk-factors-ppd`
 
-**Action:** Prioritize wiring these into entity and concept pages. Many are condition-specific papers that should update their respective disease entity and signature pages.
+Action: Prioritize wiring these into entity and concept pages. Many are condition-specific papers that should update their respective disease entity and signature pages.
 
 ---
 
 ## Check 4: source_count Drift
 
-**0 mismatches found.** All entity pages with both `source_count` and `sources` array have matching counts. Clean.
+0 mismatches found. All entity pages with both `source_count` and `sources` array have matching counts. Clean.
 
 ---
 
 ## Check 5: Ghost Pages (Broken Wikilinks)
 
-**2,425 unique wikilink targets** found across all wiki pages. **1,200 targets (49%)** have no corresponding file.
+2,425 unique wikilink targets found across all wiki pages. 1,200 targets (49%) have no corresponding file.
 
 ### By category:
 
@@ -297,7 +297,7 @@ These sources exist in isolation -- they have been ingested and summarized but t
 - `lung-cancer`
 - `metabolic-syndrome` (note: exists as entity but linked with wrong case elsewhere)
 
-**Action:** Prioritize creating entity pages for high-frequency ghost targets. Fix 21 case-mismatch links. Create or locate the 15 missing source pages.
+Action: Prioritize creating entity pages for high-frequency ghost targets. Fix 21 case-mismatch links. Create or locate the 15 missing source pages.
 
 ---
 
@@ -315,15 +315,15 @@ Many condition values are not diseases (e.g., "cross-condition", "RNA-based dual
 | prediabetes | 1 | No signature |
 | preterm delivery | 1 | No signature |
 
-**Action:** COVID-19 (9 sources) and gestational diabetes (5 sources) are strong candidates for new signature pages. MDD may be covered by the existing depression signature -- verify and either merge or create separately.
+Action: COVID-19 (9 sources) and gestational diabetes (5 sources) are strong candidates for new signature pages. MDD may be covered by the existing depression signature -- verify and either merge or create separately.
 
 ---
 
 ## Priority Recommendations
 
-1. **Batch frontmatter migration** -- ~700 source pages lack multiple v2 fields. A programmatic pass can infer `evidence_level` from study-design keywords, extract `key_findings` from existing body text, and populate `library_category` from tags.
-2. **Wire unreferenced sources** -- 905 source pages (53%) are disconnected from the knowledge graph. Prioritize by condition to maximize signature depth.
-3. **Fix case-mismatch wikilinks** -- 21 trivial fixes.
-4. **Create high-value entity pages** -- Focus on frequently-linked ghosts: `irritable-bowel-syndrome`, `bipolar-disorder`, `hypothyroidism`, `heart-failure`, `estrogen`, `campylobacter`, `enterococcus-faecalis`.
-5. **Create missing concept pages** -- `gut-brain axis`, `gut-barrier`, `insulin resistance`, `intestinal permeability`, `iron homeostasis`, `kynurenine-pathway`.
-6. **Resolve source ghosts** -- 15 source slugs are referenced but don't exist. Either create the pages or fix the broken links.
+1. Batch frontmatter migration -- ~700 source pages lack multiple v2 fields. A programmatic pass can infer `evidence_level` from study-design keywords, extract `key_findings` from existing body text, and populate `library_category` from tags.
+2. Wire unreferenced sources -- 905 source pages (53%) are disconnected from the knowledge graph. Prioritize by condition to maximize signature depth.
+3. Fix case-mismatch wikilinks -- 21 trivial fixes.
+4. Create high-value entity pages -- Focus on frequently-linked ghosts: `irritable-bowel-syndrome`, `bipolar-disorder`, `hypothyroidism`, `heart-failure`, `estrogen`, `campylobacter`, `enterococcus-faecalis`.
+5. Create missing concept pages -- `gut-brain axis`, `gut-barrier`, `insulin resistance`, `intestinal permeability`, `iron homeostasis`, `kynurenine-pathway`.
+6. Resolve source ghosts -- 15 source slugs are referenced but don't exist. Either create the pages or fix the broken links.

@@ -3,20 +3,24 @@ title: Hyperparathyroidism
 type: concept
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: [haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia, elbeialy-2024-environmental-pollution-rheumatic-diseases]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - elbeialy-2024-environmental-pollution-rheumatic-diseases
+  - romagnani-2017-chronic-kidney-disease-primer
+  - kahaly-2022-graves-disease-targeted-therapy-review
+  - weider-2022-viruses-thyroid-tissue
+  - briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans
+  - haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia
+source_count: 6
 tags: [hyperparathyroidism, PTH, calcium, vitamin-D, heavy-metals, lead, cadmium, chromium, CKD, bone, rheumatic]
 karen_brain_primitives: [1, 2, 3]
 seo_target: "hyperparathyroidism heavy metals vitamin D calcium microbiome"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 ---
 
 # Hyperparathyroidism
 
-**Hyperparathyroidism** is the overproduction of parathyroid hormone (PTH), a master regulator of calcium homeostasis. While primary hyperparathyroidism (from parathyroid adenoma) is well described, the WikiBiome framework highlights **secondary hyperparathyroidism** -- the compensatory PTH elevation driven by heavy metal interference with vitamin D metabolism and calcium handling. This metal-driven pathway links environmental exposure to bone disease, kidney damage, and immune dysregulation.
+Hyperparathyroidism is the overproduction of parathyroid hormone (PTH), a master regulator of calcium homeostasis. While primary hyperparathyroidism (from parathyroid adenoma) is well described, the WikiBiome framework highlights secondary hyperparathyroidism -- the compensatory PTH elevation driven by heavy metal interference with vitamin D metabolism and calcium handling. This metal-driven pathway links environmental exposure to bone disease, kidney damage, and immune dysregulation.
 
 ## The Metal-Vitamin D-PTH Axis
 
@@ -45,7 +49,7 @@ Bone resorption → osteopenia/osteoporosis
 
 In [[rheumatoid-arthritis]] patients:
 
-- **PTH**: 77.03 pg/ml in RA vs. 49.35 pg/ml in controls (p<0.001) -- a clinically significant secondary hyperparathyroidism [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]].
+- PTH: 77.03 pg/ml in RA vs. 49.35 pg/ml in controls (p<0.001) -- a clinically significant secondary hyperparathyroidism [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]].
 - Strong inverse correlations between vitamin D and metals: VitD-Lead (r=-0.969), VitD-Cd (r=-0.901), VitD-Cr (r=-0.925) [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]].
 - The metal-VitD-bone axis explains why RA patients have both elevated inflammatory markers and vitamin D deficiency -- the metals drive both.
 
@@ -84,10 +88,10 @@ Re-elevated blood Pb → further VitD disruption
 
 The relationship between hyperparathyroidism and the gut microbiome operates through:
 
-1. **Calcium absorption**: Gut microbiome composition affects calcium bioavailability through pH modulation, phytate degradation, and [[oxalates]] metabolism.
-2. **Vitamin D metabolism**: Emerging evidence suggests gut bacteria influence vitamin D receptor expression and vitamin D metabolite levels.
-3. **Parathyroid hormone and gut permeability**: PTH elevation is associated with increased intestinal permeability in CKD, potentially amplifying endotoxemia.
-4. **Metal mobilization**: PTH-driven bone resorption releases stored toxic metals, which then reshape the gut microbiome.
+1. Calcium absorption: Gut microbiome composition affects calcium bioavailability through pH modulation, phytate degradation, and [[oxalates]] metabolism.
+2. Vitamin D metabolism: Emerging evidence suggests gut bacteria influence vitamin D receptor expression and vitamin D metabolite levels.
+3. Parathyroid hormone and gut permeability: PTH elevation is associated with increased intestinal permeability in CKD, potentially amplifying endotoxemia.
+4. Metal mobilization: PTH-driven bone resorption releases stored toxic metals, which then reshape the gut microbiome.
 
 ## Open Questions
 

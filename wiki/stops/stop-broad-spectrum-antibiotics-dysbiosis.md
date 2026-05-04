@@ -20,7 +20,7 @@ karen_brain_primitives: [5, 6, 8, 9]
 
 # STOP: Broad-Spectrum Antibiotics for Gut Dysbiosis
 
-> **Research summary -- not medical advice.** This page synthesizes published research on why broad-spectrum antibiotics may worsen gut dysbiosis rather than correct it. This does NOT apply to life-threatening infections requiring antibiotic treatment. Consult a qualified healthcare provider before making changes to antimicrobial therapy.
+> Research summary -- not medical advice. This page synthesizes published research on why broad-spectrum antibiotics may worsen gut dysbiosis rather than correct it. This does NOT apply to life-threatening infections requiring antibiotic treatment. Consult a qualified healthcare provider before making changes to antimicrobial therapy.
 
 ## The Problem: Antibiotics Kill the Wrong Bacteria
 
@@ -36,7 +36,7 @@ Meanwhile, planktonic SCFA-producing commensals ([[faecalibacterium-prausnitzii]
 
 ### 2. Interkingdom Functional Shielding Protects Pathogens
 
-[[candida-albicans]] biofilms provide **functional shielding** for bacterial pathobionts [[khan-2018-bacterial-contamination-hypothesis-endometriosis]]. The fungal component:
+[[candida-albicans]] biofilms provide functional shielding for bacterial pathobionts [[khan-2018-bacterial-contamination-hypothesis-endometriosis]]. The fungal component:
 - Consumes oxygen, creating anaerobic niches within the biofilm
 - Shields bacteria from immune detection and antibiotic penetration
 - Shows increased biomass in the presence of nickel
@@ -45,7 +45,7 @@ Antibiotics that target bacteria do not affect the fungal scaffold. After antibi
 
 ### 3. Metal-Antibiotic Co-Resistance Selects for Super-Pathogens
 
-A critical and underappreciated consequence: metal tolerance (MeT) genes for mercury, arsenic, and copper **co-occur with antibiotic resistance (ABR) genes** on mobile genetic elements in gut organisms [[rebelo-2021-enterococcus-metal-antibiotic-resistance]]. These co-resistance cassettes transfer horizontally across genera (Lactobacillus, Streptococcus, Staphylococcus). This means:
+A critical and underappreciated consequence: metal tolerance (MeT) genes for mercury, arsenic, and copper co-occur with antibiotic resistance (ABR) genes on mobile genetic elements in gut organisms [[rebelo-2021-enterococcus-metal-antibiotic-resistance]]. These co-resistance cassettes transfer horizontally across genera (Lactobacillus, Streptococcus, Staphylococcus). This means:
 
 - Antibiotic exposure selects for metal-resistant organisms (and vice versa)
 - Environmental cadmium contamination can drive antibiotic resistance in the gut microbiome
@@ -70,36 +70,36 @@ Recovery of the butyrate-producing community after antibiotics is slow and often
 
 ## The Ecological Engineering Alternative
 
-Karen's Brain Primitive 5 -- **Two-Sided Ecological Engineering** -- provides the framework for addressing dysbiosis without antibiotics:
+Karen's Brain Primitive 5 -- Two-Sided Ecological Engineering -- provides the framework for addressing dysbiosis without antibiotics:
 
 ### Side 1: Suppress Pathobionts (Targeted, Not Broad)
 
 | Strategy | Target | Mechanism |
 |----------|--------|-----------|
-| **[[low-nickel-diet]]** | Ni-dependent pathogens | Disables urease, hydrogenase, glyoxalase |
-| **[[lactoferrin-supplementation]]** | Iron-dependent pathogens | Sequesters iron from siderophore-producing organisms |
-| **[[saccharomyces-boulardii]]** | [[candida-albicans]] | Competes for fungal niche; disrupts biofilm |
-| **[[ecoli-nissle-1917]]** | Pathogenic E. coli | Superior siderophore competition; microcin production |
-| **HBOT** | Anaerobic pathobionts | Disrupts the hypoxic niche that obligate anaerobes require |
+| [[low-nickel-diet]] | Ni-dependent pathogens | Disables urease, hydrogenase, glyoxalase |
+| [[lactoferrin-supplementation]] | Iron-dependent pathogens | Sequesters iron from siderophore-producing organisms |
+| [[saccharomyces-boulardii]] | [[candida-albicans]] | Competes for fungal niche; disrupts biofilm |
+| [[ecoli-nissle-1917]] | Pathogenic E. coli | Superior siderophore competition; microcin production |
+| HBOT | Anaerobic pathobionts | Disrupts the hypoxic niche that obligate anaerobes require |
 
 ### Side 2: Restore Missing Beneficial Functions
 
 | Strategy | Target | Mechanism |
 |----------|--------|-----------|
-| **Dietary fiber** | SCFA producer recovery | Substrate for butyrate, propionate, acetate production |
-| **Strain-specific probiotics** | Niche re-occupation | L. rhamnosus GG, B. infantis 35624, condition-matched strains |
-| **Prebiotics** (inulin, FOS) | Bifidobacterium, F. prausnitzii | Selective substrate for beneficial taxa |
-| **[[nac-supplementation]]** | Glutathione restoration | Replenishes the antioxidant defense depleted by metal-driven oxidative stress |
+| Dietary fiber | SCFA producer recovery | Substrate for butyrate, propionate, acetate production |
+| Strain-specific probiotics | Niche re-occupation | L. rhamnosus GG, B. infantis 35624, condition-matched strains |
+| Prebiotics (inulin, FOS) | Bifidobacterium, F. prausnitzii | Selective substrate for beneficial taxa |
+| [[nac-supplementation]] | Glutathione restoration | Replenishes the antioxidant defense depleted by metal-driven oxidative stress |
 
 ## When Antibiotics ARE Necessary
 
 This STOP does not apply to:
-- **Life-threatening infections** (sepsis, peritonitis, necrotizing fasciitis)
-- **C. difficile infection** (where vancomycin/fidaxomicin is indicated)
-- **H. pylori eradication** (where triple/quadruple therapy is standard, ideally with a low-nickel diet)
-- **Active abscess or fistulizing Crohn's** (where targeted antibiotics may be required)
+- Life-threatening infections (sepsis, peritonitis, necrotizing fasciitis)
+- C. difficile infection (where vancomycin/fidaxomicin is indicated)
+- H. pylori eradication (where triple/quadruple therapy is standard, ideally with a low-nickel diet)
+- Active abscess or fistulizing Crohn's (where targeted antibiotics may be required)
 
-When antibiotics are necessary, **follow with ecological restoration**: targeted probiotics (strain-specific, condition-matched), prebiotics, and dietary fiber to rebuild the commensal community. The goal is to minimize the post-antibiotic dysbiosis window during which pathobionts can recolonize unopposed.
+When antibiotics are necessary, follow with ecological restoration: targeted probiotics (strain-specific, condition-matched), prebiotics, and dietary fiber to rebuild the commensal community. The goal is to minimize the post-antibiotic dysbiosis window during which pathobionts can recolonize unopposed.
 
 ## Connections
 
@@ -116,4 +116,4 @@ When antibiotics are necessary, **follow with ecological restoration**: targeted
 
 ---
 
-> **Educational content, not medical advice.** Antibiotic decisions should be made by a physician based on clinical indication, culture results, and risk-benefit analysis. This page addresses the specific problem of using broad-spectrum antibiotics as a primary strategy for chronic gut dysbiosis, not their use for acute infections.
+> Educational content, not medical advice. Antibiotic decisions should be made by a physician based on clinical indication, culture results, and risk-benefit analysis. This page addresses the specific problem of using broad-spectrum antibiotics as a primary strategy for chronic gut dysbiosis, not their use for acute infections.

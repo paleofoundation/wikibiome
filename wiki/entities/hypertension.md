@@ -26,8 +26,8 @@ Sustained elevation of systemic blood pressure, affecting an estimated 1.3 billi
 
 ### SCFA-Mediated BP Regulation
 SCFAs regulate blood pressure through opposing receptor systems:
-- **GPR41 (FFAR3)**: Propionate and butyrate binding causes vasodilation and BP reduction via endothelial relaxation.
-- **Olfr78** (olfactory receptor 78, renal): Propionate and acetate binding on renal juxtaglomerular cells stimulates renin release, raising BP.
+- GPR41 (FFAR3): Propionate and butyrate binding causes vasodilation and BP reduction via endothelial relaxation.
+- Olfr78 (olfactory receptor 78, renal): Propionate and acetate binding on renal juxtaglomerular cells stimulates renin release, raising BP.
 - At physiological SCFA concentrations, the vasodilatory GPR41 effect dominates, producing net BP reduction [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
 - [[dysbiosis]]-driven SCFA depletion removes this vasodilatory brake, contributing to hypertension.
 - High-fiber diets increase colonic SCFA production and are consistently associated with lower BP.
@@ -62,12 +62,12 @@ A distinctive feature of hypertension research is the role of the gut fungal mic
 ## FMT for Hypertension: First Human RCT
 
 Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-controlled trial of oral FMT for stage 1 hypertension (NCT04406129) [[fan-2025-fmt-hypertension-rct]]:
-- **124 patients** (mean age 43), 7 centers in China.
-- **Primary outcome**: SBP change at day 30 was -6.28 mmHg (FMT) vs -5.77 mmHg (placebo), p=0.62 (not significant).
-- **Transient effect**: At 1 week, FMT produced -4.34 mmHg between-arm SBP difference (p=0.024), but this did not persist.
-- **Age subgroup**: Participants >48 years showed significant SBP reduction of 7.65 mmHg (p=0.029).
-- **Microbial shifts**: Increased *Parabacteroides merdae*, *Prevotella copri*, *Eubacterium* sp.; decreased *Eggerthella lenta*, *Streptococcus vestibularis*.
-- **Metabolite associations**: SBP-associated metabolites included tyrosine, glutamine, phenylalanine, methionine.
+- 124 patients (mean age 43), 7 centers in China.
+- Primary outcome: SBP change at day 30 was -6.28 mmHg (FMT) vs -5.77 mmHg (placebo), p=0.62 (not significant).
+- Transient effect: At 1 week, FMT produced -4.34 mmHg between-arm SBP difference (p=0.024), but this did not persist.
+- Age subgroup: Participants >48 years showed significant SBP reduction of 7.65 mmHg (p=0.029).
+- Microbial shifts: Increased *Parabacteroides merdae*, *Prevotella copri*, *Eubacterium* sp.; decreased *Eggerthella lenta*, *Streptococcus vestibularis*.
+- Metabolite associations: SBP-associated metabolites included tyrosine, glutamine, phenylalanine, methionine.
 - Implication: microbial BP modulation is real but transient, suggesting repeated or sustained intervention is needed.
 
 ## Metal Risk Factors

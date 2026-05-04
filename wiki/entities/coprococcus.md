@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Coprococcus
 
-A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family (Firmicutes phylum). *Coprococcus* is one of the most important **butyrate-producing commensals** in the human gut and has gained particular attention as the "happiness bug" -- one of very few taxa directly linked to mental health outcomes through population-level studies. Key species include *C. eutactus* and *C. catus*, both prolific [[short-chain-fatty-acids]] producers.
+A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family (Firmicutes phylum). *Coprococcus* is one of the most important butyrate-producing commensals in the human gut and has gained particular attention as the "happiness bug" -- one of very few taxa directly linked to mental health outcomes through population-level studies. Key species include *C. eutactus* and *C. catus*, both prolific [[short-chain-fatty-acids]] producers.
 
 ## Role in Gut Ecosystem
 
@@ -31,7 +31,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 
 ## The "Happiness Bug" -- Mental Health Link
 
-- The landmark Valles-Colomer 2019 study identified *Coprococcus* (alongside [[faecalibacterium-prausnitzii]]) as consistently **depleted in individuals with depression**, even after controlling for antidepressant use -- one of the first population-scale microbiome-mental health associations.
+- The landmark Valles-Colomer 2019 study identified *Coprococcus* (alongside [[faecalibacterium-prausnitzii]]) as consistently depleted in individuals with depression, even after controlling for antidepressant use -- one of the first population-scale microbiome-mental health associations.
 - *Coprococcus* produces DOPAC (3,4-dihydroxyphenylacetic acid), a dopamine metabolite, providing a plausible mechanism for its mental health associations via the [[gut-brain-axis]].
 - Consistently decreased in [[autism-spectrum-disorder]] youth across multiple observational reviews [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]].
 - Depleted in [[schizophrenia]] patients alongside other SCFA producers, consistent with the dysbiosis-inflammation-neurotransmitter axis in psychotic disorders [[yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s]] [[patrono-2021-schizophrenia-gut-microbiota-optogenetics-nmda-gaba]].
@@ -48,7 +48,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 - Depleted in major depressive disorder; DOPAC production links it mechanistically to dopaminergic signaling.
 
 ### Multiple Sclerosis
-- Reduced **3.4-fold** in MS patients compared to healthy controls in the Saresella 2020 study, part of the dramatic Lachnospiraceae depletion that characterizes MS dysbiosis [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]].
+- Reduced 3.4-fold in MS patients compared to healthy controls in the Saresella 2020 study, part of the dramatic Lachnospiraceae depletion that characterizes MS dysbiosis [[saresella-2020-fatty-acids-dysbiosis-inflammation-ms]].
 - Loss correlates with reduced serum butyric acid and increased gut barrier permeability (elevated LPS and I-FABP).
 
 ### Inflammatory Bowel Disease
@@ -68,9 +68,9 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 
 ## Key Metabolites
 
-- **Butyrate** -- primary product; HDAC inhibitor, anti-inflammatory, gut barrier protectant
-- **Propionate** -- produced by *C. catus* via acrylate pathway; metabolic regulator
-- **DOPAC** -- dopamine metabolite; potential mediator of gut-brain mental health effects
+- Butyrate -- primary product; HDAC inhibitor, anti-inflammatory, gut barrier protectant
+- Propionate -- produced by *C. catus* via acrylate pathway; metabolic regulator
+- DOPAC -- dopamine metabolite; potential mediator of gut-brain mental health effects
 
 ## Connections
 

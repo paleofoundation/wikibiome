@@ -20,18 +20,18 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Enterobacteriaceae
 
-A family of Gram-negative, facultative anaerobic Gammaproteobacteria that includes many of the most important human pathogens: [[escherichia-coli]], [[klebsiella-pneumoniae]], [[salmonella-typhimurium]], [[shigella-flexneri]], [[yersinia-pestis]], [[proteus-mirabilis]], Morganella, and Serratia. Their bloom in the gut is the **hallmark signature of dysbiosis** across virtually every disease state in this wiki, and their iron-scavenging capacity gives them a decisive competitive advantage under conditions of [[gut-metal-microbiome]] disruption.
+A family of Gram-negative, facultative anaerobic Gammaproteobacteria that includes many of the most important human pathogens: [[escherichia-coli]], [[klebsiella-pneumoniae]], [[salmonella-typhimurium]], [[shigella-flexneri]], [[yersinia-pestis]], [[proteus-mirabilis]], Morganella, and Serratia. Their bloom in the gut is the hallmark signature of dysbiosis across virtually every disease state in this wiki, and their iron-scavenging capacity gives them a decisive competitive advantage under conditions of [[gut-metal-microbiome]] disruption.
 
 ## Iron-Dependent Virulence
 
-- Enterobacteriaceae are **avid iron scavengers**, producing multiple siderophore systems (enterobactin, aerobactin, yersiniabactin, salmochelin) to acquire [[iron]] from the host environment.
+- Enterobacteriaceae are avid iron scavengers, producing multiple siderophore systems (enterobactin, aerobactin, yersiniabactin, salmochelin) to acquire [[iron]] from the host environment.
 - Under [[nutritional-immunity]] conditions (where the host sequesters iron), siderophore production becomes the primary competitive weapon against non-siderophore-producing commensals like [[lachnospiraceae]], [[roseburia]], and [[faecalibacterium-prausnitzii]].
 - Excess dietary iron supplementation paradoxically promotes Enterobacteriaceae expansion by overwhelming host iron sequestration mechanisms.
 - The iron-rich tumor microenvironment in [[colorectal-cancer]] selects for siderophore-producing E. coli strains, including genotoxic pks+ strains that produce colibactin [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
 ## Nickel-Dependent Enzymes
 
-- All Enterobacteriaceae are predicted to carry **Ni-dependent glyoxalase I (Ni-GloI)**, a metal-dependent detoxification enzyme.
+- All Enterobacteriaceae are predicted to carry Ni-dependent glyoxalase I (Ni-GloI), a metal-dependent detoxification enzyme.
 - [[nickel]]-dependent urease (in Proteus, Klebsiella, Yersinia) generates ammonia that raises local pH and damages epithelial cells.
 - [NiFe]-hydrogenase enables hydrogen-dependent energy metabolism in the gut, conferring a metabolic advantage in the H2-rich colonic environment [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
@@ -39,25 +39,25 @@ A family of Gram-negative, facultative anaerobic Gammaproteobacteria that includ
 
 Enterobacteriaceae expansion is enriched in virtually every disease state:
 
-- **Cardiovascular disease**: enriched in ACVD with increased TMA lyase genes (CutC/D, YeaW/X) for TMAO production. LPS biosynthesis genes also enriched [[jie-2017-gut-microbiome-acvd]].
-- **Colorectal cancer**: enriched in CRC patients; alcohol consumption further increases abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. pks+ E. coli produces colibactin causing DNA double-strand breaks.
-- **Parkinson's disease**: consistently increased in PD; LPS translocation triggers neuroinflammation via TLR4/NF-kB [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- **IBD**: blooms during flares when oxygen leaks into the lumen through damaged epithelium, favoring facultative anaerobes over obligate anaerobes.
-- **Heavy metal exposure**: enriched with As, Pb, Hg, and Cd exposure, as these bacteria possess metal efflux pumps and siderophores that confer metal tolerance [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
+- Cardiovascular disease: enriched in ACVD with increased TMA lyase genes (CutC/D, YeaW/X) for TMAO production. LPS biosynthesis genes also enriched [[jie-2017-gut-microbiome-acvd]].
+- Colorectal cancer: enriched in CRC patients; alcohol consumption further increases abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. pks+ E. coli produces colibactin causing DNA double-strand breaks.
+- Parkinson's disease: consistently increased in PD; LPS translocation triggers neuroinflammation via TLR4/NF-kB [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- IBD: blooms during flares when oxygen leaks into the lumen through damaged epithelium, favoring facultative anaerobes over obligate anaerobes.
+- Heavy metal exposure: enriched with As, Pb, Hg, and Cd exposure, as these bacteria possess metal efflux pumps and siderophores that confer metal tolerance [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
 
 ## Metal-Antibiotic Co-Resistance
 
-- Enterobacteriaceae frequently carry plasmids encoding **both metal resistance genes and antibiotic resistance genes** on the same mobile genetic elements.
+- Enterobacteriaceae frequently carry plasmids encoding both metal resistance genes and antibiotic resistance genes on the same mobile genetic elements.
 - Exposure to heavy metals can co-select for antibiotic resistance even without antibiotic exposure, through co-resistance and cross-resistance mechanisms.
 - Metal efflux pumps (e.g., CzcCBA for Cd/Zn/Co, CopA for Cu) share regulatory elements with multidrug efflux systems.
 - This co-resistance positions Enterobacteriaceae as a nexus linking environmental metal contamination to the antimicrobial resistance crisis.
 
 ## Key Metabolites
 
-- **LPS (endotoxin)** -- outer membrane component that triggers TLR4/NF-kB [[inflammation]] cascade upon translocation.
-- **TMA/TMAO** -- TMA lyase (CutC/D) converts dietary choline/carnitine to TMA, oxidized to TMAO in the liver; pro-atherogenic metabolite linked to [[cardiovascular-disease]].
-- **Colibactin** -- genotoxin from pks+ E. coli strains causing DNA damage in [[colorectal-cancer]].
-- **Siderophores** -- iron-chelating molecules that reshape metal availability in the gut lumen.
+- LPS (endotoxin) -- outer membrane component that triggers TLR4/NF-kB [[inflammation]] cascade upon translocation.
+- TMA/TMAO -- TMA lyase (CutC/D) converts dietary choline/carnitine to TMA, oxidized to TMAO in the liver; pro-atherogenic metabolite linked to [[cardiovascular-disease]].
+- Colibactin -- genotoxin from pks+ E. coli strains causing DNA damage in [[colorectal-cancer]].
+- Siderophores -- iron-chelating molecules that reshape metal availability in the gut lumen.
 
 ## Connections
 

@@ -43,17 +43,17 @@ An umbrella term for chronic relapsing-remitting inflammatory conditions of the 
 ## Dysbiosis Signature
 
 IBD dysbiosis is among the most characterized in the literature:
-- **Depleted**: [[faecalibacterium-prausnitzii]] (most consistent finding), Roseburia, [[blautia]], [[bifidobacterium]], Prevotella -- all major [[short-chain-fatty-acids]] producers.
-- **Enriched**: Enterobacteriaceae (adherent-invasive E. coli in CD), Fusobacterium, Ruminococcus gnavus.
+- Depleted: [[faecalibacterium-prausnitzii]] (most consistent finding), Roseburia, [[blautia]], [[bifidobacterium]], Prevotella -- all major [[short-chain-fatty-acids]] producers.
+- Enriched: Enterobacteriaceae (adherent-invasive E. coli in CD), Fusobacterium, Ruminococcus gnavus.
 - Firmicutes/Bacteroidetes ratio altered; reduced microbial diversity overall.
 - This signature overlaps substantially with metal-induced dysbiosis patterns, raising the question of whether environmental metal exposure contributes to IBD incidence.
 
 ## Biomarkers
 
-- **Fecal [[calprotectin]]**: The gold-standard non-invasive biomarker for intestinal inflammation in IBD. S100A8/A9 protein released by activated neutrophils; sequesters zinc and manganese as part of [[nutritional-immunity]]. Correlates with endoscopic disease activity.
-- **CRP, SAA**: Systemic inflammation markers; CRP elevated in active disease.
-- **Fecal lactoferrin**: Iron-binding neutrophil protein; elevated in active IBD.
-- **IL-6, TNF-alpha, IL-1beta**: Pro-inflammatory cytokines driving disease pathology.
+- Fecal [[calprotectin]]: The gold-standard non-invasive biomarker for intestinal inflammation in IBD. S100A8/A9 protein released by activated neutrophils; sequesters zinc and manganese as part of [[nutritional-immunity]]. Correlates with endoscopic disease activity.
+- CRP, SAA: Systemic inflammation markers; CRP elevated in active disease.
+- Fecal lactoferrin: Iron-binding neutrophil protein; elevated in active IBD.
+- IL-6, TNF-alpha, IL-1beta: Pro-inflammatory cytokines driving disease pathology.
 
 ## IBD-CVD Comorbidity
 

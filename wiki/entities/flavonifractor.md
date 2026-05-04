@@ -23,7 +23,7 @@ wikipedia_differentiation: "Degrades dietary flavonoids (anti-inflammatory polyp
 
 # Flavonifractor
 
-A Gram-positive obligate anaerobe in the family Ruminococcaceae (Clostridium cluster IV) whose defining metabolic activity is the **degradation of dietary flavonoids** — the very polyphenols that serve as anti-inflammatory, antioxidant, and antimicrobial agents. When *Flavonifractor* is enriched, it effectively neutralizes one of the body's key dietary defenses before those compounds can act systemically.
+A Gram-positive obligate anaerobe in the family Ruminococcaceae (Clostridium cluster IV) whose defining metabolic activity is the degradation of dietary flavonoids — the very polyphenols that serve as anti-inflammatory, antioxidant, and antimicrobial agents. When *Flavonifractor* is enriched, it effectively neutralizes one of the body's key dietary defenses before those compounds can act systemically.
 
 ## Taxonomy and Classification
 
@@ -36,10 +36,10 @@ A Gram-positive obligate anaerobe in the family Ruminococcaceae (Clostridium clu
 
 *Flavonifractor* encodes a suite of metal-dependent oxidoreductases that underpin its unique metabolic niche:
 
-- **Iron-dependent cytochrome b-like flavoprotein**: Central to the electron transport chain supporting anaerobic aromatic ring reduction. Iron serves as the electron carrier within the heme cofactor, enabling the ring-opening reactions that deactivate flavonoids.
-- **Cobalt-dependent corrinoid enzymes**: Cobalt-containing B12-like cofactors participate in the reductive dehalogenation and carbon skeleton rearrangements involved in phenolic acid catabolism downstream of ring cleavage.
-- **Enoate reductase (2-enoate reductase)**: An iron-sulfur cluster enzyme that reduces the C2=C3 double bond in flavonoids, a key step in the deactivation of chalcones and flavanones including naringenin and eriodictyol.
-- **Chalcone isomerase**: Converts chalcones to flavanones, feeding them into the reductase pathway.
+- Iron-dependent cytochrome b-like flavoprotein: Central to the electron transport chain supporting anaerobic aromatic ring reduction. Iron serves as the electron carrier within the heme cofactor, enabling the ring-opening reactions that deactivate flavonoids.
+- Cobalt-dependent corrinoid enzymes: Cobalt-containing B12-like cofactors participate in the reductive dehalogenation and carbon skeleton rearrangements involved in phenolic acid catabolism downstream of ring cleavage.
+- Enoate reductase (2-enoate reductase): An iron-sulfur cluster enzyme that reduces the C2=C3 double bond in flavonoids, a key step in the deactivation of chalcones and flavanones including naringenin and eriodictyol.
+- Chalcone isomerase: Converts chalcones to flavanones, feeding them into the reductase pathway.
 
 The iron and cobalt requirements explain why *Flavonifractor* can thrive in iron-replete dysbiotic environments: conditions like CKD and inflammatory bowel states where iron dysregulation is common provide the cofactor availability that fuels its metabolic machinery.
 
@@ -47,10 +47,10 @@ The iron and cobalt requirements explain why *Flavonifractor* can thrive in iron
 
 *Flavonifractor plautii* cleaves the C-ring of multiple flavonoid classes, converting them to inactive phenolic acids [[minerbi-2019-altered-microbiome-fibromyalgia]]:
 
-- **Flavonols** (quercetin, kaempferol, myricetin): ring-opened to protocatechuic acid and phloroglucinol derivatives
-- **Flavanones** (naringenin, hesperidin): reduced to dihydrochalcones and then to simple phenols
-- **Catechins** (epicatechin, EGCG): A-ring dehydroxylation removes catechol functionality
-- **Isoflavones** (genistein, daidzein): dearomatized to inactive equol precursors via enoate reductase
+- Flavonols (quercetin, kaempferol, myricetin): ring-opened to protocatechuic acid and phloroglucinol derivatives
+- Flavanones (naringenin, hesperidin): reduced to dihydrochalcones and then to simple phenols
+- Catechins (epicatechin, EGCG): A-ring dehydroxylation removes catechol functionality
+- Isoflavones (genistein, daidzein): dearomatized to inactive equol precursors via enoate reductase
 
 This degradation occurs in the proximal colon before flavonoids can be absorbed by enterocytes or reach the distal gut where systemic exposure occurs. The result is a dramatic reduction in systemic polyphenol bioavailability — not a subtle effect, but wholesale destruction of the bioactive compounds.
 
@@ -64,9 +64,9 @@ This degradation occurs in the proximal colon before flavonoids can be absorbed 
 
 ### In Dysbiosis
 
-- **Competitive release**: When *Faecalibacterium prausnitzii* and butyrate producers decline — as in fibromyalgia, CKD, and post-antibiotic states — *Flavonifractor* expands into the vacated niche.
-- **Polyphenol erosion**: Its expansion removes a key class of dietary anti-inflammatory agents precisely when the patient's inflammatory burden is already elevated.
-- **Uremic toxin contribution**: In CKD, *Flavonifractor* enrichment correlates with progression [[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]]. The phenolic acids produced from flavonoid degradation can serve as substrates for further microbial transformation into indole-related uremic toxins (indoxyl sulfate precursors via aromatic amino acid catabolism overlap), potentially contributing to uremic toxin burden.
+- Competitive release: When *Faecalibacterium prausnitzii* and butyrate producers decline — as in fibromyalgia, CKD, and post-antibiotic states — *Flavonifractor* expands into the vacated niche.
+- Polyphenol erosion: Its expansion removes a key class of dietary anti-inflammatory agents precisely when the patient's inflammatory burden is already elevated.
+- Uremic toxin contribution: In CKD, *Flavonifractor* enrichment correlates with progression [[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]]. The phenolic acids produced from flavonoid degradation can serve as substrates for further microbial transformation into indole-related uremic toxins (indoxyl sulfate precursors via aromatic amino acid catabolism overlap), potentially contributing to uremic toxin burden.
 
 ## Disease Associations
 
@@ -74,7 +74,7 @@ This degradation occurs in the proximal colon before flavonoids can be absorbed 
 
 *Flavonifractor* is one of the most consistently enriched taxa in fibromyalgia microbiome studies:
 
-- Significantly enriched in fibromyalgia patients versus healthy controls, with abundance **correlating directly with symptom severity scores** [[minerbi-2019-altered-microbiome-fibromyalgia]].
+- Significantly enriched in fibromyalgia patients versus healthy controls, with abundance correlating directly with symptom severity scores [[minerbi-2019-altered-microbiome-fibromyalgia]].
 - Confirmed as a reproducible finding in a meta-analysis of gut dysbiosis across chronic pain conditions [[goudman-2024-gut-dysbiosis-chronic-pain-meta-analysis]].
 - FMT from fibromyalgia patients to germ-free mice induced mechanical pain hypersensitivity, implicating the microbiome causally — and *Flavonifractor* is among the enriched taxa transferred in those experiments [[shtrozberg-2025-gut-microbiome-fibromyalgia-review]].
 - The co-depletion of *Faecalibacterium prausnitzii* and *Bifidobacterium* alongside *Flavonifractor* enrichment creates a dual loss: loss of butyrate-mediated anti-nociception and loss of flavonoid-mediated anti-inflammation.
@@ -97,7 +97,7 @@ This degradation occurs in the proximal colon before flavonoids can be absorbed 
 
 ## Clinical Significance
 
-*Flavonifractor* exemplifies a mechanism by which dysbiosis can **neutralize dietary interventions before they act**. A patient consuming a flavonoid-rich diet — berries, citrus, green tea, cruciferous vegetables — may derive limited anti-inflammatory benefit if their *Flavonifractor* abundance is high, because the compounds are enzymatically destroyed in the colon.
+*Flavonifractor* exemplifies a mechanism by which dysbiosis can neutralize dietary interventions before they act. A patient consuming a flavonoid-rich diet — berries, citrus, green tea, cruciferous vegetables — may derive limited anti-inflammatory benefit if their *Flavonifractor* abundance is high, because the compounds are enzymatically destroyed in the colon.
 
 This has direct implications for precision nutrition: microbiome composition may need to be assessed before recommending polyphenol-based dietary strategies. The iron and cobalt dependencies of its key enzymes also suggest that iron excess in dysbiotic states may specifically fuel *Flavonifractor* expansion.
 

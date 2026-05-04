@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Polyphenols
 
-**Polyphenols** are a diverse class of plant-derived compounds characterized by multiple phenol structural units. They are among the most abundant antioxidants in the human diet, found in fruits, vegetables, tea, coffee, wine, chocolate, and spices. What makes polyphenols particularly interesting from a metallomics perspective is their dual identity: they are both potent metal chelators and microbiome modulators, creating a bridge between dietary metal exposure and gut ecology that is rarely discussed in conventional nutrition science.
+Polyphenols are a diverse class of plant-derived compounds characterized by multiple phenol structural units. They are among the most abundant antioxidants in the human diet, found in fruits, vegetables, tea, coffee, wine, chocolate, and spices. What makes polyphenols particularly interesting from a metallomics perspective is their dual identity: they are both potent metal chelators and microbiome modulators, creating a bridge between dietary metal exposure and gut ecology that is rarely discussed in conventional nutrition science.
 
 ## Classes and Dietary Sources
 
@@ -22,12 +22,12 @@ Polyphenols encompass over 8,000 identified compounds organized into several maj
 
 | Class | Examples | Key Sources |
 |---|---|---|
-| **Flavonoids** | Quercetin, catechins (EGCG), anthocyanins, naringenin | Tea, berries, citrus, onions |
-| **Phenolic acids** | Chlorogenic acid, caffeic acid, gallic acid | Coffee, whole grains, fruits |
-| **Stilbenes** | Resveratrol | Grapes, red wine, peanuts |
-| **Lignans** | Secoisolariciresinol | Flaxseed, sesame, whole grains |
-| **Tannins** | Ellagitannins, proanthocyanidins | Pomegranate, walnuts, tea |
-| **Curcuminoids** | Curcumin | Turmeric |
+| Flavonoids | Quercetin, catechins (EGCG), anthocyanins, naringenin | Tea, berries, citrus, onions |
+| Phenolic acids | Chlorogenic acid, caffeic acid, gallic acid | Coffee, whole grains, fruits |
+| Stilbenes | Resveratrol | Grapes, red wine, peanuts |
+| Lignans | Secoisolariciresinol | Flaxseed, sesame, whole grains |
+| Tannins | Ellagitannins, proanthocyanidins | Pomegranate, walnuts, tea |
+| Curcuminoids | Curcumin | Turmeric |
 
 Daily polyphenol intake varies widely by diet, ranging from ~200 mg on Western diets to >1,000 mg on [[mediterranean-diet]] patterns rich in fruits, vegetables, and olive oil [[shivashankara-2010-dietary-polyphenols-bioavailability-cvd]].
 
@@ -36,10 +36,10 @@ Daily polyphenol intake varies widely by diet, ranging from ~200 mg on Western d
 Only 5-10% of ingested polyphenols are absorbed in the small intestine. The remaining 90-95% reach the colon intact, where they become substrates for microbial metabolism. This low systemic bioavailability was initially seen as a limitation, but it is actually the key to understanding polyphenol function: their primary biological impact may be through the microbiome rather than through direct systemic effects.
 
 Colonic bacteria transform polyphenols into smaller, more bioavailable metabolites:
-- **Urolithin A** (from ellagitannins, by *[[gordonibacter-urolithinfaciens]]* and related species): anti-inflammatory, mitophagy-inducing
-- **Equol** (from soy isoflavones): phytoestrogenic
-- **3,4-Dihydroxyphenylacetic acid** (from quercetin): antioxidant
-- **Valerolactones** (from catechins): neuroprotective
+- Urolithin A (from ellagitannins, by *[[gordonibacter-urolithinfaciens]]* and related species): anti-inflammatory, mitophagy-inducing
+- Equol (from soy isoflavones): phytoestrogenic
+- 3,4-Dihydroxyphenylacetic acid (from quercetin): antioxidant
+- Valerolactones (from catechins): neuroprotective
 
 The specific metabolites produced depend on an individual's microbiome composition, creating a personalized response to the same dietary polyphenol [[shivashankara-2010-dietary-polyphenols-bioavailability-cvd]].
 
@@ -47,10 +47,10 @@ The specific metabolites produced depend on an individual's microbiome compositi
 
 Polyphenols are effective metal chelators, binding iron, copper, zinc, aluminum, and various toxic metals through their hydroxyl groups. This chelation activity has several consequences:
 
-- **Iron chelation**: Polyphenols (especially tannins and EGCG) bind non-heme dietary iron, reducing absorption by 50-90%. This is traditionally viewed as a nutritional negative ("iron inhibitors"), but in the context of iron-overloaded inflammatory states, it may be protective by reducing substrate for [[siderophores]]-producing pathogens.
-- **Copper chelation**: Quercetin and other flavonoids chelate Cu2+, potentially reducing Fenton-like reactions that generate hydroxyl radicals ([[oxidative-stress]]).
-- **Aluminum binding**: Tea polyphenols chelate aluminum and may reduce its gastrointestinal absorption and neurotoxicity.
-- **Toxic metal binding**: Polyphenols can bind cadmium, lead, and mercury, potentially reducing their bioavailability and tissue accumulation.
+- Iron chelation: Polyphenols (especially tannins and EGCG) bind non-heme dietary iron, reducing absorption by 50-90%. This is traditionally viewed as a nutritional negative ("iron inhibitors"), but in the context of iron-overloaded inflammatory states, it may be protective by reducing substrate for [[siderophores]]-producing pathogens.
+- Copper chelation: Quercetin and other flavonoids chelate Cu2+, potentially reducing Fenton-like reactions that generate hydroxyl radicals ([[oxidative-stress]]).
+- Aluminum binding: Tea polyphenols chelate aluminum and may reduce its gastrointestinal absorption and neurotoxicity.
+- Toxic metal binding: Polyphenols can bind cadmium, lead, and mercury, potentially reducing their bioavailability and tissue accumulation.
 
 The metal-chelating capacity of polyphenols positions them as natural modulators of the metal-microbiome interface -- reducing the metal substrate that drives pathogen selection while simultaneously acting as [[prebiotics]] for beneficial bacteria.
 
@@ -58,10 +58,10 @@ The metal-chelating capacity of polyphenols positions them as natural modulators
 
 Polyphenols act as selective antimicrobials and prebiotics:
 
-- **Prebiotic effects**: Promote growth of [[bifidobacterium]], [[lactobacillus]], and [[akkermansia-muciniphila]] -- organisms associated with gut health and barrier integrity [[appunni-2021-dietary-factors-gut-microbiome-crc]].
-- **Antimicrobial effects**: Inhibit pathogenic species including *E. coli*, *Clostridium perfringens*, and *Helicobacter pylori* at concentrations achievable in the colon.
-- **SCFA enhancement**: Increase production of [[butyrate]] and other [[short-chain-fatty-acids]] by supporting saccharolytic fermentation.
-- **Barrier protection**: Strengthen tight junctions and reduce [[intestinal-permeability]] through multiple mechanisms including ZO-1 upregulation and inflammatory cytokine suppression.
+- Prebiotic effects: Promote growth of [[bifidobacterium]], [[lactobacillus]], and [[akkermansia-muciniphila]] -- organisms associated with gut health and barrier integrity [[appunni-2021-dietary-factors-gut-microbiome-crc]].
+- Antimicrobial effects: Inhibit pathogenic species including *E. coli*, *Clostridium perfringens*, and *Helicobacter pylori* at concentrations achievable in the colon.
+- SCFA enhancement: Increase production of [[butyrate]] and other [[short-chain-fatty-acids]] by supporting saccharolytic fermentation.
+- Barrier protection: Strengthen tight junctions and reduce [[intestinal-permeability]] through multiple mechanisms including ZO-1 upregulation and inflammatory cytokine suppression.
 
 ## Disease-Specific Evidence
 

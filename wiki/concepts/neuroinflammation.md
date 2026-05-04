@@ -20,7 +20,7 @@ Chronic inflammatory activation within the central nervous system, driven by mic
 
 ### Microglia
 - The CNS-resident macrophages; constitute 5-12% of brain cells.
-- Exist on a polarization spectrum: **M1 (pro-inflammatory)** produces TNF-alpha, IL-1beta, IL-6, ROS, and reactive nitrogen species; **M2 (anti-inflammatory)** produces IL-10, TGF-beta, and neurotrophic factors.
+- Exist on a polarization spectrum: M1 (pro-inflammatory) produces TNF-alpha, IL-1beta, IL-6, ROS, and reactive nitrogen species; M2 (anti-inflammatory) produces IL-10, TGF-beta, and neurotrophic factors.
 - Heavy metals (Pb, Hg, Mn, Cd, Al) activate microglia toward a persistent M1 phenotype via ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].
 - Metal-activated microglia are resistant to switching back to the M2 state, creating chronic neuroinflammation that outlasts the initial insult.
 
@@ -58,28 +58,28 @@ Each neurotoxic metal has a distinct neuroinflammatory profile:
 
 | Metal | Primary Mechanism | Disease Association |
 |---|---|---|
-| **[[lead]]** | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |
-| **[[mercury]]** | Microglial activation, selenoprotein inhibition | AD, ASD |
-| **[[manganese]]** | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |
-| **[[iron]]** | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |
-| **[[aluminum]]** | NLRP3 inflammasome, NF-kB activation | AD (controversial) |
-| **[[cadmium]]** | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |
+| [[lead]] | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |
+| [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |
+| [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |
+| [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |
+| [[aluminum]] | NLRP3 inflammasome, NF-kB activation | AD (controversial) |
+| [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |
 
 All metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]].
 
 ## Disease-Specific Neuroinflammatory Patterns
 
-- **Alzheimer's disease**: Microglial activation around amyloid plaques; bacterial amyloids (curli from E. coli) cross-seed A-beta aggregation; LPS enhances A-beta fibrillization [[ahmed-2025-metals-alzheimers-mechanistic-review]].
-- **Parkinson's disease**: Iron accumulation in substantia nigra drives ferroptotic neuroinflammation; gut-origin alpha-synuclein propagation via vagus nerve [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- **Multiple sclerosis**: Th17 cells originating in the intestine drive CNS autoimmunity; BBB disruption permits immune cell infiltration and demyelination [[martinelli-2022-gut-oriented-interventions-ms]].
-- **Autism spectrum disorder**: Elevated pro-inflammatory cytokines (IL-6, TNF-alpha) in CSF and brain; maternal immune activation during pregnancy as risk factor; altered [[tryptophan-metabolism]] reduces AhR-mediated neuroprotection [[zhou-2025-gut-microbiota-immune-nervous-system-asd]].
+- Alzheimer's disease: Microglial activation around amyloid plaques; bacterial amyloids (curli from E. coli) cross-seed A-beta aggregation; LPS enhances A-beta fibrillization [[ahmed-2025-metals-alzheimers-mechanistic-review]].
+- Parkinson's disease: Iron accumulation in substantia nigra drives ferroptotic neuroinflammation; gut-origin alpha-synuclein propagation via vagus nerve [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Multiple sclerosis: Th17 cells originating in the intestine drive CNS autoimmunity; BBB disruption permits immune cell infiltration and demyelination [[martinelli-2022-gut-oriented-interventions-ms]].
+- Autism spectrum disorder: Elevated pro-inflammatory cytokines (IL-6, TNF-alpha) in CSF and brain; maternal immune activation during pregnancy as risk factor; altered [[tryptophan-metabolism]] reduces AhR-mediated neuroprotection [[zhou-2025-gut-microbiota-immune-nervous-system-asd]].
 
 ## Therapeutic Approaches
 
-- **Sodium butyrate**: Reduces microglial activation, shifts M1-to-M2 polarization, attenuates neuroinflammation after cardiac arrest [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].
-- **Iron chelation (deferiprone)**: Reduces ferroptotic neuroinflammation in AD and PD.
-- **AhR ligands**: Microbial indole derivatives activate AhR on astrocytes, suppressing neuroinflammation -- therapeutic in MS models.
-- **Probiotics**: Bifidobacterium breve A1 improved cognition in AD patients, potentially via neuroinflammation reduction.
+- Sodium butyrate: Reduces microglial activation, shifts M1-to-M2 polarization, attenuates neuroinflammation after cardiac arrest [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].
+- Iron chelation (deferiprone): Reduces ferroptotic neuroinflammation in AD and PD.
+- AhR ligands: Microbial indole derivatives activate AhR on astrocytes, suppressing neuroinflammation -- therapeutic in MS models.
+- Probiotics: Bifidobacterium breve A1 improved cognition in AD patients, potentially via neuroinflammation reduction.
 
 ## Key Sources
 

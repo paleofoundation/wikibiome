@@ -5,17 +5,22 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
-source_count: 0
+sources:
+  - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
+  - fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms
+  - kudra-2023-oral-microbiome-crc-perspectives
+  - wu-2021-microbial-markers-populations-early-crc
+  - zhao-2021-colorectal-cancer-microbiome-patterns-signatures
+  - gonzalez-sanchez-2021-microbiome-cancer-know-thy-neighbors
+  - asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic
+source_count: 7
 gram_stain: "negative"
 oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, manganese]
 key_enzymes: [FadA-adhesin, hemin-dependent-peroxidase, siderophore-uptake-systems]
 tags: [colorectal-cancer, inflammatory-bowel-disease, CRC-pathogen, iron-dependent, biofilm-former, Fusobacterium]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Fusobacterium nucleatum colorectal cancer iron FadA adhesin"
 wikipedia_differentiation: "Iron and manganese acquisition systems enabling tumor colonization with FadA-mediated adhesion and immune evasion mechanisms"
 conditions_enriched_in: [colorectal-cancer, inflammatory-bowel-disease]
@@ -25,13 +30,13 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Fusobacterium nucleatum
 
-A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colorectal cancer (CRC)** and inflammatory bowel disease. *F. nucleatum* is significantly enriched in CRC tissue and tumors compared to healthy mucosa, making it one of the strongest microbe-cancer associations in the gut. Its abundance correlates with poorer prognosis, and its virulence depends critically on **iron** and **manganese** acquisition systems that allow it to compete in the inflamed, metal-rich colonic environment.
+A Gram-negative obligate anaerobe that has emerged as a major pathogen in colorectal cancer (CRC) and inflammatory bowel disease. *F. nucleatum* is significantly enriched in CRC tissue and tumors compared to healthy mucosa, making it one of the strongest microbe-cancer associations in the gut. Its abundance correlates with poorer prognosis, and its virulence depends critically on iron and manganese acquisition systems that allow it to compete in the inflamed, metal-rich colonic environment.
 
 ## Iron Acquisition and Metalloprotein Dependence
 
 ### Hemolytic and Hemin-Dependent Peroxidase
 
-- *F. nucleatum* possesses robust hemolytic activity and expresses **hemin-dependent peroxidases** that require iron prosthetic groups.
+- *F. nucleatum* possesses robust hemolytic activity and expresses hemin-dependent peroxidases that require iron prosthetic groups.
 - Specializes in heme acquisition from lysed red blood cells and hemoglobin, particularly abundant in inflamed tissue where barrier breakdown releases luminal blood.
 - Iron (Fe²⁺/Fe³⁺) is essential for cytochrome c oxidase, catalases, and peroxidases -- core components of the anaerobic electron transport chain.
 - Maintains multiple iron-uptake systems including transferrin-binding capacity and siderophore-mediated iron scavenging.
@@ -45,8 +50,8 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 
 ### The FadA Effector
 
-- The **FadA adhesin** is a fibrils-associated adhesin that mediates bacterial adherence to intestinal epithelial cells and invasive interactions.
-- FadA binds to **E-cadherin** on epithelial cells, activating beta-catenin/Wnt signaling and promoting epithelial proliferation.
+- The FadA adhesin is a fibrils-associated adhesin that mediates bacterial adherence to intestinal epithelial cells and invasive interactions.
+- FadA binds to E-cadherin on epithelial cells, activating beta-catenin/Wnt signaling and promoting epithelial proliferation.
 - This signaling is pro-tumorigenic: constant FadA-E-cadherin engagement drives persistent Wnt activation, dysregulating cell growth and differentiation.
 - FadA also recruits and activates immune cells, sustaining chronic inflammation.
 
@@ -56,7 +61,7 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 
 ## Biofilm Formation and Ecological Dominance
 
-- *F. nucleatum* is a prolific **biofilm former**, particularly in CRC and IBD lesions. Biofilm architecture provides:
+- *F. nucleatum* is a prolific biofilm former, particularly in CRC and IBD lesions. Biofilm architecture provides:
  - Protected microenvironments where FadA-producing cells can persist despite host immunity.
  - Reduced oxygen availability (beneficial for obligate anaerobes).
  - Metabolic cross-feeding and division of labor (some cells specialize in iron scavenging, others in virulence).
@@ -67,7 +72,7 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 
 ### Colorectal Cancer (CRC)
 
-- **Mechanistic link**: Iron-rich inflamed tissue selects for *Fusobacterium*. High iron availability sustains FadA expression, driving E-cadherin cleavage and Wnt activation [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]].
+- Mechanistic link: Iron-rich inflamed tissue selects for *Fusobacterium*. High iron availability sustains FadA expression, driving E-cadherin cleavage and Wnt activation [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]].
 - *F. nucleatum* DNA is detectable in tumors, with CFU counts correlating with worse clinical outcomes [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]].
 - CRC microbiome signatures consistently show elevated *Fusobacterium* alongside iron and manganese elevation [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
 - FadA-mediated epithelial transformation is synergistic with dysplasia: the combination of disrupted tight junctions and oncogenic signaling accelerates malignant progression [[wu-2021-microbial-markers-populations-early-crc]] [[saito-2019-metagenomic-gut-microbiota-colorectal-adenoma]].
@@ -75,8 +80,8 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 
 ### Other Gastrointestinal and Gynecologic Cancers
 
-- **Pancreatic cancer**: *F. nucleatum* is detected in pancreatic tumor microbiomes and contributes to a pro-tumorigenic dysbiosis [[zhang-2022-gut-dysbiosis-pancreatic-diseases-therapeutic-target]].
-- **Esophageal disease and upper-GI carcinogenesis**: *Fusobacterium* is enriched in Type II (Gram-negative, inflammatory) esophageal microbiome signatures linked to reflux, Barrett's, and carcinogenesis [[alageel-2025-microbiome-composition-gerd-systematic-review]] [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]] [[catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis]].
+- Pancreatic cancer: *F. nucleatum* is detected in pancreatic tumor microbiomes and contributes to a pro-tumorigenic dysbiosis [[zhang-2022-gut-dysbiosis-pancreatic-diseases-therapeutic-target]].
+- Esophageal disease and upper-GI carcinogenesis: *Fusobacterium* is enriched in Type II (Gram-negative, inflammatory) esophageal microbiome signatures linked to reflux, Barrett's, and carcinogenesis [[alageel-2025-microbiome-composition-gerd-systematic-review]] [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]] [[catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis]].
 
 ### Periodontitis and Systemic Disease
 
@@ -104,7 +109,7 @@ A Gram-negative obligate anaerobe that has emerged as a **major pathogen in colo
 
 ## Clinical Significance
 
-- Considered a **CRC-predictive biomarker**: presence of *F. nucleatum* in a healthy-appearing individual warrants further CRC screening.
+- Considered a CRC-predictive biomarker: presence of *F. nucleatum* in a healthy-appearing individual warrants further CRC screening.
 - Abundance in biopsies correlates with tumor stage and patient prognosis independent of other variables.
 - *F. nucleatum* presence may influence response to immunotherapy in CRC, as the organism's presence suppresses anti-tumor immunity.
 

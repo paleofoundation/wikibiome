@@ -22,9 +22,9 @@ signature_page: "[[barretts-esophagus-signature]]"
 
 ## Overview
 
-**Barrett's esophagus (BE)** is a premalignant condition in which the normal squamous epithelium of the distal esophagus is replaced by intestinal-type columnar epithelium (intestinal metaplasia). It is the primary risk factor for **esophageal adenocarcinoma (EAC)**, a cancer with a 5-year survival of ~20%. Barrett's develops in 6-12% of patients with chronic [[gerd]], and its progression through dysplasia to EAC follows a well-defined metaplasia → low-grade dysplasia → high-grade dysplasia → carcinoma sequence.
+Barrett's esophagus (BE) is a premalignant condition in which the normal squamous epithelium of the distal esophagus is replaced by intestinal-type columnar epithelium (intestinal metaplasia). It is the primary risk factor for esophageal adenocarcinoma (EAC), a cancer with a 5-year survival of ~20%. Barrett's develops in 6-12% of patients with chronic [[gerd]], and its progression through dysplasia to EAC follows a well-defined metaplasia → low-grade dysplasia → high-grade dysplasia → carcinoma sequence.
 
-The esophageal microbiome undergoes a parallel transformation that may drive or accelerate this progression -- shifting from a **Streptococcus-dominated** healthy community to one enriched in **Gram-negative anaerobes** that produce LPS, activate [[tlr4]], and sustain chronic inflammation.
+The esophageal microbiome undergoes a parallel transformation that may drive or accelerate this progression -- shifting from a Streptococcus-dominated healthy community to one enriched in Gram-negative anaerobes that produce LPS, activate [[tlr4]], and sustain chronic inflammation.
 
 ## Microbiome Associations
 
@@ -32,36 +32,36 @@ The esophageal microbiome undergoes a parallel transformation that may drive or 
 
 | Stage | Dominant Microbiome | Key Changes |
 |-------|-------------------|-------------|
-| **Healthy esophagus** | Streptococcus-dominated (Type I) | Aerobic, low diversity |
-| **Reflux esophagitis** | [[proteobacteria]] emergence | Increased Gram-negatives |
-| **Barrett's esophagus** | [[firmicutes]] most prevalent (55%); Gram-negative anaerobes enriched | [[prevotella]], [[veillonella]], [[fusobacterium-nucleatum]] |
-| **EAC** | Leptotrichia emergence; further Streptococcus loss | Streptococcus -45%, Prevotella +60%, Leptotrichia +48% |
+| Healthy esophagus | Streptococcus-dominated (Type I) | Aerobic, low diversity |
+| Reflux esophagitis | [[proteobacteria]] emergence | Increased Gram-negatives |
+| Barrett's esophagus | [[firmicutes]] most prevalent (55%); Gram-negative anaerobes enriched | [[prevotella]], [[veillonella]], [[fusobacterium-nucleatum]] |
+| EAC | Leptotrichia emergence; further Streptococcus loss | Streptococcus -45%, Prevotella +60%, Leptotrichia +48% |
 
 ### Progressive Prevotella Enrichment
-*Prevotella melaninogenica* prevalence rises progressively through disease stages: **22% (normal) → 50% (esophagitis) → 58% (Barrett's) → 83% (metaplasia)** [[luu-2022-upper-gi-microbiota-children-reflux-metaplasia]]. This gradient suggests Prevotella is not merely a bystander but may contribute to the inflammatory environment driving metaplasia.
+*Prevotella melaninogenica* prevalence rises progressively through disease stages: 22% (normal) → 50% (esophagitis) → 58% (Barrett's) → 83% (metaplasia) [[luu-2022-upper-gi-microbiota-children-reflux-metaplasia]]. This gradient suggests Prevotella is not merely a bystander but may contribute to the inflammatory environment driving metaplasia.
 
 ### Three Esotypes
 Host genetics shape esophageal microbiome structure, defining three community types [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]]:
-- **Type A**: Streptococcus-dominated (healthy pattern)
-- **Type B**: Prevotella-dominated (Barrett's-associated)
-- **Type C**: Haemophilus-intermediate
+- Type A: Streptococcus-dominated (healthy pattern)
+- Type B: Prevotella-dominated (Barrett's-associated)
+- Type C: Haemophilus-intermediate
 
 ### Leptotrichia as EAC Biomarker
-**Leptotrichia** has been identified as a key biomarker for the Barrett's-to-EAC transition, emerging in the later stages of the progression sequence [[alageel-2025-microbiome-composition-gerd-systematic-review]].
+Leptotrichia has been identified as a key biomarker for the Barrett's-to-EAC transition, emerging in the later stages of the progression sequence [[alageel-2025-microbiome-composition-gerd-systematic-review]].
 
 ## Causal Evidence (Mendelian Randomization)
 
 | Taxa | Direction | Effect | Source |
 |------|-----------|--------|--------|
-| **[[enterobacteriaceae]] / *Escherichia-Shigella*** | Risk | OR=1.10 for Barrett's | [[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts]] |
-| **[[akkermansia-muciniphila]]** | Protective | OR=0.76 -- strongest protective signal | [[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts]] |
-| **[[faecalibacterium-prausnitzii]]** | Risk (paradoxical) | Increases both GERD and Barrett's risk | [[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts]] |
+| [[enterobacteriaceae]] / *Escherichia-Shigella* | Risk | OR=1.10 for Barrett's | [[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts]] |
+| [[akkermansia-muciniphila]] | Protective | OR=0.76 -- strongest protective signal | [[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts]] |
+| [[faecalibacterium-prausnitzii]] | Risk (paradoxical) | Increases both GERD and Barrett's risk | [[liu-2024-bidirectional-mr-gut-microbiota-gerd-barretts]] |
 
 The paradoxical F. prausnitzii finding (risk rather than protective) warrants investigation -- it may reflect site-specific effects where gut-beneficial organisms are harmful in the esophageal context.
 
 ## H. pylori Paradox
 
-**H. pylori-positive individuals had 22% lower aneuploidy incidence** in Barrett's tissue [[gail-2015-upper-gi-microbiome-barretts-genomic-instability]]. This aligns with the broader epidemiological observation that *H. pylori* eradication (which reduces gastric cancer risk) paradoxically increases GERD and Barrett's risk -- likely by removing the acid-suppressive effect of *H. pylori*-associated gastritis.
+H. pylori-positive individuals had 22% lower aneuploidy incidence in Barrett's tissue [[gail-2015-upper-gi-microbiome-barretts-genomic-instability]]. This aligns with the broader epidemiological observation that *H. pylori* eradication (which reduces gastric cancer risk) paradoxically increases GERD and Barrett's risk -- likely by removing the acid-suppressive effect of *H. pylori*-associated gastritis.
 
 ## Open Questions
 

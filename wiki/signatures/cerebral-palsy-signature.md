@@ -149,75 +149,75 @@ stub_reason: §2f auto-demotion 2026-04-19 — 9 sources, signature minimum 10
 
 ## Overview
 
-**Cerebral palsy (CP)** is the most common motor disability in childhood (2-3 per 1,000 live births), traditionally attributed to perinatal asphyxia but increasingly understood as a multi-organ condition with critical gut-brain axis involvement [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. Only 10-20% of cases are caused by birth asphyxia alone. The microbiome perspective reveals two major pathogenic pathways: the **NEC-to-CP pathway** (Klebsiella-driven LPS translocation causing white matter injury in preterm infants) [[wang-2023-microbial-gut-brain-white-matter-preterm]] and the **oral-gut inflammatory axis** (96% periodontitis prevalence driving systemic inflammation) [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]].
+Cerebral palsy (CP) is the most common motor disability in childhood (2-3 per 1,000 live births), traditionally attributed to perinatal asphyxia but increasingly understood as a multi-organ condition with critical gut-brain axis involvement [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. Only 10-20% of cases are caused by birth asphyxia alone. The microbiome perspective reveals two major pathogenic pathways: the NEC-to-CP pathway (Klebsiella-driven LPS translocation causing white matter injury in preterm infants) [[wang-2023-microbial-gut-brain-white-matter-preterm]] and the oral-gut inflammatory axis (96% periodontitis prevalence driving systemic inflammation) [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]].
 
 This is one of the most well-characterized signatures in the knowledge base, with 9 source studies including cross-sectional microbiome profiling, multi-omics integration, and intervention data.
 
 ## Metallomic Signature
 
-**Confidence: moderate**
+Confidence: moderate
 
 The metallomic profile of CP reflects both the neurodevelopmental vulnerability period and the ongoing multi-organ dysfunction:
 
-- **Iron (depleted, 13-48%)**: Highly prevalent in CP. Iron-dependent enzymes are critical for oligodendrocyte maturation and myelination [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. The question of whether this represents true deficiency or hepcidin-mediated nutritional immunity is clinically critical — iron supplementation could fuel siderophore-producing Klebsiella in an already disrupted gut.
-- **Zinc (depleted)**: Essential for neuronal growth, synaptic plasticity, and Paneth cell antimicrobial peptide (defensin) production. Deficiency is common in feeding-restricted CP children and impairs innate immune defense.
-- **Copper (elevated in infants)**: Primary driver of Clostridium sensu stricto 1 abundance (PIP=0.867) with synergistic Mn-Cu interactions [[yan-2025-infant-serum-metals-gut-microbiota]]. Excess copper promotes oxidative damage to developing white matter.
-- **Arsenic (elevated)**: Most influential metal on infant gut microbial alpha diversity [[yan-2025-infant-serum-metals-gut-microbiota]]. Environmental arsenic exposure during the perinatal period may shape the dysbiotic community that precedes CP.
-- **Lead (elevated)**: Neurodevelopmental toxicant that crosses the immature BBB readily; epigenetic effects on brain development compound the microbial-inflammatory insult.
+- Iron (depleted, 13-48%): Highly prevalent in CP. Iron-dependent enzymes are critical for oligodendrocyte maturation and myelination [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. The question of whether this represents true deficiency or hepcidin-mediated nutritional immunity is clinically critical — iron supplementation could fuel siderophore-producing Klebsiella in an already disrupted gut.
+- Zinc (depleted): Essential for neuronal growth, synaptic plasticity, and Paneth cell antimicrobial peptide (defensin) production. Deficiency is common in feeding-restricted CP children and impairs innate immune defense.
+- Copper (elevated in infants): Primary driver of Clostridium sensu stricto 1 abundance (PIP=0.867) with synergistic Mn-Cu interactions [[yan-2025-infant-serum-metals-gut-microbiota]]. Excess copper promotes oxidative damage to developing white matter.
+- Arsenic (elevated): Most influential metal on infant gut microbial alpha diversity [[yan-2025-infant-serum-metals-gut-microbiota]]. Environmental arsenic exposure during the perinatal period may shape the dysbiotic community that precedes CP.
+- Lead (elevated): Neurodevelopmental toxicant that crosses the immature BBB readily; epigenetic effects on brain development compound the microbial-inflammatory insult.
 
 ## Environmental Exposures
 
-The CP metallomic burden originates from multiple routes: environmental arsenic and lead exposure during pregnancy and infancy, parenteral nutrition providing unregulated iron to the preterm gut, copper accumulation from formula feeding, and anticonvulsant medications that alter metal absorption and vitamin D metabolism. The **care environment** is itself an ecological exposure: family-centered care enriches butyrate-producing Bacteroides and Lachnospiraceae, while welfare-centered (institutional) care favors Prevotella, Fusobacterium, and Oscillibacter [[lyu-2024-care-mode-gut-microbiota-cp-children]].
+The CP metallomic burden originates from multiple routes: environmental arsenic and lead exposure during pregnancy and infancy, parenteral nutrition providing unregulated iron to the preterm gut, copper accumulation from formula feeding, and anticonvulsant medications that alter metal absorption and vitamin D metabolism. The care environment is itself an ecological exposure: family-centered care enriches butyrate-producing Bacteroides and Lachnospiraceae, while welfare-centered (institutional) care favors Prevotella, Fusobacterium, and Oscillibacter [[lyu-2024-care-mode-gut-microbiota-cp-children]].
 
 ## Nutritional Immunity Response
 
-**Confidence: moderate**
+Confidence: moderate
 
-- **Elevated cytokines (IL-1beta, IL-6, IL-8, IL-10, TNF-alpha)**: Salivary cytokines are elevated in constipated CP subjects, with oral IL-1beta strongly correlating with systemic levels (R=0.720) [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]]. This establishes the oral cavity as both a source of inflammation and a non-invasive monitoring window.
-- **Elevated calprotectin**: Intestinal inflammation marker consistent with gut barrier dysfunction and mucosal immune activation.
-- **Elevated hepcidin**: Iron sequestration marker; likely elevated given the inflammatory state, which would explain why iron appears "depleted" in serum while potentially being host-sequestered.
-- **Depleted butyrate**: The most functionally significant depletion. SCFAs cross the BBB and promote myelination via HDAC inhibition [[wang-2023-microbial-gut-brain-white-matter-preterm]]. Their loss directly compounds white matter injury.
-- **Depleted vitamin D**: Common due to reduced mobility, sun exposure, and anticonvulsant use. Vitamin D deficiency impairs immune regulation and bone health [[allen-2021-multi-organ-dysfunction-cerebral-palsy]].
+- Elevated cytokines (IL-1beta, IL-6, IL-8, IL-10, TNF-alpha): Salivary cytokines are elevated in constipated CP subjects, with oral IL-1beta strongly correlating with systemic levels (R=0.720) [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]]. This establishes the oral cavity as both a source of inflammation and a non-invasive monitoring window.
+- Elevated calprotectin: Intestinal inflammation marker consistent with gut barrier dysfunction and mucosal immune activation.
+- Elevated hepcidin: Iron sequestration marker; likely elevated given the inflammatory state, which would explain why iron appears "depleted" in serum while potentially being host-sequestered.
+- Depleted butyrate: The most functionally significant depletion. SCFAs cross the BBB and promote myelination via HDAC inhibition [[wang-2023-microbial-gut-brain-white-matter-preterm]]. Their loss directly compounds white matter injury.
+- Depleted vitamin D: Common due to reduced mobility, sun exposure, and anticonvulsant use. Vitamin D deficiency impairs immune regulation and bone health [[allen-2021-multi-organ-dysfunction-cerebral-palsy]].
 
 ## Taxonomic Analysis
 
-**Confidence: high**
+Confidence: high
 
 ### Enriched Taxa — The Pathobiont Consortium
 
-**[[klebsiella-pneumoniae]]** is the NEC-to-CP driver. Present in 11/12 NEC cases, its overgrowth precedes and predicts brain injury in preterm infants [[wang-2023-microbial-gut-brain-white-matter-preterm]]. Klebsiella is a potent siderophore producer — its iron piracy machinery gives it competitive dominance in the preterm gut, particularly when parenteral iron bypasses lactoferrin-mediated sequestration.
+[[klebsiella-pneumoniae]] is the NEC-to-CP driver. Present in 11/12 NEC cases, its overgrowth precedes and predicts brain injury in preterm infants [[wang-2023-microbial-gut-brain-white-matter-preterm]]. Klebsiella is a potent siderophore producer — its iron piracy machinery gives it competitive dominance in the preterm gut, particularly when parenteral iron bypasses lactoferrin-mediated sequestration.
 
-**[[streptococcus]]** (4.70% in CPE) is an oral-origin pathobiont whose enrichment in the gut reflects the oral-gut translocation pathway. It co-occurs with Actinomyces (r=0.833) and Veillonella (r=0.811), forming an oral consortium that colonizes intestinal niches [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]. KEGG analysis attributes neurodegenerative disease risk to Streptococcus-driven neuroinflammation.
+[[streptococcus]] (4.70% in CPE) is an oral-origin pathobiont whose enrichment in the gut reflects the oral-gut translocation pathway. It co-occurs with Actinomyces (r=0.833) and Veillonella (r=0.811), forming an oral consortium that colonizes intestinal niches [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]. KEGG analysis attributes neurodegenerative disease risk to Streptococcus-driven neuroinflammation.
 
-**[[akkermansia-muciniphila]]** is paradoxically enriched. While generally considered beneficial, its overgrowth in CPE degrades the mucus layer, increasing mucosal permeability and exposing the immune system to bacterial antigens [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
+[[akkermansia-muciniphila]] is paradoxically enriched. While generally considered beneficial, its overgrowth in CPE degrades the mucus layer, increasing mucosal permeability and exposing the immune system to bacterial antigens [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
 
 ### Depleted Taxa — The Lost SCFA Community
 
-The SCFA-producing community is **comprehensively depleted** in CPE (all P<0.001) [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]:
+The SCFA-producing community is comprehensively depleted in CPE (all P<0.001) [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]:
 
 | Taxon | CPE Abundance | Function Lost |
 |-------|--------------|---------------|
-| **[[bacteroides]]** | 10.94% | Polysaccharide fermentation, immune education |
-| **[[faecalibacterium-prausnitzii]]** | 0.78% | Primary butyrate production, anti-inflammatory signaling |
-| **[[blautia]]** | 1.44% | Acetate/propionate production |
-| **Ruminococcus** | 0.01% | Fiber degradation |
-| **[[roseburia]]** | 0.00% | Butyrate production |
-| **Anaerostipes** | 0.04% | Butyrate-from-acetate conversion |
-| **Parasutterella** | 0.00% | Succinate metabolism |
+| [[bacteroides]] | 10.94% | Polysaccharide fermentation, immune education |
+| [[faecalibacterium-prausnitzii]] | 0.78% | Primary butyrate production, anti-inflammatory signaling |
+| [[blautia]] | 1.44% | Acetate/propionate production |
+| Ruminococcus | 0.01% | Fiber degradation |
+| [[roseburia]] | 0.00% | Butyrate production |
+| Anaerostipes | 0.04% | Butyrate-from-acetate conversion |
+| Parasutterella | 0.00% | Succinate metabolism |
 
-**[[bacteroides-fragilis]]** and Dialister invisus are depleted specifically in CP+epilepsy, linked to kynurenine pathway modulation [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]]. B. fragilis loss removes a key immunomodulatory commensal whose polysaccharide A (PSA) promotes regulatory T-cell development.
+[[bacteroides-fragilis]] and Dialister invisus are depleted specifically in CP+epilepsy, linked to kynurenine pathway modulation [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]]. B. fragilis loss removes a key immunomodulatory commensal whose polysaccharide A (PSA) promotes regulatory T-cell development.
 
 ## Virulence Enzymes and Features
 
-**Confidence: moderate**
+Confidence: moderate
 
-- **Siderophores**: Klebsiella's siderophore system (enterobactin, aerobactin) enables iron piracy in the preterm gut, fueling its competitive dominance. Parenteral iron that bypasses lactoferrin-mediated sequestration provides unregulated substrate for siderophore-producing pathogens [[wang-2023-microbial-gut-brain-white-matter-preterm]].
-- **TLR4-LPS signaling**: The master pathogenic cascade in the NEC-to-CP pathway. Klebsiella LPS activates TLR4 on premature intestinal epithelium → epithelial apoptosis → barrier breakdown → systemic LPS translocation → microglial activation → white matter injury → CP [[wang-2023-microbial-gut-brain-white-matter-preterm]].
-- **Acetate accumulation pathway**: With Anaerostipes and Faecalibacterium depleted, their normal co-production of butyrate from acetate is lost. Acetate accumulates, activating the parasympathetic nervous system and potentially triggering seizures in the CPE subgroup [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
+- Siderophores: Klebsiella's siderophore system (enterobactin, aerobactin) enables iron piracy in the preterm gut, fueling its competitive dominance. Parenteral iron that bypasses lactoferrin-mediated sequestration provides unregulated substrate for siderophore-producing pathogens [[wang-2023-microbial-gut-brain-white-matter-preterm]].
+- TLR4-LPS signaling: The master pathogenic cascade in the NEC-to-CP pathway. Klebsiella LPS activates TLR4 on premature intestinal epithelium → epithelial apoptosis → barrier breakdown → systemic LPS translocation → microglial activation → white matter injury → CP [[wang-2023-microbial-gut-brain-white-matter-preterm]].
+- Acetate accumulation pathway: With Anaerostipes and Faecalibacterium depleted, their normal co-production of butyrate from acetate is lost. Acetate accumulates, activating the parasympathetic nervous system and potentially triggering seizures in the CPE subgroup [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]].
 
 ## Ecological State
 
-**Confidence: high**
+Confidence: high
 
 ### NEC-to-CP Pathway
 
@@ -229,7 +229,7 @@ Twenty percent of NEC survivors develop CP. The mechanistic cascade is: Klebsiel
 
 ### Paradoxical Diversity
 
-CPE gut shows **higher** Shannon diversity (2.33 vs 1.49 in healthy controls, P<0.001), with 152 vs 53 genera detected [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]. This paradox reflects pathobiont expansion into niches vacated by depleted commensals — not ecological health but ecological disorganization.
+CPE gut shows higher Shannon diversity (2.33 vs 1.49 in healthy controls, P<0.001), with 152 vs 53 genera detected [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]]. This paradox reflects pathobiont expansion into niches vacated by depleted commensals — not ecological health but ecological disorganization.
 
 ### Constipation as Ecological Driver
 
@@ -264,8 +264,8 @@ Shared B. fragilis alterations, Bifidobacterium depletion, Clostridium enrichmen
 
 ## Karen's Brain Primitives Active
 
-- **Primitive 1 (Metals as Selective Pressures)**: Copper drives Clostridium sensu stricto 1, arsenic shapes overall alpha diversity, and iron availability determines whether Klebsiella achieves competitive dominance in the preterm gut.
-- **Primitive 2 (Nutritional Immunity as Interpretive Constraint)**: The 13-48% iron deficiency in CP may be hepcidin-mediated host defense. Supplementation without assessing hepcidin could fuel siderophore-producing Klebsiella — a classic nutritional immunity trap.
-- **Primitive 5 (Two-Sided Ecological Engineering)**: Effective CP gut intervention requires both suppressing pathobionts (Klebsiella, oral Streptococcus consortium) and restoring the lost SCFA-producing community (Faecalibacterium, Roseburia, Bacteroides).
-- **Primitive 8 (Siderophore Competition and Iron Ecology)**: Klebsiella's siderophore system is the mechanistic engine of the NEC-to-CP pathway. Lactoferrin's iron chelation is the most evidence-based countermeasure (SUCRA 95.7% for lactoferrin + LGG in NEC prevention).
-- **Primitive 9 (Oxygen State as Ecological Determinant)**: Constipation alters colonic oxygen, favoring facultative anaerobes (Klebsiella, Enterococcus) over obligate anaerobes (Faecalibacterium, Roseburia). The preterm gut is inherently more oxygenated than the mature gut, providing baseline advantage to Proteobacteria.
+- Primitive 1 (Metals as Selective Pressures): Copper drives Clostridium sensu stricto 1, arsenic shapes overall alpha diversity, and iron availability determines whether Klebsiella achieves competitive dominance in the preterm gut.
+- Primitive 2 (Nutritional Immunity as Interpretive Constraint): The 13-48% iron deficiency in CP may be hepcidin-mediated host defense. Supplementation without assessing hepcidin could fuel siderophore-producing Klebsiella — a classic nutritional immunity trap.
+- Primitive 5 (Two-Sided Ecological Engineering): Effective CP gut intervention requires both suppressing pathobionts (Klebsiella, oral Streptococcus consortium) and restoring the lost SCFA-producing community (Faecalibacterium, Roseburia, Bacteroides).
+- Primitive 8 (Siderophore Competition and Iron Ecology): Klebsiella's siderophore system is the mechanistic engine of the NEC-to-CP pathway. Lactoferrin's iron chelation is the most evidence-based countermeasure (SUCRA 95.7% for lactoferrin + LGG in NEC prevention).
+- Primitive 9 (Oxygen State as Ecological Determinant): Constipation alters colonic oxygen, favoring facultative anaerobes (Klebsiella, Enterococcus) over obligate anaerobes (Faecalibacterium, Roseburia). The preterm gut is inherently more oxygenated than the mature gut, providing baseline advantage to Proteobacteria.

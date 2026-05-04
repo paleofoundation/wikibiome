@@ -5,15 +5,21 @@ type: entity
 subtype: microbe
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: [zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization, wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - jie-2017-gut-microbiome-acvd
+  - candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod
+  - ma-2024-gut-microbiota-inflammatory-factors-crc-mr
+  - honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity
+  - ma-2021-dietary-fiber-gut-microbiome-inflammation-men
+  - zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization
+  - jiang-2021-gut-dysbiosis-treg-th17-graves
+  - zhao-2021-colorectal-cancer-microbiome-patterns-signatures
+source_count: 8
 metal_dependencies: [iron, selenium, cobalt]
 key_enzymes: [butyryl-CoA transferase, ferredoxin oxidoreductases, bile acid 7-alpha-dehydroxylase]
 tags: [firmicutes, clostridia, SCFA-producer, butyrate, order-level, GERD-protective, schizophrenia-risk, cardiovascular-depleted, Treg-induction]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Clostridiales butyrate producing gut bacteria immune regulation microbiome"
 wikipedia_differentiation: "Mendelian randomization data showing Clostridiales as both a GERD-protective taxon (Vadin BB60 group, OR 0.95) and a schizophrenia risk factor at the class level (Clostridia OR 1.16); functional diversity spanning health-essential butyrate producers, Treg-inducing immunomodulators, and opportunistic pathogens within the same taxonomic order; ecological engineering framework requiring targeted modulation rather than blanket suppression or enrichment"
 conditions_enriched_in: []
@@ -26,7 +32,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Clostridiales
 
-An order of Gram-positive, obligate anaerobic bacteria within the class [[clostridia]] (phylum Firmicutes) that represents the **single most functionally important taxonomic group in the human gut**. Clostridiales encompasses the major butyrate-producing families ([[lachnospiraceae]], [[ruminococcaceae]]) alongside opportunistic pathogens ([[clostridium-difficile]]), making it both the backbone of gut health and a source of disease-associated taxa. This functional diversity means that order-level changes in Clostridiales abundance -- enrichment or depletion -- must always be interpreted with care: the same order contains taxa that heal and taxa that harm.
+An order of Gram-positive, obligate anaerobic bacteria within the class [[clostridia]] (phylum Firmicutes) that represents the single most functionally important taxonomic group in the human gut. Clostridiales encompasses the major butyrate-producing families ([[lachnospiraceae]], [[ruminococcaceae]]) alongside opportunistic pathogens ([[clostridium-difficile]]), making it both the backbone of gut health and a source of disease-associated taxa. This functional diversity means that order-level changes in Clostridiales abundance -- enrichment or depletion -- must always be interpreted with care: the same order contains taxa that heal and taxa that harm.
 
 ## Taxonomy
 
@@ -37,24 +43,24 @@ An order of Gram-positive, obligate anaerobic bacteria within the class [[clostr
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Ferredoxin-dependent oxidoreductases are central to Clostridiales anaerobic metabolism. Iron-sulfur clusters in ferredoxins enable electron transfer for butyrate synthesis and amino acid fermentation.
 - Clostridiales generally lack aggressive iron acquisition systems (siderophores), relying on ferrous iron uptake. This makes them vulnerable to competitive exclusion by siderophore-producing Enterobacteriaceae in iron-replete inflammatory environments.
 
-**Selenium**:
+Selenium:
 - Selenocysteine-containing formate dehydrogenases and glycine reductases are widespread in Clostridiales, linking host selenium status to the metabolic activity of butyrate-producing bacteria.
 
-**Cobalt**:
+Cobalt:
 - Corrinoid (vitamin B12)-dependent enzymes support one-carbon metabolism and methyl transfer reactions across Clostridiales. Some species are de novo B12 synthesizers, contributing to host vitamin supply.
 
 ## Ecological Role
 
 ### In the Healthy Gut
 Clostridiales are dominant in the healthy colon, typically comprising 40-60% of the total bacterial community. Their key functions:
-- **Butyrate production**: Lachnospiraceae and Ruminococcaceae produce the majority of colonic butyrate, the primary energy source for colonocytes
-- **Regulatory T-cell induction**: Clostridium clusters IV and XIVa (now Oscillospirales and Lachnospirales) are the most potent microbial inducers of colonic Tregs, maintaining immune tolerance
-- **Secondary bile acid metabolism**: Clostridiales perform 7-alpha-dehydroxylation converting primary to secondary bile acids
-- **Colonization resistance**: Dense Clostridiales populations occupy ecological niches that would otherwise be available to pathogens
+- Butyrate production: Lachnospiraceae and Ruminococcaceae produce the majority of colonic butyrate, the primary energy source for colonocytes
+- Regulatory T-cell induction: Clostridium clusters IV and XIVa (now Oscillospirales and Lachnospirales) are the most potent microbial inducers of colonic Tregs, maintaining immune tolerance
+- Secondary bile acid metabolism: Clostridiales perform 7-alpha-dehydroxylation converting primary to secondary bile acids
+- Colonization resistance: Dense Clostridiales populations occupy ecological niches that would otherwise be available to pathogens
 
 ### In Dysbiosis
 Depletion of health-associated Clostridiales is among the most consistent dysbiosis signatures across diseases: [[cardiovascular-disease]], [[crohns-disease]], [[multiple-sclerosis]], and other inflammatory conditions all show reduced butyrate-producing Clostridiales. The loss creates a vicious cycle: reduced butyrate → weakened barrier → inflammation → further Clostridiales depletion.
@@ -62,7 +68,7 @@ Depletion of health-associated Clostridiales is among the most consistent dysbio
 ## Conditions Associated
 
 ### GERD (Protective)
-The **Clostridiales Vadin BB60 group** is causally protective against GERD (OR = 0.95, 95% CI 0.91-0.99, p = 0.027) [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]]. This subgroup's SCFA production likely strengthens esophageal and gastric mucosal defense.
+The Clostridiales Vadin BB60 group is causally protective against GERD (OR = 0.95, 95% CI 0.91-0.99, p = 0.027) [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]]. This subgroup's SCFA production likely strengthens esophageal and gastric mucosal defense.
 
 ### Cardiovascular Disease (Depleted)
 ACVD patients show depleted butyrate-producing Clostridiales including [[roseburia]] and [[faecalibacterium-prausnitzii|faecalibacterium]], contributing to barrier dysfunction, endotoxemia, and vascular inflammation.

@@ -20,40 +20,40 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Veillonella
 
-A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Negativicutes, family Veillonellaceae). The primary species *V. parvula* is a specialized **lactate utilizer** that occupies a unique metabolic niche by cross-feeding with lactate-producing bacteria, particularly [[streptococcus]]. *Veillonella* is abundant in both the oral cavity and gut, making it a central player in the **oral-gut translocation** story that connects oral dysbiosis to systemic disease.
+A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Negativicutes, family Veillonellaceae). The primary species *V. parvula* is a specialized lactate utilizer that occupies a unique metabolic niche by cross-feeding with lactate-producing bacteria, particularly [[streptococcus]]. *Veillonella* is abundant in both the oral cavity and gut, making it a central player in the oral-gut translocation story that connects oral dysbiosis to systemic disease.
 
 ## Role in Gut Ecosystem
 
-- Cannot ferment sugars or complex carbohydrates directly; instead specializes in **lactate utilization**, converting lactate into propionate, acetate, CO2, and H2 via the methylmalonyl-CoA pathway.
-- Forms a tightly coupled **cross-feeding partnership with Streptococcus**: *Streptococcus* produces lactate from sugar fermentation, and *Veillonella* consumes it, preventing lactate accumulation that would acidify the environment and inhibit both organisms.
+- Cannot ferment sugars or complex carbohydrates directly; instead specializes in lactate utilization, converting lactate into propionate, acetate, CO2, and H2 via the methylmalonyl-CoA pathway.
+- Forms a tightly coupled cross-feeding partnership with Streptococcus: *Streptococcus* produces lactate from sugar fermentation, and *Veillonella* consumes it, preventing lactate accumulation that would acidify the environment and inhibit both organisms.
 - This partnership operates in both the oral cavity (dental plaque) and the gut, representing one of the best-characterized syntrophic relationships in the human microbiome.
 - H2 production from lactate fermentation feeds hydrogenotrophic organisms including [[methanobrevibacter]] and sulfate-reducing bacteria.
 
 ## Oral-Gut Translocation
 
 - *Veillonella* is one of the most abundant genera in the oral microbiome, particularly in dental plaque and the tongue dorsum.
-- Oral *Veillonella* can survive gastric transit and colonize the gut, contributing to the **oral-gut axis** increasingly recognized in autoimmune and inflammatory disease.
+- Oral *Veillonella* can survive gastric transit and colonize the gut, contributing to the oral-gut axis increasingly recognized in autoimmune and inflammatory disease.
 - Oral-to-gut translocation of *Veillonella* is enhanced by conditions that reduce gastric acid barrier function (PPI use, achlorhydria) or increase gut permeability.
 
 ## Disease Associations
 
 ### Multiple Sclerosis
-- **Enriched in MS** patients in multiple studies. Found exclusively in the MS patient group (absent in controls) in the oral microbiome study by Zangeneh 2021 [[zangeneh-2021-oral-microbiota-ms]].
+- Enriched in MS patients in multiple studies. Found exclusively in the MS patient group (absent in controls) in the oral microbiome study by Zangeneh 2021 [[zangeneh-2021-oral-microbiota-ms]].
 - Elevated in both oral and gut compartments of MS patients, consistent with increased oral-gut translocation under inflammatory conditions.
 - Part of the Negativicutes expansion seen in MS alongside other propionate-producing genera.
 
 ### Graves' Disease
-- **Enriched in [[graves-disease]]** patients, alongside *Prevotella* and *Megasphaera*, contributing to the pro-inflammatory gut signature that characterizes thyroid autoimmunity [[su-2020-gut-microbiota-immune-imbalance-graves]].
+- Enriched in [[graves-disease]] patients, alongside *Prevotella* and *Megasphaera*, contributing to the pro-inflammatory gut signature that characterizes thyroid autoimmunity [[su-2020-gut-microbiota-immune-imbalance-graves]].
 
 ### Autism Spectrum Disorder
 - Decreased in ASD youth in the Romano 2023 umbrella review, contrasting with its enrichment in autoimmune conditions [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]].
 
 ## Key Metabolites
 
-- **Propionate** -- primary product from lactate fermentation; immunomodulatory SCFA
-- **Acetate** -- secondary product
-- **H2** -- feeds hydrogenotrophic methanogens and sulfate reducers
-- **CO2** -- byproduct of lactate metabolism
+- Propionate -- primary product from lactate fermentation; immunomodulatory SCFA
+- Acetate -- secondary product
+- H2 -- feeds hydrogenotrophic methanogens and sulfate reducers
+- CO2 -- byproduct of lactate metabolism
 
 ## Mechanistic Considerations
 

@@ -24,7 +24,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Acidaminococcus
 
-A Gram-negative, obligate anaerobic genus within the family [[veillonellaceae]] (class Negativicutes, phylum Firmicutes) defined by its **specialized amino acid fermentation** -- the genus name literally means "acid from amino acids." *Acidaminococcus* ferments glutamate as its primary energy source, a metabolic strategy that links it to protein-rich diets and conditions characterized by altered amino acid metabolism. The genus has emerged as a consistently enriched taxon across breast cancer, schizophrenia, and type 2 diabetes, suggesting a pattern of pathobiont expansion in metabolic and inflammatory diseases.
+A Gram-negative, obligate anaerobic genus within the family [[veillonellaceae]] (class Negativicutes, phylum Firmicutes) defined by its specialized amino acid fermentation -- the genus name literally means "acid from amino acids." *Acidaminococcus* ferments glutamate as its primary energy source, a metabolic strategy that links it to protein-rich diets and conditions characterized by altered amino acid metabolism. The genus has emerged as a consistently enriched taxon across breast cancer, schizophrenia, and type 2 diabetes, suggesting a pattern of pathobiont expansion in metabolic and inflammatory diseases.
 
 ## Taxonomy
 
@@ -34,16 +34,16 @@ A Gram-negative, obligate anaerobic genus within the family [[veillonellaceae]] 
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Iron-sulfur cluster proteins are essential for the glutamate fermentation pathway, particularly in the electron transfer steps of glutaconyl-CoA decarboxylase.
 - Ferredoxin-dependent oxidoreductases support the anaerobic energy metabolism characteristic of amino acid-fermenting bacteria.
 - Iron availability in inflammatory environments may favor *Acidaminococcus* expansion alongside other iron-dependent pathobionts.
 
 ## Key Enzymes and Metabolic Features
 
-- **Glutamate dehydrogenase**: Initiates glutamate catabolism, converting glutamate to 2-oxoglutarate. This enzyme's activity determines how effectively *Acidaminococcus* can exploit glutamate as an energy source.
-- **Glutaconyl-CoA decarboxylase**: A biotin-dependent sodium pump that couples glutamate fermentation to ATP synthesis via a sodium gradient. This energy-conserving strategy is the metabolic hallmark of the genus and explains its specificity for glutamate-rich environments.
-- **Acetate and butyrate production**: End products of glutamate fermentation include acetate and butyrate, though the overall metabolic impact may differ from fiber-derived SCFA production.
+- Glutamate dehydrogenase: Initiates glutamate catabolism, converting glutamate to 2-oxoglutarate. This enzyme's activity determines how effectively *Acidaminococcus* can exploit glutamate as an energy source.
+- Glutaconyl-CoA decarboxylase: A biotin-dependent sodium pump that couples glutamate fermentation to ATP synthesis via a sodium gradient. This energy-conserving strategy is the metabolic hallmark of the genus and explains its specificity for glutamate-rich environments.
+- Acetate and butyrate production: End products of glutamate fermentation include acetate and butyrate, though the overall metabolic impact may differ from fiber-derived SCFA production.
 
 ## Ecological Role
 
@@ -52,14 +52,14 @@ A Gram-negative, obligate anaerobic genus within the family [[veillonellaceae]] 
 
 ### In Dysbiosis
 *Acidaminococcus* expands in conditions characterized by:
-- **Increased luminal amino acid availability** (protein maldigestion, mucosal damage releasing tissue-derived amino acids)
-- **Reduced competition from fiber fermenters** (low-fiber Western diets eliminate the dominant SCFA-producing competitors)
-- **Inflammatory environments** where iron release from damaged tissue supports iron-dependent metabolism
+- Increased luminal amino acid availability (protein maldigestion, mucosal damage releasing tissue-derived amino acids)
+- Reduced competition from fiber fermenters (low-fiber Western diets eliminate the dominant SCFA-producing competitors)
+- Inflammatory environments where iron release from damaged tissue supports iron-dependent metabolism
 
 ## Conditions Associated
 
 ### Breast Cancer
-*Acidaminococcus* is enriched in breast cancer patients (24% prevalence vs. 9% in controls), alongside [[hungatella]] and [[tyzzerella]]. Notably, *Acidaminococcus*-positive participants had **significantly lower whole fruit intake** (HEI-2015 scores, p = 0.005) [[altinok-dindar-2023-gut-microbiota-breast-cancer-diet]], connecting dietary patterns to pathobiont expansion.
+*Acidaminococcus* is enriched in breast cancer patients (24% prevalence vs. 9% in controls), alongside [[hungatella]] and [[tyzzerella]]. Notably, *Acidaminococcus*-positive participants had significantly lower whole fruit intake (HEI-2015 scores, p = 0.005) [[altinok-dindar-2023-gut-microbiota-breast-cancer-diet]], connecting dietary patterns to pathobiont expansion.
 
 ### Schizophrenia
 Consistently up-regulated in schizophrenia across multiple studies in a systematic vote-counting meta-analysis, alongside [[prevotella]], Succinivibrio, and other taxa [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]].

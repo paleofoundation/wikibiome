@@ -18,7 +18,7 @@ source_count: 7
 
 # Cobalt (Co)
 
-A transition metal that is essential to human health exclusively as a component of **cobalamin (vitamin B12)**, but toxic at higher levels of exposure. Cobalt occupies a distinctive position in metal biology: it is the only metal whose essential biological function in mammals is entirely mediated through a single vitamin. In microbial systems, cobalt is more widely used as a direct enzyme cofactor. Cobalt also has significant toxicological and immunological relevance due to its frequent co-occurrence with [[nickel]] in allergy, occupational exposure, and microbial metal transport.
+A transition metal that is essential to human health exclusively as a component of cobalamin (vitamin B12), but toxic at higher levels of exposure. Cobalt occupies a distinctive position in metal biology: it is the only metal whose essential biological function in mammals is entirely mediated through a single vitamin. In microbial systems, cobalt is more widely used as a direct enzyme cofactor. Cobalt also has significant toxicological and immunological relevance due to its frequent co-occurrence with [[nickel]] in allergy, occupational exposure, and microbial metal transport.
 
 ## Chemical Properties
 
@@ -43,16 +43,16 @@ A transition metal that is essential to human health exclusively as a component 
 ### Vitamin B12 (Cobalamin)
 
 Cobalt's sole essential function in mammals is as the central metal ion in vitamin B12:
-- **Methylcobalamin**: Cofactor for methionine synthase (converts homocysteine to methionine; critical for methylation reactions and DNA synthesis).
-- **Adenosylcobalamin**: Cofactor for methylmalonyl-CoA mutase (propionate metabolism; odd-chain fatty acid and branched-chain amino acid catabolism).
+- Methylcobalamin: Cofactor for methionine synthase (converts homocysteine to methionine; critical for methylation reactions and DNA synthesis).
+- Adenosylcobalamin: Cofactor for methylmalonyl-CoA mutase (propionate metabolism; odd-chain fatty acid and branched-chain amino acid catabolism).
 - B12 deficiency causes megaloblastic anemia and neurological damage (subacute combined degeneration of the spinal cord).
 
 ### Microbial Cobalt Biology
 
 Cobalt is more broadly used in prokaryotic enzymes:
-- **NiCoT-type transporters**: The NixA transporter family in pathogens transports both nickel and cobalt, reflecting shared coordination chemistry [[maier-2019-nickel-microbial-pathogenesis]].
-- **CznABC efflux pump** in *[[helicobacter-pylori]]*: Exports cadmium, zinc, and nickel -- cobalt is also a substrate, reflecting the need to manage multiple divalent cation concentrations [[maier-2019-nickel-microbial-pathogenesis]].
-- **Staphylopine** (*[[staphylococcus-aureus]]*): A nicotianamine-like metallophore originally characterized for zinc but also binds nickel and cobalt, facilitating metal acquisition during infection [[maier-2019-nickel-microbial-pathogenesis]].
+- NiCoT-type transporters: The NixA transporter family in pathogens transports both nickel and cobalt, reflecting shared coordination chemistry [[maier-2019-nickel-microbial-pathogenesis]].
+- CznABC efflux pump in *[[helicobacter-pylori]]*: Exports cadmium, zinc, and nickel -- cobalt is also a substrate, reflecting the need to manage multiple divalent cation concentrations [[maier-2019-nickel-microbial-pathogenesis]].
+- Staphylopine (*[[staphylococcus-aureus]]*): A nicotianamine-like metallophore originally characterized for zinc but also binds nickel and cobalt, facilitating metal acquisition during infection [[maier-2019-nickel-microbial-pathogenesis]].
 - Cobalt is relevant to the [[nutritional-immunity]] framework: hosts may sequester Co alongside other transition metals to limit pathogen access.
 
 ## Health Effects
@@ -66,9 +66,9 @@ Concomitant nickel-cobalt contact allergy is well established:
 
 ### Toxicity at High Levels
 
-- **Cardiomyopathy**: Historic "beer drinker's cardiomyopathy" from cobalt-stabilized beer foam (1960s Quebec, Belgium); cobalt damages mitochondria in cardiomyocytes.
-- **Hard metal lung disease**: Interstitial lung disease (giant cell pneumonitis) from tungsten carbide-cobalt dust inhalation.
-- **Implant-related toxicity**: Cobalt-chromium hip prostheses release Co/Cr ions; elevated blood cobalt associated with neurological symptoms, thyroid dysfunction, and cardiomyopathy (arthroprosthetic cobaltism).
+- Cardiomyopathy: Historic "beer drinker's cardiomyopathy" from cobalt-stabilized beer foam (1960s Quebec, Belgium); cobalt damages mitochondria in cardiomyocytes.
+- Hard metal lung disease: Interstitial lung disease (giant cell pneumonitis) from tungsten carbide-cobalt dust inhalation.
+- Implant-related toxicity: Cobalt-chromium hip prostheses release Co/Cr ions; elevated blood cobalt associated with neurological symptoms, thyroid dysfunction, and cardiomyopathy (arthroprosthetic cobaltism).
 - Cobalt generates ROS through Fenton-like chemistry (Co2+/Co3+ cycling), though less efficiently than iron or copper [[briffa-2020-heavy-metal-pollution-environment-toxicology]].
 
 ### Cancer Associations

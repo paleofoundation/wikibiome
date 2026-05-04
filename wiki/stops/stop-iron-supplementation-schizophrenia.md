@@ -26,4 +26,4 @@ karen_brain_primitives: [1, 2, 4, 8]
 
 ## Overview
 
-**Harm potential: YELLOW** — True iron deficiency anemia requires supplementation.
+Harm potential: YELLOW — True iron deficiency anemia requires supplementation.

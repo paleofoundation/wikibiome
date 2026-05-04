@@ -16,11 +16,11 @@ platform: wikibiome
 
 ## Overview
 
-**Statins** (HMG-CoA reductase inhibitors) are the most widely prescribed drug class globally, used primarily for cholesterol lowering and cardiovascular risk reduction. Over 200 million people take statins worldwide. Beyond their canonical mechanism of inhibiting cholesterol synthesis, statins have pleiotropic effects on inflammation, immune function, and -- as increasingly recognized -- the gut microbiome. In the WikiBiome framework, statins are a prime example of [[pharmacomicrobiomics]]: a drug whose off-target microbiome effects may contribute to both therapeutic benefits and adverse effects.
+Statins (HMG-CoA reductase inhibitors) are the most widely prescribed drug class globally, used primarily for cholesterol lowering and cardiovascular risk reduction. Over 200 million people take statins worldwide. Beyond their canonical mechanism of inhibiting cholesterol synthesis, statins have pleiotropic effects on inflammation, immune function, and -- as increasingly recognized -- the gut microbiome. In the WikiBiome framework, statins are a prime example of [[pharmacomicrobiomics]]: a drug whose off-target microbiome effects may contribute to both therapeutic benefits and adverse effects.
 
 ## Canonical Mechanism
 
-Statins inhibit **3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) reductase**, the rate-limiting enzyme in hepatic cholesterol biosynthesis. By reducing intracellular cholesterol, they upregulate LDL receptor expression, increasing clearance of circulating LDL cholesterol. This mechanism alone does not explain statins' cardiovascular benefit -- their anti-inflammatory, endothelial-protective, and microbiome-modulating effects likely contribute.
+Statins inhibit 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) reductase, the rate-limiting enzyme in hepatic cholesterol biosynthesis. By reducing intracellular cholesterol, they upregulate LDL receptor expression, increasing clearance of circulating LDL cholesterol. This mechanism alone does not explain statins' cardiovascular benefit -- their anti-inflammatory, endothelial-protective, and microbiome-modulating effects likely contribute.
 
 ## Microbiome Effects
 
@@ -28,17 +28,17 @@ Statins inhibit **3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) reductase**, the rate
 
 Several statins have direct antimicrobial properties:
 
-- **Simvastatin** inhibits bacterial cell membrane synthesis (the mevalonate pathway is conserved in some bacteria)
-- **Atorvastatin** reduces [[biofilm]] formation by [[staphylococcus-aureus]] in vitro
+- Simvastatin inhibits bacterial cell membrane synthesis (the mevalonate pathway is conserved in some bacteria)
+- Atorvastatin reduces [[biofilm]] formation by [[staphylococcus-aureus]] in vitro
 - Statins reduce salivary Streptococcus levels in older adults, suggesting direct oral microbiome effects [[hisamatsu-2025-salivary-streptococcus-statin-therapy-older-adults]]
 
 ### Microbiome Composition Changes
 
 Rosuvastatin treatment alters gut microbial composition in ways that may contribute to its therapeutic effects [[liu-2018-rosuvastatin-gut-microbiome-lipid-lowering]]:
 
-- **Increased**: [[bifidobacterium]], [[lactobacillus]] -- SCFA producers and anti-inflammatory commensals
-- **Decreased**: [[desulfovibrio]] -- hydrogen sulfide producer associated with gut inflammation
-- **Functional shift**: Increased bile salt hydrolase (BSH) activity, altered bile acid metabolism
+- Increased: [[bifidobacterium]], [[lactobacillus]] -- SCFA producers and anti-inflammatory commensals
+- Decreased: [[desulfovibrio]] -- hydrogen sulfide producer associated with gut inflammation
+- Functional shift: Increased bile salt hydrolase (BSH) activity, altered bile acid metabolism
 
 ### Mendelian Randomization Evidence
 
@@ -54,7 +54,7 @@ Statins' most significant microbiome interaction may operate through bile acid m
 4. Secondary bile acid production by gut bacteria (7-alpha-dehydroxylation) generates deoxycholic acid and lithocholic acid
 5. These secondary bile acids activate FXR and TGR5 receptors, feeding back to hepatic cholesterol metabolism
 
-This creates a **statin-bile acid-microbiome feedback loop** where the drug alters bile composition, bile composition selects for different microbes, and those microbes further modify bile acids.
+This creates a statin-bile acid-microbiome feedback loop where the drug alters bile composition, bile composition selects for different microbes, and those microbes further modify bile acids.
 
 ### Metal Connection
 
@@ -83,10 +83,10 @@ Individual microbiome composition may predict statin response. Patients with hig
 
 Statins suppress inflammation through multiple pathways relevant to microbiome-disease interactions:
 
-- **NF-kB inhibition**: Reduces LPS-driven inflammatory signaling
-- **Isoprenylation block**: Inhibits Rho and Ras GTPase prenylation, reducing immune cell activation
-- **eNOS upregulation**: Increases endothelial nitric oxide production -- directly relevant to [[gut-penis-axis]] and cardiovascular protection
-- **Reduced CRP**: Consistent anti-inflammatory effect across trials
+- NF-kB inhibition: Reduces LPS-driven inflammatory signaling
+- Isoprenylation block: Inhibits Rho and Ras GTPase prenylation, reducing immune cell activation
+- eNOS upregulation: Increases endothelial nitric oxide production -- directly relevant to [[gut-penis-axis]] and cardiovascular protection
+- Reduced CRP: Consistent anti-inflammatory effect across trials
 
 ## Statins and Cancer
 
@@ -100,9 +100,9 @@ Emerging evidence connects statin use to altered cancer risk through microbiome 
 
 Common statin side effects may have microbiome components:
 
-- **GI disturbances** (nausea, diarrhea, constipation): Direct microbiome disruption
-- **Myopathy**: Gut microbial metabolism of statins affects their systemic bioavailability; high metabolizer microbiomes may reduce active drug reaching target tissues
-- **Diabetes risk**: Statins increase T2D risk by ~9%; could this partly reflect microbiome-mediated metabolic changes?
+- GI disturbances (nausea, diarrhea, constipation): Direct microbiome disruption
+- Myopathy: Gut microbial metabolism of statins affects their systemic bioavailability; high metabolizer microbiomes may reduce active drug reaching target tissues
+- Diabetes risk: Statins increase T2D risk by ~9%; could this partly reflect microbiome-mediated metabolic changes?
 
 ## Open Questions
 

@@ -22,7 +22,7 @@ conditions_depleted_in: []
 
 # Candida glabrata
 
-A haploid, asexual yeast and the **second most common cause of invasive candidiasis** after *Candida albicans*. Recently reclassified into the genus *Nakaseomyces* (as *N. glabratus*), though the name *C. glabrata* remains in widespread clinical use. Unlike *C. albicans*, *C. glabrata* does not form true hyphae and is more closely related to *Saccharomyces cerevisiae* than to other *Candida* species. Its clinical significance has risen sharply due to intrinsic resistance to fluconazole and increasing prevalence in nosocomial infections -- features that make its **iron dependency** a particularly attractive therapeutic target.
+A haploid, asexual yeast and the second most common cause of invasive candidiasis after *Candida albicans*. Recently reclassified into the genus *Nakaseomyces* (as *N. glabratus*), though the name *C. glabrata* remains in widespread clinical use. Unlike *C. albicans*, *C. glabrata* does not form true hyphae and is more closely related to *Saccharomyces cerevisiae* than to other *Candida* species. Its clinical significance has risen sharply due to intrinsic resistance to fluconazole and increasing prevalence in nosocomial infections -- features that make its iron dependency a particularly attractive therapeutic target.
 
 ## Metal Dependencies
 
@@ -62,17 +62,17 @@ NR-6226C synergizes strongly with fluconazole against *C. albicans* and related 
 
 ## Conditions Associated
 
-- **Candidemia** -- Second most common cause after *C. albicans*; increasing in nosocomial settings
-- **Vulvovaginal candidiasis** -- Common cause, particularly of azole-resistant recurrent infections
-- **Type 2 diabetes** -- Part of the disease-associated mycobiome; mycobiome variance dominance in T2DM
-- **Immunocompromised infections** -- Increasing prevalence in transplant recipients, ICU patients, and elderly populations
-- **Urinary tract infections** -- Growing cause of catheter-associated fungal UTIs
+- Candidemia -- Second most common cause after *C. albicans*; increasing in nosocomial settings
+- Vulvovaginal candidiasis -- Common cause, particularly of azole-resistant recurrent infections
+- Type 2 diabetes -- Part of the disease-associated mycobiome; mycobiome variance dominance in T2DM
+- Immunocompromised infections -- Increasing prevalence in transplant recipients, ICU patients, and elderly populations
+- Urinary tract infections -- Growing cause of catheter-associated fungal UTIs
 
 ## Key Studies
 
-- **[[corrales-2024-iron-chelating-antifungal-collismycin-candida]]** (in-vitro) -- Demonstrates selective iron chelation as potent antifungal strategy against *C. glabrata*; reveals Cu2+/Zn2+ mis-metallation compensation; documents fluconazole synergy and transcriptomic iron starvation response.
-- **[[alves-2020-candida-adapting-survive-host-constraints]]** (expert-opinion) -- Reviews lactate/butyrate masking-unmasking immune evasion and metabolic adaptation across Candida species including *C. glabrata*.
-- **[[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]]** (case-control, n=41) -- Multi-omics study documenting *C. glabrata* in T2DM mycobiome and the reversal of bacteria-fungi variance dominance in diabetes.
+- [[corrales-2024-iron-chelating-antifungal-collismycin-candida]] (in-vitro) -- Demonstrates selective iron chelation as potent antifungal strategy against *C. glabrata*; reveals Cu2+/Zn2+ mis-metallation compensation; documents fluconazole synergy and transcriptomic iron starvation response.
+- [[alves-2020-candida-adapting-survive-host-constraints]] (expert-opinion) -- Reviews lactate/butyrate masking-unmasking immune evasion and metabolic adaptation across Candida species including *C. glabrata*.
+- [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]] (case-control, n=41) -- Multi-omics study documenting *C. glabrata* in T2DM mycobiome and the reversal of bacteria-fungi variance dominance in diabetes.
 
 ## Cross-References
 

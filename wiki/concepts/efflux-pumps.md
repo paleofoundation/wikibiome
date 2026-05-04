@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Efflux Pumps
 
-Membrane-spanning protein complexes that **actively export substrates from the bacterial cell**, using energy from ATP hydrolysis or the proton motive force. In the context of metal-microbiome biology, efflux pumps serve a dual role that has profound clinical consequences: they export toxic metals to maintain [[metal-homeostasis]], but many of the same pumps also export antibiotics -- creating **cross-resistance** that links environmental metal exposure directly to antimicrobial resistance.
+Membrane-spanning protein complexes that actively export substrates from the bacterial cell, using energy from ATP hydrolysis or the proton motive force. In the context of metal-microbiome biology, efflux pumps serve a dual role that has profound clinical consequences: they export toxic metals to maintain [[metal-homeostasis]], but many of the same pumps also export antibiotics -- creating cross-resistance that links environmental metal exposure directly to antimicrobial resistance.
 
 ## Role in Metal Homeostasis
 
@@ -23,7 +23,7 @@ Membrane-spanning protein complexes that **actively export substrates from the b
 Nies (2025) proposed that efflux pumps, not importers, are the primary determinants of intracellular metal speciation [[nies-2025-flow-equilibrium-model-mis-metalation-zinc]]:
 
 - Metal importers lack specificity -- most divalent transition metals are ~0.75 A diameter and enter through the same channels
-- **[[metalloregulator|Metalloregulator]] control efflux pump expression**, adjusting export rates to maintain correct metal concentrations
+- [[metalloregulator|Metalloregulator]] control efflux pump expression, adjusting export rates to maintain correct metal concentrations
 - Metals flow continuously through the cell: import into the [[labile-metal-pool]], protein binding or efflux
 - The balance between import and efflux determines the steady-state labile pool concentration
 
@@ -31,21 +31,21 @@ Nies (2025) proposed that efflux pumps, not importers, are the primary determina
 
 | Pump Family | Metals Exported | Energy Source | Key Examples |
 |-------------|----------------|---------------|--------------|
-| **P-type ATPases** | Cu+, Zn2+, Cd2+, Pb2+ | ATP | CopA (Cu export), ZntA (Zn/Cd/Pb export) |
-| **RND (Resistance-Nodulation-Division)** | Co2+, Zn2+, Cd2+, Ni2+ | Proton motive force | CzcCBA (Co/Zn/Cd in *Ralstonia*) |
-| **CDF (Cation Diffusion Facilitator)** | Zn2+, Fe2+, Co2+, Mn2+ | Proton antiport | YiiP/FieF (Fe/Zn), MntP (Mn) |
-| **MFS (Major Facilitator Superfamily)** | Various | Proton antiport | Some metal-specific members |
+| P-type ATPases | Cu+, Zn2+, Cd2+, Pb2+ | ATP | CopA (Cu export), ZntA (Zn/Cd/Pb export) |
+| RND (Resistance-Nodulation-Division) | Co2+, Zn2+, Cd2+, Ni2+ | Proton motive force | CzcCBA (Co/Zn/Cd in *Ralstonia*) |
+| CDF (Cation Diffusion Facilitator) | Zn2+, Fe2+, Co2+, Mn2+ | Proton antiport | YiiP/FieF (Fe/Zn), MntP (Mn) |
+| MFS (Major Facilitator Superfamily) | Various | Proton antiport | Some metal-specific members |
 
 ## Cross-Resistance: The Metal-Antibiotic Bridge
 
-The most clinically consequential feature of efflux pumps: many have **broad substrate ranges** that encompass both metals and antibiotics [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]:
+The most clinically consequential feature of efflux pumps: many have broad substrate ranges that encompass both metals and antibiotics [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]:
 
 ### Direct Cross-Resistance Examples
 
-- **CzcCBA** (RND family): Expels cobalt, zinc, and cadmium -- but its broad substrate range also includes certain antibiotics. Metal exposure selects for CzcCBA overexpression, conferring antibiotic resistance without any antibiotic exposure
-- **AcrAB-TolC** (RND family): The major multidrug efflux system in Gram-negative bacteria. Copper stress activates the MarR repressor, which induces AcrAB-TolC expression, creating broad-spectrum antibiotic resistance via a **metal intermediate** [[wales-2015-co-selection-resistance-antibiotics-biocides-metals]]
-- **TetL**: Transports both tetracycline and cobalt
-- **MexAB-OprM**: The *Pseudomonas aeruginosa* multidrug efflux pump that also exports metals; linked to imipenem resistance through co-regulatory circuits with metal efflux operons
+- CzcCBA (RND family): Expels cobalt, zinc, and cadmium -- but its broad substrate range also includes certain antibiotics. Metal exposure selects for CzcCBA overexpression, conferring antibiotic resistance without any antibiotic exposure
+- AcrAB-TolC (RND family): The major multidrug efflux system in Gram-negative bacteria. Copper stress activates the MarR repressor, which induces AcrAB-TolC expression, creating broad-spectrum antibiotic resistance via a metal intermediate [[wales-2015-co-selection-resistance-antibiotics-biocides-metals]]
+- TetL: Transports both tetracycline and cobalt
+- MexAB-OprM: The *Pseudomonas aeruginosa* multidrug efflux pump that also exports metals; linked to imipenem resistance through co-regulatory circuits with metal efflux operons
 
 ### The Regulatory Cascade
 
@@ -56,13 +56,13 @@ Metal exposure does not always directly induce antibiotic efflux pumps. Sometime
 3. These regulators induce efflux pump expression as part of a general stress response
 4. The induced pumps happen to also export antibiotics
 
-This mechanism means that **sub-inhibitory metal concentrations** -- levels too low to kill bacteria -- can still drive antibiotic resistance by activating stress-response efflux systems.
+This mechanism means that sub-inhibitory metal concentrations -- levels too low to kill bacteria -- can still drive antibiotic resistance by activating stress-response efflux systems.
 
 ## Relevance to Co-Selection
 
-Efflux pumps are the dominant mechanism of the **cross-resistance** arm of [[co-selection]] [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]:
+Efflux pumps are the dominant mechanism of the cross-resistance arm of [[co-selection]] [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]:
 
-- Unlike **co-resistance** (where distinct resistance genes ride the same mobile element), cross-resistance requires no genetic linkage -- a single pump does double duty
+- Unlike co-resistance (where distinct resistance genes ride the same mobile element), cross-resistance requires no genetic linkage -- a single pump does double duty
 - This means cross-resistance can arise in any bacterium with broad-substrate efflux pumps, without horizontal gene transfer
 - Reduced outer membrane permeability (another cross-resistance mechanism selected by metals) further reduces antibiotic entry, compounding efflux-mediated resistance
 

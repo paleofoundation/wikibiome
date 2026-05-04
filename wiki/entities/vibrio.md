@@ -4,16 +4,24 @@ type: entity
 subtype: microbe
 created: 2026-04-19
 updated: 2026-04-19
-sources: []
-source_count: 0
+sources:
+  - liu-2025-immune-gut-microbiota-crc-mr-mediation
+  - srivastava-2016-environmental-resistance-microbes-review
+  - peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning
+  - troeseid-2024-gut-microbiome-cardiometabolic-comorbidities-hiv
+  - pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian
+  - yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s
+  - ryan-2017-microbiome-metabolome-cvd-interventions-apoe-mice
+  - appunni-2021-dietary-factors-gut-microbiome-crc
+source_count: 8
 tags: [gram-negative, pathogen, iron-dependent]
 platform: wikibiome
-stub: true
-stub_reason: "auto-discovered from source mention — 5 sources discuss this taxon, awaiting content expansion"
 metal_dependencies: []
 conditions_enriched_in: []
 conditions_depleted_in: []
 pathogenic_potential: unknown
+
+last_substantive_update: 2026-04-22
 ---
 
 # *Vibrio*

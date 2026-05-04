@@ -5,17 +5,23 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
-source_count: 0
+sources:
+  - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
+  - shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol
+  - quaranta-2019-fmt-female-reproductive-tract-diseases
+  - bautista-2025-reprogramming-prostate-cancer-microbiome
+  - wehedy-2022-human-microbiome-ckd-double-edged-sword
+  - zhu-2022-berberine-uc-cancer-therapy
+  - catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis
+  - lv-2024-gut-microbiota-male-reproductive-function-review
+source_count: 8
 gram_stain: "negative"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [hemolysins, proteases, siderophore-uptake, butyrate-synthesis]
 tags: [gram-negative, anaerobe, iron-dependent, gut-pathobiont, inflammatory-bowel-disease, ulcerative-colitis, epithelial-invasion, butyrate-producer]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Fusobacterium varium ulcerative colitis epithelial invasion iron"
 wikipedia_differentiation: "Paradoxical butyrate production vs epithelial invasion with iron-dependent hemolysis distinguishing it from F. nucleatum in UC pathogenesis"
 conditions_enriched_in: [ulcerative-colitis, inflammatory-bowel-disease]
@@ -29,9 +35,9 @@ A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut m
 
 ## Taxonomy and Classification
 
-- **Phylum**: Fusobacteria (Gram-negative, leptotrichous flagellation, pleomorphic rods)
-- **Distinct from [[fusobacterium-nucleatum]]**: *F. nucleatum* is oral-centric, implicated in colorectal cancer and periodontal disease. *F. varium* is gut-primary and more associated with IBD, especially UC.
-- **Habitat**: Lower gastrointestinal tract; oxygen-limited environments (crypts, mucus layer).
+- Phylum: Fusobacteria (Gram-negative, leptotrichous flagellation, pleomorphic rods)
+- Distinct from [[fusobacterium-nucleatum]]: *F. nucleatum* is oral-centric, implicated in colorectal cancer and periodontal disease. *F. varium* is gut-primary and more associated with IBD, especially UC.
+- Habitat: Lower gastrointestinal tract; oxygen-limited environments (crypts, mucus layer).
 
 ## Iron-Dependent Growth and Virulence
 
@@ -50,9 +56,9 @@ A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut m
 
 ### Hemolysins and Proteases
 
-- **Fusolysin (hepta-acylated lipid A mimetic)** -- outer membrane-derived; activates Toll-like receptor 4 and drives pro-inflammatory IL-6, TNF-α, and IL-8 secretion from epithelial cells and macrophages.
-- **Serine proteases** -- cleave tight junction proteins (claudins, occludin, zonula occludens-1); disrupt intestinal barrier integrity.
-- **Lipopolysaccharide (LPS)** -- Gram-negative endotoxin; triggers TLR4 signaling and NF-κB activation.
+- Fusolysin (hepta-acylated lipid A mimetic) -- outer membrane-derived; activates Toll-like receptor 4 and drives pro-inflammatory IL-6, TNF-α, and IL-8 secretion from epithelial cells and macrophages.
+- Serine proteases -- cleave tight junction proteins (claudins, occludin, zonula occludens-1); disrupt intestinal barrier integrity.
+- Lipopolysaccharide (LPS) -- Gram-negative endotoxin; triggers TLR4 signaling and NF-κB activation.
 
 ### Invasive Phenotype
 
@@ -63,17 +69,17 @@ A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut m
 ## Butyrate Production -- A Paradox
 
 - *F. varium* expresses butyrate synthesis enzymes (putative butyrate kinase homologs), capable of producing short-chain fatty acids (SCFAs) from carbohydrate fermentation.
-- **But**: In inflamed UC colon, invasive pathogenic phenotype dominates over commensal SCFA production.
+- But: In inflamed UC colon, invasive pathogenic phenotype dominates over commensal SCFA production.
 - This mirrors the commensal-pathobiont spectrum seen in [[bacteroides-fragilis]]: the same organism can be protective (SCFA producer) or destructive (invasive), depending on iron bioavailability and immune state.
 
 ## Disease Associations
 
 ### Inflammatory Bowel Disease (IBD) -- Ulcerative Colitis (UC)
 
-- **Enrichment in UC**: *F. varium* is consistently over-represented in UC microbiota compared to controls and Crohn's disease.
+- Enrichment in UC: *F. varium* is consistently over-represented in UC microbiota compared to controls and Crohn's disease.
 - Abundance correlates with disease activity: higher *F. varium* levels predict flares and non-remission.
 - Epithelial invasion and LPS-driven inflammation exacerbate colonic inflammation.
-- **Possible causative role**: Longitudinal studies suggest *F. varium* bloom precedes symptom exacerbation, supporting a causal (not purely reactive) role.
+- Possible causative role: Longitudinal studies suggest *F. varium* bloom precedes symptom exacerbation, supporting a causal (not purely reactive) role.
 
 ### Crohn's Disease
 

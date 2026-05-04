@@ -19,52 +19,52 @@ Chelation therapy uses molecules with high affinity for specific metal ions to f
 ## Major Chelating Agents
 
 ### EDTA (Ethylenediaminetetraacetic acid)
-- **Target metals:** Lead, cadmium, zinc, calcium
-- **Route:** IV infusion (CaNa2EDTA to avoid hypocalcemia)
-- **Clinical use:** Acute lead poisoning; the TACT trial showed modest benefit in post-MI diabetic patients with elevated lead
-- **Limitations:** Poor oral bioavailability; non-selective (depletes Zn, Cu, Mn)
+- Target metals: Lead, cadmium, zinc, calcium
+- Route: IV infusion (CaNa2EDTA to avoid hypocalcemia)
+- Clinical use: Acute lead poisoning; the TACT trial showed modest benefit in post-MI diabetic patients with elevated lead
+- Limitations: Poor oral bioavailability; non-selective (depletes Zn, Cu, Mn)
 
 ### DMSA (Succimer / Dimercaptosuccinic acid)
-- **Target metals:** [[lead]], [[mercury]], [[arsenic]]
-- **Route:** Oral
-- **Clinical use:** FDA-approved for lead poisoning in children (blood Pb >45 mcg/dL). First-line pediatric chelator due to oral administration and relative safety.
-- **Limitations:** Does not cross blood-brain barrier effectively; may redistribute metals if given before source removal
+- Target metals: [[lead]], [[mercury]], [[arsenic]]
+- Route: Oral
+- Clinical use: FDA-approved for lead poisoning in children (blood Pb >45 mcg/dL). First-line pediatric chelator due to oral administration and relative safety.
+- Limitations: Does not cross blood-brain barrier effectively; may redistribute metals if given before source removal
 
 ### DMPS (2,3-Dimercapto-1-propanesulfonic acid / Unithiol)
-- **Target metals:** [[mercury]] (especially inorganic), [[arsenic]], [[lead]]
-- **Route:** Oral or IV
-- **Clinical use:** Mercury poisoning (preferred over DMSA for inorganic Hg); arsenic poisoning. Not FDA-approved in the US but used widely in Europe.
-- **Limitations:** Can mobilize mercury from tissue stores; renal excretion requires adequate kidney function
+- Target metals: [[mercury]] (especially inorganic), [[arsenic]], [[lead]]
+- Route: Oral or IV
+- Clinical use: Mercury poisoning (preferred over DMSA for inorganic Hg); arsenic poisoning. Not FDA-approved in the US but used widely in Europe.
+- Limitations: Can mobilize mercury from tissue stores; renal excretion requires adequate kidney function
 
 ### D-Penicillamine
-- **Target metals:** [[copper]], [[lead]], mercury
-- **Route:** Oral
-- **Clinical use:** Wilson's disease ([[copper]] overload) -- historical first-line agent. Also used in lead and mercury poisoning when DMSA/DMPS unavailable.
-- **Limitations:** Significant side effects (nephrotoxicity, bone marrow suppression, autoimmune reactions); largely supplanted by trientine for Wilson's disease
+- Target metals: [[copper]], [[lead]], mercury
+- Route: Oral
+- Clinical use: Wilson's disease ([[copper]] overload) -- historical first-line agent. Also used in lead and mercury poisoning when DMSA/DMPS unavailable.
+- Limitations: Significant side effects (nephrotoxicity, bone marrow suppression, autoimmune reactions); largely supplanted by trientine for Wilson's disease
 
 ### Deferoxamine (Desferal)
-- **Target metals:** [[iron]]
-- **Route:** SC or IV infusion (poorly absorbed orally)
-- **Clinical use:** Acute iron poisoning; chronic iron overload from transfusion-dependent thalassemia. The siderophore-derived chelator with highest iron specificity.
-- **Limitations:** Requires prolonged infusion (8-12 hrs SC); ototoxicity, retinal toxicity with chronic use
+- Target metals: [[iron]]
+- Route: SC or IV infusion (poorly absorbed orally)
+- Clinical use: Acute iron poisoning; chronic iron overload from transfusion-dependent thalassemia. The siderophore-derived chelator with highest iron specificity.
+- Limitations: Requires prolonged infusion (8-12 hrs SC); ototoxicity, retinal toxicity with chronic use
 
 ### Deferasirox (Exjade/Jadenu)
-- **Target metals:** [[iron]]
-- **Route:** Oral (once daily)
-- **Clinical use:** Chronic transfusional iron overload. Revolutionized iron chelation by replacing deferoxamine infusions with oral dosing.
-- **Limitations:** Hepatotoxicity, nephrotoxicity; GI side effects; expensive
+- Target metals: [[iron]]
+- Route: Oral (once daily)
+- Clinical use: Chronic transfusional iron overload. Revolutionized iron chelation by replacing deferoxamine infusions with oral dosing.
+- Limitations: Hepatotoxicity, nephrotoxicity; GI side effects; expensive
 
 ### Disulfiram / Diethyldithiocarbamate (DDC)
-- **Target metals:** [[nickel]], copper
-- **Route:** Oral
-- **Clinical use:** Nickel carbonyl poisoning (the specific antidote). DDC, the active metabolite of disulfiram (Antabuse), chelates Ni(II) with high affinity. Also explored for copper chelation in cancer therapy.
-- **Limitations:** Disulfiram-alcohol reaction; hepatotoxicity; limited clinical experience outside nickel carbonyl poisoning
+- Target metals: [[nickel]], copper
+- Route: Oral
+- Clinical use: Nickel carbonyl poisoning (the specific antidote). DDC, the active metabolite of disulfiram (Antabuse), chelates Ni(II) with high affinity. Also explored for copper chelation in cancer therapy.
+- Limitations: Disulfiram-alcohol reaction; hepatotoxicity; limited clinical experience outside nickel carbonyl poisoning
 
 ## When Chelation Is Appropriate
 
-- **Acute poisoning** with confirmed toxic metal levels above treatment thresholds
-- **Chronic overload** with documented tissue accumulation (e.g., transfusional iron overload, Wilson's disease)
-- **Symptomatic exposure** where metal levels correlate with clinical findings and source has been removed
+- Acute poisoning with confirmed toxic metal levels above treatment thresholds
+- Chronic overload with documented tissue accumulation (e.g., transfusional iron overload, Wilson's disease)
+- Symptomatic exposure where metal levels correlate with clinical findings and source has been removed
 
 ## Risks and Controversies
 

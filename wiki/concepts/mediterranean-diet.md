@@ -23,7 +23,7 @@ The strongest metallomic-relevant evidence for the MD comes from PCOS:
 ### PREDIMED Score and Hormonal Outcomes
 - Women with PCOS had significantly lower MD adherence (PREDIMED score 6.97 vs 8.12) compared to matched controls [[barrea-2019-mediterranean-diet-pcos]].
 - Low MD adherence directly associated with higher testosterone, CRP, HOMA-IR, and hirsutism scores (all p < 0.001).
-- A **PREDIMED score cutoff of 6 or below predicted high testosterone with AUC 0.848** -- remarkably strong discriminative ability for a dietary assessment [[barrea-2019-mediterranean-diet-pcos]].
+- A PREDIMED score cutoff of 6 or below predicted high testosterone with AUC 0.848 -- remarkably strong discriminative ability for a dietary assessment [[barrea-2019-mediterranean-diet-pcos]].
 - CRP, PREDIMED score, and MUFA intake together predicted 73.8% of testosterone variance.
 
 ### RCT Evidence
@@ -32,10 +32,10 @@ The strongest metallomic-relevant evidence for the MD comes from PCOS:
 
 ## Evidence in Other Conditions
 
-- **Endometriosis**: MD recommended in nutritional guidelines for endometriosis, emphasizing anti-inflammatory and antioxidant properties [[barnard-2023-nutrition-prevention-treatment-endometriosis]], [[piecuch-2022-nutrition-endometriosis-review]]].
-- **IBD**: anti-inflammatory dietary patterns including MD show benefit in Crohn's and UC.
-- **Rheumatoid arthritis**: MD's anti-inflammatory profile relevant to autoimmune disease management.
-- **Neurodegeneration**: MD adherence associated with reduced AD and PD risk, potentially through gut microbiome modulation and reduced neuroinflammation.
+- Endometriosis: MD recommended in nutritional guidelines for endometriosis, emphasizing anti-inflammatory and antioxidant properties [[barnard-2023-nutrition-prevention-treatment-endometriosis]], [[piecuch-2022-nutrition-endometriosis-review]]].
+- IBD: anti-inflammatory dietary patterns including MD show benefit in Crohn's and UC.
+- Rheumatoid arthritis: MD's anti-inflammatory profile relevant to autoimmune disease management.
+- Neurodegeneration: MD adherence associated with reduced AD and PD risk, potentially through gut microbiome modulation and reduced neuroinflammation.
 
 ## The Fiber Connection
 

@@ -29,16 +29,16 @@ An iron-binding glycoprotein of the transferrin family that sequesters iron (and
 
 ## Distribution
 
-- **Breast milk**: highest concentration (~7 mg/mL in colostrum, ~1-2 mg/mL in mature milk), providing neonatal innate immune defense.
-- **Mucosal secretions**: saliva, tears, nasal secretions, vaginal fluid, seminal fluid, bronchial mucus.
-- **Neutrophil secondary granules**: released at infection sites during degranulation, contributing to the metal-restricted abscess environment alongside [[calprotectin]].
-- **Gut lumen**: from dietary intake (breast milk) and neutrophil release during intestinal inflammation.
+- Breast milk: highest concentration (~7 mg/mL in colostrum, ~1-2 mg/mL in mature milk), providing neonatal innate immune defense.
+- Mucosal secretions: saliva, tears, nasal secretions, vaginal fluid, seminal fluid, bronchial mucus.
+- Neutrophil secondary granules: released at infection sites during degranulation, contributing to the metal-restricted abscess environment alongside [[calprotectin]].
+- Gut lumen: from dietary intake (breast milk) and neutrophil release during intestinal inflammation.
 
 ## Lactoferrin and Vaginal Health
 
 The Roberts et al. (2019) study provides the most detailed characterization of lactoferrin's mucosal immune function in a metallomics context:
 
-- Vaginal lactoferrin concentrations increase dramatically with genital infections: **6.6-fold** with bacterial vaginosis, **11.5-fold** with *Trichomonas vaginalis* [[roberts-2019-lactoferrin-genital-infections-iron]].
+- Vaginal lactoferrin concentrations increase dramatically with genital infections: 6.6-fold with bacterial vaginosis, 11.5-fold with *Trichomonas vaginalis* [[roberts-2019-lactoferrin-genital-infections-iron]].
 - Lactoferrin levels positively correlate with serum [[hepcidin]] (P = 0.047), serum ferritin (P = 0.018), and total body iron stores (P = 0.042) -- suggesting coordinated systemic and mucosal iron restriction [[roberts-2019-lactoferrin-genital-infections-iron]].
 - Iron-deficient women had lower baseline lactoferrin, suggesting that iron deficiency compromises mucosal antimicrobial defense.
 - Women with normal vaginal flora (Lactobacillus-dominant CST I) were more likely to be iron-replete.
@@ -55,9 +55,9 @@ The Roberts et al. (2019) study provides the most detailed characterization of l
 
 ## Clinical Relevance
 
-- **IBD**: Fecal lactoferrin, like fecal [[calprotectin]], serves as a biomarker of intestinal inflammation [[amerikanou-2022-ibd-biomarkers-trace-metals]].
-- **Neonatal protection**: Breast milk lactoferrin is a major factor in neonatal gut immune defense; its absence in formula may contribute to increased infection risk and NEC.
-- **Heavy metal interaction**: Heavy metals that disrupt iron homeostasis (Cd increases iron absorption via DMT1 upregulation in iron-depleted women) may indirectly impair lactoferrin-mediated defense [[feng-2025-heavy-metals-bacterial-vaginosis]].
+- IBD: Fecal lactoferrin, like fecal [[calprotectin]], serves as a biomarker of intestinal inflammation [[amerikanou-2022-ibd-biomarkers-trace-metals]].
+- Neonatal protection: Breast milk lactoferrin is a major factor in neonatal gut immune defense; its absence in formula may contribute to increased infection risk and NEC.
+- Heavy metal interaction: Heavy metals that disrupt iron homeostasis (Cd increases iron absorption via DMT1 upregulation in iron-depleted women) may indirectly impair lactoferrin-mediated defense [[feng-2025-heavy-metals-bacterial-vaginosis]].
 
 ## Key Sources
 

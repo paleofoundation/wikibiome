@@ -29,7 +29,7 @@ targets:
 karen_brain_primitives: [5]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Prebiotics (Inulin + FOS) for PCOS
 
@@ -39,17 +39,17 @@ Inulin and fructo-oligosaccharide (FOS) supplementation as targeted prebiotics f
 
 ## Evidence
 
-- **PCOS trials**: Prebiotic supplementation (10-20g/day inulin/FOS) improves fasting insulin and HOMA-IR in PCOS women in small RCTs
-- **Androgen reduction**: Some trials report reduced total testosterone and free androgen index with prebiotic intervention
-- **Microbiome shifts**: Fecal Bifidobacterium counts increase significantly within 2-4 weeks of inulin/FOS supplementation
-- **Metabolic effects**: Reduced fasting blood glucose, improved lipid profiles in metabolic syndrome populations (applicable to the metabolic PCOS phenotype)
+- PCOS trials: Prebiotic supplementation (10-20g/day inulin/FOS) improves fasting insulin and HOMA-IR in PCOS women in small RCTs
+- Androgen reduction: Some trials report reduced total testosterone and free androgen index with prebiotic intervention
+- Microbiome shifts: Fecal Bifidobacterium counts increase significantly within 2-4 weeks of inulin/FOS supplementation
+- Metabolic effects: Reduced fasting blood glucose, improved lipid profiles in metabolic syndrome populations (applicable to the metabolic PCOS phenotype)
 
 ## Mechanism
 
-1. **Selective bifidogenic effect**: Inulin and FOS are preferentially fermented by Bifidobacterium species, which are depleted in PCOS
-2. **SCFA production**: Increased butyrate and propionate improve insulin sensitivity via GPR41/GPR43 signaling and reduce hepatic glucose output
-3. **Endotoxemia reduction**: Restored barrier integrity reduces LPS translocation, attenuating the TLR4-NF-kB inflammatory cascade driving insulin resistance
-4. **Beta-glucuronidase modulation**: By shifting community composition away from beta-glucuronidase-producing Proteobacteria, prebiotics may reduce estrogen recirculation relevant to hormonal dysregulation
+1. Selective bifidogenic effect: Inulin and FOS are preferentially fermented by Bifidobacterium species, which are depleted in PCOS
+2. SCFA production: Increased butyrate and propionate improve insulin sensitivity via GPR41/GPR43 signaling and reduce hepatic glucose output
+3. Endotoxemia reduction: Restored barrier integrity reduces LPS translocation, attenuating the TLR4-NF-kB inflammatory cascade driving insulin resistance
+4. Beta-glucuronidase modulation: By shifting community composition away from beta-glucuronidase-producing Proteobacteria, prebiotics may reduce estrogen recirculation relevant to hormonal dysregulation
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ Start at 5g/day and titrate to 10-20g/day over 2-3 weeks to minimize bloating an
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

@@ -22,7 +22,7 @@ signature_page: "[[epilepsy-signature]]"
 
 ## Overview
 
-**Epilepsy** is a chronic neurological disorder characterized by recurrent unprovoked seizures, affecting ~50 million people worldwide. Approximately 30% of patients have **drug-resistant epilepsy** -- a population where microbiome-targeted interventions (particularly the ketogenic diet) have shown the most clinical impact.
+Epilepsy is a chronic neurological disorder characterized by recurrent unprovoked seizures, affecting ~50 million people worldwide. Approximately 30% of patients have drug-resistant epilepsy -- a population where microbiome-targeted interventions (particularly the ketogenic diet) have shown the most clinical impact.
 
 The gut microbiome's role in epilepsy operates through the [[gut-brain-axis]]: microbially-derived neuroactive metabolites ([[kynurenine]] pathway products, GABA, [[serotonin]], SCFAs) directly modulate neuronal excitability and seizure thresholds.
 
@@ -32,17 +32,17 @@ The gut microbiome's role in epilepsy operates through the [[gut-brain-axis]]: m
 Children with [[cerebral-palsy]] plus epilepsy (CP+E) have distinct gut microbiota compared to CP without epilepsy, suggesting epilepsy is not merely a neurological overlay but involves gut-brain axis restructuring [[huang-2019-gut-microbiota-cerebral-palsy-epilepsy]], [[peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy]].
 
 ### Causal Evidence (Mendelian Randomization)
-MR supports a **causal link** between specific gut microbiota and epilepsy risk, though the specific taxa remain under investigation [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]].
+MR supports a causal link between specific gut microbiota and epilepsy risk, though the specific taxa remain under investigation [[zeng-2023-gut-microbiome-epilepsy-mendelian-randomization]].
 
 ### Kynurenine Pathway
 The [[kynurenine]] pathway produces metabolites with opposing neurological effects:
-- **Kynurenic acid** (KA): Neuroprotective NMDA antagonist; may raise seizure threshold.
-- **Quinolinic acid** (QUIN): Neurotoxic NMDA agonist; may lower seizure threshold.
+- Kynurenic acid (KA): Neuroprotective NMDA antagonist; may raise seizure threshold.
+- Quinolinic acid (QUIN): Neurotoxic NMDA agonist; may lower seizure threshold.
 - The KA/QUIN balance, modulated by gut microbiome composition and inflammation, may influence seizure susceptibility.
 
 ## Ketogenic Diet and the Microbiome
 
-The **ketogenic diet** is the most evidence-based microbiome-modulating intervention for drug-resistant epilepsy:
+The ketogenic diet is the most evidence-based microbiome-modulating intervention for drug-resistant epilepsy:
 
 - Dramatically reshapes gut microbiome composition within days.
 - Increases [[akkermansia-muciniphila]] and decreases [[enterobacteriaceae]] in animal models.

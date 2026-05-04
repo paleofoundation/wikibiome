@@ -4,15 +4,17 @@ type: entity
 subtype: disease
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
+last_substantive_update: 2026-04-22
 sources:
-  - fungal-dysbiosis-2023-gdm-pregnancy-microbiome
-  - fungal-dysbiosis-2026-pregnancy-gdm-reference
-  - susarla-2024-microbiome-derived-metabolites-gestational-diabetes-risk
+  - rasmussen-2023-endocrine-disease-history-ppd-risk
+  - ding-2021-nickel-pregnancy-complications
   - vavreckova-2022-gut-bacterial-fungal-microbiota-pregnancy-gdm
-  - wang-2026-intestinal-fungal-dysbiosis-gdm-adverse-pregnancy-outcomes
+  - fungal-dysbiosis-2026-pregnancy-gdm-reference
+  - love-2024-prenatal-environmental-risk-factors-asd
+  - xu-2014-maternal-diabetes-asd-risk-meta-analysis
+  - li-2025-gestational-diabetes-cognitive-decline-adhd-asd
   - wei-2022-16s-rrna-gut-microbiota-gestational-diabetes
-source_count: 6
+source_count: 8
 tags: [gestational-diabetes, pregnancy, metabolic, glucose-intolerance]
 seo_target: "gestational diabetes microbiome gut bacteria"
 wikipedia_differentiation: "Metal-microbiome interactions in gestational diabetes including fungal dysbiosis and metabolite-mediated insulin resistance mechanisms not covered on Wikipedia"
@@ -22,7 +24,6 @@ signature_page: "[[gestational-diabetes-signature]]"
 associated_conditions: [type-2-diabetes, pcos, obesity]
 shared_signature_metals: {type-2-diabetes: [iron, zinc], pcos: [iron]}
 shared_signature_taxa: {type-2-diabetes: [bacteroides, prevotella]}
-stub: true
 ---
 
 # Gestational Diabetes Mellitus
@@ -31,7 +32,7 @@ stub: true
 
 ## Overview
 
-**Gestational diabetes mellitus (GDM)** is a condition of glucose intolerance first recognized during pregnancy, affecting approximately 14% of pregnancies worldwide. It carries risks for both mother and offspring, including increased likelihood of developing type 2 diabetes postpartum.
+Gestational diabetes mellitus (GDM) is a condition of glucose intolerance first recognized during pregnancy, affecting approximately 14% of pregnancies worldwide. It carries risks for both mother and offspring, including increased likelihood of developing type 2 diabetes postpartum.
 
 ## Microbiome Associations
 

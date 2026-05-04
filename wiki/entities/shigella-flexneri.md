@@ -21,16 +21,16 @@ pathogenic_potential: obligate
 
 # Shigella flexneri
 
-A Gram-negative intracellular pathogen causing **bacillary dysentery** (shigellosis), responsible for approximately 165 million illness episodes and over 1 million deaths annually, predominantly in children under 5 in developing countries. *S. flexneri* relies on [[nickel]]-dependent [NiFe] [[hydrogenase]]s for a specific and critical virulence function: **surviving the acid assault within macrophage phagolysosomes**.
+A Gram-negative intracellular pathogen causing bacillary dysentery (shigellosis), responsible for approximately 165 million illness episodes and over 1 million deaths annually, predominantly in children under 5 in developing countries. *S. flexneri* relies on [[nickel]]-dependent [NiFe] [[hydrogenase]]s for a specific and critical virulence function: surviving the acid assault within macrophage phagolysosomes.
 
 ## Nickel-Dependent Virulence
 
 ### [NiFe] Hydrogenases -- Phagolysosomal Acid Combat
 
-- Possesses H2-uptake hydrogenases **Hya and Hyb** that combat acid stress during intracellular survival in macrophages [[maier-2019-nickel-microbial-pathogenesis]].
-- **Hya activity is three-fold activated within minutes of acid exposure** -- a rapid-response defense mechanism that provides immediate energy for maintaining cytoplasmic pH homeostasis.
+- Possesses H2-uptake hydrogenases Hya and Hyb that combat acid stress during intracellular survival in macrophages [[maier-2019-nickel-microbial-pathogenesis]].
+- Hya activity is three-fold activated within minutes of acid exposure -- a rapid-response defense mechanism that provides immediate energy for maintaining cytoplasmic pH homeostasis.
 - H2 oxidation generates PMF (proton motive force) that powers proton efflux pumps and ATP synthesis under the energy-limiting conditions of the phagolysosome.
-- This represents a distinct use of hydrogenase compared to [[helicobacter-pylori]] (gastric colonization energy) or [[campylobacter-jejuni]] (intestinal mucosal competition): *Shigella* uses H2 metabolism specifically to survive **intracellular killing**.
+- This represents a distinct use of hydrogenase compared to [[helicobacter-pylori]] (gastric colonization energy) or [[campylobacter-jejuni]] (intestinal mucosal competition): *Shigella* uses H2 metabolism specifically to survive intracellular killing.
 
 ### Predicted Ni-GloI
 
@@ -51,10 +51,10 @@ A Gram-negative intracellular pathogen causing **bacillary dysentery** (shigello
 
 ## Clinical Significance
 
-- **Bacillary dysentery**: bloody diarrhea with mucus, fever, abdominal cramps. As few as 10 organisms can cause disease (extremely low infectious dose).
-- **Children under 5**: bear the greatest burden; shigellosis is a leading cause of diarrheal death in this age group.
-- **Antibiotic resistance**: multidrug-resistant *Shigella* is increasingly common; WHO lists fluoroquinolone-resistant *Shigella* as a priority pathogen.
-- **Reactive arthritis**: post-infectious joint inflammation, similar to [[campylobacter-jejuni]].
+- Bacillary dysentery: bloody diarrhea with mucus, fever, abdominal cramps. As few as 10 organisms can cause disease (extremely low infectious dose).
+- Children under 5: bear the greatest burden; shigellosis is a leading cause of diarrheal death in this age group.
+- Antibiotic resistance: multidrug-resistant *Shigella* is increasingly common; WHO lists fluoroquinolone-resistant *Shigella* as a priority pathogen.
+- Reactive arthritis: post-infectious joint inflammation, similar to [[campylobacter-jejuni]].
 - Metal exposure in endemic regions (contaminated water sources containing heavy metals) may promote Enterobacteriaceae enrichment in the gut, potentially favoring *Shigella* colonization [[zhu-2024-toxic-essential-metals-gut-microbiota]].
 
 ## Key Sources

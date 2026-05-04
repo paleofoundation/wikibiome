@@ -39,26 +39,26 @@ Non-digestible food substrates that selectively stimulate the growth and/or acti
 
 ## Mechanisms of Action
 
-1. **Selective fermentation**: Prebiotic fibers are metabolized by saccharolytic bacteria (especially Bifidobacterium), producing [[short-chain-fatty-acids]] that lower colonic pH, inhibit pathogen growth, and fuel colonocytes.
-2. **Competitive exclusion**: By boosting beneficial populations, prebiotics indirectly suppress pathobionts.
-3. **Immune modulation**: SCFA production drives Treg differentiation via HDAC inhibition and GPR109A signaling.
-4. **Barrier reinforcement**: Increased butyrate strengthens tight junctions; increased Akkermansia promotes mucus layer thickness.
+1. Selective fermentation: Prebiotic fibers are metabolized by saccharolytic bacteria (especially Bifidobacterium), producing [[short-chain-fatty-acids]] that lower colonic pH, inhibit pathogen growth, and fuel colonocytes.
+2. Competitive exclusion: By boosting beneficial populations, prebiotics indirectly suppress pathobionts.
+3. Immune modulation: SCFA production drives Treg differentiation via HDAC inhibition and GPR109A signaling.
+4. Barrier reinforcement: Increased butyrate strengthens tight junctions; increased Akkermansia promotes mucus layer thickness.
 
 ## Disease Evidence
 
-- **CVD**: Prebiotic fiber increases SCFA production and may reduce TMAO by shifting microbial metabolism away from choline/carnitine fermentation [[luqman-2024-intestinal-microbiome-cvd-intervention]].
-- **PCOS**: Synbiotic (prebiotic + probiotic) interventions improve hormonal profiles and insulin sensitivity.
-- **ASD**: B-GOS RCT showed improvements in anti-social behavior; prebiotics may modify the microbial metabolite profile (reducing p-cresol, increasing SCFAs).
-- **CRC**: Dietary fiber consistently inversely associated with colorectal cancer risk; prebiotic fermentation products (butyrate) are anti-proliferative [[reddy-1998-prebiotics-probiotics-colon-cancer-prevention]].
-- **IBD**: High-fiber diets show benefit in some Crohn's cohorts, though individual tolerance varies.
+- CVD: Prebiotic fiber increases SCFA production and may reduce TMAO by shifting microbial metabolism away from choline/carnitine fermentation [[luqman-2024-intestinal-microbiome-cvd-intervention]].
+- PCOS: Synbiotic (prebiotic + probiotic) interventions improve hormonal profiles and insulin sensitivity.
+- ASD: B-GOS RCT showed improvements in anti-social behavior; prebiotics may modify the microbial metabolite profile (reducing p-cresol, increasing SCFAs).
+- CRC: Dietary fiber consistently inversely associated with colorectal cancer risk; prebiotic fermentation products (butyrate) are anti-proliferative [[reddy-1998-prebiotics-probiotics-colon-cancer-prevention]].
+- IBD: High-fiber diets show benefit in some Crohn's cohorts, though individual tolerance varies.
 
 ## Metal Angle
 
 Prebiotic fiber may reduce heavy metal absorption through multiple mechanisms:
-- **Binding**: Dietary fiber physically adsorbs metals (Pb, Cd) in the gut lumen, reducing bioavailability.
-- **Microbiome restoration**: By boosting metal-sensitive commensals, prebiotics help restore the microbial metal-handling capacity disrupted by [[dysbiosis]].
-- **pH reduction**: SCFA-mediated colonic acidification alters metal speciation and may reduce absorption of certain metals.
-- **Barrier repair**: Increased butyrate production restores tight junctions, reducing paracellular metal uptake.
+- Binding: Dietary fiber physically adsorbs metals (Pb, Cd) in the gut lumen, reducing bioavailability.
+- Microbiome restoration: By boosting metal-sensitive commensals, prebiotics help restore the microbial metal-handling capacity disrupted by [[dysbiosis]].
+- pH reduction: SCFA-mediated colonic acidification alters metal speciation and may reduce absorption of certain metals.
+- Barrier repair: Increased butyrate production restores tight junctions, reducing paracellular metal uptake.
 
 ## See Also
 

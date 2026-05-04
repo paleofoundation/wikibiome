@@ -5,15 +5,18 @@ type: entity
 subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
-sources: [maier-2019-nickel-microbial-pathogenesis.md]
-source_count: 1
+sources:
+  - benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens
+  - mabrouk-2026-repurposing-gut-microbiota-modulators
+  - breton-2016-cadmium-lead-oral-exposure-colitis
+  - mcewan-2024-metalloproteome-plasticity-pathogen-adaptation
+  - trecarten-2025-obesity-diet-microbiome-prostate-cancer
+source_count: 5
 tags: [pathogen, nickel, iron, hydrogenase, macrophage-survival, gut-invasion, typhoid]
 metal_dependencies: [iron, zinc, manganese, magnesium]
 key_enzymes: [enterobactin/salmochelin (siderophores), ZnuABC (zinc uptake), MntH (manganese transporter), SodCI (Cu/Zn-SOD)]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 1 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Salmonella Typhimurium NiFe hydrogenase iron siderophore macrophage"
 wikipedia_differentiation: "Four distinct NiFe-hydrogenases with triple mutant 100% avirulence data plus salmochelin and ZnuABC metal acquisition systems"
 conditions_enriched_in: [salmonellosis, typhoid-fever]
@@ -23,21 +26,21 @@ pathogenic_potential: obligate
 
 # Salmonella enterica serovar Typhimurium
 
-A Gram-negative enteric pathogen that possesses **four distinct [NiFe] hydrogenases** -- the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is **100% avirulent** in mouse typhoid models, making nickel-dependent hydrogen metabolism (via [[nife-hydrogenase]]) a central pillar of Salmonella virulence.
+A Gram-negative enteric pathogen that possesses four distinct [NiFe] hydrogenases -- the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is 100% avirulent in mouse typhoid models, making nickel-dependent hydrogen metabolism (via [[nife-hydrogenase]]) a central pillar of Salmonella virulence.
 
 ## Metal-Dependent Virulence Factors
 
 ### [NiFe] Hydrogenases -- The Core of Ni-Dependent Virulence
 *S.* Typhimurium encodes four distinct [NiFe] hydrogenases, each with different roles [[maier-2019-nickel-microbial-pathogenesis]]:
 
-1. **Hya (hydrogenase-1)**: membrane-bound, H2-uptake. Contributes to respiratory H2 oxidation.
-2. **Hyb (hydrogenase-2)**: membrane-bound, H2-uptake. **Most important for virulence**. Primary contributor to macrophage survival and systemic infection.
-3. **Hyc (hydrogenase-3)**: cytoplasmic, part of the formate hydrogenlyase (FHL) complex. Produces H2 under fermentative conditions. Likely important for anaerobic gut survival.
-4. **Hyd (hydrogenase-4)**: second FHL-associated hydrogenase.
+1. Hya (hydrogenase-1): membrane-bound, H2-uptake. Contributes to respiratory H2 oxidation.
+2. Hyb (hydrogenase-2): membrane-bound, H2-uptake. Most important for virulence. Primary contributor to macrophage survival and systemic infection.
+3. Hyc (hydrogenase-3): cytoplasmic, part of the formate hydrogenlyase (FHL) complex. Produces H2 under fermentative conditions. Likely important for anaerobic gut survival.
+4. Hyd (hydrogenase-4): second FHL-associated hydrogenase.
 
 ### Avirulence of Hydrogenase Mutants
-- Triple mutant (**DeltahyaDeltahybDeltahyd**): **100% survival in a mouse typhoid fever model** -- completely avirulent [[maier-2019-nickel-microbial-pathogenesis]].
-- This demonstrates that H2 metabolism is not merely advantageous but **essential** for Salmonella systemic virulence.
+- Triple mutant (DeltahyaDeltahybDeltahyd): 100% survival in a mouse typhoid fever model -- completely avirulent [[maier-2019-nickel-microbial-pathogenesis]].
+- This demonstrates that H2 metabolism is not merely advantageous but essential for Salmonella systemic virulence.
 - Hyb is the single most important hydrogenase: Hyb mutants alone show significant attenuation.
 
 ### Hydrogenase Function in Macrophage Survival
@@ -46,20 +49,20 @@ A Gram-negative enteric pathogen that possesses **four distinct [NiFe] hydrogena
 - This H2-powered energy source allows survival in the hostile intracellular environment where carbon sources are scarce.
 
 ### Fe-Dependent Systems
-- **Enterobactin**: primary siderophore for iron acquisition in iron-limited host environments.
-- **Salmochelin**: glycosylated enterobactin derivative that evades host lipocalin-2 (which sequesters enterobactin).
-- **SitABCD**: Mn/Fe ABC transporter required for full virulence.
-- **Fur regulon**: iron-responsive regulation of virulence genes.
+- Enterobactin: primary siderophore for iron acquisition in iron-limited host environments.
+- Salmochelin: glycosylated enterobactin derivative that evades host lipocalin-2 (which sequesters enterobactin).
+- SitABCD: Mn/Fe ABC transporter required for full virulence.
+- Fur regulon: iron-responsive regulation of virulence genes.
 
 ## Metal Acquisition Systems
 
 ### Nickel Import
-- **NikABCDE**: ABC-type nickel transporter homologous to the *E. coli* system.
+- NikABCDE: ABC-type nickel transporter homologous to the *E. coli* system.
 - Nickel import is essential for metalation of all four hydrogenase active sites.
 - Nickel import likely upregulated during intracellular infection to support hydrogenase-dependent energy generation.
 
 ### Hydrogenase Maturation
-- **HypABCDEF** accessory proteins: required for [NiFe] active site assembly in all four hydrogenases.
+- HypABCDEF accessory proteins: required for [NiFe] active site assembly in all four hydrogenases.
 - The maturation machinery must supply nickel to four separate enzyme complexes -- a significant metabolic investment reflecting the importance of H2 metabolism.
 
 ### Iron Acquisition
@@ -68,18 +71,18 @@ A Gram-negative enteric pathogen that possesses **four distinct [NiFe] hydrogena
 
 ## Nutritional Immunity Evasion
 
-- **Host calprotectin**: released by neutrophils at gut infection sites; sequesters Zn and Mn (and likely Ni).
-- **Lipocalin-2**: sequesters enterobactin; *S.* Typhimurium evades this with salmochelin.
-- **NRAMP1 (SLC11A1)**: macrophage phagosomal metal exporter. Restricts Fe, Mn, and Ni availability within the SCV. NRAMP1-deficient mice are highly susceptible to Salmonella, demonstrating the importance of metal restriction.
+- Host calprotectin: released by neutrophils at gut infection sites; sequesters Zn and Mn (and likely Ni).
+- Lipocalin-2: sequesters enterobactin; *S.* Typhimurium evades this with salmochelin.
+- NRAMP1 (SLC11A1): macrophage phagosomal metal exporter. Restricts Fe, Mn, and Ni availability within the SCV. NRAMP1-deficient mice are highly susceptible to Salmonella, demonstrating the importance of metal restriction.
 - *S.* Typhimurium counters NRAMP1 by upregulating high-affinity metal transporters and relying on H2 as an alternative energy source.
 
 ## Disease Associations
 
-- **Gastroenteritis** (non-typhoidal salmonellosis): most common manifestation in humans
-- **Typhoid-like systemic disease** in mice (model for *S.* Typhi typhoid fever)
-- **Bacteremia** in immunocompromised patients (HIV/AIDS, sickle cell)
-- **Osteomyelitis** (especially in sickle cell disease)
-- **Reactive arthritis** (post-infection complication)
+- Gastroenteritis (non-typhoidal salmonellosis): most common manifestation in humans
+- Typhoid-like systemic disease in mice (model for *S.* Typhi typhoid fever)
+- Bacteremia in immunocompromised patients (HIV/AIDS, sickle cell)
+- Osteomyelitis (especially in sickle cell disease)
+- Reactive arthritis (post-infection complication)
 
 ## Connection to Environmental Metal Exposure
 

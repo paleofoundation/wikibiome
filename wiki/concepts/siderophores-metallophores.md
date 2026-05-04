@@ -24,13 +24,13 @@ Iron siderophores are the archetypal metal-scavenging molecules. Virtually all b
 
 ### Major Classes
 
-- **Enterobactin**: Produced by *E. coli* and Enterobacteriaceae. The strongest known Fe3+ chelator (Kd ~10^-49 M). Detected in urine during UTI. The host counters with siderocalin (lipocalin-2), which binds enterobactin to prevent bacterial iron uptake [[patil-2021-infection-metallomics-critical-care]].
-- **Pyoverdine (PVD)**: The fluorescent siderophore of *[[pseudomonas-aeruginosa]]*. Chelates Fe3+ with extremely high affinity. Iron is efficiently transported into the cell via the TonB-dependent FpvA receptor. Also chelates Al3+, Co2+, Cu2+, Eu3+, Ni2+, Pb2+, Tb3+, and Zn2+ extracellularly, but only iron is efficiently imported [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
-- **Pyochelin (PCH)**: The secondary siderophore of *P. aeruginosa*. Lower Fe affinity than pyoverdine. Transported via FptA. Chelates Al3+, Co2+, Cu2+, Ni2+, Pb2+, and Zn2+ [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
-- **Staphyloferrin A and B**: Produced by *[[staphylococcus-aureus]]*. Essential for virulence; inactivation of siderophore production reduces colony recovery from infected organs. *S. aureus* preferentially uses heme (via the Isd system) but requires siderophores when heme is unavailable [[cassat-2012-metal-acquisition-staphylococcus-aureus]].
-- **Yersiniabactin (Ybt)**: Originally characterized in *Yersinia pestis*. A polyketide-nonribosomal peptide siderophore. Binds Fe3+ for classical siderophore function but also has important non-iron metal roles (see below) [[patil-2021-infection-metallomics-critical-care]].
-- **Mycobactins and carboxymycobactins**: Produced by *[[mycobacterium-tuberculosis|M. tuberculosis]]*. Mycobactins are hydrophobic (cell-associated); carboxymycobactins are hydrophilic (secreted). Species-specific side chain variations enable diagnostic identification [[patil-2021-infection-metallomics-critical-care]].
-- **Fungal siderophores**: *Aspergillus fumigatus* produces TAFC (triacetylfusarinine C), ferricrocin, and coprogen. TAFC is detectable in patient urine within 4.5 hours of inoculation in animal models [[patil-2021-infection-metallomics-critical-care]].
+- Enterobactin: Produced by *E. coli* and Enterobacteriaceae. The strongest known Fe3+ chelator (Kd ~10^-49 M). Detected in urine during UTI. The host counters with siderocalin (lipocalin-2), which binds enterobactin to prevent bacterial iron uptake [[patil-2021-infection-metallomics-critical-care]].
+- Pyoverdine (PVD): The fluorescent siderophore of *[[pseudomonas-aeruginosa]]*. Chelates Fe3+ with extremely high affinity. Iron is efficiently transported into the cell via the TonB-dependent FpvA receptor. Also chelates Al3+, Co2+, Cu2+, Eu3+, Ni2+, Pb2+, Tb3+, and Zn2+ extracellularly, but only iron is efficiently imported [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
+- Pyochelin (PCH): The secondary siderophore of *P. aeruginosa*. Lower Fe affinity than pyoverdine. Transported via FptA. Chelates Al3+, Co2+, Cu2+, Ni2+, Pb2+, and Zn2+ [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
+- Staphyloferrin A and B: Produced by *[[staphylococcus-aureus]]*. Essential for virulence; inactivation of siderophore production reduces colony recovery from infected organs. *S. aureus* preferentially uses heme (via the Isd system) but requires siderophores when heme is unavailable [[cassat-2012-metal-acquisition-staphylococcus-aureus]].
+- Yersiniabactin (Ybt): Originally characterized in *Yersinia pestis*. A polyketide-nonribosomal peptide siderophore. Binds Fe3+ for classical siderophore function but also has important non-iron metal roles (see below) [[patil-2021-infection-metallomics-critical-care]].
+- Mycobactins and carboxymycobactins: Produced by *[[mycobacterium-tuberculosis|M. tuberculosis]]*. Mycobactins are hydrophobic (cell-associated); carboxymycobactins are hydrophilic (secreted). Species-specific side chain variations enable diagnostic identification [[patil-2021-infection-metallomics-critical-care]].
+- Fungal siderophores: *Aspergillus fumigatus* produces TAFC (triacetylfusarinine C), ferricrocin, and coprogen. TAFC is detectable in patient urine within 4.5 hours of inoculation in animal models [[patil-2021-infection-metallomics-critical-care]].
 
 ## Nickelophores: The Newer Story
 
@@ -61,13 +61,13 @@ A key insight from recent work is that metallophores serve functions beyond nutr
 
 ### Extracellular Toxic Metal Sequestration
 
-Braud et al. (2010) demonstrated that pyoverdine and pyochelin protect *P. aeruginosa* from metal toxicity by chelating toxic metals **extracellularly**, preventing their diffusion into the cell [[braud-2010-siderophores-pseudomonas-metal-tolerance]]:
+Braud et al. (2010) demonstrated that pyoverdine and pyochelin protect *P. aeruginosa* from metal toxicity by chelating toxic metals extracellularly, preventing their diffusion into the cell [[braud-2010-siderophores-pseudomonas-metal-tolerance]]:
 
 - Siderophore-deficient mutants (PAD07) were significantly more sensitive to Cu2+, Ni2+, Co2+, Ga3+, and Sn2+ toxicity.
 - Adding purified PVD or PCH to growth medium restored metal tolerance.
 - Cu2+ and Ni2+ specifically induced PVD production by 290% and 380% respectively -- a defensive response.
 - Only iron is efficiently imported via siderophore uptake pathways; other metals are chelated but excluded from the cell.
-- This represents a fundamentally different function: metallophores as **extracellular shields** against metal toxicity, not just nutrient scavengers.
+- This represents a fundamentally different function: metallophores as extracellular shields against metal toxicity, not just nutrient scavengers.
 
 ### Yersiniabactin and Copper Resistance
 
@@ -81,18 +81,18 @@ Braud et al. (2010) demonstrated that pyoverdine and pyochelin protect *P. aerug
 
 The "infection metallomics" platform uses mass spectrometry to detect microbial metallophores in clinical samples as specific, sensitive, non-invasive biomarkers of invasive infectious disease [[patil-2021-infection-metallomics-critical-care]]:
 
-- **Lung infections**: TAFC detectable in serum and urine of aspergillosis patients; real-time tracking of fungal infection burden. Superior to galactomannan (current standard) in sensitivity.
-- **Urinary tract infections**: Siderocalin elevation, enterobactin detection, and yersiniabactin-Cu complexes in urine.
-- **CNS infections**: Metallophore imaging could track pathogen routing across the blood-brain barrier.
-- **Analytical methods**: LC-ESI-MS, MALDI-MS with isotope data filtering to selectively detect metal-containing species; FTICR for unequivocal identification.
-- **Key advantage**: Can discriminate invasive disease from benign colonization based on metallophore production patterns -- a critical clinical distinction in ICU settings.
+- Lung infections: TAFC detectable in serum and urine of aspergillosis patients; real-time tracking of fungal infection burden. Superior to galactomannan (current standard) in sensitivity.
+- Urinary tract infections: Siderocalin elevation, enterobactin detection, and yersiniabactin-Cu complexes in urine.
+- CNS infections: Metallophore imaging could track pathogen routing across the blood-brain barrier.
+- Analytical methods: LC-ESI-MS, MALDI-MS with isotope data filtering to selectively detect metal-containing species; FTICR for unequivocal identification.
+- Key advantage: Can discriminate invasive disease from benign colonization based on metallophore production patterns -- a critical clinical distinction in ICU settings.
 
 ### Metallophore-Based Drug Targets
 
-- **Trojan horse antibiotics**: Siderophore-antibiotic conjugates exploit pathogen iron transport to deliver drugs directly into the cell (e.g., cefiderocol, a siderophore-cephalosporin).
-- **Metallophore biosynthesis inhibitors**: Blocking siderophore production could disarm pathogens without direct killing, reducing selection for resistance.
-- **Nickel chelation therapy**: Aspergillomarasmine A and similar agents could sequester nickel from pathogen enzymes, an anti-virulence strategy proposed for NEC prevention [[pendergrass-2026-nickel-nec-preterm-gut]].
-- **Siderocalin mimetics**: Synthetic molecules that mimic the host's siderophore-neutralizing protein lipocalin-2.
+- Trojan horse antibiotics: Siderophore-antibiotic conjugates exploit pathogen iron transport to deliver drugs directly into the cell (e.g., cefiderocol, a siderophore-cephalosporin).
+- Metallophore biosynthesis inhibitors: Blocking siderophore production could disarm pathogens without direct killing, reducing selection for resistance.
+- Nickel chelation therapy: Aspergillomarasmine A and similar agents could sequester nickel from pathogen enzymes, an anti-virulence strategy proposed for NEC prevention [[pendergrass-2026-nickel-nec-preterm-gut]].
+- Siderocalin mimetics: Synthetic molecules that mimic the host's siderophore-neutralizing protein lipocalin-2.
 
 ### Proposed NEC Biomarkers
 
@@ -102,16 +102,16 @@ Fecal urease activity, ammonia levels, and stool nickel content could serve as e
 
 Siderophore-producing pathogens are especially prominent in iron-dysregulated conditions:
 
-- **[[endometriosis]]** -- Dysbiotic E. coli overproduces enterobactin in response to elevated tissue iron and heme; siderophore activity drives local inflammation and Fe2+ sequestration, triggering hepcidin elevation.
-- **[[inflammatory-bowel-disease]]** -- Dysbiotic bacteria switch to high siderophore production under iron starvation; this creates a vicious cycle where host iron withholding paradoxically favors pathogenic siderophore-producing taxa.
-- **Cystic fibrosis** -- P. aeruginosa lung biofilms rely on pyoverdine-mediated iron acquisition; pyoverdine production correlates with disease severity.
-- **Urinary tract infection** -- Uropathogenic E. coli produce enterobactin and aerobactin; siderophore activity is required for virulence.
-- **Bloodstream infection** -- During sepsis, host [[hepcidin]] elevation and [[lipocalin-2]] induction are part of innate immunity; pathogens that survive have superior siderophore-iron acquisition.
+- [[endometriosis]] -- Dysbiotic E. coli overproduces enterobactin in response to elevated tissue iron and heme; siderophore activity drives local inflammation and Fe2+ sequestration, triggering hepcidin elevation.
+- [[inflammatory-bowel-disease]] -- Dysbiotic bacteria switch to high siderophore production under iron starvation; this creates a vicious cycle where host iron withholding paradoxically favors pathogenic siderophore-producing taxa.
+- Cystic fibrosis -- P. aeruginosa lung biofilms rely on pyoverdine-mediated iron acquisition; pyoverdine production correlates with disease severity.
+- Urinary tract infection -- Uropathogenic E. coli produce enterobactin and aerobactin; siderophore activity is required for virulence.
+- Bloodstream infection -- During sepsis, host [[hepcidin]] elevation and [[lipocalin-2]] induction are part of innate immunity; pathogens that survive have superior siderophore-iron acquisition.
 
 ## Secondary Metal Regulation of Siderophore Production
 
-- **Zinc and manganese** regulate siderophore synthase gene expression via metal-sensing transcription factors (Zur for zinc, MntR for manganese). Dysbiotic E. coli upregulate enterobactin synthesis when zinc is depleted.
-- **Copper** -- Some bacteria produce copper-chelating siderophore-like molecules (cuproines) to manage copper toxicity; copper stress indirectly drives iron siderophore production.
+- Zinc and manganese regulate siderophore synthase gene expression via metal-sensing transcription factors (Zur for zinc, MntR for manganese). Dysbiotic E. coli upregulate enterobactin synthesis when zinc is depleted.
+- Copper -- Some bacteria produce copper-chelating siderophore-like molecules (cuproines) to manage copper toxicity; copper stress indirectly drives iron siderophore production.
 
 ## Key Sources
 

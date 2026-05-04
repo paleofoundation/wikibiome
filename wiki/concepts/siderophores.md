@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Siderophores
 
-**Siderophores** are small, high-affinity iron-chelating molecules secreted by bacteria, fungi, and some plants to scavenge ferric iron (Fe3+) from their environment. In the context of infection, siderophores are the molecular weapons pathogens deploy to break through [[nutritional-immunity]] -- the host strategy of starving invaders of essential metals. The evolutionary arms race between siderophore-producing pathogens and host counter-defenses (like [[lipocalin-2]], [[lactoferrin]], and [[transferrin]]) is one of the most ancient and consequential battles in biology.
+Siderophores are small, high-affinity iron-chelating molecules secreted by bacteria, fungi, and some plants to scavenge ferric iron (Fe3+) from their environment. In the context of infection, siderophores are the molecular weapons pathogens deploy to break through [[nutritional-immunity]] -- the host strategy of starving invaders of essential metals. The evolutionary arms race between siderophore-producing pathogens and host counter-defenses (like [[lipocalin-2]], [[lactoferrin]], and [[transferrin]]) is one of the most ancient and consequential battles in biology.
 
 For the broader story of metal-scavenging molecules including nickelophores and dual-function metallophores, see [[siderophores-metallophores]].
 
@@ -28,22 +28,22 @@ This creates a direct link to disease: organisms that produce the most effective
 
 | Siderophore | Producer | Type | Fe3+ Affinity | Notable Feature |
 |---|---|---|---|---|
-| **Enterobactin** | *E. coli*, Enterobacteriaceae | Catecholate | Kd ~10^-49 M (strongest known) | Countered by host [[lipocalin-2]] |
-| **Salmochelin** | *Salmonella*, uropathogenic *E. coli* | Glucosylated catecholate | High | Evades lipocalin-2 binding |
-| **Yersiniabactin** | *Yersinia*, *Klebsiella*, UPEC | Mixed | High | Also binds nickel (dual metallophore) |
-| **Pyoverdine** | *[[pseudomonas-aeruginosa]]* | Hydroxamate/catecholate | Very high | Fluorescent; also chelates Al, Ni, Zn |
-| **Staphyloferrin A/B** | *[[staphylococcus-aureus]]* | Carboxylate | Moderate | Critical when heme unavailable |
-| **Mycobactins** | *M. tuberculosis* | Mixed | High | Species-specific side chains enable diagnostics |
-| **TAFC** | *Aspergillus fumigatus* | Hydroxamate | High | Detectable in patient urine within hours |
+| Enterobactin | *E. coli*, Enterobacteriaceae | Catecholate | Kd ~10^-49 M (strongest known) | Countered by host [[lipocalin-2]] |
+| Salmochelin | *Salmonella*, uropathogenic *E. coli* | Glucosylated catecholate | High | Evades lipocalin-2 binding |
+| Yersiniabactin | *Yersinia*, *Klebsiella*, UPEC | Mixed | High | Also binds nickel (dual metallophore) |
+| Pyoverdine | *[[pseudomonas-aeruginosa]]* | Hydroxamate/catecholate | Very high | Fluorescent; also chelates Al, Ni, Zn |
+| Staphyloferrin A/B | *[[staphylococcus-aureus]]* | Carboxylate | Moderate | Critical when heme unavailable |
+| Mycobactins | *M. tuberculosis* | Mixed | High | Species-specific side chains enable diagnostics |
+| TAFC | *Aspergillus fumigatus* | Hydroxamate | High | Detectable in patient urine within hours |
 
 ## The Host Counter-Attack
 
 The host has evolved multiple counter-siderophore defenses:
 
-- **[[lipocalin-2|Lipocalin-2]]** (siderocalin, NGAL): Binds and neutralizes enterobactin, the most potent bacterial siderophore. However, some pathogens have evolved "stealth siderophores" -- glucosylated variants like salmochelin that evade lipocalin-2 binding [[chairatana-2015-salmochelin-pathogen-selective-killing]].
-- **[[lactoferrin|Lactoferrin]]**: Binds free iron at mucosal surfaces, reducing substrate availability for siderophore loading.
-- **[[hepcidin|Hepcidin]]**: The master regulator of systemic iron; drives iron into macrophages and away from serum during infection, but this creates collateral damage by producing [[iron]]-loaded macrophages that some intracellular pathogens exploit.
-- **[[calprotectin|Calprotectin]]**: Sequesters zinc and manganese rather than iron, but the principle is identical -- metal denial as antimicrobial defense.
+- [[lipocalin-2|Lipocalin-2]] (siderocalin, NGAL): Binds and neutralizes enterobactin, the most potent bacterial siderophore. However, some pathogens have evolved "stealth siderophores" -- glucosylated variants like salmochelin that evade lipocalin-2 binding [[chairatana-2015-salmochelin-pathogen-selective-killing]].
+- [[lactoferrin|Lactoferrin]]: Binds free iron at mucosal surfaces, reducing substrate availability for siderophore loading.
+- [[hepcidin|Hepcidin]]: The master regulator of systemic iron; drives iron into macrophages and away from serum during infection, but this creates collateral damage by producing [[iron]]-loaded macrophages that some intracellular pathogens exploit.
+- [[calprotectin|Calprotectin]]: Sequesters zinc and manganese rather than iron, but the principle is identical -- metal denial as antimicrobial defense.
 
 ## The Siderophore as Achilles' Heel
 
@@ -65,10 +65,10 @@ Siderophores in patient specimens (urine, serum, sputum) can serve as biomarkers
 
 Siderophore competition is relevant across multiple disease signatures:
 
-- **Inflammatory bowel disease**: Inflammation-driven iron sequestration selects for siderophore-producing Enterobacteriaceae, explaining the characteristic bloom of *E. coli* in IBD [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
-- **Necrotizing enterocolitis**: Siderophore-producing organisms are enriched in NEC microbiomes, and oral iron supplementation in preterm infants may fuel these populations [[devarajalu-2025-nec-gut-microbiota-indian-preterm-shotgun]].
-- **Urinary tract infection**: UPEC's yersiniabactin enables iron and nickel acquisition in the iron-scarce urinary tract.
-- **Sepsis and critical illness**: Siderophore levels in blood correlate with infection severity and pathogen iron-acquisition capacity [[patil-2021-infection-metallomics-covid-era]].
+- Inflammatory bowel disease: Inflammation-driven iron sequestration selects for siderophore-producing Enterobacteriaceae, explaining the characteristic bloom of *E. coli* in IBD [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
+- Necrotizing enterocolitis: Siderophore-producing organisms are enriched in NEC microbiomes, and oral iron supplementation in preterm infants may fuel these populations [[devarajalu-2025-nec-gut-microbiota-indian-preterm-shotgun]].
+- Urinary tract infection: UPEC's yersiniabactin enables iron and nickel acquisition in the iron-scarce urinary tract.
+- Sepsis and critical illness: Siderophore levels in blood correlate with infection severity and pathogen iron-acquisition capacity [[patil-2021-infection-metallomics-covid-era]].
 
 ## Cross-References
 

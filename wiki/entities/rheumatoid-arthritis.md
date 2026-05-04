@@ -37,32 +37,32 @@ The metallomic profile of RA from the [[metal-disease-matrix]] and primary sourc
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[copper|Cu]]** | Elevated (conflicting) | Blood Cu positively correlated with WBC, ESR, platelets, RF-IgM in Taiwan study; RA patients had highest blood Cu among disease groups; BUT Pakistani study found Cu significantly *lower* in RA |
-| **[[zinc|Zn]]** | Not significantly changed | No significant difference in Pakistani study (p=0.22); not a primary marker |
-| **[[lead|Pb]]** | Elevated | 5.73 vs. 2.19 ug/L in Pakistani RA vs. controls (p<0.01); inversely correlated with vitamin D |
-| **[[cadmium|Cd]]** | Elevated | 1.77 vs. 0.28 ug/L in RA vs. controls (p<0.01); positively correlated with DAS28 disease activity; r=-0.901 with vitamin D |
-| **[[chromium|Cr]]** | Elevated | 3.08 vs. 0.26 ug/L in RA vs. controls (p<0.01); generated through ROS-producing Cr(VI)-to-Cr(III) reduction |
-| **[[nickel|Ni]]** | Decreased (conflicting) | Significantly lower in RA (41.19 vs. 112.53 ug/L) in Pakistani study; BUT correlated with ESR in Taiwanese study |
-| **[[arsenic|As]]** | Elevated (metabolites) | Arsenic metabolites were top positive predictors for RA in NHANES ML analysis (SHAP 0.02) |
+| [[copper|Cu]] | Elevated (conflicting) | Blood Cu positively correlated with WBC, ESR, platelets, RF-IgM in Taiwan study; RA patients had highest blood Cu among disease groups; BUT Pakistani study found Cu significantly *lower* in RA |
+| [[zinc|Zn]] | Not significantly changed | No significant difference in Pakistani study (p=0.22); not a primary marker |
+| [[lead|Pb]] | Elevated | 5.73 vs. 2.19 ug/L in Pakistani RA vs. controls (p<0.01); inversely correlated with vitamin D |
+| [[cadmium|Cd]] | Elevated | 1.77 vs. 0.28 ug/L in RA vs. controls (p<0.01); positively correlated with DAS28 disease activity; r=-0.901 with vitamin D |
+| [[chromium|Cr]] | Elevated | 3.08 vs. 0.26 ug/L in RA vs. controls (p<0.01); generated through ROS-producing Cr(VI)-to-Cr(III) reduction |
+| [[nickel|Ni]] | Decreased (conflicting) | Significantly lower in RA (41.19 vs. 112.53 ug/L) in Pakistani study; BUT correlated with ESR in Taiwanese study |
+| [[arsenic|As]] | Elevated (metabolites) | Arsenic metabolites were top positive predictors for RA in NHANES ML analysis (SHAP 0.02) |
 
 ### The Copper Paradox in RA
 
 Copper in RA presents a geographic or population-dependent paradox. In Taiwan, [[yang-2016-copper-farm-soils-rheumatoid-arthritis|Yang et al. (2016)]] found that RA patients living in townships with high soil copper had higher WBC, ESR, DAS28, and platelet counts. Blood copper was the only metal that significantly predicted ESR in multiple regression (beta=0.058, p=0.021). RA patients had the highest blood Cu among all disease groups studied (RA > gout > ankylosing spondylitis > steel workers).
 
-In contrast, [[arshad-2023-heavy-metals-rheumatoid-arthritis|Arshad et al. (2023)]] from Pakistan found copper significantly **lower** in RA patients (p=0.04). This discrepancy may reflect different disease stages, dietary Cu intake, ceruloplasmin responses, or genetic differences in Cu metabolism. Ceruloplasmin is an acute phase reactant that rises with inflammation, carrying the majority of circulating Cu. In early or active inflammation, Cu may be elevated (Taiwan finding); in chronic disease with nutritional depletion, it may be lowered (Pakistan finding).
+In contrast, [[arshad-2023-heavy-metals-rheumatoid-arthritis|Arshad et al. (2023)]] from Pakistan found copper significantly lower in RA patients (p=0.04). This discrepancy may reflect different disease stages, dietary Cu intake, ceruloplasmin responses, or genetic differences in Cu metabolism. Ceruloplasmin is an acute phase reactant that rises with inflammation, carrying the majority of circulating Cu. In early or active inflammation, Cu may be elevated (Taiwan finding); in chronic disease with nutritional depletion, it may be lowered (Pakistan finding).
 
 ### Nickel: An Unexpected Depletion
 
-Unlike most diseases in this wiki where nickel is elevated or unchanged, the Pakistani RA study found nickel significantly **depleted** (41.19 vs. 112.53 ug/L, p<0.01). This is the opposite direction from the matrix entry. The finding may reflect increased nickel utilization by immune cells during chronic inflammation, renal excretion changes, or population-specific dietary patterns. However, the Taiwanese study found Ni correlated with ESR (p=0.040), suggesting nickel may contribute to inflammation even at lower absolute levels.
+Unlike most diseases in this wiki where nickel is elevated or unchanged, the Pakistani RA study found nickel significantly depleted (41.19 vs. 112.53 ug/L, p<0.01). This is the opposite direction from the matrix entry. The finding may reflect increased nickel utilization by immune cells during chronic inflammation, renal excretion changes, or population-specific dietary patterns. However, the Taiwanese study found Ni correlated with ESR (p=0.040), suggesting nickel may contribute to inflammation even at lower absolute levels.
 
 ## Gut Microbiome Connection
 
 While no source pages in this collection directly studied the gut microbiome in RA, the connections are well-established in the broader literature and supported by indirect evidence from these sources:
 
-- **Molecular mimicry and metal modification**: Heavy metals (Pb, Cd) shift Th1/Th2 balance and may trigger autoimmunity through immune system attacks on self-molecules modified by metal binding. This parallels the "molecular mimicry" hypothesis for RA where microbial antigens cross-react with joint proteins.
-- **Gut permeability**: The same metals that disrupt tight junctions in the intestinal epithelium (Pb reduces ZO-1, claudin-1, occludin; Cd reduces ZO-1, ZO-2, JAM-A) are elevated in RA patients. Metal-induced gut barrier dysfunction could promote bacterial translocation and systemic immune activation.
-- **Mucosal immune priming**: RA is increasingly recognized as a "mucosal origin" disease, with anti-CCP antibodies detectable in saliva and gut before joint involvement. Metal-driven mucosal inflammation could prime the autoimmune response at mucosal sites before it targets joints.
-- **VOC-microbiome connection**: [[zhou-2024-urinary-vocs-rheumatoid-arthritis|Zhou et al. (2024)]] found urinary VOC metabolites (AMCC, CEMC, CYMC) associated with RA risk. These metabolites derive from acrolein (combustion product) and acrylonitrile (plastics) -- compounds that also disrupt gut microbiome composition.
+- Molecular mimicry and metal modification: Heavy metals (Pb, Cd) shift Th1/Th2 balance and may trigger autoimmunity through immune system attacks on self-molecules modified by metal binding. This parallels the "molecular mimicry" hypothesis for RA where microbial antigens cross-react with joint proteins.
+- Gut permeability: The same metals that disrupt tight junctions in the intestinal epithelium (Pb reduces ZO-1, claudin-1, occludin; Cd reduces ZO-1, ZO-2, JAM-A) are elevated in RA patients. Metal-induced gut barrier dysfunction could promote bacterial translocation and systemic immune activation.
+- Mucosal immune priming: RA is increasingly recognized as a "mucosal origin" disease, with anti-CCP antibodies detectable in saliva and gut before joint involvement. Metal-driven mucosal inflammation could prime the autoimmune response at mucosal sites before it targets joints.
+- VOC-microbiome connection: [[zhou-2024-urinary-vocs-rheumatoid-arthritis|Zhou et al. (2024)]] found urinary VOC metabolites (AMCC, CEMC, CYMC) associated with RA risk. These metabolites derive from acrolein (combustion product) and acrylonitrile (plastics) -- compounds that also disrupt gut microbiome composition.
 
 ## Environmental Metal Exposure Links
 
@@ -87,9 +87,9 @@ The proposed mechanism: heavy metals interfere with renal activation of vitamin 
 
 [[fan-2024-heavy-metal-arthritis-machine-learning|Fan et al. (2024)]] applied interpretable ML to NHANES data (14,319 participants, 384 RA cases) and identified metal predictors of arthritis risk:
 
-- **RA-positive predictors** (SHAP values): Arsenic metabolites (0.02), molybdenum (0.013), tungsten (0.009), antimony (0.009)
-- **RA-negative predictors**: Mercury (-0.009), cobalt (-0.008)
-- **Best model**: XGBoost achieved AUC 0.81 for binary arthritis classification
+- RA-positive predictors (SHAP values): Arsenic metabolites (0.02), molybdenum (0.013), tungsten (0.009), antimony (0.009)
+- RA-negative predictors: Mercury (-0.009), cobalt (-0.008)
+- Best model: XGBoost achieved AUC 0.81 for binary arthritis classification
 
 The arsenic metabolites as the top RA predictor is notable: arsenic disrupts NF-kB signaling (a central inflammatory pathway in RA) and activates the NLRP3 inflammasome. The apparent protective effect of mercury is unexpected and may reflect confounding by fish consumption (omega-3 fatty acids are anti-inflammatory in RA).
 
@@ -97,22 +97,22 @@ The arsenic metabolites as the top RA predictor is notable: arsenic disrupts NF-
 
 | Intervention | Mechanism | Evidence Level |
 |-------------|-----------|----------------|
-| **Vitamin D supplementation** | Addresses metal-induced VitD deficiency; 50,000 IU every 2 weeks reduced hs-CRP in studies | Clinical trials + mechanistic rationale |
-| **Reducing environmental Cu/Pb/Cd exposure** | Soil-to-food-chain exposure reduction; diet control | Epidemiological (Yang 2016) |
-| **Copper chelation (tetrathiomolybdate)** | Proposed by Yang et al. for RA patients in high-Cu areas | Theoretical; used in Wilson's disease |
-| **Heavy metal screening** | Measure Pb, Cd, Cr alongside standard RA labs; correlate with DAS28 | Emerging research direction |
-| **Selenium supplementation** | Se antagonizes Cd; supports GPx antioxidant defense | Indirect evidence from thyroid/cancer literature |
-| **Probiotics** | Barrier protection; immune modulation; metal detoxification | Limited RA-specific data; strong precedent from MS trials |
+| Vitamin D supplementation | Addresses metal-induced VitD deficiency; 50,000 IU every 2 weeks reduced hs-CRP in studies | Clinical trials + mechanistic rationale |
+| Reducing environmental Cu/Pb/Cd exposure | Soil-to-food-chain exposure reduction; diet control | Epidemiological (Yang 2016) |
+| Copper chelation (tetrathiomolybdate) | Proposed by Yang et al. for RA patients in high-Cu areas | Theoretical; used in Wilson's disease |
+| Heavy metal screening | Measure Pb, Cd, Cr alongside standard RA labs; correlate with DAS28 | Emerging research direction |
+| Selenium supplementation | Se antagonizes Cd; supports GPx antioxidant defense | Indirect evidence from thyroid/cancer literature |
+| Probiotics | Barrier protection; immune modulation; metal detoxification | Limited RA-specific data; strong precedent from MS trials |
 
 ## Open Questions
 
-1. **Copper direction**: Why does Cu appear elevated in Taiwanese but depleted in Pakistani RA patients? Is this ceruloplasmin-mediated, dietary, or genetic?
-2. **Nickel depletion mechanism**: Is Ni depletion in RA a cause (loss of immunoregulatory function?), consequence (increased utilization?), or artifact (population-specific)?
-3. **Metal-VitD intervention**: Can heavy metal reduction (chelation, dietary changes) restore vitamin D levels and improve RA outcomes without exogenous VitD supplementation?
-4. **Soil metal screening**: Should environmental Cu/Cd/Pb levels in residential soil be included in RA risk assessment?
-5. **As metabolites**: Why are arsenic metabolites the strongest ML predictor for RA specifically? Is this through NF-kB, NLRP3, or another pathway?
-6. **Microbiome-RA-metals**: What does the gut microbiome of RA patients living in high-soil-metal areas look like compared to those in clean areas?
-7. **Temporal direction**: Do metal elevations precede RA onset (suggesting causation) or follow from inflammation and medication effects? Prospective cohorts with pre-diagnostic metal measurements are needed.
+1. Copper direction: Why does Cu appear elevated in Taiwanese but depleted in Pakistani RA patients? Is this ceruloplasmin-mediated, dietary, or genetic?
+2. Nickel depletion mechanism: Is Ni depletion in RA a cause (loss of immunoregulatory function?), consequence (increased utilization?), or artifact (population-specific)?
+3. Metal-VitD intervention: Can heavy metal reduction (chelation, dietary changes) restore vitamin D levels and improve RA outcomes without exogenous VitD supplementation?
+4. Soil metal screening: Should environmental Cu/Cd/Pb levels in residential soil be included in RA risk assessment?
+5. As metabolites: Why are arsenic metabolites the strongest ML predictor for RA specifically? Is this through NF-kB, NLRP3, or another pathway?
+6. Microbiome-RA-metals: What does the gut microbiome of RA patients living in high-soil-metal areas look like compared to those in clean areas?
+7. Temporal direction: Do metal elevations precede RA onset (suggesting causation) or follow from inflammation and medication effects? Prospective cohorts with pre-diagnostic metal measurements are needed.
 
 ## Comorbidities
 

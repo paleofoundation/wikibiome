@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Blautia
 
-A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospiraceae]] family that produces [[short-chain-fatty-acids]] and plays a significant role in bile acid metabolism. Key species include *B. obeum*, *B. wexlerae*, *B. hydrogenotrophica*, and *B. producta*. While primarily a beneficial commensal, Blautia shows **context-dependent behavior** with some species enriched in specific disease states.
+A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospiraceae]] family that produces [[short-chain-fatty-acids]] and plays a significant role in bile acid metabolism. Key species include *B. obeum*, *B. wexlerae*, *B. hydrogenotrophica*, and *B. producta*. While primarily a beneficial commensal, Blautia shows context-dependent behavior with some species enriched in specific disease states.
 
 ## SCFA Production and Bile Acid Metabolism
 
@@ -32,13 +32,13 @@ A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospirace
 ## Disease Associations
 
 ### Depleted in Disease
-- **IBD**: *B. obeum* depleted in Crohn's disease and ulcerative colitis; its loss reduces SCFA-mediated mucosal protection.
-- **Colorectal cancer**: reduced in CRC patients alongside other [[lachnospiraceae]] members.
-- **Carotid atherosclerosis**: part of the depleted SCFA-producing network in subclinical CVD [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]].
+- IBD: *B. obeum* depleted in Crohn's disease and ulcerative colitis; its loss reduces SCFA-mediated mucosal protection.
+- Colorectal cancer: reduced in CRC patients alongside other [[lachnospiraceae]] members.
+- Carotid atherosclerosis: part of the depleted SCFA-producing network in subclinical CVD [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]].
 
 ### Enriched in Disease (Context-Dependent)
-- **Multiple sclerosis**: some Blautia species are paradoxically increased in MS patients, potentially reflecting a compensatory shift or pro-inflammatory capacity in the neuroinflammatory context [[bronzini-2023-feeding-gut-microbiome-ms]].
-- **Endometriosis**: *Blautia* abundance altered by hormonal treatment in endometriosis patients, suggesting sensitivity to estrogen-modulating therapies [[svensson-2021-endometriosis-gut-microbiota-associations]].
+- Multiple sclerosis: some Blautia species are paradoxically increased in MS patients, potentially reflecting a compensatory shift or pro-inflammatory capacity in the neuroinflammatory context [[bronzini-2023-feeding-gut-microbiome-ms]].
+- Endometriosis: *Blautia* abundance altered by hormonal treatment in endometriosis patients, suggesting sensitivity to estrogen-modulating therapies [[svensson-2021-endometriosis-gut-microbiota-associations]].
 
 ## Role in Gut Ecosystem
 
@@ -55,9 +55,9 @@ A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospirace
 
 ## Key Metabolites
 
-- **Acetate** -- primary fermentation product; substrate for butyrate producers.
-- **Bile acid derivatives** -- BSH-mediated deconjugation and secondary bile acid production.
-- **Hydrogen consumption** -- acetogenic species convert H2/CO2 to acetate, regulating gut gas homeostasis.
+- Acetate -- primary fermentation product; substrate for butyrate producers.
+- Bile acid derivatives -- BSH-mediated deconjugation and secondary bile acid production.
+- Hydrogen consumption -- acetogenic species convert H2/CO2 to acetate, regulating gut gas homeostasis.
 
 ## Key Sources
 

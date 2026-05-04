@@ -4,30 +4,36 @@ type: entity
 subtype: metal
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [barras-2018-silver-antibiotic-synergy-mismetallation, godoy-gallardo-2021-antibacterial-metal-ions-nanoparticles-tissue-engineering, do-carmo-2023-metal-nanoparticles-candida-review]
-source_count: 3
+last_substantive_update: 2026-04-22
+sources:
+  - do-carmo-2023-metal-nanoparticles-candida-review
+  - ikhazuagbe-2025-gallium-nanoparticles-antimicrobial
+  - godoy-gallardo-2021-antibacterial-metal-ions-nanoparticles-tissue-engineering
+  - barras-2018-silver-antibiotic-synergy-mismetallation
+  - wales-2015-co-selection-resistance-foodborne-pathogens
+  - van-syoc-2022-metformin-gut-microbiome-broiler-hens
+  - brylinski-2025-trace-elements-thyroid-diseases
+  - briffa-2020-heavy-metal-pollution-environment-toxicology
+source_count: 8
 tags: [antimicrobial-metal, mis-metallation, iron-sulfur-clusters, antibiotic-synergy, nanoparticles, non-essential-metal]
 seo_target: "silver antimicrobial bacteria iron sulfur cluster mis-metallation"
 wikipedia_differentiation: "Mechanistic depth on silver's Fe-S cluster targeting as primary killing mechanism (not ROS), silver-aminoglycoside synergy through PMF bypass, and silver as paradigmatic mis-metallation agent -- connections to WikiBiome's broader metal toxicity framework that Wikipedia does not make"
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 3 sources, minimum 5 required"
 ---
 
 # Silver (Ag)
 
-A non-essential metal with a 5,000-year history of antimicrobial use, silver has re-emerged as a critical tool in the post-antibiotic era. What makes silver particularly interesting from a metallomics perspective is not that it kills bacteria -- many metals do -- but **how** it kills them. Silver is the paradigmatic example of [[mis-metallation]] as an antimicrobial mechanism: it destroys bacteria not primarily through reactive oxygen species, as long assumed, but by **displacing iron from iron-sulfur clusters and zinc from zinc-finger proteins**, causing proteome-wide metalloprotein dysfunction [[barras-2018-silver-antibiotic-synergy-mismetallation]].
+A non-essential metal with a 5,000-year history of antimicrobial use, silver has re-emerged as a critical tool in the post-antibiotic era. What makes silver particularly interesting from a metallomics perspective is not that it kills bacteria -- many metals do -- but how it kills them. Silver is the paradigmatic example of [[mis-metallation]] as an antimicrobial mechanism: it destroys bacteria not primarily through reactive oxygen species, as long assumed, but by displacing iron from iron-sulfur clusters and zinc from zinc-finger proteins, causing proteome-wide metalloprotein dysfunction [[barras-2018-silver-antibiotic-synergy-mismetallation]].
 
 ## Mechanism of Antimicrobial Action
 
 ### Fe-S Cluster Disruption (Primary Target)
 
-The most significant mechanistic insight of recent silver research: **Fe-S cluster-containing dehydratases** (e.g., fumarase A) are silver's primary protein targets, not respiratory chain complexes as previously believed [[barras-2018-silver-antibiotic-synergy-mismetallation]].
+The most significant mechanistic insight of recent silver research: Fe-S cluster-containing dehydratases (e.g., fumarase A) are silver's primary protein targets, not respiratory chain complexes as previously believed [[barras-2018-silver-antibiotic-synergy-mismetallation]].
 
-- Ag+ targets the **exposed, solvent-accessible catalytic Fe atom** of [4Fe-4S] clusters in dehydratases, degrading them to [3Fe-4S]
+- Ag+ targets the exposed, solvent-accessible catalytic Fe atom of [4Fe-4S] clusters in dehydratases, degrading them to [3Fe-4S]
 - The damaged clusters can be reactivated by exogenous Fe2+ under reducing conditions, confirming specific iron displacement rather than protein destruction
-- NADH dehydrogenase I (a major respiratory chain Fe-S enzyme) is **not** affected, demonstrating target specificity based on cluster accessibility
+- NADH dehydrogenase I (a major respiratory chain Fe-S enzyme) is not affected, demonstrating target specificity based on cluster accessibility
 - Released free iron then participates in [[fenton-chemistry]], generating secondary oxidative damage
 
 ### Zinc-Finger Protein Disruption
@@ -35,7 +41,7 @@ The most significant mechanistic insight of recent silver research: **Fe-S clust
 Silver substitutes for zinc in zinc-finger proteins due to its high thiophilicity, causing:
 
 - Transcription factor dysfunction (zinc fingers control thousands of genes)
-- Formation of cytosolic dense granules interpreted as **misfolded protein aggregates**
+- Formation of cytosolic dense granules interpreted as misfolded protein aggregates
 - Broad transcriptional dysregulation
 
 ### Membrane Perturbation
@@ -46,22 +52,22 @@ Silver substitutes for zinc in zinc-finger proteins due to its high thiophilicit
 
 ### The ROS Debate
 
-Whether silver **directly** generates ROS is contested [[barras-2018-silver-antibiotic-synergy-mismetallation]]:
+Whether silver directly generates ROS is contested [[barras-2018-silver-antibiotic-synergy-mismetallation]]:
 
-- Silver is **not a redox-active metal** -- it cannot catalyze Fenton chemistry directly
-- However, silver **indirectly** promotes ROS by: (1) releasing free iron from disrupted Fe-S clusters, (2) depleting [[glutathione]] and cysteine (thiol-based antioxidants), and (3) disrupting OxyR sensing
+- Silver is not a redox-active metal -- it cannot catalyze Fenton chemistry directly
+- However, silver indirectly promotes ROS by: (1) releasing free iron from disrupted Fe-S clusters, (2) depleting [[glutathione]] and cysteine (thiol-based antioxidants), and (3) disrupting OxyR sensing
 - The soxS promoter is induced by silver, but OxyR activation is blocked (silver prevents the disulfide bond formation OxyR requires)
 - This resolves the paradox: silver causes oxidative damage without being a Fenton catalyst
 
 ## Silver-Antibiotic Synergy
 
-Silver potentiates aminoglycoside antibiotics by **bypassing the proton motive force (PMF) requirement** for drug entry [[barras-2018-silver-antibiotic-synergy-mismetallation]]:
+Silver potentiates aminoglycoside antibiotics by bypassing the proton motive force (PMF) requirement for drug entry [[barras-2018-silver-antibiotic-synergy-mismetallation]]:
 
 | Antibiotic Class | Synergy Level | Mechanism |
 |-----------------|---------------|-----------|
-| **Aminoglycosides** (gentamicin, kanamycin, tobramycin, streptomycin) | Strong (>10-fold MIC reduction) | Silver bypasses PMF-dependent entry step (EDP-I); aminoglycoside retains translation-dependent membrane damage (EDP-II) |
-| **Quinolones** | Moderate | Membrane permeabilization enhances entry |
-| **Beta-lactams** | Weak | Limited synergy |
+| Aminoglycosides (gentamicin, kanamycin, tobramycin, streptomycin) | Strong (>10-fold MIC reduction) | Silver bypasses PMF-dependent entry step (EDP-I); aminoglycoside retains translation-dependent membrane damage (EDP-II) |
+| Quinolones | Moderate | Membrane permeabilization enhances entry |
+| Beta-lactams | Weak | Limited synergy |
 
 This synergy was confirmed in mutants lacking respiratory complex I/II and Fe-S cluster biosynthesis, definitively demonstrating PMF bypass rather than enhanced respiration.
 
@@ -78,7 +84,7 @@ Silver nanoparticles (AgNPs) combine silver's antimicrobial activity with tunabl
 
 Silver's powerful antimicrobial activity raises important questions about microbiome effects:
 
-- **Dietary silver exposure** from colloidal silver supplements and silver-containing food contact materials may affect commensal gut bacteria
+- Dietary silver exposure from colloidal silver supplements and silver-containing food contact materials may affect commensal gut bacteria
 - Silver's preferential targeting of Fe-S cluster enzymes would disproportionately affect anaerobic bacteria, which depend heavily on Fe-S cluster-containing enzymes for energy metabolism
 - The selective toxicity profile (dehydratases over respiratory complexes) may create predictable shifts in microbial community composition
 

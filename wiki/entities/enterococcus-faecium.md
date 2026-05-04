@@ -24,7 +24,7 @@ platform: wikibiome
 
 ## Overview
 
-***Enterococcus faecium*** is a Gram-positive, facultatively anaerobic bacterium that epitomizes the metal-antibiotic [[co-selection]] problem in modern medicine. As one of the six **ESKAPE** pathogens (the group responsible for the majority of hospital-acquired infections that fail conventional treatment), *E. faecium* is a leading cause of vancomycin-resistant enterococcal (VRE) infections. Its story in the WikiBiome framework is not one of metal-dependent virulence enzymes, but of **resistance and co-selection** — where metal exposure drives antibiotic resistance through shared mobile genetic elements.
+*Enterococcus faecium* is a Gram-positive, facultatively anaerobic bacterium that epitomizes the metal-antibiotic [[co-selection]] problem in modern medicine. As one of the six ESKAPE pathogens (the group responsible for the majority of hospital-acquired infections that fail conventional treatment), *E. faecium* is a leading cause of vancomycin-resistant enterococcal (VRE) infections. Its story in the WikiBiome framework is not one of metal-dependent virulence enzymes, but of resistance and co-selection — where metal exposure drives antibiotic resistance through shared mobile genetic elements.
 
 ## Metal Dependencies
 
@@ -34,9 +34,9 @@ platform: wikibiome
 
 ### Cadmium Response
 
-*E. faecium* CX 2-6 responds to cadmium stress with **massive transcriptional reprogramming**: 1,152 differentially expressed genes — fully 47% of its genome — are activated under Cd exposure [[cheng-2021-cadmium-enterococcus-metabolic]]. The response includes:
+*E. faecium* CX 2-6 responds to cadmium stress with massive transcriptional reprogramming: 1,152 differentially expressed genes — fully 47% of its genome — are activated under Cd exposure [[cheng-2021-cadmium-enterococcus-metabolic]]. The response includes:
 
-- Upregulation of **cadA** (P-type ATPase cadmium efflux pump)
+- Upregulation of cadA (P-type ATPase cadmium efflux pump)
 - Massive EPS (exopolysaccharide) production increase — biofilm matrix that sequesters metals
 - Stress response pathway activation
 - Metabolic restructuring to compensate for metal-enzyme interference
@@ -45,7 +45,7 @@ platform: wikibiome
 
 The most clinically alarming feature of *E. faecium* is the physical co-location of metal and antibiotic resistance on transferable plasmids:
 
-- **tcrB** (copper resistance) is linked to **vanA** (vancomycin resistance) and **ermB** (macrolide resistance) on a single mobile element
+- tcrB (copper resistance) is linked to vanA (vancomycin resistance) and ermB (macrolide resistance) on a single mobile element
 - Copper exposure alone — such as from hospital copper surfaces intended to reduce infection — selects for this entire resistance cassette [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]
 - This means that environmental metal contamination in hospital water, surfaces, or soil can drive the emergence of multi-drug resistant Enterococcus without any antibiotic exposure
 
@@ -53,9 +53,9 @@ The most clinically alarming feature of *E. faecium* is the physical co-location
 
 In the healthy gut, *E. faecium* is a minor community member. Its ecological significance emerges under disrupted conditions:
 
-- **Post-antibiotic expansion** — Inherent resistance to many antibiotics allows rapid colonization of the depleted niche
-- **Hospital environment adaptation** — Survives on dry surfaces for weeks; tolerates alcohol-based disinfectants; persists through cleaning protocols
-- **Biofilm formation** — EPS production under metal stress creates protective communities that resist both antimicrobials and host immune clearance
+- Post-antibiotic expansion — Inherent resistance to many antibiotics allows rapid colonization of the depleted niche
+- Hospital environment adaptation — Survives on dry surfaces for weeks; tolerates alcohol-based disinfectants; persists through cleaning protocols
+- Biofilm formation — EPS production under metal stress creates protective communities that resist both antimicrobials and host immune clearance
 
 ## Conditions Associated
 

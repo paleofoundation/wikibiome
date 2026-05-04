@@ -26,7 +26,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Mediterraneibacter
 
-A Gram-positive, obligate anaerobic genus within the family [[lachnospiraceae]] (phylum Firmicutes) that was **recently reclassified from *Ruminococcus*** based on phylogenomic evidence. The key species *Mediterraneibacter faecis* (formerly *Ruminococcus gnavus* clade relatives) is a common gut commensal, but the genus has gained clinical attention through two distinct findings: its enrichment in **PCOS fecal microbiota** that causally transfers the PCOS phenotype via FMT, and its **rapid cycling with dietary changes** that mirrors LDL cholesterol fluctuations.
+A Gram-positive, obligate anaerobic genus within the family [[lachnospiraceae]] (phylum Firmicutes) that was recently reclassified from *Ruminococcus* based on phylogenomic evidence. The key species *Mediterraneibacter faecis* (formerly *Ruminococcus gnavus* clade relatives) is a common gut commensal, but the genus has gained clinical attention through two distinct findings: its enrichment in PCOS fecal microbiota that causally transfers the PCOS phenotype via FMT, and its rapid cycling with dietary changes that mirrors LDL cholesterol fluctuations.
 
 ## Taxonomy
 
@@ -37,14 +37,14 @@ A Gram-positive, obligate anaerobic genus within the family [[lachnospiraceae]] 
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Standard iron-sulfur cluster requirements for anaerobic Lachnospiraceae metabolism.
 - Ferredoxin-dependent oxidoreductases support the fermentative energy generation characteristic of the family.
 
 ## Key Enzymes and Metabolic Features
 
-- **Bile salt hydrolase (BSH)**: *Mediterraneibacter* species can deconjugate bile salts, influencing bile acid composition and cholesterol metabolism. This function connects the genus to the gut-liver axis and cardiovascular health.
-- **SCFA synthesis enzymes**: As a Lachnospiraceae member, *Mediterraneibacter* participates in short-chain fatty acid production, though its contribution relative to other family members (Roseburia, Blautia, Coprococcus) remains to be quantified.
+- Bile salt hydrolase (BSH): *Mediterraneibacter* species can deconjugate bile salts, influencing bile acid composition and cholesterol metabolism. This function connects the genus to the gut-liver axis and cardiovascular health.
+- SCFA synthesis enzymes: As a Lachnospiraceae member, *Mediterraneibacter* participates in short-chain fatty acid production, though its contribution relative to other family members (Roseburia, Blautia, Coprococcus) remains to be quantified.
 
 ## Ecological Role
 
@@ -52,15 +52,15 @@ A Gram-positive, obligate anaerobic genus within the family [[lachnospiraceae]] 
 *Mediterraneibacter* is a moderate-abundance member of the gut microbiota in individuals consuming varied diets. Its Lachnospiraceae family membership places it among the health-associated SCFA producers, though its specific functional contributions are less well characterized than those of [[roseburia]] or [[blautia]].
 
 ### Dietary Responsiveness
-One of the most striking findings about *Mediterraneibacter* is its **rapid response to dietary changes**. Repeatedly adopting and abandoning a healthy dietary pattern leads to cycling in *Mediterraneibacter* (and [[collinsella]]) abundance, which is directly mirrored by cycling in LDL-C and total cholesterol [[zhang-2025-gut-microbiota-cvd-mini-review]]. This suggests:
+One of the most striking findings about *Mediterraneibacter* is its rapid response to dietary changes. Repeatedly adopting and abandoning a healthy dietary pattern leads to cycling in *Mediterraneibacter* (and [[collinsella]]) abundance, which is directly mirrored by cycling in LDL-C and total cholesterol [[zhang-2025-gut-microbiota-cvd-mini-review]]. This suggests:
 - *Mediterraneibacter* abundance is acutely sensitive to diet composition
 - The genus's bile salt hydrolase activity may mediate the cholesterol-microbiome link
-- The molecular benefits of a healthy diet are **transient** and dependent on sustained dietary habits, partly because microbial mediators like *Mediterraneibacter* revert quickly
+- The molecular benefits of a healthy diet are transient and dependent on sustained dietary habits, partly because microbial mediators like *Mediterraneibacter* revert quickly
 
 ## Conditions Associated
 
 ### Polycystic Ovary Syndrome (Enriched -- Causal Evidence)
-*Mediterraneibacter* is enriched in PCOS fecal microbiota, and FMT from PCOS patients to germ-free mice **recapitulates the full PCOS phenotype** (insulin resistance, ovarian dysfunction, obese-like phenotype) [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. The transferred microbiome was enriched in *Mediterraneibacter*, [[phocaeicola]], [[oscillospiraceae]], and *Lawsonibacter*. Whether *Mediterraneibacter* is a driver or passenger in PCOS pathogenesis remains to be determined.
+*Mediterraneibacter* is enriched in PCOS fecal microbiota, and FMT from PCOS patients to germ-free mice recapitulates the full PCOS phenotype (insulin resistance, ovarian dysfunction, obese-like phenotype) [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. The transferred microbiome was enriched in *Mediterraneibacter*, [[phocaeicola]], [[oscillospiraceae]], and *Lawsonibacter*. Whether *Mediterraneibacter* is a driver or passenger in PCOS pathogenesis remains to be determined.
 
 ### Cardiovascular Risk
 The dietary cycling data linking *Mediterraneibacter* to LDL-C fluctuations [[zhang-2025-gut-microbiota-cvd-mini-review]] suggests a role in cardiovascular risk modulation, though this is observational and mechanism-level evidence is limited.
@@ -72,9 +72,9 @@ The dietary cycling data linking *Mediterraneibacter* to LDL-C fluctuations [[zh
 
 ## Open Questions
 
-1. **Is Mediterraneibacter a driver or passenger in PCOS?** The FMT evidence demonstrates that the PCOS microbiota (including Mediterraneibacter) transfers the phenotype, but single-species colonization experiments would be needed to establish a direct causal role.
-2. **Does the bile salt hydrolase activity of Mediterraneibacter mediate the LDL-C cycling?** BSH activity alters the bile acid pool, which regulates cholesterol absorption and hepatic cholesterol synthesis.
-3. **How does the reclassification affect interpretation of existing Ruminococcus literature?** Many studies reporting "Ruminococcus" in disease associations may actually describe Mediterraneibacter species.
+1. Is Mediterraneibacter a driver or passenger in PCOS? The FMT evidence demonstrates that the PCOS microbiota (including Mediterraneibacter) transfers the phenotype, but single-species colonization experiments would be needed to establish a direct causal role.
+2. Does the bile salt hydrolase activity of Mediterraneibacter mediate the LDL-C cycling? BSH activity alters the bile acid pool, which regulates cholesterol absorption and hepatic cholesterol synthesis.
+3. How does the reclassification affect interpretation of existing Ruminococcus literature? Many studies reporting "Ruminococcus" in disease associations may actually describe Mediterraneibacter species.
 
 ## Cross-References
 

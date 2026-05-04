@@ -40,14 +40,14 @@ Graves' disease (GD) is an autoimmune thyroid disorder characterized by TSH rece
 
 The thyroid contains the highest concentration of [[selenium]] in the body, owing to its dependence on three selenoprotein families:
 
-- **Iodothyronine deiodinases (DIO1, DIO2, DIO3)**: essential for T4 to T3 conversion
-- **Glutathione peroxidases (GPx)**: protect thyrocytes from H2O2 generated during thyroid hormone synthesis
-- **Thioredoxin reductases (TrxR)**: maintain cellular redox balance
+- Iodothyronine deiodinases (DIO1, DIO2, DIO3): essential for T4 to T3 conversion
+- Glutathione peroxidases (GPx): protect thyrocytes from H2O2 generated during thyroid hormone synthesis
+- Thioredoxin reductases (TrxR): maintain cellular redox balance
 
 Selenium deficiency is an independent risk factor for both Graves' disease and Graves' ophthalmopathy [[brock-2015-selenium-thyroid-autoimmunity]]. Key clinical evidence:
 
-- **200 ug Se/day for 6 months** in a double-blind RCT significantly decreased Graves' ophthalmopathy severity, improved quality of life, and prevented disease worsening; benefits persisted after therapy withdrawal [[brock-2015-selenium-thyroid-autoimmunity]]
-- **Se + vitamin D + methimazole** combination resulted in significantly greater FT4 reduction and better quality of life compared to methimazole monotherapy [[brylinski-2025-trace-elements-thyroid-diseases]]
+- 200 ug Se/day for 6 months in a double-blind RCT significantly decreased Graves' ophthalmopathy severity, improved quality of life, and prevented disease worsening; benefits persisted after therapy withdrawal [[brock-2015-selenium-thyroid-autoimmunity]]
+- Se + vitamin D + methimazole combination resulted in significantly greater FT4 reduction and better quality of life compared to methimazole monotherapy [[brylinski-2025-trace-elements-thyroid-diseases]]
 - Se supplementation reduces anti-TPO antibodies in autoimmune thyroiditis (40% reduction in those with levels >1200 IU/mL) [[brock-2015-selenium-thyroid-autoimmunity]]
 - Se protects against [[cadmium]] toxicity by binding Cd and facilitating biliary excretion [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
 - Se has an antagonistic relationship with [[mercury]], providing protective effects when Hg levels are elevated [[kravchenko-2023-thyroid-hormones-minerals-AITD]]
@@ -80,9 +80,9 @@ Selenium deficiency is an independent risk factor for both Graves' disease and G
 
 ### Toxic Metal Thyroid Disruption
 
-- **[[cadmium]]**: inhibits hepatic 5'-monodeiodinase activity, interfering with T4 to T3 conversion; decreases thyroid follicle size and epithelial thickness; induces UGT activity increasing TH metabolism
-- **[[lead]]**: prevents deiodination, reducing T3 while T4 and TSH rise; causes DNA damage in thyroid cells
-- **[[mercury]]**: interferes with TSH production, inhibits TPO; both MeHg and inorganic compounds inhibit Tg iodination
+- [[cadmium]]: inhibits hepatic 5'-monodeiodinase activity, interfering with T4 to T3 conversion; decreases thyroid follicle size and epithelial thickness; induces UGT activity increasing TH metabolism
+- [[lead]]: prevents deiodination, reducing T3 while T4 and TSH rise; causes DNA damage in thyroid cells
+- [[mercury]]: interferes with TSH production, inhibits TPO; both MeHg and inorganic compounds inhibit Tg iodination
 
 ## Gut Microbiome Connection (Thyroid-Gut Axis)
 
@@ -90,25 +90,25 @@ Selenium deficiency is an independent risk factor for both Graves' disease and G
 
 Two independent cohorts (Shanghai and Nanjing) consistently demonstrate [[chen-2021-gut-microbiota-thyroid-graves]] [[yang-2022-intestinal-flora-graves-methimazole]]:
 
-- **Reduced alpha diversity** (Shannon, Simpson, observed OTUs) in untreated GD vs healthy controls [[chen-2021-gut-microbiota-thyroid-graves]]
-- **Enriched in GD**: *Lactobacillus*, *Veillonella*, *Streptococcus*, *Collinsella*, *Bifidobacterium* [[chen-2021-gut-microbiota-thyroid-graves]]
-- **Depleted in GD**: *Phascolarctobacterium*, *Synergistetes*, *Dialister*, *Roseburia* [[chen-2021-gut-microbiota-thyroid-graves]]
-- **Recovery after methimazole treatment**: diversity significantly improves; *Phascolarctobacterium* increases; *Streptococcus*, *Blautia*, *Ruminococcus* decrease [[yang-2022-intestinal-flora-graves-methimazole]]
+- Reduced alpha diversity (Shannon, Simpson, observed OTUs) in untreated GD vs healthy controls [[chen-2021-gut-microbiota-thyroid-graves]]
+- Enriched in GD: *Lactobacillus*, *Veillonella*, *Streptococcus*, *Collinsella*, *Bifidobacterium* [[chen-2021-gut-microbiota-thyroid-graves]]
+- Depleted in GD: *Phascolarctobacterium*, *Synergistetes*, *Dialister*, *Roseburia* [[chen-2021-gut-microbiota-thyroid-graves]]
+- Recovery after methimazole treatment: diversity significantly improves; *Phascolarctobacterium* increases; *Streptococcus*, *Blautia*, *Ruminococcus* decrease [[yang-2022-intestinal-flora-graves-methimazole]]
 
 ### Key Microbiome-Antibody Correlations
 
-- **Synergistetes**: strongly protective -- negatively correlated with TRAb (R=-0.702), TGAb (R=-0.624), TPOAb (R=-0.711)
-- **Phascolarctobacterium**: protective via propionate production -- negatively correlated with TRAb (R=-0.544)
-- **Bifidobacterium**: paradoxically positively correlated with TRAb (R=0.588), TGAb, and TPOAb; confirmed as GD risk factor by Mendelian randomization (OR 1.246)
-- **Lactobacillus**: positively correlated with TRAb (R=0.489) and TPOAb (R=0.607)
-- **Ruminococcus** and **Phascolarctobacterium** abundance changes tracked with TRAb changes during treatment
+- Synergistetes: strongly protective -- negatively correlated with TRAb (R=-0.702), TGAb (R=-0.624), TPOAb (R=-0.711)
+- Phascolarctobacterium: protective via propionate production -- negatively correlated with TRAb (R=-0.544)
+- Bifidobacterium: paradoxically positively correlated with TRAb (R=0.588), TGAb, and TPOAb; confirmed as GD risk factor by Mendelian randomization (OR 1.246)
+- Lactobacillus: positively correlated with TRAb (R=0.489) and TPOAb (R=0.607)
+- Ruminococcus and Phascolarctobacterium abundance changes tracked with TRAb changes during treatment
 
 ### Mendelian Randomization Evidence
 
 [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] identified causal relationships:
 
-- **Protective for GD**: *Ruminiclostridium*9 (OR 0.749), *Victivallis* (OR 0.847), *Butyricimonas* (OR 0.824)
-- **Risk for GD**: *Eubacterium rectale group* (OR 1.305), *Desulfovibrio* (OR 1.216), *Bifidobacterium* (OR 1.246), *Collinsella* (OR 1.301), *Oscillospira* (OR 1.231), *Catenibacterium* (OR 1.331)
+- Protective for GD: *Ruminiclostridium*9 (OR 0.749), *Victivallis* (OR 0.847), *Butyricimonas* (OR 0.824)
+- Risk for GD: *Eubacterium rectale group* (OR 1.305), *Desulfovibrio* (OR 1.216), *Bifidobacterium* (OR 1.246), *Collinsella* (OR 1.301), *Oscillospira* (OR 1.231), *Catenibacterium* (OR 1.331)
 - *Butyricimonas* and *Lachnospira* are protective against both GD and Plummer disease, suggesting shared SCFA-mediated mechanisms
 
 ### IBD-Graves' Disease Connection

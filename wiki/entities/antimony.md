@@ -15,22 +15,22 @@ platform: wikibiome
 
 # Antimony (Sb)
 
-A metalloid that sits in the shadows of better-studied toxic metals like [[lead]], [[cadmium]], and [[mercury]], yet appears with surprising consistency in metallomic studies of endocrine and inflammatory conditions. **Antimony** (symbol Sb, from Latin *stibium*; atomic number 51) exists primarily in trivalent (Sb3+) and pentavalent (Sb5+) oxidation states, with the trivalent form being more toxic and more biologically active. It shares chemical behavior with [[arsenic]], its Group 15 neighbor, including the ability to enter cells through aquaporin channels and interfere with thiol-containing enzymes.
+A metalloid that sits in the shadows of better-studied toxic metals like [[lead]], [[cadmium]], and [[mercury]], yet appears with surprising consistency in metallomic studies of endocrine and inflammatory conditions. Antimony (symbol Sb, from Latin *stibium*; atomic number 51) exists primarily in trivalent (Sb3+) and pentavalent (Sb5+) oxidation states, with the trivalent form being more toxic and more biologically active. It shares chemical behavior with [[arsenic]], its Group 15 neighbor, including the ability to enter cells through aquaporin channels and interfere with thiol-containing enzymes.
 
 ## Biological Relevance
 
 Antimony has no known essential biological function. Its toxicological significance arises from three properties:
 
-- **Thiol affinity**: Sb3+ binds sulfhydryl groups on [[glutathione]], cysteine residues, and enzyme active sites, depleting antioxidant reserves and inactivating metal-dependent enzymes -- a mechanism shared with arsenic
-- **Oxidative stress induction**: Antimony exposure generates reactive oxygen species through disruption of mitochondrial electron transport and depletion of GSH reserves [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]
-- **Metal-metal interactions**: Antimony co-occurs with other toxic metals in environmental exposures, making it difficult to isolate its individual effects from the mixture toxicity of multi-metal burdens
+- Thiol affinity: Sb3+ binds sulfhydryl groups on [[glutathione]], cysteine residues, and enzyme active sites, depleting antioxidant reserves and inactivating metal-dependent enzymes -- a mechanism shared with arsenic
+- Oxidative stress induction: Antimony exposure generates reactive oxygen species through disruption of mitochondrial electron transport and depletion of GSH reserves [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]
+- Metal-metal interactions: Antimony co-occurs with other toxic metals in environmental exposures, making it difficult to isolate its individual effects from the mixture toxicity of multi-metal burdens
 
 ## Sources of Exposure
 
-- **Dietary**: Present in infant foods, including baby food preparations in Italy, at levels requiring monitoring [[meli-2024-baby-food-chemical-characterization-italy]]
-- **Industrial**: Antimony trioxide is used as a flame retardant in textiles, plastics, and electronics; occupational exposure occurs in smelting, mining, and manufacturing
-- **Drinking water**: Leaches from PET plastic bottles and some plumbing materials
-- **Ammunition and alloys**: Used in lead alloys for batteries and bullets
+- Dietary: Present in infant foods, including baby food preparations in Italy, at levels requiring monitoring [[meli-2024-baby-food-chemical-characterization-italy]]
+- Industrial: Antimony trioxide is used as a flame retardant in textiles, plastics, and electronics; occupational exposure occurs in smelting, mining, and manufacturing
+- Drinking water: Leaches from PET plastic bottles and some plumbing materials
+- Ammunition and alloys: Used in lead alloys for batteries and bullets
 
 ## Health Effects
 

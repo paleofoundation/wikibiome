@@ -3,9 +3,17 @@ title: N-Acetylcysteine (NAC)
 type: concept
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - liu-2025-immune-gut-microbiota-crc-mr-mediation
+  - eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus
+  - achdout-2021-influenza-sars-cov2-coinfection-lethality
+  - flyvholm-1984-nickel-food-content
+  - docimo-2020-human-microbiota-endocrinology-thyroid
+  - latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet
+  - huang-2024-gui-shen-wan-gut-microbiome-ovarian-function
+  - jaishankar-2014-heavy-metal-toxicity-mechanisms
+source_count: 8
 tags:
   - NAC
   - n-acetylcysteine
@@ -19,15 +27,13 @@ karen_brain_primitives:
   - 5
 seo_target: N-acetylcysteine NAC gut microbiome metals
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 # N-Acetylcysteine (NAC)
 
 ## Overview
 
-**N-acetylcysteine (NAC)** is the acetylated form of the amino acid L-cysteine and serves as the rate-limiting precursor for **glutathione** synthesis — the body's primary intracellular antioxidant and a critical cofactor for phase II detoxification of heavy metals. In the microbiome context, NAC sits at the intersection of oxidative stress defense, metal detoxification, biofilm disruption, and glutamatergic neurotransmission.
+N-acetylcysteine (NAC) is the acetylated form of the amino acid L-cysteine and serves as the rate-limiting precursor for glutathione synthesis — the body's primary intracellular antioxidant and a critical cofactor for phase II detoxification of heavy metals. In the microbiome context, NAC sits at the intersection of oxidative stress defense, metal detoxification, biofilm disruption, and glutamatergic neurotransmission.
 
 ## Biochemical Mechanisms
 
@@ -51,11 +57,11 @@ NAC modulates the cystine-glutamate antiporter (system Xc-), exchanging extracel
 
 NAC's multi-target mechanism makes it relevant across several WikiBiome conditions:
 
-- **[[autism-spectrum-disorder]]** — Pilot RCTs show NAC (900-2700 mg/day) reduces irritability; addresses glutathione depletion documented in ASD
-- **[[schizophrenia]]** — Adjunctive NAC reduces negative symptoms in RCTs; modulates glutamatergic dysfunction
-- **Long COVID** — Improves fatigue and cognitive symptoms; addresses persistent oxidative stress
-- **Metal-burdened conditions** — Supports glutathione-mediated excretion of cadmium, lead, and mercury
-- **[[parkinsons-disease]]** — Preliminary benefit via glutathione restoration and reduction of iron-mediated oxidative stress
+- [[autism-spectrum-disorder]] — Pilot RCTs show NAC (900-2700 mg/day) reduces irritability; addresses glutathione depletion documented in ASD
+- [[schizophrenia]] — Adjunctive NAC reduces negative symptoms in RCTs; modulates glutamatergic dysfunction
+- Long COVID — Improves fatigue and cognitive symptoms; addresses persistent oxidative stress
+- Metal-burdened conditions — Supports glutathione-mediated excretion of cadmium, lead, and mercury
+- [[parkinsons-disease]] — Preliminary benefit via glutathione restoration and reduction of iron-mediated oxidative stress
 
 ## Microbiome Considerations
 

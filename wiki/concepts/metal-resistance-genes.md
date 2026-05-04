@@ -16,18 +16,18 @@ platform: wikibiome
 
 ## Overview
 
-**Metal resistance genes** encode proteins that allow bacteria to survive toxic metal concentrations through efflux pumps, enzymatic detoxification, or sequestration mechanisms. These genes are frequently carried on **mobile genetic elements** (plasmids, transposons, integrative conjugative elements) — the same vehicles that carry antibiotic resistance genes. This physical co-location on shared genetic elements creates the phenomenon of **[[co-selection]]**: exposure to metals selects for antibiotic resistance, and antibiotic exposure selects for metal resistance, even without direct selective pressure from both agents simultaneously.
+Metal resistance genes encode proteins that allow bacteria to survive toxic metal concentrations through efflux pumps, enzymatic detoxification, or sequestration mechanisms. These genes are frequently carried on mobile genetic elements (plasmids, transposons, integrative conjugative elements) — the same vehicles that carry antibiotic resistance genes. This physical co-location on shared genetic elements creates the phenomenon of [[co-selection]]: exposure to metals selects for antibiotic resistance, and antibiotic exposure selects for metal resistance, even without direct selective pressure from both agents simultaneously.
 
 ## Key Metal Resistance Systems
 
 | Gene/System | Metal Target | Mechanism | Notable Carriers |
 |-------------|-------------|-----------|-----------------|
-| **cadA** | Cadmium, zinc | P-type ATPase efflux pump | *Staphylococcus*, [[enterococcus]], [[dysbiosis|listeria-monocytogenes]] |
-| **arsC** / **arsABC** | Arsenic | Arsenate reductase + efflux | Widely distributed; *E. coli*, [[pseudomonas-aeruginosa]] |
-| **merA** / **merB** | Mercury | Mercuric reductase (Hg2+ to Hg0) | *Pseudomonas*, *Serratia*, *Staphylococcus* |
-| **tcrB** | Copper | Copper efflux | [[enterococcus-faecium]] — co-located with vanA and ermB |
-| **czc** operon | Cadmium, zinc, cobalt | Cation-diffusion facilitator efflux | [[pseudomonas-aeruginosa]], *Ralstonia* |
-| **czcD** | Zinc, cadmium | Efflux transporter | *Cupriavidus*, [[clostridioides-difficile]] |
+| cadA | Cadmium, zinc | P-type ATPase efflux pump | *Staphylococcus*, [[enterococcus]], [[dysbiosis|listeria-monocytogenes]] |
+| arsC / arsABC | Arsenic | Arsenate reductase + efflux | Widely distributed; *E. coli*, [[pseudomonas-aeruginosa]] |
+| merA / merB | Mercury | Mercuric reductase (Hg2+ to Hg0) | *Pseudomonas*, *Serratia*, *Staphylococcus* |
+| tcrB | Copper | Copper efflux | [[enterococcus-faecium]] — co-located with vanA and ermB |
+| czc operon | Cadmium, zinc, cobalt | Cation-diffusion facilitator efflux | [[pseudomonas-aeruginosa]], *Ralstonia* |
+| czcD | Zinc, cadmium | Efflux transporter | *Cupriavidus*, [[clostridioides-difficile]] |
 
 ## Co-Selection with Antibiotic Resistance
 
@@ -43,7 +43,7 @@ Wastewater treatment plants, agricultural soils amended with metal-containing fe
 
 ## Metabolic Cost and Compensation
 
-Metal resistance imposes a metabolic burden. [[enterococcus-faecium]] CX 2-6 under cadmium stress reprograms **1,152 genes (47% of its genome)**, massively upregulating EPS production, stress response pathways, and efflux systems [[cheng-2021-cadmium-enterococcus-metabolic]]. This metabolic cost means that in the absence of metal pressure, resistant strains are outcompeted — but in metal-enriched environments (including the dysbiotic gut with elevated luminal metals), resistance provides a decisive competitive advantage.
+Metal resistance imposes a metabolic burden. [[enterococcus-faecium]] CX 2-6 under cadmium stress reprograms 1,152 genes (47% of its genome), massively upregulating EPS production, stress response pathways, and efflux systems [[cheng-2021-cadmium-enterococcus-metabolic]]. This metabolic cost means that in the absence of metal pressure, resistant strains are outcompeted — but in metal-enriched environments (including the dysbiotic gut with elevated luminal metals), resistance provides a decisive competitive advantage.
 
 ## Cross-References
 

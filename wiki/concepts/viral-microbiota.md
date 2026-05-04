@@ -16,9 +16,9 @@ platform: wikibiome
 
 This page serves as a redirect and cross-reference point for the comprehensive [[virome]] concept page, which covers the gut virome, bacteriophage-bacteria interactions, phage therapy, and virome-disease associations in detail.
 
-The term **viral microbiota** emphasizes that viruses -- particularly bacteriophages -- are integral members of the gut microbial community, not merely parasites or incidental passengers. The gut virome is dominated (~90%) by bacteriophages that shape bacterial community composition through selective lysis, horizontal gene transfer, and modulation of bacterial fitness.
+The term viral microbiota emphasizes that viruses -- particularly bacteriophages -- are integral members of the gut microbial community, not merely parasites or incidental passengers. The gut virome is dominated (~90%) by bacteriophages that shape bacterial community composition through selective lysis, horizontal gene transfer, and modulation of bacterial fitness.
 
-For full coverage including disease-specific virome signatures, phage-mediated dysbiosis, and therapeutic applications, see **[[virome]]**.
+For full coverage including disease-specific virome signatures, phage-mediated dysbiosis, and therapeutic applications, see [[virome]].
 
 ## Key Cross-References
 

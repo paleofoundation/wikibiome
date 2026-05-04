@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Tryptophan
 
-**Tryptophan** (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of microbial metabolites that shape gut-brain communication. What makes tryptophan particularly relevant to the metallomics story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.
+Tryptophan (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of microbial metabolites that shape gut-brain communication. What makes tryptophan particularly relevant to the metallomics story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.
 
 ## Dietary Sources and Absorption
 
@@ -44,22 +44,22 @@ Gut bacteria directly metabolize tryptophan via tryptophanase and other enzymes 
 
 Tryptophan metabolism is intimately tied to metal biology through several mechanisms:
 
-- **Iron as IDO/TDO cofactor**: The rate-limiting enzymes of the kynurenine pathway are heme-iron-dependent. Iron dysregulation -- whether excess or deficiency -- alters pathway flux and shifts the balance between neuroprotective and neurotoxic metabolites [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- **Zinc and serotonin**: Zinc is required for aromatic amino acid decarboxylase activity and modulates serotonin receptor binding. Zinc deficiency, common in many of the conditions discussed in this wiki, compounds tryptophan pathway disruption.
-- **Manganese and tryptophan hydroxylase**: Mn exposure can alter TPH activity, disrupting serotonin synthesis in both gut and brain.
-- **Cadmium and tryptophan depletion**: Cd exposure is associated with altered tryptophan metabolism in animal models, potentially through oxidative depletion of cofactors [[rasin-2025-cadmium-exposure-health-review]].
+- Iron as IDO/TDO cofactor: The rate-limiting enzymes of the kynurenine pathway are heme-iron-dependent. Iron dysregulation -- whether excess or deficiency -- alters pathway flux and shifts the balance between neuroprotective and neurotoxic metabolites [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Zinc and serotonin: Zinc is required for aromatic amino acid decarboxylase activity and modulates serotonin receptor binding. Zinc deficiency, common in many of the conditions discussed in this wiki, compounds tryptophan pathway disruption.
+- Manganese and tryptophan hydroxylase: Mn exposure can alter TPH activity, disrupting serotonin synthesis in both gut and brain.
+- Cadmium and tryptophan depletion: Cd exposure is associated with altered tryptophan metabolism in animal models, potentially through oxidative depletion of cofactors [[rasin-2025-cadmium-exposure-health-review]].
 
 ## Disease Relevance
 
 Tryptophan depletion or pathway imbalance appears across a remarkable range of conditions:
 
-- **Autism spectrum disorder**: Fecal kynurenate, indolelactate, and 5-HTP are significantly lower in ASD children. Brain activity in the insula and cingulate cortex mediates the relationship between tryptophan metabolite levels and ASD severity [[aziz-zadeh-2025-brain-activity-tryptophan-gut-metabolites-asd]].
-- **Depression**: The "serotonin hypothesis" is an oversimplification, but IDO-mediated tryptophan steal -- diverting substrate from serotonin to kynurenine -- is well-documented in inflammatory depression [[capuco-2020-gut-microbiome-dysbiosis-depression-review]].
-- **Schizophrenia**: Kynurenine pathway dysregulation with elevated kynurenic acid (an NMDA antagonist) is implicated in cognitive deficits [[szeligowski-2020-gut-microbiome-schizophrenia-review]].
-- **Chronic kidney disease**: Indoxyl sulfate, a uremic toxin derived from bacterial tryptophan metabolism, is a key driver of CKD progression and cardiovascular complications. See [[tmao|uremic-toxins]] [[wehedy-2022-human-microbiome-ckd-double-edged-sword]].
-- **Cardiovascular disease**: Microbial IPA is atheroprotective; its depletion in dysbiosis may accelerate atherosclerosis [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
-- **PMDD**: Tryptophan-serotonin pathway alterations are implicated in the neuroinflammatory component of premenstrual dysphoric disorder [[cheng-2025-neuroinflammation-pms-pmdd-review]].
-- **Parkinson's disease**: Kynurenine pathway metabolites contribute to neuroinflammation and dopaminergic neuron damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Autism spectrum disorder: Fecal kynurenate, indolelactate, and 5-HTP are significantly lower in ASD children. Brain activity in the insula and cingulate cortex mediates the relationship between tryptophan metabolite levels and ASD severity [[aziz-zadeh-2025-brain-activity-tryptophan-gut-metabolites-asd]].
+- Depression: The "serotonin hypothesis" is an oversimplification, but IDO-mediated tryptophan steal -- diverting substrate from serotonin to kynurenine -- is well-documented in inflammatory depression [[capuco-2020-gut-microbiome-dysbiosis-depression-review]].
+- Schizophrenia: Kynurenine pathway dysregulation with elevated kynurenic acid (an NMDA antagonist) is implicated in cognitive deficits [[szeligowski-2020-gut-microbiome-schizophrenia-review]].
+- Chronic kidney disease: Indoxyl sulfate, a uremic toxin derived from bacterial tryptophan metabolism, is a key driver of CKD progression and cardiovascular complications. See [[tmao|uremic-toxins]] [[wehedy-2022-human-microbiome-ckd-double-edged-sword]].
+- Cardiovascular disease: Microbial IPA is atheroprotective; its depletion in dysbiosis may accelerate atherosclerosis [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
+- PMDD: Tryptophan-serotonin pathway alterations are implicated in the neuroinflammatory component of premenstrual dysphoric disorder [[cheng-2025-neuroinflammation-pms-pmdd-review]].
+- Parkinson's disease: Kynurenine pathway metabolites contribute to neuroinflammation and dopaminergic neuron damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
 ## Cross-References
 

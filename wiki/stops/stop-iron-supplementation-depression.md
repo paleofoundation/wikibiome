@@ -29,4 +29,4 @@ karen_brain_primitives: [2, 4]
 
 ## Overview
 
-**Harm potential: YELLOW** — True iron deficiency anemia requires supplementation regardless of inflammatory state.
+Harm potential: YELLOW — True iron deficiency anemia requires supplementation regardless of inflammatory state.

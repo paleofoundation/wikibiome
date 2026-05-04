@@ -29,27 +29,27 @@ targets:
 karen_brain_primitives: [5, 9]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Dietary Fiber (Cross-Condition)
 
 ## Intervention Summary
 
-Dietary fiber as a universal prebiotic substrate feeding SCFA-producing commensal bacteria. Referenced across 7+ disease signatures where butyrate depletion and proteolytic fermentation shift are core ecological disruptions. **The single most broadly validated microbiome-targeted dietary intervention.**
+Dietary fiber as a universal prebiotic substrate feeding SCFA-producing commensal bacteria. Referenced across 7+ disease signatures where butyrate depletion and proteolytic fermentation shift are core ecological disruptions. The single most broadly validated microbiome-targeted dietary intervention.
 
 ## Evidence
 
 Multiple meta-analyses confirm fiber supplementation increases fecal SCFA concentrations, restores depleted butyrate producers, and reduces proteolytic metabolites (indoxyl sulfate, p-cresyl sulfate, ammonia) across conditions including CKD, IBD, colorectal cancer risk, and metabolic syndrome.
 
-- **CKD**: IS reduced (SMD -0.55, P=0.03), PCS reduced (SMD -0.47, P<0.01) — [[yang-2021-dietary-fiber-uremic-toxins-ckd-meta-analysis]]
-- **Cross-condition**: Fiber intake inversely associated with all-cause mortality, cardiovascular disease, and colorectal cancer in dose-response meta-analyses
+- CKD: IS reduced (SMD -0.55, P=0.03), PCS reduced (SMD -0.47, P<0.01) — [[yang-2021-dietary-fiber-uremic-toxins-ckd-meta-analysis]]
+- Cross-condition: Fiber intake inversely associated with all-cause mortality, cardiovascular disease, and colorectal cancer in dose-response meta-analyses
 
 ## Mechanism
 
-1. **Substrate provision**: Supplies fermentable carbohydrate to saccharolytic bacteria, competitively excluding proteolytic species
-2. **SCFA production**: Butyrate nourishes colonocytes, strengthens tight junctions, induces Tregs via HDAC inhibition
-3. **pH reduction**: SCFA lowers colonic pH, disfavoring ammonia-producing and pathogenic species
-4. **Oxygen gradient restoration**: Butyrate metabolism by colonocytes consumes oxygen, maintaining anaerobic lumen — favoring obligate anaerobes over facultative pathogens
+1. Substrate provision: Supplies fermentable carbohydrate to saccharolytic bacteria, competitively excluding proteolytic species
+2. SCFA production: Butyrate nourishes colonocytes, strengthens tight junctions, induces Tregs via HDAC inhibition
+3. pH reduction: SCFA lowers colonic pH, disfavoring ammonia-producing and pathogenic species
+4. Oxygen gradient restoration: Butyrate metabolism by colonocytes consumes oxygen, maintaining anaerobic lumen — favoring obligate anaerobes over facultative pathogens
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ Fiber is the foundational dietary intervention across nearly every disease signa
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

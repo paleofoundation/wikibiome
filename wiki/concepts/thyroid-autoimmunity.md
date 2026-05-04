@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Thyroid Autoimmunity
 
-Autoimmune thyroid diseases (AITDs) -- **[[hashimotos-thyroiditis]]** and **[[graves-disease]]** -- are the most common organ-specific autoimmune conditions, affecting 5-10% of the global population. The thyroid gland sits at a remarkable intersection of metal biology and immune regulation: it concentrates more **[[selenium]]** than any other organ, depends on **[[iodine]]** for hormone synthesis, requires **[[iron]]** for thyroperoxidase activity, and is vulnerable to displacement by toxic metals that exploit these essential mineral pathways.
+Autoimmune thyroid diseases (AITDs) -- [[hashimotos-thyroiditis]] and [[graves-disease]] -- are the most common organ-specific autoimmune conditions, affecting 5-10% of the global population. The thyroid gland sits at a remarkable intersection of metal biology and immune regulation: it concentrates more [[selenium]] than any other organ, depends on [[iodine]] for hormone synthesis, requires [[iron]] for thyroperoxidase activity, and is vulnerable to displacement by toxic metals that exploit these essential mineral pathways.
 
 The emerging gut-thyroid axis adds another dimension: the gut microbiome modulates thyroid function through nutrient absorption, immune education, and metabolite production.
 
@@ -24,13 +24,13 @@ The emerging gut-thyroid axis adds another dimension: the gut microbiome modulat
 
 The thyroid's selenium dependency is mediated by three selenoprotein families:
 
-- **Deiodinases (DIO1, DIO2, DIO3)**: Convert T4 to active T3 (or inactive rT3). Without selenium, thyroid hormone activation fails regardless of hormone production.
-- **Glutathione peroxidases (GPx)**: Protect thyrocytes from hydrogen peroxide generated during thyroid hormone synthesis. The thyroid generates more H2O2 than almost any other tissue.
-- **Thioredoxin reductases**: Maintain intracellular redox balance in thyrocytes.
+- Deiodinases (DIO1, DIO2, DIO3): Convert T4 to active T3 (or inactive rT3). Without selenium, thyroid hormone activation fails regardless of hormone production.
+- Glutathione peroxidases (GPx): Protect thyrocytes from hydrogen peroxide generated during thyroid hormone synthesis. The thyroid generates more H2O2 than almost any other tissue.
+- Thioredoxin reductases: Maintain intracellular redox balance in thyrocytes.
 
-**Selenium deficiency is an independent risk factor** for both Graves' disease and Graves' ophthalmopathy [[brock-2015-selenium-thyroid-autoimmunity]]:
+Selenium deficiency is an independent risk factor for both Graves' disease and Graves' ophthalmopathy [[brock-2015-selenium-thyroid-autoimmunity]]:
 
-- **200 ug Se/day for 6 months** in a double-blind RCT significantly decreased Graves' ophthalmopathy severity, improved quality of life, and prevented disease worsening (randomized-controlled-trial) [[brock-2015-selenium-thyroid-autoimmunity]].
+- 200 ug Se/day for 6 months in a double-blind RCT significantly decreased Graves' ophthalmopathy severity, improved quality of life, and prevented disease worsening (randomized-controlled-trial) [[brock-2015-selenium-thyroid-autoimmunity]].
 - Se supplementation reduces anti-TPO antibodies by 40% in those with levels >1200 IU/mL [[brock-2015-selenium-thyroid-autoimmunity]].
 - Se protects against [[cadmium]] toxicity by binding Cd and facilitating biliary excretion [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
 - Se has an antagonistic relationship with [[mercury]], providing protective effects when Hg levels are elevated [[kravchenko-2023-thyroid-hormones-minerals-AITD]].
@@ -65,35 +65,35 @@ Heavy metals exploit the thyroid's mineral dependencies:
 
 | Metal | Mechanism | Evidence |
 |-------|-----------|----------|
-| **[[cadmium]]** | Displaces zinc in thyroid receptors; blocks Se protective effects | Cd exposure correlates with anti-TPO elevation |
-| **[[mercury]]** | Binds selenocysteine residues in deiodinases, blocking T4→T3 conversion | Se-Hg antagonism is protective [[kravchenko-2023-thyroid-hormones-minerals-AITD]] |
-| **[[lead]]** | Disrupts hypothalamic-pituitary-thyroid axis signaling | Pb correlates with subclinical hypothyroidism |
-| **[[nickel]]** | Thyroid disruption documented | See [[nickel]] for details |
+| [[cadmium]] | Displaces zinc in thyroid receptors; blocks Se protective effects | Cd exposure correlates with anti-TPO elevation |
+| [[mercury]] | Binds selenocysteine residues in deiodinases, blocking T4→T3 conversion | Se-Hg antagonism is protective [[kravchenko-2023-thyroid-hormones-minerals-AITD]] |
+| [[lead]] | Disrupts hypothalamic-pituitary-thyroid axis signaling | Pb correlates with subclinical hypothyroidism |
+| [[nickel]] | Thyroid disruption documented | See [[nickel]] for details |
 
-This is a textbook example of **[[mis-metallation]]** (Karen's Brain Primitive 3): toxic metals entering through the same channels and binding sites that essential minerals use, disabling thyroid function from within.
+This is a textbook example of [[mis-metallation]] (Karen's Brain Primitive 3): toxic metals entering through the same channels and binding sites that essential minerals use, disabling thyroid function from within.
 
 ## The Gut-Thyroid Axis
 
 The gut microbiome influences thyroid autoimmunity through several mechanisms:
 
-1. **Nutrient absorption**: Selenium, iodine, iron, and zinc are all absorbed in the gut. Dysbiosis-driven malabsorption compounds deficiency.
-2. **Immune education**: Gut microbiome composition shapes Th17/Treg balance, directly relevant to autoimmune tolerance.
-3. **Molecular mimicry**: Bacterial proteins with structural similarity to thyroid antigens may trigger cross-reactive immune responses.
-4. **SCFA-mediated immune regulation**: Depletion of SCFA-producing bacteria (Faecalibacterium, Lachnospiraceae) reduces Treg induction and shifts toward pro-inflammatory Th17 dominance.
+1. Nutrient absorption: Selenium, iodine, iron, and zinc are all absorbed in the gut. Dysbiosis-driven malabsorption compounds deficiency.
+2. Immune education: Gut microbiome composition shapes Th17/Treg balance, directly relevant to autoimmune tolerance.
+3. Molecular mimicry: Bacterial proteins with structural similarity to thyroid antigens may trigger cross-reactive immune responses.
+4. SCFA-mediated immune regulation: Depletion of SCFA-producing bacteria (Faecalibacterium, Lachnospiraceae) reduces Treg induction and shifts toward pro-inflammatory Th17 dominance.
 
 Microbiome signatures in AITD include:
 
-- **Depleted**: *[[faecalibacterium-prausnitzii]]*, [[lachnospiraceae]], *[[bifidobacterium]]* -- the core SCFA-producing, anti-inflammatory community.
-- **Enriched**: *Fusobacterium*, *Streptococcus*, Proteobacteria -- pro-inflammatory, often metal-tolerant taxa.
+- Depleted: *[[faecalibacterium-prausnitzii]]*, [[lachnospiraceae]], *[[bifidobacterium]]* -- the core SCFA-producing, anti-inflammatory community.
+- Enriched: *Fusobacterium*, *Streptococcus*, Proteobacteria -- pro-inflammatory, often metal-tolerant taxa.
 
 ## Associated Conditions
 
 Thyroid autoimmunity clusters with other autoimmune and metal-related conditions:
 
-- **[[celiac-disease]]**: 4-5x increased prevalence of celiac among AITD patients; shared selenium and iron malabsorption [[celiac-disease]].
-- **[[type-1-diabetes]]**: Shared HLA-DQ associations.
-- **[[inflammatory-bowel-disease]]**: MR evidence for Graves'-IBD comorbidity [[graves-disease]].
-- **[[depression]]**: Shared Pb, Fe, Se associations and gut-brain axis disruption.
+- [[celiac-disease]]: 4-5x increased prevalence of celiac among AITD patients; shared selenium and iron malabsorption [[celiac-disease]].
+- [[type-1-diabetes]]: Shared HLA-DQ associations.
+- [[inflammatory-bowel-disease]]: MR evidence for Graves'-IBD comorbidity [[graves-disease]].
+- [[depression]]: Shared Pb, Fe, Se associations and gut-brain axis disruption.
 
 ## Open Questions
 

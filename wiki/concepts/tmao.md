@@ -20,15 +20,15 @@ A gut microbiome-derived metabolite that has emerged as one of the strongest mic
 
 ### Step 1: Microbial TMA Production
 Gut bacteria metabolize dietary precursors to trimethylamine (TMA) using specific enzyme systems:
-- **CutC/CutD** (choline TMA-lyase): cleaves choline to TMA. Found in [[hungatella]], Desulfovibrio, Clostridium, and certain Enterobacteriaceae.
-- **CntA/CntB** (carnitine monooxygenase): oxidizes L-carnitine to TMA. Found in Acinetobacter, Serratia, and some Gammaproteobacteria.
-- **YeaW/YeaX**: converts betaine to TMA.
+- CutC/CutD (choline TMA-lyase): cleaves choline to TMA. Found in [[hungatella]], Desulfovibrio, Clostridium, and certain Enterobacteriaceae.
+- CntA/CntB (carnitine monooxygenase): oxidizes L-carnitine to TMA. Found in Acinetobacter, Serratia, and some Gammaproteobacteria.
+- YeaW/YeaX: converts betaine to TMA.
 
 ### Dietary Precursors
-- **Choline**: eggs, fish, seafood, liver, dairy products.
-- **Phosphatidylcholine (lecithin)**: eggs, dairy, meat.
-- **L-carnitine**: red meat, fish.
-- **Betaine**: shellfish, beets, spinach [[zhen-2023-tmao-cardiovascular-diseases-review]].
+- Choline: eggs, fish, seafood, liver, dairy products.
+- Phosphatidylcholine (lecithin): eggs, dairy, meat.
+- L-carnitine: red meat, fish.
+- Betaine: shellfish, beets, spinach [[zhen-2023-tmao-cardiovascular-diseases-review]].
 
 ### Step 2: Hepatic Oxidation
 TMA is absorbed from the gut into portal circulation and transported to the liver, where flavin monooxygenase 3 (FMO3) oxidizes it to TMAO. FMO3 has the highest activity of all FMOs for this reaction. Males have lower FMO3 expression than females, producing sex-specific TMAO level differences. Over 90% of TMAO is excreted in urine, giving it a high turnover rate [[zhen-2023-tmao-cardiovascular-diseases-review]].
@@ -61,9 +61,9 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 
 ## TMAO Beyond CVD
 
-- **Alzheimer's disease**: TMAO traverses the blood-brain barrier; elevated in CSF of cognitively impaired AD patients. May promote [[neuroinflammation]] and amyloid-beta aggregation [[khatoon-2023-gut-microbiota-neurodegenerative]].
-- **Chronic kidney disease**: Impaired renal clearance elevates TMAO; creates a feed-forward loop with CKD progression.
-- **IBD-CVD comorbidity**: TMAO links gut [[dysbiosis]] in [[inflammatory-bowel-disease]] to increased cardiovascular risk [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]].
+- Alzheimer's disease: TMAO traverses the blood-brain barrier; elevated in CSF of cognitively impaired AD patients. May promote [[neuroinflammation]] and amyloid-beta aggregation [[khatoon-2023-gut-microbiota-neurodegenerative]].
+- Chronic kidney disease: Impaired renal clearance elevates TMAO; creates a feed-forward loop with CKD progression.
+- IBD-CVD comorbidity: TMAO links gut [[dysbiosis]] in [[inflammatory-bowel-disease]] to increased cardiovascular risk [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]].
 
 ## Metal Connections
 
@@ -73,10 +73,10 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 
 ## Therapeutic Targets
 
-- **DMB (3,3-dimethyl-1-butanol)**: Inhibits microbial TMA lyases; reduces TMAO without killing bacteria.
-- **Dietary modification**: Reducing red meat/egg intake lowers TMAO; Mediterranean diet associated with lower TMAO.
-- **Resveratrol**: Remodels gut microbiota to reduce TMA-producing taxa.
-- **FMT**: Potential to restore SCFA/TMAO balance by reintroducing beneficial communities.
+- DMB (3,3-dimethyl-1-butanol): Inhibits microbial TMA lyases; reduces TMAO without killing bacteria.
+- Dietary modification: Reducing red meat/egg intake lowers TMAO; Mediterranean diet associated with lower TMAO.
+- Resveratrol: Remodels gut microbiota to reduce TMA-producing taxa.
+- FMT: Potential to restore SCFA/TMAO balance by reintroducing beneficial communities.
 
 ## Key Sources
 

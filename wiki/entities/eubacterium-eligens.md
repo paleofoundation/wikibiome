@@ -4,10 +4,17 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
+last_substantive_update: 2026-04-22
 sources:
-  - luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization
-source_count: 1
+  - eggers-2023-prenatal-lead-childhood-gut-microbiome-progress
+  - peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning
+  - latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet
+  - eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood
+  - ma-2021-dietary-fiber-gut-microbiome-inflammation-men
+  - yao-2024-gut-microbiota-menstrual-disorders-mr
+  - luo-2023-causal-effects-gut-microbiota-ckd-mr
+  - he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese
+source_count: 8
 tags:
   - Eubacterium
   - Lachnospiraceae
@@ -33,15 +40,13 @@ conditions_enriched_in: []
 conditions_depleted_in:
   - type-1-diabetes
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 1 sources, minimum 3
 ---
 
 # Eubacterium eligens
 
 ## Overview
 
-***Eubacterium eligens*** is a Gram-positive, obligate anaerobic bacterium within the [[lachnospiraceae]] family and a significant butyrate producer in the human colon. While less well-known than *Faecalibacterium prausnitzii* or *Roseburia*, *E. eligens* has emerged as one of the most statistically robust causally protective organisms against [[type-1-diabetes]] in Mendelian randomization (MR) studies — a finding that has received surprisingly little attention given its significance.
+*Eubacterium eligens* is a Gram-positive, obligate anaerobic bacterium within the [[lachnospiraceae]] family and a significant butyrate producer in the human colon. While less well-known than *Faecalibacterium prausnitzii* or *Roseburia*, *E. eligens* has emerged as one of the most statistically robust causally protective organisms against [[type-1-diabetes]] in Mendelian randomization (MR) studies — a finding that has received surprisingly little attention given its significance.
 
 ## Metal Dependencies
 
@@ -51,8 +56,8 @@ As a member of the Firmicutes, *E. eligens* likely depends on iron for iron-sulf
 
 *E. eligens* has no virulence factors. Its functional significance derives from:
 
-- **Butyryl-CoA dehydrogenase** — Central enzyme in the butyrate synthesis pathway; produces butyrate from dietary fiber fermentation
-- **Pectinase and pectin lyase** — *E. eligens* is a pectin specialist, distinguishing its substrate niche from resistant-starch degraders like [[ruminococcus-bromii]] or xylan degraders like *Roseburia*. This pectin specificity means its abundance responds to fruit and vegetable intake rather than whole grain consumption.
+- Butyryl-CoA dehydrogenase — Central enzyme in the butyrate synthesis pathway; produces butyrate from dietary fiber fermentation
+- Pectinase and pectin lyase — *E. eligens* is a pectin specialist, distinguishing its substrate niche from resistant-starch degraders like [[ruminococcus-bromii]] or xylan degraders like *Roseburia*. This pectin specificity means its abundance responds to fruit and vegetable intake rather than whole grain consumption.
 
 ## Ecological Role
 
@@ -73,9 +78,9 @@ The *Eubacterium eligens* group shows the most robust causal protective signal i
 
 | Metric | Value |
 |--------|-------|
-| OR (95% CI) | **0.64 (0.50-0.81)** |
-| P-value | **2.84 x 10^-4** |
-| FDR-adjusted P | **0.031** |
+| OR (95% CI) | 0.64 (0.50-0.81) |
+| P-value | 2.84 x 10^-4 |
+| FDR-adjusted P | 0.031 |
 | Heterogeneity | None detected |
 | Pleiotropy | None detected |
 

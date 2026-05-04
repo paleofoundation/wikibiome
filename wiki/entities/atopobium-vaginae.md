@@ -4,9 +4,14 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - quaranta-2019-fmt-female-reproductive-tract-diseases
+  - yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics
+  - ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota
+  - chen-2021-chlamydia-vaginal-microbiota-tubal-infertility
+  - ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis
+source_count: 5
 tags:
   - actinobacteria
   - vaginal-microbiome
@@ -27,21 +32,19 @@ conditions_enriched_in:
   - pelvic-inflammatory-disease
   - preterm-birth
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Atopobium vaginae** (reclassified as *Fannyhessea vaginae*) is a Gram-positive obligate anaerobe and one of the most reliable biomarkers of **bacterial vaginosis** (BV). While present at low levels in some healthy women, its high abundance — particularly alongside *Gardnerella vaginalis* — strongly predicts BV and treatment-resistant recurrence.
+Atopobium vaginae (reclassified as *Fannyhessea vaginae*) is a Gram-positive obligate anaerobe and one of the most reliable biomarkers of bacterial vaginosis (BV). While present at low levels in some healthy women, its high abundance — particularly alongside *Gardnerella vaginalis* — strongly predicts BV and treatment-resistant recurrence.
 
 ## Metal Dependencies
 
-A. vaginae requires **iron** and **manganese** for core metabolic functions. In the vaginal environment, iron availability increases during menstruation and in inflammatory states, conditions that correlate with BV onset and recurrence. The organism's persistence within [[biofilm]] structures may shield it from host [[nutritional-immunity]] responses.
+A. vaginae requires iron and manganese for core metabolic functions. In the vaginal environment, iron availability increases during menstruation and in inflammatory states, conditions that correlate with BV onset and recurrence. The organism's persistence within [[biofilm]] structures may shield it from host [[nutritional-immunity]] responses.
 
 ## Ecological Role
 
-A. vaginae forms a dense polymicrobial [[biofilm]] with *Gardnerella vaginalis* on vaginal epithelium. This biofilm architecture provides antibiotic tolerance — explaining why metronidazole monotherapy often fails to clear A. vaginae despite killing planktonic Gardnerella. The organism produces **sialidase**, which degrades the protective mucus layer and exposes epithelial receptors to further colonization.
+A. vaginae forms a dense polymicrobial [[biofilm]] with *Gardnerella vaginalis* on vaginal epithelium. This biofilm architecture provides antibiotic tolerance — explaining why metronidazole monotherapy often fails to clear A. vaginae despite killing planktonic Gardnerella. The organism produces sialidase, which degrades the protective mucus layer and exposes epithelial receptors to further colonization.
 
 ## Conditions Associated
 

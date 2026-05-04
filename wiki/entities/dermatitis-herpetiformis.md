@@ -4,9 +4,17 @@ type: entity
 subtype: disease
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - flyvholm-1984-nickel-food-content
+  - jaishankar-2014-heavy-metal-toxicity-mechanisms
+  - di-gioacchino-2018-snas-chapter
+  - veien-1993-low-nickel-diet-trial
+  - borghini-2020-endometriosis-nickel-ibs
+  - sharma-2006-disulfiram-low-nickel-diet-hand-eczema
+  - genchi-2020-nickel-human-health-environmental-toxicology
+  - braga-2013-snas-nosologic-framework
+source_count: 8
 tags:
   - autoimmune
   - celiac-disease
@@ -32,13 +40,11 @@ shared_signature_taxa:
   celiac-disease:
     - prevotella-copri
     - escherichia-coli
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 5
 ---
 
 ## Overview
 
-**Dermatitis herpetiformis** (DH) is the cutaneous manifestation of [[celiac-disease]], presenting as intensely pruritic, grouped vesicles on the elbows, knees, buttocks, and scalp. It is driven by **IgA antibodies against epidermal transglutaminase** (eTG), the skin homolog of tissue transglutaminase (tTG) targeted in celiac disease. Virtually all DH patients have underlying celiac enteropathy, though intestinal symptoms may be subclinical.
+Dermatitis herpetiformis (DH) is the cutaneous manifestation of [[celiac-disease]], presenting as intensely pruritic, grouped vesicles on the elbows, knees, buttocks, and scalp. It is driven by IgA antibodies against epidermal transglutaminase (eTG), the skin homolog of tissue transglutaminase (tTG) targeted in celiac disease. Virtually all DH patients have underlying celiac enteropathy, though intestinal symptoms may be subclinical.
 
 ## Microbiome Associations
 
@@ -46,7 +52,7 @@ DH shares the gut microbiome alterations documented in celiac disease: reduced B
 
 ## Metal Associations
 
-The subclinical celiac enteropathy in DH patients impairs absorption of **iron**, **zinc**, and selenium through villous atrophy. Iron deficiency is common even without overt anemia. Zinc malabsorption may contribute to impaired wound healing and skin barrier dysfunction. These micronutrient deficiencies compound the immune dysregulation driving the disease.
+The subclinical celiac enteropathy in DH patients impairs absorption of iron, zinc, and selenium through villous atrophy. Iron deficiency is common even without overt anemia. Zinc malabsorption may contribute to impaired wound healing and skin barrier dysfunction. These micronutrient deficiencies compound the immune dysregulation driving the disease.
 
 ## Associated Conditions
 

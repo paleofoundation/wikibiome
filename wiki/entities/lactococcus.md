@@ -20,19 +20,19 @@ pathogenic_potential: commensal
 
 # Lactococcus
 
-*Lactococcus lactis* is a Gram-positive, facultatively anaerobic, lactic acid bacterium best known as the workhorse of the dairy fermentation industry. It holds **GRAS** (Generally Recognized As Safe) status and has emerged as a versatile platform for probiotic and therapeutic protein delivery applications.
+*Lactococcus lactis* is a Gram-positive, facultatively anaerobic, lactic acid bacterium best known as the workhorse of the dairy fermentation industry. It holds GRAS (Generally Recognized As Safe) status and has emerged as a versatile platform for probiotic and therapeutic protein delivery applications.
 
 ## Industrial and Food Applications
 
 - Primary starter culture for cheese production, fermented milk, buttermilk, and other dairy products.
-- Produces **nisin**, a lantibiotic (antimicrobial peptide) effective against Gram-positive pathogens including *Listeria*, *Staphylococcus*, and *Clostridium* species.
+- Produces nisin, a lantibiotic (antimicrobial peptide) effective against Gram-positive pathogens including *Listeria*, *Staphylococcus*, and *Clostridium* species.
 - Nisin production has attracted interest as a natural food preservative and potential adjunct to antibiotic therapy.
 - Homofermentative metabolism converts lactose to lactic acid with high efficiency [[fujimoto-2022-human-gut-virome-metabolic-autoimmune]].
 
 ## Metal Dependencies
 
-- **Manganese**: *L. lactis* relies on Mn-superoxide dismutase (MnSOD) for oxidative stress defense, unlike most bacteria that use Fe-SOD. This Mn-dependency reduces its vulnerability to [[iron]]-limitation strategies of [[nutritional-immunity]].
-- **Zinc**: Zn-dependent cell-envelope proteinases (PrtP) are essential for casein degradation during dairy fermentation. [[zinc]] availability thus directly influences the proteolytic capacity and growth rate of *L. lactis*.
+- Manganese: *L. lactis* relies on Mn-superoxide dismutase (MnSOD) for oxidative stress defense, unlike most bacteria that use Fe-SOD. This Mn-dependency reduces its vulnerability to [[iron]]-limitation strategies of [[nutritional-immunity]].
+- Zinc: Zn-dependent cell-envelope proteinases (PrtP) are essential for casein degradation during dairy fermentation. [[zinc]] availability thus directly influences the proteolytic capacity and growth rate of *L. lactis*.
 
 ## Disease-Associated Microbiome Findings
 
@@ -53,7 +53,7 @@ pathogenic_potential: commensal
 
 ## Biotherapeutic Delivery Platform
 
-*L. lactis* is increasingly used as a **live biotherapeutic delivery platform**:
+*L. lactis* is increasingly used as a live biotherapeutic delivery platform:
 
 - Engineered strains can secrete anti-inflammatory cytokines (IL-10), trefoil factors, and antigenic proteins directly in the gut lumen.
 - Its inability to colonize the gut permanently is actually advantageous for controlled, transient therapeutic delivery.

@@ -4,9 +4,13 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca
+  - costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter
+  - vogt-2024-hfq-srna-rust-iron-starvation-caulobacter
+  - khochtali-2025-pcob-copper-efflux-disordered-region-caulobacter
+source_count: 4
 tags:
   - alphaproteobacteria
   - caulobacteraceae
@@ -27,17 +31,15 @@ key_enzymes:
 pathogenic_potential: commensal
 conditions_enriched_in: []
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Caulobacter** is a genus of Gram-negative obligate aerobic Alphaproteobacteria, with *C. crescentus* serving as one of the premier model organisms for studying bacterial cell biology. Found primarily in oligotrophic freshwater environments, Caulobacter is not a gut commensal but has become invaluable for understanding how bacteria sense and respond to metal stress.
+Caulobacter is a genus of Gram-negative obligate aerobic Alphaproteobacteria, with *C. crescentus* serving as one of the premier model organisms for studying bacterial cell biology. Found primarily in oligotrophic freshwater environments, Caulobacter is not a gut commensal but has become invaluable for understanding how bacteria sense and respond to metal stress.
 
 ## Metal Dependencies
 
-C. crescentus requires **iron** (acquired through TonB-dependent receptors) and **zinc** for essential metalloenzymes. What makes it exceptional is its well-characterized response to metal excess — particularly **chromium** and **cadmium**. Studies in Caulobacter have mapped the transcriptomic and proteomic responses to toxic metal exposure, revealing conserved stress pathways (SOS response, oxidative stress defense, efflux pump upregulation) shared across Proteobacteria.
+C. crescentus requires iron (acquired through TonB-dependent receptors) and zinc for essential metalloenzymes. What makes it exceptional is its well-characterized response to metal excess — particularly chromium and cadmium. Studies in Caulobacter have mapped the transcriptomic and proteomic responses to toxic metal exposure, revealing conserved stress pathways (SOS response, oxidative stress defense, efflux pump upregulation) shared across Proteobacteria.
 
 ## Ecological Role
 

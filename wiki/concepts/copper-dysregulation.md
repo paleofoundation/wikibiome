@@ -14,14 +14,14 @@ platform: wikibiome
 
 # Copper Dysregulation
 
-Perhaps the most pervasive metallomic finding across human disease: **copper is elevated in nearly every pathological condition examined in this wiki** -- cancer (pan-cancer), PCOS, cardiovascular disease, depression, schizophrenia, IBD, and rheumatoid arthritis. Simultaneously, copper is **depleted in neurodegenerative brain tissue**, creating a paradox of peripheral excess and central deficiency. Understanding copper dysregulation requires disentangling true copper toxicity from [[ceruloplasmin]]-mediated acute-phase responses, and distinguishing bound copper (largely inert) from free copper (redox-active and dangerous).
+Perhaps the most pervasive metallomic finding across human disease: copper is elevated in nearly every pathological condition examined in this wiki -- cancer (pan-cancer), PCOS, cardiovascular disease, depression, schizophrenia, IBD, and rheumatoid arthritis. Simultaneously, copper is depleted in neurodegenerative brain tissue, creating a paradox of peripheral excess and central deficiency. Understanding copper dysregulation requires disentangling true copper toxicity from [[ceruloplasmin]]-mediated acute-phase responses, and distinguishing bound copper (largely inert) from free copper (redox-active and dangerous).
 
 ## The Cu/Zn Ratio: A Pan-Disease Biomarker
 
 The Cu/Zn ratio captures two simultaneous metallomic changes in a single metric:
 
-1. **Copper elevation**: Driven by ceruloplasmin (positive acute-phase reactant), cuproplasia, or genuine copper excess
-2. **Zinc depletion**: Consumed by immune cell proliferation, displaced by copper at [[metallothionein]] binding sites, or sequestered by inflammatory zinc redistribution
+1. Copper elevation: Driven by ceruloplasmin (positive acute-phase reactant), cuproplasia, or genuine copper excess
+2. Zinc depletion: Consumed by immune cell proliferation, displaced by copper at [[metallothionein]] binding sites, or sequestered by inflammatory zinc redistribution
 
 This ratio is elevated across:
 
@@ -51,13 +51,13 @@ Inflammation raises ceruloplasmin/Cu; elevated free copper generates additional 
 
 ## The Brain Copper Paradox
 
-In [[alzheimers-disease]] and other neurodegenerative conditions, copper shows a striking **peripheral-central dissociation** [[scholefield-2024-brain-metallomics-dementia]]:
+In [[alzheimers-disease]] and other neurodegenerative conditions, copper shows a striking peripheral-central dissociation [[scholefield-2024-brain-metallomics-dementia]]:
 
-- **Peripheral**: Serum copper is elevated (ceruloplasmin acute-phase response)
-- **Central**: Brain tissue copper is depleted in affected regions
-- **Plaques**: Copper is concentrated in amyloid plaques, driving [[amyloid-beta-aggregation]] through Fenton-like redox cycling
+- Peripheral: Serum copper is elevated (ceruloplasmin acute-phase response)
+- Central: Brain tissue copper is depleted in affected regions
+- Plaques: Copper is concentrated in amyloid plaques, driving [[amyloid-beta-aggregation]] through Fenton-like redox cycling
 
-This pattern suggests a **redistribution problem** rather than simple excess or deficiency:
+This pattern suggests a redistribution problem rather than simple excess or deficiency:
 - Ceruloplasmin ferroxidase activity is reduced in AD brain, impairing iron oxidation
 - Copper trafficked to plaques is unavailable for essential cuproenzymes (SOD1, cytochrome c oxidase, dopamine beta-hydroxylase)
 - The result is functional copper deficiency at enzyme sites combined with toxic copper excess at plaque sites
@@ -69,7 +69,7 @@ This pattern suggests a **redistribution problem** rather than simple excess or 
 The archetypal copper dysregulation disorder, caused by mutations in *ATP7B* (the copper-transporting ATPase responsible for loading copper onto ceruloplasmin and excreting copper into bile):
 
 - Copper accumulates in liver, brain, cornea (Kayser-Fleischer rings), and kidneys
-- Serum ceruloplasmin is paradoxically **low** (apoceruloplasmin is rapidly degraded without copper loading)
+- Serum ceruloplasmin is paradoxically low (apoceruloplasmin is rapidly degraded without copper loading)
 - Free (non-ceruloplasmin) copper is elevated
 - Demonstrates that ceruloplasmin-bound copper is protective; free copper is toxic
 
@@ -81,9 +81,9 @@ Caused by mutations in *ATP7A* (intestinal copper absorption). Copper cannot be 
 
 Meta-analysis of 9 studies (n=1,168 PCOS patients): serum Cu is significantly elevated (SMD = 0.51, p < 0.0001) [[jiang-2021-copper-pcos-meta-analysis]]. Copper's dual role in PCOS:
 
-- **[[metalloestrogen|Metalloestrogen]] activity**: Pituitary effects on LH and ACTH release
-- **Metabolic correlation**: Cu positively correlates with BMI (r = 0.198) and triglycerides (r = 0.214)
-- **Inflammatory marker**: Copper correlates with leukocyte count, suggesting acute-phase confound
+- [[metalloestrogen|Metalloestrogen]] activity: Pituitary effects on LH and ACTH release
+- Metabolic correlation: Cu positively correlates with BMI (r = 0.198) and triglycerides (r = 0.214)
+- Inflammatory marker: Copper correlates with leukocyte count, suggesting acute-phase confound
 
 ## Connections
 

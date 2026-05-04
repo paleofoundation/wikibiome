@@ -20,16 +20,16 @@ The most abundant intracellular thiol and the master antioxidant of mammalian ce
 
 ### Antioxidant Defense
 - GSH directly scavenges reactive oxygen species and serves as a cofactor for the glutathione peroxidase (GPx) family of enzymes.
-- **GPX4** (glutathione peroxidase 4) uses GSH to reduce lipid hydroperoxides to non-toxic lipid alcohols -- this is the central brake on [[ferroptosis]]. GPX4 is a selenoprotein, linking GSH status to [[selenium]] status [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- GPX4 (glutathione peroxidase 4) uses GSH to reduce lipid hydroperoxides to non-toxic lipid alcohols -- this is the central brake on [[ferroptosis]]. GPX4 is a selenoprotein, linking GSH status to [[selenium]] status [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - GSH/GSSG ratio is a primary indicator of cellular redox status; oxidative stress shifts this ratio toward GSSG (oxidized glutathione).
 
 ### Metal Detoxification
 - GSH conjugates with heavy metals via its thiol group, facilitating their excretion.
-- **Mercury** binds GSH thiol groups with extremely high affinity, depleting the intracellular GSH pool and inhibiting glutathione peroxidase [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
-- **Cadmium** depletes GSH and induces metallothionein as a secondary defense; Cd-GSH conjugates are transported to the kidney, contributing to nephrotoxicity [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
-- **Lead** reduces GSH, SOD, catalase, and GPx while increasing lipid peroxidation (MDA) and H2O2 in liver and kidney tissue [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
-- **Arsenic** consumes GSH during its reduction from As(V) to As(III) and during methylation-based detoxification; GSH depletion is dose-dependent [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
-- **Chromium(VI)** is reduced to Cr(III) by GSH, generating hydroxyl radicals in the process -- a paradox where the detoxification reaction itself produces DNA-damaging species [[salnikov-2008-metal-carcinogenesis]].
+- Mercury binds GSH thiol groups with extremely high affinity, depleting the intracellular GSH pool and inhibiting glutathione peroxidase [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
+- Cadmium depletes GSH and induces metallothionein as a secondary defense; Cd-GSH conjugates are transported to the kidney, contributing to nephrotoxicity [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
+- Lead reduces GSH, SOD, catalase, and GPx while increasing lipid peroxidation (MDA) and H2O2 in liver and kidney tissue [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
+- Arsenic consumes GSH during its reduction from As(V) to As(III) and during methylation-based detoxification; GSH depletion is dose-dependent [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
+- Chromium(VI) is reduced to Cr(III) by GSH, generating hydroxyl radicals in the process -- a paradox where the detoxification reaction itself produces DNA-damaging species [[salnikov-2008-metal-carcinogenesis]].
 
 ### The Glyoxalase System
 - GSH is an essential cofactor for [[glyoxalase]] I, which detoxifies methylglyoxal (a reactive dicarbonyl produced during glycolysis). Metal-induced GSH depletion impairs glyoxalase function, leading to methylglyoxal accumulation and advanced glycation end-product (AGE) formation.

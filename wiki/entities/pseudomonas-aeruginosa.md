@@ -5,15 +5,21 @@ type: entity
 subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
-sources: [braud-2010-siderophores-pseudomonas-metal-tolerance.md, maier-2019-nickel-microbial-pathogenesis.md]
-source_count: 2
+sources:
+  - golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter
+  - srivastava-2016-environmental-resistance-microbes-review
+  - ouattara-2025-prrf-srnas-brnd-iron-peroxide-pseudomonas
+  - braud-2010-siderophores-pseudomonas-metal-tolerance
+  - bheemanenni-2025-fibromyalgia-ibs-systematic-review
+  - sun-2023-pancreatic-infections-16s-rrna-pancreatitis
+  - bisht-2024-malonate-lung-pseudomonas-metal-stress
+  - michetti-2025-galleria-mellonella-pseudomonas-zinc-starvation
+source_count: 8
 tags: [pathogen, siderophore, pyoverdine, pyochelin, nickel, iron, lung-infection, cystic-fibrosis, wound-infection]
 metal_dependencies: [iron, zinc, manganese, copper]
 key_enzymes: [pyoverdine (siderophore), pyochelin (siderophore), elastase/LasB (Zn-metalloprotease), alkaline protease (Zn-dependent), MnSOD, Cu/Zn-SOD]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Pseudomonas aeruginosa pyoverdine siderophore metal tolerance cystic fibrosis"
 wikipedia_differentiation: "Dual-use siderophore system (pyoverdine/pyochelin) for iron acquisition and toxic metal chelation with zinc-metalloprotease virulence profile"
 conditions_enriched_in: [cystic-fibrosis-lung-infection, wound-infections, nosocomial-infections]
@@ -23,13 +29,13 @@ pathogenic_potential: opportunistic
 
 # Pseudomonas aeruginosa
 
-An opportunistic Gram-negative pathogen with a unique dual-use siderophore system: its **pyoverdine** and **pyochelin** serve not only as iron scavengers but as **extracellular chelators of toxic metals** including nickel, copper, and cadmium. This makes *P. aeruginosa* unusually well-adapted to metal-rich and metal-variable environments, from contaminated wounds to the CF lung.
+An opportunistic Gram-negative pathogen with a unique dual-use siderophore system: its pyoverdine and pyochelin serve not only as iron scavengers but as extracellular chelators of toxic metals including nickel, copper, and cadmium. This makes *P. aeruginosa* unusually well-adapted to metal-rich and metal-variable environments, from contaminated wounds to the CF lung.
 
 ## Metal-Dependent Virulence Factors
 
 ### Ni-Dependent Glyoxalase I (Ni-GloI)
 - Detoxifies methylglyoxal, a toxic byproduct of glycolysis that accumulates during rapid growth and metabolic stress [[maier-2019-nickel-microbial-pathogenesis]].
-- The prokaryotic GloI in *P. aeruginosa* is **Ni-dependent** (unlike the Zn-dependent mammalian form), making it a potential drug target with selectivity over the host enzyme.
+- The prokaryotic GloI in *P. aeruginosa* is Ni-dependent (unlike the Zn-dependent mammalian form), making it a potential drug target with selectivity over the host enzyme.
 - Also found in other pathogens (*N. meningitidis*, *Y. pestis*, *Clostridia*), but *P. aeruginosa* is a key model.
 
 ### Ni-Acireductone Dioxygenase (ARD)
@@ -45,24 +51,24 @@ An opportunistic Gram-negative pathogen with a unique dual-use siderophore syste
 ## Metal Acquisition Systems
 
 ### Pyoverdine (PVD) -- Primary Siderophore
-- High-affinity iron chelator, but also binds **Al3+, Co2+, Cu2+, Eu3+, Ni2+, Pb2+, Tb3+, and Zn2+** extracellularly [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
-- **Only iron is efficiently imported** via the TonB-dependent FpvA pathway; other metals are chelated outside the cell but not taken up.
-- This extracellular sequestration **reduces intracellular accumulation of toxic metals** -- a defensive strategy.
-- Cu2+ and Ni2+ specifically **induce PVD production** (290% and 380% increase respectively at 10 uM), suggesting PVD production is a direct response to nickel/copper stress.
+- High-affinity iron chelator, but also binds Al3+, Co2+, Cu2+, Eu3+, Ni2+, Pb2+, Tb3+, and Zn2+ extracellularly [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
+- Only iron is efficiently imported via the TonB-dependent FpvA pathway; other metals are chelated outside the cell but not taken up.
+- This extracellular sequestration reduces intracellular accumulation of toxic metals -- a defensive strategy.
+- Cu2+ and Ni2+ specifically induce PVD production (290% and 380% increase respectively at 10 uM), suggesting PVD production is a direct response to nickel/copper stress.
 
 ### Pyochelin (PCH) -- Secondary Siderophore
-- Chelates **Al3+, Co2+, Cu2+, Ni2+, Pb2+, and Zn2+** in addition to iron.
-- PCH is **more efficient than PVD** at reducing intracellular accumulation of Co2+, Fe3+, Ni2+, and Zn2+.
+- Chelates Al3+, Co2+, Cu2+, Ni2+, Pb2+, and Zn2+ in addition to iron.
+- PCH is more efficient than PVD at reducing intracellular accumulation of Co2+, Fe3+, Ni2+, and Zn2+.
 - Imported via the FptA receptor (iron-loaded only).
 
 ### Pseudopaline Metallophore
 - Nicotianamine-like metallophore analogous to staphylopine in [[staphylococcus-aureus]] [[maier-2019-nickel-microbial-pathogenesis]].
-- **Primary mechanism for nickel acquisition** in chelating (metal-restricted) environments.
+- Primary mechanism for nickel acquisition in chelating (metal-restricted) environments.
 - Exported and reimported as metal-pseudopaline complexes via the CntI/CntO system.
 
 ### Experimental Evidence: Siderophore-Deficient Mutants
-- PAD07 (PVD-/PCH- double mutant): **more sensitive to toxic metals** and showed **higher intracellular metal accumulation** than wild type [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
-- Adding purified PVD or PCH to siderophore-deficient strains **restored metal tolerance**.
+- PAD07 (PVD-/PCH- double mutant): more sensitive to toxic metals and showed higher intracellular metal accumulation than wild type [[braud-2010-siderophores-pseudomonas-metal-tolerance]].
+- Adding purified PVD or PCH to siderophore-deficient strains restored metal tolerance.
 - Five metals toxic at 100 uM to the mutant: Co2+, Cu2+, Ga3+, Ni2+, Sn2+.
 
 ## Nutritional Immunity Evasion
@@ -73,18 +79,18 @@ An opportunistic Gram-negative pathogen with a unique dual-use siderophore syste
 
 ## Disease Associations
 
-- **Cystic fibrosis lung infections**: chronic colonizer, leading cause of morbidity/mortality in CF
-- **Ventilator-associated pneumonia**
-- **Burn wound infections**: thrives in the metal-rich wound environment
-- **Chronic wound infections** (diabetic ulcers)
-- **Urinary tract infections** (catheter-associated)
-- **Bacteremia** in immunocompromised patients
-- **Otitis externa** (swimmer's ear)
+- Cystic fibrosis lung infections: chronic colonizer, leading cause of morbidity/mortality in CF
+- Ventilator-associated pneumonia
+- Burn wound infections: thrives in the metal-rich wound environment
+- Chronic wound infections (diabetic ulcers)
+- Urinary tract infections (catheter-associated)
+- Bacteremia in immunocompromised patients
+- Otitis externa (swimmer's ear)
 
 ## Connection to Environmental Metal Exposure
 
 - *P. aeruginosa* is ubiquitous in soil, water, and hospital environments where metal contamination is common.
-- Its siderophore-based metal tolerance system means environmental metal pollution **selects for more virulent strains** (higher PVD/PCH production = more virulence gene activation).
+- Its siderophore-based metal tolerance system means environmental metal pollution selects for more virulent strains (higher PVD/PCH production = more virulence gene activation).
 - Nickel-contaminated water sources may promote *P. aeruginosa* populations with enhanced metal tolerance and virulence capacity.
 
 ## Connections

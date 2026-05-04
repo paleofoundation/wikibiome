@@ -71,26 +71,26 @@ stub: true
 
 ## Overview
 
-**Gestational diabetes mellitus (GDM)** affects ~14% of pregnancies and represents a critical window where metabolic, microbial, and metal factors converge. This signature is preliminary, built from 6 sources emphasizing fungal dysbiosis and microbiome-derived metabolite pathways.
+Gestational diabetes mellitus (GDM) affects ~14% of pregnancies and represents a critical window where metabolic, microbial, and metal factors converge. This signature is preliminary, built from 6 sources emphasizing fungal dysbiosis and microbiome-derived metabolite pathways.
 
 ## Metallomic Signature
 
-**Confidence: preliminary**
+Confidence: preliminary
 
 Iron elevation and zinc/selenium depletion patterns are inferred from overlap with [[type-2-diabetes-signature]] and limited GDM-specific metal data. Direct metallomic studies in GDM pregnancy cohorts are needed.
 
 ## Taxonomic Analysis
 
-**Confidence: preliminary**
+Confidence: preliminary
 
 Enrichment of [[bacteroides]] and depletion of [[faecalibacterium-prausnitzii]] observed across multiple studies ([[wei-2022-16s-rrna-gut-microbiota-gestational-diabetes]], [[vavreckova-2022-gut-bacterial-fungal-microbiota-pregnancy-gdm]]). Fungal dysbiosis — particularly shifts in *Candida* and *Saccharomyces* — is a distinctive feature ([[wang-2026-intestinal-fungal-dysbiosis-gdm-adverse-pregnancy-outcomes]]).
 
 ## Associated Conditions
 
 GDM shares overlapping signatures with:
-- **[[type-2-diabetes]]** — shared iron/zinc patterns, Bacteroides enrichment (overlap 0.45)
-- **[[pcos]]** — shared iron patterns, insulin resistance mechanisms (overlap 0.30)
-- **[[obesity]]** — shared iron/zinc patterns (overlap 0.35)
+- [[type-2-diabetes]] — shared iron/zinc patterns, Bacteroides enrichment (overlap 0.45)
+- [[pcos]] — shared iron patterns, insulin resistance mechanisms (overlap 0.30)
+- [[obesity]] — shared iron/zinc patterns (overlap 0.35)
 
 ## Open Questions
 

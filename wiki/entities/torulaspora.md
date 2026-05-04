@@ -5,49 +5,53 @@ type: entity
 subtype: fungus
 created: 2026-04-10
 updated: 2026-04-10
-last_substantive_update: 2026-04-10
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
+  - shi-2023-ppi-fungal-dysbiosis-gerd
+  - de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons
+  - mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca
+  - krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model
+  - gosiewski-2014-candida-feces-t1d-t2d-pilot-study
+source_count: 6
 gram_stain: "N/A"
 oxygen_requirement: "facultative anaerobe"
 metal_dependencies: [zinc, manganese, iron]
 key_enzymes: [alcohol-dehydrogenase, glycolytic-enzymes, biofilm-carbohydrates]
 tags: [yeast, fungus, food-associated, mycobiome, fermentation, probiotic-potential, zinc-dependent]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
 seo_target: "Torulaspora gut mycobiome dysbiosis IBS"
 wikipedia_differentiation: "Gut mycobiome role — alterations in IBS and IBD, zinc/manganese dependencies, and ecological interactions with bacteria — entirely absent from Wikipedia, which covers only winemaking applications"
 ---
 
 # Torulaspora
 
-A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in fermentation environments (bread, wine, kombucha) and increasingly detected as a component of the human gut mycobiome. While typically at low abundance in healthy individuals, *Torulaspora delbrueckii* and related species expand in certain disease states and dysbiotic conditions, marking a potential transition from commensal to pathobiont under specific metabolic and immune pressures. The genus is **zinc and manganese-dependent** for core metabolic enzymes and biofilm formation.
+A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in fermentation environments (bread, wine, kombucha) and increasingly detected as a component of the human gut mycobiome. While typically at low abundance in healthy individuals, *Torulaspora delbrueckii* and related species expand in certain disease states and dysbiotic conditions, marking a potential transition from commensal to pathobiont under specific metabolic and immune pressures. The genus is zinc and manganese-dependent for core metabolic enzymes and biofilm formation.
 
 ## Taxonomy and Species
 
-- **Torulaspora delbrueckii** -- the primary species in food fermentation (sourdough, wine); occasionally isolated from human samples.
-- **Torulaspora globosa** -- emerging as a distinct mycobiome member; documented in gut samples from IBD and metabolic syndrome cohorts.
-- **Classification**: Saccharomycetaceae (close relative to [[saccharomyces-cerevisiae]]), but ecologically distinct from baker's yeast.
+- Torulaspora delbrueckii -- the primary species in food fermentation (sourdough, wine); occasionally isolated from human samples.
+- Torulaspora globosa -- emerging as a distinct mycobiome member; documented in gut samples from IBD and metabolic syndrome cohorts.
+- Classification: Saccharomycetaceae (close relative to [[saccharomyces-cerevisiae]]), but ecologically distinct from baker's yeast.
 
 ## Growth Physiology and Fermentation
 
-- **Facultative anaerobe**: Thrives under both aerobic (fermentation with oxidative phosphorylation) and anaerobic (fermentation to ethanol and CO2) conditions.
-- **Sugar utilization**: Ferments glucose, fructose, and sucrose; produces ethanol and CO2 as major fermentation products.
-- **Osmotolerance**: Survives high-sugar and high-alcohol environments (wine, preserved foods), giving it competitive advantage in specific niches.
+- Facultative anaerobe: Thrives under both aerobic (fermentation with oxidative phosphorylation) and anaerobic (fermentation to ethanol and CO2) conditions.
+- Sugar utilization: Ferments glucose, fructose, and sucrose; produces ethanol and CO2 as major fermentation products.
+- Osmotolerance: Survives high-sugar and high-alcohol environments (wine, preserved foods), giving it competitive advantage in specific niches.
 
 ## Metal Dependencies and Virulence Potential
 
 ### Zinc-Dependent Enzymes
 
-- **Alcohol dehydrogenase (ADH)** -- Zn-dependent enzyme critical for both ethanol fermentation and ethanol metabolism during aerobic growth.
-- **Carboxypeptidases** -- Zn-metalloproteases; required for protein catabolism and nutrient scavenging.
+- Alcohol dehydrogenase (ADH) -- Zn-dependent enzyme critical for both ethanol fermentation and ethanol metabolism during aerobic growth.
+- Carboxypeptidases -- Zn-metalloproteases; required for protein catabolism and nutrient scavenging.
 - Zinc availability influences *Torulaspora* growth rate and biofilm formation.
 
 ### Manganese and Iron
 
-- **Manganese**: Cofactor for MnSOD (oxidative stress defense); Mn availability impacts survival in inflamed gut environments.
-- **Iron**: Essential for respiration and core metabolic enzymes; iron sequestration by host [[lactoferrin]] and [[transferrin]] may suppress *Torulaspora* under health but allow expansion in iron-rich dysbiotic states.
+- Manganese: Cofactor for MnSOD (oxidative stress defense); Mn availability impacts survival in inflamed gut environments.
+- Iron: Essential for respiration and core metabolic enzymes; iron sequestration by host [[lactoferrin]] and [[transferrin]] may suppress *Torulaspora* under health but allow expansion in iron-rich dysbiotic states.
 
 ## Biofilm and Adhesion
 
@@ -64,9 +68,9 @@ A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in
 
 ### Disease States
 
-- **Inflammatory Bowel Disease**: Elevated *Torulaspora* abundance reported in some IBD cohorts; co-enrichment with pathogenic bacteria suggests dysbiotic consortia.
-- **Obesity and Metabolic Syndrome**: Altered mycobiome composition with increased *Torulaspora* in some studies; potential role in metabolic endotoxemia via altered fungal metabolites.
-- **Type 2 Diabetes**: Emerging evidence for dysbiotic mycobiome expansion including *Torulaspora*; unclear whether causative or consequence.
+- Inflammatory Bowel Disease: Elevated *Torulaspora* abundance reported in some IBD cohorts; co-enrichment with pathogenic bacteria suggests dysbiotic consortia.
+- Obesity and Metabolic Syndrome: Altered mycobiome composition with increased *Torulaspora* in some studies; potential role in metabolic endotoxemia via altered fungal metabolites.
+- Type 2 Diabetes: Emerging evidence for dysbiotic mycobiome expansion including *Torulaspora*; unclear whether causative or consequence.
 
 ### Interkingdom Cooperation
 
@@ -78,7 +82,7 @@ A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in
 
 - *Torulaspora delbrueckii* has been explored as a probiotic in animal models; shows potential for improving barrier function and reducing pathogenic bacterial load.
 - GRAS status in food fermentation suggests safety profile superior to pathogenic yeasts (e.g., *Candida albicans*).
-- **Open question**: Whether dietary *Torulaspora* (from fermented foods) confers health benefit or merely transiently colonizes.
+- Open question: Whether dietary *Torulaspora* (from fermented foods) confers health benefit or merely transiently colonizes.
 
 ## Ecological Interactions
 
@@ -94,9 +98,9 @@ A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in
 
 ## Detection and Abundance
 
-- **Sequencing**: ITS (Internal Transcribed Spacer) barcoding; rarely cultured from fecal samples due to fastidiousness.
-- **Typical abundance**: <0.5% in healthy controls; can reach 1-5% in dysbiotic IBD and obesity cohorts.
-- **Challenge**: Distinguishing dietary *Torulaspora* (from fermented foods) from established colonization requires temporal sampling and dietary tracking.
+- Sequencing: ITS (Internal Transcribed Spacer) barcoding; rarely cultured from fecal samples due to fastidiousness.
+- Typical abundance: <0.5% in healthy controls; can reach 1-5% in dysbiotic IBD and obesity cohorts.
+- Challenge: Distinguishing dietary *Torulaspora* (from fermented foods) from established colonization requires temporal sampling and dietary tracking.
 
 ## Connections
 

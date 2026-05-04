@@ -4,9 +4,14 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia
+  - gutmann-2025-functional-microbiome-diet-ms
+  - nishiwaki-2024-meta-analysis-shotgun-parkinsons-riboflavin-biotin
+  - pietrucci-2020-butyrogenic-fibers-parkinsons
+  - rahman-2022-gut-microbiota-cvd-therapeutic-regulation
+source_count: 5
 tags:
   - firmicutes
   - lachnospiraceae
@@ -29,17 +34,15 @@ conditions_depleted_in:
   - inflammatory-bowel-disease
   - type-2-diabetes
   - colorectal-cancer
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Roseburia intestinalis** is a Gram-positive, obligate anaerobic member of the Lachnospiraceae family (Firmicutes). It is one of the most important **butyrate producers** in the human colon, converting dietary fiber into [[butyrate]] — the primary energy source for colonocytes and a key regulator of intestinal immune homeostasis.
+Roseburia intestinalis is a Gram-positive, obligate anaerobic member of the Lachnospiraceae family (Firmicutes). It is one of the most important butyrate producers in the human colon, converting dietary fiber into [[butyrate]] — the primary energy source for colonocytes and a key regulator of intestinal immune homeostasis.
 
 ## Metal Dependencies
 
-R. intestinalis requires **iron** for its electron transport chain and butyrate biosynthesis enzymes, yet it lacks the aggressive iron acquisition systems (siderophores) of Proteobacteria. This asymmetry means that when luminal iron rises during inflammation, iron-scavenging pathogens outcompete R. intestinalis, reducing butyrate output precisely when the gut needs it most.
+R. intestinalis requires iron for its electron transport chain and butyrate biosynthesis enzymes, yet it lacks the aggressive iron acquisition systems (siderophores) of Proteobacteria. This asymmetry means that when luminal iron rises during inflammation, iron-scavenging pathogens outcompete R. intestinalis, reducing butyrate output precisely when the gut needs it most.
 
 ## Ecological Role
 

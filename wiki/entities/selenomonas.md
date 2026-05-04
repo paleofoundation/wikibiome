@@ -30,9 +30,9 @@ A genus of Gram-negative, crescent-shaped, strictly anaerobic bacteria found in 
 
 ## Key Enzymes and Virulence Factors
 
-- **Propionate production enzymes** -- *Selenomonas* contributes to the succinate/propionate pathway, producing [[propionic-acid]] as a major fermentation end product
-- **H2S-producing enzymes** -- Generation of hydrogen sulfide, a gasotransmitter that at high concentrations damages colonocytes and binds metal cofactors in host enzymes
-- **Flagellar motility** -- Unusual lateral flagellation pattern enables movement through viscous mucosal environments
+- Propionate production enzymes -- *Selenomonas* contributes to the succinate/propionate pathway, producing [[propionic-acid]] as a major fermentation end product
+- H2S-producing enzymes -- Generation of hydrogen sulfide, a gasotransmitter that at high concentrations damages colonocytes and binds metal cofactors in host enzymes
+- Flagellar motility -- Unusual lateral flagellation pattern enables movement through viscous mucosal environments
 
 ## Ecological Role
 
@@ -50,15 +50,15 @@ In the gut, *Selenomonas* participates in saccharolytic fermentation. In a synbi
 
 ## Conditions Associated
 
-- **Colorectal cancer** -- Enriched specifically in proximal tumors; part of the "driver-passenger" model of CRC microbial ecology ([[gao-2015-microbiota-disbiosis-colorectal-cancer]], cross-sectional)
-- **Schizophrenia** -- Enriched in first-episode psychosis oral microbiome as an H2S-producing bacterium; correlates with neuroinflammation ([[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]], cross-sectional)
-- **Chronic kidney disease** -- Increased with synbiotic treatment, suggesting a role in saccharolytic fermentation ([[vacca-2023-synbiotic-ckd-stage-iiib-iv]], RCT, n=50)
+- Colorectal cancer -- Enriched specifically in proximal tumors; part of the "driver-passenger" model of CRC microbial ecology ([[gao-2015-microbiota-disbiosis-colorectal-cancer]], cross-sectional)
+- Schizophrenia -- Enriched in first-episode psychosis oral microbiome as an H2S-producing bacterium; correlates with neuroinflammation ([[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]], cross-sectional)
+- Chronic kidney disease -- Increased with synbiotic treatment, suggesting a role in saccharolytic fermentation ([[vacca-2023-synbiotic-ckd-stage-iiib-iv]], RCT, n=50)
 
 ## Key Studies
 
-- **[[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]]** (cross-sectional, n=208) -- Identifies *Selenomonas* among H2S-producing bacteria enriched in first-episode schizophrenia; correlates with neuroinflammation markers.
-- **[[gao-2015-microbiota-disbiosis-colorectal-cancer]]** (cross-sectional, n=61) -- Maps *Selenomonas* enrichment in proximal CRC tumors with PCA separation from distal tumors.
-- **[[vacca-2023-synbiotic-ckd-stage-iiib-iv]]** (RCT, n=50) -- Documents unexpected *Selenomonas* enrichment during synbiotic-mediated metabolic shift in CKD.
+- [[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]] (cross-sectional, n=208) -- Identifies *Selenomonas* among H2S-producing bacteria enriched in first-episode schizophrenia; correlates with neuroinflammation markers.
+- [[gao-2015-microbiota-disbiosis-colorectal-cancer]] (cross-sectional, n=61) -- Maps *Selenomonas* enrichment in proximal CRC tumors with PCA separation from distal tumors.
+- [[vacca-2023-synbiotic-ckd-stage-iiib-iv]] (RCT, n=50) -- Documents unexpected *Selenomonas* enrichment during synbiotic-mediated metabolic shift in CKD.
 
 ## Cross-References
 

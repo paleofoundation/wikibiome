@@ -29,27 +29,27 @@ targets:
 karen_brain_primitives: [2, 4, 8]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # Lactoferrin Supplementation (Cross-Condition)
 
 ## Intervention Summary
 
-Lactoferrin is an iron-binding glycoprotein that sequesters free iron from the gut lumen, starving siderophore-dependent pathogens while supporting host iron absorption via dedicated lactoferrin receptors on enterocytes. **The key alternative to iron supplementation in inflammatory states** where hepcidin elevation indicates functional anemia (host nutritional immunity defense), not true iron deficiency.
+Lactoferrin is an iron-binding glycoprotein that sequesters free iron from the gut lumen, starving siderophore-dependent pathogens while supporting host iron absorption via dedicated lactoferrin receptors on enterocytes. The key alternative to iron supplementation in inflammatory states where hepcidin elevation indicates functional anemia (host nutritional immunity defense), not true iron deficiency.
 
 ## Evidence
 
-- **Neonatal NEC prevention**: RCTs demonstrate reduced necrotizing enterocolitis incidence in preterm infants receiving bovine lactoferrin
-- **Iron status in pregnancy**: Lactoferrin supplementation improves hemoglobin and ferritin without the gastrointestinal side effects of ferrous sulfate, and without feeding gut pathogens
-- **Anti-inflammatory**: Reduces CRP and intestinal inflammation markers in multiple clinical settings
-- **In vitro**: Potent inhibition of biofilm formation by E. coli, Pseudomonas, and Staphylococcus
+- Neonatal NEC prevention: RCTs demonstrate reduced necrotizing enterocolitis incidence in preterm infants receiving bovine lactoferrin
+- Iron status in pregnancy: Lactoferrin supplementation improves hemoglobin and ferritin without the gastrointestinal side effects of ferrous sulfate, and without feeding gut pathogens
+- Anti-inflammatory: Reduces CRP and intestinal inflammation markers in multiple clinical settings
+- In vitro: Potent inhibition of biofilm formation by E. coli, Pseudomonas, and Staphylococcus
 
 ## Mechanism
 
-1. **Iron sequestration**: Lactoferrin binds free Fe3+ with extremely high affinity, removing the substrate that siderophore-producing pathogens require for virulence
-2. **Selective iron delivery**: Host enterocytes express lactoferrin receptors, enabling iron absorption even when luminal iron is sequestered — the host gets iron, pathogens do not
-3. **Anti-biofilm**: Lactoferrin disrupts iron-dependent biofilm architecture by chelating the structural iron that cross-links extracellular matrix
-4. **Immunomodulation**: Activates NK cells, promotes macrophage phagocytosis, modulates cytokine production
+1. Iron sequestration: Lactoferrin binds free Fe3+ with extremely high affinity, removing the substrate that siderophore-producing pathogens require for virulence
+2. Selective iron delivery: Host enterocytes express lactoferrin receptors, enabling iron absorption even when luminal iron is sequestered — the host gets iron, pathogens do not
+3. Anti-biofilm: Lactoferrin disrupts iron-dependent biofilm architecture by chelating the structural iron that cross-links extracellular matrix
+4. Immunomodulation: Activates NK cells, promotes macrophage phagocytosis, modulates cytokine production
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ Lactoferrin supplementation is most valuable when conventional iron supplementat
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

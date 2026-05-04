@@ -24,7 +24,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Phocaeicola
 
-A Gram-negative, obligate anaerobic genus within the phylum Bacteroidota (formerly Bacteroidetes) that was **recently reclassified from *Bacteroides*** based on phylogenomic evidence (Garcia-Lopez *et al.*, 2019). The key species -- *Phocaeicola vulgatus* (formerly *Bacteroides vulgatus*), *P. dorei*, *P. massiliensis* -- are among the most abundant gut bacteria, yet the reclassification means that decades of *Bacteroides* literature must now be reinterpreted. *Phocaeicola* has gained particular attention in PCOS research, where FMT experiments demonstrate that a *Phocaeicola*-enriched microbiota **causally transfers the PCOS phenotype** to germ-free mice.
+A Gram-negative, obligate anaerobic genus within the phylum Bacteroidota (formerly Bacteroidetes) that was recently reclassified from *Bacteroides* based on phylogenomic evidence (Garcia-Lopez *et al.*, 2019). The key species -- *Phocaeicola vulgatus* (formerly *Bacteroides vulgatus*), *P. dorei*, *P. massiliensis* -- are among the most abundant gut bacteria, yet the reclassification means that decades of *Bacteroides* literature must now be reinterpreted. *Phocaeicola* has gained particular attention in PCOS research, where FMT experiments demonstrate that a *Phocaeicola*-enriched microbiota causally transfers the PCOS phenotype to germ-free mice.
 
 ## Taxonomy
 
@@ -35,16 +35,16 @@ A Gram-negative, obligate anaerobic genus within the phylum Bacteroidota (former
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Like other Bacteroidota, *Phocaeicola* encodes TonB-dependent outer membrane receptors for iron acquisition.
 - Iron-dependent fumarate reductase supports anaerobic respiration.
 - *Phocaeicola* species generally have moderate iron requirements, less aggressive than Enterobacteriaceae but sufficient to benefit from iron-replete inflammatory environments.
 
 ## Key Enzymes and Metabolic Features
 
-- **Polysaccharide utilization loci (PUL)**: *Phocaeicola* encodes extensive PUL systems for degrading complex dietary and host-derived glycans. This is the hallmark metabolic capability of Bacteroidota and positions *Phocaeicola* as a primary carbohydrate degrader in the gut.
-- **Beta-glucosidase**: Hydrolyzes dietary plant glucosides; relevant to polyphenol and phytoestrogen metabolism.
-- **Succinate dehydrogenase**: Iron-dependent enzyme in fumarate respiration, the primary anaerobic energy-generating pathway.
+- Polysaccharide utilization loci (PUL): *Phocaeicola* encodes extensive PUL systems for degrading complex dietary and host-derived glycans. This is the hallmark metabolic capability of Bacteroidota and positions *Phocaeicola* as a primary carbohydrate degrader in the gut.
+- Beta-glucosidase: Hydrolyzes dietary plant glucosides; relevant to polyphenol and phytoestrogen metabolism.
+- Succinate dehydrogenase: Iron-dependent enzyme in fumarate respiration, the primary anaerobic energy-generating pathway.
 
 ## Ecological Role
 
@@ -52,7 +52,7 @@ A Gram-negative, obligate anaerobic genus within the phylum Bacteroidota (former
 *Phocaeicola* species are among the most abundant organisms in the human colon, typically comprising 5-15% of the total community. They serve as primary degraders of complex carbohydrates, producing succinate, acetate, and propionate as fermentation end products. Their extensive PUL repertoire allows them to exploit a wide range of dietary substrates.
 
 ### In PCOS
-FMT from PCOS patients to germ-free mice **recapitulates the full PCOS phenotype** -- insulin resistance, ovarian dysfunction, and obese-like phenotype [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. The transferred microbiome was enriched in *Phocaeicola*, [[mediterraneibacter]], [[oscillospiraceae]], and *Lawsonibacter*, establishing these taxa as potential causal mediators of the PCOS gut-ovarian axis.
+FMT from PCOS patients to germ-free mice recapitulates the full PCOS phenotype -- insulin resistance, ovarian dysfunction, and obese-like phenotype [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. The transferred microbiome was enriched in *Phocaeicola*, [[mediterraneibacter]], [[oscillospiraceae]], and *Lawsonibacter*, establishing these taxa as potential causal mediators of the PCOS gut-ovarian axis.
 
 ## Conditions Associated
 

@@ -20,17 +20,17 @@ karen_brain_primitives: [1, 2, 4, 8]
 
 # STOP: Oral Iron Supplementation in IBD/Crohn's Disease
 
-> **Research summary -- not medical advice.** This page synthesizes published research on why a commonly prescribed intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
+> Research summary -- not medical advice. This page synthesizes published research on why a commonly prescribed intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
 
 ## The Iron Paradox in IBD
 
-Crohn's disease and ulcerative colitis present one of the clearest examples of the **iron supplementation paradox** in medicine. Patients are genuinely anemic -- up to 70% of CD patients have iron deficiency anemia from chronic blood loss, malabsorption, and reduced intake. The reflex clinical response is oral iron. But this reflex misses a critical distinction: **why** the patient is iron-depleted.
+Crohn's disease and ulcerative colitis present one of the clearest examples of the iron supplementation paradox in medicine. Patients are genuinely anemic -- up to 70% of CD patients have iron deficiency anemia from chronic blood loss, malabsorption, and reduced intake. The reflex clinical response is oral iron. But this reflex misses a critical distinction: why the patient is iron-depleted.
 
 ## Why Oral Iron Is Counterproductive
 
 ### 1. Hepcidin Elevation = Host Defense, Not Deficiency
 
-In active IBD, [[hepcidin]] is elevated as part of the acute-phase inflammatory response. Hepcidin degrades ferroportin, the sole iron exporter on enterocytes and macrophages, effectively trapping iron inside cells and blocking absorption from the gut lumen [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]. This is **deliberate**: the host is executing [[nutritional-immunity]] -- withholding iron from luminal pathogens. Low serum iron in this context represents a functional anemia (anemia of chronic disease), not true nutritional deficiency [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
+In active IBD, [[hepcidin]] is elevated as part of the acute-phase inflammatory response. Hepcidin degrades ferroportin, the sole iron exporter on enterocytes and macrophages, effectively trapping iron inside cells and blocking absorption from the gut lumen [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]. This is deliberate: the host is executing [[nutritional-immunity]] -- withholding iron from luminal pathogens. Low serum iron in this context represents a functional anemia (anemia of chronic disease), not true nutritional deficiency [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
 
 Oral iron supplementation in this setting is futile because hepcidin blocks absorption anyway. The unabsorbed iron passes to the colon, where it causes harm.
 
@@ -55,16 +55,16 @@ Unabsorbed oral iron worsens intestinal inflammation, leading to increased fecal
 | Hepcidin | Ferritin | TSAT | Interpretation | Action |
 |----------|----------|------|----------------|--------|
 | Low | Low | Low | True iron deficiency | Oral iron acceptable (with caution); IV iron preferred |
-| **High** | **Normal/High** | **Low** | **Functional anemia (inflammation)** | **STOP oral iron. Treat inflammation. IV iron if needed.** |
+| High | Normal/High | Low | Functional anemia (inflammation) | STOP oral iron. Treat inflammation. IV iron if needed. |
 | High | High | Normal | Iron overload or inflammation | Do NOT supplement |
 
 ## Alternatives
 
-1. **[[lactoferrin-supplementation]]**: Lactoferrin binds free Fe3+ with extremely high affinity, delivering iron to host cells via lactoferrin receptors while sequestering it from pathobionts. RCT evidence shows lactoferrin 200 mg/day is as effective as ferrous sulfate 520 mg/day for iron repletion with fewer GI side effects and without feeding pathogens [[roberts-2019-lactoferrin-genital-infections-iron]].
+1. [[lactoferrin-supplementation]]: Lactoferrin binds free Fe3+ with extremely high affinity, delivering iron to host cells via lactoferrin receptors while sequestering it from pathobionts. RCT evidence shows lactoferrin 200 mg/day is as effective as ferrous sulfate 520 mg/day for iron repletion with fewer GI side effects and without feeding pathogens [[roberts-2019-lactoferrin-genital-infections-iron]].
 
-2. **IV iron (ferric carboxymaltose or iron sucrose)**: Bypasses the luminal compartment entirely. European Crohn's and Colitis Organisation (ECCO) already recommends IV iron as first-line for IBD-associated anemia. The PIVOTAL trial and other RCTs confirm efficacy. See [[iron-management]] for detailed dosing guidance.
+2. IV iron (ferric carboxymaltose or iron sucrose): Bypasses the luminal compartment entirely. European Crohn's and Colitis Organisation (ECCO) already recommends IV iron as first-line for IBD-associated anemia. The PIVOTAL trial and other RCTs confirm efficacy. See [[iron-management]] for detailed dosing guidance.
 
-3. **Treat the underlying inflammation**: When hepcidin is elevated, correcting the inflammatory state (anti-TNF therapy, dietary intervention, ecological restoration) is the primary strategy. Iron stores will mobilize once inflammation resolves and hepcidin normalizes.
+3. Treat the underlying inflammation: When hepcidin is elevated, correcting the inflammatory state (anti-TNF therapy, dietary intervention, ecological restoration) is the primary strategy. Iron stores will mobilize once inflammation resolves and hepcidin normalizes.
 
 ## Key Evidence
 
@@ -85,4 +85,4 @@ Unabsorbed oral iron worsens intestinal inflammation, leading to increased fecal
 
 ---
 
-> **Educational content, not medical advice.** Clinical decisions about iron management in IBD should be made with a gastroenterologist who can measure hepcidin, ferritin, TSAT, and CRP to distinguish true deficiency from functional anemia.
+> Educational content, not medical advice. Clinical decisions about iron management in IBD should be made with a gastroenterologist who can measure hepcidin, ferritin, TSAT, and CRP to distinguish true deficiency from functional anemia.

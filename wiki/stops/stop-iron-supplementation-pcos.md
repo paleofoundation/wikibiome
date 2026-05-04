@@ -20,7 +20,7 @@ karen_brain_primitives: [1, 2, 4]
 
 # STOP: Iron Supplementation in PCOS
 
-> **Research summary -- not medical advice.** This page synthesizes published research on why empiric iron supplementation may be counterproductive in PCOS. Consult a qualified healthcare provider before making any changes to supplementation.
+> Research summary -- not medical advice. This page synthesizes published research on why empiric iron supplementation may be counterproductive in PCOS. Consult a qualified healthcare provider before making any changes to supplementation.
 
 ## The Problem
 
@@ -32,9 +32,9 @@ PCOS patients frequently report fatigue, and clinicians may attribute this to ir
 
 PCOS is characterized by severe antioxidant depletion [[abudawood-2021-antioxidant-heavy-metals-pcos]]:
 
-- **SOD decreased 47%**: 9.30 vs 17.39 IU/mL (p < 0.001)
-- **GSH decreased 23%**: 6.24 vs 8.09 mg/mL (p < 0.001)
-- **TOS/OSI elevated**: total oxidant status and oxidative stress index are abnormal
+- SOD decreased 47%: 9.30 vs 17.39 IU/mL (p < 0.001)
+- GSH decreased 23%: 6.24 vs 8.09 mg/mL (p < 0.001)
+- TOS/OSI elevated: total oxidant status and oxidative stress index are abnormal
 
 Iron is a powerful pro-oxidant through Fenton chemistry: Fe2+ + H2O2 generates hydroxyl radicals, the most reactive oxygen species. Adding iron to a system already overwhelmed by oxidative stress and depleted of antioxidant defenses (SOD, GSH) amplifies the very pathological process driving PCOS morbidity.
 
@@ -52,9 +52,9 @@ PCOS patients already have insulin resistance as a core metabolic feature. Iron 
 
 PCOS patients carry a significantly elevated toxic metal burden. All four major toxic metals (As, Cd, Pb, Hg) are significantly elevated (p < 0.001 for all) [[abudawood-2021-antioxidant-heavy-metals-pcos]]. These toxic metals:
 
-- **Deplete glutathione**: As, Pb, and Hg negatively correlate with GSH levels
-- **Generate ROS**: Each toxic metal independently drives oxidative stress
-- **Synergize with iron**: Iron + toxic metal co-exposure amplifies oxidative damage beyond what either produces alone
+- Deplete glutathione: As, Pb, and Hg negatively correlate with GSH levels
+- Generate ROS: Each toxic metal independently drives oxidative stress
+- Synergize with iron: Iron + toxic metal co-exposure amplifies oxidative damage beyond what either produces alone
 
 Adding supplemental iron to this already metal-burdened, antioxidant-depleted system compounds the toxic metal damage.
 
@@ -72,19 +72,19 @@ Iron accumulation in ovarian tissue drives [[ferroptosis]] -- iron-dependent lip
 
 This STOP does not mean PCOS patients should never have iron status assessed. Rather:
 
-1. **Measure before supplementing**: Ferritin, TSAT, hepcidin, and CRP together -- not just hemoglobin
-2. **Distinguish true deficiency from inflammatory redistribution**: High CRP + normal/high ferritin + low TSAT = functional anemia (treat inflammation, not iron)
-3. **Address the underlying cause of bleeding**: If heavy menstrual bleeding is driving true iron loss, manage the bleeding (hormonal regulation) rather than perpetually replacing iron
-4. **Use the right form if truly deficient**: Ferrous bisglycinate (better tolerated, less oxidative) or lactoferrin (delivers iron without pro-oxidant effects)
+1. Measure before supplementing: Ferritin, TSAT, hepcidin, and CRP together -- not just hemoglobin
+2. Distinguish true deficiency from inflammatory redistribution: High CRP + normal/high ferritin + low TSAT = functional anemia (treat inflammation, not iron)
+3. Address the underlying cause of bleeding: If heavy menstrual bleeding is driving true iron loss, manage the bleeding (hormonal regulation) rather than perpetually replacing iron
+4. Use the right form if truly deficient: Ferrous bisglycinate (better tolerated, less oxidative) or lactoferrin (delivers iron without pro-oxidant effects)
 
 ## The Priority Hierarchy for PCOS
 
 Before considering iron, address:
 
-1. **Antioxidant restoration**: [[nac-supplementation]] (glutathione repletion), [[selenium-supplementation]] (GPX4 cofactor), vitamin E
-2. **Insulin resistance**: Mediterranean diet, metformin, low-carb or ketogenic approaches
-3. **Gut microbiome**: Vitamin D + probiotic co-supplementation (L. acidophilus, B. bifidum, L. reuteri, L. fermentum) shown to reduce testosterone, hirsutism, CRP, and MDA while increasing TAC and GSH
-4. **Metal burden reduction**: Minimize Cd, Ni, Pb exposure through dietary choices; consider metal-binding probiotics
+1. Antioxidant restoration: [[nac-supplementation]] (glutathione repletion), [[selenium-supplementation]] (GPX4 cofactor), vitamin E
+2. Insulin resistance: Mediterranean diet, metformin, low-carb or ketogenic approaches
+3. Gut microbiome: Vitamin D + probiotic co-supplementation (L. acidophilus, B. bifidum, L. reuteri, L. fermentum) shown to reduce testosterone, hirsutism, CRP, and MDA while increasing TAC and GSH
+4. Metal burden reduction: Minimize Cd, Ni, Pb exposure through dietary choices; consider metal-binding probiotics
 
 Only after these foundational interventions should iron status be reassessed. In many cases, correcting inflammation and insulin resistance resolves the apparent iron dysregulation without supplementation.
 
@@ -103,4 +103,4 @@ Only after these foundational interventions should iron status be reassessed. In
 
 ---
 
-> **Educational content, not medical advice.** Iron supplementation decisions in PCOS should be guided by comprehensive iron panel assessment (ferritin, TSAT, hepcidin, CRP) with an understanding that the metabolic and inflammatory context of PCOS makes empiric iron supplementation potentially harmful.
+> Educational content, not medical advice. Iron supplementation decisions in PCOS should be guided by comprehensive iron panel assessment (ferritin, TSAT, hepcidin, CRP) with an understanding that the metabolic and inflammatory context of PCOS makes empiric iron supplementation potentially harmful.

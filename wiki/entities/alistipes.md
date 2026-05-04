@@ -23,7 +23,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Alistipes
 
-A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (family Rikenellaceae). *Alistipes* occupies a **complex and context-dependent role** in the gut ecosystem — some species carry well-documented anti-inflammatory properties, while the genus is paradoxically enriched in [[colorectal-cancer]] and associated with Western dietary patterns. Key species include *A. finegoldii*, *A. putredinis*, *A. indistinctus*, and *A. shahii*, each with distinct disease associations that illustrate why species-level resolution matters.
+A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (family Rikenellaceae). *Alistipes* occupies a complex and context-dependent role in the gut ecosystem — some species carry well-documented anti-inflammatory properties, while the genus is paradoxically enriched in [[colorectal-cancer]] and associated with Western dietary patterns. Key species include *A. finegoldii*, *A. putredinis*, *A. indistinctus*, and *A. shahii*, each with distinct disease associations that illustrate why species-level resolution matters.
 
 ## Classification and Habitat
 
@@ -31,17 +31,17 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (famil
 
 ## Role in Gut Ecosystem
 
-- **Bile acid metabolism**: Bile-resistant anaerobe that contributes to secondary bile acid production, sharing this metabolic niche with [[parabacteroides]] and [[bacteroides-fragilis]]. Deoxycholic acid and lithocholic acid produced by bile acid deconjugators in this niche have complex immunomodulatory effects via FXR and TGR5 receptors.
-- **Tryptophan metabolism**: Produces indole and indole derivatives (indole-3-acetic acid, indole-3-propionic acid) from tryptophan, generating aryl hydrocarbon receptor (AhR) ligands that support mucosal immunity, gut barrier integrity, and Treg differentiation.
-- **SCFA production**: Ferments complex carbohydrates to produce [[short-chain-fatty-acids]], primarily acetate and propionate, contributing to colonocyte energy supply and barrier maintenance.
-- **Community ecology**: One of the 18 dominant bacterial genera identified in the human colon [[sobhani-2011-microbial-dysbiosis-colorectal-cancer]], with consistent presence across diverse human populations.
-- **Western diet association**: Enrichment in Western diet is documented — diets high in fat and low in fiber favor *Alistipes*, *Bilophila*, and *Bacteroides* over fiber-dependent commensals [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
+- Bile acid metabolism: Bile-resistant anaerobe that contributes to secondary bile acid production, sharing this metabolic niche with [[parabacteroides]] and [[bacteroides-fragilis]]. Deoxycholic acid and lithocholic acid produced by bile acid deconjugators in this niche have complex immunomodulatory effects via FXR and TGR5 receptors.
+- Tryptophan metabolism: Produces indole and indole derivatives (indole-3-acetic acid, indole-3-propionic acid) from tryptophan, generating aryl hydrocarbon receptor (AhR) ligands that support mucosal immunity, gut barrier integrity, and Treg differentiation.
+- SCFA production: Ferments complex carbohydrates to produce [[short-chain-fatty-acids]], primarily acetate and propionate, contributing to colonocyte energy supply and barrier maintenance.
+- Community ecology: One of the 18 dominant bacterial genera identified in the human colon [[sobhani-2011-microbial-dysbiosis-colorectal-cancer]], with consistent presence across diverse human populations.
+- Western diet association: Enrichment in Western diet is documented — diets high in fat and low in fiber favor *Alistipes*, *Bilophila*, and *Bacteroides* over fiber-dependent commensals [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 
 ## Metal Dependencies and Lead Sensitivity
 
 Although *Alistipes* has no confirmed essential metal dependencies unique to the genus, it is notably sensitive to heavy metal exposure:
 
-- **Lead depletion**: *A. indistinctus* and *A. putredinis* are among the taxa most reproducibly depleted by prenatal lead (Pb) exposure. In the PROGRESS birth cohort (n=123 mother-child pairs), both species exceeded the WQS importance threshold in ≥80% of repeated holdouts across both second and third trimester exposures [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]], [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]].
+- Lead depletion: *A. indistinctus* and *A. putredinis* are among the taxa most reproducibly depleted by prenatal lead (Pb) exposure. In the PROGRESS birth cohort (n=123 mother-child pairs), both species exceeded the WQS importance threshold in ≥80% of repeated holdouts across both second and third trimester exposures [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]], [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]].
 - This Pb-driven depletion persists into childhood (ages 9–11), indicating that prenatal metal exposure can alter commensal colonization trajectories well beyond infancy.
 - The mechanism likely involves Pb-induced disruption of bile acid metabolism and anaerobic niche competition, as Pb preferentially disrupts Bacteroidetes over Firmicutes.
 
@@ -59,10 +59,10 @@ Although *Alistipes* has no confirmed essential metal dependencies unique to the
 
 *Alistipes* illustrates a common problem in microbiome research: genus-level analysis masks important species-level heterogeneity.
 
-- **A. finegoldii** — associated with anti-inflammatory effects; produces AhR-active indole derivatives; enriched in healthy gut
-- **A. putredinis** — core commensal in healthy adults; depleted by prenatal lead exposure
-- **A. indistinctus** — positively correlated with mast cell infiltration, IL-6, and IL-6R immune activators in advanced-stage (III–IV) CRC; enriched in schizophrenia patients alongside succinate producers [[liu-2023-colorectal-cancer-progression-microbiome-signature]], [[ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia]]
-- **A. shahii** — negatively correlated with Crohn's disease severity; higher abundance associated with less severe CD in machine-learning analysis [[kang-2023-diagnosis-crohns-uc-microbiome]]
+- A. finegoldii — associated with anti-inflammatory effects; produces AhR-active indole derivatives; enriched in healthy gut
+- A. putredinis — core commensal in healthy adults; depleted by prenatal lead exposure
+- A. indistinctus — positively correlated with mast cell infiltration, IL-6, and IL-6R immune activators in advanced-stage (III–IV) CRC; enriched in schizophrenia patients alongside succinate producers [[liu-2023-colorectal-cancer-progression-microbiome-signature]], [[ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia]]
+- A. shahii — negatively correlated with Crohn's disease severity; higher abundance associated with less severe CD in machine-learning analysis [[kang-2023-diagnosis-crohns-uc-microbiome]]
 
 This species-level divergence explains apparently contradictory findings where the same genus appears anti-inflammatory in one disease context and pro-inflammatory in another.
 
@@ -72,7 +72,7 @@ This species-level divergence explains apparently contradictory findings where t
 Enriched in CRC and contributes to cancer progression. *A. indistinctus* is positively correlated with mast cell infiltration, IL-6, and IL-6R in advanced-stage (III–IV) CRC [[liu-2023-colorectal-cancer-progression-microbiome-signature]]. Part of the progression-associated microbiome signature distinguishing early from advanced CRC, alongside *Proteus* and [[parabacteroides]]. Enrichment in CRC may reflect altered bile acid profiles in the tumor microenvironment, where secondary bile acids promote epithelial proliferation and [[DNA-damage]].
 
 ### Autoimmune Disease — Depletion
-Significantly **depleted in [[graves-disease]]** alongside [[bacteroides-fragilis]] and [[parabacteroides]], contributing to the loss of anti-inflammatory commensals that characterizes thyroid autoimmunity [[su-2020-gut-microbiota-immune-imbalance-graves]]. The depletion correlates with reduced Treg activity and elevated Th17/Treg ratios, consistent with the loss of AhR-ligand production.
+Significantly depleted in [[graves-disease]] alongside [[bacteroides-fragilis]] and [[parabacteroides]], contributing to the loss of anti-inflammatory commensals that characterizes thyroid autoimmunity [[su-2020-gut-microbiota-immune-imbalance-graves]]. The depletion correlates with reduced Treg activity and elevated Th17/Treg ratios, consistent with the loss of AhR-ligand production.
 
 ### Multiple Sclerosis — Enrichment (Bacteroidetes Expansion)
 Elevated baseline abundance in MS patients as part of a broader Bacteroidetes expansion (higher *Prevotella*, *Butyricimonas*, *Coprobacter*, *Parabacteroides*, *Alistipes*), though this is driven by Firmicutes reduction rather than selective Alistipes proliferation [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]]. The context-dependent direction of change (enriched in MS, depleted in Graves') reflects different immune environments.
@@ -89,8 +89,8 @@ Hypertension causally decreases *Alistipes* abundance in reverse Mendelian rando
 ## Dietary Modulation
 
 *Alistipes* abundance responds markedly to dietary patterns:
-- **Western diet** (high fat, low fiber): enriches *Alistipes* alongside *Bilophila* and *Bacteroides*, reflecting its bile-tolerant niche and capacity to subsist on protein fermentation [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
-- **Mediterranean diet**: does not specifically enrich *Alistipes*; instead favors *Faecalibacterium*, *Roseburia*, and *Ruminococcus* through increased fermentable fiber.
+- Western diet (high fat, low fiber): enriches *Alistipes* alongside *Bilophila* and *Bacteroides*, reflecting its bile-tolerant niche and capacity to subsist on protein fermentation [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
+- Mediterranean diet: does not specifically enrich *Alistipes*; instead favors *Faecalibacterium*, *Roseburia*, and *Ruminococcus* through increased fermentable fiber.
 - The genus's enrichment in Western-diet contexts despite its anti-inflammatory metabolic products represents a paradox — bile acid enrichment from high-fat diets may select for bile-tolerant strains while the anti-inflammatory AhR-ligand producers (A. finegoldii) are depleted.
 
 ## What Wikipedia Doesn't Cover

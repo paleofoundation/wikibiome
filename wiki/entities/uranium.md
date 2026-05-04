@@ -4,12 +4,17 @@ type: entity
 subtype: metal
 created: 2026-04-19
 updated: 2026-04-19
-sources: []
-source_count: 0
+sources:
+  - yan-2025-infant-serum-metals-gut-microbiota
+  - meli-2024-baby-food-chemical-characterization-italy
+  - yan-2025-infant-serum-metals-gut-microbiota-china
+  - lancaster-2014-metallomics-microorganisms-bioremediation
+  - de-almeida-2022-toxic-metals-infant-formula-brazil
+source_count: 5
 tags: [actinide, radioactive, nephrotoxic]
 platform: wikibiome
-stub: true
-stub_reason: "auto-discovered from source mention — 4 sources discuss this metal, awaiting content expansion"
+
+last_substantive_update: 2026-04-22
 ---
 
 # Uranium

@@ -19,8 +19,8 @@ Bile acids are cholesterol-derived amphipathic molecules synthesized in the live
 ## Primary Bile Acids (Host-Produced)
 
 Synthesized in hepatocytes from cholesterol via CYP7A1 (classic pathway) or CYP27A1 (alternative pathway):
-- **Cholic acid (CA)**: conjugated with glycine or taurine to form glycocholic/taurocholic acid.
-- **Chenodeoxycholic acid (CDCA)**: the most potent endogenous FXR agonist; conjugated similarly.
+- Cholic acid (CA): conjugated with glycine or taurine to form glycocholic/taurocholic acid.
+- Chenodeoxycholic acid (CDCA): the most potent endogenous FXR agonist; conjugated similarly.
 
 Conjugated primary bile acids are secreted into bile, stored in the gallbladder, and released into the duodenum postprandially to emulsify dietary fats. ~95% are reabsorbed in the terminal ileum via ASBT (apical sodium-dependent bile acid transporter) and recycled to the liver -- the enterohepatic circulation.
 
@@ -29,13 +29,13 @@ Conjugated primary bile acids are secreted into bile, stored in the gallbladder,
 The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria perform transformations creating secondary bile acids:
 
 ### Deconjugation (BSH Activity)
-- **Bile salt hydrolase (BSH)** removes the glycine/taurine conjugate. Found in [[collinsella]], Lactobacillus, Clostridium, [[bifidobacterium]], Listeria, and Bacteroides [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
+- Bile salt hydrolase (BSH) removes the glycine/taurine conjugate. Found in [[collinsella]], Lactobacillus, Clostridium, [[bifidobacterium]], Listeria, and Bacteroides [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 - [[collinsella]] is notable for its BSH activity and is enriched in atherosclerotic patients.
 - Deconjugation is required before further microbial modifications can occur.
 
 ### 7-alpha-Dehydroxylation
 - Performed primarily by Clostridium scindens and related Clostridium cluster XIVa species.
-- Converts CA to **deoxycholic acid (DCA)** and CDCA to **lithocholic acid (LCA)**.
+- Converts CA to deoxycholic acid (DCA) and CDCA to lithocholic acid (LCA).
 - DCA and LCA are the dominant secondary bile acids in the human colon.
 
 ### Other Transformations
@@ -47,16 +47,16 @@ The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria 
 
 ### FXR (Farnesoid X Receptor)
 - Nuclear receptor activated most potently by CDCA, then CA, DCA.
-- **Metabolic effects**: Decreases triglycerides, decreases insulin resistance, increases reverse cholesterol transport, decreases blood pressure via iNOS expression [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
-- **Gut barrier**: Maintains epithelial integrity; FXR-deficient mice have increased intestinal permeability.
-- **Immune modulation**: Suppresses NF-kB-driven inflammation in intestinal epithelium.
-- **Feedback regulation**: Induces FGF15/19 (mouse/human), which suppresses CYP7A1, reducing bile acid synthesis.
+- Metabolic effects: Decreases triglycerides, decreases insulin resistance, increases reverse cholesterol transport, decreases blood pressure via iNOS expression [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
+- Gut barrier: Maintains epithelial integrity; FXR-deficient mice have increased intestinal permeability.
+- Immune modulation: Suppresses NF-kB-driven inflammation in intestinal epithelium.
+- Feedback regulation: Induces FGF15/19 (mouse/human), which suppresses CYP7A1, reducing bile acid synthesis.
 
 ### TGR5 (GPBAR1)
 - Membrane receptor activated most potently by LCA, then DCA, CDCA, CA.
-- **Anti-atherosclerotic**: Inhibits NF-kB in macrophages, reduces monocyte infiltration, decreases foam cell formation [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
-- **Metabolic**: Increases GLP-1 secretion from enteroendocrine L-cells, improving glucose homeostasis.
-- **Anti-inflammatory**: Reduces pro-inflammatory cytokine production.
+- Anti-atherosclerotic: Inhibits NF-kB in macrophages, reduces monocyte infiltration, decreases foam cell formation [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
+- Metabolic: Increases GLP-1 secretion from enteroendocrine L-cells, improving glucose homeostasis.
+- Anti-inflammatory: Reduces pro-inflammatory cytokine production.
 
 ## Disease Connections
 
@@ -80,10 +80,10 @@ The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria 
 
 ## Metal Connections
 
-- **Bile acids as metal chelators**: Bile acids can bind divalent cations (Ca2+, Fe2+, Zn2+, Cu2+) in the intestinal lumen, affecting both metal bioavailability and bile acid solubility.
-- **Metal-induced dysbiosis disrupts bile acid transformation**: Loss of BSH-expressing and 7-alpha-dehydroxylating bacteria alters the primary/secondary bile acid ratio.
-- **FXR and metal homeostasis**: FXR regulates intestinal barrier integrity; its disruption by altered bile acid signaling compounds metal-induced barrier failure.
-- **Coprostanol pathway**: Microbial conversion of cholesterol to coprostanol (by Eubacterium coprostanoligenes) is sex-dependent and may be disrupted by metals, connecting to the cholesterol-CVD axis [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
+- Bile acids as metal chelators: Bile acids can bind divalent cations (Ca2+, Fe2+, Zn2+, Cu2+) in the intestinal lumen, affecting both metal bioavailability and bile acid solubility.
+- Metal-induced dysbiosis disrupts bile acid transformation: Loss of BSH-expressing and 7-alpha-dehydroxylating bacteria alters the primary/secondary bile acid ratio.
+- FXR and metal homeostasis: FXR regulates intestinal barrier integrity; its disruption by altered bile acid signaling compounds metal-induced barrier failure.
+- Coprostanol pathway: Microbial conversion of cholesterol to coprostanol (by Eubacterium coprostanoligenes) is sex-dependent and may be disrupted by metals, connecting to the cholesterol-CVD axis [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 
 ## Key Sources
 

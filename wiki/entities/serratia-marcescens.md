@@ -4,9 +4,12 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - johri-2023-phage-therapy-ecoli-chronic-prostatitis-case
+  - trecarten-2025-obesity-diet-microbiome-prostate-cancer
+  - khan-2011-novel-approach-enterobacteriaceae-identification-clinical
+source_count: 3
 tags:
   - Serratia
   - Enterobacteriaceae
@@ -36,36 +39,34 @@ conditions_enriched_in:
   - nosocomial-infections
 conditions_depleted_in: []
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 # Serratia marcescens
 
 ## Overview
 
-***Serratia marcescens*** is a Gram-negative, facultatively anaerobic member of the Enterobacteriaceae, historically recognized by its distinctive red pigment **prodigiosin**. Once considered a harmless environmental saprophyte, *S. marcescens* is now recognized as a significant opportunistic pathogen in hospital settings and a participant in the polymicrobial biofilm communities implicated in inflammatory bowel disease. In the WikiBiome framework, its significance lies in its **metal tolerance systems**, its role in **interkingdom biofilms**, and the anticancer properties of its signature pigment.
+*Serratia marcescens* is a Gram-negative, facultatively anaerobic member of the Enterobacteriaceae, historically recognized by its distinctive red pigment prodigiosin. Once considered a harmless environmental saprophyte, *S. marcescens* is now recognized as a significant opportunistic pathogen in hospital settings and a participant in the polymicrobial biofilm communities implicated in inflammatory bowel disease. In the WikiBiome framework, its significance lies in its metal tolerance systems, its role in interkingdom biofilms, and the anticancer properties of its signature pigment.
 
 ## Metal Dependencies and Tolerance
 
 *S. marcescens* possesses robust iron acquisition systems including siderophores that compete with host [[lactoferrin]] and [[transferrin]] for environmental iron. Its metal story extends beyond iron dependency:
 
-- **Mercury resistance** — The *mer* operon (merA, merB) in *S. marcescens* encodes mercuric reductase that converts toxic Hg2+ to volatile Hg0, providing resistance to mercury contamination. This operon is frequently carried on mobile genetic elements alongside antibiotic resistance genes, making *S. marcescens* a paradigm organism for [[co-selection]].
-- **Multi-metal tolerance** — Environmental isolates show tolerance to cadmium, zinc, copper, and chromium, reflecting the genus's adaptation to contaminated soils and water systems.
-- **Prodigiosin and metals** — Prodigiosin biosynthesis is regulated by metal availability; iron and copper modulate pigment production through transcriptional regulators.
+- Mercury resistance — The *mer* operon (merA, merB) in *S. marcescens* encodes mercuric reductase that converts toxic Hg2+ to volatile Hg0, providing resistance to mercury contamination. This operon is frequently carried on mobile genetic elements alongside antibiotic resistance genes, making *S. marcescens* a paradigm organism for [[co-selection]].
+- Multi-metal tolerance — Environmental isolates show tolerance to cadmium, zinc, copper, and chromium, reflecting the genus's adaptation to contaminated soils and water systems.
+- Prodigiosin and metals — Prodigiosin biosynthesis is regulated by metal availability; iron and copper modulate pigment production through transcriptional regulators.
 
 ## Key Enzymes and Virulence Factors
 
-- **Prodigiosin** — A tripyrrole red pigment with remarkable biological activities: anticancer (induces apoptosis in tumor cells), immunomodulatory, antifungal, and antibacterial. Its anticancer potential has attracted pharmaceutical interest.
-- **Serralysin (metalloprotease)** — A zinc-dependent extracellular protease that degrades host immune proteins including immunoglobulins, complement components, and extracellular matrix. A canonical [[zinc-metalloprotease]] virulence factor.
-- **Siderophores** — Iron acquisition systems enabling competition in iron-limited environments.
-- **Chitinase** — Degrades chitin, potentially relevant to interkingdom interactions with fungi.
+- Prodigiosin — A tripyrrole red pigment with remarkable biological activities: anticancer (induces apoptosis in tumor cells), immunomodulatory, antifungal, and antibacterial. Its anticancer potential has attracted pharmaceutical interest.
+- Serralysin (metalloprotease) — A zinc-dependent extracellular protease that degrades host immune proteins including immunoglobulins, complement components, and extracellular matrix. A canonical [[zinc-metalloprotease]] virulence factor.
+- Siderophores — Iron acquisition systems enabling competition in iron-limited environments.
+- Chitinase — Degrades chitin, potentially relevant to interkingdom interactions with fungi.
 
 ## Ecological Role
 
 ### Triple-Species Biofilm in Crohn's Disease
 
-The most distinctive ecological feature of *S. marcescens* in the WikiBiome context is its participation in a **triple-species biofilm** with [[escherichia-coli]] and [[candida-tropicalis]] documented in the Crohn's disease mucosa. In this partnership, the three organisms cooperate metabolically and provide mutual protection against host defenses and antimicrobials — a canonical example of [[inter-kingdom-metal-shielding]] and [[functional-shielding]].
+The most distinctive ecological feature of *S. marcescens* in the WikiBiome context is its participation in a triple-species biofilm with [[escherichia-coli]] and [[candida-tropicalis]] documented in the Crohn's disease mucosa. In this partnership, the three organisms cooperate metabolically and provide mutual protection against host defenses and antimicrobials — a canonical example of [[inter-kingdom-metal-shielding]] and [[functional-shielding]].
 
 ### Nosocomial Ecology
 

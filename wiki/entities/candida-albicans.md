@@ -5,9 +5,9 @@ type: entity
 subtype: fungus
 created: 2026-04-09
 updated: 2026-04-09
-last_substantive_update: 2026-04-09
-sources: [acosta-rodriguez-2018-biosorption-candida-albicans.md, kukde-2019-heavy-metals-candida-hiv.md, do-carmo-2023-metal-nanoparticles-candida-review.md, maier-2019-nickel-microbial-pathogenesis.md]
-source_count: 4
+last_substantive_update: 2026-04-21
+sources: [acosta-rodriguez-2018-biosorption-candida-albicans.md, kukde-2019-heavy-metals-candida-hiv.md, do-carmo-2023-metal-nanoparticles-candida-review.md, maier-2019-nickel-microbial-pathogenesis.md, bartnicka-2020-candida-shields-pgingivalis-immune-evasion, pasman-2025-candida-staph-reciprocal-virulence-masking, chen-2022-beta-glucan-masking-signaling-pathways-candida, wheeler-2006-drug-sensitive-network-masks-fungi-immune, hans-2022-magnesium-candida-immune-evasion, li-2022-candida-resident-microbiota-interactions, pan-2024-baicalin-betaglucan-exposure-candida-macrophage, sem-2016-betaglucan-competitive-fitness-candida-gut, wagner-2022-cek1-betaglucan-calcineurin-candida]
+source_count: 13
 tags: [pathogen, fungal, biosorption, heavy-metals, nickel, zinc, iron, copper, immunocompromised, candidiasis, Cryptococcus]
 platform: wikibiome
 seo_target: "Candida albicans gut microbiome heavy metals"
@@ -16,66 +16,66 @@ wikipedia_differentiation: "Metal biosorption capacity, nickel-dependent virulen
 
 # Candida albicans (and Cryptococcus neoformans)
 
-An opportunistic fungal pathogen whose relationship with metals is multifaceted: *C. albicans* can **biosorb heavy metals** from its environment, **heavy metal exposure promotes its virulence** in immunocompromised hosts, and **metal nanoparticles are being developed as antifungal weapons** against it. This page also covers *Cryptococcus neoformans*, a related fungal pathogen that uses **Ni-dependent urease** for brain invasion.
+An opportunistic fungal pathogen whose relationship with metals is multifaceted: *C. albicans* can biosorb heavy metals from its environment, heavy metal exposure promotes its virulence in immunocompromised hosts, and metal nanoparticles are being developed as antifungal weapons against it. This page also covers *Cryptococcus neoformans*, a related fungal pathogen that uses Ni-dependent urease for brain invasion.
 
 ## Candida albicans
 
 ### Metal Biosorption Capacity
 *C. albicans* demonstrates remarkable heavy metal tolerance and uptake [[acosta-rodriguez-2018-biosorption-candida-albicans]]:
 
-- Can grow in concentrations of: **2000 ppm** zinc, lead, and copper; **2000 ppm** Cr(VI); **1500 ppm** As(III); **500 ppm** silver; **300 ppm** cobalt; **200 ppm** mercury and cadmium.
+- Can grow in concentrations of: 2000 ppm zinc, lead, and copper; 2000 ppm Cr(VI); 1500 ppm As(III); 500 ppm silver; 300 ppm cobalt; 200 ppm mercury and cadmium.
 - Biosorption removal efficiency (modified biomass): Cr(VI) 76%, lead 57%, silver 51%, cadmium 46%, As(III) 40%, cobalt 37%, mercury 36%, copper 31%, zinc 22%.
-- This biosorption capacity means *C. albicans* in the human GI tract or mucosal surfaces may act as a **metal sink**, altering local metal bioavailability for both the host and competing microbiota.
+- This biosorption capacity means *C. albicans* in the human GI tract or mucosal surfaces may act as a metal sink, altering local metal bioavailability for both the host and competing microbiota.
 
 ### Metal Susceptibility in Immunocompromised Hosts
 In HIV-positive patients, Candida strains show differential metal susceptibility [[kukde-2019-heavy-metals-candida-hiv]]:
 
-- **100% resistant** to zinc ions (100 mM) -- zinc does not inhibit Candida growth.
-- **100% susceptible** to cadmium (1 mM), mercury (10 mM), and silver (10 mM).
+- 100% resistant to zinc ions (100 mM) -- zinc does not inhibit Candida growth.
+- 100% susceptible to cadmium (1 mM), mercury (10 mM), and silver (10 mM).
 - Silver and mercury ions inhibit plasma membrane H+-ATPase by direct binding interactions.
 - Cadmium, mercury, cobalt, and nickel also inhibit plasma membrane ATPase of eukaryotic cells.
-- Implication: in immunocompromised patients, environmental zinc exposure may **favor Candida overgrowth** while silver/mercury have antifungal potential.
+- Implication: in immunocompromised patients, environmental zinc exposure may favor Candida overgrowth while silver/mercury have antifungal potential.
 
 ### Metal-Dependent Virulence Factors
-- **Fe acquisition**: *C. albicans* has dedicated iron uptake systems including reductive iron assimilation (Fre/Ftr/Fet), siderophore uptake (Sit1), and hemoglobin/heme receptors. Iron limitation triggers the yeast-to-hyphae morphological switch -- a key virulence transition [[corrales-2024-iron-chelating-antifungal-collismycin-candida]] [[alves-2020-candida-adapting-survive-host-constraints]].
-- **Cu-SOD**: copper-zinc superoxide dismutase for oxidative stress defense within macrophage phagosomes.
-- **Zn homeostasis**: Zrt1/Zrt2 zinc transporters; zinc is required for alcohol dehydrogenase and numerous metalloenzymes.
-- **Magnesium homeostasis**: intracellular magnesium is a key immune evasion signal that modulates *C. albicans*-phagocyte interactions [[hans-2022-magnesium-candida-immune-evasion]].
+- Fe acquisition: *C. albicans* has dedicated iron uptake systems including reductive iron assimilation (Fre/Ftr/Fet), siderophore uptake (Sit1), and hemoglobin/heme receptors. Iron limitation triggers the yeast-to-hyphae morphological switch -- a key virulence transition [[corrales-2024-iron-chelating-antifungal-collismycin-candida]] [[alves-2020-candida-adapting-survive-host-constraints]].
+- Cu-SOD: copper-zinc superoxide dismutase for oxidative stress defense within macrophage phagosomes.
+- Zn homeostasis: Zrt1/Zrt2 zinc transporters; zinc is required for alcohol dehydrogenase and numerous metalloenzymes.
+- Magnesium homeostasis: intracellular magnesium is a key immune evasion signal that modulates *C. albicans*-phagocyte interactions [[hans-2022-magnesium-candida-immune-evasion]].
 
 ### Beta-Glucan Masking and Immune Evasion
 
-- *C. albicans* actively **masks cell-wall beta-1,3-glucan** from host pattern recognition receptors (Dectin-1), blunting phagocytosis and cytokine responses. Masking is coordinated through a drug-sensitive signaling network that includes PKC, Mkc1, Hog1, and cAMP-PKA [[wheeler-2006-drug-sensitive-network-masks-fungi-immune]].
+- *C. albicans* actively masks cell-wall beta-1,3-glucan from host pattern recognition receptors (Dectin-1), blunting phagocytosis and cytokine responses. Masking is coordinated through a drug-sensitive signaling network that includes PKC, Mkc1, Hog1, and cAMP-PKA [[wheeler-2006-drug-sensitive-network-masks-fungi-immune]].
 - The masking program is regulated by Ace2, Mnt1/Mnt2, and multiple MAPK cascades; pharmacologic disruption unmasks beta-glucan and restores host immune recognition [[chen-2022-beta-glucan-masking-signaling-pathways-candida]].
-- **Lactate-induced masking**: environmental lactate -- produced abundantly by gut *Lactobacillus* and by colonic epithelium -- triggers beta-glucan masking, allowing *C. albicans* to persist as an invisible commensal in the mucosal niche [[chen-2022-beta-glucan-masking-signaling-pathways-candida]].
+- Lactate-induced masking: environmental lactate -- produced abundantly by gut *Lactobacillus* and by colonic epithelium -- triggers beta-glucan masking, allowing *C. albicans* to persist as an invisible commensal in the mucosal niche [[chen-2022-beta-glucan-masking-signaling-pathways-candida]].
 
 ### Interkingdom Synergy with Bacteria
 
-- ***Candida*-*Staphylococcus* reciprocal virulence masking**: *C. albicans* and *Staphylococcus aureus* form mixed biofilms in which each partner masks the other's recognition by host immunity, increasing invasive disease severity in co-infection models [[pasman-2025-candida-staph-reciprocal-virulence-masking]].
+- *Candida*-*Staphylococcus* reciprocal virulence masking: *C. albicans* and *Staphylococcus aureus* form mixed biofilms in which each partner masks the other's recognition by host immunity, increasing invasive disease severity in co-infection models [[pasman-2025-candida-staph-reciprocal-virulence-masking]].
 - *C. albicans* forms functional biofilms with resident gut and oral bacteria that modulate virulence and persistence [[li-2022-candida-resident-microbiota-interactions]].
 
 ### Metal Nanoparticles as Antifungal Strategy
 A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-review]]:
 
-- **Silver nanoparticles (AgNPs)**: most studied; synergistic with fluconazole against resistant strains; restore susceptibility phenotype by reducing efflux pump activity.
-- **Gold nanoparticles (AuNPs)**: chitosan-functionalized forms inhibit biofilm formation.
-- **Iron oxide nanoparticles (IONPs)**: ferumoxytol (FDA-approved for anemia) disrupts oral Candida biofilms; AMB-IONPs show 16-25x improved efficacy vs. amphotericin B alone.
-- **Nickel-containing bimetallic nanoparticles**: Ag-NiNPs showed potent activity at 0.19-1.56 ug/mL; Ni-Cu-Zn-IONPs caused complete yeast cell lysis via ROS production and membrane disruption.
+- Silver nanoparticles (AgNPs): most studied; synergistic with fluconazole against resistant strains; restore susceptibility phenotype by reducing efflux pump activity.
+- Gold nanoparticles (AuNPs): chitosan-functionalized forms inhibit biofilm formation.
+- Iron oxide nanoparticles (IONPs): ferumoxytol (FDA-approved for anemia) disrupts oral Candida biofilms; AMB-IONPs show 16-25x improved efficacy vs. amphotericin B alone.
+- Nickel-containing bimetallic nanoparticles: Ag-NiNPs showed potent activity at 0.19-1.56 ug/mL; Ni-Cu-Zn-IONPs caused complete yeast cell lysis via ROS production and membrane disruption.
 
 ## Cryptococcus neoformans -- Ni-Urease for Brain Invasion
 
-*C. neoformans* uses a **Ni-dependent urease** that is essential for CNS invasion [[maier-2019-nickel-microbial-pathogenesis]]:
+*C. neoformans* uses a Ni-dependent urease that is essential for CNS invasion [[maier-2019-nickel-microbial-pathogenesis]]:
 
 - Urease activity promotes crossing of the blood-brain barrier.
 - Urease-negative mutants show dramatically reduced brain colonization in animal models.
 - Ammonia production from urease may damage endothelial tight junctions (paralleling [[helicobacter-pylori]] urease disruption of gastric tight junctions).
-- *C. neoformans* causes **cryptococcal meningitis**, a leading killer of HIV/AIDS patients, making its Ni-urease a critical virulence factor in the global HIV burden.
+- *C. neoformans* causes cryptococcal meningitis, a leading killer of HIV/AIDS patients, making its Ni-urease a critical virulence factor in the global HIV burden.
 
 ## Nutritional Immunity and Fungal Pathogens
 
-- Host **calprotectin** sequesters zinc and manganese at infection sites, inhibiting Candida growth and hyphal morphogenesis.
-- **Lactoferrin** and **transferrin** restrict iron, slowing fungal proliferation.
+- Host calprotectin sequesters zinc and manganese at infection sites, inhibiting Candida growth and hyphal morphogenesis.
+- Lactoferrin and transferrin restrict iron, slowing fungal proliferation.
 - *C. albicans* evades iron restriction through reductive iron uptake and hemoglobin binding.
-- **Copper intoxication**: macrophages pump copper into phagosomes to kill engulfed Candida; the fungus counters with Cu-SOD and copper exporters.
+- Copper intoxication: macrophages pump copper into phagosomes to kill engulfed Candida; the fungus counters with Cu-SOD and copper exporters.
 
 ## Disease Associations
 
@@ -85,10 +85,10 @@ A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-revie
 - Invasive candidiasis / candidemia (ICU patients, post-surgical)
 - Chronic mucocutaneous candidiasis
 - Esophageal candidiasis
-- **Gastric colonization with PPI use**: proton pump inhibitor therapy raises gastric pH and drives fungal dysbiosis with *Candida* overgrowth, contributing to GERD-associated fungal disease [[shi-2023-ppi-fungal-dysbiosis-gerd]].
-- **Autism spectrum disorder**: elevated anti-*Candida* antibodies have been reported in children with ASD [[hughes-2018-anti-candida-antibodies-asd-children]].
-- **Schizophrenia / bipolar disorder**: *C. albicans* seropositivity is associated with psychiatric diagnosis in a sex-specific manner [[severance-2016-candida-albicans-exposures-sex-specificity-schizophrenia-bipolar]].
-- **Lung cancer ecology**: *Candida* expansion occurs in dysbiotic lung and gut microbiomes of cancer patients [[seelbinder-2023-candida-expansion-lung-cancer-ecological]].
+- Gastric colonization with PPI use: proton pump inhibitor therapy raises gastric pH and drives fungal dysbiosis with *Candida* overgrowth, contributing to GERD-associated fungal disease [[shi-2023-ppi-fungal-dysbiosis-gerd]].
+- Autism spectrum disorder: elevated anti-*Candida* antibodies have been reported in children with ASD [[hughes-2018-anti-candida-antibodies-asd-children]].
+- Schizophrenia / bipolar disorder: *C. albicans* seropositivity is associated with psychiatric diagnosis in a sex-specific manner [[severance-2016-candida-albicans-exposures-sex-specificity-schizophrenia-bipolar]].
+- Lung cancer ecology: *Candida* expansion occurs in dysbiotic lung and gut microbiomes of cancer patients [[seelbinder-2023-candida-expansion-lung-cancer-ecological]].
 
 ### Cryptococcus neoformans
 - Cryptococcal meningitis (HIV/AIDS, transplant recipients)
@@ -96,7 +96,7 @@ A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-revie
 
 ## Connection to Environmental Metal Exposure
 
-- *C. albicans* biosorption capacity means it may **accumulate dietary heavy metals** in the gut, potentially sequestering metals from absorption or concentrating them in biofilms.
+- *C. albicans* biosorption capacity means it may accumulate dietary heavy metals in the gut, potentially sequestering metals from absorption or concentrating them in biofilms.
 - In immunocompromised patients, environmental zinc exposure may support *C. albicans* (which is zinc-resistant) while suppressing zinc-sensitive competitors, promoting overgrowth.
 - Heavy metal contamination in water/food may indirectly promote fungal pathogenesis by disrupting competing bacterial microbiota.
 - For *C. neoformans*, environmental nickel availability (soil, bird droppings -- its natural habitat) supports urease metalation that enables subsequent brain invasion.

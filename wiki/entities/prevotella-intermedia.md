@@ -22,7 +22,7 @@ conditions_depleted_in: []
 
 # Prevotella intermedia
 
-A Gram-negative, obligately anaerobic, black-pigmented bacterium and one of the classical periodontopathogens. *P. intermedia* belongs to the "orange complex" of periodontal pathogens (Socransky classification) and is distinguished by its **iron and heme dependency** -- the characteristic black pigmentation of its colonies results from the accumulation of iron protoporphyrin IX (hemin) on the cell surface. This metal sequestration strategy is both a virulence mechanism and a potential therapeutic vulnerability.
+A Gram-negative, obligately anaerobic, black-pigmented bacterium and one of the classical periodontopathogens. *P. intermedia* belongs to the "orange complex" of periodontal pathogens (Socransky classification) and is distinguished by its iron and heme dependency -- the characteristic black pigmentation of its colonies results from the accumulation of iron protoporphyrin IX (hemin) on the cell surface. This metal sequestration strategy is both a virulence mechanism and a potential therapeutic vulnerability.
 
 Unlike gut-associated *Prevotella* species (such as *P. copri*, which may be protective in some contexts), *P. intermedia* is primarily an oral pathobiont whose enrichment in disease states reflects disrupted oral-gut axis ecology.
 
@@ -32,9 +32,9 @@ Unlike gut-associated *Prevotella* species (such as *P. copri*, which may be pro
 
 [[iron|Iron]] in the form of hemin is essential for *P. intermedia* growth and virulence. The organism actively acquires heme from host hemoglobin and stores it on its cell surface as the black pigment mu-oxo bisheme, creating a visible biomarker of iron acquisition ([[yoshida-2023-pathogens-saliva-cp-adolescents]], cross-sectional). This surface iron deposit serves multiple functions:
 
-- **Iron reservoir** -- Stored hemin provides iron under conditions of host iron restriction
-- **Oxidative stress defense** -- Heme catalases and peroxidases protect against host-generated reactive oxygen species
-- **Tissue destruction** -- Heme-dependent proteases degrade periodontal connective tissue
+- Iron reservoir -- Stored hemin provides iron under conditions of host iron restriction
+- Oxidative stress defense -- Heme catalases and peroxidases protect against host-generated reactive oxygen species
+- Tissue destruction -- Heme-dependent proteases degrade periodontal connective tissue
 
 The iron dependency of *P. intermedia* connects it to the broader [[nutritional-immunity]] framework: host iron-sequestering proteins like [[lactoferrin]] in saliva and gingival crevicular fluid directly compete with bacterial heme acquisition.
 
@@ -66,17 +66,17 @@ In a cross-sectional study of adolescents with cerebral palsy, *P. intermedia* w
 
 ## Conditions Associated
 
-- **Periodontal disease** -- Classical orange complex periodontopathogen; enriched in gingivitis and periodontitis
-- **Multiple sclerosis** -- Enriched in the oral microbiome of relapsing-remitting MS patients ([[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]], case-control)
-- **Colorectal cancer** -- Enriched in CRC tissue and associated with CRC risk via serum antibodies ([[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]], cross-sectional; [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]], systematic-review)
-- **Cerebral palsy** -- Elevated in neurologically impaired adolescents with gingivitis ([[yoshida-2023-pathogens-saliva-cp-adolescents]], cross-sectional)
+- Periodontal disease -- Classical orange complex periodontopathogen; enriched in gingivitis and periodontitis
+- Multiple sclerosis -- Enriched in the oral microbiome of relapsing-remitting MS patients ([[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]], case-control)
+- Colorectal cancer -- Enriched in CRC tissue and associated with CRC risk via serum antibodies ([[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]], cross-sectional; [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]], systematic-review)
+- Cerebral palsy -- Elevated in neurologically impaired adolescents with gingivitis ([[yoshida-2023-pathogens-saliva-cp-adolescents]], cross-sectional)
 
 ## Key Studies
 
-- **[[yoshida-2023-pathogens-saliva-cp-adolescents]]** (cross-sectional, n=65) -- First q-PCR quantification of *P. intermedia* in saliva of cerebral palsy adolescents; documents elevated periodontopathogens in neurologically impaired population.
-- **[[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]]** (case-control, n=100) -- Oral *P. intermedia* enriched in MS as part of Gram-negative pathobiont expansion; depleted protective early colonizers.
-- **[[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]]** (systematic-review-meta-analysis) -- Identifies *P. intermedia* antibody levels as consistently associated with CRC risk across populations.
-- **[[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]** (cross-sectional, n=41) -- Multi-omic confirmation of *P. intermedia* enrichment in CRC tissue samples.
+- [[yoshida-2023-pathogens-saliva-cp-adolescents]] (cross-sectional, n=65) -- First q-PCR quantification of *P. intermedia* in saliva of cerebral palsy adolescents; documents elevated periodontopathogens in neurologically impaired population.
+- [[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]] (case-control, n=100) -- Oral *P. intermedia* enriched in MS as part of Gram-negative pathobiont expansion; depleted protective early colonizers.
+- [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]] (systematic-review-meta-analysis) -- Identifies *P. intermedia* antibody levels as consistently associated with CRC risk across populations.
+- [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] (cross-sectional, n=41) -- Multi-omic confirmation of *P. intermedia* enrichment in CRC tissue samples.
 
 ## Cross-References
 

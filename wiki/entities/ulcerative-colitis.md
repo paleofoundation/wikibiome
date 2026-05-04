@@ -26,10 +26,10 @@ A chronic [[inflammatory-bowel-disease]] characterized by continuous mucosal inf
 
 ### Iron -- The Bleeding Metal
 Iron deficiency is the dominant metal abnormality in UC, driven by chronic mucosal bleeding:
-- **Prevalence:** 60-80% of active UC patients have iron deficiency; 30-40% have frank anemia
-- **Mechanism:** Chronic blood loss from ulcerated mucosa + hepcidin elevation from [[inflammation]] → functional iron deficiency even with adequate stores
-- **The iron paradox:** Oral iron supplementation worsens UC by feeding iron-dependent pathobionts (E. coli, Klebsiella), increasing [[oxidative-stress]] in the inflamed mucosa, and shifting the microbiome toward [[dysbiosis]]. IV iron bypasses the gut but still raises hepcidin.
-- **Ferritin** is unreliable as an iron marker in UC (acute phase reactant; elevated by inflammation)
+- Prevalence: 60-80% of active UC patients have iron deficiency; 30-40% have frank anemia
+- Mechanism: Chronic blood loss from ulcerated mucosa + hepcidin elevation from [[inflammation]] → functional iron deficiency even with adequate stores
+- The iron paradox: Oral iron supplementation worsens UC by feeding iron-dependent pathobionts (E. coli, Klebsiella), increasing [[oxidative-stress]] in the inflamed mucosa, and shifting the microbiome toward [[dysbiosis]]. IV iron bypasses the gut but still raises hepcidin.
+- Ferritin is unreliable as an iron marker in UC (acute phase reactant; elevated by inflammation)
 
 ### Copper -- Elevated in Active Disease
 - Serum copper and ceruloplasmin rise during UC flares (acute phase response)
@@ -53,16 +53,16 @@ Iron deficiency is the dominant metal abnormality in UC, driven by chronic mucos
 UC has a characteristic dysbiotic signature:
 
 ### Depleted Taxa
-- **Faecalibacterium prausnitzii** -- the most consistently depleted taxon in UC; produces butyrate, has direct anti-inflammatory effects (IL-10 induction); its absence is a hallmark of active disease
-- **Roseburia** -- another major butyrate producer lost in UC
-- **Bacteroides** -- reduced diversity within this genus
-- **Overall diversity** -- alpha diversity reduced, particularly during flares
+- Faecalibacterium prausnitzii -- the most consistently depleted taxon in UC; produces butyrate, has direct anti-inflammatory effects (IL-10 induction); its absence is a hallmark of active disease
+- Roseburia -- another major butyrate producer lost in UC
+- Bacteroides -- reduced diversity within this genus
+- Overall diversity -- alpha diversity reduced, particularly during flares
 
 ### Enriched Taxa
-- **Escherichia coli** -- especially adherent-invasive E. coli (AIEC); enriched in inflamed mucosa; high iron requirement fuels expansion when mucosal bleeding provides iron
-- **Enterococcus** -- expands in the depleted ecosystem
-- **Fusobacterium** -- associated with colorectal neoplasia in longstanding UC
-- **Ruminococcus gnavus** -- mucin degrader enriched in UC flares
+- Escherichia coli -- especially adherent-invasive E. coli (AIEC); enriched in inflamed mucosa; high iron requirement fuels expansion when mucosal bleeding provides iron
+- Enterococcus -- expands in the depleted ecosystem
+- Fusobacterium -- associated with colorectal neoplasia in longstanding UC
+- Ruminococcus gnavus -- mucin degrader enriched in UC flares
 
 ### Metabolic Consequences
 - [[short-chain-fatty-acids]] (especially butyrate) are profoundly reduced in UC

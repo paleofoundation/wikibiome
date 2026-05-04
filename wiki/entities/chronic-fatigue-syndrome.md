@@ -4,13 +4,14 @@ type: entity
 subtype: disease
 created: 2026-04-18
 updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis, he-2023-causal-effects-gut-microbiome-me-cfs-mendelian-randomization, regland-2001-nickel-allergy-cfs]
+last_substantive_update: 2026-04-22
+sources:
+  - he-2023-causal-effects-gut-microbiome-me-cfs-mendelian-randomization
+  - regland-2001-nickel-allergy-cfs
+  - saito-2024-metabolomic-immune-alterations-long-covid-cfs
 source_count: 3
 tags: [chronic-fatigue-syndrome, ME-CFS, myalgic-encephalomyelitis, nickel, microbiome, dysbiosis, post-exertional-malaise, neuroinflammation, mitochondria, long-covid, immune-dysregulation]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 3 sources, minimum 5 required"
 icd_10: "G93.3"
 global_prevalence: "~0.4-1% of adults; 17-24 million people globally; 75% female"
 associated_conditions: [fibromyalgia, depression, long-covid, irritable-bowel-syndrome, pcos]
@@ -24,7 +25,7 @@ wikipedia_differentiation: "Nickel allergy as ME/CFS comorbidity and potential m
 
 ## Overview
 
-**Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS)** is a complex, disabling condition characterized by profound fatigue not relieved by rest, **post-exertional malaise** (PEM -- symptom worsening after physical or cognitive exertion), unrefreshing sleep, cognitive dysfunction ("brain fog"), and orthostatic intolerance. It affects 17-24 million people globally, with a striking 3:1 female predominance. ME/CFS lacks a definitive diagnostic biomarker, and its pathophysiology remains contested -- though the gut microbiome is now recognized as a significant and potentially causal contributor.
+Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex, disabling condition characterized by profound fatigue not relieved by rest, post-exertional malaise (PEM -- symptom worsening after physical or cognitive exertion), unrefreshing sleep, cognitive dysfunction ("brain fog"), and orthostatic intolerance. It affects 17-24 million people globally, with a striking 3:1 female predominance. ME/CFS lacks a definitive diagnostic biomarker, and its pathophysiology remains contested -- though the gut microbiome is now recognized as a significant and potentially causal contributor.
 
 The COVID-19 pandemic brought renewed attention to ME/CFS because [[long-covid]] shares its core features, suggesting a common post-infectious dysbiosis-fatigue pathway.
 
@@ -34,9 +35,9 @@ The COVID-19 pandemic brought renewed attention to ME/CFS because [[long-covid]]
 
 A meta-analysis of gut microbiome studies in severe mental illness and chronic fatigue identified consistent dysbiosis in ME/CFS [[safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis]]:
 
-- **Depleted**: [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[roseburia]] -- butyrate-producing anti-inflammatory commensals
-- **Enriched**: [[enterobacteriaceae]], [[enterococcus]], certain Clostridium species
-- **Functional**: Reduced SCFA production, increased intestinal permeability, elevated LPS translocation
+- Depleted: [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[roseburia]] -- butyrate-producing anti-inflammatory commensals
+- Enriched: [[enterobacteriaceae]], [[enterococcus]], certain Clostridium species
+- Functional: Reduced SCFA production, increased intestinal permeability, elevated LPS translocation
 
 ### Mendelian Randomization Evidence
 
@@ -50,7 +51,7 @@ A Mendelian randomization study identified causal relationships between specific
 
 ### Nickel Allergy in ME/CFS
 
-A provocative observation: **nickel allergy is significantly more common in ME/CFS patients** than in the general population [[regland-2001-nickel-allergy-cfs]]. Given that:
+A provocative observation: nickel allergy is significantly more common in ME/CFS patients than in the general population [[regland-2001-nickel-allergy-cfs]]. Given that:
 
 - Nickel directly activates [[tlr4]] in humans (human-specific mechanism via H456/H458 residues)
 - Nickel allergy affects ~15% of the general population but appears to be enriched in ME/CFS
@@ -63,9 +64,9 @@ This raises the possibility that chronic, low-level nickel exposure -- dietary, 
 
 Beyond nickel, ME/CFS involves broader metal-immune dysregulation:
 
-- **Iron**: Functional iron deficiency despite normal serum levels -- consistent with [[nutritional-immunity]] where hepcidin-driven sequestration reduces iron bioavailability
-- **Zinc**: Deficiency impairs immune regulation and worsens the Th1/Th2 imbalance
-- **Magnesium**: Intracellular magnesium depletion is reported in ME/CFS and may contribute to mitochondrial dysfunction
+- Iron: Functional iron deficiency despite normal serum levels -- consistent with [[nutritional-immunity]] where hepcidin-driven sequestration reduces iron bioavailability
+- Zinc: Deficiency impairs immune regulation and worsens the Th1/Th2 imbalance
+- Magnesium: Intracellular magnesium depletion is reported in ME/CFS and may contribute to mitochondrial dysfunction
 
 ## Mitochondrial Dysfunction
 
@@ -89,20 +90,20 @@ Many ME/CFS cases are triggered by infection (EBV, enteroviruses, Q fever). [[lo
 
 The ME/CFS gut-brain axis involves:
 
-1. **Dysbiosis** → reduced butyrate → impaired gut barrier
-2. **LPS translocation** → systemic immune activation (elevated TNF-alpha, IL-6)
-3. **Tryptophan diversion** → kynurenine pathway activation → reduced serotonin, increased quinolinic acid
-4. **Neuroinflammation** → microglial activation → cognitive dysfunction, fatigue
-5. **Autonomic dysfunction** → impaired vagal tone → orthostatic intolerance
+1. Dysbiosis → reduced butyrate → impaired gut barrier
+2. LPS translocation → systemic immune activation (elevated TNF-alpha, IL-6)
+3. Tryptophan diversion → kynurenine pathway activation → reduced serotonin, increased quinolinic acid
+4. Neuroinflammation → microglial activation → cognitive dysfunction, fatigue
+5. Autonomic dysfunction → impaired vagal tone → orthostatic intolerance
 
 ## Associated Conditions
 
 | Condition | Overlap | Significance |
 |-----------|---------|-------------|
-| **[[fibromyalgia]]** | 30-70% comorbidity; shared butyrate depletion, chronic pain | May be the same condition manifesting differently |
-| **Long-COVID** | Shared post-infectious phenotype; identical microbiome signature | Post-COVID ME/CFS may account for millions of new cases |
-| **[[ibs|irritable-bowel-syndrome]]** | 50-90% IBS in ME/CFS | Gut dysbiosis likely the common driver |
-| **[[depression]]** | High comorbidity; shared tryptophan diversion | Bidirectional causation likely |
+| [[fibromyalgia]] | 30-70% comorbidity; shared butyrate depletion, chronic pain | May be the same condition manifesting differently |
+| Long-COVID | Shared post-infectious phenotype; identical microbiome signature | Post-COVID ME/CFS may account for millions of new cases |
+| [[ibs|irritable-bowel-syndrome]] | 50-90% IBS in ME/CFS | Gut dysbiosis likely the common driver |
+| [[depression]] | High comorbidity; shared tryptophan diversion | Bidirectional causation likely |
 
 ## Open Questions
 

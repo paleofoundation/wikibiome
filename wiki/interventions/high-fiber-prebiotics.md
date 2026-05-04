@@ -29,32 +29,32 @@ targets:
 karen_brain_primitives: [5]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # High-Fiber Prebiotics for Crohn's Disease
 
 ## Intervention Summary
 
-Targeted prebiotic supplementation with inulin, fructo-oligosaccharides (FOS), and/or resistant starch to selectively restore depleted butyrate-producing bacteria in Crohn's disease. The goal is to rebuild the saccharolytic community that is characteristically devastated in CD — particularly **Faecalibacterium prausnitzii**, the most consistently depleted taxon across CD studies.
+Targeted prebiotic supplementation with inulin, fructo-oligosaccharides (FOS), and/or resistant starch to selectively restore depleted butyrate-producing bacteria in Crohn's disease. The goal is to rebuild the saccharolytic community that is characteristically devastated in CD — particularly Faecalibacterium prausnitzii, the most consistently depleted taxon across CD studies.
 
 ## Evidence
 
 - Pilot studies demonstrate increased fecal Bifidobacterium and F. prausnitzii counts following prebiotic supplementation in CD patients
 - FOS supplementation (15g/day) increased fecal bifidobacteria and improved dendritic cell IL-10 responses in active CD (small pilot, n=10)
 - Resistant starch selectively increases Ruminococcus bromii (primary degrader) which cross-feeds butyrate producers
-- **Larger RCTs are needed** — current evidence is limited to small pilot and case-series designs
+- Larger RCTs are needed — current evidence is limited to small pilot and case-series designs
 
 ## Mechanism
 
-1. **Selective feeding**: Inulin and FOS are preferentially fermented by Bifidobacterium and cross-feeding partners, bypassing proteolytic species
-2. **Butyrate restoration**: Downstream butyrate production nourishes colonocytes, strengthens tight junctions, and reduces epithelial permeability
-3. **Anti-inflammatory signaling**: Butyrate inhibits NF-kB in intestinal epithelial cells and induces Treg differentiation via HDAC inhibition
+1. Selective feeding: Inulin and FOS are preferentially fermented by Bifidobacterium and cross-feeding partners, bypassing proteolytic species
+2. Butyrate restoration: Downstream butyrate production nourishes colonocytes, strengthens tight junctions, and reduces epithelial permeability
+3. Anti-inflammatory signaling: Butyrate inhibits NF-kB in intestinal epithelial cells and induces Treg differentiation via HDAC inhibition
 
 ## Clinical Context
 
-**Caution in active flares**: Prebiotic fiber may exacerbate symptoms during active inflammation due to gas production and osmotic effects. Best introduced during remission or mild disease with gradual dose escalation. Practitioners should monitor for tolerance and consider low-FODMAP transitioning protocols before introducing targeted prebiotics.
+Caution in active flares: Prebiotic fiber may exacerbate symptoms during active inflammation due to gas production and osmotic effects. Best introduced during remission or mild disease with gradual dose escalation. Practitioners should monitor for tolerance and consider low-FODMAP transitioning protocols before introducing targeted prebiotics.
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

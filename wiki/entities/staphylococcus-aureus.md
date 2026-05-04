@@ -5,15 +5,19 @@ type: entity
 subtype: microbe
 created: 2026-04-09
 updated: 2026-04-11
-sources: [maier-2019-nickel-microbial-pathogenesis.md, akbari-2022-metal-homeostasis-streptococci.md]
-source_count: 2
+sources:
+  - cassat-2012-metal-acquisition-staphylococcus-aureus
+  - pasman-2025-candida-staph-reciprocal-virulence-masking
+  - mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection
+  - pavlic-2021-nickel-bacterial-adhesion-biofilm-orthodontic
+  - jones-2026-amylase-degradable-copper-starch-nanoparticles-saureus
+  - sanchez-rosario-2026-bmdc-metal-antimicrobial-mrsa-biofilm
+source_count: 6
 tags: [pathogen, nickel, zinc, iron, manganese, MRSA, skin-infection, biofilm, urease, nutritional-immunity]
 metal_dependencies: [iron, manganese, zinc, nickel]
 key_enzymes: [staphyloferrin A/B (siderophores), IsdBCH (heme uptake), MntABC (manganese import), aureolysin (Zn-metalloprotease), urease (Ni-dependent)]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Staphylococcus aureus nutritional immunity staphylopine iron manganese zinc"
 wikipedia_differentiation: "Staphylopine multi-metal metallophore discovery plus complete nutritional immunity evasion system for iron, manganese, zinc, and nickel"
 conditions_enriched_in: [skin-infections, MRSA-infections, sepsis, endocarditis]
@@ -23,20 +27,20 @@ pathogenic_potential: opportunistic
 
 # Staphylococcus aureus
 
-A versatile Gram-positive pathogen with one of the **best-characterized nutritional immunity evasion systems** known. *S. aureus* requires [[nickel]], [[iron]], [[zinc]], and [[manganese]] for virulence and has evolved dedicated acquisition systems for each, including the novel metallophore **staphylopine** -- a nicotianamine-like chelator that scavenges multiple transition metals from the host.
+A versatile Gram-positive pathogen with one of the best-characterized nutritional immunity evasion systems known. *S. aureus* requires [[nickel]], [[iron]], [[zinc]], and [[manganese]] for virulence and has evolved dedicated acquisition systems for each, including the novel metallophore staphylopine -- a nicotianamine-like chelator that scavenges multiple transition metals from the host.
 
 ## Metal-Dependent Virulence Factors
 
 ### Ni-Dependent Urease
-- Urease is critical for **skin survival**: human sweat contains ~22 mM urea, and urease-mediated hydrolysis provides ammonia for acid neutralization and nitrogen acquisition on the skin surface [[maier-2019-nickel-microbial-pathogenesis]].
-- Required for **kidney colonization** in systemic infection models.
-- Urease genes are **upregulated in biofilm-embedded cells**, linking nickel metabolism directly to chronic/device-associated infections.
+- Urease is critical for skin survival: human sweat contains ~22 mM urea, and urease-mediated hydrolysis provides ammonia for acid neutralization and nitrogen acquisition on the skin surface [[maier-2019-nickel-microbial-pathogenesis]].
+- Required for kidney colonization in systemic infection models.
+- Urease genes are upregulated in biofilm-embedded cells, linking nickel metabolism directly to chronic/device-associated infections.
 - Biofilm formation on implanted medical devices depends partly on urease activity.
 
 ### Fe-Dependent Virulence
-- **Staphyloferrin A and B**: endogenous siderophores for iron scavenging in iron-limited host environments [[pandey-2021-galbofloxacin-gallium-siderophore-staph]].
-- **IsdB/heme uptake system (Isd pathway)**: surface-anchored hemoglobin receptors (IsdB, IsdH) extract heme from host hemoglobin, pass it through the cell wall (IsdA, IsdC), and import it via the ABC transporter IsdDEF. One of the most elegant iron piracy systems characterized.
-- **Sortase-anchored surface proteins**: multiple iron-binding surface proteins critical for infection.
+- Staphyloferrin A and B: endogenous siderophores for iron scavenging in iron-limited host environments [[pandey-2021-galbofloxacin-gallium-siderophore-staph]].
+- IsdB/heme uptake system (Isd pathway): surface-anchored hemoglobin receptors (IsdB, IsdH) extract heme from host hemoglobin, pass it through the cell wall (IsdA, IsdC), and import it via the ABC transporter IsdDEF. One of the most elegant iron piracy systems characterized.
+- Sortase-anchored surface proteins: multiple iron-binding surface proteins critical for infection.
 
 ### Mn-Superoxide Dismutase (Mn-SOD)
 - Mn-dependent SOD detoxifies superoxide produced by host neutrophils and macrophages during the oxidative burst.
@@ -45,13 +49,13 @@ A versatile Gram-positive pathogen with one of the **best-characterized nutritio
 ## Metal Acquisition Systems
 
 ### Staphylopine Metallophore
-- A broad-spectrum metallophore originally thought to be zinc-specific but now known to also bind **nickel** and other transition metals [[maier-2019-nickel-microbial-pathogenesis]].
+- A broad-spectrum metallophore originally thought to be zinc-specific but now known to also bind nickel and other transition metals [[maier-2019-nickel-microbial-pathogenesis]].
 - Synthesized by the CntKLM enzymes, exported by CntE, and reimported as metal-staphylopine complexes by the CntABCDF transporter.
 - Allows metal scavenging in the calprotectin-rich abscess environment where free metal concentrations are vanishingly low.
 
 ### Nickel Transport
-- **NikABCDE-type** (Nik/Cnt system): ABC-type nickel import.
-- **NixA homologs**: secondary nickel-specific transport.
+- NikABCDE-type (Nik/Cnt system): ABC-type nickel import.
+- NixA homologs: secondary nickel-specific transport.
 - Nickel import is upregulated during infection and is required for urease metalation.
 
 ### Iron Transport
@@ -59,22 +63,22 @@ A versatile Gram-positive pathogen with one of the **best-characterized nutritio
 - Multiple redundant iron import systems ensure iron access across diverse infection sites.
 
 ### Zinc/Manganese Transport
-- **AdcABC**: zinc import system similar to streptococcal homologs.
-- **MntABC**: manganese import for SOD metalation.
+- AdcABC: zinc import system similar to streptococcal homologs.
+- MntABC: manganese import for SOD metalation.
 
 ## Nutritional Immunity Evasion
 
 *S. aureus* faces aggressive metal restriction by the host, particularly in abscesses:
 
-- **Calprotectin (S100A8/A9)**: the dominant host metal-sequestering protein at infection sites. Coordinates Ni(II) preferentially over Zn(II) at the hexahistidine site; sequesters nickel from *S. aureus*, directly inhibiting urease activity [[maier-2019-nickel-microbial-pathogenesis]].
-- **NRAMP1**: macrophage metal exporter that restricts Ni, Mn, and Fe availability in phagolysosomes.
+- Calprotectin (S100A8/A9): the dominant host metal-sequestering protein at infection sites. Coordinates Ni(II) preferentially over Zn(II) at the hexahistidine site; sequesters nickel from *S. aureus*, directly inhibiting urease activity [[maier-2019-nickel-microbial-pathogenesis]].
+- NRAMP1: macrophage metal exporter that restricts Ni, Mn, and Fe availability in phagolysosomes.
 - *S. aureus* counters with staphylopine (outcompetes calprotectin for metals), redundant siderophores, and heme piracy.
 - The calprotectin-staphylopine battle at the abscess is one of the clearest examples of metal tug-of-war between host and pathogen.
 
 ## Metal-Antibiotic Co-Resistance (MRSA)
 
-- MRSA strains frequently carry **metal resistance genes on the same mobile genetic elements** as methicillin resistance (mecA) and other antibiotic resistance genes.
-- Environmental metal exposure (heavy metal-contaminated hospitals, agricultural metal use) can **co-select** for antibiotic resistance.
+- MRSA strains frequently carry metal resistance genes on the same mobile genetic elements as methicillin resistance (mecA) and other antibiotic resistance genes.
+- Environmental metal exposure (heavy metal-contaminated hospitals, agricultural metal use) can co-select for antibiotic resistance.
 - This parallels findings in [[enterococcus]] where metal and antibiotic resistance genes co-occur on conjugative plasmids [[rebelo-2021-enterococcus-metal-antibiotic-resistance]].
 
 ## Disease Associations

@@ -20,16 +20,16 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Saccharomyces
 
-A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic** (*S. boulardii*) and species associated with disease states (*S. cerevisiae* enriched in CRC mycobiome). This dual nature -- commensal/probiotic versus disease-associated -- parallels the bacterial genus [[ruminococcus]] and highlights the importance of species-level resolution in mycobiome studies.
+A genus of ascomycete yeasts that includes both a proven therapeutic probiotic (*S. boulardii*) and species associated with disease states (*S. cerevisiae* enriched in CRC mycobiome). This dual nature -- commensal/probiotic versus disease-associated -- parallels the bacterial genus [[ruminococcus]] and highlights the importance of species-level resolution in mycobiome studies.
 
 ## S. boulardii -- Therapeutic Probiotic
 
 - The best-characterized fungal probiotic, with demonstrated efficacy in:
- - **C. difficile infection**: reduces recurrence by 50-60% when combined with antibiotics (McFarland 2006 Am J Gastroenterol; Surawicz et al. 2000 Clin Infect Dis); inhibits toxin A/B binding to colonocytes and degrades toxin receptor sites (Castagliuolo et al. 1999 Infect Immun).
- - **Anti-inflammatory effects**: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells (Sougioultzis et al. 2006 BBRC).
- - **Barrier protection**: upregulates tight junction proteins and secretory IgA production (Czerucka et al. 2007 Aliment Pharmacol Ther).
- - **Antibiotic-associated diarrhea**: reduces incidence by approximately 50% across meta-analyses (Szajewska & Kołodziej 2015 Aliment Pharmacol Ther; Hempel et al. 2012 JAMA).
- - **Multiple sclerosis adjunctive use**: evaluated as an adjunctive microbiome-targeted intervention in RCT [[motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]].
+ - C. difficile infection: reduces recurrence by 50-60% when combined with antibiotics (McFarland 2006 Am J Gastroenterol; Surawicz et al. 2000 Clin Infect Dis); inhibits toxin A/B binding to colonocytes and degrades toxin receptor sites (Castagliuolo et al. 1999 Infect Immun).
+ - Anti-inflammatory effects: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells (Sougioultzis et al. 2006 BBRC).
+ - Barrier protection: upregulates tight junction proteins and secretory IgA production (Czerucka et al. 2007 Aliment Pharmacol Ther).
+ - Antibiotic-associated diarrhea: reduces incidence by approximately 50% across meta-analyses (Szajewska & Kołodziej 2015 Aliment Pharmacol Ther; Hempel et al. 2012 JAMA).
+ - Multiple sclerosis adjunctive use: evaluated as an adjunctive microbiome-targeted intervention in RCT [[motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]].
 - Unlike bacterial probiotics, *S. boulardii* is inherently resistant to all antibacterial antibiotics, making it uniquely suited for co-administration during antibiotic therapy (Czerucka et al. 2007 Aliment Pharmacol Ther).
 - Produces 54-kDa serine protease that degrades *C. difficile* toxin A and its intestinal receptor (Castagliuolo et al. 1996 Infect Immun; Castagliuolo et al. 1999 Infect Immun).
 
@@ -56,17 +56,17 @@ A genus of ascomycete yeasts that includes both a **proven therapeutic probiotic
 
 ## Metal Biosorption
 
-- Saccharomyces species have significant **metal biosorption capacity**, binding heavy metals to cell wall components (mannoproteins, glucans, chitin) (Wang & Chen 2006 Biotechnol Adv).
+- Saccharomyces species have significant metal biosorption capacity, binding heavy metals to cell wall components (mannoproteins, glucans, chitin) (Wang & Chen 2006 Biotechnol Adv).
 - *S. cerevisiae* cell walls bind [[cadmium]], [[lead]], [[copper]], [[zinc]], and [[chromium]] from solution, a property exploited in industrial bioremediation (Wang & Chen 2006 Biotechnol Adv; Machado et al. 2010 J Hazard Mater).
 - In the gut context, dietary or supplemental yeast may reduce bioavailable metal concentrations, potentially mitigating metal-induced [[dysbiosis]].
 - [[zinc]]-dependent alcohol dehydrogenase and Cu/Zn-superoxide dismutase are key metalloenzymes in Saccharomyces biology.
 
 ## Key Metabolites
 
-- **Ethanol** -- primary fermentation product of S. cerevisiae; small amounts produced in the gut may affect hepatic metabolism.
-- **Beta-glucans** -- cell wall polysaccharides that stimulate Dectin-1 immune receptor, upregulating tight junction proteins and modulating macrophage function [[huang-2024-gut-fungi-ibd-colorectal-cancer]].
-- **Proteases** -- S. boulardii secretes serine proteases that degrade bacterial toxins and pro-inflammatory signaling molecules.
-- **Short-chain fatty acids** -- indirect contribution via cross-kingdom metabolic interactions with SCFA-producing bacteria.
+- Ethanol -- primary fermentation product of S. cerevisiae; small amounts produced in the gut may affect hepatic metabolism.
+- Beta-glucans -- cell wall polysaccharides that stimulate Dectin-1 immune receptor, upregulating tight junction proteins and modulating macrophage function [[huang-2024-gut-fungi-ibd-colorectal-cancer]].
+- Proteases -- S. boulardii secretes serine proteases that degrade bacterial toxins and pro-inflammatory signaling molecules.
+- Short-chain fatty acids -- indirect contribution via cross-kingdom metabolic interactions with SCFA-producing bacteria.
 
 ## Key Sources
 

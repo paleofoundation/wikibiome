@@ -20,27 +20,27 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bacillus
 
-A Gram-positive, aerobic to facultatively anaerobic, **spore-forming** genus that bridges environmental and human microbiology. The genus encompasses both beneficial species (*B. subtilis*, *B. coagulans* as probiotics) and pathogens (*B. cereus* causing food poisoning, *B. anthracis* causing anthrax). *Bacillus* species are distinguished by their **exceptional metal resistance** and metal-binding capabilities, making them important in the [[gut-metal-microbiome]] framework for heavy metal detoxification.
+A Gram-positive, aerobic to facultatively anaerobic, spore-forming genus that bridges environmental and human microbiology. The genus encompasses both beneficial species (*B. subtilis*, *B. coagulans* as probiotics) and pathogens (*B. cereus* causing food poisoning, *B. anthracis* causing anthrax). *Bacillus* species are distinguished by their exceptional metal resistance and metal-binding capabilities, making them important in the [[gut-metal-microbiome]] framework for heavy metal detoxification.
 
 ## Spore-Forming Biology
 
 - *Bacillus* endospores are among the most resistant biological structures, surviving extreme heat, desiccation, UV radiation, and gastric acid.
-- This spore-forming capability makes *Bacillus* probiotics (particularly *B. subtilis* and *B. coagulans*) uniquely **heat-stable** and shelf-stable, with guaranteed viability through gastric transit -- a major advantage over non-spore-forming probiotics like [[lactobacillus]] and [[bifidobacterium]].
+- This spore-forming capability makes *Bacillus* probiotics (particularly *B. subtilis* and *B. coagulans*) uniquely heat-stable and shelf-stable, with guaranteed viability through gastric transit -- a major advantage over non-spore-forming probiotics like [[lactobacillus]] and [[bifidobacterium]].
 - Spores germinate in the small intestine, transitioning to vegetative cells that colonize transiently before being shed.
 
 ## Metal Resistance and Detoxification
 
-- *Bacillus* species possess extensive **metal resistance gene clusters** enabling survival in metal-contaminated environments and active metal sequestration:
+- *Bacillus* species possess extensive metal resistance gene clusters enabling survival in metal-contaminated environments and active metal sequestration:
  - Cadmium resistance via CadA efflux ATPase and metallothionein-like proteins
  - Lead biosorption through cell wall teichoic acids and exopolysaccharides
  - Arsenic resistance via ars operons (arsenate reductase, arsenite efflux)
  - Zinc/copper homeostasis through P-type ATPases
-- *B. subtilis* and *B. coagulans* can **bind and sequester heavy metals** in the gut lumen, reducing intestinal absorption of [[cadmium]], [[lead]], and [[arsenic]] [[chen-2022-living-microorganisms-detoxification-heavy-metals]].
-- Proposed as **living biosensors** for heavy metal detection in food and environmental samples due to their metal-responsive gene expression systems [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
+- *B. subtilis* and *B. coagulans* can bind and sequester heavy metals in the gut lumen, reducing intestinal absorption of [[cadmium]], [[lead]], and [[arsenic]] [[chen-2022-living-microorganisms-detoxification-heavy-metals]].
+- Proposed as living biosensors for heavy metal detection in food and environmental samples due to their metal-responsive gene expression systems [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 
 ## Iron Acquisition
 
-- *B. subtilis* produces **bacillibactin**, a catecholate siderophore structurally related to enterobactin, for iron acquisition under iron-limited conditions.
+- *B. subtilis* produces bacillibactin, a catecholate siderophore structurally related to enterobactin, for iron acquisition under iron-limited conditions.
 - Also produces petrobactin, which evades host siderocalin (lipocalin-2) capture, providing a stealth iron acquisition strategy relevant to *B. anthracis* pathogenesis.
 
 ## Probiotic Applications
@@ -58,15 +58,15 @@ A Gram-positive, aerobic to facultatively anaerobic, **spore-forming** genus tha
 
 ## Soil-Gut Axis
 
-- Predominantly a soil organism; gut presence reflects the **soil-gut axis** (soil-to-food-to-gut microbial transfer).
+- Predominantly a soil organism; gut presence reflects the soil-gut axis (soil-to-food-to-gut microbial transfer).
 - Agricultural soil contaminated with heavy metals carries metal-resistant *Bacillus* that could transfer resistance genes to gut bacteria [[phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]].
 
 ## Key Metabolites
 
-- **Bacillibactin** -- catecholate siderophore for iron acquisition
-- **Surfactin / iturin / fengycin** -- antimicrobial lipopeptides
-- **L-lactic acid** -- fermentation product (*B. coagulans*)
-- **Dipicolinic acid** -- spore component; metal chelator
+- Bacillibactin -- catecholate siderophore for iron acquisition
+- Surfactin / iturin / fengycin -- antimicrobial lipopeptides
+- L-lactic acid -- fermentation product (*B. coagulans*)
+- Dipicolinic acid -- spore component; metal chelator
 
 ## Key Sources
 

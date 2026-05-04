@@ -22,7 +22,7 @@ conditions_depleted_in: [cardiovascular-disease, colorectal-cancer, parkinsons-d
 
 # Lachnospiraceae (Family)
 
-This page serves as the **family-level hub** for Lachnospiraceae, connecting the individual genus and species pages ([[roseburia]], [[blautia]], [[anaerostipes]], [[eubacterium-rectale]]) with the overarching ecological and metabolic framework that defines the family. For the primary entity page with detailed per-disease depletion data, see [[lachnospiraceae]].
+This page serves as the family-level hub for Lachnospiraceae, connecting the individual genus and species pages ([[roseburia]], [[blautia]], [[anaerostipes]], [[eubacterium-rectale]]) with the overarching ecological and metabolic framework that defines the family. For the primary entity page with detailed per-disease depletion data, see [[lachnospiraceae]].
 
 ## Why a Family-Level Page?
 
@@ -30,11 +30,11 @@ Lachnospiraceae is the single most frequently referenced family across the entir
 
 ## The Iron-Sulfur Vulnerability
 
-The defining metabolic feature of Lachnospiraceae from a metallomics perspective is the **iron-sulfur cluster dependency** of their butyrate synthesis pathway:
+The defining metabolic feature of Lachnospiraceae from a metallomics perspective is the iron-sulfur cluster dependency of their butyrate synthesis pathway:
 
 - The butyryl-CoA dehydrogenase complex that converts crotonyl-CoA to butyryl-CoA requires [4Fe-4S] and [2Fe-2S] clusters for electron transfer.
-- These iron-sulfur clusters are vulnerable to displacement by toxic metals. **Lead** exposure (100-500 ppm, 8 weeks) in mice significantly decreased Lachnospiraceae alongside Ruminococcaceae and [[oscillibacter]], while increasing oxidative stress defense pathways ([[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]], animal-model).
-- **Cadmium** exposure similarly depletes Lachnospiraceae members, shifting the community from saccharolytic (SCFA-producing) to proteolytic (toxin-producing) fermentation ([[liu-2023-cadmium-microbiota-metabolome-rats]], animal-model).
+- These iron-sulfur clusters are vulnerable to displacement by toxic metals. Lead exposure (100-500 ppm, 8 weeks) in mice significantly decreased Lachnospiraceae alongside Ruminococcaceae and [[oscillibacter]], while increasing oxidative stress defense pathways ([[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]], animal-model).
+- Cadmium exposure similarly depletes Lachnospiraceae members, shifting the community from saccharolytic (SCFA-producing) to proteolytic (toxin-producing) fermentation ([[liu-2023-cadmium-microbiota-metabolome-rats]], animal-model).
 
 This molecular vulnerability explains why Lachnospiraceae depletion is the most universal microbiome signal across diseases: any condition involving metal dysregulation, oxidative stress, or inflammation will preferentially harm the iron-sulfur-dependent butyrate producers.
 
@@ -56,10 +56,10 @@ Many source pages reference Lachnospiraceae subgroups that lack formal genus nam
 
 The family's depletion spans virtually every disease category in this knowledge base:
 
-- **Neuropsychiatric**: Parkinson's, MS, ASD, schizophrenia, postpartum depression
-- **Cardiometabolic**: CVD, CAD, atherosclerosis, hypertension, type 2 diabetes
-- **Gastrointestinal**: IBD (Crohn's and UC), CRC
-- **Autoimmune**: MS, Hashimoto's thyroiditis
+- Neuropsychiatric: Parkinson's, MS, ASD, schizophrenia, postpartum depression
+- Cardiometabolic: CVD, CAD, atherosclerosis, hypertension, type 2 diabetes
+- Gastrointestinal: IBD (Crohn's and UC), CRC
+- Autoimmune: MS, Hashimoto's thyroiditis
 
 In postpartum depression specifically, Lachnospiraceae UCG-001 was negatively correlated with both EPDS and 17-HAMD severity scores, meaning higher abundance of this subgroup associated with lower depression severity ([[zhou-2020-fecal-microbiota-ppd]], cross-sectional).
 
@@ -72,7 +72,7 @@ The consistent pattern across animal studies is:
 3. Barrier failure → increased translocation → systemic inflammation
 4. Systemic inflammation → disease progression
 
-This cascade positions Lachnospiraceae as the **first domino** in metal-driven dysbiosis, making its abundance a potential biomarker for environmental metal exposure.
+This cascade positions Lachnospiraceae as the first domino in metal-driven dysbiosis, making its abundance a potential biomarker for environmental metal exposure.
 
 ## Cross-References
 

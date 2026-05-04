@@ -10,7 +10,7 @@ tags: [lint, link-health, doi-validation, audit]
 
 # Link Health Audit — 2026-04-19
 
-Run mode: **online**
+Run mode: online
 
 ## DOI audit
 
@@ -1193,10 +1193,10 @@ These DOIs return 404 from api.crossref.org. Nearly all of these are fabricated 
 
 ## How to act on this report
 
-1. **Bad-format DOIs**: Either fix from the source PDF or demote to `doi: "not yet verified"`. Never guess.
-2. **Crossref 404s**: Almost always fabricated. Use `node scripts/lookup-dois.cjs` to attempt Crossref title search for the correct DOI; if nothing comes back, demote to `doi: "not yet verified"` and flag the page with `<!-- NEEDS VERIFICATION -->`.
-3. **Title mismatches**: The DOI is real but points to a different paper than what the frontmatter claims. Investigate manually — either the DOI is wrong or the frontmatter metadata was fabricated.
-4. **Broken wikilinks**: Create the target page as a stub (per §2f and Rule 13) or fix the wikilink source spelling.
+1. Bad-format DOIs: Either fix from the source PDF or demote to `doi: "not yet verified"`. Never guess.
+2. Crossref 404s: Almost always fabricated. Use `node scripts/lookup-dois.cjs` to attempt Crossref title search for the correct DOI; if nothing comes back, demote to `doi: "not yet verified"` and flag the page with `<!-- NEEDS VERIFICATION -->`.
+3. Title mismatches: The DOI is real but points to a different paper than what the frontmatter claims. Investigate manually — either the DOI is wrong or the frontmatter metadata was fabricated.
+4. Broken wikilinks: Create the target page as a stub (per §2f and Rule 13) or fix the wikilink source spelling.
 
 ## Re-running
 

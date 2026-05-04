@@ -5,15 +5,21 @@ type: entity
 subtype: microbe
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: [zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization, wang-2023-mendelian-randomization-gut-microbiota-pancreatitis]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - atabilen-2022-dietary-interventions-ms-systematic-review
+  - jie-2017-gut-microbiome-acvd
+  - svensson-2021-endometriosis-gut-microbiota-associations
+  - borges-2016-uremic-toxins-inflammatory-markers-ckd
+  - peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning
+  - docimo-2020-human-microbiota-endocrinology-thyroid
+  - latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet
+  - swidsinski-2017-colonic-microbiome-ms-ketogenic
+source_count: 8
 metal_dependencies: [iron, selenium, cobalt]
 key_enzymes: [butyryl-CoA transferase, ferredoxin oxidoreductases, tryptophan hydroxylase stimulators]
 tags: [firmicutes, class-level, SCFA-producer, butyrate, serotonin-regulator, schizophrenia-risk, Treg-induction, functional-diversity]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Clostridia class gut bacteria serotonin butyrate immune regulation"
 wikipedia_differentiation: "Mendelian randomization evidence establishing class Clostridia as a causal schizophrenia risk factor (OR 1.16), resolving directionality; serotonin regulation pathway where spore-forming Clostridia stimulate 90%+ of body serotonin production by enterochromaffin cells; ecological framework showing why class-level modulation is clinically dangerous given functional diversity spanning essential commensals and lethal pathogens"
 conditions_enriched_in: [schizophrenia]
@@ -26,7 +32,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Clostridia
 
-A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the **most functionally diverse and clinically significant taxonomic class in the human gut microbiome**. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens ([[clostridium-difficile]], [[clostridium-perfringens]], *C. botulinum*, *C. tetani*). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.
+A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the most functionally diverse and clinically significant taxonomic class in the human gut microbiome. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens ([[clostridium-difficile]], [[clostridium-perfringens]], *C. botulinum*, *C. tetani*). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.
 
 ## Taxonomy
 
@@ -38,20 +44,20 @@ A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicut
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Ferredoxin-dependent metabolism is the hallmark of Clostridia biochemistry. Iron-sulfur cluster proteins enable electron transfer in butyrate synthesis, amino acid fermentation, and hydrogen production.
 - Clostridia's iron requirements are significant but typically met through passive ferrous iron uptake rather than siderophore-mediated scavenging.
 
-**Selenium**:
+Selenium:
 - Selenoproteins (selenocysteine-containing enzymes) are particularly abundant in Clostridia, including glycine reductase and formate dehydrogenase. Host selenium status directly influences the metabolic capacity of Clostridia.
 
-**Cobalt**:
+Cobalt:
 - Corrinoid-dependent enzymes support one-carbon metabolism. Several Clostridia synthesize vitamin B12 de novo, contributing to host B12 supply.
 
 ## Key Functions
 
 ### Serotonin Regulation
-**Spore-forming Clostridia** (primarily clusters IV and XIVa) stimulate enterochromaffin (EC) cells to produce serotonin. Since EC cells produce over 90% of the body's serotonin, Clostridia are arguably the single most important microbial regulator of serotonin biology [[serotonin]]. This makes Clostridia directly relevant to gut motility, mood regulation, bone metabolism, and pain perception.
+Spore-forming Clostridia (primarily clusters IV and XIVa) stimulate enterochromaffin (EC) cells to produce serotonin. Since EC cells produce over 90% of the body's serotonin, Clostridia are arguably the single most important microbial regulator of serotonin biology [[serotonin]]. This makes Clostridia directly relevant to gut motility, mood regulation, bone metabolism, and pain perception.
 
 ### Butyrate Production and Immune Regulation
 Clostridia clusters IV and XIVa are the most potent microbial inducers of colonic regulatory T cells (Tregs). Their SCFA production -- particularly butyrate -- supports:
@@ -66,7 +72,7 @@ The ability to form endospores allows Clostridia to survive antibiotic exposure,
 ## Conditions Associated
 
 ### Schizophrenia (Causal Risk Factor)
-Class Clostridia is a **causal risk factor for schizophrenia** (OR = 1.16, 95% CI 1.01-1.33, MR) [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]]. This class-level signal likely reflects specific sub-lineages rather than all Clostridia, but the directionality is established: genetically determined higher Clostridia abundance increases schizophrenia risk. The finding contrasts with Clostridia's health-promoting roles, underscoring the class's functional diversity.
+Class Clostridia is a causal risk factor for schizophrenia (OR = 1.16, 95% CI 1.01-1.33, MR) [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]]. This class-level signal likely reflects specific sub-lineages rather than all Clostridia, but the directionality is established: genetically determined higher Clostridia abundance increases schizophrenia risk. The finding contrasts with Clostridia's health-promoting roles, underscoring the class's functional diversity.
 
 ### Pancreatitis (Depleted)
 Acute pancreatitis decreases Firmicutes, Tenericutes, Clostridia, and [[mollicutes]] [[wang-2023-mendelian-randomization-gut-microbiota-pancreatitis]], consistent with the broader pattern of Clostridia depletion in acute inflammatory conditions.

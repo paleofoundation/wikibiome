@@ -18,22 +18,22 @@ Emerging evidence links maternal [[nickel]] exposure to adverse pregnancy outcom
 
 ## Congenital Heart Defects (CHDs)
 
-A Chinese case-control study (n=889) found **dose-dependent association between maternal nickel exposure and CHD risk** [[zhang-2019-nickel-congenital-heart-defects]]:
+A Chinese case-control study (n=889) found dose-dependent association between maternal nickel exposure and CHD risk [[zhang-2019-nickel-congenital-heart-defects]]:
 
 - Hair nickel: median 0.629 ng/mg in CHD cases vs 0.443 ng/mg in controls (P<.001)
 - Placental nickel: 0.178 ng/mg in cases vs 0.148 ng/mg (P=.039)
-- Highest hair Ni tertile: **aOR 1.326** (95% CI 1.003-1.757) for total CHDs
+- Highest hair Ni tertile: aOR 1.326 (95% CI 1.003-1.757) for total CHDs
 - Strongest associations: left ventricular outflow tract obstruction (aOR 1.549), right ventricular outflow tract obstruction (aOR 1.543)
-- "Other heart defects" with highest placental Ni: **aOR 11.280** (dramatic but wide CI: 1.621-78.512)
+- "Other heart defects" with highest placental Ni: aOR 11.280 (dramatic but wide CI: 1.621-78.512)
 
 Proposed mechanisms: ROS generation, epigenetic alterations (DNA methylation, histone acetylation changes), direct embryotoxicity.
 
 ## Placental Barrier Dysfunction
 
-The placenta normally acts as a barrier to nickel transfer, but **pregnancy complications weaken this barrier** [[ding-2021-nickel-pregnancy-complications]]:
+The placenta normally acts as a barrier to nickel transfer, but pregnancy complications weaken this barrier [[ding-2021-nickel-pregnancy-complications]]:
 
 - Cord blood Ni was elevated in women with gestational diabetes (GDM) and hypertensive disorders (HDCP) vs controls
-- Barrier function ranking: **Control > GDM > Disease combination > HDCP** (weakest)
+- Barrier function ranking: Control > GDM > Disease combination > HDCP (weakest)
 - Maternal blood:cord blood Ni ratio >1 indicates good barrier — 85% of controls vs 50-60% of disease groups met this threshold
 - Birth weight and length significantly reduced in HDCP group
 - Nickel induces lipid peroxidation in placenta → decreased placental vitality → potential IUGR
@@ -48,10 +48,10 @@ High nickel in placenta negatively correlated with birth weight [[dobrzynska-202
 
 ## Biomonitoring
 
-- **Hair nickel**: reflects chronic exposure over months; useful but no established normal reference range
-- **Placental tissue nickel**: directly reflects fetal exposure during pregnancy
-- **Cord blood nickel**: indicates active transfer to fetus at delivery
-- **Urinary nickel**: short-term exposure indicator
+- Hair nickel: reflects chronic exposure over months; useful but no established normal reference range
+- Placental tissue nickel: directly reflects fetal exposure during pregnancy
+- Cord blood nickel: indicates active transfer to fetus at delivery
+- Urinary nickel: short-term exposure indicator
 
 ## Open Questions
 

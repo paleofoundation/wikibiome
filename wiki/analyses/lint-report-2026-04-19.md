@@ -9,10 +9,10 @@ tags: [lint, health-check, maintenance, weekly]
 
 # WikiBiome / Cureva Lint Report — 2026-04-19
 
-**Scope:** Full health check of the vault at `~/Documents/Raw`.
-**Run type:** Weekly automated scheduled task (Sunday lint).
-**Prior run:** [[lint-report-2026-04-14]] (not [[lint-report-2026-04-12]] — that was the last deploy-gate lint).
-**Action policy:** Report only. No fixes applied. Karen prioritizes.
+Scope: Full health check of the vault at `~/Documents/Raw`.
+Run type: Weekly automated scheduled task (Sunday lint).
+Prior run: [[lint-report-2026-04-14]] (not [[lint-report-2026-04-12]] — that was the last deploy-gate lint).
+Action policy: Report only. No fixes applied. Karen prioritizes.
 
 ---
 
@@ -20,33 +20,33 @@ tags: [lint, health-check, maintenance, weekly]
 
 | Check | Count | Severity |
 |------|------|---------|
-| Orphan pages (no inbound wikilinks) | **65** | medium |
-| Broken wikilinks (non-source targets) | **144** | high |
-| Broken wikilinks (all — incl. missing source pages) | **1,266** | critical |
-| Duplicate-DOI clusters (true dupes, excl. "not yet verified") | **98** | high |
-| Files affected by duplicate DOIs | **204** | high |
-| Stale `" 2.md"` duplicate filenames | **2** | medium |
-| Sources missing `evidence_level` | **163** | medium |
+| Orphan pages (no inbound wikilinks) | 65 | medium |
+| Broken wikilinks (non-source targets) | 144 | high |
+| Broken wikilinks (all — incl. missing source pages) | 1,266 | critical |
+| Duplicate-DOI clusters (true dupes, excl. "not yet verified") | 98 | high |
+| Files affected by duplicate DOIs | 204 | high |
+| Stale `" 2.md"` duplicate filenames | 2 | medium |
+| Sources missing `evidence_level` | 163 | medium |
 | Sources missing `karen_brain_primitives` | 0 | — |
-| Sources with `doi: "not yet verified"` | **201** | medium |
+| Sources with `doi: "not yet verified"` | 201 | medium |
 | Sources with empty DOI | 0 | — |
-| Entities missing `seo_target` | **22** | medium |
-| Entities missing `wikipedia_differentiation` | **22** | medium |
+| Entities missing `seo_target` | 22 | medium |
+| Entities missing `wikipedia_differentiation` | 22 | medium |
 | Disease entities missing `associated_conditions` | 0 | — |
-| Disease entities WITHOUT signature (wiki or cureva) | **16** | medium |
+| Disease entities WITHOUT signature (wiki or cureva) | 16 | medium |
 | Signatures missing `confidence` block | 0 | — |
 | Signatures missing any of 5 confidence layers | 0 | — |
 | Signatures missing `associated_conditions` | 0 | — |
 | Signatures missing `karen_brain_primitives` | 0 | — |
-| Asymmetric `associated_conditions` pairs (A→B but not B→A) | **62** | medium |
-| Wiki interventions: triangles populated but `_sources` edge fields missing | **15** | high |
-| Cureva interventions with same defect | **1** | low |
-| Wiki STOPs without Cureva counterpart (Cureva lag) | **6** | medium |
-| Wiki-only signatures (no Cureva counterpart) | **14** | medium |
+| Asymmetric `associated_conditions` pairs (A→B but not B→A) | 62 | medium |
+| Wiki interventions: triangles populated but `_sources` edge fields missing | 15 | high |
+| Cureva interventions with same defect | 1 | low |
+| Wiki STOPs without Cureva counterpart (Cureva lag) | 6 | medium |
+| Wiki-only signatures (no Cureva counterpart) | 14 | medium |
 | Concept pages missing `karen_brain_primitives` | 0 | — |
 | Concept pages missing `seo_target` | 0 | — |
-| Boundary violations (clinical language on public pages) | **2** | low |
-| Index count mismatches | **4** | medium |
+| Boundary violations (clinical language on public pages) | 2 | low |
+| Index count mismatches | 4 | medium |
 | Stubs older than 90 days (last_substantive_update < 2026-01-19) | 0 tracked | — |
 | `audit_passed` frontmatter markers in vault | 0 | low |
 | Contradiction pairs logged via Supersession Protocol (new this week) | 0 | — |
@@ -57,7 +57,7 @@ tags: [lint, health-check, maintenance, weekly]
 
 No new contradictions surfaced this cycle. Last supersession batch was logged 2026-04-18 in [[supersessions-2026-04-18]]. DOI corrections from 2026-04-19 (Chin-Chan et al.) are factual-metadata fixes, not claim-level supersessions.
 
-**Finding:** 201 sources still carry `doi: "not yet verified"` — any of these could be masking a silent contradiction if the cited paper is actually different from the one referenced. Link-health audit ([[link-health-2026-04-19]]) already flagged 67 similarity-0 cases. Four corrected 2026-04-19. Remaining 63 need Crossref or manual PubMed.
+Finding: 201 sources still carry `doi: "not yet verified"` — any of these could be masking a silent contradiction if the cited paper is actually different from the one referenced. Link-health audit ([[link-health-2026-04-19]]) already flagged 67 similarity-0 cases. Four corrected 2026-04-19. Remaining 63 need Crossref or manual PubMed.
 
 ---
 
@@ -65,7 +65,7 @@ No new contradictions surfaced this cycle. Last supersession batch was logged 20
 
 No automated finding this cycle. A full claim-level supersession sweep would require re-reading every source's `key_findings` and comparing publication dates within condition clusters — that is a separate multi-hour pass, not part of weekly lint.
 
-**Recommendation:** Queue a quarterly supersession sweep on the 15 highest-traffic disease entities (those with 20+ sources).
+Recommendation: Queue a quarterly supersession sweep on the 15 highest-traffic disease entities (those with 20+ sources).
 
 ---
 
@@ -76,7 +76,7 @@ Files with no inbound `[[wikilink]]`. Grouped by type:
 ### Stops (30 orphans — all need linkbacks from their signature pages)
 `stop-antibiotics-during-chemotherapy-ovarian-cancer`, `stop-broad-spectrum-antibiotics-crohns`, `stop-broad-spectrum-antibiotics-long-covid`, `stop-broad-spectrum-antibiotics-pre-nec`, `stop-diagnostic-overclaiming-discovery-phase`, `stop-formula-feeding-without-supplementation-nec`, `stop-high-protein-keto-diet-ckd`, `stop-iodine-supplementation-graves`, `stop-iodine-supplementation-hashimotos`, `stop-iron-phosphate-binders-ckd`, `stop-iron-supplementation-alzheimers`, `stop-iron-supplementation-asd`, `stop-iron-supplementation-cardiovascular-disease`, `stop-iron-supplementation-crohns`, `stop-iron-supplementation-depression`, `stop-iron-supplementation-endometriosis`, `stop-iron-supplementation-graves`, `stop-iron-supplementation-long-covid`, `stop-iron-supplementation-ms`, `stop-iron-supplementation-obesity`, `stop-iron-supplementation-parkinsons`, `stop-iron-supplementation-schizophrenia`, `stop-iron-supplementation-type-2-diabetes`, `stop-isolated-zinc-supplementation-pcos`, `stop-neglecting-constipation-ckd`, `stop-nsaids-ckd`, `stop-ppi-monotherapy-without-microbiome-support-gerd`, `stop-probiotics-without-stress-management-ovarian-cancer`, `stop-scfa-replacement-without-dysbiosis-restoration-ms`, `stop-wrong-strain-probiotics-schizophrenia`, `stop-zinc-supplementation-endometriosis`.
 
-**Pattern:** Every signature page's `stops: [...]` array should link back via `[[stop-...]]` in body text. Currently the stops exist as frontmatter array entries but no page body cites them. This is the bulk of the orphan count.
+Pattern: Every signature page's `stops: [...]` array should link back via `[[stop-...]]` in body text. Currently the stops exist as frontmatter array entries but no page body cites them. This is the bulk of the orphan count.
 
 ### Interventions (11 orphans)
 `_template-intervention` (expected — template), `berberine`, `curcumin`, `glutathione-supplementation`, `gluten-free-diet`, `melatonin`, `metformin-intervention`, `omega-3-fatty-acids`, `resveratrol`, `statin-therapy`.
@@ -91,7 +91,7 @@ Plus: `essential-oils`, `immunotherapy`.
 ### Concept orphans (4)
 `colonization-resistance`, `outer-membrane`, `parenteral-nutrition`, `riboswitch`.
 
-**Action items:** None taken. Recommendation is to add body-text cross-references from parent pages (signatures → stops, disease entities → signatures, etc.). Every orphan is a page already paid-for but not routing traffic.
+Action items: None taken. Recommendation is to add body-text cross-references from parent pages (signatures → stops, disease entities → signatures, etc.). Every orphan is a page already paid-for but not routing traffic.
 
 ---
 
@@ -120,7 +120,7 @@ Case-sensitivity broken links (should resolve to existing lowercase pages — 30
 Template-rot placeholders leaked into content or output:
 `${target}`, `${target}${displayText}`, `${target}${display}`, `slug`, `source-filename`, `wikilink`, `bacillus\`, `bifidobacterium\`, `lactobacillus\`, `saccharomyces-cerevisiae\`, `[...`. Latter set suggests an HTML/JS template helper was rendered literally into a markdown file somewhere.
 
-**Action:** Normalize wikilink casing (lowercase-hyphenated is the vault convention). Purge templating leak.
+Action: Normalize wikilink casing (lowercase-hyphenated is the vault convention). Purge templating leak.
 
 ---
 
@@ -150,7 +150,7 @@ This is a heuristic list. A precise answer requires a per-condition intervention
 
 ## 7. Missing Cross-References
 
-Systemic asymmetries in `associated_conditions` across 42 signature pages: **62 asymmetric pairs** (A lists B, B does not list A). Representative:
+Systemic asymmetries in `associated_conditions` across 42 signature pages: 62 asymmetric pairs (A lists B, B does not list A). Representative:
 
 - `ovarian-cancer` → `endometriosis`, but `endometriosis-signature` does not list `ovarian-cancer`.
 - `ovarian-cancer` → `colorectal-cancer`; reverse missing.
@@ -162,7 +162,7 @@ Systemic asymmetries in `associated_conditions` across 42 signature pages: **62 
 
 Full list of 62 pairs can be regenerated via the Python block in §Grep commands.
 
-**Interpretation:** `associated_conditions` was likely populated unidirectionally during signature build. Either direction can be correct — not every A→B implies B→A — but the asymmetry on well-studied pairs (endometriosis↔ovarian-cancer, depression↔postpartum-depression) points to drift, not principled asymmetry.
+Interpretation: `associated_conditions` was likely populated unidirectionally during signature build. Either direction can be correct — not every A→B implies B→A — but the asymmetry on well-studied pairs (endometriosis↔ovarian-cancer, depression↔postpartum-depression) points to drift, not principled asymmetry.
 
 ---
 
@@ -172,7 +172,7 @@ CLAUDE.md §4 Intervention schema requires `I_to_f_sources`, `I_to_D_sources`, `
 
 ### wiki/interventions — 15 of 39 violate (38%)
 
-All 15 interventions have the narrative triangle fields populated (`I_to_f`, `I_to_D`, `f_to_D`) and evidence-level tags (`I_to_f_evidence` etc.), but **zero source-filename arrays at the edges**:
+All 15 interventions have the narrative triangle fields populated (`I_to_f`, `I_to_D`, `f_to_D`) and evidence-level tags (`I_to_f_evidence` etc.), but zero source-filename arrays at the edges:
 
 `berberine`, `chelation-therapy`, `curcumin`, `glutathione-supplementation`, `gluten-free-diet`, `mediterranean-diet`, `melatonin`, `metformin-intervention`, `omega-3-fatty-acids`, `probiotics-general`, `resveratrol`, `selenium-supplementation`, `statin-therapy`, `vitamin-d-supplementation`, `zinc-supplementation`.
 
@@ -180,7 +180,7 @@ All 15 interventions have the narrative triangle fields populated (`I_to_f`, `I_
 
 `probiotics-asd-dysbiosis.md` has a triangles block but no edge-level sources.
 
-**Severity:** High. Under §4 schema, a triangle without source arrays is ungradeable — Cureva cannot surface source-level evidence per edge. Currently the renderer presumably falls back to narrative + evidence-level tag, which is weaker than the schema promises.
+Severity: High. Under §4 schema, a triangle without source arrays is ungradeable — Cureva cannot surface source-level evidence per edge. Currently the renderer presumably falls back to narrative + evidence-level tag, which is weaker than the schema promises.
 
 ---
 
@@ -192,11 +192,11 @@ All 42 wiki/signatures and 28 cureva/signatures carry a `confidence:` block with
 
 ## 10. Source Page Completeness
 
-- `evidence_level` missing on **163 of 1,716** source pages (9.5%). Batch-inferrable from existing `library_category` and study-design keywords in body summaries.
-- `karen_brain_primitives` missing on **0** source pages. Complete.
-- `doi: "not yet verified"` on **201** source pages. Tracked in [[doi-corrections-2026-04-19]].
-- Empty DOI strings: **0**.
-- Sources with non-standard DOI format (not starting with `10.`, not "not yet verified", not empty): **0** — DOI sanity is clean.
+- `evidence_level` missing on 163 of 1,716 source pages (9.5%). Batch-inferrable from existing `library_category` and study-design keywords in body summaries.
+- `karen_brain_primitives` missing on 0 source pages. Complete.
+- `doi: "not yet verified"` on 201 source pages. Tracked in [[doi-corrections-2026-04-19]].
+- Empty DOI strings: 0.
+- Sources with non-standard DOI format (not starting with `10.`, not "not yet verified", not empty): 0 — DOI sanity is clean.
 
 Sample of 10 sources missing `evidence_level` (full list: `grep -L "^evidence_level:" wiki/sources/*.md`):
 `bars-cortina-2024-16s-vs-shotgun-crc`, `bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus`, `belteky-2023-infant-gut-microbiome-t1d-abis-study`, `bile-acids-t1d-calprotectin-scfa`, `blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans`, `boertien-2019-microbiome-composition-covariates-parkinsons`, `borghini-2020-endometriosis-nickel-ibs`, `braga-2013-snas-nosologic-framework`, `brann-2021-metabolic-profiling-ppd-diversity`, `branton-2016-brain-microbiota-ms`.
@@ -231,9 +231,9 @@ All 274 entity pages have `source_count` matching actual `sources:` array length
 
 ## 14. DOI Format Sanity
 
-All 1,716 source DOIs either start with `10.` or are placeholder (`"not yet verified"`). **No memory-generated patterns** (e.g., `10.XXX/fake.2024.001`) detected.
+All 1,716 source DOIs either start with `10.` or are placeholder (`"not yet verified"`). No memory-generated patterns (e.g., `10.XXX/fake.2024.001`) detected.
 
-However — **98 duplicate-DOI clusters remain** (same DOI in 2+ source files). 204 files affected. This is essentially unchanged from 2026-04-12 and 2026-04-14 lint. Cluster of 3+ cases (9 DOIs each duplicated 3× across files):
+However — 98 duplicate-DOI clusters remain (same DOI in 2+ source files). 204 files affected. This is essentially unchanged from 2026-04-12 and 2026-04-14 lint. Cluster of 3+ cases (9 DOIs each duplicated 3× across files):
 
 - `10.1038/s41398-021-01254-5` (zhang-2021 antidepressant study, 3 files)
 - `10.15252/embr.202255664`
@@ -256,12 +256,12 @@ All 42 signatures list ≥2 `overlap_score` entries (mean 3.5, max 4 in sampled 
 ## 16. Index Drift
 
 `wiki/index.md` header reports:
-| Metals/Metalloids | 24 | actual 27 (17 `metal` + 2 `metalloid` = 29 if summed differently; 27 per `subtype: metal`) — **mismatch** |
-| Microbes | 172 | actual 167 — **overcount by 5** |
-| Fungi | 20 | actual 16 — **overcount by 4** |
-| Diseases | 54 | actual 57 — **undercount by 3** |
-| Concepts | 190 | actual 191 — **undercount by 1** |
-| Interventions | 29 | actual 39 — **undercount by 10** |
+| Metals/Metalloids | 24 | actual 27 (17 `metal` + 2 `metalloid` = 29 if summed differently; 27 per `subtype: metal`) — mismatch |
+| Microbes | 172 | actual 167 — overcount by 5 |
+| Fungi | 20 | actual 16 — overcount by 4 |
+| Diseases | 54 | actual 57 — undercount by 3 |
+| Concepts | 190 | actual 191 — undercount by 1 |
+| Interventions | 29 | actual 39 — undercount by 10 |
 
 Sources (1,716) and STOPs (39) match.
 
@@ -290,7 +290,7 @@ Cureva has 0 signatures that are not in `wiki/signatures/`. Direction of diverge
 `stop-broad-spectrum-antibiotics-dysbiosis`, `stop-calcium-supplementation-cadmium-exposure`, `stop-iron-supplementation-ibd`, `stop-nickel-rich-foods-snas`, `stop-standard-probiotics-endometriosis`, `stop-zinc-supplementation-h-pylori`.
 
 ### Intervention divergence
-Wiki has 39, Cureva has 32. 38 Wiki-unique interventions vs 32 Cureva-unique intervention entries, with little overlap — suggests the two trees serve different purposes (wiki = canonical intervention reference; cureva = condition-scoped intervention nodes). This may be by design. **Not flagged as an error** — surfaced for Karen's review.
+Wiki has 39, Cureva has 32. 38 Wiki-unique interventions vs 32 Cureva-unique intervention entries, with little overlap — suggests the two trees serve different purposes (wiki = canonical intervention reference; cureva = condition-scoped intervention nodes). This may be by design. Not flagged as an error — surfaced for Karen's review.
 
 ---
 
@@ -315,9 +315,9 @@ No stubs have a `last_substantive_update` older than 2026-01-19 (90-day threshol
 
 ## 20. Adversarial Audit Marker Coverage (Rule 12)
 
-**Zero** pages in the vault carry `audit_passed: YYYY-MM-DD` frontmatter. The adversarial audit machinery (Rule 12) exists ([[adversarial-audit-2026-04-19]]) but is not back-propagating the `audit_passed` stamp to the pages it clears. This breaks the weighted-sampling mechanism: every audit cycle will re-sample the same pages because none are marked clean.
+Zero pages in the vault carry `audit_passed: YYYY-MM-DD` frontmatter. The adversarial audit machinery (Rule 12) exists ([[adversarial-audit-2026-04-19]]) but is not back-propagating the `audit_passed` stamp to the pages it clears. This breaks the weighted-sampling mechanism: every audit cycle will re-sample the same pages because none are marked clean.
 
-**Severity:** Low for this cycle, high structurally. Needs one-time fix to the audit script.
+Severity: Low for this cycle, high structurally. Needs one-time fix to the audit script.
 
 ---
 
@@ -373,18 +373,18 @@ grep -h "^subtype:" wiki/entities/*.md | sort | uniq -c
 
 ## Prioritization (for Karen)
 
-**Tier 1 — fix before next deploy:**
+Tier 1 — fix before next deploy:
 1. 15 wiki/interventions missing `_sources` arrays on triangle edges — schema requires it; Cureva renders stronger evidence with these.
 2. Update `wiki/index.md` counts (Metals, Microbes, Fungi, Diseases, Concepts, Interventions).
 3. Normalize wikilink casing (30+ broken case-sensitivity targets).
 
-**Tier 2 — this week:**
+Tier 2 — this week:
 4. Resolve the 63 remaining "not yet verified" DOIs from the 2026-04-19 corrections queue (per [[doi-corrections-2026-04-19]]).
 5. Delete the two " 2.md" filename duplicates (both COVID papers; identical DOIs with canonical variants).
 6. De-dupe the 98 duplicate-DOI clusters — this has persisted across three lint cycles.
 7. Add body-text `[[stop-...]]` references in signature pages to eliminate 30 stop-orphans.
 
-**Tier 3 — when scoped:**
+Tier 3 — when scoped:
 8. Fill 163 source `evidence_level` fields via batch inference from `library_category`.
 9. Add `seo_target` and `wikipedia_differentiation` to the 22 entity pages that lack them.
 10. Resolve 62 asymmetric `associated_conditions` pairs (likely most should be bidirectional).

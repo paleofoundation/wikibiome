@@ -24,7 +24,7 @@ oxygen_requirement: "facultative anaerobe"
 
 # Streptococcus gallolyticus
 
-A Gram-positive, facultatively anaerobic bacterium formerly classified as *Streptococcus bovis* biotype I that holds a **unique position in clinical medicine as a sentinel organism for colorectal cancer**. The detection of *S. gallolyticus* in blood cultures (bacteremia or endocarditis) has been a recognized indication for colonoscopy since the 1970s -- one of the oldest and most reliable microbiome-cancer associations in medicine. Modern genomic and mechanistic studies have revealed why: *S. gallolyticus* possesses collagen-binding pili that give it **tumor tropism**, allowing it to selectively colonize colonic lesions where the basement membrane collagen is exposed.
+A Gram-positive, facultatively anaerobic bacterium formerly classified as *Streptococcus bovis* biotype I that holds a unique position in clinical medicine as a sentinel organism for colorectal cancer. The detection of *S. gallolyticus* in blood cultures (bacteremia or endocarditis) has been a recognized indication for colonoscopy since the 1970s -- one of the oldest and most reliable microbiome-cancer associations in medicine. Modern genomic and mechanistic studies have revealed why: *S. gallolyticus* possesses collagen-binding pili that give it tumor tropism, allowing it to selectively colonize colonic lesions where the basement membrane collagen is exposed.
 
 ## Taxonomy
 
@@ -35,20 +35,20 @@ A Gram-positive, facultatively anaerobic bacterium formerly classified as *Strep
 
 ## Metal Dependencies
 
-**Manganese**:
+Manganese:
 - Like other streptococci, *S. gallolyticus* relies heavily on manganese for superoxide dismutase (SodA) activity, protecting against oxidative stress in the inflammatory tumor microenvironment.
 - Manganese-dependent phosphoglyceromutase is essential for glycolytic metabolism.
 
-**Iron**:
+Iron:
 - *S. gallolyticus* has relatively modest iron requirements compared to siderophore-producing pathogens, relying primarily on Mn-centered rather than Fe-centered enzymes for oxidative stress defense.
 - The tumor microenvironment's iron excess from hemorrhage may indirectly benefit *S. gallolyticus* by supporting the growth of co-colonizing anaerobes that create favorable conditions.
 
 ## Key Enzymes and Virulence Factors
 
-- **Tannase (gallate decarboxylase)**: The eponymous enzyme -- *S. gallolyticus* can degrade gallotannins (found in tea, wine, and plant-derived foods) into gallic acid and glucose. This metabolic capability provides a nutritional advantage in the colonic environment and may generate antimicrobial metabolites that suppress competitors.
-- **Collagen-binding pili (Pil1, Pil2, Pil3)**: The mechanistic basis of tumor tropism. These pili bind to exposed collagen in damaged or neoplastic colonic mucosa where the epithelial barrier has been breached, allowing *S. gallolyticus* to selectively colonize tumor sites.
-- **COX-2 induction**: *S. gallolyticus* upregulates cyclooxygenase-2 in colonic epithelial cells, driving PGE2 production. PGE2 promotes cell proliferation, angiogenesis, and immune evasion -- a well-established pro-tumorigenic pathway.
-- **Beta-glucuronidase**: Contributes to estrogen and xenobiotic deconjugation; relevant to the broader estrobolome.
+- Tannase (gallate decarboxylase): The eponymous enzyme -- *S. gallolyticus* can degrade gallotannins (found in tea, wine, and plant-derived foods) into gallic acid and glucose. This metabolic capability provides a nutritional advantage in the colonic environment and may generate antimicrobial metabolites that suppress competitors.
+- Collagen-binding pili (Pil1, Pil2, Pil3): The mechanistic basis of tumor tropism. These pili bind to exposed collagen in damaged or neoplastic colonic mucosa where the epithelial barrier has been breached, allowing *S. gallolyticus* to selectively colonize tumor sites.
+- COX-2 induction: *S. gallolyticus* upregulates cyclooxygenase-2 in colonic epithelial cells, driving PGE2 production. PGE2 promotes cell proliferation, angiogenesis, and immune evasion -- a well-established pro-tumorigenic pathway.
+- Beta-glucuronidase: Contributes to estrogen and xenobiotic deconjugation; relevant to the broader estrobolome.
 
 ## Ecological Role
 
@@ -61,7 +61,7 @@ When colorectal neoplasia develops and the basement membrane becomes exposed, *S
 2. *S. gallolyticus* → COX-2/PGE2 → enhanced proliferation and inflammation
 3. Tumor progression → more collagen exposure → denser colonization
 
-This makes *S. gallolyticus* both a **biomarker** of existing neoplasia and a potential **accelerator** of carcinogenesis.
+This makes *S. gallolyticus* both a biomarker of existing neoplasia and a potential accelerator of carcinogenesis.
 
 ## Conditions Associated
 

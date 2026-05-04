@@ -5,15 +5,21 @@ type: entity
 subtype: microbe
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: [gao-2015-microbiota-disbiosis-colorectal-cancer, hanus-2021-immune-microbiota-metabolites-crc-triad]
-source_count: 2
+last_substantive_update: 2026-04-22
+sources:
+  - troeseid-2024-gut-microbiome-cardiometabolic-comorbidities-hiv
+  - qin-2024-consistent-microbiome-signatures-old-young-onset-crc
+  - zangeneh-2021-oral-microbiota-ms
+  - saito-2019-metagenomic-gut-microbiota-colorectal-adenoma
+  - yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics
+  - gao-2015-microbiota-disbiosis-colorectal-cancer
+  - hanus-2021-immune-microbiota-metabolites-crc-triad
+  - neto-2024-environmental-factors-seminal-microbiome-sperm-quality
+source_count: 8
 metal_dependencies: [iron]
 key_enzymes: [putrescine biosynthesis enzymes, TLR2/TLR4 ligands]
 tags: [CRC-enriched, tumor-microenvironment, pro-inflammatory, firmicutes, NF-kB, cholesterol-biosynthesis, ROS]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 seo_target: "Peptostreptococcus anaerobius colorectal cancer tumor microbiome"
 wikipedia_differentiation: "Role as a tumor microenvironment colonizer in CRC with mechanistic detail on TLR2/TLR4-mediated NF-kB activation, cholesterol biosynthesis pathway upregulation, and ROS-driven pro-tumorigenic signaling distinct from the better-known Fusobacterium nucleatum CRC mechanism"
 conditions_enriched_in: [colorectal-cancer]
@@ -26,7 +32,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Peptostreptococcus anaerobius
 
-A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Peptostreptococcaceae) that has emerged as a **consistently enriched organism in the colorectal cancer tumor microenvironment**. While [[fusobacterium-nucleatum]] receives the most attention as a CRC-associated bacterium, *P. anaerobius* operates through a distinct pro-tumorigenic mechanism involving TLR2/TLR4 signaling, NF-kB activation, and cholesterol biosynthesis pathway upregulation -- making it a complementary driver of colorectal carcinogenesis rather than a redundant player.
+A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Peptostreptococcaceae) that has emerged as a consistently enriched organism in the colorectal cancer tumor microenvironment. While [[fusobacterium-nucleatum]] receives the most attention as a CRC-associated bacterium, *P. anaerobius* operates through a distinct pro-tumorigenic mechanism involving TLR2/TLR4 signaling, NF-kB activation, and cholesterol biosynthesis pathway upregulation -- making it a complementary driver of colorectal carcinogenesis rather than a redundant player.
 
 ## Taxonomy
 
@@ -36,17 +42,17 @@ A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (fami
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Iron-sulfur cluster proteins support anaerobic energy metabolism in *P. anaerobius*.
 - The tumor microenvironment provides abundant iron from hemorrhage, neovascularization, and macrophage-mediated iron recycling -- conditions that likely favor *P. anaerobius* colonization.
 - Iron availability in colorectal tumors may partly explain the selective enrichment of iron-dependent anaerobes like *P. anaerobius* alongside [[fusobacterium-nucleatum]] and [[bacteroides-fragilis]].
 
 ## Key Enzymes and Virulence Factors
 
-- **Surface protein interactions with TLR2 and TLR4**: *P. anaerobius* activates innate immune receptors on colonic epithelial cells and macrophages, triggering NF-kB-dependent inflammatory signaling. Unlike bacterial toxins that directly damage cells, this mechanism hijacks the host inflammatory response to create a pro-tumorigenic microenvironment.
-- **Cholesterol biosynthesis pathway activation**: *P. anaerobius* colonization upregulates cholesterol biosynthesis in colonic epithelial cells, promoting cell proliferation. Cholesterol is a critical membrane component for rapidly dividing cancer cells.
-- **Putrescine biosynthesis**: Production of the polyamine putrescine contributes to cell proliferation signaling in the tumor microenvironment.
-- **ROS generation**: *P. anaerobius* promotes reactive oxygen species production in colonocytes, contributing to DNA damage and genomic instability.
+- Surface protein interactions with TLR2 and TLR4: *P. anaerobius* activates innate immune receptors on colonic epithelial cells and macrophages, triggering NF-kB-dependent inflammatory signaling. Unlike bacterial toxins that directly damage cells, this mechanism hijacks the host inflammatory response to create a pro-tumorigenic microenvironment.
+- Cholesterol biosynthesis pathway activation: *P. anaerobius* colonization upregulates cholesterol biosynthesis in colonic epithelial cells, promoting cell proliferation. Cholesterol is a critical membrane component for rapidly dividing cancer cells.
+- Putrescine biosynthesis: Production of the polyamine putrescine contributes to cell proliferation signaling in the tumor microenvironment.
+- ROS generation: *P. anaerobius* promotes reactive oxygen species production in colonocytes, contributing to DNA damage and genomic instability.
 
 ## Ecological Role
 
@@ -65,9 +71,9 @@ A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (fami
 *P. anaerobius* is enriched in the CRC tumor microenvironment [[gao-2015-microbiota-disbiosis-colorectal-cancer]] and is cataloged alongside [[streptococcus-gallolyticus]], enterotoxigenic [[bacteroides-fragilis]], pks+ [[escherichia-coli]], [[fusobacterium-nucleatum]], and [[enterococcus-faecalis]] as one of six bacteria with well-characterized pro-tumorigenic mechanisms [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
 The mechanistic triad:
-1. **Immune modulation** -- TLR2/TLR4 activation → NF-kB → pro-inflammatory cytokines → tumor-promoting inflammation
-2. **Metabolic reprogramming** -- cholesterol biosynthesis upregulation → enhanced cell proliferation
-3. **Genotoxicity** -- ROS production → DNA damage → genomic instability
+1. Immune modulation -- TLR2/TLR4 activation → NF-kB → pro-inflammatory cytokines → tumor-promoting inflammation
+2. Metabolic reprogramming -- cholesterol biosynthesis upregulation → enhanced cell proliferation
+3. Genotoxicity -- ROS production → DNA damage → genomic instability
 
 ## Key Studies
 

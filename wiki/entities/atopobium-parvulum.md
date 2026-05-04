@@ -4,9 +4,17 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - quaranta-2019-fmt-female-reproductive-tract-diseases
+  - ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis
+  - lingasamy-2024-immunome-microbiome-reproductive-health
+  - pruski-2021-desi-ms-vaginal-microbiome-preterm-birth
+  - asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic
+  - yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics
+  - hernandes-2020-microbiome-profile-deep-endometriosis
+  - li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis
+source_count: 8
 tags:
   - actinobacteria
   - oral-microbiome
@@ -26,17 +34,15 @@ conditions_enriched_in:
   - inflammatory-bowel-disease
   - colorectal-cancer
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Atopobium parvulum** is a Gram-positive obligate anaerobe found primarily in the oral cavity but increasingly detected in gut microbiome studies. It produces **hydrogen sulfide** (H2S) through cysteine metabolism, contributing to halitosis in the mouth and potentially to mucosal damage when it colonizes the gut.
+Atopobium parvulum is a Gram-positive obligate anaerobe found primarily in the oral cavity but increasingly detected in gut microbiome studies. It produces hydrogen sulfide (H2S) through cysteine metabolism, contributing to halitosis in the mouth and potentially to mucosal damage when it colonizes the gut.
 
 ## Metal Dependencies
 
-A. parvulum requires **iron** for its anaerobic metabolism. Its cysteine desulfhydrase activity generates H2S, which can chelate iron and other metals in the local environment, potentially altering metal bioavailability for neighboring organisms. This places A. parvulum at the intersection of sulfur metabolism and metal ecology.
+A. parvulum requires iron for its anaerobic metabolism. Its cysteine desulfhydrase activity generates H2S, which can chelate iron and other metals in the local environment, potentially altering metal bioavailability for neighboring organisms. This places A. parvulum at the intersection of sulfur metabolism and metal ecology.
 
 ## Ecological Role
 

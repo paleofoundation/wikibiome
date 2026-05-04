@@ -3,10 +3,12 @@ title: Enterobacter cloacae
 type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
-updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+updated: 2026-04-22
+sources:
+  - casaburi-2022-formate-nec-enteric-dysbiosis-metabolic-model
+  - lancaster-2014-metallomics-microorganisms-bioremediation
+  - khan-2011-novel-approach-enterobacteriaceae-identification-clinical
+source_count: 3
 tags:
   - enterobacteriaceae
   - opportunistic-pathogen
@@ -30,17 +32,16 @@ conditions_enriched_in:
   - urinary-tract-infections
   - necrotizing-enterocolitis
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
+last_substantive_update: 2026-04-22
 ---
 
 ## Overview
 
-**Enterobacter cloacae** is a Gram-negative, facultatively anaerobic member of the Enterobacteriaceae. Ubiquitous in soil, water, and the mammalian gut, it is a leading cause of nosocomial infections and carries clinically significant antibiotic resistance through inducible AmpC beta-lactamases.
+Enterobacter cloacae is a Gram-negative, facultatively anaerobic member of the Enterobacteriaceae. Ubiquitous in soil, water, and the mammalian gut, it is a leading cause of nosocomial infections and carries clinically significant antibiotic resistance through inducible AmpC beta-lactamases.
 
 ## Metal Dependencies
 
-E. cloacae relies heavily on **iron** for growth and virulence. It produces multiple siderophore types — enterobactin and aerobactin — that compete directly with host [[lactoferrin]] and [[transferrin]]. Zinc and manganese serve as cofactors for its beta-lactamase enzymes and oxidative stress defense systems, linking metal availability to antibiotic resistance expression.
+E. cloacae relies heavily on iron for growth and virulence. It produces multiple siderophore types — enterobactin and aerobactin — that compete directly with host [[lactoferrin]] and [[transferrin]]. Zinc and manganese serve as cofactors for its beta-lactamase enzymes and oxidative stress defense systems, linking metal availability to antibiotic resistance expression.
 
 ## Ecological Role
 

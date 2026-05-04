@@ -4,13 +4,19 @@ type: entity
 subtype: disease
 created: 2026-04-15
 updated: 2026-04-15
-last_substantive_update: 2026-04-15
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - zeng-2025-copper-iron-trace-elements-fibromyalgia-mr
+  - elbeialy-2024-environmental-pollution-rheumatic-diseases
+  - goudman-2024-gut-dysbiosis-chronic-pain-meta-analysis
+  - zhao-2025-gut-microbiota-pain-sensitization-review
+  - wang-2024-gut-microbiota-fibromyalgia-mr
+  - bazzichi-2024-environmental-factors-fibromyalgia-review
+  - shtrozberg-2025-gut-microbiome-fibromyalgia-review
+  - minerbi-2020-gut-microbiome-pertinence-fibromyalgia-review
+source_count: 8
 tags: [fibromyalgia, chronic-pain, central-sensitization, gut-brain-axis, copper, iron, magnesium, selenium]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 5 required"
 seo_target: "fibromyalgia microbiome gut brain heavy metals"
 wikipedia_differentiation: "Cu/Fe MR-validated metallomic signature with copper as causal risk factor (OR=1.095) and iron as protective (OR=0.440), Eggerthella/Flavonifractor enrichment pattern, and SCFA imbalance paradox (elevated serum butyrate despite depleted butyrate producers)"
 associated_conditions: [depression, chronic-fatigue-syndrome, irritable-bowel-syndrome]
@@ -21,7 +27,7 @@ shared_signature_taxa: {depression: [faecalibacterium-depleted, bifidobacterium-
 
 # Fibromyalgia
 
-**Fibromyalgia (FM)** is a chronic pain syndrome affecting **2-4% of the global population** Heidari et al. 2017, characterized by widespread musculoskeletal pain, fatigue, cognitive dysfunction ("fibro fog"), and sleep disturbances. Conventionally attributed to central sensitization -- the amplification of neural signaling within the CNS -- fibromyalgia is increasingly understood as a disorder with a strong gut-brain axis component. The microbiome offers both a diagnostic biomarker (AUC = 87.8%, Minerbi et al. 2019) and a mechanistic explanation linking metal dysregulation, microbial ecology, and neurotransmitter imbalance.
+Fibromyalgia (FM) is a chronic pain syndrome affecting 2-4% of the global population Heidari et al. 2017, characterized by widespread musculoskeletal pain, fatigue, cognitive dysfunction ("fibro fog"), and sleep disturbances. Conventionally attributed to central sensitization -- the amplification of neural signaling within the CNS -- fibromyalgia is increasingly understood as a disorder with a strong gut-brain axis component. The microbiome offers both a diagnostic biomarker (AUC = 87.8%, Minerbi et al. 2019) and a mechanistic explanation linking metal dysregulation, microbial ecology, and neurotransmitter imbalance.
 
 ## Metallomic Signature
 
@@ -29,10 +35,10 @@ Mendelian randomization (MR) studies have identified a distinctive metal profile
 
 | Metal | Direction | Evidence | Mechanism |
 |-------|-----------|----------|-----------|
-| **Copper (Cu)** | Elevated (causal) | MR OR = 1.095 Zeng et al. 2025 | Promotes oxidative stress, displaces zinc in metalloenzymes, amplifies neuroinflammation. Elevated Cu/Zn ratio correlates with pain severity |
-| **Iron (Fe)** | Depleted (protective when present) | MR OR = 0.440 (protective) Zeng et al. 2025; ferritin <50 ng/mL = 6.5x FM risk Shtrozberg et al. 2025 | Iron deficiency impairs mitochondrial function and dopamine synthesis. Hepcidin-mediated sequestration may explain functional iron deficiency despite normal serum levels |
-| **Magnesium (Mg)** | Depleted | Observational studies | Cofactor for >300 enzymes; deficiency amplifies NMDA receptor activation, central sensitization, and muscle hyperexcitability |
-| **Selenium (Se)** | Depleted | Observational studies | Cofactor for glutathione peroxidase (GPX); depletion impairs antioxidant defense. GPX3 expression decreased 0.85x in FM patients Duran-Gonzalez et al. 2025 |
+| Copper (Cu) | Elevated (causal) | MR OR = 1.095 Zeng et al. 2025 | Promotes oxidative stress, displaces zinc in metalloenzymes, amplifies neuroinflammation. Elevated Cu/Zn ratio correlates with pain severity |
+| Iron (Fe) | Depleted (protective when present) | MR OR = 0.440 (protective) Zeng et al. 2025; ferritin <50 ng/mL = 6.5x FM risk Shtrozberg et al. 2025 | Iron deficiency impairs mitochondrial function and dopamine synthesis. Hepcidin-mediated sequestration may explain functional iron deficiency despite normal serum levels |
+| Magnesium (Mg) | Depleted | Observational studies | Cofactor for >300 enzymes; deficiency amplifies NMDA receptor activation, central sensitization, and muscle hyperexcitability |
+| Selenium (Se) | Depleted | Observational studies | Cofactor for glutathione peroxidase (GPX); depletion impairs antioxidant defense. GPX3 expression decreased 0.85x in FM patients Duran-Gonzalez et al. 2025 |
 
 The copper-iron axis is particularly informative: elevated copper competes with iron for transport and binding sites, potentially explaining the functional iron deficiency observed in FM patients even when serum iron appears normal.
 
@@ -40,21 +46,21 @@ The copper-iron axis is particularly informative: elevated copper competes with 
 
 ### Depleted Taxa
 
-**Faecalibacterium prausnitzii** is the most consistently depleted taxon in FM, reported across 5+ independent studies Goudman et al. 2024, meta-analysis. This is significant because *F. prausnitzii* is the primary butyrate producer in the human colon; its depletion reduces anti-inflammatory signaling and compromises intestinal barrier integrity.
+Faecalibacterium prausnitzii is the most consistently depleted taxon in FM, reported across 5+ independent studies Goudman et al. 2024, meta-analysis. This is significant because *F. prausnitzii* is the primary butyrate producer in the human colon; its depletion reduces anti-inflammatory signaling and compromises intestinal barrier integrity.
 
 Other consistently depleted taxa include:
-- **[[bifidobacterium]]** -- loss reduces lactate cross-feeding and barrier support
-- **Bacteroides uniformis** -- loss impairs polysaccharide degradation and immune regulation
-- **[[lachnospiraceae]]** -- SCFA-producing family; depletion reduces colonocyte nutrition
-- **Roseburia** -- butyrate producer; loss contributes to barrier dysfunction
+- [[bifidobacterium]] -- loss reduces lactate cross-feeding and barrier support
+- Bacteroides uniformis -- loss impairs polysaccharide degradation and immune regulation
+- [[lachnospiraceae]] -- SCFA-producing family; depletion reduces colonocyte nutrition
+- Roseburia -- butyrate producer; loss contributes to barrier dysfunction
 
 ### Enriched Taxa
 
-- **Eggerthella** -- MR-validated causal taxon (OR = 1.897) Wang et al. 2024. Produces neurotoxic metabolites, activates pro-inflammatory pathways, and is enriched in multiple neuropsychiatric conditions
-- **Flavonifractor** -- enriched in FM; associated with oxidative stress and depression
-- **Coprococcus 2** -- MR causal association (OR = 2.317) Wang et al. 2024; paradoxically a butyrate-associated genus, suggesting strain-level functional divergence
-- **Streptococcus salivarius** -- enriched in oral and gut communities of FM patients
-- **Collinsella** -- pro-inflammatory; enriched in rheumatoid arthritis and FM
+- Eggerthella -- MR-validated causal taxon (OR = 1.897) Wang et al. 2024. Produces neurotoxic metabolites, activates pro-inflammatory pathways, and is enriched in multiple neuropsychiatric conditions
+- Flavonifractor -- enriched in FM; associated with oxidative stress and depression
+- Coprococcus 2 -- MR causal association (OR = 2.317) Wang et al. 2024; paradoxically a butyrate-associated genus, suggesting strain-level functional divergence
+- Streptococcus salivarius -- enriched in oral and gut communities of FM patients
+- Collinsella -- pro-inflammatory; enriched in rheumatoid arthritis and FM
 
 ### The Butyrate Paradox
 
@@ -62,20 +68,20 @@ FM patients show elevated serum butyrate despite depletion of canonical butyrate
 
 ## FM-IBS Overlap
 
-**28-59% of FM patients meet diagnostic criteria for irritable bowel syndrome (IBS)** Bheemanenni et al. 2025, and the comorbidity is bidirectional. Shared features include visceral hypersensitivity, altered gut motility, mast cell activation, and overlapping taxonomic signatures (Faecalibacterium depletion, Eggerthella enrichment). The gut-brain axis provides a unifying mechanism: dysbiotic communities produce pro-inflammatory and neuroactive metabolites that amplify both peripheral and central pain processing.
+28-59% of FM patients meet diagnostic criteria for irritable bowel syndrome (IBS) Bheemanenni et al. 2025, and the comorbidity is bidirectional. Shared features include visceral hypersensitivity, altered gut motility, mast cell activation, and overlapping taxonomic signatures (Faecalibacterium depletion, Eggerthella enrichment). The gut-brain axis provides a unifying mechanism: dysbiotic communities produce pro-inflammatory and neuroactive metabolites that amplify both peripheral and central pain processing.
 
 ## Central Sensitization and the Gut-Brain Axis
 
 Central sensitization in FM is not merely a CNS phenomenon -- it is driven in part by peripheral signals from the gut:
 
-- **Tryptophan-serotonin pathway dysfunction**: Dysbiotic communities shunt tryptophan toward kynurenine (via IDO upregulation from pro-inflammatory cytokines), reducing serotonin availability and generating neurotoxic quinolinic acid
-- **Glutathione depletion**: GPX3 decreased 0.85x in FM patients Duran-Gonzalez et al. 2025, reducing capacity to neutralize oxidative stress from copper excess and microbial metabolites
-- **LPS translocation**: Barrier dysfunction permits endotoxin entry, activating TLR4 on microglia and amplifying neuroinflammation
-- **SCFA signaling disruption**: Reduced butyrate at the colonocyte impairs vagal afferent signaling, disrupting the anti-inflammatory cholinergic pathway
+- Tryptophan-serotonin pathway dysfunction: Dysbiotic communities shunt tryptophan toward kynurenine (via IDO upregulation from pro-inflammatory cytokines), reducing serotonin availability and generating neurotoxic quinolinic acid
+- Glutathione depletion: GPX3 decreased 0.85x in FM patients Duran-Gonzalez et al. 2025, reducing capacity to neutralize oxidative stress from copper excess and microbial metabolites
+- LPS translocation: Barrier dysfunction permits endotoxin entry, activating TLR4 on microglia and amplifying neuroinflammation
+- SCFA signaling disruption: Reduced butyrate at the colonocyte impairs vagal afferent signaling, disrupting the anti-inflammatory cholinergic pathway
 
 ## Diagnostic Potential
 
-Minerbi et al. 2019 demonstrated that a microbiome-based classifier could distinguish FM patients from healthy controls with **AUC = 87.8%**, outperforming many conventional diagnostic approaches for a condition that currently lacks any objective biomarker. The classifier relied on the taxonomic shifts described above, particularly Faecalibacterium depletion and Eggerthella/Flavonifractor enrichment.
+Minerbi et al. 2019 demonstrated that a microbiome-based classifier could distinguish FM patients from healthy controls with AUC = 87.8%, outperforming many conventional diagnostic approaches for a condition that currently lacks any objective biomarker. The classifier relied on the taxonomic shifts described above, particularly Faecalibacterium depletion and Eggerthella/Flavonifractor enrichment.
 
 ## Metal Associations
 

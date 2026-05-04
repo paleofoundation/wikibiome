@@ -4,9 +4,17 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning
+  - yao-2024-gut-microbiota-menstrual-disorders-mr
+  - lin-2023-gut-microbiota-perimenopausal-panic-disorder
+  - xue-2024-colonic-microflora-metabolic-viral-myocarditis-cvb3
+  - zhang-2024-gut-microbiota-autoimmune-neurologic-mr
+  - wang-2024-causal-gut-microbiota-gerd-mendelian-bidirectional
+  - ho-2024-colorectal-cancer-virome-alterations-persistence-surgery
+  - bianchimano-2022-vancomycin-gut-commensals-neuroinflammation-eae
+source_count: 8
 tags:
   - firmicutes
   - ruminococcaceae
@@ -25,17 +33,15 @@ conditions_enriched_in:
   - aging
   - clostridium-difficile-infection
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Anaerotruncus** is a Gram-positive obligate anaerobic genus within the Ruminococcaceae (Firmicutes). First isolated from human feces, it is a minor member of the healthy gut community that has attracted attention for its consistent enrichment in aging-related conditions and neurodegenerative disease.
+Anaerotruncus is a Gram-positive obligate anaerobic genus within the Ruminococcaceae (Firmicutes). First isolated from human feces, it is a minor member of the healthy gut community that has attracted attention for its consistent enrichment in aging-related conditions and neurodegenerative disease.
 
 ## Metal Dependencies
 
-Anaerotruncus species require **iron** for anaerobic metabolism. Their expansion in elderly populations may reflect the broader age-related shift in gut iron handling — increased systemic inflammation raises hepcidin, altering luminal iron pools in ways that reshape the competitive landscape among strict anaerobes.
+Anaerotruncus species require iron for anaerobic metabolism. Their expansion in elderly populations may reflect the broader age-related shift in gut iron handling — increased systemic inflammation raises hepcidin, altering luminal iron pools in ways that reshape the competitive landscape among strict anaerobes.
 
 ## Ecological Role
 

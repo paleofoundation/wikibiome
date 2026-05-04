@@ -20,38 +20,38 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Sutterella
 
-A Gram-negative, microaerophilic genus within the Proteobacteria phylum (family Sutterellaceae). The primary species *S. wadsworthensis* is classified as a **pathobiont** due to its IgA-degrading capacity and associations with neurodevelopmental and inflammatory conditions. However, *Sutterella* shows notably **contradictory findings** across studies, being enriched in some disease contexts and depleted in others, complicating its classification.
+A Gram-negative, microaerophilic genus within the Proteobacteria phylum (family Sutterellaceae). The primary species *S. wadsworthensis* is classified as a pathobiont due to its IgA-degrading capacity and associations with neurodevelopmental and inflammatory conditions. However, *Sutterella* shows notably contradictory findings across studies, being enriched in some disease contexts and depleted in others, complicating its classification.
 
 ## Role in Gut Ecosystem
 
 - Adheres to intestinal epithelial cells and resides within the mucosal layer, positioning it in close contact with the host immune system.
-- Produces **IgA proteases** that degrade secretory immunoglobulin A, the primary antibody defending mucosal surfaces. This IgA-degrading activity may impair mucosal immunity and facilitate pathogen invasion or immune dysregulation.
+- Produces IgA proteases that degrade secretory immunoglobulin A, the primary antibody defending mucosal surfaces. This IgA-degrading activity may impair mucosal immunity and facilitate pathogen invasion or immune dysregulation.
 - Relatively bile-resistant, allowing colonization of the small intestine and colon.
 - Does not produce significant [[short-chain-fatty-acids]], distinguishing it from beneficial anaerobes in similar ecological niches.
 
 ## Disease Associations
 
 ### Autism Spectrum Disorder
-- Consistently **enriched in ASD** across multiple studies, making it one of the more reproducible ASD-associated taxa [[bezawada-2020-asd-gut-microbiota-children-systematic-review]].
+- Consistently enriched in ASD across multiple studies, making it one of the more reproducible ASD-associated taxa [[bezawada-2020-asd-gut-microbiota-children-systematic-review]].
 - IgA degradation may contribute to the increased gut permeability ("leaky gut") reported in ASD children, potentially allowing microbial metabolites and bacterial products to cross the gut barrier and affect the CNS via the [[gut-brain-axis]].
 
 ### Multiple Sclerosis
-- **Increased in MS patients on immunomodulatory therapy** (treatment effect rather than disease effect), suggesting that immune suppression may create a niche for *Sutterella* expansion [[jangi-2016-gut-microbiome-alterations-ms]].
+- Increased in MS patients on immunomodulatory therapy (treatment effect rather than disease effect), suggesting that immune suppression may create a niche for *Sutterella* expansion [[jangi-2016-gut-microbiome-alterations-ms]].
 - May benefit from reduced IgA pressure under immunomodulatory treatment, consistent with its IgA-degrading phenotype.
 
 ### Inflammatory Bowel Disease
-- **Contradictory findings**: enriched in some IBD cohorts (particularly in mucosal biopsies) but depleted in others (stool-based studies). This inconsistency may reflect differences between mucosal and luminal sampling, disease phase, or IBD subtype [[martinelli-2022-gut-oriented-interventions-ms]].
+- Contradictory findings: enriched in some IBD cohorts (particularly in mucosal biopsies) but depleted in others (stool-based studies). This inconsistency may reflect differences between mucosal and luminal sampling, disease phase, or IBD subtype [[martinelli-2022-gut-oriented-interventions-ms]].
 - Detected in intestinal biopsies of patients with [[crohns-disease]] and ulcerative colitis, suggesting mucosal colonization preference [[bronzini-2023-feeding-gut-microbiome-ms]].
 
 ### Premature Ovarian Insufficiency
-- **Enriched in POI**: increased *Sutterella* alongside *Butyricimonas*, *Dorea*, and *Lachnobacterium*; reduced *Faecalibacterium* and *Bulleidia*. Shifts correlated with FSH, LH, E2, AMH and FSH/LH ratio [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]].
+- Enriched in POI: increased *Sutterella* alongside *Butyricimonas*, *Dorea*, and *Lachnobacterium*; reduced *Faecalibacterium* and *Bulleidia*. Shifts correlated with FSH, LH, E2, AMH and FSH/LH ratio [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]].
 
 ### Cardiovascular and Metabolic Disease
 - Identified in MR analyses examining gut microbiota-lipid and gut microbiota-CVD relationships, though effect sizes are modest [[teng-2024-gut-microbiome-lipids-mr]], [[dai-2024-gut-microbiota-cvd-bidirectional-mr]]].
 
 ## Key Metabolites
 
-- **IgA protease** -- degrades secretory IgA; impairs mucosal immune defense
+- IgA protease -- degrades secretory IgA; impairs mucosal immune defense
 - No significant SCFA production documented
 
 ## Mechanistic Considerations

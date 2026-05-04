@@ -20,7 +20,7 @@ karen_brain_primitives: [1, 2, 4]
 
 # STOP: Zinc Supplementation in Active H. pylori Infection
 
-> **Research summary -- not medical advice.** This page synthesizes published research on why a commonly prescribed intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
+> Research summary -- not medical advice. This page synthesizes published research on why a commonly prescribed intervention may be counterproductive in this specific clinical context. Consult a qualified healthcare provider before making any changes to treatment.
 
 ## The Problem
 
@@ -34,16 +34,16 @@ The host deploys [[calprotectin]] (S100A8/A9) to infection sites at concentratio
 
 ### 2. H. pylori Requires Zinc for Homeostasis and Colonization
 
-*H. pylori* expresses the **CznABC** cobalt-zinc-nickel efflux pump, which is critical for metal homeostasis and in vivo colonization [[maier-2019-nickel-microbial-pathogenesis]]. While the organism's most famous virulence factors (urease, hydrogenase) are nickel-dependent, the CznABC system demonstrates that zinc handling is essential for *H. pylori* survival. The organism has evolved specific mechanisms to manage zinc -- indicating it needs zinc for its metabolic processes.
+*H. pylori* expresses the CznABC cobalt-zinc-nickel efflux pump, which is critical for metal homeostasis and in vivo colonization [[maier-2019-nickel-microbial-pathogenesis]]. While the organism's most famous virulence factors (urease, hydrogenase) are nickel-dependent, the CznABC system demonstrates that zinc handling is essential for *H. pylori* survival. The organism has evolved specific mechanisms to manage zinc -- indicating it needs zinc for its metabolic processes.
 
 ### 3. The Real Vulnerability Is Nickel, Not Zinc
 
-The decisive therapeutic insight for *H. pylori* is that its two primary virulence factors are **nickel-dependent**:
+The decisive therapeutic insight for *H. pylori* is that its two primary virulence factors are nickel-dependent:
 
-- **Urease** (up to 10% of total proteome): Requires nickel for acid neutralization, epithelial tight junction disruption, angiogenesis promotion, and immune evasion [[maier-2019-nickel-microbial-pathogenesis]].
-- **[NiFe] Hydrogenase**: Powers CagA translocation -- the carcinogenic effector. Hydrogenase deletion mutants cannot translocate CagA and do not induce gastric cancer [[maier-2019-nickel-microbial-pathogenesis]].
+- Urease (up to 10% of total proteome): Requires nickel for acid neutralization, epithelial tight junction disruption, angiogenesis promotion, and immune evasion [[maier-2019-nickel-microbial-pathogenesis]].
+- [NiFe] Hydrogenase: Powers CagA translocation -- the carcinogenic effector. Hydrogenase deletion mutants cannot translocate CagA and do not induce gastric cancer [[maier-2019-nickel-microbial-pathogenesis]].
 
-A nickel-free diet nearly **doubled** eradication rates when combined with standard triple therapy: 84% vs 46% (p<0.01) [[campanale-2014-nickel-free-diet-h-pylori]]. This is because dietary nickel restriction starves the pathogen's most critical virulence enzymes. Focusing clinical attention on zinc supplementation distracts from this far more impactful intervention.
+A nickel-free diet nearly doubled eradication rates when combined with standard triple therapy: 84% vs 46% (p<0.01) [[campanale-2014-nickel-free-diet-h-pylori]]. This is because dietary nickel restriction starves the pathogen's most critical virulence enzymes. Focusing clinical attention on zinc supplementation distracts from this far more impactful intervention.
 
 ### 4. Zinc-Rich Foods Often Co-Deliver Nickel
 
@@ -51,15 +51,15 @@ Many high-zinc foods (nuts, shellfish, legumes, whole grains) are also high in n
 
 ## The Nuance: Post-Eradication vs. Active Infection
 
-This STOP applies specifically to **active *H. pylori* infection** where eradication is the goal. After successful eradication is confirmed, zinc supplementation for mucosal repair may be appropriate -- the pathogen is gone, and zinc supports epithelial healing. The timing matters: restrict metals during active infection, supplement after clearance.
+This STOP applies specifically to active *H. pylori* infection where eradication is the goal. After successful eradication is confirmed, zinc supplementation for mucosal repair may be appropriate -- the pathogen is gone, and zinc supports epithelial healing. The timing matters: restrict metals during active infection, supplement after clearance.
 
 ## Alternatives
 
-1. **Low-nickel diet**: The most evidence-supported nutritional intervention for *H. pylori*. Nearly doubled eradication rates in a prospective trial [[campanale-2014-nickel-free-diet-h-pylori]]. Starves urease and hydrogenase of their essential cofactor.
+1. Low-nickel diet: The most evidence-supported nutritional intervention for *H. pylori*. Nearly doubled eradication rates in a prospective trial [[campanale-2014-nickel-free-diet-h-pylori]]. Starves urease and hydrogenase of their essential cofactor.
 
-2. **Bismuth-containing quadruple therapy**: Bismuth competes with nickel for the NiuBDE transporter, the only *H. pylori* nickel importer functional at both acidic and neutral pH [[maier-2019-nickel-microbial-pathogenesis]]. This provides a pharmacological parallel to dietary nickel restriction.
+2. Bismuth-containing quadruple therapy: Bismuth competes with nickel for the NiuBDE transporter, the only *H. pylori* nickel importer functional at both acidic and neutral pH [[maier-2019-nickel-microbial-pathogenesis]]. This provides a pharmacological parallel to dietary nickel restriction.
 
-3. **[[lactoferrin-supplementation]]**: If mucosal immune support is desired during eradication therapy, lactoferrin provides iron sequestration from co-infecting organisms without undermining zinc-based nutritional immunity.
+3. [[lactoferrin-supplementation]]: If mucosal immune support is desired during eradication therapy, lactoferrin provides iron sequestration from co-infecting organisms without undermining zinc-based nutritional immunity.
 
 ## Connections
 
@@ -73,4 +73,4 @@ This STOP applies specifically to **active *H. pylori* infection** where eradica
 
 ---
 
-> **Educational content, not medical advice.** Clinical decisions about *H. pylori* eradication and adjunctive supplementation should be made with a gastroenterologist. The low-nickel diet approach during eradication therapy is supported by clinical trial evidence.
+> Educational content, not medical advice. Clinical decisions about *H. pylori* eradication and adjunctive supplementation should be made with a gastroenterologist. The low-nickel diet approach during eradication therapy is supported by clinical trial evidence.

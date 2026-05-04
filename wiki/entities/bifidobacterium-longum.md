@@ -4,11 +4,15 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
+last_substantive_update: 2026-04-22
 sources:
-  - eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood
-  - fo-2024-gut-microbiota-ovarian-stimulation-response-metagenomics
-source_count: 2
+  - huo-2021-bifidobacterium-longum-methimazole-graves
+  - eggers-2023-prenatal-lead-childhood-gut-microbiome-progress
+  - coretti-2018-gut-microbiota-young-asd-children
+  - bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review
+  - zhang-2025-gut-microbiota-anxiety-depression-multimodal
+  - steed-2010-synbiotic-crohns-rct
+source_count: 6
 tags:
   - Bifidobacterium
   - probiotic
@@ -38,15 +42,13 @@ conditions_depleted_in:
   - lead-exposed-populations
   - obesity
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 2 sources, minimum 3
 ---
 
 # Bifidobacterium longum
 
 ## Overview
 
-***Bifidobacterium longum*** is a Gram-positive, obligate anaerobic bacterium and one of the most important commensal species in human health from infancy through old age. Its subspecies — *B. longum* subsp. *longum* (adult gut), *B. longum* subsp. *infantis* (infant gut, HMO degrader), and *B. longum* subsp. *suis* — occupy distinct ecological niches. In the WikiBiome framework, *B. longum* is significant for its **heavy metal biosorption capacity**, its sensitivity to prenatal metal exposure, and its role as a cross-condition protective organism.
+*Bifidobacterium longum* is a Gram-positive, obligate anaerobic bacterium and one of the most important commensal species in human health from infancy through old age. Its subspecies — *B. longum* subsp. *longum* (adult gut), *B. longum* subsp. *infantis* (infant gut, HMO degrader), and *B. longum* subsp. *suis* — occupy distinct ecological niches. In the WikiBiome framework, *B. longum* is significant for its heavy metal biosorption capacity, its sensitivity to prenatal metal exposure, and its role as a cross-condition protective organism.
 
 ## Metal Dependencies
 
@@ -56,26 +58,26 @@ stub_reason: §2f auto-demotion 2026-04-19 — 2 sources, minimum 3
 
 *B. longum* demonstrates significant capacity to bind and sequester heavy metals:
 
-- **Cadmium biosorption** — Cell wall exopolysaccharides (EPS) and peptidoglycan provide binding sites for Cd2+, reducing its bioavailability in the gut lumen and limiting intestinal absorption
-- **Lead binding** — Similar cell wall-mediated biosorption of Pb2+; both live and heat-killed cells retain binding capacity, though live cells additionally maintain barrier function
-- **Mercury chelation** — Thiol groups in surface proteins bind Hg2+
+- Cadmium biosorption — Cell wall exopolysaccharides (EPS) and peptidoglycan provide binding sites for Cd2+, reducing its bioavailability in the gut lumen and limiting intestinal absorption
+- Lead binding — Similar cell wall-mediated biosorption of Pb2+; both live and heat-killed cells retain binding capacity, though live cells additionally maintain barrier function
+- Mercury chelation — Thiol groups in surface proteins bind Hg2+
 
 This metal-binding capacity positions *B. longum* alongside [[lactobacillus-rhamnosus]] as a potential bioremediation organism for dietary metal exposure.
 
 ## Key Enzymes and Functional Features
 
-- **HMO glycosidases** (subsp. *infantis*) — Sialidases, fucosidases, and N-acetylglucosaminidases that degrade human milk oligosaccharides. This HMO degradation capacity is the defining feature of the *infantis* subspecies and its critical role in infant gut colonization.
-- **Bile salt hydrolase** — Deconjugates bile acids, contributing to bile acid metabolism and [[fxr]] signaling
-- **Acetate production** — Primary SCFA product via the bifid shunt (fructose-6-phosphate phosphoketolase pathway); acetate cross-feeds butyrate producers
+- HMO glycosidases (subsp. *infantis*) — Sialidases, fucosidases, and N-acetylglucosaminidases that degrade human milk oligosaccharides. This HMO degradation capacity is the defining feature of the *infantis* subspecies and its critical role in infant gut colonization.
+- Bile salt hydrolase — Deconjugates bile acids, contributing to bile acid metabolism and [[fxr]] signaling
+- Acetate production — Primary SCFA product via the bifid shunt (fructose-6-phosphate phosphoketolase pathway); acetate cross-feeds butyrate producers
 
 ## Ecological Role
 
 In the healthy gut, *B. longum* provides:
 
-- **Colonization resistance** — Competitive exclusion of pathogens through acetate production and pH reduction
-- **Immune programming** (subsp. *infantis*) — Shapes neonatal immune development through HMO-derived metabolites and direct interaction with intestinal dendritic cells
-- **Barrier maintenance** — Supports tight junction integrity through SCFA production and direct epithelial cell signaling
-- **Cross-feeding** — Acetate produced by *B. longum* is consumed by butyrate-producing [[faecalibacterium-prausnitzii]] and [[roseburia]], linking Bifidobacterium metabolism to the butyrate economy
+- Colonization resistance — Competitive exclusion of pathogens through acetate production and pH reduction
+- Immune programming (subsp. *infantis*) — Shapes neonatal immune development through HMO-derived metabolites and direct interaction with intestinal dendritic cells
+- Barrier maintenance — Supports tight junction integrity through SCFA production and direct epithelial cell signaling
+- Cross-feeding — Acetate produced by *B. longum* is consumed by butyrate-producing [[faecalibacterium-prausnitzii]] and [[roseburia]], linking Bifidobacterium metabolism to the butyrate economy
 
 ## Conditions Associated
 

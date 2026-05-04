@@ -4,12 +4,17 @@ type: entity
 subtype: metal
 created: 2026-04-19
 updated: 2026-04-19
-sources: []
-source_count: 0
+sources:
+  - pavlic-2021-nickel-bacterial-adhesion-biofilm-orthodontic
+  - marchesi-2011-towards-human-crc-microbiome
+  - bartnicka-2020-candida-shields-pgingivalis-immune-evasion
+  - gunal-2018-heavy-metals-sialic-acid-ms
+  - abdelmaksoud-2017-statins-vaginal-microbiome-gardnerella-vaginolysin
+source_count: 5
 tags: [transition-metal, biomaterial]
 platform: wikibiome
-stub: true
-stub_reason: "auto-discovered from source mention — 3 sources discuss this metal, awaiting content expansion"
+
+last_substantive_update: 2026-04-22
 ---
 
 # Titanium

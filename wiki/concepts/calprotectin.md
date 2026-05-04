@@ -20,8 +20,8 @@ A heterodimer of S100A8 and S100A9 calcium-binding proteins that constitutes app
 
 ### Multi-Metal Sequestration
 Calprotectin possesses two distinct metal-binding sites:
-- **Site I (His3Asp)**: binds Zn(II) with high affinity.
-- **Site II (hexahistidine, His6)**: unique among S100 proteins. This site binds Zn(II), Mn(II), Fe(II), AND Ni(II). Critically, the hexahistidine site coordinates **Ni(II) preferentially over Zn(II)**, making calprotectin the first identified host protein with preferential nickel-sequestering activity [[maier-2019-nickel-microbial-pathogenesis]].
+- Site I (His3Asp): binds Zn(II) with high affinity.
+- Site II (hexahistidine, His6): unique among S100 proteins. This site binds Zn(II), Mn(II), Fe(II), AND Ni(II). Critically, the hexahistidine site coordinates Ni(II) preferentially over Zn(II), making calprotectin the first identified host protein with preferential nickel-sequestering activity [[maier-2019-nickel-microbial-pathogenesis]].
 
 ### Functional Implications
 - Calprotectin simultaneously restricts multiple metals at infection sites, creating a multi-metal "desert" that pathogens must overcome to establish infection.
@@ -29,7 +29,7 @@ Calprotectin possesses two distinct metal-binding sites:
 
 ## Release and Distribution
 
-- Released by **neutrophils** at infection sites during NETosis (neutrophil extracellular trap formation) and degranulation.
+- Released by neutrophils at infection sites during NETosis (neutrophil extracellular trap formation) and degranulation.
 - Also expressed by monocytes, macrophages, and epithelial cells under inflammatory conditions.
 - Found at high concentrations in abscess cavities, mucosal surfaces, and the gut lumen during inflammation.
 - Constitutes the dominant antimicrobial protein in neutrophil abscesses surrounding [[staphylococcus-aureus]] infections.
@@ -48,17 +48,17 @@ Calprotectin possesses two distinct metal-binding sites:
 
 ## Fecal Calprotectin as a Biomarker
 
-Calprotectin shed into the gut lumen is measurable in stool as **fecal calprotectin (FC)**, which has become a standard non-invasive biomarker:
+Calprotectin shed into the gut lumen is measurable in stool as fecal calprotectin (FC), which has become a standard non-invasive biomarker:
 
-- **IBD**: Fecal calprotectin distinguishes inflammatory bowel disease from irritable bowel syndrome and monitors disease activity [[amerikanou-2022-ibd-biomarkers-trace-metals]].
-- **NEC**: Elevated in necrotizing enterocolitis in preterm infants, where it reflects neutrophil infiltration and mucosal damage [[pendergrass-2026-nickel-nec-preterm-gut]].
+- IBD: Fecal calprotectin distinguishes inflammatory bowel disease from irritable bowel syndrome and monitors disease activity [[amerikanou-2022-ibd-biomarkers-trace-metals]].
+- NEC: Elevated in necrotizing enterocolitis in preterm infants, where it reflects neutrophil infiltration and mucosal damage [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Elevated FC reflects neutrophil-driven inflammation anywhere in the GI tract.
 
 ## The Dual Role
 
 Calprotectin exemplifies the tension between host defense and collateral damage:
-- **Protective**: restricts metals from pathogens, limiting virulence.
-- **Potentially harmful**: metal restriction also affects commensal bacteria, potentially worsening [[dysbiosis]]. Chronic calprotectin elevation in inflammatory conditions may contribute to the metal-depleted mucosal environment that favors pathobionts with superior metal acquisition systems.
+- Protective: restricts metals from pathogens, limiting virulence.
+- Potentially harmful: metal restriction also affects commensal bacteria, potentially worsening [[dysbiosis]]. Chronic calprotectin elevation in inflammatory conditions may contribute to the metal-depleted mucosal environment that favors pathobionts with superior metal acquisition systems.
 
 ## Connections
 

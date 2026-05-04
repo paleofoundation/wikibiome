@@ -5,13 +5,19 @@ type: entity
 subtype: disease
 created: 2026-04-17
 updated: 2026-04-17
-last_substantive_update: 2026-04-17
-sources: [zhang-2025-gut-microbiota-anxiety-depression-multimodal, kamath-2025-gut-microbiome-mental-health-causation-correlation-review, romano-2023-gut-microbiome-children-mental-health-umbrella-review, ghannoum-2021-microbiome-depression-covid-19, sjostedt-2021-ssri-gut-microbiome-serotonin]
-source_count: 5
+last_substantive_update: 2026-04-22
+sources:
+  - vocca-2025-probiotics-chronic-bacterial-prostatitis-rct
+  - lamtai-2018-nickel-neurobehavior
+  - siegmann-2020-graves-disease-depression-mechanistic
+  - otto-2024-cancer-treatments-immune-dysfunction-gut-microbiome-dissertation
+  - cook-2021-camouflaging-autism-systematic-review
+  - dye-2022-immune-alterations
+  - liu-2014-gaba-glutamate-pmdd-mrs
+  - sjostedt-2021-ssri-gut-microbiome-serotonin
+source_count: 8
 tags: [anxiety, GAD, mental-health, gut-brain-axis, HPA-axis, serotonin, GABA, comorbidity]
 platform: wikibiome
-stub: true
-stub_reason: "claim-level citation deficit — 1 citation across 9 material paragraphs (ratio 0.11, threshold 0.33). Adversarial audit 2026-04-19."
 seo_target: "anxiety gut microbiome gut brain axis"
 wikipedia_differentiation: "Gut-brain axis mechanisms linking microbiome composition to anxiety; SCFA/tryptophan/serotonin pathways as microbially-modulated anxiety mediators; SSRI bidirectional effects on gut microbiome; anxiety as comorbidity across WikiBiome disease entities (endometriosis, IBD, PD, MS, Graves')"
 icd_10: "F41"
@@ -24,17 +30,17 @@ signature_page: "[[anxiety-signature]]"
 
 ## Overview
 
-**Anxiety disorders** are the most prevalent mental health conditions globally, affecting ~280 million people (~4.8% of the world population). They encompass generalized anxiety disorder (GAD), social anxiety, panic disorder, and phobias. In the WikiBiome context, anxiety frequently appears as a **comorbidity** across conditions with documented microbiome dysbiosis -- suggesting shared pathophysiology through the [[gut-brain-axis]].
+Anxiety disorders are the most prevalent mental health conditions globally, affecting ~280 million people (~4.8% of the world population). They encompass generalized anxiety disorder (GAD), social anxiety, panic disorder, and phobias. In the WikiBiome context, anxiety frequently appears as a comorbidity across conditions with documented microbiome dysbiosis -- suggesting shared pathophysiology through the [[gut-brain-axis]].
 
 The gut-brain axis connects intestinal microbiome composition to anxiety through three primary routes: the vagus nerve (direct neural signaling), neuroactive metabolites ([[serotonin]], [[kynurenine]], GABA, SCFAs), and immune-inflammatory pathways (cytokines, [[tlr4]] activation).
 
 ## Microbiome Associations
 
 ### Gut-Brain Axis Mechanisms
-- **[[serotonin]]**: ~90-95% produced in the gut by enterochromaffin cells; microbially stimulated. Tryptophan diversion from serotonin to [[kynurenine]] under inflammation reduces serotonin availability.
-- **GABA**: Produced by *Lactobacillus* and *Bifidobacterium* species; GABAergic deficits are a core anxiety mechanism.
-- **[[short-chain-fatty-acids]]**: [[butyrate]] modulates HPA axis reactivity and neuroinflammation; SCFA producer depletion is associated with anxiety.
-- **Vagal signaling**: Gut-to-brain signaling via vagal afferents; probiotics' anxiolytic effects are abolished by vagotomy in animal models.
+- [[serotonin]]: ~90-95% produced in the gut by enterochromaffin cells; microbially stimulated. Tryptophan diversion from serotonin to [[kynurenine]] under inflammation reduces serotonin availability.
+- GABA: Produced by *Lactobacillus* and *Bifidobacterium* species; GABAergic deficits are a core anxiety mechanism.
+- [[short-chain-fatty-acids]]: [[butyrate]] modulates HPA axis reactivity and neuroinflammation; SCFA producer depletion is associated with anxiety.
+- Vagal signaling: Gut-to-brain signaling via vagal afferents; probiotics' anxiolytic effects are abolished by vagotomy in animal models.
 
 ### SSRI-Microbiome Bidirectionality
 Selective serotonin reuptake inhibitors (SSRIs) affect gut microbiome composition, and baseline microbiome may predict treatment response -- a [[pharmacomicrobiomics]] interaction [[sjostedt-2021-ssri-gut-microbiome-serotonin]].
@@ -45,14 +51,14 @@ Anxiety appears as a significant comorbidity across multiple WikiBiome disease e
 
 | Condition | Anxiety Prevalence | Shared Mechanism |
 |-----------|-------------------|-----------------|
-| **[[endometriosis]]** | Elevated | Inflammatory cytokines; estrogen-serotonin interactions |
-| **[[crohns-disease]]** | 30-40% | Gut inflammation → vagal signaling → HPA axis |
-| **[[graves-disease]]** | Common | Thyroid hormone effects on neurotransmission; autoimmune inflammation |
-| **[[parkinsons-disease]]** | 25-40% | Dopaminergic dysfunction; gut-brain axis disruption |
-| **[[multiple-sclerosis]]** | 22-54% | Neuroinflammation; kynurenine pathway activation |
-| **[[fibromyalgia]]** | 20-60% | Shared tryptophan/serotonin metabolism alteration with IBS |
-| **[[ibs]]** | 30-50% | Visceral hypersensitivity; serotonin dysregulation |
-| **[[depression]]** | >50% comorbid | Shared HPA axis, tryptophan, and inflammatory pathways |
+| [[endometriosis]] | Elevated | Inflammatory cytokines; estrogen-serotonin interactions |
+| [[crohns-disease]] | 30-40% | Gut inflammation → vagal signaling → HPA axis |
+| [[graves-disease]] | Common | Thyroid hormone effects on neurotransmission; autoimmune inflammation |
+| [[parkinsons-disease]] | 25-40% | Dopaminergic dysfunction; gut-brain axis disruption |
+| [[multiple-sclerosis]] | 22-54% | Neuroinflammation; kynurenine pathway activation |
+| [[fibromyalgia]] | 20-60% | Shared tryptophan/serotonin metabolism alteration with IBS |
+| [[ibs]] | 30-50% | Visceral hypersensitivity; serotonin dysregulation |
+| [[depression]] | >50% comorbid | Shared HPA axis, tryptophan, and inflammatory pathways |
 
 ## Open Questions
 

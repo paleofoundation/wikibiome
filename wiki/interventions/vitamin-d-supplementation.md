@@ -59,13 +59,13 @@ targets:
 platform: cureva
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Overview
 
-**Vitamin D supplementation** provides the secosteroid hormone precursor that activates the vitamin D receptor (VDR) -- a nuclear receptor expressed in virtually every immune cell, enterocyte, and neuron. Vitamin D deficiency is pandemic (estimated 1 billion people worldwide) and intersects with autoimmune, neurological, metabolic, and gastrointestinal diseases through immunomodulatory, barrier-protective, and neuroendocrine pathways.
+Vitamin D supplementation provides the secosteroid hormone precursor that activates the vitamin D receptor (VDR) -- a nuclear receptor expressed in virtually every immune cell, enterocyte, and neuron. Vitamin D deficiency is pandemic (estimated 1 billion people worldwide) and intersects with autoimmune, neurological, metabolic, and gastrointestinal diseases through immunomodulatory, barrier-protective, and neuroendocrine pathways.
 
-> **Clinical disclaimer:** Vitamin D supplementation should be guided by measured 25(OH)D levels. Target 40-60 ng/mL (100-150 nmol/L) for autoimmune and neurological conditions. Doses above 4000 IU/day require monitoring to avoid hypercalcemia. Vitamin D is fat-soluble and accumulates; toxicity is rare below 10,000 IU/day but possible with impaired renal function. All dosing decisions require clinical supervision.
+> Clinical disclaimer: Vitamin D supplementation should be guided by measured 25(OH)D levels. Target 40-60 ng/mL (100-150 nmol/L) for autoimmune and neurological conditions. Doses above 4000 IU/day require monitoring to avoid hypercalcemia. Vitamin D is fat-soluble and accumulates; toxicity is rare below 10,000 IU/day but possible with impaired renal function. All dosing decisions require clinical supervision.
 
 ---
 
@@ -73,11 +73,11 @@ platform: cureva
 
 Vitamin D operates through three primary pathways:
 
-1. **Immune modulation**: VDR activation on T cells promotes Treg differentiation (IL-10, TGF-beta), suppresses Th17 polarization (IL-17, IL-22), and induces tolerogenic dendritic cells. This rebalances the Th17/Treg axis disrupted in autoimmune diseases.
+1. Immune modulation: VDR activation on T cells promotes Treg differentiation (IL-10, TGF-beta), suppresses Th17 polarization (IL-17, IL-22), and induces tolerogenic dendritic cells. This rebalances the Th17/Treg axis disrupted in autoimmune diseases.
 
-2. **Barrier integrity**: VDR in intestinal epithelium upregulates tight junction proteins (claudin-2, occludin, ZO-1) and antimicrobial peptides (cathelicidin LL-37, beta-defensin 2). Deficiency increases intestinal permeability.
+2. Barrier integrity: VDR in intestinal epithelium upregulates tight junction proteins (claudin-2, occludin, ZO-1) and antimicrobial peptides (cathelicidin LL-37, beta-defensin 2). Deficiency increases intestinal permeability.
 
-3. **Neuroendocrine regulation**: VDR in hippocampal and prefrontal neurons activates TPH2 (tryptophan hydroxylase 2) transcription, directly increasing brain serotonin synthesis. Also upregulates BDNF and modulates HPA axis reactivity.
+3. Neuroendocrine regulation: VDR in hippocampal and prefrontal neurons activates TPH2 (tryptophan hydroxylase 2) transcription, directly increasing brain serotonin synthesis. Also upregulates BDNF and modulates HPA axis reactivity.
 
 ---
 
@@ -91,7 +91,7 @@ Vitamin D operates through three primary pathways:
 | [[depression]] | 2000-4000 IU/day | Cholecalciferol (D3) | 8-12 weeks minimum | Best evidence in documented deficiency |
 | [[pcos]] | 2000-4000 IU/day | Cholecalciferol (D3) | 12+ weeks | Combine with [[probiotics-general]] for synergistic metabolic effect |
 
-**General notes:**
+General notes:
 - Cholecalciferol (D3) is preferred over ergocalciferol (D2) for efficacy and half-life
 - Take with a fat-containing meal to optimize absorption
 - Loading doses (50,000 IU weekly for 8 weeks) appropriate for severe deficiency (<20 ng/mL)
@@ -101,38 +101,38 @@ Vitamin D operates through three primary pathways:
 
 ## Monitoring
 
-- **25(OH)D (calcidiol)**: The standard monitoring biomarker. Measure at baseline, 8-12 weeks, then every 6 months.
+- 25(OH)D (calcidiol): The standard monitoring biomarker. Measure at baseline, 8-12 weeks, then every 6 months.
   - Deficiency: <20 ng/mL (<50 nmol/L)
   - Insufficiency: 20-30 ng/mL (50-75 nmol/L)
   - Optimal for autoimmune/neurological: 40-60 ng/mL (100-150 nmol/L)
   - Toxicity concern: >100 ng/mL (>250 nmol/L)
-- **Calcium (serum)**: Check at baseline and if dosing >4000 IU/day; hypercalcemia is the primary toxicity
-- **PTH (parathyroid hormone)**: Elevated PTH with low 25(OH)D confirms functional deficiency
-- **1,25(OH)2D (calcitriol)**: NOT a routine monitoring marker (short half-life, tightly regulated); useful only in granulomatous disease or renal failure
+- Calcium (serum): Check at baseline and if dosing >4000 IU/day; hypercalcemia is the primary toxicity
+- PTH (parathyroid hormone): Elevated PTH with low 25(OH)D confirms functional deficiency
+- 1,25(OH)2D (calcitriol): NOT a routine monitoring marker (short half-life, tightly regulated); useful only in granulomatous disease or renal failure
 
 ---
 
 ## Contraindications and Risks
 
-- **Hypercalcemia**: Primary toxicity risk; more likely with granulomatous diseases (sarcoidosis, tuberculosis) where unregulated 1-alpha-hydroxylase converts 25(OH)D to active calcitriol
-- **Renal impairment**: Reduced calcitriol clearance increases hypercalcemia risk; dose adjustment required
-- **Hyperphosphatemia**: May compound in CKD
-- **Drug interactions**: Corticosteroids reduce vitamin D efficacy; thiazide diuretics increase calcium retention
-- **Fat malabsorption**: IBD, celiac, or short-bowel patients may require higher doses or intramuscular administration
+- Hypercalcemia: Primary toxicity risk; more likely with granulomatous diseases (sarcoidosis, tuberculosis) where unregulated 1-alpha-hydroxylase converts 25(OH)D to active calcitriol
+- Renal impairment: Reduced calcitriol clearance increases hypercalcemia risk; dose adjustment required
+- Hyperphosphatemia: May compound in CKD
+- Drug interactions: Corticosteroids reduce vitamin D efficacy; thiazide diuretics increase calcium retention
+- Fat malabsorption: IBD, celiac, or short-bowel patients may require higher doses or intramuscular administration
 
 ---
 
 ## Connections
 
-**Entities:** [[selenium]], [[zinc]], [[iron]]
+Entities: [[selenium]], [[zinc]], [[iron]]
 
-**Concepts:** [[immune-balance]], [[intestinal-permeability]], [[gut-brain-axis]], [[neuroinflammation]], [[dysbiosis]]
+Concepts: [[immune-balance]], [[intestinal-permeability]], [[gut-brain-axis]], [[neuroinflammation]], [[dysbiosis]]
 
-**Related interventions:** [[selenium-supplementation]] (synergistic in Hashimoto's), [[probiotics-general]] (synergistic in PCOS), [[zinc-supplementation]] (complementary immune support)
+Related interventions: [[selenium-supplementation]] (synergistic in Hashimoto's), [[probiotics-general]] (synergistic in PCOS), [[zinc-supplementation]] (complementary immune support)
 
-**Signatures:** [[multiple-sclerosis]], [[hashimotos-thyroiditis]], [[inflammatory-bowel-disease]], [[depression]], [[pcos]]
+Signatures: [[multiple-sclerosis]], [[hashimotos-thyroiditis]], [[inflammatory-bowel-disease]], [[depression]], [[pcos]]
 
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

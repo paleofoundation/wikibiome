@@ -3,15 +3,21 @@ title: Metal Carcinogenesis
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [salnikov-2008-metal-carcinogenesis.md, liu-2025-cardiometabolic-nickel.md]
-source_count: 2
+sources:
+  - ali-2024-heavy-metals-breast-cancer-review
+  - kleeff-2016-pancreatic-cancer-primer
+  - farhana-2016-bile-acid-colon-cancer-stem-cells
+  - shin-2023-chromium-toxicogenomics
+  - genchi-2020-cadmium-toxicity
+  - saleh-2020-serum-trace-elements-prostate-cancer
+  - qin-2024-consistent-microbiome-signatures-old-young-onset-crc
+  - salnikov-2008-metal-carcinogenesis
+source_count: 8
 tags: [carcinogenesis, toxicology, nickel, arsenic, chromium]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 karen_brain_primitives: [4]
 seo_target: "metal carcinogenesis microbiome"
-last_substantive_update: 2026-04-09
+last_substantive_update: 2026-04-22
 ---
 
 # Metal Carcinogenesis
@@ -20,7 +26,7 @@ The ability of certain metals to cause cancer has been known since the 19th cent
 
 ## Core Principle
 
-Despite well-recognized carcinogenic potential, **the molecular mechanisms underlying metal carcinogenesis remain incompletely understood** [[salnikov-2008-metal-carcinogenesis]]. A key insight: carcinogenic metals are typically **weak mutagens** (with the exception of Cr(VI)), and they do not form DNA adducts in the conventional sense (again, except Cr). Instead, they rely on:
+Despite well-recognized carcinogenic potential, the molecular mechanisms underlying metal carcinogenesis remain incompletely understood [[salnikov-2008-metal-carcinogenesis]]. A key insight: carcinogenic metals are typically weak mutagens (with the exception of Cr(VI)), and they do not form DNA adducts in the conventional sense (again, except Cr). Instead, they rely on:
 - Epigenetic reprogramming
 - Signaling pathway activation
 - DNA repair inhibition
@@ -41,23 +47,23 @@ Despite well-recognized carcinogenic potential, **the molecular mechanisms under
 - Powerful cocarcinogen: inhibits NER and BER → synergizes with UV and other DNA-damaging agents.
 
 ### Chromium: The Genotoxic Carcinogen
-- Forms abundant **Cr-DNA ternary adducts** (Cr³⁺ crosslinked with ascorbate, GSH, or amino acids).
+- Forms abundant Cr-DNA ternary adducts (Cr³⁺ crosslinked with ascorbate, GSH, or amino acids).
 - Also causes DNA-protein crosslinks, interstrand crosslinks, strand breaks.
-- Inhibits **mismatch repair** (MMR) → allows replication errors to persist.
+- Inhibits mismatch repair (MMR) → allows replication errors to persist.
 - Ascorbate paradox: drives the reductive activation that creates damage.
 
 ## Shared Features
 
 All three metals share:
-1. **Cocarcinogenic activity** — particularly with UV radiation.
-2. **DNA repair inhibition** — each targets different repair pathways (NER for Ni/As, MMR for Cr).
-3. **[[oxidative-stress]]** involvement — though its centrality varies.
-4. **Occupational and environmental exposure relevance**.
-5. **Dose-response complexity** — effects at low chronic doses may differ fundamentally from high acute exposures.
+1. Cocarcinogenic activity — particularly with UV radiation.
+2. DNA repair inhibition — each targets different repair pathways (NER for Ni/As, MMR for Cr).
+3. [[oxidative-stress]] involvement — though its centrality varies.
+4. Occupational and environmental exposure relevance.
+5. Dose-response complexity — effects at low chronic doses may differ fundamentally from high acute exposures.
 
 ## The Repair Inhibition Theme
 
-Perhaps the most unifying concept: all three metals **inhibit DNA repair**, which may be more important for human cancer risk than direct damage:
+Perhaps the most unifying concept: all three metals inhibit DNA repair, which may be more important for human cancer risk than direct damage:
 
 | Metal | Repair Pathway Inhibited | Mechanism |
 |-------|-------------------------|-----------|
@@ -65,7 +71,7 @@ Perhaps the most unifying concept: all three metals **inhibit DNA repair**, whic
 | Arsenic | NER, BER | Not fully characterized |
 | Chromium | MMR | Suppresses hMLH1 expression |
 
-This means environmental exposures to these metals could amplify the carcinogenic effects of **other agents** (UV, tobacco, dietary carcinogens) — a critical public health consideration.
+This means environmental exposures to these metals could amplify the carcinogenic effects of other agents (UV, tobacco, dietary carcinogens) — a critical public health consideration.
 
 ## Key Sources
 

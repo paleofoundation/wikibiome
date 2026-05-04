@@ -20,13 +20,13 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Porphyromonas
 
-A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingivalis* at its center. Named for its porphyrin (heme) requirement, *Porphyromonas* is the prototypical **periodontal pathogen** and one of the most important organisms connecting oral health to systemic disease. Its [[zinc]]-dependent gingipain proteases and [[iron]]-acquisition via hemin make it strongly **metal-dependent**, while its associations with [[cardiovascular-disease]], [[alzheimers-disease]], and [[colorectal-cancer]] position it at the nexus of the oral-gut-systemic disease axis.
+A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingivalis* at its center. Named for its porphyrin (heme) requirement, *Porphyromonas* is the prototypical periodontal pathogen and one of the most important organisms connecting oral health to systemic disease. Its [[zinc]]-dependent gingipain proteases and [[iron]]-acquisition via hemin make it strongly metal-dependent, while its associations with [[cardiovascular-disease]], [[alzheimers-disease]], and [[colorectal-cancer]] position it at the nexus of the oral-gut-systemic disease axis.
 
 ## Metal Dependencies
 
 ### Zinc -- Gingipain Proteases
-- *P. gingivalis* produces three major cysteine proteases collectively called **gingipains**: Arg-gingipain A (RgpA), Arg-gingipain B (RgpB), and Lys-gingipain (Kgp).
-- Gingipains are **zinc-dependent metalloproteinases** that degrade host proteins including immunoglobulins, complement components, and cytokines, enabling immune evasion and tissue destruction.
+- *P. gingivalis* produces three major cysteine proteases collectively called gingipains: Arg-gingipain A (RgpA), Arg-gingipain B (RgpB), and Lys-gingipain (Kgp).
+- Gingipains are zinc-dependent metalloproteinases that degrade host proteins including immunoglobulins, complement components, and cytokines, enabling immune evasion and tissue destruction.
 - These proteases also process and mature other virulence factors, making zinc availability critical for the full expression of *P. gingivalis* pathogenicity.
 
 ### Iron -- Hemin Acquisition
@@ -39,7 +39,7 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 
 ### Periodontal Disease
 - *P. gingivalis* is a member of the "red complex" (with *Treponema denticola* and *Tannerella forsythia*), the most pathogenic consortium in chronic periodontitis.
-- Acts as a **keystone pathogen**: even at low abundance, it restructures the entire oral microbial community from symbiotic to dysbiotic, amplifying inflammation.
+- Acts as a keystone pathogen: even at low abundance, it restructures the entire oral microbial community from symbiotic to dysbiotic, amplifying inflammation.
 
 ### Cardiovascular Disease and Atherosclerosis
 - Strongly linked to [[cardiovascular-disease]] and atherosclerosis. *P. gingivalis* DNA and viable organisms detected in atherosclerotic plaques.
@@ -47,7 +47,7 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 - Chronic periodontal infection maintains systemic inflammation (elevated CRP, IL-6) that promotes endothelial dysfunction and plaque instability.
 
 ### Alzheimer's Disease
-- *P. gingivalis* and gingipains detected in **brain tissue** of Alzheimer's patients, with gingipain levels correlating with tau and ubiquitin pathology [[khatoon-2023-gut-microbiota-neurodegenerative]].
+- *P. gingivalis* and gingipains detected in brain tissue of Alzheimer's patients, with gingipain levels correlating with tau and ubiquitin pathology [[khatoon-2023-gut-microbiota-neurodegenerative]].
 - Proposed mechanism: gingipains cleave tau protein and damage neurons; chronic oral infection provides ongoing bacterial seeding to the brain via bacteremia or neural routes.
 - The drug COR388 (atuzaginstat), a gingipain inhibitor, entered clinical trials for Alzheimer's.
 
@@ -60,9 +60,9 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 
 ## Key Metabolites
 
-- **Gingipains (RgpA, RgpB, Kgp)** -- Zn-dependent cysteine proteases; primary virulence factors
-- **LPS** -- atypical lipopolysaccharide that modulates TLR4 and TLR2 signaling
-- **Outer membrane vesicles** -- carry gingipains and LPS to distant sites; potential vehicle for brain colonization
+- Gingipains (RgpA, RgpB, Kgp) -- Zn-dependent cysteine proteases; primary virulence factors
+- LPS -- atypical lipopolysaccharide that modulates TLR4 and TLR2 signaling
+- Outer membrane vesicles -- carry gingipains and LPS to distant sites; potential vehicle for brain colonization
 
 ## Key Sources
 

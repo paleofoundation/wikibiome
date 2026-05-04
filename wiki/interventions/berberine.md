@@ -33,7 +33,7 @@ karen_brain_primitives: [4, 5, 8]
 
 ## Overview
 
-**Berberine** is an isoquinoline alkaloid from traditional Chinese medicine (Coptis chinensis, Berberis species) that acts as a **prebiotic microbiome modulator** rather than a direct antimicrobial at gut-relevant concentrations. It is discussed across 16+ sources in the WikiBiome vault spanning Graves' disease, ulcerative colitis, and colorectal cancer.
+Berberine is an isoquinoline alkaloid from traditional Chinese medicine (Coptis chinensis, Berberis species) that acts as a prebiotic microbiome modulator rather than a direct antimicrobial at gut-relevant concentrations. It is discussed across 16+ sources in the WikiBiome vault spanning Graves' disease, ulcerative colitis, and colorectal cancer.
 
 ## Triangle Evidence
 
@@ -41,17 +41,17 @@ karen_brain_primitives: [4, 5, 8]
 
 The strongest triangle comes from a 6-month controlled clinical trial (n=18) comparing methimazole alone vs. methimazole + berberine (2.7g/day) [[han-2022-berberine-methimazole-graves-microbiome]]:
 
-**I → f (Intervention to feature):** Berberine significantly restructured the gut microbiota (Bray-Curtis P=0.013), increasing beneficial [[lactococcus]] (*L. lactis*) and [[enterococcus]] (*E. hirae*) while decreasing pathogenic *Enterobacter hormaechei*. Critically, berberine upregulated **enterobactin biosynthesis** — a siderophore pathway essential for iron acquisition — and vitamin K2 biosynthesis pathways [[han-2022-berberine-methimazole-graves-microbiome]].
+I → f (Intervention to feature): Berberine significantly restructured the gut microbiota (Bray-Curtis P=0.013), increasing beneficial [[lactococcus]] (*L. lactis*) and [[enterococcus]] (*E. hirae*) while decreasing pathogenic *Enterobacter hormaechei*. Critically, berberine upregulated enterobactin biosynthesis — a siderophore pathway essential for iron acquisition — and vitamin K2 biosynthesis pathways [[han-2022-berberine-methimazole-graves-microbiome]].
 
-**I → D (Intervention to disease):** The combination group restored TSH to the 4.2 IU/L healthy threshold and shifted TRAb toward normal (1.75 IU/mL); methimazole alone only restored FT3. The differences in TSH trajectory were statistically significant [[han-2022-berberine-methimazole-graves-microbiome]].
+I → D (Intervention to disease): The combination group restored TSH to the 4.2 IU/L healthy threshold and shifted TRAb toward normal (1.75 IU/mL); methimazole alone only restored FT3. The differences in TSH trajectory were statistically significant [[han-2022-berberine-methimazole-graves-microbiome]].
 
-**f → D (Feature to disease):** [[faecalibacterium-prausnitzii]] and *L. lactis* were negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH — connecting specific microbial shifts to thyroid function recovery. The enterobactin-iron-thyroid link is mechanistically coherent: iron is required for thyroid peroxidase (TPO) activity, and improved microbial iron acquisition may support host iron availability for thyroid hormone synthesis [[han-2022-berberine-methimazole-graves-microbiome]].
+f → D (Feature to disease): [[faecalibacterium-prausnitzii]] and *L. lactis* were negatively correlated with FT3, FT4, and TRAb but positively correlated with TSH — connecting specific microbial shifts to thyroid function recovery. The enterobactin-iron-thyroid link is mechanistically coherent: iron is required for thyroid peroxidase (TPO) activity, and improved microbial iron acquisition may support host iron availability for thyroid hormone synthesis [[han-2022-berberine-methimazole-graves-microbiome]].
 
-**Limitations:** Small sample size (n=8 vs. n=10), non-randomized allocation, high berberine dose (2.7g/day) with unreported GI side effects, and the enterobactin-iron-thyroid causal chain is plausible but not directly demonstrated.
+Limitations: Small sample size (n=8 vs. n=10), non-randomized allocation, high berberine dose (2.7g/day) with unreported GI side effects, and the enterobactin-iron-thyroid causal chain is plausible but not directly demonstrated.
 
 ## Mechanism
 
-Berberine's primary action is **prebiotic ecosystem reshaping**, not direct pathogen killing:
+Berberine's primary action is prebiotic ecosystem reshaping, not direct pathogen killing:
 - Shifts microbiota composition toward SCFA producers and beneficial commensals
 - Upregulates siderophore (enterobactin) biosynthesis — Karen's Brain Primitive 8 ([[siderophore-competition]])
 - Modulates TCA cycle and amino acid metabolism pathways

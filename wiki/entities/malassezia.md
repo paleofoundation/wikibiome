@@ -20,14 +20,14 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Malassezia
 
-A genus of lipophilic basidiomycete yeasts that is the **dominant fungus on human skin** and has recently been recognized as a significant component of the gut mycobiome. *M. restricta*, *M. globosa*, and *M. furfur* are the primary species. Originally studied as the cause of dandruff and seborrheic dermatitis, Malassezia has emerged as an unexpectedly important player in gut [[dysbiosis]], particularly in [[cardiovascular-disease]] and hypertension.
+A genus of lipophilic basidiomycete yeasts that is the dominant fungus on human skin and has recently been recognized as a significant component of the gut mycobiome. *M. restricta*, *M. globosa*, and *M. furfur* are the primary species. Originally studied as the cause of dandruff and seborrheic dermatitis, Malassezia has emerged as an unexpectedly important player in gut [[dysbiosis]], particularly in [[cardiovascular-disease]] and hypertension.
 
 ## Skin Commensal Role
 
 - Colonizes lipid-rich skin sites (scalp, face, chest, back) where it metabolizes host sebum triglycerides via secreted lipases, releasing unsaturated fatty acids (oleic acid) that can trigger inflammation in susceptible individuals.
 - *M. restricta* is the primary causative agent of dandruff and seborrheic dermatitis through lipase-mediated oleic acid release and subsequent [[inflammation]].
 - *M. furfur* causes pityriasis versicolor (skin depigmentation) and can cause systemic fungemia in neonates receiving lipid parenteral nutrition.
-- The genus is uniquely **lipid-dependent** -- it lacks the genes for de novo fatty acid synthesis and must acquire lipids from its environment.
+- The genus is uniquely lipid-dependent -- it lacks the genes for de novo fatty acid synthesis and must acquire lipids from its environment.
 
 ## Gut Mycobiome Presence
 
@@ -62,9 +62,9 @@ A genus of lipophilic basidiomycete yeasts that is the **dominant fungus on huma
 
 ## Key Metabolites
 
-- **Lipase products** -- oleic acid and other unsaturated fatty acids from sebum/lipid metabolism; inflammatory triggers.
-- **Indole derivatives** -- some Malassezia species produce tryptophan-derived metabolites that act as aryl hydrocarbon receptor (AHR) ligands, modulating skin and gut immune responses.
-- **Arachidonic acid metabolites** -- phospholipase-derived inflammatory mediators.
+- Lipase products -- oleic acid and other unsaturated fatty acids from sebum/lipid metabolism; inflammatory triggers.
+- Indole derivatives -- some Malassezia species produce tryptophan-derived metabolites that act as aryl hydrocarbon receptor (AHR) ligands, modulating skin and gut immune responses.
+- Arachidonic acid metabolites -- phospholipase-derived inflammatory mediators.
 
 ## Connections
 

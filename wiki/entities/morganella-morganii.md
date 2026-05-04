@@ -4,9 +4,12 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics
+  - kang-2023-diagnosis-crohns-uc-microbiome
+  - khan-2011-novel-approach-enterobacteriaceae-identification-clinical
+source_count: 3
 tags:
   - enterobacteriaceae
   - opportunistic-pathogen
@@ -28,17 +31,15 @@ conditions_enriched_in:
   - wound-infections
   - bacteremia
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Morganella morganii** is a Gram-negative, facultatively anaerobic rod belonging to the family Morganellaceae (formerly classified within Enterobacteriaceae). It inhabits the human gastrointestinal tract as a low-abundance commensal but becomes an opportunistic pathogen in immunocompromised hosts, causing urinary tract infections, wound infections, and sepsis.
+Morganella morganii is a Gram-negative, facultatively anaerobic rod belonging to the family Morganellaceae (formerly classified within Enterobacteriaceae). It inhabits the human gastrointestinal tract as a low-abundance commensal but becomes an opportunistic pathogen in immunocompromised hosts, causing urinary tract infections, wound infections, and sepsis.
 
 ## Metal Dependencies
 
-M. morganii produces a potent **nickel-dependent urease** that hydrolyzes urea to ammonia, raising local pH. This pH shift increases the bioavailability of iron and zinc, creating a self-reinforcing niche. The organism also deploys siderophore systems for iron acquisition in competition with the host's [[nutritional-immunity]] defenses.
+M. morganii produces a potent nickel-dependent urease that hydrolyzes urea to ammonia, raising local pH. This pH shift increases the bioavailability of iron and zinc, creating a self-reinforcing niche. The organism also deploys siderophore systems for iron acquisition in competition with the host's [[nutritional-immunity]] defenses.
 
 ## Ecological Role
 

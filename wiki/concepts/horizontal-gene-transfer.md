@@ -17,26 +17,26 @@ platform: wikibiome
 
 ## Overview
 
-**Horizontal gene transfer (HGT)** is the movement of genetic material between organisms outside of parent-to-offspring inheritance. In the gut microbiome, HGT -- primarily mediated by **mobile genetic elements (MGEs)** including plasmids, transposons, integrons, and integrative conjugative elements (ICEs) -- is the primary mechanism by which antibiotic resistance genes (ARGs) and metal resistance genes (MRGs) spread across bacterial species and phyla.
+Horizontal gene transfer (HGT) is the movement of genetic material between organisms outside of parent-to-offspring inheritance. In the gut microbiome, HGT -- primarily mediated by mobile genetic elements (MGEs) including plasmids, transposons, integrons, and integrative conjugative elements (ICEs) -- is the primary mechanism by which antibiotic resistance genes (ARGs) and metal resistance genes (MRGs) spread across bacterial species and phyla.
 
-For WikiBiome, HGT is the genetic vehicle for [[co-selection]]: when metal resistance genes and antibiotic resistance genes co-locate on the same MGE, selecting for one automatically selects for both. This means **environmental heavy metal contamination directly drives antibiotic resistance** through MGE-mediated co-transfer.
+For WikiBiome, HGT is the genetic vehicle for [[co-selection]]: when metal resistance genes and antibiotic resistance genes co-locate on the same MGE, selecting for one automatically selects for both. This means environmental heavy metal contamination directly drives antibiotic resistance through MGE-mediated co-transfer.
 
 ## Types of Mobile Genetic Elements
 
 ### Plasmids
 Self-replicating extrachromosomal DNA elements; the primary vehicles for conjugative transfer of resistance genes between bacteria.
 
-**Key example**: A single transferable *Enterococcus* plasmid carries **tcrB** (copper resistance) + **vanA** (vancomycin resistance) + **ermB** (macrolide resistance) -- copper in pig feed selects for vancomycin-resistant enterococci (VRE) without any antibiotic exposure [[wales-2015-co-selection-resistance-antibiotics-biocides-metals]].
+Key example: A single transferable *Enterococcus* plasmid carries tcrB (copper resistance) + vanA (vancomycin resistance) + ermB (macrolide resistance) -- copper in pig feed selects for vancomycin-resistant enterococci (VRE) without any antibiotic exposure [[wales-2015-co-selection-resistance-antibiotics-biocides-metals]].
 
 ### Transposons
 DNA segments that can "jump" between chromosomal and plasmid locations.
 
-**Tn21-type transposons**: The canonical vehicle for co-resistance spread. Carry mercury resistance (mer operon) + class 1 integron with multiple ARG cassettes [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]. Other notable transposons: Tn916 (tetracycline resistance; enriched in high-fat diets), ISBf10, IS91 [[shen-2025-high-fat-low-fiber-diet-gut-resistome]].
+Tn21-type transposons: The canonical vehicle for co-resistance spread. Carry mercury resistance (mer operon) + class 1 integron with multiple ARG cassettes [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]. Other notable transposons: Tn916 (tetracycline resistance; enriched in high-fat diets), ISBf10, IS91 [[shen-2025-high-fat-low-fiber-diet-gut-resistome]].
 
 ### Integrons
 Gene capture and expression systems that can accumulate multiple resistance gene cassettes.
 
-**intI1 (class 1 integron integrase)**: The single most important genetic marker for anthropogenic resistance gene dissemination. Present at elevated levels in **all** metal-contaminated environments studied. Correlated with ARG abundance in nickel-contaminated soils [[hu-2016-nickel-contamination-antibiotic-resistance-soils]].
+intI1 (class 1 integron integrase): The single most important genetic marker for anthropogenic resistance gene dissemination. Present at elevated levels in all metal-contaminated environments studied. Correlated with ARG abundance in nickel-contaminated soils [[hu-2016-nickel-contamination-antibiotic-resistance-soils]].
 
 ### Integrative Conjugative Elements (ICEs)
 Chromosomally integrated elements that can excise, transfer by conjugation, and integrate into new hosts. Larger than transposons; often carry multiple resistance determinants.
@@ -55,18 +55,18 @@ The co-location of MRGs and ARGs on shared MGEs is the genetic basis for [[co-se
 
 ## Temporal Evolution
 
-**Rebelo et al. (2021)** traced 120 years of *Enterococcus* isolates, revealing that metal tolerance genes (MeT) have been present since the 1900s, but their co-occurrence with ARGs **accelerated dramatically since the 1990s** -- coinciding with intensified antibiotic use in agriculture and medicine [[rebelo-2021-enterococcus-metal-antibiotic-resistance]]. HGT has assembled increasingly complex resistance cassettes over time.
+Rebelo et al. (2021) traced 120 years of *Enterococcus* isolates, revealing that metal tolerance genes (MeT) have been present since the 1900s, but their co-occurrence with ARGs accelerated dramatically since the 1990s -- coinciding with intensified antibiotic use in agriculture and medicine [[rebelo-2021-enterococcus-metal-antibiotic-resistance]]. HGT has assembled increasingly complex resistance cassettes over time.
 
 ## Diet Shapes MGE Abundance
 
 The gut resistome is modulated by diet:
-- **High-fat diet** increases Tn916, IS91, intI1 abundance in the gut microbiome.
-- **High-fiber diet** reduces MGE abundance.
+- High-fat diet increases Tn916, IS91, intI1 abundance in the gut microbiome.
+- High-fiber diet reduces MGE abundance.
 - This suggests dietary intervention can modulate HGT-mediated resistance spread [[shen-2025-high-fat-low-fiber-diet-gut-resistome]].
 
 ## The Persistence Problem
 
-Metals are **permanent selective pressures** -- unlike antibiotics, which degrade and can be withdrawn, heavy metals persist indefinitely in soils, water, and the food chain. This means MGEs carrying co-located MRGs and ARGs are maintained in bacterial populations **even in the complete absence of antibiotic use**, as long as metal contamination persists [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
+Metals are permanent selective pressures -- unlike antibiotics, which degrade and can be withdrawn, heavy metals persist indefinitely in soils, water, and the food chain. This means MGEs carrying co-located MRGs and ARGs are maintained in bacterial populations even in the complete absence of antibiotic use, as long as metal contamination persists [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
 
 ## Biofilm and HGT
 

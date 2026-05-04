@@ -16,7 +16,9 @@ seo_target: "schizophrenia heavy metals microbiome copper zinc gut-brain"
 wikipedia_differentiation: "Cu/Zn mis-metallation mechanism at NMDA receptor zinc-finger sites connecting metallomic dysregulation to glutamatergic hypofunction hypothesis; Mendelian randomization causal taxon map distinguishing drivers from consequences; multi-kingdom gut dysbiosis analysis including mycobiome and virome"
 icd_10: "F20"
 global_prevalence: "~7.2 per 1000 adults (lifetime prevalence)"
-signature_page: "[[schizophrenia-signature]]"---
+signature_page: "[[schizophrenia-signature]]"
+stub: false
+---
 
 # Schizophrenia
 
@@ -36,28 +38,28 @@ The concept of [[mis-metallation]] offers a mechanistic bridge: when Cu displace
 
 ## Gut-Brain Axis
 
-The [[gut-brain-axis]] is now recognized as a major pathway through which environmental factors shape schizophrenia risk and course. Bidirectional communication occurs via the vagus nerve, enteroendocrine signaling, short-chain fatty acid (SCFA) production, and immune mediator release. A critical insight from Kamath et al. (2025) is that the relationship is a trichotomy — the microbiome can be a **causal driver**, a **pathophysiological consequence**, or a **bidirectional partner** in schizophrenia — and most existing studies fail to distinguish these roles [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]].
+The [[gut-brain-axis]] is now recognized as a major pathway through which environmental factors shape schizophrenia risk and course. Bidirectional communication occurs via the vagus nerve, enteroendocrine signaling, short-chain fatty acid (SCFA) production, and immune mediator release. A critical insight from Kamath et al. (2025) is that the relationship is a trichotomy — the microbiome can be a causal driver, a pathophysiological consequence, or a bidirectional partner in schizophrenia — and most existing studies fail to distinguish these roles [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]].
 
 ### Causal Taxon Map from Mendelian Randomization
 
 The most important methodological advance in this field is the two-sample bidirectional Mendelian randomization (MR) study by Zhou et al. (2024), using MiBioGen GWAS data (n=18,340) and PGC schizophrenia GWAS (n=130,644). Because MR uses inherited genetic variants as instrumental variables, it is largely free of the confounding by diet, medication, and stress that undermines observational studies [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
 
-**Taxa causally increasing schizophrenia risk** (OR 1.08–1.16):
-- Class **Betaproteobacteria** (OR=1.13, 95% CI 1.01–1.27, p=0.027) — previously linked to cognitive impairment in SCZ patients
-- Class **Clostridia** (OR=1.16, 95% CI 1.05–1.28, p=4.2×10⁻³) — produces SCFAs that activate microglia and increase choline (membrane dysfunction marker)
-- Order **Clostridiales** (OR=1.12, 95% CI 1.01–1.24, p=0.027) — elevated in ultra-high-risk psychosis subjects alongside elevated choline
-- Family **Prevotellaceae** (OR=1.11, 95% CI 1.03–1.20, p=1.4×10⁻³) — enriched in schizophrenia patients with violent behaviours
-- Genus **Alloprevotella** (OR=1.09, p=7.9×10⁻³), genus **Hungatella** (OR=1.08, p=0.043), genus **Subdoligranulum** (OR=1.14, p=0.015)
-- Phylum **Firmicutes** (OR=1.11, 95% CI 1.02–1.21, p=0.015)
+Taxa causally increasing schizophrenia risk (OR 1.08–1.16):
+- Class Betaproteobacteria (OR=1.13, 95% CI 1.01–1.27, p=0.027) — previously linked to cognitive impairment in SCZ patients
+- Class Clostridia (OR=1.16, 95% CI 1.05–1.28, p=4.2×10⁻³) — produces SCFAs that activate microglia and increase choline (membrane dysfunction marker)
+- Order Clostridiales (OR=1.12, 95% CI 1.01–1.24, p=0.027) — elevated in ultra-high-risk psychosis subjects alongside elevated choline
+- Family Prevotellaceae (OR=1.11, 95% CI 1.03–1.20, p=1.4×10⁻³) — enriched in schizophrenia patients with violent behaviours
+- Genus Alloprevotella (OR=1.09, p=7.9×10⁻³), genus Hungatella (OR=1.08, p=0.043), genus Subdoligranulum (OR=1.14, p=0.015)
+- Phylum Firmicutes (OR=1.11, 95% CI 1.02–1.21, p=0.015)
 
-**Taxa causally protective against schizophrenia** (OR 0.88–0.94):
-- Genus **Desulfovibrio** (OR=0.88, 95% CI 0.82–0.96, p=1.9×10⁻³) — lower abundance is a risk factor; notably, antipsychotic amisulpride cannot restore it, consistent with this causal direction
-- Family **Veillonellaceae** (OR=0.93, p=0.033) — depleted in schizophrenia patients with violent behaviours
-- Family **Rhodospirillaceae** (OR=0.93, p=0.049)
-- Genus **Coprobacter** (OR=0.92, p=7.3×10⁻³), genus **Gordonibacter** (OR=0.94, p=0.012)
+Taxa causally protective against schizophrenia (OR 0.88–0.94):
+- Genus Desulfovibrio (OR=0.88, 95% CI 0.82–0.96, p=1.9×10⁻³) — lower abundance is a risk factor; notably, antipsychotic amisulpride cannot restore it, consistent with this causal direction
+- Family Veillonellaceae (OR=0.93, p=0.033) — depleted in schizophrenia patients with violent behaviours
+- Family Rhodospirillaceae (OR=0.93, p=0.049)
+- Genus Coprobacter (OR=0.92, p=7.3×10⁻³), genus Gordonibacter (OR=0.94, p=0.012)
 
-**Taxa causally altered by schizophrenia** (reverse MR direction — the disease drives these changes, not vice versa):
-- Genus **Akkermansia** increased (OR=1.04, p=0.040), along with Bacteroides, Lachnospira, Ruminiclostridium5
+Taxa causally altered by schizophrenia (reverse MR direction — the disease drives these changes, not vice versa):
+- Genus Akkermansia increased (OR=1.04, p=0.040), along with Bacteroides, Lachnospira, Ruminiclostridium5
 - Family Defluviitaleaceae reduced (OR=0.94, p=7.1×10⁻³)
 
 The Akkermansia finding is clinically significant: observational studies have reported Akkermansia depletion in schizophrenia, but the MR data indicate the opposite — schizophrenia elevates Akkermansia abundance. This suggests that Akkermansia enrichment is a *consequence* of schizophrenia pathophysiology, not a cause, and naive supplementation in active SCZ may be contraindicated [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
@@ -66,7 +68,7 @@ The Akkermansia finding is clinically significant: observational studies have re
 
 Observational 16S rRNA and shotgun metagenomic studies consistently find depletion of anti-inflammatory butyrate-producing genera — Faecalibacterium prausnitzii, Roseburia, Coprococcus, Anaerostipes — and enrichment of opportunistic taxa including Proteobacteria, Lactobacillus, Enterobacteriaceae, Succinivibrio, and Prevotella in schizophrenia patients relative to controls [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]]. First-episode drug-naive patients show lower alpha-diversity (Shannon index p=1.21×10⁻⁹) and significant beta-diversity separation [[yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia]].
 
-The Theleritis (2024) review of 12 FEP studies adds granularity: in first-episode psychosis, **Lactobacillus** numbers are increased and positively associated with symptom severity; **Lachnospiraceae** and **Ruminococcaceae** depletion correlates with negative symptoms and poorer functioning [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]. Subjects with the highest microbiome alterations at baseline had worse treatment response at 12 months. FMT of schizophrenia microbiota into germ-free mice produced psychomotor hyperactivity, diminished learning and memory, tryptophan→kynurenine diversion, elevated prefrontal dopamine, and elevated hippocampal 5-hydroxytryptamine. Transfer of the single schizophrenia-enriched species **Streptococcus vestibularis** to mice was sufficient to induce social behavior deficits and alter neurotransmitter levels — one of the strongest causation experiments in the literature [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
+The Theleritis (2024) review of 12 FEP studies adds granularity: in first-episode psychosis, Lactobacillus numbers are increased and positively associated with symptom severity; Lachnospiraceae and Ruminococcaceae depletion correlates with negative symptoms and poorer functioning [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]. Subjects with the highest microbiome alterations at baseline had worse treatment response at 12 months. FMT of schizophrenia microbiota into germ-free mice produced psychomotor hyperactivity, diminished learning and memory, tryptophan→kynurenine diversion, elevated prefrontal dopamine, and elevated hippocampal 5-hydroxytryptamine. Transfer of the single schizophrenia-enriched species Streptococcus vestibularis to mice was sufficient to induce social behavior deficits and alter neurotransmitter levels — one of the strongest causation experiments in the literature [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
 
 ### Increased Gut Permeability
 
@@ -94,7 +96,7 @@ Microglia, the CNS immune sentinels, show chronic pro-inflammatory (M1) polariza
 
 ### Th17/Treg Imbalance
 
-The [[immune-balance]] in schizophrenia is characterized by Th17/Treg skewing, with elevated IL-6, IL-8, TNF-alpha, and IL-1beta alongside reduced IL-10 and TGF-beta [[ermakov-2022-immune-system-abnormalities-schizophrenia]]. This Th17-dominant profile promotes blood-brain barrier permeability and facilitates central neuroinflammation. Elevated IL-6, TNF-α, soluble IL-2 receptor, and prostaglandin E2 have been documented in first-episode psychosis before medication exposure, establishing that inflammation precedes antipsychotic treatment rather than resulting from it [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]. The maternal immune activation (MIA) model (Poly I:C prenatal challenge) produces a schizophrenia-like phenotype in offspring with persistent microglial abnormalities, and in this model elevated Firmicutes activate the immune system contributing to neuroplasticity reduction in cortical areas [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
+The [[immune-balance]] in schizophrenia is characterized by Th17/Treg skewing, with elevated [[interleukin-6|IL-6]], IL-8, [[tnf-alpha|TNF-alpha]], and IL-1beta alongside reduced IL-10 and [[tgf-beta|TGF-beta]] [[ermakov-2022-immune-system-abnormalities-schizophrenia]]. This Th17-dominant profile promotes blood-brain barrier permeability and facilitates central neuroinflammation. Elevated [[interleukin-6|IL-6]], [[tnf-alpha|TNF-α]], soluble IL-2 receptor, and prostaglandin E2 have been documented in first-episode psychosis before medication exposure, establishing that inflammation precedes antipsychotic treatment rather than resulting from it [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]. The maternal immune activation (MIA) model (Poly I:C prenatal challenge) produces a schizophrenia-like phenotype in offspring with persistent microglial abnormalities, and in this model elevated Firmicutes activate the immune system contributing to neuroplasticity reduction in cortical areas [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
 
 ### Early-Life Stress and HPA Axis
 
@@ -133,20 +135,20 @@ Heavy metal burden interacts with the microbiome in schizophrenia through two ro
 
 Schizophrenia shares overlapping metallomic and taxonomic signatures with several conditions, pointing to shared pathophysiological mechanisms rather than coincidental comorbidity:
 
-- **[[depression]]**: Shared Cu/Zn dysregulation; shared Lachnospiraceae and Faecalibacterium depletion; shared tryptophan/kynurenine shunting via IDO activation; Roseburia colonisation reverses depressive phenotypes in animal models by restoring 5-HT [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]. FMT from depressed donors induces depression-like behaviour and increased inflammation in rodents — parallel to the schizophrenia FMT experiments [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
-- **[[alzheimers-disease]]**: Shared Enterobacteriaceae enrichment and Lachnospiraceae depletion; shared copper dysregulation; shared neuroinflammatory microglial activation. MR studies show causal links between gut microbiome taxa and Alzheimer's risk that parallel the schizophrenia MR findings [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
-- **[[parkinsons-disease]]**: Shared iron dysregulation and Enterobacteriaceae enrichment; overlapping butyrate-producer depletion; shared gut-first neuroinflammation hypothesis.
-- **[[multiple-sclerosis]]**: Shared Lachnospiraceae depletion; shared Th17/Treg imbalance; shared Candida albicans enrichment in gut mycobiome.
-- **[[schizophrenia|Bipolar-disorder]]**: Closest metabolic overlap — shared Faecalibacterium depletion, Lachnospiraceae depletion, Cu/Zn dysregulation, and Th17 skewing. Distinguishing schizophrenia from bipolar disorder on microbiome grounds alone remains difficult.
+- [[depression]]: Shared Cu/Zn dysregulation; shared Lachnospiraceae and Faecalibacterium depletion; shared tryptophan/kynurenine shunting via IDO activation; Roseburia colonisation reverses depressive phenotypes in animal models by restoring 5-HT [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]. FMT from depressed donors induces depression-like behaviour and increased inflammation in rodents — parallel to the schizophrenia FMT experiments [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
+- [[alzheimers-disease]]: Shared Enterobacteriaceae enrichment and Lachnospiraceae depletion; shared copper dysregulation; shared neuroinflammatory microglial activation. MR studies show causal links between gut microbiome taxa and Alzheimer's risk that parallel the schizophrenia MR findings [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]].
+- [[parkinsons-disease]]: Shared iron dysregulation and Enterobacteriaceae enrichment; overlapping butyrate-producer depletion; shared gut-first neuroinflammation hypothesis.
+- [[multiple-sclerosis]]: Shared Lachnospiraceae depletion; shared Th17/Treg imbalance; shared Candida albicans enrichment in gut mycobiome.
+- [[schizophrenia|Bipolar-disorder]]: Closest metabolic overlap — shared Faecalibacterium depletion, Lachnospiraceae depletion, Cu/Zn dysregulation, and Th17 skewing. Distinguishing schizophrenia from bipolar disorder on microbiome grounds alone remains difficult.
 
 ## Comorbidities
 
 Schizophrenia carries a heavy comorbidity burden that intersects with microbiome dysfunction:
 
-- **[[metabolic-syndrome]]**: Develops in approximately one-third of patients, often within the first few years of antipsychotic treatment; fivefold increase in incidence; body weight increases up to 15 kg; antipsychotics (especially olanzapine, clozapine) drive gut microbiome shifts favoring Firmicutes enrichment. Risperidone treatment over 24 weeks increases body weight, BMI, fasting blood glucose, triglycerides, and LDL alongside major elevation of Bifidobacterium and Escherichia coli [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
-- **[[depression]]**: Depressive episodes occur in the majority of patients; paradoxically, greater insight correlates with more depression; comorbid depression is the strongest risk factor for suicide (OR=3.03).
-- **Type 2 diabetes**: Atypical antipsychotics directly increase diabetes risk independent of weight gain; gut microbiome shifts via SCFA depletion and bile acid alterations may mediate this effect.
-- **Cardiovascular disease**: Leading cause of excess mortality; driven by metabolic syndrome, smoking, and chronic inflammation.
+- [[metabolic-syndrome]]: Develops in approximately one-third of patients, often within the first few years of antipsychotic treatment; fivefold increase in incidence; body weight increases up to 15 kg; antipsychotics (especially olanzapine, clozapine) drive gut microbiome shifts favoring Firmicutes enrichment. Risperidone treatment over 24 weeks increases body weight, BMI, fasting blood glucose, triglycerides, and LDL alongside major elevation of Bifidobacterium and Escherichia coli [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
+- [[depression]]: Depressive episodes occur in the majority of patients; paradoxically, greater insight correlates with more depression; comorbid depression is the strongest risk factor for suicide (OR=3.03).
+- Type 2 diabetes: Atypical antipsychotics directly increase diabetes risk independent of weight gain; gut microbiome shifts via SCFA depletion and bile acid alterations may mediate this effect.
+- Cardiovascular disease: Leading cause of excess mortality; driven by metabolic syndrome, smoking, and chronic inflammation.
 
 <!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
 
@@ -182,7 +184,9 @@ Schizophrenia carries a heavy comorbidity burden that intersects with microbiome
 - [[neuroinflammation]] — microglial M1 polarization, C4A-driven synaptic pruning, and Th17/Treg imbalance [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]]
 - [[tryptophan-metabolism]] — IDO-mediated kynurenine shunting depletes serotonin precursors; quinolinic acid neurotoxicity; astrocyte vs microglial bifurcation [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]
 - [[dysbiosis]] — depletion of butyrate producers (Faecalibacterium, Roseburia, Coprococcus) and multi-kingdom microbial disruption; Streptococcus vestibularis as causal bacterium in FMT experiments [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]
-- [[immune-balance]] — Th17-dominant profile with elevated IL-6, IL-8, TNF-alpha; reduced IL-10 and TGF-beta; present before medication in FEP [[ermakov-2022-immune-system-abnormalities-schizophrenia]]
+- [[interleukin-6]] — elevated in FEP before medication; mediator of neuroinflammation and hepcidin-driven iron sequestration
+- [[tnf-alpha]] — elevated in FEP before medication; drives microglial activation and endothelial dysfunction; gingipain substrate
+- [[immune-balance]] — Th17-dominant profile with elevated [[interleukin-6|IL-6]], IL-8, [[tnf-alpha|TNF-alpha]]; reduced IL-10 and [[tgf-beta|TGF-beta]]; present before medication in FEP [[ermakov-2022-immune-system-abnormalities-schizophrenia]]
 - [[depression]] — comorbid in most patients; strongest suicide risk factor (OR=3.03); shared Cu/Zn dysregulation; shared FMT-transferable phenotype
 - [[metabolic-syndrome]] — develops in approximately one-third of patients; antipsychotic-driven microbiome shifts [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]
 - [[intestinal-permeability]] — markedly elevated endotoxin antibodies (SMD=2.72), zonulin, and sCD14 [[safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis]]

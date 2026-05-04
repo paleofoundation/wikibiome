@@ -4,9 +4,13 @@ type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - chang-2024-metabolome-amino-acids-asd
+  - capdevila-2024-bacterial-metallostasis-sensing-trafficking
+  - chang-2024-gut-microbiome-metabolome-asd
+  - londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi
+source_count: 4
 tags:
   - deinococcaceae
   - extremophile
@@ -30,21 +34,19 @@ key_enzymes:
 pathogenic_potential: commensal
 conditions_enriched_in: []
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Deinococcus** is a genus of extremophilic bacteria famous for extraordinary resistance to ionizing radiation, desiccation, and oxidative stress. *D. radiodurans* — "Conan the Bacterium" — can survive radiation doses 1,000 times greater than those lethal to humans. This resilience is not primarily due to superior DNA repair, but to its remarkable **manganese-based antioxidant system** that protects proteins from oxidative damage.
+Deinococcus is a genus of extremophilic bacteria famous for extraordinary resistance to ionizing radiation, desiccation, and oxidative stress. *D. radiodurans* — "Conan the Bacterium" — can survive radiation doses 1,000 times greater than those lethal to humans. This resilience is not primarily due to superior DNA repair, but to its remarkable manganese-based antioxidant system that protects proteins from oxidative damage.
 
 ## Metal Dependencies
 
-The key to Deinococcus's radiation resistance lies in its accumulation of **manganese** in small-molecule complexes (Mn-orthophosphate, Mn-peptide) that scavenge reactive oxygen species without enzymatic activity. This Mn-dependent antioxidant system maintains protein function during extreme oxidative stress, allowing DNA repair enzymes to work effectively. The organism also requires **iron** for catalase and **zinc** for metalloregulatory proteins.
+The key to Deinococcus's radiation resistance lies in its accumulation of manganese in small-molecule complexes (Mn-orthophosphate, Mn-peptide) that scavenge reactive oxygen species without enzymatic activity. This Mn-dependent antioxidant system maintains protein function during extreme oxidative stress, allowing DNA repair enzymes to work effectively. The organism also requires iron for catalase and zinc for metalloregulatory proteins.
 
 ## Ecological Role
 
-Deinococcus inhabits extreme environments — irradiated soils, desiccated deserts, high-altitude atmospheres. It is not a gut organism, but its biology illuminates a fundamental principle: **the metal a bacterium accumulates determines its stress tolerance profile**. Organisms that shift from iron-centric to manganese-centric antioxidant strategies gain resistance to oxidative damage at the cost of metabolic versatility.
+Deinococcus inhabits extreme environments — irradiated soils, desiccated deserts, high-altitude atmospheres. It is not a gut organism, but its biology illuminates a fundamental principle: the metal a bacterium accumulates determines its stress tolerance profile. Organisms that shift from iron-centric to manganese-centric antioxidant strategies gain resistance to oxidative damage at the cost of metabolic versatility.
 
 ## Relevance to WikiBiome
 

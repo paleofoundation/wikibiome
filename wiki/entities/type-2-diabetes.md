@@ -43,15 +43,15 @@ The metallomic profile of T2D from the [[metal-disease-matrix]] is:
 
 | Metal | Direction | Key Evidence |
 |-------|-----------|-------------|
-| **[[zinc|Zn]]** | Depleted | Increased urinary Zn excretion is a hallmark; ZnT8 transporter mutations associated with T2D risk [[khan-2014-metals-type2-diabetes]] |
-| **[[iron|Fe]]** | Elevated (ferritin) | Strong correlation between ferritin and insulin resistance at preclinical stages; Fe oxidizes biomolecules decreasing insulin secretion [[khan-2014-metals-type2-diabetes]] |
-| **[[chromium|Cr]]** | Depleted (Cr3+) | Cr(III) stimulates insulin signaling and GLUT4 translocation in muscle cells; deficiency elevates blood glucose [[khan-2014-metals-type2-diabetes]] |
-| **[[copper|Cu]]** | Dysregulated | Required for SOD catalytic activity; imbalance linked to cholesterol disruption and mitochondrial dysfunction in pancreatic acinar cells [[khan-2014-metals-type2-diabetes]] |
-| **[[nickel|Ni]]** | Weakly elevated (urinary) | Meta-analysis of 20 studies: urinary Ni SMD 0.16 (95% CI 0.07-0.25); blood Ni non-significant [[lu-2024-nickel-diabetes-meta-analysis]] |
-| **[[cadmium|Cd]]** | Elevated | Accumulates in kidney; may down-regulate GLUT4 translocation; disrupts pancreatic beta-cell function [[khan-2014-metals-type2-diabetes]] |
-| **[[lead|Pb]]** | Elevated | Found in blood/plasma/urine of diabetics; interferes with renal function [[khan-2014-metals-type2-diabetes]] |
-| **[[arsenic|As]]** | Elevated | Disrupts glucose metabolism via TNF-alpha, MAPK, and GLUT4 translocation interference [[khan-2014-metals-type2-diabetes]] |
-| **[[manganese|Mn]]** | Depleted | Cofactor for pyruvate carboxylase and gluconeogenesis enzymes [[khan-2014-metals-type2-diabetes]] |
+| [[zinc|Zn]] | Depleted | Increased urinary Zn excretion is a hallmark; ZnT8 transporter mutations associated with T2D risk [[khan-2014-metals-type2-diabetes]] |
+| [[iron|Fe]] | Elevated (ferritin) | Strong correlation between ferritin and insulin resistance at preclinical stages; Fe oxidizes biomolecules decreasing insulin secretion [[khan-2014-metals-type2-diabetes]] |
+| [[chromium|Cr]] | Depleted (Cr3+) | Cr(III) stimulates insulin signaling and GLUT4 translocation in muscle cells; deficiency elevates blood glucose [[khan-2014-metals-type2-diabetes]] |
+| [[copper|Cu]] | Dysregulated | Required for SOD catalytic activity; imbalance linked to cholesterol disruption and mitochondrial dysfunction in pancreatic acinar cells [[khan-2014-metals-type2-diabetes]] |
+| [[nickel|Ni]] | Weakly elevated (urinary) | Meta-analysis of 20 studies: urinary Ni SMD 0.16 (95% CI 0.07-0.25); blood Ni non-significant [[lu-2024-nickel-diabetes-meta-analysis]] |
+| [[cadmium|Cd]] | Elevated | Accumulates in kidney; may down-regulate GLUT4 translocation; disrupts pancreatic beta-cell function [[khan-2014-metals-type2-diabetes]] |
+| [[lead|Pb]] | Elevated | Found in blood/plasma/urine of diabetics; interferes with renal function [[khan-2014-metals-type2-diabetes]] |
+| [[arsenic|As]] | Elevated | Disrupts glucose metabolism via TNF-alpha, MAPK, and GLUT4 translocation interference [[khan-2014-metals-type2-diabetes]] |
+| [[manganese|Mn]] | Depleted | Cofactor for pyruvate carboxylase and gluconeogenesis enzymes [[khan-2014-metals-type2-diabetes]] |
 
 ### The Zinc-Insulin Nexus
 
@@ -69,49 +69,49 @@ The [[lu-2024-nickel-diabetes-meta-analysis|Lu et al. (2024)]] meta-analysis of 
 
 The gut microbiome mediates several metal-diabetes pathways:
 
-**Metal-induced dysbiosis drives metabolic dysfunction.** [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li et al. (2019)]] demonstrated that environmentally relevant cadmium and arsenic exposure significantly perturbs gut microbiota and metabolome in ways linked to T2D pathways. Cadmium caused significant decreases in microbial diversity, reduced Bacteroidetes, and disrupted bile acid metabolism and amino acid profiles. Both metals affected butyrate-producing bacteria -- the same taxa whose loss is associated with insulin resistance.
+Metal-induced dysbiosis drives metabolic dysfunction. [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li et al. (2019)]] demonstrated that environmentally relevant cadmium and arsenic exposure significantly perturbs gut microbiota and metabolome in ways linked to T2D pathways. Cadmium caused significant decreases in microbial diversity, reduced Bacteroidetes, and disrupted bile acid metabolism and amino acid profiles. Both metals affected butyrate-producing bacteria -- the same taxa whose loss is associated with insulin resistance.
 
-**SCFA depletion as a bridge.** [[pendergrass-2026-heavy-metals-obesity-epidemic|Pendergrass (2026)]] proposed that chronic dietary heavy metal exposure selectively eliminates beneficial SCFA-producing bacteria (Roseburia, Faecalibacterium, Bifidobacterium) while enriching metal-tolerant pathogenic species. The resulting loss of butyrate production impairs intestinal barrier integrity, promotes LPS translocation, and triggers systemic inflammation converging on insulin resistance.
+SCFA depletion as a bridge. [[pendergrass-2026-heavy-metals-obesity-epidemic|Pendergrass (2026)]] proposed that chronic dietary heavy metal exposure selectively eliminates beneficial SCFA-producing bacteria (Roseburia, Faecalibacterium, Bifidobacterium) while enriching metal-tolerant pathogenic species. The resulting loss of butyrate production impairs intestinal barrier integrity, promotes LPS translocation, and triggers systemic inflammation converging on insulin resistance.
 
-**Gut barrier disruption.** Heavy metals directly attack tight junction proteins. Cadmium reduces ZO-1, ZO-2, JAM-A, occludin, and claudin-1 expression [[ghosh-2023-heavy-metals-gut-barrier-integrity]]; low Cd doses specifically decrease *Akkermansia muciniphila*, a bacterium inversely associated with metabolic syndrome [[zhu-2024-toxic-essential-metals-gut-microbiota]]. Arsenic disrupts colonic epithelial structure and increases paracellular transport [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The resulting endotoxemia (LPS translocation) feeds a chronic inflammatory state that worsens insulin resistance.
+Gut barrier disruption. Heavy metals directly attack tight junction proteins. Cadmium reduces ZO-1, ZO-2, JAM-A, occludin, and claudin-1 expression [[ghosh-2023-heavy-metals-gut-barrier-integrity]]; low Cd doses specifically decrease *Akkermansia muciniphila*, a bacterium inversely associated with metabolic syndrome [[zhu-2024-toxic-essential-metals-gut-microbiota]]. Arsenic disrupts colonic epithelial structure and increases paracellular transport [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The resulting endotoxemia (LPS translocation) feeds a chronic inflammatory state that worsens insulin resistance.
 
-**Metformin, Akkermansia, and SCFA producers.** Metformin's glucose-lowering action is partially microbiome-mediated: treatment-naive T2D patients on metformin show ~86 significantly altered bacterial strains at 4 months, notably expanded *Akkermansia muciniphila* and enhanced SCFA production; fecal transfer from metformin-treated donors improves glucose tolerance in germ-free mice [[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]]. Baseline microbiome composition predicts metformin response [[elbere-2020-baseline-gut-microbiome-metformin-efficacy-t2d]]. *Faecalibacterium prausnitzii* and other butyrate producers are depleted in T2D [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+Metformin, Akkermansia, and SCFA producers. Metformin's glucose-lowering action is partially microbiome-mediated: treatment-naive T2D patients on metformin show ~86 significantly altered bacterial strains at 4 months, notably expanded *Akkermansia muciniphila* and enhanced SCFA production; fecal transfer from metformin-treated donors improves glucose tolerance in germ-free mice [[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]]. Baseline microbiome composition predicts metformin response [[elbere-2020-baseline-gut-microbiome-metformin-efficacy-t2d]]. *Faecalibacterium prausnitzii* and other butyrate producers are depleted in T2D [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 
-**TMAO and cardiometabolic link.** Gut microbial production of trimethylamine N-oxide (TMAO) from dietary choline and L-carnitine is elevated in T2D and drives atherosclerosis, heart failure, and insulin resistance via FMO3-mediated hepatic oxidation [[zhen-2023-tmao-cardiovascular-diseases-review]].
+TMAO and cardiometabolic link. Gut microbial production of trimethylamine N-oxide (TMAO) from dietary choline and L-carnitine is elevated in T2D and drives atherosclerosis, heart failure, and insulin resistance via FMO3-mediated hepatic oxidation [[zhen-2023-tmao-cardiovascular-diseases-review]].
 
 ## Environmental Metal Exposure Links
 
 The environmental epidemiology of T2D metals is dominated by three exposure pathways:
 
-1. **Agricultural contamination**: Cadmium from phosphate fertilizers enters the food chain through soil accumulation; temporal alignment with the obesity/diabetes epidemic has been documented.
-2. **Occupational exposure**: Industrial Cr, Ni, and As exposures carry elevated T2D risk in worker cohorts.
-3. **Dietary sources**: Nickel exposure through plant-based foods (legumes, nuts, whole grains) is virtually impossible to avoid; arsenic through rice and drinking water in affected regions.
+1. Agricultural contamination: Cadmium from phosphate fertilizers enters the food chain through soil accumulation; temporal alignment with the obesity/diabetes epidemic has been documented.
+2. Occupational exposure: Industrial Cr, Ni, and As exposures carry elevated T2D risk in worker cohorts.
+3. Dietary sources: Nickel exposure through plant-based foods (legumes, nuts, whole grains) is virtually impossible to avoid; arsenic through rice and drinking water in affected regions.
 
 Nickel in urea fertilizers increased from approximately 0.3 to >3.5 mg/kg over the period matching the onset of the metabolic disease epidemic. NHANES data show urinary nickel independently associated with metabolic dysfunction-associated steatotic liver disease, with insulin resistance mediating approximately 73.69% of the association.
 
 ## Dietary Metal Paradoxes
 
-**The iron overload paradox.** Elevated ferritin correlates with insulin resistance and preclinical T2D [[khan-2014-metals-type2-diabetes]]. Iron overload through Fenton chemistry generates reactive oxygen species that damage beta cells and impair insulin signaling; ferroptosis (iron-dependent regulated cell death) has emerged as a mechanism for beta-cell loss in T2D [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. Yet iron deficiency also increases cadmium absorption in the gut (they share the DMT1 transporter), potentially creating a different route to metabolic harm. The therapeutic challenge is maintaining iron homeostasis within a narrow optimal range.
+The iron overload paradox. Elevated ferritin correlates with insulin resistance and preclinical T2D [[khan-2014-metals-type2-diabetes]]. Iron overload through Fenton chemistry generates reactive oxygen species that damage beta cells and impair insulin signaling; ferroptosis (iron-dependent regulated cell death) has emerged as a mechanism for beta-cell loss in T2D [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. Yet iron deficiency also increases cadmium absorption in the gut (they share the DMT1 transporter), potentially creating a different route to metabolic harm. The therapeutic challenge is maintaining iron homeostasis within a narrow optimal range.
 
-**The chromium supplementation paradox.** While Cr(III) deficiency may contribute to glucose intolerance, supplementation trials have produced inconsistent results. The disconnect between mechanistic plausibility and clinical trial evidence suggests that Cr supplementation may only benefit the subset of patients with genuine Cr deficiency rather than T2D patients broadly.
+The chromium supplementation paradox. While Cr(III) deficiency may contribute to glucose intolerance, supplementation trials have produced inconsistent results. The disconnect between mechanistic plausibility and clinical trial evidence suggests that Cr supplementation may only benefit the subset of patients with genuine Cr deficiency rather than T2D patients broadly.
 
 ## Current Interventions with Metal Relevance
 
 | Intervention | Mechanism | Evidence Level |
 |-------------|-----------|----------------|
-| **Zinc supplementation** | Restores ZnT8-mediated insulin storage; addresses urinary Zn losses; supports Cu/Zn-SOD antioxidant defense | Moderate (mechanistic + observational) |
-| **Cr(III) supplementation** | Proposed GLUT4 translocation enhancement; insulin receptor sensitization | Debated; inconsistent RCT results |
-| **Probiotics** | Metal-binding strains (L. plantarum CCFM8610) reduce Cd absorption; restore SCFA production; protect tight junctions | Emerging (animal models + limited human) |
-| **Reducing Cd/As exposure** | Decreasing fertilizer-derived metals; rice arsenic mitigation; water filtration | Epidemiological rationale |
-| **Iron management** | Monitoring ferritin as metabolic risk marker; avoiding excess supplementation in insulin-resistant patients | Clinical guidelines exist for hemochromatosis |
+| Zinc supplementation | Restores ZnT8-mediated insulin storage; addresses urinary Zn losses; supports Cu/Zn-SOD antioxidant defense | Moderate (mechanistic + observational) |
+| Cr(III) supplementation | Proposed GLUT4 translocation enhancement; insulin receptor sensitization | Debated; inconsistent RCT results |
+| Probiotics | Metal-binding strains (L. plantarum CCFM8610) reduce Cd absorption; restore SCFA production; protect tight junctions | Emerging (animal models + limited human) |
+| Reducing Cd/As exposure | Decreasing fertilizer-derived metals; rice arsenic mitigation; water filtration | Epidemiological rationale |
+| Iron management | Monitoring ferritin as metabolic risk marker; avoiding excess supplementation in insulin-resistant patients | Clinical guidelines exist for hemochromatosis |
 
 ## Open Questions
 
-1. **Causal direction**: Does metal dyshomeostasis cause T2D, result from it (via nephropathy-driven excretion changes), or both in a vicious cycle? Prospective cohorts with pre-diagnostic metal measurements are needed.
-2. **Cr essentiality**: Is trivalent chromium truly essential in humans, or are positive supplementation trials capturing a pharmacological rather than nutritional effect?
-3. **Nickel dose-response**: The weak urinary Ni association could reflect either a real but modest effect or residual confounding from correlated dietary exposures. What is the independent contribution?
-4. **Metal-specific probiotic therapy**: Can strain selection optimize for T2D-relevant metal binding (Cd, As) while preserving essential metal absorption (Zn, Cr)?
-5. **Multi-metal interactions**: How do the co-exposures typical in food (Cd+As from rice, Ni+Fe from legumes) interact to affect insulin signaling?
+1. Causal direction: Does metal dyshomeostasis cause T2D, result from it (via nephropathy-driven excretion changes), or both in a vicious cycle? Prospective cohorts with pre-diagnostic metal measurements are needed.
+2. Cr essentiality: Is trivalent chromium truly essential in humans, or are positive supplementation trials capturing a pharmacological rather than nutritional effect?
+3. Nickel dose-response: The weak urinary Ni association could reflect either a real but modest effect or residual confounding from correlated dietary exposures. What is the independent contribution?
+4. Metal-specific probiotic therapy: Can strain selection optimize for T2D-relevant metal binding (Cd, As) while preserving essential metal absorption (Zn, Cr)?
+5. Multi-metal interactions: How do the co-exposures typical in food (Cd+As from rice, Ni+Fe from legumes) interact to affect insulin signaling?
 
 ## Connections
 

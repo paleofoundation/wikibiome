@@ -25,24 +25,24 @@ conditions_depleted_in: [crohns-disease]
 
 ## Overview
 
-**Bacteroides** is the most abundant genus in the Western adult gut and a cornerstone of intestinal polysaccharide metabolism. As members of the [[bacteroidetes]] phylum, Bacteroides species encode enormous repertoires of carbohydrate-active enzymes (CAZymes) organized into **polysaccharide utilization loci (PULs)** that enable degradation of dietary fiber, host mucins, and complex glycans.
+Bacteroides is the most abundant genus in the Western adult gut and a cornerstone of intestinal polysaccharide metabolism. As members of the [[bacteroidetes]] phylum, Bacteroides species encode enormous repertoires of carbohydrate-active enzymes (CAZymes) organized into polysaccharide utilization loci (PULs) that enable degradation of dietary fiber, host mucins, and complex glycans.
 
-Despite their commensal dominance, Bacteroides species exhibit remarkable **functional divergence** -- from the immunomodulatory [[bacteroides-fragilis]] (producing PSA, a Treg-inducing capsular polysaccharide) to the pathogenic strains producing BFT (Bacteroides fragilis toxin, a zinc-dependent metalloprotease). This genus illustrates the principle that genus-level associations obscure critical species-level and strain-level functional differences.
+Despite their commensal dominance, Bacteroides species exhibit remarkable functional divergence -- from the immunomodulatory [[bacteroides-fragilis]] (producing PSA, a Treg-inducing capsular polysaccharide) to the pathogenic strains producing BFT (Bacteroides fragilis toxin, a zinc-dependent metalloprotease). This genus illustrates the principle that genus-level associations obscure critical species-level and strain-level functional differences.
 
 ## Species with WikiBiome Entity Pages
 
 | Species | Key Function | Distinctive Feature |
 |---------|-------------|-------------------|
-| **[[bacteroides-fragilis]]** | Immunomodulation (PSA → Treg); zinc-dependent BFT toxin | Dual commensal/pathobiont nature |
-| **[[bacteroides-thetaiotaomicron]]** | Premier glycan degrader; >260 glycoside hydrolases | Starch utilization system (Sus) |
-| **[[bacteroides-vulgatus]]** | Common gut commensal; immunomodulatory | Enriched in some IBD cohorts |
+| [[bacteroides-fragilis]] | Immunomodulation (PSA → Treg); zinc-dependent BFT toxin | Dual commensal/pathobiont nature |
+| [[bacteroides-thetaiotaomicron]] | Premier glycan degrader; >260 glycoside hydrolases | Starch utilization system (Sus) |
+| [[bacteroides-vulgatus]] | Common gut commensal; immunomodulatory | Enriched in some IBD cohorts |
 
 ## Other Notable Species
 
-- **Bacteroides dorei** -- Produces **TLR4-antagonist LPS** that is immunoinhibitory, potentially preventing immune education. Enriched in early gut microbiomes of children who later develop [[type-1-diabetes]] [[davis-richardson-2015-bacteroides-dorei-t1d-model]].
-- **Bacteroides uniformis** -- Mentioned in [[chronic-kidney-disease]] context; propionate producer.
-- **Bacteroides caccae** -- Associated with prenatal lead exposure effects on childhood gut microbiome.
-- **Bacteroides ovatus** -- Arabinoxylan degradation specialist.
+- Bacteroides dorei -- Produces TLR4-antagonist LPS that is immunoinhibitory, potentially preventing immune education. Enriched in early gut microbiomes of children who later develop [[type-1-diabetes]] [[davis-richardson-2015-bacteroides-dorei-t1d-model]].
+- Bacteroides uniformis -- Mentioned in [[chronic-kidney-disease]] context; propionate producer.
+- Bacteroides caccae -- Associated with prenatal lead exposure effects on childhood gut microbiome.
+- Bacteroides ovatus -- Arabinoxylan degradation specialist.
 
 ## The T1D-Bacteroides Connection
 
@@ -54,7 +54,7 @@ Bacteroides plays a paradoxical role in [[type-1-diabetes]]:
 ## Ecological Roles
 
 ### Polysaccharide Degradation
-Bacteroides are the primary degraders of complex plant polysaccharides and host mucins. *B. thetaiotaomicron* alone has more glycoside hydrolases than the entire human genome. This enzymatic capacity positions Bacteroides as **keystone degraders** that release simpler sugars for cross-feeding to other community members.
+Bacteroides are the primary degraders of complex plant polysaccharides and host mucins. *B. thetaiotaomicron* alone has more glycoside hydrolases than the entire human genome. This enzymatic capacity positions Bacteroides as keystone degraders that release simpler sugars for cross-feeding to other community members.
 
 ### Propionate Production
 Bacteroides are major propionate producers via the succinate pathway. Propionate has hepatic effects on gluconeogenesis and cholesterol synthesis, and anti-inflammatory properties.
@@ -67,7 +67,7 @@ Several Bacteroides species express [[beta-glucuronidase]], contributing to the 
 
 ## Capsular Polysaccharide Switching
 
-Bacteroides species (particularly *B. fragilis*) employ **capsular polysaccharide switching** -- they can express different surface polysaccharides by inverting promoter regions, enabling immune evasion. This is a sophisticated mechanism for maintaining colonization despite host immune responses.
+Bacteroides species (particularly *B. fragilis*) employ capsular polysaccharide switching -- they can express different surface polysaccharides by inverting promoter regions, enabling immune evasion. This is a sophisticated mechanism for maintaining colonization despite host immune responses.
 
 ## Cross-References
 

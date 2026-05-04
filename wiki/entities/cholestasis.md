@@ -4,9 +4,17 @@ type: entity
 subtype: disease
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - shi-2023-ppi-fungal-dysbiosis-gerd
+  - docimo-2020-human-microbiota-endocrinology-thyroid
+  - mendoza-2019-probiotics-breast-cancer-treatment-review
+  - mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca
+  - catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis
+  - brock-2015-selenium-thyroid-autoimmunity
+  - rezen-2022-bile-acids-carcinogenesis-review
+  - half-2019-fecal-microbiome-signatures-pancreatic-cancer
+source_count: 8
 tags:
   - hepatobiliary
   - bile-acid-metabolism
@@ -30,21 +38,19 @@ shared_signature_metals:
     - manganese
     - iron
 shared_signature_taxa: {}
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 5
 ---
 
 ## Overview
 
-**Cholestasis** is the impairment or cessation of bile flow from the liver to the duodenum. It can be intrahepatic (hepatocyte or bile ductule dysfunction) or extrahepatic (mechanical obstruction). Beyond its direct hepatic consequences, cholestasis profoundly disrupts the gut microbiome by removing bile acids — a major ecological regulator — from the intestinal environment.
+Cholestasis is the impairment or cessation of bile flow from the liver to the duodenum. It can be intrahepatic (hepatocyte or bile ductule dysfunction) or extrahepatic (mechanical obstruction). Beyond its direct hepatic consequences, cholestasis profoundly disrupts the gut microbiome by removing bile acids — a major ecological regulator — from the intestinal environment.
 
 ## Microbiome Associations
 
-Bile acids are potent antimicrobial agents that shape gut community composition, particularly suppressing Gram-positive bacteria. When bile flow stops, the gut microbiome undergoes dramatic restructuring: **small intestinal bacterial overgrowth** (SIBO) develops, bile-tolerant taxa decline, and bile-sensitive organisms expand. The loss of bile-mediated FXR signaling in the ileum disrupts the enterohepatic feedback loop that normally regulates [[bile-acid-metabolism]].
+Bile acids are potent antimicrobial agents that shape gut community composition, particularly suppressing Gram-positive bacteria. When bile flow stops, the gut microbiome undergoes dramatic restructuring: small intestinal bacterial overgrowth (SIBO) develops, bile-tolerant taxa decline, and bile-sensitive organisms expand. The loss of bile-mediated FXR signaling in the ileum disrupts the enterohepatic feedback loop that normally regulates [[bile-acid-metabolism]].
 
 ## Metal Associations
 
-Cholestatic liver disease leads to **copper** and **manganese** accumulation in hepatic tissue, as biliary excretion is the primary elimination route for both metals. Retained copper drives oxidative damage through Fenton-like chemistry, while manganese retention may contribute to the hepatic encephalopathy seen in advanced cholestatic disease. **Iron** handling is also disrupted through hepcidin dysregulation.
+Cholestatic liver disease leads to copper and manganese accumulation in hepatic tissue, as biliary excretion is the primary elimination route for both metals. Retained copper drives oxidative damage through Fenton-like chemistry, while manganese retention may contribute to the hepatic encephalopathy seen in advanced cholestatic disease. Iron handling is also disrupted through hepcidin dysregulation.
 
 ## Associated Conditions
 

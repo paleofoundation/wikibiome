@@ -23,7 +23,7 @@ pathogenic_potential: opportunistic
 
 # Acinetobacter
 
-A Gram-negative, aerobic, non-fermenting coccobacillus and a member of the **ESKAPE** group of priority pathogens (Enterococcus, Staphylococcus, Klebsiella, Acinetobacter, Pseudomonas, Enterobacter). *Acinetobacter baumannii* is among the most problematic nosocomial pathogens worldwide, designated **WHO Priority 1: Critical** for antibiotic resistance. Its ability to persist in hospital environments stems from a uniquely sophisticated integration of metal homeostasis, metal resistance, and antibiotic tolerance — systems that are simultaneously vulnerabilities exploitable for new therapeutic strategies.
+A Gram-negative, aerobic, non-fermenting coccobacillus and a member of the ESKAPE group of priority pathogens (Enterococcus, Staphylococcus, Klebsiella, Acinetobacter, Pseudomonas, Enterobacter). *Acinetobacter baumannii* is among the most problematic nosocomial pathogens worldwide, designated WHO Priority 1: Critical for antibiotic resistance. Its ability to persist in hospital environments stems from a uniquely sophisticated integration of metal homeostasis, metal resistance, and antibiotic tolerance — systems that are simultaneously vulnerabilities exploitable for new therapeutic strategies.
 
 ## Classification and Ecology
 
@@ -35,10 +35,10 @@ The genus *Acinetobacter* contains ~50 named species. *A. baumannii* is the prim
 
 *A. baumannii* possesses a two-stage cadmium translocation pathway that is one of the best-characterized Cd efflux systems in Gram-negative bacteria [[alquethamy-2021-acinetobacter-cadmium-resistance]]:
 
-- **CzcE** (CDF family transporter): exports [[cadmium]] from cytoplasm to periplasm. Loss of CzcE renders the bacterium **30-fold more sensitive** to Cd, with **8-fold higher intracellular Cd accumulation**.
-- **CzcCBA** (HME-RND efflux system): exports Cd from periplasm to extracellular space, completing the efflux pathway. Also contributes to [[zinc]] resistance and exports certain antibiotics.
-- **CadR** (MerR-type regulator): a highly attuned Cd sensor that activates *czcE* expression with approximately **480-fold upregulation** upon Cd exposure — one of the most sensitive metal-responsive regulatory systems known.
-- The cadmium resistome involves **at least 67 genes** with significant fitness changes under Cd stress, indicating the breadth of the cellular response extends well beyond the efflux pump itself.
+- CzcE (CDF family transporter): exports [[cadmium]] from cytoplasm to periplasm. Loss of CzcE renders the bacterium 30-fold more sensitive to Cd, with 8-fold higher intracellular Cd accumulation.
+- CzcCBA (HME-RND efflux system): exports Cd from periplasm to extracellular space, completing the efflux pathway. Also contributes to [[zinc]] resistance and exports certain antibiotics.
+- CadR (MerR-type regulator): a highly attuned Cd sensor that activates *czcE* expression with approximately 480-fold upregulation upon Cd exposure — one of the most sensitive metal-responsive regulatory systems known.
+- The cadmium resistome involves at least 67 genes with significant fitness changes under Cd stress, indicating the breadth of the cellular response extends well beyond the efflux pump itself.
 
 ### Cross-Metal Toxicity Cascade
 
@@ -54,12 +54,12 @@ This cross-metal toxicity pattern is a model system for understanding how single
 
 A newly characterized zinc-dependent mechanism connects nutritional immunity to antibiotic susceptibility [[critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter]]:
 
-- **MigC** (A1S_0934) is a COG0523-family zinc-binding GTPase metallochaperone that interacts with and inhibits **MurD**, an essential Mur ligase required for peptidoglycan (cell wall) biosynthesis.
-- **Zn-MigC inhibits MurD** with Ki = 32 ± 6 µM (noncompetitive/allosteric), creating a zinc-dependent regulatory switch on cell wall synthesis.
+- MigC (A1S_0934) is a COG0523-family zinc-binding GTPase metallochaperone that interacts with and inhibits MurD, an essential Mur ligase required for peptidoglycan (cell wall) biosynthesis.
+- Zn-MigC inhibits MurD with Ki = 32 ± 6 µM (noncompetitive/allosteric), creating a zinc-dependent regulatory switch on cell wall synthesis.
 - MigC binds zinc with extremely high affinity (KZn₁ = 7.0 × 10¹⁰ M⁻¹), increasing ~40-fold with GTP bound.
-- When the host deploys **calprotectin** (the primary [[nutritional-immunity]] zinc-chelating protein), Zn sequestration triggers loss of MigC function → elongated bacterial morphology, thinner peptidoglycan, increased HADA incorporation.
-- **delta-migC cells are sensitized to ceftriaxone** (beta-lactam), revealing that zinc starvation through nutritional immunity creates a window of enhanced antibiotic susceptibility.
-- The delta-migC mutant shows **reduced lung and heart colonization** in murine pneumonia models, confirming in vivo relevance.
+- When the host deploys calprotectin (the primary [[nutritional-immunity]] zinc-chelating protein), Zn sequestration triggers loss of MigC function → elongated bacterial morphology, thinner peptidoglycan, increased HADA incorporation.
+- delta-migC cells are sensitized to ceftriaxone (beta-lactam), revealing that zinc starvation through nutritional immunity creates a window of enhanced antibiotic susceptibility.
+- The delta-migC mutant shows reduced lung and heart colonization in murine pneumonia models, confirming in vivo relevance.
 
 This finding establishes a direct mechanistic link between host zinc-sequestration and enhanced antibiotic killing — a potential basis for combination therapy strategies.
 
@@ -73,9 +73,9 @@ The co-occurrence of metal resistance and antibiotic resistance genes on mobile 
 
 ## Siderophore-Based Iron Acquisition and Therapeutic Targeting
 
-*A. baumannii* produces **acinetobactin** and **baumannoferrin** siderophores for iron acquisition under iron-limiting conditions:
+*A. baumannii* produces acinetobactin and baumannoferrin siderophores for iron acquisition under iron-limiting conditions:
 
-- These species-specific siderophore uptake systems are exploitable for **Trojan horse** antibiotic delivery — conjugating antibiotics to siderophore scaffolds allows bacterial self-import of otherwise poorly penetrating antibiotics [[golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter]].
+- These species-specific siderophore uptake systems are exploitable for Trojan horse antibiotic delivery — conjugating antibiotics to siderophore scaffolds allows bacterial self-import of otherwise poorly penetrating antibiotics [[golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter]].
 - Competitive iron deprivation via chelators that outcompete acinetobactin offers a virulence-disarmament strategy distinct from conventional bactericidal approaches, with reduced resistance selection pressure.
 - Disrupting metal homeostasis to disarm virulence rather than kill bacteria is a promising paradigm that *A. baumannii*'s metal biology has helped define [[golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter]].
 
@@ -85,10 +85,10 @@ The co-occurrence of metal resistance and antibiotic resistance genes on mobile 
 The primary clinical burden: ventilator-associated pneumonia (VAP), catheter-associated bloodstream infections (CLABSI), wound infections, and urinary tract infections — predominantly in ICU patients. Carbapenem-resistant *A. baumannii* (CRAB) is a WHO Priority 1 pathogen with limited treatment options.
 
 ### Cardiovascular Associations
-Enriched in the gut microbiome of **acute coronary syndrome** patients post-STEMI compared to healthy controls [[gao-2020-gut-microbial-biomarkers-acs-post-stemi]]. Its presence in the gut — despite being an aerobic organism that prefers environmental over gut niches — suggests translocation or metabolic product-mediated systemic inflammation in cardiovascular disease.
+Enriched in the gut microbiome of acute coronary syndrome patients post-STEMI compared to healthy controls [[gao-2020-gut-microbial-biomarkers-acs-post-stemi]]. Its presence in the gut — despite being an aerobic organism that prefers environmental over gut niches — suggests translocation or metabolic product-mediated systemic inflammation in cardiovascular disease.
 
 ### Infant Gut and Metal Exposure
-Serum metal levels in infants correlate with *Acinetobacter* abundance, suggesting that **early-life metal exposure shapes initial colonization** [[yan-2025-infant-serum-metals-gut-microbiota-china]]. Elevated heavy metal burden in infants may select for metal-resistant *Acinetobacter* strains in the developing gut microbiome.
+Serum metal levels in infants correlate with *Acinetobacter* abundance, suggesting that early-life metal exposure shapes initial colonization [[yan-2025-infant-serum-metals-gut-microbiota-china]]. Elevated heavy metal burden in infants may select for metal-resistant *Acinetobacter* strains in the developing gut microbiome.
 
 ### Neonatal Conditions and ASD
 *Acinetobacter* is enriched in necrotizing enterocolitis (NEC) gut microbiomes and in ASD children with GI symptoms, where it correlates positively with autism severity (CARS score) [[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]].

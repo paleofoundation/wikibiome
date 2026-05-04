@@ -24,10 +24,10 @@ Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a fami
 - Released NF-kB translocates to the nucleus and drives transcription of pro-inflammatory cytokines (IL-6, TNF-alpha, IL-1beta), anti-apoptotic genes (Bcl-2, Bcl-xL), and adhesion molecules.
 
 ### Downstream Effects
-- **Inflammation**: IL-6, TNF-alpha, IL-1beta, COX-2, iNOS.
-- **Cell survival**: anti-apoptotic proteins that protect cells from programmed death.
-- **Immune activation**: MHC molecules, immunoglobulin light chains, cytokine receptors.
-- **Tissue remodeling**: matrix metalloproteinases [[matrix-metalloproteases]].
+- Inflammation: IL-6, TNF-alpha, IL-1beta, COX-2, iNOS.
+- Cell survival: anti-apoptotic proteins that protect cells from programmed death.
+- Immune activation: MHC molecules, immunoglobulin light chains, cytokine receptors.
+- Tissue remodeling: matrix metalloproteinases [[matrix-metalloproteases]].
 
 ## Metal Activation of NF-kB
 
@@ -37,8 +37,8 @@ Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a fami
 - NF-kB activation by nickel is part of its role as a [[metalloestrogens|metalloestrogen]] and inflammatory driver.
 
 ### Arsenic -- The Dose Paradox
-- **Low-dose [[arsenic]] activates NF-kB**, promoting cell survival and proliferation -- this may be key to arsenic's tumor promotion activity [[salnikov-2008-metal-carcinogenesis]].
-- **High-dose arsenic inhibits NF-kB**, inducing apoptosis -- this is exploited therapeutically in acute promyelocytic leukemia (APL) treatment with arsenic trioxide.
+- Low-dose [[arsenic]] activates NF-kB, promoting cell survival and proliferation -- this may be key to arsenic's tumor promotion activity [[salnikov-2008-metal-carcinogenesis]].
+- High-dose arsenic inhibits NF-kB, inducing apoptosis -- this is exploited therapeutically in acute promyelocytic leukemia (APL) treatment with arsenic trioxide.
 - This biphasic response means arsenic can be both a carcinogen (low dose, chronic) and a cancer treatment (high dose, acute).
 
 ### Cadmium

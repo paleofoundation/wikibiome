@@ -3,15 +3,21 @@ title: Nickel Neurotoxicity
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-sources: [lamtai-2018-nickel-neurobehavior.md, dobrzynska-2025-nickel-children-food.md]
-source_count: 2
+sources:
+  - lamtai-2018-nickel-neurobehavior
+  - finkelstein-2022-lead-parkinsons-microbiome-mendelian-randomization
+  - chen-2024-indoles-microbiome-parkinsons
+  - klotz-2017-aluminum-health-effects-review
+  - lamtai-2018-chronic-nickel-affective-cognitive-behavior-rats
+  - zhang-2021-lead-exposure-gut-microbiome-neurodegeneration
+  - racette-2017-manganese-parkinsonism-welders
+  - zhou-2025-hair-heavy-metals-asd-severity
+source_count: 8
 tags: [nickel, neurotoxicity, oxidative-stress, anxiety, depression, memory]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 2 sources, minimum 3 required"
 karen_brain_primitives: []
 seo_target: "nickel neurotoxicity microbiome"
-last_substantive_update: 2026-04-09
+last_substantive_update: 2026-04-22
 ---
 
 # Nickel Neurotoxicity
@@ -23,7 +29,7 @@ Chronic [[nickel]] exposure can damage the central nervous system, causing behav
 Lamtai et al. (2018) chronically administered NiCl₂ to Wistar rats (0.25, 0.5, 1 mg/kg IP daily for 8 weeks) — notably low doses designed to mimic environmental trace exposure [[lamtai-2018-nickel-neurobehavior]]:
 
 ### Anxiety
-- **Dose-dependent increase** in anxiety-like behavior at all doses in both sexes.
+- Dose-dependent increase in anxiety-like behavior at all doses in both sexes.
 - Measured by: decreased time in center area (OFT), decreased time in open arms (EPM).
 - No effect on locomotor activity — ruling out general sedation.
 
@@ -32,21 +38,21 @@ Lamtai et al. (2018) chronically administered NiCl₂ to Wistar rats (0.25, 0.5,
 - Males: significant at 1 mg/kg. Females: significant at 0.5 and 1 mg/kg.
 
 ### Memory Impairment
-- **Spatial learning impaired only in males at 1 mg/kg** (Morris Water Maze).
+- Spatial learning impaired only in males at 1 mg/kg (Morris Water Maze).
 - Females showed no significant memory deficits at any dose — a notable sex difference.
 
 ### Hippocampal Oxidative Stress
 All dose-dependent:
-- **Increased**: lipid peroxidation (TBARS up to 153% in males), nitric oxide (NO up to 133%)
-- **Decreased**: SOD activity (down up to 37%), catalase activity (down up to 67%)
+- Increased: lipid peroxidation (TBARS up to 153% in males), nitric oxide (NO up to 133%)
+- Decreased: SOD activity (down up to 37%), catalase activity (down up to 67%)
 
 ## Mechanisms
 
-1. **Oxidative stress**: nickel binds sulfhydryl groups on antioxidant enzymes (SOD, CAT), directly inactivating them. This leads to ROS accumulation → lipid peroxidation → membrane damage → neuronal death.
-2. **Nitric oxide toxicity**: nickel stimulates NO synthase → NO + superoxide → peroxynitrite (ONOO⁻) → potent oxidant damaging proteins, nucleic acids, lipids.
-3. **Neurotransmitter disruption**: nickel decreases dopamine, norepinephrine, serotonin levels in brain; interferes with acetylcholine release; alters GABA uptake.
-4. **NMDA receptor modulation**: Ni²⁺ is a known subunit-dependent blocker of NMDA receptors, with complex effects on different NR2 subunits (blocks NR2A-containing, potentiates NR2B-containing).
-5. **BBB penetration**: nickel enters brain through BBB failures and via olfactory pathway, accumulating in cerebral cortex and hippocampus.
+1. Oxidative stress: nickel binds sulfhydryl groups on antioxidant enzymes (SOD, CAT), directly inactivating them. This leads to ROS accumulation → lipid peroxidation → membrane damage → neuronal death.
+2. Nitric oxide toxicity: nickel stimulates NO synthase → NO + superoxide → peroxynitrite (ONOO⁻) → potent oxidant damaging proteins, nucleic acids, lipids.
+3. Neurotransmitter disruption: nickel decreases dopamine, norepinephrine, serotonin levels in brain; interferes with acetylcholine release; alters GABA uptake.
+4. NMDA receptor modulation: Ni²⁺ is a known subunit-dependent blocker of NMDA receptors, with complex effects on different NR2 subunits (blocks NR2A-containing, potentiates NR2B-containing).
+5. BBB penetration: nickel enters brain through BBB failures and via olfactory pathway, accumulating in cerebral cortex and hippocampus.
 
 ## Sex Differences
 

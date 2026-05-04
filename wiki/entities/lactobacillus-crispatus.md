@@ -22,31 +22,31 @@ conditions_depleted_in: [endometriosis, ovarian-cancer, pcos, bacterial-vaginosi
 
 # Lactobacillus crispatus
 
-A Gram-positive, facultatively anaerobic bacterium that is the **dominant species in the healthy human vaginal microbiome** and a defining member of Community State Type I (CST-I). *L. crispatus* dominance is associated with reproductive health, pathogen resistance, and reduced risk of sexually transmitted infections. Its depletion marks a transition toward dysbiotic states linked to gynecological disease.
+A Gram-positive, facultatively anaerobic bacterium that is the dominant species in the healthy human vaginal microbiome and a defining member of Community State Type I (CST-I). *L. crispatus* dominance is associated with reproductive health, pathogen resistance, and reduced risk of sexually transmitted infections. Its depletion marks a transition toward dysbiotic states linked to gynecological disease.
 
 ## Vaginal Ecosystem Dominance
 
-- *L. crispatus* maintains vaginal pH at 3.5-4.5 through vigorous production of **D- and L-lactic acid**, creating an environment hostile to most pathogenic bacteria and fungi.
-- Produces **hydrogen peroxide (H2O2)**, which directly kills or inhibits anaerobic pathogens including [[gardnerella|gardnerella-vaginalis]] and [[prevotella]] species.
+- *L. crispatus* maintains vaginal pH at 3.5-4.5 through vigorous production of D- and L-lactic acid, creating an environment hostile to most pathogenic bacteria and fungi.
+- Produces hydrogen peroxide (H2O2), which directly kills or inhibits anaerobic pathogens including [[gardnerella|gardnerella-vaginalis]] and [[prevotella]] species.
 - Adheres to vaginal epithelial cells via surface-layer proteins, competitively excluding pathogens from mucosal binding sites.
-- CST-I (L. crispatus-dominant) communities show the **lowest inflammatory cytokine profiles** among all vaginal community state types, indicating active immune modulation rather than merely passive acidification.
+- CST-I (L. crispatus-dominant) communities show the lowest inflammatory cytokine profiles among all vaginal community state types, indicating active immune modulation rather than merely passive acidification.
 
 ## Metal Dependencies and Iron Ecology
 
-- *L. crispatus* has a **low iron requirement** compared to many pathogens, giving it a competitive advantage in iron-restricted environments.
+- *L. crispatus* has a low iron requirement compared to many pathogens, giving it a competitive advantage in iron-restricted environments.
 - [[lactoferrin]] -- the iron-binding glycoprotein abundant in cervicovaginal fluid -- supports *L. crispatus* dominance by sequestering iron from iron-dependent pathogens while having minimal impact on *Lactobacillus* growth [[roberts-2019-lactoferrin-genital-infections-iron]].
 - This iron ecology represents a natural [[nutritional-immunity]] mechanism: the host starves pathogens of iron while maintaining conditions favorable to *L. crispatus*.
-- **Manganese** is an important cofactor for *L. crispatus* superoxide dismutase and other enzymes, providing oxidative stress protection without relying on iron-dependent systems.
+- Manganese is an important cofactor for *L. crispatus* superoxide dismutase and other enzymes, providing oxidative stress protection without relying on iron-dependent systems.
 
 ## Depletion in Gynecological Disease
 
 The loss of *L. crispatus* dominance is a recurring finding across reproductive and gynecological conditions:
 
-- **Endometriosis**: Vaginal microbiome profiles of endometriosis patients show reduced *L. crispatus* abundance and a shift toward mixed anaerobic communities. This shift correlates with increased inflammatory signaling and may contribute to disease progression [[perrotta-2020-vaginal-microbiome-predict-rASRM-endometriosis]].
-- **Ovarian cancer**: *L. crispatus* is depleted in the reproductive tract microbiome of ovarian cancer patients, with potential diagnostic and prognostic significance [[asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic]].
-- **PCOS**: Women with polycystic ovary syndrome and obesity show reduced vaginal *Lactobacillus* dominance, with phage-mediated lysis of *L. crispatus* proposed as a contributing mechanism [[zheng-2024-pcos-obesity-vaginal-microbiome-phages]].
-- **Tubal infertility**: Chlamydia-associated tubal factor infertility correlates with loss of *L. crispatus* dominance and expansion of anaerobic pathobionts [[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]].
-- **Adenomyosis**: Genital tract microbiota in adenomyosis patients shows reduced *Lactobacillus* dominance alongside altered intestinal microbiota, suggesting a genital-intestinal dysbiosis axis [[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]].
+- Endometriosis: Vaginal microbiome profiles of endometriosis patients show reduced *L. crispatus* abundance and a shift toward mixed anaerobic communities. This shift correlates with increased inflammatory signaling and may contribute to disease progression [[perrotta-2020-vaginal-microbiome-predict-rASRM-endometriosis]].
+- Ovarian cancer: *L. crispatus* is depleted in the reproductive tract microbiome of ovarian cancer patients, with potential diagnostic and prognostic significance [[asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic]].
+- PCOS: Women with polycystic ovary syndrome and obesity show reduced vaginal *Lactobacillus* dominance, with phage-mediated lysis of *L. crispatus* proposed as a contributing mechanism [[zheng-2024-pcos-obesity-vaginal-microbiome-phages]].
+- Tubal infertility: Chlamydia-associated tubal factor infertility correlates with loss of *L. crispatus* dominance and expansion of anaerobic pathobionts [[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]].
+- Adenomyosis: Genital tract microbiota in adenomyosis patients shows reduced *Lactobacillus* dominance alongside altered intestinal microbiota, suggesting a genital-intestinal dysbiosis axis [[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]].
 
 ## Relationship to the Estrobolome
 

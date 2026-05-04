@@ -14,17 +14,17 @@ platform: wikibiome
 
 # Mitochondrial Dysfunction
 
-**Mitochondrial dysfunction** refers to the impairment of mitochondrial energy production, redox balance, and signaling functions. Mitochondria are the primary targets of heavy metal toxicity in human cells, and they are also the organelles most dependent on metal cofactors for function -- creating a paradox where both metal excess and metal deficiency can collapse mitochondrial performance. The emerging connection between the gut microbiome and mitochondrial health adds another layer: microbial metabolites like [[butyrate]] and [[short-chain-fatty-acids]] directly support mitochondrial function, while microbial-derived toxins ([[tmao|uremic-toxins]], LPS) impair it.
+Mitochondrial dysfunction refers to the impairment of mitochondrial energy production, redox balance, and signaling functions. Mitochondria are the primary targets of heavy metal toxicity in human cells, and they are also the organelles most dependent on metal cofactors for function -- creating a paradox where both metal excess and metal deficiency can collapse mitochondrial performance. The emerging connection between the gut microbiome and mitochondrial health adds another layer: microbial metabolites like [[butyrate]] and [[short-chain-fatty-acids]] directly support mitochondrial function, while microbial-derived toxins ([[tmao|uremic-toxins]], LPS) impair it.
 
 ## Why Mitochondria Are Metal Vulnerable
 
 Mitochondria concentrate metals by design. The electron transport chain (ETC) contains approximately 12 iron-sulfur clusters, multiple heme groups, and copper centers. This makes mitochondria simultaneously dependent on metals for function and vulnerable to metal-induced damage:
 
-- **Iron-sulfur clusters**: Complexes I, II, and III contain multiple Fe-S clusters essential for electron transfer. [[iron|Iron]] overload generates superoxide at these sites via Fenton chemistry; iron deficiency impairs ETC assembly.
-- **Heme iron**: Cytochrome c and cytochromes in Complexes III and IV require heme. Heme synthesis itself occurs partly in mitochondria.
-- **Copper**: Complex IV (cytochrome c oxidase) requires two copper centers (CuA and CuB) for the terminal reduction of oxygen to water. [[copper|Copper]] deficiency directly impairs oxidative phosphorylation.
-- **Manganese**: Mn-SOD (SOD2) is the primary mitochondrial antioxidant enzyme, converting superoxide to hydrogen peroxide within the matrix.
-- **Calcium**: Mitochondrial calcium uptake regulates ETC activity and ATP production, but calcium overload triggers the mitochondrial permeability transition pore (mPTP), leading to apoptosis.
+- Iron-sulfur clusters: Complexes I, II, and III contain multiple Fe-S clusters essential for electron transfer. [[iron|Iron]] overload generates superoxide at these sites via Fenton chemistry; iron deficiency impairs ETC assembly.
+- Heme iron: Cytochrome c and cytochromes in Complexes III and IV require heme. Heme synthesis itself occurs partly in mitochondria.
+- Copper: Complex IV (cytochrome c oxidase) requires two copper centers (CuA and CuB) for the terminal reduction of oxygen to water. [[copper|Copper]] deficiency directly impairs oxidative phosphorylation.
+- Manganese: Mn-SOD (SOD2) is the primary mitochondrial antioxidant enzyme, converting superoxide to hydrogen peroxide within the matrix.
+- Calcium: Mitochondrial calcium uptake regulates ETC activity and ATP production, but calcium overload triggers the mitochondrial permeability transition pore (mPTP), leading to apoptosis.
 
 ## Metal-Specific Mitochondrial Damage
 
@@ -51,10 +51,10 @@ When mitochondrial iron accumulation overwhelms antioxidant defenses -- particul
 
 The gut microbiome influences mitochondrial function through several routes:
 
-- **Butyrate as mitochondrial fuel**: [[butyrate|Butyrate]], the primary energy source for colonocytes, is metabolized through mitochondrial beta-oxidation. Butyrate depletion (from loss of SCFA-producing commensals) starves colonocyte mitochondria, compromising barrier integrity and creating a vicious cycle with [[intestinal-permeability]].
-- **Uremic toxins**: Indoxyl sulfate and p-cresyl sulfate (see [[tmao|uremic-toxins]]) directly impair mitochondrial function in renal tubular cells, contributing to CKD progression [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
-- **LPS-induced mitochondrial damage**: Bacterial lipopolysaccharide activates TLR4 signaling, which suppresses mitochondrial biogenesis and increases mitochondrial ROS production.
-- **Microbial [[autophagy]] regulation**: Gut microbiome composition influences mitophagy (selective autophagy of damaged mitochondria), affecting mitochondrial quality control.
+- Butyrate as mitochondrial fuel: [[butyrate|Butyrate]], the primary energy source for colonocytes, is metabolized through mitochondrial beta-oxidation. Butyrate depletion (from loss of SCFA-producing commensals) starves colonocyte mitochondria, compromising barrier integrity and creating a vicious cycle with [[intestinal-permeability]].
+- Uremic toxins: Indoxyl sulfate and p-cresyl sulfate (see [[tmao|uremic-toxins]]) directly impair mitochondrial function in renal tubular cells, contributing to CKD progression [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
+- LPS-induced mitochondrial damage: Bacterial lipopolysaccharide activates TLR4 signaling, which suppresses mitochondrial biogenesis and increases mitochondrial ROS production.
+- Microbial [[autophagy]] regulation: Gut microbiome composition influences mitophagy (selective autophagy of damaged mitochondria), affecting mitochondrial quality control.
 
 ## Disease Relevance
 

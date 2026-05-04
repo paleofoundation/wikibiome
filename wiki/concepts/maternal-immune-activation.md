@@ -16,25 +16,25 @@ platform: wikibiome
 
 ## Overview
 
-**Maternal immune activation (MIA)** describes the phenomenon in which infection or inflammatory stimulation during pregnancy produces persistent neurological and microbiome alterations in offspring, increasing risk for [[autism-spectrum-disorder]], [[schizophrenia]], and other neurodevelopmental conditions. The mechanism does not require the pathogen itself to reach the fetus — maternal cytokines (particularly IL-6 and IL-17a) cross the placenta and disrupt fetal brain development, microglial programming, and intestinal colonization patterns.
+Maternal immune activation (MIA) describes the phenomenon in which infection or inflammatory stimulation during pregnancy produces persistent neurological and microbiome alterations in offspring, increasing risk for [[autism-spectrum-disorder]], [[schizophrenia]], and other neurodevelopmental conditions. The mechanism does not require the pathogen itself to reach the fetus — maternal cytokines (particularly IL-6 and IL-17a) cross the placenta and disrupt fetal brain development, microglial programming, and intestinal colonization patterns.
 
 ## Mechanism
 
 MIA operates through a cascade of interlinked disruptions:
 
-1. **Prenatal infection or inflammation** — TORCH pathogens (Toxoplasma, Rubella, CMV, HSV), influenza, or other infections trigger maternal cytokine release [[alibek-2022-torch-infections-dysbiotic-microbiome-asd]]
-2. **Cytokine storm reaches fetus** — IL-6 crosses the placenta and activates JAK-STAT3 signaling in fetal brain, disrupting cortical lamination and synaptogenesis
-3. **Microglial priming** — Fetal microglia adopt a persistently activated phenotype that continues into postnatal life, driving chronic neuroinflammation
-4. **Microbiome alteration** — MIA produces lasting changes in offspring gut microbiota composition, with Firmicutes elevation and Bacteroidetes depletion persisting into adulthood [[rogers-2016-gut-dysbiosis-altered-brain-function-mental-illness]]
-5. **Gut barrier dysfunction** — MIA offspring show increased intestinal permeability, enabling microbial metabolite translocation to the brain via the [[gut-brain-axis]]
+1. Prenatal infection or inflammation — TORCH pathogens (Toxoplasma, Rubella, CMV, HSV), influenza, or other infections trigger maternal cytokine release [[alibek-2022-torch-infections-dysbiotic-microbiome-asd]]
+2. Cytokine storm reaches fetus — IL-6 crosses the placenta and activates JAK-STAT3 signaling in fetal brain, disrupting cortical lamination and synaptogenesis
+3. Microglial priming — Fetal microglia adopt a persistently activated phenotype that continues into postnatal life, driving chronic neuroinflammation
+4. Microbiome alteration — MIA produces lasting changes in offspring gut microbiota composition, with Firmicutes elevation and Bacteroidetes depletion persisting into adulthood [[rogers-2016-gut-dysbiosis-altered-brain-function-mental-illness]]
+5. Gut barrier dysfunction — MIA offspring show increased intestinal permeability, enabling microbial metabolite translocation to the brain via the [[gut-brain-axis]]
 
 ## Metal Amplification
 
 Heavy metals amplify MIA through multiple converging mechanisms:
 
-- **Lead and mercury** cross the placenta readily and accumulate in fetal brain tissue, priming microglia independently of infection. When MIA and metal exposure co-occur, the neuroinflammatory effect is synergistic rather than additive.
-- **Cadmium** disrupts placental function, reducing nutrient transfer and increasing oxidative stress — creating a vulnerable fetal environment where even mild maternal infection produces outsized neurological effects.
-- **Mis-metallation** (Karen's Brain Primitive 3): Toxic metals entering fetal cells through calcium and zinc channels displace correct cofactors from developing metalloenzymes, compounding the neurodevelopmental disruption caused by MIA [[ogrady-2025-metal-dyshomeostasis-asd]].
+- Lead and mercury cross the placenta readily and accumulate in fetal brain tissue, priming microglia independently of infection. When MIA and metal exposure co-occur, the neuroinflammatory effect is synergistic rather than additive.
+- Cadmium disrupts placental function, reducing nutrient transfer and increasing oxidative stress — creating a vulnerable fetal environment where even mild maternal infection produces outsized neurological effects.
+- Mis-metallation (Karen's Brain Primitive 3): Toxic metals entering fetal cells through calcium and zinc channels displace correct cofactors from developing metalloenzymes, compounding the neurodevelopmental disruption caused by MIA [[ogrady-2025-metal-dyshomeostasis-asd]].
 
 Multiple rodent models of ASD (Shank3, Cntnap2, Fmr1 knockouts; VPA-exposed mice; MIA models) all exhibit GI abnormalities including increased gut permeability, inflammation, and microbiota shifts — suggesting the gut-brain disruption is a convergent feature regardless of the initiating insult [[ogrady-2025-metal-dyshomeostasis-asd]].
 

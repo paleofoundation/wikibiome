@@ -5,17 +5,21 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
-source_count: 0
+sources:
+  - duarte-silva-2022-microbial-metabolites-ms
+  - ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice
+  - zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization
+  - bucciero-2026-diet-ms-oxidative-stress-nrf2
+  - thirion-2023-gut-microbiota-ms-disease-activity
+  - urolithins-parkinsons-biomarkers-gut-dysbiosis
+source_count: 6
 tags: [polyphenol-metabolizer, urolithin-producer, short-chain-fatty-acid, anti-inflammatory, ellagic-acid, cardiovascular-protective]
 gram_stain: "positive"
 oxygen_requirement: "anaerobic"
 metal_dependencies: [iron]
 key_enzymes: [urolithin-synthesis-pathway, lactonase]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Gordonibacter urolithinfaciens urolithin A polyphenol metabolism"
 wikipedia_differentiation: "Iron-dependent ellagic acid to urolithin A conversion pathway linking dietary polyphenol bioactivation to cardiovascular protection"
 conditions_enriched_in: []
@@ -25,54 +29,54 @@ pathogenic_potential: commensal
 
 # Gordonibacter urolithinfaciens
 
-**Gordonibacter urolithinfaciens** is a Gram-positive, obligate anaerobic bacterium belonging to the family Eggerthellaceae that plays a specialized and critical role in **polyphenol metabolism and conversion of ellagic acid to urolithin A**. This microbial conversion is one of the most important metabolic steps in translating dietary polyphenols from berries, pomegranates, and walnuts into bioavailable anti-inflammatory metabolites that protect against [[cardiovascular-disease]] and age-related degeneration.
+Gordonibacter urolithinfaciens is a Gram-positive, obligate anaerobic bacterium belonging to the family Eggerthellaceae that plays a specialized and critical role in polyphenol metabolism and conversion of ellagic acid to urolithin A. This microbial conversion is one of the most important metabolic steps in translating dietary polyphenols from berries, pomegranates, and walnuts into bioavailable anti-inflammatory metabolites that protect against [[cardiovascular-disease]] and age-related degeneration.
 
 ## Taxonomy
 
-- **Phylum**: Actinobacteria
-- **Family**: Eggerthellaceae
-- **Genus**: Gordonibacter
-- **Species**: *G. urolithinfaciens*
-- **Key characteristic**: Obligate anaerobe; bile-tolerant; capable of novel enzymatic transformations on plant metabolites
+- Phylum: Actinobacteria
+- Family: Eggerthellaceae
+- Genus: Gordonibacter
+- Species: *G. urolithinfaciens*
+- Key characteristic: Obligate anaerobe; bile-tolerant; capable of novel enzymatic transformations on plant metabolites
 
 ## The Urolithin Pathway
 
 ### Ellagic Acid → Urolithin A Conversion
 
-*G. urolithinfaciens* catalyzes a multi-step enzymatic transformation of **ellagic acid** (found in high concentrations in pomegranate fruit, berries, and walnuts) into **urolithin A**, a potent polyphenol metabolite with demonstrated anti-inflammatory and mitochondrial-protective properties.
+*G. urolithinfaciens* catalyzes a multi-step enzymatic transformation of ellagic acid (found in high concentrations in pomegranate fruit, berries, and walnuts) into urolithin A, a potent polyphenol metabolite with demonstrated anti-inflammatory and mitochondrial-protective properties.
 
-- **Substrate**: Ellagic acid and related ellagitannins from dietary sources
-- **Enzymes**: Lactonase and successive lactonase/decarboxylase enzymes unique to Gordonibacter species
-- **Product**: Urolithin A (and other urolithin isomers A, B, C depending on secondary metabolism)
-- **Bioavailability**: Urolithin A is absorbed in the colon and circulates systemically, crossing the blood-brain barrier
+- Substrate: Ellagic acid and related ellagitannins from dietary sources
+- Enzymes: Lactonase and successive lactonase/decarboxylase enzymes unique to Gordonibacter species
+- Product: Urolithin A (and other urolithin isomers A, B, C depending on secondary metabolism)
+- Bioavailability: Urolithin A is absorbed in the colon and circulates systemically, crossing the blood-brain barrier
 
 ### Why This Matters for Health
 
-Humans cannot directly metabolize ellagic acid; all urolithin production depends on bacterial conversion. **G. urolithinfaciens abundance directly predicts serum and urinary urolithin A levels** in dietary intervention studies. Individuals lacking this species or with reduced urolithinfaciens abundance cannot access the neuroprotective and cardioprotective effects of pomegranate and berry polyphenols, regardless of dietary intake.
+Humans cannot directly metabolize ellagic acid; all urolithin production depends on bacterial conversion. G. urolithinfaciens abundance directly predicts serum and urinary urolithin A levels in dietary intervention studies. Individuals lacking this species or with reduced urolithinfaciens abundance cannot access the neuroprotective and cardioprotective effects of pomegranate and berry polyphenols, regardless of dietary intake.
 
 ## Metal Dependencies
 
-- **Iron**: *G. urolithinfaciens* uses iron-dependent oxidoreductases in the urolithin synthesis pathway. Iron restriction may impair conversion efficiency.
+- Iron: *G. urolithinfaciens* uses iron-dependent oxidoreductases in the urolithin synthesis pathway. Iron restriction may impair conversion efficiency.
 - Prefers microaerophilic-adjacent conditions typical of the mid-colon where oxygen is limiting.
 
 ## Key Enzymes and Metabolic Functions
 
-1. **Lactonases** – break down the lactone ring in ellagic acid
-2. **Oxidoreductases** (iron-dependent) – catalyze successive oxidation/decarboxylation steps
-3. **Decarboxylases** – remove CO2 groups during urolithin isomerization
-4. **Short-chain fatty acid synthases** – produces butyrate as a byproduct
+1. Lactonases – break down the lactone ring in ellagic acid
+2. Oxidoreductases (iron-dependent) – catalyze successive oxidation/decarboxylation steps
+3. Decarboxylases – remove CO2 groups during urolithin isomerization
+4. Short-chain fatty acid synthases – produces butyrate as a byproduct
 
 ## Disease Associations and Protective Roles
 
 ### Cardiovascular Disease
 [[gordonibacter-urolithinfaciens]] protection against [[cardiovascular-disease]] is mediated by urolithin A's effects on:
-- **Endothelial function**: Urolithin A restores endothelial nitric oxide synthase (eNOS) activity and improves vasodilation
-- **Vascular inflammation**: Suppresses NF-κB signaling and reduces pro-inflammatory cytokine production
-- **Arterial stiffness**: Improves arterial elasticity and reduces pulse wave velocity in aging cohorts
-- **Oxidative stress**: Potent mitochondrial antioxidant; restores complex I and III function
+- Endothelial function: Urolithin A restores endothelial nitric oxide synthase (eNOS) activity and improves vasodilation
+- Vascular inflammation: Suppresses NF-κB signaling and reduces pro-inflammatory cytokine production
+- Arterial stiffness: Improves arterial elasticity and reduces pulse wave velocity in aging cohorts
+- Oxidative stress: Potent mitochondrial antioxidant; restores complex I and III function
 
 ### Healthy Aging and Longevity
-- Urolithin A activates **mitophagy** (selective mitochondrial autophagy), clearing dysfunctional mitochondria
+- Urolithin A activates mitophagy (selective mitochondrial autophagy), clearing dysfunctional mitochondria
 - Restores NAD+ metabolism and sirtuins in aged tissues
 - Associated with improved muscle strength and cognitive function in older adults
 
@@ -84,10 +88,10 @@ Humans cannot directly metabolize ellagic acid; all urolithin production depends
 ## Ecological Context
 
 - Typically abundant (0.1–1% of fecal microbiota) in individuals with high polyphenol intake
-- **Depleted in Western diets** low in fruits, nuts, and plant metabolites
+- Depleted in Western diets low in fruits, nuts, and plant metabolites
 - Thrives in glycan-rich, polyphenol-rich colonic environments
 - Competes successfully with other Actinobacteria in the presence of ellagitannins
-- Part of a **coordinated metabolic network** including other urolithin-producing Eggerthellaceae members
+- Part of a coordinated metabolic network including other urolithin-producing Eggerthellaceae members
 
 ## Biofilm and Spatial Organization
 
@@ -97,10 +101,10 @@ Humans cannot directly metabolize ellagic acid; all urolithin production depends
 
 ## Detection and Quantification
 
-- **16S rRNA gene**: Taxonomic abundance measured by high-throughput sequencing (genus Gordonibacter, species *urolithinfaciens* via species-specific qPCR)
-- **Functional marker**: *lactonase* gene copies; presence correlates with urolithin A production
-- **Phenotype**: Serum and urinary urolithin A levels (LC-MS/MS) as indirect measure of bacterial activity
-- **Typical abundance**: 0.01–1% of fecal microbiota (highly variable; >0.1% in polyphenol consumers)
+- 16S rRNA gene: Taxonomic abundance measured by high-throughput sequencing (genus Gordonibacter, species *urolithinfaciens* via species-specific qPCR)
+- Functional marker: *lactonase* gene copies; presence correlates with urolithin A production
+- Phenotype: Serum and urinary urolithin A levels (LC-MS/MS) as indirect measure of bacterial activity
+- Typical abundance: 0.01–1% of fecal microbiota (highly variable; >0.1% in polyphenol consumers)
 
 ## Connections
 

@@ -24,7 +24,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Veillonellaceae
 
-A family of Gram-negative, obligate anaerobic bacteria within the Firmicutes phylum (class Negativicutes) that occupies a **unique metabolic niche as specialized lactate utilizers**. Veillonellaceae cannot ferment sugars directly -- instead, they cross-feed on lactate produced by other bacteria, particularly [[streptococcus]] and [[lactobacillus]]. This metabolic dependency creates ecological partnerships that link oral health, gut metabolism, and neuropsychiatric outcomes. Mendelian randomization has identified Veillonellaceae as **causally protective against schizophrenia**, while depletion of the family appears in thyroid autoimmunity.
+A family of Gram-negative, obligate anaerobic bacteria within the Firmicutes phylum (class Negativicutes) that occupies a unique metabolic niche as specialized lactate utilizers. Veillonellaceae cannot ferment sugars directly -- instead, they cross-feed on lactate produced by other bacteria, particularly [[streptococcus]] and [[lactobacillus]]. This metabolic dependency creates ecological partnerships that link oral health, gut metabolism, and neuropsychiatric outcomes. Mendelian randomization has identified Veillonellaceae as causally protective against schizophrenia, while depletion of the family appears in thyroid autoimmunity.
 
 ## Taxonomy
 
@@ -34,34 +34,34 @@ A family of Gram-negative, obligate anaerobic bacteria within the Firmicutes phy
 
 ## Metal Dependencies
 
-**Iron**:
+Iron:
 - Iron-sulfur cluster proteins support the electron transport chain in Veillonellaceae's anaerobic lactate metabolism.
 - Methylmalonyl-CoA decarboxylase, a key enzyme in propionate production from lactate, requires iron as part of its electron-carrying cofactors.
 - The relatively modest iron requirements of Veillonellaceae compared to siderophore-producing pathogens may explain their competitive disadvantage in iron-replete inflammatory environments.
 
 ## Key Enzymes and Metabolic Features
 
-- **Lactate dehydrogenase**: Converts lactate (produced by Streptococcus, Lactobacillus) into pyruvate, initiating the cross-feeding metabolism that defines the family.
-- **Methylmalonyl-CoA decarboxylase**: A sodium-pumping decarboxylase that converts methylmalonyl-CoA to propionyl-CoA, generating a sodium gradient that drives ATP synthesis -- an energy-conserving strategy unique to this metabolic niche.
-- **Propionate kinase**: Terminal enzyme in propionate production; Veillonellaceae are significant propionate producers in both the oral cavity and gut.
+- Lactate dehydrogenase: Converts lactate (produced by Streptococcus, Lactobacillus) into pyruvate, initiating the cross-feeding metabolism that defines the family.
+- Methylmalonyl-CoA decarboxylase: A sodium-pumping decarboxylase that converts methylmalonyl-CoA to propionyl-CoA, generating a sodium gradient that drives ATP synthesis -- an energy-conserving strategy unique to this metabolic niche.
+- Propionate kinase: Terminal enzyme in propionate production; Veillonellaceae are significant propionate producers in both the oral cavity and gut.
 
 ## Ecological Role
 
 ### In the Healthy Gut and Oral Cavity
-Veillonellaceae occupy a **secondary fermenter** niche: they consume lactate that would otherwise accumulate and acidify the environment. This cross-feeding relationship with lactate producers:
+Veillonellaceae occupy a secondary fermenter niche: they consume lactate that would otherwise accumulate and acidify the environment. This cross-feeding relationship with lactate producers:
 - Prevents local acidification that could disrupt microbial community structure
 - Converts lactate into propionate and acetate -- short-chain fatty acids with anti-inflammatory and immunomodulatory properties
 - Creates metabolic partnerships where lactate producers (Streptococcus) and lactate consumers (Veillonella, Dialister) form stable ecological units
 
 ### In Dysbiosis
 Depletion of Veillonellaceae disrupts the lactate-propionate conversion pathway, potentially leading to lactate accumulation and loss of propionate-mediated immunomodulation. This depletion pattern appears in:
-- **Schizophrenia** -- patients with violent behaviors show reduced Veillonellaceae
-- **Hashimoto's thyroiditis** -- Veillonellaceae decreased alongside Prevotellaceae
+- Schizophrenia -- patients with violent behaviors show reduced Veillonellaceae
+- Hashimoto's thyroiditis -- Veillonellaceae decreased alongside Prevotellaceae
 
 ## Conditions Associated
 
 ### Schizophrenia (Protective)
-Veillonellaceae is **causally protective** against schizophrenia (OR = 0.93, p = 0.033), specifically in patients with violent behaviors [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]]. The protective effect may operate through propionate production: propionate modulates microglial activation and neuroinflammation via free fatty acid receptors (FFAR2/FFAR3) in the brain. Effective schizophrenia intervention requires restoring causally protective taxa like Veillonellaceae AND suppressing risk-increasing taxa like [[clostridia]] and [[betaproteobacteria]] -- neither side alone is sufficient.
+Veillonellaceae is causally protective against schizophrenia (OR = 0.93, p = 0.033), specifically in patients with violent behaviors [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]]. The protective effect may operate through propionate production: propionate modulates microglial activation and neuroinflammation via free fatty acid receptors (FFAR2/FFAR3) in the brain. Effective schizophrenia intervention requires restoring causally protective taxa like Veillonellaceae AND suppressing risk-increasing taxa like [[clostridia]] and [[betaproteobacteria]] -- neither side alone is sufficient.
 
 ### Hashimoto's Thyroiditis
 Veillonellaceae levels are decreased in HT patients alongside [[prevotellaceae]] [[docimo-2020-human-microbiota-endocrinology-thyroid]], suggesting the family's immunomodulatory SCFA production may contribute to thyroid immune tolerance.

@@ -13,7 +13,7 @@ Based on overnight-resume-2026-04-19 order (darkness-first) plus audit gap analy
 
 | Priority | Folder | PDFs | Sources | Gap | Notes |
 |----------|--------|------|---------|-----|-------|
-| ~~1~~ | ~~PMDD~~ | ~~70~~ | ~~28~~ | ~~42~~ | **DONE** (2026-04-20, 20 pages ingested) |
+| ~~1~~ | ~~PMDD~~ | ~~70~~ | ~~28~~ | ~~42~~ | DONE (2026-04-20, 20 pages ingested) |
 | 2 | Fibromyalgia | 58 | 11 | 47 | Next up per resume |
 | 3 | Cerebral Palsy | 79 | 18 | 61 | |
 | 4 | NEC | 76 | 14 | 62 | |

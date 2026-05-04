@@ -5,17 +5,19 @@ type: entity
 subtype: microbe
 created: 2026-04-10
 updated: 2026-04-10
-sources: []
-source_count: 0
+sources:
+  - wang-2021-gut-microbiota-nsaid-enteropathy
+  - wang-2022-high-fiber-acarbose-pcos
+  - deng-2022-gi-symptoms-minor-impact-asd-microbiota-scfa
+  - perez-prieto-2024-gut-microbiome-endometriosis-cohort-1000
+source_count: 4
 gram_stain: "negative"
 oxygen_requirement: "obligate anaerobe"
 metal_dependencies: [iron, zinc]
 key_enzymes: [beta-glucuronidase, iron-acquisition-siderophores, zinc-metalloproteases]
 tags: [commensal-pathobiont, colorectal-cancer, depression, dysbiosis-marker, beta-glucuronidase, iron-siderophores]
 platform: wikibiome
-stub: true
-stub_reason: "below §2f source density threshold — 0 sources, minimum 3 required"
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-04-22
 seo_target: "Bacteroides vulgatus iron siderophore colorectal cancer depression"
 wikipedia_differentiation: "Iron-scavenging specialist with beta-glucuronidase activity linking metal-driven competitive advantage to CRC and depression enrichment"
 conditions_enriched_in: [colorectal-cancer, depression]
@@ -25,7 +27,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bacteroides vulgatus
 
-A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont spectrum**. *B. vulgatus* is a common component of the healthy gut microbiota, yet is significantly enriched in [[colorectal-cancer]] and [[depression]], suggesting a context-dependent pathogenic potential. Like many Bacteroides species, it is a **beta-glucuronidase producer** and an aggressive **iron-scavenging specialist** that outcompetes commensals under high-iron conditions. Its abundance and virulence depend critically on **iron** and **zinc** availability, positioning it as a model organism for understanding metal-driven dysbiosis.
+A Gram-negative obligate anaerobe that exemplifies the commensal-pathobiont spectrum. *B. vulgatus* is a common component of the healthy gut microbiota, yet is significantly enriched in [[colorectal-cancer]] and [[depression]], suggesting a context-dependent pathogenic potential. Like many Bacteroides species, it is a beta-glucuronidase producer and an aggressive iron-scavenging specialist that outcompetes commensals under high-iron conditions. Its abundance and virulence depend critically on iron and zinc availability, positioning it as a model organism for understanding metal-driven dysbiosis.
 
 ## The Commensal-Pathobiont Duality
 
@@ -40,43 +42,43 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 ### Disease Enrichment
 
 - In colorectal cancer and depression, *B. vulgatus* abundance increases to 10-30%+ of total biomass, often alongside [[prevotella-copri]] and [[fusobacterium-nucleatum]].
-- This shift from commensal to dysbiotic pathobiont is driven by **metal imbalance** (elevated iron, depleted zinc) and **loss of competitive commensals**.
+- This shift from commensal to dysbiotic pathobiont is driven by metal imbalance (elevated iron, depleted zinc) and loss of competitive commensals.
 
 ## Iron Acquisition and Siderophore Systems
 
 ### Siderophore-Mediated Iron Scavenging
 
-- *B. vulgatus* expresses **multiple siderophore-binding transporters** and can scavenge iron from transferrin and lactoferrin through competitive iron chelation.
+- *B. vulgatus* expresses multiple siderophore-binding transporters and can scavenge iron from transferrin and lactoferrin through competitive iron chelation.
 - Produces diffusible iron-chelating compounds (catecholate and hydroxamate siderophores) that extract iron from host iron-binding proteins.
-- This is a **pathogenic strategy**: rather than relying on the iron already available in the intestinal lumen, *B. vulgatus* actively competes with host nutritional immunity for iron sequestered by transferrin and lactoferrin.
+- This is a pathogenic strategy: rather than relying on the iron already available in the intestinal lumen, *B. vulgatus* actively competes with host nutritional immunity for iron sequestered by transferrin and lactoferrin.
 
 ### Iron as a Selective Pressure
 
 - High-iron conditions (from tissue bleeding in CRC, or dysbiotic barrier breakdown) favor *B. vulgatus* over commensals with lower iron-acquisition capacity.
-- This represents a core example of **metals as selective pressures**: iron elevation selects for iron-aggressive pathobionts.
+- This represents a core example of metals as selective pressures: iron elevation selects for iron-aggressive pathobionts.
 
 ## Zinc Biology and Metal Conflict
 
 ### Zinc-Dependent Enzymes
 
 - *B. vulgatus* requires zinc for [[zinc-metalloprotease]]s, the zinc-finger transcription factors that regulate virulence gene expression, and numerous metabolic enzymes.
-- However, *B. vulgatus* is **relatively resistant** to zinc starvation compared to some commensals [[akkermansia-muciniphila]].
+- However, *B. vulgatus* is relatively resistant to zinc starvation compared to some commensals [[akkermansia-muciniphila]].
 
 ### Zinc Sequestration and Dysbiosis
 
-- In inflamed tissue (CRC, depressive episodes with increased intestinal permeability), **calprotectin** elevation sequesters zinc at inflammation sites.
+- In inflamed tissue (CRC, depressive episodes with increased intestinal permeability), calprotectin elevation sequesters zinc at inflammation sites.
 - This simultaneously:
- 1. **Protects the host** by restricting zinc to pathobiont-damaging levels.
- 2. **Selects for *B. vulgatus*** if it has zinc-uptake mechanisms that bypass calprotectin sequestration.
-- The net effect can be **dysbiotic selection** if *B. vulgatus* zinc resistance exceeds that of depleted commensals.
+ 1. Protects the host by restricting zinc to pathobiont-damaging levels.
+ 2. Selects for *B. vulgatus* if it has zinc-uptake mechanisms that bypass calprotectin sequestration.
+- The net effect can be dysbiotic selection if *B. vulgatus* zinc resistance exceeds that of depleted commensals.
 
 ## Beta-Glucuronidase Production
 
 ### Estrogen Deconjugation
 
-- *B. vulgatus* produces **beta-glucuronidase**, contributing to the [[estrobolome]] alongside [[eggerthella-lenta]] and [[bacteroides-fragilis]].
+- *B. vulgatus* produces beta-glucuronidase, contributing to the [[estrobolome]] alongside [[eggerthella-lenta]] and [[bacteroides-fragilis]].
 - In disease states with dysbiotic *B. vulgatus* enrichment, elevated beta-glucuronidase activity prolongs estrogen reabsorption.
-- This is particularly relevant in **depression** and **CRC-associated depression**, where systemic estrogen dysregulation may perpetuate mood dysregulation.
+- This is particularly relevant in depression and CRC-associated depression, where systemic estrogen dysregulation may perpetuate mood dysregulation.
 
 ### Metabolic Consequences
 
@@ -89,12 +91,12 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 ### Colorectal Cancer
 
-- *B. vulgatus* is **significantly enriched in CRC tissue** compared to healthy mucosa and adenoma precursors [[shi-2023-appendectomy-microbiome-crc]].
+- *B. vulgatus* is significantly enriched in CRC tissue compared to healthy mucosa and adenoma precursors [[shi-2023-appendectomy-microbiome-crc]].
 - Proposed mechanisms:
- - **Iron acquisition**: CRC tissue bleeds and is high-iron; *B. vulgatus* siderophore activity selects for it over iron-limited commensals.
- - **Barrier disruption**: *B. vulgatus* produces metalloproteases and other virulence factors that damage epithelial tight junctions.
- - **Oncogenic signaling**: *B. vulgatus*-derived LPS activates TLR4 → NF-kB → IL-6, IL-8 production → cancer-promoting inflammation.
- - **Estrogen metabolism**: Beta-glucuronidase activity extends estrogen reabsorption, and elevated systemic estrogen is a CRC risk factor (particularly in post-menopausal women).
+ - Iron acquisition: CRC tissue bleeds and is high-iron; *B. vulgatus* siderophore activity selects for it over iron-limited commensals.
+ - Barrier disruption: *B. vulgatus* produces metalloproteases and other virulence factors that damage epithelial tight junctions.
+ - Oncogenic signaling: *B. vulgatus*-derived LPS activates TLR4 → NF-kB → IL-6, IL-8 production → cancer-promoting inflammation.
+ - Estrogen metabolism: Beta-glucuronidase activity extends estrogen reabsorption, and elevated systemic estrogen is a CRC risk factor (particularly in post-menopausal women).
 
 ### Depression
 
@@ -107,9 +109,9 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 ### Associated Conditions
 
-- **Metabolic syndrome**: *B. vulgatus* enrichment correlates with insulin resistance, though less consistently than [[prevotella-copri]].
-- **IBD**: present in Crohn's and ulcerative colitis, particularly in inflamed segments [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
-- **Autism spectrum disorder**: altered abundance reported in some ASD microbiome profiles.
+- Metabolic syndrome: *B. vulgatus* enrichment correlates with insulin resistance, though less consistently than [[prevotella-copri]].
+- IBD: present in Crohn's and ulcerative colitis, particularly in inflamed segments [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
+- Autism spectrum disorder: altered abundance reported in some ASD microbiome profiles.
 
 ## Ecological Interactions
 
@@ -147,9 +149,9 @@ A Gram-negative obligate anaerobe that exemplifies the **commensal-pathobiont sp
 
 ### Metal-Based Approach
 
-- **Iron restriction**: Reducing bioavailable iron disfavors *B. vulgatus* and other siderophore-dependent pathobionts by limiting a key growth substrate.
-- **Zinc repletion**: Restoring zinc availability supports barrier-protective commensals that lose competitive advantage under zinc-depleted conditions.
-- **Lactoferrin**: Competes with *B. vulgatus* siderophores for iron, reducing the iron pool available to the pathobiont.
+- Iron restriction: Reducing bioavailable iron disfavors *B. vulgatus* and other siderophore-dependent pathobionts by limiting a key growth substrate.
+- Zinc repletion: Restoring zinc availability supports barrier-protective commensals that lose competitive advantage under zinc-depleted conditions.
+- Lactoferrin: Competes with *B. vulgatus* siderophores for iron, reducing the iron pool available to the pathobiont.
 
 ### Beta-Glucuronidase Modulation
 

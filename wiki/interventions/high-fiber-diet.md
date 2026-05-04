@@ -29,7 +29,7 @@ targets:
 karen_brain_primitives: [5]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 # High-Fiber Diet (Cross-Condition)
 
@@ -46,10 +46,10 @@ A whole-diet approach centered on high fiber intake (>30g/day) from diverse plan
 
 ## Mechanism
 
-1. **Substrate diversity**: Multiple fiber types (cellulose, hemicellulose, pectin, resistant starch, inulin) feed different microbial niches, promoting alpha diversity
-2. **Cross-feeding networks**: Primary fiber degraders (Ruminococcus bromii, Prevotella) produce intermediates consumed by secondary SCFA producers (Faecalibacterium, Roseburia)
-3. **Polyphenol synergy**: Whole-food fiber sources co-deliver polyphenols that are metabolized by gut bacteria into bioactive compounds
-4. **Ecological resilience**: Diverse fiber intake supports functional redundancy in the microbiome, increasing resistance to perturbation
+1. Substrate diversity: Multiple fiber types (cellulose, hemicellulose, pectin, resistant starch, inulin) feed different microbial niches, promoting alpha diversity
+2. Cross-feeding networks: Primary fiber degraders (Ruminococcus bromii, Prevotella) produce intermediates consumed by secondary SCFA producers (Faecalibacterium, Roseburia)
+3. Polyphenol synergy: Whole-food fiber sources co-deliver polyphenols that are metabolized by gut bacteria into bioactive compounds
+4. Ecological resilience: Diverse fiber intake supports functional redundancy in the microbiome, increasing resistance to perturbation
 
 ## Clinical Context
 
@@ -58,4 +58,4 @@ A high-fiber diet is the whole-diet implementation of the [[dietary-fiber]] prin
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

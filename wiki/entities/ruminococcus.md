@@ -23,7 +23,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Ruminococcus
 
-A genus of Gram-positive, obligate anaerobic cocci within the Firmicutes phylum that exemplifies **dual-nature microbiology** — containing both keystone beneficial species and disease-associated pathobionts within the same genus. The genus spans multiple former taxonomic groupings (Clostridium clusters IV and XIVa) and has been reorganized multiple times, meaning that "Ruminococcus" findings in older literature may refer to species now classified elsewhere. Proper species-level resolution is critical when interpreting any Ruminococcus finding.
+A genus of Gram-positive, obligate anaerobic cocci within the Firmicutes phylum that exemplifies dual-nature microbiology — containing both keystone beneficial species and disease-associated pathobionts within the same genus. The genus spans multiple former taxonomic groupings (Clostridium clusters IV and XIVa) and has been reorganized multiple times, meaning that "Ruminococcus" findings in older literature may refer to species now classified elsewhere. Proper species-level resolution is critical when interpreting any Ruminococcus finding.
 
 ## Classification and Taxonomic Complexity
 
@@ -32,7 +32,7 @@ The genus *Ruminococcus* originally encompassed a broader group of fiber-degradi
 ## Beneficial Species
 
 ### R. bromii — Keystone Starch Degrader
-- The **primary degrader of resistant starch** in the human colon, often designated a "keystone species" because other bacteria depend on its initial breakdown of complex starches into oligosaccharides.
+- The primary degrader of resistant starch in the human colon, often designated a "keystone species" because other bacteria depend on its initial breakdown of complex starches into oligosaccharides.
 - Initiates the trophic cascade: resistant starch → *R. bromii* degradation → oligosaccharides → cross-feeding to butyrate producers [[roseburia]], [[faecalibacterium-prausnitzii]], and [[anaerostipes]].
 - Uses amylase and glucanase enzymes that are among the most specialized starch-degrading systems in the human gut microbiome.
 - Its absence significantly reduces the community's capacity to ferment dietary fiber into [[short-chain-fatty-acids]], with downstream effects on gut barrier function and immune modulation.
@@ -47,13 +47,13 @@ The genus *Ruminococcus* originally encompassed a broader group of fiber-degradi
 ### R. gnavus — Inflammatory Mucin Degrader
 The most clinically significant pathobiont within the genus, with strong associations across multiple inflammatory conditions:
 
-- **Mucin degradation**: Produces extracellular glycoside hydrolases that degrade intestinal mucins, eroding the protective mucus layer and increasing epithelial exposure to luminal antigens.
-- **Inflammatory polysaccharide**: Produces a unique glucorhamnan polysaccharide that activates TNF-alpha secretion from dendritic cells via TLR4, directly driving systemic [[inflammation]].
-- **Crohn's disease**: One of the most consistently Crohn's-enriched species across independent cohorts; blooms during disease flares and correlates with mucosal inflammation.
-- **Atherosclerotic cardiovascular disease**: Enriched in ACVD in the landmark Jie et al. (2017) metagenome-wide study (n=218), where it was part of the ACVD-enriched taxa associated with increased pathobiont load [[jie-2017-gut-microbiome-acvd]].
-- **Coronary artery disease**: Higher *R. gnavus* significantly associated with CAD after adjustment for diabetes and dyslipidemia [[toya-2020-coronary-artery-disease-altered-gut-microbiome]]. The CAD-associated microbiome shows progressive changes from *Bacteroides* to *Ruminococcus* to *Prevotella* as disease severity worsens [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]].
-- **Graves' disease**: Enriched in untreated Graves' disease patients; correlates positively with TRAb (thyroid receptor antibody) levels, and decreases following methimazole treatment and thyroid function normalization [[yang-2022-intestinal-flora-graves-methimazole]], [[zhao-2022-gut-microbiota-graves-hashimotos]].
-- **ASD**: Enriched in ASD children in Chinese cohorts with GI symptoms; negatively correlated with CARS severity score (higher *Ruminococcus_1* = lower autism severity), suggesting species-level heterogeneity even in the pathobiont-enriched context [[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]].
+- Mucin degradation: Produces extracellular glycoside hydrolases that degrade intestinal mucins, eroding the protective mucus layer and increasing epithelial exposure to luminal antigens.
+- Inflammatory polysaccharide: Produces a unique glucorhamnan polysaccharide that activates TNF-alpha secretion from dendritic cells via TLR4, directly driving systemic [[inflammation]].
+- Crohn's disease: One of the most consistently Crohn's-enriched species across independent cohorts; blooms during disease flares and correlates with mucosal inflammation.
+- Atherosclerotic cardiovascular disease: Enriched in ACVD in the landmark Jie et al. (2017) metagenome-wide study (n=218), where it was part of the ACVD-enriched taxa associated with increased pathobiont load [[jie-2017-gut-microbiome-acvd]].
+- Coronary artery disease: Higher *R. gnavus* significantly associated with CAD after adjustment for diabetes and dyslipidemia [[toya-2020-coronary-artery-disease-altered-gut-microbiome]]. The CAD-associated microbiome shows progressive changes from *Bacteroides* to *Ruminococcus* to *Prevotella* as disease severity worsens [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]].
+- Graves' disease: Enriched in untreated Graves' disease patients; correlates positively with TRAb (thyroid receptor antibody) levels, and decreases following methimazole treatment and thyroid function normalization [[yang-2022-intestinal-flora-graves-methimazole]], [[zhao-2022-gut-microbiota-graves-hashimotos]].
+- ASD: Enriched in ASD children in Chinese cohorts with GI symptoms; negatively correlated with CARS severity score (higher *Ruminococcus_1* = lower autism severity), suggesting species-level heterogeneity even in the pathobiont-enriched context [[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]].
 
 ### R. torques — ASD-Associated Mucin Degrader
 - Enriched in children with [[autism-spectrum-disorder]], particularly those with GI symptoms.
@@ -64,9 +64,9 @@ The most clinically significant pathobiont within the genus, with strong associa
 
 *Ruminococcus* species rely on iron-sulfur cluster enzymes for core anaerobic metabolism:
 
-- **Iron-sulfur (Fe-S) clusters** in ferredoxins are essential for electron transfer in the strict anaerobic fermentation pathways used across the genus.
+- Iron-sulfur (Fe-S) clusters in ferredoxins are essential for electron transfer in the strict anaerobic fermentation pathways used across the genus.
 - *R. bromii*'s starch-degrading enzymatic cascade includes enzymes requiring Fe cofactors for redox reactions.
-- **Lead exposure depletes *R. gnavus*** in prenatal cohort data — *R. gnavus* was reproducibly depleted with maternal blood Pb in the PROGRESS birth cohort (both trimesters, ≥80% holdout threshold) [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]], [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]]. This is counter-intuitive given R. gnavus's pathobiont status; however, Pb may disrupt the mucin-degrading niche or compete with Fe-S cluster assembly.
+- Lead exposure depletes *R. gnavus* in prenatal cohort data — *R. gnavus* was reproducibly depleted with maternal blood Pb in the PROGRESS birth cohort (both trimesters, ≥80% holdout threshold) [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]], [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]]. This is counter-intuitive given R. gnavus's pathobiont status; however, Pb may disrupt the mucin-degrading niche or compete with Fe-S cluster assembly.
 - Metal stress from [[cadmium]] and [[lead]] may differentially affect species — potentially sparing the most resilient strains while depleting sensitive beneficial ones.
 
 ## Disease Associations Summary
@@ -83,10 +83,10 @@ The most clinically significant pathobiont within the genus, with strong associa
 
 ## Key Metabolites
 
-- **Short-chain fatty acids** — beneficial species produce butyrate and acetate from starch fermentation; net contribution to colonocyte health
-- **Inflammatory glucorhamnan polysaccharide** — *R. gnavus*-specific; activates TNF-alpha via TLR4 on dendritic cells; a direct inflammatory driver
-- **Hydrogen gas** — *R. bromii* produces H₂ during starch fermentation, feeding hydrogenotrophic methanogens and [[desulfovibrio]] in the acetogenic/sulfidogenic fermentation network
-- **Mucin-degradation products** — *R. gnavus* and *R. torques* generate mucin fragments that may serve as substrates for downstream pathobionts
+- Short-chain fatty acids — beneficial species produce butyrate and acetate from starch fermentation; net contribution to colonocyte health
+- Inflammatory glucorhamnan polysaccharide — *R. gnavus*-specific; activates TNF-alpha via TLR4 on dendritic cells; a direct inflammatory driver
+- Hydrogen gas — *R. bromii* produces H₂ during starch fermentation, feeding hydrogenotrophic methanogens and [[desulfovibrio]] in the acetogenic/sulfidogenic fermentation network
+- Mucin-degradation products — *R. gnavus* and *R. torques* generate mucin fragments that may serve as substrates for downstream pathobionts
 
 ## Ecological Role
 

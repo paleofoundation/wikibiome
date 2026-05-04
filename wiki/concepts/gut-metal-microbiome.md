@@ -24,25 +24,25 @@ The relationship between heavy metals and the gut microbiota is bidirectional: m
 
 Across toxic metals (As, Cd, Pb, Hg, Ni), exposure consistently produces several common microbiome changes:
 
-- **Decreased microbial diversity** (statistically significant for Cd in particular)
-- **Loss of SCFA-producing commensals**: Faecalibacterium, Lachnospiraceae, Blautia, Ruminococcus, and Lactobacillus are frequently reduced
-- **Enrichment of metal-tolerant pathobionts**: Enterobacteriaceae, Escherichia-Shigella, and potentially pathogenic taxa increase
-- **Firmicutes/Bacteroidetes ratio shifts**: direction varies by metal and model but the ratio is consistently disrupted
-- **Disrupted metabolite profiles**: SCFAs decrease; bile acid, amino acid, and purine metabolism are perturbed
+- Decreased microbial diversity (statistically significant for Cd in particular)
+- Loss of SCFA-producing commensals: Faecalibacterium, Lachnospiraceae, Blautia, Ruminococcus, and Lactobacillus are frequently reduced
+- Enrichment of metal-tolerant pathobionts: Enterobacteriaceae, Escherichia-Shigella, and potentially pathogenic taxa increase
+- Firmicutes/Bacteroidetes ratio shifts: direction varies by metal and model but the ratio is consistently disrupted
+- Disrupted metabolite profiles: SCFAs decrease; bile acid, amino acid, and purine metabolism are perturbed
 
 ### Metal-Specific Effects
 
-**Arsenic**: Increases Bacteroidetes and Bilophila; perturbs bile acid homeostasis and amino acid metabolism. Faecalibacterium is essential for arsenic biotransformation. The gut microbiota can methylate arsenic into less toxic forms via arsM methyltransferase, and transport it via arsB, arsP, and acr3 transporters.
+Arsenic: Increases Bacteroidetes and Bilophila; perturbs bile acid homeostasis and amino acid metabolism. Faecalibacterium is essential for arsenic biotransformation. The gut microbiota can methylate arsenic into less toxic forms via arsM methyltransferase, and transport it via arsB, arsP, and acr3 transporters.
 
-**Cadmium**: Multiple mouse studies show decreased SCFAs, increased LPS, disrupted gut barrier. Cd exposure causes dose-dependent and sex-dependent effects. Akkermansia muciniphila is particularly sensitive to low-dose Cd. Cd enhances mammary tumorigenesis through microbiome-mediated pathways, disrupting the gut-liver axis. Exposure alters 42 genera at the genus level, with Bacteroidetes significantly decreased and Proteobacteria increased.
+Cadmium: Multiple mouse studies show decreased SCFAs, increased LPS, disrupted gut barrier. Cd exposure causes dose-dependent and sex-dependent effects. Akkermansia muciniphila is particularly sensitive to low-dose Cd. Cd enhances mammary tumorigenesis through microbiome-mediated pathways, disrupting the gut-liver axis. Exposure alters 42 genera at the genus level, with Bacteroidetes significantly decreased and Proteobacteria increased.
 
-**Lead**: Time-dependent changes in community structure. Reduces Ruminococcus, Coprococcus, Oscillospira, and Blautia. Decreases vitamin E, bile acids, and nitrogen/energy metabolism pathways. Pb-intolerant gut microbes (A. muciniphila, F. prausnitzii, O. ruminantium) can reduce Pb burden when supplemented. Prenatal lead exposure alters childhood gut microbiome composition.
+Lead: Time-dependent changes in community structure. Reduces Ruminococcus, Coprococcus, Oscillospira, and Blautia. Decreases vitamin E, bile acids, and nitrogen/energy metabolism pathways. Pb-intolerant gut microbes (A. muciniphila, F. prausnitzii, O. ruminantium) can reduce Pb burden when supplemented. Prenatal lead exposure alters childhood gut microbiome composition.
 
-**Mercury/Methylmercury**: Increases Bacteroidetes at phylum level. Alters gut-brain metabolites including neurotransmitter precursors. Pathogenic bacteria are enriched. MeHg metabolism involves methylation/demethylation cycles mediated by gut microbiota. Dental fillings increase Hg-resistant and antibiotic-resistant bacteria in the oral-gut continuum.
+Mercury/Methylmercury: Increases Bacteroidetes at phylum level. Alters gut-brain metabolites including neurotransmitter precursors. Pathogenic bacteria are enriched. MeHg metabolism involves methylation/demethylation cycles mediated by gut microbiota. Dental fillings increase Hg-resistant and antibiotic-resistant bacteria in the oral-gut continuum.
 
-**Nickel**: Occupational Ni exposure increased Parabacteroides, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, and Blautia. Impaired purine degradation and upregulated primary bile acid biosynthesis. Combined Cr-Ni exposure showed antagonistic effects between the two metals. Nickel-dependent bacterial virulence enzymes (urease, [NiFe]-hydrogenase) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage.
+Nickel: Occupational Ni exposure increased Parabacteroides, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, and Blautia. Impaired purine degradation and upregulated primary bile acid biosynthesis. Combined Cr-Ni exposure showed antagonistic effects between the two metals. Nickel-dependent bacterial virulence enzymes (urease, [NiFe]-hydrogenase) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage.
 
-**Iron**: Both deficiency and excess disrupt the microbiome. Iron deficiency reduces Lactobacillus and Bacillota; iron supplementation increases Enterobacteriaceae and decreases Lactobacillus in infants. Siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions.
+Iron: Both deficiency and excess disrupt the microbiome. Iron deficiency reduces Lactobacillus and Bacillota; iron supplementation increases Enterobacteriaceae and decreases Lactobacillus in infants. Siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions.
 
 ### Gender as a Modifying Factor
 
@@ -54,31 +54,31 @@ Sex-dependent effects have been documented for multiple metals. The gut microbio
 
 The gut microbiota constitutes a physical barrier against metal absorption. Germ-free mice accumulate significantly more heavy metals in organs compared to conventional mice, demonstrating the microbiota's role in metal clearance. The barrier operates through three components:
 
-1. **Mucus layer** (goblet cells producing MUC2 and other mucins)
-2. **Epithelial cell layer** (enterocytes, Paneth cells, M cells, enteroendocrine cells)
-3. **Immunological barrier** (IgA, antimicrobial peptides, immune cell surveillance)
+1. Mucus layer (goblet cells producing MUC2 and other mucins)
+2. Epithelial cell layer (enterocytes, Paneth cells, M cells, enteroendocrine cells)
+3. Immunological barrier (IgA, antimicrobial peptides, immune cell surveillance)
 
 ### Metal Binding and Detoxification
 
 Microbes employ eight key mechanisms for metal detoxification:
-- **Biosorption**: Cell surface binding of metal ions
-- **Bioprecipitation**: Conversion to insoluble forms (e.g., sulfide production by SRB)
-- **Bioassimilation**: Metabolic incorporation
-- **Bioaccumulation**: Intracellular sequestration
-- **Metal solubilization**: Increasing metal mobility for excretion
-- **Biotransformation**: Enzymatic conversion to less toxic forms (e.g., As methylation)
-- **Bioleaching**: Extraction from bound forms
-- **Organic acid secretion**: pH modification affecting metal speciation
+- Biosorption: Cell surface binding of metal ions
+- Bioprecipitation: Conversion to insoluble forms (e.g., sulfide production by SRB)
+- Bioassimilation: Metabolic incorporation
+- Bioaccumulation: Intracellular sequestration
+- Metal solubilization: Increasing metal mobility for excretion
+- Biotransformation: Enzymatic conversion to less toxic forms (e.g., As methylation)
+- Bioleaching: Extraction from bound forms
+- Organic acid secretion: pH modification affecting metal speciation
 
 Specific examples include siderophore production by Pseudomonas, sulfide production by sulfate-reducing bacteria, and oxalate production by Oxalobacter formigenes.
 
 ### Metabolite-Mediated Protection
 
 Microbial metabolites regulate host responses to metal stress:
-- **SCFAs** (butyrate, propionate, acetate): Enhance epithelial barrier integrity, reduce inflammation via GPR41/43/109A receptors
-- **Indole derivatives**: Anti-inflammatory via aryl hydrocarbon receptor (AhR) activation
-- **Bile acids**: Immunomodulation via FXR and TGR5 receptors
-- **Urolithin A**: A gut microbial metabolite that protects colon epithelial cells against arsenic-induced oxidative stress and barrier dysfunction
+- SCFAs (butyrate, propionate, acetate): Enhance epithelial barrier integrity, reduce inflammation via GPR41/43/109A receptors
+- Indole derivatives: Anti-inflammatory via aryl hydrocarbon receptor (AhR) activation
+- Bile acids: Immunomodulation via FXR and TGR5 receptors
+- Urolithin A: A gut microbial metabolite that protects colon epithelial cells against arsenic-induced oxidative stress and barrier dysfunction
 
 ## Gut Barrier Disruption by Metals
 
@@ -98,26 +98,26 @@ This barrier disruption permits bacterial translocation and LPS leakage into sys
 
 The gut-metal-microbiome interaction extends to the central nervous system through the gut-brain axis:
 
-- **Neurotransmitter production**: Gut microbiota produce serotonin (5-HT), dopamine, GABA, and norepinephrine; metal-induced dysbiosis disrupts this production
-- **SCFA signaling**: SCFAs activate free fatty acid receptors (FFARs) and tryptophan hydroxylase (TPH1) for 5-HT production, influencing the neuroendocrine-HPA axis
-- **Neuroinflammation**: LPS translocation from a compromised gut activates microglia and drives neuroinflammation
-- **Alpha-synuclein propagation**: In Parkinson's disease, metal-induced gut dysbiosis may promote alpha-synuclein aggregation in the enteric nervous system, with subsequent vagal nerve transmission to the brain (Braak hypothesis)
-- **Autism spectrum disorders**: 30-70% of children with ASD have GI disturbances; metal-induced microbiome disruption and zinc displacement may contribute through the gut-brain axis
+- Neurotransmitter production: Gut microbiota produce serotonin (5-HT), dopamine, GABA, and norepinephrine; metal-induced dysbiosis disrupts this production
+- SCFA signaling: SCFAs activate free fatty acid receptors (FFARs) and tryptophan hydroxylase (TPH1) for 5-HT production, influencing the neuroendocrine-HPA axis
+- Neuroinflammation: LPS translocation from a compromised gut activates microglia and drives neuroinflammation
+- Alpha-synuclein propagation: In Parkinson's disease, metal-induced gut dysbiosis may promote alpha-synuclein aggregation in the enteric nervous system, with subsequent vagal nerve transmission to the brain (Braak hypothesis)
+- Autism spectrum disorders: 30-70% of children with ASD have GI disturbances; metal-induced microbiome disruption and zinc displacement may contribute through the gut-brain axis
 
 ## Probiotic Protective Strategies
 
 Probiotics represent a promising intervention for metal-induced gut damage:
 
 ### Traditional Probiotics
-- **L. plantarum CCFM8610 and CCFM8661**: Demonstrated efficacy for Cd and Pb detoxification through intestinal sequestration
-- **L. brevis 23017**: Protects against Hg toxicity via MAPK and NF-kappaB pathway regulation
-- **L. plantarum TW1-1**: Reduces Cr accumulation and reverses Cr-exposure effects
-- **Bifidobacterium species**: Metal-binding capacity and immune modulation
+- L. plantarum CCFM8610 and CCFM8661: Demonstrated efficacy for Cd and Pb detoxification through intestinal sequestration
+- L. brevis 23017: Protects against Hg toxicity via MAPK and NF-kappaB pathway regulation
+- L. plantarum TW1-1: Reduces Cr accumulation and reverses Cr-exposure effects
+- Bifidobacterium species: Metal-binding capacity and immune modulation
 
 ### Next-Generation Probiotics
-- **Faecalibacterium prausnitzii**: Butyrate production and arsenic metabolism support
-- **Akkermansia muciniphila**: Mucin layer maintenance (though notably sensitive to Cd)
-- **Pediococcus pentosaceus GS4**: Emerging metal detoxification capability
+- Faecalibacterium prausnitzii: Butyrate production and arsenic metabolism support
+- Akkermansia muciniphila: Mucin layer maintenance (though notably sensitive to Cd)
+- Pediococcus pentosaceus GS4: Emerging metal detoxification capability
 
 ### Mechanisms of Probiotic Protection
 Probiotics reduce metal toxicity through: direct metal binding/sequestration, modification of metal transporter expression (reducing absorption), maintenance of tight junction protein expression, SCFA production supporting barrier integrity, competitive exclusion of metal-tolerant pathobionts, and modulation of host inflammatory responses.
@@ -131,7 +131,7 @@ Advanced biosensor technologies enable monitoring of metal-gut interactions:
 
 ## Key Unresolved Questions
 
-- Whether reported microbiome changes are **not homogeneous** across studies due to differences in metal compound, exposure modality, duration, and baseline microbiome composition
+- Whether reported microbiome changes are not homogeneous across studies due to differences in metal compound, exposure modality, duration, and baseline microbiome composition
 - The relative contribution of direct metal toxicity to microbes versus indirect effects through host immune modulation
 - Whether nickel-specific gut microbiome effects parallel those of the better-studied toxic metals (As, Cd, Pb, Hg)
 - Optimal probiotic strain selection, dosing, and duration for clinical metal detoxification

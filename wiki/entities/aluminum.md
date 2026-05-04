@@ -18,13 +18,13 @@ source_count: 14
 
 # Aluminum (Al)
 
-A **non-essential** metal and the most abundant metallic element in the Earth's crust. Unlike manganese, iron, or selenium, aluminum has no known biological function in humans. Its significance in metal toxicology stems from two major concerns: proven neurotoxicity at elevated exposures and widespread contamination of infant foods and formulas.
+A non-essential metal and the most abundant metallic element in the Earth's crust. Unlike manganese, iron, or selenium, aluminum has no known biological function in humans. Its significance in metal toxicology stems from two major concerns: proven neurotoxicity at elevated exposures and widespread contamination of infant foods and formulas.
 
 ## Chemical Properties and Forms
 
 - Light metal (Group 13), predominantly found as Al3+ in biological systems.
-- Only **0.1% of orally ingested aluminum is absorbed** -- bioavailability is inherently limited [[klotz-2017-aluminum-health-effects-review]].
-- **Bioaccessibility** varies dramatically by food matrix: from 0.5% to 48% depending on composition; polyphenols reduce bioaccessibility, while protein-rich foods show variable patterns [[de-paiva-2020-aluminium-infant-foods-bioaccessibility]].
+- Only 0.1% of orally ingested aluminum is absorbed -- bioavailability is inherently limited [[klotz-2017-aluminum-health-effects-review]].
+- Bioaccessibility varies dramatically by food matrix: from 0.5% to 48% depending on composition; polyphenols reduce bioaccessibility, while protein-rich foods show variable patterns [[de-paiva-2020-aluminium-infant-foods-bioaccessibility]].
 - Accumulates in bone, liver, and brain; crosses the blood-brain barrier.
 - Found in senile plaques and neurofibrillary tangles in Alzheimer's disease brains [[armstrong-2024-alzheimers-extrinsic-factors-development]].
 
@@ -33,14 +33,14 @@ A **non-essential** metal and the most abundant metallic element in the Earth's 
 ### Dietary and Infant Formula
 Aluminum contamination of infant foods is one of the most consistent and concerning findings across multiple international studies.
 
-- **Prescription infant formulas (UK)**: All 24 tested were contaminated; ready-to-drink ranged from 49.9 to 1956.3 ug/L; Abbott PediaSure Plus Juice Apple at 1956.3 ug/L (391 ug per serving) [[redgrove-2019-prescription-infant-formulas-aluminium]].
-- **Breast milk** has Al content an order of magnitude lower than formula feeds [[redgrove-2019-prescription-infant-formulas-aluminium]].
-- **Lebanese infant formulas**: Al detected in all 41 samples (0.317 mg/kg); hazard quotient (HQ) exceeded 1 for all age groups despite being below FAO/WHO limits [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
-- **Brazilian cereals**: Total Al ranged 197-1852 ug/kg; bioaccessibility 1.5-10.4%; PTWI contribution up to 10.48% [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility]].
-- **Brazilian infant foods**: Soy-based drinks reached 4170 ug/kg; consumption of 3 portions/day exceeded 100% of PTWI [[de-paiva-2020-aluminium-infant-foods-bioaccessibility]].
-- **Spanish baby food jars**: Vegetable jars contained highest Al (8.22 mg/kg); Al intake reached 55-160% of TWI at typical consumption [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]].
-- **German total diet study**: Infant formula Al contribution up to 64% of total dietary Al exposure for infants <1 year [[hopfner-2025-infant-formula-dietary-exposure-elements-germany]].
-- **Key insight**: Contamination is NOT inevitable -- some prescription formulas (e.g., SMA Alfamino at 41.4 ug/L) had lower Al than any off-the-shelf formula, demonstrating that premium ingredients can reduce contamination [[redgrove-2019-prescription-infant-formulas-aluminium]].
+- Prescription infant formulas (UK): All 24 tested were contaminated; ready-to-drink ranged from 49.9 to 1956.3 ug/L; Abbott PediaSure Plus Juice Apple at 1956.3 ug/L (391 ug per serving) [[redgrove-2019-prescription-infant-formulas-aluminium]].
+- Breast milk has Al content an order of magnitude lower than formula feeds [[redgrove-2019-prescription-infant-formulas-aluminium]].
+- Lebanese infant formulas: Al detected in all 41 samples (0.317 mg/kg); hazard quotient (HQ) exceeded 1 for all age groups despite being below FAO/WHO limits [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
+- Brazilian cereals: Total Al ranged 197-1852 ug/kg; bioaccessibility 1.5-10.4%; PTWI contribution up to 10.48% [[de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility]].
+- Brazilian infant foods: Soy-based drinks reached 4170 ug/kg; consumption of 3 portions/day exceeded 100% of PTWI [[de-paiva-2020-aluminium-infant-foods-bioaccessibility]].
+- Spanish baby food jars: Vegetable jars contained highest Al (8.22 mg/kg); Al intake reached 55-160% of TWI at typical consumption [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]].
+- German total diet study: Infant formula Al contribution up to 64% of total dietary Al exposure for infants <1 year [[hopfner-2025-infant-formula-dietary-exposure-elements-germany]].
+- Key insight: Contamination is NOT inevitable -- some prescription formulas (e.g., SMA Alfamino at 41.4 ug/L) had lower Al than any off-the-shelf formula, demonstrating that premium ingredients can reduce contamination [[redgrove-2019-prescription-infant-formulas-aluminium]].
 
 ### Occupational
 - Aluminum welders showed declining neuropsychological performance at post-shift urinary concentrations of ~120 ug/L [[klotz-2017-aluminum-health-effects-review]].
@@ -55,23 +55,23 @@ Aluminum contamination of infant foods is one of the most consistent and concern
 ## Health Effects
 
 ### Neurotoxicity
-Neurotoxicity is the **critical adverse endpoint** for aluminum [[klotz-2017-aluminum-health-effects-review]].
+Neurotoxicity is the critical adverse endpoint for aluminum [[klotz-2017-aluminum-health-effects-review]].
 
-- **Reference values**: General population <15 ug/L urine, <5 ug/L serum [[klotz-2017-aluminum-health-effects-review]].
+- Reference values: General population <15 ug/L urine, <5 ug/L serum [[klotz-2017-aluminum-health-effects-review]].
 - Early signs of neurotoxicity at ~13 ug/L plasma and ~120 ug/L urine (occupational) [[klotz-2017-aluminum-health-effects-review]].
-- **Dialysis encephalopathy** occurs at ~100 ug/L plasma -- the first clinical observation linking Al to neurodegeneration [[klotz-2017-aluminum-health-effects-review]].
+- Dialysis encephalopathy occurs at ~100 ug/L plasma -- the first clinical observation linking Al to neurodegeneration [[klotz-2017-aluminum-health-effects-review]].
 - Al exposure increases APP mRNA expression and amyloid-beta levels in animal models [[chin-chan-2015-environmental-pollutants-ad-pd]].
 
 ### Alzheimer's Disease
-The Al-AD link remains one of the most **controversial** questions in metal toxicology.
+The Al-AD link remains one of the most controversial questions in metal toxicology.
 
-- Meta-analysis of 8 cohort/case-control studies: **OR 1.71** (95% CI: 1.35-2.18) for AD with chronic aluminum exposure [[klotz-2017-aluminum-health-effects-review]].
+- Meta-analysis of 8 cohort/case-control studies: OR 1.71 (95% CI: 1.35-2.18) for AD with chronic aluminum exposure [[klotz-2017-aluminum-health-effects-review]].
 - Elevated Al content found in AD brains, but unclear whether cause or effect [[klotz-2017-aluminum-health-effects-review]].
 - Dialysis dementia first raised concerns; geographic correlation studies suggest association; drinking water studies show inconsistent results [[armstrong-2024-alzheimers-extrinsic-factors-development]].
-- Currently **no definitive causal evidence** for an Al-AD association, but the epidemiological signal persists [[klotz-2017-aluminum-health-effects-review]].
+- Currently no definitive causal evidence for an Al-AD association, but the epidemiological signal persists [[klotz-2017-aluminum-health-effects-review]].
 
 ### Lung Cancer
-- Serum Al elevated **2.35-fold** in lung cancer patients vs healthy controls (p=0.00) [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
+- Serum Al elevated 2.35-fold in lung cancer patients vs healthy controls (p=0.00) [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
 - Al elevation may relate to energy metabolism imbalances via citrate interactions [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
 - Al/Mn ratios showed AUC values close to 1 as biomarkers distinguishing LC from healthy controls [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
 
@@ -80,18 +80,18 @@ The Al-AD link remains one of the most **controversial** questions in metal toxi
 
 ## Mechanism of Toxicity
 
-1. **Amyloid-beta promotion**: Al increases APP processing and amyloid-beta production in experimental models [[chin-chan-2015-environmental-pollutants-ad-pd]].
-2. **Oxidative stress**: Al generates ROS, though it is not a Fenton-active metal and acts through indirect mechanisms.
-3. **Neuroinflammation**: Al-containing adjuvants demonstrate potent immune-stimulating properties; chronic low-level exposure may sustain neuroinflammation.
-4. **Pro-fibrogenic effects**: Al promotes fibrotic processes in multiple tissues.
-5. **Endocrine disruption**: Potential disruption of energy metabolism via citrate pathway interference [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
+1. Amyloid-beta promotion: Al increases APP processing and amyloid-beta production in experimental models [[chin-chan-2015-environmental-pollutants-ad-pd]].
+2. Oxidative stress: Al generates ROS, though it is not a Fenton-active metal and acts through indirect mechanisms.
+3. Neuroinflammation: Al-containing adjuvants demonstrate potent immune-stimulating properties; chronic low-level exposure may sustain neuroinflammation.
+4. Pro-fibrogenic effects: Al promotes fibrotic processes in multiple tissues.
+5. Endocrine disruption: Potential disruption of energy metabolism via citrate pathway interference [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
 
 ## Regulatory Framework
 
-- **EFSA TWI**: 1 mg aluminum/kg body weight/week [[klotz-2017-aluminum-health-effects-review]].
-- **JECFA PTWI**: 2 mg/kg BW/week (used in many international studies) [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
-- **FAO/WHO maximal permissible limit** for infant formula: 400 ug/kg [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
-- **Critical gap**: There are no acceptable guidelines specifically for aluminum exposure in newborn infants [[redgrove-2019-prescription-infant-formulas-aluminium]].
+- EFSA TWI: 1 mg aluminum/kg body weight/week [[klotz-2017-aluminum-health-effects-review]].
+- JECFA PTWI: 2 mg/kg BW/week (used in many international studies) [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
+- FAO/WHO maximal permissible limit for infant formula: 400 ug/kg [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
+- Critical gap: There are no acceptable guidelines specifically for aluminum exposure in newborn infants [[redgrove-2019-prescription-infant-formulas-aluminium]].
 - EU Commission Regulation 2023/915 sets maximum levels for certain contaminants but Al-specific infant limits remain inadequate.
 
 ## Interactions with Other Metals
@@ -102,10 +102,10 @@ The Al-AD link remains one of the most **controversial** questions in metal toxi
 
 ## Biomarkers
 
-- **Urinary Al**: Reflects recent exposure; general population reference <15 ug/L [[klotz-2017-aluminum-health-effects-review]].
-- **Serum/plasma Al**: General population reference <5 ug/L; neurotoxicity threshold ~13 ug/L [[klotz-2017-aluminum-health-effects-review]].
-- **Serum Al in metallomics panels**: 2.35-fold elevation in lung cancer patients [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
-- **Hazard quotient (HQ)**: Risk assessment metric; HQ >1 found across all infant age groups in Lebanese study [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
+- Urinary Al: Reflects recent exposure; general population reference <15 ug/L [[klotz-2017-aluminum-health-effects-review]].
+- Serum/plasma Al: General population reference <5 ug/L; neurotoxicity threshold ~13 ug/L [[klotz-2017-aluminum-health-effects-review]].
+- Serum Al in metallomics panels: 2.35-fold elevation in lung cancer patients [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
+- Hazard quotient (HQ): Risk assessment metric; HQ >1 found across all infant age groups in Lebanese study [[ibrahim-2022-aluminum-exposure-infant-formulas-lebanon]].
 
 ## Open Questions
 

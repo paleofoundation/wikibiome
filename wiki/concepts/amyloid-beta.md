@@ -14,70 +14,70 @@ seo_target: "amyloid beta gut microbiome Alzheimer's disease metals aggregation"
 
 # Amyloid-Beta
 
-**Amyloid-beta (Aβ)** is a 36–43 amino acid peptide derived from the proteolytic cleavage of amyloid precursor protein (APP) by beta-secretase (BACE1) and gamma-secretase. Its aggregation from soluble monomers into insoluble fibrillar plaques in the brain is the defining neuropathological feature of [[alzheimers-disease]]. However, the story of amyloid-beta is more complex than a simple pathological protein — it is a normal physiological peptide with antimicrobial functions whose relationship to infection and the gut microbiome has become mechanistically central to understanding Alzheimer's pathogenesis.
+Amyloid-beta (Aβ) is a 36–43 amino acid peptide derived from the proteolytic cleavage of amyloid precursor protein (APP) by beta-secretase (BACE1) and gamma-secretase. Its aggregation from soluble monomers into insoluble fibrillar plaques in the brain is the defining neuropathological feature of [[alzheimers-disease]]. However, the story of amyloid-beta is more complex than a simple pathological protein — it is a normal physiological peptide with antimicrobial functions whose relationship to infection and the gut microbiome has become mechanistically central to understanding Alzheimer's pathogenesis.
 
 ## Normal Function: An Antimicrobial Peptide
 
 Amyloid-beta is not intrinsically pathological. At physiological concentrations, Aβ42 functions as:
 
-**An antimicrobial peptide (AMP)**: Aβ42 has documented antimicrobial activity against bacteria, fungi (*Candida albicans*), and viruses (HSV-1, HIV). It traps pathogens in fibrillar nets structurally similar to neutrophil extracellular traps (NETs). In mouse models, Aβ deposition accelerates in response to bacterial or viral brain infection — and transgenic mice overproducing Aβ survive *Salmonella* meningitis at higher rates than wild-type mice [[romano-2021-microbiome-host-interactions-alzheimers]].
+An antimicrobial peptide (AMP): Aβ42 has documented antimicrobial activity against bacteria, fungi (*Candida albicans*), and viruses (HSV-1, HIV). It traps pathogens in fibrillar nets structurally similar to neutrophil extracellular traps (NETs). In mouse models, Aβ deposition accelerates in response to bacterial or viral brain infection — and transgenic mice overproducing Aβ survive *Salmonella* meningitis at higher rates than wild-type mice [[romano-2021-microbiome-host-interactions-alzheimers]].
 
-**A metal-binding peptide**: Aβ binds zinc and copper with high affinity at specific N-terminal and C-terminal sites. This may serve a protective role in sequestering redox-active metals from pathogens — fitting the [[nutritional-immunity]] framework. Under normal conditions, Aβ-metal binding is reversible and transient.
+A metal-binding peptide: Aβ binds zinc and copper with high affinity at specific N-terminal and C-terminal sites. This may serve a protective role in sequestering redox-active metals from pathogens — fitting the [[nutritional-immunity]] framework. Under normal conditions, Aβ-metal binding is reversible and transient.
 
-**A synaptic regulator**: At low concentrations, Aβ monomers modulate synaptic transmission and facilitate memory consolidation. Only at pathological oligomeric concentrations does Aβ become synaptotoxic.
+A synaptic regulator: At low concentrations, Aβ monomers modulate synaptic transmission and facilitate memory consolidation. Only at pathological oligomeric concentrations does Aβ become synaptotoxic.
 
 ## The Infection Hypothesis
 
-A growing body of mechanistic evidence repositions amyloid-beta plaque formation as a **misdirected innate immune response** rather than a primary neurodegenerative event [[romano-2021-microbiome-host-interactions-alzheimers]]:
+A growing body of mechanistic evidence repositions amyloid-beta plaque formation as a misdirected innate immune response rather than a primary neurodegenerative event [[romano-2021-microbiome-host-interactions-alzheimers]]:
 
 - Aβ production is upregulated in response to bacterial LPS, viral infection, and fungal exposure
 - Brain infections (HSV-1, *H. pylori* bacteremia, bacterial translocation across a disrupted blood-brain barrier) may trigger Aβ overproduction as a first-line antimicrobial defense
 - The gut-brain axis connects gut dysbiosis to brain Aβ burden — systemic LPS from Gram-negative pathobionts stimulates neuroinflammation and may drive chronic Aβ overproduction
 - Germ-free mice show dramatically reduced Aβ plaque burden; colonization with human AD-patient microbiota increases brain amyloid
 
-This framework positions amyloid-beta accumulation not as the cause of AD but as a **chronic innate immune response to gut-derived pathogenic stimuli** that becomes pathological through overactivation and metal-catalyzed aggregation.
+This framework positions amyloid-beta accumulation not as the cause of AD but as a chronic innate immune response to gut-derived pathogenic stimuli that becomes pathological through overactivation and metal-catalyzed aggregation.
 
 ## Metal-Driven Aggregation
 
 The metallomic signature of Alzheimer's disease — elevated iron, copper, and zinc in plaques and affected brain regions — converges directly on amyloid-beta biochemistry [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]:
 
-**Zinc (Zn)**
+Zinc (Zn)
 - Zinc binds to Aβ at His6, His13, His14, and Glu11, promoting aggregation from soluble monomers to insoluble oligomers and fibrils at physiological concentrations
 - Zinc-Aβ aggregates are structurally distinct from unmetallated Aβ fibrils — they may form faster and be less amenable to disaggregation
 - Zinc accumulation in amyloid plaques is 2–3× higher than in adjacent tissue; intraneuronal zinc release during synaptic transmission may contribute to local Aβ aggregation at synaptic clefts
 
-**Copper (Cu)**
+Copper (Cu)
 - Copper binds Aβ at His6, His13, His14 (same sites as zinc) with higher affinity
 - Cu(I/II) cycling at the Aβ surface catalyzes hydrogen peroxide and hydroxyl radical generation — Fenton-like chemistry that oxidatively damages surrounding neurons
 - Copper-Aβ complexes are more neurotoxic than Aβ alone; soluble Cu-Aβ oligomers show elevated pro-apoptotic activity
 - Ceruloplasmin (the major circulating copper protein) shows reduced activity in AD, impairing ferroxidase function and promoting iron accumulation
 
-**Iron (Fe)**
+Iron (Fe)
 - Iron does not directly aggregate Aβ but accumulates at plaque surfaces and catalyzes oxidative damage to surrounding tissue via Fenton chemistry
 - Elevated ferritin and reduced transferrin saturation in CSF are early biomarkers of AD progression
 - Iron accumulation in the hippocampus tracks with cognitive decline progression
 - Arsenic exposure — which disrupts iron regulatory protein activity and increases BACE1 activity — increases Aβ(1-42) production in 3xTg-AD mouse models; 10 ppm chronic arsenic exposure elevates amyloid plaques and RAGE expression 220-fold [[ahmed-2025-metals-alzheimers-mechanistic-review]]
 
-**Mis-metallation**
+Mis-metallation
 - When toxic metals (lead, cadmium, nickel) occupy the copper- and zinc-binding sites on Aβ, they alter its aggregation kinetics. Lead- and cadmium-Aβ complexes show different structural properties and disaggregation profiles than Zn-Aβ or Cu-Aβ, potentially accelerating pathological accumulation [[mis-metallation]]
 - Arsenic uniquely disrupts nitric oxide (S-nitrosylation) signaling in the hippocampus and striatum, adding a neurochemical dimension to its Aβ-promoting effects [[ahmed-2025-metals-alzheimers-mechanistic-review]]
 
 ## Gut Microbiome Modulation of Aβ Biology
 
-**Curli-mediated cross-seeding**: *E. coli* strains expressing **curli fibers** (functional bacterial amyloids structurally analogous to mammalian amyloids) can cross-seed mammalian amyloid aggregation. In mouse models, oral gavage with curli-expressing *E. coli* accelerates brain Aβ and alpha-synuclein pathology compared to curli-negative strains [[romano-2021-microbiome-host-interactions-alzheimers]]. This is the most direct mechanism linking gut bacterial products to brain amyloid accumulation.
+Curli-mediated cross-seeding: *E. coli* strains expressing curli fibers (functional bacterial amyloids structurally analogous to mammalian amyloids) can cross-seed mammalian amyloid aggregation. In mouse models, oral gavage with curli-expressing *E. coli* accelerates brain Aβ and alpha-synuclein pathology compared to curli-negative strains [[romano-2021-microbiome-host-interactions-alzheimers]]. This is the most direct mechanism linking gut bacterial products to brain amyloid accumulation.
 
-**LPS-driven neuroinflammation**: Gram-negative gut pathobionts (*E. coli*, *Klebsiella*, *H. pylori*) release LPS. Systemic LPS activates TLR4 receptors on brain microglia, inducing pro-inflammatory cytokine release (TNF-α, IL-1β, IL-6). This neuroinflammatory state:
+LPS-driven neuroinflammation: Gram-negative gut pathobionts (*E. coli*, *Klebsiella*, *H. pylori*) release LPS. Systemic LPS activates TLR4 receptors on brain microglia, inducing pro-inflammatory cytokine release (TNF-α, IL-1β, IL-6). This neuroinflammatory state:
 1. Upregulates BACE1 expression (increasing Aβ production)
 2. Impairs microglial phagocytosis of Aβ plaques (reducing clearance)
 3. Activates NLRP3 inflammasome in microglia, amplifying IL-1β production
 
 LPS has been detected in amyloid plaques at concentrations 3× higher than in age-matched controls without AD [[romano-2021-microbiome-host-interactions-alzheimers]].
 
-**H. pylori and Aβ**: *Helicobacter pylori* infection is associated with elevated serum amyloid and increased AD risk in epidemiological studies. *H. pylori* produces ammonia (via nickel-dependent urease), vacuolating toxin VacA, and CagA protein — all of which trigger mucosal and systemic inflammatory responses that chronically stimulate Aβ production.
+H. pylori and Aβ: *Helicobacter pylori* infection is associated with elevated serum amyloid and increased AD risk in epidemiological studies. *H. pylori* produces ammonia (via nickel-dependent urease), vacuolating toxin VacA, and CagA protein — all of which trigger mucosal and systemic inflammatory responses that chronically stimulate Aβ production.
 
-**FMT reduces brain amyloid**: Fecal microbiota transplant from healthy donors into AD mouse models reduced tau phosphorylation and brain Aβ levels, and improved synaptic plasticity [[alonso-garcia-2021-gut-microbiota-proteinopathies]]. This causal experiment establishes the gut microbiome as a functional upstream modulator of brain amyloid pathology — not merely a correlate.
+FMT reduces brain amyloid: Fecal microbiota transplant from healthy donors into AD mouse models reduced tau phosphorylation and brain Aβ levels, and improved synaptic plasticity [[alonso-garcia-2021-gut-microbiota-proteinopathies]]. This causal experiment establishes the gut microbiome as a functional upstream modulator of brain amyloid pathology — not merely a correlate.
 
-**SCFA depletion increases amyloid burden**: SCFA-producing bacteria (*Faecalibacterium prausnitzii*, *Roseburia*, *Bifidobacterium*) are depleted in AD microbiomes. Butyrate inhibits HDAC activity in brain tissue, maintains blood-brain barrier tight junctions, and suppresses neuroinflammatory gene expression. Loss of these bacteria removes multiple layers of protection against Aβ accumulation and aggregation.
+SCFA depletion increases amyloid burden: SCFA-producing bacteria (*Faecalibacterium prausnitzii*, *Roseburia*, *Bifidobacterium*) are depleted in AD microbiomes. Butyrate inhibits HDAC activity in brain tissue, maintains blood-brain barrier tight junctions, and suppresses neuroinflammatory gene expression. Loss of these bacteria removes multiple layers of protection against Aβ accumulation and aggregation.
 
 ## Blood-Brain Barrier Failure as the Gateway
 

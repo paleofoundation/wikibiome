@@ -18,7 +18,7 @@ conditions_depleted_in: [schizophrenia]
 
 # Purpureocillium
 
-A filamentous fungus in the order Hypocreales (family Ophiocordycipitaceae), historically studied as an insect and nematode pathogen (*P. lilacinum*, formerly *Paecilomyces lilacinus*), now emerging as a clinically significant **protective member of the gut mycobiome** — and its near-elimination is a defining feature of schizophrenia-associated fungal dysbiosis.
+A filamentous fungus in the order Hypocreales (family Ophiocordycipitaceae), historically studied as an insect and nematode pathogen (*P. lilacinum*, formerly *Paecilomyces lilacinus*), now emerging as a clinically significant protective member of the gut mycobiome — and its near-elimination is a defining feature of schizophrenia-associated fungal dysbiosis.
 
 ## Taxonomy and Ecological Background
 
@@ -29,16 +29,16 @@ A filamentous fungus in the order Hypocreales (family Ophiocordycipitaceae), his
 
 ## Mycobiome Enterotype: The Healthy State Baseline
 
-One of the most striking findings from mycobiome research in schizophrenia is the existence of **two distinct fungal community states** (enterotypes) in elderly Chinese subjects [[ling-2025-fecal-mycobiota-elderly-chinese-schizophrenia-purpureocillium]]:
+One of the most striking findings from mycobiome research in schizophrenia is the existence of two distinct fungal community states (enterotypes) in elderly Chinese subjects [[ling-2025-fecal-mycobiota-elderly-chinese-schizophrenia-purpureocillium]]:
 
-- **Enterotype E1 (Purpureocillium-dominant)**: Present in **84.4% (54/64) of healthy controls**. This is the dominant fungal community organization in cognitively intact elderly individuals.
-- **Enterotype E2 (Candida-dominant)**: Present in **65.5% (57/87) of schizophrenia patients**. The shift from E1 to E2 represents not just depletion of *Purpureocillium* but a wholesale restructuring of the mycobiome toward a yeast-dominated state.
+- Enterotype E1 (Purpureocillium-dominant): Present in 84.4% (54/64) of healthy controls. This is the dominant fungal community organization in cognitively intact elderly individuals.
+- Enterotype E2 (Candida-dominant): Present in 65.5% (57/87) of schizophrenia patients. The shift from E1 to E2 represents not just depletion of *Purpureocillium* but a wholesale restructuring of the mycobiome toward a yeast-dominated state.
 
 This enterotype framework — applied to the mycobiome — parallels the bacterial enterotype concept but with striking disease specificity for neuropsychiatric outcomes. The Candida-dominant state is associated with elevated inflammatory cytokines, while the Purpureocillium-dominant state correlates with relative immune quiescence.
 
 ## Cognitive Impact
 
-*Purpureocillium* abundance is **negatively correlated with performance across five cognitive domains** in schizophrenia patients — meaning higher *Purpureocillium* is associated with better cognitive performance [[yuan-2025-purpureocillium-amino-acid-metabolism-cognitive-schizophrenia]]:
+*Purpureocillium* abundance is negatively correlated with performance across five cognitive domains in schizophrenia patients — meaning higher *Purpureocillium* is associated with better cognitive performance [[yuan-2025-purpureocillium-amino-acid-metabolism-cognitive-schizophrenia]]:
 
 | Cognitive Domain | Relationship to Purpureocillium |
 |---|---|
@@ -54,13 +54,13 @@ This multi-domain cognitive association is unusual — most gut-brain axis findi
 
 The cognitive impact appears to operate through depletion of three key neuroactive metabolites when *Purpureocillium* is absent [[yuan-2025-purpureocillium-amino-acid-metabolism-cognitive-schizophrenia]]:
 
-**1. Ergothioneine**
+1. Ergothioneine
 A potent antioxidant and cytoprotectant synthesized exclusively by fungi and certain bacteria (notably *Mycobacterium* species). Ergothioneine is not synthesized by mammals and must be acquired from diet or gut microbial production. It accumulates in tissues with high oxidative stress exposure — brain, liver, kidney, mitochondria. *Purpureocillium* is among the gut fungal species that produce or support ergothioneine availability; its depletion removes this antioxidant supply to neural tissue.
 
-**2. N-acetylserotonin**
+2. N-acetylserotonin
 A melatonin precursor with independent neuroprotective and neurotrophic properties. N-acetylserotonin activates TrkB receptors (the BDNF receptor), promoting neuronal survival and synaptic plasticity without requiring BDNF itself. Its depletion disrupts both serotonergic signaling and circadian regulation — both highly relevant to schizophrenia pathophysiology.
 
-**3. 2-oxoarginine**
+3. 2-oxoarginine
 An arginine metabolite involved in nitric oxide signaling and neural plasticity. Arginine-derived nitric oxide modulates NMDA receptor function and long-term potentiation; disruption of this pathway intersects with the glutamatergic hypothesis of schizophrenia.
 
 The convergence on amino acid metabolism and antioxidant supply suggests *Purpureocillium* reshapes the mycobiome metabolic landscape in ways that specifically compromise neuroactive compound availability across multiple pathways simultaneously.
@@ -71,14 +71,14 @@ The *Purpureocillium/Aspergillus* ratio and *Turicibacteraceae/Moraxellaceae* ba
 
 ## Diagnostic Potential
 
-- The ***Purpureocillium/Aspergillus* ratio** has been validated as a mycobiome-based biomarker for cognitive severity in schizophrenia [[yuan-2025-purpureocillium-amino-acid-metabolism-cognitive-schizophrenia]].
+- The *Purpureocillium/Aspergillus* ratio has been validated as a mycobiome-based biomarker for cognitive severity in schizophrenia [[yuan-2025-purpureocillium-amino-acid-metabolism-cognitive-schizophrenia]].
 - [[aspergillus]] shows an opposing metabolic profile; its relative abundance correlates with preserved cognitive function, creating a ratio whose directionality is clinically informative.
 - ROC-based fungal classifiers incorporating *Purpureocillium* status effectively discriminate schizophrenia from healthy controls [[ling-2025-fecal-mycobiota-elderly-chinese-schizophrenia-purpureocillium]].
 - The non-invasive ITS-based mycobiome test required for these analyses is technically feasible with existing clinical laboratory infrastructure.
 
 ## Immune Interactions
 
-- *Purpureocillium lilacinum* showed **negative correlation with systemic immune dysfunction cytokines** in schizophrenia cohorts [[ling-2025-fecal-mycobiota-elderly-chinese-schizophrenia-purpureocillium]], suggesting it may actively suppress fungal-driven inflammatory signaling or compete with *Candida* and other pro-inflammatory fungi.
+- *Purpureocillium lilacinum* showed negative correlation with systemic immune dysfunction cytokines in schizophrenia cohorts [[ling-2025-fecal-mycobiota-elderly-chinese-schizophrenia-purpureocillium]], suggesting it may actively suppress fungal-driven inflammatory signaling or compete with *Candida* and other pro-inflammatory fungi.
 - The E1 (Purpureocillium-dominant) enterotype is associated with lower inflammatory tone than the E2 (Candida-dominant) state.
 - Whether *Purpureocillium* exerts immune modulation directly or primarily through competitive exclusion of more inflammatory fungi is not yet established.
 
@@ -86,12 +86,12 @@ The *Purpureocillium/Aspergillus* ratio and *Turicibacteraceae/Moraxellaceae* ba
 
 Understanding *Purpureocillium*'s protective role requires framing it within the competitive ecology of the gut mycobiome:
 
-**In healthy individuals**:
+In healthy individuals:
 - The E1 (Purpureocillium-dominant) state represents a fungal community where filamentous fungi, including *Purpureocillium* and *Aspergillus*, maintain competitive balance against yeast-form fungi like *Candida* and *Saccharomyces*.
 - *Purpureocillium* likely competes with *Candida* for adhesion sites on the gut mucosa and for nutritional substrates, limiting yeast overgrowth.
 - Its filamentous growth form may physically displace yeast colonies, providing a structural competitive advantage in the mucosal niche.
 
-**In schizophrenia (E2 state)**:
+In schizophrenia (E2 state):
 - The loss of *Purpureocillium* removes both competitive exclusion of *Candida* and the ergothioneine/N-acetylserotonin supply it provides.
 - *Candida* expansion in the vacated niche introduces a pro-inflammatory mycobiome signature: *Candida* hyphal forms activate NLRP3 inflammasome and IL-1β production, creating neuroinflammatory metabolite burden.
 - The transition from E1 to E2 is thus a self-reinforcing shift: *Purpureocillium* loss → *Candida* expansion → inflammatory cytokines → further antifungal immune responses that may paradoxically worsen the imbalance.
@@ -100,9 +100,9 @@ Understanding *Purpureocillium*'s protective role requires framing it within the
 
 *Purpureocillium lilacinum* biosynthesizes secondary metabolites (including cyclosporins and destruxin analogs) that require iron-containing cytochrome P450 enzymes. Its filamentous growth and sporulation also depend on:
 
-- **Iron**: Required for respiratory chain components and cytochrome P450-dependent biosynthetic pathways; iron availability in the gut lumen influences *Purpureocillium* growth rate and competitive fitness.
-- **Zinc**: Zinc-finger transcription factors control sporulation and secondary metabolite production in Hypocreales fungi; zinc deficiency may impair *Purpureocillium* persistence.
-- **Selenium**: Glutathione peroxidase variants (selenium-dependent) in fungi support the antioxidant capacity that underpins ergothioneine's protective function — dietary selenium may modulate gut antioxidant metabolite availability indirectly through fungal community composition.
+- Iron: Required for respiratory chain components and cytochrome P450-dependent biosynthetic pathways; iron availability in the gut lumen influences *Purpureocillium* growth rate and competitive fitness.
+- Zinc: Zinc-finger transcription factors control sporulation and secondary metabolite production in Hypocreales fungi; zinc deficiency may impair *Purpureocillium* persistence.
+- Selenium: Glutathione peroxidase variants (selenium-dependent) in fungi support the antioxidant capacity that underpins ergothioneine's protective function — dietary selenium may modulate gut antioxidant metabolite availability indirectly through fungal community composition.
 
 ## Wikipedia Differentiation
 

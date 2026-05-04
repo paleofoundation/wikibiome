@@ -4,8 +4,8 @@
 - New:       `/Users/kmfp/Documents/Claude/Raw/raw/Autism papers, but disorganized. Not yet added or ingested`
 - Mode:      DELETE
 
-- Files in new that duplicate canonical: **81**
-- Files unique to new (kept): **117**
+- Files in new that duplicate canonical: 81
+- Files unique to new (kept): 117
 
 ## Duplicates removed from new folder
 

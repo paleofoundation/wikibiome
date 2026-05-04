@@ -17,29 +17,29 @@ platform: wikibiome
 
 ## Overview
 
-The **bacterial contamination hypothesis** proposes that bacterial endotoxin (LPS) contamination of menstrual blood and endometrial tissue is a key driver of endometriosis pathogenesis. First formalized by **Khan et al. (2018)**, this hypothesis shifts endometriosis from a purely hormonal or immunological disease to one with a significant microbial component -- and connects it to WikiBiome's core themes of metal-microbe interaction and ecological disruption.
+The bacterial contamination hypothesis proposes that bacterial endotoxin (LPS) contamination of menstrual blood and endometrial tissue is a key driver of endometriosis pathogenesis. First formalized by Khan et al. (2018), this hypothesis shifts endometriosis from a purely hormonal or immunological disease to one with a significant microbial component -- and connects it to WikiBiome's core themes of metal-microbe interaction and ecological disruption.
 
-The central claim: **[[escherichia-coli]] contamination of menstrual blood activates the LPS/TLR4/NF-kB inflammatory cascade in endometriotic tissue**, driving growth factor production, angiogenesis, and lesion proliferation. Iron accumulation in the peritoneal environment synergizes with this bacterial contamination, creating a self-reinforcing cycle of inflammation and pathogen expansion.
+The central claim: [[escherichia-coli]] contamination of menstrual blood activates the LPS/TLR4/NF-kB inflammatory cascade in endometriotic tissue, driving growth factor production, angiogenesis, and lesion proliferation. Iron accumulation in the peritoneal environment synergizes with this bacterial contamination, creating a self-reinforcing cycle of inflammation and pathogen expansion.
 
 ## Key Evidence
 
 ### LPS in Menstrual Blood
-- **LPS concentration in menstrual fluid is 4-6x higher** in endometriosis patients vs. controls [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].
+- LPS concentration in menstrual fluid is 4-6x higher in endometriosis patients vs. controls [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].
 - *E. coli* is "highly contaminated" in menstrual blood and endometrial samples from endometriosis patients [[khan-2016-intrauterine-microbial-colonization-endometriosis]].
-- **PGE2 promotes *E. coli* growth** in menstrual blood, creating a cyclical amplification: inflammation → PGE2 → bacterial growth → more LPS → more inflammation [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].
+- PGE2 promotes *E. coli* growth in menstrual blood, creating a cyclical amplification: inflammation → PGE2 → bacterial growth → more LPS → more inflammation [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].
 
 ### LPS/TLR4/NF-kB Signaling Cascade
 LPS binding to TLR4 on endometriotic cells activates NF-kB, which drives production of:
-- **HGF** (hepatocyte growth factor) -- promotes cell proliferation
-- **VEGF** (vascular endothelial growth factor) -- drives angiogenesis
-- **IL-6, IL-8, TNF-alpha** -- pro-inflammatory cytokines maintaining the inflammatory microenvironment
+- HGF (hepatocyte growth factor) -- promotes cell proliferation
+- VEGF (vascular endothelial growth factor) -- drives angiogenesis
+- IL-6, IL-8, TNF-alpha -- pro-inflammatory cytokines maintaining the inflammatory microenvironment
 
-**Anti-TLR4 antibody blocked LPS-stimulated endometriotic cell proliferation**, confirming this pathway is functionally required for the bacterial contamination effect [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].
+Anti-TLR4 antibody blocked LPS-stimulated endometriotic cell proliferation, confirming this pathway is functionally required for the bacterial contamination effect [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].
 
 ### Vaginal Microbiome Dysbiosis
-- **Vaginal pH shifted to >4.5 in 79.3% of endometriosis patients** vs. 58.4% of controls, indicating loss of Lactobacillus dominance and shift toward a polymicrobial state [[perrotta-2020-vaginal-microbiome-predict-rASRM-endometriosis]].
+- Vaginal pH shifted to >4.5 in 79.3% of endometriosis patients vs. 58.4% of controls, indicating loss of Lactobacillus dominance and shift toward a polymicrobial state [[perrotta-2020-vaginal-microbiome-predict-rASRM-endometriosis]].
 - Multi-site microbial signatures (oral, vaginal, stool) distinguish endometriosis patients from controls [[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]].
-- GnRHa treatment (a standard endometriosis therapy) **worsened** intrauterine microbial colonization, suggesting some treatments may exacerbate the contamination problem [[khan-2016-intrauterine-microbial-colonization-endometriosis]].
+- GnRHa treatment (a standard endometriosis therapy) worsened intrauterine microbial colonization, suggesting some treatments may exacerbate the contamination problem [[khan-2016-intrauterine-microbial-colonization-endometriosis]].
 
 ### Peritoneal Microbiota
 - Peritoneal fluid and ovarian endometrioma tissue harbor distinct microbial communities [[lee-2021-peritoneal-microbiota-ovarian-endometrioma]].
@@ -49,10 +49,10 @@ LPS binding to TLR4 on endometriotic cells activates NF-kB, which drives product
 
 This is where the bacterial contamination hypothesis connects to WikiBiome's metallomics framework:
 
-- **Iron accumulates in endometriotic fluid** from retrograde menstruation and local hemorrhage.
-- Free iron in the peritoneal cavity is both **directly inflammatory** (Fenton reaction → ROS) and **a growth factor for siderophore-producing bacteria** like *E. coli*.
+- Iron accumulates in endometriotic fluid from retrograde menstruation and local hemorrhage.
+- Free iron in the peritoneal cavity is both directly inflammatory (Fenton reaction → ROS) and a growth factor for siderophore-producing bacteria like *E. coli*.
 - *E. coli* encodes high-affinity siderophore systems (enterobactin, yersiniabactin) that scavenge iron from the host environment.
-- The result is a **self-reinforcing cycle**: menstrual iron → *E. coli* proliferation → LPS release → inflammation → more bleeding/iron accumulation → more *E. coli* growth.
+- The result is a self-reinforcing cycle: menstrual iron → *E. coli* proliferation → LPS release → inflammation → more bleeding/iron accumulation → more *E. coli* growth.
 
 This synergy between iron ecology (Primitive 8) and bacterial contamination creates the conditions for persistent endometriotic lesion growth.
 
@@ -68,11 +68,11 @@ The bacterial contamination hypothesis intersects with [[beta-glucuronidase]] ac
 
 The bacterial contamination hypothesis has direct implications for endometriosis management:
 
-1. **Antimicrobial strategies** targeting *E. coli* in the reproductive tract may have therapeutic value.
-2. **Iron chelation** in peritoneal fluid could break the iron-bacterial growth cycle.
-3. **Vaginal microbiome restoration** (Lactobacillus-dominant eubiosis) may reduce ascending bacterial contamination.
-4. **GnRHa treatment** should be re-evaluated in light of its paradoxical effect on microbial colonization.
-5. **Anti-TLR4 therapies** could block the inflammatory cascade downstream of bacterial contamination.
+1. Antimicrobial strategies targeting *E. coli* in the reproductive tract may have therapeutic value.
+2. Iron chelation in peritoneal fluid could break the iron-bacterial growth cycle.
+3. Vaginal microbiome restoration (Lactobacillus-dominant eubiosis) may reduce ascending bacterial contamination.
+4. GnRHa treatment should be re-evaluated in light of its paradoxical effect on microbial colonization.
+5. Anti-TLR4 therapies could block the inflammatory cascade downstream of bacterial contamination.
 
 ## Open Questions
 

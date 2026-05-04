@@ -9,26 +9,26 @@ tags: [maintenance, gaps, improvements, roadmap]
 
 # WikiBiome / Cureva — Gaps & Improvement Report
 
-**Generated:** 2026-04-12 (automated scheduled run)
-**Scope:** Full audit of wiki content, raw paper library, index accuracy, and roadmap alignment
-**Related:** See also `wiki/analyses/lint-report-2026-04-12.md` for structural/formatting issues
+Generated: 2026-04-12 (automated scheduled run)
+Scope: Full audit of wiki content, raw paper library, index accuracy, and roadmap alignment
+Related: See also `wiki/analyses/lint-report-2026-04-12.md` for structural/formatting issues
 
 ---
 
 ## Executive Summary
 
-The knowledge base is in strong structural shape with 13 complete signatures, 88 concept pages, 130+ entity pages, and ~1,426 source pages. The lint report captures all formatting and schema issues. This report focuses on **content gaps** and **strategic improvements** not fully covered by the lint report.
+The knowledge base is in strong structural shape with 13 complete signatures, 88 concept pages, 130+ entity pages, and ~1,426 source pages. The lint report captures all formatting and schema issues. This report focuses on content gaps and strategic improvements not fully covered by the lint report.
 
-**The three biggest gaps:**
-1. **9 conditions with 65–79 raw papers each have no signature page** — Hashimoto's, PPD, Rheumatoid Arthritis, CKD, Schizophrenia, Type 1 Diabetes, GERD, Ovarian Cancer, Pancreatic Cancer
-2. **180 unorganized ASD papers** remain in the disorganized holding folder and have not been ingested
-3. **Intervention coverage is thin** — only 5 intervention pages exist despite 13 signatures; most conditions have zero linked interventions
+The three biggest gaps:
+1. 9 conditions with 65–79 raw papers each have no signature page — Hashimoto's, PPD, Rheumatoid Arthritis, CKD, Schizophrenia, Type 1 Diabetes, GERD, Ovarian Cancer, Pancreatic Cancer
+2. 180 unorganized ASD papers remain in the disorganized holding folder and have not been ingested
+3. Intervention coverage is thin — only 5 intervention pages exist despite 13 signatures; most conditions have zero linked interventions
 
 ---
 
 ## Section 1: Missing Signature Pages — Readiness Assessment
 
-The following conditions have raw paper libraries already organized by category (65–79 papers each) but no signature page exists. These are **ready to build** in order of strategic priority:
+The following conditions have raw paper libraries already organized by category (65–79 papers each) but no signature page exists. These are ready to build in order of strategic priority:
 
 | Condition | Raw Papers | Ingested Sources (approx) | Metallomic Angle | Priority |
 |-----------|-----------|--------------------------|-----------------|----------|
@@ -42,20 +42,20 @@ The following conditions have raw paper libraries already organized by category 
 | Ovarian Cancer | 68 | Sources present | Metalloestrogen angle; cadmium; Fusobacterium | 🟢 Medium |
 | Pancreatic Cancer | 67 | Sources present | Mycobiome (Malassezia); iron ecology; Fusobacterium | 🟢 Medium |
 
-**Cerebral Palsy is an additional gap**: 79 raw papers exist but there is no entity page, no sources ingested, and no signature. This condition may warrant a dedicated entity page before a signature can be built.
+Cerebral Palsy is an additional gap: 79 raw papers exist but there is no entity page, no sources ingested, and no signature. This condition may warrant a dedicated entity page before a signature can be built.
 
 ---
 
 ## Section 2: 180 Unorganized ASD Papers — Incomplete Ingest
 
-The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains **180 PDF files** that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:
+The folder `raw/Autism papers, but disorganized. Not yet added or ingested/UNORGANIZED PAPERS/` contains 180 PDF files that have never been ingested into the wiki. The ASD signature page (`autism-spectrum-disorder-signature.md`) was built from only 21 sources in April 2026. These 180 additional papers may contain:
 
 - Additional metallomic data for the ASD signature (currently `cureva_status: in-progress`)
 - Intervention evidence (particularly for the low-nickel and probiotics pages)
 - Additional STOP candidates
 - Relevant microbe entity data
 
-**Recommended action:** Run the structured ingest workflow on this folder. Given the volume (180 papers), this is a multi-session effort. Suggest prioritizing: (1) any papers about metals + ASD, (2) any RCT intervention papers, (3) any signature/microbiome composition papers.
+Recommended action: Run the structured ingest workflow on this folder. Given the volume (180 papers), this is a multi-session effort. Suggest prioritizing: (1) any papers about metals + ASD, (2) any RCT intervention papers, (3) any signature/microbiome composition papers.
 
 ---
 
@@ -75,13 +75,13 @@ A `raw/RE-INGEST-PROMPT.md` file exists with instructions to verify and re-inges
 | Counterproductive Exposé Testing | 10.5281/zenodo.19470572 | ✅ Yes (`pendergrass-2026-counterproductive-expose-testing.md`) | Verify DOI |
 | Certification Framework + Infant Foods | 10.5281/zenodo.18905821 | ✅ Yes (`pendergrass-2026-certification-infant-food-metals.md`) | Verify DOI |
 
-All 9 papers appear to have source pages. **Recommended action:** Verify each DOI matches the actual Zenodo record to guard against hallucinated DOIs (a known past issue per memory). The re-ingest prompt also asks to check whether the content JSON was rebuilt with `node scripts/build-content.cjs --platform all`.
+All 9 papers appear to have source pages. Recommended action: Verify each DOI matches the actual Zenodo record to guard against hallucinated DOIs (a known past issue per memory). The re-ingest prompt also asks to check whether the content JSON was rebuilt with `node scripts/build-content.cjs --platform all`.
 
 ---
 
 ## Section 4: Intervention Coverage Gap
 
-Only **5 intervention pages** exist for **13 disease signatures**. This is the most significant Cureva platform gap. Coverage by condition:
+Only 5 intervention pages exist for 13 disease signatures. This is the most significant Cureva platform gap. Coverage by condition:
 
 | Condition | Has Linked Intervention? | Has STOP(s)? | Intervention Gap |
 |-----------|--------------------------|--------------|-----------------|
@@ -99,9 +99,9 @@ Only **5 intervention pages** exist for **13 disease signatures**. This is the m
 | Obesity | ❌ | ❌ | No interventions or STOPs at all |
 | Type 2 Diabetes | ❌ | ❌ | No interventions or STOPs at all |
 
-**8 of 13 signatures have no linked intervention page.** This is the core clinical intelligence gap for the Cureva platform.
+8 of 13 signatures have no linked intervention page. This is the core clinical intelligence gap for the Cureva platform.
 
-**Recommended quick wins:**
+Recommended quick wins:
 - Create `stop-iron-supplementation-parkinsons.md` — Parkinson's has clear hepcidin elevation and siderophore-producing pathobiont enrichment; fits the cross-condition STOP pattern
 - Create `stop-iron-supplementation-depression.md` — same pattern; functional anemia vs true deficiency
 - Create intervention pages for Parkinson's: low-nickel diet (via shared H. pylori / Proteus mechanism) and iron chelation (ferroptosis angle from the Pendergrass 2025 paper)
@@ -167,11 +167,11 @@ These three appear in the index concept list. Verify they have substantive conte
 ## Section 7: WikiBiome v2 Roadmap Alignment
 
 From the v2 roadmap (per memory):
-- **Signature sidebars** — Requires complete intervention + STOP coverage per condition (currently only 4/13 conditions covered)
-- **50 microbe pages target** — Currently 83 microbe entities, so target is exceeded in count; quality audit of thin pages needed
-- **Author outreach** — Pendergrass paper pages exist; ensure they link back to her Zenodo profile
-- **Chat feature** — Requires structured data quality; index staleness is a blocker
-- **User accounts** — No blockers identified
+- Signature sidebars — Requires complete intervention + STOP coverage per condition (currently only 4/13 conditions covered)
+- 50 microbe pages target — Currently 83 microbe entities, so target is exceeded in count; quality audit of thin pages needed
+- Author outreach — Pendergrass paper pages exist; ensure they link back to her Zenodo profile
+- Chat feature — Requires structured data quality; index staleness is a blocker
+- User accounts — No blockers identified
 
 ---
 

@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Butyricimonas
 
-A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (family Odoribacteraceae). Despite its relatively recent characterization, *Butyricimonas* has gained significant attention as a member of the **protective butyrate-producing consortium** that is consistently depleted in inflammatory and autoimmune conditions. Key species include *B. virosa* and *B. synergistica*.
+A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (family Odoribacteraceae). Despite its relatively recent characterization, *Butyricimonas* has gained significant attention as a member of the protective butyrate-producing consortium that is consistently depleted in inflammatory and autoimmune conditions. Key species include *B. virosa* and *B. synergistica*.
 
 ## Role in Gut Ecosystem
 
@@ -32,8 +32,8 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (famil
 ## Disease Associations
 
 ### Multiple Sclerosis -- Key Depleted Taxon
-- **Decreased in MS patients** in the landmark Jangi 2016 study, which established the foundational MS-microbiome connection [[jangi-2016-gut-microbiome-alterations-ms]].
-- *Butyricimonas* abundance showed **negative correlations** with pro-inflammatory gene expression in circulating T cells and monocytes, including genes involved in dendritic cell maturation, interferon signaling, and [[nf-kappa-b]] signaling [[jangi-2016-gut-microbiome-alterations-ms]].
+- Decreased in MS patients in the landmark Jangi 2016 study, which established the foundational MS-microbiome connection [[jangi-2016-gut-microbiome-alterations-ms]].
+- *Butyricimonas* abundance showed negative correlations with pro-inflammatory gene expression in circulating T cells and monocytes, including genes involved in dendritic cell maturation, interferon signaling, and [[nf-kappa-b]] signaling [[jangi-2016-gut-microbiome-alterations-ms]].
 - This is the inverse of the pattern seen with [[methanobrevibacter]] and [[akkermansia-muciniphila]], which were increased in MS and positively correlated with these inflammatory pathways [[jangi-2016-gut-microbiome-alterations-ms]].
 - Higher baseline abundance in MS patients reported in the Troci 2022 study (as part of broader Bacteroidetes expansion), illustrating study-to-study variability [[troci-2022-b-cell-depletion-reverses-dysbiosis-ms]].
 - Dietary intake patterns strongly modulate *Butyricimonas* abundance in MS cohorts, suggesting responsiveness to nutritional interventions [[bronzini-2023-feeding-gut-microbiome-ms]].
@@ -49,8 +49,8 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (famil
 
 ## Key Metabolites
 
-- **Butyrate** -- primary product; anti-inflammatory HDAC inhibitor, colonocyte energy source, Treg inducer
-- **Iso-butyrate** -- branched-chain fatty acid from protein fermentation
+- Butyrate -- primary product; anti-inflammatory HDAC inhibitor, colonocyte energy source, Treg inducer
+- Iso-butyrate -- branched-chain fatty acid from protein fermentation
 
 ## Mechanistic Significance in MS
 

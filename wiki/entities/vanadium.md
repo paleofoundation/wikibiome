@@ -4,12 +4,20 @@ type: entity
 subtype: metal
 created: 2026-04-19
 updated: 2026-04-19
-sources: []
-source_count: 0
+sources:
+  - jaishankar-2014-heavy-metal-toxicity-mechanisms
+  - tatarchuk-2016-micro-macroelements-pcos
+  - liu-2025-cardiometabolic-nickel
+  - briffa-2020-heavy-metal-pollution-environment-toxicology
+  - cameron-2011-nickel-genotoxicity-carcinogenicity
+  - hickman-lewis-2020-metallomics-deep-time-ocean-chemistry
+  - zhou-2025-heavy-metals-essential-minerals-hair-asd-severity
+  - maurya-2020-arg-soil-microbiomes-co-selection
+source_count: 8
 tags: [transition-metal, trace-element]
 platform: wikibiome
-stub: true
-stub_reason: "auto-discovered from source mention — 8 sources discuss this metal, awaiting content expansion"
+
+last_substantive_update: 2026-04-22
 ---
 
 # Vanadium

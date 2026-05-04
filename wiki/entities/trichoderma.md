@@ -4,9 +4,15 @@ type: entity
 subtype: fungus
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort
+  - shi-2023-ppi-fungal-dysbiosis-gerd
+  - de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons
+  - mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca
+  - krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model
+  - gosiewski-2014-candida-feces-t1d-t2d-pilot-study
+source_count: 6
 tags:
   - ascomycota
   - hypocreaceae
@@ -29,17 +35,15 @@ pathogenic_potential: opportunistic
 conditions_enriched_in:
   - immunocompromised-infections
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Trichoderma** is a genus of filamentous ascomycete fungi ubiquitous in soil and plant root ecosystems. Best known as a biological control agent against plant pathogens, Trichoderma species produce an arsenal of hydrolytic enzymes and antimicrobial compounds. Rarely, they cause invasive infections in severely immunocompromised humans.
+Trichoderma is a genus of filamentous ascomycete fungi ubiquitous in soil and plant root ecosystems. Best known as a biological control agent against plant pathogens, Trichoderma species produce an arsenal of hydrolytic enzymes and antimicrobial compounds. Rarely, they cause invasive infections in severely immunocompromised humans.
 
 ## Metal Dependencies
 
-Trichoderma species are prolific **siderophore producers**, synthesizing hydroxamate-type siderophores that sequester **iron** from the environment with high affinity. This iron-scavenging capacity is central to their biocontrol activity — they starve competing fungi of iron. They also require **zinc** for metalloprotease activity and **copper** for laccase-mediated lignin degradation.
+Trichoderma species are prolific siderophore producers, synthesizing hydroxamate-type siderophores that sequester iron from the environment with high affinity. This iron-scavenging capacity is central to their biocontrol activity — they starve competing fungi of iron. They also require zinc for metalloprotease activity and copper for laccase-mediated lignin degradation.
 
 ## Ecological Role
 

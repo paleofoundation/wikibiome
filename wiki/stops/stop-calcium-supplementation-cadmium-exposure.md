@@ -20,7 +20,7 @@ karen_brain_primitives: [3]
 
 # STOP: Calcium Supplementation with Cadmium Exposure
 
-> **Research summary -- not medical advice.** This page synthesizes published research on why a commonly recommended intervention requires careful consideration in the context of cadmium exposure. Consult a qualified healthcare provider before making changes to supplementation.
+> Research summary -- not medical advice. This page synthesizes published research on why a commonly recommended intervention requires careful consideration in the context of cadmium exposure. Consult a qualified healthcare provider before making changes to supplementation.
 
 ## The Problem: Cadmium Exploits Calcium Pathways
 
@@ -32,18 +32,18 @@ Cadmium and calcium share critical transport pathways into cells. Cd2+ enters vi
 
 Lead follows ionic mechanisms similar to Ca2+, and cadmium does the same -- both exploit the host's calcium uptake machinery. Key entry points include:
 
-- **Voltage-gated calcium channels**: Cd2+ passes through L-type and T-type calcium channels in intestinal epithelium, renal tubules, and other tissues
-- **DMT1 (SLC11A2)**: The divalent metal transporter that imports Fe2+ also imports Cd2+; iron deficiency upregulates DMT1, increasing Cd absorption [[rasin-2025-cadmium-exposure-health-review]]
-- **TRPV6**: A calcium-selective channel in intestinal epithelium that also permits Cd2+ entry
+- Voltage-gated calcium channels: Cd2+ passes through L-type and T-type calcium channels in intestinal epithelium, renal tubules, and other tissues
+- DMT1 (SLC11A2): The divalent metal transporter that imports Fe2+ also imports Cd2+; iron deficiency upregulates DMT1, increasing Cd absorption [[rasin-2025-cadmium-exposure-health-review]]
+- TRPV6: A calcium-selective channel in intestinal epithelium that also permits Cd2+ entry
 
 ### 2. Cadmium Displaces Calcium in Signaling
 
 Once inside cells, Cd2+ disrupts calcium-dependent processes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]:
 
-- **Cell adhesion**: Cd disrupts cadherin-dependent cell-cell contacts (calcium-dependent adhesion molecules)
-- **Protein kinase C**: Cd activates PKC inappropriately, mimicking calcium signals
-- **Calmodulin**: Cd binds calmodulin and alters downstream signaling cascades
-- **Apoptosis**: Cd disrupts calcium-dependent apoptotic pathways
+- Cell adhesion: Cd disrupts cadherin-dependent cell-cell contacts (calcium-dependent adhesion molecules)
+- Protein kinase C: Cd activates PKC inappropriately, mimicking calcium signals
+- Calmodulin: Cd binds calmodulin and alters downstream signaling cascades
+- Apoptosis: Cd disrupts calcium-dependent apoptotic pathways
 
 ### 3. The Bone Destruction Cycle (Itai-Itai)
 
@@ -86,15 +86,15 @@ Calcium supplementation is appropriate when:
 
 ## Alternatives
 
-1. **Tested, certified calcium supplements**: Choose products with third-party heavy metal testing (USP, NSF, or ConsumerLab verified).
+1. Tested, certified calcium supplements: Choose products with third-party heavy metal testing (USP, NSF, or ConsumerLab verified).
 
-2. **Dairy-sourced calcium**: Milk, yogurt, and cheese generally have lower cadmium contamination than plant or marine sources.
+2. Dairy-sourced calcium: Milk, yogurt, and cheese generally have lower cadmium contamination than plant or marine sources.
 
-3. **Vitamin D optimization**: Adequate vitamin D (25-OH-D >30 ng/mL) improves intestinal calcium absorption, reducing the need for high-dose calcium supplements.
+3. Vitamin D optimization: Adequate vitamin D (25-OH-D >30 ng/mL) improves intestinal calcium absorption, reducing the need for high-dose calcium supplements.
 
-4. **Iron status maintenance**: Adequate iron stores prevent DMT1 upregulation, which would otherwise increase cadmium absorption alongside calcium [[rasin-2025-cadmium-exposure-health-review]].
+4. Iron status maintenance: Adequate iron stores prevent DMT1 upregulation, which would otherwise increase cadmium absorption alongside calcium [[rasin-2025-cadmium-exposure-health-review]].
 
-5. **Cadmium monitoring**: In at-risk populations, measure blood and urine cadmium before initiating calcium supplementation. Blood Cd >=0.4 ug/L indicates meaningful exposure.
+5. Cadmium monitoring: In at-risk populations, measure blood and urine cadmium before initiating calcium supplementation. Blood Cd >=0.4 ug/L indicates meaningful exposure.
 
 ## Connections
 
@@ -109,4 +109,4 @@ Calcium supplementation is appropriate when:
 
 ---
 
-> **Educational content, not medical advice.** Calcium supplementation decisions should consider cadmium exposure status, supplement purity, and individual risk factors. Populations with known cadmium exposure should have their calcium supplements tested for heavy metal contamination.
+> Educational content, not medical advice. Calcium supplementation decisions should consider cadmium exposure status, supplement purity, and individual risk factors. Populations with known cadmium exposure should have their calcium supplements tested for heavy metal contamination.

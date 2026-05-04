@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-**Chelation therapy** uses high-affinity metal-binding molecules to form stable, excretable complexes with toxic metals, removing them from the body. The term derives from Greek "chele" (claw) -- the chelator grips the metal ion at multiple coordination sites. While chelation is life-saving in acute metal poisoning, its broader application raises important questions from the microbiome perspective: chelators do not distinguish between metal in human tissue and metal sustaining the gut microbiome, creating the potential for unintended ecological disruption.
+Chelation therapy uses high-affinity metal-binding molecules to form stable, excretable complexes with toxic metals, removing them from the body. The term derives from Greek "chele" (claw) -- the chelator grips the metal ion at multiple coordination sites. While chelation is life-saving in acute metal poisoning, its broader application raises important questions from the microbiome perspective: chelators do not distinguish between metal in human tissue and metal sustaining the gut microbiome, creating the potential for unintended ecological disruption.
 
 For a comprehensive guide to individual chelating agents, see [[metal-chelation-therapy]]. This page focuses on the microbiome implications and the broader conceptual framework.
 
@@ -24,11 +24,11 @@ For a comprehensive guide to individual chelating agents, see [[metal-chelation-
 
 ### The Unintended Ecological Experiment
 
-When a patient receives chelation therapy, the chelator passes through the gastrointestinal tract (oral agents) or reaches it via biliary excretion (IV agents). In either case, **the chelator alters the metal environment of the gut lumen**, with predictable ecological consequences:
+When a patient receives chelation therapy, the chelator passes through the gastrointestinal tract (oral agents) or reaches it via biliary excretion (IV agents). In either case, the chelator alters the metal environment of the gut lumen, with predictable ecological consequences:
 
-- **Iron chelation** (deferoxamine, deferasirox) removes iron from the gut environment, potentially starving iron-dependent pathogens ([[escherichia-coli]], [[klebsiella-pneumoniae]]) but also depleting iron needed by beneficial [[lactobacillus]] and [[bifidobacterium]] species
-- **Zinc chelation** (EDTA) strips zinc from the gut, disabling zinc-dependent [[virulence-factors]] ([[zinc-metalloprotease]], fragilysin) but also impairing zinc-dependent immune function
-- **Broad-spectrum chelation** (EDTA, DTPA) removes multiple metals simultaneously, creating unpredictable shifts in microbial community composition
+- Iron chelation (deferoxamine, deferasirox) removes iron from the gut environment, potentially starving iron-dependent pathogens ([[escherichia-coli]], [[klebsiella-pneumoniae]]) but also depleting iron needed by beneficial [[lactobacillus]] and [[bifidobacterium]] species
+- Zinc chelation (EDTA) strips zinc from the gut, disabling zinc-dependent [[virulence-factors]] ([[zinc-metalloprotease]], fragilysin) but also impairing zinc-dependent immune function
+- Broad-spectrum chelation (EDTA, DTPA) removes multiple metals simultaneously, creating unpredictable shifts in microbial community composition
 
 ### Evidence for Microbiome Disruption
 
@@ -40,15 +40,15 @@ While direct studies of chelation-microbiome interactions remain limited, indire
 
 ### The Essential Metal Depletion Problem
 
-The fundamental limitation of chelation therapy is **non-selectivity**. No chelator binds exclusively to toxic metals while sparing essential ones [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]:
+The fundamental limitation of chelation therapy is non-selectivity. No chelator binds exclusively to toxic metals while sparing essential ones [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]:
 
 | Chelator | Target Toxicant | Essential Metals Also Bound |
 |----------|----------------|---------------------------|
-| **EDTA** | Lead, cadmium | Zinc, calcium, manganese, iron |
-| **DMSA** | Lead, mercury, arsenic | Zinc (mild), copper |
-| **DMPS** | Mercury, arsenic | Zinc, copper |
-| **D-Penicillamine** | Copper (Wilson's) | Zinc, iron |
-| **Deferoxamine** | Iron | -- (relatively selective) |
+| EDTA | Lead, cadmium | Zinc, calcium, manganese, iron |
+| DMSA | Lead, mercury, arsenic | Zinc (mild), copper |
+| DMPS | Mercury, arsenic | Zinc, copper |
+| D-Penicillamine | Copper (Wilson's) | Zinc, iron |
+| Deferoxamine | Iron | -- (relatively selective) |
 
 Essential metal depletion during chelation can cause:
 - Zinc depletion → impaired [[nutritional-immunity]], reduced SOD activity
@@ -61,20 +61,20 @@ Essential metal depletion during chelation can cause:
 ### Acute Poisoning
 
 Chelation is clearly indicated for acute metal poisoning:
-- **Lead**: Blood Pb >45 mcg/dL in children (DMSA) or >70 mcg/dL in adults (CaNa2-EDTA)
-- **Mercury**: Inorganic mercury exposure (DMPS preferred) or organic mercury with symptoms
-- **Arsenic**: Acute ingestion (DMSA or DMPS)
-- **Iron**: Acute ingestion (deferoxamine)
-- **Nickel carbonyl**: Acute inhalation (disulfiram/DDC -- the specific antidote)
+- Lead: Blood Pb >45 mcg/dL in children (DMSA) or >70 mcg/dL in adults (CaNa2-EDTA)
+- Mercury: Inorganic mercury exposure (DMPS preferred) or organic mercury with symptoms
+- Arsenic: Acute ingestion (DMSA or DMPS)
+- Iron: Acute ingestion (deferoxamine)
+- Nickel carbonyl: Acute inhalation (disulfiram/DDC -- the specific antidote)
 
 ### Chronic Conditions (Controversial)
 
 Chelation for chronic, low-level metal exposure remains debated:
 
-- **TACT trial** (Trial to Assess Chelation Therapy): IV EDTA showed modest benefit in post-MI diabetic patients with elevated lead, but results were driven by diabetic subgroup
-- **CKD**: Chelation could theoretically address the metal accumulation vicious cycle (see [[chronic-kidney-disease]]), but risk of worsening renal function through essential metal depletion is high [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]
-- **Autism**: IV chelation for autism has **no evidence of benefit** and carries risk; at least one child death has been attributed to EDTA-induced hypocalcemia
-- **"Detox" chelation**: Over-the-counter chelation supplements marketed for general "detoxification" lack evidence and may cause harm through essential metal stripping
+- TACT trial (Trial to Assess Chelation Therapy): IV EDTA showed modest benefit in post-MI diabetic patients with elevated lead, but results were driven by diabetic subgroup
+- CKD: Chelation could theoretically address the metal accumulation vicious cycle (see [[chronic-kidney-disease]]), but risk of worsening renal function through essential metal depletion is high [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]
+- Autism: IV chelation for autism has no evidence of benefit and carries risk; at least one child death has been attributed to EDTA-induced hypocalcemia
+- "Detox" chelation: Over-the-counter chelation supplements marketed for general "detoxification" lack evidence and may cause harm through essential metal stripping
 
 ## The WikiBiome Perspective
 
@@ -93,7 +93,7 @@ From the metallomics-microbiome framework, chelation therapy presents a tension:
 
 ### The Dietary Alternative
 
-For chronic, low-level metal exposure, **dietary metal restriction** may be preferable to chelation:
+For chronic, low-level metal exposure, dietary metal restriction may be preferable to chelation:
 - [[low-nickel-diet]]: Reduces nickel without chelator side effects
 - Dietary modification to reduce cadmium exposure (avoid tobacco, limit certain foods)
 - These approaches reduce metal input rather than forcibly extracting metal already in the body

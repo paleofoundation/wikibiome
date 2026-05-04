@@ -49,19 +49,19 @@ A selective semipermeable border formed by brain endothelial cells connected by 
 ## Microbial Modulation of BBB Integrity
 
 ### BBB Disruption
-- **LPS (endotoxin)**: Bacterial lipopolysaccharide from gram-negative gut pathobionts activates TLR4 on brain endothelial cells, increasing BBB permeability via [[nf-kappa-b]] signaling and tight junction disassembly.
-- **Pathogen invasion**: Meningitis-causing bacteria (Neisseria meningitidis, S. pneumoniae) cross the BBB via transcellular, paracellular, and Trojan horse mechanisms [[patil-2021-infection-metallomics-critical-care]].
+- LPS (endotoxin): Bacterial lipopolysaccharide from gram-negative gut pathobionts activates TLR4 on brain endothelial cells, increasing BBB permeability via [[nf-kappa-b]] signaling and tight junction disassembly.
+- Pathogen invasion: Meningitis-causing bacteria (Neisseria meningitidis, S. pneumoniae) cross the BBB via transcellular, paracellular, and Trojan horse mechanisms [[patil-2021-infection-metallomics-critical-care]].
 
 ### BBB Protection
-- **[[short-chain-fatty-acids]]**: Butyrate and propionate strengthen BBB tight junctions. Germ-free mice have increased BBB permeability, restored by SCFA-producing bacterial colonization.
-- **[[indoles]]**: AhR-activating indole metabolites reduce neuroinflammation and may support BBB integrity.
+- [[short-chain-fatty-acids]]: Butyrate and propionate strengthen BBB tight junctions. Germ-free mice have increased BBB permeability, restored by SCFA-producing bacterial colonization.
+- [[indoles]]: AhR-activating indole metabolites reduce neuroinflammation and may support BBB integrity.
 
 ## Disease Relevance
 
-- **Alzheimer's disease**: Al, Pb, and Hg accumulation in brain tissue; LPS from dysbiotic gut exacerbates neuroinflammation.
-- **Parkinson's disease**: Mn accumulation in basal ganglia; reduced SCFA production weakens BBB and increases microglial activation.
-- **Multiple sclerosis**: BBB breakdown allows immune cell infiltration into CNS; gut-derived metabolites modulate this permeability.
-- **Autism spectrum disorder**: Early-life metal exposure (Pb, Hg) crosses immature BBB; microbial metabolites (p-cresol, 4-EPS) also penetrate to affect microglial function.
+- Alzheimer's disease: Al, Pb, and Hg accumulation in brain tissue; LPS from dysbiotic gut exacerbates neuroinflammation.
+- Parkinson's disease: Mn accumulation in basal ganglia; reduced SCFA production weakens BBB and increases microglial activation.
+- Multiple sclerosis: BBB breakdown allows immune cell infiltration into CNS; gut-derived metabolites modulate this permeability.
+- Autism spectrum disorder: Early-life metal exposure (Pb, Hg) crosses immature BBB; microbial metabolites (p-cresol, 4-EPS) also penetrate to affect microglial function.
 
 ## See Also
 

@@ -4,9 +4,14 @@ type: entity
 subtype: fungus
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
-sources: []
-source_count: 0
+last_substantive_update: 2026-04-22
+sources:
+  - ling-2025-gut-mycobiota-dysbiosis-immune-dysfunction-schizophrenia-metabolic-syndrome
+  - li-2024-oral-lyophilized-fmt-asd-children
+  - yang-2022-fungal-microbiota-dysbiosis-gastric-cancer
+  - al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber
+  - ling-2025-gut-mycobiota-schizophrenia-metabolic-syndrome-trichosporon
+source_count: 5
 tags:
   - basidiomycota
   - trichosporonaceae
@@ -33,17 +38,15 @@ conditions_enriched_in:
   - inflammatory-bowel-disease
   - hematologic-malignancy
 conditions_depleted_in: []
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 0 sources, minimum 3
 ---
 
 ## Overview
 
-**Trichosporon asahii** is a basidiomycetous yeast found in soil, water, and on human skin. It is the primary cause of invasive trichosporonosis in immunocompromised patients, particularly those with neutropenia or hematologic malignancies. It is inherently resistant to echinocandins and shows variable susceptibility to amphotericin B.
+Trichosporon asahii is a basidiomycetous yeast found in soil, water, and on human skin. It is the primary cause of invasive trichosporonosis in immunocompromised patients, particularly those with neutropenia or hematologic malignancies. It is inherently resistant to echinocandins and shows variable susceptibility to amphotericin B.
 
 ## Metal Dependencies
 
-T. asahii requires **iron** for growth and produces siderophore-like molecules for iron acquisition. Its **zinc-dependent proteases** and **manganese-dependent superoxide dismutase** contribute to tissue invasion and oxidative stress resistance. Metal availability in the host — particularly during neutropenia when [[nutritional-immunity]] is compromised — facilitates its expansion.
+T. asahii requires iron for growth and produces siderophore-like molecules for iron acquisition. Its zinc-dependent proteases and manganese-dependent superoxide dismutase contribute to tissue invasion and oxidative stress resistance. Metal availability in the host — particularly during neutropenia when [[nutritional-immunity]] is compromised — facilitates its expansion.
 
 ## Ecological Role
 

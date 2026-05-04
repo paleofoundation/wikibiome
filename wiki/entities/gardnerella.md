@@ -20,17 +20,17 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Gardnerella
 
-*Gardnerella vaginalis* is a Gram-variable, facultatively anaerobic bacterium that is the **key organism** in bacterial vaginosis (BV), the most common vaginal infection in women of reproductive age. Its sialidase production, biofilm-forming capacity, and associations with heavy metal exposure make it a pathobiont at the intersection of reproductive health and environmental toxicology.
+*Gardnerella vaginalis* is a Gram-variable, facultatively anaerobic bacterium that is the key organism in bacterial vaginosis (BV), the most common vaginal infection in women of reproductive age. Its sialidase production, biofilm-forming capacity, and associations with heavy metal exposure make it a pathobiont at the intersection of reproductive health and environmental toxicology.
 
 ## Pathogenic Mechanisms
 
 ### Sialidase and Mucus Degradation
-- *G. vaginalis* produces **sialidase** (neuraminidase), which cleaves sialic acid residues from mucin glycoproteins.
+- *G. vaginalis* produces sialidase (neuraminidase), which cleaves sialic acid residues from mucin glycoproteins.
 - Sialidase activity degrades the protective cervicovaginal mucus layer, exposing epithelial surfaces to secondary infection.
 - Sialidase levels in vaginal fluid are a clinical marker for BV diagnosis and correlate with adverse pregnancy outcomes.
 
 ### Biofilm Formation
-- *G. vaginalis* is the primary architect of **polymicrobial biofilms** on the vaginal epithelium.
+- *G. vaginalis* is the primary architect of polymicrobial biofilms on the vaginal epithelium.
 - These biofilms are highly resistant to antibiotics (metronidazole, clindamycin) and host immune clearance, explaining the high recurrence rate of BV (>50% within 12 months).
 - Biofilm cells shed from the vaginal epithelium can re-seed infection, maintaining a chronic dysbiotic state.
 

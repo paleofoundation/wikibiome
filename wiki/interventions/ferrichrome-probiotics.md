@@ -29,21 +29,21 @@ targets:
 karen_brain_primitives: [4, 8]
 ---
 
-> **Research summary — not medical advice.** This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
+> Research summary — not medical advice. This page synthesizes published research on a mechanism-level intervention. It is not a clinical recommendation. Consult a qualified healthcare provider before making any changes to diet, supplementation, or treatment.
 
 ## Mechanism
 
-Ferrichrome is a cyclic hydroxamate **siderophore** produced by certain *Lactobacillus* strains. It binds extracellular iron with high affinity, restricting iron availability in the tumor microenvironment. Ferrichrome activates the **JNK signaling pathway**, triggering apoptosis selectively in pancreatic cancer cells.
+Ferrichrome is a cyclic hydroxamate siderophore produced by certain *Lactobacillus* strains. It binds extracellular iron with high affinity, restricting iron availability in the tumor microenvironment. Ferrichrome activates the JNK signaling pathway, triggering apoptosis selectively in pancreatic cancer cells.
 
 ## Rationale
 
-Pancreatic ductal adenocarcinoma (PDAC) cells exhibit elevated iron demand to sustain proliferation. By deploying ferrichrome-producing probiotics, the intervention exploits the **metal dependency as an Achilles' heel** (Primitive 4) through **siderophore competition** (Primitive 8) — starving cancer cells of iron while simultaneously inducing programmed cell death.
+Pancreatic ductal adenocarcinoma (PDAC) cells exhibit elevated iron demand to sustain proliferation. By deploying ferrichrome-producing probiotics, the intervention exploits the metal dependency as an Achilles' heel (Primitive 4) through siderophore competition (Primitive 8) — starving cancer cells of iron while simultaneously inducing programmed cell death.
 
 ## Evidence Status
 
-- **In vitro**: Ferrichrome induces apoptosis in cancer cell lines at concentrations achievable by probiotic colonization.
-- **Animal model**: Preliminary data in murine PDAC models shows tumor growth inhibition.
-- **Clinical**: No human trials yet.
+- In vitro: Ferrichrome induces apoptosis in cancer cell lines at concentrations achievable by probiotic colonization.
+- Animal model: Preliminary data in murine PDAC models shows tumor growth inhibition.
+- Clinical: No human trials yet.
 
 ## Open Questions
 
@@ -54,4 +54,4 @@ Pancreatic ductal adenocarcinoma (PDAC) cells exhibit elevated iron demand to su
 
 ---
 
-> **Educational content, not medical advice.** This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.
+> Educational content, not medical advice. This page describes mechanisms by which the intervention interacts with the microbiome and metal ecology. It is not a treatment recommendation. Clinical decisions about any intervention should be made with a qualified healthcare practitioner who knows your individual history.

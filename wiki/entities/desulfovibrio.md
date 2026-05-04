@@ -20,32 +20,32 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Desulfovibrio
 
-A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) that produces **hydrogen sulfide (H2S)** as its primary metabolic end-product. H2S is a potent cytotoxin that disrupts colonocyte energy metabolism, damages the gut barrier, and promotes chronic [[inflammation]]. Desulfovibrio enrichment is associated with multiple disease states including [[endometriosis]], [[cardiovascular-disease]], [[parkinsons-disease]], and cancer.
+A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) that produces hydrogen sulfide (H2S) as its primary metabolic end-product. H2S is a potent cytotoxin that disrupts colonocyte energy metabolism, damages the gut barrier, and promotes chronic [[inflammation]]. Desulfovibrio enrichment is associated with multiple disease states including [[endometriosis]], [[cardiovascular-disease]], [[parkinsons-disease]], and cancer.
 
 ## H2S Production and Toxicity
 
 - Desulfovibrio uses sulfate as a terminal electron acceptor in anaerobic respiration, reducing it to H2S via dissimilatory sulfate reduction.
 - H2S toxicity mechanisms in the gut:
-  - **Cytochrome c oxidase inhibition**: H2S blocks the terminal enzyme of colonocyte mitochondrial oxidative phosphorylation, starving epithelial cells of energy -- analogous to cyanide poisoning at the cellular level.
-  - **Barrier disruption**: energy-depleted colonocytes lose tight junction integrity, increasing gut permeability and enabling bacterial translocation.
-  - **DNA damage**: H2S generates reactive sulfur species and free radicals that cause genotoxic damage to colonocytes, contributing to [[colorectal-cancer]] initiation.
-  - **NF-kB activation**: H2S activates NF-kB inflammatory signaling in epithelial and immune cells, driving chronic [[inflammation]].
+  - Cytochrome c oxidase inhibition: H2S blocks the terminal enzyme of colonocyte mitochondrial oxidative phosphorylation, starving epithelial cells of energy -- analogous to cyanide poisoning at the cellular level.
+  - Barrier disruption: energy-depleted colonocytes lose tight junction integrity, increasing gut permeability and enabling bacterial translocation.
+  - DNA damage: H2S generates reactive sulfur species and free radicals that cause genotoxic damage to colonocytes, contributing to [[colorectal-cancer]] initiation.
+  - NF-kB activation: H2S activates NF-kB inflammatory signaling in epithelial and immune cells, driving chronic [[inflammation]].
 - H2S competes with butyrate for colonocyte energy metabolism: when H2S levels rise and butyrate levels fall (due to depletion of [[roseburia]], [[faecalibacterium-prausnitzii]]), colonocytes shift from oxidative to glycolytic metabolism, further destabilizing the anaerobic gut environment.
 
 ## Metal Dependencies
 
-- **Iron**: Iron-sulfur clusters are central to the dissimilatory sulfate reduction pathway. Desulfovibrio requires substantial iron for its [Fe]-hydrogenase and ferredoxin electron carriers.
-- **Nickel**: Some species possess [NiFe]-hydrogenase for hydrogen-dependent sulfate reduction, linking their metabolism to [[nickel]] availability in the gut.
-- **Molybdenum**: Certain sulfate reductases use [[molybdenum]] cofactors.
-- **Mercury**: Desulfovibrio species are enriched by [[mercury]] exposure in the gut, and some SRB can methylate inorganic mercury to neurotoxic methylmercury [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
+- Iron: Iron-sulfur clusters are central to the dissimilatory sulfate reduction pathway. Desulfovibrio requires substantial iron for its [Fe]-hydrogenase and ferredoxin electron carriers.
+- Nickel: Some species possess [NiFe]-hydrogenase for hydrogen-dependent sulfate reduction, linking their metabolism to [[nickel]] availability in the gut.
+- Molybdenum: Certain sulfate reductases use [[molybdenum]] cofactors.
+- Mercury: Desulfovibrio species are enriched by [[mercury]] exposure in the gut, and some SRB can methylate inorganic mercury to neurotoxic methylmercury [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
 
 ## Disease Associations
 
-- **Endometriosis**: H2S/NF-kB pathway activation promotes endometrial inflammation and lesion progression. Desulfovibrio enrichment may contribute to the inflammatory milieu driving [[endometriosis]].
-- **Cardiovascular disease**: enriched in CVD; H2S can promote atherosclerotic plaque instability. Spermidine supplementation paradoxically increases Desulfovibrionaceae while improving cardiovascular outcomes, suggesting dose-dependent or context-dependent H2S effects [[almeida-2023-gut-microbiota-cardiovascular-axis]].
-- **Colorectal cancer**: H2S-mediated DNA damage and NF-kB activation contribute to carcinogenesis. Desulfovibrio showed opposite directionality -- increased in cancer, decreased in autoimmune disease [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
-- **Parkinson's disease**: enriched in PD gut; H2S may compound mitochondrial dysfunction in the enteric nervous system.
-- **Bilophila wadsworthia** (related SRB): metabolizes taurine-conjugated bile acids to produce H2S, linking high-fat diet (which increases taurine-conjugated bile acids) to sulfide-driven inflammation.
+- Endometriosis: H2S/NF-kB pathway activation promotes endometrial inflammation and lesion progression. Desulfovibrio enrichment may contribute to the inflammatory milieu driving [[endometriosis]].
+- Cardiovascular disease: enriched in CVD; H2S can promote atherosclerotic plaque instability. Spermidine supplementation paradoxically increases Desulfovibrionaceae while improving cardiovascular outcomes, suggesting dose-dependent or context-dependent H2S effects [[almeida-2023-gut-microbiota-cardiovascular-axis]].
+- Colorectal cancer: H2S-mediated DNA damage and NF-kB activation contribute to carcinogenesis. Desulfovibrio showed opposite directionality -- increased in cancer, decreased in autoimmune disease [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
+- Parkinson's disease: enriched in PD gut; H2S may compound mitochondrial dysfunction in the enteric nervous system.
+- Bilophila wadsworthia (related SRB): metabolizes taurine-conjugated bile acids to produce H2S, linking high-fat diet (which increases taurine-conjugated bile acids) to sulfide-driven inflammation.
 
 ## H2S as a Double-Edged Sword
 
@@ -55,9 +55,9 @@ A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) th
 
 ## Key Metabolites
 
-- **Hydrogen sulfide (H2S)** -- primary output; cytochrome c oxidase inhibitor, DNA damaging agent, NF-kB activator.
-- **Acetate** -- secondary fermentation product from incomplete oxidation of organic substrates.
-- **Methylmercury** -- some species convert inorganic Hg to neurotoxic MeHg.
+- Hydrogen sulfide (H2S) -- primary output; cytochrome c oxidase inhibitor, DNA damaging agent, NF-kB activator.
+- Acetate -- secondary fermentation product from incomplete oxidation of organic substrates.
+- Methylmercury -- some species convert inorganic Hg to neurotoxic MeHg.
 
 
 ## Key Sources

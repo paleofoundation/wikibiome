@@ -14,36 +14,36 @@ platform: wikibiome
 
 # Uremic Toxins
 
-**Uremic toxins** are metabolic waste products that accumulate in the blood when kidney function declines. A striking proportion of the most clinically significant uremic toxins are produced not by human metabolism but by the gut microbiome -- making the gut-kidney axis a central driver of [[chronic-kidney-disease]] progression and its cardiovascular complications. The connection to metals runs through two routes: heavy metals cause kidney damage that initiates uremic toxin accumulation, and the same metals reshape the gut microbiome toward toxin-producing species.
+Uremic toxins are metabolic waste products that accumulate in the blood when kidney function declines. A striking proportion of the most clinically significant uremic toxins are produced not by human metabolism but by the gut microbiome -- making the gut-kidney axis a central driver of [[chronic-kidney-disease]] progression and its cardiovascular complications. The connection to metals runs through two routes: heavy metals cause kidney damage that initiates uremic toxin accumulation, and the same metals reshape the gut microbiome toward toxin-producing species.
 
 ## The Big Three: Microbiome-Derived Uremic Toxins
 
 ### Indoxyl Sulfate (IS)
-- **Origin**: Dietary [[tryptophan]] is metabolized by gut bacteria (via tryptophanase) to indole, which is absorbed, hepatically sulfated to indoxyl sulfate, and cleared by the kidneys.
-- **Key producers**: *E. coli*, *Bacteroides*, *Clostridium* species -- organisms enriched in CKD dysbiosis.
-- **Pathological effects**: IS activates NF-kB and AhR signaling in renal tubular cells, promotes renal fibrosis, increases [[oxidative-stress]] through NADPH oxidase activation, impairs [[mitochondrial-dysfunction|mitochondrial function]], and accelerates vascular calcification. IS positively correlates with CKD progression [[wehedy-2022-human-microbiome-ckd-double-edged-sword]].
-- **Protein-bound**: IS is >90% albumin-bound, making it poorly cleared by conventional hemodialysis.
+- Origin: Dietary [[tryptophan]] is metabolized by gut bacteria (via tryptophanase) to indole, which is absorbed, hepatically sulfated to indoxyl sulfate, and cleared by the kidneys.
+- Key producers: *E. coli*, *Bacteroides*, *Clostridium* species -- organisms enriched in CKD dysbiosis.
+- Pathological effects: IS activates NF-kB and AhR signaling in renal tubular cells, promotes renal fibrosis, increases [[oxidative-stress]] through NADPH oxidase activation, impairs [[mitochondrial-dysfunction|mitochondrial function]], and accelerates vascular calcification. IS positively correlates with CKD progression [[wehedy-2022-human-microbiome-ckd-double-edged-sword]].
+- Protein-bound: IS is >90% albumin-bound, making it poorly cleared by conventional hemodialysis.
 
 ### p-Cresyl Sulfate (PCS)
-- **Origin**: Dietary tyrosine and phenylalanine are metabolized by gut bacteria to p-cresol, which is hepatically sulfated to PCS.
-- **Key producers**: *Clostridium difficile*, *[[eggerthella-lenta]]*, and proteolytic fermenters enriched in CKD.
-- **Pathological effects**: PCS induces endothelial dysfunction, leukocyte activation, renal tubular damage, and insulin resistance. Serum PCS independently predicts cardiovascular events and all-cause mortality in CKD patients [[borges-2016-uremic-toxins-inflammatory-markers-ckd]].
-- **Protein-bound**: Like IS, >90% albumin-bound and poorly dialyzable.
+- Origin: Dietary tyrosine and phenylalanine are metabolized by gut bacteria to p-cresol, which is hepatically sulfated to PCS.
+- Key producers: *Clostridium difficile*, *[[eggerthella-lenta]]*, and proteolytic fermenters enriched in CKD.
+- Pathological effects: PCS induces endothelial dysfunction, leukocyte activation, renal tubular damage, and insulin resistance. Serum PCS independently predicts cardiovascular events and all-cause mortality in CKD patients [[borges-2016-uremic-toxins-inflammatory-markers-ckd]].
+- Protein-bound: Like IS, >90% albumin-bound and poorly dialyzable.
 
 ### Trimethylamine N-Oxide (TMAO)
-- **Origin**: Dietary choline, carnitine, and betaine (abundant in red meat, eggs, dairy) are metabolized by gut bacteria to trimethylamine (TMA), which is hepatically oxidized to TMAO by FMO3.
-- **Key producers**: Multiple genera including *Clostridium*, *Desulfovibrio*, and Enterobacteriaceae.
-- **Pathological effects**: TMAO promotes atherosclerosis, activates platelets, impairs reverse cholesterol transport, and contributes to renal fibrosis. TMAO inversely correlates with eGFR and independently predicts cardiovascular events in CKD [[wehedy-2022-human-microbiome-ckd-double-edged-sword]]. Also relevant to [[cardiovascular-disease]] and [[atherosclerosis]].
-- **Water-soluble**: Unlike IS and PCS, TMAO is dialyzable but accumulates between sessions.
+- Origin: Dietary choline, carnitine, and betaine (abundant in red meat, eggs, dairy) are metabolized by gut bacteria to trimethylamine (TMA), which is hepatically oxidized to TMAO by FMO3.
+- Key producers: Multiple genera including *Clostridium*, *Desulfovibrio*, and Enterobacteriaceae.
+- Pathological effects: TMAO promotes atherosclerosis, activates platelets, impairs reverse cholesterol transport, and contributes to renal fibrosis. TMAO inversely correlates with eGFR and independently predicts cardiovascular events in CKD [[wehedy-2022-human-microbiome-ckd-double-edged-sword]]. Also relevant to [[cardiovascular-disease]] and [[atherosclerosis]].
+- Water-soluble: Unlike IS and PCS, TMAO is dialyzable but accumulates between sessions.
 
 ## The Proteolytic Shift
 
 In CKD, the gut microbiome undergoes a characteristic shift from saccharolytic (fiber-fermenting, SCFA-producing) to proteolytic (amino acid-fermenting, toxin-producing) metabolism. This shift is driven by:
 
-1. **Uremic milieu**: Urea diffusing into the gut lumen is hydrolyzed by bacterial urease to ammonia, raising intestinal pH and favoring proteolytic organisms
-2. **Dietary protein restriction paradox**: While low-protein diets reduce some uremic toxin precursors, they also reduce fiber intake, limiting saccharolytic fermentation
-3. **Antibiotic exposure**: Frequent antibiotic use in CKD patients depletes SCFA-producing commensals
-4. **Constipation**: Common in CKD, prolonging colonic transit time and increasing protein fermentation [[lu-2019-constipation-esrd-risk-ckd]]
+1. Uremic milieu: Urea diffusing into the gut lumen is hydrolyzed by bacterial urease to ammonia, raising intestinal pH and favoring proteolytic organisms
+2. Dietary protein restriction paradox: While low-protein diets reduce some uremic toxin precursors, they also reduce fiber intake, limiting saccharolytic fermentation
+3. Antibiotic exposure: Frequent antibiotic use in CKD patients depletes SCFA-producing commensals
+4. Constipation: Common in CKD, prolonging colonic transit time and increasing protein fermentation [[lu-2019-constipation-esrd-risk-ckd]]
 
 The result is depletion of beneficial organisms ([[faecalibacterium-prausnitzii]], [[roseburia]], [[bifidobacterium]]) and enrichment of uremic toxin producers ([[eggerthella-lenta]], [[fusobacterium-nucleatum]]) [[wehedy-2022-human-microbiome-ckd-double-edged-sword]].
 
@@ -69,17 +69,17 @@ In hemodialysis patients, uremic toxins that accumulate between sessions cross t
 ## Therapeutic Strategies
 
 ### Dietary Approaches
-- **Low-protein diets** reduce amino acid substrates for IS and PCS production
-- **Low aromatic amino acid diets** specifically target IS (tryptophan) and PCS (tyrosine/phenylalanine) precursors [[barba-2021-low-aromatic-amino-acid-diet-ckd]]
-- **High-fiber diets** shift fermentation from proteolytic to saccharolytic, increasing SCFA production at the expense of uremic toxins [[he-2024-gut-microbial-scfas-ckd]]
-- **Plant-based diets** provide fiber while reducing carnitine/choline substrates for TMAO production [[carrero-2020-plant-based-diets-ckd-nature-reviews]]
+- Low-protein diets reduce amino acid substrates for IS and PCS production
+- Low aromatic amino acid diets specifically target IS (tryptophan) and PCS (tyrosine/phenylalanine) precursors [[barba-2021-low-aromatic-amino-acid-diet-ckd]]
+- High-fiber diets shift fermentation from proteolytic to saccharolytic, increasing SCFA production at the expense of uremic toxins [[he-2024-gut-microbial-scfas-ckd]]
+- Plant-based diets provide fiber while reducing carnitine/choline substrates for TMAO production [[carrero-2020-plant-based-diets-ckd-nature-reviews]]
 
 ### Microbiome-Targeted Approaches
-- **Probiotics**: Specific strains reduce IS and PCS in CKD patients
-- **Prebiotics**: Fiber supplementation shifts fermentation patterns
-- **Synbiotics**: Combined probiotic-prebiotic approaches show promise in CKD stages IIIb-IV
-- **FMT**: Fecal microbiota transplantation restores gut barrier integrity and reduces uremic toxin levels in CKD rat models [[liu-2022-fmt-restores-ckd-rats]]
-- **AST-120 (oral adsorbent)**: Binds indole in the gut lumen, reducing IS production
+- Probiotics: Specific strains reduce IS and PCS in CKD patients
+- Prebiotics: Fiber supplementation shifts fermentation patterns
+- Synbiotics: Combined probiotic-prebiotic approaches show promise in CKD stages IIIb-IV
+- FMT: Fecal microbiota transplantation restores gut barrier integrity and reduces uremic toxin levels in CKD rat models [[liu-2022-fmt-restores-ckd-rats]]
+- AST-120 (oral adsorbent): Binds indole in the gut lumen, reducing IS production
 
 ## Cross-References
 

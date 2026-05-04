@@ -42,23 +42,23 @@ The fungal component of the human microbiome, comprising ~0.1-1% of the total gu
 ## Cross-Kingdom Interactions
 
 The mycobiome does not exist in isolation. Fungi and bacteria interact through:
-- **Competition for nutrients**: Bacteria and fungi compete for iron, carbon sources, and mucosal adhesion sites.
-- **Mutual inhibition**: Bacterial SCFAs lower pH, suppressing fungal overgrowth; antibiotic-induced bacterial depletion triggers Candida bloom.
-- **Immune co-stimulation**: Fungal beta-glucan (Dectin-1 ligand) and bacterial LPS (TLR4 ligand) synergistically activate innate immunity.
-- **Biofilm cooperation**: Mixed bacterial-fungal biofilms are more resistant to antimicrobials than single-kingdom biofilms.
+- Competition for nutrients: Bacteria and fungi compete for iron, carbon sources, and mucosal adhesion sites.
+- Mutual inhibition: Bacterial SCFAs lower pH, suppressing fungal overgrowth; antibiotic-induced bacterial depletion triggers Candida bloom.
+- Immune co-stimulation: Fungal beta-glucan (Dectin-1 ligand) and bacterial LPS (TLR4 ligand) synergistically activate innate immunity.
+- Biofilm cooperation: Mixed bacterial-fungal biofilms are more resistant to antimicrobials than single-kingdom biofilms.
 
 ## Disease Associations
 
-- **IBD**: Increased Candida, decreased Saccharomyces; anti-*S. cerevisiae* antibodies (ASCA) are a diagnostic marker for Crohn's disease.
-- **CRC**: Intratumoral mycobiome detectable; oral fungi can reach the colon within 30 minutes via the sphincter of Oddi [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
-- **CVD/Hypertension**: Malassezia and Candida enrichment; Mortierella appears protective in normotensive populations [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
-- **MS**: Altered fungal diversity; cross-kingdom shifts under dietary intervention.
+- IBD: Increased Candida, decreased Saccharomyces; anti-*S. cerevisiae* antibodies (ASCA) are a diagnostic marker for Crohn's disease.
+- CRC: Intratumoral mycobiome detectable; oral fungi can reach the colon within 30 minutes via the sphincter of Oddi [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
+- CVD/Hypertension: Malassezia and Candida enrichment; Mortierella appears protective in normotensive populations [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
+- MS: Altered fungal diversity; cross-kingdom shifts under dietary intervention.
 
 ## Metal Connections
 
-- **Candida biosorption**: *C. albicans* can biosorb heavy metals (Cd, Pb, Cu), potentially sequestering metals in the gut lumen but also shifting competitive dynamics with metal-sensitive bacteria.
-- **Aspergillus siderophores**: Iron-chelating metallophores (TAFC, ferricrocin, coprogen) are virulence factors that compete with host [[nutritional-immunity]] for iron.
-- **Metal-driven fungal bloom**: Heavy metal-induced bacterial dysbiosis (loss of SCFA producers and pH control) creates conditions permissive for fungal overgrowth, paralleling antibiotic-induced candidiasis.
+- Candida biosorption: *C. albicans* can biosorb heavy metals (Cd, Pb, Cu), potentially sequestering metals in the gut lumen but also shifting competitive dynamics with metal-sensitive bacteria.
+- Aspergillus siderophores: Iron-chelating metallophores (TAFC, ferricrocin, coprogen) are virulence factors that compete with host [[nutritional-immunity]] for iron.
+- Metal-driven fungal bloom: Heavy metal-induced bacterial dysbiosis (loss of SCFA producers and pH control) creates conditions permissive for fungal overgrowth, paralleling antibiotic-induced candidiasis.
 
 ## See Also
 

@@ -51,11 +51,11 @@ The AhR pathway represents a key mechanism by which the gut microbiome communica
 
 ## Disease Relevance
 
-- **Multiple sclerosis**: Ketogenic diet shifts tryptophan metabolism from kynurenine toward indoles (IAA, ILA); higher indole/Trp ratios associated with fewer MRI lesions [[gutmann-2025-functional-microbiome-diet-ms]].
-- **Autism spectrum disorder**: Indole derivatives depleted; p-cresol and 4-EPS (from competing aromatic AA pathways) elevated instead. FMT reduced indole pathway disruption [[zheng-2021-bacterial-aromatic-amino-acids-asd]].
-- **IBD**: Reduced indole production due to loss of *Clostridium sporogenes* and *Lactobacillus*; impaired AhR-IL-22 axis weakens barrier repair.
-- **Cardiovascular disease**: Indoxyl sulfate (a host-modified indole derivative) is a uremic toxin promoting endothelial dysfunction and [[atherosclerosis]].
-- **CKD**: Indoxyl sulfate accumulates due to impaired renal clearance; drives renal fibrosis and cardiovascular complications.
+- Multiple sclerosis: Ketogenic diet shifts tryptophan metabolism from kynurenine toward indoles (IAA, ILA); higher indole/Trp ratios associated with fewer MRI lesions [[gutmann-2025-functional-microbiome-diet-ms]].
+- Autism spectrum disorder: Indole derivatives depleted; p-cresol and 4-EPS (from competing aromatic AA pathways) elevated instead. FMT reduced indole pathway disruption [[zheng-2021-bacterial-aromatic-amino-acids-asd]].
+- IBD: Reduced indole production due to loss of *Clostridium sporogenes* and *Lactobacillus*; impaired AhR-IL-22 axis weakens barrier repair.
+- Cardiovascular disease: Indoxyl sulfate (a host-modified indole derivative) is a uremic toxin promoting endothelial dysfunction and [[atherosclerosis]].
+- CKD: Indoxyl sulfate accumulates due to impaired renal clearance; drives renal fibrosis and cardiovascular complications.
 
 ## Metal Connections
 

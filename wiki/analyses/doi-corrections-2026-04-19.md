@@ -10,7 +10,7 @@ platform: cureva
 
 ## Why this file exists
 
-The Link Health audit on 2026-04-19 flagged 222 sources where the stored DOI resolves, but to a paper different from the stored title. Karen's recurring complaint — most recently the Chin-Chan 2015 citation on the Alzheimer's signature page — is that clicking a reference in the wiki can land on an unrelated paper. The renderer was not at fault. The **stored DOI values are wrong.**
+The Link Health audit on 2026-04-19 flagged 222 sources where the stored DOI resolves, but to a paper different from the stored title. Karen's recurring complaint — most recently the Chin-Chan 2015 citation on the Alzheimer's signature page — is that clicking a reference in the wiki can land on an unrelated paper. The renderer was not at fault. The stored DOI values are wrong.
 
 Per §2a (Citation Integrity): "NEVER generate a DOI from memory." The only acceptable fix is verified lookup against an authoritative index (PubMed, Crossref). This file tracks that remediation.
 

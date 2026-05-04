@@ -14,43 +14,43 @@ platform: wikibiome
 
 # Ceruloplasmin
 
-The major copper-carrying protein in human blood, binding approximately **95% of circulating copper**. Ceruloplasmin is far more than a passive transport vehicle -- it is a multicopper oxidase with ferroxidase activity, an acute-phase reactant that rises with inflammation, and a protein whose dysfunction sits at the intersection of copper toxicity, iron dysregulation, and neurodegeneration. Understanding ceruloplasmin is essential for interpreting serum copper levels across virtually every disease studied in this wiki: **elevated serum copper nearly always reflects elevated ceruloplasmin, which nearly always reflects inflammation**.
+The major copper-carrying protein in human blood, binding approximately 95% of circulating copper. Ceruloplasmin is far more than a passive transport vehicle -- it is a multicopper oxidase with ferroxidase activity, an acute-phase reactant that rises with inflammation, and a protein whose dysfunction sits at the intersection of copper toxicity, iron dysregulation, and neurodegeneration. Understanding ceruloplasmin is essential for interpreting serum copper levels across virtually every disease studied in this wiki: elevated serum copper nearly always reflects elevated ceruloplasmin, which nearly always reflects inflammation.
 
 ## Structure and Function
 
 ### Copper Carrier
 
-- Synthesized in the liver; loaded with 6 copper atoms per molecule via **ATP7B** (the Wilson disease protein) in hepatocyte trans-Golgi network
+- Synthesized in the liver; loaded with 6 copper atoms per molecule via ATP7B (the Wilson disease protein) in hepatocyte trans-Golgi network
 - Secreted as holoceruloplasmin (copper-loaded) into blood
 - Without copper loading (as in Wilson disease), apoceruloplasmin is rapidly degraded, resulting in paradoxically low serum ceruloplasmin despite hepatic copper overload
 
 ### Ferroxidase Activity
 
-Ceruloplasmin's most critical enzymatic function is **oxidizing Fe2+ to Fe3+**, enabling iron loading onto [[transferrin]]:
+Ceruloplasmin's most critical enzymatic function is oxidizing Fe2+ to Fe3+, enabling iron loading onto [[transferrin]]:
 
 - Fe2+ (ferrous) is the form exported from cells via [[ferroportin]]
 - Fe3+ (ferric) is the form that binds transferrin for safe plasma transport
 - Without ceruloplasmin's ferroxidase activity, iron accumulates as toxic Fe2+ in tissues
-- This connects copper metabolism directly to iron homeostasis: **copper deficiency causes iron overload** through failed ferroxidase activity
+- This connects copper metabolism directly to iron homeostasis: copper deficiency causes iron overload through failed ferroxidase activity
 
 ### Acute-Phase Reactant
 
-Ceruloplasmin is upregulated by **IL-6** during inflammation, making it a positive acute-phase protein. This has profound implications for interpreting serum copper:
+Ceruloplasmin is upregulated by IL-6 during inflammation, making it a positive acute-phase protein. This has profound implications for interpreting serum copper:
 
 - Elevated serum Cu in cancer, PCOS, IBD, RA, depression, and schizophrenia may largely reflect ceruloplasmin's acute-phase elevation rather than true copper excess
 - The Cu/Zn ratio -- one of the most replicated biomarkers across diseases -- is partly an inflammation marker (ceruloplasmin up) combined with a zinc consumption marker (zinc used in immune cell proliferation)
 
 ## The Interpretive Challenge
 
-Ceruloplasmin creates a fundamental conundrum for metallomic studies: **is elevated serum copper a cause or consequence of disease?**
+Ceruloplasmin creates a fundamental conundrum for metallomic studies: is elevated serum copper a cause or consequence of disease?
 
 Three possibilities exist for any condition showing elevated Cu [[zhang-2022-metallomics-cancer-review]]:
 
-1. **Copper drives pathology**: Excess Cu generates ROS via Fenton-like chemistry, promotes cuproplasia in cancer, or acts as a [[metalloestrogens|metalloestrogen]]
-2. **Inflammation drives copper**: Ceruloplasmin rises as an acute-phase reactant; Cu rises passively as cargo. The copper elevation is epiphenomenal
-3. **Bidirectional amplification**: Inflammation raises ceruloplasmin/Cu, and elevated free (non-ceruloplasmin-bound) Cu generates additional oxidative damage, which drives more inflammation
+1. Copper drives pathology: Excess Cu generates ROS via Fenton-like chemistry, promotes cuproplasia in cancer, or acts as a [[metalloestrogens|metalloestrogen]]
+2. Inflammation drives copper: Ceruloplasmin rises as an acute-phase reactant; Cu rises passively as cargo. The copper elevation is epiphenomenal
+3. Bidirectional amplification: Inflammation raises ceruloplasmin/Cu, and elevated free (non-ceruloplasmin-bound) Cu generates additional oxidative damage, which drives more inflammation
 
-Distinguishing these requires measuring **free copper** (non-ceruloplasmin-bound Cu), which is not part of standard clinical panels. Free copper is the fraction capable of redox cycling and mis-metallation; ceruloplasmin-bound copper is largely inert.
+Distinguishing these requires measuring free copper (non-ceruloplasmin-bound Cu), which is not part of standard clinical panels. Free copper is the fraction capable of redox cycling and mis-metallation; ceruloplasmin-bound copper is largely inert.
 
 ## Disease Contexts
 
@@ -60,7 +60,7 @@ Serum copper is elevated across virtually all cancer types. Ceruloplasmin-mediat
 
 ### Neurodegeneration (Paradoxical Reduction)
 
-In [[alzheimers-disease]], ceruloplasmin activity is **reduced** in brain tissue despite elevated peripheral copper [[islam-2022-metal-toxicity-alzheimers-extensive-review]]:
+In [[alzheimers-disease]], ceruloplasmin activity is reduced in brain tissue despite elevated peripheral copper [[islam-2022-metal-toxicity-alzheimers-extensive-review]]:
 
 - Reduced ferroxidase activity impairs iron oxidation, promoting Fe2+ accumulation in amyloid plaques
 - This creates a dual metal problem: copper mislocalized to plaques (driving [[amyloid-beta|amyloid-beta-aggregation]]) and iron trapped in reduced form (driving [[ferroptosis]])

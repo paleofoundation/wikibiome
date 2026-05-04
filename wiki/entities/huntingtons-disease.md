@@ -4,10 +4,13 @@ type: entity
 subtype: disease
 created: 2026-04-17T00:00:00.000Z
 updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-17T00:00:00.000Z
+last_substantive_update: 2026-04-22
 sources:
+  - khatoon-2023-gut-microbiota-neurodegenerative
+  - alonso-garcia-2021-gut-microbiota-proteinopathies
+  - wang-2025-zinc-ionophore-pbt2-tigecycline-resistance-klebsiella
   - alonso-2021-brain-microbiota-huntingtons
-source_count: 1
+source_count: 4
 tags:
   - huntingtons-disease
   - neurodegeneration
@@ -40,21 +43,19 @@ shared_signature_taxa:
   alzheimers-disease:
     - candida-albicans
 platform: wikibiome
-stub: true
-stub_reason: §2f auto-demotion 2026-04-19 — 1 sources, minimum 5
 ---
 
 # Huntington's Disease
 
 ## Overview
 
-**Huntington's disease (HD)** is an autosomal dominant neurodegenerative disorder caused by CAG trinucleotide repeat expansion in the *HTT* gene, producing mutant huntingtin protein (mHTT) with an extended polyglutamine tract. While the genetic cause is well-established, the mechanisms of selective neuronal death in the striatum and cortex remain incompletely understood. Emerging evidence suggests that metal accumulation and brain-associated microbial communities may modify disease progression independently of the primary genetic lesion.
+Huntington's disease (HD) is an autosomal dominant neurodegenerative disorder caused by CAG trinucleotide repeat expansion in the *HTT* gene, producing mutant huntingtin protein (mHTT) with an extended polyglutamine tract. While the genetic cause is well-established, the mechanisms of selective neuronal death in the striatum and cortex remain incompletely understood. Emerging evidence suggests that metal accumulation and brain-associated microbial communities may modify disease progression independently of the primary genetic lesion.
 
 ## Microbiome Associations
 
 ### Brain Microbiota
 
-Post-mortem examination of HD brain tissue has revealed **fungal elements** including *Candida* species in multiple brain regions, paralleling findings by the same research group (Carrasco laboratory) in [[alzheimers-disease]], [[parkinsons-disease]], and ALS [[alonso-2021-brain-microbiota-huntingtons]]. Whether these represent true colonization, blood-brain barrier breach during disease, or post-mortem contamination remains debated — but the consistency of findings across neurodegenerative diseases and across multiple independent studies suggests biological significance.
+Post-mortem examination of HD brain tissue has revealed fungal elements including *Candida* species in multiple brain regions, paralleling findings by the same research group (Carrasco laboratory) in [[alzheimers-disease]], [[parkinsons-disease]], and ALS [[alonso-2021-brain-microbiota-huntingtons]]. Whether these represent true colonization, blood-brain barrier breach during disease, or post-mortem contamination remains debated — but the consistency of findings across neurodegenerative diseases and across multiple independent studies suggests biological significance.
 
 ### Gut Microbiome
 
@@ -64,9 +65,9 @@ HD patients and presymptomatic gene carriers show altered gut microbiome composi
 
 Metal accumulation in the HD brain is increasingly documented:
 
-- **Iron** — Elevated in the caudate nucleus and putamen (the regions most affected in HD). Iron accumulation accelerates oxidative damage via Fenton chemistry and promotes [[alpha-synuclein]]-independent protein aggregation. Neuroimaging studies show iron deposition correlating with disease severity and motor dysfunction.
-- **Manganese** — Accumulates in the basal ganglia; manganese neurotoxicity preferentially affects the same striatal circuits destroyed in HD, raising the possibility that environmental manganese exposure modifies age of onset or progression rate.
-- **Copper** — Mutant huntingtin interacts abnormally with copper, and copper dyshomeostasis has been reported in HD models. Copper-mediated oxidative stress may compound iron-driven damage.
+- Iron — Elevated in the caudate nucleus and putamen (the regions most affected in HD). Iron accumulation accelerates oxidative damage via Fenton chemistry and promotes [[alpha-synuclein]]-independent protein aggregation. Neuroimaging studies show iron deposition correlating with disease severity and motor dysfunction.
+- Manganese — Accumulates in the basal ganglia; manganese neurotoxicity preferentially affects the same striatal circuits destroyed in HD, raising the possibility that environmental manganese exposure modifies age of onset or progression rate.
+- Copper — Mutant huntingtin interacts abnormally with copper, and copper dyshomeostasis has been reported in HD models. Copper-mediated oxidative stress may compound iron-driven damage.
 
 The convergence of metal accumulation in the same brain regions where mHTT causes selective neuronal death suggests that metals may not merely accompany neurodegeneration but actively accelerate it — particularly in individuals with subthreshold genetic risk (intermediate CAG repeats).
 
@@ -74,8 +75,8 @@ The convergence of metal accumulation in the same brain regions where mHTT cause
 
 HD shares neuropathological and metallomic features with other neurodegenerative diseases:
 
-- **[[parkinsons-disease]]** — Shared iron and manganese accumulation in basal ganglia; overlapping brain fungal findings; both show gut-brain axis disruption
-- **[[alzheimers-disease]]** — Shared iron and copper dysregulation; overlapping *Candida* detection in brain tissue; protein aggregation mechanisms
+- [[parkinsons-disease]] — Shared iron and manganese accumulation in basal ganglia; overlapping brain fungal findings; both show gut-brain axis disruption
+- [[alzheimers-disease]] — Shared iron and copper dysregulation; overlapping *Candida* detection in brain tissue; protein aggregation mechanisms
 
 ## Environmental Factors
 
