@@ -26,7 +26,6 @@ dist-v30/
 dist-v31/
 dist-preview/
 preview/
-wiki/sources/
 public/
 *.pdf
 *.PDF
@@ -37,3 +36,4 @@ wikibiome-v6.jsx
 wikibiome-v7 2.jsx
 vite.config.js.timestamp-*
 .DS_Store
+dist-v*/
