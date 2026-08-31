@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T11:25:53.338Z",
+  "generatedAt": "2026-08-31T19:35:00.729Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
@@ -10,9 +10,231 @@
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "a3d8c3b2b305c410faa66e9ec78092fb88ce290eaba940e9176e9ef725246cbc",
-    "pages": 867,
+    "sha256": "0e8662bf76f8c6ecbe2542e24c473889326226258bb0d80240fcf7e144f490e4",
+    "pages": 824,
     "sources": 1887
+  },
+  "publicContentPolicy": {
+    "version": 1,
+    "minimumAnalysisReferences": 2,
+    "excludedCount": 43,
+    "excludedPages": [
+      {
+        "id": "adversarial-audit-2026-04-19",
+        "title": "Adversarial Audit — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "author-outreach-campaign-2026",
+        "title": "Author Outreach Campaign — Operational Plan",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "auto-discovered-stubs-2026-04-19",
+        "title": "Auto-Discovered Stubs — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "batch-preview-2026-04-19-auto-discovered-stubs",
+        "title": "Batch Preview — Auto-Discovered Stubs 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "batch-preview-2026-04-19-operational-cureva",
+        "title": "Batch Preview — Operational Analyses → Cureva",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "batch-preview-2026-04-19-stub-demotions",
+        "title": "Batch Preview — Stub Demotions 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "batch-preview-2026-04-23-bullet-bold-strip",
+        "title": "Batch Preview — Strip bullet-leading bold labels across wiki/",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "boundary-violations-2026-04-18",
+        "title": "Cureva/WikiBiome Boundary Violations — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "broken-links-2026-04-16",
+        "title": "Broken Wikilinks — 2026-04-16",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "build-refusals-2026-04-19",
+        "title": "Build Refusals — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "categorize-2026-04-21-autism-papers-but-disorganized-not-yet-added-or-ingested",
+        "title": "Categorize 2026 04 21 Autism Papers But Disorganized Not Yet Added Or Ingested",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "dedup-2026-04-21-autism-papers-but-disorganized-not-yet-added-or-ingested",
+        "title": "Dedup 2026 04 21 Autism Papers But Disorganized Not Yet Added Or Ingested",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "doi-corrections-2026-04-19",
+        "title": "DOI Corrections — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "gaps-and-improvements-2026-04-12",
+        "title": "WikiBiome / Cureva — Gaps & Improvement Report 2026-04-12",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "gaps-and-improvements-2026-04-13",
+        "title": "WikiBiome / Cureva — Gaps & Improvement Report 2026-04-13",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "gaps-and-improvements-2026-04-14",
+        "title": "WikiBiome / Cureva — Gaps & Improvement Report 2026-04-14",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "health-check-2026-04-14",
+        "title": "Wiki Health Check — 2026-04-14",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "ingest-audit-2026-04-18",
+        "title": "Ingest Completeness Audit — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "ingest-priority-queue-2026-04-20",
+        "title": "Ingest Priority Queue — 2026-04-20",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "keystone-outreach-2026-05-01",
+        "title": "Keystone Outreach — 2026-05-01",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "link-health-2026-04-19",
+        "title": "Link Health Audit — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-2026-04-13",
+        "title": "Wiki Lint Report — 2026-04-13",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-report-2026-04-12",
+        "title": "WikiBiome Lint Report — 2026-04-12",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-report-2026-04-13",
+        "title": "WikiBiome Lint Report — 2026-04-13",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-report-2026-04-14",
+        "title": "WikiBiome Lint Report — 2026-04-14",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-report-2026-04-19",
+        "title": "WikiBiome Lint Report — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-report-2026-04-21",
+        "title": "WikiBiome Lint Report — 2026-04-21",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-report-2026-04-26",
+        "title": "WikiBiome Lint Report — 2026-04-26",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "lint-report-2026-05-03",
+        "title": "WikiBiome Lint Report — 2026-05-03",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "manual-review-2026-04-18",
+        "title": "Manual Review Items — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "mention-density-gaps-2026-04-22",
+        "title": "Rule 15 Mention-Density Gap Report — 2026-04-22",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "orphans-2026-04-16",
+        "title": "Orphan Pages — 2026-04-16",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "overnight-2026-04-18-log",
+        "title": "Overnight Continuous Improvement Log — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "overnight-resume-2026-04-18",
+        "title": "Overnight Resume — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "overnight-resume-2026-04-19",
+        "title": "Ingest Resume — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "overnight-resume-2026-04-20",
+        "title": "Ingest Resume — 2026-04-20",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "overnight-resume-2026-04-21",
+        "title": "Resume File — 2026-04-21 Moderate-Tier Page Creation",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "overnight-resume-2026-04-23",
+        "title": "Resume File — 2026-04-23 Food Heavy Metal Contamination Ingest",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "semantic-pass-2026-04-18-log",
+        "title": "Semantic Integrity Pass Log — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "semantic-pass-resume-2026-04-18",
+        "title": "Semantic Pass Resume — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "stub-demotions-2026-04-19",
+        "title": "Stub Demotions — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "supersessions-2026-04-18",
+        "title": "Supersession Compliance Audit — 2026-04-18",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "zero-reference-pages-2026-04-19",
+        "title": "Zero-Reference Pages Audit — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      }
+    ]
   },
   "audit": {
     "duplicatePageIds": [
@@ -82,11 +304,11 @@
       "type-1-diabetes",
       "type-2-diabetes"
     ],
-    "pagesWithReferences": 770,
-    "generatedReferences": 6526,
-    "pagesWithSourceDrift": 493,
-    "recoveredInlineReferences": 449,
-    "declaredOnlyReferences": 2030,
+    "pagesWithReferences": 766,
+    "generatedReferences": 6424,
+    "pagesWithSourceDrift": 489,
+    "recoveredInlineReferences": 348,
+    "declaredOnlyReferences": 2029,
     "missingSourceMetadataIds": [
       "abraham-2005-drug-therapy-graves",
       "altered-microbiota-ovarian-endometrioma-2021",
@@ -128,7 +350,6 @@
       "lactoferrin-genital-2019",
       "liu-2022-mendelian-cd-microbiome",
       "liu-2024-gut-immune-graves",
-      "local-vault-grep",
       "maciejewski-2025-trace-elements-thyroid",
       "mian-2022-diet-thyroid",
       "microbiome-and-endometriosis-2021",
@@ -161,6 +382,6 @@
         "value": "https://hdl.handle.net/10481/85100"
       }
     ],
-    "belowThresholdPages": 149
+    "belowThresholdPages": 106
   }
 }

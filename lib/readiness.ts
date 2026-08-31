@@ -45,6 +45,7 @@ export type MigrationReport = {
   blocked: number;
   duplicateIds: number;
   missingSourceMetadata: number;
+  excludedInternalRecords: number;
   entries: MigrationLedgerEntry[];
 };
 
@@ -115,6 +116,7 @@ export function getMigrationReport(): MigrationReport {
     blocked: entries.filter((entry) => entry.status === "blocked").length,
     duplicateIds: manifest.audit.duplicatePageIds.length,
     missingSourceMetadata: manifest.audit.missingSourceMetadataIds.length,
+    excludedInternalRecords: manifest.publicContentPolicy?.excludedCount ?? 0,
     entries,
   };
   return reportCache;

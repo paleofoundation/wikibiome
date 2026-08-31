@@ -6,6 +6,12 @@ import { dirname, join, resolve } from "node:path";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
+import {
+  MIN_PUBLIC_ANALYSIS_REFERENCES,
+  PUBLIC_CONTENT_POLICY_VERSION,
+  applyPublicContentPolicy,
+  getPublicContentExclusions,
+} from "./public-content-policy.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -16,6 +22,7 @@ const valueAfter = (flag, fallback) => {
 };
 
 const auditOnly = has("--audit-only");
+const sanitizeCurrent = has("--sanitize-current");
 const skipBuild = has("--skip-build");
 const sourceRoot = resolve(projectRoot, valueAfter("--source", "work/reference-wikibiome"));
 const targetPath = resolve(projectRoot, valueAfter("--content", "data/content.generated.json"));
@@ -24,7 +31,10 @@ let sourceCommit = null;
 let inputPath = targetPath;
 let cleanupSnapshot = null;
 
-if (!auditOnly) {
+if (sanitizeCurrent) {
+  assertExists(manifestPath, `Content manifest not found: ${manifestPath}.`);
+  sourceCommit = JSON.parse(readFileSync(manifestPath, "utf8")).source?.commit ?? null;
+} else if (!auditOnly) {
   assertExists(sourceRoot, `Upstream clone not found: ${sourceRoot}`);
   if (skipBuild) {
     sourceCommit = gitCommit(sourceRoot);
@@ -46,7 +56,15 @@ if (!auditOnly) {
 assertExists(inputPath, `Content file not found: ${inputPath}`);
 const raw = readFileSync(inputPath, "utf8");
 if (cleanupSnapshot) cleanupSnapshot();
-const content = JSON.parse(raw);
+const parsedContent = JSON.parse(raw);
+const lingeringExclusions = getPublicContentExclusions(parsedContent.pages);
+if (auditOnly && lingeringExclusions.length) {
+  throw new Error(`${lingeringExclusions.length} internal operational records are still present in the public corpus. Run node scripts/sync-wikibiome-content.mjs --sanitize-current.`);
+}
+if (sanitizeCurrent && !lingeringExclusions.length) {
+  throw new Error("The current corpus already satisfies the public-content policy; refusing to overwrite its exclusion register.");
+}
+const { content, exclusions } = applyPublicContentPolicy(parsedContent);
 const audit = auditContent(content);
 const sha256 = createHash("sha256").update(raw).digest("hex");
 
@@ -74,12 +92,19 @@ const manifest = {
     pages: content.pages.length,
     sources: Object.keys(content.sourceLookup).length,
   },
+  publicContentPolicy: {
+    version: PUBLIC_CONTENT_POLICY_VERSION,
+    minimumAnalysisReferences: MIN_PUBLIC_ANALYSIS_REFERENCES,
+    excludedCount: exclusions.length,
+    excludedPages: exclusions,
+  },
   audit,
 };
 
 writeFileSync(targetPath, normalizedRaw);
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 printSummary(audit, content, "synchronized");
+console.log(`${exclusions.length} internal operational records excluded from public publishing.`);
 console.log(`Source commit: ${sourceCommit ?? "unavailable"}`);
 console.log(`Manifest: ${manifestPath}`);
 
@@ -222,6 +247,10 @@ function verifyManifest(path, sha256) {
   const manifest = JSON.parse(readFileSync(path, "utf8"));
   if (manifest.content?.sha256 !== sha256) {
     throw new Error("Generated content no longer matches its source manifest. Run npm run content:sync.");
+  }
+  if (manifest.publicContentPolicy?.version !== PUBLIC_CONTENT_POLICY_VERSION
+      || manifest.publicContentPolicy?.minimumAnalysisReferences !== MIN_PUBLIC_ANALYSIS_REFERENCES) {
+    throw new Error("Generated content does not match the current public-content policy. Run npm run content:sync.");
   }
 }
 

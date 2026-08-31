@@ -16,7 +16,6 @@ export type CutoverItem = {
   href?: string;
 };
 
-const LEGACY_ARTICLE_ROUTES = 791;
 const LEGACY_PUBLIC_ROUTE_CONTRACTS = 26;
 
 export function getCutoverReport() {
@@ -39,11 +38,11 @@ export function getCutoverReport() {
     {
       id: "legacy-article-routes",
       area: "Route continuity",
-      title: "Legacy article URLs preserved",
+      title: "Legacy scientific URLs preserved; internal reports retired",
       status: "complete",
       gate: "Required before DNS",
       owner: "Canonical article generator",
-      evidence: `${LEGACY_ARTICLE_ROUTES} of ${LEGACY_ARTICLE_ROUTES} article URLs in the existing public sitemap still resolve from the synchronized corpus. Disease-signature duplicates redirect into their canonical disease record.`,
+      evidence: `Legacy scientific article contracts remain in the synchronized corpus and disease-signature duplicates redirect into their canonical disease record. ${migration.excludedInternalRecords} lint, audit, maintenance, resume, and roadmap records are deliberately excluded from public publishing.`,
       href: "/search",
     },
     {

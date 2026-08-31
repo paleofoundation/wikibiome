@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
+import { publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 
 async function render(pathname = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -58,7 +59,7 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.match(html, /href="https:\/\/microbiomemedicine\.com"/);
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.match(html, /1,887/);
-  assert.match(html, /867/);
+  assert.match(html, /824/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
@@ -339,9 +340,9 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(explore, /href="\/clusters"/);
 
   assert.match(readiness, /Every route accounted for/);
-  assert.match(readiness, /791 of 791 article URLs/);
-  assert.match(readiness, /867[\s\S]{0,110}records[\s\S]{0,110}760[\s\S]{0,80}canonical article routes/);
-  assert.match(readiness, /2 of 760 canonical article routes currently have reviewed/);
+  assert.match(readiness, /43 lint, audit, maintenance, resume, and roadmap records are deliberately excluded/);
+  assert.match(readiness, /824[\s\S]{0,110}records[\s\S]{0,110}717[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /2 of 717 canonical article routes currently have reviewed/);
   assert.match(readiness, /Attach www\.wikibiome\.com to the new Site/);
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /9cba6ad9aac5/);
@@ -414,6 +415,53 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.ok(contrastOverride > stylesheet.indexOf(".home-hero"));
   assert.match(stylesheet.slice(contrastOverride), /\.home-hero \{ background:radial-gradient[\s\S]*#fff/);
   assert.match(stylesheet.slice(contrastOverride), /\.article-media-stage \{ padding:10px[\s\S]*background:#fff/);
+});
+
+test("keeps internal operational records out of the public encyclopedia", async () => {
+  const [directoryResponse, searchResponse, sitemapResponse, hiddenResponse] = await Promise.all([
+    render("/category/analysis"),
+    render("/search?q=lint"),
+    render("/sitemap.xml"),
+    render("/article/lint-report-2026-04-19"),
+  ]);
+  assert.equal(directoryResponse.status, 200);
+  assert.equal(searchResponse.status, 200);
+  assert.equal(sitemapResponse.status, 200);
+  assert.equal(hiddenResponse.status, 404);
+
+  const [directory, search, sitemap] = await Promise.all([
+    directoryResponse.text(), searchResponse.text(), sitemapResponse.text(),
+  ]);
+  assert.match(directory, /Dietary Metal Exposure by Life Stage/);
+  assert.match(directory, /Dietary Metal Paradoxes/);
+  assert.match(directory, /Metal-Disease Matrix/);
+  assert.match(directory, /Shared Pathobionts Across Disease Signatures/);
+  assert.doesNotMatch(directory, /Lint Report|Health Check|Batch Preview|Adversarial Audit/);
+  assert.doesNotMatch(search, /href="\/article\/(?:lint|health-check|gaps-and-improvements|adversarial-audit)[^"]*"/);
+  assert.doesNotMatch(sitemap, /article\/(?:lint|health-check|gaps-and-improvements|adversarial-audit)/);
+
+  const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  assert.equal(content._stats.analyses, 4);
+  assert.equal(content._stats.totalPages, 824);
+  assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
+  assert.equal(publicContentExclusionReason({
+    id: "weekly-content-maintenance-2026-06-01",
+    title: "Automated scheduled task — weekly content maintenance",
+    category: "analysis",
+    sourceCount: 6,
+  }), "internal-operational-analysis");
+  assert.equal(publicContentExclusionReason({
+    id: "cross-condition-microbial-metabolites",
+    title: "Shared microbial metabolites across conditions",
+    category: "analysis",
+    sourceCount: 3,
+  }), null);
+  assert.equal(publicContentExclusionReason({
+    id: "microbiome-health-check-biomarkers",
+    title: "Microbiome health-check biomarkers: a cross-study synthesis",
+    category: "analysis",
+    sourceCount: 8,
+  }), null);
 });
 
 test("generates the restored research tools and current About page from canonical data", async () => {
@@ -521,7 +569,10 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
   assert.equal(manifest.source.commit, "9cba6ad9aac5ab4c30d22c8070052111b9ec2f03");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 867);
+  assert.equal(manifest.content.pages, 824);
   assert.equal(manifest.content.sources, 1887);
-  assert.ok(manifest.audit.recoveredInlineReferences >= 449);
+  assert.equal(manifest.publicContentPolicy.version, 1);
+  assert.equal(manifest.publicContentPolicy.excludedCount, 43);
+  assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
+  assert.ok(manifest.audit.recoveredInlineReferences >= 348);
 });
