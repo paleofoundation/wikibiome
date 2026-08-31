@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { STRIPE_SUPPORT_URL, SUPPORT_PROCESSOR_DISCLOSURE } from "@/lib/support";
 import { wikiStats } from "@/lib/wikibiome";
 
 export const metadata: Metadata = {
@@ -10,21 +11,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary", title: "Support WikiBiome", description: "Help keep WikiBiome free, ad-free, and evidence-linked.", images: [] },
 };
 
-const supportEmail = "mailto:karen@paleofoundation.com?subject=I%27d%20like%20to%20support%20WikiBiome";
-
 export default function SupportPage() {
   return (
     <>
       <WikiHeader />
       <main className="support-page">
         <header className="support-hero">
-          <div><span>Free · ad-free · open access</span><h1>Keep the world&apos;s microbiome encyclopedia moving.</h1><p>Every article requires source retrieval, scientific reading, structured indexing, editorial judgment, and technical maintenance. Support helps WikiBiome do that work without selling attention or scientific influence.</p><div><a href={supportEmail}>Request a secure support link <i>♡</i></a><Link href="/contribute">Contribute knowledge instead</Link></div></div>
+          <div><span>Free · ad-free · open access</span><h1>Keep the world&apos;s microbiome encyclopedia moving.</h1><p>Every article requires source retrieval, scientific reading, structured indexing, editorial judgment, and technical maintenance. Support helps WikiBiome do that work without selling attention or scientific influence.</p><div><a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure">Support the work <i>♡</i></a><Link href="/contribute">Contribute knowledge instead</Link></div><p className="support-processor" id="support-processor-disclosure">{SUPPORT_PROCESSOR_DISCLOSURE}</p></div>
           <div className="support-orbit" aria-hidden="true"><i /><i /><i /><span>W</span><strong>knowledge<br />stays open</strong></div>
         </header>
 
         <section className="support-coffee" aria-labelledby="coffee-title">
-          <div><span>A small, human way to help</span><h2 id="coffee-title">Buy the team a coffee.</h2><p>One coffee will not index a corpus. But a community of readers choosing to sustain careful, unglamorous evidence work can.</p></div>
-          <a href={supportEmail}><span>Start a support conversation</span><strong>Any amount is welcome</strong><small>We&apos;ll reply with the current secure donation route.</small></a>
+          <div><span>A small, human way to help</span><h2 id="coffee-title">Buy the research team a coffee.</h2><p>One coffee will not index a corpus. But a community of readers choosing to sustain careful, unglamorous evidence work can.</p></div>
+          <a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure"><span>Choose your amount securely</span><strong>Buy the research team a coffee</strong><small>$10 suggested · $5 minimum · one-time support</small></a>
         </section>
 
         <section className="support-impact" aria-labelledby="impact-title">
@@ -39,7 +38,7 @@ export default function SupportPage() {
 
         <aside className="support-independence"><span>Editorial firewall</span><h2>Support cannot buy a citation.</h2><p>Submissions and financial support are separate. Donations never guarantee inclusion, designation, favorable treatment, or visibility. Public pages are governed by their evidence record.</p><Link href="/readiness">Inspect the corpus ledger →</Link></aside>
 
-        <footer className="support-contact"><div><span>Ready when you are</span><h2>Help WikiBiome keep reading.</h2></div><a href={supportEmail}>Contact the team <i>→</i></a></footer>
+        <footer className="support-contact"><div><span>Ready when you are</span><h2>Help WikiBiome keep reading.</h2></div><a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure">Support the work <i>→</i></a></footer>
       </main>
     </>
   );

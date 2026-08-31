@@ -268,19 +268,20 @@ test("renders generated paradox detail pages with focused evidence and metadata"
 });
 
 test("renders the production discovery, provenance, support, and participation surfaces", async () => {
-  const [exploreResponse, readinessResponse, historyResponse, supportResponse, contributeResponse] = await Promise.all([
+  const [exploreResponse, readinessResponse, historyResponse, supportResponse, supportThankYouResponse, contributeResponse] = await Promise.all([
     render("/explore"),
     render("/readiness"),
     render("/article/akkermansia-muciniphila/history"),
     render("/support"),
+    render("/support/thank-you"),
     render("/contribute"),
   ]);
-  for (const response of [exploreResponse, readinessResponse, historyResponse, supportResponse, contributeResponse]) {
+  for (const response of [exploreResponse, readinessResponse, historyResponse, supportResponse, supportThankYouResponse, contributeResponse]) {
     assert.equal(response.status, 200);
   }
 
-  const [explore, readiness, history, support, contribute] = await Promise.all([
-    exploreResponse.text(), readinessResponse.text(), historyResponse.text(), supportResponse.text(), contributeResponse.text(),
+  const [explore, readiness, history, support, supportThankYou, contribute] = await Promise.all([
+    exploreResponse.text(), readinessResponse.text(), historyResponse.text(), supportResponse.text(), supportThankYouResponse.text(), contributeResponse.text(),
   ]);
 
   assert.match(explore, /Follow the system,[\s\S]*not just the alphabet/);
@@ -299,10 +300,15 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(history, /github\.com\/paleofoundation\/wikibiome\/commit\/[a-f0-9]{40}/);
   assert.match(history, /Inspect exact diff/);
 
-  assert.match(support, /Buy the team a coffee/);
+  assert.match(support, /Buy the research team a coffee/);
   assert.match(support, /Support cannot buy a citation/);
-  assert.match(support, /mailto:karen@paleofoundation\.com/);
+  assert.match(support, /href="https:\/\/buy\.stripe\.com\/bJefZjaif6IFd8Z4PL6EU03"/);
+  assert.match(support, /Payments are securely processed by Stripe for Microbiome Signatures LLC/);
+  assert.doesNotMatch(support, /mailto:|Request a secure support link|Start a support conversation|tax-deductible/i);
   assert.match(support, /Source repository/);
+  assert.match(supportThankYou, /Thank you for helping WikiBiome keep reading/);
+  assert.match(supportThankYou, /href="\/"/);
+  assert.match(supportThankYou, /Financial support never purchases citations/);
 
   assert.match(contribute, /Wikipedia-like participation, with an evidence gate/);
   assert.match(contribute, /Sign in with ChatGPT to contribute/);

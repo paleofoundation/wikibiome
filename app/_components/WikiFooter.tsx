@@ -1,5 +1,6 @@
 import Link from "@/app/_components/NativeLink";
 import { wikiStats } from "@/lib/wikibiome";
+import { STRIPE_SUPPORT_URL, SUPPORT_PROCESSOR_DISCLOSURE } from "@/lib/support";
 
 export function WikiFooter() {
   return (
@@ -11,7 +12,7 @@ export function WikiFooter() {
       </div>
       <nav aria-label="Explore WikiBiome"><span>Explore</span><Link href="/explore">Knowledge graph</Link><Link href="/search">Search {wikiStats.totalPages} articles</Link><Link href="/category/disease">Disease signatures</Link><Link href="/readiness">Corpus status</Link></nav>
       <nav aria-label="Participate in WikiBiome"><span>Participate</span><Link href="/contribute">Suggest an edit</Link><Link href="/contributions">Your submissions</Link><Link href="/support">Support WikiBiome</Link><a href="https://github.com/paleofoundation/wikibiome" target="_blank" rel="noreferrer">Source repository ↗</a></nav>
-      <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Buy the research team a coffee.</strong><p>Support source indexing, editorial review, and an ad-free public encyclopedia.</p><Link href="/support">Support the work <i>♡</i></Link></div>
+      <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Buy the research team a coffee.</strong><p>Support source indexing, editorial review, and an ad-free public encyclopedia.</p><a href={STRIPE_SUPPORT_URL} aria-describedby="footer-support-disclosure">Support the work <i>♡</i></a><small id="footer-support-disclosure" className="support-processor">{SUPPORT_PROCESSOR_DISCLOSURE}</small></div>
       <div className="wiki-footer-bottom"><span>Free · ad-free · evidence-linked</span><p>Educational information only. WikiBiome does not provide medical diagnosis or treatment.</p></div>
     </footer>
   );
