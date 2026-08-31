@@ -74,7 +74,8 @@ test("server-renders real article and directory pages through the shared redesig
   const article = await articleResponse.text();
   assert.match(article, /<title>Nickel — WikiBiome<\/title>/i);
   assert.match(article, /class="article-system-art"/);
-  assert.match(article, /class="infobox-visual infobox-metal"/);
+  assert.match(article, /class="article-media-figure"/);
+  assert.match(article, /src="\/media\/nickel-metal-microbiome-interface\.webp"/);
   assert.match(article, /143/);
   assert.match(article, /generated references/);
   assert.match(article, /href="\/source\/braud-2010-siderophores-pseudomonas-metal-tolerance"/);
@@ -85,6 +86,46 @@ test("server-renders real article and directory pages through the shared redesig
   assert.match(directory, /records in this view/);
   assert.match(directory, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(directory, /wikibiome-logo\.png/);
+});
+
+test("adds reviewed, provenance-labeled scientific plates across the six article generators", async () => {
+  const pilot = [
+    ["nickel", "nickel-metal-microbiome-interface"],
+    ["akkermansia-muciniphila", "akkermansia-muciniphila-mucus-layer"],
+    ["alzheimers-disease", "alzheimers-gut-brain-metal-system"],
+    ["dysbiosis", "dysbiosis-destabilized-ecosystem"],
+    ["low-nickel-diet", "low-nickel-diet-exposure-intervention"],
+    ["paradox-plant-based-diet-nickel-trap", "plant-based-diet-nickel-paradox"],
+  ];
+  const responses = await Promise.all(pilot.map(([id]) => render(`/article/${id}`)));
+  responses.forEach((response) => assert.equal(response.status, 200));
+  const pages = await Promise.all(responses.map((response) => response.text()));
+
+  for (const [index, [id, stem]] of pilot.entries()) {
+    const html = pages[index];
+    assert.match(html, /class="article-system-art(?: |")/, `${id} keeps the large decorative article hero`);
+    assert.match(html, /class="article-media-figure"/, `${id} renders the page-specific sidebar plate`);
+    assert.match(html, new RegExp(`src="/media/${stem}\\.webp"`));
+    assert.match(html, /alt="Conceptual(?: systems)? illustration/);
+    assert.match(html, /WikiBiome conceptual illustration/);
+    assert.match(html, /Original AI-generated artwork/);
+    assert.match(html, /data-article-media-schema/);
+    assert.match(html, /primaryImageOfPage/);
+    assert.match(html, /trainedAlgorithmicMedia/);
+    assert.match(html, new RegExp(`property="og:image" content="https://wikibiome\\.com/media/${stem}-social\\.webp"`));
+    assert.match(html, new RegExp(`name="twitter:image" content="https://wikibiome\\.com/media/${stem}-social\\.webp"`));
+
+    for (const suffix of [".webp", "-social.webp"]) {
+      const asset = readFileSync(new URL(`../public/media/${stem}${suffix}`, import.meta.url));
+      assert.ok(asset.byteLength > 50_000, `${stem}${suffix} should be a real optimized image`);
+      assert.ok(asset.includes(Buffer.from("trainedAlgorithmicMedia")), `${stem}${suffix} should retain embedded digital-source metadata`);
+    }
+  }
+
+  const fallbackResponse = await render("/article/cadmium");
+  const fallback = await fallbackResponse.text();
+  assert.match(fallback, /class="infobox-visual infobox-metal"/);
+  assert.doesNotMatch(fallback, /class="article-media-figure"/);
 });
 
 test("generates Akkermansia citations, reconciles source drift, and renders full references", async () => {

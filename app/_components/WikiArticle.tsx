@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import Link from "@/app/_components/NativeLink";
+import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
 import { ArticleTools } from "@/app/_components/ArticleTools";
+import { getArticleMedia } from "@/lib/article-media";
 import { contentSchemaFor, prepareArticleSections } from "@/lib/content-model";
 import { getRevisionHistory } from "@/lib/revisions";
 import {
@@ -507,6 +509,7 @@ function WikiRail({ page }: { page: WikiPage }) {
 function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCount: number }) {
   const schema = contentSchemaFor(page);
   const related = resolveRelated(page);
+  const media = getArticleMedia(page.id);
   const metalDependencies = asStrings(page.frontmatter?.metal_dependencies);
   const enzymes = asStrings(page.frontmatter?.key_enzymes);
   const subtype = typeof page.frontmatter?.subtype === "string" ? page.frontmatter.subtype : page.type;
@@ -514,11 +517,13 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
   return (
     <aside className="article-aside" aria-label={`${page.title} facts`}>
       <div className="infobox">
-        <div className={`infobox-visual infobox-${page.category}`}>
-          <img src="/wikibiome-human-system-v2.png" alt="" />
-          <span>{page.title.slice(0, 2)}</span><i /><i /><i />
-          <small>{categoryLabel(page.category)} system map</small>
-        </div>
+        {media ? <ArticleMediaFigure media={media} /> : (
+          <div className={`infobox-visual infobox-${page.category}`}>
+            <img src="/wikibiome-human-system-v2.png" alt="" />
+            <span>{page.title.slice(0, 2)}</span><i /><i /><i />
+            <small>{categoryLabel(page.category)} system map</small>
+          </div>
+        )}
         <div className="infobox-title"><span>WikiBiome record</span><strong>{page.title}</strong></div>
         <dl>
           <div><dt>Domain</dt><dd><Link href={`/category/${page.category}`}>{categoryLabel(page.category)}</Link></dd></div>

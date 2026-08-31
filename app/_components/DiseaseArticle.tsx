@@ -1,6 +1,8 @@
 import Link from "@/app/_components/NativeLink";
+import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
 import { ArticleTools } from "@/app/_components/ArticleTools";
 import { prepareArticleSections } from "@/lib/content-model";
+import { getArticleMedia } from "@/lib/article-media";
 import {
   ArticleNetwork,
   ArticleRevisionNote,
@@ -158,6 +160,7 @@ function DiseaseRail({ record }: { record: DiseaseRecord }) {
 
 function DiseaseInfobox({ record }: { record: DiseaseRecord }) {
   const { page, signature, evidence } = record;
+  const media = getArticleMedia(page.id);
   const totalSignals = signature.metallomicSignature.elevated.length
     + signature.metallomicSignature.depleted.length
     + signature.taxonomicSignature.enriched.length
@@ -171,11 +174,13 @@ function DiseaseInfobox({ record }: { record: DiseaseRecord }) {
   return (
     <aside className="article-aside disease-aside" aria-label={`${page.title} record summary`}>
       <div className="infobox disease-infobox">
-        <div className="infobox-visual infobox-disease">
-          <img src="/wikibiome-human-system-v2.png" alt="" />
-          <span>{page.title.slice(0, 2)}</span><i /><i /><i />
-          <small>Integrated host–microbiome map</small>
-        </div>
+        {media ? <ArticleMediaFigure media={media} /> : (
+          <div className="infobox-visual infobox-disease">
+            <img src="/wikibiome-human-system-v2.png" alt="" />
+            <span>{page.title.slice(0, 2)}</span><i /><i /><i />
+            <small>Integrated host–microbiome map</small>
+          </div>
+        )}
         <div className="infobox-title"><span>Canonical disease record</span><strong>{page.title}</strong></div>
         <dl>
           <div><dt>Domain</dt><dd><Link href="/category/disease">Diseases</Link></dd></div>

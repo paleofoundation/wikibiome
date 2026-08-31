@@ -15,6 +15,7 @@
     "content:sync": "node scripts/sync-wikibiome-content.mjs",
     "content:audit": "node scripts/sync-wikibiome-content.mjs --audit-only",
     "corpus:audit": "node scripts/audit-rendered-corpus.mjs",
+    "media:pilot": "node scripts/process-pilot-images.mjs",
     "revisions:sync": "node scripts/generate-revision-history.mjs",
     "db:generate": "drizzle-kit generate"
   },
@@ -42,6 +43,7 @@
     "eslint-plugin-react-hooks": "7.1.1",
     "globals": "16.4.0",
     "react-server-dom-webpack": "19.2.6",
+    "sharp": "^0.34.5",
     "tailwindcss": "4.2.1",
     "typescript": "5.9.3",
     "typescript-eslint": "8.59.3",
