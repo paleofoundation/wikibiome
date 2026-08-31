@@ -157,8 +157,8 @@ export function getCutoverReport() {
       status: "external",
       gate: "Required before DNS",
       owner: "Domain administrator",
-      evidence: "The custom-domain target can be prepared without moving traffic, but the existing production domain is still attached to the legacy Vercel application.",
-      nextAction: "Add the required validation and routing DNS records only after this register’s required items are approved.",
+      evidence: "Both wikibiome.com hostnames are registered with the new Site and waiting for validation. GoDaddy DNS still directs www to the legacy Vercel application, so no public traffic has moved.",
+      nextAction: "Add the supplied validation records, then change the www CNAME only after the legal copy is approved. Keep the existing apex redirect during the verification window.",
       href: "https://www.wikibiome.com",
     },
     {
