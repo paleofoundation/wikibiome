@@ -102,6 +102,16 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.match(html, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(html, /curli amyloid/i);
   assert.match(html, /The Copper Paradox: Brain Depletion, Peripheral Excess/);
+  assert.doesNotMatch(html, /id="article-key-sources"/);
+  assert.doesNotMatch(html, /<br\s*\/><br\s*\/>/);
+  assert.match(html, /class="open-question-list"/);
+  assert.match(html, /<details><summary><span>01<\/span><strong>Can brain Cu be restored without raising peripheral levels\?/);
+
+  const enrichedStart = html.indexOf("Enriched taxa");
+  const depletedStart = html.indexOf("Depleted taxa");
+  const saccharomyces = html.indexOf(">Saccharomyces<");
+  assert.ok(enrichedStart >= 0 && depletedStart > enrichedStart);
+  assert.ok(saccharomyces > depletedStart, "Saccharomyces should render in the depleted AD column");
 });
 
 test("canonicalizes legacy signature URLs and applies the generator to every disease state", async () => {

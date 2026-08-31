@@ -15,6 +15,7 @@ import {
   getCategoryCount,
   getWikiPage,
   normalizeWikiId,
+  plainText,
   resolveRelated,
   wikiStats,
   type DiseaseRecord,
@@ -95,6 +96,37 @@ function LayerHeader({ number, title, description, confidence }: { number: strin
   );
 }
 
+function parseOpenQuestions(body: string) {
+  return body
+    .split(/\n+/)
+    .map((line) => line.trim().replace(/^(?:[-*]\s+|\d+[.)]\s*)/, ""))
+    .filter(Boolean)
+    .map((line) => {
+      const questionEnd = line.indexOf("?");
+      return questionEnd >= 0
+        ? { question: line.slice(0, questionEnd + 1), answer: line.slice(questionEnd + 1).trim() }
+        : { question: line, answer: "" };
+    });
+}
+
+function OpenQuestions({ body, citationNumbers }: { body: string; citationNumbers: Record<string, number> }) {
+  const questions = parseOpenQuestions(body);
+  return (
+    <section className="wiki-section level-2 open-questions" id="article-open-questions">
+      <h2>Open Questions<a href="#article-open-questions" aria-label="Link to Open Questions">#</a></h2>
+      <p className="open-questions-intro">Unresolved questions identified by the current evidence record.</p>
+      <div className="open-question-list">
+        {questions.map((item, index) => (
+          <details key={`${item.question}-${index}`}>
+            <summary><span>{String(index + 1).padStart(2, "0")}</span><strong>{plainText(item.question)}</strong><i aria-hidden="true">+</i></summary>
+            <div>{item.answer ? <RichText text={item.answer} citationNumbers={citationNumbers} /> : <p>The current WikiBiome record identifies this as an unresolved evidence gap.</p>}</div>
+          </details>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function DiseaseRail({ record }: { record: DiseaseRecord }) {
   return (
     <aside className="wiki-rail disease-rail">
@@ -172,6 +204,7 @@ function DiseaseInfobox({ record }: { record: DiseaseRecord }) {
 }
 
 function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
+  const sections = (record.page.sections ?? []).filter((section) => slugify(section.heading) !== "key-sources");
   return (
     <section className="disease-narrative" id="article" aria-labelledby="disease-article-title">
       <header className="disease-section-heading">
@@ -179,7 +212,10 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
         <h2 id="disease-article-title">The disease record, in full.</h2>
         <p>The original WikiBiome disease narrative remains intact beneath the generated signature atlas.</p>
       </header>
-      {(record.page.sections ?? []).map((section) => {
+      {sections.map((section) => {
+        if (slugify(section.heading) === "open-questions") {
+          return <OpenQuestions body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
+        }
         const id = `article-${slugify(section.heading)}`;
         const Heading = section.level === 2 ? "h2" : "h3";
         return (

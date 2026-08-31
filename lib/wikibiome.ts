@@ -468,13 +468,19 @@ function mergeDiseaseSignatures(canonicalId: string, name: string, signatures: D
   const mergeTaxa = (key: "enriched" | "depleted") => {
     const taxa = new Map<string, SignatureTaxon>();
     for (const signature of signatures) {
-      for (const item of signature.taxonomicSignature?.[key] ?? []) {
-        const taxon = typeof item === "string" ? item : item.taxon;
-        const role = typeof item === "string" ? "" : item.role;
-        const id = normalizeWikiId(taxon.replace(/^\[\[|\]\]$/g, "").split("|")[0]);
-        const previous = taxa.get(id);
-        if (!previous || (role?.length ?? 0) > (previous.role?.length ?? 0)) {
-          taxa.set(id, { taxon, role });
+      for (const declaredKey of ["enriched", "depleted"] as const) {
+        for (const item of signature.taxonomicSignature?.[declaredKey] ?? []) {
+          const taxon = typeof item === "string" ? item : item.taxon;
+          const role = typeof item === "string" ? "" : item.role;
+          const explicitlyDepleted = /^\s*depleted\b|\bdepleted\s+in\b/i.test(role ?? "");
+          const explicitlyEnriched = /^\s*enriched\b|\benriched\s+in\b/i.test(role ?? "");
+          const resolvedKey = explicitlyDepleted ? "depleted" : explicitlyEnriched ? "enriched" : declaredKey;
+          if (resolvedKey !== key) continue;
+          const id = normalizeWikiId(taxon.replace(/^\[\[|\]\]$/g, "").split("|")[0]);
+          const previous = taxa.get(id);
+          if (!previous || (role?.length ?? 0) > (previous.role?.length ?? 0)) {
+            taxa.set(id, { taxon, role });
+          }
         }
       }
     }

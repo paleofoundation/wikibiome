@@ -91,13 +91,7 @@ export function RichText({ text, citationNumbers }: { text: string; citationNumb
       return <ol key={blockIndex}>{lines.map((line) => <li key={line}>{inlineMarkup(line.replace(/^\d+[.)]\s/, ""), citationNumbers)}</li>)}</ol>;
     }
 
-    return (
-      <p key={blockIndex}>
-        {lines.map((line, lineIndex) => (
-          <span key={lineIndex}>{inlineMarkup(line, citationNumbers)}{lineIndex < lines.length - 1 && <><br /><br /></>}</span>
-        ))}
-      </p>
-    );
+    return <p key={blockIndex}>{inlineMarkup(lines.join(" "), citationNumbers)}</p>;
   });
 }
 
