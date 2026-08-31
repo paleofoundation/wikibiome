@@ -1,0 +1,16 @@
+import type { Metadata } from "next";
+import { WikiDirectory } from "@/app/_components/WikiDirectory";
+import { searchWiki, wikiStats } from "@/lib/wikibiome";
+
+export const metadata: Metadata = {
+  title: "Search WikiBiome",
+  description: `Search ${wikiStats.totalPages} evidence-linked microbiome articles.`,
+  openGraph: { title: "Search WikiBiome", description: "Search the WikiBiome encyclopedia.", images: [] },
+  twitter: { card: "summary", title: "Search WikiBiome", description: "Search the WikiBiome encyclopedia.", images: [] },
+};
+
+export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
+  const { q = "" } = await searchParams;
+  const pages = searchWiki(q);
+  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions.` : `Search all ${wikiStats.totalPages} public WikiBiome articles.`} pages={pages} query={q} />;
+}
