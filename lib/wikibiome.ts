@@ -350,8 +350,6 @@ export function getDiseaseRecord(id: string): DiseaseRecord | undefined {
   const structured = Object.entries(wiki.signatures ?? {})
     .filter(([signatureId]) => canonicalDiseaseId(signatureId) === canonicalId)
     .map(([, signature]) => signature);
-  if (!signaturePages.length && !structured.length) return undefined;
-
   const evidence = generateCompositeEvidence([diseasePage, ...signaturePages]);
   const confidence = Object.assign(
     {},

@@ -104,10 +104,12 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.match(html, /The Copper Paradox: Brain Depletion, Peripheral Excess/);
 });
 
-test("canonicalizes legacy signature URLs and applies the generator beyond Alzheimer's", async () => {
-  const [legacy, parkinsons, directory] = await Promise.all([
+test("canonicalizes legacy signature URLs and applies the generator to every disease state", async () => {
+  const [legacy, parkinsons, unpaired, nonexistentSignature, directory] = await Promise.all([
     render("/article/alzheimers-disease-signature"),
     render("/article/parkinsons-disease"),
+    render("/article/bipolar-disorder"),
+    render("/article/bipolar-disorder-signature"),
     render("/category/signature"),
   ]);
 
@@ -119,6 +121,14 @@ test("canonicalizes legacy signature URLs and applies the generator beyond Alzhe
   assert.match(parkinsonsHtml, /One disease\. Five evidence layers\./);
   assert.match(parkinsonsHtml, /Canonical disease record/);
   assert.match(parkinsonsHtml, /five-layer microbiome signature/);
+
+  assert.equal(unpaired.status, 200);
+  const unpairedHtml = await unpaired.text();
+  assert.match(unpairedHtml, /signature scaffold ready/i);
+  assert.match(unpairedHtml, /No signature file is paired yet/);
+  assert.match(unpairedHtml, /0[\s\S]{0,30}\/5[\s\S]{0,30}layers populated/);
+  assert.match(unpairedHtml, /No structured signals indexed yet/);
+  assert.equal(nonexistentSignature.status, 404);
 
   assert.equal(directory.status, 200);
   const directoryHtml = await directory.text();

@@ -18,6 +18,7 @@ import {
   resolveRelated,
   wikiStats,
   type DiseaseRecord,
+  type DiseaseSignature,
   type SignatureTaxon,
 } from "@/lib/wikibiome";
 
@@ -28,6 +29,14 @@ const layers = [
   { id: "ecological-layer", number: "04", label: "Ecological state" },
   { id: "virulence-layer", number: "05", label: "Virulence functions" },
 ] as const;
+
+function signatureLayerCount(signature: DiseaseSignature, layerId: (typeof layers)[number]["id"]) {
+  if (layerId === "metallomic-layer") return signature.metallomicSignature.elevated.length + signature.metallomicSignature.depleted.length;
+  if (layerId === "taxonomic-layer") return signature.taxonomicSignature.enriched.length + signature.taxonomicSignature.depleted.length;
+  if (layerId === "immunity-layer") return signature.nutritionalImmunity.elevated.length + signature.nutritionalImmunity.depleted.length;
+  if (layerId === "ecological-layer") return signature.ecologicalFeatures.length;
+  return signature.virulenceEnzymes.length;
+}
 
 function parseTerm(value: string) {
   const match = value.match(/^\[\[([^\]|]+)(?:\|([^\]]+))?\]\]$/);
@@ -52,7 +61,7 @@ function SignalGroup({ title, items, tone }: { title: string; items: string[]; t
   return (
     <section className={`signal-group ${tone}`}>
       <header><span>{tone === "up" ? "↑" : tone === "down" ? "↓" : "•"}</span><h4>{title}</h4><b>{items.length}</b></header>
-      <div>{items.map((item) => <Signal value={item} tone={tone} key={item} />)}</div>
+      <div>{items.length ? items.map((item) => <Signal value={item} tone={tone} key={item} />) : <p className="signature-empty">No structured signals indexed yet.</p>}</div>
     </section>
   );
 }
@@ -62,7 +71,7 @@ function TaxonColumn({ title, items, tone }: { title: string; items: SignatureTa
     <section className={`taxon-column ${tone}`}>
       <header><span>{title}</span><strong>{items.length}</strong></header>
       <div>
-        {items.map((item) => {
+        {items.length ? items.map((item) => {
           const term = parseTerm(item.taxon);
           return (
             <article className="taxon-card" key={term.id}>
@@ -70,7 +79,7 @@ function TaxonColumn({ title, items, tone }: { title: string; items: SignatureTa
               {item.role && <p>{item.role}</p>}
             </article>
           );
-        })}
+        }) : <p className="signature-empty">No structured taxa indexed yet.</p>}
       </div>
     </section>
   );
@@ -146,8 +155,8 @@ function DiseaseInfobox({ record }: { record: DiseaseRecord }) {
         </dl>
         <div className="signature-completeness">
           <span>Signature coverage</span>
-          <div>{layers.map((layer) => <i title={layer.label} key={layer.id} />)}</div>
-          <small>All five layers contain structured data</small>
+          <div>{layers.map((layer) => <i className={signatureLayerCount(signature, layer.id) ? "populated" : ""} title={layer.label} key={layer.id} />)}</div>
+          <small>{layers.filter((layer) => signatureLayerCount(signature, layer.id)).length} of 5 layers contain structured data</small>
         </div>
         {!!page.tags?.length && <div className="tag-list">{page.tags.slice(0, 8).map((tag) => <Link href={`/search?q=${encodeURIComponent(tag)}`} key={tag}>{tag}</Link>)}</div>}
       </div>
@@ -188,13 +197,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
   const { page, signature, evidence } = record;
   const related = resolveRelated(page, 6);
   const signatureSourceCount = new Set(record.signaturePages.flatMap((item) => item.sources ?? []).map(normalizeWikiId)).size;
-  const namedLayers = layers.filter((layer) => {
-    if (layer.id === "metallomic-layer") return signature.metallomicSignature.elevated.length + signature.metallomicSignature.depleted.length;
-    if (layer.id === "taxonomic-layer") return signature.taxonomicSignature.enriched.length + signature.taxonomicSignature.depleted.length;
-    if (layer.id === "immunity-layer") return signature.nutritionalImmunity.elevated.length + signature.nutritionalImmunity.depleted.length;
-    if (layer.id === "ecological-layer") return signature.ecologicalFeatures.length;
-    return signature.virulenceEnzymes.length;
-  }).length;
+  const namedLayers = layers.filter((layer) => signatureLayerCount(signature, layer.id)).length;
 
   return (
     <>
@@ -210,9 +213,9 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
               <b>metals · microbes · host</b>
             </div>
             <div className="article-heading-copy">
-              <p>Disease dossier · signature integrated · {evidence.references.length} generated references</p>
+              <p>Disease dossier · {namedLayers ? "signature integrated" : "signature scaffold ready"} · {evidence.references.length} generated references</p>
               <h1>{page.title}</h1>
-              <span>One canonical record connecting the disease narrative to its five-layer microbiome signature.</span>
+              <span>{namedLayers ? "One canonical record connecting the disease narrative to its five-layer microbiome signature." : "A canonical disease record prepared to absorb a five-layer microbiome signature as the vault grows."}</span>
             </div>
             <div className="article-tabs">
               <a className="active" href="#overview">Overview</a>
@@ -230,7 +233,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
 
               <aside className="reconciliation-note" aria-label="Page reconciliation summary">
                 <span>One canonical page</span>
-                <p><strong>{record.contentRecordCount} existing vault records</strong> are reconciled here: the disease narrative and {record.signaturePages.length} signature {record.signaturePages.length === 1 ? "record" : "records"}. The generator deduplicates their evidence without discarding either source.</p>
+                <p>{record.signaturePages.length ? <><strong>{record.contentRecordCount} existing vault records</strong> are reconciled here: the disease narrative and {record.signaturePages.length} signature {record.signaturePages.length === 1 ? "record" : "records"}. The generator deduplicates their evidence without discarding either source.</> : <><strong>The disease narrative is canonical.</strong> No signature file is paired yet; the same generator keeps all five evidence slots ready to populate automatically when structured data arrives.</>}</p>
                 <div><b>{signatureSourceCount}</b><small>signature sources</small><b>{evidence.references.length}</b><small>combined references</small><b>{namedLayers}/5</b><small>layers populated</small></div>
               </aside>
 
@@ -272,15 +275,15 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
                 <section className="signature-layer ecological-layer" id="ecological-layer">
                   <LayerHeader number="04" title="Ecological state" description="The environmental conditions that connect the organism-level observations into a system." confidence={record.confidence.ecological} />
                   <div className="ecology-path">
-                    {signature.ecologicalFeatures.map((feature, index) => (
+                    {signature.ecologicalFeatures.length ? signature.ecologicalFeatures.map((feature, index) => (
                       <div key={feature}><span>{String(index + 1).padStart(2, "0")}</span><Signal value={feature} /><i aria-hidden="true" /></div>
-                    ))}
+                    )) : <p className="signature-empty">No structured ecological features indexed yet.</p>}
                   </div>
                 </section>
 
                 <section className="signature-layer virulence-layer" id="virulence-layer">
                   <LayerHeader number="05" title="Virulence functions" description="Microbial structures, enzymes, and acquisition systems implicated by the linked evidence." confidence={record.confidence.virulence_enzymes} />
-                  <div className="function-cloud">{signature.virulenceEnzymes.map((feature, index) => <Signal value={feature} key={`${feature}-${index}`} />)}</div>
+                  <div className="function-cloud">{signature.virulenceEnzymes.length ? signature.virulenceEnzymes.map((feature, index) => <Signal value={feature} key={`${feature}-${index}`} />) : <p className="signature-empty">No structured virulence functions indexed yet.</p>}</div>
                   {!!signature.stops.length && (
                     <aside className="signature-caution"><span>Evidence boundary</span><p>WikiBiome flags {signature.stops.length} condition-specific STOP record{signature.stops.length === 1 ? "" : "s"}. These are evidence cautions, not individualized medical advice.</p><div>{signature.stops.map((item) => <Signal value={item} key={item} />)}</div></aside>
                   )}
