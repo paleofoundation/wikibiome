@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "Gut Microbiome — WikiBiome";
+const title = "WikiBiome — The Human Microbiome Encyclopedia";
 const description =
-  "Explore the community of microorganisms inhabiting the human gut, its core functions, ecological pressures, and evidence-linked connections to health.";
+  "Explore the organisms, ecological pressures, and molecular conversations shaping human health through an evidence-linked encyclopedia.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const incomingHeaders = await headers();

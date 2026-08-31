@@ -1,12 +1,5 @@
-import { WikiArticle } from "@/app/_components/WikiArticle";
-import { getWikiPage } from "@/lib/wikibiome";
+import { WikiHome } from "@/app/_components/WikiHome";
 
 export default function Home() {
-  const page = getWikiPage("gut-microbiome");
-
-  if (!page) {
-    throw new Error("The Gut Microbiome foundation article is missing from the WikiBiome corpus.");
-  }
-
-  return <WikiArticle page={page} home />;
+  return <WikiHome />;
 }
