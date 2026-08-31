@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/app/_components/NativeLink";
 import { categories, categoryLabel, getCategoryCount, getWikiPage, plainText, wikiStats, type WikiPage } from "@/lib/wikibiome";
 
 const bodyLinks = [

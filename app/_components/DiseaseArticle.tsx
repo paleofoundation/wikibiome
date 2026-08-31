@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/app/_components/NativeLink";
 import { ArticleTools } from "@/app/_components/ArticleTools";
 import { prepareArticleSections } from "@/lib/content-model";
 import {

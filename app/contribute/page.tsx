@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/NativeLink";
 import { getChatGPTUser, chatGPTSignInPath } from "@/app/chatgpt-auth";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 

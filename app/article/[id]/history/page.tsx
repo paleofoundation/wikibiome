@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/app/_components/NativeLink";
 import { notFound, redirect } from "next/navigation";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { canonicalArticleId, categoryLabel, getWikiPage } from "@/lib/wikibiome";

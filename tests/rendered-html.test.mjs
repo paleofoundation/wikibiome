@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 
 async function render(pathname = "/") {
@@ -23,6 +23,23 @@ async function render(pathname = "/") {
     },
   );
 }
+
+function sourceFiles(directory) {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const path = new URL(`${entry.name}${entry.isDirectory() ? "/" : ""}`, directory);
+    return entry.isDirectory() ? sourceFiles(path) : [path];
+  });
+}
+
+test("keeps internal navigation independent of the vinext client-link runtime", () => {
+  const appDirectory = new URL("../app/", import.meta.url);
+  const offenders = sourceFiles(appDirectory)
+    .filter((file) => /\.tsx?$/.test(file.pathname))
+    .filter((file) => /from\s+["']next\/link["']/.test(readFileSync(file, "utf8")))
+    .map((file) => file.pathname.replace(appDirectory.pathname, "app/"));
+
+  assert.deepEqual(offenders, []);
+});
 
 test("server-renders the WikiBiome portal and anatomical knowledge map", async () => {
   const response = await render();

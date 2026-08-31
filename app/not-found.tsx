@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 
 export default function NotFound() {

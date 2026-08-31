@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import Link from "next/link";
+import Link from "@/app/_components/NativeLink";
 import { ArticleTools } from "@/app/_components/ArticleTools";
 import { contentSchemaFor, prepareArticleSections } from "@/lib/content-model";
 import { getRevisionHistory } from "@/lib/revisions";
