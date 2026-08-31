@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
+import { ResearchToolsNav } from "@/app/_components/ResearchToolsNav";
 import { WikiHeader } from "@/app/_components/WikiArticle";
-import { categories, getCategoryCount, getWikiPage, wikiStats } from "@/lib/wikibiome";
+import { getKnowledgeNeighborhood, graphArticleOptions, knowledgeGraphStats, type GraphNode } from "@/lib/research-tools";
+import { categoryLabel } from "@/lib/wikibiome";
 
 export const metadata: Metadata = {
   title: "Explore the knowledge system — WikiBiome",
@@ -10,33 +12,65 @@ export const metadata: Metadata = {
   twitter: { card: "summary", title: "Explore the knowledge system — WikiBiome", description: "Navigate the connected WikiBiome corpus.", images: [] },
 };
 
-const pathways = [
-  { title: "Gut ecology", description: "Begin with the host–microbe system, then follow its organisms, metabolites, defenses, and disease links.", ids: ["gut-microbiome", "akkermansia-muciniphila", "short-chain-fatty-acids"] },
-  { title: "Metal–microbe interface", description: "Trace an element from exposure and biological handling into microbial competition and host consequences.", ids: ["nickel", "nutritional-immunity", "dietary-metal-paradoxes"] },
-  { title: "Disease systems", description: "Move from a canonical disease narrative into its metallomic, taxonomic, immune, ecological, and virulence layers.", ids: ["alzheimers-disease", "endometriosis", "type-2-diabetes"] },
-];
+type PageProps = { searchParams: Promise<{ focus?: string }> };
 
-export default function ExplorePage() {
+function graphPositions(nodes: GraphNode[]) {
+  const width = 1120;
+  const height = 650;
+  const center = { x: width / 2, y: height / 2 };
+  const positions = new Map<string, { x: number; y: number }>();
+  const focus = nodes.find((node) => node.depth === 0);
+  if (focus) positions.set(focus.id, center);
+  for (const depth of [1, 2]) {
+    const ring = nodes.filter((node) => node.depth === depth).sort((a, b) => a.category.localeCompare(b.category) || a.label.localeCompare(b.label));
+    const radiusX = depth === 1 ? 265 : 480;
+    const radiusY = depth === 1 ? 190 : 285;
+    ring.forEach((node, index) => {
+      const angle = -Math.PI / 2 + index * (Math.PI * 2 / Math.max(ring.length, 1));
+      positions.set(node.id, { x: center.x + Math.cos(angle) * radiusX, y: center.y + Math.sin(angle) * radiusY });
+    });
+  }
+  return { width, height, positions };
+}
+
+export default async function ExplorePage({ searchParams }: PageProps) {
+  const params = await searchParams;
+  const graph = getKnowledgeNeighborhood(params.focus, 36);
+  const layout = graphPositions(graph.nodes);
   return (
     <>
       <WikiHeader />
-      <main className="explore-page">
-        <header className="explore-hero">
-          <div><span>Connected encyclopedia</span><h1>Follow the system,<br />not just the alphabet.</h1><p>WikiBiome keeps familiar encyclopedia navigation while exposing the biological relationships between organisms, elements, host defenses, diseases, and interventions.</p></div>
-          <div className="explore-orbit" aria-hidden="true"><i /><i /><i /><strong>W</strong><span>{wikiStats.totalPages}<small>articles</small></span></div>
+      <main className="tool-page graph-page">
+        <header className="tool-hero graph-hero">
+          <div><span>Connected encyclopedia</span><h1>Knowledge graph</h1><p>Open one article’s evidence neighborhood at a time. The graph is regenerated from canonical WikiBiome relationships, so disease-signature duplicates and stale hand-built connections are removed before display.</p></div>
+          <dl><div><dt>{knowledgeGraphStats.nodes}</dt><dd>canonical nodes</dd></div><div><dt>{knowledgeGraphStats.connections.toLocaleString()}</dt><dd>deduplicated connections</dd></div></dl>
         </header>
+        <ResearchToolsNav active="graph" />
 
-        <section className="explore-domains" aria-labelledby="domains-title">
-          <header><span>Knowledge domains</span><h2 id="domains-title">Enter through any evidence layer.</h2></header>
-          <div>{categories.map((category, index) => <Link href={`/category/${category.id}`} key={category.id}><span>{String(index + 1).padStart(2, "0")}</span><strong>{category.label}</strong><small>{getCategoryCount(category.id)} indexed records</small><em>Browse →</em></Link>)}</div>
+        <section className="graph-workbench" aria-labelledby="graph-title">
+          <header>
+            <div><span>Evidence neighborhood</span><h2 id="graph-title">{graph.focus?.label ?? "WikiBiome"}</h2><p>{graph.nodes.length} visible articles · {graph.links.length} relationships within this neighborhood</p></div>
+            <form action="/explore" role="search">
+              <label htmlFor="graph-focus">Center the graph on an article</label>
+              <div><input id="graph-focus" name="focus" list="graph-article-options" defaultValue={graph.focus?.label} placeholder="Try nickel or Akkermansia" /><button type="submit">Recenter</button></div>
+              <datalist id="graph-article-options">{graphArticleOptions.map((node) => <option value={node.label} key={node.id} />)}</datalist>
+            </form>
+          </header>
+          <div className="graph-legend" aria-label="Knowledge domains shown">{[...new Set(graph.nodes.map((node) => node.category))].sort().map((category) => <span className={`graph-${category}`} key={category}><i />{categoryLabel(category)}</span>)}</div>
+          <div className="graph-canvas" role="img" aria-label={`Relationship graph centered on ${graph.focus?.label ?? "WikiBiome"}`}>
+            <svg viewBox={`0 0 ${layout.width} ${layout.height}`} aria-hidden="true">
+              <g className="graph-lines">{graph.links.map((link) => { const source = layout.positions.get(link.source); const target = layout.positions.get(link.target); return source && target ? <line x1={source.x} y1={source.y} x2={target.x} y2={target.y} key={`${link.source}-${link.target}`} /> : null; })}</g>
+              <g className="graph-nodes">{graph.nodes.map((node) => { const position = layout.positions.get(node.id); if (!position) return null; const radius = node.depth === 0 ? 34 : node.depth === 1 ? 12 : 8; return <a href={`/article/${node.id}`} aria-label={`${node.label}, ${categoryLabel(node.category)}, ${node.sourceCount} sources`} key={node.id}><circle className={`graph-${node.category}`} cx={position.x} cy={position.y} r={radius} /><text className={node.depth === 0 ? "focus" : ""} x={position.x} y={position.y + radius + 15} textAnchor="middle">{node.label.length > 25 ? `${node.label.slice(0, 23)}…` : node.label}</text></a>; })}</g>
+            </svg>
+          </div>
         </section>
 
-        <section className="explore-pathways" aria-labelledby="pathways-title">
-          <header><span>Suggested pathways</span><h2 id="pathways-title">Three ways into the graph.</h2><p>These are navigation sequences, not generated conclusions. Every step opens the underlying article and its evidence.</p></header>
-          <div>{pathways.map((pathway, index) => <article key={pathway.title}><span>Path {String(index + 1).padStart(2, "0")}</span><h3>{pathway.title}</h3><p>{pathway.description}</p><div>{pathway.ids.map((id) => { const page = getWikiPage(id); return page ? <Link href={`/article/${page.id}`} key={id}>{page.title}<i>→</i></Link> : null; })}</div></article>)}</div>
+        <section className="graph-connections" aria-labelledby="connections-title">
+          <header><span>Directly connected</span><h2 id="connections-title">Why these articles are nearby</h2><p>Spatial position is deterministic presentation, not a biological distance measurement. Every item below opens the canonical article.</p></header>
+          <div>{graph.directConnections.map(({ node, explanation }) => <article key={node.id}><span className={`graph-${node.category}`}><i />{categoryLabel(node.category)}</span><h3><Link href={`/article/${node.id}`}>{node.label}</Link></h3><p>{explanation}</p><footer><b>{node.sourceCount} sources</b><Link href={`/explore?focus=${encodeURIComponent(node.id)}`}>Make this the center →</Link></footer></article>)}</div>
         </section>
 
-        <footer className="explore-footer"><strong>Prefer a direct answer?</strong><p>Search by organism, metal, disease, mechanism, intervention, or source.</p><Link href="/search">Search the complete corpus →</Link></footer>
+        <aside className="tool-method-note"><strong>Generator rule</strong><p>The graph consumes the same synchronized page records as the encyclopedia. Legacy signature slugs are resolved to their canonical disease pages, self-links are discarded, and duplicate edges collapse into one connection.</p></aside>
       </main>
     </>
   );

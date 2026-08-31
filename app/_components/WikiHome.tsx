@@ -154,7 +154,7 @@ export function WikiHome() {
       <footer className="home-footer">
         <Link className="home-wordmark" href="/"><span className="home-logo"><img src="/wikibiome-logo.png" alt="" /></span><span className="home-word"><b>Wiki</b><em>Biome</em><small>The human microbiome encyclopedia</small></span></Link>
         <p>Open scientific education for the microbiome medicine community.</p>
-        <nav><Link href="/search">Search</Link><Link href="/category/microbe">Microorganisms</Link><Link href="/category/disease">Diseases</Link><a href="https://wikibiome.com/explore">Knowledge graph ↗</a></nav>
+        <nav><Link href="/search">Search</Link><Link href="/category/microbe">Microorganisms</Link><Link href="/category/disease">Diseases</Link><Link href="/explore">Knowledge graph ↗</Link><Link href="/about">About</Link></nav>
         <span>A project of Microbiome Medicine · Knowledge base synchronized from paleofoundation/wikibiome</span>
       </footer>
     </main>

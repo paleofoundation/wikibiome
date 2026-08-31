@@ -332,9 +332,11 @@ test("renders the production discovery, provenance, support, and participation s
     exploreResponse.text(), readinessResponse.text(), historyResponse.text(), supportResponse.text(), supportThankYouResponse.text(), contributeResponse.text(),
   ]);
 
-  assert.match(explore, /Follow the system,[\s\S]*not just the alphabet/);
-  assert.match(explore, /Suggested pathways/);
-  assert.match(explore, /href="\/category\/microbe"/);
+  assert.match(explore, /Knowledge graph/);
+  assert.match(explore, /Evidence neighborhood/);
+  assert.match(explore, /canonical nodes/);
+  assert.match(explore, /deduplicated connections/);
+  assert.match(explore, /href="\/clusters"/);
 
   assert.match(readiness, /Every record, accounted for/);
   assert.match(readiness, /867[\s\S]{0,90}upstream records/);
@@ -361,6 +363,70 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(contribute, /Wikipedia-like participation, with an evidence gate/);
   assert.match(contribute, /Sign in with ChatGPT to contribute/);
   assert.match(contribute, /Scientific corrections and new claims require a DOI, PMID, or source URL/);
+});
+
+test("generates the restored research tools and current About page from canonical data", async () => {
+  const [graphResponse, clustersResponse, compareResponse, keystoneResponse, aboutResponse] = await Promise.all([
+    render("/explore?focus=nickel"),
+    render("/clusters?condition=alzheimers-disease"),
+    render("/compare?a=alzheimers-disease&b=parkinsons-disease"),
+    render("/keystone"),
+    render("/about"),
+  ]);
+  for (const response of [graphResponse, clustersResponse, compareResponse, keystoneResponse, aboutResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const [graph, clusters, compare, keystone, about] = await Promise.all([
+    graphResponse.text(), clustersResponse.text(), compareResponse.text(), keystoneResponse.text(), aboutResponse.text(),
+  ]);
+
+  assert.match(graph, /<title>Explore the knowledge system — WikiBiome<\/title>/);
+  assert.match(graph, /Knowledge graph/);
+  assert.match(graph, /Nickel/);
+  assert.match(graph, /Relationship graph centered on Nickel/);
+  assert.match(graph, /Legacy signature slugs are resolved to their canonical disease pages/);
+  assert.match(graph, /href="\/article\//);
+
+  assert.match(clusters, /<title>Condition clusters — WikiBiome<\/title>/);
+  assert.match(clusters, /41[\s\S]{0,80}canonical signatures/);
+  assert.match(
+    clusters,
+    /Alzheimer(?:&#x27;|')s Disease[\s\S]{0,80}neighborhood/,
+  );
+  assert.match(clusters, /opposite-direction signals do not count as a match/);
+  assert.match(clusters, /href="\/compare\?a=alzheimers-disease&amp;b=/);
+  assert.doesNotMatch(clusters, /value="pancreatic-cancer-signature"/);
+
+  assert.match(compare, /<title>Compare condition signatures — WikiBiome<\/title>/);
+  assert.match(compare, /weighted overlap/);
+  assert.match(compare, /shared signals/);
+  assert.match(compare, /Metals elevated or accumulated/);
+  assert.match(compare, /Taxa depleted/);
+  assert.match(compare, /Shared signals do not establish shared causes, diagnoses, or treatments/);
+  assert.match(compare, /href="\/article\/alzheimers-disease"/);
+  assert.match(compare, /href="\/article\/parkinsons-disease"/);
+
+  assert.match(keystone, /<title>Keystone studies — WikiBiome<\/title>/);
+  assert.match(keystone, /41[\s\S]{0,70}designated studies/);
+  assert.match(keystone, /At least three of five criteria/);
+  assert.match(keystone, /Cross-domain bridge/);
+  assert.match(keystone, /href="\/source\/ahmed-2025-metals-alzheimers-mechanistic-review"/);
+  assert.match(keystone, /DOI review needed/);
+  assert.match(keystone, /structurally important while its DOI, peer-review status, or source metadata still requires editorial review/);
+
+  assert.match(about, /<title>About WikiBiome<\/title>/);
+  assert.match(about, /karen-pendergrass\.avif/);
+  assert.match(about, /ORCID 0000-0002-2348-7259/);
+  assert.match(about, /project of[\s\S]{0,120}Microbiome Medicine/);
+  assert.match(about, /Microbiome Signatures LLC/);
+  assert.match(about, /Support cannot purchase influence/);
+  assert.doesNotMatch(about, /project of the Paleo Foundation/i);
+  const portrait = readFileSync(new URL("../public/karen-pendergrass.avif", import.meta.url));
+  assert.ok(
+    portrait.byteLength > 40_000,
+    "About portrait should retain the supplied full-resolution AVIF asset",
+  );
 });
 
 test("applies global evidence and interaction rules across article templates", async () => {
