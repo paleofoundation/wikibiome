@@ -17,7 +17,12 @@ export type WikiPage = {
   sections?: WikiSection[];
   frontmatter?: Record<string, unknown>;
   sourceCount?: number;
+  threshold?: number;
+  belowThreshold?: boolean;
+  isStub?: boolean;
+  created?: string;
   updated?: string;
+  wikilinks?: string[];
   backlinks?: string[];
   related?: Array<{ id: string; score: number }>;
 };
@@ -31,6 +36,23 @@ export type SourceRecord = {
   keystone?: boolean;
   keystone_criteria_met?: number[];
   why_keystone?: string;
+};
+
+export type WikiReference = SourceRecord & {
+  id: string;
+  number: number;
+  title: string;
+  missingMetadata: boolean;
+};
+
+export type ArticleEvidence = {
+  references: WikiReference[];
+  citationNumbers: Record<string, number>;
+  inlineCitationIds: string[];
+  declaredSourceIds: string[];
+  recoveredCitationIds: string[];
+  declaredOnlyIds: string[];
+  missingMetadataIds: string[];
 };
 
 type WikiContent = {
@@ -50,7 +72,13 @@ type WikiContent = {
 };
 
 const wiki = content as WikiContent;
-const pageMap = new Map(wiki.pages.map((page) => [page.id, page]));
+// Match the upstream renderer's `pages.find(...)` behavior: the first vault
+// record wins when a duplicate slug exists, while the audit manifest exposes
+// the collision for correction at the source.
+const pageMap = new Map<string, WikiPage>();
+for (const page of wiki.pages) {
+  if (!pageMap.has(page.id)) pageMap.set(page.id, page);
+}
 
 export const wikiStats = wiki._stats;
 export const generatedAt = wiki._generated;
@@ -72,7 +100,7 @@ export function getWikiPage(id: string) {
 }
 
 export function getSource(id: string) {
-  return wiki.sourceLookup[id];
+  return wiki.sourceLookup[normalizeWikiId(id)];
 }
 
 export function getCategoryPages(category: string) {
@@ -122,18 +150,127 @@ export function searchWiki(query: string, limit = 80) {
 }
 
 export function findPagesUsingSource(sourceId: string, limit = 24) {
-  const cleanSourceId = cleanId(sourceId);
+  const cleanSourceId = normalizeWikiId(sourceId);
   return wiki.pages
     .filter((page) => {
       const sources = [
         ...(page.sources ?? []),
         ...asStringArray(page.frontmatter?.sources),
-      ].map(cleanId);
+      ].map(normalizeWikiId);
       return sources.includes(cleanSourceId) ||
         (page.overview ?? "").includes(`[[${cleanSourceId}`) ||
         (page.sections ?? []).some((section) => section.body.includes(`[[${cleanSourceId}`));
     })
     .slice(0, limit);
+}
+
+/**
+ * Build an article's evidence model from the same inputs as the upstream
+ * WikiBiome renderer: inline wikilinks first, then declared frontmatter
+ * sources. Numbering is deterministic and follows first appearance.
+ */
+export function generateArticleEvidence(page: WikiPage): ArticleEvidence {
+  const citationNumbers: Record<string, number> = {};
+  const inlineCitationIds: string[] = [];
+  const allText = [
+    page.overview ?? "",
+    ...(page.sections ?? []).map((section) => section.body),
+  ].join("\n");
+  const sourceRegex = /\[?\[\[([^\]|]+?)(?:\|[^\]]+)?\]\]\]?/g;
+  let match: RegExpExecArray | null;
+
+  while ((match = sourceRegex.exec(allText)) !== null) {
+    const id = normalizeWikiId(match[1]);
+    if (!id || pageMap.has(id) || !isSourceReference(id)) continue;
+    if (!(id in citationNumbers)) {
+      citationNumbers[id] = Object.keys(citationNumbers).length + 1;
+      inlineCitationIds.push(id);
+    }
+  }
+
+  const declaredSourceIds = unique([
+    ...(page.sources ?? []),
+    ...asStringArray(page.frontmatter?.sources),
+  ].map(normalizeWikiId).filter(Boolean));
+
+  for (const id of declaredSourceIds) {
+    if (!(id in citationNumbers)) {
+      citationNumbers[id] = Object.keys(citationNumbers).length + 1;
+    }
+  }
+
+  const references = Object.entries(citationNumbers)
+    .sort((a, b) => a[1] - b[1])
+    .map(([id, number]) => {
+      const source = wiki.sourceLookup[id];
+      return {
+        id,
+        number,
+        title: source?.title ?? id.replace(/-/g, " "),
+        authors: source?.authors ?? [],
+        year: source?.year,
+        journal: source?.journal,
+        doi: source?.doi,
+        keystone: source?.keystone,
+        keystone_criteria_met: source?.keystone_criteria_met,
+        why_keystone: source?.why_keystone,
+        missingMetadata: !source,
+      };
+    });
+
+  const declaredSet = new Set(declaredSourceIds);
+  const inlineSet = new Set(inlineCitationIds);
+  return {
+    references,
+    citationNumbers,
+    inlineCitationIds,
+    declaredSourceIds,
+    recoveredCitationIds: inlineCitationIds.filter((id) => !declaredSet.has(id)),
+    declaredOnlyIds: declaredSourceIds.filter((id) => !inlineSet.has(id)),
+    missingMetadataIds: references.filter((reference) => reference.missingMetadata).map((reference) => reference.id),
+  };
+}
+
+export function getMentionedPages(page: WikiPage, limit = 24) {
+  const ids = unique((page.wikilinks ?? []).map(normalizeWikiId));
+  return ids
+    .map((id) => pageMap.get(id))
+    .filter((item): item is WikiPage => Boolean(item) && item?.id !== page.id)
+    .slice(0, limit);
+}
+
+export function getBacklinkPages(page: WikiPage, limit = 24) {
+  return unique((page.backlinks ?? []).map(normalizeWikiId))
+    .map((id) => pageMap.get(id))
+    .filter((item): item is WikiPage => Boolean(item) && item?.id !== page.id)
+    .slice(0, limit);
+}
+
+export function normalizeDoi(value?: string) {
+  const raw = value?.trim() ?? "";
+  if (!raw || /^not yet verified$/i.test(raw)) {
+    return { raw, bare: "", href: "", status: "unverified" as const };
+  }
+  const bare = raw
+    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
+    .replace(/^doi:\s*/i, "")
+    .replace(/[.,;:\s]+$/g, "")
+    .trim();
+  const valid = /^10\.\d{4,9}\/[-._;()\/:A-Za-z0-9<>+]+$/.test(bare);
+  return {
+    raw,
+    bare,
+    href: valid ? `https://doi.org/${bare}` : "",
+    status: valid ? "valid" as const : "malformed" as const,
+  };
+}
+
+export function normalizeWikiId(id: string) {
+  return cleanId(id)
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
 }
 
 export function cleanId(id: string) {
@@ -165,4 +302,12 @@ export function plainText(value = "") {
 
 function asStringArray(value: unknown) {
   return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : [];
+}
+
+function isSourceReference(id: string) {
+  return id in wiki.sourceLookup || /^[a-z]+-(?:[a-z]+-)*\d{4}-/.test(id);
+}
+
+function unique<T>(items: T[]) {
+  return [...new Set(items)];
 }
