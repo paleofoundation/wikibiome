@@ -95,6 +95,13 @@ export type DiseaseRecord = {
   contentRecordCount: number;
 };
 
+export type ParadoxLink = {
+  id: string;
+  title: string;
+  summary: string;
+  canonical: boolean;
+};
+
 type WikiContent = {
   _generated: string;
   _stats: {
@@ -113,19 +120,23 @@ type WikiContent = {
 };
 
 const wiki = content as WikiContent;
+const paradoxLinksByPage = new Map<string, ParadoxLink[]>();
+const canonicalParadoxByNumber = new Map<number, ParadoxLink>();
+const virtualParadoxPages = buildVirtualParadoxPages();
+const pageCollection = [...wiki.pages, ...virtualParadoxPages];
 // Match the upstream renderer's `pages.find(...)` behavior: the first vault
 // record wins when a duplicate slug exists, while the audit manifest exposes
 // the collision for correction at the source.
 const pageMap = new Map<string, WikiPage>();
 const pagesById = new Map<string, WikiPage[]>();
-for (const page of wiki.pages) {
+for (const page of pageCollection) {
   if (!pageMap.has(page.id)) pageMap.set(page.id, page);
   pagesById.set(page.id, [...(pagesById.get(page.id) ?? []), page]);
 }
 
 export const wikiStats = wiki._stats;
 export const generatedAt = wiki._generated;
-export const allWikiPages = wiki.pages;
+export const allWikiPages = pageCollection;
 export const allSources = wiki.sourceLookup;
 
 export const categories = [
@@ -149,7 +160,7 @@ export function getSource(id: string) {
 export function getCategoryPages(category: string) {
   if (category === "signature") {
     const records = new Map<string, WikiPage>();
-    for (const page of wiki.pages.filter((item) => item.category === "signature")) {
+    for (const page of pageCollection.filter((item) => item.category === "signature")) {
       const canonicalId = canonicalDiseaseId(page.id);
       if (records.has(canonicalId)) continue;
       const disease = getDiseaseRecord(canonicalId);
@@ -170,7 +181,7 @@ export function getCategoryPages(category: string) {
     }
     return [...records.values()].sort((a, b) => a.title.localeCompare(b.title));
   }
-  return wiki.pages
+  return pageCollection
     .filter((page) => page.category === category)
     .sort((a, b) => a.title.localeCompare(b.title));
 }
@@ -196,7 +207,7 @@ export function searchWiki(query: string, limit = 80) {
   if (!terms.length) return [];
 
   const records = new Map<string, { page: WikiPage; searchPages: WikiPage[] }>();
-  for (const page of wiki.pages) {
+  for (const page of pageCollection) {
     const disease = (page.category === "disease" || page.category === "signature")
       ? getDiseaseRecord(page.id)
       : undefined;
@@ -236,7 +247,7 @@ export function searchWiki(query: string, limit = 80) {
 
 export function findPagesUsingSource(sourceId: string, limit = 24) {
   const cleanSourceId = normalizeWikiId(sourceId);
-  const matches = wiki.pages
+  const matches = pageCollection
     .filter((page) => {
       const sources = [
         ...(page.sources ?? []),
@@ -255,6 +266,183 @@ export function findPagesUsingSource(sourceId: string, limit = 24) {
     if (!canonical.has(result.id)) canonical.set(result.id, result);
   }
   return [...canonical.values()].slice(0, limit);
+}
+
+export function getParadoxLinksForPage(pageId: string) {
+  return paradoxLinksByPage.get(normalizeWikiId(pageId)) ?? [];
+}
+
+export function getCanonicalParadox(number: number) {
+  return canonicalParadoxByNumber.get(number);
+}
+
+function isDietaryParadoxSection(heading: string) {
+  return /(?:dietary.*paradox|paradox.*dietary)/i.test(heading);
+}
+
+function stripDivider(body: string) {
+  return body.replace(/(?:^|\n)---\s*$/g, "").trim();
+}
+
+function childSections(sections: WikiSection[], index: number) {
+  const root = sections[index];
+  const end = sections.findIndex((section, sectionIndex) => sectionIndex > index && section.level <= root.level);
+  return sections.slice(index + 1, end >= 0 ? end : sections.length);
+}
+
+function splitParadoxItem(source: string) {
+  const content = source.replace(/^-\s*/, "").trim();
+  const topicSentence = content.match(/^((?:The|A|An)\s+[^.]{2,100}?(?:paradox|question|dilemma|trap|switch|fork|problem|confound|reversal|loop))\.\s*(.*)$/i);
+  if (topicSentence) return { title: topicSentence[1], body: topicSentence[2] || topicSentence[1] };
+  const divider = content.indexOf(":");
+  if (divider > 0 && divider <= 100) return { title: content.slice(0, divider).trim(), body: content.slice(divider + 1).trim() };
+  return { title: "", body: content };
+}
+
+function extractedParadoxItems(root: WikiSection, subsections: WikiSection[]) {
+  if (subsections.length) return subsections.map((section) => ({ title: section.heading, body: stripDivider(section.body) }));
+  const blocks = root.body.split(/\n\s*\n/).map(stripDivider).filter(Boolean);
+  const bulletBlocks = blocks.filter((block) => block.split("\n").filter(Boolean).every((line) => line.trim().startsWith("- ")));
+  if (bulletBlocks.length) {
+    return bulletBlocks.flatMap((block) => block.split("\n").map((line) => splitParadoxItem(line)).filter((item) => item.body));
+  }
+  const proseItems = blocks.map(splitParadoxItem);
+  return proseItems.length > 1 && proseItems.every((item) => item.title)
+    ? proseItems
+    : [{ title: root.heading, body: stripDivider(root.body) }];
+}
+
+function inlineWikiLinks(text: string) {
+  return unique([...text.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)].map((match) => normalizeWikiId(match[1])).filter(Boolean));
+}
+
+function paradoxSummary(body: string) {
+  const withoutCitations = body.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_match, id: string, label: string) => {
+    const normalized = normalizeWikiId(id);
+    if (normalized in wiki.sourceLookup) return "";
+    return label || id.replace(/-/g, " ");
+  });
+  return plainText(withoutCitations).replace(/\s+([,.;:])/g, "$1").replace(/\s*---\s*$/, "").slice(0, 210);
+}
+
+function canonicalParadoxNumber(title: string, body: string) {
+  const text = plainText(`${title} ${body}`).toLowerCase();
+  const hasNickel = /\bnickel\b|\bni(?:2\+)?\b/.test(text);
+  const hasZinc = /\bzinc\b|\bzn(?:2\+)?\b/.test(text);
+  const hasIron = /\biron\b|\bfe(?:2\+|3\+)?\b/.test(text);
+  const hasChromium = /\bchromium\b|\bcr(?:\(iii\)|\(vi\)|3\+|6\+)?\b/.test(text);
+  const hasCopper = /\bcopper\b|\bcu(?:2\+)?\b/.test(text);
+  const hasMercury = /\bmercury\b|\bmethylmercury\b|\bmehg\b|\bhg\b/.test(text);
+
+  if (/(plant-based|plant-forward|plant-heavy|mediterranean|healthy\W+foods|fiber|anti-inflammatory)/.test(text) && (hasNickel || /metal exposure|metal content|metals? from soil/.test(text))) return 1;
+  if (/(gluten-free|\bgfd\b|celiac)/.test(text) && hasNickel) return 2;
+  if (hasZinc && /(endometriosis|\bmmp|metalloproteinase|tissue invasion)/.test(text)) return 3;
+  if (hasIron && /(supplement|anemia|hepcidin|ferroptosis|fenton)/.test(text)) return 4;
+  if (/(ascorbate|vitamin c)/.test(text) && hasChromium) return 5;
+  if (hasCopper && /(brain|peripheral|serum|trafficking|everywhere)/.test(text)) return 6;
+  if (/fish/.test(text) && (hasMercury || /omega-3|\bdha\b/.test(text))) return 7;
+  if (/probiotic/.test(text) && /(bind|sequester|sponge|trace element)/.test(text)) return 8;
+  if (hasNickel && /(commensal|restriction|low-nickel|collateral|dysbiosis)/.test(text)) return 9;
+  return 0;
+}
+
+function isParadoxicalItem(title: string, body: string) {
+  return /paradox|dilemma|conflict|however|\byet\b|\bbut\b|opposite|trade[- ]off|counter|backfire|dual|worsen|\bloop\b/i.test(`${title} ${body}`);
+}
+
+function buildVirtualParadoxPages() {
+  const generated: WikiPage[] = [];
+  const master = wiki.pages.find((page) => page.id === "dietary-metal-paradoxes");
+  if (!master) return generated;
+
+  const masterSections = master.sections ?? [];
+  const canonicalPages = new Map<number, WikiPage>();
+  masterSections.forEach((root, index) => {
+    const match = root.heading.match(/^Paradox\s+(\d+)\s*:\s*(.*)$/i);
+    if (!match) return;
+    const number = Number(match[1]);
+    const title = match[2].trim();
+    const subsections = childSections(masterSections, index);
+    const contradiction = subsections.find((section) => /^the contradiction$/i.test(section.heading));
+    const overview = stripDivider(contradiction?.body || root.body || `A dietary metal paradox documented by WikiBiome.`);
+    const detailSections = subsections.filter((section) => section !== contradiction).map((section) => ({ ...section, body: stripDivider(section.body) }));
+    const allText = [overview, ...detailSections.map((section) => section.body)].join("\n");
+    const id = `paradox-${normalizeWikiId(title.replace(/^the\s+/i, "")).replace(/-+/g, "-")}`;
+    const page: WikiPage = {
+      id,
+      title,
+      type: "paradox",
+      category: "analysis",
+      overview,
+      sections: detailSections,
+      tags: unique([...(master.tags ?? []), "dietary-paradox", `paradox-${number}`]),
+      created: master.created,
+      updated: master.updated,
+      wikilinks: unique(["dietary-metal-paradoxes", ...inlineWikiLinks(allText)]),
+      backlinks: ["dietary-metal-paradoxes"],
+      related: [{ id: "dietary-metal-paradoxes", score: 1 }],
+      frontmatter: { generated_from: master.id, paradox_number: number },
+    };
+    generated.push(page);
+    canonicalPages.set(number, page);
+    const link = { id, title, summary: paradoxSummary(overview), canonical: true };
+    canonicalParadoxByNumber.set(number, link);
+  });
+
+  paradoxLinksByPage.set(master.id, [...canonicalParadoxByNumber.values()]);
+
+  for (const sourcePage of wiki.pages) {
+    if (sourcePage.id === master.id) continue;
+    const sections = sourcePage.sections ?? [];
+    const links: ParadoxLink[] = [];
+    sections.forEach((root, index) => {
+      if (!isDietaryParadoxSection(root.heading)) return;
+      const items = extractedParadoxItems(root, childSections(sections, index));
+      for (const item of items) {
+        const canonicalNumber = canonicalParadoxNumber(item.title, item.body);
+        const canonicalLink = canonicalParadoxByNumber.get(canonicalNumber);
+        if (canonicalLink) {
+          links.push(canonicalLink);
+          continue;
+        }
+        if (!isParadoxicalItem(item.title, item.body)) continue;
+
+        const contextTitle = plainText(item.title || root.heading).replace(/^Paradox\s+\d+\s*:\s*/i, "");
+        const id = `paradox-${sourcePage.id}-${normalizeWikiId(contextTitle).replace(/-+/g, "-")}`;
+        if (!generated.some((page) => page.id === id)) {
+          const overview = stripDivider(item.body);
+          const page: WikiPage = {
+            id,
+            title: `${contextTitle} — ${sourcePage.title}`,
+            type: "paradox",
+            category: "analysis",
+            overview,
+            sections: [{ heading: "Source context", level: 2, body: `This paradox is indexed from the dietary metal analysis in [[${sourcePage.id}|${sourcePage.title}]].` }],
+            tags: unique([...(sourcePage.tags ?? []), "dietary-paradox", "contextual-paradox"]),
+            created: sourcePage.created,
+            updated: sourcePage.updated,
+            wikilinks: unique([sourcePage.id, "dietary-metal-paradoxes", ...inlineWikiLinks(overview)]),
+            backlinks: [sourcePage.id],
+            related: [{ id: sourcePage.id, score: 1 }, { id: "dietary-metal-paradoxes", score: 0.8 }],
+            frontmatter: { generated_from: sourcePage.id, contextual_paradox: true },
+          };
+          generated.push(page);
+        }
+        links.push({ id, title: contextTitle, summary: paradoxSummary(item.body), canonical: false });
+      }
+    });
+
+    const uniqueLinks = [...new Map(links.map((link) => [link.id, link])).values()];
+    if (uniqueLinks.length) paradoxLinksByPage.set(sourcePage.id, uniqueLinks);
+  }
+
+  for (const [sourceId, links] of paradoxLinksByPage) {
+    for (const link of links) {
+      const page = generated.find((candidate) => candidate.id === link.id);
+      if (page && !page.backlinks?.includes(sourceId)) page.backlinks = [...(page.backlinks ?? []), sourceId];
+    }
+  }
+  return generated;
 }
 
 /**

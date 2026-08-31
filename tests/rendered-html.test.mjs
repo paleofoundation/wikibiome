@@ -136,8 +136,12 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.match(environmentalNarrative, /methylmercury \(MeHg\)/);
   assert.match(developmentalNarrative, /symptom onset\. Early-life lead \(Pb\) exposure/);
   assert.doesNotMatch(developmentalNarrative, /<(?:ul|ol)>/);
-  assert.match(paradoxNarrative, /class="paradox-grid paradox-count-3"/);
-  assert.equal((paradoxNarrative.match(/<article>/g) ?? []).length, 3);
+  assert.match(paradoxNarrative, /class="paradox-link-panel"/);
+  assert.equal((paradoxNarrative.match(/Read paradox →/g) ?? []).length, 3);
+  assert.match(paradoxNarrative, /href="\/article\/paradox-fish-consumption-mercury-confound"/);
+  assert.match(paradoxNarrative, /href="\/article\/paradox-plant-based-diet-nickel-trap"/);
+  assert.match(paradoxNarrative, /href="\/article\/paradox-alzheimers-disease-zinc-supplementation"/);
+  assert.doesNotMatch(paradoxNarrative, /<article>/);
 
   assert.match(html, /class="ecology-console"/);
   assert.match(html, /WB\.ECO \/ SYSTEM MODEL/);
@@ -179,7 +183,7 @@ test("canonicalizes legacy signature URLs and applies the generator to every dis
   assert.doesNotMatch(directoryHtml, /href="\/article\/alzheimers-disease-signature"/);
 });
 
-test("adapts dietary paradoxes to every content shape in the corpus", async () => {
+test("links every dietary paradox section to generated canonical articles", async () => {
   const paths = [
     "/article/breast-cancer",
     "/article/endometriosis",
@@ -194,33 +198,53 @@ test("adapts dietary paradoxes to every content shape in the corpus", async () =
   const [breast, endometriosis, pcos, diabetes, lowNickel, matrix, dietaryAnalysis] = await Promise.all(responses.map((response) => response.text()));
 
   const breastParadox = breast.slice(breast.indexOf('id="article-dietary-metal-paradoxes"'), breast.indexOf('id="article-current-interventions'));
-  assert.equal((breastParadox.match(/<article>/g) ?? []).length, 2);
-  assert.match(breastParadox, /The zinc supplementation question/);
-  assert.match(breastParadox, /The plant-based diet dilemma/);
+  assert.equal((breastParadox.match(/Read paradox →/g) ?? []).length, 2);
+  assert.match(breastParadox, /href="\/article\/paradox-breast-cancer-the-zinc-supplementation-question"/);
+  assert.match(breastParadox, /href="\/article\/paradox-plant-based-diet-nickel-trap"/);
 
   const endometriosisParadox = endometriosis.slice(endometriosis.indexOf('id="article-dietary-metal-paradoxes"'), endometriosis.indexOf('id="article-current-interventions'));
-  assert.equal((endometriosisParadox.match(/<article>/g) ?? []).length, 3);
-  assert.match(endometriosisParadox, /The Plant-Based Diet Paradox/);
-  assert.match(endometriosisParadox, /The Zinc-MMP Tissue Invasion Paradox/);
-  assert.match(endometriosisParadox, /The H2S\/NF-kB Amplification Loop/);
+  assert.equal((endometriosisParadox.match(/Read paradox →/g) ?? []).length, 3);
+  assert.match(endometriosisParadox, /href="\/article\/paradox-plant-based-diet-nickel-trap"/);
+  assert.match(endometriosisParadox, /href="\/article\/paradox-zinc-endometriosis-reversal"/);
+  assert.match(endometriosisParadox, /href="\/article\/paradox-endometriosis-the-h2snf-kb-amplification-loop"/);
 
   const pcosParadox = pcos.slice(pcos.indexOf('id="article-dietary-metal-paradoxes"'), pcos.indexOf('id="article-insulin-resistance-as-central-mediator'));
-  assert.equal((pcosParadox.match(/<article>/g) ?? []).length, 5);
-  assert.doesNotMatch(pcosParadox, />Paradox 0\d</);
+  assert.equal((pcosParadox.match(/Read paradox →/g) ?? []).length, 1);
+  assert.match(pcosParadox, /href="\/article\/paradox-plant-based-diet-nickel-trap"/);
 
   const diabetesParadox = diabetes.slice(diabetes.indexOf('id="article-dietary-metal-paradoxes"'), diabetes.indexOf('id="article-current-interventions-with-metal-relevance'));
-  assert.equal((diabetesParadox.match(/<article>/g) ?? []).length, 2);
-  assert.match(diabetesParadox, /The iron overload paradox/);
-  assert.match(diabetesParadox, /The chromium supplementation paradox/);
+  assert.equal((diabetesParadox.match(/Read paradox →/g) ?? []).length, 2);
+  assert.match(diabetesParadox, /href="\/article\/paradox-iron-supplementation-double-edged-sword"/);
+  assert.match(diabetesParadox, /href="\/article\/paradox-type-2-diabetes-the-chromium-supplementation-paradox"/);
 
   const lowNickelParadox = lowNickel.slice(lowNickel.indexOf('id="the-dietary-paradox"'), lowNickel.indexOf('id="diagnosis-when-to-recommend-a-low-nickel-diet"'));
-  assert.equal((lowNickelParadox.match(/<article>/g) ?? []).length, 3);
-  assert.match(lowNickelParadox, /Paradox 1: Plant-Based Diets/);
-  assert.match(lowNickelParadox, /Paradox 3: The Commensal Casualty/);
-  assert.match(matrix, /id="5-3-nickel-in-food-the-dietary-paradox"[\s\S]{0,3000}class="paradox-note"/);
-  assert.equal((dietaryAnalysis.match(/class="wiki-section level-2 paradox-dossier"/g) ?? []).length, 9);
-  assert.match(dietaryAnalysis, /id="paradox-1-the-plant-based-diet-nickel-trap-the-contradiction"/);
-  assert.match(dietaryAnalysis, /id="paradox-9-the-nickel-restriction-commensal-casualty-clinical-implication"/);
+  assert.equal((lowNickelParadox.match(/Read paradox →/g) ?? []).length, 3);
+  assert.match(lowNickelParadox, /href="\/article\/paradox-plant-based-diet-nickel-trap"/);
+  assert.match(lowNickelParadox, /href="\/article\/paradox-gluten-free-diet-nickel-load-switch"/);
+  assert.match(lowNickelParadox, /href="\/article\/paradox-nickel-restriction-commensal-casualty"/);
+  assert.match(matrix, /id="5-3-nickel-in-food-the-dietary-paradox"[\s\S]{0,3000}href="\/article\/paradox-plant-based-diet-nickel-trap"/);
+  assert.equal((dietaryAnalysis.match(/class="paradox-directory-entry"/g) ?? []).length, 9);
+  assert.match(dietaryAnalysis, /href="\/article\/paradox-plant-based-diet-nickel-trap"/);
+  assert.match(dietaryAnalysis, /href="\/article\/paradox-nickel-restriction-commensal-casualty"/);
+});
+
+test("renders generated paradox detail pages with focused evidence and metadata", async () => {
+  const [canonicalResponse, contextualResponse] = await Promise.all([
+    render("/article/paradox-plant-based-diet-nickel-trap"),
+    render("/article/paradox-alzheimers-disease-zinc-supplementation"),
+  ]);
+  assert.equal(canonicalResponse.status, 200);
+  assert.equal(contextualResponse.status, 200);
+
+  const canonical = await canonicalResponse.text();
+  const contextual = await contextualResponse.text();
+  assert.match(canonical, /<title>The Plant-Based Diet \/ Nickel Trap — WikiBiome<\/title>/);
+  assert.match(canonical, /The Evidence/);
+  assert.match(canonical, /Why It Matters/);
+  assert.match(canonical, /href="\/article\/dietary-metal-paradoxes"/);
+  assert.match(contextual, /<title>Zinc supplementation — Alzheimer(?:&#x27;|')s Disease — WikiBiome<\/title>/i);
+  assert.match(contextual, /Could counter zinc \(Zn\) depletion/);
+  assert.match(contextual, /href="\/article\/alzheimers-disease"/);
 });
 
 test("binds generated content to the fetched upstream commit", () => {

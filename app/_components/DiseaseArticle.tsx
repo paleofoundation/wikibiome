@@ -1,8 +1,8 @@
 import Link from "next/link";
 import {
   ArticleNetwork,
-  DietaryParadoxContent,
   EvidenceIntegrity,
+  ParadoxLinkIndex,
   ReferencesSection,
   RichText,
   WikiHeader,
@@ -24,7 +24,6 @@ import {
   type DiseaseRecord,
   type DiseaseSignature,
   type SignatureTaxon,
-  type WikiSection,
 } from "@/lib/wikibiome";
 
 const layers = [
@@ -163,12 +162,12 @@ function proseReadySection(heading: string, body: string) {
   return sentenceLike / bullets.length >= 0.6;
 }
 
-function ParadoxSection({ heading, body, subsections, citationNumbers }: { heading: string; body: string; subsections: WikiSection[]; citationNumbers: Record<string, number> }) {
+function ParadoxSection({ heading, pageId }: { heading: string; pageId: string }) {
   const id = `article-${slugify(heading)}`;
   return (
     <section className="wiki-section level-2 paradox-section" id={id}>
       <h2>{heading}<a href={`#${id}`} aria-label={`Link to ${heading}`}>#</a></h2>
-      <DietaryParadoxContent body={body} subsections={subsections} citationNumbers={citationNumbers} />
+      <ParadoxLinkIndex pageId={pageId} />
     </section>
   );
 }
@@ -255,14 +254,12 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
   const metallomicLevel = metallomicStart >= 0 ? sections[metallomicStart].level : -1;
   const nextPeer = sections.findIndex((section, index) => index > metallomicStart && section.level <= metallomicLevel);
   const metallomicEnd = nextPeer >= 0 ? nextPeer : sections.length;
-  const paradoxGroups = new Map<number, WikiSection[]>();
   const consumedParadoxSections = new Set<number>();
   sections.forEach((section, index) => {
     if (!isDietaryParadoxHeading(section.heading)) return;
     const end = sections.findIndex((candidate, candidateIndex) => candidateIndex > index && candidate.level <= section.level);
     const boundary = end >= 0 ? end : sections.length;
     const subsections = sections.slice(index + 1, boundary);
-    paradoxGroups.set(index, subsections);
     subsections.forEach((_subsection, childIndex) => consumedParadoxSections.add(index + childIndex + 1));
   });
   return (
@@ -278,7 +275,7 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
           return <OpenQuestions body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
         }
         if (isDietaryParadoxHeading(section.heading)) {
-          return <ParadoxSection heading={section.heading} body={section.body} subsections={paradoxGroups.get(index) ?? []} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
+          return <ParadoxSection heading={section.heading} pageId={record.page.id} key={`${section.heading}-${section.level}`} />;
         }
         const id = `article-${slugify(section.heading)}`;
         const Heading = section.level === 2 ? "h2" : "h3";
