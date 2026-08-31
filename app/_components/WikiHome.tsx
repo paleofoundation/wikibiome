@@ -1,4 +1,5 @@
 import Link from "@/app/_components/NativeLink";
+import { getArticleMedia } from "@/lib/article-media";
 import { categories, categoryLabel, getCategoryCount, getWikiPage, plainText, wikiStats, type WikiPage } from "@/lib/wikibiome";
 
 const bodyLinks = [
@@ -110,19 +111,30 @@ export function WikiHome() {
           <p>The redesign is attached to WikiBiome’s shared article structure—not a static concept. Open four real records below to see the same visual grammar carry organisms, elements, conditions, and mechanisms without disturbing their content model.</p>
         </header>
         <div className="portal-grid">
-          {portals.map((page, index) => (
-            <Link className={`portal-card portal-card-${index}`} href={`/article/${page.id}`} key={page.id}>
-              <div className="portal-preview">
-                <span>{String(index + 1).padStart(2, "0")}</span>
-                <img src="/wikibiome-human-system-v2.png" alt="" />
-                <i /><i />
-              </div>
-              <p>{categoryLabel(page.category)} · {page.sourceCount ?? 0} sources</p>
-              <h3>{page.title}</h3>
-              <span className="portal-description">{plainText(page.overview).slice(0, 150)}…</span>
-              <b>Open actual article <em>↗</em></b>
-            </Link>
-          ))}
+          {portals.map((page, index) => {
+            const media = getArticleMedia(page.id);
+            return (
+              <Link className={`portal-card portal-card-${index}`} href={`/article/${page.id}`} key={page.id}>
+                <div className="portal-preview">
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  {media ? (
+                    <img
+                      src={media.src}
+                      alt={media.alt}
+                      width={media.width}
+                      height={media.height}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : null}
+                </div>
+                <p>{categoryLabel(page.category)} · {page.sourceCount ?? 0} sources</p>
+                <h3>{page.title}</h3>
+                <span className="portal-description">{plainText(page.overview).slice(0, 150)}…</span>
+                <b>Open actual article <em>↗</em></b>
+              </Link>
+            );
+          })}
         </div>
       </section>
 

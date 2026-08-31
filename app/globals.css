@@ -366,12 +366,11 @@ button,input { font:inherit; }
 .portal-card { min-width:0;padding:0 22px 30px;border-right:1px solid #c4cfdd;transition:background .3s,transform .3s; }
 .portal-card:first-child { padding-left:0; }.portal-card:last-child { padding-right:0;border-right:0; }
 .portal-card:hover { background:rgba(255,255,255,.5);transform:translateY(-7px); }
-.portal-preview { position:relative;height:230px;margin-bottom:23px;overflow:hidden;background:radial-gradient(circle at 50% 38%,rgba(70,151,238,.28),transparent 42%),linear-gradient(145deg,#06152f,#0c2a54); }
-.portal-preview::before { content:"";position:absolute;inset:0;opacity:.18;background-image:linear-gradient(rgba(147,203,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(147,203,255,.18) 1px,transparent 1px);background-size:27px 27px; }
+.portal-preview { position:relative;height:230px;margin-bottom:23px;overflow:hidden;background:#eef3f6; }
+.portal-preview::before { content:"";position:absolute;z-index:2;inset:0;background:linear-gradient(180deg,rgba(8,30,52,.28),transparent 30%,transparent 76%,rgba(8,30,52,.08));pointer-events:none; }
 .portal-preview > span { position:absolute;z-index:3;left:13px;top:13px;color:#9bc7fb;font-size:8px;letter-spacing:.15em; }
-.portal-preview img { position:absolute;left:50%;top:12px;width:120px;height:265px;object-fit:contain;transform:translateX(-50%);filter:drop-shadow(0 0 18px rgba(92,180,255,.45));transition:.45s cubic-bezier(.16,1,.3,1); }
-.portal-card:hover .portal-preview img { transform:translateX(-50%) scale(1.08); }
-.portal-preview i { position:absolute;z-index:4;width:9px;height:9px;border:1px solid #e9fbff;border-radius:50%;background:#63d6e9;box-shadow:0 0 0 7px rgba(99,214,233,.12);animation:pointBreathe 3s ease-in-out infinite; }.portal-preview i:nth-of-type(1) { right:22%;top:28%; }.portal-preview i:nth-of-type(2) { left:23%;bottom:24%;animation-delay:-1.5s; }
+.portal-preview img { width:100%;height:100%;display:block;object-fit:cover;transform:scale(1.002);transition:transform .55s cubic-bezier(.16,1,.3,1),filter .55s; }
+.portal-card:hover .portal-preview img { transform:scale(1.045);filter:saturate(1.04) contrast(1.02); }
 .portal-card > p { margin:0;color:#3a70bd;font-size:7px;font-weight:800;letter-spacing:.12em;text-transform:uppercase; }
 .portal-card h3 { min-height:2.1em;margin:10px 0 13px;font-family:var(--serif);font-size:clamp(23px,2.2vw,33px);font-weight:400;line-height:1.02;letter-spacing:-.035em; }
 .portal-description { min-height:7.4em;display:block;color:#5c687a;font-family:var(--serif);font-size:11px;line-height:1.55; }
@@ -794,8 +793,8 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
 .home-stats { border-top-color:rgba(76,99,121,.18);background:rgba(250,252,253,.76);color:#20384f;box-shadow:0 -10px 34px rgba(47,70,91,.05); }.home-stats p { border-left-color:rgba(76,99,121,.17); }.home-stats p span,.home-stats > a { color:#728190; }
 .home-footer .home-wordmark { color:#fff; }.home-footer .home-word em { color:#8ec0ff; }.home-footer .home-word small { color:rgba(209,226,248,.55); }.home-footer .home-logo { box-shadow:0 10px 30px rgba(0,4,16,.38),0 0 0 1px rgba(199,226,255,.28); }
 .home-portals { background:radial-gradient(circle at 9% 14%,rgba(154,116,104,.06),transparent 25%),linear-gradient(145deg,#f3f5f6,#fff 56%,#e9eef1); }
-.portal-preview { border:1px solid #c8d1d8;background:radial-gradient(circle at 50% 38%,rgba(73,132,184,.1),transparent 42%),linear-gradient(145deg,#fff,#e7ecef); }
-.portal-preview::before { opacity:.45;background-image:linear-gradient(rgba(78,107,132,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(78,107,132,.08) 1px,transparent 1px); }.portal-preview > span { color:#537592; }.portal-preview img { filter:drop-shadow(0 15px 17px rgba(49,74,97,.2)); }
+.portal-preview { border:1px solid #c8d1d8;background:#eef3f6; }
+.portal-preview::before { opacity:1;background:linear-gradient(180deg,rgba(8,30,52,.28),transparent 30%,transparent 76%,rgba(8,30,52,.08)); }.portal-preview > span { color:#eef7ff;text-shadow:0 1px 9px rgba(0,21,42,.8); }.portal-preview img { filter:none; }
 
 .wiki-header { border-bottom-color:#cbd4dc;background:rgba(255,255,255,.95);box-shadow:0 8px 27px rgba(43,65,85,.08); }
 .wiki-brand { color:#17334d; }.wiki-brand small { color:#708191; }.global-search { border-color:#aebac5;background:#fff; }.utility-nav a { color:#536577; }.utility-nav a:hover { color:#173d61;border-color:var(--copper-cool); }

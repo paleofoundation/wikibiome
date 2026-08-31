@@ -55,6 +55,12 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.match(html, /The current corpus, reimagined/);
   assert.match(html, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(html, /href="\/article\/nickel"/);
+  assert.match(html, /src="\/media\/akkermansia-muciniphila-morphology-v2\.webp"/);
+  assert.match(html, /src="\/media\/nickel-technical-specimen-v2\.webp"/);
+  assert.match(html, /src="\/media\/alzheimers-disease-pathology-v2\.webp"/);
+  assert.match(html, /src="\/media\/dysbiosis-microbial-community-v2\.webp"/);
+  const portalMarkup = html.match(/<section class="home-portals"[\s\S]*?<section class="home-trail"/)?.[0] ?? "";
+  assert.doesNotMatch(portalMarkup, /wikibiome-human-system-v2\.png/, "the article cards never reuse the anatomical hero fallback");
   assert.match(html, /A project of Microbiome Medicine/);
   assert.match(html, /href="https:\/\/microbiomemedicine\.com"/);
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
@@ -93,6 +99,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   const pilot = [
     ["nickel", "nickel-technical-specimen-v2", "Material specimen", "Technical specimen visualization"],
     ["akkermansia-muciniphila", "akkermansia-muciniphila-morphology-v2", "Morphology reconstruction", "Microscopy-informed reconstruction"],
+    ["alzheimers-disease", "alzheimers-disease-pathology-v2", "Pathology reconstruction", "Pathology-informed reconstruction"],
+    ["dysbiosis", "dysbiosis-microbial-community-v2", "Community reconstruction", "Microscopy-informed community reconstruction"],
   ];
   const responses = await Promise.all(pilot.map(([id]) => render(`/article/${id}`)));
   responses.forEach((response) => assert.equal(response.status, 200));
@@ -119,7 +127,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     }
   }
 
-  const unverified = ["alzheimers-disease", "dysbiosis", "low-nickel-diet", "paradox-plant-based-diet-nickel-trap"];
+  const unverified = ["low-nickel-diet", "paradox-plant-based-diet-nickel-trap"];
   const unverifiedResponses = await Promise.all(unverified.map((id) => render(`/article/${id}`)));
   const unverifiedPages = await Promise.all(unverifiedResponses.map((response) => response.text()));
   for (const [index, html] of unverifiedPages.entries()) {
@@ -342,7 +350,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /43 lint, audit, maintenance, resume, and roadmap records are deliberately excluded/);
   assert.match(readiness, /824[\s\S]{0,110}records[\s\S]{0,110}717[\s\S]{0,80}canonical article routes/);
-  assert.match(readiness, /2 of 717 canonical article routes currently have reviewed/);
+  assert.match(readiness, /4 of 717 canonical article routes currently have reviewed/);
   assert.match(readiness, /Attach www\.wikibiome\.com to the new Site/);
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /9cba6ad9aac5/);

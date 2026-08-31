@@ -21,6 +21,20 @@ const images = [
     description: "Microscopy-informed reconstruction of an oval, Gram-negative, nonmotile, non-spore-forming Akkermansia muciniphila cell. Scientific illustration; not a micrograph.",
     width: 1536,
   },
+  {
+    source: "alzheimers-disease-pathology-v2-master.png",
+    target: "alzheimers-disease-pathology-v2",
+    title: "Alzheimer’s disease pathology",
+    description: "Pathology-informed reconstruction of a sagittal human brain specimen with restrained emphasis on structures commonly discussed in Alzheimer’s disease. Scientific illustration; not a diagnostic image or tissue photograph.",
+    width: 1536,
+  },
+  {
+    source: "dysbiosis-microbial-community-v2-master.png",
+    target: "dysbiosis-microbial-community-v2",
+    title: "Dysbiotic microbial community",
+    description: "Microscopy-informed reconstruction of an uneven mixed microbial community. Scientific illustration; composition is representative and not a diagnostic micrograph.",
+    width: 1536,
+  },
 ];
 
 function xmp({ title, description }) {
