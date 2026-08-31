@@ -58,6 +58,20 @@ function Signal({ value, tone = "neutral" }: { value: string; tone?: "up" | "dow
     : <span className={`signature-signal ${tone}`}>{content}</span>;
 }
 
+function EcologyNode({ feature, index }: { feature: string; index: number }) {
+  const term = parseTerm(feature);
+  const content = (
+    <>
+      <span>{String(index + 1).padStart(2, "0")}</span>
+      <div><i aria-hidden="true" /><b>{term.label}</b><small>indexed ecological state</small></div>
+      <em aria-hidden="true">{term.linkedPage ? "↗" : "•"}</em>
+    </>
+  );
+  return term.linkedPage
+    ? <Link className="ecology-node" href={`/article/${term.id}`}>{content}</Link>
+    : <div className="ecology-node">{content}</div>;
+}
+
 function SignalGroup({ title, items, tone }: { title: string; items: string[]; tone: "up" | "down" | "neutral" }) {
   return (
     <section className={`signal-group ${tone}`}>
@@ -205,6 +219,10 @@ function DiseaseInfobox({ record }: { record: DiseaseRecord }) {
 
 function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
   const sections = (record.page.sections ?? []).filter((section) => slugify(section.heading) !== "key-sources");
+  const metallomicStart = sections.findIndex((section) => slugify(section.heading) === "metallomic-signature");
+  const metallomicLevel = metallomicStart >= 0 ? sections[metallomicStart].level : -1;
+  const nextPeer = sections.findIndex((section, index) => index > metallomicStart && section.level <= metallomicLevel);
+  const metallomicEnd = nextPeer >= 0 ? nextPeer : sections.length;
   return (
     <section className="disease-narrative" id="article" aria-labelledby="disease-article-title">
       <header className="disease-section-heading">
@@ -212,16 +230,17 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
         <h2 id="disease-article-title">The disease record, in full.</h2>
         <p>The original WikiBiome disease narrative remains intact beneath the generated signature atlas.</p>
       </header>
-      {sections.map((section) => {
+      {sections.map((section, index) => {
         if (slugify(section.heading) === "open-questions") {
           return <OpenQuestions body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
         }
         const id = `article-${slugify(section.heading)}`;
         const Heading = section.level === 2 ? "h2" : "h3";
+        const continuousMetallomicProse = metallomicStart >= 0 && index >= metallomicStart && index < metallomicEnd;
         return (
-          <section className={`wiki-section level-${section.level}`} id={id} key={`${section.heading}-${section.level}`}>
+          <section className={`wiki-section level-${section.level}${continuousMetallomicProse ? " continuous-prose-section" : ""}`} id={id} key={`${section.heading}-${section.level}`}>
             <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>
-            {section.body && <RichText text={section.body} citationNumbers={record.evidence.citationNumbers} />}
+            {section.body && <RichText text={section.body} citationNumbers={record.evidence.citationNumbers} prose={continuousMetallomicProse} />}
           </section>
         );
       })}
@@ -310,10 +329,20 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
 
                 <section className="signature-layer ecological-layer" id="ecological-layer">
                   <LayerHeader number="04" title="Ecological state" description="The environmental conditions that connect the organism-level observations into a system." confidence={record.confidence.ecological} />
-                  <div className="ecology-path">
-                    {signature.ecologicalFeatures.length ? signature.ecologicalFeatures.map((feature, index) => (
-                      <div key={feature}><span>{String(index + 1).padStart(2, "0")}</span><Signal value={feature} /><i aria-hidden="true" /></div>
-                    )) : <p className="signature-empty">No structured ecological features indexed yet.</p>}
+                  <div className="ecology-console">
+                    <header><span><i aria-hidden="true" />WB.ECO / SYSTEM MODEL</span><b>{signature.ecologicalFeatures.length} connected states</b></header>
+                    <div className="ecology-console-body">
+                      <div className="ecology-core" aria-hidden="true">
+                        <i className="ecology-orbit orbit-a" /><i className="ecology-orbit orbit-b" /><i className="ecology-orbit orbit-c" />
+                        <div><small>Layer 04</small><strong>Ecological<br />state</strong><span>host · biome · environment</span></div>
+                      </div>
+                      <div className="ecology-signal-grid">
+                        {signature.ecologicalFeatures.length
+                          ? signature.ecologicalFeatures.map((feature, index) => <EcologyNode feature={feature} index={index} key={feature} />)
+                          : <p className="signature-empty">No structured ecological features indexed yet.</p>}
+                      </div>
+                    </div>
+                    <footer><span>Environment</span><i /><span>Community structure</span><i /><span>Host response</span></footer>
                   </div>
                 </section>
 

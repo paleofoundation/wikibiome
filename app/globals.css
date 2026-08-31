@@ -441,6 +441,8 @@ button,input { font:inherit; }
 /* Disease records — canonical disease narrative + generated five-layer signature */
 @keyframes diseaseOrbit { to { transform:rotate(360deg); } }
 @keyframes signalBreathe { 0%,100% { opacity:.55;transform:scale(.86); } 50% { opacity:1;transform:scale(1.12); } }
+@keyframes consoleOrbit { to { rotate:360deg; } }
+@keyframes consoleScan { 0% { transform:translateY(-30px);opacity:0; } 12%,76% { opacity:.42; } 100% { transform:translateY(330px);opacity:0; } }
 
 .disease-header { min-height:360px;background:radial-gradient(circle at 81% 45%,rgba(41,133,221,.38),transparent 27%),radial-gradient(circle at 63% 10%,rgba(69,198,218,.11),transparent 24%),linear-gradient(126deg,#06132b 0%,#092249 62%,#0a3260 100%); }
 .disease-header .article-heading-copy { max-width:calc(100% - 330px); }
@@ -512,12 +514,39 @@ a.signature-signal:hover { border-color:#78a6dd;background:#eaf4ff;text-decorati
 .taxon-card a,.taxon-card strong { color:#234f83!important;font-family:var(--serif);font-size:11px;font-weight:700;text-decoration:none!important; }
 .taxon-card p { margin:6px 0 0 15px;color:#687a8f;font-family:Arial,sans-serif;font-size:7px;line-height:1.55; }
 
-.ecology-path { position:relative;padding:3px 0;display:grid;grid-template-columns:repeat(4,1fr);gap:9px; }
-.ecology-path::before { content:"";position:absolute;left:5%;right:5%;top:24px;height:1px;background:linear-gradient(90deg,#5cd0d5,#568bd7,#755fc4); }
-.ecology-path > div { position:relative;z-index:1;min-width:0;display:grid;justify-items:start;gap:9px; }
-.ecology-path > div > span { width:38px;height:38px;display:grid;place-items:center;border:1px solid #a8c6e7;border-radius:50%;background:#fff;color:#4775ac;font-size:7px;font-weight:800;box-shadow:0 4px 12px rgba(38,82,134,.09); }
-.ecology-path .signature-signal { border-radius:8px;white-space:normal; }
-.ecology-path > div > i { display:none; }
+.ecological-layer { overflow:hidden; }
+.ecology-console { position:relative;overflow:hidden;border:1px solid rgba(117,181,245,.28);border-radius:15px;background:radial-gradient(circle at 18% 50%,rgba(36,132,214,.26),transparent 29%),radial-gradient(circle at 82% 15%,rgba(58,198,211,.11),transparent 25%),linear-gradient(145deg,#06162e,#092448 58%,#071b38);box-shadow:0 22px 55px rgba(4,25,56,.24);color:#dcecff;isolation:isolate; }
+.ecology-console::before { content:"";position:absolute;z-index:-1;inset:0;opacity:.16;background-image:linear-gradient(rgba(129,190,246,.28) 1px,transparent 1px),linear-gradient(90deg,rgba(129,190,246,.28) 1px,transparent 1px);background-size:31px 31px;mask-image:linear-gradient(90deg,#000,transparent 88%); }
+.ecology-console::after { content:"";position:absolute;z-index:0;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,#61d8df,transparent);box-shadow:0 0 18px #4aa7ed;animation:consoleScan 8s linear infinite;pointer-events:none; }
+.ecology-console > header { position:relative;z-index:2;padding:14px 17px;display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid rgba(136,190,240,.18);background:rgba(1,13,32,.33); }
+.ecology-console > header span,.ecology-console > header b { color:#8fb9e8;font-size:6px;font-weight:800;letter-spacing:.14em;text-transform:uppercase; }
+.ecology-console > header span { display:flex;gap:8px;align-items:center; }.ecology-console > header span i { width:6px;height:6px;border-radius:50%;background:#5ce0da;box-shadow:0 0 0 5px rgba(92,224,218,.1),0 0 13px rgba(92,224,218,.65);animation:signalBreathe 2.8s ease-in-out infinite; }
+.ecology-console > header b { color:#65d0d7; }
+.ecology-console-body { position:relative;z-index:2;padding:25px;display:grid;grid-template-columns:230px minmax(0,1fr);gap:24px;align-items:center; }
+.ecology-core { position:relative;min-height:310px;display:grid;place-items:center; }
+.ecology-core::after { content:"";position:absolute;left:50%;top:50%;width:1px;height:82%;background:linear-gradient(transparent,rgba(93,203,222,.45),transparent);transform:translate(-50%,-50%) rotate(45deg); }
+.ecology-orbit { position:absolute;left:50%;top:50%;border:1px solid rgba(115,187,245,.3);border-radius:50%;transform:translate(-50%,-50%); }
+.ecology-orbit::after { content:"";position:absolute;width:7px;height:7px;border:1px solid #bdefff;border-radius:50%;background:#55cddd;box-shadow:0 0 13px #55cddd; }
+.ecology-orbit.orbit-a { width:205px;height:205px;animation:consoleOrbit 18s linear infinite; }.ecology-orbit.orbit-a::after { left:23px;top:20px; }
+.ecology-orbit.orbit-b { width:156px;height:82px;transform:translate(-50%,-50%) rotate(32deg);animation:consoleOrbit 14s linear reverse infinite; }.ecology-orbit.orbit-b::after { right:5px;top:13px; }
+.ecology-orbit.orbit-c { width:112px;height:190px;transform:translate(-50%,-50%) rotate(-28deg);animation:consoleOrbit 23s linear infinite; }.ecology-orbit.orbit-c::after { left:2px;bottom:29px; }
+.ecology-core > div { position:relative;z-index:3;width:118px;height:118px;padding:19px 12px;display:flex;flex-direction:column;justify-content:center;border:1px solid rgba(154,209,253,.65);border-radius:50%;background:radial-gradient(circle at 45% 35%,rgba(41,112,189,.95),rgba(7,34,72,.94) 70%);box-shadow:inset 0 0 27px rgba(83,181,242,.24),0 0 0 8px rgba(75,147,218,.06),0 0 38px rgba(47,147,222,.25);text-align:center; }
+.ecology-core small { color:#72d5dd;font-size:5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase; }
+.ecology-core strong { margin:5px 0;color:#fff;font-family:var(--serif);font-size:17px;font-weight:400;line-height:.92;letter-spacing:-.03em; }
+.ecology-core span { color:#82a9d1;font-size:5px;letter-spacing:.07em;text-transform:uppercase; }
+.ecology-signal-grid { min-width:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px; }
+.ecology-node { min-width:0;min-height:69px;padding:11px;display:grid;grid-template-columns:24px minmax(0,1fr) 11px;gap:8px;align-items:center;border:1px solid rgba(125,180,232,.2);border-radius:8px;background:linear-gradient(135deg,rgba(24,64,111,.68),rgba(11,42,82,.7));color:#cfe4fc!important;box-shadow:inset 0 1px rgba(255,255,255,.035);transition:border-color .22s,background .22s,transform .22s,box-shadow .22s; }
+.ecology-node > span { color:#68cdd7;font-family:Arial,sans-serif;font-size:6px;font-weight:800;letter-spacing:.08em; }
+.ecology-node > div { min-width:0;display:grid;grid-template-columns:6px minmax(0,1fr);gap:2px 7px;align-items:center; }
+.ecology-node > div i { width:5px;height:5px;grid-row:1;border-radius:50%;background:#64d6dc;box-shadow:0 0 9px rgba(100,214,220,.75);animation:signalBreathe 3.5s ease-in-out infinite; }
+.ecology-node > div b { min-width:0;overflow:hidden;color:#e3f0ff;font-family:var(--serif);font-size:9px;font-weight:400;line-height:1.18;text-overflow:ellipsis; }
+.ecology-node > div small { grid-column:2;color:#7596ba;font-size:5px;letter-spacing:.07em;text-transform:uppercase; }
+.ecology-node > em { color:#5f94c8;font-size:7px;font-style:normal; }
+a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-gradient(135deg,rgba(30,84,137,.92),rgba(11,52,99,.9));box-shadow:0 8px 21px rgba(0,9,28,.28),inset 0 0 18px rgba(74,182,219,.06);text-decoration:none!important;transform:translateY(-2px); }
+.ecology-console > footer { position:relative;z-index:2;padding:12px 18px;display:flex;gap:10px;align-items:center;border-top:1px solid rgba(136,190,240,.18);background:rgba(1,13,32,.28);color:#7397bd;font-size:5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase; }
+.ecology-console > footer i { height:1px;max-width:58px;flex:1;background:linear-gradient(90deg,#4bcbd6,#5d7ed0); }
+.ecology-console .signature-empty { grid-column:1/-1;border-color:rgba(126,184,236,.28);background:rgba(8,33,68,.72);color:#8fb0d3!important; }
+.ecology-node:focus-visible { outline:2px solid #6ce1e0;outline-offset:2px; }
 .function-cloud { padding:23px;border:1px dashed #a9c3e2;border-radius:12px;background:radial-gradient(circle at 50% 50%,#eef7ff,#f9fcff);justify-content:center; }
 .function-cloud .signature-signal { padding:9px 12px;background:#fff; }
 .signature-caution { margin-top:20px;padding:18px 19px;border:1px solid #e3caa5;border-radius:11px;background:#fffaf1; }
@@ -527,6 +556,7 @@ a.signature-signal:hover { border-color:#78a6dd;background:#eaf4ff;text-decorati
 
 .disease-narrative { margin-top:78px;padding-top:52px;border-top:2px solid #2f70bd;scroll-margin-top:96px; }
 .disease-narrative .disease-section-heading { margin-bottom:12px; }
+.continuous-prose-section .continuous-prose { max-width:920px;margin:15px 0;color:#303641;font-size:15px;line-height:1.77; }
 .open-questions-intro { margin:-7px 0 20px!important;color:#718197!important;font-family:Arial,sans-serif!important;font-size:9px!important; }
 .open-question-list { overflow:hidden;border:1px solid #c8d7e8;border-radius:13px;background:#f8fbff;box-shadow:0 14px 32px rgba(31,73,126,.06); }
 .open-question-list details { border-bottom:1px solid #d8e2ed;background:#fff; }
@@ -557,7 +587,7 @@ a.signature-signal:hover { border-color:#78a6dd;background:#eaf4ff;text-decorati
 @media (max-width:1180px) {
   .disease-grid { grid-template-columns:minmax(0,1fr) 300px; }
   .reconciliation-note { grid-template-columns:120px minmax(0,1fr); }.reconciliation-note > div { grid-column:1/-1;grid-template-columns:repeat(6,auto);justify-content:start; }
-  .ecology-path { grid-template-columns:repeat(3,1fr); }
+  .ecology-console-body { grid-template-columns:190px minmax(0,1fr);gap:17px;padding:20px; }.ecology-signal-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.ecology-core { min-height:285px;transform:scale(.9); }
 }
 
 @media (max-width:950px) {
@@ -577,7 +607,7 @@ a.signature-signal:hover { border-color:#78a6dd;background:#eaf4ff;text-decorati
   .signature-layer { padding:23px 18px; }
   .signature-layer-header { grid-template-columns:40px minmax(0,1fr); }.signature-layer-header > span { width:38px;height:38px; }.signature-layer-header > b { grid-column:2;justify-self:start; }
   .paired-signals,.taxon-grid { grid-template-columns:1fr; }
-  .ecology-path { grid-template-columns:repeat(2,1fr); }
+  .ecology-console-body { grid-template-columns:1fr; }.ecology-core { min-height:250px; }.ecology-signal-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .disease-aside { display:block; }.disease-aside .related-card { margin-top:18px; }
 }
 
@@ -586,6 +616,6 @@ a.signature-signal:hover { border-color:#78a6dd;background:#eaf4ff;text-decorati
   .disease-system-art { opacity:.2; }
   .disease-section-heading h2 { font-size:39px; }
   .signature-layer-header h3 { font-size:23px; }
-  .ecology-path { grid-template-columns:1fr 1fr; }
+  .ecology-console-body { padding:16px; }.ecology-signal-grid { grid-template-columns:1fr; }.ecology-console > header { align-items:flex-start;flex-direction:column; }.ecology-console > footer { flex-wrap:wrap; }.ecology-console > footer i { min-width:30px; }
   .open-question-list summary { padding:15px 13px;grid-template-columns:28px minmax(0,1fr) 25px;gap:9px; }.open-question-list summary > span { width:27px;height:27px; }.open-question-list summary > strong { font-size:12px; }.open-question-list details > div { padding:0 46px 18px 50px; }
 }

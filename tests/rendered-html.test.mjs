@@ -112,6 +112,19 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   const saccharomyces = html.indexOf(">Saccharomyces<");
   assert.ok(enrichedStart >= 0 && depletedStart > enrichedStart);
   assert.ok(saccharomyces > depletedStart, "Saccharomyces should render in the depleted AD column");
+
+  const metallomicStart = html.indexOf('id="article-metallomic-signature"');
+  const mechanisticStart = html.indexOf('id="article-shared-mechanistic-pathways"');
+  const metallomicNarrative = html.slice(metallomicStart, mechanisticStart);
+  assert.ok(metallomicStart >= 0 && mechanisticStart > metallomicStart);
+  assert.match(metallomicNarrative, /continuous-prose-section/);
+  assert.match(metallomicNarrative, /class="continuous-prose"/);
+  assert.doesNotMatch(metallomicNarrative, /<(?:ul|ol)>/);
+
+  assert.match(html, /class="ecology-console"/);
+  assert.match(html, /WB\.ECO \/ SYSTEM MODEL/);
+  assert.equal((html.match(/class="ecology-node"/g) ?? []).length, 14);
+  assert.doesNotMatch(html, /class="ecology-path"/);
 });
 
 test("canonicalizes legacy signature URLs and applies the generator to every disease state", async () => {

@@ -62,7 +62,7 @@ function inlineMarkup(text: string, citationNumbers: Record<string, number>): Re
   return parts;
 }
 
-export function RichText({ text, citationNumbers }: { text: string; citationNumbers: Record<string, number> }) {
+export function RichText({ text, citationNumbers, prose = false }: { text: string; citationNumbers: Record<string, number>; prose?: boolean }) {
   const blocks = text.split(/\n\s*\n/).map((block) => block.trim()).filter(Boolean);
 
   return blocks.map((block, blockIndex) => {
@@ -81,6 +81,13 @@ export function RichText({ text, citationNumbers }: { text: string; citationNumb
           </table>
         </div>
       );
+    }
+
+    if (prose && lines.every((line) => line.startsWith("- ") || /^\d+[.)]\s/.test(line))) {
+      const continuous = lines
+        .map((line) => line.replace(/^(?:-\s+|\d+[.)]\s*)/, ""))
+        .join(" ");
+      return <p className="continuous-prose" key={blockIndex}>{inlineMarkup(continuous, citationNumbers)}</p>;
     }
 
     if (lines.every((line) => line.startsWith("- "))) {
