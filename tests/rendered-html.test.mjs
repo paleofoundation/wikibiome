@@ -84,6 +84,50 @@ test("generates Akkermansia citations, reconciles source drift, and renders full
   assert.match(html, /href="\/source\/amadi-2022-dietary-interventions-asd-systematic-review"/);
 });
 
+test("reconciles Alzheimer's disease and signature records into one generated disease atlas", async () => {
+  const response = await render("/article/alzheimers-disease");
+  assert.equal(response.status, 200);
+
+  const html = await response.text();
+  assert.match(html, /<title>Alzheimer(?:&#x27;|')s Disease — WikiBiome<\/title>/i);
+  assert.match(html, /One disease\. Five evidence layers\./);
+  assert.match(html, /3[\s\S]{0,80}existing vault records/);
+  assert.match(html, /31[\s\S]{0,80}combined references/);
+  assert.match(html, /5[\s\S]{0,30}\/5[\s\S]{0,30}layers populated/);
+  assert.match(html, /id="metallomic-layer"/);
+  assert.match(html, /id="taxonomic-layer"/);
+  assert.match(html, /id="immunity-layer"/);
+  assert.match(html, /id="ecological-layer"/);
+  assert.match(html, /id="virulence-layer"/);
+  assert.match(html, /href="\/article\/akkermansia-muciniphila"/);
+  assert.match(html, /curli amyloid/i);
+  assert.match(html, /The Copper Paradox: Brain Depletion, Peripheral Excess/);
+});
+
+test("canonicalizes legacy signature URLs and applies the generator beyond Alzheimer's", async () => {
+  const [legacy, parkinsons, directory] = await Promise.all([
+    render("/article/alzheimers-disease-signature"),
+    render("/article/parkinsons-disease"),
+    render("/category/signature"),
+  ]);
+
+  assert.equal(legacy.status, 307);
+  assert.equal(legacy.headers.get("location"), "/article/alzheimers-disease#signature");
+
+  assert.equal(parkinsons.status, 200);
+  const parkinsonsHtml = await parkinsons.text();
+  assert.match(parkinsonsHtml, /One disease\. Five evidence layers\./);
+  assert.match(parkinsonsHtml, /Canonical disease record/);
+  assert.match(parkinsonsHtml, /five-layer microbiome signature/);
+
+  assert.equal(directory.status, 200);
+  const directoryHtml = await directory.text();
+  assert.match(directoryHtml, /42[\s\S]{0,60}records in this view/);
+  assert.match(directoryHtml, /each signature opens inside its canonical disease record/i);
+  assert.match(directoryHtml, /href="\/article\/alzheimers-disease"/);
+  assert.doesNotMatch(directoryHtml, /href="\/article\/alzheimers-disease-signature"/);
+});
+
 test("binds generated content to the fetched upstream commit", () => {
   const content = readFileSync(new URL("../data/content.generated.json", import.meta.url));
   const manifest = JSON.parse(readFileSync(new URL("../data/content-manifest.generated.json", import.meta.url), "utf8"));

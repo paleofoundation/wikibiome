@@ -17,7 +17,7 @@ import {
   type WikiPage,
 } from "@/lib/wikibiome";
 
-function slugify(value: string) {
+export function slugify(value: string) {
   return value
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
@@ -62,7 +62,7 @@ function inlineMarkup(text: string, citationNumbers: Record<string, number>): Re
   return parts;
 }
 
-function RichText({ text, citationNumbers }: { text: string; citationNumbers: Record<string, number> }) {
+export function RichText({ text, citationNumbers }: { text: string; citationNumbers: Record<string, number> }) {
   const blocks = text.split(/\n\s*\n/).map((block) => block.trim()).filter(Boolean);
 
   return blocks.map((block, blockIndex) => {
@@ -110,7 +110,7 @@ function formatAuthors(authors: string[] = []) {
   return authors.length <= 3 ? authors.join(", ") : `${authors.slice(0, 3).join(", ")} et al.`;
 }
 
-function EvidenceIntegrity({ evidence }: { evidence: ArticleEvidence }) {
+export function EvidenceIntegrity({ evidence }: { evidence: ArticleEvidence }) {
   const recovered = evidence.recoveredCitationIds.length;
   return (
     <aside className="evidence-integrity" aria-label="Evidence integrity summary">
@@ -133,7 +133,7 @@ function EvidenceIntegrity({ evidence }: { evidence: ArticleEvidence }) {
   );
 }
 
-function ReferencesSection({ evidence }: { evidence: ArticleEvidence }) {
+export function ReferencesSection({ evidence }: { evidence: ArticleEvidence }) {
   if (!evidence.references.length) return null;
   return (
     <section className="references-section" id="references" aria-labelledby="references-title">
@@ -172,7 +172,7 @@ function ReferencesSection({ evidence }: { evidence: ArticleEvidence }) {
   );
 }
 
-function ArticleNetwork({ page }: { page: WikiPage }) {
+export function ArticleNetwork({ page }: { page: WikiPage }) {
   const mentioned = getMentionedPages(page, 18);
   const backlinks = getBacklinkPages(page, 18);
   if (!mentioned.length && !backlinks.length) return null;

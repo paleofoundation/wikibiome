@@ -20,5 +20,8 @@ export default async function CategoryPage({ params }: RouteProps) {
   const { category } = await params;
   const pages = getCategoryPages(category);
   const label = categoryLabel(category);
-  return <WikiDirectory title={label} kicker="Knowledge domain" description={`An alphabetical index of ${label.toLowerCase()} in the public WikiBiome knowledge base.`} pages={pages} />;
+  const description = category === "signature"
+    ? "A reconciled index: each signature opens inside its canonical disease record, where five evidence layers and the full disease narrative live together."
+    : `An alphabetical index of ${label.toLowerCase()} in the public WikiBiome knowledge base.`;
+  return <WikiDirectory title={label} kicker={category === "signature" ? "Generated disease atlas" : "Knowledge domain"} description={description} pages={pages} />;
 }

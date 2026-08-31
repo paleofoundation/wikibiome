@@ -437,3 +437,138 @@ button,input { font:inherit; }
   .article-header { min-height:340px;padding:37px 22px 0; }.article-heading-copy { max-width:100%; }.article-heading-copy > h1 { max-width:92%;font-size:48px; }.article-heading-copy > span { max-width:70%; }.article-system-art { right:-25px;top:-5px;width:145px;height:330px;opacity:.32; }.article-tabs { gap:15px;overflow-x:auto; }.article-tabs > a { white-space:nowrap; }.article-tabs > span { display:none; }
   .source-header { padding:38px 24px; }
 }
+
+/* Disease records — canonical disease narrative + generated five-layer signature */
+@keyframes diseaseOrbit { to { transform:rotate(360deg); } }
+@keyframes signalBreathe { 0%,100% { opacity:.55;transform:scale(.86); } 50% { opacity:1;transform:scale(1.12); } }
+
+.disease-header { min-height:360px;background:radial-gradient(circle at 81% 45%,rgba(41,133,221,.38),transparent 27%),radial-gradient(circle at 63% 10%,rgba(69,198,218,.11),transparent 24%),linear-gradient(126deg,#06132b 0%,#092249 62%,#0a3260 100%); }
+.disease-header .article-heading-copy { max-width:calc(100% - 330px); }
+.disease-header .article-heading-copy > h1 { max-width:850px;font-size:clamp(57px,6vw,92px); }
+.disease-header .article-heading-copy > span { max-width:690px;font-size:14px;line-height:1.45; }
+.disease-system-art { right:4%;top:-32px;width:260px;height:430px;opacity:.96; }
+.disease-system-art::after { left:-55px;right:-55px;top:16%;height:68%;border-color:rgba(128,199,255,.27); }
+.disease-system-art img { position:relative;z-index:2; }
+.disease-system-art > b { position:absolute;z-index:5;left:50%;bottom:42px;width:220px;color:#8dc6fb;font-size:6px;font-style:normal;letter-spacing:.21em;text-align:center;text-transform:uppercase;transform:translateX(-50%); }
+.system-orbit { position:absolute;z-index:1;left:50%;top:47%;border:1px solid rgba(108,191,250,.25);border-radius:50%;transform:translate(-50%,-50%); }
+.orbit-one { width:260px;height:116px;animation:diseaseOrbit 18s linear infinite; }
+.orbit-two { width:180px;height:310px;animation:diseaseOrbit 24s linear reverse infinite; }
+.disease-system-art > i { z-index:4; }
+.disease-grid { grid-template-columns:minmax(0,1fr) 350px; }
+.disease-body { padding-top:55px; }
+.disease-lead { position:relative; }
+.disease-lead::after { content:"Narrative";position:absolute;right:0;bottom:8px;color:#a7b5c8;font-family:Arial,sans-serif;font-size:6px;font-weight:800;letter-spacing:.16em;text-transform:uppercase; }
+
+.reconciliation-note { margin:36px 0 58px;padding:24px 25px;display:grid;grid-template-columns:150px minmax(0,1fr) auto;gap:22px;align-items:center;border:1px solid #bfd4ee;border-radius:14px;background:linear-gradient(135deg,#f7fbff,#eaf4ff);box-shadow:0 15px 34px rgba(35,85,145,.07); }
+.reconciliation-note > span { color:#2c65b5;font-size:8px;font-weight:800;letter-spacing:.13em;text-transform:uppercase; }
+.reconciliation-note > p { margin:0;color:#42536a;font-family:var(--serif);font-size:11px;line-height:1.55; }
+.reconciliation-note > p strong { color:#1d3f6d; }
+.reconciliation-note > div { display:grid;grid-template-columns:auto auto;gap:2px 8px;white-space:nowrap; }
+.reconciliation-note > div b { color:#275da9;font-family:var(--serif);font-size:20px;font-weight:400;text-align:right; }
+.reconciliation-note > div small { align-self:center;color:#77879c;font-size:6px;letter-spacing:.04em;text-transform:uppercase; }
+
+.signature-atlas { scroll-margin-top:96px; }
+.disease-section-heading { margin-bottom:32px; }
+.disease-section-heading > span { color:#3472c0;font-size:8px;font-weight:800;letter-spacing:.16em;text-transform:uppercase; }
+.disease-section-heading h2 { max-width:720px;margin:9px 0 13px;color:#122642;font-family:var(--serif);font-size:clamp(38px,4vw,58px);font-weight:400;line-height:.98;letter-spacing:-.045em; }
+.disease-section-heading > p { max-width:690px;margin:0;color:#66768b;font-family:var(--serif);font-size:13px;line-height:1.6; }
+.layer-index { margin:0 0 25px;padding:1px;display:grid;grid-template-columns:repeat(5,1fr);gap:1px;overflow:hidden;border:1px solid #cbd8e8;border-radius:12px;background:#cbd8e8; }
+.layer-index > a { min-height:82px;padding:13px 11px;display:flex;flex-direction:column;justify-content:space-between;background:#f6f9fd;color:#48617f;transition:.24s; }
+.layer-index > a:hover { background:#e8f3ff;color:#1f5ba8;text-decoration:none;transform:translateY(-2px); }
+.layer-index i { color:#79a6dc;font-size:7px;font-style:normal;letter-spacing:.1em; }
+.layer-index span { font-family:var(--serif);font-size:9px;line-height:1.2; }
+
+.signature-layer { margin:0 0 18px;padding:30px;border:1px solid #ccd9e8;border-radius:16px;background:linear-gradient(145deg,#fff,#f8fbff);box-shadow:0 15px 35px rgba(27,68,120,.06);scroll-margin-top:96px; }
+.signature-layer-header { margin-bottom:25px;display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:15px;align-items:start; }
+.signature-layer-header > span { width:44px;height:44px;display:grid;place-items:center;border:1px solid #9fc1e9;border-radius:50%;background:#e9f3ff;color:#2d68b6;font-family:var(--serif);font-size:14px; }
+.signature-layer-header p { margin:1px 0 4px;color:#6e91bd;font-family:Arial,sans-serif;font-size:6px;font-weight:800;letter-spacing:.14em;text-transform:uppercase; }
+.signature-layer-header h3 { margin:0 0 7px;color:#173355;font-family:var(--serif);font-size:26px;font-weight:400;letter-spacing:-.025em; }
+.signature-layer-header small { display:block;max-width:630px;color:#69798e;font-family:var(--serif);font-size:10px;line-height:1.5; }
+.signature-layer-header > b { margin-top:3px;padding:6px 8px;border:1px solid #c4d8ef;border-radius:999px;background:#f2f7fd;color:#4773a9;font-size:6px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap; }
+.paired-signals { display:grid;grid-template-columns:1fr 1fr;gap:12px; }
+.signal-group { min-width:0;padding:17px;border:1px solid #d8e2ee;border-radius:11px;background:#fff; }
+.signal-group > header { margin-bottom:13px;display:grid;grid-template-columns:22px 1fr auto;gap:7px;align-items:center; }
+.signal-group > header > span { width:22px;height:22px;display:grid;place-items:center;border-radius:50%;background:#e7f6f3;color:#168376;font-size:9px; }
+.signal-group.down > header > span { background:#eef0fb;color:#655fb6; }
+.signal-group h4 { margin:0;color:#486077;font-family:var(--serif);font-size:11px;font-weight:400; }
+.signal-group header b { color:#7d8da1;font-size:7px; }
+.signal-group > div,.function-cloud,.signature-caution > div { display:flex;gap:7px;flex-wrap:wrap; }
+.signature-signal { padding:7px 9px;display:inline-flex;gap:7px;align-items:center;border:1px solid #d2dfec;border-radius:999px;background:#f8fbfe;color:#3d5978!important;font-family:var(--serif);font-size:8px;line-height:1.2;transition:.2s; }
+.signature-signal > i { width:5px;height:5px;flex:0 0 auto;border-radius:50%;background:#508bd1;animation:signalBreathe 3.4s ease-in-out infinite; }
+.signature-signal.up > i { background:#27a594; }.signature-signal.down > i { background:#716cc6; }
+a.signature-signal:hover { border-color:#78a6dd;background:#eaf4ff;text-decoration:none!important;transform:translateY(-2px);box-shadow:0 5px 12px rgba(37,95,163,.1); }
+
+.taxon-grid { display:grid;grid-template-columns:1fr 1fr;gap:13px; }
+.taxon-column { min-width:0;padding:18px;border:1px solid #d7e1ec;border-radius:12px;background:#f8fbfd; }
+.taxon-column > header { margin-bottom:10px;padding:0 2px 11px;display:flex;justify-content:space-between;border-bottom:1px solid #dce4ed;color:#3c627b; }
+.taxon-column > header span { font-size:7px;font-weight:800;letter-spacing:.13em;text-transform:uppercase; }
+.taxon-column > header strong { font-family:var(--serif);font-size:13px;font-weight:400; }
+.taxon-card { padding:13px 1px;border-bottom:1px solid #e2e8ef; }
+.taxon-card:last-child { border:0; }
+.taxon-card > div { display:flex;gap:8px;align-items:center; }
+.taxon-card > div i { width:7px;height:7px;flex:0 0 auto;border:2px solid #fff;border-radius:50%;background:#2ca495;box-shadow:0 0 0 2px #a9dcd4; }
+.taxon-column.down .taxon-card > div i { background:#716cc6;box-shadow:0 0 0 2px #c8c5ee; }
+.taxon-card a,.taxon-card strong { color:#234f83!important;font-family:var(--serif);font-size:11px;font-weight:700;text-decoration:none!important; }
+.taxon-card p { margin:6px 0 0 15px;color:#687a8f;font-family:Arial,sans-serif;font-size:7px;line-height:1.55; }
+
+.ecology-path { position:relative;padding:3px 0;display:grid;grid-template-columns:repeat(4,1fr);gap:9px; }
+.ecology-path::before { content:"";position:absolute;left:5%;right:5%;top:24px;height:1px;background:linear-gradient(90deg,#5cd0d5,#568bd7,#755fc4); }
+.ecology-path > div { position:relative;z-index:1;min-width:0;display:grid;justify-items:start;gap:9px; }
+.ecology-path > div > span { width:38px;height:38px;display:grid;place-items:center;border:1px solid #a8c6e7;border-radius:50%;background:#fff;color:#4775ac;font-size:7px;font-weight:800;box-shadow:0 4px 12px rgba(38,82,134,.09); }
+.ecology-path .signature-signal { border-radius:8px;white-space:normal; }
+.ecology-path > div > i { display:none; }
+.function-cloud { padding:23px;border:1px dashed #a9c3e2;border-radius:12px;background:radial-gradient(circle at 50% 50%,#eef7ff,#f9fcff);justify-content:center; }
+.function-cloud .signature-signal { padding:9px 12px;background:#fff; }
+.signature-caution { margin-top:20px;padding:18px 19px;border:1px solid #e3caa5;border-radius:11px;background:#fffaf1; }
+.signature-caution > span { color:#9a6526;font-size:7px;font-weight:800;letter-spacing:.13em;text-transform:uppercase; }
+.signature-caution > p { margin:7px 0 12px;color:#715f47;font-family:var(--serif);font-size:10px;line-height:1.5; }
+.signature-caution .signature-signal { border-color:#e6d1b1;background:#fffdf8;color:#765d3b!important; }
+
+.disease-narrative { margin-top:78px;padding-top:52px;border-top:2px solid #2f70bd;scroll-margin-top:96px; }
+.disease-narrative .disease-section-heading { margin-bottom:12px; }
+.disease-aside { background:linear-gradient(180deg,#f7fbff,#f9fbfd); }
+.disease-infobox { border-color:#adc6e5; }
+.signature-completeness { padding:15px 18px;border-top:1px solid var(--line); }
+.signature-completeness > span { display:block;margin-bottom:9px;color:#6c7e94;font-size:7px;font-weight:800;letter-spacing:.12em;text-transform:uppercase; }
+.signature-completeness > div { display:grid;grid-template-columns:repeat(5,1fr);gap:4px; }
+.signature-completeness i { height:6px;border-radius:999px;background:linear-gradient(90deg,#4f8ed8,#55c8d7);box-shadow:0 3px 8px rgba(62,133,202,.16); }
+.signature-completeness small { margin-top:8px;display:block;color:#7e8c9d;font-family:var(--serif);font-size:8px; }
+
+@supports (animation-timeline:view()) {
+  .reconciliation-note,.disease-section-heading,.signature-layer,.disease-narrative { animation:articleReveal linear both;animation-timeline:view();animation-range:entry 0% cover 25%; }
+}
+
+@media (max-width:1180px) {
+  .disease-grid { grid-template-columns:minmax(0,1fr) 300px; }
+  .reconciliation-note { grid-template-columns:120px minmax(0,1fr); }.reconciliation-note > div { grid-column:1/-1;grid-template-columns:repeat(6,auto);justify-content:start; }
+  .ecology-path { grid-template-columns:repeat(3,1fr); }
+}
+
+@media (max-width:950px) {
+  .disease-header .article-heading-copy { max-width:calc(100% - 190px); }
+  .disease-system-art { right:-2%;width:205px;opacity:.7; }
+  .disease-grid { grid-template-columns:minmax(0,1fr); }
+  .disease-body { border-right:0; }
+  .disease-aside { display:grid;grid-template-columns:1fr 1fr;gap:18px;border-top:1px solid var(--line); }
+  .disease-infobox { position:static;grid-row:span 2; }
+}
+
+@media (max-width:700px) {
+  .disease-header .article-heading-copy { max-width:100%; }.disease-header .article-heading-copy > span { max-width:74%; }
+  .disease-system-art { right:-43px;width:170px;opacity:.33; }
+  .reconciliation-note { padding:20px;grid-template-columns:1fr;gap:12px; }.reconciliation-note > div { grid-column:auto;grid-template-columns:auto 1fr; }
+  .layer-index { grid-template-columns:repeat(5,110px);overflow-x:auto; }
+  .signature-layer { padding:23px 18px; }
+  .signature-layer-header { grid-template-columns:40px minmax(0,1fr); }.signature-layer-header > span { width:38px;height:38px; }.signature-layer-header > b { grid-column:2;justify-self:start; }
+  .paired-signals,.taxon-grid { grid-template-columns:1fr; }
+  .ecology-path { grid-template-columns:repeat(2,1fr); }
+  .disease-aside { display:block; }.disease-aside .related-card { margin-top:18px; }
+}
+
+@media (max-width:460px) {
+  .disease-header .article-heading-copy > h1 { font-size:45px; }.disease-header .article-heading-copy > span { max-width:88%; }
+  .disease-system-art { opacity:.2; }
+  .disease-section-heading h2 { font-size:39px; }
+  .signature-layer-header h3 { font-size:23px; }
+  .ecology-path { grid-template-columns:1fr 1fr; }
+}
