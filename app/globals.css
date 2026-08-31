@@ -99,9 +99,10 @@ button,input { font:inherit; }
 .article-body ul,.article-body ol { margin:15px 0;padding-left:22px; }
 .article-body li { margin:8px 0;padding-left:4px;color:#303641;font-family:var(--serif);font-size:14px;line-height:1.65; }
 .article-body li::marker { color:#4b80d2; }
-.article-citation { position:relative;top:-.12em;margin:0 1px;font-family:Arial,sans-serif;font-size:.66em;font-style:normal;font-weight:800;line-height:0;white-space:nowrap; }
-.article-citation a { padding:2px 3px;border-radius:4px;background:#e7f0ff;color:#2862bd;text-decoration:none;transition:.18s; }
-.article-citation a:hover { background:#2862bd;color:#fff;text-decoration:none;box-shadow:0 4px 12px rgba(40,98,189,.2); }
+.article-citation { margin-left:.1em;font-family:Arial,sans-serif;font-size:.67em;font-style:normal;font-weight:600;font-variant-numeric:tabular-nums;line-height:0;vertical-align:super;white-space:nowrap; }
+.article-citation a { padding:0 .08em;border-radius:2px;background:transparent;color:#3366b8;text-decoration:none!important;text-decoration-thickness:1px!important;text-underline-offset:2px;transition:color .16s,background-color .16s; }
+.article-citation a:hover { background:rgba(51,102,184,.08);color:#123f82;text-decoration:underline!important;box-shadow:none; }
+.article-citation a:focus-visible { outline:1px solid #4f83c7;outline-offset:2px;background:rgba(51,102,184,.08); }
 .evidence-integrity { margin:30px 0 15px;padding:1px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;overflow:hidden;border:1px solid #c9d9ed;border-radius:11px;background:#c9d9ed;box-shadow:0 14px 30px rgba(39,78,130,.06); }
 .evidence-integrity > div { min-height:100px;padding:17px 18px;display:grid;grid-template-columns:1fr auto;align-content:start;gap:7px 12px;background:linear-gradient(145deg,#f9fcff,#eef5ff); }
 .evidence-integrity > div.reconciled { background:linear-gradient(145deg,#edf6ff,#e1efff); }
@@ -557,6 +558,15 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
 .disease-narrative { margin-top:78px;padding-top:52px;border-top:2px solid #2f70bd;scroll-margin-top:96px; }
 .disease-narrative .disease-section-heading { margin-bottom:12px; }
 .continuous-prose-section .continuous-prose { max-width:920px;margin:15px 0;color:#303641;font-size:15px;line-height:1.77; }
+.paradox-introduction { max-width:860px;margin-bottom:19px; }
+.paradox-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px; }
+.paradox-grid > article { position:relative;min-width:0;padding:19px 18px 18px;overflow:hidden;border:1px solid #cbdbea;border-radius:12px;background:linear-gradient(145deg,#fbfdff,#eff6fd);box-shadow:0 10px 24px rgba(35,75,126,.055);transition:border-color .2s,transform .2s,box-shadow .2s; }
+.paradox-grid > article::after { content:"";position:absolute;right:-42px;bottom:-48px;width:105px;height:105px;border:1px solid rgba(75,139,207,.14);border-radius:50%;box-shadow:0 0 0 12px rgba(74,139,209,.035),0 0 0 25px rgba(74,139,209,.025); }
+.paradox-grid > article:hover { border-color:#88acd5;box-shadow:0 15px 34px rgba(34,80,137,.1);transform:translateY(-2px); }
+.paradox-grid article > header { position:relative;z-index:1;display:flex;align-items:center;gap:8px;color:#5080b8;font-size:6px;font-weight:800;letter-spacing:.13em; }
+.paradox-grid article > header i { height:1px;flex:1;background:linear-gradient(90deg,rgba(60,123,190,.52),transparent); }
+.paradox-grid article h3 { position:relative;z-index:1;margin:15px 0 8px;color:#24466e;font-size:17px; }
+.paradox-grid article p { position:relative;z-index:1;margin:0;color:#53677f;font-size:11px;line-height:1.67; }
 .open-questions-intro { margin:-7px 0 20px!important;color:#718197!important;font-family:Arial,sans-serif!important;font-size:9px!important; }
 .open-question-list { overflow:hidden;border:1px solid #c8d7e8;border-radius:13px;background:#f8fbff;box-shadow:0 14px 32px rgba(31,73,126,.06); }
 .open-question-list details { border-bottom:1px solid #d8e2ed;background:#fff; }
@@ -608,6 +618,7 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
   .signature-layer-header { grid-template-columns:40px minmax(0,1fr); }.signature-layer-header > span { width:38px;height:38px; }.signature-layer-header > b { grid-column:2;justify-self:start; }
   .paired-signals,.taxon-grid { grid-template-columns:1fr; }
   .ecology-console-body { grid-template-columns:1fr; }.ecology-core { min-height:250px; }.ecology-signal-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .paradox-grid { grid-template-columns:1fr; }
   .disease-aside { display:block; }.disease-aside .related-card { margin-top:18px; }
 }
 

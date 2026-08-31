@@ -5,6 +5,7 @@ import {
   ReferencesSection,
   RichText,
   WikiHeader,
+  expandMetalNames,
   slugify,
 } from "@/app/_components/WikiArticle";
 import {
@@ -47,7 +48,7 @@ function parseTerm(value: string) {
     .replace(/^\[\[|\]\]$/g, "")
     .replace(/[-_]/g, " ")
     .replace(/\b\w/g, (letter) => letter.toUpperCase());
-  return { id, label, linkedPage };
+  return { id, label: expandMetalNames(label), linkedPage };
 }
 
 function Signal({ value, tone = "neutral" }: { value: string; tone?: "up" | "down" | "neutral" }) {
@@ -91,7 +92,7 @@ function TaxonColumn({ title, items, tone }: { title: string; items: SignatureTa
           return (
             <article className="taxon-card" key={term.id}>
               <div><i aria-hidden="true" />{term.linkedPage ? <Link href={`/article/${term.id}`}>{term.label}</Link> : <strong>{term.label}</strong>}</div>
-              {item.role && <p>{item.role}</p>}
+              {item.role && <p>{expandMetalNames(item.role)}</p>}
             </article>
           );
         }) : <p className="signature-empty">No structured taxa indexed yet.</p>}
@@ -135,6 +136,60 @@ function OpenQuestions({ body, citationNumbers }: { body: string; citationNumber
             <summary><span>{String(index + 1).padStart(2, "0")}</span><strong>{plainText(item.question)}</strong><i aria-hidden="true">+</i></summary>
             <div>{item.answer ? <RichText text={item.answer} citationNumbers={citationNumbers} /> : <p>The current WikiBiome record identifies this as an unresolved evidence gap.</p>}</div>
           </details>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function proseReadySection(heading: string, body: string) {
+  const id = slugify(heading);
+  if (["connections", "see-also", "external-links", "key-sources", "dietary-metal-paradoxes"].includes(id)) return false;
+
+  const bullets = body
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith("- "))
+    .map((line) => line.slice(2).trim());
+  if (bullets.length < 2) return false;
+
+  const sentenceLike = bullets.filter((line) => {
+    const visible = line.replace(/\[\[[^\]]+\]\]/g, "").trim();
+    return /[.!?]["')]*$/.test(visible) || visible.split(/\s+/).length >= 10;
+  }).length;
+  return sentenceLike / bullets.length >= 0.6;
+}
+
+function parseParadoxes(body: string) {
+  const lines = body.split("\n").map((line) => line.trim()).filter(Boolean);
+  const firstItem = lines.findIndex((line) => line.startsWith("- "));
+  const introduction = (firstItem >= 0 ? lines.slice(0, firstItem) : lines).join(" ");
+  const items = (firstItem >= 0 ? lines.slice(firstItem) : [])
+    .filter((line) => line.startsWith("- "))
+    .map((line, index) => {
+      const content = line.slice(2).trim();
+      const divider = content.indexOf(":");
+      return divider > 0
+        ? { title: content.slice(0, divider).trim(), body: content.slice(divider + 1).trim() }
+        : { title: `Paradox ${String(index + 1).padStart(2, "0")}`, body: content };
+    });
+  return { introduction, items };
+}
+
+function ParadoxSection({ heading, body, citationNumbers }: { heading: string; body: string; citationNumbers: Record<string, number> }) {
+  const id = `article-${slugify(heading)}`;
+  const { introduction, items } = parseParadoxes(body);
+  return (
+    <section className="wiki-section level-2 paradox-section" id={id}>
+      <h2>{heading}<a href={`#${id}`} aria-label={`Link to ${heading}`}>#</a></h2>
+      {introduction && <div className="paradox-introduction"><RichText text={introduction} citationNumbers={citationNumbers} /></div>}
+      <div className="paradox-grid">
+        {items.map((item, index) => (
+          <article key={`${item.title}-${index}`}>
+            <header><span>{String(index + 1).padStart(2, "0")}</span><i aria-hidden="true" /></header>
+            <h3>{expandMetalNames(item.title)}</h3>
+            <RichText text={item.body} citationNumbers={citationNumbers} prose />
+          </article>
         ))}
       </div>
     </section>
@@ -234,13 +289,17 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
         if (slugify(section.heading) === "open-questions") {
           return <OpenQuestions body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
         }
+        if (slugify(section.heading) === "dietary-metal-paradoxes") {
+          return <ParadoxSection heading={section.heading} body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
+        }
         const id = `article-${slugify(section.heading)}`;
         const Heading = section.level === 2 ? "h2" : "h3";
         const continuousMetallomicProse = metallomicStart >= 0 && index >= metallomicStart && index < metallomicEnd;
+        const continuousNarrativeProse = continuousMetallomicProse || proseReadySection(section.heading, section.body);
         return (
-          <section className={`wiki-section level-${section.level}${continuousMetallomicProse ? " continuous-prose-section" : ""}`} id={id} key={`${section.heading}-${section.level}`}>
+          <section className={`wiki-section level-${section.level}${continuousNarrativeProse ? " continuous-prose-section" : ""}`} id={id} key={`${section.heading}-${section.level}`}>
             <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>
-            {section.body && <RichText text={section.body} citationNumbers={record.evidence.citationNumbers} prose={continuousMetallomicProse} />}
+            {section.body && <RichText text={section.body} citationNumbers={record.evidence.citationNumbers} prose={continuousNarrativeProse} />}
           </section>
         );
       })}

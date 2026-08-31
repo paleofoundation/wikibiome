@@ -121,6 +121,24 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.match(metallomicNarrative, /class="continuous-prose"/);
   assert.doesNotMatch(metallomicNarrative, /<(?:ul|ol)>/);
 
+  const environmentalStart = html.indexOf('id="article-environmental-metal-exposure-links"');
+  const developmentalStart = html.indexOf('id="article-developmental-vulnerability"');
+  const paradoxStart = html.indexOf('id="article-dietary-metal-paradoxes"');
+  const interventionStart = html.indexOf('id="article-current-interventions-with-metal-relevance"');
+  const environmentalNarrative = html.slice(environmentalStart, developmentalStart);
+  const developmentalNarrative = html.slice(developmentalStart, paradoxStart);
+  const paradoxNarrative = html.slice(paradoxStart, interventionStart);
+
+  assert.match(environmentalNarrative, /class="continuous-prose"/);
+  assert.doesNotMatch(environmentalNarrative, /<(?:ul|ol)>/);
+  assert.match(environmentalNarrative, /lead \(Pb\) and manganese \(Mn\) exposure/);
+  assert.match(environmentalNarrative, /arsenic \(As\) in water/);
+  assert.match(environmentalNarrative, /methylmercury \(MeHg\)/);
+  assert.match(developmentalNarrative, /symptom onset\. Early-life lead \(Pb\) exposure/);
+  assert.doesNotMatch(developmentalNarrative, /<(?:ul|ol)>/);
+  assert.match(paradoxNarrative, /class="paradox-grid"/);
+  assert.equal((paradoxNarrative.match(/<article>/g) ?? []).length, 3);
+
   assert.match(html, /class="ecology-console"/);
   assert.match(html, /WB\.ECO \/ SYSTEM MODEL/);
   assert.equal((html.match(/class="ecology-node"/g) ?? []).length, 14);

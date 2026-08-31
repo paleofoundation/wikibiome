@@ -24,18 +24,90 @@ export function slugify(value: string) {
     .replace(/(^-|-$)/g, "");
 }
 
-function inlineMarkup(text: string, citationNumbers: Record<string, number>): ReactNode[] {
+const metalNames: Record<string, string> = {
+  Ag: "silver",
+  Al: "aluminum",
+  As: "arsenic",
+  Ba: "barium",
+  Be: "beryllium",
+  Ca: "calcium",
+  Cd: "cadmium",
+  Co: "cobalt",
+  Cr: "chromium",
+  Cu: "copper",
+  Fe: "iron",
+  Hg: "mercury",
+  Li: "lithium",
+  Mg: "magnesium",
+  Mn: "manganese",
+  Mo: "molybdenum",
+  Ni: "nickel",
+  Pb: "lead",
+  Sb: "antimony",
+  Se: "selenium",
+  Sn: "tin",
+  Sr: "strontium",
+  Ti: "titanium",
+  Tl: "thallium",
+  V: "vanadium",
+  W: "tungsten",
+  Zn: "zinc",
+};
+
+type MetalNameState = Set<string>;
+
+function namedMetal(symbol: string, charge: string | undefined, seen: MetalNameState) {
+  const name = metalNames[symbol];
+  const romanCharge = charge === "2" ? "II" : charge === "3" ? "III" : charge;
+  const chemical = charge ? `${symbol}${charge}+` : symbol;
+  const publicName = charge ? `${name}(${romanCharge})` : name;
+  if (seen.has(symbol)) return publicName;
+  seen.add(symbol);
+  return `${publicName} (${chemical})`;
+}
+
+/**
+ * Public article copy follows an encyclopedia rule: introduce a metal by its
+ * full name and symbol on first use in a section, then prefer its full name.
+ * Formula-like names keep their recognized scientific abbreviation.
+ */
+export function expandMetalNames(text: string, seen: MetalNameState = new Set()) {
+  const cuZnSodToken = "\u0000CU_ZN_SOD\u0000";
+  const methylmercuryToken = "\u0000METHYLMERCURY\u0000";
+  let expanded = text.replace(/\bCu\/Zn-SOD\b/g, () => {
+    seen.add("Cu");
+    seen.add("Zn");
+    return cuZnSodToken;
+  });
+  expanded = expanded.replace(/\bMeHg\b/g, () => {
+    const firstUse = !seen.has("Hg");
+    seen.add("Hg");
+    return firstUse ? methylmercuryToken : "methylmercury";
+  });
+
+  expanded = expanded.replace(/\b(Ag|Al|Ba|Be|Ca|Cd|Co|Cr|Cu|Fe|Hg|Li|Mg|Mn|Mo|Ni|Pb|Sb|Se|Sn|Sr|Ti|Tl|V|W|Zn)([1-4])\+(?=$|[\s,.;:)/\]])/g, (_match, symbol: string, charge: string) => namedMetal(symbol, charge, seen));
+  expanded = expanded.replace(/\b(Ag|Al|Ba|Be|Ca|Cd|Co|Cr|Cu|Fe|Hg|Li|Mg|Mn|Mo|Ni|Pb|Sb|Se|Sn|Sr|Ti|Tl|V|W|Zn)\b/g, (_match, symbol: string) => namedMetal(symbol, undefined, seen));
+
+  // Arsenic's symbol is also the English word "As", so expand it only in
+  // chemical lists or where the following language clearly describes a metal.
+  expanded = expanded.replace(/\bAs\b(?=(?:\s+(?:exposure|levels?|toxicity|contamination|accumulat\w*|deplet\w*|increase\w*|decrease\w*|induc\w*|caus\w*|disrupt\w*|impair\w*|bind\w*|promot\w*|is\b|was\b|has\b|can\b|may\b))|\s+in\s+(?:water|soil|blood|serum|plasma|urine|hair|tissue|food|rice)\b|[,;)/])/g, () => namedMetal("As", undefined, seen));
+  return expanded
+    .replaceAll(cuZnSodToken, "copper/zinc superoxide dismutase (Cu/Zn-SOD)")
+    .replaceAll(methylmercuryToken, "methylmercury (MeHg)");
+}
+
+function inlineMarkup(text: string, citationNumbers: Record<string, number>, metalState: MetalNameState): ReactNode[] {
   const parts: ReactNode[] = [];
   const format = /\*\*(.+?)\*\*|\*(.+?)\*|`([^`]+)`|\[?\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]\]?/g;
   let lastIndex = 0;
   let match: RegExpExecArray | null;
 
   while ((match = format.exec(text)) !== null) {
-    if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index));
+    if (match.index > lastIndex) parts.push(expandMetalNames(text.slice(lastIndex, match.index), metalState));
     if (match[1]) {
-      parts.push(<strong key={`bold-${match.index}`}>{inlineMarkup(match[1], citationNumbers)}</strong>);
+      parts.push(<strong key={`bold-${match.index}`}>{inlineMarkup(match[1], citationNumbers, metalState)}</strong>);
     } else if (match[2]) {
-      parts.push(<em key={`italic-${match.index}`}>{inlineMarkup(match[2], citationNumbers)}</em>);
+      parts.push(<em key={`italic-${match.index}`}>{inlineMarkup(match[2], citationNumbers, metalState)}</em>);
     } else if (match[3]) {
       parts.push(<code key={`code-${match.index}`}>{match[3]}</code>);
     } else if (match[4]) {
@@ -58,47 +130,88 @@ function inlineMarkup(text: string, citationNumbers: Record<string, number>): Re
     lastIndex = format.lastIndex;
   }
 
-  if (lastIndex < text.length) parts.push(text.slice(lastIndex));
+  if (lastIndex < text.length) parts.push(expandMetalNames(text.slice(lastIndex), metalState));
   return parts;
 }
 
+type RichBlock =
+  | { type: "table"; source: string; key: number }
+  | { type: "paragraph"; source: string; key: number; continuous: boolean };
+
+function isListBlock(source: string) {
+  const lines = source.split("\n").map((line) => line.trim()).filter(Boolean);
+  return lines.length > 0 && lines.every((line) => line.startsWith("- ") || /^\d+[.)]\s/.test(line));
+}
+
+function proseBlocks(text: string): RichBlock[] {
+  const sourceBlocks = text.split(/\n\s*\n/).map((block) => block.trim()).filter(Boolean);
+  const blocks: RichBlock[] = [];
+
+  sourceBlocks.forEach((source, key) => {
+    if (source.split("\n").filter(Boolean).every((line) => line.trim().startsWith("|"))) {
+      blocks.push({ type: "table", source, key });
+      return;
+    }
+
+    if (isListBlock(source)) {
+      const paragraph = source
+        .split("\n")
+        .map((line) => line.trim().replace(/^(?:-\s+|\d+[.)]\s*)/, ""))
+        .filter(Boolean)
+        .join(" ");
+      const previous = blocks.at(-1);
+      if (previous?.type === "paragraph" && /[:;]\s*$/.test(previous.source)) {
+        previous.source = `${previous.source.replace(/[:;]\s*$/, ".")} ${paragraph}`;
+        previous.continuous = true;
+      } else {
+        blocks.push({ type: "paragraph", source: paragraph, key, continuous: true });
+      }
+      return;
+    }
+
+    blocks.push({ type: "paragraph", source: source.split("\n").map((line) => line.trim()).filter(Boolean).join(" "), key, continuous: true });
+  });
+
+  return blocks;
+}
+
 export function RichText({ text, citationNumbers, prose = false }: { text: string; citationNumbers: Record<string, number>; prose?: boolean }) {
-  const blocks = text.split(/\n\s*\n/).map((block) => block.trim()).filter(Boolean);
+  const metalState: MetalNameState = new Set();
+  const blocks: RichBlock[] = prose
+    ? proseBlocks(text)
+    : text.split(/\n\s*\n/).map((source, key) => ({ type: "paragraph" as const, source: source.trim(), key, continuous: false })).filter((block) => block.source);
 
-  return blocks.map((block, blockIndex) => {
-    const lines = block.split("\n").map((line) => line.trim()).filter(Boolean);
+  return blocks.map((block) => {
+    const lines = block.source.split("\n").map((line) => line.trim()).filter(Boolean);
 
-    if (lines.length >= 2 && lines.every((line) => line.startsWith("|"))) {
+    if (block.type === "table" || (lines.length >= 2 && lines.every((line) => line.startsWith("|")))) {
       const rows = lines
         .filter((line) => !/^\|?\s*[-:]+/.test(line))
         .map((line) => line.replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim()));
       const [headers, ...body] = rows;
       return (
-        <div className="table-wrap" key={blockIndex}>
+        <div className="table-wrap" key={block.key}>
           <table>
-            <thead><tr>{headers.map((header) => <th key={header}>{inlineMarkup(header, citationNumbers)}</th>)}</tr></thead>
-            <tbody>{body.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{inlineMarkup(cell, citationNumbers)}</td>)}</tr>)}</tbody>
+            <thead><tr>{headers.map((header) => <th key={header}>{inlineMarkup(header, citationNumbers, metalState)}</th>)}</tr></thead>
+            <tbody>{body.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{inlineMarkup(cell, citationNumbers, metalState)}</td>)}</tr>)}</tbody>
           </table>
         </div>
       );
     }
 
-    if (prose && lines.every((line) => line.startsWith("- ") || /^\d+[.)]\s/.test(line))) {
-      const continuous = lines
-        .map((line) => line.replace(/^(?:-\s+|\d+[.)]\s*)/, ""))
-        .join(" ");
-      return <p className="continuous-prose" key={blockIndex}>{inlineMarkup(continuous, citationNumbers)}</p>;
+    if (prose) {
+      return <p className={block.continuous ? "continuous-prose" : undefined} key={block.key}>{inlineMarkup(block.source, citationNumbers, metalState)}</p>;
     }
 
     if (lines.every((line) => line.startsWith("- "))) {
-      return <ul key={blockIndex}>{lines.map((line) => <li key={line}>{inlineMarkup(line.slice(2), citationNumbers)}</li>)}</ul>;
+      return <ul key={block.key}>{lines.map((line) => <li key={line}>{inlineMarkup(line.slice(2), citationNumbers, metalState)}</li>)}</ul>;
     }
 
     if (lines.every((line) => /^\d+[.)]\s/.test(line))) {
-      return <ol key={blockIndex}>{lines.map((line) => <li key={line}>{inlineMarkup(line.replace(/^\d+[.)]\s/, ""), citationNumbers)}</li>)}</ol>;
+      return <ol key={block.key}>{lines.map((line) => <li key={line}>{inlineMarkup(line.replace(/^\d+[.)]\s/, ""), citationNumbers, metalState)}</li>)}</ol>;
     }
 
-    return <p key={blockIndex}>{inlineMarkup(lines.join(" "), citationNumbers)}</p>;
+    return <p key={block.key}>{inlineMarkup(lines.join(" "), citationNumbers, metalState)}</p>;
   });
 }
 
