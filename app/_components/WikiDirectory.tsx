@@ -26,12 +26,16 @@ export function WikiDirectory({
   description,
   pages,
   query = "",
+  searchCategory = "all",
+  showSearchFilters = false,
 }: {
   title: string;
   kicker: string;
   description: string;
   pages: WikiPage[];
   query?: string;
+  searchCategory?: string;
+  showSearchFilters?: boolean;
 }) {
   const alphabetical = pages.every((page, index) => index === 0 || pages[index - 1].title.localeCompare(page.title) <= 0);
   const letters = alphabetical ? Array.from(new Set(pages.map((page) => page.title[0]?.toUpperCase()).filter(Boolean))).sort() : [];
@@ -49,6 +53,12 @@ export function WikiDirectory({
             <p>{description}</p>
             <div><b>{pages.length}</b> records in this view</div>
           </header>
+          {showSearchFilters && (
+            <nav className="search-domain-filters" aria-label="Filter search by knowledge domain">
+              <Link className={searchCategory === "all" ? "active" : ""} href={`/search?q=${encodeURIComponent(query)}`}>All</Link>
+              {categories.map((category) => <Link className={searchCategory === category.id ? "active" : ""} href={`/search?q=${encodeURIComponent(query)}&category=${category.id}`} key={category.id}>{category.label}<b>{getCategoryCount(category.id)}</b></Link>)}
+            </nav>
+          )}
           {!!letters.length && <nav className="letter-nav" aria-label="Available initial letters">{letters.map((letter) => <a href={`#letter-${letter}`} key={letter}>{letter}</a>)}</nav>}
           <div className="directory-results">
             {pages.map((page, index) => {

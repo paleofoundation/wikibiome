@@ -1,11 +1,12 @@
 import Link from "next/link";
+import { ArticleTools } from "@/app/_components/ArticleTools";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { DirectoryRail } from "@/app/_components/WikiDirectory";
-import { findPagesUsingSource, type SourceRecord } from "@/lib/wikibiome";
+import { findPagesUsingSource, normalizeDoi, type SourceRecord } from "@/lib/wikibiome";
 
 export function WikiSource({ id, source }: { id: string; source: SourceRecord }) {
   const usedBy = findPagesUsingSource(id);
-  const verifiedDoi = source.doi && source.doi !== "not yet verified";
+  const doi = normalizeDoi(source.doi);
 
   return (
     <>
@@ -18,6 +19,7 @@ export function WikiSource({ id, source }: { id: string; source: SourceRecord })
             <span>{source.keystone ? "Keystone evidence record" : "Evidence record"}</span>
             <h1>{source.title}</h1>
             <p>{source.authors?.join(", ") || "Authorship metadata pending"}</p>
+            <ArticleTools title={source.title} canonicalPath={`/source/${id}`} updated={source.year ? `${source.year}-01-01` : undefined} kind="source" />
           </header>
           <div className="source-grid">
             <section className="source-citation">
@@ -25,7 +27,7 @@ export function WikiSource({ id, source }: { id: string; source: SourceRecord })
               <dl>
                 <div><dt>Year</dt><dd>{source.year ?? "Not recorded"}</dd></div>
                 <div><dt>Journal</dt><dd>{source.journal ?? "Not recorded"}</dd></div>
-                <div><dt>DOI</dt><dd>{verifiedDoi ? <a href={`https://doi.org/${source.doi}`}>{source.doi} ↗</a> : "Not yet verified"}</dd></div>
+                <div><dt>DOI</dt><dd>{doi.status === "valid" ? <a href={doi.href}>{doi.bare} ↗</a> : doi.status === "malformed" ? <span className="doi-warning">Flagged for editorial review</span> : "Not yet verified"}</dd></div>
                 <div><dt>WikiBiome key</dt><dd><code>{id}</code></dd></div>
               </dl>
               {source.keystone && (

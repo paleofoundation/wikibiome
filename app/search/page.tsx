@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   twitter: { card: "summary", title: "Search WikiBiome", description: "Search the WikiBiome encyclopedia.", images: [] },
 };
 
-export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
-  const { q = "" } = await searchParams;
-  const pages = searchWiki(q);
-  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions.` : `Search all ${wikiStats.totalPages} public WikiBiome articles.`} pages={pages} query={q} />;
+export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; category?: string }> }) {
+  const { q = "", category = "all" } = await searchParams;
+  const pages = searchWiki(q, 80, category);
+  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions${category !== "all" ? `, filtered to ${category}.` : "."}` : `Search all ${wikiStats.totalPages} public WikiBiome articles.`} pages={pages} query={q} searchCategory={category} showSearchFilters />;
 }

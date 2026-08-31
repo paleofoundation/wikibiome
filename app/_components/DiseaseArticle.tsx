@@ -1,7 +1,12 @@
 import Link from "next/link";
+import { ArticleTools } from "@/app/_components/ArticleTools";
+import { prepareArticleSections } from "@/lib/content-model";
 import {
   ArticleNetwork,
+  ArticleRevisionNote,
+  ClaimProvenance,
   EvidenceIntegrity,
+  OpenQuestionsSection,
   ParadoxLinkIndex,
   ReferencesSection,
   RichText,
@@ -18,7 +23,6 @@ import {
   getCategoryCount,
   getWikiPage,
   normalizeWikiId,
-  plainText,
   resolveRelated,
   wikiStats,
   type DiseaseRecord,
@@ -113,55 +117,6 @@ function LayerHeader({ number, title, description, confidence }: { number: strin
   );
 }
 
-function parseOpenQuestions(body: string) {
-  return body
-    .split(/\n+/)
-    .map((line) => line.trim().replace(/^(?:[-*]\s+|\d+[.)]\s*)/, ""))
-    .filter(Boolean)
-    .map((line) => {
-      const questionEnd = line.indexOf("?");
-      return questionEnd >= 0
-        ? { question: line.slice(0, questionEnd + 1), answer: line.slice(questionEnd + 1).trim() }
-        : { question: line, answer: "" };
-    });
-}
-
-function OpenQuestions({ body, citationNumbers }: { body: string; citationNumbers: Record<string, number> }) {
-  const questions = parseOpenQuestions(body);
-  return (
-    <section className="wiki-section level-2 open-questions" id="article-open-questions">
-      <h2>Open Questions<a href="#article-open-questions" aria-label="Link to Open Questions">#</a></h2>
-      <p className="open-questions-intro">Unresolved questions identified by the current evidence record.</p>
-      <div className="open-question-list">
-        {questions.map((item, index) => (
-          <details key={`${item.question}-${index}`}>
-            <summary><span>{String(index + 1).padStart(2, "0")}</span><strong>{plainText(item.question)}</strong><i aria-hidden="true">+</i></summary>
-            <div>{item.answer ? <RichText text={item.answer} citationNumbers={citationNumbers} /> : <p>The current WikiBiome record identifies this as an unresolved evidence gap.</p>}</div>
-          </details>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function proseReadySection(heading: string, body: string) {
-  const id = slugify(heading);
-  if (["connections", "see-also", "external-links", "key-sources"].includes(id) || isDietaryParadoxHeading(heading)) return false;
-
-  const bullets = body
-    .split("\n")
-    .map((line) => line.trim())
-    .filter((line) => line.startsWith("- "))
-    .map((line) => line.slice(2).trim());
-  if (bullets.length < 2) return false;
-
-  const sentenceLike = bullets.filter((line) => {
-    const visible = line.replace(/\[\[[^\]]+\]\]/g, "").trim();
-    return /[.!?]["')]*$/.test(visible) || visible.split(/\s+/).length >= 10;
-  }).length;
-  return sentenceLike / bullets.length >= 0.6;
-}
-
 function ParadoxSection({ heading, pageId }: { heading: string; pageId: string }) {
   const id = `article-${slugify(heading)}`;
   return (
@@ -249,7 +204,7 @@ function DiseaseInfobox({ record }: { record: DiseaseRecord }) {
 }
 
 function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
-  const sections = (record.page.sections ?? []).filter((section) => slugify(section.heading) !== "key-sources");
+  const sections = prepareArticleSections(record.page);
   const metallomicStart = sections.findIndex((section) => slugify(section.heading) === "metallomic-signature");
   const metallomicLevel = metallomicStart >= 0 ? sections[metallomicStart].level : -1;
   const nextPeer = sections.findIndex((section, index) => index > metallomicStart && section.level <= metallomicLevel);
@@ -272,7 +227,7 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
       {sections.map((section, index) => {
         if (consumedParadoxSections.has(index)) return null;
         if (slugify(section.heading) === "open-questions") {
-          return <OpenQuestions body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
+          return <OpenQuestionsSection body={section.body} citationNumbers={record.evidence.citationNumbers} id="article-open-questions" key={`${section.heading}-${section.level}`} />;
         }
         if (isDietaryParadoxHeading(section.heading)) {
           return <ParadoxSection heading={section.heading} pageId={record.page.id} key={`${section.heading}-${section.level}`} />;
@@ -280,7 +235,7 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
         const id = `article-${slugify(section.heading)}`;
         const Heading = section.level === 2 ? "h2" : "h3";
         const continuousMetallomicProse = metallomicStart >= 0 && index >= metallomicStart && index < metallomicEnd;
-        const continuousNarrativeProse = continuousMetallomicProse || proseReadySection(section.heading, section.body);
+        const continuousNarrativeProse = continuousMetallomicProse || section.renderAsProse;
         return (
           <section className={`wiki-section level-${section.level}${continuousNarrativeProse ? " continuous-prose-section" : ""}`} id={id} key={`${section.heading}-${section.level}`}>
             <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>
@@ -321,7 +276,10 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
               <a href="#signature">Signature <b>{namedLayers}/5</b></a>
               <a href="#article">Article</a>
               <a href="#references">Evidence <b>{evidence.references.length}</b></a>
+              <Link href={`/article/${page.id}/history`}>History</Link>
+              <Link href={`/article/${page.id}/suggest`}>Suggest edit</Link>
               <span>Updated {formatDate(record.updated)}</span>
+              <ArticleTools title={page.title} canonicalPath={`/article/${page.id}`} updated={record.updated} />
             </div>
           </header>
 
@@ -329,6 +287,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
             <article className="article-body disease-body">
               <div className="lead-copy disease-lead"><RichText text={page.overview ?? "This WikiBiome disease record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
               <EvidenceIntegrity evidence={evidence} />
+              <ClaimProvenance evidence={evidence} />
 
               <aside className="reconciliation-note" aria-label="Page reconciliation summary">
                 <span>One canonical page</span>
@@ -402,6 +361,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
               <OriginalDiseaseArticle record={record} />
               <ReferencesSection evidence={evidence} />
               <ArticleNetwork page={page} />
+              <ArticleRevisionNote page={page} />
               {!!related.length && (
                 <div className="article-end">
                   <span>Continue exploring</span>

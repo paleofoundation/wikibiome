@@ -247,6 +247,81 @@ test("renders generated paradox detail pages with focused evidence and metadata"
   assert.match(contextual, /href="\/article\/alzheimers-disease"/);
 });
 
+test("renders the production discovery, provenance, support, and participation surfaces", async () => {
+  const [exploreResponse, readinessResponse, historyResponse, supportResponse, contributeResponse] = await Promise.all([
+    render("/explore"),
+    render("/readiness"),
+    render("/article/akkermansia-muciniphila/history"),
+    render("/support"),
+    render("/contribute"),
+  ]);
+  for (const response of [exploreResponse, readinessResponse, historyResponse, supportResponse, contributeResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const [explore, readiness, history, support, contribute] = await Promise.all([
+    exploreResponse.text(), readinessResponse.text(), historyResponse.text(), supportResponse.text(), contributeResponse.text(),
+  ]);
+
+  assert.match(explore, /Follow the system,[\s\S]*not just the alphabet/);
+  assert.match(explore, /Suggested pathways/);
+  assert.match(explore, /href="\/category\/microbe"/);
+
+  assert.match(readiness, /Every record, accounted for/);
+  assert.match(readiness, /867[\s\S]{0,90}upstream records/);
+  assert.match(readiness, /760[\s\S]{0,90}canonical routes/);
+  assert.match(readiness, /0[\s\S]{0,70}blocked/);
+  assert.match(readiness, /9cba6ad9aac5/);
+
+  assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
+  assert.match(history, /official upstream repository/);
+  assert.match(history, /Recorded revisions/);
+  assert.match(history, /github\.com\/paleofoundation\/wikibiome\/commit\/[a-f0-9]{40}/);
+  assert.match(history, /Inspect exact diff/);
+
+  assert.match(support, /Buy the team a coffee/);
+  assert.match(support, /Support cannot buy a citation/);
+  assert.match(support, /mailto:karen@paleofoundation\.com/);
+  assert.match(support, /Source repository/);
+
+  assert.match(contribute, /Wikipedia-like participation, with an evidence gate/);
+  assert.match(contribute, /Sign in with ChatGPT to contribute/);
+  assert.match(contribute, /Scientific corrections and new claims require a DOI, PMID, or source URL/);
+});
+
+test("applies global evidence and interaction rules across article templates", async () => {
+  const [microbeResponse, stopResponse, interventionResponse, analysisResponse, suggestResponse] = await Promise.all([
+    render("/article/akkermansia-muciniphila"),
+    render("/article/stop-iron-supplementation-alzheimers"),
+    render("/article/low-nickel-diet"),
+    render("/article/metal-disease-matrix"),
+    render("/article/nickel/suggest"),
+  ]);
+
+  for (const response of [microbeResponse, stopResponse, interventionResponse, analysisResponse]) {
+    assert.equal(response.status, 200);
+  }
+  assert.equal(suggestResponse.status, 307);
+  assert.equal(suggestResponse.headers.get("location"), "/signin-with-chatgpt?return_to=%2Farticle%2Fnickel%2Fsuggest");
+
+  const [microbe, stop, intervention, analysis] = await Promise.all([
+    microbeResponse.text(), stopResponse.text(), interventionResponse.text(), analysisResponse.text(),
+  ]);
+  assert.match(microbe, /class="citation-preview"/);
+  assert.match(microbe, /Claim provenance map/);
+  assert.match(microbe, /Share &amp; cite/);
+  assert.match(microbe, /linkedin\.com\/sharing\/share-offsite/);
+  assert.match(microbe, /href="\/article\/akkermansia-muciniphila\/history"/);
+  assert.match(microbe, /href="\/article\/akkermansia-muciniphila\/suggest"/);
+  assert.match(microbe, /class="wiki-footer"/);
+  assert.match(stop, /template-stop/);
+  assert.match(stop, /Clinical caution record/);
+  assert.match(intervention, /template-intervention/);
+  assert.match(intervention, /Intervention evidence/);
+  assert.match(analysis, /template-analysis/);
+  assert.match(analysis, /Cross-record synthesis/);
+});
+
 test("binds generated content to the fetched upstream commit", () => {
   const content = readFileSync(new URL("../data/content.generated.json", import.meta.url));
   const manifest = JSON.parse(readFileSync(new URL("../data/content-manifest.generated.json", import.meta.url), "utf8"));

@@ -74,6 +74,15 @@ export type WikiReference = SourceRecord & {
   missingMetadata: boolean;
 };
 
+export type EvidenceClaim = {
+  id: string;
+  pageId: string;
+  section: string;
+  text: string;
+  citationIds: string[];
+  citationNumbers: number[];
+};
+
 export type ArticleEvidence = {
   references: WikiReference[];
   citationNumbers: Record<string, number>;
@@ -82,6 +91,7 @@ export type ArticleEvidence = {
   recoveredCitationIds: string[];
   declaredOnlyIds: string[];
   missingMetadataIds: string[];
+  claims: EvidenceClaim[];
 };
 
 export type DiseaseRecord = {
@@ -120,6 +130,9 @@ type WikiContent = {
 };
 
 const wiki = content as WikiContent;
+const sourceMap = Object.fromEntries(
+  Object.entries(wiki.sourceLookup).map(([id, source]) => [normalizeWikiId(id), source]),
+) as Record<string, SourceRecord>;
 const paradoxLinksByPage = new Map<string, ParadoxLink[]>();
 const canonicalParadoxByNumber = new Map<number, ParadoxLink>();
 const virtualParadoxPages = buildVirtualParadoxPages();
@@ -137,7 +150,8 @@ for (const page of pageCollection) {
 export const wikiStats = wiki._stats;
 export const generatedAt = wiki._generated;
 export const allWikiPages = pageCollection;
-export const allSources = wiki.sourceLookup;
+export const upstreamWikiPages = wiki.pages;
+export const allSources = sourceMap;
 
 export const categories = [
   { id: "mechanism", label: "Mechanisms" },
@@ -147,14 +161,24 @@ export const categories = [
   { id: "metal", label: "Metals" },
   { id: "intervention", label: "Interventions" },
   { id: "defense", label: "Host defenses" },
+  { id: "analysis", label: "Analyses" },
+  { id: "stop", label: "Clinical cautions" },
+  { id: "entity", label: "Entity indexes" },
 ] as const;
 
 export function getWikiPage(id: string) {
-  return pageMap.get(id);
+  return pageMap.get(normalizeWikiId(id));
 }
 
 export function getSource(id: string) {
-  return wiki.sourceLookup[normalizeWikiId(id)];
+  return sourceMap[normalizeWikiId(id)];
+}
+
+export function canonicalArticleId(id: string) {
+  const normalized = normalizeWikiId(id);
+  const page = pageMap.get(normalized);
+  if (page?.category === "signature") return getDiseaseRecord(normalized)?.canonicalId ?? normalized;
+  return normalized;
 }
 
 export function getCategoryPages(category: string) {
@@ -193,7 +217,7 @@ export function getCategoryCount(category: string) {
 export function resolveRelated(page: WikiPage, limit = 7) {
   const seen = new Set<string>();
   return (page.related ?? [])
-    .map((item) => pageMap.get(item.id))
+    .map((item) => pageMap.get(canonicalArticleId(item.id)))
     .filter((item): item is WikiPage => {
       if (!item || seen.has(item.id)) return false;
       seen.add(item.id);
@@ -202,7 +226,7 @@ export function resolveRelated(page: WikiPage, limit = 7) {
     .slice(0, limit);
 }
 
-export function searchWiki(query: string, limit = 80) {
+export function searchWiki(query: string, limit = 80, category?: string) {
   const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
   if (!terms.length) return [];
 
@@ -220,6 +244,7 @@ export function searchWiki(query: string, limit = 80) {
   }
 
   return [...records.values()]
+    .filter(({ page, searchPages }) => !category || category === "all" || page.category === category || searchPages.some((item) => item.category === category))
     .map(({ page, searchPages }) => {
       const title = page.title.toLowerCase();
       const haystack = searchPages.flatMap((item) => [
@@ -319,7 +344,7 @@ function inlineWikiLinks(text: string) {
 function paradoxSummary(body: string) {
   const withoutCitations = body.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_match, id: string, label: string) => {
     const normalized = normalizeWikiId(id);
-    if (normalized in wiki.sourceLookup) return "";
+    if (normalized in sourceMap) return "";
     return label || id.replace(/-/g, " ");
   });
   return plainText(withoutCitations).replace(/\s+([,.;:])/g, "$1").replace(/\s*---\s*$/, "").slice(0, 210);
@@ -494,7 +519,7 @@ export function generateCompositeEvidence(pages: WikiPage[]): ArticleEvidence {
   const references = Object.entries(citationNumbers)
     .sort((a, b) => a[1] - b[1])
     .map(([id, number]) => {
-      const source = wiki.sourceLookup[id];
+      const source = sourceMap[id];
       return {
         id,
         number,
@@ -512,6 +537,7 @@ export function generateCompositeEvidence(pages: WikiPage[]): ArticleEvidence {
 
   const declaredSet = new Set(declaredSourceIds);
   const inlineSet = new Set(inlineCitationIds);
+  const claims = extractEvidenceClaims(pages, citationNumbers);
   return {
     references,
     citationNumbers,
@@ -520,7 +546,50 @@ export function generateCompositeEvidence(pages: WikiPage[]): ArticleEvidence {
     recoveredCitationIds: inlineCitationIds.filter((id) => !declaredSet.has(id)),
     declaredOnlyIds: declaredSourceIds.filter((id) => !inlineSet.has(id)),
     missingMetadataIds: references.filter((reference) => reference.missingMetadata).map((reference) => reference.id),
+    claims,
   };
+}
+
+function extractEvidenceClaims(pages: WikiPage[], citationNumbers: Record<string, number>) {
+  const claims: EvidenceClaim[] = [];
+  for (const page of pages) {
+    const passages = [
+      { section: "Introduction", body: page.overview ?? "" },
+      ...(page.sections ?? []).map((section) => ({ section: section.heading, body: section.body ?? "" })),
+    ];
+    let pageClaimIndex = 0;
+    for (const passage of passages) {
+      const blocks = passage.body
+        .split(/\n\s*\n|\n(?=(?:[-*]\s+|\d+[.)]\s+))/)
+        .map((block) => block.trim())
+        .filter(Boolean);
+      for (const block of blocks) {
+        const citationIds = unique([...block.matchAll(/\[?\[([^\]|]+?)(?:\|[^\]]+)?\]\]?/g)]
+          .map((match) => normalizeWikiId(match[1]))
+          .filter((id) => !pageMap.has(id) && isSourceReference(id) && Boolean(citationNumbers[id])));
+        if (!citationIds.length) continue;
+        const visible = plainText(block
+          .replace(/\[?\[([^\]|]+?)(?:\|[^\]]+)?\]\]?/g, (match, rawId: string) => {
+            const id = normalizeWikiId(rawId);
+            return citationNumbers[id] ? "" : match;
+          })
+          .replace(/^(?:[-*]\s+|\d+[.)]\s*)/, ""))
+          .replace(/\s+([,.;:])/g, "$1")
+          .trim();
+        if (!visible) continue;
+        pageClaimIndex += 1;
+        claims.push({
+          id: `${page.id}-claim-${pageClaimIndex}`,
+          pageId: page.id,
+          section: passage.section,
+          text: visible.slice(0, 360),
+          citationIds,
+          citationNumbers: citationIds.map((id) => citationNumbers[id]).filter(Boolean),
+        });
+      }
+    }
+  }
+  return claims;
 }
 
 export function canonicalDiseaseId(id: string) {
@@ -574,17 +643,39 @@ export const diseaseReconciliationStats = (() => {
 
 export function getMentionedPages(page: WikiPage, limit = 24) {
   const ids = unique((page.wikilinks ?? []).map(normalizeWikiId));
+  const seen = new Set<string>();
   return ids
-    .map((id) => pageMap.get(id))
-    .filter((item): item is WikiPage => Boolean(item) && item?.id !== page.id)
+    .map((id) => pageMap.get(canonicalArticleId(id)))
+    .filter((item): item is WikiPage => {
+      if (!item || item.id === page.id || seen.has(item.id)) return false;
+      seen.add(item.id);
+      return true;
+    })
     .slice(0, limit);
 }
 
 export function getBacklinkPages(page: WikiPage, limit = 24) {
+  const seen = new Set<string>();
   return unique((page.backlinks ?? []).map(normalizeWikiId))
-    .map((id) => pageMap.get(id))
-    .filter((item): item is WikiPage => Boolean(item) && item?.id !== page.id)
+    .map((id) => pageMap.get(canonicalArticleId(id)))
+    .filter((item): item is WikiPage => {
+      if (!item || item.id === page.id || seen.has(item.id)) return false;
+      seen.add(item.id);
+      return true;
+    })
     .slice(0, limit);
+}
+
+export function relationshipExplanation(from: WikiPage, to: WikiPage) {
+  const fromTags = new Set((from.tags ?? []).map((tag) => tag.toLowerCase()));
+  const sharedTags = (to.tags ?? []).filter((tag) => fromTags.has(tag.toLowerCase())).slice(0, 2);
+  const fromMentionsTo = (from.wikilinks ?? []).map(normalizeWikiId).includes(to.id);
+  const toMentionsFrom = (to.wikilinks ?? []).map(normalizeWikiId).includes(from.id);
+  if (fromMentionsTo && toMentionsFrom) return "Mutually connected records";
+  if (fromMentionsTo) return `Referenced in this ${categoryLabel(from.category).toLowerCase()} record`;
+  if (toMentionsFrom) return `Links back from its ${categoryLabel(to.category).toLowerCase()} record`;
+  if (sharedTags.length) return `Shared topics: ${sharedTags.join(" · ")}`;
+  return `${categoryLabel(to.category)} relationship`;
 }
 
 export function normalizeDoi(value?: string) {
@@ -701,7 +792,7 @@ function mergeDiseaseSignatures(canonicalId: string, name: string, signatures: D
 }
 
 function isSourceReference(id: string) {
-  return id in wiki.sourceLookup || /^[a-z]+-(?:[a-z]+-)*\d{4}-/.test(id);
+  return id in sourceMap || /^[a-z]+-(?:[a-z]+-)*\d{4}-/.test(id);
 }
 
 function unique<T>(items: T[]) {

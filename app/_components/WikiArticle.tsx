@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { ArticleTools } from "@/app/_components/ArticleTools";
+import { contentSchemaFor, prepareArticleSections } from "@/lib/content-model";
+import { getRevisionHistory } from "@/lib/revisions";
 import {
   categories,
+  canonicalArticleId,
   categoryLabel,
   formatDate,
   generateArticleEvidence,
@@ -10,9 +14,12 @@ import {
   getCategoryCount,
   getMentionedPages,
   getParadoxLinksForPage,
+  getSource,
   getWikiPage,
   normalizeDoi,
   normalizeWikiId,
+  plainText,
+  relationshipExplanation,
   resolveRelated,
   wikiStats,
   type ArticleEvidence,
@@ -118,11 +125,18 @@ function inlineMarkup(text: string, citationNumbers: Record<string, number>, met
       const citationNumber = citationNumbers[id];
       const label = match[5]?.trim() || page?.title || match[4].replace(/-/g, " ");
       if (page) {
-        parts.push(<Link href={`/article/${id}`} key={`link-${match.index}`}>{label}</Link>);
+        parts.push(<Link href={`/article/${canonicalArticleId(id)}`} key={`link-${match.index}`}>{label}</Link>);
       } else if (citationNumber) {
+        const source = getSource(id);
+        const previewId = `citation-preview-${citationNumber}-${match.index}`;
         parts.push(
           <sup className="article-citation" key={`citation-${match.index}`}>
-            <a href={`#reference-${citationNumber}`} aria-label={`Reference ${citationNumber}`}>[{citationNumber}]</a>
+            <a href={`#reference-${citationNumber}`} aria-label={`Reference ${citationNumber}`} aria-describedby={previewId}>[{citationNumber}]</a>
+            <span className="citation-preview" id={previewId} role="tooltip">
+              <b>{source?.title ?? label}</b>
+              <small>{source ? `${formatAuthors(source.authors)}${source.year ? ` · ${source.year}` : ""}` : "Source metadata pending editorial review"}</small>
+              <em>Open reference {citationNumber} ↓</em>
+            </span>
           </sup>,
         );
       } else {
@@ -217,6 +231,37 @@ export function RichText({ text, citationNumbers, prose = false }: { text: strin
   });
 }
 
+function parseOpenQuestions(body: string) {
+  return body
+    .split(/\n+/)
+    .map((line) => line.trim().replace(/^(?:[-*]\s+|\d+[.)]\s*)/, ""))
+    .filter(Boolean)
+    .map((line) => {
+      const questionEnd = line.indexOf("?");
+      return questionEnd >= 0
+        ? { question: line.slice(0, questionEnd + 1), answer: line.slice(questionEnd + 1).trim() }
+        : { question: line, answer: "" };
+    });
+}
+
+export function OpenQuestionsSection({ body, citationNumbers, id = "open-questions" }: { body: string; citationNumbers: Record<string, number>; id?: string }) {
+  const questions = parseOpenQuestions(body);
+  return (
+    <section className="wiki-section level-2 open-questions" id={id}>
+      <h2>Open Questions<a href={`#${id}`} aria-label="Link to Open Questions">#</a></h2>
+      <p className="open-questions-intro">Unresolved questions identified by the current evidence record.</p>
+      <div className="open-question-list">
+        {questions.map((item, index) => (
+          <details key={`${item.question}-${index}`}>
+            <summary><span>{String(index + 1).padStart(2, "0")}</span><strong>{plainText(item.question)}</strong><i aria-hidden="true">+</i></summary>
+            <div>{item.answer ? <RichText text={item.answer} citationNumbers={citationNumbers} /> : <p>The current WikiBiome record identifies this as an unresolved evidence gap.</p>}</div>
+          </details>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export function isDietaryParadoxHeading(heading: string) {
   return /(?:dietary.*paradox|paradox.*dietary)/i.test(heading);
 }
@@ -281,15 +326,50 @@ export function EvidenceIntegrity({ evidence }: { evidence: ArticleEvidence }) {
         <small>unique references</small>
       </div>
       <div>
-        <span>Inline citation coverage</span>
-        <strong>{evidence.inlineCitationIds.length}</strong>
-        <small>studies cited in claims</small>
+        <span>Claim provenance map</span>
+        <strong>{evidence.claims.length}</strong>
+        <small>evidence-bearing passages linked to studies</small>
       </div>
       <div className={recovered ? "reconciled" : "aligned"}>
         <span>Vault reconciliation</span>
         <strong>{recovered ? `+${recovered}` : "✓"}</strong>
         <small>{recovered ? "inline sources recovered beyond frontmatter" : "body and frontmatter aligned"}</small>
       </div>
+    </aside>
+  );
+}
+
+export function ClaimProvenance({ evidence }: { evidence: ArticleEvidence }) {
+  if (!evidence.claims.length) return null;
+  return (
+    <details className="claim-provenance" id="claim-provenance">
+      <summary>
+        <span>Evidence map</span>
+        <strong>{evidence.claims.length} cited passages</strong>
+        <em>Inspect provenance +</em>
+      </summary>
+      <div className="claim-provenance-list">
+        {evidence.claims.slice(0, 24).map((claim, index) => (
+          <article id={claim.id} key={claim.id}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <div><small>{claim.section}</small><p>{claim.text}</p></div>
+            <footer>{claim.citationNumbers.map((number) => <a href={`#reference-${number}`} aria-label={`Reference ${number}`} key={number}>[{number}]</a>)}</footer>
+          </article>
+        ))}
+        {evidence.claims.length > 24 && <p className="claim-provenance-limit">Showing 24 of {evidence.claims.length} evidence-bearing passages. Every remaining citation is still indexed in the reference record below.</p>}
+      </div>
+    </details>
+  );
+}
+
+export function ArticleRevisionNote({ page }: { page: WikiPage }) {
+  const history = getRevisionHistory(page);
+  const latest = history.revisions[0];
+  return (
+    <aside className="article-revision-note" aria-label="Article revision summary">
+      <div><span>Revision history</span><strong>{history.revisions.length || "Generated"}</strong><small>{history.revisions.length ? "upstream change sets indexed" : "derived from a canonical source record"}</small></div>
+      <p>{latest ? <><b>Latest:</b> {latest.subject || "WikiBiome source update"}<small>{latest.author} · {formatDate(latest.date)}</small></> : <>This article is generated from <b>{history.sourceId}</b> at the synchronized source snapshot.</>}</p>
+      <Link href={`/article/${page.id}/history`}>View history and diffs →</Link>
     </aside>
   );
 }
@@ -319,10 +399,10 @@ export function ReferencesSection({ evidence }: { evidence: ArticleEvidence }) {
                   {reference.journal && <>. <span>{reference.journal}</span></>}.
                 </p>
                 <footer>
-                  <Link href={`/source/${reference.id}`}>WikiBiome source record <span aria-hidden="true">→</span></Link>
+                  {!reference.missingMetadata && <Link href={`/source/${reference.id}`}>WikiBiome source record <span aria-hidden="true">→</span></Link>}
+                  {reference.missingMetadata && <span className="doi-warning">Registry entry pending</span>}
                   {doi.status === "valid" && <a href={doi.href} target="_blank" rel="noreferrer">doi:{doi.bare} <span aria-hidden="true">↗</span></a>}
                   {doi.status === "malformed" && <span className="doi-warning">DOI flagged for audit: {doi.raw}</span>}
-                  {reference.missingMetadata && <span className="doi-warning">Source metadata missing</span>}
                 </footer>
               </div>
             </li>
@@ -336,6 +416,7 @@ export function ReferencesSection({ evidence }: { evidence: ArticleEvidence }) {
 export function ArticleNetwork({ page }: { page: WikiPage }) {
   const mentioned = getMentionedPages(page, 18);
   const backlinks = getBacklinkPages(page, 18);
+  const constellation = [...new Map([...mentioned, ...backlinks].map((item) => [item.id, item])).values()].slice(0, 12);
   if (!mentioned.length && !backlinks.length) return null;
   return (
     <section className="article-network" id="connections" aria-labelledby="article-network-title">
@@ -343,6 +424,10 @@ export function ArticleNetwork({ page }: { page: WikiPage }) {
         <span>Knowledge graph</span>
         <h2 id="article-network-title">Article network</h2>
       </header>
+      <div className="relationship-constellation">
+        <div className="constellation-core"><small>Current record</small><strong>{page.title}</strong><span>{categoryLabel(page.category)}</span></div>
+        <div className="constellation-nodes">{constellation.map((item) => <Link className={`constellation-node node-${item.category}`} href={`/article/${canonicalArticleId(item.id)}`} key={item.id}><small>{categoryLabel(item.category)}</small><strong>{item.title}</strong><span>{relationshipExplanation(page, item)}</span></Link>)}</div>
+      </div>
       <div>
         {!!mentioned.length && (
           <section>
@@ -375,9 +460,11 @@ export function WikiHeader({ query = "" }: { query?: string }) {
         <button type="submit">Search</button>
       </form>
       <nav className="utility-nav" aria-label="Utility navigation">
-        <Link href="/article/gut-microbiome">Read</Link>
+        <Link href="/explore">Explore</Link>
         <Link href="/category/signature">Signatures</Link>
-        <a href="https://wikibiome.com/explore">Graph ↗</a>
+        <Link href="/contribute">Contribute</Link>
+        <Link href="/readiness">Corpus status</Link>
+        <Link className="utility-support" href="/support">♡ Support</Link>
       </nav>
     </header>
   );
@@ -418,6 +505,7 @@ function WikiRail({ page }: { page: WikiPage }) {
 }
 
 function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCount: number }) {
+  const schema = contentSchemaFor(page);
   const related = resolveRelated(page);
   const metalDependencies = asStrings(page.frontmatter?.metal_dependencies);
   const enzymes = asStrings(page.frontmatter?.key_enzymes);
@@ -434,11 +522,14 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
         <div className="infobox-title"><span>WikiBiome record</span><strong>{page.title}</strong></div>
         <dl>
           <div><dt>Domain</dt><dd><Link href={`/category/${page.category}`}>{categoryLabel(page.category)}</Link></dd></div>
-          <div><dt>Record type</dt><dd>{subtype}</dd></div>
+          <div><dt>Record type</dt><dd>{schema.label} · {subtype}</dd></div>
           <div><dt>References</dt><dd>{referenceCount} generated records</dd></div>
           <div><dt>Last reviewed</dt><dd>{formatDate(page.updated)}</dd></div>
         </dl>
-        {!!metalDependencies.length && <div className="fact-list"><span>Metal dependencies</span>{metalDependencies.slice(0, 6).map((item) => <Link href={`/article/${slugify(item)}`} key={item}>{item}</Link>)}</div>}
+        {!!metalDependencies.length && <div className="fact-list"><span>Metal dependencies</span>{metalDependencies.slice(0, 6).map((item) => {
+          const id = slugify(item);
+          return getWikiPage(id) ? <Link href={`/article/${canonicalArticleId(id)}`} key={item}>{item}</Link> : <b key={item}>{item}</b>;
+        })}</div>}
         {!!enzymes.length && <div className="fact-list"><span>Key enzymes</span>{enzymes.slice(0, 4).map((item) => <b key={item}>{item}</b>)}</div>}
         {!!page.tags?.length && <div className="tag-list">{page.tags.slice(0, 8).map((tag) => <Link href={`/search?q=${encodeURIComponent(tag)}`} key={tag}>{tag}</Link>)}</div>}
       </div>
@@ -454,9 +545,11 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
 }
 
 export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boolean }) {
-  const sections = page.sections ?? [];
+  const schema = contentSchemaFor(page);
+  const sections = prepareArticleSections(page);
   const contents = sections.filter((section) => section.level === 2);
   const evidence = generateArticleEvidence(page);
+  const history = getRevisionHistory(page);
   const referenceCount = evidence.references.length;
   const consumedSections = new Set<number>();
 
@@ -473,28 +566,35 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
       <WikiHeader />
       <div className="wiki-shell">
         <WikiRail page={page} />
-        <main className="article-page">
+        <main className={`article-page content-${schema.kind} template-${schema.template}`}>
           <div className="article-breadcrumbs"><Link href="/">WikiBiome</Link><span>/</span><Link href={`/category/${page.category}`}>{categoryLabel(page.category)}</Link><span>/</span><b>{page.title}</b></div>
           {home && <div className="main-page-note"><span>Featured foundation article</span><b>Start here, then follow any blue connection through the encyclopedia.</b></div>}
           <header className="article-header">
             <div className="article-system-art" aria-hidden="true"><img src="/wikibiome-human-system-v2.png" alt="" /><i /><i /><i /></div>
             <div className="article-heading-copy">
-              <p>{categoryLabel(page.category)} · {referenceCount} generated references</p>
+              <p>{schema.label} · {referenceCount} generated references</p>
               <h1>{page.title}</h1>
-              <span>From WikiBiome, the human microbiome encyclopedia</span>
+              <span>{schema.description}</span>
             </div>
             <div className="article-tabs">
               <a className="active" href="#article">Article</a>
               <a href="#connections">Connections <b>{page.related?.length ?? 0}</b></a>
               <a href="#references">Evidence <b>{referenceCount}</b></a>
+              <Link href={`/article/${page.id}/history`}>History <b>{history.revisions.length}</b></Link>
+              <Link href={`/article/${page.id}/suggest`}>Suggest edit</Link>
               <span>Updated {formatDate(page.updated)}</span>
+              <ArticleTools title={page.title} canonicalPath={`/article/${page.id}`} updated={page.updated} />
             </div>
           </header>
 
           <div className="article-grid" id="article">
             <article className="article-body">
+              {schema.kind === "stop" && <aside className="template-notice caution"><span>Clinical caution record</span><p>This page preserves an evidence-linked caution from the WikiBiome corpus. It is educational context, not individualized medical advice.</p></aside>}
+              {schema.kind === "analysis" && <aside className="template-notice synthesis"><span>Cross-record synthesis</span><p>This analysis connects evidence across multiple WikiBiome records; use the inline citations to inspect each underlying source.</p></aside>}
+              {schema.kind === "intervention" && <aside className="template-notice intervention"><span>Intervention evidence</span><p>Mechanism, reported outcomes, limitations, and cautions are kept together so an intervention is not separated from its evidence boundaries.</p></aside>}
               <div className="lead-copy"><RichText text={page.overview ?? "This WikiBiome record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
               <EvidenceIntegrity evidence={evidence} />
+              <ClaimProvenance evidence={evidence} />
               {!!contents.length && (
                 <details className="mobile-contents">
                   <summary>Contents</summary>
@@ -516,15 +616,19 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
                     </section>
                   );
                 }
+                if (section.kind === "open_questions") {
+                  return <OpenQuestionsSection body={section.body} citationNumbers={evidence.citationNumbers} id={id} key={`${section.heading}-${section.level}`} />;
+                }
                 return (
-                  <section className={`wiki-section level-${section.level}`} id={id} key={`${section.heading}-${section.level}`}>
+                  <section className={`wiki-section level-${section.level} section-${section.kind}${section.renderAsProse ? " continuous-prose-section" : ""}`} id={id} key={`${section.heading}-${section.level}`}>
                     <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>
-                    {section.body && <RichText text={section.body} citationNumbers={evidence.citationNumbers} />}
+                    {section.body && <RichText text={section.body} citationNumbers={evidence.citationNumbers} prose={section.renderAsProse} />}
                   </section>
                 );
               })}
               <ReferencesSection evidence={evidence} />
               <ArticleNetwork page={page} />
+              <ArticleRevisionNote page={page} />
               <div className="article-end">
                 <span>Continue exploring</span>
                 <h2>Every article is a doorway.</h2>
