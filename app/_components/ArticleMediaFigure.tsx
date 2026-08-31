@@ -12,12 +12,11 @@ export function ArticleMediaFigure({ media }: { media: ArticleMedia }) {
           loading="lazy"
           decoding="async"
         />
-        <span>Scientific plate</span>
       </div>
       <figcaption>
-        <strong>WikiBiome conceptual illustration</strong>
+        <strong>{media.label}</strong>
         <p>{media.caption}</p>
-        <small>{media.credit} · Original AI-generated artwork</small>
+        <small>{media.credit} · {media.provenance}</small>
       </figcaption>
     </figure>
   );
