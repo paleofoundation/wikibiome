@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T19:35:40.684Z",
+  "generatedAt": "2026-08-31T20:37:47.318Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "9cba6ad9aac5ab4c30d22c8070052111b9ec2f03",
+  "sourceCommit": "62e006cf0ced1dce706a6438f6461602229a9f26",
   "records": 824,
   "canonicalIds": 759,
-  "revisions": 2905,
+  "revisions": 2907,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -17585,6 +17585,15 @@
       ],
       "revisions": [
         {
+          "hash": "62e006cf0ced1dce706a6438f6461602229a9f26",
+          "date": "2026-08-31T23:33:59+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "fix: reconcile WikiBiome source metadata",
+          "path": "wiki/concepts/dietary-arsenic-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -17636,6 +17645,15 @@
         "wiki/concepts/dietary-cadmium-exposure.md"
       ],
       "revisions": [
+        {
+          "hash": "62e006cf0ced1dce706a6438f6461602229a9f26",
+          "date": "2026-08-31T23:33:59+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "fix: reconcile WikiBiome source metadata",
+          "path": "wiki/concepts/dietary-cadmium-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

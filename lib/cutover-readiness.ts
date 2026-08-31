@@ -23,6 +23,7 @@ export function getCutoverReport() {
   const articleMedia = getArticleMediaEntries();
   const keystoneStudies = getKeystoneStudies();
   const keystoneDoiReview = keystoneStudies.filter((study) => study.metadataStatus !== "verified DOI").length;
+  const sourceReviewOpen = migration.missingSourceMetadata + keystoneDoiReview;
 
   const items: CutoverItem[] = [
     {
@@ -109,11 +110,13 @@ export function getCutoverReport() {
       id: "source-registry-review",
       area: "Editorial review",
       title: "Source metadata cleanup",
-      status: "active",
+      status: sourceReviewOpen ? "active" : "complete",
       gate: "Safe after launch",
       owner: "Editorial team",
-      evidence: `${migration.missingSourceMetadata} cited source identifiers require metadata completion; the pages remain readable and the warnings stay visible in the corpus ledger. ${keystoneDoiReview} Keystone records still need DOI or publication-status review.`,
-      nextAction: "Resolve records in the review queue without suppressing their current evidence context.",
+      evidence: sourceReviewOpen
+        ? `${migration.missingSourceMetadata} cited source identifiers require metadata completion; the pages remain readable and the warnings stay visible in the corpus ledger. ${keystoneDoiReview} Keystone records still need DOI or publication-status review.`
+        : `All cited source identifiers resolve through the canonical registry or its ${migration.resolvedSourceAliases}-entry audited alias map. All ${keystoneStudies.length} Keystone records have verified DOI and publication metadata.`,
+      nextAction: sourceReviewOpen ? "Resolve records in the review queue without suppressing their current evidence context." : undefined,
       href: "/readiness?status=review",
     },
     {

@@ -27,6 +27,10 @@ const skipBuild = has("--skip-build");
 const sourceRoot = resolve(projectRoot, valueAfter("--source", "work/reference-wikibiome"));
 const targetPath = resolve(projectRoot, valueAfter("--content", "data/content.generated.json"));
 const manifestPath = resolve(projectRoot, valueAfter("--manifest", "data/content-manifest.generated.json"));
+const sourceAliasRegistry = JSON.parse(readFileSync(resolve(projectRoot, "data/source-id-aliases.json"), "utf8"));
+const sourceIdAliases = Object.fromEntries(
+  Object.entries(sourceAliasRegistry.aliases ?? {}).map(([alias, target]) => [normalizeId(alias), normalizeId(target)]),
+);
 let sourceCommit = null;
 let inputPath = targetPath;
 let cleanupSnapshot = null;
@@ -161,7 +165,11 @@ function auditContent(content) {
   }
 
   const sourceLookup = content.sourceLookup;
+  const normalizedSourceLookup = Object.fromEntries(
+    Object.entries(sourceLookup).map(([id, source]) => [normalizeId(id), source]),
+  );
   const missingMetadata = new Set();
+  const resolvedSourceAliases = new Set();
   const malformedDois = [];
   let pagesWithReferences = 0;
   let generatedReferences = 0;
@@ -188,7 +196,11 @@ function auditContent(content) {
     recoveredInlineReferences += recovered.length;
     declaredOnlyReferences += declaredOnly.length;
     if (page.belowThreshold && !page.isStub) belowThresholdPages += 1;
-    for (const id of references) if (!sourceLookup[id]) missingMetadata.add(id);
+    for (const id of references) {
+      const canonicalId = sourceIdAliases[id] ?? id;
+      if (canonicalId !== id && normalizedSourceLookup[canonicalId]) resolvedSourceAliases.add(id);
+      if (!normalizedSourceLookup[canonicalId]) missingMetadata.add(id);
+    }
   }
 
   for (const [id, source] of Object.entries(sourceLookup)) {
@@ -204,6 +216,7 @@ function auditContent(content) {
     recoveredInlineReferences,
     declaredOnlyReferences,
     missingSourceMetadataIds: [...missingMetadata].sort(),
+    resolvedSourceAliasIds: [...resolvedSourceAliases].sort(),
     malformedDois,
     belowThresholdPages,
   };

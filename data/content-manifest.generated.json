@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T19:35:00.729Z",
+  "generatedAt": "2026-08-31T20:34:37.731Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "9cba6ad9aac5ab4c30d22c8070052111b9ec2f03",
-    "contentGeneratedAt": "2026-08-31T11:25:52.790Z",
+    "commit": "62e006cf0ced1dce706a6438f6461602229a9f26",
+    "contentGeneratedAt": "2026-08-31T20:34:37.195Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "0e8662bf76f8c6ecbe2542e24c473889326226258bb0d80240fcf7e144f490e4",
+    "sha256": "ceed76bbfd47425b837e32011f5ebbae5f1d11b77d7891df5b69ff79d7291ed6",
     "pages": 824,
-    "sources": 1887
+    "sources": 1891
   },
   "publicContentPolicy": {
     "version": 1,
@@ -309,7 +309,8 @@
     "pagesWithSourceDrift": 489,
     "recoveredInlineReferences": 348,
     "declaredOnlyReferences": 2029,
-    "missingSourceMetadataIds": [
+    "missingSourceMetadataIds": [],
+    "resolvedSourceAliasIds": [
       "abraham-2005-drug-therapy-graves",
       "altered-microbiota-ovarian-endometrioma-2021",
       "americanou-2022-ibd-biomarkers-trace-metals",
@@ -319,12 +320,10 @@
       "associations-microbiota-thyroid-2020",
       "bacterial-contamination-hypothesis-2017",
       "berberine-methimazole-graves-2021",
-      "bernard-raichon2022-dysbiosis-translocation-bacteremia-covid",
       "bidirectional-endo-microbiome-2023",
       "breton-2016-cd-pb-colitis",
       "brusaferro-2018-pediatric-cd-dysbiosis",
       "capdevila-2024-metal-sensing-metalloregulators",
-      "chen2023-gut-microbiota-inflammatory-mendelian-covid",
       "current-updates-microbiome-endo-2023",
       "effect-endo-fecal-bacteriota-2019",
       "eggers-2023-prenatal-lead-gut-microbiome-childhood",
@@ -341,15 +340,11 @@
       "gut-microbiome-1000-individuals-2024",
       "gut-microbiome-metabolites-graves-2022",
       "gut-vaginal-meta-analysis-2023",
-      "ibrahim2021-metformin-covid-review",
       "inflammatory-cytokines-peritoneal-2018",
-      "ke2022-microbiome-covid-metagenome-genomes",
       "khan-wang-2020-environmental-exposures-autoimmune-gut-microbiome",
-      "kravchenko-2023-thyroid-hormones-minerals-aitd",
       "kravchenko-2023-thyroid-minerals",
       "lactoferrin-genital-2019",
       "liu-2022-mendelian-cd-microbiome",
-      "liu-2024-gut-immune-graves",
       "maciejewski-2025-trace-elements-thyroid",
       "mian-2022-diet-thyroid",
       "microbiome-and-endometriosis-2021",
@@ -358,10 +353,7 @@
       "microbiota-composition-distribution-2020",
       "molecular-cervical-mucus-2019",
       "molecular-intrauterine-colonization-2016",
-      "note-evaluation-risk-ptes-italy-fish-products",
       "oral-vaginal-stool-signatures-2023",
-      "pascal-2017-cd-microbial-signature",
-      "perrotta-2020-vaginal-microbiome-predict-rasrm-endometriosis",
       "preliminary-flora-changes-graves-2022",
       "selenium-thyroid-autoimmunity-2015",
       "song-2023-graves-depression",
@@ -372,16 +364,10 @@
       "wang-2024-ibd-virulence-factors",
       "xu-2023-oxidative-stress-cd",
       "yao-2023-oral-gut-thyroid-cancer",
-      "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
       "zhang-2021-akkermansia-cd",
       "zinc-endometriosis-2024"
     ],
-    "malformedDois": [
-      {
-        "id": "molina-morales-2023-male-reproductive-tract-microbiome",
-        "value": "https://hdl.handle.net/10481/85100"
-      }
-    ],
+    "malformedDois": [],
     "belowThresholdPages": 106
   }
 }

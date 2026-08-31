@@ -86,7 +86,9 @@ export default async function ReadinessPage({ searchParams }: { searchParams: Se
 
         <footer className="readiness-method">
           <div><span>Source snapshot</span><code>{report.sourceCommit.slice(0, 12)}</code></div>
-          <p>{report.duplicateIds} duplicate identifiers are explicitly reconciled. {report.missingSourceMetadata} cited source identifiers remain in the editorial metadata queue.</p>
+          <p>{report.duplicateIds} duplicate identifiers are explicitly reconciled. {report.missingSourceMetadata
+            ? `${report.missingSourceMetadata} cited source identifiers remain in the editorial metadata queue.`
+            : `All cited source identifiers resolve to source records; ${report.resolvedSourceAliases} historical citation aliases are reconciled by the registry.`}</p>
         </footer>
       </main>
     </>

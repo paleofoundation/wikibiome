@@ -1,4 +1,5 @@
 import content from "@/data/content.generated.json";
+import sourceAliasRegistry from "@/data/source-id-aliases.json";
 
 export type WikiSection = {
   heading: string;
@@ -130,9 +131,16 @@ type WikiContent = {
 };
 
 const wiki = content as WikiContent;
-const sourceMap = Object.fromEntries(
+const canonicalSourceMap = Object.fromEntries(
   Object.entries(wiki.sourceLookup).map(([id, source]) => [normalizeWikiId(id), source]),
 ) as Record<string, SourceRecord>;
+const sourceAliases = Object.fromEntries(
+  Object.entries(sourceAliasRegistry.aliases).map(([alias, target]) => [normalizeWikiId(alias), normalizeWikiId(target)]),
+) as Record<string, string>;
+const sourceMap = { ...canonicalSourceMap };
+for (const [alias, target] of Object.entries(sourceAliases)) {
+  if (canonicalSourceMap[target]) sourceMap[alias] = canonicalSourceMap[target];
+}
 const paradoxLinksByPage = new Map<string, ParadoxLink[]>();
 const canonicalParadoxByNumber = new Map<number, ParadoxLink>();
 const virtualParadoxPages = buildVirtualParadoxPages();
@@ -151,7 +159,7 @@ export const wikiStats = wiki._stats;
 export const generatedAt = wiki._generated;
 export const allWikiPages = pageCollection;
 export const upstreamWikiPages = wiki.pages;
-export const allSources = sourceMap;
+export const allSources = canonicalSourceMap;
 
 export const categories = [
   { id: "mechanism", label: "Mechanisms" },
@@ -171,7 +179,12 @@ export function getWikiPage(id: string) {
 }
 
 export function getSource(id: string) {
-  return sourceMap[normalizeWikiId(id)];
+  return sourceMap[canonicalSourceId(id)];
+}
+
+export function canonicalSourceId(id: string) {
+  const normalized = normalizeWikiId(id);
+  return sourceAliases[normalized] ?? normalized;
 }
 
 export function canonicalArticleId(id: string) {
@@ -271,16 +284,18 @@ export function searchWiki(query: string, limit = 80, category?: string) {
 }
 
 export function findPagesUsingSource(sourceId: string, limit = 24) {
-  const cleanSourceId = normalizeWikiId(sourceId);
+  const cleanSourceId = canonicalSourceId(sourceId);
   const matches = pageCollection
     .filter((page) => {
       const sources = [
         ...(page.sources ?? []),
         ...asStringArray(page.frontmatter?.sources),
-      ].map(normalizeWikiId);
-      return sources.includes(cleanSourceId) ||
-        (page.overview ?? "").includes(`[[${cleanSourceId}`) ||
-        (page.sections ?? []).some((section) => section.body.includes(`[[${cleanSourceId}`));
+      ].map(canonicalSourceId);
+      const inlineSources = inlineWikiLinks([
+        page.overview ?? "",
+        ...(page.sections ?? []).map((section) => section.body),
+      ].join("\n")).map(canonicalSourceId);
+      return sources.includes(cleanSourceId) || inlineSources.includes(cleanSourceId);
     });
   const canonical = new Map<string, WikiPage>();
   for (const page of matches) {
@@ -496,8 +511,9 @@ export function generateCompositeEvidence(pages: WikiPage[]): ArticleEvidence {
     let match: RegExpExecArray | null;
 
     while ((match = sourceRegex.exec(allText)) !== null) {
-      const id = normalizeWikiId(match[1]);
-      if (!id || pageMap.has(id) || !isSourceReference(id)) continue;
+      const rawId = normalizeWikiId(match[1]);
+      if (!rawId || pageMap.has(rawId) || !isSourceReference(rawId)) continue;
+      const id = canonicalSourceId(rawId);
       if (!(id in citationNumbers)) {
         citationNumbers[id] = Object.keys(citationNumbers).length + 1;
         inlineCitationIds.push(id);
@@ -508,7 +524,7 @@ export function generateCompositeEvidence(pages: WikiPage[]): ArticleEvidence {
   const declaredSourceIds = unique([
     ...pages.flatMap((page) => page.sources ?? []),
     ...pages.flatMap((page) => asStringArray(page.frontmatter?.sources)),
-  ].map(normalizeWikiId).filter(Boolean));
+  ].map(canonicalSourceId).filter(Boolean));
 
   for (const id of declaredSourceIds) {
     if (!(id in citationNumbers)) {
@@ -566,11 +582,13 @@ function extractEvidenceClaims(pages: WikiPage[], citationNumbers: Record<string
       for (const block of blocks) {
         const citationIds = unique([...block.matchAll(/\[?\[([^\]|]+?)(?:\|[^\]]+)?\]\]?/g)]
           .map((match) => normalizeWikiId(match[1]))
-          .filter((id) => !pageMap.has(id) && isSourceReference(id) && Boolean(citationNumbers[id])));
+          .filter((id) => !pageMap.has(id) && isSourceReference(id))
+          .map(canonicalSourceId)
+          .filter((id) => Boolean(citationNumbers[id])));
         if (!citationIds.length) continue;
         const visible = plainText(block
           .replace(/\[?\[([^\]|]+?)(?:\|[^\]]+)?\]\]?/g, (match, rawId: string) => {
-            const id = normalizeWikiId(rawId);
+            const id = canonicalSourceId(rawId);
             return citationNumbers[id] ? "" : match;
           })
           .replace(/^(?:[-*]\s+|\d+[.)]\s*)/, ""))
@@ -792,7 +810,7 @@ function mergeDiseaseSignatures(canonicalId: string, name: string, signatures: D
 }
 
 function isSourceReference(id: string) {
-  return id in sourceMap || /^[a-z]+-(?:[a-z]+-)*\d{4}-/.test(id);
+  return canonicalSourceId(id) in sourceMap || /^[a-z]+-(?:[a-z]+-)*\d{4}-/.test(id);
 }
 
 function unique<T>(items: T[]) {

@@ -1,8 +1,8 @@
 {
-  "_generated": "2026-08-31T11:25:52.790Z",
+  "_generated": "2026-08-31T20:34:37.195Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1887,
+    "sources": 1891,
     "entities": 332,
     "concepts": 264,
     "signatures": 70,
@@ -78436,7 +78436,7 @@
         "jackson-2012-arsenic-infant-formulas-first-foods",
         "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
         "dahan-2018-arsenic-alters-microbiome-larval-zebrafish",
-        "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+        "lu-2014-arsenic-gut-microbiome-metabolomics",
         "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
         "phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome"
       ],
@@ -78451,7 +78451,7 @@
           "jackson-2012-arsenic-infant-formulas-first-foods",
           "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
           "dahan-2018-arsenic-alters-microbiome-larval-zebrafish",
-          "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+          "lu-2014-arsenic-gut-microbiome-metabolomics",
           "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
           "phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome"
         ],
@@ -78595,7 +78595,7 @@
         "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
         "agboola-2023-heavy-metals-leafy-vegetables-lagos",
         "liu-2020-high-fat-diet-heavy-metal-gut-microbiota",
-        "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+        "zhang-2015-cadmium-hepatic-energy-gut-microbiome",
         "pendergrass-2026-age-window-vulnerability-vegetable-baby-foods"
       ],
       "created": "2026-04-11T00:00:00.000Z",
@@ -78610,7 +78610,7 @@
           "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
           "agboola-2023-heavy-metals-leafy-vegetables-lagos",
           "liu-2020-high-fat-diet-heavy-metal-gut-microbiota",
-          "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+          "zhang-2015-cadmium-hepatic-energy-gut-microbiome",
           "pendergrass-2026-age-window-vulnerability-vegetable-baby-foods"
         ],
         "source_count": 6,
@@ -78709,7 +78709,7 @@
       "related": [
         {
           "id": "dietary-arsenic-exposure",
-          "score": 26
+          "score": 23
         },
         {
           "id": "dietary-lead-exposure",
@@ -393635,7 +393635,7 @@
       "why_keystone": ""
     },
     "ahmed-2025-metals-alzheimers-mechanistic-review": {
-      "title": "Associations of Environmental Exposure to Arsenic, Manganese, Lead and Cadmium on Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies",
+      "title": "Associations of Environmental Exposure to Arsenic, Manganese, Lead, and Cadmium with Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies",
       "authors": [
         "Giasuddin Ahmed",
         "Md. Shiblur Rahaman",
@@ -393643,15 +393643,15 @@
         "Khalid M. Khan"
       ],
       "year": 2025,
-      "journal": "Preprints.org (not peer-reviewed)",
-      "doi": "not yet verified",
+      "journal": "Journal of Xenobiotics",
+      "doi": "10.3390/jox15020047",
       "keystone": true,
       "keystone_criteria_met": [
         2,
         3,
         4
       ],
-      "why_keystone": "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 46 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
+      "why_keystone": "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 45 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
     },
     "aho-2019-gut-microbiome-disease-progression-parkinsons": {
       "title": "Aho 2019 -- Gut Microbiome and Disease Progression in Parkinson's Disease",
@@ -393966,7 +393966,7 @@
       ],
       "year": 2024,
       "journal": "World Academy of Sciences Journal",
-      "doi": "not yet verified",
+      "doi": "10.3892/wasj.2023.219",
       "keystone": true,
       "keystone_criteria_met": [
         2,
@@ -394947,7 +394947,7 @@
       ],
       "year": 2024,
       "journal": "International Journal of Molecular Sciences",
-      "doi": "not yet verified",
+      "doi": "10.3390/ijms25020727",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -402026,15 +402026,15 @@
       "why_keystone": ""
     },
     "ghosh-2023-heavy-metals-gut-barrier-integrity": {
-      "title": "Effect of Heavy Metals on Gut Barrier Integrity and Gut Microbiota",
+      "title": "Effects of Heavy Metals on Gut Barrier Integrity and Gut Microbiota",
       "authors": [
         "Sweta Ghosh",
         "Syam P. Nukavarpu",
         "Venkatakrishna Rao Jala"
       ],
-      "year": 2023,
-      "journal": "Metal ions in Life Sciences (Accepted Manuscript)",
-      "doi": "not yet verified",
+      "year": 2024,
+      "journal": "Microbiota and Host",
+      "doi": "10.1530/MAH-23-0015",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -402058,7 +402058,7 @@
       ],
       "year": 2021,
       "journal": "World Academy of Sciences Journal",
-      "doi": "not yet verified",
+      "doi": "10.3892/wasj.2021.90",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -402499,7 +402499,7 @@
       ],
       "year": 2024,
       "journal": "Food and Agricultural Immunology",
-      "doi": "not yet verified",
+      "doi": "10.1080/09540105.2024.2434457",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -409087,6 +409087,35 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "liu-2024-gut-immune-graves": {
+      "title": "Alteration in gut microbiota is associated with immune imbalance in Graves' disease",
+      "authors": [
+        "Yalei Liu",
+        "Shasha Tang",
+        "Yu Feng",
+        "Binghua Xue",
+        "Chaofei Cheng",
+        "Yong Su",
+        "Wei Wei",
+        "Lijun Zhang",
+        "Zhoufeng Huang",
+        "Xiaoyang Shi",
+        "Yuanyuan Fang",
+        "Junpeng Yang",
+        "Yun Zhang",
+        "Xinru Deng",
+        "Limin Wang",
+        "Hongyan Ren",
+        "Chongjian Wang",
+        "Huijuan Yuan"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2024.1349397",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "liu-2024-gut-microbiota-chronic-renal-failure-mr": {
       "title": "Liu et al. 2024 — Causal Relationship between Gut Microbiota and Chronic Renal Failure: A Two-Sample MR Study",
       "authors": [
@@ -409579,6 +409608,26 @@
       "year": 2018,
       "journal": "Molecular Neurodegeneration",
       "doi": "10.1186/s13024-018-0282-4",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "lu-2014-arsenic-gut-microbiome-metabolomics": {
+      "title": "Arsenic exposure perturbs the gut microbiome and its metabolic profile in mice: an integrated metagenomics and metabolomics analysis",
+      "authors": [
+        "Kun Lu",
+        "Ryan P. Abo",
+        "Katherine A. Schlieper",
+        "Megan E. Graffam",
+        "Sarah Levine",
+        "John S. Wishnok",
+        "James A. Swenberg",
+        "Steven R. Tannenbaum",
+        "James G. Fox"
+      ],
+      "year": 2014,
+      "journal": "Environmental Health Perspectives",
+      "doi": "10.1289/ehp.1307429",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411434,13 +411483,15 @@
       "why_keystone": ""
     },
     "microbiota-gut-brain-axis-neurodevelopmental-review": {
-      "title": "The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders — Review Article",
+      "title": "The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders",
       "authors": [
-        "[Extract full author list from PDF]"
+        "Qinwen Wang",
+        "Qianyue Yang",
+        "Xingyin Liu"
       ],
       "year": 2023,
       "journal": "Protein & Cell",
-      "doi": "not yet verified",
+      "doi": "10.1093/procel/pwad026",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -411872,7 +411923,7 @@
       ],
       "year": 2023,
       "journal": "Doctoral Thesis, Universidad de Granada",
-      "doi": "https://hdl.handle.net/10481/85100",
+      "doi": "",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -413536,6 +413587,31 @@
       "year": 2025,
       "journal": "Nature Genetics",
       "doi": "10.1038/s41588-024-02022-z",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "pascal-2017-cd-microbial-signature": {
+      "title": "A microbial signature for Crohn's disease",
+      "authors": [
+        "Victoria Pascal",
+        "Marta Pozuelo",
+        "Natalia Borruel",
+        "Francesc Casellas",
+        "David Campos",
+        "Alba Santiago",
+        "Xavier Martinez",
+        "Encarna Varela",
+        "Guillaume Sarrabayrouse",
+        "Kathleen Machiels",
+        "Severine Vermeire",
+        "Harry Sokol",
+        "Francisco Guarner",
+        "Chaysavanh Manichanh"
+      ],
+      "year": 2017,
+      "journal": "Gut",
+      "doi": "10.1136/gutjnl-2016-313235",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -424383,6 +424459,22 @@
       "year": 2008,
       "journal": "BMC Public Health",
       "doi": "10.1186/1471-2458-8-117",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "zhang-2015-cadmium-hepatic-energy-gut-microbiome": {
+      "title": "Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome",
+      "authors": [
+        "Songbin Zhang",
+        "Yuanxiang Jin",
+        "Zhaoyang Zeng",
+        "Zhenzhen Liu",
+        "Zhengwei Fu"
+      ],
+      "year": 2015,
+      "journal": "Chemical Research in Toxicology",
+      "doi": "10.1021/acs.chemrestox.5b00237",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

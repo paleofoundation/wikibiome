@@ -38,14 +38,14 @@ export function getKeystoneStudies(criterion?: number) {
     .filter(([, source]) => source.keystone)
     .map(([id, source]): KeystoneStudy => {
       const normalizedDoi = normalizeDoi(source.doi);
-      const doiPending = !normalizedDoi || /not-yet-verified|not-verified|pending|unknown/.test(normalizeWikiId(source.doi ?? ""));
+      const doiPending = normalizedDoi.status !== "valid";
       return {
         id,
         title: source.title,
         authors: source.authors ?? [],
         year: source.year,
         journal: source.journal,
-        doi: normalizedDoi,
+        doi: normalizedDoi.status === "valid" ? normalizedDoi.bare : undefined,
         criteria: source.keystone_criteria_met ?? [],
         rationale: source.why_keystone ?? "Editorial rationale is awaiting completion.",
         usedBy: findPagesUsingSource(id, 200),
