@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import { notFound, redirect } from "next/navigation";
 import { DiseaseArticle } from "@/app/_components/DiseaseArticle";
 import { WikiArticle } from "@/app/_components/WikiArticle";
@@ -7,13 +6,7 @@ import { articleMediaStructuredData, getArticleMedia } from "@/lib/article-media
 import { canonicalDiseaseId, getDiseaseRecord, getWikiPage, plainText } from "@/lib/wikibiome";
 
 type RouteProps = { params: Promise<{ id: string }> };
-
-async function requestOrigin() {
-  const incomingHeaders = await headers();
-  const host = incomingHeaders.get("x-forwarded-host") ?? incomingHeaders.get("host") ?? "wikibiome.com";
-  const protocol = incomingHeaders.get("x-forwarded-proto") ?? (host.includes("localhost") ? "http" : "https");
-  return `${protocol}://${host}`;
-}
+const PUBLIC_ORIGIN = "https://www.wikibiome.com";
 
 export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
   const { id } = await params;
@@ -27,8 +20,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const media = getArticleMedia(canonicalId);
   const title = `${page.title} — WikiBiome`;
   const description = plainText(page.overview).slice(0, 180) || `Read the ${page.title} record in WikiBiome.`;
-  const origin = media ? await requestOrigin() : undefined;
-  const socialImage = media && origin ? new URL(media.socialSrc, origin).toString() : undefined;
+  const socialImage = media ? new URL(media.socialSrc, PUBLIC_ORIGIN).toString() : undefined;
 
   return {
     title,
@@ -61,9 +53,8 @@ export default async function ArticlePage({ params }: RouteProps) {
   }
   const canonicalId = disease?.canonicalId ?? requestedPage.id;
   const media = getArticleMedia(canonicalId);
-  const origin = media ? await requestOrigin() : undefined;
-  const schema = media && origin
-    ? articleMediaStructuredData(media, origin, `/article/${canonicalId}`)
+  const schema = media
+    ? articleMediaStructuredData(media, PUBLIC_ORIGIN, `/article/${canonicalId}`)
     : undefined;
 
   return (

@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { getCutoverReport, type CutoverItem } from "@/lib/cutover-readiness";
 import { filterMigrationEntries, getMigrationReport } from "@/lib/readiness";
 
 export const metadata: Metadata = {
-  title: "Corpus readiness — WikiBiome",
-  description: "A transparent migration and evidence-integrity ledger for the WikiBiome corpus.",
-  openGraph: { title: "Corpus readiness — WikiBiome", description: "WikiBiome migration and evidence-integrity status.", images: [] },
-  twitter: { card: "summary", title: "Corpus readiness — WikiBiome", description: "WikiBiome migration and evidence-integrity status.", images: [] },
+  title: "Go-live and corpus readiness — WikiBiome",
+  description: "A transparent cutover, migration, and evidence-integrity register for WikiBiome.",
+  openGraph: { title: "Go-live and corpus readiness — WikiBiome", description: "WikiBiome cutover and evidence-integrity status.", images: [] },
+  twitter: { card: "summary", title: "Go-live and corpus readiness — WikiBiome", description: "WikiBiome cutover and evidence-integrity status.", images: [] },
 };
 
 type SearchParams = Promise<{ status?: string; category?: string; q?: string }>;
@@ -15,6 +16,7 @@ type SearchParams = Promise<{ status?: string; category?: string; q?: string }>;
 export default async function ReadinessPage({ searchParams }: { searchParams: SearchParams }) {
   const filters = await searchParams;
   const report = getMigrationReport();
+  const cutover = getCutoverReport();
   const entries = filterMigrationEntries({ status: filters.status, category: filters.category, query: filters.q });
   const categories = [...new Set(report.entries.map((entry) => entry.category))].sort();
 
@@ -22,21 +24,35 @@ export default async function ReadinessPage({ searchParams }: { searchParams: Se
     <>
       <WikiHeader query={filters.q} />
       <main className="readiness-page">
-        <div className="readiness-breadcrumbs"><Link href="/">WikiBiome</Link><span>/</span><b>Corpus readiness</b></div>
+        <div className="readiness-breadcrumbs"><Link href="/">WikiBiome</Link><span>/</span><b>Go-live register</b></div>
         <header className="readiness-hero">
-          <span>Public build ledger · synchronized source</span>
-          <h1>Every record, accounted for.</h1>
-          <p>This ledger separates successful migration from editorial review. A page can render correctly while still carrying evidence or source-registry warnings.</p>
+          <span>Cutover control · synchronized source</span>
+          <h1>Every route accounted for. Every blocker named.</h1>
+          <p>This is the working register for moving the new WikiBiome to wikibiome.com. It separates launch requirements from improvements that can continue safely after the domain changes.</p>
           <div className="readiness-summary">
-            <article><strong>{report.totalRecords}</strong><span>upstream records</span><small>Exact source inventory</small></article>
-            <article><strong>{report.canonicalRoutes}</strong><span>canonical routes</span><small>Duplicates and signatures reconciled</small></article>
-            <article className="ready"><strong>{report.ready}</strong><span>ready</span><small>No blocking editorial warnings</small></article>
-            <article className="review"><strong>{report.review}</strong><span>review queue</span><small>Rendered, with flagged follow-up</small></article>
-            <article className="blocked"><strong>{report.blocked}</strong><span>blocked</span><small>Template or structural failure</small></article>
+            <article className="ready"><strong>{cutover.complete}</strong><span>cutover items complete</span><small>Implemented and checked</small></article>
+            <article className="review"><strong>{cutover.active}</strong><span>active programs</span><small>Safe to continue after launch</small></article>
+            <article className="blocked"><strong>{cutover.external}</strong><span>external decisions</span><small>Owner, legal, or DNS authority</small></article>
+            <article><strong>{cutover.requiredOpen}</strong><span>required items open</span><small>Must close before DNS moves</small></article>
+            <article><strong>{report.canonicalRoutes}</strong><span>canonical routes</span><small>Generated from {report.totalRecords} records</small></article>
           </div>
         </header>
 
-        <section className="readiness-ledger" aria-labelledby="ledger-title">
+        <section className="cutover-register" aria-labelledby="cutover-title">
+          <header><div><span>Go-live control</span><h2 id="cutover-title">Cutover register</h2></div><p>Updated from implemented system checks and the current hosting state.</p></header>
+          <div className="cutover-gate-note"><strong>{cutover.requiredOpen ? `${cutover.requiredOpen} decisions remain before DNS can move.` : "The technical DNS gate is clear."}</strong><p>“Safe after launch” means the work stays visible and continues without breaking route continuity or hiding evidence warnings.</p></div>
+          <div className="cutover-list">
+            {cutover.items.map((item, index) => (
+              <article className={`cutover-item ${item.status}`} key={item.id}>
+                <span className="cutover-index">{String(index + 1).padStart(2, "0")}</span>
+                <div className="cutover-copy"><p><span>{item.area}</span><b className={`cutover-state ${item.status}`}>{item.status}</b></p><h3>{item.title}</h3><div>{item.evidence}</div>{item.nextAction && <small><strong>Next:</strong> {item.nextAction}</small>}</div>
+                <aside><span>{item.gate}</span><small>{item.owner}</small><RegisterLink item={item} /></aside>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="readiness-ledger" id="corpus-ledger" aria-labelledby="ledger-title">
           <header>
             <div><span>Migration control</span><h2 id="ledger-title">Corpus ledger</h2></div>
             <p>{entries.length} of {report.totalRecords} records shown</p>
@@ -75,4 +91,10 @@ export default async function ReadinessPage({ searchParams }: { searchParams: Se
       </main>
     </>
   );
+}
+
+function RegisterLink({ item }: { item: CutoverItem }) {
+  if (!item.href) return null;
+  if (/^https?:/.test(item.href)) return <a href={item.href} target="_blank" rel="noreferrer">Inspect ↗</a>;
+  return <Link href={item.href}>Inspect →</Link>;
 }

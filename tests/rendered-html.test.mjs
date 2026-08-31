@@ -108,8 +108,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.match(html, /data-article-media-schema/);
     assert.match(html, /primaryImageOfPage/);
     assert.match(html, /trainedAlgorithmicMedia/);
-    assert.match(html, new RegExp(`property="og:image" content="https://wikibiome\\.com/media/${stem}-social\\.webp"`));
-    assert.match(html, new RegExp(`name="twitter:image" content="https://wikibiome\\.com/media/${stem}-social\\.webp"`));
+    assert.match(html, new RegExp(`property="og:image" content="https://www\\.wikibiome\\.com/media/${stem}-social\\.webp"`));
+    assert.match(html, new RegExp(`name="twitter:image" content="https://www\\.wikibiome\\.com/media/${stem}-social\\.webp"`));
 
     for (const suffix of [".webp", "-social.webp"]) {
       const asset = readFileSync(new URL(`../public/media/${stem}${suffix}`, import.meta.url));
@@ -338,10 +338,12 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(explore, /deduplicated connections/);
   assert.match(explore, /href="\/clusters"/);
 
-  assert.match(readiness, /Every record, accounted for/);
-  assert.match(readiness, /867[\s\S]{0,90}upstream records/);
-  assert.match(readiness, /760[\s\S]{0,90}canonical routes/);
-  assert.match(readiness, /0[\s\S]{0,70}blocked/);
+  assert.match(readiness, /Every route accounted for/);
+  assert.match(readiness, /791 of 791 article URLs/);
+  assert.match(readiness, /867[\s\S]{0,110}records[\s\S]{0,110}760[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /2 of 760 canonical article routes currently have reviewed/);
+  assert.match(readiness, /Attach www\.wikibiome\.com to the new Site/);
+  assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /9cba6ad9aac5/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
@@ -363,6 +365,55 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(contribute, /Wikipedia-like participation, with an evidence gate/);
   assert.match(contribute, /Sign in with ChatGPT to contribute/);
   assert.match(contribute, /Scientific corrections and new claims require a DOI, PMID, or source URL/);
+});
+
+test("preserves legacy utility routes and publishes the canonical indexing contract", async () => {
+  const [privacyResponse, termsResponse, contactResponse, sitemapResponse, robotsResponse] = await Promise.all([
+    render("/privacy"),
+    render("/terms"),
+    render("/contact"),
+    render("/sitemap.xml"),
+    render("/robots.txt"),
+  ]);
+  for (const response of [privacyResponse, termsResponse, contactResponse, sitemapResponse, robotsResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const [privacy, terms, contact, sitemap, robots] = await Promise.all([
+    privacyResponse.text(), termsResponse.text(), contactResponse.text(), sitemapResponse.text(), robotsResponse.text(),
+  ]);
+  assert.match(privacy, /Signed-in contributions/);
+  assert.match(privacy, /privacy@wikibiome\.com/);
+  assert.match(terms, /Educational information/);
+  assert.match(terms, /Creative Commons Attribution-ShareAlike 4\.0/);
+  assert.match(terms, /Financial support cannot purchase citations/);
+  assert.match(contact, /Contact WikiBiome/);
+  assert.match(contact, /hello@wikibiome\.com/);
+  assert.match(sitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
+  assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/nickel<\/loc>/);
+  assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
+  assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
+  assert.match(robots, /Disallow: \/api\//);
+  assert.match(robots, /Sitemap: https:\/\/www\.wikibiome\.com\/sitemap\.xml/);
+
+  const redirects = [
+    ["/matrix", "/clusters"],
+    ["/signatures?disease=alzheimers-disease", "/article/alzheimers-disease#signature"],
+    ["/tags?tags=nickel,gut", "/search?q=nickel%20gut"],
+    ["/submit", "/contribute"],
+    ["/vote", "/contributions"],
+  ];
+  for (const [path, destination] of redirects) {
+    const response = await render(path);
+    assert.equal(response.status, 307);
+    assert.equal(response.headers.get("location"), destination);
+  }
+
+  const stylesheet = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
+  const contrastOverride = stylesheet.lastIndexOf("High-contrast cool register");
+  assert.ok(contrastOverride > stylesheet.indexOf(".home-hero"));
+  assert.match(stylesheet.slice(contrastOverride), /\.home-hero \{ background:radial-gradient[\s\S]*#fff/);
+  assert.match(stylesheet.slice(contrastOverride), /\.article-media-stage \{ padding:10px[\s\S]*background:#fff/);
 });
 
 test("generates the restored research tools and current About page from canonical data", async () => {
