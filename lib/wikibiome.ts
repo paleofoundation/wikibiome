@@ -256,7 +256,7 @@ export function normalizeDoi(value?: string) {
     .replace(/^doi:\s*/i, "")
     .replace(/[.,;:\s]+$/g, "")
     .trim();
-  const valid = /^10\.\d{4,9}\/[-._;()\/:A-Za-z0-9<>+]+$/.test(bare);
+  const valid = /^10\.\d{4,9}\/[-._;()/:A-Za-z0-9<>+]+$/.test(bare);
   return {
     raw,
     bare,

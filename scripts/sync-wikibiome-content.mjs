@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, resolve } from "node:path";
+import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 
@@ -19,17 +20,32 @@ const skipBuild = has("--skip-build");
 const sourceRoot = resolve(projectRoot, valueAfter("--source", "work/reference-wikibiome"));
 const targetPath = resolve(projectRoot, valueAfter("--content", "data/content.generated.json"));
 const manifestPath = resolve(projectRoot, valueAfter("--manifest", "data/content-manifest.generated.json"));
-const upstreamContentPath = resolve(sourceRoot, "src/content.generated.json");
+let sourceCommit = null;
+let inputPath = targetPath;
+let cleanupSnapshot = null;
 
 if (!auditOnly) {
   assertExists(sourceRoot, `Upstream clone not found: ${sourceRoot}`);
-  if (!skipBuild) rebuildUpstream(sourceRoot);
-  assertExists(upstreamContentPath, `Upstream generated content not found: ${upstreamContentPath}`);
+  if (skipBuild) {
+    sourceCommit = gitCommit(sourceRoot);
+    inputPath = resolve(sourceRoot, "src/content.generated.json");
+  } else {
+    const snapshot = prepareUpstreamSnapshot(sourceRoot);
+    sourceCommit = snapshot.commit;
+    cleanupSnapshot = snapshot.cleanup;
+    inputPath = resolve(snapshot.root, "src/content.generated.json");
+    try {
+      rebuildUpstream(snapshot.root);
+    } catch (error) {
+      cleanupSnapshot();
+      throw error;
+    }
+  }
 }
 
-const inputPath = auditOnly ? targetPath : upstreamContentPath;
 assertExists(inputPath, `Content file not found: ${inputPath}`);
 const raw = readFileSync(inputPath, "utf8");
+if (cleanupSnapshot) cleanupSnapshot();
 const content = JSON.parse(raw);
 const audit = auditContent(content);
 const sha256 = createHash("sha256").update(raw).digest("hex");
@@ -40,7 +56,6 @@ if (auditOnly) {
   process.exit(0);
 }
 
-const commit = gitCommit(sourceRoot);
 const normalizedRaw = `${JSON.stringify(content, null, 2)}\n`;
 const normalizedSha256 = createHash("sha256").update(normalizedRaw).digest("hex");
 const manifest = {
@@ -49,7 +64,7 @@ const manifest = {
   source: {
     repository: "https://github.com/paleofoundation/wikibiome.git",
     branch: "main",
-    commit,
+    commit: sourceCommit,
     contentGeneratedAt: content._generated ?? null,
     platform: content._platform ?? null,
   },
@@ -65,8 +80,30 @@ const manifest = {
 writeFileSync(targetPath, normalizedRaw);
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 printSummary(audit, content, "synchronized");
-console.log(`Source commit: ${commit ?? "unavailable"}`);
+console.log(`Source commit: ${sourceCommit ?? "unavailable"}`);
 console.log(`Manifest: ${manifestPath}`);
+
+function prepareUpstreamSnapshot(root) {
+  console.log("Fetching paleofoundation/wikibiome origin/main...");
+  run("git", ["-C", root, "fetch", "--quiet", "origin", "main"], "Unable to fetch origin/main.");
+  const commit = run("git", ["-C", root, "rev-parse", "origin/main"], "Unable to resolve origin/main.").stdout.trim();
+  const tempRoot = mkdtempSync(join(tmpdir(), "wikibiome-source-"));
+  const snapshotRoot = join(tempRoot, "repo");
+  try {
+    run("git", ["-C", root, "worktree", "add", "--quiet", "--detach", snapshotRoot, commit], "Unable to create a clean upstream snapshot.");
+  } catch (error) {
+    rmSync(tempRoot, { recursive: true, force: true });
+    throw error;
+  }
+  return {
+    root: snapshotRoot,
+    commit,
+    cleanup() {
+      spawnSync("git", ["-C", root, "worktree", "remove", "--force", snapshotRoot], { encoding: "utf8" });
+      rmSync(tempRoot, { recursive: true, force: true });
+    },
+  };
+}
 
 function rebuildUpstream(root) {
   const script = resolve(root, "scripts/build-content.cjs");
@@ -177,7 +214,7 @@ function normalizeDoi(value) {
     .replace(/^doi:\s*/i, "")
     .replace(/[.,;:\s]+$/g, "")
     .trim();
-  return { status: /^10\.\d{4,9}\/[-._;()\/:A-Za-z0-9<>+]+$/.test(bare) ? "valid" : "malformed" };
+  return { status: /^10\.\d{4,9}\/[-._;()/:A-Za-z0-9<>+]+$/.test(bare) ? "valid" : "malformed" };
 }
 
 function verifyManifest(path, sha256) {
@@ -191,6 +228,15 @@ function verifyManifest(path, sha256) {
 function gitCommit(root) {
   const result = spawnSync("git", ["-C", root, "rev-parse", "HEAD"], { encoding: "utf8" });
   return result.status === 0 ? result.stdout.trim() : null;
+}
+
+function run(command, commandArgs, failureMessage) {
+  const result = spawnSync(command, commandArgs, { encoding: "utf8", maxBuffer: 50 * 1024 * 1024 });
+  if (result.status !== 0) {
+    const detail = result.stderr?.trim() || result.stdout?.trim();
+    throw new Error(`${failureMessage}${detail ? ` ${detail}` : ""}`);
+  }
+  return result;
 }
 
 function printSummary(audit, content, verb) {
