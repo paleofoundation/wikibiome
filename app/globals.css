@@ -834,3 +834,118 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
 @media (max-width:600px) {
   .cutover-register { padding:25px 16px; }.cutover-register > header { align-items:start;flex-direction:column; }.cutover-register > header p { text-align:left; }.cutover-gate-note { grid-template-columns:1fr; }.cutover-item { grid-template-columns:32px 1fr;gap:10px; }.cutover-item aside { grid-template-columns:1fr; }.project-page { padding:35px 14px 75px; }.project-prose { padding:27px 19px; }.project-prose p { font-size:13px; }.contact-paths { margin-top:22px; }
 }
+
+/* Mobile reading mode — preserve the editorial identity without carrying the desktop canvas onto a phone. */
+@media (max-width:620px) {
+  html { -webkit-text-size-adjust:100%; }
+  body { overflow-wrap:break-word; }
+  input,select,textarea { font-size:16px; }
+
+  .wiki-header { height:58px;min-height:58px;padding:7px 12px;grid-template-columns:minmax(0,1fr) 44px;grid-template-rows:44px;gap:8px; }
+  .wiki-brand { grid-column:1;grid-row:1;gap:9px;font-size:20px; }
+  .wiki-brand-mark { width:36px;height:36px; }
+  .wiki-brand small,.utility-nav { display:none; }
+  .global-search { position:relative;grid-column:2;grid-row:1;width:44px;height:44px;justify-self:end;border:0;border-radius:50%;background:transparent;box-shadow:none; }
+  .global-search:focus-within { border-color:transparent;box-shadow:none; }
+  .global-search > span { width:100%;padding:0;display:grid;place-items:center;color:#315a7d;font-size:25px; }
+  .global-search input { position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap; }
+  .global-search button { position:absolute;inset:0;padding:0;border:0;border-radius:50%;background:transparent;color:transparent;font-size:0; }
+  .global-search button:hover { background:rgba(58,103,143,.08); }
+  .global-search button:focus-visible { outline:2px solid #315f88;outline-offset:2px; }
+
+  .article-page,.disease-page { padding:0 0 50px;background:#fff; }
+  .article-breadcrumbs { display:none; }
+  .main-page-note { margin:12px 16px;padding:11px 13px;gap:7px;border-radius:7px; }
+  .main-page-note b { font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.45; }
+
+  .article-header,.content-metal .article-header,.content-intervention .article-header,.content-stop .article-header,.content-analysis .article-header,.disease-header { min-height:0;padding:19px 18px 0;border:0;border-bottom:1px solid #bfcad3;border-radius:0;background:#fff;color:#172f46; }
+  .article-header::before,.article-system-art,.disease-system-art { display:none; }
+  .article-heading-copy,.disease-header .article-heading-copy { max-width:100%; }
+  .article-heading-copy > p { margin:0 0 8px;color:#567590;font-size:10px;line-height:1.35;letter-spacing:.09em; }
+  .article-heading-copy > h1,.disease-header .article-heading-copy > h1 { max-width:100%;font-size:38px;line-height:1.06;letter-spacing:-.03em; }
+  .article-heading-copy > span,.disease-header .article-heading-copy > span { max-width:100%;margin:11px 0 15px;color:#536779;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.48; }
+  .article-tabs { margin:0;gap:20px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-inline:contain; }
+  .article-tabs::-webkit-scrollbar { display:none; }
+  .article-tabs > a { min-height:44px;padding:14px 0;display:flex;align-items:center;font-size:13px; }
+  .article-tabs > a b { font-size:9px; }
+  .article-tabs > span { display:none; }
+  .article-tabs .article-tools { margin-left:auto;margin-bottom:0;align-self:center; }
+  .article-tools > summary { min-height:44px;padding:10px 11px;border-color:#aebdca;color:#365c7e;font-size:11px; }
+  .article-tools-panel header span { font-size:10px; }.article-tools-panel header strong { font-size:16px; }
+  .article-tools-panel button { min-height:52px; }.article-tools-panel button b { font-size:14px; }.article-tools-panel button small { font-size:12px; }
+  .article-tools-panel nav a { width:44px;height:44px;font-size:13px; }.article-tools-panel > p { font-size:11px;line-height:1.45; }
+
+  .article-grid,.disease-grid { border:0;border-radius:0;background:#fff;box-shadow:none; }
+  .article-body,.disease-body { padding:25px 18px 48px;border:0; }
+  .lead-copy { padding:0 0 25px;font-family:Arial,Helvetica,sans-serif;font-size:19px;line-height:1.62;letter-spacing:0; }
+  .lead-copy p:first-child::first-letter { float:none;margin:0;color:inherit;font-family:inherit;font-size:inherit;line-height:inherit; }
+  .article-body p,.continuous-prose-section .continuous-prose { margin:16px 0;color:#252a31;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.64;letter-spacing:0; }
+  .article-body li { margin:9px 0;padding-left:3px;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.58; }
+  .article-body ul,.article-body ol { padding-left:25px; }
+  .wiki-section h2 { margin:44px 0 18px;padding:0 30px 11px 0;font-size:29px;line-height:1.14;letter-spacing:-.02em; }
+  .wiki-section h3 { margin:30px 0 12px;font-size:23px;line-height:1.22; }
+  .wiki-section h2 > a,.wiki-section h3 > a { display:none; }
+  .article-citation { font-size:.72em; }
+  .citation-preview { display:none!important; }
+
+  .evidence-integrity { margin:24px 0 14px;display:grid;grid-template-columns:1fr;gap:0;overflow:visible;border:0;border-top:1px solid #ccd6df;border-radius:0;background:transparent;box-shadow:none; }
+  .evidence-integrity > div,.evidence-integrity > div.reconciled { min-height:0;padding:12px 0;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto;gap:3px 16px;border-bottom:1px solid #d8e0e7;background:#fff; }
+  .evidence-integrity span { grid-column:1;grid-row:1;color:#4e6f8c;font-size:11px;line-height:1.35;letter-spacing:.07em; }
+  .evidence-integrity strong { grid-column:2;grid-row:1/3;align-self:center;font-size:28px; }
+  .evidence-integrity small { grid-column:1;grid-row:2;color:#5f7182;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.4; }
+  .claim-provenance { margin:12px 0 24px;border-width:1px 0;border-radius:0;box-shadow:none; }
+  .claim-provenance > summary { min-height:58px;padding:12px 0;grid-template-columns:minmax(0,1fr) auto;gap:3px 12px; }
+  .claim-provenance > summary span { grid-column:1;grid-row:1;font-size:10px; }
+  .claim-provenance > summary strong { grid-column:1;grid-row:2;font-size:15px; }
+  .claim-provenance > summary em { grid-column:2;grid-row:1/3;align-self:center;font-size:10px; }
+  .claim-provenance-list > article { padding:14px 12px;grid-template-columns:30px minmax(0,1fr); }
+  .claim-provenance-list p { font-size:14px;line-height:1.5; }.claim-provenance-list footer { grid-column:2; }
+  .mobile-contents { margin:25px 0;border-radius:7px; }
+  .mobile-contents summary { min-height:48px;padding:14px 15px;font-size:16px; }
+  .mobile-contents a { min-height:44px;padding:11px 15px;display:flex;align-items:center;font-size:15px;line-height:1.4; }
+
+  .table-wrap { margin-left:0;margin-right:0;border-radius:6px; }
+  .table-wrap table { min-width:620px;font-size:15px; }.table-wrap th { font-size:11px; }.table-wrap th,.table-wrap td { padding:12px; }
+  .references-section { margin-top:54px;padding-top:25px; }
+  .references-section > header { gap:10px; }.references-section h2,.article-network h2 { font-size:30px; }
+  .references-section > header p { font-size:12px;line-height:1.5; }
+  .reference-list > li { padding:18px 0!important;grid-template-columns:30px minmax(0,1fr);gap:10px; }
+  .reference-number { width:28px;height:28px;font-size:10px; }
+  .reference-list p { font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55; }
+  .reference-list footer a,.doi-warning { font-size:12px;line-height:1.4; }
+  .article-network section { padding:18px; }.article-network h3 { font-size:18px; }.article-network section a { padding:8px 10px;font-size:13px; }
+
+  .article-aside,.disease-aside { padding:18px;background:#f5f7f9; }
+  .infobox { border-radius:9px;box-shadow:none; }
+  .article-media-figure figcaption strong,.infobox-title span,.fact-list > span,.related-card > span,.tag-list a { font-size:11px; }
+  .article-media-figure figcaption p { font-size:15px;line-height:1.5; }.article-media-figure figcaption small { font-size:11px;line-height:1.45; }
+  .infobox-title strong { font-size:25px; }.infobox dl > div { grid-template-columns:105px 1fr;font-size:14px;line-height:1.45; }
+  .fact-list > a,.fact-list > b { font-size:14px;line-height:1.4; }.tag-list a { padding:7px 9px; }
+  .related-card > a { min-height:48px; }.related-card b { font-size:15px;line-height:1.35; }.related-card em { font-size:13px; }
+  .corpus-note span { font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.4; }
+
+  .reconciliation-note { margin:26px 0 42px;padding:18px 0;gap:10px;border-width:1px 0;border-radius:0;background:#f4f8fb;box-shadow:none; }
+  .reconciliation-note > span { font-size:11px; }.reconciliation-note > p { font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.55; }
+  .reconciliation-note > div b { font-size:24px; }.reconciliation-note > div small { font-size:10px; }
+  .disease-section-heading { margin-bottom:25px; }.disease-section-heading > span { font-size:10px; }
+  .disease-section-heading h2,.disease-section-heading h2#disease-article-title { font-size:34px;line-height:1.05; }
+  .disease-section-heading > p { font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55; }
+  .layer-index { grid-template-columns:repeat(5,124px);border-radius:8px; }.layer-index > a { min-height:88px; }.layer-index i { font-size:10px; }.layer-index span { font-size:13px;line-height:1.25; }
+  .signature-layer { margin-bottom:18px;padding:22px 16px;border-radius:10px;box-shadow:none; }
+  .signature-layer-header { grid-template-columns:40px minmax(0,1fr);gap:11px; }
+  .signature-layer-header p,.signature-layer-header > b { font-size:10px; }.signature-layer-header h3 { font-size:25px;line-height:1.12; }
+  .signature-layer-header small { font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5; }
+  .signal-group,.taxon-column { padding:15px; }.signal-group h4 { font-size:16px; }.signal-group header b { font-size:11px; }
+  .signature-signal { min-height:38px;padding:8px 10px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.3; }
+  .signature-empty { font-family:Arial,Helvetica,sans-serif!important;font-size:14px!important; }
+  .taxon-column > header span { font-size:10px; }.taxon-column > header strong { font-size:16px; }
+  .taxon-card a,.taxon-card strong { font-family:Arial,Helvetica,sans-serif;font-size:16px; }.taxon-card p { margin-left:15px;font-size:14px;line-height:1.55; }
+  .ecology-console > header span,.ecology-console > header b,.ecology-console > footer { font-size:10px;line-height:1.35; }
+  .ecology-node { min-height:78px; }.ecology-node > span { font-size:10px; }.ecology-node > div b { font-family:Arial,Helvetica,sans-serif;font-size:14px; }.ecology-node > div small { font-size:9px; }
+  .signature-caution > span { font-size:10px; }.signature-caution > p { font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5; }
+  .paradox-link-panel > p,.paradox-link-panel a > em { font-size:10px; }.paradox-link-panel a strong { font-size:16px; }.paradox-link-panel a small { font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.45; }
+  .open-questions-intro { font-size:14px!important;line-height:1.45!important; }
+  .open-question-list summary { min-height:68px; }.open-question-list summary > strong { font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4; }
+  .open-question-list details > div { padding:0 18px 18px; }.open-question-list details > div p { font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55; }
+  .signature-completeness > span { font-size:10px; }.signature-completeness small { font-family:Arial,Helvetica,sans-serif;font-size:12px; }
+}

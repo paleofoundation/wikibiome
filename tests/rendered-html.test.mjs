@@ -423,6 +423,15 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.ok(contrastOverride > stylesheet.indexOf(".home-hero"));
   assert.match(stylesheet.slice(contrastOverride), /\.home-hero \{ background:radial-gradient[\s\S]*#fff/);
   assert.match(stylesheet.slice(contrastOverride), /\.article-media-stage \{ padding:10px[\s\S]*background:#fff/);
+  const mobileReadingMode = stylesheet.lastIndexOf("Mobile reading mode");
+  assert.ok(mobileReadingMode > contrastOverride);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.wiki-header \{ height:58px;min-height:58px/);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.article-page,\.disease-page \{ padding:0 0 50px;background:#fff/);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.article-system-art,\.disease-system-art \{ display:none/);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.article-body p,\.continuous-prose-section \.continuous-prose \{[^}]*font-family:Arial[^}]*font-size:18px[^}]*line-height:1\.64/);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.lead-copy p:first-child::first-letter \{ float:none/);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.reference-list p \{ font-family:Arial[^}]*font-size:16px/);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.citation-preview \{ display:none!important/);
 });
 
 test("keeps internal operational records out of the public encyclopedia", async () => {
