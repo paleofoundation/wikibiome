@@ -351,7 +351,8 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /43 lint, audit, maintenance, resume, and roadmap records are deliberately excluded/);
   assert.match(readiness, /824[\s\S]{0,110}records[\s\S]{0,110}717[\s\S]{0,80}canonical article routes/);
   assert.match(readiness, /4 of 717 canonical article routes currently have reviewed/);
-  assert.match(readiness, /Attach www\.wikibiome\.com to the new Site/);
+  assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
+  assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);

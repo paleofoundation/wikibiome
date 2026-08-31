@@ -154,11 +154,11 @@ export function getCutoverReport() {
     {
       id: "custom-domain",
       area: "Domain cutover",
-      title: "Attach www.wikibiome.com to the new Site",
+      title: "Attach wikibiome.com and www to the new Site",
       status: "complete",
       gate: "Required before DNS",
       owner: "Domain administrator",
-      evidence: "www.wikibiome.com is active on the new Site with validated DNS and SSL. The apex continues to redirect to www through the retained legacy deployment during the rollback window.",
+      evidence: "wikibiome.com and www.wikibiome.com are active on the new Site with validated DNS and SSL. The former Vercel deployment remains intact as a rollback target but no longer handles the production apex route.",
       href: "https://www.wikibiome.com",
     },
     {
