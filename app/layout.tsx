@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = "WikiBiome — The Microbiome Metallomics Encyclopedia";
+const title = "WikiBiome — The Human Microbiome Encyclopedia";
 const description =
-  "Explore evidence-linked relationships between microorganisms, mechanisms, heavy metals, interventions, host defenses, and human health.";
+  "Explore the organisms, mechanisms, and ecological relationships shaping human health.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const incomingHeaders = await headers();
@@ -26,7 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol =
     incomingHeaders.get("x-forwarded-proto") ??
     (host.includes("localhost") ? "http" : "https");
-  const socialImage = `${protocol}://${host}/og.png`;
+  const socialImage = `${protocol}://${host}/og-blue.png`;
 
   return {
     title,
@@ -40,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: socialImage,
           width: 1732,
           height: 909,
-          alt: "WikiBiome — where microbes, metals, and medicine connect",
+          alt: "WikiBiome — the human microbiome encyclopedia",
         },
       ],
     },
@@ -49,6 +49,9 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       images: [socialImage],
+    },
+    icons: {
+      icon: "/favicon.png",
     },
   };
 }

@@ -1,11 +1,11 @@
 "use client";
 
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 
 const domains = [
   { name: "Diseases & Conditions", count: 65, key: "Conditions", mark: "Dx", tone: "plum" },
   { name: "Mechanisms", count: 235, key: "Mechanisms", mark: "Mx", tone: "coral" },
-  { name: "Microorganisms", count: 233, key: "Microorganisms", mark: "μ", tone: "green" },
+  { name: "Microorganisms", count: 232, key: "Microorganisms", mark: "μ", tone: "green" },
   { name: "Heavy Metals", count: 29, key: "Heavy Metals", mark: "Me", tone: "metal" },
   { name: "Interventions", count: 72, key: "Interventions", mark: "Rx", tone: "blue" },
   { name: "Host Defenses", count: 29, key: "Host Defenses", mark: "Hd", tone: "gold" },
@@ -31,10 +31,26 @@ const signatures = [
 
 const filters = ["All", ...domains.map((domain) => domain.key)];
 
+const heroSlides = [
+  "/hero-microbiome-1.jpg",
+  "/maid-iz-mic-phagegettyimages-1338313552-3840x2160.jpg",
+  "/hero-microbiome-2.jpg",
+];
+
 export default function Home() {
   const [query, setQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState("All");
   const [signature, setSignature] = useState(signatures[0]);
+  const [activeSlide, setActiveSlide] = useState(0);
+  const [discoverOpen, setDiscoverOpen] = useState(false);
+
+  useEffect(() => {
+    const timer = window.setInterval(
+      () => setActiveSlide((current) => (current + 1) % heroSlides.length),
+      7600,
+    );
+    return () => window.clearInterval(timer);
+  }, []);
 
   const visibleEntries = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -65,54 +81,70 @@ export default function Home() {
 
   return (
     <main>
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="WikiBiome home"><span className="brand-mark" aria-hidden="true">W</span><span>WikiBiome</span></a>
-        <nav aria-label="Main navigation">
-          <a href="#encyclopedia">Encyclopedia</a>
-          <a href="#signatures">Signatures</a>
-          <a href="#evidence">Evidence</a>
-          <a href="#about">About</a>
-        </nav>
-        <button className="random-link" type="button" onClick={openRandomArticle}>Random article <span aria-hidden="true">↗</span></button>
-        <a className="nav-cta" href="#contribute">Contribute</a>
-      </header>
+      <section className="portal" id="top">
+        <div className="portal-slides" aria-hidden="true">
+          {heroSlides.map((image, index) => (
+            <div
+              className={"portal-slide " + (activeSlide === index ? "active" : "")}
+              key={image}
+              style={{ backgroundImage: `url(${image})` }}
+            />
+          ))}
+        </div>
+        <div className="portal-shade" />
+        <div className="portal-watermark" aria-hidden="true">W</div>
 
-      <section className="hero" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow"><span /> The Microbiome Metallomics Encyclopedia</p>
-          <h1>Where microbes, metals &amp; medicine connect.</h1>
-          <p className="hero-intro">WikiBiome turns a scattered scientific literature into a navigable knowledge system—linking microorganisms, mechanisms, heavy metals, interventions, and host defenses across human health.</p>
-          <form className="search" onSubmit={runSearch}>
-            <label className="sr-only" htmlFor="wiki-search">Search WikiBiome</label>
-            <span className="search-mark" aria-hidden="true">⌕</span>
-            <input id="wiki-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search a condition, microorganism, metal, or mechanism" />
-            {query && <button className="clear-search" type="button" onClick={() => setQuery("")} aria-label="Clear search">×</button>}
-            <button className="search-button" type="submit">Search</button>
+        <header className="portal-topbar">
+          <a className="portal-mobile-brand" href="#top"><span>W</span> WikiBiome</a>
+          <nav aria-label="Main navigation">
+            <a href="#encyclopedia">Explore</a>
+            <a href="#signatures">Signatures</a>
+            <a href="#evidence">Evidence</a>
+            <a href="#about">About</a>
+          </nav>
+          <div><button type="button" onClick={openRandomArticle}>Random article</button><a href="#contribute">Contribute</a><a href="#contribute">Donate ♡</a></div>
+        </header>
+
+        <aside className="portal-index" aria-label="WikiBiome index">
+          <a className="portal-logo" href="#top"><img src="/favicon.png" alt="" /><span>Wiki<em>Biome</em></span><small>The human microbiome encyclopedia</small></a>
+          <button className="index-random" type="button" onClick={openRandomArticle}><span>Random article</span><i>+</i></button>
+          <div className="index-rule" />
+          {domains.map((domain) => <button className="index-domain" type="button" key={domain.key} onClick={() => chooseDomain(domain.key)}><span>{domain.name}</span><b>{domain.count}</b></button>)}
+          <div className="index-rule" />
+          <p className="index-label"><span>Beta</span> Tools</p>
+          <a href="#signatures">Signature explorer</a><a href="#signatures">Disease signatures</a><a href="#evidence">Evidence matrix</a><a href="#about">Knowledge graph</a>
+        </aside>
+
+        <div className="portal-center">
+          <p>THE HUMAN MICROBIOME ENCYCLOPEDIA</p>
+          <h1>Welcome<br />to <em>WikiBiome</em></h1>
+          <span>Follow the organisms, mechanisms, and ecological relationships shaping human health.</span>
+          <form className="portal-search" onSubmit={runSearch}>
+            <label className="sr-only" htmlFor="portal-search">Search WikiBiome</label>
+            <i aria-hidden="true">⌕</i>
+            <input id="portal-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search 866 articles" />
+            {query && <button className="portal-clear" type="button" onClick={() => setQuery("")} aria-label="Clear search">×</button>}
+            <button className="portal-submit" type="submit">Search</button>
           </form>
-          <div className="hero-principles"><span><i /> Open scientific education</span><span><i /> Evidence-linked</span><span><i /> Built to be explored</span></div>
         </div>
 
-        <div className="hero-model" aria-label="Knowledge network connecting a condition with microbes, metals, mechanisms, and host defenses">
-          <div className="model-grid" />
-          <div className="model-ring ring-one" />
-          <div className="model-ring ring-two" />
-          <div className="model-core"><span>Condition</span><b>Health<br />signature</b><small>Evidence synthesis</small></div>
-          <div className="model-node node-microbe"><span>μ</span><b>Microorganisms</b></div>
-          <div className="model-node node-metal"><span>Me</span><b>Heavy metals</b></div>
-          <div className="model-node node-mechanism"><span>Mx</span><b>Mechanisms</b></div>
-          <div className="model-node node-host"><span>Hd</span><b>Host defenses</b></div>
-          <div className="evidence-chip"><span>Evidence layer</span><b>Study → finding → connection</b></div>
-        </div>
-      </section>
-
-      <section className="domain-ribbon" aria-label="Knowledge domains">
-        {domains.map((domain) => (
-          <button type="button" key={domain.key} onClick={() => chooseDomain(domain.key)}>
-            <span className={"domain-mark " + domain.tone}>{domain.mark}</span>
-            <span><b>{domain.name}</b><small>{domain.count} entries</small></span>
-            <i aria-hidden="true">↗</i>
+        <div className={"discover-shell " + (discoverOpen ? "open" : "")}>
+          <button className="discover-orb" type="button" onClick={() => setDiscoverOpen((open) => !open)} aria-expanded={discoverOpen} aria-controls="discover-panel">
+            <span className="orb-ring orb-ring-one" /><span className="orb-ring orb-ring-two" /><span className="orb-cell cell-one" /><span className="orb-cell cell-two" /><b>{discoverOpen ? "−" : "+"}</b>
           </button>
-        ))}
+          <span className="discover-label">Discover</span>
+          <aside className="discover-panel" id="discover-panel">
+            <button className="discover-close" type="button" onClick={() => setDiscoverOpen(false)} aria-label="Close discover panel">×</button>
+            <article><p>Page of the day</p><div className="discover-image penicillium" /><small>Microorganism · Fungal genus</small><h2><em>Penicillium</em></h2><span>A familiar fungus with a less familiar place in the human mycobiome.</span><a href="#penicillium">Read the profile →</a></article>
+            <article><p>Did you know?</p><blockquote><em>Helicobacter pylori</em> depends on nickel for two enzymes central to life in the stomach.</blockquote><a href="#evidence">Follow the connection →</a></article>
+            <article><p>Featured signatures</p>{["Alzheimer’s disease","Autism spectrum disorder","Cardiovascular disease","Colorectal cancer"].map((item) => <button type="button" key={item} onClick={() => { setDiscoverOpen(false); document.querySelector("#signatures")?.scrollIntoView({ behavior: "smooth" }); }}>{item}<span>↗</span></button>)}</article>
+          </aside>
+        </div>
+
+        <div className="portal-dots" aria-label="Choose background">
+          {heroSlides.map((_, index) => <button type="button" aria-label={`Show background ${index + 1}`} className={activeSlide === index ? "active" : ""} onClick={() => setActiveSlide(index)} key={index} />)}
+        </div>
+        <a className="portal-scroll" href="#encyclopedia"><span>Continue exploring</span><i>↓</i></a>
       </section>
 
       <section className="encyclopedia" id="encyclopedia">
@@ -207,7 +239,7 @@ export default function Home() {
 
       <footer>
         <a className="brand" href="#top"><span className="brand-mark" aria-hidden="true">W</span><span>WikiBiome</span></a>
-        <p>The microbiome metallomics encyclopedia.</p>
+        <p>The human microbiome encyclopedia.</p>
         <div><a href="#encyclopedia">Encyclopedia</a><a href="#signatures">Signatures</a><a href="#evidence">Evidence</a><a href="#contribute">Contribute</a></div>
         <span>Open scientific education for the microbiome medicine community.</span>
       </footer>
