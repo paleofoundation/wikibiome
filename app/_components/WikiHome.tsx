@@ -13,6 +13,7 @@ const bodyLinks = [
 
 const featuredIds = ["gut-microbiome", "helicobacter-pylori", "akkermansia-muciniphila", "dysbiosis", "alzheimers-disease"];
 const trailIds = ["nickel", "helicobacter-pylori", "urease", "gut-metal-microbiome", "gastric-cancer"];
+const portalIds = ["akkermansia-muciniphila", "nickel", "alzheimers-disease", "dysbiosis"];
 
 function resolvePages(ids: string[]) {
   return ids.map(getWikiPage).filter((page): page is WikiPage => Boolean(page));
@@ -21,13 +22,14 @@ function resolvePages(ids: string[]) {
 export function WikiHome() {
   const featured = resolvePages(featuredIds);
   const trail = resolvePages(trailIds);
+  const portals = resolvePages(portalIds);
 
   return (
     <main className="wiki-home">
       <section className="home-hero">
         <header className="home-nav">
           <Link className="home-wordmark" href="/">
-            <span className="home-w">W</span>
+            <span className="home-logo"><img src="/wikibiome-logo.png" alt="" /></span>
             <span className="home-word"><b>Wiki</b><em>Biome</em><small>The human microbiome encyclopedia</small></span>
           </Link>
           <nav aria-label="Primary navigation">
@@ -62,11 +64,9 @@ export function WikiHome() {
           <div className="body-stage" aria-label="Explore WikiBiome through a map of the human ecosystem">
             <div className="body-halo" />
             <div className="body-orbit body-orbit-one" /><div className="body-orbit body-orbit-two" />
-            <div className="body-figure" aria-hidden="true">
-              <span className="body-head" /><span className="body-neck" /><span className="body-torso" />
-              <span className="body-arm body-arm-left" /><span className="body-arm body-arm-right" />
-              <span className="body-leg body-leg-left" /><span className="body-leg body-leg-right" />
-              <i className="body-core core-brain" /><i className="body-core core-heart" /><i className="body-core core-gut" />
+            <div className="body-figure-advanced" aria-hidden="true">
+              <img src="/wikibiome-human-system-v2.png" alt="" />
+              <span className="body-scan" /><span className="body-axis" />
             </div>
             {bodyLinks.map((item) => <Link className={`body-point side-${item.side} ${item.className}`} href={`/article/${item.id}`} key={item.id}><i /><span><small>{item.kind}</small><b>{item.label}</b></span></Link>)}
             <div className="body-caption"><span>The human ecosystem</span><b>Follow a named connection</b></div>
@@ -103,9 +103,32 @@ export function WikiHome() {
         </div>
       </section>
 
+      <section className="home-portals" id="portals">
+        <header>
+          <span>02 · The current corpus, reimagined</span>
+          <h2>One system.<br /><em>Every kind of page.</em></h2>
+          <p>The redesign is attached to WikiBiome’s shared article structure—not a static concept. Open four real records below to see the same visual grammar carry organisms, elements, conditions, and mechanisms without disturbing their content model.</p>
+        </header>
+        <div className="portal-grid">
+          {portals.map((page, index) => (
+            <Link className={`portal-card portal-card-${index}`} href={`/article/${page.id}`} key={page.id}>
+              <div className="portal-preview">
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <img src="/wikibiome-human-system-v2.png" alt="" />
+                <i /><i />
+              </div>
+              <p>{categoryLabel(page.category)} · {page.sourceCount ?? 0} sources</p>
+              <h3>{page.title}</h3>
+              <span className="portal-description">{plainText(page.overview).slice(0, 150)}…</span>
+              <b>Open actual article <em>↗</em></b>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       <section className="home-trail">
         <div className="trail-intro">
-          <span>02 · A connected reading experience</span>
+          <span>03 · A connected reading experience</span>
           <h2>One question becomes<br /><em>a trail of evidence.</em></h2>
           <p>WikiBiome is designed for lateral discovery. A metal becomes a microbial dependency; that dependency becomes an enzyme; the enzyme opens a disease mechanism.</p>
           <Link href="/article/gut-metal-microbiome">Open the metal–microbiome interface →</Link>
@@ -117,19 +140,19 @@ export function WikiHome() {
       </section>
 
       <section className="home-domains">
-        <div className="domains-copy"><span>03 · The index</span><h2>Seven domains.<br /><em>One human ecosystem.</em></h2><p>Browse the public knowledge base the way you think: by organism, disease, mechanism, intervention, or the evidence connecting them.</p></div>
+        <div className="domains-copy"><span>04 · The index</span><h2>Seven domains.<br /><em>One human ecosystem.</em></h2><p>Browse the public knowledge base the way you think: by organism, disease, mechanism, intervention, or the evidence connecting them.</p></div>
         <div className="domain-list">
           {categories.map((category, index) => <Link href={`/category/${category.id}`} key={category.id}><i>{String(index + 1).padStart(2, "0")}</i><span>{category.label}</span><b>{getCategoryCount(category.id)}</b><em>Explore →</em></Link>)}
         </div>
       </section>
 
       <section className="home-evidence">
-        <div className="evidence-orbit" aria-hidden="true"><span>W</span>{["Microbe","Metal","Host","Disease","Source"].map((item, index) => <i className={`evidence-node evidence-node-${index}`} key={item}>{item}</i>)}</div>
-        <div className="evidence-copy"><span>04 · Open scientific education</span><h2>Readable enough to enter.<br /><em>Rigorous enough to trace.</em></h2><p>Every blue term is a doorway. Every evidence claim retains its scientific context. WikiBiome turns a large research corpus into a navigable public reference without flattening uncertainty.</p><div><p><b>{wikiStats.sources.toLocaleString()}</b><span>sources indexed</span></p><p><b>{wikiStats.totalPages}</b><span>public articles</span></p><p><b>{wikiStats.signatures}</b><span>disease signatures</span></p></div><Link href="/article/gut-microbiome">Read the foundation article →</Link></div>
+        <div className="evidence-orbit" aria-hidden="true"><span><img src="/wikibiome-logo.png" alt="" /></span>{["Microbe","Metal","Host","Disease","Source"].map((item, index) => <i className={`evidence-node evidence-node-${index}`} key={item}>{item}</i>)}</div>
+        <div className="evidence-copy"><span>05 · Open scientific education</span><h2>Readable enough to enter.<br /><em>Rigorous enough to trace.</em></h2><p>Every blue term is a doorway. Every evidence claim retains its scientific context. WikiBiome turns a large research corpus into a navigable public reference without flattening uncertainty.</p><div><p><b>{wikiStats.sources.toLocaleString()}</b><span>sources indexed</span></p><p><b>{wikiStats.totalPages}</b><span>public articles</span></p><p><b>{wikiStats.signatures}</b><span>disease signatures</span></p></div><Link href="/article/gut-microbiome">Read the foundation article →</Link></div>
       </section>
 
       <footer className="home-footer">
-        <Link className="home-wordmark" href="/"><span className="home-w">W</span><span className="home-word"><b>Wiki</b><em>Biome</em><small>The human microbiome encyclopedia</small></span></Link>
+        <Link className="home-wordmark" href="/"><span className="home-logo"><img src="/wikibiome-logo.png" alt="" /></span><span className="home-word"><b>Wiki</b><em>Biome</em><small>The human microbiome encyclopedia</small></span></Link>
         <p>Open scientific education for the microbiome medicine community.</p>
         <nav><Link href="/search">Search</Link><Link href="/category/microbe">Microorganisms</Link><Link href="/category/disease">Diseases</Link><a href="https://wikibiome.com/explore">Knowledge graph ↗</a></nav>
         <span>A project of the Paleo Foundation · Knowledge base synchronized from paleofoundation/wikibiome</span>

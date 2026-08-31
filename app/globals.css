@@ -304,3 +304,104 @@ button,input { font:inherit; }
   .evidence-orbit { min-height:380px;transform:scale(.86); }.evidence-copy > div { grid-template-columns:1fr; }.evidence-copy > div p { border-right:0;border-bottom:1px solid #b7c9e1; }.evidence-copy > div p:last-child { border-bottom:0; }
   .home-footer { padding:45px 20px;grid-template-columns:1fr; }.home-footer nav { grid-column:1;grid-row:auto;flex-wrap:wrap; }.home-footer > p,.home-footer > span { grid-column:1; }
 }
+
+/* WikiBiome identity + anatomical system — shared by the portal and live corpus */
+@keyframes bodyFloat { 0%,100% { transform:translateY(0) scale(1);filter:drop-shadow(0 30px 45px rgba(0,5,18,.45)) drop-shadow(0 0 22px rgba(75,159,255,.18)); } 50% { transform:translateY(-10px) scale(1.012);filter:drop-shadow(0 38px 55px rgba(0,5,18,.5)) drop-shadow(0 0 34px rgba(89,178,255,.3)); } }
+@keyframes scanTravel { 0% { transform:translateY(-30px);opacity:0; } 12%,82% { opacity:.72; } 100% { transform:translateY(620px);opacity:0; } }
+
+.home-logo { width:48px;height:48px;display:block;flex:0 0 auto;overflow:hidden;border-radius:50%;box-shadow:0 10px 30px rgba(0,4,16,.38),0 0 0 1px rgba(199,226,255,.28); }
+.home-logo img { width:100%;height:100%;display:block;object-fit:cover; }
+.wiki-brand-mark { width:42px;height:42px;display:block;flex:0 0 auto;border:0;border-radius:50%;object-fit:cover;background:#376ace;box-shadow:0 7px 20px rgba(0,11,33,.34),0 0 0 1px rgba(195,222,255,.3);font-size:0; }
+
+.body-figure-advanced { position:relative;z-index:4;width:min(30vw,405px);height:min(72vh,690px);display:grid;place-items:center;pointer-events:none; }
+.body-figure-advanced::before { content:"";position:absolute;z-index:-1;width:68%;height:72%;border-radius:48%;background:radial-gradient(ellipse,rgba(56,145,232,.25),rgba(30,82,155,.08) 53%,transparent 72%);filter:blur(24px); }
+.body-figure-advanced img { width:100%;height:100%;display:block;object-fit:contain;animation:bodyFloat 9s 1s ease-in-out infinite; }
+.body-axis { position:absolute;z-index:-1;top:5%;bottom:4%;left:50%;width:1px;background:linear-gradient(transparent,rgba(123,190,255,.35) 12%,rgba(111,224,237,.28) 52%,rgba(123,190,255,.2) 85%,transparent); }
+.body-scan { position:absolute;z-index:5;left:17%;right:17%;top:7%;height:42px;border-top:1px solid rgba(122,219,244,.72);background:linear-gradient(180deg,rgba(93,203,236,.12),transparent);filter:drop-shadow(0 0 6px #69cde9);animation:scanTravel 7.5s 1.5s linear infinite; }
+
+.home-portals { padding:120px max(5vw,calc((100vw - 1500px)/2 + 5vw)) 135px;background:linear-gradient(145deg,#eaf2ff,#f9fbff 56%,#edf5ff);color:#1d2a3d; }
+.home-portals > header { display:grid;grid-template-columns:.8fr 1.1fr .95fr;gap:5vw;align-items:end; }
+.home-portals > header > span { align-self:start;color:#3266b8;font-size:8px;font-weight:800;letter-spacing:.15em;text-transform:uppercase; }
+.home-portals > header h2 { margin:0;font-family:var(--serif);font-size:clamp(53px,5.3vw,78px);font-weight:400;line-height:.94;letter-spacing:-.05em; }
+.home-portals > header h2 em { color:#3269bd;font-weight:400; }
+.home-portals > header p { margin:0;color:#617087;font-family:var(--serif);font-size:14px;line-height:1.7; }
+.portal-grid { margin-top:70px;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #afbed2;border-bottom:1px solid #afbed2; }
+.portal-card { min-width:0;padding:0 22px 30px;border-right:1px solid #c4cfdd;transition:background .3s,transform .3s; }
+.portal-card:first-child { padding-left:0; }.portal-card:last-child { padding-right:0;border-right:0; }
+.portal-card:hover { background:rgba(255,255,255,.5);transform:translateY(-7px); }
+.portal-preview { position:relative;height:230px;margin-bottom:23px;overflow:hidden;background:radial-gradient(circle at 50% 38%,rgba(70,151,238,.28),transparent 42%),linear-gradient(145deg,#06152f,#0c2a54); }
+.portal-preview::before { content:"";position:absolute;inset:0;opacity:.18;background-image:linear-gradient(rgba(147,203,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(147,203,255,.18) 1px,transparent 1px);background-size:27px 27px; }
+.portal-preview > span { position:absolute;z-index:3;left:13px;top:13px;color:#9bc7fb;font-size:8px;letter-spacing:.15em; }
+.portal-preview img { position:absolute;left:50%;top:12px;width:120px;height:265px;object-fit:contain;transform:translateX(-50%);filter:drop-shadow(0 0 18px rgba(92,180,255,.45));transition:.45s cubic-bezier(.16,1,.3,1); }
+.portal-card:hover .portal-preview img { transform:translateX(-50%) scale(1.08); }
+.portal-preview i { position:absolute;z-index:4;width:9px;height:9px;border:1px solid #e9fbff;border-radius:50%;background:#63d6e9;box-shadow:0 0 0 7px rgba(99,214,233,.12);animation:pointBreathe 3s ease-in-out infinite; }.portal-preview i:nth-of-type(1) { right:22%;top:28%; }.portal-preview i:nth-of-type(2) { left:23%;bottom:24%;animation-delay:-1.5s; }
+.portal-card > p { margin:0;color:#3a70bd;font-size:7px;font-weight:800;letter-spacing:.12em;text-transform:uppercase; }
+.portal-card h3 { min-height:2.1em;margin:10px 0 13px;font-family:var(--serif);font-size:clamp(23px,2.2vw,33px);font-weight:400;line-height:1.02;letter-spacing:-.035em; }
+.portal-description { min-height:7.4em;display:block;color:#5c687a;font-family:var(--serif);font-size:11px;line-height:1.55; }
+.portal-card > b { margin-top:18px;padding-top:13px;display:flex;justify-content:space-between;border-top:1px solid #ccd5e1;color:#245bab;font-size:8px;letter-spacing:.04em; }.portal-card > b em { font-style:normal;transition:.2s; }.portal-card:hover > b em { transform:translate(3px,-3px); }
+
+.evidence-orbit > span { overflow:hidden;background:#376ace; }
+.evidence-orbit > span img { width:100%;height:100%;display:block;object-fit:cover; }
+
+/* The same cool-blue system continues through every live article and index. */
+.wiki-header { border-bottom-color:rgba(170,207,250,.18);background:rgba(5,18,40,.96);box-shadow:0 8px 30px rgba(0,8,25,.22); }
+.wiki-brand { color:#fff; }.wiki-brand small { color:rgba(203,223,249,.55); }
+.global-search { border-color:rgba(164,199,242,.38);background:rgba(255,255,255,.97); }
+.utility-nav a { color:#b8c9df; }.utility-nav a:hover { color:#fff;border-color:#77b7ff; }
+.article-page { background:linear-gradient(180deg,#071731 0 310px,#f3f7fc 310px 100%); }
+.article-breadcrumbs { color:#849bb9; }.article-breadcrumbs a { color:#84b9fa; }.article-breadcrumbs b { color:#b8c8dc; }
+.article-header { min-height:320px;padding:50px clamp(28px,4vw,66px) 0;border-color:rgba(155,197,246,.25);background:radial-gradient(circle at 78% 48%,rgba(35,113,201,.32),transparent 25%),linear-gradient(128deg,#07152e 0%,#0b2245 66%,#0a2a55 100%);color:#fff; }
+.article-header::before { right:-40px;top:-155px;background:repeating-radial-gradient(circle,rgba(128,190,255,.16) 0 1px,transparent 2px 33px),radial-gradient(circle,rgba(60,144,237,.2),transparent 64%); }
+.article-header::after { display:none; }
+.article-heading-copy { position:relative;z-index:4;max-width:calc(100% - 240px); }
+.article-heading-copy > p { margin:0 0 13px;color:#89bdff;font-size:8px;font-weight:800;letter-spacing:.16em;text-transform:uppercase; }
+.article-heading-copy > h1 { color:#fff;text-shadow:0 14px 40px rgba(0,6,22,.24); }
+.article-heading-copy > span { margin:17px 0 35px;display:block;color:#afc3dd;font-family:var(--serif);font-size:13px; }
+.article-system-art { position:absolute;z-index:1;right:3.5%;top:-42px;width:215px;height:390px;opacity:.82;pointer-events:none;filter:drop-shadow(0 0 24px rgba(80,168,255,.35)); }
+.article-system-art::after { content:"";position:absolute;left:-35px;right:-35px;top:17%;height:65%;border:1px solid rgba(121,185,249,.2);border-radius:50%; }
+.article-system-art img { width:100%;height:100%;display:block;object-fit:contain; }
+.article-system-art i { position:absolute;z-index:2;width:8px;height:8px;border-radius:50%;background:#71dce8;box-shadow:0 0 0 7px rgba(113,220,232,.12);animation:pointBreathe 3s ease-in-out infinite; }.article-system-art i:nth-of-type(1) { right:35%;top:18%; }.article-system-art i:nth-of-type(2) { left:31%;top:46%;animation-delay:-1s; }.article-system-art i:nth-of-type(3) { right:33%;top:59%;animation-delay:-2s; }
+.article-tabs { position:relative;z-index:5;border-bottom-color:rgba(176,208,245,.28); }
+.article-tabs > a { color:#a9bed8; }.article-tabs > a b { background:rgba(132,184,246,.16);color:#9dccff; }.article-tabs > a:hover,.article-tabs > a.active { color:#fff; }.article-tabs > a::after { background:linear-gradient(90deg,#66d3e6,#82b6ff); }.article-tabs > span { color:#8198b7; }
+.article-grid { border-color:#cbd7e5;box-shadow:0 30px 80px rgba(11,39,78,.16); }
+.infobox-visual { height:210px;background:radial-gradient(circle at 50% 43%,rgba(68,145,229,.29),transparent 35%),linear-gradient(150deg,#06142c,#0c2d58); }
+.infobox-visual::before { content:"";position:absolute;inset:0;opacity:.18;background-image:linear-gradient(rgba(147,203,255,.17) 1px,transparent 1px),linear-gradient(90deg,rgba(147,203,255,.17) 1px,transparent 1px);background-size:25px 25px; }
+.infobox-visual::after { inset:22px 50px;border-color:rgba(137,196,255,.28); }
+.infobox-visual > img { position:absolute;left:50%;top:-15px;width:115px;height:260px;object-fit:contain;transform:translateX(-50%);filter:drop-shadow(0 0 17px rgba(86,176,255,.4)); }
+.infobox-visual > span { position:absolute;z-index:4;left:14px;top:14px;width:43px;height:43px;font-size:16px;background:rgba(5,29,64,.65); }
+.infobox-visual > small { position:absolute;z-index:4;left:14px;bottom:13px;color:#a9c9f0;font-size:6px;font-weight:800;letter-spacing:.13em;text-transform:uppercase; }
+
+.directory-main,.source-main { background:linear-gradient(180deg,#071731 0 245px,#f4f7fb 245px 100%); }
+.directory-header { border-color:rgba(155,197,246,.25);background:radial-gradient(circle at 83% 42%,rgba(38,121,213,.31),transparent 25%),linear-gradient(128deg,#07152e,#0c2b56);color:#fff; }
+.directory-header::after { border-color:rgba(142,201,255,.2);box-shadow:0 0 0 38px rgba(86,151,224,.07),0 0 0 78px rgba(70,131,203,.04); }
+.directory-header > span { color:#89bdff; }.directory-header p { color:#b4c6dd; }.directory-header > div { color:#9db2cd; }.directory-header > div b { color:#92c2fb; }
+.source-header { max-width:1100px;padding:46px 48px 38px;border:1px solid rgba(155,197,246,.25);border-radius:18px;background:radial-gradient(circle at 85% 35%,rgba(46,129,220,.3),transparent 27%),linear-gradient(128deg,#07152e,#0b2a55);color:#fff; }
+.source-header > span { color:#8fc2ff; }.source-header p { color:#b4c6dd; }
+
+@supports (animation-timeline:view()) {
+  .home-portals > header,.portal-card { animation:articleReveal linear both;animation-timeline:view();animation-range:entry 0% cover 28%; }
+}
+
+@media (max-width:1050px) {
+  .body-figure-advanced { width:min(37vw,380px); }
+  .portal-grid { grid-template-columns:repeat(2,1fr); }.portal-card { padding:0 25px 35px;border-bottom:1px solid #c4cfdd; }.portal-card:nth-child(2) { padding-right:0;border-right:0; }.portal-card:nth-child(3) { padding-left:0;border-bottom:0; }.portal-card:nth-child(4) { border-bottom:0; }
+}
+
+@media (max-width:950px) {
+  .home-portals > header { grid-template-columns:1fr;gap:25px; }.home-portals > header p { max-width:650px; }
+  .article-heading-copy { max-width:calc(100% - 160px); }.article-system-art { right:1%;width:170px;opacity:.64; }
+}
+
+@media (max-width:820px) {
+  .body-figure-advanced { width:min(58vw,390px);height:570px; }
+}
+
+@media (max-width:620px) {
+  .home-logo { width:40px;height:40px; }
+  .wiki-brand-mark { width:36px;height:36px; }
+  .body-figure-advanced { width:min(70vw,330px);height:410px; }
+  .body-scan { left:22%;right:22%;animation:none; }
+  .home-portals { padding:80px 20px 90px; }.home-portals > header h2 { font-size:48px; }.portal-grid { margin-top:45px;grid-template-columns:1fr; }.portal-card,.portal-card:first-child,.portal-card:nth-child(2),.portal-card:nth-child(3),.portal-card:last-child { padding:0 0 30px;border-right:0;border-bottom:1px solid #c4cfdd; }.portal-card:last-child { border-bottom:0; }.portal-preview { height:260px; }.portal-description { min-height:auto; }
+  .article-header { min-height:340px;padding:37px 22px 0; }.article-heading-copy { max-width:100%; }.article-heading-copy > h1 { max-width:92%;font-size:48px; }.article-heading-copy > span { max-width:70%; }.article-system-art { right:-25px;top:-5px;width:145px;height:330px;opacity:.32; }.article-tabs { gap:15px;overflow-x:auto; }.article-tabs > a { white-space:nowrap; }.article-tabs > span { display:none; }
+  .source-header { padding:38px 24px; }
+}

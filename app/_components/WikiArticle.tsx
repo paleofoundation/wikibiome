@@ -93,7 +93,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
   return (
     <header className="wiki-header">
       <Link className="wiki-brand" href="/">
-        <span className="wiki-brand-mark" aria-hidden="true">W</span>
+        <img className="wiki-brand-mark" src="/wikibiome-logo.png" alt="" />
         <span><strong>Wiki</strong>Biome<small>The human microbiome encyclopedia</small></span>
       </Link>
       <form className="global-search" action="/search" role="search">
@@ -153,7 +153,11 @@ function ArticleInfobox({ page }: { page: WikiPage }) {
   return (
     <aside className="article-aside" aria-label={`${page.title} facts`}>
       <div className="infobox">
-        <div className="infobox-visual"><span>{page.title.slice(0, 2)}</span><i /><i /><i /></div>
+        <div className={`infobox-visual infobox-${page.category}`}>
+          <img src="/wikibiome-human-system-v2.png" alt="" />
+          <span>{page.title.slice(0, 2)}</span><i /><i /><i />
+          <small>{categoryLabel(page.category)} system map</small>
+        </div>
         <div className="infobox-title"><span>WikiBiome record</span><strong>{page.title}</strong></div>
         <dl>
           <div><dt>Domain</dt><dd><Link href={`/category/${page.category}`}>{categoryLabel(page.category)}</Link></dd></div>
@@ -189,9 +193,12 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
           <div className="article-breadcrumbs"><Link href="/">WikiBiome</Link><span>/</span><Link href={`/category/${page.category}`}>{categoryLabel(page.category)}</Link><span>/</span><b>{page.title}</b></div>
           {home && <div className="main-page-note"><span>Featured foundation article</span><b>Start here, then follow any blue connection through the encyclopedia.</b></div>}
           <header className="article-header">
-            <p>{categoryLabel(page.category)} · {sourceCount} linked sources</p>
-            <h1>{page.title}</h1>
-            <span>From WikiBiome, the human microbiome encyclopedia</span>
+            <div className="article-system-art" aria-hidden="true"><img src="/wikibiome-human-system-v2.png" alt="" /><i /><i /><i /></div>
+            <div className="article-heading-copy">
+              <p>{categoryLabel(page.category)} · {sourceCount} linked sources</p>
+              <h1>{page.title}</h1>
+              <span>From WikiBiome, the human microbiome encyclopedia</span>
+            </div>
             <div className="article-tabs">
               <a className="active" href="#article">Article</a>
               <a href="#connections">Connections <b>{page.related?.length ?? 0}</b></a>
