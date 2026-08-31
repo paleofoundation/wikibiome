@@ -499,7 +499,7 @@ function WikiRail({ page }: { page: WikiPage }) {
           <a href="#references"><i>R</i>References</a>
         </nav>
       )}
-      <div className="rail-license">Open scientific education<br />from the Paleo Foundation</div>
+      <div className="rail-license">Open scientific education<br />from Microbiome Medicine</div>
     </aside>
   );
 }

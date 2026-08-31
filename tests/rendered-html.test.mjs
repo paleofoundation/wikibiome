@@ -54,6 +54,9 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.match(html, /The current corpus, reimagined/);
   assert.match(html, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(html, /href="\/article\/nickel"/);
+  assert.match(html, /A project of Microbiome Medicine/);
+  assert.match(html, /href="https:\/\/microbiomemedicine\.com"/);
+  assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.match(html, /1,887/);
   assert.match(html, /867/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
