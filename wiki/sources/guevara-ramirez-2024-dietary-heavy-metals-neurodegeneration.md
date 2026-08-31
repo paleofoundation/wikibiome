@@ -2,7 +2,7 @@
 title: "Heavy metals in the diet: unraveling the molecular pathways linked to neurodegenerative disease risk"
 type: source
 created: 2026-04-09T00:00:00.000Z
-updated: 2026-04-09T00:00:00.000Z
+updated: 2026-08-31T00:00:00.000Z
 authors:
   - Guevara-Ramirez P
   - Tamayo-Trujillo R
@@ -16,7 +16,7 @@ authors:
   - Zambrano AK
 journal: Food and Agricultural Immunology
 year: 2024
-doi: "not yet verified"
+doi: 10.1080/09540105.2024.2434457
 evidence_level: expert-opinion
 tags:
   - heavy-metals

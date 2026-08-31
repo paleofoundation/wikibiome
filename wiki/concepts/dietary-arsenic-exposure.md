@@ -3,7 +3,7 @@ title: Dietary Arsenic Exposure
 type: concept
 created: 2026-04-11
 updated: 2026-04-11
-sources: [jackson-2012-arsenic-infant-formulas-first-foods, hopfner-2025-infant-formula-dietary-exposure-elements-germany, dahan-2018-arsenic-alters-microbiome-larval-zebrafish, zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice, balali-mood-2021-toxic-mechanisms-five-heavy-metals, phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]
+sources: [jackson-2012-arsenic-infant-formulas-first-foods, hopfner-2025-infant-formula-dietary-exposure-elements-germany, dahan-2018-arsenic-alters-microbiome-larval-zebrafish, lu-2014-arsenic-gut-microbiome-metabolomics, balali-mood-2021-toxic-mechanisms-five-heavy-metals, phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome]
 source_count: 6
 tags: [diet, arsenic, exposure, food-safety, rice, water, infant-foods]
 platform: wikibiome

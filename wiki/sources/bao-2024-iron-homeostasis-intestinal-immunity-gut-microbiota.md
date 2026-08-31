@@ -2,7 +2,7 @@
 title: Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling
 type: source
 created: 2026-04-09T00:00:00.000Z
-updated: 2026-04-09T00:00:00.000Z
+updated: 2026-08-31T00:00:00.000Z
 authors:
   - Honghong Bao
   - Yi Wang
@@ -12,7 +12,7 @@ authors:
   - Lingbin Liu
 journal: International Journal of Molecular Sciences
 year: 2024
-doi: "not yet verified"
+doi: 10.3390/ijms25020727
 tags:
   - iron
   - iron-homeostasis

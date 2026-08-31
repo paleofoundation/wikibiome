@@ -2,7 +2,7 @@
 title: Influence of Toxic Metal Exposure on the Gut Microbiota (Review)
 type: source
 created: 2026-04-09T00:00:00.000Z
-updated: 2026-04-09T00:00:00.000Z
+updated: 2026-08-31T00:00:00.000Z
 authors:
   - Federica Giambo
   - Sebastiano Italia
@@ -14,7 +14,7 @@ authors:
   - Concettina Fenga
 journal: World Academy of Sciences Journal
 year: 2021
-doi: "not yet verified"
+doi: 10.3892/wasj.2021.90
 tags:
   - heavy-metals
   - gut-microbiota

@@ -2,7 +2,7 @@
 title: Impact of heavy metals on breast cancer (Review)
 type: source
 created: 2026-04-09T00:00:00.000Z
-updated: 2026-04-09T00:00:00.000Z
+updated: 2026-08-31T00:00:00.000Z
 authors:
   - Ali AS
   - Nazar ME
@@ -12,7 +12,7 @@ authors:
   - Ahmed SK
 journal: World Academy of Sciences Journal
 year: 2024
-doi: "not yet verified"
+doi: 10.3892/wasj.2023.219
 evidence_level: expert-opinion
 tags:
   - heavy-metals

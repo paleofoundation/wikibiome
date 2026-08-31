@@ -2,7 +2,7 @@
 title: "Molina Morales 2023 — The Microbiome of the Male Reproductive Tract: Uncovering Its Composition and Origins"
 type: source
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2026-08-31
 authors: [Nerea Molina Morales]
 corresponding_author: "Signe Altmäe"
 corresponding_email: "not yet verified"
@@ -10,7 +10,7 @@ institution: "Universidad de Granada, Departamento de Bioquímica y Biología Mo
 orcid: "not yet verified"
 year: 2023
 journal: "Doctoral Thesis, Universidad de Granada"
-doi: "https://hdl.handle.net/10481/85100"
+repository_url: "https://hdl.handle.net/10481/85100"
 pmid: "N/A"
 evidence_level: cross-sectional
 sample_size: "n=11 (Study I, testicular biopsies); n=82 recruited / n=55 analyzed (Study II, vasectomy cohort); systematic review (Study III); methodological review (Study IV)"

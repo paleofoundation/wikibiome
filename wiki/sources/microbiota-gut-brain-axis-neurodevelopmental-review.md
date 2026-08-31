@@ -1,13 +1,15 @@
 ---
-title: The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders — Review Article
+title: The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders
 type: source
 created: 2026-04-09T00:00:00.000Z
-updated: 2026-04-09T00:00:00.000Z
+updated: 2026-08-31T00:00:00.000Z
 authors:
-  - "[Extract full author list from PDF]"
+  - Qinwen Wang
+  - Qianyue Yang
+  - Xingyin Liu
 year: 2023
 journal: Protein & Cell
-doi: "not yet verified"
+doi: 10.1093/procel/pwad026
 tags:
   - microbiota
   - gut-brain-axis

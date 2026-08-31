@@ -1,16 +1,16 @@
 ---
-title: "Associations of Environmental Exposure to Arsenic, Manganese, Lead and Cadmium on Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies"
+title: "Associations of Environmental Exposure to Arsenic, Manganese, Lead, and Cadmium with Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies"
 type: source
 created: 2026-04-09T00:00:00.000Z
-updated: 2026-04-09T00:00:00.000Z
+updated: 2026-08-31T00:00:00.000Z
 authors:
   - Giasuddin Ahmed
   - Md. Shiblur Rahaman
   - Enrique Perez
   - Khalid M. Khan
-journal: Preprints.org (not peer-reviewed)
+journal: Journal of Xenobiotics
 year: 2025
-doi: "not yet verified"
+doi: 10.3390/jox15020047
 tags:
   - Alzheimers-disease
   - arsenic
@@ -23,17 +23,16 @@ tags:
   - tau-phosphorylation
   - amyloid-beta
   - blood-brain-barrier
-  - preprint
 platform: wikibiome
 keystone: true
 keystone_criteria_met: [2, 3, 4]
-why_keystone: "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 46 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
+why_keystone: "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 45 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
 evidence_level: expert-opinion
-evidence_level_note: "corrected 2026-04-19 — previously misclassified as systematic-review-meta-analysis; this is a narrative review published on Preprints.org (not peer-reviewed)"
+evidence_level_note: "Narrative review; final peer-reviewed version published in the Journal of Xenobiotics in 2025."
 metals_discussed: [arsenic, manganese, lead, cadmium]
 taxa_discussed: []
 key_findings:
-  - "Reviewed 46 mechanistic studies (2014-2024): arsenic disrupts tau phosphorylation via GSK3-beta/ERK1/2; manganese impairs autophagy; lead (21 studies) and cadmium induce blood-brain barrier disruption"
+  - "Reviewed 45 mechanistic studies (2014-2024): arsenic disrupts tau phosphorylation via GSK3-beta/ERK1/2; manganese impairs autophagy; lead (21 studies) and cadmium induce blood-brain barrier disruption"
   - "Heavy metals share overlapping AD-relevant pathways: oxidative stress, mitochondrial dysfunction, protein aggregation, neuroinflammation, autophagy dysfunction, and tau hyperphosphorylation"
   - "Arsenic uniquely affects amyloid precursor protein processing and nitric oxide signaling; chronic exposure in 3xTg-AD mice increases amyloid plaques and impairs ATP production"
 karen_brain_primitives: [3]

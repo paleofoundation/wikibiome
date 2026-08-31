@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-05-04T19:36:29.831Z",
+  "_generated": "2026-08-31T20:33:41.573Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1882,
-    "entities": 331,
+    "sources": 1891,
+    "entities": 332,
     "concepts": 264,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 866
+    "totalPages": 867
   },
   "pages": [
     {
@@ -17994,7 +17994,8 @@
         "torrazza-2013-intestinal-microbial-ecology-nec",
         "zhou-2015-premature-infant-microbiome-prior-nec",
         "zheng-2024-pcos-obesity-vaginal-microbiome-phages",
-        "dafini-2025-shatavari-neuro-gut-axis-ppd"
+        "dafini-2025-shatavari-neuro-gut-axis-ppd",
+        "brower-sinning-2014-mucosa-bacterial-diversity-nec"
       ],
       "created": "2026-04-18T00:00:00.000Z",
       "updated": "2026-04-18T00:00:00.000Z",
@@ -18010,9 +18011,10 @@
           "torrazza-2013-intestinal-microbial-ecology-nec",
           "zhou-2015-premature-infant-microbiome-prior-nec",
           "zheng-2024-pcos-obesity-vaginal-microbiome-phages",
-          "dafini-2025-shatavari-neuro-gut-axis-ppd"
+          "dafini-2025-shatavari-neuro-gut-axis-ppd",
+          "brower-sinning-2014-mucosa-bacterial-diversity-nec"
         ],
-        "source_count": 5,
+        "source_count": 6,
         "tags": [
           "gram-positive",
           "strict-anaerobe",
@@ -18116,7 +18118,7 @@
         "pcos"
       ],
       "sourceDir": "entities",
-      "sourceCount": 5,
+      "sourceCount": 6,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
@@ -18127,6 +18129,10 @@
         "broken-links-2026-04-16"
       ],
       "related": [
+        {
+          "id": "necrotizing-enterocolitis-signature",
+          "score": 9
+        },
         {
           "id": "lactobacillus-iners",
           "score": 8
@@ -18153,10 +18159,6 @@
         },
         {
           "id": "listeria",
-          "score": 6
-        },
-        {
-          "id": "butyrate",
           "score": 6
         }
       ]
@@ -36543,6 +36545,7 @@
         "long-covid",
         "necrotizing-enterocolitis",
         "proteobacteria",
+        "sphingomonas",
         "yersinia-pestis",
         "chelation-therapy",
         "dietary-iron-gut-ecology",
@@ -43863,6 +43866,14 @@
           "score": 5
         },
         {
+          "id": "sphingomonas",
+          "score": 5
+        },
+        {
+          "id": "necrotizing-enterocolitis-signature",
+          "score": 5
+        },
+        {
           "id": "cerebral-palsy",
           "score": 4
         },
@@ -43876,14 +43887,6 @@
         },
         {
           "id": "citrobacter",
-          "score": 3
-        },
-        {
-          "id": "clostridium-butyricum",
-          "score": 3
-        },
-        {
-          "id": "clostridium-perfringens",
           "score": 3
         }
       ]
@@ -45526,17 +45529,22 @@
         "ran-ressler-2011-bcfa-nec-incidence-microbiota-rat",
         "stewart-2013-preterm-gut-microbiome-twins-nec-sepsis",
         "till-2015-intestinal-microbiome-disruptions-nec-sbs-haec",
-        "agakidou-2020-nec-biomarkers-metabolomics-proteomics"
+        "agakidou-2020-nec-biomarkers-metabolomics-proteomics",
+        "martin-2011-bile-acids-mucin2-nec",
+        "hulzebos-2017-fecal-bile-salts-nec-preterm",
+        "stewart-2013-bacterial-fungal-viability-preterm-nec",
+        "manohar-2023-gut-brain-nec-neurodevelopmental",
+        "brower-sinning-2014-mucosa-bacterial-diversity-nec"
       ],
       "created": "2026-04-15T00:00:00.000Z",
-      "updated": "2026-04-15T00:00:00.000Z",
+      "updated": "2026-05-04T00:00:00.000Z",
       "frontmatter": {
         "title": "Necrotizing Enterocolitis",
         "type": "entity",
         "subtype": "disease",
         "created": "2026-04-15T00:00:00.000Z",
-        "updated": "2026-04-15T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
+        "updated": "2026-05-04T00:00:00.000Z",
+        "last_substantive_update": "2026-05-04T00:00:00.000Z",
         "sources": [
           "ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia",
           "daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac",
@@ -45550,9 +45558,14 @@
           "ran-ressler-2011-bcfa-nec-incidence-microbiota-rat",
           "stewart-2013-preterm-gut-microbiome-twins-nec-sepsis",
           "till-2015-intestinal-microbiome-disruptions-nec-sbs-haec",
-          "agakidou-2020-nec-biomarkers-metabolomics-proteomics"
+          "agakidou-2020-nec-biomarkers-metabolomics-proteomics",
+          "martin-2011-bile-acids-mucin2-nec",
+          "hulzebos-2017-fecal-bile-salts-nec-preterm",
+          "stewart-2013-bacterial-fungal-viability-preterm-nec",
+          "manohar-2023-gut-brain-nec-neurodevelopmental",
+          "brower-sinning-2014-mucosa-bacterial-diversity-nec"
         ],
-        "source_count": 13,
+        "source_count": 18,
         "tags": [
           "necrotizing-enterocolitis",
           "neonatal",
@@ -45605,7 +45618,12 @@
         {
           "heading": "Additional NEC-Enriched Taxa",
           "level": 3,
-          "body": "- **Methylobacterium** -- an environmental alpha-Proteobacterium (normally soil/water-associated) enriched at NEC onset; positively correlated with CRP and negatively with platelet count [[lin-2023-gut-microbiota-alteration-surgery-nec]]. Its presence likely reflects NICU environmental colonization. A novel NEC-associated taxon worthy of surveillance attention\n- **Clostridium butyricum** -- enriched at NEC onset in surgical cases [[lin-2023-gut-microbiota-alteration-surgery-nec]]; strain identity critical — probiotic and pathogenic strains exist within this species\n- **Acidobacteria** -- soil-associated phylum enriched in NEC recovery (full enteral nutrition stage), suggesting environmental NICU colonization persists even after clinical recovery [[lin-2023-gut-microbiota-alteration-surgery-nec]]"
+          "body": "- **Sphingomonas** spp. — significantly associated with NEC development (p=0.0001) in a prospective cohort of 32 preterm infants (<32 weeks) [[stewart-2013-bacterial-fungal-viability-preterm-nec]]. An environmental, Gram-negative alpha-Proteobacterium (normally soil/water/hospital surfaces) rarely considered in NEC pathogenesis. Its strong statistical association suggests NICU environmental contamination routes as an underappreciated NEC risk factor.\n- **Methylobacterium** -- an environmental alpha-Proteobacterium (normally soil/water-associated) enriched at NEC onset; positively correlated with CRP and negatively with platelet count [[lin-2023-gut-microbiota-alteration-surgery-nec]]. Its presence likely reflects NICU environmental colonization. A novel NEC-associated taxon worthy of surveillance attention\n- **Clostridium butyricum** -- enriched at NEC onset in surgical cases [[lin-2023-gut-microbiota-alteration-surgery-nec]]; strain identity critical — probiotic and pathogenic strains exist within this species\n- **Acidobacteria** -- soil-associated phylum enriched in NEC recovery (full enteral nutrition stage), suggesting environmental NICU colonization persists even after clinical recovery [[lin-2023-gut-microbiota-alteration-surgery-nec]]"
+        },
+        {
+          "heading": "Mucosa-Associated vs. Fecal Microbiome",
+          "level": 3,
+          "body": "The first study of **mucosa-associated (tissue-embedded) bacteria** in NEC revealed that the organisms invading the intestinal wall differ substantially from those detected in fecal samples [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]. NEC tissue shows two distinct microbial phenotypes:\n\n1. **Enterobacteriaceae cluster**: Near-monoculture of *Klebsiella* and *Escherichia/Shigella* — consistent with the Proteobacteria bloom model. Reduced diversity. Higher total bacterial load (p=0.01 vs. non-NEC controls).\n2. **Obligate anaerobe cluster**: *Clostridium*, *Bacteroides*, *Prevotella* — found almost exclusively in NEC tissue, not controls. Indicates advanced mucosal hypoxia — the intestinal wall has become sufficiently anoxic to support obligate anaerobe invasion. *Clostridium perfringens* detected across multiple NEC samples (2 distinct OTUs), consistent with its gas-producing alpha-toxin mechanism and the pneumatosis intestinalis hallmark of NEC [[brower-sinning-2014-mucosa-bacterial-diversity-nec]].\n\nThis tissue-level evidence establishes that prior fecal microbiome studies of NEC captured an incomplete picture of which organisms are actually driving mucosal invasion."
         },
         {
           "heading": "Two-Pattern NEC Dysbiosis",
@@ -45653,6 +45671,16 @@
           "body": "A paradigm-shifting finding: non-toxigenic Clostridium perfringens strains metabolize HMOs and suppress pathogenic E. coli and Klebsiella by 40-90% in vitro Chapman et al. 2023. These strains lack the toxin genes that make C. perfringens pathogenic but retain the metabolic machinery to compete with Enterobacteriaceae. This opens a novel probiotic strategy based on competitive exclusion by a traditionally \"pathogenic\" genus."
         },
         {
+          "heading": "Bile Acid Ecology",
+          "level": 2,
+          "body": "A developmentally specific pathway drives mucosal vulnerability in the neonatal ileum. **ASBT (apical sodium-dependent bile acid transporter)** is dramatically upregulated in neonatal ileum compared to mature ileum, causing excessive bile acid reabsorption [[martin-2011-bile-acids-mucin2-nec]]. The resulting bile acid accumulation depletes **Muc2** — the primary mucin protecting the ileal mucosa — exposing the epithelium to luminal bacteria. ASBT knockout mice are protected from Muc2 depletion; cholestyramine (bile acid sequestrant) normalizes Muc2 expression (animal model evidence) [[martin-2011-bile-acids-mucin2-nec]].\n\nClinical evidence confirms this model: in a nested case-control (n=10 NEC, n=20 controls), **total unconjugated fecal bile salts are 3-fold elevated** in NEC infants (0.41 vs. 0.14 μmol/g, p<0.05), rising to **4-fold elevation 5–6 days before NEC diagnosis** (0.65 vs. 0.16 μmol/g, p=0.02) [[hulzebos-2017-fecal-bile-salts-nec-preterm]]. The signal is specific to unconjugated species, implicating microbial bile salt hydrolase (BSH) activity — BSH-producing bacteria deconjugate bile acids to their more cytotoxic forms. ROC analysis: bile salts >13 μmol/g yields 93% sensitivity, 47% specificity (AUC 0.74) for NEC [[hulzebos-2017-fecal-bile-salts-nec-preterm]]."
+        },
+        {
+          "heading": "Gut-Brain Axis and Neurodevelopmental Impairment",
+          "level": 2,
+          "body": "NEC is not solely a gastrointestinal disease. **20–50% of NEC survivors develop neurodevelopmental impairment (NDI)**, including cerebral palsy, white matter injury, cognitive deficits, and behavioral abnormalities at rates exceeding gestational-age-matched controls without NEC [[manohar-2023-gut-brain-nec-neurodevelopmental]].\n\nThe mechanism proceeds via the gut-brain axis: LPS → TLR4 → NF-κB → systemic pro-inflammatory cytokines (TNF-α, IL-1β, IL-6) → BBB disruption → microglial activation → white matter injury and impaired myelination [[manohar-2023-gut-brain-nec-neurodevelopmental]]. **HMGB1** (high-mobility group box 1 protein), released by necrotic enterocytes, can cross the BBB and directly trigger neuroinflammation. **SCFAs** (butyrate, propionate) normally maintain BBB integrity; their depletion in NEC-associated dysbiosis removes a key neuroprotective mechanism.\n\n**Surgical NEC** (requiring bowel resection) produces significantly worse NDI outcomes than medical NEC, likely due to greater systemic inflammatory burden, loss of intestinal surface area reducing SCFA production, and disruption of vagal anti-inflammatory signaling [[manohar-2023-gut-brain-nec-neurodevelopmental]]. This links NEC to the CP literature: see [[cerebral-palsy]]."
+        },
+        {
           "heading": "Metal Associations",
           "level": 2,
           "body": "| Metal | Direction | Relevance |\n|-------|-----------|-----------|\n| Iron (Fe) | Elevated (parenteral nutrition) | Parenteral iron bypasses lactoferrin-mediated sequestration, providing free iron to siderophore-producing Enterobacteriaceae. Iron overload promotes Klebsiella and E. coli growth [[pendergrass-2026-nickel-nec-preterm-gut]] |\n| Zinc (Zn) | Depleted (preterm) | Impairs Paneth cell defensin production and intestinal barrier integrity |"
@@ -45675,19 +45703,24 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[cerebral-palsy]] -- 20% of NEC survivors develop CP via the NEC-to-CP pathway\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont, predictive biomarker\n- [[bifidobacterium]] -- key protective taxon, HMO metabolism\n- [[lactoferrin]] -- iron chelation as NEC prevention\n- [[zinc]] -- Paneth cell function and defensin production\n- [[ahr]] -- maternal AHR activation protects neonatal gut\n- [[iron]] -- parenteral iron feeds siderophore-producing Enterobacteriaceae; lactoferrin chelation is protective\n- [[enterobacteriaceae]] -- Proteobacteria bloom family driving NEC pathogenesis\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont species within Klebsiella\n- [[methylobacterium]] -- environmental alpha-Proteobacterium enriched at NEC onset; NICU colonization signal\n- [[clostridium-butyricum]] -- enriched at NEC onset; strain-level distinction critical\n- [[bacillus-subtilis]] -- 5-fold elevated in healthy vs NEC rats; probiotic candidate"
+          "body": "- [[cerebral-palsy]] -- 20% of NEC survivors develop CP via the NEC-to-CP pathway\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont, predictive biomarker\n- [[bifidobacterium]] -- key protective taxon, HMO metabolism\n- [[lactoferrin]] -- iron chelation as NEC prevention\n- [[zinc]] -- Paneth cell function and defensin production\n- [[ahr]] -- maternal AHR activation protects neonatal gut\n- [[iron]] -- parenteral iron feeds siderophore-producing Enterobacteriaceae; lactoferrin chelation is protective\n- [[enterobacteriaceae]] -- Proteobacteria bloom family driving NEC pathogenesis\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont species within Klebsiella\n- [[methylobacterium]] -- environmental alpha-Proteobacterium enriched at NEC onset; NICU colonization signal\n- [[clostridium-butyricum]] -- enriched at NEC onset; strain-level distinction critical\n- [[bacillus-subtilis]] -- 5-fold elevated in healthy vs NEC rats; probiotic candidate\n- [[sphingomonas]] -- significantly associated with NEC (p=0.0001); NICU environmental source\n- [[clostridium-perfringens]] -- detected in NEC tissue across 2 distinct OTUs; gas-producing alpha-toxin\n- [[bile-acids]] -- unconjugated fecal bile salts 3-4x elevated in NEC; 5-6 day pre-diagnostic window\n- [[muc2]] -- mucin-2 depletion via ASBT-mediated bile acid accumulation; mucosal barrier loss"
         }
       ],
       "wikilinks": [
         "necrotizing-enterocolitis-signature",
+        "stewart-2013-bacterial-fungal-viability-preterm-nec",
         "lin-2023-gut-microbiota-alteration-surgery-nec",
+        "brower-sinning-2014-mucosa-bacterial-diversity-nec",
         "till-2015-intestinal-microbiome-disruptions-nec-sbs-haec",
         "bifidobacterium",
         "stewart-2013-preterm-gut-microbiome-twins-nec-sepsis",
+        "martin-2011-bile-acids-mucin2-nec",
+        "hulzebos-2017-fecal-bile-salts-nec-preterm",
+        "manohar-2023-gut-brain-nec-neurodevelopmental",
+        "cerebral-palsy",
         "pendergrass-2026-nickel-nec-preterm-gut",
         "agakidou-2020-nec-biomarkers-metabolomics-proteomics",
         "ran-ressler-2011-bcfa-nec-incidence-microbiota-rat",
-        "cerebral-palsy",
         "klebsiella-pneumoniae",
         "lactoferrin",
         "zinc",
@@ -45696,10 +45729,14 @@
         "enterobacteriaceae",
         "methylobacterium",
         "clostridium-butyricum",
-        "bacillus-subtilis"
+        "bacillus-subtilis",
+        "sphingomonas",
+        "clostridium-perfringens",
+        "bile-acids",
+        "muc2"
       ],
       "sourceDir": "entities",
-      "sourceCount": 13,
+      "sourceCount": 18,
       "threshold": 5,
       "belowThreshold": false,
       "isStub": false,
@@ -45713,6 +45750,7 @@
         "methylobacterium",
         "nickel",
         "proteobacteria",
+        "sphingomonas",
         "streptococcus-salivarius",
         "ureaplasma",
         "zinc",
@@ -62447,6 +62485,148 @@
       ]
     },
     {
+      "id": "sphingomonas",
+      "title": "Sphingomonas",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "gram-negative",
+        "aerobe",
+        "environmental",
+        "alpha-proteobacteria",
+        "necrotizing-enterocolitis",
+        "nicu",
+        "sphingolipids",
+        "metal-tolerant"
+      ],
+      "sources": [
+        "stewart-2013-bacterial-fungal-viability-preterm-nec"
+      ],
+      "created": "2026-05-04T00:00:00.000Z",
+      "updated": "2026-05-04T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Sphingomonas",
+        "type": "entity",
+        "subtype": "microbe",
+        "created": "2026-05-04T00:00:00.000Z",
+        "updated": "2026-05-04T00:00:00.000Z",
+        "last_substantive_update": "2026-05-04T00:00:00.000Z",
+        "sources": [
+          "stewart-2013-bacterial-fungal-viability-preterm-nec"
+        ],
+        "source_count": 1,
+        "tags": [
+          "gram-negative",
+          "aerobe",
+          "environmental",
+          "alpha-proteobacteria",
+          "necrotizing-enterocolitis",
+          "nicu",
+          "sphingolipids",
+          "metal-tolerant"
+        ],
+        "seo_target": "Sphingomonas NEC preterm infant NICU gut bacteria",
+        "wikipedia_differentiation": "Significant statistical association with NEC development (p=0.0001) in preterm infants — an underappreciated environmental genus rarely discussed in NEC literature despite prospective cohort evidence, with implications for NICU infection control and water/surface decontamination as NEC prevention",
+        "platform": "wikibiome",
+        "gram_stain": "negative",
+        "oxygen_requirement": "aerobic",
+        "metal_dependencies": [],
+        "key_enzymes": [],
+        "pathogenic_potential": "opportunistic",
+        "conditions_enriched_in": [
+          "necrotizing-enterocolitis"
+        ],
+        "conditions_depleted_in": [],
+        "stub": true,
+        "stub_reason": "1 source — minimum 3 required for microbe entity (§2f). Awaiting additional sources on Sphingomonas-NEC association or NICU epidemiology."
+      },
+      "overview": "*Sphingomonas* is a genus of Gram-negative, aerobic, rod-shaped bacteria in the class Alphaproteobacteria, distinguished by the presence of **sphingolipids in their outer membrane** rather than the lipopolysaccharide (LPS) typical of most Gram-negative bacteria. Originally isolated from soil and water environments, Sphingomonas species are now recognized as NICU environmental colonizers and have been identified as a statistically significant NEC-associated organism in preterm infant microbiome studies.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "level": 2,
+          "body": "Sphingomonas species are ubiquitous in natural environments (soil, water, plant surfaces) and clinical environments (hospital water systems, surfaces, equipment). Their unusual sphingolipid-containing membrane distinguishes them immunologically from LPS-bearing Gram-negatives: they activate NKT cells via CD1d presentation rather than TLR4/LPS signaling, though the clinical significance of this distinction in neonatal NEC pathogenesis is not yet established."
+        },
+        {
+          "heading": "NEC Association",
+          "level": 2,
+          "body": "In a prospective longitudinal cohort of 32 preterm infants (<32 weeks) with 136 serial stool samples, **Sphingomonas spp. were significantly associated with NEC development (p=0.0001)** — one of the strongest statistical associations reported for any single taxon in a NEC microbiome study [[stewart-2013-bacterial-fungal-viability-preterm-nec]]. This finding positions Sphingomonas as a potentially important NEC-associated pathobiont whose environmental origin (NICU water systems, surfaces, hands) suggests infection control routes for prevention not typically addressed in NEC prevention strategies."
+        },
+        {
+          "heading": "NICU Environmental Origin",
+          "level": 2,
+          "body": "Unlike the classical NEC-associated Enterobacteriaceae (Klebsiella, E. coli) which derive from the infant's endogenous flora or mother's microbiome, Sphingomonas is primarily an environmental organism. Its presence in neonatal stool more likely reflects:\n- NICU water system colonization (hospital water biofilms are a known Sphingomonas reservoir)\n- Surface contamination from equipment or hands\n- Potential colonization via oral care water or parenteral nutrition lines\n\nThis environmental hypothesis has implications for NEC prevention: targeted NICU water system decontamination and surface monitoring for Sphingomonas could reduce NEC-associated colonization — a different intervention target than formula choice or probiotic administration."
+        },
+        {
+          "heading": "Metal Tolerance",
+          "level": 2,
+          "body": "Sphingomonas species have been identified in metal-contaminated environments and are known to tolerate elevated concentrations of heavy metals including copper, zinc, and cadmium — likely via metal efflux pumps and sequestration mechanisms. Whether NICU environments with metal contamination (copper pipes, zinc in parenteral nutrition) selectively favor Sphingomonas colonization is an open question with implications for the metallomic ecology of NEC."
+        },
+        {
+          "heading": "Key Studies",
+          "level": 2,
+          "body": "- **Stewart 2013** [[stewart-2013-bacterial-fungal-viability-preterm-nec]] (prospective-cohort, n=32, p=0.0001): Sphingomonas significantly associated with NEC in preterm infants — first systematic evidence of this association"
+        },
+        {
+          "heading": "Open Questions",
+          "level": 2,
+          "body": "- Does NICU water system decontamination targeting Sphingomonas reduce NEC colonization and incidence?\n- Are Sphingomonas metal-tolerance genes upregulated in NICU isolates compared to environmental strains?\n- Is Sphingomonas's sphingolipid membrane immunologically relevant to neonatal gut — does it evade TLR4 surveillance while still causing mucosal damage?\n- Has the Stewart 2013 Sphingomonas-NEC association been replicated in larger cohorts?"
+        },
+        {
+          "heading": "Cross-References",
+          "level": 2,
+          "body": "- [[necrotizing-enterocolitis]] — condition with significant Sphingomonas association\n- [[klebsiella-pneumoniae]] — primary NEC pathobiont; Sphingomonas is an environmental complement"
+        }
+      ],
+      "wikilinks": [
+        "stewart-2013-bacterial-fungal-viability-preterm-nec",
+        "necrotizing-enterocolitis",
+        "klebsiella-pneumoniae"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 1,
+      "threshold": 3,
+      "belowThreshold": true,
+      "isStub": true,
+      "backlinks": [
+        "necrotizing-enterocolitis"
+      ],
+      "related": [
+        {
+          "id": "necrotizing-enterocolitis-signature",
+          "score": 7
+        },
+        {
+          "id": "clostridium-perfringens",
+          "score": 5
+        },
+        {
+          "id": "klebsiella",
+          "score": 5
+        },
+        {
+          "id": "methylobacterium",
+          "score": 5
+        },
+        {
+          "id": "ralstonia",
+          "score": 5
+        },
+        {
+          "id": "stop-broad-spectrum-antibiotics-pre-nec",
+          "score": 4
+        },
+        {
+          "id": "stop-formula-feeding-without-supplementation-nec",
+          "score": 4
+        },
+        {
+          "id": "stop-broad-spectrum-antibiotics-pre-nec",
+          "score": 4
+        }
+      ]
+    },
+    {
       "id": "staphylococcus-aureus",
       "title": "Staphylococcus aureus",
       "type": "entity",
@@ -78590,7 +78770,7 @@
         "jackson-2012-arsenic-infant-formulas-first-foods",
         "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
         "dahan-2018-arsenic-alters-microbiome-larval-zebrafish",
-        "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+        "lu-2014-arsenic-gut-microbiome-metabolomics",
         "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
         "phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome"
       ],
@@ -78605,7 +78785,7 @@
           "jackson-2012-arsenic-infant-formulas-first-foods",
           "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
           "dahan-2018-arsenic-alters-microbiome-larval-zebrafish",
-          "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+          "lu-2014-arsenic-gut-microbiome-metabolomics",
           "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
           "phurailatpam-2022-heavy-metal-stress-omics-soil-plant-microbiome"
         ],
@@ -78750,7 +78930,7 @@
         "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
         "agboola-2023-heavy-metals-leafy-vegetables-lagos",
         "liu-2020-high-fat-diet-heavy-metal-gut-microbiota",
-        "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+        "zhang-2015-cadmium-hepatic-energy-gut-microbiome",
         "pendergrass-2026-age-window-vulnerability-vegetable-baby-foods"
       ],
       "created": "2026-04-11T00:00:00.000Z",
@@ -78765,7 +78945,7 @@
           "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
           "agboola-2023-heavy-metals-leafy-vegetables-lagos",
           "liu-2020-high-fat-diet-heavy-metal-gut-microbiota",
-          "zhang-2015-arsenic-cadmium-microbiota-liver-toxicity-mice",
+          "zhang-2015-cadmium-hepatic-energy-gut-microbiome",
           "pendergrass-2026-age-window-vulnerability-vegetable-baby-foods"
         ],
         "source_count": 6,
@@ -78864,7 +79044,7 @@
       "related": [
         {
           "id": "dietary-arsenic-exposure",
-          "score": 26
+          "score": 23
         },
         {
           "id": "dietary-lead-exposure",
@@ -125927,6 +126107,7 @@
         "methylobacterium",
         "nickel",
         "proteobacteria",
+        "sphingomonas",
         "streptococcus-salivarius",
         "ureaplasma",
         "zinc",
@@ -125960,6 +126141,10 @@
           "score": 13
         },
         {
+          "id": "klebsiella-pneumoniae",
+          "score": 12
+        },
+        {
           "id": "nickel",
           "score": 12
         },
@@ -125969,10 +126154,6 @@
         },
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 10
-        },
-        {
-          "id": "klebsiella-pneumoniae",
           "score": 10
         },
         {
@@ -141896,17 +142077,39 @@
         "HMO",
         "NEC-prevention"
       ],
-      "sources": [],
+      "sources": [
+        "martin-2011-bile-acids-mucin2-nec",
+        "hulzebos-2017-fecal-bile-salts-nec-preterm",
+        "stewart-2013-bacterial-fungal-viability-preterm-nec",
+        "manohar-2023-gut-brain-nec-neurodevelopmental",
+        "brower-sinning-2014-mucosa-bacterial-diversity-nec",
+        "lin-2023-gut-microbiota-alteration-surgery-nec",
+        "ran-ressler-2011-bcfa-nec-incidence-microbiota-rat",
+        "stewart-2013-preterm-gut-microbiome-twins-nec-sepsis",
+        "till-2015-intestinal-microbiome-disruptions-nec-sbs-haec",
+        "agakidou-2020-nec-biomarkers-metabolomics-proteomics"
+      ],
       "created": "2026-04-18T00:00:00.000Z",
-      "updated": "2026-04-18T00:00:00.000Z",
+      "updated": "2026-05-04T00:00:00.000Z",
       "frontmatter": {
         "title": "Necrotizing Enterocolitis — Microbiome Signature",
         "type": "signature",
         "created": "2026-04-18T00:00:00.000Z",
-        "updated": "2026-04-18T00:00:00.000Z",
-        "last_substantive_update": "2026-04-18T00:00:00.000Z",
-        "sources": [],
-        "source_count": 0,
+        "updated": "2026-05-04T00:00:00.000Z",
+        "last_substantive_update": "2026-05-04T00:00:00.000Z",
+        "sources": [
+          "martin-2011-bile-acids-mucin2-nec",
+          "hulzebos-2017-fecal-bile-salts-nec-preterm",
+          "stewart-2013-bacterial-fungal-viability-preterm-nec",
+          "manohar-2023-gut-brain-nec-neurodevelopmental",
+          "brower-sinning-2014-mucosa-bacterial-diversity-nec",
+          "lin-2023-gut-microbiota-alteration-surgery-nec",
+          "ran-ressler-2011-bcfa-nec-incidence-microbiota-rat",
+          "stewart-2013-preterm-gut-microbiome-twins-nec-sepsis",
+          "till-2015-intestinal-microbiome-disruptions-nec-sbs-haec",
+          "agakidou-2020-nec-biomarkers-metabolomics-proteomics"
+        ],
+        "source_count": 10,
         "tags": [
           "necrotizing-enterocolitis",
           "neonatal",
@@ -141937,7 +142140,19 @@
             },
             {
               "taxon": "Clostridium perfringens (toxigenic)",
-              "role": "Alpha-toxin and perfringolysin O produce gas gangrene pattern in intestinal wall"
+              "role": "Alpha-toxin and perfringolysin O produce gas gangrene pattern; detected in NEC tissue across 2 distinct OTUs (tissue-level evidence) [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]"
+            },
+            {
+              "taxon": "Sphingomonas spp.",
+              "role": "Environmental alpha-Proteobacterium significantly associated with NEC (p=0.0001, prospective cohort) [[stewart-2013-bacterial-fungal-viability-preterm-nec]]; likely NICU environmental source"
+            },
+            {
+              "taxon": "Clostridium spp. (obligate anaerobe cluster)",
+              "role": "Obligate anaerobes found almost exclusively in NEC tissue (not controls) — indicate advanced mucosal hypoxia and wall necrosis [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]"
+            },
+            {
+              "taxon": "Bacteroides/Prevotella (obligate anaerobe cluster)",
+              "role": "Co-enriched with Clostridium in NEC tissue anaerobe cluster; absent from non-NEC controls [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]"
             },
             {
               "taxon": "Staphylococcus epidermidis",
@@ -141984,7 +142199,12 @@
           "virome-convergence",
           "immature-barrier",
           "parenteral-iron-overload",
-          "biofilm"
+          "biofilm",
+          "bile-acid-accumulation-ASBT-upregulation",
+          "Muc2-depletion-mucosal-barrier-failure",
+          "obligate-anaerobe-mucosal-invasion",
+          "gut-brain-axis-NDI-risk",
+          "antibiotic-driven-richness-nadir-week4"
         ],
         "virulence_enzymes": [
           "siderophores",
@@ -142044,8 +142264,7 @@
           8,
           9
         ],
-        "stub": true,
-        "stub_reason": "§2f auto-demotion 2026-04-19 — 0 sources, signature minimum 10"
+        "stub": false
       },
       "overview": "",
       "sections": [
@@ -142153,6 +142372,8 @@
       "wikilinks": [
         "klebsiella-pneumoniae",
         "escherichia-coli",
+        "brower-sinning-2014-mucosa-bacterial-diversity-nec",
+        "stewart-2013-bacterial-fungal-viability-preterm-nec",
         "enterococcus",
         "bifidobacterium",
         "lactobacillus",
@@ -142161,10 +142382,10 @@
         "ahr"
       ],
       "sourceDir": "signatures",
-      "sourceCount": 0,
+      "sourceCount": 10,
       "threshold": 10,
-      "belowThreshold": true,
-      "isStub": true,
+      "belowThreshold": false,
+      "isStub": false,
       "backlinks": [
         "necrotizing-enterocolitis",
         "broken-links-2026-04-16"
@@ -142172,15 +142393,19 @@
       "related": [
         {
           "id": "necrotizing-enterocolitis",
-          "score": 13
+          "score": 42
         },
         {
           "id": "necrotizing-enterocolitis",
-          "score": 12
+          "score": 13
         },
         {
           "id": "clostridium-perfringens",
-          "score": 6
+          "score": 9
+        },
+        {
+          "id": "sphingomonas",
+          "score": 7
         },
         {
           "id": "stop-broad-spectrum-antibiotics-pre-nec",
@@ -142197,10 +142422,6 @@
         {
           "id": "stop-formula-feeding-without-supplementation-nec",
           "score": 6
-        },
-        {
-          "id": "bacteroides",
-          "score": 4
         }
       ]
     },
@@ -159453,6 +159674,10 @@
           "score": 4
         },
         {
+          "id": "sphingomonas",
+          "score": 4
+        },
+        {
           "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
           "score": 3
         },
@@ -159462,10 +159687,6 @@
         },
         {
           "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
-          "score": 3
-        },
-        {
-          "id": "stop-broad-spectrum-antibiotics-dysbiosis",
           "score": 3
         }
       ]
@@ -159688,6 +159909,10 @@
           "score": 4
         },
         {
+          "id": "sphingomonas",
+          "score": 4
+        },
+        {
           "id": "bacteroides",
           "score": 2
         },
@@ -159697,10 +159922,6 @@
         },
         {
           "id": "cerebral-palsy",
-          "score": 2
-        },
-        {
-          "id": "clostridium-butyricum",
           "score": 2
         }
       ]
@@ -163950,6 +164171,10 @@
           "score": 4
         },
         {
+          "id": "sphingomonas",
+          "score": 4
+        },
+        {
           "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
           "score": 3
         },
@@ -163959,10 +164184,6 @@
         },
         {
           "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
-          "score": 3
-        },
-        {
-          "id": "stop-broad-spectrum-antibiotics-dysbiosis",
           "score": 3
         }
       ]
@@ -164331,6 +164552,10 @@
           "score": 4
         },
         {
+          "id": "sphingomonas",
+          "score": 4
+        },
+        {
           "id": "bacteroides",
           "score": 2
         },
@@ -164340,10 +164565,6 @@
         },
         {
           "id": "cerebral-palsy",
-          "score": 2
-        },
-        {
-          "id": "clostridium-butyricum",
           "score": 2
         }
       ]
@@ -181462,7 +181683,7 @@
         "id": "clostridium-perfringens",
         "label": "Clostridium perfringens",
         "category": "microbe",
-        "sourceCount": 5
+        "sourceCount": 6
       },
       {
         "id": "clostridium-symbiosum",
@@ -182236,7 +182457,7 @@
         "id": "necrotizing-enterocolitis",
         "label": "Necrotizing Enterocolitis",
         "category": "disease",
-        "sourceCount": 13
+        "sourceCount": 18
       },
       {
         "id": "neisseria-meningitidis",
@@ -182705,6 +182926,12 @@
         "label": "Sphingobium",
         "category": "microbe",
         "sourceCount": 3
+      },
+      {
+        "id": "sphingomonas",
+        "label": "Sphingomonas",
+        "category": "microbe",
+        "sourceCount": 1
       },
       {
         "id": "staphylococcus-aureus",
@@ -184852,7 +185079,7 @@
         "id": "necrotizing-enterocolitis-signature",
         "label": "Necrotizing Enterocolitis — Microbiome Signature",
         "category": "signature",
-        "sourceCount": 0
+        "sourceCount": 10
       },
       {
         "id": "obesity-signature",
@@ -194995,6 +195222,10 @@
         "target": "clostridium-butyricum"
       },
       {
+        "source": "necrotizing-enterocolitis",
+        "target": "sphingomonas"
+      },
+      {
         "source": "neisseria-meningitidis",
         "target": "glyoxalase"
       },
@@ -198177,6 +198408,10 @@
       {
         "source": "sphingobium",
         "target": "gut-testis-axis"
+      },
+      {
+        "source": "sphingomonas",
+        "target": "klebsiella-pneumoniae"
       },
       {
         "source": "staphylococcus-aureus",
@@ -224069,7 +224304,7 @@
     "necrotizing-enterocolitis-signature": {
       "id": "necrotizing-enterocolitis-signature",
       "name": "Necrotizing Enterocolitis",
-      "paperCount": 0,
+      "paperCount": 10,
       "metallomicSignature": {
         "elevated": [
           "iron"
@@ -224090,7 +224325,19 @@
           },
           {
             "taxon": "Clostridium perfringens (toxigenic)",
-            "role": "Alpha-toxin and perfringolysin O produce gas gangrene pattern in intestinal wall"
+            "role": "Alpha-toxin and perfringolysin O produce gas gangrene pattern; detected in NEC tissue across 2 distinct OTUs (tissue-level evidence) [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]"
+          },
+          {
+            "taxon": "Sphingomonas spp.",
+            "role": "Environmental alpha-Proteobacterium significantly associated with NEC (p=0.0001, prospective cohort) [[stewart-2013-bacterial-fungal-viability-preterm-nec]]; likely NICU environmental source"
+          },
+          {
+            "taxon": "Clostridium spp. (obligate anaerobe cluster)",
+            "role": "Obligate anaerobes found almost exclusively in NEC tissue (not controls) — indicate advanced mucosal hypoxia and wall necrosis [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]"
+          },
+          {
+            "taxon": "Bacteroides/Prevotella (obligate anaerobe cluster)",
+            "role": "Co-enriched with Clostridium in NEC tissue anaerobe cluster; absent from non-NEC controls [[brower-sinning-2014-mucosa-bacterial-diversity-nec]]"
           },
           {
             "taxon": "Staphylococcus epidermidis",
@@ -224137,7 +224384,12 @@
         "virome-convergence",
         "immature-barrier",
         "parenteral-iron-overload",
-        "biofilm"
+        "biofilm",
+        "bile-acid-accumulation-ASBT-upregulation",
+        "Muc2-depletion-mucosal-barrier-failure",
+        "obligate-anaerobe-mucosal-invasion",
+        "gut-brain-axis-NDI-risk",
+        "antibiotic-driven-richness-nadir-week4"
       ],
       "virulenceEnzymes": [
         "siderophores",
@@ -406632,6 +406884,42 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "Bernard-Raichon2022-dysbiosis-translocation-bacteremia-covid": {
+      "title": "Bernard-Raichon et al. 2022 — Gut microbiome dysbiosis in antibiotic-treated COVID-19 patients is associated with microbial translocation and bacteremia",
+      "authors": [
+        "Lucie Bernard-Raichon",
+        "Mericien Venzon",
+        "Jon Klein",
+        "Jordan E. Axelrad",
+        "Chenzhen Zhang",
+        "Alexis P. Sullivan",
+        "Grant A. Hussey",
+        "Arnau Casanovas-Massana",
+        "Maria G. Noval",
+        "Ana M. Valero-Jimenez",
+        "Juan Gago",
+        "Gregory Putzel",
+        "Alejandro Pironti",
+        "Evan Wilder",
+        "Yale IMPACT Research Team",
+        "Lorna E. Thorpe",
+        "Dan R. Littman",
+        "Meike Dittmann",
+        "Kenneth A. Stapleford",
+        "Bo Shopsin",
+        "Victor J. Torres",
+        "Albert I. Ko",
+        "Akiko Iwasaki",
+        "Ken Cadwell",
+        "Jonas Schluter"
+      ],
+      "year": 2022,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-022-33395-6",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "Chen2023-gut-microbiota-inflammatory-mendelian-covid": {
       "title": "Chen, Chen 2023 — Gut microbiota, inflammatory proteins and COVID-19: a Mendelian randomisation study",
       "authors": [
@@ -406674,6 +406962,20 @@
       "why_keystone": ""
     },
     "Ke2022-microbiome-covid-metagenome-genomes 2": {
+      "title": "Ke, Weiss, Liu 2022 — Dissecting the role of the human microbiome in COVID-19 via metagenome-assembled genomes",
+      "authors": [
+        "Shanlin Ke",
+        "Scott T. Weiss",
+        "Yang-Yu Liu"
+      ],
+      "year": 2022,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-022-32991-w",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "Ke2022-microbiome-covid-metagenome-genomes": {
       "title": "Ke, Weiss, Liu 2022 — Dissecting the role of the human microbiome in COVID-19 via metagenome-assembled genomes",
       "authors": [
         "Shanlin Ke",
@@ -407197,7 +407499,7 @@
       "why_keystone": ""
     },
     "ahmed-2025-metals-alzheimers-mechanistic-review": {
-      "title": "Associations of Environmental Exposure to Arsenic, Manganese, Lead and Cadmium on Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies",
+      "title": "Associations of Environmental Exposure to Arsenic, Manganese, Lead, and Cadmium with Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies",
       "authors": [
         "Giasuddin Ahmed",
         "Md. Shiblur Rahaman",
@@ -407205,15 +407507,15 @@
         "Khalid M. Khan"
       ],
       "year": 2025,
-      "journal": "Preprints.org (not peer-reviewed)",
-      "doi": "not yet verified",
+      "journal": "Journal of Xenobiotics",
+      "doi": "10.3390/jox15020047",
       "keystone": true,
       "keystone_criteria_met": [
         2,
         3,
         4
       ],
-      "why_keystone": "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 46 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
+      "why_keystone": "Comprehensively maps metal-specific mechanisms (arsenic: tau phosphorylation via GSK3-beta/ERK; manganese: autophagy impairment; lead/cadmium: blood-brain barrier disruption) converging on Alzheimer's disease pathology across 45 mechanistic studies. WikiBiome depends on this evidence to explain how distinct metal burdens select for divergent neurodegenerative trajectories—establishing metal-specific toxicology as deterministic of proteinopathy type rather than a generic oxidative insult."
     },
     "aho-2019-gut-microbiome-disease-progression-parkinsons": {
       "title": "Aho 2019 -- Gut Microbiome and Disease Progression in Parkinson's Disease",
@@ -407528,7 +407830,7 @@
       ],
       "year": 2024,
       "journal": "World Academy of Sciences Journal",
-      "doi": "not yet verified",
+      "doi": "10.3892/wasj.2023.219",
       "keystone": true,
       "keystone_criteria_met": [
         2,
@@ -408509,7 +408811,7 @@
       ],
       "year": 2024,
       "journal": "International Journal of Molecular Sciences",
-      "doi": "not yet verified",
+      "doi": "10.3390/ijms25020727",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -409132,42 +409434,6 @@
       "year": 2016,
       "journal": "Journal of Clinical and Experimental Dermatology Research",
       "doi": "10.4172/2155-9554.1000356",
-      "keystone": false,
-      "keystone_criteria_met": [],
-      "why_keystone": ""
-    },
-    "bernard-raichon2022-dysbiosis-translocation-bacteremia-covid": {
-      "title": "Bernard-Raichon et al. 2022 — Gut microbiome dysbiosis in antibiotic-treated COVID-19 patients is associated with microbial translocation and bacteremia",
-      "authors": [
-        "Lucie Bernard-Raichon",
-        "Mericien Venzon",
-        "Jon Klein",
-        "Jordan E. Axelrad",
-        "Chenzhen Zhang",
-        "Alexis P. Sullivan",
-        "Grant A. Hussey",
-        "Arnau Casanovas-Massana",
-        "Maria G. Noval",
-        "Ana M. Valero-Jimenez",
-        "Juan Gago",
-        "Gregory Putzel",
-        "Alejandro Pironti",
-        "Evan Wilder",
-        "Yale IMPACT Research Team",
-        "Lorna E. Thorpe",
-        "Dan R. Littman",
-        "Meike Dittmann",
-        "Kenneth A. Stapleford",
-        "Bo Shopsin",
-        "Victor J. Torres",
-        "Albert I. Ko",
-        "Akiko Iwasaki",
-        "Ken Cadwell",
-        "Jonas Schluter"
-      ],
-      "year": 2022,
-      "journal": "Nature Communications",
-      "doi": "10.1038/s41467-022-33395-6",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409939,6 +410205,29 @@
       "doi": "10.1016/j.identj.2023.08.012",
       "keystone": false,
       "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "brower-sinning-2014-mucosa-bacterial-diversity-nec": {
+      "title": "Brower-Sinning 2014 — Mucosa-Associated Bacterial Diversity in Necrotizing Enterocolitis",
+      "authors": [
+        "Brower-Sinning R",
+        "Zhong D",
+        "Good M",
+        "Firek B",
+        "Baker R",
+        "Sodhi CP",
+        "Hackam DJ",
+        "Morowitz MJ"
+      ],
+      "year": 2014,
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0105046",
+      "keystone": true,
+      "keystone_criteria_met": [
+        1,
+        2,
+        4
+      ],
       "why_keystone": ""
     },
     "brown-2011-gut-metagenomics-functional-model-autoimmunity-t1d": {
@@ -415601,15 +415890,15 @@
       "why_keystone": ""
     },
     "ghosh-2023-heavy-metals-gut-barrier-integrity": {
-      "title": "Effect of Heavy Metals on Gut Barrier Integrity and Gut Microbiota",
+      "title": "Effects of Heavy Metals on Gut Barrier Integrity and Gut Microbiota",
       "authors": [
         "Sweta Ghosh",
         "Syam P. Nukavarpu",
         "Venkatakrishna Rao Jala"
       ],
-      "year": 2023,
-      "journal": "Metal ions in Life Sciences (Accepted Manuscript)",
-      "doi": "not yet verified",
+      "year": 2024,
+      "journal": "Microbiota and Host",
+      "doi": "10.1530/MAH-23-0015",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -415633,7 +415922,7 @@
       ],
       "year": 2021,
       "journal": "World Academy of Sciences Journal",
-      "doi": "not yet verified",
+      "doi": "10.3892/wasj.2021.90",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -416074,7 +416363,7 @@
       ],
       "year": 2024,
       "journal": "Food and Agricultural Immunology",
-      "doi": "not yet verified",
+      "doi": "10.1080/09540105.2024.2434457",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -418140,6 +418429,25 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "hulzebos-2017-fecal-bile-salts-nec-preterm": {
+      "title": "Hulzebos 2017 — Fecal Bile Salts and the Development of Necrotizing Enterocolitis in Preterm Infants",
+      "authors": [
+        "Hulzebos CV",
+        "van Zoonen AGJF",
+        "Schat TE",
+        "Meiners LC",
+        "Kooi EMW",
+        "Groen H",
+        "Verkade HJ",
+        "Bos AF"
+      ],
+      "year": 2017,
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0168633",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "huo-2021-bifidobacterium-longum-methimazole-graves": {
       "title": "Huo et al. 2021 — Probiotic Bifidobacterium longum Supplied with Methimazole Improved the Thyroid Function of Graves' Disease Patients Through the Gut-Thyroid Axis",
       "authors": [
@@ -419422,20 +419730,6 @@
       "year": 2020,
       "journal": "Microbiome",
       "doi": "10.1186/s40168-020-00821-0",
-      "keystone": false,
-      "keystone_criteria_met": [],
-      "why_keystone": ""
-    },
-    "ke2022-microbiome-covid-metagenome-genomes": {
-      "title": "Ke, Weiss, Liu 2022 — Dissecting the role of the human microbiome in COVID-19 via metagenome-assembled genomes",
-      "authors": [
-        "Shanlin Ke",
-        "Scott T. Weiss",
-        "Yang-Yu Liu"
-      ],
-      "year": 2022,
-      "journal": "Nature Communications",
-      "doi": "10.1038/s41467-022-32991-w",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -422657,6 +422951,35 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "liu-2024-gut-immune-graves": {
+      "title": "Alteration in gut microbiota is associated with immune imbalance in Graves' disease",
+      "authors": [
+        "Yalei Liu",
+        "Shasha Tang",
+        "Yu Feng",
+        "Binghua Xue",
+        "Chaofei Cheng",
+        "Yong Su",
+        "Wei Wei",
+        "Lijun Zhang",
+        "Zhoufeng Huang",
+        "Xiaoyang Shi",
+        "Yuanyuan Fang",
+        "Junpeng Yang",
+        "Yun Zhang",
+        "Xinru Deng",
+        "Limin Wang",
+        "Hongyan Ren",
+        "Chongjian Wang",
+        "Huijuan Yuan"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2024.1349397",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "liu-2024-gut-microbiota-chronic-renal-failure-mr": {
       "title": "Liu et al. 2024 — Causal Relationship between Gut Microbiota and Chronic Renal Failure: A Two-Sample MR Study",
       "authors": [
@@ -423149,6 +423472,26 @@
       "year": 2018,
       "journal": "Molecular Neurodegeneration",
       "doi": "10.1186/s13024-018-0282-4",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "lu-2014-arsenic-gut-microbiome-metabolomics": {
+      "title": "Arsenic exposure perturbs the gut microbiome and its metabolic profile in mice: an integrated metagenomics and metabolomics analysis",
+      "authors": [
+        "Kun Lu",
+        "Ryan P. Abo",
+        "Katherine A. Schlieper",
+        "Megan E. Graffam",
+        "Sarah Levine",
+        "John S. Wishnok",
+        "James A. Swenberg",
+        "Steven R. Tannenbaum",
+        "James G. Fox"
+      ],
+      "year": 2014,
+      "journal": "Environmental Health Perspectives",
+      "doi": "10.1289/ehp.1307429",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -424071,6 +424414,23 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "manohar-2023-gut-brain-nec-neurodevelopmental": {
+      "title": "Manohar 2023 — Gut-Brain Cross Talk: The Pathogenesis of Neurodevelopmental Impairment in Necrotizing Enterocolitis",
+      "authors": [
+        "Manohar K",
+        "Mesfin FM",
+        "Liu J",
+        "Shelley WC",
+        "Brokaw JP",
+        "Markel TA"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Pediatrics",
+      "doi": "10.3389/fped.2023.1104682",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "manouchehri-2022-toxic-metals-infertility-review": {
       "title": "The Effects of Toxic Heavy Metals Lead, Cadmium and Copper on the Epidemiology of Male and Female Infertility",
       "authors": [
@@ -424196,6 +424556,24 @@
       "year": 2013,
       "journal": "Human Genomics",
       "doi": "10.1186/1479-7364-7-24",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "martin-2011-bile-acids-mucin2-nec": {
+      "title": "Martin 2011 — Active Transport of Bile Acids Decreases Mucin 2 in Neonatal Ileum: Implications for NEC",
+      "authors": [
+        "Martin NA",
+        "Mount Patrick SK",
+        "Heikens GT",
+        "Bhatt DL",
+        "Bhatt DL",
+        "Poindexter BB",
+        "Bhatt DL"
+      ],
+      "year": 2011,
+      "journal": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0027191",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -424969,13 +425347,15 @@
       "why_keystone": ""
     },
     "microbiota-gut-brain-axis-neurodevelopmental-review": {
-      "title": "The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders — Review Article",
+      "title": "The Microbiota–Gut–Brain Axis and Neurodevelopmental Disorders",
       "authors": [
-        "[Extract full author list from PDF]"
+        "Qinwen Wang",
+        "Qianyue Yang",
+        "Xingyin Liu"
       ],
       "year": 2023,
       "journal": "Protein & Cell",
-      "doi": "not yet verified",
+      "doi": "10.1093/procel/pwad026",
       "keystone": true,
       "keystone_criteria_met": [
         1,
@@ -425407,7 +425787,7 @@
       ],
       "year": 2023,
       "journal": "Doctoral Thesis, Universidad de Granada",
-      "doi": "https://hdl.handle.net/10481/85100",
+      "doi": "",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -427071,6 +427451,31 @@
       "year": 2025,
       "journal": "Nature Genetics",
       "doi": "10.1038/s41588-024-02022-z",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "pascal-2017-cd-microbial-signature": {
+      "title": "A microbial signature for Crohn's disease",
+      "authors": [
+        "Victoria Pascal",
+        "Marta Pozuelo",
+        "Natalia Borruel",
+        "Francesc Casellas",
+        "David Campos",
+        "Alba Santiago",
+        "Xavier Martinez",
+        "Encarna Varela",
+        "Guillaume Sarrabayrouse",
+        "Kathleen Machiels",
+        "Severine Vermeire",
+        "Harry Sokol",
+        "Francisco Guarner",
+        "Chaysavanh Manichanh"
+      ],
+      "year": 2017,
+      "journal": "Gut",
+      "doi": "10.1136/gutjnl-2016-313235",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -431850,6 +432255,25 @@
       "year": 2023,
       "journal": "Frontiers in Medicine",
       "doi": "10.3389/fmed.2023.1238147",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "stewart-2013-bacterial-fungal-viability-preterm-nec": {
+      "title": "Stewart 2013 — Bacterial and Fungal Viability in the Preterm Gut",
+      "authors": [
+        "Stewart CJ",
+        "Marrs ECL",
+        "Nelson A",
+        "Lanyon C",
+        "Perry JD",
+        "Embleton ND",
+        "Cummings SP",
+        "Berrington JE"
+      ],
+      "year": 2013,
+      "journal": "Archives of Disease in Childhood: Fetal and Neonatal Edition",
+      "doi": "10.1136/archdischild-2012-302119",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -437899,6 +438323,22 @@
       "year": 2008,
       "journal": "BMC Public Health",
       "doi": "10.1186/1471-2458-8-117",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "zhang-2015-cadmium-hepatic-energy-gut-microbiome": {
+      "title": "Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome",
+      "authors": [
+        "Songbin Zhang",
+        "Yuanxiang Jin",
+        "Zhaoyang Zeng",
+        "Zhenzhen Liu",
+        "Zhengwei Fu"
+      ],
+      "year": 2015,
+      "journal": "Chemical Research in Toxicology",
+      "doi": "10.1021/acs.chemrestox.5b00237",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

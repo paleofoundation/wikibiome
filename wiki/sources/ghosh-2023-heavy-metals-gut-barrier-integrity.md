@@ -1,15 +1,15 @@
 ---
-title: Effect of Heavy Metals on Gut Barrier Integrity and Gut Microbiota
+title: Effects of Heavy Metals on Gut Barrier Integrity and Gut Microbiota
 type: source
 created: 2026-04-09T00:00:00.000Z
-updated: 2026-04-09T00:00:00.000Z
+updated: 2026-08-31T00:00:00.000Z
 authors:
   - Sweta Ghosh
   - Syam P. Nukavarpu
   - Venkatakrishna Rao Jala
-journal: Metal ions in Life Sciences (Accepted Manuscript)
-year: 2023
-doi: "not yet verified"
+journal: Microbiota and Host
+year: 2024
+doi: 10.1530/MAH-23-0015
 tags:
   - heavy-metals
   - gut-barrier
