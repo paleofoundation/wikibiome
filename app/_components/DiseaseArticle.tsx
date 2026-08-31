@@ -1,11 +1,13 @@
 import Link from "next/link";
 import {
   ArticleNetwork,
+  DietaryParadoxContent,
   EvidenceIntegrity,
   ReferencesSection,
   RichText,
   WikiHeader,
   expandMetalNames,
+  isDietaryParadoxHeading,
   slugify,
 } from "@/app/_components/WikiArticle";
 import {
@@ -22,6 +24,7 @@ import {
   type DiseaseRecord,
   type DiseaseSignature,
   type SignatureTaxon,
+  type WikiSection,
 } from "@/lib/wikibiome";
 
 const layers = [
@@ -144,7 +147,7 @@ function OpenQuestions({ body, citationNumbers }: { body: string; citationNumber
 
 function proseReadySection(heading: string, body: string) {
   const id = slugify(heading);
-  if (["connections", "see-also", "external-links", "key-sources", "dietary-metal-paradoxes"].includes(id)) return false;
+  if (["connections", "see-also", "external-links", "key-sources"].includes(id) || isDietaryParadoxHeading(heading)) return false;
 
   const bullets = body
     .split("\n")
@@ -160,38 +163,12 @@ function proseReadySection(heading: string, body: string) {
   return sentenceLike / bullets.length >= 0.6;
 }
 
-function parseParadoxes(body: string) {
-  const lines = body.split("\n").map((line) => line.trim()).filter(Boolean);
-  const firstItem = lines.findIndex((line) => line.startsWith("- "));
-  const introduction = (firstItem >= 0 ? lines.slice(0, firstItem) : lines).join(" ");
-  const items = (firstItem >= 0 ? lines.slice(firstItem) : [])
-    .filter((line) => line.startsWith("- "))
-    .map((line, index) => {
-      const content = line.slice(2).trim();
-      const divider = content.indexOf(":");
-      return divider > 0
-        ? { title: content.slice(0, divider).trim(), body: content.slice(divider + 1).trim() }
-        : { title: `Paradox ${String(index + 1).padStart(2, "0")}`, body: content };
-    });
-  return { introduction, items };
-}
-
-function ParadoxSection({ heading, body, citationNumbers }: { heading: string; body: string; citationNumbers: Record<string, number> }) {
+function ParadoxSection({ heading, body, subsections, citationNumbers }: { heading: string; body: string; subsections: WikiSection[]; citationNumbers: Record<string, number> }) {
   const id = `article-${slugify(heading)}`;
-  const { introduction, items } = parseParadoxes(body);
   return (
     <section className="wiki-section level-2 paradox-section" id={id}>
       <h2>{heading}<a href={`#${id}`} aria-label={`Link to ${heading}`}>#</a></h2>
-      {introduction && <div className="paradox-introduction"><RichText text={introduction} citationNumbers={citationNumbers} /></div>}
-      <div className="paradox-grid">
-        {items.map((item, index) => (
-          <article key={`${item.title}-${index}`}>
-            <header><span>{String(index + 1).padStart(2, "0")}</span><i aria-hidden="true" /></header>
-            <h3>{expandMetalNames(item.title)}</h3>
-            <RichText text={item.body} citationNumbers={citationNumbers} prose />
-          </article>
-        ))}
-      </div>
+      <DietaryParadoxContent body={body} subsections={subsections} citationNumbers={citationNumbers} />
     </section>
   );
 }
@@ -278,6 +255,16 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
   const metallomicLevel = metallomicStart >= 0 ? sections[metallomicStart].level : -1;
   const nextPeer = sections.findIndex((section, index) => index > metallomicStart && section.level <= metallomicLevel);
   const metallomicEnd = nextPeer >= 0 ? nextPeer : sections.length;
+  const paradoxGroups = new Map<number, WikiSection[]>();
+  const consumedParadoxSections = new Set<number>();
+  sections.forEach((section, index) => {
+    if (!isDietaryParadoxHeading(section.heading)) return;
+    const end = sections.findIndex((candidate, candidateIndex) => candidateIndex > index && candidate.level <= section.level);
+    const boundary = end >= 0 ? end : sections.length;
+    const subsections = sections.slice(index + 1, boundary);
+    paradoxGroups.set(index, subsections);
+    subsections.forEach((_subsection, childIndex) => consumedParadoxSections.add(index + childIndex + 1));
+  });
   return (
     <section className="disease-narrative" id="article" aria-labelledby="disease-article-title">
       <header className="disease-section-heading">
@@ -286,11 +273,12 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
         <p>The original WikiBiome disease narrative remains intact beneath the generated signature atlas.</p>
       </header>
       {sections.map((section, index) => {
+        if (consumedParadoxSections.has(index)) return null;
         if (slugify(section.heading) === "open-questions") {
           return <OpenQuestions body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
         }
-        if (slugify(section.heading) === "dietary-metal-paradoxes") {
-          return <ParadoxSection heading={section.heading} body={section.body} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
+        if (isDietaryParadoxHeading(section.heading)) {
+          return <ParadoxSection heading={section.heading} body={section.body} subsections={paradoxGroups.get(index) ?? []} citationNumbers={record.evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
         }
         const id = `article-${slugify(section.heading)}`;
         const Heading = section.level === 2 ? "h2" : "h3";

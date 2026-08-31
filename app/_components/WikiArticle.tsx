@@ -11,10 +11,12 @@ import {
   getWikiPage,
   normalizeDoi,
   normalizeWikiId,
+  plainText,
   resolveRelated,
   wikiStats,
   type ArticleEvidence,
   type WikiPage,
+  type WikiSection,
 } from "@/lib/wikibiome";
 
 export function slugify(value: string) {
@@ -215,6 +217,100 @@ export function RichText({ text, citationNumbers, prose = false }: { text: strin
   });
 }
 
+export function isDietaryParadoxHeading(heading: string) {
+  return /(?:dietary.*paradox|paradox.*dietary)/i.test(heading);
+}
+
+function isNumberedParadoxHeading(heading: string) {
+  return /^paradox\s+\d+\s*:/i.test(heading);
+}
+
+function cleanSectionBody(body: string) {
+  return body.replace(/(?:^|\n)---\s*$/g, "").trim();
+}
+
+function paradoxItem(source: string) {
+  const content = source.replace(/^-\s*/, "").trim();
+  const topicSentence = content.match(/^((?:The|A|An)\s+[^.]{2,100}?(?:paradox|question|dilemma|trap|switch|fork|problem|confound|reversal|loop))\.\s*(.*)$/i);
+  if (topicSentence) return { title: topicSentence[1], body: topicSentence[2] || topicSentence[1] };
+
+  const divider = content.indexOf(":");
+  if (divider > 0 && divider <= 100) {
+    return { title: content.slice(0, divider).trim(), body: content.slice(divider + 1).trim() };
+  }
+  return { title: "", body: content };
+}
+
+function parseDietaryParadox(body: string, subsections: WikiSection[]) {
+  const introduction = cleanSectionBody(body);
+  if (subsections.length) {
+    return {
+      introduction,
+      items: subsections.map((section) => ({ title: section.heading, body: cleanSectionBody(section.body) })),
+    };
+  }
+
+  const blocks = body.split(/\n\s*\n/).map(cleanSectionBody).filter(Boolean);
+  const bulletBlocks = blocks.filter((block) => block.split("\n").filter(Boolean).every((line) => line.trim().startsWith("- ")));
+  if (bulletBlocks.length) {
+    return {
+      introduction: blocks.filter((block) => !bulletBlocks.includes(block)).join(" "),
+      items: bulletBlocks.flatMap((block) => block.split("\n").map((line) => paradoxItem(line.trim())).filter((item) => item.body)),
+    };
+  }
+
+  const proseItems = blocks.map(paradoxItem);
+  if (proseItems.length > 1 && proseItems.every((item) => item.title)) {
+    return { introduction: "", items: proseItems };
+  }
+  return { introduction, items: [] };
+}
+
+export function DietaryParadoxContent({ body, citationNumbers, subsections = [] }: { body: string; citationNumbers: Record<string, number>; subsections?: WikiSection[] }) {
+  const { introduction, items } = parseDietaryParadox(body, subsections);
+  return (
+    <>
+      {introduction && <div className={items.length ? "paradox-introduction" : "paradox-note"}><RichText text={introduction} citationNumbers={citationNumbers} prose /></div>}
+      {!!items.length && (
+        <div className={`paradox-grid paradox-count-${Math.min(items.length, 4)}`}>
+          {items.map((item, index) => (
+            <article key={`${item.title || item.body}-${index}`}>
+              <header><span>{String(index + 1).padStart(2, "0")}</span><i aria-hidden="true" /></header>
+              {item.title && <h3>{expandMetalNames(plainText(item.title))}</h3>}
+              <RichText text={item.body} citationNumbers={citationNumbers} prose />
+            </article>
+          ))}
+        </div>
+      )}
+    </>
+  );
+}
+
+function NumberedParadoxSection({ section, subsections, citationNumbers }: { section: WikiSection; subsections: WikiSection[]; citationNumbers: Record<string, number> }) {
+  const id = slugify(section.heading);
+  const heading = section.heading.match(/^paradox\s+(\d+)\s*:\s*(.*)$/i);
+  return (
+    <section className="wiki-section level-2 paradox-dossier" id={id}>
+      <header className="paradox-dossier-heading">
+        <span>Paradox {heading?.[1] ?? ""}</span>
+        <h2>{heading?.[2] || section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></h2>
+      </header>
+      {section.body && <RichText text={cleanSectionBody(section.body)} citationNumbers={citationNumbers} prose />}
+      <div className="paradox-dossier-sections">
+        {subsections.map((subsection, index) => {
+          const subsectionId = `${id}-${slugify(subsection.heading)}`;
+          return (
+            <section id={subsectionId} key={`${subsection.heading}-${index}`}>
+              <h3>{subsection.heading}<a href={`#${subsectionId}`} aria-label={`Link to ${subsection.heading}`}>#</a></h3>
+              {subsection.body && <RichText text={cleanSectionBody(subsection.body)} citationNumbers={citationNumbers} />}
+            </section>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
 function asStrings(value: unknown) {
   return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : [];
 }
@@ -407,9 +503,21 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
 }
 
 export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boolean }) {
-  const contents = (page.sections ?? []).filter((section) => section.level === 2);
+  const sections = page.sections ?? [];
+  const contents = sections.filter((section) => section.level === 2);
   const evidence = generateArticleEvidence(page);
   const referenceCount = evidence.references.length;
+  const groupedSections = new Map<number, WikiSection[]>();
+  const consumedSections = new Set<number>();
+
+  sections.forEach((section, index) => {
+    if (!isDietaryParadoxHeading(section.heading) && !isNumberedParadoxHeading(section.heading)) return;
+    const end = sections.findIndex((candidate, candidateIndex) => candidateIndex > index && candidate.level <= section.level);
+    const boundary = end >= 0 ? end : sections.length;
+    const subsections = sections.slice(index + 1, boundary);
+    groupedSections.set(index, subsections);
+    subsections.forEach((_subsection, childIndex) => consumedSections.add(index + childIndex + 1));
+  });
 
   return (
     <>
@@ -444,9 +552,22 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
                   {contents.map((section, index) => <a href={`#${slugify(section.heading)}`} key={section.heading}>{index + 1}. {section.heading}</a>)}
                 </details>
               )}
-              {(page.sections ?? []).map((section) => {
+              {sections.map((section, index) => {
+                if (consumedSections.has(index)) return null;
                 const id = slugify(section.heading);
                 const Heading = section.level === 2 ? "h2" : "h3";
+                const subsections = groupedSections.get(index) ?? [];
+                if (isNumberedParadoxHeading(section.heading)) {
+                  return <NumberedParadoxSection section={section} subsections={subsections} citationNumbers={evidence.citationNumbers} key={`${section.heading}-${section.level}`} />;
+                }
+                if (isDietaryParadoxHeading(section.heading)) {
+                  return (
+                    <section className={`wiki-section level-${section.level} paradox-section`} id={id} key={`${section.heading}-${section.level}`}>
+                      <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>
+                      <DietaryParadoxContent body={section.body} subsections={subsections} citationNumbers={evidence.citationNumbers} />
+                    </section>
+                  );
+                }
                 return (
                   <section className={`wiki-section level-${section.level}`} id={id} key={`${section.heading}-${section.level}`}>
                     <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>

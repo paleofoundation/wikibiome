@@ -560,6 +560,8 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
 .continuous-prose-section .continuous-prose { max-width:920px;margin:15px 0;color:#303641;font-size:15px;line-height:1.77; }
 .paradox-introduction { max-width:860px;margin-bottom:19px; }
 .paradox-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px; }
+.paradox-grid.paradox-count-1 { grid-template-columns:minmax(0,1fr); }
+.paradox-grid.paradox-count-2,.paradox-grid.paradox-count-4 { grid-template-columns:repeat(2,minmax(0,1fr)); }
 .paradox-grid > article { position:relative;min-width:0;padding:19px 18px 18px;overflow:hidden;border:1px solid #cbdbea;border-radius:12px;background:linear-gradient(145deg,#fbfdff,#eff6fd);box-shadow:0 10px 24px rgba(35,75,126,.055);transition:border-color .2s,transform .2s,box-shadow .2s; }
 .paradox-grid > article::after { content:"";position:absolute;right:-42px;bottom:-48px;width:105px;height:105px;border:1px solid rgba(75,139,207,.14);border-radius:50%;box-shadow:0 0 0 12px rgba(74,139,209,.035),0 0 0 25px rgba(74,139,209,.025); }
 .paradox-grid > article:hover { border-color:#88acd5;box-shadow:0 15px 34px rgba(34,80,137,.1);transform:translateY(-2px); }
@@ -567,6 +569,19 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
 .paradox-grid article > header i { height:1px;flex:1;background:linear-gradient(90deg,rgba(60,123,190,.52),transparent); }
 .paradox-grid article h3 { position:relative;z-index:1;margin:15px 0 8px;color:#24466e;font-size:17px; }
 .paradox-grid article p { position:relative;z-index:1;margin:0;color:#53677f;font-size:11px;line-height:1.67; }
+.paradox-note { position:relative;padding:22px 25px 22px 29px;overflow:hidden;border:1px solid #c7d9eb;border-radius:12px;background:linear-gradient(135deg,#f8fbff,#edf5fd);box-shadow:0 12px 28px rgba(38,80,130,.06); }
+.paradox-note::before { content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(#4889cf,#55c8d3); }
+.paradox-note p { margin:0; }
+.paradox-dossier { margin:58px 0 0;padding:0 25px 12px;border:1px solid #c8d9ea;border-radius:15px;background:linear-gradient(180deg,#f7fbff,#fff 180px);box-shadow:0 18px 42px rgba(30,75,128,.07); }
+.paradox-dossier-heading { margin:0 -25px 7px;padding:20px 25px 18px;display:grid;grid-template-columns:88px minmax(0,1fr);gap:14px;align-items:end;border-bottom:1px solid #c7d8e9;background:linear-gradient(120deg,#0d3768,#185b98 70%,#167f9b);border-radius:14px 14px 0 0;color:#fff; }
+.paradox-dossier-heading > span { padding-bottom:5px;color:#8ce0e1;font-size:7px;font-weight:800;letter-spacing:.14em;text-transform:uppercase; }
+.wiki-section .paradox-dossier-heading h2 { margin:0;padding:0;border:0;color:#fff;font-size:29px;line-height:1.12; }
+.wiki-section .paradox-dossier-heading h2::before { display:none; }
+.wiki-section .paradox-dossier-heading h2 > a { color:#c4e1fb; }
+.paradox-dossier-sections > section { padding:22px 0;border-top:1px solid #dce5ee;scroll-margin-top:96px; }
+.paradox-dossier-sections > section:first-child { border-top:0; }
+.paradox-dossier-sections > section > h3 { margin:0 0 10px;color:#244870;font-size:19px; }
+.paradox-dossier-sections > section > p:first-of-type { margin-top:0; }
 .open-questions-intro { margin:-7px 0 20px!important;color:#718197!important;font-family:Arial,sans-serif!important;font-size:9px!important; }
 .open-question-list { overflow:hidden;border:1px solid #c8d7e8;border-radius:13px;background:#f8fbff;box-shadow:0 14px 32px rgba(31,73,126,.06); }
 .open-question-list details { border-bottom:1px solid #d8e2ed;background:#fff; }
@@ -619,6 +634,8 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
   .paired-signals,.taxon-grid { grid-template-columns:1fr; }
   .ecology-console-body { grid-template-columns:1fr; }.ecology-core { min-height:250px; }.ecology-signal-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .paradox-grid { grid-template-columns:1fr; }
+  .paradox-grid.paradox-count-2,.paradox-grid.paradox-count-4 { grid-template-columns:1fr; }
+  .paradox-dossier { padding:0 18px 8px; }.paradox-dossier-heading { margin:0 -18px 5px;padding:18px;grid-template-columns:1fr;gap:5px; }.wiki-section .paradox-dossier-heading h2 { font-size:25px; }
   .disease-aside { display:block; }.disease-aside .related-card { margin-top:18px; }
 }
 
