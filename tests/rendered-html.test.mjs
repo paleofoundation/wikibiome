@@ -152,6 +152,9 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     const html = pages[index];
     assert.match(html, /class="article-system-art(?: |")/, `${id} keeps the large decorative article hero`);
     assert.match(html, /class="article-media-figure"/, `${id} renders the page-specific sidebar plate`);
+    assert.match(html, /class="article-media-caption-head"/, `${id} presents the image as an editorial plate`);
+    assert.match(html, /<details class="article-media-ledger">/, `${id} keeps the technical record available without crowding the caption`);
+    assert.match(html, /Scientific media record/);
     assert.match(html, new RegExp(`src="/media/image/${stem}\\.webp"`));
     assert.match(html, new RegExp(label));
     assert.match(html, new RegExp(provenance));
@@ -518,7 +521,7 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   const contrastOverride = stylesheet.lastIndexOf("High-contrast cool register");
   assert.ok(contrastOverride > stylesheet.indexOf(".home-hero"));
   assert.match(stylesheet.slice(contrastOverride), /\.home-hero \{ background:radial-gradient[\s\S]*#fff/);
-  assert.match(stylesheet.slice(contrastOverride), /\.article-media-stage \{ padding:10px[\s\S]*background:#fff/);
+  assert.match(stylesheet.slice(contrastOverride), /\.article-media-stage \{ padding:0[\s\S]*background:#eef2f5/);
   assert.match(stylesheet, /\.infobox \{ position:static;/, "article infoboxes must remain in flow above connected records");
   assert.doesNotMatch(stylesheet, /\.infobox \{ position:sticky;/, "sticky infoboxes must not cover connected records while scrolling");
   const mobileReadingMode = stylesheet.lastIndexOf("Mobile reading mode");

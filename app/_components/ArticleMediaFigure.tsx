@@ -6,6 +6,8 @@ import {
 } from "@/lib/article-media";
 
 export function ArticleMediaFigure({ media }: { media: ArticleMedia }) {
+  const identifierCount = media.scientificIdentifiers.length;
+
   return (
     <figure className="article-media-figure">
       <div className="article-media-stage">
@@ -19,21 +21,48 @@ export function ArticleMediaFigure({ media }: { media: ArticleMedia }) {
         />
       </div>
       <figcaption>
-        <strong>{media.label}</strong>
+        <header className="article-media-caption-head">
+          <strong>{media.label}</strong>
+          <span><i aria-hidden="true" /> Editorially reviewed</span>
+        </header>
         <p>{media.caption}</p>
-        <small>{media.credit} · {media.provenance}</small>
-        <dl className="article-media-record" aria-label="Scientific image record">
-          <div>
-            <dt>Identifiers</dt>
-            <dd>{media.scientificIdentifiers.map((identifier) => (
-              <a href={identifier.url} target="_blank" rel="noreferrer" key={`${identifier.propertyID}-${identifier.value}`}>{identifier.compact}</a>
-            ))}</dd>
-          </div>
-          <div>
-            <dt>Media status</dt>
-            <dd><span>{getArticleMediaReviewLabel(media)}</span><span>{getArticleMediaIdentifierReviewLabel(media)}</span><a href={media.license} target="_blank" rel="license noreferrer">{ARTICLE_MEDIA_LICENSE_LABEL}</a></dd>
-          </div>
-        </dl>
+        <div className="article-media-attribution">{media.credit}<span aria-hidden="true"> · </span>{media.provenance}</div>
+        <details className="article-media-ledger">
+          <summary>
+            <span>Scientific media record</span>
+            <em>{identifierCount} verified {identifierCount === 1 ? "identifier" : "identifiers"}</em>
+            <i aria-hidden="true" />
+          </summary>
+          <dl aria-label="Scientific image record">
+            <div>
+              <dt>Subject</dt>
+              <dd>
+                <span className={media.scientificName ? "scientific-name" : undefined}>{media.scientificName ?? media.subjectName}</span>
+                <small>{media.subjectKind}{media.taxonomicRank ? ` · ${media.taxonomicRank}` : ""}</small>
+              </dd>
+            </div>
+            <div>
+              <dt>Identifiers</dt>
+              <dd className="article-media-identifiers">{media.scientificIdentifiers.map((identifier) => (
+                <a href={identifier.url} target="_blank" rel="noreferrer" key={`${identifier.propertyID}-${identifier.value}`}>{identifier.compact}<span aria-hidden="true"> ↗</span></a>
+              ))}</dd>
+            </div>
+            <div>
+              <dt>Review</dt>
+              <dd>
+                <span>{getArticleMediaReviewLabel(media)}</span>
+                <small>{getArticleMediaIdentifierReviewLabel(media)} · <time dateTime={media.reviewedOn}>{media.reviewedOn}</time></small>
+              </dd>
+            </div>
+            <div>
+              <dt>License</dt>
+              <dd>
+                <a href={media.license} target="_blank" rel="license noreferrer">{ARTICLE_MEDIA_LICENSE_LABEL}<span aria-hidden="true"> ↗</span></a>
+                <small>Created <time dateTime={media.created}>{media.created}</time></small>
+              </dd>
+            </div>
+          </dl>
+        </details>
       </figcaption>
     </figure>
   );
