@@ -22,10 +22,10 @@ if (auditOnly) {
 }
 
 if (!existsSync(resolve(sourceRoot, ".git"))) throw new Error(`Official WikiBiome clone not found at ${sourceRoot}.`);
-const sourceCommit = git(["rev-parse", "HEAD"]).trim();
-if (sourceCommit !== manifest.source.commit) throw new Error(`Upstream clone is at ${sourceCommit}; expected ${manifest.source.commit}.`);
+const sourceCommit = manifest.source.commit;
+git(["cat-file", "-e", `${sourceCommit}^{commit}`]);
 
-const trackedFiles = git(["ls-files", "*.md"]).split("\n").filter(Boolean);
+const trackedFiles = git(["ls-tree", "-r", "--name-only", sourceCommit]).split("\n").filter((path) => path.endsWith(".md"));
 const pathsByBase = new Map();
 for (const path of trackedFiles) {
   const base = path.split("/").at(-1);
@@ -59,7 +59,7 @@ writeFileSync(targetPath, `${JSON.stringify(output, null, 2)}\n`);
 console.log(`WikiBiome revision history generated: ${output.records} records, ${output.revisions} revision entries.`);
 
 function historyForPath(path) {
-  const raw = git(["log", "--follow", "--numstat", "--format=@@%H%x09%aI%x09%an%x09%s", "-16", "--", path]);
+  const raw = git(["log", "--follow", "--numstat", "--format=@@%H%x09%aI%x09%an%x09%s", "-16", sourceCommit, "--", path]);
   const revisions = [];
   let current;
   for (const line of raw.split("\n")) {

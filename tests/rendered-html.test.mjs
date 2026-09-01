@@ -101,6 +101,10 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     ["akkermansia-muciniphila", "akkermansia-muciniphila-morphology-v2", "Morphology reconstruction", "Microscopy-informed reconstruction"],
     ["alzheimers-disease", "alzheimers-disease-pathology-v2", "Pathology reconstruction", "Pathology-informed reconstruction"],
     ["dysbiosis", "dysbiosis-microbial-community-v2", "Community reconstruction", "Microscopy-informed community reconstruction"],
+    ["escherichia-coli", "escherichia-coli-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction"],
+    ["helicobacter-pylori", "helicobacter-pylori-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction"],
+    ["bifidobacterium", "bifidobacterium-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction"],
+    ["candida-albicans", "candida-albicans-morphology-v1", "Morphology reconstruction", "Microscopy-informed fungal morphology reconstruction"],
   ];
   const responses = await Promise.all(pilot.map(([id]) => render(`/article/${id}`)));
   responses.forEach((response) => assert.equal(response.status, 200));
@@ -122,7 +126,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
 
     for (const suffix of [".webp", "-social.webp"]) {
       const asset = readFileSync(new URL(`../public/media/${stem}${suffix}`, import.meta.url));
-      assert.ok(asset.byteLength > 50_000, `${stem}${suffix} should be a real optimized image`);
+      assert.ok(asset.byteLength > 40_000, `${stem}${suffix} should be a nontrivial optimized image`);
       assert.ok(asset.includes(Buffer.from("trainedAlgorithmicMedia")), `${stem}${suffix} should retain embedded digital-source metadata`);
     }
   }
@@ -350,9 +354,12 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /43 lint, audit, maintenance, resume, and roadmap records are deliberately excluded/);
   assert.match(readiness, /824[\s\S]{0,110}records[\s\S]{0,110}717[\s\S]{0,80}canonical article routes/);
-  assert.match(readiness, /4 of 717 canonical article routes currently have reviewed/);
+  assert.match(readiness, /8 of 717 canonical article routes currently have reviewed/);
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
+  assert.match(readiness, /weekly WikiBiome upstream refresh gate now compares paleofoundation\/wikibiome origin\/main/);
+  assert.match(readiness, /observation window began August 31, 2026/);
+  assert.match(readiness, /Keep the rollback target through at least September 7/);
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);

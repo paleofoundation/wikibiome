@@ -13,6 +13,8 @@
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern work",
     "content:sync": "node scripts/sync-wikibiome-content.mjs",
+    "content:check": "node scripts/check-wikibiome-upstream.mjs",
+    "content:refresh": "node scripts/refresh-wikibiome-content.mjs",
     "content:audit": "node scripts/sync-wikibiome-content.mjs --audit-only",
     "corpus:audit": "node scripts/audit-rendered-corpus.mjs",
     "media:pilot": "node scripts/process-pilot-images.mjs",

@@ -35,11 +35,39 @@ const images = [
     description: "Microscopy-informed reconstruction of an uneven mixed microbial community. Scientific illustration; composition is representative and not a diagnostic micrograph.",
     width: 1536,
   },
+  {
+    source: "escherichia-coli-morphology-v1-master.png",
+    target: "escherichia-coli-morphology-v1",
+    title: "Escherichia coli morphology",
+    description: "Microscopy-informed reconstruction of rod-shaped Escherichia coli cells with representative peritrichous flagella and fine pili. Scientific illustration; not a micrograph.",
+    width: 1536,
+  },
+  {
+    source: "helicobacter-pylori-morphology-v1-master.png",
+    target: "helicobacter-pylori-morphology-v1",
+    title: "Helicobacter pylori morphology",
+    description: "Microscopy-informed reconstruction of curved-to-helical Helicobacter pylori cells with representative polar flagellar tufts. Scientific illustration; not a micrograph.",
+    width: 1536,
+  },
+  {
+    source: "bifidobacterium-morphology-v1-master.png",
+    target: "bifidobacterium-morphology-v1",
+    title: "Bifidobacterium morphology",
+    description: "Microscopy-informed reconstruction of characteristic bifid, club-shaped, and pleomorphic Bifidobacterium rods. Scientific illustration; not a micrograph.",
+    width: 1536,
+  },
+  {
+    source: "candida-albicans-morphology-v1-master.png",
+    target: "candida-albicans-morphology-v1",
+    title: "Candida albicans morphology",
+    description: "Microscopy-informed reconstruction of Candida albicans in budding yeast and short pseudohyphal growth forms. Scientific illustration; not a clinical micrograph.",
+    width: 1536,
+  },
 ];
 
 function xmp({ title, description }) {
   const escape = (value) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
-  return `<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+  return `<?xpacket begin="\uFEFF" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/">
   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/">
